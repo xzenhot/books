@@ -33,6 +33,7 @@ After **every** command in this workflow completes — including read-only, no-o
 /book <bookname> enrich <count>|range|*                                              # 6a. fuse active filters into one combined agent and enrich chapters in one pass
 /book <bookname> eval all|*|<n>|<range>|continue                                     # 6b. evaluate pipeline completeness before write/publish (read-only)
 /book <bookname> review *|all|<n>                              # 6c. audit chapters against quality parameters via the review agent (quality gate)
+/book <bookname> humanize *|all|<n>                            # 6d. ensure content is in the target language only; remove non-relevant characters
 /book <bookname> form <formname>                                                     # 7. set/change the book's form
 /book <bookname> config [<key> [<value>]]                                            # 8. get/set the book's model config
 /book <bookname> add <chapter-count> filter <filter>                          # 9. add chapters and run a single filter
@@ -57,6 +58,7 @@ After **every** command in this workflow completes — including read-only, no-o
 | `filter` | Runs a single named filter inside an existing pipeline. Never scaffolds or writes finished chapters. The `*` / `all` bulk form is disabled; run each filter separately. |
 | `enrich` | Fuses the active (`autorun: true`) filters from `filters.json` into one combined agent and runs it in a single pass over the selected chapters, recording the combined enrichment guidance in each chapter's `model.json` ready for write or publish. Never scaffolds, never reads or writes `chapter.md`, and never writes finished chapters. |
 | `review *|all|<n>` | Audit chapters against the seed analysis's quality parameters via the review agent at `.framework/agents/review/agent.md`; the quality gate that must pass before publish. Records `quality_review` result and sets state to `"completed"` on pass. |
+| `humanize *|all|<n>` | Ensure content is in the target language only (Bengali). Remove non-relevant characters (Chinese, Urdu, Latin) embedded in Bengali text and replace with Bengali equivalents. |
 | `form` | Changes the pipeline's `form` field and reconciles form-driven settings. |
 | `config` | Reads or writes book-level configuration values in `model.json` and chapter models. Requires an existing pipeline. |
 | `add <chapter-count> filter <filter>` | Adds more main chapters to an existing book pipeline, then runs the requested single filter for the newly added chapters. |
@@ -106,6 +108,7 @@ The `/book` workflow is a linear pipeline of six phases. Each phase has **one tr
 | 4a — Style | `/book <bookname> style [<style>]` | Transform latest writer-stage chapter versions through a named transformer style. | Style agent (`.framework/agents/style/agent.md`) | `.framework/templates/styles/<style>/style.md` + `segments/1/writer/` | next `segments/1/writer/chapter_v*.md` |
 | 4b — Translate | `/book <bookname> translate <n>|all|continue <language>` | Translate latest writer-stage chapter versions without changing the live draft. | Translate agent (`.framework/agents/translate/agent.md`) | `segments/1/writer/chapter_v*.md` or `chapter.md` | `segments/1/translator/<language>.md` |
 | 5 — Quality & promote | `/book <bookname> filter quality`<br>`/book <bookname> review *|all|<n>` | Final quality gate and assembly into `book.md`. | Review agent (`.framework/agents/review/agent.md`) | Completed chapters | `source/books/<bookname>/<version>/book.md` |
+| 5b — Humanize | `/book <bookname> humanize *|all|<n>` | Polish chapter drafts to the target language only; remove non-relevant characters and replace with Bengali equivalents. | Humanize agent (`.framework/agents/humanize/agent.md`) | Reviewed chapters | Humanized `chapters/<n>/chapter.md` |
 
 ### Phase gates
 
@@ -113,6 +116,7 @@ The `/book` workflow is a linear pipeline of six phases. Each phase has **one tr
 - **Phase 4 is gated by Phase 3.** Do not write a chapter until the filters that feed it have produced their outputs.
 - **Phase 5 is gated by Phase 4.** Do not assemble `book.md` until all chapters are written.
 - **Review is gated by Phase 4 (write).** Do not review a chapter until it has a non-empty `chapter.md` draft. A chapter must be written before it can be reviewed.
+- **Humanize is gated by Phase 5 (review).** Do not humanize a chapter until its quality review has passed and it has a valid draft hash. Humanize runs after quality review and before publish.
 
 The workflow orchestrates these phases; it **never** executes layout, research, theme, syntax, or quality skills directly. It routes every skill-backed operation through the agent that owns the current phase. 
 
@@ -451,6 +455,33 @@ Responsibility: audit chapters against the seed analysis's quality parameters vi
 9. Report the resolved form, selected skill, processed chapter scope, and the chapter-model paths updated with `quality_review`.
 
 A chapter is publish-ready only when it is written, its quality review passed, and its draft hash is still current. Do not run `publish` from this command — it only audits and records results.
+
+## The Humanize Command
+
+For `/book <bookname> humanize *|all|<n>`:
+
+Responsibility: ensure the chapter draft is entirely in the target language (Bengali). Scan for non-relevant foreign-language characters — Chinese, Urdu, Latin scripts embedded within Bengali text — and replace them with their Bengali equivalents, producing clean continuous verse. This is the language-polish step that runs after quality review and before publish.
+
+- `all` / `*` — humanize every chapter in the plan (default).
+- `<n>` — a single chapter number.
+- `continue` — the first chapter that has been written but not yet humanized.
+
+1. Stop if `.space/pipeline/<bookname>/` does not exist; use `scaffold` first.
+2. Route the work through the humanize agent at `.framework/agents/humanize/agent.md`.
+3. For each target chapter:
+   - Read the chapter model at `chapters/<n>/chapter.json`.
+   - Verify `quality_review.status` is `"passed"` and `quality_review.sha256` matches the current draft hash. Stop if quality has not passed.
+   - Read the chapter draft `chapters/<n>/chapter.md`.
+   - Scan the draft for non-Bengali characters outside quotation marks.
+   - Replace each foreign-language character with the correct Bengali equivalent, making the text continuous.
+   - Leave characters inside quotes (`"..."` or `'...'`) untouched.
+   - Archive the prior draft to `history/humanize_<timestamp>.md`.
+   - Write the humanized draft back to `chapter.md`.
+   - Update the chapter model: set `humanized: true`, `humanized_at` (ISO 8601), and update `draft.sha256`.
+4. Do not modify `source/books/`, `progress.json`, or the backlog/epic.
+5. Report the chapter numbers processed and the number of foreign characters replaced.
+
+A chapter must be humanized before publish. Do not run `publish` from this command — it only polishes language.
 
 ### The human-in-the-loop override filter
 

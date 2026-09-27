@@ -40,7 +40,8 @@ Use this table to choose the recommended follow-up command. Remember the boundar
 | `/book <bookname> translate <n>\|all\|continue <language>` | Translated derivative written to `segments/1/translator/` | `/book <bookname> publish <language>` | `/book <bookname> write continue` |
 | `/book <bookname> poet\|poetry\|poem` | A single finished poem produced | `/book <bookname> filter quality` | `/book <bookname> publish` |
 | `/book <bookname> filter quality` | Quality gate passed or recorded | `/book <bookname> publish [<language>]` | Review `source/books/<bookname>/chapters/` |
-| `/book <bookname> review *|all|<n>` | Quality audit passed; all chapter models have `quality_review` and `state: "completed"` | `/book <bookname> publish [<language>]` | Review `source/books/<bookname>/chapters/` |
+| `/book <bookname> review *|all|<n>` | Quality audit passed; all chapter models have `quality_review` and `state: "completed"` | `/book <bookname> humanize *|all|<n>` | Review `source/books/<bookname>/chapters/` |
+| `/book <bookname> humanize *|all|<n>` | Chapter drafts humanized to target language only; all foreign characters replaced | `/book <bookname> publish [<language>]` | Review `source/books/<bookname>/version<k>/` |
 | `/book <bookname> add <chapter-count> filter <filter>` | New chapters added; filter run on new chapters | `/book <bookname> write continue` | `/book <bookname> enrich *` |
 | `/book <bookname> form <formname>` | Form changed in `model.json` | `/book <bookname> scaffold` (if structure needs rebuilding) | `/book <bookname> config` |
 | `/book <bookname> config [<key> [<value>]]` | Configuration inspected or updated | `/book <bookname> write all` | `/book <bookname> enrich *` |

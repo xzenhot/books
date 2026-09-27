@@ -49,6 +49,7 @@ For every `/book [args...]` request, follow this procedure:
 /book <bookname> <agentname> <chapter>|<n>|all|continue
 /book <bookname> enrich <count>|range|*
 /book <bookname> review *|all|<n>
+/book <bookname> humanize *|all|<n>
 /book <bookname> eval all|*|<n>|<range>|continue
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
 /book <bookname> style [<style>]
@@ -80,6 +81,7 @@ For every `/book [args...]` request, follow this procedure:
 | `<bookname> <agentname>` | Pipeline | `pipeline.md` | Run a registered agent against selected chapters. |
 | `<bookname> enrich` | Pipeline | `pipeline.md` | Fuse active filters into one combined pass. |
 | `<bookname> review` | Pipeline | `pipeline.md` | Audit chapters against quality parameters via the review agent; final quality gate before publish. |
+| `<bookname> humanize` | Pipeline | `pipeline.md` | Ensure content is in the target language only; remove non-relevant characters and replace with Bengali equivalents. |
 | `<bookname> eval` | Pipeline | `pipeline.md` | Evaluate pipeline completeness before write/publish. Read-only. |
 | `<bookname> write` | Pipeline | `pipeline.md` | Write finished chapters (story agent for novel, poetry agent for poetry). |
 | `<bookname> style` | Pipeline | `pipeline.md` | Transform writer-stage chapters through a style template. |
