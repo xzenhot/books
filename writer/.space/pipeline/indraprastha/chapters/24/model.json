@@ -1,0 +1,57 @@
+{
+  "chapter_index": 24,
+  "name": "24",
+  "word_target": 500,
+  "chapter_title": "Aurangzeb's Departure",
+  "chapter_summary": "Aurangzeb turns south and the empire stretches too far to hold its center, Delhi left to age while its emperor campaigns. The poem traces the long absence that quietly begins the city's decline.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The logistics of court life during military campaigning; how supplies, personnel, and artistic output traveled.",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Decline narratives in urban centers following a prolonged absence of central authority (e.g., abandonment patterns).",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Writing the poem as a series of overheard, fragmented correspondence—letters left on tables or draped over railings for decades to be found later.",
+      "Addressing an imagined scholar from a much later era (perhaps Victorian or colonial) who is cataloging the ruins and misunderstanding the nature of cyclical power loss.",
+      "Structuring the piece entirely around monetary transaction records: detailing bills, coinage exchange rates, and debts accumulating in the years following his departure."
+    ],
+    "story_options": [
+      "Setting: The vast, empty service courtyard connecting the main palace wings. Desire: A minor functionary responsible for managing the dwindling tax receipts attempts to count out enough currency to pay off a specific street vendor who knows too much about the court's secrets. Obstacle: The treasury vault is locked and requires an authorization signature that no longer exists.",
+      "Setting: A section of rooftop garden meant for medicinal herbs, now overgrown. Desire: Two servants meet under the pretense of tending plants, using their shared knowledge of local botany to track a specific individual who has fled with valuable pigments or rare seeds. Obstacle: The weeds are so thick they obscure all known paths.",
+      "Setting: A corner shop specializing in specialized imported goods (e.g., Persian mirrors, Venetian glass). Desire: A merchant attempts to calculate the true worth of his inventory by tallying exchange values against a hypothetical future gold standard, realizing local currency is worthless compared to its accumulated stock. Obstacle: The buyer insists on accepting outdated Mughal coinage."
+    ],
+    "subject_rotations": [
+      "Focusing exclusively on the *infrastructure* decay—the slow failure of sophisticated waterworks, drainage, and specialized carpentry due to lack of maintenance funding.",
+      "Treating the period as a cultural retreat: The shift from grand courtly artifice to intensely private, local forms of expression (oral storytelling, neighborhood rituals) surviving the political vacuum.",
+      "The economic life persisting underground: Following specific, necessary trades—bakers, blacksmiths, laundresses—whose survival proves that daily life continues regardless of imperial decree."
+    ],
+    "sensory_details": [
+      "Sight: The way deep shadows pool in courtyards at midday, making the stone floor appear wet even when dry.",
+      "Sound: The specific, high-pitched cry of an unsupervised flock of domestic fowl echoing across deserted processional ways.",
+      "Smell: The sharp, metallic tang of old iron rusting on hinges and gates left unsealed for years."
+    ],
+    "research_questions": [
+      "What were the common emergency or transitional currency substitutes used by Delhi populations during periods when official royal coinage was suspended?",
+      "Were there established local systems (religious endowments, community trusts) that took over maintenance roles in major civic buildings immediately following an imperial withdrawal?",
+      "How did the architectural function of non-royal structures (markets, mosques, private havelis) change their day-to-day usage when royal patronage ceased?"
+    ],
+    "structural_variants": [
+      "A poem structured as a series of alternating lists: Official Decrees vs. Unofficial Notices.",
+      "A narrative employing dramatic caesura (pauses in the middle of lines/stanzas) to mimic gaps in memory or communication.",
+      "Using an object's biography—a single, durable piece of furniture or fountainhead—to span the years of neglect."
+    ],
+    "variety_note": "While previous chapters focused on peak construction or immediate conflict, this poem needs to capture the protracted melancholy and gradual entropy that occurs when authority simply vacates a grand space for an extended period."
+  }
+}

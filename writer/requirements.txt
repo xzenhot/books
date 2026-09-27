@@ -1,0 +1,20 @@
+# Novelist — consolidated Python dependencies
+#
+# Single install point for all Python tooling in this repository.
+# Install from the repo root:
+#   pip install -r requirements.txt
+#
+# (Or activate the shared venv first:
+#   .tools\.venv\Scripts\Activate.ps1 )
+
+# --- Publish service (.tools/db/publish_api.py) ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# --- Search MCP server (.tools/server.py, .tools/search-cli.py) ---
+mcp>=1.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# --- Optional: Tavily search provider (lazy-imported) ---
+# tavily-python>=0.3.0

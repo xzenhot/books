@@ -1,0 +1,51 @@
+{
+  "title": "The Invisible Law: A Prophet of Science and Soul",
+  "language": "en",
+  "source_terms": "bookseed.txt",
+  "context": "../context/qualities/aurilus.md + writer.md",
+  "total_chapters": 5,
+  "completed_chapters": 5,
+  "current_chapter": 5,
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "Gravity",
+      "category": "The One Blood",
+      "status": "completed",
+      "file_path": "chapters\\Chapter_001_Gravity.md",
+      "completed_date": "2026-08-29T00:00:00Z"
+    },
+    {
+      "chapter_number": 2,
+      "topic": "Entropy",
+      "category": "The Last Change",
+      "status": "completed",
+      "file_path": "chapters\\Chapter_002_Entropy.md",
+      "completed_date": "2026-08-29T00:00:00Z"
+    },
+    {
+      "chapter_number": 3,
+      "topic": "Photon",
+      "category": "The Inner Citadel",
+      "status": "completed",
+      "file_path": "chapters\\Chapter_003_Photon.md",
+      "completed_date": "2026-08-29T00:00:00Z"
+    },
+    {
+      "chapter_number": 4,
+      "topic": "Resonance",
+      "category": "The Woven Whole",
+      "status": "completed",
+      "file_path": "chapters\\Chapter_004_Resonance.md",
+      "completed_date": "2026-08-29T00:00:00Z"
+    },
+    {
+      "chapter_number": 5,
+      "topic": "Equilibrium",
+      "category": "The Uncluttered Soul",
+      "status": "completed",
+      "file_path": "chapters\\Chapter_005_Equilibrium.md",
+      "completed_date": "2026-08-29T00:00:00Z"
+    }
+  ]
+}

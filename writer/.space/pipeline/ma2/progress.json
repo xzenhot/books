@@ -1,0 +1,147 @@
+{
+  "title": "ma: এর কবিতা",
+  "language": "বাংলা",
+  "source_terms": [
+    "জন্মের আলো",
+    "প্রথম আহ্বান",
+    "কোলে পৃথিবী",
+    "যত্নের পথ",
+    "ত্যাগের হিসাব",
+    "নীরব প্রার্থনা",
+    "বিদায়ের সিঁড়ি",
+    "শূন্য ঘরের গন্ধ",
+    "স্মৃতির প্রদীপ",
+    "ফিরে দেখা",
+    "অপরাধের ভার",
+    "হাতের ভেতর মা",
+    "সবার মা",
+    "যা মৃত্যু পারে না",
+    "প্রতিধ্বনি"
+  ],
+  "context": "model.json",
+  "total_chapters": 15,
+  "completed_chapters": 0,
+  "current_chapter": 1,
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "জন্মের আলো",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\1\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "প্রথম আহ্বান",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\2\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "কোলে পৃথিবী",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\3\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "যত্নের পথ",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\4\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "ত্যাগের হিসাব",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\5\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "নীরব প্রার্থনা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\6\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "বিদায়ের সিঁড়ি",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\7\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "শূন্য ঘরের গন্ধ",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\8\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "স্মৃতির প্রদীপ",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\9\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "ফিরে দেখা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\10\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 11,
+      "topic": "অপরাধের ভার",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\11\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 12,
+      "topic": "হাতের ভেতর মা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\12\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 13,
+      "topic": "সবার মা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\13\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 14,
+      "topic": "যা মৃত্যু পারে না",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\14\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 15,
+      "topic": "প্রতিধ্বনি",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\15\\chapter.md",
+      "completed_date": null
+    }
+  ]
+}

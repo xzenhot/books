@@ -1,0 +1,62 @@
+{
+  "chapter_index": 11,
+  "name": "11",
+  "word_target": 500,
+  "chapter_title": "The New Bridge",
+  "chapter_summary": "A concrete bridge is begun, and the ferry's days are numbered. The boatman confronts the coming world — the bridge, the money, the closing of the old crossings — and what it will erase from the river.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Architectural impact of modern infrastructure on traditional river economies in Bengal",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Oral transmission vs. codified knowledge in Bengali folk music theory",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the bridge not as a final replacement, but as an entirely new *type* of crossing—one that demands different kinds of transaction (visas, identification, toll cards) rather than just payment.",
+      "Adopting the perspective of the construction laborers themselves: their transient existence and relationship to the permanent concrete structure versus the fluid river life.",
+      "Framing the emotional confrontation as a dialogue between two competing forms of permanence: the eternal flow of the river current versus the rigid, calculated geometry of poured concrete."
+    ],
+    "story_options": [
+      "Setting: A brightly lit construction staging area where rebar is stacked next to the main dock; Desire: The majhi must deliver a small, highly personal item (a woven mat, a specific piece of river-smoothed wood) that cannot be digitized or measured for a foreman who only speaks in measurements and bills.",
+      "Setting: Directly adjacent to the bridge support pylon—the point where the solid world meets the flowing water; Desire: The boatman witnesses two separate groups crossing at once: one group treating the bridge as natural, the other treating it like an extension of their land-bound routine. Obstacle: A mandatory 'bridging fee' imposed by the local authority.",
+      "Setting: Inside a small, temporary market stall set up near the entrance/exit points of the new structure; Desire: The majhi attempts to sell one highly specialized song (a lullaby for a specific crop cycle) to a wealthy man who only accepts payment in government bonds or plastic cards."
+    ],
+    "subject_rotations": [
+      "Analyzing the *architecture* of absence: What specific elements of old river life (e.g., certain types of boat rigging, mud-brick dwelling styles) become impossible for the majhi to use when people are forced onto the bridge?",
+      "The song's adaptation: Instead of losing its meaning, how is the Bhatiyali transformed into a functional *chant* suitable for an industrialized routine (e.g., a rhythm used by construction workers)?",
+      "Shifting focus from the majhi's resistance to his *adaptation*: What new kind of service does he offer that utilizes both the river and the encroaching modernity?"
+    ],
+    "sensory_details": [
+      "The sharp, acrid smell of curing cement mixing with river dampness.",
+      "The high-pitched, resonant whine of industrial machinery operating unnaturally close to water level.",
+      "The texture of rough, sun-bleached jute sacking piled against the smooth, uniform grey blocks of new construction."
+    ],
+    "research_questions": [
+      "What are common Bengali idioms or folklore surrounding the meeting point of permanent structures (bridges) and ancient routes (rivers)?",
+      "How did pre-colonial Bengal manage tolls or rights-of-way on natural waterways before standardized modern bridge taxation was implemented?",
+      "Are there records detailing specific, culturally significant river crossings that were notably resistant to modernization?"
+    ],
+    "structural_variants": [
+      "A polyvocal structure: rapidly alternating between the highly lyrical internal world of the boatman (memory/song) and the staccato, procedural dialogue surrounding the bridge construction site.",
+      "An object-centric narrative focusing on a single discarded artifact—perhaps an old iron anchor chain segment found lodged near the new pilings—that bridges the two eras.",
+      "A circular poem: beginning with a description of crossing *before* the bridge's conceptual existence, describing the journey as if it never stopped changing."
+    ],
+    "unused_angles": [
+      "The concept of 'infrastructure fatigue': the weariness felt not just by the boatman, but by the river itself under the weight of perpetual human development.",
+      "Exploring a potential relationship between bridge building and changes in local caste dynamics or labor power distribution.",
+      "A focus on how specific natural signs (like certain migratory bird paths) are disrupted or diverted by the physical structure."
+    ],
+    "variety_note": "This poem must contrast the organic, fluid narrative of previous chapters with a highly rigid, encroaching modernity, creating tension through material juxtaposition rather than purely emotional conflict."
+  }
+}

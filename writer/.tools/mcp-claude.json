@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "novelist-search": {
+      "command": "python",
+      "args": [
+        "d:\\lab\\github\\writer\\.tools\\server.py"
+      ]
+    },
+    "novelist-book": {
+      "command": "python",
+      "args": [
+        "d:\\lab\\github\\writer\\.tools\\book_server.py"
+      ]
+    }
+  }
+}

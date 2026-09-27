@@ -1,0 +1,62 @@
+{
+  "chapter_index": 1,
+  "name": "1",
+  "word_target": 500,
+  "chapter_title": "The River Before Dawn",
+  "chapter_summary": "Mist lies on the water and a boat waits at a dark ghat before the first passenger arrives. The boatman runs his hand along the gunwale and begins, almost absently, to hum a tune the river seems to know. The poem opens the whole world of the delta and poses the question that will carry the book: who is this man, and where does his song come from?",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "pre-dawn fog linguistics in Bengal art",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "the mechanics and sounds of ancient river transport infrastructure",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing entirely on the boat structure itself—its wood grain, its knots, its specific patina from decades in water, treating it as an organic character.",
+      "Framing the moment not around the *majhi's* internal state, but through the perspective of a stationary natural element (a submerged root, a patch of mud) observing him.",
+      "Using the soundscape to build tension: contrasting absolute silence with one sharp, unexpected human noise that breaks the mythic quiet."
+    ],
+    "story_options": [
+      "Setting: A single, unused fisherman's shelter on the outer bank; Desire: The majhi desires a moment of perfect stillness before work begins; Obstacle: An unusually strong overnight tide pushes debris against the ghat steps; Turn: He must use his hands to clear a blockage, forcing an impromptu song/chant.",
+      "Setting: Inside the boat's storage space, smelling of wet jute and old wood; Desire: The majhi wants to reconnect with the memory of his father singing here; Obstacle: A small child playing near the ghat spills something valuable (a sweetmeat vendor's wares) into the mud beside the boat; Turn: He sings a song directed at the resilience of local childhood.",
+      "Setting: Looking out across the river towards the opposite bank, visible only as a pale smudge in the mist; Desire: To see a specific landmark or person on that shore before daybreak; Obstacle: The persistent fog thickens unnaturally fast; Turn: He sings about how landmarks are defined by memory, not visibility."
+    ],
+    "subject_rotations": [
+      "Treating the river at this hour as an entity with its own 'routine' or temperamental mood, independent of human interaction.",
+      "Examining the material reality of the ghat—the dampness affecting the stone, the discarded items from the previous night—as a source of poetry.",
+      "Developing the concept of inherited musical knowledge: showing the *act* of humming as physical muscle memory rather than artistic choice."
+    ],
+    "sensory_details": [
+      "The smell of brackish water mixed with woodsmoke lingering on damp silt.",
+      "The slick, cool feel of wet river stone under bare feet at the water's edge.",
+      "The sound of cicadas beginning their tentative chorus from overhanging foliage."
+    ],
+    "research_questions": [
+      "What are the customary local superstitions or rituals performed on a boatman before commencing travel?",
+      "What specific types of pre-dawn sounds characterize life in river delta villages (beyond general silence)?",
+      "How did traditional lullabies or preparatory songs for workers differ from ceremonial music in Bengal?"
+    ],
+    "structural_variants": [
+      "A frame narrative where the 'humming' is interrupted by an internal monologue that questions its origin.",
+      "Structuring the poem as a call-and-response with the river itself (personified), making the water a silent chorus.",
+      "An object focus: following one specific, recurring element—like a piece of drifting debris or a bird feather—as it floats past during the initial crossing."
+    ],
+    "unused_angles": [
+      "The contrast between the boatman’s apparent solitude and the dense tapestry of life contained within the surrounding village structures.",
+      "Exploring the physical geography of the ghat steps themselves (their wear, their layering over time) as metaphors for history.",
+      "Incorporating a sensory detail related to taste—the mineral tang of dawn air."
+    ],
+    "variety_note": "This chapter shifts focus from active journeying or interaction (as seen at the Ghat) to pure potential and internal atmosphere, establishing the deep, unseen rhythm that precedes action."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SearchResponse",
+  "type": "object",
+  "required": ["query", "results", "total", "generated_at"],
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "The original search query."
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "url", "snippet"],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "The title of the result."
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "The canonical URL of the result."
+          },
+          "snippet": {
+            "type": "string",
+            "description": "A plain-text summary or excerpt of the result content."
+          },
+          "source": {
+            "type": "string",
+            "default": "unknown",
+            "description": "The search backend or source that produced the result."
+          },
+          "published": {
+            "type": ["string", "null"],
+            "format": "date",
+            "description": "Publication date in ISO-8601 format, if known."
+          },
+          "rank": {
+            "type": ["integer", "null"],
+            "description": "The rank/order of this result in the result set."
+          }
+        }
+      }
+    },
+    "total": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of results returned in this response."
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "UTC ISO-8601 timestamp of when the response was generated."
+    }
+  }
+}

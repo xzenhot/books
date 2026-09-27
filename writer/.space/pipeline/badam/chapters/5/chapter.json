@@ -1,0 +1,62 @@
+{
+  "chapter_index": 5,
+  "name": "5",
+  "word_target": 500,
+  "chapter_title": "The Passenger Without Money",
+  "chapter_summary": "A poor passenger arrives who cannot pay the fare, and the majhi ferries her across anyway. This is the first moral turn of the cycle, when service is measured not in fare but in need, and the boatman's generosity is given without sentiment.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The economics of service labour in pre-industrial Bengal river towns",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Folklore concerning unpaid/sacrificial crossings or boatman myths",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the entire transaction through the perspective of the river itself: the water current feeling the imbalance where payment should be, and compensating for it.",
+      "Framing the refusal to accept money not as altruism, but as a highly sophisticated, non-monetary form of social currency exchange or debt repayment in kind.",
+      "Examining the 'poor passenger' not as an individual case study, but as representing a specific archetype of marginalized existence within the delta ecosystem (e.g., seasonal migrant laborer)."
+    ],
+    "story_options": [
+      "Setting: The approach to the ghat during a sudden squall that obscures vision; Desire: To move her across safely despite reduced visibility and fear of drift; Obstacle: The passenger suddenly becomes highly resistant, physically blocking the path or refusing any physical contact needed for passage; Turn: The majhi doesn't row *past* the resistance, but anchors against it until both surrender to a shared wait.",
+      "Setting: A stretch of river choked with debris that slows the boat immensely; Desire: To prove that their bond/need is stronger than material obstruction; Obstacle: They get stuck in the sludge mid-river; Turn: The majhi must physically push or pull the passenger through the most resistant part, sharing the strain.",
+      "Setting: A sheltered cove near an inlet entrance where currents swirl unpredictably; Desire: To reach a safe landing point that requires precise timing and gentle navigation; Obstacle: They are pushed towards dangerous undertows despite the majhi's skill; Turn: The passenger must contribute an unexpected, non-physical element—a gesture, a song fragment, or an item of sentimental value—to help stabilize the passage."
+    ],
+    "subject_rotations": [
+      "Focusing solely on the interaction between the unpaid passenger and the physical wood/ropes of the boat, treating it as a non-verbal dialogue about mutual obligation.",
+      "Analyzing the silence that occurs when money changes hands: contrasting the expected transactional noise with the actual quiet weight of an unpayable debt or favour.",
+      "Shifting perspective to another passerby on the ghat who *witnesses* this exchange and narrates their judgment of the majhi's ethics, rather than the ma... itself."
+    ],
+    "sensory_details": [
+      "The distinct, faintly sweet smell of damp river silt mixed with unwashed wool or cheap turmeric paste clinging to the passenger’s shawl.",
+      "The grit under the fingernails of the majhi when he grips the edge of the boat against an unseen current.",
+      "The specific high-pitched whine of cicadas that become suddenly loud and oppressive when the water stills for a moment."
+    ],
+    "research_questions": [
+      "What were customary or ritualistic 'payment' methods in local Bengal culture before reliable coinage (e.g., barter of spices, dried fish)?",
+      "Are there specific literary tropes about charity or selfless service that function as cultural critiques rather than pure moral statements?",
+      "How did the passage of monsoon affect the willingness of communities to accept non-standard forms of payment for vital transport services?"
+    ],
+    "structural_variants": [
+      "A dialogue heavy piece, built almost entirely through back-and-forth conversation establishing mutual understanding rather than action.",
+      "A poem structured as a ledger entry: listing assets (physical items, emotional debts) and subtracting the immediate lack of currency to reach a 'balance' for passage.",
+      "The chapter being composed of three distinct movements: 1. Arrival/Stasis; 2. Attempted negotiation/Tension; 3. Departure/Resolution."
+    ],
+    "unused_angles": [
+      "Exploring the physical sensation of the boat moving over a patch of submerged, forgotten wreckage—a metaphor for unpayable debts.",
+      "The passenger actively trying to *misremember* what she owes or who she belongs to in order to maintain the status quo of non-payment.",
+      "A momentary focus on the tools the majhi keeps aboard (a small mirror, a length of rope) as silent witnesses to his moral calculus."
+    ],
+    "variety_note": "This chapter diverges from mechanical descriptions by centering purely on an ethical transaction; it foregrounds 'need' over physical action or musical rhythm in its core conflict."
+  }
+}

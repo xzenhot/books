@@ -1,0 +1,62 @@
+{
+  "chapter_index": 14,
+  "name": "14",
+  "word_target": 500,
+  "chapter_title": "The Pillar of Ashoka",
+  "chapter_summary": "Firoz Shah carries the ancient pillar of Ashoka to his new city, an old inscription placed among young stones. The poem reads the pillar as a thread connecting Delhi to an empire even older than itself, and to the long memory of rule.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Mauryan administration and early Indian infrastructure development",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Symbolism of Ashokan edicts versus contemporary courtly inscriptions (e.g., Mughal or Sultanate)",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "The concept of sacred geometry in the placement and orientation of monumental public works across Indian history",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing Ashoka's edicts through the lens of mandatory 'public service announcements': what is the cost (socially, politically) of universal moralizing?",
+      "Shifting focus to the local merchants who treat the pillar not as sacred history, but as a highly desirable, immovable commodity or anchor point for their stalls.",
+      "A narrative built entirely around delay: characters waiting in line—for an official verdict, for water drawn near the column, for passage through the plaza—all defined by the shadow cast by the pillar at different times of day."
+    ],
+    "story_options": [
+      "Setting: The stone base of the pillar during a period when municipal workmen are attempting to 'cleanse' it using harsh chemicals. Desire: A young scribe is hired to record the *original* patina and mineral stains before they are scrubbed away by profit-driven restoration efforts.",
+      "Setting: A dusty, temporary market area adjacent to the grand construction site. Obstacle: The pillar blocks an optimal thoroughfare for a newly established artisan guild. Turn: The conflict forces the community to create entirely new economic arteries around this immovable historical monument.",
+      "Setting: A private family courtyard attempting to establish status by building their structure directly against the shadow line of the Pillar. Desire: Their desire to appear 'rooted in history' clashes with the practical architectural needs of modern habitation, leading to a dispute over property lines."
+    ],
+    "subject_rotations": [
+      "Treating the inscription itself as a form of historical censorship: what parts of Ashoka’s message were selectively copied, omitted, or deliberately misinterpreted by succeeding generations?",
+      "Analyzing the physical process of transport: following the people, animals, and manpower involved in moving such an immense, sacred relic from its distant origin to a nascent new capital.",
+      "A focus on reception history: rather than what Ashoka said, the poem details how different subsequent groups—bards, tax collectors, foreign traders—have *heard* or *understood* its message over time."
+    ],
+    "sensory_details": [
+      "The specific grit of lime dust that perpetually coats exposed stone, mixing with millennia-old soot.",
+      "The metallic tang on the tongue from touching the cold, oxidized metal fittings attached to the pillar’s base plaque.",
+      "The echoing sound of sandals shuffling in perfectly raked sand immediately surrounding the plinth structure."
+    ],
+    "research_questions": [
+      "What is the logistical difficulty and timeline for relocating or replicating monumental public inscriptions across vast distances without modern machinery?",
+      "Were specific regional stone types preferred for state symbols, and if so, how did that choice reflect political allegiance over time?",
+      "How were sacred or state-sanctioned boundary markers viewed by common citizens versus religious authorities in historical Indian city planning?"
+    ],
+    "structural_variants": [
+      "A poem structured as a dialogue between an expert historian and a cynical, working laborer who only cares about the pillar's immediate utility (as a marker or obstacle).",
+      "A cyclical structure using astronomical alignments: tracking how the sun hits specific characters on the edict at solstices or equinoxes.",
+      "An object catalogue poem—listing every item that *rests* against, *is cast in shadow by*, or *touches* the pillar's immediate perimeter."
+    ],
+    "variety_note": "Unlike earlier chapters focused on military sieges (Tarain, Panipat) or imperial expansion, this piece zeroes in on cultural accretion: how a seemingly static artifact becomes a charged point of origin and enduring reference for successive power structures."
+  }
+}

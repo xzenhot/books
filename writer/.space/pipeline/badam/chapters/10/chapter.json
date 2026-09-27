@@ -1,0 +1,62 @@
+{
+  "chapter_index": 10,
+  "name": "10",
+  "word_target": 500,
+  "chapter_title": "The Song Returns",
+  "chapter_summary": "The Bhatiyali passes from father to son, the song becoming the thread that binds the old life to the new. The son begins to choose, and the poem marks the inheritance of memory as much as of trade.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Oral transmission of regional folk music in Bengal",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Sociology of hereditary artisanal labor castes (Majhi)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the song itself as a physical, tangible commodity: is it currency, or is it a required offering? How does one 'package' a memory into sound for trade?",
+      "Viewing the inheritance not through performance, but through literacy: perhaps the son struggles to write down notes of his father’s songs before they fade, contrasting oral tradition with modern record-keeping.",
+      "The song as an act of necessary deception: learning that the beautiful, resonant parts are what are kept for 'show,' while the true working songs are relegated to silence or private grief."
+    ],
+    "story_options": [
+      "Setting: The boat parked near a small, newly built brick dwelling belonging to a merchant's family; Desire: To perform a song that mixes an ancient Bhatiyali lament with a modern, marketable tune about commerce/progress; Obstacle: The father insists the melody must be pure of any commercial influence, leading to conflict over structure.",
+      "Setting: A quiet stretch of river bend visible only from the muddy bank where the son is sitting alone; Desire: To sing a song entirely invented in that moment, using only sounds mimicking the unique flow dynamics of the water against the submerged stone—a sound-signature belonging only to this spot; Obstacle: The ambient noise pollution from the adjacent residential area consistently drowns out the specific required resonance.",
+      "Setting: During a momentary halt when the boat is tethered between two ghats, late afternoon light filtering through drying laundry lines; Desire: To perform the song for an unrelated child who has wandered down to the water's edge; Obstacle: The performance must be so captivating that it distracts the father long enough for the son to slip away and explore a hidden part of the riverbank."
+    ],
+    "subject_rotations": [
+      "Examining the song structure itself: isolating specific rhythmic patterns within the music (e.g., 3/4 time versus 6/8) and linking those rhythms directly to physical actions or natural cycles observed during the crossing.",
+      "Shifting focus from 'memory' to 'vocabulary': mapping how different songs use identical, repeated lyrical phrases but assign them entirely different emotional weights depending on who sings them (father vs. son).",
+      "Treating the learning process as apprenticeship in *silence*: realizing that knowing when *not* to sing—when to simply listen to the river's sound or the household sounds nearby—is the most advanced form of mastery."
+    ],
+    "sensory_details": [
+      "The metallic scent accompanying old, unwashed copper coins used for petty exchanges at the ghat.",
+      "The precise visual weight and slow arc of dust motes visible in a shaft of sunlight cutting across the boat's floorboards.",
+      "The faint but persistent aroma of woodsmoke mixed with fermenting mango pulp wafting from an upstairs window overlooking the river."
+    ],
+    "research_questions": [
+      "What specific local names or deities associated with rivers/water travel are invoked in Bhatiyali songs that have been historically superseded by modern Bengali cultural touchstones?",
+      "Are there recorded examples of Bengali folklore where a song's power was explicitly stated to be *transferable* via direct instruction rather than mere listening?",
+      "How did the advent of cheap, mass-produced materials (like treated lumber or painted metal) affect the perceived 'authenticity' in traditional river craftsmanship compared to hand-wrought items?"
+    ],
+    "structural_variants": [
+      "A tripartite structure: Part I focuses on the Father's established Song; Part II is a dissonant interlude incorporating sounds from the house/neighbourhood that break the song’s rhythm; Part III resolves by merging the two, not in agreement, but in necessary coexistence.",
+      "Structuring it as an overheard argument or negotiation (internalized monologue) where the son argues for his right to adapt the tradition versus the father's insistence on preservation.",
+      "A collage structure: beginning with a vivid scene of song performance, transitioning abruptly into dry descriptive passages detailing the house life nearby, and then returning to the music as if it were trying to 'rebuild' itself from those mundane details."
+    ],
+    "unused_angles": [
+      "How does the act of singing alter the physics or perceived resistance of the water—does a profound song actually seem to make the current smoother?",
+      "Exploring the lineage through non-musical skills: perhaps the son inherits his father's ability not to sing, but to read the riverbed signs (shoals, undertows) that no book can teach.",
+      "The conflict being rooted in gender roles: is the 'song' tradition more fluidly passed down through the women who care for the singers, rather than the male boatmen?"
+    ],
+    "variety_note": "This chapter focuses intensely on inter-generational knowledge transfer (son learning from father), unlike previous chapters which dealt with external pressures or physical labor; it foregrounds the immaterial inheritance of art."
+  }
+}

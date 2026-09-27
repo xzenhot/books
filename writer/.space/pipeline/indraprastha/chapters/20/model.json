@@ -1,0 +1,54 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 500,
+  "chapter_title": "Akbar's Shadow",
+  "chapter_summary": "The Mughals move their seat away to Fatehpur Sikri and Agra, and Delhi becomes a city remembered rather than held. The poem contemplates a capital left behind, waiting through the years for its rulers to return.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Mughal administrative practices concerning provincial capitals versus imperial centers",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The role of semi-permanent structures: Focusing on specialized workshops, bazaars, or housing blocks that remained fully operational and self-sustaining even when the royal court moved away.",
+      "A narrative structured around forgotten bureaucratic routines: Highlighting specific ongoing functions—like the tax collection cycle for a distant province—that continued in Delhi long after the main power had left.",
+      "The poetic 'echo' of governance: Treating the architecture itself as retaining residual political gravity, making certain stones feel charged or resonant with past authority."
+    ],
+    "story_options": [
+      "Setting: A corner shop specializing in repairing complex Mughal astronomical instruments (like astrolabes). Desire: The owner tries to predict the next grand court by analyzing the patterns of specialized maintenance requests. Obstacle: A sudden scarcity of specific, non-local brass alloys.",
+      "Setting: The abandoned barracks or servants' quarters adjacent to the main palace precincts in Shahjahanabad. Desire: A group of aging retainers maintain a community memory library using fragile writing materials. Obstacle: A seasonal flood threatening to dissolve their records into silt.",
+      "Setting: An outdoor tannery or dyeing yard, utilizing the river’s outflow from a period when Mughal patronage was low. Desire: The artisans find that the dye recipes used now reflect old, banned courtly color palettes by accident. Obstacle: Local bandits are drawn to this unexpected cache of luxury materials."
+    ],
+    "subject_rotations": [
+      "Treating 'Akbar's Shadow' as a temporal delay mechanism: The poem measures time not by years passed since departure, but by the measurable decay rates of certain architectural elements (paint flaking, mortar erosion).",
+      "The focus on local power brokers replacing royal authority: Giving narrative weight to non-ruling figures—the powerful religious endowments, influential merchant guilds, or independent military commanders who fill the vacuum.",
+      "Personifying the forgotten infrastructure: Following the water lines, sewage systems, and underground conduits that continued their mechanical work regardless of which emperor occupied the throne."
+    ],
+    "sensory_details": [
+      "The faint, residual scent of burnt sandalwood incense clinging to deep stone crevices where ventilation was poor.",
+      "The sound of a specialized blacksmith shaping iron only for practical purposes—like hinges or cart axles—instead of purely decorative items.",
+      "The visual evidence of patterned staining on the courtyard paving stones caused by seasonal runoff mixing mineral deposits with discarded vegetable pigments."
+    ],
+    "research_questions": [
+      "What specific commodities or artisan skills were most economically valuable in Delhi during periods when imperial patronage drastically declined?",
+      "What archival records, if any, exist detailing the logistical transfer of state assets (like water rights or land titles) between Fatehpur Sikri and the residual power centers in Delhi?"
+    ],
+    "structural_variants": [
+      "An epistolary structure: A series of letters written by different non-royal observers over a span of decades, addressed to an unseen recipient.",
+      "A 'catalog' poem: Listing obsolete goods, defunct titles, and unremembered administrative departments that once operated from this specific ground."
+    ],
+    "unused_angles": [
+      "The slow erosion of local dialect influenced by courtly Persian/Hindustani until the dialects bleed back into a more vernacular form.",
+      "A focus on women’s domestic economy: How they maintained kinship networks and household economies using discarded imperial supplies."
+    ],
+    "variety_note": "While neighbouring chapters focused on active construction or immediate conquest, this chapter must embody stasis—a pause where the city operates by inertia rather than decree, focusing on maintenance over manifestation."
+  }
+}

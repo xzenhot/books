@@ -1,0 +1,67 @@
+{
+  "chapter_index": 7,
+  "name": "7",
+  "word_target": 500,
+  "chapter_title": "The Sultans Arrive",
+  "chapter_summary": "A new order rises over the old, and Delhi becomes the seat of the Sultanate. The poem traces the moment one world ends and another begins, the conquered stones repurposed by conquerors who will themselves be conquered.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Architectural adaptation of pre-existing Indian temple styles by early Islamic builders",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Taxation and economic control mechanisms implemented during the Delhi Sultanate",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "The role of specialized non-martial groups (scribes, astronomers) in establishing new political centers",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Structuring the poem as an overheard monologue—fragments addressed to a chronicler or an unknown scholar who will record the transient power.",
+      "Focusing on material culture: The specific way local crafts (metalwork, pottery) are forced to incorporate foreign stylistic elements (geometric patterns, calligraphy) under duress of new patrons.",
+      "The subjective experience of the city's water systems; how canals and cisterns—once symbols of stability—become points of surveillance or sudden, overwhelming change."
+    ],
+    "story_options": [
+      "Setting: A corner bazaar just outside the newly defined Sultanate walls. Desire: A merchant who trades in luxury goods from Bengal seeks validation from an established Mughal-era artisan guild that still holds sway over local tastes. Obstacle: The suspicion cast on all non-military personnel by new guards.",
+      "Setting: Inside a repurposed temple complex now housing a mosque courtyard. Desire: An elderly priest remembers the original function of the space and tries to reconcile its sacred history with its current, foreign ritual use. Obstacle: The physical conversion of devotional spaces requires permanent alterations that erase memory.",
+      "Setting: A makeshift quarter near the newly established arsenal/weapons depot. Desire: A young conscript soldier is given a specific task—polishing equipment meant for parades—and begins to see patterns or symbols in the dust and grime ignored by officers passing by."
+    ],
+    "subject_rotations": [
+      "Treating the city not as a fixed structure, but as a highly unstable circulatory system: focusing on how the movement of people (disease, goods, refugees) dictates the architecture more than any decree.",
+      "Examining the shift in linguistic resonance within the streets—the sudden prevalence of new court languages mixed with surviving local dialects and invocations.",
+      "A sequence dedicated solely to the changing relationship between light and shadow cast by different architectural forms: the sharp geometry of Islamic arches against the softer curves of pre-existing Indian structures."
+    ],
+    "sensory_details": [
+      "The cloying, unfamiliar sweetness of imported spices being smoked for preservation.",
+      "The jarring contrast between the rough texture of river clay used in everyday dwellings and the polished geometric inlay on official gates.",
+      "The persistent, acrid tang of unfamiliar burning resins used in religious ceremonies at the new centers of power."
+    ],
+    "research_questions": [
+      "What were the common structural compromises or 'pragmatic appropriations' made when converting Hindu/Jain temple spaces into early Islamic administrative buildings?",
+      "Can any surviving evidence detail how pre-existing guild structures in Delhi adapted their membership rules to serve multiple, often competing, patronage systems simultaneously?",
+      "Researching specific localized trade routes entering Delhi during the initial wave of Sultanate consolidation."
+    ],
+    "structural_variants": [
+      "A 'dialogue poem' structured between two voices: one representing the entrenched local power/culture, and one representing the new military/courtly administration.",
+      "A structure mirroring a topographical survey, moving systematically from the river bank inward towards the central citadel, marking what is gained and lost at each boundary.",
+      "A series of short, almost mythic personifications: giving voice to 'The Stone,' 'The Waterway,' or 'The Bazaar' as sentient entities observing the transient power plays."
+    ],
+    "unused_angles": [
+      "Focusing on the specific materials used for currency exchange and taxation documentation—the physical proof of new economic hierarchies.",
+      "A subplot involving smuggling: Goods that pass through the Sultanate border but whose origin or true intended destination is deliberately obscured by coded language or misdirection.",
+      "The role of professional entertainers (storytellers, dancers) who must adapt their repertoire instantly to satisfy patronage demands ranging from ancient folklore to new religious epics."
+    ],
+    "variety_note": "Where previous chapters focused on the *foundation* and *peak confidence* of a single group, this chapter emphasizes the *collision point*: the forced negotiation between established forms and invasive external power structures."
+  }
+}

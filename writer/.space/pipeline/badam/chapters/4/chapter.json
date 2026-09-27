@@ -1,0 +1,61 @@
+{
+  "chapter_index": 4,
+  "name": "4",
+  "word_target": 500,
+  "chapter_title": "The Ghat",
+  "chapter_summary": "The ferry ghat is the social hub of the delta — arrivals, departures, gossip, trade, and ritual meeting at the water's edge. The majhi's cordiality is a lived ethic, practiced daily with every passenger rather than spoken as a principle.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Material culture of river ghats in Bengal (stair construction, local trades)",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Ritual significance of river crossings beyond mere transport (burial rites, vows)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Addressing the ghat as a stage for performance: treating all interactions—fare collection, goodbyes, gossip—as formalized, necessary acts of theater for the majhi.",
+      "Using the absent recipient (the addressed person) to filter the description: every detail about the crowd or action is interpreted *through* their expected response or knowledge level.",
+      "Focusing on the temporal nature of 'waiting' at the ghat: contrasting the slow, cyclical waiting of regulars with the abrupt presence/absence of travelers in passing."
+    ],
+    "story_options": [
+      "Setting: A specific corner stall selling colored bangles or betel nut; Desire: The majhi needs to intercept a conversation about an old family obligation owed by one of the customers; Obstacle: The crowd is too dense and distracted by festival preparations, forcing him into subtle eavesdropping.",
+      "Setting: The steps leading up from the water's edge to the main thoroughfare, where commerce happens; Desire: To fulfill a favour for someone who passed through years ago but never paid it back; Obstacle: He must navigate the modern flow of foot traffic (vendors, vehicles) that disrupts his traditional path.",
+      "Setting: Observing children playing games near the muddy edges of the ghat, using their unrestrained energy as a mirror to what life should be; Desire: To teach one child a specific gesture or song fragment associated with crossing rivers safely; Obstacle: The parent of the child intervenes harshly, pulling them away from the water's influence."
+    ],
+    "subject_rotations": [
+      "The ghat as an economic transaction point: detailing the exchange rates not just in currency but in favors owed or communal goods.",
+      "The interaction between caste/class boundaries at the ghat—how people congregate, where they stand relative to each other while waiting for a boatman.",
+      "Shifting focus entirely from the majhi's action to the collective memory etched into the stone steps themselves—a palimpsest of all arrivals and departures."
+    ],
+    "sensory_details": [
+      "The sharp, sweet aroma of burnt sacrificial wood mixing with river humidity near the ghat railings.",
+      "The rough texture of sun-bleached lime plaster dusting the lower, frequently wet portions of the stone steps.",
+      "The sudden, high-pitched sound of a vendor's unique call that cuts through the ambient hum of human voices and lapping water."
+    ],
+    "research_questions": [
+      "What specific, non-musical verbal greetings or courtesies are traditionally exchanged between boatmen and passengers at this location?",
+      "Are there documented roles for women on the ghat who facilitate trade or information exchange outside of direct passenger service?",
+      "How did monsoon debris (e.g., unique types of washed up materials) accumulate or change the physical appearance of these riverfront steps over time?"
+    ],
+    "structural_variants": [
+      "A poem structured in call-and-response sections: Stanza 1 reflects what the addressed person *said* to him; Stanza 2 reflects how he *felt*; Stanza 3 is his poetic response, directed outward.",
+      "Using sharp shifts in focus—from a close-up on wet feet trekking uphill to a wide panoramic view of the bustling river mouth—to mimic peripheral awareness."
+    ],
+    "unused_angles": [
+      "The political nature of the ghat: who controls access and who profits from the flow of people.",
+      "The specific rituals performed by those saying farewell, particularly regarding objects left behind on the shore (a piece of cloth, a carved token).",
+      "A comparison between the perceived 'public' space of the ghat and the intimate, private micro-space *inside* the boat."
+    ],
+    "variety_note": "Unlike previous chapters focused on linear movement or elemental states, this chapter grounds the poem in dense human interaction, turning the physical location itself into a complex social character defined by transaction and waiting."
+  }
+}

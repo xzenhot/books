@@ -1,0 +1,67 @@
+{
+  "chapter_index": 26,
+  "name": "26",
+  "word_target": 500,
+  "chapter_title": "The Marathas",
+  "chapter_summary": "The Marathas rise and the Mughal shadow thins, the city caught between a fading empire and a rising power. The poem observes the shifting of power as the old center weakens and new forces circle.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Maratha military organization and local integration into urban life",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The specific role of regional economies (e.g., Deccan trade routes) in destabilizing Delhi's central authority",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Artistic representation of transitional military forces in painting or miniature works from the 18th century",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the city not through the perspective of the ruling palace, but from a vital market nexus (e.g., Chandni Chowk's periphery) that profits regardless of who holds ultimate power.",
+      "Following a specific commodity chain—salt or grain—as it navigates the changing checkpoints and taxation points between Mughal decline and Maratha assertion.",
+      "Interpreting the physical architecture as contested territory: which buildings survive neglect, suggesting continued use by local communities despite imperial abandonment?"
+    ],
+    "story_options": [
+      "Setting: A well-established spice vendor's stall near a major thoroughfare. Desire: The vendor needs specific passes/tax exemptions from three different overlapping authorities (Mughal remnants, Maratha agents, local guilds) to keep trading.",
+      "Setting: An abandoned section of the outer palatial gardens, now used for cattle grazing and temporary housing. Desire: A young woman must cross a familiar ritual site but now encounters a distinctively uniformed group suggesting new ownership or authority.",
+      "Setting: A specific public wellhead that services multiple quarters (both Mughal retainers and newer immigrant settlements). Desire: The caretaker notices the changing flow—a subtle shift in water quality, taste, or the amount of refuse dumped into it by different groups."
+    ],
+    "subject_rotations": [
+      "Focusing on the cultural syncretism required for daily survival: how religious practices and local customs adapt when state sponsorship evaporates.",
+      "The logistics of governance at a semi-feudal level: detailing the micro-bureaucracy (tax collection, policing petty disputes) that rises to fill the void left by imperial structures.",
+      "A poem structured around echoes: comparing ceremonial processions from one era (Mughal grandeur) with ritualized displays of force or loyalty from another (Maratha disciplined movement)."
+    ],
+    "sensory_details": [
+      "Sight: The jarring contrast between the deep, saturated indigo dye used for textiles associated with older courts and the rougher, earthy turmeric yellow favored by new military contingents.",
+      "Sound: The rhythmic, uneven beat of specialized hand-operated bellows from a local metalworker contrasting against the occasional distant blast of standardized musket fire.",
+      "Smell: The mixed odor of stale incense (ritual purification) layered over the unmistakable scent of horse sweat and unwashed wool."
+    ],
+    "research_questions": [
+      "What were the specific economic mechanisms (e.g., *jagirs*, trade taxes, commodity tariffs) that allowed regional powers to assert control without outright military conquest?",
+      "How did pre-existing local community defense structures or guilds integrate into the changing power dynamics following Mughal weakening?",
+      "Can we find evidence of 'neutral' professional classes whose livelihood depended on multiple ruling authorities simultaneously?"
+    ],
+    "structural_variants": [
+      "The chapter told as a series of interlocking, incomplete legal documents or revenue assessments that nobody can fully reconcile.",
+      "A narrative built around triangulation: showing the same landmark (a specific peepal tree, a gateway) observed at three different times across the period—pre-event, during transition, and post-control.",
+      "Employing an epistolary format where letters are passed between proxies who never meet, only passing information about changing loyalties."
+    ],
+    "unused_angles": [
+      "The role of women in maintaining continuity: focusing on matriarchal networks within the city that financed or supported survival across regime changes.",
+      "Detailed examination of infrastructure upkeep—who is paid to keep basic things working (the blacksmiths, the well-diggers) when patrons withdraw funding?",
+      "A comparative mythology piece analyzing local folklore elements that gain prominence *after* imperial narrative fails."
+    ],
+    "variety_note": "Unlike previous chapters focusing on monumental structures or singular events of collapse, this chapter focuses the gaze horizontally—on the friction and necessary adaptation happening in the interstitial spaces between established power centers."
+  }
+}

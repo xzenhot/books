@@ -1,0 +1,209 @@
+{
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "The River Before Dawn",
+      "file_path": "chapters/1/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "The Boatman's Oar",
+      "file_path": "chapters/2/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "The Song of the Current",
+      "file_path": "chapters/3/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "The Ghat",
+      "file_path": "chapters/4/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "The Passenger Without Money",
+      "file_path": "chapters/5/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "The River's Seasons",
+      "file_path": "chapters/6/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "The Village of the Majhis",
+      "file_path": "chapters/7/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "The Debt and the River",
+      "file_path": "chapters/8/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "The Crossing at Night",
+      "file_path": "chapters/9/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "The Song Returns",
+      "file_path": "chapters/10/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 11,
+      "topic": "The New Bridge",
+      "file_path": "chapters/11/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 12,
+      "topic": "The River Remembers",
+      "file_path": "chapters/12/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 13,
+      "topic": "The Oar-Lock's Creak",
+      "file_path": "chapters/13/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 14,
+      "topic": "The Fish in Payment",
+      "file_path": "chapters/14/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 15,
+      "topic": "The Monsoon Letter",
+      "file_path": "chapters/15/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 16,
+      "topic": "The Dry Bed",
+      "file_path": "chapters/16/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 17,
+      "topic": "The Boatman's Daughter",
+      "file_path": "chapters/17/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 18,
+      "topic": "The Ferry Fare",
+      "file_path": "chapters/18/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 19,
+      "topic": "The Last Crossing",
+      "file_path": "chapters/19/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 20,
+      "topic": "The River Remembers the Song",
+      "file_path": "chapters/20/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    }
+  ],
+  "total_chapters": 20,
+  "written_chapters": 0,
+  "completed_chapters": 0,
+  "published": false,
+  "current_chapter": 1
+}

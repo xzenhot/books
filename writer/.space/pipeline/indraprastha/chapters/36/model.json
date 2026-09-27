@@ -1,0 +1,65 @@
+{
+  "chapter_index": 36,
+  "name": "36",
+  "word_target": 500,
+  "chapter_title": "The Swelling City",
+  "chapter_summary": "Delhi swells far beyond every wall ever raised, its old cities absorbed into one sprawling metropolis. The poem moves through the noise and scale of the modern capital, the ancient layers buried beneath the new.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Urban infrastructure planning in post-colonial India (metro systems, flyovers)",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The socioeconomics of informal settlements adjacent to major historical nodes",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Sound mapping of modern mega-cities: identifying the sound of ceaseless construction/traffic flow",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The bureaucratic vs. biological city: Contrasting the straight lines of planned development (metro tracks, arterial roads) with the curved, organic growth dictated by utility needs and forgotten pedestrian paths.",
+      "Time compression through routine: Framing time not historically, but cyclically—how a single stretch of pavement has witnessed 10 different types of waste disposal over its lifetime.",
+      "The architecture of noise pollution: Treating sound itself as physical matter that accumulates in the gutters and alleyways between major structures."
+    ],
+    "story_options": [
+      "Setting: The construction site where an ancient water channel intersects a modern elevated expressway. Desire: To find one intact, non-reused piece of pre-modern stonework; Obstacle: Heavy machinery constantly demolishing anything older than the last decade.",
+      "Setting: A deep, narrow cut-through alleyway (gully) choked with utility wires and discarded materials. Desire: For a momentary pocket of absolute silence shielded from traffic noise; Obstacle: The constant drip/thrumming sound emanating from unseen pipes or electrical boxes.",
+      "Setting: The periphery of the designated 'historical core,' where newer, standardized glass-and-steel buildings abut century-old bazaar structures. Desire: To find a merchant still using an obsolete, hand-counted accounting method; Obstacle: The overwhelming glare and uniformity of modern commercial signage."
+    ],
+    "subject_rotations": [
+      "Focusing solely on the underground utilities layer—the network of drains, cables, and forgotten pipes that physically connect every disparate part of the swelling city.",
+      "Treating 'sprawl' as a form of forgetting: How the sheer volume of new construction naturally erases local micro-histories from collective memory faster than any single political event can.",
+      "A poem framed by migratory patterns, tracking how specific animal life (pigeons, dogs) navigate and survive the overwhelming infrastructural changes."
+    ],
+    "sensory_details": [
+      "Sight: The flashing rainbow residue left by a highly polished vehicle's passing over accumulated industrial grit on wet asphalt.",
+      "Smell: The sharp, chemical odor of fresh concrete curing mixed with the underlying scent of decaying organic refuse from an inaccessible drainage grate.",
+      "Sound: The specific rhythmic clatter produced when multiple different types of metal—trolley wheel, discarded cutlery, scaffolding pole—hit each other in quick succession."
+    ],
+    "research_questions": [
+      "What were the primary materials used for non-structural infill or paving stones in rapid 20th-century urban expansion in Delhi?",
+      "How have utility companies physically mapped and documented subterranean services (water, sewage) in areas of contested historical layering?",
+      "What are the typical fauna visible navigating modern, high-density commercial zones adjacent to old walled city cores?"
+    ],
+    "structural_variants": [
+      "A poem structured as a series of overheard bureaucratic warnings or notices tacked onto public walls, interrupted by passages of pure observed natural detail.",
+      "Using contrasting stanzas: alternating between lists of new infrastructure elements (bridge names, corporate addresses) and highly fragmented oral histories about the same physical location pre-construction."
+    ],
+    "unused_angles": [
+      "The idea that the 'Swelling' is not organic growth but rather a deliberate modern effort to create erasure zones.",
+      "A comparison between the Mughal emphasis on controlled, contained grandeur and the current city's chaotic self-containment through sheer density."
+    ],
+    "variety_note": "Unlike the preceding chapters which focused on distinct political 'walls,' this poem addresses the horizontal expansion—the amorphous accretion of existence that happens between named historical sites."
+  }
+}
