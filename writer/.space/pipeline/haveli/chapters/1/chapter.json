@@ -65,13 +65,13 @@
     "variety_note": "Unlike chapters focusing on massive trade goods or grand architecture, this piece must remain intensely intimate and small-scale, centering ambition within the physical confines and low status of village life."
   },
   "draft": {
-    "sha256": "965d8ff99e0a867beba865108d37f9170c51dff87e81ba310c852c456a97aa04",
-    "written_at": "2026-09-27T16:58:49.906974+00:00",
-    "origin": "write"
+    "sha256": "432fbd84fc06941b0afe7542a9a4696b1ec1867408869217d1b1e68cc81ec094",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "965d8ff99e0a867beba865108d37f9170c51dff87e81ba310c852c456a97aa04",
+    "sha256": "7ddd2650e6bc858ff72f397c84b16a941314ed296a0f2da46fa1d93436c3ab4a",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -80,8 +80,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

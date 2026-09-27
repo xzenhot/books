@@ -93,7 +93,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -232,4 +232,88 @@
 
 ```json
 "While previous chapters dealt with visible collapse (the leaving partners) or external forces (creditors), this chapter focuses entirely inward, creating an atmosphere of suffocating, self-contained decay and psychological paralysis."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"d46ed7a97e804535b59f7f6b716a39f2b7c5232243d455dbda934c9e31fa062d"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:09:23.751418+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"d46ed7a97e804535b59f7f6b716a39f2b7c5232243d455dbda934c9e31fa062d"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

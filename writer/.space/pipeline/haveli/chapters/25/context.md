@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -208,4 +208,88 @@
 
 ```json
 "While previous chapters have focused heavily on labor and ritualized expenditure, this chapter zeroes in exclusively on material goods, treating wealth as a physical collection that must be cataloged and defended."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"62392a5a267f0bfadf14ff0e052a749837afb6f6726148a42dd3c605d0ddf28e"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:04:18.378454+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"62392a5a267f0bfadf14ff0e052a749837afb6f6726148a42dd3c605d0ddf28e"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

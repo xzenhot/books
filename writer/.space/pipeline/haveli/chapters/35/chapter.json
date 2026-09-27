@@ -53,13 +53,13 @@
     "variety_note": "Unlike previous chapters that focused on professional trades or grand public displays, this piece narrows the focus exclusively onto the immediate domestic aftermath of economic collapse: the survival mechanism of the family unit against bureaucratic neglect."
   },
   "draft": {
-    "sha256": "179559c0200b3e1c50ecafc29812b6f04e6f312591c075f9d80ee3cf4bedcb46",
-    "written_at": "2026-09-27T17:06:42.253599+00:00",
-    "origin": "write"
+    "sha256": "280d5a7f3cf092f3a6ce07a35c93539ae59b5a7cd144743b0d9f5ac4061f34b5",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "179559c0200b3e1c50ecafc29812b6f04e6f312591c075f9d80ee3cf4bedcb46",
+    "sha256": "d2df6b18169a55fafed8742bb5ac9d4674b88bdadf6eb311dc6c0b4befb129b6",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -68,8 +68,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

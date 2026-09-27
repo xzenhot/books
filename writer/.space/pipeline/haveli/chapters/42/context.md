@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -208,4 +208,88 @@
 
 ```json
 "While previous chapters focused on the mechanics of accumulation (Chapter 2-10) and subsequent physical depletion (Chapters 44, 59), this chapter centers entirely on the abstract, sickening *rate* of financial reversal itself—the moment the positive slope reverses into a downward spiral."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"86f08805bb5674c517bb2e38f91857f59f8f1a5cc3a8d7804f6abf34576d137a"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:08:23.667843+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"86f08805bb5674c517bb2e38f91857f59f8f1a5cc3a8d7804f6abf34576d137a"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

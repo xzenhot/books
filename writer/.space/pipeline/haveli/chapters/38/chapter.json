@@ -65,13 +65,13 @@
     "variety_note": "This chapter moves away from direct interpersonal conflict (like wage withholding) to focus on environmental complicity—the social space itself absorbing and neutralizing human wrongdoing through sheer volume of ongoing life."
   },
   "draft": {
-    "sha256": "bc4e790137ef2b464d956d3ceb22b6593220f80a9ca72f68e1089a53b3065d83",
-    "written_at": "2026-09-27T17:07:25.816195+00:00",
-    "origin": "write"
+    "sha256": "cfea30c272943c5bfc9e52eb0acaae1c795db6f589ab360fae7a6ef3d0c6f826",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "bc4e790137ef2b464d956d3ceb22b6593220f80a9ca72f68e1089a53b3065d83",
+    "sha256": "112797fed3d5a3664043576d8a13c484e59053c6504dec5a4d29cf83c19847b7",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -80,8 +80,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

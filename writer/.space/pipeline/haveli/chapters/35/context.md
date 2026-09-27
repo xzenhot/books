@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -184,4 +184,88 @@
 
 ```json
 "Unlike previous chapters that focused on professional trades or grand public displays, this piece narrows the focus exclusively onto the immediate domestic aftermath of economic collapse: the survival mechanism of the family unit against bureaucratic neglect."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"179559c0200b3e1c50ecafc29812b6f04e6f312591c075f9d80ee3cf4bedcb46"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:06:42.253599+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"179559c0200b3e1c50ecafc29812b6f04e6f312591c075f9d80ee3cf4bedcb46"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

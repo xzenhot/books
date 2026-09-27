@@ -52,13 +52,13 @@
     "variety_note": "This chapter shifts the focus from the accumulation and building up (previous chapters) to the violent dispersal of human association, using thresholds and peripheral witnesses rather than grand frescoes."
   },
   "draft": {
-    "sha256": "08416c72766158808e18dc264596596a596600539eee011d6dcdd68a92b42431",
-    "written_at": "2026-09-27T17:08:41.044516+00:00",
-    "origin": "write"
+    "sha256": "58d3a52472cf560e3cde294b564f26120dc8ee4d4312e0feb93695d57e227296",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "08416c72766158808e18dc264596596a596600539eee011d6dcdd68a92b42431",
+    "sha256": "f2de66aa634feb3a1cebaef17c1880af132e12a806f3edcc3711376790cae8e9",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -67,8 +67,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

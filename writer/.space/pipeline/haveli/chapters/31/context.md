@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -184,4 +184,88 @@
 
 ```json
 "Where previous chapters focused on external displays of wealth (frescoes, grand halls), this chapter turns inward and downward, grounding the narrative in basic sustenance—the material cost that lies beneath the pigment's sheen."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"4ad0f37a7fbc1d62faedf0a8d909a892e96fa28934d3687b0d9abcc62a4caf7d"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:05:43.493541+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"4ad0f37a7fbc1d62faedf0a8d909a892e96fa28934d3687b0d9abcc62a4caf7d"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

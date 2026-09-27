@@ -58,13 +58,13 @@
     "variety_note": "While neighboring chapters focused on labor and material failure (artisan wages, building materials), this chapter isolates a purely socio-economic interaction: the transaction of non-labor based goods, focusing intensely on gesture and perceived worth."
   },
   "draft": {
-    "sha256": "22f5dba49c9f49b9bfb11254f07c47819382aac9ad5e4f1bab0964303900bd13",
-    "written_at": "2026-09-27T17:06:27.279478+00:00",
-    "origin": "write"
+    "sha256": "da975b4dc73a33633d4d4a5de5d6f4d4eff2415d56e4151ac943420d8c53feb0",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "22f5dba49c9f49b9bfb11254f07c47819382aac9ad5e4f1bab0964303900bd13",
+    "sha256": "cdff90c5ff7eff99825ae4ac7d0f30696039b3d2c82bc16e0a362108716fc8b7",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -73,8 +73,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

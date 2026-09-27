@@ -93,7 +93,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -220,4 +220,88 @@
 
 ```json
 "This chapter moves away from establishing the *owners'* grand vision by focusing intensely on the immediate, physical realities and necessary compromises of the raw earth itself."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"21f09f5d93fe51ea1473d1139778181d1a03dd63a87324920fb91985ffe4a4a9"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:00:42.232402+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"21f09f5d93fe51ea1473d1139778181d1a03dd63a87324920fb91985ffe4a4a9"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

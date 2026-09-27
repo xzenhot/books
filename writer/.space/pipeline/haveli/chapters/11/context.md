@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -196,4 +196,88 @@
 
 ```json
 "While previous chapters detailed the accumulation of wealth and property (physical acquisition), this chapter focuses on the 'capture' or inscription of *culture* itself onto a material surface, setting up the artistic debt that will define Gangaram’s subsequent actions."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"30c0969cd61e5ef9693999be7291e24233bb72062c5333ca5a8c14dccd02532f"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:01:09.485864+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"30c0969cd61e5ef9693999be7291e24233bb72062c5333ca5a8c14dccd02532f"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

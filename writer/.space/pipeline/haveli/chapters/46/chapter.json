@@ -65,13 +65,13 @@
     "variety_note": "While previous chapters dealt with visible collapse (the leaving partners) or external forces (creditors), this chapter focuses entirely inward, creating an atmosphere of suffocating, self-contained decay and psychological paralysis."
   },
   "draft": {
-    "sha256": "d46ed7a97e804535b59f7f6b716a39f2b7c5232243d455dbda934c9e31fa062d",
-    "written_at": "2026-09-27T17:09:23.751418+00:00",
-    "origin": "write"
+    "sha256": "61f1043c9b37a278bf80f7b9310809f36e83ae946ba6e1121a126b262019c77a",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "d46ed7a97e804535b59f7f6b716a39f2b7c5232243d455dbda934c9e31fa062d",
+    "sha256": "e12931c35d97633957c7345117b6728ead352caac02b6c99381460114720c351",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -80,8 +80,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

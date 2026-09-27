@@ -93,7 +93,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"written"
 ```
 
 ## $["segments"][0]
@@ -226,4 +226,22 @@
 
 ```json
 "Where previous chapters focused on currency, transport routes, or finished goods (frescoes), this chapter narrows the scope to a single raw material—the bale itself—to explore commodity dependency."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"153072fa1766c010f20908bf9778a3cdb013f13fdfa69d6347a7bc8fd46b2ab6"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:58:14.216703+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
 ```

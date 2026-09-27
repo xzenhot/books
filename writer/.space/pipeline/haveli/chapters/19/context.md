@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -208,4 +208,88 @@
 
 ```json
 "While neighbouring chapters focused on outward displays of wealth (Durbar, Thali), this chapter requires an inward turn to examine devotion itself—how sacred space becomes another quantifiable stage for expenditure and status projection."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"b2975339bbe85c4c8676789d5006e1f2c2dec4914dcf986f4147b706a79fbc75"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:02:57.502033+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"b2975339bbe85c4c8676789d5006e1f2c2dec4914dcf986f4147b706a79fbc75"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

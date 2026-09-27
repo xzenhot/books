@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -214,4 +214,88 @@
 
 ```json
 "This chapter marks a distinct pivot from the *action* and *accretion* of wealth (previous chapters) to the total, irreversible *loss*, shifting tone from boastful grandeur to absolute stillness."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"12e2460c4888a8d868ce1fe1dd03ba6fd02edf9af4b6e6a7cb79cab0c4a84124"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:09:53.489662+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"12e2460c4888a8d868ce1fe1dd03ba6fd02edf9af4b6e6a7cb79cab0c4a84124"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

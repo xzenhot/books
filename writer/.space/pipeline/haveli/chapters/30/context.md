@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -196,4 +196,88 @@
 
 ```json
 "While previous chapters focused on the vibrant execution of art (fresco/pigment), this chapter must focus entirely on subtraction and endurance—the permanence achieved through the mechanical act of carving into inert stone."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"ec5541aa9d54daf49ff5a5b689b5d94be3ce2f5e625001d67263779baa5fbd01"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:05:29.358439+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"ec5541aa9d54daf49ff5a5b689b5d94be3ce2f5e625001d67263779baa5fbd01"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

@@ -60,13 +60,13 @@
     "variety_note": "This chapter moves the focus from the product of wealth (frescoes/art) to the human cost underpinning the maintenance of luxury, grounding the poem in tangible physical depletion rather than purely financial ones."
   },
   "draft": {
-    "sha256": "66de7e1055b999f61e4a354b8a08c8bc6445c4f2833faa1cc3e369a0672db29f",
-    "written_at": "2026-09-27T17:05:57.120657+00:00",
-    "origin": "write"
+    "sha256": "0f40f73bfd468d67b50ea5d39856c9404801920740ab30ae894913b02e276319",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "66de7e1055b999f61e4a354b8a08c8bc6445c4f2833faa1cc3e369a0672db29f",
+    "sha256": "eb2f25e65b7f65d84bd0907f2e9182749a85861a7776daccc5cb14a16744ac88",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -75,8 +75,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

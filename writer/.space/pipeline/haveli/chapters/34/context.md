@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -202,4 +202,88 @@
 
 ```json
 "While neighboring chapters focused on labor and material failure (artisan wages, building materials), this chapter isolates a purely socio-economic interaction: the transaction of non-labor based goods, focusing intensely on gesture and perceived worth."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"22f5dba49c9f49b9bfb11254f07c47819382aac9ad5e4f1bab0964303900bd13"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:06:27.279478+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"22f5dba49c9f49b9bfb11254f07c47819382aac9ad5e4f1bab0964303900bd13"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```
