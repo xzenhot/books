@@ -16,8 +16,8 @@ Read, in order:
 2. The matching chapter model (the only per-chapter input):
    - .space/pipeline/<bookname>/chapters/<n>/chapter.json
 3. The backlog sources:
-   - .space/backlog/epic/<bookname>/gist.md
-   - .space/backlog/epic/<bookname>/epic.md
+   - .space/backlog/<bookname>/gist.md
+   - .space/backlog/<bookname>/epic.md
 
 Never read `.space/pipeline/<bookname>/chapters/<n>/chapter.md` — it is an output file owned by the write path.
 
@@ -56,7 +56,7 @@ Preserve chapter_index, level, segments, and all existing runtime fields.
 
 ## Epic Grounding
 
-Before expanding a chapter, read `.space/backlog/epic/<bookname>/epic.md` in full and locate the material that belongs to this chapter: its entry in the topical structure, the relevant thematic threads, and the world-building images that fit the chapter's subject. Extend the chapter from that material so the poem is recognizably part of the book's larger narrative arc. If the epic has no direct entry for a chapter, derive the story from the epic's premise, setting, and recurring images rather than from the seed alone. The resulting draft must be substantial enough to serve as the input for the full filter chain (research, correctness, theme, syntax, override, quality) that prepares it for publish.
+Before expanding a chapter, read `.space/backlog/<bookname>/epic.md` in full and locate the material that belongs to this chapter: its entry in the topical structure, the relevant thematic threads, and the world-building images that fit the chapter's subject. Extend the chapter from that material so the poem is recognizably part of the book's larger narrative arc. If the epic has no direct entry for a chapter, derive the story from the epic's premise, setting, and recurring images rather than from the seed alone. The resulting draft must be substantial enough to serve as the input for the full filter chain (research, correctness, theme, syntax, override, quality) that prepares it for publish.
 
 Write one run summary to .space/pipeline/<bookname>/filters/workshop/filter-summary.md. Include the processed chapters, target and measured word counts, and any grounding limitation. Do not write runtime content into other filter folders.
 

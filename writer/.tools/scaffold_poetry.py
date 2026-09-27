@@ -12,7 +12,7 @@ def scaffold(bookname):
     if not bookname or bookname in {".", ".."} or any(c in bookname for c in '/\\:<>"|?*'):
         raise ValueError("Expected a single book folder name")
     root = Path(ROOT)
-    plan_path = root / ".space/backlog/epic" / bookname / "book.json"
+    plan_path = root / ".space/backlog" / bookname / "book.json"
     plan = read_json(plan_path)
     names = canonical_names(plan)
     if plan.get("form") != "poetry" or plan.get("book_name") != bookname:

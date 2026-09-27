@@ -59,7 +59,7 @@ Map it to repository paths as follows:
 
 ```text
 <bookname>                       -> logical book name, e.g. wife
-.space/backlog/epic/<bookname>/  -> backlog epic folder
+.space/backlog/<bookname>/       -> backlog folder
 .space/pipeline/<bookname>/ -> pipeline folder
 source/books/<bookname>/<version>/ -> final versioned book output folder
 ```
@@ -223,7 +223,7 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/workflows/pipeline.md  # scaffold onward — filters, write, style, translate, publish
 ```
 
-`backlog.md` owns Phase 0 (Backlog) and Phase 1 (Init): the bare bookname command and the init/backlog/layout command, operating only inside `.space/backlog/epic/<bookname>/`. `pipeline.md` owns Phase 2 onward: scaffold, the filter chain, write, style, translate, enrich, form, config, add, and publish, operating only inside `.space/pipeline/<bookname>/` and `source/books/`.
+`backlog.md` owns Phase 0 (Backlog) and Phase 1 (Init): the bare bookname command and the init/backlog/layout command, operating only inside `.space/backlog/<bookname>/`. `pipeline.md` owns Phase 2 onward: scaffold, the filter chain, write, style, translate, enrich, form, config, add, and publish, operating only inside `.space/pipeline/<bookname>/` and `source/books/`.
 
 ### Agents
 
@@ -300,7 +300,7 @@ Use templates as source material; do not copy whole template trees into pipeline
 Novel backlog epics live at:
 
 ```text
-.space/backlog/epic/<bookname>/epic.md
+.space/backlog/<bookname>/epic.md
 ```
 
 For novels, `epic.md` is the story source of truth. Do not invent story content beyond it.

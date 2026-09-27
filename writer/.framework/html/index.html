@@ -220,8 +220,8 @@
         <tr><td><code>.framework/skills/layout-novel/SKILL.md</code></td><td><strong>The novel layout authority.</strong> Owns novel scaffold shape, <code>book.json</code>, characters, moods, workshop metadata, filters, and chapter/segment path invariants.</td></tr>
         <tr><td><code>.framework/skills/layout-poetry/SKILL.md</code></td><td><strong>The poetry layout authority.</strong> Owns poetry scaffold shape, <code>book.json</code>, <code>bookseed.txt</code>, progress, override, filters, and one-segment chapter layout.</td></tr>
         <tr><td><code>.framework/skills/research/SKILL.md</code></td><td><strong>Research support.</strong> Invoked through the research agent during filtering, after scaffold. Scaffold never runs research or other filters.</td></tr>
-        <tr><td><code>.space/backlog/epic/&lt;bookname&gt;/epic.md</code></td><td><strong>The backlog epic.</strong> The single source of truth for a novel's story. Created/updated by the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command.</td></tr>
-        <tr><td><code>.space/backlog/epic/&lt;bookname&gt;/book.json</code></td><td><strong>The backlog book plan.</strong> The chapter-layout plan plus the authoritative <code>filter_chain</code> and <code>word_target</code>. Produced by <code>init</code>; the blueprint <code>scaffold</code> builds from.</td></tr>
+        <tr><td><code>.space/backlog/&lt;bookname&gt;/epic.md</code></td><td><strong>The backlog epic.</strong> The single source of truth for a novel's story. Created/updated by the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command.</td></tr>
+        <tr><td><code>.space/backlog/&lt;bookname&gt;/book.json</code></td><td><strong>The backlog book plan.</strong> The chapter-layout plan plus the authoritative <code>filter_chain</code> and <code>word_target</code>. Produced by <code>init</code>; the blueprint <code>scaffold</code> builds from.</td></tr>
         <tr><td><code>.space/pipeline/&lt;bookname&gt;/</code></td><td><strong>The book pipeline.</strong> Holds model data, characters, filters, chapter plans, segments, and progress state.</td></tr>
         <tr><td><code>.space/pipeline/&lt;bookname&gt;/book.json</code></td><td><strong>The book plan.</strong> A complete clone of backlog <code>book.json</code>, preserved unchanged throughout scaffold and postlayout. Later explicit config or runtime operations may update it.</td></tr>
         <tr><td><code>.space/pipeline/&lt;bookname&gt;/bookseed.txt</code></td><td><strong>The poetry index.</strong> One topic or term per line; each topic becomes one chapter.</td></tr>
@@ -259,7 +259,7 @@
     <table>
       <thead><tr><th>Command</th><th>What it does</th></tr></thead>
       <tbody>
-        <tr><td><code>&lt;bookname&gt;</code> (bare)</td><td>Creates <code>.space/backlog/epic/&lt;bookname&gt;/epic.md</code> if it does not exist, auto-generating the gist from the book name. If the epic already exists, reports that it exists. Does not scaffold a pipeline.</td></tr>
+        <tr><td><code>&lt;bookname&gt;</code> (bare)</td><td>Creates <code>.space/backlog/&lt;bookname&gt;/epic.md</code> if it does not exist, auto-generating the gist from the book name. If the epic already exists, reports that it exists. Does not scaffold a pipeline.</td></tr>
         <tr><td><code>&lt;bookname&gt; [&lt;gist&gt;] [form] [refresh]</code></td><td>Creates, updates, or rewrites the epic (recording the seed in <code>gist.md</code>) and develops it into a rich narrative foundation. If gist omitted, infers from book name. If <code>[form]</code> supplied, changes the book's form. Does <strong>not</strong> scaffold a pipeline. The former <code>gist</code> subcommand is merged into this command.</td></tr>
         <tr><td><code>init [&lt;gist&gt;] [&lt;count&gt;] [form] [refresh]</code> (aliases: <code>backlog</code>, <code>layout</code>)</td><td>Fully configures the backlog epic folder — <code>gist.md</code>, <code>epic.md</code>, <code>book.json</code> — and derives the ordered filter chain plus the chapter-layout plan. With an unchanged gist, a larger count appends missing chapters. Refresh compares the gist before deciding which artifacts to regenerate. Must run before <code>scaffold</code>.</td></tr>
         <tr><td><code>scaffold &lt;gist&gt; count|chapter-count &lt;number&gt;</code></td><td>Creates or repairs <code>.space/pipeline/&lt;bookname&gt;/</code> through the scaffold agent (prelayout → layout skill → postlayout), gated by the existence of <code>book.json</code>. Never creates or modifies <code>epic.md</code>.</td></tr>
@@ -282,7 +282,7 @@
     <h2 id="command-rules">Command Rules</h2>
     <ul>
       <li>Parse arguments left to right and preserve supplied text unless the workflow explicitly normalizes it. Subcommand keywords are literal.</li>
-      <li>Bare bookname and <code>init</code>/<code>backlog</code>/<code>layout</code> operate only in <code>.space/backlog/epic/&lt;bookname&gt;/</code>. They never initialize a pipeline.</li>
+      <li>Bare bookname and <code>init</code>/<code>backlog</code>/<code>layout</code> operate only in <code>.space/backlog/&lt;bookname&gt;/</code>. They never initialize a pipeline.</li>
       <li>Scaffold requires the existing backlog plan and, for novels, the epic. Explicit gist, count, and form must agree with the plan; resolve differences through <code>init</code>.</li>
       <li>Preserve an existing pipeline and resume from its state. Do not re-scaffold from scratch unless explicitly requested.</li>
       <li>Filters require an existing pipeline. A named filter runs regardless of <code>autorun</code>; <code>filter *</code> and <code>filter all</code> run only active entries in order. <code>enrich</code> fuses active guidance into a single pass.</li>
@@ -325,7 +325,7 @@
     <h2 id="scaffolding">Scaffolding Flow</h2>
     <p>Prepare the backlog with the bare bookname command and <code>init</code>, then invoke <code>scaffold</code>. Scaffold creates structure only.</p>
     <ol>
-      <li>Require <code>.space/backlog/epic/&lt;bookname&gt;/book.json</code>, and the existing epic for a novel. Read form, gist, and chapter count from that plan. Resolve mismatched explicit arguments through <code>init</code>.</li>
+      <li>Require <code>.space/backlog/&lt;bookname&gt;/book.json</code>, and the existing epic for a novel. Read form, gist, and chapter count from that plan. Resolve mismatched explicit arguments through <code>init</code>.</li>
       <li>Preserve existing pipeline state. Route scaffold work through <code>.framework/agents/scaffold/agent.md</code>, which runs <code>prelayout</code> before the form-specific layout skill.</li>
       <li>Clone the complete backlog <code>book.json</code> to pipeline <code>book.json</code>. Preserve every field, value, and chapter entry throughout scaffold, initialization, and postlayout.</li>
       <li>Seed each chapter <code>model.json</code> as a single object from the matching plan entry. Match by <code>name</code> and verify <code>chapter_index</code>. Preserve <code>word_target</code>, <code>chapter_title</code>, <code>chapter_summary</code>, <code>further_references</code>, and any additional source fields.</li>
@@ -338,7 +338,7 @@
     <h2 id="gist">The Bare Bookname Command (gist merged)</h2>
     <p>For <code>/book &lt;bookname&gt; [&lt;gist&gt;] [form] [refresh]</code>:</p>
     <ol>
-      <li>Create or update <code>.space/backlog/epic/&lt;bookname&gt;/epic.md</code> and develop it into a well-groomed, detailed narrative foundation.</li>
+      <li>Create or update <code>.space/backlog/&lt;bookname&gt;/epic.md</code> and develop it into a well-groomed, detailed narrative foundation.</li>
       <li>Infer a one-sentence gist from the book name if none is supplied.</li>
       <li><strong>Novel:</strong> Develop a rich, well-groomed epic that includes:
         <ul>

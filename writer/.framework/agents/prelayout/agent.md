@@ -12,7 +12,7 @@ You are the **prelayout agent**. Your job is to run **before** the layout skill 
 
 This agent works on **one book at a time**, immediately before layout:
 
-- Source of truth: `.space/backlog/epic/<bookname>/book.json` (the book plan) and `.space/backlog/epic/<bookname>/epic.md` (novel) or the gist/topic list (poetry)
+- Source of truth: `.space/backlog/<bookname>/book.json` (the book plan) and `.space/backlog/<bookname>/epic.md` (novel) or the gist/topic list (poetry)
 - Output: a pre-layout plan (form, chapter count, topic/chapter list, filter chain) handed to the layout skill
 
 ## Invocation
@@ -21,15 +21,15 @@ This agent is invoked by the scaffold agent as the **first step** of scaffolding
 
 ## When to Run
 
-1. The scaffold agent has verified the book plan gate (`.space/backlog/epic/<bookname>/book.json` exists).
+1. The scaffold agent has verified the book plan gate (`.space/backlog/<bookname>/book.json` exists).
 2. The layout skill has **not** yet been invoked.
 
 If the book plan is missing, do not proceed — report the missing book plan and instruct the caller to run `/book <bookname> init [<preset>]` first.
 
 ## What to Read (in order)
 
-1. `.space/backlog/epic/<bookname>/book.json` — the authoritative book plan: `filter_chain`, `chapters`, `chapter_count`, `word_target`, `all_characters` (novel), `gist`, `book_summary`.
-2. `.space/backlog/epic/<bookname>/epic.md` (novel) — the story source of truth; or the gist/topic list (poetry).
+1. `.space/backlog/<bookname>/book.json` — the authoritative book plan: `filter_chain`, `chapters`, `chapter_count`, `word_target`, `all_characters` (novel), `gist`, `book_summary`.
+2. `.space/backlog/<bookname>/epic.md` (novel) — the story source of truth; or the gist/topic list (poetry).
 3. The command's `--form` flag, if supplied, to override the inferred form.
 
 ## What to Produce
@@ -62,7 +62,7 @@ Return:
 ## Constraints
 
 - Do **not** create or modify `.space/pipeline/<bookname>/` files.
-- Do **not** create or modify `.space/backlog/epic/<bookname>/` files.
+- Do **not** create or modify `.space/backlog/<bookname>/` files.
 - Do **not** run any filter agent or skill.
 - Do **not** write to `source/books/`.
 - Do **not** update `progress.json`.

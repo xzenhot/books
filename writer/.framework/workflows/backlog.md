@@ -1,6 +1,6 @@
 ---
 name: backlog
-description: Backlog creation and book-plan workflow. Owns the backlog-creation phase of the /book pipeline — the bare bookname command (create/update the backlog epic and its seed gist) and the init/backlog/layout command (configure the backlog book plan and derive the ordered filter chain). Operates only in .space/backlog/epic/<bookname>/; never scaffolds a pipeline or writes finished chapters.
+description: Backlog creation and book-plan workflow. Owns the backlog-creation phase of the /book pipeline — the bare bookname command (create/update the backlog epic and its seed gist) and the init/backlog/layout command (configure the backlog book plan and derive the ordered filter chain). Operates only in .space/backlog/<bookname>/; never scaffolds a pipeline or writes finished chapters.
 ---
 
 # The Backlog Workflow (Backlog Creation)
@@ -32,7 +32,7 @@ After **every** command in this workflow completes — including read-only, no-o
 The backlog workflow operates **only inside the backlog**:
 
 ```text
-.space/backlog/epic/<bookname>/
+.space/backlog/<bookname>/
 ├── gist.md     # the seed idea — a single-sentence gist plus a short expansion
 ├── epic.md     # the full narrative foundation (novel) or thematic grounding (poetry)
 └── book.json   # the chapter-layout plan + ordered filter chain (blueprint for scaffold)
@@ -50,8 +50,8 @@ The backlog is **metadata**; the pipeline is **execution state**. Commands here 
 
 | Command | What it does |
 |---------|--------------|
-| `<bookname>` (bare) | Creates `.space/backlog/epic/<bookname>/epic.md` if it does not exist, auto-generating the gist from the book name. If the epic already exists, reports that it exists. Does not scaffold a pipeline. |
-| `<bookname> [<gist>] [form] [refresh]` | Creates, updates, or rewrites the backlog epic at `.space/backlog/epic/<bookname>/epic.md` and records the seed idea in `.space/backlog/epic/<bookname>/gist.md`. If `[<gist>]` is omitted, infer a one-line premise from the book name. If the epic already exists, re-groom it into a coherent foundation (preserving the original `Created` timestamp). If `[form]` is supplied, changes the book's form (`novel`/`poetry`) and updates `book.json`. Never creates a pipeline — use `scaffold` for that. If `refresh` is supplied, rebuilds `epic.md` from scratch and re-initializes the entire backlog folder. |
+| `<bookname>` (bare) | Creates `.space/backlog/<bookname>/epic.md` if it does not exist, auto-generating the gist from the book name. If the epic already exists, reports that it exists. Does not scaffold a pipeline. |
+| `<bookname> [<gist>] [form] [refresh]` | Creates, updates, or rewrites the backlog epic at `.space/backlog/<bookname>/epic.md` and records the seed idea in `.space/backlog/<bookname>/gist.md`. If `[<gist>]` is omitted, infer a one-line premise from the book name. If the epic already exists, re-groom it into a coherent foundation (preserving the original `Created` timestamp). If `[form]` is supplied, changes the book's form (`novel`/`poetry`) and updates `book.json`. Never creates a pipeline — use `scaffold` for that. If `refresh` is supplied, rebuilds `epic.md` from scratch and re-initializes the entire backlog folder. |
 | init (aliases: backlog, layout) | Creates or selects the backlog book plan, derives the ordered filter chain, and produces the chapter-layout plan. All aliases invoke the same backlog-only init behavior, including incremental count handling. `refresh` re-grooms the backlog artifacts to the resolved form while preserving the chapter count and existing chapters verbatim (re-derivation only on form change or explicit new count). |
 | `init idea` | Rewrites the book's gist with AI assistance — reads the existing `gist.md` (or the book name if absent), generates a stronger, more dramatically charged one-line premise, and writes it back to `gist.md` (updating its expansion to match). Never touches `epic.md`, `book.json`, the pipeline, or `source/books/`. |
 
@@ -65,12 +65,12 @@ Responsibility: create, update, or rewrite the backlog epic with a detailed narr
 
 - `<gist>` — optional single-sentence premise. If omitted, infer a one-line premise from the book name.
 - `<form>` — optional form selector: `novel` or `poetry`. If supplied, it changes the book's form and updates `book.json` (see step 9).
-- `refresh` — optional keyword. When present, **rebuild** the epic and **re-initialize the backlog folder** `.space/backlog/epic/<bookname>/` from scratch (see step 10).
+- `refresh` — optional keyword. When present, **rebuild** the epic and **re-initialize the backlog folder** `.space/backlog/<bookname>/` from scratch (see step 10).
 
 1. This command does NOT scaffold a pipeline, run layout, or run research — it focuses solely on creating and grooming the backlog epic.
-2. If `.space/backlog/epic/<bookname>/epic.md` does not exist, create it; if it exists, develop and refine it.
+2. If `.space/backlog/<bookname>/epic.md` does not exist, create it; if it exists, develop and refine it.
 3. If [<gist>] is omitted, infer a one-line premise from the book name. The gist must be a single sentence.
-4. **Write `gist.md`.** Create or update `.space/backlog/epic/<bookname>/gist.md` with the seed idea: a single-sentence **gist** plus a short **expansion** (2–4 sentences) that names the protagonist, the conflict, and the transformation. This file is the source of the book's premise and is read by `init` to derive the chapter-layout plan.
+4. **Write `gist.md`.** Create or update `.space/backlog/<bookname>/gist.md` with the seed idea: a single-sentence **gist** plus a short **expansion** (2–4 sentences) that names the protagonist, the conflict, and the transformation. This file is the source of the book's premise and is read by `init` to derive the chapter-layout plan.
 5. **Novel:** Develop a rich, well-groomed epic that includes:
    - A compelling premise and historical grounding
    - Detailed character descriptions, motivations, and arcs
@@ -84,7 +84,7 @@ Responsibility: create, update, or rewrite the backlog epic with a detailed narr
    - Reference to the poetic voice and tradition
 7. The epic should be polished, coherent, and inspiring — a solid foundation for the full pipeline.
 8. **When the epic already exists, re-groom it.** Read the existing epic and extract what is salvageable: the title, book name, language, genre, era, chapter count, and any coherent premise, character, theme, or chapter outline material. Regenerate it into a well-groomed, consistent foundation that remains true to the existing material — do not invent a new story, but reorder, clarify, and deepen what is already present. Update the `Updated` timestamp and `Updated By` field; keep the original `Created` timestamp unchanged.
-9. **Change the form when `<form>` is supplied.** If `<form>` differs from the book's current form, change it and update `.space/backlog/epic/<bookname>/book.json`:
+9. **Change the form when `<form>` is supplied.** If `<form>` differs from the book's current form, change it and update `.space/backlog/<bookname>/book.json`:
    - Set the `filter_chain` to the form's preset chain (see the init agent's *Presets* section: `layout-poetry/SKILL.md` for poetry, `layout-novel/SKILL.md` for novel).
    - Set `word_target` to the form's preset target (500 for poetry, 4500 for novel).
    - Re-derive the `chapters` array for the new form (`Introduction`, `1..N`, `Conclusion` for novels; `1..N` topics for poetry).
@@ -106,13 +106,13 @@ Responsibility: fully configure the backlog epic folder — the gist, epic, chap
 - `<preset>` — optional preset path, named template, or inline Markdown. If omitted, the init agent selects the default preset for the form.
 - `<form>` — optional form selector: `novel` or `poetry`. Defaults to `novel`. Used to set or change the book's form.
 - `<count>` — optional target chapter count. When the backlog book plan already exists, init is **incremental in count**: only the missing chapters are appended; existing chapters are never rewritten (see *The Incremental Count Rule* below).
-- `refresh` — optional keyword. When present, **rebuild** `epic.md` and **re-initialize the entire backlog folder** `.space/backlog/epic/<bookname>/`: every backlog artifact (`gist.md`, `epic.md`, `book.json`) is re-derived from the book's identity and reconciled to the resolved form (see step 6). Unlike a normal init (which fills only gaps), `refresh` regenerates the backlog so it is internally consistent — e.g. a poetry book whose `epic.md` still reads as a novel is rebuilt as a poetry-consistent foundation. It never touches the pipeline or `source/books/`.
+- `refresh` — optional keyword. When present, **rebuild** `epic.md` and **re-initialize the entire backlog folder** `.space/backlog/<bookname>/`: every backlog artifact (`gist.md`, `epic.md`, `book.json`) is re-derived from the book's identity and reconciled to the resolved form (see step 6). Unlike a normal init (which fills only gaps), `refresh` regenerates the backlog so it is internally consistent — e.g. a poetry book whose `epic.md` still reads as a novel is rebuilt as a poetry-consistent foundation. It never touches the pipeline or `source/books/`.
 
-1. If `<preset>` is provided, merge its filter chain into `.space/backlog/epic/<bookname>/book.json` as the `filter_chain` field. The content may be a file path, a named preset template, or inline Markdown. If a file path is referenced, read its filter sequence.
+1. If `<preset>` is provided, merge its filter chain into `.space/backlog/<bookname>/book.json` as the `filter_chain` field. The content may be a file path, a named preset template, or inline Markdown. If a file path is referenced, read its filter sequence.
 2. If `<preset>` is omitted, invoke the init agent (`.framework/agents/init/agent.md`) to select or create the form-specific default filter chain. The form is resolved from the explicit `<form>` argument, backlog epic, or default `novel`. Init never reads the pipeline; the pipeline `book.json` is read only by the postlayout agent after scaffold.
 3. The init agent creates or validates the full backlog configuration — `gist.md`, `epic.md`, and `book.json` — and returns the ordered filter/agent sequence. It does not create or modify any file under `.space/pipeline/<bookname>/`. The `override.md` and `override.txt` files are **pipeline-level** artifacts, not backlog artifacts: they are created by the scaffold step (`.space/pipeline/<bookname>/override.txt` and `.space/pipeline/<bookname>/filters/override/filter.md`), never in the backlog folder.
 4. Do not execute filters during init; only prepare the filter chain and the chapter-layout plan.
-5. **Change the form when `<form>` is supplied.** If `<form>` differs from the book's current form, change it and update `.space/backlog/epic/<bookname>/book.json`:
+5. **Change the form when `<form>` is supplied.** If `<form>` differs from the book's current form, change it and update `.space/backlog/<bookname>/book.json`:
    - Set the `filter_chain` to the form's preset chain (see the init agent's *Presets* section: `layout-poetry/SKILL.md` for poetry, `layout-novel/SKILL.md` for novel).
    - Set `word_target` to the form's preset target (500 for poetry, 4500 for novel).
    - Re-derive the `chapters` array for the new form (`Introduction`, `1..N`, `Conclusion` for novels; `1..N` topics for poetry).
@@ -126,7 +126,7 @@ For `/book <bookname> init idea`:
 
 Responsibility: rewrite the book's **gist** with AI assistance — the single-sentence premise that seeds the whole book. This command operates only on the gist; it does not touch the epic, the book plan, the pipeline, or `source/books/`.
 
-- The command reads the existing `.space/backlog/epic/<bookname>/gist.md` (its one-line **gist**) as the source material. If `gist.md` does not exist, use the book name as the seed.
+- The command reads the existing `.space/backlog/<bookname>/gist.md` (its one-line **gist**) as the source material. If `gist.md` does not exist, use the book name as the seed.
 - It asks the AI to generate a **stronger, more dramatically charged one-line premise** — a specific, concrete situation that names a person, a place, a problem, and a consequence (see the gist agent's *The Great Idea* method). It must remain a single sentence.
 - It writes the improved one-liner back to `gist.md` as the **gist**, and regenerates the **expansion** (2–4 sentences) to match — naming the protagonist, the conflict, and the transformation. This is the only artifact `init idea` writes.
 

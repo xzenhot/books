@@ -195,7 +195,7 @@ Segment-level `model.json` minimum shape:
 
 ## Filter Registry
 
-Before creating the filter registry, read `.space/backlog/epic/<bookname>/book.json`. Use the ordered `filter_chain` list declared in the book plan as the canonical filter chain. If for any reason the book plan cannot be read, fall back to the default poetry chain declared in this skill's *Preset* section:
+Before creating the filter registry, read `.space/backlog/<bookname>/book.json`. Use the ordered `filter_chain` list declared in the book plan as the canonical filter chain. If for any reason the book plan cannot be read, fall back to the default poetry chain declared in this skill's *Preset* section:
 
 ```text
 workshop -> research -> correctness -> theme -> syntax -> override -> quality

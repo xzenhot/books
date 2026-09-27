@@ -92,7 +92,7 @@ Do not add extra metadata, comments, or explanation outside the chapter text.
 
 - Do not scaffold pipelines.
 - Do not run filters.
-- Do not consult the backlog `.space/backlog/epic/<bookname>/override.md`; apply only the pipeline override command file `.space/pipeline/<bookname>/filters/override/filter.md`.
+- Do not consult the backlog `.space/backlog/<bookname>/override.md`; apply only the pipeline override command file `.space/pipeline/<bookname>/filters/override/filter.md`.
 - Do not write the chapter into `segments/1/writer/` — the output is `chapters/<n>/chapter.md` only. Prior copies are archived to `segments/1/version/`.
 - Do not write to `source/books/` — this skill produces the chapter in the pipeline only.
 - Do not update `progress.json` — progress tracking is the writer workflow's responsibility.

@@ -16,7 +16,7 @@ This agent works on **one chapter at a time** in an existing pipeline. It is the
 - Optional mood (novel): `.space/pipeline/<bookname>/chapters/<n>/mood.json`
 - Book context: `.space/pipeline/<bookname>/book.json`
 - Character roster (novel): `.space/pipeline/<bookname>/characters.json`
-- Story source of truth (novel): `.space/backlog/epic/<bookname>/epic.md`
+- Story source of truth (novel): `.space/backlog/<bookname>/epic.md`
 - Topic index (poetry): `.space/pipeline/<bookname>/bookseed.txt`
 - Human override instructions (always present; seeded at scaffold): `.space/pipeline/<bookname>/filters/override/filter.md`
 - Working output (composed here): `.space/pipeline/<bookname>/chapters/<n>/chapter.md`
@@ -52,7 +52,7 @@ Examples:
 
 ## What to Read (in order)
 
-1. `.space/backlog/epic/<bookname>/epic.md` (novel) — the story source of truth; or `.space/pipeline/<bookname>/bookseed.txt` (poetry) — the topic index.
+1. `.space/backlog/<bookname>/epic.md` (novel) — the story source of truth; or `.space/pipeline/<bookname>/bookseed.txt` (poetry) — the topic index.
 2. `.space/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (summary, characters, quality parameters, theme, language, target length), carrying every prior filter's recorded guidance. This is the sole per-chapter input; do not read `chapter.md`.
 3. (Novel only) `.space/pipeline/<bookname>/chapters/<n>/mood.json` — the chapter's mood, if present.
 4. (Novel) `.space/pipeline/<bookname>/characters.json` — the full character roster.
@@ -98,7 +98,7 @@ The workflow resolves `<n>` (`Introduction`, `1..N`, `Conclusion`, `all`, `conti
 - The human's word is final: apply instructions exactly; do not reinterpret, soften, or skip them.
 - Unscoped instructions apply to the finished chapter text (the whole file, not just the Story section); scoped instructions apply only where they say.
 
-Example: `.space/pipeline/book_war/filters/override/filter.md` is the operative override command file for the *war* book; the backlog `.space/backlog/epic/war/override.md` is only its backlog planning copy and is not read by this agent.
+Example: `.space/pipeline/book_war/filters/override/filter.md` is the operative override command file for the *war* book; the backlog `.space/backlog/war/override.md` is only its backlog planning copy and is not read by this agent.
 
 ## Language
 
@@ -122,7 +122,7 @@ Do not add extra metadata, comments, or explanation outside the chapter text.
 - Do not write the working draft into `segments/1/writer/` — the live draft lives only at `chapters/<n>/chapter.md`; prior copies are archived to `segments/1/version/`.
 - Do not update `progress.json` — progress tracking is the writer workflow's responsibility.
 - Do not modify `book.json`, `model.json`, `characters.json`, `progress.json`, or the epic.
-- Do not consult the backlog `.space/backlog/epic/<bookname>/override.md`; the pipeline override command file `.space/pipeline/<bookname>/filters/override/filter.md` is the only override this agent applies.
+- Do not consult the backlog `.space/backlog/<bookname>/override.md`; the pipeline override command file `.space/pipeline/<bookname>/filters/override/filter.md` is the only override this agent applies.
 
 ## Summary of Duties
 

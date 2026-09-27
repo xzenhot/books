@@ -3,7 +3,7 @@ What I want:
 
 # What this system should do (in plain English)
 
-## Part 1 — Planning a book (`.space/backlog/epic/`)
+## Part 1 — Planning a book (`.space/backlog/`)
 
 This is the *idea* stage. Nothing is written yet — you are only deciding what the book will be.
 
