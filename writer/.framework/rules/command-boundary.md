@@ -16,7 +16,7 @@ These commands operate only inside the backlog folder:
 
 They are allowed to create, read, or modify only the backlog files:
 
-- `epic.md`
+- `storyline.md`
 - `book.json`
 - `gist.md`
 - `override.md`
@@ -60,8 +60,8 @@ The pipeline commands are:
 
 ### Invariants
 
-- A pipeline command must **never** create, modify, or delete `.space/backlog/<bookname>/epic.md` or `.space/backlog/<bookname>/book.json`.
-- A pipeline command may read the backlog as read-only input (for example, scaffold reads `epic.md` and `book.json`), but it must never write there.
+- A pipeline command must **never** create, modify, or delete `.space/backlog/<bookname>/storyline.md` or `.space/backlog/<bookname>/book.json`.
+- A pipeline command may read the backlog as read-only input (for example, scaffold reads `storyline.md` and `book.json`), but it must never write there.
 - If the required pipeline does not exist, a pipeline command must stop and tell the user to run `scaffold` first.
 
 ## Sequence rules

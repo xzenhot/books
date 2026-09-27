@@ -104,7 +104,7 @@ class ChapterContent(BaseModel):
 # ---------------------------------------------------------------------------
 
 def _backlog_dir(bookname: str) -> str:
-    return os.path.join(ROOT, ".space", "backlog", "epic", bookname)
+    return os.path.join(ROOT, ".space", "backlog", bookname)
 
 
 def _pipeline_dir(bookname: str) -> str:
@@ -354,11 +354,11 @@ def create_book(req: CreateBookRequest) -> dict:
     }
     _write_json(os.path.join(backlog, "book.json"), plan)
 
-    # gist.md / epic.md
+    # gist.md / storyline.md
     gist_text = req.gist or ""
     with open(os.path.join(backlog, "gist.md"), "w", encoding="utf-8") as f:
         f.write(f"# {title} - Gist\n\n## Gist\n\n{gist_text}\n")
-    with open(os.path.join(backlog, "epic.md"), "w", encoding="utf-8") as f:
+    with open(os.path.join(backlog, "storyline.md"), "w", encoding="utf-8") as f:
         f.write(f"# {title}\n\n{req.book_summary or gist_text}\n")
 
     # pipeline skeleton

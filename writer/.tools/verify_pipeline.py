@@ -32,7 +32,7 @@ def verify(bookname: str) -> int:
     errors: list[str] = []
     notes: list[str] = []
 
-    backlog = os.path.join(ROOT, ".space", "backlog", "epic", bookname)
+    backlog = os.path.join(ROOT, ".space", "backlog", bookname)
     pipeline = os.path.join(ROOT, ".space", "pipeline", bookname)
     plan_path = os.path.join(backlog, "book.json")
     model_path = os.path.join(pipeline, "book.json")

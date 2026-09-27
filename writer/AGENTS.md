@@ -300,10 +300,10 @@ Use templates as source material; do not copy whole template trees into pipeline
 Novel backlog epics live at:
 
 ```text
-.space/backlog/<bookname>/epic.md
+.space/backlog/<bookname>/storyline.md
 ```
 
-For novels, `epic.md` is the story source of truth. Do not invent story content beyond it.
+For novels, `storyline.md` is the story source of truth. Do not invent story content beyond it.
 
 ### Pipeline Working State
 
@@ -324,7 +324,7 @@ Common pipeline files:
 .space/pipeline/<bookname>/chapters/
 ```
 
-Novel pipelines use `epic.md`, `book.json`, `characters.json`, chapter folders, moods, segments, and filters.
+Novel pipelines use `storyline.md`, `book.json`, `characters.json`, chapter folders, moods, segments, and filters.
 
 Poetry pipelines use `book.json` and `bookseed.txt` as source of truth, one segment per topic, and no `mood.json` unless explicitly configured as a hybrid.
 

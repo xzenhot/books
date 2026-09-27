@@ -16,7 +16,7 @@ This agent works on **one chapter at a time** in an existing pipeline. It is the
 - Optional mood (novel): `.space/pipeline/<bookname>/chapters/<n>/mood.json`
 - Book context: `.space/pipeline/<bookname>/book.json`
 - Character roster (novel): `.space/pipeline/<bookname>/characters.json`
-- Story source of truth (novel): `.space/backlog/<bookname>/epic.md`
+- Story source of truth (novel): `.space/backlog/<bookname>/storyline.md`
 - Topic index (poetry): `.space/pipeline/<bookname>/bookseed.txt`
 - Human override instructions (always present; seeded at scaffold): `.space/pipeline/<bookname>/filters/override/filter.md`
 - Working output (composed here): `.space/pipeline/<bookname>/chapters/<n>/chapter.md`
@@ -52,7 +52,7 @@ Examples:
 
 ## What to Read (in order)
 
-1. `.space/backlog/<bookname>/epic.md` (novel) — the story source of truth; or `.space/pipeline/<bookname>/bookseed.txt` (poetry) — the topic index.
+1. `.space/backlog/<bookname>/storyline.md` (novel) — the story source of truth; or `.space/pipeline/<bookname>/bookseed.txt` (poetry) — the topic index.
 2. `.space/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (summary, characters, quality parameters, theme, language, target length), carrying every prior filter's recorded guidance. This is the sole per-chapter input; do not read `chapter.md`.
 3. (Novel only) `.space/pipeline/<bookname>/chapters/<n>/mood.json` — the chapter's mood, if present.
 4. (Novel) `.space/pipeline/<bookname>/characters.json` — the full character roster.
@@ -72,7 +72,7 @@ The workflow resolves `<n>` (`Introduction`, `1..N`, `Conclusion`, `all`, `conti
 
 1. **Flatten.** Write the chapter as flat, continuous prose — no `## Workshop`, `## Story`, or `## Discussion` headings. Merge all material into continuous paragraphs.
 2. **Honor the model.** Follow the chapter's `chapter_summary`, `included_characters`, `quality_parameters`, `theme`, `theme_essence`, `era`, and `place`.
-3. **Ground in the epic.** Stay inside the events, characters, and emotional arc established by `epic.md` and the frame. Do not add major plot points or characters the epic and model do not suggest.
+3. **Ground in the epic.** Stay inside the events, characters, and emotional arc established by `storyline.md` and the frame. Do not add major plot points or characters the epic and model do not suggest.
 4. **Target length.** Write to the model's `target_word_count` (5,500+ words by default; honor an explicit pipeline target, e.g. the war preset's 4,500). Expand through new scenes and beats, real dialogue, inner thought, setting, weather, light, gesture, and silence — never filler.
 5. **Voice.** Render the chapter in the configured stereotype/signature (from `model.json`; read `.framework/templates/stereotypes/novel/signatures/<signature>/signature.md` when the workflow passes it). Elevate the register without becoming ornate.
 6. **Interiority.** Reveal what the central figure does not say aloud — doubt, memory, calculation, fear, resolve, mercy.

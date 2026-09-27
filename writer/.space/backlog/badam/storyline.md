@@ -1,7 +1,7 @@
 # Badam: The Boatman's River — A Cycle of Songs
 
 - **Book name:** badam
-- **Epic path:** .space/backlog/badam/epic.md
+- **Storyline path:** .space/backlog/badam/storyline.md
 - **Created:** 2026-09-22T00:00:00+00:00
 - **Updated:** 2026-09-22T00:00:00+00:00
 - **Updated by:** init agent

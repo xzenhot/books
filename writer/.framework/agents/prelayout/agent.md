@@ -12,7 +12,7 @@ You are the **prelayout agent**. Your job is to run **before** the layout skill 
 
 This agent works on **one book at a time**, immediately before layout:
 
-- Source of truth: `.space/backlog/<bookname>/book.json` (the book plan) and `.space/backlog/<bookname>/epic.md` (novel) or the gist/topic list (poetry)
+- Source of truth: `.space/backlog/<bookname>/book.json` (the book plan) and `.space/backlog/<bookname>/storyline.md` (novel) or the gist/topic list (poetry)
 - Output: a pre-layout plan (form, chapter count, topic/chapter list, filter chain) handed to the layout skill
 
 ## Invocation
@@ -29,7 +29,7 @@ If the book plan is missing, do not proceed — report the missing book plan and
 ## What to Read (in order)
 
 1. `.space/backlog/<bookname>/book.json` — the authoritative book plan: `filter_chain`, `chapters`, `chapter_count`, `word_target`, `all_characters` (novel), `gist`, `book_summary`.
-2. `.space/backlog/<bookname>/epic.md` (novel) — the story source of truth; or the gist/topic list (poetry).
+2. `.space/backlog/<bookname>/storyline.md` (novel) — the story source of truth; or the gist/topic list (poetry).
 3. The command's `--form` flag, if supplied, to override the inferred form.
 
 ## What to Produce

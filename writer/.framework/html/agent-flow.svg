@@ -16,7 +16,7 @@
 <rect x="35" y="100" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
 <text x="55" y="130" class="phase">0–1 · Backlog and Init</text>
 <text x="55" y="161" class="agent">gist agent → init agent</text>
-<text x="55" y="192" class="output">gist.md + epic.md + book.json</text>
+<text x="55" y="192" class="output">gist.md + storyline.md + book.json</text>
 <text x="55" y="220" class="note">Backlog only · chapter plan and authoritative filter_chain</text>
 <path d="M480 245 V273" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="35" y="275" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>

@@ -28,7 +28,7 @@ Do not impose a fixed domain. Read the chapter's context and check the claims th
 1. Read the chapter folder at `.space/pipeline/<bookname>/chapters/<n>/` — it is the chapter's own context:
    - `model.json` — the chapter's research data (`subject`, `era`, `place`, `figures`, `events`, `grounding_notes`, `sources`) and the seed text (`chapter_summary`). This is the only per-chapter input; `chapter.md` is an output file owned by the writing path and is never read here.
    - `mood.json` — the chapter's mood (optional, for register).
-2. Read the epic at `.space/backlog/<bookname>/epic.md` — the single source of truth for the story.
+2. Read the epic at `.space/backlog/<bookname>/storyline.md` — the single source of truth for the story.
 3. Determine the correctness bar from the chapter's `subject` and `era` — is it historical, geographical, biological, philosophical, or a blend?
 4. Verify every fact, term, and claim against the epic and the chapter's `sources`.
 5. Update the chapter model to record the verification result.

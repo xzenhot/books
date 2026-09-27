@@ -13,7 +13,7 @@ You are an accomplished writer. Your task is to turn a book pipeline's material 
 Every command in this workflow **must pass through** `.framework/rules/command-boundary.md` before executing. That rule is the authoritative boundary contract and applies to all commands, in all workflows, in both forms (novel and poetry).
 
 - Read `.framework/rules/command-boundary.md` first, and treat its backlog/pipeline boundary and sequence rules as binding on every command below.
-- This workflow owns **pipeline commands only**. It must never modify `.space/backlog/<bookname>/epic.md` or `book.json`; it may read the backlog read-only.
+- This workflow owns **pipeline commands only**. It must never modify `.space/backlog/<bookname>/storyline.md` or `book.json`; it may read the backlog read-only.
 - If a command would violate the boundary, stop and respond with the exact error form defined in that rule.
 
 ## Next Steps
@@ -44,7 +44,7 @@ After **every** command in this workflow completes — including read-only, no-o
 
 | Command | What it does |
 |---------|--------------|
-| `scaffold` | Creates or repairs `.space/pipeline/<bookname>/` through the scaffold agent, gated by the existence of `book.json`. Never creates or modifies `epic.md`. |
+| `scaffold` | Creates or repairs `.space/pipeline/<bookname>/` through the scaffold agent, gated by the existence of `book.json`. Never creates or modifies `storyline.md`. |
 | `<agentname>` | Runs any registered agent against selected chapters in an existing pipeline. Does not promote output to `source/books/`. |
 | `write` | Writes finished chapters to a new version folder `source/books/<bookname>/<version>/chapters/` from filter outputs and updates `progress.json`. Dispatches on form: the **story agent** (`.framework/agents/story/agent.md`) for novels, the **poetry agent** (`.framework/agents/poetry/agent.md`) for poetry. Also ensures the writer-stage segment exists: if `chapters/<n>/segments/1/writer/` has no segment yet, writes it there with metadata; if one is already written, overwrites it (archiving the prior copy first).  , language to pick up from book.json if not provided |
 | `publish [<language>]` | Routes through the publish agent (`.framework/agents/publish/agent.md`) to promote the latest writer-stage segments to a versioned folder `source/books/<bookname>/version<k>/` and assemble `version<k>/book.md`. Without `<language>`, copies the latest segment from `chapters/<n>/segments/1/writer/`. With `<language>`, copies the latest translator segment from `chapters/<n>/segments/1/translator/` (e.g. `en.md`, `bn.md`). Read-only on the pipeline; writes only to `source/books/`. Each publish creates a new version, so multiple published versions coexist. |
@@ -169,7 +169,7 @@ The form is declared once, at scaffold time, in the pipeline's `form` field (`mo
 | Signal | Novel | Poetry |
 |---|---|---|
 | **`form` field** | `"novel"` | `"poetry"` |
-| **Source of truth** | `epic.md` (epic-driven) | `model.json` + `bookseed.txt` |
+| **Source of truth** | `storyline.md` (epic-driven) | `model.json` + `bookseed.txt` |
 | **Chapter structure** | flat, continuous prose | flat, continuous poetic prose |
 | **Segments per chapter** | many (`segments/1`, `segments/2`, …) | exactly one (`segments/1`) |
 | **`mood.json`** | present per chapter | absent (no moods) |
@@ -233,7 +233,7 @@ The current scaffold invariants are:
 
 **Both forms:** preserve the cloned root `model.json` unchanged during scaffold, including form-specific initialization and postlayout. Read book settings from it; do not regenerate titles, summaries, chapter plans, or add template defaults to the root model. Any required missing book configuration must be resolved through backlog `init` before scaffold. Later explicit `config` or runtime operations may update the pipeline independently.
 
-**Novel:** use the cloned `gist`, `form`, `book_long_title`, and `book_summary`. Resolve the epic at `.space/backlog/<bookname>/epic.md` without injecting an `epic_path` field into the cloned model.
+**Novel:** use the cloned `gist`, `form`, `book_long_title`, and `book_summary`. Resolve the epic at `.space/backlog/<bookname>/storyline.md` without injecting an `epic_path` field into the cloned model.
 
 **Poetry:**
 1. Do not create any `source/books/` destination during scaffold; reader-facing version folders are created only by the `write` command.
@@ -289,13 +289,13 @@ No downstream step may create alternate chapter-version files in the chapter roo
 
 ## The Epic (Novel only)
 
-The epic is the single source of truth for a novel's story, at `.space/backlog/<bookname>/epic.md`.
+The epic is the single source of truth for a novel's story, at `.space/backlog/<bookname>/storyline.md`.
 
 Every epic embeds a **Metadata** block near the top, right after the title and subtitle, recording the project's provenance and identity:
 
 | Field | Meaning |
 |-------|---------|
-| Title / Book name / Epic path | The book's long title; the `<bookname>`; `.space/backlog/<bookname>/epic.md` |
+| Title / Book name / Storyline path | The book's long title; the `<bookname>`; `.space/backlog/<bookname>/storyline.md` |
 | Created / Updated / Updated By | ISO 8601 timestamps and the agent/model that last updated |
 | User / Author / Machine | The invoking user; the authoring engine; the producing model/agent |
 | Language / Genre / Era | The epic's language code, genre, and historical era |
@@ -631,7 +631,7 @@ To expand without filler: add distinct scenes and locations; extend dialogue int
 
 | Art | Path |
 |---|---|
-| Epic (novel source of truth) | `.space/backlog/<bookname>/epic.md` |
+| Storyline (novel source of truth) | `.space/backlog/<bookname>/storyline.md` |
 | Book plan & gist (`gist`, `epic_path`, `form` fields) | `.space/pipeline/<bookname>/book.json` |
 | Poetry topic index | `.space/pipeline/<bookname>/bookseed.txt` |
 | Workshop narratives (novel source) | `.space/pipeline/<bookname>/filters/workshop/` |
