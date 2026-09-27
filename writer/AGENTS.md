@@ -35,6 +35,7 @@ Supported command families are defined by the two start-point specs. The backlog
 /book <bookname> filter <filter>
 /book <bookname> enrich <count>|range|*
 /book <bookname> review *|all|<n>
+/book <bookname> humanize *|all|<n>
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
 /book <bookname> style [<style>]
 /book <bookname> translate <n>|all|continue <language>
@@ -242,6 +243,7 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/override/agent.md
 .framework/agents/quality/agent.md
 .framework/agents/enrich/agent.md
+.framework/agents/humanize/agent.md
 .framework/agents/eval/agent.md
 .framework/agents/poetry/agent.md
 .framework/agents/story/agent.md
