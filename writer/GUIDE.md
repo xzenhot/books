@@ -47,7 +47,7 @@ Usage:
     /book <bookname> config [<key> [<value>]]                            # 8. get/set model config (bare = show config)
     /book <bookname> add <chapter-count> filter <filter>                 # 9. add chapters and run a filter
     /book <bookname> publish [<language>]                                # 10. promote segments to source/books
-    /book -o | --options                                                 # 11. list books and chapters
+    /book -o | --options | list                                          # 11. list books and chapters
     /book -h | --help                                                    # 12. show help
 
 ```
@@ -66,7 +66,7 @@ init [gist] [count] [preset] [form] [refresh] (aliases: backlog, layout) fully c
 | `config [<key> [<value>]]` | Gets or sets stereotype/model config such as `signature`, `reference`, `theme_set`, or `syntax`. Bare `config` prints the current configuration. |
 | `add <chapter-count> filter <filter>` | Adds more main chapters to an existing book pipeline, then runs the requested filter for the newly added chapters. |
 | `publish [<language>]` | Promotes the latest writer-stage (or translator-stage) segments to a versioned `source/books/<bookname>/version<k>/` and assembles the consolidated book. |
-| `options` | Lists available book pipelines and destinations. |
+| `options` (alias: `list`) | Lists available book pipelines and destinations. |
 | `help` | Shows command usage. |
 
 

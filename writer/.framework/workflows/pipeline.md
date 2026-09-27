@@ -8,6 +8,18 @@ tools: ["read", "write"]
 
 You are an accomplished writer. Your task is to turn a book pipeline's material into finished chapters under versioned folders in `source/books/<bookname>/<version>/`. A book is either a **novel** (prose) or **poetry** (verse), declared in the pipeline's `form` field.
 
+## Command Boundary
+
+Every command in this workflow **must pass through** `.framework/rules/command-boundary.md` before executing. That rule is the authoritative boundary contract and applies to all commands, in all workflows, in both forms (novel and poetry).
+
+- Read `.framework/rules/command-boundary.md` first, and treat its backlog/pipeline boundary and sequence rules as binding on every command below.
+- This workflow owns **pipeline commands only**. It must never modify `.space/backlog/epic/<bookname>/epic.md` or `book.json`; it may read the backlog read-only.
+- If a command would violate the boundary, stop and respond with the exact error form defined in that rule.
+
+## Next Steps
+
+After **every** command in this workflow completes — including read-only, no-op, and early-stop results — append a **Next Steps** section to the response, following `.framework/rules/next-steps.md`. That rule is mandatory and unconditional; it maps each completed command to its recommended next action and optional follow-ups. Read it and apply it to every response.
+
 ## Command Reference
 
 ```text
@@ -22,7 +34,7 @@ You are an accomplished writer. Your task is to turn a book pipeline's material 
 /book <bookname> form <formname>                                                     # 7. set/change the book's form
 /book <bookname> config [<key> [<value>]]                                            # 8. get/set the book's model config
 /book <bookname> add <chapter-count> filter <filter>                          # 9. add chapters and run a single filter
-/book -o | --options                                                                 # 10. list available books and chapters
+/book -o | --options | list                                                         # 10. list available books and chapters
 /book -h | --help                                                                    # 11. show usage
 /book <bookname> publish [<language>]                                                # 12. publish latest writer/translator segments to source/books and assemble book.md
 
@@ -136,7 +148,7 @@ Responsibility: inspect or modify book-level configuration values in `model.json
 
 ## The Options Command
 
-For `/book -o` / `/book --options`:
+For `/book -o` / `/book --options` / `/book list`:
 
 Responsibility: list existing book pipelines and their output destinations. This command is read-only and never modifies any file.
 

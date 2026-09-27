@@ -15,6 +15,18 @@ This workflow owns the **backlog-creation phase** of the `/book` pipeline. It ha
 
 These are **Phase 0 (Backlog)** and **Phase 1 (Init)** of the overall `/book` workflow. The full `/book` lifecycle lives in `.framework/workflows/pipeline.md`; this file is the authoritative spec for the backlog-creation half of that lifecycle. `scaffold` and everything after it is owned by `pipeline.md`.
 
+## Command Boundary
+
+Every command in this workflow **must pass through** `.framework/rules/command-boundary.md` before executing. That rule is the authoritative boundary contract and applies to all commands, in all workflows, in both forms (novel and poetry).
+
+- Read `.framework/rules/command-boundary.md` first, and treat its backlog/pipeline boundary and sequence rules as binding on every command below.
+- This workflow owns **backlog commands only**. It must never cross into `.space/pipeline/<bookname>/` or `source/books/`.
+- If a command would violate the boundary, stop and respond with the exact error form defined in that rule.
+
+## Next Steps
+
+After **every** command in this workflow completes — including read-only, no-op, and early-stop results — append a **Next Steps** section to the response, following `.framework/rules/next-steps.md`. That rule is mandatory and unconditional; it maps each completed command to its recommended next action and optional follow-ups. Read it and apply it to every response.
+
 ## Scope Boundary
 
 The backlog workflow operates **only inside the backlog**:
