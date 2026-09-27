@@ -63,13 +63,13 @@
     "variety_note": "Where earlier chapters focused on accumulation (profit) or established grandeur (frescoes), this chapter must focus on the high-cost *expenditure* of joy—a controlled moment of unsustainable public excess."
   },
   "draft": {
-    "sha256": "6b609893f2c94c40d9dc8f6591b182f17dae73f551ec4c0d9f2dfe1b39a5af9e",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "3eaf0d33c10e4a04d65163f991f41c28e14e166f06d91c2771558619773516df",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "bc97d484779f73f3e57e577eddc691a57fe67b5b1f9a43b490fe9b14f2a1425a",
+    "sha256": "3eaf0d33c10e4a04d65163f991f41c28e14e166f06d91c2771558619773516df",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -78,7 +78,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

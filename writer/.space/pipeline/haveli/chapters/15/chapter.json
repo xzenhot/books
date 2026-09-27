@@ -59,13 +59,13 @@
     "variety_note": "This chapter uniquely focuses on the incorporation of mechanized, industrial imagery alongside traditional iconography, moving beyond pure narrative cycles into an analysis of changing sources of power and capital."
   },
   "draft": {
-    "sha256": "1557a58865772e22a3a344c110569a5d5486e010b7cae11bed67aa8e9b228f12",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "33393366f9bb4f28a738261534334d122cccdac848cf96b2db91f3e3195fbd8d",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "d5c2a72fea5fceeed1776c5702ce11c33a24e35a24d05e85d817a99aef709704",
+    "sha256": "33393366f9bb4f28a738261534334d122cccdac848cf96b2db91f3e3195fbd8d",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -74,7 +74,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

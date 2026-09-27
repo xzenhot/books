@@ -63,13 +63,13 @@
     "variety_note": "This chapter moves away from the contained claustrophobia of the haveli and focuses outward, using the vastness of the desert trade route to expand Gangaram's world view while simultaneously emphasizing how little control he truly has over his fortunes."
   },
   "draft": {
-    "sha256": "489399ceadff4987a0535b1ae5e23f72768834e057efa78ffcca21c11f925a31",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "05c72cad5a573be2193a8aa34e1bd7aef23dbad5b10e10cf01bdc67e4d5b3058",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "9741dca18f1db7444389b2fde755b9606f93e3eba21aa457a072c4a2938835ec",
+    "sha256": "05c72cad5a573be2193a8aa34e1bd7aef23dbad5b10e10cf01bdc67e4d5b3058",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -78,7 +78,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

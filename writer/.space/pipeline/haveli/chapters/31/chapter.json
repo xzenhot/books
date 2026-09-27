@@ -53,13 +53,13 @@
     "variety_note": "Where previous chapters focused on external displays of wealth (frescoes, grand halls), this chapter turns inward and downward, grounding the narrative in basic sustenance—the material cost that lies beneath the pigment's sheen."
   },
   "draft": {
-    "sha256": "fbe1e7b6d66f2c2a32ed1769599c38ef8fe098a7e56444522d9b4af564bfdcda",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "503f856f2f93910bc811110ddcf320057c0895657f232fcae057272481baabb1",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "39242e5bc757e3b95722828b8021194fba2fca7a1e4ac9a874b14ff62ac7a735",
+    "sha256": "503f856f2f93910bc811110ddcf320057c0895657f232fcae057272481baabb1",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -68,7 +68,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

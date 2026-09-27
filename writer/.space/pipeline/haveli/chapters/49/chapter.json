@@ -63,13 +63,13 @@
     "variety_note": "Unlike the preceding chapters which dealt with active decline (dust, silence, ledger closing), this poem must focus entirely on inert stillness—the absolute zero point of activity in the haveli narrative."
   },
   "draft": {
-    "sha256": "fa550c0667f4b10b474e79a684a2179d892ce85842919bb869002f61b4515152",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "515db4578b2d1611428ff159b4e824d19babf9239f860a4ec5c4334f93735098",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "097bc2dce1c46d44eed5b3d1155abd8fd127d00d558a289512c628b35fcd437b",
+    "sha256": "515db4578b2d1611428ff159b4e824d19babf9239f860a4ec5c4334f93735098",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -78,7 +78,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

@@ -59,13 +59,13 @@
     "variety_note": "While previous chapters focused on concrete goods like salt, cotton, and architectural labor, this chapter shifts focus to psychoactive commodities, dealing with invisible 'weight' that has immediate moral consequences rather than just fluctuating market prices."
   },
   "draft": {
-    "sha256": "6c7d59e5e0155514986812748ae7a5c5e2eee2704ee3c5134e6ed4b3cce957dc",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "bb6aeb58fff5dbecfbd735ebabf8bc7fa705a74aa8f7717d90c2b91e813f9fed",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "679ce72a039f1e5d99a59f45e33bedbbf22e812cf83d101e1ef3c0f5115a6e4d",
+    "sha256": "bb6aeb58fff5dbecfbd735ebabf8bc7fa705a74aa8f7717d90c2b91e813f9fed",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -74,7 +74,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

@@ -56,13 +56,13 @@
     "variety_note": "This chapter must deepen the economic contrast established earlier—it moves from mere accumulation (ledger/goods) to the literal consumption of vital resources (water/scent) as a status display."
   },
   "draft": {
-    "sha256": "54f9cc16613786ea7810e6cec1d7ed9d7a7ab588732eb3c84af8c0d34cb74da7",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "f271b2024dd4aabfef3d0e35304a3d362fc9d96fda66a1f466d6695baef012e1",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "883a6429087804da47571d28697bb6d382839969c58b45d700338e4f280358ed",
+    "sha256": "f271b2024dd4aabfef3d0e35304a3d362fc9d96fda66a1f466d6695baef012e1",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -71,7 +71,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"
