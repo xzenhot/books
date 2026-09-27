@@ -1537,6 +1537,28 @@ def publish_workflow(bookname: str, language: str | None = None) -> None:
     publisher.publish(bookname)
 
 
+def review_workflow(bookname: str, target: str) -> None:
+    """Run the quality review engine (review.py) on selected chapters.
+
+    Loads review.py as a module, resolves the chapter list, and reviews
+    each requested chapter against the quality parameters.
+    """
+    review = _load_module("writer_review_engine", "review.py")
+    chapters_root = review.resolve_chapters_root(bookname)
+    numbers = review.parse_chapter_input(target, chapters_root)
+
+    if not numbers:
+        print("No chapters to review. Write chapters first.")
+        return
+
+    # Ensure the pipeline style.md exists and is grounded in the current book.
+    book = review.load_book_model(bookname)
+    review.regenerate_style_md(bookname, book)
+
+    # Run the review for the target chapters.
+    review.run_review(bookname, target)
+
+
 # ---------------------------------------------------------------------------
 # Argument parser
 # ---------------------------------------------------------------------------
@@ -1574,7 +1596,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "verb",
         nargs="?",
-        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "write", "publish"),
+        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "write", "publish"),
         help="Workflow action to perform.",
     )
     parser.add_argument(
@@ -1676,6 +1698,10 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
             "'filter' has no standalone runner in .tools/.\n"
             "Invoke the registered filter agent through /book or run the filter agent directly."
         )
+
+    if verb == "review":
+        review_workflow(bookname, positional_target(args))
+        return
 
     raise ValueError(f"Unsupported workflow verb: {verb!r}")
 
