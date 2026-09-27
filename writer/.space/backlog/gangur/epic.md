@@ -1,7 +1,7 @@
 # গঙ্গুর: বেহুলার অস্বীকার
 
 - **Book name:** gangur
-- **Epic path:** .space/backlog/epic/gangur/epic.md
+- **Epic path:** .space/backlog/gangur/epic.md
 - **Created:** 2026-09-26T09:33:41+00:00
 - **Updated:** 2026-09-27T00:00:00+00:00
 - **Updated by:** gist agent (refresh)

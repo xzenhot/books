@@ -66,7 +66,7 @@ If the MCP server cannot be started or the needed tool is unavailable, fall back
 
 ## Your Task
 
-1. Read the epic at .space/backlog/epic/<bookname>/epic.md when it is available. For poetry, use the epic and gist as contextual sources; for novels, the epic remains the story source of truth.
+1. Read the epic at .space/backlog/<bookname>/epic.md when it is available. For poetry, use the epic and gist as contextual sources; for novels, the epic remains the story source of truth.
 2. Read the chapter model at .space/pipeline/<bookname>/chapters/<n>/chapter.json and the pipeline book plan. Never read `chapters/<n>/chapter.md` — it is an output file owned by the writing path; research works on the chapter's metadata and research inputs only.
 3. Determine the target mastery level from the pipeline, chapter model, or user; default to Experienced.
 4. Ground and enrich the chapter's metadata. If the model lacks needed grounding or the target is Expert or above, use the local MCP research tools and record sources and findings in the chapter model.

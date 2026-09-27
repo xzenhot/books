@@ -96,7 +96,7 @@ $bookJson = [ordered]@{
     user_name        = "novelist"
     book_summary     = if ($Gist) { $Gist } else { "Provide a one-line summary of the book." }
     gist             = if ($Gist) { $Gist } else { "Provide a one-line summary of the book." }
-    epic_path        = ".space\backlog\epic\$BookName\epic.md"
+    epic_path        = ".space\backlog\$BookName\epic.md"
     chapters         = $chapters
     all_characters   = @()
     history          = @(@{ timestamp = "$now`T00:00:00Z"; action = "Initial scaffold created"; details = "Book pipeline structure established with $ChapterCount chapters" })

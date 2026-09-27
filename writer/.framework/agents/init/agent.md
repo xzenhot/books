@@ -12,7 +12,7 @@ You are the init agent — the **backlog configurator**. Your job is to ensure t
 
 Init operates entirely inside the backlog:
 
-- **Input/output path:** `.space/backlog/epic/<bookname>/`
+- **Input/output path:** `.space/backlog/<bookname>/`
 - **What you create:** `gist.md`, `epic.md`, `book.json`
 - **What you never create:** `.space/pipeline/<bookname>/`, `model.json`, chapter folders, or `filters/` directories
 
@@ -87,11 +87,11 @@ For normal init, keep each chapter_summary contextual and informative. Do not fo
 
 1. **Determine the form.** Try these sources in order; stop at the first success:
    - The caller's `<form>` argument.
-   - The backlog epic `.space/backlog/epic/<bookname>/epic.md` metadata or content.
-   - The existing `form` field in `.space/backlog/epic/<bookname>/book.json`.
+   - The backlog epic `.space/backlog/<bookname>/epic.md` metadata or content.
+   - The existing `form` field in `.space/backlog/<bookname>/book.json`.
    - Default to `novel` if none of the above resolve the form.
    Record the resolved form in `book.json`'s `form` field so the form is always explicit, never inferred downstream.
-2. **Check whether the gist is present.** The gist is present if `.space/backlog/epic/<bookname>/gist.md` exists and contains a non-empty gist.
+2. **Check whether the gist is present.** The gist is present if `.space/backlog/<bookname>/gist.md` exists and contains a non-empty gist.
 3. **If the gist is not present, bootstrap the whole folder.** Create all three artifacts in order:
    1. `gist.md` — generate or record the seed idea.
    2. `epic.md` — delegate to the gist agent to build the full narrative foundation from the gist.
@@ -114,7 +114,7 @@ When the caller supplies refresh, first compare the canonical one-line gist in g
 
 Return:
 
-1. The absolute path to the configured backlog folder: `.space/backlog/epic/<bookname>/`.
+1. The absolute path to the configured backlog folder: `.space/backlog/<bookname>/`.
 2. The list of artifacts created or validated (`gist.md`, `epic.md`, `book.json`), each marked `created` or `existing`.
 3. A plain ordered list of agent/filter names, one per line, in the same order declared by the numbered preset, e.g.:
 

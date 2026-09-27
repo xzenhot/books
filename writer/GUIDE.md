@@ -17,8 +17,8 @@ The authoritative engine lives in two start-point workflow specs under `.framewo
 | `.framework/skills/layout-novel/SKILL.md` | **The novel layout authority.** Owns novel scaffold shape, `book.json`, characters, moods, workshop metadata, filters, and chapter/segment path invariants. |
 | `.framework/skills/layout-poetry/SKILL.md` | **The poetry layout authority.** Owns poetry scaffold shape, `book.json`, `bookseed.txt`, progress, override, filters, and one-segment chapter layout. |
 | `.framework/skills/research/SKILL.md` | **The scaffold research step.** Runs after layout before chapters are written. |
-| `.space/backlog/epic/<bookname>/epic.md` | **The backlog epic.** The single source of truth for a novel's story. Created/updated by the bare `/book <bookname> [<gist>]` command. |
-| `.space/backlog/epic/<bookname>/book.json` | **The backlog book plan.** The chapter-layout plan (chapters, titles, summaries, characters) plus the authoritative `filter_chain` and `word_target`. Produced by `init`; the blueprint `scaffold` builds from. |
+| `.space/backlog/<bookname>/epic.md` | **The backlog epic.** The single source of truth for a novel's story. Created/updated by the bare `/book <bookname> [<gist>]` command. |
+| `.space/backlog/<bookname>/book.json` | **The backlog book plan.** The chapter-layout plan (chapters, titles, summaries, characters) plus the authoritative `filter_chain` and `word_target`. Produced by `init`; the blueprint `scaffold` builds from. |
 | `.space/pipeline/<bookname>/` | **The book pipeline.** Holds model data, characters, filters, chapter plans, segments, and progress state. |
 | `.space/pipeline/<bookname>/book.json` | **The book plan.** A clone of the backlog `book.json` — records form, gist, title, summary, source paths, stereotype selections, and poetry configuration. |
 | `.space/pipeline/<bookname>/bookseed.txt` | **The poetry index.** One topic or term per line; each topic becomes one chapter. |
@@ -54,7 +54,7 @@ Usage:
 
 | Command | What it does |
 |---------|--------------|
-| `<bookname> [<gist>] [form] [refresh]` | Creates, updates, or rewrites `.space/backlog/epic/<bookname>/epic.md` (recording the seed in `gist.md`) and develops it into a rich, detailed narrative foundation. If gist omitted, infers from book name. If `[form]` supplied, changes the book's form. Does **not** scaffold a pipeline. The former `gist` subcommand is merged into this command. |
+| `<bookname> [<gist>] [form] [refresh]` | Creates, updates, or rewrites `.space/backlog/<bookname>/epic.md` (recording the seed in `gist.md`) and develops it into a rich, detailed narrative foundation. If gist omitted, infers from book name. If `[form]` supplied, changes the book's form. Does **not** scaffold a pipeline. The former `gist` subcommand is merged into this command. |
 init [gist] [count] [preset] [form] [refresh] (aliases: backlog, layout) fully configures the backlog epic folder and derives the ordered filter chain. Init operates only in the backlog; it never creates or modifies pipeline files.
 | `scaffold <gist> count\|chapter-count <number>` | Creates or repairs `.space/pipeline/<bookname>/` through the scaffold agent (prelayout -> layout skill -> postlayout), gated by the existence of `book.json`. Never creates or modifies `epic.md`. |
 | `<agentname> <chapter>\|<n>\|all\|continue` | Runs any registered agent (`.framework/agents/<agentname>/agent.md`) against selected chapters in an existing pipeline. Does not promote output to `source/books/`. |
@@ -74,10 +74,10 @@ init [gist] [count] [preset] [form] [refresh] (aliases: backlog, layout) fully c
 
 ## Command Rules
 
-- **Bare bookname creates backlog epic.** The bare `/book <bookname>` command checks `.space/backlog/epic/<bookname>/epic.md`; if it is missing, create it with an auto-generated gist. It does not scaffold a pipeline.
+- **Bare bookname creates backlog epic.** The bare `/book <bookname>` command checks `.space/backlog/<bookname>/epic.md`; if it is missing, create it with an auto-generated gist. It does not scaffold a pipeline.
 - **Backlog vs. pipeline boundary.** Commands 1-2 (bookname with optional gist, init/backlog/layout) operate only in the backlog and never create or modify pipeline files. Commands 3+ (scaffold onward) operate only on the pipeline and source files and never modify backlog files.
 - Use the bare `/book <bookname> [<gist>]` command for early backlog work when you want to develop a rich, detailed epic. It creates or updates the epic and never creates `.space/pipeline/<bookname>/`.
-- **`init` before `scaffold`.** `scaffold` is gated by the existence of `.space/backlog/epic/<bookname>/book.json`; if it is missing, stop and instruct the user to run `/book <bookname> init` first. Do not silently fall back to a default template.
+- **`init` before `scaffold`.** `scaffold` is gated by the existence of `.space/backlog/<bookname>/book.json`; if it is missing, stop and instruct the user to run `/book <bookname> init` first. Do not silently fall back to a default template.
 - Use `scaffold` to create the full pipeline with explicit gist and chapter count. The gist is required and must be a single sentence.
 - `scaffold` requires `count` or `chapter-count` followed by the main chapter count. The default comes from `book.json` if it specifies one, otherwise 5.
 - Once a pipeline exists, subsequent commands work from pipeline data. Do not re-scaffold from scratch unless explicitly asked.
@@ -132,7 +132,7 @@ Scaffold rules are embedded in `.framework/workflows/pipeline.md` under the **Sc
 
 For `/book <bookname> [<gist>] [form] [refresh]`:
 
-1. Check whether `.space/backlog/epic/<bookname>/epic.md` exists.
+1. Check whether `.space/backlog/<bookname>/epic.md` exists.
 2. **If epic doesn't exist:** Create it automatically with auto-generated gist.
 3. **If epic exists:** Re-groom it into a coherent foundation (or report it exists and leave it unchanged if no gist/form/refresh is supplied).
 4. Stop there. The bare command never creates `.space/pipeline/<bookname>/`, never runs layout, and never runs research.
@@ -143,7 +143,7 @@ Backlog preparation continues with `init`/`backlog` (configure the book plan), t
 
 For `/book <bookname> scaffold <gist> count|chapter-count <number> [--form novel|poetry]`:
 
-1. **Book plan is mandatory.** `.space/backlog/epic/<bookname>/book.json` must exist (run `init` first if missing). Do not silently fall back to a default template.
+1. **Book plan is mandatory.** `.space/backlog/<bookname>/book.json` must exist (run `init` first if missing). Do not silently fall back to a default template.
 2. If the pipeline already exists, skip scaffolding and work with the existing data.
 3. Determine the form from `--form` or by inference (narrative premise -> novel; topic/term list -> poetry); record it in `book.json`.
 4. Validate the gist (single sentence) and determine the chapter count (default from `book.json` if it specifies one, otherwise 5).
@@ -160,7 +160,7 @@ For `/book <bookname> scaffold <gist> count|chapter-count <number> [--form novel
 
 For `/book <bookname> [<gist>] [form] [refresh]`:
 
-1. Create or update `.space/backlog/epic/<bookname>/epic.md` and develop it into a well-groomed, detailed narrative foundation.
+1. Create or update `.space/backlog/<bookname>/epic.md` and develop it into a well-groomed, detailed narrative foundation.
 2. Infer a one-sentence gist from the book name if none is supplied.
 3. **Novel:** Develop a rich, well-groomed epic that includes:
    - A compelling premise and historical grounding

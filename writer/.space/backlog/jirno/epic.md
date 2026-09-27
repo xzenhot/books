@@ -1,7 +1,7 @@
 # jirno: এর কবিতা
 
 - **Book name:** jirno
-- **Epic path:** .space/backlog/epic/jirno/epic.md
+- **Epic path:** .space/backlog/jirno/epic.md
 - **Created:** 2026-09-21T18:07:15+00:00
 - **Updated:** 2026-09-21T18:17:25+00:00
 - **Updated by:** gist agent / Codex

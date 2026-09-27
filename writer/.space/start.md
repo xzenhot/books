@@ -7,7 +7,7 @@ This file is the **user-maintained default configuration**. It is read by all wo
 | Folder | Role |
 |--------|------|
 | `.framework/` | The engine (workflows, agents, skills, rules, templates). Read-only; updated from GitHub. **Do not edit.** |
-| `.space/` | The workspace. Projects live under `.space/backlog/epic/`; working state under `.space/pipeline/`. |
+| `.space/` | The workspace. Projects live under `.space/backlog/`; working state under `.space/pipeline/`. |
 | `.space/context/` | Additional materials placed here for research and reference. Updated from GitHub. |
 | `source/books/` | Build output. All published, finalized work is placed here. |
 | `.tools/` | Coding tools available to help you. |

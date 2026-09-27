@@ -28,7 +28,7 @@ If this skill conflicts with `.framework/workflows/pipeline.md`, prefer the work
 For novel story content, use the backlog epic:
 
 ```text
-.space/backlog/epic/<bookname>/epic.md
+.space/backlog/<bookname>/epic.md
 ```
 
 The epic is the narrative source of truth. The scaffold may summarize and structure it, but must not invent a different story.
@@ -253,7 +253,7 @@ Segment-level `model.json` minimum shape:
 
 ## Filter Registry
 
-Before creating the filter registry, read `.space/backlog/epic/<bookname>/book.json`. If it does not exist, invoke the init agent (`.framework/agents/init/agent.md`) to create it from the form-specific default template. The init agent will also create/confirm the book plan file.
+Before creating the filter registry, read `.space/backlog/<bookname>/book.json`. If it does not exist, invoke the init agent (`.framework/agents/init/agent.md`) to create it from the form-specific default template. The init agent will also create/confirm the book plan file.
 
 Use the ordered `filter_chain` list declared in the resulting book plan as the canonical filter chain. If for any reason the book plan cannot be read or created, fall back to the default novel chain declared in this skill's *Preset* section:
 

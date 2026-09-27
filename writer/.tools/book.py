@@ -326,7 +326,7 @@ def make_epic(
         f"# {make_title(bookname, form)}",
         "",
         f"- **Book name:** {bookname}",
-        f"- **Epic path:** .space/backlog/epic/{bookname}/epic.md",
+        f"- **Epic path:** .space/backlog/{bookname}/epic.md",
         f"- **Created:** {now}",
         f"- **Updated:** {now}",
         "- **Updated by:** book.py",
@@ -393,7 +393,7 @@ def _epic_header(
         f"# {make_title(bookname, form)}",
         "",
         f"- **Book name:** {bookname}",
-        f"- **Epic path:** .space/backlog/epic/{bookname}/epic.md",
+        f"- **Epic path:** .space/backlog/{bookname}/epic.md",
         f"- **Created:** {now}",
         f"- **Updated:** {now}",
         "- **Updated by:** book.py",
@@ -1365,7 +1365,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "bookname",
-        help="Book folder name under .space/backlog/epic/ (no path separators).",
+        help="Book folder name under .space/backlog/ (no path separators).",
     )
     parser.add_argument(
         "verb",

@@ -1,6 +1,6 @@
 ---
 name: gist
-description: Backlog epic generator and transformer. Accepts a book name and an optional one-line gist, then either creates a great idea from scratch or transforms an existing epic into a stronger one, writing the complete epic.md at .space/backlog/epic/<bookname>/epic.md.
+description: Backlog epic generator and transformer. Accepts a book name and an optional one-line gist, then either creates a great idea from scratch or transforms an existing epic into a stronger one, writing the complete epic.md at .space/backlog/<bookname>/epic.md.
 tools: ["read", "write"]
 ---
 
@@ -24,7 +24,7 @@ You receive two positional parameters:
 
 ### Create Mode
 
-When `.space/backlog/epic/<bookname>/epic.md` does not exist, or the caller supplies a fresh gist, generate a great idea and build the epic from it.
+When `.space/backlog/<bookname>/epic.md` does not exist, or the caller supplies a fresh gist, generate a great idea and build the epic from it.
 
 ### Transform Mode
 
@@ -56,7 +56,7 @@ When the gist is omitted or thin, generate a great idea rather than defaulting t
 Resolve the target file as:
 
 ```text
-.space/backlog/epic/<bookname>/epic.md
+.space/backlog/<bookname>/epic.md
 ```
 
 If the parent folder does not exist, create it.
@@ -71,7 +71,7 @@ Begin the file with a compact metadata block after the title/subtitle:
 
 ```text
 - **Book name:** <bookname>
-- **Epic path:** .space/backlog/epic/<bookname>/epic.md
+- **Epic path:** .space/backlog/<bookname>/epic.md
 - **Created:** <ISO 8601 timestamp>
 - **Updated:** <ISO 8601 timestamp>
 - **Updated by:** gist agent

@@ -1,7 +1,7 @@
 # wife: এর কবিতা
 
 - **Book name:** wife
-- **Epic path:** .space/backlog/epic/wife/epic.md
+- **Epic path:** .space/backlog/wife/epic.md
 - **Created:** 2026-09-20T17:41:22+00:00
 - **Updated:** 2026-09-20T18:30:00+00:00
 - **Updated by:** init agent

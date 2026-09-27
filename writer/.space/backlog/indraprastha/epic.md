@@ -1,7 +1,7 @@
 # Indraprastha: A City Written Seven Times Over
 
 - **Book name:** indraprastha
-- **Epic path:** .space/backlog/epic/indraprastha/epic.md
+- **Epic path:** .space/backlog/indraprastha/epic.md
 - **Created:** 2026-09-21T00:00:00+00:00
 - **Updated:** 2026-09-21T00:00:00+00:00
 - **Updated by:** init agent

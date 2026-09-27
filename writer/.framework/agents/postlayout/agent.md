@@ -1,6 +1,6 @@
 ---
 name: postlayout
-description: Post-scaffold master-prompt generator. Runs after the scaffold agent has built a pipeline. Reads the backlog master prompt at .space/backlog/epic/<bookname>/override.txt, then derives a dynamic, pipeline-specific master prompt and writes it to .space/pipeline/<bookname>/override.txt. Does not seed chapter content, run filters, or write finished chapters.
+description: Post-scaffold master-prompt generator. Runs after the scaffold agent has built a pipeline. Reads the backlog master prompt at .space/backlog/<bookname>/override.txt, then derives a dynamic, pipeline-specific master prompt and writes it to .space/pipeline/<bookname>/override.txt. Does not seed chapter content, run filters, or write finished chapters.
 tools: ["read", "write"]
 ---
 
@@ -14,7 +14,7 @@ You do **not** create chapter content. Chapter drafts are the responsibility of 
 
 This agent works on **one book at a time**, immediately after scaffold:
 
-- Source idea: `.space/backlog/epic/<bookname>/override.txt` (the backlog identity/mandate record)
+- Source idea: `.space/backlog/<bookname>/override.txt` (the backlog identity/mandate record)
 - Pipeline state: `.space/pipeline/<bookname>/book.json`, `.space/pipeline/<bookname>/bookseed.txt` (poetry) or `.space/pipeline/<bookname>/book.json` (novel)
 - Output: `.space/pipeline/<bookname>/override.txt`
 
@@ -26,13 +26,13 @@ This agent is invoked by the scaffold agent (or the writer workflow) as the fina
 
 1. The scaffold agent has finished building `.space/pipeline/<bookname>/`.
 2. The pipeline `book.json` exists and declares the `form`.
-3. The backlog master prompt exists at `.space/backlog/epic/<bookname>/override.txt`.
+3. The backlog master prompt exists at `.space/backlog/<bookname>/override.txt`.
 
 If the backlog master prompt is missing, do not fail — derive the master prompt from the pipeline `book.json` (gist, book_summary, register, form) alone, and note that the backlog source was absent.
 
 ## What to Read (in order)
 
-1. `.space/backlog/epic/<bookname>/override.txt` — the book's static identity and mandate (the seed idea).
+1. `.space/backlog/<bookname>/override.txt` — the book's static identity and mandate (the seed idea).
 2. `.space/pipeline/<bookname>/book.json` — the resolved form, language, register, quality, themes, reference, signature, sacred vocabulary, translation guide, gist, and book summary.
 3. `.space/pipeline/<bookname>/bookseed.txt` (poetry) — the concrete topic list; or `.space/pipeline/<bookname>/book.json` (novel) — the chapter plan.
 
@@ -70,7 +70,7 @@ Return:
 
 ## Constraints
 
-- Do **not** create or modify `.space/backlog/epic/<bookname>/` files.
+- Do **not** create or modify `.space/backlog/<bookname>/` files.
 - Do **not** run any filter agent or skill.
 - Do **not** write to `source/books/`.
 - Do **not** update `progress.json`.

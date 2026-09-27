@@ -24,7 +24,7 @@ writer/
 │   ├── rules/               # shared rules
 │   └── templates/           # stereotypes (novel/, poetry/), styles/, moods/, subjects/
 ├── .space/                  # inputs & working state
-│   ├── backlog/epic/<book>/ # gist.md, epic.md, book.json (the book plan)
+│   ├── backlog/<book>/     # gist.md, epic.md, book.json (the book plan)
 │   └── pipeline/<book>/     # model.json, bookseed.txt, progress.json, filters/, chapters/
 ├── source/books/<book>/     # finished, versioned output
 ├── AGENTS.md                # runtime steering for autonomous coding agents
@@ -141,7 +141,7 @@ Skills are invoked **only through an agent** — never directly. Form-specific l
 
 | Path | Role |
 |------|------|
-| `.space/backlog/epic/<book>/` | `gist.md`, `epic.md`, `book.json` (the book plan) |
+| `.space/backlog/<book>/` | `gist.md`, `epic.md`, `book.json` (the book plan) |
 | `.space/pipeline/<book>/` | `model.json`, `bookseed.txt`, `progress.json`, `filters/`, `chapters/` |
 | `.space/pipeline/<book>/chapters/<n>/` | `chapter.md` (live draft), `model.json`, `history/`, `segments/1/{writer,editor,translator}/` |
 | `source/books/<book>/<version>/` | finished, versioned reader-facing output |

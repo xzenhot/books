@@ -13,7 +13,7 @@ You are an accomplished writer. Your task is to turn a book pipeline's material 
 Every command in this workflow **must pass through** `.framework/rules/command-boundary.md` before executing. That rule is the authoritative boundary contract and applies to all commands, in all workflows, in both forms (novel and poetry).
 
 - Read `.framework/rules/command-boundary.md` first, and treat its backlog/pipeline boundary and sequence rules as binding on every command below.
-- This workflow owns **pipeline commands only**. It must never modify `.space/backlog/epic/<bookname>/epic.md` or `book.json`; it may read the backlog read-only.
+- This workflow owns **pipeline commands only**. It must never modify `.space/backlog/<bookname>/epic.md` or `book.json`; it may read the backlog read-only.
 - If a command would violate the boundary, stop and respond with the exact error form defined in that rule.
 
 ## Next Steps
@@ -201,17 +201,17 @@ Responsibility: build the pipeline structure from the backlog book plan and form
 
 > **Delegate to the repository CLI.** Scaffold is a structural, repeatable operation: execute it with `python .tools/book.py <bookname> scaffold [count] [novel|poetry]` rather than re-implementing it. The CLI already implements scaffold (init/build/layout, scaffold, enrich, write, publish); do not create new scripts inside `.space/pipeline/<bookname>/`.
 
-1. **Book plan is mandatory.** Before scaffolding, the init agent must have been run and `.space/backlog/epic/<bookname>/book.json` must exist. If it does not exist, stop and instruct the user to run `/book <bookname> init ` first. Do not silently fall back to a default template.
+1. **Book plan is mandatory.** Before scaffolding, the init agent must have been run and `.space/backlog/<bookname>/book.json` must exist. If it does not exist, stop and instruct the user to run `/book <bookname> init ` first. Do not silently fall back to a default template.
 2. If the pipeline already exists, skip scaffolding and work with the existing data.
 3. Read the form from the backlog book plan. If `--form` is supplied, it must match the plan; otherwise stop and require the backlog plan to be updated through `init` first. Do not infer or replace the cloned plan's form during scaffold.
 4. Read the gist and chapter count from `book.json`. Explicit gist/count arguments must agree with the plan; if they differ, stop and require `init` to update the backlog plan first. Do not silently rewrite the plan during scaffold.
 5. Stop if the backlog epic is missing for a novel; do not create or rewrite it. The actual story always comes from the existing epic.
-6. Invoke the scaffold agent at `.framework/agents/scaffold/agent.md`; do not invoke layout skills directly. Pass the epic (novel) or the gist/topic list (poetry), the chapter count, and **the path to the backlog book plan** `.space/backlog/epic/<bookname>/book.json`.
+6. Invoke the scaffold agent at `.framework/agents/scaffold/agent.md`; do not invoke layout skills directly. Pass the epic (novel) or the gist/topic list (poetry), the chapter count, and **the path to the backlog book plan** `.space/backlog/<bookname>/book.json`.
 7. The scaffold agent MUST invoke the prelayout agent (`.framework/agents/prelayout/agent.md`) as its first step, before any layout work, to resolve the form, validate the book plan, and produce the pre-layout plan. The layout skill runs only after the prelayout agent returns.
-8. **Clone the book plan and seed chapter models (mandatory).** After prelayout validation and before layout populates chapter folders, the scaffold agent must copy `.space/backlog/epic/<bookname>/book.json` to `.space/pipeline/<bookname>/book.json` in full. For Behula, this is `.space/backlog/epic/behula/book.json` → `.space/pipeline/behula/book.json`. Preserve every field, value, and chapter entry; do not substitute a template or a reduced runtime model. Seed each chapter model from its matching `chapters` entry according to the model contract below. Use the cloned plan's declared `filter_chain` sequence to build `filters/filters.json`, never the layout skills' preset chain. Scaffold creates **only** `filters/filters.json` (the registry); it does not create per-filter folders — each filter creates its own `filters/<filter>/` folder when it first runs. These requirements take precedence over conflicting scaffold-agent or layout-skill model templates.
+8. **Clone the book plan and seed chapter models (mandatory).** After prelayout validation and before layout populates chapter folders, the scaffold agent must copy `.space/backlog/<bookname>/book.json` to `.space/pipeline/<bookname>/book.json` in full. For Behula, this is `.space/backlog/behula/book.json` → `.space/pipeline/behula/book.json`. Preserve every field, value, and chapter entry; do not substitute a template or a reduced runtime model. Seed each chapter model from its matching `chapters` entry according to the model contract below. Use the cloned plan's declared `filter_chain` sequence to build `filters/filters.json`, never the layout skills' preset chain. Scaffold creates **only** `filters/filters.json` (the registry); it does not create per-filter folders — each filter creates its own `filters/<filter>/` folder when it first runs. These requirements take precedence over conflicting scaffold-agent or layout-skill model templates.
 9. Apply form-specific initialization (below).
 10. **Seed the override command file lazily.** The override command file `.space/pipeline/<bookname>/filters/override/filter.md` is not created at scaffold. It is seeded on first use — by the override filter, the write/poet path, or any step that needs it — with form-customized content derived from `.framework/agents/override/agent.md` whenever `override` appears in the book plan's `filter_chain`.
-11. **Generate the dynamic master prompt.** After layout, the scaffold agent MUST invoke the postlayout agent (`.framework/agents/postlayout/agent.md`) to derive the pipeline's dynamic master prompt from the backlog idea (`.space/backlog/epic/<bookname>/override.txt`) and the resolved pipeline state, writing it to `.space/pipeline/<bookname>/override.txt`. This is a mandatory final step — a scaffold is not complete until the postlayout agent has run.
+11. **Generate the dynamic master prompt.** After layout, the scaffold agent MUST invoke the postlayout agent (`.framework/agents/postlayout/agent.md`) to derive the pipeline's dynamic master prompt from the backlog idea (`.space/backlog/<bookname>/override.txt`) and the resolved pipeline state, writing it to `.space/pipeline/<bookname>/override.txt`. This is a mandatory final step — a scaffold is not complete until the postlayout agent has run.
 12. **Verify the model contract before completing scaffold.** The root `book.json` must still equal the complete backlog `book.json` as parsed JSON after layout and postlayout. Each chapter model must contain all fields from its matching plan entry with identical values and types. Missing, duplicated, or mismatched chapter identities fail validation; do not report scaffold complete until resolved. Run only the scaffold, prelayout, and postlayout agents and delegated layout work here, not filter or writing agents. After scaffold, the user must run `/book <bookname> filter <filter>` for each filter, in order, to populate filter outputs.
 13. Write chapters only after all filter outputs have been produced.
 
@@ -233,7 +233,7 @@ The current scaffold invariants are:
 
 **Both forms:** preserve the cloned root `model.json` unchanged during scaffold, including form-specific initialization and postlayout. Read book settings from it; do not regenerate titles, summaries, chapter plans, or add template defaults to the root model. Any required missing book configuration must be resolved through backlog `init` before scaffold. Later explicit `config` or runtime operations may update the pipeline independently.
 
-**Novel:** use the cloned `gist`, `form`, `book_long_title`, and `book_summary`. Resolve the epic at `.space/backlog/epic/<bookname>/epic.md` without injecting an `epic_path` field into the cloned model.
+**Novel:** use the cloned `gist`, `form`, `book_long_title`, and `book_summary`. Resolve the epic at `.space/backlog/<bookname>/epic.md` without injecting an `epic_path` field into the cloned model.
 
 **Poetry:**
 1. Do not create any `source/books/` destination during scaffold; reader-facing version folders are created only by the `write` command.
@@ -289,13 +289,13 @@ No downstream step may create alternate chapter-version files in the chapter roo
 
 ## The Epic (Novel only)
 
-The epic is the single source of truth for a novel's story, at `.space/backlog/epic/<bookname>/epic.md`.
+The epic is the single source of truth for a novel's story, at `.space/backlog/<bookname>/epic.md`.
 
 Every epic embeds a **Metadata** block near the top, right after the title and subtitle, recording the project's provenance and identity:
 
 | Field | Meaning |
 |-------|---------|
-| Title / Book name / Epic path | The book's long title; the `<bookname>`; `.space/backlog/epic/<bookname>/epic.md` |
+| Title / Book name / Epic path | The book's long title; the `<bookname>`; `.space/backlog/<bookname>/epic.md` |
 | Created / Updated / Updated By | ISO 8601 timestamps and the agent/model that last updated |
 | User / Author / Machine | The invoking user; the authoring engine; the producing model/agent |
 | Language / Genre / Era | The epic's language code, genre, and historical era |
@@ -419,7 +419,7 @@ The enrich command is a single-pass fusion of the active filter chain, not a rep
 3. A human creates `filter.md` (both forms) by editing the file directly. The scaffold step pre-seeds `filters/override/filter.md` with form-customized content derived from `.framework/agents/override/agent.md`, so the human edits a ready-made command file instead of starting from scratch (see the scaffold command, step 9). Typical contents: "make every chapter's closing sentence a question", "replace all naval jargon with plain speech", "add a Gibran-style benediction to each poem", "remove any reference to named politicians", "shift register from reportage to elegy".
 4. The agent applies those instructions to the upstream filter output and writes the transformed result to the filter's output file (`filters/override/content-output.md`, both forms).
 5. Because the instructions are human-authored, the override filter is intentionally a **creative/custom step**, not a deterministic skill. It can be rerun after a human edits the file.
-6. **The command file must always be present.** Scaffold seeds `filters/override/filter.md`; the chapter and poet agents read this same file and apply its `## Instructions` as the final transformation layer when writing chapter content. If a step ever finds it missing, it re-seeds the baseline from `.framework/agents/override/agent.md`. The chapter and poet agents never read the backlog `.space/backlog/epic/<bookname>/override.md` — that file is only a planning copy.
+6. **The command file must always be present.** Scaffold seeds `filters/override/filter.md`; the chapter and poet agents read this same file and apply its `## Instructions` as the final transformation layer when writing chapter content. If a step ever finds it missing, it re-seeds the baseline from `.framework/agents/override/agent.md`. The chapter and poet agents never read the backlog `.space/backlog/<bookname>/override.md` — that file is only a planning copy.
 
 The `quality` filter is also human-in-the-loop, but its role is audit and gatekeeping rather than transformation.
 
@@ -631,7 +631,7 @@ To expand without filler: add distinct scenes and locations; extend dialogue int
 
 | Art | Path |
 |---|---|
-| Epic (novel source of truth) | `.space/backlog/epic/<bookname>/epic.md` |
+| Epic (novel source of truth) | `.space/backlog/<bookname>/epic.md` |
 | Book plan & gist (`gist`, `epic_path`, `form` fields) | `.space/pipeline/<bookname>/book.json` |
 | Poetry topic index | `.space/pipeline/<bookname>/bookseed.txt` |
 | Workshop narratives (novel source) | `.space/pipeline/<bookname>/filters/workshop/` |

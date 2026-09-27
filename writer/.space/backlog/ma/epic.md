@@ -1,7 +1,7 @@
 # ma: এর কবিতা
 
 - **Book name:** ma
-- **Epic path:** .space/backlog/epic/ma/epic.md
+- **Epic path:** .space/backlog/ma/epic.md
 - **Created:** 2026-09-19T06:10:30+00:00
 - **Updated:** 2026-09-20T00:00:00+00:00
 - **Updated by:** gist agent
