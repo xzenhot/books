@@ -1,0 +1,60 @@
+{
+  "chapter_index": 17,
+  "name": "17",
+  "word_target": 500,
+  "chapter_title": "The Boatman's Daughter",
+  "chapter_summary": "A daughter, or a girl of the ghat, carries water and watches the crossings, learning the river in her own way. The poem widens the inheritance of oar and song beyond the son to the whole village.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Gender roles in traditional river trade economies of Bengal",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Feminine ritual spaces associated with rivers (e.g., washing ghats, seasonal rites)",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Transmission of oral poetry/song knowledge across generations in non-male lineage settings",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the daughter's specialized role: perhaps she manages inventory, records debts owed (written or oral), or tends to sick travelers while her father rows.",
+      "The 'open' decision point is internal—the girl must decide which form of inheritance (oar mastery vs. song artistry) truly speaks to her spirit when cornered by expectations.",
+      "Treating the village community itself as a temporary, demanding patron, where favors and debts are owed not to an individual but to the collective need for passage."
+    ],
+    "story_options": [
+      "Setting: The small back steps leading from the main ghat into a secluded family courtyard; Desire: To intercept an item of personal significance (a specific shawl, a piece of jewelry) meant for her passing as an adult; Obstacle: An elder demanding she demonstrate proficiency in singing over technical rowing skill.",
+      "Setting: A crowded boat just before sunset, carrying people from different social strata crossing paths; Desire: To perform a song that bridges the gap between two disparate groups currently sharing the small space, risking ridicule or praise for her unknown repertoire; Obstacle: The father overhearing and correcting her melodic choice in real-time.",
+      "Setting: During an unexpected lull in traffic when only the current noise remains; Desire: To speak directly to a younger child witnessing her—a direct passing of knowledge that bypasses formal tutelage; Obstacle: The river itself seems too loud, resisting any sustained sound from her."
+    ],
+    "subject_rotations": [
+      "Focusing on *observation* as the primary skill: how the daughter's gaze gathers details about people and rhythms, making her a chronicler rather than a participant.",
+      "Shifting the core tension to gender expectation: is her value tied to mirroring her father's labor, or in developing a new art form entirely separate from rowing?",
+      "The 'inheritance' as material transfer: perhaps she doesn't learn to sing or row, but learns how to *repair* the boats or maintain the necessary tools."
+    ],
+    "sensory_details": [
+      "The metallic scent of river damp contrasting with the dry sandalwood paste used by temple vendors at the ghat entrance.",
+      "The slick feel of barnacle-covered river stones under bare feet when climbing down from the main landing.",
+      "The specific, high-pitched sound a tightly coiled length of fresh jute rope makes when it slips across rough stone."
+    ],
+    "research_questions": [
+      "Were there specific forms of female ritual labor or service connected to river crossings in this cultural area that could function as currency?",
+      "How were songs or songs' composition traditionally taught/passed down within women's spheres versus male public performance settings?"
+    ],
+    "structural_variants": [
+      "A poem structured around parallel internal dialogues: one voice is the father teaching labor, and the other (the daughter's) processing cultural memory through song.",
+      "Epigraph structure: beginning with an excerpt from a historical/mythological text concerning female figures associated with water crossings."
+    ],
+    "variety_note": "This chapter centers the narrative focus inward onto the girl, examining inheritance not as a conflict between two paths (like father vs. son), but rather as a negotiation of identity against community expectation and potential mentorship."
+  }
+}

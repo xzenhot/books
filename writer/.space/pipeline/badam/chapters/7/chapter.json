@@ -1,0 +1,67 @@
+{
+  "chapter_index": 7,
+  "name": "7",
+  "word_target": 500,
+  "chapter_title": "The Village of the Majhis",
+  "chapter_summary": "The boatman caste and its generations — the inheritance of oar and song, and the pride and poverty woven together. The poem asks what it means to belong to a people whose identity is bound to the river.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Caste occupation and cultural identity in Bengal's riverine communities",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Oral traditions of boatmen folklore or occupational ballads (e.g., Baul/Bhatiali lineage)",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "The relationship between river geography and settlement patterns in the Bengal delta",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the *boat itself* as the primary character: its wear, specific knots, resonant wood grain, and how it reflects the collective memory of all boatmen who have paddled in it.",
+      "Focusing on the internal dynamics of the 'Majhi family unit' during an off-season lull—the tension between filial duty (song) and economic necessity (selling/migrating).",
+      "The passage through the village from a *non-maji* perspective: observing them as outsiders who are momentarily permitted to witness the boatman life before passing by, highlighting their alienation."
+    ],
+    "story_options": [
+      "Setting: The communal drying yard behind the main ghat; Desire: A younger generation of majhis trying to teach a visitor (perhaps a landowner's son) the physical rhythm of rowing that cannot be taught through words or money; Obstacle: The weight of expectation from their elders demanding perfect adherence to tradition.",
+      "Setting: Inside the boat after hours, while repairing rigging materials; Desire: To relive a specific moment of communal success (a festival passage); Obstacle: A tangible piece of foreign refuse found in the riverbed that symbolizes encroaching modernity or pollution.",
+      "Setting: The edge of the village bordering a fresh canal feeder arm, physically separate from the main river thoroughfare; Desire: For an unspoken community acknowledgement or recognition of their lineage's unique value outside commercial exchange; Obstacle: A natural barrier (a thicket, mud bank) that prevents casual approach."
+    ],
+    "subject_rotations": [
+      "Exploring the contrast between the *public* songs sung for travelers and the *private* songs sung among themselves—the repertoire available only within their own community.",
+      "A narrative centered on an object passed down: a specific, flawed piece of oar wood, or an old, unplayable musical instrument that represents inherited art rather than immediate commerce.",
+      "Structuring the poem around names: listing multiple generations of boatmen who have lived in one small section of village/riverbank, giving them poetic weight without detailing their actions."
+    ],
+    "sensory_details": [
+      "The sharp, earthy scent of wet jute ropes mixed with stale cooking smoke emanating from a nearby homestead.",
+      "The distinct dull *thunk* sound when the boat makes solid contact with submerged riverbank pilings, a sound different from water lapping.",
+      "Touching the specific texture of polished, oiled wood used for the oars handles—smooth in one spot (from years of grip) and rough in another (where new varnish was applied)."
+    ],
+    "research_questions": [
+      "What were the traditional housing styles or material wealth markers specific to river-dependent artisan castes?",
+      "Are there common local folklore figures associated with rivercraft that are distinct from general Bengali mythology?",
+      "How did historical land ownership disputes influence the geographical placement of these service communities?"
+    ],
+    "structural_variants": [
+      "A poem structured as a dialogue between different 'voices' of the same family—grandfather advising, father working, son listening—each using distinct poetic vernacular.",
+      "Using an ekphrastic technique: describing a single physical feature of the village (e.g., a specific banyan tree overhanging the bank) and letting that description carry the emotional weight of the entire community history.",
+      "A cyclical poem where the last stanza directly reintroduces imagery from Chapter 2 ('The Boatman's Oar') but now viewed through the lens of settled life, showing its permanence."
+    ],
+    "unused_angles": [
+      "The role of women in maintaining the community ritual/economy when the men are on the river; what forms their labor takes that is not visible to passing travelers.",
+      "Examining the relationship between 'home' and the boat: does belonging mean a fixed structure, or is it an accumulated set of transient relationships?",
+      "The seasonal changes in village rituals specifically related to water blessings or safe passage ceremonies."
+    ],
+    "variety_note": "This chapter shifts focus from external interactions (Ghat/Passenger) and material conditions (Seasons/Debt) inward, exploring the internal structure, legacy, and collective identity of the boatman people themselves."
+  }
+}

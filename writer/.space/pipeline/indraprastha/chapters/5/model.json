@@ -1,0 +1,62 @@
+{
+  "chapter_index": 5,
+  "name": "5",
+  "word_target": 500,
+  "chapter_title": "Qila Rai Pithora",
+  "chapter_summary": "Prithviraj Chauhan extends the old fort into Qila Rai Pithora and rides from its gates to glory. The poem captures a Rajput city at the height of its pride, unaware of the fall already gathering on the horizon.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Rajput architecture and defensive ingenuity in the Delhi region prior to major Islamic incursions.",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The local economic life sustaining a regional Rajput stronghold at its zenith (markets, artisan guilds).",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing the narrative on the logistical preparation for an imminent, yet unstated, major external threat—the sounds of drills, saluting banners being polished, grain stores being counted.",
+      "Telling the story entirely from the perspective of a city gate guard whose job requires him to witness every passing person and procession without ever forming a personal attachment or judgement.",
+      "Structuring the poem around a single commodity exchange within the fort—perhaps specialized weaponry or rare textiles—to chart the flow of wealth into the citadel's apex."
+    ],
+    "story_options": [
+      "Setting: The main approach road leading to Qila Rai Pithora gates. Desire: A young apprentice warrior wants a chance to prove himself worthy before a crucial royal inspection tomorrow. Obstacle: Illness or minor injury has temporarily sidelined his ability to perform.",
+      "Setting: Inside the central, private royal menagerie courtyard. Desire: The ruler wishes to demonstrate dominance by showcasing exotic animals acquired from distant lands. Obstacle: One magnificent, prized beast refuses to be tamed for display.",
+      "Setting: A narrow passageway between two major palace blocks during a heatwave. Desire: To meet someone who carries news—either favorable or catastrophic—from the fringes of Rajput power that contradicts the current celebratory mood."
+    ],
+    "subject_rotations": [
+      "A detailed mapping exercise: Treating the city's successive additions (towers, market squares, residential quarters) as layered cartography, where each layer speaks to a different family's ambition.",
+      "The theme of patronage: Focusing not on the ruler's martial glory, but on which specific artisan or guild gains unprecedented wealth and influence due to royal favor within the walls.",
+      "A narrative built around the concept of 'visibility': Who sees the city from the highest point (the watchtower) versus who is unseen in the deepest passages below ground?"
+    ],
+    "sensory_details": [
+      "The scent of tanned, oiled leather mixed with expensive incense used during daily temple rites.",
+      "The specific, bright reverberation pattern of a trumpet call echoing off concentric layers of red sandstone walls.",
+      "The texture contrast between sun-bleached white marble inlay and the dark, oily residue on aged iron door hinges."
+    ],
+    "research_questions": [
+      "What were the common ceremonial weaponry items used by Rajput warriors that symbolized their lineage or specific clan allegiance?",
+      "Are there details about the specialized guilds (e.g., jewelers, armorers) that operated within major medieval Indian city fortifications?",
+      "How did water management systems—wells, cisterns, and underground channels—affect the perceived permanence and wealth of a pre-Mughal Rajput capital?"
+    ],
+    "structural_variants": [
+      "A circular structure: Beginning at the main gate, moving outward to the periphery/market, returning through an inner courtyard, and ending back at the initial threshold.",
+      "An anthology style: Presenting three short vignettes—a market scene, a royal procession snippet, and a personal moment of contemplation—that are only connected by the passage of afternoon light.",
+      "Juxtaposition based on soundscapes: Moving from the organized noise of military training to the chaotic clamor of the bazaar, then into sudden, unnatural silence."
+    ],
+    "unused_angles": [
+      "The specific role and clothing of female attendants or courtesans in navigating and commenting on the political climate visible from within.",
+      "A consideration of the city's relationship with water—the controlled release (or stagnation) along a key tributary feeding into the outer defenses.",
+      "Examining how the physical topography dictated the hierarchy of residence, making proximity to certain natural features markers of status."
+    ],
+    "variety_note": "While previous chapters have dealt with foundational myths or immediate conquest trauma, this poem zeroes in on an apex moment—a city at its peak pride—using delayed tension rather than immediate collapse as its primary dramatic engine."
+  }
+}

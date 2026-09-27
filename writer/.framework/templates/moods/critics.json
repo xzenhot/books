@@ -1,0 +1,37 @@
+{
+  "template": "critics",
+  "moods": [
+    {
+      "characteristic": "inciting_incident",
+      "mood_description": "An unexpected event that twists the story's direction"
+    },
+    {
+      "characteristic": "rising_action",
+      "mood_description": "The stage of increasing challenge and tension"
+    },
+    {
+      "characteristic": "moment_of_doubt",
+      "mood_description": "The moment when the hero/heroine's confidence cracks"
+    },
+    {
+      "characteristic": "turning_point",
+      "mood_description": "A decisive event that changes the course of the story"
+    },
+    {
+      "characteristic": "climax",
+      "mood_description": "The peak stage of maximum tension and conflict"
+    },
+    {
+      "characteristic": "falling_action",
+      "mood_description": "Resolution of the conflict and unfolding of consequences"
+    },
+    {
+      "characteristic": "resolution",
+      "mood_description": "The final conclusion of the story and answers to all questions"
+    },
+    {
+      "characteristic": "theme_unveiled",
+      "mood_description": "Revelation of the story's core message or moral aspect"
+    }
+  ]
+}

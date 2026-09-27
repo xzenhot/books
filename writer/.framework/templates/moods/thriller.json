@@ -1,0 +1,45 @@
+{
+  "template": "thriller",
+  "moods": [
+    {
+      "characteristic": "opening_with_disturbance",
+      "mood_description": "Drawing the reader in instantly by placing an unusual or unsettling event at the very start of each chapter"
+    },
+    {
+      "characteristic": "cliffhanger_closure",
+      "mood_description": "Pushing the reader into the next chapter by leaving an unresolved question, a new mystery, or a surprise at the end of each chapter"
+    },
+    {
+      "characteristic": "layered_mystery",
+      "mood_description": "Making the story multi-layered by creating multiple small mysteries alongside the main murder mystery"
+    },
+    {
+      "characteristic": "controlled_revelation",
+      "mood_description": "Sustaining tension through gradual revelation of information, partial truths, misconceptions, and delayed disclosures"
+    },
+    {
+      "characteristic": "parallel_timeline_interlock",
+      "mood_description": "Connecting the present investigation with past events in such a way that each flashback deepens the current mystery"
+    },
+    {
+      "characteristic": "social_ecosystem_flow",
+      "mood_description": "Creating a natural flow of information and gossip through the village's social spaces\u2014tea stalls, fairs, festivals, fields"
+    },
+    {
+      "characteristic": "hidden_secrets_per_character",
+      "mood_description": "Making dialogue tense by hiding secret information or personal truths within each character"
+    },
+    {
+      "characteristic": "symbolic_object_tracking",
+      "mood_description": "Advancing the story by repeatedly using physical evidence such as broken bangles, mud, letters, etc."
+    },
+    {
+      "characteristic": "escalating_stakes",
+      "mood_description": "Intensifying the narrative by gradually increasing risk, fear, and conflict in each chapter"
+    },
+    {
+      "characteristic": "investigator_vulnerability",
+      "mood_description": "Making the investigator character human and compelling by placing them under pressure, conflict, and personal vulnerability"
+    }
+  ]
+}

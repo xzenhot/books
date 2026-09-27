@@ -1,0 +1,67 @@
+{
+  "chapter_index": 11,
+  "name": "11",
+  "word_target": 500,
+  "chapter_title": "অপরাধের ভার",
+  "chapter_summary": "শেষ ফোনটা যেদিন সময়মতো ধরা হয়নি, সেদিন থেকেই বাকি সব শব্দ পিছিয়ে যায়, আর ভুলে যাওয়া বহু তারিখ স্মৃতির সামনে দাঁড়িয়ে যেন নীরব অভিযোগ পড়ে, প্রতিটি রবিবারে তাকেই দোষ দেয়। চিঠির স্বাক্ষর, চিকিৎসার সূচি, বাতিল করা যাত্রার টিকিট, ফিরতি পথে কেনা ফুরিয়ে যাওয়া ফল, স্ক্রিনে জমে থাকা একটি মিসড কল — এই নিশ্চুপ বস্তুগুলোই আজ সবচেয়ে ভারী, কারণ এগুলোর একটিও আর বদলানো যায় না, একটা তারিখও ফিরিয়ে আনা যায় না, হাজার চেষ্টাতেও নয়। বকেয়া স্নেহের হিসাব মেলানোর চেষ্টায় সন্তান ক্রমশ ওজন বাড়ায়, রাতে উঠে জানালার বাইরে তাকায়, অথচ ক্ষমার কোনো ভাষা তার হাতে নেই, কারণ ক্ষমা নিজের কাছে চাওয়া যায় না, কাউকে দেখিয়েও দেওয়া যায় না। মা যদি ক্ষমার ভাষা জানতেন, তবে এত অপরাধ জমিয়ে রাখা কার ভুল — সন্তানের, না সময়ের?",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "অপরাধবোধ ও অসমাপ্ত অনুশোচনা",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "শেষ ফোন ও বিলম্বিত সংবাদ",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "ক্ষমার ভাষা",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the physical residue left by the past contact—a specific item that remains untouched.",
+      "Viewing the memory through a distorted, unreliable sensory input (e.g., always slightly muffled or backlit).",
+      "Framing the central conflict not as regret, but as an obligation to someone else's incomplete understanding of the narrator."
+    ],
+    "story_options": [
+      "Setting: A deserted train platform at dawn; Desire: To witness a specific person finally arrive; Obstacle: The pervasive sound of distant, accelerating trains passing by; Turn: Realizing the arrival isn't about them, but about restarting one's own journey.",
+      "Setting: An overgrown greenhouse filled with tropical plants; Desire: A moment of absolute, verifiable silence; Obstacle: The persistent buzzing of unseen insects or machinery; Turn: The silence is only achievable after deliberately causing a small, controllable disruption elsewhere.",
+      "Setting: A brightly lit, modern laundromat late at night; Desire: To feel the comforting anonymity of routine care; Obstacle: Finding an object in the dryer that belonged to someone else entirely; Turn: Choosing whether or not to return the item found."
+    ],
+    "subject_rotations": [
+      "Treating the memory as a shared, but fundamentally misinterpreted, piece of collaborative art.",
+      "Shifting perspective to the recipient of the ambiguous communication—showing their interpretation journey.",
+      "Focusing purely on the *act* of waiting itself, stripping away all relational context."
+    ],
+    "sensory_details": [
+      "The specific metallic tang of old battery acid mixed with rain-washed asphalt after a hot summer day.",
+      "The abrasive, papery feel of thermal receipt paper that has curled from humidity changes.",
+      "The precise pitch and timbre of an outdated dial tone connecting to voicemail."
+    ],
+    "research_questions": [
+      "What were the common emotional connotations associated with receiving missed calls before smartphones dominated communication?",
+      "How did different decades visualize or soundtrack 'waiting' in popular media?",
+      "Are there established literary tropes for objects that bridge temporal gaps?"
+    ],
+    "structural_variants": [
+      "A highly fragmented, collage structure mimicking intercepted messages.",
+      "A linear narrative structured around escalating geographical distance from the point of conflict.",
+      "An epistolary sequence where each piece is written with a different assumed persona."
+    ],
+    "unused_angles": [
+      "Exploring the logistics and cost associated with preserving physical records (tapes, letters).",
+      "Developing a motif around the inadequacy of technology to convey true emotional weight.",
+      "Using recurring weather patterns as external manifestations of internal unresolved tension."
+    ],
+    "variety_note": "This chapter moves beyond simply *recalling* a moment; it focuses on the tangible, lingering artifacts and sensory echoes left behind by that absence."
+  }
+}

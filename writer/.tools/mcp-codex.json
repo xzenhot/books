@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "novelist-search": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "d:\\lab\\github\\writer\\.tools\\server.py"
+      ]
+    },
+    "novelist-book": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "d:\\lab\\github\\writer\\.tools\\book_server.py"
+      ]
+    }
+  }
+}

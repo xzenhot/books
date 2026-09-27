@@ -1,0 +1,41 @@
+{
+  "template": "romantic",
+  "moods": [
+    {
+      "characteristic": "initial_spark",
+      "mood_description": "The moment of first sight or meeting, where the first spark of love ignites"
+    },
+    {
+      "characteristic": "growing_affection",
+      "mood_description": "Feelings gradually deepening, intimacy growing through small incidents"
+    },
+    {
+      "characteristic": "confession_of_love",
+      "mood_description": "The first clear expression of love or emotional confession"
+    },
+    {
+      "characteristic": "external_obstacle",
+      "mood_description": "External obstacles in the path of a relationship, such as family or social pressure"
+    },
+    {
+      "characteristic": "internal_struggle",
+      "mood_description": "Personal doubts, fears, or lack of confidence of the lovers"
+    },
+    {
+      "characteristic": "reaffirmation_of_bond",
+      "mood_description": "Their bond becoming stronger despite challenges, or building trust in each other"
+    },
+    {
+      "characteristic": "intimate_moment",
+      "mood_description": "A deeply emotional or intimate moment between two people"
+    },
+    {
+      "characteristic": "joyful_union",
+      "mood_description": "The successful outcome of love, such as union, marriage, or starting a new life together"
+    },
+    {
+      "characteristic": "bittersweet_memory",
+      "mood_description": "Sweet yet painful reminiscence of the past"
+    }
+  ]
+}

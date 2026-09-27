@@ -1,0 +1,83 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 500,
+  "chapter_title": "পিছনে রয়ে যায় লাল",
+  "chapter_summary": "পথিক সরে যায়, বাড়ি ও পলাশ তার প্রস্থানে কোনো চূড়ান্ত অর্থ পায় না। বসতির জীবন এবং ঋতুর পরিবর্তন তার উপলব্ধির বাইরেও চলতে থাকে। সঙ্গে থাকে এই অমীমাংসিত প্রশ্ন, কোনো স্থানকে বুঝতে চাওয়ার শেষ সীমা কি তাকে নিজের ব্যাখ্যা ছাড়াই থাকতে দেওয়া।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Bengali literature dealing with ephemerality vs permanence in landscape",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The concept of 'unsettled belonging' in post-colonial Bengali rural narratives",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The Perspective of the Season: Writing from the viewpoint of the emerging Palash blossoms themselves, observing the human departure and their cycle continuing regardless of ritual.",
+      "The Cartographer's Blind Spot: Conceptualizing the house not as a destination or a point of ownership, but as a blank spot on an evolving map that no one needs to fill in.",
+      "Time Dilation Post-Departure: Focusing intensely on how the minutes *after* the protagonist walks away feel subjectively slower and more vast than the moments leading up to it."
+    ],
+    "story_options": [
+      "Setting: বাড়ির পরিত্যক্ত ফটকের বাইরে অপেক্ষাকৃত খোলা লাল মাঠ। আকাঙ্ক্ষা: পথিক যখন ফিরে তাকায়, তখন একটি বিশেষ ধরনের পাখির ঝাঁক (যা আগে আসেনি) দ্রুত উড়ে যায় এবং কেবল তাদের শব্দই মনে থাকে—এটি যাত্রার সমাপ্তি নির্দেশ করে।",
+      "Setting: সাঁওতাল বসতির শেষ প্রান্তে থাকা এক প্রাচীন শাল বা মহুয়ার গাছ। আকাঙ্ক্ষা: গাছের ছায়ায় বসে পথিক বুঝতে পারে যে তার 'অমীমাংসিত প্রশ্ন'টিও একটি প্রাকৃতিক চক্রের মতোই ধীরে ধীরে ফিকে হয়ে আসছে এবং তাকে ছেড়ে চলে যেতে হচ্ছে।",
+      "Setting: বাড়ির ভেতরে পড়ে থাকা একটি ভাঙা মাটির কলসির পাশে জমে থাকা বৃষ্টিভেজা খড়কুটোর স্তূপ। আকাঙ্ক্ষা: পথিক সেই উপাদানগুলোকে ব্যবহার করে নিজের ছায়া বা footprints ট্র্যাক করার চেষ্টা করে, যা শেষ পর্যন্ত অদৃশ্য হয়ে যায়।"
+    ],
+    "subject_rotations": [
+      "Focusing purely on the 'After-Image': The chapter is structured entirely around visual effects—the way the sun hits the dust motes after movement, or how color seems muted in the absence of human intent.",
+      "The Geometry of Letting Go: Treating the physical act of walking away as a precise geometrical vector from the house to the boundary/field edge, emphasizing trajectory over destination.",
+      "Echoes vs. Resonance: Distinguishing between sounds that merely echo (repeating what was) and resonance (creating something entirely new in the absence)."
+    ],
+    "sensory_details": [
+      "Tactile: পায়ের তলার শুকনো লাল মাটির একটি নির্দিষ্ট দানার উষ্ণতা যা হাঁটতে হাঁটতে শীতল এবং স্থিতিশীল মনে হয়।",
+      "Auditory: দূরে কোথাও থেকে আসা মানুষের কণ্ঠস্বর, কিন্তু তা কোনো ভাষা নয়—কেবল শ্রম বা জীবনের ছন্দময় ধ্বনি হিসেবে শোনা যায়।",
+      "Olfactory: বাতাসের দিক পরিবর্তন করার সাথে সাথে মাটির গভীর থেকে ভেসে আসা ভেজা পলিমাটির মতো এক পুরোনো গন্ধে আকস্মিক மாற்றம்।"
+    ],
+    "research_questions": [
+      "What is the cultural or poetic significance of the 'vanishing point' in Bengali landscape art—where does intention cease to matter?",
+      "How are transitional spaces (like dried riverbeds or overgrown verges) documented in local folklore as liminal zones between human claim and wild nature?"
+    ],
+    "structural_variants": [
+      "A circular poem, where the final stanza must echo a physical sound heard at the very beginning of the chapter.",
+      "A narrative broken into moments marked only by cardinal directions (North/South/East/West) rather than linear progression."
+    ],
+    "unused_angles": [
+      "The nature of 'acceptance' as an active, exhausting verb requiring physical exertion to maintain at every step.",
+      "Comparing the house's eventual decomposition rate to the life cycle of the Palash flower in terms of inevitable beauty."
+    ],
+    "variety_note": "Unlike previous chapters that focused on boundaries or potential action, this chapter must achieve a state of absolute inertia—the momentum shifts from internal conflict to external continuation beyond human concern."
+  },
+  "draft": {
+    "sha256": "ace7348b0849a214481dd8807a47a730e73f2f2b06400e4de66bfe20e1a2ebc6",
+    "written_at": "2026-09-22T03:44:03.523524+00:00",
+    "origin": "legacy"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "ace7348b0849a214481dd8807a47a730e73f2f2b06400e4de66bfe20e1a2ebc6",
+    "reviewed_at": "2026-09-22T03:58:25.141268+00:00",
+    "reviewer": "quality-poetry",
+    "scores": {
+      "length_component": 7.3,
+      "length_maximum": 15,
+      "literary_score": "pending",
+      "overall": "pending literary assessment"
+    },
+    "notes": [
+      "242 words against an optional 500-word guide; length contribution 7.3/15.",
+      "Score-only review: poem text was not changed.",
+      "A literary assessment may pass a shorter poem.",
+      "Literary pass: voice, imagery, thematic development, and completion meet the poetry quality parameters.",
+      "Literary pass: voice, imagery, thematic development, and completion meet the poetry quality parameters."
+    ]
+  }
+}

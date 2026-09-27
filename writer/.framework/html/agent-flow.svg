@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1250" role="img" aria-labelledby="title desc">
+  <title id="title">Writer framework: backlog to versioned publication</title>
+  <desc id="desc">Backlog and init produce a book plan. Scaffold clones it into a pipeline. Filters update chapter models, writing agents author drafts, optional style and translation create derivatives, and validated text is published in a new version.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#6ea8fe"/></marker></defs>
+  <style>
+    text { font-family: 'Segoe UI', Arial, sans-serif; }
+    .heading { fill: #fff; font-size: 26px; font-weight: 700; }
+    .phase { fill: #c792ea; font-size: 18px; font-weight: 700; }
+    .agent { fill: #6ea8fe; font-size: 17px; }
+    .output { fill: #e5c07b; font-size: 15px; }
+    .note { fill: #b8c0d2; font-size: 15px; }
+  </style>
+  <rect width="960" height="1250" rx="12" fill="#0f1117"/>
+  <text x="480" y="42" text-anchor="middle" class="heading">Writer Framework — Flow of Agents</text>
+  <text x="480" y="70" text-anchor="middle" class="note">backlog.md: phases 0–1 · pipeline.md: scaffold onward</text>
+<rect x="35" y="100" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
+<text x="55" y="130" class="phase">0–1 · Backlog and Init</text>
+<text x="55" y="161" class="agent">gist agent → init agent</text>
+<text x="55" y="192" class="output">gist.md + epic.md + book.json</text>
+<text x="55" y="220" class="note">Backlog only · chapter plan and authoritative filter_chain</text>
+<path d="M480 245 V273" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="275" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
+<text x="55" y="305" class="phase">2 · Scaffold</text>
+<text x="55" y="336" class="agent">scaffold → prelayout → form-specific layout → postlayout</text>
+<text x="55" y="367" class="output">Complete book.json clone → pipeline model.json</text>
+<text x="55" y="395" class="note">Seed chapter models · create filter registry · no filters run</text>
+<path d="M480 420 V448" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="450" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
+<text x="55" y="480" class="phase">3 · Prepare Chapter Models</text>
+<text x="55" y="511" class="agent">Filter agents in registry order, or enrich for a fused pass</text>
+<text x="55" y="542" class="output">Novel: workshop → research → seeds → correctness → theme → syntax → override → quality</text>
+<text x="55" y="570" class="note">Poetry: workshop → research → correctness → theme → syntax → override → quality</text>
+<path d="M480 595 V623" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="625" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
+<text x="55" y="655" class="phase">4 · Write</text>
+<text x="55" y="686" class="agent">story agent (novel) / poetry agent (poetry)</text>
+<text x="55" y="717" class="output">Author chapter.md and writer-stage segments from prepared models</text>
+<text x="55" y="745" class="note">Archive and verify prior drafts before replacement</text>
+<path d="M480 770 V798" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="800" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
+<text x="55" y="830" class="phase">4a–4b · Optional Style and Translation</text>
+<text x="55" y="861" class="agent">style agent → next writer version · translate agent → translator output</text>
+<text x="55" y="892" class="output">Style: one chapter per invocation · default transformer: pijush</text>
+<text x="55" y="920" class="note">Source: highest numbered writer chapter_v*.md, otherwise writer chapter.md</text>
+<path d="M480 945 V973" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="35" y="975" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
+<text x="55" y="1005" class="phase">5 · Quality Gate and Publication</text>
+<text x="55" y="1036" class="agent">Required validation passes → publish agent copies and assembles</text>
+<text x="55" y="1067" class="output">write: source/books/&lt;bookname&gt;/&lt;number&gt;/</text>
+<text x="55" y="1095" class="note">publish: source/books/&lt;bookname&gt;/version&lt;k&gt;/</text>
+<text x="480" y="1180" text-anchor="middle" class="note">Filters snapshot model.json; they never read or modify chapter.md.</text>
+<text x="480" y="1208" text-anchor="middle" class="note">Agents invoke skills. Quality is required before any reader-facing promotion.</text>
+</svg>

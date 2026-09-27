@@ -1,0 +1,81 @@
+{
+  "filter": "syntax",
+  "form": "poetry",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 2,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 3,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 4,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 5,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 6,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 7,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 8,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 9,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 10,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 11,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 12,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 13,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 14,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    },
+    {
+      "chapter_index": 15,
+      "form": "poetry",
+      "sample": "gosai_bangla.md"
+    }
+  ]
+}

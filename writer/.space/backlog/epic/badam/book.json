@@ -1,0 +1,187 @@
+{
+  "book_name": "badam",
+  "book_long_title": "Badam: The Boatman's River — A Cycle of Songs",
+  "generic": "philosophical song-poetry",
+  "era": "mid-to-late twentieth-century Bengal to the present",
+  "language": "English",
+  "target_audience": "readers of Indian regional poetry, river life, and the Bhatiyali song tradition of Bengal",
+  "chapter_count": 20,
+  "form": "poetry",
+  "book_summary": "This cycle of poems follows a majhi, a boatman of Bengal's river country, through the crossings that shape his life — the oar, the current, and the Bhatiyali songs that rise from his chest like mist off the water. In each poem the whole world of the delta unfolds: the ghats and villages, the monsoon and the dry months, and the cordial generosity of a caste that has ferried the land's people for generations, often without thought of payment. His way of life is open-handed service, and his conflict is the slow encroachment of a world that asks every service to be priced — money, debt, and a new bridge that will one day make his ferry unnecessary. Across the cycle the boatman's generosity is tested against survival, and the song passes from father to son, until at last he learns that what he gives freely is what survives, and that the river remembers what the bridge cannot span.",
+  "created_at": "2026-09-22",
+  "user_name": "pijush",
+  "gist": "The majhi — the boatman who rows his small wooden boat across the rivers of Bengal — carries a whole way of life: the rivers that made the land, the Bhatiyali songs that carry its sorrow and sweetness, and a cordial generosity that serves even those who cannot pay.",
+  "history": "Bengal has been a land of rivers, and the majhi, or boatman, has for generations been the caste that ferries people and goods across them. The Bhatiyali is the boatman's song of longing and the delta, among the most melodious song traditions of eastern India. The majhi's cordial, social character and willingness to render service even without payment are part of this inheritance, now facing the pressure of bridges, money, and a changing economy.",
+  "word_target": 500,
+  "filter_chain": [
+    "workshop",
+    "research",
+    "correctness",
+    "theme",
+    "syntax",
+    "override",
+    "quality"
+  ],
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "chapter_title": "The River Before Dawn",
+      "chapter_summary": "Mist lies on the water and a boat waits at a dark ghat before the first passenger arrives. The boatman runs his hand along the gunwale and begins, almost absently, to hum a tune the river seems to know. The poem opens the whole world of the delta and poses the question that will carry the book: who is this man, and where does his song come from?",
+      "further_references": []
+    },
+    {
+      "chapter_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "chapter_title": "The Boatman's Oar",
+      "chapter_summary": "The majhi is rendered in the full rhythm of his working day — the crossing, the current, the weight of the oar in his hands. The river is both his workplace and his home, and the oar the tool through which he reads the water and earns his living.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "chapter_title": "The Song of the Current",
+      "chapter_summary": "The first Bhatiyali is sung in full, and its meaning opens — a song of the boatman's longing, sung downstream and carried over the water. The song becomes the heart of the poem and of the book, the delta's own voice rising off the river.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "chapter_title": "The Ghat",
+      "chapter_summary": "The ferry ghat is the social hub of the delta — arrivals, departures, gossip, trade, and ritual meeting at the water's edge. The majhi's cordiality is a lived ethic, practiced daily with every passenger rather than spoken as a principle.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "chapter_title": "The Passenger Without Money",
+      "chapter_summary": "A poor passenger arrives who cannot pay the fare, and the majhi ferries her across anyway. This is the first moral turn of the cycle, when service is measured not in fare but in need, and the boatman's generosity is given without sentiment.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "chapter_title": "The River's Seasons",
+      "chapter_summary": "Monsoon and drought, flood and dry bed — the river is shown in its changing moods, both bounty and threat. The boatman reads its rise and fall like a language, and the poem grounds itself in the water's own rhythm.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "chapter_title": "The Village of the Majhis",
+      "chapter_summary": "The boatman caste and its generations — the inheritance of oar and song, and the pride and poverty woven together. The poem asks what it means to belong to a people whose identity is bound to the river.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "chapter_title": "The Debt and the River",
+      "chapter_summary": "Money trouble arrives, and with it pressure to charge more, to leave the river, to sell the boat. The majhi's generosity is tested against the bare need to survive, and the poem raises the question of what service costs.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 9,
+      "name": "9",
+      "word_target": 500,
+      "chapter_title": "The Crossing at Night",
+      "chapter_summary": "A dangerous night crossing unfolds — storm, darkness, and a life at stake on the water. The boatman's skill and courage show, in a single passage, what his service truly costs, and what it is worth.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 10,
+      "name": "10",
+      "word_target": 500,
+      "chapter_title": "The Song Returns",
+      "chapter_summary": "The Bhatiyali passes from father to son, the song becoming the thread that binds the old life to the new. The son begins to choose, and the poem marks the inheritance of memory as much as of trade.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 11,
+      "name": "11",
+      "word_target": 500,
+      "chapter_title": "The New Bridge",
+      "chapter_summary": "A concrete bridge is begun, and the ferry's days are numbered. The boatman confronts the coming world — the bridge, the money, the closing of the old crossings — and what it will erase from the river.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 12,
+      "name": "12",
+      "word_target": 500,
+      "chapter_title": "The River Remembers",
+      "chapter_summary": "The bridge opens and the ferry quietens, but the boatman still rows, and the song still rises off the water. The poem closes on the river still moving and the Bhatiyali still, faintly, on it — what the bridge cannot span, the river keeps.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 13,
+      "name": "13",
+      "word_target": 500,
+      "chapter_title": "The Oar-Lock's Creak",
+      "chapter_summary": "The small sound of the oar against its lock becomes a music of its own — the rhythm of labour, the pulse of the day's crossings. The poem listens to the quiet mechanics of the boatman's life and finds a whole song in them.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 14,
+      "name": "14",
+      "word_target": 500,
+      "chapter_title": "The Fish in Payment",
+      "chapter_summary": "A passenger pays not in coin but in a fish, or a handful of rice — the small economy of the ferry. The poem weighs the difference between price and gift, and what the river gives that money cannot.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 15,
+      "name": "15",
+      "word_target": 500,
+      "chapter_title": "The Monsoon Letter",
+      "chapter_summary": "A letter or a message waits on the far bank through the swollen monsoon months, when the river rises and the crossings become dangerous. The poem holds the tension between the message and the water that delays it.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 16,
+      "name": "16",
+      "word_target": 500,
+      "chapter_title": "The Dry Bed",
+      "chapter_summary": "In the dry season the river shrinks to a thread, and the boatman reads its exposed bed — the mud, the stranded things, the memory of deeper water. The poem contemplates what the river keeps hidden and what it gives up.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 17,
+      "name": "17",
+      "word_target": 500,
+      "chapter_title": "The Boatman's Daughter",
+      "chapter_summary": "A daughter, or a girl of the ghat, carries water and watches the crossings, learning the river in her own way. The poem widens the inheritance of oar and song beyond the son to the whole village.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 18,
+      "name": "18",
+      "word_target": 500,
+      "chapter_title": "The Ferry Fare",
+      "chapter_summary": "The small coin of the ferry — its weight, its worth, the question of who can pay and who cannot. The poem returns to the price of the crossing and the deeper currency of service that outlasts it.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 19,
+      "name": "19",
+      "word_target": 500,
+      "chapter_title": "The Last Crossing",
+      "chapter_summary": "A final crossing before the bridge's completion, freighted with the knowledge that the ferry's days are ending. The poem gathers the whole journey into one passage and lets the water carry what it will.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 20,
+      "name": "20",
+      "word_target": 500,
+      "chapter_title": "The River Remembers the Song",
+      "chapter_summary": "The cycle closes on the water still moving and the Bhatiyali still rising off it, the song now carried by the son who learned to sing before he learned to row. The poem affirms that the river keeps what the bridge cannot span.",
+      "further_references": []
+    }
+  ]
+}

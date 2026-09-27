@@ -1,0 +1,5 @@
+The majhi — the boatman who rows his small wooden boat across the rivers of Bengal — carries a whole way of life: the rivers that made the land, the Bhatiyali songs that carry its sorrow and sweetness, and a cordial generosity that serves even those who cannot pay.
+
+## Expansion
+
+The protagonist is a majhi, a boatman of Bengal's river country, whose days are measured by the oar, the current, and the crossing. His conflict is the quiet tension between a way of life built on the free-flowing river and open-handed service, and the rising pressure of money, debt, and a world that is slowly bridging over the rivers he has ferried all his life. His transformation is the slow discovery of what endures when the old ways are tested — that the song and the service outlast the fare, and that what a man gives freely is what he keeps. Through the Bhatiyali, the most melodious song of the delta, the story asks what a boatman owes the river that gives him everything, and what the river owes no one back.
