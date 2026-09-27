@@ -2,6 +2,10 @@
 
 The `/book` workflow is strictly divided into **backlog commands** and **pipeline commands**. This boundary must never be crossed.
 
+## User Configurations
+
+Before applying this rule, read `.space/start.md` — the user-maintained default configuration. It is the single source of truth for user-specific default values (form, chapter count, style, word targets, presets, filter chains, search provider, and any other user overrides). If `.space/start.md` declares a value that differs from a default here or elsewhere, the user configuration wins. If no user-specific value is declared, fall back to the framework defaults.
+
 ## Backlog commands (1–3)
 
 These commands operate only inside the backlog folder:

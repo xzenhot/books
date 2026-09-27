@@ -51,7 +51,7 @@ writer/
 /book <bookname> publish [<language>]                               # promote segments to source/books
 /book <bookname> form <formname>                                    # set/change the book's form
 /book <bookname> config [<key> [<value>]]                           # get/set book config
-/book -o | --options                                                # list books and chapters
+/book -o | --options | list                                       # list books and chapters
 /book -h | --help                                                   # show usage
 ```
 

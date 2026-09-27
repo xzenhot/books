@@ -41,7 +41,7 @@ Supported command families are defined by the two start-point specs. The backlog
 /book <bookname> form <novel|poetry>
 /book <bookname> config [<key> [<value>]]
 
-/book -o | --options
+/book -o | --options | list
 /book -h | --help
 ```
 
