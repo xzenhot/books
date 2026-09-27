@@ -53,13 +53,13 @@
     "variety_note": "This chapter shifts focus from an interpersonal artistic battle to one involving structural integrity, material science, and external environmental factors like light and water decay. The conflict is becoming embedded in the built environment itself rather than just on its surface."
   },
   "draft": {
-    "sha256": "556313342806799a349b405fc0e254b81c0a6648b05fd7103b1ccd2eddd286fa",
-    "written_at": "2026-09-27T17:04:59.432424+00:00",
-    "origin": "write"
+    "sha256": "27dd87da044c14cfdb0190bddeaad871d038fea81ca9b02860faf9370a168bda",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "556313342806799a349b405fc0e254b81c0a6648b05fd7103b1ccd2eddd286fa",
+    "sha256": "d68e924d591f61762fb72b311b6894e589b1a05b1c83367256c9407489f8cf91",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -68,8 +68,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

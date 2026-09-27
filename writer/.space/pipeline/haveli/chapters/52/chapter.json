@@ -58,13 +58,13 @@
     "variety_note": "While neighbours focus on organic decay (dust, scent), this chapter isolates one single piece of non-organic technology—a mechanical memory—to explore the illusion of perfectly repeatable moments."
   },
   "draft": {
-    "sha256": "05a5a0b39c4dcc042986a805cc1f94003e771965f7791d6e34224926b8c013fb",
-    "written_at": "2026-09-27T17:10:49.729987+00:00",
-    "origin": "write"
+    "sha256": "6fdf1bd8176d8c101a9cb7c5533e65cc7bd48294c5b49c90e9502cbcea1ee8ff",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "05a5a0b39c4dcc042986a805cc1f94003e771965f7791d6e34224926b8c013fb",
+    "sha256": "ac18773daf524ed9d0cd5bb18bba5c6526a6e6bf943d1b4466d95be7983f836f",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -73,8 +73,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

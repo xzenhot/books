@@ -65,13 +65,13 @@
     "variety_note": "This chapter pivots from tracing external passage (wind/smell) to focusing on internal energy—a palpable sensation—creating a different kind of ghostly presence than mere echo or odor."
   },
   "draft": {
-    "sha256": "64c50c9851493f013fc41254aca85657763cb0102f33da9644ec9abbbe44196e",
-    "written_at": "2026-09-27T17:11:59.385270+00:00",
-    "origin": "write"
+    "sha256": "4d5d15bca582427f39b5c7906b644f16522540115dd53e7803e8e91da3fe77d6",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "64c50c9851493f013fc41254aca85657763cb0102f33da9644ec9abbbe44196e",
+    "sha256": "fb486d6a44b6b0f1819b26a09d243cebff923c28620243bad6268426287c908f",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -80,8 +80,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

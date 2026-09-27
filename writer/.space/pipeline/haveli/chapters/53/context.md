@@ -93,7 +93,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -232,4 +232,88 @@
 
 ```json
 "Unlike earlier chapters focusing on concrete economic goods (salt, cotton) or singular events, this chapter must focus purely on the ambiguity of boundary—the line between paint and flesh, art and existence."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"61bc67497da64bb8924284ba697f5b618057e055a42150d8a2fe9f0aa25efcaf"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:11:03.748155+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"61bc67497da64bb8924284ba697f5b618057e055a42150d8a2fe9f0aa25efcaf"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

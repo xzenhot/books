@@ -59,13 +59,13 @@
     "variety_note": "While neighbouring chapters focused on outward displays of wealth (Durbar, Thali), this chapter requires an inward turn to examine devotion itself—how sacred space becomes another quantifiable stage for expenditure and status projection."
   },
   "draft": {
-    "sha256": "b2975339bbe85c4c8676789d5006e1f2c2dec4914dcf986f4147b706a79fbc75",
-    "written_at": "2026-09-27T17:02:57.502033+00:00",
-    "origin": "write"
+    "sha256": "563a5b943ecc3b3a05a5383efc6f80ea2ce42e6fa7377be97b8a00e81c525973",
+    "written_at": "2026-09-27T18:22:17+00:00",
+    "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "b2975339bbe85c4c8676789d5006e1f2c2dec4914dcf986f4147b706a79fbc75",
+    "sha256": "ce16241415ff84d2b34be82e5e9c3bb4ecfe254e127c0de7b102e8959a1f6061",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -74,8 +74,8 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T17:46:38+00:00"
-  }
+    ]
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

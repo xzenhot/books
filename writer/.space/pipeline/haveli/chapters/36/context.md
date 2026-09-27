@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -190,4 +190,88 @@
 
 ```json
 "Unlike chapters detailing visible public financial collapse or historical trade routes, this poem focuses inward on an immediate, highly localized moment of domestic, ritualized imperfection, shifting the locus of 'ruin' from ledger books to spilled liquid."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"932bb3d9b50c93938e96fad67412eaa207889f90a2037a3eb7e3dc79e119677c"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:06:57.225964+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
+```
+
+## $["quality_review"]["status"]
+
+```json
+"passed"
+```
+
+## $["quality_review"]["sha256"]
+
+```json
+"932bb3d9b50c93938e96fad67412eaa207889f90a2037a3eb7e3dc79e119677c"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-27T17:46:38+00:00"
 ```

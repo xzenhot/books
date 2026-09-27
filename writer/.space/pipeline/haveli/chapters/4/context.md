@@ -93,7 +93,7 @@
 ## $["state"]
 
 ```json
-"scaffolded"
+"written"
 ```
 
 ## $["segments"][0]
@@ -220,4 +220,22 @@
 
 ```json
 "This chapter moves away from the contained claustrophobia of the haveli and focuses outward, using the vastness of the desert trade route to expand Gangaram's world view while simultaneously emphasizing how little control he truly has over his fortunes."
+```
+
+## $["draft"]["sha256"]
+
+```json
+"6fa1738532272b31e94f9610df84e8bb6f4426fdb2bc4c79c974fe2a42f035ab"
+```
+
+## $["draft"]["written_at"]
+
+```json
+"2026-09-27T17:58:00.751746+00:00"
+```
+
+## $["draft"]["origin"]
+
+```json
+"write"
 ```
