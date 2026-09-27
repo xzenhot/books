@@ -31,6 +31,7 @@ After **every** command in this workflow completes — including read-only, no-o
 /book <bookname> translate <n>|all|continue <language>                               # 5. translate latest writer-stage chapter version
 /book <bookname> filter <filter>                                                   # 6. run a single filter
 /book <bookname> enrich <count>|range|*                                              # 6a. fuse active filters into one combined agent and enrich chapters in one pass
+/book <bookname> eval all|*|<n>|<range>|continue                                     # 6b. evaluate pipeline completeness before write/publish (read-only)
 /book <bookname> form <formname>                                                     # 7. set/change the book's form
 /book <bookname> config [<key> [<value>]]                                            # 8. get/set the book's model config
 /book <bookname> add <chapter-count> filter <filter>                          # 9. add chapters and run a single filter
@@ -208,7 +209,7 @@ Responsibility: build the pipeline structure from the backlog book plan and form
 5. Stop if the backlog epic is missing for a novel; do not create or rewrite it. The actual story always comes from the existing epic.
 6. Invoke the scaffold agent at `.framework/agents/scaffold/agent.md`; do not invoke layout skills directly. Pass the epic (novel) or the gist/topic list (poetry), the chapter count, and **the path to the backlog book plan** `.space/backlog/<bookname>/book.json`.
 7. The scaffold agent MUST invoke the prelayout agent (`.framework/agents/prelayout/agent.md`) as its first step, before any layout work, to resolve the form, validate the book plan, and produce the pre-layout plan. The layout skill runs only after the prelayout agent returns.
-8. **Clone the book plan and seed chapter models (mandatory).** After prelayout validation and before layout populates chapter folders, the scaffold agent must copy `.space/backlog/<bookname>/book.json` to `.space/pipeline/<bookname>/book.json` in full. For Behula, this is `.space/backlog/behula/book.json` → `.space/pipeline/behula/book.json`. Preserve every field, value, and chapter entry; do not substitute a template or a reduced runtime model. Seed each chapter model from its matching `chapters` entry according to the model contract below. Use the cloned plan's declared `filter_chain` sequence to build `filters/filters.json`, never the layout skills' preset chain. Scaffold creates **only** `filters/filters.json` (the registry); it does not create per-filter folders — each filter creates its own `filters/<filter>/` folder when it first runs. These requirements take precedence over conflicting scaffold-agent or layout-skill model templates.
+8. **Clone the book plan and seed chapter models (mandatory).** After prelayout validation and before layout populates chapter folders, the scaffold agent must copy all three backlog source files — `gist.md`, `storyline.md`, and `book.json` — from `.space/backlog/<bookname>/` to `.space/pipeline/<bookname>/`. Copy `.space/backlog/<bookname>/book.json` to `.space/pipeline/<bookname>/book.json` in full, and copy `gist.md` and `storyline.md` verbatim alongside it. For Behula, this is `.space/backlog/behula/book.json` → `.space/pipeline/behula/book.json`. Preserve every field, value, and chapter entry; do not substitute a template or a reduced runtime model. Seed each chapter model from its matching `chapters` entry according to the model contract below. Use the cloned plan's declared `filter_chain` sequence to build `filters/filters.json`, never the layout skills' preset chain. Scaffold creates **only** `filters/filters.json` (the registry); it does not create per-filter folders — each filter creates its own `filters/<filter>/` folder when it first runs. These requirements take precedence over conflicting scaffold-agent or layout-skill model templates.
 9. Apply form-specific initialization (below).
 10. **Seed the override command file lazily.** The override command file `.space/pipeline/<bookname>/filters/override/filter.md` is not created at scaffold. It is seeded on first use — by the override filter, the write/poet path, or any step that needs it — with form-customized content derived from `.framework/agents/override/agent.md` whenever `override` appears in the book plan's `filter_chain`.
 11. **Generate the dynamic master prompt.** After layout, the scaffold agent MUST invoke the postlayout agent (`.framework/agents/postlayout/agent.md`) to derive the pipeline's dynamic master prompt from the backlog idea (`.space/backlog/<bookname>/override.txt`) and the resolved pipeline state, writing it to `.space/pipeline/<bookname>/override.txt`. This is a mandatory final step — a scaffold is not complete until the postlayout agent has run.
@@ -404,6 +405,24 @@ Responsibility: fuse the active filters into one combined agent and run it in a 
 7. Report the resolved active filters, the fused order, the chapters processed, and the resulting `state`.
 
 The enrich command is a single-pass fusion of the active filter chain, not a replacement for the individual `filter` command. It never reads the backlog or the epic; it works only from the chapter's own files and the active filter agents.
+
+## The Eval Command
+
+For `/book <bookname> eval all|*|<n>|<range>|continue`:
+
+Responsibility: evaluate whether the pipeline is complete enough to `write` and `publish`, and report exactly what is missing. This command is **read-only** — it routes through the eval agent at `.framework/agents/eval/agent.md`, which inspects state and reports a verdict without mutating anything.
+
+- `all` / `*` — evaluate every chapter in the plan (default when no scope is supplied).
+- `<n>` — a single chapter number.
+- `<range>` — e.g. `1-5`.
+- `continue` — the first chapter not yet marked `completed` (or the whole book if all are completed).
+
+1. Stop if `.space/pipeline/<bookname>/` does not exist; use `scaffold` first.
+2. Route the work through the eval agent at `.framework/agents/eval/agent.md`. The agent reads the book plan, `progress.json`, `filters/filters.json`, chapter models, chapter drafts, and filter outputs, then reports per-chapter write-readiness, validation, and publish-readiness.
+3. The agent is read-only: it never scaffolds, runs filters, writes chapters, mutates `chapter.json`/`chapter.md`, updates `progress.json`, or touches `source/books/`.
+4. Report the readiness table and blockers. Do not run `write` or `publish` from this command — it only tells the user whether those steps are safe.
+
+Run `eval` before `write` or `publish` to confirm the pipeline is complete; a chapter is publish-ready only when it is written, its quality review passed, and its draft hash is still current.
 
 ### The human-in-the-loop override filter
 

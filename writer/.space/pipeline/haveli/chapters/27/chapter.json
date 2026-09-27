@@ -1,0 +1,62 @@
+{
+  "chapter_index": 27,
+  "name": "27",
+  "word_target": 500,
+  "chapter_title": "The Wedding Season",
+  "chapter_summary": "Marriages are celebrated with ghee and marigold in the painted courtyards, the haveli at its most alive. The poem lingers on the scent and the music, the weddings whose fragrance will outlast the memory of anyone who attended.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Traditional Marwari wedding ceremony logistics and costs (pre-20th century)",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The symbolism of specific colors in Rajput/Marwari bridal trousseaus beyond just happiness",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing the object biography on a single, surviving piece of textile (like a dupatta) that has been passed down through three generations of brides whose lives are barely visible in its fading pattern.",
+      "Treating the music itself as the 'object': mapping the specific recurring *raga* or rhythmic pattern used during wedding processions and analyzing what emotional weight it carries over time, especially when played by different hands (from skilled to untrained).",
+      "The biography of an essential household utensil—perhaps a ceremonial brass *diya* stand or a silver serving bowl—that must be cleaned, polished, and reset for every new ceremony, thereby acting as a physical measure of the family's continuous performance of wealth."
+    ],
+    "story_options": [
+      "Setting: The threshold between two adjacent havelis during the wedding procession; Desire: To witness which household item (a specific garland type or serving platter) remains untouched by dust after all guests depart, implying its permanent cultural value.; Obstacle: A sudden monsoon downpour briefly stalls the entire celebratory movement.",
+      "Setting: Inside a room meant for receiving gifts/dowry goods; Desire: A character notices that one particular, seemingly common object (a set of bangles, or a specific spice container) is consistently passed through every wedding celebration over decades.; Obstacle: The object itself has a subtle but visible flaw—a chip, a bend—that everyone ignores until the final moment.",
+      "Setting: A designated public viewing spot overlooking the main courtyard during peak revelry; Desire: To follow the trajectory of one single element (e.g., smoke from incense or falling marigold petals) to determine how far it travels beyond the property lines, linking private ritual to public space."
+    ],
+    "subject_rotations": [
+      "Shifting focus from celebratory bounty to the labor cost: detailing the specific tasks—from setting up temporary seating arrangements to managing food waste after the celebration—that sustain the perceived magic.",
+      "Treating the pre-wedding preparations as a form of performance art in itself, analyzing the strict choreography required for every ritualistic moment before guests even arrive.",
+      "A reverse chronology: starting with the quiet emptiness immediately following the departure of the last guest, and working backward to detail the peak sensory saturation moments."
+    ],
+    "sensory_details": [
+      "Sound: The high-pitched, almost brittle sound of freshly blown glass bangles striking against polished marble during a dance.",
+      "Smell: The specific, cloying mixture of burnt camphor used for purification mixed with the sharp scent of raw turmeric pasted onto skin.",
+      "Touch: The slick, slightly oily residue left on painted fresco surfaces by hands wiping away sweat and stray oils from celebratory contact."
+    ],
+    "research_questions": [
+      "What were the specific social rules governing who was permitted to *touch* which items (bridal jewelry, ritual food) during a wedding ceremony?",
+      "How did the availability or scarcity of certain natural pigments affect the color palette used in decorative elements for weddings versus everyday life?",
+      "Were there different ceremonial utensils reserved only for high-status brides that were never seen outside of their own specific family rituals?"
+    ],
+    "structural_variants": [
+      "A poem structured around a cyclical progression: Beginning with preparation, moving through the crescendo of guests/sound, and ending in dissolution/aftermath.",
+      "Employing stanzas that mimic inventory lists—cataloguing not just goods, but emotional commodities (blessing amounts, number of vows exchanged, etc.).",
+      "A fragmented structure, presenting disparate moments from multiple weddings over a single season to build the composite memory."
+    ],
+    "unused_angles": [
+      "The role of the bridal trousseau as a temporary ledger: every item representing an investment or debt settled between two families.",
+      "Focusing on the groomsmen's ritualistic duties—their emotional burden being secondary to the visual performance required.",
+      "A meditation on time passing over these annual celebrations, suggesting that even memory requires maintenance and polishing."
+    ],
+    "variety_note": "While previous chapters focused on material accumulation or economic downturns, this piece grounds the cycle in intense ritual expenditure, making the 'cost' both tangible (goods) and intangible (memory/performance)."
+  }
+}

@@ -164,7 +164,7 @@ theme, workshop
 Known lifecycle agents:
 
 ```text
-init, scaffold, write, chapter, style, translate, publish, gist, reframe
+init, scaffold, write, chapter, style, translate, publish, gist, reframe, eval
 ```
 
 Known post-scaffold agents:
@@ -241,6 +241,7 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/override/agent.md
 .framework/agents/quality/agent.md
 .framework/agents/enrich/agent.md
+.framework/agents/eval/agent.md
 .framework/agents/poetry/agent.md
 .framework/agents/story/agent.md
 .framework/agents/style/agent.md

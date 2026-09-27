@@ -1,0 +1,55 @@
+{
+  "chapter_index": 28,
+  "name": "28",
+  "word_target": 500,
+  "chapter_title": "The Rival Merchant's Wall",
+  "chapter_summary": "A neighbor answers Gangaram's fresco with a grander one, and the quiet war of pigment begins. The poem introduces the rival whose wall will force Gangaram to spend until there is nothing left to spend.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Patronage dynamics and conspicuous consumption among Rajput/Marwari elite",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Architecture of rivalry in historical merchant centers",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The perspective of the building materials themselves: treating stone, mortar, and pigment as passive witnesses to the escalating ego battles between two families.",
+      "A focus on the labor dynamics under conflict: detailing how the *artisan* (mason/painter) is exploited by whichever patron pays the highest rate at any given moment—the true commodity being skilled hands.",
+      "Narrative filtered through scarcity: instead of comparing grandeur, the poem tracks the physical exhaustion of resources—the diminishing supply of rare lapis pigment or specific types of local sand needed for plastering."
+    ],
+    "story_options": [
+      "Setting: The narrow alleyway between the two havelis; Desire: To overhear a whispered promise between architects concerning a structural weakness that could be exploited during construction; Obstacle: A sudden monsoon downpour forces all workers to shelter in one side, exposing their respective vulnerabilities.",
+      "Setting: A shared, neutral courtyard used for scaffolding and material storage; Desire: A young apprentice is tasked with mixing plaster that must perfectly mimic the texture of a rival's recent addition; Obstacle: The rival sends an agent who subtly contaminates the supply water or mixes in a binder that weakens the curing process.",
+      "Setting: The market square used for purchasing pigments and supplies, adjacent to both havelis; Desire: A single vendor must sell a unique, rare natural dye (like deep indigo) whose acquisition is needed by *both* patrons simultaneously; Obstacle: Both rival merchants arrive at the stall minutes apart demanding its full inventory."
+    ],
+    "subject_rotations": [
+      "Shifting focus from 'brilliance' to 'failure': examining frescoes that were supposed to be glorious but contain visible signs of hasty repair, uneven lines, or chemical decay caused by the rush to outperform.",
+      "The visual grammar of comparison: dedicating stanzas not to what is painted, but *how* the rival painting deliberately frames a known weakness in Gangaram's structure (e.g., using scale or perspective to make one section look smaller than it is).",
+      "A poetic 'legal' read: treating the entire affair as a continuous, unwritten property dispute, where every fresco line acts as an assertion of boundary ownership."
+    ],
+    "sensory_details": [
+      "Sound: The grating sound of chalk scraping against centuries-old lime wash when an unauthorized inspection occurs.",
+      "Smell: The acrid, almost medicinal scent released when two different types of binding agent (e.g., gum arabic vs. egg tempera) dry out near each other on a hot day.",
+      "Touch: The powdery residue of ground mineral pigments—ochre mixed with the sweat and oily skin cells of the laborers handling it."
+    ],
+    "research_questions": [
+      "What were the specific, documented sources for vibrant blue or red pigments available to wealthy urban builders in this region during the 19th century?",
+      "Were there any common building codes or architectural guidelines that governed the proximity and visual impact of neighboring private dwellings?"
+    ],
+    "structural_variants": [
+      "A polyphonic structure, with three distinct poetic voices alternating: Gangaram’s self-aggrandizing memory, the Rival’s triumphant challenge, and the detached Chronicler's objective observation.",
+      "Using a call-and-response form in poetry, where one stanza describes an achievement, and the next immediately counters it with an escalation."
+    ],
+    "variety_note": "Unlike chapters focusing on completed transactions (like gifts or goods), this chapter centers entirely on sustained *process*—the ongoing expenditure of ego and material resources against a visible opponent wall-to-wall."
+  }
+}

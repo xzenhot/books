@@ -1,0 +1,61 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 500,
+  "chapter_title": "The Gold Thali",
+  "chapter_summary": "The beaten-gold platter that will feed five hundred guests is polished to a mirror. The poem holds the thali as the emblem of Gangaram's excess, the object that will both fix his name in the town's mouth and empty his vault.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The metallurgy and sourcing of gold/silver ornamentation in 19th-century Rajasthan",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Ritual significance of large feasting platters (Thali) in Rajput/Marwari culture",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "The social contract implied by hosting massive feasts versus the local agricultural economy supporting it",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the thali not as a receptacle for food, but as a surface for transaction: what are placed *on* it that carry non-edible value (contracts, letters, tokens)?",
+      "The weight and inertia of excess: focusing on the sheer physical burden of polished metal, treating its mass as a narrative impediment to movement or honesty.",
+      "A perspective through the cleaning process: tracing the ritualized polishing—the specialized cloth, the specific polish paste—as an act of temporary purification before inevitable decay."
+    ],
+    "story_options": [
+      "Setting: The moment just *before* the guests arrive, desire: To focus on the servants arranging the thali with obsessive, almost fearful precision, treating each placement as a performance for unseen judges; Obstacle: A single item—a smudge of grease or an ill-matched grain of rice—disrupts the perfection.",
+      "Setting: The disposal area immediately *after* the feast's climax, desire: To salvage residual elements from the plates (burnt ghee residue adhering to gold, crumbs mixed with spice powder) to determine which guest left the most indelible mark; Obstacle: The residue is chemically complex and resists identification.",
+      "Setting: A quiet corner of the haveli pantry/storage room in the deep night, desire: To have a character who is *not* part of the celebration (perhaps a junior artisan or cook) polish the thali, seeing not opulence but rather the physical labor required to maintain such a lie; Obstacle: They realize they don't know how to achieve the final, perfect mirror finish."
+    ],
+    "subject_rotations": [
+      "Treating the contents of the thali as narrative placeholders: focusing on specific *types* of food (a mountain of ghee sweets vs. humble vegetables) and what those choices reveal about Gangaram's shifting allegiances.",
+      "Deconstructing 'mirror': exploring how the perfect reflection on gold is deceitful, only showing a controlled version of reality back to its owner.",
+      "The soundscape of preparation: foregrounding the metallic clinking—the stacking of plates, the polishing cloth against metal—as an unnatural noise that preempts the natural sounds of conversation."
+    ],
+    "sensory_details": [
+      "Sight: The cold, deep yellow reflection of a single oil lamp flame captured sharply on the highly polished surface.",
+      "Sound: The sustained, high-pitched whine of metal scraping against stone during repeated polishing motions.",
+      "Smell: An overwhelming, cloying mix of exotic floral oils and rendered animal fats used in ceremonial cooking that never quite dissipates."
+    ],
+    "research_questions": [
+      "What were the standard practices for cleaning and storing highly ornate metal objects like serving platters to prevent oxidation or dulling?"
+    ],
+    "structural_variants": [
+      "A comparative poem structure: juxtaposing three versions of the thali—one functional (for real food), one ceremonial (empty, decorative), and one symbolic (broken/discarded)."
+    ],
+    "unused_angles": [
+      "The specific interaction between polished gold and common earth materials (like turmeric-stained hands or unglazed terracotta pottery) on the same surface."
+    ],
+    "variety_note": "While previous chapters focused on physical spaces (Courtyard, Women's Quarters), this poem concentrates its entire dramatic weight onto a single, highly portable object—the thali—forcing intimacy and scrutiny upon material excess."
+  }
+}

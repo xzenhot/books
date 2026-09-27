@@ -1,0 +1,53 @@
+{
+  "filters": [
+    {
+      "order": 1,
+      "name": "workshop",
+      "agent": ".framework/agents/workshop/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 2,
+      "name": "research",
+      "agent": ".framework/agents/research/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 3,
+      "name": "correctness",
+      "agent": ".framework/agents/correctness/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 4,
+      "name": "theme",
+      "agent": ".framework/agents/theme/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 5,
+      "name": "syntax",
+      "agent": ".framework/agents/syntax/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 6,
+      "name": "override",
+      "agent": ".framework/agents/override/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 7,
+      "name": "quality",
+      "agent": ".framework/agents/quality/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    }
+  ]
+}

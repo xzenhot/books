@@ -1,0 +1,65 @@
+{
+  "chapter_index": 11,
+  "name": "11",
+  "word_target": 500,
+  "chapter_title": "The Painter's Arrival",
+  "chapter_summary": "An artisan from Udaipur arrives to cover the walls with stories, carrying brushes and pigments ground from stone and leaf. The poem introduces the man who will make Gangaram immortal and be paid for it in cracked grain.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Pigment chemistry sourced from mineral pigments in Rajasthan (e.g., malachite, lapis-like substitutes)",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The specific portable workshops or trade guilds for itinerant mural artists in pre-modern North India",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Symbolism of brushes and pigments across different regional art forms (e.g., miniature painting vs. fresco)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the painter as an initial skeptic: treating his arrival not as a celebrated artisan, but as an unwelcome necessary expense whom Gangaram initially tries to manage or dismiss.",
+      "The process of material transfer: focusing intensely on the pigments themselves—the grinding, mixing, and rationing of stone/leaf dyes—as an act of alchemy that must precede any narrative skill.",
+      "The perspective of apprenticeship: introducing a younger boy who serves the painter, allowing him to observe the physical labor and economic transaction through eyes unburdened by merchant ambition."
+    ],
+    "story_options": [
+      "Setting: The outer edge of the construction site, where raw materials pile up (stone dust, baskets, dried herbs); Desire: The painter needs an unimpeded area to set up his initial palette and drying racks; Obstacle: A local cow or stray animal disturbs the delicate pigments, forcing a moment of shared, non-commercial cooperation; Turn: Gangaram must pay not with coin, but with a highly specific commodity (e.g., rare incense wood) that proves his *taste*, not just his wealth.",
+      "Setting: The partially whitewashed wall itself, still smelling raw lime and chalk; Desire: To begin painting the simplest, most mundane scene—perhaps an everyday village transaction—to test both pigments and patience; Obstacle: The pigment binder (animal glue or oil) proves inconsistent due to local weather or poor storage; Turn: Gangaram is forced to delay the grand epic for a week while the painter remedies a technical failure.",
+      "Setting: A narrow alleyway connecting the haveli site to the main bazaar, forcing interaction with external life; Desire: The painter needs specialized binding agents that only an itinerant vendor carries; Obstacle: The vendor refuses passage or demands payment in services rather than coin; Turn: Gangaram must step outside his own planned itinerary to solve a small logistical problem for the artist."
+    ],
+    "subject_rotations": [
+      "Treating the pigment as history itself: each color/mineral representing a different economic era or trade route that has passed through Mandawa.",
+      "The painter's relationship with geometry vs. narrative flow: focusing on how the structure of the fresco (the grid, the border) constrains the divine storytelling it contains.",
+      "A 'reverse cost analysis': mapping out the sheer amount of labor and exotic materials required for a single square foot of painted divinity, making the art itself an economic subject."
+    ],
+    "sensory_details": [
+      "The brittle, papery sound of dried leaves being carefully crushed under a pestle.",
+      "A distinct, metallic tang in the air from freshly ground mineral pigments mingling with drying lime mortar.",
+      "The uneven weight and cool slickness of clay-laden pots carrying liquid binding agents."
+    ],
+    "research_questions": [
+      "What was the social contract between a wealthy patron (like Gangaram) and a visiting itinerant artisan in terms of labor rights and payment guarantees?",
+      "Were certain pigments considered sacred or taboo, influencing where they could be used within a private domestic space like a haveli?",
+      "How did the physical act of preparing natural binders (like gum arabic or animal glue) differ from historical descriptions?"
+    ],
+    "structural_variants": [
+      "A poem structured as an inventory list: dedicating stanzas to listing every necessary tool, chemical component, and pigment source in obsessive detail.",
+      "A dialogue heavily utilizing specialized artisan jargon (blending technical chemistry with poetic flourish) that sounds esoteric to the uninitiated reader."
+    ],
+    "unused_angles": [
+      "The painter seeing a reflection of his own life's anxieties mirrored in the divine, grand narratives he is forced to paint.",
+      "An examination of the *waste*: the discarded pigment dust, the broken tools, and the unusable remnants that are left behind after the commission is paid."
+    ],
+    "variety_note": "While previous chapters focused on physical acquisition (land, commodities), this chapter shifts focus entirely to intangible capital: specialized skill, artistic knowledge, and chemically bound color, making it a transaction of craft rather than mere coin."
+  }
+}

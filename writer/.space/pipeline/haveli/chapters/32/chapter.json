@@ -1,0 +1,60 @@
+{
+  "chapter_index": 32,
+  "name": "32",
+  "word_target": 500,
+  "chapter_title": "The Mason's Thirst",
+  "chapter_summary": "The laborer raising ceilings in the June heat goes thirsty while the merchant bathes in rose water. The poem sets the two bodies side by side — the parched and the perfumed — and lets the contrast do the accusing.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Local building techniques for heat regulation in arid architecture",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The social semiotics of public ablution rituals in Rajasthan",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the *materials* that facilitate survival: contrasting the specific mineral content needed for hydration (salt, medicinal herbs) versus luxury imported goods (scents)",
+      "The internal monologue of the Mason himself—not about thirst, but about the structural integrity of his own body resisting dehydration and exhaustion.",
+      "Adopting a rhythm mirroring the heat: stanzas that speed up in frantic activity and slow down almost to a near-stasis when describing moments of perceived wealth or stagnation."
+    ],
+    "story_options": [
+      "setting: The narrow passage between two newly raised parapet walls; desire: To steal one perfectly shaped, cool river stone discarded by the workers' cooler feet; obstacle: A guard noticing the theft, turning a petty crime into an accusation of sloth.",
+      "setting: Just outside the main gate, where runoff water pools from bathing rituals; desire: To drink this mixed runoff water and gain some knowledge/sight from it; obstacle: The attendant who controls access to pure water deems the substance impure or contaminated by labor.",
+      "setting: A rooftop terrace overlooked by the passerby witness; desire: To observe the precise, cyclical pattern of evaporation off exposed plaster surfaces; obstacle: An unseen predator (bird or animal) that distracts both the observer and the subjects in the heat haze."
+    ],
+    "subject_rotations": [
+      "Viewing thirst not as physical need, but as a spiritual state—the longing for recognition or inclusion within the merchant's sphere.",
+      "Shifting the focus from the contrast between sweat/perfume to the *shared* element of dust: all life forms in the scene (mason, noblewoman, water) are equally coated in building grit.",
+      "An architectural meditation on containment: how these walls physically trap not only wealth but also heat, humidity, and the resulting inability for natural processes to complete themselves."
+    ],
+    "sensory_details": [
+      "Visual: The way dust kicked up by sandals catches the late afternoon sun at a specific angle, turning airborne particles momentarily iridescent.",
+      "Auditory: The high-pitched whine of metal tools (chisels or saws) being used in an effort to cut through hardened mortar that has begun to dry and expand unevenly.",
+      "Tactile: The chalky residue left on the mason's hands after scraping dried lime off rough bedding stones, contrasted with the oily slickness of wet marble."
+    ],
+    "research_questions": [
+      "What were the customary local building materials used to 'cool' or shade scaffolding during peak summer months in Mandawa?",
+      "How did non-literary art forms (like ritual bathing) historically incorporate elements intended to soothe specific types of physical exhaustion?"
+    ],
+    "structural_variants": [
+      "A poem built around a catalogue of liquids: listing the various substances involved—sweat, rose water, potable well water, dust moisture—and their relative value/purity.",
+      "Structuring the narrative as an overheard conversation between two peripheral characters (a street vendor and a stable hand) who comment on the extravagance they witness passing by."
+    ],
+    "unused_angles": [
+      "The specific mechanics of labor management: how many men were required to maintain this level of daily upkeep, treating manpower as the most finite resource.",
+      "A focus on waste: where does the runoff water go? Does it feed a garden or evaporate harmlessly into the unrecorded desert?",
+      "Exploring the role of scented oils beyond mere pleasure—did certain scents have apotropaic (protective) qualities against heat-related illness?"
+    ],
+    "variety_note": "While previous chapters focused on artistic competition and monetary valuation, this poem grounds the critique in a raw biological reality: the differential consumption of vital fluids under extreme environmental stress."
+  }
+}

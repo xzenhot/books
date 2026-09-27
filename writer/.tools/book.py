@@ -74,6 +74,7 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import shutil
 import subprocess
 import sys
 import urllib.error
@@ -1096,6 +1097,12 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
             "Delete it manually if you want to re-scaffold."
         )
     pipeline.mkdir(parents=True)
+
+    # --- Copy the backlog source files (gist.md, storyline.md) verbatim ---
+    for src_name in ("gist.md", "storyline.md"):
+        src = book_dir / src_name
+        if src.is_file():
+            shutil.copy2(src, pipeline / src_name)
 
     # --- Root pipeline files ---
     (pipeline / "book.json").write_text(

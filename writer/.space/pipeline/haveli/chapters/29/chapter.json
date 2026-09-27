@@ -1,0 +1,66 @@
+{
+  "chapter_index": 29,
+  "name": "29",
+  "word_target": 500,
+  "chapter_title": "The Competition of Frescoes",
+  "chapter_summary": "The one-upmanship of pigment and gold leaf escalates — the elephant answered by the motorcar, the motorcar by the airplane. The poem is a comedy of rival walls that is also, underneath, the ledger of a fortune being spent to ruin.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Marwari merchant patronage of Mughal/Rajput fresco styles",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The material science and decay patterns of natural pigments (lapis lazuli, carmine)",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Oral history accounts detailing mercantile competition in Shekhawati towns",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The biography of the *pigment* itself: tracing its origin, journey (from mine/trade route), and final application on rival walls—treating color as currency.",
+      "Through the eyes of a child apprentice who witnesses not the grand art, but the mundane process of grinding, mixing, and scraping off discarded materials from the competition.",
+      "Examining the 'perfection' standard: focusing on the minute, structural flaws (a hairline crack, an improperly mixed plaster layer) that betray the frantic energy beneath the flawless facade."
+    ],
+    "story_options": [
+      "setting: The central scaffolding beam connecting two neighboring havelis, desire: To prove whose artistic contribution—whose investment in *time* and skill—is objectively superior to their rival's., obstacle: A sudden, unexpected monsoon downpour that threatens to wash away preliminary underpaintings on both structures simultaneously., turn: The two rivals must temporarily pool their remaining scaffolding materials and labor pools just to keep the necessary height maintained until dawn.",
+      "setting: The preparation room (the *karkhana*) where pigments are mixed, desire: To obtain a specific, rare stabilizing agent needed to make one's own gold leaf appear genuinely brighter than the competition., obstacle: A scarcity of water or an unexpected shortage of binding agents like gum arabic due to hoarding by other workshops., turn: The protagonist must barter for the necessary ingredient using something highly personal, not financial—perhaps a secret family recipe or a specific lullaby.",
+      "setting: A high balcony (*jharokha*) overlooking the adjacent street corner, desire: To gain the moral high ground by pointing out a technical imperfection in the rival's work that no one else has noticed., obstacle: The intended 'reveal' is interrupted by an unexpected, non-artistic event—perhaps a stray cow or a visiting official passing through, forcing immediate camouflage of the critique., turn: The confrontation over artistic merit dissolves into a shared moment of fatigue and exhaustion as all participants realize how much physical toll the competition has taken."
+    ],
+    "subject_rotations": [
+      "Viewing the entire process—from initial sketch to final wash—as an elaborate, unsustainable negotiation between patrons and craftspeople.",
+      "Focusing solely on the *material* cycle: what happens when paint flakes off? Where does that pigment go? Is it discarded or reused in a lesser piece?",
+      "Treating the competition not as art history, but as performance theatre documented for posterity—the sheer exhausting drama of wealthy self-documentation."
+    ],
+    "sensory_details": [
+      "Sight: The way sunlight catches uneven layers of gold leaf, making some patches flare with a hot, almost blinding glare while others look dull and powdery.",
+      "Sound: The rhythmic *scrape* of stone against bone as an artist meticulously scrapes away dried plaster residue from a palette knife.",
+      "Smell: The acrid, temporary scent of animal fat used in early experimental binding mediums, battling the permanent sweet musk of sandalwood oil."
+    ],
+    "research_questions": [
+      "What were the specific social rules governing which types of motifs (mythological vs. portraiture) carried more prestige and thus costlier pigment during this period?",
+      "Were there documented instances where art commissioned for competition was intentionally sabotaged or deliberately left incomplete by its patron?",
+      "How did changes in international trade routes affect the *available* vocabulary of color, moving away from local minerals to imported pigments?"
+    ],
+    "structural_variants": [
+      "A triptych structure: dedicating one third of the poem to the initial vision/planning meeting; the second third to the physical labor/conflict; and the final third to the aftermath/silence.",
+      "Structuring stanzas like call-and-response poetry, with one voice describing the *ideal* fresco, and another voice detailing the material limitations that prohibit it."
+    ],
+    "unused_angles": [
+      "The inclusion of graffiti or spontaneous tagging on structural supports by workers who weren't paid for their labor.",
+      "A section dedicated to the specific tools: the kind of brush hairs preferred for different subjects (e.g., softer bristles for flesh tones vs. stiffer brushes for outlines).",
+      "Exploring the logistics: which goods had to be *imported* just to make one single fresco wall look contemporary enough for comparison."
+    ],
+    "variety_note": "Unlike previous chapters focused on singular moments of wealth (Teej, Weddings), this chapter deals with sustained, active conflict, shifting focus from passive decay to explosive, expensive creation and the immediate exhaustion it causes."
+  }
+}
