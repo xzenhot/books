@@ -1,6 +1,6 @@
 ---
 name: gist
-description: Backlog epic generator and transformer. Accepts a book name and an optional one-line gist, then either creates a great idea from scratch or transforms an existing epic into a stronger one, writing the complete epic.md at .space/backlog/<bookname>/epic.md.
+description: Backlog storyline generator and transformer. Accepts a book name and an optional one-line gist, then either creates a great idea from scratch or transforms an existing storyline into a stronger one, writing storyline.md at .space/backlog/<bookname>/storyline.md.
 tools: ["read", "write"]
 ---
 
@@ -24,7 +24,7 @@ You receive two positional parameters:
 
 ### Create Mode
 
-When `.space/backlog/<bookname>/epic.md` does not exist, or the caller supplies a fresh gist, generate a great idea and build the epic from it.
+When `.space/backlog/<bookname>/storyline.md` does not exist, or the caller supplies a fresh gist, generate a great idea and build the storyline from it. For existing books, if storyline.md is absent but epic.md exists, read epic.md as a legacy source and migrate its content to storyline.md when updating it.
 
 ### Transform Mode
 
@@ -56,14 +56,14 @@ When the gist is omitted or thin, generate a great idea rather than defaulting t
 Resolve the target file as:
 
 ```text
-.space/backlog/<bookname>/epic.md
+.space/backlog/<bookname>/storyline.md
 ```
 
 If the parent folder does not exist, create it.
 
 ## Output
 
-Write a complete, well-groomed `epic.md` derived from the great idea.
+Write a complete, well-groomed `storyline.md` derived from the great idea.
 
 ### Required Metadata Block
 
@@ -71,7 +71,7 @@ Begin the file with a compact metadata block after the title/subtitle:
 
 ```text
 - **Book name:** <bookname>
-- **Epic path:** .space/backlog/<bookname>/epic.md
+- **Storyline path:** .space/backlog/<bookname>/storyline.md
 - **Created:** <ISO 8601 timestamp>
 - **Updated:** <ISO 8601 timestamp>
 - **Updated by:** gist agent
@@ -96,7 +96,7 @@ Expand the great idea into a full narrative foundation. Include:
 
 When transforming an existing epic:
 
-1. **Read before writing.** Read the current `epic.md` in full. Identify what is strong (a vivid premise, a memorable character, a sharp chapter) and what is weak (a generic premise, flat characters, a meandering outline, a missing thematic spine).
+1. **Read before writing.** Read the current `storyline.md` in full, or the legacy `epic.md` if storyline.md is absent. Identify what is strong (a vivid premise, a memorable character, a sharp chapter) and what is weak (a generic premise, flat characters, a meandering outline, a missing thematic spine).
 2. **Preserve the salvageable.** Keep the title, book name, language, genre, era, chapter count, and any coherent premise, character, theme, or outline material. Do not invent a new story over a salvageable one.
 3. **Elevate, don't replace.** Deepen the premise into a great idea; sharpen each character's motivation and wound; tighten the outline so every chapter earns its place; raise the thematic stakes. A transform should make the epic *more* itself, not different.
 4. **Fix the metadata.** Update `Updated` and `Updated by`; keep `Created` unchanged.
@@ -107,5 +107,5 @@ When transforming an existing epic:
 - Do **not** create or modify `.space/pipeline/<bookname>/`.
 - Do **not** run filters, layout, research, or chapter writing.
 - Do **not** invent story content beyond what the great idea supports; derive every element from the idea.
-- In **Create Mode**, if `epic.md` already exists and no fresh gist was supplied, treat it as **Transform Mode** rather than overwriting blindly.
+- In **Create Mode**, if `storyline.md` or a legacy `epic.md` already exists and no fresh gist was supplied, treat it as **Transform Mode** rather than overwriting blindly.
 - Keep the file in Markdown only; do not add scripts, front-matter YAML, or wrapper files.

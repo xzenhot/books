@@ -62,7 +62,7 @@ NEW_CHAPTERS = [
 
 def add_chapters(bookname: str) -> None:
     BOOK = bookname
-    BACKLOG = os.path.join(ROOT, ".space", "backlog", "epic", BOOK)
+    BACKLOG = os.path.join(ROOT, ".space", "backlog", BOOK)
     PIPE = os.path.join(ROOT, ".space", "pipeline", BOOK)
 
     backlog_path = os.path.join(BACKLOG, "book.json")

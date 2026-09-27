@@ -28,7 +28,7 @@ If this skill conflicts with `.framework/workflows/pipeline.md`, prefer the work
 For novel story content, use the backlog epic:
 
 ```text
-.space/backlog/<bookname>/epic.md
+.space/backlog/<bookname>/storyline.md
 ```
 
 The epic is the narrative source of truth. The scaffold may summarize and structure it, but must not invent a different story.

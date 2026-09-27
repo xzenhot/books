@@ -81,7 +81,7 @@ Every chapter passes through an ordered chain of filters before it is finalized:
 
 | Path | Role |
 |------|------|
-| `.space/backlog/<book>/` | The backlog epic — `gist.md`, `epic.md`, `book.json` (the book plan). |
+| `.space/backlog/<book>/` | The backlog epic — `gist.md`, `storyline.md`, `book.json` (the book plan). |
 | `.space/pipeline/<book>/` | Working state — `model.json`, `bookseed.txt`, `progress.json`, `filters/`, `chapters/`. |
 | `source/books/<book>/<version>/` | Finished, versioned reader-facing output. |
 

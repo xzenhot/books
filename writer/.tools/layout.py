@@ -123,7 +123,7 @@ def scaffold(book_name: str, chapter_count: int, gist: str) -> None:
         "user_name": "novelist",
         "book_summary": gist if gist else "Provide a one-line summary of the book.",
         "gist": gist if gist else "Provide a one-line summary of the book.",
-        "epic_path": f".space/backlog/{book_name}/epic.md",
+        "epic_path": f".space/backlog/{book_name}/storyline.md",
         "filters": [
             {"order": i + 1, "name": name, "folder": f"filters/{folder}/", "purpose": purpose}
             for i, (folder, name, purpose) in enumerate(FILTERS)

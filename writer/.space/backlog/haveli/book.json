@@ -1,0 +1,139 @@
+{
+  "book_name": "haveli",
+  "book_long_title": "Havelis: The Painted Mansions of Shekhawati",
+  "generic": "historical-cultural poetry",
+  "era": "18th–21st century",
+  "language": "English",
+  "target_audience": "readers of Indian history, architectural heritage, Rajasthani culture, and the intersection of trade and art",
+  "chapter_count": 15,
+  "form": "poetry",
+  "book_summary": "A cycle of fifteen poems that traces the havelis of Shekhawati — the painted merchant mansions of Nawalgarh, Mandawa, and surrounding towns in Rajasthan — from their 18th-century origins in Marwari trade wealth to their contemporary fate as restored museums and heritage hotels. Each poem explores a different facet of the haveli: the merchant's ambition, the painter's hand, the women's courtyard, the migrant's departure, the competitive frescoes, the festival of Teej, the post-Independence decline, the ethics of restoration, and the descendant's return. Together they build a meditation on what wealth is for, what beauty costs, and what we owe to the past.",
+  "created_at": "2026-09-27",
+  "user_name": "pijush",
+  "gist": "The havelis of Rajasthan, especially those in Nawalgarh and Mandawa, are not only architectural marvels but also deeply significant in terms of history, economy, and social impact, representing the golden age of the Marwari merchant class whose frescoes blended tradition with modernity.",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "chapter_title": "The First Stone",
+      "chapter_summary": "The merchant lays the foundation of his haveli on a plot of land bought with profits from the indigo trade, and the first stone set in the earth becomes a promise that this structure will outlast the man who builds it. The poem captures the moment of ambition — the prayer whispered at the foundation, the measuring of the courtyard, the first vision of a wall that will one day hold gods and motorcars in the same frame of paint.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "chapter_title": "The Fresco of the Ramayana",
+      "chapter_summary": "Artisans from Udaipur arrive to cover the haveli's walls with scenes from the Ramayana, and the painter's hand renders Rama's exile, Sita's abduction, and Hanuman's leap in pigments ground from stone and leaf. The poem follows the artist's brush as it transforms lime plaster into narrative, making the epic a daily scripture for the merchant's children who will read the walls as others read books.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "chapter_title": "The Merchant's Ledger",
+      "chapter_summary": "The merchant counts his wealth by lamplight — gold mohurs, bills of exchange, shares in a Calcutta shipping firm — and the poem contrasts the dry numbers of the ledger with the vibrant life of the haveli rising around him. Every entry in the book is a wall yet to be built, a fresco yet to be painted, a courtyard yet to be filled with the noise of family and festival.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "chapter_title": "The Train in the Wall",
+      "chapter_summary": "A colonial-era fresco depicts a steam locomotive puffing across a landscape of camels and elephants, and the poem captures the moment when the modern world arrived in Shekhawati not as an invasion but as a wonder. The painter renders the train with the same reverence he gives to Indra's chariot, and the merchant's wall becomes a record of the future arriving in the past.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "chapter_title": "The Migrant's Departure",
+      "chapter_summary": "The merchant's son boards a train for Calcutta, leaving the haveli behind, and the poem is the empty courtyard, the mother's silence, the father's insistence that the boy will return. The train that appeared in the fresco becomes the vehicle of separation, and the haveli stands as a monument to a departure that was supposed to be temporary but became permanent.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "chapter_title": "The Women's Courtyard",
+      "chapter_summary": "Inside the havelis, the women's quarters hold their own world — the kitchen, the temple room, the swing in the inner courtyard — and the poem gives voice to the women whose names never appear on the walls but whose lives animated the inner chambers. Their laughter, their prayers, their quarrels, and their songs are the invisible frescoes of the haveli, painted in a pigment that leaves no trace but memory.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "chapter_title": "The Festival of Teej",
+      "chapter_summary": "During the monsoon festival, the haveli comes alive with music, dance, and the distribution of food to the village, and the poem captures the communal dimension of the mansion — how wealth was meant to circulate, not merely accumulate. The courtyard fills with neighbors, the temple room overflows with offerings, and the merchant's generosity becomes the mortar that binds the community together.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "chapter_title": "The Competition of Walls",
+      "chapter_summary": "Two neighboring merchants engage in a quiet war of frescoes, each trying to outdo the other in scale, color, and novelty — the elephant fresco answered by the motorcar, the motorcar by the airplane. The poem is a comedy of one-upmanship, a rivalry painted in pigment, where the haveli becomes an argument between neighbors about who has the deeper pocket and the keener eye for beauty.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 9,
+      "name": "9",
+      "word_target": 500,
+      "chapter_title": "The Decline",
+      "chapter_summary": "After Independence, as the Marwari families migrate to Bombay and Delhi, the havelis stand empty — rain seeps through the roof, frescoes peel, the courtyard fills with dust. The poem is an elegy for the abandoned mansion, the merchant's dream left to the mercy of weather, the painted gods fading under monsoon water, the swing in the women's courtyard creaking in the wind with no one to push it.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 10,
+      "name": "10",
+      "word_target": 500,
+      "chapter_title": "The Ghost Market",
+      "chapter_summary": "In the bazaars below the havelis, merchants still trade — in spices, in cloth, in mobile phones — and the poem contrasts the living commerce of the present with the frozen commerce of the frescoes. The same instinct that sent camel caravans to Delhi now sends trucks to Jaipur, and the spirit of trade survives even as the traders themselves have departed for the cities.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 11,
+      "name": "11",
+      "word_target": 500,
+      "chapter_title": "The Restorer's Hand",
+      "chapter_summary": "A heritage conservationist begins the painstaking work of restoring a haveli — cleaning frescoes, reinforcing beams, reopening choked drains — and the poem is about the ethics of restoration. How much to repair, how much to leave as evidence of time: every cleaned surface reveals the original painter's hand but erases the patina of the decades that followed.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 12,
+      "name": "12",
+      "word_target": 500,
+      "chapter_title": "The Museum Haveli",
+      "chapter_summary": "One haveli is converted into a museum; another becomes a heritage hotel, and the poem explores the transformation from lived space to exhibited space. The bedrooms become galleries, the dining hall becomes a restaurant, the courtyard becomes a photo opportunity — and the haveli survives by becoming a version of itself that its builders would barely recognize.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 13,
+      "name": "13",
+      "word_target": 500,
+      "chapter_title": "The Descendant's Return",
+      "chapter_summary": "A great-great-grandson of the original merchant returns to Shekhawati after fifty years in Mumbai, and he walks the corridors with a mixture of pride and guilt, touching the walls his ancestor built. The frescoes his family paid for are fading, the courtyard his great-grandmother swept is cracked, and he must decide whether to restore or to let the haveli return to the earth from which it came.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 14,
+      "name": "14",
+      "word_target": 500,
+      "chapter_title": "The Artisan's Grandson",
+      "chapter_summary": "The grandson of the original painter still lives in the village, his family's skill passed down but with no walls left to paint, and the poem gives voice to the artisan's lament. The pigment recipes are still in his memory, the brush techniques still in his hand, but the patrons have departed for the cities and the havelis stand empty — the skill without the patron, the tradition without the commission.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 15,
+      "name": "15",
+      "word_target": 500,
+      "chapter_title": "The Living Wall",
+      "chapter_summary": "The final poem returns to the haveli as it stands today — partly restored, partly ruined, visited by tourists and scholars, photographed for magazines, yet still somehow inhabited by the ghost of the merchant's ambition. The poem asks whether a haveli is ever truly finished, or whether it is always being built, always being painted, always being argued over by the living and the dead — and answers that the wall endures because the argument endures.",
+      "further_references": []
+    }
+  ],
+  "all_characters": [],
+  "filter_chain": ["workshop", "research", "correctness", "theme", "syntax", "override", "quality"],
+  "word_target": 500
+}

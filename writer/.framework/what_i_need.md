@@ -13,9 +13,9 @@ This is the *idea* stage. Nothing is written yet — you are only deciding what 
    - the **type** — **Novel** (prose) or **Poetry** (verse)
    - the **chapter count** — how many chapters / poems
 4. The system watches the files: if you **edit the gist by hand**, it notices.
-5. When the gist changes → the system writes a detailed story outline called **`epic.md`**.
-6. When `epic.md` changes → the system writes a chapter plan called **`book.json`**.
-7. `book.json` is the **complete blueprint** of the book, built from `epic.md` + the chapter count.
+5. When the gist changes → the system writes a detailed story outline called **`storyline.md`**.
+6. When `storyline.md` changes → the system writes a chapter plan called **`book.json`**.
+7. `book.json` is the **complete blueprint** of the book, built from `storyline.md` + the chapter count.
 8. `book.json` must follow the example schema at **`.framework/templates/book.json`**.
 9. Each chapter's `chapter_summary` must carry **enough context** to guide writing it later.
 10. Word target per piece:

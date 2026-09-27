@@ -26,7 +26,7 @@ A seed is the first filter in the chain. It runs *before* research and workshop,
 ## Your Task
 
 1. Read `characters.json` for the full roster.
-2. Read the epic at `.space/backlog/<bookname>/epic.md` — the single source of truth for the story.
+2. Read the epic at `.space/backlog/<bookname>/storyline.md` — the single source of truth for the story.
 3. Read `book.json` for the chapter list and summaries.
 4. Read the chapter model at `.space/pipeline/<bookname>/chapters/<n>/chapter.json` for the current state.
 5. Read the chapter's mood at `.space/pipeline/<bookname>/chapters/<n>/mood.json` — the mood shapes the seed text.

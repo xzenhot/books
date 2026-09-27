@@ -12,7 +12,7 @@ USAGE
 
 VERBS
 -----
-    init      Create backlog artifacts (gist.md, epic.md, book.json) then
+    init      Create backlog artifacts (gist.md, storyline.md, book.json) then
               generate book.json layout via Ollama.
 
               python .tools/book.py <bookname> init ["seed text"] [novel|poetry]
@@ -24,8 +24,8 @@ VERBS
 
               python .tools/book.py <bookname> build 20 novel
 
-    layout    Regenerate book.json from an existing epic.md via Ollama.
-              Does not touch gist.md or epic.md.
+    layout    Regenerate book.json from an existing storyline.md via Ollama.
+              Does not touch gist.md or storyline.md.
 
               python .tools/book.py <bookname> layout [novel|poetry]
 
@@ -87,7 +87,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent          # .tools/
 REPO_ROOT = BASE_DIR.parent                          # repo root
-EPIC_ROOT = REPO_ROOT / ".space" / "backlog" / "epic"
+BACKLOG_ROOT = REPO_ROOT / ".space" / "backlog"
 BOOK_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "book.json"
 
 # ---------------------------------------------------------------------------
@@ -136,7 +136,7 @@ LAYOUT_SYSTEM_PROMPT = (
 
 EPIC_SYSTEM_PROMPT = (
     "You are the founding author and narrative architect for a Bengali literary book.\n"
-    "You expand a short seed (gist) into the book's epic.md — the narrative source of truth\n"
+    "You expand a short seed (gist) into the book's storyline.md — the narrative source of truth\n"
     "that later guides chapter writing, filtering, and editing.\n\n"
     "CONTRACT:\n"
     "- Write entirely in fluent, literary Bengali (বাংলা).\n"
@@ -315,7 +315,7 @@ def make_epic(
     chapters: list[dict[str, object]],
     now: str,
 ) -> str:
-    """Render a Bengali epic.md from the backlog plan.
+    """Render a Bengali storyline.md from the backlog plan.
 
     The epic is the narrative source of truth for the book.  This function
     produces the initial scaffold version; human editing or Ollama can
@@ -326,7 +326,7 @@ def make_epic(
         f"# {make_title(bookname, form)}",
         "",
         f"- **Book name:** {bookname}",
-        f"- **Epic path:** .space/backlog/{bookname}/epic.md",
+        f"- **Storyline path:** .space/backlog/{bookname}/storyline.md",
         f"- **Created:** {now}",
         f"- **Updated:** {now}",
         "- **Updated by:** book.py",
@@ -383,7 +383,7 @@ def _epic_header(
     chapters: list[dict[str, object]],
     now: str,
 ) -> str:
-    """Build the deterministic metadata header for an epic.md file.
+    """Build the deterministic metadata header for an storyline.md file.
 
     This block carries the fields the pipeline parses (form, chapter count,
     gist, language) and must precede any Ollama-enriched narrative body.
@@ -393,7 +393,7 @@ def _epic_header(
         f"# {make_title(bookname, form)}",
         "",
         f"- **Book name:** {bookname}",
-        f"- **Epic path:** .space/backlog/{bookname}/epic.md",
+        f"- **Storyline path:** .space/backlog/{bookname}/storyline.md",
         f"- **Created:** {now}",
         f"- **Updated:** {now}",
         "- **Updated by:** book.py",
@@ -459,7 +459,7 @@ def generate_epic(
     chapters: list[dict[str, object]],
     now: str,
 ) -> str:
-    """Enrich the gist into a full epic.md via Ollama, falling back to the scaffold.
+    """Enrich the gist into a full storyline.md via Ollama, falling back to the scaffold.
 
     Calls Ollama with the epic prompt; on success, prepends the deterministic
     metadata header to the model's narrative body.  On any network/parse error
@@ -781,11 +781,11 @@ def _generate_layout_batched(
         "target_audience": "বাংলা সাহিত্য ও মননশীল পাঠের পাঠক",
         "chapter_count": chapter_count,
         "form": form,
-        "book_summary": "Generated via batched layout — update from epic.md",
+        "book_summary": "Generated via batched layout — update from storyline.md",
         "created_at": now,
         "updated_at": now,
         "user_name": "pijush",
-        "gist": "Generated via batched layout — update from epic.md",
+        "gist": "Generated via batched layout — update from storyline.md",
         "chapters": chapters,
         "all_characters": [],
         "filter_chain": FILTER_CHAIN_POETRY if form == "poetry" else FILTER_CHAIN_NOVEL,
@@ -841,21 +841,24 @@ def generate_layout(
     form: str | None = None,
     chapter_count: int | None = None,
 ) -> None:
-    """Generate (or regenerate) book.json from epic.md using the local Ollama model.
+    """Generate (or regenerate) book.json from storyline.md using the local Ollama model.
 
-    epic.md is the source of truth: its chapter structure is expanded into the
+    storyline.md is the source of truth: its chapter structure is expanded into the
     complete book.json plan.  When *chapter_count* exceeds OLLAMA_BATCH_SIZE the
     chapters are generated in batches of 10 with a completeness loop so the
     resulting book.json is always complete.  The plan is validated before it
     overwrites book.json, so a failed generation never clobbers an existing plan.
 
     Args:
-        book_dir:      Path to the backlog epic folder for this book.
+        book_dir:      Path to the backlog folder for this book.
         bookname:      Validated book name string.
-        form:          'novel' or 'poetry'. Inferred from epic.md if None.
+        form:          'novel' or 'poetry'. Inferred from storyline.md if None.
         chapter_count: Target chapter count. If None, read from the existing book.json.
     """
-    epic_file = book_dir / "epic.md"
+    epic_file = book_dir / "storyline.md"
+    legacy_epic_file = book_dir / "epic.md"
+    if not epic_file.exists() and legacy_epic_file.exists():
+        epic_file = legacy_epic_file
     if not epic_file.exists():
         raise FileNotFoundError(
             f"Epic not found: {epic_file}\n"
@@ -933,9 +936,9 @@ def rewrite_gist_idea(bookname: str) -> None:
 
     Reads the existing gist.md one-liner (or the book name if gist.md is absent),
     asks Ollama for a stronger single-sentence premise plus a short expansion,
-    and writes both back to gist.md. It does not touch epic.md or book.json.
+    and writes both back to gist.md. It does not touch storyline.md or book.json.
     """
-    book_dir = EPIC_ROOT / validate_bookname(bookname)
+    book_dir = BACKLOG_ROOT / validate_bookname(bookname)
     book_dir.mkdir(parents=True, exist_ok=True)
     gist_file = book_dir / "gist.md"
 
@@ -975,7 +978,7 @@ def rewrite_gist_idea(bookname: str) -> None:
     print(f"Gist rewritten → {gist_file}")
     print(f"  gist: {gist}")
     print(f"  expansion: {expansion or '(none)'}")
-    print("  Note: epic.md and book.json are unchanged; re-run init to re-derive them.")
+    print("  Note: storyline.md and book.json are unchanged; re-run init to re-derive them.")
 
 
 def create_backlog(
@@ -989,7 +992,7 @@ def create_backlog(
 
     Artifacts created/updated:
         gist.md   — one-line seed (only written if missing or *refresh* is True)
-        epic.md   — full narrative foundation (always written)
+        storyline.md   — full narrative foundation (always written)
         book.json — chapter layout plan (always written)
 
     Args:
@@ -999,11 +1002,14 @@ def create_backlog(
         refresh:       When True, overwrites an existing gist.md.
         chapter_count: Optional explicit chapter count override.
     """
-    book_dir = EPIC_ROOT / validate_bookname(bookname)
+    book_dir = BACKLOG_ROOT / validate_bookname(bookname)
     book_dir.mkdir(parents=True, exist_ok=True)
 
     gist_file = book_dir / "gist.md"
-    epic_file = book_dir / "epic.md"
+    epic_file = book_dir / "storyline.md"
+    legacy_epic_file = book_dir / "epic.md"
+    if not epic_file.exists() and legacy_epic_file.exists():
+        legacy_epic_file.replace(epic_file)
     book_file = book_dir / "book.json"
 
     seed = read_seed(book_dir)
@@ -1031,7 +1037,7 @@ def create_backlog(
 
     print(f"Backlog created → {book_dir}")
     print(f"  gist.md  : {gist_file}")
-    print(f"  epic.md  : {epic_file}")
+    print(f"  storyline.md  : {epic_file}")
     print(f"  book.json: {book_file}")
     print(f"  form: {form} | chapters: {len(chapters)} | refreshed: {refresh}")
 
@@ -1056,7 +1062,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     Raises FileExistsError  if the pipeline already exists (avoid silent re-scaffold).
     Raises ValueError        if the book.json does not match the requested novel form.
     """
-    book_dir = EPIC_ROOT / bookname
+    book_dir = BACKLOG_ROOT / bookname
     plan_file = book_dir / "book.json"
     if not plan_file.exists():
         raise FileNotFoundError(
@@ -1396,7 +1402,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--gist",
         metavar="TEXT",
-        help="Explicit seed text for gist.md and epic.md (alternative to positional argument).",
+        help="Explicit seed text for gist.md and storyline.md (alternative to positional argument).",
     )
     parser.add_argument(
         "-t", "--type",
@@ -1413,7 +1419,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--layout",
         action="store_true",
-        help="Regenerate book.json from epic.md via Ollama after backlog creation.",
+        help="Regenerate book.json from storyline.md via Ollama after backlog creation.",
     )
     return parser
 
@@ -1494,7 +1500,7 @@ def main() -> int:
 
     try:
         bookname = validate_bookname(args.bookname)
-        book_dir = EPIC_ROOT / bookname
+        book_dir = BACKLOG_ROOT / bookname
 
         # Treat 'refresh' as a modifier flag regardless of which positional
         # slot it lands in (objective, option, range, or extra).
@@ -1529,7 +1535,7 @@ def main() -> int:
             )
             create_backlog(bookname, resolved_gist, resolved_form, refresh=args.refresh)
             # Layout is a separate, best-effort task: a failure here must not
-            # mask the backlog artifacts (epic.md/book.json) already written.
+            # mask the backlog artifacts (storyline.md/book.json) already written.
             try:
                 generate_layout(book_dir, bookname, resolved_form)
             except (RuntimeError, ValueError, FileNotFoundError) as exc:

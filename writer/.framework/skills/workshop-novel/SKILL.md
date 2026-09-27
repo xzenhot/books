@@ -16,7 +16,7 @@ Read, in order:
 2. The matching chapter model (the only per-chapter input):
    - .space/pipeline/<bookname>/chapters/<n>/chapter.json
 3. The novel backlog source:
-   - .space/backlog/<bookname>/epic.md
+   - .space/backlog/<bookname>/storyline.md
    - .space/backlog/<bookname>/gist.md
 4. Any available upstream research and seed files in the pipeline.
 

@@ -24,7 +24,7 @@ writer/
 │   ├── rules/               # shared rules
 │   └── templates/           # stereotypes (novel/, poetry/), styles/, moods/, subjects/
 ├── .space/                  # inputs & working state
-│   ├── backlog/<book>/     # gist.md, epic.md, book.json (the book plan)
+│   ├── backlog/<book>/     # gist.md, storyline.md, book.json (the book plan)
 │   └── pipeline/<book>/     # model.json, bookseed.txt, progress.json, filters/, chapters/
 ├── source/books/<book>/     # finished, versioned output
 ├── AGENTS.md                # runtime steering for autonomous coding agents
@@ -58,7 +58,7 @@ writer/
 ### The lifecycle
 
 ```text
-/book <bookname> <gist>   →  backlog epic (gist.md, epic.md)
+/book <bookname> <gist>   →  backlog epic (gist.md, storyline.md)
 /book <bookname> init     →  book.json (chapter plan + filter chain)
 /book <bookname> scaffold →  .space/pipeline/<bookname>/ (structure)
 /book <bookname> filter * →  run the filter chain (or enrich)
@@ -74,7 +74,7 @@ A book is either **poetry** (verse) or **novel** (prose), declared in the pipeli
 
 | Signal | Poetry | Novel |
 |--------|--------|-------|
-| Source of truth | `model.json` + `bookseed.txt` | `epic.md` |
+| Source of truth | `model.json` + `bookseed.txt` | `storyline.md` |
 | Chapter structure | flat, continuous poetic prose | flat, continuous prose |
 | Segments per chapter | exactly one (`segments/1`) | many |
 | Word target | 500–800 | 5,500+ |
@@ -141,7 +141,7 @@ Skills are invoked **only through an agent** — never directly. Form-specific l
 
 | Path | Role |
 |------|------|
-| `.space/backlog/<book>/` | `gist.md`, `epic.md`, `book.json` (the book plan) |
+| `.space/backlog/<book>/` | `gist.md`, `storyline.md`, `book.json` (the book plan) |
 | `.space/pipeline/<book>/` | `model.json`, `bookseed.txt`, `progress.json`, `filters/`, `chapters/` |
 | `.space/pipeline/<book>/chapters/<n>/` | `chapter.md` (live draft), `model.json`, `history/`, `segments/1/{writer,editor,translator}/` |
 | `source/books/<book>/<version>/` | finished, versioned reader-facing output |
