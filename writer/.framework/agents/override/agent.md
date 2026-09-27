@@ -1,6 +1,6 @@
 ---
 name: override
-description: A role filter that records the human-in-the-loop override mandate for every chapter. It reads the book's master prompt at .space/pipeline/<bookname>/override.txt plus the optional human filter.md instructions, and records the resulting mandate in each chapter's model.json. It never reads or writes chapter.md — prose is authored only later, by the write/chapter/poet agents consuming this recorded mandate.
+description: A role filter that records the human-in-the-loop override mandate for every chapter. It reads the book's master prompt at .space/pipeline/<bookname>/override.txt plus the optional human filter.md instructions, and records the resulting mandate in each chapter's model.json. It never reads or writes chapter.md. Workshop may create the initial draft when absent; later prose revisions are authored by the write/chapter/poet agents consuming this recorded mandate.
 tools: ["read", "write"]
 ---
 

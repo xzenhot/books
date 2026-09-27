@@ -35,8 +35,8 @@ For every `/book [args...]` request, follow this procedure:
 ### Backlog creation — owned by `backlog.md`
 
 ```text
-/book <bookname> [<gist>] [form] [refresh]
-/book <bookname> init|backlog|layout [<gist>] [<count>] [form] [refresh]
+/book <bookname> init [<gist>] [form] [refresh]      # gist.md only; refresh → full bootstrap
+/book <bookname> layout [<count>] [form]              # rewrite storyline.md from gist + materials, then derive book.json
 /book <bookname> init idea
 ```
 
@@ -69,8 +69,9 @@ For every `/book [args...]` request, follow this procedure:
 
 | Command | Family | Owning workflow | What it does |
 |---------|--------|-----------------|--------------|
-| `<bookname>` (bare) | Backlog | `backlog.md` | Create/update the backlog epic and its seed gist. No pipeline. |
-| `<bookname> init` / `backlog` / `layout` | Backlog | `backlog.md` | Configure the backlog book plan and derive the ordered filter chain. |
+| `<bookname>` (bare) | Backlog | `backlog.md` | Same as `init` — create/edit `gist.md`. No pipeline. |
+| `<bookname> init` / `backlog` | Backlog | `backlog.md` | Create/edit **`gist.md` only** (no `storyline.md`/`book.json`). With `refresh`, full bootstrap: `gist.md` + `storyline.md` + `book.json`, grounded in `materials/`. |
+| `<bookname> layout [<count>] [<form>]` | Backlog | `backlog.md` | Rewrite `storyline.md` from `gist.md` + `materials/`, then derive `book.json`. |
 | `<bookname> init idea` | Backlog | `backlog.md` | Rewrite the gist with AI assistance. |
 | `<bookname> scaffold` | Pipeline | `pipeline.md` | Build/repair the pipeline tree from the backlog book plan. |
 | `<bookname> add ... filter` | Pipeline | `pipeline.md` | Add chapters and run one filter on the new chapters. |

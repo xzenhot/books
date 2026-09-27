@@ -343,7 +343,7 @@ Do not write unfinished drafts directly to `source/books/`.
 
 ### Chapter Draft Ownership
 
-`chapters/<n>/chapter.md` is output-only. It is authored exclusively by the write/chapter/poet path (the `/book write` and `/book poet` commands); filters never read it as input. Filters (workshop, research, correctness, theme, syntax, override, quality) and the enrich fusion agent operate only on the chapter's `model.json` and their own `filters/<filter>/` outputs, recording guidance and state into `model.json`. Before a filter modifies a chapter's model, snapshot the prior `model.json` into `chapters/<chapter>/history/` with a timestamped filename. The default transformer style for the write command is `pijush` unless a `<style>` argument is supplied.
+`chapters/<n>/chapter.md` is the live draft. The workshop filter may create an initial draft only when the file is absent; it never reads or overwrites an existing draft. The write/chapter/poet path may later revise it under the version-before-overwrite contract. All other filters and the enrich fusion agent must not read or write `chapter.md`; they operate on the chapter's `model.json` and their own `filters/<filter>/` outputs. Before a filter modifies a chapter's model, snapshot the prior `model.json` into `chapters/<chapter>/history/` with a timestamped filename. The default transformer style for the write command is `pijush` unless a `<style>` argument is supplied.
 
 ### Filter Outputs
 
@@ -417,7 +417,7 @@ For every `/book` request:
 4. Inspect the relevant `.space/backlog/`, `.space/pipeline/`, and `source/books/` paths before writing.
 5. Select the responsible agent from `.framework/agents/`.
 6. Let that agent invoke any required skill.
-7. Write intermediate outputs only to the pipeline; filters never read or write `chapters/<n>/chapter.md`.
+7. Write intermediate outputs only to the pipeline; workshop may create an initial `chapters/<n>/chapter.md` only if absent. Other filters never read or write that file.
 8. Run the required filters and validations.
 9. Promote final text to `source/books/` only after validation passes.
 10. Report what changed, what was validated, and what remains pending.

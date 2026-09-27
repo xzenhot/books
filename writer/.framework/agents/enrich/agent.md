@@ -46,7 +46,7 @@ Read each active filter's `agent.md`. Extract its **task, method, and rules** â€
 
 - **Order matters.** The combined agent applies the filters in `order` sequence, each feeding the next.
 - **One pass.** The combined agent reads the chapter's `model.json` once, applies every active filter's guidance in sequence, and writes the result once.
-- **No per-filter files.** The combined agent does not write `content-input.md`, `content-output.md`, or per-filter summaries. It writes only the enrichment record in `model.json` â€” never prose to `chapter.md` (an output-only file owned by the writing path).
+- **No per-filter files.** The combined agent does not write `content-input.md`, `content-output.md`, or per-filter summaries. It writes only the enrichment record in `model.json` and never reads or writes `chapter.md`; workshop alone may create that draft when it is absent, and writing agents own later revisions.
 
 The combined agent's contract is:
 

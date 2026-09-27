@@ -7,59 +7,60 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "The architectural function of the jharokha in Rajasthani domestic life beyond mere viewing points.",
+      "reference": "Rajasthani domestic architecture and ventilation shafts",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "Symbolism of confinement and observation windows in pre-modern Indian poetry and miniature painting.",
-      "weblink": ""
-    },
-    {
-      "no": "3",
-      "reference": "The technical process of creating stained or colored glass elements within traditional haveli lattice work (jaali).",
+      "reference": "Symbolism of lattices (jali) in Indian art and culture",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Treating the jharokha as a series of sequential, failed portraits: each slat is a missed opportunity for connection, making 'seeing' an act of professional failure.",
-      "Focusing on sound transmission *through* the lattice: what distant sounds (a specific vendor’s cry, a unique animal call) are perfectly filtered or unnaturally amplified by the design?",
-      "Adopting the perspective of the decorative element itself—the ironwork, carved stone, or wood inlay—lamenting its fixed purpose and inability to participate in the dramas unfolding beyond it."
+      "Viewing the Jharokha not as a window for viewing, but as an *echo chamber*—a place where sounds from outside are trapped, multiplied, and distorted before reaching the observer.",
+      "Focusing on the material history of the lattice itself: tracing the family wealth through the cost, rarity, and craftsmanship of the carving wood or stone (the economic indicator).",
+      "Treating it as a site of surveillance: contrasting its aesthetic function with its literal capability to monitor domestic life from a slight elevation."
     ],
     "story_options": [
-      "Setting: A specific jharokha at midday; Desire: To watch one person repeatedly attempting to catch another's eye across the street without acknowledging them directly (a near-miss sequence); Obstacle: The architectural placement forcing extreme, awkward angles of vision; Turn: They finally communicate via a single, shared object passed between windows.",
-      "Setting: A jharokha overlooking a public fairground; Desire: To witness a moment where the rules of 'seeing' break down—where observation becomes accidental voyeurism or necessary intervention; Obstacle: The crowd density becoming so thick that the window offers no clear view whatsoever; Turn: The focus shifts entirely to the reflections in the polished stone latticework, showing fractured versions of everything.",
-      "Setting: A jharokha during a predicted monsoon storm; Desire: To feel the building shake slightly under the pressure of the elements outside; Obstacle: The lattice structure is revealed to be severely damaged or partially missing patches from years of neglect; Turn: The narrative becomes about *withstanding* the world, rather than observing it."
+      "Setting: The Jharokha at dawn, during the monsoon’s first fat drops; Desire: For the moisture on the lattice to momentarily obscure the view of a neighboring haveli, revealing only diffused color and shadow as a temporary privacy.",
+      "Setting: A Jharokha overlooking a street scene dominated by women fetching water in brass pots; Desire: To write an internal monologue from the person watching who realizes that every perfect reflection on the glass/stone is actually showing *her* own face, distorted by expectation or regret.",
+      "Setting: During a late-evening festival when gas lamps cast unnatural pools of orange light on the carved latticework; Desire: The observer catches sight of not one ghost, but multiple overlapping reflections—a memory projected onto the material that shouldn't be there."
     ],
     "subject_rotations": [
-      "Analyzing the jharokha through the lens of gender roles—is its function inherently limited by expectation, no matter how grand its craftsmanship?",
-      "Treating the lattice not as ornamental but as a sophisticated early form of 'data filtering' or communication interception.",
-      "A structure revolving around echoes: repeating phrases, whispers, and visual patterns that bounce off the intricate woodwork multiple times."
+      "Shifting focus from the *viewing* to the *act of being seen*: What are the patterns on the lattice specifically designed to hide or reveal about the wearer/watcher?",
+      "The window as a metaphorical boundary between the public spectacle (street) and private selfhood, treating it as an active participant in that division.",
+      "A deep dive into the mechanics: How was the Jharokha structurally supported in historical practice, blending engineering skill with artistic carving?"
     ],
     "sensory_details": [
-      "The fine, almost imperceptible grit of pollen caught deep within the carved crevices of the stone tracery.",
-      "The cool, smooth vibration felt through the ironwork when a heavy cart passes too close to the base structure.",
-      "The specific, faint scent of dried jasmine clinging stubbornly to the shaded underside beams."
+      "Sight: The way afternoon sunlight cuts through the lattice gaps at precise, geometric angles, creating temporary bars of stark light and shadow on the polished floor.",
+      "Sound: The specific, rhythmic *tink-thwack* sound made by a vendor's metal cart wheels scraping against uneven cobbles visible just beyond the screen.",
+      "Smell: A complex layering of scents—overripe mangoes baking in the sun mixed with the sharp, earthy scent of wet cow dung used for plastering."
     ],
     "research_questions": [
-      "Were jharokhas ever used as surveillance points by local authorities or merchant guilds?",
-      "What were the typical decorative motifs found in ironwork latticework that specifically addressed concepts of duality (e.g., open/closed, inside/outside)?",
-      "How did the light quality change across different times of day when passing through a deeply patterned jaali screen?"
+      "What were the specific social protocols regarding which gender or caste group was permitted to view street life from a Jharokha?",
+      "How did changes in window materials (e.g., carved stone vs. painted wood) reflect periods of economic prosperity or decline for the family?",
+      "Are there documented instances where lattice work incorporated pictorial narrative elements, rather than just geometric patterns?"
     ],
     "structural_variants": [
-      "A poem built entirely on nested observations: A view from the jharokha -> The reflection in that view -> The memory associated with seeing that reflection.",
-      "Using an 'inventory' structure, listing visible objects sequentially as if cataloging everything glimpsed through a narrow slit over a long period."
+      "A poem structured as a series of paired antitheses: 'What I See' vs. 'What I Am Hiding From'.",
+      "An immersive piece that alternates sharply between the internal monologue (the watcher) and an objective description of the street life passing by, creating perceptual dissonance.",
+      "A canto written entirely using adjectival phrases, building a single, sustained image from micro-observations trapped in the light."
     ],
     "unused_angles": [
-      "Exploring the contrast between the *perceived* freedom of viewing and the actual limitation imposed by material reality (stone/wood)",
-      "The concept of 'borrowed scenery'—how much of what is seen outside is merely an extension or decoration for the life inside?"
+      "The Jharokha as a point of potential escape—a structural weakness or overhang that could be climbed upon during times of civil unrest.",
+      "Exploring the concept of 'inherited view': The current occupant is forced to look at views painted onto later walls by previous generations who lived behind this same window."
     ],
-    "variety_note": "While neighbouring chapters dealt with grand, overwhelming public scenes (festivals, battles), this chapter focuses intensely on mediated vision and domestic restriction."
+    "variety_note": "This chapter shifts focus from grand public murals (like temple or battle scenes) to an intimate architectural feature, turning art into a device of constrained perception and domestic surveillance. It moves inward toward the private self within the family structure."
+  },
+  "draft": {
+    "sha256": "509f6ba2c5abe1a8a6b7710a0f4fd10d00baa1944e71cf7fb866784761cac3b6",
+    "written_at": "2026-09-27T17:02:16.969341+00:00",
+    "origin": "write"
   }
 }

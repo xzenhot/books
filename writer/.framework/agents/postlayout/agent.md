@@ -75,4 +75,4 @@ Return:
 - Do **not** write to `source/books/`.
 - Do **not** update `progress.json`.
 - The output file is `.space/pipeline/<bookname>/override.txt` — distinct from the novel-only `masterprompt.md` planning artifact and from the backlog `override.txt`.
-- This agent does **not** write `chapter.md` or any chapter content. `chapter.md` is authored only by the write/chapter/poet path; the workshop filter and all other filters record guidance in `model.json` only, never by postlayout.
+- This agent does **not** write `chapter.md` or any chapter content. The workshop filter may create the initial draft only when `chapter.md` is absent; later revisions belong to the write/chapter/poet path. Other filters record guidance in `model.json` and their own outputs only.

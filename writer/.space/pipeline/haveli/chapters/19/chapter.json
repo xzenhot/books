@@ -7,59 +7,60 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "Local deity worship practices in Shekhawati",
+      "reference": "Hindu temple architecture in Rajasthan: specific iconography of household shrines (mandirs)",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "The role of material wealth (gold, gems) within religious ritual art",
-      "weblink": ""
-    },
-    {
-      "no": "3",
-      "reference": "Syncretism between Hindu traditions and local/folk spiritual beliefs in Rajasthan",
+      "reference": "The cultural intersection of wealth display and religious devotion in Rajput/Marwari households",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Framing the deity itself as a commodity: how are the idols not merely sacred objects, but investments whose perceived worth dictates the household's status?",
-      "The negotiation between private faith and public display: mapping specific rituals that *must* be visible (for guests) versus those kept strictly secret within the room.",
-      "A comparative meditation on devotional practices across different social classes—the lavish offering vs. the simple, necessity-based prayer."
+      "Treating the deities not as divine figures, but as highly valued *possession*—objects whose lineage and material value are paralleled to Gangaram's accumulated wealth.",
+      "Focusing on the required upkeep ritual: The endless nature of purification, cleaning, painting, and re-dressing the idols, linking this maintenance labor directly to the household’s ongoing economic necessity.",
+      "The narrative device of 'misremembered scripture': Using fragmented verses or misunderstood epics recited in the shrine that twist sacred meaning into domestic gossip or veiled critique."
     ],
     "story_options": [
-      "Setting: The shrine room at dawn, Desire: To witness a young boy preparing offerings for an idol that has been recently renovated with imported materials; Obstacle: A clash between the pure, local belief system of the family and the newly acquired foreign ritual item.",
-      "Setting: After a major festival celebration (e.g., Diwali), Desire: To find one object left behind—a single discarded garland strand, an imperfect smudge on the altar stone—that tells a story of devotion in its decay; Obstacle: The overwhelming scent of old camphor and dust obscuring all details.",
-      "Setting: A private corner meant for family worship only (away from public view), Desire: To eavesdrop or observe a moment where the ritual fails or is interrupted by mundane domestic argument, stripping away the grandeur; Obstacle: The inherent need to maintain an image of piety before the adjacent room."
+      "Setting: The dimly lit temple room after a major festival; Desire: To find evidence that the idols were subtly *adjusted* overnight—a misplaced garland, a slightly different pot of vermilion—suggesting human interference rather than divine mystery.",
+      "Setting: A monsoon day where heavy dust forces all activity inside the shrine; Obstacle: The accumulated smoke and humidity cause specific pigments on the deities' robes or mounts to begin visibly flaking off, revealing what lies beneath (perhaps an older, different style).",
+      "Setting: Early morning, before any paying priest arrives; Turn: A young woman, tasked with preparing offerings, discovers a foreign object left among the ritual implements—a modern coin, a piece of unfamiliar metal, or non-local scent."
     ],
     "subject_rotations": [
-      "Treating the 'gods' not as divine figures but as mirrors reflecting the family's own anxieties about status and mortality.",
-      "Structuring the poem around the *act* of purification: specific materials used (ash, neem leaves, scented oils) and what they seek to cleanse beyond just sin.",
-      "Exploring the iconography through an anthropological lens: detailing motifs that represent prosperity (like elephants or Lakshmi) versus those representing protection (like guardians or shields)."
+      "The material anthropology of devotion: Analyzing the specific metals used for idols (brass vs. silver plating) and how their perceived value dictated social standing.",
+      "Prayer as business negotiation: Imagining patrons or merchants using the temple space not strictly for worship, but to meet clients under a veneer of piety—a transaction disguised by ritual smoke.",
+      "The visual cataloguing of sacred items: Treating the paraphernalia (lamps, bells, silks) like an inventory list that chronicles the family’s spending power rather than their spiritual faith."
     ],
     "sensory_details": [
-      "The abrasive sound of old, dry puja paraphernalia—the clatter of brass weights or discarded cotton wicks.",
-      "The specific mix of three competing incense scents: sandalwood, vetiver, and something sharp and metallic (like raw iron).",
-      "The gritty film of undisturbed ghee residue on the base of the idols, suggesting years without ritual attention."
+      "Sight: The specific way beeswax candles melt unevenly across intricately carved stone bases, pooling wax onto colored marble.",
+      "Sound: The dry, high-pitched *clink* of multiple sets of brass keys—for temple doors, storage closets, and personal idols—being jangled together impatiently.",
+      "Smell: A clashing aroma: the heavy, sweet decay of sacrificial flowers mixed with the sharp, metallic tang of old incense resins like frankincense or camphor."
     ],
     "research_questions": [
-      "What were the mandatory elements or associated rituals for consecrating a new deity idol in a merchant's home versus a traditional family dwelling?",
-      "How did the acquisition of specific types of religious art (e.g., Tanjore painting style vs. local fresco) correlate with the economic peak of a particular Marwari house?"
+      "What were common household materials (local stones, paints) used for decorative altar elements versus consecrated religious art? Were there specific regional differences in temple ornamentation that betray trade links?",
+      "How did the practice of commissioning iconography change in direct response to periods of economic boom or collapse in Shekhawati's trading history?"
     ],
     "structural_variants": [
-      "A dialogue structure: alternating lines between an objective description of the shrine's contents and an internal monologue questioning the purpose of those objects.",
-      "An object catalogue/appraisal poem: listing sacred items by perceived monetary value, only to deflate that value with a final, emotionally resonant detail about their use."
+      "Structuring the poem as a liturgical cycle, where each section mirrors a part of an actual Hindu rite (e.g., purification $\rightarrow$ invocation $\rightarrow$ offering $\rightarrow$ benediction).",
+      "Using direct address to the silent gods: Speaking *through* their painted forms to uncover hidden narratives about human failing or eternal continuity.",
+      "A collage structure, juxtaposing descriptions of lavish ritual goods with stark, utilitarian details of actual domestic necessity (e.g., a single broken water pot next to gold-leaf filigree)."
     ],
     "unused_angles": [
-      "The idea of ritual 'debt': paying for divine favor through material goods, creating a debt structure between the living and the unseen.",
-      "Examining how the placement of the shrine physically dictates room traffic flow throughout the haveli.",
-      "Focusing on the *tools* (the small brass trays, the matchboxes) rather than the displayed objects."
+      "The symbolism of the *absence* of certain deities—why are some gods represented in these specific mansions while others are omitted entirely?",
+      "A character portrait focusing on the aging, specialized ritual attendant whose knowledge is the 'real' treasure, more valuable than any artifact.",
+      "Exploring the idea of idols as emotional dumping grounds: Where family failures or unacknowledged sins might be ceremonially deposited before invoking blessings."
     ],
-    "variety_note": "This chapter must shift focus from external display (Durbar/Fresco) to internal belief systems, examining how material wealth infiltrates and alters genuine acts of devotion. The adjacent sensory input will serve as a disruptive counterpoint to this sacred containment."
+    "variety_note": "While neighbouring chapters focused on outward displays of wealth (Durbar, Thali), this chapter requires an inward turn to examine devotion itself—how sacred space becomes another quantifiable stage for expenditure and status projection."
+  },
+  "draft": {
+    "sha256": "b2975339bbe85c4c8676789d5006e1f2c2dec4914dcf986f4147b706a79fbc75",
+    "written_at": "2026-09-27T17:02:57.502033+00:00",
+    "origin": "write"
   }
 }

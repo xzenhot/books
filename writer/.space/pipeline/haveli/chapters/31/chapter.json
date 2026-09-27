@@ -7,50 +7,54 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "Historical wages of specialized artisans in Shekhawati during the peak Marwari trade period.",
+      "reference": "Agricultural economies of Shekhawati during the mercantile age",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "Agricultural staple crops used as currency or supplemental payment for skilled labor in Rajasthan's hinterlands.",
+      "reference": "Symbolism of grain stores in Rajasthani domestic architecture",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the physical residue of debt: detailing leftover, unusable building scraps—off-cuts of painted plaster that show a pattern of waste rather than art.",
-      "The transaction viewed through the lens of non-monetary futures: counting payment not in grain (a survival commodity) but in years of accumulated favors or unfulfilled oaths.",
-      "A psycho-social portrait of the artisan's perceived value: exploring how his skill, once golden, is now downgraded to a mere commodity unit subtracted from the overall ledger."
+      "Focusing on the *weight* vs. the perceived value: Contrasting the actual caloric weight of the purchased grain against the sheer monetary 'heaviness' implied by the frescoes.",
+      "The perspective of generational debt: Showing the artisan not just paying for survival, but servicing a debt that extends across five generations of art and trade.",
+      "The commodity exchange breakdown: Analyzing the precise ratio between pigment cost, labor cost, and grain payment—a visible economic equation failing at the end."
     ],
     "story_options": [
-      "Setting: The edge of Gangaram’s compound, where carts dump refuse; Desire: To find a discarded, intact tool (a specific chisel or brush) that suggests the payment was more valuable than any measured grain sack. Obstacle: A foreman sweeps up all evidence.",
-      "Setting: The tiny back room used for grinding pigments, smelling heavily of dust and spent labor; Desire: For one artisan to secretly trade their best-ground pigment batch not for pay, but for a single loan receipt that details the actual value of his family's *time* in exchange. Obstacle: Discovery by the master craftsman.",
-      "Setting: A secluded water pump outside the main gates; Desire: The artist witnesses another laborer using meager rations to barter passage or labor debt with outsiders passing through, realizing his own plight is part of a wider economic failure. Obstacle: Being forced to draw attention to this scene."
+      "Setting: The darkened storeroom beneath the primary painting gallery; Desire: To recount the specific type of millet or wheat used for rations versus the high-grade pigments stored nearby; Obstacle: A single, damp rat gnawing through both supplies simultaneously; Turn: The realization that the grain itself is contaminated by dust mixed with spilled expensive dyes.",
+      "Setting: The open courtyard at dawn, before any buyer arrives; Desire: To hear an internal inventory count performed not in coins, but in handfuls of dry pulses and grains; Obstacle: An elderly matriarch from a neighboring house observing the meager count with unnerving clarity; Turn: She whispers a recipe requiring a grain that was supposed to be sold for art.",
+      "Setting: The artisan's small lodging room, late at night; Desire: To have him recount the final moment he traded his ability to dream for enough rice to last until harvest; Obstacle: A childhood tool (a wooden scoop or pestle) found amongst the meager provisions, forcing a confrontation with memory; Turn: He realizes the 'profit' of the art was never meant to feed people, but only to buy more paint."
     ],
     "subject_rotations": [
-      "Treating the grain itself as an unreliable narrator: showing how different types of grain (millet vs. wheat) carry distinct emotional weight or symbolic history for the laborer.",
-      "Focusing on the unpaid labor debt owed *by* Gangaram to his artisans, treating these accounts as secret, unrecorded passages within the poem's structure rather than overt conflict points.",
-      "Shifting the subject from paint/architecture entirely: dedicating a stanza sequence to the artisan’s personal tools and how those objects bear witness to both creation (splendor) and deprivation (the pay)."
+      "A focus on *storage* as narrative device: Using the dry grain itself—its stacking, its deterioration, its necessity—as a visual analogue for the decline of wealth.",
+      "Treating the artisan's hands: An extended meditation on calloused fingers that transition from mixing mineral pigments to handling rough sacks of harvest goods, emphasizing physical labor over artistry.",
+      "The poem structured as an arithmetic ledger: Beginning with the glorious column of expenditure (pigments) and ending with the insufficient column of receipts (grain measure)."
     ],
     "sensory_details": [
-      "Sound: The hollow *thud* of loose kernels spilling unevenly from a burlap sack, echoing too loudly in the quiet space.",
-      "Smell: The mixed scent of dry earth clinging to the hands that handle both rich pigment and rough grain husks.",
-      "Touch: The splintered, irritating texture of aged wood used for payment scales or measuring baskets."
+      "Smell: The distinct, slightly sweet funk of stored animal dung mixed into old compost used to enrich planting beds nearby.",
+      "Sound: The rhythmic, dull *thump* of grain being weighed against the crisp, dry sound of spilled ochre powder hitting stone.",
+      "Touch: The gritty residue left under fingernails after handling both earth-derived pigment and dusty kernels."
     ],
     "research_questions": [
-      "What were common methods used by skilled craftsmen to barter services when formal currency was lacking in the immediate vicinity of a large urban center?",
-      "How did local agrarian cycles affect the perceived value and storage longevity of staple grains in merchant economies?"
+      "What were the specific local granaries or tax collection points outside Mandawa that might have been used as a point of transaction for non-currency payment?",
+      "Are there regional variations in how 'payment' was documented when merchants settled debts involving staple foods versus coinage during this era?"
     ],
     "structural_variants": [
-      "A ledger-style poem: organizing stanzas into columns, treating 'Service Rendered' vs. 'Payment Received' as formal accounting entries.",
-      "An oral narrative structure: adopting the tone of a storyteller recounting the debt years later to a younger relative who cannot comprehend the economic cruelty.",
-      "A fragmentation technique: juxtaposing perfect descriptions of frescoes with starkly literal, sparse renderings of grain stalks or empty bowls."
+      "An epistolary structure: Fragmented letters or notes passed between the artisan and his family detailing daily needs vs. artistic commissions.",
+      "A dialogue format framed around a single meal preparation: A conversation about how to make a modest, filling meal using only what was exchanged."
     ],
-    "variety_note": "This chapter pivots sharply away from the grand visual competition seen in previous sections toward the micro-economy and material cost underpinning all artistic endeavor, focusing on sustenance rather than spectacle."
+    "variety_note": "Where previous chapters focused on external displays of wealth (frescoes, grand halls), this chapter turns inward and downward, grounding the narrative in basic sustenance—the material cost that lies beneath the pigment's sheen."
+  },
+  "draft": {
+    "sha256": "4ad0f37a7fbc1d62faedf0a8d909a892e96fa28934d3687b0d9abcc62a4caf7d",
+    "written_at": "2026-09-27T17:05:43.493541+00:00",
+    "origin": "write"
   }
 }

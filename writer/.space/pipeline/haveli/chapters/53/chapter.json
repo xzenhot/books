@@ -4,10 +4,69 @@
   "word_target": 500,
   "chapter_title": "The Stepping Gods",
   "chapter_summary": "At dusk the plaster gods and courtiers seem to step a little out of their walls, the painted world testing its edges. The poem holds the boundary between the fresco and the room beginning to blur, the house no longer quite sure what is painted and what is real.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Iconography of divine processions in Rajasthani temple art.",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Material science of plaster and fresco pigments under atmospheric stress.",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Ritualistic performance spaces in Rajput/Marwari domestic architecture.",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing the 'stepping' not on gods, but on the merchant class's perceived divinity—Gangaram believing his wealth grants him divine status within the haveli itself.",
+      "A structural analysis of the painted characters: treating them like a poorly engineered set piece where gravity (or physics) finally wins against illusion.",
+      "Shifting the perspective to an observer *from* another dimension/reality who views the fresco as a projection, rather than mere paint."
+    ],
+    "story_options": [
+      "Setting: The specific painted depiction of guardian deities near an outer wall niche; Desire: For one minor deity figure (like a jackal or attendant) to fall from its bracket due to accumulated grime or vibration, marking the boundary break.",
+      "Setting: A section depicting celestial court life with multiple figures in poses of ascent/descent; Desire: To follow one specific painted shadow cast by an overhanging element that seems physically disproportionate, suggesting a hidden support beam unseen by previous viewers.",
+      "Setting: The transition point where the fresco art meets actual, weathered stone architecture (e.g., framing columns); Desire: A single object—a discarded hairpin, a loose bead—is found wedged exactly in this seam, appearing too modern or out of place to be part of either reality."
+    ],
+    "subject_rotations": [
+      "Viewing the 'stepping' sequence as a repetitive cycle that mirrors cyclical economic booms and crashes (prosperity leading inevitably to stagnation).",
+      "Treating the figures not as divine, but as an eternal sales team: perpetually advertising status, wealth, and correct social decorum.",
+      "A poem structured around failure modes: cataloging which god/figure's paint layer fails first under adverse environmental conditions."
+    ],
+    "sensory_details": [
+      "Sight: The minute chipping of calcite deposits that reveals the underlying chalk or plaster base material beneath the colored pigments.",
+      "Sound: The high, thin whine of dry mortar dust being agitated by air currents passing through an ill-fitting junction between paint and stone.",
+      "Touch: Feeling the gritty residue on fingertips when tracing a figure's painted outline, realizing it is not just pigment but mixed binding agent."
+    ],
+    "research_questions": [
+      "Were deities depicted in procession typically constrained by architectural frames, or were these depictions allowed greater spatial freedom?",
+      "What are the local interpretations regarding what happens to devotional art when its associated patronage/worship wanes?",
+      "How did the physical maintenance (plaster repairs) of frescoes change artistic conventions over time?"
+    ],
+    "structural_variants": [
+      "A poem structured entirely as a series of technical observations, mimicking an archaeologist's report detailing structural instability.",
+      "A dramatic monologue delivered by one 'witnessing' figure who has observed cycles of grandeur and decay for centuries.",
+      "Using dialogue tags taken from the painted figures: e.g., \"(The Goddess whispers)\", \"(The attendant gasps)\", structuring stanzas around overheard pronouncements."
+    ],
+    "unused_angles": [
+      "How the act of viewing itself alters the perceived 'depth' of the fresco, making it seem to recede or advance based on the viewer's emotional state.",
+      "A comparison between the stylized, idealized bodies in the art versus the actual human musculature required for such poses.",
+      "Focusing on color theory: Which pigments survive longest under dust and humidity, suggesting what cultural elements were most resilient?"
+    ],
+    "variety_note": "Unlike earlier chapters focusing on concrete economic goods (salt, cotton) or singular events, this chapter must focus purely on the ambiguity of boundary—the line between paint and flesh, art and existence."
+  },
+  "draft": {
+    "sha256": "61bc67497da64bb8924284ba697f5b618057e055a42150d8a2fe9f0aa25efcaf",
+    "written_at": "2026-09-27T17:11:03.748155+00:00",
+    "origin": "write"
+  }
 }

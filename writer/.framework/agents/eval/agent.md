@@ -40,15 +40,16 @@ Read these paths (falling back to legacy names where noted):
     including `state`, `draft.sha256`, `draft.written_at`, `quality_review`.
   - `chapters/<n>/chapter.md` — the live current draft (poetry) / working draft.
   - `chapters/<n>/segments/1/` — segment state.
-  - `filters/<filter>/content-output.md` — whether each filter has produced output.
+  - `filters/<filter>/content-output.md` — whether each filter has produced output; workshop is exempt when the initial chapter-root `chapter.md` exists and is non-empty.
 
 ## Evaluation Criteria
 
 For each chapter, determine three readiness states independently:
 
 1. **Write-ready.** True when the upstream filter chain has produced its outputs
-   (each `filters/<filter>/` has a non-empty `content-output.md`, or the filter
-   is `autorun: false` and may be skipped), and the chapter has a `chapter.json`
+   (each required filter has a non-empty `content-output.md`, or workshop has a
+   non-empty chapter-root `chapter.md`, or the filter is `autorun: false` and may
+   be skipped), and the chapter has a `chapter.json`
    carrying its plan entry. A chapter may already be written (chapter.md exists);
    that still counts as write-ready.
 2. **Validated.** True when the chapter model records a passed quality review —

@@ -7,55 +7,56 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "Rajasthani land ownership records and boundary disputes of the 18th century",
+      "reference": "Land ownership documentation in 18th-century Rajasthan (revenue records)",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "The ritual significance of drawing boundaries (marking sacred/secular space)",
+      "reference": "The specific rites associated with 'ploughing a new field' or consecrating newly purchased land near Mandawa",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Treating the 'plot' as a canvas awaiting ownership identity: how the land absorbs or rejects the merchant’s ambition, making the earth an active participant in Gangaram's history.",
-      "Focusing on the *process* of dispute resolution rather than the successful purchase: detailing the negotiation, the oaths sworn over questionable deeds, and the cost to mere subsistence people.",
-      "The legal perspective: structuring sections as formal land measurements or excerpts from property transfer documents, forcing a dry, objective poetic voice against the emotion."
+      "Viewing the plot not as an extension of Gangaram’s wealth, but as a necessary buffer against perceived spiritual/economic contamination from his past dealings (a psychological demarcation).",
+      "The tension between surveying mathematics (straight lines, angles) and the organic, unpredictable flow of village life or seasonal growth that defies property lines.",
+      "Reframing the 'owner' status: Is it the plot itself, having been consecrated by prayer/money, which gains agency and history?",
+      "A comparative meditation on land acquisition in feudal times vs. capitalist commodity expansion—what essence is lost in the exchange of title for cash?"
     ],
     "story_options": [
-      "Setting: A dusty intersection outside the main fortified walls of Mandawa; Desire: To stake out an area large enough to house not just a home, but an annex for his nascent business operations (a warehouse/office); Obstacle: Competing claims from established local families or religious trusts who challenge the deed's legitimacy; Turn: The successful completion requires an oath sworn before a minor deity whose presence is doubted by all.",
-      "Setting: The edge of the growing town, where marshland meets dry scrub—a volatile border zone; Desire: To acquire enough stable ground to build the solid base for his lineage; Obstacle: A sudden monsoon flash flood or seasonal flooding that threatens to render the purchased land unusable immediately after payment; Turn: He is forced to negotiate with river laborers who view the 'plot' as belonging to the water cycle itself.",
-      "Setting: The courtyard of a previous, smaller, less significant dwelling whose structure he wishes to buy out; Desire: To absorb the physical history and existing boundary markings of another family into his own domain (a literary merging of histories); Obstacle: Finding hidden structural elements—ancient wells or forgotten cisterns—that belong to a lineage older than any recorded deed; Turn: The negotiation stalls because a resident believes the old structure must be honored, even if it complicates the new blueprint."
+      "Setting: The physical boundary marker (a specific banyan tree or a unique rock formation) placed at the edge of the bought plot; Desire: To find an artifact within that marked spot—something predating Gangaram’s money, perhaps marking an older local deity's shrine; Obstacle: An established local family who claims ancestral rights to the ground where the marker was set.",
+      "Setting: The processional path leading *to* the plot from the main village thoroughfare; Desire: To perform a ritualistic clearing of any 'foreign taint' (physical litter, stray animal hairs, or an uninvited person) before establishing the boundary; Obstacle: An unexpected, localized rain shower that makes the ground muddy and indecipherable.",
+      "Setting: The highest point overlooking the entire newly acquired acreage at dawn; Desire: To plot out not just ownership boundaries in ink on parchment, but a future *pattern* of life—a proposed well-system or courtyard layout; Obstacle: A sudden, blinding sun glare that obscures the meticulous lines drawn for hours."
     ],
     "subject_rotations": [
-      "A meditation on permanence versus impermanence, using geological time (erosion, sedimentation) to critique his mercantile focus on linear progress.",
-      "The social ecology of property: detailing who else lives *around* this plot—the charmer who services the property, the cattle herder whose path crosses it, etc.—and how they dictate its value.",
-      "Treating the purchase as a psychological rite of passage: comparing acquiring physical land to acquiring self-respect or social standing; mapping his internal growth onto the linear expansion of the footprint."
+      "Focusing solely on the process of surveying and measurement itself—the calloused fingers of the surveyor's instruments against the softness of newly acquired wealth.",
+      "Treating the soil composition: an almost geological meditation, where each type of clay or mineral hints at a different trade route or historical conflict that passed over that spot.",
+      "The transfer of *obligation* with land: rather than just buying dirt, Gangaram buys responsibility to future tenants, maintenance taxes, and lineage continuity."
     ],
     "sensory_details": [
-      "The specific, gritty taste of red iron dust kicked up by hooves traversing freshly turned earth.",
-      "The high, whining sound of a mongoose warning its territory boundary to intruders or scavengers.",
-      "The feel of rough-spun jute fibers used for temporary staking markers nailed into the soft, yielding soil."
+      "Sight: The specific ochre dust kicked up by the surveying measurements being dropped onto virgin earth.",
+      "Sound: The rhythmic *tap-measure tap* of a wooden staff used to confirm straight lines across uneven ground.",
+      "Smell: The sharp, mineral tang of freshly disturbed subterranean water or unoxidized iron near bedrock."
     ],
     "research_questions": [
-      "What were the customary rites accompanying the official transfer of ownership over undeveloped land in Shekhawati during this period?",
-      "How was a 'plot' officially surveyed or measured without modern tools (e.g., use of specific lengths of rope, sighting poles)?",
-      "Were there associated fees or tributes paid not just to men, but to local deities or village headmen when claiming new ground?"
+      "What were the common dispute resolution mechanisms recorded in local revenue records when land ownership overlapped historical communal use areas?",
+      "Were there specific materials—like certain types of sacred thread or cow dung paste—required to physically 'bless' a newly purchased plot according to regional custom?"
     ],
     "structural_variants": [
-      "A poem structured around measurements: using verses dedicated to linear measure (length), area (square footage/yield potential), and depth (foundation security).",
-      "Employing a dialogue format between the scrivener recording the transaction and the man receiving the title, one speaking in precise legal jargon, the other in soaring ambition.",
-      "A cyclical structure where the poem starts with an imagined perfect boundary and ends by acknowledging the impossible reality that all boundaries eventually fail or bleed into each other."
+      "A poem structured around escalating rhetorical questions: What is line? What is permanence? What is profit?",
+      "Using an alternating stanza structure: Stanza 1 (Memory of scarcity/need) $\rightarrow$ Stanza 2 (The mathematical act of measurement) $\rightarrow$ Stanza 3 (The resulting weight of the title deed).",
+      "A narrative shift from highly detailed description (the ground, the tools) to abstract philosophical pronouncements about human desire and geography."
     ],
-    "variety_note": "Where previous chapters focused on intangible goods (cotton, spices) or artistic endeavors (frescoes), this chapter grounds the accumulation of wealth in tangible, disputed geography—the physical act of demarcation.",
-    "unused_angles": [
-      "The ritual role of water sources within a plot's value.",
-      "How indigenous materials unique to that specific piece of earth dictated its primary use (e.g., proximity to good quarry stone)."
-    ]
+    "variety_note": "While previous chapters focused on movable goods or transient liquid wealth (salt, spices), this chapter grounds Gangaram’s ambition in something fixed: immutable earth and permanent boundary markers. It shifts focus from accumulation to establishing foundational permanence."
+  },
+  "draft": {
+    "sha256": "3d165784dd23f485814530dcf0e1578f0352bad02b1e0e2209cfbc77faa63256",
+    "written_at": "2026-09-27T17:00:27.608797+00:00",
+    "origin": "write"
   }
 }

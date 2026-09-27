@@ -221,6 +221,31 @@ def read_seed(book_dir: Path) -> list[str]:
     ]
 
 
+def read_materials(book_dir: Path) -> str:
+    """Read the user's research materials from materials/ into one text block.
+
+    Concatenates the text of every file under materials/ (recursively), each
+    preceded by its relative path, so the storyline/layout prompt can ground
+    itself in the user's sources. Returns an empty string when the folder is
+    absent or empty.
+    """
+    materials_dir = book_dir / "materials"
+    if not materials_dir.is_dir():
+        return ""
+    parts: list[str] = []
+    for path in sorted(materials_dir.rglob("*")):
+        if not path.is_file():
+            continue
+        try:
+            text = path.read_text(encoding="utf-8-sig").strip()
+        except (OSError, UnicodeDecodeError):
+            continue
+        if text:
+            rel = path.relative_to(materials_dir).as_posix()
+            parts.append(f"--- {rel} ---\n{text}")
+    return "\n\n".join(parts)
+
+
 def default_gist(bookname: str, form: str) -> str:
     """Generate a placeholder Bengali gist when the user has not provided one."""
     if form == "poetry":
@@ -459,15 +484,25 @@ def generate_epic(
     gist: str,
     chapters: list[dict[str, object]],
     now: str,
+    materials: str = "",
 ) -> str:
     """Enrich the gist into a full storyline.md via Ollama, falling back to the scaffold.
 
     Calls Ollama with the epic prompt; on success, prepends the deterministic
     metadata header to the model's narrative body.  On any network/parse error
     it degrades gracefully to the deterministic make_epic() scaffold.
+
+    *materials* is optional research-material text read from the book's
+    materials/ folder; when non-empty it is appended to the prompt so the
+    storyline stays grounded in the user's sources.
     """
     try:
         prompt = build_epic_prompt(bookname, form, gist, chapters)
+        if materials:
+            prompt += (
+                "\n\nRESEARCH MATERIALS (ground the storyline in these; "
+                "never contradict them):\n" + materials + "\n"
+            )
         body = _ollama_post(_ollama_payload(prompt, system=EPIC_SYSTEM_PROMPT))
         body = body.strip()
         if not body:
@@ -841,6 +876,7 @@ def generate_layout(
     bookname: str,
     form: str | None = None,
     chapter_count: int | None = None,
+    materials: str = "",
 ) -> None:
     """Generate (or regenerate) book.json from storyline.md using the local Ollama model.
 
@@ -849,6 +885,10 @@ def generate_layout(
     chapters are generated in batches of 10 with a completeness loop so the
     resulting book.json is always complete.  The plan is validated before it
     overwrites book.json, so a failed generation never clobbers an existing plan.
+
+    *materials* is optional research-material text read from the book's
+    materials/ folder; when non-empty it is appended to the prompt so the
+    layout stays grounded in the user's sources.
 
     Args:
         book_dir:      Path to the backlog folder for this book.
@@ -869,6 +909,13 @@ def generate_layout(
         raise FileNotFoundError(f"Book template not found: {BOOK_TEMPLATE}")
 
     epic = epic_file.read_text(encoding="utf-8")
+    if materials:
+        epic = (
+            epic
+            + "\n\nRESEARCH MATERIALS (ground the layout in these; never contradict them):\n"
+            + materials
+            + "\n"
+        )
     template = BOOK_TEMPLATE.read_text(encoding="utf-8")
 
     # Infer form from epic content when not supplied explicitly
@@ -943,6 +990,15 @@ def rewrite_gist_idea(bookname: str) -> None:
     book_dir.mkdir(parents=True, exist_ok=True)
     gist_file = book_dir / "gist.md"
 
+    # Preserve any existing `## Author Comment` section before rewriting.
+    author_comment = ""
+    if gist_file.exists():
+        text = gist_file.read_text(encoding="utf-8-sig")
+        marker = "## Author Comment"
+        idx = text.find(marker)
+        if idx != -1:
+            author_comment = text[idx:].rstrip() + "\n"
+
     # Seed source: existing gist.md one-liner, else the book name.
     if gist_file.exists():
         lines = [
@@ -974,12 +1030,60 @@ def rewrite_gist_idea(bookname: str) -> None:
         return
 
     expansion_block = f"\n\n## Expansion\n\n{expansion}\n" if expansion else "\n"
-    gist_file.write_text(gist + expansion_block, encoding="utf-8")
+    # author_comment already carries the full "## Author Comment ..." section,
+    # or is empty; append it (or a placeholder) after the expansion.
+    comment_block = author_comment if author_comment else "## Author Comment\n\n"
+    gist_file.write_text(gist + expansion_block + "\n" + comment_block, encoding="utf-8")
 
     print(f"Gist rewritten → {gist_file}")
     print(f"  gist: {gist}")
     print(f"  expansion: {expansion or '(none)'}")
     print("  Note: storyline.md and book.json are unchanged; re-run init to re-derive them.")
+
+
+def create_gist(bookname: str, gist: str | None, form: str, refresh: bool) -> None:
+    """Create or edit only gist.md for a book (the `init` command, no refresh).
+
+    This is the gist-only boundary: it writes gist.md and nothing else. It never
+    creates or rewrites storyline.md or book.json — those are produced by the
+    `layout` command (or by `init` with the `refresh` flag).
+
+    Args:
+        bookname: Validated book name.
+        gist:     Optional seed text supplied by the user.
+        form:     'novel' or 'poetry' (used only to build a default gist when absent).
+        refresh:  When True, overwrites an existing gist.md.
+    """
+    book_dir = BACKLOG_ROOT / validate_bookname(bookname)
+    book_dir.mkdir(parents=True, exist_ok=True)
+
+    gist_file = book_dir / "gist.md"
+
+    # Resolve the gist: user argument → existing gist.md → auto-generated default.
+    resolved_gist = gist.strip() if gist and gist.strip() else None
+    if resolved_gist is None and gist_file.exists():
+        resolved_gist = gist_file.read_text(encoding="utf-8").strip() or None
+    resolved_gist = resolved_gist or default_gist(bookname, form)
+
+    # Preserve any existing `## Author Comment` section when overwriting.
+    existing_comment = ""
+    if gist_file.exists():
+        text = gist_file.read_text(encoding="utf-8-sig")
+        marker = "## Author Comment"
+        idx = text.find(marker)
+        if idx != -1:
+            existing_comment = text[idx:].rstrip()
+
+    if not gist_file.exists() or refresh:
+        body = resolved_gist + "\n"
+        body += "\n" + (existing_comment if existing_comment else "## Author Comment\n") 
+        gist_file.write_text(body, encoding="utf-8")
+
+    print(f"Gist written → {gist_file}")
+    print(f"  gist: {resolved_gist}")
+    print("  Note: storyline.md and book.json are unchanged. "
+          "Run `/book <bookname> layout` to derive them, "
+          "or `/book <bookname> init ... refresh` to regenerate the full backlog.")
 
 
 def create_backlog(
@@ -989,12 +1093,14 @@ def create_backlog(
     refresh: bool,
     chapter_count: int | None = None,
 ) -> None:
-    """Create or refresh the three backlog artifacts for a book.
+    """Create or refresh the full backlog (gist + storyline + book.json).
 
-    Artifacts created/updated:
+    This is the full-bootstrap path used by `init` with `refresh`. It writes:
+
         gist.md   — one-line seed (only written if missing or *refresh* is True)
         storyline.md   — full narrative foundation (always written)
         book.json — chapter layout plan (always written)
+        materials/ — human-authored research materials folder (created empty)
 
     Args:
         bookname:      Validated book name.
@@ -1006,6 +1112,10 @@ def create_backlog(
     book_dir = BACKLOG_ROOT / validate_bookname(bookname)
     book_dir.mkdir(parents=True, exist_ok=True)
 
+    # Human-authored research materials folder — created empty, never overwritten.
+    materials_dir = book_dir / "materials"
+    materials_dir.mkdir(exist_ok=True)
+
     gist_file = book_dir / "gist.md"
     epic_file = book_dir / "storyline.md"
     legacy_epic_file = book_dir / "epic.md"
@@ -1014,6 +1124,7 @@ def create_backlog(
     book_file = book_dir / "book.json"
 
     seed = read_seed(book_dir)
+    materials = read_materials(book_dir)
 
     # Resolve the gist: user argument → existing gist.md → auto-generated default
     resolved_gist = (gist.strip() if gist and gist.strip() else None)
@@ -1022,9 +1133,38 @@ def create_backlog(
     resolved_gist = resolved_gist or default_gist(bookname, form)
 
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-    chapters = make_chapters(bookname, form, seed, chapter_count)
-    plan = make_book_json(bookname, form, resolved_gist, chapters, now)
-    epic_text = generate_epic(bookname, form, resolved_gist, chapters, now)
+
+    # On refresh, preserve the existing plan (chapter count, chapters, and
+    # book-level metadata) rather than regenerating placeholders. This matches
+    # the documented refresh contract: "refresh preserves the chapter count and
+    # the existing chapters array verbatim."
+    existing_plan: dict[str, object] | None = None
+    if refresh and book_file.exists():
+        try:
+            existing_plan = json.loads(book_file.read_text(encoding="utf-8-sig"))
+        except (json.JSONDecodeError, OSError):
+            existing_plan = None
+
+    if existing_plan is not None:
+        chapters = existing_plan.get("chapters", [])
+        plan = dict(existing_plan)
+        # Refresh only the premise-derived fields; keep identity and chapters.
+        plan["gist"] = resolved_gist
+        plan["book_summary"] = resolved_gist
+        plan["updated_at"] = now
+        plan["form"] = form
+        plan["filter_chain"] = (
+            FILTER_CHAIN_POETRY if form == "poetry" else FILTER_CHAIN_NOVEL
+        )
+        if chapter_count is not None and chapter_count != len(chapters):
+            chapters = make_chapters(bookname, form, seed, chapter_count)
+            plan["chapters"] = chapters
+            plan["chapter_count"] = len(chapters)
+    else:
+        chapters = make_chapters(bookname, form, seed, chapter_count)
+        plan = make_book_json(bookname, form, resolved_gist, chapters, now)
+
+    epic_text = generate_epic(bookname, form, resolved_gist, chapters, now, materials)
 
     # Write gist.md only if it doesn't exist or refresh is requested
     if not gist_file.exists() or refresh:
@@ -1040,7 +1180,58 @@ def create_backlog(
     print(f"  gist.md  : {gist_file}")
     print(f"  storyline.md  : {epic_file}")
     print(f"  book.json: {book_file}")
+    print(f"  materials/ : {materials_dir}")
     print(f"  form: {form} | chapters: {len(chapters)} | refreshed: {refresh}")
+
+
+def run_layout(
+    book_dir: Path,
+    bookname: str,
+    form: str,
+    chapter_count: int | None,
+    gist: str | None,
+) -> None:
+    """Run the `layout` command: rewrite storyline.md from gist.md + materials,
+    then derive book.json (the layout).
+
+    This is the layout boundary:
+
+    1. storyline.md is (re)written from the gist in gist.md, grounded in any
+       research materials under materials/.
+    2. book.json is then derived from that storyline.md; an explicit chapter
+       count and form control the resulting plan.
+
+    Args:
+        book_dir:      Path to the backlog folder for this book.
+        bookname:      Validated book name string.
+        form:          'novel' or 'poetry'.
+        chapter_count: Optional explicit chapter count; None defers to book.json.
+        gist:          Optional seed text supplied by the user.
+    """
+    gist_file = book_dir / "gist.md"
+
+    # Resolve the gist from gist.md (user-supplied gist overrides it).
+    resolved_gist = gist.strip() if gist and gist.strip() else None
+    if resolved_gist is None and gist_file.exists():
+        resolved_gist = gist_file.read_text(encoding="utf-8").strip() or None
+    resolved_gist = resolved_gist or default_gist(bookname, form)
+
+    materials = read_materials(book_dir)
+
+    # 1. Rewrite storyline.md from the gist (+ materials).
+    seed = read_seed(book_dir)
+    chapters = make_chapters(bookname, form, seed, chapter_count)
+    now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    epic_text = generate_epic(bookname, form, resolved_gist, chapters, now, materials)
+    (book_dir / "storyline.md").write_text(epic_text, encoding="utf-8")
+
+    # 2. Derive book.json (the layout) from the (possibly refreshed) storyline.md.
+    generate_layout(book_dir, bookname, form, chapter_count, materials)
+
+    print(f"Layout complete → {book_dir}")
+    print(f"  storyline.md  : {book_dir / 'storyline.md'}")
+    print(f"  book.json: {book_dir / 'book.json'}")
+    print(f"  form: {form} | chapters: {chapter_count or '(from book.json)'}")
 
 
 # ---------------------------------------------------------------------------
@@ -1527,8 +1718,8 @@ def main() -> int:
             gist = args.objective
         gist = gist or args.gist
 
-        # --- init ---
-        if args.verb == "init":
+        # --- init (and alias backlog) ---
+        if args.verb in {"init", "backlog"}:
             # Subcommand: 'idea' rewrites the gist with AI and stops.
             if args.objective == "idea":
                 rewrite_gist_idea(bookname)
@@ -1540,31 +1731,20 @@ def main() -> int:
                  if v and v not in {"gist", "build", "epic", "novel", "poetry", "refresh"}),
                 args.gist,
             )
-            create_backlog(bookname, resolved_gist, resolved_form, refresh=args.refresh)
-            # Layout is a separate, best-effort task: a failure here must not
-            # mask the backlog artifacts (storyline.md/book.json) already written.
-            try:
-                generate_layout(book_dir, bookname, resolved_form)
-            except (RuntimeError, ValueError, FileNotFoundError) as exc:
-                print(f"Warning: layout generation skipped — {exc}", file=sys.stderr)
+            if args.refresh:
+                # refresh → full bootstrap: gist.md + storyline.md + book.json
+                create_backlog(bookname, resolved_gist, resolved_form, refresh=True)
+            else:
+                # no refresh → gist.md only
+                create_gist(bookname, resolved_gist, resolved_form, refresh=False)
             return 0
 
-        # --- build / layout ---
+        # --- layout / build ---
         if args.verb in {"build", "layout"}:
             count = resolve_count([args.objective, args.option, args.range])
             layout_form = resolve_form([args.range, args.option], fallback=form)
-            if count is not None:
-                # Numeric first argument → full backlog creation + layout
-                create_backlog(bookname, gist, layout_form, args.refresh, count)
-            generate_layout(book_dir, bookname, layout_form, count)
+            run_layout(book_dir, bookname, layout_form, count, gist)
             return 0
-
-        # --- backlog validation ---
-        if args.verb == "backlog" and args.objective not in (None, "gist", "build"):
-            raise ValueError(
-                f"Unknown backlog objective: {args.objective!r}. "
-                "Expected 'build', 'gist', or omit."
-            )
 
         # --- all other pipeline verbs ---
         dispatch_workflow(args, bookname, book_dir)

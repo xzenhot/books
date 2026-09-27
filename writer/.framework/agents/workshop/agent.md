@@ -1,12 +1,12 @@
 ---
 name: workshop
-description: Form-aware workshop dispatcher. Routes each workshop filter run to the workshop-poetry or workshop-novel skill, which records expansion and shaping guidance in the chapter model. The workshop filter never reads or writes chapter.md — prose is authored only later by the write/chapter/poet agents.
+description: Form-aware workshop dispatcher. Routes each workshop filter run to the workshop-poetry or workshop-novel skill, which records expansion and shaping guidance in the chapter model and creates an initial chapter.md draft if absent. Workshop never reads or overwrites an existing chapter.md; later revision belongs to the write/chapter/poet agents.
 tools: ["read", "write"]
 ---
 
 # Workshop Agent
 
-This agent dispatches form-specific workshop work and enforces the chapter-model schema before and after delegation. It must not apply the old novel-only sectioned behavior directly.
+This agent dispatches form-specific workshop work, creates the initial live chapter draft through the selected skill when absent, and enforces the chapter-model schema before and after delegation. It must not apply the old novel-only sectioned behavior directly.
 
 ## Dispatch
 
@@ -15,8 +15,8 @@ This agent dispatches form-specific workshop work and enforces the chapter-model
 3. Resolve form from the pipeline model first, then the cloned book plan. Stop with a clear error if the form is missing or unsupported.
 4. If form is poetry, read and invoke `.framework/skills/workshop-poetry/SKILL.md`.
 5. If form is novel, read and invoke `.framework/skills/workshop-novel/SKILL.md`.
-6. Pass the book name, chapter scope, pipeline paths, complete chapter model, and resolved word target to the selected skill. The skill never receives or reads `chapter.md` — it records guidance in the chapter model only. Require the skill to merge its updates while preserving the required fields and all unrelated metadata.
-7. Re-read and validate each resulting chapter model before reporting success. Return the selected skill's chapter-model and filter-summary results only after the schema check passes.
+6. Pass the book name, chapter scope, pipeline paths, complete chapter model, and resolved word target to the selected skill. The skill must not read an existing `chapter.md`; it records guidance in the chapter model and creates `.space/pipeline/<bookname>/chapters/<n>/chapter.md` only when that file is absent. It must preserve any existing draft without reading or overwriting it. Require the skill to merge its updates while preserving the required fields and all unrelated metadata.
+7. Re-read and validate each resulting chapter model before reporting success. Confirm the chapter-root draft exists and is non-empty by checking file metadata only; do not read its contents. Return the selected skill's chapter-model and filter-summary results only after the schema check passes.
 
 ## Required Chapter Model Schema
 
@@ -59,14 +59,16 @@ Use each chapter's own values; this example is not a template of values for othe
 
 The selected skill owns:
 
-- expanding the scaffolded `chapter_summary` into expansion/shaping guidance recorded in the chapter model (`workshop` object with the expansion plan, target form, and register) — never writing `chapter.md`;
+- expanding the scaffolded `chapter_summary` into expansion/shaping guidance recorded in the chapter model (`workshop` object with the expansion plan, target form, and register);
+- creating the initial `chapters/<n>/chapter.md` from the chapter model and workshop guidance only when the file is absent;
 - recording the form, register, and word-target guidance the downstream writer will follow;
 - updating the chapter model, including state, skill, word_target, and the workshop guidance;
 - writing the single workshop filter summary.
 
 The workshop agent must not:
 
-- read or write `chapter.md` (it is an output file owned by the write/chapter/poet agents);
+- read `chapter.md`;
+- overwrite an existing `chapter.md` or revise it after the initial workshop draft (the write/chapter/poet agents own later revisions);
 - write final output to source/books;
 - run any later filter;
 - write into segments/1/writer;
@@ -75,4 +77,4 @@ The workshop agent must not:
 
 ## Output
 
-Report the resolved form, selected skill, processed chapter scope, target word count, chapter-model path, and workshop filter-summary path. Include schema validation status, any fields recovered and their source, and any unresolved missing fields or identity/type conflicts.
+Report the resolved form, selected skill, processed chapter scope, target word count, chapter-model path, initial chapter-draft path, and workshop filter-summary path. Include schema validation status, whether the draft was created or already existed, any fields recovered and their source, and any unresolved missing fields or identity/type conflicts.
