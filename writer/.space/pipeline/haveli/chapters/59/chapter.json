@@ -57,13 +57,13 @@
     "variety_note": "This chapter shifts focus entirely from the opulent interior and the merchant's internal arithmetic (Chapters 58/60) outward, focusing on the periphery—the collective human consequence of private ruin playing out in public space."
   },
   "draft": {
-    "sha256": "a4dbbad2847e1152457125b57ae5e0dd0ce29c5b24d26acdf93a7643aeeed13d",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "2dbda249d7a4a9556729922689acd99715ee12533b398b2df7790fbe5a5ae4ab",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "25ee9cf7af75c79e669e6b9a328d3812e60c240b676b0d192f266b95420cacb8",
+    "sha256": "2dbda249d7a4a9556729922689acd99715ee12533b398b2df7790fbe5a5ae4ab",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -72,7 +72,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

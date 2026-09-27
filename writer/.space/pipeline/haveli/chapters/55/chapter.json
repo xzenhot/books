@@ -54,13 +54,13 @@
     "variety_note": "Unlike the preceding chapters that focused on visible artifacts or structural failure, this piece focuses entirely on an ephemeral sensory experience—scent—as both memory and residual physical presence."
   },
   "draft": {
-    "sha256": "03c5862827d918d355e946701e45405cb1f1fcc61b03be7eecccdbeda7e2581e",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "f0fb4149b6b8ac34594f68eb4182511c0e74212de4a93b1e89c8c15bce184230",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "7143f1e3dd22e67cc2875cc9e9aebfb7e2fe3f12591fc040b7b0c293f7eca34f",
+    "sha256": "f0fb4149b6b8ac34594f68eb4182511c0e74212de4a93b1e89c8c15bce184230",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -69,7 +69,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

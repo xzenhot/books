@@ -63,13 +63,13 @@
     "variety_note": "Unlike poems focusing on the internal decay or interpersonal debts within the haveli walls, this chapter must focus outward—on the changing external world and the physical routes that once defined its wealth."
   },
   "draft": {
-    "sha256": "c6efdef35f358e7ba16b18b94e4ba8e0de672d0bc127091214fb5268dfffaf0a",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "0e4641985e01f690e0790a9f53537f56921caa7c6af5b30d376ffd8320180faf",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "782b62906ed6f3b966e5a4f2af8b259b4c0caf3b3bebe95fafb2d3c16a410557",
+    "sha256": "0e4641985e01f690e0790a9f53537f56921caa7c6af5b30d376ffd8320180faf",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -78,7 +78,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

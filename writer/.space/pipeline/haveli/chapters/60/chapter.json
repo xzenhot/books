@@ -59,13 +59,13 @@
     ]
   },
   "draft": {
-    "sha256": "f363cd019ffb28450695d06b7fd299614087350a03f48878e16926912c022191",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "38f418824427f1f8c846964c423509637234e06b7a9834b2733cb02cb1520340",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "56f1a210093abeb28d41d0f43487ffa8fb06264ccde6e9d56ceaaa1b504f7a7c",
+    "sha256": "38f418824427f1f8c846964c423509637234e06b7a9834b2733cb02cb1520340",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -74,7 +74,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

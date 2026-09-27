@@ -257,6 +257,8 @@ def audit_chapter(chapter_model: dict, chapter_md_path: Path) -> dict:
     return {
         "status": "passed",
         "sha256": sha256,
+        "reviewer": "quality-agent",
+        "reviewed_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "notes": notes,
     }
 

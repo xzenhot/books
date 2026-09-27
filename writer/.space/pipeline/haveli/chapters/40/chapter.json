@@ -57,13 +57,13 @@
     "variety_note": "This chapter moves away from the grand, visible transactions of trade and fresco commissions; instead, its focus is on the accumulated weight of unpaid *intangibles*—the slow, invisible arithmetic of social obligation."
   },
   "draft": {
-    "sha256": "68e41b6f6474dad120eba9eb206e827cf4a6a27f1212c126b19162b286e1599a",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "853338a909442bda15d07c62b4439f124cd89e2eca1b82810a56dcce5aec71e1",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "954ce41051ac00e60d97e07ffe792e0bba06f9f0181dece18b1db272e78a24a7",
+    "sha256": "853338a909442bda15d07c62b4439f124cd89e2eca1b82810a56dcce5aec71e1",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -72,7 +72,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

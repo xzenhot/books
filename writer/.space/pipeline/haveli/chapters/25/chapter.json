@@ -59,13 +59,13 @@
     "variety_note": "While previous chapters have focused heavily on labor and ritualized expenditure, this chapter zeroes in exclusively on material goods, treating wealth as a physical collection that must be cataloged and defended."
   },
   "draft": {
-    "sha256": "f605b3634e5957a0b5032ba6022abf546b2e6c1e281e6c61fcb834dad3555c89",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "ad124e62aac35909230dc02c19ec8891f7bbc0ce4d495791e61838903ad71a9b",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "59ebf5099c077c6ee45e7741c75be54da1e3b30136637d7903c283c936acf0f4",
+    "sha256": "ad124e62aac35909230dc02c19ec8891f7bbc0ce4d495791e61838903ad71a9b",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -74,7 +74,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

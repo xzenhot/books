@@ -56,13 +56,13 @@
     "variety_note": "This chapter grounds its thematic exploration in highly specific physical objects—the ledger, the wick, the abacus bead—to ground abstract concepts like guilt and time."
   },
   "draft": {
-    "sha256": "b430f0855465f86af87fb25d7b20b4a9e51e775954d501b2896ad36d6bdb208d",
-    "written_at": "2026-09-27T18:22:17+00:00",
+    "sha256": "7905187544b501e0bca076112923098e9e97c7eed97e38fc1eee3b3ac9b5b5ab",
+    "written_at": "2026-09-27T18:29:11+00:00",
     "origin": "humanize"
   },
   "quality_review": {
     "status": "passed",
-    "sha256": "a30ba4e2f1578500ad711028d36352eee4cb1ae3ef228148d4d351a052f92630",
+    "sha256": "7905187544b501e0bca076112923098e9e97c7eed97e38fc1eee3b3ac9b5b5ab",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -71,7 +71,9 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ]
+    ],
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-27T18:30:42+00:00"
   },
   "humanized": true,
   "humanized_at": "2026-09-27T18:22:17+00:00"

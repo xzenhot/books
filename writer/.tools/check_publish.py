@@ -1,0 +1,15 @@
+import json, hashlib
+from pathlib import Path
+ch = Path(r'D:\lab\github\books\writer\.space/pipeline/haveli/chapters/1')
+md_text = (ch / 'chapter.md').read_bytes()
+sha = hashlib.sha256(md_text).hexdigest()
+model = json.loads((ch / 'chapter.json').read_text(encoding='utf-8-sig'))
+qr = model.get('quality_review', {})
+print(f"chapter.md sha256: {sha}")
+print(f"QR sha256: {qr.get('sha256', 'MISSING')}")
+print(f"status: {qr.get('status')}")
+print(f"reviewer: {qr.get('reviewer', 'MISSING')}")
+print(f"reviewed_at: {qr.get('reviewed_at', 'MISSING')}")
+match = sha == qr.get('sha256', '')
+all_ok = qr.get('status') == 'passed' and match and qr.get('reviewer') and qr.get('reviewed_at')
+print(f"All checks pass: {all_ok}")
