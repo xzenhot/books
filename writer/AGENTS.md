@@ -34,6 +34,7 @@ Supported command families are defined by the two start-point specs. The backlog
 /book <bookname> add <chapter-count> filter <filter>
 /book <bookname> filter <filter>
 /book <bookname> enrich <count>|range|*
+/book <bookname> review *|all|<n>
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
 /book <bookname> style [<style>]
 /book <bookname> translate <n>|all|continue <language>

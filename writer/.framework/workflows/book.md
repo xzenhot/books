@@ -26,7 +26,7 @@ For every `/book [args...]` request, follow this procedure:
    - Otherwise it is `<bookname>`; continue classifying the next argument.
 3. Classify the subcommand (second argument when a `<bookname>` leads):
    - `init`, `backlog`, `layout`, `idea`, or a bare `<bookname>` with no subcommand → **backlog.md**.
-   - `scaffold`, `add`, `filter`, `enrich`, `eval`, `write`, `style`, `translate`, `publish`, `form`, `config`, `poet`/`poetry`/`poem`, or a `<filter>`/`<agentname>` → **pipeline.md**.
+   - `scaffold`, `add`, `filter`, `enrich`, `eval`, `review`, `write`, `style`, `translate`, `publish`, `form`, `config`, `poet`/`poetry`/`poem`, or a `<filter>`/`<agentname>` → **pipeline.md**.
 4. Read the delegated workflow spec and execute its matching section.
 5. Append the **Next Steps** section per `.framework/rules/next-steps.md` after **every** command (including read-only, no-op, and error stops).
 
@@ -48,6 +48,7 @@ For every `/book [args...]` request, follow this procedure:
 /book <bookname> filter <filter>
 /book <bookname> <agentname> <chapter>|<n>|all|continue
 /book <bookname> enrich <count>|range|*
+/book <bookname> review *|all|<n>
 /book <bookname> eval all|*|<n>|<range>|continue
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
 /book <bookname> style [<style>]
@@ -78,6 +79,7 @@ For every `/book [args...]` request, follow this procedure:
 | `<bookname> filter` | Pipeline | `pipeline.md` | Run a single named filter in order. |
 | `<bookname> <agentname>` | Pipeline | `pipeline.md` | Run a registered agent against selected chapters. |
 | `<bookname> enrich` | Pipeline | `pipeline.md` | Fuse active filters into one combined pass. |
+| `<bookname> review` | Pipeline | `pipeline.md` | Audit chapters against quality parameters via the review agent; final quality gate before publish. |
 | `<bookname> eval` | Pipeline | `pipeline.md` | Evaluate pipeline completeness before write/publish. Read-only. |
 | `<bookname> write` | Pipeline | `pipeline.md` | Write finished chapters (story agent for novel, poetry agent for poetry). |
 | `<bookname> style` | Pipeline | `pipeline.md` | Transform writer-stage chapters through a style template. |

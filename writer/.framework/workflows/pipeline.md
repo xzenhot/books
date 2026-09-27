@@ -32,6 +32,7 @@ After **every** command in this workflow completes — including read-only, no-o
 /book <bookname> filter <filter>                                                   # 6. run a single filter
 /book <bookname> enrich <count>|range|*                                              # 6a. fuse active filters into one combined agent and enrich chapters in one pass
 /book <bookname> eval all|*|<n>|<range>|continue                                     # 6b. evaluate pipeline completeness before write/publish (read-only)
+/book <bookname> review *|all|<n>                              # 6c. audit chapters against quality parameters via the review agent (quality gate)
 /book <bookname> form <formname>                                                     # 7. set/change the book's form
 /book <bookname> config [<key> [<value>]]                                            # 8. get/set the book's model config
 /book <bookname> add <chapter-count> filter <filter>                          # 9. add chapters and run a single filter
@@ -55,6 +56,7 @@ After **every** command in this workflow completes — including read-only, no-o
 | `poet` (aliases: `poetry`, `poem`) | Invokes the poetry agent (`.framework/agents/poetry/agent.md`) to produce a single finished poem based on the human-authored `override.md` if it exists. |
 | `filter` | Runs a single named filter inside an existing pipeline. Never scaffolds or writes finished chapters. The `*` / `all` bulk form is disabled; run each filter separately. |
 | `enrich` | Fuses the active (`autorun: true`) filters from `filters.json` into one combined agent and runs it in a single pass over the selected chapters, recording the combined enrichment guidance in each chapter's `model.json` ready for write or publish. Never scaffolds, never reads or writes `chapter.md`, and never writes finished chapters. |
+| `review *|all|<n>` | Audit chapters against the seed analysis's quality parameters via the review agent at `.framework/agents/review/agent.md`; the quality gate that must pass before publish. Records `quality_review` result and sets state to `"completed"` on pass. |
 | `form` | Changes the pipeline's `form` field and reconciles form-driven settings. |
 | `config` | Reads or writes book-level configuration values in `model.json` and chapter models. Requires an existing pipeline. |
 | `add <chapter-count> filter <filter>` | Adds more main chapters to an existing book pipeline, then runs the requested single filter for the newly added chapters. |
@@ -103,13 +105,14 @@ The `/book` workflow is a linear pipeline of six phases. Each phase has **one tr
 | 4 — Write | `/book <bookname> write <n>|range|all|continue <language>` | Turn filter outputs into finished reader-facing chapters. | Story agent (novel) / poetry agent (poetry) | Filter outputs | `source/books/<bookname>/<version>/chapters/<n>.md` |
 | 4a — Style | `/book <bookname> style [<style>]` | Transform latest writer-stage chapter versions through a named transformer style. | Style agent (`.framework/agents/style/agent.md`) | `.framework/templates/styles/<style>/style.md` + `segments/1/writer/` | next `segments/1/writer/chapter_v*.md` |
 | 4b — Translate | `/book <bookname> translate <n>|all|continue <language>` | Translate latest writer-stage chapter versions without changing the live draft. | Translate agent (`.framework/agents/translate/agent.md`) | `segments/1/writer/chapter_v*.md` or `chapter.md` | `segments/1/translator/<language>.md` |
-| 5 — Quality & promote | `/book <bookname> filter quality` | Final quality gate and assembly into `book.md`. | Quality agent | Completed chapters | `source/books/<bookname>/<version>/book.md` |
+| 5 — Quality & promote | `/book <bookname> filter quality`<br>`/book <bookname> review *|all|<n>` | Final quality gate and assembly into `book.md`. | Review agent (`.framework/agents/review/agent.md`) | Completed chapters | `source/books/<bookname>/<version>/book.md` |
 
 ### Phase gates
 
 - **Phase 3 is gated by Phase 2.** Filters and agents require an existing pipeline. If `.space/pipeline/<bookname>/` is missing, stop and require `scaffold`.
 - **Phase 4 is gated by Phase 3.** Do not write a chapter until the filters that feed it have produced their outputs.
 - **Phase 5 is gated by Phase 4.** Do not assemble `book.md` until all chapters are written.
+- **Review is gated by Phase 4 (write).** Do not review a chapter until it has a non-empty `chapter.md` draft. A chapter must be written before it can be reviewed.
 
 The workflow orchestrates these phases; it **never** executes layout, research, theme, syntax, or quality skills directly. It routes every skill-backed operation through the agent that owns the current phase. 
 
@@ -423,6 +426,31 @@ Responsibility: evaluate whether the pipeline is complete enough to `write` and 
 4. Report the readiness table and blockers. Do not run `write` or `publish` from this command — it only tells the user whether those steps are safe.
 
 Run `eval` before `write` or `publish` to confirm the pipeline is complete; a chapter is publish-ready only when it is written, its quality review passed, and its draft hash is still current.
+
+## The Review Command
+
+For `/book <bookname> review *|all|<n>`:
+
+Responsibility: audit chapters against the seed analysis's quality parameters via the review agent at `.framework/agents/review/agent.md`. This is the **quality gate** — a chapter is not complete and not eligible for publish until it has passed review. The review agent is form-aware and routes to the quality-novel or quality-poetry skill.
+
+- `all` / `*` — review every chapter in the plan (default).
+- `<n>` — a single chapter number.
+- `continue` — the first chapter not yet marked `completed` (or the whole book if all are completed).
+
+1. Stop if `.space/pipeline/<bookname>/` does not exist; use `scaffold` first.
+2. Read the pipeline form from `book.json` or `model.json` to determine novel or poetry.
+3. Route the work through the review agent at `.framework/agents/review/agent.md`. The agent dispatches to `.framework/skills/quality-poetry/SKILL.md` (poetry) or `.framework/skills/quality-novel/SKILL.md` (novel).
+4. Resolve the target chapter(s):
+   - `all` / `*` — every canonical chapter in order.
+   - `<n>` — that numbered chapter.
+   - `continue` — the first chapter that is written but has no passed `quality_review`.
+5. For each target chapter, the review agent reads the chapter's model, the chapter draft (`chapters/<n>/chapter.md`), the pipeline `style.md`, and the seed quality parameters. It audits the draft against those parameters.
+6. On pass, the review agent records `quality_review` in the chapter model with `status: "passed"`, `sha256` of the draft, `reviewed_at`, and `reviewer`. It sets `state` to `"completed"`.
+7. On fail, the review agent reports the specific quality violations and leaves the chapter state unchanged so revisions can be made.
+8. The review agent must not: write final output to `source/books/`, run any earlier filter, or read the backlog/epic.
+9. Report the resolved form, selected skill, processed chapter scope, and the chapter-model paths updated with `quality_review`.
+
+A chapter is publish-ready only when it is written, its quality review passed, and its draft hash is still current. Do not run `publish` from this command — it only audits and records results.
 
 ### The human-in-the-loop override filter
 
