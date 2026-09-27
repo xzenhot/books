@@ -4,10 +4,60 @@
   "word_target": 500,
   "chapter_title": "The Dead Merchant's Lamplight",
   "chapter_summary": "Gangaram still counts his fortune by a light no one else can see, the ledger open in a locked room. The poem joins the dead merchant at his final task, the arithmetic that outlasted the man and the money alike.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Historical accounting practices of North Indian merchant families (pre-modern banking)",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The symbolism of oil lamps and continuous light sources in Hindu/Jain philosophy",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the lamplight itself as a commodity: calculating its precise material cost (oil, wick) against the perceived value of Gangaram's continuing work.",
+      "Framing the accounting not in numbers but in debts owed—a tally of favors, promises broken, or lives altered by his profit.",
+      "Adopting the perspective of an inanimate tool used for counting (e.g., a specific abacus bead, the inkwell): it registers only mechanical motions, stripping away sentimental meaning from the figures."
+    ],
+    "story_options": [
+      "Setting: The main desk in the locked upper room; Desire: To calculate the 'cost' of silence—the years where nothing was written or signed; Obstacle: The light source begins to flicker unpredictably, mirroring uncertainty.",
+      "Setting: A discarded stack of old, heavily annotated ledgers; Desire: To find an entry representing a non-monetary exchange (e.g., 'one debt paid in silence'); Obstacle: The required signature for this abstract payment is on the dead merchant's own fingerprints.",
+      "Setting: Standing just outside the locked door, observing only the weak, steady cone of light; Desire: To deduce the pattern of his remaining labor by timing the rhythmic movements visible through the crack; Obstacle: The rhythm abruptly changes tempo or stops entirely."
+    ],
+    "subject_rotations": [
+      "Shifting focus from 'counting fortune' to 'auditing guilt': treating each entry not as profit/loss, but as a ledger of karmic debt.",
+      "The failure of precision: exploring the mathematical concept of an unquantifiable remainder—the residue of human experience that money cannot account for.",
+      "The materiality of light: analyzing how the quality of low lamplight (color temperature, flicker rate) affects perception and memory recording."
+    ],
+    "sensory_details": [
+      "Smell: The coppery scent of old, oxidized brass from unused accounting tools.",
+      "Sound: The faint, repetitive *scratch-thud* sound of the quill pen meeting aged, dry paper.",
+      "Touch: The velvety heat radiating disproportionately from the immediate area around a burning wick."
+    ],
+    "research_questions": [
+      "What specific types of non-currency exchanges (barter goods, labor commitments) were recorded as legitimate transactions in 19th/early 20th-century Marwari merchant bookkeeping?",
+      "Did the practice of keeping detailed accounting books survive beyond actual commercial need into private record-keeping for symbolic reasons?"
+    ],
+    "structural_variants": [
+      "A staccato poem mirroring rapid, obsessive calculation, slowing only at significant zeroes or unexplained voids.",
+      "Structuring the chapter as a dialogue between an imagined 'Auditor' and the spectral hand of Gangaram."
+    ],
+    "unused_angles": [
+      "The comparison of financial ledgers to astronomical charts—predicting futures based on cyclical patterns, rather than linear accumulation."
+    ],
+    "variety_note": "This chapter grounds its thematic exploration in highly specific physical objects—the ledger, the wick, the abacus bead—to ground abstract concepts like guilt and time."
+  },
+  "draft": {
+    "sha256": "23dcd85948489c3b204ef340cdabc2676017a59ae8f425ff3f8e8d4ba096135b",
+    "written_at": "2026-09-27T17:12:14.922496+00:00",
+    "origin": "write"
+  }
 }

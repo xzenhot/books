@@ -100,7 +100,7 @@ The default transformer is `pijush`. For this style:
 - Do not translate into a new language; use the translate agent for that.
 - Do not write to `source/books/`.
 - Do not overwrite writer-stage files.
-- Do not write the style transformation to chapter-root `chapter.md`. That file is authored only by the write/chapter/poet path; the delegated enrich agent updates only the chapter `model.json` during the prerequisite.
+- Do not write the style transformation to chapter-root `chapter.md`. Workshop may create that file only when absent; later revisions belong to the write/chapter/poet path. The delegated enrich agent updates only the chapter `model.json` during the prerequisite.
 - Do not update `progress.json` unless a future workflow explicitly defines style progress.
 - Do not change `.framework/templates/styles/<style>/style.md` while applying the style.
 

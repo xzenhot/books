@@ -4,10 +4,67 @@
   "word_target": 500,
   "chapter_title": "The Shifting Trade Route",
   "chapter_summary": "The roads of commerce bend away from Shekhawati toward the railways and the ports, and the camel caravans grow fewer. The poem marks the beginning of the end, the geography itself withdrawing its favor from the merchant's town.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Impact of Indian Railways on regional trade centers post-mid-19th century",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Historical documentation of changes in major overland routes connecting Delhi to Gujarat/Mumbai era",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "The shift from textile-based wealth accumulation to other commodities (e.g., raw materials, export cash crops) in Rajasthan's economy",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Addressing the fading haveli structure itself: Treating the architecture as a historical body reacting to lack of use—sagging arches, unused paint pigments.",
+      "The perspective of the local artisan who understood multiple trade cycles: One whose skills (carpentry, fresco painting) were useful regardless of whether silk or salt was flowing through the market.",
+      "Framing the route shift as a betrayal by geography itself: Personifying the shifting dust clouds or changing wind patterns that guide commerce away from Mandawa."
+    ],
+    "story_options": [
+      "Setting: A specific, deserted corner of the haveli courtyard; Desire: To hear the distinct sound of iron railway wheels rolling across flagstones where only camel hooves once echoed; Obstacle: The deep accumulation of fine, arid dust that muffles all sound until nothing is discernible.",
+      "Setting: Near a major old junction point (where a cart track met a potential rail line); Desire: To find one specific family portrait showing people dressed for both caravan travel and train passage; Obstacle: A physical marker—a fallen piece of industrial debris, like rusted railway spike or oil residue—that anchors the change irreversibly.",
+      "Setting: The outer wall facing the old main trade artery; Desire: For an elder merchant to recount a specific moment when he *felt* the tide turn, not seeing it happen, but sensing the atmospheric shift in the market's energy; Obstacle: The sheer weight of accumulated nostalgia that paralyzes decisive action."
+    ],
+    "subject_rotations": [
+      "Focusing entirely on specialized goods other than textiles (e.g., dyes, spices like turmeric or indigo) whose value was impacted by changing routes.",
+      "A geographical study poem: Mapping the journey from the haveli to the *new* centers of commerce visible only in memory or faint sketches.",
+      "The internal economic debate: A poetic argument between two surviving family members—one clinging to traditional overland trade methods, the other reluctantly embracing whatever new cash crop promises profit."
+    ],
+    "sensory_details": [
+      "Sight: The way sunlight catches the distinct tracks of oily residue or foreign grit deposited by wheeled machinery onto ancient marble steps.",
+      "Sound: The faint, rhythmic *clank-hiss* sound suggestive of steam pressure, alien to the usual sounds of human labor or animal breath.",
+      "Smell: The sharp, metallic odor of iron mixed with the dry scent of exotic, non-local medicinal herbs carried by early travelers."
+    ],
+    "research_questions": [
+      "What tangible artifacts survived in Shekhawati that specifically record interactions with the railway infrastructure or related industries?",
+      "What economic impact did the relative decline of textile trade have on specialized local crafts (e.g., embroidery, metalwork) in these towns?",
+      "How were 'new' goods associated with railways—like refined coal smoke residue or standardized packaged materials—initially perceived by established artisan classes?"
+    ],
+    "structural_variants": [
+      "A poem structured like a receding map: beginning with precise, detailed descriptions of the familiar routes, and ending with increasingly generalized, abstract landscape descriptions.",
+      "An epistolary structure addressed to a descendant who lives in the 'new' city center, describing what their life has lost by focusing only on modernity."
+    ],
+    "unused_angles": [
+      "The emotional topography of an empty depot waiting for an arrival that will never come.",
+      "Interweaving mythic figures associated with waterways (rivers, oceans) into the poem as a commentary on the land-bound nature of merchant power."
+    ],
+    "variety_note": "Unlike poems focusing on the internal decay or interpersonal debts within the haveli walls, this chapter must focus outward—on the changing external world and the physical routes that once defined its wealth."
+  },
+  "draft": {
+    "sha256": "e0fbeae67c3e4848888076b767b62327e6a513786cfa0d92dfbbe75dde578380",
+    "written_at": "2026-09-27T17:08:09.419933+00:00",
+    "origin": "write"
+  }
 }

@@ -277,7 +277,7 @@ On an existing pipeline, preserve the incremental rule: do not re-clone over an 
 
 #### Chapter paths
 
-- `chapters/<n>/chapter.md` is the live working draft for the chapter. Scaffold seeds it with the bare minimum chapter content. It is reserved exclusively for the writing stage (chapter/write agents); **filters (workshop, research, correctness, theme, syntax, override, quality, enrich) must never read or modify it** — filters operate solely on `chapters/<n>/chapter.json` (e.g. `.space/pipeline/lau/chapters/4/chapter.json`) and their own `filters/<filter>/` inputs/outputs.
+- `chapters/<n>/chapter.md` is the live working draft. The workshop filter may create an initial draft only when the file is absent and must never read or overwrite an existing draft. Later revisions belong to the writing stage (chapter/write agents). All other filters, including enrich, must not read or modify it; they operate on `chapter.json` and their own `filters/<filter>/` inputs/outputs.
 - `chapters/<n>/chapter.json` is the runtime state for the chapter. Filters, story agents, poet agents, and supporting skills must merge their metadata here rather than inventing parallel state files.
 - `chapters/<n>/mood.json` describes how the chapter is shaped across segments and must remain the continuity/readability guide for downstream writing.
 - `chapters/<n>/segments/<x>/version/` stores verified copies of the prior `chapter.md` and writer-stage drafts before replacement, following **Mandatory Draft Version Before Overwrite**. Other metadata snapshots may remain directly under `history/`.
@@ -286,7 +286,7 @@ On an existing pipeline, preserve the incremental rule: do not re-clone over an 
 - `chapters/<n>/segments/<x>/editor/` stores editor comments, assessments, and quality notes.
 - `chapters/<n>/segments/<x>/translator/` stores translated outputs of the latest chapter or segment draft, named by language such as `en.md`, `hn.md`, or `bn.md`.
 
-No downstream step may create alternate chapter-version files in the chapter root unless the scaffold agent's contract is updated to allow them. The chapter root holds the live `chapter.md`; versioned or translated derivatives belong in segment `version/`, `writer/`, `editor/`, or `translator/` folders (legacy archives remain in `history/`).
+No downstream step may create alternate chapter-version files in the chapter root unless the scaffold agent's contract is updated to allow them. The chapter root holds the live `chapter.md`; workshop may create it only when absent, while later writers archive before replacing it. Versioned or translated derivatives belong in segment `version/`, `writer/`, `editor/`, or `translator/` folders (legacy archives remain in `history/`).
 
 ## The Epic (Novel only)
 
@@ -376,13 +376,13 @@ Running a filter (`/book <bookname> filter <filter>`):
 1. Stop if the pipeline does not exist. If the pipeline is missing, the user must run `scaffold` first.
 2. Read the filter registry at `.space/pipeline/<bookname>/filters/filters.json` to resolve the filter name to its agent path (`agent`) and `autorun` flag (`true`/`false`). Each entry carries only `order`, `name`, `agent`, and `autorun`.
 3. Read the filter's agent at `.framework/agents/<filter>/agent.md` for both novel and poetry. If the filter needs a skill and no agent exists, create the missing agent first; the agent may then invoke the skill.
-4. Read the pipeline data the filter needs — for the target chapter, this is the chapter's `chapter.json` only (e.g. `.space/pipeline/lau/chapters/4/chapter.json`), plus shared pipeline inputs such as the root `book.json`, `characters.json`/`bookseed.txt`, the epic, and upstream filter outputs under `filters/`. **Filters must not read `chapters/<n>/chapter.md`**: the live draft is reserved for the write/authoring stage; filters operate on chapter metadata (`chapter.json`) and filter-to-filter inputs/outputs only.
-5. **Snapshot the model state before any update.** Before a filter makes any change for a chapter, copy the chapter's current `model.json` into the chapter's history folder `.space/pipeline/<bookname>/chapters/<n>/history/` (create it if missing), naming the copy with a timestamp or incrementing version (e.g. `model_<filter>_<timestamp>.json` or `model_v<n>.json`). This snapshot is the filter's undo record: restoring it reverses the filter's effect. No filter may modify chapter data before its snapshot exists. Filters do not snapshot `chapter.md`, because they never read or modify it.
+4. Read the pipeline data the filter needs — for the target chapter, this is the chapter's `chapter.json` only (e.g. `.space/pipeline/lau/chapters/4/chapter.json`), plus shared inputs and upstream filter outputs. **Filters must not read `chapters/<n>/chapter.md`.** Workshop may create the initial draft without reading it; all other filters leave the live draft untouched.
+5. **Snapshot the model state before any update.** Before a filter changes a chapter model, copy the current model into `.space/pipeline/<bookname>/chapters/<n>/history/`. No filter may modify chapter data before its snapshot exists. Workshop creates `chapter.md` only when absent, so it does not replace or snapshot an existing draft.
 6. **Run it.** `/book <bookname> filter <filter>` runs exactly the named filter, regardless of its `autorun` flag. The `*` / `all` bulk form is not accepted — report an error and instruct the user to run each filter separately by name, in order. There is no combined full-chain `filter` pass.
 7. **Update the chapter state after each filter.** After a filter runs against a chapter, update `.space/pipeline/<bookname>/chapters/<n>/chapter.json` to record the new state: set `state` to the filter name that just ran (e.g. `"workshop"`, `"research"`, `"theme"`, `"syntax"`, `"quality"`), and add or update a `filter_history` array entry recording `{ filter, ran_at }` so the chapter's progression through the chain is auditable. Preserve all other fields; merge, never overwrite.
-8. **Responsibility boundary:** `filter` is read/write on the chapter's `model.json` and `filters/` outputs only. It must never read or write `chapters/<n>/chapter.md`, run layout, or perform scaffold steps. Because scaffold does not pre-create filter folders, the filter creates its own `filters/<filter>/` folder (and its `filter.md`, `filter-summary.md`, `content-input.md`, `content-output.md` files) on first run if missing.
+8. **Responsibility boundary:** `filter` is read/write on the chapter's `chapter.json`/`model.json` and its own `filters/` outputs. Only workshop may create `chapters/<n>/chapter.md`, and only when absent; no filter may read it or overwrite it. Because scaffold does not pre-create filter folders, the filter creates its own `filters/<filter>/` folder and required artifacts on first run. Workshop does not need a `content-output.md`; its initial `chapter.md` is its eval-visible output.
 
-Filters must also obey the chapter layout contract: filters read/write only the chapter `model.json` and their own `filters/<filter>/` outputs; `chapter.md` stays untouched as the live draft for the writing stage; commentary goes to `segments/<x>/editor/`, translations to `segments/<x>/translator/`, and any replaced writer-stage draft is archived into `history/` by the writing agents.
+Filters must also obey the chapter layout contract: only workshop may create the live `chapter.md`, and only if absent. Other filters leave it untouched. Commentary goes to `segments/<x>/editor/`, translations to `segments/<x>/translator/`, and any replaced writer-stage draft is archived by the writing agents.
 
 ## The Enrich Command
 
@@ -400,7 +400,7 @@ Responsibility: fuse the active filters into one combined agent and run it in a 
 2. Read the filter registry at `.space/pipeline/<bookname>/filters/filters.json`. Resolve the **active** filters — every entry whose `autorun` is `true` — sorted by `order`. If none are active, stop and report that there is nothing to combine.
 3. Route the work through the enrich agent at `.framework/agents/enrich/agent.md`. The agent reads each active filter's `agent.md`, fuses their task/method/rules into one ordered instruction set, and applies it in a single pass.
 4. Resolve the target chapter(s) from `<count>`, `range`, or `*` (see above).
-5. For each target chapter, the combined agent reads **only** `chapters/<n>/chapter.json` (e.g. `.space/pipeline/lau/chapters/4/chapter.json`) plus the active filters' own outputs under `filters/`, and applies the fused guidance in `order` sequence. Enrich — like every filter — must not read `chapters/<n>/chapter.md`; that file is reserved for the writing stage and is authored only by the chapter/write agents.
+5. For each target chapter, the combined agent reads **only** `chapters/<n>/chapter.json` (e.g. `.space/pipeline/lau/chapters/4/chapter.json`) plus the active filters' own outputs under `filters/`, and applies the fused guidance in `order` sequence. Enrich — like every filter — must not read `chapters/<n>/chapter.md`; workshop may create it only when absent; later revisions belong to the chapter/write agents.
 6. The combined agent updates `chapters/<n>/chapter.json` with `state: "enriched"` and an `enrich` record listing the fused filter names in order. It does not write per-filter `content-input.md`/`content-output.md` files, does not write to `source/books/`, does not touch `chapter.md`, and does not overwrite unrelated `chapter.json` fields.
 7. Report the resolved active filters, the fused order, the chapters processed, and the resulting `state`.
 
@@ -549,7 +549,7 @@ Responsibility: turn pipeline filter outputs into finished reader-facing chapter
 9. Update `progress.json` after each completed chapter.
 10. Do not run filter agents during this phase; their outputs are inputs here.
 
-The form-resolved writing agent (story for novel, poetry for poetry) and any skill it invokes must treat `chapters/<n>/chapter.json` as the authoritative runtime metadata file, `chapters/<n>/chapter.md` as the live working draft (authored here, never read as a source), and `segments/1/version/` as the archive for replaced drafts. `segments/1/writer/` is not used by the write path.
+The form-resolved writing agent (story for novel, poetry for poetry) and any skill it invokes must treat `chapters/<n>/chapter.json` as the authoritative runtime metadata file, `chapters/<n>/chapter.md` as the live working draft (created if absent by workshop; authored or revised here, never read as a source), and `segments/1/version/` as the archive for replaced drafts. `segments/1/writer/` is not used by the write path.
 
 ## The Publish Command
 

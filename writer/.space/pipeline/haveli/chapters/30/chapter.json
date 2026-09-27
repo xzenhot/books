@@ -7,56 +7,58 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "Historical techniques of in-situ monumental inscription on porous sandstone or local limestone in Rajasthan",
+      "reference": "Inscriptional art practices of Rajput architecture (epigraphy)",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "The semiotics of names and lineage markers within Rajput/Marwari architecture",
+      "reference": "Social customs surrounding the inscription and commemoration of lineage in Rajasthan.",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Treating the inscription not as boast, but as a curse—a permanent obligation placed on future generations to maintain the visible sign of wealth.",
-      "Shifting the address from an absent person/reader to the stone itself: giving the carving agency and memory, making *it* the chronicler of the passage of time that renders the name meaningless.",
-      "Focusing not on the inscription's permanence, but on its slow physical degradation—the way acid rain or wind erosion rounds off the sharp edges of letters, literally erasing the boast over decades."
+      "The illegibility angle: Focusing not on what *is* carved, but on sections that are intentionally rendered blank or corrupted by later additions, suggesting an active erasure of memory.",
+      "The material contrast: Comparing the ephemeral nature of fresco paint (which degrades) against the perceived permanence of carved stone (which can be vandalized or weathered).",
+      "The differing stakes of inscription: Contrasting a name given for financial success/trade longevity versus a name inscribed by religious devotion or familial duty."
     ],
     "story_options": [
-      "Setting: A low-ceilinged hallway where inscriptions are concentrated; Desire: To discover a deliberately misspelled or altered name that reveals a family scandal or pact made generations ago; Obstacle: The current caretaker believes the inscription must be 'read correctly' as it was first carved, preventing deviation. Turn: A hidden compartment containing corrected records is revealed behind the plaque.",
-      "Setting: An outer courtyard corner where one large foundational stone bears several faded names over centuries; Desire: To piece together a non-familial narrative—a sequence of unrelated individuals who happened to touch or build around that single point in time; Obstacle: The constant flow of daily life (donkeys, vendors) obscures the details. Turn: A pattern emerges suggesting the names followed not by lineage, but by trade guild affiliation.",
-      "Setting: The shadow cast by a doorway onto a freshly carved line; Desire: To use the transient nature of light and shadow to 'write' an alternate meaning over the permanent carving for just one moment; Obstacle: Another resident calls attention to the irregularity of the mark before the sun moves. Turn: The temporary marking reacts chemically with the original stone, causing it to glow briefly."
+      "Setting: The base plinth of the main gate archway, bearing three different surnames carved over generations; Desire: To determine which lineage (the first carver, the one who paid for the most additions, or the latest resident) has the strongest claim to permanence; Obstacle: A natural geological fault line runs directly beneath the inscription.",
+      "Setting: The personal stone name plaque within a single family's private receiving room (*darbar* corner); Desire: To discover that the carved name is not the owner's, but of the *patron* who originally paid for the space; Obstacle: The resident family has consciously obscured or deliberately altered this original inscription over time.",
+      "Setting: A secondary courtyard dedicated to the building’s spiritual guardian figure (a minor deity); Desire: To find an unexpected layer of carving—a name scratched by a devotee passing through, who had no business leaving a mark; Obstacle: The stone is so porous it absorbs and distorts the marks until they look like natural lichen growth."
     ],
     "subject_rotations": [
-      "A linguistic approach: analyzing the specific Sanskrit/Marwari root words chosen for names and their connection to trade commodities (salt, cotton, jewels) rather than lineage or virtue.",
-      "An archaeological reading: treating the inscriptions like artifact stratigraphy—the layers of ambition stacked on top of each other by subsequent wealthy families.",
-      "A counter-narrative through art: contrasting the rigid geometry of Latin script/Devanagari characters with the fluid, uncontrolled energy visible in a nearby fresco mural."
+      "Treating the inscription as an early form of branding or corporate signage, mapping Gangaram's name onto his self-mythology.",
+      "Examining the physical act of carving itself: The specialized tools (chisels, abrasives) and the specific rhythm/skill required to make a 'permanent' mark in hard stone.",
+      "A dialogue between two generations: An elder remembering the meaning and context of the original inscription versus a younger character who sees it only as decorative cliché."
     ],
     "sensory_details": [
-      "Sound: The dull, resonant *thud* of the stone chisel falling into soft earth after completing a challenging curve.",
-      "Smell: The dry, dusty scent of minerals disturbed from deep within the wall cavity surrounding the plaque.",
-      "Touch: The precise, cool resistance felt when running a fingertip over the deeply carved channel where accumulated grime has darkened the letters."
+      "Sound: The low, grating scrape of a chisel against sandstone that has been sanded smooth by decades of monsoon runoff.",
+      "Touch: The grit left under the fingernails from brushing away century-old mineral deposits to reveal fresh lettering.",
+      "Smell: The metallic tang of oxidized iron (from old tools or decorative fittings) mingling with wet, earthy plaster dust."
     ],
     "research_questions": [
-      "What were the common administrative or symbolic meanings attached to carving specific markers (like dates, guilds, caste identifiers) onto residential haveli walls beyond mere ownership?",
-      "How did local masonry traditions handle weathering agents like acidic runoff from modern materials in comparison to natural rainwater flow?",
-      "Are there surviving examples of mnemonic devices embedded within the epigraphy that hint at oral histories or unrecorded family agreements?"
+      "What were the legal or social implications in this region regarding who had the right to have a name permanently affixed to property?",
+      "Are there distinct regional styles of carving letters (e.g., specific angles for 'A' or 'M') used by different artisan guilds during that period?"
     ],
     "structural_variants": [
-      "A poem structured as an inventory: itemizing every name seen on the exterior walls, cataloging their relative size (large name vs. tiny dedication) to weigh perceived importance.",
-      "An address written entirely in rhetorical questions directed at a phantom audience standing just outside the frame of vision.",
-      "A palimpsest structure: where the stanzas are layered over each other, suggesting that later additions have physically eroded or overwritten earlier ones."
+      "An object-focused poem: The narrative revolves around the study and physical handling of a single, inscribed stone fragment found near debris.",
+      "A bureaucratic/oral history structure: Presenting fragmented testimonials from various characters (a servant, a neighboring artisan, an old woman) all offering slightly different 'truths' about whose name was recorded and why."
     ],
     "unused_angles": [
-      "Exploring how graffiti (modern vandalism) interacts with historic inscriptions—the dialogue between erasure and permanence.",
-      "The specific physical location of the name placement: on a load-bearing pillar versus an easily replaceable lintel.",
-      "A character who specializes in reading people by their hands, applying this same principle to 'reading' the intentions etched into stone."
+      "The forgotten function of the inscription: Was it ever meant to direct people—like a marker for tax payment or land boundary?",
+      "Inscription as status insurance: Analyzing how many names were added purely to *appear* like one was accruing historical weight, rather than being genuine statements."
     ],
-    "variety_note": "Where previous chapters dealt with art or commerce as transient power displays, this piece focuses on inscription—the attempt to fix subjective ego onto immutable, geological matter."
+    "variety_note": "While previous chapters focused on the vibrant execution of art (fresco/pigment), this chapter must focus entirely on subtraction and endurance—the permanence achieved through the mechanical act of carving into inert stone."
+  },
+  "draft": {
+    "sha256": "ec5541aa9d54daf49ff5a5b689b5d94be3ce2f5e625001d67263779baa5fbd01",
+    "written_at": "2026-09-27T17:05:29.358439+00:00",
+    "origin": "write"
   }
 }

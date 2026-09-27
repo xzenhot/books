@@ -4,10 +4,57 @@
   "word_target": 500,
   "chapter_title": "The Widow's Wages",
   "chapter_summary": "The dead laborer's pay is withheld, and the widow is turned from the door. The poem gives the widow's vigil its full weight, the unpaid wages that will outlast the merchant who withheld them.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Traditional inheritance laws pertaining to artisan wages in Rajasthan",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The role of village women (widows) as economic actors outside the primary household structure",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Legalistic reckoning: Framing the unpaid wages not as a moral failing, but as a violation of documented contractual law (a breach visible only in ledgers).",
+      "The domestic economy vs. merchant capital: Juxtaposing the intimate ritual needs and sustenance provided by the widow against the abstract, hoarding nature of large merchant wealth.",
+      "Temporal displacement: Imagining the wages being paid decades later, requiring the widow to relive the moment as if it were yesterday."
+    ],
+    "story_options": [
+      "Setting: The family's small but meticulously kept hearth in a side courtyard; Desire: For the widow to use her retained portion of household goods (a specific piece of jewelry, good shawl) as tangible proof of his wealth transfer. Obstacle: The merchant’s representative dismisses these items as mere 'remnants.' Turn: A community elder intervenes, citing an ancient custom that supersedes the current law.",
+      "Setting: Standing directly in the doorway between the haveli and the main thoroughfare; Desire: For the widow to receive not cash, but a specific commodity—enough seeds for planting or enough dyes for her weaving—that represents future productivity. Obstacle: The merchant insists on physical coin only. Turn: A passing vendor offers a counter-commodity, suggesting a different kind of exchange entirely.",
+      "Setting: The edge of the property line, where the private world meets the public street; Desire: For the widow to find a witness—a stable worker or water carrier from the bazaar who recalls the *actual* conversation about the payment. Obstacle: All witnesses are either bribed or simply too terrified to speak up. Turn: The memory surfaces not as testimony, but as an involuntary physical gesture (a cough, a shift of weight) that betrays the lie."
+    ],
+    "subject_rotations": [
+      "Focusing on the unpaid wages themselves as a narrative element: Treating the coins/currency as slow-moving characters—each one weighted with unspoken promises and obligations.",
+      "The physical endurance of mourning: Shifting focus from the *money* owed to the visible, sustained ritual labor of grief itself, which demands upkeep regardless of external funds.",
+      "The ledger's gap: Treating the blank space where wages should be recorded as a potent form of architecture—a negative space that defines the entire structure's failure."
+    ],
+    "sensory_details": [
+      "Sight: The dust motes caught in a single, late afternoon shaft of light illuminating only the ungathered scraps of fabric near her feet.",
+      "Sound: The sharp, brittle sound of dry, untouched lentils scattering across stone when she accidentally kicks an old pot.",
+      "Touch: The cool, resistant texture of carved wood on the threshold—the boundary between what was provided and what is now withheld."
+    ],
+    "research_questions": [
+      "What were the specific customary forms of currency or barter accepted for labor wages in this region during that period?",
+      "Were there legal mechanisms within local artisan guilds to protect widows' rights regarding their deceased husband's accrued earnings?"
+    ],
+    "structural_variants": [
+      "A slow, recursive descent into memory, using the physical act of waiting (counting breaths) as a metronome.",
+      "A dialogue structured entirely around what *is* said versus what *must* be left unsaid to maintain composure in public."
+    ],
+    "variety_note": "Unlike previous chapters that focused on professional trades or grand public displays, this piece narrows the focus exclusively onto the immediate domestic aftermath of economic collapse: the survival mechanism of the family unit against bureaucratic neglect."
+  },
+  "draft": {
+    "sha256": "179559c0200b3e1c50ecafc29812b6f04e6f312591c075f9d80ee3cf4bedcb46",
+    "written_at": "2026-09-27T17:06:42.253599+00:00",
+    "origin": "write"
+  }
 }

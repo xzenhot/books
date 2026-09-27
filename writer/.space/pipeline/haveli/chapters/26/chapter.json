@@ -7,50 +7,61 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "The mechanics of public celebration financing in Marwari mercantile culture",
+      "reference": "Monsoon festival traditions in Rajasthan architecture",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "Traditional monsoon festivals and the blending of religious observance with commerce",
+      "reference": "The social contract between haveli ownership and community ritual space usage",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Viewing Teej not as a celebration, but as an annual 'resource drain': tracking which visible goods (sweets, painted backdrop elements) are used up, representing consumable capital.",
-      "The role of the marginalized community: focusing on groups who serve or observe—the water carriers, the flower vendors, the cooks—and their perspective shift from service to participation.",
-      "Memory contrast: contrasting the heightened, saturated reality of the festival with the faded, muted tones when revisiting the haveli years later (linking to the primary lens).",
-      "Soundscape mapping: treating the cacophony not as joyful noise, but as a structured sonic event containing specific intervals or recurring motifs that reveal underlying tensions."
+      "The functional architecture of festival spillover: Analyzing which structural elements (balconies, gates, courtyard paving) were specifically designed to handle transient public crowds, contrasting this with the private ritual spaces.",
+      "A focus on the *transition* between celebration and silence: Spending most of the poem in the height of revelry, then dedicating the final third to the immediate post-festival exhaustion—the clean up, the quiet debris.",
+      "The memory of specific communal sounds: Instead of general music, focusing hyper-specifically on one recurring sound that defines Teej (e.g., a particular rhythmic clapping pattern, the creak of shared wooden furniture, or a unique vendor's cry) and how that sound decays in time."
     ],
     "story_options": [
-      "Setting: The main central square courtyard during Teej; Desire: A servant girl is tasked with keeping count of how many different colored bangles break in the ensuing crowd, realizing each piece lost marks a moment of wealth spent.",
-      "Setting: The exterior periphery boundary wall where the festival spills out; Desire: A minor character sees an item or person from today—a specific vendor's wagon wheel tread mark, a unique discarded ornament—that will reappear unchanged during the next decade’s celebration, marking cyclical permanence despite decadence.",
-      "Setting: A service entrance/back alley adjacent to the main hall reserved for temporary stalls; Desire: The writer focuses on the negotiations happening in the shadows between two merchants who are not celebrating but solidifying a future, necessary debt repayment."
+      "Setting: The main thoroughfare just outside the haveli gate during peak celebration; Desire: To observe one artisan who is meant to sell ritual goods but whose wares are inadequate for modern souvenir tastes, and Obstacle: A sudden, powerful downpour that forces an unplanned shelter shift.",
+      "Setting: A specific window on a second-story balcony overlooking the crowded street; Desire: To watch a single family unit navigate the crowd—a mother protecting a child while haggling over food—and Obstacle: The owner of the haveli estate making a calculating, visible assessment of this small group's apparent poverty.",
+      "Setting: The covered passageway connecting two neighboring mansions (if one exists); Desire: To discover secret graffiti or markings left by previous generations who passed through during Teej, detailing forgotten celebrations and hidden alliances."
     ],
     "subject_rotations": [
-      "Shifting focus from visible art and music to consumable elements: centering the narrative around specific, perishable food items—the quality of the *ghevar* syrup, the dye used in ephemeral festival garments.",
-      "Treating the festive gathering as a temporary social contract: examining which families uphold their facade best under external scrutiny versus those who are quietly collapsing into debt or fading influence.",
-      "Deconstructing 'public' space: exploring how the designated public area of the haveli feels emotionally different from its private, intended function—a forced generosity."
+      "Treating the festive food stalls as temporary, mobile economies that critique the permanence of the haveli's stored wealth.",
+      "Examining the performance aspect: The festival elements (music, dance) not as joy, but as an elaborate annual labor contract renewing social debts between the powerful and the common people.",
+      "Focusing on ritual residue: Treating spilled colors, leftover flower garlands, or discarded ceremonial items as archaeological finds of ephemeral human connection."
     ],
     "sensory_details": [
-      "Smell: The sharp, metallic tang of sweat mingling with overpowering sweet incense used to mask damp earth and unwashed bodies.",
-      "Sound: The specific, uneven *rhythm* created by hundreds of small bells (attached to bangles or ankles) whose clinking patterns refuse to synchronize into a single beat.",
-      "Touch: The sticky residue of spilled colored confectionary syrup coating carved stone steps that were meant for elegant shoes, now marred by grit and sugar."
+      "Smell: The sharp, sweet clash of monsoon earth meeting freshly churned ghee oil.",
+      "Sound: The high-pitched, rhythmic ringing of brass ankle bells mixed with the deep resonance of a distant folk drum.",
+      "Sight: The unnatural saturation of color on textiles—the dyes appearing oversaturated and almost plastic under electric or heightened festive lighting."
     ],
     "research_questions": [
-      "What specific vendor goods or temporary stalls are historically documented as being mandatory additions to a major communal festival in this region?",
-      "Are there records detailing the seasonal disposal or repurposing of textiles used during such large-scale gatherings?"
+      "What were the specific local food items traditionally consumed during Teej festivals in Mandawa, beyond general 'food'?",
+      "Were there any established protocols for which sections of a merchant's haveli could be opened to public use during major regional festivals?",
+      "How did the economic status of the attending populace (merchants vs. craftsmen vs. local peasants) affect their participation in the festival rituals?"
     ],
     "structural_variants": [
-      "A chronological structure moving from pre-festival anticipation (the preparation and expense) through the peak day, to a rapid deconstruction in the hours immediately following sunset.",
-      "Structuring it as a series of overheard snippets: collecting fragments of conversations—a bargaining shout, a whispered secret concerning property lines, a gossip exchange—that only reveal the full picture when placed together."
+      "A poem structured as a sequence of overheard conversations—bits and pieces from different attendees retelling memories of past festivals, which build into a fragmented whole.",
+      "The structure dictated by natural progression: Beginning with the quiet preparation (gathering materials days before), moving to the peak noise, and ending in the slow dispersal back to silence.",
+      "A cyclical form mirroring monsoon patterns: Building tension during the 'wet' energy of the festival, reaching a climax, and resolving into a gradual return to an almost dry stillness."
     ],
-    "variety_note": "This chapter marks a temporary expansion outward from the sealed walls; subsequent chapters must return to an increasingly enclosed and claustrophobic interiority as the facade cracks."
+    "unused_angles": [
+      "The intersection of commercial goods with religious ritual items sold at the fair (e.g., selling high-end metalwork masquerading as sacred temple artifacts).",
+      "How seasonal water management during festivals stressed or highlighted the haveli’s internal plumbing and cistern systems.",
+      "The role of gender in organizing public celebration space—is it a men's market, women's ritual domain, or genuinely shared?"
+    ],
+    "variety_note": "Where earlier chapters focused on accumulation (profit, objects) or rigidity (architecture), this poem must focus entirely on controlled, temporary expansion and sensory overload before a return to quiet decay."
+  },
+  "draft": {
+    "sha256": "010b381569261a37cbd4113b98101edd620a4ec3304622c549f35c8b4c26c10c",
+    "written_at": "2026-09-27T17:04:33.116463+00:00",
+    "origin": "write"
   }
 }

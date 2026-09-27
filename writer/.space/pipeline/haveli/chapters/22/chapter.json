@@ -7,54 +7,58 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "The logistics and hierarchy involved in large-scale banquets across pre-modern Indian kingdoms.",
+      "reference": "Mughal era court etiquette regarding banqueting and guest seating hierarchy",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "Historical descriptions of spice trade commodities beyond the common peppercorns.",
-      "weblink": ""
-    },
-    {
-      "no": "3",
-      "reference": "Ritualistic dining practices observed in different regional Indian cultures.",
+      "reference": "Regional differences in celebratory feast presentation (e.g., unique types of sweets or centerpiece items)",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the waste management: treating the refuse—the remnants of spices, soiled linens, discarded peels from exotic fruits—as a secondary narrative layer that tells the truth after the splendor fades.",
-      "The perspective of the service staff: detailing their meticulous internal choreography as they move between tables, where their silent coordination betrays more about the house's economic strain than the feast itself.",
-      "A breakdown by food group: analyzing how different types of offerings (sweet vs. savory, local vs. imported spice) correlate with which specific allied merchant families were being appeased or indebted to."
+      "Viewing the entire event through the slow, rhythmic pace of a single caste artisan hired for 'background maintenance'—someone whose role requires them to observe everyone but be invisible.",
+      "The concept of *borrowed identity*: Analyzing how the guests use Gangaram’s excess setting as an opportunity to reinforce their *own* status or alliances, making him merely a stage-setter for others' portraits.",
+      "Focusing on the non-merchant attendees: A segment dedicated solely to the servants, groomsmen, and retainers—the silent infrastructure whose exhaustion underpins the illusion of effortless wealth."
     ],
     "story_options": [
-      "Setting: The service passage just outside the main durbar hall; Desire: A junior server overhears a hushed exchange about who *didn't* receive an expected portion of saffron, indicating a shift in political capital amongst attendees.",
-      "Setting: One corner table that is slightly visible but peripheral to the main action; Desire: To observe an elderly guest engaging in private conversation with a vendor stationed nearby—a negotiation happening under the guise of polite eating.",
-      "Setting: The kitchen/scullery area immediately after the peak moment; Desire: To find evidence on the discarded plates (e.g., a specialized, expensive spice that was reserved for only the highest-ranking guest) leading to an unexpected revelation about the host's true priorities."
+      "setting: The passage through a narrow service alley behind the main hall, desire: To escape the suffocating weight of expectation for one breath of unfiltered, non-celebratory air., obstacle: A minor logistical failure—a dropped tray or a sudden blockage requiring unexpected crowd movement., turn: The protagonist witnesses an intimate, private moment between two guests that contradicts the public facade of rivalry.",
+      "setting: The edge of the guest seating area, where decoration ends and dusty ground begins, desire: To spot a single object left behind by an arriving or departing dignitary—something small, private, and utterly inconsequential to the feast's grand narrative., obstacle: A sudden downpour that washes away visible evidence of wealth, rendering everything momentarily equally soiled., turn: The discovery leads not to a trinket, but to an old, discarded piece of communication (a sealed letter or receipt) detailing business rather than pleasure.",
+      "setting: A small viewing window (*jharokha*) overlooked by the guests, desire: To see the mundane life continuing outside while this spectacle is contained within., obstacle: The high walls and heavy draperies effectively block all external sightlines, trapping the viewpoint in a state of forced indoor observation., turn: A specific smell or sound from *outside* (e.g., burning dung smoke, distant animal cry) momentarily breaks through the perfumes of the feast."
     ],
     "subject_rotations": [
-      "The material cost accounting of hospitality: dedicating stanzas not to who ate what, but to tracking the value of spices (cardamom vs. clove), imported sugars, or rare oils consumed.",
-      "The performance of indigestion: exploring how various types of elaborate food are meant to satisfy beyond mere hunger—is it a performance of satiety? A testament to abundance?",
-      "Focusing on the *preparation* for the feast rather than the meal itself: detailing the specialized tasks of multiple caste groups (the spice grinder, the deep-fryer attendant, the water carrier) as an interlocking machine powered by anticipation."
+      "Treating the entire gathering as a formalized biological exchange: Analyzing who offers what (boons, favors, seeds of debt) and who accepts it.",
+      "Shifting focus from gold/plate to consumables: How are the specific ingredients—spices, rare fruits, wines—being used to signal trade routes rather than just wealth?",
+      "The poem structured around 'Silence Points': Identifying moments where the narrative *should* be loud with compliments but is instead unnervingly quiet, amplifying underlying tension."
     ],
     "sensory_details": [
-      "Sight: The precise geometric pattern left on a golden platter where condensation from different drinks—lemonade and sherbet—has mingled.",
-      "Sound: The rhythmic scraping sound of damp cloths being used repeatedly to wipe off minute, sticky residues from the highly polished metal serving pieces.",
-      "Smell: The sudden, sharp aroma of medicinal herbs (like neem or betel leaf) unexpectedly mingling with the overwhelming sweetness of caramelized sugar."
+      "Sight: The way highly polished brass reflects distorted images of hundreds of faces clustered together.",
+      "Sound: A rhythmic, repetitive sound completely unrelated to music—perhaps the methodical *snick-snap* of a servant's specialized tool cleaning silverware in preparation for the next course.",
+      "Smell: The specific scent combination of expensive, imported cardamom wrestling with the musky odor of unwashed wool garments."
     ],
     "research_questions": [
-      "What were the customary 'guest quotas' for a merchant family hosting an event meant to solidify political alliances?",
-      "How did the presentation style change between feasts intended purely for local rivals versus those involving visiting dignitaries from foreign ports?"
+      "What were the accepted cultural norms regarding the physical distance between unrelated powerful guests at a major state/merchant reception?",
+      "How did different regional merchant groups (e.g., Oswal, Agarwal) typically signify their presence or status through dress or presentation at banquets?"
     ],
     "structural_variants": [
-      "A poem structured like a receipt or inventory list, meticulously cataloging each item served, with deviations in currency/value assigned to each entry.",
-      "Circular structure: Beginning and ending on the same single utensil (a specific ladle or ornate spoon), showing its journey from preparation to waste."
+      "A call-and-response structure mimicking the flow of endless toasts and accolades.",
+      "An unreliable narration where different 'witnesses' describe the same five minutes of the feast, contradicting one another slightly."
     ],
-    "variety_note": "While previous chapters focused on individual sacred items or singular objects of power, this poem must build an entire ephemeral 'economy' within the boundaries of the feast itself, treating hospitality as a transaction ledger."
+    "unused_angles": [
+      "The architectural mechanics behind controlling crowd flow within a single courtyard space to maximize visual impact for a seated figure.",
+      "The specific roles and minor rituals performed by eunuchs or attendants in managing the flow of goods and people during peak social gatherings."
+    ],
+    "variety_note": "Unlike previous chapters focused on accumulation (frescoes, gold), this chapter must deal with projection—the calculated outward performance of power enacted through an audience."
+  },
+  "draft": {
+    "sha256": "d370b14f3575962e5032c79ed31db8055983cfa12b0fad4e33647e5afb35ba54",
+    "written_at": "2026-09-27T17:03:38.886347+00:00",
+    "origin": "write"
   }
 }

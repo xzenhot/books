@@ -4,10 +4,58 @@
   "word_target": 500,
   "chapter_title": "The Scent of Ghee and Marigold",
   "chapter_summary": "The fragrance of weddings no one remembers hosting still moves through the rooms. The poem follows the scent as a ghost of joy, the fragrance that outlasts the feast and the feasters alike.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Rituals of prosperity in Rajput wedding ceremonies (smells and materials)",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The cultural significance of specific flower/spice pairings in Rajasthani domestic life",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the scent not as a memory, but as an active chemical pollutant that contaminates the remaining pigment and textiles.",
+      "Focusing on the *absence* of the expected supporting scents: where is the smell of cooking ghee in this abandoned space?",
+      "A narrative built around the concept of 'olfactory ghosts'—specific scent markers tied to irreversible life events (e.g., a particular perfume used only by the bride).",
+      "Contrasting the rich, celebratory domestic smells with harsher, persistent odors that signify decay or neglect (dust mixed with mildew)."
+    ],
+    "story_options": [
+      "Setting: A closed spice cabinet in an adjoining utility room; Desire: To find a specific, intact packet of ceremonial turmeric powder; Obstacle: The scent itself has faded into near nothingness, requiring the protagonist to physically dig through layers of dust and old linens to 'capture' it.",
+      "Setting: The main threshold/doorway leading out from the domestic quarters; Desire: For the smell of a specific guest—a visiting relative or trader—to momentarily saturate the air as if they had just passed through moments ago; Obstacle: A sudden, localized cold draft that immediately disperses the scent into randomness.",
+      "Setting: The discarded utensils area near the kitchen hearth (where scents accumulate); Desire: To trace a single, powerful scent trail leading to a piece of forgotten, valuable jewelry or document; Obstacle: The lingering smell belongs not to a person, but to an animal that has scavenged within the haveli."
+    ],
+    "subject_rotations": [
+      "Shifting from 'joy' to 'economic transaction': Viewing the scent as a commodity—the cost of saffron, or the value of good sandalwood paste used in rituals.",
+      "Viewing scent purely scientifically: Mapping volatile organic compounds (VOCs) detected in the air trapped within the architecture itself, suggesting how the materials degrade over time rather than reflecting life.",
+      "The genealogy of smell: Tracing a single primary ingredient (e.g., jasmine oil) across decades—from expensive initial purchase to cheap, lasting substitutes used by later generations."
+    ],
+    "sensory_details": [
+      "Sight: The sticky residue of fallen marigold petals that have begun to mold and deepen in color.",
+      "Smell: The sharp, metallic tang accompanying the sweetness, like oxidizing copper mingling with burnt sugar.",
+      "Touch: The slick, oily film left on polished stone surfaces by years of accumulated scented smoke."
+    ],
+    "research_questions": [
+      "What were the common 'signature' scents associated with the final rites or departures in this cultural context, versus celebratory arrivals?",
+      "Were specific spices historically used both for scent and as mild preservatives against mold/pests within storage areas of wealthy households?"
+    ],
+    "structural_variants": [
+      "A poem structured entirely around olfactory notes: organizing stanzas by the perceived primary note (citrus, spice, floral) rather than chronological passage.",
+      "An epistolary sequence where several different inhabitants write fragmented letters describing what they smelled in the haveli on a particular evening."
+    ],
+    "variety_note": "Unlike the preceding chapters that focused on visible artifacts or structural failure, this piece focuses entirely on an ephemeral sensory experience—scent—as both memory and residual physical presence."
+  },
+  "draft": {
+    "sha256": "ae80d4a641f182a2b8d3d904f93380c2f8b9c952f038998ff72293ab0cc966eb",
+    "written_at": "2026-09-27T17:11:31.382663+00:00",
+    "origin": "write"
+  }
 }

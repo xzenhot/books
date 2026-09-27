@@ -4,10 +4,56 @@
   "word_target": 500,
   "chapter_title": "The Fleeing Partners",
   "chapter_summary": "The associates vanish with what they can carry, leaving Gangaram to face the creditors alone. The poem follows the partners out the gate, the loyalty that dissolves the moment the fortune does.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Traditional legal or social mechanisms for mediating business failure among merchant guilds in Rajasthan.",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The poem could be structured around the physical threshold of the main gate: dedicating stanzas to what is seen *through* it, vs. what remains visible *from* behind it.",
+      "Shifting focus entirely from the departing men to the one stationary observer—perhaps an elderly domestic servant left guarding the property who sees every exit.",
+      "Treating the fleeing partners not as individuals, but as a collective force: A tide of receding color and sound that pulls weight from the haveli's façade."
+    ],
+    "story_options": [
+      "Setting: The dusty main gate threshold; Desire: To find one partner who stops momentarily to acknowledge the poet/narrator with a specific, meaningful gesture (a shared look or touch); Obstacle: Being unable to make eye contact due to shame and desperation; Turn: Realizing that acknowledgment itself is now impossible.",
+      "Setting: A cramped servant's passage just off the main exit route; Desire: For one partner to slip something—a single, small item of utility (like a key or a length of fine thread)—back into the haveli for those left behind; Obstacle: The urgency and momentum carrying everyone away too quickly; Turn: The object found is worthless but symbolically profound.",
+      "Setting: A corner overlooked by the main exit path, near discarded luggage or broken wagon wheels; Desire: For a passer-by (a non-merchant) to recognize the pattern of their failure as merely part of natural cycles, making it less shameful; Obstacle: The passing stranger is preoccupied with a completely different, mundane survival task; Turn: The observer's indifference is ironically the most comforting thing encountered."
+    ],
+    "subject_rotations": [
+      "Focusing on the *material* aspect of abandonment: What tangible things—tools, ledgers, personal trinkets—are specifically left behind by those who flee?",
+      "A chronological reversal in the exit sequence: Instead of tracing them leaving, tracking the emotional echo of their departure moments after they pass.",
+      "Examining the socio-economic roles *other* than partnership: Who was discarded first? The accountant? The security guard? The family retainer?"
+    ],
+    "sensory_details": [
+      "Sight: The way a single, brightly colored scarf or turban cloth snags on an architectural detail as it is hastily pulled through the gate.",
+      "Sound: The brittle scattering sound of cheap metal bangles hitting the packed earth where the crowd thins out.",
+      "Smell: The sharp, coppery smell of sweat mixed with dust from men who have been confined to enclosed spaces for too long."
+    ],
+    "research_questions": [
+      "What were common informal agreements or oaths within merchant partnerships in this region that would survive a financial collapse?",
+      "Can pre-modern sources describe the concept of 'corporate dissolution' or shared liability for trading ventures?"
+    ],
+    "structural_variants": [
+      "A poem using couplets/stanzas structured like accounts payable, listing names followed by an absence of value.",
+      "Varying stanza length to mirror the perceived distance: very long and detailed when they are close; rapidly chopping into staccato lines as space opens up between them."
+    ],
+    "unused_angles": [
+      "The role of women who managed the household accounts while the men negotiated public failure.",
+      "The internal conflict among the partners—who blames whom for which failed venture, even in their haste to leave?"
+    ],
+    "variety_note": "This chapter shifts the focus from the accumulation and building up (previous chapters) to the violent dispersal of human association, using thresholds and peripheral witnesses rather than grand frescoes."
+  },
+  "draft": {
+    "sha256": "08416c72766158808e18dc264596596a596600539eee011d6dcdd68a92b42431",
+    "written_at": "2026-09-27T17:08:41.044516+00:00",
+    "origin": "write"
+  }
 }

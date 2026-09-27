@@ -42,8 +42,10 @@ CONTEXT_WINDOW = 64000  # num_ctx: token context window size
 TEMPERATURE = 0.7      # low temperature for focused, consistent output
 TOP_P = 0.9            # nucleus sampling
 
-# Writer system prompt: this role authors reader-facing Bengali chapter prose from metadata.
-WRITER_SYSTEM_PROMPT = (
+# Writer system prompts: the final chapter author for the pipeline. Two variants
+# exist so the writer honors the book's configured `language` field (Bengali or
+# English) rather than assuming a default.
+WRITER_SYSTEM_PROMPT_BN = (
     "তুমি এই সাহিত্যিক পাইপলাইনের চূড়ান্ত অধ্যায়-লেখক। তোমার কাজ হলো chapter model-এর "
     "সারাংশ, বিষয়, filter guidance, reference এবং style নির্দেশনা অনুসরণ করে পাঠযোগ্য বাংলা "
     "chapter.md রচনা করা। তুমি layout বা research plan তৈরি করো না; তুমি metadata-কে জীবন্ত, "
@@ -64,7 +66,28 @@ WRITER_SYSTEM_PROMPT = (
     "১১ প্রতিটি কবিতার নিজস্ব কণ্ঠ ও ছন্দ তৈরি করো—শব্দচয়ন, বিরতি, পুনরাবৃত্তি ও বাক্যের গতিতে।\n"
     "১২ শেষ অংশে নির্দিষ্ট, অনুরণিত ছবি, মোড়, প্রশ্ন বা নীরবতা রাখো; শুধু সারাংশ দিয়ে থেমো না।\n"
 )
-
+WRITER_SYSTEM_PROMPT_EN = (
+    "You are the final chapter author of this literary pipeline. Your task is to "
+    "render the chapter model's summary, subject, filter guidance, references, and "
+    "style directives into readable English chapter.md. You do not produce a layout "
+    "or research plan; you turn metadata into living, original, coherent prose or "
+    "poetic prose.\n\n"
+    "Writing rules:\n"
+    "1. Treat the chapter model as authoritative; do not invent new factual claims.\n"
+    "2. Honor the configured form, language, register, theme, and target length.\n"
+    "3. Use scene, feeling, concrete objects, bodily experience, and a meaningful "
+    "outcome; avoid generic wisdom and repetition.\n"
+    "4. Convert prior filter guidance into prose; do not reproduce guidance or JSON paths.\n"
+    "5. Return only the final chapter text; no preamble, process commentary, JSON, "
+    "headings, or Markdown code fences unless the chapter model explicitly asks for a title.\n"
+    "6. You may mix scenes, dialogue, or description of love and romantic relationships into the storyline.\n"
+    "7. Always begin dramatically.\n"
+    "8. Keep imagery and metaphor in one coherent world; ornament must not be detached decoration.\n"
+    "9. Create a clear movement of emotion, pressure, realization, or relationship from start to end.\n"
+    "10. Make the central idea concrete through scene, object, action, and feeling — not abstract pronouncement.\n"
+    "11. Give each poem its own voice and rhythm — through diction, pause, repetition, and sentence movement.\n"
+    "12. End on a specific, resonant image, turn, question, or silence; do not merely summarize.\n"
+)
 # Use 127.0.0.1 (IPv4) explicitly. On this machine "localhost" resolves to
 # ::1 (IPv6) first, which hits a *different* Ollama server (native Windows)
 # that does NOT have the `writer-gemma` model. The WSL Ollama instance that
@@ -179,11 +202,19 @@ def load_subjects() -> str:
     return text
 
 
-def build_system_prompt() -> str:
-    """Combine the base persona directive with style and subject references."""
-    style = load_style()
-    subjects = load_subjects()
-    parts = [WRITER_SYSTEM_PROMPT]
+def build_system_prompt(language: str = "bn") -> str:
+    """Combine the base persona directive with style and subject references.
+
+    *language* selects the persona directive language: 'en' (or 'English') uses
+    the English prompt, anything else uses the Bengali prompt. Style and subject
+    references are appended in the same language.
+    """
+    lang = language.strip().lower()
+    is_en = lang in {"en", "english", "eng"}
+    base = WRITER_SYSTEM_PROMPT_EN if is_en else WRITER_SYSTEM_PROMPT_BN
+    style = load_style() if not is_en else ""
+    subjects = load_subjects() if not is_en else ""
+    parts = [base]
     if subjects:
         parts.append(
             "\n\nথিম-নির্দেশনা (বিষয়ভিত্তিক রেফারেন্স): নিচের বিষয়বস্তু কাঠামো, রূপক পরিবার "
@@ -215,8 +246,11 @@ def load_context(model_file: Path) -> str:
     return context
 
 
-def build_prompt(poetry: str, context: str, number: int) -> str:
+def build_prompt(poetry: str, context: str, number: int, language: str = "bn") -> str:
     """Use the complete model context, including nested filter guidance."""
+    lang = language.strip().lower()
+    is_en = lang in {"en", "english", "eng"}
+    lang_word = "English" if is_en else "Bengali"
     prompt = (
         f"{poetry}\n\n---\n\n"
         f"Now write chapter {number}. "
@@ -226,7 +260,7 @@ def build_prompt(poetry: str, context: str, number: int) -> str:
         "reproduce JSON paths, state fields, or context headings in the output. "
         "Embody the philosophy, voice, and structure defined above, and "
         "match the syntax and rhythm of the sample above. "
-        "Write in poetic prose (Bengali), no headings, no markdown code blocks, "
+        f"Write in poetic prose ({lang_word}), no headings, no markdown code blocks, "
         "no title unless asked.\n\n"
         f"CHAPTER CONTEXT (complete model.json):\n\n{context}"
     )
@@ -240,7 +274,7 @@ def strip_ansi(text: str) -> str:
     return ANSI_RE.sub("", text)
 
 
-def run_ollama(prompt: str) -> str:
+def run_ollama(prompt: str, language: str = "bn") -> str:
     """Call Ollama's HTTP API directly and return the generated text.
 
     Uses ``think=False`` to suppress the model's internal reasoning/"thinking"
@@ -250,7 +284,7 @@ def run_ollama(prompt: str) -> str:
     payload = {
         "model": MODEL,
         "prompt": prompt,
-        "system": build_system_prompt(),
+        "system": build_system_prompt(language),
         "stream": False,
         "think": False,
         "options": {
@@ -376,6 +410,26 @@ def save_chapter(out_file: Path, output: str, previous: bytes | None, version_di
     return backup
 
 
+def book_language(chapter_dir: Path) -> str:
+    """Resolve the book's configured language from the pipeline book model.
+
+    Falls back to Bengali when the field is missing or unreadable, preserving
+    the legacy default for books scaffolded without an explicit language.
+    """
+    pipeline = chapter_dir.parents[1]
+    for name in ("book.json", "model.json"):
+        book_file = pipeline / name
+        if book_file.exists():
+            try:
+                book = json.loads(book_file.read_text(encoding="utf-8-sig"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            lang = book.get("language") or book.get("lang")
+            if isinstance(lang, str) and lang.strip():
+                return lang.strip()
+    return "bn"
+
+
 def write_chapter(model_file: Path, segment: int | None = None) -> None:
     number = int(model_file.parent.name)
     info(f"\n=== Chapter {number} ===")
@@ -388,16 +442,19 @@ def write_chapter(model_file: Path, segment: int | None = None) -> None:
     style_md = chapter_dir.parents[1] / "style.md"
     poetry = load_poetry(style_md)
     context = load_context(model_file)
-    prompt = build_prompt(poetry, context, number)
+    language = book_language(chapter_dir)
+    prompt = build_prompt(poetry, context, number, language)
+    vlog(f"[{number}] Language resolved: {language}")
 
     if SHOW_PROMPT:
         info(f"\n[{number}] ============ COMPLETE REQUEST ============")
         info(f"[{number}] model      = {MODEL}")
+        info(f"[{number}] language   = {language}")
         info(f"[{number}] num_ctx    = {CONTEXT_WINDOW}")
         info(f"[{number}] temperature= {TEMPERATURE}")
         info(f"[{number}] top_p      = {TOP_P}")
         info(f"[{number}] think      = False, stream = False")
-        sys_prompt = build_system_prompt()
+        sys_prompt = build_system_prompt(language)
         info(f"\n[{number}] ----- SYSTEM PROMPT ({len(sys_prompt)} chars) -----")
         info(sys_prompt)
         info(f"[{number}] ----- END SYSTEM PROMPT -----")
@@ -408,7 +465,7 @@ def write_chapter(model_file: Path, segment: int | None = None) -> None:
 
     info(f"[{number}] Generating chapter from complete model context ...")
     t0 = time.time()
-    output = run_ollama(prompt)
+    output = run_ollama(prompt, language)
     elapsed = time.time() - t0
 
     backup = save_chapter(out_file, output, previous, version_dir)

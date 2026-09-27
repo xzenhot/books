@@ -7,54 +7,61 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "Local building techniques for heat regulation in arid architecture",
+      "reference": "Construction materials science in arid climates (lime mortar durability)",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "The social semiotics of public ablution rituals in Rajasthan",
+      "reference": "Symbolic use of water scarcity and dehydration in Rajasthani literature",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the *materials* that facilitate survival: contrasting the specific mineral content needed for hydration (salt, medicinal herbs) versus luxury imported goods (scents)",
-      "The internal monologue of the Mason himself—not about thirst, but about the structural integrity of his own body resisting dehydration and exhaustion.",
-      "Adopting a rhythm mirroring the heat: stanzas that speed up in frantic activity and slow down almost to a near-stasis when describing moments of perceived wealth or stagnation."
+      "The comparative geometry: Instead of just contrasting the two bodies, map the physical structure—the rising ceiling vs. the contained, flowing basin—to represent incompatible measures of value (utility versus luxury).",
+      "The bureaucratic accountability of sweat: Treating the mason's labor not as simply 'unpaid,' but as a highly specific commodity whose yield must be accounted for by municipal or guild record-keeping.",
+      "Soundscape focus on materials: Building the atmosphere using only the sounds associated with building/water—the *scrape* of trowel against dressed stone, the rhythmic *drip* from an overflowing basin."
     ],
     "story_options": [
-      "setting: The narrow passage between two newly raised parapet walls; desire: To steal one perfectly shaped, cool river stone discarded by the workers' cooler feet; obstacle: A guard noticing the theft, turning a petty crime into an accusation of sloth.",
-      "setting: Just outside the main gate, where runoff water pools from bathing rituals; desire: To drink this mixed runoff water and gain some knowledge/sight from it; obstacle: The attendant who controls access to pure water deems the substance impure or contaminated by labor.",
-      "setting: A rooftop terrace overlooked by the passerby witness; desire: To observe the precise, cyclical pattern of evaporation off exposed plaster surfaces; obstacle: An unseen predator (bird or animal) that distracts both the observer and the subjects in the heat haze."
+      "Setting: The scaffolding tower overlooking a shaded, cool internal passage; Desire: For the mason to physically test the strength of one beam by pressing his bare hand against it, while overhearing the muffled splashing from the bath area below; Obstacle: A foreman or overseer who insists on measuring sweat output rather than completed work units; Turn: The realization that the structural integrity relies equally on the craftsman's exhaustion and the patron's superficial cleansing.",
+      "Setting: Near a cistern or collection point used for washing tools after a rainstorm (though unlikely in June); Desire: For the mason to find evidence of how high-value liquid (like perfumed water) has historically contaminated utility runoff; Obstacle: The physical difficulty of cleaning ingrained, mineral residue from both skin and stone surfaces simultaneously; Turn: A discovery that traditional building practices incorporated natural purification methods overlooked by modern luxury.",
+      "Setting: At the precise moment before sunset when shadows pool in the uneven flooring between the two zones; Desire: To observe how the setting sun catches dust motes differently—thickly accumulating near the physical labor versus suspended delicately in scented steam; Obstacle: A sudden, unexpected gust of wind that mixes the scents and disturbs the dust layer entirely; Turn: The momentary erasure of class difference as the environmental forces level out all demarcations."
     ],
     "subject_rotations": [
-      "Viewing thirst not as physical need, but as a spiritual state—the longing for recognition or inclusion within the merchant's sphere.",
-      "Shifting the focus from the contrast between sweat/perfume to the *shared* element of dust: all life forms in the scene (mason, noblewoman, water) are equally coated in building grit.",
-      "An architectural meditation on containment: how these walls physically trap not only wealth but also heat, humidity, and the resulting inability for natural processes to complete themselves."
+      "Shifting the focus from physical thirst/thirst to 'intellectual' depletion—the mason struggling with the impossibility of building perfect form on unstable foundations (both literally and metaphorically).",
+      "Interrogating the transaction: Instead of money, making the exchange tangible—perhaps trading a piece of rare, durable earth pigment for one small measure of aromatic oil.",
+      "Viewing the contrast through an animalistic lens: How would a street dog view these two rituals—one marked by pure toil, the other by luxurious self-indulgence?"
     ],
     "sensory_details": [
-      "Visual: The way dust kicked up by sandals catches the late afternoon sun at a specific angle, turning airborne particles momentarily iridescent.",
-      "Auditory: The high-pitched whine of metal tools (chisels or saws) being used in an effort to cut through hardened mortar that has begun to dry and expand unevenly.",
-      "Tactile: The chalky residue left on the mason's hands after scraping dried lime off rough bedding stones, contrasted with the oily slickness of wet marble."
+      "Touch: The abrasive, dry heat radiating up from packed earth floors against bare soles.",
+      "Smell: The sharp, coppery scent of warmed minerals mixed with raw sweat and limestone dust.",
+      "Sight: Observing how the reflected light off wet marble in the bathing area seems to warp and distort compared to the matte absorption of porous sandstone on scaffolding."
     ],
     "research_questions": [
-      "What were the customary local building materials used to 'cool' or shade scaffolding during peak summer months in Mandawa?",
-      "How did non-literary art forms (like ritual bathing) historically incorporate elements intended to soothe specific types of physical exhaustion?"
+      "What are the typical natural materials used in contemporary lime plasters that would chemically react with highly scented oils (like rose water) over time?",
+      "Were specialized tools or work practices developed for working in extreme heat to minimize physical strain during construction?",
+      "How did ritual bathing integrate into daily life versus post-event purification rites within merchant households?"
     ],
     "structural_variants": [
-      "A poem built around a catalogue of liquids: listing the various substances involved—sweat, rose water, potable well water, dust moisture—and their relative value/purity.",
-      "Structuring the narrative as an overheard conversation between two peripheral characters (a street vendor and a stable hand) who comment on the extravagance they witness passing by."
+      "A poem structured as a detailed, alternating 'Before/After' catalogue—listing the materials required for each process (e.g., *Mason:* Chisel #3, Lime Wash; *Bather:* Bath oil, Scented powder).",
+      "Using internal monologue: Alternating between the mason’s exhaustion-driven counting and the bather’s self-absorption.",
+      "A narrative structure mimicking erosion—starting with a highly defined boundary line (e.g., where the service lane meets the private quarters) and letting both sides wear down until they merge."
     ],
     "unused_angles": [
-      "The specific mechanics of labor management: how many men were required to maintain this level of daily upkeep, treating manpower as the most finite resource.",
-      "A focus on waste: where does the runoff water go? Does it feed a garden or evaporate harmlessly into the unrecorded desert?",
-      "Exploring the role of scented oils beyond mere pleasure—did certain scents have apotropaic (protective) qualities against heat-related illness?"
+      "The role of necessary infrastructure: Focusing on shared elements that must exist for both activities, such as water channels or common pathways.",
+      "A moment of accidental empathy: A small interaction where the bath attendant notices a sign of exhaustion on the mason passing by.",
+      "Mapping the physical strain onto mythology: Suggesting that the building itself needs a divine intermediary (like Nandi) to bear the burden between two incompatible states of being."
     ],
-    "variety_note": "While previous chapters focused on artistic competition and monetary valuation, this poem grounds the critique in a raw biological reality: the differential consumption of vital fluids under extreme environmental stress."
+    "variety_note": "This chapter moves the focus from the product of wealth (frescoes/art) to the human cost underpinning the maintenance of luxury, grounding the poem in tangible physical depletion rather than purely financial ones."
+  },
+  "draft": {
+    "sha256": "66de7e1055b999f61e4a354b8a08c8bc6445c4f2833faa1cc3e369a0672db29f",
+    "written_at": "2026-09-27T17:05:57.120657+00:00",
+    "origin": "write"
   }
 }

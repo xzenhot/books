@@ -4,10 +4,61 @@
   "word_target": 500,
   "chapter_title": "The Unpaid Debt",
   "chapter_summary": "The sums owed were never entered anywhere but in the memory of the wronged. The poem gathers the invisible debts of the haveli — the wages, the grain, the dignity — into a single account the years will not settle.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Medieval Indian systems of unpaid labor compensation beyond wages (e.g., barter rights, reciprocal obligation)",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Legal customs regarding debt recovery and collateral in historical Marwari merchant communities",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Structuring the poem as a dialogue between two non-speaking objects within the haveli—perhaps two worn cooking vessels or two empty spice grinders—each representing a different form of accumulating debt (emotional vs. monetary).",
+      "Adopting the perspective of an official town administrator or trustee who is tasked with cataloging these invisible debts, treating human suffering as bureaucratic overhead.",
+      "Fragmenting the poem across multiple registers: shifting between highly structured, numerical verse when discussing money, and flowing, mythic verse when addressing intangible losses like honor or memory."
+    ],
+    "story_options": [
+      "Setting: The service kitchen adjoining the main *diwan-khana*; Desire: For a specific, heirloom spice (saffron, cardamom) that was paid for with decades of accrued unpaid labor; Obstacle: A rival merchant who claims they owed nothing by pointing to an old tax exemption scroll; Turn: The memory of thespice itself causes the spices to briefly glow.",
+      "Setting: Outside the main gate, near a wellhead; Desire: To reclaim not coin, but the *right* to use shared water resources that were previously monopolized and unpaid for; Obstacle: A guard who claims the rules of scarcity have changed irrevocably; Turn: The community agrees to an ancient, unwritten rotational system instead.",
+      "Setting: The dusty corridor connecting two disparate wings of the haveli (e.g., men's wing to women's quarters); Desire: To find a single ledger that tracks expenses *and* emotional labor—a 'Cost of Life' sheet; Obstacle: Realizing every line item is subjectively inflated by whoever writes it last; Turn: The realization that the debt isn't owed to money, but to future connection."
+    ],
+    "subject_rotations": [
+      "Treating unpaid debt not as a ledger entry, but as an atmospheric weight—a palpable pressure in the architecture itself.",
+      "Focusing on the *interest* accrued by moral debts: how does guilt compound over time when no one is tracking it?",
+      "Examining what happens to objects that were paid for with labor rather than coin (e.g., a portrait painted, furniture carved)."
+    ],
+    "sensory_details": [
+      "Sight: The specific discoloration of wood where hands have habitually rested over decades—a darkened patina contrasting sharply with the original polish.",
+      "Sound: The distinct 'dry tick' sound made by old bone or ivory tapping against stone when used as a measuring tool, representing measurement beyond currency.",
+      "Smell: The scent of accumulated dust mixed with dried blood, suggesting violence and unresolved passage through the space."
+    ],
+    "research_questions": [
+      "What were customary methods in Rajasthan for non-monetary restitution or payment when labor disputes arose between artisan guilds?",
+      "Are there known historical metaphors describing intangible debts (like broken trust) in regional folklore that could be adapted poetically?"
+    ],
+    "structural_variants": [
+      "A circular structure, where the final lines echo the first, but with the tone shifting from accumulation to eventual necessary release.",
+      "An epistolary collage: assembling overlapping fragments of letters (a debtor’s plea, a creditor’s dismissal, a family member's lament) that never form one coherent exchange."
+    ],
+    "unused_angles": [
+      "The concept of debt owed to the land itself for allowing prosperity to flourish on it.",
+      "Exploring debts accrued not by the merchant class, but by the supporting infrastructure (e.g., the well-keepers, the local spice farmers)."
+    ],
+    "variety_note": "This chapter moves away from the grand, visible transactions of trade and fresco commissions; instead, its focus is on the accumulated weight of unpaid *intangibles*—the slow, invisible arithmetic of social obligation."
+  },
+  "draft": {
+    "sha256": "adf94ed2bf5aade2f45d6036c6b05c3e378a9b3c7806eea4c9999c04fc0d4cd3",
+    "written_at": "2026-09-27T17:07:54.767679+00:00",
+    "origin": "write"
+  }
 }

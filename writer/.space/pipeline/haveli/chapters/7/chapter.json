@@ -7,53 +7,58 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "Early accounting practices of Mughal/Rajput merchant guilds",
+      "reference": "Historical documentation of early merchant accounting practices in Rajasthan.",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "Symbolism of the initial physical display of wealth (jewelry, rare spice purchases) in 18th-century Rajasthan",
+      "reference": "Cultural understanding of oaths and debts outside formal written law among trading castes.",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Framing the 'profit' not as money gained, but as a change in weight carried: how the mental burden of expectation replaces the physical lightness of his initial life.",
-      "Viewing the first profit through the perspective of the *material* that facilitated it—perhaps the quality of ink used on the ledger sheet or the specific weave count of cloth exchanged—making the object itself an antagonist to restraint.",
-      "Focusing entirely on the immediate, visceral sensory experience of spending money for the very first time: the sound of minted coins hitting a surface untouched before, the resistance of silk against skin."
+      "The immediate, visceral physical reaction to the first large sum: the weight in the gut, the sudden inability to sit still, or the hyper-awareness of every single coin's metallic density.",
+      "Framing the 'profit' not as a number on paper, but as a disruption to a deeply established routine—the perfect rhythm of poverty suddenly shattered by glittering imbalance.",
+      "Viewing the profit through the eyes of someone outside the transaction (a servant or an elderly parent) who understands value in sustainable scarcity, rather than explosive excess."
     ],
     "story_options": [
-      "Setting: A crowded outer bazaar stall where he trades his initial ledger entries; Desire: To buy something purely beautiful and non-essential—a miniature painting or carved wooden toy—ignoring all practical needs.; Obstacle: Another merchant attempts to devalue his 'proof' of earnings with a cynical anecdote about fluctuating market trust; Turn: He realizes the true value isn't the object, but the temporary power it affords him.",
-      "Setting: A quiet back room in a local jeweler’s shop where he buys an ostentatious piece of jewelry for himself; Desire: To feel that foreign weight on his neck/wrist, symbolizing status; Obstacle: The jeweler forces him to overpay slightly more than necessary, marking the first subtle stain of excessive vanity; Turn: He is forced to count out change in smaller coins than he anticipated.",
-      "Setting: A family feast or celebration held immediately after receiving the profit funds; Desire: To be seen as wealthy and competent by his community peers (elders/family); Obstacle: An old, respected relative gently points out a minor flaw in his purchase or demeanor, reminding him of where he started; Turn: He must reconcile external perception with internal greed."
+      "Setting: A dimly lit merchant's room after a successful exchange; Desire: To prove to his skeptical elder that this new wealth is stable and legitimate through a specific, visible act of communal generosity (e.g., buying the best ghee for all neighbors); Obstacle: The inherent skepticism in the community regarding sudden affluence.",
+      "Setting: A local spice market where commodities are traded by weight and smell; Desire: To pay for something trivial but luxurious—a single, perfect saffron strand or a specific type of wood dye—using only the first profit; Obstacle: The stall owner's casual refusal to accept this new level of wealth as currency.",
+      "Setting: Standing outside the newly bought plot of land (referencing Chapter 8); Desire: To perform an overly elaborate, public ritual 'sanctioning' the ground with the scent of its first major expenditure; Obstacle: The realization that the blessing is hollow without established roots or history."
     ],
     "subject_rotations": [
-      "Treating the ledger itself as the primary subject—its ink, its binding, and the accumulated numbers becoming sentient entities that demand more ink to exist.",
-      "A meditation on 'counting': shifting from counting coins/assets to counting the number of times he *thinks* about what he has gained, implying an internal tallying process.",
-      "Interweaving the poem with a detailed sensory catalog of everything expensive yet utterly useless purchased in that first burst of undeserved luxury (e.g., exotic spices, rare pigments, imported glass beads)."
+      "Treating the profit as a form of visible social performance—a necessary display to cement reputation rather than an end in itself.",
+      "Focusing intensely on the bookkeeping mechanics: not the total sum, but the painstaking, almost ritualistic recording of every single component that contributed to it (the labor hours, the tariff paid, etc.).",
+      "Examining the *exchange* of the profit: what did he have to give up, emotionally or relationally, in order to acquire this specific amount?"
     ],
     "sensory_details": [
-      "The sharp, metallic scent of newly minted silver coins mixed with dust kicked up by passing mules.",
-      "The visual shock of polished turmeric powder staining the fine weave of a servant's kurta when he pays for it.",
-      "The specific, satisfying *thunk* sound made by a stack of perfect rupee notes hitting untreated teak wood."
+      "Sight: The startling glint off brass coins stacked unevenly against dark, polished teakwood.",
+      "Sound: The high-pitched, almost painful *clink* of multiple different denominations of currency colliding together for the first time.",
+      "Smell: A cloying mix of wet ink from fresh ledger entries mixed with the dry scent of newly handled foreign fabrics."
     ],
     "research_questions": [
-      "What were common markers or displays used in 18th-century merchant culture to visibly demonstrate sudden liquid wealth without triggering immediate suspicion?",
-      "Are there surviving anecdotes regarding the emotional transition from subsistence trade life to accumulation of capital among regional Indian merchants?"
+      "What were the actual visual representations or symbolic markers used in Marwari accounting ledgers to denote significant financial milestones?",
+      "Were there any customary local 'acknowledgments' or public gestures required when a merchant crossed a certain level of disposable wealth?"
     ],
     "structural_variants": [
-      "A tripartite structure mirroring the transaction: Part I (The Need), Part II (The Calculation/Acquisition), and Part III (The Moment of Possession/Overload).",
-      "Using an escalating rhythm: starting with steady, measured couplets reflecting careful counting, accelerating into jagged, breathless lines upon spending the first major sum."
+      "A structure moving from Macro (the vastness of the market) $\rightarrow$ Meso (the transaction with key players) $\rightarrow$ Micro (touching and examining the first coin in hand)."
     ],
     "unused_angles": [
-      "Exploring the psychological pressure on the clerk to maintain his outward appearance of competence and calm while internally experiencing avarice.",
-      "Comparing the *sound* profile of pre-wealth existence (the quiet scraping of a pen) versus post-profit existence (the clatter of coins)."
+      "The psychological relationship between debt repayment and true personal solvency.",
+      "How the perception of 'profit' changes when dealing with goods that have no tangible market value (e.g., reputation, political favour).",
+      "A focus on the specific physical objects used in transactions: the counting tray, the inkpot, the specific seal impression."
     ],
-    "variety_note": "Where prior chapters focused on external forces—the commodities or the routes—this poem must anchor the shift inward, making the accumulation of knowledge and desire itself the primary landscape."
+    "variety_note": "While previous chapters established *accumulation* through journey and raw material, this chapter must pinpoint the critical moment of subjective valuation—the transition from mere wealth to perceived, intoxicating success."
+  },
+  "draft": {
+    "sha256": "7a201aa32727b3be6e2eddda6da687428b582ffda285ae1c2ba3e9d0870926e5",
+    "written_at": "2026-09-27T17:00:12.690820+00:00",
+    "origin": "write"
   }
 }

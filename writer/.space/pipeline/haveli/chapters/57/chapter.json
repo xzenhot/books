@@ -4,10 +4,69 @@
   "word_target": 500,
   "chapter_title": "The Warm Fresco",
   "chapter_summary": "A freshly scrubbed wall grows warm again at night, as if the house is only pretending to sleep. The poem presses a hand to the warm plaster, the haveli's pulse beating under the restoration, alive in spite of every effort to quiet it.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The physical process of lime plaster restoration in Rajasthan's arid climate",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Iconography of divine warmth or residual spiritual energy depicted in Rajput painting styles",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Cultural rituals involving applying heat or specific materials to walls for preservation or blessing",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the thermal conductivity of the different plaster layers: comparing the residual coolness of untouched lime mortar against the faint, trapped warmth beneath the painted surface.",
+      "The perspective of a non-human observer (e.g., an insect or small animal) that feels this localized pocket of heat emanating from the wall, viewing it as sustenance or danger.",
+      "The concept of 'artificial memory': exploring if modern restoration efforts are attempting to force warmth/life where none naturally exists, and what the failure looks like."
+    ],
+    "story_options": [
+      "Setting: The outer edge of a semi-restored fresco wall at twilight; Desire: To feel the pattern of heat radiating from it as proof of life; Obstacle: A local resident who believes touching the 'warmth' will curse them or break the paint irrevocably; Turn: The protagonist realizes the warmth isn't biological, but chemical—a delayed reaction to minerals.",
+      "Setting: The niche where an oil lamp used to sit, now partially restored; Desire: To experience the precise moment the artificial heat of a flame transitions into ambient 'haveli warmth'; Obstacle: A sudden draft extinguishes any potential source, leaving only the question of where the energy went; Turn: The resulting cold spot is somehow more palpable than the preceding heat.",
+      "Setting: A room corner deliberately left untouched by restoration crews; Desire: To find an object or trace element that has been superheated and subsequently cooled (like oxidized metal residue); Obstacle: The dust covering this specific area is too thick to penetrate fully, blocking all signals of warmth; Turn: The protagonist uses a specialized tool, not for painting but for physical excavation."
+    ],
+    "subject_rotations": [
+      "Treating the warmth as an illusion maintained by suggestion—the mind projecting residual life onto inert materials.",
+      "Analyzing the 'warmth' through color theory: specific pigments (ochre, deep reds) that naturally absorb and reflect perceived heat differently than cool blues or grays.",
+      "Mapping the *source* of the claimed warmth: Is it residual body heat from a past event, mineral reaction, or merely solar gain trapped by the structure?"
+    ],
+    "sensory_details": [
+      "Sight: The way the last lingering streaks of pigment catch the angle of the setting sun, momentarily glowing with an impossible, interior luminescence.",
+      "Touch: The fine, gritty texture of plaster dust that feels warmer to the touch than ambient air when cupped in the palm.",
+      "Smell: An underlying mineral scent—like damp earth mixed with heated limestone—that contradicts the overt floral notes nearby."
+    ],
+    "research_questions": [
+      "What are common folk beliefs surrounding residual heat or spiritual imprints on ancient structures in Rajasthan?",
+      "How does the material composition of different pigments (mineral vs. organic) react to changes in ambient temperature over time?",
+      "Are there documented architectural practices where specific wall treatments were intended to retain localized warmth for domestic comfort?"
+    ],
+    "structural_variants": [
+      "A poem structured as a fading measurement: beginning with intense, palpable heat descriptions and progressively resolving into near-zero temperature readings, ending in ambiguity.",
+      "The use of polyvocal narration: alternating between the scientist's cool description of material transfer and an embodied character's subjective, emotional reaction to warmth.",
+      "A structure based on contrast: juxtaposing stanzas of overwhelming coolness (shadow, decay) directly against passages of perceived warmth (memory, life)."
+    ],
+    "unused_angles": [
+      "The idea that the restored pigment itself contains trapped molecular heat from the restoration process—a temporary energy source.",
+      "Viewing the 'warmth' as a sign of successful structural bonding rather than spiritual continuation.",
+      "A meditation on the ethics of *proving* life in art, and whether that proof invalidates the object's historical standing."
+    ],
+    "variety_note": "This chapter pivots from tracing external passage (wind/smell) to focusing on internal energy—a palpable sensation—creating a different kind of ghostly presence than mere echo or odor."
+  },
+  "draft": {
+    "sha256": "64c50c9851493f013fc41254aca85657763cb0102f33da9644ec9abbbe44196e",
+    "written_at": "2026-09-27T17:11:59.385270+00:00",
+    "origin": "write"
+  }
 }

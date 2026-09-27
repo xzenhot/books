@@ -7,55 +7,60 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "The metallurgy and sourcing of gold/silver ornamentation in 19th-century Rajasthan",
+      "reference": "Social dynamics surrounding elite consumption in regional Indian courts",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "Ritual significance of large feasting platters (Thali) in Rajput/Marwari culture",
-      "weblink": ""
-    },
-    {
-      "no": "3",
-      "reference": "The social contract implied by hosting massive feasts versus the local agricultural economy supporting it",
+      "reference": "The function of public displays of wealth in non-Western political structures",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Examining the thali not as a receptacle for food, but as a surface for transaction: what are placed *on* it that carry non-edible value (contracts, letters, tokens)?",
-      "The weight and inertia of excess: focusing on the sheer physical burden of polished metal, treating its mass as a narrative impediment to movement or honesty.",
-      "A perspective through the cleaning process: tracing the ritualized polishing—the specialized cloth, the specific polish paste—as an act of temporary purification before inevitable decay."
+      "Focusing on the *material decay* of the gold: Instead of polished shine, treat the thali as something verdigrised or tarnished by humidity and time; what stories do its imperfections tell?",
+      "The cost-analysis from an opposing viewpoint: Whose coin is actually being spent? Is it Gangaram's wealth, or is he liquidating his family's future security to pay for the temporary spectacle?",
+      "A moment of functional failure: The thali is prepared perfectly, but something essential—the serving spoon, the specialized dipping oil, the necessary number of napkins—is missing, grounding the excess in a practical void."
     ],
     "story_options": [
-      "Setting: The moment just *before* the guests arrive, desire: To focus on the servants arranging the thali with obsessive, almost fearful precision, treating each placement as a performance for unseen judges; Obstacle: A single item—a smudge of grease or an ill-matched grain of rice—disrupts the perfection.",
-      "Setting: The disposal area immediately *after* the feast's climax, desire: To salvage residual elements from the plates (burnt ghee residue adhering to gold, crumbs mixed with spice powder) to determine which guest left the most indelible mark; Obstacle: The residue is chemically complex and resists identification.",
-      "Setting: A quiet corner of the haveli pantry/storage room in the deep night, desire: To have a character who is *not* part of the celebration (perhaps a junior artisan or cook) polish the thali, seeing not opulence but rather the physical labor required to maintain such a lie; Obstacle: They realize they don't know how to achieve the final, perfect mirror finish."
+      "Setting: A private prep kitchen adjoining the main hall; Desire: To calculate the total labor cost (in hours and wages) for polishing one single platter to its current state; Obstacle: The chief servant arguing that an expenditure on cheap, functional materials would have been more honest than this gold display; Turn: Gangaram pays a minor fee to silence the critique with a small, meaningless bribe.",
+      "Setting: Just as the first guest approaches the hall where the thali sits; Desire: For one specific dish—perhaps a simple, rustic regional bread rather than an exotic centerpiece—to be placed upon it unexpectedly; Obstacle: A nervous junior caterer hesitates to break the established visual hierarchy of the meal setup; Turn: Gangaram signals that this concession is part of the required performance.",
+      "Setting: Deep within the storage rooms before preparation begins; Desire: To study the raw, uncut spices that will decorate the thali (cardamom pods, saffron threads); Obstacle: The scent itself triggers a memory or association with hardship unrelated to celebration; Turn: A minor servant accidentally spills a potent substance, forcing an immediate, unplanned cleansing ritual on the setup."
     ],
     "subject_rotations": [
-      "Treating the contents of the thali as narrative placeholders: focusing on specific *types* of food (a mountain of ghee sweets vs. humble vegetables) and what those choices reveal about Gangaram's shifting allegiances.",
-      "Deconstructing 'mirror': exploring how the perfect reflection on gold is deceitful, only showing a controlled version of reality back to its owner.",
-      "The soundscape of preparation: foregrounding the metallic clinking—the stacking of plates, the polishing cloth against metal—as an unnatural noise that preempts the natural sounds of conversation."
+      "Treating the meal not as luxury, but as necessary propaganda for status maintenance.",
+      "Focusing entirely on the discarded elements—the peelings, the scraps of spice dust, the stained cloths—as evidence of over-indulgence.",
+      "Shifting perspective to a non-human element, like a specific fixture (a pillar, a water fountain) that observes the entire spectacle with stoic detachment."
     ],
     "sensory_details": [
-      "Sight: The cold, deep yellow reflection of a single oil lamp flame captured sharply on the highly polished surface.",
-      "Sound: The sustained, high-pitched whine of metal scraping against stone during repeated polishing motions.",
-      "Smell: An overwhelming, cloying mix of exotic floral oils and rendered animal fats used in ceremonial cooking that never quite dissipates."
+      "The cool, slick feel of polished malachite inlay against the warm skin.",
+      "The sharp, metallic tang of spilled clarified butter hitting damp stone flooring.",
+      "The faint, overlapping perfume notes of star anise and wet sandalwood near the entrance hall."
     ],
     "research_questions": [
-      "What were the standard practices for cleaning and storing highly ornate metal objects like serving platters to prevent oxidation or dulling?"
+      "What were the standard unit costs for imported spices (like cinnamon or mace) relative to local staple grains during this period?",
+      "Were there ritualistic rules about how many items/dishes could be placed upon a single, honored serving platter?"
     ],
     "structural_variants": [
-      "A comparative poem structure: juxtaposing three versions of the thali—one functional (for real food), one ceremonial (empty, decorative), and one symbolic (broken/discarded)."
+      "A flashback structure showing the arduous *acquisition* of one key ingredient on the thali.",
+      "A procedural breakdown: The chapter reads like an inventory checklist that constantly fails due to human error or circumstance.",
+      "An escalating tension build-up through multiple sensory observations leading to a single, sharp realization."
     ],
     "unused_angles": [
-      "The specific interaction between polished gold and common earth materials (like turmeric-stained hands or unglazed terracotta pottery) on the same surface."
+      "Exploring the caste dynamics related to who is permitted to serve which parts of the meal.",
+      "The interaction between the food served and local medicinal/ritual practices.",
+      "A moment where the host must deal with an unexpected political rival arriving late, forcing an immediate alteration of the planned display."
     ],
-    "variety_note": "While previous chapters focused on physical spaces (Courtyard, Women's Quarters), this poem concentrates its entire dramatic weight onto a single, highly portable object—the thali—forcing intimacy and scrutiny upon material excess."
+    "variety_note": "This chapter emphasizes process failure—whether through labor dispute, material lack, or social error—as much as the initial grand presentation."
+  },
+  "draft": {
+    "sha256": "1c800cae539756f2ae6f21d01a532215997c9da221d950d12e6fbeab81928036",
+    "written_at": "2026-09-27T17:03:11.842049+00:00",
+    "origin": "write"
   }
 }

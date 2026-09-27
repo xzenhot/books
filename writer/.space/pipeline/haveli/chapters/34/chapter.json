@@ -4,10 +4,62 @@
   "word_target": 500,
   "chapter_title": "The Beggar's Coin",
   "chapter_summary": "A coin is tossed into the dust at the gate, a charity that is really a dismissal. The poem lingers on the beggar bending for the coin, and on the distance between the hand that gives and the hand that must take.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Charity rituals in Mughal/Marwari contexts",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Social hierarchy and public gifting practices in Rajasthan's mercantile history",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The beggar’s internal accounting: Viewing the coin not as charity, but as a single unit of currency to be traded or hoarded for future leverage against someone in power.",
+      "Focusing on the 'gap' itself: Treating the precise arc and trajectory of the thrown coin—the parabola through dusty air—as a physical representation of lost dignity or unfulfilled promise.",
+      "The perspective of an observer/child: Narrating the transaction from the viewpoint of a young, unimpressed eye who sees only economics, not pathos."
+    ],
+    "story_options": [
+      "Setting: A specific doorway that has seen hundreds of such offerings over decades; Desire: To have the beggar recognize one particular coat knot or gesture associated with the hand throwing the coin from years past, suggesting a personal history missed by the grand edifice; Obstacle: The merchant immediately moves on to a more lucrative conversation inside.",
+      "Setting: Just before a significant festival when charity is expected but never fully delivered; Desire: For the beggar to reject the coin entirely, viewing its value as tainted by performance and seasonal expectation; Obstacle: A child attached to the beggar intervenes with an unexpected item of actual utility (e.g., clean cloth).",
+      "Setting: The outer service wall, far from the main gate’s spectacle; Desire: To focus on another impoverished worker—perhaps a laundry hand or water carrier—and contrast their immediate necessity for survival against the performative nature of the coin toss; Obstacle: A passing vehicle scares away both parties before a true transaction can be observed."
+    ],
+    "subject_rotations": [
+      "Shifting from charity as dismissal to pity as commodity: Examining how begging itself becomes a specialized, almost respectable profession within the town's ecosystem.",
+      "The 'value' of waste: Treating the dust disturbed by the coin drop—the displaced earth particles and grit—as carrying more informational weight than the silver object itself.",
+      "Circular economy of refuse: Imagining what discarded items (broken pottery, scraps of cloth) accumulate near this specific spot over time, creating a counter-ledger to the single metal coin."
+    ],
+    "sensory_details": [
+      "Sound: The extremely high, sharp *clink* of coinage striking packed earth, disproportionate to its material worth.",
+      "Smell: The dry, mineral scent emanating from centuries of concentrated human foot traffic mingling with the dust kicked up by a single dropped coin.",
+      "Sight: The way the sunlight catches the minute scratches and patina on an old copper or silver coin, revealing layers of prior use."
+    ],
+    "research_questions": [
+      "What were the specific ritualistic gestures accompanying making donations to beggars in 19th-century Shekhawati society?",
+      "How was 'pity' or charity legally or socially regulated in relation to public displays of poverty versus genuine need for immediate survival goods?"
+    ],
+    "structural_variants": [
+      "The chapter structured as a series of near misses: The beggar reaching, the hand flicking back, the coin skipping across different thresholds (a crack, a root, a spilled pot) before settling.",
+      "A tripartite structure dividing the attention between the source of wealth (the mansion), the act of giving (the toss), and the receiver's aftermath (the moment after picking up the metal)."
+    ],
+    "unused_angles": [
+      "The beggar attempting to barter the coin with another low-status vendor nearby, using it not for basic sustenance but for a minor luxury.",
+      "Interrogating the merchant's emotional state: Was the act of giving driven by religious obligation (Dharma) or social performance (Status)?",
+      "Mapping the path taken by the man after he tosses the coin—does his gait change, becoming subtly more careful or careless?"
+    ],
+    "variety_note": "While neighboring chapters focused on labor and material failure (artisan wages, building materials), this chapter isolates a purely socio-economic interaction: the transaction of non-labor based goods, focusing intensely on gesture and perceived worth."
+  },
+  "draft": {
+    "sha256": "22f5dba49c9f49b9bfb11254f07c47819382aac9ad5e4f1bab0964303900bd13",
+    "written_at": "2026-09-27T17:06:27.279478+00:00",
+    "origin": "write"
+  }
 }

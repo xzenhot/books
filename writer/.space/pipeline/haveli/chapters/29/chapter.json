@@ -7,60 +7,65 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "Marwari merchant patronage of Mughal/Rajput fresco styles",
+      "reference": "Pigment sourcing and trade routes in Rajputana during the late 19th century",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "The material science and decay patterns of natural pigments (lapis lazuli, carmine)",
+      "reference": "Architectural symbolism of scale escalation (from animal to machine) in regional art forms",
       "weblink": ""
     },
     {
       "no": "3",
-      "reference": "Oral history accounts detailing mercantile competition in Shekhawati towns",
+      "reference": "The economic implications of competitive patronage between wealthy merchant families in Shekhawati",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "The biography of the *pigment* itself: tracing its origin, journey (from mine/trade route), and final application on rival walls—treating color as currency.",
-      "Through the eyes of a child apprentice who witnesses not the grand art, but the mundane process of grinding, mixing, and scraping off discarded materials from the competition.",
-      "Examining the 'perfection' standard: focusing on the minute, structural flaws (a hairline crack, an improperly mixed plaster layer) that betray the frantic energy beneath the flawless facade."
+      "Focusing on the *contract* aspect: Treating each fresco addition as a legally binding (or quasi-legal) expenditure that shifts ownership or debt between merchant houses, rather than just aesthetic rivalry.",
+      "The critique of imitation versus originality: Examining specific mythological scenes where one house copies another, and then deliberately over-embellishes the copy until it becomes ridiculous or sacrilegious.",
+      "The structural failure as narrative climax: Dedicating the poem to a single moment when mortar gives way, allowing a cascade of pigment flakes (representing debt/failed ambition) to fall onto the street below."
     ],
     "story_options": [
-      "setting: The central scaffolding beam connecting two neighboring havelis, desire: To prove whose artistic contribution—whose investment in *time* and skill—is objectively superior to their rival's., obstacle: A sudden, unexpected monsoon downpour that threatens to wash away preliminary underpaintings on both structures simultaneously., turn: The two rivals must temporarily pool their remaining scaffolding materials and labor pools just to keep the necessary height maintained until dawn.",
-      "setting: The preparation room (the *karkhana*) where pigments are mixed, desire: To obtain a specific, rare stabilizing agent needed to make one's own gold leaf appear genuinely brighter than the competition., obstacle: A scarcity of water or an unexpected shortage of binding agents like gum arabic due to hoarding by other workshops., turn: The protagonist must barter for the necessary ingredient using something highly personal, not financial—perhaps a secret family recipe or a specific lullaby.",
-      "setting: A high balcony (*jharokha*) overlooking the adjacent street corner, desire: To gain the moral high ground by pointing out a technical imperfection in the rival's work that no one else has noticed., obstacle: The intended 'reveal' is interrupted by an unexpected, non-artistic event—perhaps a stray cow or a visiting official passing through, forcing immediate camouflage of the critique., turn: The confrontation over artistic merit dissolves into a shared moment of fatigue and exhaustion as all participants realize how much physical toll the competition has taken."
+      "Setting: The threshold separating two havelis, which are separated by a narrow, shared walkway; Desire: To intercept an overheard conversation between the lead artists discussing the 'acceptable' limit of extravagance for this quarter; Obstacle: A family member intercepts the spies and threatens to leak their gossip.",
+      "Setting: The central courtyard at dusk, illuminated only by hundreds of oil lamps; Desire: To observe the patron (Gangaram) viewing the finished piece with an expression that is neither pride nor satisfaction, but profound exhaustion; Obstacle: A sudden gust of wind blows away a newly placed item of ornamentation meant to complete the vision.",
+      "Setting: The scaffolding set up around a major new fresco panel, smelling heavily of wet plaster and chemical binding agents; Desire: To discover a single, hastily hidden piece of evidence—a discarded tool or note—that reveals the *true* cost (non-artistic) of the commissioned work; Obstacle: Another rival family member arrives unannounced to oversee the 'quality check' and critique the materials used."
     ],
     "subject_rotations": [
-      "Viewing the entire process—from initial sketch to final wash—as an elaborate, unsustainable negotiation between patrons and craftspeople.",
-      "Focusing solely on the *material* cycle: what happens when paint flakes off? Where does that pigment go? Is it discarded or reused in a lesser piece?",
-      "Treating the competition not as art history, but as performance theatre documented for posterity—the sheer exhausting drama of wealthy self-documentation."
+      "Treating the frescos not as depictions of gods or stories, but as elaborate, coded advertisements for specific commodity trades (e.g., a depiction of bounty meant to sell dyes, spices, or textiles).",
+      "Shifting focus entirely away from Gangaram: Centering on one non-merchant servant—perhaps a water carrier, or the kitchen staff—who moves through all the grand displays and only comments on the practicalities (where the roof leaks, where the plumbing fails).",
+      "The chronological dismantling of scale: Beginning with an intimate fresco detail (a single face, a specific flower) before expanding outward to show how that small moment was swallowed by larger, more bombastic scenes."
     ],
     "sensory_details": [
-      "Sight: The way sunlight catches uneven layers of gold leaf, making some patches flare with a hot, almost blinding glare while others look dull and powdery.",
-      "Sound: The rhythmic *scrape* of stone against bone as an artist meticulously scrapes away dried plaster residue from a palette knife.",
-      "Smell: The acrid, temporary scent of animal fat used in early experimental binding mediums, battling the permanent sweet musk of sandalwood oil."
+      "Smell: The acrid bite of freshly ground mineral pigments mixed with the heavy sweetness of burning camphor used in rituals meant to 'set' the paint.",
+      "Sound: The sharp *tap-tap-tap* of a small, portable metal tool (like a scribe's stylus or engraver) scoring away at existing plasterwork, either for revision or vandalism.",
+      "Sight: The stark contrast between the vibrant, almost unreal blue/red pigments and the dull, grey patina of the original, centuries-old structural stone beneath."
     ],
     "research_questions": [
-      "What were the specific social rules governing which types of motifs (mythological vs. portraiture) carried more prestige and thus costlier pigment during this period?",
-      "Were there documented instances where art commissioned for competition was intentionally sabotaged or deliberately left incomplete by its patron?",
-      "How did changes in international trade routes affect the *available* vocabulary of color, moving away from local minerals to imported pigments?"
+      "What were the common local sources for deep blues (like lapis or indigo) versus artificial dyes used in high-status narrative painting?",
+      "How did architectural elements—specifically ventilation shafts or drainage lines—influence the placement and size of grand wall murals?",
+      "Were there specific motifs associated with 'excess' or ostentation in Rajasthani miniature painting traditions that might function as foreshadowing?"
     ],
     "structural_variants": [
-      "A triptych structure: dedicating one third of the poem to the initial vision/planning meeting; the second third to the physical labor/conflict; and the final third to the aftermath/silence.",
-      "Structuring stanzas like call-and-response poetry, with one voice describing the *ideal* fresco, and another voice detailing the material limitations that prohibit it."
+      "A poem built on escalating dialogue: Each stanza is a spoken rebuttal between two competing aesthetic visions (e.g., Mythological narrative vs. Commercial display).",
+      "A structure mimicking the layering of paint application: Moving from thin washes to thick impasto, mirroring how ambition builds upon older foundations.",
+      "Using an almost musical form that builds polyrhythms, where each 'art' represented by a different rhythm (slow-moving divine; quick-selling trade; erratic machine)."
     ],
     "unused_angles": [
-      "The inclusion of graffiti or spontaneous tagging on structural supports by workers who weren't paid for their labor.",
-      "A section dedicated to the specific tools: the kind of brush hairs preferred for different subjects (e.g., softer bristles for flesh tones vs. stiffer brushes for outlines).",
-      "Exploring the logistics: which goods had to be *imported* just to make one single fresco wall look contemporary enough for comparison."
+      "The psychological toll on the *student* apprentice tasked with learning the family's unique style amid overwhelming competition.",
+      "Exploring the role of foreign influence beyond just technology—perhaps a specific textile pattern or decorative element suggesting connections to distant colonial centers that dictated local tastes."
     ],
-    "variety_note": "Unlike previous chapters focused on singular moments of wealth (Teej, Weddings), this chapter deals with sustained, active conflict, shifting focus from passive decay to explosive, expensive creation and the immediate exhaustion it causes."
+    "variety_note": "Where previous chapters detailed accumulated wealth (festivals, successful building phases), this chapter must focus solely on the *kinetic* expenditure of status through direct aesthetic competition, using physical materials as metaphors for unsustainable spending."
+  },
+  "draft": {
+    "sha256": "c762131e8eab75895bfde3338157a39103a16ec6e27a391fb4bb2c77d8a64df0",
+    "written_at": "2026-09-27T17:05:15.250301+00:00",
+    "origin": "write"
   }
 }

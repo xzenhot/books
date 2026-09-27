@@ -7,59 +7,60 @@
   "further_references": [
     {
       "no": "1",
-      "reference": "historical trade routes for high-end textiles (e.g., Chinese silk, Gujarati mirror work)",
+      "reference": "History of textile trade routes in Rajasthan (e.g., connectivity with Gujarat/Delhi)",
       "weblink": ""
     },
     {
       "no": "2",
-      "reference": "the metallurgy and artistry of Mughal/Rajput silverwork techniques",
-      "weblink": ""
-    },
-    {
-      "no": "3",
-      "reference": "Indian ivory carving traditions predating modern tourism",
+      "reference": "Metallurgy and silver craftsmanship techniques prominent in Shekhawati during the 18th century.",
       "weblink": ""
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Focusing entirely on the *transactional* nature of luxury goods: dedicating stanzas to the intermediaries—the tax collectors, customs agents, or porters who handle the exchange points, rather than the final owner.",
-      "The 'ghost inventory': imagining a ledger entry detailing items that were commissioned but never arrived (e.g., Bolivian tin or Persian carpet samples), and how this speaks to unfulfilled ambition.",
-      "Analyzing cultural appropriation in art: treating some exotic materials as commodities stripped of their original ritualistic significance by the merchant class."
+      "Analyzing goods not by material value, but by origin: Tracing a single silk thread back to its specific source country (e.g., China vs. Persia) and what that implies about the merchant's network.",
+      "The tension of *pretense*: Focusing on items that are bought solely for their symbolic display—the 'show' material, which might be less valuable than its perceived worth suggests.",
+      "Viewing the goods through the eyes of a customs official or tax collector: A viewpoint concerned only with tariffs, quotas, and documentation rather than aesthetic wonder."
     ],
     "story_options": [
-      "Setting: The receiving port/gatehouse area where incoming goods are inspected; Desire: A rival agent intercepts a shipment, not to steal it, but to publicly challenge its authenticity and declared value before Gangaram's eyes.",
-      "Setting: The storage room beneath the haveli, damp and smelling of earth; Desire: An attendant discovers that some valuable textiles/ivory pieces have been damaged by local pests or moisture, forcing a choice between expensive repair or calculated loss.",
-      "Setting: A secret private negotiation space away from the main house structure; Desire: The payment for the goods is not in coinage, but in labor obligations or future access to restricted trade routes."
+      "setting: The unloading bay outside the haveli gates at dawn, desire: To see the *process* of inventorying these items—the stacking, weighing, and cataloging by specialized local laborers, obstacle: Bureaucratic delay caused by missing seals or documentation; turn: A minor disagreement over a disputed weight leading to a dramatic reveal about who truly holds economic power.",
+      "setting: Inside the merchant’s private counting room, surrounded by crates of goods, desire: To examine the packaging itself—the wrapping cloth, the wood grain of the crate, the smell trapped inside; obstacle: The items are being inspected for smuggled/untaxed origins; turn: One piece of ivory is recognized as belonging to a specific cultural group whose presence is now forbidden or highly regulated.",
+      "setting: A temporary receiving area courtyard, late at night, after all official viewing has ended, desire: To see the exchange happen on the margins—the private bartering between two merchants who are ostensibly rivals; obstacle: The constant threat of discovery by servants loyal to Gangaram; turn: The conversation reveals that some goods were acquired through coercion or debt repayment rather than pure profit."
     ],
     "subject_rotations": [
-      "A comparative study of wealth accumulation via portable luxury vs. fixed assets (comparing textiles/silver value changes against brick/stone permanence).",
-      "Treating the goods as cultural conduits: following a single object (e.g., an ivory handle) backwards—to its source country, to the artisan who carved it, and finally back to Mandawa's collector.",
-      "The narrative structure shifting from accumulation ('what was bought') to disposal ('what is discarded'): charting which beautiful objects eventually break or are lost."
+      "Treating the acquisition not as a singular purchase, but as a *year-long accumulation*: Cataloging how one item (e.g., a specific type of jade) slowly appears over seasons, marking shifts in the merchant's taste or fortune.",
+      "Focusing on the 'empty space': The gap between two displayed luxury items—the dust settling between the silk bolts and the silver trays—and what that silence implies about their owners.",
+      "The comparative biography: Pairing a single textile with a piece of metalwork, narratively explaining how one style influenced the other's artistic development over time."
     ],
     "sensory_details": [
-      "Sound: The specific clinking rhythm of different alloys—the dull thud of unpolished bronze against the high, pure ring of hammered silver.",
-      "Smell: A mixture of dried resins used to fumigate valuable items (like frankincense or sandalwood) struggling to mask the faint scent of mildew clinging to bales of old silk.",
-      "Touch: The distinct, cool weight differential when comparing raw, uncut jade versus finely worked, polished ivory."
+      "Sight: The way sunlight catches minute flaws in tarnished silver polish, revealing oxidized greens beneath the sheen.",
+      "Smell: A complex mixture of aged saffron threads mingling with the sharp, metallic scent of raw, un-alloyed silver dust.",
+      "Touch: The cool, dry slickness of untreated ivory contrasting sharply with the slightly waxy resistance of expensive dyed silk fibers."
     ],
     "research_questions": [
-      "What were the specific protocols for insuring valuable textile and metal shipments during periods of political instability?",
-      "Did different trading commodities (e.g., silks from China vs. spices from Southeast Asia) carry differing levels of associated ritual or spiritual value among local elites?"
+      "What were the standard weights and measures used for luxury goods like high-grade raw silks or semi-precious stones in Shekhawati trade centers?",
+      "Are there surviving records detailing specific types of silver alloy markings unique to certain merchant houses during this period?",
+      "How did local artisans integrate foreign materials (like exotic dyes or foreign ivory) into traditional crafts within the haveli structure?"
     ],
     "structural_variants": [
-      "A poem written as a series of annotated sketches, mimicking the marginalia found in an antique trade journal.",
-      "Structuring the chapter around three distinct 'exchanges' over a single day, each with its own rhythmic cadence and associated material type."
+      "A tripartite poem: One section dedicated entirely to visual texture (silk), one to reflective surfaces (silver), and a final, brief meditation on the 'weight' of value (ivory/bone).",
+      "An inventory list format disguised as poetry, using catalog-style descriptions to build an escalating sense of material opulence.",
+      "A poem structure built around the concept of reflection: What is seen in the mirror polish versus what is perceived by the naked eye?"
     ],
     "unused_angles": [
-      "The role of women in specifying or overseeing the acquisition of decorative household goods (the taste arbiters).",
-      "A focus on how different materials react to local natural elements—how silver tarnishes differently than gold, or how silk resists mildew.",
-      "How the *display* arrangement of goods impacts perceived wealth more than the sheer volume."
+      "The logistical nightmare of moving such high-value, disparate goods through semi-rural transport routes before they reached Mandawa.",
+      "The role of foreign intermediaries (e.g., agents from Bombay or Calcutta) in structuring these purchases on behalf of the Marwari merchant."
     ],
-    "variety_note": "While earlier chapters focused on foundational structures (foundations/walls) or massive public events (feasts), this piece zeroes in on the portable, personal accumulation of refined commodities: the objects that define private status and are easily moved away from the main haveli structure."
+    "variety_note": "While previous chapters have focused heavily on labor and ritualized expenditure, this chapter zeroes in exclusively on material goods, treating wealth as a physical collection that must be cataloged and defended."
+  },
+  "draft": {
+    "sha256": "62392a5a267f0bfadf14ff0e052a749837afb6f6726148a42dd3c605d0ddf28e",
+    "written_at": "2026-09-27T17:04:18.378454+00:00",
+    "origin": "write"
   }
 }

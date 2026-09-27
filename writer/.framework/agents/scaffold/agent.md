@@ -87,7 +87,7 @@ If a scaffold/layout-related skill is needed, this agent invokes it. If a future
 
 This section is the binding downstream contract for scaffolded chapter state. Filters, chapter-writing agents, poet agents, and any skills they invoke must treat these paths and responsibilities as normative unless this agent is updated.
 
-│   chapter.md  - The live working draft, authored ONLY by the write/chapter/poet path (not seeded or read by filters)
+│   chapter.md  - The live working draft; workshop may create it if missing, then write/chapter/poet agents own revisions (never read by filters)
 │   model.json  - It contains the runtime state of the chapter. Contains meta data of the chapter. 
 │   mood.json   - How the content would be written in segments. This ensures the continuity and reasability
 │
@@ -101,7 +101,7 @@ This section is the binding downstream contract for scaffolded chapter state. Fi
         ├───version - It contains published/promoted snapshots of the segment's output (versioned copies)
         └───writer - It contains final copy of chapter.md
 
-      - `chapter.md` stays the live working draft in the chapter root, authored only by the write/chapter/poet path; filters never read or write it.
+      - `chapter.md` is the live working draft in the chapter root. Only workshop may create it, and only if absent; later revisions belong to write/chapter/poet agents. Filters never read it.
       - `history/` stores superseded drafts before anything overwrites the live draft or writer-stage copy.
       - `writer/` stores the writer-stage output for the current segment or chapter.
       - `editor/` stores commentary and quality feedback only.
