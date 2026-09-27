@@ -1,0 +1,61 @@
+{
+  "chapter_index": 8,
+  "name": "8",
+  "word_target": 500,
+  "chapter_title": "The Bought Plot",
+  "chapter_summary": "A parcel of land in Mandawa changes hands, and the barefoot clerk becomes a landowner. The poem is the measuring of the ground, the walking of the boundary, the first claim of a man who means to build something that outlasts him.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Rajasthani land ownership records and boundary disputes of the 18th century",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The ritual significance of drawing boundaries (marking sacred/secular space)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the 'plot' as a canvas awaiting ownership identity: how the land absorbs or rejects the merchant’s ambition, making the earth an active participant in Gangaram's history.",
+      "Focusing on the *process* of dispute resolution rather than the successful purchase: detailing the negotiation, the oaths sworn over questionable deeds, and the cost to mere subsistence people.",
+      "The legal perspective: structuring sections as formal land measurements or excerpts from property transfer documents, forcing a dry, objective poetic voice against the emotion."
+    ],
+    "story_options": [
+      "Setting: A dusty intersection outside the main fortified walls of Mandawa; Desire: To stake out an area large enough to house not just a home, but an annex for his nascent business operations (a warehouse/office); Obstacle: Competing claims from established local families or religious trusts who challenge the deed's legitimacy; Turn: The successful completion requires an oath sworn before a minor deity whose presence is doubted by all.",
+      "Setting: The edge of the growing town, where marshland meets dry scrub—a volatile border zone; Desire: To acquire enough stable ground to build the solid base for his lineage; Obstacle: A sudden monsoon flash flood or seasonal flooding that threatens to render the purchased land unusable immediately after payment; Turn: He is forced to negotiate with river laborers who view the 'plot' as belonging to the water cycle itself.",
+      "Setting: The courtyard of a previous, smaller, less significant dwelling whose structure he wishes to buy out; Desire: To absorb the physical history and existing boundary markings of another family into his own domain (a literary merging of histories); Obstacle: Finding hidden structural elements—ancient wells or forgotten cisterns—that belong to a lineage older than any recorded deed; Turn: The negotiation stalls because a resident believes the old structure must be honored, even if it complicates the new blueprint."
+    ],
+    "subject_rotations": [
+      "A meditation on permanence versus impermanence, using geological time (erosion, sedimentation) to critique his mercantile focus on linear progress.",
+      "The social ecology of property: detailing who else lives *around* this plot—the charmer who services the property, the cattle herder whose path crosses it, etc.—and how they dictate its value.",
+      "Treating the purchase as a psychological rite of passage: comparing acquiring physical land to acquiring self-respect or social standing; mapping his internal growth onto the linear expansion of the footprint."
+    ],
+    "sensory_details": [
+      "The specific, gritty taste of red iron dust kicked up by hooves traversing freshly turned earth.",
+      "The high, whining sound of a mongoose warning its territory boundary to intruders or scavengers.",
+      "The feel of rough-spun jute fibers used for temporary staking markers nailed into the soft, yielding soil."
+    ],
+    "research_questions": [
+      "What were the customary rites accompanying the official transfer of ownership over undeveloped land in Shekhawati during this period?",
+      "How was a 'plot' officially surveyed or measured without modern tools (e.g., use of specific lengths of rope, sighting poles)?",
+      "Were there associated fees or tributes paid not just to men, but to local deities or village headmen when claiming new ground?"
+    ],
+    "structural_variants": [
+      "A poem structured around measurements: using verses dedicated to linear measure (length), area (square footage/yield potential), and depth (foundation security).",
+      "Employing a dialogue format between the scrivener recording the transaction and the man receiving the title, one speaking in precise legal jargon, the other in soaring ambition.",
+      "A cyclical structure where the poem starts with an imagined perfect boundary and ends by acknowledging the impossible reality that all boundaries eventually fail or bleed into each other."
+    ],
+    "variety_note": "Where previous chapters focused on intangible goods (cotton, spices) or artistic endeavors (frescoes), this chapter grounds the accumulation of wealth in tangible, disputed geography—the physical act of demarcation.",
+    "unused_angles": [
+      "The ritual role of water sources within a plot's value.",
+      "How indigenous materials unique to that specific piece of earth dictated its primary use (e.g., proximity to good quarry stone)."
+    ]
+  }
+}

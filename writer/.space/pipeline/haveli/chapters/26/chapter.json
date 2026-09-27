@@ -1,0 +1,56 @@
+{
+  "chapter_index": 26,
+  "name": "26",
+  "word_target": 500,
+  "chapter_title": "The Festival of Teej",
+  "chapter_summary": "During the monsoon festival the haveli briefly opens its wealth to the whole village, food and music spilling into the street. The poem captures the communal moment when the private mansion becomes, for one day, public ground.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The mechanics of public celebration financing in Marwari mercantile culture",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Traditional monsoon festivals and the blending of religious observance with commerce",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing Teej not as a celebration, but as an annual 'resource drain': tracking which visible goods (sweets, painted backdrop elements) are used up, representing consumable capital.",
+      "The role of the marginalized community: focusing on groups who serve or observe—the water carriers, the flower vendors, the cooks—and their perspective shift from service to participation.",
+      "Memory contrast: contrasting the heightened, saturated reality of the festival with the faded, muted tones when revisiting the haveli years later (linking to the primary lens).",
+      "Soundscape mapping: treating the cacophony not as joyful noise, but as a structured sonic event containing specific intervals or recurring motifs that reveal underlying tensions."
+    ],
+    "story_options": [
+      "Setting: The main central square courtyard during Teej; Desire: A servant girl is tasked with keeping count of how many different colored bangles break in the ensuing crowd, realizing each piece lost marks a moment of wealth spent.",
+      "Setting: The exterior periphery boundary wall where the festival spills out; Desire: A minor character sees an item or person from today—a specific vendor's wagon wheel tread mark, a unique discarded ornament—that will reappear unchanged during the next decade’s celebration, marking cyclical permanence despite decadence.",
+      "Setting: A service entrance/back alley adjacent to the main hall reserved for temporary stalls; Desire: The writer focuses on the negotiations happening in the shadows between two merchants who are not celebrating but solidifying a future, necessary debt repayment."
+    ],
+    "subject_rotations": [
+      "Shifting focus from visible art and music to consumable elements: centering the narrative around specific, perishable food items—the quality of the *ghevar* syrup, the dye used in ephemeral festival garments.",
+      "Treating the festive gathering as a temporary social contract: examining which families uphold their facade best under external scrutiny versus those who are quietly collapsing into debt or fading influence.",
+      "Deconstructing 'public' space: exploring how the designated public area of the haveli feels emotionally different from its private, intended function—a forced generosity."
+    ],
+    "sensory_details": [
+      "Smell: The sharp, metallic tang of sweat mingling with overpowering sweet incense used to mask damp earth and unwashed bodies.",
+      "Sound: The specific, uneven *rhythm* created by hundreds of small bells (attached to bangles or ankles) whose clinking patterns refuse to synchronize into a single beat.",
+      "Touch: The sticky residue of spilled colored confectionary syrup coating carved stone steps that were meant for elegant shoes, now marred by grit and sugar."
+    ],
+    "research_questions": [
+      "What specific vendor goods or temporary stalls are historically documented as being mandatory additions to a major communal festival in this region?",
+      "Are there records detailing the seasonal disposal or repurposing of textiles used during such large-scale gatherings?"
+    ],
+    "structural_variants": [
+      "A chronological structure moving from pre-festival anticipation (the preparation and expense) through the peak day, to a rapid deconstruction in the hours immediately following sunset.",
+      "Structuring it as a series of overheard snippets: collecting fragments of conversations—a bargaining shout, a whispered secret concerning property lines, a gossip exchange—that only reveal the full picture when placed together."
+    ],
+    "variety_note": "This chapter marks a temporary expansion outward from the sealed walls; subsequent chapters must return to an increasingly enclosed and claustrophobic interiority as the facade cracks."
+  }
+}

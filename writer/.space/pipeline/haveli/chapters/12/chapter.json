@@ -1,0 +1,67 @@
+{
+  "chapter_index": 12,
+  "name": "12",
+  "word_target": 500,
+  "chapter_title": "The Fresco of the Ramayana",
+  "chapter_summary": "Rama's exile and Hanuman's leap are rendered across the wall in pigments that will outlast their patron. The poem follows the painter's hand as it makes the epic a daily scripture for the merchant's children.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Iconography of Ramayana murals in Rajasthan",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The economics of artistic patronage and scale in Shekhawati havelis",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Techniques for pigment longevity on porous sandstone walls (fritto/tempera)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the mural as a 'performance': focusing not on the story, but on the act of perpetual viewing—how does the painting change meaning based on who is watching (child vs. magistrate)?",
+      "The labor dispute angle: pitting Hanuman’s monumental leap against the exhaustion and aching muscles of the actual artisan tasked with painting it.",
+      "Material decay as theological commentary: examining how fading pigments might be interpreted as divine narrative erosion, suggesting that even epics fade."
+    ],
+    "story_options": [
+      "Setting: The specific point on the wall depicting Sita's separation from Rama; Desire: The painter is struggling with a detail—a fold of cloth or a gesture—and must pause their work for an agonizingly long wait while the sun moves across the courtyard; Obstacle: A sudden, unexpected gust of wind threatens to blow dust onto the wet paint.",
+      "Setting: Near the edge of the fresco where it meets plain plaster (the unpainted wall); Desire: The artist is sketching out a secondary scene—perhaps local life tangential to the epic—and must fight against the patron's insistence that *only* Ramayana be shown; Obstacle: A small child steals a piece of charcoal used for sketching.",
+      "Setting: Inside the shadow cast by an adjacent courtyard archway, where the mural is dimmer than others; Desire: The painter attempts to correct a major narrative mistake—a misplaced hand or wrong color value in Hanuman’s leap—knowing that changing it requires painstaking, risky effort; Obstacle: A sudden cloud passes over, plunging the entire scene into momentary darkness."
+    ],
+    "subject_rotations": [
+      "Focusing on the *viewer's* physical experience of the epic narrative—the way light catches specific characters throughout a day.",
+      "Analyzing the depiction of warfare purely through the lens of trade conflict: equating enemy armies with market rivals or failed shipments.",
+      "Treating the mythic journey as an early blueprint for modern travel routes, mapping mythological geography onto actual local roads."
+    ],
+    "sensory_details": [
+      "The sharp, coppery scent of minerals (like hematite) used to achieve deep reds in costume dyes.",
+      "The tacky, cool feel of the wet plaster surface beneath a hesitant fingertip tracing the outline of a warrior's weapon.",
+      "The dry, brittle rustle sound made by the painted peacock feathers when mentioned or evoked."
+    ],
+    "research_questions": [
+      "What specific local deities were syncretized into mainstream epics like the Ramayana in Shekhawati art to make them more relatable to the merchant class?",
+      "How did the structural requirements of a haveli (pillar placement, load-bearing walls) dictate the composition and flow of large narrative frescos?",
+      "If the fresco is meant as scripture, what were the common accompanying oral teachings or rituals intended to supplement the visual reading?"
+    ],
+    "structural_variants": [
+      "A piece structured entirely around contrasting viewpoints: switching focus between the dramatic action (the heroes) and the meticulous technical process (the paint preparation).",
+      "An associative, fragmented poem where the epic narrative breaks apart into smaller vignettes corresponding to other elements of the haveli itself.",
+      "Circular structure: beginning with Hanuman leaping and ending back at a stationary image that echoes that leap's energy but remains fixed."
+    ],
+    "unused_angles": [
+      "Examining the role of peripheral figures—the court attendants, servants, or supporting characters in mythology who receive less attention than the main heroes.",
+      "The tension between narrative action (high drama) and architectural constraint (flat painted plane).",
+      "How the pigment choice itself reflects social standing: were certain pigments reserved only for royalty or deities?"
+    ],
+    "variety_note": "Where previous chapters focused on setting up the potential for grandeur, this chapter grounds that ambition in a specific, highly detailed piece of sacred narrative art, focusing on process and perpetual viewing."
+  }
+}

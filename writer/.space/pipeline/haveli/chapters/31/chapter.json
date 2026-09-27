@@ -1,0 +1,56 @@
+{
+  "chapter_index": 31,
+  "name": "31",
+  "word_target": 500,
+  "chapter_title": "The Artisan's Cracked Grain",
+  "chapter_summary": "The painter who made Gangaram immortal is paid in grain that will not keep his family through the winter. The poem turns from the splendor of the walls to the cracked grain below them, the first explicit naming of the cost.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Historical wages of specialized artisans in Shekhawati during the peak Marwari trade period.",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Agricultural staple crops used as currency or supplemental payment for skilled labor in Rajasthan's hinterlands.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the physical residue of debt: detailing leftover, unusable building scraps—off-cuts of painted plaster that show a pattern of waste rather than art.",
+      "The transaction viewed through the lens of non-monetary futures: counting payment not in grain (a survival commodity) but in years of accumulated favors or unfulfilled oaths.",
+      "A psycho-social portrait of the artisan's perceived value: exploring how his skill, once golden, is now downgraded to a mere commodity unit subtracted from the overall ledger."
+    ],
+    "story_options": [
+      "Setting: The edge of Gangaram’s compound, where carts dump refuse; Desire: To find a discarded, intact tool (a specific chisel or brush) that suggests the payment was more valuable than any measured grain sack. Obstacle: A foreman sweeps up all evidence.",
+      "Setting: The tiny back room used for grinding pigments, smelling heavily of dust and spent labor; Desire: For one artisan to secretly trade their best-ground pigment batch not for pay, but for a single loan receipt that details the actual value of his family's *time* in exchange. Obstacle: Discovery by the master craftsman.",
+      "Setting: A secluded water pump outside the main gates; Desire: The artist witnesses another laborer using meager rations to barter passage or labor debt with outsiders passing through, realizing his own plight is part of a wider economic failure. Obstacle: Being forced to draw attention to this scene."
+    ],
+    "subject_rotations": [
+      "Treating the grain itself as an unreliable narrator: showing how different types of grain (millet vs. wheat) carry distinct emotional weight or symbolic history for the laborer.",
+      "Focusing on the unpaid labor debt owed *by* Gangaram to his artisans, treating these accounts as secret, unrecorded passages within the poem's structure rather than overt conflict points.",
+      "Shifting the subject from paint/architecture entirely: dedicating a stanza sequence to the artisan’s personal tools and how those objects bear witness to both creation (splendor) and deprivation (the pay)."
+    ],
+    "sensory_details": [
+      "Sound: The hollow *thud* of loose kernels spilling unevenly from a burlap sack, echoing too loudly in the quiet space.",
+      "Smell: The mixed scent of dry earth clinging to the hands that handle both rich pigment and rough grain husks.",
+      "Touch: The splintered, irritating texture of aged wood used for payment scales or measuring baskets."
+    ],
+    "research_questions": [
+      "What were common methods used by skilled craftsmen to barter services when formal currency was lacking in the immediate vicinity of a large urban center?",
+      "How did local agrarian cycles affect the perceived value and storage longevity of staple grains in merchant economies?"
+    ],
+    "structural_variants": [
+      "A ledger-style poem: organizing stanzas into columns, treating 'Service Rendered' vs. 'Payment Received' as formal accounting entries.",
+      "An oral narrative structure: adopting the tone of a storyteller recounting the debt years later to a younger relative who cannot comprehend the economic cruelty.",
+      "A fragmentation technique: juxtaposing perfect descriptions of frescoes with starkly literal, sparse renderings of grain stalks or empty bowls."
+    ],
+    "variety_note": "This chapter pivots sharply away from the grand visual competition seen in previous sections toward the micro-economy and material cost underpinning all artistic endeavor, focusing on sustenance rather than spectacle."
+  }
+}

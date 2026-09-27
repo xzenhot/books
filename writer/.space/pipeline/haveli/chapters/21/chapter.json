@@ -1,0 +1,61 @@
+{
+  "chapter_index": 21,
+  "name": "21",
+  "word_target": 500,
+  "chapter_title": "The Durbar",
+  "chapter_summary": "Silk and silver run like water in the great audience hall, and the merchant holds court like a minor king. The poem renders the durbar in its full splendor, the borrowed grandeur that will not survive the first shift in the trade winds.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Protocol of courtly patronage in Rajputana architecture",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The specific social etiquette regarding seating arrangements (darbar) before European and Indian trade delegations.",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Symbolism of textile colors in public ceremonial dress during the Marwari merchant zenith.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The audience from the perspective of a non-citizen or outsider (e.g., a passing Sadhu, a jeweler's apprentice not affiliated with the family) who sees the performance apparatus.",
+      "Treating the entire event as a highly choreographed failure: focusing on the moment *between* performances—the slight stumble, the forgotten greeting, the awkward pause that betrays the facade of perfection.",
+      "The mechanics of forced attention: exploring how silence itself becomes a commodity, and how Gangaram must actively manage and pay for every second of rapt attention."
+    ],
+    "story_options": [
+      "Setting: The periphery of the main durbar hall, watching from behind the curtain (the *jharokha* unseen by main characters); Desire: To witness a petty argument between two low-status servants that punctures the high courtly tension with mundane reality; Obstacle: A sudden, unexpected downpour or dust storm forces an abrupt dispersal of guests.",
+      "Setting: The refreshment area just beyond the visible audience line; Desire: For one key supporting figure (a trusted retainer, a junior clerk) to intercept Gangaram and deliver crucial, unscripted information about failing business deals instead of praising his wealth; Obstacle: A rival merchant manages to steal or damage an item meant for display before it is shown.",
+      "Setting: Near the entrance gate where greetings are exchanged; Desire: To focus on a single diplomatic exchange (a gift offering from a foreign trader) that proves utterly irrelevant to Gangaram's underlying financial desperation; Obstacle: The required protocol of greeting forces two people who fundamentally dislike each other into prolonged physical proximity."
+    ],
+    "subject_rotations": [
+      "A study in acoustics: mapping the way sound travels, reverberates, and is deliberately muffled or amplified across the stone halls to manipulate emotional impact.",
+      "The economy of seating arrangements: assigning economic value to every inch of available space—who sits closest, who must wait for permission to approach.",
+      "Costume as counter-narrative: analyzing how certain pieces of costume (a specific pattern on a turban, a single foreign brooch) betray the family’s deepest anxieties or hidden alliances."
+    ],
+    "sensory_details": [
+      "The cloying, mixed scent of jasmine oil mixed with stale sandalwood smoke clinging to heavy brocade garments.",
+      "The dull scraping sound of ornate shoe soles dragging across polished, marble flooring during ceremonial processions.",
+      "The specific visual texture of dust disturbed by silk skirts—a brief, iridescent cloud caught in the shafts of sunlight filtering through high windows."
+    ],
+    "research_questions": [
+      "What were typical diplomatic gifts exchanged between powerful Marwari merchants and visiting foreign envoys from the 19th or early 20th century?",
+      "How did the structural design of a haveli's reception area maximize both impressive scale and intimate control over pedestrian flow?",
+      "Were there specific local courtesies or public displays required when hosting officials whose patronage was essential to the merchant’s continued financial stability?"
+    ],
+    "structural_variants": [
+      "A poem written in a quasi-dialogue format, alternating between three character voices: the host (Gangaram), the admiring guest, and an unseen observer.",
+      "Structuring the piece around rhythmic repetitions of key ceremonial phrases or compliments, building tension until the final repetition feels hollowed out."
+    ],
+    "variety_note": "While previous chapters focused on specific domestic spaces or single objects (like thalis or quarters), this poem must treat the entire hall as a performance stage, focusing not just on splendor but on the mechanics of manufactured social importance."
+  }
+}

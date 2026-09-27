@@ -1,0 +1,61 @@
+{
+  "chapter_index": 24,
+  "name": "24",
+  "word_target": 500,
+  "chapter_title": "The Rose-Water Bath",
+  "chapter_summary": "The merchant bathes in rose water while his masons go thirsty in the June heat. The poem sets the ease of the one against the thirst of the many, the first clear image of the moral accounting that will haunt the house.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Ancient Rajasthani bathing rituals and their symbolism in social status.",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The cultural significance of perfumery (rose water, musk) as markers of wealth in North India.",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Historical water rationing or scarcity practices during periods of intense construction/prosperity.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Shifting the focus entirely to the specialized attendants: portraying them not as servants, but as highly skilled technicians managing the *experience* of luxury (mixing perfumes, controlling temperature gradients).",
+      "The narrative told through discarded bathing implements or forgotten cosmetics left in the basin—objects that bear witness to past indulgence.",
+      "A metaphorical reading where the rose water bath is treated like an elaborate purification ritual required before a massive financial transaction or settlement."
+    ],
+    "story_options": [
+      "Setting: The marble courtyard adjacent to the private bathing area; Desire: A junior architect discovers structural weaknesses in the cooling system, realizing its failure could trap steam and suffocating heat. Obstacle: Gangaram demands an immediate inspection that cannot afford a delay.",
+      "Setting: Just before the main merchant enters the bath; Desire: One of the masons overhears whispered gossip concerning the specific blend of imported water chemicals used for cleansing versus local materials. Obstacle: The masonic crew's morale hinges on them feeling recognized rather than merely utilized.",
+      "Setting: Late afternoon, as the heat begins to crack visible salt deposits on the cooling tiles; Desire: A reflection in the still pool reveals an older face—perhaps a relative of a laborer—who recognizes something about the merchant’s behavior from decades prior. Obstacle: The illusion of total privacy breaks down due to ambient sound carrying over courtyard drains."
+    ],
+    "subject_rotations": [
+      "From luxury display to infrastructural vulnerability: treating the plumbing, filtration, and water source itself as the primary character—a failing system representing a failing empire.",
+      "Focusing on the physical toll of purification: examining how repetitive ritual cleansing affects the bodies of laborers versus the apparent effortless grace of the elite.",
+      "Interpreting the bath not as pleasure, but as a necessary *reset* before confrontation; the bathing is preparation for an impending ledger reckoning."
+    ],
+    "sensory_details": [
+      "Sight: The way steam diffuses through tiny fissures in aged sandstone, momentarily catching and refracting daylight into shifting rainbows.",
+      "Sound: The distinct, rhythmic clinking of specialized scoops gathering scented salts from a large basin bowl.",
+      "Touch: The slightly abrasive, dry texture of fine lime dust settling on the skin after high-heat steam dissipates."
+    ],
+    "research_questions": [
+      "What were the specific social roles or ritual obligations associated with managing fresh water supplies in major urban hubs during the late 19th century?",
+      "Are there historical records detailing how scent mixtures (natural oils vs. manufactured perfumes) signaled economic status beyond mere expense?",
+      "What kind of specialized tools would have been used by masons working on cooling, wet-material surfaces like marble?"
+    ],
+    "structural_variants": [
+      "A poem structured as a gradual withdrawal: starting with an expansive depiction of the public courtyard's heat and gradually contracting focus to the single vessel holding the bath water.",
+      "An A-B-A-B quatrain sequence where Line A describes the luxury element (rose water, steam) and Line B describes the material hardship (sweat, grit, cracked earth)."
+    ],
+    "variety_note": "While earlier chapters focused on public spectacle and accrued wealth, this poem grounds the decay in a highly intimate, private ritual space—the cleansing process itself—using sensory deprivation/overload to build tension."
+  }
+}

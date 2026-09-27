@@ -1,0 +1,60 @@
+{
+  "chapter_index": 22,
+  "name": "22",
+  "word_target": 500,
+  "chapter_title": "The Five Hundred Guests",
+  "chapter_summary": "The feast meant to fix Gangaram's name in every mouth in Mandawa is laid out on beaten gold. The poem counts the guests and the cost alike, the generosity that is really an advertisement of power.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The logistics and hierarchy involved in large-scale banquets across pre-modern Indian kingdoms.",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Historical descriptions of spice trade commodities beyond the common peppercorns.",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "Ritualistic dining practices observed in different regional Indian cultures.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the waste management: treating the refuse—the remnants of spices, soiled linens, discarded peels from exotic fruits—as a secondary narrative layer that tells the truth after the splendor fades.",
+      "The perspective of the service staff: detailing their meticulous internal choreography as they move between tables, where their silent coordination betrays more about the house's economic strain than the feast itself.",
+      "A breakdown by food group: analyzing how different types of offerings (sweet vs. savory, local vs. imported spice) correlate with which specific allied merchant families were being appeased or indebted to."
+    ],
+    "story_options": [
+      "Setting: The service passage just outside the main durbar hall; Desire: A junior server overhears a hushed exchange about who *didn't* receive an expected portion of saffron, indicating a shift in political capital amongst attendees.",
+      "Setting: One corner table that is slightly visible but peripheral to the main action; Desire: To observe an elderly guest engaging in private conversation with a vendor stationed nearby—a negotiation happening under the guise of polite eating.",
+      "Setting: The kitchen/scullery area immediately after the peak moment; Desire: To find evidence on the discarded plates (e.g., a specialized, expensive spice that was reserved for only the highest-ranking guest) leading to an unexpected revelation about the host's true priorities."
+    ],
+    "subject_rotations": [
+      "The material cost accounting of hospitality: dedicating stanzas not to who ate what, but to tracking the value of spices (cardamom vs. clove), imported sugars, or rare oils consumed.",
+      "The performance of indigestion: exploring how various types of elaborate food are meant to satisfy beyond mere hunger—is it a performance of satiety? A testament to abundance?",
+      "Focusing on the *preparation* for the feast rather than the meal itself: detailing the specialized tasks of multiple caste groups (the spice grinder, the deep-fryer attendant, the water carrier) as an interlocking machine powered by anticipation."
+    ],
+    "sensory_details": [
+      "Sight: The precise geometric pattern left on a golden platter where condensation from different drinks—lemonade and sherbet—has mingled.",
+      "Sound: The rhythmic scraping sound of damp cloths being used repeatedly to wipe off minute, sticky residues from the highly polished metal serving pieces.",
+      "Smell: The sudden, sharp aroma of medicinal herbs (like neem or betel leaf) unexpectedly mingling with the overwhelming sweetness of caramelized sugar."
+    ],
+    "research_questions": [
+      "What were the customary 'guest quotas' for a merchant family hosting an event meant to solidify political alliances?",
+      "How did the presentation style change between feasts intended purely for local rivals versus those involving visiting dignitaries from foreign ports?"
+    ],
+    "structural_variants": [
+      "A poem structured like a receipt or inventory list, meticulously cataloging each item served, with deviations in currency/value assigned to each entry.",
+      "Circular structure: Beginning and ending on the same single utensil (a specific ladle or ornate spoon), showing its journey from preparation to waste."
+    ],
+    "variety_note": "While previous chapters focused on individual sacred items or singular objects of power, this poem must build an entire ephemeral 'economy' within the boundaries of the feast itself, treating hospitality as a transaction ledger."
+  }
+}

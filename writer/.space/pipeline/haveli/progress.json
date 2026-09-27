@@ -1,0 +1,609 @@
+{
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "The Barefoot Clerk",
+      "file_path": "chapters/1/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "The First Ledger",
+      "file_path": "chapters/2/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "The Salt Road",
+      "file_path": "chapters/3/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "The Camel Caravan",
+      "file_path": "chapters/4/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "The Cotton Bale",
+      "file_path": "chapters/5/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "The Opium Chest",
+      "file_path": "chapters/6/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "The First Profit",
+      "file_path": "chapters/7/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "The Bought Plot",
+      "file_path": "chapters/8/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "The Foundation Stone",
+      "file_path": "chapters/9/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "The First Prayer",
+      "file_path": "chapters/10/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 11,
+      "topic": "The Painter's Arrival",
+      "file_path": "chapters/11/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 12,
+      "topic": "The Fresco of the Ramayana",
+      "file_path": "chapters/12/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 13,
+      "topic": "The Fresco of the Mahabharata",
+      "file_path": "chapters/13/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 14,
+      "topic": "The Train in the Wall",
+      "file_path": "chapters/14/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 15,
+      "topic": "The Motorcar and the Elephant",
+      "file_path": "chapters/15/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 16,
+      "topic": "The Jharokha",
+      "file_path": "chapters/16/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 17,
+      "topic": "The Courtyard",
+      "file_path": "chapters/17/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 18,
+      "topic": "The Women's Quarters",
+      "file_path": "chapters/18/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 19,
+      "topic": "The Temple Room",
+      "file_path": "chapters/19/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 20,
+      "topic": "The Gold Thali",
+      "file_path": "chapters/20/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 21,
+      "topic": "The Durbar",
+      "file_path": "chapters/21/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 22,
+      "topic": "The Five Hundred Guests",
+      "file_path": "chapters/22/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 23,
+      "topic": "The Elephant's Marble Stable",
+      "file_path": "chapters/23/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 24,
+      "topic": "The Rose-Water Bath",
+      "file_path": "chapters/24/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 25,
+      "topic": "The Silk and Silver",
+      "file_path": "chapters/25/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 26,
+      "topic": "The Festival of Teej",
+      "file_path": "chapters/26/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 27,
+      "topic": "The Wedding Season",
+      "file_path": "chapters/27/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 28,
+      "topic": "The Rival Merchant's Wall",
+      "file_path": "chapters/28/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 29,
+      "topic": "The Competition of Frescoes",
+      "file_path": "chapters/29/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 30,
+      "topic": "The Name in Stone",
+      "file_path": "chapters/30/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 31,
+      "topic": "The Artisan's Cracked Grain",
+      "file_path": "chapters/31/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 32,
+      "topic": "The Mason's Thirst",
+      "file_path": "chapters/32/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 33,
+      "topic": "The Potter's Humiliation",
+      "file_path": "chapters/33/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 34,
+      "topic": "The Beggar's Coin",
+      "file_path": "chapters/34/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 35,
+      "topic": "The Widow's Wages",
+      "file_path": "chapters/35/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 36,
+      "topic": "The Servant Girl's Spilled Wine",
+      "file_path": "chapters/36/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 37,
+      "topic": "The Sleeping Staircase",
+      "file_path": "chapters/37/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 38,
+      "topic": "The Bazaar's Silence",
+      "file_path": "chapters/38/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 39,
+      "topic": "The Ledger's Lie",
+      "file_path": "chapters/39/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 40,
+      "topic": "The Unpaid Debt",
+      "file_path": "chapters/40/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 41,
+      "topic": "The Shifting Trade Route",
+      "file_path": "chapters/41/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 42,
+      "topic": "The Turning Fortune",
+      "file_path": "chapters/42/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 43,
+      "topic": "The Fleeing Partners",
+      "file_path": "chapters/43/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 44,
+      "topic": "The Stripped Silver",
+      "file_path": "chapters/44/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 45,
+      "topic": "The Empty Courtyard",
+      "file_path": "chapters/45/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 46,
+      "topic": "The Locked Upper Room",
+      "file_path": "chapters/46/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 47,
+      "topic": "The Last Candle",
+      "file_path": "chapters/47/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 48,
+      "topic": "The Death of Seth Gangaram",
+      "file_path": "chapters/48/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 49,
+      "topic": "The Unclaimed Body",
+      "file_path": "chapters/49/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 50,
+      "topic": "The Closed Door",
+      "file_path": "chapters/50/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 51,
+      "topic": "The Unfinished Procession",
+      "file_path": "chapters/51/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 52,
+      "topic": "The Gramophone's Waiting Hand",
+      "file_path": "chapters/52/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 53,
+      "topic": "The Stepping Gods",
+      "file_path": "chapters/53/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 54,
+      "topic": "The Jharokha Wind",
+      "file_path": "chapters/54/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 55,
+      "topic": "The Scent of Ghee and Marigold",
+      "file_path": "chapters/55/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 56,
+      "topic": "The Resisting Pigment",
+      "file_path": "chapters/56/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 57,
+      "topic": "The Warm Fresco",
+      "file_path": "chapters/57/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 58,
+      "topic": "The Dead Merchant's Lamplight",
+      "file_path": "chapters/58/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 59,
+      "topic": "The Poor at the Locked Door",
+      "file_path": "chapters/59/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 60,
+      "topic": "The Reckoning That Never Came",
+      "file_path": "chapters/60/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    }
+  ],
+  "total_chapters": 60,
+  "written_chapters": 1,
+  "completed_chapters": 0,
+  "published": false,
+  "current_chapter": 2
+}

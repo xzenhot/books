@@ -1,0 +1,63 @@
+{
+  "chapter_index": 14,
+  "name": "14",
+  "word_target": 500,
+  "chapter_title": "The Train in the Wall",
+  "chapter_summary": "A steam locomotive is painted with the same reverence as Indra's chariot, the modern world arriving in Shekhawati as a wonder. The poem captures the moment the future entered the fresco, and the merchant's wall became a record of change itself.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Early 20th-century Indian railway technology and its impact on regional art patronage",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The depiction of industrial machinery versus divine chariots in Indian miniature painting traditions",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Analyzing the train not as a marvel, but as an unwelcome disruption: focusing on how its black smoke stains or compromises the delicate painted divinity around it.",
+      "The 'Interrupted Moment' structure: structuring the poem so that every passage describing the grand arrival is suddenly broken by a mundane detail (a stray cart wheel, a person coughing) that pulls focus from the spectacle.",
+      "Comparing operational schematics to divine architecture: reading the train’s mechanics (boiler pressure, coupling mechanisms) through a mythological filter—are they analogous to Surya's energy or Indra's might?"
+    ],
+    "story_options": [
+      "Setting: A specific corner of the fresco where the track meets the wall; Desire: The merchant wants the train depicted as perfectly graceful, like an auspicious procession; Obstacle: The artist realizes the locomotive model is inherently too jagged and industrial for the soft curves preferred by patrons.",
+      "Setting: An imagined platform edge extending from the haveli structure itself; Desire: To show a passenger *disembarking* from the painted train into the reality of the courtyard; Obstacle: Showing this transition forces a decision on whether the painting incorporates depth illusion or remains purely decorative flatness.",
+      "Setting: A group of local children gathered near the wall, viewing the fresco; Desire: They treat the painted train not as history, but as a playground object to be played with, graffiti-like touchings that contradict the permanence of the paint.",
+      "A scene where the 'wait' is prolonged indefinitely—the steam engine seems stuck between frames, neither arriving nor departing, symbolizing unresolved economic anxiety."
+    ],
+    "subject_rotations": [
+      "Treating the mechanical parts (wheels, pistons) as a secular interpretation of divine attributes (e.g., the wheel as Dharma/cosmic law; the smoke as breath/prana).",
+      "Focusing entirely on the human *reaction* to the train in the painted figures: are they awestruck, fearful, indifferent, or merely calculating its economic value?",
+      "Shifting focus from steam power to electrical potential: using the latent energy of electricity as a motif that undercuts the perceived 'romance' of the smoke-belching locomotive."
+    ],
+    "sensory_details": [
+      "The distinct, oily scent of hot grease mingling with centuries-old incense residue on the stone floor.",
+      "The high-pitched, rhythmic hiss of escaping steam against the quiet dust motes in the afternoon sun.",
+      "The grit and slight burn from coal ash caught under a freshly polished brass railing depicted in the art."
+    ],
+    "research_questions": [
+      "What were the common sources for pigments that mimicked industrial materials (e.g., deep, uniform blacks or muted grays) in pre-modern fresco painting?",
+      "Did railway expansion cause shifts in local patron investment away from traditional religious art towards civic/industrial commemoration?",
+      "Are there records of 'mechanical deities' appearing in regional folk art from the early 20th century that might inform a more specific visual motif?"
+    ],
+    "structural_variants": [
+      "A polyphonic poem: having distinct voices—a historian, an artisan, and a modern traveler—each describing the same painted train moment.",
+      "An object-centric structure: building the poem around tracing one repeating element (e.g., a specific brass coupling or railway bolt) through different mythological representations across other frescos in the haveli.",
+      "A sudden shift into technical documentation mixed with poetry, mimicking an engineer's field report overlaying art."
+    ],
+    "unused_angles": [
+      "The tension between speed (the train) and permanence (the painted wall), using structural poem breaks to mirror this conflict.",
+      "How the painting of technology represents a break in lineage—a visible narrative cut that cannot be easily patched over with traditional myth.",
+      "Viewing the engine as a manifestation of 'uncontrolled appetite' (greed/progress) rather than progress itself."
+    ],
+    "variety_note": "Where previous frescos detailed established cosmic order or recognized natural wonder, this chapter introduces an element of rapid, foreign mechanical force that fundamentally challenges the contained reality of the haveli wall."
+  }
+}

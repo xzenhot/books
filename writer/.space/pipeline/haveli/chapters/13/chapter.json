@@ -1,0 +1,61 @@
+{
+  "chapter_index": 13,
+  "name": "13",
+  "word_target": 500,
+  "chapter_title": "The Fresco of the Mahabharata",
+  "chapter_summary": "The great war is painted across a courtyard wall, armies frozen mid-charge in a battle that will never end. The poem holds the paradox of the painted war — a violence made permanent, and therefore made safe to live beside.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Mythological battle sequences in regional Indian painting traditions outside the primary epics.",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The symbolism of suspended violence or truce imagery (e.g., Krishna's detachment, Bhishma's curse) within mural art.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing the narrative entirely through the perspective of an *inanimate* element of the scene—a specific chariot wheel, or a discarded weapon fragment depicted on the wall—which witnesses the tragedy cyclically.",
+      "Framing the painting not as history, but as *propaganda*: analyzing which factions were favored by the patronage and how their narratives are visually amplified (e.g., heroic musculature vs. strategic positioning).",
+      "Applying the lens of 'failed choreography': treating the battlefield tableau as a highly technical staging that was never meant to be lived in—the tension is purely aesthetic, making the depicted deaths fundamentally unreal."
+    ],
+    "story_options": [
+      "Setting: The section depicting Arjuna poised before his final arrow; Desire: To find one specific moment of hesitation or doubt painted onto his face/body that undermines the 'heroic' consensus; Obstacle: A sudden, localized downpour begins, making the pigment appear bruised and running.",
+      "Setting: The depiction of a battlefield triage area (if visible); Desire: To locate a single figure—a healer, a casualty cart bearer—whose suffering is rendered with startling realism compared to the grand heroes; Obstacle: The monsoon rain washes over this section, blurring the lines between life-and-death pigment and mere pigment runoff.",
+      "Setting: A periphery detail, perhaps showing camp followers or peripheral citizens watching from shelter; Desire: To imbue their silent observation with a more grounded political commentary than the warring nobles receive; Obstacle: The weather shifts to an intense heatwave following the rain, causing the plaster around these figures to crack visibly."
+    ],
+    "subject_rotations": [
+      "Treating the *absence* of action: focusing on the moments between charges—the breath held by every warrior, the momentary lull before the next wave hits.",
+      "Focusing only on the non-combatant roles depicted (support staff, handlers, women); giving their perspectives equal weight to the generals' pronouncements.",
+      "Examining the *artistic process* within the narrative: interrupting the epic flow by detailing how the artist had to 'invent' or exaggerate certain impossible feats of martial strength."
+    ],
+    "sensory_details": [
+      "The smell of wet, earthy pigment mix leaching out onto the dry courtyard stones during a rain shower.",
+      "The slick, cool feel of imagined metal armor on bare skin contrasted with the rough, porous texture of the wall plaster under fingertips.",
+      "The high-pitched, persistent sound of dripping water hitting dried lime mortar at random intervals."
+    ],
+    "research_questions": [
+      "What were the common pictorial conventions used in Shekhawati to depict divine warfare versus mortal conflict on frescoes?",
+      "How did local pigment sourcing dictate which parts of a grand narrative—the heroes or the background elements—received superior coloring treatments?"
+    ],
+    "structural_variants": [
+      "A poem structured as an 'after-action report' written by a detached observer documenting the depicted bloodshed, using bureaucratic, measured language.",
+      "The use of dramatic caesura (pauses) within stanzas that mirror moments where the depiction seems to lose structural integrity or detail.",
+      "Shifting point-of-view between the epic scope (all sides) and an extreme close-up on a single piece of painted ornamentation (a crest, a sash)."
+    ],
+    "unused_angles": [
+      "The psychological weariness depicted in the faces of those who have seen such carnage before it is even fully realized.",
+      "How the fresco art forces mythological characters to embody architectural constraints—being forever bound by plaster lines and structural supports.",
+      "A focus on materials that *resist* depiction: the empty space, the gap between figures, the areas intentionally left in pale wash."
+    ],
+    "variety_note": "Where previous chapters focused on beginnings (The Foundation) or structured moments of high activity (Festivals), this chapter shifts to depict a frozen catastrophe, using both weather and narrative pause as structural devices."
+  }
+}

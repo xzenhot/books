@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Create, resume, or extend a poetry pipeline without replacing existing work."""
 import argparse
+import shutil
 from pathlib import Path
 from quality import read_json, write_json, atomic_bytes, canonical_names, sync_progress, read_book_plan
 
@@ -67,6 +68,14 @@ def scaffold(bookname):
             read_json(path)
 
     pipeline.mkdir(parents=True, exist_ok=True)
+
+    # --- Copy the backlog source files (gist.md, storyline.md) verbatim ---
+    backlog_dir = root / ".space/backlog" / bookname
+    for src_name in ("gist.md", "storyline.md"):
+        src = backlog_dir / src_name
+        if src.is_file():
+            shutil.copy2(src, pipeline / src_name)
+
     model = dict(existing or plan)
     if existing and len(names) > len(old_names):
         model["chapters"] = existing["chapters"] + plan["chapters"][len(old_names):]
