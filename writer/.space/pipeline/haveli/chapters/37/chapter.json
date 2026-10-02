@@ -57,13 +57,17 @@
     "variety_note": "Unlike the focus on transaction (chapters 34-40) or grand display (chapters 11-28), this chapter moves inward to the overlooked infrastructure—the resting places and residual labor beneath the spectacle."
   },
   "draft": {
-    "sha256": "969bfc5995a681e7455d898ace8382f1cf19997f382935d59fc0aa0973dde7f6",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "76275d27b9c7af99afde43f204dfc46267950b56975da1eed05503403a5c8e17",
+    "written_at": "2026-09-28T18:39:29.824248+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "969bfc5995a681e7455d898ace8382f1cf19997f382935d59fc0aa0973dde7f6",
+    "sha256": "76275d27b9c7af99afde43f204dfc46267950b56975da1eed05503403a5c8e17",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -72,10 +76,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

@@ -60,13 +60,17 @@
     "variety_note": "Unlike the architectural sections focusing on private domestic life (Jharokha/Courtyard), this chapter must treat grand-scale public violence, demanding a shift from intimacy to overwhelming spectacle and controlled chaos."
   },
   "draft": {
-    "sha256": "851205d8fb6d593ceb60ad7b118fea6789156533240713bd21a82c052436453a",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "71b44ab6cba16ca367832513c17700ae8caed08a32c2888c7deb8183d0358e16",
+    "written_at": "2026-09-28T18:10:49.385569+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "851205d8fb6d593ceb60ad7b118fea6789156533240713bd21a82c052436453a",
+    "sha256": "71b44ab6cba16ca367832513c17700ae8caed08a32c2888c7deb8183d0358e16",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -75,10 +79,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

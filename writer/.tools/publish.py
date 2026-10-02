@@ -5,12 +5,26 @@ import os
 import re
 import tempfile
 from pathlib import Path
-from quality import read_json, write_json, canonical_names, require_publishable, digest, now, sync_progress, read_book_plan
+from quality import read_json, write_json, canonical_names, require_publishable, digest, now, sync_progress, read_book_plan, read_chapter_model
 
 ROOT = str(Path(__file__).resolve().parent.parent)
 
 
-def publish(bookname):
+def collect_draft(chapter):
+    """Read a chapter's draft bytes and model for draft-mode publication.
+
+    Draft mode bypasses the quality-pass requirement and the registered-draft
+    hash check: it reads whatever `chapter.md` currently holds and its model,
+    requiring only a non-empty draft. The caller is responsible for the
+    title/body sanity checks that follow.
+    """
+    data = (chapter / "chapter.md").read_bytes()
+    if not data.strip():
+        raise ValueError(f"{chapter.name}: missing draft")
+    return data, read_chapter_model(chapter)
+
+
+def publish(bookname, draft=False):
     if not bookname or bookname in {".", ".."} or any(c in bookname for c in '/\\:<>"|?*'):
         raise ValueError("Expected a single book folder name")
     pipeline = Path(ROOT) / ".space/pipeline" / bookname
@@ -20,7 +34,11 @@ def publish(bookname):
     # Fail closed before allocating a reader-facing version, including missing poems.
     for name in canonical_names(model):
         try:
-            data, metadata = require_publishable(pipeline / "chapters" / name)
+            chapter = pipeline / "chapters" / name
+            if draft:
+                data, metadata = collect_draft(chapter)
+            else:
+                data, metadata = require_publishable(chapter)
             title = metadata.get("chapter_title")
             if not isinstance(title, str) or not title.strip():
                 raise ValueError("missing chapter title")
@@ -56,7 +74,8 @@ def publish(bookname):
         (stage / "book.md").write_text(f"# {title}\n\n" + "\n\n---\n\n".join(sections) + "\n", encoding="utf-8")
         write_json(stage / "manifest.json", {"published_at": now(), "chapters": [{"name": n, "sha256": digest(d)} for n, _, _, d, _ in selected]})
         for name, _, _, data, metadata in selected:
-            live, current_model = require_publishable(pipeline / "chapters" / name)
+            chapter = pipeline / "chapters" / name
+            live, current_model = collect_draft(chapter) if draft else require_publishable(chapter)
             if live != data or current_model != metadata:
                 raise ValueError(f"{name}: changed during publication; retry")
         # Include legacy numeric versions when choosing the next unused number.
@@ -91,8 +110,14 @@ def publish(bookname):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("bookname")
+    parser.add_argument(
+        "--draft",
+        action="store_true",
+        help="Publish from current chapter-root drafts, bypassing the quality-pass "
+             "and registered-draft validation (forceful publication).",
+    )
     args = parser.parse_args()
     try:
-        publish(args.bookname)
+        publish(args.bookname, draft=args.draft)
     except (OSError, ValueError, KeyError) as error:
         parser.exit(1, f"ERROR: {error}\n")

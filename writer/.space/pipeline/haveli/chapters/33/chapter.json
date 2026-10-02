@@ -60,13 +60,17 @@
     "variety_note": "While earlier chapters dealt with visible structures (frescoes, stonework), this chapter roots the conflict in a perishable, liquid medium—water and mud—making the humiliation inherently transient yet deeply observed by an audience."
   },
   "draft": {
-    "sha256": "322ed8f10348e13482b7509ee65751195fa25e1dceda9daf151e53be894444c0",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "6ea7ad389a29efe440fe5b865e0c36dca9b9d07b1fa93b882141bc75237a8e03",
+    "written_at": "2026-09-28T18:39:29.785731+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "322ed8f10348e13482b7509ee65751195fa25e1dceda9daf151e53be894444c0",
+    "sha256": "6ea7ad389a29efe440fe5b865e0c36dca9b9d07b1fa93b882141bc75237a8e03",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -75,10 +79,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

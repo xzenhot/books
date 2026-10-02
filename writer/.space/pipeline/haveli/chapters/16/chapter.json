@@ -59,13 +59,17 @@
     "variety_note": "This chapter shifts focus from grand public murals (like temple or battle scenes) to an intimate architectural feature, turning art into a device of constrained perception and domestic surveillance. It moves inward toward the private self within the family structure."
   },
   "draft": {
-    "sha256": "b0d36c85b8e0256414d8f7387708ab7da28688a30dd762dd6bd101fab92ba0c1",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "062a9d2cce5c55aa6db8b37ce7a212e7a8ec972efc33f085bb5def9cd152a114",
+    "written_at": "2026-09-28T18:10:49.415578+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "b0d36c85b8e0256414d8f7387708ab7da28688a30dd762dd6bd101fab92ba0c1",
+    "sha256": "062a9d2cce5c55aa6db8b37ce7a212e7a8ec972efc33f085bb5def9cd152a114",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -74,10 +78,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

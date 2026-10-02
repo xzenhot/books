@@ -59,13 +59,17 @@
     "variety_note": "This chapter emphasizes process failure—whether through labor dispute, material lack, or social error—as much as the initial grand presentation."
   },
   "draft": {
-    "sha256": "34b863c7a1d71d8416f46f2cb06b95ad60bcf19ab322d82a2b9fb285e4a64e08",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "cd2f6cef91343d3b5584ecdeb5deb0024bcf28606a6cd71f76ed3366ebab87bb",
+    "written_at": "2026-09-28T18:10:49.456091+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "34b863c7a1d71d8416f46f2cb06b95ad60bcf19ab322d82a2b9fb285e4a64e08",
+    "sha256": "cd2f6cef91343d3b5584ecdeb5deb0024bcf28606a6cd71f76ed3366ebab87bb",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -74,10 +78,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }
