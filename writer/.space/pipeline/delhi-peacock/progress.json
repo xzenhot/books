@@ -1,0 +1,29 @@
+{
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "delhi-peacock — পর্ব 1",
+      "file_path": "chapters/1/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "delhi-peacock — পর্ব 2",
+      "file_path": "chapters/2/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    }
+  ],
+  "total_chapters": 2,
+  "written_chapters": 2,
+  "completed_chapters": 0,
+  "published": false,
+  "current_chapter": null
+}
