@@ -58,13 +58,17 @@
     "variety_note": "Where previous chapters focused on decline and death, this chapter emphasizes stasis—a frozen moment caught between full life and eventual decay, suggesting a perpetual readiness rather than an ending."
   },
   "draft": {
-    "sha256": "6cd6716e9d25d3c18106be2fa30d0fc6ecfc13f3a00a020d2146dd9290bf6be6",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "cf3814dbe999a1b69e3b110d797a7f34318f7d01335cf1d6c9bc3d57f54ca068",
+    "written_at": "2026-09-28T18:39:29.956567+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "6cd6716e9d25d3c18106be2fa30d0fc6ecfc13f3a00a020d2146dd9290bf6be6",
+    "sha256": "cf3814dbe999a1b69e3b110d797a7f34318f7d01335cf1d6c9bc3d57f54ca068",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -73,10 +77,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

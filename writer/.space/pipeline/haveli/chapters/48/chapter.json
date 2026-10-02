@@ -60,13 +60,17 @@
     "variety_note": "This chapter marks a distinct pivot from the *action* and *accretion* of wealth (previous chapters) to the total, irreversible *loss*, shifting tone from boastful grandeur to absolute stillness."
   },
   "draft": {
-    "sha256": "1f40e70f934b019a4830e5ca7c91c97eb1bd5c9c9fe28822a0fb471c5a1d6693",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "1e552a649671a264f8d58bfd352db5dc36331c7509ed939534dcb53dd1b79a5e",
+    "written_at": "2026-09-28T18:39:29.927829+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "1f40e70f934b019a4830e5ca7c91c97eb1bd5c9c9fe28822a0fb471c5a1d6693",
+    "sha256": "1e552a649671a264f8d58bfd352db5dc36331c7509ed939534dcb53dd1b79a5e",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -75,10 +79,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

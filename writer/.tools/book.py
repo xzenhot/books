@@ -1522,11 +1522,13 @@ def write_workflow(bookname: str, target: str) -> None:
         raise RuntimeError(f"{failures} chapter(s) failed writing.")
 
 
-def publish_workflow(bookname: str, language: str | None = None) -> None:
+def publish_workflow(bookname: str, language: str | None = None, draft: bool = False) -> None:
     """Promote pipeline segments to source/books/ via publish.py.
 
     The current publisher supports writer-stage chapter drafts only; the
     *language* parameter is reserved for future translator-stage support.
+    When *draft* is True, publication bypasses the quality-pass and
+    registered-draft validation and publishes the current drafts forcefully.
     """
     if language:
         raise ValueError(
@@ -1534,29 +1536,31 @@ def publish_workflow(bookname: str, language: str | None = None) -> None:
             "Omit the language argument to publish writer-stage drafts."
         )
     publisher = _load_module("writer_publish_engine", "publish.py")
-    publisher.publish(bookname)
+    publisher.publish(bookname, draft=draft)
 
 
 def review_workflow(bookname: str, target: str) -> None:
-    """Run the quality review engine (review.py) on selected chapters.
-
-    Loads review.py as a module, resolves the chapter list, and reviews
-    each requested chapter against the quality parameters.
-    """
+    """Run the quality review engine (review.py) on selected chapters."""
     review = _load_module("writer_review_engine", "review.py")
     chapters_root = review.resolve_chapters_root(bookname)
     numbers = review.parse_chapter_input(target, chapters_root)
-
     if not numbers:
-        print("No chapters to review. Write chapters first.")
+        print("No chapters to review.")
         return
-
-    # Ensure the pipeline style.md exists and is grounded in the current book.
     book = review.load_book_model(bookname)
     review.regenerate_style_md(bookname, book)
-
-    # Run the review for the target chapters.
     review.run_review(bookname, target)
+
+
+def humanize_workflow(bookname: str, target: str) -> None:
+    """Run the humanize engine (humanize.py) on selected chapters."""
+    humanize = _load_module("writer_humanize_engine", "humanize.py")
+    chapters_root = humanize.resolve_chapters_root(bookname)
+    numbers = humanize.parse_chapter_input(target, chapters_root)
+    if not numbers:
+        print("No chapters to humanize. Write chapters first.")
+        return
+    humanize.run_humanize(bookname, target)
 
 
 # ---------------------------------------------------------------------------
@@ -1596,7 +1600,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "verb",
         nargs="?",
-        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "write", "publish"),
+        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish"),
         help="Workflow action to perform.",
     )
     parser.add_argument(
@@ -1640,6 +1644,11 @@ def build_parser() -> argparse.ArgumentParser:
         "--layout",
         action="store_true",
         help="Regenerate book.json from storyline.md via Ollama after backlog creation.",
+    )
+    parser.add_argument(
+        "--draft",
+        action="store_true",
+        help="Publish from current chapter-root drafts, bypassing quality-pass validation.",
     )
     return parser
 
@@ -1690,7 +1699,7 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
              if v and v not in {"all", "*"}),
             None,
         )
-        publish_workflow(bookname, language)
+        publish_workflow(bookname, language, draft=args.draft)
         return
 
     if verb == "filter":
@@ -1701,6 +1710,10 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
 
     if verb == "review":
         review_workflow(bookname, positional_target(args))
+        return
+
+    if verb == "humanize":
+        humanize_workflow(bookname, positional_target(args))
         return
 
     raise ValueError(f"Unsupported workflow verb: {verb!r}")

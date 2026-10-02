@@ -59,13 +59,17 @@
     "variety_note": "This chapter moves the narrative's concern outside of purely domestic/spiritual concerns (like romance or mythology) and into a realm defined by impersonal, powerful technology, making the 'past vs. future' tension concrete."
   },
   "draft": {
-    "sha256": "b689abe9855319df21e9172e17d0e270dcf190434cbd8f573e3840b49ef370a1",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "dd96119c0be2025fa44c8e3db42c66545232f813625d90abb5b921567dc631c9",
+    "written_at": "2026-09-28T18:10:49.395891+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "b689abe9855319df21e9172e17d0e270dcf190434cbd8f573e3840b49ef370a1",
+    "sha256": "dd96119c0be2025fa44c8e3db42c66545232f813625d90abb5b921567dc631c9",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -74,10 +78,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

@@ -57,13 +57,17 @@
     "variety_note": "While previous chapters focused on the vibrant execution of art (fresco/pigment), this chapter must focus entirely on subtraction and endurance—the permanence achieved through the mechanical act of carving into inert stone."
   },
   "draft": {
-    "sha256": "83d63104478799da5af29c8b73e4a6fbc2a45ed5da58dcf28beb26bf755eb1cf",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "b6ef534ccfd51b8909e27e8a8bea71109b43e2346c07b429963c84e6a5c55ed2",
+    "written_at": "2026-09-28T18:39:29.755625+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "83d63104478799da5af29c8b73e4a6fbc2a45ed5da58dcf28beb26bf755eb1cf",
+    "sha256": "b6ef534ccfd51b8909e27e8a8bea71109b43e2346c07b429963c84e6a5c55ed2",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -72,10 +76,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

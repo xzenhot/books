@@ -58,13 +58,17 @@
     "variety_note": "Unlike chapters focused on intense interpersonal conflict or commodity cycles, this chapter must treat absence itself as a primary subject, requiring poetic focus on atmosphere and overlooked details rather than dramatic action."
   },
   "draft": {
-    "sha256": "6fd73fd71eac4559024cb8309ba984fd1decf918d4775cffc25237f338976708",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "ebf0f93679c860442f6f92025ef0d81aee61e7f37c42a72504c07c2836189c5c",
+    "written_at": "2026-09-28T18:39:29.899062+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "6fd73fd71eac4559024cb8309ba984fd1decf918d4775cffc25237f338976708",
+    "sha256": "ebf0f93679c860442f6f92025ef0d81aee61e7f37c42a72504c07c2836189c5c",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -73,10 +77,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

@@ -1,0 +1,20 @@
+Adventure
+Contemporary
+Historical Fiction
+Romance
+Sci-fi
+Horror
+Fantasy
+Mystery
+Thriller
+Literary Fiction
+Young Adult
+Drama
+Children's
+Biography
+Non-fiction
+Poetry
+Magical Realism
+Dystopian
+Comedy
+Western

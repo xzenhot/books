@@ -64,13 +64,17 @@
     "variety_note": "Where previous chapters detailed accumulated wealth (festivals, successful building phases), this chapter must focus solely on the *kinetic* expenditure of status through direct aesthetic competition, using physical materials as metaphors for unsustainable spending."
   },
   "draft": {
-    "sha256": "e129ccde9aa4ec8082a167bae3db2e5a92c1acf085f2c1cc83a266952e1f29f2",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "3e6a704a03dba9e66fa392679260b1e88da9b3e8b14d3fd27f246f1f315f0a33",
+    "written_at": "2026-09-28T18:39:29.744521+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "e129ccde9aa4ec8082a167bae3db2e5a92c1acf085f2c1cc83a266952e1f29f2",
+    "sha256": "3e6a704a03dba9e66fa392679260b1e88da9b3e8b14d3fd27f246f1f315f0a33",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -79,10 +83,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

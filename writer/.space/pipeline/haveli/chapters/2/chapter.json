@@ -59,13 +59,17 @@
     "variety_note": "Where earlier chapters focused on the external movement (roads, goods), this chapter must confine the action almost entirely to the internal space and the abstract plane of numbers, making precision itself a form of conflict."
   },
   "draft": {
-    "sha256": "9a909da4073090721c6922a2d3d83010e9968745b95e43f3ea664ed92679a71d",
-    "written_at": "2026-09-27T18:29:11+00:00",
-    "origin": "humanize"
+    "sha256": "910e50c55cba6586296ada602c3fe2960453f67fb32ada4992ec20112c1c1462",
+    "written_at": "2026-09-28T18:07:25.886555+00:00",
+    "origin": "write"
   },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
   "quality_review": {
     "status": "passed",
-    "sha256": "9a909da4073090721c6922a2d3d83010e9968745b95e43f3ea664ed92679a71d",
+    "sha256": "910e50c55cba6586296ada602c3fe2960453f67fb32ada4992ec20112c1c1462",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
     "notes": [
       "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
       "Philosophical depth: present",
@@ -74,10 +78,6 @@
       "Civilizational relevance: present",
       "Literary quality: present",
       "Ethical framework: present"
-    ],
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-27T18:30:42+00:00"
-  },
-  "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+    ]
+  }
 }

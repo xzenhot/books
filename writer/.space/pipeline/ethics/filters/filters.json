@@ -1,0 +1,60 @@
+﻿{
+  "filters": [
+    {
+      "order": 1,
+      "name": "{\r\n  \"sl\": 1,\r\n  \"filter\": \"workshop\",\r\n  \"autorun\": true,\r\n  \"reference\": \"\"\r\n}",
+      "agent": ".framework/agents/{\r\n  \"sl\": 1,\r\n  \"filter\": \"workshop\",\r\n  \"autorun\": true,\r\n  \"reference\": \"\"\r\n}/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 2,
+      "name": "{\r\n  \"sl\": 2,\r\n  \"filter\": \"research\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}",
+      "agent": ".framework/agents/{\r\n  \"sl\": 2,\r\n  \"filter\": \"research\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 3,
+      "name": "{\r\n  \"sl\": 3,\r\n  \"filter\": \"seeds\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}",
+      "agent": ".framework/agents/{\r\n  \"sl\": 3,\r\n  \"filter\": \"seeds\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 4,
+      "name": "{\r\n  \"sl\": 4,\r\n  \"filter\": \"correctness\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}",
+      "agent": ".framework/agents/{\r\n  \"sl\": 4,\r\n  \"filter\": \"correctness\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 5,
+      "name": "{\r\n  \"sl\": 5,\r\n  \"filter\": \"theme\",\r\n  \"autorun\": true,\r\n  \"reference\": \"\"\r\n}",
+      "agent": ".framework/agents/{\r\n  \"sl\": 5,\r\n  \"filter\": \"theme\",\r\n  \"autorun\": true,\r\n  \"reference\": \"\"\r\n}/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 6,
+      "name": "{\r\n  \"sl\": 6,\r\n  \"filter\": \"syntax\",\r\n  \"autorun\": true,\r\n  \"reference\": \"\"\r\n}",
+      "agent": ".framework/agents/{\r\n  \"sl\": 6,\r\n  \"filter\": \"syntax\",\r\n  \"autorun\": true,\r\n  \"reference\": \"\"\r\n}/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 7,
+      "name": "{\r\n  \"sl\": 7,\r\n  \"filter\": \"override\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}",
+      "agent": ".framework/agents/{\r\n  \"sl\": 7,\r\n  \"filter\": \"override\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    },
+    {
+      "order": 8,
+      "name": "{\r\n  \"sl\": 8,\r\n  \"filter\": \"quality\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}",
+      "agent": ".framework/agents/{\r\n  \"sl\": 8,\r\n  \"filter\": \"quality\",\r\n  \"autorun\": false,\r\n  \"reference\": \"\"\r\n}/agent.md",
+      "summary_file": "filter-summary.md",
+      "autorun": true
+    }
+  ]
+}
