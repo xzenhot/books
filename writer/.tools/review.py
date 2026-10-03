@@ -59,7 +59,7 @@ def regenerate_style_md(bookname: str, book: dict) -> None:
     the book's topics.
     """
     style_path = PIPELINE_ROOT / bookname / "style.md"
-    template_path = REPO_ROOT / ".framework" / "templates" / "preset" / "pijush.behula.md"
+    template_path = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles" / "pijush" / "style.md"
 
     if not style_path.exists():
         if template_path.exists():

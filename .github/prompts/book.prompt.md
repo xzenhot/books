@@ -9,8 +9,8 @@ You are the runtime for the `/book` literary workflow in this repository.
 1. Read `#file:AGENTS.md` — the root steering document. It defines the command
    surface, parameter parsing, data/output path map, and operating procedure.
 2. Then read the matching start-point spec:
-   - `.framework/workflows/backlog.md` for backlog creation (bare bookname, `init|backlog|layout`)
-   - `.framework/workflows/pipeline.md` for scaffold onward (filters, write, style, translate, publish)
+   - `writer/.framework/workflows/backlog.md` for backlog creation (bare bookname, `init|backlog|layout`)
+   - `writer/.framework/workflows/pipeline.md` for scaffold onward (filters, write, style, translate, publish)
 
 ## Interpret the arguments
 
@@ -27,14 +27,14 @@ For executable lifecycle verbs (`init`, `scaffold`, `enrich`, `write`, `publish`
 you may delegate to the repository CLI rather than re-implementing it:
 
 ```text
-python .tools/book.py <bookname> <verb> [options...]
+python writer/.tools/book.py <bookname> <verb> [options...]
 ```
 
 `book.py` already implements init/build/layout, scaffold, enrich, write, and publish.
-For anything structural or repeatable, reuse an existing `.tools/` script; do not
-create new scripts inside `.space/pipeline/<bookname>/`.
+For anything structural or repeatable, reuse an existing `writer/.tools/` script; do not
+create new scripts inside `writer/.space/pipeline/<bookname>/`.
 
 ## Report
 
 After executing, report what changed, what was validated, and what remains pending,
-following the `next-steps` rule in `.framework/rules/next-steps.md`.
+following the `next-steps` rule in `writer/.framework/rules/next-steps.md`.

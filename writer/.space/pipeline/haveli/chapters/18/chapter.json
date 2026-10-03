@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -60,25 +60,10 @@
     "variety_note": "While neighbouring poems focus on public spectacle (Durbar, Frescos), this chapter must ground itself in the necessary grit and intimate rhythm of private upkeep; its wealth is measurable by labor, not gold leaf."
   },
   "draft": {
-    "sha256": "5e6e0f97dbb96f0bd4307cad3e9571d56d541d2c533e47a98179bbcf68ee47ec",
-    "written_at": "2026-09-28T18:10:49.436436+00:00",
+    "sha256": "65a7fee694fc4515960966c93662b4c97efedf2f955d0b39030a3231b5fb9916",
+    "written_at": "2026-10-03T17:05:22.280463+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "5e6e0f97dbb96f0bd4307cad3e9571d56d541d2c533e47a98179bbcf68ee47ec",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

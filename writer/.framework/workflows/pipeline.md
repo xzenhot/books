@@ -397,13 +397,13 @@ Filters must also obey the chapter layout contract: only workshop may create the
 
 For `/book <bookname> enrich <count>|range|*`:
 
-Responsibility: fuse the active filters into one combined agent and run it in a single pass over the selected chapters, recording the fused enrichment guidance in each chapter's `model.json`, ready for write or publish. This work is routed through the enrich agent at `.framework/agents/enrich/agent.md`.
-
-> **Delegate to the repository CLI.** Enrich is a structural, repeatable operation: execute it with `python .tools/book.py <bookname> enrich [all|1|1-5|continue]` rather than re-implementing it. The CLI already implements the enrich engine; do not create new scripts inside `.space/pipeline/<bookname>/`.
+Responsibility: fuse the active filters into one combined agent and run it in a single pass over the selected chapters, recording the fused enrichment guidance in each chapter's `model.json`, ready for write or publish. This work is performed by the enrich agent at `.framework/agents/enrich/agent.md`, but **how it is executed depends on the target scope** (narrow = agentic, bulk = delegated):
 
 - `<count>` — a bare number targets that many chapters starting from chapter 1 (e.g. `enrich 5` → chapters 1–5).
 - `range` — a `start-end` range targets those chapters inclusive (e.g. `enrich 3-7` → chapters 3,4,5,6,7).
 - `*` (or `all`) — targets every canonical chapter in order.
+
+**Execution route (scope-dependent).** If the target is `*` or `all`, delegate to the repository CLI as a structural, repeatable operation: execute `python .tools/book.py <bookname> enrich [all|*]` rather than re-implementing it. The CLI already implements the enrich engine; do not create new scripts inside `.space/pipeline/<bookname>/`. For any other target — a single chapter (`<n>`), a `start-end` range, a `<count>`, or `continue` — execute the work **agentically**: invoke the enrich agent at `.framework/agents/enrich/agent.md` directly and do not delegate to any Python file.
 
 1. Stop if `.space/pipeline/<bookname>/` does not exist; use `scaffold` first.
 2. Read the filter registry at `.space/pipeline/<bookname>/filters/filters.json`. Resolve the **active** filters — every entry whose `autorun` is `true` — sorted by `order`. If none are active, stop and report that there is nothing to combine.
@@ -597,7 +597,7 @@ For `/book <bookname> write <n>|range|all|continue <language>`:
 
 Responsibility: turn pipeline filter outputs into finished reader-facing chapters and update progress. Writing work is dispatched on the book's form: the **story agent** (`.framework/agents/story/agent.md`) for novels, the **poetry agent** (`.framework/agents/poetry/agent.md`) for poetry.
 
-> **Writing is always agentic — never delegated to the CLI.** The actual prose/verse of a chapter is authored directly by the form-resolved writing agent (story for novel, poetry for poetry), not by a script. Unlike scaffold/enrich/publish (which are structural and may be delegated to `python .tools/book.py`), `write` must always route through the writing agent.
+> **Execution route (scope-dependent).** If the target is `*` or `all`, delegate to the repository CLI as a structural, repeatable operation: resolve `<style>` (see §3.5), then execute `python .tools/book.py <bookname> write [all|*] --style NICK` rather than re-implementing it. The CLI already implements the bulk write engine; do not create new scripts inside `.space/pipeline/<bookname>/`. For any other target — a single chapter (`<n>`), a `start-end` range, or `continue` — execute the work **agentically**: route the chapter to the form-resolved writing agent (story for novel, poetry for poetry), which authors the prose/verse directly — do not delegate to any Python file. The authored content always comes from the writing agent; the CLI is only the bulk runner.
 
 1. Stop if the pipeline does not exist; use `scaffold` first.
 2. Stop if upstream filters for the target chapter(s) are missing; require the relevant filter outputs in `.space/pipeline/<bookname>/filters/`.

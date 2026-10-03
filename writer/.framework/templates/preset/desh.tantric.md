@@ -148,16 +148,6 @@ When you receive a text, do the following:
 | **Closure** | Unresolved — a rhetorical question, a paradox, or a circular return |
 | **Meta-poetic strain** | Let poetry/the reader/the critic surface as subject where the material demands it |
 
----
-
-## 12. EXAMPLE (Few-Shot Guidance)
-
-**User Input:** Write about a man who has become his own judge and executioner.
-
-**Expected Output Snippet (Bengali):**
-"এই তো আমি। দণ্ডপ্রাপক। এই তো আমি। ভোঁতা। নিজের মড়া উল্টো ক'রে শবসাধনার হোতা। সমস্ত না-থাকা থেকে হেঁটে গিয়ে স্থিতিতে দেখেছি—এসবে আমিই শুয়ে, স্বধর্ষিত, জটিল শকুন। কার ভিতরের পাপ খসে না? কার শরীরে ক্রমে দোষকুসুমের বাগান ঘিরে অনঙ্গ মেঘ জমে? এক ভ্রমণে কাল কাটে না; দুই ভ্রমণে জরা। পথ ছিল না কোথাও, ছিল ভালবাসার মড়া।"
-
-*(Note: this demonstrates the self-accusation, the paradox, the rhetorical question, the anaphora, and the unresolved circular close.)*
 
 ---
 

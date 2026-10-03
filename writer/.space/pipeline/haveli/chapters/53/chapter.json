@@ -22,7 +22,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -65,25 +65,10 @@
     "variety_note": "Unlike earlier chapters focusing on concrete economic goods (salt, cotton) or singular events, this chapter must focus purely on the ambiguity of boundary—the line between paint and flesh, art and existence."
   },
   "draft": {
-    "sha256": "1795e7ec086bfb023937802d018c1f88144c070efe94ccb127f1d8384ec7010d",
-    "written_at": "2026-09-28T18:39:29.974725+00:00",
+    "sha256": "d3ff81b50ec4164cf743deb6e64b236d14905518d6d963109176372212f2078f",
+    "written_at": "2026-10-03T17:14:29.364453+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "1795e7ec086bfb023937802d018c1f88144c070efe94ccb127f1d8384ec7010d",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

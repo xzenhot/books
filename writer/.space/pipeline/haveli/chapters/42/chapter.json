@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -59,25 +59,10 @@
     "variety_note": "While previous chapters focused on the mechanics of accumulation (Chapter 2-10) and subsequent physical depletion (Chapters 44, 59), this chapter centers entirely on the abstract, sickening *rate* of financial reversal itself—the moment the positive slope reverses into a downward spiral."
   },
   "draft": {
-    "sha256": "c4426abbf481d9e4c23f427bea8c80b64fcf11813b0d9a0a95450a99a1b52ffc",
-    "written_at": "2026-09-28T18:39:29.870774+00:00",
+    "sha256": "6692a1cdae9fe5c7e3c1346d0d4258ace34acb41f18ce2c5f9bcf784cfa2fb35",
+    "written_at": "2026-10-03T17:11:34.331906+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "c4426abbf481d9e4c23f427bea8c80b64fcf11813b0d9a0a95450a99a1b52ffc",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

@@ -22,7 +22,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -64,25 +64,10 @@
     "variety_note": "Where previous chapters focused on currency, transport routes, or finished goods (frescoes), this chapter narrows the scope to a single raw material—the bale itself—to explore commodity dependency."
   },
   "draft": {
-    "sha256": "f7b447c66f9e70d4912ec0870c2da1b15092388060459588181b7fc66d20d199",
-    "written_at": "2026-09-28T18:03:14.077282+00:00",
+    "sha256": "af292d2d3b376ebacc8fa5569cf75286cb761911ba03cd8963f01aaf3dbe11ea",
+    "written_at": "2026-10-03T17:02:08.449529+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "f7b447c66f9e70d4912ec0870c2da1b15092388060459588181b7fc66d20d199",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

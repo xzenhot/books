@@ -12,7 +12,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -49,25 +49,10 @@
     "variety_note": "This chapter must foreground non-visual sensory input—smell, sound, touch—to describe the final accounting process, shifting away from the architectural grandeur or physical looting depicted in neighbouring chapters like 'The Empty Courtyard' or 'The Stripped Silver'."
   },
   "draft": {
-    "sha256": "a079cd6e7cead9ccd36acfd0c04523946f4fc687cdbbac5fe0465bdc305b1b38",
-    "written_at": "2026-09-28T18:39:29.918733+00:00",
+    "sha256": "3719614e076ce085977d41a93343468a2043309e58af63261b4b6da1c1d396a4",
+    "written_at": "2026-10-03T17:12:53.714766+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "a079cd6e7cead9ccd36acfd0c04523946f4fc687cdbbac5fe0465bdc305b1b38",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }
