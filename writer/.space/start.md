@@ -22,7 +22,7 @@ This file is the **user-maintained default configuration**. It is read by all wo
 |-----|---------|-------|
 | `form` | `novel` | `novel` (prose) or `poetry` (verse). |
 | `chapter_count` | `5` | Used when no count is supplied. |
-| `style` / transformer | `pijush` | Resolved from `.framework/templates/styles/<style>/style.md`. |
+| `style` / transformer | `pijush` | Resolved from `.framework/templates/stereotypes/poetry/styles/<style>/style.md`. |
 | `syntax` | `generic` | The default (Stoic/prophetic) syntax sample. |
 
 ### Word Targets

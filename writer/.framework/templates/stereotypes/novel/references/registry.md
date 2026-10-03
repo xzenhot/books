@@ -1,6 +1,6 @@
 # Reference Registry
 
-A catalog of every reference text available in `stereotypes/novel/references/`. Each reference is a source text — the raw material the writer agent reads for direct stylistic and thematic grounding.
+A catalog of every reference text available in `.framework/templates/stereotypes/novel/references/`. Each reference is a source text — the raw material the writer agent reads for direct stylistic and thematic grounding.
 
 The writer agent reads this registry to discover available references, then reads the individual reference file for the source text itself.
 
@@ -53,10 +53,10 @@ The writer agent reads this registry to discover available references, then read
 
 ## How to Add a New Reference
 
-1. Add the source text file to `stereotypes/novel/references/`.
+1. Add the source text file to `.framework/templates/stereotypes/novel/references/`.
 2. Add a row to the table above and a detail section below.
-3. Create a matching quality file in `stereotypes/novel/qualities/` (the seed analysis of the reference).
-4. Create a matching theme set in `stereotypes/novel/themes/` if the reference introduces new themes.
+3. Create a matching quality file in `.framework/templates/stereotypes/novel/qualities/` (the seed analysis of the reference).
+4. Create a matching theme set in `.framework/templates/stereotypes/novel/themes/` if the reference introduces new themes.
 5. Sync the master index at `../registry.md`.
 
 ---

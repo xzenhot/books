@@ -22,7 +22,7 @@ writer/
 │   ├── agents/              # role agents (scaffold, research, theme, enrich, write, publish, …)
 │   ├── skills/              # form-specific skills (layout-poetry, layout-novel, workshop-*, …)
 │   ├── rules/               # shared rules
-│   └── templates/           # stereotypes (novel/, poetry/), styles/, moods/, subjects/
+│   └── templates/           # stereotypes (novel/, poetry/), moods/, subjects/, preset/
 ├── .space/                  # inputs & working state
 │   ├── backlog/<book>/     # gist.md, storyline.md, book.json (the book plan)
 │   └── pipeline/<book>/     # model.json, bookseed.txt, progress.json, filters/, chapters/
@@ -78,7 +78,7 @@ A book is either **poetry** (verse) or **novel** (prose), declared in the pipeli
 | Chapter structure | flat, continuous poetic prose | flat, continuous prose |
 | Segments per chapter | exactly one (`segments/1`) | many |
 | Word target | 500–800 | 5,500+ |
-| Stereotype templates | `stereotypes/poetry/` | `stereotypes/novel/` |
+| Stereotype templates | `.framework/templates/stereotypes/poetry/` | `.framework/templates/stereotypes/novel/` |
 
 ---
 
@@ -132,8 +132,8 @@ Skills are invoked **only through an agent** — never directly. Form-specific l
 
 ## Stereotypes & Styles
 
-- **Stereotypes** (`.framework/templates/stereotypes/<form>/`) — `signatures/`, `references/`, `themes/`, `syntax/`. Each chapter selects a signature (voice), reference (source text), theme set (philosophical lens), and syntax sample.
-- **Styles** (`.framework/templates/styles/<style>/`) — transformer styles (e.g. `pijush`) applied by the `style` command.
+- **Stereotypes** (`.framework/templates/stereotypes/<form>/`) — `signatures/`, `references/`, `themes/`, `syntax/`, `genre/`, `styles/`. Each chapter selects a signature (voice), reference (source text), theme set (philosophical lens), and syntax sample.
+- **Styles** (`.framework/templates/stereotypes/poetry/styles/<style>/`) — transformer styles (e.g. `pijush`) applied by the `style` command.
 
 ---
 

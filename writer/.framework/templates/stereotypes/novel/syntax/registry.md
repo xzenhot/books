@@ -1,6 +1,6 @@
 # Syntax Registry
 
-A catalog of every syntax sample available in `stereotypes/novel/syntax/`. Each syntax file defines the target sentence structure — the register, sentence patterns, and readability bar that keep the language elevated yet readable.
+A catalog of every syntax sample available in `.framework/templates/stereotypes/novel/syntax/`. Each syntax file defines the target sentence structure — the register, sentence patterns, and readability bar that keep the language elevated yet readable.
 
 The syntax agent reads this registry to discover available syntax samples, then reads the chosen sample file for the full definition.
 
@@ -36,7 +36,7 @@ The syntax agent reads this registry to discover available syntax samples, then 
 
 ## How to Add a New Syntax Sample
 
-1. Create a new syntax file in `stereotypes/novel/syntax/` (e.g. `rumi.md`, `tagore.md`).
+1. Create a new syntax file in `.framework/templates/stereotypes/novel/syntax/` (e.g. `rumi.md`, `tagore.md`).
 2. Add a row to the table above and a detail section below.
 3. Sync the master index at `../registry.md`.
 

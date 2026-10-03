@@ -54,9 +54,9 @@ Update the chapter's `model.json` by adding (or updating) a `stereotype` object:
 ```
 
 - **`form`** — `"novel"`, matching the template directory used.
-- **`signature`** — the folder name under `stereotypes/novel/signatures/`.
-- **`reference`** — the file name under `stereotypes/novel/references/`.
-- **`theme_set`** — the file name under `stereotypes/novel/themes/`.
+- **`signature`** — the folder name under `.framework/templates/stereotypes/novel/signatures/`.
+- **`reference`** — the file name under `.framework/templates/stereotypes/novel/references/`.
+- **`theme_set`** — the file name under `.framework/templates/stereotypes/novel/themes/`.
 
 If `model.json` already has a `stereotype` object, update it in place; otherwise add it as a new top-level key. Do not overwrite the other fields in `model.json`.
 

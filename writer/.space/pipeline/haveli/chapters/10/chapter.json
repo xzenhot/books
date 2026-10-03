@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -60,25 +60,10 @@
     "variety_note": "While previous chapters focused on accumulation and acquisition, this chapter must focus on temporal transaction—what is exchanged with perpetuity, making the 'asset' intangible."
   },
   "draft": {
-    "sha256": "f7772900226b9399fb9ce7b45c1cf307d9ec3692ca464161e55d9792a5e81735",
-    "written_at": "2026-09-28T18:10:49.357291+00:00",
-    "origin": "write"
+    "sha256": "ec0fe285da95e79044840c8973bf526a5e00aa5dc23a9abd6eba248d893eee92",
+    "written_at": "2026-10-03T13:19:48.364037+00:00",
+    "origin": "poet"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "f7772900226b9399fb9ce7b45c1cf307d9ec3692ca464161e55d9792a5e81735",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

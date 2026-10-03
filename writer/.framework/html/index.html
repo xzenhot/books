@@ -306,7 +306,7 @@
         <tr><td><strong><code>mood.json</code></strong></td><td>present per chapter</td><td>absent</td></tr>
         <tr><td><strong>Filter chain</strong></td><td>preset-defined (<code>layout-novel/SKILL.md</code>)</td><td>preset-defined (<code>layout-poetry/SKILL.md</code>)</td></tr>
         <tr><td><strong>Word target</strong></td><td>Use the configured chapter <code>word_target</code></td><td>Use the configured chapter <code>word_target</code></td></tr>
-        <tr><td><strong>Stereotype templates</strong></td><td><code>stereotypes/novel/</code></td><td><code>stereotypes/poetry/</code></td></tr>
+        <tr><td><strong>Stereotype templates</strong></td><td><code>.framework/templates/stereotypes/novel/</code></td><td><code>.framework/templates/stereotypes/poetry/</code></td></tr>
       </tbody>
     </table>
 
@@ -431,11 +431,11 @@
     <h2 id="stereotypes">Stereotype Selection</h2>
     <p>Every chapter is rendered in a form-specific stereotype:</p>
     <ul>
-      <li><strong>Signature:</strong> <code>stereotypes/&lt;form&gt;/signatures/</code></li>
-      <li><strong>Reference:</strong> <code>stereotypes/&lt;form&gt;/references/</code></li>
-      <li><strong>Theme set:</strong> <code>stereotypes/&lt;form&gt;/themes/</code></li>
-      <li><strong>Quality profile:</strong> <code>stereotypes/&lt;form&gt;/qualities/</code></li>
-      <li><strong>Syntax sample:</strong> <code>stereotypes/&lt;form&gt;/syntax/</code></li>
+      <li><strong>Signature:</strong> <code>.framework/templates/stereotypes/&lt;form&gt;/signatures/</code></li>
+      <li><strong>Reference:</strong> <code>.framework/templates/stereotypes/&lt;form&gt;/references/</code></li>
+      <li><strong>Theme set:</strong> <code>.framework/templates/stereotypes/&lt;form&gt;/themes/</code></li>
+      <li><strong>Quality profile:</strong> <code>.framework/templates/stereotypes/&lt;form&gt;/qualities/</code></li>
+      <li><strong>Syntax sample:</strong> <code>.framework/templates/stereotypes/&lt;form&gt;/syntax/</code></li>
     </ul>
     <p>Read the <code>registry.md</code> in each folder to discover available options, then read the chosen file for the full definition. Selections must be mutually consistent: same form, and where possible the same author or tradition.</p>
 
@@ -457,7 +457,7 @@
     </ul>
 
     <h2 id="style-translate">Style and Translation</h2>
-    <p><code>/book &lt;bookname&gt; style [&lt;style&gt;]</code> resolves <code>.framework/templates/styles/&lt;style&gt;/style.md</code> (default <code>pijush</code>) through the <a href="../agents/style/agent.md">style agent</a>. Read any companion files required by the template. Transform exactly one chapter per invocation.</p>
+    <p><code>/book &lt;bookname&gt; style [&lt;style&gt;]</code> resolves <code>.framework/templates/stereotypes/poetry/styles/&lt;style&gt;/style.md</code> (default <code>pijush</code>) through the <a href="../agents/style/agent.md">style agent</a>. Read any companion files required by the template. Transform exactly one chapter per invocation.</p>
     <p>Select the highest numbered <code>segments/1/writer/chapter_v*.md</code>, comparing numbers numerically; otherwise use writer <code>chapter.md</code>. If neither exists, the style agent delegates model enrichment and then requires the writing path to produce a writer-stage source. Styling writes the next unused <code>chapter_v&lt;k&gt;.md</code> and does not promote output.</p>
     <p><code>/book &lt;bookname&gt; translate &lt;n&gt;|all|continue &lt;language&gt;</code> uses the same writer-source selection through the <a href="../agents/translate/agent.md">translate agent</a>. It writes <code>segments/1/translator/&lt;language-slug&gt;.md</code>, preserving voice and Markdown structure. Normalize the filename by trimming, lowercasing, and replacing spaces with hyphens; language codes remain codes. Archive an existing translation in chapter <code>history/</code> before replacement. Missing writer sources are reported.</p>
     <p><code>translate continue</code> selects the first chapter with a writer source but no translation for that language. Neither translation nor styling replaces the chapter-root draft or publishes a book.</p>

@@ -1,6 +1,6 @@
 ---
 name: style
-description: Style transformer agent for `/book <bookname> style [<style>]`. Resolves a transformer from `.framework/templates/styles/<style>/style.md` (default `pijush`), reads the style instructions and any authoritative companion file such as `signature.md`, transforms latest writer-stage chapter drafts or delegates to enrich before using chapter-root drafts, and writes new writer-stage versions under `segments/1/writer/`.
+description: Style transformer agent for `/book <bookname> style [<style>]`. Resolves a transformer from `.framework/templates/stereotypes/poetry/styles/<style>/style.md` (default `pijush`), reads the style instructions and any authoritative companion file such as `signature.md`, transforms latest writer-stage chapter drafts or delegates to enrich before using chapter-root drafts, and writes new writer-stage versions under `segments/1/writer/`.
 tools: ["read", "write"]
 ---
 
@@ -28,16 +28,16 @@ If `<style>` is omitted, use `pijush`.
 Resolve the style template from:
 
 ```text
-.framework/templates/styles/<style>/style.md
+.framework/templates/stereotypes/poetry/styles/<style>/style.md
 ```
 
 For example:
 
 ```text
-.framework/templates/styles/pijush/style.md
+.framework/templates/stereotypes/poetry/styles/pijush/style.md
 ```
 
-If the requested style folder does not exist, list available folders under `.framework/templates/styles/` and stop. If the folder exists but `style.md` is missing, report that the transformer is incomplete and stop.
+If the requested style folder does not exist, list available folders under `.framework/templates/stereotypes/poetry/styles/` and stop. If the folder exists but `style.md` is missing, report that the transformer is incomplete and stop.
 
 ## Current Draft Contract
 
@@ -89,8 +89,8 @@ This is poetry, not prose. You are not required to write grammatically complete 
 
 The default transformer is `pijush`. For this style:
 
-- Read `.framework/templates/styles/pijush/style.md` first.
-- If any instruction is unclear, incomplete, or in tension with another Pijush transformer file, read `.framework/templates/styles/pijush/signature.md` and treat it as the interpretive authority.
+- Read `.framework/templates/stereotypes/poetry/styles/pijush/style.md` first.
+- If any instruction is unclear, incomplete, or in tension with another Pijush transformer file, read `.framework/templates/stereotypes/poetry/styles/pijush/signature.md` and treat it as the interpretive authority.
 - Apply the Dehlij/Delhi-Bengal threshold voice only where it can deepen the chapter without violating the source's core meaning.
 
 ## What Not To Do
@@ -102,7 +102,7 @@ The default transformer is `pijush`. For this style:
 - Do not overwrite writer-stage files.
 - Do not write the style transformation to chapter-root `chapter.md`. Workshop may create that file only when absent; later revisions belong to the write/chapter/poet path. The delegated enrich agent updates only the chapter `model.json` during the prerequisite.
 - Do not update `progress.json` unless a future workflow explicitly defines style progress.
-- Do not change `.framework/templates/styles/<style>/style.md` while applying the style.
+- Do not change `.framework/templates/stereotypes/poetry/styles/<style>/style.md` while applying the style.
 
 ## Summary Of Duties
 
