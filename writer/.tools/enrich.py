@@ -218,7 +218,7 @@ def load_book_model(bookname):
     return book
 
 
-STYLE_BASE = REPO_ROOT / ".framework" / "templates" / "preset" / "pijush.behula.md"
+STYLE_BASE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles" / "pijush" / "style.md"
 
 STYLE_REGENERATE_SYSTEM_PROMPT = """You are the style-grounding editor for a literary pipeline.
 Given a book's identity (title, summary, topic list) and its current style document,

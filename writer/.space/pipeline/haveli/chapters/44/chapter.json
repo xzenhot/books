@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -60,25 +60,10 @@
     "variety_note": "This chapter shifts the focus from the *source* of wealth (goods/trade) or the *state* of decay, to the active process of asset stripping itself—the moment private ownership gives way to public accounting and force."
   },
   "draft": {
-    "sha256": "524979a375ed4bf5ac98ec9ff1961ee9336c2734af1ac4fa658da582570628d0",
-    "written_at": "2026-09-28T18:39:29.889952+00:00",
+    "sha256": "b5d587c4a939b8b4e3d6c0ae3cf7b2d69df09538b8f915960597dee327933dd2",
+    "written_at": "2026-10-03T17:12:04.481153+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "524979a375ed4bf5ac98ec9ff1961ee9336c2734af1ac4fa658da582570628d0",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

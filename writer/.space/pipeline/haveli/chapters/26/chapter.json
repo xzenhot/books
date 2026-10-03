@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -60,25 +60,10 @@
     "variety_note": "Where earlier chapters focused on accumulation (profit, objects) or rigidity (architecture), this poem must focus entirely on controlled, temporary expansion and sensory overload before a return to quiet decay."
   },
   "draft": {
-    "sha256": "5ccd9c9250b5e785b3ea094b8c5214765a8357be876c723253a53da0fb853f41",
-    "written_at": "2026-09-28T18:39:29.713038+00:00",
+    "sha256": "36ae320040f660b8cebe8b1197b2fd34d97013eb114e3a3815b9e83584a7d138",
+    "written_at": "2026-10-03T17:07:26.666107+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "5ccd9c9250b5e785b3ea094b8c5214765a8357be876c723253a53da0fb853f41",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

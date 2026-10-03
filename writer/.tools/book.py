@@ -1503,20 +1503,29 @@ def enrich_workflow(bookname: str, target: str) -> None:
         raise RuntimeError(f"{failures} chapter(s) failed enrichment.")
 
 
-def write_workflow(bookname: str, target: str) -> None:
+def write_workflow(bookname: str, target: str, style: str | None = None) -> None:
     """Run the chapter writer (write.py) in-process for the given chapter range.
 
     Loads write.py as a module, resolves the chapter list, and writes each
-    requested chapter.  Prints a summary of successes and failures.
+    requested chapter.  An optional *style* nickname selects the transformer
+    style (`.framework/templates/stereotypes/poetry/styles/<style>/style.md`,
+    default `pijush`) used when the pipeline has no style.md.
     """
     writer = _load_module("writer_write_engine", "write.py")
     chapters_root = writer.resolve_chapters_root(bookname)
     numbers = writer.parse_chapter_input(target, chapters_root)
 
+    if style:
+        # Validate the nickname early so an unknown style fails fast.
+        writer.resolve_preset(style)
+
     failures = 0
     for num in numbers:
         try:
-            writer.write_chapter(_chapter_model_file(chapters_root / str(num)))
+            writer.write_chapter(
+                _chapter_model_file(chapters_root / str(num)),
+                style=style if style else writer.DEFAULT_STYLE,
+            )
         except Exception as exc:  # noqa: BLE001
             print(f"  [{num}] FAILED: {exc}", file=sys.stderr)
             failures += 1
@@ -1525,6 +1534,33 @@ def write_workflow(bookname: str, target: str) -> None:
     print(f"Write complete. {successes} succeeded, {failures} failed.")
     if failures:
         raise RuntimeError(f"{failures} chapter(s) failed writing.")
+
+
+def _write_style(args: argparse.Namespace) -> tuple[str, str | None]:
+    """Split the write target from an optional 'style <nickname>' modifier.
+
+    ``/book <book> write * style desh`` puts ``*`` in ``objective``,
+    ``style`` in ``option``, and ``desh`` in ``range``. This returns the
+    effective chapter target plus the style nickname when present.
+    """
+    style = None
+    target = positional_target(args)
+    slots = [args.objective, args.option, args.range, *args.extra]
+    lowered = [s.lower() if s else s for s in slots]
+    if "style" in lowered:
+        idx = lowered.index("style")
+        if idx + 1 < len(slots) and slots[idx + 1]:
+            style = slots[idx + 1]
+        # The chapter target is the first slot that is neither 'style' nor its value.
+        reserved = {"style", style.lower() if style else None, "gist", "epic", "count", "chapter-count", "poetry", "novel"}
+        for value in slots:
+            if value and value not in reserved and value not in {"all", "*", ""}:
+                target = value
+                break
+            if value in {"all", "*"}:
+                target = value
+                break
+    return target, style
 
 
 def publish_workflow(bookname: str, language: str | None = None, draft: bool = False) -> None:
@@ -1691,7 +1727,8 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
         return
 
     if verb == "write":
-        write_workflow(bookname, positional_target(args))
+        target, style = _write_style(args)
+        write_workflow(bookname, target, style)
         return
 
     if verb == "enrich":

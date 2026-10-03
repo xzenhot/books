@@ -195,19 +195,31 @@
 ## $["draft"]["sha256"]
 
 ```json
-"cb150baee47d88590635f4ab1aab886381ee51f1af1d945159c6d8bc517de885"
+"5e6995304f401812b04e5b4399a3690fbd90987cf5bdb8a6d54369f2fc934bee"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-09-27T17:04:05.053156+00:00"
+"2026-09-28T18:39:29.694624+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
+```
+
+## $["humanized"]
+
+```json
+true
+```
+
+## $["humanized_at"]
+
+```json
+"2026-09-27T18:22:17+00:00"
 ```
 
 ## $["quality_review"]["status"]
@@ -219,7 +231,19 @@
 ## $["quality_review"]["sha256"]
 
 ```json
-"cb150baee47d88590635f4ab1aab886381ee51f1af1d945159c6d8bc517de885"
+"5e6995304f401812b04e5b4399a3690fbd90987cf5bdb8a6d54369f2fc934bee"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-09-28T18:41:21+00:00"
 ```
 
 ## $["quality_review"]["notes"][0]
@@ -262,16 +286,4 @@
 
 ```json
 "Ethical framework: present"
-```
-
-## $["quality_review"]["reviewer"]
-
-```json
-"quality-agent"
-```
-
-## $["quality_review"]["reviewed_at"]
-
-```json
-"2026-09-27T17:46:38+00:00"
 ```

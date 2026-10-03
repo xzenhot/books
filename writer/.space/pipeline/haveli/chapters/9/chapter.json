@@ -22,7 +22,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -63,25 +63,10 @@
     "variety_note": "This chapter moves away from establishing the *owners'* grand vision by focusing intensely on the immediate, physical realities and necessary compromises of the raw earth itself."
   },
   "draft": {
-    "sha256": "3f6e257947572f75d520a386cfdcafefdd929fdf30bf566915f998c636d2097f",
-    "written_at": "2026-09-28T18:10:49.346698+00:00",
+    "sha256": "023b8f475707c761c8665a36383834c4ffde48bcd62c0d3dd9921912eee575d9",
+    "written_at": "2026-10-03T17:03:11.763822+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "3f6e257947572f75d520a386cfdcafefdd929fdf30bf566915f998c636d2097f",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

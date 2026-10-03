@@ -22,7 +22,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -59,25 +59,10 @@
     "variety_note": "This chapter shifts the focus from the *accumulation* of wealth or knowledge to the mechanics of maintaining movement itself—the logistical friction and subtle, non-monetary agreements that keep a vast network alive against entropy."
   },
   "draft": {
-    "sha256": "f18c50313f30f0c0008b07bb6bdec2311b99f0d07f59700598caae34f275832e",
-    "written_at": "2026-09-28T18:07:25.897094+00:00",
+    "sha256": "be3b7526637b657ace8d38680de646e96bbe1d5619f6f980b89c666c48680b64",
+    "written_at": "2026-10-03T17:01:38.269211+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "f18c50313f30f0c0008b07bb6bdec2311b99f0d07f59700598caae34f275832e",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

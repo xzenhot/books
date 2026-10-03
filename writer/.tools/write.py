@@ -33,8 +33,11 @@ REPO_ROOT = BASE_DIR.parent
 
 # The single-page Pijush/Dehlij master prompt lives in the framework.
 
-POETRY_FILE = REPO_ROOT / ".framework" / "templates" / "preset" / "pijush.behula.md"
-STYLE_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles" / "pijush" / "sample.txt"
+STYLE_DIR = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles"
+PRESET_DIR = REPO_ROOT / ".framework" / "templates" / "preset"
+POETRY_FILE = PRESET_DIR / "pijush.behula.md"
+DEFAULT_STYLE = "pijush"
+STYLE_FILE = STYLE_DIR / "pijush" / "sample.txt"
 SUBJECTS_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
 
 MODEL = "gemma4:latest"
@@ -164,14 +167,48 @@ def resolve_chapters_root(bookname: str) -> Path:
     return chapters_root
 
 
-def load_poetry(style_md: Path | None = None) -> str:
+def resolve_preset(style: str) -> Path:
+    """Resolve a style nickname to its transformer file under poetry/styles.
+
+    The nickname matches a folder under
+    ``.framework/templates/stereotypes/poetry/styles/`` (e.g. ``pijush``
+    -> ``styles/pijush/style.md``). Legacy preset files under
+    ``templates/preset/`` (``pijush`` -> ``pijush.behula.md``) remain as a
+    fallback. Raises ValueError with the available styles when no match
+    exists.
+    """
+    nickname = (style or "").strip().lower()
+    if not nickname:
+        nickname = DEFAULT_STYLE
+    candidate = STYLE_DIR / nickname / "style.md"
+    if candidate.is_file():
+        return candidate
+    if not PRESET_DIR.is_dir():
+        if candidate.exists():
+            return candidate
+        return POETRY_FILE
+    presets = sorted(PRESET_DIR.glob("*.md"))
+    for preset in presets:
+        if preset.stem.lower().split(".", 1)[0] == nickname:
+            return preset
+    available = ", ".join(sorted(p.name for p in STYLE_DIR.iterdir() if p.is_dir())) if STYLE_DIR.is_dir() else ""
+    if presets:
+        preset_names = ", ".join(p.stem.split(".", 1)[0] for p in presets)
+        available = f"{available}; legacy presets: {preset_names}" if available else preset_names
+    raise ValueError(
+        f"Unknown style '{style}'. Available styles: {available}."
+    )
+
+
+def load_poetry(style_md: Path | None = None, style: str = DEFAULT_STYLE) -> str:
     """Load the style prompt from the pipeline's style.md, falling back to the framework template.
 
     Prefer `.space/pipeline/<bookname>/style.md` (the book-contextual style the
-    filters regenerate). If it is missing, fall back to the shared framework
-    template (``POETRY_FILE``).
+    filters regenerate). If it is missing, fall back to the resolved style
+    under ``.framework/templates/stereotypes/poetry/styles/<style>/style.md``
+    (``resolve_preset`` handles the legacy ``templates/preset/`` fallback).
     """
-    source = style_md if (style_md is not None and style_md.exists()) else POETRY_FILE
+    source = style_md if (style_md is not None and style_md.exists()) else resolve_preset(style)
     vlog(f"Loading poetry prompt from: {source}")
     if not source.exists():
         raise FileNotFoundError(f"Poetry prompt file not found: {source}")
@@ -430,7 +467,7 @@ def book_language(chapter_dir: Path) -> str:
     return "bn"
 
 
-def write_chapter(model_file: Path, segment: int | None = None) -> None:
+def write_chapter(model_file: Path, segment: int | None = None, style: str = DEFAULT_STYLE) -> None:
     number = int(model_file.parent.name)
     info(f"\n=== Chapter {number} ===")
     chapter_dir = model_file.parent
@@ -440,7 +477,7 @@ def write_chapter(model_file: Path, segment: int | None = None) -> None:
     previous = out_file.read_bytes() if out_file.exists() else None
     version_dir = resolve_version_dir(model_file, segment)
     style_md = chapter_dir.parents[1] / "style.md"
-    poetry = load_poetry(style_md)
+    poetry = load_poetry(style_md, style)
     context = load_context(model_file)
     language = book_language(chapter_dir)
     prompt = build_prompt(poetry, context, number, language)
@@ -522,16 +559,30 @@ Paths are resolved relative to the repository, regardless of your current direct
         parser.print_help()
         return 0
     parser.add_argument("--segment", type=int, help="Owning novel segment number; poetry always uses 1.")
+    parser.add_argument(
+        "--style",
+        metavar="NICKNAME",
+        default=DEFAULT_STYLE,
+        help=(
+            "Transformer style to write in (folder under "
+            ".framework/templates/stereotypes/poetry/styles/). "
+            "Default: pijush (styles/pijush/style.md)."
+        ),
+    )
     args = parser.parse_args()
     VERBOSE = args.verbose
     SHOW_PROMPT = args.show_prompt
 
     vlog(f"BASE_DIR       = {BASE_DIR}")
     vlog(f"POETRY_FILE    = {POETRY_FILE}")
+    vlog(f"PRESET_DIR     = {PRESET_DIR}")
+    vlog(f"style          = {args.style}")
     vlog(f"MODEL          = {MODEL}")
     vlog(f"Verbose mode   = {VERBOSE}")
 
     try:
+        # Resolve the style early so an unknown nickname fails fast with guidance.
+        resolve_preset(args.style)
         chapters_root = resolve_chapters_root(args.bookname)
         numbers = parse_chapter_input(args.chapters, chapters_root)
     except ValueError as e:
@@ -543,7 +594,7 @@ Paths are resolved relative to the repository, regardless of your current direct
     for number in numbers:
         model_file = chapter_model_file(chapters_root / str(number))
         try:
-            write_chapter(model_file, args.segment)
+            write_chapter(model_file, args.segment, args.style)
         except Exception as e:
             print(f"[{number}] FAILED: {e}", file=sys.stderr)
             failures += 1

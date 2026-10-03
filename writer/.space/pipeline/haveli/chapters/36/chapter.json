@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -54,25 +54,10 @@
     "variety_note": "Unlike chapters detailing visible public financial collapse or historical trade routes, this poem focuses inward on an immediate, highly localized moment of domestic, ritualized imperfection, shifting the locus of 'ruin' from ledger books to spilled liquid."
   },
   "draft": {
-    "sha256": "0a980546f2cb48f01abd89b7183b6ae5071ddd795ec96ebfbdd50e7fedb5861f",
-    "written_at": "2026-09-28T18:39:29.813632+00:00",
+    "sha256": "893bd58da12412b724533f37eb0f75420923fc270fad83cb4b0b926841f7a62b",
+    "written_at": "2026-10-03T17:10:02.011170+00:00",
     "origin": "write"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "0a980546f2cb48f01abd89b7183b6ae5071ddd795ec96ebfbdd50e7fedb5861f",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }
