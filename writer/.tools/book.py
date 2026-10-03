@@ -46,6 +46,11 @@ VERBS
 
               python .tools/book.py <bookname> publish
 
+    preview   Assemble the same output as publish, but skip the quality gate
+              and review. Equivalent to publish --draft.
+
+              python .tools/book.py <bookname> preview
+
 COMMON FLAGS
 ------------
     -t, --type  poetry|novel   Override book form (default: poetry)
@@ -1600,7 +1605,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "verb",
         nargs="?",
-        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish"),
+        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish", "preview"),
         help="Workflow action to perform.",
     )
     parser.add_argument(
@@ -1700,6 +1705,11 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
             None,
         )
         publish_workflow(bookname, language, draft=args.draft)
+        return
+
+    if verb == "preview":
+        # Assemble the same output as publish but skip the quality gate/review.
+        publish_workflow(bookname, None, draft=True)
         return
 
     if verb == "filter":

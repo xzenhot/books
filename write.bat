@@ -20,19 +20,19 @@ if "%CHAPTER_COUNT%"=="" set CHAPTER_COUNT=2
 if "%summary%"=="" set summary=A story about a mysterious journey.
 
 echo [1/5] Initializing book: %BOOK_NAME%...
-kobi init --book-name "%BOOK_NAME%" --chapter-count %CHAPTER_COUNT% --verbose --debug
+writer\kobi.exe init --book-name "%BOOK_NAME%" --chapter-count %CHAPTER_COUNT% --verbose --debug
 
 echo [2/5] Generating layout with summary: %summary%...
-kobi layout --book-name "%BOOK_NAME%" --summary "%summary%" --verbose --debug
+writer\kobi.exe layout --book-name "%BOOK_NAME%" --summary "%summary%" --verbose --debug
 
 echo [3/5] Drafting content...
-kobi draft --book-name "%BOOK_NAME%" --verbose --debug
+writer\kobi.exe write --book-name "%BOOK_NAME%" --verbose --debug
 
 echo [4/5] Publishing book...
-kobi publish --book-name "%BOOK_NAME%" --verbose --debug
+writer\kobi.exe publish --book-name "%BOOK_NAME%" --verbose --debug
 
 echo [5/5] Reading final output...
-kobi read --book-name "%BOOK_NAME%" --verbose --debug
+writer\kobi.exe read --book-name "%BOOK_NAME%" --verbose --debug
 
 echo.
 echo Done!

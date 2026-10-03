@@ -1,92 +1,103 @@
 # books
 
-Book workspace utility for structure initialization, listing, snapshot export/import, cloning, and content layout generation.
+A multi-agent literary engine for writing **poetry** and **novels** in a configured authorial voice.
 
-## Main CLI
+The `writer/` directory contains the complete engine — the agents, skills, templates, and data layout that turn a seed idea into finished, versioned books. This repository is the working workspace that hosts that engine plus its output.
 
-Use `book.py` as the single entrypoint.
+## What it does
 
-Global options such as `--workspace-root`, `--config-path`, and `--encoding` must be placed before the subcommand.
+- **Creates a backlog** from a seed gist — `gist.md`, `storyline.md`, and a chapter-layout `book.json` plan.
+- **Scaffolds a pipeline** — the per-book working state where chapters are drafted and refined.
+- **Runs a filter chain** (workshop → research → correctness → theme → syntax → … → quality) to ground, style, and validate each chapter.
+- **Writes finished chapters** and promotes them to versioned output under `source/books/<book>/<version>/`.
 
-`--verbose` prints progress details for major CLI, snapshot, layout, and GenAI workflow steps.
+The primary command surface is a single slash command, `/book <bookname> ...`.
 
-`--json` switches verbose events to machine-readable JSON lines.
+## Quick start
 
-`--version` reads application metadata from `.pkbook/config.json`.
-
-### Defaults
-
-- Workspace root: `.pkbook/_wokspace`
-- Config template: `templates/init.json`
-- Snapshot file (init/export/import): `snapshots/<book-name>.json` when `--snapshot-path` is not provided
-
-### Commands
-
-```python
-python book.py --book-name IndiaDelhi
-python book.py init --book-name Sita
-python book.py list
-python book.py export --book-name Sita
-python book.py import --book-name Sita
-python book.py clone --source-book-name Sita --target-book-name SitaCopy
-python book.py layout --book-name Sita --gist "A historical Bengali epic"
-python book.py layout --book-name Sita --mode dummy
-python book.py --verbose list
-python book.py --verbose layout --book-name Sita --gist "A historical Bengali epic"
-python book.py --verbose --json list
-python book.py --version
+```text
+/book behula "Bengali mythology of Behula..."   # create the backlog epic
+/book behula init poetry                        # configure the book plan
+/book behula scaffold                           # build the pipeline
+/book behula enrich                             # fuse active filters into one pass
+/book behula write                              # write finished chapters
+/book behula publish                            # promote to source/books
 ```
 
-`python book.py --book-name IndiaDelhi` uses the implicit `init` behavior.
+## Workflow commands
 
-`python book.py list` prints tab-separated `book_name` and `chapter_count` columns.
+The full `/book <bookname> ...` command surface, grouped by phase.
 
-### What Each Command Does
+### Backlog (Phase 0–1)
 
-- `init`: Creates the full workspace structure for a book under the workspace root.
-- `list`: Lists all books in the workspace with chapter counts.
-- `export`: Reads one book workspace and writes a snapshot JSON file.
-- `import`: Restores one book workspace from a snapshot JSON file.
-- `clone`: Copies one book workspace into another book name.
-- `layout`: Generates or fills layout/content files for a book.
-
-### Layout Command
-
-`layout` supports two modes:
-
-- `--mode genai` (default): Uses GenAI to generate novel outline and chapter JSON content.
-- `--mode dummy`: Writes placeholder/sample content using the legacy dummy flow.
-
-If the target book is not initialized yet, `layout` now auto-initializes the workspace first and creates `Settings.json` before generating content.
-
-Examples:
-
-```python
-python book.py layout --book-name Sita --gist "A historical Bengali epic"
-python book.py layout --book-name Sita --mode dummy
-python book.py --workspace-root .\.pkbook\_wokspace layout --book-name Sita --mode dummy
+```text
+/book <bookname> [<gist>] [form] [refresh]          # create/update the backlog epic + seed gist
+/book <bookname> init|backlog [<gist>] [<count>] [form] [refresh]   # configure the book plan
+/book <bookname> init idea                           # rewrite the gist with AI
+/book <bookname> layout [<count>] [form]             # rewrite storyline.md from gist + materials, then derive book.json
 ```
 
-### Important Argument Order
+### Pipeline (Phase 2 onward)
 
-Global options must appear before the subcommand.
-
-Correct:
-
-```python
-python book.py --workspace-root .\.pkbook\_wokspace layout --book-name Sita --mode dummy
+```text
+/book <bookname> scaffold <gist> count|chapter-count <n> [--form novel|poetry]  # build the pipeline tree
+/book <bookname> add <chapter-count> filter <filter>   # add chapters + run one filter
+/book <bookname> <agentname> <chapter>|<n>|all|continue # run a registered agent
+/book <bookname> filter <filter>                       # run a single filter
+/book <bookname> enrich <count>|range|*                # fuse active filters into one pass
+/book <bookname> review *|all|<n>                      # quality gate (must pass before publish)
+/book <bookname> humanize *|all|<n>                    # enforce target language only
+/book <bookname> eval all|*|<n>|<range>|continue       # read-only completeness check
+/book <bookname> write <n>|all|continue [<style>]      # write finished chapters (default style: pijush)
+/book <bookname> style [<style>]                       # transform writer-stage chapters
+/book <bookname> translate <n>|all|continue <language> # translate latest writer-stage chapters
+/book <bookname> publish [<language>]                  # promote segments to source/books + assemble book.md
+/book <bookname> form <novel|poetry>                   # set/change the book's form
+/book <bookname> config [<key> [<value>]]              # get/set book config
+/book <bookname> poet|poetry|poem                      # produce a single finished poem
 ```
 
-Incorrect:
+### Read-only
 
-```python
-python book.py layout --book-name Sita --mode dummy --workspace-root .\.pkbook\_wokspace
+```text
+/book -o | --options | list                           # list books and chapters
+/book -h | --help                                     # show usage
 ```
 
+### Forms and filter chain
 
-### Help
+A book is either **poetry** (verse) or **novel** (prose), declared in the `form` field.
 
-```python
-python book.py --help
+- **Poetry filter chain:** `workshop → research → correctness → theme → syntax → override → quality`
+- **Novel filter chain:** `workshop → research → seeds → correctness → theme → syntax`
+
+Batch helpers live at the repository root:
+
+- `book.bat` — end-to-end run via `writer\.tools\book.py` (`init → layout → write → publish`).
+
+```text
+book.bat BOOK_NAME [CHAPTER_COUNT] [summary]
 ```
 
+Example:
+
+```text
+book.bat MyNovel 20 "A story about hope."
+```
+
+Steps it runs:
+
+```text
+python writer\.tools\book.py "%BOOK_NAME%" init "%summary%" poetry
+python writer\.tools\book.py "%BOOK_NAME%" layout %CHAPTER_COUNT%
+python writer\.tools\book.py "%BOOK_NAME%" write all
+python writer\.tools\book.py "%BOOK_NAME%" publish
+```
+
+- `write.bat` — legacy runner targeting `writer\kobi.exe`.
+
+## Details
+
+For the full architecture, command reference, forms, filter chain, role agents, skills, and data layout, see **[`writer/README.md`](writer/README.md)**.
+
+For the runtime steering contract that autonomous coding agents follow, see **[`writer/AGENTS.md`](writer/AGENTS.md)**.
