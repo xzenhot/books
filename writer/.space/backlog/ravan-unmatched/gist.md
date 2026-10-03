@@ -1,0 +1,3 @@
+﻿In the Ramayana, Ravan stands as an anti-hero whose intellect, devotion, and tragic grandeur no hero ever matches—so the epic's true conflict is not Rama versus Ravan, but the silence around why the victor never equals the vanquished.
+
+The story celebrates Rama's virtue, yet every hero is quietly measured against Ravan's towering complexity: scholar, musician, devotee of Shiva, and a king undone by pride and love. Ravan is not merely a villain but the epic's most complete human figure, and that makes his defeat feel smaller than his presence. The real tragedy is not that evil falls, but that the hero who wins can never carry the same weight of knowledge, longing, and ruin. That asymmetry is the unspoken wound of the entire tale.
