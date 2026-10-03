@@ -30,18 +30,22 @@ Supported command families are defined by the two start-point specs. The backlog
 ```text
 /book <bookname> [<gist>] [form] [refresh]
 /book <bookname> init|backlog|layout [<gist>] [<count>] [form] [refresh]
+/book <bookname> init idea
 /book <bookname> scaffold <gist> count|chapter-count <number> [--form novel|poetry]
 /book <bookname> add <chapter-count> filter <filter>
 /book <bookname> filter <filter>
+/book <bookname> <agentname> <chapter>|<n>|all|continue
 /book <bookname> enrich <count>|range|*
 /book <bookname> review *|all|<n>
 /book <bookname> humanize *|all|<n>
+/book <bookname> eval all|*|<n>|<range>|continue
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
 /book <bookname> style [<style>]
 /book <bookname> translate <n>|all|continue <language>
 /book <bookname> publish [<language>]
 /book <bookname> form <novel|poetry>
 /book <bookname> config [<key> [<value>]]
+/book <bookname> poet|poetry|poem
 
 /book -o | --options | list
 /book -h | --help
