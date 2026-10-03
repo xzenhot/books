@@ -14,7 +14,7 @@ This agent is only a dispatcher. It must not write chapter content directly; it 
 /book <bookname> write <n>|all|continue [<style>]
 ```
 
-- `<style>` — optional transformer style, resolved from `.framework/templates/styles/<style>/style.md`. **When omitted, it defaults to `pijush`.** The resolved style is always passed to the selected write skill; there is no "no style" path.
+- `<style>` — optional transformer style, resolved from `.framework/templates/stereotypes/poetry/styles/<style>/style.md`. **When omitted, it defaults to `pijush`.** The resolved style is always passed to the selected write skill; there is no "no style" path.
 
 ## Flatten Model → Context → Prompt
 
@@ -44,7 +44,7 @@ These are writing requirements, not a reason to force a poem to the optional wor
 
 1. Read `.space/pipeline/<bookname>/book.json` and the chapter's `chapter.json` — in particular its `stereotype.form` field.
 2. Resolve the form from the pipeline model first, then the chapter model's `stereotype.form`, then the cloned book plan. Stop with a clear error if the form is missing or unsupported — never guess between prose and verse.
-3. Resolve the style: if `<style>` was supplied, use it; otherwise use `pijush`. Read `.framework/templates/styles/<style>/style.md`; if the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity. Stop and report if the resolved `style.md` does not exist.
+3. Resolve the style: if `<style>` was supplied, use it; otherwise use `pijush`. Read `.framework/templates/stereotypes/poetry/styles/<style>/style.md`; if the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity. Stop and report if the resolved `style.md` does not exist.
 4. Inspect `.space/pipeline/<bookname>/chapters/<n>/chapter.md`. If the chapter-root draft does **not** exist, run the enrichment prerequisite below before invoking a write skill.
 5. After any enrichment, re-read the chapter's `chapter.json` and its recorded enrichment record, and resolve the form again using the same precedence. Never read chapter-root `chapter.md` — it is not produced until a write skill authors it.
 6. If the form is `poetry`, read and invoke `.framework/skills/write-poetry/SKILL.md`. If it is `novel`, read and invoke `.framework/skills/write-novel/SKILL.md`.
@@ -69,7 +69,7 @@ The selected skill owns:
 
 - reading the chapter's `chapter.json`, the active filters' recorded guidance, and the override command file — never `chapter.md` (the skill authors it);
 - **flattening `chapter.json` into `context.md`, then building the prompt from `context.md`** (see *Flatten Model → Context → Prompt*);
-- resolving the transformer style from `.framework/templates/styles/<style>/style.md`, defaulting to `pijush` when the invocation omits `<style>`;
+- resolving the transformer style from `.framework/templates/stereotypes/poetry/styles/<style>/style.md`, defaulting to `pijush` when the invocation omits `<style>`;
 - writing a deeper, more finished revision as **flat, continuous prose (no section headings)**;
 - honoring the chapter's blueprint, signature, and assigned theme;
 - applying the style's voice and any human override instructions as the final layer;

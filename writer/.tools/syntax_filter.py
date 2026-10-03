@@ -24,7 +24,7 @@ SYNTAX_POETRY = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry
 SYNTAX_NOVEL = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "novel" / "syntax"
 
 # Default syntax sample per form (matches the pipeline's configured voice).
-DEFAULT_SAMPLE_POETRY = "gosai_bangla.md"
+DEFAULT_SAMPLE_POETRY = "gosai_bangla/syntax.md"
 DEFAULT_SAMPLE_NOVEL = "generic.md"
 
 

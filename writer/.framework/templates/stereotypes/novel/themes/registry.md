@@ -1,6 +1,6 @@
 # Theme Registry
 
-A catalog of every thematic category set available in `stereotypes/novel/themes/`. Each theme file defines the philosophical lenses that give chapters their spine — the categories the writer agent cycles through when assigning a lens to each chapter.
+A catalog of every thematic category set available in `.framework/templates/stereotypes/novel/themes/`. Each theme file defines the philosophical lenses that give chapters their spine — the categories the writer agent cycles through when assigning a lens to each chapter.
 
 The writer agent reads this registry to discover available theme sets, then reads the individual theme file for the full definitions.
 
@@ -55,7 +55,7 @@ The same ten Stoic categories re-imagined through the Baul-Fakir lens — the in
 
 ## How to Add a New Theme Set
 
-1. Create a new theme file in `stereotypes/novel/themes/` (e.g. `rumi.md`, `tagore.md`, `nietzsche.md`).
+1. Create a new theme file in `.framework/templates/stereotypes/novel/themes/` (e.g. `rumi.md`, `tagore.md`, `nietzsche.md`).
 2. Follow the same structure as `generic.md`:
    - A title and one-line description
    - A numbered list of themes, each with **Essence**, **Source**, **Transformation**, **Metaphor Family**, **Sacred Words**, and **Sample Opening**

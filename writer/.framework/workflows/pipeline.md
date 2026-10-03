@@ -52,7 +52,7 @@ After **every** command in this workflow completes — including read-only, no-o
 | `write` | Writes finished chapters to a new version folder `source/books/<bookname>/<version>/chapters/` from filter outputs and updates `progress.json`. Dispatches on form: the **story agent** (`.framework/agents/story/agent.md`) for novels, the **poetry agent** (`.framework/agents/poetry/agent.md`) for poetry. Also ensures the writer-stage segment exists: if `chapters/<n>/segments/1/writer/` has no segment yet, writes it there with metadata; if one is already written, overwrites it (archiving the prior copy first).  , language to pick up from book.json if not provided |
 | `publish [<language>]` | Routes through the publish agent (`.framework/agents/publish/agent.md`) to promote the latest writer-stage segments to a versioned folder `source/books/<bookname>/version<k>/` and assemble `version<k>/book.md`. Without `<language>`, copies the latest segment from `chapters/<n>/segments/1/writer/`. With `<language>`, copies the latest translator segment from `chapters/<n>/segments/1/translator/` (e.g. `en.md`, `bn.md`). Read-only on the pipeline; writes only to `source/books/`. Each publish creates a new version, so multiple published versions coexist. |
 
-| `style` | Applies a transformer style to the latest writer-stage chapter versions, delegating to the enrich agent for the target chapter before falling back to chapter-root `chapter.md` when no writer-stage draft exists. Resolves `<style>` from `.framework/templates/styles/<style>/style.md`, defaults to `pijush`, and writes new writer-stage versions under `segments/1/writer/`. The enrich prerequisite may update the live draft and model after archiving; styling writes only a new writer version and does not promote output. |
+| `style` | Applies a transformer style to the latest writer-stage chapter versions, delegating to the enrich agent for the target chapter before falling back to chapter-root `chapter.md` when no writer-stage draft exists. Resolves `<style>` from `.framework/templates/stereotypes/poetry/styles/<style>/style.md`, defaults to `pijush`, and writes new writer-stage versions under `segments/1/writer/`. The enrich prerequisite may update the live draft and model after archiving; styling writes only a new writer version and does not promote output. |
 | `translate` | Translates the latest writer-stage chapter version from `.space/pipeline/<bookname>/chapters/<n>/segments/1/writer/` into the requested language and writes the translated derivative to `.space/pipeline/<bookname>/chapters/<n>/segments/1/translator/`. Does not modify the live draft or promote output. |
 | `poet` (aliases: `poetry`, `poem`) | Invokes the poetry agent (`.framework/agents/poetry/agent.md`) to produce a single finished poem based on the human-authored `override.md` if it exists. |
 | `filter` | Runs a single named filter inside an existing pipeline. Never scaffolds or writes finished chapters. The `*` / `all` bulk form is disabled; run each filter separately. |
@@ -105,7 +105,7 @@ The `/book` workflow is a linear pipeline of six phases. Each phase has **one tr
 | 2 — Scaffold | `/book <bookname> scaffold <gist> count|chapter-count <n> [--form novel|poetry]` | Build the pipeline structure using the preset and form. | Scaffold agent (`.framework/agents/scaffold/agent.md`) | Epic/gist, preset, form | `.space/pipeline/<bookname>/` tree |
 | 3 — Filter chain | `/book <bookname> filter <filter>`<br>`/book <bookname> <agentname> <chapter>` | Run research/preparatory agents in strict order. No finished chapters. | Named filter/agent | Pipeline context, epic | `.space/pipeline/<bookname>/filters/<filter>/` |
 | 4 — Write | `/book <bookname> write <n>|range|all|continue <language>` | Turn filter outputs into finished reader-facing chapters. | Story agent (novel) / poetry agent (poetry) | Filter outputs | `source/books/<bookname>/<version>/chapters/<n>.md` |
-| 4a — Style | `/book <bookname> style [<style>]` | Transform latest writer-stage chapter versions through a named transformer style. | Style agent (`.framework/agents/style/agent.md`) | `.framework/templates/styles/<style>/style.md` + `segments/1/writer/` | next `segments/1/writer/chapter_v*.md` |
+| 4a — Style | `/book <bookname> style [<style>]` | Transform latest writer-stage chapter versions through a named transformer style. | Style agent (`.framework/agents/style/agent.md`) | `.framework/templates/stereotypes/poetry/styles/<style>/style.md` + `segments/1/writer/` | next `segments/1/writer/chapter_v*.md` |
 | 4b — Translate | `/book <bookname> translate <n>|all|continue <language>` | Translate latest writer-stage chapter versions without changing the live draft. | Translate agent (`.framework/agents/translate/agent.md`) | `segments/1/writer/chapter_v*.md` or `chapter.md` | `segments/1/translator/<language>.md` |
 | 5 — Quality & promote | `/book <bookname> filter quality`<br>`/book <bookname> review *|all|<n>` | Final quality gate and assembly into `book.md`. | Review agent (`.framework/agents/review/agent.md`) | Completed chapters | `source/books/<bookname>/<version>/book.md` |
 | 5b — Humanize | `/book <bookname> humanize *|all|<n>` | Polish chapter drafts to the target language only; remove non-relevant characters and replace with Bengali equivalents. | Humanize agent (`.framework/agents/humanize/agent.md`) | Reviewed chapters | Humanized `chapters/<n>/chapter.md` |
@@ -183,7 +183,7 @@ The form is declared once, at scaffold time, in the pipeline's `form` field (`mo
 | **`mood.json`** | present per chapter | absent (no moods) |
 | **Filter chain** | preset-defined (`layout-novel/SKILL.md`) | preset-defined (`layout-poetry/SKILL.md`) |
 | **Word target** | 5,500+ words | 500–800 words |
-| **Stereotype templates** | `stereotypes/novel/` | `stereotypes/poetry/` |
+| **Stereotype templates** | `.framework/templates/stereotypes/novel/` | `.framework/templates/stereotypes/poetry/` |
 
 The `form` field drives: stereotype template folder, filter chain, chapter structure and word target, and the source-of-truth file.
 
@@ -247,11 +247,11 @@ The current scaffold invariants are:
 1. Do not create any `source/books/` destination during scaffold; reader-facing version folders are created only by the `write` command.
 2. Read poetry settings from the cloned `model.json`; do not replace it with a poetry template or inject extra root fields during scaffold.
 3. Copy or create `bookseed.txt` (human-editable chapter topics). The override command file is `filters/override/filter.md`, seeded by scaffold step 9 from `.framework/agents/override/agent.md` (dynamically customized for the poetry form and pipeline context). Do **not** create a pipeline-root `override.md`.
-4. Initialize `progress.json` with all topics pending if it does not already exist, using `.framework/templates/stereotypes/poetry/default/progress.json` as the template shape.
+4. Initialize `progress.json` with all topics pending if it does not already exist, using `.framework/templates/progress.json` as the template shape.
 
 ### Progress tracking (both forms)
 
-For **poetry**, scaffold `progress.json` at the book pipeline root. The file tracks the writing state of each topic in `bookseed.txt`: total chapters, completed chapters, current chapter, and a per-topic array of `{chapter_number, topic, category, status, file_path, completed_date}`. Use `.framework/templates/stereotypes/poetry/default/progress.json` as the template shape, but re-seed it with the actual topics and categories from the current pipeline.
+For **poetry**, scaffold `progress.json` at the book pipeline root. The file tracks the writing state of each topic in `bookseed.txt`: total chapters, completed chapters, current chapter, and a per-topic array of `{chapter_number, topic, category, status, file_path, completed_date}`. Use `.framework/templates/progress.json` as the template shape, but re-seed it with the actual topics and categories from the current pipeline.
 
 For **novels**, also scaffold `progress.json` at the book pipeline root. Use the same template shape, but populate it with the novel's canonical chapter order: `Introduction`, `1..N`, `Conclusion`. Set all chapters to `status: "pending"` and `completed_date: null` until written. Update the file after each chapter is written (mark status `completed` and set `completed_date` to the current ISO 8601 timestamp). Before `write continue` or `write all`, read `progress.json` to determine which chapters remain.
 
@@ -342,7 +342,7 @@ Responsibility: change the form of an existing pipeline and reconcile all form-d
 1. Stop if the pipeline does not exist.
 2. If `<formname>` matches the current form, report no change needed.
 3. Otherwise update the `form` field and re-select everything the form drives: filter chain (8 vs 6), chapter structure (flat prose vs flat poetic prose), word target (5,500+ vs 500–800), stereotype template folder, and source of truth.
-4. Re-run the form-dependent selections: **Theme** (re-assign each chapter's theme from `stereotypes/<form>/themes/`), **Syntax** (update each chapter's `syntax` object from `stereotypes/<form>/syntax/`), **Quality** (re-audit against the new form's quality parameters).
+4. Re-run the form-dependent selections: **Theme** (re-assign each chapter's theme from `.framework/templates/stereotypes/<form>/themes/`), **Syntax** (update each chapter's `syntax` object from `.framework/templates/stereotypes/<form>/syntax/`), **Quality** (re-audit against the new form's quality parameters).
 5. **Re-seed the override command file for the new form.** The `override` filter is in both chains, so `.space/pipeline/<bookname>/filters/override/filter.md` is updated when the form flips. Apply the same rules as the scaffold step (*Override Command File Seeding* in `.framework/agents/scaffold/agent.md`): read `.framework/agents/override/agent.md` and reproduce its content customized to the new form — identity and units ("novel pipeline" / every chapter, or "poetry pipeline" / every poem), command-file paths, model-update paths, and instruction scope. Preserve any human-authored `## Instructions` that remain applicable; carry them to the new form's operative instruction file so nothing human-authored is silently dropped:
    - **All forms:** the override command file stays at `.space/pipeline/<bookname>/filters/override/filter.md`. There is no pipeline-root `override.md` in any form. Re-render the role/context portion above the `---` line for the new form (identity, units, model-update paths, instruction scope) and preserve any human-authored `## Instructions` in place.
 6. Report the change and its consequences.
@@ -505,10 +505,10 @@ The `quality` filter is also human-in-the-loop, but its role is audit and gateke
 
 Every chapter is rendered in its form's voice. The theme and syntax filters select from the stereotype templates:
 
-- **Signature** — the voice that renders the chapter: `stereotypes/<form>/signatures/`
-- **Reference** — the source text for grounding: `stereotypes/<form>/references/`
-- **Theme set** — the philosophical lens: `stereotypes/<form>/themes/`
-- **Syntax sample** — the target sentence structure: `stereotypes/<form>/syntax/`
+- **Signature** — the voice that renders the chapter: `.framework/templates/stereotypes/<form>/signatures/`
+- **Reference** — the source text for grounding: `.framework/templates/stereotypes/<form>/references/`
+- **Theme set** — the philosophical lens: `.framework/templates/stereotypes/<form>/themes/`
+- **Syntax sample** — the target sentence structure: `.framework/templates/stereotypes/<form>/syntax/`
 
 Read the `registry.md` in each folder to discover options, then read the chosen file for the full definition. Selections must be mutually consistent — same form, and where possible the same author or tradition.
 ## The Poet Command
@@ -533,11 +533,11 @@ For `/book <bookname> style [<style>]`:
 Responsibility: apply a named transformer style to the latest writer-stage chapter drafts in an existing pipeline, producing new writer-stage versions. Style work is routed through the style agent at `.framework/agents/style/agent.md`.
 
 - `<style>` is optional. If omitted, use `pijush`.
-- Resolve the transformer from `.framework/templates/styles/<style>/style.md`.
+- Resolve the transformer from `.framework/templates/stereotypes/poetry/styles/<style>/style.md`.
 - If the style folder contains `signature.md`, read it as the authority for resolving ambiguity in `style.md`.
 
 1. Stop if `.space/pipeline/<bookname>/` does not exist; use `scaffold` first.
-2. Resolve `<style>` to `.framework/templates/styles/<style>/style.md`. If it is missing, report the available folders under `.framework/templates/styles/`.
+2. Resolve `<style>` to `.framework/templates/stereotypes/poetry/styles/<style>/style.md`. If it is missing, report the available folders under `.framework/templates/stereotypes/poetry/styles/`.
 3. Read the style agent, then read the transformer `style.md`. If `style.md` directs the agent to consult another file such as `signature.md`, read that file too.
 4. For the target chapter, select the highest numbered `chapter_v*.md` in `segments/1/writer/`; if none exists, use writer `chapter.md`. If neither writer-stage source exists (including a missing or empty writer folder), require `chapters/<n>/chapter.md`, archive it and its model, and invoke `.framework/agents/enrich/agent.md` for only that chapter under the style agent's enrichment prerequisite. Re-read the enriched draft and model before styling. Stop and report if no source exists or enrichment fails; do not bypass enrichment. Transform one chapter per invocation, as required by the style agent.
 5. Write the transformed result as the next unused `chapter_v*.md` inside the target chapter's `segments/1/writer/` folder, creating that folder if missing. When falling back to the chapter-root draft with no writer-stage draft, start at `chapter_v1.md`. Never overwrite an existing writer version or write the styled result over the chapter-root source.

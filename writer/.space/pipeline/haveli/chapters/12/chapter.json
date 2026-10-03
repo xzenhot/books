@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
@@ -59,25 +59,10 @@
     "variety_note": "This chapter shifts focus from narrative movement to the material reality of storytelling: paint, plaster, and patronage are as crucial as myth itself."
   },
   "draft": {
-    "sha256": "ffef44201750be807a02bfbb91e94b37cad9e9cc1c1d9450d644b6f801a6643e",
-    "written_at": "2026-09-28T18:10:49.376506+00:00",
-    "origin": "write"
+    "sha256": "d45185a767ddaf1d93f55240eda85d7026fed13b9726335e1fbcb79de72dfd8b",
+    "written_at": "2026-10-03T15:21:46.139597+00:00",
+    "origin": "poet"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "ffef44201750be807a02bfbb91e94b37cad9e9cc1c1d9450d644b6f801a6643e",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-09-28T18:41:21+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "humanized_at": "2026-09-27T18:22:17+00:00"
 }

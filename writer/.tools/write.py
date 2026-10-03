@@ -33,9 +33,9 @@ REPO_ROOT = BASE_DIR.parent
 
 # The single-page Pijush/Dehlij master prompt lives in the framework.
 
-POETRY_FILE = REPO_ROOT / ".framework" / "templates" / "styles" / "pijush" / "poetry.md"
-STYLE_FILE = REPO_ROOT / ".framework" / "templates" / "styles" / "pijush" / "goddo.txt"
-SUBJECTS_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "syntax" / "gosai_bangla.md"
+POETRY_FILE = REPO_ROOT / ".framework" / "templates" / "preset" / "pijush.behula.md"
+STYLE_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles" / "pijush" / "sample.txt"
+SUBJECTS_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
 
 MODEL = "gemma4:latest"
 CONTEXT_WINDOW = 64000  # num_ctx: token context window size
