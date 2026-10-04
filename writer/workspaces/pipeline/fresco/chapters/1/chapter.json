@@ -2,56 +2,12 @@
   "chapter_index": 1,
   "name": "1",
   "word_target": 500,
-  "chapter_title": "The Night Scaffold",
-  "chapter_summary": "The painter climbs the bamboo scaffold alone while the town sleeps; the scaffold is his only kingdom. The poem opens on the first lamp lit in the dark, and asks what a man becomes when the whole world is turned away from him.",
+  "chapter_title": "The Wall That Waits",
+  "chapter_summary": "The painter stands before a blank stretch of plaster in a half-finished haveli, reading the wall the way a poet reads an empty page, and the wall, older and more patient than the hand that will touch it, waits for the first stroke.",
   "further_references": [],
   "level": "chapter",
-  "state": "workshop",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "workshop": {
-    "source_context": "gist-and-epic",
-    "content_shape": "flat-poetic-prose",
-    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The painter climbs the bamboo scaffold alone while the town sleeps; the scaffold is his only kingdom. The poem opens on the first lamp lit in the dark, and asks what a man becomes when the whole world is turned away from him."
-  },
-  "filter_history": [
-    {
-      "ran_at": "2026-10-05T03:04:43+05:30",
-      "filter": "workshop"
-    }
-  ],
-  "workshop_skill": "workshop-poetry",
-  "topic": "The Night Scaffold",
-  "source_context": "gist-and-epic",
-  "creative_enrichment": {
-    "angles": [
-      "Focusing on a specific domestic scene juxtaposed against the scaffold's isolation (e.g., a lamp burning late in one house vs. the solitary worker)",
-      "The internal monologue of the painter tracking the weather's failure; wind carrying dust or moisture that threatens the fresh lime",
-      "Framing the scaffold not just as a kingdom, but as an unstable architectural intrusion into the sleeping domestic sphere below."
-    ],
-    "story_options": [
-      "Setting: The narrow courtyard of the haveli. Desire: A brief moment of shared silence with another late-working servant (not artist). Obstacle: A sudden, unexpected gust of wind knocking dust onto the plaster. Turn: The painter must freeze mid-stroke to avoid ruin.",
-      "Setting: Just outside the perimeter wall where the worker rests his small tools. Desire: To catch a glimpse of familiar village light through a gap in the shutters. Obstacle: The oppressive darkness that swallows all external signs of life. Turn: He sees only deep, indifferent shadows moving against the walls.",
-      "Setting: The very peak of the scaffold where the air is coldest. Desire: A moment of absolute, unburdened visibility under the moon. Obstacle: The chill freezing his fingertips before he can mix the required cool color palette. Turn: His focus shifts from painting to sheer survival of the night."
-    ],
-    "subject_rotations": [
-      "Treating the bamboo scaffolding itself as a living, precarious character; its squeaks and sway as counter-narrative to the art.",
-      "Examining the psychological cost of operating outside circadian rhythms—the internal disorientation against external stillness.",
-      "Shifting focus from the 'Kingdom' idea to the sheer physical mechanics: the effort required just to hold a brush at height."
-    ],
-    "sensory_details": [
-      "The metallic, cold tang of iron oxide dust clinging to fingertips after a long night of mixing pigments.",
-      "The specific, low hum or drone sound produced by distant, sleeping livestock in the village periphery.",
-      "The smell of wet lime mortar mingling with the dry scent of aged cedar wood from the scaffolding structure."
-    ],
-    "research_questions": [
-      "What are historical practices for structural stability or night work safety on high wooden scaffolds in this region?"
-    ],
-    "structural_variants": [
-      "Beginning not with the lamp, but with a highly specific physical sensation—the ache in a knee bracing against the ladder base.",
-      "Employing an extended internal dialogue that mimics the repetition of labor, like a mantra or obsessive counting."
-    ],
-    "variety_note": "This chapter moves beyond setting up the scene (Chapter 1) by applying the 'contrast-pair' and 'weather twist' to ground the isolation in palpable physical conflict rather than abstract solitude."
-  }
+  ]
 }

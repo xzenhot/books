@@ -1,7 +1,0 @@
-# The Train and the God
-
-The merchant wanted both, and the painter gave him both, because a wall is big enough to hold what a single mind cannot reconcile. On one panel a god rides his chariot, golden and eternal, the way gods have always been painted since the first man ground ochre. On the panel beside it, a steam engine carries its passengers across the same wall, its wheels caught mid-turn, its smoke a column of gray that never finishes climbing.
-
-The painter had expected them to quarrel — the sacred and the modern, the epic and the machine, the old world and the one arriving on iron rails. He had expected to have to choose between them, to paint one into a corner so the other could dominate. But they did not quarrel. They sat together on the wet lime as naturally as two travelers sharing a wall, and the painter understood that he had been the one drawing the line between them, not the world. The god did not mind the engine, and the engine did not mind the god; they were both simply things that men had dreamed and then made real, one in prayer and one in iron.
-
-He finished the engine's last wheel and stepped back, and the wall looked at him with both its faces, and he saw that a haveli is not a shrine or a railway station but a place where a man writes down everything he has ever loved and everything he has ever feared, and lets the future sort out which was which. The wall is big enough for all of it. It is only the painter, small and finite on his scaffold, who ever thought it had to be one or the other.

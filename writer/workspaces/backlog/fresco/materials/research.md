@@ -1,30 +1,22 @@
-# Research Note — Fresco
+# Fresco — Research Note
 
-Grounding context for the book *Fresco: The Night of the Artist*, derived from the gist.
+## Subject
 
-## The Fresco Tradition
+The gist names the Shekhawati fresco tradition of Rajasthan, the Marwari merchant class, and the havelis of Nawalgarh and Mandawa. These painted mansions are real: during the eighteenth and nineteenth centuries the Marwari traders, who grew wealthy on the cloth and caravan trade along the old silk-route capitals, commissioned richly frescoed havelis as displays of prosperity. The towns of the Shekhawati region — Nawalgarh, Mandawa, Fatehpur, and others — are today known as an open-air gallery of these murals.
 
-Fresco is a mural painting technique executed on freshly laid ("wet") lime plaster. The pigment, mixed with water, is applied to the damp plaster so that as the lime carbonates and sets, the color is sealed into the wall itself — becoming, in effect, part of the stone. This is why fresco is a craft of speed and certainty: the plaster is unforgiving, and a section left too long can no longer absorb the color. The metaphor of the blossom resting on buried struggle maps directly onto the material facts: every finished surface is a layer of pigment fixed into lime, and beneath it are the earlier passes, corrections, and failures.
+## What the gist establishes
 
-*Note: the technique described in the poems is best understood as the fresco/buon-fresco tradition; the Shekhawati wall paintings were more commonly executed in fresco-secco and tempera on dry plaster. The distinction is worth honoring in any correctness pass — the poems use "fresco" as the governing metaphor, not always as a strictly literal technique.*
+- The fresco is a painting form executed on fresh (wet) lime plaster, which bonds pigment into the wall as it cures. The word derives from the Italian "affresco" (fresh). *(Uncertain in the Rajasthani context — verify whether Shekhawati murals are true buon fresco or a secco/tempera tradition; many are painted on dry lime plaster with mineral pigments.)*
+- The Marwari merchant class rose as moneylenders and traders, financing trade across northern and western India and the silk routes, and spent their wealth on lavish painted homes.
+- The Rajasthani kings provided security to the merchants, who in turn paid tax — a patron-protector bargain the gist states directly.
 
-## The Shekhawati Havelis
+## Facts to flag as uncertain
 
-The havelis of Shekhawati — the towns of Nawalgarh, Mandawa, Fatehpur, Jhunjhunu, and others — are the painted mansions of the Marwari merchant class. They are widely regarded as the world's largest open-air art gallery. Their walls carry frescoes that blend sacred subjects (the Ramayana, the Mahabharata, Krishna-lila) with the intrusions of the modern world: steam engines, motorcars, gramophones, telephones, and even European figures. The merchants who built them (Marwari families of the Goenka, Poddar, Birla, and other lines) amassed fortunes on the trade routes linking Gujarat's ports to Delhi and beyond — the so-called silk route capitals where the cloth trade blossomed.
+- Whether the specific pigment-and-lime method described is historically a true fresco or a secco mural. *(Needs research before writing.)*
+- The precise dates of the Shekhawati haveli paintings and the identity of individual fresco painters, who were largely anonymous artisans. This anonymity is precisely the novel's theme.
 
-## The Merchant–State Pact
+## Remaining to research
 
-The gist records an unspoken pact: the king of Rajasthan provided security to the businessmen, and the businessmen provided the tax to the king. This is broadly consistent with the historical arrangement between the Rajput states and the Marwari trading communities, whose mobility and capital were protected in exchange for revenue and patronage. The havelis themselves were a form of competitive display — merchants built grander and grander mansions to project status, a rivalry that drove the fresco tradition to its height.
-
-## The Anonymous Artisan
-
-The central figure — the anonymous fresco painter who works by night — reflects a documented historical condition. The painters (chiteras/artisans) who executed the Shekhawati frescoes were largely anonymous; the walls were signed, if at all, in the name of the patron, and the craftsmen were paid as laborers. The gist's insistence that "the world sees only the blossom, never the struggle" is grounded in this erasure of the maker's name.
-
-## Uncertain Claims to Verify
-
-- The precise pigment sources and lime recipes used in Shekhawati frescoes.
-- The specific patronage and workshop lineages (most painter names are lost; some workshop families are documented).
-- Whether any Shekhawati wall paintings were true buon fresco versus fresco-secco/tempera.
-- The exact economic terms of the merchant–state arrangement (tax rates, security obligations).
-
-These should be treated as open research questions for the research filter, not asserted as settled fact.
+- The pigments used in Shekhawati murals (lapis blue, indigo, lampblack, lime white, mineral reds).
+- The social status of mural painters and how they were paid.
+- The economic decline of the Marwari trading families and the abandonment of the havelis.

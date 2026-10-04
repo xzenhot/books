@@ -1,7 +1,0 @@
-# The Ruin
-
-The family left for Kolkata and then for Bombay and then for places no letter could reach, and the haveli emptied the way a tide goes out — slowly at first, then all at once. The merchant died in a locked upper room, and the heirs dispersed, and the great house that had been built to hold a name forever now holds only the dust and the swallows and the painted wall.
-
-The ruin is not sudden. It is the slow work of years: the gold leaf peeling in sheets, the plaster cracking along the old fault lines, the courtyard stones loosening one by one under the weather. But the wall does not fall. It outlasts the roof that sheltered it and the family that commissioned it, and the frescoes go on holding their colors long after the people who paid for them are forgotten, the way a memory outlasts the mind that kept it.
-
-There is a particular stillness in the ruin that is not peace but waiting. The painted processions do not finish marching; the gramophones wait for a hand that will never wind them; the gods step half out of their plaster and never fully arrive. And the painter, if he could see it, would understand at last what he was building toward: not a wall that a family would live with, but a wall that would live on after the family, a thing made in the dark that would still be standing in the light when everything the merchant built his name upon had turned to dust. The ruin is not the end of the wall. The ruin is the wall's beginning.

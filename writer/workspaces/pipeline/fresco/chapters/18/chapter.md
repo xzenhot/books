@@ -1,7 +1,0 @@
-# The Blossom Fades
-
-The blossom was never meant to last. That is the truth the painter knew and the town refused to know, and it is the truth the wall is proving now, a century on. The gold flakes away first — the gold always goes first, because it was never more than a promise painted over plaster — and then the blue begins to dim, and the red to pale toward the color of old blood, and the whole bright wall that the town once stopped to praise fades the way a flower fades, petal by petal, back toward the stone it came from.
-
-But as the blossom fades, something else shows through. Beneath the flaking gold and the dimming blue, the struggle begins to appear — the faint ghosts of the painter's false starts, the buried error he painted over, the raw marks where the lime ate into the plaster, the places where the hand had to scrape and begin again. The wall was a palimpsest all along, and only now, when the finished surface can no longer hide it, does the labor beneath become visible.
-
-And this is the reversal the painter never lived to see: that the blossom, which was the only thing the world would look at, was always the mortal part, and the struggle, which no one ever looked at, was the immortal part. The color is fading back into the earth from which it was ground. But the work — the sleepless nights, the wasted sketches, the ache, the failure, the stubborn refusal to stop — that is the thing that shows through at last, and it is the only part of the wall that will not fade, because it was never painted on. It was lived into the plaster.

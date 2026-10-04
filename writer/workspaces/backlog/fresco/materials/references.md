@@ -1,13 +1,11 @@
-# References — Fresco
+# Fresco — References
 
-Grounding sources to consult for the book *Fresco: The Night of the Artist*. Where a weblink is not known with certainty, it is left blank rather than invented.
+Grounding sources to consult for the novel. Links are left blank where not known with certainty.
 
-| No | Reference | Why it is relevant | Weblink |
-|----|-----------|--------------------|---------|
-| 1 | Shekhawati havelis and fresco painting (Nawalgarh, Mandawa, Fatehpur) | Primary subject: the painted mansions, their history, and the fresco tradition | |
-| 2 | Marwari merchant history and the Gujarat–Delhi trade routes | Grounds the merchant–state pact and the economy behind the havelis | |
-| 3 | Indian wall-painting techniques (fresco vs. fresco-secco vs. tempera) | Clarifies the technical facts behind the central metaphor | |
-| 4 | The Ramayana and Mahabharata in Indian wall art | Grounds the sacred subjects painted on the haveli walls | |
-| 5 | Colonial-era imagery in Indian folk/fresco art (steam engines, gramophones, motorcars) | Grounds the "tradition and modernity on one wall" thread | |
-| 6 | The anonymous artisan / chitera workshop tradition | Grounds the invisibility-of-the-maker theme | |
-| 7 | Rajasthan merchant–state patronage and tax arrangements | Grounds the "security for tax" pact in the gist | |
+| No | Reference | Relevance | Weblink |
+|----|-----------|-----------|---------|
+| 1 | Shekhawati fresco / haveli paintings | The visual and technical basis of the painter's craft | |
+| 2 | Marwari merchant history | The patron class and the economy that commissioned the walls | |
+| 3 | Nawalgarh and Mandawa havelis | The specific half-empty painted mansions the novel is set in | |
+| 4 | Fresco (buon fresco vs secco) technique | The method of pigment on wet plaster at the heart of the metaphor | |
+| 5 | Rajasthan silk-route cloth trade | The trade that made the merchants wealthy and funded the art | |

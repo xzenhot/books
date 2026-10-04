@@ -2,7 +2,7 @@
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "The Night Scaffold",
+      "topic": "The Wall That Waits",
       "file_path": "chapters/1/chapter.md",
       "written": false,
       "validated": false,
@@ -12,7 +12,7 @@
     },
     {
       "chapter_number": 2,
-      "topic": "The Sleeping Town",
+      "topic": "The Night Shift",
       "file_path": "chapters/2/chapter.md",
       "written": false,
       "validated": false,
@@ -22,7 +22,7 @@
     },
     {
       "chapter_number": 3,
-      "topic": "The Blossom",
+      "topic": "Pigment and Lime",
       "file_path": "chapters/3/chapter.md",
       "written": false,
       "validated": false,
@@ -32,7 +32,7 @@
     },
     {
       "chapter_number": 4,
-      "topic": "The First Line",
+      "topic": "The Merchant's House",
       "file_path": "chapters/4/chapter.md",
       "written": false,
       "validated": false,
@@ -42,7 +42,7 @@
     },
     {
       "chapter_number": 5,
-      "topic": "The Wasted Sketch",
+      "topic": "The Unseen Hand",
       "file_path": "chapters/5/chapter.md",
       "written": false,
       "validated": false,
@@ -52,7 +52,7 @@
     },
     {
       "chapter_number": 6,
-      "topic": "The Aching Hand",
+      "topic": "The Failure Beneath",
       "file_path": "chapters/6/chapter.md",
       "written": false,
       "validated": false,
@@ -62,7 +62,7 @@
     },
     {
       "chapter_number": 7,
-      "topic": "The Failure",
+      "topic": "The Wasted Sketch",
       "file_path": "chapters/7/chapter.md",
       "written": false,
       "validated": false,
@@ -72,7 +72,7 @@
     },
     {
       "chapter_number": 8,
-      "topic": "The Apprentice's Question",
+      "topic": "Lapis by Lamplight",
       "file_path": "chapters/8/chapter.md",
       "written": false,
       "validated": false,
@@ -82,7 +82,7 @@
     },
     {
       "chapter_number": 9,
-      "topic": "The Pigment",
+      "topic": "The Blossom",
       "file_path": "chapters/9/chapter.md",
       "written": false,
       "validated": false,
@@ -92,7 +92,7 @@
     },
     {
       "chapter_number": 10,
-      "topic": "The Lime",
+      "topic": "The Half-Empty Haveli",
       "file_path": "chapters/10/chapter.md",
       "written": false,
       "validated": false,
@@ -102,7 +102,7 @@
     },
     {
       "chapter_number": 11,
-      "topic": "The Scaffold's Height",
+      "topic": "The Silk-Route Capital",
       "file_path": "chapters/11/chapter.md",
       "written": false,
       "validated": false,
@@ -112,7 +112,7 @@
     },
     {
       "chapter_number": 12,
-      "topic": "The Patron's Eye",
+      "topic": "The King's Security, the Merchant's Tax",
       "file_path": "chapters/12/chapter.md",
       "written": false,
       "validated": false,
@@ -122,7 +122,7 @@
     },
     {
       "chapter_number": 13,
-      "topic": "The Ledger and the Wall",
+      "topic": "The Aching Hands",
       "file_path": "chapters/13/chapter.md",
       "written": false,
       "validated": false,
@@ -132,7 +132,7 @@
     },
     {
       "chapter_number": 14,
-      "topic": "The Unseen Signature",
+      "topic": "The Apprentice's Question",
       "file_path": "chapters/14/chapter.md",
       "written": false,
       "validated": false,
@@ -142,7 +142,7 @@
     },
     {
       "chapter_number": 15,
-      "topic": "The Haunted Wall",
+      "topic": "The Price of Being Seen",
       "file_path": "chapters/15/chapter.md",
       "written": false,
       "validated": false,
@@ -152,7 +152,7 @@
     },
     {
       "chapter_number": 16,
-      "topic": "The Train and the God",
+      "topic": "The Poet Looks Upon His Life",
       "file_path": "chapters/16/chapter.md",
       "written": false,
       "validated": false,
@@ -162,7 +162,7 @@
     },
     {
       "chapter_number": 17,
-      "topic": "The Ruin",
+      "topic": "The Wall Outlives the Painter",
       "file_path": "chapters/17/chapter.md",
       "written": false,
       "validated": false,
@@ -172,7 +172,7 @@
     },
     {
       "chapter_number": 18,
-      "topic": "The Blossom Fades",
+      "topic": "The Abandoned Fresco",
       "file_path": "chapters/18/chapter.md",
       "written": false,
       "validated": false,
@@ -182,7 +182,7 @@
     },
     {
       "chapter_number": 19,
-      "topic": "The Night Again",
+      "topic": "The Struggle Beneath",
       "file_path": "chapters/19/chapter.md",
       "written": false,
       "validated": false,
@@ -192,7 +192,7 @@
     },
     {
       "chapter_number": 20,
-      "topic": "The Immortality of Struggle",
+      "topic": "The Name Never Written",
       "file_path": "chapters/20/chapter.md",
       "written": false,
       "validated": false,
