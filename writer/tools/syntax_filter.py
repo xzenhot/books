@@ -127,11 +127,6 @@ def write_filter_outputs(bookname: str, form: str, numbers: list[int]) -> None:
                    indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
-    (filters_dir / "filter-summary.md").write_text(
-        f"# syntax filter\n\nBook: {bookname} ({form}). Chapters processed: {len(numbers)}.\n"
-        f"Syntax sample: {syntax_object(form)['sample']}.\n",
-        encoding="utf-8",
-    )
     lines = [f"# Syntax Filter - Content Output", "",
              f"Book: {bookname} ({form}). Scope: chapters {numbers[0]}-{numbers[-1]}.",
              "", "| # | Chapter |", "|---|---------|"]
@@ -143,7 +138,7 @@ def write_filter_outputs(bookname: str, form: str, numbers: list[int]) -> None:
             title = m.get("chapter_title", "")
         lines.append(f"| {n} | {title} |")
     (filters_dir / "content-output.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"  wrote filters/syntax/ (syntax.json, filter-summary.md, content-output.md)")
+    print(f"  wrote filters/syntax/ (syntax.json, content-output.md)")
 
 
 def main() -> int:

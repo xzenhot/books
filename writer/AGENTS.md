@@ -354,7 +354,6 @@ If a registry exists, use it to resolve each filter's `agent` path and `autorun`
 order
 name
 agent
-summary_file
 autorun
 ```
 

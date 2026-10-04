@@ -1,0 +1,7 @@
+# The Sleeping Town
+
+The town sleeps the way only the innocent and the tired sleep, deeply, without a backward glance. In a thousand rooms the ordinary men have put down their ledgers and their quarrels and closed their eyes, and their breathing rises over the walls like a slow tide the painter can almost hear from his height.
+
+They do not know he is there. That is the strange arithmetic of it: he labors directly above their dreaming heads, and they are turned away from him as completely as if he were a ghost. Tomorrow they will pass the finished wall and praise it, and the praise will be real and warm, and it will not once reach the man who earned it. Their sleep is not unkind. It is only sleep. But it is a silence, and every brushstroke the painter makes is a word spoken into that silence, and the silence does not answer.
+
+Once, far off, a bird stirs in its roost — hours still from dawn — and then is still again, as if the whole world has agreed to leave the painter to his dark. He pauses and listens. The town breathes. Somewhere a child turns in its blanket. Somewhere a lamp that no one lit waits for the hand that will never wind it. And the painter understands, not for the last time, that what the world calls beauty is made in exactly this way: by one awake man working against the sleep of everyone else, asking nothing, and being answered by nothing but the slow return of his own brush against the wall.

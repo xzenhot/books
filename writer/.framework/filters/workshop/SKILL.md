@@ -15,7 +15,7 @@ This agent dispatches form-specific workshop work, creates the initial live chap
 4. If form is poetry, read and invoke `.framework/skills/workshop-poetry/SKILL.md`.
 5. If form is novel, read and invoke `.framework/skills/workshop-novel/SKILL.md`.
 6. Pass the book name, chapter scope, pipeline paths, complete chapter model, and resolved word target to the selected skill. The skill must not read an existing `chapter.md`; it records guidance in the chapter model and creates `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` only when that file is absent. It must preserve any existing draft without reading or overwriting it. Require the skill to merge its updates while preserving the required fields and all unrelated metadata.
-7. Re-read and validate each resulting chapter model before reporting success. Confirm the chapter-root draft exists and is non-empty by checking file metadata only; do not read its contents. Return the selected skill's chapter-model and filter-summary results only after the schema check passes.
+7. Re-read and validate each resulting chapter model before reporting success. Confirm the chapter-root draft exists and is non-empty by checking file metadata only; do not read its contents. Return the selected skill's chapter-model results and report the run summary on screen only after the schema check passes.
 
 ## Required Chapter Model Schema
 
@@ -76,4 +76,4 @@ The workshop agent must not:
 
 ## Output
 
-Report the resolved form, selected skill, processed chapter scope, target word count, chapter-model path, initial chapter-draft path, and workshop filter-summary path. Include schema validation status, whether the draft was created or already existed, any fields recovered and their source, and any unresolved missing fields or identity/type conflicts.
+Report the resolved form, selected skill, processed chapter scope, target word count, chapter-model path, and initial chapter-draft path, plus a run summary on screen (no `filter-summary.md` file). Include schema validation status, whether the draft was created or already existed, any fields recovered and their source, and any unresolved missing fields or identity/type conflicts.

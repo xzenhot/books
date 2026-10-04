@@ -1,0 +1,27 @@
+{
+  "chapter_index": 8,
+  "name": "8",
+  "word_target": 500,
+  "chapter_title": "The Apprentice's Question",
+  "chapter_summary": "The young hand grinding pigment asks why anyone would labor unseen. The poem finds the painter unable to answer, and lets the silence itself become the answer — the one question the craft can never settle.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "workshop",
+  "segments": [
+    1
+  ],
+  "workshop": {
+    "source_context": "gist-and-epic",
+    "content_shape": "flat-poetic-prose",
+    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The young hand grinding pigment asks why anyone would labor unseen. The poem finds the painter unable to answer, and lets the silence itself become the answer — the one question the craft can never settle."
+  },
+  "filter_history": [
+    {
+      "ran_at": "2026-10-05T03:04:43+05:30",
+      "filter": "workshop"
+    }
+  ],
+  "workshop_skill": "workshop-poetry",
+  "topic": "The Apprentice's Question",
+  "source_context": "gist-and-epic"
+}

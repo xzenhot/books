@@ -1,0 +1,27 @@
+{
+  "chapter_index": 1,
+  "name": "1",
+  "word_target": 500,
+  "chapter_title": "The Night Scaffold",
+  "chapter_summary": "The painter climbs the bamboo scaffold alone while the town sleeps; the scaffold is his only kingdom. The poem opens on the first lamp lit in the dark, and asks what a man becomes when the whole world is turned away from him.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "workshop",
+  "segments": [
+    1
+  ],
+  "workshop": {
+    "source_context": "gist-and-epic",
+    "content_shape": "flat-poetic-prose",
+    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The painter climbs the bamboo scaffold alone while the town sleeps; the scaffold is his only kingdom. The poem opens on the first lamp lit in the dark, and asks what a man becomes when the whole world is turned away from him."
+  },
+  "filter_history": [
+    {
+      "ran_at": "2026-10-05T03:04:43+05:30",
+      "filter": "workshop"
+    }
+  ],
+  "workshop_skill": "workshop-poetry",
+  "topic": "The Night Scaffold",
+  "source_context": "gist-and-epic"
+}

@@ -1,0 +1,27 @@
+{
+  "chapter_index": 17,
+  "name": "17",
+  "word_target": 500,
+  "chapter_title": "The Ruin",
+  "chapter_summary": "The half-empty haveli, the peeling leaf, the abandoned courtyard. The poem watches the wall begin to outlive the family that fled it, and asks what a house becomes when only the paint remains awake.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "workshop",
+  "segments": [
+    1
+  ],
+  "workshop": {
+    "source_context": "gist-and-epic",
+    "content_shape": "flat-poetic-prose",
+    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The half-empty haveli, the peeling leaf, the abandoned courtyard. The poem watches the wall begin to outlive the family that fled it, and asks what a house becomes when only the paint remains awake."
+  },
+  "filter_history": [
+    {
+      "ran_at": "2026-10-05T03:04:43+05:30",
+      "filter": "workshop"
+    }
+  ],
+  "workshop_skill": "workshop-poetry",
+  "topic": "The Ruin",
+  "source_context": "gist-and-epic"
+}

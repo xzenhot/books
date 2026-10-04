@@ -58,7 +58,7 @@ Preserve chapter_index, level, segments, and all existing runtime fields.
 
 Before expanding a chapter, read `workspaces/backlog/<bookname>/storyline.md` in full and locate the material that belongs to this chapter: its entry in the topical structure, the relevant thematic threads, and the world-building images that fit the chapter's subject. Extend the chapter from that material so the poem is recognizably part of the book's larger narrative arc. If the epic has no direct entry for a chapter, derive the story from the epic's premise, setting, and recurring images rather than from the seed alone. The resulting draft must be substantial enough to serve as the input for the full filter chain (research, correctness, theme, syntax, override, quality) that prepares it for publish.
 
-Write one run summary to workspaces/pipeline/<bookname>/filters/workshop/filter-summary.md. Include the processed chapters, target word counts, and any grounding limitation. Report measured word count only when actually measured. Do not write runtime content into other filter folders.
+Report the run summary on screen (do not write a `filter-summary.md` file). Include the processed chapters, target word counts, and any grounding limitation. Report measured word count only when actually measured. Do not write runtime content into other filter folders.
 
 ## Guardrails
 

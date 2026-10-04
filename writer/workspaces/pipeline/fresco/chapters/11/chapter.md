@@ -1,0 +1,7 @@
+# The Scaffold's Height
+
+High on the scaffold the world rearranges itself, and the painter has never quite grown used to it. The courtyard below shrinks to a well of shadow; the jharokhas become a lattice he looks down into instead of up through; and the wall, which at ground level is only a wall, becomes here a cliff he is slowly covering with a sky.
+
+The fear is always there, coiled at the base of his spine — not the fear of falling so much as the fear of the emptiness that opens beneath the work, the knowledge that between him and the stones there is nothing but the creak of bamboo and his own careful balance. But the fear is also the focus. It narrows him down to the single brushstroke, to the exact place where the pigment meets the plaster, until the height stops being a threat and becomes a kind of attention, the only place in the world where nothing exists but the line he is making.
+
+He leans out once, over the edge, and sees the whole sleeping house laid out beneath him — the courtyards nested one inside another, the roofs silver under the moon, the town breathing beyond the walls. He could almost believe he is the only man awake on earth. And in that moment the height is not vertigo but vantage, and he understands that the painter's privilege is this alone: to see the whole of the sleeping world at once, and to be, for a few hours, the only thing in it that is not at rest.

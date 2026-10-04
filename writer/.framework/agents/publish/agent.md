@@ -8,6 +8,23 @@ tools: ["read"]
 
 This agent is a lightweight dispatcher that routes the publish command to the repository CLI (`publish.py`). It never reads the backlog or the epic.
 
+## Execution Mode (factory)
+
+> **IMPORTANT — PUBLISH IS OFFLINE BY DEFAULT. Do not hand-craft the published output. Delegate publish to the repository Python CLI (`python tools/publish.py <bookname>`) unless the book plan's `factory` field is explicitly `"online"` or an explicit `online` argument is supplied.**
+
+Publish accepts an optional execution-mode argument `[offline|online]`. Resolve it in this order:
+
+1. The explicit `offline` or `online` argument supplied on the command, if present.
+2. The `factory` field in the book plan (`workspaces/pipeline/<bookname>/book.json`).
+3. **Default to `offline`** when neither is provided.
+
+| Mode | Behavior |
+|------|----------|
+| `offline` (**default**) | Use the repository Python CLI (`python tools/publish.py <bookname>`) for the structural publish operation. |
+| `online` | Do not use Python at all; perform every step agentically through direct file reads/writes. |
+
+**The default is `offline`.** When the `[offline|online]` argument is not provided and no `factory` field resolves the mode, run publish through the repository Python CLI.
+
 ## Dispatch
 
 1. Read `workspaces/pipeline/<bookname>/book.json` to confirm the book plan exists.

@@ -1,0 +1,209 @@
+{
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "The Night Scaffold",
+      "file_path": "chapters/1/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "The Sleeping Town",
+      "file_path": "chapters/2/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "The Blossom",
+      "file_path": "chapters/3/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "The First Line",
+      "file_path": "chapters/4/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "The Wasted Sketch",
+      "file_path": "chapters/5/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "The Aching Hand",
+      "file_path": "chapters/6/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "The Failure",
+      "file_path": "chapters/7/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "The Apprentice's Question",
+      "file_path": "chapters/8/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "The Pigment",
+      "file_path": "chapters/9/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "The Lime",
+      "file_path": "chapters/10/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 11,
+      "topic": "The Scaffold's Height",
+      "file_path": "chapters/11/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 12,
+      "topic": "The Patron's Eye",
+      "file_path": "chapters/12/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 13,
+      "topic": "The Ledger and the Wall",
+      "file_path": "chapters/13/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 14,
+      "topic": "The Unseen Signature",
+      "file_path": "chapters/14/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 15,
+      "topic": "The Haunted Wall",
+      "file_path": "chapters/15/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 16,
+      "topic": "The Train and the God",
+      "file_path": "chapters/16/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 17,
+      "topic": "The Ruin",
+      "file_path": "chapters/17/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 18,
+      "topic": "The Blossom Fades",
+      "file_path": "chapters/18/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 19,
+      "topic": "The Night Again",
+      "file_path": "chapters/19/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 20,
+      "topic": "The Immortality of Struggle",
+      "file_path": "chapters/20/chapter.md",
+      "written": false,
+      "validated": false,
+      "published": false,
+      "status": "pending",
+      "completed_date": null
+    }
+  ],
+  "total_chapters": 20,
+  "written_chapters": 0,
+  "completed_chapters": 0,
+  "published": false,
+  "current_chapter": 1
+}

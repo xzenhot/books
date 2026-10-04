@@ -1,0 +1,27 @@
+{
+  "chapter_index": 12,
+  "name": "12",
+  "word_target": 500,
+  "chapter_title": "The Patron's Eye",
+  "chapter_summary": "The merchant inspects the wall and sees only the blossom; the price of being bought. The poem leaves the painter alone with what the patron never saw, and asks what is lost when a work is measured in coin and grain.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "workshop",
+  "segments": [
+    1
+  ],
+  "workshop": {
+    "source_context": "gist-and-epic",
+    "content_shape": "flat-poetic-prose",
+    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The merchant inspects the wall and sees only the blossom; the price of being bought. The poem leaves the painter alone with what the patron never saw, and asks what is lost when a work is measured in coin and grain."
+  },
+  "filter_history": [
+    {
+      "ran_at": "2026-10-05T03:04:43+05:30",
+      "filter": "workshop"
+    }
+  ],
+  "workshop_skill": "workshop-poetry",
+  "topic": "The Patron's Eye",
+  "source_context": "gist-and-epic"
+}

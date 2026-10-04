@@ -72,7 +72,7 @@ If the MCP server cannot be started or the needed tool is unavailable, fall back
 5. Derive and record the flattening/shaping guidance for the downstream writer: the content-shape directive (flat continuous prose, no `## Question`/`## Oration`/`## Benediction`/`## Workshop`/`## Story`/`## Discussion` headings), the resolved word target, and the verified grounding. Never invent facts, figures, events, or sources.
 6. Write the resolved `word_target` and measured/guidance fields, plus all research and grounding, into the chapter model. Write nothing to `chapter.md` — the writing/authorship agents own that file and consume this research record.
 7. Update the chapter model without dropping unrelated fields.
-8. Write one filter-summary.md to workspaces/pipeline/<bookname>/filters/research/.
+8. Report the run summary in the response (on screen). Do not write a `filter-summary.md` file.
 ## Chapter Layout Contract
 
 The scaffold agent's chapter layout contract governs research-stage preparation.
@@ -114,7 +114,7 @@ Do not record a measured word_count here — research writes no prose, so there 
 ## Output
 
 - One merged chapter model per processed chapter with state, grounding, mastery, word_target, and content_shape.
-- One filter-summary.md in workspaces/pipeline/<bookname>/filters/research/ documenting chapters, targets, grounding, and unresolved research needs.
+- A run summary reported on screen (no `filter-summary.md` file), documenting chapters, targets, grounding, and unresolved research needs.
 ## Quality Bar
 
 - **True** — every refinement is grounded in the epic; nothing is invented.

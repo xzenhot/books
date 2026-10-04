@@ -102,7 +102,7 @@ def scaffold(bookname):
             atomic_bytes(seed, ("\n".join(lines + [c["chapter_title"] for c in model["chapters"][len(lines):]]) + "\n").encode("utf-8"))
     registry = pipeline / "filters/filters.json"
     if not registry.exists():
-        write_json(registry, {"filters": [{"order": i, "name": name, "agent": f".framework/filters/{name}/SKILL.md", "summary_file": "filter-summary.md", "autorun": True} for i, name in enumerate(chain, 1)]})
+        write_json(registry, {"filters": [{"order": i, "name": name, "agent": f".framework/filters/{name}/SKILL.md", "autorun": True} for i, name in enumerate(chain, 1)]})
     prompt = pipeline / "override.txt"
     if not prompt.exists():
         atomic_bytes(prompt, b"No transform required.\n")

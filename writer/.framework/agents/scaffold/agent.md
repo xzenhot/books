@@ -19,6 +19,23 @@ You must run the init agent first:
 Then retry the scaffold command.
 ```
 
+## Execution Mode (factory)
+
+> **IMPORTANT — SCAFFOLD IS OFFLINE BY DEFAULT. Do not hand-craft the pipeline tree with shell commands or direct file writes. Delegate scaffold to the repository Python CLI (`python tools/book.py <bookname> scaffold ...`) unless the book plan's `factory` field is explicitly `"online"` or an explicit `online` argument is supplied.**
+
+Scaffold accepts an optional execution-mode argument `[offline|online]`. Resolve it in this order:
+
+1. The explicit `offline` or `online` argument supplied on the command, if present.
+2. The `factory` field in the book plan (`workspaces/backlog/<bookname>/book.json`).
+3. **Default to `offline`** when neither is provided.
+
+| Mode | Behavior |
+|------|----------|
+| `offline` (**default**) | Use the repository Python CLI (`.tools/*.py`, e.g. `python tools/book.py <bookname> scaffold ...`) for all structural, repeatable scaffold/layout operations. |
+| `online` | Do not use Python at all; perform every step agentically through direct file reads/writes. |
+
+**The default is `offline`.** When the `[offline|online]` argument is not provided and no `factory` field resolves the mode, run scaffold through the repository Python CLI — never by hand-writing folders or files.
+
 ## Dispatch
 
 1. **Invoke the layout agent first (Phase 1 — pre-layout plan).** Before any layout work, call the layout agent (`.framework/agents/layout/agent.md`) to resolve the form, validate the book plan, and produce the pre-layout plan (form, chapter count, topic/chapter list, filter chain, word target). This is the mandatory first step of scaffold — the layout skill runs only after the pre-layout plan returns.

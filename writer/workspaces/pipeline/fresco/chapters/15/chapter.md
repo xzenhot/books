@@ -1,0 +1,7 @@
+# The Haunted Wall
+
+The restorer from the city comes at last to the half-empty haveli, and she is the first person in three generations to touch the wall with care. She works slowly, with a brush smaller than the painter's own, lifting the dust of a century off the fading color, and the wall gives its answer to her fingertips the way a sleeping thing gives its warmth to a hand.
+
+Because the pigment is warm. That is the thing she cannot account for, the thing she writes down and then crosses out and then writes again. At night, when the haveli is empty and the courtyard is full of moonlight, the painted wall is warm to the touch, as if something beneath the surface were still alive, still working, still carrying on the labor it began a hundred years ago.
+
+The painter, of course, is long gone. But the labor is not. It is sealed in the lime the way the color is sealed, mixed with the sweat and the breath and the quiet vengeance of the man who made it, and it has never once stopped. The wall remembers its maker the way a field remembers the plow. And as the restorer stands in the dark with her hand flat against the warm plaster, she understands that the haunting she has been sent to document is not a ghost at all, but something older and harder to exorcise: the unspent labor of a man who worked every night of his life unseen, and whose work — unlike the man — has never once consented to be finished.

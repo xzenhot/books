@@ -1330,7 +1330,6 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
                 "order": order,
                 "name": name,
                 "agent": f".framework/filters/{name}/SKILL.md",
-                "summary_file": "filter-summary.md",
                 "autorun": name not in {"workshop", "override"},  # batch-disabled by default
             }
             for order, name in enumerate(filter_chain, 1)

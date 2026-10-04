@@ -1,0 +1,27 @@
+{
+  "chapter_index": 19,
+  "name": "19",
+  "word_target": 500,
+  "chapter_title": "The Night Again",
+  "chapter_summary": "The cycle of unseen labor begins once more; a new scaffold, a new dark. The poem lights another lamp by another hand, and asks whether the night is the artist's prison or his freedom.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "workshop",
+  "segments": [
+    1
+  ],
+  "workshop": {
+    "source_context": "gist-and-epic",
+    "content_shape": "flat-poetic-prose",
+    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The cycle of unseen labor begins once more; a new scaffold, a new dark. The poem lights another lamp by another hand, and asks whether the night is the artist's prison or his freedom."
+  },
+  "filter_history": [
+    {
+      "ran_at": "2026-10-05T03:04:43+05:30",
+      "filter": "workshop"
+    }
+  ],
+  "workshop_skill": "workshop-poetry",
+  "topic": "The Night Again",
+  "source_context": "gist-and-epic"
+}

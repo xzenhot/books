@@ -43,7 +43,7 @@ For every `/book [args...]` request, follow this procedure:
 ### Pipeline — owned by `pipeline.md`
 
 ```text
-/book <bookname> scaffold <gist> count|chapter-count <number> [--form novel|poetry]
+/book <bookname> scaffold <gist> count|chapter-count <number> [--form novel|poetry] [offline|online]
 /book <bookname> add <chapter-count> filter <filter>
 /book <bookname> filter <filter> *|all|<n>
 /book <bookname> <agentname> <chapter>|<n>|all|continue
