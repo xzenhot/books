@@ -2,6 +2,7 @@
   "total_chapters": 10,
   "completed_chapters": 0,
   "current_chapter": 1,
+  "factory": "online",
   "chapters": [
     {
       "chapter_number": 1,

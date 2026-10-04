@@ -30,7 +30,7 @@ Then retry the scaffold command.
 7. Record the chosen form in the pipeline root `book.json` during scaffolding.
 8. Create or update `workspaces/pipeline/<bookname>/filters/filters.json` from the book plan's ordered `filter_chain` list. The book plan is the sole source for this registry. Each registry entry carries an `autorun` flag (boolean, default `true`); the human may set any filter to `false` to skip it, and `/book <bookname> filter *` / `filter all` runs only the `autorun: true` filters in order. A single named filter still runs explicitly regardless of its flag.
 9. Do not run any filter agent or skill during scaffold. Create only structure and the `filters/filters.json` registry; do not create per-filter folders (each filter creates its own folder on first run). Leave all runtime outputs empty.
-10. **Seed the override command file lazily.** If the book plan's `filter_chain` includes `override`, the command file `workspaces/pipeline/<bookname>/filters/override/filter.md` is created on first use — by the override filter or the write/poet path — with form-customized content derived from `.framework/filters/override/agent.md` (see *Override Command File Seeding*). Scaffold does not pre-create it.
+10. **Seed the override command file lazily.** If the book plan's `filter_chain` includes `override`, the command file `workspaces/pipeline/<bookname>/filters/override/filter.md` is created on first use — by the override filter or the write/poet path — with form-customized content derived from `.framework/filters/override/SKILL.md` (see *Override Command File Seeding*). Scaffold does not pre-create it.
 11. **Generate the dynamic master prompt.** After the layout skill has built the pipeline, invoke the layout agent (Phase 2 — `.framework/agents/layout/agent.md`) to derive the pipeline's dynamic master prompt from the backlog idea (`workspaces/backlog/<bookname>/override.txt`) and the resolved pipeline state, writing it to `workspaces/pipeline/<bookname>/override.txt`. This is the final scaffold step.
 
 ## Override Command File Seeding
@@ -38,7 +38,7 @@ Then retry the scaffold command.
 The `override` human-in-the-loop filter needs a ready-made command file, not an empty placeholder. Seeding is **lazy — on first use, not at scaffold** (scaffold creates only `filters/filters.json`). When the override filter first runs, or when the write/poet path needs the command file:
 
 1. If `override` is not in the book plan's `filter_chain`, skip this step — no registry entry, no override folder, no `filter.md`.
-2. Read `.framework/filters/override/agent.md` — its content is the base for `filter.md`.
+2. Read `.framework/filters/override/SKILL.md` — its content is the base for `filter.md`.
 3. Create `workspaces/pipeline/<bookname>/filters/override/filter.md` by reproducing the override agent's content with these form-specific customizations:
    - **Identity and units.** Novel: the "novel pipeline", applying to every **chapter**. Poetry: the "poetry pipeline", applying to every **poem**.
    - **Command file path.** All forms: `workspaces/pipeline/<bookname>/filters/override/filter.md`. There is no pipeline-root `override.md` in any form; the backlog `workspaces/backlog/<bookname>/override.md` is only a planning copy.

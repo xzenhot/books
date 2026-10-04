@@ -34,7 +34,7 @@ Use this table to choose the recommended follow-up command. Remember the boundar
 | `/book <bookname> scaffold <gist> count\|chapter-count <n> [--form]` | Pipeline + chapter structure exist; filters not yet run | `/book <bookname> enrich *` (or `filter <filter>`) | `/book <bookname> write all` |
 | `/book <bookname> <agentname> <chapter>\|<n>\|all\|continue` | One agent ran on selected chapters; no promotion | Next filter/agent in chain, or `/book <bookname> enrich *` | `/book <bookname> write all` |
 | `/book <bookname> enrich <count>\|range\|*` | Active filters fused into one pass; guidance recorded in `model.json` | `/book <bookname> write <n>\|all\|continue` | `/book <bookname> filter quality` |
-| `/book <bookname> filter <filter>` | Single filter completed | Next filter in chain: `/book <bookname> filter <next>` | `/book <bookname> enrich *` |
+| `/book <bookname> filter <filter> *\|all\|<n>` | Single filter completed on the selected scope | Next filter in chain: `/book <bookname> filter <next>` | `/book <bookname> enrich *` |
 | `/book <bookname> write <n>\|range\|all\|continue [<language>]` | One or more finished chapters written | If chapters remain: `/book <bookname> write continue`<br>If all complete: `/book <bookname> filter quality` | `/book <bookname> publish [<language>]` |
 | `/book <bookname> style [<style>]` | New writer-stage version created under `segments/1/writer/` | `/book <bookname> write <n>\|all` (to promote) or `/book <bookname> publish` | `/book <bookname> translate <n> <language>` |
 | `/book <bookname> translate <n>\|all\|continue <language>` | Translated derivative written to `segments/1/translator/` | `/book <bookname> publish <language>` | `/book <bookname> write continue` |

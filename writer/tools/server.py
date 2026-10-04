@@ -34,7 +34,7 @@ DEFAULT_PROVIDER = os.getenv("DEFAULT_SEARCH_PROVIDER", "searxng").lower()
 # ---------------------------------------------------------------------------
 # Load external schema
 # ---------------------------------------------------------------------------
-SCHEMA_PATH = SCRIPT_DIR / "search-response-schema.json"
+SCHEMA_PATH = SCRIPT_DIR / "search" / "search-response-schema.json"
 
 
 def _load_schema() -> dict[str, Any]:

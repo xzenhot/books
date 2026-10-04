@@ -33,7 +33,7 @@ Supported command families are defined by the two start-point specs. The backlog
 /book <bookname> init idea
 /book <bookname> scaffold <gist> count|chapter-count <number> [--form novel|poetry]
 /book <bookname> add <chapter-count> filter <filter>
-/book <bookname> filter <filter>
+/book <bookname> filter <filter> *|all|<n>
 /book <bookname> <agentname> <chapter>|<n>|all|continue
 /book <bookname> enrich <count>|range|*
 /book <bookname> review *|all|<n>
@@ -156,23 +156,25 @@ workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
 workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
 ```
 
-Filter-stage roles are implemented by agents under:
+Filter-stage roles are implemented as skills under:
 
 ```text
-.framework/filters/<filter>/agent.md
+.framework/filters/<filter>/SKILL.md
 ```
 
-Known filter agents:
+They are reached through the filter agent (`.framework/agents/filter/agent.md`).
+
+Known filter skills:
 
 ```text
-correctness, enrich, override, quality, research, seeds, syntax,
+correctness, override, quality, research, seeds, syntax,
 theme, workshop
 ```
 
 Known lifecycle agents:
 
 ```text
-init, scaffold, write, style, translate, publish, reframe, eval
+init, scaffold, write, enrich, filter, style, translate, publish, reframe, eval
 ```
 
 Known scaffold helper agents:
@@ -236,21 +238,22 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/humanize/agent.md
 .framework/agents/eval/agent.md
 .framework/agents/write/agent.md
+.framework/agents/enrich/agent.md
+.framework/agents/filter/agent.md
 .framework/agents/style/agent.md
 .framework/agents/translate/agent.md
 .framework/agents/publish/agent.md
 .framework/agents/reframe/agent.md
 
 # Filter agents (moved to .framework/filters/)
-.framework/filters/workshop/agent.md
-.framework/filters/research/agent.md
-.framework/filters/correctness/agent.md
-.framework/filters/theme/agent.md
-.framework/filters/syntax/agent.md
-.framework/filters/override/agent.md
-.framework/filters/quality/agent.md
-.framework/filters/enrich/agent.md
-.framework/filters/seeds/agent.md
+.framework/filters/workshop/SKILL.md
+.framework/filters/research/SKILL.md
+.framework/filters/correctness/SKILL.md
+.framework/filters/theme/SKILL.md
+.framework/filters/syntax/SKILL.md
+.framework/filters/override/SKILL.md
+.framework/filters/quality/SKILL.md
+.framework/filters/seeds/SKILL.md
 ```
 
 Agents are the only valid runtime entry points for skill-backed behavior.
@@ -268,6 +271,8 @@ Agents are the only valid runtime entry points for skill-backed behavior.
 .framework/skills/quality-novel/SKILL.md
 .framework/skills/theme-poetry/SKILL.md
 .framework/skills/theme-novel/SKILL.md
+.framework/skills/enrich-poetry/SKILL.md
+.framework/skills/enrich-novel/SKILL.md
 ```
 
 Read skill files only from inside the responsible agent flow.

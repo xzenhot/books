@@ -1329,7 +1329,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
             {
                 "order": order,
                 "name": name,
-                "agent": f".framework/agents/{name}/agent.md",
+                "agent": f".framework/filters/{name}/SKILL.md",
                 "summary_file": "filter-summary.md",
                 "autorun": name not in {"workshop", "override"},  # batch-disabled by default
             }
@@ -1721,7 +1721,7 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
                 "Supply it as a positional argument or ensure book.json has 'chapter_count'."
             )
         if form == "poetry":
-            run_tool("scaffold_poetry.py", [bookname])
+            run_tool("scaffold.py", [bookname])
         else:
             scaffold_novel(bookname, count, args.gist or "")
         return
