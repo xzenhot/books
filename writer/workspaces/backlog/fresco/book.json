@@ -1,187 +1,41 @@
 {
-  "book_name": "fresco",
-  "book_long_title": "Fresco: The Night of the Artist",
-  "generic": "meditative-elegiac poetry",
-  "era": "18th century–present",
-  "language": "English",
-  "target_audience": "readers of reflective, elegiac verse on art, labor, anonymity, and the painted havelis of Shekhawati",
-  "chapter_count": 20,
-  "factory": "online",
-  "form": "poetry",
-  "book_summary": "A cycle of twenty meditative poems that stands on the threshold between the finished wall and the unseen hand that made it. Its central figure is the anonymous fresco painter of the painted havelis of Shekhawati, who works through the night on a bamboo scaffold while the town sleeps, and whose finished fresco — the blossom — is all the world ever sees. The cycle follows the struggle beneath the blossom: the sleepless nights, the wasted sketches, the aching hands, the failures hidden behind every painted surface. Its dramatic engine is the invisibility of the maker; its transformation is the artist's slow choice to let the struggle, and not only the blossom, be seen, and to pay the cost of that being-seen. Moving from the night scaffold through the sleeping town, the first line, the botched fresco, the patron's eye, and the half-empty haveli, the poems return at last to a quiet reversal: the blossom fades, and what survives is not the color but the labor that put it there.",
-  "created_at": "2026-10-04",
-  "user_name": "pijush",
-  "gist": "The life of an artist is lived in the night while ordinary men sleep — the world sees only the blossom of his art, never the struggle and the failure beneath it.",
-  "filter_chain": [
-    "workshop",
-    "research",
-    "correctness",
-    "theme",
-    "syntax",
-    "override",
-    "quality"
-  ],
-  "word_target": 500,
-  "chapters": [
-    {
-      "chapter_index": 1,
-      "name": "1",
-      "word_target": 500,
-      "chapter_title": "The Night Scaffold",
-      "chapter_summary": "The painter climbs the bamboo scaffold alone while the town sleeps; the scaffold is his only kingdom. The poem opens on the first lamp lit in the dark, and asks what a man becomes when the whole world is turned away from him.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 2,
-      "name": "2",
-      "word_target": 500,
-      "chapter_title": "The Sleeping Town",
-      "chapter_summary": "The ordinary men and their ordinary sleep; what it means to labor against a world that is turned away. The poem listens to the breathing of the houses and sets it against the silence in which the artist alone is awake.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 3,
-      "name": "3",
-      "word_target": 500,
-      "chapter_title": "The Blossom",
-      "chapter_summary": "The finished wall in the morning light, praised by every passing eye. The poem watches praise land on the painted surface and slide past the hand that made it, and asks what the blossom owes to the hand it hides.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 4,
-      "name": "4",
-      "word_target": 500,
-      "chapter_title": "The First Line",
-      "chapter_summary": "The empty lime-washed surface before any brushstroke; the terror and the promise of the blank. The poem renders the first mark as an irrevocable act, the moment the blank stops being blank and starts being the work.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 5,
-      "name": "5",
-      "word_target": 500,
-      "chapter_title": "The Wasted Sketch",
-      "chapter_summary": "The charcoal studies crumpled and cast aside, the rehearsals no one sees. The poem names the waste not as loss but as the cost of the blossom, the discarded attempts that quietly underwrite the finished wall.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 6,
-      "name": "6",
-      "word_target": 500,
-      "chapter_title": "The Aching Hand",
-      "chapter_summary": "The body's toll: the knuckle, the spine, the eye. The poem follows the cramp and the strain of the craft that wears its maker down even as he works on, and asks what the body is paid for its devotion.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 7,
-      "name": "7",
-      "word_target": 500,
-      "chapter_title": "The Failure",
-      "chapter_summary": "The botched fresco, the wrong line, the plaster stripped and begun again. The poem hides the failure behind a fresh coat and paints over it, and asks whether a work can be whole when its buried errors still breathe beneath it.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 8,
-      "name": "8",
-      "word_target": 500,
-      "chapter_title": "The Apprentice's Question",
-      "chapter_summary": "The young hand grinding pigment asks why anyone would labor unseen. The poem finds the painter unable to answer, and lets the silence itself become the answer — the one question the craft can never settle.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 9,
-      "name": "9",
-      "word_target": 500,
-      "chapter_title": "The Pigment",
-      "chapter_summary": "The mineral colors ground from earth and sealed in lime; the promise that color outlasts flesh. The poem watches the painter's own reflection surface in a pool of crushed red, and asks what the earth remembers of the hand that stirred it.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 10,
-      "name": "10",
-      "word_target": 500,
-      "chapter_title": "The Lime",
-      "chapter_summary": "Slaked lime that dissolves the skin of knuckles; the craft that eats its maker. The poem binds the burn and continues, and asks how much of the maker is mixed into the very plaster that holds the painting.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 11,
-      "name": "11",
-      "word_target": 500,
-      "chapter_title": "The Scaffold's Height",
-      "chapter_summary": "The vertigo of working beneath a vaulted ceiling; the fear and the focus of the high dark. The poem leans out over the courtyard and sees the whole sleeping house beneath him, and asks what the height is the price of.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 12,
-      "name": "12",
-      "word_target": 500,
-      "chapter_title": "The Patron's Eye",
-      "chapter_summary": "The merchant inspects the wall and sees only the blossom; the price of being bought. The poem leaves the painter alone with what the patron never saw, and asks what is lost when a work is measured in coin and grain.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 13,
-      "name": "13",
-      "word_target": 500,
-      "chapter_title": "The Ledger and the Wall",
-      "chapter_summary": "The account book and the fresco, two kinds of permanence. The poem sets the merchant's columns of figures against the painted wall, and asks which will be remembered — the coin that was earned, or the wall that was paid for.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 14,
-      "name": "14",
-      "word_target": 500,
-      "chapter_title": "The Unseen Signature",
-      "chapter_summary": "The erased name, the anonymous lintel; the maker who signs in nothing. The poem signs not with a name but with the one brushstroke only another painter would recognize, and asks what a true signature can be.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 15,
-      "name": "15",
-      "word_target": 500,
-      "chapter_title": "The Haunted Wall",
-      "chapter_summary": "The fresco that remembers its maker; the pigment warm at night. The poem touches the wall and feels its own earlier self beneath it, and asks whether the labor has ever truly ended.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 16,
-      "name": "16",
-      "word_target": 500,
-      "chapter_title": "The Train and the God",
-      "chapter_summary": "The steam engine and the god on one wall; tradition and modernity sharing a surface. The poem paints the engine beside the divine and finds they do not quarrel, and asks what the wall is big enough to hold.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 17,
-      "name": "17",
-      "word_target": 500,
-      "chapter_title": "The Ruin",
-      "chapter_summary": "The half-empty haveli, the peeling leaf, the abandoned courtyard. The poem watches the wall begin to outlive the family that fled it, and asks what a house becomes when only the paint remains awake.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 18,
-      "name": "18",
-      "word_target": 500,
-      "chapter_title": "The Blossom Fades",
-      "chapter_summary": "The color dims, the gold flakes away; the blossom is mortal. The poem watches the struggle show through at last beneath the fading surface, and asks what is revealed when the blossom can no longer hide it.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 19,
-      "name": "19",
-      "word_target": 500,
-      "chapter_title": "The Night Again",
-      "chapter_summary": "The cycle of unseen labor begins once more; a new scaffold, a new dark. The poem lights another lamp by another hand, and asks whether the night is the artist's prison or his freedom.",
-      "further_references": []
-    },
-    {
-      "chapter_index": 20,
-      "name": "20",
-      "word_target": 500,
-      "chapter_title": "The Immortality of Struggle",
-      "chapter_summary": "What outlasts the blossom is not the color but the labor; the night outlives the praise. The poem lets the struggle be seen at last, and finds in that the one true signature that cannot be stripped away.",
-      "further_references": []
-    }
-  ]
+    "book_name": "fresco",
+    "book_long_title": "Fresco",
+    "generic": "philosophical poem sequence",
+    "era": "the twilight of the Marwari merchant class — Shekhawati, Rajasthan",
+    "language": "English",
+    "target_audience": "readers of poetry and reflective literary prose on art, labor, and memory",
+    "chapter_count": 20,
+    "factory": "online",
+    "form": "poetry",
+    "book_summary": "A sequence of twenty poems on the invisible maker: an anonymous fresco painter works through the night on his scaffold in the half-empty painted havelis of Shekhawati, while the town sleeps and wakes only to praise the blossom of color, never the struggle and the failure beneath it. Each poem holds one facet of the same truth — that the world honors the art and forgets the artist — until the painter faces the choice to reveal the struggle that gives his art its truth, and pay the cost of being seen. The painter, in the deepest sense, is the poet himself, looking upon his own life.",
+    "created_at": "2026-10-04",
+    "updated_at": "2026-10-04",
+    "user_name": "pijush",
+    "gist": "The life of an artist is lived in the night while ordinary men sleep — the world sees only the blossom of his art, never the struggle and the failure beneath it.",
+    "chapters": [
+        { "chapter_index": 1, "name": "1", "word_target": 500, "chapter_title": "The Wall That Waits", "chapter_summary": "The painter stands before a blank stretch of plaster in a half-finished haveli, reading the wall the way a poet reads an empty page, and the wall, older and more patient than the hand that will touch it, waits for the first stroke.", "further_references": [] },
+        { "chapter_index": 2, "name": "2", "word_target": 500, "chapter_title": "The Night Shift", "chapter_summary": "By lamplight, while the town sleeps, the painter grinds pigment and mixes lime, and the poem asks why the maker works only in the dark, where no one can see the labor that will be called beauty.", "further_references": [] },
+        { "chapter_index": 3, "name": "3", "word_target": 500, "chapter_title": "Pigment and Lime", "chapter_summary": "The poem follows the materials of the fresco — the lapis ground to blue, the lime white, the mineral reds — as figures for the hidden work: the color the world admires is already the body of a man's hours.", "further_references": [] },
+        { "chapter_index": 4, "name": "4", "word_target": 500, "chapter_title": "The Merchant's House", "chapter_summary": "Inside the painted mansion the patron entertains guests who praise the color and never ask the maker's name, and the painter overhears his own erasure from the shadows of a house he built with his hands.", "further_references": [] },
+        { "chapter_index": 5, "name": "5", "word_target": 500, "chapter_title": "The Unseen Hand", "chapter_summary": "The poem names the central wound: the hand that lays the line, the hand that aches and fails, is the one thing the finished wall refuses to record, and the wall keeps its silence about the man.", "further_references": [] },
+        { "chapter_index": 6, "name": "6", "word_target": 500, "chapter_title": "The Failure Beneath", "chapter_summary": "A section of fresco cracks and must be scraped away and redone; the wasted work and the wasted nights are the truth the painter hides beneath every finished surface, and the poem lifts the edge of it.", "further_references": [] },
+        { "chapter_index": 7, "name": "7", "word_target": 500, "chapter_title": "The Wasted Sketch", "chapter_summary": "The poem gathers the discarded studies — the thrown-away drawings, the abandoned attempts — and argues that the blossom is only the last of a hundred failures, the single surviving leaf of a long pruning.", "further_references": [] },
+        { "chapter_index": 8, "name": "8", "word_target": 500, "chapter_title": "Lapis by Lamplight", "chapter_summary": "At the deepest hour of night the painter grinds the blue stone to dust by lamplight, and the poem turns the image into a meditation on the cost of a single pure color, bought with dark hours.", "further_references": [] },
+        { "chapter_index": 9, "name": "9", "word_target": 500, "chapter_title": "The Blossom", "chapter_summary": "The finished wall is unveiled to the town, and the crowd praises the blossom of color and line while the painter stands at the edge, unseen, in the hour the work is finally over.", "further_references": [] },
+        { "chapter_index": 10, "name": "10", "word_target": 500, "chapter_title": "The Half-Empty Haveli", "chapter_summary": "The poem walks the painted mansion now half-empty, its frescoes still breathing with the unfinished lives of the families who abandoned them, and asks what the walls remember that no one returns to read.", "further_references": [] },
+        { "chapter_index": 11, "name": "11", "word_target": 500, "chapter_title": "The Silk-Route Capital", "chapter_summary": "The poem recalls the town's wealth — the cloth trade, the camel trains, the capital that once flowed along the silk route — and how the money that paid for beauty never once asked the maker's name.", "further_references": [] },
+        { "chapter_index": 12, "name": "12", "word_target": 500, "chapter_title": "The King's Security, the Merchant's Tax", "chapter_summary": "The gist's old bargain becomes a figure: the king sold safety to the merchant, the merchant paid tax, and the painter, beneath them both, paid in unseen nights for a beauty neither would witness.", "further_references": [] },
+        { "chapter_index": 13, "name": "13", "word_target": 500, "chapter_title": "The Aching Hands", "chapter_summary": "The poem stays close to the body of the maker — the aching hands, the stiff back, the eyes strained by lamplight — and insists the work is written in flesh before it is ever written in color.", "further_references": [] },
+        { "chapter_index": 14, "name": "14", "word_target": 500, "chapter_title": "The Apprentice's Question", "chapter_summary": "The younger painter asks why the maker's name is never written on the wall, and the poem lets the question stand as the one the master has spent a life avoiding, and can no longer answer.", "further_references": [] },
+        { "chapter_index": 15, "name": "15", "word_target": 500, "chapter_title": "The Price of Being Seen", "chapter_summary": "The painter weighs the choice — to keep laboring unseen until the plaster cracks, or to step forward and reveal the struggle that gives the art its truth — and the poem counts the cost of each.", "further_references": [] },
+        { "chapter_index": 16, "name": "16", "word_target": 500, "chapter_title": "The Poet Looks Upon His Life", "chapter_summary": "The poem turns inward: the painter is no one but the poet himself, and the verse becomes a man looking upon his own life, finding in the fresco the mirror of everything he has hidden.", "further_references": [] },
+        { "chapter_index": 17, "name": "17", "word_target": 500, "chapter_title": "The Wall Outlives the Painter", "chapter_summary": "The poem meditates on the wall's patience — plaster and pigment that will outlast the hand that made them — and the strange comfort of being survived by one's own finished labor.", "further_references": [] },
+        { "chapter_index": 18, "name": "18", "word_target": 500, "chapter_title": "The Abandoned Fresco", "chapter_summary": "The painted wall stands in a house no family will return to, and the poem asks what a work of art means when its makers and its owners have both gone, leaving only color and lime behind.", "further_references": [] },
+        { "chapter_index": 19, "name": "19", "word_target": 500, "chapter_title": "The Struggle Beneath", "chapter_summary": "The poem returns to the buried truth — the sleepless nights, the wasted sketches, the failures behind the finished surface — and, once, lets it be spoken aloud, in the maker's own voice.", "further_references": [] },
+        { "chapter_index": 20, "name": "20", "word_target": 500, "chapter_title": "The Name Never Written", "chapter_summary": "The closing poem resolves the sequence not with fame but with choice: the painter steps into the light once, names the struggle, then returns to the scaffold, and the question — whose name is never written — is left, finally, to the reader.", "further_references": [] }
+    ],
+    "all_characters": [],
+    "filter_chain": ["workshop", "research", "correctness", "theme", "syntax", "override", "quality"],
+    "word_target": 500
 }

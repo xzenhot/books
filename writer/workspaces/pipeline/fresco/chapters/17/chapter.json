@@ -2,61 +2,12 @@
   "chapter_index": 17,
   "name": "17",
   "word_target": 500,
-  "chapter_title": "The Ruin",
-  "chapter_summary": "The half-empty haveli, the peeling leaf, the abandoned courtyard. The poem watches the wall begin to outlive the family that fled it, and asks what a house becomes when only the paint remains awake.",
+  "chapter_title": "The Wall Outlives the Painter",
+  "chapter_summary": "The poem meditates on the wall's patience — plaster and pigment that will outlast the hand that made them — and the strange comfort of being survived by one's own finished labor.",
   "further_references": [],
   "level": "chapter",
-  "state": "workshop",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "workshop": {
-    "source_context": "gist-and-epic",
-    "content_shape": "flat-poetic-prose",
-    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The half-empty haveli, the peeling leaf, the abandoned courtyard. The poem watches the wall begin to outlive the family that fled it, and asks what a house becomes when only the paint remains awake."
-  },
-  "filter_history": [
-    {
-      "ran_at": "2026-10-05T03:04:43+05:30",
-      "filter": "workshop"
-    }
-  ],
-  "workshop_skill": "workshop-poetry",
-  "topic": "The Ruin",
-  "source_context": "gist-and-epic",
-  "creative_enrichment": {
-    "angles": [
-      "The wall as a geological layer: the decay process is treated like strata formation, where each flake of paint represents an ancient epoch or decision.",
-      "Focus on the soundscape of abandonment: not silence, but the specific noises that only an empty, decaying structure makes (creaks in drying mortar, wind catching broken tiles).",
-      "The painted figures reacting to environmental erosion: Do the mythological beings depicted seem more distressed or strangely liberated as their setting crumbles around them?"
-    ],
-    "story_options": [
-      "setting: A single doorway leading into darkness within the haveli., desire: The artist (or a successor) wishes to retrieve one specific, perfect shard of pigment lost to the ruin., obstacle: The door itself is jammed shut by accumulated dust and fallen plaster from the wall., turn: A stranger passes by in the outer courtyard, not noticing the wall's decay but offering a simple gesture—a handful of dry earth for the artist’s boots—which feels profoundly indifferent to the art.",
-      "setting: The ruined central courtyard littered with debris., desire: A solitary individual seeks a specific, recognizable scene within the fresco—the moment of peak color before fading., obstacle: Severe weather (a sudden dust storm or heavy monsoon runoff) obscures the entire façade for days., turn: During the lull after the weather passes, the stranger who passed earlier has secretly left behind a single, intact piece of charcoal used in early sketches.",
-      "setting: The high edge of the scaffolding supports left leaning against the wall, now rusting., desire: To understand if the structures meant to aid creation have become new forms of decay themselves., obstacle: A sudden, sharp gust of wind causes one support beam to visibly shift and threaten collapse., turn: The stranger who appears is a city official or surveyor, documenting the ruin not for preservation, but as proof of demolition eligibility."
-    ],
-    "subject_rotations": [
-      "Treating the haveli less as architecture and more as an overgrown corpse whose skin (the paint) refuses to fully decompose.",
-      "Focusing on the contrast between the permanence implied by divine figures in the fresco versus the utter temporal fragility of the surrounding mortar and wood.",
-      "Shifting the focus from abandonment *after* a departure, to the slow erosion happening during an ongoing, unnoticed absence."
-    ],
-    "sensory_details": [
-      "The scent of pulverized lime mixing with damp earth after a night's dew (smell).",
-      "The sensation of gritty, fine powder settling on exposed skin while brushing past crumbling plaster (touch).",
-      "The high-pitched whine of metal supports vibrating under the pressure of seasonal temperature shifts (sound)."
-    ],
-    "research_questions": [
-      "What specific architectural materials used in 18th/19th-century Shekhawati havelis are most susceptible to accelerated decay from localized moisture intrusion?",
-      "Are there regional anecdotal accounts linking the spiritual 'life' of painted images to periods of structural decline or abandonment?"
-    ],
-    "structural_variants": [
-      "A fragmented narrative structure mimicking crack propagation across the wall surface.",
-      "Beginning in close-up on a single, flaking pigment particle, zooming out slowly to reveal the entire ruined vista."
-    ],
-    "unused_angles": [
-      "The painter’s subconscious projecting their own sense of obsolescence onto the deteriorating structure.",
-      "The interaction between bio-matter (moss, lichen) and man-made pigments as a form of slow reclamation."
-    ],
-    "variety_note": "Unlike the preceding focus on technical perfection or initial creation, this chapter pivots entirely to entropy—how artistic permanence confronts material dissolution in an empty space."
-  }
+  ]
 }

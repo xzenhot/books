@@ -1,7 +1,0 @@
-# The Unseen Signature
-
-Every wall in the haveli is signed, and none of them carries the painter's name. The signatures belong to the patrons — the merchants who paid, the families who would be remembered — carved deep into the lintels where the light will always find them. The painter's name is nowhere, because the painter's name was never asked for, because a hand that is paid in cracked grain does not get to leave its name on stone.
-
-But the painter signs the wall anyway, in the only way left to him. Not with letters — letters can be erased, and besides, no one has taught him to be proud of a name the world will not read. He signs with the brushstroke, the one that only another painter would recognize: a particular turn of the wrist in the corner of a god's robe, a certain way of loading the pigment so the color leans just so toward the light. It is not a name. It is a fingerprint, invisible to every eye but the eyes that have held a brush.
-
-The apprentice asks, once, what the mark is for, and the painter says: so that if ever one of us passes this wall, he will know one of us made it. It is a small thing, this signature hidden in plain sight, but it is his and it cannot be taken from him the way his name was. The wall belongs to the merchant in every document that exists. But to any hand that has ever climbed a scaffold, the wall will always say, silently, in a language of pigment and pressure: I was made by one of you.

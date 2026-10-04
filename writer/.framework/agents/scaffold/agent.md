@@ -26,8 +26,9 @@ Then retry the scaffold command.
 Scaffold accepts an optional execution-mode argument `[offline|online]`. Resolve it in this order:
 
 1. The explicit `offline` or `online` argument supplied on the command, if present.
-2. The `factory` field in the book plan (`workspaces/backlog/<bookname>/book.json`).
-3. **Default to `offline`** when neither is provided.
+2. **Default to `offline`** when no explicit argument is provided.
+
+> **NOTE — THE `factory` FIELD DOES NOT APPLY TO SCAFFOLD.** Scaffold (like publish) is a structural command and is **always offline by default**, regardless of any `factory` value in the book plan (`workspaces/backlog/<bookname>/book.json`). Do **not** read the `factory` field to resolve scaffold's execution mode. Scaffold runs agentically (`online`) only when an explicit `online` argument is supplied on the command; otherwise it must resolve, display, and await confirmation for the exact `python tools/book.py <bookname> scaffold ...` command.
 
 | Mode | Behavior |
 |------|----------|

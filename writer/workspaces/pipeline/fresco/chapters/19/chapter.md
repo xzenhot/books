@@ -1,7 +1,0 @@
-# The Night Again
-
-The cycle does not end with one man, because the night does not end, and the wall is never finished, and somewhere always there is a blank surface waiting in the dark for a hand that will climb toward it. The painter is gone, but the painter was never a single man. He was a kind of weather, a season that returns, and it returns now.
-
-In a town much like the old one, in a workshop much like the old one, another young hand grinds pigment in slow circles, and another old hand climbs a scaffold that creaks the same way under the same weight. The first lamp of the night is lit again — not the same flame, but the same lighting — and the dark settles over the town, and the town, as it always has, turns away and sleeps.
-
-The question the apprentice asked has not been answered, and it does not need to be. It is asked again in every generation, and it is lived instead of answered, and that is the only reply the craft will ever give. The night is the artist's prison, and it is his freedom, and the two are the same dark seen from two sides. What the new painter feels, climbing into the dark with his lamp and his brush, is not the loneliness of the first man but the company of all of them — every hand that ever worked unseen, reaching down through the years to steady his own. The night begins again. And in the morning, as always, the world will wake and see only the blossom.

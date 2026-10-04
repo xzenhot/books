@@ -2,62 +2,12 @@
   "chapter_index": 10,
   "name": "10",
   "word_target": 500,
-  "chapter_title": "The Lime",
-  "chapter_summary": "Slaked lime that dissolves the skin of knuckles; the craft that eats its maker. The poem binds the burn and continues, and asks how much of the maker is mixed into the very plaster that holds the painting.",
+  "chapter_title": "The Half-Empty Haveli",
+  "chapter_summary": "The poem walks the painted mansion now half-empty, its frescoes still breathing with the unfinished lives of the families who abandoned them, and asks what the walls remember that no one returns to read.",
   "further_references": [],
   "level": "chapter",
-  "state": "workshop",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "workshop": {
-    "source_context": "gist-and-epic",
-    "content_shape": "flat-poetic-prose",
-    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: Slaked lime that dissolves the skin of knuckles; the craft that eats its maker. The poem binds the burn and continues, and asks how much of the maker is mixed into the very plaster that holds the painting."
-  },
-  "filter_history": [
-    {
-      "ran_at": "2026-10-05T03:04:43+05:30",
-      "filter": "workshop"
-    }
-  ],
-  "workshop_skill": "workshop-poetry",
-  "topic": "The Lime",
-  "source_context": "gist-and-epic",
-  "creative_enrichment": {
-    "angles": [
-      "Contrasting two forms of nocturnal labor: the highly skilled, ephemeral art of the fresco painter versus a mundane, enduring night-shift worker in an adjacent household (e.g., a watchman or caretaker).",
-      "Treating the lime not as a chemical agent but as a metaphorical boundary—a porous membrane between the self and the eternalizing medium.",
-      "An exploration through the lens of biological decay; how the mineral/chemical reaction mirrors or accelerates human weariness."
-    ],
-    "story_options": [
-      "Setting: The painter’s bare knuckles, stained with lime residue from an overnight session; Desire: To scrape a tiny piece of newly set plaster off and examine it under moonlight, hoping to find evidence of their own skin within it; Obstacle: A sudden chill in the night air that makes the dust painfully abrasive; Turn: The realization that even microscopic fragments are harder than they appear.",
-      "Setting: Inside one haveli kitchen courtyard across the narrow lane; Desire: To watch the contrast between a domestic worker (e.g., grinding spices by lamplight) and the painter's silent, elevated toil on the scaffold; Obstacle: The harsh glare of the kitchen oil lamp casting stark shadows that expose human vulnerability; Turn: A shared moment of exhausted silence where neither worker acknowledges the other.",
-      "Setting: Near a common village well used at night by various residents; Desire: For an animal (a persistent jackal or fox) to repeatedly approach and investigate the faint, chalky residue clinging to the painter's boot heels; Obstacle: The early morning mist obscuring the distinction between the creature and reflected moonlight; Turn: The animal begins to associate the scent of lime/effort with a specific rhythm of movement."
-    ],
-    "subject_rotations": [
-      "Focusing less on the act of mixing and more on the *aftermath*—the dried, hardened shell of the plaster structure years later, holding ghosts of the applied pigment.",
-      "Viewing the lime process as an allegory for assimilation: how personal history (sweat, life) is incorporated into monumental, impersonal cultural forms.",
-      "Reversing the narrative: beginning with a preserved sliver of ancient lime-plaster from another era and tracing its forgotten uses."
-    ],
-    "sensory_details": [
-      "The fine, sharp prickle felt on the skin when handling freshly slaked chalk powder.",
-      "A specific metallic smell—not rust, but the ionization created by chemically agitated mineral dust under cool night air.",
-      "The gritty texture of mortar clinging to dried sweat or oil residue left behind from a hurried pre-painting meal."
-    ],
-    "research_questions": [
-      "What were traditional practices for rendering lime plaster durable in environments with high nighttime temperature swings, and how did these methods impact the finished substrate?",
-      "Are there regionally specific folklore traditions concerning labor absorbed into permanent architectural materials in Shekhawati or related Rajputana areas?",
-      "What are the chemical interactions between calcium hydroxide (slaked lime) and organic traces like skin oils or sweat when curing within a decorative application?"
-    ],
-    "structural_variants": [
-      "A sequence of highly compressed, visceral stanzas detailing only the physical interaction with the material—no narrative progression.",
-      "An extended section dedicated solely to cataloging the properties of lime: its hardness at different stages of hydration, its reflective quality in dark."
-    ],
-    "unused_angles": [
-      "How the soundscape shifts when one moves from the dry desert dust noise (pigment) to the wet, binding sound of setting lime.",
-      "The philosophical concept of 'slow time'—the chemical curing process as a deliberate refusal to rush towards completion."
-    ],
-    "variety_note": "This chapter contrasts its internal focus on chemistry and bodily absorption with previous chapters by introducing a counterpoint (the adjacent household) and focusing sharply on the materiality of binding agents rather than just color or line work."
-  }
+  ]
 }

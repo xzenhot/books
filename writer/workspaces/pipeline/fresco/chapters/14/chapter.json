@@ -2,61 +2,12 @@
   "chapter_index": 14,
   "name": "14",
   "word_target": 500,
-  "chapter_title": "The Unseen Signature",
-  "chapter_summary": "The erased name, the anonymous lintel; the maker who signs in nothing. The poem signs not with a name but with the one brushstroke only another painter would recognize, and asks what a true signature can be.",
+  "chapter_title": "The Apprentice's Question",
+  "chapter_summary": "The younger painter asks why the maker's name is never written on the wall, and the poem lets the question stand as the one the master has spent a life avoiding, and can no longer answer.",
   "further_references": [],
   "level": "chapter",
-  "state": "workshop",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "workshop": {
-    "source_context": "gist-and-epic",
-    "content_shape": "flat-poetic-prose",
-    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The erased name, the anonymous lintel; the maker who signs in nothing. The poem signs not with a name but with the one brushstroke only another painter would recognize, and asks what a true signature can be."
-  },
-  "filter_history": [
-    {
-      "ran_at": "2026-10-05T03:04:43+05:30",
-      "filter": "workshop"
-    }
-  ],
-  "workshop_skill": "workshop-poetry",
-  "topic": "The Unseen Signature",
-  "source_context": "gist-and-epic",
-  "creative_enrichment": {
-    "angles": [
-      "The signature as a palimpsest: the act of signing over prior work—erasing one's own anonymity to mark a piece.",
-      "Technological mimicry: using an unfamiliar, borrowed tool (e.g., a foreign brush or stylus) in place of the familiar hand-signed gesture.",
-      "The signature as collaborative failure: the 'mark' is not the painter's intent but the accidental confluence of two artists' techniques meeting on one surface."
-    ],
-    "story_options": [
-      "Setting: A high, shadowed corner where a tiny amount of paint residue remains; Desire: To trace a single, imperfect stroke that only another master craftsman would understand as their own specific error or calling card; Obstacle: The knowledge that this recognition might lead to scrutiny and ruin.",
-      "Setting: Immediately following the final dusting/curing period in the haveli courtyard; Desire: For the artist to leave behind a minuscule 'signature' made not with pigment, but with an impressed pattern from a broken tool handle into soft plaster; Obstacle: The patron’s attendant discovering the foreign impression before the official day-light appraisal.",
-      "Setting: A moment of intense solitary work just before dawn breaks, when shadows are most confusing; Desire: To purposefully use a brush treated or shaped by another known artist—a deliberate forgery signature meant only for peer recognition; Obstacle: The risk that this shared dialect of craft is mistaken for amateurish carelessness."
-    ],
-    "subject_rotations": [
-      "Treating the signature not as an assertion of self, but as a commentary on inherited style—the 'signature' being perfectly emulating another master.",
-      "Shifting focus from the *ink* (pigment) to the *method* (the way the tool interacts with the material), thus making technique the unseen mark.",
-      "Considering the signature as a necessary falsehood: an agreed-upon code required for entry into a specific artisan/patron class, masking true skill or intent."
-    ],
-    "sensory_details": [
-      "The gritty resistance of fine silica powder against taut skin where a brush is held too tightly.",
-      "The faint, almost metallic tang left by aged binder agents on the drying plaster surface.",
-      "The brittle sound of dried pigment flaking off microscopic imperfections in the final layer."
-    ],
-    "research_questions": [
-      "What symbolic weight did the inclusion or deliberate omission of artist attribution carry in mercantile patronage systems across South Asian art traditions?",
-      "How were shared, undocumented technical vocabulary or 'hallmarks' transmitted between contemporary artisans who may not have been formal apprentices to each other?"
-    ],
-    "structural_variants": [
-      "A recursive structure where the poem zooms inward: beginning with a wide view of the finished wall, progressively micro-zooming onto a single thread-like stroke until it becomes purely abstract texture.",
-      "An epistolary fragmentation, presenting several hypothetical 'interpretations' of the signature as if from different observers (the peer, the skeptical merchant, the dedicated apprentice)."
-    ],
-    "unused_angles": [
-      "The relationship between anonymity and cultural transmission: how an unknown artist might preserve a style more purely than one famous for his personal flair.",
-      "The physical decay of specialized tools as metaphors for forgetting or misremembering artistic lineage."
-    ],
-    "variety_note": "This chapter shifts the focus from existential struggle (previous chapters) to specific, internalized codes—how skill speaks in a language only insiders can read, moving away from broad observations on labor itself."
-  }
+  ]
 }

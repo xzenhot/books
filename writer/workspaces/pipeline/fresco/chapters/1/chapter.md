@@ -1,7 +1,0 @@
-# The Night Scaffold
-
-When the last lamp in the courtyard gutters out and the town folds itself into sleep, the painter climbs. He has waited all day for this hour, the one hour that belongs to no one, the hour the world turns away. The bamboo scaffold creaks once under his weight, a sound so small the sleeping houses do not hear it, and then it holds him the way the dark holds everything.
-
-He carries his lamp up the rungs, its flame a small yellow breath against the vast black wall, and sets it where it will not fall. Below him the haveli spreads like a creature breathing in its sleep — the jharokhas latticed shut, the courtyard pooled in shadow, the painted gods still stepping half out of their plaster. In the morning the town will wake and see only the finished wall, the blossom. But the blossom is not yet here. What is here is the scaffold, the lamp, the wall still blank as a held breath, and a man no one is watching.
-
-He does not mind the loneliness yet. Loneliness at this hour is not emptiness; it is the only room he has ever owned. The question waits for him the way the lime waits for the pigment: what does a man become when every eye in the world is turned away from him, when the only witness is the one he carries up the rungs in his own hand? He does not answer. He lifts the brush. The lamp leans toward him, as if it has been waiting too, and the first dark hour of the work begins.

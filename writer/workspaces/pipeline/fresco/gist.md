@@ -4,7 +4,7 @@ The life of an artist is lived in the night while ordinary men sleep — the wor
 
 ## Expansion
 
-An anonymous fresco painter works through the dark hours, alone on his scaffold, while the town sleeps and sees only the finished wall. His conflict is the invisibility of the maker: the public praises the blossom of color and line, but no one witnesses the sleepless nights, the wasted sketches, the aching hands, and the failures he hides behind every finished surface. His transformation comes when he must choose whether to keep laboring unseen, or to reveal the struggle that gives the art its truth — and pay the cost of being seen.
+An anonymous fresco painter works through the dark hours, alone on his scaffold, while the town sleeps and sees only the finished wall. His conflict is the invisibility of the maker: the public praises the blossom of color and line, but no one witnesses the sleepless nights, the wasted sketches, the aching hands, and the failures he hides behind every finished surface. His transformation comes when he must choose whether to keep laboring unseen, or to reveal the struggle that gives the art its truth — and pay the cost of being seen. The painter is no one but the poet himself. He looks upon his own life. 
 
 ## Author Comment
 
