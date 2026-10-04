@@ -219,7 +219,7 @@
         <tr><td><code>.framework/workflows/pipeline.md</code></td><td><strong>The writing engine.</strong> Defines commands, scaffolding, filter execution, form selection, config, and writing rules.</td></tr>
         <tr><td><code>.framework/skills/layout-novel/SKILL.md</code></td><td><strong>The novel layout authority.</strong> Owns novel scaffold shape, <code>book.json</code>, characters, moods, workshop metadata, filters, and chapter/segment path invariants.</td></tr>
         <tr><td><code>.framework/skills/layout-poetry/SKILL.md</code></td><td><strong>The poetry layout authority.</strong> Owns poetry scaffold shape, <code>book.json</code>, <code>bookseed.txt</code>, progress, override, filters, and one-segment chapter layout.</td></tr>
-        <tr><td><code>.framework/filters/research/SKILL.md</code></td><td><strong>Research support.</strong> Retired; moved to <code>.framework/filters/</code>. The research agent performs its work inline (MCP search).</td></tr>
+        <tr><td><code>.framework/filters/research/SKILL.md</code></td><td><strong>Research support.</strong> A chain filter reached through the filter agent; performs research against the epic/gist as contextual source.</td></tr>
         <tr><td><code>workspaces/backlog/&lt;bookname&gt;/storyline.md</code></td><td><strong>The backlog epic.</strong> The single source of truth for a novel's story. Created/updated by the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command.</td></tr>
         <tr><td><code>workspaces/backlog/&lt;bookname&gt;/book.json</code></td><td><strong>The backlog book plan.</strong> The chapter-layout plan plus the authoritative <code>filter_chain</code> and <code>word_target</code>. Produced by <code>init</code>; the blueprint <code>scaffold</code> builds from.</td></tr>
         <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/</code></td><td><strong>The book pipeline.</strong> Holds model data, characters, filters, chapter plans, segments, and progress state.</td></tr>
@@ -242,8 +242,11 @@
 /book &lt;bookname&gt; init|backlog|layout [&lt;gist&gt;] [&lt;count&gt;] [form] [refresh]
 /book &lt;bookname&gt; scaffold &lt;gist&gt; count|chapter-count &lt;number&gt; [--form novel|poetry]
 /book &lt;bookname&gt; &lt;agentname&gt; &lt;chapter&gt;|&lt;n&gt;|all|continue
-/book &lt;bookname&gt; filter &lt;filter&gt;|*|all
+/book &lt;bookname&gt; filter &lt;filter&gt; *|all|&lt;n&gt;
 /book &lt;bookname&gt; enrich &lt;count&gt;|range|*
+/book &lt;bookname&gt; eval all|*|&lt;n&gt;|&lt;range&gt;|continue
+/book &lt;bookname&gt; review *|all|&lt;n&gt;
+/book &lt;bookname&gt; humanize *|all|&lt;n&gt;
 /book &lt;bookname&gt; write &lt;n&gt;|range|all|continue [&lt;language&gt;]
 /book &lt;bookname&gt; chapter &lt;n&gt;|all|continue [&lt;style&gt;]   # alias of write
 /book &lt;bookname&gt; story &lt;n&gt;|all|continue [&lt;style&gt;]      # alias of write
@@ -251,6 +254,7 @@
 /book &lt;bookname&gt; translate &lt;n&gt;|all|continue &lt;language&gt;
 /book &lt;bookname&gt; poet                          # aliases: poetry, poem
 /book &lt;bookname&gt; publish [&lt;language&gt;]
+/book &lt;bookname&gt; preview [&lt;language&gt;]
 /book &lt;bookname&gt; form &lt;novel|poetry&gt;
 /book &lt;bookname&gt; config [&lt;key&gt; [&lt;value&gt;]]
 /book &lt;bookname&gt; add &lt;chapter-count&gt; filter &lt;filter&gt;|*|all
@@ -268,12 +272,16 @@
         <tr><td><code>&lt;agentname&gt; &lt;chapter&gt;|&lt;n&gt;|all|continue</code></td><td>Runs any registered agent (<code>.framework/agents/&lt;agentname&gt;/agent.md</code>) against selected chapters in an existing pipeline. Does not promote output to <code>source/books/</code>.</td></tr>
         <tr><td><code>write &lt;n&gt;|all|continue</code></td><td>Writes selected chapters through the write agent, which routes to the poetry skill or novel skill by form. Preserves prior drafts and creates a fresh numeric output version after required validation.</td></tr>
         <tr><td><code>chapter</code> / <code>story</code></td><td>Aliases of <code>write</code> — write chapters through the write agent (→ poetry/novel skill by form).</td></tr>
-        <tr><td><code>filter &lt;filter&gt;|*|all</code></td><td>A named filter runs explicitly; <code>*</code> or <code>all</code> runs active filters in registry order.</td></tr>
+        <tr><td><code>filter &lt;filter&gt; *|all|&lt;n&gt;</code></td><td>Runs a single named filter against a scope (<code>*</code>/<code>all</code> or one chapter <code>&lt;n&gt;</code>). Each filter is run separately, by name, in chain order.</td></tr>
         <tr><td><code>style [&lt;style&gt;]</code></td><td>Transforms one chapter per invocation into a new writer-stage version. Defaults to <code>pijush</code>.</td></tr>
         <tr><td><code>translate &lt;n&gt;|all|continue &lt;language&gt;</code></td><td>Translates the latest writer-stage source into the pipeline translator folder.</td></tr>
         <tr><td><code>poet</code> (aliases: <code>poetry</code>, <code>poem</code>)</td><td>Routes a single poem through the write agent in a poetry pipeline, using the override instructions.</td></tr>
         <tr><td><code>enrich &lt;count&gt;|range|*</code></td><td>Fuses the active (<code>autorun: true</code>) filters into one combined agent and runs them in a single pass over the selected chapters.</td></tr>
+        <tr><td><code>eval all|*|&lt;n&gt;|&lt;range&gt;|continue</code></td><td>Evaluates pipeline completeness before write/publish (read-only) via the eval agent; reports per-chapter write/validation/publish readiness.</td></tr>
+        <tr><td><code>review *|all|&lt;n&gt;</code></td><td>Audits chapters against the seed analysis's quality parameters via the review agent — the quality gate before publish. Records <code>quality_review</code> and sets state to <code>completed</code> on pass.</td></tr>
+        <tr><td><code>humanize *|all|&lt;n&gt;</code></td><td>Ensures chapter drafts are in the target language only (Bengali), replacing foreign-language characters with Bengali equivalents. Runs after quality review and before publish.</td></tr>
         <tr><td><code>form &lt;formname&gt;</code></td><td>Sets or changes the pipeline form (<code>novel</code> or <code>poetry</code>).</td></tr>
+        <tr><td><code>preview [&lt;language&gt;]</code></td><td>Assembles the same output as <code>publish</code> but skips the quality gate and review step — a draft preview for inspecting the full book as it stands.</td></tr>
         <tr><td><code>config [&lt;key&gt; [&lt;value&gt;]]</code></td><td>Gets or sets stereotype/model config such as <code>signature</code>, <code>reference</code>, <code>theme_set</code>, or <code>syntax</code>. Bare <code>config</code> prints the current configuration.</td></tr>
         <tr><td><code>add &lt;chapter-count&gt; filter &lt;filter&gt;</code></td><td>Adds more main chapters to an existing book pipeline, then runs the requested filter for the newly added chapters.</td></tr>
         <tr><td><code>publish [&lt;language&gt;]</code></td><td>Promotes the latest writer-stage (or translator-stage) segments to a versioned <code>source/books/&lt;bookname&gt;/version&lt;k&gt;/</code> and assembles the consolidated book.</td></tr>

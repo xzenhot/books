@@ -175,7 +175,8 @@ theme, workshop
 Known lifecycle agents:
 
 ```text
-init, scaffold, write, enrich, filter, style, translate, publish, reframe, eval
+init, scaffold, write, enrich, filter, style, translate, publish, review,
+humanize, eval
 ```
 
 Known scaffold helper agents:
@@ -238,13 +239,13 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/layout/agent.md
 .framework/agents/humanize/agent.md
 .framework/agents/eval/agent.md
+.framework/agents/review/agent.md
 .framework/agents/write/agent.md
 .framework/agents/enrich/agent.md
 .framework/agents/filter/agent.md
 .framework/agents/style/agent.md
 .framework/agents/translate/agent.md
 .framework/agents/publish/agent.md
-.framework/agents/reframe/agent.md
 
 # Filter agents (moved to .framework/filters/)
 .framework/filters/workshop/SKILL.md
