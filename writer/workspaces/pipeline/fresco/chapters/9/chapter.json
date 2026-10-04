@@ -23,5 +23,40 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The Pigment",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "Examining the pigment not as a finished color, but through its geological journey—the tectonic pressure or chemical event required to forge that specific mineral.",
+      "Addressing an absent figure (a deceased predecessor or future critic) whose memory is embedded in the pigments themselves, making them witnesses to the labor.",
+      "The conflict between the permanence of the stone/mineral and the ephemeral nature of the night's work—a discussion on intended immortality versus inherent decay."
+    ],
+    "story_options": [
+      "Setting: The low, packed earth floor outside the workshop during a sudden desert downpour; Desire: To mix ground lapis lazuli not just with lime, but momentarily with rainwater runoff from the tin roof; Obstacle: The rapid dilution of the color binder renders the batch unusable.",
+      "Setting: Inside the grinding mortar pit just before dawn when humidity causes excess moisture in stored ochres; Desire: To re-grind a specific shade of iron oxide based on a perfect memory of how it looked after curing; Obstacle: The dust, finely ground, coats everything like fine, stubborn sleep.",
+      "Setting: Near the edge of the haveli courtyard during a brief period of unexpected fog rolling in from the wells; Desire: To test if the pigments react differently to moisture or atmospheric particles before application; Obstacle: The fog obscures the line of sight between the painter and his intended destination on the wall."
+    ],
+    "subject_rotations": [
+      "Treating the pigment as memory storage—each mineral dust recalling an ancient landscape, a lost mine, or a historical battle from which it was extracted.",
+      "Focusing strictly on the alchemical aspect: the transformative power of binding earth (mineral) to calcium carbonate (lime), viewing this mixture as a deliberate act of slow transmutation.",
+      "Shifting away from beauty entirely: exploring the pigment through its toxicity, the specific dangers and poisons inherent in grinding certain stones."
+    ],
+    "sensory_details": [
+      "The abrasive grit catching the moisture on the tongue when sampling fresh mineral paste; (Gustatory/Tactile)",
+      "A dry, ozone-like metallic scent released by freshly crushed copper oxides exposed to cool night air; (Olfactory)",
+      "The sound of a pestle striking granite in perfect counterpoint with the rhythmic creak of ropes securing the scaffold platform; (Auditory)"
+    ],
+    "research_questions": [
+      "What were the local, specific sources for high-quality iron oxides and blues used in Shekhawati frescos, and what geological features characterized those extraction sites?",
+      "How was mineral pigment purity traditionally verified before grinding to ensure consistency across batches?"
+    ],
+    "structural_variants": [
+      "A highly fragmented structure where each short stanza focuses on a single chemical or geological property of one color (e.g., 'Yellow: Lead silicate; memory of sun-scorched silt').",
+      "Starting the poem with the resulting color, then meticulously working backward through grinding, earth, and weather to reach the raw mineral."
+    ],
+    "unused_angles": [
+      "The economic cost embedded in imported or rare pigments versus locally available earths.",
+      "A direct contemplation of how light itself changes the pigment's perceived identity after it has cured on the wall for months."
+    ],
+    "variety_note": "Unlike previous chapters that focused on physical strain or application, this chapter concentrates entirely on material origins and potential permanence, grounding the ephemeral act of painting in geological timeframes. It specifically introduces a conflict with unpredictable weather conditions not related to immediate work environment."
+  }
 }

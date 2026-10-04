@@ -51,6 +51,7 @@ Supported command families are defined by the two start-point specs. The backlog
 
 /book -o | --options | list
 /book -h | --help
+/book eval-judge [--completeness] [--effectiveness] [--book <bookname>] [--all]
 ```
 
 Do not invent alternate slash commands. Do not treat subcommand keywords as book names, chapter names, filters, or prose.
@@ -415,6 +416,20 @@ For every `/book` request:
 8. Run the required filters and validations.
 9. Promote final text to `source/books/` only after validation passes.
 10. Report what changed, what was validated, and what remains pending.
+
+### After structural changes to the framework
+
+After any change that moves, renames, retires, or adds framework files (workflows,
+agents, skills, rules, templates, or filters), run the read-only judge to confirm
+the framework is still complete and effective:
+
+```text
+/book eval-judge --all
+```
+
+The judge delegates structural audit to `.framework/rules/self-eval.md` and applies
+the routing/boundary/lifecycle checks in `.framework/workflows/eval-judge.md`. It
+never mutates files.
 
 
 

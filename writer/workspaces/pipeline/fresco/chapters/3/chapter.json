@@ -23,5 +23,40 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The Blossom",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "The performance of appreciation: how gazes change from admiration to critical ownership once the sun is up.",
+      "Reframing 'praise' as a form of transactional accounting—the public acknowledgment being a receipt, not recognition.",
+      "Adopting the perspective of an object *within* the painted scene (e.g., a flower petal, a bird) that has witnessed the morning influx of viewers."
+    ],
+    "story_options": [
+      "setting: The haveli courtyard at high noon., desire: A specific patron attempts to touch or trace a painted vine pattern with their finger., obstacle: The painter, now reluctantly present for the day's social ritual, recoils or remains hidden while the gesture occurs., turn: The gentle act of touching transforms into an almost proprietary claim over the image.",
+      "setting: A small gathering assembled by the patron in front of the finished fresco., desire: The painter is forced to be present, tasked with explaining one element of the design while trying not to look at the artwork itself., obstacle: An overly enthusiastic visitor fixes their gaze on the *technique* (the pigment application) rather than the *subject*, inadvertently highlighting the manual labor., turn: The painter finds a momentary, sharp satisfaction in this technical scrutiny because it is undeniably real.",
+      "setting: A solitary moment just as the sun clears the horizon over the town., desire: To see if the morning light reveals any of the microscopic flaws that were invisible in the deep night shadows., obstacle: The overwhelming, unfiltered brilliance of the sudden daylight washes out subtle gradations achieved through painstaking layering., turn: The painter realizes beauty is not just about perfection but about survival against erasure."
+    ],
+    "subject_rotations": [
+      "Treating the blossom as a linguistic concept—a metaphor that has become literalized on the wall, and how its meaning shifts depending on who interprets it.",
+      "Focusing strictly on the patina of morning: dust settling differently on varnished-like plaster versus raw lime wash.",
+      "Examining the *weight* of expectation; how a successful blossom places an invisible burden on future work."
+    ],
+    "sensory_details": [
+      "The abrupt, dry heat baking the sunlit plaster surface after hours in cool night humidity.",
+      "The specific metallic smell of oxidized iron pigments heated by direct morning sunlight.",
+      "The brittle, papery sound made when a child brushes against the edge of the fresco."
+    ],
+    "research_questions": [
+      "What is the established social etiquette regarding praise and critique directed at public art installations in 18th/19th century Shekhawati communities?",
+      "How does intense, direct sunlight interact chemically with traditional lime-based pigments over short exposure periods?"
+    ],
+    "structural_variants": [
+      "A sudden shift from expansive description of the wall to extremely tight focus on a single, vibrant point within the composition.",
+      "Structuring the poem as a series of echoing dialogues—the public praise repeated back by different characters until the original voice is lost."
+    ],
+    "unused_angles": [
+      "The politics of tourism/spectacle when art becomes famous; how commercial gaze differs from communal appreciation.",
+      "Exploring the concept of 'inherited failure'—how a successful piece creates pressure for equally grand, and perhaps unsustainable, successors."
+    ],
+    "variety_note": "Unlike Chapter 12 (Patron’s Eye) which focuses on initial evaluation, this chapter must capture the aftermath: the transition from the singular judgment to the public performance of approval."
+  }
 }

@@ -148,6 +148,49 @@ When the caller supplies refresh, first compare the canonical one-line gist in g
 3. **Missing gist or epic.** If either source artifact is missing, create or repair the missing artifact through the normal init path before writing book.json.
 4. **No pipeline work.** Never touch workspaces/pipeline/<bookname>/ or source/books/ during refresh.
 5. **Report the branch taken.** State whether the gist was unchanged or changed, which artifacts were written, and the chapter count and summary range updated.
+
+## The Incremental Count Rule
+
+For `layout [<count>] [<form>]` (and `init ... refresh [<count>]`):
+
+1. **Resolve the current chapter count** from the existing `book.json`
+   (`chapter_count` and the length of its `chapters` array).
+2. **If the requested count is greater than the current count — append, never
+   rewrite.** Derive only the missing chapters from `gist.md` and `storyline.md`
+   and append them to the existing `chapters` array. Each appended
+   `chapter_summary` must be a simple, form-neutral 1-4 sentence seed built from a
+   varied subject selected from the source material. Vary the opening, syntax, and
+   focus; never reuse a fixed lead-in or sentence pattern. Preserve every existing
+   chapter entry verbatim.
+3. **If `<count>` is less than or equal to the current count — change nothing.**
+   Report the current count and the requested count, and leave the `chapters`
+   array untouched. Never truncate, renumber, or re-derive existing chapters to
+   shrink the plan.
+4. **The rule holds only while the gist is unchanged.** If a `<gist>` is supplied
+   and it differs from the recorded gist, the premise itself has changed: the
+   standard init path applies (chapters re-derived from the new premise), and the
+   incremental append no longer applies.
+5. **`refresh` preserves the chapter count.** The explicit `refresh` keyword
+   re-grooms all backlog artifacts to the resolved form, but preserves the existing
+   chapter count and `chapters` array verbatim. The `chapters` array is re-derived
+   on refresh only when the form itself changes or the caller explicitly supplies a
+   new `<count>`. Refresh is not a path that resizes or renumbers the chapter plan.
+6. **Report what was done:** the previous count, the new count, the chapters
+   appended (indices and titles), and confirmation that existing chapters were
+   preserved verbatim.
+
+The same incremental rule governs `scaffold`/`layout` reconciliation: when a
+pipeline already exists and the plan only grew, never re-scaffold or re-derive
+existing chapters unless the user explicitly asks.
+
+## Refresh And Count Contract
+
+`layout` derives `book.json` from `storyline.md`; an explicit larger `<count>`
+appends missing entries and a smaller count never removes them. `init ... refresh`
+regenerates the full backlog from the premise, grounded in `materials/`. A changed
+gist or form is an explicit re-plan: it may rebuild the plan, but does not change
+an existing pipeline. Scaffold later reconciles only an append-only plan.
+
 ## The Great Idea (Idea Generation)
 
 A great idea is not a theme, a setting, or a mood. It is a **specific, concrete, dramatically charged situation** that generates scenes. Before writing a single section, construct the idea from these six elements:

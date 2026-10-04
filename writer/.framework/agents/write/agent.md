@@ -73,6 +73,52 @@ The write agent must not:
 - re-introduce section headings (the flatten rule is absolute);
 - apply a fixed form to a pipeline whose model declares another form.
 
+## Writing Guidance (delegated to the selected skill)
+
+The write agent does not author prose; the selected novel/poetry skill does. The
+following guidance is the shared writing bar the skills must honor. Form-specific
+techniques (novel storytelling, first-chapter rule) live in the novel skill.
+
+### Form shape
+
+- **Novel** — flat, continuous prose; no section headings. The modern frame scene,
+  the narrated story, and the characters' response are woven into one unbroken
+  prose flow, rewritten in the selected style.
+- **Poetry** — a single flat, continuous poetic-prose unit; no section headings;
+  generated from one topic in `bookseed.txt`, grounded in quality/theme/reference
+  from `model.json`, rendered in the selected poetic voice.
+
+### File mapping
+
+| Form | Source | Destination |
+| --- | --- | --- |
+| Novel | `chapters/<n>/chapter.md` (workshop frame per chapter) | `chapters/Introduction.md`, `1.md` … `N.md`, `Conclusion.md` |
+| Poetry | `bookseed.txt` (one topic per line) | `chapters/Chapter_XXX_[Term].md` |
+| Any | (assembled) | `book.md` at the book root |
+
+### Writing rules
+
+1. Preserve the form's structure (flat prose for novel; flat poetic prose for poetry) — no section headings.
+2. Write the chapter in the configured target language and style.
+3. Use a serious, descriptive, image-rich literary register unless the pipeline says otherwise.
+4. Reach the target word count (5,500+ words novel; 500–800 poetry) by deepening scenes, strengthening conflict, and adding embodied detail — never filler.
+5. Follow `included_characters` and `quality_parameters` (novel), or the topic and category (poetry).
+6. Weave the book's subject matter into the story (economics, politics, literature, religion, science, or any domain the pipeline provides).
+7. Highlight the protagonist's conflict and victory in a way that moves the reader.
+8. Preserve the contrast between the modern frame and the main story's setting (novel).
+9. End each chapter with a running summary or narrative handoff that pulls into the next.
+
+### Language and style
+
+The framework is language independent — read `language` from the pipeline/user, never
+assume a default. Unless the pipeline overrides:
+
+1. **Long, flowing sentences** — unfold through clauses, images, and emotional turns; use commas, semicolons, and dashes.
+2. **Rich adjectives and metaphors** — make abstract ideas physical (greed a parasitic vine, pride an uplifted cry, memory a river under silt).
+3. **Local sentiment and cultural texture** — landscapes, seasons, rituals, food, music, idioms; contrast and repetition for rhythm and emphasis.
+4. **Rhythm and sound** — an inner music; blend elevated and intimate diction.
+5. **Profound closure** — end chapters and movements with a resonant thought or image that lingers without becoming a slogan.
+
 ## Output
 
 Report the resolved form, selected skill, processed chapter scope, enrichment result and active filters when the prerequisite ran, and the writer-stage file path(s) produced.

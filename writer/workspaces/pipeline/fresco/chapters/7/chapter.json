@@ -23,5 +23,36 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The Failure",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "Examining 'failure' not as an artistic error but as a structural necessity—the way ancient architecture reveals stress fractures beneath polished surfaces.",
+      "Shifting the focus from the painter to the audience: what is the cultural willingness to accept imperfection in sacred or noble art?",
+      "Framing the act of covering up failure (the fresh coat) not as deceit, but as a deliberate, highly stylized form of censorship."
+    ],
+    "story_options": [
+      "Setting: A section of fresco where the initial lime bleed has ruined an intended celestial pattern; Desire: To deliberately paint *over* the stain with colors that mimic cosmic nebulae to disguise the flaw; Obstacle: The pigment refuses to blend smoothly into the older, compromised layers.",
+      "Setting: Just outside the haveli walls, catching a glimpse of another family's lit courtyard window while working through the night; Desire: To compare the domestic, messy reality glimpsed there with the idealized perfection being imposed on the wall; Obstacle: The heat and noise from that other life momentarily breaks the painter's concentration.",
+      "Setting: Working in a section adjacent to an older, unpainted wall, noticing how decay affects surrounding areas; Desire: To let one small patch of failure (a deliberate streak) remain visible as a marker against inevitable material entropy; Obstacle: The pressure from the patron, represented by a looming shadow, demands absolute concealment."
+    ],
+    "subject_rotations": [
+      "Treating 'failure' as an energetic event—the force that pushes back against creation, like water resisting plaster.",
+      "Focusing solely on the *materiality* of repair: how new lime interacts chemically and physically with old damage, creating a new, complex substrate.",
+      "Exploring the aesthetic concept of *wabi-sabi* as it might be adapted to this hyper-ornate, highly formalized Shekhawati tradition (the beauty found in imperfection)."
+    ],
+    "sensory_details": [
+      "The sharp, mineral tang of wet mortar where the plaster has been scraped back.",
+      "The high-pitched whine of a cricket under the thick silence between application bursts.",
+      "A fine, almost invisible powder—not charcoal, but calcified lime dust disturbed by aggressive scraping."
+    ],
+    "research_questions": [
+      "Are there specific cultural or spiritual frameworks in that region for intentionally leaving visible signs of human struggle or repair in public/sacred art?",
+      "What are the traditional implications attached to 'covering' a mistake in formalized artistic tradition—is it erasure, transformation, or sin?"
+    ],
+    "structural_variants": [
+      "A dialogue fragment (monologue) with an imaginary counterpart who *does* see the failure.",
+      "A structural pivot where the poem shifts perspective entirely from the microscopic flaw on the wall to a vast image of the sleeping city reacting unknowingly to the internal act of revision."
+    ],
+    "variety_note": "While previous chapters focused on the genesis (sketch/line) or physical toll (hand/pigment), this chapter isolates the moment of active erasure and decision, contrasting hidden damage with deliberate surface continuation. The secondary twist allows a momentary intrusion of outside domestic sound against the internal focus."
+  }
 }

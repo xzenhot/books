@@ -1,12 +1,13 @@
 ---
-name: writer
-description: A dynamic, subject-agnostic literary agent that transforms workshop narratives (novel) or topic lists (poetry) into full-length chapters. It weaves three things at runtime — Context (the reference/grounding), Style (the selected voice), and Theme (the thematic categories) — into every chapter. Scaffolding is epic-driven for novels and config-driven for poetry. Use this agent to scaffold pipelines or write/revise chapters of any book, in either prose (novel) or verse (poetry) form, in the target language requested by the book pipeline.
-tools: ["read", "write"]
+name: pipeline
+description: The authoritative Phase 2+ workflow spec for the /book pipeline. Owns scaffold onward — the filter chain, write, style, translate, enrich, form, config, add, review, humanize, and publish — operating only inside workspaces/pipeline/<bookname>/ and source/books/. It routes every command to its owning agent and defers detailed behavior to those agents and their skills; it never executes a skill directly.
 ---
 
-# The Writer Agent (Novel + Poetry)
+# The Pipeline Workflow (Phase 2 Onward)
 
-You are an accomplished writer. Your task is to turn a book pipeline's material into finished chapters under versioned folders in `source/books/<bookname>/<version>/`. A book is either a **novel** (prose) or **poetry** (verse), declared in the pipeline's `form` field.
+This workflow owns every `/book` command after the backlog phase. It is a **router**: it parses a command, resolves its owning agent (`.framework/agents/<agent>/agent.md`), and delegates — the agent then reads and applies any required skill. This file does not define skill behavior; it defines command surface, phase ordering, boundaries, and the delegation map.
+
+A book is either a **novel** (prose) or **poetry** (verse), declared in the pipeline's `form` field. The pipeline turns filter outputs into finished chapters under versioned folders in `source/books/<bookname>/<version>/`.
 
 ## Command Boundary
 
@@ -72,34 +73,60 @@ After **every** command in this workflow completes — including read-only, no-o
 
 Every subcommand keyword is literal and unambiguous. The aliases poetry and poem are synonyms of poet; the aliases chapter and story are synonyms of write.
 
-## Poetry Lifecycle Contract (Authoritative)
+## Command → Agent Routing
 
-For poetry, the following rules take precedence over older sections of this
-file and over legacy writer-stage conventions.
+This workflow routes every command to exactly one owning agent. The agent owns the
+behavior and may invoke a form-specific skill; this file only dispatches. When a
+command has an `offline` execution route, the agent resolves the command from
+`.framework/offline_registry.md` and asks the user to confirm before running.
 
-1. Scaffold is resumable. It adds only plan entries that do not already have
-chapter folders. It never replaces a chapter model, poem, progress record, or
-human override. A changed form, changed existing plan entry, removed poem, or
-changed filter chain requires an explicit migration rather than scaffold.
-2. The current poem is chapters/<n>/chapter.md. The segment version folder is
-immutable history only. Segments/1/writer is legacy storage and is never a
-source for style, translation, validation, or publication.
-3. Every write or style replacement archives and verifies the prior root draft,
-then records draft.sha256, draft.written_at, and draft.origin in the chapter
-model. It removes any old quality review.
-4. Quality reviews the actual current poem. A passed review records status,
-sha256, reviewed_at, and reviewer. Its hash must equal the current draft hash.
-5. Write and style never create reader-facing output. Publish is the only
-operation that creates source/books/<bookname>/versionN.
-6. Publish requires every planned poem to have a nonempty registered current
-draft and a matching passed quality review. It fails before version allocation
-when any poem is missing or stale. It does not create introductions,
-conclusions, or substitute placeholder material for poetry.
-7. Progress keeps written, validated, and published states separately for each
-poem. A partial write cannot mark the collection complete.
-8. Translation reads only a current, validated chapter-root draft and writes a
-pipeline derivative. Language-specific publication remains unavailable until
-the Python publisher implements it.
+| Command | Owning agent | Form-specific skill |
+|---------|--------------|---------------------|
+| `scaffold` | `.framework/agents/scaffold/agent.md` | `layout-novel` / `layout-poetry` |
+| `filter <filter>` | `.framework/agents/filter/agent.md` | `.framework/filters/<filter>/SKILL.md` |
+| `<agentname>` | `.framework/agents/<agentname>/agent.md` | (agent-selected) |
+| `enrich` | `.framework/agents/enrich/agent.md` | `enrich-novel` / `enrich-poetry` |
+| `eval` | `.framework/agents/eval/agent.md` | — (read-only) |
+| `review` | `.framework/agents/review/agent.md` | `quality-novel` / `quality-poetry` |
+| `humanize` | `.framework/agents/humanize/agent.md` | — |
+| `write` / `chapter` / `story` | `.framework/agents/write/agent.md` | `novel` / `poetry` |
+| `style` | `.framework/agents/style/agent.md` | (style template) |
+| `translate` | `.framework/agents/translate/agent.md` | — |
+| `publish` | `.framework/agents/publish/agent.md` | — |
+| `preview` | `.framework/agents/publish/agent.md` | — |
+| `form` | (workflow-level reconcile) | — |
+| `config` | (workflow-level, `model.json`) | — |
+| `add ... filter` | (workflow-level) + `.framework/agents/filter/agent.md` | — |
+| `poet` / `poetry` / `poem` | `.framework/agents/write/agent.md` | `poetry` |
+| `options` / `help` | (workflow-level, read-only) | — |
+
+Offline-capable commands (resolve from `.framework/offline_registry.md`): `scaffold`,
+`publish`, and the bulk (`*`/`all`) routes of `enrich` and `write`.
+
+## Poetry Lifecycle Contract
+
+The authoritative poetry lifecycle rules live in `.framework/rules/poetry-lifecycle.md`.
+They take precedence over legacy writer-stage conventions. Key points: scaffold is
+resumable (never replaces chapter models/poems/overrides); the current poem is
+`chapters/<n>/chapter.md` (segment `writer/` is legacy, never a source); every
+write/style replacement archives and records `draft.sha256`; quality reviews the
+actual current poem; only publish creates reader-facing output.
+
+## Rules Index
+
+Cross-cutting rules that every command and agent must honor (read the full rule
+before the command that needs it):
+
+| Rule | File | Applies to |
+|------|------|------------|
+| Command boundary & execution mode (`factory`) | `.framework/rules/command-boundary.md` | every command |
+| Next steps (mandatory after every command) | `.framework/rules/next-steps.md` | every command |
+| Poetry lifecycle contract | `.framework/rules/poetry-lifecycle.md` | poetry pipelines |
+| Mandatory draft version before overwrite | `.framework/rules/draft-versioning.md` | write / style / poet |
+| Source versioning (reader-facing output) | `.framework/rules/source-versioning.md` | write / publish |
+| Form discriminator | `.framework/rules/form-discriminator.md` | form resolution |
+| Chapter layout contract (schema + paths) | `.framework/rules/chapter-layout.md` | scaffold, all filters, write |
+| Offline command registry | `.framework/offline_registry.md` | offline-mode commands |
 
 ## Workflow Phases and Responsibilities
 
@@ -177,20 +204,11 @@ Responsibility: display the command reference and phase overview. This command i
 
 ## Form Discriminator
 
-The form is declared once, at scaffold time, in the pipeline's `form` field (`model.json`), and read everywhere else.
-
-| Signal | Novel | Poetry |
-|---|---|---|
-| **`form` field** | `"novel"` | `"poetry"` |
-| **Source of truth** | `storyline.md` (epic-driven) | `model.json` + `bookseed.txt` |
-| **Chapter structure** | flat, continuous prose | flat, continuous poetic prose |
-| **Segments per chapter** | many (`segments/1`, `segments/2`, …) | exactly one (`segments/1`) |
-| **`mood.json`** | present per chapter | absent (no moods) |
-| **Filter chain** | preset-defined (`layout-novel/SKILL.md`) | preset-defined (`layout-poetry/SKILL.md`) |
-| **Word target** | 5,500+ words | 500–800 words |
-| **Stereotype templates** | `.framework/templates/stereotypes/novel/` | `.framework/templates/stereotypes/poetry/` |
-
-The `form` field drives: stereotype template folder, filter chain, chapter structure and word target, and the source-of-truth file.
+The form is declared once at scaffold time in the pipeline's `form` field. See
+`.framework/rules/form-discriminator.md` for the full novel-vs-poetry table
+(source of truth, chapter structure, segments, `mood.json`, filter chain, word
+target, stereotype templates). The `form` field drives: stereotype template
+folder, filter chain, chapter structure and word target, and source-of-truth file.
 
 ## Core Rules
 
@@ -202,7 +220,7 @@ The `form` field drives: stereotype template folder, filter chain, chapter struc
 - **Gist vs. summary.** The gist is exactly one sentence (used for `book_long_title`). The book summary is a 5–10 sentence paragraph outlining the complete story, derived from the epic and stored as `book_summary`. When the epic changes, regenerate the gist and update `model.json`.
 - **Read before writing.** Before writing any chapter, read its seed/JSON from the pipeline's `filters/`, including `included_characters` and `quality_parameters` (novel) or the topic and category (poetry).
 - **Agents invoke skills.** Never execute a skill directly from this workflow. Route every skill-backed operation through an agent in `.framework/agents/<name>/agent.md`; the agent may then read and apply `.framework/skills/<name>/SKILL.md`. If the required agent does not exist, create that agent first, then have the agent invoke the skill.
-- **Helper scripts live in `tools/`.** During execution, if any Python or PowerShell helper script is needed (scaffold, publish, layout, translation, filtering, or any other structural operation), save it to the `tools/` folder as a reusable, parameterized tool — do **not** create it inside `workspaces/pipeline/<bookname>/` or any other working folder, and do **not** delete it after use. Prefer reusing an existing `tools/` script over writing a new one. One-off content generation (the actual prose/verse of a chapter) is authored directly, not scripted; only structural, repeatable operations belong in `tools/`.
+- **Offline commands resolve from `.framework/offline_registry.md`.** In `offline` mode, do **not** re-read or re-scan the `tools/` folder to discover commands. Consult `.framework/offline_registry.md` — the authoritative index of every offline command — to resolve the exact command, display it to the user, and ask for confirmation before running. If a new helper script is genuinely required, add it to `tools/` (never inside `workspaces/pipeline/<bookname>/`) and record it in `.framework/offline_registry.md`. Prefer reusing an existing registered script over writing a new one. One-off content generation (the actual prose/verse of a chapter) is authored directly, not scripted; only structural, repeatable operations belong in `tools/`.
 
 ## Scaffolding
 
@@ -212,7 +230,7 @@ For `/book <bookname> scaffold <gist> count|chapter-count <number> [--form novel
 
 Responsibility: build the pipeline structure from the backlog book plan and form. This phase is gated by configuration.
 
-> **Delegate to the repository CLI.** Scaffold is a structural, repeatable operation: execute it with `python tools/book.py <bookname> scaffold [count] [novel|poetry]` rather than re-implementing it. The CLI already implements scaffold (init/build/layout, scaffold, enrich, write, publish); do not create new scripts inside `workspaces/pipeline/<bookname>/`.
+> **Delegate to the repository CLI (display, don't execute).** Scaffold is a structural, repeatable operation resolved as `python tools/book.py <bookname> scaffold [count] [novel|poetry]`. In `offline` mode, **do not run Python yourself** — resolve the exact command, display it to the user, and ask whether to proceed; run it only after the user confirms. Do not hand-craft the pipeline or create new scripts inside `workspaces/pipeline/<bookname>/`.
 
 1. **Book plan is mandatory.** Before scaffolding, the init agent must have been run and `workspaces/backlog/<bookname>/book.json` must exist. If it does not exist, stop and instruct the user to run `/book <bookname> init ` first. Do not silently fall back to a default template.
 2. If the pipeline already exists, skip scaffolding and work with the existing data.
@@ -262,43 +280,15 @@ For **novels**, also scaffold `progress.json` at the book pipeline root. Use the
 
 ### Chapter layout contract
 
-The scaffold agent's `## Chapter Layout` section defines the downstream paths for all filters, chapter-writing agents, poet agents, and any skills they invoke. The model schema below is mandatory and takes precedence over conflicting model templates in that agent or its layout skills.
+The chapter model schema and chapter paths are defined in
+`.framework/rules/chapter-layout.md` — read it for the full contract. Key points:
+the required chapter fields are `chapter_index`, `name`, `word_target`,
+`chapter_title`, `chapter_summary`, `further_references` (never renamed to
+`topic`/`title`/`summary`); `chapter.md` is the live draft owned by workshop
+(create-only) and the write path; filters operate only on `chapter.json` and their
+own `filters/<filter>/` outputs; versioned/translated derivatives belong in segment
+`version/`, `writer/`, `editor/`, or `translator/` folders.
 
-#### Chapter model schema (both forms)
-
-For every entry in the cloned root model's `chapters` array, create `chapters/<name>/chapter.json` as a single JSON object copied from that entry, not an array or a book-level configuration object. Match by the entry's `name` and verify its `chapter_index`; never select an entry by an unrelated example or by array position alone. Preserve all source fields, including any additional fields present in the plan.
-
-The required base fields are `chapter_index` (integer), `name` (string), `word_target` (integer), `chapter_title` (string), `chapter_summary` (string), and `further_references` (array). Do not rename or replace them with `chapter_name`, `topic`, `title`, or `summary`. Runtime metadata such as `segments`, `level`, `state`, `syntax`, and filter history may be added without dropping or overwriting the copied source fields.
-
-For example, `workspaces/pipeline/behula/chapters/2/chapter.json` starts with the matching chapter 2 entry:
-
-```json
-{
-  "chapter_index": 2,
-  "name": "2",
-  "word_target": 500,
-  "chapter_title": "The Widow's Silence",
-  "chapter_summary": "Society arrives with its rituals and its pity, expecting a woman to be buried alive in mourning. The context turns on the refusal of that silence and the first stirring of defiance.",
-  "further_references": []
-}
-```
-
-The same schema applies to chapter 12, whose own entry (`"name": "12"`, `"chapter_title": "The Price of Medicine"`) belongs in `chapters/12/chapter.json`, not `chapters/2/chapter.json`. Named novel units such as `Introduction` and `Conclusion` likewise use their plan entry's `name` as the folder name and preserve its declared index.
-
-On an existing pipeline, preserve the incremental rule: do not re-clone over an edited root model or replace existing chapter state merely to enforce this schema. During explicitly requested repair, read existing models and fill missing source fields from the matching plan entries; preserve runtime metadata and report conflicting existing values. A full replacement requires an explicit re-scaffold request.
-
-#### Chapter paths
-
-- `chapters/<n>/chapter.md` is the live working draft. The workshop filter may create an initial draft only when the file is absent and must never read or overwrite an existing draft. Later revisions belong to the writing stage (chapter/write agents). All other filters, including enrich, must not read or modify it; they operate on `chapter.json` and their own `filters/<filter>/` inputs/outputs.
-- `chapters/<n>/chapter.json` is the runtime state for the chapter. Filters, write agents, poet agents, and supporting skills must merge their metadata here rather than inventing parallel state files.
-- `chapters/<n>/mood.json` describes how the chapter is shaped across segments and must remain the continuity/readability guide for downstream writing.
-- `chapters/<n>/segments/<x>/version/` stores verified copies of the prior `chapter.md` and writer-stage drafts before replacement, following **Mandatory Draft Version Before Overwrite**. Other metadata snapshots may remain directly under `history/`.
-- `chapters/<n>/segments/<x>/model.json` is the runtime state for that segment.
-- `chapters/<n>/segments/<x>/writer/` stores the writer-stage copy of the current chapter or segment draft.
-- `chapters/<n>/segments/<x>/editor/` stores editor comments, assessments, and quality notes.
-- `chapters/<n>/segments/<x>/translator/` stores translated outputs of the latest chapter or segment draft, named by language such as `en.md`, `hn.md`, or `bn.md`.
-
-No downstream step may create alternate chapter-version files in the chapter root unless the scaffold agent's contract is updated to allow them. The chapter root holds the live `chapter.md`; workshop may create it only when absent, while later writers archive before replacing it. Versioned or translated derivatives belong in segment `version/`, `writer/`, `editor/`, or `translator/` folders (legacy archives remain in `history/`).
 
 ## The Epic (Novel only)
 
@@ -385,16 +375,15 @@ The filter chain depends on the form. Each filter owns a folder in the pipeline'
 
 Running a filter (`/book <bookname> filter <filter> *|all|<n>`):
 
-1. Stop if the pipeline does not exist. If the pipeline is missing, the user must run `scaffold` first.
-2. Read the filter registry at `workspaces/pipeline/<bookname>/filters/filters.json` to resolve the filter name to its agent path (`agent`) and `autorun` flag (`true`/`false`). Each entry carries only `order`, `name`, `agent`, and `autorun`.
-3. Route the work through the filter agent at `.framework/agents/filter/agent.md`. The agent loads the matching filter skill directly from its folder directory — `.framework/filters/<filter>/SKILL.md` (e.g. `filter workshop` → `.framework/filters/workshop/SKILL.md`) — reads it in full, and executes it against the target chapter.
-4. Read the pipeline data the filter needs — for the target chapter, this is the chapter's `chapter.json` only (e.g. `workspaces/pipeline/lau/chapters/4/chapter.json`), plus shared inputs and upstream filter outputs. **Filters must not read `chapters/<n>/chapter.md`.** Workshop may create the initial draft without reading it; all other filters leave the live draft untouched.
-5. **Snapshot the model state before any update.** Before a filter changes a chapter model, copy the current model into `workspaces/pipeline/<bookname>/chapters/<n>/history/`. No filter may modify chapter data before its snapshot exists. Workshop creates `chapter.md` only when absent, so it does not replace or snapshot an existing draft.
-6. **Run it.** `/book <bookname> filter <filter> *|all|<n>` runs exactly the named filter, regardless of its `autorun` flag, against the selected scope: `*`/`all` for every canonical chapter in order, or `<n>` for a single chapter. There is no combined full-chain `filter` pass — each filter is run separately, by name, in order.
-7. **Update the chapter state after each filter.** After a filter runs against a chapter, update `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` to record the new state: set `state` to the filter name that just ran (e.g. `"workshop"`, `"research"`, `"theme"`, `"syntax"`, `"quality"`), and add or update a `filter_history` array entry recording `{ filter, ran_at }` so the chapter's progression through the chain is auditable. Preserve all other fields; merge, never overwrite.
-8. **Responsibility boundary:** `filter` is read/write on the chapter's `chapter.json`/`model.json` and its own `filters/` outputs. Only workshop may create `chapters/<n>/chapter.md`, and only when absent; no filter may read it or overwrite it. Because scaffold does not pre-create filter folders, the filter creates its own `filters/<filter>/` folder and required artifacts on first run. Workshop does not need a `content-output.md`; its initial `chapter.md` is its eval-visible output.
-
-Filters must also obey the chapter layout contract: only workshop may create the live `chapter.md`, and only if absent. Other filters leave it untouched. Commentary goes to `segments/<x>/editor/`, translations to `segments/<x>/translator/`, and any replaced writer-stage draft is archived by the writing agents.
+1. Stop if the pipeline does not exist; the user must run `scaffold` first.
+2. Route the work through the filter agent at `.framework/agents/filter/agent.md`. The
+   agent loads the filter skill from `.framework/filters/<filter>/SKILL.md`, snapshots
+   the chapter model into `history/` before any update, runs the named filter, and
+   records `state` + a `filter_history` entry in `chapter.json`. Only workshop may
+   create `chapters/<n>/chapter.md`, and only when absent; no filter reads or
+   overwrites it.
+3. Each filter is run separately, by name, in chain order; there is no combined
+   full-chain `filter` pass.
 
 ## The Enrich Command
 
@@ -406,309 +395,192 @@ Responsibility: fuse the active filters into one combined agent and run it in a 
 - `range` — a `start-end` range targets those chapters inclusive (e.g. `enrich 3-7` → chapters 3,4,5,6,7).
 - `*` (or `all`) — targets every canonical chapter in order.
 
-**Execution route (scope-dependent).** If the target is `*` or `all`, delegate to the repository CLI as a structural, repeatable operation: execute `python tools/book.py <bookname> enrich [all|*]` rather than re-implementing it. The CLI already implements the enrich engine; do not create new scripts inside `workspaces/pipeline/<bookname>/`. For any other target — a single chapter (`<n>`), a `start-end` range, a `<count>`, or `continue` — execute the work **agentically**: invoke the enrich agent at `.framework/agents/enrich/agent.md` directly and do not delegate to any Python file.
+**Execution route (scope-dependent).** If the target is `*` or `all`, delegate to the repository CLI: resolve the command `python tools/book.py <bookname> enrich [all|*]`. In `offline` mode, **display that command and ask the user to confirm before running it** — do not execute Python yourself. For any other target — a single chapter, a range, a `<count>`, or `continue` — execute agentically via the enrich agent.
 
-1. Stop if `workspaces/pipeline/<bookname>/` does not exist; use `scaffold` first.
-2. Read the filter registry at `workspaces/pipeline/<bookname>/filters/filters.json`. Resolve the **active** filters — every entry whose `autorun` is `true` — sorted by `order`. If none are active, stop and report that there is nothing to combine.
-3. Route the work through the enrich agent at `.framework/agents/enrich/agent.md`. The agent reads each active filter's `agent.md`, fuses their task/method/rules into one ordered instruction set, and applies it in a single pass.
-4. Resolve the target chapter(s) from `<count>`, `range`, or `*` (see above).
-5. For each target chapter, the combined agent reads **only** `chapters/<n>/chapter.json` (e.g. `workspaces/pipeline/lau/chapters/4/chapter.json`) plus the active filters' own outputs under `filters/`, and applies the fused guidance in `order` sequence. Enrich — like every filter — must not read `chapters/<n>/chapter.md`; workshop may create it only when absent; later revisions belong to the chapter/write agents.
-6. The combined agent updates `chapters/<n>/chapter.json` with `state: "enriched"` and an `enrich` record listing the fused filter names in order. It does not write per-filter `content-input.md`/`content-output.md` files, does not write to `source/books/`, does not touch `chapter.md`, and does not overwrite unrelated `chapter.json` fields.
-7. Report the resolved active filters, the fused order, the chapters processed, and the resulting `state`.
+1. Stop if the pipeline does not exist; use `scaffold` first.
+2. Route the work through the enrich agent at `.framework/agents/enrich/agent.md`. The
+   agent reads the active (`autorun: true`) filters from `filters/filters.json`, fuses
+   them into one ordered pass over each chapter's `chapter.json` (never `chapter.md`),
+   and records `state: "enriched"` + an `enrich` record of the fused filter names.
 
-The enrich command is a single-pass fusion of the active filter chain, not a replacement for the individual `filter` command. It never reads the backlog or the epic; it works only from the chapter's own files and the active filter agents.
+The enrich command is a single-pass fusion of the active filter chain, not a replacement for the individual `filter` command. It never reads the backlog or the epic.
 
 ## The Eval Command
 
 For `/book <bookname> eval all|*|<n>|<range>|continue`:
 
-Responsibility: evaluate whether the pipeline is complete enough to `write` and `publish`, and report exactly what is missing. This command is **read-only** — it routes through the eval agent at `.framework/agents/eval/agent.md`, which inspects state and reports a verdict without mutating anything.
+Responsibility: evaluate whether the pipeline is complete enough to `write` and
+`publish`, and report exactly what is missing. This command is **read-only**.
 
-- `all` / `*` — evaluate every chapter in the plan (default when no scope is supplied).
-- `<n>` — a single chapter number.
-- `<range>` — e.g. `1-5`.
-- `continue` — the first chapter not yet marked `completed` (or the whole book if all are completed).
-
-1. Stop if `workspaces/pipeline/<bookname>/` does not exist; use `scaffold` first.
-2. Route the work through the eval agent at `.framework/agents/eval/agent.md`. The agent reads the book plan, `progress.json`, `filters/filters.json`, chapter models, chapter drafts, and filter outputs, then reports per-chapter write-readiness, validation, and publish-readiness.
-3. The agent is read-only: it never scaffolds, runs filters, writes chapters, mutates `chapter.json`/`chapter.md`, updates `progress.json`, or touches `source/books/`.
-4. Report the readiness table and blockers. Do not run `write` or `publish` from this command — it only tells the user whether those steps are safe.
-
-Run `eval` before `write` or `publish` to confirm the pipeline is complete; a chapter is publish-ready only when it is written, its quality review passed, and its draft hash is still current.
+1. Stop if the pipeline does not exist; use `scaffold` first.
+2. Route the work through the eval agent at `.framework/agents/eval/agent.md`. The
+   agent reads the book plan, `progress.json`, `filters/filters.json`, chapter
+   models/drafts, and filter outputs, then reports per-chapter write-readiness,
+   validation, and publish-readiness. It never mutates anything.
+3. Report the readiness table and blockers. Do not run `write` or `publish` from
+   this command.
 
 ## The Review Command
 
 For `/book <bookname> review *|all|<n>`:
 
-Responsibility: audit chapters against the seed analysis's quality parameters via the review agent at `.framework/agents/review/agent.md`. This is the **quality gate** — a chapter is not complete and not eligible for publish until it has passed review. The review agent is form-aware and routes to the quality-novel or quality-poetry skill.
+Responsibility: audit chapters against the seed analysis's quality parameters — the
+**quality gate** before publish.
 
-- `all` / `*` — review every chapter in the plan (default).
-- `<n>` — a single chapter number.
-- `continue` — the first chapter not yet marked `completed` (or the whole book if all are completed).
-
-1. Stop if `workspaces/pipeline/<bookname>/` does not exist; use `scaffold` first.
-2. Read the pipeline form from `book.json` or `model.json` to determine novel or poetry.
-3. Route the work through the review agent at `.framework/agents/review/agent.md`. The agent dispatches to `.framework/skills/quality-poetry/SKILL.md` (poetry) or `.framework/skills/quality-novel/SKILL.md` (novel).
-4. Resolve the target chapter(s):
-   - `all` / `*` — every canonical chapter in order.
-   - `<n>` — that numbered chapter.
-   - `continue` — the first chapter that is written but has no passed `quality_review`.
-5. For each target chapter, the review agent reads the chapter's model, the chapter draft (`chapters/<n>/chapter.md`), the pipeline `style.md`, and the seed quality parameters. It audits the draft against those parameters.
-6. On pass, the review agent records `quality_review` in the chapter model with `status: "passed"`, `sha256` of the draft, `reviewed_at`, and `reviewer`. It sets `state` to `"completed"`.
-7. On fail, the review agent reports the specific quality violations and leaves the chapter state unchanged so revisions can be made.
-8. The review agent must not: write final output to `source/books/`, run any earlier filter, or read the backlog/epic.
-9. Report the resolved form, selected skill, processed chapter scope, and the chapter-model paths updated with `quality_review`.
-
-A chapter is publish-ready only when it is written, its quality review passed, and its draft hash is still current. Do not run `publish` from this command — it only audits and records results.
+1. Stop if the pipeline does not exist; use `scaffold` first.
+2. Route the work through the review agent at `.framework/agents/review/agent.md`,
+   which resolves the form and dispatches to `quality-poetry` or `quality-novel`.
+   On pass it records `quality_review` (`status: "passed"`, `sha256`,
+   `reviewed_at`, `reviewer`) and sets `state: "completed"`; on fail it reports
+   the violations and leaves the chapter unchanged.
+3. Report the resolved form, selected skill, scope, and updated chapter models.
 
 ## The Humanize Command
 
 For `/book <bookname> humanize *|all|<n>`:
 
-Responsibility: ensure the chapter draft is entirely in the target language (Bengali). Scan for non-relevant foreign-language characters — Chinese, Urdu, Latin scripts embedded within Bengali text — and replace them with their Bengali equivalents, producing clean continuous verse. This is the language-polish step that runs after quality review and before publish.
+Responsibility: ensure the chapter draft is entirely in the target language
+(Bengali), replacing any foreign-language characters with Bengali equivalents. Runs
+after quality review and before publish.
 
-- `all` / `*` — humanize every chapter in the plan (default).
-- `<n>` — a single chapter number.
-- `continue` — the first chapter that has been written but not yet humanized.
-
-1. Stop if `workspaces/pipeline/<bookname>/` does not exist; use `scaffold` first.
-2. Route the work through the humanize agent at `.framework/agents/humanize/agent.md`.
-3. For each target chapter:
-   - Read the chapter model at `chapters/<n>/chapter.json`.
-   - Verify `quality_review.status` is `"passed"` and `quality_review.sha256` matches the current draft hash. Stop if quality has not passed.
-   - Read the chapter draft `chapters/<n>/chapter.md`.
-   - Scan the draft for non-Bengali characters outside quotation marks.
-   - Replace each foreign-language character with the correct Bengali equivalent, making the text continuous.
-   - Leave characters inside quotes (`"..."` or `'...'`) untouched.
-   - Archive the prior draft to `history/humanize_<timestamp>.md`.
-   - Write the humanized draft back to `chapter.md`.
-   - Update the chapter model: set `humanized: true`, `humanized_at` (ISO 8601), and update `draft.sha256`.
-4. Do not modify `source/books/`, `progress.json`, or the backlog/epic.
-5. Report the chapter numbers processed and the number of foreign characters replaced.
-
-A chapter must be humanized before publish. Do not run `publish` from this command — it only polishes language.
+1. Stop if the pipeline does not exist; use `scaffold` first.
+2. Route the work through the humanize agent at `.framework/agents/humanize/agent.md`,
+   which verifies a passed `quality_review`, archives the prior draft to
+   `history/humanize_<timestamp>.md`, rewrites `chapter.md`, and records
+   `humanized: true` + a new `draft.sha256` in the chapter model.
+3. Report the chapters processed and the number of foreign characters replaced.
 
 ### The human-in-the-loop override filter
 
-`override` is a **custom filter created by the human**. It is present in both the novel and poetry chains. The workflow does not generate its instructions; instead, it looks for a human-edited override document inside the pipeline and applies it as a transformation layer.
+`override` is a **custom filter created by the human**, present in both the novel
+and poetry chains. The workflow does not generate its instructions; it applies a
+human-edited command file.
 
-| Form | Override file | Mediated by | Purpose |
-|---|---|---|---|
-| Novel | `workspaces/pipeline/<bookname>/filters/override/filter.md` | `.framework/filters/override/SKILL.md` | Human transformation instructions applied to chapters after syntax. |
-| Poetry | `workspaces/pipeline/<bookname>/filters/override/filter.md` | `.framework/filters/override/SKILL.md` | Human transformation instructions applied to poems after syntax. |
+| Form | Override file | Mediated by |
+|---|---|---|
+| Novel | `workspaces/pipeline/<bookname>/filters/override/filter.md` | `.framework/filters/override/SKILL.md` |
+| Poetry | `workspaces/pipeline/<bookname>/filters/override/filter.md` | `.framework/filters/override/SKILL.md` |
 
-1. The override filter runs as a normal filter step (position 7 in novels, position 5 in poetry). It is listed in `filters/filters.json` like any other filter.
-2. The override agent reads the human-edited file, not a generated skill output. If the file is missing or empty, the agent passes input through unchanged.
-3. A human creates `filter.md` (both forms) by editing the file directly. The scaffold step pre-seeds `filters/override/filter.md` with form-customized content derived from `.framework/filters/override/SKILL.md`, so the human edits a ready-made command file instead of starting from scratch (see the scaffold command, step 9). Typical contents: "make every chapter's closing sentence a question", "replace all naval jargon with plain speech", "add a Gibran-style benediction to each poem", "remove any reference to named politicians", "shift register from reportage to elegy".
-4. The agent applies those instructions to the upstream filter output and writes the transformed result to the filter's output file (`filters/override/content-output.md`, both forms).
-5. Because the instructions are human-authored, the override filter is intentionally a **creative/custom step**, not a deterministic skill. It can be rerun after a human edits the file.
-6. **The command file must always be present.** Scaffold seeds `filters/override/filter.md`; the chapter and poet agents read this same file and apply its `## Instructions` as the final transformation layer when writing chapter content. If a step ever finds it missing, it re-seeds the baseline from `.framework/filters/override/SKILL.md`. The chapter and poet agents never read the backlog `workspaces/backlog/<bookname>/override.md` — that file is only a planning copy.
-
-The `quality` filter is also human-in-the-loop, but its role is audit and gatekeeping rather than transformation.
+Key points: the override filter runs as a normal chain step; the agent reads the
+human-edited `filter.md` (passes through unchanged when missing/empty); scaffold
+pre-seeds it from `.framework/filters/override/SKILL.md`; the chapter and poet
+agents read the same file and apply its `## Instructions` as the final layer. The
+command file must always be present — if missing, re-seed its baseline. The
+`quality` filter is also human-in-the-loop, but its role is audit/gatekeeping.
 
 ## The Stereotype Selection
 
-Every chapter is rendered in its form's voice. The theme and syntax filters select from the stereotype templates:
+Every chapter is rendered in its form's voice. The theme and syntax filters select
+from the stereotype templates:
 
-- **Signature** — the voice that renders the chapter: `.framework/templates/stereotypes/<form>/signatures/`
-- **Reference** — the source text for grounding: `.framework/templates/stereotypes/<form>/references/`
-- **Theme set** — the philosophical lens: `.framework/templates/stereotypes/<form>/themes/`
-- **Syntax sample** — the target sentence structure: `.framework/templates/stereotypes/<form>/syntax/`
+- **Signature** — `.framework/templates/stereotypes/<form>/signatures/`
+- **Reference** — `.framework/templates/stereotypes/<form>/references/`
+- **Theme set** — `.framework/templates/stereotypes/<form>/themes/`
+- **Syntax sample** — `.framework/templates/stereotypes/<form>/syntax/`
 
-Read the `registry.md` in each folder to discover options, then read the chosen file for the full definition. Selections must be mutually consistent — same form, and where possible the same author or tradition.
+Read the `registry.md` in each folder to discover options, then the chosen file for
+the full definition. Selections must be mutually consistent.
+
 ## The Poet Command
 
 For `/book <bookname> poet` (aliases: `poetry`, `poem`):
 
-Responsibility: invoke the write agent (`.framework/agents/write/agent.md`) to produce a single finished poem from the human-authored custom override file, in the configured poetic voice and language.
+1. Stop if the pipeline does not exist; use `scaffold` first. Stop if the form is
+   not `poetry`.
+2. Route through the write agent (`.framework/agents/write/agent.md`) to produce a
+   single finished poem from the override command file, in the configured voice and
+   language. Write the result to `source/books/<bookname>/<version>/poem.md` (or
+   `poems/override.md` if present); do not overwrite a human-edited poem.
 
-1. Stop if `workspaces/pipeline/<bookname>/` does not exist; use `scaffold` first.
-2. Stop if the pipeline `form` is not `poetry`; report that this command is only available for poetry pipelines.
-3. Read the override instructions from `workspaces/pipeline/<bookname>/filters/override/filter.md` — the override command file, present in every pipeline after scaffold; if it is missing, recreate its baseline from `.framework/filters/override/SKILL.md` (form-customized) first.
-4. Read `model.json` and `bookseed.txt` for voice, reference, theme, quality parameters, and topic list.
-5. Route the writing work through the write agent at `.framework/agents/write/agent.md` — the form-aware chapter writer that resolves the book's form and writes the chapter content from the chapter's metadata. The agent may invoke `.framework/skills/poetry/SKILL.md` or another skill as needed.
-6. Write the resulting poem to `source/books/<bookname>/<version>/poem.md` (or `poems/override.md` if the pipeline already has a poems output folder). Do not overwrite an existing human-edited poem unless the user asks.
-7. Report the poem topic, word count, and output path.
-
-The write agent and any skill it invokes must obey the chapter layout contract: `chapter.md` remains the live working draft, writer-stage revisions live under `segments/1/writer/`, any replaced writer draft is archived to `history/`, and translations belong only under `segments/1/translator/`.
 ## The Style Command
 
 For `/book <bookname> style [<style>]`:
 
-Responsibility: apply a named transformer style to the latest writer-stage chapter drafts in an existing pipeline, producing new writer-stage versions. Style work is routed through the style agent at `.framework/agents/style/agent.md`.
+1. Stop if the pipeline does not exist; use `scaffold` first.
+2. Route through the style agent (`.framework/agents/style/agent.md`), which
+   resolves `<style>` (default `pijush`) from
+   `.framework/templates/stereotypes/poetry/styles/<style>/style.md`, transforms
+   the current draft (delegating to the enrich agent when no writer-stage draft
+   exists), and writes a new writer-stage version. It never modifies chapter-root
+   `chapter.md`, writes to `source/books/`, or updates `progress.json`.
+3. Report the selected style, chapters transformed, and output version paths.
 
-- `<style>` is optional. If omitted, use `pijush`.
-- Resolve the transformer from `.framework/templates/stereotypes/poetry/styles/<style>/style.md`.
-- If the style folder contains `signature.md`, read it as the authority for resolving ambiguity in `style.md`.
-
-1. Stop if `workspaces/pipeline/<bookname>/` does not exist; use `scaffold` first.
-2. Resolve `<style>` to `.framework/templates/stereotypes/poetry/styles/<style>/style.md`. If it is missing, report the available folders under `.framework/templates/stereotypes/poetry/styles/`.
-3. Read the style agent, then read the transformer `style.md`. If `style.md` directs the agent to consult another file such as `signature.md`, read that file too.
-4. For the target chapter, select the highest numbered `chapter_v*.md` in `segments/1/writer/`; if none exists, use writer `chapter.md`. If neither writer-stage source exists (including a missing or empty writer folder), require `chapters/<n>/chapter.md`, archive it and its model, and invoke `.framework/agents/enrich/agent.md` for only that chapter under the style agent's enrichment prerequisite. Re-read the enriched draft and model before styling. Stop and report if no source exists or enrichment fails; do not bypass enrichment. Transform one chapter per invocation, as required by the style agent.
-5. Write the transformed result as the next unused `chapter_v*.md` inside the target chapter's `segments/1/writer/` folder, creating that folder if missing. When falling back to the chapter-root draft with no writer-stage draft, start at `chapter_v1.md`. Never overwrite an existing writer version or write the styled result over the chapter-root source.
-6. The style transformation must not modify chapter-root `chapter.md` or write to `source/books/`. Only the delegated enrich prerequisite may update the chapter-root draft and model after archiving. Do not run filters directly or update `progress.json`.
-7. Report the selected style, chapters transformed, skipped chapters, and output version paths.
-
-The style command is a creative transformer pass, not a validation gate. It prepares improved writer-stage variants for later write, translate, or review commands.
 ## The Translate Command
 
 For `/book <bookname> translate <n>|all|continue <language>`:
 
-Responsibility: translate the latest writer-stage chapter version for one or more chapters and write the translated derivative into the chapter's translator folder. Translation work is routed through the translate agent at `.framework/agents/translate/agent.md`.
-
-1. Stop if `workspaces/pipeline/<bookname>/` does not exist; use `scaffold` first.
-2. Resolve target chapter(s) (`1..N`, `all`, or `continue`). A bare number targets that chapter folder. `all` targets every canonical chapter in order. `continue` targets the first chapter that has a chapter draft but no translator output for `<language>`.
-3. For each target chapter, read the live working draft from `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`. If it does not exist, stop for that chapter and report the missing chapter draft.
-4. Create `workspaces/pipeline/<bookname>/chapters/<n>/segments/1/translator/` if it is missing.
-5. Translate the selected source into `<language>`, preserving markdown headings, structure, voice, register, metaphor, and section order.
-6. Write the translated output to `workspaces/pipeline/<bookname>/chapters/<n>/segments/1/translator/<language>.md`, using a normalized lowercase language slug (for example `english.md`, `hindi.md`, `bengali.md`, `en.md`, `hi.md`, or `bn.md`). If the target file already exists, archive it first to `workspaces/pipeline/<bookname>/chapters/<n>/history/` with a timestamped filename.
-7. Do not modify `chapters/<n>/chapter.md`, do not write to `source/books/`, and do not update `progress.json` unless a future workflow explicitly adds translation progress tracking.
-
-The translate agent and any skill it invokes must treat `chapters/<n>/chapter.md` as the only source for translation and `segments/1/translator/` as the only destination.
+1. Stop if the pipeline does not exist; use `scaffold` first.
+2. Route through the translate agent (`.framework/agents/translate/agent.md`), which
+   reads the validated current draft at `chapters/<n>/chapter.md` and writes the
+   derivative to `segments/1/translator/<language>.md` (archiving any prior
+   translation). It never modifies `chapter.md`, `source/books/`, or `progress.json`.
+3. Report the translated chapter(s) and output paths.
 ## Mandatory Draft Version Before Overwrite
 
-Every write agent, poet agent, and any delegated skill or helper that replaces an existing `chapter.md` MUST preserve the previous file in a new version folder **before** opening the live file for writing, truncating it, or replacing it. This applies to direct agent calls, revisions, retries, `write all`, and `write continue`, not only the top-level write command.
-
-1. Read the existing draft and retain its original bytes. If `chapter.md` does not exist, this is a first write and no prior-version copy is required. An existing empty file must still be archived.
-2. Resolve the owning segment `<x>`: poetry always uses `1`; novels use the actual segment number (`1`, `2`, ...), incrementing as the chapter advances through its segments. A revision does not itself advance the segment number. If the owning novel segment is ambiguous, require an explicit segment selection.
-3. Copy the previous chapter bytes to `workspaces/pipeline/<bookname>/chapters/<n>/segments/<x>/version/chapter_v<k>.md`. Choose `<k>` as one greater than the highest existing chapter revision, starting at `1`, and create the file exclusively; on a collision, choose the next unused number. Never overwrite or move existing copies.
-4. Read the archived copy back and verify byte-for-byte equality with the previous live file. If the copy or verification fails, stop that chapter without overwriting the live draft or marking the write complete.
-5. Immediately before replacement, verify that the live file still matches the bytes archived. If another process or agent changed it, stop and re-read the latest file rather than overwriting an unarchived revision. Save the new draft through a temporary file and atomic replacement only after the archive is verified.
-6. Take a new snapshot before every subsequent replacement, including another revision within the same invocation. A previously published version, a backup of `model.json`, or the newly generated text does not substitute for a copy of the actual draft being replaced.
-7. Report each overwritten draft's archive path alongside its new output path. A successful write requires the prior-version copy whenever a previous draft existed.
-
-These are pipeline draft versions, separate from the reader-facing versions under `source/books/`. They do not promote unfinished text or bypass validation. This workflow explicitly authorizes a `version/` folder under each segment and takes precedence over less specific archive instructions in writing agents and skills.
+See `.framework/rules/draft-versioning.md` for the full contract. Every write agent,
+poet agent, and any delegated skill or helper that replaces an existing `chapter.md`
+must archive the prior bytes to `segments/<x>/version/chapter_v<k>.md` and verify
+byte-for-byte equality **before** overwriting the live draft. These are pipeline
+draft versions, separate from reader-facing `source/books/` versions.
 
 ## Source Versioning
 
-Reader-facing output is always versioned. The workflow must never write finished chapters directly under `source/books/<bookname>/` or an unversioned `source/books/<bookname>/chapters/` folder.
-
-For every `/book <bookname> write <n>|range|all|continue <language>` invocation:
-
-1. Resolve the final output root as `source/books/<bookname>/`.
-2. Inspect existing numeric child folders under that root.
-3. Choose `<version>` as one greater than the highest numeric folder, or `1` if none exist.
-4. Create `source/books/<bookname>/<version>/chapters/`.
-5. Write all chapters selected by this invocation into that version's `chapters/` folder.
-6. Assemble that version's consolidated book at `source/books/<bookname>/<version>/book.md`.
-7. Report the version number and version folder.
-
-Existing versions are immutable reader-facing snapshots. Do not overwrite files in an older version unless the user explicitly names that version and asks for repair.
+See `.framework/rules/source-versioning.md` for the full contract. Reader-facing
+output is always versioned under `source/books/<bookname>/<version>/`; the next
+version is one greater than the highest existing numeric folder (`1` when none).
+Existing versions are immutable snapshots.
 ## The Write Command
 
 For `/book <bookname> write <n>|range|all|continue <language>` (aliases: `chapter`, `story`):
 
-Responsibility: turn pipeline filter outputs into finished reader-facing chapters and update progress. Writing work is dispatched through the **write agent** (`.framework/agents/write/agent.md`), which resolves the book's form and routes each chapter to the **poetry skill** (`.framework/skills/poetry/SKILL.md`) for poetry or the **novel skill** (`.framework/skills/novel/SKILL.md`) for novels.
+Responsibility: turn pipeline filter outputs into finished reader-facing chapters and
+update progress.
 
-> **Execution route (scope-dependent).** If the target is `*` or `all`, delegate to the repository CLI as a structural, repeatable operation: resolve `<style>` (see §3.5), then execute `python tools/book.py <bookname> write [all|*] --style NICK` rather than re-implementing it. The CLI already implements the bulk write engine; do not create new scripts inside `workspaces/pipeline/<bookname>/`. For any other target — a single chapter (`<n>`), a `start-end` range, or `continue` — execute the work **agentically**: route the chapter to the form-resolved **write agent**, which authors the prose/verse directly — do not delegate to any Python file. The authored content always comes from the write agent; the CLI is only the bulk runner.
+**Execution route (scope-dependent).** If the target is `*` or `all`, delegate to
+the repository CLI: resolve the command
+`python tools/book.py <bookname> write [all|*] --style NICK`. In `offline` mode,
+**display that command and ask the user to confirm before running it** — do not
+execute Python yourself. For any other target — a single chapter, a range, or
+`continue` — execute agentically via the write agent.
 
 1. Stop if the pipeline does not exist; use `scaffold` first.
-2. Stop if upstream filters for the target chapter(s) are missing; require the relevant filter outputs in `workspaces/pipeline/<bookname>/filters/`.
-3. Resolve target chapter(s) (`1..N`, `all`, `range`, or `continue`).
-4. **Resolve the book form and select the writing agent.** Read the pipeline `model.json` `form` field and route every target chapter to the **write agent** at `.framework/agents/write/agent.md`, which resolves the form and dispatches to the poetry or novel skill. Stop with a clear error if the form is missing or unsupported — never guess between prose and verse.
-5. Ensure the override command file is always present: `workspaces/pipeline/<bookname>/filters/override/filter.md` is created at scaffold time; if it is missing, recreate its baseline by seeding it from `.framework/filters/override/SKILL.md` (form-customized, empty `## Instructions`) before continuing.
-6. For each target chapter, require the **Mandatory Draft Version Before Overwrite** contract for the existing live `chapter.md` the agent will replace, then route the writing work through **the write agent** (`.framework/agents/write/agent.md`). The agent reads the chapter `model.json`, `mood.json` (novel), `characters.json`/`book.json`, the epic (novel) or `bookseed.txt` (poetry), and the override command file `workspaces/pipeline/<bookname>/filters/override/filter.md`.
-7. Before invoking the resolved writing agent, allocate a new output version folder: inspect `source/books/<bookname>/` for numeric child folders, choose the next integer (`1` when none exist), and create `source/books/<bookname>/<version>/chapters/`. The agent writes the finished chapter to `source/books/<bookname>/<version>/chapters/<n>.md` in the configured language and style, preserving the frame sections and applying the override command file's `## Instructions` (if any) as the final transformation layer.
-8. **Author the working draft at the chapter root.** The writing agent authors the live draft at `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`: if it does not exist, create it; if it already exists, archive the prior copy to `workspaces/pipeline/<bookname>/chapters/<n>/segments/1/version/chapter_v<k>.md` (per **Mandatory Draft Version Before Overwrite**) before overwriting. Do **not** write the draft into `segments/1/writer/` — the writer folder is not used by the write path.
-9. Update `progress.json` after each completed chapter.
-10. Do not run filter agents during this phase; their outputs are inputs here.
-
-The form-resolved write agent and any skill it invokes must treat `chapters/<n>/chapter.json` as the authoritative runtime metadata file, `chapters/<n>/chapter.md` as the live working draft (created if absent by workshop; authored or revised here, never read as a source), and `segments/1/version/` as the archive for replaced drafts. `segments/1/writer/` is not used by the write path.
+2. Route the writing work through the write agent (`.framework/agents/write/agent.md`),
+   which resolves the form, routes to the poetry/novel skill, flattens the chapter
+   model into `context.md`, authors the live draft at `chapters/<n>/chapter.md`
+   (archiving any prior copy per `.framework/rules/draft-versioning.md`), and never
+   writes to `segments/1/writer/`. Reader-facing output is versioned per
+   `.framework/rules/source-versioning.md`.
+3. Update `progress.json` after each completed chapter. Do not run filter agents here.
 
 ## The Publish Command
 
 For `/book <bookname> publish [<language>]`:
 
-> **Delegate to the repository CLI.** Publish is a structural, repeatable operation: execute it with `python tools/book.py <bookname> publish [language]` rather than re-implementing it. The CLI already implements the publish/promotion engine; do not create new scripts inside `workspaces/pipeline/<bookname>/`.
-
-Responsibility: promote the latest writer-stage (or translator-stage) segments to the reader-facing `source/books/` tree and assemble the consolidated book. This work is **routed through the publish agent at `.framework/agents/publish/agent.md`** — the workflow resolves the command arguments and delegates; the agent owns the copy and assembly logic. Output is **versioned**: every publish creates a new folder `source/books/<bookname>/version<k>/` (choose `<k>` as one greater than the highest existing `version<k>` folder, or `1` if none exist), so multiple published versions coexist side by side. The command is **read-only on the pipeline** — it copies content, never rewrites it, and never runs filters or the write agent. If not content found in translation, return latest from writer directory.
+> **Delegate to the repository CLI (display, don't execute).** Publish is a
+> structural, repeatable operation resolved as `python tools/book.py <bookname>
+> publish [language]`. In `offline` mode, **do not run Python yourself** — resolve
+> the exact command, display it to the user, and ask whether to proceed; run it only
+> after the user confirms.
 
 1. Stop if the pipeline does not exist; use `scaffold` first.
-2. Route through the **publish agent** (`.framework/agents/publish/agent.md`), passing the book name, the optional `<language>`, and the target-chapter scope (`all` publishes every chapter with a usable segment; `continue` starts from the first chapter not yet published).
-3. The agent allocates the version folder: it inspects `source/books/<bookname>/` for existing `version<k>` child folders, takes the highest `<k>`, and creates `source/books/<bookname>/version<k+1>/` (use `version1` when none exist), including its `chapters/` subfolder. All output of this invocation goes into that folder; never overwrite a different version's files.
-
-### Without `<language>` (writer-stage publish)
-
-4. For each target chapter, the agent reads the live working draft from `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`. Chapters whose chapter draft is missing are skipped and reported.
-5. The agent copies that chapter content into the version's chapter source folder: `source/books/<bookname>/version<k>/chapters/<n>/chapter.md` (create the folder for each chapter `<n>` on first publish; within this new version, overwrite freely — other versions remain immutable).
-6. The agent copies any chapter metadata record alongside as `source/books/<bookname>/version<k>/chapters/<n>/chapter.json`.
-
-### With `<language>` (translator-stage publish)
-
-7. For each target chapter, the agent reads the latest translator-stage segment from `workspaces/pipeline/<bookname>/chapters/<n>/segments/1/translator/` (pick the file matching the requested language, e.g. `en.md`, `bn.md`, `hi.md`; if no exact match exists, the chapter is skipped and the missing translation is reported).
-8. The agent copies that translated segment to the language-related folder of the chapter in the new version: `source/books/<bookname>/version<k>/chapters/<n>/<language>/chapter.md` (create folders on first publish).
-
-### Assembly
-
-9. The agent assembles the consolidated book at `source/books/<bookname>/version<k>/book.md` (the version root, alongside the `chapters/` folder) from the published chapters in canonical order (`Introduction`, `1..N`, `Conclusion` for novels; `bookseed.txt` order for poetry). When a `<language>` was published, it assembles the translated book at `source/books/<bookname>/version<k>/book_<language>.md` using that language's chapters.
-10. The agent updates `progress.json` (e.g. `published`, `published_at`, `published_version`, `published_language`) without resetting filter or write state, and returns the output contract: version folder, published/skipped counts, assembled book paths.
-11. Do not modify anything under `workspaces/pipeline/` other than `progress.json`; do not run filters, styles, or translations here. Never mutate files under an existing `version<k>` folder other than the newly created one.
+2. Route through the publish agent (`.framework/agents/publish/agent.md`), passing
+   the book name and optional `<language>`. The agent owns version allocation,
+   writer-stage or translator-stage promotion, `book.md` assembly, and the
+   `progress.json` update — see its `## Online (Agentic) Publish` section for the
+   full step contract. It is read-only on the pipeline; it writes only to
+   `source/books/`.
+3. The agent may apply the optional **framework health gate** — when
+   `publish_gate_framework_health: true` is set in `book.json`, a judge score of
+   49 or below (`Broken`/`Inoperable`) refuses the publish. Disabled by default.
 
 ## Writing the Chapters
 
-### Novel
-
-Each chapter is written as **flat, continuous prose** — no section headings. The modern frame scene, the narrated story (the main material), and the characters' response are woven into a single unbroken prose flow, rewritten in the selected style so it becomes deeper, more vivid, and more emotionally resonant.
-
-### Poetry
-
-Each chapter is a single **flat, continuous poetic-prose** unit — no section headings — generated from one topic in `bookseed.txt`, grounded in the quality/theme/reference from `model.json`, and rendered in the selected poetic voice.
-
-### File mapping
-
-| Form | Source | Destination |
-| --- | --- | --- |
-| Novel | `chapters/<n>/chapter.md` (workshop frame per chapter) | `chapters/Introduction.md`, `1.md` … `N.md`, `Conclusion.md` |
-| Poetry | `bookseed.txt` (one topic per line) | `chapters/Chapter_XXX_[Term].md` |
-| Any | (assembled) | `book.md` at the book root |
-
-### Assembling the book
-
-After all selected chapters for a write invocation are written, assemble `book.md` inside that same version folder:
-
-1. Open with the book title (`book_long_title`) and the gist as an epigraph.
-2. Append every chapter in order (`Introduction`, `1` … `N`, `Conclusion` for novels; `bookseed.txt` order for poetry), separated by `---` dividers.
-3. Ensure both an Introduction and a Conclusion exist. If the Conclusion is missing, write one that mirrors the Introduction's frame and closes the arc.
-4. Update `progress.json` to mark all chapters completed and set `completed_date` for each.
-
-### First chapter rule (Novel)
-
-`filters/workshop/Introduction.md` is always the first chapter. It must open with a hint of the larger story's eventual consequence, so the reader understands from the first page that a large, possibly epic narrative has begun — and it must carry suspense: a question, mystery, or emotional tension that pulls the reader into the next chapter.
-
-### Writing rules
-
-1. Preserve the form's structure (flat prose for novel; flat poetic prose for poetry) — no section headings.
-2. Write the chapter in the configured target language and style.
-3. Use a serious, descriptive, image-rich literary register unless the pipeline says otherwise.
-4. The chapter must reach the target: at least 5,500 words (novel) or 500–800 words (poetry), unless the user or pipeline specifies otherwise. Write in batches when needed; count words and expand through richer scenes, stronger conflict, and more embodied detail — never filler.
-5. Follow `included_characters` and `quality_parameters` from the matching seed JSON (novel), or the topic and category (poetry).
-6. Weave the book's subject matter into the story: economics, politics, literature, religion, science, or any other domain the pipeline provides.
-7. Highlight the protagonist's conflict and victory in a way that moves and inspires the reader.
-8. Preserve the contrast between the modern frame and the main story's setting (novel).
-9. End each chapter with a running summary or narrative handoff that connects to the next chapter and sustains curiosity.
-
-### Language and style
-
-The framework is language independent. The output language comes from the pipeline, user request, or configuration — never assume a default. Use these principles unless the pipeline overrides them:
-
-1. **Long, flowing sentences.** Let sentences unfold through clauses, images, and emotional turns; use commas, semicolons, and dashes to create a controlled current of thought.
-2. **Rich adjectives and metaphors.** Animate nouns with precise adjectives and metaphors; make abstract ideas physical — greed a parasitic vine, pride an uplifted cry, memory a river under silt.
-3. **Local sentiment and cultural texture.** Draw on the target culture's landscapes, seasons, rituals, food, music, idioms, and emotional inheritance; ask philosophical questions that match the story's world; use contrast (wilderness vs order, giver vs receiver, flowering vs depletion, silence vs speech) and repetition for rhythm and emphasis.
-4. **Rhythm and sound.** Shape prose so it carries an inner music; blend elevated and intimate diction according to the target register.
-5. **Profound closure.** End chapters and major movements with a resonant thought or image that lingers without becoming a slogan.
-
-### Storytelling techniques (Novel)
-
-Keep the Story section continuous — not disconnected fragments.
-
-1. **Section structure.** Divide Story into as many sub-sections as needed for the target length; each has its own hook, pressure, turn, and unresolved pull into the next.
-2. **Dialogue.** Dialogue reveals personality, class, desire, and conflict; it carries emotion and power, not just information; voices differ by role, age, education, region, and social position.
-3. **Inner thought.** Show what characters do not say aloud: doubts, memories, calculations, shame, longing, fear, conviction.
-4. **Philosophical questions.** Let questions arise naturally from the story; do not answer every one — let some echo in the reader's mind.
-5. **Political and social intelligence.** Weave in power, diplomacy, alliances, betrayal, class pressure, and competing interpretations of the same event.
-6. **Craft devices.** Foreshadowing (dreams, omens, broken objects, repeated phrases); flashback (memories that deepen present emotion); juxtaposition (quiet beside violence, love beside duty, ceremony beside grief); sensory detail (sight, sound, smell, touch, taste); cliffhangers (end sub-sections on an unanswered question or danger).
-
-To expand without filler: add distinct scenes and locations; extend dialogue into real exchanges with tension and subtext; deepen inner monologue; add multiple philosophical questions; describe setting, clothing, weather, light, gesture, sound, and silence; add political, social, or emotional complexity.
+Chapter writing is owned by the write agent (`.framework/agents/write/agent.md`),
+which dispatches to the novel/poetry skill. The shared writing bar — form shape,
+file mapping, writing rules, language and style — lives in the write agent's
+**Writing Guidance** section; the novel skill (`.framework/skills/novel/SKILL.md`)
+owns the novel-specific storytelling techniques, the first-chapter rule, and the
+book-assembly contract (assembly itself is the publish agent's job).
 
 ## Workspace References
 

@@ -23,5 +23,41 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The Aching Hand",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "The body as an archive: detailing how physical aches map the history of every specific fresco layer applied over years.",
+      "Anthropomorphizing exhaustion: framing muscle fatigue not as a biological failing, but as a conscious negotiation with time itself.",
+      "Shifting focus from injury to precision: examining how acute pain paradoxically forces microscopic control and unforgiving accuracy in minute brushstrokes."
+    ],
+    "story_options": [
+      "Setting: The scaffold rail at 3 AM., desire: To reach one specific, perfectly shadowed section of the wall for a final touch-up; obstacle: A sudden, shooting nerve pain that forces a momentary halt and resets the entire posture.",
+      "Setting: Beside the mixing basin during an off-shift break in pre-dawn quiet., desire: The artist attempts to transcribe the pattern of phantom aches onto parchment rather than just working; obstacle: The weight of past, successful paintings demanding constant maintenance/repetition.",
+      "Setting: While standing immobile for hours against a wall that refuses to yield its desired depth., desire: To communicate through gesture (a subtle shift of balance) with an absent patron who is waiting outside the perceived frame; obstacle: The unforgiving coldness seeping up from the earth beneath the scaffolding."
+    ],
+    "subject_rotations": [
+      "Treating the hand as a flawed instrument, not merely suffering, and exploring its specific learned language of brush angles unique to this craft.",
+      "A cyclical view where the 'aching' is not linear deterioration but a rhythm—a necessary metronome keeping time with the slow curing of the lime plaster.",
+      "Focusing on the transfer of somatic pain from one generation of painter to the next, even if only through observation or apprentice proximity."
+    ],
+    "sensory_details": [
+      "The chalky granularity beneath a thumb pressed against an over-worked patch of color that has begun to bind too tightly.",
+      "The specific high-pitched ring sound produced when bone meets tension during extreme isometric contraction in the wrist.",
+      "The scent of dried sweat mingled with old, powdered minerals clinging to the hemp twine of the scaffold."
+    ],
+    "research_questions": [
+      "What were the practical historical methods for treating repetitive strain injuries among artisans before modern medical intervention in this regional context?",
+      "How did traditional visual aesthetics permit or discourage displaying signs of physical labor within art dedicated to elite patronage?"
+    ],
+    "structural_variants": [
+      "A recursive structure: a short section detailing one specific joint's pain, followed by an expansive description of the finished work it contributes to, repeating for several joints.",
+      "Shifting between internal monologue (the sensation) and external observation (the stillness outside the scaffolding).",
+      "Structuring as a physical inventory: listing pains not alphabetically or chronologically, but by proximity on the body map corresponding to different painted areas."
+    ],
+    "unused_angles": [
+      "The dialogue/argument with oneself about whether the current level of pain justifies further progress towards a specific visual effect.",
+      "Examining how the artist might consciously 'overwork' an area not out of necessity, but as a subtle form of self-punishment or assertion."
+    ],
+    "variety_note": "This chapter focuses intensely on the localized, physical degradation of the maker, moving away from abstract notions of artistic failure or social reception explored elsewhere in the cycle."
+  }
 }

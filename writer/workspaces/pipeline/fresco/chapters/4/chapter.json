@@ -23,5 +23,40 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The First Line",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "Treating the lime-wash itself as a character—its porosity, its hunger for color, its readiness to absorb destiny.",
+      "Framing the first line not as creation but as an act of necessary violence against perfect, expectant silence.",
+      "A meditation on geological time versus immediate artistic impulse: how does the human gesture momentarily interrupt millennia of slow erosion?"
+    ],
+    "story_options": [
+      "Setting: The precise spot where the painter plans to begin the main motif; Desire: To overcome a pre-existing internal hesitation about composition; Obstacle: A single, specific insect lands on the surface, forcing an immediate distraction/choice.",
+      "Setting: Just as the first pigment touches the lime; Desire: To feel a sudden, disproportionate surge of vertigo or physical lightness; Obstacle: The sound of a distant, rhythmic grinding (perhaps mortar being mixed elsewhere) breaks the focus.",
+      "Setting: Before the brush is even lifted, examining the angle and calibration of the palette knife or primary tool; Desire: To achieve perfect mechanical synchronicity with the initial vision; Obstacle: A shadow from the scaffolding shifts unexpectedly due to a slight wind gust."
+    ],
+    "subject_rotations": [
+      "Shifting the focus entirely onto the preparation rituals—the grinding of pigments, the mixing ratios, rather than the application itself.",
+      "Exploring the *negative space* around the first line: what is actively being avoided or defined by its presence?",
+      "Interrogating the relationship between 'intent' and 'execution'; how much power resides in the decision before the material interaction?"
+    ],
+    "sensory_details": [
+      "The fine, gritty abrasion under the fingertip when testing the surface texture with a bare hand.",
+      "The specific coldness of the unworked plaster absorbing the night air.",
+      "The smell of wet chalk dust mixed with stale animal fat from storage near the haveli."
+    ],
+    "research_questions": [
+      "What were traditional alchemical or ritualistic significations attached to starting a major artistic work in South Asian miniature or mural painting?",
+      "Are there documented regional variations in lime-washing techniques that could provide narrative texture regarding surface preparation?"
+    ],
+    "structural_variants": [
+      "A highly fragmented structure, where the poem alternates between an intensely focused micro-description of the tool and a vast landscape image of the silent town below.",
+      "An invocation/prayer sequence preceding the artistic action, framing the act as religious offering rather than secular craft."
+    ],
+    "unused_angles": [
+      "The possibility of collaborating with a neighboring chapter's motif: if Chapter 2 was about breathing houses, this could be about the first line *imposing* structure on that breath.",
+      "Exploring the ethical dilemma of artistic necessity—is it inherently selfish to begin when so many others are resting?"
+    ],
+    "variety_note": "While neighbours address isolation (Scaffold) or observation (Town/Blossom), this chapter drills down into the ultimate singularity of decision: the point zero before creation."
+  }
 }

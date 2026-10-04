@@ -27,8 +27,24 @@ The `factory` value governs how every workflow, agent, and skill must run:
 
 | `factory` | Meaning |
 |---|---|
-| `"offline"` | Use the repository Python CLI (`.tools/*.py`, e.g. `python .tools/book.py …`) for all structural, repeatable operations, exactly as the workflows currently specify. |
+| `"offline"` | **Display the resolved repository Python CLI command (`.tools/*.py`) and ask the user whether to proceed — do not execute it.** The agent resolves the exact command with the correct parameters, presents it to the user, and waits for the user's go-ahead before running anything. |
 | `"online"` | **Do not use Python at all.** No `python .tools/*.py`, no `run_in_terminal` Python invocation, no Python helper scripts — for any workflow, agent, or skill. Perform every step agentically (direct file reads/writes by the agents/skills themselves). |
+
+### Offline Mode — Display And Confirm
+
+In `offline` mode, the agent does **not** run Python on its own authority. It must:
+
+1. **Resolve the command from `.framework/offline_registry.md`.** Do not re-read
+   or re-scan the `tools/` folder to discover commands — consult
+   `.framework/offline_registry.md`, the authoritative index of every offline
+   command, and pick the matching entry with the correct, concrete parameters
+   (book name, verb, count, form, scope, style, language, etc.) — no
+   placeholders left unresolved.
+2. Present that single command to the user in the response, clearly formatted as the command that will be run.
+3. Ask the user to confirm — a plain "go / don't go" — before executing anything.
+4. Do **not** run `python`, `run_in_terminal`, or any helper script until the user explicitly confirms.
+
+The user may decline; if they do, the agent stops without executing and reports that the command was not run. The agent must never assume consent and never execute an offline command silently.
 
 - If `factory` is `"online"`, every workflow, agent, and skill must carry out its
   work through direct reasoning and file operations, never by shelling out to
@@ -57,9 +73,9 @@ Any agent, workflow, or skill may still be invoked with an explicit
 **`offline`** or **`online`** parameter, regardless of the book's resolved
 `factory` mode. This is a scoped, per-invocation override:
 
-- Only the **execution of that single invocation** runs in the overridden mode
-  (`offline` → repository Python CLI `.tools/*.py`; `online` → agentic, no
-  Python).
+- Only the **execution of that single invocation** runs in the overridden mode.
+  `offline` → resolve the exact Python CLI command, display it, and ask the
+  user to confirm before running it. `online` → agentic, no Python.
 - The override must **not change any configuration** — it must not write or
   persist the `factory` value back to any `book.json`, and must not alter
   `workspaces/start.md` or any other config file.

@@ -278,7 +278,7 @@ def run_humanize(bookname: str, target: str) -> None:
 
         # Read current draft
         old_text = chapter_md_path.read_text(encoding="utf-8-sig")
-        old_sha = compute_sha256(old_text.encode("utf-8-sig"))
+        old_sha = compute_sha256(old_text.encode("utf-8"))
 
         # Update draft hash to match current chapter.md (concurrent process may have modified it)
         draft = model.get("draft", {})
@@ -292,7 +292,7 @@ def run_humanize(bookname: str, target: str) -> None:
 
         # Humanize the text
         humanized_text, replacements = humanize_text(old_text)
-        new_sha = compute_sha256(humanized_text.encode("utf-8-sig"))
+        new_sha = compute_sha256(humanized_text.encode("utf-8"))
 
         if not replacements:
             # No changes needed — already clean

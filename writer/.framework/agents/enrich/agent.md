@@ -28,6 +28,12 @@ enrich skill, which:
   `all`) path; a single chapter, a `start-end` range, or a `<count>` is executed
   agentically by this agent, one chapter at a time.
 
+In `offline` mode for the bulk (`*` / `all`) path, **do not execute Python
+yourself** — resolve the exact command `python tools/book.py <bookname> enrich
+[all|*]` from `.framework/offline_registry.md` (do not re-scan the `tools/`
+folder), display it to the user, and ask whether to proceed; run it only after
+the user confirms.
+
 ## Dispatch (Form Resolution)
 
 1. Read `.framework` book plan `workspaces/pipeline/<bookname>/book.json` (fall back to

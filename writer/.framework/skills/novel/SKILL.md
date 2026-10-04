@@ -89,6 +89,36 @@ Write the rewritten chapter to `workspaces/pipeline/<bookname>/chapters/<n>/chap
 
 Do not add extra metadata, comments, or explanation outside the chapter text.
 
+## Storytelling techniques
+
+Keep the Story section continuous — not disconnected fragments.
+
+1. **Section structure.** Divide Story into as many sub-sections as needed for the target length; each has its own hook, pressure, turn, and unresolved pull into the next.
+2. **Dialogue.** Dialogue reveals personality, class, desire, and conflict; it carries emotion and power, not just information; voices differ by role, age, education, region, and social position.
+3. **Inner thought.** Show what characters do not say aloud: doubts, memories, calculations, shame, longing, fear, conviction.
+4. **Philosophical questions.** Let questions arise naturally from the story; do not answer every one — let some echo in the reader's mind.
+5. **Political and social intelligence.** Weave in power, diplomacy, alliances, betrayal, class pressure, and competing interpretations of the same event.
+6. **Craft devices.** Foreshadowing (dreams, omens, broken objects, repeated phrases); flashback (memories that deepen present emotion); juxtaposition (quiet beside violence, love beside duty, ceremony beside grief); sensory detail (sight, sound, smell, touch, taste); cliffhangers (end sub-sections on an unanswered question or danger).
+
+To expand without filler: add distinct scenes and locations; extend dialogue into real exchanges with tension and subtext; deepen inner monologue; add multiple philosophical questions; describe setting, clothing, weather, light, gesture, sound, and silence; add political, social, or emotional complexity.
+
+## First chapter rule
+
+`filters/workshop/Introduction.md` is always the first chapter. It must open with a
+hint of the larger story's eventual consequence, so the reader understands from the
+first page that a large, possibly epic narrative has begun — and it must carry
+suspense: a question, mystery, or emotional tension that pulls the reader into the
+next chapter.
+
+## Assembling the book
+
+Assembly is owned by the publish agent (`.framework/agents/publish/agent.md`); this
+skill writes chapters only. When the publish agent assembles `book.md`, it: opens
+with `book_long_title` and the gist as epigraph; appends every chapter in canonical
+order (`Introduction`, `1` … `N`, `Conclusion`) separated by `---` dividers; ensures
+an Introduction and Conclusion exist (writing a Conclusion that mirrors the
+Introduction's frame if missing); and updates `progress.json`.
+
 ## What Not to Do
 
 - Do not scaffold pipelines.

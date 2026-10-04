@@ -23,5 +23,40 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The Wasted Sketch",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "Treating the charcoal dust itself as a spectral residue—a faint memory of intended forms lingering on the floorboards despite the crumpled sketches.",
+      "Framing the 'waste' not as failure, but as an accidental map: each discarded sketch hints at an alternative narrative path for the fresco that was consciously rejected.",
+      "A temporal lens focusing on the accumulation of these discarded attempts over decades; how do they form a hidden palimpsest beneath the wall? (Leveraging the return-visit seed.)"
+    ],
+    "story_options": [
+      "setting: The dusty corner near the mixing palette, desire: To reclaim one specific, beautiful gesture from a ruined charcoal study, obstacle: The physical impossibility of restoring the ephemeral drawing without damaging the subsequent work., turn: The artist decides to deliberately incorporate the *ghost* shape of the failed sketch into the next iteration.",
+      "setting: The wooden floorboards beneath the scaffold staging area, desire: To understand *why* a certain composition repeatedly fails in rehearsal sketches, obstacle: A strict, internalized rule—perhaps concerning negative space or symmetry—that the artist rigidly enforces on themselves., turn: Breaking that self-imposed, unstated 'rule' causes an unexpected moment of artistic breakthrough.",
+      "setting: Near a stack of unusable pigments and binders, desire: To ritually destroy or bury the evidence of past efforts rather than simply crumple them, obstacle: The weight of communal memory; perhaps a mentor insists that 'nothing should ever truly be lost.' (Leveraging the secondary twist.), turn: The artist performs an act of deliberate, public rejection of their own creative history."
+    ],
+    "subject_rotations": [
+      "Viewing rejected sketches through the lens of historical patronage: were some 'wastes' actually designs for other patrons whose commissions fell through?",
+      "Shifting focus from the physical charcoal to the *intention* behind the sketch—the moment-to-moment negotiation with an imagined, demanding internal critic.",
+      "Analyzing the lifecycle of artistic material itself: how the chalk, vine, and pigment transition from raw potentiality to abstract waste."
+    ],
+    "sensory_details": [
+      "The fine, gritty scent of dry charcoal mixed with old linseed oil residue on a burlap sack.",
+      "The brittle *crackle* sound when a tightly crumpled sheet of heavy paper collapses under the weight of night humidity.",
+      "The pale grey-blue hue left by residual carbon dust staining the skin near the artist's wrists."
+    ],
+    "research_questions": [
+      "What are traditional methods for dealing with discarded or failed preparatory drawings in historical manuscript illumination or fresco practice?",
+      "How does early 18th/19th-century Shekhawati artistic tradition conceptualize the relationship between an initial concept and its final execution?"
+    ],
+    "structural_variants": [
+      "A sustained, slow zoom on a single piece of crumpled paper, moving inward through different layers of graphite.",
+      "Alternating stanzas: one detailing the swift failure (the physical act) vs. another detailing the lingering psychological echo of that same failure."
+    ],
+    "unused_angles": [
+      "A focus on archival decay—how these scraps might survive centuries, preserved only in obscurity.",
+      "The political implication of 'wasting' materials: is this a luxury available only to the wealthy artist?"
+    ],
+    "variety_note": "Where earlier chapters addressed the grand physical acts (scaffolding, lighting), this poem grounds itself entirely in microscopic, overlooked detritus—the evidence of pre-action."
+  }
 }

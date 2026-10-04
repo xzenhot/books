@@ -23,5 +23,39 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The Haunted Wall",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the wall not as a static artifact but as a repository of transient nocturnal energy—the residual heat or shadow-memory.",
+      "Focusing on the 'haunted' element through folklore rather than direct presence, perhaps via a specific local superstition about painted images coming alive after midnight.",
+      "Shifting the focus entirely to the materials aging under moonlight, where the minerals themselves seem to shift their molecular structure based on the ambient light."
+    ],
+    "story_options": [
+      "Setting: A high parapet overlooking the haveli from an adjacent rooftop; Desire: For a young child, captivated by the faint colors in the dark, to trace one image with a finger, disturbing the night's silence; Obstacle: The father of the child warns against tampering with things that are 'unmade.'",
+      "Setting: A low, crumbling wall separating the haveli grounds from a common walkway after 3 AM; Desire: For an elderly neighbor walking home to pause and smell the distinct mineral scent trapped in the damp plaster, linking it unconsciously to past night work; Obstacle: The neighbor mistakes the pigment aroma for incense smoke used by a different ritual.",
+      "Setting: Inside a cool, windowless storage room adjacent to the frescoed wall during an unexpected thunderstorm; Desire: For the owner of the house to press their palm flat against the damp stone, searching for a specific pattern that only the building's internal stress reveals under duress; Obstacle: The sudden drumming rain deafens them, dissolving the fragile connection."
+    ],
+    "subject_rotations": [
+      "Exploring the idea of 'palimpsestic light'—how moonlight reveals layers of paint that were deliberately obscured during creation.",
+      "Treating the wall as an accidental form of communal memory, where neighbors implicitly share stories simply by witnessing its existence in their peripheral vision.",
+      "Focusing on sympathetic resonance: what if a loud sound from elsewhere causes a specific section of the fresco to visually ripple or distort momentarily?"
+    ],
+    "sensory_details": [
+      "The sharp, metallic tang of cold dew settling onto the high plaster surface during the pre-dawn hours.",
+      "The muffled rhythm of distant agricultural labor beginning in the surrounding village as a counterpoint to absolute silence."
+    ],
+    "research_questions": [
+      "What specific traditional practices or beliefs govern how local communities interpret and interact with highly decorative, yet private, architecture?",
+      "Are there documented regional folklore traditions relating painted surfaces (like murals) to supernatural activity or retained energy in Shekhawati?"
+    ],
+    "structural_variants": [
+      "Beginning with the sound from a neighboring house—a clattering utensil, a distant barking dog—and letting that noise slowly bleed into and disrupt the painter's perception of the wall.",
+      "Using an extended meditative pause where the narrator only describes the interplay of shadow across the pigment, without naming any specific motif."
+    ],
+    "unused_angles": [
+      "The physical labor memory imprinted on the *structure* of the building itself, not just the paint, suggesting the mortar remembers strain.",
+      "How the family inhabiting the haveli uses mundane, everyday objects (a hanging cloth, a simple lamp) to frame or obscure specific parts of the artwork during the day."
+    ],
+    "variety_note": "While earlier chapters focused on moments of intense action—creation or appraisal—this poem leans into sustained stasis, using external auditory triggers and peripheral observation to give the wall an ambient life outside the artist's immediate presence."
+  }
 }
