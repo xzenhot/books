@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "written",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -57,10 +57,25 @@
     "variety_note": "Unlike previous chapters focused on accumulation (frescoes, gold), this chapter must deal with projection—the calculated outward performance of power enacted through an audience."
   },
   "draft": {
-    "sha256": "dea3995f3e9f19c179439b305173ceaf1d3bdf0e46a8906c7110f462aa000b17",
-    "written_at": "2026-10-03T17:06:24.717651+00:00",
-    "origin": "write"
+    "sha256": "d966bb0b4e77b4929f1758b58847589ff1b25bfd82baffdd4ea6460292a75e89",
+    "written_at": "2026-10-04T03:51:49+00:00",
+    "origin": "humanize"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+  "humanized_at": "2026-10-04T03:51:49+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "8f3fef73617d63f06cd5ab5fa43c5e2b70ad82e5d44fd325fef7abb7f70c9464",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T03:53:58+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

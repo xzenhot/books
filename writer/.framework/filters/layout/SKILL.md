@@ -1,6 +1,6 @@
 ---
 name: layout
-description: "Compatibility dispatcher for layout scaffolding. Prefer layout-novel for novel pipelines and layout-poetry for poetry pipelines. Use this only when an older workflow still names .framework/skills/layout/SKILL.md."
+description: "Compatibility dispatcher for layout scaffolding. Prefer layout-novel for novel pipelines and layout-poetry for poetry pipelines. Use this only when an older workflow still names .framework/filters/layout/SKILL.md."
 ---
 
 # Layout Dispatcher
@@ -22,5 +22,5 @@ This dispatcher must route to the form-specific skill and stop there. Do not ins
 4. If the form cannot be determined, infer conservatively: a narrative premise is `novel`; a topic/term list is `poetry`.
 5. Record the chosen form in the pipeline root `model.json` during scaffolding.
 
-Do not implement scaffold details here. This file exists only so older references to `.framework/skills/layout/SKILL.md` still route to the form-specific layout skills.
+Do not implement scaffold details here. This file exists only so older references to `.framework/filters/layout/SKILL.md` still route to the form-specific layout skills.
 

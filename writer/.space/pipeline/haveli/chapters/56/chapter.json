@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "written",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -61,10 +61,25 @@
     "variety_note": "Where previous chapters focused on external forces (wind, sound, economic shift), this piece concentrates entirely on the material interaction between an active agent (the restorer/the pigment itself) and the enduring structure, treating decay as a subject of conflict rather than just residue."
   },
   "draft": {
-    "sha256": "7e41630d9984aa7e2edf7d44a40f3eb5e869d284c0c8c273fb44e9b8df0de991",
-    "written_at": "2026-10-03T17:15:13.015048+00:00",
-    "origin": "write"
+    "sha256": "6c27226afe7dfa3b494f7adfa8b920e23184cd82a39322104d2a576ed9e87f49",
+    "written_at": "2026-10-04T03:51:49+00:00",
+    "origin": "humanize"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+  "humanized_at": "2026-10-04T03:51:49+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "ee5470c176d0cc7b2b795cd4487b6c8f3e4b05dcc55f03385ba51f095fb3beee",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T03:53:58+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

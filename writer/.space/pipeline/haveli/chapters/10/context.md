@@ -219,13 +219,13 @@
 ## $["draft"]["sha256"]
 
 ```json
-"4b30569c853d948d937d92a591edd92a73cf3c3be040bcc891b18acf4d3a9fc6"
+"5ff7cf9e3c996b741dbd6a7b01bc2d4e9ba4700410a51dcbee7b6a3bd99943a5"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:03:24.460879+00:00"
+"2026-10-03T17:35:01.719401+00:00"
 ```
 
 ## $["draft"]["origin"]

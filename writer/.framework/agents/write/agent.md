@@ -1,12 +1,12 @@
 ---
-name: poetry
-description: Form-aware write dispatcher. Routes each write run to the write-novel or write-poetry skill, which writes or rewrites the chapter content as flat, continuous prose (no section headings), honoring the chapter's metadata, the transformer style (default `pijush`), and any human override instructions.
+name: write
+description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content as flat, continuous prose (no section headings), honoring the chapter's metadata, the transformer style (default `pijush`), and any human override instructions.
 tools: ["read", "write"]
 ---
 
-# The Poetry Agent
+# The Write Agent
 
-This agent is only a dispatcher. It must not write chapter content directly; it routes to the form-specific write skill.
+This agent is only a dispatcher. It must not write chapter content directly; it resolves the book's form and routes to the form-specific write skill (`.framework/skills/poetry/SKILL.md` for poetry, `.framework/skills/novel/SKILL.md` for novels).
 
 ## Invocation
 
@@ -22,23 +22,11 @@ Before any write skill authors prose, the chapter's `chapter.json` must be turne
 
 1. **Flatten `chapter.json` into `context.md`.** Read `.space/pipeline/<bookname>/chapters/<n>/chapter.json` as the sole parameter and render its entire content (every leaf, including nested `creative_enrichment`, `filter_history`, and any other recorded guidance) into a flat Markdown document saved **beside the model** at `.space/pipeline/<bookname>/chapters/<n>/context.md`. Use unambiguous JSON paths as headings so each value keeps its provenance (e.g. `## $["creative_enrichment"]["angles"][0]`). Do not drop, summarize, or rewrite any value — the flatten is a lossless projection of the JSON, not an interpretation of it.
 2. **Build the relative prompt from `context.md`.** Compose the writer prompt by joining the resolved `style.md`/`poetry.md` mandate with the flattened `context.md` — never with the raw JSON. The prompt names the chapter number and instructs the writer to embody the title, summary, word target, references, themes, and any nested enrichment/filter guidance, while forbidding the reproduction of JSON paths, state fields, or `context.md` headings in the output.
-3. **Write to `chapter.md`.** The finished flat, continuous prose/poetic-prose is saved to `.space/pipeline/<bookname>/chapters/<n>/chapter.md` (archiving any prior copy to `segments/1/version/` per the Archive Before Overwrite contract). `context.md` is an intermediate artifact that may be regenerated on every run; the authoritative output is `chapter.md`.
+3. **Write to `chapter.md`.** The finished flat, continuous prose is saved to `.space/pipeline/<bookname>/chapters/<n>/chapter.md` (archiving any prior copy to `segments/1/version/` per the Archive Before Overwrite contract). `context.md` is an intermediate artifact that may be regenerated on every run; the authoritative output is `chapter.md`.
 
 **Every write flattens first.** The flatten is mandatory and unconditional: before `chapter.md` is written (or rewritten), the current `chapter.json` is re-flattened into `context.md`, so the prompt always reflects the latest metadata — including any filter/enrichment guidance applied since the last write. Never reuse a stale `context.md` or skip the flatten on a rewrite.
 
 The shared flatten routine is `.tools/flatten.py` (`flatten_chapter`), used by `.tools/write.py` (`load_context`). Reuse it rather than re-implementing the flatten.
-
-## Required Craft Checks
-
-Before finalizing every poem, the selected poetry write skill must ensure:
-
-1. **Image and metaphor coherence** — images belong to a connected metaphorical world and develop rather than appearing as unrelated decoration.
-2. **Emotional movement** — the poem changes pressure, feeling, knowledge, or relationship from its opening to its close.
-3. **Thematic clarity** — the central theme is felt through concrete language and action, without being explained as an abstract lesson.
-4. **Distinct voice and rhythm** — diction, sentence movement, repetition, pause, and line or paragraph shape create a voice particular to this poem.
-5. **Ending strength** — the final movement leaves a precise, resonant image, turn, question, or silence; it must not merely stop or restate the premise.
-
-These are writing requirements, not a reason to force a poem to the optional word target.
 
 ## Dispatch
 
@@ -47,7 +35,7 @@ These are writing requirements, not a reason to force a poem to the optional wor
 3. Resolve the style: if `<style>` was supplied, use it; otherwise use `pijush`. Read `.framework/templates/stereotypes/poetry/styles/<style>/style.md`; if the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity. Stop and report if the resolved `style.md` does not exist.
 4. Inspect `.space/pipeline/<bookname>/chapters/<n>/chapter.md`. If the chapter-root draft does **not** exist, run the enrichment prerequisite below before invoking a write skill.
 5. After any enrichment, re-read the chapter's `chapter.json` and its recorded enrichment record, and resolve the form again using the same precedence. Never read chapter-root `chapter.md` — it is not produced until a write skill authors it.
-6. If the form is `poetry`, read and invoke `.framework/skills/write-poetry/SKILL.md`. If it is `novel`, read and invoke `.framework/skills/write-novel/SKILL.md`.
+6. If the form is `poetry`, read and invoke `.framework/skills/poetry/SKILL.md`. If it is `novel`, read and invoke `.framework/skills/novel/SKILL.md`.
 7. **Flatten, then prompt.** Before the selected skill writes, flatten the (possibly refreshed) chapter `chapter.json` into `context.md` and build the writer prompt from that `context.md` and the pipeline `style.md` (see *Flatten Model → Context → Prompt*). Pass the flattened `context.md` content and the built prompt to the selected skill — never the raw `chapter.json`.
 8. Pass the book name, chapter scope, pipeline paths, refreshed chapter model (carrying every prior filter's recorded guidance), the resolved `<style>` (default `pijush`), the pipeline `style.md` and `style.md`/`signature.md` content, the flattened `context.md`, and the override command file path to the selected skill.
 9. Return the selected skill's writer-stage output and report whether enrichment ran.
@@ -75,7 +63,7 @@ The selected skill owns:
 - applying the style's voice and any human override instructions as the final layer;
 - writing the result to `chapters/<n>/chapter.md` (archiving any prior copy to `segments/1/version/` before overwriting).
 
-The poetry agent must not:
+The write agent must not:
 
 - write chapter content directly;
 - scaffold pipelines or run filters directly; delegate only the missing-chapter prerequisite to the enrich agent;
@@ -88,4 +76,3 @@ The poetry agent must not:
 ## Output
 
 Report the resolved form, selected skill, processed chapter scope, enrichment result and active filters when the prerequisite ran, and the writer-stage file path(s) produced.
-

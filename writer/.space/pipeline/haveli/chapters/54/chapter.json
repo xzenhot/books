@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "written",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -58,10 +58,25 @@
     "variety_note": "This chapter pivots away from grand, single events like festivals or trade shifts, focusing instead on residual atmosphere and micro-sensory details—the air itself—to suggest lingering financial and emotional debt."
   },
   "draft": {
-    "sha256": "4764a2e8bfbbe8fc1c6c86c93481b704cbaf21fa077d3e54ab0c24fd34eaf136",
-    "written_at": "2026-10-03T17:14:42.832444+00:00",
-    "origin": "write"
+    "sha256": "26dc2f73269771340b09d3a5fd82f4383d957896ca98120199b8ef4196cdf8bb",
+    "written_at": "2026-10-04T03:51:49+00:00",
+    "origin": "humanize"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+  "humanized_at": "2026-10-04T03:51:49+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "bc26b5525b076ce6fb7aed54d50c34ebdc0bdb7280c4277af8576657d0f9b27c",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T03:53:58+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

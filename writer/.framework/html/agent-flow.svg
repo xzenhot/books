@@ -33,7 +33,7 @@
 <path d="M480 595 V623" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="35" y="625" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
 <text x="55" y="655" class="phase">4 · Write</text>
-<text x="55" y="686" class="agent">story agent (novel) / poetry agent (poetry)</text>
+<text x="55" y="686" class="agent">write agent → poetry skill / novel skill (by form)</text>
 <text x="55" y="717" class="output">Author chapter.md and writer-stage segments from prepared models</text>
 <text x="55" y="745" class="note">Archive and verify prior drafts before replacement</text>
 <path d="M480 770 V798" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>
