@@ -1,13 +1,49 @@
 {
   "chapter_index": 1,
   "name": "1",
-  "word_target": 500,
+  "word_target": 80,
   "chapter_title": "The Wall That Waits",
   "chapter_summary": "The painter stands before a blank stretch of plaster in a half-finished haveli, reading the wall the way a poet reads an empty page, and the wall, older and more patient than the hand that will touch it, waits for the first stroke.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the wall not as a canvas but as an inert witness to all human ephemera—the dust of past lives settling on its surface.",
+      "Framing the emptiness of the unpainted plaster as a specific kind of negative space that requires deliberate, almost violent intervention to define.",
+      "Personifying the architectural weight and history of the haveli itself, making it a silent counterpoint to the painter’s nervous energy."
+    ],
+    "story_options": [
+      "Setting: The sun-baked exterior courtyard just before dusk; Desire: To find an initial color that justifies future labor; Obstacle: An impossibly large shadow cast by a nearby minaret; Turn: The painter notices the dust motes dancing in the fading light, mirroring potential strokes.",
+      "Setting: A specific corner of the wall already bearing faint evidence of ancient repairs; Desire: To match a ghost color from a previous forgotten project; Obstacle: His own tremor makes his brush shake violently on the surface; Turn: He deliberately smears the incipient mark instead of finishing it.",
+      "Setting: The small, unadorned scaffolding structure itself; Desire: To seek permission or encouragement from the silent framework supporting him; Obstacle: A sudden, strong gust of wind rattles the wooden supports threatening to shift his balance; Turn: He uses the sway as a rhythm for his first light touch."
+    ],
+    "subject_rotations": [
+      "Focusing entirely on the *potential* energy held within the blank plaster before any physical act is committed.",
+      "Examining the relationship between silence (the wall's waiting) and sound (the internalized, imagined sounds of future pigments being mixed).",
+      "A meditation on 'arrival'—not arriving at a subject, but arriving at the threshold where meaning can begin to form."
+    ],
+    "sensory_details": [
+      "The fine, gritty mineral taste left in the painter’s mouth from chewing dried betel nut while staring at the wall.",
+      "The high-pitched, dry whistle of air escaping through a single crack in the plasterwork.",
+      "The sharp scent of sun-scorched lime mortar mingling with the cool dampness rising from the earth beneath the foundation."
+    ],
+    "research_questions": [
+      "How were specific regional dialects used to describe abstract waiting or anticipation within Marwari folk poetry?",
+      "What is the historical significance of load-bearing plaster in Shekhawati architecture that implies a sense of permanence?"
+    ],
+    "structural_variants": [
+      "A purely sonic poem where every word choice prioritizes its percussive quality over its semantic meaning.",
+      "An invocation structure, addressing the wall as an ancient deity awaiting initiation."
+    ],
+    "variety_note": "Unlike subsequent poems focusing on materials or patrons, this chapter roots itself in pure potentiality—the silence before action, driven by sonic texture rather than visual subject matter."
+  },
+  "draft": {
+    "sha256": "d5db0ff1503aa93a665cc211db65993ffe54e2da5162a6b9a2a21f6efd19184a",
+    "written_at": "2026-10-04T19:40:13.858246+00:00",
+    "origin": "write"
+  }
 }

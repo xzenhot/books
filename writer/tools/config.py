@@ -115,7 +115,7 @@ def apply_book(book: dict, assignments: list[str]) -> list[str]:
     return [parse_assignment(t)[0] for t in assignments]
 
 
-def apply_chapter(book: dict, target: str, assignments: list[str]) -> tuple[int, list[str]]:
+def apply_chapter(book: dict, target: str, assignments: list[str]) -> tuple[list[int], list[str]]:
     chapters = book.get("chapters")
     if not isinstance(chapters, list):
         raise ValueError("book.json has no 'chapters' array")
@@ -126,7 +126,42 @@ def apply_chapter(book: dict, target: str, assignments: list[str]) -> tuple[int,
         keys.append(key)
         for i in indices:
             chapters[i][key] = value
-    return len(indices), keys
+    return indices, keys
+
+
+def chapter_metadata_file(bookname: str, name: str) -> Path | None:
+    """Resolve a chapter's runtime metadata file (chapter.json, else model.json)."""
+    chapter_dir = PIPELINE_ROOT / bookname / "chapters" / str(name)
+    for candidate in ("chapter.json", "model.json"):
+        path = chapter_dir / candidate
+        if path.exists():
+            return path
+    return None
+
+
+def sync_chapter_models(bookname: str, chapters: list[dict], indices: list[int], assignments: list[str]) -> int:
+    """Write the same assignments into each selected chapter's runtime metadata file.
+
+    Mirrors the book.json `chapters[]` edit into `chapters/<name>/chapter.json`
+    (falling back to `model.json`) so the per-chapter runtime file stays in sync.
+    Returns the number of chapter metadata files updated.
+    """
+    updated = 0
+    for i in indices:
+        entry = chapters[i]
+        name = entry.get("name")
+        if name is None:
+            continue
+        path = chapter_metadata_file(bookname, name)
+        if path is None:
+            continue
+        model = json.loads(path.read_text(encoding="utf-8-sig"))
+        for token in assignments:
+            key, value = parse_assignment(token)
+            model[key] = value
+        path.write_text(json.dumps(model, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        updated += 1
+    return updated
 
 
 def parse_args(argv: list[str]) -> tuple[str, list[tuple[str, object]]]:
@@ -187,8 +222,10 @@ def run(bookname: str, clauses: list[tuple[str, object]]) -> None:
             print(f"book: set {', '.join(keys)}")
         elif kind == "chapter":
             _, target, assignments = clause
-            count, keys = apply_chapter(book, target, assignments)
-            print(f"chapter {target}: set {', '.join(keys)} on {count} chapter(s)")
+            indices, keys = apply_chapter(book, target, assignments)
+            synced = sync_chapter_models(bookname, book["chapters"], indices, assignments)
+            print(f"chapter {target}: set {', '.join(keys)} on {len(indices)} chapter(s)"
+                  f" | synced {synced} chapter metadata file(s)")
 
     # Write atomically
     book_path.write_text(json.dumps(book, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

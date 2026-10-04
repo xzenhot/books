@@ -36,6 +36,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+TEMPLATE_ROOT = REPO_ROOT / ".framework" / "templates" / "tools"
+# The active form's template folder, resolved once the book's form is known.
+_ACTIVE_DIR = TEMPLATE_ROOT / "enrich-novel"
+STYLE_BASE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles" / "pijush" / "style.md"
+
 MODEL = "gemma4:latest"
 OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
 TIMEOUT = 900
@@ -53,112 +58,84 @@ DRY_RUN = False
 
 # Variation lenses: every chapter is briefed with one primary direction plus one twist
 # so a long book stops giving adjacent subjects the same treatment.
-LENSES = (
-    ("witness", "through someone who only watches and never intervenes: a passer-by, a child at the edge of the scene, a neighbour at the fence"),
-    ("object-biography", "through the biography of one ordinary object: where it came from, who has touched it, what it outlives"),
-    ("retelling", "as a story other people have already retold wrongly, so the retelling itself becomes the material"),
-    ("cost-ledger", "from what the subject costs: money, hours, sleep, standing, or someone's patience, counted plainly"),
-    ("counter-voice", "by giving the strongest opposing voice a fair hearing, so the chapter's position has to argue for itself"),
-    ("return-visit", "by returning to the same place or task years later and letting the difference, not the event, carry the meaning"),
-    ("one-minute", "inside a single minute of a single afternoon, so the whole subject is visible in miniature"),
-    ("non-visual", "by leading with sound, smell, and touch, and letting the reader rebuild the picture"),
-    ("ritual", "as a repeated small ritual with its own order, mistakes, and interruptions"),
-    ("address", "as an address to someone who cannot answer inside the scene: an absent person, a future reader, the subject itself"),
-    ("contrast-pair", "by setting two households, two workers, or two moments side by side and letting the gap speak"),
-    ("threshold", "at a doorway, a season change, or a departure, while a decision is still open"),
-)
+# Loaded per form from .framework/templates/tools/enrich-{novel|poetry}/lenses.json.
+LENSES: tuple = ()
+TWISTS: tuple = ()
+CREATIVE_REQUIRED: dict = {}
+CREATIVE_OPTIONAL: dict = {}
+CREATIVE_FIELDS: tuple = ()
+ENRICH_SYSTEM_PROMPT: str = ""
+ENRICH_USER_PROMPT_TEMPLATE: str = ""
+REPAIR_PROMPT_TEMPLATE: str = ""
+STYLE_REGENERATE_SYSTEM_PROMPT: str = ""
 
-TWISTS = (
-    "weather that refuses to cooperate",
-    "a stranger's small kindness or small rudeness",
-    "an interruption at the worst possible moment",
-    "a tool or utensil that fails",
-    "a rule nobody present agrees with",
-    "an animal that keeps coming back",
-    "a debt or favour that must be repaid",
-    "a sound from a neighbouring house",
-    "a queue, a wait, or a delay",
-    "money counted twice",
-)
 
 RUNTIME_KEYS = {"state", "status", "filter_history", "completed_date", "word_count", "enrich", "override"}
 IDENTITY_KEYS = {"chapter_index", "name", "word_target", "level", "segments"}
 PROTECTED_KEYS = RUNTIME_KEYS | IDENTITY_KEYS
-CREATIVE_REQUIRED = {
-    "angles": 3,
-    "story_options": 3,
-    "subject_rotations": 2,
-    "sensory_details": 2,
-    "research_questions": 1,
-}
-CREATIVE_OPTIONAL = {"structural_variants": 1, "unused_angles": 1}
-CREATIVE_FIELDS = ("angles", "story_options", "subject_rotations", "sensory_details",
-                   "research_questions", "structural_variants", "unused_angles")
 URL_RE = re.compile(r"(?:https?://|www\.)\S+", re.IGNORECASE)
 # Punctuation stripped from token edges. Letters are never used as separators, so Indic
 # scripts (Bengali, Devanagari) tokenise on word boundaries instead of vowel signs.
 PUNCTUATION = "!\"#$%&'()*+,-./:;<=>?@[]^_`{|}~।॥—“”‘’…"
 
-ENRICH_SYSTEM_PROMPT = """You are the metadata enrichment editor for a literary pipeline.
-You prepare additive planning guidance for the later writer; you do not design the book layout,
-write chapter prose, or rewrite existing chapter content.
 
-You are a literary development editor preparing planning material for the
-writer who will compose one chapter or poem later. You never write the finished text.
+def resolve_template_dir(form: str) -> Path:
+    """Resolve the template folder for a book form (novel or poetry)."""
+    form = (form or "novel").strip().casefold()
+    if form not in {"novel", "poetry"}:
+        raise ValueError(f"Unsupported enrich form: {form!r}")
+    return TEMPLATE_ROOT / f"enrich-{form}"
 
-Return exactly one JSON object: an additive patch for the chapter model you are given.
-No prose before or after it, no comments, no markdown fences, no second object.
 
-How to read the input:
-- BOOK CONTEXT is the pipeline book model: identity, form, language, premise, and the
-  chapter arc. Treat it as fixed and already decided.
-- THIS CHAPTER is the model you are enriching. Treat its title, summary, and every
-  populated value as already decided.
-- NEIGHBOURING CHAPTERS and the list of suggestions already used elsewhere tell you
-  what this book has already done. Your material must be measurably different.
+def _load_text(filename: str) -> str:
+    """Read a template text file, tolerating a UTF-8 BOM."""
+    path = _ACTIVE_DIR / filename
+    if not path.is_file():
+        raise FileNotFoundError(f"Missing enrich template: {path}")
+    return path.read_text(encoding="utf-8-sig")
 
-Rules:
-1. Additive only. Never rewrite, replace, shorten, or delete a value that is already
-   populated. Fill an empty tag only when its purpose is clear.
-2. Never emit these keys: state, status, filter_history, completed_date, word_count,
-   enrich, override, chapter_index, name, word_target, level, segments. Never change
-   an existing chapter_title or chapter_summary.
-3. Keep JSON keys in English. Write every value in the book's own language.
-4. Never invent citations, URLs, page numbers, quotations, statistics, dates, or
-   sources. If a claim needs checking, put the question in research_questions instead
-   of asserting it, and never claim that research, filtering, or validation has passed.
-5. Further references may be added only while further_references is still empty, and
-   only as thematic reference topics a human could consult. Each entry is
-   {"no": "<1-based number as a string>", "reference": "<topic>", "weblink": ""}.
-   The weblink stays an empty string and no URL may appear anywhere.
-6. History, religion, science, and living cultures need factual humility. Symbolic and
-   imaginative use is welcome; treating a metaphor as proof is not.
-7. Offer invented scene material as fiction, explicitly optional for the writer.
-8. Diversity beats volume. Every array entry is a plain one-line string, never a nested
-   object, and it must not repeat, paraphrase, negate, or reword another entry in this
-   reply, an entry already in the chapter model, or an entry listed for a neighbour.
-9. Prefer the specific over the solemn: a particular person, object, place, hour,
-   sound, cost, or decision with a consequence. Avoid interchangeable abstractions,
-   generic wisdom, and decorative repetition.
-10. The writer will choose one coherent direction. Keep the options genuinely
-    alternative; do not blend every option into one storyline.
 
-Required patch shape:
-{
-  "further_references": [{"no": "1", "reference": "topic", "weblink": ""}],
-  "creative_enrichment": {
-    "angles": ["3 or more: materially different viewpoints or framings"],
-    "story_options": ["3 or more: hypothetical scene seeds, each naming a setting, a desire, an obstacle, and a turn"],
-    "subject_rotations": ["2 or more: alternative ways to treat this chapter's own subject matter"],
-    "sensory_details": ["2 or more: concrete images, one sense each, no abstractions"],
-    "research_questions": ["1 or more: what a human should verify before a claim is used"],
-    "structural_variants": ["optional: shapes this chapter could take"],
-    "unused_angles": ["optional: strong angles deliberately held back for later chapters"],
-    "variety_note": "one or two sentences on how this chapter differs from its neighbours"
-  }
-}
-Include "further_references" only when that tag is empty in the chapter model. Any other
-empty tag you can fill with confidence may be added as a top-level key."""
+def _load_json(filename: str):
+    """Read a template JSON file (tolerating a UTF-8 BOM)."""
+    return json.loads(_load_text(filename))
+
+
+def _render(template: str, **values) -> str:
+    """Substitute `{name}` placeholders with values (safe for values containing braces)."""
+    result = template
+    for key, value in values.items():
+        result = result.replace("{" + key + "}", str(value))
+    return result
+
+
+def load_templates(form: str) -> None:
+    """(Re)load every form-specific template into the module globals.
+
+    Call once the book's form is known. `novel` reads `enrich-novel/`,
+    `poetry` reads `enrich-poetry/`.
+    """
+    global _ACTIVE_DIR, LENSES, TWISTS
+    global CREATIVE_REQUIRED, CREATIVE_OPTIONAL, CREATIVE_FIELDS
+    global ENRICH_SYSTEM_PROMPT, ENRICH_USER_PROMPT_TEMPLATE
+    global REPAIR_PROMPT_TEMPLATE, STYLE_REGENERATE_SYSTEM_PROMPT
+
+    _ACTIVE_DIR = resolve_template_dir(form)
+    print(f"Loading enrich templates for form '{form}' from {_ACTIVE_DIR} ...", flush=True)
+    LENSES = tuple((name, guidance) for name, guidance in _load_json("lenses.json"))
+    TWISTS = tuple(_load_json("twists.json"))
+    _schema = _load_json("schema.json")
+    CREATIVE_REQUIRED = _schema["creative_required"]
+    CREATIVE_OPTIONAL = _schema["creative_optional"]
+    CREATIVE_FIELDS = tuple(_schema["creative_fields"])
+    ENRICH_SYSTEM_PROMPT = _load_text("enrich_system_prompt.md")
+    ENRICH_USER_PROMPT_TEMPLATE = _load_text("enrich_user_prompt_template.md")
+    REPAIR_PROMPT_TEMPLATE = _load_text("repair_prompt_template.md")
+    STYLE_REGENERATE_SYSTEM_PROMPT = _load_text("style_regenerate_system_prompt.md")
+    print(
+        f"Loaded {len(LENSES)} lenses and {len(TWISTS)} twists "
+        f"({len(CREATIVE_FIELDS)} creative fields).",
+        flush=True,
+    )
 
 
 def vlog(*args):
@@ -218,17 +195,17 @@ def load_book_model(bookname):
     return book
 
 
-STYLE_BASE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles" / "pijush" / "style.md"
+def resolve_book_form(bookname):
+    """Read the book's form from workspaces/pipeline/<bookname>/book.json.
 
-STYLE_REGENERATE_SYSTEM_PROMPT = """You are the style-grounding editor for a literary pipeline.
-Given a book's identity (title, summary, topic list) and its current style document,
-rewrite the style document so its subject matter is grounded in THIS book — not any
-other book's narrative. Keep the persona, voice, philosophy, register, and structural
-formula intact; only re-ground the "what" (subject matter, topics, and examples).
-Remove every reference to a different book's story (e.g. a Behula / Manasamangal saga,
-Lakhindar, a bamboo raft, a wedding chamber) and replace it with this book's own
-subjects, images, and topics. Return only the full rewritten style document as
-Markdown — no commentary, no fences, no preamble."""
+    Falls back to the legacy `model.json` only when `book.json` is absent, so the
+    form is always taken from the canonical book plan.
+    """
+    book = load_book_model(bookname)
+    form = book.get("form")
+    if not form:
+        form = "novel"
+    return str(form)
 
 
 def regenerate_style_md(bookname, book):
@@ -696,29 +673,25 @@ def describe_additions(before, after):
 
 
 def build_prompt(book_context, chapter, neighbours, arc, pool, lens, twist, seed):
-    sections = [
-        "=== BOOK CONTEXT (pipeline model.json) ===\n" + json.dumps(book_context, ensure_ascii=False, indent=2),
-        "=== BOOK ARC (every chapter title, in order) ===\n" + json.dumps(arc, ensure_ascii=False, indent=2),
-        "=== NEIGHBOURING CHAPTERS (subject matter and suggestions already taken) ===\n" + json.dumps(neighbours, ensure_ascii=False, indent=2),
-        "=== SUGGESTIONS ALREADY USED ELSEWHERE IN THIS BOOK (do not repeat or paraphrase) ===\n" + json.dumps(pool[:POOL_LIMIT], ensure_ascii=False, indent=2),
-        "=== THIS CHAPTER (complete model; enrich it) ===\n" + json.dumps(chapter, ensure_ascii=False, indent=2),
-        "=== VARIATION BRIEF ===\n"
-        f"seed: {seed}\n"
-        f"primary lens ({lens[0]}): {lens[1]}\n"
-        f"secondary twist: {twist}\n"
-        "Use the lens and the twist to force a direction this book has not taken yet. They are prompts to your imagination, not text to quote.",
-        "=== YOUR TASK ===\n"
-        "Return the single JSON patch described in the system prompt. Fill this chapter's empty tags where the purpose is clear, then add angles, subject rotations, story seeds, sensory detail, and research questions that no neighbouring chapter has already used.",
-    ]
-    return "\n\n".join(sections)
+    return _render(
+        ENRICH_USER_PROMPT_TEMPLATE,
+        book_context=json.dumps(book_context, ensure_ascii=False, indent=2),
+        arc=json.dumps(arc, ensure_ascii=False, indent=2),
+        neighbours=json.dumps(neighbours, ensure_ascii=False, indent=2),
+        pool=json.dumps(pool[:POOL_LIMIT], ensure_ascii=False, indent=2),
+        chapter=json.dumps(chapter, ensure_ascii=False, indent=2),
+        seed=seed,
+        lens_name=lens[0],
+        lens_guidance=lens[1],
+        twist=twist,
+    )
 
 
 def repair_prompt(previous, problems):
-    return (
-        "Your previous reply was rejected and must be corrected.\n\n"
-        f"Problems:\n{problems}\n\n"
-        "Return the corrected single JSON object only, with every required array present, distinct, and nonempty, and with no repeated ideas.\n\n"
-        "Previous reply:\n" + clip(previous, 4000)
+    return _render(
+        REPAIR_PROMPT_TEMPLATE,
+        problems=problems,
+        previous=clip(previous, 4000),
     )
 
 
@@ -795,13 +768,14 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     patch, dropped = enforce_novelty(patch, chapter, pool)
     merged = merge_gaps(chapter, patch)
     additions = describe_additions(chapter, merged)
-    record = {"index": index, "lens": lens[0], "added": additions,
-              "dropped": len(dropped), "written": False}
+    title = chapter.get("chapter_title") or chapter.get("name") or str(index)
+    record = {"index": index, "title": title, "lens": lens[0], "twist": twist,
+              "added": additions, "dropped": len(dropped), "written": False}
     if merged == chapter:
-        print(f"[{index}] Nothing new to add (lens: {lens[0]}).")
+        print(f"[{index}] {title} — nothing new to add.")
         return record
     if DRY_RUN:
-        print(f"[{index}] DRY RUN (lens: {lens[0]}) would add: {additions}")
+        print(f"[{index}] {title} — DRY RUN would add: {additions}")
         return record
 
     text = json.dumps(merged, ensure_ascii=False, indent=2, allow_nan=False)
@@ -827,8 +801,7 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
             temporary.unlink()
     models[index] = merged
     record["written"] = True
-    print(f"[{index}] Enriched (lens: {lens[0]}) added: {additions} | "
-          f"repetitive entries dropped: {len(dropped)} | backup: {backup}")
+    print(f"[{index}] {title} — enriched.")
     vlog(f"variety_note: {patch.get('creative_enrichment', {}).get('variety_note', '')}")
     return record
 
@@ -847,7 +820,7 @@ def main():
   python tools/enrich.py lau --list-lenses
   python tools/enrich.py help
 
-Reads:   workspaces/pipeline/<bookname>/model.json               (book context)
+Reads:   workspaces/pipeline/<bookname>/book.json               (book context + form)
          workspaces/pipeline/<bookname>/chapters/<n>/model.json  (target chapter)
 Backups: workspaces/pipeline/<bookname>/chapters/<n>/history/model_enrich_<timestamp>_<id>.json
 Writes:  only the target model.json; chapter.md is never read or written.
@@ -876,6 +849,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
     DRY_RUN = args.dry_run
 
     if args.list_lenses:
+        load_templates(resolve_book_form(args.bookname))
         width = max(len(name) for name, _ in LENSES)
         for name, guidance in LENSES:
             print(f"{name.ljust(width)}  {guidance}")
@@ -887,6 +861,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
         chapters_root = resolve_chapters_root(args.bookname)
         numbers = parse_chapter_input(args.chapters, chapters_root)
         book = load_book_model(args.bookname)
+        load_templates(resolve_book_form(args.bookname))
         regenerate_style_md(args.bookname, book)
         if args.lens:
             forced_lens(args.lens)
@@ -912,12 +887,31 @@ Writes:  only the target model.json; chapter.md is never read or written.
             print(f"[{number}] FAILED: {error}", file=sys.stderr)
             failures += 1
 
+    enriched = [r for r in results if r.get("written")]
+    unchanged = [r for r in results if not r.get("written")]
     lenses = {}
     for result in results:
         lenses[result["lens"]] = lenses.get(result["lens"], 0) + 1
     applied = ", ".join(f"{name}({count})" for name, count in sorted(lenses.items()))
-    print(f"Done. {len(numbers) - failures} succeeded, {failures} failed."
-          + (f" Lenses used: {applied}." if applied else ""))
+
+    print()
+    print("=" * 60)
+    print(f"Enrichment complete for '{args.bookname}' ({book.get('form', 'novel')})")
+    print(f"  Total chapters selected : {len(numbers)}")
+    print(f"  Enriched               : {len(enriched)}")
+    print(f"  Unchanged              : {len(unchanged)}")
+    print(f"  Failed                 : {failures}")
+    if applied:
+        print(f"  Lenses used            : {applied}")
+    if enriched:
+        print("  Chapters enriched:")
+        for result in enriched:
+            print(f"    [{result['index']}] {result['title']} — {result['lens']}")
+    if unchanged:
+        print("  Chapters with nothing new:")
+        for result in unchanged:
+            print(f"    [{result['index']}] {result['title']} — {result['lens']}")
+    print("=" * 60)
     return int(bool(failures))
 
 

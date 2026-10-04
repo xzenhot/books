@@ -1476,6 +1476,10 @@ def enrich_workflow(bookname: str, target: str) -> None:
     numbers = enrich.parse_chapter_input(target, chapters_root)
     book = enrich.load_book_model(bookname)
 
+    # Load the form-specific templates (lenses, twists, prompts) before enriching,
+    # so the engine never runs with an empty lens/twist set.
+    enrich.load_templates(enrich.resolve_book_form(bookname))
+
     # Ensure the pipeline style.md exists and is grounded in the current book.
     enrich.regenerate_style_md(bookname, book)
 
