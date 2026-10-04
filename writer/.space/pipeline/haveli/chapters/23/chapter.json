@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "written",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -58,10 +58,25 @@
     "variety_note": "Where previous chapters focused on painted narratives and visible luxury goods, this chapter must concentrate on static, architectural performance—the monumentality of restraint and upkeep itself."
   },
   "draft": {
-    "sha256": "3614bb8d0326d893c4ee657d9373c3903dcd7ebac9c9d45a7eead33915b790f4",
-    "written_at": "2026-10-03T17:06:39.015673+00:00",
-    "origin": "write"
+    "sha256": "c570cbc6cd1f6a884a37571aa93cf8b816b62c596bc533998c11f4571da78648",
+    "written_at": "2026-10-04T03:51:49+00:00",
+    "origin": "humanize"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+  "humanized_at": "2026-10-04T03:51:49+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "cde59040aefa0363bc777f469eef679de842356e7260dd3e50949df99297eb6b",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T03:53:58+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

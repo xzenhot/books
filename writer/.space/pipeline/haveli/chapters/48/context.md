@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"completed"
+"written"
 ```
 
 ## $["segments"][0]
@@ -219,13 +219,13 @@
 ## $["draft"]["sha256"]
 
 ```json
-"1e552a649671a264f8d58bfd352db5dc36331c7509ed939534dcb53dd1b79a5e"
+"da5720f2e6aa6db9684fb16f9296a88901c2b91b8df192a8ff8dd298dc7c1166"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-09-28T18:39:29.927829+00:00"
+"2026-10-03T17:13:07.509855+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -244,70 +244,4 @@ true
 
 ```json
 "2026-09-27T18:22:17+00:00"
-```
-
-## $["quality_review"]["status"]
-
-```json
-"passed"
-```
-
-## $["quality_review"]["sha256"]
-
-```json
-"1e552a649671a264f8d58bfd352db5dc36331c7509ed939534dcb53dd1b79a5e"
-```
-
-## $["quality_review"]["reviewer"]
-
-```json
-"quality-agent"
-```
-
-## $["quality_review"]["reviewed_at"]
-
-```json
-"2026-09-28T18:41:21+00:00"
-```
-
-## $["quality_review"]["notes"][0]
-
-```json
-"Default quality audit passed — poem is written, enriched, and meets quality parameters."
-```
-
-## $["quality_review"]["notes"][1]
-
-```json
-"Philosophical depth: present"
-```
-
-## $["quality_review"]["notes"][2]
-
-```json
-"Metaphorical richness: present"
-```
-
-## $["quality_review"]["notes"][3]
-
-```json
-"Human accessibility: present"
-```
-
-## $["quality_review"]["notes"][4]
-
-```json
-"Civilizational relevance: present"
-```
-
-## $["quality_review"]["notes"][5]
-
-```json
-"Literary quality: present"
-```
-
-## $["quality_review"]["notes"][6]
-
-```json
-"Ethical framework: present"
 ```

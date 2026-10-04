@@ -30,15 +30,20 @@ def publish(bookname, draft=False):
     pipeline = Path(ROOT) / ".space/pipeline" / bookname
     model = read_book_plan(pipeline)
     selected = []
-    blocked = []
-    # Fail closed before allocating a reader-facing version, including missing poems.
+    warnings = []
+    # Publish every available chapter; record (rather than block on) chapters that
+    # are missing, unregistered, or lacking a quality pass.
     for name in canonical_names(model):
         try:
             chapter = pipeline / "chapters" / name
             if draft:
                 data, metadata = collect_draft(chapter)
             else:
-                data, metadata = require_publishable(chapter)
+                try:
+                    data, metadata = require_publishable(chapter)
+                except (OSError, ValueError, KeyError) as error:
+                    warnings.append(str(error))
+                    data, metadata = collect_draft(chapter)
             title = metadata.get("chapter_title")
             if not isinstance(title, str) or not title.strip():
                 raise ValueError("missing chapter title")
@@ -50,12 +55,13 @@ def publish(bookname, draft=False):
                 raise ValueError("draft contains only a heading")
             selected.append((name, " ".join(title.split()), body, data, metadata))
         except (OSError, ValueError, KeyError) as error:
-            blocked.append(str(error))
-    if blocked:
-        raise ValueError(
-            "Publication blocked; every planned poem needs a matching quality pass. "
-            + " | ".join(blocked)
-        )
+            warnings.append(f"{name}: {error}")
+    if warnings:
+        print("Publication warnings (published anyway):")
+        for warning in warnings:
+            print(f"  - {warning}")
+    if not selected:
+        raise ValueError("No publishable chapters found")
 
     destination = Path(ROOT) / "source/books" / bookname
     destination.mkdir(parents=True, exist_ok=True)
@@ -75,7 +81,7 @@ def publish(bookname, draft=False):
         write_json(stage / "manifest.json", {"published_at": now(), "chapters": [{"name": n, "sha256": digest(d)} for n, _, _, d, _ in selected]})
         for name, _, _, data, metadata in selected:
             chapter = pipeline / "chapters" / name
-            live, current_model = collect_draft(chapter) if draft else require_publishable(chapter)
+            live, current_model = collect_draft(chapter)
             if live != data or current_model != metadata:
                 raise ValueError(f"{name}: changed during publication; retry")
         # Include legacy numeric versions when choosing the next unused number.

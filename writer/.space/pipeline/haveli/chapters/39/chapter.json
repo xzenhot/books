@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "written",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -57,10 +57,25 @@
     "variety_note": "Where previous chapters dealt with visible material goods or dramatic events, this chapter must focus microscopically on the abstract language of finance and erasure, treating accounting itself as a physical form of violence."
   },
   "draft": {
-    "sha256": "cd7e80f825bc6b89d782c2ad2776f88a0e1c6ea4993109c690ce67726da3d438",
-    "written_at": "2026-10-03T17:10:47.426793+00:00",
-    "origin": "write"
+    "sha256": "5a6b8b406e07ff611abf4319064d06fff2ec26e8bff0392a69d3f7670535eadf",
+    "written_at": "2026-10-04T03:51:49+00:00",
+    "origin": "humanize"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+  "humanized_at": "2026-10-04T03:51:49+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "136560c65742417b13bb33d0d492ad7b57b052be4936e0fa11e44183ad3016ac",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T03:53:58+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

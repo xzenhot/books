@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "written",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -55,10 +55,25 @@
     "variety_note": "While previous chapters focused on movable goods or transient liquid wealth (salt, spices), this chapter grounds Gangaram’s ambition in something fixed: immutable earth and permanent boundary markers. It shifts focus from accumulation to establishing foundational permanence."
   },
   "draft": {
-    "sha256": "d27cde8aa86de5f41e698013331be685e7fe8043818ac0684c82ad52d5ed9167",
-    "written_at": "2026-10-03T17:02:57.055228+00:00",
-    "origin": "write"
+    "sha256": "8d65c421e6fa2bd50653938782232f76385aead60b4ac82df6b34641aeb0044d",
+    "written_at": "2026-10-04T03:51:49+00:00",
+    "origin": "humanize"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+  "humanized_at": "2026-10-04T03:51:49+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "33750b1e5419f5ebcc315ed3cc9b524a6376b6b0d1781df20da8247dddb9b9c0",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T03:53:58+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

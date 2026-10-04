@@ -40,6 +40,8 @@ Supported command families are defined by the two start-point specs. The backlog
 /book <bookname> humanize *|all|<n>
 /book <bookname> eval all|*|<n>|<range>|continue
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
+/book <bookname> chapter <n>|all|continue [<style>]      # alias of write (routed through the write agent)
+/book <bookname> story <n>|all|continue [<style>]         # alias of write (routed through the write agent)
 /book <bookname> style [<style>]
 /book <bookname> translate <n>|all|continue <language>
 /book <bookname> publish [<language>]
@@ -170,7 +172,7 @@ theme, workshop
 Known lifecycle agents:
 
 ```text
-init, scaffold, write, chapter, style, translate, publish, gist, reframe, eval
+init, scaffold, write, style, translate, publish, gist, reframe, eval
 ```
 
 Known post-scaffold agents:
@@ -249,8 +251,7 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/enrich/agent.md
 .framework/agents/humanize/agent.md
 .framework/agents/eval/agent.md
-.framework/agents/poetry/agent.md
-.framework/agents/story/agent.md
+.framework/agents/write/agent.md
 .framework/agents/style/agent.md
 .framework/agents/translate/agent.md
 .framework/agents/publish/agent.md
@@ -263,28 +264,16 @@ Agents are the only valid runtime entry points for skill-backed behavior.
 ### Skills
 
 ```text
-.framework/skills/contemporary/SKILL.md
-.framework/skills/correctness/SKILL.md
-.framework/skills/dialogue/SKILL.md
-.framework/skills/geography/SKILL.md
-.framework/skills/history/SKILL.md
-.framework/skills/indian/SKILL.md
-.framework/skills/layout/SKILL.md
 .framework/skills/layout-novel/SKILL.md
 .framework/skills/layout-poetry/SKILL.md
-.framework/skills/mythology/SKILL.md
-.framework/skills/narrative/SKILL.md
-.framework/skills/pacing/SKILL.md
-.framework/skills/philosophy/SKILL.md
-.framework/skills/poeticprose/SKILL.md
+.framework/skills/poetry/SKILL.md
+.framework/skills/novel/SKILL.md
 .framework/skills/workshop-poetry/SKILL.md
 .framework/skills/workshop-novel/SKILL.md
-.framework/skills/quality/SKILL.md
-.framework/skills/research/SKILL.md
-.framework/skills/revision/SKILL.md
-.framework/skills/syntax/SKILL.md
-.framework/skills/theme/SKILL.md
-.framework/skills/translation/SKILL.md
+.framework/skills/quality-poetry/SKILL.md
+.framework/skills/quality-novel/SKILL.md
+.framework/skills/theme-poetry/SKILL.md
+.framework/skills/theme-novel/SKILL.md
 ```
 
 Read skill files only from inside the responsible agent flow.

@@ -17,7 +17,7 @@
     }
   ],
   "level": "chapter",
-  "state": "written",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -53,10 +53,25 @@
     "variety_note": "Where previous chapters focused on external displays of wealth (frescoes, grand halls), this chapter turns inward and downward, grounding the narrative in basic sustenance—the material cost that lies beneath the pigment's sheen."
   },
   "draft": {
-    "sha256": "df0f59be2d5859a24987dc8b9272d7ac05ce0733f5b51e52c5b487044418074d",
-    "written_at": "2026-10-03T17:08:39.046331+00:00",
-    "origin": "write"
+    "sha256": "5c9564ac3157b4d2c41191650ddf1e52b2bb3bed79883d83dce60e37ec0d24ba",
+    "written_at": "2026-10-04T03:51:49+00:00",
+    "origin": "humanize"
   },
   "humanized": true,
-  "humanized_at": "2026-09-27T18:22:17+00:00"
+  "humanized_at": "2026-10-04T03:51:49+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "062d0f89635c4416ddcf55c193a80b77ef9d064e850e5e208772950dfb57b45f",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T03:53:58+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

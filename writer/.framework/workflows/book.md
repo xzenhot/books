@@ -26,7 +26,7 @@ For every `/book [args...]` request, follow this procedure:
    - Otherwise it is `<bookname>`; continue classifying the next argument.
 3. Classify the subcommand (second argument when a `<bookname>` leads):
    - `init`, `backlog`, `layout`, `idea`, or a bare `<bookname>` with no subcommand → **backlog.md**.
-   - `scaffold`, `add`, `filter`, `enrich`, `eval`, `review`, `write`, `style`, `translate`, `publish`, `form`, `config`, `poet`/`poetry`/`poem`, or a `<filter>`/`<agentname>` → **pipeline.md**.
+   - `scaffold`, `add`, `filter`, `enrich`, `eval`, `review`, `write`, `chapter`, `story`, `style`, `translate`, `publish`, `form`, `config`, `poet`/`poetry`/`poem`, or a `<filter>`/`<agentname>` → **pipeline.md**.
 4. Read the delegated workflow spec and execute its matching section.
 5. Append the **Next Steps** section per `.framework/rules/next-steps.md` after **every** command (including read-only, no-op, and error stops).
 
@@ -52,6 +52,8 @@ For every `/book [args...]` request, follow this procedure:
 /book <bookname> humanize *|all|<n>
 /book <bookname> eval all|*|<n>|<range>|continue
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
+/book <bookname> chapter <n>|all|continue [<style>]      # alias of write (write agent → poetry/novel skill)
+/book <bookname> story <n>|all|continue [<style>]         # alias of write (write agent → poetry/novel skill)
 /book <bookname> style [<style>]
 /book <bookname> translate <n>|all|continue <language>
 /book <bookname> publish [<language>]
@@ -83,7 +85,9 @@ For every `/book [args...]` request, follow this procedure:
 | `<bookname> review` | Pipeline | `pipeline.md` | Audit chapters against quality parameters via the review agent; final quality gate before publish. |
 | `<bookname> humanize` | Pipeline | `pipeline.md` | Ensure content is in the target language only; remove non-relevant characters and replace with Bengali equivalents. |
 | `<bookname> eval` | Pipeline | `pipeline.md` | Evaluate pipeline completeness before write/publish. Read-only. |
-| `<bookname> write` | Pipeline | `pipeline.md` | Write finished chapters (story agent for novel, poetry agent for poetry). |
+| `<bookname> write` | Pipeline | `pipeline.md` | Write finished chapters via the write agent (→ poetry/novel skill). |
+| `<bookname> chapter` | Pipeline | `pipeline.md` | Alias of `write` — write chapters via the write agent. |
+| `<bookname> story` | Pipeline | `pipeline.md` | Alias of `write` — write chapters via the write agent. |
 | `<bookname> style` | Pipeline | `pipeline.md` | Transform writer-stage chapters through a style template. |
 | `<bookname> translate` | Pipeline | `pipeline.md` | Translate latest writer-stage chapter versions. |
 | `<bookname> publish` | Pipeline | `pipeline.md` | Promote segments to `source/books/<bookname>/<version>/` and assemble `book.md`. |

@@ -213,19 +213,19 @@
 ## $["draft"]["sha256"]
 
 ```json
-"d45185a767ddaf1d93f55240eda85d7026fed13b9726335e1fbcb79de72dfd8b"
+"f0fbadff1018680ad589f33c80cd8361decb507739d50b9d3bc3d03a5f31e05d"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T15:21:46.139597+00:00"
+"2026-10-03T17:03:54.253033+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
-"poet"
+"write"
 ```
 
 ## $["humanized"]

@@ -17,7 +17,7 @@ file, path, or line — never to an impression.
 
 ## Invocation
 
-The agent is read as a rule (`.framework/rules/self.md`). A host asks:
+The agent is read as a rule (`.framework/rules/self-eval.md`). A host asks:
 
 ```text
 review the framework
@@ -56,7 +56,8 @@ Read these in order. Use them as the source of truth for what *should* exist.
 2. `.framework/workflows/backlog.md`, `book.md`, `pipeline.md` — the specs.
 3. `.framework/rules/command-boundary.md`, `next-steps.md` — the rules.
 4. `.framework/agents/` — every `agent.md`.
-5. `.framework/skills/` — every `SKILL.md`.
+5. `.framework/skills/` — every active `SKILL.md`. Retired/moved skills live under
+   `.framework/filters/` and must not be referenced by any agent or workflow.
 6. `.framework/templates/` — `book.json`, `progress.json`, `stereotypes/`,
    `preset/`, `moods/`, `subjects/`, `styles/`.
 7. `.space/start.md` — user defaults.
@@ -93,10 +94,14 @@ Build the set of roles from the command surface and filter chains. Verify:
   `syntax`, `override`, `quality`) has `.framework/agents/<filter>/agent.md`.
 - Every agent that the workflow says "invokes a skill" has a matching
   `.framework/skills/<skill>/SKILL.md`.
+- **Routing policy is honored:** skills are reached only through an agent
+  (`workflow → agent → skill`). No workflow may execute a skill directly, and
+  no agent may reference a skill that lives under `.framework/filters/` (retired).
 - No agent references a skill folder that does not exist (e.g. an agent that
   says "read `.framework/skills/<x>/SKILL.md`" where `<x>` is absent).
 
-Record every missing agent or missing skill as a defect.
+Record every missing agent, missing skill, direct skill call from a workflow,
+and every dangling reference into a moved/retired skill as a defect.
 
 ### 4. Template & schema validity (10)
 
