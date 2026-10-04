@@ -1,0 +1,7 @@
+# The Pigment
+
+The colors begin not as color but as earth — ochre dug from the hills, malachite crushed from green stone, lapis worth more than the painter will earn in a year — and the painter grinds them himself, because to grind the pigment is to know it, the way a cook knows the spice under his palm.
+
+This morning he works the red, and the mineral stains his fingers the color of dried blood, and in the shallow bowl of water beside the stone he catches his own reflection — a face blurred and trembling on the surface of the crushed color. He looks at it for a long time. The face does not look back with recognition; it looks back like a man seeing himself for the first time, as if the red has somehow shown him what the mirror never could.
+
+The promise of the pigment is simple and terrible: that the color will outlast the flesh. His hand will fail and fall away, and the town will forget his name, but the red he grinds today will still be red on the wall a hundred years from now, and the god he paints with it will still be stepping out of his plaster. The earth, he thinks, is the only thing that remembers. It was here before him and will be here after him, and it has swallowed his sweat and his charcoal and, soon, will swallow the rest of him too — and in return it gives him this, a color that will remember him when he is gone, the way a stone remembers the river that passed over it.

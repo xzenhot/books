@@ -1,0 +1,7 @@
+# The Patron's Eye
+
+The merchant arrives at noon, when the wall is brightest and the paint has begun to harden, and he does not look at the painter. He looks at the wall the way a man looks at a balance in his own ledger — measuring, weighing, counting what has been bought and whether it is worth the coin.
+
+He walks the length of the fresco and back, his hands clasped behind him, his face giving away nothing. The god on the wall pleases him; the steam engine pleases him more, because it is new and it is his and no other merchant in Mandawa has one. He asks no question about how the colors were ground, or what the hand paid, or who mixed the lime. The wall is a product, finished and fine, and the merchant sees in it only the one thing he ever sees in anything: the value.
+
+Then he nods, once, and leaves satisfied, and the painter is left alone in the courtyard with the thing the patron never saw. The struggle is invisible to that eye by design — the patron did not pay for the struggle, he paid for the blossom, and he got exactly what he paid for. Standing in the sudden quiet, the painter understands the price of being bought: that a work can be admired to the last coin and still be utterly unseen, that the eye which pays is almost never the eye which knows. The wall will be famous. The hand that made it will be forgotten. And both facts were settled the moment the merchant nodded.

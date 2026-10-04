@@ -147,7 +147,7 @@ The full narrative foundation. For novels: premise, setting & era, characters, t
 
 The chapter-layout plan. This is the blueprint that tells `scaffold` exactly how many chapters to build and how each chapter is laid out. If there are more than 10 chapters, derive it in batches of 10 to minimize token context. It must contain:
 
-- **Identity fields** — `book_name`, `book_long_title`, `generic` (genre), `era`, `language`, `target_audience`, `chapter_count`, `created_at`, `user_name`, `gist`, and `form`.
+- **Identity fields** — `book_name`, `book_long_title`, `generic` (genre), `era`, `language`, `target_audience`, `chapter_count`, `factory` (`online` or `offline`), `created_at`, `user_name`, `gist`, and `form`.
 - **`book_summary`** — a 5–10 sentence paragraph outlining the complete story, derived from the epic.
 - **`chapters`** — an ordered array, one entry per chapter. Each entry carries `chapter_index`, `name`, `chapter_title`, `chapter_summary`, `word_target`, and `further_references`.
 - **`all_characters`** — array for novels; omitted or empty for poetry.

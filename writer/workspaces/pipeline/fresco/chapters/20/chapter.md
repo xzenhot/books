@@ -1,0 +1,7 @@
+# The Immortality of Struggle
+
+In the end the painter lets the struggle be seen, and it is the bravest thing he ever does, and it costs him everything he spent a lifetime hiding. Not the struggle of a single bad night, but the whole of it — the waste, the failure, the ache, the anonymity, the years of working against the sleep of everyone else — laid bare at last, not as a confession but as a signature. And when he does, he finds the one thing the blossom never gave him: he is known. Not for the finished wall, which was always going to fade, but for the labor, which was always going to remain.
+
+The blossom was the mortal part, and the world loved it, and it is gone now or going. The struggle was the immortal part, and the world never looked at it, and it is the only thing left. The night outlives the praise. The hand outlives the wall. And what survives, when the gold has flaked and the color has dimmed and the town has forgotten the merchant's name, is not the thing that was made but the making itself — the sleepless hours, sealed in lime, that will not consent to be finished even now.
+
+He does not know, standing at the end of it, whether he won or lost. The question no longer seems to matter. What matters is that he worked, and the working was the point all along, and that the one true signature a man can leave on the world is not the blossom everyone saw but the struggle nobody did. The night ends. The town wakes. And the wall — warm, and waiting, and still half-finished — goes on.

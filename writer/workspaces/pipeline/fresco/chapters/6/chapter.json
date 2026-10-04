@@ -1,0 +1,27 @@
+{
+  "chapter_index": 6,
+  "name": "6",
+  "word_target": 500,
+  "chapter_title": "The Aching Hand",
+  "chapter_summary": "The body's toll: the knuckle, the spine, the eye. The poem follows the cramp and the strain of the craft that wears its maker down even as he works on, and asks what the body is paid for its devotion.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "workshop",
+  "segments": [
+    1
+  ],
+  "workshop": {
+    "source_context": "gist-and-epic",
+    "content_shape": "flat-poetic-prose",
+    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The body's toll: the knuckle, the spine, the eye. The poem follows the cramp and the strain of the craft that wears its maker down even as he works on, and asks what the body is paid for its devotion."
+  },
+  "filter_history": [
+    {
+      "ran_at": "2026-10-05T03:04:43+05:30",
+      "filter": "workshop"
+    }
+  ],
+  "workshop_skill": "workshop-poetry",
+  "topic": "The Aching Hand",
+  "source_context": "gist-and-epic"
+}

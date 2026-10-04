@@ -38,21 +38,36 @@ The `factory` value governs how every workflow, agent, and skill must run:
 - Read the `factory` value before executing anything, and never cache it across
   commands — re-read the authoritative `book.json` for the phase on every run.
 
-### Per-Invocation Offline Override
+### Agent-Specific Defaults
 
-In an **online** book, any agent, workflow, or skill may still be invoked with an
-explicit **`offline`** parameter. This is a scoped, per-invocation override:
+The `factory` field is the standing mode for the book. When it is absent (or
+before the book plan exists), each agent falls back to its own default:
 
-- Only the **execution of that single invocation** runs offline (using the
-  repository Python CLI, `.tools/*.py`, exactly as the workflows specify).
+| Agent / command | Default when `factory` is absent |
+|---|---|
+| `scaffold` | `offline` (structural — use the repository Python CLI) |
+| `publish` | `offline` (structural — use the repository Python CLI) |
+| All other agents, workflows, and skills | `online` (agentic — no Python) |
+
+A resolved `factory` field always overrides these per-agent defaults.
+
+### Per-Invocation Mode Override
+
+Any agent, workflow, or skill may still be invoked with an explicit
+**`offline`** or **`online`** parameter, regardless of the book's resolved
+`factory` mode. This is a scoped, per-invocation override:
+
+- Only the **execution of that single invocation** runs in the overridden mode
+  (`offline` → repository Python CLI `.tools/*.py`; `online` → agentic, no
+  Python).
 - The override must **not change any configuration** — it must not write or
   persist the `factory` value back to any `book.json`, and must not alter
   `workspaces/start.md` or any other config file.
-- The user's most common uses of the offline override are structural commands —
-  notably `scaffold` and `publish` — which are safe to run offline even though
-  the book's standing mode is `online`.
-- After the invocation completes, the book's `factory` remains `"online"`
-  unchanged; the override is not sticky.
+- Structural commands such as `scaffold` and `publish` may be run with an
+  explicit `offline` override even when the book's standing mode is `online`
+  (and vice versa).
+- After the invocation completes, the book's `factory` remains unchanged; the
+  override is not sticky.
 
 ## User Configurations
 

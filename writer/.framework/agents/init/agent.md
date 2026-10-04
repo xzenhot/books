@@ -67,7 +67,7 @@ If there are more than 10 chapters, always execute this in batch of 10 to minimi
 
 The `book.json` must contain:
 
-- **Identity fields** — `book_name`, `book_long_title`, `generic` (genre), `era`, `language`, `target_audience`, `chapter_count`, `created_at`, `user_name`, `gist`, and `form` (`novel` or `poetry`).
+- **Identity fields** — `book_name`, `book_long_title`, `generic` (genre), `era`, `language`, `target_audience`, `chapter_count`, `factory` (`online` or `offline`), `created_at`, `user_name`, `gist`, and `form` (`novel` or `poetry`).
 - **`book_summary`** — a 5–10 sentence paragraph outlining the complete story, derived from the epic.
 - **`chapters`** — an ordered array, one entry per chapter. Each entry carries:
   - `chapter_index` — `Introduction`, `1..N`, `Conclusion` for novels; `1..N` for poetry.

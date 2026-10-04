@@ -48,7 +48,7 @@ Merge into the existing chapter model without dropping unrelated fields:
 
 Preserve chapter_index, level, segments, and all existing runtime fields. If `chapter.md` is absent, write a basic flat-prose draft using only the chapter model and workshop guidance, with no section headings. If it already exists, do not read or modify it. This is an initial working draft, not final output; later writing agents may revise it under the version-before-overwrite contract.
 
-Write one run summary to workspaces/pipeline/<bookname>/filters/workshop/filter-summary.md. Include the processed chapters, word targets, source grounding, and any unresolved research need. Do not write runtime content into other filter folders.
+Report the run summary on screen (do not write a `filter-summary.md` file). Include the processed chapters, word targets, source grounding, and any unresolved research need. Do not write runtime content into other filter folders.
 
 ## Guardrails
 
