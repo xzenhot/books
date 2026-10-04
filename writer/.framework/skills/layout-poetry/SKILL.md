@@ -163,7 +163,7 @@ For a new scaffold, set all statuses to `pending`, `completed_chapters` to `0`, 
 
 ### `filters/override/filter.md` — the override command file
 
-The poetry override, like the novel override, is **a filter-file command layer**, not a pipeline-root file. Do **not** create a pipeline-root `override.md`. The `override` filter lives in `filters/override/` and its command file `filters/override/filter.md` is seeded at scaffold from `.framework/filters/override/agent.md` (dynamically customized for the poetry form and the pipeline's actual context), with an empty `## Instructions` section for the human.
+The poetry override, like the novel override, is **a filter-file command layer**, not a pipeline-root file. Do **not** create a pipeline-root `override.md`. The `override` filter lives in `filters/override/` and its command file `filters/override/filter.md` is seeded at scaffold from `.framework/filters/override/SKILL.md` (dynamically customized for the poetry form and the pipeline's actual context), with an empty `## Instructions` section for the human.
 
 ## Chapter And Segment State
 
@@ -222,9 +222,9 @@ For each named filter folder, scaffold only the registry entry in `filters.json`
 
 Leave runtime content empty unless the active workflow explicitly runs that filter.
 
-**Override command file (poetry customization):** the `override` filter is the one structural exception. Its exact seeding content is **dynamically derived at scaffold time** from `.framework/filters/override/agent.md` plus the poetry stereotype index at `.framework/templates/stereotypes/poetry/readme.md` — do not treat this paragraph as the fixed recipe. Before you create the override file, read both and let them govern the shape:
+**Override command file (poetry customization):** the `override` filter is the one structural exception. Its exact seeding content is **dynamically derived at scaffold time** from `.framework/filters/override/SKILL.md` plus the poetry stereotype index at `.framework/templates/stereotypes/poetry/readme.md` — do not treat this paragraph as the fixed recipe. Before you create the override file, read both and let them govern the shape:
 
-1. **Read `.framework/filters/override/agent.md`** — the base content for the command file: the override command file is `workspaces/pipeline/<bookname>/filters/override/filter.md`, and it is generated/refreshed from the chapter (or poem) models' context so the human instructions are grounded in what the poems actually contain.
+1. **Read `.framework/filters/override/SKILL.md`** — the base content for the command file: the override command file is `workspaces/pipeline/<bookname>/filters/override/filter.md`, and it is generated/refreshed from the chapter (or poem) models' context so the human instructions are grounded in what the poems actually contain.
 2. **Read `.framework/templates/stereotypes/poetry/readme.md`** — the master index of the poetry stereotype folder, for the identity wording and conventions of the poetry form.
 3. **Seed `workspaces/pipeline/<bookname>/filters/override/filter.md`** on first use (not at scaffold), customized for poetry: identity "poetry pipeline", applies to every **poem**, model updates on the poem chapter models under `chapters/<n>/`, instruction scope "every poem" (each topic in `bookseed.txt`).
 4. **Do not create a pipeline-root `override.md`.** All forms share the single override command file at `filters/override/filter.md`.

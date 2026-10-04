@@ -43,7 +43,7 @@ writer/
 /book <bookname> init|backlog|layout [<gist>] [<count>] [form]      # configure the backlog book plan
 /book <bookname> scaffold <gist> count|chapter-count <n> [--form]   # build the pipeline structure
 /book <bookname> <agentname> <chapter>|<n>|all|continue             # run an agent on chapters
-/book <bookname> filter <filter>|*|all                              # run a filter (or the chain)
+/book <bookname> filter <filter> *|all|<n>                       # run a filter on a scope
 /book <bookname> enrich <count>|range|*                             # fuse active filters into one pass
 /book <bookname> write <n>|all|continue                             # write finished chapters
 /book <bookname> style [<style>]                                    # transform writer-stage chapters

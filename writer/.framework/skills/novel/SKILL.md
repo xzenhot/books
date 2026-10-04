@@ -74,7 +74,7 @@ the written content:
 
 `workspaces/pipeline/<bookname>/filters/override/filter.md` is the **pipeline override command file** — a human-authored instruction file created by the scaffold step. It must **always be present** in the pipeline. Apply it to **every** rewrite:
 
-- If the file is somehow missing, recreate its baseline from `.framework/filters/override/agent.md` (form-customized, empty `## Instructions`) before rewriting; if you cannot, rewrite without override and report the missing file.
+- If the file is somehow missing, recreate its baseline from `.framework/filters/override/SKILL.md` (form-customized, empty `## Instructions`) before rewriting; if you cannot, rewrite without override and report the missing file.
 - If the `## Instructions` section (below the `---` line) is empty, rewrite the chapter normally — no override applies.
 - If it holds instructions (bullets or paragraphs), treat **each one as binding** and apply it as the final layer to the chapter written to `chapters/<n>/chapter.md`.
 - The human's word is final: apply instructions exactly; do not reinterpret, soften, or skip them.

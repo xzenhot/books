@@ -3,49 +3,49 @@
     {
       "order": 1,
       "name": "workshop",
-      "agent": ".framework/filters/workshop/agent.md",
+      "agent": ".framework/filters/workshop/SKILL.md",
       "summary_file": "filter-summary.md",
       "autorun": true
     },
     {
       "order": 2,
       "name": "research",
-      "agent": ".framework/filters/research/agent.md",
+      "agent": ".framework/filters/research/SKILL.md",
       "summary_file": "filter-summary.md",
       "autorun": true
     },
     {
       "order": 3,
       "name": "correctness",
-      "agent": ".framework/filters/correctness/agent.md",
+      "agent": ".framework/filters/correctness/SKILL.md",
       "summary_file": "filter-summary.md",
       "autorun": true
     },
     {
       "order": 4,
       "name": "theme",
-      "agent": ".framework/filters/theme/agent.md",
+      "agent": ".framework/filters/theme/SKILL.md",
       "summary_file": "filter-summary.md",
       "autorun": true
     },
     {
       "order": 5,
       "name": "syntax",
-      "agent": ".framework/filters/syntax/agent.md",
+      "agent": ".framework/filters/syntax/SKILL.md",
       "summary_file": "filter-summary.md",
       "autorun": true
     },
     {
       "order": 6,
       "name": "override",
-      "agent": ".framework/filters/override/agent.md",
+      "agent": ".framework/filters/override/SKILL.md",
       "summary_file": "filter-summary.md",
       "autorun": true
     },
     {
       "order": 7,
       "name": "quality",
-      "agent": ".framework/filters/quality/agent.md",
+      "agent": ".framework/filters/quality/SKILL.md",
       "summary_file": "filter-summary.md",
       "autorun": true
     }

@@ -3,44 +3,38 @@ name: quality
 description: "Use when reviewing a chapter against the seed analysis's quality parameters and revising until it passes — the final audit before a chapter is marked complete. USE FOR: applying the quality metrics (philosophical depth, metaphorical richness, accessibility, resonance, timelessness) to a finished chapter, auditing against the quality bar, looping back to fix defects. DO NOT USE FOR: gathering material (use research), or the initial writing (use poeticprose/narrative)."
 ---
 
-# Quality — Review and Apply Quality Parameters
+# The Quality Agent
 
-You are a quality reviewer. Your task is to audit a finished chapter against the **quality parameters** defined in the seed analysis, and revise it until it passes. This is the final gate before a chapter is marked `completed`.
+This agent is only a dispatcher. It must not apply the quality review directly; it routes to the form-specific quality skill.
 
-## The Quality Parameters
+## Dispatch
 
-The seed analysis (e.g. `workspaces/context/qualities/aurilus.md`) defines the quality metrics. Apply them to every chapter:
+1. Read `workspaces/pipeline/<bookname>/book.json` and the matching chapter model.
+2. **Regenerate the style reference from current context.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy `.framework/templates/stereotypes/poetry/styles/pijush/style.md` into it if missing, without overwriting a human-edited file), then rewrite it from `workspaces/pipeline/<bookname>/book.json`, `bookseed.txt`, and `override.txt` so its subject matter matches this book's topics — re-grounding any stale/unrelated narrative (e.g. a Behula template) to the current book. Keep the voice/philosophy/register intact; only re-ground the "what". If `override.txt` carries a transformation mandate, fold it in.
+3. Resolve the form from the pipeline model first, then the chapter model's `syntax.form`, then the cloned book plan.
+4. If the form is `poetry`, read and invoke `.framework/skills/quality-poetry/SKILL.md`.
+5. If the form is `novel`, read and invoke `.framework/skills/quality-novel/SKILL.md`.
+6. Stop with a clear error if the form is missing or unsupported.
+7. Pass the book name, chapter scope, pipeline paths, chapter model, the pipeline `style.md` path, and chapter draft to the selected skill.
+8. Return the selected skill's chapter-model and command-file results.
 
-- **Philosophical depth** — genuine insight, not wordplay.
-- **Metaphorical richness** — layered, coherent imagery.
-- **Human accessibility** — resonant with a modern reader.
-- **Civilizational relevance** — speaks beyond its moment.
-- **Literary quality** — the prose is crafted, not merely correct.
-- **Ethical framework** — grounded in the reference work's values.
+## Responsibility Boundary
 
-## Method
+The selected skill owns:
 
-1. **Read the seed analysis** — extract the quality metrics and their ratings.
-2. **Audit the chapter** — score it against each metric; note where it falls short.
-3. **Revise** — fix the defects, looping back to any earlier filter (research, correctness, theme, syntax, override) if the root cause lies there.
-4. **Re-audit** — confirm the chapter now passes every metric.
-5. **Record** — mark the `quality_review` filter as `passed` in the chapter's `<n>.json`.
+- generating (or updating) the human-editable `filter.md` from the chapter models' context;
+- applying the human's quality directives to every chapter;
+- auditing each chapter against the seed analysis's quality parameters;
+- recording the `quality_review` result and setting `state` to `"completed"` on pass.
 
-## Rules
+The quality agent must not:
 
-- **Depth over cleverness** — prioritize genuine insight over wordplay.
-- **Consistency** — the prophet's voice is maintained throughout.
-- **Metaphorical coherence** — a seed metaphor is developed fully, not abandoned.
-- **Subject grounding** — the chapter reflects the reference book's wisdom, not just Gibran's poetry.
-- **Emotional resonance** — the chapter moves the reader, not just informs.
-- **Timelessness** — written as if it will be read a hundred years from now.
+- read the backlog or the epic;
+- write final output to `source/books/`;
+- run any earlier filter;
+- discard unrelated chapter-model fields;
+- apply a fixed form to a pipeline whose model declares another form.
 
 ## Output
 
-Record the audit result in the chapter's per-chapter JSON (`<n>.json`) under the `quality_review` filter. A chapter is `completed` only when this filter passes.
-
-## Quality Bar
-
-- **Passes every metric** — no dimension is left weak.
-- **Coherent** — the chapter holds together as a whole.
-- **Resonant** — it moves and inspires, not merely informs.
+Report the resolved form, selected skill, processed chapter scope, the command-file path, and the chapter-model paths updated with the `quality_review` result.

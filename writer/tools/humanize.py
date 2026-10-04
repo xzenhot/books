@@ -189,6 +189,50 @@ def humanize_text(text: str) -> tuple[str, list[dict]]:
     return humanized, replacements
 
 
+def scan_humanize(bookname: str) -> int:
+    """Scan a book's chapter.md files for foreign (non-Bengali) characters and
+    report them, without modifying any file. Returns the number of chapters
+    containing foreign characters."""
+    bookname = validate_bookname(bookname)
+    chapters_root = resolve_chapters_root(bookname)
+    if not chapters_root.exists():
+        raise FileNotFoundError(f"Pipeline not found: {chapters_root}")
+
+    results = []
+    for d in sorted(chapters_root.glob('*'), key=lambda p: p.name):
+        if not d.is_dir() or not d.name.isdigit():
+            continue
+        md = d / 'chapter.md'
+        if not md.exists():
+            continue
+        text = md.read_text(encoding='utf-8-sig')
+        issues = {'chinese': set(), 'urdu': set(), 'latin': set()}
+        for line in text.split('\n'):
+            c = CHINESE_RE.findall(line)
+            u = URDU_RE.findall(line)
+            l = LATIN_RE.findall(line)
+            if c:
+                issues['chinese'].update(c)
+            if u:
+                issues['urdu'].update(u)
+            if l:
+                issues['latin'].update(l)
+        if any(issues.values()):
+            results.append((d.name, issues))
+
+    print(f"Chapters with foreign characters: {len(results)}")
+    for ch, issues in results:
+        details = []
+        if issues['chinese']:
+            details.append(f"chinese={sorted(issues['chinese'])[:5]}")
+        if issues['urdu']:
+            details.append(f"urdu={sorted(issues['urdu'])[:5]}")
+        if issues['latin']:
+            details.append(f"latin_count={len(issues['latin'])}")
+        print(f"  Chapter {ch}: {', '.join(details)}")
+    return len(results)
+
+
 def run_humanize(bookname: str, target: str) -> None:
     """Execute humanization for the given chapter scope."""
     bookname = validate_bookname(bookname)
@@ -301,14 +345,17 @@ def run_humanize(bookname: str, target: str) -> None:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python tools/humanize.py <bookname> [all|*|<n>|<range>|continue]", file=sys.stderr)
+        print("Usage: python tools/humanize.py <bookname> [all|*|<n>|<range>|continue|scan]", file=sys.stderr)
         sys.exit(1)
 
     bookname = sys.argv[1]
     target = sys.argv[2] if len(sys.argv) > 2 else "all"
 
     try:
-        run_humanize(bookname, target)
+        if target == "scan":
+            scan_humanize(bookname)
+        else:
+            run_humanize(bookname, target)
     except (FileNotFoundError, RuntimeError, ValueError) as exc:
         print(f"Error: {exc}", file=sys.stderr)
         sys.exit(1)

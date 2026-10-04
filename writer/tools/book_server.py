@@ -8,8 +8,8 @@ knowing the HTTP server details.
 Run:
     python tools/book_server.py
 
-Configure as an MCP server in your editor (e.g. tools/mcp-vscode.json).
-The underlying HTTP service must be running first (see tools/db/publish_api.py).
+Configure as an MCP server in your editor (e.g. tools/search/mcp-vscode.json).
+The underlying HTTP service must be running first (see tools/search/db/publish_api.py).
 """
 
 import json
