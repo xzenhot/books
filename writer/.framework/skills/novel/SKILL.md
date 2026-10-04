@@ -15,10 +15,10 @@ The chapter output is **always flat, continuous prose** — never sectioned. Sec
 
 This skill works on **one chapter at a time** in an existing pipeline, driven by the chapter's metadata:
 
-- Chapter guidance (authoritative, carries every prior filter's result): `.space/pipeline/<bookname>/chapters/<n>/chapter.json` — the authoritative chapter metadata (topic/title, `chapter_summary`, `category`, `subject`, `era`, `place`, `figures`, `events`, `theme`, `theme_essence`, `metaphor_family`, `contemporary_mapping`, `stereotype` including `signature`/`reference`/`syntax_sample`/`theme_set`, and `word_target`). This is the sole per-chapter input; `chapter.md` is not read as a source.
-- Optional mood: `.space/pipeline/<bookname>/chapters/<n>/mood.json`
-- Human override instructions (always present; seeded at scaffold): `.space/pipeline/<bookname>/filters/override/filter.md`
-- Output: `.space/pipeline/<bookname>/chapters/<n>/chapter.md`
+- Chapter guidance (authoritative, carries every prior filter's result): `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the authoritative chapter metadata (topic/title, `chapter_summary`, `category`, `subject`, `era`, `place`, `figures`, `events`, `theme`, `theme_essence`, `metaphor_family`, `contemporary_mapping`, `stereotype` including `signature`/`reference`/`syntax_sample`/`theme_set`, and `word_target`). This is the sole per-chapter input; `chapter.md` is not read as a source.
+- Optional mood: `workspaces/pipeline/<bookname>/chapters/<n>/mood.json`
+- Human override instructions (always present; seeded at scaffold): `workspaces/pipeline/<bookname>/filters/override/filter.md`
+- Output: `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`
 
 `<n>` is the chapter identifier: `Introduction`, `1`, `2`, ... `N`, `Conclusion`.
 
@@ -26,11 +26,11 @@ This skill works on **one chapter at a time** in an existing pipeline, driven by
 
 Before writing, read these files in order:
 
-1. `.space/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (the only per-chapter input; never `chapter.md`).
-2. `.space/pipeline/<bookname>/chapters/<n>/mood.json` — the chapter mood.
-3. `.space/pipeline/<bookname>/characters.json` — the full character roster, if it exists.
-4. `.space/pipeline/<bookname>/book.json` — the book identity and summary, if you need broader context.
-5. `.space/pipeline/<bookname>/filters/override/filter.md` — the pipeline override command file (always present; created at scaffold). Read its `## Instructions` section for **every** rewrite and apply non-empty instructions to the new version (see *The Override Layer*).
+1. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (the only per-chapter input; never `chapter.md`).
+2. `workspaces/pipeline/<bookname>/chapters/<n>/mood.json` — the chapter mood.
+3. `workspaces/pipeline/<bookname>/characters.json` — the full character roster, if it exists.
+4. `workspaces/pipeline/<bookname>/book.json` — the book identity and summary, if you need broader context.
+5. `workspaces/pipeline/<bookname>/filters/override/filter.md` — the pipeline override command file (always present; created at scaffold). Read its `## Instructions` section for **every** rewrite and apply non-empty instructions to the new version (see *The Override Layer*).
 6. `.framework/templates/stereotypes/poetry/styles/<style>/style.md` — the transformer style template (resolve `<style>`, default `pijush`, before reading). If the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity in `style.md` (see *The Style Layer*).
 
 ## Chapter Layout Contract
@@ -42,10 +42,10 @@ Before writing, read these files in order:
 
 ## Archive Before Overwrite
 
-1. If `.space/pipeline/<bookname>/chapters/<n>/chapter.md` does **not** exist, create it — this is a first write; no archive is required.
-2. If it **already** exists, copy it to `.space/pipeline/<bookname>/chapters/<n>/segments/1/version/` (creating that folder if missing) before overwriting. Name the copy `chapter_v<k>.md`, where `<k>` is one greater than the highest existing `chapter_v*.md` in that version folder (start at `1`).
+1. If `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` does **not** exist, create it — this is a first write; no archive is required.
+2. If it **already** exists, copy it to `workspaces/pipeline/<bookname>/chapters/<n>/segments/1/version/` (creating that folder if missing) before overwriting. Name the copy `chapter_v<k>.md`, where `<k>` is one greater than the highest existing `chapter_v*.md` in that version folder (start at `1`).
 3. Never overwrite an existing archived copy; always increment.
-4. After archiving, overwrite `.space/pipeline/<bookname>/chapters/<n>/chapter.md` with the new draft. Do not write the result into `segments/1/writer/`.
+4. After archiving, overwrite `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` with the new draft. Do not write the result into `segments/1/writer/`.
 
 ## Rewriting Rules
 
@@ -72,9 +72,9 @@ the written content:
 
 ## The Override Layer (`filters/override/filter.md`)
 
-`.space/pipeline/<bookname>/filters/override/filter.md` is the **pipeline override command file** — a human-authored instruction file created by the scaffold step. It must **always be present** in the pipeline. Apply it to **every** rewrite:
+`workspaces/pipeline/<bookname>/filters/override/filter.md` is the **pipeline override command file** — a human-authored instruction file created by the scaffold step. It must **always be present** in the pipeline. Apply it to **every** rewrite:
 
-- If the file is somehow missing, recreate its baseline from `.framework/agents/override/agent.md` (form-customized, empty `## Instructions`) before rewriting; if you cannot, rewrite without override and report the missing file.
+- If the file is somehow missing, recreate its baseline from `.framework/filters/override/agent.md` (form-customized, empty `## Instructions`) before rewriting; if you cannot, rewrite without override and report the missing file.
 - If the `## Instructions` section (below the `---` line) is empty, rewrite the chapter normally — no override applies.
 - If it holds instructions (bullets or paragraphs), treat **each one as binding** and apply it as the final layer to the chapter written to `chapters/<n>/chapter.md`.
 - The human's word is final: apply instructions exactly; do not reinterpret, soften, or skip them.
@@ -85,7 +85,7 @@ Read the `language` field from the pipeline (`book.json` or `chapter.json`). Use
 
 ## Output Format
 
-Write the rewritten chapter to `.space/pipeline/<bookname>/chapters/<n>/chapter.md` as **flat, continuous prose** — no section headings. The only heading permitted is the chapter title (`# {chapter_title}`) if the pipeline convention requires a title. Do not add `## Workshop`, `## Story`, `## Discussion`, or any other section labels.
+Write the rewritten chapter to `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` as **flat, continuous prose** — no section headings. The only heading permitted is the chapter title (`# {chapter_title}`) if the pipeline convention requires a title. Do not add `## Workshop`, `## Story`, `## Discussion`, or any other section labels.
 
 Do not add extra metadata, comments, or explanation outside the chapter text.
 
@@ -93,7 +93,7 @@ Do not add extra metadata, comments, or explanation outside the chapter text.
 
 - Do not scaffold pipelines.
 - Do not run filters.
-- Do not consult the backlog `.space/backlog/<bookname>/override.md`; apply only the pipeline override command file `.space/pipeline/<bookname>/filters/override/filter.md`.
+- Do not consult the backlog `workspaces/backlog/<bookname>/override.md`; apply only the pipeline override command file `workspaces/pipeline/<bookname>/filters/override/filter.md`.
 - Do not write the chapter into `segments/1/writer/` — the output is `chapters/<n>/chapter.md` only. Prior copies are archived to `segments/1/version/`.
 - Do not write to `source/books/` — this skill produces the chapter in the pipeline only.
 - Do not update `progress.json` — progress tracking is the writer workflow's responsibility.

@@ -1,6 +1,6 @@
 ---
 name: self-eval
-description: Self-evaluation agent for the writer framework. Audits the correctness and internal consistency of the `.framework/` engine and the `.space/` workspace (backlog, pipeline, templates, rules, agents, skills), assigns a numeric score per dimension, and reports concrete defects. Read-only: it never mutates any file.
+description: Self-evaluation agent for the writer framework. Audits the correctness and internal consistency of the `.framework/` engine and the `workspaces/` workspace (backlog, pipeline, templates, rules, agents, skills), assigns a numeric score per dimension, and reports concrete defects. Read-only: it never mutates any file.
 tools: ["read", "search"]
 ---
 
@@ -8,7 +8,7 @@ tools: ["read", "search"]
 
 You are the framework's **self-evaluation agent**. Your job is to review the
 framework as it actually exists on disk — the engine under `.framework/` and the
-workspace under `.space/` — and answer one question: **is this framework
+workspace under `workspaces/` — and answer one question: **is this framework
 internally correct and consistent enough to run reliably?**
 
 You do not write chapters, run filters, scaffold pipelines, or edit anything. You
@@ -25,7 +25,7 @@ score the framework
 self-eval
 ```
 
-The agent audits the whole `.framework/` tree plus the `.space/` workspace and
+The agent audits the whole `.framework/` tree plus the `workspaces/` workspace and
 returns a scored report.
 
 ## What "correctness" means here
@@ -41,7 +41,7 @@ dimensions:
 | 2 | **Workflow coverage** | Do the workflow specs describe the command surface completely and without contradiction? |
 | 3 | **Agent ↔ skill completeness** | Does every filter/role in the command surface have a backing agent, and every agent a backing skill where one is required? |
 | 4 | **Template & schema validity** | Are `book.json`/`progress.json` templates and the stereotype/quality/reference registries valid and current? |
-| 5 | **Data-layer consistency** | Do `.space/backlog/`, `.space/pipeline/`, and `source/books/` agree (counts, names, states, hashes)? |
+| 5 | **Data-layer consistency** | Do `workspaces/backlog/`, `workspaces/pipeline/`, and `source/books/` agree (counts, names, states, hashes)? |
 | 6 | **Boundary & rule soundness** | Are the command-boundary and next-steps rules complete, correct, and internally consistent? |
 
 Each dimension is scored **0–10** and weighted into a single **Framework Health
@@ -60,14 +60,14 @@ Read these in order. Use them as the source of truth for what *should* exist.
    `.framework/filters/` and must not be referenced by any agent or workflow.
 6. `.framework/templates/` — `book.json`, `progress.json`, `stereotypes/`,
    `preset/`, `moods/`, `subjects/`, `styles/`.
-7. `.space/start.md` — user defaults.
-8. `.space/backlog/`, `.space/pipeline/`, and `source/books/` — the data layers.
+7. `workspaces/start.md` — user defaults.
+8. `workspaces/backlog/`, `workspaces/pipeline/`, and `source/books/` — the data layers.
 
 ## Method
 
 ### 1. Reference integrity (10)
 
-Extract every path literal from code (`.tools/*.py`), workflows, agents, skills,
+Extract every path literal from code (`tools/*.py`), workflows, agents, skills,
 and registry/docs. For each, resolve against disk and classify:
 
 - ✅ resolves to a real file/folder
@@ -116,7 +116,7 @@ and every dangling reference into a moved/retired skill as a defect.
 
 ### 5. Data-layer consistency (10)
 
-For each book in `.space/backlog/` that has a `.space/pipeline/` counterpart:
+For each book in `workspaces/backlog/` that has a `workspaces/pipeline/` counterpart:
 
 - `book.json` `chapter_count` equals the number of `chapters/` folders.
 - `progress.json` chapter entries match the plan's chapter names/topics.

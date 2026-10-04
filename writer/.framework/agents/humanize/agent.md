@@ -22,10 +22,10 @@ This agent ensures that a chapter's draft is written entirely in the target lang
 
 The humanize agent must:
 
-1. **Stop if the pipeline is missing** — if `.space/pipeline/<bookname>/` does not exist, halt and tell the caller to run `scaffold` first.
-2. **Read the chapter model** at `.space/pipeline/<bookname>/chapters/<n>/chapter.json`.
+1. **Stop if the pipeline is missing** — if `workspaces/pipeline/<bookname>/` does not exist, halt and tell the caller to run `scaffold` first.
+2. **Read the chapter model** at `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json`.
 3. **Verify quality**: `quality_review.status` must be `"passed"` and `quality_review.sha256` must match the current draft hash. Stop if quality has not passed — humanize runs only after quality review.
-4. **Read the draft** at `.space/pipeline/<bookname>/chapters/<n>/chapter.md`.
+4. **Read the draft** at `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`.
 5. **Ensure the content is in the target language only.** No non-target-language character may remain outside a quotation-mark pair.
 6. **Humanize non-relevant characters.** Scan the draft for foreign-language characters embedded within Bengali text. Guess the Bengali equivalent and replace the foreign character with it, making the text continuous.
 7. **Archive the prior draft** before replacing it: copy the current `chapter.md` to `history/humanize_<timestamp>.md`.

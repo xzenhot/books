@@ -51,7 +51,7 @@ Use this table to choose the recommended follow-up command. Remember the boundar
 
 ## Determining the Next Filter
 
-When recommending a single next filter, look up the current filter chain in `.space/pipeline/<bookname>/filters/filters.json` and suggest the filter with the next higher `order` value after the one just completed. If the completed filter was the last in the chain, recommend `write all` (or `publish` if chapters are already written) instead.
+When recommending a single next filter, look up the current filter chain in `workspaces/pipeline/<bookname>/filters/filters.json` and suggest the filter with the next higher `order` value after the one just completed. If the completed filter was the last in the chain, recommend `write all` (or `publish` if chapters are already written) instead.
 
 ## Format
 

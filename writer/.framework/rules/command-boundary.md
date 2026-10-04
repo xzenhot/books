@@ -4,14 +4,14 @@ The `/book` workflow is strictly divided into **backlog commands** and **pipelin
 
 ## User Configurations
 
-Before applying this rule, read `.space/start.md` — the user-maintained default configuration. It is the single source of truth for user-specific default values (form, chapter count, style, word targets, presets, filter chains, search provider, and any other user overrides). If `.space/start.md` declares a value that differs from a default here or elsewhere, the user configuration wins. If no user-specific value is declared, fall back to the framework defaults.
+Before applying this rule, read `workspaces/start.md` — the user-maintained default configuration. It is the single source of truth for user-specific default values (form, chapter count, style, word targets, presets, filter chains, search provider, and any other user overrides). If `workspaces/start.md` declares a value that differs from a default here or elsewhere, the user configuration wins. If no user-specific value is declared, fall back to the framework defaults.
 
 ## Backlog commands (1–3)
 
 These commands operate only inside the backlog folder:
 
 ```text
-.space/backlog/<bookname>/
+workspaces/backlog/<bookname>/
 ```
 
 They are allowed to create, read, or modify only the backlog files:
@@ -32,17 +32,17 @@ The backlog commands are:
 
 ### Invariants
 
-- A backlog command must **never** create, read, or modify any file under `.space/pipeline/<bookname>/`.
+- A backlog command must **never** create, read, or modify any file under `workspaces/pipeline/<bookname>/`.
 - A backlog command must **never** create, read, or modify any file under `source/books/<bookname>/`.
 - If a pipeline already exists, backlog commands must leave it untouched.
-- If `init` produces a filter chain, it must write the result to `.space/backlog/<bookname>/book.json` (the `filter_chain` field), not to `.space/pipeline/<bookname>/filters/filters.json`.
+- If `init` produces a filter chain, it must write the result to `workspaces/backlog/<bookname>/book.json` (the `filter_chain` field), not to `workspaces/pipeline/<bookname>/filters/filters.json`.
 
 ## Pipeline commands (4–10)
 
 These commands operate only on the pipeline and the final output folder:
 
 ```text
-.space/pipeline/<bookname>/
+workspaces/pipeline/<bookname>/
 source/books/<bookname>/
 ```
 
@@ -60,7 +60,7 @@ The pipeline commands are:
 
 ### Invariants
 
-- A pipeline command must **never** create, modify, or delete `.space/backlog/<bookname>/storyline.md` or `.space/backlog/<bookname>/book.json`.
+- A pipeline command must **never** create, modify, or delete `workspaces/backlog/<bookname>/storyline.md` or `workspaces/backlog/<bookname>/book.json`.
 - A pipeline command may read the backlog as read-only input (for example, scaffold reads `storyline.md` and `book.json`), but it must never write there.
 - If the required pipeline does not exist, a pipeline command must stop and tell the user to run `scaffold` first.
 

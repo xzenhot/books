@@ -9,7 +9,7 @@ Use this skill for a novel pipeline to assign one chapter its **theme** (the phi
 
 ## Inputs (only these)
 
-1. `.space/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter's metadata. This is the only per-chapter input; `chapter.md` is an output file owned by the write path and is never read.
+1. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter's metadata. This is the only per-chapter input; `chapter.md` is an output file owned by the write path and is never read.
 
 Everything you need is in the chapter model.
 

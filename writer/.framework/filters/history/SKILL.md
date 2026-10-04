@@ -31,7 +31,7 @@ You are a historical researcher. Your task is to gather and verify **historical 
 
 ## Output
 
-Write research to `.space/pipeline/<bookname>/chapters_research/<chapter>.json`, structured so the writer can draw on it per chapter. Include source notes.
+Write research to `workspaces/pipeline/<bookname>/chapters_research/<chapter>.json`, structured so the writer can draw on it per chapter. Include source notes.
 
 ## Weaving into Narrative
 

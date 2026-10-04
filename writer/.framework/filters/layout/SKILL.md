@@ -12,7 +12,7 @@ This skill is a compatibility shim. The top-level writer agent should orchestrat
 
 ## Source Of Truth
 
-This dispatcher must route to the form-specific skill and stop there. Do not inspect existing book pipelines such as `.space/pipeline/book_wife/` to infer scaffold conventions.
+This dispatcher must route to the form-specific skill and stop there. Do not inspect existing book pipelines such as `workspaces/pipeline/book_wife/` to infer scaffold conventions.
 
 ## Dispatch Rule
 
