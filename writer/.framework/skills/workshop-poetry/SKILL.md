@@ -12,14 +12,14 @@ Use this skill for a poetry pipeline after scaffold and before research or later
 Read, in order:
 
 1. The pipeline book plan (cloned from the backlog):
-   - .space/pipeline/<bookname>/book.json
+   - workspaces/pipeline/<bookname>/book.json
 2. The matching chapter model (the only per-chapter input):
-   - .space/pipeline/<bookname>/chapters/<n>/chapter.json
+   - workspaces/pipeline/<bookname>/chapters/<n>/chapter.json
 3. The backlog sources:
-   - .space/backlog/<bookname>/gist.md
-   - .space/backlog/<bookname>/storyline.md
+   - workspaces/backlog/<bookname>/gist.md
+   - workspaces/backlog/<bookname>/storyline.md
 
-Never read an existing `.space/pipeline/<bookname>/chapters/<n>/chapter.md`. If it already exists, leave it untouched. The initial draft may be created only when the file is absent.
+Never read an existing `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`. If it already exists, leave it untouched. The initial draft may be created only when the file is absent.
 
 The chapter_summary is the seed, not the finished work. The epic is the primary source of truth: derive every chapter's guidance from the epic's premise, setting, thematic threads, topical structure, and world-building, so each poem is grounded in the book's full narrative foundation rather than the one-line seed alone. Use the gist for the high concept and the epic for the concrete material. Do not invent historical claims, figures, events, or sources that are absent from those inputs.
 
@@ -56,9 +56,9 @@ Preserve chapter_index, level, segments, and all existing runtime fields.
 
 ## Epic Grounding
 
-Before expanding a chapter, read `.space/backlog/<bookname>/storyline.md` in full and locate the material that belongs to this chapter: its entry in the topical structure, the relevant thematic threads, and the world-building images that fit the chapter's subject. Extend the chapter from that material so the poem is recognizably part of the book's larger narrative arc. If the epic has no direct entry for a chapter, derive the story from the epic's premise, setting, and recurring images rather than from the seed alone. The resulting draft must be substantial enough to serve as the input for the full filter chain (research, correctness, theme, syntax, override, quality) that prepares it for publish.
+Before expanding a chapter, read `workspaces/backlog/<bookname>/storyline.md` in full and locate the material that belongs to this chapter: its entry in the topical structure, the relevant thematic threads, and the world-building images that fit the chapter's subject. Extend the chapter from that material so the poem is recognizably part of the book's larger narrative arc. If the epic has no direct entry for a chapter, derive the story from the epic's premise, setting, and recurring images rather than from the seed alone. The resulting draft must be substantial enough to serve as the input for the full filter chain (research, correctness, theme, syntax, override, quality) that prepares it for publish.
 
-Write one run summary to .space/pipeline/<bookname>/filters/workshop/filter-summary.md. Include the processed chapters, target word counts, and any grounding limitation. Report measured word count only when actually measured. Do not write runtime content into other filter folders.
+Write one run summary to workspaces/pipeline/<bookname>/filters/workshop/filter-summary.md. Include the processed chapters, target word counts, and any grounding limitation. Report measured word count only when actually measured. Do not write runtime content into other filter folders.
 
 ## Guardrails
 

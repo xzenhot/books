@@ -9,7 +9,7 @@ A multi-agent literary engine for writing **poetry** and **novels** in a configu
 The system is split into two layers:
 
 - **`.framework/`** — the agents (workflows, role agents, skills) that do the work.
-- **`.space/`** and **`source/`** — the data: inputs (backlog, pipeline) and outputs (finished, versioned books).
+- **`workspaces/`** and **`source/`** — the data: inputs (backlog, pipeline) and outputs (finished, versioned books).
 
 ---
 
@@ -23,7 +23,7 @@ writer/
 │   ├── skills/              # form-specific skills (layout-poetry, layout-novel, workshop-*, …)
 │   ├── rules/               # shared rules
 │   └── templates/           # stereotypes (novel/, poetry/), moods/, subjects/, preset/
-├── .space/                  # inputs & working state
+├── workspaces/                  # inputs & working state
 │   ├── backlog/<book>/     # gist.md, storyline.md, book.json (the book plan)
 │   └── pipeline/<book>/     # model.json, bookseed.txt, progress.json, filters/, chapters/
 ├── source/books/<book>/     # finished, versioned output
@@ -60,7 +60,7 @@ writer/
 ```text
 /book <bookname> <gist>   →  backlog epic (gist.md, storyline.md)
 /book <bookname> init     →  book.json (chapter plan + filter chain)
-/book <bookname> scaffold →  .space/pipeline/<bookname>/ (structure)
+/book <bookname> scaffold →  workspaces/pipeline/<bookname>/ (structure)
 /book <bookname> filter * →  run the filter chain (or enrich)
 /book <bookname> write    →  source/books/<bookname>/<version>/
 /book <bookname> publish  →  source/books/<bookname>/version<k>/
@@ -84,7 +84,7 @@ A book is either **poetry** (verse) or **novel** (prose), declared in the pipeli
 
 ## The Filter Chain
 
-Filters run in a fixed order inside the pipeline. The chain is declared in `book.json`'s `filter_chain` and materialized as `.space/pipeline/<bookname>/filters/filters.json`.
+Filters run in a fixed order inside the pipeline. The chain is declared in `book.json`'s `filter_chain` and materialized as `workspaces/pipeline/<bookname>/filters/filters.json`.
 
 **Poetry:** `workshop → research → correctness → theme → syntax → override → quality`
 
@@ -100,7 +100,7 @@ Each filter is backed by a role agent in `.framework/agents/<filter>/agent.md`. 
 |-------|------|
 | `init` | Configure the backlog book plan (`book.json`). |
 | `scaffold` | Build the pipeline structure (dispatches to layout skills). |
-| `prelayout` / `postlayout` | Pre/post-scaffold preparation and master-prompt seeding. |
+| `layout` | Pre/post-scaffold preparation and master-prompt seeding. |
 | `workshop` | Create the initial chapter frame. |
 | `research` | Ground and enrich the chapter. |
 | `correctness` | Verify factual and cultural claims. |
@@ -141,9 +141,9 @@ Skills are invoked **only through an agent** — never directly. Form-specific l
 
 | Path | Role |
 |------|------|
-| `.space/backlog/<book>/` | `gist.md`, `storyline.md`, `book.json` (the book plan) |
-| `.space/pipeline/<book>/` | `model.json`, `bookseed.txt`, `progress.json`, `filters/`, `chapters/` |
-| `.space/pipeline/<book>/chapters/<n>/` | `chapter.md` (live draft), `model.json`, `history/`, `segments/1/{writer,editor,translator}/` |
+| `workspaces/backlog/<book>/` | `gist.md`, `storyline.md`, `book.json` (the book plan) |
+| `workspaces/pipeline/<book>/` | `model.json`, `bookseed.txt`, `progress.json`, `filters/`, `chapters/` |
+| `workspaces/pipeline/<book>/chapters/<n>/` | `chapter.md` (live draft), `model.json`, `history/`, `segments/1/{writer,editor,translator}/` |
 | `source/books/<book>/<version>/` | finished, versioned reader-facing output |
 
 ---

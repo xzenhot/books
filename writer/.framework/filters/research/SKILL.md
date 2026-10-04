@@ -9,10 +9,10 @@ You are a research librarian. Your task is to gather, verify, and organize the *
 
 ## What Research Produces
 
-- **References** (`.space/context/references/`) — raw source texts.
-- **Qualities** (`.space/context/qualities/`) — seed analyses of reference works.
-- **Themes** (`.space/context/themes/`) — thematic category sets.
-- **Per-chapter research** (`.space/pipeline/<bookname>/chapters_research/`) — chapter-specific material.
+- **References** (`workspaces/context/references/`) — raw source texts.
+- **Qualities** (`workspaces/context/qualities/`) — seed analyses of reference works.
+- **Themes** (`workspaces/context/themes/`) — thematic category sets.
+- **Per-chapter research** (`workspaces/pipeline/<bookname>/chapters_research/`) — chapter-specific material.
 
 ## Method
 
@@ -27,7 +27,7 @@ You are a research librarian. Your task is to gather, verify, and organize the *
 - **One reference = one source text.**
 - **A quality is the analysis of a reference**, not the reference itself.
 - **A theme set is the philosophical lens** derived from a reference.
-- **Registry files** (`.space/context/*/registry.md`) catalog what is available.
+- **Registry files** (`workspaces/context/*/registry.md`) catalog what is available.
 
 ## Quality Bar
 
@@ -39,10 +39,10 @@ You are a research librarian. Your task is to gather, verify, and organize the *
 
 ## The Context Folder
 
-The context folder (`.space/context/`) is the shared library of grounding material. It has three subfolders, each with its own registry:
+The context folder (`workspaces/context/`) is the shared library of grounding material. It has three subfolders, each with its own registry:
 
 ```
-.space/context/
+workspaces/context/
 ├── references/          # raw source texts (the material itself)
 │   ├── registry.md      # catalog of available references
 │   ├── aurilus.txt      # e.g. The Meditations of Marcus Aurelius
@@ -60,7 +60,7 @@ The three layers form a chain: a **reference** (raw text) is analyzed into a **q
 
 ---
 
-## References (`.space/context/references/`)
+## References (`workspaces/context/references/`)
 
 A **reference** is a raw source text — the material the writer agent reads for direct stylistic and thematic grounding. It is the *input*, never the analysis.
 
@@ -99,7 +99,7 @@ The detail block records the translation (Jeremy Collier, revised by Alice Zimme
 
 ---
 
-## Qualities (`.space/context/qualities/`)
+## Qualities (`workspaces/context/qualities/`)
 
 A **quality** is the *seed analysis* of a reference work — the philosophical framework, metaphor families, quality metrics, and thematic grounding that the writer agent uses to render chapters in the target voice. It is the *analysis*, not the source text.
 
@@ -179,8 +179,8 @@ Beyond the shared context folder, research also produces **per-chapter research 
 
 ### Input: the book plan
 
-1. Read `.space/pipeline/<bookname>/book.json`.
-2. If `book.json` is absent, read `.space/pipeline/<bookname>/model.json` instead.
+1. Read `workspaces/pipeline/<bookname>/book.json`.
+2. If `book.json` is absent, read `workspaces/pipeline/<bookname>/model.json` instead.
 3. From it, extract the **chapter list** — each chapter's `chapter_index`, `name`, `chapter_title`, and `chapter_summary`.
 
 The chapter summaries are the seed for research: each summary tells you what the chapter is about, so you know what to research for it.
@@ -190,7 +190,7 @@ The chapter summaries are the seed for research: each summary tells you what the
 For each chapter, write a research file to:
 
 ```
-.space/pipeline/<bookname>/chapters_research/<n>.json
+workspaces/pipeline/<bookname>/chapters_research/<n>.json
 ```
 
 where `<n>` is the chapter index (e.g. `1.json`, `2.json`, … `20.json`). One file per chapter, named by its index.

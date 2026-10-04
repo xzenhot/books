@@ -1,6 +1,6 @@
 ---
 name: layout-poetry
-description: "Use when scaffolding or repairing the structural skeleton of a poetry pipeline. Creates .space/pipeline/<bookname>/, book.json, bookseed.txt, progress.json, override.md, named poetry filter folders, one segment per topic, and the empty source/books destination. Does not write poem chapters or runtime filter results."
+description: "Use when scaffolding or repairing the structural skeleton of a poetry pipeline. Creates workspaces/pipeline/<bookname>/, book.json, bookseed.txt, progress.json, override.md, named poetry filter folders, one segment per topic, and the empty source/books destination. Does not write poem chapters or runtime filter results."
 ---
 
 # Layout Poetry - Pipeline Scaffold
@@ -10,7 +10,7 @@ You are the structural architect for a poetry pipeline. Create only the scaffold
 A scaffolded poetry book lives at:
 
 ```text
-.space/pipeline/<bookname>/
+workspaces/pipeline/<bookname>/
 ```
 
 Finished content later lives at:
@@ -52,7 +52,7 @@ workshop -> research -> correctness -> theme -> syntax -> override -> quality
 ## Canonical Folder Shape
 
 ```text
-.space/pipeline/<bookname>/
+workspaces/pipeline/<bookname>/
 |-- book.json
 |-- bookseed.txt
 |-- progress.json
@@ -78,11 +78,11 @@ Every filter folder uses the same four-file shape as `research/`, with the role 
 
 This is mandatory.
 
-- Chapter folders live only under `.space/pipeline/<bookname>/chapters/`.
-- Segment folders live only under `.space/pipeline/<bookname>/chapters/<chapter>/segments/`.
+- Chapter folders live only under `workspaces/pipeline/<bookname>/chapters/`.
+- Segment folders live only under `workspaces/pipeline/<bookname>/chapters/<chapter>/segments/`.
 - Poetry chapters always have exactly one segment: `segments/1/`.
 - Writer, editor, translator, and version folders live only under `segments/1/`.
-- Each chapter has a `history/` folder (`.space/pipeline/<bookname>/chapters/<n>/history/`) that holds superseded drafts of `chapter.md`; the live `chapter.md` always holds the current state.
+- Each chapter has a `history/` folder (`workspaces/pipeline/<bookname>/chapters/<n>/history/`) that holds superseded drafts of `chapter.md`; the live `chapter.md` always holds the current state.
 - Do not create `mood.json` for poetry.
 - Do not create `book.json`, `characters.json`, `masterprompt.md`, or `workshop_metadata.md` for poetry unless the user explicitly asks for a hybrid project.
 
@@ -163,7 +163,7 @@ For a new scaffold, set all statuses to `pending`, `completed_chapters` to `0`, 
 
 ### `filters/override/filter.md` — the override command file
 
-The poetry override, like the novel override, is **a filter-file command layer**, not a pipeline-root file. Do **not** create a pipeline-root `override.md`. The `override` filter lives in `filters/override/` and its command file `filters/override/filter.md` is seeded at scaffold from `.framework/agents/override/agent.md` (dynamically customized for the poetry form and the pipeline's actual context), with an empty `## Instructions` section for the human.
+The poetry override, like the novel override, is **a filter-file command layer**, not a pipeline-root file. Do **not** create a pipeline-root `override.md`. The `override` filter lives in `filters/override/` and its command file `filters/override/filter.md` is seeded at scaffold from `.framework/filters/override/agent.md` (dynamically customized for the poetry form and the pipeline's actual context), with an empty `## Instructions` section for the human.
 
 ## Chapter And Segment State
 
@@ -195,13 +195,13 @@ Segment-level `model.json` minimum shape:
 
 ## Filter Registry
 
-Before creating the filter registry, read `.space/backlog/<bookname>/book.json`. Use the ordered `filter_chain` list declared in the book plan as the canonical filter chain. If for any reason the book plan cannot be read, fall back to the default poetry chain declared in this skill's *Preset* section:
+Before creating the filter registry, read `workspaces/backlog/<bookname>/book.json`. Use the ordered `filter_chain` list declared in the book plan as the canonical filter chain. If for any reason the book plan cannot be read, fall back to the default poetry chain declared in this skill's *Preset* section:
 
 ```text
 workshop -> research -> correctness -> theme -> syntax -> override -> quality
 ```
 
-Create `.space/pipeline/<bookname>/filters/filters.json` with the selected chain in order.
+Create `workspaces/pipeline/<bookname>/filters/filters.json` with the selected chain in order.
 
 Each registry entry must include:
 
@@ -222,11 +222,11 @@ For each named filter folder, scaffold only the registry entry in `filters.json`
 
 Leave runtime content empty unless the active workflow explicitly runs that filter.
 
-**Override command file (poetry customization):** the `override` filter is the one structural exception. Its exact seeding content is **dynamically derived at scaffold time** from `.framework/agents/override/agent.md` plus the poetry stereotype index at `.framework/templates/stereotypes/poetry/readme.md` — do not treat this paragraph as the fixed recipe. Before you create the override file, read both and let them govern the shape:
+**Override command file (poetry customization):** the `override` filter is the one structural exception. Its exact seeding content is **dynamically derived at scaffold time** from `.framework/filters/override/agent.md` plus the poetry stereotype index at `.framework/templates/stereotypes/poetry/readme.md` — do not treat this paragraph as the fixed recipe. Before you create the override file, read both and let them govern the shape:
 
-1. **Read `.framework/agents/override/agent.md`** — the base content for the command file: the override command file is `.space/pipeline/<bookname>/filters/override/filter.md`, and it is generated/refreshed from the chapter (or poem) models' context so the human instructions are grounded in what the poems actually contain.
+1. **Read `.framework/filters/override/agent.md`** — the base content for the command file: the override command file is `workspaces/pipeline/<bookname>/filters/override/filter.md`, and it is generated/refreshed from the chapter (or poem) models' context so the human instructions are grounded in what the poems actually contain.
 2. **Read `.framework/templates/stereotypes/poetry/readme.md`** — the master index of the poetry stereotype folder, for the identity wording and conventions of the poetry form.
-3. **Seed `.space/pipeline/<bookname>/filters/override/filter.md`** on first use (not at scaffold), customized for poetry: identity "poetry pipeline", applies to every **poem**, model updates on the poem chapter models under `chapters/<n>/`, instruction scope "every poem" (each topic in `bookseed.txt`).
+3. **Seed `workspaces/pipeline/<bookname>/filters/override/filter.md`** on first use (not at scaffold), customized for poetry: identity "poetry pipeline", applies to every **poem**, model updates on the poem chapter models under `chapters/<n>/`, instruction scope "every poem" (each topic in `bookseed.txt`).
 4. **Do not create a pipeline-root `override.md`.** All forms share the single override command file at `filters/override/filter.md`.
 5. Align with whatever the readme's sub-indexes declare (singer/signature set, reference texts, syntax samples, theme sets under `signatures/`, `references/`, `syntax/`, `themes/`) — the override layer must not contradict the stereotype set the pipeline will use.
 6. Leave the trailing `## Instructions` section empty below the `---` line and never overwrite existing human instructions there.

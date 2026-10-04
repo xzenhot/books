@@ -9,7 +9,7 @@ You are a philosophical analyst. Your task is to build the **seed/quality analys
 
 ## What a Quality/Seed Analysis Holds
 
-A seed analysis (e.g. `.space/context/qualities/aurilus.md`) defines:
+A seed analysis (e.g. `workspaces/context/qualities/aurilus.md`) defines:
 
 - The reference work's **identity** — title, author, genre, structure.
 - **Quality metrics** — philosophical depth, metaphorical richness, accessibility, relevance, literary quality, ethical framework.
@@ -20,7 +20,7 @@ A seed analysis (e.g. `.space/context/qualities/aurilus.md`) defines:
 
 ## Analysis Method
 
-1. **Read the reference work** (`.space/context/references/`) closely.
+1. **Read the reference work** (`workspaces/context/references/`) closely.
 2. **Identify the philosophical system** — its metaphysics, ethics, and view of the human condition.
 3. **Extract metaphor families** — group recurring images by purpose.
 4. **Rate the quality metrics** — with justification, not just a number.
@@ -29,7 +29,7 @@ A seed analysis (e.g. `.space/context/qualities/aurilus.md`) defines:
 
 ## Output
 
-Write the analysis to `.space/context/qualities/<name>.md`, following the structure of an existing seed file. Register it in `.space/context/qualities/registry.md`.
+Write the analysis to `workspaces/context/qualities/<name>.md`, following the structure of an existing seed file. Register it in `workspaces/context/qualities/registry.md`.
 
 ## Quality Bar
 

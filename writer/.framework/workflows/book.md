@@ -100,6 +100,6 @@ For every `/book [args...]` request, follow this procedure:
 ## Delegation Rules
 
 - This registry never executes skill-backed work directly. Each owning workflow routes through its agents (`.framework/agents/<agent>/agent.md`), which may then read skills (`.framework/skills/<skill>/SKILL.md`).
-- Backlog commands operate only inside `.space/backlog/<bookname>/`. Pipeline commands operate only inside `.space/pipeline/<bookname>/` and `source/books/`.
+- Backlog commands operate only inside `workspaces/backlog/<bookname>/`. Pipeline commands operate only inside `workspaces/pipeline/<bookname>/` and `source/books/`.
 - Do not invent alternate slash commands. Do not treat subcommand keywords as book names, chapter names, filters, or prose.
 - Every command — including read-only ones — must end with the **Next Steps** section per `.framework/rules/next-steps.md`.

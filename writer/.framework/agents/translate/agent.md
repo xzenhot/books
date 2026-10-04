@@ -7,7 +7,7 @@ tools: ["read", "write"]
 # The Translate Agent
 
 For /book <bookname> translate <n>|all|continue <language>, translate the
-current draft at .space/pipeline/<bookname>/chapters/<n>/chapter.md.
+current draft at workspaces/pipeline/<bookname>/chapters/<n>/chapter.md.
 
 Before translating, read the chapter model. Its draft SHA-256 must match the
 source bytes, and quality_review must record status passed with that same hash.

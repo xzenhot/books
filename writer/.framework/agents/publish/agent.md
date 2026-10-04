@@ -10,8 +10,8 @@ This agent is a lightweight dispatcher that routes the publish command to the re
 
 ## Dispatch
 
-1. Read `.space/pipeline/<bookname>/book.json` to confirm the book plan exists.
-2. Route the publish work by invoking `python .tools/publish.py <bookname>` — the CLI handles all validation (every poem must have a non-empty registered draft and a passed quality review), version allocation, `source/books/<bookname>/version<k>/` creation, and `progress.json` update.
+1. Read `workspaces/pipeline/<bookname>/book.json` to confirm the book plan exists.
+2. Route the publish work by invoking `python tools/publish.py <bookname>` — the CLI handles all validation (every poem must have a non-empty registered draft and a passed quality review), version allocation, `source/books/<bookname>/version<k>/` creation, and `progress.json` update.
 3. The CLI exits non-zero if any chapter is missing or stale; report the error to the user.
 
 ## Responsibility Boundary

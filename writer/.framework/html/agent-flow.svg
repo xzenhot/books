@@ -15,13 +15,13 @@
   <text x="480" y="70" text-anchor="middle" class="note">backlog.md: phases 0–1 · pipeline.md: scaffold onward</text>
 <rect x="35" y="100" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
 <text x="55" y="130" class="phase">0–1 · Backlog and Init</text>
-<text x="55" y="161" class="agent">gist agent → init agent</text>
+<text x="55" y="161" class="agent">init agent (gist + storyline)</text>
 <text x="55" y="192" class="output">gist.md + storyline.md + book.json</text>
 <text x="55" y="220" class="note">Backlog only · chapter plan and authoritative filter_chain</text>
 <path d="M480 245 V273" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="35" y="275" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
 <text x="55" y="305" class="phase">2 · Scaffold</text>
-<text x="55" y="336" class="agent">scaffold → prelayout → form-specific layout → postlayout</text>
+<text x="55" y="336" class="agent">scaffold → layout agent (Phase 1) → form-specific layout → layout agent (Phase 2)</text>
 <text x="55" y="367" class="output">Complete book.json clone → pipeline model.json</text>
 <text x="55" y="395" class="note">Seed chapter models · create filter registry · no filters run</text>
 <path d="M480 420 V448" stroke="#6ea8fe" stroke-width="2" marker-end="url(#arrow)"/>

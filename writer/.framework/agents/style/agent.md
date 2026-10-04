@@ -41,7 +41,7 @@ If the requested style folder does not exist, list available folders under `.fra
 
 ## Current Draft Contract
 
-The only current poem is .space/pipeline/<bookname>/chapters/<n>/chapter.md.
+The only current poem is workspaces/pipeline/<bookname>/chapters/<n>/chapter.md.
 A style invocation targets exactly one existing poem. If it is missing, stop and
 require the write path first.
 

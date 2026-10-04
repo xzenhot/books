@@ -220,16 +220,16 @@
         <tr><td><code>.framework/skills/layout-novel/SKILL.md</code></td><td><strong>The novel layout authority.</strong> Owns novel scaffold shape, <code>book.json</code>, characters, moods, workshop metadata, filters, and chapter/segment path invariants.</td></tr>
         <tr><td><code>.framework/skills/layout-poetry/SKILL.md</code></td><td><strong>The poetry layout authority.</strong> Owns poetry scaffold shape, <code>book.json</code>, <code>bookseed.txt</code>, progress, override, filters, and one-segment chapter layout.</td></tr>
         <tr><td><code>.framework/filters/research/SKILL.md</code></td><td><strong>Research support.</strong> Retired; moved to <code>.framework/filters/</code>. The research agent performs its work inline (MCP search).</td></tr>
-        <tr><td><code>.space/backlog/&lt;bookname&gt;/storyline.md</code></td><td><strong>The backlog epic.</strong> The single source of truth for a novel's story. Created/updated by the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command.</td></tr>
-        <tr><td><code>.space/backlog/&lt;bookname&gt;/book.json</code></td><td><strong>The backlog book plan.</strong> The chapter-layout plan plus the authoritative <code>filter_chain</code> and <code>word_target</code>. Produced by <code>init</code>; the blueprint <code>scaffold</code> builds from.</td></tr>
-        <tr><td><code>.space/pipeline/&lt;bookname&gt;/</code></td><td><strong>The book pipeline.</strong> Holds model data, characters, filters, chapter plans, segments, and progress state.</td></tr>
-        <tr><td><code>.space/pipeline/&lt;bookname&gt;/book.json</code></td><td><strong>The book plan.</strong> A complete clone of backlog <code>book.json</code>, preserved unchanged throughout scaffold and postlayout. Later explicit config or runtime operations may update it.</td></tr>
-        <tr><td><code>.space/pipeline/&lt;bookname&gt;/bookseed.txt</code></td><td><strong>The poetry index.</strong> One topic or term per line; each topic becomes one chapter.</td></tr>
+        <tr><td><code>workspaces/backlog/&lt;bookname&gt;/storyline.md</code></td><td><strong>The backlog epic.</strong> The single source of truth for a novel's story. Created/updated by the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command.</td></tr>
+        <tr><td><code>workspaces/backlog/&lt;bookname&gt;/book.json</code></td><td><strong>The backlog book plan.</strong> The chapter-layout plan plus the authoritative <code>filter_chain</code> and <code>word_target</code>. Produced by <code>init</code>; the blueprint <code>scaffold</code> builds from.</td></tr>
+        <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/</code></td><td><strong>The book pipeline.</strong> Holds model data, characters, filters, chapter plans, segments, and progress state.</td></tr>
+        <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/book.json</code></td><td><strong>The book plan.</strong> A complete clone of backlog <code>book.json</code>, preserved unchanged throughout scaffold and the master-prompt phase. Later explicit config or runtime operations may update it.</td></tr>
+        <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/bookseed.txt</code></td><td><strong>The poetry index.</strong> One topic or term per line; each topic becomes one chapter.</td></tr>
         <tr><td><code>.framework/templates/stereotypes/&lt;form&gt;/</code></td><td><strong>The stereotype templates.</strong> Signatures, references, themes, qualities, and syntax samples for each form.</td></tr>
         <tr><td><code>source/books/&lt;bookname&gt;/&lt;version&gt;/</code></td><td><strong>Verified output.</strong> Chapters and the consolidated book live inside a fresh version folder.</td></tr>
       </tbody>
     </table>
-    <p>To write a new book: prepare the backlog with the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command and <code>init</code>, scaffold the pipeline under <code>.space/pipeline/</code>, run the filter chain (or <code>enrich</code>), and write finished output under <code>source/books/</code>. The workflow file stays subject-agnostic.</p>
+    <p>To write a new book: prepare the backlog with the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command and <code>init</code>, scaffold the pipeline under <code>workspaces/pipeline/</code>, run the filter chain (or <code>enrich</code>), and write finished output under <code>source/books/</code>. The workflow file stays subject-agnostic.</p>
 
     <h2 id="agent-flow">Agent Flow</h2>
     <p>The diagram below shows the flow of agents through the workflow phases — from backlog preparation, through scaffolding and the filter chain, to writing and promotion.</p>
@@ -245,6 +245,8 @@
 /book &lt;bookname&gt; filter &lt;filter&gt;|*|all
 /book &lt;bookname&gt; enrich &lt;count&gt;|range|*
 /book &lt;bookname&gt; write &lt;n&gt;|range|all|continue [&lt;language&gt;]
+/book &lt;bookname&gt; chapter &lt;n&gt;|all|continue [&lt;style&gt;]   # alias of write
+/book &lt;bookname&gt; story &lt;n&gt;|all|continue [&lt;style&gt;]      # alias of write
 /book &lt;bookname&gt; style [&lt;style&gt;]
 /book &lt;bookname&gt; translate &lt;n&gt;|all|continue &lt;language&gt;
 /book &lt;bookname&gt; poet                          # aliases: poetry, poem
@@ -259,12 +261,13 @@
     <table>
       <thead><tr><th>Command</th><th>What it does</th></tr></thead>
       <tbody>
-        <tr><td><code>&lt;bookname&gt;</code> (bare)</td><td>Creates <code>.space/backlog/&lt;bookname&gt;/storyline.md</code> if it does not exist, auto-generating the gist from the book name. If the epic already exists, reports that it exists. Does not scaffold a pipeline.</td></tr>
+        <tr><td><code>&lt;bookname&gt;</code> (bare)</td><td>Creates <code>workspaces/backlog/&lt;bookname&gt;/storyline.md</code> if it does not exist, auto-generating the gist from the book name. If the epic already exists, reports that it exists. Does not scaffold a pipeline.</td></tr>
         <tr><td><code>&lt;bookname&gt; [&lt;gist&gt;] [form] [refresh]</code></td><td>Creates, updates, or rewrites the epic (recording the seed in <code>gist.md</code>) and develops it into a rich narrative foundation. If gist omitted, infers from book name. If <code>[form]</code> supplied, changes the book's form. Does <strong>not</strong> scaffold a pipeline. The former <code>gist</code> subcommand is merged into this command.</td></tr>
         <tr><td><code>init [&lt;gist&gt;] [&lt;count&gt;] [form] [refresh]</code> (aliases: <code>backlog</code>, <code>layout</code>)</td><td>Fully configures the backlog epic folder — <code>gist.md</code>, <code>storyline.md</code>, <code>book.json</code> — and derives the ordered filter chain plus the chapter-layout plan. With an unchanged gist, a larger count appends missing chapters. Refresh compares the gist before deciding which artifacts to regenerate. Must run before <code>scaffold</code>.</td></tr>
-        <tr><td><code>scaffold &lt;gist&gt; count|chapter-count &lt;number&gt;</code></td><td>Creates or repairs <code>.space/pipeline/&lt;bookname&gt;/</code> through the scaffold agent (prelayout → layout skill → postlayout), gated by the existence of <code>book.json</code>. Never creates or modifies <code>storyline.md</code>.</td></tr>
+        <tr><td><code>scaffold &lt;gist&gt; count|chapter-count &lt;number&gt;</code></td><td>Creates or repairs <code>workspaces/pipeline/&lt;bookname&gt;/</code> through the scaffold agent (layout agent Phase 1 → layout skill → layout agent Phase 2), gated by the existence of <code>book.json</code>. Never creates or modifies <code>storyline.md</code>.</td></tr>
         <tr><td><code>&lt;agentname&gt; &lt;chapter&gt;|&lt;n&gt;|all|continue</code></td><td>Runs any registered agent (<code>.framework/agents/&lt;agentname&gt;/agent.md</code>) against selected chapters in an existing pipeline. Does not promote output to <code>source/books/</code>.</td></tr>
         <tr><td><code>write &lt;n&gt;|all|continue</code></td><td>Writes selected chapters through the write agent, which routes to the poetry skill or novel skill by form. Preserves prior drafts and creates a fresh numeric output version after required validation.</td></tr>
+        <tr><td><code>chapter</code> / <code>story</code></td><td>Aliases of <code>write</code> — write chapters through the write agent (→ poetry/novel skill by form).</td></tr>
         <tr><td><code>filter &lt;filter&gt;|*|all</code></td><td>A named filter runs explicitly; <code>*</code> or <code>all</code> runs active filters in registry order.</td></tr>
         <tr><td><code>style [&lt;style&gt;]</code></td><td>Transforms one chapter per invocation into a new writer-stage version. Defaults to <code>pijush</code>.</td></tr>
         <tr><td><code>translate &lt;n&gt;|all|continue &lt;language&gt;</code></td><td>Translates the latest writer-stage source into the pipeline translator folder.</td></tr>
@@ -282,7 +285,7 @@
     <h2 id="command-rules">Command Rules</h2>
     <ul>
       <li>Parse arguments left to right and preserve supplied text unless the workflow explicitly normalizes it. Subcommand keywords are literal.</li>
-      <li>Bare bookname and <code>init</code>/<code>backlog</code>/<code>layout</code> operate only in <code>.space/backlog/&lt;bookname&gt;/</code>. They never initialize a pipeline.</li>
+      <li>Bare bookname and <code>init</code>/<code>backlog</code>/<code>layout</code> operate only in <code>workspaces/backlog/&lt;bookname&gt;/</code>. They never initialize a pipeline.</li>
       <li>Scaffold requires the existing backlog plan and, for novels, the epic. Explicit gist, count, and form must agree with the plan; resolve differences through <code>init</code>.</li>
       <li>Preserve an existing pipeline and resume from its state. Do not re-scaffold from scratch unless explicitly requested.</li>
       <li>Filters require an existing pipeline. A named filter runs regardless of <code>autorun</code>; <code>filter *</code> and <code>filter all</code> run only active entries in order. <code>enrich</code> fuses active guidance into a single pass.</li>
@@ -315,8 +318,8 @@
     <div class="callout danger">
       <div class="label">Mandatory path invariant</div>
       <ul style="margin:0">
-        <li>chapters live only at <code>.space/pipeline/&lt;bookname&gt;/chapters/&lt;n&gt;/</code></li>
-        <li>segments live only at <code>.space/pipeline/&lt;bookname&gt;/chapters/&lt;n&gt;/segments/&lt;x&gt;/</code></li>
+        <li>chapters live only at <code>workspaces/pipeline/&lt;bookname&gt;/chapters/&lt;n&gt;/</code></li>
+        <li>segments live only at <code>workspaces/pipeline/&lt;bookname&gt;/chapters/&lt;n&gt;/segments/&lt;x&gt;/</code></li>
         <li>never create root-level <code>&lt;n&gt;/</code> or <code>&lt;x&gt;/</code> folders under the book pipeline</li>
       </ul>
     </div>
@@ -325,12 +328,12 @@
     <h2 id="scaffolding">Scaffolding Flow</h2>
     <p>Prepare the backlog with the bare bookname command and <code>init</code>, then invoke <code>scaffold</code>. Scaffold creates structure only.</p>
     <ol>
-      <li>Require <code>.space/backlog/&lt;bookname&gt;/book.json</code>, and the existing epic for a novel. Read form, gist, and chapter count from that plan. Resolve mismatched explicit arguments through <code>init</code>.</li>
-      <li>Preserve existing pipeline state. Route scaffold work through <code>.framework/agents/scaffold/agent.md</code>, which runs <code>prelayout</code> before the form-specific layout skill.</li>
-      <li>Clone the complete backlog <code>book.json</code> to pipeline <code>book.json</code>. Preserve every field, value, and chapter entry throughout scaffold, initialization, and postlayout.</li>
+      <li>Require <code>workspaces/backlog/&lt;bookname&gt;/book.json</code>, and the existing epic for a novel. Read form, gist, and chapter count from that plan. Resolve mismatched explicit arguments through <code>init</code>.</li>
+      <li>Preserve existing pipeline state. Route scaffold work through <code>.framework/agents/scaffold/agent.md</code>, which runs the <code>layout</code> agent (Phase 1) before the form-specific layout skill.</li>
+      <li>Clone the complete backlog <code>book.json</code> to pipeline <code>book.json</code>. Preserve every field, value, and chapter entry throughout scaffold, initialization, and the master-prompt phase.</li>
       <li>Seed each chapter <code>model.json</code> as a single object from the matching plan entry. Match by <code>name</code> and verify <code>chapter_index</code>. Preserve <code>word_target</code>, <code>chapter_title</code>, <code>chapter_summary</code>, <code>further_references</code>, and any additional source fields.</li>
       <li>Build only <code>filters/filters.json</code> from the plan's authoritative <code>filter_chain</code>. Filters create their own folders on first use. Seed <code>filters/override/filter.md</code> lazily when a step first needs it and override is in the chain.</li>
-      <li>Run <code>postlayout</code> to write the dynamic pipeline <code>override.txt</code> from available backlog context and resolved pipeline state. Override artifacts belong to the pipeline, not to backlog initialization.</li>
+      <li>Run the <code>layout</code> agent (Phase 2) to write the dynamic pipeline <code>override.txt</code> from available backlog context and resolved pipeline state. Override artifacts belong to the pipeline, not to backlog initialization.</li>
       <li>Verify that the root model still equals the full backlog plan as parsed JSON and each chapter preserves its matching plan entry. Initialize progress without resetting existing work.</li>
       <li>Run filters or <code>enrich</code> separately after scaffold. No research, filtering, finished chapters, or source output is produced during scaffold.</li>
     </ol>
@@ -338,7 +341,7 @@
     <h2 id="gist">The Bare Bookname Command (gist merged)</h2>
     <p>For <code>/book &lt;bookname&gt; [&lt;gist&gt;] [form] [refresh]</code>:</p>
     <ol>
-      <li>Create or update <code>.space/backlog/&lt;bookname&gt;/storyline.md</code> and develop it into a well-groomed, detailed narrative foundation.</li>
+      <li>Create or update <code>workspaces/backlog/&lt;bookname&gt;/storyline.md</code> and develop it into a well-groomed, detailed narrative foundation.</li>
       <li>Infer a one-sentence gist from the book name if none is supplied.</li>
       <li><strong>Novel:</strong> Develop a rich, well-groomed epic that includes:
         <ul>
@@ -351,7 +354,7 @@
         </ul>
       </li>
       <li><strong>Poetry:</strong> Create a thoughtful epic with thematic grounding, topical structure, and reference to poetic voice/tradition.</li>
-      <li>Do not create <code>.space/pipeline/&lt;bookname&gt;/</code>, do not run layout, and do not run research.</li>
+      <li>Do not create <code>workspaces/pipeline/&lt;bookname&gt;/</code>, do not run layout, and do not run research.</li>
     </ol>
     <p>Every novel epic should include a metadata block near the top with title, book name, epic path, timestamps, authoring engine, language, genre, era, chapter count, and gist. Keep backlog metadata current when the epic changes. Backlog commands never update pipeline files.</p>
 
@@ -366,7 +369,7 @@
         <tr><td><code>book.json</code></td><td>The chapter-layout plan and the authoritative <code>filter_chain</code>/<code>word_target</code> — the blueprint <code>scaffold</code> builds from.</td></tr>
       </tbody>
     </table>
-    <p>Override artifacts belong to the pipeline: postlayout produces <code>override.txt</code>, and the first step needing override instructions seeds <code>filters/override/filter.md</code>. Init creates neither file in the backlog.</p>
+    <p>Override artifacts belong to the pipeline: the layout agent (Phase 2) produces <code>override.txt</code>, and the first step needing override instructions seeds <code>filters/override/filter.md</code>. Init creates neither file in the backlog.</p>
     <h3>Behavior</h3>
     <p>With an unchanged gist, a larger requested count appends only missing chapters and preserves existing entries; a smaller or equal count never truncates or renumbers them. Chapter summaries are varied, form-neutral seeds derived from the gist and epic. Report previous/new counts and appended chapters.</p>
     <ol>
@@ -381,10 +384,10 @@
     <h2 id="add">The Add Command</h2>
     <p><code>/book &lt;bookname&gt; add &lt;chapter-count&gt; filter &lt;filter&gt;</code> extends an existing book pipeline with more main chapters, then runs the requested filter for those new chapters.</p>
     <ol>
-      <li>Stop if <code>.space/pipeline/&lt;bookname&gt;/</code> does not exist; use <code>scaffold</code> first.</li>
+      <li>Stop if <code>workspaces/pipeline/&lt;bookname&gt;/</code> does not exist; use <code>scaffold</code> first.</li>
       <li>Treat <code>&lt;chapter-count&gt;</code> as the number of additional main chapters to append, not the new total.</li>
       <li>Update the backlog epic, book plan, and <code>chapter_count</code> fields to the new total.</li>
-      <li>Create only the new chapter folders and form-appropriate state files under <code>.space/pipeline/&lt;bookname&gt;/chapters/&lt;n&gt;/</code>.</li>
+      <li>Create only the new chapter folders and form-appropriate state files under <code>workspaces/pipeline/&lt;bookname&gt;/chapters/&lt;n&gt;/</code>.</li>
       <li>Run the requested filter only for the newly added chapters.</li>
     </ol>
 
@@ -396,14 +399,14 @@
     <table>
       <thead><tr><th>Filter</th><th>Agent</th></tr></thead>
       <tbody>
-        <tr><td>workshop</td><td><code>.framework/agents/workshop/agent.md</code></td></tr>
-        <tr><td>research</td><td><code>.framework/agents/research/agent.md</code></td></tr>
-        <tr><td>seeds</td><td><code>.framework/agents/seeds/agent.md</code></td></tr>
-        <tr><td>correctness</td><td><code>.framework/agents/correctness/agent.md</code></td></tr>
-        <tr><td>theme</td><td><code>.framework/agents/theme/agent.md</code></td></tr>
-        <tr><td>syntax</td><td><code>.framework/agents/syntax/agent.md</code></td></tr>
-        <tr><td>override</td><td><code>.framework/agents/override/agent.md</code></td></tr>
-        <tr><td>quality</td><td><code>.framework/agents/quality/agent.md</code></td></tr>
+        <tr><td>workshop</td><td><code>.framework/filters/workshop/agent.md</code></td></tr>
+        <tr><td>research</td><td><code>.framework/filters/research/agent.md</code></td></tr>
+        <tr><td>seeds</td><td><code>.framework/filters/seeds/agent.md</code></td></tr>
+        <tr><td>correctness</td><td><code>.framework/filters/correctness/agent.md</code></td></tr>
+        <tr><td>theme</td><td><code>.framework/filters/theme/agent.md</code></td></tr>
+        <tr><td>syntax</td><td><code>.framework/filters/syntax/agent.md</code></td></tr>
+        <tr><td>override</td><td><code>.framework/filters/override/agent.md</code></td></tr>
+        <tr><td>quality</td><td><code>.framework/filters/quality/agent.md</code></td></tr>
       </tbody>
     </table>
 
@@ -412,20 +415,20 @@
     <table>
       <thead><tr><th>Filter</th><th>Agent</th></tr></thead>
       <tbody>
-        <tr><td>workshop</td><td><code>.framework/agents/workshop/agent.md</code></td></tr>
-        <tr><td>research</td><td><code>.framework/agents/research/agent.md</code></td></tr>
-        <tr><td>correctness</td><td><code>.framework/agents/correctness/agent.md</code></td></tr>
-        <tr><td>theme</td><td><code>.framework/agents/theme/agent.md</code></td></tr>
-        <tr><td>syntax</td><td><code>.framework/agents/syntax/agent.md</code></td></tr>
-        <tr><td>override</td><td><code>.framework/agents/override/agent.md</code></td></tr>
-        <tr><td>quality</td><td><code>.framework/agents/quality/agent.md</code></td></tr>
+        <tr><td>workshop</td><td><code>.framework/filters/workshop/agent.md</code></td></tr>
+        <tr><td>research</td><td><code>.framework/filters/research/agent.md</code></td></tr>
+        <tr><td>correctness</td><td><code>.framework/filters/correctness/agent.md</code></td></tr>
+        <tr><td>theme</td><td><code>.framework/filters/theme/agent.md</code></td></tr>
+        <tr><td>syntax</td><td><code>.framework/filters/syntax/agent.md</code></td></tr>
+        <tr><td>override</td><td><code>.framework/filters/override/agent.md</code></td></tr>
+        <tr><td>quality</td><td><code>.framework/filters/quality/agent.md</code></td></tr>
       </tbody>
     </table>
     <p>Each filter reads the pipeline data and any upstream filter output it needs, then writes to its own folder. Run the full chain strictly in order.</p>
     <p>After each filter runs against a chapter, the workflow:</p>
     <ol>
       <li><strong>Snapshots the model first</strong> — before any chapter model update, copy <code>model.json</code> into <code>chapters/&lt;n&gt;/history/</code> with a unique timestamped or versioned name. Filters and enrich never read or modify <code>chapter.md</code>; they operate on model data and filter outputs.</li>
-      <li><strong>Updates the chapter state</strong> — <code>.space/pipeline/&lt;bookname&gt;/chapters/&lt;n&gt;/chapter.json</code> is updated: <code>state</code> is set to the filter that just ran, and a <code>filter_history</code> array entry records <code>{ filter, ran_at }</code>. All other fields are preserved (merge, never overwrite).</li>
+      <li><strong>Updates the chapter state</strong> — <code>workspaces/pipeline/&lt;bookname&gt;/chapters/&lt;n&gt;/chapter.json</code> is updated: <code>state</code> is set to the filter that just ran, and a <code>filter_history</code> array entry records <code>{ filter, ran_at }</code>. All other fields are preserved (merge, never overwrite).</li>
     </ol>
 
     <h2 id="stereotypes">Stereotype Selection</h2>

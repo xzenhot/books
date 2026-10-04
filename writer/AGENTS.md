@@ -67,12 +67,12 @@ Map it to repository paths as follows:
 
 ```text
 <bookname>                       -> logical book name, e.g. wife
-.space/backlog/<bookname>/       -> backlog folder
-.space/pipeline/<bookname>/ -> pipeline folder
+workspaces/backlog/<bookname>/       -> backlog folder
+workspaces/pipeline/<bookname>/ -> pipeline folder
 source/books/<bookname>/<version>/ -> final versioned book output folder
 ```
 
-If the user supplies `book_wife` or a legacy `book_<bookname>` path, treat the canonical `<bookname>` as `wife` (strip the `book_` prefix) unless an existing path proves otherwise. Prefer existing repository paths over inference. The pipeline folder is named directly after the book: `.space/pipeline/<bookname>/`.
+If the user supplies `book_wife` or a legacy `book_<bookname>` path, treat the canonical `<bookname>` as `wife` (strip the `book_` prefix) unless an existing path proves otherwise. Prefer existing repository paths over inference. The pipeline folder is named directly after the book: `workspaces/pipeline/<bookname>/`.
 
 ### Unit, Chapter, And Segment
 
@@ -99,8 +99,8 @@ Conclusion/1
 Map chapter and segment paths to:
 
 ```text
-.space/pipeline/<bookname>/chapters/<chapter>/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/
+workspaces/pipeline/<bookname>/chapters/<chapter>/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/
 ```
 
 For poetry, every chapter has exactly one segment:
@@ -151,15 +151,15 @@ translator
 Segment-stage paths are:
 
 ```text
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/writer/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/writer/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
 ```
 
 Filter-stage roles are implemented by agents under:
 
 ```text
-.framework/agents/<filter>/agent.md
+.framework/filters/<filter>/agent.md
 ```
 
 Known filter agents:
@@ -172,19 +172,13 @@ theme, workshop
 Known lifecycle agents:
 
 ```text
-init, scaffold, write, style, translate, publish, gist, reframe, eval
+init, scaffold, write, style, translate, publish, reframe, eval
 ```
 
-Known post-scaffold agents:
+Known scaffold helper agents:
 
 ```text
-postlayout
-```
-
-Known pre-scaffold agents:
-
-```text
-prelayout
+layout
 ```
 
 ## Agent-First Skill Invocation
@@ -231,24 +225,14 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/workflows/pipeline.md  # scaffold onward — filters, write, style, translate, publish
 ```
 
-`backlog.md` owns Phase 0 (Backlog) and Phase 1 (Init): the bare bookname command and the init/backlog/layout command, operating only inside `.space/backlog/<bookname>/`. `pipeline.md` owns Phase 2 onward: scaffold, the filter chain, write, style, translate, enrich, form, config, add, and publish, operating only inside `.space/pipeline/<bookname>/` and `source/books/`.
+`backlog.md` owns Phase 0 (Backlog) and Phase 1 (Init): the bare bookname command and the init/backlog/layout command, operating only inside `workspaces/backlog/<bookname>/`. `pipeline.md` owns Phase 2 onward: scaffold, the filter chain, write, style, translate, enrich, form, config, add, and publish, operating only inside `workspaces/pipeline/<bookname>/` and `source/books/`.
 
 ### Agents
 
 ```text
 .framework/agents/init/agent.md
-.framework/agents/gist/agent.md
 .framework/agents/scaffold/agent.md
-.framework/agents/prelayout/agent.md
-.framework/agents/postlayout/agent.md
-.framework/agents/workshop/agent.md
-.framework/agents/research/agent.md
-.framework/agents/correctness/agent.md
-.framework/agents/theme/agent.md
-.framework/agents/syntax/agent.md
-.framework/agents/override/agent.md
-.framework/agents/quality/agent.md
-.framework/agents/enrich/agent.md
+.framework/agents/layout/agent.md
 .framework/agents/humanize/agent.md
 .framework/agents/eval/agent.md
 .framework/agents/write/agent.md
@@ -256,7 +240,17 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/translate/agent.md
 .framework/agents/publish/agent.md
 .framework/agents/reframe/agent.md
-.framework/agents/seeds/agent.md
+
+# Filter agents (moved to .framework/filters/)
+.framework/filters/workshop/agent.md
+.framework/filters/research/agent.md
+.framework/filters/correctness/agent.md
+.framework/filters/theme/agent.md
+.framework/filters/syntax/agent.md
+.framework/filters/override/agent.md
+.framework/filters/quality/agent.md
+.framework/filters/enrich/agent.md
+.framework/filters/seeds/agent.md
 ```
 
 Agents are the only valid runtime entry points for skill-backed behavior.
@@ -297,7 +291,7 @@ Use templates as source material; do not copy whole template trees into pipeline
 Novel backlog epics live at:
 
 ```text
-.space/backlog/<bookname>/storyline.md
+workspaces/backlog/<bookname>/storyline.md
 ```
 
 For novels, `storyline.md` is the story source of truth. Do not invent story content beyond it.
@@ -307,18 +301,18 @@ For novels, `storyline.md` is the story source of truth. Do not invent story con
 Book pipelines live at:
 
 ```text
-.space/pipeline/<bookname>/
+workspaces/pipeline/<bookname>/
 ```
 
 Common pipeline files:
 
 ```text
-.space/pipeline/<bookname>/book.json          # the book plan (cloned from the backlog)
-.space/pipeline/<bookname>/characters.json
-.space/pipeline/<bookname>/bookseed.txt
-.space/pipeline/<bookname>/progress.json
-.space/pipeline/<bookname>/filters/
-.space/pipeline/<bookname>/chapters/
+workspaces/pipeline/<bookname>/book.json          # the book plan (cloned from the backlog)
+workspaces/pipeline/<bookname>/characters.json
+workspaces/pipeline/<bookname>/bookseed.txt
+workspaces/pipeline/<bookname>/progress.json
+workspaces/pipeline/<bookname>/filters/
+workspaces/pipeline/<bookname>/chapters/
 ```
 
 Novel pipelines use `storyline.md`, `book.json`, `characters.json`, chapter folders, moods, segments, and filters.
@@ -327,12 +321,12 @@ Poetry pipelines use `book.json` and `bookseed.txt` as source of truth, one segm
 
 ### Segment Drafts
 
-Intermediate segment work stays inside `.space/pipeline/`:
+Intermediate segment work stays inside `workspaces/pipeline/`:
 
 ```text
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/writer/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/writer/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
 ```
 
 Do not write unfinished drafts directly to `source/books/`.
@@ -346,7 +340,7 @@ Do not write unfinished drafts directly to `source/books/`.
 Filters write only inside the pipeline filter folders resolved by:
 
 ```text
-.space/pipeline/<bookname>/filters/filters.json
+workspaces/pipeline/<bookname>/filters/filters.json
 ```
 
 If a registry exists, use it to resolve each filter's `agent` path and `autorun` flag. Each registry entry carries only:
@@ -393,14 +387,14 @@ workshop -> research -> correctness -> theme -> syntax -> override -> quality
 ## Safety And Structure Constraints
 
 - Never alter the repository directory structure unless the active workflow explicitly requires it.
-- Never create root-level chapter folders under `.space/pipeline/<bookname>/`.
+- Never create root-level chapter folders under `workspaces/pipeline/<bookname>/`.
 - Never create segment folders outside `chapters/<chapter>/segments/<segment>/`.
 - Never move, rename, delete, or overwrite user-authored content without first reading it and confirming the workflow requires the change.
 - Never re-scaffold an existing pipeline from scratch unless the user explicitly asks.
 - Preserve existing pipeline state and resume from it.
 - Maintain the configured authorial tone, signature, language, register, syntax sample, reference, and theme set.
 - Prefer existing framework agents, skills, templates, and rules over new abstractions.
-- Keep runtime outputs in `.space/pipeline/` until validation permits promotion.
+- Keep runtime outputs in `workspaces/pipeline/` until validation permits promotion.
 - Keep finished, reader-facing text in versioned folders under `source/books/<bookname>/<version>/` only.
 
 ## Operating Procedure
@@ -410,7 +404,7 @@ For every `/book` request:
 1. Read this `AGENTS.md` file.
 2. Read the matching start-point spec — `.framework/workflows/backlog.md` for backlog creation (bare bookname, init/backlog/layout), `.framework/workflows/pipeline.md` for scaffold onward.
 3. Parse the target book, unit/chapter/segment, signature/persona, and stage/role from the user arguments.
-4. Inspect the relevant `.space/backlog/`, `.space/pipeline/`, and `source/books/` paths before writing.
+4. Inspect the relevant `workspaces/backlog/`, `workspaces/pipeline/`, and `source/books/` paths before writing.
 5. Select the responsible agent from `.framework/agents/`.
 6. Let that agent invoke any required skill.
 7. Write intermediate outputs only to the pipeline; workshop may create an initial `chapters/<n>/chapter.md` only if absent. Other filters never read or write that file.

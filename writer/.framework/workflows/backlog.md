@@ -1,6 +1,6 @@
 ---
 name: backlog
-description: Backlog creation and book-plan workflow. Owns the backlog-creation phase of the /book pipeline — the bare bookname command (create/update the backlog epic and its seed gist) and the init/backlog/layout command (configure the backlog book plan and derive the ordered filter chain). Operates only in .space/backlog/<bookname>/; never scaffolds a pipeline or writes finished chapters.
+description: Backlog creation and book-plan workflow. Owns the backlog-creation phase of the /book pipeline — the bare bookname command (create/update the backlog epic and its seed gist) and the init/backlog/layout command (configure the backlog book plan and derive the ordered filter chain). Operates only in workspaces/backlog/<bookname>/; never scaffolds a pipeline or writes finished chapters.
 ---
 
 # The Backlog Workflow (Backlog Creation)
@@ -20,7 +20,7 @@ These are **Phase 0 (Backlog)** and **Phase 1 (Init)** of the overall `/book` wo
 Every command in this workflow **must pass through** `.framework/rules/command-boundary.md` before executing. That rule is the authoritative boundary contract and applies to all commands, in all workflows, in both forms (novel and poetry).
 
 - Read `.framework/rules/command-boundary.md` first, and treat its backlog/pipeline boundary and sequence rules as binding on every command below.
-- This workflow owns **backlog commands only**. It must never cross into `.space/pipeline/<bookname>/` or `source/books/`.
+- This workflow owns **backlog commands only**. It must never cross into `workspaces/pipeline/<bookname>/` or `source/books/`.
 - If a command would violate the boundary, stop and respond with the exact error form defined in that rule.
 
 ## Next Steps
@@ -32,7 +32,7 @@ After **every** command in this workflow completes — including read-only, no-o
 The backlog workflow operates **only inside the backlog**:
 
 ```text
-.space/backlog/<bookname>/
+workspaces/backlog/<bookname>/
 ├── gist.md     # the seed idea — a single-sentence gist plus a short expansion
 ├── storyline.md     # the full narrative foundation (novel) or thematic grounding (poetry)
 ├── book.json   # the chapter-layout plan + ordered filter chain (blueprint for scaffold)
@@ -41,7 +41,7 @@ The backlog workflow operates **only inside the backlog**:
 
 It must **never** create, read, or modify:
 
-- `.space/pipeline/<bookname>/` (the pipeline is scaffolded later by `pipeline.md`)
+- `workspaces/pipeline/<bookname>/` (the pipeline is scaffolded later by `pipeline.md`)
 - `source/books/` (reader-facing output)
 - any filter directory, chapter folder, or `model.json`
 
@@ -70,7 +70,7 @@ Responsibility: create or edit **only `gist.md`** — the seed idea. This is the
 
 1. This command does NOT scaffold a pipeline, run layout, or run research.
 2. Resolve the gist: `<gist>` argument → existing `gist.md` → inferred from the book name.
-3. **Write `gist.md`.** Create or update `.space/backlog/<bookname>/gist.md` with the seed idea: a single-sentence **gist**, a short **expansion** (2–4 sentences) that names the protagonist, the conflict, and the transformation, and an empty `## Author Comment` section the author may fill. Preserve any author-written comment already present.
+3. **Write `gist.md`.** Create or update `workspaces/backlog/<bookname>/gist.md` with the seed idea: a single-sentence **gist**, a short **expansion** (2–4 sentences) that names the protagonist, the conflict, and the transformation, and an empty `## Author Comment` section the author may fill. Preserve any author-written comment already present.
 4. **Without `refresh`, stop here.** Do not create or modify `storyline.md` or `book.json`. Report that the user should run `layout` (or `init ... refresh`) to derive them.
 5. **With `refresh`, full bootstrap.** Regenerate `storyline.md` from the premise (grounded in any `materials/` content) and derive `book.json` (the chapter-layout plan + ordered filter chain). This is the only init path that writes `storyline.md`/`book.json`.
 
@@ -81,8 +81,8 @@ For `/book <bookname> layout [<count>] [<form>]`:
 Responsibility: rewrite `storyline.md` from the gist, then derive `book.json` (the layout). This is the layout boundary.
 
 1. This command does NOT scaffold a pipeline, run filters, or run research.
-2. Read the gist from `.space/backlog/<bookname>/gist.md` (a user-supplied `<gist>` overrides it).
-3. Read any research materials under `.space/backlog/<bookname>/materials/` and ground the storyline in them (never contradict them).
+2. Read the gist from `workspaces/backlog/<bookname>/gist.md` (a user-supplied `<gist>` overrides it).
+3. Read any research materials under `workspaces/backlog/<bookname>/materials/` and ground the storyline in them (never contradict them).
 4. **Rewrite `storyline.md`** from the gist (+ materials), preserving the original `Created` timestamp and updating `Updated`/`Updated By`.
 5. **Derive `book.json`** from the (refreshed) `storyline.md`. An explicit `<count>` and `<form>` control the resulting plan — chapter count, titles, summaries, characters, and the ordered `filter_chain`/`word_target`. Without `<count>`, reuse the existing `book.json` chapter count.
 6. `layout` is its own command, not an alias of `init`.
@@ -93,8 +93,8 @@ For `/book <bookname> init idea`:
 
 Responsibility: rewrite the book's **gist** with AI assistance — the single-sentence premise that seeds the whole book. This command operates only on the gist; it does not touch the epic, the book plan, the pipeline, or `source/books/`.
 
-- The command reads the existing `.space/backlog/<bookname>/gist.md` (its one-line **gist**) as the source material. If `gist.md` does not exist, use the book name as the seed.
-- It asks the AI to generate a **stronger, more dramatically charged one-line premise** — a specific, concrete situation that names a person, a place, a problem, and a consequence (see the gist agent's *The Great Idea* method). It must remain a single sentence.
+- The command reads the existing `workspaces/backlog/<bookname>/gist.md` (its one-line **gist**) as the source material. If `gist.md` does not exist, use the book name as the seed.
+- It asks the AI to generate a **stronger, more dramatically charged one-line premise** — a specific, concrete situation that names a person, a place, a problem, and a consequence (see the init agent's *The Great Idea* method). It must remain a single sentence.
 - It writes the improved one-liner back to `gist.md` as the **gist**, and regenerates the **expansion** (2–4 sentences) to match — naming the protagonist, the conflict, and the transformation. This is the only artifact `init idea` writes.
 
 1. Do **not** scaffold a pipeline, run layout, or run research.
@@ -163,6 +163,6 @@ The sample schema is `.framework/templates/book.json`.
 
 ## Routing and Ownership
 
-- **Gist creation/update** (`init`, `init idea`) is owned by the gist agent (`.framework/agents/gist/agent.md`).
+- **Gist creation/update** (`init`, `init idea`) and **storyline generation** are owned by the init agent (`.framework/agents/init/agent.md`).
 - **Storyline + book-plan derivation** (`layout`, `init ... refresh`) is owned by the init agent (`.framework/agents/init/agent.md`).
 - Neither command invokes research, filter, or writing skills. Scaffold and all later phases are owned by `.framework/workflows/pipeline.md`.

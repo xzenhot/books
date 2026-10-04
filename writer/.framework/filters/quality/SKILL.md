@@ -9,7 +9,7 @@ You are a quality reviewer. Your task is to audit a finished chapter against the
 
 ## The Quality Parameters
 
-The seed analysis (e.g. `.space/context/qualities/aurilus.md`) defines the quality metrics. Apply them to every chapter:
+The seed analysis (e.g. `workspaces/context/qualities/aurilus.md`) defines the quality metrics. Apply them to every chapter:
 
 - **Philosophical depth** — genuine insight, not wordplay.
 - **Metaphorical richness** — layered, coherent imagery.

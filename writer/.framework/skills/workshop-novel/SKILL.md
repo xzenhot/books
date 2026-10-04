@@ -12,15 +12,15 @@ Use this skill for a novel pipeline after scaffold and before research or later 
 Read, in order:
 
 1. The pipeline book plan (cloned from the backlog):
-   - .space/pipeline/<bookname>/book.json
+   - workspaces/pipeline/<bookname>/book.json
 2. The matching chapter model (the only per-chapter input):
-   - .space/pipeline/<bookname>/chapters/<n>/chapter.json
+   - workspaces/pipeline/<bookname>/chapters/<n>/chapter.json
 3. The novel backlog source:
-   - .space/backlog/<bookname>/storyline.md
-   - .space/backlog/<bookname>/gist.md
+   - workspaces/backlog/<bookname>/storyline.md
+   - workspaces/backlog/<bookname>/gist.md
 4. Any available upstream research and seed files in the pipeline.
 
-Never read an existing `.space/pipeline/<bookname>/chapters/<n>/chapter.md`. If it already exists, leave it untouched. The initial draft may be created only when the file is absent.
+Never read an existing `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`. If it already exists, leave it untouched. The initial draft may be created only when the file is absent.
 
 The epic is the story source of truth. Use the gist only to orient the premise. Do not invent characters, events, history, or outcomes beyond the epic and available research.
 
@@ -48,7 +48,7 @@ Merge into the existing chapter model without dropping unrelated fields:
 
 Preserve chapter_index, level, segments, and all existing runtime fields. If `chapter.md` is absent, write a basic flat-prose draft using only the chapter model and workshop guidance, with no section headings. If it already exists, do not read or modify it. This is an initial working draft, not final output; later writing agents may revise it under the version-before-overwrite contract.
 
-Write one run summary to .space/pipeline/<bookname>/filters/workshop/filter-summary.md. Include the processed chapters, word targets, source grounding, and any unresolved research need. Do not write runtime content into other filter folders.
+Write one run summary to workspaces/pipeline/<bookname>/filters/workshop/filter-summary.md. Include the processed chapters, word targets, source grounding, and any unresolved research need. Do not write runtime content into other filter folders.
 
 ## Guardrails
 

@@ -26,14 +26,14 @@ If no scope is supplied, default to `all`.
 
 Read these paths (falling back to legacy names where noted):
 
-- `.space/pipeline/<bookname>/book.json` (fall back to `model.json`) — the book
+- `workspaces/pipeline/<bookname>/book.json` (fall back to `model.json`) — the book
   plan: `form`, `chapter_count`, `chapters`, `filter_chain`.
-- `.space/pipeline/<bookname>/progress.json` — per-chapter `written`,
+- `workspaces/pipeline/<bookname>/progress.json` — per-chapter `written`,
   `validated`, `published`, `status`.
-- `.space/pipeline/<bookname>/filters/filters.json` — the filter registry with
+- `workspaces/pipeline/<bookname>/filters/filters.json` — the filter registry with
   `order`, `name`, `autorun`.
-- `.space/pipeline/<bookname>/bookseed.txt` (poetry) — the topic list.
-- `.space/pipeline/<bookname>/override.txt` and
+- `workspaces/pipeline/<bookname>/bookseed.txt` (poetry) — the topic list.
+- `workspaces/pipeline/<bookname>/override.txt` and
   `filters/override/filter.md` — override presence.
 - For each chapter in scope:
   - `chapters/<n>/chapter.json` (fall back to `model.json`) — runtime metadata,
