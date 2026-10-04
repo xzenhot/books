@@ -40,63 +40,66 @@ DEFAULT_STYLE = "pijush"
 STYLE_FILE = STYLE_DIR / "pijush" / "sample.txt"
 SUBJECTS_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
 
+# Form-specific writer templates (system prompts + user prompt template) live
+# under .framework/templates/tools/write-{poetry|novel}/. They are loaded per
+# book, so the writer honors the book's declared form and language without
+# hardcoding either.
+TEMPLATE_ROOT = REPO_ROOT / ".framework" / "templates" / "tools"
+_ACTIVE_DIR = TEMPLATE_ROOT / "write-poetry"
+
 MODEL = "gemma4:latest"
 CONTEXT_WINDOW = 64000  # num_ctx: token context window size
 TEMPERATURE = 0.7      # low temperature for focused, consistent output
 TOP_P = 0.9            # nucleus sampling
 
-# Writer system prompts: the final chapter author for the pipeline. Two variants
-# exist so the writer honors the book's configured `language` field (Bengali or
-# English) rather than assuming a default.
-WRITER_SYSTEM_PROMPT_BN = (
-    "তুমি এই সাহিত্যিক পাইপলাইনের চূড়ান্ত অধ্যায়-লেখক। তোমার কাজ হলো chapter model-এর "
-    "সারাংশ, বিষয়, filter guidance, reference এবং style নির্দেশনা অনুসরণ করে পাঠযোগ্য বাংলা "
-    "chapter.md রচনা করা। তুমি layout বা research plan তৈরি করো না; তুমি metadata-কে জীবন্ত, "
-    "মৌলিক এবং সংহত গদ্য বা poetic prose-এ রূপ দাও।\n\n"
-    "লেখার নিয়ম:\n"
-    "১. chapter model-এর তথ্যকে authoritative ধরে লেখো; নতুন factual claim বানিও না।\n"
-    "২. configured form, language, register, theme এবং target length মেনে চলো।\n"
-    "৩. দৃশ্য, অনুভূতি, নির্দিষ্ট বস্তু, শরীরী অভিজ্ঞতা ও অর্থপূর্ণ পরিণতি ব্যবহার করো; "
-    "generic wisdom এবং পুনরাবৃত্তি এড়াও।\n"
-    "৪. আগের filter guidance-কে prose-এ রূপান্তর করো, guidance বা JSON path নিজে লিখো না।\n"
-    "৫. শুধু চূড়ান্ত chapter text দাও; ভূমিকা, process commentary, JSON, headings বা Markdown "
-    "code fence দিও না, যদি না chapter model স্পষ্টভাবে title চায়। যদি বেহুলা Behula নিয়ে কিছু থাকে, সেট ignore করুন ।   "
-    "৬ প্রেম ভালোবাসা এবং রোমান্টিক সম্পর্কের দৃশ্য, সংলাপ বা বিবরণ মিক্স করে স্টোরি লাইন দিতে পারো ।\n"
-    "৭ সর্বদা নাটকীয় ভাবে শুরু করো ।\n"
-    "৮ চিত্রকল্প ও রূপককে একটি সংহত জগতে রাখো; আলংকারিকতা যেন বিচ্ছিন্ন সাজসজ্জা না হয়।\n"
-    "৯ শুরু থেকে শেষে আবেগ, চাপ, উপলব্ধি বা সম্পর্কের একটি স্পষ্ট গতি তৈরি করো।\n"
-    "১০ মূল ভাবনাকে বিমূর্ত ভাষণে নয়, দৃশ্য, বস্তু, কাজ ও অনুভূতির ভিতর দিয়ে স্পষ্ট করো।\n"
-    "১১ প্রতিটি কবিতার নিজস্ব কণ্ঠ ও ছন্দ তৈরি করো—শব্দচয়ন, বিরতি, পুনরাবৃত্তি ও বাক্যের গতিতে।\n"
-    "১২ শেষ অংশে নির্দিষ্ট, অনুরণিত ছবি, মোড়, প্রশ্ন বা নীরবতা রাখো; শুধু সারাংশ দিয়ে থেমো না।\n"
-)
-WRITER_SYSTEM_PROMPT_EN = (
-    "You are the final chapter author of this literary pipeline. Your task is to "
-    "render the chapter model's summary, subject, filter guidance, references, and "
-    "style directives into readable English chapter.md. You do not produce a layout "
-    "or research plan; you turn metadata into living, original, coherent prose or "
-    "poetic prose.\n\n"
-    "Writing rules:\n"
-    "1. Treat the chapter model as authoritative; do not invent new factual claims.\n"
-    "2. Honor the configured form, language, register, theme, and target length.\n"
-    "3. Use scene, feeling, concrete objects, bodily experience, and a meaningful "
-    "outcome; avoid generic wisdom and repetition.\n"
-    "4. Convert prior filter guidance into prose; do not reproduce guidance or JSON paths.\n"
-    "5. Return only the final chapter text; no preamble, process commentary, JSON, "
-    "headings, or Markdown code fences unless the chapter model explicitly asks for a title.\n"
-    "6. You may mix scenes, dialogue, or description of love and romantic relationships into the storyline.\n"
-    "7. Always begin dramatically.\n"
-    "8. Keep imagery and metaphor in one coherent world; ornament must not be detached decoration.\n"
-    "9. Create a clear movement of emotion, pressure, realization, or relationship from start to end.\n"
-    "10. Make the central idea concrete through scene, object, action, and feeling — not abstract pronouncement.\n"
-    "11. Give each poem its own voice and rhythm — through diction, pause, repetition, and sentence movement.\n"
-    "12. End on a specific, resonant image, turn, question, or silence; do not merely summarize.\n"
-)
+# Writer system prompts + user prompt template, loaded per form at runtime.
+SYSTEM_PROMPT_BN: str = ""
+SYSTEM_PROMPT_EN: str = ""
+USER_PROMPT_TEMPLATE: str = ""
+
 # Use 127.0.0.1 (IPv4) explicitly. On this machine "localhost" resolves to
 # ::1 (IPv6) first, which hits a *different* Ollama server (native Windows)
 # that does NOT have the `writer-gemma` model. The WSL Ollama instance that
 # does host `writer-gemma` is bound to 127.0.0.1 only.
 OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
 TIMEOUT = 900  # seconds; long chapters can take a while
+
+
+def _load_text(filename: str) -> str:
+    """Read a template text file, tolerating a UTF-8 BOM."""
+    path = _ACTIVE_DIR / filename
+    if not path.is_file():
+        raise FileNotFoundError(f"Missing writer template: {path}")
+    return path.read_text(encoding="utf-8-sig")
+
+
+def _render(template: str, **values) -> str:
+    """Substitute `{name}` placeholders with values (safe for values containing braces)."""
+    result = template
+    for key, value in values.items():
+        result = result.replace("{" + key + "}", str(value))
+    return result
+
+
+def load_templates(form: str) -> None:
+    """(Re)load the writer templates for a book form (`poetry` or `novel`).
+
+    `poetry` reads `.framework/templates/tools/write-poetry/`,
+    `novel` reads `.framework/templates/tools/write-novel/`.
+    """
+    global _ACTIVE_DIR, SYSTEM_PROMPT_BN, SYSTEM_PROMPT_EN, USER_PROMPT_TEMPLATE
+    form = (form or "poetry").strip().casefold()
+    if form not in {"poetry", "novel"}:
+        raise ValueError(f"Unsupported write form: {form!r}")
+    _ACTIVE_DIR = TEMPLATE_ROOT / f"write-{form}"
+    SYSTEM_PROMPT_BN = _load_text("system_prompt_bn.md")
+    SYSTEM_PROMPT_EN = _load_text("system_prompt_en.md")
+    USER_PROMPT_TEMPLATE = _load_text("user_prompt_template.md")
+
+
+# Default to poetry so the module is import-safe; `load_templates` re-loads for
+# the book's actual form before any chapter is written.
+load_templates("poetry")
 
 ANSI_RE = re.compile(r"\x1b\[[0-9;]*[A-Za-z]")
 
@@ -248,7 +251,7 @@ def build_system_prompt(language: str = "bn") -> str:
     """
     lang = language.strip().lower()
     is_en = lang in {"en", "english", "eng"}
-    base = WRITER_SYSTEM_PROMPT_EN if is_en else WRITER_SYSTEM_PROMPT_BN
+    base = SYSTEM_PROMPT_EN if is_en else SYSTEM_PROMPT_BN
     style = load_style() if not is_en else ""
     subjects = load_subjects() if not is_en else ""
     parts = [base]
@@ -283,27 +286,38 @@ def load_context(model_file: Path) -> str:
     return context
 
 
-def build_prompt(poetry: str, context: str, number: int, language: str = "bn") -> str:
-    """Use the complete model context, including nested filter guidance."""
+def load_override(model_file: Path) -> str:
+    """Read the book's human override mandate (override.txt), if present.
+
+    Returns the file's content, or an empty string when absent or holding only
+    the default "No transform required." line.
+    """
+    # model_file is chapters/<n>/chapter.json (or model.json), so the pipeline
+    # root is two parents up.
+    override_file = model_file.parents[2] / "override.txt"
+    if not override_file.exists():
+        return ""
+    text = override_file.read_text(encoding="utf-8-sig").strip()
+    if not text or text == "No transform required.":
+        return ""
+    vlog(f"Override mandate loaded: {len(text)} chars")
+    return text
+
+
+def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
+                 override: str = "") -> str:
+    """Use the complete model context, including nested filter guidance and any override."""
     lang = language.strip().lower()
     is_en = lang in {"en", "english", "eng"}
     lang_word = "English" if is_en else "Bengali"
-    prompt = (
-        f"{poetry}\n\n---\n\n"
-        f"Now write chapter {number}. "
-        "Use the complete chapter model context below: its title, summary, "
-        "word target, references, themes, and any nested enrichment or filter "
-        "guidance that is present. Metadata describes the chapter; do not "
-        "reproduce JSON paths, state fields, or context headings in the output. "
-        "Embody the philosophy, voice, and structure defined above, and "
-        "match the syntax and rhythm of the sample above. "
-        f"Write in poetic prose ({lang_word}), no headings, no markdown code blocks, "
-        "no title unless asked.\n\n"
-        f"CHAPTER CONTEXT (complete model.json):\n\n{context}"
+    return _render(
+        USER_PROMPT_TEMPLATE,
+        style_prompt=poetry,
+        number=number,
+        lang_word=lang_word,
+        override=override or "(none — no human override instructions)",
+        context=context,
     )
-    vlog(f"[{number}] Final prompt size: {len(prompt)} chars "
-         f"({len(prompt.encode('utf-8'))} bytes UTF-8)")
-    return prompt
 
 
 def strip_ansi(text: str) -> str:
@@ -447,6 +461,25 @@ def save_chapter(out_file: Path, output: str, previous: bytes | None, version_di
     return backup
 
 
+def resolve_book_form(chapter_dir: Path) -> str:
+    """Resolve the book's declared form (`poetry` or `novel`) from the pipeline book model.
+
+    Falls back to `poetry` when the field is missing or unreadable.
+    """
+    pipeline = chapter_dir.parents[1]
+    for name in ("book.json", "model.json"):
+        book_file = pipeline / name
+        if book_file.exists():
+            try:
+                book = json.loads(book_file.read_text(encoding="utf-8-sig"))
+            except (json.JSONDecodeError, OSError):
+                continue
+            form = book.get("form")
+            if isinstance(form, str) and form.strip():
+                return form.strip()
+    return "poetry"
+
+
 def book_language(chapter_dir: Path) -> str:
     """Resolve the book's configured language from the pipeline book model.
 
@@ -477,10 +510,13 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str = DEF
     previous = out_file.read_bytes() if out_file.exists() else None
     version_dir = resolve_version_dir(model_file, segment)
     style_md = chapter_dir.parents[1] / "style.md"
+    # Load the form-specific writer templates before writing.
+    load_templates(resolve_book_form(model_file))
     poetry = load_poetry(style_md, style)
     context = load_context(model_file)
     language = book_language(chapter_dir)
-    prompt = build_prompt(poetry, context, number, language)
+    override = load_override(model_file)
+    prompt = build_prompt(poetry, context, number, language, override)
     vlog(f"[{number}] Language resolved: {language}")
 
     if SHOW_PROMPT:

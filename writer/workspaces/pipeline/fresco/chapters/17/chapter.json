@@ -1,13 +1,59 @@
 {
   "chapter_index": 17,
   "name": "17",
-  "word_target": 500,
+  "word_target": 80,
   "chapter_title": "The Wall Outlives the Painter",
   "chapter_summary": "The poem meditates on the wall's patience — plaster and pigment that will outlast the hand that made them — and the strange comfort of being survived by one's own finished labor.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Durability of pigment pigments on plaster in arid climates",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the wall as an inanimate, yet profoundly judgmental, witness to transient human lives (the painter's lifespan vs. the pigment's molecular persistence).",
+      "The act of memorializing the departed through art: how the fresco becomes a successor-vessel for the painter's presence when he is gone.",
+      "Shifting focus from the *survivorship* of the work to the burden it places on future generations who must maintain or reinterpret the legacy."
+    ],
+    "story_options": [
+      "Setting: The section of the haveli wall where light falls clearest, Desire: To address a specific person (a patron, lover, child) whose memory is tied to that exact patch of color, Obstacle: The physical fading or flaking of the paint obscuring their features.",
+      "Setting: A structurally sound but heavily eroded corner of the haveli wall in a remote part of Shekhawati, Desire: To speak with an imagined successor painter who will continue the work long after this one is dust, Obstacle: The knowledge that even continuity cannot prevent ultimate decay.",
+      "Setting: Inside the dark structure where the fresco now resides, viewing it only by moonlight, Desire: To acknowledge a moment of profound personal failure or silence in life before death, Obstacle: The wall's steadfast indifference to human sorrow."
+    ],
+    "subject_rotations": [
+      "Focusing on time not as a linear progression toward ruin, but as concentric circles emanating from the point of creation (the initial application).",
+      "Exploring the concept of 'secondary life'—how the art serves its purpose long after the labor ends, perhaps becoming purely architectural rather than narrative.",
+      "A meditation on legacy through materiality: comparing the ephemeral nature of human breath and flesh to the chemical resilience of mineral pigments."
+    ],
+    "sensory_details": [
+      "The grit of ancient lime dust under a fingertip that has long since been buried in sleep, feeling like dried earth.",
+      "The high-pitched sound of dry wind passing over the exposed, untouched sections of the plaster substrate.",
+      "The cool, mineral scent rising from centuries of undisturbed salt migration within the wall structure."
+    ],
+    "research_questions": [
+      "What are traditional methods or beliefs regarding honoring deceased artisans whose work has been preserved by patrons?",
+      "How does local folklore in Shekhawati describe time passing on permanent architectural features versus organic life?"
+    ],
+    "structural_variants": [
+      "An apostrophic monologue where the speaker addresses a geological timescale, using the wall as a shared audience.",
+      "A fragmented structure mirroring deterioration, with each stanza focusing on a different level of chemical degradation (binder, ground layer, pigment)."
+    ],
+    "unused_angles": [
+      "How the physical weight and permanence of the art contrasts with the lightness and swiftness of memory after death.",
+      "The idea that the wall itself becomes a silent custodian of unvoiced histories from the house's occupants."
+    ],
+    "variety_note": "Unlike preceding chapters which focus on the immediate agony or decision-making process, this poem steps away to consider temporal distance and the passive endurance of the finished artifact."
+  },
+  "draft": {
+    "sha256": "bb47b7caa8f02ab2a70a6de4da236cf2d5f1aec4bf04e0b10c43bf733c5ed801",
+    "written_at": "2026-10-04T19:13:06.670031+00:00",
+    "origin": "write"
+  }
 }

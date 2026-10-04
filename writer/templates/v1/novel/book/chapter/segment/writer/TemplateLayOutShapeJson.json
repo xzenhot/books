@@ -1,5 +1,0 @@
-{
-  "total_words": "Count of total words. Integer type.",
-  "segment_content": "Full content of the segment. This is a long text. String type",
-  "last_two_sentences": "The last two sentences of the segment. String type."
-}
