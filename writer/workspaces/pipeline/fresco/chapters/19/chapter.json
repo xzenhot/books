@@ -23,5 +23,40 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The Night Again",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "The object biography of a specific lamp/oil burner: tracing its journey from foundry to bedside table, linking its material history (heavy brass, aged oil) to the artist's current solitary ritual.",
+      "A focused exploration on a particular brush or palette knife that is beginning to fail—its hairs loosening, wood splitting—as an allegory for the limits of artistic endurance versus the unending need to create.",
+      "Treating the scaffold itself not as structure, but as a collection of accumulated discarded matter: rust flakes, spilled pigment dust, forgotten scraps of paper layered up over time."
+    ],
+    "story_options": [
+      "setting: A specific corner of the scaffolding where tools are stacked overnight, desire: The painter desires to protect a single perfect line drawn earlier that night from nocturnal dampness., obstacle: A sudden, unexpected gust of wind threatens to shift the entire precarious stack of materials., turn: The artist stabilizes the stack not with strength, but by briefly pausing, observing the indifferent black sky.",
+      "setting: The base of the haveli wall during a temporary lull in work, desire: A moment where the painter longs for another person to witness this intense nocturnal focus., obstacle: Only the sound of distant, indifferent street life (a lone dog bark, cart wheels) can be heard from below., turn: The artist paints a single, minute detail onto an already finished section—an act of private defiance against the cycle.",
+      "setting: Inside the artist's cramped, light-starved hut adjoining the work site, desire: To recall the initial burst of creative energy that brought this specific commission into being., obstacle: The heavy scent of turpentine and dried oils suffocates any memory or new inspiration., turn: An old, discarded piece of charcoal—a relic from an earlier failed endeavor—becomes the focus point for a new internal struggle."
+    ],
+    "subject_rotations": [
+      "Viewing the night as a temporal mechanism: every night is not merely a repetition but a slightly altered iteration of past failures and salvaged successes.",
+      "Shifting from 'prison vs. freedom' to an investigation of dependency: how dependent is the artist on the *idea* of the night for its essential quality?",
+      "Focusing less on the physical action of painting, and more on the sensory deprivation that forces internal vision onto external surfaces."
+    ],
+    "sensory_details": [
+      "The precise, acrid smell of dried linseed oil mixed with cooling stone dust.",
+      "The unique feeling of metal railings vibrating at a specific, low frequency when illuminated by swinging lantern light (sound/touch).",
+      "The oily sheen on the wrist where paint has rubbed off the cuff after hours of exertion."
+    ],
+    "research_questions": [
+      "What were common forms of solitary lighting or lamp maintenance used by traveling artisans in similar historical contexts to manage fuel usage during long nocturnal sessions?",
+      "How did 18th/19th-century laborers cope with the enforced solitude and cyclical nature of their work when separated from community structures?"
+    ],
+    "structural_variants": [
+      "A continuous stream-of-consciousness sequence where past night's regrets bleed into current movements.",
+      "An alternating structure: brief, highly detailed descriptions of an object (the lamp/tool), followed by long, abstract meditations on the self."
+    ],
+    "unused_angles": [
+      "The potential for a symbiotic relationship between the artist and pests or nocturnal wildlife attracted to the scaffolding's warmth.",
+      "How the light source itself—wax, oil, methane—is treated as a primary character, dictating pace and mood."
+    ],
+    "variety_note": "Unlike poems focusing on decay (Ch. 17) or final fading (Ch. 18), this chapter emphasizes stasis, ritual renewal, and the internal philosophical argument over repetition."
+  }
 }

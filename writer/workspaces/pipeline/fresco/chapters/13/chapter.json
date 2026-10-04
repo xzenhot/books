@@ -23,5 +23,38 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The Ledger and the Wall",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "Examining the ledger as an early form of codified visual art—the precise columns being a miniature grid system contrasting with the organic fluidity of the fresco.",
+      "Focusing on the transactional nature of memory: does the entry in the ledger promise permanence, while the wall promises aesthetic decay?",
+      "A comparative study between two forms of obsessive record-keeping: financial accounting versus the meticulous cataloging inherent in pigment preparation."
+    ],
+    "story_options": [
+      "Setting: A cramped merchant's counting room lit by a single sputtering oil lamp; Desire: To see the painter arrive late, exchanging his damp hands for ledger paper to mark off final payment; Obstacle: The ink blots or runs from humidity caused by the overnight painting session.",
+      "Setting: A private back office overlooking the outer courtyard during a day review of the completed work; Desire: For the merchant not to look at the artistry, but specifically at the structural integrity marked in the ledger's margins; Obstacle: The wall itself subtly shifting or cracking under minor settling after construction.",
+      "Setting: A small, dusty storage annex where pigment jars are kept; Desire: To calculate exactly how much of a specific rare mineral color was 'spent' on the commission versus what remains for future work; Obstacle: A spill of oxidized ochre dust contaminating an otherwise perfect column entry in the ledger."
+    ],
+    "subject_rotations": [
+      "Shifting focus entirely from 'money' versus 'art' to 'control' versus 'release'—the rigid control of accounting against the chaotic release of color.",
+      "Treating the ledger not as a record of payment, but as a personal map charting risk and expectation for the merchant over years of commissions.",
+      "A near-abstract portrayal where numbers in the ledger bleed or stain onto the imagined surface of the painted wall."
+    ],
+    "sensory_details": [
+      "The sharp, dry scent of aged paper and lamp soot permeating the transaction space, distinct from the mineral smell of wet plaster.",
+      "The tactile resistance of heavy, bound leather ledger book under a thumb, pitted or scuffed from years of handling."
+    ],
+    "research_questions": [
+      "What were common methods for securing financial records (e.g., using seals, specific paper types) among mercantile families in 18th-century Shekhawati?"
+    ],
+    "structural_variants": [
+      "A strict alternating stanza form: one focused entirely on the cadence of numerical recitation from the ledger, followed by a stanza mapping that same rhythm onto a painted motif.",
+      "Starting with an image of extreme financial precision (a perfectly ruled column) and slowly dissolving it into illegible chaos as the poem moves towards the wall's surface."
+    ],
+    "unused_angles": [
+      "The concept of debt owed to unseen artisans rather than the patron—who truly owns the work once it is finished.",
+      "A reflection on the ephemeral nature of commodity markets versus the physical endurance (or slow decay) of masonry art."
+    ],
+    "variety_note": "This chapter differentiates itself by focusing intensely on the *interface* between commerce and creation, using the precise rigidity of bookkeeping as its primary foil to the wall's expressive fluidity, something not addressed in purely material or temporal reflections."
+  }
 }

@@ -22,6 +22,7 @@ For every `/book [args...]` request, follow this procedure:
 2. Classify the first positional argument:
    - `-o` / `--options` / `list` → **Options** (read-only), delegated to `pipeline.md`.
    - `-h` / `--help` → **Help** (read-only), delegated to `pipeline.md`.
+   - `eval-judge` → **Eval-Judge** (read-only), delegated to `eval-judge.md`.
    - A subcommand keyword in the first argument → the matching family below.
    - Otherwise it is `<bookname>`; continue classifying the next argument.
 3. Classify the subcommand (second argument when a `<bookname>` leads):
@@ -67,6 +68,7 @@ For every `/book [args...]` request, follow this procedure:
 ```text
 /book -o | --options | list
 /book -h | --help
+/book eval-judge [--completeness] [--effectiveness] [--book <bookname>] [--all]
 ```
 
 ## Command Reference
@@ -96,6 +98,7 @@ For every `/book [args...]` request, follow this procedure:
 | `<bookname> poet` | Pipeline | `pipeline.md` | Produce a single finished poem (aliases: `poetry`, `poem`). |
 | `-o` / `--options` / `list` | Read-only | `pipeline.md` | List books across backlog, pipeline, and `source/books`. |
 | `-h` / `--help` | Read-only | `pipeline.md` | Show usage and phase overview. |
+| `eval-judge` | Read-only | `eval-judge.md` | Test framework completeness (via `self-eval`) and effectiveness (routing, boundary, lifecycle). |
 
 ## Delegation Rules
 

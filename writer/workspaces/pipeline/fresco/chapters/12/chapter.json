@@ -23,5 +23,41 @@
   ],
   "workshop_skill": "workshop-poetry",
   "topic": "The Patron's Eye",
-  "source_context": "gist-and-epic"
+  "source_context": "gist-and-epic",
+  "creative_enrichment": {
+    "angles": [
+      "Framing the transaction not as payment for art, but as a dangerous social contract where vision is bought and sold.",
+      "Exploring the temporal gap between the act of creation (night) and the moment of judgment (daylight appraisal).",
+      "Treating the patron's gaze anthropomorphically—as an entity that simultaneously consumes the beauty and strips away its context."
+    ],
+    "story_options": [
+      "Setting: The narrow, shadowed entranceway to the haveli during pre-dawn; Desire: For the painter to catch the merchant in a moment of private uncertainty about the commission's success; Obstacle: A family member insists on reviewing the work before the official inspection.",
+      "Setting: A small, public antechamber where many merchants gather for viewing appointments; Desire: To witness two competing patrons observe the same fresco simultaneously, each seeing something different; Obstacle: The painter realizes one patron's interest is purely speculative, not commemorative.",
+      "Setting: Outside the haveli gate at dusk, after a final private viewing by the merchant; Desire: For the artist to receive an unexpected piece of advice or criticism from a minor attendant observing the transaction; Obstacle: The patron casually dismisses the struggle as 'laborer grit' rather than transcendent effort."
+    ],
+    "subject_rotations": [
+      "Focusing on the financial mechanics: mapping the specific cost per square inch of color versus the unknown emotional/spiritual value embedded.",
+      "Shifting focus entirely to the patron's perspective—not their appreciation, but their bureaucratic anxiety over maintaining appearances and solvency.",
+      "Examining the ritualistic nature of the viewing itself—the specific deference shown by both parties in this exchange of labor for capital."
+    ],
+    "sensory_details": [
+      "The dry, hot press of sun-baked stone against bare skin during the daylit inspection; (Thermal/Tactile)",
+      "The brittle, formal sound of a heavy seal being pressed onto the contract papers in silence; (Auditory)",
+      "The dusty scent of rare sandalwood incense used inside the haveli to mask the smell of paint and earth; (Olfactory)"
+    ],
+    "research_questions": [
+      "What were typical social hierarchies regarding who had the right to inspect a private commissioned artwork in wealthy Shekhawati homes?",
+      "Were there common, culturally accepted metrics for valuing decorative arts versus structural maintenance costs in 18th/19th-century mercantile families?",
+      "How did seasonal shifts (e.g., monsoon vs. dry season) affect the formality or timing of patron inspections?"
+    ],
+    "structural_variants": [
+      "A dialogue structure where the poem alternates between the painter's internal monologue and stanzas representing the merchant's clipped, transactional judgments.",
+      "An extended scene dedicated solely to objects present during the review (the scroll, the lamp, the ledger) acting as witnesses to the exchange."
+    ],
+    "unused_angles": [
+      "A deep dive into the specific etiquette of silence in high-stakes art appreciation among mercantile classes.",
+      "How the patron's inherited ideas about 'taste' clash with the artist's raw execution."
+    ],
+    "variety_note": "Unlike chapters focused on material (Pigment, Lime) or environment (Scaffold's Height), this chapter centers entirely on the external social mechanics of validation and valuation."
+  }
 }

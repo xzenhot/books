@@ -1,5 +1,5 @@
 ---
-name: quality
+name: review
 description: Form-aware quality dispatcher. Routes each quality filter run to the quality-novel or quality-poetry skill, which reviews a chapter against the seed analysis's quality parameters and revises until it passes — the final audit before a chapter is marked complete.
 tools: ["read", "write"]
 ---

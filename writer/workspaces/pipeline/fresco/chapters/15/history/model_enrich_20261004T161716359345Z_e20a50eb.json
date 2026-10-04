@@ -1,0 +1,27 @@
+{
+  "chapter_index": 15,
+  "name": "15",
+  "word_target": 500,
+  "chapter_title": "The Haunted Wall",
+  "chapter_summary": "The fresco that remembers its maker; the pigment warm at night. The poem touches the wall and feels its own earlier self beneath it, and asks whether the labor has ever truly ended.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "workshop",
+  "segments": [
+    1
+  ],
+  "workshop": {
+    "source_context": "gist-and-epic",
+    "content_shape": "flat-poetic-prose",
+    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The fresco that remembers its maker; the pigment warm at night. The poem touches the wall and feels its own earlier self beneath it, and asks whether the labor has ever truly ended."
+  },
+  "filter_history": [
+    {
+      "ran_at": "2026-10-05T03:04:43+05:30",
+      "filter": "workshop"
+    }
+  ],
+  "workshop_skill": "workshop-poetry",
+  "topic": "The Haunted Wall",
+  "source_context": "gist-and-epic"
+}

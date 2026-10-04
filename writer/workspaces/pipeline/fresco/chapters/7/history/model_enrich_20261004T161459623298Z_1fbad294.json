@@ -1,0 +1,27 @@
+{
+  "chapter_index": 7,
+  "name": "7",
+  "word_target": 500,
+  "chapter_title": "The Failure",
+  "chapter_summary": "The botched fresco, the wrong line, the plaster stripped and begun again. The poem hides the failure behind a fresh coat and paints over it, and asks whether a work can be whole when its buried errors still breathe beneath it.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "workshop",
+  "segments": [
+    1
+  ],
+  "workshop": {
+    "source_context": "gist-and-epic",
+    "content_shape": "flat-poetic-prose",
+    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The botched fresco, the wrong line, the plaster stripped and begun again. The poem hides the failure behind a fresh coat and paints over it, and asks whether a work can be whole when its buried errors still breathe beneath it."
+  },
+  "filter_history": [
+    {
+      "ran_at": "2026-10-05T03:04:43+05:30",
+      "filter": "workshop"
+    }
+  ],
+  "workshop_skill": "workshop-poetry",
+  "topic": "The Failure",
+  "source_context": "gist-and-epic"
+}

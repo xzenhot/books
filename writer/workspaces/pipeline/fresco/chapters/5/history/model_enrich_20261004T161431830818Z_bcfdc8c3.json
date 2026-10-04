@@ -1,0 +1,27 @@
+{
+  "chapter_index": 5,
+  "name": "5",
+  "word_target": 500,
+  "chapter_title": "The Wasted Sketch",
+  "chapter_summary": "The charcoal studies crumpled and cast aside, the rehearsals no one sees. The poem names the waste not as loss but as the cost of the blossom, the discarded attempts that quietly underwrite the finished wall.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "workshop",
+  "segments": [
+    1
+  ],
+  "workshop": {
+    "source_context": "gist-and-epic",
+    "content_shape": "flat-poetic-prose",
+    "expansion": "From the epic: flat continuous poetic prose grounded in the Night-of-the-Artist cycle. Seed: The charcoal studies crumpled and cast aside, the rehearsals no one sees. The poem names the waste not as loss but as the cost of the blossom, the discarded attempts that quietly underwrite the finished wall."
+  },
+  "filter_history": [
+    {
+      "ran_at": "2026-10-05T03:04:43+05:30",
+      "filter": "workshop"
+    }
+  ],
+  "workshop_skill": "workshop-poetry",
+  "topic": "The Wasted Sketch",
+  "source_context": "gist-and-epic"
+}

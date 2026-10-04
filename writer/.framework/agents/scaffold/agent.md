@@ -21,7 +21,7 @@ Then retry the scaffold command.
 
 ## Execution Mode (factory)
 
-> **IMPORTANT — SCAFFOLD IS OFFLINE BY DEFAULT. Do not hand-craft the pipeline tree with shell commands or direct file writes. Delegate scaffold to the repository Python CLI (`python tools/book.py <bookname> scaffold ...`) unless the book plan's `factory` field is explicitly `"online"` or an explicit `online` argument is supplied.**
+> **IMPORTANT — SCAFFOLD IS OFFLINE BY DEFAULT.** In `offline` mode, **do not execute Python and do not hand-craft the pipeline tree.** Resolve the exact `python tools/book.py <bookname> scaffold ...` command from `.framework/offline_registry.md` (do not re-scan the `tools/` folder), display it to the user, and ask whether to proceed. Only run it after the user says go. Use agentic file writes only when the mode resolves to `online`.
 
 Scaffold accepts an optional execution-mode argument `[offline|online]`. Resolve it in this order:
 
@@ -31,10 +31,10 @@ Scaffold accepts an optional execution-mode argument `[offline|online]`. Resolve
 
 | Mode | Behavior |
 |------|----------|
-| `offline` (**default**) | Use the repository Python CLI (`.tools/*.py`, e.g. `python tools/book.py <bookname> scaffold ...`) for all structural, repeatable scaffold/layout operations. |
+| `offline` (**default**) | **Display, don't execute.** Resolve the exact repository Python CLI command (`python tools/book.py <bookname> scaffold <count> <form>`), present it, and ask the user to confirm before running anything. |
 | `online` | Do not use Python at all; perform every step agentically through direct file reads/writes. |
 
-**The default is `offline`.** When the `[offline|online]` argument is not provided and no `factory` field resolves the mode, run scaffold through the repository Python CLI — never by hand-writing folders or files.
+**The default is `offline`.** In offline mode: resolve the command → display it → ask "go / don't go" → run only on explicit confirmation. Never run Python silently, and never hand-write folders or files as a substitute.
 
 ## Dispatch
 
