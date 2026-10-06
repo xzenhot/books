@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The painted wedding party never finishes marching across the wall, frozen forever a few steps from its destination. The poem lingers on the procession that cannot arrive, the fresco as a celebration suspended in the instant before it is complete."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Traditional Indian wedding procession elements (music, attire, ritual objects)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Syncretic art forms depicting processions in Rajput and Marwari miniature painting"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,133 +57,127 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the *unseen* participants: The background scaffolding, the laborers responsible for maintaining the painted procession after its intended celebration has ended."
+"Viewing the suspended procession not as celebration, but as a rigid trap—a gilded cage of mandated joy."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The mechanical failure of the depicted life: Analyzing the fresco as if it were a piece of clockwork mechanism—which spring or joint is stuck, and why?"
+"Shifting focus from the painted figures to the unseen space *between* them: the gap in their dance or stride where completion should occur."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"A legalistic approach to permanence: Treating the paint layers not as art, but as binding contracts between the artist (debtor) and the family commissioning the work (creditor)."
+"The internal debate of the painter: Was this intentional incompleteness—a commentary on the transient nature of wealth—or a forced stop due to circumstance?"
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A specific spot where a fresco couple is eternally reaching for each other; Desire: For the wind to blow one flower petal from the bride's bouquet, causing her painted hand to finally drop it; Obstacle: The adhesion of pigment to the plaster itself prevents any movement. Turn: The stillness is not an end, but a state of perfect, unchangeable balance."
+"setting: A high, shadowed alcove above the main wall, desire: To witness the precise moment one painted figure hesitates before taking the final step., obstacle: The vibrancy of the pigments resisting the slow encroachment of external decay and dust."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A side passage of the haveli showing service staff depicted in procession; Desire: For the depiction of servants (porters, water bearers) to look directly out at the contemporary viewer with accusation or pity; Obstacle: The pigment choice makes their expressions too uniform and celebratory. Turn: Their silent judgment reveals the true reason the procession was never meant for a real destination."
+"setting: Immediately adjacent to the wedding fresco, in a blank patch of plaster, desire: To project a phantom sound—the music that has stopped but whose rhythm can still be felt., obstacle: The sheer silence of the haveli demanding absolute auditory conformity."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: A gap in the fresco where two different scenes meet (e.g., near a gate); Desire: For the painted architecture to suggest a *different*, parallel exit route that was considered but ultimately scrapped; Obstacle: The visible seam between the paintwork of two adjacent artists/phases. Turn: This overlooked architectural suggestion points toward an unbuilt wing or life entirely different from the merchant's known history."
+"setting: Near the base of the wall, looking up at the frozen group, desire: To map the trajectory of a single painted bead or piece of jewelry to its final, unreached point., obstacle: The physical impossibility of completing the gesture without destroying the illusion."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the procession not as celebration, but as a forced migration—the departure of family into a new, unknown social state."
+"Treating the fresco as an active, semi-sentient entity whose suspended state is a form of eternal protest against its abandonment."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on material breakdown: Examining how water damage or salt efflorescence affects the *most* central figures (e.g., the groom's turban falling off)."
+"Focusing on the materiality of 'stopping': How does paint chemically resist entropy differently from organic life?"
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Reversing the narrative energy: Imagining that the procession is not moving forward in time, but backward toward its own point of origin."
+"Exploring the tension between performance (the dance) and permanence (the wall)—how wealth demands both?"
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The specific way deep ultramarine pigment has faded unevenly where it was exposed to rainwater runoff from above."
+"The faint, sharp scent of dried linseed oil and specific vegetable dyes reacting to microscopic shifts in humidity."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The imagined, muffled sound of ceremonial ankle bells (ghungroo) that only exists in the tension between two painted panels."
+"The tactile sensation of cool, brittle mortar under the fingertips when tracing a line that never finishes."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The powdery residue of dissolved lime mortar visible underneath the most vibrant foreground figures."
+"A visual perception where painted shadows cast by figures seem disproportionately deep, suggesting an internal source of darkness."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were common local symbols used within Shekhawati fresco processions to denote wealth disparity among wedding parties?"
+"What were common symbolic representations within Shekhawati fresco cycles for interruption or stasis outside the religious iconography?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Are there surviving examples where painted processional murals incorporate mythological narratives into mundane social events like weddings?"
+"How did local pigments from that era react to prolonged exposure to alternating light and deep shadow?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"Writing the poem entirely as a series of direct, spoken address lines from the suspended figures themselves (a chorus effect)."
+"A poem structured as a stuttering sequence, mirroring the fragmented movement of the figures."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Structuring it around 'if only' clauses—each stanza beginning with an unfulfilled temporal condition: 'If the music had kept playing...' or 'Had they reached the main gate...'"
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"Examining the difference between a *royal* procession (patronage) and a *wealthy merchant* procession (display)."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"The inclusion of animals in the fresco: Are camels, horses, or elephants depicted in ways that suggest their economic value versus their ceremonial role?"
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"Connecting the iconography of the wedding to rites necessary for successful trade transactions."
+"Starting at the culmination point (the destination) and working backward through the moments leading up to the halt."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Where previous chapters focused on decline and death, this chapter emphasizes stasis—a frozen moment caught between full life and eventual decay, suggesting a perpetual readiness rather than an ending."
+"This chapter differs from the preceding focus on Gangaram's personal decline by focusing purely on the static, narrative suspension of his investment—the arrested moment of public triumph."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"How the compositionally 'left out' space in the fresco relates to areas of unpainted decay in the physical structure."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"The internal dialogue between two figures whose intended path crossed but was eternally broken by the frame."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"34c595bc48553dab25ae9568bf5c4e0051d2810e645f5b05412534a041371d8b"
+"cf0efc4e9bc5a948fbe82f5e98f5148b5a675c519ec2a11473f6fad7bd1eadcb"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:13:56.071740+00:00"
+"2026-10-04T20:18:53.979766+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -222,14 +186,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"cf0efc4e9bc5a948fbe82f5e98f5148b5a675c519ec2a11473f6fad7bd1eadcb"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

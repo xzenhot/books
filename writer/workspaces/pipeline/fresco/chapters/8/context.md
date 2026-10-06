@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -45,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"scaffolded"
 ```
 
 ## $["segments"][0]
@@ -57,119 +57,113 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Treating the grinding of lapis not as pigment preparation, but as a kind of internal abrasion—a slow wearing down of the self to achieve external perfection."
+"Focusing on the transformative violence of the grinding process—the stone surrendering its geological time into momentary dust."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Framing the lamplight itself as an antagonist: how its specific, imperfect glow distorts the color until it achieves an unnatural brilliance that is almost painful."
+"Contrasting the deep, cold permanence of ultramarine pigment (lapis) against the transient warmth of the single tallow lamp's flame."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Shifting focus from the stone/pigment interaction to the *memory* held within the blue—what distant horizon or inaccessible sky does this manufactured pigment promise?"
+"Examining the scarcity not as a monetary cost but as a temporal one: how many nights must he sacrifice for a mere swatch of blue."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The small, makeshift grinding station in the back corner of the haveli; Desire: To hear the sound of the millstone turning against itself until it achieves a perfect resonance, Obstacle: A sudden shift in wind causing a dust cloud to obscure the lamplight."
+"setting: The narrow, dust-choked cot beneath the scaffold, desire: To mix the newly ground pigment to achieve an exact shade matching memory or myth (e.g., a specific celestial blue)., obstacle: The lamp's inconsistent light casts dancing shadows that make judging color impossible."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Back near the cistern or well where water is drawn for mixing; Desire: For the resulting blue powder to reflect the muted silver light off the water's surface before painting, Obstacle: The inherent muddiness of the source water resisting purity."
+"setting: A corner of his makeshift workspace, littered with geological samples and remnants of other costly materials., desire: To map the origin of the lapis—tracing its journey from distant mountains to this small pouch., obstacle: The sheer weight of the pigment's history makes the act feel crushing, almost unbearable."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Just as the last vestige of carbon burns down in the lamp wick, leaving only ash; Desire: To capture the last flicker of orange heat against the profound blue dust pile, Obstacle: The necessity of immediate transfer before thermal decay alters the fine powder."
+"setting: Just as he finishes grinding a batch, before mixing it into his palette, desire: To hold up the dry powder to the moonlight (if visible) or lamplight, seeking validation of its purity., obstacle: A sudden chill in the air makes him question if the color can survive the night's cold and dew."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Examining the economic loop: tracing the lapis not to the artist, but backward through its trade routes to distant mines and desert crossings."
+"Treating the act of grinding not as preparation for art, but as a form of alchemical personal ritual or sacrifice."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"The alchemical reading: treating the creation of blue as a form of controlled self-transmutation—turning weight into light."
+"Shifting from 'cost in time' to 'cost in self'—how does working through nights of isolation change his perception of his own face when illuminated only by artificial light?"
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"A purely temporal focus: mapping the exact duration of grinding against perceived metaphysical distance; how does time stretch when focused on minute particulate matter?"
+"Viewing the blue as symbolic weight; is the color representing distant, unreachable wisdom or an inaccessible truth?"
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The fine, cool grit of pulverized ultramarine settling onto warm skin like an unnatural frost."
+"The gritty heat radiating from the manual grinding stone against the cool stone floor."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The faint, acrid smell of burning lamp oil mixing with the mineral dust before it has fully settled."
+"The high-pitched, almost musical friction of the pestle against the hard lapis ore."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The sound of the pestle tapping against the mortar—not a steady rhythm, but a hesitant, almost prayerful percussion."
+"The scent profile of pulverized minerals mixed with lamp oil smoke and stale sweat."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the documented or anecdotal sources in historical Rajasthan concerning the availability and preparation methods for ultramarine versus cheaper substitutes during this era?"
+"What are the specific geological or trade routes associated with the acquisition of lapis lazuli relevant to this region's historical economy?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did traditional visual arts practices treat color saturation as both a spiritual attribute and an economic indicator?"
+"How did pre-industrial pigment makers measure 'purity' in color, beyond simple visual assessment?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured around the grinding action itself, using staggered lines or enjambment to mimic particle flow."
+"A highly kinetic opening focusing purely on the repetitive physical motion (the grind) before settling into contemplation."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Starting with the exhausted state of the painter *after* the blue is made (the residue phase), before recounting the process."
+"A fragmented structure where each stanza isolates a single sensory input related to the blue material: sound of grinding, sight of dust, feel of stone."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"How the specific shade of lapis blue might have been historically equated with spiritual states or divine manifestation in local mythology."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"The tension between the immense value/rarity of the pigment and its ultimate subservience to a transient, everyday decorative motif."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Where earlier chapters focused on the friction of labor and failure, this poem isolates a single, potent element—color itself—transforming its creation into an internal philosophical burden."
-```
-
-## $["draft"]["sha256"]
-
-```json
-"3d24251e5659f669b45cae33f996cba76f306b5da0b3cd6e01930efcb3047b8d"
-```
-
-## $["draft"]["written_at"]
-
-```json
-"2026-10-04T19:11:12.919547+00:00"
-```
-
-## $["draft"]["origin"]
-
-```json
-"write"
+"Unlike the focused physical labor depicted earlier (struggle, failure), this chapter isolates one material—the intensely costly blue—to examine how economic sacrifice translates into concentrated visual potential."
 ```

@@ -1,25 +1,5 @@
-এই চুন-মাটির বুকে, যেখানে ল্যাপিস নীলের সেই নিখুঁত জ্যামিতি, সেখানে হঠাৎ একটি ফাটল।
-একটি সূক্ষ্ম রেখা।
-যেন কোনো গোপন হিসেব পাল্টে গেছে।
-আমার হাত, এই একই হাত যা চুন-মিশ্রিত গেসো গুঁড়ো ধরেছিল, সে আজ সেই ভাঙা স্তরটুকু আঁচড়াচ্ছে।
-আঁচড়ানো মানে কি খনন?
-পুরোনো ভুলগুলোর প্রত্নতত্ত্ব কি তাই?
-অদৃশ্য হাতের সেই ব্যর্থতার ধূসর ধুলো।
-আমি তো কেবল রং লাগাই।
-তবুও আমিই এই ফাটলের সাক্ষী।
-আমিই এই ক্ষয়-শক্তির নীরব বিচারক।
+The sun, a merciless eye sinking low over the terracotta roofs, caught the jagged scar where the pigment had surrendered to gravity and time. It was not a gentle bloom, this failure, but a violent fissure running across the painted wing of the haveli, a map of stress etched into the calcified skin of the wall. To repair it was not merely to patch; it was an act of deliberate self-censure, a forced erasure of a night’s strained devotion. The scraper bit down, and the dry, chalky sigh of calcium carbonate dust rose, momentarily obscuring the merchant’s desired perfection. Each scrape was a tiny, sharp confession, peeling back the vibrant ochre and lapis to reveal the ghost-grey substrate beneath—the exhausted sketch, the hurried underpainting, the very blueprint of a labor that had been too fragile to sustain its own splendor.
 
-এই ম্লান আলোয়, তেলের প্রদীপের কাঁপানো শিখা ভেদ করে, আমি দেখি—
-রংগুলো কীভাবে খসে পড়ছে।
-এক খণ্ড, অন্য খণ্ড।
-যা আমি ভেবেছিলাম স্থির, তা ভাঙন-প্রবণ।
-কত রাত, এই স্ক্যাফোল্ডে, এই একই ভঙ্গিতে দাঁড়িয়ে?
-কতবার এই একই নকশা, এই একই আত্ম-নির্ভরতার মিথ্যা আবরণ।
-আর এখন?
-এই ছিঁড়ে যাওয়া অংশে, আমি কেবল নিজেরই দুর্বলতা দেখছি।
-এই ফাটল কি কেবলই প্লাস্টারের ত্রুটি?
-নাকি আমারই সেই অসম্পূর্ণ ইচ্ছার প্রতিধ্বনি?
-আমি মেরামত করি।
-আমি আবার ঢাকি।
-এই আঠালো, গুঁড়োময় হাতে, আমি কি কেবল একটি মিথ্যা নির্মাণ করছি?
-এই প্রাচীর কি কেবলই আমার নিজস্ব, অনিবার্য অপূর্ণতার একটি দীর্ঘ আখ্যান?
+The discarded flakes, these fallen fragments of color, felt like dried blood gathered on the rough stone floor, minute pieces of sacrificed hours. To find a match, a proxy for the lost effort, I sought the tool chest, hoping for a sliver of the exact failing hue. But the shard I found, tucked beneath a bucket of curing lime, was older, bearing the patina of a generation before mine, a testament to a forgotten hand’s struggle against the same porous mortar.
+
+The work demands a violent humility. To reintroduce the binder, to wet the wounded substrate with that momentary, cool shock of lime, is to impose a new intention upon entropy. I watch the new slurry settle, a fragile skin reforming over the raw architecture of the crack. The meticulous layering, the slow, agonizing patience of the rebuild, alters the original intent; the flaw is not simply hidden, it is transmuted, becoming a necessary scar, a testament to the body’s fatigue against the wall’s stubborn insistence. I stand there, dust clinging to the pores of my own skin, holding the weight of the repair—the perfect, seamless surface is a lie whispered against the truth of the crumbling binder. The scaffold stands sentinel above, a skeletal armature against the deepening twilight, while at my feet, the palette lies overturned, a scattered geometry of ruined color.

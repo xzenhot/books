@@ -58,8 +58,8 @@ Read these in order. Use them as the source of truth for what *should* exist.
 4. `.framework/agents/` — every `agent.md`.
 5. `.framework/skills/` — every active `SKILL.md`. Retired/moved skills live under
    `.framework/filters/` and must not be referenced by any agent or workflow.
-6. `.framework/templates/` — `book.json`, `progress.json`, `stereotypes/`,
-   `preset/`, `moods/`, `subjects/`, `styles/`.
+6. `.framework/templates/` — `backlog/` (`book.json`, `book.min.json`, `progress.json`), `stereotypes/`,
+   `preset/`, `moods/`, `subjects/`, `tools/`.
 7. `workspaces/start.md` — user defaults.
 8. `workspaces/backlog/`, `workspaces/pipeline/`, and `source/books/` — the data layers.
 
@@ -105,10 +105,10 @@ and every dangling reference into a moved/retired skill as a defect.
 
 ### 4. Template & schema validity (10)
 
-- `book.json` / `book.min.json` parse as JSON and their `chapters` entries carry
+- `templates/backlog/book.json` / `book.min.json` parse as JSON and their `chapters` entries carry
   the required fields (`chapter_index`, `name`, `word_target`, `chapter_title`,
   `chapter_summary`, `further_references`).
-- `progress.json` matches the current schema (numeric `chapter_number`,
+- `templates/backlog/progress.json` matches the current schema (numeric `chapter_number`,
   `status` in the allowed set, `published_sha256`, `published_version`,
   `humanized`).
 - Every `stereotypes/<form>/<sub>/registry.md` lists entries whose files exist.

@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -39,7 +39,7 @@
 ## $["further_references"][0]["reference"]
 
 ```json
-"Impact of Indian Railways on regional trade centers post-mid-19th century"
+"19th Century Indian Railway Expansion in Western India"
 ```
 
 ## $["further_references"][0]["weblink"]
@@ -57,28 +57,10 @@
 ## $["further_references"][1]["reference"]
 
 ```json
-"Historical documentation of changes in major overland routes connecting Delhi to Gujarat/Mumbai era"
+"Historical trade patterns of the Silk Road successors in Rajasthan"
 ```
 
 ## $["further_references"][1]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][2]["no"]
-
-```json
-"3"
-```
-
-## $["further_references"][2]["reference"]
-
-```json
-"The shift from textile-based wealth accumulation to other commodities (e.g., raw materials, export cash crops) in Rajasthan's economy"
-```
-
-## $["further_references"][2]["weblink"]
 
 ```json
 ""
@@ -93,7 +75,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -105,133 +87,133 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Addressing the fading haveli structure itself: Treating the architecture as a historical body reacting to lack of use—sagging arches, unused paint pigments."
+"The geopolitical shift: Framing the decline not as a financial failure, but as an intentional, almost geological repositioning of regional power structures toward imperial infrastructure."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The perspective of the local artisan who understood multiple trade cycles: One whose skills (carpentry, fresco painting) were useful regardless of whether silk or salt was flowing through the market."
+"Micro-history of logistics: Focusing on specific, failed contracts or forgotten manifests that detail the precise moment and nature of the route's divergence."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Framing the route shift as a betrayal by geography itself: Personifying the shifting dust clouds or changing wind patterns that guide commerce away from Mandawa."
+"The architecture reflecting obsolescence: How the grand facades, built for linear caravan traffic, become spatially inappropriate for new, rapid transport."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A specific, deserted corner of the haveli courtyard; Desire: To hear the distinct sound of iron railway wheels rolling across flagstones where only camel hooves once echoed; Obstacle: The deep accumulation of fine, arid dust that muffles all sound until nothing is discernible."
+"Setting: A dust-choked caravanserai gate; Desire: For the last remaining merchant guide to point toward a new, unseen convergence point of trade routes; Obstacle: The map they hold is deliberately outdated and riddled with erased lines; Turn: He describes the route not by distance but by its 'sound'—the sound of newer engines."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Near a major old junction point (where a cart track met a potential rail line); Desire: To find one specific family portrait showing people dressed for both caravan travel and train passage; Obstacle: A physical marker—a fallen piece of industrial debris, like rusted railway spike or oil residue—that anchors the change irreversibly."
+"Setting: Inside Gangaram’s main receiving warehouse, piled high with stagnant goods; Desire: To witness a younger cousin meticulously burn old maps detailing the old paths; Obstacle: The fire sputters weakly against modern humidity; Turn: He notices that the scent rising from the smoke is not just paper, but residual oil from distant machinery."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The outer wall facing the old main trade artery; Desire: For an elder merchant to recount a specific moment when he *felt* the tide turn, not seeing it happen, but sensing the atmospheric shift in the market's energy; Obstacle: The sheer weight of accumulated nostalgia that paralyzes decisive action."
+"Setting: A secluded rooftop overlooking the town's main thoroughfare at sunset; Desire: For Gangaram to observe a single, hesitant laborer attempting to repair a broken wagon wheel suited for an old track; Obstacle: The wheel cracks under minimal pressure; Turn: He realizes this small failure represents the impossibility of adapting his legacy."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing entirely on specialized goods other than textiles (e.g., dyes, spices like turmeric or indigo) whose value was impacted by changing routes."
+"From economic narrative to cartographical lament: Treating the decline as a study in misplaced geography—how tradition stubbornly clings to paths that no longer exist."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"A geographical study poem: Mapping the journey from the haveli to the *new* centers of commerce visible only in memory or faint sketches."
+"Focus on the 'intermediate' goods: Instead of silk or cotton, focus on the minor spices or local crafts whose routes were too peripheral to survive the major shift to railways."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The internal economic debate: A poetic argument between two surviving family members—one clinging to traditional overland trade methods, the other reluctantly embracing whatever new cash crop promises profit."
+"The psychology of regional attachment: How devotion to a physical place becomes an irrational anchor when global economic tides move elsewhere."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way sunlight catches the distinct tracks of oily residue or foreign grit deposited by wheeled machinery onto ancient marble steps."
+"Sight: The way the midday sun catches fine grit carried in on the wind, creating ephemeral 'ghost trains' across the deserted main avenue."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The faint, rhythmic *clank-hiss* sound suggestive of steam pressure, alien to the usual sounds of human labor or animal breath."
+"Sound: The high-pitched, whining sound of a distant steam whistle—a noise utterly foreign to the traditional landscape—cutting through the accustomed lowing of camels."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The sharp, metallic odor of iron mixed with the dry scent of exotic, non-local medicinal herbs carried by early travelers."
+"Touch: The surprising slickness and coolness of cured leather from abandoned saddlery stacked against a wall that used to be bustling."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What tangible artifacts survived in Shekhawati that specifically record interactions with the railway infrastructure or related industries?"
+"What were the specific logistical challenges or political hurdles faced by small-scale traders in Shekhawati when facing competition from early railway infrastructure?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"What economic impact did the relative decline of textile trade have on specialized local crafts (e.g., embroidery, metalwork) in these towns?"
+"How did local Marwari communities historically negotiate power dynamics between established overland trade guilds and emerging rail/port interests?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][2]
 
 ```json
-"How were 'new' goods associated with railways—like refined coal smoke residue or standardized packaged materials—initially perceived by established artisan classes?"
+"Are there surviving documents that detail the perceived 'failure' of certain routes due to shifts in colonial or regional policy?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured like a receding map: beginning with precise, detailed descriptions of the familiar routes, and ending with increasingly generalized, abstract landscape descriptions."
+"A gradual fading structure: The poem slowly bleeds out, where each stanza loses definition until it dissolves into generalized dust and heat."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An epistolary structure addressed to a descendant who lives in the 'new' city center, describing what their life has lost by focusing only on modernity."
+"A sudden halt structure: The poem builds momentum toward a description of the vanishing routes, then stops abruptly at the moment one specific camel driver decides to turn back."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The emotional topography of an empty depot waiting for an arrival that will never come."
+"Exploring the relationship between local deities/patrons whose influence was tied to established caravan paths."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"Interweaving mythic figures associated with waterways (rivers, oceans) into the poem as a commentary on the land-bound nature of merchant power."
+"The impact on ancillary services (animal husbandry, specialized repair shops) that relied solely on seasonal trade cycles."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike poems focusing on the internal decay or interpersonal debts within the haveli walls, this chapter must focus outward—on the changing external world and the physical routes that once defined its wealth."
+"This chapter shifts focus from the internal accumulation of wealth and social hierarchy towards external geographical forces acting upon the merchant's world, contrasting with earlier chapters focused on ledger entries or architectural magnificence."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"9ceee3069986a96a091fd81d7acb571b25cae11cc25be64995064cd75310bf40"
+"c694a1266829b687fbbbbcb87d10d97a907ec9967ef2ae13d0c72880b74cf43b"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:11:17.747214+00:00"
+"2026-10-04T20:17:06.802442+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -240,14 +222,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"c694a1266829b687fbbbbcb87d10d97a907ec9967ef2ae13d0c72880b74cf43b"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

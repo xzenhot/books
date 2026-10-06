@@ -71,8 +71,10 @@ def scaffold(bookname):
 
     # --- Copy the backlog source files (gist.md, storyline.md) verbatim ---
     backlog_dir = root / "workspaces/backlog" / bookname
-    for src_name in ("gist.md", "storyline.md"):
+    for src_name in ("gist.md", "storyline.md", "progress.json"):
         src = backlog_dir / src_name
+        if src.is_file():
+            shutil.copy2(src, pipeline / src_name)
         if src.is_file():
             shutil.copy2(src, pipeline / src_name)
 

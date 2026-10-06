@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "Rama's exile and Hanuman's leap are rendered across the wall in pigments that will outlast their patron. The poem follows the painter's hand as it makes the epic a daily scripture for the merchant's children."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Specific pigment sources and color symbolism in Rajput miniature painting."
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The function of illuminated narrative art (manuscripts vs. frescoes) across different regional styles."
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,155 +57,131 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the 'wrong retelling' angle: How does the merchant subtly alter established divine narratives—perhaps exaggerating Rama’s material wealth or downplaying ethical costs—to reflect his own status and desires?"
+"Treating the painted figures not as characters in a tale, but as arrested kinetic energy—frozen moments of supreme effort (Hanuman's leap) trapped by chemical permanence."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The interruption of time: The painting is paused mid-climax (e.g., right before Sita's abduction, or Hanuman's perfect leap). The poem explores the anxiety of this frozen moment between perfection and collapse."
+"A focus on the socio-economic function of the iconography: how specific depictions validated Gangaram’s moral standing to his trading partners and competitors."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Shifting perspective entirely to the audience: How do children who learn these tales daily interact with the painted figures? Do they anthropomorphize them beyond the mythological script?"
-```
-
-## $["creative_enrichment"]["angles"][3]
-
-```json
-"Treating the narrative as a commercial product: Analyzing the 'marketability' of specific scenes (e.g., battles are good, quiet devotion is niche)."
-```
-
-## $["creative_enrichment"]["angles"][4]
-
-```json
-"Examining the fresco not as a divine story, but as propaganda: Whose victory is most emphasized? The army's, or piety's?"
+"The contrast between Rama’s divine suffering (exile, adherence to dharma) and Gangaram’s practical compromises in accumulating wealth."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"setting: A section depicting Rama speaking to Lakshmana in exile, desire: The painter wishes for the painted characters to speak a specific compliment about the merchant's current successful investment., obstacle: The pigment binder cracks under tension, causing a major character face to flake away prematurely., turn: A visiting child brushes against the wall, seemingly 'awakening' the fragment of paint."
+"setting: A shadowed corner near the depiction of exile,, desire: Gangaram desires a tangible proof that his family's piety outweighs their sharp business dealings., obstacle: The pigment begins to flake slightly, mirroring inevitable decay or moral compromise., turn: A night watchman sees the faint pattern beneath the paint—the original brickwork."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"setting: Hanuman resting after his leap across the sea, desire: To capture the exact moment of profound fatigue mixed with divine power., obstacle: The pigments used for Hanuman’s tail or strength are known to fade rapidly in humidity, threatening the whole composition., turn: A storm breaks outside, causing condensation that momentarily alters the visible color saturation across the entire panel."
+"setting: The high reaches of the fresco depicting Hanuman's flight,, desire: The painter seeks to perfectly capture the geometry of impossible vertical ascent., obstacle: His hand trembles under the low, watchful silence of the sleeping household., turn: He realizes the celestial patterns in the mural unintentionally mimic a specific, secret ledger cipher."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"setting: The depiction of Sita's emotional turmoil/waiting, desire: To imbue the painted emotion with tangible weight—a sense of contained dread., obstacle: A family member, while brushing against a nearby portrait frame, accidentally knocks an essential support object into view, revealing the structural weakness beneath the mural., turn: The painter realizes that to truly capture Sita’s wait, he must incorporate a local symbol of entrapment or waiting unique to Mandawa."
+"setting: The family courtyard at deep midnight,, desire: An unseen figure (perhaps a former servant or lost relative) whispers a critique of the depicted narrative., obstacle: The voice is indistinct, only present in the quiet air vibrating off the painted walls., turn: Gangaram hears it from his locked upper room and dismisses it as the wind moving through the lattice."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Analyzing the fresco as a pedagogical tool: treating it less as art and more as a mnemonic device for an entire community's shared cultural grammar."
+"Shifting the focus entirely from Rama's narrative to Hanuman’s physical exertion: analyzing the anatomy suggested by the painter, divorced from divinity."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on the technical failure of retelling: Where did local oral tradition contradict or muddy the grand epic, and how does that contradiction get immortalized in paint?"
+"Treating the Ramayana not as Hindu scripture but as a visual contract—a model of duty (dharma) that the merchant family attempts to mirror through his own transactional ethics."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Viewing the figures not as divine avatars, but as ideal archetypes of masculinity/femininity that the merchant wishes his family to emulate."
+"A meditation on color stability: how the specific reds and greens used capture or distort the harsh Rajasthani sunlight versus night-time candlelight."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The particular way that intense sunlight hits the mineral deposits used for royal blue pigments, making them appear falsely electric."
+"The cool, mineral dampness that rises from the stone wall beneath the painted skin of the figures."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The brittle scrape of the painter's scraping tool against hardened lime plaster when he corrects a line previously drawn by an apprentice."
+"The faint, dry scent of ground ochre mingling with stale incense clinging to the high plasterwork."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The sharp, sweet scent of aged turmeric and pomegranate seeds mixed with wet pigment residue left on discarded rags."
+"The low, rhythmic sound of one's own heartbeat echoing unnervingly in a silent room while looking at motionless epic scenes."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were common visual exaggerations or local folklore additions to mainstream epics like the Ramayana in Shekhawati art that deviated from classical temple iconography?"
+"What specific local colorants (besides standard mineral oxides) were favored for depicting divine skin tones versus human figures within Shekhawati fresco traditions?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did patrons (merchants) utilize religious frescoes to validate specific, non-mythological economic activities they wished to promote?"
+"Did the merchant class patronize narratives like Ramayana specifically to align their public persona with ideal governance or moral rectitude, rather than mere aesthetic preference?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured around a three-part argument: The divine source -> the human interpretation/commissioning -> the eve…"
+"A recursive structure: each stanza zooms in on a single brushstroke until the macro-narrative dissolves into pigment analysis."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An alternating verse structure: one side detailing the sacred text, the other describing the visible artistic imperfection or compromise."
+"A dialogue between two imagined figures—one representing classical Hindu philosophy and one representing cold mercantile arithmetic—commenting on the mural's message."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"Exploring the specific residue left by non-artistic elements—fallen leaves, bird droppings, cigarette ash—and how they alter divine iconography."
+"Exploring the administrative oversight of trade guilds (the non-religious power structure) as a parallel to the divine order depicted."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"A sequence focusing solely on the merchant's personal anxiety while standing before his own commissioned work."
+"Focusing on how the depiction might change depending on whether the haveli was primarily used for internal family life or public receiving."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter shifts focus from narrative movement to the material reality of storytelling: paint, plaster, and patronage are as crucial as myth itself."
+"Unlike the earlier poems focusing on raw accumulation and political establishment, this chapter examines the visual justification of that wealth through high culture iconography."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"f0fbadff1018680ad589f33c80cd8361decb507739d50b9d3bc3d03a5f31e05d"
+"9307acc5171d9e2d0eb2c241febd2a231c633b8e455fabe34fab5d58560b05d4"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:03:54.253033+00:00"
+"2026-10-06T11:40:15.180815+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

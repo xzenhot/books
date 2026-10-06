@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The artisans who paint the walls all day sleep beneath the staircases they have adorned. The poem descends from the frescoes to the shadows where the makers rest, the hidden architecture of the haveli's labor."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Architecture of service passages in Mughal/Marwari havelis"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The cultural significance of rest and labor demarcation in traditional Indian domestic architecture"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,127 +57,133 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Viewing the staircase not as a vertical passage, but as a 'diagram of ascent' representing career aspiration versus arrested development."
+"Examining the staircase not as a conduit of vertical movement but as a palimpsest—a layered record where sleeping forms overlap and obscure the painted narratives above."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Focusing on the quality and texture of the sleep itself—the exhaustion that passes through generations or shifts from routine to deep hibernation."
+"Focusing on the dichotomy of creation vs. repose: The living shadow beneath the finished art contrasted with the depicted, eternally active figures in the frescoes."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The perspective of an unexpected visitor: Someone who is *not* part of the daily cycle (e.g., a traveling snake charmer, a tax collector) passing through at dawn."
+"The architecture as temporary sanctuary: Treating the dusty space under the stairs not as a hiding place, but as a necessary negative space that allows the opulence above to exist without collapsing its own weight."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The landing beneath the grand central staircase; Desire: To discover a forgotten tool or pigment box left behind by an artisan who abandoned his trade for wealth outside the haveli’s walls; Obstacle: The encroaching dust that has claimed everything, making recovery impossible."
+"Setting: The shadowed crawlspace beneath a grand reception stair; Desire: For one artisan to momentarily become absorbed by the vibrant figures painted upon the banister, their sleep merging with mythological motion; Obstacle: Fear of being seen by the overseer above; Turn: A single foot shifting, breaking the trance."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A narrow, seldom-used service passage adjacent to the main stairs; Desire: For two generations of artists—grandfather and grandson—to reenact a shared, mundane moment of preparation or rest on the same spot over decades; Obstacle: The architectural shift (a beam removed, a wall closed) that separates them physically."
+"Setting: The lowest landing, where light barely penetrates from a distant courtyard opening; Desire: For two artisans sharing a narrow space to exchange not words, but rhythmic breaths—a shared, unspoken tolling against time; Obstacle: The constant ambient noise of the wealthy household above them (laughter, music); Turn: A sudden, absolute drop in sound when the main hall door closes for the night."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Directly under the darkest curve of an initial fresco painting (e.g., Rama's exile); Desire: To observe the rhythm of breathing—the collective intake and release—as an unconscious chorus accompanying the painted drama above; Obstacle: The unpredictable noise from outside the haveli, shattering the fragile pattern."
+"Setting: Just at the point where the staircase meets the floor, a sliver of moonlight entering from a high grate; Desire: For an artisan to use this thin beam as a temporary focus point, turning his vigil into a momentary ritualistic alignment with light; Obstacle: The dusty film coating everything, resisting any pure illumination; Turn: His hand tracing a pattern that mirrors the negative space between painted deities."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating sleep itself as a form of temporary architectural preservation—a pause that allows the frescoes to exist without constant observation."
+"Shifting from 'labor' to 'ghosting': Treating the sleeping artisans as temporary apparitions whose rest is contingent on their physical presence beneath permanent art."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on the *materials* used for the sleepers' meager bedding (straw, discarded textiles) versus the rich materials depicted above them in art."
+"Re-framing 'shadow' as a collaborative entity: The shadow itself becomes an active, semi-sentient partner in the haveli’s structure alongside the stone and paint."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Analyzing the *patterns* visible under the stairs—are they actual graffiti, or are they residual pigments from preparatory sketches that have bled through?"
+"Focusing on vertical tension: Analyzing the staircase not just by its descent, but by the sheer weight of expectation carried by those above it onto the resting bodies below."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way cobwebs, laced with fine dust particles, catch the first weak ray of morning sun filtering down between stair treads."
+"Sight: The pattern of fractured moonlight passing through lacework ironwork, casting precise geometry over prone forms."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The specific, dampened *thud* as a weary artisan drops an empty tin of pigment or wash bucket onto stone flooring that hasn't seen vibration in years."
+"Sound: The near-silent friction of coarse cotton rubbing against aged stone as an artisan shifts his weight during a brief waking moment."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The complex odor profile where dry earth meets linseed oil and old, settled body heat—a smell distinct from incense or perfume."
+"Touch: The gritty texture of centuries of settled dust coating the skin and the lower surfaces of carved marble steps."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the traditional materials used for constructing temporary sleeping quarters within large aristocratic residences before modern utility areas were established?"
+"What are the traditional spatial hierarchies within Marwari merchant households that dictated where domestic/laboring spaces were deliberately placed in relation to ceremonial ones?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did the function of staircases change architecturally in Shekhawati over time, moving from purely ceremonial passages to practical domestic thoroughfares?"
+"How did artisans traditionally structure their rest periods to maximize productivity without violating strict social codes regarding visibility or exposure?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A slow 'inventory' structure: Listing specific objects found under the stairs (a worn sandal, a discarded pigment stick, a knotted thread) and building meaning through their materiality."
+"Linear Descent: The poem strictly follows the physical descent of the staircase, using each riser/tread as a conceptual pause."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A chronological decay poem: Tracing the staircase over imagined time periods—from construction night to peak vibrancy, to current semi-abandonment."
+"Spiral Resonance: Utilizing circular imagery within the verses—the curves of the stair rails mirroring cyclical sleep patterns or forgotten trade routes."
 ```
 
-## $["creative_enrichment"]["unused_angles"][0]
+## $["creative_enrichment"]["structural_variants"][2]
 
 ```json
-"The concept of 'shared shadow'—where multiple people sleep or pass in a single band of low light."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"Examining the relationship between physical fatigue and artistic inspiration: Does exhaustion *create* art, or does it simply halt it?"
+"Asymmetrical Balance: Structuring the piece so that one side (art) is overwhelmingly dense and active, while the other (sleep/shadow) is sparsely detailed but rhythmically profound."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike the focus on transaction (chapters 34-40) or grand display (chapters 11-28), this chapter moves inward to the overlooked infrastructure—the resting places and residual labor beneath the spectacle."
+"Unlike previous chapters focusing on external commerce or interior display, this chapter turns inward to examine the hidden infrastructure of labor—the pause beneath the performance."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The psychological cost of witnessing permanent beauty (art) while existing in temporary darkness (rest)."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A comparison between the permanence sought by painting and the ephemeral nature of a single human breath during sleep."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"80b64bc43cff6870d4d76774c8788691e8b4841220983ba2cbc752264fd94e97"
+"4fc21c6c982dfe7c0e79193daadc78c0aa1254fa75a25ac6ccba283362acc622"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:10:17.325558+00:00"
+"2026-10-04T20:16:20.789694+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -216,14 +192,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"4fc21c6c982dfe7c0e79193daadc78c0aa1254fa75a25ac6ccba283362acc622"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

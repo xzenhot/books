@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -30,10 +30,40 @@
 "By lamplight, while the town sleeps, the painter grinds pigment and mixes lime, and the poem asks why the maker works only in the dark, where no one can see the labor that will be called beauty."
 ```
 
-## $["further_references"]
+## $["further_references"][0]["no"]
 
 ```json
-[]
+"1"
+```
+
+## $["further_references"][0]["reference"]
+
+```json
+"Traditional grinding processes for natural mineral pigments in Rajasthan"
+```
+
+## $["further_references"][0]["weblink"]
+
+```json
+""
+```
+
+## $["further_references"][1]["no"]
+
+```json
+"2"
+```
+
+## $["further_references"][1]["reference"]
+
+```json
+"The cultural significance of nocturnal activity or 'hidden labor' in traditional Indian craftsmanship"
+```
+
+## $["further_references"][1]["weblink"]
+
+```json
+""
 ```
 
 ## $["level"]
@@ -45,7 +75,7 @@
 ## $["state"]
 
 ```json
-"written"
+"scaffolded"
 ```
 
 ## $["segments"][0]
@@ -57,131 +87,113 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Framing the isolation of the night worker not as romantic solitude, but as a necessary, painful physical detachment from human connection."
+"Framing the darkness not as absence, but as a specific, thick medium—a heavy oil that allows for slow thought."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Examining the relationship between manufactured light (oil lamps) and natural darkness—one illuminating creation, the other obscuring struggle."
+"Treating the lamplight itself as an invasive scrutiny, a small spotlight attempting to violate the sanctuary of the night work."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The painter addressing his *past self* during the shift, judging or commiserating with the effort of hours already spent."
+"Shifting focus from the *act* of working to the soundscape of the labor: the rasp of grinding stone against pigment vs. the muffled sounds of the sleeping town."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A narrow alcove on the scaffold, just outside the main viewing area; Desire: To finish a specific pattern that requires perfect continuity across multiple nights; Obstacle: The encroaching scent of domestic life from behind the walls during a slight breeze; Turn: A sudden memory of a conversation with a collaborator who is now gone."
+"setting: The small, temporary workspace outside the haveli's courtyard, desire: To keep the mixing process perfectly undisturbed by external light or sound., obstacle: A sudden draft from a poorly sealed doorway carrying in the scent of distant cow dung fires., turn: The painter briefly uses this interruption to test the pigment mix against an unrelated, found object—a scrap of faded textile."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The dimly lit storeroom beneath the main workspace, where pigments and charcoal are kept; Desire: To find an ancestral recipe or formula for color longevity; Obstacle: The weight of unmixed, dry powders that feel like dust from dead hands; Turn: An imagined argument with a departed mentor about the nature of 'truth' in art."
+"setting: The immediate area surrounding the mortar/lime bucket, desire: To achieve a perfect, unblemished consistency in the wet plaster mixture., obstacle: The fine dust motes, illuminated by the lamp, behave like trapped constellations, disrupting the focus on material precision., turn: He accidentally knocks over a small quantity of mixed pigment, forcing him to reclaim and re-blend it under the oppressive shadow."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Facing out toward the sleeping town square from the high scaffold platform; Desire: To see the stars unfiltered by the city’s haze before returning to work; Obstacle: The pervasive, oppressive silence that magnifies every tiny sound of movement; Turn: A fleeting image of a specific, mundane family scene seen through a window below."
+"setting: The scaffold steps leading up to the wall, desire: To find a rhythm in the preparation process that mirrors some external natural beat., obstacle: A low, sustained hum—perhaps cicadas or distant unseen machinery—that prevents steady concentration., turn: He focuses intensely on threading a single piece of coarse hemp fiber through the pigment powder as an anchor for his focus."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the act of pigment grinding not as artistic preparation, but as an alchemical/ritualistic purification process required before creation."
+"Analyzing the 'shift' not just temporally (night vs. day) but materially: comparing the chemical state of materials used in darkness versus those preserved under sunlight."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on the temporal loop: how each night feels like a continuation of the previous one, blurring the line between progress and stagnation."
+"Viewing the lamplight as a self-imposed judgment, where every mark made is immediately vulnerable to critique even if only by the artist himself."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Shifting focus entirely to the physical mechanics: the strain in the wrist, the precise angle needed for pigment saturation under low light."
+"Exploring the concept of 'deferred perfection'—the deliberate choice to stop at 90% completion because the remaining 10% would require an unwelcome level of visibility."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The specific metallic tang left on the tongue from handling ground copper oxides overnight."
+"The dry, brittle snap of a pigment shard breaking under thumb pressure."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The abrasive sound of a bone tool scraping against coarse plaster during the midnight hours."
+"The thick, warm film of dried lime dust coating everything where the lamplight cannot reach it."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The contrast between the flickering orange heat of the tallow lamp and the absolute, inky coldness settling into the pores of the craftsman's hands."
+"The sharp, coppery taste in the mouth from constantly handling mineral pigments."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What are established folk or ritualistic practices surrounding nighttime labor in traditional Rajasthani artistry?"
+"What specific oil or fat binder was traditionally used with fresco elements to ensure material longevity while allowing for nocturnal preparation?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Are there historical analogues for pigment preparation techniques that emphasize extreme sensory deprivation (darkness)?"
+"Can early Shekhawati artisans have employed rudimentary light sources that provided directional, shadowed illumination rather than uniform glow?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A cyclical structure where the poem begins and ends with a description of the lamp burning low, mirroring consumption."
+"A cyclical structure where the description of mixing pigment repeats three times, each time with a subtly different resulting emotional temperature."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A stream-of-consciousness piece interrupted by sudden, precise descriptions of material manipulation (grinding, mixing)."
+"An anti-narrative poem structured around listing rejected or failed mixes before settling on one primary color focus."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The mechanical rhythm of repetitive labor as a form of involuntary meditation or spiritual trance."
+"The psychological weight carried by the specific quality and provenance of the ground stone used for grinding pigments."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"How the painter’s internalized critique compares to any external judgment he might receive later from the viewing public."
+"A momentary internal debate about whether speed or meticulousness is the more honest commitment to the craft during the night."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike Chapter 1's static contemplation of potential, this chapter moves into active labor under artificial light, focusing on the isolation inherent in physical production rather than waiting."
-```
-
-## $["draft"]["sha256"]
-
-```json
-"3d30cc69a6941a265a3277afe58200a325ca78f18b18613beec780881ff487a5"
-```
-
-## $["draft"]["written_at"]
-
-```json
-"2026-10-04T19:09:55.485843+00:00"
-```
-
-## $["draft"]["origin"]
-
-```json
-"write"
+"Unlike the previous chapter's focus on anticipation, this poem grounds itself in the material reality of obscured labor—the slow, methodical chemistry performed under unnatural illumination."
 ```

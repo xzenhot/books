@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -39,46 +39,10 @@
 ## $["further_references"][0]["reference"]
 
 ```json
-"The physical process of lime plaster restoration in Rajasthan's arid climate"
+"thermodynamics of historic building materials"
 ```
 
 ## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Iconography of divine warmth or residual spiritual energy depicted in Rajput painting styles"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][2]["no"]
-
-```json
-"3"
-```
-
-## $["further_references"][2]["reference"]
-
-```json
-"Cultural rituals involving applying heat or specific materials to walls for preservation or blessing"
-```
-
-## $["further_references"][2]["weblink"]
 
 ```json
 ""
@@ -93,7 +57,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -105,145 +69,115 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the thermal conductivity of the different plaster layers: comparing the residual coolness of untouched lime mortar against the faint, trapped warmth beneath the painted surface."
+"Treating the residual warmth not as life, but as trapped chemical energy released by minerals reacting to micro-climate shifts—a silent geological process mirroring economic decay."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The perspective of a non-human observer (e.g., an insect or small animal) that feels this localized pocket of heat emanating from the wall, viewing it as sustenance or danger."
+"Addressing the fresco maker directly, positioning them as a kind of forgotten deity or artisan god whose presence lingers as heat, questioning if their artistry *was* divine invocation."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The concept of 'artificial memory': exploring if modern restoration efforts are attempting to force warmth/life where none naturally exists, and what the failure looks like."
+"Shifting focus from the 'pretending sleep' motif to an aggressive, internal hum within the wall—the subconscious vibration of unfulfilled oaths encoded in the pigment layers."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The outer edge of a semi-restored fresco wall at twilight; Desire: To feel the pattern of heat radiating from it as proof of life; Obstacle: A local resident who believes touching the 'warmth' will curse them or break the paint irrevocably; Turn: The protagonist realizes the warmth isn't biological, but chemical—a delayed reaction to minerals."
+"Setting: The section depicting a celestial musician, desire: To trace the heat signature back to the exact pigments used for the gold leaf, obstacle: Knowing whether this warmth is residual chemical energy or symbolic memory."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The niche where an oil lamp used to sit, now partially restored; Desire: To experience the precise moment the artificial heat of a flame transitions into ambient 'haveli warmth'; Obstacle: A sudden draft extinguishes any potential source, leaving only the question of where the energy went; Turn: The resulting cold spot is somehow more palpable than the preceding heat."
+"Setting: A panel showing a quiet domestic scene (a woman grinding spices), desire: To find a minute object—perhaps a single burnt ember from an ancient lamp or a fallen seed—embedded in the painted surface, obstacle: The dust has sealed it perfectly into the patina."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: A room corner deliberately left untouched by restoration crews; Desire: To find an object or trace element that has been superheated and subsequently cooled (like oxidized metal residue); Obstacle: The dust covering this specific area is too thick to penetrate fully, blocking all signals of warmth; Turn: The protagonist uses a specialized tool, not for painting but for physical excavation."
+"Setting: The highest point of a fresco where figures face the night sky, desire: To sense that the warmth is not heat but stored *tension*—the unresolved conflict between the depicted narrative and its silent setting."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the warmth as an illusion maintained by suggestion—the mind projecting residual life onto inert materials."
+"Examining the concept of 'perpetual labor' through the lens of art maintenance; the warm fresco demands constant, futile attention."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Analyzing the 'warmth' through color theory: specific pigments (ochre, deep reds) that naturally absorb and reflect perceived heat differently than cool blues or grays."
+"Reinterpreting the heat as a metaphor for unspent capital—the wealth that was invested in appearance but never converted into stable commerce or lasting prosperity."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Mapping the *source* of the claimed warmth: Is it residual body heat from a past event, mineral reaction, or merely solar gain trapped by the structure?"
+"The wall not as an artifact, but as a temporary biological skin (a fungal life cycle paused), where warmth signals active transformation rather than mere display."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way the last lingering streaks of pigment catch the angle of the setting sun, momentarily glowing with an impossible, interior luminescence."
+"Olfactory: The sharp, metallic tang of oxidized copper from the binding agents in deep blues reacting to temperature."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Touch: The fine, gritty texture of plaster dust that feels warmer to the touch than ambient air when cupped in the palm."
-```
-
-## $["creative_enrichment"]["sensory_details"][2]
-
-```json
-"Smell: An underlying mineral scent—like damp earth mixed with heated limestone—that contradicts the overt floral notes nearby."
+"Tactile: A fine, gritty residue adhering to fingertips when attempting to sense the differential temperature gradient across a single painted figure's forearm."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What are common folk beliefs surrounding residual heat or spiritual imprints on ancient structures in Rajasthan?"
-```
-
-## $["creative_enrichment"]["research_questions"][1]
-
-```json
-"How does the material composition of different pigments (mineral vs. organic) react to changes in ambient temperature over time?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"Are there documented architectural practices where specific wall treatments were intended to retain localized warmth for domestic comfort?"
+"What specific pigment components might produce measurable exothermic reactions within a stable wall environment over centuries?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured as a fading measurement: beginning with intense, palpable heat descriptions and progressively resolving into near-zero temperature readings, ending in ambiguity."
+"A narrative structured as a scientific observation log, where the emotional weight is conveyed purely through precise, detached measurement of temperature fluctuations."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"The use of polyvocal narration: alternating between the scientist's cool description of material transfer and an embodied character's subjective, emotional reaction to warmth."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"A structure based on contrast: juxtaposing stanzas of overwhelming coolness (shadow, decay) directly against passages of perceived warmth (memory, life)."
+"An extended dialogue with a character who has an innate ability to 'feel' residual energy, functioning almost like a mythic technician cataloging thermal data."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The idea that the restored pigment itself contains trapped molecular heat from the restoration process—a temporary energy source."
+"A focus on the ambient soundscape—the way tiny structural stresses (creaking stone settling) interact microscopically with the warmth emanating from the pigments."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"Viewing the 'warmth' as a sign of successful structural bonding rather than spiritual continuation."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"A meditation on the ethics of *proving* life in art, and whether that proof invalidates the object's historical standing."
+"Exploring the historical economics of sourcing these specific minerals, framing the heat as a direct consequence of trade routes and geopolitical pressure."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter pivots from tracing external passage (wind/smell) to focusing on internal energy—a palpable sensation—creating a different kind of ghostly presence than mere echo or odor."
+"Where previous chapters addressed decay through scent, sound, or fading light, this chapter focuses acutely on tangible thermal energy retained within the physical art object."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"154502a6de04d6c6a2dce995f81347af1c8b153436b48a2c9ccd27eb3a9d4610"
+"810d6db73c8031c67ea8190c6dd1ffa9fc75c39529d2ef6f80af1743f6e3d26f"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:15:27.557094+00:00"
+"2026-10-04T20:20:01.568597+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -252,14 +186,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"810d6db73c8031c67ea8190c6dd1ffa9fc75c39529d2ef6f80af1743f6e3d26f"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

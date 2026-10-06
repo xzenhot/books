@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -30,10 +30,22 @@
 "The poem stays close to the body of the maker — the aching hands, the stiff back, the eyes strained by lamplight — and insists the work is written in flesh before it is ever written in color."
 ```
 
-## $["further_references"]
+## $["further_references"][0]["no"]
 
 ```json
-[]
+"1"
+```
+
+## $["further_references"][0]["reference"]
+
+```json
+"Anthropology of Artisan Labor in Rajasthan"
+```
+
+## $["further_references"][0]["weblink"]
+
+```json
+""
 ```
 
 ## $["level"]
@@ -45,7 +57,7 @@
 ## $["state"]
 
 ```json
-"written"
+"scaffolded"
 ```
 
 ## $["segments"][0]
@@ -57,131 +69,119 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the transfer of strain: tracing how a specific knot in tendon or wrist becomes mimicked by an overly strained line or curve in the painted depiction."
+"Focusing on the biological strain of manual artistry: describing calluses not as evidence of labor but as new, armored skins formed by a private metallurgy."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The hand as conduit and filter: exploring not just the pain, but the momentary moments where physical exhaustion forces a different kind of perception—a sudden clarity amidst the fatigue."
+"Treating fatigue itself as a compositional element—a chiaroscuro effect where exhaustion is the shadow cast by inspiration."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Treating accumulated calluses and scarred skin as palimpsests themselves; each mark telling a story of past materials or efforts, separate from the current fresco."
+"Examining the hands in relation to inherited craft knowledge; how are these aches echoes of generations of unrecognized effort?"
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"setting: A section where the painter must lean heavily against the scaffold supports, desire: To find a momentary reprieve not in rest, but in the precise geometry of support; to align his failing body with the static strength of the architecture., obstacle: The chemical residue of old lime leaching into his skin breaks out in angry patches where he grips too tightly., turn: He realizes that the hand's grip on the scaffold is functionally identical to the idealized, rigid posture he paints for the noble figures."
+"Setting: The pre-dawn pause, before the lamp catches true color. Desire: A moment where the artist instinctively tries a new grip on the brush handle, finding it inadequate for the intended line. Obstacle: His own tendons protest this novel tension. Turn: He reverts to an older, more painful but familiar motion."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"setting: The corner of a dimly lit workshop table near his pigments, desire: To trace the grain of an untreated piece of wood with calloused fingers after hours of fine brushwork., obstacle: A sudden, sharp cramp shoots up his forearm, forcing him to drop the brush and watch the minute bead of wet pigment slide down a painted sleeve., turn: This involuntary spasm acts as a spontaneous gesture—a flawed line that inadvertently captures a truth about human frailty."
+"Setting: High up against the cold stone of the haveli façade. Desire: To stretch one arm fully, feeling every joint pop and bind. Obstacle: A sudden, sharp cramp locks his fingers into a permanent position mid-reach. Turn: He finds that this frozen posture forces a new perspective on the design."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"setting: The moment before pouring a measured amount of ultramarine powder, desire: To achieve absolute, temporary stillness in the entire upper body to ensure perfect evenness of the fall., obstacle: A tremor, fine as moth wings, starts deep in his wrist despite all conscious effort., turn: He chooses not to correct it, instead incorporating the slight wobble into the next brushstroke, accepting imperfection as inherent."
+"Setting: Beside a jar of prepared pigments, late in the night. Desire: To meticulously clean excess dust from beneath fingernails—a small act of self-maintenance. Obstacle: The effort is too immense; his hand tremors violently before it even reaches the rim of the jar. Turn: He abandons cleaning and instead uses this tremor to guide a single, unsteady dot of color."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Viewing the body as a slow, living loom: where every gesture is both an act of creation and a binding tension on his own physical self."
+"Shifting focus from the *physical* pain (aching) to the *emotional* burden carried by that physical constraint—the inability to fully express oneself due to limited physical capacity."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Shifting from chronic pain to localized moments of acute sensation—the specific burn in the deltoid after lifting a heavy tray of supplies, for instance."
+"Treating the hands as conduits: they are not merely tools, but receivers and transmitters of cultural memory embedded in their joint structure."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Mapping exhaustion onto line weight: how fatigue manifests not as weakness, but as an inability to maintain consistent pressure, leading to variations in stroke texture."
+"Viewing the aches as a necessary tax on genius; the body pays interest for the beauty it produces."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The gritty, dry sensation of powdered ochre adhering stubbornly beneath the skin creases on his knuckles."
+"The gritty friction of dried lime dust catching under the thumbnail, smelling faintly mineralic and stale."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The high-pitched internal hum in the bones of a perpetually strained lower back when he pauses mid-stroke."
+"The faint, electrical buzzing sensation in the wrist tendons just before a cramp sets in."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The cool, slick feel of freshly mixed binding medium running down the inside curve of a tired forearm."
+"The specific weight difference between a brush loaded with thick ochre versus one dipped only in thin water."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What historical or cultural knowledge exists regarding occupational stress injuries in 19th/early 20th-century artisanal painting trades in Rajasthan?"
+"What physical strain or repetitive motion injuries were historically common among artisan laborers in traditional Indian fresco painting techniques?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did ancient Indian texts describe bodily fatigue as a metaphor for spiritual or creative striving?"
+"Are there local folklore references to the 'cost' of intense, solitary nocturnal work on human musculature?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"The poem structured around short, sharp 'stutters'—moments of intense physical interruption followed by the labored resumption of movement."
+"A highly fragmented structure where each line is a self-contained medical observation before being linked by an implied thread of effort."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A dialogue where the body itself is addressed directly, cataloging its aches as if it were a patron receiving payment."
+"An unfolding catalogue: beginning with the left hand's history, progressing through the forearm, and culminating in the near-unusable state of the wrist."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The interplay between muscle memory and conscious artistic intent; when does the hand remember how to paint before the mind commands it?"
+"The specific negotiation between personal pain and societal expectation (e.g., 'a great artist must endure this')."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"How the act of 'holding' (a brush, a stone, posture) becomes an almost religious discipline within his night work."
+"The tactile relationship between stained skin and different types of pigment binders."
+```
+
+## $["creative_enrichment"]["unused_angles"][2]
+
+```json
+"A momentary, visceral envy for the effortless labor of a field worker seen briefly from the scaffold."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter grounds the abstract labor described in previous sections into visceral materiality, focusing internally on flesh and bone rather than externally on environment or patron dynamics."
-```
-
-## $["draft"]["sha256"]
-
-```json
-"9b9dd8726e52c96872fa767310808bf107bf648aad5b99e6571e25eae0ff2b0b"
-```
-
-## $["draft"]["written_at"]
-
-```json
-"2026-10-04T19:12:11.382180+00:00"
-```
-
-## $["draft"]["origin"]
-
-```json
-"write"
+"While previous chapters have dealt with the decay of setting or the flow of commerce, this chapter grounds the entire abstract premise into the irreducible fact of the body under duress."
 ```

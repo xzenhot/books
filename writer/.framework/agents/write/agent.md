@@ -1,6 +1,6 @@
 ---
 name: write
-description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content as flat, continuous prose (no section headings), honoring the chapter's metadata, the transformer style (default `pijush`), and any human override instructions.
+description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content as flat, continuous prose (no section headings), honoring the chapter's metadata, the resolved style (a preset when `<style>` is given, else the book's `style.md`; default fallback `pijush`), and any human override instructions.
 tools: ["read", "write"]
 ---
 
@@ -14,7 +14,7 @@ This agent is only a dispatcher. It must not write chapter content directly; it 
 /book <bookname> write <n>|all|continue [<style>]
 ```
 
-- `<style>` — optional transformer style, resolved from `.framework/templates/stereotypes/poetry/styles/<style>/style.md`. **When omitted, it defaults to `pijush`.** The resolved style is always passed to the selected write skill; there is no "no style" path.
+- `<style>` — optional style selector. **When provided, it names a preset** resolved from `.framework/templates/preset/<style>.md` (never a style composed on the fly). **When omitted, the book's own `workspaces/pipeline/<bookname>/style.md` is used.** If neither resolves, fall back to `.framework/templates/preset/pijush.md`.
 
 ## Resolve Language and Word Target (mandatory, every write)
 
@@ -55,13 +55,31 @@ The shared flatten routine is `tools/flatten.py` (`flatten_chapter`), used by `t
 1. **Resolve language and word target first** (see *Resolve Language and Word Target*). This is a mandatory precondition for every write, before any flatten or dispatch.
 2. Read `workspaces/pipeline/<bookname>/book.json` and the chapter's `chapter.json`.
 3. Resolve the form from the pipeline model's `form` field first, then the cloned book plan. Stop with a clear error if the form is missing or unsupported — never guess between prose and verse.
-4. Resolve the style: if `<style>` was supplied, use it; otherwise use `pijush`. Read `.framework/templates/stereotypes/poetry/styles/<style>/style.md`; if the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity. Stop and report if the resolved `style.md` does not exist.
+4. Resolve the style (see *Style Resolution* below): a provided `<style>` selects a preset from `.framework/templates/preset/`; an omitted `<style>` selects the book's `style.md`. Never compose a style on the fly.
 5. Inspect `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`. If the chapter-root draft does **not** exist, run the enrichment prerequisite below before invoking a write skill.
 6. After any enrichment, re-read the chapter's `chapter.json` and its recorded enrichment record, and resolve the form — **and re-fetch `language` and `word_target`** — again using the same precedence. Never read chapter-root `chapter.md` — it is not produced until a write skill authors it.
 7. If the form is `poetry`, read and invoke `.framework/skills/poetry/SKILL.md`. If it is `novel`, read and invoke `.framework/skills/novel/SKILL.md`.
-8. **Flatten, then prompt.** Before the selected skill writes, flatten the (possibly refreshed) chapter `chapter.json` into `context.md` and build the writer prompt from that `context.md` and the pipeline `style.md` (see *Flatten Model → Context → Prompt*). Pass the flattened `context.md` content and the built prompt to the selected skill — never the raw `chapter.json`.
-9. Pass the book name, chapter scope, pipeline paths, refreshed chapter model (carrying every prior filter's recorded guidance), the resolved `<style>` (default `pijush`), the resolved **`language`**, the resolved **`word_target`**, the pipeline `style.md` and `style.md`/`signature.md` content, the flattened `context.md`, and the override command file path to the selected skill.
-10. Return the selected skill's writer-stage output and report whether enrichment ran, the language written, and the word target applied.
+8. **Flatten, then prompt.** Before the selected skill writes, flatten the (possibly refreshed) chapter `chapter.json` into `context.md` and build the writer prompt from that `context.md` and the resolved style (see *Flatten Model → Context → Prompt*). Pass the flattened `context.md` content and the built prompt to the selected skill — never the raw `chapter.json`.
+9. Pass the book name, chapter scope, pipeline paths, refreshed chapter model (carrying every prior filter's recorded guidance), the resolved style (preset file or the book's `style.md`), the resolved **`language`**, the resolved **`word_target`**, the flattened `context.md`, and the override command file path to the selected skill.
+10. Return the selected skill's writer-stage output and report whether enrichment ran, the language written, the word target applied, and which style was resolved.
+
+## Style Resolution (preset, never on-the-fly)
+
+The write command never composes a style at runtime. It resolves one of two fixed
+sources, in this precedence:
+
+1. **`<style>` provided** — treat it as a preset name and resolve
+   `.framework/templates/preset/<style>.md` (e.g. `desh` → `preset/desh.md`,
+   `pijush` → `preset/pijush.md`). Do not read
+   `.framework/templates/stereotypes/poetry/styles/<style>/` for the write path.
+2. **`<style>` omitted** — use the book's own
+   `workspaces/pipeline/<bookname>/style.md` (the operative style reference built
+   by the style agent).
+3. **Fallback** — if the named preset cannot be matched, or the book's `style.md`
+   is absent, fall back to `.framework/templates/preset/pijush.md`.
+
+The resolved style document is the writer's mandate; it is always a pre-authored
+file, never a generated or invented style.
 
 ## Enrichment Prerequisite for Missing Chapter Drafts
 
@@ -80,7 +98,7 @@ The selected skill owns:
 
 - reading the chapter's `chapter.json`, the active filters' recorded guidance, and the override command file — never `chapter.md` (the skill authors it);
 - **flattening `chapter.json` into `context.md`, then building the prompt from `context.md`** (see *Flatten Model → Context → Prompt*);
-- resolving the transformer style from `.framework/templates/stereotypes/poetry/styles/<style>/style.md`, defaulting to `pijush` when the invocation omits `<style>`;
+- resolving the style from a preset (`.framework/templates/preset/<style>.md`) when `<style>` is provided, or from the book's `style.md` when it is omitted (see *Style Resolution*);
 - writing a deeper, more finished revision as **flat, continuous prose (no section headings)**;
 - honoring the chapter's blueprint, signature, and assigned theme;
 - applying the style's voice and any human override instructions as the final layer;

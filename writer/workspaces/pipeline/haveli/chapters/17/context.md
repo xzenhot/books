@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The open square of sky at the house's heart is where life gathers — cooking, washing, quarreling, celebrating. The poem holds the courtyard as the haveli's true center, the open space the painted walls are built around and could never fill."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Traditional courtyard architecture in Rajput palaces beyond Shekhawati"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The social function of shared open space versus private domestic sphere in North Indian culture"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,131 +57,137 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Viewing the courtyard as a stage for *unpainted* action: Focusing on the shadows, dust patterns, and seasonal growth (vines, weeds) that exist purely because the space is open to the elements."
+"Treating the courtyard not as a social space for display (as seen in Durbar), but as an infrastructural void—a necessary emptiness enabling the verticality and enclosure of the surrounding walls."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The 'Axis of Exhaustion': Treating the courtyard not as a center of gathering, but as an enormous sink absorbing noise, spilled color, discarded objects, and collective fatigue over generations."
+"Focusing on temporal layering: The sunlight hitting the courtyard at midday casts hard, perfect geometry onto the patterned tilework, contrasting with shadows cast by unseen things that linger from yesterday's events (like a dropped tool or forgotten spill)."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"A conversation addressed to the *absence* of servants/workers: An imagined dialogue where Gangaram addresses the silent labor force that once animated this space—the laundresses, the cooks, the children who played here."
+"The soundscape as architectural design: How the high walls funnel specific sounds—a distant donkey bray vs. a domestic quarrel—into resonant echoes within the open square."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The courtyard at midday during the oppressive height of summer; Desire: For a single, persistent sound—perhaps a lost toy or a single ringing anklet—to echo endlessly, suggesting an unresolved incident;"
+"Setting: The midday heat beating down on sun-baked courtyard stone, desire: A cook frantically trying to coax a difficult marinade into flavour before afternoon guests arrive, obstacle: the shadow of a leaning, unused scaffolding member interrupting the sunlight."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A ceremonial gathering meant for five hundred people (linking to Chapter 21); Obstacle: An unforeseen logistical failure—the water source runs dry, forcing everyone into uncomfortable proximity; Turn: The focus shifts from grand ritual display to mundane, immediate survival negotiation."
+"Setting: Dusk in the central open space, desiring: Two young men engaged in a hushed political argument over trade tariffs while their elders conduct evening ritual prayers near a small shrine, obstacle: the sudden appearance of a stray dog that snaps at one's foot."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Twilight, just as the last sliver of visible activity fades behind the adjacent walls; Desire: For an artist (perhaps a young apprentice) to sneak out and paint *only* what is currently happening—a fugitive sketch capturing momentary truths rather than immortalizing grand scenes."
+"Setting: Just before dawn, mist clinging to the lower sections of the courtyard tiles, desire: A lone washerwoman meticulously scrubbing stains from expensive textiles left out overnight, obstacle: realizing she has scrubbed away not just dirt, but faint traces of last night's pigment transfer."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Shifting focus from human gathering/celebration to the relationship between domesticity and wilderness: How does the enclosed, man-made courtyard battle entropy and nature over time?"
+"The courtyard as a stage for micro-dramas—the petty rivalries and daily negotiations between servants or minor tenants that occur unseen by the grand visitors."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Treating the ground plane itself as a character: Analyzing the paving stones, uneven patches, accumulated dust, and stains not as background but as a record of countless footsteps and spilled life."
+"Analyzing the relationship between 'openness' and 'confinement': how the vast, unpainted sky above emphasizes the deliberate claustrophobia created by the densely decorated interior rooms."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Examining the architectural function: If the surrounding rooms are about *containing* experience (a prayer, a meal), how does the courtyard’s lack of structure force uncontainable, messy reality?"
+"The courtyard as a transitional zone: less sacred than the temple room, yet more exposed than the women’s quarters; the threshold of domestic life vs. public visibility."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sound: The specific, high-pitched grating sound of metal washing implements dragged across stone that has been perpetually damp; (A persistent friction)."
+"The specific abrasive grit of red ochre dust kicked up by cart wheels crossing the stone floor at high noon."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Smell: The mingled scent of stale cooking oil mixed with the sharp, mineral tang of rainwater hitting sun-baked courtyard earth."
+"The metallic scent of boiling brass pots mingled with curing lime mortar evaporating in the heat."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Sight: The way intense sunlight casts sharp, geometric patterns through a specific gap in the overhead roofing structure or archway at midday."
+"The faint, persistent vibration felt through the flagstones from subterranean water channeling or distant commerce."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were common materials used for paving and flooring in Mandawa courtyards—were they local stone, fired brick, or polished concrete mix?"
+"What specific local deities or domestic practices were historically centered in the open ground areas between principal structures of wealthy Rajasthani homes?"
+```
+
+## $["creative_enrichment"]["research_questions"][1]
+
+```json
+"How did different castes (artisan vs. merchant family) demarcate their operational zones within a single, shared courtyard space?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured as a series of increasingly fragmented recollections viewed from the same physical spot."
+"Opening with a static, wide-angle description of the square at zenith, slowly zooming in on one small action before shifting perspective."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Using dramatic monologue form: The courtyard speaking directly to the passing decades and the decay surrounding it."
+"Employing a cyclical structure where actions (washing, cooking) are presented as recurring motifs across changing light conditions (day->twilight)."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][2]
 
 ```json
-"An episodic structure, dedicating stanzas to distinct domestic activities (e.g., washing clothes, boys playing tag, cooking smoke) in rapid succession."
+"Structuring the poem around 'echoes'—a single sound or action repeated and distorted as it travels through the courtyard's architectural geometry."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"Focusing on the specific material degradation of the paving stones, where patterns of heavy use over centuries have worn away decorative inlay to reveal older, simpler geological strata beneath."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A brief meditation on a single object left in the square (a cracked terracotta pot, an overturned wooden stool) as an unintentional monument to daily human entropy."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While previous chapters focused on highly specific internal niches or grand processions, this chapter must embrace the *negative space*—the void and the transient activity of the open air that holds everything together but is itself undefined by frescoes."
+"This chapter contrasts the highly codified visual narratives of the frescoes by focusing entirely on a functional, unadorned space where daily life, rather than grand spectacle, takes place."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"4330a109ff9e0a039f76185f3bd1e4df3a52753df7579ea394410d22d4d2db4f"
+"73af982fcac82611f046baf55d72556577faa2cd96d6f61a4b23b4b938276e01"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:05:07.540601+00:00"
+"2026-10-06T11:41:02.667806+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

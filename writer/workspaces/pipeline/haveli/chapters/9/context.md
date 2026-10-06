@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,58 +30,10 @@
 "The first stone is set in the earth with a prayer, and the poem captures the promise embedded in that act. It is the moment ambition becomes architecture, the seed of the haveli that will rise to hold gods and gramophones in the same frame."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Specific construction materials available in Rajput-era regions (e.g., local sandstone types, mortar compositions)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Historical documentation on communal labor organization for major building projects before modern wage systems."
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][2]["no"]
-
-```json
-"3"
-```
-
-## $["further_references"][2]["reference"]
-
-```json
-"The symbolism of earth/grounding in post-Mughal Rajput artistic representations."
-```
-
-## $["further_references"][2]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -105,149 +57,131 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Viewing the foundation not as a start, but as a necessary sacrifice that consumes some future potential—what resource or connection must be irrevocably surrendered to permit this permanence?"
+"The stone as a vessel: exploring how the foundational materials (local sandstone, mortar mix) absorb not just weight, but memory and future transaction."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Shifting focus from architectural grandeur to the mundane, perishable elements required *around* the foundation: the placement of rainwater runoff channels, drainage grates, and simple thresholds."
+"Temporal dissonance in construction: contrasting the immense geologic slowness of the earth beneath with the sudden, furious speed of Gangaram's ascent."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"A philosophical debate among the architects/nobles regarding whether deep grounding (sacred earth) or high aspiration (celestial alignment/material imported stone) is truly more foundational to lasting power."
+"Ritualistic obligation vs. pure capital accumulation: framing the foundation ceremony as a necessary facade to legitimize an underlying drive for profit."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The exposed bedrock beneath the main courtyard, slick with morning dew; Desire: To find a natural imperfection in the rock that can be ritually 'fixed' to guarantee structural stability against tremor; Obstacle: A dissenting family member claims the original geological surveys were flawed and points to an unstable vein nearby."
+"setting: A muddy patch near a vital local well in Mandawa, desire: Gangaram desires the physical permanence of his initial mark, something that cannot be swept away by changing markets., obstacle: The traditional builders demand an appeasement offering whose cost exceeds Gangaram’s current liquidity., turn: He pays not with silver, but with a promise of future textile futures from Nawalgarh."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The edge of the property line where the construction meets wild, untamed scrubland; Desire: To establish a clear, magically reinforced boundary that keeps both outsiders (and bad luck) out of the new domain; Obstacle: A local hermit or tribal member claims the land beneath has its own forgotten claim."
+"setting: Dawn over the dusty construction site, desire: To ensure that the structure honors the local deities whose approval he needs to secure permanent goodwill., obstacle: The architect whispers doubts about whether imported, grand designs can truly root in this specific arid soil., turn: Gangaram orders a small, secular portrait of himself carved into the plinth alongside the gods."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Late night, illuminated only by oil lamps placed near the foundation's edges; Desire: For one key individual—the master builder, the financier, etc.—to physically record a binding oath of silence regarding any structural flaw found during construction; Obstacle: The pressure to declare completion forces them to sign something they know to be insufficient."
+"setting: Beneath the first leveled trench, desire: To carve an invisible covenant with future generations, ensuring their survival mirrors his own success., obstacle: A laborer finds a piece of forgotten debris—a remnant from a previous era that suggests the land has seen many similar ambitions fail., turn: He commands the stone to be consecrated using pigments reserved for temple murals, intertwining commerce and faith."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing entirely on the logistics: tracking the sourcing, payment, and movement of the very first required units of material (e.g., 100 large blocks)."
+"Focusing less on the prayer/symbolism and more on the metallurgy of the implements—the chisels, the bronze measuring tools—as conduits of ambition."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Telling the story solely through the dialogue overheard between two junior artisans discussing the *implications* of where they are laying stone."
+"Treating the foundation as an active negotiation with local power structures (caste elders, temple priests) rather than just a religious rite."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Treating the foundation as a metaphorical trap—a commitment that prevents all future spontaneous changes, even joyful ones."
+"An examination of the specific regional geology: how the dust and stone tell a story of scarcity that Gangaram's wealth is attempting to overcome or redefine."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The specific sharp scent of freshly cut lime mortar mixing with damp earth underfoot."
+"The granular heat radiating off sun-baked sandstone, smelling faintly of pulverized earth and gypsum."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The abrasive grit caught beneath the fingernails of an unskilled laborer working against a smooth river-worn paver block."
+"The high, brittle sound of perfectly set lime mortar cracking under the initial load test after curing."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The low, rhythmic *thud* sound produced when a heavy mallet strikes precisely set keystone corner stone."
+"The metallic tang of sweat mixed with fine desert dust on an elder's weathered skin during the blessing."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were common local superstitions or practical techniques used for leveling the very initial sub-base before any formalized architectural diagramming took place?"
+"What specific regional construction materials or binding agents were characteristic of wealthy private dwellings in Shekhawati during this period?"
+```
+
+## $["creative_enrichment"]["research_questions"][1]
+
+```json
+"How did traditional Hindu foundation rituals intersect (or conflict) with emerging mercantile practices among Marwari traders?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A series of increasingly detailed technical drawings that are annotated by different people (priest, engineer, foreman) at various points."
+"The poem could adopt a dialogue structure: Gangaram speaking to the Earth/Land, answered by an older voice representing tradition."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A character's internal monologue spiraling around the concept of 'beginning' versus 'continuing existence'."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"Interleaving physical labor scenes with brief, ritualistic chants or mathematical calculations."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The role of women in preparing non-structural elements associated with foundations (e.g., purifying offerings placed *on* the ground surface)."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"A potential subplot involving a rival builder who intentionally undermines the foundational ceremony for political reasons."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"Examining the foundation through an echo/sound wave analysis—what specific frequencies are needed to resonate throughout the entire structure?"
+"A highly fragmented structure based on geological layers found in the soil—each stanza mapping a different layer's history."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter moves away from establishing the *owners'* grand vision by focusing intensely on the immediate, physical realities and necessary compromises of the raw earth itself."
+"Unlike chapters focusing on immediate acquisitions (like 'The Bought Plot'), this piece focuses purely on the deep, intangible beginning: the commitment to permanence itself, setting up an internal conflict between lasting stone and fleeting finance."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"Exploration of specific local folklore concerning ground spirits or 'land ownership' myths that predate organized trade."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A micro-history detailing the labor negotiation for acquiring the very first block of building material."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"023b8f475707c761c8665a36383834c4ffde48bcd62c0d3dd9921912eee575d9"
+"e9ffdf23a3aaf1c439ac5771d2bed7a043fba35706f5cb7adbe3236f4beb33d4"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:03:11.763822+00:00"
+"2026-10-06T11:39:47.724925+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

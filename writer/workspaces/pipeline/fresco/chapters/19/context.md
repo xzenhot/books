@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -57,107 +57,113 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Framing the confession not as a grand revelation, but as a small, granular admission—a single stain or fissure being named into existence."
+"The explicit articulation of 'mistakes' as necessary components, not merely flaws, to the final composition."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Treating the struggle not as personal failing, but as an inherited burden of patronage and tradition passed down through silent demands."
+"Framing the struggle not against external critics or societal pressure, but against the physical limitations of materials—the clay cracking before the line could be completed."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The act of revealing weakness as a perverse form of strength; making the vulnerability itself the most enduring part of the work."
+"Viewing the 'struggle' itself as a kind of primitive ritualistic offering, required by the spirit of the craft."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The lower ledge where the scaffold meets the outer wall, Desire: To argue with an imagined version of his aging self over a technique he gave up too early, Obstacle: The weight of the finished perfection looming above him."
+"setting: The dark cavity beneath the scaffolding platform, desire: To finally confess the exact moment the design first collapsed into impossibility., obstacle: The omnipresent, judgmental silence of the night air pressing against the plaster., turn: The speaker finds a single, petrified insect trapped in dry pigment that embodies the halted effort."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A discarded palette smeared with unusable color mixtures, Desire: To seek absolution from the pigment itself for its resistance to his control, Obstacle: Finding no solace in the inert earth minerals."
+"setting: A patch of wall freshly scraped bare after an accidental pigment spill, desire: To articulate the specific exhaustion—the bone-deep fatigue unrelated to mere labor., obstacle: The cold, hard indifference of the stone against his weary palms., turn: He speaks a technical term for paint binding that he knows no one else in the town understands."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Mid-night, under a sliver of moon that illuminates only one specific imperfection on the work, Desire: To confess to a patron whose gaze he felt most critically before they departed, Obstacle: The sound of the night wind acting as an indifferent auditor."
+"setting: A corner where the light from a single oil lamp is weakest, desire: To validate the 'bad' attempts as essential narrative beats, rather than discarded drafts., obstacle: The shadow itself acting as an audience demanding perfection before he can speak freely., turn: He focuses on one wasted sketch, not for what it showed, but for the *gesture* of the hand that drew it."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Shifting focus from 'failure' to 'process trauma': viewing the making itself—the constant negotiation with chemistry and material limits—as a form of psychic injury."
+"Treating 'struggle' as a necessary dialectic: how absence/failure must be foregrounded to make presence/beauty meaningful."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Exploring the concept that the *unseen* labor creates its own, silent mythology, one distinct from the patron's glorious narrative."
+"Shifting from emotional failure to technical inadequacy—the sheer, relentless physics of achieving color permanence in high heat."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Treating the struggle as dialectic: the friction between the divine ideal in his vision versus the gritty reality of limestone dust and failing eyesight."
+"Exploring the burden of inherited aesthetic debt—is he struggling against his own family's expectations or tradition?"
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The sharp, acrid taste of dried linseed oil residue on his lips during a moment of intense frustration."
+"The gritty abrasion of fine limestone dust lodged under the fingernails after hours of sanding a preparatory layer."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The cool, gritty slide of unfinished plaster under his palms when he momentarily abandons the main composition."
+"A sound like dry reeds scraping together, emanating from the wooden scaffolding as it settles unevenly in the cool pre-dawn stillness."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"A specific, almost painful ringing in the ears caused by hammering a piece of support bracing too tightly against the wall."
+"The sour, metallic tang on the tongue when tasting residual pigment slurry mixed with sweat."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What was the symbolic language used in regional art to describe creative blocks or moments of profound artistic doubt?"
+"What are common historical or local terms in Rajasthani crafts for describing creative blockage or intense physical exhaustion?"
+```
+
+## $["creative_enrichment"]["research_questions"][1]
+
+```json
+"How is 'failure' historically coded in aesthetic traditions that prize meticulous, lasting craftsmanship?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A non-linear mapping where one line describing a failure leads directly into a description of its physical counterpart on the finished wall."
+"A tightly controlled monologue that begins with a highly detailed description of a single failed brushstroke and expands outward to encompass all past errors."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Employing an accelerating rhythm that builds tension toward the moment of spoken confession, only to collapse back into stasis."
+"Employing repetition of key physical actions (scraping, mixing, pressing) as anchors for the emotional outpouring."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"A focus solely on the financial cost underpinning the labor—the precise value of time vs. material in this specific economic climate."
+"A focus on how the patron's perception actively *requires* failure to be hidden; their belief system necessitates perfection."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"Using astronomical observation (constellations visible at night) as a detached, uncaring counterpoint to his inner turmoil."
+"The potential for the painter to see his own spectral form reflected in the wet lime, a distorted echo of his struggling self."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While neighbour chapters look outward or backward at legacy, this poem demands an unflinching confrontation with the internal mechanics of creation itself—the raw stuff that exists between vision and veneer."
+"Unlike poems focusing on the external object or future longevity, this chapter insists upon inhabiting the messy immediacy of the creative breakdown itself, addressed externally toward an unseen recipient."
 ```

@@ -1,24 +1,5 @@
-এই আঙ্গুলের ভাঁজে, এই চুন-রঙের স্তরে, আমি খুঁজি আমার অস্তিত্বের পাঠ।
-এই কাঠামোর ওপর, এই খড়ের মঞ্চে, আমার শরীর নিজেই এক চলমান লুম।
-আমি তাকে বলি, হে অস্থি, হে মাংসপিণ্ড, তোমার প্রতিটি টানই কি আমার সেই আলপনার বাঁক?
-কীভাবে এই রগড়ের টান, এই কব্জির সূক্ষ্ম কাঁপুনি,
-সেখানে একটি দেবীর স্থির ভঙ্গি হয়ে ওঠে?
-আমি নিজেকেই বিচার করি।
-আমি জানি, আমার হাতগুলো শুধু রং ছড়ায় না।
-তারা জমাট বাঁধায় ব্যর্থতা।
-প্রত্যেকটি গাঁট, প্রতিটি চাপ,
-একটি অব্যক্ত স্বীকারোক্তি।
-এই যে, আমার ত্বকের ভাঁজে লেগে থাকা হলুদের গুঁড়ো—
-সে কি কোনো আদিম লিপির মতো?
-আমি তাকে ছুঁয়ে দেখি।
-অন্ধকারে, ল্যাম্পলাইটের এই বিষণ্ণ আলোয়,
-আমার হাতের প্রতিটি দাগ যেন একটি অপ্রকাশিত গালির মানচিত্র।
-আমি তাকে প্রশ্ন করি।
-এই কাঠিন্য কি শিল্পের ভিত্তি?
-নাকি, এই যন্ত্রণাটাই আমার একমাত্র সত্য?
-আমি নত হই।
-এই scaffolds-এর খুঁটিতে ভর দিয়ে।
-আমার শরীর, আমার নিজস্ব খোদাই করা দেওয়াল।
-আর তুমি, হে নিস্তব্ধ প্রাচীর, তুমি কি জানো?
-তোমার নিখুঁত রেখার নিচে,
-আমার কোন দুর্বলতাটা চাপা পড়ে আছে?
+The scaffolding breathes a cold, mineral sigh against the stone, a skeletal cage holding the ghost of a finished day, and here, beneath the weak halo of the late lamp, the hands are the first chronicle. They are not instruments, these, but maps etched by necessary violence—calluses rising like miniature tectonic plates, a private metallurgy forged in the slow, gritty friction of dried lime dust settling beneath the nail beds. Each ridge is a ledger entry, recording the relentless arithmetic of the night: the weight of the ochre pigment, the subtle shift in the substrate's pull, the hours surrendered to the patient, unforgiving drying.
+
+A tremor begins, not in the shoulder braced against the cool mortar, but deep in the wrist's tendon sheath, a faint, electrical stutter preceding the true protest. The intended line—that delicate curve meant to catch the dawn light, the whisper of a peacock’s wing—demands a precise tension the body refuses to yield. The fingers, stained a deep, stubborn rust from the last wash, feel heavy, burdened by the accumulated memory of a hundred such grips. Generations of silent craft, of the merchant's insistent gaze demanding the *blossom* before the struggle is visible, flow through these cramped joints.
+
+He tries the new grip, the one sketched in the margin of his mind, designed for a sharper articulation, but the tendon snaps back with a dull, internal ache. The attempt fails, a momentary, stark confession of inadequacy. Exhaustion, that heavy chiaroscuro, settles across his scapula, transforming the desire for perfect expression into a posture of necessary retreat. He does not fight the ache; he listens to it. And in that yielding, in the forced rigidity of the cramp, something shifts. The frozen posture, the captured tension of the locked fingers, suddenly offers a different angle, a stubborn, beautiful geometry born not of choice, but of surrender. He settles into the familiar, agonizing motion, allowing the tremor to guide the unsteady dot of lapis blue, a small, trembling act of defiance against the clean, flawless lie of the finished facade.

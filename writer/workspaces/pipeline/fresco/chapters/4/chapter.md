@@ -1,15 +1,1 @@
-ঘরের কোণে, চুন আর ল্যাপিস মিশে এক মিথ্যা আকাশ।
-অতিথিরা হাসে।
-তাদের কণ্ঠস্বর, দামি গন্ধের ধোঁয়া—
-এসবই এক মুখোশ।
-তাদের প্রশংসার প্রতিটি শব্দ,
-আমার হাতের ঘাম মুছে দেয়।
-আমি দেখি, আমার শ্রম, আমার ভাঙা আঙুল,
-এই চাকচিক্যের নিচে চাপা পড়ে।
-এই প্রাচীর, এ তো আমার সমাধি।
-রঙের স্তরে, আমি কেমন ছায়া?
-আমি কি শুধুই একটি ঝাপসা রেখা?
-এই জমকালো ভাঁড়ার, এ তো কেবল একটি cage।
-আমার নাম, এ তো ledger-এর বাইরে।
-তবুও আমি আঁকি।
-আমি এই নীরবতার ভার কাঁধে নিয়ে।
+The sandalwood incense, thick and cloying, hung like a heavy, sweet shroud over the polished marble of the reception hall, a performance scent meant to mask the underlying breath of dry lime and patient dust. From the shadow near the carved teak screen, where the plaster held the memory of night’s vigil, the painter watched the parade of silks and polished brass, the merchants whose fortunes were measured in the breadth of their display. Their praise, a glittering froth of words—*marvelous*, *magnificent*, *a testament to the local skill*—did not touch the pigment; it merely skimmed the surface sheen, praising the color as if it were a captured commodity, a jewel weighed against a bolt of imported muslin. He felt the tremor in his own hand, a vibration not from the brush, but from the sheer volume of their unthinking admiration. They admired the bloom, the flawless lapis that seemed to bleed across the stone, yet their eyes never lingered on the scaffolding, the temporary bone structure that had held the agony of his reach. To them, the fresco was a solved equation, a finished signature. To him, it was still the strain of the mortar setting, the ghost of the preparatory wash scraped back beneath the final, triumphant cerulean. He was the silent substrate, the hidden binder, whose labor was dissolved into the celebratory din, a necessary shadow ensuring the merchant’s transient pride could shine so brilliantly under the borrowed lamplight.

@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -45,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"scaffolded"
 ```
 
 ## $["segments"][0]
@@ -57,131 +57,107 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on how the patron's enjoyment creates a distorted, flattering mirror image of the artist’s unseen labor."
+"Framing the guests’ praise not as genuine appreciation of art, but as a function of their social performance—a necessary theatre for Marwari prestige."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Exploring the performative nature of 'praise'—how words used by guests act as social tools to mask transactional relationships."
+"Viewing the mansion's ornamentation (the frescoes) through the eyes of a guest who is simultaneously awed and intellectually condescending regarding its 'craftsmanship.'"
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The architecture itself becomes an active participant: does the richness of the painted facade serve as both protection and cage for the creator?"
+"Shifting the perspective to an inanimate element within the house (e.g., a specific carved wooden door or chandelier) that acts as a silent witness to the patron's transient pride."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A specific reception hall where a wealthy guest pauses, not to admire the fresco's beauty directly, but to observe the *effort* implied in the curve of a floral motif, before immediately dismissing it with casual flattery; Desire: To catch one word that acknowledges fatigue or cost; Obstacle: The host steers conversation immediately toward commerce."
+"Setting: The main reception hall, desire: To briefly engage in conversation about travel and trade with a high-ranking guest, obstacle: Realizing their interest is entirely superficial regarding the art."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A darkened alcove where reflections from the main gathering spill onto the scaffold platform after hours; Desire: For the painter to see his own silhouette momentarily superimposed on a perfect, finished section of color; Obstacle: The reflection is too distorted by dust and shadow to confirm identity."
+"Setting: A darkened gallery corridor off the main salon, desire: For a moment of pure auditory escape from the celebratory din, obstacle: The pervasive echo bouncing back the sounds of laughter amplified by the haveli's structure."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Near the entrance arches where guests pause in awe before entering the painted space; Desire: To inject a brief moment of private commentary—a single muttered curse or boast—into the grand scene; Obstacle: A servant overhears the sound, silencing it instantly."
+"Setting: Behind a carved screen separating a private study from the party space, desire: To catch an unguarded glance or whisper between two patrons that reveals their true valuation of the 'artisan.'"
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the house as a mausoleum of transient social capital, where painted beauty is merely an elaborate shroud for underlying financial instability."
+"Focusing less on the *patron's* ego and more on the material exchange—the specific commodity (silk, spice) traded for the art vs. the ephemeral glory of display."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on the specific dialectical shifts in speech—how formal court language contrasts sharply with the painter’s internal monologue of raw necessity."
+"Treating the fresco as a form of coded language known only to the painter; the guests read it purely by its surface color values, missing the narrative subtext."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Examining the interplay between patronage and aesthetics: how does the patron's *expectation* reshape the color palette before a brush even touches it?"
+"Exploring how the permanence of the painted wall contrasts with the transient nature of social status and wealth in the merchant class."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The smell of expensive, heavy incense—sandalwood or ambergris—that conflicts aggressively with the sharp, earthy scent of wet lime."
+"The sharp scent of expensive sandalwood incense masking underlying smells of dust and curing plaster within the haveli halls."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The texture of richly woven silks worn by guests rubbing against the rough grit of plaster dust that has settled on the scaffold steps."
+"The clinking, high-pitched music of small brass instruments played during the entertainment that sounds brittle against the heavy stone architecture."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The dull thud of a glass tumbler being set down too heavily onto polished stone flooring during a conversation."
+"The specific texture of a heavily embroidered shawl brushing past the painter's elbow as he stands hidden near a doorway."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What specific courtesies or rituals were historically employed by wealthy Marwari families to acknowledge skilled, yet anonymous, labor in their homes?"
-```
-
-## $["creative_enrichment"]["research_questions"][1]
-
-```json
-"How did the social hierarchy dictate which portions of an interior space (public reception vs. private quarters) received the highest artistic investment?"
+"What were common performance rituals or social protocols among prominent Shekhawati merchant families during evening gatherings?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem written entirely from the perspective of a single piece of painted ornamentation—a stylized bird or vine—observing the human drama below it."
+"A sustained, lyrical interrogation of the contrast between interior warmth (the party) and exterior coolness (where the painter works)."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Alternating between highly ornate, guest-centric descriptions and extremely stripped-down, muscular imagery focused only on the artist's body parts."
+"The structure mirrors a formal recitation/ode that breaks down mid-phrase when the sound motif interrupts it."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The legal documentation or contracts that implicitly define the painter's invisibility within the patronage agreement."
+"How the painter mentally catalogues the architectural flaws of the house as he witnesses its celebrated façade."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"A moment where a child enters the hall unaware of the social performance and simply points at an aspect of color with innocent curiosity."
+"A brief internal monologue contrasting the permanence of stone and pigment with the fleeting nature of human memory within that space."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike previous focus on material preparation, this chapter shifts the stage entirely to the *social* environment surrounding the work, using human interaction as the abrasive force against the artist's hidden labor."
-```
-
-## $["draft"]["sha256"]
-
-```json
-"42fb59c2a4097c61b8cd3206bc50efb93171596c6876de108c632c516f7743a9"
-```
-
-## $["draft"]["written_at"]
-
-```json
-"2026-10-04T19:10:22.193566+00:00"
-```
-
-## $["draft"]["origin"]
-
-```json
-"write"
+"Unlike previous chapters which focused on preparation or material failure, this chapter shifts focus entirely to public performance and social erasure."
 ```

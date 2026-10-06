@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The guests are gone, the festivals ended, and the great hall stands silent. The poem lingers in the emptied courtyard, the open sky now looking down on nothing but dust and the memory of feasts."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Traditional outdoor community gathering rituals in Rajput architecture"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Symbolism of open ground/courtyards in Indian literary history"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,133 +57,127 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Adopting the perspective of a stationary, overlooked architectural feature (a specific pillar or niche) that observes all departures without participating."
+"Viewing the courtyard not as a space of hosting, but as a sacrificial altar now vacated by its offering (the wealth/guests)"
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Framing the silence not as an absence, but as a heavy, pressurized presence—the soundproofing quality of years of settled dust and empty space."
+"Shifting focus from 'empty' to 'over-saturated absence'; the residual spiritual weight or scent memory left behind by massive gatherings"
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Giving voice to the non-human elements of the courtyard: how water stains dry patterns on the flagstones, or how sunlight falls in geometrically perfect beams that no longer connect any point."
+"Framing the silence not as peace after noise, but as a pressurized vacuum that threatens to shatter the remaining structure itself."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The central wellhead within the courtyard; Desire: To find a single surviving, mundane object left by the last patron—a discarded child's toy or game piece—and explore its continued presence."
+"setting: The central fountain basin in the courtyard, desire: For one small shard of broken porcelain from a vanished feast dish to remain intact and catch the light., obstacle: A persistent, stubborn layer of fine desert dust covering everything., turn: When a sudden gust of wind blows, it doesn't lift the dust; it settles finer, smothering the visible relic."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The shadow cast by the main entrance structure at high noon; Desire: For an unexpected animal (like a large breed dog) to repeatedly attempt to 're-stage' a memory of a past event, forcing characters/narrative confrontation with history."
+"setting: The main entry archway overlooking the courtyard, desire: To catch the last lingering sound—a specific high note from a forgotten musician or dancer., obstacle: The unrelenting heat that absorbs and dissipates all vibrations too quickly to register., turn: A single, unexpected bird lands briefly on the archway, momentarily breaking the silence before taking flight."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: A section of flagstones where spilled colored powder from celebrations have faded into pale streaks; Desire: To follow the trajectory of one single color pigment (perhaps turmeric or indigo) back to its source before it washes away entirely."
+"setting: Underneath the shade of a specific ancient Banyan tree in the courtyard, desire: To find an object dropped by a guest—a unique cufflink, a pressed flower., obstacle: The root system has long since woven itself into the flagstones, making any searching futile and invasive., turn: What is found is not an item of wealth, but a piece of mundane material (like dried leather or thread) that speaks to unnoticed labor."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the courtyard as a physical accumulator: Focusing on how sound, discarded remnants, and light particles settle in layers upon each other over time."
+"Focusing on the 'afterlife' residue: Treating the courtyard as an archaeological site where transient human energy leaves discernible, though non-physical, traces."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"A slow, almost geological pacing: Spending disproportionate narrative weight on minute details of wear—the precise erosion patterns at the junction of different paving stones."
+"Microcosm study: Using a single patch of ground or stone in the courtyard to reflect the larger geopolitical/economic instability outside the walls."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Contrasting the *intended* function of the space (procession, gathering) with its actual current state (inert receptacle for dust and echoes)."
+"Sensory reversal: Focusing entirely on scents—the fading clash between expensive imported perfumes and stale dust/animal waste."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The specific patina on bronze fittings that have been repeatedly scrubbed clean by celebratory crowds, showing only a duller residue underneath."
+"Sight: The sharp, blinding outline of a single patch of weeds fighting through cracked marble tiling."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The delicate, almost painful resonance of an empty cooking pot being lightly struck against stone in the vast openness."
+"Smell: The acrid ghost scent left by burnt camphor from an evening ritual that concluded hours before."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The faint, earthy smell of disturbed soil or growing weeds pushing up through cracks in the otherwise immaculate flagstones."
+"Touch: The gritiness clinging to the inner walls where plaster has flaked away into fine, powdery hands."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the specific local materials used for courtyard flooring before modern concrete treatments?"
+"What are traditional rituals for clearing or dedicating a courtyard space after a major ceremonial event in Rajasthani culture?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Were there established rituals for 'cleansing' a large open space after major festivals, and what did those cleansing rites involve?"
+"How did local craftspeople traditionally imbue utilitarian objects (like serving dishes) with symbolic meaning beyond their function?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"Structuring the poem as a series of expanding ellipses: starting tight on one spot, then widening focus until it encompasses the entire empty sky above."
+"A purely static, highly focused ekphrastic piece where the visual description of the courtyard fills all space without narrative forward motion."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Employing an unreliable narration based on lingering sensory memory—the poet convinces themselves they hear music when only wind passes through the archways."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"A structure that builds to absolute silence and sustains a single, sustained enjambment over multiple stanzas."
+"A structure based on echoes: Beginning with a sound from the previous gathering, and each subsequent line being its fading reverberation across empty space."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"Exploring the 'negative space' of the courtyard—the area *between* the buildings, which is rarely depicted but defines their scale."
+"The psychological impact of perfect symmetry when the central life-giving element (the people/activity) is missing."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"The passage through the courtyard at dawn, before any activity begins, making it a place of transitional limbo between night and day."
+"A brief philosophical meditation on how permanence is an illusion even in massive stone architecture."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike chapters focused on intense interpersonal conflict or commodity cycles, this chapter must treat absence itself as a primary subject, requiring poetic focus on atmosphere and overlooked details rather than dramatic action."
+"Unlike chapters detailing activity or financial mechanics, this chapter must dwell entirely in stasis, capturing the weight of post-celebration emptiness rather than residual action."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"a3ab1509722fd09976abbaf871eb9e8f98f66a0f737c47473329331993267aba"
+"4cc35ca370e5ff2c77739dfe9f2338fae46d2c34b4c10e662f395ac581d5fd77"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:12:20.586014+00:00"
+"2026-10-04T20:17:56.700141+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -222,14 +186,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"4cc35ca370e5ff2c77739dfe9f2338fae46d2c34b4c10e662f395ac581d5fd77"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

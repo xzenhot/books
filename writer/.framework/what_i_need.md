@@ -16,7 +16,7 @@ This is the *idea* stage. Nothing is written yet — you are only deciding what 
 5. When the gist changes → the system writes a detailed story outline called **`storyline.md`**.
 6. When `storyline.md` changes → the system writes a chapter plan called **`book.json`**.
 7. `book.json` is the **complete blueprint** of the book, built from `storyline.md` + the chapter count.
-8. `book.json` must follow the example schema at **`.framework/templates/book.json`**.
+8. `book.json` must follow the example schema at **`.framework/templates/backlog/book.json`**.
 9. Each chapter's `chapter_summary` must carry **enough context** to guide writing it later.
 10. Word target per piece:
     - **Poetry** → 200–300 words

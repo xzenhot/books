@@ -1,16 +1,3 @@
-লণ্ঠনের শিখা, একটি কমলা ফোঁটা।
-রাত গভীর। শহর ঘুমিয়ে,
-কিন্তু আমি, এই খড়ের কাঠামোর ওপর,
-আমার হাতগুলো।
-চুন আর রঙ্গক, গুঁড়ো গুঁড়ো।
-ধাতব গন্ধ জিভে লেগে থাকে।
-এই ঘষা, এই ভাঙা—
-আমার নিজস্ব আলকেমি।
-আমি নিজেকে বিচার করি।
-এই শ্রম, এই নিস্তব্ধতার ভার।
-আমি কি শুধুই একটি আবছা ছায়া?
-এই 벽 যে একদিন সৌন্দর্য হবে,
-তা কি আমার এই হাড়গোড়ের আর্তনাদ বুঝবে?
-আলোটুকু ফুরিয়ে আসছে।
-তবুও আমি থামতে পারি না।
-আমি কি শুধু ধুলা আর চুন?
+The lamplight, a small, feverish eye against the vast, indifferent dark of the sleeping town, cast a harsh scrutiny upon the mound of earth and stone. It was here, in the hollow breath between midnight and dawn, that the alchemy began. The rasp of the grinding stone against the cinnabar—a sound so dry, so specific—was the only clock, marking the patient erosion of mountain to color. Each slow turn of the pestle was a refusal to yield the truth of the pigment to the quick, bright gaze of day. He worked the lime, that patient, porous skin, mixing it with the powdered minerals until the slurry held the consistency of heavy, cool milk. The air, thick with the metallic tang of crushed hematite and the faint, acrid scent of the oil lamp, felt less like air and more like a thick, deliberate medium, binding the secrets of the earth.
+
+The first batch, a deep, bruised ochre, sat sullenly in the low basin; it looked not like beauty, but like the shadow of a forgotten night. He watched the motes dancing in the lamplight, tiny, agitated constellations caught in the vapor rising from the wet plaster. A draft, smelling faintly of the dung fires beyond the outer wall, shifted the dust, and in that sudden, unwelcome clarity, he saw the flaw in the binding—a weakness in the substrate, a patch of unyielding mortar resisting the flow. With a practiced, weary motion, he tipped a small measure of the failed mix onto a scrap of faded indigo textile, a test, a momentary surrender to the tangible failure. He reclaimed the spill, scooping the imperfect earth back into the shadow, forcing the mixture to reconcile its own broken geometry, pushing the stubborn, necessary weight of the labor back into the silent, waiting darkness, before the sun could judge its stain.

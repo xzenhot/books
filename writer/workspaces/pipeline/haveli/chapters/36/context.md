@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "A servant girl is struck for spilling a single drop of wine. The poem isolates the blow — the drop, the hand, the girl's silence — and lets it stand for every small cruelty the haveli's grandeur was built upon."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"The symbolic role of stains and marks in pre-modern art or textiles"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Ritual cleansing practices related to domestic pollution in North Indian culture"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,121 +57,115 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the *material* nature of the spilled wine: Is it expensive, rare, or simply cheap domestic wine? Does its staining power suggest an inescapable stain on honor?"
+"Focusing on the physical mechanics of the spill: The trajectory of the single drop as an almost unbearable event—a micro-tragedy against the vast backdrop of opulence."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The girl's internal calculation of the spillage: She doesn't just feel shame; she calculates the resulting punishment—a precise emotional arithmetic."
+"The wine not as a luxury, but as a volatile medium: Treating the spilled liquid as a temporary stain that momentarily defeats the polished veneer of the haveli's interior perfection."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Reframing the blow as a minor performance piece: The master’s outburst is not about wine, but about maintaining an expected, flawless theatrical atmosphere."
+"A reversal of power through accident: The servant girl's accidental act is rendered with such precise detail that it forces a moment of uncomfortable pause from the enforcer, making the *spill* an unintentional critique."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"setting: A high-backed seating area reserved for female family members near the central courtyard, desire: To fix the spillage using a rare, costly fabric (like dyed silk), creating a ritualized attempt at cosmetic repair that fails spectacularly, obstacle: An unpredictable gust of hot wind blows dust/dirt onto the already ruined patch, turn: The girl abandons any pretense of cleaning and simply accepts the stain as permanent."
+"Setting: A cool, tiled hallway near the private chambers; Desire: To capture the echo—a single, sharp sound following the drop's impact on marble—which the girl cannot stop hearing after her master has left. Obstacle: Her imposed silence."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"setting: The wine service area adjacent to the kitchen where servants handle consumables, desire: For the girl to instinctively cover for her mistake by using another servant's possession (a clean cloth, a cup), obstacle: A rival servant witnesses this attempt at solidarity and reports it., turn: The master doesn't rebuke the rival; instead, he critiques the *quality* of the proffered replacement object."
+"Setting: The edge of a richly embroidered ceremonial rug in the inner court; Desire: For the wine stain to spread outward like an unfurling rumor or complaint, visible only under specific lighting conditions. Obstacle: The immediate threat of physical reprimand."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"setting: Outside under an awning during a rare moment of afternoon lull, away from direct notice, desire: To use the spilled wine not as a stain to be cleaned, but as a temporary pool—a miniature, forbidden ritual gathering spot for other overlooked workers, obstacle: An aging relative or matriarch who enforces absolute order spots the irregularity., turn: The matriarch addresses the liquid spill by commanding everyone to remain absolutely still, freezing time around the stain."
+"Setting: Behind a heavy, carved wooden door used for private audience; Desire: To have the sound—the impact, followed by the servant's choked intake of breath—be amplified in this confined acoustic space, making it feel like a public broadcast. Obstacle: The pressure to remain perfectly still."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"The object of discipline: Shifting focus from the spilled wine itself to what it symbolizes—the violation of pristine domestic boundaries."
+"Viewing 'spilled wine' as a historical parallel to lost trade shipments: How one small loss ripples through the entire economic structure of the haveli."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"The complicity of silence: Analyzing the immediate, non-verbal reactions of every other person present who witnesses the spillage but does not intervene or speak up."
+"The physical labor required to maintain perfection: Exploring how much effort (cleaning, polishes) is needed just to contain inevitable accidents like this spill."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The trajectory of liquids: Treating liquid spills as a form of physics—how gravity and surface tension dictate the final pattern, mimicking societal forces."
+"Wine in Bengali cultural context: Briefly contrasting its meaning here—a marker of elite excess and fragility—against more familiar domestic or ritual use."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The iridescent film left by spilled wine catching the slivers of light filtering through carved lattice work."
+"Sight: The way the deep ruby liquid catches the light, momentarily shimmering against pale, highly polished sandstone before sinking into the grout."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The high-pitched, almost tinny resonance of a small silver vessel clinking against stone when it is nervously lifted or dropped."
+"Sound: The high-pitched *tink* sound of a drop hitting fine imported glass or glazed ceramic, distinct from the dull thud on stone."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The sharp, metallic tang of aged copper mingling with the slightly yeasty scent of fermentation."
+"Smell: The abrupt, sharp contrast between the sweet, fermented aroma of the spilled wine and the underlying, dry scent of old beeswax and polished wood."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were typical domestic household roles and expected levels of perfection for female servants in affluent Shekhawati havelis during peak trade periods?"
+"What specific types of ceremonial or high-status wines were typically served within wealthy Rajasthani households during this period?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Are there documented cultural prohibitions regarding spillage or damage to highly valuable items (especially those related to ritual consumables) within Rajput households?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"How did the concept of 'cleanliness' intersect with caste or economic status when it came to domestic mishaps?"
+"How was domestic labor policed in grand mercantile residences—was punishment usually physical, verbal, or economic?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A highly focused micro-narrative: Spending 80% of the poem on the moment *seconds* before the spill, building unbearable tension toward one small drop."
+"A highly minimalist structure where each line focuses on a single element: drop, surface, reaction (silence/sound)."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An escalating cataloguing structure: Beginning with a grand list of things that must be perfect (tapestries, silver, skin), and ending abruptly with the single stain as the ultimate failure point."
+"An anapestic meter that mimics the slight, unsteady rhythm of someone attempting to hold perfectly still under duress."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike chapters detailing visible public financial collapse or historical trade routes, this poem focuses inward on an immediate, highly localized moment of domestic, ritualized imperfection, shifting the locus of 'ruin' from ledger books to spilled liquid."
+"Unlike previous chapters which focused on economic mechanics or grand visuals, this chapter isolates a moment of minuscule domestic failure, using heightened auditory detail to convey structural violence."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"893bd58da12412b724533f37eb0f75420923fc270fad83cb4b0b926841f7a62b"
+"e177ee42476935f1e5a6cfb819664dcaa0b757f781459369bb17eb0ee4391e07"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:10:02.011170+00:00"
+"2026-10-04T20:16:09.235165+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -210,14 +174,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"e177ee42476935f1e5a6cfb819664dcaa0b757f781459369bb17eb0ee4391e07"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

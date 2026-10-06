@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The sums owed were never entered anywhere but in the memory of the wronged. The poem gathers the invisible debts of the haveli — the wages, the grain, the dignity — into a single account the years will not settle."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Medieval Indian systems of unpaid labor compensation beyond wages (e.g., barter rights, reciprocal obligation)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Legal customs regarding debt recovery and collateral in historical Marwari merchant communities"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,127 +57,127 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Structuring the poem as a dialogue between two non-speaking objects within the haveli—perhaps two worn cooking vessels or two empty spice grinders—each representing a different form of accumulating debt (emotional vs. monetary)."
+"Treating 'debt' not as monetary value but as a somatic accumulation—a physical strain felt by the laborer or artisan, like calcification in a joint."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Adopting the perspective of an official town administrator or trustee who is tasked with cataloging these invisible debts, treating human suffering as bureaucratic overhead."
+"Framing the unrecorded debt through linguistic precision: The precise vocabulary of need (thirst, coldness, exhaustion) versus the abstract jargon of commerce (interest, collateral)."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Fragmenting the poem across multiple registers: shifting between highly structured, numerical verse when discussing money, and flowing, mythic verse when addressing intangible losses like honor or memory."
+"The memory as an accounting ledger: How individual recollections of owed wages interact and compound to form a larger, irrefutable sum that exists outside any written record."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The service kitchen adjoining the main *diwan-khana*; Desire: For a specific, heirloom spice (saffron, cardamom) that was paid for with decades of accrued unpaid labor; Obstacle: A rival merchant who claims they owed nothing by pointing to an old tax exemption scroll; Turn: The memory of thespice itself causes the spices to briefly glow."
+"setting: A neglected well in the haveli's shadow, desire: For one servant to retrieve a specific, forgotten token left there by a family member whose labor was never recognized., obstacle: The rope is frayed and snaps under the weight of what they are trying to pull out—a weight that should have been accounted for., turn: Instead of an object, it pulls up only thick, tangled roots, symbolizing unpayable obligation."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Outside the main gate, near a wellhead; Desire: To reclaim not coin, but the *right* to use shared water resources that were previously monopolized and unpaid for; Obstacle: A guard who claims the rules of scarcity have changed irrevocably; Turn: The community agrees to an ancient, unwritten rotational system instead."
+"setting: Gangaram's deserted private counting room, desire: For a late-night shadow cast by the sputtering oil lamp to coalesce into the recognizable silhouette of a creditor or aggrieved party., obstacle: The light flickers violently, dissolving the shape before it can be fully perceived, reducing the spectral figure back to mere geometry., turn: The sound accompanying the flicker is not wind, but the dry rustling of unwritten promissory notes."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The dusty corridor connecting two disparate wings of the haveli (e.g., men's wing to women's quarters); Desire: To find a single ledger that tracks expenses *and* emotional labor—a 'Cost of Life' sheet; Obstacle: Realizing every line item is subjectively inflated by whoever writes it last; Turn: The realization that the debt isn't owed to money, but to future connection."
+"setting: A narrow alleyway outside the main haveli gate, desire: For a single mother to confront the overseer regarding her child’s education fund that was diverted into 'operational expenses'., obstacle: The overseer is not overtly malicious, but fatally bureaucratic, citing an obscure, pre-existing clause in the hiring contract., turn: She realizes the fine print wasn't written by Gangaram, but dictated by a city official centuries ago."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating unpaid debt not as a ledger entry, but as an atmospheric weight—a palpable pressure in the architecture itself."
+"Shifting focus from the merchant's perspective of 'loss' to the recipient's experience of 'structural deprivation.'"
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on the *interest* accrued by moral debts: how does guilt compound over time when no one is tracking it?"
+"Viewing debt not as interpersonal conflict, but as an ecological imbalance—how unreturned labor poisons the household soil or structure."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Examining what happens to objects that were paid for with labor rather than coin (e.g., a portrait painted, furniture carved)."
+"Treating the collective memory of unpaid wages as a form of slow-motion physical erosion on the haveli's stone foundations."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The specific discoloration of wood where hands have habitually rested over decades—a darkened patina contrasting sharply with the original polish."
+"The abrasive grit caught between clenched knuckles when holding a hand cupped in prayer/counting."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The distinct 'dry tick' sound made by old bone or ivory tapping against stone when used as a measuring tool, representing measurement beyond currency."
+"The metallic, coppery taste left on the tongue after enduring prolonged periods of hunger or worry."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The scent of accumulated dust mixed with dried blood, suggesting violence and unresolved passage through the space."
+"The sudden chill felt radiating outward from a stack of untouched grain, despite the summer heat."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were customary methods in Rajasthan for non-monetary restitution or payment when labor disputes arose between artisan guilds?"
+"How did subsistence economies in Shekhawati traditionally account for non-monetary reciprocity (favors, shared labor) that wasn't recorded in ledgers?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Are there known historical metaphors describing intangible debts (like broken trust) in regional folklore that could be adapted poetically?"
+"What were common regional idioms or folklore surrounding 'unpaid promises' versus formal debt obligations?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A circular structure, where the final lines echo the first, but with the tone shifting from accumulation to eventual necessary release."
+"A series of micro-vignettes, each representing a different type of unpaid burden (grain owed, time stolen, insult endured), linked by sound."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An epistolary collage: assembling overlapping fragments of letters (a debtor’s plea, a creditor’s dismissal, a family member's lament) that never form one coherent exchange."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The concept of debt owed to the land itself for allowing prosperity to flourish on it."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"Exploring debts accrued not by the merchant class, but by the supporting infrastructure (e.g., the well-keepers, the local spice farmers)."
+"A sustained focus on one physical body part—perhaps the shoulder, perpetually bowed under invisible weight—acting as the central organizing metaphor across several stanzas."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter moves away from the grand, visible transactions of trade and fresco commissions; instead, its focus is on the accumulated weight of unpaid *intangibles*—the slow, invisible arithmetic of social obligation."
+"This chapter must diverge from the grand narratives of profit/poverty and faded glory found in neighboring poems by focusing intensely inward onto the silent physics of unrecorded obligation."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The bureaucratic machinery that enables or dismisses debt claims among marginalized workers."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"How contemporary memory techniques (oral storytelling) function as a modern counter-ledger to historical financial records."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"003e9934d0e91a52a8f8c5569903ead79797f27bc3754e55b74e62b95912c152"
+"e58f1eae775a225f40b2285ee7e9382d5afadbd3d452a62d5b30801bf55ad90f"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:11:01.353106+00:00"
+"2026-10-04T20:16:53.231080+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -216,14 +186,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"e58f1eae775a225f40b2285ee7e9382d5afadbd3d452a62d5b30801bf55ad90f"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "A potter who cannot repay a loan is made to wash the merchant's feet before the whole bazaar. The poem holds the shame of the moment in full, the public degradation that binds the poor to the haveli as surely as any debt."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Artisan guilds and local public shame rituals in historical North India"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The economics of patronage: How debt repayment was often enforced through social humiliation rather than only through legal means"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,145 +57,115 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"The object as surrogate self: Focusing entirely on the discarded pottery shards, reading their fracture patterns and clay types as a metaphor for the potter's fragmented sense of self."
+"The inverted hierarchy: Viewing the procession not as a display of wealth by Gangaram, but as a brutal public performance orchestrated *for* his self-validation."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The audience composition shift: Analyzing who is watching—is it only the wealthy elite (the merchants) or does the humiliation also capture the morbid curiosity of children, dogs, or other marginalized observers?"
+"Material failure under scrutiny: Focusing on how the clay vessels meant to carry water or food (and thus represent sustenance) are visibly warped or cracked during the washing ritual."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"A reversal of action: Instead of washing feet *for* the merchant's benefit, imagine the potter performing a ritual washing for an object deemed sacred by the community but ignored by the haveli's residents."
+"The audience's complicity: Shifting focus from the potter's humiliation to the silent, judging eyes of bystanders who choose not to intervene, thereby becoming active participants in the degradation."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The narrow, dust-caked alleyway immediately outside the main bazaar gate, Desire: To pay off not the monetary debt, but a deeply personal favor owed to an adjacent shopkeeper (perhaps a spice vendor), Obstacle: The merchant intercepts the payment as a display of power, demanding the original humiliation ritual anyway., Turn: The potter uses discarded clay and water to create a sudden, vibrant splash that briefly obscures the main façade's fresco work."
+"Setting: The dusty main thoroughfare immediately outside the haveli gate; Desire: To capture the precise moment Gangaram stops, and the silence stretches so taut it feels brittle before the first word of humiliation is spoken."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A forgotten corner adjacent to the potters’ quarter, filled with drying pots, Desire: To appeal directly to the merchant's sense of familial duty or piety (invoking a deity connection), Obstacle: The merchant scoffs at religion, citing only profit margins as currency., Turn: The humiliation ritual forces the potter to reveal an unknown, perfect piece of pottery—a masterpiece accidentally overlooked amidst the failures."
+"Setting: A narrow, shadowed alleyway adjacent to the bazaar where the washing occurs; Desire: To focus intensely on a single drop of soapy water falling from the potter’s soiled garment onto dry earth, trapping that moment in suspended animation."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: A small gathering point near a roadside well, far from the main haveli entrance, Desire: To find an ally among the other impoverished workers who witnessed the event and can vouch for his worth., Obstacle: The witnesses are too scared of reprisal to speak up in unison., Turn: A child, acting purely out of empathy rather than obligation, breaks the tension by interrupting the ritual with a simple question."
+"Setting: The edge of the crowd watching, specifically focusing on one child who is observing but refuses to look directly at the spectacle, representing unarticulated moral judgment."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the loan not as an economic failure but as a breakdown of patronage—a collapse in the traditional social contract between patron and worker."
+"Reframing 'debt' as inherited shame: Suggesting that the potter’s indebtedness is not just financial, but a generational stain passed down through his family line."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Shifting focus from physical degradation (washing feet) to reputational damage: the stain on his name within the community network."
+"The fetishization of ritual cleaning: Treating the washing itself—the meticulous scrubbing of expensive slippers or fine cloth against rough-hewn stone—as a perverse act of devotion to commerce rather than hygiene."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Using the *pottery itself* as the evidence: detailing how the failure of the clay batch mirrors the failure of his financial arrangement."
+"Body as ledger: Presenting the potter's own body, bruised and subservient, as a living tally sheet where each gesture inscribes an unpaid account."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The specific, pale dust color that covers everything—the merchant's pristine robes, the potter’s bare ankles, and the drying glaze on a discarded amphora."
+"Smell: The sharp, acrid odor of cheap cleaning agents fighting against the pervasive scent of expensive oils used by the merchant’s attendants."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The wet, rhythmic *slosh* of water being poured repeatedly onto hard-baked earth floors, contrasting with the dry clack of ceremonial sandals."
+"Sound: The rhythmic *slosh* and *drag* of waterlogged clay pots being moved back and forth during the forced servitude, a sound utterly mundane yet deeply oppressive."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The unexpected slipperiness or slickness of river mud mixed into the soap base used for cleansing, making it difficult to keep balance."
+"Touch: The abrasive sting of coarse river sand or dried earth clinging to the soft skin on the exposed wrist or ankle."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were customary public penalty rituals in Shekhawati towns for professional debt default among artisans?"
+"What were the specific social codes regarding public debt acknowledgment and punitive measures for indebted craftspeople in mercantile communities of that region?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did the visibility of a merchant’s power structure (e.g., through clothing colors or specific jewelry) differ when he was performing an act of calculated humiliation versus celebrating success?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"Were there any known local materials, dyes, or clays used by potters that carried symbolic meaning distinct from their utilitarian value?"
+"Are there documented rituals involving cleansing or washing performed during commercial disputes in Rajputana history, distinct from religious rites?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A triptych structure: Segment 1 detailing the debt's accumulation; Segment 2 describing the public setting/audience; Segment 3 focusing only on the *physical act* of washing, slowed down to extreme minuteness."
+"The cyclical descent: Beginning with the grandeur visible just inside the haveli before plunging into the dirty reality outside."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Narrative shift: Beginning with the potter recounting a time when his craft *did* fulfill him (a memory), using that glow to contrast sharply with the dull ache of the present shaming."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"The procedural breakdown: Adopting the tone of an official record or ledger entry, detailing 'debt owed' and then methodically documenting each minute aspect of the enforced penance."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"Exploring the contrast between the permanence sought in frescoes (divinity) versus the transient nature of functional pottery (daily use)."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"Investigating if any other trades—weavers, metalworkers—had analogous public humiliation rites for debt default."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"The concept of 'performative poverty': Analyzing whether the shame was more about *performing* destitution than simply being destitute."
+"Linear compression: Using a rapid succession of short stanzas that mimic the jarring, panicked rush between moments of shame and momentary reprieve."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While earlier chapters dealt with visible structures (frescoes, stonework), this chapter roots the conflict in a perishable, liquid medium—water and mud—making the humiliation inherently transient yet deeply observed by an audience."
+"Unlike previous chapters focusing on material evidence (stone, grain), this chapter focuses entirely on enacted social trauma—the public body as currency. It centers on acute humiliation rather than structural decay or financial failure alone."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"1c609acc23244eeb6fc43d6ccc6fa9e6b5a81754ce1feba0b2a8bc14e66f9ecc"
+"48261f21a9689d52d5a2fff303ea2358f88bb93d3d9e47bbe746a9877024707d"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:09:12.592462+00:00"
+"2026-10-04T20:15:36.803097+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -234,14 +174,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"48261f21a9689d52d5a2fff303ea2358f88bb93d3d9e47bbe746a9877024707d"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

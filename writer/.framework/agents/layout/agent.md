@@ -120,6 +120,10 @@ Phase 2 returns:
 - Do **not** create or modify `workspaces/backlog/<bookname>/` files.
 - Do **not** run any filter agent or skill.
 - Do **not** write to `source/books/`.
-- Do **not** update `progress.json`.
+- Do **not** update the pipeline `progress.json` (the scaffold agent copies the backlog progress plan; runtime progress is recomputed by `sync_progress`).
 - Do **not** write `chapter.md` or any chapter content. The workshop filter may create the initial draft only when `chapter.md` is absent; later revisions belong to the write/chapter/poet path. Other filters record guidance in `model.json` and their own outputs only.
 - The Phase 2 output file is `workspaces/pipeline/<bookname>/override.txt` — distinct from the novel-only `masterprompt.md` planning artifact and from the backlog `override.txt`.
+
+## Note — Backlog Progress Plan
+
+The **init agent** (during `layout` / `init ... refresh`) creates `workspaces/backlog/<bookname>/progress.json` — a seeded progress plan copied from `.framework/templates/backlog/progress.json` and customized to the book's chapters. The **scaffold agent** copies that file verbatim into `workspaces/pipeline/<bookname>/progress.json` as the pipeline's initial progress state. This agent (layout) does not create or edit either progress file; it only consumes the book plan and produces the pre-layout plan and the post-scaffold master prompt.

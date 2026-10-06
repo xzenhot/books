@@ -134,30 +134,30 @@
       "chapter_number": 14,
       "topic": "The Apprentice's Question",
       "file_path": "chapters/14/chapter.md",
-      "written": false,
+      "written": true,
       "validated": false,
       "published": false,
-      "status": "pending",
+      "status": "written",
       "completed_date": null
     },
     {
       "chapter_number": 15,
       "topic": "The Price of Being Seen",
       "file_path": "chapters/15/chapter.md",
-      "written": false,
+      "written": true,
       "validated": false,
       "published": false,
-      "status": "pending",
+      "status": "written",
       "completed_date": null
     },
     {
       "chapter_number": 16,
       "topic": "The Poet Looks Upon His Life",
       "file_path": "chapters/16/chapter.md",
-      "written": false,
+      "written": true,
       "validated": false,
       "published": false,
-      "status": "pending",
+      "status": "written",
       "completed_date": null
     },
     {
@@ -201,9 +201,12 @@
       "completed_date": null
     }
   ],
-  "total_chapters": 20,
-  "written_chapters": 17,
+  "total_chapters": 10,
   "completed_chapters": 0,
-  "published": false,
-  "current_chapter": 14
+  "current_chapter": 1,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "fresco",
+  "form": "poetry"
 }

@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "During the monsoon festival the haveli briefly opens its wealth to the whole village, food and music spilling into the street. The poem captures the communal moment when the private mansion becomes, for one day, public ground."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Monsoon festival traditions in Rajasthan architecture"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The social contract between haveli ownership and community ritual space usage"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,145 +57,127 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"The functional architecture of festival spillover: Analyzing which structural elements (balconies, gates, courtyard paving) were specifically designed to handle transient public crowds, contrasting this with the private ritual spaces."
+"Focusing on a single remnant item—a wilted marigold garland or a discarded sweetmeats wrapper—that embodies the sudden transition from communal joy back to hushed isolation."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"A focus on the *transition* between celebration and silence: Spending most of the poem in the height of revelry, then dedicating the final third to the immediate post-festival exhaustion—the clean up, the quiet debris."
+"The memory of music shifting focus: Instead of the main ensemble, focusing on one lone, neglected instrument (like a dholak left leaning against the wall) and its dissonance after the crowd disperses."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The memory of specific communal sounds: Instead of general music, focusing hyper-specifically on one recurring sound that defines Teej (e.g., a particular rhythmic clapping pattern, the creak of shared wooden furniture, or a unique vendor's cry) and how that sound decays in time."
+"Framing the generosity as an economic necessity rather than pure charity: The temporary influx of village commerce into the haveli's grounds during the festival."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The main thoroughfare just outside the haveli gate during peak celebration; Desire: To observe one artisan who is meant to sell ritual goods but whose wares are inadequate for modern souvenir tastes, and Obstacle: A sudden, powerful downpour that forces an unplanned shelter shift."
+"setting: The deep, darkened well courtyard after the monsoon rains have subsided, desire: A forgotten scent of frying ghee remains trapped in the stone., obstacle: The water level has dropped significantly, exposing mud that smells earthy and stagnant., turn: An old woman from the village attempts to wash residual pigment traces off a wall with simple river water."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A specific window on a second-story balcony overlooking the crowded street; Desire: To watch a single family unit navigate the crowd—a mother protecting a child while haggling over food—and Obstacle: The owner of the haveli estate making a calculating, visible assessment of this small group's apparent poverty."
+"setting: One of the high upper-floor balconies overlooking the main gathering square, desire: The merchant's daughter tries to recapture the sound of the laughter., obstacle: A sudden gust of wind whips through, tearing at scraps of vibrant festival cloth left draped over a railing., turn: She finds an intricate silver bangle dropped during the revelry, now tarnished and silent."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The covered passageway connecting two neighboring mansions (if one exists); Desire: To discover secret graffiti or markings left by previous generations who passed through during Teej, detailing forgotten celebrations and hidden alliances."
+"setting: The main entry archway of the haveli, desire: A single servant tries to sweep up the last traces of discarded food., obstacle: His broom meets an obstacle—a dropped wedding slipper, deliberately left behind by a guest in haste., turn: He pauses, realizing the meticulous cleaning ritual is now futile against the evidence of spontaneous human joy."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the festive food stalls as temporary, mobile economies that critique the permanence of the haveli's stored wealth."
+"Examining how the visual vibrancy (color saturation) required for the Teej celebrations contrasts with the underlying permanence and fading nature of the permanent frescoes."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Examining the performance aspect: The festival elements (music, dance) not as joy, but as an elaborate annual labor contract renewing social debts between the powerful and the common people."
+"Treating the communal meal not as a feast, but as an act of temporary resource redistribution, showing who benefited most immediately from the spillover trade."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Focusing on ritual residue: Treating spilled colors, leftover flower garlands, or discarded ceremonial items as archaeological finds of ephemeral human connection."
+"Focusing on the sonic landscape: The momentary dominance of loud, celebratory folk music against the inherent quietude and heavy stone mass of the haveli structure."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Smell: The sharp, sweet clash of monsoon earth meeting freshly churned ghee oil."
+"The specific granular texture of monsoon-washed ochre pigment mixed with dust tracked onto polished marble floors."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The high-pitched, rhythmic ringing of brass ankle bells mixed with the deep resonance of a distant folk drum."
+"A sharp, metallic taste lingering in the air from discarded sugarcane juice residue left on a flagstone."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Sight: The unnatural saturation of color on textiles—the dyes appearing oversaturated and almost plastic under electric or heightened festive lighting."
+"The sound of slowly evaporating water dripping off heavily embroidered silk garments hung to dry after the festival."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the specific local food items traditionally consumed during Teej festivals in Mandawa, beyond general 'food'?"
+"What are documented regional variations in the post-festival cleanup rituals following major village/merchant gatherings in Shekhawati?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Were there any established protocols for which sections of a merchant's haveli could be opened to public use during major regional festivals?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"How did the economic status of the attending populace (merchants vs. craftsmen vs. local peasants) affect their participation in the festival rituals?"
+"How did local textile dye availability change or become temporarily saturated during the peak monsoon season for festivals like Teej?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured as a sequence of overheard conversations—bits and pieces from different attendees retelling memories of past festivals, which build into a fragmented whole."
+"A structure built entirely around circular memory fragments, each circle representing a different sound or smell from the day."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"The structure dictated by natural progression: Beginning with the quiet preparation (gathering materials days before), moving to the peak noise, and ending in the slow dispersal back to silence."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"A cyclical form mirroring monsoon patterns: Building tension during the 'wet' energy of the festival, reaching a climax, and resolving into a gradual return to an almost dry stillness."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The intersection of commercial goods with religious ritual items sold at the fair (e.g., selling high-end metalwork masquerading as sacred temple artifacts)."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"How seasonal water management during festivals stressed or highlighted the haveli’s internal plumbing and cistern systems."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"The role of gender in organizing public celebration space—is it a men's market, women's ritual domain, or genuinely shared?"
+"Beginning with the absolute quiet immediately following the dispersal, using rapid-fire short lines to mimic the lingering echoes of noise."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Where earlier chapters focused on accumulation (profit, objects) or rigidity (architecture), this poem must focus entirely on controlled, temporary expansion and sensory overload before a return to quiet decay."
+"This chapter differs by deliberately moving past the peak celebration and focusing on the charged residue—the silence and small discarded artifacts left behind after the grand public moment has passed."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"A direct comparison between the transient, perishable beauty of festival attire versus the hard-won permanence of architectural paint."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"Investigating the role of specific local musicians whose skills only emerge during these temporary social concessions."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"36ae320040f660b8cebe8b1197b2fd34d97013eb114e3a3815b9e83584a7d138"
+"94de2966e54dee0012639af46a2ba11bb1883761aea42265e177a7329c066e14"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:07:26.666107+00:00"
+"2026-10-04T20:14:11.818122+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -234,14 +186,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"94de2966e54dee0012639af46a2ba11bb1883761aea42265e177a7329c066e14"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

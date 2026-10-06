@@ -1,7 +1,7 @@
 {
   "chapter_index": 15,
   "name": "15",
-  "word_target": 80,
+  "word_target": 110,
   "chapter_title": "The Price of Being Seen",
   "chapter_summary": "The painter weighs the choice — to keep laboring unseen until the plaster cracks, or to step forward and reveal the struggle that gives the art its truth — and the poem counts the cost of each.",
   "further_references": [],
@@ -12,38 +12,40 @@
   ],
   "creative_enrichment": {
     "angles": [
-      "Viewing 'seeing' not as public recognition, but as the irreversible moment one’s own internal mechanisms—fear, doubt, hunger—are rendered external and visible.",
-      "Framing the decision through a strictly economic lens: calculating the risk-reward of visibility against the certainness of anonymous sustenance.",
-      "Presenting 'the cost' not in social exile or public censure, but as an ontological shift: the loss of one's capacity for pure, unburdened interiority."
+      "The artist choosing to become a deliberate *specter*—a figure seen only in the peripheral blur of memory, not sharp focus.",
+      "Reframing 'being seen' as an act of cultural violation: what does it mean for raw struggle to enter a highly curated space like the haveli?",
+      "Analyzing the language of disclosure: is confession (revealing the struggle) more honest or more destructive than silence?"
     ],
     "story_options": [
-      "Setting: The outer edge of the compound wall just before sunrise; Desire: To catch a single glimpse of the waking town (the beneficiaries) and decide whether that brief connection justifies the vulnerability; Obstacle: A sudden noise—a cart, a vendor’s shout—that snaps his resolve toward concealment.",
-      "Setting: The scaffold itself, near the final, critical section of color application; Desire: To deliberately smear a piece of preparation material onto the finished work as an act of silent protest/signature; Obstacle: A brief but intense surge of adrenaline when he realizes this small mark might be noticed by the early morning caretakers.",
-      "Setting: The tiny basin where cleaning water and pigment slurry are mixed during his final washdown; Desire: To mix a color so vibrant it demands attention, knowing that excess brilliance is inherently provocative; Obstacle: The water temperature suddenly drops, forcing him to pause in an almost defenseless posture."
+      "Setting: The doorway leading out from the darkened studio alcove. Desire: To look back at the accumulated, beautiful frescoes—a tapestry of self-sacrifice. Obstacle: A sudden, sharp realization that to speak is to invite scrutiny.",
+      "Setting: High on the scaffold, against a backdrop of indifferent desert night sky. Desire: The painter imagines his life's hidden labor as smoke rising from a dying fire. Obstacle: The wind changes direction, blowing away his meticulously gathered pigment dust.",
+      "Setting: By the small, chipped clay jug holding water and binding agents. Desire: To mix a fresh batch of color, but stop short of applying it; an act of suspended will. Obstacle: A specific, high-pitched sound from below—a vendor's call that pulls him toward visibility."
     ],
     "subject_rotations": [
-      "Focusing entirely on the language of negotiation or argument (internal monologue) as a substitute for physical action—the debate between silence and speech.",
-      "Treating 'seeing' metaphorically: not human eyes, but the eye of history or posterity judging his choices from afar.",
-      "A dialectical poem where one half argues for perpetual obscurity (comfort/safety) and the other demands radical disclosure (truth/meaning)."
+      "Shifting the focus from the *choice* to the *inertia* of the choice—the physical difficulty of breaking a decades-long pattern of silence.",
+      "Examining 'truth' not as revelation, but as entropy: what is lost when truth degrades the surface beauty?",
+      "Contemplating the difference between acknowledged suffering (visible hardship) and inherent struggle (invisible process)."
     ],
     "sensory_details": [
-      "The sharp smell of drying plaster meeting the sweet, damp scent of night-blooming jasmine clinging to the haveli walls.",
-      "The dull ache in the diaphragm from holding breath while balancing on unstable scaffolding supports for long periods.",
-      "A single drop of concentrated blue pigment running down a fingertip and leaving an iridescent trail on his palm."
+      "The metallic tang of copper oxide dust mixed with sweat on the painter's fingertips.",
+      "The sound of dried plaster settling in micro-creaks, like an ancient sigh under pressure."
     ],
     "research_questions": [
-      "What specific social rituals or taboos existed within Shekhawati merchant culture regarding public display versus private endeavor?",
-      "How did concepts of artistic patronage in this period balance the requirement for anonymity against the desire for familial or civic pride?"
+      "How did historical conceptions of spiritual endurance within Marwari artisan communities relate to the necessity of anonymity in highly public artistic displays?"
     ],
     "structural_variants": [
-      "A sustained, rhetorical questioning sequence that builds tension through escalating internal stakes.",
-      "Juxtaposing two physical locations (the cramped scaffold vs. a distant window) to represent the polarized choices available to him."
+      "A slow build where each repeated phrase gains a subtle, irreversible negative connotation (e.g., 'I hold,' moves from contemplation to restraint).",
+      "Alternating stanzas between precise technical observation (the chemistry of the color) and expansive metaphysical anxiety."
     ],
-    "variety_note": "Unlike Chapter 13's somatic focus and Chapter 7's regret over materials, this poem hinges on a high-stakes ethical calculus: action versus inertia, visibility versus survival."
+    "unused_angles": [
+      "The specific psychology of public perception in a conservative, mercantile society.",
+      "A micro-analysis of how light behaves differently when illuminating highly perfected vs. rough, unfinished surfaces."
+    ],
+    "variety_note": "Unlike the focus on external pressures (Chapter 12) or physical toll (Chapter 13), this chapter centers solely on an internal pivot point—the moment potential action meets paralyzing self-preservation."
   },
   "draft": {
-    "sha256": "463ae3f700e4826e79c360b4b9952c80ae81b773454aa9a620107e428e28fb53",
-    "written_at": "2026-10-04T19:12:39.723911+00:00",
+    "sha256": "3de928f8367be1b5bc7359a10ee15477555f470ff25b2539d07edefec5129272",
+    "written_at": "2026-10-04T19:53:26.681265+00:00",
     "origin": "write"
   }
 }

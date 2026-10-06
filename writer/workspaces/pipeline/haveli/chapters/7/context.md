@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The moment the clerk tastes wealth and finds it sweeter than anything his village ever promised. The poem captures the exact turning point when enough becomes the enemy, and the man begins to want more than a body can hold."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Historical documentation of early merchant accounting practices in Rajasthan."
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Cultural understanding of oaths and debts outside formal written law among trading castes."
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,143 +57,119 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"The immediate, visceral physical reaction to the first large sum: the weight in the gut, the sudden inability to sit still, or the hyper-awareness of every single coin's metallic density."
+"The internal auditory landscape of the merchant: focusing on how the sound of coins striking a heavy ledger sheet becomes an obsession, drowning out all other sensory input."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Framing the 'profit' not as a number on paper, but as a disruption to a deeply established routine—the perfect rhythm of poverty suddenly shattered by glittering imbalance."
+"A structural focus on disproportion: contrasting the small, humble physical space of the clerk's original quarters against the rapidly inflating volume and complexity of his newly acquired capital."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Viewing the profit through the eyes of someone outside the transaction (a servant or an elderly parent) who understands value in sustainable scarcity, rather than explosive excess."
+"The psychological weight of *possibility*: portraying not the arrival of wealth itself, but the terrifying, unbounded nature of what that new financial freedom now permits him to do."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A dimly lit merchant's room after a successful exchange; Desire: To prove to his skeptical elder that this new wealth is stable and legitimate through a specific, visible act of communal generosity (e.g., buying the best ghee for all neighbors); Obstacle: The inherent skepticism in the community regarding sudden affluence."
+"setting: A cramped merchant counting house under a single sputtering oil lamp., desire: Gangaram desires the exact calculation of his margin—the final digit confirming untouchable surplus., obstacle: The relentless, sharp *clink* of the coins becoming an overwhelming, deafening presence in the small room., turn: He stops counting and starts listening to the echo of those sounds bouncing off the bare walls."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A local spice market where commodities are traded by weight and smell; Desire: To pay for something trivial but luxurious—a single, perfect saffron strand or a specific type of wood dye—using only the first profit; Obstacle: The stall owner's casual refusal to accept this new level of wealth as currency."
+"setting: A dust-choked threshold leading into a newly acquired storage area., desire: The clerk seeks permission from his own memory (his prior, humble self) to validate this new weight., obstacle: The physical inability of the old doorway—once suitable for a mere ledger book—to contain the metaphorical mass of his profit., turn: He realizes that true wealth isn't in what he holds, but in how much space it now requires."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Standing outside the newly bought plot of land (referencing Chapter 8); Desire: To perform an overly elaborate, public ritual 'sanctioning' the ground with the scent of its first major expenditure; Obstacle: The realization that the blessing is hollow without established roots or history."
+"setting: A marketplace corner just after closing hours., desire: To test the feel of this new prosperity against the public pulse; to *taste* its acceptance., obstacle: The sudden, unnerving silence of the market once the day's frantic bartering has ceased, leaving him isolated with his intangible gain., turn: He finds the scent of yesterday’s spice stalls overwhelming, and for a moment, it smells cheaper than gold."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the profit as a form of visible social performance—a necessary display to cement reputation rather than an end in itself."
+"Treating the profit as an invading entity—something external that consumes the clerk's old sense of self."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing intensely on the bookkeeping mechanics: not the total sum, but the painstaking, almost ritualistic recording of every single component that contributed to it (the labor hours, the tariff paid, etc.)."
+"Focusing on the mathematics of appetite: how accounting transitions from a tool for survival to an engine for endless consumption/acquisition."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Examining the *exchange* of the profit: what did he have to give up, emotionally or relationally, in order to acquire this specific amount?"
+"Interrogating the nature of 'sweetness': is the taste truly in the *money* (the transaction) or in the *freedom* (the potential it unlocks)?"
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The startling glint off brass coins stacked unevenly against dark, polished teakwood."
+"The high, sustained whine of friction as a stack of heavy cloth bills slides across a polished wooden counter."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The high-pitched, almost painful *clink* of multiple different denominations of currency colliding together for the first time."
+"The acrid, metallic smell of newly minted copper coins mingling with old parchment dust."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: A cloying mix of wet ink from fresh ledger entries mixed with the dry scent of newly handled foreign fabrics."
+"The specific sensation of the skin tightening painfully under clothing after weeks of intense mental focus on numbers."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the actual visual representations or symbolic markers used in Marwari accounting ledgers to denote significant financial milestones?"
+"What were common vernacular terms in Marwari commerce for sudden, unexpected windfalls or exponential growth?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Were there any customary local 'acknowledgments' or public gestures required when a merchant crossed a certain level of disposable wealth?"
+"How did 18th/19th-century trade records physically denote margin vs. principal investment to imply perceived value?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A structure moving from Macro (the vastness of the market) $\rightarrow$ Meso (the transaction with key players) $\rightarrow$ Micro (touching and examining the first coin in hand)."
+"A poem structured as an accelerating rhetorical question sequence that dissolves into a single, definitive statement."
 ```
 
-## $["creative_enrichment"]["unused_angles"][0]
+## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"The psychological relationship between debt repayment and true personal solvency."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"How the perception of 'profit' changes when dealing with goods that have no tangible market value (e.g., reputation, political favour)."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"A focus on the specific physical objects used in transactions: the counting tray, the inkpot, the specific seal impression."
+"A fragmented lyric structure where each stanza is anchored by one specific financial term (e.g., 'margin,' 'asset,' 'liability')."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While previous chapters established *accumulation* through journey and raw material, this chapter must pinpoint the critical moment of subjective valuation—the transition from mere wealth to perceived, intoxicating success."
+"Where preceding chapters established the *means* of accumulation (trade goods, land), this poem focuses sharply on the internal, almost alchemical moment when the abstract number converts into subjective power."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"a581efcb8461079a9b9960b52e05152b64609d608623975a33e86d8bbfd5eed7"
+"6f74b4626b2d206af96f083b886ba4710186b3738791234caa9f7a0d766d5630"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:02:41.364213+00:00"
+"2026-10-06T11:39:30.268312+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

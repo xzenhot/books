@@ -1,87 +1,50 @@
 {
   "chapter_index": 27,
   "name": "27",
-  "word_target": 500,
+  "word_target": 110,
   "chapter_title": "The Wedding Season",
   "chapter_summary": "Marriages are celebrated with ghee and marigold in the painted courtyards, the haveli at its most alive. The poem lingers on the scent and the music, the weddings whose fragrance will outlast the memory of anyone who attended.",
-  "further_references": [
-    {
-      "no": "1",
-      "reference": "Traditional wedding music instrumentation specific to Marwari regions (e.g., specialized flutes or drums)",
-      "weblink": ""
-    },
-    {
-      "no": "2",
-      "reference": "Historical costs associated with bridal trousseaus and decorative elements in 19th-century Rajasthan",
-      "weblink": ""
-    },
-    {
-      "no": "3",
-      "reference": "The social function of wedding patronage by powerful merchant families beyond mere display",
-      "weblink": ""
-    }
-  ],
+  "further_references": [],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "The transactional cost perspective: Examining the marriage celebration not as joy, but as a large-scale investment exchange where every expenditure is calculated profit/loss.",
-      "Focusing on discarded wedding paraphernalia: Treating veils, garlands, and temporary decorations like industrial waste that tells a story of sudden abundance rather than lasting permanence.",
-      "The perspective of hired labor *during* the festival: Centering entirely on the musicians, caterers, or decorators whose livelihoods depend on this single season's expenditure."
+      "Focusing on the *silence* between notes: The musical gaps in a wedding procession—the moment the musician stops before starting again, embodying pause and waiting.",
+      "The contrast between the highly stylized, permanent paintwork (tradition) and the ephemeral nature of the temporary celebrations (humanity).",
+      "Shifting the focus entirely from the joy to the implied economic burden: The weight of dowries and required displays as a silent tax on both families involved."
     ],
     "story_options": [
-      "setting: The main courtyard after a wedding procession has cleared;",
-      "desire: To find one piece of discarded symbolic material (a unique thread, a forgotten scent) that contradicts the outward splendor., obstacle: The relentless sweep of servants clearing away all traces of the celebration, maintaining the illusion of order., turn: This small remnant triggers a memory or revelation about the *real* cost to one specific family unit involved in the ceremony.",
-      "setting: A quiet corner where music instruments are stored after an evening function;",
-      "desire: To examine a single, broken component of musical apparatus (a snapped reed, a dull string)., obstacle: The realization that the failure of this small tool symbolizes the temporary nature of all amassed wealth and joy., turn: A lingering silence punctuated by a sound *not* related to music—the creak of old wood or settling dust.",
-      "setting: Near the kitchens responsible for feeding hundreds during the festivities;",
-      "desire: To observe the waste output: the discarded scraps of food, spices, and biodegradable decorations., obstacle: The juxtaposition between the feast's excess and the meager reality outside the haveli gates at dawn., turn: A single surviving ingredient (e.g., a perfect, unblemished saffron strand) suggests an untapped or overlooked source of value."
+      "Setting: The narrow gallery overlooking the main courtyard, desire: A young bride catches sight of an old portrait fresco depicting her ancestors in wedding attire, obstacle: She recognizes one family she never knew about.",
+      "Setting: Outside the haveli gates during a processional return to the mansion, desire: Gangaram's wife watches the groom arrive; his chariot wheels momentarily jam in wet mud from recent monsoon runoff, obstacle: The delay exposes the raw mechanics of his wealth, not just its splendor.",
+      "Setting: Inside the servant quarters adjacent to the main hall during a feast, desire: A cook meticulously arranges the final marigold offering, but finds an heirloom piece of silver belonging to a previous family used as decoration, obstacle: She hesitates to place it among the new finery."
     ],
     "subject_rotations": [
-      "Treating the celebration as a form of temporary economic inflation: How does spending all this excess wealth signal strength when that money must come from finite sources?",
-      "Focusing solely on the materials involved in clothing exchanges for weddings, detailing dye processes and embroidery costs rather than the ceremony itself.",
-      "Shifting the focus from grand spectacle to intimate moments witnessed by peripheral characters—the aged domestic help, the visiting relatives who are not central to the plot."
+      "Treating the wedding not as a social event, but as a meticulously choreographed *performance* mandated by mercantile honor.",
+      "Examining the symbolism of specific color combinations in bridal attire against the backdrop of the permanent painted palette of the home.",
+      "Focusing on the logistics of preparation—the endless repetition of grinding spices, polishing silver trays until they gleam unnaturally bright."
     ],
     "sensory_details": [
-      "Sight: The precise geometric pattern of spilled marigold petals mixing with dried stains of turmeric.",
-      "Sound: The rhythmic, slightly off-key laughter echoing from an enclosed space after the main crowd has dispersed.",
-      "Smell: A layered scent profile containing sweet ghee overlaid by the sharp, chemical tang of newly dyed fabric."
+      "The high, brittle sound of dried turmeric dust scattering as a heavy ceremonial vessel is moved across polished stone (Sound).",
+      "The deep, waxy odor of clarified ghee mixed with the sharp, green-tinge scent of new marigold petals crushed underfoot (Smell/Touch).",
+      "The blinding reflection of oil lamp flames caught in intricate silver jewelry during a nighttime ritual dance (Sight)."
     ],
     "research_questions": [
-      "What were the customary symbolic objects or specific textiles associated with a 'successful' marriage in this region that are now lost or undervalued?",
-      "Were there specific timings or weather patterns considered auspicious or detrimental to wedding celebrations, and how did that affect planning?",
-      "How was payment for the services (music, feast preparation) structured after such large gatherings—was it immediate cash, debt repayment deferred until a harvest, or barter?"
+      "What specific regional musical motifs were customarily used during high-status Marwari wedding celebrations in Shekhawati?",
+      "Are there documented patterns regarding the social exchange (dowry/gifts) that correlated with the perceived opulence of a haveli's display?"
     ],
     "structural_variants": [
-      "A structure built around three acts: Preparation (the accumulation of goods), Climax (the event itself), and Aftermath (the sudden deflation back to quiet routine).",
-      "Interweaving narratives: Alternating between the high-energy 'public' view of the wedding celebration and private moments of negotiation or melancholy within a single family.",
-      "A poem written in fragmented, epigrammatic bursts that mimic scattered memories, punctuated by one sustained, detailed sensory immersion."
+      "A sequence built around overlapping temporal layers: The present festival overlaying historical wedding frescoes, suggesting echoes.",
+      "A circular structure where every image or sound eventually circles back to an initial, silent moment of waiting.",
+      "Using a fragmented narrative composed only of overheard snippets of conversation—blessings, boasts, quiet arguments—gathered during the event."
     ],
-    "variety_note": "Where earlier chapters focused on accumulation (profit) or established grandeur (frescoes), this chapter must focus on the high-cost *expenditure* of joy—a controlled moment of unsustainable public excess."
+    "variety_note": "Unlike the focus on physical wealth display (Chapters 25/29) or personal hardship (Chapter 36), this chapter concentrates solely on controlled, ephemeral communal celebration and its sensory excess."
   },
   "draft": {
-    "sha256": "5a25fdff8dad93ee0fbe98b4bea83d1bd8b3af797ac8b77e75bce5cc62ffc12d",
-    "written_at": "2026-10-04T03:51:49+00:00",
-    "origin": "humanize"
-  },
-  "humanized": true,
-  "humanized_at": "2026-10-04T03:51:49+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "5a25fdff8dad93ee0fbe98b4bea83d1bd8b3af797ac8b77e75bce5cc62ffc12d",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-10-04T03:53:58+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
+    "sha256": "9859455922e3dcb054c015ed1b584f59c4c5e6fb3e5855447c72cc1cc27a4876",
+    "written_at": "2026-10-06T11:49:28.345076+00:00",
+    "origin": "write"
   }
 }

@@ -208,6 +208,27 @@ def resolve_book_form(bookname):
     return str(form)
 
 
+def resolve_model(bookname, default=MODEL):
+    """Resolve the Ollama model name from the book's progress.json.
+
+    Reads `workspaces/pipeline/<bookname>/progress.json` → `model` (falling
+    back to `book.json` → `model`, then the module default).
+    """
+    pipeline = REPO_ROOT / "workspaces" / "pipeline" / check_bookname(bookname)
+    for name in ("progress.json", "book.json"):
+        f = pipeline / name
+        if not f.is_file():
+            continue
+        try:
+            data = json.loads(f.read_text(encoding="utf-8-sig"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        model = data.get("model")
+        if isinstance(model, str) and model.strip():
+            return model.strip()
+    return default
+
+
 def regenerate_style_md(bookname, book):
     """Ensure the pipeline style.md exists and regenerate it from the current book.
 
@@ -834,7 +855,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
     parser.add_argument("--seed", type=int,
                         help="Run seed; chapter seeds, lenses, and twists derive from it.")
     parser.add_argument("--lens", help="Force one lens for every selected chapter.")
-    parser.add_argument("--model", default=MODEL, help="Ollama model name (default: %(default)s).")
+    parser.add_argument("--model", default=None, help="Ollama model name (default: from progress.json, else %(default)s).")
     parser.add_argument("--temperature", type=float, default=DEFAULT_TEMPERATURE,
                         help="Sampling temperature (default: %(default)s).")
     parser.add_argument("--dry-run", action="store_true",
@@ -868,6 +889,9 @@ Writes:  only the target model.json; chapter.md is never read or written.
     except ValueError as error:
         parser.error(str(error))
 
+    # Resolve the model: CLI override → progress.json → default.
+    model_name = args.model or resolve_model(args.bookname)
+
     # Load every chapter model once so neighbours can be compared with each other.
     models = {}
     for number in parse_chapter_input("all", chapters_root):
@@ -882,7 +906,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
         try:
             results.append(enrich_chapter(_chapter_file(chapters_root / str(number)), book, models,
                                           args.show_prompt, args.seed, args.lens,
-                                          args.temperature, args.model))
+                                          args.temperature, model_name))
         except Exception as error:
             print(f"[{number}] FAILED: {error}", file=sys.stderr)
             failures += 1

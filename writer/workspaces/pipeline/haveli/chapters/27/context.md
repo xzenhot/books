@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,58 +30,10 @@
 "Marriages are celebrated with ghee and marigold in the painted courtyards, the haveli at its most alive. The poem lingers on the scent and the music, the weddings whose fragrance will outlast the memory of anyone who attended."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Traditional wedding music instrumentation specific to Marwari regions (e.g., specialized flutes or drums)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Historical costs associated with bridal trousseaus and decorative elements in 19th-century Rajasthan"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][2]["no"]
-
-```json
-"3"
-```
-
-## $["further_references"][2]["reference"]
-
-```json
-"The social function of wedding patronage by powerful merchant families beyond mere display"
-```
-
-## $["further_references"][2]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -93,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -105,145 +57,121 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"The transactional cost perspective: Examining the marriage celebration not as joy, but as a large-scale investment exchange where every expenditure is calculated profit/loss."
+"Focusing on the *silence* between notes: The musical gaps in a wedding procession—the moment the musician stops before starting again, embodying pause and waiting."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Focusing on discarded wedding paraphernalia: Treating veils, garlands, and temporary decorations like industrial waste that tells a story of sudden abundance rather than lasting permanence."
+"The contrast between the highly stylized, permanent paintwork (tradition) and the ephemeral nature of the temporary celebrations (humanity)."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The perspective of hired labor *during* the festival: Centering entirely on the musicians, caterers, or decorators whose livelihoods depend on this single season's expenditure."
+"Shifting the focus entirely from the joy to the implied economic burden: The weight of dowries and required displays as a silent tax on both families involved."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"setting: The main courtyard after a wedding procession has cleared;"
+"Setting: The narrow gallery overlooking the main courtyard, desire: A young bride catches sight of an old portrait fresco depicting her ancestors in wedding attire, obstacle: She recognizes one family she never knew about."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"desire: To find one piece of discarded symbolic material (a unique thread, a forgotten scent) that contradicts the outward splendor., obstacle: The relentless sweep of servants clearing away all traces of the celebration, maintaining the illusion of order., turn: This small remnant triggers a memory or revelation about the *real* cost to one specific family unit involved in the ceremony."
+"Setting: Outside the haveli gates during a processional return to the mansion, desire: Gangaram's wife watches the groom arrive; his chariot wheels momentarily jam in wet mud from recent monsoon runoff, obstacle: The delay exposes the raw mechanics of his wealth, not just its splendor."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"setting: A quiet corner where music instruments are stored after an evening function;"
-```
-
-## $["creative_enrichment"]["story_options"][3]
-
-```json
-"desire: To examine a single, broken component of musical apparatus (a snapped reed, a dull string)., obstacle: The realization that the failure of this small tool symbolizes the temporary nature of all amassed wealth and joy., turn: A lingering silence punctuated by a sound *not* related to music—the creak of old wood or settling dust."
-```
-
-## $["creative_enrichment"]["story_options"][4]
-
-```json
-"setting: Near the kitchens responsible for feeding hundreds during the festivities;"
-```
-
-## $["creative_enrichment"]["story_options"][5]
-
-```json
-"desire: To observe the waste output: the discarded scraps of food, spices, and biodegradable decorations., obstacle: The juxtaposition between the feast's excess and the meager reality outside the haveli gates at dawn., turn: A single surviving ingredient (e.g., a perfect, unblemished saffron strand) suggests an untapped or overlooked source of value."
+"Setting: Inside the servant quarters adjacent to the main hall during a feast, desire: A cook meticulously arranges the final marigold offering, but finds an heirloom piece of silver belonging to a previous family used as decoration, obstacle: She hesitates to place it among the new finery."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the celebration as a form of temporary economic inflation: How does spending all this excess wealth signal strength when that money must come from finite sources?"
+"Treating the wedding not as a social event, but as a meticulously choreographed *performance* mandated by mercantile honor."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing solely on the materials involved in clothing exchanges for weddings, detailing dye processes and embroidery costs rather than the ceremony itself."
+"Examining the symbolism of specific color combinations in bridal attire against the backdrop of the permanent painted palette of the home."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Shifting the focus from grand spectacle to intimate moments witnessed by peripheral characters—the aged domestic help, the visiting relatives who are not central to the plot."
+"Focusing on the logistics of preparation—the endless repetition of grinding spices, polishing silver trays until they gleam unnaturally bright."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The precise geometric pattern of spilled marigold petals mixing with dried stains of turmeric."
+"The high, brittle sound of dried turmeric dust scattering as a heavy ceremonial vessel is moved across polished stone (Sound)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The rhythmic, slightly off-key laughter echoing from an enclosed space after the main crowd has dispersed."
+"The deep, waxy odor of clarified ghee mixed with the sharp, green-tinge scent of new marigold petals crushed underfoot (Smell/Touch)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: A layered scent profile containing sweet ghee overlaid by the sharp, chemical tang of newly dyed fabric."
+"The blinding reflection of oil lamp flames caught in intricate silver jewelry during a nighttime ritual dance (Sight)."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the customary symbolic objects or specific textiles associated with a 'successful' marriage in this region that are now lost or undervalued?"
+"What specific regional musical motifs were customarily used during high-status Marwari wedding celebrations in Shekhawati?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Were there specific timings or weather patterns considered auspicious or detrimental to wedding celebrations, and how did that affect planning?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"How was payment for the services (music, feast preparation) structured after such large gatherings—was it immediate cash, debt repayment deferred until a harvest, or barter?"
+"Are there documented patterns regarding the social exchange (dowry/gifts) that correlated with the perceived opulence of a haveli's display?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A structure built around three acts: Preparation (the accumulation of goods), Climax (the event itself), and Aftermath (the sudden deflation back to quiet routine)."
+"A sequence built around overlapping temporal layers: The present festival overlaying historical wedding frescoes, suggesting echoes."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Interweaving narratives: Alternating between the high-energy 'public' view of the wedding celebration and private moments of negotiation or melancholy within a single family."
+"A circular structure where every image or sound eventually circles back to an initial, silent moment of waiting."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][2]
 
 ```json
-"A poem written in fragmented, epigrammatic bursts that mimic scattered memories, punctuated by one sustained, detailed sensory immersion."
+"Using a fragmented narrative composed only of overheard snippets of conversation—blessings, boasts, quiet arguments—gathered during the event."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Where earlier chapters focused on accumulation (profit) or established grandeur (frescoes), this chapter must focus on the high-cost *expenditure* of joy—a controlled moment of unsustainable public excess."
+"Unlike the focus on physical wealth display (Chapters 25/29) or personal hardship (Chapter 36), this chapter concentrates solely on controlled, ephemeral communal celebration and its sensory excess."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"b76e5871c22175b26f24fd3d18f757c4ee89c05e34e235dc49805e9df2c790fd"
+"0e8e6294b6e90184e8505acbfe9c155a8411484e117bc43ee694dd4d717f9531"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:07:40.435627+00:00"
+"2026-10-04T20:14:21.758746+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -252,14 +180,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"0e8e6294b6e90184e8505acbfe9c155a8411484e117bc43ee694dd4d717f9531"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

@@ -97,12 +97,88 @@ Every image belongs to one of five connected families. *The families are the str
 
 ## 11. Writing Checklist
 
-| Element | Target Specification |
+| Element | Target |
 |---|---|
-| **Register** | Dense, elevated diction re-keyed to the book's own loaded vocabulary |
-| **Voice** | First-person, confessional, self-accusing, incantatory |
-| **Imagery** | Re-derived from the book's thematic core, not the corpus's default lexicon |
-| **Collision** | The elevated and the crude named in the same breath |
-| **Form** | Prose block or broken lines; long enjambed sentences; aggressive anaphora |
-| **Closure** | Unresolved — rhetorical question, paradox, or circular return |
-| **Subject independence** | The subject varies freely; the Desh pattern persists |
+| **Register** | Seasoned, resonant Bengali — learned and everyday in balance; *tatsama* sparing, re-keyed to the subject |
+| **Voice** | First-person, confessional, seasoned, quietly self-accusing, dryly humorous |
+| **Imagery** | Primary: desk/manuscript, city/desh, aging body/memory, recognition. Secondary (reserve): corpse/serpent/cosmos |
+| **Experience** | Ground the poem in a lifetime — thinking, living, conflict, pain, failure, understanding, awards |
+| **Collision** | The elevated and the crude named in the same breath — placed, not sprayed |
+| **Transgression** | Rationed — a plain word when it earns the moment, never a default |
+| **Form** | Prose block or line-broken; long enjambed sentences; anaphora used with restraint |
+| **Closure** | Unresolved — a rhetorical question, a paradox, or a circular return |
+| **Line breaks** | Have line breaks — line length varies by the material |
+| **Adjectives & tatsama** | Use more adjectives; keep ~10% of the words *tatsama* |
+| **Rare / nominalized words** | Use rarely-used words — verb-turned-nouns and adjective-turned-nouns at ~10% |
+| **Subject independence** | The subject varies freely; the veteran's voice persists |
+
+---
+
+## 12. More Characteristics — The Subject Palette (Kolkata & Bengal)
+
+When the book's subject is a **normal poetry subject** (not tantric-mythological), the
+Desh voice draws on these fifteen characteristics, each grounded in the lived reality
+of Kolkata and West Bengal. Each one names a pressure that *shifts preference* and a
+corresponding *poetic impact*. Treat them as a palette, not a checklist: re-key each
+one to the book's own material, exactly as §4 re-keys the lexicon. The collision (§2),
+self-accusation (§3), and open ending (§8) still govern how each is rendered.
+
+1. **Nostalgia (The Internal Archive)**
+   * **How it shifts preferences:** When Kolkata's speed and concrete press in, the mind retreats backward — away from the metro and the glass and toward the smell of a monsoon-wet *para*, the taste of a childhood *phuchka*, an old *thakur-dalan* where puja was once held.
+   * **Poetic impact:** The present becomes a ghost of itself; the narrator trusts memory more than the city that now stands in its place.
+
+2. **Diaspora & Displacement (The In-Between State)**
+   * **How it shifts preferences:** The Partition refugee, the migrant from Murshidabad or the Sundarbans, the worker who left the village for Salt Lake — each is hyper-aware of outsider status. Preferences shift toward finding one's own *para*, one's own dialect, one's own *bhaat* in a strange kitchen.
+   * **Poetic impact:** A split identity — half the mind in the Howrah-bound crowd, the other half still walking a village path by the *khal*.
+
+3. **Syntax & Linguistic Texture (The Rhythm of Thought)**
+   * **How it shifts preferences:** The clipped, transactional Bengali of the office and the bazaar forces language into commerce. Against this, the poet's preference shifts toward the slow, winding, *adda*-shaped sentence — the breath of a long conversation that refuses to end.
+   * **Poetic impact:** Syntax becomes a shield; how the sentence is built matters more than what it says, armor against the vulgarity of speed.
+
+4. **Inclination to the Mother Tongue (The Return to Native Weight)**
+   * **How it shifts preferences:** After years of borrowed or corporate speech, a sudden pull toward the idioms of home — the *khari boli* of the street, the *sadhubhasha* of the old book, the *dhool* of a summer road, the *jol* of the monsoon.
+   * **Poetic impact:** Language stops being mere communication and becomes emotional reclamation, a return to the weight the mother tongue alone can carry.
+
+5. **The Monsoon & The Land (The Wet Ground of the Soul)**
+   * **How it shifts preferences:** The Bengal monsoon — the *kalboishakhi*, the flooded lane, the smell of wet earth rising off the *maidan* — reshapes tolerance. Preferences shift toward moisture, shade, the *joler* sound of a *shankh* at dusk, the cool of a rain-darkened veranda.
+   * **Poetic impact:** The monsoon becomes a character; its wetness mirrors the narrator's feeling, drenching and drowning the poem at once.
+
+6. **The Great Migration & the Village Cord (The Root That Will Not Cut)**
+   * **How it shifts preferences:** The move from village to city — from *bhag* and *bil* to a rented room — pushes preference toward survival, cheap *bhati*, temporary work, while the heart stays tethered to the village square and the family left behind.
+   * **Poetic impact:** It holds the guilt of the one who left aging parents for a distant wage, the mass sorrow of a land emptying into the city.
+
+7. **The Babu–Bhadralok Split (The Polished Façade vs. the Inherited Order)**
+   * **How it shifts preferences:** The *bhadralok* wears a modern, secular, professional face by day, but at night retreats into the old grammar of family, caste, and *bonedi* expectation.
+   * **Poetic impact:** Exposes the hypocrisy of a progress that still kneels to the old order behind closed doors.
+
+8. **The Smog, the Ganga & the Choked Water (The Suffocated Element)**
+   * **How it shifts preferences:** The river — at once sacred and sewage — and the winter smog make the open air a hazard; preference shifts toward sealed rooms and a breath that is watched and measured.
+   * **Poetic impact:** A shared, slow-poisoned feeling — the Ganga itself a wound, the sky a grey ceiling of civic and ecological apathy.
+
+9. **The Competitive Rat Race (The Marks-and-Merit Trap)**
+   * **How it shifts preferences:** Childhood is stripped of play for coaching classes, rank lists, the coveted government job; youth is measured in marks, not in living.
+   * **Poetic impact:** Illuminates the burnout of a generation whose whole worth is reduced to a percentage on a mark-sheet.
+
+10. **The Elite–Pavement Divide (The Mansion vs. the Footpath)**
+    * **How it shifts preferences:** Between the grand *rajbari*-style mansion and the footpath where the poor sleep, a person learns to navigate two worlds — currying favor with the protected, or accepting invisibility at the margin.
+    * **Poetic impact:** Sharp lines of anger against a system that raises palaces for the powerful while the labor that built them goes thirsty and unpaid.
+
+11. **The Linguistic Alienation (English vs. the Mother Tongue's Pride)**
+    * **How it shifts preferences:** Social anxiety in polished rooms makes a person either overcompensate in a broken borrowed tongue or retaliate with a defensive pride in Bengali and its regional music.
+    * **Poetic impact:** The humiliation of being an outsider in one's own land, shut out by a class-and-language gate.
+
+12. **The Historical Amnesia (Walking Over the Old City)**
+    * **How it shifts preferences:** The city forgets its own layers — the *zamindari* ruin, the Partition's shadow, the forgotten *goli* — preferring fast entertainment and the mall over the past beneath the feet.
+    * **Poetic impact:** The numbness of walking over centuries of a city's dead and destroyed, without ever looking down.
+
+13. **The Consumerist Illusion (Debt and the Show of Arrival)**
+    * **How it shifts preferences:** Community and peace are traded for loans, a flashy lifestyle, and branded things meant to impress strangers.
+    * **Poetic impact:** The middle-class exhaustion of pretending to have arrived in a world that prices a person by what they can buy.
+
+14. **The Festival–Decay Paradox (Devotion vs. the River's Poison)**
+    * **How it shifts preferences:** The *puja*, the *kirtan*, the loud public *arati* — people seek catharsis in celebration even as they look away from the river's poison and the collapsing city around the pandal.
+    * **Poetic impact:** The whiplash of holding deep faith while wading through structural decay — devotion and ruin in the same breath.
+
+15. **The Public Rage & Street Cynicism (The Breaking Point)**
+    * **How it shifts preferences:** Faith in institutions is abandoned; preference shifts toward cynicism, *jugaad*, and a stubborn self-reliance against civic failure and the rigged game.
+    * **Poetic impact:** The suppressed fury of the common person who knows the system is fixed, yet rises every morning to board the same crowded train anyway.

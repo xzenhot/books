@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "A coin is tossed into the dust at the gate, a charity that is really a dismissal. The poem lingers on the beggar bending for the coin, and on the distance between the hand that gives and the hand that must take."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Charity rituals in Mughal/Marwari contexts"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Social hierarchy and public gifting practices in Rajasthan's mercantile history"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,133 +57,127 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"The beggar’s internal accounting: Viewing the coin not as charity, but as a single unit of currency to be traded or hoarded for future leverage against someone in power."
+"Examining the coin not as charity but as a precise economic tool: How does its weight or size signify the exact calculation of acceptable poverty for Gangaram?"
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Focusing on the 'gap' itself: Treating the precise arc and trajectory of the thrown coin—the parabola through dusty air—as a physical representation of lost dignity or unfulfilled promise."
+"The perspective shift to the beggar's internal ledger: He is cataloging debts owed, even if they are unstated (a debt to dignity, to survival)"
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The perspective of an observer/child: Narrating the transaction from the viewpoint of a young, unimpressed eye who sees only economics, not pathos."
+"Treating the coin as corrupted artifact: Is it tarnished from old trade routes or deliberately altered to appear less valuable?"
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A specific doorway that has seen hundreds of such offerings over decades; Desire: To have the beggar recognize one particular coat knot or gesture associated with the hand throwing the coin from years past, suggesting a personal history missed by the grand edifice; Obstacle: The merchant immediately moves on to a more lucrative conversation inside."
+"Setting: The cracked threshold just inside the haveli gate, desire: To force a direct physical exchange—the beggar reaching for not the coin, but a piece of discarded pigment dust, and the merchant pausing in sudden revulsion."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Just before a significant festival when charity is expected but never fully delivered; Desire: For the beggar to reject the coin entirely, viewing its value as tainted by performance and seasonal expectation; Obstacle: A child attached to the beggar intervenes with an unexpected item of actual utility (e.g., clean cloth)."
+"Setting: A periphery street corner, desire: For Gangaram to toss the coin as he is distracted by an argument with his primary trader, making the 'charity' purely accidental fallout from commerce, not compassion."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The outer service wall, far from the main gate’s spectacle; Desire: To focus on another impoverished worker—perhaps a laundry hand or water carrier—and contrast their immediate necessity for survival against the performative nature of the coin toss; Obstacle: A passing vehicle scares away both parties before a true transaction can be observed."
+"Setting: Dawn, when shadows are longest and least defined, desire: To have a low-ranking servant witnessing the entire exchange in secret, recording it silently against the grandeur of the morning light."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Shifting from charity as dismissal to pity as commodity: Examining how begging itself becomes a specialized, almost respectable profession within the town's ecosystem."
+"Deconstructing transaction as performance: The act is less about giving/receiving and more about both parties performing their societal roles (Magnanimous Patron vs. Deserving Poor)."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"The 'value' of waste: Treating the dust disturbed by the coin drop—the displaced earth particles and grit—as carrying more informational weight than the silver object itself."
+"Focusing on inertia: How the beggar's body seems momentarily frozen, suspended between reaching and withdrawing, representing a state of perpetual economic stasis."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Circular economy of refuse: Imagining what discarded items (broken pottery, scraps of cloth) accumulate near this specific spot over time, creating a counter-ledger to the single metal coin."
+"Material decay as commentary: Juxtaposing the perfect, newly minted coin against the crumbling, porous dust of the entry steps."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sound: The extremely high, sharp *clink* of coinage striking packed earth, disproportionate to its material worth."
+"The specific clink-and-hush sound of copper or brass hitting packed earth, instantly muffled by surrounding crowds."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Smell: The dry, mineral scent emanating from centuries of concentrated human foot traffic mingling with the dust kicked up by a single dropped coin."
+"The smell of stale incense mixed with dry animal dung lingering near the gate's edge."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Sight: The way the sunlight catches the minute scratches and patina on an old copper or silver coin, revealing layers of prior use."
+"The sudden chill in the hand after withdrawing it from the dusty threshold."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the specific ritualistic gestures accompanying making donations to beggars in 19th-century Shekhawati society?"
+"What were the customary or expected levels of charitable giving (dāna) associated with wealthy Marwari merchants during periods of high trade prosperity?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How was 'pity' or charity legally or socially regulated in relation to public displays of poverty versus genuine need for immediate survival goods?"
+"How did local customs define the appropriate interaction between a noble-class individual and itinerant beggars in Shekhawati towns?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"The chapter structured as a series of near misses: The beggar reaching, the hand flicking back, the coin skipping across different thresholds (a crack, a root, a spilled pot) before settling."
+"Opening mid-fall: Starting directly as the coin is airborne, tracking its parabolic descent through several lines of contrasting texture."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A tripartite structure dividing the attention between the source of wealth (the mansion), the act of giving (the toss), and the receiver's aftermath (the moment after picking up the metal)."
+"Cyclical framing: Beginning with the beggar's anticipation, moving through the toss and reception, and ending by returning to the original state of waiting."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The beggar attempting to barter the coin with another low-status vendor nearby, using it not for basic sustenance but for a minor luxury."
+"How the sound pattern—the single sharp *clink* repeated across several verses or stanzas—can mirror the rhythmic anxiety of debt collection."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"Interrogating the merchant's emotional state: Was the act of giving driven by religious obligation (Dharma) or social performance (Status)?"
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"Mapping the path taken by the man after he tosses the coin—does his gait change, becoming subtly more careful or careless?"
+"The possibility of an unseen participant (a child, a distant observer) whose reaction dictates the entire meaning of the coin's landing."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While neighboring chapters focused on labor and material failure (artisan wages, building materials), this chapter isolates a purely socio-economic interaction: the transaction of non-labor based goods, focusing intensely on gesture and perceived worth."
+"Unlike the preceding poems focusing on grand production (artisan/mason), this chapter focuses on transactional residue: what is left over after all great wealth has been spent or utilized, emphasizing microscopic social cruelty."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"3037f51e48bf0b5d66124de80801d6a590f15b50e227bea7c5b18419c599803c"
+"ff5b56cdfb73fd31c73e62864544fc76042b5865f289590bd5524e7995c06cdc"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:09:29.653969+00:00"
+"2026-10-04T20:15:48.383882+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -222,14 +186,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"ff5b56cdfb73fd31c73e62864544fc76042b5865f289590bd5524e7995c06cdc"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

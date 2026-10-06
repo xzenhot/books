@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The account book where the rise begins, its columns of debits and credits slowly bending toward profit. The poem renders the ledger as a quiet engine of ambition, the dry numbers accumulating the pressure that will one day burst into stone and paint."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Early accounting practices in Mughal and Marwari trade centers"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The physical symbolism of paper and ink in Indian literary/cultural history"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,155 +57,137 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the sheer *physicality* of the bookkeeping—the smell of aged glue, the scratch of the nib across expensive vellum, treating ink as a quasi-precious metal."
+"The ledger as a proto-architecture: focusing not on the numbers themselves but on how their grid structure forces spatial order onto chaos."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The ledger not as a record of profit, but as a spiritual confessional where Gangaram confesses his own growing detachment from community life in exchange for solvency."
+"The duality of ink and blood: treating each entry—a debt or a credit—as an infinitesimal drop of something vital being consumed by the book's absorbent paper."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Shifting perspective entirely to the *paper itself*—treating the blank page as a character that resists being filled, yearning for stories rather than mere numbers."
+"The marginalia as prophecy: giving hyper-specific, recurring symbols drawn in the margins (a bird, a knot) that hint at future collapse rather than just prosperity."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The edge of the village market square at dawn; Desire: To calculate the exact cost-per-unit of every single basket of spices currently being sold by rivals; Obstacle: A local religious festival forces all commerce to halt, rendering the ledger temporarily useless."
+"Setting: The single wooden desk under the dim oil lamp. Desire: To make the numbers perfectly balanced and immutable. Obstacle: A persistent tremor in Gangaram's hand from late-night counting. Turn: He intentionally circles a small, insignificant negative entry to 'reset' his internal balance."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Gangaram's small room after nightfall, lit only by a single sputtering oil lamp; Desire: To make his initial calculation not just reflect money, but also years of familial sacrifice he can no longer quantify; Obstacle: A recurring, unrecorded debt owed to an older member of the community that cannot be settled with coin."
+"Setting: Near the grinding stone used for pigment preparation (a future location). Desire: To imbue the written figures with permanence, making them feel like hammered bronze rather than fragile ink. Obstacle: The smell of wet jute and earth clinging to him from early work before he touches the book. Turn: He secretly rubs the edge of his thumb across a key sum, trying to transfer its solidity onto his skin."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The threshold between the clerk's small rented room and the outer village dust; Desire: To prove to a skeptical elder that his accounting methods are not mere charlatanry but reflect an underlying cosmic order; Obstacle: Being forced to reconcile two sets of records—one written, one based on oral barter agreements."
+"Setting: While counting in absolute darkness, guided only by lamplight skimming the vellum page. Desire: To isolate one recurring numeral (e.g., '7') as a sacred or cursed marker. Obstacle: The sound of insects outside momentarily drowning out the scratch of the stylus. Turn: He begins mapping constellations onto the empty space beside his running totals."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the 'debits' and 'credits' as opposing emotional states (Debt = Guilt/Loss; Credit = Aspiration/Possibility) rather than monetary transactions."
+"Treating the ledger less as an economic tool and more as a devotional text, where every entry is a mantra or vow."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Interpreting the ledger not as a tool of growth, but as an inevitable trap—the moment the numbers become bigger than the man who writes them."
+"Focusing exclusively on the physical degradation of the accounting implements—the worn nib, the bleeding ink, the thinning paper—as proxies for his fragile ambition."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Using calligraphic mastery of arithmetic symbols as a form of private, almost obsessive art, separate from its economic purpose."
+"Exploring how Gangaram's internal dialect/language shifts when he speaks numbers versus when he speaks common village speech."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The scent of iron gall ink oxidizing over time to a bitter tang."
+"The precise, brittle snap of a dried accounting sheet being handled too roughly near the corner binding."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The dry, brittle *shush* sound of turning thin, expensive paper that resists the breath."
+"The metallic scent of cheap iron ink oxidizing slightly onto dry paper fibers under scrutiny."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The faint, persistent ache in his wrist bones from hours spent gripping the reed pen."
+"A high-pitched whine from a nearby water wheel during a period of intense calculation at dusk."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were common pre-modern Indian methods for verifying large debts or complex transactions without modern banking records?"
+"What specific local materials (paper type, lamp fuel) were historically common in rural Marwari bookkeeping practices?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Were specific pigments used for official versus personal account books historically significant markers of status?"
+"Are there regional idioms or linguistic habits associated with the verbalization of debt/credit that could be poetically rendered?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"Structuring the poem as a series of increasingly frantic, breathless entries, mimicking an accelerating pulse rate."
+"A continuous loop structure where the final line echoes the first, using a small variation on the recurring phrase."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A formal 'Syllabus' structure where each section addresses a different type of debt (social, material, moral)."
+"Segmenting the poem not by thought progression but strictly by columns (Debits $\to$ Credits $\to$ Balance)."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][2]
 
 ```json
-"Alternating between highly precise, almost scientific stanzas detailing figures and looser, more lyrical passages describing the *feeling* of accumulation."
+"Using an apostrophe/address to the Ledger itself as if it were a living entity receiving his prayers."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The relationship between accounting records and astrological predictions common in elite households."
+"The specific social contracts between Gangaram and his scribes—who verifies, who doubts, and what that silent exchange means."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"How local religious festivals physically interfere with or bless the routine work of record-keeping."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"The specific iconography associated with reliable mathematics or knowledge dissemination in regional Indian lore."
+"How external astrological timings might influence the perceived 'good fortune' or 'bad harvest' reflected in the final tallies."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Where earlier chapters focused on the external movement (roads, goods), this chapter must confine the action almost entirely to the internal space and the abstract plane of numbers, making precision itself a form of conflict."
+"Where previous chapters established the material reality of labor (dust, cloth), this chapter focuses inward, treating bureaucracy and number as a nascent, almost spiritual architecture that precedes stone."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"2e8ee61e551f6e3ae9ab4b4e29a09f36f9cd9668d07a18dc7f3af2e2ca540047"
+"d1e23fa4ac28016c46d5764c5822492e0a21477bbfad0304ed96781f7d74d5a1"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:01:23.103515+00:00"
+"2026-10-06T11:38:47.068184+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

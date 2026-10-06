@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -39,28 +39,10 @@
 ## $["further_references"][0]["reference"]
 
 ```json
-"Techniques of fresco restoration in post-colonial Indian architecture."
+"Marwari trade aesthetics as competitive signaling"
 ```
 
 ## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The role of domestic water sources and plumbing in the evolution of urban haveli design."
-```
-
-## $["further_references"][1]["weblink"]
 
 ```json
 ""
@@ -75,7 +57,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,115 +69,145 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on a non-human observer: A specific, stationary element—like an ornate rainwater spout or a carved lintel figure—that witnesses the rivalry from its fixed position."
+"Framing the rivalry not as a matter of vanity, but as a desperate economic signaling system—a race to prove solvency through ostentation."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The material failure angle: Instead of focusing on the paint being overpowered, focus on where the structure itself begins to fail (cracks in mortar, settling foundations) because the additions are unevenly weighted."
+"Focusing on the *process* of critique: How Gangaram's internal reaction shifts from competitive anger to quiet recognition that the rival possesses an aesthetic quality he lacks."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The narrative through refuse: Using discarded materials—paint chips, broken pigment containers, fallen plaster dust—as physical evidence that chronicles the intensity and history of the contest."
+"Treating the opposing walls not as competitors, but as two different philosophies regarding wealth—one focused on historical narrative (Gangaram) and the other on pure kinetic power (the Rival)."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"setting: The narrow passage *between* two adjoining stairwells; desire: To map out the exact historical timeline visible in minute layers of paint (e.g., 1720 patina under a 1850 wash); obstacle: A sudden, unpredictable burst of water from a leaky pipe forces everyone back."
+"setting: The junction point where the two havelis meet in a narrow alleyway, desire: To witness the rival's crest line up perfectly against Gangaram’s painted god., obstacle: A sudden, localized dust storm obscures both façades for several minutes, forcing them into silence and mutual doubt., turn: During the lull, one character notices that the Rival’s gold leaf is actually applied using a slightly inferior alloy than what Gangaram imported."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"setting: The deep shadows cast by an overhanging balcony on a clear afternoon; desire: To photograph the effect of shadow play across both artworks at different times of day, treating light itself as a variable artist; obstacle: The rivalry flares up and requires immediate, brightly lit vandalism in the central viewing area."
+"setting: Late afternoon, as the shadows lengthen across both painted surfaces, desire: To prove his superior patron's taste to an unseen market observer., obstacle: The rival intentionally commissions a piece referencing a local tradition that Gangaram dismisses as provincial and unsophisticated., turn: Gangaram realizes the Rival is not trying to impress Delhi or Mumbai, but specifically targeting a subtle flaw in his own lineage."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"setting: A covered marketplace *adjacent* to the havelis where materials are sold; desire: To conduct undercover interviews with the suppliers—the pigment grinders, the lime plasterers—to get gossip about who can afford what next week; obstacle: Being recognized by one of the key players from the courtyard."
+"setting: A small common market square adjacent to both mansions, desire: To hire a scribe/cartographer who can perfectly document the architectural scale of the rivalry., obstacle: The hired draftsman is intimidated by the sheer, unspoken weight of wealth displayed and fails, producing only vague sketches., turn: Gangaram finds that his rival's 'greater' work incorporates local motifs in a way Gangaram’s imported styles completely ignore."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the visual competition through the lens of architectural engineering: Analyzing how decorative excess affects load-bearing capacity."
+"Viewing the rivalry as an early form of branding—the frescoes functioning as high-stakes corporate logos displayed to potential financiers."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"A comparative study of regional influences: How does Merchant A's patronage pull toward Mughal motifs, while Merchant B favors Rajput styles, and what tension exists where they overlap?"
+"Focusing on the materials used by the rival: A deep dive into a specific, unusual pigment or binding agent employed in their superior work, isolating its chemical signature rather than its image."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The passage of time as an active antagonist: Focusing on the decay process—how does natural weathering favor one family’s materials over another’s?"
+"Treating the wealth display not as an assertion of power over others, but as a private negotiation with one's own mortality—a frantic effort to leave a legacy impervious to time."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sound: The distant, specific call pattern of a vendor selling only specialized architectural pigments."
+"The specific sharp smell of linseed oil being applied freshly by the rival’s master painter against the dried, aged scent of Gangaram’s established oils."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Smell: The dusty, chalky scent emanating from freshly mixed lime mortar that hasn't yet hardened into plaster."
+"A high-pitched, almost inaudible whine emanating from a fine grinding stone used to prepare the powdered lapis lazuli for the opposing fresco."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The cool, slick texture of an old, polished stone base upon which the more recent artwork is painted."
+"The way the low setting sun fractures off different metals (gold leaf vs. silver plating) on both walls, creating two distinct color temperatures—one warm, one cool."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the typical construction materials (stone vs. brick) used for havelis in this immediate locale?"
+"What were established protocols or social codes in Shekhawati for responding to a neighboring merchant’s overt display of wealth?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did water management or sanitation needs influence the placement and ornamentation of exterior walls?"
+"Were there documented instances where architectural features (like courtyard size or fresco density) explicitly correlated with mercantile success during this era?"
+```
+
+## $["creative_enrichment"]["research_questions"][2]
+
+```json
+"Can I research the specific regional sources and application methods for blues and yellows used by Marwari painters in comparison to established Mughal techniques?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A series of contrasting inventories: Listing objects that are *supposed* to be there versus what is actually visible, allowing gaps of negative space to carry narrative weight."
+"A dialogue-heavy piece, where two internal monologues are mapped onto opposite architectural surfaces."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Structuring chapters around the 'materials' used in creation (the canvas being both physical and conceptual): Dedicating sections to lime, mineral colorants, scaffolding wood, etc."
+"A catalogue poem structure that lists elements of both walls consecutively, forcing a rhythmic juxtaposition of 'his vs. hers' before merging the imagery in the closing stanzas."
+```
+
+## $["creative_enrichment"]["structural_variants"][2]
+
+```json
+"Structuring it as a long visual tour along the boundary line between the two properties."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"Exploring the role of female relatives who manage the social reception surrounding this competitive display, their silent judgment being perhaps louder than the art itself."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A focus on the *patron's* shifting self-perception—the internal humiliation felt before any public acknowledgment of failure or victory."
+```
+
+## $["creative_enrichment"]["unused_angles"][2]
+
+```json
+"Examining if the rival’s success is based on imitation rather than genuine innovation; exploring intellectual debt."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter shifts focus from an interpersonal artistic battle to one involving structural integrity, material science, and external environmental factors like light and water decay. The conflict is becoming embedded in the built environment itself rather than just on its surface."
+"Where previous chapters detailed the accumulation (Ledger, Profit), this chapter focuses entirely on outward projection and contestation, contrasting acquisition with assertion. The rivalry moves from internal bookkeeping to external public display."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"56592414b49a63a036aa114fa79a5e4f177d6b6fa0335d4ef88b268eb09cc30b"
+"0ee7f82bbb77c18e6a628c4476430ac6c5c3d286c29614e2483afaf93f6f85f8"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:07:55.455498+00:00"
+"2026-10-04T20:14:35.913566+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -204,14 +216,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"0ee7f82bbb77c18e6a628c4476430ac6c5c3d286c29614e2483afaf93f6f85f8"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The fragrance of weddings no one remembers hosting still moves through the rooms. The poem follows the scent as a ghost of joy, the fragrance that outlasts the feast and the feasters alike."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Rituals of prosperity in Rajput wedding ceremonies (smells and materials)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The cultural significance of specific flower/spice pairings in Rajasthani domestic life"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,121 +57,121 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Treating the scent not as a memory, but as an active chemical pollutant that contaminates the remaining pigment and textiles."
+"Shifting focus from 'memory' of scent to the chemical persistence of organic matter trapped in porous stone."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Focusing on the *absence* of the expected supporting scents: where is the smell of cooking ghee in this abandoned space?"
+"Treating the scent not as nostalgia, but as a highly specific pollutant that alters the perception of remaining dust and decay."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"A narrative built around the concept of 'olfactory ghosts'—specific scent markers tied to irreversible life events (e.g., a particular perfume used only by the bride)."
-```
-
-## $["creative_enrichment"]["angles"][3]
-
-```json
-"Contrasting the rich, celebratory domestic smells with harsher, persistent odors that signify decay or neglect (dust mixed with mildew)."
+"Personifying the odor itself—the ghost smell acts as an invisible curator, meticulously arranging forgotten moments."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A closed spice cabinet in an adjoining utility room; Desire: To find a specific, intact packet of ceremonial turmeric powder; Obstacle: The scent itself has faded into near nothingness, requiring the protagonist to physically dig through layers of dust and old linens to 'capture' it."
+"Setting: The main reception hall, desire: To track the scent trail back to a specific discarded wedding item (a fallen thread or torn silk), obstacle: The powerful interference of recent dampness in the structure."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The main threshold/doorway leading out from the domestic quarters; Desire: For the smell of a specific guest—a visiting relative or trader—to momentarily saturate the air as if they had just passed through moments ago; Obstacle: A sudden, localized cold draft that immediately disperses the scent into randomness."
+"Setting: A small private chamber where incense was burned prior to celebrations, desire: To isolate one single lingering note—saffron versus jasmine—as the anchor point for all memory, obstacle: Another overpowering scent (like old leather or mildew) overwhelming it."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The discarded utensils area near the kitchen hearth (where scents accumulate); Desire: To trace a single, powerful scent trail leading to a piece of forgotten, valuable jewelry or document; Obstacle: The lingering smell belongs not to a person, but to an animal that has scavenged within the haveli."
+"Setting: The high gallery overlooking the courtyard during a gathering, desire: To imagine the collective inhalation of hundreds of guests forming a momentary, shared atmospheric event, obstacle: The wind having stripped away most easily dissipated airborne particles."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Shifting from 'joy' to 'economic transaction': Viewing the scent as a commodity—the cost of saffron, or the value of good sandalwood paste used in rituals."
+"Analyzing scent as a non-visual history—how smells document events that photography or fresco could never capture."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Viewing scent purely scientifically: Mapping volatile organic compounds (VOCs) detected in the air trapped within the architecture itself, suggesting how the materials degrade over time rather than reflecting life."
+"Exploring the dichotomy between celebratory scents (sweetness) and underlying decay scents (mustiness, oxidized metal)."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The genealogy of smell: Tracing a single primary ingredient (e.g., jasmine oil) across decades—from expensive initial purchase to cheap, lasting substitutes used by later generations."
+"Focusing on the molecular interaction: How volatile organic compounds from spices/flowers bind temporarily to plaster dust."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The sticky residue of fallen marigold petals that have begun to mold and deepen in color."
+"Olfactory: The cloying weight of decaying pomanders mixed with fresh sandalwood paste."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Smell: The sharp, metallic tang accompanying the sweetness, like oxidizing copper mingling with burnt sugar."
+"Visual (reaction): A prismatic sheen where sun hits a specific, faintly oily patch on the marble floor, suggesting residual oil from garlands."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The slick, oily film left on polished stone surfaces by years of accumulated scented smoke."
+"Tactile: The faint stickiness under a fingernail when brushing against fabric remnants near door jambs."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the common 'signature' scents associated with the final rites or departures in this cultural context, versus celebratory arrivals?"
-```
-
-## $["creative_enrichment"]["research_questions"][1]
-
-```json
-"Were specific spices historically used both for scent and as mild preservatives against mold/pests within storage areas of wealthy households?"
+"How does prolonged exposure to high concentrations of volatile organic compounds (like jasmine/ghee) affect the micro-erosion rate of historic lime plaster?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured entirely around olfactory notes: organizing stanzas by the perceived primary note (citrus, spice, floral) rather than chronological passage."
+"Structuring the poem as a palimpsest, where each stanza attempts to isolate a single scent, only for it to be immediately overwritten by another."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An epistolary sequence where several different inhabitants write fragmented letters describing what they smelled in the haveli on a particular evening."
+"Beginning and ending with absolute silence in the room, using the scents to fill the gaps between breaths."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike the preceding chapters that focused on visible artifacts or structural failure, this piece focuses entirely on an ephemeral sensory experience—scent—as both memory and residual physical presence."
+"Unlike preceding chapters that focused on fixed objects (ledgers, frescos) or moments of decline, this poem anchors itself entirely in a transient, olfactory experience—the ghostly residue of unlived joy."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The specific social hierarchy indicated by *which* scents were used for which families during the wedding rites."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A focus on the mechanics of how camphor or strong spices were used not just as fragrance but as insect repellent within the haveli."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"56e1a5adb339ea39929b534750e1a514442b940198abc89ebb8f3bfe250ebb39"
+"1328692798ac605337f127958d48407d8987ea832405f2889bf5b891946c9f4d"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:14:57.411366+00:00"
+"2026-10-04T20:19:41.381316+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -210,14 +180,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"1328692798ac605337f127958d48407d8987ea832405f2889bf5b891946c9f4d"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

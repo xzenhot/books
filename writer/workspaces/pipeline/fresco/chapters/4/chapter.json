@@ -1,7 +1,7 @@
 {
   "chapter_index": 4,
   "name": "4",
-  "word_target": 80,
+  "word_target": 110,
   "chapter_title": "The Merchant's House",
   "chapter_summary": "Inside the painted mansion the patron entertains guests who praise the color and never ask the maker's name, and the painter overhears his own erasure from the shadows of a house he built with his hands.",
   "further_references": [],
@@ -12,42 +12,41 @@
   ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on how the patron's enjoyment creates a distorted, flattering mirror image of the artist’s unseen labor.",
-      "Exploring the performative nature of 'praise'—how words used by guests act as social tools to mask transactional relationships.",
-      "The architecture itself becomes an active participant: does the richness of the painted facade serve as both protection and cage for the creator?"
+      "Framing the guests’ praise not as genuine appreciation of art, but as a function of their social performance—a necessary theatre for Marwari prestige.",
+      "Viewing the mansion's ornamentation (the frescoes) through the eyes of a guest who is simultaneously awed and intellectually condescending regarding its 'craftsmanship.'",
+      "Shifting the perspective to an inanimate element within the house (e.g., a specific carved wooden door or chandelier) that acts as a silent witness to the patron's transient pride."
     ],
     "story_options": [
-      "Setting: A specific reception hall where a wealthy guest pauses, not to admire the fresco's beauty directly, but to observe the *effort* implied in the curve of a floral motif, before immediately dismissing it with casual flattery; Desire: To catch one word that acknowledges fatigue or cost; Obstacle: The host steers conversation immediately toward commerce.",
-      "Setting: A darkened alcove where reflections from the main gathering spill onto the scaffold platform after hours; Desire: For the painter to see his own silhouette momentarily superimposed on a perfect, finished section of color; Obstacle: The reflection is too distorted by dust and shadow to confirm identity.",
-      "Setting: Near the entrance arches where guests pause in awe before entering the painted space; Desire: To inject a brief moment of private commentary—a single muttered curse or boast—into the grand scene; Obstacle: A servant overhears the sound, silencing it instantly."
+      "Setting: The main reception hall, desire: To briefly engage in conversation about travel and trade with a high-ranking guest, obstacle: Realizing their interest is entirely superficial regarding the art.",
+      "Setting: A darkened gallery corridor off the main salon, desire: For a moment of pure auditory escape from the celebratory din, obstacle: The pervasive echo bouncing back the sounds of laughter amplified by the haveli's structure.",
+      "Setting: Behind a carved screen separating a private study from the party space, desire: To catch an unguarded glance or whisper between two patrons that reveals their true valuation of the 'artisan.'"
     ],
     "subject_rotations": [
-      "Treating the house as a mausoleum of transient social capital, where painted beauty is merely an elaborate shroud for underlying financial instability.",
-      "Focusing on the specific dialectical shifts in speech—how formal court language contrasts sharply with the painter’s internal monologue of raw necessity.",
-      "Examining the interplay between patronage and aesthetics: how does the patron's *expectation* reshape the color palette before a brush even touches it?"
+      "Focusing less on the *patron's* ego and more on the material exchange—the specific commodity (silk, spice) traded for the art vs. the ephemeral glory of display.",
+      "Treating the fresco as a form of coded language known only to the painter; the guests read it purely by its surface color values, missing the narrative subtext.",
+      "Exploring how the permanence of the painted wall contrasts with the transient nature of social status and wealth in the merchant class."
     ],
     "sensory_details": [
-      "The smell of expensive, heavy incense—sandalwood or ambergris—that conflicts aggressively with the sharp, earthy scent of wet lime.",
-      "The texture of richly woven silks worn by guests rubbing against the rough grit of plaster dust that has settled on the scaffold steps.",
-      "The dull thud of a glass tumbler being set down too heavily onto polished stone flooring during a conversation."
+      "The sharp scent of expensive sandalwood incense masking underlying smells of dust and curing plaster within the haveli halls.",
+      "The clinking, high-pitched music of small brass instruments played during the entertainment that sounds brittle against the heavy stone architecture.",
+      "The specific texture of a heavily embroidered shawl brushing past the painter's elbow as he stands hidden near a doorway."
     ],
     "research_questions": [
-      "What specific courtesies or rituals were historically employed by wealthy Marwari families to acknowledge skilled, yet anonymous, labor in their homes?",
-      "How did the social hierarchy dictate which portions of an interior space (public reception vs. private quarters) received the highest artistic investment?"
+      "What were common performance rituals or social protocols among prominent Shekhawati merchant families during evening gatherings?"
     ],
     "structural_variants": [
-      "A poem written entirely from the perspective of a single piece of painted ornamentation—a stylized bird or vine—observing the human drama below it.",
-      "Alternating between highly ornate, guest-centric descriptions and extremely stripped-down, muscular imagery focused only on the artist's body parts."
+      "A sustained, lyrical interrogation of the contrast between interior warmth (the party) and exterior coolness (where the painter works).",
+      "The structure mirrors a formal recitation/ode that breaks down mid-phrase when the sound motif interrupts it."
     ],
     "unused_angles": [
-      "The legal documentation or contracts that implicitly define the painter's invisibility within the patronage agreement.",
-      "A moment where a child enters the hall unaware of the social performance and simply points at an aspect of color with innocent curiosity."
+      "How the painter mentally catalogues the architectural flaws of the house as he witnesses its celebrated façade.",
+      "A brief internal monologue contrasting the permanence of stone and pigment with the fleeting nature of human memory within that space."
     ],
-    "variety_note": "Unlike previous focus on material preparation, this chapter shifts the stage entirely to the *social* environment surrounding the work, using human interaction as the abrasive force against the artist's hidden labor."
+    "variety_note": "Unlike previous chapters which focused on preparation or material failure, this chapter shifts focus entirely to public performance and social erasure."
   },
   "draft": {
-    "sha256": "590e731510987f839bf110ce7210c0c30e8ee481a2a354e134cceecbafbe4f4d",
-    "written_at": "2026-10-04T19:40:37.341843+00:00",
+    "sha256": "325c15dfaee756c4b47b2c4626dca25d6cb944cfc6d865a77dbf607de9214690",
+    "written_at": "2026-10-04T19:52:20.667815+00:00",
     "origin": "write"
   }
 }

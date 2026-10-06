@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -45,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"scaffolded"
 ```
 
 ## $["segments"][0]
@@ -57,125 +57,107 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing exclusively on the mechanics of grip: how muscle memory translates into stroke without conscious thought, treating control as a physical discipline separate from inspiration."
+"Focusing on a specific gesture of the hand—not the broad act of painting, but a tremor at the moment of applying color, suggesting hesitation or exhaustion."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Interrogating the relationship between fingerprints and permanence; whether sweat or oil stains leave a mark that is more honest than pigment."
+"Treating the 'unseen hand' as inherently flawed; not just tired, but betraying itself through a microscopic imperfection in the pigment application that only the painter perceives."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Treating the tools (brushes, trowels) not as extensions of the hand, but as temporary proxies for the artist's own failing strength."
+"Shifting from an interior monologue about self-denial to an interaction with the physical evidence of past struggle—a discarded splattered brush or stain left on his rags."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The precise corner joint where two sections meet; Desire: To secure a hairline crack that threatens to betray fatigue, Obstacle: A momentary tremor in the forearm."
+"setting: The damp scaffold rail just before dawn, desire: To feel the solid, non-judgemental presence of the structure itself after the work is done., obstacle: The lingering vibration in his wrist from hours of continuous motion., turn: A momentary loss of balance that forces him to look down at the ground instead of up at the finished surface."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Inspecting a patch of cured plaster before applying pigment; Desire: To feel the substrate's texture through worn skin, Obstacle: Being distracted by the sound of a distant animal call cutting through the night."
+"setting: Beneath the raised scaffolding, near the stone base, desire: To find a small piece of discarded material—a sliver of charcoal or pigment scrap—that holds the 'ghost' of an earlier mistake., obstacle: The persistent dust and grime hiding everything from casual inspection., turn: Touching the scrap, he remembers not the failure itself, but the quiet pride in having achieved a difficult preliminary sketch."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Clutching a piece of discarded scaffolding wood for leverage while painting high up; Desire: A single moment of perfect balance that feels transcendent, Obstacle: The weight suddenly shifting too far to one side."
+"setting: As he packs away his implements, desire: To deliberately smudge one area of the completed work with a piece of dirty cloth., obstacle: The immediate instinct to preserve every line and color perfectly until morning., turn: He pauses, knowing this act would be an admission—a voluntary diminishment of his own celebrated art."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"A hyper-focus on the bone structure beneath the flesh—the skeletal reality required to support such prolonged physical output."
+"Examining the hands not as tools, but as geographies—maps etched with lines of stress and strain corresponding to specific sections of the fresco."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Shifting the perspective from 'hand' as instrument to 'hand' as witness, observing its own minute failures (a slight wobble, a patch of hesitation)."
+"Focusing on the relationship between tactile effort (the hand) and optical result (the wall), where physical input seems to dissolve entirely into passive visual output."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Treating the hand not in action, but in necessary *rest*—the tension before movement versus the limpness after exhaustion."
+"Contrasting the permanence sought in the durable mineral pigments against the ephemeral nature of muscle memory required to apply them."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The specific grit of limestone dust accumulating under fingernails into an unshakeable stratum."
+"The faint, chalky scent of overworked plaster drying under the cool night air."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The low-frequency thrumming vibration felt through soles of worn leather shoes when near a poorly constructed section of the haveli."
+"The precise drag sound of a stiff bristle brush pulling away from an already set layer of color."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The sharp, almost metallic scent of dried adhesive glue clinging to the undersides of tools."
+"The sudden metallic chill felt when bare skin touches cold iron scaffolding in the pre-dawn hours."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the specific ergonomic challenges faced by pre-industrial muralists working at heights without modern scaffolding safety measures?"
+"What specific physical conditioning or manual skills might be required to sustain intricate fine motor control for extended periods while standing on uneven, elevated surfaces?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A sustained, single-breath examination: one extended metaphor where the hand is compared to a migrating animal or root system."
+"A slow deceleration: the poem builds tension through listing minute hand movements before a sudden, absolute cessation of action."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Alternating focus between macro (the broad sweep of a line across the wall) and micro (the tremor in the index finger applying final definition)."
+"Framing the central image around negative space—the shape carved out *by* the absence of effort, rather than the application of it."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The philosophical weight given to 'finish' vs. 'process' from an ancient artisan's viewpoint, separate from the modernist/Romantic critique."
+"Exploring the potential for non-human witnesses to observe this specific failure (e.g., a domestic animal moving through the courtyard)."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"Exploring labor fatigue not as a personal failing, but as an inevitable consequence of historical economic stratification."
+"A sequence where the hand mimics an unrelated task—like braiding or weaving—to show that its skill is transferable beyond painting."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter grounds the abstract concept of the unseen labor by focusing intensely on the tangible, almost geological reality of the physical act—the hand itself becomes the subject matter rather than simply the agent."
-```
-
-## $["draft"]["sha256"]
-
-```json
-"f9a73db9a10756f00f5054468eac03013884a0c1e4fd3a8369ea2983ecf8f5e4"
-```
-
-## $["draft"]["written_at"]
-
-```json
-"2026-10-04T19:10:34.687858+00:00"
-```
-
-## $["draft"]["origin"]
-
-```json
-"write"
+"Unlike previous chapters which focus on the materials or the social setting, this chapter zeroes in entirely on the embodied cost of creation—the physical anatomy of the maker's struggle."
 ```

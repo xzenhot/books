@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The cycle ends with every empty room waiting for a settling of accounts the years have forgotten to bring. The poem closes on the open door and the open question, the haveli still breathing with the unfinished lives of everyone its builder abandoned."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"The concept of collective memory embedded in architecture vs. individual documentation (ledgers)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Traditional Rajasthani concepts of temporal cycles or endings that resist linear summation"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,139 +57,115 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"A meditation on entropy within the structure: treating the haveli not as a monument to success, but as a perfect example of inevitable decay resisting human artifice."
+"Framing the 'reckoning' not as judgment or debt, but as a necessary structural equilibrium—the haveli requires this symbolic accounting to stop its slow decay."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The perspective shift from 'guilt' (a moral debt) to 'entropy' (a physical law): realizing that the abandonment wasn't due to malice or failed trade, but simply time taking its natural course."
+"Adopting an extremely impersonal, geological viewpoint where the family drama is merely evidence of slight shifts in humidity and stone integrity."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Focusing on sound: The absence of expected sounds—the lack of haggling voices, clinking cutlery, a dog barking—and giving these silences structural weight."
+"Reintroducing Seth Gangaram not as a ghost accountant, but as a silent audience member observing the lingering residue of his own failure across time."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A single, dusty corner window that overlooks the un-paved street; Desire: To watch one piece of mundane modern life (a passing utility worker, a child's ball) momentarily disrupt the perfect stillness; Obstacle: The persistent silence demanding it be ignored."
+"Setting: The threshold where outer dust meets inner polished marble; desire: To observe an invisible boundary line where past grievances meet present stillness; obstacle: The overwhelming sensory silence."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The threshold itself, imagined as a receiving mechanism for echoes; Desire: For the ghosts to finally reconcile their disparate moments into one unified 'last breath'; Obstacle: Their individual spectral narratives are too contradictory (e.g., one expects rain, another heat)."
+"Setting: A single, unused doorway leading to a non-existent room; desire: To trace the intended path of figures that were never fully painted into existence; obstacle: The paint cracking at the edges where no life was placed."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: A forgotten service passage or drainpipe within the complex; Desire: To hear the sound of water—any running water, even seepage—which implies a continued subterranean life force; Obstacle: The blockage from accumulated silt and decades of dryness."
+"Setting: Midday light striking the interior courtyard, long after the last family left; desire: To map the trajectory of one specific shaft of sunlight as it slowly migrates across a floor pattern, symbolizing time passing without resolution; obstacle: Dust settling perfectly in the sunbeam's path."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the 'reckoning' as an astrological event or alignment rather than a moral accounting."
+"Treating the 'unfinished lives' not as potential energy, but as active, parasitic agents feeding on the mansion’s material structure."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Viewing the entire cycle not as rise/fall, but as transformation—the haveli is becoming something else (ruin, earth, memory) and that metamorphosis is its final purpose."
+"Examining the physical remnants of social contracts: comparing a cracked piece of tile to a fractured promise."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Focusing on the objects remaining: If money cannot settle debts, what are the surviving artifacts that hold abstract value? (e.g., a specific type of thread, an un-played flute)."
+"Reframing the 'reckoning' away from morality and toward pure economic inevitability—the market demands closure, even if spiritual accounting resists it."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way fine gypsum dust hangs suspended in a single shaft of afternoon light beam, looking like slow, captured smoke."
+"The specific, high-pitched squeal of rusted iron hinges straining under no weight."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The high, almost ultrasonic whine created when the dry wooden doorframe flexes against minute changes in atmospheric pressure."
+"The cool, damp scent rising off deep stone foundations during a heatwave."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The slightly greasy film left on smooth marble surfaces where generations have habitually touched to pass time."
+"Visual: The way shadows pool in the concave curve of an archway when the light source is diffused and distant."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What are common regional myths or folklore regarding structures that become 'haunted' by the persistence of unfinished cycles?"
+"What are known architectural methods for preventing structural collapse in decaying sandstone havelis?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How were Indian merchant agreements historically documented when physical collateral (like deeds, shares, or promissory notes) was difficult to enforce across shifting political borders?"
+"How do specific local materials (like lime plaster or regional mortar) interact with atmospheric moisture to create audible stresses?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A tripartite structure: Act I focuses on the mechanics of stopping; Act II explores the philosophical implication of that stop; Act III returns to a single, enduring natural element (wind/stone)."
+"A final, static meditation structured entirely around a single color palette observed as the light changes from bright noon blue to deep indigo twilight."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Employing an unreliable narrator who is unsure if they are observing ghosts or merely extreme bouts of collective nostalgia."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"A structure composed entirely of negative space: describing what *is not* there—the sound not made, the painting that faded beyond recognition."
+"An accretion poem where each line is built upon or layered over the previous one, representing compounding debt."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This final chapter shifts away from detailing specific historical transactions (like debts or profits) to addressing the abstract concept of closure itself, treating absence and unresolved potential as tangible elements."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The role of institutional failure: exploring how changing government taxation systems effectively rendered all private merchant wealth irrelevant overnight."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"Comparative archaeology: drawing parallels between the havelis' decay pattern and other abandoned urban settlements worldwide."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"The physical burden carried by the last surviving custodian—the emotional weight versus the literal dust."
+"This chapter moves completely away from tracking past action (Gangaram's life or its immediate aftermath) into a state of absolute temporal suspension, focusing only on what remains when all movement ceases."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"3be91de5751e95f486e54754fea10e4d251203c31e9caa0dc8e7bb600a92f71d"
+"18e162f6f3ea361f8c7a091f337c740f67a2f0df1766e5e4741cc4ea3c7d1f0d"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:16:13.931479+00:00"
+"2026-10-04T20:20:31.842137+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -228,14 +174,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"18e162f6f3ea361f8c7a091f337c740f67a2f0df1766e5e4741cc4ea3c7d1f0d"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

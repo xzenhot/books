@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The laborer raising ceilings in the June heat goes thirsty while the merchant bathes in rose water. The poem sets the two bodies side by side — the parched and the perfumed — and lets the contrast do the accusing."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Construction materials science in arid climates (lime mortar durability)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Symbolic use of water scarcity and dehydration in Rajasthani literature"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,145 +57,133 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"The comparative geometry: Instead of just contrasting the two bodies, map the physical structure—the rising ceiling vs. the contained, flowing basin—to represent incompatible measures of value (utility versus luxury)."
+"Focusing on water as a physical/ritualistic commodity: The thirst is not merely biological but an indictment of ritual purity versus labor necessity."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The bureaucratic accountability of sweat: Treating the mason's labor not as simply 'unpaid,' but as a highly specific commodity whose yield must be accounted for by municipal or guild record-keeping."
+"Shifting the focus from the merchant's bath to the construction material: Treating the lime and mortar dust clinging to the mason as a second, ignored skin of suffering."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Soundscape focus on materials: Building the atmosphere using only the sounds associated with building/water—the *scrape* of trowel against dressed stone, the rhythmic *drip* from an overflowing basin."
+"The silence before dawn: Using the pre-dawn stillness—when servants are resting but overseers are still watching—to amplify the tension between two states of being."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The scaffolding tower overlooking a shaded, cool internal passage; Desire: For the mason to physically test the strength of one beam by pressing his bare hand against it, while overhearing the muffled splashing from the bath area below; Obstacle: A foreman or overseer who insists on measuring sweat output rather than completed work units; Turn: The realization that the structural integrity relies equally on the craftsman's exhaustion and the patron's superficial cleansing."
+"Setting: The edge of the construction site just as the first sliver of sun appears, desire: To have a minor servant (not involved in the main conflict) witness the stark juxtaposition and be overwhelmed by indecision regarding which side to support…"
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Near a cistern or collection point used for washing tools after a rainstorm (though unlikely in June); Desire: For the mason to find evidence of how high-value liquid (like perfumed water) has historically contaminated utility runoff; Obstacle: The physical difficulty of cleaning ingrained, mineral residue from both skin and stone surfaces simultaneously; Turn: A discovery that traditional building practices incorporated natural purification methods overlooked by modern luxury."
+"Setting: Inside the cool, shaded scaffolding at midnight, desire: To focus on the mason's slow consumption of meager water from a gourd, while hearing muffled sounds of celebration or music echoing faintly from the finished wing below…"
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: At the precise moment before sunset when shadows pool in the uneven flooring between the two zones; Desire: To observe how the setting sun catches dust motes differently—thickly accumulating near the physical labor versus suspended delicately in scented steam; Obstacle: A sudden, unexpected gust of wind that mixes the scents and disturbs the dust layer entirely; Turn: The momentary erasure of class difference as the environmental forces level out all demarcations."
+"Setting: The temporary storage shed for quarried stone, desire: To have the masonry tools (chisels, plumb lines) be temporarily laid down by the craftsman, allowing him one moment of quiet contemplation before retrieving them to continue his unpaid labor…"
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Shifting the focus from physical thirst/thirst to 'intellectual' depletion—the mason struggling with the impossibility of building perfect form on unstable foundations (both literally and metaphorically)."
+"Treating the heat itself as a character: The oppressive Rajasthani sky as an indifferent witness that punishes all forms of imbalance—both opulent and destitute."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Interrogating the transaction: Instead of money, making the exchange tangible—perhaps trading a piece of rare, durable earth pigment for one small measure of aromatic oil."
+"The thermodynamics of luxury versus exhaustion: Contrasting the cooling effect of perfumed water against the evaporative, burning effort expended by body and bone on the scaffold."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Viewing the contrast through an animalistic lens: How would a street dog view these two rituals—one marked by pure toil, the other by luxurious self-indulgence?"
+"Focusing only on the architecture's structural implications: How the uneven weight distribution caused by hurried labor contributes to future cracks, linking immediate human suffering to inevitable material failure."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Touch: The abrasive, dry heat radiating up from packed earth floors against bare soles."
+"Touch: The rasp of sun-dried mortar dust grinding under dry skin."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Smell: The sharp, coppery scent of warmed minerals mixed with raw sweat and limestone dust."
+"Sound: The rhythmic, dull *thud* of the mason's hammer striking a scaffold beam in the oppressive midday heat."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Sight: Observing how the reflected light off wet marble in the bathing area seems to warp and distort compared to the matte absorption of porous sandstone on scaffolding."
+"Smell: The sharp, metallic tang of exertion sweat mixing with the heavy perfume residue drifting from an upper window."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What are the typical natural materials used in contemporary lime plasters that would chemically react with highly scented oils (like rose water) over time?"
+"How did historical water rationing or management practices influence daily life on large merchant estates during peak agricultural/trade seasons in this region?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Were specialized tools or work practices developed for working in extreme heat to minimize physical strain during construction?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"How did ritual bathing integrate into daily life versus post-event purification rites within merchant households?"
+"What specific building materials (type of lime, sand composition) were standardly used in high-status Shekhawati havelis versus utilitarian structures?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured as a detailed, alternating 'Before/After' catalogue—listing the materials required for each process (e.g., *Mason:* Chisel #3, Lime Wash; *Bather:* Bath oil, Scented powder)."
+"A non-linear structure alternating between a minute description of the mason's hand movements and vast, sweeping descriptions of sun exposure."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Using internal monologue: Alternating between the mason’s exhaustion-driven counting and the bather’s self-absorption."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"A narrative structure mimicking erosion—starting with a highly defined boundary line (e.g., where the service lane meets the private quarters) and letting both sides wear down until they merge."
+"An entirely internal monologue from the artisan, fragmented by moments where external sounds (laughter, running water) break his focus."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The role of necessary infrastructure: Focusing on shared elements that must exist for both activities, such as water channels or common pathways."
+"Exploring the concept of architectural sacrifice: Does the edifice consume the men who build it over time?"
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"A moment of accidental empathy: A small interaction where the bath attendant notices a sign of exhaustion on the mason passing by."
+"The patron's paranoia regarding structural integrity—a hidden fear beneath the display of wealth."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][2]
 
 ```json
-"Mapping the physical strain onto mythology: Suggesting that the building itself needs a divine intermediary (like Nandi) to bear the burden between two incompatible states of being."
+"A meditation on the passage of different eras through the layers of dust settling on un-finished work."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter moves the focus from the product of wealth (frescoes/art) to the human cost underpinning the maintenance of luxury, grounding the poem in tangible physical depletion rather than purely financial ones."
+"Where previous chapters focused on visible accumulation (gold, silk, paint), this chapter grounds the conflict in invisible depletion: moisture, life force, and time."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"d4ea0b1c8c06b0612fd7b29c3c614d6b9ac7b1b2e9c677c67f583ded81de177f"
+"c985bb32a41c0459e69f94acc034bd84b4fff00a94edb879e867860a4a52f1dc"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:08:55.954901+00:00"
+"2026-10-04T20:15:24.443940+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -234,14 +192,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"c985bb32a41c0459e69f94acc034bd84b4fff00a94edb879e867860a4a52f1dc"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

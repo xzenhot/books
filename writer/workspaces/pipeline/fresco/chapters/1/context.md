@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -45,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"scaffolded"
 ```
 
 ## $["segments"][0]
@@ -57,119 +57,113 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Treating the wall not as a canvas but as an inert witness to all human ephemera—the dust of past lives settling on its surface."
+"Treating the wall not as a canvas for art, but as an artifact of time itself—a sedimentary record of drought and monsoon."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Framing the emptiness of the unpainted plaster as a specific kind of negative space that requires deliberate, almost violent intervention to define."
+"The painter's anticipation mirroring a deeply personal, unexpressed memory from his own youth."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Personifying the architectural weight and history of the haveli itself, making it a silent counterpoint to the painter’s nervous energy."
+"Examining the physical texture of the lime plaster under different lighting conditions (pre-dawn chill vs. imagined sun)."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The sun-baked exterior courtyard just before dusk; Desire: To find an initial color that justifies future labor; Obstacle: An impossibly large shadow cast by a nearby minaret; Turn: The painter notices the dust motes dancing in the fading light, mirroring potential strokes."
+"A sudden sound—a distant goat bell or temple chime—makes the painter flinch, causing him to drop his preparatory charcoal."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A specific corner of the wall already bearing faint evidence of ancient repairs; Desire: To match a ghost color from a previous forgotten project; Obstacle: His own tremor makes his brush shake violently on the surface; Turn: He deliberately smears the incipient mark instead of finishing it."
+"The painter traces an imaginary initial onto the plaster surface, a sigil that represents an unspoken pact with his family before he starts working."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The small, unadorned scaffolding structure itself; Desire: To seek permission or encouragement from the silent framework supporting him; Obstacle: A sudden, strong gust of wind rattles the wooden supports threatening to shift his balance; Turn: He uses the sway as a rhythm for his first light touch."
+"He pauses mid-gaze and notices microscopic fissures in the lower course of the wall, suggesting foundational instability paralleling emotional uncertainty."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing entirely on the *potential* energy held within the blank plaster before any physical act is committed."
+"Shifting focus from 'waiting' to a meditation on absolute potential—the terrifying scope of everything that *could* be depicted."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Examining the relationship between silence (the wall's waiting) and sound (the internalized, imagined sounds of future pigments being mixed)."
+"A confrontation with absence: what is more defining than the image itself? The negative space prepared for it."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"A meditation on 'arrival'—not arriving at a subject, but arriving at the threshold where meaning can begin to form."
+"The wall as a boundary marker between the interior life (dream/memory) and the external public sphere."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The fine, gritty mineral taste left in the painter’s mouth from chewing dried betel nut while staring at the wall."
+"The chalk dust clinging to skin, cold and fine like powdered bone under his fingertips."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The high-pitched, dry whistle of air escaping through a single crack in the plasterwork."
+"The scent of dry earth baked into the plaster, mingled with night-air humidity."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The sharp scent of sun-scorched lime mortar mingling with the cool dampness rising from the earth beneath the foundation."
+"A faint, metallic tang in the pre-dawn air, perhaps from nearby irrigation pumps or distant fires."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"How were specific regional dialects used to describe abstract waiting or anticipation within Marwari folk poetry?"
+"What was the typical architectural process for preparing a wall surface (intonaco) in Shekhawati havelis prior to major fresco application?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"What is the historical significance of load-bearing plaster in Shekhawati architecture that implies a sense of permanence?"
+"How did early Marwari merchants historically conceptualize legacy and permanence within their domestic structures?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A purely sonic poem where every word choice prioritizes its percussive quality over its semantic meaning."
+"A highly fragmented, list-like structure where each line addresses a different potential motif (a peacock, a bride, a deity) before the final silence."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An invocation structure, addressing the wall as an ancient deity awaiting initiation."
+"An opening that begins *in media res*—the brush already held aloft, mid-hesitation."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The wall anticipating a visitor whose presence will irrevocably change its intended narrative."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A comparison between the blank plaster and older devotional writings/manuscripts kept in private libraries within the haveli."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike subsequent poems focusing on materials or patrons, this chapter roots itself in pure potentiality—the silence before action, driven by sonic texture rather than visual subject matter."
-```
-
-## $["draft"]["sha256"]
-
-```json
-"0cd9158f6a47e1f519482df0e6a13e8a0bee1b8bbeda6451127c47276f08987a"
-```
-
-## $["draft"]["written_at"]
-
-```json
-"2026-10-04T19:09:44.697706+00:00"
-```
-
-## $["draft"]["origin"]
-
-```json
-"write"
+"Unlike subsequent chapters focused on labor or color, this poem must exist purely in the liminal space of anticipation—the silence before commitment."
 ```

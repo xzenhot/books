@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -45,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"scaffolded"
 ```
 
 ## $["segments"][0]
@@ -57,131 +57,113 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Examining the bureaucratic language of royal decree versus the ephemeral vocabulary of pigment; how administration codifies luxury."
+"Viewing the transaction not as a social contract, but as an act of enforced dependency between three distinct power structures: State (King), Commerce (Merchant), and Creation (Artist)."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Treating security not as a static protection but as an ongoing, oppressive weight—the physical presence of watchmen or fortified walls casting shadows over artistic freedom."
+"Focusing on the dialectic between 'security' and 'tax'—both are forms of confinement; one physical (the state writ large) and one fiscal (the levy upon goods)."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Deconstructing 'tax' as ritualized extraction: focusing on the specific forms of tribute (not just money) that flow from the local artisan class up to distant powers."
+"The painter as a third, invisible ledger entry: neither protected by the King nor burdened by the Merchant’s standard toll."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The dusty palisade wall surrounding a secondary royal outpost near the merchant district; Desire: To witness the exchange of raw materials—grain for protection—and realize the painter’s labor is just another, unpaid kind of tribute."
+"Setting: The outer edge of the haveli courtyard at dawn. Desire: To observe the arrival of official tax collectors (representatives of mercantile power) while simultaneously hearing a distant military patrol cadence (King's security). Obstacle: The painter must remain utterly silent to avoid being indexed or questioned by either party."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A narrow, shadowed thoroughfare between two havelis where guards conduct late-night patrols; Desire: For the painter to slip past them undetected while carrying a small, illicit cache of experimental color, turning surveillance into an artistic risk."
+"Setting: Inside a sealed chamber within the haveli, moments after the payment is rendered. Desire: To listen for the specific sound of coin changing hands and then fade into absolute silence—the sonic aftermath of financial obligation. Obstacle: The painter must decipher if this silence means reprieve or impending inspection."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The administrative office attached to a merchant's compound, smelling heavily of old seals and ink; Desire: To read a faded receipt detailing mandatory levies on 'domestic ornamentation', connecting the state apparatus directly to the frescoes."
+"Setting: High up on a precarious scaffold railing overlooking the fortified city walls in the distance. Desire: To trace the visual line connecting the protective, distant military architecture (King) to the specific commercial cluster below (Merchant). Obstacle: A sudden wind shifts focus away from both grand forces and onto the immediate vulnerability of the artist's position."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing not on the abstract power dynamic (King vs. Merchant) but on the material friction between military hardware (iron, rope, stone fortifications) and artistic tools (brush, mortar, pigment)."
+"Examining historical precedents of patronage in Rajput/Marwari states, specifically where state mandates intersected with private mercantile displays."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"A micro-history of obligation: tracing one specific mineral dye—its source, its journey to Rajasthan, and how both the royal monopoly and merchant trade dictated its final placement on the wall."
+"A linguistic breakdown of the terms 'security' (protection) and 'tax' (extraction), treating them as competing forces acting upon material value."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Shifting the burden from 'the painter's cost' to the sheer logistical complexity of *maintaining* this system of patronage—the endless movement of goods required by state and commerce."
+"The painter's work itself viewed as a form of unofficial social commentary—a passive resistance inscribed on sanctioned property."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The specific, metallic taste left on the lips after working near hot iron fittings used for gates or weaponry."
+"The sharp, acrid smell of gunpowder residue from distant guard postings mingling with the stale smoke of nighttime cooking fires."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The gritty texture of fine sand blown in from a fortified border crossing that coats both official seals and pigment containers."
+"The texture of polished brass fittings used by tax assessors contrasting with the grit-worn sandstone underfoot."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The high-pitched whine of wind whipping through narrow gaps in heavily reinforced stone enclosures at midnight."
+"A specific, high-pitched sound—perhaps the repetitive clanking of a small chain or lock being checked on commercial goods."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the standardized forms of 'tax' or tribute levied on non-essential cultural production in 18th/19th century Marwari trading centers?"
+"What were the typical jurisdictional boundaries where royal military oversight intersected with private trade enforcement within Shekhawati towns?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did local governance structures reconcile military protection requirements with emerging mercantile luxury demands in Shekhawati settlements?"
+"Can local historical records specify any punitive measures levied against artisans whose work was displayed in merchant homes without official registration?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A dialogue structure where the painter speaks to two unseen, abstracted voices representing 'Order' (King) and 'Demand' (Merchant), forcing him into a dialectic."
+"A strictly rhetorical structure, using tripartite phrasing (King/Merchant/Painter) across stanzas to establish an inescapable triad."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A strict cataloging structure: listing every necessary input—security patrols, tithes owed, required colors—and treating the poem as an inventory of obligation."
+"An invocation that names these three forces sequentially, with the poem describing each force's 'voice' or presence before settling on the painter’s silent counterpoint."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The role of intermediaries or brokers who profit from facilitating this complex balance between state and trade."
+"Focusing narrowly on how royal decrees were physically communicated to the wealthy merchant class via messengers, framing this as another layer of pressure."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"How local religious/spiritual figures managed to navigate or exploit the economic pressures exerted by both crown and market."
+"A reflection on the historical mechanism by which local religious sanction often buffered—or accelerated—tax collection demands."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While neighboring chapters deal with praise ('Blossom') or physical decline ('Haveli'), this chapter anchors itself in the institutional, systemic weight—the invisible tax code of power that dictates artistic viability."
-```
-
-## $["draft"]["sha256"]
-
-```json
-"10065011edd6c525a1afffba56c6e46c1072f2278fefbbc47b68615627a5afb8"
-```
-
-## $["draft"]["written_at"]
-
-```json
-"2026-10-04T19:11:59.317442+00:00"
-```
-
-## $["draft"]["origin"]
-
-```json
-"write"
+"This chapter shifts focus from internal labor (like Chapter 13) and external appreciation (like Chapter 9) to the invisible, coercive economic and political structures underwriting all creation in the haveli."
 ```

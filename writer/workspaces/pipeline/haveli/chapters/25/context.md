@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The textiles and plate that signal, beyond any ledger, that this man has arrived. The poem catalogs the goods of arrival — the silk, the silver, the ivory — and the quiet question of who paid for them."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"History of textile trade routes in Rajasthan (e.g., connectivity with Gujarat/Delhi)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Metallurgy and silver craftsmanship techniques prominent in Shekhawati during the 18th century."
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,139 +57,145 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Analyzing goods not by material value, but by origin: Tracing a single silk thread back to its specific source country (e.g., China vs. Persia) and what that implies about the merchant's network."
+"Treating the arrival of goods not as a celebration, but as an invasive geological event—the massive weight of foreign materials displacing local stone."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The tension of *pretense*: Focusing on items that are bought solely for their symbolic display—the 'show' material, which might be less valuable than its perceived worth suggests."
+"Examining the specific *texture* clash between silk (fluid, organic) and silver (hard, reflecting), positioning them as mutually hostile forces within the haveli's structure."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Viewing the goods through the eyes of a customs official or tax collector: A viewpoint concerned only with tariffs, quotas, and documentation rather than aesthetic wonder."
+"Shifting focus from Gangaram’s receipt to the hands that handle the goods: The tactile ritual of inventorying textiles and precious metals before they are even brought inside."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"setting: The unloading bay outside the haveli gates at dawn, desire: To see the *process* of inventorying these items—the stacking, weighing, and cataloging by specialized local laborers, obstacle: Bureaucratic delay caused by missing seals or documentation; turn: A minor disagreement over a disputed weight leading to a dramatic reveal about who truly holds economic power."
+"Setting: Near a large, draped bale of raw silk awaiting inspection; desire: A young woman touches the threads, wishing she could weave them into something that lasts longer than dye fades; obstacle: Her fingers recoil from a microscopic burr in the fiber."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"setting: Inside the merchant’s private counting room, surrounded by crates of goods, desire: To examine the packaging itself—the wrapping cloth, the wood grain of the crate, the smell trapped inside; obstacle: The items are being inspected for smuggled/untaxed origins; turn: One piece of ivory is recognized as belonging to a specific cultural group whose presence is now forbidden or highly regulated."
+"Setting: In a dark, subterranean storage chamber where silver implements are kept cool; desire: Gangaram insists on counting every single engraved motif of a specific mythological scene upon a tray; obstacle: A dampness seeps through the mortar, blurring the delicate artistry into indistinct washes."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"setting: A temporary receiving area courtyard, late at night, after all official viewing has ended, desire: To see the exchange happen on the margins—the private bartering between two merchants who are ostensibly rivals; obstacle: The constant threat of discovery by servants loyal to Gangaram; turn: The conversation reveals that some goods were acquired through coercion or debt repayment rather than pure profit."
+"Setting: The grand receiving hall at twilight, with only oil lamps flickering over stacked indigo bolts and silver vessels; desire: An older craftsman who once worked for Gangaram observes the display, realizing that his own skill is now merely inventory number, obstacle: He cannot bring himself to speak of its value."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the acquisition not as a singular purchase, but as a *year-long accumulation*: Cataloging how one item (e.g., a specific type of jade) slowly appears over seasons, marking shifts in the merchant's taste or fortune."
+"Analyzing the materials as coded language—what particular dyes or specific weights of silver historically signaled alliance or threat between trading partners."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on the 'empty space': The gap between two displayed luxury items—the dust settling between the silk bolts and the silver trays—and what that silence implies about their owners."
+"Focusing solely on the *sound* made by moving wealth: The rustle of heavy silks meeting the sharp, resonant clink of hammered coinage or ornate platters being set down."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The comparative biography: Pairing a single textile with a piece of metalwork, narratively explaining how one style influenced the other's artistic development over time."
+"A deconstruction of ownership itself: Is the haveli property belonging to Gangaram, the silver, the silk, or the historical routes that brought them all here?"
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way sunlight catches minute flaws in tarnished silver polish, revealing oxidized greens beneath the sheen."
+"The faint metallic chill emanating from a heap of unpolished silver coins kept in oiled cloth (Touch)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Smell: A complex mixture of aged saffron threads mingling with the sharp, metallic scent of raw, un-alloyed silver dust."
+"The specific scent of untreated indigo dye absorbing moisture from the humid Rajasthan air (Smell)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The cool, dry slickness of untreated ivory contrasting sharply with the slightly waxy resistance of expensive dyed silk fibers."
+"The audible *sibilance*—a dry, hissing sound made by thousands of silk threads rubbing against each other as they are laid out for inspection (Sound)."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the standard weights and measures used for luxury goods like high-grade raw silks or semi-precious stones in Shekhawati trade centers?"
+"What were the standardized weights or purity markers used historically in Shekhawati to verify incoming silver shipments from distant markets?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Are there surviving records detailing specific types of silver alloy markings unique to certain merchant houses during this period?"
+"Can we trace specific dye recipes known to have been favored by Marwari merchants, and what cultural significance did these colors carry?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][2]
 
 ```json
-"How did local artisans integrate foreign materials (like exotic dyes or foreign ivory) into traditional crafts within the haveli structure?"
+"Were there typical protocols for how textiles were stored (e.g., ventilation requirements) to prevent mold or insect damage in the period?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A tripartite poem: One section dedicated entirely to visual texture (silk), one to reflective surfaces (silver), and a final, brief meditation on the 'weight' of value (ivory/bone)."
+"A piece structured as a growing inventory list that spirals out of control, where descriptions begin to overlap and merge."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An inventory list format disguised as poetry, using catalog-style descriptions to build an escalating sense of material opulence."
+"An alternating structure: Stanza A describes one material (e.g., silk), stanza B describes another (e.g., silver), forcing a direct comparison between the two disparate elements."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][2]
 
 ```json
-"A poem structure built around the concept of reflection: What is seen in the mirror polish versus what is perceived by the naked eye?"
+"A highly fragmented structure mirroring the chaotic jumble in a merchant's storehouse, with brief, intense bursts of color and gleam."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The logistical nightmare of moving such high-value, disparate goods through semi-rural transport routes before they reached Mandawa."
+"How the aesthetics of imported goods were deliberately tailored to fit, or overwhelm, the existing indigenous architectural aesthetic."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"The role of foreign intermediaries (e.g., agents from Bombay or Calcutta) in structuring these purchases on behalf of the Marwari merchant."
+"The hidden logistics: The specific small-scale labor involved in preparing these massive displays (e.g., polishing, layering, setting up display stands)."
+```
+
+## $["creative_enrichment"]["unused_angles"][2]
+
+```json
+"A comparison between the visual richness of raw trade materials versus the painted illusion of the haveli itself."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While previous chapters have focused heavily on labor and ritualized expenditure, this chapter zeroes in exclusively on material goods, treating wealth as a physical collection that must be cataloged and defended."
+"This chapter shifts focus from the internal human drama (Gangaram's psyche) to the tangible external evidence—the accumulation of material wealth itself, treating goods as characters."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"e5abcef5f3362620299f691531539e7ef768cf7cd7b10d82d9c637b50914a178"
+"da52ae61cac348952c0a4efde83d1c29e3876bd389856da7530c4cfa67d675c7"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:07:09.450975+00:00"
+"2026-10-04T20:14:03.550762+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -228,14 +204,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"da52ae61cac348952c0a4efde83d1c29e3876bd389856da7530c4cfa67d675c7"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```
