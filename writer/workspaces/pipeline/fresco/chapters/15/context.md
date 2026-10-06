@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -57,101 +57,101 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Viewing 'seeing' not as public recognition, but as the irreversible moment one’s own internal mechanisms—fear, doubt, hunger—are rendered external and visible."
+"The artist choosing to become a deliberate *specter*—a figure seen only in the peripheral blur of memory, not sharp focus."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Framing the decision through a strictly economic lens: calculating the risk-reward of visibility against the certainness of anonymous sustenance."
+"Reframing 'being seen' as an act of cultural violation: what does it mean for raw struggle to enter a highly curated space like the haveli?"
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Presenting 'the cost' not in social exile or public censure, but as an ontological shift: the loss of one's capacity for pure, unburdened interiority."
+"Analyzing the language of disclosure: is confession (revealing the struggle) more honest or more destructive than silence?"
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The outer edge of the compound wall just before sunrise; Desire: To catch a single glimpse of the waking town (the beneficiaries) and decide whether that brief connection justifies the vulnerability; Obstacle: A sudden noise—a cart, a vendor’s shout—that snaps his resolve toward concealment."
+"Setting: The doorway leading out from the darkened studio alcove. Desire: To look back at the accumulated, beautiful frescoes—a tapestry of self-sacrifice. Obstacle: A sudden, sharp realization that to speak is to invite scrutiny."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The scaffold itself, near the final, critical section of color application; Desire: To deliberately smear a piece of preparation material onto the finished work as an act of silent protest/signature; Obstacle: A brief but intense surge of adrenaline when he realizes this small mark might be noticed by the early morning caretakers."
+"Setting: High on the scaffold, against a backdrop of indifferent desert night sky. Desire: The painter imagines his life's hidden labor as smoke rising from a dying fire. Obstacle: The wind changes direction, blowing away his meticulously gathered pigment dust."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The tiny basin where cleaning water and pigment slurry are mixed during his final washdown; Desire: To mix a color so vibrant it demands attention, knowing that excess brilliance is inherently provocative; Obstacle: The water temperature suddenly drops, forcing him to pause in an almost defenseless posture."
+"Setting: By the small, chipped clay jug holding water and binding agents. Desire: To mix a fresh batch of color, but stop short of applying it; an act of suspended will. Obstacle: A specific, high-pitched sound from below—a vendor's call that pulls him toward visibility."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing entirely on the language of negotiation or argument (internal monologue) as a substitute for physical action—the debate between silence and speech."
+"Shifting the focus from the *choice* to the *inertia* of the choice—the physical difficulty of breaking a decades-long pattern of silence."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Treating 'seeing' metaphorically: not human eyes, but the eye of history or posterity judging his choices from afar."
+"Examining 'truth' not as revelation, but as entropy: what is lost when truth degrades the surface beauty?"
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"A dialectical poem where one half argues for perpetual obscurity (comfort/safety) and the other demands radical disclosure (truth/meaning)."
+"Contemplating the difference between acknowledged suffering (visible hardship) and inherent struggle (invisible process)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The sharp smell of drying plaster meeting the sweet, damp scent of night-blooming jasmine clinging to the haveli walls."
+"The metallic tang of copper oxide dust mixed with sweat on the painter's fingertips."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The dull ache in the diaphragm from holding breath while balancing on unstable scaffolding supports for long periods."
-```
-
-## $["creative_enrichment"]["sensory_details"][2]
-
-```json
-"A single drop of concentrated blue pigment running down a fingertip and leaving an iridescent trail on his palm."
+"The sound of dried plaster settling in micro-creaks, like an ancient sigh under pressure."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What specific social rituals or taboos existed within Shekhawati merchant culture regarding public display versus private endeavor?"
-```
-
-## $["creative_enrichment"]["research_questions"][1]
-
-```json
-"How did concepts of artistic patronage in this period balance the requirement for anonymity against the desire for familial or civic pride?"
+"How did historical conceptions of spiritual endurance within Marwari artisan communities relate to the necessity of anonymity in highly public artistic displays?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A sustained, rhetorical questioning sequence that builds tension through escalating internal stakes."
+"A slow build where each repeated phrase gains a subtle, irreversible negative connotation (e.g., 'I hold,' moves from contemplation to restraint)."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Juxtaposing two physical locations (the cramped scaffold vs. a distant window) to represent the polarized choices available to him."
+"Alternating stanzas between precise technical observation (the chemistry of the color) and expansive metaphysical anxiety."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The specific psychology of public perception in a conservative, mercantile society."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A micro-analysis of how light behaves differently when illuminating highly perfected vs. rough, unfinished surfaces."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike Chapter 13's somatic focus and Chapter 7's regret over materials, this poem hinges on a high-stakes ethical calculus: action versus inertia, visibility versus survival."
+"Unlike the focus on external pressures (Chapter 12) or physical toll (Chapter 13), this chapter centers solely on an internal pivot point—the moment potential action meets paralyzing self-preservation."
 ```

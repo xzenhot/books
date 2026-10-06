@@ -1,18 +1,1 @@
-# দেখা হওয়ার দাম
-
-ভোর। দেওয়াল। চুনের গন্ধ।
-নামহীন হাত। ভাঙা নিঃশ্বাস।
-
-দেখা — নয় যশ। দেখা — খোলা ক্ষত।
-লুকিয়ে থাকা — শীতল রুটি। নিশ্চিত ভার।
-
-ভাঙা প্লাস্টার। ফাটল। কাঁপা আঙুল।
-এক ফোঁটা নীল। তালুতে রঙের দাগ।
-
-দূরের জানালা। নগরীর ক্ষুধা।
-আমার ভেতরের কম্পন — বাইরে? না কি আরও অন্ধকার?
-
-ছিঁড়লে আবরণ — শিল্প? না রক্তাক্ত স্বীকারোক্তি?
-নামহীন মরব? না কলঙ্কের ফনা হয়ে রইব?
-
-এই দাম। দেখা হওয়ার।
+The metallic tang of copper oxide, ground fine beneath the night’s kerosene lamp, tasted like a vow never spoken. High upon the scaffold, where the lime plaster breathed its slow, chemical sigh against the desert air, the brush paused. To reveal the strain—the tremor mapping the spine, the hours spent coaxing the deep lapis into submission—was to invite the merchant’s gaze, not as appreciation, but as dissection. The accumulated murals, a tapestry woven from sleepless nights and the friction of pigment against substrate, waited; a brilliant, frozen confession. But the confession itself, the raw articulation of the ache beneath the glaze, felt too volatile, a breach of the tacit agreement between the hand and the wall. To step down from this height, to speak of the scaffolding that held the fragile color, was to turn the divine labor into mere scaffolding—a temporary, ugly necessity. The silence, the deliberate act of becoming a phantom etched only in the finished sheen, held the greater weight, the heavier, more enduring patina. The painter held the palette, the vibrant ochres and cinnabars suddenly dull, an island of suspended will against the vast, indifferent sweep of the sleeping town, his silhouette a shadow poised above the unblinking dust.

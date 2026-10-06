@@ -1,9 +1,1 @@
-
-Refer examples from: 
-.framework\templates\stereotypes\poetry\styles\desh\examples.md
-
-Use small sentences , use punctuations 
-Use line breaks , discontinue sentences.
-
-It need not to be a story. 
-
+No transform required.

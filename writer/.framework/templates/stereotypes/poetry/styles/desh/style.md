@@ -122,6 +122,56 @@ These are living coordinates from the corpus — but re-key them to the book's o
 - **The residue** — what remains after the maker is gone: dust, color, memory, the mute object that outlives the hand.
 - **The meta-strain** — the work turning on itself. (For fresco: the painter looking upon his own painting.)
 
+## Vaishnav / Mendicant Register (the sadhu, boiragi, bostumi, fakir)
+
+The Desh pattern is subject-independent; this section is its **mendicant re-keying**.
+When the book's world is the village *akhra*, the *kirtan*, the *mazar*, or the road,
+replace the tantric families below with these — the *mechanics* (collision, anaphora,
+dropped verbs, noun-final fragments, long-breath/short-snap) stay exactly the same.
+
+### Vocabulary (closed, devotional)
+
+The register orbits a small closed lexicon; the same roots repeat in many forms.
+
+- **The Name & the deity** — নাম, নামগান, নামরস; হরি, কৃষ্ণ, রাধা, নিমাই, শ্যাম।
+- **The mendicant order** — সাধু, বৈরাগী, বোষ্টমী, ফকির, দরবেশ; ভেক (garb), ঝোলা (cloth-bag), ভিক্ষা (alms)।
+- **Devotion** — প্রেম, ভক্তি, রস, মাধুর্য, প্রপত্তি, বৈরাগ্য, প্রেমানন্দ।
+- **The land** — মাটি, গঙ্গা, জল, মাঠ, খাল, বিল, ধুলো।
+- **Kirtan & song** — খোল, করতাল, একতারা; কীর্তন, পদ, গান, গাথা।
+- **The body & breath** — প্রাণ, দেহ, বুক, পা, হাত।
+- **The master** — সাঁই, পীর, গুরুমশাই, খোদা।
+
+### Collision (sacred against the low, zero bridge)
+
+The signature two-term juxtaposition, re-keyed — the god's name against the bare
+foot, the shrine against the hunger of the road:
+
+- "নামের স্রোতে মাটির ঘর" — the current of the Name, the mud hut.
+- "ভিক্ষার ঝোলায় রাধার প্রেম" — Radha's love in the alms-bag.
+- "মাজারের ধুলো, পায়ের তলা" — the shrine's dust, the sole of the foot.
+- "খোল বাজে, পেট খালি" — the drum beats, the belly empty.
+
+### Anaphora & the circular return
+
+- Build on **"হরি বলো… হরি বলো…"**, **"নাম… নাম… নাম…"**, **"ও মন…"**, **"ও ভাই…"**.
+- The kirtan opens and closes on the same refrain — "নাম রইল, আমি রইলাম না" (the
+  Name remains, I do not) — framing the poem at maximal distance.
+
+### Voice & address
+
+- The "I" is the constant; **"ও মন" (O mind)** and **"ও ভাই" (O brother)** are the
+  recurring vocative addressees; **"কী পাব…?" (what shall I gain?)** and **"কেন…?"
+  (why?)** are the unresolved questions.
+- The register is **warmer and less anatomical** than the tantric one — the plain
+  village word (dust, footpath, jhola) carries more of the weight; *tatsama* +
+  Perso-Arabic density sits around **25–40%**, a little lower than the tantric register.
+
+### Re-key rule
+
+Where the tantric reserve says *শবসাধনা*, the mendicant register says *নামগান*; where
+it says *শ্মশান*, this says *আখরা* or *মাজার*. The **collision is the constant, not
+the vocabulary** — the high (the Name) always bleeds into the low (the empty belly).
+
 ## Instruction
 
 - Write poetic prose — no rigid rhyme or meter; long, enjambed, incantatory sentences.
@@ -131,6 +181,23 @@ These are living coordinates from the corpus — but re-key them to the book's o
 - Root the esoteric in the body and in the book's own material: pigment, lime, flesh, breath.
 - Introduce fresh metaphors drawn from the book's material — never stock phrases, never imported tantric terms.
 - **Vary the subject and the opening each poem** — the subject comes from the book's Subjects Registry, and no two poems may open or close the same way.
+
+## WRITING CHECKLIST
+
+| Element | Target |
+|---|---|
+| **Register** | Seasoned, resonant Bengali — learned and everyday in balance; *tatsama* sparing, re-keyed to the subject |
+| **Voice** | First-person, confessional, seasoned, quietly self-accusing, dryly humorous |
+| **Imagery** | Primary: desk/manuscript, city/desh, aging body/memory, recognition. Secondary (reserve): corpse/serpent/cosmos |
+| **Experience** | Ground the poem in a lifetime — thinking, living, conflict, pain, failure, understanding, awards |
+| **Collision** | The elevated and the crude named in the same breath — placed, not sprayed |
+| **Transgression** | Rationed — a plain word when it earns the moment, never a default |
+| **Form** | Prose block or line-broken; long enjambed sentences; anaphora used with restraint |
+| **Closure** | Unresolved — a rhetorical question, a paradox, or a circular return |
+| **Line breaks** | Have line breaks — line length varies by the material |
+| **Adjectives & tatsama** | Use more adjectives; keep ~10% of the words *tatsama* |
+| **Rare / nominalized words** | Use rarely-used words — verb-turned-nouns and adjective-turned-nouns at ~10% |
+| **Subject independence** | The subject varies freely; the veteran's voice persists |
 
 ## Operational Prompt Template (to write a new poem)
 

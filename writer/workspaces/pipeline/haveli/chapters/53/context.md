@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -39,46 +39,10 @@
 ## $["further_references"][0]["reference"]
 
 ```json
-"Iconography of divine processions in Rajasthani temple art."
+"Regional myths concerning boundary blurring between illusion and reality in Rajasthani folk art."
 ```
 
 ## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Material science of plaster and fresco pigments under atmospheric stress."
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][2]["no"]
-
-```json
-"3"
-```
-
-## $["further_references"][2]["reference"]
-
-```json
-"Ritualistic performance spaces in Rajput/Marwari domestic architecture."
-```
-
-## $["further_references"][2]["weblink"]
 
 ```json
 ""
@@ -93,7 +57,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -105,145 +69,127 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing the 'stepping' not on gods, but on the merchant class's perceived divinity—Gangaram believing his wealth grants him divine status within the haveli itself."
+"The gradual, almost imperceptible shift from the divine gaze (the 'gods') to a specific, mundane human glance trapped within the paint."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"A structural analysis of the painted characters: treating them like a poorly engineered set piece where gravity (or physics) finally wins against illusion."
+"Framing the dusk not as an external time marker, but as the moment the *colors themselves* achieve temporal instability—a chemical reaction seen visually."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Shifting the perspective to an observer *from* another dimension/reality who views the fresco as a projection, rather than mere paint."
+"The internal conflict of the observer: Is this seepage reality breaking through the artifice, or is the speaker's exhaustion causing projection?"
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The specific painted depiction of guardian deities near an outer wall niche; Desire: For one minor deity figure (like a jackal or attendant) to fall from its bracket due to accumulated grime or vibration, marking the boundary break."
+"setting: A niche depicting a celestial court, desire: To articulate the specific texture of 'unpainted air' that seems to emanate from the figures, obstacle: The insistence on formal poetic restraint, preventing any true linguistic eruption."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A section depicting celestial court life with multiple figures in poses of ascent/descent; Desire: To follow one specific painted shadow cast by an overhanging element that seems physically disproportionate, suggesting a hidden support beam unseen by previous viewers."
+"setting: A shadowed corner near a fading mythological scene, desire: To find one single object depicted—a piece of jewelry, a flower—that seems to physically vibrate as the light fails., obstacle: The overwhelming weight of expectation for grand pronouncements at twilight."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The transition point where the fresco art meets actual, weathered stone architecture (e.g., framing columns); Desire: A single object—a discarded hairpin, a loose bead—is found wedged exactly in this seam, appearing too modern or out of place to be part of either reality."
+"setting: Near a central figure in repose, desire: To map how shadow deepens into *presence*, making the painted form momentarily corporeal against the flat plaster., obstacle: The urge to explain this phenomenon, which would destroy its eerie ambiguity."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Viewing the 'stepping' sequence as a repetitive cycle that mirrors cyclical economic booms and crashes (prosperity leading inevitably to stagnation)."
+"Treating the blurring as a shared hallucination between the fresco and any remaining living inhabitant or caretaker (if one is imagined)."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Treating the figures not as divine, but as an eternal sales team: perpetually advertising status, wealth, and correct social decorum."
+"Focusing on the pigment's *resistance* to dissolution: The way that specific, rich color holds its edge against encroaching dusk, even while the form wavers."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"A poem structured around failure modes: cataloging which god/figure's paint layer fails first under adverse environmental conditions."
+"Analyzing the mythological figures not as divine, but as representations of arrested human ambition or waiting."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The minute chipping of calcite deposits that reveals the underlying chalk or plaster base material beneath the colored pigments."
+"Sight: The precise gradient where crimson pigment loses its saturation at the edges and seems to thin into actual violet dusk."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The high, thin whine of dry mortar dust being agitated by air currents passing through an ill-fitting junction between paint and stone."
+"Tactile: A phantom sensation of dry heat radiating from a specific painted deity's forehead, incongruous with the cool evening air."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: Feeling the gritty residue on fingertips when tracing a figure's painted outline, realizing it is not just pigment but mixed binding agent."
+"Sound: Not wind or silence, but a singular, extremely high-pitched *harmonic* generated by the interaction of old plaster and cooling temperature."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"Were deities depicted in procession typically constrained by architectural frames, or were these depictions allowed greater spatial freedom?"
+"What were common local metaphors for 'becoming real' in folk traditions relevant to this architectural style?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"What are the local interpretations regarding what happens to devotional art when its associated patronage/worship wanes?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"How did the physical maintenance (plaster repairs) of frescoes change artistic conventions over time?"
+"How do specific mineral pigments react physically to rapid drops in ambient temperature?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured entirely as a series of technical observations, mimicking an archaeologist's report detailing structural instability."
+"A sustained meditation on a single threshold moment, where the shift happens in three distinct beats rather than one unified transition."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A dramatic monologue delivered by one 'witnessing' figure who has observed cycles of grandeur and decay for centuries."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"Using dialogue tags taken from the painted figures: e.g., \"(The Goddess whispers)\", \"(The attendant gasps)\", structuring stanzas around overheard pronouncements."
+"Beginning with the most mundane element (a stray insect landing near the painting) and allowing that small intrusion to trigger the perception of 'stepping'."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"How the act of viewing itself alters the perceived 'depth' of the fresco, making it seem to recede or advance based on the viewer's emotional state."
+"Focusing on how the *pattern* of the paint cracks mirrors complex geometric patterns found in external Rajasthani textiles, suggesting a shared coded language."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"A comparison between the stylized, idealized bodies in the art versus the actual human musculature required for such poses."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"Focusing on color theory: Which pigments survive longest under dust and humidity, suggesting what cultural elements were most resilient?"
+"Exploring the theological implications if these immortalized figures begin to experience temporal aging themselves."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike earlier chapters focusing on concrete economic goods (salt, cotton) or singular events, this chapter must focus purely on the ambiguity of boundary—the line between paint and flesh, art and existence."
+"Unlike chapters focused on objects (like ledgers or gramophones), this piece must resist definition, centering entirely on a perceptual ambiguity between art and existence."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"d3ff81b50ec4164cf743deb6e64b236d14905518d6d963109176372212f2078f"
+"6c07d021185bbbc9415909480b88ed3e0b6ad11d83f4ab7b645d1ea5c046b145"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:14:29.364453+00:00"
+"2026-10-04T20:19:15.832178+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -252,14 +198,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"6c07d021185bbbc9415909480b88ed3e0b6ad11d83f4ab7b645d1ea5c046b145"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

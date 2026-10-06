@@ -1,12 +1,1 @@
-এই প্রাচীর, এই চুন-খুঁটি, কত দামি হিসেবের খাতা!
-কামেল দল চলেছে, ধুলো মাখা, দূর বাজারের ঘ্রাণ বুকে নিয়ে।
-indigo আর রূপার সূক্ষ্ম বিনিময়—
-তবু এই রঙ, এই ল্যাপিস, এই শ্রমের ভার, কার নামে লেখা?
-আমি কাঁধে তুলে নিই সেই ধূলিকণা।
-বহু দূর, বহু পথের, মসলার গুঁড়ো, যা মার্বেল মেঝেতে জমাট বাঁধে।
-আমি তো শুধু হিসেবের অঙ্ক কষি, সৌন্দর্যের নামে,
-কত বর্গফুটে কতটুকু সমৃদ্ধির আবছা ছাপ পড়ে?
-আয়নার মতো চকচকে এই হাভেলিগুলো,
-কিন্তু ভেতরের ভাঁড়ারঘরে, সেই পশম-পাকড়ের ক্লান্তি,
-সেটা কি কোনো লিপিতে স্থান পায়?
-আমি শুধু পড়ি, এই রঙ নয়, এই তো শুধু লেনদেনের স্থিতি।
+The sun, a brass gong struck too late, beats down on the courtyard, baking the lime dust until it smells of old ambition and dry earth. Below, the muffled rhythm of cartwheels scrapes the uneven paving, a low, grinding pulse that speaks of distant tides of cloth and spice. I watch from the scaffolding, the raw scaffold-wood biting into my shoulders, tracing the weight of a single camel passing down the thoroughfare—its load a slow, impossible rainbow, a captured riot of Persian dye that matches the lapis I bled onto the plaster only hours before. This wealth, this current of silk-route gold, flows through the city, a river of barter and desire, yet it is a river that never stops at my threshold. It enters the haveli, thick and potent, and settles, inert, into the permanence of pigment. The merchant’s runner, a shadow impatient in the doorway, taps the rhythm against the cool stone, a sharp, brittle summons to completion. He sees the bloom, the finished façade, the polished lie of prosperity. He does not see the night breathing out under the weak lamp, the way my lungs catch the metallic grit of plaster mixed with the desert's fine, indifferent powder. The gold, vast and chaotic in the caravans, becomes this static declaration, this painted silence on the wall, a beautiful, unacknowledged tax paid in exhaustion. The camel moves on, its burden dissolving into the heat haze, leaving only the stubborn, unwritten ledger in the dust, and the unfinished edge of the niche where the shadow still clings, thick and unpainted.

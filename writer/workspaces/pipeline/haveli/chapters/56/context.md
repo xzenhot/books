@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The restorers' brushes meet frescoes that refuse to yield their age, the pigment clinging to its own history. The poem stages the conflict between the worker and the wall, the past that will not consent to be made clean and new."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Fresco restoration techniques in North India (modern chemical/physical methods)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The sociology of art ownership and decay in decaying historic mansions"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,151 +57,145 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Framing the pigment not as paint, but as condensed memory—each particle having absorbed a specific historical emotional resonance (grief, ambition, sale)."
+"Framing the act of restoration not as preservation, but as a deliberate form of historical vandalism—erasing agency."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Adopting the perspective of a single mineral binder used in the plaster mix; its survival depends on weathering forces rather than human intention."
+"The pigment's resistance personified: viewing it as organic life fighting chemical erasure, akin to cellular death."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"A study where the 'restoration' is portrayed as an aggressive form of erasure, and the poem celebrates the beautiful damage—the unintentional history revealed by decay."
+"Shifting focus from Gangaram’s wealth to the labor of remediation; the modern caretaker inherits his burden, not his glory."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A corner fresco depicting a minor domestic ritual (e.g., weighing spices); Desire: For the pigment to flake off at the precise point where a specific weight of vanished goods once rested; Obstacle: The modern, chemical adhesive used by the conservator that refuses to acknowledge natural entropy."
+"setting: A specific corner where mold has bloomed over a royal hunting scene, desire: The restorer wants to lift the grime without losing the depth of the original indigo., obstacle: The mortar holding the pigment is crumbling unevenly, threatening total loss in that one spot., turn: A worker pauses, unable to scrub because they sense a specific pattern beneath the decay—a forgotten inscription."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Near an exposed section of plaster where old frescoes meet structural limestone support; Desire: To find a remnant (a fallen petal, a stray thread) trapped *between* two layers of pigment representing different eras; Obstacle: The sheer weight of accumulated dust and neglect making the discovery impossible without destructive excavation."
+"setting: The exposed underlayer of faded murals depicting merchant processions, desire: To recover the vibrancy of a particular shade of cinnabar., obstacle: Chemical residue from past, failed cleaning attempts has fused with the original binder, creating an unnatural hardness., turn: When pressure is applied to remove the surface layer, instead of pigment, a tiny shard of broken glass—a piece of domesticity, not art—is found."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: A wall segment that was deliberately left intentionally unpainted by the merchant family (the 'blank spot'); Desire: For this blank area to absorb and mimic the vibrancy of the adjacent, fading mythological scenes through residual pigment transfer; Obstacle: The inability to determine if its vacancy is an act of faith or economic resignation."
+"setting: The high archway where figures in ceremonial attire are painted, desire: To stabilize the skin-like quality of the plaster faces., obstacle: A draft slips through a crack adjacent to the painting, causing minute flakes of paint dust to drift and settle across other areas at different rates., turn: The pigment resists not only cleaning agents but also *air* itself, implying its endurance is tied to atmospheric stasis."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the pigments like a coded language: Each color family (vermillion, lapis, ochre) represents a specific social class or commodity traded in Mandawa."
+"Focusing on the *tools* of restoration—the brush hairs, the solvents, the fine implements—as miniature instruments of judgment."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on the 'thickness' of time embedded in the wall, contrasting the thin patina of age with the overly robust, visible additions of modern repair work."
+"Treating the paint layer as palimpsest: each surviving color is an accidental historical annotation layered over a deeper truth."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"A dialectic between permanence and transience: Is the pigment itself more ephemeral than the stone beneath it, or is the art form inherently unstable?"
+"Shifting agency entirely to the material itself; the pigment has its own resistance strategy independent of human intervention."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way dry brush hairs catch the low afternoon sun, creating a rainbow of mineral dust particles against dark sandstone."
+"Visual: The fine network of craquelure forming geometric patterns that precisely match the grain structure of raw, local sandstone blocks used in the building."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: A highly specific, high-pitched *scritch* sound made when the conservator scrapes away ancient grout to reach the original plaster surface."
+"Tactile: The unexpected slickness or slipperiness of a specific mineral binder when touched by a damp cloth, contrasting with dry, brittle areas."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The oily, cool resistance felt in the palm when pressing against a section coated with millennia of airborne pollutants and semi-permanent grime."
+"Olfactory: A sharp, metallic smell emanating from modern fixing agents reacting violently with ancient, oxidized iron pigments."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What pigments were historically most resistant to humidity fluctuations common in arid desert environments, and what are their chemical compositions?"
+"What are the documented physical behaviors of certain traditional Rajasthani mineral dyes (e.g., ochres or lapis substitutes) when exposed to both acid and high humidity fluctuations?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Were there local artisan guilds responsible for the *application* of protective coatings on frescoes, or was this always a purely cosmetic process?"
+"Are there localized folklore references regarding the 'spirit' or life force retained within ancient painted surfaces, particularly in mercantile architecture?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][2]
 
 ```json
-"How did the concept of 'restoration' evolve from religious mandate (preservation) to commercial necessity (tourism/value retention)?"
-```
-
-## $["creative_enrichment"]["research_questions"][3]
-
-```json
-"Did the merchant class view their painted art as sacred, requiring specific maintenance rites, or purely decorative status symbols?"
+"How did Mughal/Rajput restoration techniques differ from modern chemical conservation methods concerning pigment adhesion?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured as a Q&A session between an aging master artisan and a skeptical modern academic."
+"A relentless cataloguing structure: listing pigments by their required physical intervention—e.g., 'The Earth-Red requires gentle scraping; the Sky-Blue demands solvent diffusion.'"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"The chapter taking the form of three competing 'expert' testimonies (archaeologist, chemist, historian) who disagree fundamentally on what the pigment represents."
+"An alternating structure between minute technical description (the scientist's view) and a vast, sweeping mythic statement about impermanence (the poet's sigh)."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][2]
 
 ```json
-"A narrative progression mapped spatially across the wall: moving from the pristine (newest repair), to the faded mythic core, and ending at a single, untouched corner."
+"A highly internalized monologue of one individual conservator who is simultaneously cataloguing failure while attempting preservation."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The concept of pigments used for *camouflaging* imperfections rather than enhancing beauty."
+"The dialogue between the local restoration expert and an external, academically trained conservationist—a clash of knowledge systems."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"Exploring potential ritualistic use of specific color combinations that held apotropaic (evil-averting) power in the local context."
+"An extended meditation on how light, when filtered through a window onto the pigment, reveals different structural flaws than it does under direct lamplight."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][2]
 
 ```json
-"How water damage, when it occurs, affects different types of binder (lime vs. gypsum) unequally."
+"Using the resistance to symbolize Gangaram's own stubborn refusal to accept economic failure."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Where previous chapters focused on external forces (wind, sound, economic shift), this piece concentrates entirely on the material interaction between an active agent (the restorer/the pigment itself) and the enduring structure, treating decay as a subject of conflict rather than just residue."
+"While neighbours have explored the transient nature of scent and sound in decay, this chapter focuses on the physical, abrasive confrontation between deliberate human maintenance and immutable material history."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"7e41630d9984aa7e2edf7d44a40f3eb5e869d284c0c8c273fb44e9b8df0de991"
+"a8e6d057752f2919da973807ebcca1bceac50eb35722db58492b62765268b083"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:15:13.015048+00:00"
+"2026-10-04T20:19:50.344342+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -240,14 +204,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"a8e6d057752f2919da973807ebcca1bceac50eb35722db58492b62765268b083"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

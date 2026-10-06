@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -39,7 +39,7 @@
 ## $["further_references"][0]["reference"]
 
 ```json
-"Rural labor rights in pre-modern Indian urban centers regarding seasonal migration wages"
+"The socio-economic afterlife of artisanal labor in vanishing trading towns"
 ```
 
 ## $["further_references"][0]["weblink"]
@@ -57,7 +57,7 @@
 ## $["further_references"][1]["reference"]
 
 ```json
-"The cultural significance and poetry of waiting/patience ('sabr') within Rajasthani folklore traditions"
+"Pre-colonial Indian systems of unpaid or deferred debt and justice"
 ```
 
 ## $["further_references"][1]["weblink"]
@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,127 +87,127 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the non-monetary currency of patience: The exchange rate between years of enduring silence and a single promised remittance."
+"Focusing the perspective exclusively on one specific, mundane item left outside the door—a discarded tool, a scuffed sandal, a fallen piece of pottery—as proxy for the entire group's collective grievance."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The perspective of the threshold itself—a boundary object that has absorbed all forms of waiting, becoming porous to different types of desperation (poverty, longing, debt)."
+"Treating the queue/gathering not as a human mass but as an inert accumulation: bodies pressed against stone, forming a non-sentient pressure point that is heavier than expectation."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Framing the group not as individual sufferers, but as a collective 'ledger' kept by time: their accumulated patience is its own currency, awaiting recognition."
+"Employing extreme specificity to list each individual’s reason for waiting (one seeks medical aid, one needs shelter, one waits for news of a lost relative), rather than treating them as a generalized class."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The dust-caked steps directly outside the locked door; Desire: To hear footsteps approach that belong to someone who remembers Gangaram's promises (a specific creditor/debtor); Obstacle: The crowd of current waiters, whose presence is now deafeningly permanent."
+"Setting: The outer dust-caked courtyard step; desire: A single elderly woman clutching an unused, rusted measuring weight from her former trade; obstacle: The silence is so absolute that the sound of wind rustling dried leaves seems like a judgment."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A nearby street corner where a common laborer pauses their day’s work; Desire: To notice one person in the waiting cluster exhibiting a sudden, inexplicable act of self-possession or agency; Obstacle: The weight of collective historical grievance keeping everyone rooted to place."
+"Setting: Beneath the deep shadow cast by the haveli’s lowest supporting pillar; desire: To witness one specific craftsman nervously polishing a tool he cannot use because his employer is absent; obstacle: He hesitates to enter, terrified the lock will turn and admit him into an unpayable debt ledger."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: An adjacent haveli, slightly more visible and grander, whose inhabitants are currently oblivious; Desire: For a single object from that neighbor’s life (a child’s toy, discarded shawl) to fall directly at the feet of one waiting person; Obstacle: The perceived shame or humiliation that prevents anyone from acknowledging such an accidental gift."
+"Setting: The very spot where the threshold stone meets the earth of the main path; desire: A boy watches a single drop of morning dew bead on the door's lower panel, believing it holds the accumulated tears of all who wait; obstacle: The weight of expectation makes him unable to touch the cold metal."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating 'waiting' as a form of active resistance—the sheer refusal to disperse until acknowledged by authority."
+"Shifting from *waiting* (temporal extension) to *physical presence* (spatial imposition)—the physical occupation of space outside the mansion as a form of silent, enduring claim."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Shifting the focus entirely away from Gangaram’s debt, instead analyzing what *they* owed the haveli or the town simply by existing in its shadow for so long."
+"Reversing the causality: instead of the poor waiting for Gangaram's acknowledgement, focusing on how their continued visible existence forces the Haveli itself into a state of perpetual instability and unrepaired decay."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Viewing the waiting group through an astronomical lens: their cyclical nature mirroring distant constellations that only become visible when viewed against a stable backdrop."
+"A hyper-focus on the *sound* quality of the outside world—the specific cries of street vendors or animals that are utterly indifferent to the human tableau at the gate."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Smell: The dry, acrid scent of unburnt cooking smoke mingling with stale animal sweat near the threshold."
+"Visual: The texture of layered, sun-bleached cobwebs spun between low railings, catching the light like tattered financial reports."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The rhythmic *clack-scrape* sound of metal cart wheels passing nearby during an unrelated market transaction, momentarily disrupting the silence of accusation."
+"Auditory: The near-inaudible grinding sound of dry grit shifting under footstep, a constant whisper underlining any silence."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Sight: How the pale afternoon light catches and exaggerates the dust motes suspended exactly in the gap between the door jamb and the frame."
+"Tactile: The surprising coolness and hard resistance of ancient stone steps against bare feet after long hours in the sun."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the common, non-material forms of debt or obligation recorded by local mercantile communities during periods of economic flux?"
+"What were the contemporary legal mechanisms for redress against large-scale mercantile debt in this region before formal colonial structures?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did oral traditions concerning forgotten promises function as a form of localized social law when written records failed?"
+"How did communal support systems function among marginalized laborers whose work was temporarily halted due to economic collapse?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A piece structured entirely around cataloging the sounds that *should* be happening (voices calling, footsteps echoing, laughter) but are instead absent."
+"The poem is structured as a series of unanswered logistical questions posed aloud, each dissolving into silence upon delivery."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Using rapid-fire shifts in perspective between one individual’s micro-history and the monolithic silence of the locked door structure itself."
+"A fragmented sequence where time jumps between the immediate moment outside the door and brief, imagined flashes of specific grievances within the empty haveli."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"Examining the specific physical toll on the most marginalized person waiting—the elderly, the infirm—whose stillness is a declaration."
+"Examining the relationship between the collective waiting and local religious iconography—does their presence become a form of secular pilgrimage?"
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"Interweaving folklore motifs concerning boundaries: what rituals are required to cross from 'waiting' into 'moving forward'?"
+"The concept of 'witnessing' from the perspective of an uninvolved bystander (a traveling merchant, a village elder) who observes the tableau without judgment or intervention."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter shifts focus entirely from the opulent interior and the merchant's internal arithmetic (Chapters 58/60) outward, focusing on the periphery—the collective human consequence of private ruin playing out in public space."
+"Unlike preceding chapters which focus on architectural spectacle or internal accounting, this piece grounds the narrative entirely in the external periphery—the marginalized body meeting the impenetrable boundary of wealth and ruin."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"0b579c96d60a38d579b50e2a116ec33cca4e395883f282fcacbb5389d4be0982"
+"3a06d97cd2a1a2fc938a648da680ae2bdbc2354f8d4fee6e9a49065034551464"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:15:58.884843+00:00"
+"2026-10-04T20:20:23.695430+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -216,14 +216,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"3a06d97cd2a1a2fc938a648da680ae2bdbc2354f8d4fee6e9a49065034551464"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

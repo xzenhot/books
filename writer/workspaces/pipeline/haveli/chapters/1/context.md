@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,58 +30,10 @@
 "Before the fortune, before the haveli, Seth Gangaram keeps the village accounts as a barefoot clerk, his figures already dreaming of walls. The poem opens on the bare feet that will one day be carried on a palanquin, and asks what a man is before the world remembers his name."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Village record keeping practices in North India"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Social standing markers for lower-caste service workers"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][2]["no"]
-
-```json
-"3"
-```
-
-## $["further_references"][2]["reference"]
-
-```json
-"The cultural significance of bare feet in Indian art and ritual"
-```
-
-## $["further_references"][2]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -105,161 +57,119 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Examining the clerk's perception not as a tool for profit, but as an act of literacy resistance against oral tradition."
+"The clerk's internalized geometry: how simple arithmetic manifests as the blueprint for future architectural grandeur."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Framing his poverty not in terms of lack of money, but in terms of restricted physical movement and forced anonymity within the village hierarchy."
+"The weight of un-spoken knowledge: focusing on the difference between what Gangaram knows (figures) and what his community perceives of him (a shadow, a worker)."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Interweaving the narrative with the perspectives of the villagers who view him merely as another low-caste laborer, focusing on their immediate needs rather than his internal ambition."
+"Metaphysical accounting: treating the village's spiritual debt or unspoken social contracts as invisible lines in his private tally."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The small community well at dusk; Desire: To write down something beautiful about a passing stranger's story; Obstacle: Running out of cheap ink and needing to borrow from a respected elder who scoffs at record-keeping; Turn: He realizes the only thing that counts is the collective memory, not his ledger."
+"A sudden early morning rain washes away chalk figures drawn near his workspace; he watches them blur into indecipherable data."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A dusty corner outside the local administrative outpost; Desire: To prove his mathematical skill beyond simple accounting by solving an impossible riddle presented by a minor official; Obstacle: The heat blurring his vision and making arithmetic difficult to verify against shaky memories of numbers; Turn: He uses folk mathematics or non-standard counting systems unknown to the literate elite."
+"He secretly compares his rough, handwritten village ledger to an imaginary, impossibly perfect slate of a future grand account book."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: An evening gathering where trade deals are struck verbally over village sweets; Desire: To gain the trust of a local moneylender by predicting commodity price changes based on gossip; Obstacle: A drunken argument derails his careful prediction, causing him to be publicly mocked for his 'book smarts'; Turn: He survives the humiliation by correctly calculating the minimum collateral needed to salvage face."
+"An old woman passes by at dawn, noticing the intensity in his focus, and offers him a wordless prayer that feels like a counter-entry against his ambition."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing entirely on the physical act of counting and the muscle memory involved in penmanship before profit becomes a concern."
+"Focusing on the *material* of the labor—the calloused skin absorbing ink stains as if they were initial mortar dust."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Treating the village as a living ledger itself, where every interaction (favor given, debt owed) is noted internally by Gangaram."
+"Treating literacy itself not as an achievement, but as a precarious, inherited burden from ancestors who guarded secrets in numbers."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Exploring the clerk's early education—not in commerce, but perhaps in local oral histories or myth cycles recorded on makeshift scrolls."
+"The contrast between the ordered precision required by accounting versus the chaotic entropy of rural dawn."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The smell of dry earth kicked up by passing oxen hooves near his ankle bones."
+"The damp chill clinging to unshod feet before sunrise, smelling of wet earth and night dew."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The gritty texture of charcoal dust stained beneath the nails when using inexpensive writing materials."
-```
-
-## $["creative_enrichment"]["sensory_details"][2]
-
-```json
-"The high, repetitive sound of a nearby weaver's loom marking time in rhythm with his ticking clock-like mental tally."
+"The faint scratching sound of charcoal on rough paper echoing unnaturally loud in the pre-dawn silence."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were common non-written forms of record-keeping or oath-taking among pre-modern rural communities that Gangaram might observe?"
-```
-
-## $["creative_enrichment"]["research_questions"][1]
-
-```json
-"What was the typical hierarchy of local labor skills and how did 'book knowledge' intersect with physical village trades?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"How would early 20th-century clerical uniforms or attire contrast with actual working clothes in a small Rajasthani village setting?"
+"What local folklore or superstitions regarding numbers/reckoning might have existed in Gangaram's village environment that conflict with purely mercantile logic?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A frame narrative entirely composed of interjections from three different villagers watching him work."
+"A series of short, almost breathless stanzas mimicking rapid calculation strokes."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Structuring the poem as an escalating series of accounting entries, where each stanza represents a transaction (a person, a commodity, an emotion)."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"Using sharp shifts in meter/rhythm to mimic the anxiety between counting time and counting coins."
+"The poem begins with a detailed description of the physical state (feet, light) and only introduces abstract concepts of 'value' in the final lines."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The initial relationship with his immediate family before any success is achieved."
+"Examining the role of regional dialects in how financial transactions are verbalized before being inscribed."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"His early interactions with religious scholars who dismiss his purely secular arithmetic skills."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"A detailed focus on the objects he collects (scraps of paper, unusual stamps) as if they are proto-investments."
+"The specific texture or type of clay/paper used for the most crucial early records."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike chapters focusing on massive trade goods or grand architecture, this piece must remain intensely intimate and small-scale, centering ambition within the physical confines and low status of village life."
+"This chapter grounds the massive scope of wealth to its single, vulnerable point—the unadorned body and mind existing before external grandeur can be claimed. It focuses on internal mathematics rather than external trade flows or aesthetic displays seen later."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"e5c48001dcd25ed7ff256b553990d62eed8bef40733a45664378f8b7c4767b92"
+"28c2ae285c765a73fcea11a17b50fe83dcbded836885c58b9c71ebaf7c61493d"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:01:07.912086+00:00"
+"2026-10-06T11:38:38.078236+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

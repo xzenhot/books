@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The opium and cotton fortunes reverse, the boom becoming a bust as the prices fall. The poem captures the vertigo of the reversal, the merchant watching the same ledger that made him now begin to unmake him."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Economic theories of commodity bubble bursts in pre-industrial Indian trade centers"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Historical documentation on opium and cotton market fluctuations specific to Shekhawati period"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,139 +57,133 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"The cost calculation of delayed expectation: Rather than tracking physical currency, the poem tracks the monetary value lost in *time*—the worth of a year's waiting built into an item."
+"The fortune's collapse viewed entirely from the perspective of a highly skilled artisan—the painter or mason whose life's work is instantly devalued by market shift, not personal failure."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Comparing commodity decline to biological decay: Treating the falling price not just as economics, but as the slow, visible wilting or petrifaction of valuable organic matter (like once-vibrant textiles)."
+"Framing the financial downturn as a kind of spiritual famine: How greed itself becomes indigestible when revenue stops flowing, turning wealth into toxic sludge within the haveli structure."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The bureaucratic response to collapse: Focusing on the *process* by which government agents or estate managers declare assets worthless, rather than focusing on Gangaram's personal feeling of loss."
+"The epistemic crisis: The merchant loses confidence in his own memory and perception; does he start to doubt if the fortune ever existed at all?"
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The warehouse where cotton bales are stacked; Desire: To calculate how many days of dwindling supplies (e.g., lamp oil for the night watchman) equal the current market rate for a single bale; Obstacle: A sudden, mandatory government inspection requiring immediate, verifiable inventory."
+"Setting: Gangaram standing before a fresco wall, Desire: To recall the specific celebratory moment of its completion (the height of power), Obstacle: The light failing, casting deep shadow where the gold leaf once shone brightest, Turn: He begins to suspect the entire painting was never commissioned."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Outside the gates facing the primary thoroughfare where merchants used to bargain; Desire: To have an old guide recount the specific price fluctuation of three different goods (opium, cotton, indigo) over one calendar year, itemizing the losses in human terms (e.g., 'the cost of a week's rice for that loss')."
+"Setting: The vast, empty storage rooms where cotton bales are stacked, Desire: To find a single surviving shipping contract that proves the previous peak price, Obstacle: All contemporary documents have been burned or dissolved in dampness, Turn: He accepts the loss not as financial ruin, but as an irrecoverable narrative fracture."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: In the private counting room, but now with only dust motes visible; Desire: To wait out a critical exchange on patience itself—a single character waiting days for a word or confirmation that will never come, treating their own suspended life as currency."
+"Setting: A specific corner of the ledger room, late evening (transitional light), Desire: For a junior clerk to bring fresh lamp oil that might illuminate a crucial entry, Obstacle: The oil is nearly empty and cannot be bought with current holdings, Turn: Gangaram decides to count his wealth by touch alone—by feeling the weight of objects rather than reading their values."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing solely on the psychology of expectation: Detailing the emotional structure of anticipation and its catastrophic deflation."
+"Moving beyond monetary loss; focusing on the collapse of *social capital*—the network of favors and mutual obligations that supported the mansion."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"The mechanical failure metaphor: Comparing the economic system to a massive machine whose gears are seizing due to mismatched input rates, rather than focusing on Gangaram's personal finances."
+"Treating the 'turning' not as a sudden drop, but as a protracted, agonizing gravitational shift where momentum slowly dissipates until stillness becomes catastrophic."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Shifting focus from 'money lost' to 'opportunity lost': Tracing potential paths or investments that *could have been* made if the market hadn't turned."
+"The inverse narrative: Instead of showing how wealth is acquired through trade mastery, show how it was *held*—the delicate inertia that sustained such enormous, fragile structures."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The sickly, uniform grey of cotton bales dumped unceremoniously in a yard meant for polished merchandise."
+"Sight: The specific way the intense afternoon sun catches the oxidation on brass fittings, making them dull green instead of bright gold."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The echoing sound of empty, heavy wooden crates being dragged across stone floors, each scrape symbolizing an unfilled order."
+"Sound: The sound of dry plaster subtly shifting in the upper reaches of the haveli as internal humidity changes during a sudden drop in external trade demand."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: A cloying sweetness mixed with mildew—the scent of overly preserved or spoiled goods piling up unsold."
+"Taste: The faint bitterness of cheap, watered-down tea consumed by Gangaram during his late-night accounting sessions."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the typical 'break-even' points for major trade commodities in this region, and how was a sudden drop below that point historically managed?"
+"What were common regional indicators or omens used by merchants to predict significant shifts in monsoon patterns or overland trade viability?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Were there local customs regarding the orderly decommissioning of large merchant holdings or businesses?"
+"How did the social caste system influence who was privy to, and therefore influenced by, crucial market information? (Beyond Gangaram's immediate circle)"
 ```
 
 ## $["creative_enrichment"]["research_questions"][2]
 
 ```json
-"How did the changing global demand patterns affect regional agricultural yields concerning opium and cotton?"
+"Are there specific material properties of traditional dyes/pigments that degrade visibly faster when exposure to inconsistent atmospheric conditions changes?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A chronological breakdown: Beginning with a highly detailed, rapid-fire section detailing the peak profits (accumulation), followed by a sudden, stark deceleration into slow, drawn-out verse mirroring deflation."
+"A rapid-fire sequence where one line describes the soaring height of past profits, immediately followed by a single line detailing the current meager cost of simple necessities."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An A/B structural split: Alternating sections between the relentless mathematical certainty of economics and passages rooted in cyclical or natural timekeeping (moon phases, seasonal changes) to show the clash of realities."
+"Structuring the poem as an internal argument between Gangaram's memory (the high price) and objective reality (the low price), with each stanza representing a different argumentative tactic."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The role of local moneylenders (*sahukars*) who survive market crashes because their debts are owed in fixed assets rather than fluctuating commodities."
+"Exploring the role of local religious figures or community leaders in signaling economic distress, independent of market reports."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"The internal disagreement among the merchants: Whose specific sector (silk vs. opium) was declining faster, creating tension even before total collapse?"
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"A section dedicated to the *physical disposal* of the goods—the massive, necessary acts of burning or tearing down inventory."
+"A detailed examination of how one specific architectural element (e.g., a single carving on a lintel) functions as an unwitting barometer for financial health across decades."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While previous chapters focused on the mechanics of accumulation (Chapter 2-10) and subsequent physical depletion (Chapters 44, 59), this chapter centers entirely on the abstract, sickening *rate* of financial reversal itself—the moment the positive slope reverses into a downward spiral."
+"Unlike the previous focus on calculation and debt documentation, this chapter centers on sensory disorientation—the physical sensation of economic vertigo experienced by the central figure."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"6692a1cdae9fe5c7e3c1346d0d4258ace34acb41f18ce2c5f9bcf784cfa2fb35"
+"86533d8538ab3cfee53d6c8f9a95fb8a0557533dcd66c328c488212c8769e524"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:11:34.331906+00:00"
+"2026-10-04T20:17:21.552624+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -228,14 +192,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"86533d8538ab3cfee53d6c8f9a95fb8a0557533dcd66c328c488212c8769e524"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

@@ -1,12 +1,1 @@
-এই চুন-প্রলেপের নিচে, এই ল্যাপিস-রঙের ভাঁজে, আমি নিজেকে বন্দী করি।
-আমার হাতে জমে থাকা এই মিহি ধুলো, ওটা কি শুধু প্রস্তরের গুঁড়ো?
-নাকি রাজকীয় নির্দেশপত্রের শুকনো কালি, যা কোনো এক দূর দরবারের শুল্ক?
-আমি খুঁজি সেই অদৃশ্য লেনদেন—সুরক্ষার দাম।
-দরওয়াজায় দাঁড়িয়ে থাকা প্রহরী, তাদের লোহা-চেইন আর আমার ব্রাশের আলগা টান—
-এই দুটোই কি একই ব্যবস্থার ভিন্ন রূপ?
-আমি প্রশ্ন করি: এই প্রাচীর কি শুধু সৌন্দর্যের ধারক, নাকি ক্ষমতার এক স্থির হিসাব?
-কতটুকু সিন্দুকের ভাঁজে জমা হলো সেই মাটির দাম, যা আমি আজ এই খিলানে গাঁথছি?
-আমার প্রতিটি আঁচড়, আমার প্রতিটি রাত জাগা—তা কি কোনো অনানুষ্ঠানিক খাজনা?
-এই বণিকদের দল, তারা ক্রেতা; আর আমি, আমি সেই নীরব ভাণ্ডার।
-আমি কি শুধু রং বিক্রি করি, নাকি এই রাজকীয় স্থিতির এক অবিচ্ছেদ্য অংশ?
-আমাকে দেখুক কেউ, এই ছাঁচ-নকশার নিচে, যেখানে মুক্তিও একটি আরোপিত শুল্ক।
+The dust, thick as old lime wash, smelled of distant gunpowder and the slow, sweet rot of unburnt ghee. From the height of the scaffold, where the lapis blue had finally set its cold stain against the sun-baked sandstone, the world below was a geometry of enforced stillness. The King’s security was a low, rhythmic cadence, the measured tread of the guard patrols circling the perimeter, a sound both blessing and cage. Below, the merchant's tax collectors moved with the polished, heavy deliberation of brass fittings, their presence a tangible weight pressing down on the vibrant façade. They measured the worth of the stone, the profit of the pigment, their ledger an invisible, demanding shadow. And the painter, anchored between the iron vigilance of the state and the relentless calculus of commerce, was merely a ghost in the plaster, a third, unlisted entry in the courtyard’s silent account. The bargain had been struck elsewhere, a high-stakes exchange of sanctuary for solvency, a pact that left the hands staining ochre in the quiet, uncounted hours—hands that neither the King’s writ nor the Merchant’s tally would ever acknowledge.

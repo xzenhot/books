@@ -19,7 +19,7 @@ Init operates entirely inside the backlog:
 
 - **Input/output path:** `workspaces/backlog/<bookname>/`
 - **Gist-only path (`init`, no refresh) creates/edits:** `gist.md` only.
-- **Full path (`init ... refresh` / `layout`) creates/edits:** `gist.md`, `storyline.md`, `book.json`, and the `materials/` directory (for the user's research materials).
+- **Full path (`init ... refresh` / `layout`) creates/edits:** `gist.md`, `storyline.md`, `book.json`, `progress.json`, and the `materials/` directory (for the user's research materials).
 - **What you never create:** `workspaces/pipeline/<bookname>/`, `model.json`, chapter folders, or `filters/` directories, and never any subfolder under `workspaces/backlog/<bookname>/` other than `materials/`.
 
 The `materials/` directory holds **research materials** for the book. Init seeds it with a small set of research documents generated from the gist (see *Seeding Research Materials* below); the user may also add their own source texts, notes, images, or references there. `layout` and `init ... refresh` read `materials/` and ground `storyline.md`/`book.json` in it.
@@ -38,13 +38,14 @@ Init does not inspect or modify the pipeline. The form parameter exists solely t
 
 ## The Three Backlog Artifacts
 
-A fully configured backlog folder contains exactly three files. Each has one clear role:
+A fully configured backlog folder contains exactly four files. Each has one clear role:
 
 | File | Role |
 |------|------|
 | `gist.md` | The seed idea — a single-sentence gist plus a short expansion. The source of the book's premise. |
 | `storyline.md` | The full narrative foundation — premise, setting, characters, themes, chapter outline. The source of truth for a novel's story. |
 | `book.json` | The chapter-layout plan and filter chain — chapter count, per-chapter titles and summaries, characters, subject matter, and the ordered filter/agent sequence. The blueprint for `scaffold`. |
+| `progress.json` | The seeded progress plan — one `pending` entry per chapter (`chapter_number`, `topic`, `category`, `status`, `file_path`, `completed_date`), copied from `.framework/templates/backlog/progress.json` and re-seeded with the plan's actual chapters. `scaffold` copies it verbatim into the pipeline as the initial progress state. |
 
 ### gist.md
 
@@ -62,7 +63,7 @@ The full narrative foundation. If `storyline.md` is missing and a legacy `epic.m
 
 ### book.json
 
-The chapter-layout plan. This is the blueprint that tells `scaffold` exactly how many chapters to build and how each chapter is laid out. Derive it from the epic (or, for poetry, from the topical structure in the epic). Use `.framework/templates/book.json` as the schema sample.
+The chapter-layout plan. This is the blueprint that tells `scaffold` exactly how many chapters to build and how each chapter is laid out. Derive it from the epic (or, for poetry, from the topical structure in the epic). Use `.framework/templates/backlog/book.json` as the schema sample.
 If there are more than 10 chapters, always execute this in batch of 10 to minimise the token context windows.
 
 The `book.json` must contain:
@@ -84,7 +85,7 @@ The `book.json` must contain:
 
 - **Novel:** `Introduction`, `1..N`, `Conclusion` (N = the epic's main chapter count).
 - **Poetry:** `1..N` (N = the number of topics in the epic's topical structure).
-- **Format:** Sample book.json is here `.framework\templates\book.json`
+- **Format:** Sample book.json is here `.framework\templates\backlog\book.json`
 
 This file gives the complete hint of how many chapters will be written, how each is laid out, and the ordered filter chain, so `scaffold` can build the pipeline without re-deriving the plan.
 

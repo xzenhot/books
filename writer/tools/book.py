@@ -94,7 +94,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent          # tools/
 REPO_ROOT = BASE_DIR.parent                          # repo root
 BACKLOG_ROOT = REPO_ROOT / "workspaces" / "backlog"
-BOOK_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "book.json"
+BOOK_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "backlog" / "book.json"
 
 # ---------------------------------------------------------------------------
 # Ollama configuration
@@ -337,6 +337,59 @@ def make_book_json(
         "filter_chain": FILTER_CHAIN_POETRY if form == "poetry" else FILTER_CHAIN_NOVEL,
         "word_target": 500 if form == "poetry" else 4500,
     }
+
+
+def write_backlog_progress(book_dir: Path) -> Path:
+    """Create the backlog ``progress.json`` from the template, customized to the plan.
+
+    Copies the shape of ``.framework/templates/backlog/progress.json`` and re-seeds it
+    with the book's actual chapters (topic, category, pending status) so the backlog
+    holds a ready-made progress plan. ``scaffold`` later copies this file verbatim into
+    the pipeline as the initial progress state.
+
+    Args:
+        book_dir: Path to the backlog folder (must already contain ``book.json``).
+    """
+    template = REPO_ROOT / ".framework" / "templates" / "backlog" / "progress.json"
+    plan_file = book_dir / "book.json"
+    plan = json.loads(plan_file.read_text(encoding="utf-8-sig"))
+    chapters = plan.get("chapters", [])
+
+    template_data: dict = {}
+    if template.is_file():
+        try:
+            template_data = json.loads(template.read_text(encoding="utf-8-sig"))
+        except (json.JSONDecodeError, OSError):
+            template_data = {}
+
+    factory = plan.get("factory") or template_data.get("factory") or "online"
+    model = plan.get("model") or template_data.get("model") or "gemma4:latest"
+    provider = plan.get("provider") or template_data.get("provider") or "ollama"
+    progress = {
+        "total_chapters": len(chapters),
+        "completed_chapters": 0,
+        "current_chapter": 1,
+        "factory": factory,
+        "model": model,
+        "provider": provider,
+        "book_name": plan.get("book_name") or template_data.get("book_name"),
+        "form": plan.get("form") or template_data.get("form"),
+        "chapters": [
+            {
+                "chapter_number": ch.get("chapter_index", i),
+                "topic": ch.get("chapter_title") or ch.get("name") or f"Chapter {i}",
+                "category": "",
+                "status": "pending",
+                "file_path": f"chapters/{ch.get('name', i)}/chapter.md",
+                "completed_date": None,
+            }
+            for i, ch in enumerate(chapters, 1)
+        ],
+    }
+
+    out = book_dir / "progress.json"
+    out.write_text(json.dumps(progress, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return out
 
 
 def make_epic(
@@ -1181,10 +1234,15 @@ def create_backlog(
         encoding="utf-8",
     )
 
+    # Backlog progress.json — customized from the template, copied to the
+    # pipeline at scaffold time.
+    progress_file = write_backlog_progress(book_dir)
+
     print(f"Backlog created → {book_dir}")
     print(f"  gist.md  : {gist_file}")
     print(f"  storyline.md  : {epic_file}")
     print(f"  book.json: {book_file}")
+    print(f"  progress.json: {progress_file}")
     print(f"  materials/ : {materials_dir}")
     print(f"  form: {form} | chapters: {len(chapters)} | refreshed: {refresh}")
 
@@ -1233,9 +1291,13 @@ def run_layout(
     # 2. Derive book.json (the layout) from the (possibly refreshed) storyline.md.
     generate_layout(book_dir, bookname, form, chapter_count, materials)
 
+    # 3. Create the backlog progress.json from the template, customized to the plan.
+    progress_file = write_backlog_progress(book_dir)
+
     print(f"Layout complete → {book_dir}")
     print(f"  storyline.md  : {book_dir / 'storyline.md'}")
     print(f"  book.json: {book_dir / 'book.json'}")
+    print(f"  progress.json: {progress_file}")
     print(f"  form: {form} | chapters: {chapter_count or '(from book.json)'}")
 
 
@@ -1294,8 +1356,8 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
         )
     pipeline.mkdir(parents=True)
 
-    # --- Copy the backlog source files (gist.md, storyline.md) verbatim ---
-    for src_name in ("gist.md", "storyline.md"):
+    # --- Copy the backlog source files (gist.md, storyline.md, progress.json) verbatim ---
+    for src_name in ("gist.md", "storyline.md", "progress.json"):
         src = book_dir / src_name
         if src.is_file():
             shutil.copy2(src, pipeline / src_name)
@@ -1483,6 +1545,9 @@ def enrich_workflow(bookname: str, target: str) -> None:
     # Ensure the pipeline style.md exists and is grounded in the current book.
     enrich.regenerate_style_md(bookname, book)
 
+    # Resolve the model from progress.json (or the enrich default).
+    model_name = enrich.resolve_model(bookname)
+
     # Pre-load all chapter models to give the enrich engine cross-chapter context
     all_models: dict[int, object] = {}
     for num in enrich.parse_chapter_input("all", chapters_root):
@@ -1495,7 +1560,8 @@ def enrich_workflow(bookname: str, target: str) -> None:
     failures = 0
     for num in numbers:
         try:
-            enrich.enrich_chapter(_chapter_model_file(chapters_root / str(num)), book, all_models)
+            enrich.enrich_chapter(_chapter_model_file(chapters_root / str(num)), book, all_models,
+                                  model_name=model_name)
         except Exception as exc:  # noqa: BLE001
             print(f"  [{num}] FAILED: {exc}", file=sys.stderr)
             failures += 1

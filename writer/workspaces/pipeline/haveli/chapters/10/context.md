@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The merchant petitions that his name outlast his body, that the town will never forget him. The poem is the prayer whispered at the foundation, the bargain with eternity that will prove to be the ruin of everything he builds."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Hindu ritual architecture dedications rites and the concept of perpetual commemoration in Mughal/Rajput patronage"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The specific grammar or rhythm of oral invocations used by local spiritual practitioners versus formalized Brahmanic liturgy"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,161 +57,131 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Treating the prayer not as a request for remembrance, but as an *economic* contract with the divine: what earthly service must be rendered to guarantee eternal visibility?"
+"Focusing solely on the elemental chemistry of the materials involved in prayer/foundation: how lime mixes with local clay under specific temperature cycles."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Adopting the narrative perspective of the 'unseen' deity or local spirit who receives the prayer—a detached commentary on human hubris."
+"Framing the prayer as a transaction rather than a supplication—a deliberate, cold bargaining chip laid at the threshold for future divine endorsement."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Focusing entirely on the material components of the prayer ritual (the specific type of ghee lamp, the prescribed flower garland, the quality of sandalwood paste) and their symbolic value relative to wealth."
+"The voice of an absent witness (e.g., a long-dead water spirit or forgotten ancestral figure) observing Gangaram's arrogant invocation."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"setting: The precise spot where Gangaram kneels for the foundation rite, desire: To hear a reply to his name-curse, not from God, but from the local earth itself., obstacle: A momentary silence that feels too deep, suggesting rejection rather than divine contemplation., turn: The sound of a single domestic animal (a stray dog barking) breaks the spiritual tension, grounding the supernatural request in raw reality."
+"setting: A low mound of raw, unprocessed red earth near the site, desire: Gangaram desires that this specific patch of ground remembers his ambition even when the stone crumbles., obstacle: The sun's oppressive heat drying the soil unevenly, causing cracks to prefigure future structural failure., turn: He pours a single measure of rainwater from an oxidized copper vessel, not for blessing, but as a controlled solvent."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"setting: The newly dug pit for the foundation pillar, desire: To appease the spirits associated with structural stability and physical longevity., obstacle: A seemingly irrelevant local superstition or taboo that must be observed perfectly to avert minor disaster (e.g., not stepping on a specific type of beetle)., turn: The sound echoing from a neighbouring, older haveli—a festival song or a lullaby—suggesting the permanence Gangaram desires is already being lived by someone else."
+"setting: Just before sunset, casting long shadows over the partially cleared lot, desire: The clerk desires to imprint his personal mark—a specific calligraphic sign—into the settling dust., obstacle: A persistent local elder subtly discouraging the scale of his ambition, warning against arrogance directed towards spirits., turn: Gangaram ignores the warning and insists on inscribing a grand dedication before the shadows claim him."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"setting: Just before dawn, when the air is coldest and most expectant, desire: To buy an undeniable piece of 'time' from the cosmos to guarantee his legacy., obstacle: The realization that the prayer requires a sacrifice too personal or too irreplaceable to offer (not gold, but memory)., turn: A sudden scent wafting down the street—like jasmine mixed with stale animal dung—indicating uninvited, mundane life continuing outside the sacred ritual."
+"setting: Inside the protective shadow cast by a single, ancient Banyan tree near the plot, desire: He desires an auditory confirmation of his coming glory—a ringing sound that supersedes the local cicadas., obstacle: The silence is too heavy, punctuated only by mundane desert sounds (wind through dry brush)., turn: Instead of divine assurance, he hears a faint, rhythmic clanking that seems to originate from inside the earth itself."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"The prayer as a form of preemptive branding: how Gangaram attempts to build his name into the very geology of the city."
+"Treating 'eternity' not as spiritual promise but as material longevity—the hope that his stone will physically resist erosion for centuries."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Examining the relationship between spoken vow and physical reality: analyzing which elements (the paint, the stone, the family) will actually survive the decades after the prayer is uttered."
+"Shifting focus entirely to the *language* of the prayer, examining the archaic or borrowed terminology used in petitioning versus modern commercial jargon."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The failure of formalized religion vs. localized belief systems: whose 'blessing' ultimately matters most in Shekhawati?"
+"Presenting the act of praying as an early form of branding: inscribing a desired permanence onto a piece of ephemeral ground."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way early morning fog partially obscures the vibrant frescoes across the street, making them appear to float and reform."
+"The fine, gritty abrasion of powdered quartz (used in pigments) against the calloused skin of his palm."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The distinct, off-key melody of a local musician practising nearby, its tune unrelated to any major religious rite."
+"The sharp, mineral tang of damp river clay mixed with sacrificial offering smoke."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The faint but persistent odor of burning cow dung mixed with sandalwood incense used during the consecration."
+"A deep, low hum vibrating up from the compacted earth during the ritual utterance."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What specific local deities or protective spirits were traditionally invoked in Mandawa/Nawalgarh foundation rites, beyond general Hindu pantheon figures?"
+"What were common pre-Islamic or folk rituals associated with laying a foundation in Mandawa that involve petitions to local geological features?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did merchant guilds structure 'legacy documentation'—were there formalized oaths sworn before community elders rather than just religious texts?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"What are the contemporary folklore beliefs regarding sound pollution or unintended noise during foundational construction?"
+"How did ancient trade documents sometimes incorporate minor oaths or promises related to land use, serving as early forms of symbolic guarantees?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured around rhetorical invocation: addressing absent entities sequentially (the Earth, Time, Progeny, Memory)."
+"A strict inventory poem listing the required elements for the prayer (water, earth, incense, names) and noting their precise measurement."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Using an 'echo' structure where key phrases from the prayer are repeated by different voices—the foreman, the priest, Gangaram himself."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"Building tension purely through sensory layering: starting with the visual grandeur, fading to sound, then settling on a single overlooked scent."
+"The chapter structured around an imagined dialogue between Gangaram speaking to his own past/future self about this crucial vow."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The concept of 'borrowed immortality': Does making one's name permanent simply make it more susceptible to ironic decay?"
+"How the local political climate (the King's oversight) was acknowledged, or deliberately ignored, in this foundational act of personal ambition."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"The role of women in validating or subverting the male-dominated foundation ritual."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"A comparative study between paying a fee for security (the King/State) versus praying for permanence (the Divine)."
+"The economic cost embedded within the 'prayer'—how many artisans/servants were required just to perform the ritual correctly."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While previous chapters focused on accumulation and acquisition, this chapter must focus on temporal transaction—what is exchanged with perpetuity, making the 'asset' intangible."
+"Unlike previous chapters focusing on raw commerce (ledger, plot), this chapter isolates the psychological and quasi-spiritual investment before capital is fully mobilized into permanent structures."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"5ff7cf9e3c996b741dbd6a7b01bc2d4e9ba4700410a51dcbee7b6a3bd99943a5"
+"952585c8f5127f23505f15ed01153eeef8604ccc32ce6b50ace7ef4d126229b7"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:35:01.719401+00:00"
+"2026-10-06T11:39:56.729905+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

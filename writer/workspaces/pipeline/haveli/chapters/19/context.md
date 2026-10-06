@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The household shrine is where devotion and display meet, the gods served and the wealth shown in the same gesture. The poem explores the thin line between worship and ostentation that runs through every haveli's sacred corner."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Hindu temple architecture in Rajasthan: specific iconography of household shrines (mandirs)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The cultural intersection of wealth display and religious devotion in Rajput/Marwari households"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,155 +57,137 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Treating the deities not as divine figures, but as highly valued *possession*—objects whose lineage and material value are paralleled to Gangaram's accumulated wealth."
+"The secularization of piety: How household deities gradually absorb elements of merchant success—e.g., idols adorned with specific silks or precious metals, blurring the line between ritual offering and displaying inventory."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Focusing on the required upkeep ritual: The endless nature of purification, cleaning, painting, and re-dressing the idols, linking this maintenance labor directly to the household’s ongoing economic necessity."
+"Syncretism in domestic worship: Examining the subtle blend of regional folk beliefs (like those mentioned in later chapters) creeping into formal Hindu shrine rituals practiced by a wealthy trader."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The narrative device of 'misremembered scripture': Using fragmented verses or misunderstood epics recited in the shrine that twist sacred meaning into domestic gossip or veiled critique."
+"The performance of devotion: Analyzing the temple room not as a place of pure inward grace, but as the most highly curated stage within the haveli, where piety itself becomes another form of conspicuous consumption."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The dimly lit temple room after a major festival; Desire: To find evidence that the idols were subtly *adjusted* overnight—a misplaced garland, a slightly different pot of vermilion—suggesting human interference rather than divine mystery."
+"Setting: The cool sanctum shadowed by heavy textiles, desire: Gangaram wants to present his newest consignment of imported jewels not to a buyer, but as an offering to Vishnu, obstacle: the deity remains impassive."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A monsoon day where heavy dust forces all activity inside the shrine; Obstacle: The accumulated smoke and humidity cause specific pigments on the deities' robes or mounts to begin visibly flaking off, revealing what lies beneath (perhaps an older, different style)."
+"Setting: A tiny side shrine tucked away near the private kitchen access point, desire: A marginalized domestic helper offers secret prayers for protection outside the purview of the main family rituals, obstacle: fear of discovery by the matriarch."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Early morning, before any paying priest arrives; Turn: A young woman, tasked with preparing offerings, discovers a foreign object left among the ritual implements—a modern coin, a piece of unfamiliar metal, or non-local scent."
+"Setting: The temple room moments after a grand festival offering has been dismantled (shells removed, metal put away), desire: One servant is left to meticulously clean the sacred vessels, finding traces of dust that contradict the earlier display of perfect polish, obstacle: exhaustion setting in before the final cleaning."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"The material anthropology of devotion: Analyzing the specific metals used for idols (brass vs. silver plating) and how their perceived value dictated social standing."
+"Focusing on the iconography as economic allegory: Treating specific murals or idols not just as religious figures, but as metaphors for trade partnerships (e.g., a god associated with transport or abundant yield)."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Prayer as business negotiation: Imagining patrons or merchants using the temple space not strictly for worship, but to meet clients under a veneer of piety—a transaction disguised by ritual smoke."
+"The maintenance ritual: A poem centered entirely on the practical acts of upkeep—the application of turmeric paste, the polishing of brass lamps, the changing of cloth coverings—as an act of enduring devotion against entropy."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The visual cataloguing of sacred items: Treating the paraphernalia (lamps, bells, silks) like an inventory list that chronicles the family’s spending power rather than their spiritual faith."
+"The space as storage: Interpreting the temple room’s proximity to wealth display—jewelry boxes often housed nearby—as a silent negotiation between sacred preservation and worldly accumulation."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The specific way beeswax candles melt unevenly across intricately carved stone bases, pooling wax onto colored marble."
+"The cloying, heavy sweetness of sandalwood incense that has been burned so many times it now tastes slightly metallic on the tongue."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The dry, high-pitched *clink* of multiple sets of brass keys—for temple doors, storage closets, and personal idols—being jangled together impatiently."
+"The abrasive, dry sound of an old bronze bell being struck against a heavily polished marble pedestal in the relative quiet."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: A clashing aroma: the heavy, sweet decay of sacrificial flowers mixed with the sharp, metallic tang of old incense resins like frankincense or camphor."
+"A single drop of spilled ghee pooling slowly on the dark wood altar, catching the faint light like trapped amber."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were common household materials (local stones, paints) used for decorative altar elements versus consecrated religious art? Were there specific regional differences in temple ornamentation that betray trade links?"
+"What were common practices regarding the inclusion of non-traditional or syncretic figures within private merchant household shrines in 19th/early 20th century Rajasthan?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did the practice of commissioning iconography change in direct response to periods of economic boom or collapse in Shekhawati's trading history?"
+"How was the concept of 'offering' (dana) historically distinguished from outright gifting when wealth accumulation became paramount among mercantile classes?"
+```
+
+## $["creative_enrichment"]["research_questions"][2]
+
+```json
+"What were local materials used to colorize and decorate domestic devotional implements that might signify status differences between families?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"Structuring the poem as a liturgical cycle, where each section mirrors a part of an actual Hindu rite (e.g., purification $\rightarrow$ invocation $\rightarrow$ offering $\rightarrow$ benediction)."
+"A fragmented structure mirroring the iconography: Each section focuses on a different deity, with each section presenting a distinct level of material ostentation."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Using direct address to the silent gods: Speaking *through* their painted forms to uncover hidden narratives about human failing or eternal continuity."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"A collage structure, juxtaposing descriptions of lavish ritual goods with stark, utilitarian details of actual domestic necessity (e.g., a single broken water pot next to gold-leaf filigree)."
+"An inverted crescendo: Beginning with profound, silent meditation and building incrementally towards descriptions of dazzling gold work before abruptly cutting off at a point of minor secular corruption."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The symbolism of the *absence* of certain deities—why are some gods represented in these specific mansions while others are omitted entirely?"
+"The relationship between the temple room and external political instability—how devotion is used to anchor families when outside markets fail."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"A character portrait focusing on the aging, specialized ritual attendant whose knowledge is the 'real' treasure, more valuable than any artifact."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"Exploring the idea of idols as emotional dumping grounds: Where family failures or unacknowledged sins might be ceremonially deposited before invoking blessings."
+"A focus on ritual contamination: The theological anxiety surrounding mixing sacred items with the residue of worldly commerce (dust, oil, trade spices)."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While neighbouring chapters focused on outward displays of wealth (Durbar, Thali), this chapter requires an inward turn to examine devotion itself—how sacred space becomes another quantifiable stage for expenditure and status projection."
+"Unlike the expansive views taken from the Jharokha or the sprawling activity in the Courtyard, this poem must contain high compression—focusing on intensely concentrated symbolic meaning within a small, deliberately contained sacred space."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"7054a9a3eb9deae12fe8a0c094e1bd6c68492251fa7a55d273fb2a9a80cd3d49"
+"cf5a32275fa1849cf0dcf94b95ea2622fad6e077f06bef8362aa23514db708c8"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:05:37.807146+00:00"
+"2026-10-06T11:41:21.179143+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

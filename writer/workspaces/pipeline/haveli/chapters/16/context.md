@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The latticed window through which the women watch the street, themselves unseen, is the haveli's eye. The poem reads the jharokha as both a freedom and a cage, the opening that lets the world in and keeps the watcher out."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Rajasthani domestic architecture and ventilation shafts"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Symbolism of lattices (jali) in Indian art and culture"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,155 +57,131 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Viewing the Jharokha not as a window for viewing, but as an *echo chamber*—a place where sounds from outside are trapped, multiplied, and distorted before reaching the observer."
+"Focusing on the mechanism of sight: How the geometric pattern of the latticework (the jali) fragments the external world into discrete, non-continuous views, mirroring Gangaram's fragmented perception of his own wealth."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Focusing on the material history of the lattice itself: tracing the family wealth through the cost, rarity, and craftsmanship of the carving wood or stone (the economic indicator)."
+"The acoustic space of observation: Treating the jharokha not just as a visual aperture but as an amplifier/muffler—what sounds are deliberately excluded or distorted by the lattice? (e.g., distant camel cries vs. immediate indoor whispers)."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Treating it as a site of surveillance: contrasting its aesthetic function with its literal capability to monitor domestic life from a slight elevation."
+"The materiality of waiting: Reading the metalwork and carved stone not as passive features, but as physical weights pressing down on the inhabitants who observe through them."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The Jharokha at dawn, during the monsoon’s first fat drops; Desire: For the moisture on the lattice to momentarily obscure the view of a neighboring haveli, revealing only diffused color and shadow as a temporary privacy."
+"setting: A high, sun-drenched jharokha overlooking a crowded marketplace (bazaar)., desire: The woman inside desires to see one specific rival merchant's seal on a piece of cloth being sold., obstacle: Another layer of decorative screen partially obscures the view, forcing her eye to scan through gaps rather than viewing holistically., turn: She finds only a reflection of her own face superimposed over the market activity."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A Jharokha overlooking a street scene dominated by women fetching water in brass pots; Desire: To write an internal monologue from the person watching who realizes that every perfect reflection on the glass/stone is actually showing *her* own face, distorted by expectation or regret."
+"setting: The jharokha during a monsoon downpour, blurring the outside world into streaks of color., desire: Gangaram, unexpectedly observing from inside, desires to confirm if his most prized possession (a shipment or artifact) has arrived on time., obstacle: The rain transforms the identifiable figures below into abstract watercolor shapes, rendering all distinction meaningless., turn: He misinterprets a pattern of running water as an impending sign or omen."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: During a late-evening festival when gas lamps cast unnatural pools of orange light on the carved latticework; Desire: The observer catches sight of not one ghost, but multiple overlapping reflections—a memory projected onto the material that shouldn't be there."
+"setting: A twilight jharokha overlooking the outer haveli walls at dusk., desire: An artisan hiding within the shadows of the courtyard below desires to signal a secret message to a trusted supplier using reflected light from the window's interior lamps., obstacle: The thick, painted pigment on the inner wall catches the dying light strangely, obscuring any precise signals intended., turn: The coded reflection is seen by an unrelated passerby who interprets it as simple domestic ritual."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Shifting focus from the *viewing* to the *act of being seen*: What are the patterns on the lattice specifically designed to hide or reveal about the wearer/watcher?"
+"Shifting from female confinement to male isolation: viewing the jharokha as a point of passive, curated self-presentation for Gangaram during public events."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"The window as a metaphorical boundary between the public spectacle (street) and private selfhood, treating it as an active participant in that division."
+"Reversing the gaze: Imagining what the street/world outside might 'see' when observing the rhythmic patterns of the *jali*—are they seeing order or entrapment?"
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"A deep dive into the mechanics: How was the Jharokha structurally supported in historical practice, blending engineering skill with artistic carving?"
+"Focusing on the micro-narrative embedded in a single, weathered piece of carving within the lattice, treating it as an independent biography."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way afternoon sunlight cuts through the lattice gaps at precise, geometric angles, creating temporary bars of stark light and shadow on the polished floor."
+"The sharp, high whine of wind passing through the minute openings of the stone grating."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The specific, rhythmic *tink-thwack* sound made by a vendor's metal cart wheels scraping against uneven cobbles visible just beyond the screen."
+"The cool, smooth feel of polished marble where hands rest on the window sill, contrasted with hot dust settling on the lower panes."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: A complex layering of scents—overripe mangoes baking in the sun mixed with the sharp, earthy scent of wet cow dung used for plastering."
+"The specific scent of sandalwood oil used internally to mask the smell of cooking smoke filtering up from below."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the specific social protocols regarding which gender or caste group was permitted to view street life from a Jharokha?"
+"What were common local materials and techniques for creating load-bearing yet translucent screens (jali) in Shekhawati architecture, beyond typical sandstone?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did changes in window materials (e.g., carved stone vs. painted wood) reflect periods of economic prosperity or decline for the family?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"Are there documented instances where lattice work incorporated pictorial narrative elements, rather than just geometric patterns?"
+"How did privacy conventions around windows vary between wealthy merchant families versus noble/princely residences in the region?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured as a series of paired antitheses: 'What I See' vs. 'What I Am Hiding From'."
+"A piece written entirely as an address to a 'Silent Observer' positioned outside the frame of the window."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An immersive piece that alternates sharply between the internal monologue (the watcher) and an objective description of the street life passing by, creating perceptual dissonance."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"A canto written entirely using adjectival phrases, building a single, sustained image from micro-observations trapped in the light."
+"An alternating structure: one stanza focused on interior shadow and stillness, followed by a corresponding stanza depicting exterior movement/sound captured by the lattice."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The Jharokha as a point of potential escape—a structural weakness or overhang that could be climbed upon during times of civil unrest."
+"The reflection in the glass pane acting as a distorted mirror for internal domestic arguments."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"Exploring the concept of 'inherited view': The current occupant is forced to look at views painted onto later walls by previous generations who lived behind this same window."
+"How the orientation of specific jharokhas related to solar path and ritual timing within Hindu calendars."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter shifts focus from grand public murals (like temple or battle scenes) to an intimate architectural feature, turning art into a device of constrained perception and domestic surveillance. It moves inward toward the private self within the family structure."
+"This chapter shifts focus from grand public displays (like frescoes) or economic activity; it concentrates intensely on mediated perception, turning a structural feature into a psychological barrier/lens."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"1670fb4d15e47a78142b09e064daf4339d892e5e032fd2f74c4a065d7f9f3628"
+"bf65a82b8e53fbf6cd45fedfdaaa393563140780a13c3fe86dfa2a72ef076646"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:04:51.668280+00:00"
+"2026-10-06T11:40:53.125460+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

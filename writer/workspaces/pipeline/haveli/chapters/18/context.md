@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The inner chambers, the kitchen and temple room, hold the lives that never appear on the painted walls. The poem gives voice to the women whose names are absent from the frescoes but whose labor kept the haveli alive."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Domestic labor patterns in Marwari merchant households"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Symbolism of private family quarters versus public display architecture"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,161 +57,137 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Viewing the domestic space through the lens of *sewing* or textile work: Focusing on patterns, stains, thread counts, and the quiet geometry of discarded fabric scraps rather than grand murals."
+"Viewing the women's quarters as a counter-archive: documenting the ephemeral records of domestic life (recipes, gossip, small rituals) that contradict the public, permanent ledger kept in the outer halls."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The invisible economies: Mapping out the flow of materials—water from outside sources to inner vats, raw spices in vs. finished wedding goods out—as a ledger that exists only through exhaustion."
+"The relationship between private labor and visible wealth: Framing the internal work not as service, but as necessary infrastructure—the uncredited maintenance crew for the merchant's gilded illusion."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Time as cyclical routine: Depicting the day not by significant events (like festivals) but by the immutable sequence of labor tasks performed daily, emphasizing repetition over spectacle."
+"Time dilation within the quarters: How domestic routines create localized, slowed time that resists the sharp transactional speed of the marketplace outside."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The deep corner pantry/storage room; Desire: To find an object that was supposed to be used for a grand occasion (a specific spice or piece of jewelry) but whose value has plummeted due to changed trade routes, forcing it to be used as barter material."
+"setting: The small, hidden kitchen alcove near the private well, desire: A cook desires recognition for a specific spice blend she perfects., obstacle: Her efforts are always subsumed by the needs of larger, more visible functions (Durbar preparation)., turn: She whispers instructions to an invisible listener who seems to understand her craft completely."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Over the central cooking hearth at dusk; Obstacle: A shortage of essential fuel (wood/dung cakes), causing arguments over rationing that echo the larger failures of the merchant class out in the streets.; Turn: The women must revert to an older, forgotten recipe requiring a non-staple ingredient."
+"setting: The dimly lit adjoining chamber next to the women's temple room, desire: A young woman desires a moment of intellectual solitude, away from communal duties., obstacle: She finds only dust and discarded fragments of old letters/art supplies left by previous generations., turn: The setting sun catches dust motes in such a way that they momentarily resemble figures engaged in conversation."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: A specific sleeping area associated with a junior member of the family; Desire: To overhear whispered conversations about who *will* inherit the primary property (the haveli) rather than who currently resides there.; Obstacle: The conversation is interrupted by the arrival of an unexpected, unwelcome visitor requiring immediate performance."
+"setting: A small, high window opening not designed for viewing the street (a servant’s aperture), desire: To briefly connect with the rhythm of the day outside without being officially seen., obstacle: The glass or mesh is perpetually cracked from neglect or age., turn: During a sudden, intense rain shower, the noise creates a momentary sound barrier that allows for illicit communication between women across different wing sections."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Shifting focus from painting/display art to functional artistry: celebrating the unmatched skill required in things like lacquering, dyeing fabrics, or polishing brass goods that aren't for show."
+"Treating the domestic space as an ecosystem: Focusing on biological cycles—growing food, decay in waste bins, seasonal changes evidenced through cooking ingredients."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Treating the quarters as a repository of *memory artifacts*: Each discarded item (a worn hairpin, an old piece of costume jewelry) is treated as a tiny biography of a woman who never had her story painted on the public wall."
+"The politics of interior sound: Analyzing how specific sounds (water running, chopping, embroidery) become coded language signaling status or discontent internally."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The soundscape of private life: Concentrating solely on the overlapping sounds—the grinding of spices against stone, the rhythmic beating of dough, soft singing—and building an entire poem around that auditory texture."
+"Architecture as relational mapping: How the placement of rooms defines social hierarchy among the women themselves, rather than just relative to Gangaram."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The deep, permanent stain left by turmeric and chili powder embedded into the porous sandstone walls near preparation areas."
+"The specific scent of dried turmeric powder mingling with cooled ghee residue clinging to stone surfaces (Smell)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Smell: A cloying, mixed aroma of stale sweat from long hours of labor mingling with fresh jasmine oil burning on a small devotional lamp."
+"The abrasive rasp of a pestle against mortar and stone during grinding preparation (Sound)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Sound: The dry *scritch* sound of bone implements scraping against the stone floor when food scraps are swept away before evening prayers."
+"The cool, damp slickness of the inner courtyard tiles visible through an opening in their wing (Touch/Temperature)."
+```
+
+## $["creative_enrichment"]["sensory_details"][3]
+
+```json
+"The mottled, deep crimson stain left on aged wood by prolonged contact with hot spices or dyes (Sight)."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the specific, gender-segregated economic roles for women within wealthy Marwari merchant households during this period?"
+"What were the accepted traditional methods for securing privacy and ventilation within domestic quarters of wealthy Marwari homes that do not rely solely on windows facing public areas?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did religious practices in private domestic shrines (as opposed to public temples) influence the aesthetic or material wealth displayed?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"Can historical sources confirm specific types of non-textile craftwork (e.g., embroidery, metalworking done *for* the household) that were considered markers of deep family status?"
+"How did the culinary practices in these affluent households integrate rare or imported ingredients relative to local staple goods?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured as a litany: A continuous chant or list enumerating every person who has passed through this space and performing their specific service."
+"A non-linear structure, moving between three different rooms within the quarter across a single day."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Two juxtaposing monologues: One written in the elevated, ornamental language of high domestic ritual; the second, in stark, necessary prose detailing basic survival needs."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"Using negative description: The poem builds by describing what is *missing* from the usual state of disarray—the missing laundry basket, the absent kitchen utensil."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The relationship between food preparation and ritual purity within the domestic sphere."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"The use of specific natural dyes derived entirely from garden or foraging materials found immediately adjacent to the haveli boundary."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"How medicinal preparations were managed—the intersection of domestic caretaking with herbal knowledge, separate from religious rites."
+"An epistolary fragment sequence: presenting short, evocative notes written by various unseen inhabitants instead of continuous narration."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While neighbouring poems focus on public spectacle (Durbar, Frescos), this chapter must ground itself in the necessary grit and intimate rhythm of private upkeep; its wealth is measurable by labor, not gold leaf."
+"Unlike the grand public spectacles detailed in previous chapters, this poem dives into material intimacy and overlooked labor, using light as a structural element to denote transition rather than just decoration."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The role of specific deities worshipped exclusively by women within the quarter (e.g., localized forms of Parvati/Lakshmi related to domestic prosperity)."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"Analyzing the textiles used internally—their dyes, patterns, and how they contrast with the bright external frescoes."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"65a7fee694fc4515960966c93662b4c97efedf2f955d0b39030a3231b5fb9916"
+"c054e5c7fe785831f78f6de9d9d9ae989c6a44257e443f0d99b18f718c3bcd7a"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:05:22.280463+00:00"
+"2026-10-06T11:41:11.896990+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

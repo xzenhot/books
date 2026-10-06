@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "Gangaram still counts his fortune by a light no one else can see, the ledger open in a locked room. The poem joins the dead merchant at his final task, the arithmetic that outlasted the man and the money alike."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Historical accounting practices of North Indian merchant families (pre-modern banking)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The symbolism of oil lamps and continuous light sources in Hindu/Jain philosophy"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -75,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,121 +57,115 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Viewing the lamplight itself as a commodity: calculating its precise material cost (oil, wick) against the perceived value of Gangaram's continuing work."
+"Focusing entirely on the mechanics of light refraction through dust motes suspended in stagnant air within the locked room, treating the lamplight as a physical artifact rather than a metaphor."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Framing the accounting not in numbers but in debts owed—a tally of favors, promises broken, or lives altered by his profit."
+"The accounting not as a tally of wealth, but as an obsessive ritual—the sheer mechanical act of turning pages and tracing lines becoming the only remaining human activity."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Adopting the perspective of an inanimate tool used for counting (e.g., a specific abacus bead, the inkwell): it registers only mechanical motions, stripping away sentimental meaning from the figures."
+"Treating the ledger itself as the true surviving entity: its ink is more permanent and emotionally complex than Gangaram's body or his empire."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The main desk in the locked upper room; Desire: To calculate the 'cost' of silence—the years where nothing was written or signed; Obstacle: The light source begins to flicker unpredictably, mirroring uncertainty."
+"Setting: The highest, most dusty upper room of the haveli; desire: To witness one single calculation—a final subtraction that resolves nothing; obstacle: A sudden draft shifts a stack of old promissory notes onto the ink."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A discarded stack of old, heavily annotated ledgers; Desire: To find an entry representing a non-monetary exchange (e.g., 'one debt paid in silence'); Obstacle: The required signature for this abstract payment is on the dead merchant's own fingerprints."
+"Setting: Beside the unmoving desk, near where the oil lamp sits; desire: To imagine the specific chemical scent profile of long-burning, rancid ghee mixed with aged paper dust; obstacle: The wick flickers, briefly illuminating something tucked beneath the ledger's edge."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Standing just outside the locked door, observing only the weak, steady cone of light; Desire: To deduce the pattern of his remaining labor by timing the rhythmic movements visible through the crack; Obstacle: The rhythm abruptly changes tempo or stops entirely."
+"Setting: Outside the locked room, focusing on a small crack in the doorframe through which light leaks; desire: To contrast the meticulously organized chaos inside (the books) with the slow, organic decay happening just inches away outside."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Shifting focus from 'counting fortune' to 'auditing guilt': treating each entry not as profit/loss, but as a ledger of karmic debt."
+"Shifting the focus from Gangaram's personal guilt to the administrative failure of his system—how paper ledgers are prone to systemic error, not moral ones."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"The failure of precision: exploring the mathematical concept of an unquantifiable remainder—the residue of human experience that money cannot account for."
+"Viewing the lamplight as a form of surveillance: it illuminates only the act of counting, trapping him in an eternal audit loop of past successes and present nothingness."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The materiality of light: analyzing how the quality of low lamplight (color temperature, flicker rate) affects perception and memory recording."
+"The ledger entries become coded communication: interpreting notations not as financial data, but as personal threats or secret pacts with rivals."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Smell: The coppery scent of old, oxidized brass from unused accounting tools."
+"A high-pitched, dry rasping sound made by the brittle paper turning under pressure."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The faint, repetitive *scratch-thud* sound of the quill pen meeting aged, dry paper."
+"The oily warmth radiating from a specific spot on the dark wood of the desk where the lamp has been placed for decades."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The velvety heat radiating disproportionately from the immediate area around a burning wick."
+"Visual: The way the yellow glow catches the microscopic, crystallized dust particles suspended in a single beam."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What specific types of non-currency exchanges (barter goods, labor commitments) were recorded as legitimate transactions in 19th/early 20th-century Marwari merchant bookkeeping?"
+"What are the typical degradation rates for 19th-century accounting inks and paper stock when exposed to fluctuating temperature and humidity?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Did the practice of keeping detailed accounting books survive beyond actual commercial need into private record-keeping for symbolic reasons?"
+"Are there specific historical notations or symbologies within Marwari merchant ledgers that denote more than simple monetary values (e.g., oaths, debt types)?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A staccato poem mirroring rapid, obsessive calculation, slowing only at significant zeroes or unexplained voids."
+"A non-linear structure where the counting stops repeatedly, forcing glimpses of earlier transactions before resuming at a different numerical point."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Structuring the chapter as a dialogue between an imagined 'Auditor' and the spectral hand of Gangaram."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The comparison of financial ledgers to astronomical charts—predicting futures based on cyclical patterns, rather than linear accumulation."
+"Structuring the poem around the lamp's life cycle: illumination, burnout, and final descent into darkness over several short stanzas."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter grounds its thematic exploration in highly specific physical objects—the ledger, the wick, the abacus bead—to ground abstract concepts like guilt and time."
+"This chapter isolates an internal, microscopic moment—the solitary act of accounting in absolute silence—contrasting sharply with the grand public scenes (Durbar) or the physical decay (Fresco)."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"6ca6639041297a907858f85f9ccc66163ee78204f43063c0736521bdf14afdfd"
+"ddab39c0919802a95227c3ade39acad726ba5fcf86af5c78baafa50cd410f91f"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:15:42.219589+00:00"
+"2026-10-04T20:20:10.989889+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -210,14 +174,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"ddab39c0919802a95227c3ade39acad726ba5fcf86af5c78baafa50cd410f91f"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

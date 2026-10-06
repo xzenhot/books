@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The feast meant to fix Gangaram's name in every mouth in Mandawa is laid out on beaten gold. The poem counts the guests and the cost alike, the generosity that is really an advertisement of power."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Mughal era court etiquette regarding banqueting and guest seating hierarchy"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Regional differences in celebratory feast presentation (e.g., unique types of sweets or centerpiece items)"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,143 +57,125 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Viewing the entire event through the slow, rhythmic pace of a single caste artisan hired for 'background maintenance'—someone whose role requires them to observe everyone but be invisible."
+"Shifting focus from Gangaram’s personal pride to the collective memory of the guests—what stories they bring with them before tasting the food."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The concept of *borrowed identity*: Analyzing how the guests use Gangaram’s excess setting as an opportunity to reinforce their *own* status or alliances, making him merely a stage-setter for others' portraits."
+"Treating each guest as a momentary mirror reflecting a different aspect of Gangaram's fabricated power (a rival, a local priest, a junior clerk)."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Focusing on the non-merchant attendees: A segment dedicated solely to the servants, groomsmen, and retainers—the silent infrastructure whose exhaustion underpins the illusion of effortless wealth."
+"Examining the mechanics of presentation: How the sheer repetition of identical gold platters functions as a form of hypnotic, overwhelming visual language."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"setting: The passage through a narrow service alley behind the main hall, desire: To escape the suffocating weight of expectation for one breath of unfiltered, non-celebratory air., obstacle: A minor logistical failure—a dropped tray or a sudden blockage requiring unexpected crowd movement., turn: The protagonist witnesses an intimate, private moment between two guests that contradicts the public facade of rivalry."
+"Setting: The central eating area overflowing with polished brass and gold dishes; desire: A specific guest refuses to eat from one of the primary serving sets, obstacle: They point silently toward an empty space just outside the feast’s main circle."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"setting: The edge of the guest seating area, where decoration ends and dusty ground begins, desire: To spot a single object left behind by an arriving or departing dignitary—something small, private, and utterly inconsequential to the feast's grand narrative., obstacle: A sudden downpour that washes away visible evidence of wealth, rendering everything momentarily equally soiled., turn: The discovery leads not to a trinket, but to an old, discarded piece of communication (a sealed letter or receipt) detailing business rather than pleasure."
+"Setting: Outside the high walls of the haveli, where attendants wait in shadowed courtyards; desire: A marginalized retainer watches the proceedings not for food or favor, but to log every slight imperfection in the display, obstacle: They cannot report it without risking being dismissed entirely."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"setting: A small viewing window (*jharokha*) overlooked by the guests, desire: To see the mundane life continuing outside while this spectacle is contained within., obstacle: The high walls and heavy draperies effectively block all external sightlines, trapping the viewpoint in a state of forced indoor observation., turn: A specific smell or sound from *outside* (e.g., burning dung smoke, distant animal cry) momentarily breaks through the perfumes of the feast."
+"Setting: The very edge of the receiving hall, near a massive cooling brazier used to maintain warmth; desire: One guest catches sight of something unusual—a reflection that shouldn't be there, perhaps movement behind the main façade—obstacle: The noise and spectacle drowns out any potential alarm."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the entire gathering as a formalized biological exchange: Analyzing who offers what (boons, favors, seeds of debt) and who accepts it."
+"Deconstructing 'Generosity': Viewing the feast not as giving abundance, but as a calculated form of economic hostage-taking, where refusal to partake implies social death."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Shifting focus from gold/plate to consumables: How are the specific ingredients—spices, rare fruits, wines—being used to signal trade routes rather than just wealth?"
+"The Typography of Plenty: Analyzing how visual repetition (hundreds of dishes) replaces narrative voice; the meal becomes a printed page filled with glorious, unreadable script."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The poem structured around 'Silence Points': Identifying moments where the narrative *should* be loud with compliments but is instead unnervingly quiet, amplifying underlying tension."
+"Ephemeral Labor: Focusing solely on the precise timing required for the serving staff—the micro-management of heat, placement, and pace required to maintain this illusion."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way highly polished brass reflects distorted images of hundreds of faces clustered together."
+"The subtle scent of crushed cardamom that has been warmed by repeated contact with hot metal (Smell)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: A rhythmic, repetitive sound completely unrelated to music—perhaps the methodical *snick-snap* of a servant's specialized tool cleaning silverware in preparation for the next course."
+"The dry rasping sound made when linen napkins, starched stiffly for the occasion, are folded too sharply against a hard marble table (Sound)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The specific scent combination of expensive, imported cardamom wrestling with the musky odor of unwashed wool garments."
+"The slick, almost oily sheen on the carved wooden implements used to serve—a residue from endless handling and polishing (Touch)."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the accepted cultural norms regarding the physical distance between unrelated powerful guests at a major state/merchant reception?"
+"What were the social conventions regarding dietary segregation or subtle signaling among elite guests at such large Marwari gatherings?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did different regional merchant groups (e.g., Oswal, Agarwal) typically signify their presence or status through dress or presentation at banquets?"
+"How did local Rajasthani customs differentiate between hospitality offered by a powerful merchant versus state-sanctioned patronage?"
+```
+
+## $["creative_enrichment"]["research_questions"][2]
+
+```json
+"Were there specific regional colorations of spices used in high-status meals that served as non-verbal indicators of lineage or allegiance?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A call-and-response structure mimicking the flow of endless toasts and accolades."
+"A strict cataloguing structure: A poem composed almost entirely of escalating lists (types of rice, types of metal, numbers of chairs), ending on a sudden, abrupt caesura."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An unreliable narration where different 'witnesses' describe the same five minutes of the feast, contradicting one another slightly."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The architectural mechanics behind controlling crowd flow within a single courtyard space to maximize visual impact for a seated figure."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"The specific roles and minor rituals performed by eunuchs or attendants in managing the flow of goods and people during peak social gatherings."
+"Interleaving narrative and inventory: Every few lines shifts abruptly from describing the grand visual splendor back to the meticulous accounting notations Gangaram's clerks would have made for such an event."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike previous chapters focused on accumulation (frescoes, gold), this chapter must deal with projection—the calculated outward performance of power enacted through an audience."
+"Unlike previous chapters focusing on specific objects or trades, this piece centers entirely on a massive social mechanism—the performance of public consumption—highlighting its mechanical function over mere display."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"dea3995f3e9f19c179439b305173ceaf1d3bdf0e46a8906c7110f462aa000b17"
+"384a43d3c37e1a09adb08e68282e10dec7cc08f0a19b5c3113df5eb9562e2b0a"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:06:24.717651+00:00"
+"2026-10-06T11:41:49.780985+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

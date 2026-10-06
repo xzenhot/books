@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The great war is painted across a courtyard wall, armies frozen mid-charge in a battle that will never end. The poem holds the paradox of the painted war — a violence made permanent, and therefore made safe to live beside."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Symbolism of cyclical violence in Indian art/mythology"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Patronage and the depiction of warfare in Rajput miniature painting"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,161 +57,131 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Viewing the painted war as a rehearsal or ritualistic enactment rather than a historical moment: it's art for catharsis, not history."
+"Examining the strategic positioning of the murals: how specific battles are placed to face the main street versus those hidden in quiet recesses, suggesting different audiences (public vs. private contemplation)."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Centering on the logistics of depicting so many figures: an obsessive count that reveals systemic labor organization rather than grand battle strategy."
+"Treating the painted armies as bureaucratic entities rather than warriors—focusing on their standardized uniforms, ranks, and logistical formations depicted in miniature."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Telling the poem from the perspective of one non-combatant figure trapped within the fresco (a servant, a laundress) who witnesses the full scale of carnage and its aftermath."
+"Interrogating the color palette of conflict: whether the reds and browns represent blood spilled or rich ochre earth churned up during siege warfare."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"setting: A section detailing Arjuna's charioteer preparing for battle; desire: To write a dialogue where the charioteer warns the artist that rendering death too perfectly is dangerous to the structure itself, obstacle: The pigment choice must obscure signs of decay."
+"Setting: A section showing Yudhisthira's hesitation before battle, desire: He desires to speak a word of counsel that only an observer from outside time can hear, obstacle: The stillness of the paint itself captures and rejects all utterance."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"setting: Amidst the spectral lines of arrows piercing painted flesh; desire: For Gangaram to use the fresco as collateral in an argument with a rival—showing it off like valuable property, obstacle: The art cannot communicate its intrinsic value outside the context of devotion."
+"Setting: Amidst the chaos of Kurukshetra, desire: Gangaram attempts to 'order' the painted armies into lines resembling his own successful trade convoys, obstacle: The fluidity of fate depicted overwhelms his need for rigid accounting."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"setting: A moment where Krishna is instructing Arjuna; desire: To make the advice itself physically manifest on the wall—a temporary painted overlay that dissolves when questioned, obstacle: The artist struggles to balance divine counsel with battlefield realism."
+"Setting: Late at night, only lit by a sputtering oil lamp reflected off the painted brass armor, desire: A forgotten retainer in the haveli reviews the mural as if reading troop movements against an adversary known only to him, obstacle: His physical memory fades while the fresco remains perfectly detailed."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the battle not as a clash of armies, but as a clash of ideologies or economic forces masquerading as war."
+"Shifting focus from the narrative of Dharma vs. Adharma to the sheer mechanics of depiction: how complex formations are distilled into simplified, repeatable iconographic units across vast surfaces."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on the *negative space* around the figures: what is omitted from the violence—the civilians, the wounded too far to be seen, the aftermath after the dust has settled?"
+"Treating the painted figures not as historical proxies but as exhausted laborers, their battle wounds being metaphors for ceaseless economic labor in the Marwari system."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Exploring the 'perpetual state' of the fresco battle: It never ends because it serves an unending need for dramatic narrative tension."
+"A structural focus on negative space—the gaps between the warriors, where silence resides and where Gangaram's personal anxieties are projected onto the void."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Smell: The sharp, metallic tang implied by countless frozen specks of painted blood mixed with the dry chalky smell of limestone."
+"The faint, dusty grit of powdered minerals migrating from the fresco surface when brushed by a passing insect."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Touch: The imagined texture contrast between heavily worked muscular drapery (wet-looking) and areas left deliberately rough like raw plaster."
+"The metallic echo of unseen clash, imagined against the visual stillness of perfectly rendered bronze weapons."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Sound: The visual depiction of a single, high-pitched whistle carried across the expanse of painted troops, suggesting imminent disaster."
+"The dry, alkaline smell rising from the wall pigment under intense desert heat."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"How did patronage dictate the permissible levels of gore or violence in public religious frescoes versus private family devotional art?"
+"What specific motifs in regional Indian battle art (outside mainstream Hindu epic depictions) could have influenced the representation of military organization on merchant architecture?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"What specific materials were used by fresco artists to create pigments that suggested moisture or visceral bodily fluids (e.g., achieving a 'wet look' pigment)?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"Were there established iconography rules for depicting military equipment (weapons, chariots) within the context of epic Hindu narratives?"
+"How did the pigments used for red and brown resist weathering, and what does that suggest about their sourcing from local geological strata?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem structured as an inventory checklist: itemizing every painted weapon and noting its mythological provenance."
+"An epistolary structure where Gangaram addresses different painted figures (Bhishma, Drona, etc.) as if they were creditors or silent partners."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Adopting a circular structure where the opening invocation mirrors the final visual detail of the battle, suggesting recurrence."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"Writing in direct address to a modern observer who sees only massed figures and cannot perceive the underlying narrative tension."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The psychological burden on the artisan tasked with depicting sheer carnage for commercial appeal."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"A focus entirely on the logistics of pigments required solely for 'death'—ochres, reds derived from minerals associated with blood, etc."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"Comparing the fresco battle to actual military mobilization or parade ground drill displays in later colonial records."
+"A poem structured around a rhythmic incantation echoing the battle cries, with each iteration slightly shifting in tonal quality to reflect decay or endurance."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Unlike the architectural sections focusing on private domestic life (Jharokha/Courtyard), this chapter must treat grand-scale public violence, demanding a shift from intimacy to overwhelming spectacle and controlled chaos."
+"Unlike the earlier works focusing on foundational acts or devotional beauty, this chapter concentrates entirely on formalized conflict and its deliberate domestication through art."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The political allegory of whose side 'wins' in the fresco—does Gangaram unconsciously align himself with a losing faction?"
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A comparative study between the portrayal of cavalry versus infantry within the mural."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"f5e4860f04436e613e58426298837fdfe730a8bca5f820540f18fb79a8d46bc2"
+"daf39611991dad63e955ae525c95cf8cf4793dcd70b1efd0be524f4f7f587328"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:04:07.915246+00:00"
+"2026-10-06T11:40:26.105059+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

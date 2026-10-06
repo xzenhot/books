@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -39,46 +39,10 @@
 ## $["further_references"][0]["reference"]
 
 ```json
-"Pigment sourcing and trade routes in Rajputana during the late 19th century"
+"Architectural iconography of Marwari mercantile class"
 ```
 
 ## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Architectural symbolism of scale escalation (from animal to machine) in regional art forms"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][2]["no"]
-
-```json
-"3"
-```
-
-## $["further_references"][2]["reference"]
-
-```json
-"The economic implications of competitive patronage between wealthy merchant families in Shekhawati"
-```
-
-## $["further_references"][2]["weblink"]
 
 ```json
 ""
@@ -93,7 +57,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -105,139 +69,115 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the *contract* aspect: Treating each fresco addition as a legally binding (or quasi-legal) expenditure that shifts ownership or debt between merchant houses, rather than just aesthetic rivalry."
+"Framing the expenditure as a purely financial risk calculation rather than social display: Every layer of paint is a leveraged bet on sustained prosperity."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The critique of imitation versus originality: Examining specific mythological scenes where one house copies another, and then deliberately over-embellishes the copy until it becomes ridiculous or sacrilegious."
+"The physical relationship between the rival mansions: Viewing them not as two separate entities, but as two interlocking economic pressure points."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The structural failure as narrative climax: Dedicating the poem to a single moment when mortar gives way, allowing a cascade of pigment flakes (representing debt/failed ambition) to fall onto the street below."
+"Focusing on the unintended aesthetic consequences: How the competition forces innovation or ugliness in the art, beyond mere patronage."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The threshold separating two havelis, which are separated by a narrow, shared walkway; Desire: To intercept an overheard conversation between the lead artists discussing the 'acceptable' limit of extravagance for this quarter; Obstacle: A family member intercepts the spies and threatens to leak their gossip."
+"setting: The narrow dividing wall separating the two havelis, desire: To find a moment where both paintings overlap perfectly under the same shaft of afternoon sun., obstacle: Dust settling unevenly, obscuring the intended visual dialogue between pigment choices., turn: A sudden gust of wind momentarily shifts debris across both facades, revealing hidden outlines on either side."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The central courtyard at dusk, illuminated only by hundreds of oil lamps; Desire: To observe the patron (Gangaram) viewing the finished piece with an expression that is neither pride nor satisfaction, but profound exhaustion; Obstacle: A sudden gust of wind blows away a newly placed item of ornamentation meant to complete the vision."
+"setting: The courtyard where a shared water spout is located, desire: To capture the sound of the rival's construction workers briefly pausing to share a drink with Gangaram's craftsmen., obstacle: The unspoken etiquette preventing direct, sympathetic communication between the two competing factions., turn: A third, older craftsman walks through both grounds momentarily, observing the spectacle with quiet disdain for the modern contest."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The scaffolding set up around a major new fresco panel, smelling heavily of wet plaster and chemical binding agents; Desire: To discover a single, hastily hidden piece of evidence—a discarded tool or note—that reveals the *true* cost (non-artistic) of the commissioned work; Obstacle: Another rival family member arrives unannounced to oversee the 'quality check' and critique the materials used."
+"setting: Inside a receiving hall where murals from both properties face each other, desire: To allow one character to experience severe vertigo or disorientation when looking between two equally overpowering painted visions., obstacle: The sheer exhaustion of maintaining the facade, leading characters to view the art with sudden, desperate boredom., turn: A small animal (a pigeon, a stray dog) is trapped in the visual gutter between the two dominant scenes."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the frescos not as depictions of gods or stories, but as elaborate, coded advertisements for specific commodity trades (e.g., a depiction of bounty meant to sell dyes, spices, or textiles)."
+"Treating the competition as an accelerated timeline: The rival's project must be completed faster than Gangaram’s to win by expiration date."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Shifting focus entirely away from Gangaram: Centering on one non-merchant servant—perhaps a water carrier, or the kitchen staff—who moves through all the grand displays and only comments on the practicalities (where the roof leaks, where the plumbing fails)."
+"Refocusing on materiality over theme: Instead of *what* is painted (Ramayana vs. Motorcar), focus entirely on the specific composition and expense of the medium itself—the mica, the gold leaf application."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The chronological dismantling of scale: Beginning with an intimate fresco detail (a single face, a specific flower) before expanding outward to show how that small moment was swallowed by larger, more bombastic scenes."
+"Shifting from pride to documentation: The narrative centers on an objective observer (a visiting scholar or scribe) trying to catalogue the escalating symbolic language."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Smell: The acrid bite of freshly ground mineral pigments mixed with the heavy sweetness of burning camphor used in rituals meant to 'set' the paint."
+"The acrid smell of newly mixed pigment binder drying under the punishing sun."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The sharp *tap-tap-tap* of a small, portable metal tool (like a scribe's stylus or engraver) scoring away at existing plasterwork, either for revision or vandalism."
+"The gritty, rasping sound of a fine-grained sanding tool polishing oxidized gold leaf on the rival's work."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Sight: The stark contrast between the vibrant, almost unreal blue/red pigments and the dull, grey patina of the original, centuries-old structural stone beneath."
+"The sharp, chemical bite of fixing agents used to stabilize the vibrant blues against the bleached Rajasthani sky."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the common local sources for deep blues (like lapis or indigo) versus artificial dyes used in high-status narrative painting?"
+"What documented historical precedents exist for localized architectural competition in Rajput merchant communities?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did architectural elements—specifically ventilation shafts or drainage lines—influence the placement and size of grand wall murals?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"Were there specific motifs associated with 'excess' or ostentation in Rajasthani miniature painting traditions that might function as foreshadowing?"
+"How did specific industrial materials (like early forms of motorcar paint or aniline dyes) become integrated into traditional fresco practices during this era?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem built on escalating dialogue: Each stanza is a spoken rebuttal between two competing aesthetic visions (e.g., Mythological narrative vs. Commercial display)."
+"A highly fragmented poem, structured like a series of rapidly escalating auction bids."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A structure mimicking the layering of paint application: Moving from thin washes to thick impasto, mirroring how ambition builds upon older foundations."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"Using an almost musical form that builds polyrhythms, where each 'art' represented by a different rhythm (slow-moving divine; quick-selling trade; erratic machine)."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The psychological toll on the *student* apprentice tasked with learning the family's unique style amid overwhelming competition."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"Exploring the role of foreign influence beyond just technology—perhaps a specific textile pattern or decorative element suggesting connections to distant colonial centers that dictated local tastes."
+"An opening stanza set entirely in the ledger room observing financial projections that mirror pictorial extravagance."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Where previous chapters detailed accumulated wealth (festivals, successful building phases), this chapter must focus solely on the *kinetic* expenditure of status through direct aesthetic competition, using physical materials as metaphors for unsustainable spending."
+"This chapter deviates from earlier economic documentation by focusing explicitly on how capital expenditure manifests as visual conflict rather than just trade flow, stepping away from purely transactional concerns to aesthetic warfare."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"1ea1d1a5147cd8d36c188312aed9e69f03bf7f4ec15fb44668d47df9cd8f896e"
+"6da4482cb44a77c14673fce16bde71324b840094979c81a6a7e703c88976c266"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:08:09.221268+00:00"
+"2026-10-04T20:14:50.858120+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -246,14 +186,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"6da4482cb44a77c14673fce16bde71324b840094979c81a6a7e703c88976c266"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

@@ -1,77 +1,54 @@
 {
   "chapter_index": 17,
   "name": "17",
-  "word_target": 500,
+  "word_target": 110,
   "chapter_title": "The Courtyard",
   "chapter_summary": "The open square of sky at the house's heart is where life gathers — cooking, washing, quarreling, celebrating. The poem holds the courtyard as the haveli's true center, the open space the painted walls are built around and could never fill.",
-  "further_references": [
-    {
-      "no": "1",
-      "reference": "Traditional courtyard architecture in Rajput palaces beyond Shekhawati",
-      "weblink": ""
-    },
-    {
-      "no": "2",
-      "reference": "The social function of shared open space versus private domestic sphere in North Indian culture",
-      "weblink": ""
-    }
-  ],
+  "further_references": [],
   "level": "chapter",
-  "state": "completed",
+  "state": "written",
   "segments": [
     1
   ],
   "creative_enrichment": {
     "angles": [
-      "Viewing the courtyard as a stage for *unpainted* action: Focusing on the shadows, dust patterns, and seasonal growth (vines, weeds) that exist purely because the space is open to the elements.",
-      "The 'Axis of Exhaustion': Treating the courtyard not as a center of gathering, but as an enormous sink absorbing noise, spilled color, discarded objects, and collective fatigue over generations.",
-      "A conversation addressed to the *absence* of servants/workers: An imagined dialogue where Gangaram addresses the silent labor force that once animated this space—the laundresses, the cooks, the children who played here."
+      "Treating the courtyard not as a social space for display (as seen in Durbar), but as an infrastructural void—a necessary emptiness enabling the verticality and enclosure of the surrounding walls.",
+      "Focusing on temporal layering: The sunlight hitting the courtyard at midday casts hard, perfect geometry onto the patterned tilework, contrasting with shadows cast by unseen things that linger from yesterday's events (like a dropped tool or forgotten spill).",
+      "The soundscape as architectural design: How the high walls funnel specific sounds—a distant donkey bray vs. a domestic quarrel—into resonant echoes within the open square."
     ],
     "story_options": [
-      "Setting: The courtyard at midday during the oppressive height of summer; Desire: For a single, persistent sound—perhaps a lost toy or a single ringing anklet—to echo endlessly, suggesting an unresolved incident;",
-      "Setting: A ceremonial gathering meant for five hundred people (linking to Chapter 21); Obstacle: An unforeseen logistical failure—the water source runs dry, forcing everyone into uncomfortable proximity; Turn: The focus shifts from grand ritual display to mundane, immediate survival negotiation.",
-      "Setting: Twilight, just as the last sliver of visible activity fades behind the adjacent walls; Desire: For an artist (perhaps a young apprentice) to sneak out and paint *only* what is currently happening—a fugitive sketch capturing momentary truths rather than immortalizing grand scenes."
+      "Setting: The midday heat beating down on sun-baked courtyard stone, desire: A cook frantically trying to coax a difficult marinade into flavour before afternoon guests arrive, obstacle: the shadow of a leaning, unused scaffolding member interrupting the sunlight.",
+      "Setting: Dusk in the central open space, desiring: Two young men engaged in a hushed political argument over trade tariffs while their elders conduct evening ritual prayers near a small shrine, obstacle: the sudden appearance of a stray dog that snaps at one's foot.",
+      "Setting: Just before dawn, mist clinging to the lower sections of the courtyard tiles, desire: A lone washerwoman meticulously scrubbing stains from expensive textiles left out overnight, obstacle: realizing she has scrubbed away not just dirt, but faint traces of last night's pigment transfer."
     ],
     "subject_rotations": [
-      "Shifting focus from human gathering/celebration to the relationship between domesticity and wilderness: How does the enclosed, man-made courtyard battle entropy and nature over time?",
-      "Treating the ground plane itself as a character: Analyzing the paving stones, uneven patches, accumulated dust, and stains not as background but as a record of countless footsteps and spilled life.",
-      "Examining the architectural function: If the surrounding rooms are about *containing* experience (a prayer, a meal), how does the courtyard’s lack of structure force uncontainable, messy reality?"
+      "The courtyard as a stage for micro-dramas—the petty rivalries and daily negotiations between servants or minor tenants that occur unseen by the grand visitors.",
+      "Analyzing the relationship between 'openness' and 'confinement': how the vast, unpainted sky above emphasizes the deliberate claustrophobia created by the densely decorated interior rooms.",
+      "The courtyard as a transitional zone: less sacred than the temple room, yet more exposed than the women’s quarters; the threshold of domestic life vs. public visibility."
     ],
     "sensory_details": [
-      "Sound: The specific, high-pitched grating sound of metal washing implements dragged across stone that has been perpetually damp; (A persistent friction).",
-      "Smell: The mingled scent of stale cooking oil mixed with the sharp, mineral tang of rainwater hitting sun-baked courtyard earth.",
-      "Sight: The way intense sunlight casts sharp, geometric patterns through a specific gap in the overhead roofing structure or archway at midday."
+      "The specific abrasive grit of red ochre dust kicked up by cart wheels crossing the stone floor at high noon.",
+      "The metallic scent of boiling brass pots mingled with curing lime mortar evaporating in the heat.",
+      "The faint, persistent vibration felt through the flagstones from subterranean water channeling or distant commerce."
     ],
     "research_questions": [
-      "What were common materials used for paving and flooring in Mandawa courtyards—were they local stone, fired brick, or polished concrete mix?"
+      "What specific local deities or domestic practices were historically centered in the open ground areas between principal structures of wealthy Rajasthani homes?",
+      "How did different castes (artisan vs. merchant family) demarcate their operational zones within a single, shared courtyard space?"
     ],
     "structural_variants": [
-      "A poem structured as a series of increasingly fragmented recollections viewed from the same physical spot.",
-      "Using dramatic monologue form: The courtyard speaking directly to the passing decades and the decay surrounding it.",
-      "An episodic structure, dedicating stanzas to distinct domestic activities (e.g., washing clothes, boys playing tag, cooking smoke) in rapid succession."
+      "Opening with a static, wide-angle description of the square at zenith, slowly zooming in on one small action before shifting perspective.",
+      "Employing a cyclical structure where actions (washing, cooking) are presented as recurring motifs across changing light conditions (day->twilight).",
+      "Structuring the poem around 'echoes'—a single sound or action repeated and distorted as it travels through the courtyard's architectural geometry."
     ],
-    "variety_note": "While previous chapters focused on highly specific internal niches or grand processions, this chapter must embrace the *negative space*—the void and the transient activity of the open air that holds everything together but is itself undefined by frescoes."
+    "unused_angles": [
+      "Focusing on the specific material degradation of the paving stones, where patterns of heavy use over centuries have worn away decorative inlay to reveal older, simpler geological strata beneath.",
+      "A brief meditation on a single object left in the square (a cracked terracotta pot, an overturned wooden stool) as an unintentional monument to daily human entropy."
+    ],
+    "variety_note": "This chapter contrasts the highly codified visual narratives of the frescoes by focusing entirely on a functional, unadorned space where daily life, rather than grand spectacle, takes place."
   },
   "draft": {
-    "sha256": "be170f0b25d74d3864a6e8f593aaab4867d82b6b9e21720b13d01821430a53e6",
-    "written_at": "2026-10-04T03:51:49+00:00",
-    "origin": "humanize"
-  },
-  "humanized": true,
-  "humanized_at": "2026-10-04T03:51:49+00:00",
-  "quality_review": {
-    "status": "passed",
-    "sha256": "be170f0b25d74d3864a6e8f593aaab4867d82b6b9e21720b13d01821430a53e6",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-10-04T03:53:58+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
+    "sha256": "1a9eadb685e9e5d686ced558d726bfe53e6b7fe4de2cfb4b4365e63debda7805",
+    "written_at": "2026-10-06T11:47:18.325166+00:00",
+    "origin": "write"
   }
 }

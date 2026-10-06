@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,22 +30,10 @@
 "The associates vanish with what they can carry, leaving Gangaram to face the creditors alone. The poem follows the partners out the gate, the loyalty that dissolves the moment the fortune does."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Traditional legal or social mechanisms for mediating business failure among merchant guilds in Rajasthan."
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -57,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -69,127 +57,115 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"The poem could be structured around the physical threshold of the main gate: dedicating stanzas to what is seen *through* it, vs. what remains visible *from* behind it."
+"Examining partnership loyalty through the lens of material possession: How does the physical object taken by a fleeing partner (a ledger page, a piece of silver) define their betrayal?"
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Shifting focus entirely from the departing men to the one stationary observer—perhaps an elderly domestic servant left guarding the property who sees every exit."
+"The geometry of departure: Mapping the exodus as a pattern—a retreat towards specific exit points within or outside the haveli structure."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Treating the fleeing partners not as individuals, but as a collective force: A tide of receding color and sound that pulls weight from the haveli's façade."
+"Foreshadowing absence: Treating the partners' flight not just as an economic escape but as a predetermined mythological exile, turning them into characters destined for separate ruins."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The dusty main gate threshold; Desire: To find one partner who stops momentarily to acknowledge the poet/narrator with a specific, meaningful gesture (a shared look or touch); Obstacle: Being unable to make eye contact due to shame and desperation; Turn: Realizing that acknowledgment itself is now impossible."
+"Setting: The main wooden gate of the haveli at deep twilight; Desire: For one partner to pause and look back at Gangaram, having made his final division of assets; Obstacle: A sudden gust of wind blows dust across the threshold, obscuring faces."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A cramped servant's passage just off the main exit route; Desire: For one partner to slip something—a single, small item of utility (like a key or a length of fine thread)—back into the haveli for those left behind; Obstacle: The urgency and momentum carrying everyone away too quickly; Turn: The object found is worthless but symbolically profound."
+"Setting: A dusty road just outside the city limits where carts are hastily loaded; Desire: To witness a minor disagreement between partners over who gets which item—a private argument played out against the grandeur of what they left behind."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: A corner overlooked by the main exit path, near discarded luggage or broken wagon wheels; Desire: For a passer-by (a non-merchant) to recognize the pattern of their failure as merely part of natural cycles, making it less shameful; Obstacle: The passing stranger is preoccupied with a completely different, mundane survival task; Turn: The observer's indifference is ironically the most comforting thing encountered."
+"Setting: The shadowed servant's passage leading to the rear exit; Desire: For one partner, realizing his error mid-escape, to turn back momentarily toward the light spilling from Gangaram's locked chambers."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing on the *material* aspect of abandonment: What tangible things—tools, ledgers, personal trinkets—are specifically left behind by those who flee?"
+"Shifting focus entirely to an inanimate object—a specialized tool or a specific document—that is used by the partners in their departure, rendering it the temporary proxy for human ambition."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"A chronological reversal in the exit sequence: Instead of tracing them leaving, tracking the emotional echo of their departure moments after they pass."
+"Treating the dissolution of partnership as a form of architectural failure; how the load-bearing capacity of the shared endeavor breaks down unevenly, one pillar failing before another."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Examining the socio-economic roles *other* than partnership: Who was discarded first? The accountant? The security guard? The family retainer?"
+"Viewing the fleeing not as an active decision but as a systemic decompression—the structure itself losing internal pressure and spilling out its components."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The way a single, brightly colored scarf or turban cloth snags on an architectural detail as it is hastily pulled through the gate."
+"Sight: The specific pattern of shadows lengthening across cobbled ground where pairs of boots tread unevenly during hurried exit."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The brittle scattering sound of cheap metal bangles hitting the packed earth where the crowd thins out."
+"Sound: The brittle, scraping sound of iron hinges being forced open against the quiet expectation of stone and wood."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The sharp, coppery smell of sweat mixed with dust from men who have been confined to enclosed spaces for too long."
+"Touch: The dry, papery texture of a torn promissory note held tightly by one fleeing partner."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were common informal agreements or oaths within merchant partnerships in this region that would survive a financial collapse?"
+"What were the common informal mechanisms for resolving severe business disputes among merchant communities before formalized courts became accessible?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Can pre-modern sources describe the concept of 'corporate dissolution' or shared liability for trading ventures?"
+"How did regional textile trade agreements traditionally define equitable division when capital or inventory needed to be split hastily?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A poem using couplets/stanzas structured like accounts payable, listing names followed by an absence of value."
+"A fragmented narrative structure mimicking fractured memory, where each partner is presented in a separate, short burst before the next."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Varying stanza length to mirror the perceived distance: very long and detailed when they are close; rapidly chopping into staccato lines as space opens up between them."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"The role of women who managed the household accounts while the men negotiated public failure."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"The internal conflict among the partners—who blames whom for which failed venture, even in their haste to leave?"
+"The poem structured as an overlapping dialogue (implied), where Gangaram's unspoken accusations intersect with their physical actions of leaving."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter shifts the focus from the accumulation and building up (previous chapters) to the violent dispersal of human association, using thresholds and peripheral witnesses rather than grand frescoes."
+"Unlike earlier poems focusing on static grandeur or material gain, this chapter is defined by negative space—the movement away from the central structure and the deliberate erasure of companionship."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"500c27520c0ae4488c0da62d30e91a9a16fdfe6b487aa48ddbf137fcca9646e2"
+"36ee616064a4e3608b13dc42e90fc893981f9d13b860fff17b3449c0c0380bcb"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:11:49.732084+00:00"
+"2026-10-04T20:17:32.592908+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -198,14 +174,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"36ee616064a4e3608b13dc42e90fc893981f9d13b860fff17b3449c0c0380bcb"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

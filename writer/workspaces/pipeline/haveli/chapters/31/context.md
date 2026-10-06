@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -39,7 +39,7 @@
 ## $["further_references"][0]["reference"]
 
 ```json
-"Agricultural economies of Shekhawati during the mercantile age"
+"Agricultural debt cycles in rural Rajasthan"
 ```
 
 ## $["further_references"][0]["weblink"]
@@ -57,7 +57,7 @@
 ## $["further_references"][1]["reference"]
 
 ```json
-"Symbolism of grain stores in Rajasthani domestic architecture"
+"Pre-industrial food storage and grain spoilage methods"
 ```
 
 ## $["further_references"][1]["weblink"]
@@ -75,7 +75,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,115 +87,115 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the *weight* vs. the perceived value: Contrasting the actual caloric weight of the purchased grain against the sheer monetary 'heaviness' implied by the frescoes."
+"Focusing on the micro-transaction: Analyzing how a single sack of imperfect grain represents the entire systemic failure of delayed payment against immediate survival."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The perspective of generational debt: Showing the artisan not just paying for survival, but servicing a debt that extends across five generations of art and trade."
+"Shifting perspective entirely to the artisan's domestic life, divorced from the haveli; focusing solely on the coldness of his small village hut contrasting with the painted heat of Mandawa."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"The commodity exchange breakdown: Analyzing the precise ratio between pigment cost, labor cost, and grain payment—a visible economic equation failing at the end."
+"Treating the 'cracked grain' not as a poor commodity but as a specific metaphor for the cracked varnish or drying pigment that will inevitably fail on the wall later."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The darkened storeroom beneath the primary painting gallery; Desire: To recount the specific type of millet or wheat used for rations versus the high-grade pigments stored nearby; Obstacle: A single, damp rat gnawing through both supplies simultaneously; Turn: The realization that the grain itself is contaminated by dust mixed with spilled expensive dyes."
+"Setting: A dusty, abandoned threshing floor outside the main settlement, desire: To watch the artisan attempt to sell a single measure of this substandard grain at an unfair price, obstacle: The local moneylender who knows his desperation."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The open courtyard at dawn, before any buyer arrives; Desire: To hear an internal inventory count performed not in coins, but in handfuls of dry pulses and grains; Obstacle: An elderly matriarch from a neighboring house observing the meager count with unnerving clarity; Turn: She whispers a recipe requiring a grain that was supposed to be sold for art."
+"Setting: Inside the artist's own small dwelling, desire: To have him examine one specific kernel under dim light, searching for some hidden inherent value or curative property that will save his family from famine/debt."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The artisan's small lodging room, late at night; Desire: To have him recount the final moment he traded his ability to dream for enough rice to last until harvest; Obstacle: A childhood tool (a wooden scoop or pestle) found amongst the meager provisions, forcing a confrontation with memory; Turn: He realizes the 'profit' of the art was never meant to feed people, but only to buy more paint."
+"Setting: A nocturnal scene where the artisan walks past the great haveli wall, desire: To contrast the dazzling illusion of painted prosperity with the dull reality of the rough jute sack he carries home."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"A focus on *storage* as narrative device: Using the dry grain itself—its stacking, its deterioration, its necessity—as a visual analogue for the decline of wealth."
+"Shifting focus from 'cost' to 'time': The grain symbolizes an impossible temporal debt—a promise that stretches indefinitely into a harvest never coming."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Treating the artisan's hands: An extended meditation on calloused fingers that transition from mixing mineral pigments to handling rough sacks of harvest goods, emphasizing physical labor over artistry."
+"Reframing the exchange not as commerce, but as ritual forfeiture: The artist surrenders his ability to provision his family in return for participation in Gangaram’s vision."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The poem structured as an arithmetic ledger: Beginning with the glorious column of expenditure (pigments) and ending with the insufficient column of receipts (grain measure)."
+"Treating the grain as historical artifact: What kind of heirloom or specific regional strain of millet/wheat is it, and what does its inability to sustain life say about changes in agricultural practice?"
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Smell: The distinct, slightly sweet funk of stored animal dung mixed into old compost used to enrich planting beds nearby."
+"The sharp, metallic tang of sweat mixed with old dried earth on the artist’s skin."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The rhythmic, dull *thump* of grain being weighed against the crisp, dry sound of spilled ochre powder hitting stone."
+"The precise sound of a single, dry kernel cracking under immense pressure, like tiny artillery fire."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The gritty residue left under fingernails after handling both earth-derived pigment and dusty kernels."
+"The tactile sensation of rough, sun-baked clay dust clinging stubbornly to the weave of his tunic."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the specific local granaries or tax collection points outside Mandawa that might have been used as a point of transaction for non-currency payment?"
+"What were the typical regional forms of grain exchange or debt repayment utilized by artisanal classes in Shekhawati during this period?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Are there regional variations in how 'payment' was documented when merchants settled debts involving staple foods versus coinage during this era?"
+"Are there specific local botanical records detailing strains of grain known for their resilience versus those prone to cracking under environmental stress?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"An epistolary structure: Fragmented letters or notes passed between the artisan and his family detailing daily needs vs. artistic commissions."
+"A highly granular catalogue structure where each stanza names a different failed kernel, building a sonic landscape of scarcity."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A dialogue format framed around a single meal preparation: A conversation about how to make a modest, filling meal using only what was exchanged."
+"An entirely flashback-driven sequence focusing only on the artisan's life *before* Gangaram offered him work."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Where previous chapters focused on external displays of wealth (frescoes, grand halls), this chapter turns inward and downward, grounding the narrative in basic sustenance—the material cost that lies beneath the pigment's sheen."
+"This chapter pivots away from architectural grandeur and mercantile spectacle to focus intimately on the most vulnerable node in the supply chain: the sustenance of the laborer, grounding high art in low survival."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"df0f59be2d5859a24987dc8b9272d7ac05ce0733f5b51e52c5b487044418074d"
+"3db379f515e493ff445257473120af8dba5c572d398198d89bb0da34f404f9d1"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:08:39.046331+00:00"
+"2026-10-04T20:15:13.740005+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -204,14 +204,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"3db379f515e493ff445257473120af8dba5c572d398198d89bb0da34f404f9d1"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

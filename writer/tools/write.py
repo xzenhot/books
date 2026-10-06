@@ -37,6 +37,7 @@ STYLE_DIR = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / 
 PRESET_DIR = REPO_ROOT / ".framework" / "templates" / "preset"
 POETRY_FILE = PRESET_DIR / "pijush.behula.md"
 DEFAULT_STYLE = "pijush"
+DEFAULT_PRESET = PRESET_DIR / "pijush.md"
 STYLE_FILE = STYLE_DIR / "pijush" / "sample.txt"
 SUBJECTS_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
 
@@ -51,6 +52,30 @@ MODEL = "gemma4:latest"
 CONTEXT_WINDOW = 64000  # num_ctx: token context window size
 TEMPERATURE = 0.7      # low temperature for focused, consistent output
 TOP_P = 0.9            # nucleus sampling
+
+
+def resolve_model(chapter_dir: Path, default: str = MODEL) -> str:
+    """Resolve the Ollama model name from the book's progress.json.
+
+    Reads `workspaces/pipeline/<bookname>/progress.json` → `model` (falling
+    back to `book.json` → `model`, then the module default). The template
+    `.framework/templates/backlog/progress.json` now carries `"model"` and
+    `"provider"` fields, which the scaffold copies into the pipeline, so each
+    book can pin its own LLM model.
+    """
+    pipeline = chapter_dir.parents[1]
+    for name in ("progress.json", "book.json"):
+        f = pipeline / name
+        if not f.is_file():
+            continue
+        try:
+            data = json.loads(f.read_text(encoding="utf-8-sig"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        model = data.get("model")
+        if isinstance(model, str) and model.strip():
+            return model.strip()
+    return default
 
 # Writer system prompts + user prompt template, loaded per form at runtime.
 SYSTEM_PROMPT_BN: str = ""
@@ -170,53 +195,79 @@ def resolve_chapters_root(bookname: str) -> Path:
     return chapters_root
 
 
-def resolve_preset(style: str) -> Path:
-    """Resolve a style nickname to its transformer file under poetry/styles.
+def resolve_preset(style: str | None = None) -> Path:
+    """Resolve a style nickname to its preset file under ``.framework/templates/preset/``.
 
-    The nickname matches a folder under
-    ``.framework/templates/stereotypes/poetry/styles/`` (e.g. ``pijush``
-    -> ``styles/pijush/style.md``). Legacy preset files under
-    ``templates/preset/`` (``pijush`` -> ``pijush.behula.md``) remain as a
-    fallback. Raises ValueError with the available styles when no match
-    exists.
+    The write command always uses a **preset** — a fixed, pre-authored style
+    document — never a style composed on the fly. Resolution:
+
+    1. If a `<style>` nickname is supplied, match a preset file whose stem's
+       first segment equals the nickname (case-insensitive): ``desh`` ->
+       ``preset/desh.md``, ``pijush`` -> ``preset/pijush.md`` (and
+       ``pijush.behula.md``).
+    2. If the nickname cannot be matched, fall back to ``preset/pijush.md``.
+    3. If no nickname is supplied, default to ``pijush`` (and thus
+       ``preset/pijush.md``).
+
+    Raises ValueError only when ``preset/pijush.md`` itself is missing, listing
+    the presets available for guidance.
     """
-    nickname = (style or "").strip().lower()
-    if not nickname:
-        nickname = DEFAULT_STYLE
-    candidate = STYLE_DIR / nickname / "style.md"
-    if candidate.is_file():
-        return candidate
-    if not PRESET_DIR.is_dir():
-        if candidate.exists():
-            return candidate
-        return POETRY_FILE
-    presets = sorted(PRESET_DIR.glob("*.md"))
-    for preset in presets:
-        if preset.stem.lower().split(".", 1)[0] == nickname:
-            return preset
-    available = ", ".join(sorted(p.name for p in STYLE_DIR.iterdir() if p.is_dir())) if STYLE_DIR.is_dir() else ""
+    nickname = (style or DEFAULT_STYLE).strip().lower()
+    presets = sorted(PRESET_DIR.glob("*.md")) if PRESET_DIR.is_dir() else []
     if presets:
-        preset_names = ", ".join(p.stem.split(".", 1)[0] for p in presets)
-        available = f"{available}; legacy presets: {preset_names}" if available else preset_names
+        # Prefer an exact-stem match (``pijush`` -> ``pijush.md``) before a
+        # dot-prefix match (``pijush.behula.md``).
+        for preset in presets:
+            if preset.stem.lower() == nickname:
+                return preset
+        for preset in presets:
+            if preset.stem.lower().split(".", 1)[0] == nickname:
+                return preset
+    # Unmatched (or no presets dir): use the default preset if it exists.
+    if DEFAULT_PRESET.is_file():
+        return DEFAULT_PRESET
+    # Legacy fallback, then an explicit error with guidance.
+    if POETRY_FILE.is_file():
+        return POETRY_FILE
+    names = ", ".join(p.stem for p in presets) if presets else "(none)"
     raise ValueError(
-        f"Unknown style '{style}'. Available styles: {available}."
+        f"No preset for style '{style}' and default preset 'pijush.md' is missing. "
+        f"Available presets: {names}."
     )
 
 
-def load_poetry(style_md: Path | None = None, style: str = DEFAULT_STYLE) -> str:
-    """Load the style prompt from the pipeline's style.md, falling back to the framework template.
+def load_poetry(chapter_dir: Path | None = None, style: str | None = None) -> str:
+    """Load the style prompt for the write command.
 
-    Prefer `workspaces/pipeline/<bookname>/style.md` (the book-contextual style the
-    filters regenerate). If it is missing, fall back to the resolved style
-    under ``.framework/templates/stereotypes/poetry/styles/<style>/style.md``
-    (``resolve_preset`` handles the legacy ``templates/preset/`` fallback).
+    - If a `<style>` is provided, resolve it to a preset under
+      ``.framework/templates/preset/`` (falling back to ``pijush.md``).
+    - If no `<style>` is provided, use the book's own
+      ``workspaces/pipeline/<bookname>/style.md``; if that file is absent,
+      fall back to the ``pijush.md`` preset.
+
+    The write command never composes a style on the fly.
     """
-    source = style_md if (style_md is not None and style_md.exists()) else resolve_preset(style)
-    vlog(f"Loading poetry prompt from: {source}")
+    style_name: str
+    if style:
+        source = resolve_preset(style)
+        style_name = source.stem
+    elif chapter_dir is not None:
+        book_style = chapter_dir.parents[1] / "style.md"
+        if book_style.exists():
+            source = book_style
+            style_name = "book style.md"
+        else:
+            source = resolve_preset(DEFAULT_STYLE)
+            style_name = source.stem
+    else:
+        source = resolve_preset(DEFAULT_STYLE)
+        style_name = source.stem
+    info(f"Style: {style_name} ({source})")
+    vlog(f"Loading style from: {source}")
     if not source.exists():
-        raise FileNotFoundError(f"Poetry prompt file not found: {source}")
+        raise FileNotFoundError(f"Style file not found: {source}")
     text = source.read_text(encoding="utf-8")
-    vlog(f"  poetry prompt loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
+    vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
     return text
 
 
@@ -325,7 +376,7 @@ def strip_ansi(text: str) -> str:
     return ANSI_RE.sub("", text)
 
 
-def run_ollama(prompt: str, language: str = "bn") -> str:
+def run_ollama(prompt: str, language: str = "bn", model: str = MODEL) -> str:
     """Call Ollama's HTTP API directly and return the generated text.
 
     Uses ``think=False`` to suppress the model's internal reasoning/"thinking"
@@ -333,7 +384,7 @@ def run_ollama(prompt: str, language: str = "bn") -> str:
     Retries transient failures with linear backoff.
     """
     payload = {
-        "model": MODEL,
+        "model": model,
         "prompt": prompt,
         "system": build_system_prompt(language),
         "stream": False,
@@ -344,7 +395,7 @@ def run_ollama(prompt: str, language: str = "bn") -> str:
             "top_p": TOP_P,
         },
     }
-    vlog(f"[ollama] POST {OLLAMA_URL} model='{MODEL}' think=False stream=False "
+    vlog(f"[ollama] POST {OLLAMA_URL} model='{model}' think=False stream=False "
          f"num_ctx={CONTEXT_WINDOW} temperature={TEMPERATURE} top_p={TOP_P}")
 
     encoded = json.dumps(payload).encode("utf-8")
@@ -500,7 +551,7 @@ def book_language(chapter_dir: Path) -> str:
     return "bn"
 
 
-def write_chapter(model_file: Path, segment: int | None = None, style: str = DEFAULT_STYLE) -> None:
+def write_chapter(model_file: Path, segment: int | None = None, style: str | None = None) -> None:
     number = int(model_file.parent.name)
     info(f"\n=== Chapter {number} ===")
     chapter_dir = model_file.parent
@@ -509,19 +560,22 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str = DEF
     out_file = chapter_dir / "chapter.md"
     previous = out_file.read_bytes() if out_file.exists() else None
     version_dir = resolve_version_dir(model_file, segment)
-    style_md = chapter_dir.parents[1] / "style.md"
     # Load the form-specific writer templates before writing.
     load_templates(resolve_book_form(model_file))
-    poetry = load_poetry(style_md, style)
+    model = resolve_model(chapter_dir)
+    # Style resolution: a provided <style> selects a preset; otherwise the
+    # book's own style.md is used (falling back to the pijush preset).
+    poetry = load_poetry(chapter_dir, style)
     context = load_context(model_file)
     language = book_language(chapter_dir)
     override = load_override(model_file)
     prompt = build_prompt(poetry, context, number, language, override)
     vlog(f"[{number}] Language resolved: {language}")
+    vlog(f"[{number}] Model resolved: {model}")
 
     if SHOW_PROMPT:
         info(f"\n[{number}] ============ COMPLETE REQUEST ============")
-        info(f"[{number}] model      = {MODEL}")
+        info(f"[{number}] model      = {model}")
         info(f"[{number}] language   = {language}")
         info(f"[{number}] num_ctx    = {CONTEXT_WINDOW}")
         info(f"[{number}] temperature= {TEMPERATURE}")
@@ -538,7 +592,7 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str = DEF
 
     info(f"[{number}] Generating chapter from complete model context ...")
     t0 = time.time()
-    output = run_ollama(prompt, language)
+    output = run_ollama(prompt, language, model)
     elapsed = time.time() - t0
 
     backup = save_chapter(out_file, output, previous, version_dir)
@@ -598,11 +652,10 @@ Paths are resolved relative to the repository, regardless of your current direct
     parser.add_argument(
         "--style",
         metavar="NICKNAME",
-        default=DEFAULT_STYLE,
+        default=None,
         help=(
-            "Transformer style to write in (folder under "
-            ".framework/templates/stereotypes/poetry/styles/). "
-            "Default: pijush (styles/pijush/style.md)."
+            "Preset style to write in (a file under .framework/templates/preset/). "
+            "If omitted, the book's style.md is used. Default fallback: pijush.md."
         ),
     )
     args = parser.parse_args()
@@ -617,8 +670,10 @@ Paths are resolved relative to the repository, regardless of your current direct
     vlog(f"Verbose mode   = {VERBOSE}")
 
     try:
-        # Resolve the style early so an unknown nickname fails fast with guidance.
-        resolve_preset(args.style)
+        # Validate an explicit style early (unknown nickname → clear guidance).
+        # When omitted, the book's style.md governs; no early resolution needed.
+        if args.style:
+            resolve_preset(args.style)
         chapters_root = resolve_chapters_root(args.bookname)
         numbers = parse_chapter_input(args.chapters, chapters_root)
     except ValueError as e:

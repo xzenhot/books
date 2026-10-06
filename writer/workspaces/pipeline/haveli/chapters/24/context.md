@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -39,28 +39,10 @@
 ## $["further_references"][0]["reference"]
 
 ```json
-"Hydro-architecture and water management in arid historical settlements."
+"historical practices of elite hygiene in Mughal-influenced architecture"
 ```
 
 ## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Historical uses of mineral salts for body exfoliation (beyond modern soap bases)."
-```
-
-## $["further_references"][1]["weblink"]
 
 ```json
 ""
@@ -75,7 +57,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -87,121 +69,127 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"The biography of the soap/lather: Tracing a specific block of handmade soap from its ingredients (local oils, potash) to how it is used—first for luxury cleansing, then dissolving into common drain water."
+"Focusing purely on the physical properties of rose water and scented steam—how does its scent adhere to stone or evaporate against extreme heat, detached from moral commentary?"
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The narrative voice of the architect/mason's apprentice: Focusing on this character who observes the owner bathing not with judgment, but with professional study, cataloging every detail of leisure and excess in architectural terms."
+"Treating the act as a ritualistic defiance: The bath is not about cleanliness but about asserting control over an environment (humidity/scent) that exists outside the dusty transaction zones."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"A comparative taxonomy of thirst: Contrasting the physical need for water (the masons) with the social 'thirst'—the craving for recognition or debt repayment from the wealthy patron."
+"A sustained meditation on absence: Using the physical state of the water—drips, residual scent trails—to speak to the memory of those who are missing or have departed."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The wet, cool marble threshold immediately outside the bathing area; Desire: To collect a discarded item associated with the bath—a single shed hair, a fallen petal, a specific type of rinse-off powder; Obstacle: A sudden shift in humidity or temperature that threatens to dry up the water source unexpectedly; Turn: The object found proves it was used by someone other than the merchant."
+"Setting: The marble bathing chamber (Hammam-like interior), desire: Gangaram craves a specific, rare type of rose that is now extinct in Mandawa gardens, obstacle: His steward can only bring him common, scentless varieties."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: A hidden basin receiving runoff water from the main bath area; Desire: To steal a remnant of expensive material—a piece of scented cloth, a discarded jewel—before the drainage crew cleans it away; Obstacle: Another laborer or servant who is assigned to clean that specific drain spot before you can reach it; Turn: The discovered item reveals its true ownership was meant for someone else entirely."
+"Setting: The exterior courtyard abutting the bathhouse, desire: A stonemason pauses his work on the outer wall to look inward at the hazy steam rising from the upper chambers, obstacle: He cannot risk being seen by the household staff."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: A specialized washing station designed for preparation (perhaps changing ritual garments); Desire: To eavesdrop on whispered secrets exchanged while rinsing off oils and perfumes; Obstacle: The noise of a large group gathering nearby, making any careful listening impossible; Turn: One person speaks too loudly about their true source of wealth or patronage."
+"Setting: Moments after Gangaram exits the bathing chamber, desire: He lingers too long in a specific cooling niche, an unnecessary hesitation suggesting deeper anxiety, obstacle: A servant, trained for efficiency, gently nudges him toward his next appointment."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing purely on the *labor* involved in maintaining luxury hydration: Detailing the logistics—the sourcing of rose petals, the constant hauling of clean water, and the strain it puts on local laborers."
+"Examining the bath as a microcosm of trade imbalance: The 'luxury' water comes from distant sources (like specialized irrigation or imported essences) while local labor struggles with basic hydration."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Treating 'water' not as cleansing agent but as a commodity marker: Analyzing how fresh, scented water signals connection to distant, non-arid trade routes, making the scarcity even more pointed."
+"Deconstructing the material reality: Focusing on the friction between smooth, cool marble surfaces and the granular residue left by sweat/scent after bathing."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"The ritual objects left behind: Cataloging items used *during* the bath (diya stands, specific scented oils, specialized basins) and assigning them emotional/symbolic weight instead of just physical value."
+"A near-silence piece: Letting the poem be defined more by the *lack* of sound—no splashing, no chatter—only the hum of pressurized water or cooling stone."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The iridescent sheen on wet marble floors reflecting fragmented streaks of light."
+"The sharp, almost metallic coolness radiating from wet marble under direct sun exposure (Touch/Temperature)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Sound: The dripping rhythm of water hitting a basin carved from dark, unpolished basalt."
+"A visible sheen of microscopic oily particles left behind on stone surfaces where fragrant oils have settled (Sight)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Smell: The cloying sweetness of over-diluted rose essence battling the metallic tang of stale sweat mixed with dust."
+"The specific sound of condensation dripping from high decorative cornices into a basin with perfect, rhythmic regularity (Sound)."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What specific mineral salts or natural abrasives were used by masons/artisans for their own skin care when they could not afford scented bath products?"
+"What are the known historical water sourcing and purification methods used in Shekhawati Havelis?"
+```
+
+## $["creative_enrichment"]["research_questions"][1]
+
+```json
+"How did contemporary Rajasthani architectural plans integrate bathing chambers relative to service areas for laborers outside?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A 'before and after' structure: Opening with the mundane reality of manual labor (sweat, dust) and closing only on the hyper-stylized, scented ritual."
+"A single long-form stanza that describes the physical process of water being channeled from source to basin, mimicking irrigation flow."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"An extended catalogue poem: Listing every element associated with the bath—the basins, the soaps, the cloths, the specific types of water source/collection points—treating them as inventory items."
+"A dialogue structured as an internal monologue where Gangaram speaks directly to a former laborer or artisan who is now unreachable/unseen."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"The role of specialized attendants who manage the aesthetic experience (the 'bath perfumer' or ritual organizer) whose own life is defined by servitude to luxury."
+"An extended focus on the specific geometric patterns carved into the bathhouse floor and how they catch the steam, making the environment feel both perfectly ordered and physically dissolving."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"A focus on the plumbing: The unseen network of conduits and channels that allows for continuous, controlled overflow water flow in a private dwelling."
+"A perspective shift to a reflection by a junior member of the household observing Gangaram's bathing ritual from an unseen balcony, focusing solely on mimicry rather than judgment."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter must deepen the economic contrast established earlier—it moves from mere accumulation (ledger/goods) to the literal consumption of vital resources (water/scent) as a status display."
+"This chapter shifts focus entirely away from wealth accumulation and towards the physical dichotomy between privileged comfort and shared suffering."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"120920ea5c32493887faa68e63e02ebd3532ba40bbb0fb4926b8e4d5ce663d79"
+"6002f3170659b4a2a87a923684cd13df974da418c3deb3c918bce7a4e985151d"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:06:54.393361+00:00"
+"2026-10-04T20:13:51.105370+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -210,14 +198,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"6002f3170659b4a2a87a923684cd13df974da418c3deb3c918bce7a4e985151d"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

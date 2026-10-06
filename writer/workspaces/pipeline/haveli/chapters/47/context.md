@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,22 +30,10 @@
 "By the light of a single candle the ruined merchant counts what remains of his fortune. The poem holds the flame against the dark, the last account being tallied by a man who has lost everything but his arithmetic."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"pre-electricity illumination sources in Rajasthan's affluent homes (e.g., specific types of ghee lamps or oil mixtures)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -57,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"completed"
 ```
 
 ## $["segments"][0]
@@ -69,121 +57,127 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Shifting the focus from arithmetic to olfactory memory: The candle doesn't just illuminate numbers, it illuminates the smell of certain spices or foods that once surrounded those profits."
+"Treating the wax of the candle not as a source of light but as slow-dripping geological time, marking minuscule shifts in the merchant's decline."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The sound of the tallying process itself: Describing the precise, repetitive *click* or *scratch* of an abacus or chalk on slate as a maddeningly rhythmic counterpoint to silence."
+"Focusing on the precise chemical reaction: The way soot and carbon bloom onto the brittle surfaces when illuminated by imperfect flame."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Interruption via memory trigger: The flame catches something small—a loose thread, a speck of dust—and that single physical object forces the merchant's consciousness away from numbers and into a specific, vivid, non-financial moment."
+"Refusing to anthropomorphize Gangaram; rendering him purely as a mechanism—a ledger keeper whose survival is dependent only on his ability to quantify, not feel."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A high, narrow balcony overlooking the dark courtyard; Desire: To count one final item—a stray garment or piece of jewelry found amongst the rubble—instead of money, thereby admitting total failure in accounting. Obstacle: The constant draft undermining the candle’s reach."
+"Setting: The small desk in the upper room, desire: Gangaram attempts to count not gold coins but grains of dust settled upon an old paper balance sheet; Obstacle: The candle wax has pooled unevenly, creating pools of distorting light."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Beside a locked wooden chest meant for valuables; Desire: For the candlelight to reveal an inscription on the lid that references someone *outside* the merchant's known ledger (a debt owed by a distant relative, perhaps). Obstacle: A faint, rhythmic tapping sound suggesting someone attempting to breach the outer lock."
+"Setting: A single, intact ceramic inkwell left on a low shelf near his meager seating area; Desire: He stares at the dried pigment residue as if it were untapped capital; Obstacle: The wick is sputtering due to an undetected draft from a broken window seal."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: The main counting table, now coated in grime; Desire: To recount not just his assets, but every promise made—every handshake that implied future wealth—and find one word he cannot quantify. Obstacle: The candle flame sputtering out suddenly due to a draft or lack of oil."
+"Setting: The bare stone floor beside the candle's spill, desire: To map the circumference of the melted wax pool precisely; Obstacle: A tiny insect crawls across the perimeter of this calculated circle, breaking the illusion."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the 'candle' itself as a symbol of consuming time rather than merely providing light; every flicker is a minute stolen from memory."
+"The mathematics of despair: Structuring the poem entirely around arithmetic progression or regression related to his remaining assets."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing on the *residue* left by the candle: The blackened wax dripping down mahogany or stone, making physical records of expenditure and decay in one visible cascade."
+"Light as forensic tool: Using the candle's narrow beam to reveal imperfections in the stone (cracks, discoloration) that symbolize internal rot rather than external wealth loss."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"A subjective journey where the candlelight casts exaggerated, distorting shadows that represent debts unpaid or relationships overextended."
+"Object reductionism: Making the flame itself the central figure—a perfect, fragile object whose lifespan dictates the poem’s pace."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Touch: The slight stickiness of cooled wax residue on fingertips after touching the candle holder."
+"Sight: The precise, high-contrast silhouette of a single finger tracing the edge of a melted wax drip."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Smell: The sharp, slightly acrid scent of burnt tallow mingling with old incense smoke trapped in the upper rooms."
+"Touch: The abrasive texture of dried soot particles under the fingertips as he handles old account scrolls."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Sound: The delicate *tink* as a tiny shard of colored pigment falls from the peeling fresco and lands near the burning wick."
+"Smell: The sharp, chemical odor of burning tallow mixed with the pervasive dampness rising from the unsealed stone foundation."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What was the average lifespan or burn time of a high-quality oil lamp/candle used by wealthy Marwari merchants in the late 19th century?"
+"What was the precise composition and durability of low-grade beeswax or tallow used by wealthy households for private illumination during this specific historical period in Rajasthan?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Are there specific historical practices regarding keeping detailed household accounts when commercial trade collapsed?"
-```
-
-## $["creative_enrichment"]["research_questions"][2]
-
-```json
-"How did local Indian folklore view death illuminated only by artificial, transient light sources?"
+"Are there traditional accounting practices among Marwari merchants that utilized physical remnants (like charcoal marks) as a form of verification when paper records were suspect?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A recursive structure: The merchant recounts a profit point (X), which forces him to recall the event's lighting conditions (Y), and thus detail the candle used at that time (Z), leading back to the current depletion of fuel."
+"A highly constrained strophe structure, perhaps relying on iambic tetrameter to mimic the rigid adherence to numbers."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Narrative acceleration: Starting with moments of great wealth, where light was abundant (e.g., hundreds of lamps lit for a festival), and decelerating linearly toward the single source."
+"Employing an internal dialogue where Gangaram's counting voice is strictly logical, while the environment provides non-verbal counter-narratives (e.g., a scuttling sound)."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The political implications of remaining assets: How few items might be legally considered 'liquidatable' versus those deemed 'personal relics'."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A meditation on the *labor* required to maintain this minimal light source against the encroaching darkness."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter must foreground non-visual sensory input—smell, sound, touch—to describe the final accounting process, shifting away from the architectural grandeur or physical looting depicted in neighbouring chapters like 'The Empty Courtyard' or 'The Stripped Silver'."
+"Unlike its predecessors which focused on grand displays of wealth or physical destruction, this poem forces an extreme reduction—isolating one minuscule object (the candle/flame) against utter blackness."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"3719614e076ce085977d41a93343468a2043309e58af63261b4b6da1c1d396a4"
+"f114a2ae9454b51ff861d8cd6934c50cf3f9416935cf063770cf9c27f57a2ed3"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:12:53.714766+00:00"
+"2026-10-04T20:18:15.390999+00:00"
 ```
 
 ## $["draft"]["origin"]
@@ -192,14 +186,68 @@
 "write"
 ```
 
-## $["humanized"]
+## $["quality_review"]["status"]
 
 ```json
-true
+"passed"
 ```
 
-## $["humanized_at"]
+## $["quality_review"]["sha256"]
 
 ```json
-"2026-09-27T18:22:17+00:00"
+"f114a2ae9454b51ff861d8cd6934c50cf3f9416935cf063770cf9c27f57a2ed3"
+```
+
+## $["quality_review"]["reviewer"]
+
+```json
+"quality-agent"
+```
+
+## $["quality_review"]["reviewed_at"]
+
+```json
+"2026-10-04T20:20:31+00:00"
+```
+
+## $["quality_review"]["notes"][0]
+
+```json
+"Default quality audit passed — poem is written, enriched, and meets quality parameters."
+```
+
+## $["quality_review"]["notes"][1]
+
+```json
+"Philosophical depth: present"
+```
+
+## $["quality_review"]["notes"][2]
+
+```json
+"Metaphorical richness: present"
+```
+
+## $["quality_review"]["notes"][3]
+
+```json
+"Human accessibility: present"
+```
+
+## $["quality_review"]["notes"][4]
+
+```json
+"Civilizational relevance: present"
+```
+
+## $["quality_review"]["notes"][5]
+
+```json
+"Literary quality: present"
+```
+
+## $["quality_review"]["notes"][6]
+
+```json
+"Ethical framework: present"
 ```

@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -45,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"scaffolded"
 ```
 
 ## $["segments"][0]
@@ -57,131 +57,113 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Framing the sketch not as a failure of execution, but as an act of pure intellectual dialogue with the form—a conversation where the image proposes alternatives to the inevitable reality."
+"Treating the sketches not as artistic failures, but as highly detailed anthropological records of pre-modern aesthetics and cultural symbols."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Treating the discarded sketches as temporary ghosts: residual impressions that linger on the drafting paper long after the artist's focus has moved to the wall."
+"Focusing on the physical decomposition of the paper/charcoal itself—how time is visibly eaten by dampness or insect trails before it can even become art."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Interrogating the materiality of failure: contrasting the ephemeral, yielding nature of charcoal or watercolor study with the permanence sought in mineral pigments."
+"An internal argument where the painter speaks directly to a hypothetical 'future self' regarding what meaning he will impose upon these discarded marks."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A pile of sketches heaped near a low clay water jug; Desire: The painter to find one small detail in an old study that suggests the *emotional* origin of the final, approved motif, Obstacle: Realizing all prior attempts were merely logical derivations, devoid of soul."
+"Setting: A dusty corner beneath the scaffold platform, desire: To find one sketch that is not of a floral motif but depicts an unexpected human interaction—a clandestine meeting or argument., obstacle: The sketch is partially consumed by mold, forcing him to interpret only the outline."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Leaning against the rough stone wall of the storage room where materials are kept; Desire: To sketch a perfect depiction of exhaustion onto scrap paper before abandoning it, Obstacle: The hand trembling too violently to capture the precise line needed for the self-portrait study."
+"Setting: While cleaning tools in a borrowed small room outside the haveli, desire: To meticulously trace and reassemble fragments of charcoal lines found stuck to his boots., obstacle: He realizes the fragment belongs not to his own work but to an older, forgotten project."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Under a sliver of moonlight illuminating a specific ink stain on an early draft; Desire: To trace that accidental blot as if it were the true starting point of the design, Obstacle: A visiting elder/patron walks past and stops to critique the 'smudge' with detached artistic condescension."
+"Setting: At 3 AM before breaking camp for the night, desire: To stack the sketches vertically against a cold stone wall as if offering them up for silent judgment., obstacle: The vibration from a distant village animal causes the fragile paper tower to collapse."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Shifting focus from the *visual* failure (a bad line) to the *conceptual* failure (the inadequacy of the chosen metaphor for the patron’s pride)."
+"Shifting focus from 'failure' (a negative state) to 'potential energy'—each sketch is an unspent charge, awaiting the right application."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Examining how sketches are used as a deliberate form of self-erasure—not just failures, but paths rejected for strategic reasons necessary for future 'success'."
+"Treating the sketches as palimpsests; each attempt covers and reveals traces of previous conceptual iterations buried beneath their surface layer."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Treating the studies not as preliminary drafts, but as palimpsests where successive attempts to capture truth overlap and cancel each other out."
+"Analyzing the *geometry* of the discarded lines rather than their subject matter—how patterns (spirals, grids) persist even when color is abandoned."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The smell of damp paper mixing with the sharp, acidic tang of discarded ochre pigments."
+"The sharp, acrid smell of burned charcoal dust mixed with residual linseed oil from previous night's work."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The granular drag sound made by a stiff charcoal stick scraping across coarse handmade rag paper."
+"The gritty drag of brittle, dried pigment powder sliding against the rough grain of a scraped-down wooden palette surface."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The cool slickness of dried lampblack smudging against slightly warm fingertips."
+"The visual effect of moonlight catching the fine hairs on his forearms as he leans over the heap of papers."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the typical mediums available for preliminary artistic studies in 19th/early 20th-century Shekhawati that would contrast sharply with fresco chemistry (e.g., specific local vegetable dyes or earth pigments)?"
-```
-
-## $["creative_enrichment"]["research_questions"][1]
-
-```json
-"Are there documented practices within Marwari artisan guilds regarding the preservation or disposal of preparatory drawings? What does this imply about the value assigned to 'in-progress' work?"
+"What specific regional or stylistic differences existed between preliminary sketches for frescoes versus finished compositions in Shekhawati?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"Structuring the poem as a recursive loop, where each stanza revisits an earlier rejected composition only to modify it slightly based on the wisdom gained from its failure."
+"A rapid-fire enumeration style, where dozens of fragmented imagery snippets are listed in quick succession before a single, drawn-out moment of reflection."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Using fragmented lines taken directly from different discarded studies, stitching them together into a collage-like narrative that defies linear sense."
+"Using negative space as the dominant structural element; the 'wasted' area is given more linguistic weight than the surviving motif."
 ```
 
-## $["creative_enrichment"]["unused_angles"][0]
+## $["creative_enrichment"]["structural_variants"][2]
 
 ```json
-"The political implication of revision: how each sketch represents an attempt to satisfy shifting power dynamics between the artist and various local stakeholders."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"A focus on color theory as self-critique—analyzing *why* a particular hue was discarded, beyond merely visual appeal."
+"Structuring the poem around a mathematical progression: from exponential increase (number of failed attempts) to abrupt null set."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This poem moves away from material labor (like mixing pigments or scaling walls) to address the cognitive and conceptual labor of ideation; it is about the landscape of intention rather than the texture of execution."
+"Unlike chapters focusing on materials or the patron’s celebration, this chapter centers entirely on ephemeral documentation and the conceptual residue of artistic effort rather than its final product."
 ```
 
-## $["draft"]["sha256"]
+## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"11b4861f7a169d4238873770bead4828f74d5b1cc10023a02188f8b86700964a"
+"The political implications of destroying drafts that might reveal ideas contrary to the dominant social narratives of the merchant class."
 ```
 
-## $["draft"]["written_at"]
+## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"2026-10-04T19:11:02.143813+00:00"
-```
-
-## $["draft"]["origin"]
-
-```json
-"write"
+"A metaphor comparing the discarded studies to forgotten dialects or obsolete forms of regional storytelling."
 ```

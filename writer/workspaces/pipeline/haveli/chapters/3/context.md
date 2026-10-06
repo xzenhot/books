@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,58 +30,10 @@
 "The trade route between Gujarat's ports and Delhi is the artery of Marwari wealth, and the poem follows its dust and its camels. It maps the geography that made Shekhawati rich, the long road along which fortune moved north and never quite returned."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Historical logistics and engineering of ancient desert caravan trade routes (e.g., Qattara Depression)"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"Pre-industrial banking systems and risk management employed by merchant guilds in arid regions."
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][2]["no"]
-
-```json
-"3"
-```
-
-## $["further_references"][2]["reference"]
-
-```json
-"Ethnobotany of rare, highly resilient plants used as emergency rations in desert environments."
-```
-
-## $["further_references"][2]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -105,137 +57,149 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Shifting the narrative perspective to that of a non-human element—a specialized migratory bird or an ancient rock formation—that has watched these trade routes for centuries, observing human transience."
+"The Salt Road viewed not as a highway of commerce, but as an ancient suture connecting disparate regional geographies into one fragile economy."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Focusing on the material breakdown of the salt: detailing how different impurities (minerals, organic residues) stain and change the white crystals over time, reflecting forgotten stories."
+"Reframing the salt as a metaphor for necessary purification or extraction—the harsh cleansing required before true value can settle."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Exploring the concept of 'weight' beyond physical mass—the psychological weight of debt, oath-keeping, or unfulfilled promise carried by a merchant."
+"Shifting the perspective entirely to the ecosystem surrounding the road: the specific lichen, desert flora, and migratory birds that witness the ceaseless passage of human wealth."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A small camp built near a salt evaporation pond just as dawn breaks over shallow brine pools; Desire: To witness the precise moment the unique color gradient on the sky shifts from deep indigo to dusty rose, signaling safe passage across the next stretch; Obstacle: Being forced into a conversation with a skeptical local guide who only respects established tribal markers, not academic theory; Turn: The shared silence regarding the vast emptiness proves more valuable than any map reading."
+"Setting: A sudden, unexpected sandstorm cresting over a vital pass near an old watchtower. Desire: The caravan masters wish to maintain their pace despite the blinding grit. Obstacle: The storm forces them into an ancient, forgotten well where local myth suggests binding oaths must be renewed before they can proceed."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Inside the dark, enclosed space of a heavily loaded camel cart at night; Desire: To decipher the encrypted markings or tally knots found on another merchant's ledger that suggest illicit cargo movement; Obstacle: A sudden, unexpected sandstorm forcing an immediate halt and total loss of visibility, trapping them together in darkness; Turn: The required cooperation to survive the storm forces a momentary, fragile trust between rivals."
+"Setting: Just after dawn at a major caravanserai rest stop, amidst cooling dung fires and discarded bones. Desire: A solitary merchant tries to recall the precise weight of his last shipment for legal reconciliation. Obstacle: The heat-haze distorts memory, causing him to mistake salt-crust for gold dust."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: At a junction point where three major trade routes—Spice, Metal, Salt—converge over several days; Desire: To observe which commodities are trading at peak inflation relative to each other on any given day, quantifying true regional demand; Obstacle: A sudden localized political uprising or bandit activity that temporarily blocks one of the main pathways; Turn: Gangaram realizes that adaptability in *timing* (waiting) is more profitable than aggressive trade."
+"Setting: Within a forgotten section of the road, near an abandoned roadside shrine dedicated to a protective deity. Desire: Gangaram (or his proxy) seeks a specific blessing against highway banditry. Obstacle: The offering he leaves is interpreted by local spirits as insufficient or wrongly directed."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"A purely anthropological study, framing the entire journey as an exercise in comparative ritual—what rituals of oath-taking or blessing are required by different ethnic trading groups?"
+"Treating the road itself as an entity—a desiccated, persistent vein of earth that demands tribute to remain passable."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Detailing the bureaucratic nightmare: focusing only on permits, inspections, tolls, and official seals passed from one governing authority to another over a year's trade cycle."
+"Focusing on the *people* peripheral to trade: guides, water-carriers, and roadside mendicants whose existence is entirely predicated on the movement along this specific line."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"A meditation on reciprocity, where value is exchanged not for immediate goods (salt/spice) but for intangible services like medicinal knowledge or safe passage through hostile terrain."
+"Exploring the historical interaction between Marwari merchant law/contracts and pre-existing regional land tenure systems encountered en route."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The metallic, faintly coppery smell rising from discarded, brackish runoff water near the trade path."
+"The sharp, crystalline taste of sun-baked sodium residue clinging to the inside of a tightly wound camel saddlebag."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The visual effect of sun glare bouncing off salt crystals until they appear to dissolve into pure light at a distance."
+"A sound like dry mica shifting underfoot as camels traverse gravel beds far from paved surfaces."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The distinct sound of dried hides stretching and squeaking under immense, steady weight over uneven stone."
+"The sight of distant, heat-shimmered mirages that momentarily appear—and dissolve into—the precise outline of a wealthy haveli."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the typical weights or volumes associated with specific grades of desert goods (e.g., unit measurement for saffron vs. salt)?"
+"What were the specific regional variations in salt processing and transport methods utilized along this route?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did changes in dominant ruling powers affect the established customary right-of-way on commercial trails?"
+"Were there established folklore traditions regarding dangerous crossings or wayfinding rituals used by caravan guides on these arid routes?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][2]
 
 ```json
-"Were specialized professional guilds responsible solely for ensuring reliable water sources along these routes, and what were their roles?"
+"How did security arrangements (or lack thereof) change between early 18th-century trade practices and later periods?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A tripartite structure: Opening with the arduous preparation/loading phase; middle section detailing the monotony of steady travel; final act focusing on a single, significant transaction that changes trajectories."
+"The poem begins in the stillness before sunrise, detailing how the salt deposits look under starlight."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Employing a mosaic style, where chapters are framed by recurring geographical features (e.g., three different types of scrub brush, four specific constellations) regardless of current location."
+"A structure that mirrors the physical journey: expanding descriptions of terrain as the narrative moves from Gujarat towards Delhi."
+```
+
+## $["creative_enrichment"]["structural_variants"][2]
+
+```json
+"An inversion where the final lines focus not on arrival or profit, but on what is *left behind*—the residue and detritus of trade."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The role of specific religious iconography carved into roadside markers used for wayfinding between disparate communities."
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"Detailed examination of the legal documents carried by merchants specifically pertaining to interstate salt taxation."
+```
+
+## $["creative_enrichment"]["unused_angles"][2]
+
+```json
+"How water conservation strategies along the road dictated settlement patterns."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter shifts the focus from the *accumulation* of wealth or knowledge to the mechanics of maintaining movement itself—the logistical friction and subtle, non-monetary agreements that keep a vast network alive against entropy."
+"While prior chapters established Gangaram's internal ambition using ledgers and beginnings, this chapter focuses externally on the indifferent, vast machinery of trade itself—the geography that enables his success."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"be3b7526637b657ace8d38680de646e96bbe1d5619f6f980b89c666c48680b64"
+"75d670ba59fff9f1e679fde691ee424944c02ca6494afa203c5e05a8a32749e8"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:01:38.269211+00:00"
+"2026-10-06T11:38:56.196323+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

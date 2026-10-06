@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-80
+110
 ```
 
 ## $["chapter_title"]
@@ -45,7 +45,7 @@
 ## $["state"]
 
 ```json
-"written"
+"scaffolded"
 ```
 
 ## $["segments"][0]
@@ -57,131 +57,119 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on entropy: the physical degradation of material (cracking plaster) mirroring the psychological decay of self-worth."
+"Framing the failure not as a technical flaw but as an unavoidable moment of human fatigue interrupting perfect execution."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The rhythm as ritualistic failure: treating the repeated gesture of scraping/patching not as labor, but as a desperate liturgy against oblivion."
+"Presenting the act of scraping away plaster and pigment as an act of violent self-censure, rather than mere repair."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Contrast between the planned geometry of the mural and the chaotic randomness of the fracture lines."
+"Contrasting the microscopic reality of mortar decay with the monumental perceived permanence of the final artwork."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: The precise spot where the hairline crack first appears on the blue section; Desire: To find a structural reason for the fault rather than accepting it as failure, Obstacle: The inability to see clearly through accumulated pigment dust."
+"Setting: The exposed section of damaged fresco near a courtyard corner, desire: To meticulously examine the crack pattern to understand its specific mechanical cause (stress vs. chemical), obstacle: The setting sun catching the jagged edges of the flaking paint, making them look like ancient wounds."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: In the courtyard below, during brief twilight hours between painting sessions; Desire: For one of the local laborers or cooks to notice the patch job and offer unspoken pity, Obstacle: His gaze slips away immediately before he can confirm the recognition."
+"Setting: The temporary workspace/lean-to below the scaffold where tools are kept, desire: To find an old, forgotten shard of pigmented plaster that matches the failure patch exactly, turning it into a proxy for the lost labor., obstacle: Realizing this shard is not from his work but from decades before."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Under the intense focus of a single oil lamp in the deepest part of the night; Desire: To meticulously mix a repair compound that perfectly matches the original flawed color, Obstacle: The lime binder refuses to integrate properly with the old pigment."
+"Setting: An interior niche in the haveli which has previously been painted over, desire: To see if the damage reveals an older, forgotten layer of decorative design beneath the current composition, suggesting layers of history beyond simple repair."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the act of scraping away paint as an archaeology—an unintended excavation of past mistakes and discarded intentions."
+"Treating the physical act of scraping/rebuilding as a metaphor for unmaking cherished memories or traditions."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing not on the crack itself, but on the sound it makes when struck by a tool—a brittle, sudden discord in the steady rhythm of work."
+"Focusing entirely on the material cost of failure—the specific quantity of lime and pigment ruined, equating it to lost sleep or missed meals."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Viewing the repair patch not as 'fixing' damage, but as an assertive act of inscription against erasure."
+"Shifting focus from 'what is broken' to 'how the repair alters the original intent,' examining the imperfection as a new, necessary element."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The gritty sensation of wet, crumbling gesso powder adhering to fingertips during removal."
+"The dry, chalky sound of calcium carbonate dust rising when the scraper catches brittle surface plaster."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The sharp, metallic scent released when a piece of oxidized pigment flakes off under pressure."
+"The momentary cool shock against hot skin when applying wet lime to bind a newly patched area."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The high-pitched whine of the small trowel against dry substrate resisting repair."
+"The faint, metallic taste of residual iron oxides on the painter's lips after breathing in the powdered materials."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What local materials or historical substitutes were available in Shekhawati for emergency fresco patching before modern mineral fillers?"
+"What is the local historical understanding of 'schist/crack patterns' in traditional adobe or plaster construction in Rajasthan?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did traditional Indian art practices handle repairs to monumental, semi-permanent public/private artworks?"
+"How did pre-industrial artists manage waste materials; were damaged pigment patches ever incorporated intentionally into later works?"
+```
+
+## $["creative_enrichment"]["research_questions"][2]
+
+```json
+"Can regional building traditions offer insight into how structural stress manifests across painted architectural surfaces?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A form dictated by the fracture pattern itself—the poem's line breaks mimic the fissures in the plaster."
+"A cyclical structure: Start with the initial crack, detail the labor of removal, and conclude by detailing the painstaking process of reapplication in reverse chronological order."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Alternating between highly detailed close-ups of the damaged surface and broad panoramic views of the wall where the damage is isolated."
+"A split narrative where one section describes the physical scrape (objective), and the second is a direct address to an absent collaborator or critic regarding the necessary erasure."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][0]
 
 ```json
-"Exploring how the merchant class might secretly view these necessary repairs as a sign of latent, unpredictable weakness in their own wealth."
+"Exploring how neighboring houses, perhaps less ornate, have fared structurally against similar environmental pressures."
 ```
 
 ## $["creative_enrichment"]["unused_angles"][1]
 
 ```json
-"A poem entirely focused on the soundscape—the scrape, the tap, the sigh of settling material."
+"The role of local superstitions regarding cracks in painted surfaces—do they signify bad luck or cosmic shifts?"
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"Where previous chapters detailed creation or observation, this chapter focuses intensely on interruption and subtraction, treating damage itself as a primary narrative subject."
-```
-
-## $["draft"]["sha256"]
-
-```json
-"351ac74bbc20bbcbe73d7187a3142bec62abfe327cd8fe21ffd6404062e322c2"
-```
-
-## $["draft"]["written_at"]
-
-```json
-"2026-10-04T19:10:46.483587+00:00"
-```
-
-## $["draft"]["origin"]
-
-```json
-"write"
+"Unlike the focus on pristine beauty (Chapter 9) and pure material essence (Chapter 3), this chapter isolates a specific moment of destructive intervention, forcing the confrontation with physical entropy."
 ```

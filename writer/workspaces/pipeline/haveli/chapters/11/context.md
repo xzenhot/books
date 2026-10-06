@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -39,7 +39,7 @@
 ## $["further_references"][0]["reference"]
 
 ```json
-"Historical pigment trade routes in Rajasthan (e.g., lapis lazuli sourcing)"
+"traditional pigment grinding techniques in Rajasthan"
 ```
 
 ## $["further_references"][0]["weblink"]
@@ -57,7 +57,7 @@
 ## $["further_references"][1]["reference"]
 
 ```json
-"The specific social contract between patronage and skilled artisan guilds in 19th-century North India."
+"the social hierarchy between merchant patrons and specialized artisans (painters, masons)"
 ```
 
 ## $["further_references"][1]["weblink"]
@@ -87,143 +87,131 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Framing the pigment mixing process as a form of alchemy, where earth becomes narrative permanence—not just art supplies, but condensed history made liquid."
+"Framing the painter not as an artist serving a patron, but as a temporary usurper of Gangaram's narrative control, whose own life story is subsumed by the commissions."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"Adopting the perspective of the *material* source: following the journey of the specific lapis blue or malachite green from its mine to the artist's palette."
+"Viewing the pigments themselves as slow-acting agents: they are chemicals that will chemically alter their environment (the wall/dust) over decades, representing transactional permanence."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"Viewing the initial commission as a negotiation of cultural aesthetics: is the merchant asking for piety (mythology), status (portraits), or commercial narrative (local life)?"
-```
-
-## $["creative_enrichment"]["angles"][3]
-
-```json
-"Treating the painter not as an employee, but as a quasi-priest whose portable art supplies are imbued with ritualistic power."
+"A focus on the linguistic gap: the painter speaks a regional dialect of art and tradition that Gangaram’s high-bourgeois language cannot fully comprehend or control."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A dusty alleyway outside the haveli where the artist sets up his meager workspace; Desire: To acquire a unique local ingredient (a specific wild dye or root) that proves its cultural authenticity to Gangaram’s circle of peers; Obstacle: A petty rival artisan attempts to steal or devalue the pigment source."
+"setting: The threshold of the empty haveli, waiting for preparation., desire: The painter desires a single, specific color (a perfect lapis blue) that will signify his mastery and set him apart from other local craftsmen., obstacle: Gangaram insists on colors that are symbolically rich but chemically unstable in the desert climate., turn: The painter refuses to mix one pigment blend, choosing a difficult natural earth tone instead, setting up future material failure."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: The private, poorly lit storage room where pigments are ground; Desire: To discover an ancient text or formula detailing a *secret* binding agent needed for colors that last centuries beyond expectation; Obstacle: Gangaram's overseer demands immediate production and threatens to confiscate time/materials."
+"setting: Near the local market square where raw materials are traded (stones, oils)., desire: Gangaram desires that the artist will capture his family's perfect civic posture during festivals., obstacle: The painter is deeply interested in rendering the 'unseen labor'—the dust, fatigue, and specific gestures of the low-caste laborers supporting Gangaram’s wealth., turn: The painter sketches a private figure (a porter, a servant) outside the commission area, knowing this risks upsetting the patron."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: An outdoor courtyard moment, away from the primary structure; Desire: For the artist to paint something entirely unauthorized—a fleeting scene of everyday life (e.g., a goat playing near the walls)—purely for artistic impulse; Obstacle: The rigid expectation that every painted surface must serve Gangaram’s monumentality or piety."
+"setting: Inside one unused, dusty room awaiting decoration., desire: The painter desires respite and recognition for his own skill outside of Gangaram's ledger-driven requirements., obstacle: His supplies are delayed by local politics or extortion from low-level suppliers who see him as a new target for tribute., turn: He improvises a small, unauthorized motif—a personal sigil or family emblem—in the corner of his working space."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Focusing on the *process* of preparation: the grinding, filtering, and binding techniques—the chemistry of legend."
+"Treating the act of painting not as creation, but as chemical preservation: how pigment locks down moisture and dust into specific forms."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Treating the initial contract/payment terms as the central action: detailing not just the fee, but the expectation timeline for craftsmanship and loyalty."
+"A focus entirely on the material transference: the weight of ground mineral vs. the lightness of a merchant's contract papers."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Shifting focus from the finished narrative to the 'unpainted' areas of the wall—what is left intentionally blank by design, and what does that negative space signify in relation to Gangaram's ambition?"
+"Exploring the painter’s internal conflict between inherited devotional art (traditional) and the commercial necessity of flattering wealth (modern)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"Sight: The dazzling, unnatural sheen of wet lime wash meeting dry, powdered mineral pigment."
+"The sharp, metallic tang of iron oxides grinding against mortar in the midday heat."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"Smell: A composite scent of crushed almonds (for setting agents), dry earth warmed by sun-baked plaster, and pungent animal urine used to fix certain dyes."
+"The cool, linseed-oil smell emanating from a freshly scraped brush against cured sandstone."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"Touch: The unexpected resistance or viscosity difference between a freshly mixed watercolor slurry versus thick encaustic paste."
-```
-
-## $["creative_enrichment"]["sensory_details"][3]
-
-```json
-"Sound: The high, brittle *screech* of bone or stone scraping against the mortar palette."
+"The coarse drag sound of pigment being squeezed from dried mineral cakes."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the traditional sources and preparatory methods for creating stable blue pigments (like indigo or azurite) that could withstand both humidity and time in this region?"
+"What specific natural binders (animal glue, plant sap) were preferred by itinerant fresco painters in Shekhawati compared to settled village artists?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"How did patronage agreements specifically define the 'rights' of the artist—were they paid per square foot, per motif, or by a lump sum tied to completion?"
+"How was the traveling painter compensated—was it solely fixed payment, or did local customary fees for materials/lodging factor into his fee?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A frame narrative where Gangaram is speaking directly to the painter, giving instructions/compliments that reveal more about his own insecurities than about art."
+"A structure dictated by color palette: each shift in hue becomes a stanza break."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"Structuring the poem around the sequential list of materials: first listing the stone source, then the binder, then the pigment, treating each as a stanzaic section."
+"An alternating rhythm between descriptive passages about the pigment source (geology) and narrative observations of the painter's method."
+```
+
+## $["creative_enrichment"]["unused_angles"][0]
+
+```json
+"The philosophical weight of choice: if the paint captures time, does it freeze or merely refract reality?"
+```
+
+## $["creative_enrichment"]["unused_angles"][1]
+
+```json
+"A potential subversion where the artist deliberately uses materials known to fade quickly as a critique against Gangaram's fleeting material grandeur."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"While previous chapters detailed the accumulation of wealth and property (physical acquisition), this chapter focuses on the 'capture' or inscription of *culture* itself onto a material surface, setting up the artistic debt that will define Gangaram’s subsequent actions."
+"This poem shifts focus from the acquisition of property (previous chapters) to the inscription of meaning upon it, introducing human artistry and its inherent transactional compromises early in the cycle."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"a901991e81b6faa2ba289e889a0e5f64fa303c8371ceb5614018aed0aa1b5c8b"
+"f308e9ed3f92a44cff36b5b7adbca751282d6d6850c47a9f9ce31f73a9ac6e11"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:58:00.000000+00:00"
+"2026-10-06T11:40:05.979347+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```

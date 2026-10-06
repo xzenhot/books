@@ -15,7 +15,7 @@
 ## $["word_target"]
 
 ```json
-500
+110
 ```
 
 ## $["chapter_title"]
@@ -30,40 +30,10 @@
 "The beaten-gold platter that will feed five hundred guests is polished to a mirror. The poem holds the thali as the emblem of Gangaram's excess, the object that will both fix his name in the town's mouth and empty his vault."
 ```
 
-## $["further_references"][0]["no"]
+## $["further_references"]
 
 ```json
-"1"
-```
-
-## $["further_references"][0]["reference"]
-
-```json
-"Social dynamics surrounding elite consumption in regional Indian courts"
-```
-
-## $["further_references"][0]["weblink"]
-
-```json
-""
-```
-
-## $["further_references"][1]["no"]
-
-```json
-"2"
-```
-
-## $["further_references"][1]["reference"]
-
-```json
-"The function of public displays of wealth in non-Western political structures"
-```
-
-## $["further_references"][1]["weblink"]
-
-```json
-""
+[]
 ```
 
 ## $["level"]
@@ -87,155 +57,119 @@
 ## $["creative_enrichment"]["angles"][0]
 
 ```json
-"Focusing on the *material decay* of the gold: Instead of polished shine, treat the thali as something verdigrised or tarnished by humidity and time; what stories do its imperfections tell?"
+"Examining the gold thali not as a symbol of prosperity but as an artifact of required performance—its shine is dictated by who will be watching, rather than intrinsic value."
 ```
 
 ## $["creative_enrichment"]["angles"][1]
 
 ```json
-"The cost-analysis from an opposing viewpoint: Whose coin is actually being spent? Is it Gangaram's wealth, or is he liquidating his family's future security to pay for the temporary spectacle?"
+"Focusing on the logistics: The sheer number of hands (servants) needed to polish, stack, and arrange five hundred identical platters before the guests arrive. The labor beneath the gleam."
 ```
 
 ## $["creative_enrichment"]["angles"][2]
 
 ```json
-"A moment of functional failure: The thali is prepared perfectly, but something essential—the serving spoon, the specialized dipping oil, the necessary number of napkins—is missing, grounding the excess in a practical void."
+"Treating the metal itself as a reservoir of captured light—the reflection pooling the entire sky or courtyard onto its surface."
 ```
 
 ## $["creative_enrichment"]["story_options"][0]
 
 ```json
-"Setting: A private prep kitchen adjoining the main hall; Desire: To calculate the total labor cost (in hours and wages) for polishing one single platter to its current state; Obstacle: The chief servant arguing that an expenditure on cheap, functional materials would have been more honest than this gold display; Turn: Gangaram pays a minor fee to silence the critique with a small, meaningless bribe."
+"Setting: A darkened, cool storeroom within the haveli, desire: Gangaram scrutinizes the thali under one sputtering oil lamp, obstacle: He notices a hairline scratch that suggests carelessness among his staff."
 ```
 
 ## $["creative_enrichment"]["story_options"][1]
 
 ```json
-"Setting: Just as the first guest approaches the hall where the thali sits; Desire: For one specific dish—perhaps a simple, rustic regional bread rather than an exotic centerpiece—to be placed upon it unexpectedly; Obstacle: A nervous junior caterer hesitates to break the established visual hierarchy of the meal setup; Turn: Gangaram signals that this concession is part of the required performance."
+"Setting: The threshing floor adjacent to the main receiving area, desire: A young servant struggles with the sheer weight and fragility of transporting stacks of gold-laden platters across uneven stone, obstacle: A sudden gust of wind threatens to destabilize the load."
 ```
 
 ## $["creative_enrichment"]["story_options"][2]
 
 ```json
-"Setting: Deep within the storage rooms before preparation begins; Desire: To study the raw, uncut spices that will decorate the thali (cardamom pods, saffron threads); Obstacle: The scent itself triggers a memory or association with hardship unrelated to celebration; Turn: A minor servant accidentally spills a potent substance, forcing an immediate, unplanned cleansing ritual on the setup."
+"Setting: Right as the sun dips below the western wall (golden hour), desire: Gangaram holds one thali up, testing its reflection against the setting light, but hesitates before it is fully prepared."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][0]
 
 ```json
-"Treating the meal not as luxury, but as necessary propaganda for status maintenance."
+"Shifting focus from the *gold* to the *memory*—what meals, conversations, and political maneuvering will this single platter witness?"
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][1]
 
 ```json
-"Focusing entirely on the discarded elements—the peelings, the scraps of spice dust, the stained cloths—as evidence of over-indulgence."
+"Treating the plating process as a ritualistic manufacturing of status, where perfection is measured not against scarcity but against competition."
 ```
 
 ## $["creative_enrichment"]["subject_rotations"][2]
 
 ```json
-"Shifting perspective to a non-human element, like a specific fixture (a pillar, a water fountain) that observes the entire spectacle with stoic detachment."
+"Viewing the thali's contents (the food) as a secondary focus: what does the specific presentation of humble local foods—spices, grains—on this ultimate signifier of wealth reveal about taste and hierarchy?"
 ```
 
 ## $["creative_enrichment"]["sensory_details"][0]
 
 ```json
-"The cool, slick feel of polished malachite inlay against the warm skin."
+"The high-pitched, almost musical *singing* sound made by a polished gold surface when tapped lightly with a fingerbone."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][1]
 
 ```json
-"The sharp, metallic tang of spilled clarified butter hitting damp stone flooring."
+"The cloying, sweet musk of saffron threads mixed into the rice dishes intended for presentation on the platter (Smell)."
 ```
 
 ## $["creative_enrichment"]["sensory_details"][2]
 
 ```json
-"The faint, overlapping perfume notes of star anise and wet sandalwood near the entrance hall."
+"The overwhelming visual shimmer where the reflected light from hundreds of overlapping platters creates optical distortion across an otherwise still room (Sight)."
 ```
 
 ## $["creative_enrichment"]["research_questions"][0]
 
 ```json
-"What were the standard unit costs for imported spices (like cinnamon or mace) relative to local staple grains during this period?"
+"What were the typical regional standards or specific rituals associated with the plating and presentation of food during grand Marwari feasts in this era?"
 ```
 
 ## $["creative_enrichment"]["research_questions"][1]
 
 ```json
-"Were there ritualistic rules about how many items/dishes could be placed upon a single, honored serving platter?"
+"How did the perceived value of gold tableware differ between merchant families who accumulated it for display versus those who used it purely for trade collateral?"
 ```
 
 ## $["creative_enrichment"]["structural_variants"][0]
 
 ```json
-"A flashback structure showing the arduous *acquisition* of one key ingredient on the thali."
+"A strictly recursive structure where each sentence repeats a modification of 'polished to mirror,' gradually introducing new, conflicting details (e.g., polished to mirror / but shadowed by the debt)."
 ```
 
 ## $["creative_enrichment"]["structural_variants"][1]
 
 ```json
-"A procedural breakdown: The chapter reads like an inventory checklist that constantly fails due to human error or circumstance."
-```
-
-## $["creative_enrichment"]["structural_variants"][2]
-
-```json
-"An escalating tension build-up through multiple sensory observations leading to a single, sharp realization."
-```
-
-## $["creative_enrichment"]["unused_angles"][0]
-
-```json
-"Exploring the caste dynamics related to who is permitted to serve which parts of the meal."
-```
-
-## $["creative_enrichment"]["unused_angles"][1]
-
-```json
-"The interaction between the food served and local medicinal/ritual practices."
-```
-
-## $["creative_enrichment"]["unused_angles"][2]
-
-```json
-"A moment where the host must deal with an unexpected political rival arriving late, forcing an immediate alteration of the planned display."
+"An initial focus on the light catching the gold during the day, followed by an abrupt shift in pacing and tone as darkness forces the reliance on artificial, warm flame."
 ```
 
 ## $["creative_enrichment"]["variety_note"]
 
 ```json
-"This chapter emphasizes process failure—whether through labor dispute, material lack, or social error—as much as the initial grand presentation."
+"Unlike the broader architectural explorations of earlier chapters, this poem zooms into a single, hyper-defined object—the golden platter—to explore excess rather than space or structure. The use of fluctuating light will give it a kinetic instability absent in static portrayals of wealth."
 ```
 
 ## $["draft"]["sha256"]
 
 ```json
-"79507638eb6ee71432f99b3e3bef3be3a0d9557c8bdf3719ad3d2c7dc9e02fb4"
+"b8942193f506af4c71e60638ad9cc561e38d1a8c59c1ab562d6cd064899a370f"
 ```
 
 ## $["draft"]["written_at"]
 
 ```json
-"2026-10-03T17:05:53.042929+00:00"
+"2026-10-06T11:41:30.434713+00:00"
 ```
 
 ## $["draft"]["origin"]
 
 ```json
 "write"
-```
-
-## $["humanized"]
-
-```json
-true
-```
-
-## $["humanized_at"]
-
-```json
-"2026-09-27T18:22:17+00:00"
 ```
