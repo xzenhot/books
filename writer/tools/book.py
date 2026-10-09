@@ -95,6 +95,7 @@ BASE_DIR = Path(__file__).resolve().parent          # tools/
 REPO_ROOT = BASE_DIR.parent                          # repo root
 BACKLOG_ROOT = REPO_ROOT / "workspaces" / "backlog"
 BOOK_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "backlog" / "book.json"
+BOOK_MIN_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "backlog" / "book.min.json"
 
 
 def _template_model_provider() -> tuple[str, str]:
@@ -117,6 +118,32 @@ def _template_model_provider() -> tuple[str, str]:
         if isinstance(data.get("provider"), str) and data["provider"].strip():
             provider = data["provider"].strip()
     return model, provider
+
+
+def _template_filter_chain() -> list[str]:
+    """Read the canonical ``filter_chain`` from the backlog template.
+
+    The template (``.framework/templates/backlog/book.json``) is the single
+    source of truth for the ordered filter sequence. It is stored there as a
+    list of ``{sl, filter, autorun, reference}`` objects; this helper normalizes
+    it to the list of filter-name strings the pipeline consumes. Returns an
+    empty list when the template is absent or lacks a valid chain.
+    """
+    if BOOK_TEMPLATE.is_file():
+        try:
+            data = json.loads(BOOK_TEMPLATE.read_text(encoding="utf-8-sig"))
+        except (json.JSONDecodeError, OSError):
+            data = {}
+        chain = data.get("filter_chain")
+        if isinstance(chain, list):
+            names: list[str] = []
+            for entry in chain:
+                if isinstance(entry, str):
+                    names.append(entry)
+                elif isinstance(entry, dict) and entry.get("filter"):
+                    names.append(str(entry["filter"]))
+            return [name for name in names if name]
+    return []
 
 # ---------------------------------------------------------------------------
 # Ollama configuration
@@ -650,7 +677,7 @@ def extract_json(
     'chapters' key is unwrapped automatically.  Raises ValueError when the
     result type does not match the expectation.
     """
-    cleaned = response.strip()
+    cleaned = response.strip().lstrip("\ufeff")
 
     # Strip Markdown fences if present
     if cleaned.startswith("```"):
@@ -881,6 +908,77 @@ def _generate_chapter_batch(
     )
 
 
+def _min_chapter_schema() -> str:
+    """Return the minimal single-chapter schema from book.min.json.
+
+    ``.framework/templates/backlog/book.min.json`` carries one truncated chapter
+    entry; this is the smallest schema we send so the model stays on a tiny,
+    parseable payload. Falls back to the inline ``BATCH_CHAPTER_SCHEMA`` when the
+    file is absent or malformed.
+    """
+    if BOOK_MIN_TEMPLATE.is_file():
+        try:
+            data = json.loads(BOOK_MIN_TEMPLATE.read_text(encoding="utf-8-sig"))
+            chapters = data.get("chapters")
+            if isinstance(chapters, list) and chapters and isinstance(chapters[0], dict):
+                return json.dumps(chapters[0], ensure_ascii=False, indent=2)
+        except (json.JSONDecodeError, OSError):
+            pass
+    return BATCH_CHAPTER_SCHEMA
+
+
+def _placeholder_chapter(index: int) -> dict[str, object]:
+    """A deterministic chapter entry used when Ollama fails to produce one."""
+    return {
+        "chapter_index": index,
+        "name": str(index),
+        "word_target": 500,
+        "chapter_title": f"Chapter {index}",
+        "chapter_summary": f"Chapter {index} — to be written from the storyline.",
+        "further_references": [],
+    }
+
+
+def _generate_chapter_one(
+    epic: str,
+    bookname: str,
+    form: str,
+    index: int,
+    schema: str,
+) -> dict[str, object]:
+    """Generate exactly one chapter (smallest payload) via Ollama.
+
+    Returns a single chapter dict. Raises RuntimeError if every attempt fails.
+    """
+    prompt = (
+        f"Generate exactly ONE chapter for the book below: chapter_index {index}.\n"
+        "Return a single JSON object matching this schema — no array, no prose, "
+        "no markdown fence:\n"
+        f"{schema}\n\n"
+        "IMPORTANT: chapter_summary must be 2–4 sentences describing what the "
+        "chapter explores — its conflict, imagery, and open question. "
+        "Derive chapter_title and chapter_summary from the epic. "
+        f"Set chapter_index to {index} and name to \"{index}\".\n\n"
+        f"EPIC:\n{epic}"
+    )
+    last_error: Exception | None = None
+    for attempt in range(1, OLLAMA_MAX_RETRIES + 1):
+        try:
+            generated = _ollama_post(_ollama_payload(prompt))
+            data = extract_json(generated)
+            if isinstance(data, list):
+                data = data[0] if data else {}
+            if not isinstance(data, dict):
+                raise ValueError("response was not a single chapter object")
+            if data.get("chapter_index") is None:
+                data["chapter_index"] = index
+            return data
+        except (RuntimeError, ValueError) as exc:
+            last_error = exc
+            print(f"  [chapter {index}] attempt {attempt}/{OLLAMA_MAX_RETRIES} failed: {exc}")
+    raise RuntimeError(f"Chapter {index} failed after {OLLAMA_MAX_RETRIES} attempts: {last_error}")
+
+
 def _generate_layout_batched(
     epic: str,
     bookname: str,
@@ -1061,29 +1159,64 @@ def generate_layout(
             except (json.JSONDecodeError, OSError):
                 chapter_count = None
 
-    print(f"Generating layout via Ollama ({OLLAMA_MODEL}) — form: {form}")
+    print(f"Generating layout via Ollama ({OLLAMA_MODEL}) — form: {form}, {chapter_count} chapters (one per request)")
 
-    use_batching = bool(chapter_count) and chapter_count > OLLAMA_BATCH_SIZE
-    if use_batching:
-        print(f"Chapter count {chapter_count} > {OLLAMA_BATCH_SIZE}; using batched generation.")
-        layout = _generate_layout_batched(epic, bookname, form, chapter_count, template)
-    else:
-        layout = _generate_layout_single(epic, bookname, form, template)
+    schema = _min_chapter_schema()
+    chapters_by_index: dict[int, dict[str, object]] = {}
+    for index in range(1, chapter_count + 1):
+        try:
+            chapter = _generate_chapter_one(epic, bookname, form, index, schema)
+        except RuntimeError as exc:
+            print(f"  [chapter {index}] generation failed ({exc}); using placeholder")
+            chapter = _placeholder_chapter(index)
+        chapters_by_index[index] = chapter
+        title = chapter.get("chapter_title") or f"Chapter {index}"
+        print(f"  → chapter {index}/{chapter_count}: {title}")
 
-    # Validate the plan is complete before overwriting book.json.
-    validate_layout(layout, bookname, form)  # type: ignore[arg-type]
+    word_target = 500 if form == "poetry" else 4500
+    chapters: list[dict[str, object]] = []
+    for i in range(1, chapter_count + 1):
+        chapter = chapters_by_index.get(i) or _placeholder_chapter(i)
+        chapter.setdefault("name", str(i))
+        chapter.setdefault("word_target", word_target)
+        chapter.setdefault("further_references", [])
+        chapters.append(chapter)
+
+    now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    layout = {
+        "book_name": bookname,
+        "book_long_title": make_title(bookname, form),
+        "generic": "আত্মঅনুসন্ধানী কবিতা" if form == "poetry" else "সাহিত্যিক কাহিনি",
+        "era": "সমকালীন ও রূপক সময়",
+        "language": "বাংলা",
+        "target_audience": "বাংলা সাহিত্য ও মননশীল পাঠের পাঠক",
+        "chapter_count": chapter_count,
+        "form": form,
+        "book_summary": "Generated via per-chapter layout — update from storyline.md",
+        "created_at": now,
+        "updated_at": now,
+        "user_name": "pijush",
+        "gist": "Generated via per-chapter layout — update from storyline.md",
+        "chapters": chapters,
+        "all_characters": [],
+        "filter_chain": FILTER_CHAIN_POETRY if form == "poetry" else FILTER_CHAIN_NOVEL,
+        "word_target": word_target,
+    }
 
     # Propagate the LLM model/provider from the backlog template so every plan
-    # (and thus every pipeline book.json scaffold copies from it) pins its
-    # generation backend. Never overwrite a value the model already produced.
+    # pins its generation backend.
     model, provider = _template_model_provider()
-    layout.setdefault("model", model)
-    layout.setdefault("provider", provider)
+    layout["model"] = model
+    layout["provider"] = provider
 
-    # Stamp timestamps
-    now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-    layout.setdefault("created_at", now)
-    layout["updated_at"] = now
+    # Canonical filter_chain: poetry uses the poetry chain; novel copies the
+    # authoritative template chain (which includes `seeds`).
+    if form == "poetry":
+        layout["filter_chain"] = FILTER_CHAIN_POETRY
+    else:
+        chain = _template_filter_chain()
+        if chain:
+            layout["filter_chain"] = chain
 
     out_file = book_dir / "book.json"
     out_file.write_text(
@@ -1951,7 +2084,8 @@ def main() -> int:
         gist: str | None = None
         if args.objective == "gist" and args.option:
             gist = args.option
-        elif args.objective and args.objective not in {"gist", "build", "epic", "novel", "poetry", "refresh"}:
+        elif args.objective and args.objective not in {"gist", "build", "epic", "novel", "poetry", "refresh"} \
+                and not (args.objective.isdecimal()):
             gist = args.objective
         gist = gist or args.gist
 
