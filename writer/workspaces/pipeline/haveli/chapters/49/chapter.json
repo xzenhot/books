@@ -9,5 +9,40 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the corpse not as a person but as an immovable piece of monumental architecture—a final, static monument to mercantile hubris.",
+      "Framing the waiting body through the perspective of inanimate objects in the room (e.g., a ceremonial dagger, discarded silk) that bear witness without judgment.",
+      "A temporal dislocation: using the corpse as a fixed point against which all surrounding sensory memory (smells, sounds of the city outside) violently rushes and recedes."
+    ],
+    "story_options": [
+      "Setting: The specific location where Gangaram died, Desire: To have his final, unheard accusation directed at the ghost-like reflection in a tarnished bronze mirror, Obstacle: The stillness of death muffling all sound.",
+      "Setting: A low dais or cushion beside the body, Desire: To observe the minute details of his unfinished attire—a cufflink, an unfastened sash—as if they are geological strata revealing final struggles, Obstacle: The pervasive dust obscuring detail.",
+      "Setting: Outside the locked room, peering through a thin crack in the door, Desire: To witness the movement of one specific creature (a stray dog, a scavenging bird) responding to the body's presence as an unseen catalyst, Obstacle: The sound being entirely blocked by heavy wood."
+    ],
+    "subject_rotations": [
+      "Focusing on the failure of legacy: how wealth is transmuted into pure inertia when it ceases to generate profit or influence.",
+      "The contrast between the body's physical decay and the vibrant, immortal permanence of the painted scenes visible through a distant wall crack.",
+      "Examining the body as a ledger entry that could never be balanced—a debt paid only in cessation."
+    ],
+    "sensory_details": [
+      "The cold, mineral scent of drying sweat mixed with expensive, imported sandalwood powder clinging to the fabric.",
+      "The visual texture of fine linen against hardened oils and darkened pigment on a nearby wall fresco, contrasting skin tone vs. painted life.",
+      "A low, resonant vibration felt through the floorboards—perhaps from distant caravan activity or geological shift—that seems to resonate *in* the deceased."
+    ],
+    "research_questions": [
+      "Were there specific regional embalming rituals or preservation customs for wealthy merchants in this region that should inform how the body is depicted?",
+      "What were common materials used in 18th-century Rajasthani funerary wrappings, and what symbolic weight did those materials carry regarding status?"
+    ],
+    "structural_variants": [
+      "A structure built around sensory deprivation, where each stanza strips away one sense (touch, then sight, then smell) until only the concept of 'waiting' remains.",
+      "An oscillation between internal observation (the body's stillness) and external auditory memory (ghostly echoes of past commerce or festival noise)."
+    ],
+    "unused_angles": [
+      "A focus on the microbial life within the room, acting as a slow, silent 'auditor' of the wasted existence.",
+      "Comparing the deceased merchant's posture to classical sculptures—a commentary on the transition from active power to inert form."
+    ],
+    "variety_note": "This chapter shifts from the economic collapse (prior chapters) and residual haunting (later ones) to a pure moment of arrested biography, using direct address to challenge the finality of reputation against physical decay."
+  }
 }

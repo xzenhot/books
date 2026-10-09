@@ -208,11 +208,13 @@ def resolve_book_form(bookname):
     return str(form)
 
 
-def resolve_model(bookname, default=MODEL):
-    """Resolve the Ollama model name from the book's progress.json.
+def resolve_model(bookname):
+    """Resolve the Ollama model name from the pipeline book plan.
 
-    Reads `workspaces/pipeline/<bookname>/progress.json` → `model` (falling
-    back to `book.json` → `model`, then the module default).
+    Reads `workspaces/pipeline/<bookname>/progress.json` → `model`, falling
+    back to `book.json` → `model`. If no model is declared, raises ValueError —
+    the engine never assumes a model. A `--model` CLI override is resolved by
+    the caller before this function.
     """
     pipeline = REPO_ROOT / "workspaces" / "pipeline" / check_bookname(bookname)
     for name in ("progress.json", "book.json"):
@@ -226,10 +228,13 @@ def resolve_model(bookname, default=MODEL):
         model = data.get("model")
         if isinstance(model, str) and model.strip():
             return model.strip()
-    return default
+    raise ValueError(
+        f"No model declared for '{bookname}'. Set 'model' in "
+        f"{pipeline / 'book.json'} (or pass --model) before enriching."
+    )
 
 
-def regenerate_style_md(bookname, book):
+def regenerate_style_md(bookname, book, model_name=None):
     """Ensure the pipeline style.md exists and regenerate it from the current book.
 
     Mirrors the quality/enrich agents' style-reference step. The rewrite is driven
@@ -238,6 +243,10 @@ def regenerate_style_md(bookname, book):
     any prior/foreign narrative (e.g. a Behula template) and re-rooting the persona,
     examples, and topic list in the current book. On any model failure the existing
     (or freshly seeded) style.md is left intact.
+
+    ``model_name`` is the resolved generation model; when absent it is resolved via
+    ``resolve_model`` (which raises if no model is declared, so the agent stops
+    before making any Ollama call).
     """
     pipeline = REPO_ROOT / "workspaces" / "pipeline" / check_bookname(bookname)
     style_file = pipeline / "style.md"
@@ -271,13 +280,16 @@ def regenerate_style_md(bookname, book):
         "Return the full rewritten style document as Markdown only."
     )
 
+    if model_name is None:
+        model_name = resolve_model(bookname)
+
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             raw = run_ollama(
                 prompt,
                 secrets.randbelow(2**31) + attempt,
                 0.5,
-                MODEL,
+                model_name,
                 system=STYLE_REGENERATE_SYSTEM_PROMPT,
                 format_json=False,
             )
@@ -894,14 +906,16 @@ Writes:  only the target model.json; chapter.md is never read or written.
         numbers = parse_chapter_input(args.chapters, chapters_root)
         book = load_book_model(args.bookname)
         load_templates(resolve_book_form(args.bookname))
-        regenerate_style_md(args.bookname, book)
         if args.lens:
             forced_lens(args.lens)
     except ValueError as error:
         parser.error(str(error))
 
-    # Resolve the model: CLI override → progress.json → default.
+    # Resolve the model BEFORE any Ollama call (style regeneration included). If
+    # the pipeline book.json declares no model, resolve_model raises and the agent
+    # stops without assuming a default. A --model CLI override wins.
     model_name = args.model or resolve_model(args.bookname)
+    regenerate_style_md(args.bookname, book, model_name=model_name)
 
     # Load every chapter model once so neighbours can be compared with each other.
     models = {}

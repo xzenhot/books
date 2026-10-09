@@ -54,14 +54,12 @@ TEMPERATURE = 0.7      # low temperature for focused, consistent output
 TOP_P = 0.9            # nucleus sampling
 
 
-def resolve_model(chapter_dir: Path, default: str = MODEL) -> str:
-    """Resolve the Ollama model name from the book's progress.json.
+def resolve_model(chapter_dir: Path) -> str:
+    """Resolve the Ollama model name from the book's pipeline book plan.
 
-    Reads `workspaces/pipeline/<bookname>/progress.json` → `model` (falling
-    back to `book.json` → `model`, then the module default). The template
-    `.framework/templates/backlog/progress.json` now carries `"model"` and
-    `"provider"` fields, which the scaffold copies into the pipeline, so each
-    book can pin its own LLM model.
+    Reads `workspaces/pipeline/<bookname>/progress.json` → `model`, falling
+    back to `book.json` → `model`. If no model is declared, raises ValueError —
+    the writer never assumes a model.
     """
     pipeline = chapter_dir.parents[1]
     for name in ("progress.json", "book.json"):
@@ -75,7 +73,9 @@ def resolve_model(chapter_dir: Path, default: str = MODEL) -> str:
         model = data.get("model")
         if isinstance(model, str) and model.strip():
             return model.strip()
-    return default
+    raise ValueError(
+        f"No model declared for this book. Set 'model' in {pipeline / 'book.json'} before writing."
+    )
 
 # Writer system prompts + user prompt template, loaded per form at runtime.
 SYSTEM_PROMPT_BN: str = ""

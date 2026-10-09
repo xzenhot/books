@@ -4,10 +4,47 @@
   "word_target": 500,
   "chapter_title": "The Salt Road",
   "chapter_summary": "The trade route between Gujarat's ports and Delhi is the artery of Marwari wealth, and the poem follows its dust and its camels. It maps the geography that made Shekhawati rich, the long road along which fortune moved north and never quite returned.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Marwari trade networks in Mughal India",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focus on the logistical choreography of supply and demand as a ritual, rather than just the cargo itself.",
+      "Examine the linguistic texture of bargaining calls shouted across vast distances—the clipped phonetics of negotiations.",
+      "Trace the route's impact not only on Gangaram but on the ancillary communities (water carriers, guides) who served the caravan."
+    ],
+    "story_options": [
+      "A specific night watch scene where the soundscape shifts from rhythmic plodding to sharp predatory silence near a desolate well; Desire: To pass the silent vigil without waking anything dangerous; Obstacle: A sudden drop in temperature revealing hidden predators.",
+      "A midday pause by an ancient, forgotten shrine built along the route; Desire: For Gangaram to momentarily shed his mercantile persona and embrace piety; Obstacle: The glare of the sun dissolving the painted images on the roadside structure until they are blank.",
+      "An unexpected bureaucratic checkpoint manned by local enforcement beyond established tariff points; Desire: To bypass the inspection quickly while maintaining honor; Obstacle: A subtle demand for a bribe disguised as a ceremonial toll."
+    ],
+    "subject_rotations": [
+      "Treating the salt itself as a geological archive—each crystal retaining echoes of distant shores.",
+      "A focus entirely on the *sound* of passage: the specific percussion created by different types of leather, iron fittings, and camel gait.",
+      "Examining the economic entropy built into the system: how necessary spoilage or waste becomes factored into profit margins."
+    ],
+    "sensory_details": [
+      "The smell of hot mineral salts drying onto sun-bleached hide.",
+      "The visual effect of infinite heat shimmering above sand dunes near the main route.",
+      "The abrasive, gritty taste transferred from the dry air to the back of the throat while breathing deeply at rest."
+    ],
+    "research_questions": [
+      "What specific dialects or forms of Hindustani were commonly used by caravan handlers traversing disparate regions?",
+      "How did early Marwari merchants document risk factors associated with environmental hazards (sandstorms, bandits) beyond standard ledger entries?"
+    ],
+    "structural_variants": [
+      "A journey-as-mosaic structure where the narrative jumps between internal thoughts during travel and external market interactions at stops.",
+      "Employing a flashback sequence to detail the family's decision to undertake this specific high-risk salt route years prior."
+    ],
+    "variety_note": "Unlike the preceding chapters focused on private ledgers and small transactions, this chapter expands the scope dramatically to encompass geography, logistics, and the massive scale of inter-regional movement."
+  }
 }

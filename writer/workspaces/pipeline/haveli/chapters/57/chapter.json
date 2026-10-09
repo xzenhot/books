@@ -4,10 +4,52 @@
   "word_target": 500,
   "chapter_title": "The Warm Fresco",
   "chapter_summary": "A freshly scrubbed wall grows warm again at night, as if the house is only pretending to sleep. The poem presses a hand to the warm plaster, the haveli's pulse beating under the restoration, alive in spite of every effort to quiet it.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Thermal dynamics in traditional desert architecture",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The fresco as a biological entity responding to ambient temperature fluctuations, rather than merely an object of art.",
+      "Interrogating the nature of 'warmth'—is it residual heat from human life, or the trapped geothermal memory of the wall?",
+      "Framing the restoration effort not as preservation, but as a deliberate act of temporary cultural vivisection."
+    ],
+    "story_options": [
+      "setting: The shadowed interior of the main gallery at 3 AM, desire: To trace the specific contours of Gangaram's sleeping posture onto the cool plaster., obstacle: A sudden, sharp draft that momentarily cools the entire surface, threatening to extinguish the perceived internal warmth.",
+      "setting: Near a section depicting domestic life (e.g., cooking or gathering), desire: To sense the lingering heat of phantom meals being prepared within the painted scenes., obstacle: The sound of modern, distant traffic penetrating the quiet, fracturing the illusion of deep night.",
+      "setting: In a transition area between two intensely painted narrative panels, desire: To find a localized patch where the temperature suggests an emotional peak—a moment of high passion or fear., obstacle: The physical texture of the plaster suddenly feeling damp and cold, suggesting structural failure rather than life."
+    ],
+    "subject_rotations": [
+      "Treating the warmth not as a singular, continuous property, but as an oscillation—a measurable rhythm that parallels or defies Gangaram's final frantic arithmetic.",
+      "Shifting the focus entirely to what *isn't* warm: the deep shadows between figures, rendered in cool indigo pigment against the plaster’s heat.",
+      "Viewing the warmth through the lens of material fatigue; the warmth is not life, but the chemical process of slow decay mimicking vitality."
+    ],
+    "sensory_details": [
+      "The granular friction felt under fingertips when tracing the outline of a figure's painted sleeve against slightly uneven plaster.",
+      "The subtle, earthy musk rising from the lime wash itself in response to sudden thermal shifts.",
+      "A brief, phantom taste of ochre or mineral dust on the lips after leaning too close to the heated surface."
+    ],
+    "research_questions": [
+      "How does traditional Rajasthani plasterwork (chuna/lime) react physically to diurnal temperature variations in arid climates?",
+      "What specific chemical compounds within historical fresco pigments might contribute to a perceived 'warm' hue or thermal retention?",
+      "Are there documented examples of using low-level heat sources (e.g., residual embers, reflected light patterns) in historic havelis for ambiance?"
+    ],
+    "structural_variants": [
+      "A structure built around an internal thermometer metaphor—the poem narrates the slow climb and descent of temperature through specific chambers.",
+      "Using a call-and-response pattern between the external (cold night air, documented in neighboring chapters) and the internal (warmth sustained by memory/plaster)."
+    ],
+    "unused_angles": [
+      "The interaction between the painted figures' emotional states (e.g., sorrow or ecstasy) and the microclimate of the room they inhabit.",
+      "A hyper-focus on how light, when it finally breaks dawn, doesn't illuminate but *scatters* this perceived internal warmth into pale neutrality."
+    ],
+    "variety_note": "Unlike chapters focused on past events (frescoes) or physical decay (pigment), this chapter explores the transient, almost thermodynamic quality of 'presence,' using temperature as a metaphor for lingering spiritual energy."
+  }
 }

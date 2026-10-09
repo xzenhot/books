@@ -9,5 +9,35 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the locomotive not as progress, but as a symbol of captured energy—a caged beast mirroring the constrained life within the haveli.",
+      "Examining how the painted steam engine visually competes with or complements mythological vehicles (like Surya's chariot) in terms of kinetic force and divine/industrial power.",
+      "Shifting focus from the grand spectacle to the minute detail: a single, perfectly rendered rivet on the locomotive against the sprawling, stylized human figures."
+    ],
+    "story_options": [
+      "Setting: The narrow alleyway adjacent to the haveli; Desire: A local child's fascination with tracing the wheel tracks in the dust after the train passes, while their parent cautions them about the 'painted dream'; Obstacle: Gangaram's impatience demands more splendor for his display.",
+      "Setting: Late evening, shadows stretching across the painted wall; Desire: To see a phantom of the steam engine momentarily merging with a mythological beast under streetlamp light; Obstacle: The reality of the encroaching darkness dissolving the fine lines of paint.",
+      "Setting: Inside the haveli's antechamber, viewing the fresco; Desire: Gangaram to try and quantify the market value of 'modernity' depicted on the wall; Obstacle: His accountant questioning how to assign a fixed price to fleeting mechanical beauty."
+    ],
+    "subject_rotations": [
+      "Treating the steam engine as a historical disruption that reveals the underlying fragility of the mercantile order, not just its grandness.",
+      "Interpreting the depiction through the lens of colonial observation—a local rendering filtered by external, unstoppable technological force.",
+      "Focusing on the human cost/labor required to *create* the illusion of powerful motion (the painters' strained hands vs. the machine’s relentless forward drive)."
+    ],
+    "sensory_details": [
+      "The high-pitched metallic whistle echoing unnaturally across a dry, quiet courtyard.",
+      "The scent of burning coal smoke lingering faintly on the sandstone facade after a train has passed by.",
+      "The specific, gritty texture where oil paint meets mineral plaster under intense Rajasthani sun."
+    ],
+    "research_questions": [
+      "What were the local commercial or social reactions when steam power first became visible in small market towns like Mandawa?"
+    ],
+    "structural_variants": [
+      "A highly fragmented structure mimicking the staccato rhythm of piston firing and whistle blows, with each fragment resolving into a single line of poetic imagery.",
+      "A linear progression where the visual elements slowly transition from pure mythology to purely mechanical representation across the span of the wall."
+    ],
+    "variety_note": "While neighbors focused on narrative depth within fixed myths (Ramayana, Mahabharata), this chapter isolates one external object—the train—and explores its impact as a disruptive icon in Gangaram's world."
+  }
 }

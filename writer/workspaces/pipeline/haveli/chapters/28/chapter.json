@@ -9,5 +9,40 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the subtle degradation of quality in the rival's work as a form of passive-aggressive sabotage.",
+      "Framing the architectural contest less as artistry and more as an extension of commodity speculation—a race to secure visual dominance before financial collapse.",
+      "Centering the unnamed subject not as Gangaram, but as the silent, unseen *mechanism* of trade that both men are ultimately serving and destroying."
+    ],
+    "story_options": [
+      "Setting: The threshold between two neighboring havelis, dusk. Desire: A scout for the rival subtly sketches a failing section of one fresco before retreating. Obstacle: Gangaram's chief artist spots the intrusion. Turn: The resulting argument is conducted entirely through coded commentary on trade routes.",
+      "Setting: Inside the communal well courtyard at both properties, mid-day heat. Desire: A servant from each house competes over a single block of cooling marble for respite. Obstacle: Their rivalry spills into petty physical conflict over the shared resource. Turn: The silence afterwards is heavier than any painted roar.",
+      "Setting: Late night in Gangaram's personal study, lit by oil lamps. Desire: He secretly inspects the rival’s wall from a distance, needing to catalogue every detail of his perceived superiority. Obstacle: A gust of wind momentarily obscures the view, forcing him to confront his own limitations. Turn: He realizes he is measuring art against inventory sheets."
+    ],
+    "subject_rotations": [
+      "Treating the paint itself as a transient lifeform—a chemical process whose decay reflects human ambition rather than just age.",
+      "Examining the contract negotiations that led to the shared block of land upon which these rival structures are built, focusing on clauses and contingencies.",
+      "Shifting focus entirely from the *finished* mural to the preliminary sketches or underdrawings—the vulnerable, uncelebrated plans."
+    ],
+    "sensory_details": [
+      "The granular grit of dried ochre powder clinging to fingertips after touching a wall too closely.",
+      "A high-pitched, almost painful ringing in the ears caused by prolonged exposure to rival craftsmen’ hammer strikes.",
+      "The specific taste of dust mingled with aged lime plaster when accidentally inhaling while near an unfinished facade."
+    ],
+    "research_questions": [
+      "What were common local disputes or regulations concerning boundary lines and visual encroachment between prominent merchant houses in Shekhawati?",
+      "How durable are natural pigment binders (like gum arabic) against extreme diurnal temperature shifts in the Thar region, leading to subtle color shift over time?"
+    ],
+    "structural_variants": [
+      "A tightly focused sequence of rapid-fire observational stanzas, mimicking a nervous inspection.",
+      "A deliberately slow, panoramic sweep across both facades, using negative space as a character in itself."
+    ],
+    "unused_angles": [
+      "Focusing on the rivalry expressed through patronage—who successfully solicited the most prized artisan first.",
+      "The political maneuvering between local civic bodies and these wealthy families to grant permits for such ambitious building projects."
+    ],
+    "variety_note": "Unlike chapters focused on material acquisition (Silk/Silver), this chapter centers purely on symbolic capital, using visual contestation as its primary engine. The focus is the tension *between* entities rather than within one entity's ledger or interior life."
+  }
 }

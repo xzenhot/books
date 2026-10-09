@@ -9,5 +9,39 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the gramophone not as a relic of pleasure, but as an obsolete communication device failing to bridge social distance.",
+      "Treating the coiled music within the machine as stored potential energy—a perfect, frozen narrative waiting for kinetic release.",
+      "Shifting focus from the *sound* that is absent to the complex mechanical vocabulary of the silence (the whirring gears, the dust settling on the needle)."
+    ],
+    "story_options": [
+      "Setting: The dark, velvet-lined interior of the gramophone casing; Desire: To feel the minute vibrations in the brass horn as if it were humming a low, unresolved note, obstacle: No mechanism can produce sound without external force.",
+      "Setting: A dusty mahogany side table next to the machine; Desire: For a forgotten sheet of music or program to flutter out and dissolve before its title can be read, obstacle: The heavy atmosphere refuses any light movement.",
+      "Setting: High in the room where dust motes catch the single sliver of light falling onto the turntable mechanism; Desire: To track the theoretical path of a needle as it would trace a melody, obstacle: It is permanently lodged or jammed."
+    ],
+    "subject_rotations": [
+      "Exploring the machine's relationship to global trade—a device bringing distant sounds into an isolated Rajasthani space.",
+      "Analyzing the gramophone as a cultural artifact representing colonial or international penetration versus local tradition (the printed records vs. frescoes).",
+      "Treating the stored music itself as a form of captured memory, a pre-digested emotional state that Gangaram failed to experience."
+    ],
+    "sensory_details": [
+      "The metallic chill radiating from the brass horn, even in the humid stillness.",
+      "The powdery texture of old dust coating the finely machined gears and levers.",
+      "A barely perceptible, high-pitched whine suggesting tension rather than melody."
+    ],
+    "research_questions": [
+      "What were the common brands or types of gramophone records available to wealthy merchants in Northern India during this period?",
+      "How was silence traditionally perceived or ritualized within elite Rajput/Marwari domestic spaces prior to modern technologies?"
+    ],
+    "structural_variants": [
+      "A highly fragmented, staccato structure mimicking the halting potential of the mechanism.",
+      "An extended meditation that uses technical schematics (gears, springs) as poetic metaphor throughout."
+    ],
+    "unused_angles": [
+      "The interaction between the gramophone and other preserved artifacts in the room (e.g., its proximity to a broken musical instrument)."
+    ],
+    "variety_note": "Where previous chapters focused on objects recording *events* (ledgers, frescoes), this chapter focuses on an object suspended in potentiality—a captured moment of sonic possibility."
+  }
 }

@@ -4,10 +4,51 @@
   "word_target": 500,
   "chapter_title": "The Beggar's Coin",
   "chapter_summary": "A coin is tossed into the dust at the gate, a charity that is really a dismissal. The poem lingers on the beggar bending for the coin, and on the distance between the hand that gives and the hand that must take.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Medieval concepts of alms-giving and social obligation in Indian contexts",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the coin not as charity but as a micro-economy—a calculated investment in perceived moral capital for Gangaram.",
+      "Shifting focus to the beggar's perception of 'value'; how is a copper piece weighted against years of ignored labor?",
+      "The act of giving framed as an archaeological dig: each tossed coin revealing the texture and stratification of social power."
+    ],
+    "story_options": [
+      "Setting: The precise, sun-drenched crack in the haveli's entryway cobbles; Desire: The beggar does not reach for the coin but instead stares at a tiny fleck of dried pigment embedded nearby, recognizing its impossible value.",
+      "Setting: Just inside the massive outer door, where the dust transitions from road grit to fine palace plaster; Desire: Gangaram hesitates, momentarily looking past the hand that gives toward the rich tapestry of painted life within, finding himself suddenly uncomfortable with his own charity.",
+      "Setting: The gutter just outside the gate, catching the spent coin before it lands in the dry dirt; Desire: A small, stray animal (a mouse or bird) intercepts the falling coin, and this unintended agent becomes the only true witness to the exchange."
+    ],
+    "subject_rotations": [
+      "Treating the moment as a purely observational study of microscopic physical interactions—the angle of the toss, the flicker of muscle tension in the hand.",
+      "Framing the exchange through memory: what is Gangaram recalling or projecting onto this specific interaction that elevates it beyond simple giving?",
+      "Viewing the coin's journey backwards: imagining its industrial origins before it ever touched the beggar’s waiting palm."
+    ],
+    "sensory_details": [
+      "The precise, brittle sound of the copper coin striking packed earth.",
+      "The abrasive grit texture left on the beggar's skin where his hand brushes the doorway threshold.",
+      "The specific olfactory note of stale dust mixed with expensive imported spice clinging to the inside façade."
+    ],
+    "research_questions": [
+      "What historical variations existed in how charitable acts were performed or perceived among merchant classes during peak trade periods?",
+      "Were there visual conventions regarding the presentation of wealth that would make a small, seemingly random act of giving feel disproportionately significant?"
+    ],
+    "structural_variants": [
+      "A heavily stylized focus on slow motion, dedicating several paragraphs to the physics of the coin's arc.",
+      "An inverted structure where the chapter begins with the beggar’s internal accounting *before* Gangaram offers the coin."
+    ],
+    "unused_angles": [
+      "Exploring the lineage of the copper alloy itself—where did this specific metal come from and what journey does it embody?",
+      "A sudden, brief interjection of a completely unrelated sensory input (a distant musical call, an intense smell) to disrupt the focus on the transaction."
+    ],
+    "variety_note": "Unlike previous chapters focusing on tangible creation (frescoes, stones), this focuses entirely on an ephemeral transaction—the moment before intake, where symbolic gesture overrides material reality; it is significantly more focused on micro-scale physics and internal psychological accounting than its neighbours."
+  }
 }

@@ -4,10 +4,50 @@
   "word_target": 500,
   "chapter_title": "The Fresco of the Ramayana",
   "chapter_summary": "Rama's exile and Hanuman's leap are rendered across the wall in pigments that will outlast their patron. The poem follows the painter's hand as it makes the epic a daily scripture for the merchant's children.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Iconography of Rama and Sita in regional Indian miniature painting traditions",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the technique of pigment degradation over time, focusing on how Rama's heroic form visually softens or sharpens as humidity affects it.",
+      "Framing the fresco not as a story told *to* the children, but as an internal meditation for them—a visual vocabulary they absorb unconsciously during domestic chores.",
+      "Shifting perspective entirely to Hanuman: treating his leap from Vaanar-side as less about power and more about desperate, calculated trajectory across impossible space."
+    ],
+    "story_options": [
+      "setting: The shaded recess beneath the painted tree line, desire: A child trying to trace Rama's silhouette with a finger in the dust kicked up by an unseen breeze., obstacle: Fear of disturbing the permanence—the dread that their touch might dissolve the sacred image., turn: The realization that their small, transient actions echo the epic themes of departure and return.",
+      "setting: A patch where the monsoon water streaks the wall, desire: To catch the perfect distorted reflection of a single lamp in the moving color., obstacle: The inability of the liquid to hold the form, mirroring the fluidity and uncertainty of fate., turn: The streaking washes transform Rama's face into an expression of simultaneous sorrow and majesty.",
+      "setting: During a hot midday lull in activity, desire: A forgotten pigment jar on the ground, its rich color having bled onto the stone., obstacle: The slow chemical process—the microscopic reaction between binder and wall absorbing life into inert matter., turn: The accidental bleed creates a spontaneous, unplanned motif that rivals the original design."
+    ],
+    "subject_rotations": [
+      "Treating the fresco as an archive of ideal political conduct (Dharma) rather than just mythology; what specific administrative virtue is being depicted?",
+      "Focusing on the contrast between the painted, eternal perfection and the gritty, real decay of the supporting stone structure.",
+      "Interrogating the relationship between artistic representation and economic value: how much was paid for *this* particular narrative?"
+    ],
+    "sensory_details": [
+      "The faint, sweet-sour metallic scent emanating from the specific red earth pigment used for blood or divine light.",
+      "The dry, papery scrape sound made by a child's finger dragging across the painted surface when it is slightly flaky."
+    ],
+    "research_questions": [
+      "What local materials in Shekhawati were traditionally used to stabilize external wall paintings against seasonal variations?",
+      "How did early merchant families integrate narratives of political duty (Dharma) into their devotional art?"
+    ],
+    "structural_variants": [
+      "A poem structured entirely as a dialogue between the artist's eye and the subject matter depicted.",
+      "An ekphrastic meditation that slows time down to the rate at which the paint molecules settled onto the plaster."
+    ],
+    "unused_angles": [
+      "Focusing on how the shadows cast by objects near the wall (like a swing or cart) interact with, and sometimes obscure, the painted figures.",
+      "A structural exploration of narrative compression—how an entire multi-act play is reduced to a single vista."
+    ],
+    "variety_note": "Unlike the early ledgers which focus on measurable commerce, this chapter shifts entirely into deep visual interpretation, treating myth as tangible, applied art while dwelling in slow temporal decay."
+  }
 }

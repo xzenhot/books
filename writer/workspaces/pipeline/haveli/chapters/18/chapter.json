@@ -9,5 +9,41 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the internal textile traditions: how patterns woven by women echo or resist the permanence of fresco paint.",
+      "Treating the air within these quarters as a medium—thick with specific, unromantic smells (spices, unguents, sweat) that constitute their true archive.",
+      "A structural approach where the poem moves backwards from the present decay to an idealized, imagined past state of domesticity."
+    ],
+    "story_options": [
+      "Setting: A small alcove overlooking a shaded part of the courtyard; Desire: A young woman attempts to repair a fading painted portrait with a fragile home dye, obstacle: The master's shadow looms at the threshold.",
+      "Setting: The kitchen hearth on a cold winter evening; Desire: Two women secretly share knowledge—a recipe, an escape route, or a political rumor—obstacle: The overseer patrols the outer perimeter.",
+      "Setting: A narrow passage connecting the living quarters to the temple room; Desire: An older woman compulsively polishes a specific, overlooked brass object that no one else notices, obstacle: She is interrupted by a sudden demand for service from above."
+    ],
+    "subject_rotations": [
+      "Shifting focus entirely away from the men's grand display to cataloging objects of domestic utility (grinders, water pots, embroidery hoops) and finding profound weight in their mundane existence.",
+      "Examining silence—not as absence of sound, but as a specific, weighted presence constructed by unexpressed conversations and ritualized waiting within these private spaces.",
+      "Viewing the quarters through a lens of materiality decay: how textiles fray before plaster cracks; which entropy is more profound?"
+    ],
+    "sensory_details": [
+      "The cool slickness of spilled oil, used in lamps or for skin treatments, coating the stone floorboards.",
+      "The sharp, almost metallic scent of iron filings mixed with dried turmeric from a poorly stored spice blend.",
+      "The visual texture of heavily starched cotton against sun-bleached lime plaster walls."
+    ],
+    "research_questions": [
+      "What were the specific material compositions of dye pigments used in domestic textile arts compared to those used for exterior frescoes?",
+      "How did social stratification manifest physically within gendered private spaces, beyond mere occupancy?"
+    ],
+    "structural_variants": [
+      "A circular form where each stanza describes a different action (grinding, weaving, cleaning) and subtly circles back to the state of 'waiting'.",
+      "Using anaphora based on incomplete verbs: 'She smoothed... she stirred... she waited...' building tension without resolution.",
+      "Alternating between high-detail sensory immersion in one small object (a specific comb, a single braid) versus broad sweeps over the entire chamber."
+    ],
+    "unused_angles": [
+      "How the private quarters become an unintentional museum of female economic activity—the production chain that supports the visible wealth.",
+      "The concept of 'inherited burden' residing not in jewels, but in specific domestic duties passed down through generations."
+    ],
+    "variety_note": "This chapter diverges from neighbours by intensely focusing on micro-level acts of preservation and resistance within confined female spaces, contrasting them with the larger public narratives of the book."
+  }
 }
