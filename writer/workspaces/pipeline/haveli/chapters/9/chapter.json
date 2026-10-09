@@ -1,53 +1,13 @@
 {
   "chapter_index": 9,
   "name": "9",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Foundation Stone",
   "chapter_summary": "The first stone is set in the earth with a prayer, and the poem captures the promise embedded in that act. It is the moment ambition becomes architecture, the seed of the haveli that will rise to hold gods and gramophones in the same frame.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "The stone as a vessel: exploring how the foundational materials (local sandstone, mortar mix) absorb not just weight, but memory and future transaction.",
-      "Temporal dissonance in construction: contrasting the immense geologic slowness of the earth beneath with the sudden, furious speed of Gangaram's ascent.",
-      "Ritualistic obligation vs. pure capital accumulation: framing the foundation ceremony as a necessary facade to legitimize an underlying drive for profit."
-    ],
-    "story_options": [
-      "setting: A muddy patch near a vital local well in Mandawa, desire: Gangaram desires the physical permanence of his initial mark, something that cannot be swept away by changing markets., obstacle: The traditional builders demand an appeasement offering whose cost exceeds Gangaram’s current liquidity., turn: He pays not with silver, but with a promise of future textile futures from Nawalgarh.",
-      "setting: Dawn over the dusty construction site, desire: To ensure that the structure honors the local deities whose approval he needs to secure permanent goodwill., obstacle: The architect whispers doubts about whether imported, grand designs can truly root in this specific arid soil., turn: Gangaram orders a small, secular portrait of himself carved into the plinth alongside the gods.",
-      "setting: Beneath the first leveled trench, desire: To carve an invisible covenant with future generations, ensuring their survival mirrors his own success., obstacle: A laborer finds a piece of forgotten debris—a remnant from a previous era that suggests the land has seen many similar ambitions fail., turn: He commands the stone to be consecrated using pigments reserved for temple murals, intertwining commerce and faith."
-    ],
-    "subject_rotations": [
-      "Focusing less on the prayer/symbolism and more on the metallurgy of the implements—the chisels, the bronze measuring tools—as conduits of ambition.",
-      "Treating the foundation as an active negotiation with local power structures (caste elders, temple priests) rather than just a religious rite.",
-      "An examination of the specific regional geology: how the dust and stone tell a story of scarcity that Gangaram's wealth is attempting to overcome or redefine."
-    ],
-    "sensory_details": [
-      "The granular heat radiating off sun-baked sandstone, smelling faintly of pulverized earth and gypsum.",
-      "The high, brittle sound of perfectly set lime mortar cracking under the initial load test after curing.",
-      "The metallic tang of sweat mixed with fine desert dust on an elder's weathered skin during the blessing."
-    ],
-    "research_questions": [
-      "What specific regional construction materials or binding agents were characteristic of wealthy private dwellings in Shekhawati during this period?",
-      "How did traditional Hindu foundation rituals intersect (or conflict) with emerging mercantile practices among Marwari traders?"
-    ],
-    "structural_variants": [
-      "The poem could adopt a dialogue structure: Gangaram speaking to the Earth/Land, answered by an older voice representing tradition.",
-      "A highly fragmented structure based on geological layers found in the soil—each stanza mapping a different layer's history."
-    ],
-    "variety_note": "Unlike chapters focusing on immediate acquisitions (like 'The Bought Plot'), this piece focuses purely on the deep, intangible beginning: the commitment to permanence itself, setting up an internal conflict between lasting stone and fleeting finance.",
-    "unused_angles": [
-      "Exploration of specific local folklore concerning ground spirits or 'land ownership' myths that predate organized trade.",
-      "A micro-history detailing the labor negotiation for acquiring the very first block of building material."
-    ]
-  },
-  "draft": {
-    "sha256": "90ec88caf43d2e54a21b95f0f7a4a0691204af892935a590a3f6759d039d478e",
-    "written_at": "2026-10-06T11:45:34.878662+00:00",
-    "origin": "write"
-  }
+  ]
 }

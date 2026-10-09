@@ -1,53 +1,13 @@
 {
   "chapter_index": 26,
   "name": "26",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Festival of Teej",
   "chapter_summary": "During the monsoon festival the haveli briefly opens its wealth to the whole village, food and music spilling into the street. The poem captures the communal moment when the private mansion becomes, for one day, public ground.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Focusing on a single remnant item—a wilted marigold garland or a discarded sweetmeats wrapper—that embodies the sudden transition from communal joy back to hushed isolation.",
-      "The memory of music shifting focus: Instead of the main ensemble, focusing on one lone, neglected instrument (like a dholak left leaning against the wall) and its dissonance after the crowd disperses.",
-      "Framing the generosity as an economic necessity rather than pure charity: The temporary influx of village commerce into the haveli's grounds during the festival."
-    ],
-    "story_options": [
-      "setting: The deep, darkened well courtyard after the monsoon rains have subsided, desire: A forgotten scent of frying ghee remains trapped in the stone., obstacle: The water level has dropped significantly, exposing mud that smells earthy and stagnant., turn: An old woman from the village attempts to wash residual pigment traces off a wall with simple river water.",
-      "setting: One of the high upper-floor balconies overlooking the main gathering square, desire: The merchant's daughter tries to recapture the sound of the laughter., obstacle: A sudden gust of wind whips through, tearing at scraps of vibrant festival cloth left draped over a railing., turn: She finds an intricate silver bangle dropped during the revelry, now tarnished and silent.",
-      "setting: The main entry archway of the haveli, desire: A single servant tries to sweep up the last traces of discarded food., obstacle: His broom meets an obstacle—a dropped wedding slipper, deliberately left behind by a guest in haste., turn: He pauses, realizing the meticulous cleaning ritual is now futile against the evidence of spontaneous human joy."
-    ],
-    "subject_rotations": [
-      "Examining how the visual vibrancy (color saturation) required for the Teej celebrations contrasts with the underlying permanence and fading nature of the permanent frescoes.",
-      "Treating the communal meal not as a feast, but as an act of temporary resource redistribution, showing who benefited most immediately from the spillover trade.",
-      "Focusing on the sonic landscape: The momentary dominance of loud, celebratory folk music against the inherent quietude and heavy stone mass of the haveli structure."
-    ],
-    "sensory_details": [
-      "The specific granular texture of monsoon-washed ochre pigment mixed with dust tracked onto polished marble floors.",
-      "A sharp, metallic taste lingering in the air from discarded sugarcane juice residue left on a flagstone.",
-      "The sound of slowly evaporating water dripping off heavily embroidered silk garments hung to dry after the festival."
-    ],
-    "research_questions": [
-      "What are documented regional variations in the post-festival cleanup rituals following major village/merchant gatherings in Shekhawati?",
-      "How did local textile dye availability change or become temporarily saturated during the peak monsoon season for festivals like Teej?"
-    ],
-    "structural_variants": [
-      "A structure built entirely around circular memory fragments, each circle representing a different sound or smell from the day.",
-      "Beginning with the absolute quiet immediately following the dispersal, using rapid-fire short lines to mimic the lingering echoes of noise."
-    ],
-    "variety_note": "This chapter differs by deliberately moving past the peak celebration and focusing on the charged residue—the silence and small discarded artifacts left behind after the grand public moment has passed.",
-    "unused_angles": [
-      "A direct comparison between the transient, perishable beauty of festival attire versus the hard-won permanence of architectural paint.",
-      "Investigating the role of specific local musicians whose skills only emerge during these temporary social concessions."
-    ]
-  },
-  "draft": {
-    "sha256": "3dc0baa5592ffefdbc95c7a4b3426e2ad540fc51b8a19cda74b301b619f8bec5",
-    "written_at": "2026-10-06T11:49:14.900347+00:00",
-    "origin": "write"
-  }
+  ]
 }

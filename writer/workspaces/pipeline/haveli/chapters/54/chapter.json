@@ -1,49 +1,13 @@
 {
   "chapter_index": 54,
   "name": "54",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Jharokha Wind",
   "chapter_summary": "The wind through the latticed windows carries the murmur of ledgers being tallied, an accounting that never stops. The poem listens to the wind as the house's memory, the dry whisper of figures that were never settled.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Treating the wind itself as a proxy for forgotten business correspondence—the invisible delivery of unfulfilled demands.",
-      "The sound quality: focusing on specific, high-frequency sounds (a dry rattle vs. a heavy sigh) and assigning them to different phases of Gangaram's wealth cycle.",
-      "Shifting focus from the *ledger* being tallied to the *hand* that was tallying it—the absent gestures of calculation."
-    ],
-    "story_options": [
-      "setting: The veranda facing the dusty marketplace, desire: To recall a specific sound accompanying a crucial negotiation, such as the chime of an antique balance scale., obstacle: The wind is too harsh; it strips away tonal quality, leaving only dry friction.",
-      "setting: A high window overlooking private inner courtyards, desire: To perceive the faint outline of a specific, significant textile or fabric pattern being moved by air currents., obstacle: The grime coating the glass makes all vision indistinct, reducing movement to mere vibration.",
-      "setting: Inside the inner sanctum where scrolls might have been kept, desire: To hear a single, distinct piece of paper—a receipt or contract—fluttering down from an unseen height., obstacle: The sheer volume of stale air muffles all discrete sounds into one overwhelming, continuous hiss."
-    ],
-    "subject_rotations": [
-      "Focusing entirely on the architectural mechanism: how do the wooden lattices (jali) modulate the sound before it reaches the speaker?",
-      "Examining the wind not as a passive carrier of memory, but as an active agent of financial audit—a harsh reviewer.",
-      "The voice addressed by the speaker being interpreted not as a person, but as a defunct accounting principle or law."
-    ],
-    "sensory_details": [
-      "Sight: The minute distortions of heat shimmer rising from the cracked stone steps visible through the latticework.",
-      "Sound: A specific, rhythmic *tick* caused by microscopic dust motes vibrating against the wooden bars in a predictable pattern.",
-      "Touch: The sensation on the skin when moving near an open window—the sudden chill of air carrying particulates."
-    ],
-    "research_questions": [
-      "What were common linguistic phrases or ritual utterances associated with finalizing commercial deals among 19th-century Marwari traders?",
-      "How did traditional Rajasthani architecture manage cross-breezes in spaces intended for formal, enclosed meetings?"
-    ],
-    "structural_variants": [
-      "A highly fragmented structure where each line of repetition (the litany) is interrupted by a brief, sudden surge of different environmental noise.",
-      "Structuring the poem as an auditory gradient: starting with high-pitched whistling and fading into low, resonant murmurs."
-    ],
-    "variety_note": "This chapter shifts focus from the stagnant interiority of previous chapters to an exteriorized moment, using atmospheric sound—the wind—as the medium through which memory operates, distinctly different from the mechanical silence or painted suspension elsewhere."
-  },
-  "draft": {
-    "sha256": "edf16343e9e172b818656215b29a726c72d028fa81659aa355d20d488a105776",
-    "written_at": "2026-10-06T11:55:44.346719+00:00",
-    "origin": "write"
-  }
+  ]
 }

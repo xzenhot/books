@@ -1,54 +1,13 @@
 {
   "chapter_index": 19,
   "name": "19",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Temple Room",
   "chapter_summary": "The household shrine is where devotion and display meet, the gods served and the wealth shown in the same gesture. The poem explores the thin line between worship and ostentation that runs through every haveli's sacred corner.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "The secularization of piety: How household deities gradually absorb elements of merchant success—e.g., idols adorned with specific silks or precious metals, blurring the line between ritual offering and displaying inventory.",
-      "Syncretism in domestic worship: Examining the subtle blend of regional folk beliefs (like those mentioned in later chapters) creeping into formal Hindu shrine rituals practiced by a wealthy trader.",
-      "The performance of devotion: Analyzing the temple room not as a place of pure inward grace, but as the most highly curated stage within the haveli, where piety itself becomes another form of conspicuous consumption."
-    ],
-    "story_options": [
-      "Setting: The cool sanctum shadowed by heavy textiles, desire: Gangaram wants to present his newest consignment of imported jewels not to a buyer, but as an offering to Vishnu, obstacle: the deity remains impassive.",
-      "Setting: A tiny side shrine tucked away near the private kitchen access point, desire: A marginalized domestic helper offers secret prayers for protection outside the purview of the main family rituals, obstacle: fear of discovery by the matriarch.",
-      "Setting: The temple room moments after a grand festival offering has been dismantled (shells removed, metal put away), desire: One servant is left to meticulously clean the sacred vessels, finding traces of dust that contradict the earlier display of perfect polish, obstacle: exhaustion setting in before the final cleaning."
-    ],
-    "subject_rotations": [
-      "Focusing on the iconography as economic allegory: Treating specific murals or idols not just as religious figures, but as metaphors for trade partnerships (e.g., a god associated with transport or abundant yield).",
-      "The maintenance ritual: A poem centered entirely on the practical acts of upkeep—the application of turmeric paste, the polishing of brass lamps, the changing of cloth coverings—as an act of enduring devotion against entropy.",
-      "The space as storage: Interpreting the temple room’s proximity to wealth display—jewelry boxes often housed nearby—as a silent negotiation between sacred preservation and worldly accumulation."
-    ],
-    "sensory_details": [
-      "The cloying, heavy sweetness of sandalwood incense that has been burned so many times it now tastes slightly metallic on the tongue.",
-      "The abrasive, dry sound of an old bronze bell being struck against a heavily polished marble pedestal in the relative quiet.",
-      "A single drop of spilled ghee pooling slowly on the dark wood altar, catching the faint light like trapped amber."
-    ],
-    "research_questions": [
-      "What were common practices regarding the inclusion of non-traditional or syncretic figures within private merchant household shrines in 19th/early 20th century Rajasthan?",
-      "How was the concept of 'offering' (dana) historically distinguished from outright gifting when wealth accumulation became paramount among mercantile classes?",
-      "What were local materials used to colorize and decorate domestic devotional implements that might signify status differences between families?"
-    ],
-    "structural_variants": [
-      "A fragmented structure mirroring the iconography: Each section focuses on a different deity, with each section presenting a distinct level of material ostentation.",
-      "An inverted crescendo: Beginning with profound, silent meditation and building incrementally towards descriptions of dazzling gold work before abruptly cutting off at a point of minor secular corruption."
-    ],
-    "unused_angles": [
-      "The relationship between the temple room and external political instability—how devotion is used to anchor families when outside markets fail.",
-      "A focus on ritual contamination: The theological anxiety surrounding mixing sacred items with the residue of worldly commerce (dust, oil, trade spices)."
-    ],
-    "variety_note": "Unlike the expansive views taken from the Jharokha or the sprawling activity in the Courtyard, this poem must contain high compression—focusing on intensely concentrated symbolic meaning within a small, deliberately contained sacred space."
-  },
-  "draft": {
-    "sha256": "e8a8f014ebf3f97f309fa49e6ee89439e927a1ce69e712bc1aec2a4fd46fe013",
-    "written_at": "2026-10-06T11:47:43.722517+00:00",
-    "origin": "write"
-  }
+  ]
 }

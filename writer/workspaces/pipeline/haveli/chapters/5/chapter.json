@@ -1,53 +1,13 @@
 {
   "chapter_index": 5,
   "name": "5",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Cotton Bale",
   "chapter_summary": "The first commodity fortune, soft and heavy and full of promise, is pressed and bound for the ports. The poem holds the bale as both a wonder and a warning, the cotton that will one day be the thread that unravels everything.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Focusing on the compression: how the physical act of pressing cotton into a tightly packed bale forces out all its internal air/life force.",
-      "The comparison between the soft, yielding quality of raw cotton and the rigid, unyielding structure of the haveli that will eventually be built with its profits.",
-      "Examining the specific tension in the laborer's hands as they tie or bind the bales—a physical manifestation of accumulated labor value."
-    ],
-    "story_options": [
-      "setting: A humid, dusty warehouse adjacent to a port city, desire: Gangaram desires the cotton to be recognized not just as weight, but as pure, transformative potential., obstacle: The overseer insists on an impossibly perfect knot in each bale for insurance purposes., turn: A small piece of fiber escapes a knot and catches the dust motes, momentarily glowing like spun gold.",
-      "setting: Near a riverside where cotton bales are sorted before shipment, desire: The local farmer who sold his crop to Gangaram desires recognition for the soil's contribution., obstacle: Gangaram dismisses the farmer with a single, unreadable ledger entry., turn: The sound of the water slapping against the bales creates a percussive rhythm that momentarily drowns out the market haggling.",
-      "setting: Inside Gangaram's own nascent storage area, desire: He wants to feel the physical security of his accumulated wealth before it is transported., obstacle: The bales are unstable, threatening a premature collapse that would signify immediate financial ruin., turn: In checking its stability, he notices an indentation in one bale mirroring the shape of his own palm."
-    ],
-    "subject_rotations": [
-      "Treating the cotton not as raw material, but as a complex biological entity whose inherent moisture and fibers carry microscopic life or scent.",
-      "Shifting focus entirely away from Gangaram to the specific hands—the fiber-puller's calluses, the binder's strained wrists—as primary subjects of beauty/pain.",
-      "Contrasting the vastness of the cotton crop field (green infinity) with the tightly bound, finite geometry of the finished bale."
-    ],
-    "sensory_details": [
-      "The granular friction sound of tightly packed fibers rubbing against each other under pressure.",
-      "The specific smell of damp earth mixed with sun-baked seed husks adhering to the cotton.",
-      "A visual detail of the white fuzz catching the low, late-afternoon sunlight and appearing almost radioactive."
-    ],
-    "research_questions": [
-      "What were the common methods for grading or classifying raw cotton quality in the specific trade hubs connected to Shekhawati?",
-      "How did pre-modern textile traders account for moisture content during bulk transport of fiber crops?"
-    ],
-    "structural_variants": [
-      "A poem built as an escalating list, where each line details a minute physical property of the bale (weight, density, color variation).",
-      "A narrative segment structured entirely around cyclical action: gather $\rightarrow$ press $\rightarrow$ bind $\rightarrow$ rest."
-    ],
-    "variety_note": "This chapter focuses intensely on singular raw materiality—the cotton itself—a stark physical contrast to the abstract financial documentation explored in 'The First Ledger.'",
-    "unused_angles": [
-      "Examining the philosophical concept of commodity fetishism through this textile medium.",
-      "How the natural variations in color across a single bale reflect societal diversity."
-    ]
-  },
-  "draft": {
-    "sha256": "f1a90546ccf1350b202d9d89e55228199f87e98ca91028bd405d59dab997ef4c",
-    "written_at": "2026-10-06T11:44:41.897438+00:00",
-    "origin": "write"
-  }
+  ]
 }

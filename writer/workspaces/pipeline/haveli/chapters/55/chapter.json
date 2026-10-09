@@ -1,52 +1,13 @@
 {
   "chapter_index": 55,
   "name": "55",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Scent of Ghee and Marigold",
   "chapter_summary": "The fragrance of weddings no one remembers hosting still moves through the rooms. The poem follows the scent as a ghost of joy, the fragrance that outlasts the feast and the feasters alike.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Shifting focus from 'memory' of scent to the chemical persistence of organic matter trapped in porous stone.",
-      "Treating the scent not as nostalgia, but as a highly specific pollutant that alters the perception of remaining dust and decay.",
-      "Personifying the odor itself—the ghost smell acts as an invisible curator, meticulously arranging forgotten moments."
-    ],
-    "story_options": [
-      "Setting: The main reception hall, desire: To track the scent trail back to a specific discarded wedding item (a fallen thread or torn silk), obstacle: The powerful interference of recent dampness in the structure.",
-      "Setting: A small private chamber where incense was burned prior to celebrations, desire: To isolate one single lingering note—saffron versus jasmine—as the anchor point for all memory, obstacle: Another overpowering scent (like old leather or mildew) overwhelming it.",
-      "Setting: The high gallery overlooking the courtyard during a gathering, desire: To imagine the collective inhalation of hundreds of guests forming a momentary, shared atmospheric event, obstacle: The wind having stripped away most easily dissipated airborne particles."
-    ],
-    "subject_rotations": [
-      "Analyzing scent as a non-visual history—how smells document events that photography or fresco could never capture.",
-      "Exploring the dichotomy between celebratory scents (sweetness) and underlying decay scents (mustiness, oxidized metal).",
-      "Focusing on the molecular interaction: How volatile organic compounds from spices/flowers bind temporarily to plaster dust."
-    ],
-    "sensory_details": [
-      "Olfactory: The cloying weight of decaying pomanders mixed with fresh sandalwood paste.",
-      "Visual (reaction): A prismatic sheen where sun hits a specific, faintly oily patch on the marble floor, suggesting residual oil from garlands.",
-      "Tactile: The faint stickiness under a fingernail when brushing against fabric remnants near door jambs."
-    ],
-    "research_questions": [
-      "How does prolonged exposure to high concentrations of volatile organic compounds (like jasmine/ghee) affect the micro-erosion rate of historic lime plaster?"
-    ],
-    "structural_variants": [
-      "Structuring the poem as a palimpsest, where each stanza attempts to isolate a single scent, only for it to be immediately overwritten by another.",
-      "Beginning and ending with absolute silence in the room, using the scents to fill the gaps between breaths."
-    ],
-    "variety_note": "Unlike preceding chapters that focused on fixed objects (ledgers, frescos) or moments of decline, this poem anchors itself entirely in a transient, olfactory experience—the ghostly residue of unlived joy.",
-    "unused_angles": [
-      "The specific social hierarchy indicated by *which* scents were used for which families during the wedding rites.",
-      "A focus on the mechanics of how camphor or strong spices were used not just as fragrance but as insect repellent within the haveli."
-    ]
-  },
-  "draft": {
-    "sha256": "3248fd45c0df46db987ee14269d7f284962d9ef72d4c2b6ce6309a1aaae86c8e",
-    "written_at": "2026-10-06T11:56:00.092535+00:00",
-    "origin": "write"
-  }
+  ]
 }

@@ -1,49 +1,13 @@
 {
   "chapter_index": 33,
   "name": "33",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Potter's Humiliation",
   "chapter_summary": "A potter who cannot repay a loan is made to wash the merchant's feet before the whole bazaar. The poem holds the shame of the moment in full, the public degradation that binds the poor to the haveli as surely as any debt.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "The inverted hierarchy: Viewing the procession not as a display of wealth by Gangaram, but as a brutal public performance orchestrated *for* his self-validation.",
-      "Material failure under scrutiny: Focusing on how the clay vessels meant to carry water or food (and thus represent sustenance) are visibly warped or cracked during the washing ritual.",
-      "The audience's complicity: Shifting focus from the potter's humiliation to the silent, judging eyes of bystanders who choose not to intervene, thereby becoming active participants in the degradation."
-    ],
-    "story_options": [
-      "Setting: The dusty main thoroughfare immediately outside the haveli gate; Desire: To capture the precise moment Gangaram stops, and the silence stretches so taut it feels brittle before the first word of humiliation is spoken.",
-      "Setting: A narrow, shadowed alleyway adjacent to the bazaar where the washing occurs; Desire: To focus intensely on a single drop of soapy water falling from the potter’s soiled garment onto dry earth, trapping that moment in suspended animation.",
-      "Setting: The edge of the crowd watching, specifically focusing on one child who is observing but refuses to look directly at the spectacle, representing unarticulated moral judgment."
-    ],
-    "subject_rotations": [
-      "Reframing 'debt' as inherited shame: Suggesting that the potter’s indebtedness is not just financial, but a generational stain passed down through his family line.",
-      "The fetishization of ritual cleaning: Treating the washing itself—the meticulous scrubbing of expensive slippers or fine cloth against rough-hewn stone—as a perverse act of devotion to commerce rather than hygiene.",
-      "Body as ledger: Presenting the potter's own body, bruised and subservient, as a living tally sheet where each gesture inscribes an unpaid account."
-    ],
-    "sensory_details": [
-      "Smell: The sharp, acrid odor of cheap cleaning agents fighting against the pervasive scent of expensive oils used by the merchant’s attendants.",
-      "Sound: The rhythmic *slosh* and *drag* of waterlogged clay pots being moved back and forth during the forced servitude, a sound utterly mundane yet deeply oppressive.",
-      "Touch: The abrasive sting of coarse river sand or dried earth clinging to the soft skin on the exposed wrist or ankle."
-    ],
-    "research_questions": [
-      "What were the specific social codes regarding public debt acknowledgment and punitive measures for indebted craftspeople in mercantile communities of that region?",
-      "Are there documented rituals involving cleansing or washing performed during commercial disputes in Rajputana history, distinct from religious rites?"
-    ],
-    "structural_variants": [
-      "The cyclical descent: Beginning with the grandeur visible just inside the haveli before plunging into the dirty reality outside.",
-      "Linear compression: Using a rapid succession of short stanzas that mimic the jarring, panicked rush between moments of shame and momentary reprieve."
-    ],
-    "variety_note": "Unlike previous chapters focusing on material evidence (stone, grain), this chapter focuses entirely on enacted social trauma—the public body as currency. It centers on acute humiliation rather than structural decay or financial failure alone."
-  },
-  "draft": {
-    "sha256": "fe8916f58e5909f373bc689dbd9f051700bd7c51b754a2305adf60be4462ef62",
-    "written_at": "2026-10-06T11:50:55.234364+00:00",
-    "origin": "write"
-  }
+  ]
 }

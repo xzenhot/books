@@ -1790,7 +1790,10 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
                 "Supply it as a positional argument or ensure book.json has 'chapter_count'."
             )
         if form == "poetry":
-            run_tool("scaffold.py", [bookname])
+            tool_args = [bookname, "--count", str(count), "--form", form]
+            if args.gist:
+                tool_args += ["--gist", args.gist]
+            run_tool("scaffold.py", tool_args)
         else:
             scaffold_novel(bookname, count, args.gist or "")
         return

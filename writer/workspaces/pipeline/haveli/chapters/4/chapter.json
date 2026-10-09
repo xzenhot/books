@@ -1,54 +1,13 @@
 {
   "chapter_index": 4,
   "name": "4",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Camel Caravan",
   "chapter_summary": "Goods move north under the sun, the slow patient accumulation of capital across the desert. The poem lingers on the caravan's rhythm — the bells, the dust, the drivers who sleep under the stars while the merchant's wealth grows heavier.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Focusing on the micro-ecology of the caravan journey: how specific insects or microscopic lifeforms survive the desert miles alongside the massive beasts.",
-      "The concept of shared, unspoken ritual between the drivers—a communal code that contrasts with Gangaram's isolated ambition.",
-      "Treating the camel itself not as transport, but as a living, slow-motion barometer for the stability and temperament of the trade network."
-    ],
-    "story_options": [
-      "Setting: The highest point between two settlements at midday. Desire: A young driver wants to see the distant city lights ahead. Obstacle: Heat shimmer distorts his vision until he can't distinguish mirage from reality. Turn: He realizes the illusion of infinite distance is what keeps him moving.",
-      "Setting: Inside a heavily laden wagon just before sunset, under patched canvas. Desire: The weary captain wishes to break silence and speak honestly about debts owed on both sides. Obstacle: A nervous shift in cargo causes the load to groan ominously. Turn: They trade one quiet story of home for another.",
-      "Setting: Near a rare oasis, deep into the night when only starlight remains. Desire: One driver seeks solace by watching specific constellations, mapping his personal path against the cosmic route. Obstacle: The water source is suspiciously brackish. Turn: He must decide whether to risk drinking it or abandon the profitable halt."
-    ],
-    "subject_rotations": [
-      "A meditation on sound frequency: shifting from the low thrum of a camel's gait to the high, sharp cries of scavengers at dusk.",
-      "Focusing entirely on the materials of burden—the leather harness stitching, the worn rope knots, and the woven textiles that contain the wealth.",
-      "Mapping time not by clock hours but by biological indicators: the changing angle of shadows, the rhythm of grazing animals, or the camel's predictable metabolic cycle."
-    ],
-    "sensory_details": [
-      "The dry, metallic taste of dust ground into the back of the throat.",
-      "The specific, muffled sound made when a thick saddle blanket is finally spread and settled against packed sand.",
-      "The visual contrast between the dull, sun-bleached brown hides of the camels and the brilliant, iridescent sheen of their brass bells."
-    ],
-    "research_questions": [
-      "What were common historical methods for tracking time or distance in caravans before precise navigational aids?",
-      "Are there specific dietary staples that would sustain long-haul camel drivers during desert travel?"
-    ],
-    "structural_variants": [
-      "A strictly cyclical structure mirroring the caravan's repeated passage through familiar landmarks, with subtle alterations each cycle.",
-      "An associative structure where the poem jumps between different senses experienced by various individuals within or adjacent to the convoy (driver, guard, laborer).",
-      "Beginning with a single moment of extreme stillness during a halt, expanding outwards into the motion and noise of the movement, then contracting back to silence."
-    ],
-    "unused_angles": [
-      "The political geography visible from the road—signs of minor local disputes or border shifts glimpsed at a far distance.",
-      "A focus on the transactional intimacy between the merchant (from afar) and the laborers who manage the beast's welfare, exploring their dependency beyond wages."
-    ],
-    "variety_note": "This chapter focuses intensely on the interstitial moments of movement—the pause between one destination and the next—rather than celebrating the commodity or its arrival like previous chapters have done."
-  },
-  "draft": {
-    "sha256": "248bff98897ea959f1f0f34ed36050b060463685629dcebaef75139a69ed7763",
-    "written_at": "2026-10-06T11:44:32.110124+00:00",
-    "origin": "write"
-  }
+  ]
 }

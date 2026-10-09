@@ -1,65 +1,13 @@
 {
   "chapter_index": 41,
   "name": "41",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Shifting Trade Route",
   "chapter_summary": "The roads of commerce bend away from Shekhawati toward the railways and the ports, and the camel caravans grow fewer. The poem marks the beginning of the end, the geography itself withdrawing its favor from the merchant's town.",
-  "further_references": [
-    {
-      "no": "1",
-      "reference": "19th Century Indian Railway Expansion in Western India",
-      "weblink": ""
-    },
-    {
-      "no": "2",
-      "reference": "Historical trade patterns of the Silk Road successors in Rajasthan",
-      "weblink": ""
-    }
-  ],
+  "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "The geopolitical shift: Framing the decline not as a financial failure, but as an intentional, almost geological repositioning of regional power structures toward imperial infrastructure.",
-      "Micro-history of logistics: Focusing on specific, failed contracts or forgotten manifests that detail the precise moment and nature of the route's divergence.",
-      "The architecture reflecting obsolescence: How the grand facades, built for linear caravan traffic, become spatially inappropriate for new, rapid transport."
-    ],
-    "story_options": [
-      "Setting: A dust-choked caravanserai gate; Desire: For the last remaining merchant guide to point toward a new, unseen convergence point of trade routes; Obstacle: The map they hold is deliberately outdated and riddled with erased lines; Turn: He describes the route not by distance but by its 'sound'—the sound of newer engines.",
-      "Setting: Inside Gangaram’s main receiving warehouse, piled high with stagnant goods; Desire: To witness a younger cousin meticulously burn old maps detailing the old paths; Obstacle: The fire sputters weakly against modern humidity; Turn: He notices that the scent rising from the smoke is not just paper, but residual oil from distant machinery.",
-      "Setting: A secluded rooftop overlooking the town's main thoroughfare at sunset; Desire: For Gangaram to observe a single, hesitant laborer attempting to repair a broken wagon wheel suited for an old track; Obstacle: The wheel cracks under minimal pressure; Turn: He realizes this small failure represents the impossibility of adapting his legacy."
-    ],
-    "subject_rotations": [
-      "From economic narrative to cartographical lament: Treating the decline as a study in misplaced geography—how tradition stubbornly clings to paths that no longer exist.",
-      "Focus on the 'intermediate' goods: Instead of silk or cotton, focus on the minor spices or local crafts whose routes were too peripheral to survive the major shift to railways.",
-      "The psychology of regional attachment: How devotion to a physical place becomes an irrational anchor when global economic tides move elsewhere."
-    ],
-    "sensory_details": [
-      "Sight: The way the midday sun catches fine grit carried in on the wind, creating ephemeral 'ghost trains' across the deserted main avenue.",
-      "Sound: The high-pitched, whining sound of a distant steam whistle—a noise utterly foreign to the traditional landscape—cutting through the accustomed lowing of camels.",
-      "Touch: The surprising slickness and coolness of cured leather from abandoned saddlery stacked against a wall that used to be bustling."
-    ],
-    "research_questions": [
-      "What were the specific logistical challenges or political hurdles faced by small-scale traders in Shekhawati when facing competition from early railway infrastructure?",
-      "How did local Marwari communities historically negotiate power dynamics between established overland trade guilds and emerging rail/port interests?",
-      "Are there surviving documents that detail the perceived 'failure' of certain routes due to shifts in colonial or regional policy?"
-    ],
-    "structural_variants": [
-      "A gradual fading structure: The poem slowly bleeds out, where each stanza loses definition until it dissolves into generalized dust and heat.",
-      "A sudden halt structure: The poem builds momentum toward a description of the vanishing routes, then stops abruptly at the moment one specific camel driver decides to turn back."
-    ],
-    "unused_angles": [
-      "Exploring the relationship between local deities/patrons whose influence was tied to established caravan paths.",
-      "The impact on ancillary services (animal husbandry, specialized repair shops) that relied solely on seasonal trade cycles."
-    ],
-    "variety_note": "This chapter shifts focus from the internal accumulation of wealth and social hierarchy towards external geographical forces acting upon the merchant's world, contrasting with earlier chapters focused on ledger entries or architectural magnificence."
-  },
-  "draft": {
-    "sha256": "c6d4a7fcb25fdc4d9491bef4cba81659fe7c71452121931ac5ac2dc4e067463a",
-    "written_at": "2026-10-06T11:52:48.908999+00:00",
-    "origin": "write"
-  }
+  ]
 }

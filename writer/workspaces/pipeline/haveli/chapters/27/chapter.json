@@ -1,50 +1,13 @@
 {
   "chapter_index": 27,
   "name": "27",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Wedding Season",
   "chapter_summary": "Marriages are celebrated with ghee and marigold in the painted courtyards, the haveli at its most alive. The poem lingers on the scent and the music, the weddings whose fragrance will outlast the memory of anyone who attended.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Focusing on the *silence* between notes: The musical gaps in a wedding procession—the moment the musician stops before starting again, embodying pause and waiting.",
-      "The contrast between the highly stylized, permanent paintwork (tradition) and the ephemeral nature of the temporary celebrations (humanity).",
-      "Shifting the focus entirely from the joy to the implied economic burden: The weight of dowries and required displays as a silent tax on both families involved."
-    ],
-    "story_options": [
-      "Setting: The narrow gallery overlooking the main courtyard, desire: A young bride catches sight of an old portrait fresco depicting her ancestors in wedding attire, obstacle: She recognizes one family she never knew about.",
-      "Setting: Outside the haveli gates during a processional return to the mansion, desire: Gangaram's wife watches the groom arrive; his chariot wheels momentarily jam in wet mud from recent monsoon runoff, obstacle: The delay exposes the raw mechanics of his wealth, not just its splendor.",
-      "Setting: Inside the servant quarters adjacent to the main hall during a feast, desire: A cook meticulously arranges the final marigold offering, but finds an heirloom piece of silver belonging to a previous family used as decoration, obstacle: She hesitates to place it among the new finery."
-    ],
-    "subject_rotations": [
-      "Treating the wedding not as a social event, but as a meticulously choreographed *performance* mandated by mercantile honor.",
-      "Examining the symbolism of specific color combinations in bridal attire against the backdrop of the permanent painted palette of the home.",
-      "Focusing on the logistics of preparation—the endless repetition of grinding spices, polishing silver trays until they gleam unnaturally bright."
-    ],
-    "sensory_details": [
-      "The high, brittle sound of dried turmeric dust scattering as a heavy ceremonial vessel is moved across polished stone (Sound).",
-      "The deep, waxy odor of clarified ghee mixed with the sharp, green-tinge scent of new marigold petals crushed underfoot (Smell/Touch).",
-      "The blinding reflection of oil lamp flames caught in intricate silver jewelry during a nighttime ritual dance (Sight)."
-    ],
-    "research_questions": [
-      "What specific regional musical motifs were customarily used during high-status Marwari wedding celebrations in Shekhawati?",
-      "Are there documented patterns regarding the social exchange (dowry/gifts) that correlated with the perceived opulence of a haveli's display?"
-    ],
-    "structural_variants": [
-      "A sequence built around overlapping temporal layers: The present festival overlaying historical wedding frescoes, suggesting echoes.",
-      "A circular structure where every image or sound eventually circles back to an initial, silent moment of waiting.",
-      "Using a fragmented narrative composed only of overheard snippets of conversation—blessings, boasts, quiet arguments—gathered during the event."
-    ],
-    "variety_note": "Unlike the focus on physical wealth display (Chapters 25/29) or personal hardship (Chapter 36), this chapter concentrates solely on controlled, ephemeral communal celebration and its sensory excess."
-  },
-  "draft": {
-    "sha256": "9859455922e3dcb054c015ed1b584f59c4c5e6fb3e5855447c72cc1cc27a4876",
-    "written_at": "2026-10-06T11:49:28.345076+00:00",
-    "origin": "write"
-  }
+  ]
 }
