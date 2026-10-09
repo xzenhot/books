@@ -9,5 +9,40 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the scent not as a memory of event, but as an atmospheric constant—a pervasive hum existing outside temporal experience.",
+      "Focusing on the olfactory ghost's materiality: how does the phantom scent physically interact with particulate matter in the dusty air?",
+      "Viewing the ritualistic use of ghee/marigold fragrance as a necessary palliative measure against the tangible decay and emptiness of the mansion."
+    ],
+    "story_options": [
+      "setting: The abandoned antechamber, where heavy curtains hang limp, desire: To find a single object—a perfumed oil flask or a half-used marigold garland—that captures the essence of the vanished celebration., obstacle: The overwhelming nature of time; the scent has diffused into background noise.",
+      "setting: A sliver of dawn light cutting across the central courtyard, desire: To allow the morning air, cold and clean, to briefly dispel or clarify the heavy, sweet residue of past celebrations., obstacle: The ingrained nature of the mansion's atmosphere resists any cleansing.",
+      "setting: The servant passage, where kitchens once roared with activity, desire: To track the scent backward through layers of use—from fresh preparation to cooled residue on stone surfaces., obstacle: The echoes and smells of neglect (mildew, dust) compete violently with the sweet memory."
+    ],
+    "subject_rotations": [
+      "Shift from 'joy' to a sensory manifestation of ritual necessity: how is the fragrance required by tradition even when no feast occurs?",
+      "Reframe the scent as an echo of financial expenditure—the costly ingredients (ghee, rare flowers) representing wasted wealth.",
+      "Examine the smell through the lens of its *absence*: the specific metallic or acrid tang where sweet smells have completely failed to penetrate."
+    ],
+    "sensory_details": [
+      "The sticky residue of ancient clarified butter on a bronze handle, visible only in low light.",
+      "The sharp, resinous bite of dried marigold petals crushed underfoot.",
+      "A specific temperature change—the sudden chill the sweet air seems to generate when encountering cooler stone."
+    ],
+    "research_questions": [
+      "What were common regional methods used historically in Rajasthan to preserve or intentionally amplify natural floral and fat-based fragrances within domestic architecture?",
+      "How did the composition of wedding preparations (sweetmeats, specific spices) change across different economic strata of Marwari families during the era described?"
+    ],
+    "structural_variants": [
+      "A structure built entirely on olfactory syntax: moving from note to base to top in a non-linear associative logic.",
+      "An opening sequence that begins with a sharp, jarring sound (a distant call or wind chime) immediately preceding the first hint of scent."
+    ],
+    "unused_angles": [
+      "Focusing on the physical process of decay of fats and plant matter in hot climates—the specific chemistry of spoiled beauty.",
+      "Using the fragrance as a motif for temporal inertia, where the lingering smell prevents any forward motion or change."
+    ],
+    "variety_note": "This chapter moves away from dramatic action (ledger entries, procession remnants) into pure atmospheric texture, grounding the abstract concept of memory in pervasive scent."
+  }
 }

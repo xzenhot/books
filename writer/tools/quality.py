@@ -118,6 +118,11 @@ def sync_progress(pipeline):
                     completed_chapters=sum(r["validated"] for r in rows),
                     published=all(r["published"] for r in rows),
                     current_chapter=next((r["chapter_number"] for r in rows if not r["written"]), None))
+    # Propagate the LLM model/provider from the pipeline book.json so the
+    # progress file stays consistent with the plan agents consume.
+    for key in ("model", "provider"):
+        if key not in progress and book.get(key):
+            progress[key] = book[key]
     write_json(path, progress)
 
 

@@ -9,5 +9,40 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the contents not as a commodity of profit, but as an illicit bloom—a manufactured beauty against the stark canvas of Rajasthani commerce.",
+      "Examining the chest itself: its craftsmanship versus its volatile content; the artifact speaking to its hidden cargo.",
+      "Shifting focus from Gangaram's accounting (the 'ledger') to the clandestine ritual surrounding acquisition and storage, divorced from the profit motive."
+    ],
+    "story_options": [
+      "Setting: A dusty private cellar in Mandawa at midnight; Desire: To secure a rare shipment from an obscure foreign contact, obstacle: The watchful presence of local constabulary who demand bribes for silence.",
+      "Setting: Gangaram's personal study, illuminated by oil lamps; Desire: To read the coded correspondence detailing the cargo's source and purity, obstacle: An insistent knock at the door suggesting someone is waiting to witness the secret acquisition.",
+      "Setting: A deserted section of the market after closing hours; Desire: To discreetly exchange a small quantity for ledger adjustments, obstacle: The memory of a past failure haunts him as he weighs the risk."
+    ],
+    "subject_rotations": [
+      "Treating the opium not through its economic value, but through its chemical/alchemical properties—a manufactured, controlled dissolution.",
+      "Focusing on the *silence* around the chest; how its very presence demands secrecy and suppresses ambient noise in the haveli.",
+      "The weight of moral complicity: tracing the ethical shadow cast by this specific, secretive trade upon Gangaram's piety."
+    ],
+    "sensory_details": [
+      "The faint, sweet-and-acrid scent clinging to heavy velvet linings inside a locked storage box.",
+      "The cool, dense resistance of lacquered wood against an eager palm in oppressive heat.",
+      "A visual distortion where the shadows cast by stacked crates appear subtly warped or shimmering near the opium's hidden location."
+    ],
+    "research_questions": [
+      "What were the established legal thresholds for contraband trade like narcotics during this period in North India?",
+      "Were there specific folk beliefs or superstitions attached to storing such morally ambiguous, powerful substances within a domestic/commercial space?"
+    ],
+    "structural_variants": [
+      "A tightly focused scene that builds tension solely through auditory cues associated with proximity to the chest.",
+      "A cyclical structure mirroring the addict's reliance—the cycle of acquisition, momentary high, and necessary storage."
+    ],
+    "unused_angles": [
+      "The psychological burden on Gangaram when he must outwardly perform piety while inwardly managing such a morally compromising stock.",
+      "How this specific item challenges the traditional notion of the haveli as purely an advertisement of 'honorable' mercantile success."
+    ],
+    "variety_note": "Unlike chapters detailing external trade routes (like Item 3), this chapter forces the narrative inward, focusing on hidden corruption and internalized moral decay rather than physical movement."
+  }
 }

@@ -4,10 +4,53 @@
   "word_target": 500,
   "chapter_title": "The Unpaid Debt",
   "chapter_summary": "The sums owed were never entered anywhere but in the memory of the wronged. The poem gathers the invisible debts of the haveli — the wages, the grain, the dignity — into a single account the years will not settle.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Oral traditions regarding unrecorded obligation in Rajasthani trade communities",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating memory itself as the physical ledger—where unpaid debts are not abstract figures but tangible echoes trapped in plaster or wood.",
+      "Shifting focus from Gangaram's *financial* debt to a deeply symbolic, inherited spiritual/moral debt owed by the lineage residing within the haveli.",
+      "Viewing the creditor (the wronged party) as existing outside of linear time—they are perpetually 'now' against the receding timeline of wealth."
+    ],
+    "story_options": [
+      "setting: The kitchen courtyard, long since overgrown, desire: A former cook seeks only to have her name acknowledged on a single surviving scroll fragment., obstacle: The surviving fragments are fragmented by mildew and time itself., turn: She realizes the stain of mold looks exactly like an unwritten sum in her grandmother's script.",
+      "setting: A dark, unused storeroom filled with spoiled grain, desire: A servant remembers the exact measure stolen or refused for months., obstacle: The memory is clouded by hunger and the dust settling on everything that mattered., turn: When she tries to recall the quantity, her mind replaces the number with a visceral image of the grain's rot.",
+      "setting: Outside the haveli gates during monsoon season, desire: A child whose family was displaced by Gangaram's expansion seeks not gold, but confirmation that their suffering was seen., obstacle: The gate remains locked and impenetrable to any form of petition or plea., turn: When the rainwater washes across the stone threshold, it momentarily reveals a faint outline where his name might have been etched."
+    ],
+    "subject_rotations": [
+      "Focusing on how physical infrastructure (cracks in mortar, warping wood) functions as an unconscious record-keeper of accrued social debt.",
+      "Exploring the psychological weight carried by those who *know* the truth of the ledger but have been culturally or financially silenced from speaking it aloud.",
+      "A macro view: examining how a single act of unpaid labor ripples outward to affect subsequent generations across multiple unrelated families."
+    ],
+    "sensory_details": [
+      "The specific metallic taste left on the tongue after licking ancient, oxidized copper utensils used for measurement.",
+      "The persistent scent of dried cow dung mixed with the sharp ammonia smell of lingering mildew in forgotten storage closets.",
+      "The abrasive feeling of fine desert dust that has settled into and fused with the creases of one's palm over years of unpaid toil."
+    ],
+    "research_questions": [
+      "What specific historical documentation (receipts, communal agreements) might exist outside the private haveli archives concerning labor obligations in Shekhawati?",
+      "How did traditional local systems of credit or debt management operate before full commercialization influenced Marwari merchant practices?",
+      "Are there documented examples from this region where non-monetary debts (e.g., to honor, religious obligation) were recognized formally?"
+    ],
+    "structural_variants": [
+      "A poem structured as a series of 'unpaid' stanzas—each stanza detailing a different type of debt before resolving into one final, unresolved statement.",
+      "Using an epistolary fragment structure where the debt is articulated not by Gangaram, but by a composite voice of all debtors speaking sequentially."
+    ],
+    "unused_angles": [
+      "The role of ritualistic offerings made to deities as clandestine forms of payment when worldly debts could not be settled.",
+      "How the act of 'forgetting' a debt becomes a deliberate form of aristocratic erasure, rather than simple amnesia.",
+      "A parallel narrative tracking one specific commodity (like salt or dye) through its life cycle—from production to exploitation and finally to silent accumulation as debt."
+    ],
+    "variety_note": "Unlike chapters focused on physical wealth display or societal paralysis, this chapter must center entirely on the invisible residue of transactional cruelty—the emotional and historical accounting that refuses finality."
+  }
 }

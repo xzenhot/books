@@ -9,5 +9,41 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the soundscape of cessation: what specific sounds cease when the door locks—the creak of a hinge, the flutter of trapped moths, the echo in an empty hall?",
+      "Examining the physical integrity of the threshold itself as a metaphor for irreversible closure; is it made of stone, decaying wood, or something symbolic?",
+      "Adopting the perspective of time itself moving *through* the closed door—is time speeding up inside the sealed space, or has it become stagnant and thick?"
+    ],
+    "story_options": [
+      "setting: The main entrance doorway, desire: A single ray of late afternoon sun manages to penetrate a minute crack near the lock, obstacle: This light reveals not dust, but an entirely different texture on the stone—a remnant stain that contradicts known records., turn: The stain pulses faintly when touched by the sunbeam.",
+      "setting: Inside the now-sealed hall, desire: To hear the phantom echo of the last sound made before the final bolt slid home (a dropped coin, a whispered curse), obstacle: The space absorbs all noise, leaving only crushing vacuum., turn: Instead of an echo, one faint scent—like burnt anise—is released into the silence.",
+      "setting: Just outside the house boundary wall, desire: A neighbor or passing street vendor pauses, sensing an unnatural silence emanating from the edifice, obstacle: They recoil, unable to pinpoint the source of the profound quiet., turn: The stillness causes a single, distant bird to suddenly fly in sharp, panicked circles above the property line."
+    ],
+    "subject_rotations": [
+      "Treating the 'closed door' not as a final end, but as a perfect preservation chamber—a mausoleum designed against decay.",
+      "Shifting from narrative closure (the house is shut) to ontological enclosure (what is trapped *inside* feels separate from time outside).",
+      "Focusing on the act of locking itself: the mechanical ritual and the psychological weight it carries for the last living person who turned the key."
+    ],
+    "sensory_details": [
+      "The cold, mineral scent rising from heavily mortared threshold stones after days without airflow.",
+      "The granular, velvety quality of accumulated dust forming a distinct, undisturbed surface across the marble floor inside.",
+      "The sharp, metallic click that resonates unnaturally loud against the surrounding heavy silence when the final latch engages."
+    ],
+    "research_questions": [
+      "What traditional Bengali or regional Rajasthani superstitions exist regarding thresholds, sealed dwellings, and trapping lingering spirits?",
+      "Is there any specific linguistic register or dialectal phrasing in local folklore associated with a 'permanently closed' edifice?"
+    ],
+    "structural_variants": [
+      "A cyclical structure where the final question leads back to the image of an earlier moment (e.g., the first visitor leaving), but viewed through the lens of total isolation.",
+      "An apostrophe addressed directly to the door itself, treating it as a sentient entity that has made its decision."
+    ],
+    "unused_angles": [
+      "The political implications: does the closing of this house signify economic failure on a wider trade-route scale?",
+      "A hyper-focus on the micro-ecosystem developing inside—the specific moss or lichen thriving in the sealed environment.",
+      "Contrasting the *weight* of the closed door against the perceived 'lightness' of the ghost stories referenced later."
+    ],
+    "variety_note": "This chapter focuses intently on the physical transition from open to sealed, using precise sensory data rather than broad character revelation found in neighboring sections."
+  }
 }

@@ -9,5 +9,43 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the pigment not as inert material, but as a geological record—each layer of varnish or abrasion a stratum in Gangaram's timeline.",
+      "The restorative action is reframed as an archaeological violation; the brush stroke itself is an act of erasure rather than preservation.",
+      "Shifting perspective from the worker (restorer) to the pigment cluster itself, describing its internal resistance to external pressure."
+    ],
+    "story_options": [
+      "Setting: A specific patch of wall near a faded depiction of a marketplace stall; Desire: To see one fragment of blue mineral pigment resist being lifted by solvent, holding firm against the pull of modernity; Obstacle: The technician's impatience.",
+      "Setting: High up in the corner where the fresco meets damp stone (outside the original painted border); Desire: To witness the color shift from its intended vibrant tone to a muted grey/ochre under the harsh midday sun hitting it directly; Obstacle: Structural seepage causing internal damage that distracts from surface repair.",
+      "Setting: The dimly lit upper room where Gangaram died, tracing over faded script or figures; Desire: For one specific red oxide pigment (used for blood or intense emotion) to visibly darken and deepen as the lamp light flickers into its spectral glow; Obstacle: The residue of decades of dust obscuring the true color value."
+    ],
+    "subject_rotations": [
+      "Focusing entirely on chemistry: how different mineral pigments react chemically (oxidation, acid erosion) to varying humidity levels in a decaying building.",
+      "Reversing the conflict: instead of pigment resisting restoration, the *restoration* is what proves its vitality by making it visible again, forcing a confrontation with its 'death'.",
+      "Treating the process as an act of forced genealogy—the restorer attempting to read and stabilize the lineage (family history) encoded in paint."
+    ],
+    "sensory_details": [
+      "The sharp, almost sterile smell of modern solvent cutting through the deep, dusty musk trapped within ancient lime plaster.",
+      "The specific sound of a fine badger-hair brush hesitating infinitesimally before making contact with heavily cracked surface texture.",
+      "The tactile sensation of dried mineral dust—fine as talc, yet possessing an unsettling density when disturbed by human touch."
+    ],
+    "research_questions": [
+      "What specific ancient pigment recipes common to Shekhawati art might have included natural binders that resist modern conservation methods?",
+      "How does the transition from high-intensity midday sun glare (day) to low, warm artificial lamp light (night) fundamentally change the visual perception of earth tones in frescoes?",
+      "Are there known archival practices or regional notations detailing the desired color palette versus the actual achieved hue in these Havelis?"
+    ],
+    "structural_variants": [
+      "A cyclical structure where every attempt at cleaning is followed by a moment where natural environmental factors reclaim the original grime/color.",
+      "An intensely claustrophobic poem focusing almost entirely on a single square foot of wall, moving through light cycles within that small frame.",
+      "A sequence mimicking the slow, methodical layering: first abrasion, then stabilizing agent application, then microscopic color reintroduction."
+    ],
+    "unused_angles": [
+      "The perspective of the *material* labor—the unseen history of the original craftsman's hands juxtaposed against the modern conservator's practiced movements.",
+      "Examining how Gangaram’s wealth was codified visually through pigment choice (e.g., only the richest dyes were used for his procession scenes).",
+      "The comparison between the chemical decay of organic, natural pigments versus the slow degradation of inorganic minerals."
+    ],
+    "variety_note": "Where neighbour chapters explored the wind's sound or scent, this chapter roots the action in a tangible, static conflict: touch against tenacity—the brush meeting the mineral history it seeks to edit."
+  }
 }

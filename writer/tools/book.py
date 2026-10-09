@@ -96,6 +96,28 @@ REPO_ROOT = BASE_DIR.parent                          # repo root
 BACKLOG_ROOT = REPO_ROOT / "workspaces" / "backlog"
 BOOK_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "backlog" / "book.json"
 
+
+def _template_model_provider() -> tuple[str, str]:
+    """Read the LLM ``model`` and ``provider`` defaults from the backlog template.
+
+    The template (``.framework/templates/backlog/book.json``) is the single
+    source of truth for these fields. They flow: template → backlog ``book.json``
+    (via ``make_book_json`` / layout) → scaffold copies verbatim → pipeline
+    ``book.json`` → consumed by enrich/write. Returns
+    ``("gemma4:latest", "ollama")`` when the template is absent or lacks them.
+    """
+    model, provider = "gemma4:latest", "ollama"
+    if BOOK_TEMPLATE.is_file():
+        try:
+            data = json.loads(BOOK_TEMPLATE.read_text(encoding="utf-8-sig"))
+        except (json.JSONDecodeError, OSError):
+            data = {}
+        if isinstance(data.get("model"), str) and data["model"].strip():
+            model = data["model"].strip()
+        if isinstance(data.get("provider"), str) and data["provider"].strip():
+            provider = data["provider"].strip()
+    return model, provider
+
 # ---------------------------------------------------------------------------
 # Ollama configuration
 # ---------------------------------------------------------------------------
@@ -318,6 +340,7 @@ def make_book_json(
     This is the backlog book plan — the blueprint scaffold reads.
     Ollama may later replace it with a richer version via generate_layout().
     """
+    model, provider = _template_model_provider()
     return {
         "book_name": bookname,
         "book_long_title": make_title(bookname, form),
@@ -327,6 +350,8 @@ def make_book_json(
         "target_audience": "বাংলা সাহিত্য ও মননশীল পাঠের পাঠক",
         "chapter_count": len(chapters),
         "form": form,
+        "model": model,
+        "provider": provider,
         "book_summary": gist,
         "created_at": now,
         "updated_at": now,
@@ -1003,6 +1028,13 @@ def generate_layout(
     # Validate the plan is complete before overwriting book.json.
     validate_layout(layout, bookname, form)  # type: ignore[arg-type]
 
+    # Propagate the LLM model/provider from the backlog template so every plan
+    # (and thus every pipeline book.json scaffold copies from it) pins its
+    # generation backend. Never overwrite a value the model already produced.
+    model, provider = _template_model_provider()
+    layout.setdefault("model", model)
+    layout.setdefault("provider", provider)
+
     # Stamp timestamps
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     layout.setdefault("created_at", now)
@@ -1542,11 +1574,13 @@ def enrich_workflow(bookname: str, target: str) -> None:
     # so the engine never runs with an empty lens/twist set.
     enrich.load_templates(enrich.resolve_book_form(bookname))
 
-    # Ensure the pipeline style.md exists and is grounded in the current book.
-    enrich.regenerate_style_md(bookname, book)
-
-    # Resolve the model from progress.json (or the enrich default).
+    # Resolve the model BEFORE any Ollama call (style regeneration included). If
+    # the pipeline book.json declares no model, resolve_model raises and the agent
+    # stops without assuming a default.
     model_name = enrich.resolve_model(bookname)
+
+    # Ensure the pipeline style.md exists and is grounded in the current book.
+    enrich.regenerate_style_md(bookname, book, model_name=model_name)
 
     # Pre-load all chapter models to give the enrich engine cross-chapter context
     all_models: dict[int, object] = {}

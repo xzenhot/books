@@ -9,5 +9,39 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating his final breath not as a cessation but as the ultimate act of consumption—the body drawing down the last vestiges of the mansion's stored history.",
+      "Shifting the focus entirely to the periphery: what mundane, overlooked objects (a loose button, a dried flower in an urn) register his death more acutely than the grand architecture?",
+      "Viewing the palanquin itself as a temporary throne—how is its sudden cessation of movement symbolic of the collapse of mercantile sovereignty?"
+    ],
+    "story_options": [
+      "Setting: The receiving hall, Desire: To catch one specific servant who hesitates in the doorway, burdened by obligation and fear, Obstacle: The silence being so absolute that their hesitation feels like a deliberate judgment.",
+      "Setting: Near the main door, Desire: To focus on the ritualistic preparation of the bier—the careful, almost clinical arrangement of silk and cloth, Obstacle: An unexpected sound from outside (a distant animal cry) shattering the sanctity of the vigil.",
+      "Setting: Within the palanquin, Desire: Gangaram's final conscious sensory input must be a single color flash (perhaps a vibrant thread caught in his periphery), Obstacle: That specific, rich color is now fading into dust."
+    ],
+    "subject_rotations": [
+      "Reframing death not as individual failure but as the inevitable structural fatigue of an entire system—the body succumbing to debt and obsolescence.",
+      "Examining his dying calls not in terms of need, but as a final, involuntary recitation of ledger entries or business names, merging life with accountancy.",
+      "Focusing on the contrast between the public spectacle of death (being carried) versus the private reality of collapse (the cause being unseen failure)."
+    ],
+    "sensory_details": [
+      "Tactile: The unnerving slickness of freshly oiled sandalwood paste applied to the skin in preparation for final rites.",
+      "Auditory: The specific, high-pitched whine of overworked bamboo under the strain of bearing the heavy palanquin through uneven stone flooring.",
+      "Olfactory: A sudden, sharp metallic tang in the air, distinct from incense—the scent of dried blood or old iron."
+    ],
+    "research_questions": [
+      "What was the precise etiquette regarding announcing death within a high-status Marwari merchant house to ensure maximum ritual deference while minimizing public spectacle?"
+    ],
+    "structural_variants": [
+      "A highly iterative structure based on repeating fragments of commands ('Bring water,' 'Wait there') that degrade in resonance with each iteration, mirroring his weakening.",
+      "A structural opposition: starkly alternating between the formal language used for the state funeral and the raw, private vernacular whispered by one attending relative."
+    ],
+    "unused_angles": [
+      "Exploring the perspective of a lesser attendant who views Gangaram not as patriarch, but as an enormous, cumbersome obstacle to future opportunity.",
+      "A micro-study on how light refracts off expensive funeral silks versus the drab stone surfaces around them."
+    ],
+    "variety_note": "This chapter pivots from the grand accumulation of wealth and artistry to its ultimate deflation—the slow, quiet mechanics of irreversible entropy."
+  }
 }

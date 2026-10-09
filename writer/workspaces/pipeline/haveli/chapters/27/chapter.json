@@ -4,10 +4,54 @@
   "word_target": 500,
   "chapter_title": "The Wedding Season",
   "chapter_summary": "Marriages are celebrated with ghee and marigold in the painted courtyards, the haveli at its most alive. The poem lingers on the scent and the music, the weddings whose fragrance will outlast the memory of anyone who attended.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Ritualistic use of food symbolism in Rajasthani marriages",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the wedding celebrations not as a display of wealth, but as a highly choreographed social performance designed explicitly to mask underlying economic anxieties in the participating families.",
+      "Focusing entirely on the logistics: the movement of specific items—the dowry textiles, the specialized ceremonial metals, the prepared foodstuffs—as if they were commodities being traded through ritual.",
+      "Adopting the perspective of a non-participating craftsman (e.g., the dedicated sound technician or lamp lighter) who sees the mechanics beneath the celebratory façade."
+    ],
+    "story_options": [
+      "Setting: The main marble floor during an evening sangeet; Desire: Gangaram's nephew, disguised as a musician, intends to introduce a melody that subtly references his uncle's past deceptions; Obstacle: The host family refuses any outside musical influence; Turn: The music becomes dissonant and accusatory.",
+      "Setting: A secluded upper balcony overlooking the decorated courtyard during the height of celebration; Desire: Gangaram watches the procession, not in pride, but with a sudden, stark realization that every smiling face is merely an extension of his own gilded cage; Obstacle: His wife intervenes to draw him back into the revelry; Turn: He remains motionless as the light fades from twilight blue to ink black.",
+      "Setting: The kitchen annex during the pre-wedding feast preparation; Desire: A young female cook, tasked with preparing a specific ceremonial sweet, secretly replaces a measure of expensive saffron with common turmeric; Obstacle: The overseer is too distracted by high society drama to notice; Turn: The altered color stains the elaborate presentation tray forever."
+    ],
+    "subject_rotations": [
+      "Shifting from the external 'celebration' narrative to an internal accounting—a poetic audit of who truly benefits and who sustains the spectacle through debt or obligation.",
+      "Treating the floral garlands (marigold, etc.) less as decoration and more as temporary, organic contracts binding people together for the duration of the event.",
+      "Focusing on the 'afterglow'—the quiet aftermath of the festivities when the guests have gone, leaving behind only discarded flowers, sticky sweets, and exhausted silence."
+    ],
+    "sensory_details": [
+      "The specific, sharp-sweet metallic tang of ceremonial brass utensils sweating under heavy ghee heat.",
+      "The abrasive grit of dried henna powder left on a guest's skin after the elaborate ritual application has faded beneath sweat.",
+      "The scent profile shifting from pungent jasmine and fresh marigold in daylight to the heavier, sweet decay of spilled jaggery residue by midnight."
+    ],
+    "research_questions": [
+      "What specific regional ceremonies or rites mark the transition point from 'daytime celebration' energy to 'nighttime revelry' in Shekhawati wedding traditions?",
+      "How did contemporary Rajasthani elites manage dietary extravagance during these seasonal feasts without overtly signaling an immediate strain on resources?",
+      "What were traditional roles for non-family attendants (e.g., specialized oil lamp carriers, ceremonial musicians) whose labor was essential but rarely honored in poetic praise?"
+    ],
+    "structural_variants": [
+      "A circular structure where the poem begins mid-celebration and ends back at the moment before it began, implying cyclical, inescapable repetition.",
+      "An asymmetrical stanzaic form where stanzas detailing physical action (dancing, feasting) are long and sprawling, while moments of silent observation are ruthlessly compressed into single, stark lines.",
+      "A deliberate use of a strict internal rhyme scheme that breaks down completely when the speaker observes an act of perceived hypocrisy or exhaustion."
+    ],
+    "unused_angles": [
+      "The politics of guest seating and social hierarchy during the event, mapped onto the physical arrangement of tables.",
+      "How children within the wedding entourage behave—their unburdened observation contrasting with the adult performance.",
+      "A meditation on mimicry: how modern elements (a borrowed gramophone sound) are poorly overlaid upon ancient ritual."
+    ],
+    "variety_note": "Where previous chapters focused either on accumulation (silk/silver) or decay (fresco fading), this chapter centers on the peak intensity of manufactured, temporary abundance before its inevitable dissolution."
+  }
 }

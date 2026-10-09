@@ -4,10 +4,56 @@
   "word_target": 500,
   "chapter_title": "The Silk and Silver",
   "chapter_summary": "The textiles and plate that signal, beyond any ledger, that this man has arrived. The poem catalogs the goods of arrival — the silk, the silver, the ivory — and the quiet question of who paid for them.",
-  "further_references": [],
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Textile trade routes through Northwest India",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Silver and alloy manufacturing techniques of the Mughal periphery",
+      "weblink": ""
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the physical journey of the goods themselves—how the silk fiber or silver ingot changes texture or odor as it passes from distant port to Mandawa's storage vault.",
+      "Treating the value not by its market price, but by the *distance* traveled; assigning a weight or time metric to each textile/metal based on its point of origin (e.g., Bengal vs. Gujarat).",
+      "Framing the possession as debt repayment: the luxury items are merely collateralized payments against an unseen obligation owed to the merchant's own ambition."
+    ],
+    "story_options": [
+      "setting: The dimly lit, cool storage room of the haveli., desire: A young apprentice must inventory a new bale of raw silk, desperate to determine its true worth against established records., obstacle: A specific marking or flaw on the fabric suggests counterfeit origin, threatening Gangaram's reputation.",
+      "setting: The courtyard receiving area during an off-season lull., desire: An older retainer is tasked with meticulously polishing a newly acquired silver tray; his pride rests in making it flawless despite the city dust., obstacle: A persistent, microscopic piece of local grit ruins the mirror finish on one critical spot.",
+      "setting: The threshold between the inner receiving hall and the outer commercial street., desire: Gangaram himself stands amidst the shipment, but refuses to look at the goods; he is focused entirely on the faces of his agents watching the unloading., obstacle: A single, unauthorized laborer among his own crew seems to be secretly sampling the high-grade imports."
+    ],
+    "subject_rotations": [
+      "Moving away from consumption/display (as seen in prior chapters) to storage and preservation—how these goods are kept dormant until the next necessary display.",
+      "Shifting focus entirely onto the *agents* of acquisition: the brokers, cart drivers, and porters whose labor is invisible while the silk gleams.",
+      "Treating the materials themselves as historical time capsules; how the dye colors or metal patina change in response to Rajasthan's specific light cycle over years."
+    ],
+    "sensory_details": [
+      "The brittle, dry friction sound made by thousands of rolled silks being stacked against one another.",
+      "The cool, almost greasy weight of a silver ingot held between the palms before it is counted out.",
+      "A faint, metallic tang—not just oxidation, but the scent of river-mud mixed with newly smelted metal."
+    ],
+    "research_questions": [
+      "What were the common methods used in Shekhawati during that era to certify the purity or origin of imported raw silk vs. finished fabric?",
+      "How was 'weight' (in terms of trade value) consistently measured for exotic imports like ivory across different regional market exchanges?"
+    ],
+    "structural_variants": [
+      "A fragmented structure focusing on individual items, each described in a single sharp-focus stanza before the next item abruptly shifts sensory focus.",
+      "An internal monologue where Gangaram's perception of value continually warps—the objective reality versus his subjective, aspirational cost."
+    ],
+    "unused_angles": [
+      "The specific mechanics of customs inspection or tax assessment when these high-value goods entered the local jurisdiction.",
+      "A detailed study on how the color dyes used in regional textiles interacted with the arid desert sunlight over decades."
+    ],
+    "variety_note": "Unlike the celebration chapters, this poem focuses exclusively on the material reality of wealth—the inventory and storage—rather than its immediate public presentation or ritual use."
+  }
 }

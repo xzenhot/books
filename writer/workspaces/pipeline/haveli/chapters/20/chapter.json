@@ -9,5 +9,40 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the thali not as a vessel for food, but as an investment—its value based on immediate consumption versus its potential future worth in trade.",
+      "Framing the act of polishing as a ritualistic exorcism: each smear of grime removed is a small act against decay or misfortune associated with Gangaram's recent dealings.",
+      "A perspective focusing entirely on the *reflection* within the gold—not what it shows, but how the distorted image fragments the reality of the bustling Durbar."
+    ],
+    "story_options": [
+      "setting: The darkened storeroom beneath the main hall, desire: A junior servant is tasked with storing extra ceremonial platters after the grand feast., obstacle: One thali is inexplicably damaged by a minor drop, revealing a flaw in its hammered surface., turn: This flawed piece becomes an object of quiet contemplation for the servant, suggesting imperfection amidst overwhelming display.",
+      "setting: Just moments before the guests arrive, desire: Gangaram inspects every thali himself, seeking a perfect symmetry that matches his own ambition., obstacle: The light catches one specific piece of hammered gold at an unnatural angle, revealing a microscopic imbalance in its craft., turn: His momentary fixation on this minute imperfection reveals the anxiety beneath his cultivated façade of absolute control.",
+      "setting: Against the backdrop of newly painted frescoes, desire: A single artisan who helped create the hall's splendor watches the golden plating, seeing a direct parallel between metallic luster and faded pigment., obstacle: He wonders if the ephemeral brilliance of the gold will fade faster than the murals when subjected to common use., turn: The tension shifts from display to material lifespan—the battle against inevitable tarnishing."
+    ],
+    "subject_rotations": [
+      "Treating the weight and heft of the thali as a physical manifestation of the intangible debt owed by all guests (economic, social, moral).",
+      "Shifting focus from the gold itself to the materials *used* in its creation—the source metals, the labor input, contrasting it with the organic bounty it will carry.",
+      "Using the reflection on the polished surface as a fractured palimpsest, showing not one scene of the feast, but superimposed glimpses of past or future transactions."
+    ],
+    "sensory_details": [
+      "The high-pitched ring against stone when the thali is momentarily tapped by an assistant.",
+      "The scent of finely ground cardamom clinging faintly to the polished surface from a prior preparation.",
+      "The specific, gritty texture of the gold polish residue under the thumb."
+    ],
+    "research_questions": [
+      "What were the standardized weights or ceremonial significance assigned to large metal serving dishes (thalis) during peak merchant periods in this region?",
+      "Were there regional variations in how different metals (brass vs. gold wash vs. solid gold) were employed for high-status banqueting ware?"
+    ],
+    "structural_variants": [
+      "A recursive structure where the poem describes the polishing action over and over, each iteration revealing a subtly new detail or historical weight.",
+      "An object-centric narrative: following the thali from its preparation in the storage area through its placement to the moment it is lifted by the first server."
+    ],
+    "unused_angles": [
+      "The logistical nightmare of coordinating service for five hundred people; how small failures magnify into symbolic public disgraces.",
+      "A specific focus on the non-eater elements: the ceremonial cups, accompanying bowls, and side dishes that surround the thali but are never the main subject."
+    ],
+    "variety_note": "Where previous chapters have explored architectural space or labor hierarchies in action, this chapter isolates a single piece of high-value portable object to discuss systemic excess."
+  }
 }

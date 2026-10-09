@@ -9,5 +9,40 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the courtyard not as a place of action (cooking/celebration), but as an acoustic landscape—a resonator for all internal and external sounds.",
+      "Focusing entirely on the physics of light within the courtyard: how intense sunlight strikes different surfaces (damp earth, painted lime wash, brass pots) throughout a single day's cycle.",
+      "Using the implied hierarchy of space; delineating which activities are permitted to occupy the center vs. those relegated to the periphery against the walls."
+    ],
+    "story_options": [
+      "Setting: The central well, Desire: A sudden, unexpected gathering storm breaks in the dry heat, forcing all domestic rituals (washing, cooking) into chaotic, communal proximity; Obstacle: The monsoon water level rises unpredictably.",
+      "Setting: The shadow cast by a high minaret-like feature, Desire: An elderly servant sits precisely where the shadow falls at noon, attempting to recall a specific, forgotten transactional detail from Gangaram's youth; Obstacle: Heat causes dizziness and memory fragments blur under the oppressive light.",
+      "Setting: Against one of the most richly painted walls, Desire: Two younger women engage in an argument over an inherited piece of jewelry hidden within the structure itself (not depicted), while their voices echo off the plasterwork as if amplified by ghosts; Obstacle: Their volume draws unwanted attention from a passing visitor outside the main gates."
+    ],
+    "subject_rotations": [
+      "Focusing on the entropy of the space—how dust, plant growth in cracks, and moisture slowly reclaim the hard geometry of the merchant's perfect plan.",
+      "Framing the courtyard as an economic microcosm: a place where all forms of labor (domestic service, craft-work preparation) are visibly staged before commercial transaction begins or ends.",
+      "Examining the relationship between water sources (wells/cisterns) and status—whose ritualistic need for clean water validates presence in the center."
+    ],
+    "sensory_details": [
+      "The sharp, metallic tang of hot iron cooking oil meeting the fine mineral dust kicked up during midday chores.",
+      "The specific texture of sun-baked earth underfoot, yielding slightly before hardening into cracked plates by the late afternoon heat.",
+      "The high, piercing whistle sound when a brass water pot is struck against another to call workers."
+    ],
+    "research_questions": [
+      "What are the documented traditional zoning requirements for communal vs. private activity within a large Rajasthani haveli courtyard?",
+      "How does the specific type of local stone used in Shekhawati courtyards affect sound reflection and heat retention?"
+    ],
+    "structural_variants": [
+      "A cyclical form where each stanza mirrors a daily rhythm: dawn ritual, midday stagnation, evening clamor.",
+      "An associative structure triggered by sounds—each sonic event prompting an immediate shift to a visual memory associated with that sound within the courtyard."
+    ],
+    "unused_angles": [
+      "The politics of waste disposal in the center space—where refuse and ritual remnants are managed, linking domesticity back to the wider town's hygiene and reputation.",
+      "A meditation on silence: what happens when all labor ceases during a profound night watch, allowing the architecture itself to 'breathe'?"
+    ],
+    "variety_note": "This chapter shifts focus from the depicted art (frescoes) or specific contained rooms to the unpainted, elemental geography of the structure itself—the ground and open sky."
+  }
 }

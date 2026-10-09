@@ -9,5 +9,36 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the marble stable not as a display of wealth, but as an elaborate piece of forced petrification—the living thing trapped in a permanent monument.",
+      "Focusing on the symbolic dialogue between Gangaram's vanity and the elephant’s organic indifference to immortality.",
+      "Shifting perspective entirely to the stonemason/sculptor responsible for casting the stable, viewing it as an accidental act of cosmic containment rather than intended glorification."
+    ],
+    "story_options": [
+      "Setting: The dawn mist over the sculpted stables; Desire: A lone water-bearer arrives with a bucket that seems too small for this monumental excess; Obstacle: He sees one tiny, overlooked imperfection in the marble’s carving.",
+      "Setting: Inside the stable structure itself (even if empty of life); Desire: Gangaram stands there before an assembly of his most powerful clients/rivals; Obstacle: The deafening silence within the echo chamber of perfect stone seems to swallow all sound.",
+      "Setting: At twilight, viewed from a distance across the bazaar grounds; Desire: A child notices something small and living (a lizard, moss) desperately trying to reclaim a niche in the pristine marble structure; Obstacle: Gangaram's guards prevent anyone from getting close enough to see it."
+    ],
+    "subject_rotations": [
+      "Examining the economic cost of creating artificial permanence—the materials and labor required for an object designed only to assert past power.",
+      "Focusing on the relationship between *life* (the elephant) and *representation* (the marble), treating the static statue as a commentary on transactional existence itself.",
+      "Interrogating what happens when a powerful symbol becomes utterly redundant—when the purpose of grandeur shifts from commanding respect to merely occupying space."
+    ],
+    "sensory_details": [
+      "The cool, slick feel of polished marble dust remaining on one's fingertips after touching the stable’s surface.",
+      "The deep, resonant thud of a single heavy bronze door swinging shut within the marble frame, cutting through any ambient noise.",
+      "The smell of limestone mixed with trace amounts of dry hay from years past, trapped within the cool shadows of the structure."
+    ],
+    "research_questions": [
+      "What were the typical lifespan expectations for such grand architectural displays in Shekhawati settlements before modern industrialization?",
+      "How did Marwari merchants historically reconcile ostentatious public display with underlying commercial pragmatism?"
+    ],
+    "structural_variants": [
+      "A cyclical structure where the poem moves from the *idea* of permanence, through the physical act of creation (the stone), to the current state of forgotten, static presence.",
+      "Structuring it as a series of rhetorical questions addressed to an imagined, silent witness who never offers affirmation."
+    ],
+    "variety_note": "This chapter shifts focus from intense personal wealth displays (like the Durbar) to the monumentalization of status through enduring, fixed public artifice, contrasting with earlier chapters on transient consumption."
+  }
 }

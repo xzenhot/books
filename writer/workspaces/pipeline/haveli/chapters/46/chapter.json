@@ -9,5 +9,40 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the room as a perfect hermetic seal—a microscopic ecosystem where memory festers against decay, impervious to external economic collapse.",
+      "Examining the internal architecture of confinement: how specific objects (a cracked mirror, a stack of unused ledgers) inside the small space become monumental in their isolation.",
+      "Treating the room not as Gangaram’s tomb but as an archive—every object is a corrupted data point from his life, preserved only in entropy."
+    ],
+    "story_options": [
+      "setting: The cramped upper room, desire: To finally organize the scattered papers of his estate into a single, perfect scroll., obstacle: A persistent, low-frequency sound filtering up from the city below (a distant chant or hammering)., turn: He realizes the act of organizing is futile; the chaos was always more valuable than any order.",
+      "setting: The solitary high window overlooking a dusty courtyard, desire: To see one single, familiar figure—a former business associate or family member—in the square below., obstacle: The perpetual dust coating the glass filters all light into a uniform, hopeless grayness., turn: He sees only his own reflection caught in that muted haze, distorted and aging.",
+      "setting: A specific corner of the room dominated by heavy wooden furniture, desire: To find one untouched possession—a piece of jewelry or a secret letter—that proves his inherent worth beyond wealth., obstacle: The wood itself is riddled with unseen insects, symbolizing the slow internal rot matching the external ruin., turn: He discovers the object was worthless all along; it's merely an elaborate cage."
+    ],
+    "subject_rotations": [
+      "Focusing not on his death but on the *moment* before, when the decision to lock the door solidifies into a final act of supreme stubborn pride against the inevitable.",
+      "Shifting focus entirely from Gangaram's personal despair to the room itself as a silent witness—a temporary reliquary for the dead ambition of an entire mercantile class.",
+      "Intercutting highly vivid, hyper-sensory memories (the scent of saffron in another hall) with the absolute deprivation experienced inside the small chamber."
+    ],
+    "sensory_details": [
+      "The dry friction sound of a single, heavy brass clasp being forced shut for the final time.",
+      "The taste of stale, metallic dust coating the tongue when leaning close to the cracked windowsill.",
+      "The oppressive weight and warmth radiating up from the packed earth floor beneath thin rugs."
+    ],
+    "research_questions": [
+      "What specific types of household pest infestation might be common in sealed, forgotten Rajasthani structures that would relate metaphorically to internal decay?",
+      "In what manner did merchant families utilize interior architectural elements (like false walls or secret compartments) for long-term document storage during periods of extreme financial instability?"
+    ],
+    "structural_variants": [
+      "A strict, suffocating claustrophobic structure: the poem only moves inward toward the center point of the room.",
+      "A fragmented temporal loop: every stanza is a slight variation on the same five-minute interval leading up to the lock clicking."
+    ],
+    "unused_angles": [
+      "Developing an external character—a curious servant or local vagrant who has seen the door locked for weeks, treating them as a silent antagonist.",
+      "A comparative study of this small room versus the grand Durbars described previously, highlighting scale asymmetry."
+    ],
+    "variety_note": "This chapter isolates the subject entirely within its own physical container, creating intense compression in contrast to earlier chapters which dealt with vast spaces like courtyards or caravan routes."
+  }
 }

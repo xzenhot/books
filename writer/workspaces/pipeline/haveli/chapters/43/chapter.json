@@ -9,5 +9,36 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the departure not as cowardice but as a desperate adherence to pre-modern notions of personal survival over shared risk.",
+      "Viewing the 'partners' through the eyes of an observer who does not know their past dealings, rendering them only archetypes of betrayal or necessary self-preservation.",
+      "Exploring the logistics of departure: what specific items—tools, correspondence, religious artifacts—were deemed essential enough to justify abandoning the entire structure?"
+    ],
+    "story_options": [
+      "Setting: The main entrance gate at dawn; Desire: One partner pauses to retrieve a single, small family heirloom kept near the threshold before sprinting away; Obstacle: The realization that the relic is functionally worthless in any new venture.",
+      "Setting: A shadowed alleyway adjacent to the haveli walls; Desire: Two partners engage in a final, highly stylized ritual of severance—perhaps burning a shared document—before separating irrevocably; Obstacle: An unexpected sound from within the main haveli forces them to separate prematurely and silently.",
+      "Setting: Near a communal well used by both merchant houses previously; Desire: A partner hesitates at the water's edge, momentarily seeking a sign or reflection of their former bond before breaking away for good; Obstacle: The shared pool is murky with recent refuse, symbolizing the contamination of their mutual venture."
+    ],
+    "subject_rotations": [
+      "Focusing on the *architecture* itself as complicit in the flight—the high walls that enabled both opulence and isolation when the partnership frayed.",
+      "Treating the departure not as a transaction, but as an involuntary biological shedding (like skins or dry leaves) dictated by economic entropy.",
+      "A micro-focus on one specific object taken by the departing group—a particular piece of accounting equipment, or perhaps one shared decorative tile—and detailing its journey away from the center."
+    ],
+    "sensory_details": [
+      "The abrasive grit caught beneath fingernails after hastily climbing down the exterior steps.",
+      "The sound of leather harnesses scraping against weathered sandstone as men rush past their mounts into the dust.",
+      "The metallic tang in the mouth from breathing air thick with both rising panic and settling desert silt."
+    ],
+    "research_questions": [
+      "How did pre-modern legal or social structures address partnerships dissolving due to external market collapse, beyond purely commercial documentation?",
+      "Were there established local customs or rituals related to partners separating business endeavors that could provide cultural counterpoints to modern notions of corporate dissolution?"
+    ],
+    "structural_variants": [
+      "A sequence structure: rapidly alternating between the visible chaos outside (the flight) and a static, meticulous detail inside the empty haveli where everything they left remains undisturbed.",
+      "A fragmented memory approach: starting with the shared past glory of partnership, abruptly cutting to the final moments of abandonment, then revisiting tiny details from both periods in rapid succession."
+    ],
+    "variety_note": "Unlike previous chapters focused on accumulation or decline (ledgers, routes), this poem centers purely on social collapse—the moment human connection fractures under financial pressure, treating partnership as a fragile physical entity that breaks apart."
+  }
 }

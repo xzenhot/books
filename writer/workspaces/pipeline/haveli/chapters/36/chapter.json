@@ -9,5 +9,40 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The spill as a sudden, micro-cosmic collapse of order within the perfect symmetry of the haveli's interior life.",
+      "Treating the wine not just as liquid, but as distilled ritual—the expensive color against the utilitarian poverty of the servant girl’s clothing.",
+      "Focusing on the silent witnesses: inanimate objects in the room (a carved wooden stool, a hanging lantern) that absorb or betray the moment."
+    ],
+    "story_options": [
+      "Setting: A dimly lit receiving anteroom just before dawn; Desire: The servant girl hopes the spill is invisible to the master's returning eye; Obstacle: Her employer spots the dark stain on the pale marble floor, and Turn: He demands she clean it using only her own garment.",
+      "Setting: Near a heavily lacquered serving table during late-night preparations; Desire: The girl wishes for a single moment of perfect silence before judgment falls; Obstacle: A valuable piece of imported silver catches the spill's light, making the mistake impossible to conceal, and Turn: He doesn't strike her, but instead demands she retrieve all spilled drops using only a finger.",
+      "Setting: In an unused servant passage adjacent to the main dining area; Desire: She seeks escape into the cool darkness before confrontation; Obstacle: A high-ranking guest (a visiting merchant) witnesses the incident from a doorway arch and Turn: His silent disapproval is worse than any physical blow."
+    ],
+    "subject_rotations": [
+      "Examining the social economy of *waste*: how spilled luxury becomes symbolic debt rather than simple mess.",
+      "The transference of guilt: Does the master's anger feel justified by the cost, or does his disproportionate rage reveal a deeper insecurity about his own perfection?",
+      "A focus on proximity—the emotional distance between the rich consumer (of the wine) and the exploited producer (who services the event)."
+    ],
+    "sensory_details": [
+      "The specific scent of fermented grapes contrasting sharply with the dry, sweet perfume used by the haveli's resident women.",
+      "The slick, sudden coolness of spilled liquid meeting hot stone floors in a pre-dawn chill.",
+      "The muffled sound of expensive silk rustling as someone retreats or shifts position away from the immediate vicinity of the stain."
+    ],
+    "research_questions": [
+      "What were prevailing cultural notions regarding 'waste' (liquid, food) versus accidental damage to architecture among elite Rajput families?",
+      "How did status hierarchies influence corporal punishment in domestic settings within these merchant havelis?"
+    ],
+    "structural_variants": [
+      "Starting with the aftermath: a detailed inventory of the stain's spreading pattern on the polished wood, then flashing back to the source.",
+      "Using an almost mechanical progression—drop -> reaction -> strike -> silence—mirroring clockwork machinery that has momentarily malfunctioned."
+    ],
+    "unused_angles": [
+      "Exploring the role of accidental intoxication in moments of domestic fragility—is her clumsiness linked to exhaustion or hidden despair?",
+      "A comparison between the social consequences of a spill versus a theft: why is error punished more severely than deliberate transgression?"
+    ],
+    "variety_note": "Where neighbour chapters focused on large-scale transactions (debt, trade), this chapter narrows to a singular, minute moment of domestic failure—the liquid event—to explore structural micro-violence."
+  }
 }

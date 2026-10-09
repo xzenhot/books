@@ -9,5 +9,41 @@
   "state": "scaffolded",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the *sound* of the counting: the scratch of reed or quill against heavy paper in silence, rather than just the visual arithmetic.",
+      "Viewing Gangaram's final accounting not as a tally of profit/loss, but as an audit of his own moral weight—each entry representing a specific instance of exploitation.",
+      "The internal dialogue of the lamplight itself: does the light feel judgmental, or merely functional, bearing witness without bias?"
+    ],
+    "story_options": [
+      "Setting: The cramped upper room; Desire: To hear the shadow cast by Gangaram's hand as he makes a final tally mark against the wall; Obstacle: The flickering wax consuming itself too rapidly in the drafty air; Turn: A sudden gust of wind extinguishes the flame, plunging him into absolute darkness just before completion.",
+      "Setting: Near a single open window facing the empty bazaar street below; Desire: To perceive how the cold spill of distant moonlight interrupts his meticulous work on the ledger page; Obstacle: The constant murmur of life in the outer world bleeding in—distant voices or animal calls; Turn: He pauses, listening to the outside sounds as if they are auditing *him*.",
+      "Setting: Pressed against a high wooden beam near the ceiling, overlooking the scene; Desire: To track the small imperfections on the parchment under the direct, singular glow of the lamp; Obstacle: A faint, lingering scent (not floral or food-related) clinging to the wood—dust mixed with aged oil and anxiety; Turn: He notices a stain on the ledger that wasn't there before."
+    ],
+    "subject_rotations": [
+      "Treating 'the fortune' as something non-monetary, such as accumulated reputation or the weight of unspoken agreements.",
+      "Focusing the arithmetic not on sums but on relationships—how many transactions involved X number of laborers versus Y amount of capital.",
+      "The physical mechanism of time slowing down under artificial light: how hours stretch and distort when measured only by lamp-burning."
+    ],
+    "sensory_details": [
+      "The brittle, dry *creak* of the ledger binding yielding to pressure from an aging hand.",
+      "The specific visual quality of heat distortion rising visibly from the tallow wick into the cold air near the paper.",
+      "The faint metallic tang of old ink reacting with the stale dust motes caught in the lamp's cone."
+    ],
+    "research_questions": [
+      "What were common, non-oil/tallow sources for illumination available to wealthy merchant houses in Shekhawati during periods of diminished trade?",
+      "Are there documented historical uses of wax additives or resins used in traditional Indian oil lamps that would alter the color or spread of light uniquely?"
+    ],
+    "structural_variants": [
+      "An initial strophe entirely dedicated to listing the physical components of his setup (lamp, ledger, inkwell), before any counting begins.",
+      "A sustained free-verse section where Gangaram's internal monologue breaks completely from numerical language, moving into pure metaphor concerning balance."
+    ],
+    "unused_angles": [
+      "The political tension implied by the locked room—is it protection, or a seal on failure?",
+      "How his accounting relates to astronomical cycles rather than just economic ones.",
+      "A reflection on how modern light (even distant electric light) would invalidate this ancient, single-source illumination."
+    ],
+    "variety_note": "Unlike previous chapters focusing outward on the grand fresco or external trade, this chapter turns intensely inward, using the artificial lamp as a microcosm for Gangaram's private accounting and solitary psychological state."
+  }
 }
