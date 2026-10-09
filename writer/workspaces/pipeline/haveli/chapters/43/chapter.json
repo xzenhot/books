@@ -1,49 +1,13 @@
 {
   "chapter_index": 43,
   "name": "43",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Fleeing Partners",
   "chapter_summary": "The associates vanish with what they can carry, leaving Gangaram to face the creditors alone. The poem follows the partners out the gate, the loyalty that dissolves the moment the fortune does.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Examining partnership loyalty through the lens of material possession: How does the physical object taken by a fleeing partner (a ledger page, a piece of silver) define their betrayal?",
-      "The geometry of departure: Mapping the exodus as a pattern—a retreat towards specific exit points within or outside the haveli structure.",
-      "Foreshadowing absence: Treating the partners' flight not just as an economic escape but as a predetermined mythological exile, turning them into characters destined for separate ruins."
-    ],
-    "story_options": [
-      "Setting: The main wooden gate of the haveli at deep twilight; Desire: For one partner to pause and look back at Gangaram, having made his final division of assets; Obstacle: A sudden gust of wind blows dust across the threshold, obscuring faces.",
-      "Setting: A dusty road just outside the city limits where carts are hastily loaded; Desire: To witness a minor disagreement between partners over who gets which item—a private argument played out against the grandeur of what they left behind.",
-      "Setting: The shadowed servant's passage leading to the rear exit; Desire: For one partner, realizing his error mid-escape, to turn back momentarily toward the light spilling from Gangaram's locked chambers."
-    ],
-    "subject_rotations": [
-      "Shifting focus entirely to an inanimate object—a specialized tool or a specific document—that is used by the partners in their departure, rendering it the temporary proxy for human ambition.",
-      "Treating the dissolution of partnership as a form of architectural failure; how the load-bearing capacity of the shared endeavor breaks down unevenly, one pillar failing before another.",
-      "Viewing the fleeing not as an active decision but as a systemic decompression—the structure itself losing internal pressure and spilling out its components."
-    ],
-    "sensory_details": [
-      "Sight: The specific pattern of shadows lengthening across cobbled ground where pairs of boots tread unevenly during hurried exit.",
-      "Sound: The brittle, scraping sound of iron hinges being forced open against the quiet expectation of stone and wood.",
-      "Touch: The dry, papery texture of a torn promissory note held tightly by one fleeing partner."
-    ],
-    "research_questions": [
-      "What were the common informal mechanisms for resolving severe business disputes among merchant communities before formalized courts became accessible?",
-      "How did regional textile trade agreements traditionally define equitable division when capital or inventory needed to be split hastily?"
-    ],
-    "structural_variants": [
-      "A fragmented narrative structure mimicking fractured memory, where each partner is presented in a separate, short burst before the next.",
-      "The poem structured as an overlapping dialogue (implied), where Gangaram's unspoken accusations intersect with their physical actions of leaving."
-    ],
-    "variety_note": "Unlike earlier poems focusing on static grandeur or material gain, this chapter is defined by negative space—the movement away from the central structure and the deliberate erasure of companionship."
-  },
-  "draft": {
-    "sha256": "9bf675e70bc51ba2e99bef1121ac9af0624910e8fe23b5ebd5187a696bbcf499",
-    "written_at": "2026-10-06T11:53:16.991916+00:00",
-    "origin": "write"
-  }
+  ]
 }

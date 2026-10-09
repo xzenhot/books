@@ -9,12 +9,40 @@ ROOT = str(Path(__file__).resolve().parent.parent)
 REQUIRED_FILTERS = ["workshop", "research", "correctness", "theme", "syntax", "override", "quality"]
 
 
-def scaffold(bookname):
+def scaffold(bookname, chapter_count=None, form=None, gist=None,
+             word_target=None, filter_chain=None):
     if not bookname or bookname in {".", ".."} or any(c in bookname for c in '/\\:<>"|?*'):
         raise ValueError("Expected a single book folder name")
     root = Path(ROOT)
     plan_path = root / "workspaces/backlog" / bookname / "book.json"
     plan = read_json(plan_path)
+
+    # --- Parameter overrides (online scaffold sends explicit values) ---
+    # These let the online (agentic) scaffold delegate the large per-chapter
+    # loop to Python with explicit deterministic parameters instead of
+    # hand-writing every chapter folder itself. Every override must stay
+    # consistent with the backlog plan; scaffold refuses rather than silently
+    # rewriting the plan.
+    if form is not None:
+        if form != "poetry":
+            raise ValueError(
+                "tools/scaffold.py is the poetry scaffold; use scaffold_novel for novels"
+            )
+        plan["form"] = form
+    if chapter_count is not None:
+        if chapter_count <= 0:
+            raise ValueError("chapter_count must be a positive integer")
+        plan["chapter_count"] = chapter_count
+    if word_target is not None:
+        if word_target <= 0:
+            raise ValueError("word_target must be a positive integer")
+        for entry in plan.get("chapters", []):
+            entry["word_target"] = word_target
+    if filter_chain is not None:
+        plan["filter_chain"] = list(filter_chain)
+    if gist is not None:
+        plan["gist"] = gist
+
     names = canonical_names(plan)
     if plan.get("form") != "poetry" or plan.get("book_name") != bookname:
         raise ValueError("Plan must identify the requested poetry book")
@@ -116,8 +144,20 @@ def scaffold(bookname):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("bookname")
+    parser.add_argument("--count", "--chapter-count", type=int, default=None,
+                        help="Number of poems to scaffold (default: from book.json).")
+    parser.add_argument("--form", choices=("poetry", "novel"), default=None,
+                        help="Book form (default: poetry, from book.json).")
+    parser.add_argument("--gist", default=None,
+                        help="Seed text for the book (default: from book.json).")
+    parser.add_argument("--word-target", type=int, default=None,
+                        help="Per-poem word target (default: from book.json).")
+    parser.add_argument("--filter-chain", nargs="*", default=None,
+                        help="Ordered filter chain (default: from book.json).")
     args = parser.parse_args()
     try:
-        scaffold(args.bookname)
+        scaffold(args.bookname, chapter_count=args.count, form=args.form,
+                 gist=args.gist, word_target=args.word_target,
+                 filter_chain=args.filter_chain)
     except (OSError, ValueError, KeyError) as error:
         parser.exit(1, f"ERROR: {error}\n")

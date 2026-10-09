@@ -1,53 +1,13 @@
 {
   "chapter_index": 51,
   "name": "51",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Unfinished Procession",
   "chapter_summary": "The painted wedding party never finishes marching across the wall, frozen forever a few steps from its destination. The poem lingers on the procession that cannot arrive, the fresco as a celebration suspended in the instant before it is complete.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Viewing the suspended procession not as celebration, but as a rigid trap—a gilded cage of mandated joy.",
-      "Shifting focus from the painted figures to the unseen space *between* them: the gap in their dance or stride where completion should occur.",
-      "The internal debate of the painter: Was this intentional incompleteness—a commentary on the transient nature of wealth—or a forced stop due to circumstance?"
-    ],
-    "story_options": [
-      "setting: A high, shadowed alcove above the main wall, desire: To witness the precise moment one painted figure hesitates before taking the final step., obstacle: The vibrancy of the pigments resisting the slow encroachment of external decay and dust.",
-      "setting: Immediately adjacent to the wedding fresco, in a blank patch of plaster, desire: To project a phantom sound—the music that has stopped but whose rhythm can still be felt., obstacle: The sheer silence of the haveli demanding absolute auditory conformity.",
-      "setting: Near the base of the wall, looking up at the frozen group, desire: To map the trajectory of a single painted bead or piece of jewelry to its final, unreached point., obstacle: The physical impossibility of completing the gesture without destroying the illusion."
-    ],
-    "subject_rotations": [
-      "Treating the fresco as an active, semi-sentient entity whose suspended state is a form of eternal protest against its abandonment.",
-      "Focusing on the materiality of 'stopping': How does paint chemically resist entropy differently from organic life?",
-      "Exploring the tension between performance (the dance) and permanence (the wall)—how wealth demands both?"
-    ],
-    "sensory_details": [
-      "The faint, sharp scent of dried linseed oil and specific vegetable dyes reacting to microscopic shifts in humidity.",
-      "The tactile sensation of cool, brittle mortar under the fingertips when tracing a line that never finishes.",
-      "A visual perception where painted shadows cast by figures seem disproportionately deep, suggesting an internal source of darkness."
-    ],
-    "research_questions": [
-      "What were common symbolic representations within Shekhawati fresco cycles for interruption or stasis outside the religious iconography?",
-      "How did local pigments from that era react to prolonged exposure to alternating light and deep shadow?"
-    ],
-    "structural_variants": [
-      "A poem structured as a stuttering sequence, mirroring the fragmented movement of the figures.",
-      "Starting at the culmination point (the destination) and working backward through the moments leading up to the halt."
-    ],
-    "variety_note": "This chapter differs from the preceding focus on Gangaram's personal decline by focusing purely on the static, narrative suspension of his investment—the arrested moment of public triumph.",
-    "unused_angles": [
-      "How the compositionally 'left out' space in the fresco relates to areas of unpainted decay in the physical structure.",
-      "The internal dialogue between two figures whose intended path crossed but was eternally broken by the frame."
-    ]
-  },
-  "draft": {
-    "sha256": "4a1bb0a681b265aafecdb75aa40aed8a08c47facdbfe903b6270f267638cdf7c",
-    "written_at": "2026-10-06T11:55:05.415679+00:00",
-    "origin": "write"
-  }
+  ]
 }

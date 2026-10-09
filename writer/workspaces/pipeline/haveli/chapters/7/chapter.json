@@ -1,49 +1,13 @@
 {
   "chapter_index": 7,
   "name": "7",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The First Profit",
   "chapter_summary": "The moment the clerk tastes wealth and finds it sweeter than anything his village ever promised. The poem captures the exact turning point when enough becomes the enemy, and the man begins to want more than a body can hold.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "The internal auditory landscape of the merchant: focusing on how the sound of coins striking a heavy ledger sheet becomes an obsession, drowning out all other sensory input.",
-      "A structural focus on disproportion: contrasting the small, humble physical space of the clerk's original quarters against the rapidly inflating volume and complexity of his newly acquired capital.",
-      "The psychological weight of *possibility*: portraying not the arrival of wealth itself, but the terrifying, unbounded nature of what that new financial freedom now permits him to do."
-    ],
-    "story_options": [
-      "setting: A cramped merchant counting house under a single sputtering oil lamp., desire: Gangaram desires the exact calculation of his margin—the final digit confirming untouchable surplus., obstacle: The relentless, sharp *clink* of the coins becoming an overwhelming, deafening presence in the small room., turn: He stops counting and starts listening to the echo of those sounds bouncing off the bare walls.",
-      "setting: A dust-choked threshold leading into a newly acquired storage area., desire: The clerk seeks permission from his own memory (his prior, humble self) to validate this new weight., obstacle: The physical inability of the old doorway—once suitable for a mere ledger book—to contain the metaphorical mass of his profit., turn: He realizes that true wealth isn't in what he holds, but in how much space it now requires.",
-      "setting: A marketplace corner just after closing hours., desire: To test the feel of this new prosperity against the public pulse; to *taste* its acceptance., obstacle: The sudden, unnerving silence of the market once the day's frantic bartering has ceased, leaving him isolated with his intangible gain., turn: He finds the scent of yesterday’s spice stalls overwhelming, and for a moment, it smells cheaper than gold."
-    ],
-    "subject_rotations": [
-      "Treating the profit as an invading entity—something external that consumes the clerk's old sense of self.",
-      "Focusing on the mathematics of appetite: how accounting transitions from a tool for survival to an engine for endless consumption/acquisition.",
-      "Interrogating the nature of 'sweetness': is the taste truly in the *money* (the transaction) or in the *freedom* (the potential it unlocks)?"
-    ],
-    "sensory_details": [
-      "The high, sustained whine of friction as a stack of heavy cloth bills slides across a polished wooden counter.",
-      "The acrid, metallic smell of newly minted copper coins mingling with old parchment dust.",
-      "The specific sensation of the skin tightening painfully under clothing after weeks of intense mental focus on numbers."
-    ],
-    "research_questions": [
-      "What were common vernacular terms in Marwari commerce for sudden, unexpected windfalls or exponential growth?",
-      "How did 18th/19th-century trade records physically denote margin vs. principal investment to imply perceived value?"
-    ],
-    "structural_variants": [
-      "A poem structured as an accelerating rhetorical question sequence that dissolves into a single, definitive statement.",
-      "A fragmented lyric structure where each stanza is anchored by one specific financial term (e.g., 'margin,' 'asset,' 'liability')."
-    ],
-    "variety_note": "Where preceding chapters established the *means* of accumulation (trade goods, land), this poem focuses sharply on the internal, almost alchemical moment when the abstract number converts into subjective power."
-  },
-  "draft": {
-    "sha256": "dde1c7bff40cc6ddcaacdf1050a9b5ebb0917fc7e56325024f00bc058a41fac6",
-    "written_at": "2026-10-06T11:45:07.076144+00:00",
-    "origin": "write"
-  }
+  ]
 }

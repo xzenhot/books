@@ -1,53 +1,13 @@
 {
   "chapter_index": 12,
   "name": "12",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Fresco of the Ramayana",
   "chapter_summary": "Rama's exile and Hanuman's leap are rendered across the wall in pigments that will outlast their patron. The poem follows the painter's hand as it makes the epic a daily scripture for the merchant's children.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Treating the painted figures not as characters in a tale, but as arrested kinetic energy—frozen moments of supreme effort (Hanuman's leap) trapped by chemical permanence.",
-      "A focus on the socio-economic function of the iconography: how specific depictions validated Gangaram’s moral standing to his trading partners and competitors.",
-      "The contrast between Rama’s divine suffering (exile, adherence to dharma) and Gangaram’s practical compromises in accumulating wealth."
-    ],
-    "story_options": [
-      "setting: A shadowed corner near the depiction of exile,, desire: Gangaram desires a tangible proof that his family's piety outweighs their sharp business dealings., obstacle: The pigment begins to flake slightly, mirroring inevitable decay or moral compromise., turn: A night watchman sees the faint pattern beneath the paint—the original brickwork.",
-      "setting: The high reaches of the fresco depicting Hanuman's flight,, desire: The painter seeks to perfectly capture the geometry of impossible vertical ascent., obstacle: His hand trembles under the low, watchful silence of the sleeping household., turn: He realizes the celestial patterns in the mural unintentionally mimic a specific, secret ledger cipher.",
-      "setting: The family courtyard at deep midnight,, desire: An unseen figure (perhaps a former servant or lost relative) whispers a critique of the depicted narrative., obstacle: The voice is indistinct, only present in the quiet air vibrating off the painted walls., turn: Gangaram hears it from his locked upper room and dismisses it as the wind moving through the lattice."
-    ],
-    "subject_rotations": [
-      "Shifting the focus entirely from Rama's narrative to Hanuman’s physical exertion: analyzing the anatomy suggested by the painter, divorced from divinity.",
-      "Treating the Ramayana not as Hindu scripture but as a visual contract—a model of duty (dharma) that the merchant family attempts to mirror through his own transactional ethics.",
-      "A meditation on color stability: how the specific reds and greens used capture or distort the harsh Rajasthani sunlight versus night-time candlelight."
-    ],
-    "sensory_details": [
-      "The cool, mineral dampness that rises from the stone wall beneath the painted skin of the figures.",
-      "The faint, dry scent of ground ochre mingling with stale incense clinging to the high plasterwork.",
-      "The low, rhythmic sound of one's own heartbeat echoing unnervingly in a silent room while looking at motionless epic scenes."
-    ],
-    "research_questions": [
-      "What specific local colorants (besides standard mineral oxides) were favored for depicting divine skin tones versus human figures within Shekhawati fresco traditions?",
-      "Did the merchant class patronize narratives like Ramayana specifically to align their public persona with ideal governance or moral rectitude, rather than mere aesthetic preference?"
-    ],
-    "structural_variants": [
-      "A recursive structure: each stanza zooms in on a single brushstroke until the macro-narrative dissolves into pigment analysis.",
-      "A dialogue between two imagined figures—one representing classical Hindu philosophy and one representing cold mercantile arithmetic—commenting on the mural's message."
-    ],
-    "unused_angles": [
-      "Exploring the administrative oversight of trade guilds (the non-religious power structure) as a parallel to the divine order depicted.",
-      "Focusing on how the depiction might change depending on whether the haveli was primarily used for internal family life or public receiving."
-    ],
-    "variety_note": "Unlike the earlier poems focusing on raw accumulation and political establishment, this chapter examines the visual justification of that wealth through high culture iconography."
-  },
-  "draft": {
-    "sha256": "ac4bbe93e7284b86d80753af46d43a9c8c22d3565888c71d7cbcda1d3be2e8f6",
-    "written_at": "2026-10-06T11:46:16.421609+00:00",
-    "origin": "write"
-  }
+  ]
 }

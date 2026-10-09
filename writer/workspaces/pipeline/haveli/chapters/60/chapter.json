@@ -1,49 +1,13 @@
 {
   "chapter_index": 60,
   "name": "60",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Reckoning That Never Came",
   "chapter_summary": "The cycle ends with every empty room waiting for a settling of accounts the years have forgotten to bring. The poem closes on the open door and the open question, the haveli still breathing with the unfinished lives of everyone its builder abandoned.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Framing the 'reckoning' not as judgment or debt, but as a necessary structural equilibrium—the haveli requires this symbolic accounting to stop its slow decay.",
-      "Adopting an extremely impersonal, geological viewpoint where the family drama is merely evidence of slight shifts in humidity and stone integrity.",
-      "Reintroducing Seth Gangaram not as a ghost accountant, but as a silent audience member observing the lingering residue of his own failure across time."
-    ],
-    "story_options": [
-      "Setting: The threshold where outer dust meets inner polished marble; desire: To observe an invisible boundary line where past grievances meet present stillness; obstacle: The overwhelming sensory silence.",
-      "Setting: A single, unused doorway leading to a non-existent room; desire: To trace the intended path of figures that were never fully painted into existence; obstacle: The paint cracking at the edges where no life was placed.",
-      "Setting: Midday light striking the interior courtyard, long after the last family left; desire: To map the trajectory of one specific shaft of sunlight as it slowly migrates across a floor pattern, symbolizing time passing without resolution; obstacle: Dust settling perfectly in the sunbeam's path."
-    ],
-    "subject_rotations": [
-      "Treating the 'unfinished lives' not as potential energy, but as active, parasitic agents feeding on the mansion’s material structure.",
-      "Examining the physical remnants of social contracts: comparing a cracked piece of tile to a fractured promise.",
-      "Reframing the 'reckoning' away from morality and toward pure economic inevitability—the market demands closure, even if spiritual accounting resists it."
-    ],
-    "sensory_details": [
-      "The specific, high-pitched squeal of rusted iron hinges straining under no weight.",
-      "The cool, damp scent rising off deep stone foundations during a heatwave.",
-      "Visual: The way shadows pool in the concave curve of an archway when the light source is diffused and distant."
-    ],
-    "research_questions": [
-      "What are known architectural methods for preventing structural collapse in decaying sandstone havelis?",
-      "How do specific local materials (like lime plaster or regional mortar) interact with atmospheric moisture to create audible stresses?"
-    ],
-    "structural_variants": [
-      "A final, static meditation structured entirely around a single color palette observed as the light changes from bright noon blue to deep indigo twilight.",
-      "An accretion poem where each line is built upon or layered over the previous one, representing compounding debt."
-    ],
-    "variety_note": "This chapter moves completely away from tracking past action (Gangaram's life or its immediate aftermath) into a state of absolute temporal suspension, focusing only on what remains when all movement ceases."
-  },
-  "draft": {
-    "sha256": "3d8344d34a82f62e0365c194363d28fff2992b985e614f21fdf340c7ca5fb849",
-    "written_at": "2026-10-06T11:57:09.294799+00:00",
-    "origin": "write"
-  }
+  ]
 }

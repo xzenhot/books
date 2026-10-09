@@ -21,21 +21,20 @@ Then retry the scaffold command.
 
 ## Execution Mode (factory)
 
-> **IMPORTANT — SCAFFOLD IS OFFLINE BY DEFAULT.** In `offline` mode, **do not execute Python and do not hand-craft the pipeline tree.** Resolve the exact `python tools/book.py <bookname> scaffold ...` command from `.framework/offline_registry.md` (do not re-scan the `tools/` folder), display it to the user, and ask whether to proceed. Only run it after the user says go. Use agentic file writes only when the mode resolves to `online`.
+> **IMPORTANT — RESOLVE THE MODE EXPLICITLY, OR ASK.** In `offline` mode, **do not execute Python and do not hand-craft the pipeline tree.** Resolve the exact `python tools/book.py <bookname> scaffold ...` command from `.framework/offline_registry.md` (do not re-scan the `tools/` folder), display it to the user, and ask whether to proceed. Only run it after the user says go. Use agentic file writes only when the mode resolves to `online`.
 
 Scaffold accepts an optional execution-mode argument `[offline|online]`. Resolve it in this order:
 
 1. The explicit `offline` or `online` argument supplied on the command, if present.
-2. **Default to `offline`** when no explicit argument is provided.
-
-> **NOTE — THE `factory` FIELD DOES NOT APPLY TO SCAFFOLD.** Scaffold (like publish) is a structural command and is **always offline by default**, regardless of any `factory` value in the book plan (`workspaces/backlog/<bookname>/book.json`). Do **not** read the `factory` field to resolve scaffold's execution mode. Scaffold runs agentically (`online`) only when an explicit `online` argument is supplied on the command; otherwise it must resolve, display, and await confirmation for the exact `python tools/book.py <bookname> scaffold ...` command.
+2. The `factory` field in the book plan (`workspaces/backlog/<bookname>/book.json`), when it is set to `"offline"` or `"online"`.
+3. **Ask the user.** If neither an explicit argument nor a `factory` field is present, **do not default silently** — ask the user to choose `offline` (display the command and await "go / don't go") or `online` (run agentically) before doing anything.
 
 | Mode | Behavior |
 |------|----------|
-| `offline` (**default**) | **Display, don't execute.** Resolve the exact repository Python CLI command (`python tools/book.py <bookname> scaffold <count> <form>`), present it, and ask the user to confirm before running anything. |
+| `offline` | **Display, don't execute.** Resolve the exact repository Python CLI command (`python tools/book.py <bookname> scaffold <count> <form>`), present it, and ask the user to confirm before running anything. |
 | `online` | Do not use Python at all; perform every step agentically through direct file reads/writes. |
 
-**The default is `offline`.** In offline mode: resolve the command → display it → ask "go / don't go" → run only on explicit confirmation. Never run Python silently, and never hand-write folders or files as a substitute.
+In offline mode: resolve the command → display it → ask "go / don't go" → run only on explicit confirmation. Never run Python silently, and never hand-write folders or files as a substitute. When the mode cannot be resolved from an argument or the `factory` field, stop and ask the user to choose before proceeding.
 
 ## Dispatch
 

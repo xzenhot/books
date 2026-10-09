@@ -1,57 +1,13 @@
 {
   "chapter_index": 57,
   "name": "57",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Warm Fresco",
   "chapter_summary": "A freshly scrubbed wall grows warm again at night, as if the house is only pretending to sleep. The poem presses a hand to the warm plaster, the haveli's pulse beating under the restoration, alive in spite of every effort to quiet it.",
-  "further_references": [
-    {
-      "no": "1",
-      "reference": "thermodynamics of historic building materials",
-      "weblink": ""
-    }
-  ],
+  "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Treating the residual warmth not as life, but as trapped chemical energy released by minerals reacting to micro-climate shifts—a silent geological process mirroring economic decay.",
-      "Addressing the fresco maker directly, positioning them as a kind of forgotten deity or artisan god whose presence lingers as heat, questioning if their artistry *was* divine invocation.",
-      "Shifting focus from the 'pretending sleep' motif to an aggressive, internal hum within the wall—the subconscious vibration of unfulfilled oaths encoded in the pigment layers."
-    ],
-    "story_options": [
-      "Setting: The section depicting a celestial musician, desire: To trace the heat signature back to the exact pigments used for the gold leaf, obstacle: Knowing whether this warmth is residual chemical energy or symbolic memory.",
-      "Setting: A panel showing a quiet domestic scene (a woman grinding spices), desire: To find a minute object—perhaps a single burnt ember from an ancient lamp or a fallen seed—embedded in the painted surface, obstacle: The dust has sealed it perfectly into the patina.",
-      "Setting: The highest point of a fresco where figures face the night sky, desire: To sense that the warmth is not heat but stored *tension*—the unresolved conflict between the depicted narrative and its silent setting."
-    ],
-    "subject_rotations": [
-      "Examining the concept of 'perpetual labor' through the lens of art maintenance; the warm fresco demands constant, futile attention.",
-      "Reinterpreting the heat as a metaphor for unspent capital—the wealth that was invested in appearance but never converted into stable commerce or lasting prosperity.",
-      "The wall not as an artifact, but as a temporary biological skin (a fungal life cycle paused), where warmth signals active transformation rather than mere display."
-    ],
-    "sensory_details": [
-      "Olfactory: The sharp, metallic tang of oxidized copper from the binding agents in deep blues reacting to temperature.",
-      "Tactile: A fine, gritty residue adhering to fingertips when attempting to sense the differential temperature gradient across a single painted figure's forearm."
-    ],
-    "research_questions": [
-      "What specific pigment components might produce measurable exothermic reactions within a stable wall environment over centuries?"
-    ],
-    "structural_variants": [
-      "A narrative structured as a scientific observation log, where the emotional weight is conveyed purely through precise, detached measurement of temperature fluctuations.",
-      "An extended dialogue with a character who has an innate ability to 'feel' residual energy, functioning almost like a mythic technician cataloging thermal data."
-    ],
-    "unused_angles": [
-      "A focus on the ambient soundscape—the way tiny structural stresses (creaking stone settling) interact microscopically with the warmth emanating from the pigments.",
-      "Exploring the historical economics of sourcing these specific minerals, framing the heat as a direct consequence of trade routes and geopolitical pressure."
-    ],
-    "variety_note": "Where previous chapters addressed decay through scent, sound, or fading light, this chapter focuses acutely on tangible thermal energy retained within the physical art object."
-  },
-  "draft": {
-    "sha256": "298882dce1864643e51cb1e9d40d3a30d714d1c03b061eebb7389855d8c323de",
-    "written_at": "2026-10-06T11:56:30.390345+00:00",
-    "origin": "write"
-  }
+  ]
 }

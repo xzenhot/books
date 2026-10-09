@@ -1,49 +1,13 @@
 {
   "chapter_index": 58,
   "name": "58",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Dead Merchant's Lamplight",
   "chapter_summary": "Gangaram still counts his fortune by a light no one else can see, the ledger open in a locked room. The poem joins the dead merchant at his final task, the arithmetic that outlasted the man and the money alike.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Focusing entirely on the mechanics of light refraction through dust motes suspended in stagnant air within the locked room, treating the lamplight as a physical artifact rather than a metaphor.",
-      "The accounting not as a tally of wealth, but as an obsessive ritual—the sheer mechanical act of turning pages and tracing lines becoming the only remaining human activity.",
-      "Treating the ledger itself as the true surviving entity: its ink is more permanent and emotionally complex than Gangaram's body or his empire."
-    ],
-    "story_options": [
-      "Setting: The highest, most dusty upper room of the haveli; desire: To witness one single calculation—a final subtraction that resolves nothing; obstacle: A sudden draft shifts a stack of old promissory notes onto the ink.",
-      "Setting: Beside the unmoving desk, near where the oil lamp sits; desire: To imagine the specific chemical scent profile of long-burning, rancid ghee mixed with aged paper dust; obstacle: The wick flickers, briefly illuminating something tucked beneath the ledger's edge.",
-      "Setting: Outside the locked room, focusing on a small crack in the doorframe through which light leaks; desire: To contrast the meticulously organized chaos inside (the books) with the slow, organic decay happening just inches away outside."
-    ],
-    "subject_rotations": [
-      "Shifting the focus from Gangaram's personal guilt to the administrative failure of his system—how paper ledgers are prone to systemic error, not moral ones.",
-      "Viewing the lamplight as a form of surveillance: it illuminates only the act of counting, trapping him in an eternal audit loop of past successes and present nothingness.",
-      "The ledger entries become coded communication: interpreting notations not as financial data, but as personal threats or secret pacts with rivals."
-    ],
-    "sensory_details": [
-      "A high-pitched, dry rasping sound made by the brittle paper turning under pressure.",
-      "The oily warmth radiating from a specific spot on the dark wood of the desk where the lamp has been placed for decades.",
-      "Visual: The way the yellow glow catches the microscopic, crystallized dust particles suspended in a single beam."
-    ],
-    "research_questions": [
-      "What are the typical degradation rates for 19th-century accounting inks and paper stock when exposed to fluctuating temperature and humidity?",
-      "Are there specific historical notations or symbologies within Marwari merchant ledgers that denote more than simple monetary values (e.g., oaths, debt types)?"
-    ],
-    "structural_variants": [
-      "A non-linear structure where the counting stops repeatedly, forcing glimpses of earlier transactions before resuming at a different numerical point.",
-      "Structuring the poem around the lamp's life cycle: illumination, burnout, and final descent into darkness over several short stanzas."
-    ],
-    "variety_note": "This chapter isolates an internal, microscopic moment—the solitary act of accounting in absolute silence—contrasting sharply with the grand public scenes (Durbar) or the physical decay (Fresco)."
-  },
-  "draft": {
-    "sha256": "9a14de80541c56ba4264bcce126d7e6f6e80bdc06ffb2d2e81edfa675aee106e",
-    "written_at": "2026-10-06T11:56:44.665117+00:00",
-    "origin": "write"
-  }
+  ]
 }

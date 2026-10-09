@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Flatten a chapter model.json into context.md.
+"""Flatten a chapter model.json into a readable context.md.
 
-Renders every JSON leaf with its unambiguous JSON path as a heading so the
-downstream writer prompt can cite exact provenance. context.md is written
+Renders the JSON as a clean Markdown document: object keys become headings,
+scalar values become inline text, lists of strings become bullet lists, and
+lists of objects become one sub-section each. The result is meant to be read by
+a writer (or a human), not to reproduce the raw JSON tree. context.md is written
 beside the model.json.
 
 Usage:
@@ -11,33 +13,74 @@ Usage:
 
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
-def flatten_json_to_markdown(data: object) -> str:
-    """Render every JSON leaf with its unambiguous JSON path as a heading."""
-    sections = ["# Chapter model context"]
+def _scalar(value) -> str:
+    if value is None:
+        return "—"
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    return str(value)
 
-    def visit(value: object, path: str) -> None:
-        if isinstance(value, dict) and value:
+
+def flatten_json_to_markdown(data: object, title: str = "Chapter model context") -> str:
+    """Render a JSON object as clean, human-readable Markdown.
+
+    - Object keys become headings (one level deeper per nesting).
+    - Scalar values become a plain line under their heading.
+    - A list of strings/numbers becomes a bullet list.
+    - A list of objects becomes one "Item N" sub-section per entry.
+
+    ``title`` sets the H1 heading; callers rendering non-chapter JSON may pass
+    their own title.
+    """
+    lines: list[str] = []
+
+    def render(value, depth: int) -> None:
+        if isinstance(value, dict):
+            if not value:
+                return
             for key, child in value.items():
-                visit(child, f"{path}[{json.dumps(key, ensure_ascii=False)}]")
-        elif isinstance(value, list) and value:
-            for index, child in enumerate(value):
-                visit(child, f"{path}[{index}]")
+                if isinstance(child, (dict, list)) and child:
+                    lines.append(f"{'#' * depth} {key}")
+                    lines.append("")
+                    render(child, depth + 1)
+                else:
+                    lines.append(f"{'#' * depth} {key}")
+                    lines.append("")
+                    if child not in (None, "", [], {}):
+                        lines.append(_scalar(child))
+                    lines.append("")
+        elif isinstance(value, list):
+            if not value:
+                return
+            if all(isinstance(i, dict) for i in value):
+                for i, item in enumerate(value, 1):
+                    lines.append(f"{'#' * depth} Item {i}")
+                    lines.append("")
+                    render(item, depth + 1)
+            else:
+                for item in value:
+                    if isinstance(item, (dict, list)) and item:
+                        render(item, depth)
+                    else:
+                        lines.append(f"- {_scalar(item)}")
+                lines.append("")
         else:
-            rendered = json.dumps(value, ensure_ascii=False, indent=2)
-            fence = "`" * max(3, 1 + max(
-                (len(run) for run in re.findall(r"`+", rendered)), default=0
-            ))
-            sections.append(f"## {path}\n\n{fence}json\n{rendered}\n{fence}")
+            lines.append(_scalar(value))
+            lines.append("")
 
-    visit(data, "$")
-    return "\n\n".join(sections) + "\n"
+    lines.append(f"# {title}")
+    lines.append("")
+    render(data, 2)
+    # Trim trailing blank lines.
+    while lines and lines[-1] == "":
+        lines.pop()
+    return "\n".join(lines) + "\n"
 
 
 def flatten_chapter(model_file: Path) -> Path:
@@ -51,7 +94,7 @@ def flatten_chapter(model_file: Path) -> Path:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Flatten a chapter model.json into context.md."
+        description="Flatten a chapter model.json into a readable context.md."
     )
     parser.add_argument("bookname", help="Book folder under workspaces/pipeline/.")
     parser.add_argument("chapter", help="Chapter number (e.g. 1).")

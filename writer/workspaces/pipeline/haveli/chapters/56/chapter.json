@@ -1,56 +1,13 @@
 {
   "chapter_index": 56,
   "name": "56",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Resisting Pigment",
   "chapter_summary": "The restorers' brushes meet frescoes that refuse to yield their age, the pigment clinging to its own history. The poem stages the conflict between the worker and the wall, the past that will not consent to be made clean and new.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Framing the act of restoration not as preservation, but as a deliberate form of historical vandalism—erasing agency.",
-      "The pigment's resistance personified: viewing it as organic life fighting chemical erasure, akin to cellular death.",
-      "Shifting focus from Gangaram’s wealth to the labor of remediation; the modern caretaker inherits his burden, not his glory."
-    ],
-    "story_options": [
-      "setting: A specific corner where mold has bloomed over a royal hunting scene, desire: The restorer wants to lift the grime without losing the depth of the original indigo., obstacle: The mortar holding the pigment is crumbling unevenly, threatening total loss in that one spot., turn: A worker pauses, unable to scrub because they sense a specific pattern beneath the decay—a forgotten inscription.",
-      "setting: The exposed underlayer of faded murals depicting merchant processions, desire: To recover the vibrancy of a particular shade of cinnabar., obstacle: Chemical residue from past, failed cleaning attempts has fused with the original binder, creating an unnatural hardness., turn: When pressure is applied to remove the surface layer, instead of pigment, a tiny shard of broken glass—a piece of domesticity, not art—is found.",
-      "setting: The high archway where figures in ceremonial attire are painted, desire: To stabilize the skin-like quality of the plaster faces., obstacle: A draft slips through a crack adjacent to the painting, causing minute flakes of paint dust to drift and settle across other areas at different rates., turn: The pigment resists not only cleaning agents but also *air* itself, implying its endurance is tied to atmospheric stasis."
-    ],
-    "subject_rotations": [
-      "Focusing on the *tools* of restoration—the brush hairs, the solvents, the fine implements—as miniature instruments of judgment.",
-      "Treating the paint layer as palimpsest: each surviving color is an accidental historical annotation layered over a deeper truth.",
-      "Shifting agency entirely to the material itself; the pigment has its own resistance strategy independent of human intervention."
-    ],
-    "sensory_details": [
-      "Visual: The fine network of craquelure forming geometric patterns that precisely match the grain structure of raw, local sandstone blocks used in the building.",
-      "Tactile: The unexpected slickness or slipperiness of a specific mineral binder when touched by a damp cloth, contrasting with dry, brittle areas.",
-      "Olfactory: A sharp, metallic smell emanating from modern fixing agents reacting violently with ancient, oxidized iron pigments."
-    ],
-    "research_questions": [
-      "What are the documented physical behaviors of certain traditional Rajasthani mineral dyes (e.g., ochres or lapis substitutes) when exposed to both acid and high humidity fluctuations?",
-      "Are there localized folklore references regarding the 'spirit' or life force retained within ancient painted surfaces, particularly in mercantile architecture?",
-      "How did Mughal/Rajput restoration techniques differ from modern chemical conservation methods concerning pigment adhesion?"
-    ],
-    "structural_variants": [
-      "A relentless cataloguing structure: listing pigments by their required physical intervention—e.g., 'The Earth-Red requires gentle scraping; the Sky-Blue demands solvent diffusion.'",
-      "An alternating structure between minute technical description (the scientist's view) and a vast, sweeping mythic statement about impermanence (the poet's sigh).",
-      "A highly internalized monologue of one individual conservator who is simultaneously cataloguing failure while attempting preservation."
-    ],
-    "unused_angles": [
-      "The dialogue between the local restoration expert and an external, academically trained conservationist—a clash of knowledge systems.",
-      "An extended meditation on how light, when filtered through a window onto the pigment, reveals different structural flaws than it does under direct lamplight.",
-      "Using the resistance to symbolize Gangaram's own stubborn refusal to accept economic failure."
-    ],
-    "variety_note": "While neighbours have explored the transient nature of scent and sound in decay, this chapter focuses on the physical, abrasive confrontation between deliberate human maintenance and immutable material history."
-  },
-  "draft": {
-    "sha256": "b89c2de562de36e144bf77ae11861a613db691c466cd977f025e94a25d06615f",
-    "written_at": "2026-10-06T11:56:17.007387+00:00",
-    "origin": "write"
-  }
+  ]
 }

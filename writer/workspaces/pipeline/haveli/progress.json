@@ -4,728 +4,606 @@
       "chapter_number": 1,
       "topic": "The Barefoot Clerk",
       "file_path": "chapters/1/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "cb453864a3fef8d7a53151a1225b0b48bdc039d80035b5c51ff2ca35d9d1ef72",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 2,
       "topic": "The First Ledger",
       "file_path": "chapters/2/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "8b00656022bc8a447052837b02a83de4e5e746315032024285a773e08a9f3f54",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 3,
       "topic": "The Salt Road",
       "file_path": "chapters/3/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "06afcc1d04512071a849211a420c91e6effc1ee3f134ef8c5c94ad3c3ef340d8",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 4,
       "topic": "The Camel Caravan",
       "file_path": "chapters/4/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "f24db38df2020fa8d3debdc9dac4d740b7a0f9700541f16a1f6d947108323484",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 5,
       "topic": "The Cotton Bale",
       "file_path": "chapters/5/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "1cbd69a58fa5ce3e49fcb5fd2697d8d000d1c0a19d3bb3bb41e6e4ad4ff478f6",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 6,
       "topic": "The Opium Chest",
       "file_path": "chapters/6/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "3c46bc143a64c496696be2331034c705ab1e800648fc9c43f6255a19035fda26",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 7,
       "topic": "The First Profit",
       "file_path": "chapters/7/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "55419acbf99adb7e8760128208f23fc5c7630b97d70fb5779644fc761ae5ca30",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 8,
       "topic": "The Bought Plot",
       "file_path": "chapters/8/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "052635e4123d6c8135a7368830a2f53ad2601bdb983497051a918ee6e2ab386c",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 9,
       "topic": "The Foundation Stone",
       "file_path": "chapters/9/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "0b90d9620e29a54bfdebeb5b91b490feb306b8cd767a6f80b8fe1332cce2bf3c",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 10,
       "topic": "The First Prayer",
       "file_path": "chapters/10/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "fcd45d854f390b78f9092a3ca0e1965ab49379b85c5c785e55d8160a9da822d2",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 11,
       "topic": "The Painter's Arrival",
       "file_path": "chapters/11/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "54c843d7100e7e3b7476c0bf3cbb8d83c6680ed1e98a5bcfe5db86118334f720",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 12,
       "topic": "The Fresco of the Ramayana",
       "file_path": "chapters/12/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "4c41c2ba0ac4b217793e586ba55ae3d95558c5a0b97d5c4d28dff559b15d62a5",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 13,
       "topic": "The Fresco of the Mahabharata",
       "file_path": "chapters/13/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "943902b5b2d640f6be2ac968936b844ac6549e596cba172d0e79584db1579438",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 14,
       "topic": "The Train in the Wall",
       "file_path": "chapters/14/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "92a452357df19daa55566f81ccca9a984714acc6593c1724ac796f90ea38aa04",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 15,
       "topic": "The Motorcar and the Elephant",
       "file_path": "chapters/15/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "608c3ef9e005c9e7e8442f58b5118da7c3829fbc4ad26aa0dd0c80b06832bfcc",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 16,
       "topic": "The Jharokha",
       "file_path": "chapters/16/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "cc1e7e4258a555df34afd92e99508458d4c4c3b56ac3db1c3bc3d8b0bbac3cd4",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 17,
       "topic": "The Courtyard",
       "file_path": "chapters/17/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "8e75af1435821f3073f86f2a0f80ab2eb9f5606f013a8b0a270bbec2b9eeb013",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 18,
       "topic": "The Women's Quarters",
       "file_path": "chapters/18/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "892a060b0982dc7d98c3fd7f90cddd16d0f8774f37a3eb6f44ebde0b119d66e8",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 19,
       "topic": "The Temple Room",
       "file_path": "chapters/19/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "726656ac1e3ab7937c9f911d4bc87cf874e604cb5744c091f87d8ce3636f974a",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 20,
       "topic": "The Gold Thali",
       "file_path": "chapters/20/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "72abb8707ace269129b33fdd52f318403504fff75bda7677344413556c9e392a",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 21,
       "topic": "The Durbar",
       "file_path": "chapters/21/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "ddaa0351858129932f474c77c66b4c57226b766027b04222cb53ed2ead7057b5",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 22,
       "topic": "The Five Hundred Guests",
       "file_path": "chapters/22/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "c84339425c15a9216972e070c509138f8e305fd392d183ae28d1487b1e139a58",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 23,
       "topic": "The Elephant's Marble Stable",
       "file_path": "chapters/23/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "68f29ebcc0b98f3862e6660854bb378157fe1df87b8d4525459bd7b35d68e92c",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 24,
       "topic": "The Rose-Water Bath",
       "file_path": "chapters/24/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "6002f3170659b4a2a87a923684cd13df974da418c3deb3c918bce7a4e985151d",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 25,
       "topic": "The Silk and Silver",
       "file_path": "chapters/25/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "da52ae61cac348952c0a4efde83d1c29e3876bd389856da7530c4cfa67d675c7",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 26,
       "topic": "The Festival of Teej",
       "file_path": "chapters/26/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "94de2966e54dee0012639af46a2ba11bb1883761aea42265e177a7329c066e14",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 27,
       "topic": "The Wedding Season",
       "file_path": "chapters/27/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "0e8e6294b6e90184e8505acbfe9c155a8411484e117bc43ee694dd4d717f9531",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 28,
       "topic": "The Rival Merchant's Wall",
       "file_path": "chapters/28/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "0ee7f82bbb77c18e6a628c4476430ac6c5c3d286c29614e2483afaf93f6f85f8",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 29,
       "topic": "The Competition of Frescoes",
       "file_path": "chapters/29/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "6da4482cb44a77c14673fce16bde71324b840094979c81a6a7e703c88976c266",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 30,
       "topic": "The Name in Stone",
       "file_path": "chapters/30/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "b2a39dcaf3780bdc691b0a85ef599f13f7f6fc2d11daa2b723092bf56bf4facf",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 31,
       "topic": "The Artisan's Cracked Grain",
       "file_path": "chapters/31/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "3db379f515e493ff445257473120af8dba5c572d398198d89bb0da34f404f9d1",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 32,
       "topic": "The Mason's Thirst",
       "file_path": "chapters/32/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "c985bb32a41c0459e69f94acc034bd84b4fff00a94edb879e867860a4a52f1dc",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 33,
       "topic": "The Potter's Humiliation",
       "file_path": "chapters/33/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "48261f21a9689d52d5a2fff303ea2358f88bb93d3d9e47bbe746a9877024707d",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 34,
       "topic": "The Beggar's Coin",
       "file_path": "chapters/34/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "ff5b56cdfb73fd31c73e62864544fc76042b5865f289590bd5524e7995c06cdc",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 35,
       "topic": "The Widow's Wages",
       "file_path": "chapters/35/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "b211176c70339c8388055599c78f81c104c3ae8906b5390cafbbceb32332b88d",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 36,
       "topic": "The Servant Girl's Spilled Wine",
       "file_path": "chapters/36/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "e177ee42476935f1e5a6cfb819664dcaa0b757f781459369bb17eb0ee4391e07",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 37,
       "topic": "The Sleeping Staircase",
       "file_path": "chapters/37/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "4fc21c6c982dfe7c0e79193daadc78c0aa1254fa75a25ac6ccba283362acc622",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 38,
       "topic": "The Bazaar's Silence",
       "file_path": "chapters/38/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "41f13fc594a0b0c30864d12ff4b7aaebbc2d0e1f1697cea50de502cb9f9a0791",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 39,
       "topic": "The Ledger's Lie",
       "file_path": "chapters/39/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "ec6e3c51eb4e8b7b4f9d0cc1273fbf47657213a076384afdee98ec2825bcc01d",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 40,
       "topic": "The Unpaid Debt",
       "file_path": "chapters/40/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "e58f1eae775a225f40b2285ee7e9382d5afadbd3d452a62d5b30801bf55ad90f",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 41,
       "topic": "The Shifting Trade Route",
       "file_path": "chapters/41/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "c694a1266829b687fbbbbcb87d10d97a907ec9967ef2ae13d0c72880b74cf43b",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 42,
       "topic": "The Turning Fortune",
       "file_path": "chapters/42/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "86533d8538ab3cfee53d6c8f9a95fb8a0557533dcd66c328c488212c8769e524",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 43,
       "topic": "The Fleeing Partners",
       "file_path": "chapters/43/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "36ee616064a4e3608b13dc42e90fc893981f9d13b860fff17b3449c0c0380bcb",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 44,
       "topic": "The Stripped Silver",
       "file_path": "chapters/44/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "c39331d8329c3143f8284bec99e475f96960db82926933004cfa7e4bc54db434",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 45,
       "topic": "The Empty Courtyard",
       "file_path": "chapters/45/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "4cc35ca370e5ff2c77739dfe9f2338fae46d2c34b4c10e662f395ac581d5fd77",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 46,
       "topic": "The Locked Upper Room",
       "file_path": "chapters/46/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "c3969894ca31fdb4a58cc8f5c3b5b2aa22ed72c72e7802dea3e15589d0393fd6",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 47,
       "topic": "The Last Candle",
       "file_path": "chapters/47/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "f114a2ae9454b51ff861d8cd6934c50cf3f9416935cf063770cf9c27f57a2ed3",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 48,
       "topic": "The Death of Seth Gangaram",
       "file_path": "chapters/48/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "50a04077659c28bc1f1d3c5d85aed724ef8530fe5774fcdea7e3a1570b698e60",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 49,
       "topic": "The Unclaimed Body",
       "file_path": "chapters/49/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "ef6cad52e57970206f3d80ee8a89e373cf0e15700113951e9a62030a9a3d9299",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 50,
       "topic": "The Closed Door",
       "file_path": "chapters/50/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "8a0273a93fb8a3d255dd2d3eda5bfe31aab98c786b5fe65b32a419dbf25c1ccf",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 51,
       "topic": "The Unfinished Procession",
       "file_path": "chapters/51/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "cf0efc4e9bc5a948fbe82f5e98f5148b5a675c519ec2a11473f6fad7bd1eadcb",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 52,
       "topic": "The Gramophone's Waiting Hand",
       "file_path": "chapters/52/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "c1f0398fbb90577efcafda072bdf312c1da9555b06ac38b57a4a787ab93f788d",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 53,
       "topic": "The Stepping Gods",
       "file_path": "chapters/53/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "6c07d021185bbbc9415909480b88ed3e0b6ad11d83f4ab7b645d1ea5c046b145",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 54,
       "topic": "The Jharokha Wind",
       "file_path": "chapters/54/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "256f6968e37e74d847770b722ce4a1b8bcf0d2aa8f93024739ae64b76a855a2c",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 55,
       "topic": "The Scent of Ghee and Marigold",
       "file_path": "chapters/55/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "1328692798ac605337f127958d48407d8987ea832405f2889bf5b891946c9f4d",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 56,
       "topic": "The Resisting Pigment",
       "file_path": "chapters/56/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "a8e6d057752f2919da973807ebcca1bceac50eb35722db58492b62765268b083",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 57,
       "topic": "The Warm Fresco",
       "file_path": "chapters/57/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "810d6db73c8031c67ea8190c6dd1ffa9fc75c39529d2ef6f80af1743f6e3d26f",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 58,
       "topic": "The Dead Merchant's Lamplight",
       "file_path": "chapters/58/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "ddab39c0919802a95227c3ade39acad726ba5fcf86af5c78baafa50cd410f91f",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 59,
       "topic": "The Poor at the Locked Door",
       "file_path": "chapters/59/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "3a06d97cd2a1a2fc938a648da680ae2bdbc2354f8d4fee6e9a49065034551464",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     },
     {
       "chapter_number": 60,
       "topic": "The Reckoning That Never Came",
       "file_path": "chapters/60/chapter.md",
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false,
-      "status": "written",
-      "completed_date": null,
-      "published_sha256": "18e162f6f3ea361f8c7a091f337c740f67a2f0df1766e5e4741cc4ea3c7d1f0d",
-      "published_version": 7
+      "status": "pending",
+      "completed_date": null
     }
   ],
   "total_chapters": 60,
-  "written_chapters": 60,
+  "written_chapters": 0,
   "completed_chapters": 0,
   "published": false,
-  "current_chapter": null,
-  "published_version": 7,
-  "published_at": "2026-10-04T20:20:32.258225+00:00"
+  "current_chapter": 1
 }

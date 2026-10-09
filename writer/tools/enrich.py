@@ -693,14 +693,25 @@ def describe_additions(before, after):
     return ", ".join(added) if added else "nothing"
 
 
+def _flatten_markdown(value, title: str) -> str:
+    """Render a JSON value as readable Markdown via the shared flatten routine.
+
+    Reuses ``tools/flatten.py`` so the enrich prompt presents its inputs the same
+    human-readable way the writer's ``context.md`` does (headings, inline
+    scalars, bullet lists, "Item N" sub-sections) instead of raw JSON.
+    """
+    import flatten as flatten_module
+    return flatten_module.flatten_json_to_markdown(value, title=title)
+
+
 def build_prompt(book_context, chapter, neighbours, arc, pool, lens, twist, seed):
     return _render(
         ENRICH_USER_PROMPT_TEMPLATE,
-        book_context=json.dumps(book_context, ensure_ascii=False, indent=2),
-        arc=json.dumps(arc, ensure_ascii=False, indent=2),
-        neighbours=json.dumps(neighbours, ensure_ascii=False, indent=2),
-        pool=json.dumps(pool[:POOL_LIMIT], ensure_ascii=False, indent=2),
-        chapter=json.dumps(chapter, ensure_ascii=False, indent=2),
+        book_context=_flatten_markdown(book_context, "Book context"),
+        arc=_flatten_markdown(arc, "Book arc"),
+        neighbours=_flatten_markdown(neighbours, "Neighbouring chapters"),
+        pool=_flatten_markdown(pool[:POOL_LIMIT], "Suggestions already used"),
+        chapter=_flatten_markdown(chapter, "Chapter model"),
         seed=seed,
         lens_name=lens[0],
         lens_guidance=lens[1],

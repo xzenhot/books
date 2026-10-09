@@ -1,60 +1,13 @@
 {
   "chapter_index": 31,
   "name": "31",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Artisan's Cracked Grain",
   "chapter_summary": "The painter who made Gangaram immortal is paid in grain that will not keep his family through the winter. The poem turns from the splendor of the walls to the cracked grain below them, the first explicit naming of the cost.",
-  "further_references": [
-    {
-      "no": "1",
-      "reference": "Agricultural debt cycles in rural Rajasthan",
-      "weblink": ""
-    },
-    {
-      "no": "2",
-      "reference": "Pre-industrial food storage and grain spoilage methods",
-      "weblink": ""
-    }
-  ],
+  "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Focusing on the micro-transaction: Analyzing how a single sack of imperfect grain represents the entire systemic failure of delayed payment against immediate survival.",
-      "Shifting perspective entirely to the artisan's domestic life, divorced from the haveli; focusing solely on the coldness of his small village hut contrasting with the painted heat of Mandawa.",
-      "Treating the 'cracked grain' not as a poor commodity but as a specific metaphor for the cracked varnish or drying pigment that will inevitably fail on the wall later."
-    ],
-    "story_options": [
-      "Setting: A dusty, abandoned threshing floor outside the main settlement, desire: To watch the artisan attempt to sell a single measure of this substandard grain at an unfair price, obstacle: The local moneylender who knows his desperation.",
-      "Setting: Inside the artist's own small dwelling, desire: To have him examine one specific kernel under dim light, searching for some hidden inherent value or curative property that will save his family from famine/debt.",
-      "Setting: A nocturnal scene where the artisan walks past the great haveli wall, desire: To contrast the dazzling illusion of painted prosperity with the dull reality of the rough jute sack he carries home."
-    ],
-    "subject_rotations": [
-      "Shifting focus from 'cost' to 'time': The grain symbolizes an impossible temporal debt—a promise that stretches indefinitely into a harvest never coming.",
-      "Reframing the exchange not as commerce, but as ritual forfeiture: The artist surrenders his ability to provision his family in return for participation in Gangaram’s vision.",
-      "Treating the grain as historical artifact: What kind of heirloom or specific regional strain of millet/wheat is it, and what does its inability to sustain life say about changes in agricultural practice?"
-    ],
-    "sensory_details": [
-      "The sharp, metallic tang of sweat mixed with old dried earth on the artist’s skin.",
-      "The precise sound of a single, dry kernel cracking under immense pressure, like tiny artillery fire.",
-      "The tactile sensation of rough, sun-baked clay dust clinging stubbornly to the weave of his tunic."
-    ],
-    "research_questions": [
-      "What were the typical regional forms of grain exchange or debt repayment utilized by artisanal classes in Shekhawati during this period?",
-      "Are there specific local botanical records detailing strains of grain known for their resilience versus those prone to cracking under environmental stress?"
-    ],
-    "structural_variants": [
-      "A highly granular catalogue structure where each stanza names a different failed kernel, building a sonic landscape of scarcity.",
-      "An entirely flashback-driven sequence focusing only on the artisan's life *before* Gangaram offered him work."
-    ],
-    "variety_note": "This chapter pivots away from architectural grandeur and mercantile spectacle to focus intimately on the most vulnerable node in the supply chain: the sustenance of the laborer, grounding high art in low survival."
-  },
-  "draft": {
-    "sha256": "8fcd69693f9645477c13dac24651169cf343b827797689184b8c660d0070b143",
-    "written_at": "2026-10-06T11:50:25.954497+00:00",
-    "origin": "write"
-  }
+  ]
 }

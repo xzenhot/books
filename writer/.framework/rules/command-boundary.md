@@ -61,11 +61,14 @@ before the book plan exists), each agent falls back to its own default:
 
 | Agent / command | Default when `factory` is absent |
 |---|---|
-| `scaffold` | `offline` (structural — use the repository Python CLI) |
-| `publish` | `offline` (structural — use the repository Python CLI) |
+| `scaffold` | **Ask the user** to choose `offline` or `online` (do not default silently) |
+| `publish` | **Ask the user** to choose `offline` or `online` (do not default silently) |
 | All other agents, workflows, and skills | `online` (agentic — no Python) |
 
-A resolved `factory` field always overrides these per-agent defaults.
+A resolved `factory` field always overrides these per-agent defaults. When
+`scaffold` or `publish` finds neither an explicit `offline`/`online` argument
+nor a `factory` field, it must ask the user to choose before proceeding — it
+does not assume a default.
 
 ### Per-Invocation Mode Override
 

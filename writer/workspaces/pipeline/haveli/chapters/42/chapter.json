@@ -1,54 +1,13 @@
 {
   "chapter_index": 42,
   "name": "42",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Turning Fortune",
   "chapter_summary": "The opium and cotton fortunes reverse, the boom becoming a bust as the prices fall. The poem captures the vertigo of the reversal, the merchant watching the same ledger that made him now begin to unmake him.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "The fortune's collapse viewed entirely from the perspective of a highly skilled artisan—the painter or mason whose life's work is instantly devalued by market shift, not personal failure.",
-      "Framing the financial downturn as a kind of spiritual famine: How greed itself becomes indigestible when revenue stops flowing, turning wealth into toxic sludge within the haveli structure.",
-      "The epistemic crisis: The merchant loses confidence in his own memory and perception; does he start to doubt if the fortune ever existed at all?"
-    ],
-    "story_options": [
-      "Setting: Gangaram standing before a fresco wall, Desire: To recall the specific celebratory moment of its completion (the height of power), Obstacle: The light failing, casting deep shadow where the gold leaf once shone brightest, Turn: He begins to suspect the entire painting was never commissioned.",
-      "Setting: The vast, empty storage rooms where cotton bales are stacked, Desire: To find a single surviving shipping contract that proves the previous peak price, Obstacle: All contemporary documents have been burned or dissolved in dampness, Turn: He accepts the loss not as financial ruin, but as an irrecoverable narrative fracture.",
-      "Setting: A specific corner of the ledger room, late evening (transitional light), Desire: For a junior clerk to bring fresh lamp oil that might illuminate a crucial entry, Obstacle: The oil is nearly empty and cannot be bought with current holdings, Turn: Gangaram decides to count his wealth by touch alone—by feeling the weight of objects rather than reading their values."
-    ],
-    "subject_rotations": [
-      "Moving beyond monetary loss; focusing on the collapse of *social capital*—the network of favors and mutual obligations that supported the mansion.",
-      "Treating the 'turning' not as a sudden drop, but as a protracted, agonizing gravitational shift where momentum slowly dissipates until stillness becomes catastrophic.",
-      "The inverse narrative: Instead of showing how wealth is acquired through trade mastery, show how it was *held*—the delicate inertia that sustained such enormous, fragile structures."
-    ],
-    "sensory_details": [
-      "Sight: The specific way the intense afternoon sun catches the oxidation on brass fittings, making them dull green instead of bright gold.",
-      "Sound: The sound of dry plaster subtly shifting in the upper reaches of the haveli as internal humidity changes during a sudden drop in external trade demand.",
-      "Taste: The faint bitterness of cheap, watered-down tea consumed by Gangaram during his late-night accounting sessions."
-    ],
-    "research_questions": [
-      "What were common regional indicators or omens used by merchants to predict significant shifts in monsoon patterns or overland trade viability?",
-      "How did the social caste system influence who was privy to, and therefore influenced by, crucial market information? (Beyond Gangaram's immediate circle)",
-      "Are there specific material properties of traditional dyes/pigments that degrade visibly faster when exposure to inconsistent atmospheric conditions changes?"
-    ],
-    "structural_variants": [
-      "A rapid-fire sequence where one line describes the soaring height of past profits, immediately followed by a single line detailing the current meager cost of simple necessities.",
-      "Structuring the poem as an internal argument between Gangaram's memory (the high price) and objective reality (the low price), with each stanza representing a different argumentative tactic."
-    ],
-    "unused_angles": [
-      "Exploring the role of local religious figures or community leaders in signaling economic distress, independent of market reports.",
-      "A detailed examination of how one specific architectural element (e.g., a single carving on a lintel) functions as an unwitting barometer for financial health across decades."
-    ],
-    "variety_note": "Unlike the previous focus on calculation and debt documentation, this chapter centers on sensory disorientation—the physical sensation of economic vertigo experienced by the central figure."
-  },
-  "draft": {
-    "sha256": "0c0a3a8884bb68f8d86af9613a1183188d244e3ab4dea86ec54e90104165d0f9",
-    "written_at": "2026-10-06T11:53:02.743004+00:00",
-    "origin": "write"
-  }
+  ]
 }

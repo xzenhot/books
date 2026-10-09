@@ -1,53 +1,13 @@
 {
   "chapter_index": 40,
   "name": "40",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Unpaid Debt",
   "chapter_summary": "The sums owed were never entered anywhere but in the memory of the wronged. The poem gathers the invisible debts of the haveli — the wages, the grain, the dignity — into a single account the years will not settle.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Treating 'debt' not as monetary value but as a somatic accumulation—a physical strain felt by the laborer or artisan, like calcification in a joint.",
-      "Framing the unrecorded debt through linguistic precision: The precise vocabulary of need (thirst, coldness, exhaustion) versus the abstract jargon of commerce (interest, collateral).",
-      "The memory as an accounting ledger: How individual recollections of owed wages interact and compound to form a larger, irrefutable sum that exists outside any written record."
-    ],
-    "story_options": [
-      "setting: A neglected well in the haveli's shadow, desire: For one servant to retrieve a specific, forgotten token left there by a family member whose labor was never recognized., obstacle: The rope is frayed and snaps under the weight of what they are trying to pull out—a weight that should have been accounted for., turn: Instead of an object, it pulls up only thick, tangled roots, symbolizing unpayable obligation.",
-      "setting: Gangaram's deserted private counting room, desire: For a late-night shadow cast by the sputtering oil lamp to coalesce into the recognizable silhouette of a creditor or aggrieved party., obstacle: The light flickers violently, dissolving the shape before it can be fully perceived, reducing the spectral figure back to mere geometry., turn: The sound accompanying the flicker is not wind, but the dry rustling of unwritten promissory notes.",
-      "setting: A narrow alleyway outside the main haveli gate, desire: For a single mother to confront the overseer regarding her child’s education fund that was diverted into 'operational expenses'., obstacle: The overseer is not overtly malicious, but fatally bureaucratic, citing an obscure, pre-existing clause in the hiring contract., turn: She realizes the fine print wasn't written by Gangaram, but dictated by a city official centuries ago."
-    ],
-    "subject_rotations": [
-      "Shifting focus from the merchant's perspective of 'loss' to the recipient's experience of 'structural deprivation.'",
-      "Viewing debt not as interpersonal conflict, but as an ecological imbalance—how unreturned labor poisons the household soil or structure.",
-      "Treating the collective memory of unpaid wages as a form of slow-motion physical erosion on the haveli's stone foundations."
-    ],
-    "sensory_details": [
-      "The abrasive grit caught between clenched knuckles when holding a hand cupped in prayer/counting.",
-      "The metallic, coppery taste left on the tongue after enduring prolonged periods of hunger or worry.",
-      "The sudden chill felt radiating outward from a stack of untouched grain, despite the summer heat."
-    ],
-    "research_questions": [
-      "How did subsistence economies in Shekhawati traditionally account for non-monetary reciprocity (favors, shared labor) that wasn't recorded in ledgers?",
-      "What were common regional idioms or folklore surrounding 'unpaid promises' versus formal debt obligations?"
-    ],
-    "structural_variants": [
-      "A series of micro-vignettes, each representing a different type of unpaid burden (grain owed, time stolen, insult endured), linked by sound.",
-      "A sustained focus on one physical body part—perhaps the shoulder, perpetually bowed under invisible weight—acting as the central organizing metaphor across several stanzas."
-    ],
-    "variety_note": "This chapter must diverge from the grand narratives of profit/poverty and faded glory found in neighboring poems by focusing intensely inward onto the silent physics of unrecorded obligation.",
-    "unused_angles": [
-      "The bureaucratic machinery that enables or dismisses debt claims among marginalized workers.",
-      "How contemporary memory techniques (oral storytelling) function as a modern counter-ledger to historical financial records."
-    ]
-  },
-  "draft": {
-    "sha256": "fd121c87fec54441e2f4368d7892cad6dbddc2c257d9d91add100b6563329dff",
-    "written_at": "2026-10-06T11:52:34.301486+00:00",
-    "origin": "write"
-  }
+  ]
 }

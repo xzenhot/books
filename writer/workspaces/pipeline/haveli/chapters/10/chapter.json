@@ -1,53 +1,13 @@
 {
   "chapter_index": 10,
   "name": "10",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The First Prayer",
   "chapter_summary": "The merchant petitions that his name outlast his body, that the town will never forget him. The poem is the prayer whispered at the foundation, the bargain with eternity that will prove to be the ruin of everything he builds.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Focusing solely on the elemental chemistry of the materials involved in prayer/foundation: how lime mixes with local clay under specific temperature cycles.",
-      "Framing the prayer as a transaction rather than a supplication—a deliberate, cold bargaining chip laid at the threshold for future divine endorsement.",
-      "The voice of an absent witness (e.g., a long-dead water spirit or forgotten ancestral figure) observing Gangaram's arrogant invocation."
-    ],
-    "story_options": [
-      "setting: A low mound of raw, unprocessed red earth near the site, desire: Gangaram desires that this specific patch of ground remembers his ambition even when the stone crumbles., obstacle: The sun's oppressive heat drying the soil unevenly, causing cracks to prefigure future structural failure., turn: He pours a single measure of rainwater from an oxidized copper vessel, not for blessing, but as a controlled solvent.",
-      "setting: Just before sunset, casting long shadows over the partially cleared lot, desire: The clerk desires to imprint his personal mark—a specific calligraphic sign—into the settling dust., obstacle: A persistent local elder subtly discouraging the scale of his ambition, warning against arrogance directed towards spirits., turn: Gangaram ignores the warning and insists on inscribing a grand dedication before the shadows claim him.",
-      "setting: Inside the protective shadow cast by a single, ancient Banyan tree near the plot, desire: He desires an auditory confirmation of his coming glory—a ringing sound that supersedes the local cicadas., obstacle: The silence is too heavy, punctuated only by mundane desert sounds (wind through dry brush)., turn: Instead of divine assurance, he hears a faint, rhythmic clanking that seems to originate from inside the earth itself."
-    ],
-    "subject_rotations": [
-      "Treating 'eternity' not as spiritual promise but as material longevity—the hope that his stone will physically resist erosion for centuries.",
-      "Shifting focus entirely to the *language* of the prayer, examining the archaic or borrowed terminology used in petitioning versus modern commercial jargon.",
-      "Presenting the act of praying as an early form of branding: inscribing a desired permanence onto a piece of ephemeral ground."
-    ],
-    "sensory_details": [
-      "The fine, gritty abrasion of powdered quartz (used in pigments) against the calloused skin of his palm.",
-      "The sharp, mineral tang of damp river clay mixed with sacrificial offering smoke.",
-      "A deep, low hum vibrating up from the compacted earth during the ritual utterance."
-    ],
-    "research_questions": [
-      "What were common pre-Islamic or folk rituals associated with laying a foundation in Mandawa that involve petitions to local geological features?",
-      "How did ancient trade documents sometimes incorporate minor oaths or promises related to land use, serving as early forms of symbolic guarantees?"
-    ],
-    "structural_variants": [
-      "A strict inventory poem listing the required elements for the prayer (water, earth, incense, names) and noting their precise measurement.",
-      "The chapter structured around an imagined dialogue between Gangaram speaking to his own past/future self about this crucial vow."
-    ],
-    "unused_angles": [
-      "How the local political climate (the King's oversight) was acknowledged, or deliberately ignored, in this foundational act of personal ambition.",
-      "The economic cost embedded within the 'prayer'—how many artisans/servants were required just to perform the ritual correctly."
-    ],
-    "variety_note": "Unlike previous chapters focusing on raw commerce (ledger, plot), this chapter isolates the psychological and quasi-spiritual investment before capital is fully mobilized into permanent structures."
-  },
-  "draft": {
-    "sha256": "bfb0001762c5952fc565bb8c38a83403af12dd268a783b245a5517166cb264ee",
-    "written_at": "2026-10-06T11:45:50.230060+00:00",
-    "origin": "write"
-  }
+  ]
 }

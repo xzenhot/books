@@ -1,49 +1,13 @@
 {
   "chapter_index": 49,
   "name": "49",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Unclaimed Body",
   "chapter_summary": "The corpse waits, like the unpaid debts, for a hand that does not come. The poem rests on the body that outlived its fame, the merchant who spent his life ensuring he would be remembered, now lying unremembered.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "The body as a final piece of un-frescoesed art: Viewing the corpse not as failure, but as a static composition—a subject waiting for an artist who never arrives.",
-      "Auditory decay: Focusing on how sound fails to interact with rigor mortis; the way breath sounds cease utterly, leaving only trapped echoes within the structure of the body itself.",
-      "The administrative afterlife: Treating the corpse not as tragedy, but as a failure in bookkeeping—a final asset that cannot be cataloged or sold."
-    ],
-    "story_options": [
-      "setting: Near the low threshold of the upper room, desire: A single surviving relative attempting to affix one last symbolic item (like a specific family signet) to the body., obstacle: The stiffness and unnatural positioning of the corpse render any ritual gesture impossible or absurdly painful., turn: The focus shifts from the dead man to the object—the small, irreplaceable token that the deceased clutched.",
-      "setting: In the center of the chamber floor, desire: To feel a specific temperature gradient radiating off the body versus the surrounding cold stone., obstacle: The overwhelming sense of trapped air and dust prevents any clean tactile interaction with the remains or garments., turn: A sound from outside—a distant animal call, perhaps—is amplified by the unnatural stillness around the dead man.",
-      "setting: Beside a small table holding his ledger, desire: To see the final tally marked onto the page before death., obstacle: The ink has bled slightly into the paper due to a minor, forgotten dampness in the room., turn: The 'final entry' is not numerical but symbolic—a mark made by an insect or moisture."
-    ],
-    "subject_rotations": [
-      "Shifting from personal ruin (Gangaram) to institutional failure: The haveli/society failing in its duty of recognition and care.",
-      "Focusing on the *absence* of the living before the body; the silence created by the departure of all mourners, making the corpse an unwelcome fixture rather than a venerated one.",
-      "Treating death not as biological cessation but as a complete cancellation of all prior entries—the ledger page is physically erased."
-    ],
-    "sensory_details": [
-      "Sound: The abrasive friction sound made by minute particles of dust settling onto the coarse, unwashed fabric draped over the form.",
-      "Smell: The specific mineral scent emanating from aged stone that has absorbed and held human warmth for an extended period.",
-      "Touch: The unexpected slickness on a piece of high-status silk clothing clinging to the body, contrasting with the dry austerity of the surrounding floor."
-    ],
-    "research_questions": [
-      "What specific funerary customs regarding unclaimed or impoverished merchant deaths were common in Shekhawati during periods of economic collapse?",
-      "How did local dialectical phonetics render certain final spoken words (laments, names) into sounds that resist conventional recording?"
-    ],
-    "structural_variants": [
-      "A poem built entirely around recursive refrains, each repetition subtly modifying the image of the stillness.",
-      "Structuring the poem as a negative space narrative: describing what is missing (the pulse, the breath, the final shout) rather than depicting the physical state."
-    ],
-    "variety_note": "This chapter pivots away from the merchant's internal calculation and focuses entirely on the passive reception of his end by the environment itself, emphasizing stillness over accounting."
-  },
-  "draft": {
-    "sha256": "19361c9ec8afa6659cfa77381c1717fe071abe92e5a1f409b835e84cd7b7065e",
-    "written_at": "2026-10-06T11:54:41.385103+00:00",
-    "origin": "write"
-  }
+  ]
 }

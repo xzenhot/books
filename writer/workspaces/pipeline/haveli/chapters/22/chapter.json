@@ -1,50 +1,13 @@
 {
   "chapter_index": 22,
   "name": "22",
-  "word_target": 110,
+  "word_target": 500,
   "chapter_title": "The Five Hundred Guests",
   "chapter_summary": "The feast meant to fix Gangaram's name in every mouth in Mandawa is laid out on beaten gold. The poem counts the guests and the cost alike, the generosity that is really an advertisement of power.",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Shifting focus from Gangaram’s personal pride to the collective memory of the guests—what stories they bring with them before tasting the food.",
-      "Treating each guest as a momentary mirror reflecting a different aspect of Gangaram's fabricated power (a rival, a local priest, a junior clerk).",
-      "Examining the mechanics of presentation: How the sheer repetition of identical gold platters functions as a form of hypnotic, overwhelming visual language."
-    ],
-    "story_options": [
-      "Setting: The central eating area overflowing with polished brass and gold dishes; desire: A specific guest refuses to eat from one of the primary serving sets, obstacle: They point silently toward an empty space just outside the feast’s main circle.",
-      "Setting: Outside the high walls of the haveli, where attendants wait in shadowed courtyards; desire: A marginalized retainer watches the proceedings not for food or favor, but to log every slight imperfection in the display, obstacle: They cannot report it without risking being dismissed entirely.",
-      "Setting: The very edge of the receiving hall, near a massive cooling brazier used to maintain warmth; desire: One guest catches sight of something unusual—a reflection that shouldn't be there, perhaps movement behind the main façade—obstacle: The noise and spectacle drowns out any potential alarm."
-    ],
-    "subject_rotations": [
-      "Deconstructing 'Generosity': Viewing the feast not as giving abundance, but as a calculated form of economic hostage-taking, where refusal to partake implies social death.",
-      "The Typography of Plenty: Analyzing how visual repetition (hundreds of dishes) replaces narrative voice; the meal becomes a printed page filled with glorious, unreadable script.",
-      "Ephemeral Labor: Focusing solely on the precise timing required for the serving staff—the micro-management of heat, placement, and pace required to maintain this illusion."
-    ],
-    "sensory_details": [
-      "The subtle scent of crushed cardamom that has been warmed by repeated contact with hot metal (Smell).",
-      "The dry rasping sound made when linen napkins, starched stiffly for the occasion, are folded too sharply against a hard marble table (Sound).",
-      "The slick, almost oily sheen on the carved wooden implements used to serve—a residue from endless handling and polishing (Touch)."
-    ],
-    "research_questions": [
-      "What were the social conventions regarding dietary segregation or subtle signaling among elite guests at such large Marwari gatherings?",
-      "How did local Rajasthani customs differentiate between hospitality offered by a powerful merchant versus state-sanctioned patronage?",
-      "Were there specific regional colorations of spices used in high-status meals that served as non-verbal indicators of lineage or allegiance?"
-    ],
-    "structural_variants": [
-      "A strict cataloguing structure: A poem composed almost entirely of escalating lists (types of rice, types of metal, numbers of chairs), ending on a sudden, abrupt caesura.",
-      "Interleaving narrative and inventory: Every few lines shifts abruptly from describing the grand visual splendor back to the meticulous accounting notations Gangaram's clerks would have made for such an event."
-    ],
-    "variety_note": "Unlike previous chapters focusing on specific objects or trades, this piece centers entirely on a massive social mechanism—the performance of public consumption—highlighting its mechanical function over mere display."
-  },
-  "draft": {
-    "sha256": "b2b882f67b7a82918ba27031a0267611d59010222805e7be7b4c7605f109daa0",
-    "written_at": "2026-10-06T11:48:22.324194+00:00",
-    "origin": "write"
-  }
+  ]
 }
