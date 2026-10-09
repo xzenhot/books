@@ -1,0 +1,83 @@
+{
+  "chapter_index": 19,
+  "name": "19",
+  "word_target": 500,
+  "chapter_title": "The Temple Room",
+  "chapter_summary": "The household shrine is where devotion and display meet, the gods served and the wealth shown in the same gesture. The poem explores the thin line between worship and ostentation that runs through every haveli's sacred corner.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Hindu temple architecture in Rajasthan: specific iconography of household shrines (mandirs)",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The cultural intersection of wealth display and religious devotion in Rajput/Marwari households",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the deities not as divine figures, but as highly valued *possession*—objects whose lineage and material value are paralleled to Gangaram's accumulated wealth.",
+      "Focusing on the required upkeep ritual: The endless nature of purification, cleaning, painting, and re-dressing the idols, linking this maintenance labor directly to the household’s ongoing economic necessity.",
+      "The narrative device of 'misremembered scripture': Using fragmented verses or misunderstood epics recited in the shrine that twist sacred meaning into domestic gossip or veiled critique."
+    ],
+    "story_options": [
+      "Setting: The dimly lit temple room after a major festival; Desire: To find evidence that the idols were subtly *adjusted* overnight—a misplaced garland, a slightly different pot of vermilion—suggesting human interference rather than divine mystery.",
+      "Setting: A monsoon day where heavy dust forces all activity inside the shrine; Obstacle: The accumulated smoke and humidity cause specific pigments on the deities' robes or mounts to begin visibly flaking off, revealing what lies beneath (perhaps an older, different style).",
+      "Setting: Early morning, before any paying priest arrives; Turn: A young woman, tasked with preparing offerings, discovers a foreign object left among the ritual implements—a modern coin, a piece of unfamiliar metal, or non-local scent."
+    ],
+    "subject_rotations": [
+      "The material anthropology of devotion: Analyzing the specific metals used for idols (brass vs. silver plating) and how their perceived value dictated social standing.",
+      "Prayer as business negotiation: Imagining patrons or merchants using the temple space not strictly for worship, but to meet clients under a veneer of piety—a transaction disguised by ritual smoke.",
+      "The visual cataloguing of sacred items: Treating the paraphernalia (lamps, bells, silks) like an inventory list that chronicles the family’s spending power rather than their spiritual faith."
+    ],
+    "sensory_details": [
+      "Sight: The specific way beeswax candles melt unevenly across intricately carved stone bases, pooling wax onto colored marble.",
+      "Sound: The dry, high-pitched *clink* of multiple sets of brass keys—for temple doors, storage closets, and personal idols—being jangled together impatiently.",
+      "Smell: A clashing aroma: the heavy, sweet decay of sacrificial flowers mixed with the sharp, metallic tang of old incense resins like frankincense or camphor."
+    ],
+    "research_questions": [
+      "What were common household materials (local stones, paints) used for decorative altar elements versus consecrated religious art? Were there specific regional differences in temple ornamentation that betray trade links?",
+      "How did the practice of commissioning iconography change in direct response to periods of economic boom or collapse in Shekhawati's trading history?"
+    ],
+    "structural_variants": [
+      "Structuring the poem as a liturgical cycle, where each section mirrors a part of an actual Hindu rite (e.g., purification $\rightarrow$ invocation $\rightarrow$ offering $\rightarrow$ benediction).",
+      "Using direct address to the silent gods: Speaking *through* their painted forms to uncover hidden narratives about human failing or eternal continuity.",
+      "A collage structure, juxtaposing descriptions of lavish ritual goods with stark, utilitarian details of actual domestic necessity (e.g., a single broken water pot next to gold-leaf filigree)."
+    ],
+    "unused_angles": [
+      "The symbolism of the *absence* of certain deities—why are some gods represented in these specific mansions while others are omitted entirely?",
+      "A character portrait focusing on the aging, specialized ritual attendant whose knowledge is the 'real' treasure, more valuable than any artifact.",
+      "Exploring the idea of idols as emotional dumping grounds: Where family failures or unacknowledged sins might be ceremonially deposited before invoking blessings."
+    ],
+    "variety_note": "While neighbouring chapters focused on outward displays of wealth (Durbar, Thali), this chapter requires an inward turn to examine devotion itself—how sacred space becomes another quantifiable stage for expenditure and status projection."
+  },
+  "draft": {
+    "sha256": "e35b0d136f786f71cafe2d56e47ae5956e2279903ffadefd0a5192e8ef02d909",
+    "written_at": "2026-09-28T18:10:49.445501+00:00",
+    "origin": "write"
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "e35b0d136f786f71cafe2d56e47ae5956e2279903ffadefd0a5192e8ef02d909",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

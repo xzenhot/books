@@ -31,7 +31,7 @@ app = FastAPI(
     version="1.0.0",
     description=(
         "Promotes the latest writer-stage (or translator-stage) segments from "
-        "the pipeline to a new versioned folder under `source/books/<bookname>/` "
+        "the pipeline to a new versioned folder under `workspaces/published/<bookname>/` "
         "and assembles the consolidated `book.md`."
     ),
     docs_url="/docs",
@@ -112,7 +112,7 @@ def _pipeline_dir(bookname: str) -> str:
 
 
 def _src_dir(bookname: str) -> str:
-    return os.path.join(ROOT, "source", "books", bookname)
+    return os.path.join(ROOT, "workspaces", "published", bookname)
 
 
 def _chapter_dir(bookname: str, chapter: str | int) -> str:
@@ -160,7 +160,7 @@ def _resolve_chapter_identifier(plan: dict, chapter: str) -> str:
 def publish(bookname: str, language: Optional[str] = None) -> PublishResult:
     BOOK = bookname
     PIPE = os.path.join(ROOT, "workspaces", "pipeline", BOOK)
-    SRC = os.path.join(ROOT, "source", "books", BOOK)
+    SRC = os.path.join(ROOT, "workspaces", "published", BOOK)
 
     if not os.path.isdir(PIPE):
         raise HTTPException(
@@ -295,7 +295,7 @@ def health() -> dict:
 
 @app.get("/books/{bookname}/versions", response_model=list[str])
 def list_versions(bookname: str) -> list[str]:
-    SRC = os.path.join(ROOT, "source", "books", bookname)
+    SRC = os.path.join(ROOT, "workspaces", "published", bookname)
     if not os.path.isdir(SRC):
         raise HTTPException(
             status_code=404, detail=f"no source folder for '{bookname}'"

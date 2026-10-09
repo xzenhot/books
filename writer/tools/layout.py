@@ -8,7 +8,7 @@ Usage:
 
 Produces:
     workspaces/pipeline/book_<name>/   (folder tree + state files + planning artifacts)
-    source/books/book_<name>/      (empty destination for finished chapters)
+    workspaces/published/book_<name>/      (empty destination for finished chapters)
 
 The layout is static and deterministic: book -> chapters/<n> -> segments/<x>
 -> writer/editor/translator. Planning artifacts (book.json, characters.json,
@@ -29,7 +29,7 @@ FRAMEWORK = SCRIPT_DIR.parent                          # .framework/
 REPO_ROOT = FRAMEWORK.parent                           # novelist/
 TEMPLATE = FRAMEWORK / "templates" / "novel"
 PIPELINE_DIR = REPO_ROOT / "workspaces" / "pipeline"
-SOURCE_DIR = REPO_ROOT / "source" / "books"
+SOURCE_DIR = REPO_ROOT / "workspaces" / "published"
 
 # The ordered, prefixed pipeline filters. Each filter owns a folder under
 # filters/ and is recorded in book.json's "filters" array.

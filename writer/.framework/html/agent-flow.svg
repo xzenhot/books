@@ -46,8 +46,8 @@
 <rect x="35" y="975" width="890" height="145" rx="10" fill="#171a23" stroke="#2a2f3f"/>
 <text x="55" y="1005" class="phase">5 · Quality Gate and Publication</text>
 <text x="55" y="1036" class="agent">Required validation passes → publish agent copies and assembles</text>
-<text x="55" y="1067" class="output">write: source/books/&lt;bookname&gt;/&lt;number&gt;/</text>
-<text x="55" y="1095" class="note">publish: source/books/&lt;bookname&gt;/version&lt;k&gt;/</text>
+<text x="55" y="1067" class="output">write: workspaces/published/&lt;bookname&gt;/&lt;number&gt;/</text>
+<text x="55" y="1095" class="note">publish: workspaces/published/&lt;bookname&gt;/version&lt;k&gt;/</text>
 <text x="480" y="1180" text-anchor="middle" class="note">Filters snapshot model.json; they never read or modify chapter.md.</text>
 <text x="480" y="1208" text-anchor="middle" class="note">Agents invoke skills. Quality is required before any reader-facing promotion.</text>
 </svg>

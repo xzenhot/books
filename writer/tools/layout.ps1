@@ -6,7 +6,7 @@
 #
 # Produces:
 #   workspaces/pipeline/book_<name>/   (folder tree + state files + planning artifacts)
-#   source/books/book_<name>/      (empty destination for finished chapters)
+#   workspaces/published/book_<name>/      (empty destination for finished chapters)
 #
 # The layout is static and deterministic: book -> chapters/<n> -> segments/<x>
 # -> writer/editor/translator. Planning artifacts (book.json, characters.json,
@@ -33,7 +33,7 @@ $Framework   = Split-Path -Parent $ScriptDir            # .framework/
 $RepoRoot    = Split-Path -Parent $Framework            # novelist/
 $Template    = Join-Path $Framework "templates\novel"
 $PipelineDir = Join-Path $RepoRoot "workspaces\pipeline"
-$SourceDir   = Join-Path $RepoRoot "source\books"
+$SourceDir   = Join-Path $RepoRoot "workspaces\published"
 
 $BookDir     = Join-Path $PipelineDir "book_$BookName"
 $OutDir      = Join-Path $SourceDir   "book_$BookName"

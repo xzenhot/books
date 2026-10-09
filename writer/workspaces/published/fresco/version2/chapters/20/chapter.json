@@ -1,0 +1,68 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 80,
+  "chapter_title": "The Name Never Written",
+  "chapter_summary": "The closing poem resolves the sequence not with fame but with choice: the painter steps into the light once, names the struggle, then returns to the scaffold, and the question — whose name is never written — is left, finally, to the reader.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing exclusively on the chemical composition of the pigments chosen—ochre, azurite, earth-toned binders—as primary actors in a silent narrative.",
+      "The deliberate act of erasure or omission: how much is left unpainted, and what does that void communicate about the limits of expression?",
+      "A meditation on silence as the final, most potent material; treating the absence of voice as an active substance against which the written/painted word struggles."
+    ],
+    "story_options": [
+      "Setting: The painter's discarded water bucket at dawn (dull grey light), Desire: To whisper a single, precise chemical formula for one specific blue pigment to the empty space, Obstacle: The fear that the very articulation of its composition will render it mundane.",
+      "Setting: A tiny patch of unmisted plaster remaining on the wall (raw texture visible), Desire: To ask an imagined version of his youth—the hopeful apprentice who saw only beauty—why silence was necessary for endurance, Obstacle: The immediacy of remembering past failures that demand narrative resolution.",
+      "Setting: The painter's shadow cast against the finished fresco just before first light, Desire: To finally allow the *sound* of the struggle (a ragged breath, a dropped tool) to exist in the silence, Obstacle: Discovering that sound itself is merely another form of transient art that will be instantly consumed by morning."
+    ],
+    "subject_rotations": [
+      "Treating the finality not as an ending but as a state of pressurized potential—the tension held just before total structural surrender or complete, unreadable saturation.",
+      "Shifting perspective entirely to the *observer* who approaches later: they do not see the effort, but rather measure the sheer volume of what has been deliberately withheld from view (the invisible ink).",
+      "Examining the transition point where 'art' ceases and 'trace evidence' begins—where does pigment become residue, and memory becomes stain?"
+    ],
+    "sensory_details": [
+      "The abrasive texture of limestone dust scraped from a calloused fingertip at the moment of decision.",
+      "The specific metallic tang left in the throat after inhaling too deeply during a late-night mixing session.",
+      "The subtle, differential temperature gradient across the cool stone wall—the warmth retained by the night's work versus the cold penetrating dawn air."
+    ],
+    "research_questions": [
+      "What specific historical or ritualistic practices exist in Shekhawati pertaining to how a creator chooses not to affix their signature to a commissioned piece?",
+      "How did local chemists/naturalists categorize mineral pigments used in this region prior to industrial standardization, and are there localized terms for 'unmixed' materials?"
+    ],
+    "structural_variants": [
+      "A heavily fragmented monologue where every broken line represents a conscious omission, forcing the reader to reconstruct intent from white space.",
+      "Starting with an external description of morning light hitting the wall (a shift in palette), and only *then* turning inward to the painter's final internal calculus."
+    ],
+    "unused_angles": [
+      "An examination of how the regional concept of honor clashes with the necessity of anonymity in high craft.",
+      "A focus on tools as proxies for identity—the brush itself becoming a metaphor for necessary self-erasure."
+    ],
+    "variety_note": "While previous poems have focused on the visible elements of decay or duration, this chapter must pivot to the *intentional* negation, making silence and omission as crucial an element as any stroke of color."
+  },
+  "draft": {
+    "sha256": "92ee3ba35f1677420fe11f06323fc0a1b9c8f1d0c02d6e6061d69de09430bddc",
+    "written_at": "2026-10-04T19:43:05.739850+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "92ee3ba35f1677420fe11f06323fc0a1b9c8f1d0c02d6e6061d69de09430bddc",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T19:43:48+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

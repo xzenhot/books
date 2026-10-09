@@ -226,10 +226,10 @@
         <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/book.json</code></td><td><strong>The book plan.</strong> A complete clone of backlog <code>book.json</code>, preserved unchanged throughout scaffold and the master-prompt phase. Later explicit config or runtime operations may update it.</td></tr>
         <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/bookseed.txt</code></td><td><strong>The poetry index.</strong> One topic or term per line; each topic becomes one chapter.</td></tr>
         <tr><td><code>.framework/templates/stereotypes/&lt;form&gt;/</code></td><td><strong>The stereotype templates.</strong> Signatures, references, themes, qualities, and syntax samples for each form.</td></tr>
-        <tr><td><code>source/books/&lt;bookname&gt;/&lt;version&gt;/</code></td><td><strong>Verified output.</strong> Chapters and the consolidated book live inside a fresh version folder.</td></tr>
+        <tr><td><code>workspaces/published/&lt;bookname&gt;/&lt;version&gt;/</code></td><td><strong>Verified output.</strong> Chapters and the consolidated book live inside a fresh version folder.</td></tr>
       </tbody>
     </table>
-    <p>To write a new book: prepare the backlog with the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command and <code>init</code>, scaffold the pipeline under <code>workspaces/pipeline/</code>, run the filter chain (or <code>enrich</code>), and write finished output under <code>source/books/</code>. The workflow file stays subject-agnostic.</p>
+    <p>To write a new book: prepare the backlog with the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command and <code>init</code>, scaffold the pipeline under <code>workspaces/pipeline/</code>, run the filter chain (or <code>enrich</code>), and write finished output under <code>workspaces/published/</code>. The workflow file stays subject-agnostic.</p>
 
     <h2 id="agent-flow">Agent Flow</h2>
     <p>The diagram below shows the flow of agents through the workflow phases — from backlog preparation, through scaffolding and the filter chain, to writing and promotion.</p>
@@ -269,7 +269,7 @@
         <tr><td><code>&lt;bookname&gt; [&lt;gist&gt;] [form] [refresh]</code></td><td>Creates, updates, or rewrites the epic (recording the seed in <code>gist.md</code>) and develops it into a rich narrative foundation. If gist omitted, infers from book name. If <code>[form]</code> supplied, changes the book's form. Does <strong>not</strong> scaffold a pipeline. The former <code>gist</code> subcommand is merged into this command.</td></tr>
         <tr><td><code>init [&lt;gist&gt;] [&lt;count&gt;] [form] [refresh]</code> (aliases: <code>backlog</code>, <code>layout</code>)</td><td>Fully configures the backlog epic folder — <code>gist.md</code>, <code>storyline.md</code>, <code>book.json</code> — and derives the ordered filter chain plus the chapter-layout plan. With an unchanged gist, a larger count appends missing chapters. Refresh compares the gist before deciding which artifacts to regenerate. Must run before <code>scaffold</code>.</td></tr>
         <tr><td><code>scaffold &lt;gist&gt; count|chapter-count &lt;number&gt;</code></td><td>Creates or repairs <code>workspaces/pipeline/&lt;bookname&gt;/</code> through the scaffold agent (layout agent Phase 1 → layout skill → layout agent Phase 2), gated by the existence of <code>book.json</code>. Never creates or modifies <code>storyline.md</code>.</td></tr>
-        <tr><td><code>&lt;agentname&gt; &lt;chapter&gt;|&lt;n&gt;|all|continue</code></td><td>Runs any registered agent (<code>.framework/agents/&lt;agentname&gt;/agent.md</code>) against selected chapters in an existing pipeline. Does not promote output to <code>source/books/</code>.</td></tr>
+        <tr><td><code>&lt;agentname&gt; &lt;chapter&gt;|&lt;n&gt;|all|continue</code></td><td>Runs any registered agent (<code>.framework/agents/&lt;agentname&gt;/agent.md</code>) against selected chapters in an existing pipeline. Does not promote output to <code>workspaces/published/</code>.</td></tr>
         <tr><td><code>write &lt;n&gt;|all|continue</code></td><td>Writes selected chapters through the write agent, which routes to the poetry skill or novel skill by form. Preserves prior drafts and creates a fresh numeric output version after required validation.</td></tr>
         <tr><td><code>chapter</code> / <code>story</code></td><td>Aliases of <code>write</code> — write chapters through the write agent (→ poetry/novel skill by form).</td></tr>
         <tr><td><code>filter &lt;filter&gt; *|all|&lt;n&gt;</code></td><td>Runs a single named filter against a scope (<code>*</code>/<code>all</code> or one chapter <code>&lt;n&gt;</code>). Each filter is run separately, by name, in chain order.</td></tr>
@@ -284,7 +284,7 @@
         <tr><td><code>preview [&lt;language&gt;]</code></td><td>Assembles the same output as <code>publish</code> but skips the quality gate and review step — a draft preview for inspecting the full book as it stands.</td></tr>
         <tr><td><code>config [&lt;key&gt; [&lt;value&gt;]]</code></td><td>Gets or sets stereotype/model config such as <code>signature</code>, <code>reference</code>, <code>theme_set</code>, or <code>syntax</code>. Bare <code>config</code> prints the current configuration.</td></tr>
         <tr><td><code>add &lt;chapter-count&gt; filter &lt;filter&gt;</code></td><td>Adds more main chapters to an existing book pipeline, then runs the requested filter for the newly added chapters.</td></tr>
-        <tr><td><code>publish [&lt;language&gt;]</code></td><td>Promotes the latest writer-stage (or translator-stage) segments to a versioned <code>source/books/&lt;bookname&gt;/version&lt;k&gt;/</code> and assembles the consolidated book.</td></tr>
+        <tr><td><code>publish [&lt;language&gt;]</code></td><td>Promotes the latest writer-stage (or translator-stage) segments to a versioned <code>workspaces/published/&lt;bookname&gt;/version&lt;k&gt;/</code> and assembles the consolidated book.</td></tr>
         <tr><td><code>options</code></td><td>Lists available book pipelines and destinations.</td></tr>
         <tr><td><code>help</code></td><td>Shows command usage.</td></tr>
       </tbody>
@@ -476,14 +476,14 @@
     <h2 id="output-layout">Output and Publishing</h2>
     <p>Writing agents preserve an existing live draft before every replacement in <code>segments/&lt;x&gt;/version/chapter_v&lt;k&gt;.md</code>. A distinct writer-stage copy uses <code>writer_chapter_v&lt;k&gt;.md</code>. Verify the archive byte for byte before replacing the source; never overwrite an existing archive.</p>
     <p>Reader-facing output requires the validation gate. Each <code>write</code> invocation allocates a fresh numeric version:</p>
-    <pre><code>source/books/&lt;bookname&gt;/&lt;number&gt;/
+    <pre><code>workspaces/published/&lt;bookname&gt;/&lt;number&gt;/
 |-- book.md
 `-- chapters/
     |-- Introduction.md
     |-- 1.md ... N.md
     `-- Conclusion.md</code></pre>
     <p><code>/book &lt;bookname&gt; publish [&lt;language&gt;]</code> routes through the <a href="../agents/publish/agent.md">publish agent</a> and allocates a fresh <code>version&lt;k&gt;</code> folder. It copies existing segments and assembles them in canonical order; it does not run filters or author new text.</p>
-    <pre><code>source/books/&lt;bookname&gt;/version&lt;k&gt;/
+    <pre><code>workspaces/published/&lt;bookname&gt;/version&lt;k&gt;/
 |-- book.md                         # writer-stage publication
 |-- book_&lt;language&gt;.md              # translated publication
 `-- chapters/&lt;n&gt;/
@@ -494,7 +494,7 @@
     <p>Assembly opens with the book title and gist, appends chapters in canonical order with dividers, and includes Introduction and Conclusion for a complete novel. Poetry follows the configured topic order.</p>
 
     <h2 id="progress">Progress Tracking</h2>
-    <p>Always inspect pipeline <code>progress.json</code> and existing <code>source/books/&lt;bookname&gt;/&lt;version&gt;/</code> folders before writing. The agent resumes from existing state and never restarts from the beginning unless explicitly asked.</p>
+    <p>Always inspect pipeline <code>progress.json</code> and existing <code>workspaces/published/&lt;bookname&gt;/&lt;version&gt;/</code> folders before writing. The agent resumes from existing state and never restarts from the beginning unless explicitly asked.</p>
     <p>Use:</p>
     <ul>
       <li><code>/book &lt;bookname&gt; write continue</code> to resume at the next pending pipeline chapter in a fresh output version.</li>

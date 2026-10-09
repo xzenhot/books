@@ -87,7 +87,7 @@ Do not overwrite unrelated fields; merge the quality state into the existing mod
 ## Guardrails
 
 - Work only in the named pipeline and its chapter models.
-- Do not create or modify `source/books/`.
+- Do not create or modify `workspaces/published/`.
 - Do not run research, correctness, theme, syntax, or override.
 - The result must remain a poetry chapter; do not apply novel-only sections or voices.
 

@@ -67,7 +67,7 @@ The filter skill owns:
 The filter agent must not:
 
 - scaffold pipelines;
-- write finished chapters or promote output to `source/books/`;
+- write finished chapters or promote output to `workspaces/published/`;
 - read or overwrite `chapters/<n>/chapter.md` (workshop may create it only when absent);
 - run the `*` / `all` bulk form (each filter runs separately, by name, in order).
 

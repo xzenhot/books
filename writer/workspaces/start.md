@@ -9,7 +9,7 @@ This file is the **user-maintained default configuration**. It is read by all wo
 | `.framework/` | The engine (workflows, agents, skills, rules, templates). Read-only; updated from GitHub. **Do not edit.** |
 | `workspaces/` | The workspace. Projects live under `workspaces/backlog/`; working state under `workspaces/pipeline/`. |
 | `workspaces/context/` | Additional materials placed here for research and reference. Updated from GitHub. |
-| `source/books/` | Build output. All published, finalized work is placed here. |
+| `workspaces/published/` | Build output. All published, finalized work is placed here. |
 | `tools/` | Coding tools available to help you. |
 
 ---
@@ -46,7 +46,7 @@ This file is the **user-maintained default configuration**. It is read by all wo
 | Novel | `workshop → research → seeds → correctness → theme → syntax → override → quality` |
 | Poetry | `workshop → research → correctness → theme → syntax → override → quality` |
 
-- `quality` is the final gate; nothing is promoted to `source/books/` until it passes.
+- `quality` is the final gate; nothing is promoted to `workspaces/published/` until it passes.
 - Each filter has `autorun: true` by default; set `false` to skip it in `filter *` / `filter all`.
 
 ### Override

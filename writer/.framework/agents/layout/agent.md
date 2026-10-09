@@ -13,6 +13,22 @@ You are the **layout agent**. You run in two phases around the scaffold's layout
 
 You are not a user-facing slash command; you are invoked by the scaffold agent. You do not scaffold, run filters, or write chapters.
 
+## Execution Mode (offline | online)
+
+Layout work accepts an optional execution-mode token `offline` or `online`,
+carried through from the invoking command (`/book <bookname> layout <count>
+<form> [offline|online]`, or the scaffold agent's delegation). It is resolved in
+this order and must never be treated as a count, form, gist, or prose:
+
+1. The explicit `offline` or `online` token on the command, if present.
+2. The book plan's `factory` field (`workspaces/backlog/<bookname>/book.json`).
+3. Default to `online` — layout is agentic by default.
+
+| Mode | Behavior |
+|------|----------|
+| `offline` | **Display, don't execute.** Resolve the exact `python tools/book.py <bookname> layout ...` command, present it, and ask "go / don't go" before running. |
+| `online` | **Agentic — no Python.** The agent performs the layout itself through direct file reads/writes (rewrite `storyline.md`, derive `book.json`, seed `progress.json`); it never shells out to `python tools/book.py` for the layout loop. |
+
 ## Invocation
 
 This agent is invoked by the scaffold agent in two places:
@@ -94,7 +110,7 @@ This is the scaffold-time default: it tells the override agent that no transform
 - **Plain text only.** The output is a `.txt` file. No front-matter YAML, no scripts, no wrapper files.
 - **Default is "No transform required."** A plain scaffold writes `workspaces/pipeline/<bookname>/override.txt` containing exactly `No transform required.` — nothing else. Do not derive a full master prompt during a plain scaffold.
 - **Do not overwrite a human-edited file.** If `workspaces/pipeline/<bookname>/override.txt` already exists and contains content other than the default `No transform required.` line, do not overwrite it; report that it exists and leave it. Otherwise write the default.
-- **Do not scaffold or run filters.** This agent produces the master prompt only; it must not create folders, run filters, seed chapter content, or touch `source/books/`.
+- **Do not scaffold or run filters.** This agent produces the master prompt only; it must not create folders, run filters, seed chapter content, or touch `workspaces/published/`.
 
 ---
 
@@ -119,7 +135,7 @@ Phase 2 returns:
 - Do **not** create or modify `workspaces/pipeline/<bookname>/` files (except the Phase 2 `override.txt` output).
 - Do **not** create or modify `workspaces/backlog/<bookname>/` files.
 - Do **not** run any filter agent or skill.
-- Do **not** write to `source/books/`.
+- Do **not** write to `workspaces/published/`.
 - Do **not** update the pipeline `progress.json` (the scaffold agent copies the backlog progress plan; runtime progress is recomputed by `sync_progress`).
 - Do **not** write `chapter.md` or any chapter content. The workshop filter may create the initial draft only when `chapter.md` is absent; later revisions belong to the write/chapter/poet path. Other filters record guidance in `model.json` and their own outputs only.
 - The Phase 2 output file is `workspaces/pipeline/<bookname>/override.txt` — distinct from the novel-only `masterprompt.md` planning artifact and from the backlog `override.txt`.

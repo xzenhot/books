@@ -223,7 +223,7 @@ def get_chapter_content_by_version(
 
 @mcp.tool()
 def publish(book_name: str, language: Optional[str] = None) -> str:
-    """Publish a book to a new versioned folder under source/books/.
+    """Publish a book to a new versioned folder under workspaces/published/.
 
     Args:
         book_name: Logical book name.

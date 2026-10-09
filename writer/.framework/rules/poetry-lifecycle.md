@@ -17,7 +17,7 @@ conventions and over legacy writer-stage conventions.
    `sha256`, `reviewed_at`, and `reviewer`. Its hash must equal the current draft
    hash.
 5. **Write and style never create reader-facing output.** Publish is the only
-   operation that creates `source/books/<bookname>/versionN`.
+   operation that creates `workspaces/published/<bookname>/versionN`.
 6. **Publish requires every planned poem to have a nonempty registered current
    draft and a matching passed quality review.** It fails before version
    allocation when any poem is missing or stale. It does not create

@@ -20,7 +20,7 @@ These are **Phase 0 (Backlog)** and **Phase 1 (Init)** of the overall `/book` wo
 Every command in this workflow **must pass through** `.framework/rules/command-boundary.md` before executing. That rule is the authoritative boundary contract and applies to all commands, in all workflows, in both forms (novel and poetry).
 
 - Read `.framework/rules/command-boundary.md` first, and treat its backlog/pipeline boundary and sequence rules as binding on every command below.
-- This workflow owns **backlog commands only**. It must never cross into `workspaces/pipeline/<bookname>/` or `source/books/`.
+- This workflow owns **backlog commands only**. It must never cross into `workspaces/pipeline/<bookname>/` or `workspaces/published/`.
 - If a command would violate the boundary, stop and respond with the exact error form defined in that rule.
 
 ## Next Steps
@@ -42,7 +42,7 @@ workspaces/backlog/<bookname>/
 It must **never** create, read, or modify:
 
 - `workspaces/pipeline/<bookname>/` (the pipeline is scaffolded later by `pipeline.md`)
-- `source/books/` (reader-facing output)
+- `workspaces/published/` (reader-facing output)
 - any filter directory, chapter folder, or `model.json`
 
 The backlog is **metadata**; the pipeline is **execution state**. Commands here produce metadata only.
@@ -54,7 +54,7 @@ The backlog is **metadata**; the pipeline is **execution state**. Commands here 
 | `<bookname> init [<gist>] [form]` | Creates or edits **only `gist.md`** — the seed idea. Does **not** create `storyline.md` or `book.json`. Use `layout` to derive them, or `init ... refresh` to regenerate the full backlog. |
 | `<bookname> init ... refresh` | Full bootstrap: regenerates `gist.md`, `storyline.md`, and `book.json` from the premise (grounded in `materials/`). |
 | `<bookname> layout [<count>] [form]` | Rewrites `storyline.md` from `gist.md` plus any research materials in `materials/`, then derives `book.json` (the layout). An explicit `<count>` and `form` control the resulting plan. |
-| `<bookname> init idea` | Rewrites the book's gist with AI assistance — reads the existing `gist.md` (or the book name if absent), generates a stronger, more dramatically charged one-line premise, and writes it back to `gist.md` (updating its expansion to match). Never touches `storyline.md`, `book.json`, the pipeline, or `source/books/`. |
+| `<bookname> init idea` | Rewrites the book's gist with AI assistance — reads the existing `gist.md` (or the book name if absent), generates a stronger, more dramatically charged one-line premise, and writes it back to `gist.md` (updating its expansion to match). Never touches `storyline.md`, `book.json`, the pipeline, or `workspaces/published/`. |
 
 Every subcommand keyword is literal and unambiguous. `backlog` is a synonym of `init`. `idea` is a subcommand of `init`. `layout` is its own command — not an alias of `init`.
 

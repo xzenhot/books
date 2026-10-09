@@ -1,0 +1,65 @@
+{
+  "chapter_index": 21,
+  "name": "21",
+  "word_target": 110,
+  "chapter_title": "The Durbar",
+  "chapter_summary": "Silk and silver run like water in the great audience hall, and the merchant holds court like a minor king. The poem renders the durbar in its full splendor, the borrowed grandeur that will not survive the first shift in the trade winds.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the Durbar as a political theater: Instead of focusing on Gangaram's opulence, treat the audience members—the local nobility, rival traders, and minor officials—as active participants whose glances carry more weight than his pronouncements.",
+      "The ephemeral nature of patronage: Examining the moment just before a major transaction or agreement is sealed; the silence between the flourish of silks and the signing of the deed.",
+      "Architecture as projection: Analyzing how the physical dimensions of the audience hall (height, expanse) are consciously manipulated by Gangaram to project an illusory perpetuity that contradicts his actual vulnerability."
+    ],
+    "story_options": [
+      "Setting: The central dais overlooking the throng, desire: A specific, lesser nobleman desires a private acknowledgment from Gangaram that elevates his standing above rivals, obstacle: Gangaram must maintain absolute decorum and public indifference.",
+      "Setting: Near the richly decorated but structurally stressed outer wall of the Durbar hall, desire: One servant, responsible for managing the heavy draperies, yearns to see the actual dusty street outside without a curtain muffling it, obstacle: A high-ranking guest is making an entrance that requires all curtains to remain sealed.",
+      "Setting: At a small side alcove designated for petitioners/minor negotiators (separate from the main dais), desire: Gangaram’s accountant needs to subtly test the boundaries of his current financial agreement by presenting a deliberately inflated projection, obstacle: The master insists on an immediate, binding verbal commitment."
+    ],
+    "subject_rotations": [
+      "Focusing not on wealth display but on *knowledge* transfer—the secrets of textile trade patterns or specific distant market fluctuations whispered in the periphery.",
+      "Treating the assembly as a complex system of social negotiation: Analyzing the seating arrangements and gazes as codified, non-verbal economic contracts, rather than just spectacle.",
+      "A micro-history of *one* foreign element present (e.g., a specific type of imported glass or metal inlay) and how its presence legitimizes Gangaram’s access to global networks."
+    ],
+    "sensory_details": [
+      "The smell of old, heavily applied sandalwood paste mingling with the sharpness of fresh citrus used in welcoming drinks.",
+      "The distinct vibration felt through polished stone floors when a large procession passes directly outside the hall entrance.",
+      "The visual interference created by countless layered silks and fine jewelry catching dust motes suspended in the shafts of light."
+    ],
+    "research_questions": [
+      "How did traditional Rajasthani etiquette govern the physical distance maintained between merchants and nobility within official reception halls?",
+      "What were the common, highly specialized decorative motifs used on Marwari textiles that signified particular trade origins (e.g., specific weaves from Surat vs. Bombay)?",
+      "Can records indicate if certain types of guests/visitors in a haveli durbar had preferential seating arrangements based on their economic power rather than social rank?"
+    ],
+    "structural_variants": [
+      "A recursive structure: Begin with the grand opening shot, zoom into one secondary conversation occurring simultaneously across three different parts of the hall, and then return to the panoramic view.",
+      "Stanzaic counterpoint: Alternate stanzas describing the *external* movement (the coming/going crowds) against internal stagnation within the main chamber."
+    ],
+    "variety_note": "While previous chapters focused on accumulating wealth or documenting private domestic labor, this piece must focus on the public performance of power and alliance-building at a critical societal intersection point."
+  },
+  "draft": {
+    "sha256": "ddaa0351858129932f474c77c66b4c57226b766027b04222cb53ed2ead7057b5",
+    "written_at": "2026-10-04T20:13:21.102092+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "ddaa0351858129932f474c77c66b4c57226b766027b04222cb53ed2ead7057b5",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

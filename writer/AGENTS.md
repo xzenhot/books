@@ -70,7 +70,7 @@ Map it to repository paths as follows:
 <bookname>                       -> logical book name, e.g. wife
 workspaces/backlog/<bookname>/       -> backlog folder
 workspaces/pipeline/<bookname>/ -> pipeline folder
-source/books/<bookname>/<version>/ -> final versioned book output folder
+workspaces/published/<bookname>/<version>/ -> final versioned book output folder
 ```
 
 If the user supplies `book_wife` or a legacy `book_<bookname>` path, treat the canonical `<bookname>` as `wife` (strip the `book_` prefix) unless an existing path proves otherwise. Prefer existing repository paths over inference. The pipeline folder is named directly after the book: `workspaces/pipeline/<bookname>/`.
@@ -229,7 +229,7 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/workflows/pipeline.md  # scaffold onward — filters, write, style, translate, publish
 ```
 
-`backlog.md` owns Phase 0 (Backlog) and Phase 1 (Init): the bare bookname command and the init/backlog/layout command, operating only inside `workspaces/backlog/<bookname>/`. `pipeline.md` owns Phase 2 onward: scaffold, the filter chain, write, style, translate, enrich, form, config, add, and publish, operating only inside `workspaces/pipeline/<bookname>/` and `source/books/`.
+`backlog.md` owns Phase 0 (Backlog) and Phase 1 (Init): the bare bookname command and the init/backlog/layout command, operating only inside `workspaces/backlog/<bookname>/`. `pipeline.md` owns Phase 2 onward: scaffold, the filter chain, write, style, translate, enrich, form, config, add, and publish, operating only inside `workspaces/pipeline/<bookname>/` and `workspaces/published/`.
 
 ### Agents
 
@@ -336,7 +336,7 @@ workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
 workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
 ```
 
-Do not write unfinished drafts directly to `source/books/`.
+Do not write unfinished drafts directly to `workspaces/published/`.
 
 ### Chapter Draft Ownership
 
@@ -366,15 +366,15 @@ If no registry exists, follow `.framework/workflows/pipeline.md` and the current
 Verified, finalized text is promoted to:
 
 ```text
-source/books/<bookname>/<version>/chapters/
-source/books/<bookname>/<version>/book.md
+workspaces/published/<bookname>/<version>/chapters/
+workspaces/published/<bookname>/<version>/book.md
 ```
 
 Only promote text after the required validation filters have passed.
 
 ## Validation And Promotion Rules
 
-Before writing to `source/books/`, apply the pipeline filters in the order specified by `.framework/workflows/pipeline.md`.
+Before writing to `workspaces/published/`, apply the pipeline filters in the order specified by `.framework/workflows/pipeline.md`.
 
 For novels, the full validation chain is:
 
@@ -401,7 +401,7 @@ workshop -> research -> correctness -> theme -> syntax -> override -> quality
 - Maintain the configured authorial tone, signature, language, register, syntax sample, reference, and theme set.
 - Prefer existing framework agents, skills, templates, and rules over new abstractions.
 - Keep runtime outputs in `workspaces/pipeline/` until validation permits promotion.
-- Keep finished, reader-facing text in versioned folders under `source/books/<bookname>/<version>/` only.
+- Keep finished, reader-facing text in versioned folders under `workspaces/published/<bookname>/<version>/` only.
 
 ## Operating Procedure
 
@@ -410,12 +410,12 @@ For every `/book` request:
 1. Read this `AGENTS.md` file.
 2. Read the matching start-point spec — `.framework/workflows/backlog.md` for backlog creation (bare bookname, init/backlog/layout), `.framework/workflows/pipeline.md` for scaffold onward.
 3. Parse the target book, unit/chapter/segment, signature/persona, and stage/role from the user arguments.
-4. Inspect the relevant `workspaces/backlog/`, `workspaces/pipeline/`, and `source/books/` paths before writing.
+4. Inspect the relevant `workspaces/backlog/`, `workspaces/pipeline/`, and `workspaces/published/` paths before writing.
 5. Select the responsible agent from `.framework/agents/`.
 6. Let that agent invoke any required skill.
 7. Write intermediate outputs only to the pipeline; workshop may create an initial `chapters/<n>/chapter.md` only if absent. Other filters never read or write that file.
 8. Run the required filters and validations.
-9. Promote final text to `source/books/` only after validation passes.
+9. Promote final text to `workspaces/published/` only after validation passes.
 10. Report what changed, what was validated, and what remains pending.
 
 ### After structural changes to the framework

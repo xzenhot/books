@@ -63,7 +63,7 @@ def publish(bookname, draft=False):
     if not selected:
         raise ValueError("No publishable chapters found")
 
-    destination = Path(ROOT) / "source/books" / bookname
+    destination = Path(ROOT) / "workspaces/published" / bookname
     destination.mkdir(parents=True, exist_ok=True)
     # Build privately, then rename the complete directory into its immutable version.
     with tempfile.TemporaryDirectory(prefix=".publish-", dir=destination) as temporary:

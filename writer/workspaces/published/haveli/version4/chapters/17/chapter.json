@@ -1,0 +1,77 @@
+{
+  "chapter_index": 17,
+  "name": "17",
+  "word_target": 500,
+  "chapter_title": "The Courtyard",
+  "chapter_summary": "The open square of sky at the house's heart is where life gathers — cooking, washing, quarreling, celebrating. The poem holds the courtyard as the haveli's true center, the open space the painted walls are built around and could never fill.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Traditional courtyard architecture in Rajput palaces beyond Shekhawati",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "The social function of shared open space versus private domestic sphere in North Indian culture",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the courtyard as a stage for *unpainted* action: Focusing on the shadows, dust patterns, and seasonal growth (vines, weeds) that exist purely because the space is open to the elements.",
+      "The 'Axis of Exhaustion': Treating the courtyard not as a center of gathering, but as an enormous sink absorbing noise, spilled color, discarded objects, and collective fatigue over generations.",
+      "A conversation addressed to the *absence* of servants/workers: An imagined dialogue where Gangaram addresses the silent labor force that once animated this space—the laundresses, the cooks, the children who played here."
+    ],
+    "story_options": [
+      "Setting: The courtyard at midday during the oppressive height of summer; Desire: For a single, persistent sound—perhaps a lost toy or a single ringing anklet—to echo endlessly, suggesting an unresolved incident;",
+      "Setting: A ceremonial gathering meant for five hundred people (linking to Chapter 21); Obstacle: An unforeseen logistical failure—the water source runs dry, forcing everyone into uncomfortable proximity; Turn: The focus shifts from grand ritual display to mundane, immediate survival negotiation.",
+      "Setting: Twilight, just as the last sliver of visible activity fades behind the adjacent walls; Desire: For an artist (perhaps a young apprentice) to sneak out and paint *only* what is currently happening—a fugitive sketch capturing momentary truths rather than immortalizing grand scenes."
+    ],
+    "subject_rotations": [
+      "Shifting focus from human gathering/celebration to the relationship between domesticity and wilderness: How does the enclosed, man-made courtyard battle entropy and nature over time?",
+      "Treating the ground plane itself as a character: Analyzing the paving stones, uneven patches, accumulated dust, and stains not as background but as a record of countless footsteps and spilled life.",
+      "Examining the architectural function: If the surrounding rooms are about *containing* experience (a prayer, a meal), how does the courtyard’s lack of structure force uncontainable, messy reality?"
+    ],
+    "sensory_details": [
+      "Sound: The specific, high-pitched grating sound of metal washing implements dragged across stone that has been perpetually damp; (A persistent friction).",
+      "Smell: The mingled scent of stale cooking oil mixed with the sharp, mineral tang of rainwater hitting sun-baked courtyard earth.",
+      "Sight: The way intense sunlight casts sharp, geometric patterns through a specific gap in the overhead roofing structure or archway at midday."
+    ],
+    "research_questions": [
+      "What were common materials used for paving and flooring in Mandawa courtyards—were they local stone, fired brick, or polished concrete mix?"
+    ],
+    "structural_variants": [
+      "A poem structured as a series of increasingly fragmented recollections viewed from the same physical spot.",
+      "Using dramatic monologue form: The courtyard speaking directly to the passing decades and the decay surrounding it.",
+      "An episodic structure, dedicating stanzas to distinct domestic activities (e.g., washing clothes, boys playing tag, cooking smoke) in rapid succession."
+    ],
+    "variety_note": "While previous chapters focused on highly specific internal niches or grand processions, this chapter must embrace the *negative space*—the void and the transient activity of the open air that holds everything together but is itself undefined by frescoes."
+  },
+  "draft": {
+    "sha256": "d2921303dc11a50abb5e6ee70bbb930498524a225b82c32afba63d779cb0f78d",
+    "written_at": "2026-09-28T18:10:49.426185+00:00",
+    "origin": "write"
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "d2921303dc11a50abb5e6ee70bbb930498524a225b82c32afba63d779cb0f78d",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

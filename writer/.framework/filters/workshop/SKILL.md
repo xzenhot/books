@@ -68,7 +68,7 @@ The workshop agent must not:
 
 - read `chapter.md`;
 - overwrite an existing `chapter.md` or revise it after the initial workshop draft (the write/chapter/poet agents own later revisions);
-- write final output to source/books;
+- write final output to workspaces/published;
 - run any later filter;
 - write into segments/1/writer;
 - discard unrelated chapter-model fields;

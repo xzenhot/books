@@ -1,6 +1,6 @@
 ---
 name: layout-novel
-description: "Use when scaffolding or repairing the structural skeleton of a novel pipeline. Creates workspaces/pipeline/<bookname>/, root planning JSON/Markdown, named filter folders, chapter folders, segment folders, and the empty source/books destination. Does not write finished prose or runtime filter results."
+description: "Use when scaffolding or repairing the structural skeleton of a novel pipeline. Creates workspaces/pipeline/<bookname>/, root planning JSON/Markdown, named filter folders, chapter folders, segment folders, and the empty workspaces/published destination. Does not write finished prose or runtime filter results."
 ---
 
 # Layout Novel - Pipeline Scaffold
@@ -16,7 +16,7 @@ workspaces/pipeline/<bookname>/
 Finished content later lives at:
 
 ```text
-source/books/<bookname>/
+workspaces/published/<bookname>/
 ```
 
 ## Source Of Truth
@@ -296,7 +296,7 @@ Leave runtime content empty unless the active workflow explicitly runs that filt
 Create:
 
 ```text
-source/books/<bookname>/chapters/
+workspaces/published/<bookname>/chapters/
 ```
 
 Do not write finished chapters or `book.md` during layout.
@@ -310,4 +310,4 @@ Before reporting completion, verify:
 - Every chapter in `Introduction -> 1..N -> Conclusion` has `model.json`, `mood.json`, `chapter.md`, a `history/` folder, and `segments/1/model.json`.
 - Every `segments/1/` has `writer/`, `editor/`, `version/`, and `translator/` folders.
 - No chapter or segment folders were created outside the canonical paths.
-- `source/books/<bookname>/chapters/` exists and contains no unfinished generated prose unless a later workflow created it.
+- `workspaces/published/<bookname>/chapters/` exists and contains no unfinished generated prose unless a later workflow created it.

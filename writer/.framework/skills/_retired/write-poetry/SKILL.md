@@ -87,7 +87,7 @@ Do not add extra metadata, comments, or explanation outside the chapter text.
 - Do not run filters.
 - Do not consult the backlog `workspaces/backlog/<bookname>/override.md`; apply only the pipeline override command file `workspaces/pipeline/<bookname>/filters/override/filter.md`.
 - Do not write the chapter into `segments/1/writer/` — the output is `chapters/<n>/chapter.md` only. Prior copies are archived to `segments/1/version/`.
-- Do not write to `source/books/` — this skill produces the chapter in the pipeline only.
+- Do not write to `workspaces/published/` — this skill produces the chapter in the pipeline only.
 - Do not update `progress.json` — progress tracking is the writer workflow's responsibility.
 - Do not merge versions or decide which version is final.
 - Do not re-introduce section headings — the flatten rule is absolute.

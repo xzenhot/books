@@ -86,7 +86,7 @@ clause that broke.
 ### 7. Boundary and execution-mode
 
 - No backlog command's spec touches `workspaces/pipeline/<bookname>/` or
-  `source/books/`; no pipeline command writes `workspaces/backlog/<bookname>/`.
+  `workspaces/published/`; no pipeline command writes `workspaces/backlog/<bookname>/`.
 - The `factory` resolution (`.framework/rules/command-boundary.md`) is unambiguous:
   one search order, one per-agent default table, no two clauses that resolve a
   given command to different modes.

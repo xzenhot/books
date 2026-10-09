@@ -10,7 +10,7 @@ For `/book <bookname> eval all|*|<n>|<range>|continue`, evaluate whether the
 pipeline is complete enough to `write` and `publish`. This agent is **read-only**:
 it inspects state and reports a verdict; it never scaffolds, runs filters, writes
 chapters, mutates `chapter.json`/`chapter.md`, updates `progress.json`, or touches
-`source/books/`.
+`workspaces/published/`.
 
 ## Scope Selection
 
@@ -89,7 +89,7 @@ When `all`/`*` is evaluated, also state the book-level gate:
 
 ## Rules
 
-- Read-only. Never write to any pipeline or `source/books/` file.
+- Read-only. Never write to any pipeline or `workspaces/published/` file.
 - Never run filters, write, style, translate, or publish.
 - Never invent completeness: a chapter is complete only when every criterion
   above is satisfied by actual on-disk state.

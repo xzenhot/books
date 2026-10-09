@@ -117,7 +117,7 @@ which read this enrichment metadata and compose `chapter.md` accordingly.
    - `enrich` — an object recording the result: `{ active_filters: [...], status: "enriched" }`, where `active_filters` lists the fused filter names in order.
 
 `chapter.md` is **not** written here; it is written only later by the writing/authorship
-agents. Do not write to `source/books/`. Do not create per-filter files. Do not overwrite
+agents. Do not write to `workspaces/published/`. Do not create per-filter files. Do not overwrite
 unrelated `chapter.json` fields.
 
 ## Enrichment Prerequisite (for write/style)

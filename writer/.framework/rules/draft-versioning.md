@@ -35,6 +35,6 @@ continue`, not only the top-level write command.
    existed.
 
 These are pipeline draft versions, separate from the reader-facing versions under
-`source/books/`. They do not promote unfinished text or bypass validation. This
+`workspaces/published/`. They do not promote unfinished text or bypass validation. This
 rule explicitly authorizes a `version/` folder under each segment and takes
 precedence over less specific archive instructions in writing agents and skills.

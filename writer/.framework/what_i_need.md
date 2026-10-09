@@ -38,5 +38,5 @@ This is the *writing* stage. The blueprint from Part 1 becomes the actual book.
 5. **write** — the actual chapter/poem text is authored here (one chapter, or all), in the style from `book.json`.
 6. **quality** — after writing, the final check runs before a chapter is marked done.
 7. **translate** — optionally translate a chapter into another language. 
-8. **publish** — copy the finished chapters into the final book at `source/books/<bookname>/`.
+8. **publish** — copy the finished chapters into the final book at `workspaces/published/<bookname>/`.
 

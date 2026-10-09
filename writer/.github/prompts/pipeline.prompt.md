@@ -13,6 +13,6 @@ This workflow owns:
 - `style`, `translate`, `publish`, `preview`
 - `form`, `config`, `poet`/`poetry`/`poem`
 
-Operate only inside `.space/pipeline/<bookname>/` and `source/books/`. Route every skill-backed operation through an agent (`workflow → agent → skill`); never execute a skill directly.
+Operate only inside `.space/pipeline/<bookname>/` and `workspaces/published/`. Route every skill-backed operation through an agent (`workflow → agent → skill`); never execute a skill directly.
 
 Follow the command-boundary and next-steps rules as that workflow directs, and append the **Next Steps** section after every command.

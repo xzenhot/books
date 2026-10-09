@@ -53,7 +53,7 @@ Report the run summary on screen (do not write a `filter-summary.md` file). Incl
 ## Guardrails
 
 - Work only in the named pipeline, its chapter models, and the initial chapter-root draft when creating it for the first time.
-- Do not create or modify source/books.
+- Do not create or modify workspaces/published.
 - Do not run research, correctness, theme, syntax, override, or quality.
 - Do not place writer output in segments/1/writer; that is a later stage.
 - The result must remain a prose narrative with a continuous story.
