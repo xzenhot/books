@@ -25,7 +25,7 @@ python tools/book.py <bookname> <verb> [options...]
 | `scaffold` | Build pipeline folder structure from backlog book.json | `python tools/book.py <bookname> scaffold [count] [novel\|poetry]` |
 | `enrich` | Run enrich engine on selected chapters | `python tools/book.py <bookname> enrich [all\|1\|1-5\|continue]` |
 | `write` | Run chapter writer on selected chapters | `python tools/book.py <bookname> write [all\|1\|1-5\|continue]` |
-| `publish` | Promote pipeline segments to source/books/ | `python tools/book.py <bookname> publish` |
+| `publish` | Promote pipeline segments to workspaces/published/ | `python tools/book.py <bookname> publish` |
 | `preview` | Same as publish but skips quality gate/review (publish --draft) | `python tools/book.py <bookname> preview` |
 
 Common flags: `-t/--type poetry|novel` (form override, default poetry),

@@ -119,7 +119,7 @@ subject from poem to poem instead of repeating one:
 - Do not ignore the book's `storyline.md` — the document must be grounded in it,
   not a generic style dump.
 - Do not transform or rewrite any chapter (`chapter.md`).
-- Do not write to `segments/1/version/`, `segments/1/writer/`, or `source/books/`.
+- Do not write to `segments/1/version/`, `segments/1/writer/`, or `workspaces/published/`.
 - Do not run filters, enrich, or update `progress.json`.
 - Do not change `.framework/templates/stereotypes/poetry/styles/<style>/` while
   documenting it.

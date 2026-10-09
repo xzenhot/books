@@ -37,7 +37,7 @@ For every `/book [args...]` request, follow this procedure:
 
 ```text
 /book <bookname> init [<gist>] [form] [refresh]      # gist.md only; refresh → full bootstrap
-/book <bookname> layout [<count>] [form]              # rewrite storyline.md from gist + materials, then derive book.json
+/book <bookname> layout [<count>] [form] [offline|online]  # rewrite storyline.md from gist + materials, then derive book.json
 /book <bookname> init idea
 ```
 
@@ -71,13 +71,28 @@ For every `/book [args...]` request, follow this procedure:
 /book eval-judge [--completeness] [--effectiveness] [--book <bookname>] [--all]
 ```
 
+## Execution Mode
+
+`layout`, like `scaffold` and `publish`, accepts an optional trailing
+`offline` or `online` token that sets the execution mode for that single
+invocation:
+
+```text
+/book <bookname> layout <count> <form> offline   # display the CLI command, await "go / don't go"
+/book <bookname> layout <count> <form> online    # agentic — the agent does the work directly, no Python
+```
+
+When the token is omitted, the mode resolves from the book plan's `factory`
+field; when neither is present, `layout` defaults to `online`. This token must
+never be treated as a chapter count, form, gist, or prose.
+
 ## Command Reference
 
 | Command | Family | Owning workflow | What it does |
 |---------|--------|-----------------|--------------|
 | `<bookname>` (bare) | Backlog | `backlog.md` | Same as `init` — create/edit `gist.md`. No pipeline. |
 | `<bookname> init` / `backlog` | Backlog | `backlog.md` | Create/edit **`gist.md` only** (no `storyline.md`/`book.json`). With `refresh`, full bootstrap: `gist.md` + `storyline.md` + `book.json`, grounded in `materials/`. |
-| `<bookname> layout [<count>] [<form>]` | Backlog | `backlog.md` | Rewrite `storyline.md` from `gist.md` + `materials/`, then derive `book.json`. |
+| `<bookname> layout [<count>] [<form>] [offline\|online]` | Backlog | `backlog.md` | Rewrite `storyline.md` from `gist.md` + `materials/`, then derive `book.json`. The trailing `offline\|online` token sets the execution mode for that invocation (see *Execution Mode* below). |
 | `<bookname> init idea` | Backlog | `backlog.md` | Rewrite the gist with AI assistance. |
 | `<bookname> scaffold` | Pipeline | `pipeline.md` | Build/repair the pipeline tree from the backlog book plan. |
 | `<bookname> add ... filter` | Pipeline | `pipeline.md` | Add chapters and run one filter on the new chapters. |
@@ -92,17 +107,17 @@ For every `/book [args...]` request, follow this procedure:
 | `<bookname> story` | Pipeline | `pipeline.md` | Alias of `write` — write chapters via the write agent. |
 | `<bookname> style` | Pipeline | `pipeline.md` | Transform writer-stage chapters through a style template. |
 | `<bookname> translate` | Pipeline | `pipeline.md` | Translate latest writer-stage chapter versions. |
-| `<bookname> publish` | Pipeline | `pipeline.md` | Promote segments to `source/books/<bookname>/<version>/` and assemble `book.md`. |
+| `<bookname> publish` | Pipeline | `pipeline.md` | Promote segments to `workspaces/published/<bookname>/<version>/` and assemble `book.md`. |
 | `<bookname> form` | Pipeline | `pipeline.md` | Set/change the book's form. |
 | `<bookname> config` | Pipeline | `pipeline.md` | Get/set book-level config in `model.json`. |
 | `<bookname> poet` | Pipeline | `pipeline.md` | Produce a single finished poem (aliases: `poetry`, `poem`). |
-| `-o` / `--options` / `list` | Read-only | `pipeline.md` | List books across backlog, pipeline, and `source/books`. |
+| `-o` / `--options` / `list` | Read-only | `pipeline.md` | List books across backlog, pipeline, and `workspaces/published`. |
 | `-h` / `--help` | Read-only | `pipeline.md` | Show usage and phase overview. |
 | `eval-judge` | Read-only | `eval-judge.md` | Test framework completeness (via `self-eval`) and effectiveness (routing, boundary, lifecycle). |
 
 ## Delegation Rules
 
 - This registry never executes skill-backed work directly. Each owning workflow routes through its agents (`.framework/agents/<agent>/agent.md`), which may then read skills (`.framework/skills/<skill>/SKILL.md`).
-- Backlog commands operate only inside `workspaces/backlog/<bookname>/`. Pipeline commands operate only inside `workspaces/pipeline/<bookname>/` and `source/books/`.
+- Backlog commands operate only inside `workspaces/backlog/<bookname>/`. Pipeline commands operate only inside `workspaces/pipeline/<bookname>/` and `workspaces/published/`.
 - Do not invent alternate slash commands. Do not treat subcommand keywords as book names, chapter names, filters, or prose.
 - Every command — including read-only ones — must end with the **Next Steps** section per `.framework/rules/next-steps.md`.

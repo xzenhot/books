@@ -170,8 +170,8 @@ def verify(bookname: str) -> int:
                 if not str(item.get("category", "")).strip():
                     notes.append(f"progress.json chapter {item.get('chapter_number')} has an empty category")
 
-    if os.path.isdir(os.path.join(ROOT, "source", "books", bookname)):
-        notes.append("source/books/<bookname> exists (scaffold must not create it)")
+    if os.path.isdir(os.path.join(ROOT, "workspaces", "published", bookname)):
+        notes.append("workspaces/published/<bookname> exists (scaffold must not create it)")
 
     print(f"book: {bookname} | form: {form} | chapters: {len(chapters)}")
     print(f"filter chain: {' -> '.join(chain)}")

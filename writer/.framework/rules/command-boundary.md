@@ -119,7 +119,7 @@ The backlog commands are:
 ### Invariants
 
 - A backlog command must **never** create, read, or modify any file under `workspaces/pipeline/<bookname>/`.
-- A backlog command must **never** create, read, or modify any file under `source/books/<bookname>/`.
+- A backlog command must **never** create, read, or modify any file under `workspaces/published/<bookname>/`.
 - If a pipeline already exists, backlog commands must leave it untouched.
 - If `init` produces a filter chain, it must write the result to `workspaces/backlog/<bookname>/book.json` (the `filter_chain` field), not to `workspaces/pipeline/<bookname>/filters/filters.json`.
 
@@ -129,7 +129,7 @@ These commands operate only on the pipeline and the final output folder:
 
 ```text
 workspaces/pipeline/<bookname>/
-source/books/<bookname>/
+workspaces/published/<bookname>/
 ```
 
 The pipeline commands are:
@@ -155,7 +155,7 @@ The pipeline commands are:
 1. `init` must complete before `scaffold`.
 2. `scaffold` must complete before any agent, filter, form change, chapter command, or add command.
 3. `filter all` or equivalent upstream filters should complete before `chapter` commands.
-4. `write all` or `write continue` should complete before final promotion to `source/books/<bookname>/book.md`.
+4. `write all` or `write continue` should complete before final promotion to `workspaces/published/<bookname>/book.md`.
 
 ## Error messages
 

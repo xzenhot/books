@@ -108,7 +108,7 @@ The write agent must not:
 
 - write chapter content directly;
 - scaffold pipelines or run filters directly; delegate only the missing-chapter prerequisite to the enrich agent;
-- write to `source/books/`;
+- write to `workspaces/published/`;
 - write the chapter into `segments/1/writer/` — the live draft lives only at `chapters/<n>/chapter.md`; prior copies are archived to `segments/1/version/`;
 - update `progress.json`;
 - re-introduce section headings (the flatten rule is absolute);

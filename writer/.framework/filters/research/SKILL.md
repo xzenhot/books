@@ -80,7 +80,7 @@ The scaffold agent's chapter layout contract governs research-stage preparation.
 - chapters/<n>/chapter.md is the live working draft owned by the writing path; research never reads or rewrites it — no archive is needed because research does not modify it.
 - Do not place refined drafts in segments/<x>/writer; writer-stage copies belong later.
 - Keep editorial notes in segments/<x>/editor and translations in segments/<x>/translator only.
-- Do not write to source/books during research.
+- Do not write to workspaces/published during research.
 ## The Refinement Method
 
 Refinement is not rewriting from scratch. It is **preparing the elevation** of what will be authored. For each chapter:

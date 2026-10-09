@@ -15,7 +15,7 @@ Every finished chapter is **flat, continuous prose** — never sectioned. Do not
 
 1. Write the chapter as flat, continuous prose — no section headings.
 2. Weave the modern frame, the historical narrative, and the characters' response into one unbroken flow.
-3. Write the finished chapter to `source/books/<bookname>/`.
+3. Write the finished chapter to `workspaces/published/<bookname>/`.
 
 ## Batch Writing (Long Stories)
 
@@ -48,7 +48,7 @@ End every chapter with a **running summary** or thread that connects to the next
 
 ## File Mapping
 
-| Source (`workshop_minutes/`) | Destination (`source/books/<bookname>/`) |
+| Source (`workshop_minutes/`) | Destination (`workspaces/published/<bookname>/`) |
 | --- | --- |
 | `Introduction.md` | `Introduction.md` (always first) |
 | `1.md` … `N.md` | `1.md` … `N.md` |

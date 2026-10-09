@@ -3,7 +3,7 @@
 Reusable publish tool.
 
 Promotes the latest writer-stage (or translator-stage) segments from the
-pipeline to a new versioned folder under `source/books/<bookname>/` and
+pipeline to a new versioned folder under `workspaces/published/<bookname>/` and
 assembles the consolidated `book.md`.
 
 Usage:
@@ -24,7 +24,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..")
 def publish(bookname: str, language: str | None = None) -> None:
     BOOK = bookname
     PIPE = os.path.join(ROOT, "workspaces", "pipeline", BOOK)
-    SRC = os.path.join(ROOT, "source", "books", BOOK)
+    SRC = os.path.join(ROOT, "workspaces", "published", BOOK)
 
     if not os.path.isdir(PIPE):
         sys.exit(f"ERROR: pipeline missing for '{BOOK}'. Run scaffold first.")

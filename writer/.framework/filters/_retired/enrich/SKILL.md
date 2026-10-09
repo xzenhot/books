@@ -70,7 +70,7 @@ Run the fused instruction set over the chapter. The end product is a single enri
    - `state` — set to `"enriched"`.
    - `enrich` — an object recording the result: `{ active_filters: [...], status: "enriched" }`, where `active_filters` lists the fused filter names in order.
 
-`chapter.md` is **not** written here; it is written only later by the writing/authorship agents. Do not write to `source/books/`. Do not create per-filter files. Do not overwrite unrelated `model.json` fields.
+`chapter.md` is **not** written here; it is written only later by the writing/authorship agents. Do not write to `workspaces/published/`. Do not create per-filter files. Do not overwrite unrelated `model.json` fields.
 
 ## Report
 

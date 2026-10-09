@@ -147,7 +147,7 @@ When the caller supplies refresh, first compare the canonical one-line gist in g
 1. **Unchanged gist: book.json only.** If the canonical gist is unchanged, do not write, re-groom, or regenerate gist.md or storyline.md. Read them as source context and update only book.json: preserve the existing chapter count and plan unless an explicit count or form change requires reconciliation, refresh the chapter_summary values as simple varied form-neutral seeds, and preserve the filter chain and word targets unless the form changes.
 2. **Changed gist: rebuild the dependent backlog.** If the canonical gist differs, update gist.md, re-groom or regenerate storyline.md from the changed premise, and rebuild the affected book.json plan. Preserve the original Created timestamp in storyline.md and update Updated and Updated By.
 3. **Missing gist or epic.** If either source artifact is missing, create or repair the missing artifact through the normal init path before writing book.json.
-4. **No pipeline work.** Never touch workspaces/pipeline/<bookname>/ or source/books/ during refresh.
+4. **No pipeline work.** Never touch workspaces/pipeline/<bookname>/ or workspaces/published/ during refresh.
 5. **Report the branch taken.** State whether the gist was unchanged or changed, which artifacts were written, and the chapter count and summary range updated.
 
 ## The Incremental Count Rule

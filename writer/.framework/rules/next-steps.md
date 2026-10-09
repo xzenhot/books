@@ -39,13 +39,13 @@ Use this table to choose the recommended follow-up command. Remember the boundar
 | `/book <bookname> style [<style>]` | New writer-stage version created under `segments/1/writer/` | `/book <bookname> write <n>\|all` (to promote) or `/book <bookname> publish` | `/book <bookname> translate <n> <language>` |
 | `/book <bookname> translate <n>\|all\|continue <language>` | Translated derivative written to `segments/1/translator/` | `/book <bookname> publish <language>` | `/book <bookname> write continue` |
 | `/book <bookname> poet\|poetry\|poem` | A single finished poem produced | `/book <bookname> filter quality` | `/book <bookname> publish` |
-| `/book <bookname> filter quality` | Quality gate passed or recorded | `/book <bookname> publish [<language>]` | Review `source/books/<bookname>/chapters/` |
-| `/book <bookname> review *|all|<n>` | Quality audit passed; all chapter models have `quality_review` and `state: "completed"` | `/book <bookname> humanize *|all|<n>` | Review `source/books/<bookname>/chapters/` |
-| `/book <bookname> humanize *|all|<n>` | Chapter drafts humanized to target language only; all foreign characters replaced | `/book <bookname> publish [<language>]` | Review `source/books/<bookname>/version<k>/` |
+| `/book <bookname> filter quality` | Quality gate passed or recorded | `/book <bookname> publish [<language>]` | Review `workspaces/published/<bookname>/chapters/` |
+| `/book <bookname> review *|all|<n>` | Quality audit passed; all chapter models have `quality_review` and `state: "completed"` | `/book <bookname> humanize *|all|<n>` | Review `workspaces/published/<bookname>/chapters/` |
+| `/book <bookname> humanize *|all|<n>` | Chapter drafts humanized to target language only; all foreign characters replaced | `/book <bookname> publish [<language>]` | Review `workspaces/published/<bookname>/version<k>/` |
 | `/book <bookname> add <chapter-count> filter <filter>` | New chapters added; filter run on new chapters | `/book <bookname> write continue` | `/book <bookname> enrich *` |
 | `/book <bookname> form <formname>` | Form changed in `model.json` | `/book <bookname> scaffold` (if structure needs rebuilding) | `/book <bookname> config` |
 | `/book <bookname> config [<key> [<value>]]` | Configuration inspected or updated | `/book <bookname> write all` | `/book <bookname> enrich *` |
-| `/book <bookname> publish [<language>]` | Versioned output promoted to `source/books/<bookname>/version<k>/` | Review `source/books/<bookname>/version<k>/book.md` | Start a new book: `/book <bookname>` |
+| `/book <bookname> publish [<language>]` | Versioned output promoted to `workspaces/published/<bookname>/version<k>/` | Review `workspaces/published/<bookname>/version<k>/book.md` | Start a new book: `/book <bookname>` |
 | `/book -o` / `--options` / `list` | Read-only list displayed | Choose any book and run its next logical command | `/book <bookname> write continue` |
 | `/book -h` / `--help` | Help displayed | Choose a `/book` command to run | — |
 

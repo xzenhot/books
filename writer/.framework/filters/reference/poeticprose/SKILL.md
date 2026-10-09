@@ -77,4 +77,4 @@ Plus the **subject-specific lexicon** from the book's `config.json` (`sacred_voc
 
 ## Output
 
-Each chapter is 500–800 words of flat, continuous poetic prose — no section headings. Write to `source/books/<bookname>/chapters/Chapter_XXX_[term].md` and append to `book.md`.
+Each chapter is 500–800 words of flat, continuous poetic prose — no section headings. Write to `workspaces/published/<bookname>/chapters/Chapter_XXX_[term].md` and append to `book.md`.

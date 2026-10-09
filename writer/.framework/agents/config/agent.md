@@ -55,7 +55,7 @@ The config agent must:
 
 1. **Stop if no `book.json` exists** — report the missing book plan; do not create one.
 2. **Never hand-edit `book.json`** — route all edits through `tools/config.py`.
-3. **Never modify the backlog `storyline.md`, chapter drafts, or `source/books/`** — this command edits `book.json` metadata only.
+3. **Never modify the backlog `storyline.md`, chapter drafts, or `workspaces/published/`** — this command edits `book.json` metadata only.
 4. **Never run filters, writers, or publish** — this command changes plan attributes only.
 
 ## Next Steps

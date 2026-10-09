@@ -9,7 +9,7 @@ A multi-agent literary engine for writing **poetry** and **novels** in a configu
 The system is split into two layers:
 
 - **`.framework/`** — the agents (workflows, role agents, skills) that do the work.
-- **`workspaces/`** and **`source/`** — the data: inputs (backlog, pipeline) and outputs (finished, versioned books).
+- **`workspaces/`** — the data: inputs (backlog, pipeline) and outputs (finished, versioned books under `workspaces/published/`).
 
 ---
 
@@ -26,7 +26,7 @@ writer/
 ├── workspaces/                  # inputs & working state
 │   ├── backlog/<book>/     # gist.md, storyline.md, book.json (the book plan)
 │   └── pipeline/<book>/     # model.json, bookseed.txt, progress.json, filters/, chapters/
-├── source/books/<book>/     # finished, versioned output
+├── workspaces/published/<book>/     # finished, versioned output
 ├── AGENTS.md                # runtime steering for autonomous coding agents
 ├── LICENSE
 └── README.md
@@ -55,7 +55,7 @@ writer/
 /book <bookname> style [<style>]                                    # transform writer-stage chapters
 /book <bookname> translate <n>|all|continue <language>              # translate writer-stage chapters
 /book <bookname> poet|poetry|poem                                   # produce a single finished poem
-/book <bookname> publish [<language>]                               # promote segments to source/books
+/book <bookname> publish [<language>]                               # promote segments to workspaces/published
 /book <bookname> preview [<language>]                               # draft preview (skips quality gate)
 /book <bookname> form <formname>                                    # set/change the book's form
 /book <bookname> config [<key> [<value>]]                           # get/set book config
@@ -72,8 +72,8 @@ writer/
 /book <bookname> init     →  book.json (chapter plan + filter chain)
 /book <bookname> scaffold →  workspaces/pipeline/<bookname>/ (structure)
 /book <bookname> filter * →  run the filter chain (or enrich)
-/book <bookname> write    →  source/books/<bookname>/<version>/
-/book <bookname> publish  →  source/books/<bookname>/version<k>/
+/book <bookname> write    →  workspaces/published/<bookname>/<version>/
+/book <bookname> publish  →  workspaces/published/<bookname>/version<k>/
 ```
 
 ---
@@ -119,7 +119,7 @@ Each filter is a skill under `.framework/filters/<filter>/SKILL.md`, reached thr
 | `eval` | Read-only pipeline-completeness evaluator. |
 | `style` | Transform writer-stage chapters through a style template. |
 | `translate` | Translate writer-stage chapters. |
-| `publish` | Promote segments to `source/books/` and assemble the book. |
+| `publish` | Promote segments to `workspaces/published/` and assemble the book. |
 
 Filter skills (`.framework/filters/`): `workshop`, `research`, `seeds`, `correctness`, `theme`, `syntax`, `override`, `quality`.
 
@@ -154,7 +154,7 @@ Reference filters live under `.framework/filters/reference/` (`poeticprose`, `na
 | `workspaces/backlog/<book>/` | `gist.md`, `storyline.md`, `book.json` (the book plan) |
 | `workspaces/pipeline/<book>/` | `model.json`, `bookseed.txt`, `progress.json`, `filters/`, `chapters/` |
 | `workspaces/pipeline/<book>/chapters/<n>/` | `chapter.md` (live draft), `model.json`, `history/`, `segments/1/{writer,editor,translator}/` |
-| `source/books/<book>/<version>/` | finished, versioned reader-facing output |
+| `workspaces/published/<book>/<version>/` | finished, versioned reader-facing output |
 
 ---
 
@@ -167,7 +167,7 @@ Reference filters live under `.framework/filters/reference/` (`poeticprose`, `na
 /book behula enrich                                    # fuse active filters into one pass
 /book behula write                                     # write finished chapters
 /book behula translate bengali                         # translate to Bengali
-/book behula publish bengali                           # promote to source/books
+/book behula publish bengali                           # promote to workspaces/published
 ```
 
 See `AGENTS.md` for the runtime steering contract and `.framework/workflows/pipeline.md` for the full command specification.

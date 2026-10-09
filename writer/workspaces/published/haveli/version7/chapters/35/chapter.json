@@ -1,0 +1,68 @@
+{
+  "chapter_index": 35,
+  "name": "35",
+  "word_target": 110,
+  "chapter_title": "The Widow's Wages",
+  "chapter_summary": "The dead laborer's pay is withheld, and the widow is turned from the door. The poem gives the widow's vigil its full weight, the unpaid wages that will outlast the merchant who withheld them.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The wages as deferred agency: Framing the unpaid debt not merely as economic injustice but as a permanent denial of future action for the widow and her descendants.",
+      "Bureaucratic ghosting: Treating the withholding of pay as an administrative act—a ledger entry that outlives the body, making the payment a legal impossibility rather than just cruelty.",
+      "The landscape of mourning vs. debt: Contrasting traditional rituals of grieving (which require time and focus) with the stark economic demand for immediate compensation."
+    ],
+    "story_options": [
+      "Setting: A low-lit corner outside the haveli, Desire: For the widow to find a single piece of thread or garment belonging to the dead man—a physical remnant that represents his forgotten claim—Obstacle: The steward who patrols this exact spot has seen it all before and dismisses her with practiced indifference; Turn: She places the thread not on the ground, but carefully over the locked entrance.",
+      "Setting: Near a communal well used by laborers in the vicinity, Desire: For the widow to attempt bartering labor (sewing, fetching water) for food until she can secure payment—Obstacle: The community sees her as too closely tethered to Gangaram's estate and isolates her socially; Turn: She is accepted only after a stranger witnesses her quiet persistence.",
+      "Setting: In the interior shadow of an adjacent workshop (like the potter’s or mason’s), Desire: To find evidence—a crumpled receipt, a dated note left behind—that substantiates the wage claim beyond mere memory—Obstacle: The required documents have been incinerated or deliberately hidden by estate agents; Turn: She finds something written on the *back* of an unused invoice."
+    ],
+    "subject_rotations": [
+      "Shifting from personal grief to communal silence: How does the broader community (the bazaar, the neighbors) tacitly support Gangaram's economic maneuvering by not enforcing wage laws?",
+      "The materiality of refusal: Exploring how the 'withholding' itself becomes a physical thing—a weight on the scales, a stain on the doorframe—rather than just an abstract financial concept.",
+      "Echoes beyond death: Focusing less on the deceased laborer and more on the widow’s future vulnerability in the absence of male protection or legal backing."
+    ],
+    "sensory_details": [
+      "Sight: The precise, deep shadow cast by a single hanging oil lamp, illuminating only the patch of earth where the dead man's wages should have been counted.",
+      "Sound: The low, repetitive *chime* of a distant temple bell marking ritual time, which feels utterly irrelevant against the soundless bureaucratic refusal at the door.",
+      "Touch: The fine grit of sandstone dust mixed with dried tears adhering to the skin when she reaches out to knock on the imposing threshold."
+    ],
+    "research_questions": [
+      "What specific regional customs existed regarding spousal care and property rights for widows whose husbands died while working on major private construction projects?",
+      "Were there local mechanisms or informal tribunals in Shekhawati towns capable of mediating disputes over delayed wages between large landowners/merchants and laborers?"
+    ],
+    "structural_variants": [
+      "A vignette structure: Three extremely short, intensely focused stanzas, each capturing one specific element (the unpaid note, the turned back, the vigil) without attempting synthesis.",
+      "A rising crescendo of silence: Beginning with a barely audible sound in the periphery, building tension through near-silence until the final word forces an abrupt auditory break."
+    ],
+    "unused_angles": [
+      "The concept of 'inheritance by debt': Could the widow inherit not property, but the burden of perpetual financial litigation?",
+      "Gangaram's calculated perception: A brief flash examining how Gangaram views this act—is it paternalistic charity, or cold efficiency?"
+    ],
+    "variety_note": "This chapter shifts focus from the violence inflicted on the laborers (Chapters 32-34) to the enduring, quiet institutional mechanism of economic erasure that follows death."
+  },
+  "draft": {
+    "sha256": "b211176c70339c8388055599c78f81c104c3ae8906b5390cafbbceb32332b88d",
+    "written_at": "2026-10-04T20:15:59.680116+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "b211176c70339c8388055599c78f81c104c3ae8906b5390cafbbceb32332b88d",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

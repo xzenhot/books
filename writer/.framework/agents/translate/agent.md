@@ -15,5 +15,5 @@ Do not use legacy segments/1/writer/ files.
 
 Write the translation to segments/1/translator/<language-slug>.md. Preserve
 the poetry form, meaning, rhythm, imagery, and structure. Archive an existing
-translation before replacing it. Do not modify chapter.md, source/books, or
+translation before replacing it. Do not modify chapter.md, workspaces/published, or
 progress. A translation is never a substitute for the source-language draft.

@@ -42,7 +42,7 @@ VERBS
 
               python tools/book.py <bookname> write [all|1|1-5|continue]
 
-    publish   Promote pipeline segments to source/books/ via publish.py.
+    publish   Promote pipeline segments to workspaces/published/ via publish.py.
 
               python tools/book.py <bookname> publish
 
@@ -600,15 +600,51 @@ def generate_epic(
 # JSON parsing helpers
 # ---------------------------------------------------------------------------
 
+def _first_balanced_block(text: str, open_char: str, close_char: str) -> str:
+    """Return the first balanced ``open_char ... close_char`` block in *text*.
+
+    Scans character by character, tracking nesting depth (ignoring brackets
+    inside JSON strings), so trailing prose, a second concatenated array, or a
+    Markdown fence after the payload do not corrupt the slice. Returns an empty
+    string when no balanced block is found.
+    """
+    start = text.find(open_char)
+    if start < 0:
+        return ""
+    depth = 0
+    in_string = False
+    escape = False
+    for i in range(start, len(text)):
+        char = text[i]
+        if in_string:
+            if escape:
+                escape = False
+            elif char == "\\":
+                escape = True
+            elif char == '"':
+                in_string = False
+            continue
+        if char == '"':
+            in_string = True
+        elif char == open_char:
+            depth += 1
+        elif char == close_char:
+            depth -= 1
+            if depth == 0:
+                return text[start : i + 1]
+    return ""
+
+
 def extract_json(
     response: str,
     expect_list: bool = False,
 ) -> list[object] | dict[str, object]:
     """Parse a JSON value from a raw Ollama response string.
 
-    Handles two common Ollama output patterns:
+    Handles common Ollama output patterns:
     1. A bare JSON object or array.
     2. JSON wrapped in a Markdown code fence (```json ... ```).
+    3. JSON followed by trailing prose/commentary, or two concatenated values.
 
     When *expect_list* is True the result must be a list; a dict with a
     'chapters' key is unwrapped automatically.  Raises ValueError when the
@@ -630,16 +666,20 @@ def extract_json(
     try:
         data = json.loads(cleaned)
     except json.JSONDecodeError:
-        # Fall back: locate the outermost bracket pair and parse that slice
+        # Fall back: extract the first balanced JSON block (tolerates trailing
+        # prose and concatenated values), preferring the expected container.
         open_char, close_char = ("[", "]") if expect_list else ("{", "}")
-        start = cleaned.find(open_char)
-        end = cleaned.rfind(close_char)
-        if start < 0 or end <= start:
+        candidate = _first_balanced_block(cleaned, open_char, close_char)
+        if not candidate:
+            # The model may have returned the other container type; try it too.
+            alt_open, alt_close = ("{", "}") if expect_list else ("[", "]")
+            candidate = _first_balanced_block(cleaned, alt_open, alt_close)
+        if not candidate:
             raise ValueError(
                 f"Ollama response does not contain a JSON {'array' if expect_list else 'object'}.\n"
                 f"Raw response (first 300 chars): {response[:300]}"
             )
-        data = json.loads(cleaned[start : end + 1])
+        data = json.loads(candidate)
 
     # Type validation and unwrapping
     if expect_list:
@@ -870,13 +910,18 @@ def _generate_layout_batched(
         print(f"  → {len(chapters_by_index)}/{chapter_count} chapters collected")
 
     # Pass 2 — completeness loop: fill missing and under-written chapters.
+    # Re-request in chunks of OLLAMA_BATCH_SIZE so a single prompt never asks
+    # for more than one batch of chapters (large one-shot requests make the
+    # model emit malformed JSON).
     for attempt in range(1, OLLAMA_MAX_RETRIES + 1):
         needed = _incomplete_chapters(chapters_by_index, chapter_count)
         if not needed:
             break
         print(f"  completeness pass {attempt}: re-requesting chapters {needed}")
-        for chapter in _generate_chapter_batch(epic, needed, 0, 0):
-            chapters_by_index[int(chapter["chapter_index"])] = chapter
+        for offset in range(0, len(needed), OLLAMA_BATCH_SIZE):
+            chunk = needed[offset : offset + OLLAMA_BATCH_SIZE]
+            for chapter in _generate_chapter_batch(epic, chunk, 0, 0):
+                chapters_by_index[int(chapter["chapter_index"])] = chapter
 
     # Assemble in index order and normalize required fields.
     word_target = 500 if form == "poetry" else 4500
@@ -1667,7 +1712,7 @@ def _write_style(args: argparse.Namespace) -> tuple[str, str | None]:
 
 
 def publish_workflow(bookname: str, language: str | None = None, draft: bool = False) -> None:
-    """Promote pipeline segments to source/books/ via publish.py.
+    """Promote pipeline segments to workspaces/published/ via publish.py.
 
     The current publisher supports writer-stage chapter drafts only; the
     *language* parameter is reserved for future translator-stage support.

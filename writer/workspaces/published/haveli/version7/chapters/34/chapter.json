@@ -1,0 +1,68 @@
+{
+  "chapter_index": 34,
+  "name": "34",
+  "word_target": 110,
+  "chapter_title": "The Beggar's Coin",
+  "chapter_summary": "A coin is tossed into the dust at the gate, a charity that is really a dismissal. The poem lingers on the beggar bending for the coin, and on the distance between the hand that gives and the hand that must take.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the coin not as charity but as a precise economic tool: How does its weight or size signify the exact calculation of acceptable poverty for Gangaram?",
+      "The perspective shift to the beggar's internal ledger: He is cataloging debts owed, even if they are unstated (a debt to dignity, to survival)",
+      "Treating the coin as corrupted artifact: Is it tarnished from old trade routes or deliberately altered to appear less valuable?"
+    ],
+    "story_options": [
+      "Setting: The cracked threshold just inside the haveli gate, desire: To force a direct physical exchange—the beggar reaching for not the coin, but a piece of discarded pigment dust, and the merchant pausing in sudden revulsion.",
+      "Setting: A periphery street corner, desire: For Gangaram to toss the coin as he is distracted by an argument with his primary trader, making the 'charity' purely accidental fallout from commerce, not compassion.",
+      "Setting: Dawn, when shadows are longest and least defined, desire: To have a low-ranking servant witnessing the entire exchange in secret, recording it silently against the grandeur of the morning light."
+    ],
+    "subject_rotations": [
+      "Deconstructing transaction as performance: The act is less about giving/receiving and more about both parties performing their societal roles (Magnanimous Patron vs. Deserving Poor).",
+      "Focusing on inertia: How the beggar's body seems momentarily frozen, suspended between reaching and withdrawing, representing a state of perpetual economic stasis.",
+      "Material decay as commentary: Juxtaposing the perfect, newly minted coin against the crumbling, porous dust of the entry steps."
+    ],
+    "sensory_details": [
+      "The specific clink-and-hush sound of copper or brass hitting packed earth, instantly muffled by surrounding crowds.",
+      "The smell of stale incense mixed with dry animal dung lingering near the gate's edge.",
+      "The sudden chill in the hand after withdrawing it from the dusty threshold."
+    ],
+    "research_questions": [
+      "What were the customary or expected levels of charitable giving (dāna) associated with wealthy Marwari merchants during periods of high trade prosperity?",
+      "How did local customs define the appropriate interaction between a noble-class individual and itinerant beggars in Shekhawati towns?"
+    ],
+    "structural_variants": [
+      "Opening mid-fall: Starting directly as the coin is airborne, tracking its parabolic descent through several lines of contrasting texture.",
+      "Cyclical framing: Beginning with the beggar's anticipation, moving through the toss and reception, and ending by returning to the original state of waiting."
+    ],
+    "unused_angles": [
+      "How the sound pattern—the single sharp *clink* repeated across several verses or stanzas—can mirror the rhythmic anxiety of debt collection.",
+      "The possibility of an unseen participant (a child, a distant observer) whose reaction dictates the entire meaning of the coin's landing."
+    ],
+    "variety_note": "Unlike the preceding poems focusing on grand production (artisan/mason), this chapter focuses on transactional residue: what is left over after all great wealth has been spent or utilized, emphasizing microscopic social cruelty."
+  },
+  "draft": {
+    "sha256": "ff5b56cdfb73fd31c73e62864544fc76042b5865f289590bd5524e7995c06cdc",
+    "written_at": "2026-10-04T20:15:48.383882+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "ff5b56cdfb73fd31c73e62864544fc76042b5865f289590bd5524e7995c06cdc",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

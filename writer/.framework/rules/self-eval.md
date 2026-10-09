@@ -41,7 +41,7 @@ dimensions:
 | 2 | **Workflow coverage** | Do the workflow specs describe the command surface completely and without contradiction? |
 | 3 | **Agent ↔ skill completeness** | Does every filter/role in the command surface have a backing agent, and every agent a backing skill where one is required? |
 | 4 | **Template & schema validity** | Are `book.json`/`progress.json` templates and the stereotype/quality/reference registries valid and current? |
-| 5 | **Data-layer consistency** | Do `workspaces/backlog/`, `workspaces/pipeline/`, and `source/books/` agree (counts, names, states, hashes)? |
+| 5 | **Data-layer consistency** | Do `workspaces/backlog/`, `workspaces/pipeline/`, and `workspaces/published/` agree (counts, names, states, hashes)? |
 | 6 | **Boundary & rule soundness** | Are the command-boundary and next-steps rules complete, correct, and internally consistent? |
 
 Each dimension is scored **0–10** and weighted into a single **Framework Health
@@ -61,7 +61,7 @@ Read these in order. Use them as the source of truth for what *should* exist.
 6. `.framework/templates/` — `backlog/` (`book.json`, `book.min.json`, `progress.json`), `stereotypes/`,
    `preset/`, `moods/`, `subjects/`, `tools/`.
 7. `workspaces/start.md` — user defaults.
-8. `workspaces/backlog/`, `workspaces/pipeline/`, and `source/books/` — the data layers.
+8. `workspaces/backlog/`, `workspaces/pipeline/`, and `workspaces/published/` — the data layers.
 
 ## Method
 
@@ -120,7 +120,7 @@ For each book in `workspaces/backlog/` that has a `workspaces/pipeline/` counter
 
 - `book.json` `chapter_count` equals the number of `chapters/` folders.
 - `progress.json` chapter entries match the plan's chapter names/topics.
-- Every chapter with `status: published` has a matching `source/books/` version
+- Every chapter with `status: published` has a matching `workspaces/published/` version
   and a non-empty `chapter.md`.
 - No pipeline references a `style.md`/`override.txt` that is missing.
 

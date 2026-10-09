@@ -1,0 +1,68 @@
+{
+  "chapter_index": 6,
+  "name": "6",
+  "word_target": 80,
+  "chapter_title": "The Failure Beneath",
+  "chapter_summary": "A section of fresco cracks and must be scraped away and redone; the wasted work and the wasted nights are the truth the painter hides beneath every finished surface, and the poem lifts the edge of it.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on entropy: the physical degradation of material (cracking plaster) mirroring the psychological decay of self-worth.",
+      "The rhythm as ritualistic failure: treating the repeated gesture of scraping/patching not as labor, but as a desperate liturgy against oblivion.",
+      "Contrast between the planned geometry of the mural and the chaotic randomness of the fracture lines."
+    ],
+    "story_options": [
+      "Setting: The precise spot where the hairline crack first appears on the blue section; Desire: To find a structural reason for the fault rather than accepting it as failure, Obstacle: The inability to see clearly through accumulated pigment dust.",
+      "Setting: In the courtyard below, during brief twilight hours between painting sessions; Desire: For one of the local laborers or cooks to notice the patch job and offer unspoken pity, Obstacle: His gaze slips away immediately before he can confirm the recognition.",
+      "Setting: Under the intense focus of a single oil lamp in the deepest part of the night; Desire: To meticulously mix a repair compound that perfectly matches the original flawed color, Obstacle: The lime binder refuses to integrate properly with the old pigment."
+    ],
+    "subject_rotations": [
+      "Treating the act of scraping away paint as an archaeology—an unintended excavation of past mistakes and discarded intentions.",
+      "Focusing not on the crack itself, but on the sound it makes when struck by a tool—a brittle, sudden discord in the steady rhythm of work.",
+      "Viewing the repair patch not as 'fixing' damage, but as an assertive act of inscription against erasure."
+    ],
+    "sensory_details": [
+      "The gritty sensation of wet, crumbling gesso powder adhering to fingertips during removal.",
+      "The sharp, metallic scent released when a piece of oxidized pigment flakes off under pressure.",
+      "The high-pitched whine of the small trowel against dry substrate resisting repair."
+    ],
+    "research_questions": [
+      "What local materials or historical substitutes were available in Shekhawati for emergency fresco patching before modern mineral fillers?",
+      "How did traditional Indian art practices handle repairs to monumental, semi-permanent public/private artworks?"
+    ],
+    "structural_variants": [
+      "A form dictated by the fracture pattern itself—the poem's line breaks mimic the fissures in the plaster.",
+      "Alternating between highly detailed close-ups of the damaged surface and broad panoramic views of the wall where the damage is isolated."
+    ],
+    "unused_angles": [
+      "Exploring how the merchant class might secretly view these necessary repairs as a sign of latent, unpredictable weakness in their own wealth.",
+      "A poem entirely focused on the soundscape—the scrape, the tap, the sigh of settling material."
+    ],
+    "variety_note": "Where previous chapters detailed creation or observation, this chapter focuses intensely on interruption and subtraction, treating damage itself as a primary narrative subject."
+  },
+  "draft": {
+    "sha256": "d9d6ac8355a3000defac0952929a939601c14562c6722f04dc6a4e0810b51356",
+    "written_at": "2026-10-04T19:40:53.555122+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "d9d6ac8355a3000defac0952929a939601c14562c6722f04dc6a4e0810b51356",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T19:43:48+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

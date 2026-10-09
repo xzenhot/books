@@ -64,6 +64,6 @@ If `model.json` already has a `stereotype` object, update it in place; otherwise
 
 - Work only in the named pipeline and its chapter model.
 - Do not read the backlog or the epic.
-- Do not create or modify `source/books/`.
+- Do not create or modify `workspaces/published/`.
 - Do not run research, correctness, syntax, override, or quality.
 - The result must remain a novel (prose) chapter; do not apply poetry-only sections or voices.

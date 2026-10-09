@@ -31,7 +31,7 @@ The humanize agent must:
 7. **Archive the prior draft** before replacing it: copy the current `chapter.md` to `history/humanize_<timestamp>.md`.
 8. **Write the humanized draft** back to `chapter.md`.
 9. **Update the chapter model**: record `humanized: true`, `humanized_at` (ISO 8601), and update `draft.sha256` with the new hash.
-10. **Do not** modify `source/books/`, `progress.json`, or the backlog/epic. Do not run `publish` — this command only polishes language.
+10. **Do not** modify `workspaces/published/`, `progress.json`, or the backlog/epic. Do not run `publish` — this command only polishes language.
 
 ## Language Rule
 

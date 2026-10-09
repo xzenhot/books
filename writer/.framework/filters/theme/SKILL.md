@@ -29,7 +29,7 @@ The selected skill owns:
 The theme agent must not:
 
 - read the backlog or the epic;
-- write final output to `source/books/`;
+- write final output to `workspaces/published/`;
 - run any later filter;
 - discard unrelated chapter-model fields;
 - apply a fixed form to a pipeline whose model declares another form.

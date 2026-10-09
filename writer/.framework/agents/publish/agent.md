@@ -1,6 +1,6 @@
 ---
 name: publish
-description: Routes the publish command to the repository CLI (publish.py). Promotes validated chapter drafts to versioned source/books output and assembles book.md. Read-only on the pipeline; writes only to source/books/.
+description: Routes the publish command to the repository CLI (publish.py). Promotes validated chapter drafts to versioned workspaces/published output and assembles book.md. Read-only on the pipeline; writes only to workspaces/published/.
 tools: ["read"]
 ---
 
@@ -38,12 +38,12 @@ Before publishing, the agent may check framework health via the read-only judge
   and top defects. Recommend running the fixes (or disabling the gate) before retrying.
 - If the gate is **disabled or absent**, publish proceeds normally; the health check
   is not run.
-- The gate never mutates the pipeline or `source/books/`; it only reads.
+- The gate never mutates the pipeline or `workspaces/published/`; it only reads.
 
 ## Dispatch
 
 1. Read `workspaces/pipeline/<bookname>/book.json` to confirm the book plan exists.
-2. Resolve the publish command as `python tools/publish.py <bookname>` (the CLI handles all validation — every poem must have a non-empty registered draft and a passed quality review — version allocation, `source/books/<bookname>/version<k>/` creation, and `progress.json` update).
+2. Resolve the publish command as `python tools/publish.py <bookname>` (the CLI handles all validation — every poem must have a non-empty registered draft and a passed quality review — version allocation, `workspaces/published/<bookname>/version<k>/` creation, and `progress.json` update).
 3. In `offline` mode, display the resolved command and ask the user to confirm; run it only after the user says go. In `online` mode, perform the promotion agentically.
 4. The CLI exits non-zero if any chapter is missing or stale; report the error to the user.
 
@@ -52,7 +52,7 @@ Before publishing, the agent may check framework health via the read-only judge
 The publish CLI owns:
 - Validating every chapter has a non-empty, registered draft matching the model's `draft.sha256`
 - Validating every chapter has `quality_review.status: "passed"` with matching `sha256`, `reviewer`, and `reviewed_at`
-- Creating the versioned output folder under `source/books/`
+- Creating the versioned output folder under `workspaces/published/`
 - Assembling `version<k>/book.md` from all chapter drafts
 - Updating `progress.json` with published hashes and version
 
@@ -60,17 +60,17 @@ The publish agent must not:
 - Read the backlog or the epic;
 - Run any earlier filter;
 - Modify the pipeline working files (except via the CLI's `progress.json` update);
-- Write unfinished drafts to `source/books/`.
+- Write unfinished drafts to `workspaces/published/`.
 
 ## Online (Agentic) Publish
 
 In `online` mode, the agent performs the promotion itself (no Python). Version
 allocation and assembly follow `.framework/rules/source-versioning.md`. The
-agent is read-only on the pipeline and writes only to `source/books/`.
+agent is read-only on the pipeline and writes only to `workspaces/published/`.
 
-1. **Allocate the version folder.** Inspect `source/books/<bookname>/` for existing
+1. **Allocate the version folder.** Inspect `workspaces/published/<bookname>/` for existing
    `version<k>` child folders, take the highest `<k>`, and create
-   `source/books/<bookname>/version<k+1>/` (`version1` when none exist), including
+   `workspaces/published/<bookname>/version<k+1>/` (`version1` when none exist), including
    its `chapters/` subfolder. All output of this invocation goes into that folder;
    never overwrite a different version's files.
 
@@ -79,11 +79,11 @@ agent is read-only on the pipeline and writes only to `source/books/`.
 2. For each target chapter, read the live working draft from
    `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`. Chapters whose draft
    is missing are skipped and reported.
-3. Copy that content into `source/books/<bookname>/version<k>/chapters/<n>/chapter.md`
+3. Copy that content into `workspaces/published/<bookname>/version<k>/chapters/<n>/chapter.md`
    (create the folder on first publish; within this new version overwrite freely —
    other versions remain immutable).
 4. Copy the chapter metadata alongside as
-   `source/books/<bookname>/version<k>/chapters/<n>/chapter.json`.
+   `workspaces/published/<bookname>/version<k>/chapters/<n>/chapter.json`.
 
 ### With `<language>` (translator-stage publish)
 
@@ -92,15 +92,15 @@ agent is read-only on the pipeline and writes only to `source/books/`.
    matching the requested language, e.g. `en.md`, `bn.md`, `hi.md`; skip and report
    any chapter with no exact match).
 6. Copy that translated segment to
-   `source/books/<bookname>/version<k>/chapters/<n>/<language>/chapter.md`.
+   `workspaces/published/<bookname>/version<k>/chapters/<n>/<language>/chapter.md`.
 
 ### Assembly
 
-7. Assemble `source/books/<bookname>/version<k>/book.md` (version root) from the
+7. Assemble `workspaces/published/<bookname>/version<k>/book.md` (version root) from the
    published chapters in canonical order (`Introduction`, `1..N`, `Conclusion` for
    novels; `bookseed.txt` order for poetry). When a `<language>` was published,
    assemble the translated book at
-   `source/books/<bookname>/version<k>/book_<language>.md`.
+   `workspaces/published/<bookname>/version<k>/book_<language>.md`.
 8. Update `progress.json` (`published`, `published_at`, `published_version`,
    `published_language`) without resetting filter or write state. Return the
    version folder, published/skipped counts, and assembled book paths.
@@ -109,4 +109,4 @@ agent is read-only on the pipeline and writes only to `source/books/`.
 
 ## Output
 
-Report the version number, the number of chapters published, and the output path `source/books/<bookname>/version<k>/`.
+Report the version number, the number of chapters published, and the output path `workspaces/published/<bookname>/version<k>/`.

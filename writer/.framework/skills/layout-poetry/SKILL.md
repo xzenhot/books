@@ -1,6 +1,6 @@
 ---
 name: layout-poetry
-description: "Use when scaffolding or repairing the structural skeleton of a poetry pipeline. Creates workspaces/pipeline/<bookname>/, book.json, bookseed.txt, progress.json, override.md, named poetry filter folders, one segment per topic, and the empty source/books destination. Does not write poem chapters or runtime filter results."
+description: "Use when scaffolding or repairing the structural skeleton of a poetry pipeline. Creates workspaces/pipeline/<bookname>/, book.json, bookseed.txt, progress.json, override.md, named poetry filter folders, one segment per topic, and the empty workspaces/published destination. Does not write poem chapters or runtime filter results."
 ---
 
 # Layout Poetry - Pipeline Scaffold
@@ -16,7 +16,7 @@ workspaces/pipeline/<bookname>/
 Finished content later lives at:
 
 ```text
-source/books/<bookname>/
+workspaces/published/<bookname>/
 ```
 
 ## Source Of Truth
@@ -235,7 +235,7 @@ Leave runtime content empty unless the active workflow explicitly runs that filt
 Create:
 
 ```text
-source/books/<bookname>/chapters/
+workspaces/published/<bookname>/chapters/
 ```
 
 Do not write poem chapters or `book.md` during layout.
@@ -252,5 +252,5 @@ Before reporting completion, verify:
 - Every chapter has `model.json`, a `history/` folder, and `segments/1/model.json`.
 - No `mood.json` files exist in poetry chapter folders.
 - No chapter or segment folders were created outside the canonical paths.
-- `source/books/<bookname>/chapters/` exists and contains no unfinished generated prose unless a later workflow created it.
+- `workspaces/published/<bookname>/chapters/` exists and contains no unfinished generated prose unless a later workflow created it.
 

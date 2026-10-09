@@ -1,0 +1,79 @@
+{
+  "chapter_index": 11,
+  "name": "11",
+  "word_target": 110,
+  "chapter_title": "The Painter's Arrival",
+  "chapter_summary": "An artisan from Udaipur arrives to cover the walls with stories, carrying brushes and pigments ground from stone and leaf. The poem introduces the man who will make Gangaram immortal and be paid for it in cracked grain.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "traditional pigment grinding techniques in Rajasthan",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "the social hierarchy between merchant patrons and specialized artisans (painters, masons)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the painter not as an artist serving a patron, but as a temporary usurper of Gangaram's narrative control, whose own life story is subsumed by the commissions.",
+      "Viewing the pigments themselves as slow-acting agents: they are chemicals that will chemically alter their environment (the wall/dust) over decades, representing transactional permanence.",
+      "A focus on the linguistic gap: the painter speaks a regional dialect of art and tradition that Gangaram’s high-bourgeois language cannot fully comprehend or control."
+    ],
+    "story_options": [
+      "setting: The threshold of the empty haveli, waiting for preparation., desire: The painter desires a single, specific color (a perfect lapis blue) that will signify his mastery and set him apart from other local craftsmen., obstacle: Gangaram insists on colors that are symbolically rich but chemically unstable in the desert climate., turn: The painter refuses to mix one pigment blend, choosing a difficult natural earth tone instead, setting up future material failure.",
+      "setting: Near the local market square where raw materials are traded (stones, oils)., desire: Gangaram desires that the artist will capture his family's perfect civic posture during festivals., obstacle: The painter is deeply interested in rendering the 'unseen labor'—the dust, fatigue, and specific gestures of the low-caste laborers supporting Gangaram’s wealth., turn: The painter sketches a private figure (a porter, a servant) outside the commission area, knowing this risks upsetting the patron.",
+      "setting: Inside one unused, dusty room awaiting decoration., desire: The painter desires respite and recognition for his own skill outside of Gangaram's ledger-driven requirements., obstacle: His supplies are delayed by local politics or extortion from low-level suppliers who see him as a new target for tribute., turn: He improvises a small, unauthorized motif—a personal sigil or family emblem—in the corner of his working space."
+    ],
+    "subject_rotations": [
+      "Treating the act of painting not as creation, but as chemical preservation: how pigment locks down moisture and dust into specific forms.",
+      "A focus entirely on the material transference: the weight of ground mineral vs. the lightness of a merchant's contract papers.",
+      "Exploring the painter’s internal conflict between inherited devotional art (traditional) and the commercial necessity of flattering wealth (modern)."
+    ],
+    "sensory_details": [
+      "The sharp, metallic tang of iron oxides grinding against mortar in the midday heat.",
+      "The cool, linseed-oil smell emanating from a freshly scraped brush against cured sandstone.",
+      "The coarse drag sound of pigment being squeezed from dried mineral cakes."
+    ],
+    "research_questions": [
+      "What specific natural binders (animal glue, plant sap) were preferred by itinerant fresco painters in Shekhawati compared to settled village artists?",
+      "How was the traveling painter compensated—was it solely fixed payment, or did local customary fees for materials/lodging factor into his fee?"
+    ],
+    "structural_variants": [
+      "A structure dictated by color palette: each shift in hue becomes a stanza break.",
+      "An alternating rhythm between descriptive passages about the pigment source (geology) and narrative observations of the painter's method."
+    ],
+    "unused_angles": [
+      "The philosophical weight of choice: if the paint captures time, does it freeze or merely refract reality?",
+      "A potential subversion where the artist deliberately uses materials known to fade quickly as a critique against Gangaram's fleeting material grandeur."
+    ],
+    "variety_note": "This poem shifts focus from the acquisition of property (previous chapters) to the inscription of meaning upon it, introducing human artistry and its inherent transactional compromises early in the cycle."
+  },
+  "draft": {
+    "sha256": "54c843d7100e7e3b7476c0bf3cbb8d83c6680ed1e98a5bcfe5db86118334f720",
+    "written_at": "2026-10-04T20:11:35.613023+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "54c843d7100e7e3b7476c0bf3cbb8d83c6680ed1e98a5bcfe5db86118334f720",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}
