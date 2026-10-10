@@ -39,7 +39,10 @@ In offline mode: resolve the command → display it → ask "go / don't go" → 
 ## Dispatch
 
 1. **Invoke the layout agent first (Phase 1 — pre-layout plan).** Before any layout work, call the layout agent (`.framework/agents/layout/agent.md`) to resolve the form, validate the book plan, and produce the pre-layout plan (form, chapter count, topic/chapter list, filter chain, word target). This is the mandatory first step of scaffold — the layout skill runs only after the pre-layout plan returns.
-2. Determine the book form from the pre-layout plan (or, if the pre-layout phase was bypassed, from the command `--form`, existing pipeline `book.json`, backlog epic metadata, or the gist/topic list).
+2. Determine the book form in this priority order:
+   1. The explicit `--form`/positional form argument, if the user supplied one.
+   2. The `form` field in the backlog book plan `workspaces/backlog/<bookname>/book.json` (or the pipeline `book.json` when the backlog copy is absent). **When the book plan declares a `form` and no explicit argument was passed, that declared form is authoritative — never default to `poetry`.**
+   3. Only if neither an argument nor a declared `form` exists, infer conservatively: a narrative premise is `novel`; a topic/term list is `poetry`.
 3. Read the backlog book plan at `workspaces/backlog/<bookname>/book.json`. Use the `filter_chain` declared in the book plan as the authoritative filter chain; do not read the layout skills' *Preset* sections during scaffold.
 4. If the form is `novel`, read and follow `.framework/skills/layout-novel/SKILL.md`.
 5. If the form is `poetry`, read and follow `.framework/skills/layout-poetry/SKILL.md`.
@@ -113,7 +116,7 @@ This section is the binding downstream contract for scaffolded chapter state. Fi
 ├───history     - It contains backed up version of chapter.md , maintains a history when the write path overwrites it
 └───segments
     └───1
-        │   model.json - It contains the runtime state of the segment . Contains meta data of the chapter. 
+        │   segment.json - It contains the runtime state of the segment . Contains meta data of the chapter. 
         │
         ├───editor - Any Editor comments are kept here. It shows the content quality score.
         ├───translator - It contains translated version of latest chapter.md ( if translated ). The name like: en.md, hn.md, bn.md etc

@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 2,
+  "total_segments": 6,
+  "chapter_index": 19,
+  "name": "19",
+  "chapter_title": "গঙ্গার যুদ্ধ",
+  "chapter_summary": "নৌকা, কাদা, হাতি, তীর, ঢাক ও স্রোতের মধ্যে গঙ্গার যুদ্ধ ঘটে। বাংলার পতাকা এগোয়, কিন্তু নদী বিজয় ও মৃত্যু দুটোই একসঙ্গে বহন করে, আর যুদ্ধের বিশৃঙ্খলায় লক্ষ্মণ দেখে গৌরবের পেছনে কত রক্ত, কাদা ও প্রাণের মূল্য দিতে হয়।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "The psychological demarcation line between recognized 'Sen' soldiers and those who become mere expendable bodies lost to the current/battle chaos.",
+    "status": "enriched"
+  }
+}

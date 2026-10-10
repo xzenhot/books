@@ -1,0 +1,70 @@
+{
+  "chapter_index": 21,
+  "name": "21",
+  "word_target": 5500,
+  "chapter_title": "ফেরার পথে বাংলা",
+  "chapter_summary": "ফিরতি পথে সেনাবাহিনী বিজয়, শোক, বন্দি, সম্পদ ও গল্প নিয়ে পূর্বে ফেরে। ওয়ার্কশপে প্রশ্ন ওঠে এই পালা শেষ হলে দর্শক গৌরব দেখবে, না দায়ও দেখবে, আর লক্ষ্মণ দেখে যুদ্ধের পরিণতি শুধু বিজয় নয়, সমাজের ক্ষত ও মানুষের ক্লান্তিও।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "অভিযানের প্রত্যাবর্তন",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "যুদ্ধোত্তর সমাজ",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "নাট্যরূপের নৈতিকতা",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the 'cost' of spectacle: How does the performance of military glory on the return journey mask the actual exhaustion and human cost carried by individual soldiers?",
+      "The perspective of those left behind in Bengal who receive news filtered through rumors and embellishments, leading to a distorted view of Lakshmana’s success.",
+      "Treating the 'return' not as triumphal procession but as a slow, agonizing negotiation with local political factions eager to claim spoils or influence from the defeated regions."
+    ],
+    "story_options": [
+      "Setting: A quiet, unassuming wayside tea stall several days into the return march; Desire: Lakshmana seeks a moment of genuine rest where he is treated not as Prince but simply as a weary man by the vendor; Obstacle: The weight of his ceremonial robes prevents true repose; Turn: He witnesses an act of unexpected domestic tenderness amidst the chaos.",
+      "Setting: A regional outpost city where supplies are being redistributed; Desire: A minor official attempts to leverage military spoils for personal gain or political alliance; Obstacle: Lakshmana must navigate bureaucratic pettiness instead of battlefield strategy; Turn: The official’s small, petty act accidentally reveals a vital piece of information about the state's long-term weakness.",
+      "Setting: A dimly lit tavern near the outskirts of a border town; Desire: A grizzled veteran soldier seeks out a musician to replace the glory songs with honest ballads of sacrifice and hardship; Obstacle: The courtly musicians actively suppress any narrative that doesn't glorify the victory; Turn: The veteran convinces the bard to subtly embed coded dissent into a performance."
+    ],
+    "subject_rotations": [
+      "Shifting focus from military achievement (victory) to administrative liability (re-integration, debt collection, and managing displaced populations).",
+      "Analyzing the psychological impact of returning home after immense external conflict: how does the environment of Bengal itself seem alien or insufficient compared to the drama of the northern campaign?",
+      "Framing the 'triumph' through the lens of cultural critique—how is regional pride (Bengali) forced to reconcile with imperial ambition (Delhi/Sen power)?"
+    ],
+    "sensory_details": [
+      "The dry, chalky taste of heavily rationed dried meat mixed with sweat on a long travel day.",
+      "The persistent scent of stagnant river water clinging to the boots of those who recently crossed the Ganga.",
+      "The specific sound of thousands of weary feet shuffling over packed earth during marching, creating a dull, rhythmic thud that is fundamentally different from the sharp crack of battle."
+    ],
+    "research_questions": [
+      "What were standard mechanisms for de-escalation or reconciliation between victorious armies and conquered local populations during 12th-century imperial transitions?",
+      "How did the concept of 'dignity' (মান) function socially among soldiers upon returning from prolonged, distant campaigns in Bengali cultural contexts?",
+      "Are there contemporary literary traditions that depict the return journey as a period of moral accounting rather than merely celebration?"
+    ],
+    "structural_variants": [
+      "The chapter is structured not chronologically, but thematically: one section dedicated to 'Spoil,' one to 'Sorrow/Loss,' and one to 'Subtext' (the unsaid political maneuvering).",
+      "A framing device where a contemporary poet or scholar describes the returning army as an archetype—a figure of myth slowly re-entering messy reality."
+    ],
+    "unused_angles": [
+      "Deep exploration into religious syncretism among the troops, perhaps some mercenaries adopting local folk deities versus adhering to state religion.",
+      "The specific anxieties related to the lineage and succession within the extended royal family not involved in the campaign, waiting for news."
+    ],
+    "variety_note": "Unlike the preceding chapters which focused on high-stakes action or administrative pressure at the point of conflict (battle/city capture), this chapter must explore the grinding inertia and necessary hypocrisy of post-conflict integration."
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "chapter_index": 15,
+  "name": "15",
+  "word_target": 5500,
+  "chapter_title": "নালন্দার নিঃশব্দ ইট",
+  "chapter_summary": "অভিযানের পথে নালন্দার স্মৃতি ও পাণ্ডিত্যধ্বংসের ছায়া আসে, আর ধ্বংসপ্রাপ্ত বিহারের নিঃশব্দ ইট লক্ষ্মণের সামনে জ্ঞানের ক্ষতির করুণ চিত্র তুলে ধরে। সে বোঝে সাম্রাজ্য শুধু নগর জয় নয়, জ্ঞান রক্ষা করাও, আর বিজয় যদি জ্ঞানকে ধ্বংস করে, তবে তা প্রকৃত বিজয় নয়।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "নালন্দা",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "পাণ্ডিত্য ও রাজনীতি",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "মধ্যযুগীয় শিক্ষা",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the intellectual inheritance: How do the surviving fragments of Nalanda's knowledge (texts carried by scholars, oral traditions) survive military conquest?",
+      "The dissonance between physical destruction and abstract loss: Treating the ruined stupas not just as bricks but as libraries whose contents vanished.",
+      "Comparing different forms of 'destruction': juxtaposing the visible ruin of masonry against the invisible decay of lost philosophical debate or mathematical understanding."
+    ],
+    "story_options": [
+      "setting: A small, isolated monastery near the ruins, desire: Lakshmana seeks out a surviving monk who claims to have memorized specific astronomical tables from Nalanda, obstacle: The monks are terrified by military presence and refuse communication, turn: Lakshmana must prove his scholarly legitimacy before they share anything.",
+      "setting: An ancient Bodhi tree near the ruined university grounds during monsoon season, desire: To find a single artifact—a scroll fragment or inscribed tablet—that predates current regional power struggles, obstacle: A local religious zealot claims that digging near the ruins invites sacrilege, turn: The search forces Lakshmana to negotiate with spiritual purists.",
+      "setting: The makeshift encampment of a minor, itinerant scholar caravan passing through the region, desire: To obtain copies of practical treatises (engineering, agriculture) that survived persecution because they were deemed 'less sacred' than metaphysics, obstacle: The caravan leader suspects Lakshmana is an agent for reclaiming power and refuses to share their limited resources, turn: Lakshmana must earn the trust of the pragmatist by providing knowledge useful for immediate survival."
+    ],
+    "subject_rotations": [
+      "Examining the role of specific scholarly disciplines in collapse (e.g., medicine versus metaphysics), rather than treating 'knowledge' as a monolithic entity.",
+      "Focusing on the economic shift resulting from the decline of massive educational centers—where do scholars and their patrons move to survive?",
+      "Structuring the chapter around an internal debate within Lakshmana regarding whether political might or cultural continuity offers true societal strength."
+    ],
+    "sensory_details": [
+      "The fine, pervasive grit of pulverized sandstone dusting everything, making breathing feel like inhaling chalk.",
+      "The profound silence broken only by the irregular, rhythmic clack of dried earth falling from a crumbling cornice onto barren ground.",
+      "The smell of burnt papyrus mingling with damp monsoon soil after a sudden cloudburst."
+    ],
+    "research_questions": [
+      "What were the precise socio-economic structures that supported massive monastic universities like Nalanda prior to regional political fragmentation?",
+      "Which specific schools of thought (e.g., Mahayana vs. Hinayana) maintained stronger resilience or adaptability during periods of upheaval in this region?",
+      "How did surviving populations physically and ideologically integrate or reject knowledge systems from defunct major centers?"
+    ],
+    "structural_variants": [
+      "A non-linear structure: beginning with a vivid, detailed memory of the university's peak grandeur, then plunging into the silence of its current state."
+    ],
+    "unused_angles": [
+      "The involvement of specific artisan guilds whose work was vital to Nalanda’s construction and subsequent disappearance.",
+      "How localized rebellions or shifts in regional patronage led to the degradation rather than a single military assault on these centers."
+    ],
+    "variety_note": "While previous chapters dealt with political maneuvering (diplomacy) or physical traversal (rivers), this chapter focuses entirely inward, examining ideological attrition using an ancient site as its focal point."
+  }
+}

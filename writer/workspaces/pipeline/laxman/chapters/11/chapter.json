@@ -1,0 +1,70 @@
+{
+  "chapter_index": 11,
+  "name": "11",
+  "word_target": 5500,
+  "chapter_title": "দিল্লির বাঙালিদের তর্ক",
+  "chapter_summary": "আধুনিক ওয়ার্কশপে দিল্লির বাঙালি শিল্পীরা প্রশ্ন তোলে, গৌরবের গল্প কি জাতীয়তাবাদ হবে, না আত্মসম্মানের পুনরুদ্ধার। এই তর্ক নির্ধারণ করে লক্ষ্মণের গল্পকে গৌরবের ঢাক হিসেবে বলা হবে, নাকি সত্যের সাক্ষী হিসেবে—আর তা মূল কাহিনির রঙও পাল্টে দেয়।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "প্রবাসী বাঙালি পরিচয়",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "সাংস্কৃতিক আত্মবিশ্বাস",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "নাট্যদলের আলোচনা",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on a specific dissenting voice within the workshop—not just collective argument, but one individual whose dedication to local dialect renders 'grand narrative' inoperable.",
+      "Framing the debate as an economic/patronage struggle: Who pays for the retelling? The established elite (seeking grandeur) or newer, localized patrons (demanding veracity)?",
+      "Shifting the focus from national pride vs. self-respect to a micro-history of diaspora identity—how do these artists balance belonging to Bengal's past versus navigating Delhi's present reality?"
+    ],
+    "story_options": [
+      "setting: A cramped tea stall outside the main workshop area, desire: A young artist wants to assert that their unique, colloquial rendering of events is inherently more 'true' than any polished epic., obstacle: The senior master/patron insists on a high, Sanskritized register for marketability., turn: They agree to incorporate the local vernacular subtly into a performance piece as a deliberate act of cultural resistance.",
+      "setting: A poorly lit storage room filled with props and costumes, desire: An older, skeptical member feels that celebrating imperial glory is forgetting the poverty that fueled the empire., obstacle: The younger contingent argues that suffering must be woven into a glorious narrative to gain audience traction at all., turn: A single, forgotten prop (e.g., a child's discarded sandal) acts as an unintentional focal point for the entire debate.",
+      "setting: The busy entrance courtyard of the local theatre house, desire: Lakshman/the protagonist must observe how non-artists—the laborers, the audience members waiting outside—process these grand narratives versus their own lived experience., obstacle: The official narrative is so dominant that any dissenting whisper from the periphery is immediately dismissed as 'noise' or lack of education., turn: A minor act of unexpected generosity from a theatre worker forces one leading debater to pause and acknowledge an unwritten layer of reality."
+    ],
+    "subject_rotations": [
+      "Treating the debate not as philosophical, but as a practical negotiation over performance rights: who owns the interpretation of history?",
+      "Focusing on the 'performance' aspect of identity itself—how are they *performing* Bengali identity for an audience that may or may not be purely Bengali?",
+      "Examining how linguistic register (formal vs. colloquial) becomes a proxy war for socio-political allegiance in this Delhi setting."
+    ],
+    "sensory_details": [
+      "The metallic, slightly sour smell of cheap ink mixed with sweet, burnt jaggery from snacks offered during heated debates.",
+      "The specific, percussive sound of heavily embroidered silk rubbing against the rough sacking used for storage in a backroom.",
+      "A single bead of sweat tracking through charcoal dust on an artist's temple during long rehearsals."
+    ],
+    "research_questions": [
+      "What were common vernacular speech patterns and slang utilized by Bengal migrants settling in Delhi during that historical period?",
+      "How did the patronage dynamics shift between high court literary sponsorship (pre-arrival) and local/migrant community funding (post-establishment)?",
+      "Are there known examples of political commentary being coded into classical theatrical forms without direct censorship?"
+    ],
+    "structural_variants": [
+      "A heavily fragmented structure: rapid cuts between the formal arguments in a debating hall, interspersed with mundane, sensory observations from outside that illustrate the pressure cooker environment.",
+      "A dual narrative approach: presenting the highly intellectual debate simultaneously alongside an observational sequence detailing the logistical struggles of the troupe (food, travel weariness) that anchors their idealism."
+    ],
+    "unused_angles": [
+      "The possibility that a specific political figure in Delhi is covertly funding one side of the argument to destabilize another.",
+      "Exploring whether the concept of 'national identity' as understood by these artists was already intrinsically tied to regional dialect, rendering external definitions irrelevant."
+    ],
+    "variety_note": "Unlike the preceding chapters which focused on established power structures (royal, religious), this chapter pivots entirely inward, examining how localized cultural interpretation battles against overarching political expectation within an artistic medium."
+  }
+}

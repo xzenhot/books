@@ -1,0 +1,70 @@
+{
+  "chapter_index": 8,
+  "name": "8",
+  "word_target": 5500,
+  "chapter_title": "কবি জয়দেবের আলো",
+  "chapter_summary": "ওয়ার্কশপে সাহিত্য ও রাজশক্তি নিয়ে তর্ক ওঠে—কবি কি রাজার প্রশস্তি লিখবে, নাকি সত্যের সাক্ষী থাকবে। মূল কাহিনিতে কবি জয়দেব, পণ্ডিত উমাপতিধর ও গায়করা লক্ষ্মণকে অমর করতে চান, কিন্তু কবিতার সত্য ও রাজপ্রশস্তির সত্য ধীরে ধীরে আলাদা হয়ে ওঠে, আর কাব্যের সৌন্দর্য ও সত্যের দায় মুখোমুখি হয়।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "জয়দেব",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "উমাপতিধর",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "রাজসভা ও কাব্য",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the internal struggle of a court poet: Does his duty to royal patronage supersede his moral obligation to historical accuracy?",
+      "The relationship between musical performance (Gayana) and political legitimacy: Can a powerful artistic act temporarily mask foundational political instability?",
+      "Examining how literary reputation functions as an alternative form of social currency—a rival power broker to military might."
+    ],
+    "story_options": [
+      "Setting: A private, candle-lit chamber in the royal court; Desire: Umapati's pride and desperation for a patronage renewal must be acknowledged by Lakshmana; Obstacle: The poet insists on an unvarnished reference to a recent military failure; Turn: Lakshman chooses poetic immortality over immediate political stability.",
+      "Setting: A traveling troupe staging ground outside the city walls; Desire: Gāyaka seeks to win favor not through royal decree, but through universal popular acclaim of a difficult composition; Obstacle: The court insists on revising the narrative for 'martial glory'; Turn: The performance itself becomes a defiant political act.",
+      "Setting: A scholarly scriptorium used by Umapati and Lakshmana late at night; Desire: To resolve a fundamental disagreement over historical metaphor—is subtlety or bombast more effective in statecraft?; Obstacle: A critical manuscript detailing regional unrest is withheld from official review; Turn: The poem becomes an allegory that only the educated elite can truly decipher."
+    ],
+    "subject_rotations": [
+      "Treating the composition process itself as a form of political negotiation, where each chosen metaphor or historical allusion is a deliberate concession.",
+      "Examining the economic cost of poetry: How much patronage (land, grain, access) must be promised for a major poetic work to be commissioned?",
+      "Analyzing the audience reception: Who listens most keenly—the nobility who fund it, or the common people whose lives are described in its verses?"
+    ],
+    "sensory_details": [
+      "The heavy, sweet scent of aged sandalwood paste rubbed onto manuscripts during long hours of writing.",
+      "The low thrumming vibration felt through the wooden floorboards when a trained vocalist begins a difficult raga.",
+      "The fine grit and dried ink residue coating the fingers of a dedicated scribe."
+    ],
+    "research_questions": [
+      "What specific philosophical traditions informed court poetry during this period, particularly regarding the ethics of historical representation?",
+      "How did patronage systems function in relation to religious endowments (mathas) compared to direct royal grants in Sen-era Bengal?",
+      "Are there extant or theorized examples where poets intentionally obscured factual events within highly praised epic literature?"
+    ],
+    "structural_variants": [
+      "A fragmented structure: alternating between the high, polished language of courtly praise and terse, almost bureaucratic exchanges regarding factual details.",
+      "An epistolary approach: presenting excerpts from draft poems alongside personal letters written by the characters lamenting their conflicting duties."
+    ],
+    "variety_note": "Unlike neighboring chapters which dealt with physical logistics (rivers, grain) or external political reports (diplomacy), this chapter focuses intensely on the internal mechanics of cultural power and authorized narrative construction.",
+    "unused_angles": [
+      "Exploring how a rival court poet, marginalized by Lakshmana’s ascendance, actively sabotages literary projects through subtle critique.",
+      "The role of female patrons or muses in influencing the content that passes muster with male scholars."
+    ]
+  }
+}

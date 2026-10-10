@@ -42,7 +42,7 @@ def chapter_model_file(chapter):
 
     Returns the existing file when one is present (so reads and writes stay
     symmetric and never orphan a legacy file); defaults to `chapter.json` for a
-    brand-new chapter. Segment-level `segments/<x>/model.json` is unaffected.
+    brand-new chapter. Segment-level `segments/<x>/segment.json` (legacy `model.json`) is unaffected.
     """
     chapter = Path(chapter)
     for name in ("chapter.json", "model.json"):

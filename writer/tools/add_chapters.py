@@ -161,7 +161,7 @@ def add_chapters(bookname: str) -> None:
             json.dump(cm, f, indent=2, ensure_ascii=False)
 
         sm = {"level": "segment", "state": "returning", "chapter_index": n, "segment_index": 1}
-        with open(os.path.join(seg, "model.json"), "w", encoding="utf-8") as f:
+        with open(os.path.join(seg, "segment.json"), "w", encoding="utf-8") as f:
             json.dump(sm, f, indent=2, ensure_ascii=False)
 
         with open(os.path.join(cd, "chapter.md"), "w", encoding="utf-8") as f:

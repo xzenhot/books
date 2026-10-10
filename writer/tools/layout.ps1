@@ -55,7 +55,9 @@ function New-StateFiles([string]$Path, [hashtable]$Data) {
             $returning[$k] = $Data[$k]
         }
     }
-    $returning | ConvertTo-Json | Set-Content -Path (Join-Path $Path "model.json")    -Encoding UTF8
+    $fileName = "model.json"
+    if ($Data.level -eq "segment") { $fileName = "segment.json" }
+    $returning | ConvertTo-Json | Set-Content -Path (Join-Path $Path $fileName)    -Encoding UTF8
 }
 
 function Copy-TemplateDir([string]$Src, [string]$Dst) {

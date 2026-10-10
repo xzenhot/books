@@ -63,7 +63,8 @@ def new_state_files(path: Path, data: dict) -> None:
 
     returning = {"level": level, "state": "returning", **extra}
 
-    write_json(path / "model.json", returning)
+    filename = "segment.json" if level == "segment" else "model.json"
+    write_json(path / filename, returning)
 
 
 def copy_template_dir(src: Path, dst: Path) -> None:

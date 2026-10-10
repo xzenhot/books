@@ -1,0 +1,67 @@
+{
+  "chapter_index": 5,
+  "name": "5",
+  "word_target": 5500,
+  "chapter_title": "নদীর অর্থনীতি",
+  "chapter_summary": "ওয়ার্কশপে বাংলার নদীনির্ভর বাণিজ্য, কৃষি, নৌপথ ও শস্যভাণ্ডার নিয়ে আলোচনা হয়, আর মূল কাহিনিতে লক্ষ্মণ বোঝে যুদ্ধের শক্তি আসে কৃষকের ধান, মাঝির নৌকা ও কারিগরের লোহা থেকে। রাজার গৌরবের পেছনে দাঁড়িয়ে থাকে অগণিত সাধারণ মানুষের পরিশ্রম, আর রাজযাত্রা শুধু বীরত্ব নয়, শস্য, কর ও শ্রমেরও হিসাব।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "বাংলার নদী-অর্থনীতি",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "কৃষি ও বাণিজ্য",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "মধ্যযুগীয় নৌপথ",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on a specific grain (e.g., Aman paddy) as the physical representation of provincial wealth being mobilized for war.",
+      "An examination of how state demand for resources fundamentally alters local subsistence economies, turning agricultural practice into state service.",
+      "A micro-history tracking one particular consignment—a shipment of salt or textiles—from its point of origin to a military depot near the river."
+    ],
+    "story_options": [
+      "Setting: A busy landing ghat where grain barges meet smaller craft; Desire: Lakshmana observes an elderly barge owner who refuses to sell at state prices, forcing a private negotiation that tests his administrative resolve; Obstacle: Local moneylenders pressuring farmers due to delayed revenue payments; Turn: The refusal sparks a small but meaningful standoff illustrating resistance.",
+      "Setting: A small, family-run rice mill situated just off the main river artery; Desire: A young miller secretly diverts a portion of his daily yield into unmarked storage rather than reporting it fully to inspectors; Obstacle: Fear of confiscation leading to severe punishment or famine for his dependents; Turn: The clandestine act is discovered by a lower-ranking military quartermaster, who must decide whether to report the fraud.",
+      "Setting: A crowded auction tent adjacent to the state warehouse; Desire: An ambitious local intermediary seeks to corner the market on a specific type of hardened leather needed by the cavalry; Obstacle: Competition from an established, powerful guild representative who controls the supply chain paperwork; Turn: The conflict escalates into a subtle duel of documents and whispered favors rather than brute force."
+    ],
+    "subject_rotations": [
+      "Treating the 'river' not as a pathway for trade, but as a boundary—a dividing line between settled tax-paying lands and wilder, untamed peripheries.",
+      "Shifting emphasis from *what* is traded to *how* that exchange alters social hierarchy (e.g., how merchants gain status among warrior nobility).",
+      "Focusing on the internal mechanics of storage and distribution: the role of silos, granaries, and official measurement standards in controlling supply."
+    ],
+    "sensory_details": [
+      "The pervasive, musky scent of fermenting fish preserved for river travel.",
+      "The slick, cool feeling of heavy jute sacks being tied down against moisture near water's edge.",
+      "The sharp, metallic tang of oxidized iron fittings on the hulls of large cargo boats."
+    ],
+    "research_questions": [
+      "What specific agricultural techniques were most efficient or sustainable along the major river routes in Bengal during this period?",
+      "How did local customary laws regarding resource sharing (like fishing rights or common land use) interact with formal Senarchical revenue demands?",
+      "Were there specialized roles within riparian communities dedicated solely to managing state-controlled logistical nodes?"
+    ],
+    "structural_variants": [
+      "Beginning with a focused, minute description of the inspection process before zooming out to reveal the political stakes.",
+      "Framing the entire chapter as a sequence of transactions (a series of vignettes) rather than following one thread continuously.",
+      "Opening in high tension at the military depot receiving the goods, then flashing backward to the point of origin."
+    ],
+    "variety_note": "While previous chapters addressed the court and military strategy, this chapter grounds the epic in tangible material existence—the physical movement of sustenance from soil to army by focusing on logistics rather than command."
+  }
+}

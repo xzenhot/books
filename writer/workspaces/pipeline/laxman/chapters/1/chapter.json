@@ -1,0 +1,70 @@
+{
+  "chapter_index": 1,
+  "name": "1",
+  "word_target": 5500,
+  "chapter_title": "ওয়ার্কশপের প্রথম ডাক",
+  "chapter_summary": "মোহিত শিল্পী ও কলাকুশলীদের ডেকে প্রশ্ন রাখেন, রামায়ণের পর কোন বাঙালি নায়ক মঞ্চে উঠতে পারে। সিরাজ, চৈতন্য, বিবেকানন্দ, রবীন্দ্রনাথের ভিড়ে বিশ্বরূপ সেন যুগের কথা তোলে, আর বিজয়, বল্লাল ও লক্ষ্মণ সেনের গল্পকে বাংলার নিজস্ব মহাকাব্যিক নায়কের সম্ভাবনা হিসেবে দাঁড় করায়।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "বাংলার ঐতিহাসিক নায়ক নির্বাচন",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "সেন বংশ পরিচয়",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "জাতীয় স্মৃতি ও নাট্যরূপ",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The tension between high classical Sanskrit drama conventions favored by the scholars versus the raw, burgeoning emotional energy of Bengali folk performance traditions.",
+      "Focusing intensely on a specific artisan—a string maker or mask carver in the workshop—whose personal anxieties reflect the political uncertainty surrounding the impending cultural focus.",
+      "A meta-narrative thread where one older, dissenting voice within the assembly rejects entirely using epic heroes, arguing for a commentary rooted solely in immediate socio-economic realities."
+    ],
+    "story_options": [
+      "Setting: The dusty backstage rehearsal hall. Desire: A young musician desperately wants to perform a localized pastoral piece instead of state mythology. Obstacle: The chief scholar insists on canonical epic fidelity, and Turn: the musician silently incorporates subtle regional rhythms into their performance, an unheard dissent.",
+      "Setting: The workshops' communal kitchen during late-night preparation. Desire: One scribe needs funding for his family through a commission. Obstacle: Patronage is drying up due to internal philosophical disputes among the leading thinkers; Turn: he overhears a fragmented discussion hinting at political patronage shifting towards non-traditional narratives.",
+      "Setting: The cramped, humid storage room holding props and costumes. Desire: A prop master yearns for recognition beyond mere utility. Obstacle: His hand tool (perhaps a chisel or paint brush) breaks during mounting preparations; Turn: this mechanical failure forces the group to improvise a more emotionally resonant staging solution."
+    ],
+    "subject_rotations": [
+      "Treating 'the choice of hero' not as an act of intellectual curation, but as a moment of genuine cultural wrestling—a tug-of-war between established religious dogma and emergent regional identity.",
+      "Examining the economics of narrative: how different heroes (military versus philosophical) translate into differing patronage streams for the workshop and associated artisans.",
+      "Framing the discussion less around *who* should be chosen, and more on what cultural 'sound' or 'smell' of Bengal needs to dominate its emerging dramatic voice."
+    ],
+    "sensory_details": [
+      "The acrid smell of burnt linseed oil mixed with old camphor in the workshop storage area.",
+      "The rasping sound of a worn reed being scraped against bamboo during musical practice, momentarily overpowering spoken dialogue.",
+      "The tactile weight and uneven texture of hand-dyed silk curtains hanging backstage."
+    ],
+    "research_questions": [
+      "What were the prevailing Bengali poetic traditions or dramatic forms operating in parallel to the formalized courtly styles being discussed by these intellectual figures?",
+      "How did economic shifts during the late 12th century affect the patronage base for literary and performing arts in Bengal?",
+      "Can we identify any contemporary, non-epic narratives (local folklore, Sufi tales) that might have been circulating among this audience?"
+    ],
+    "structural_variants": [
+      "A frame narrative where the entire assembly's debate is interrupted by a sudden, jarring external sound—perhaps a distant battle drum or marketplace call—forcing an immediate shift in focus.",
+      "Structuring the chapter as a series of intense, brief monologues from different participants reacting to the central question rather than continuous dialogue."
+    ],
+    "variety_note": "Unlike previous chapters which focused on establishing political lineage (Victory/Ballal), this entry centers entirely on intangible creative genesis—the cultural arguments before action is taken. It prioritizes atmosphere over decree.",
+    "unused_angles": [
+      "The specific social dynamics between the itinerant performers and the established scholarly class within the workshop environment.",
+      "A detailed focus on regional dialects breaking through the formal Sanskritized speech during moments of impassioned argument."
+    ]
+  }
+}

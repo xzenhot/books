@@ -89,14 +89,19 @@ def verify(bookname: str) -> int:
         if not os.path.isdir(os.path.join(chapter_dir, "history")):
             errors.append(f"missing chapters/{name}/history/")
         segment_dir = os.path.join(chapter_dir, "segments", "1")
-        segment_model_path = os.path.join(segment_dir, "model.json")
+        segment_model_path = os.path.join(segment_dir, "segment.json")
         if not os.path.isfile(segment_model_path):
-            errors.append(f"missing chapters/{name}/segments/1/model.json")
+            # Fall back to legacy segment model.json for pipelines scaffolded before the rename.
+            legacy_path = os.path.join(segment_dir, "model.json")
+            if os.path.isfile(legacy_path):
+                segment_model_path = legacy_path
+        if not os.path.isfile(segment_model_path):
+            errors.append(f"missing chapters/{name}/segments/1/segment.json")
         else:
             segment = load(segment_model_path)
             if (segment.get("level") != "segment" or segment.get("chapter_index") != index
                     or segment.get("segment_index") != 1):
-                errors.append(f"chapters/{name}/segments/1/model.json identity fields are wrong")
+                errors.append(f"chapters/{name}/segments/1/segment.json identity fields are wrong")
         for sub in ("writer", "editor", "translator", "version"):
             if not os.path.isdir(os.path.join(segment_dir, sub)):
                 errors.append(f"missing chapters/{name}/segments/1/{sub}/")

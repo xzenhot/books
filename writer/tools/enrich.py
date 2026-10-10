@@ -36,9 +36,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-TEMPLATE_ROOT = REPO_ROOT / ".framework" / "templates" / "tools"
-# The active form's template folder, resolved once the book's form is known.
-_ACTIVE_DIR = TEMPLATE_ROOT / "enrich-novel"
+# The active form's template folder, resolved per book from the pipeline's own
+# layout/ folder. The shared .framework/templates/backlog tree is no longer used.
+_ACTIVE_DIR: Path | None = None
 STYLE_BASE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles" / "pijush" / "style.md"
 
 MODEL = "gemma4:latest"
@@ -58,7 +58,7 @@ DRY_RUN = False
 
 # Variation lenses: every chapter is briefed with one primary direction plus one twist
 # so a long book stops giving adjacent subjects the same treatment.
-# Loaded per form from .framework/templates/tools/enrich-{novel|poetry}/lenses.json.
+# Loaded per form from workspaces/pipeline/<bookname>/layout/enrich-{novel|poetry}/.
 LENSES: tuple = ()
 TWISTS: tuple = ()
 CREATIVE_REQUIRED: dict = {}
@@ -70,7 +70,7 @@ REPAIR_PROMPT_TEMPLATE: str = ""
 STYLE_REGENERATE_SYSTEM_PROMPT: str = ""
 
 
-RUNTIME_KEYS = {"state", "status", "filter_history", "completed_date", "word_count", "enrich", "override"}
+RUNTIME_KEYS = {"state", "status", "filter_history", "completed_date", "word_target", "enrich", "override"}
 IDENTITY_KEYS = {"chapter_index", "name", "word_target", "level", "segments"}
 PROTECTED_KEYS = RUNTIME_KEYS | IDENTITY_KEYS
 URL_RE = re.compile(r"(?:https?://|www\.)\S+", re.IGNORECASE)
@@ -79,16 +79,22 @@ URL_RE = re.compile(r"(?:https?://|www\.)\S+", re.IGNORECASE)
 PUNCTUATION = "!\"#$%&'()*+,-./:;<=>?@[]^_`{|}~।॥—“”‘’…"
 
 
-def resolve_template_dir(form: str) -> Path:
-    """Resolve the template folder for a book form (novel or poetry)."""
+def resolve_template_dir(form: str, layout_dir: Path) -> Path:
+    """Resolve the template folder for a book form (novel or poetry).
+
+    *layout_dir* is the book's own pipeline `layout/` folder — the sole source
+    of enrich templates.
+    """
     form = (form or "novel").strip().casefold()
     if form not in {"novel", "poetry"}:
         raise ValueError(f"Unsupported enrich form: {form!r}")
-    return TEMPLATE_ROOT / f"enrich-{form}"
+    return layout_dir / f"enrich-{form}"
 
 
 def _load_text(filename: str) -> str:
     """Read a template text file, tolerating a UTF-8 BOM."""
+    if _ACTIVE_DIR is None:
+        raise FileNotFoundError("No layout directory resolved; load_templates() must run first.")
     path = _ACTIVE_DIR / filename
     if not path.is_file():
         raise FileNotFoundError(f"Missing enrich template: {path}")
@@ -108,18 +114,18 @@ def _render(template: str, **values) -> str:
     return result
 
 
-def load_templates(form: str) -> None:
+def load_templates(form: str, layout_dir: Path) -> None:
     """(Re)load every form-specific template into the module globals.
 
-    Call once the book's form is known. `novel` reads `enrich-novel/`,
-    `poetry` reads `enrich-poetry/`.
+    Call once the book's form is known. Templates are read from the book's own
+    pipeline `layout/` folder (passed as *layout_dir*), the sole source.
     """
     global _ACTIVE_DIR, LENSES, TWISTS
     global CREATIVE_REQUIRED, CREATIVE_OPTIONAL, CREATIVE_FIELDS
     global ENRICH_SYSTEM_PROMPT, ENRICH_USER_PROMPT_TEMPLATE
     global REPAIR_PROMPT_TEMPLATE, STYLE_REGENERATE_SYSTEM_PROMPT
 
-    _ACTIVE_DIR = resolve_template_dir(form)
+    _ACTIVE_DIR = resolve_template_dir(form, layout_dir)
     print(f"Loading enrich templates for form '{form}' from {_ACTIVE_DIR} ...", flush=True)
     LENSES = tuple((name, guidance) for name, guidance in _load_json("lenses.json"))
     TWISTS = tuple(_load_json("twists.json"))
@@ -178,6 +184,22 @@ def resolve_chapters_root(bookname):
     return chapters_root
 
 
+def resolve_layout_dir(bookname):
+    """Resolve the book's own pipeline `layout/` template folder (mandatory).
+
+    Returns the Path to `workspaces/pipeline/<bookname>/layout/`. Raises
+    ValueError when it is missing, since enrich templates are no longer read
+    from the shared framework tree.
+    """
+    layout = REPO_ROOT / "workspaces" / "pipeline" / check_bookname(bookname) / "layout"
+    if not layout.is_dir():
+        raise ValueError(
+            f"Pipeline layout folder not found: {layout}\n"
+            "Run `/book {bookname} scaffold` to clone the layout templates first."
+        )
+    return layout
+
+
 def load_book_model(bookname):
     """Read the pipeline book plan (book.json, falling back to model.json) that gives every chapter its context."""
     pipeline = REPO_ROOT / "workspaces" / "pipeline" / check_bookname(bookname)
@@ -206,6 +228,104 @@ def resolve_book_form(bookname):
     if not form:
         form = "novel"
     return str(form)
+
+
+# --- Form-aware segmentation -----------------------------------------------
+# Poetry is a single-segment form: one segment per chapter (unchanged). A novel
+# chapter targets a large word count, so it is split into several continuous
+# segments, each carrying its own segment.json (chapter details + summary + word
+# target) and enriched with a per-segment creative angle.
+WORDS_PER_SEGMENT = 1000   # rough words each novel segment is expected to carry
+MIN_SEGMENTS = 5
+MAX_SEGMENTS = 10
+
+
+def segment_count_for(chapter):
+    """How many segments a novel chapter splits into (5–10).
+
+    Derived from the chapter's `word_target`, falling back to the length of its
+    `chapter_summary`. Poetry callers never use this — they have one segment.
+    """
+    word_target = chapter.get("word_target")
+    if isinstance(word_target, (int, float)) and word_target > 0:
+        raw = int(word_target) / WORDS_PER_SEGMENT
+    else:
+        summary = str(chapter.get("chapter_summary", ""))
+        raw = max(1, len(summary.split()) / 40)
+    count = int(round(raw))
+    return max(MIN_SEGMENTS, min(MAX_SEGMENTS, count))
+
+
+def build_segment_model(chapter, segment_index, total):
+    """One segment.json dict: chapter details + summary + per-segment word target."""
+    word_target = chapter.get("word_target")
+    if isinstance(word_target, (int, float)) and word_target > 0:
+        per_segment = max(1, -(-int(word_target) // total))
+    else:
+        per_segment = WORDS_PER_SEGMENT
+    return {
+        "level": "segment",
+        "segment_index": segment_index,
+        "total_segments": total,
+        "chapter_index": chapter.get("chapter_index"),
+        "name": chapter.get("name"),
+        "chapter_title": chapter.get("chapter_title"),
+        "chapter_summary": chapter.get("chapter_summary", ""),
+        "word_target": per_segment,
+        "state": "enriched",
+    }
+
+
+def _atomic_write_json(path, data):
+    """Write a JSON file atomically (temp file + rename)."""
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False)
+    encoded = (text.replace("\n", NEWLINE) + NEWLINE).encode("utf-8")
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=path.parent, prefix=".seg-", suffix=".tmp", delete=False) as stream:
+            temporary = Path(stream.name)
+            stream.write(encoded)
+        os.replace(temporary, path)
+    finally:
+        if temporary is not None and temporary.exists():
+            temporary.unlink()
+
+
+def ensure_segments(chapter_dir, chapter, form):
+    """Split a chapter into its form's segments and write/enrich each segment.json.
+
+    - **Poetry** — a single segment (`segments/1`); segmentation is a no-op.
+    - **Novel** — 5–10 continuous segments derived from the chapter's word target
+      (falling back to its summary). Each segment is written to
+      `segments/<n>/segment.json` carrying the chapter's details, summary, and its
+      own `word_target`, then enriched with a per-segment creative angle cycled
+      from the chapter's `creative_enrichment.angles`.
+
+    Returns the list of segment models written (empty for poetry).
+    """
+    chapter_dir = Path(chapter_dir)
+    if form != "novel":
+        (chapter_dir / "segments" / "1").mkdir(parents=True, exist_ok=True)
+        return []
+
+    total = segment_count_for(chapter)
+    creative = chapter.get("creative_enrichment")
+    creative = creative if isinstance(creative, dict) else {}
+    angles = [a for a in creative.get("angles", []) if isinstance(a, str) and a.strip()]
+    records = []
+    for i in range(1, total + 1):
+        seg_dir = chapter_dir / "segments" / str(i)
+        seg_model = build_segment_model(chapter, i, total)
+        if angles:
+            seg_model["segment_enrichment"] = {
+                "angle": angles[(i - 1) % len(angles)],
+                "status": "enriched",
+            }
+        _atomic_write_json(seg_dir / "segment.json", seg_model)
+        records.append(seg_model)
+    return records
 
 
 def resolve_model(bookname):
@@ -814,13 +934,24 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     additions = describe_additions(chapter, merged)
     title = chapter.get("chapter_title") or chapter.get("name") or str(index)
     record = {"index": index, "title": title, "lens": lens[0], "twist": twist,
-              "added": additions, "dropped": len(dropped), "written": False}
+              "added": additions, "dropped": len(dropped), "written": False,
+              "segments": 0}
     if merged == chapter:
         print(f"[{index}] {title} — nothing new to add.")
         return record
     if DRY_RUN:
         print(f"[{index}] {title} — DRY RUN would add: {additions}")
         return record
+
+    # Form-aware segmentation: poetry stays a single segment; novels split into
+    # 5–10 continuous segments, each with its own enriched segment.json.
+    form = book.get("form")
+    segment_models = ensure_segments(model_file.parent, merged, form)
+    if segment_models:
+        record["segments"] = len(segment_models)
+        merged["segments"] = [m["segment_index"] for m in segment_models]
+    else:
+        merged["segments"] = [1]
 
     text = json.dumps(merged, ensure_ascii=False, indent=2, allow_nan=False)
     encoded = (text.replace("\n", NEWLINE) + NEWLINE).encode("utf-8")
@@ -893,7 +1024,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
     DRY_RUN = args.dry_run
 
     if args.list_lenses:
-        load_templates(resolve_book_form(args.bookname))
+        load_templates(resolve_book_form(args.bookname), resolve_layout_dir(args.bookname))
         width = max(len(name) for name, _ in LENSES)
         for name, guidance in LENSES:
             print(f"{name.ljust(width)}  {guidance}")
@@ -905,7 +1036,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
         chapters_root = resolve_chapters_root(args.bookname)
         numbers = parse_chapter_input(args.chapters, chapters_root)
         book = load_book_model(args.bookname)
-        load_templates(resolve_book_form(args.bookname))
+        load_templates(resolve_book_form(args.bookname), resolve_layout_dir(args.bookname))
         if args.lens:
             forced_lens(args.lens)
     except ValueError as error:

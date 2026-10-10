@@ -88,7 +88,7 @@ This is mandatory.
 
 ## Chapter And Segment State
 
-Create `chapter.json` in every chapter folder and `model.json` in `segments/1/`.
+Create `chapter.json` in every chapter folder and `segment.json` in `segments/1/`.
 
 The scaffold agent's `## Chapter Layout` section is the runtime semantics for these files and folders:
 
@@ -167,7 +167,7 @@ The poetry override, like the novel override, is **a filter-file command layer**
 
 ## Chapter And Segment State
 
-Create `chapter.json` in every chapter folder and `model.json` in every segment folder.
+Create `chapter.json` in every chapter folder and `segment.json` in every segment folder.
 
 Chapter-level `chapter.json` minimum shape:
 
@@ -182,7 +182,7 @@ Chapter-level `chapter.json` minimum shape:
 }
 ```
 
-Segment-level `model.json` minimum shape:
+Segment-level `segment.json` minimum shape:
 
 ```json
 {
@@ -249,7 +249,7 @@ Before reporting completion, verify:
 - `filters/filters.json` exists and names all seven poetry filters in order. No per-filter folders are created at scaffold; each filter creates its folder on first run.
 - Every topic has one numeric chapter folder.
 - Every `segments/1/` has `writer/`, `editor/`, `version/`, and `translator/` folders.
-- Every chapter has `model.json`, a `history/` folder, and `segments/1/model.json`.
+- Every chapter has `model.json`, a `history/` folder, and `segments/1/segment.json`.
 - No `mood.json` files exist in poetry chapter folders.
 - No chapter or segment folders were created outside the canonical paths.
 - `workspaces/published/<bookname>/chapters/` exists and contains no unfinished generated prose unless a later workflow created it.

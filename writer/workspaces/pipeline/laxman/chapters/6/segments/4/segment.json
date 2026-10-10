@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 4,
+  "total_segments": 6,
+  "chapter_index": 6,
+  "name": "6",
+  "chapter_title": "মগধের দিকে দূত",
+  "chapter_summary": "মগধ ও বিহারের পথে পাঠানো দূতেরা উত্তর ভারতের রাজনৈতিক খবর নিয়ে ফেরে। নালন্দার ক্ষয়, বৌদ্ধ বিহারের নিঃসঙ্গতা, ব্রাহ্মণ্য শক্তির উত্থান ও বাণিজ্যপথের দখলের চিত্র লক্ষ্মণের রাজনীতিকে জটিল করে তোলে, আর সে শেখে যে বিজয়ের পথে জ্ঞান ও ধর্মের প্রশ্নও জড়িয়ে থাকে।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "The perspective of a high-ranking, yet disenfranchised, monk/scholar who witnessed the decay of Nalanda firsthand and distrusts both the Sena court's pragmatism and Brahmanical assertion.",
+    "status": "enriched"
+  }
+}

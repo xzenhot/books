@@ -1,0 +1,66 @@
+{
+  "chapter_index": 10,
+  "name": "10",
+  "word_target": 5500,
+  "chapter_title": "কলিঙ্গ ও কামরূপের স্মৃতি",
+  "chapter_summary": "প্রবীণ যোদ্ধারা কলিঙ্গ, কামরূপ ও ত্রিপুরার অভিযানের কথা বলেন, আর তাদের স্মৃতিতে অতীতের যুদ্ধ, বিজয় ও ক্ষতি জীবন্ত হয়ে ওঠে। তরুণ লক্ষ্মণ বুঝতে থাকেন প্রতিটি জয় নতুন সীমান্ত তৈরি করে, আর প্রতিটি সীমান্ত নতুন দায় ও নতুন শত্রুর জন্ম দেয়—বিজয়ের গৌরব ক্ষণস্থায়ী, কিন্তু তার পরিণতি দীর্ঘস্থায়ী।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "কলিঙ্গ অভিযান",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "কামরূপ",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "ত্রিপুরা ও পূর্ব সীমান্ত",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the stories less as military victories and more as inherited communal trauma—the lingering shadow of those distant wars affecting present morale.",
+      "Focusing on the material cost of these past glories: what specific artifacts, debts, or border skirmishes still plague the treasury or local populace?",
+      "Contrasting the romanticized battlefield narratives shared by elders with the younger generation's pragmatic views on stability versus conquest."
+    ],
+    "sensory_details": [
+      "The acrid smell of old sweat and dried resin clinging to worn leather armor from past campaigns.",
+      "A sudden, piercing sound—perhaps a unique bird call associated only with those distant eastern frontiers.",
+      "The dull ache in a veteran’s knees that mirrors the geographical distance and weariness embedded in his memories."
+    ],
+    "story_options": [
+      "Setting: A sparsely lit, high-vaulted reception hall where veterans congregate late at night; Desire: One elder insists on recounting a lost tribal alliance critical to an ancient victory, presenting it as evidence of current strategic weakness; Obstacle: The younger generation dismisses the anecdote as irrelevant mythmaking.",
+      "Setting: Near an old border marker or forgotten shrine referenced in their tales; Desire: Lakshmana seeks tangible proof (a relic, a ledger entry) verifying one specific historical skirmish mentioned by the elders; Obstacle: All physical evidence is missing, leaving only fragmented oral tradition.",
+      "Setting: A small gathering around a brazier as weather turns colder outside the main barracks area; Desire: One veteran reveals that the true weight of those victories wasn't strategic gain but the loss of specific cultural knowledge or unique crafts from conquered lands; Obstacle: The desire to preserve this nuanced history clashes with the court's need for simple, glorious propaganda."
+    ],
+    "subject_rotations": [
+      "Shifting the focus entirely away from military action toward the diplomatic fallout—the broken treaties and lingering vassalage inherited from those southern/eastern conquests.",
+      "Examining how geographic memory itself functions as a political boundary; where does 'our' territory begin when history stretches to remote river mouths?",
+      "Analyzing the psychological toll of successful foreign intervention: How do warriors cope with returning home after conquering lands that are now culturally distant?"
+    ],
+    "research_questions": [
+      "What specific non-military consequences (e.g., trade route disruptions, forced cultural assimilation) were characteristic outcomes of expansion into regions like Kalinga or Kamarupa during the 12th century?",
+      "Are there any regional iconographies or local legends preserved from those contested eastern territories that might offer insight into their political status post-conquest?",
+      "How did military leaders document or de-document instances where a victory resulted in unsustainable fiscal strain on the kingdom?"
+    ],
+    "structural_variants": [
+      "A layered sequence: Start with a highly evocative sensory memory (a sound/smell), transition to the narrative of an ancient battle, and then zoom back immediately to the quiet tension of the present gathering.",
+      "Use fragmented 'echoes'—short, powerful bursts of dialogue from different veterans speaking about different conquered places, forcing Lakshmana to piece together overlapping historical narratives."
+    ],
+    "variety_note": "Unlike earlier chapters dealing with tangible logistical preparation or immediate court politics, this chapter delves into accumulated history and inherited political burdens through oral tradition."
+  }
+}
