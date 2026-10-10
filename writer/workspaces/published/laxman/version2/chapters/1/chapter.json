@@ -1,0 +1,71 @@
+{
+  "chapter_index": 1,
+  "name": "1",
+  "word_target": 5500,
+  "chapter_title": "ওয়ার্কশপের প্রথম ডাক",
+  "chapter_summary": "মোহিত শিল্পী ও কলাকুশলীদের ডেকে প্রশ্ন রাখেন, রামায়ণের পর কোন বাঙালি নায়ক মঞ্চে উঠতে পারে। সিরাজ, চৈতন্য, বিবেকানন্দ, রবীন্দ্রনাথের ভিড়ে বিশ্বরূপ সেন যুগের কথা তোলে, আর বিজয়, বল্লাল ও লক্ষ্মণ সেনের গল্পকে বাংলার নিজস্ব মহাকাব্যিক নায়কের সম্ভাবনা হিসেবে দাঁড় করায়।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "বাংলার ঐতিহাসিক নায়ক নির্বাচন",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "সেন বংশ পরিচয়",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "জাতীয় স্মৃতি ও নাট্যরূপ",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The debate focusing less on great historical figures and more on the local artisans/craftsmen themselves—their motivations for believing in a new epic.",
+      "Examining the economic implications of producing such grand epics: who funds this, what materials are used, and how do the guilds feel about their patronage?",
+      "A philosophical approach where the 'hero' is less about military might and more about intellectual synthesis (blending different local traditions into a cohesive narrative)."
+    ],
+    "story_options": [
+      "Setting: A cramped workshop corner near the main theater hall; Desire: One junior artist desperately wants to be recognized by the master playwright/director; Obstacle: The senior artists are fiercely protective of established, safer mythological tropes; Turn: They decide to gamble on a local historical figure rather than safe myth.",
+      "Setting: Outside the patronage houses of wealthy merchants in Dhaka (or relevant trade hub); Desire: A merchant wants his family's legacy immortalized through drama; Obstacle: His narrative is too provincial or lacks epic scope; Turn: The workshop argues that regional history *is* a new form of high epic.",
+      "Setting: During an intermission rehearsal where the technical crew (sound/scenery) are present; Desire: A stagehand longs for real, visceral action rather than stylized pantomime; Obstacle: The established troupe insists on highly formalized, classical movement; Turn: They start debating what kind of 'action' truly resonates with the common audience."
+    ],
+    "subject_rotations": [
+      "Focusing purely on the *craft* of selection: How does a society determine which story has enough structural tension to sustain an epic?",
+      "Treating the discussion as a sociological snapshot of the period—a microcosm revealing cultural anxieties about regional identity versus grand imperial narrative.",
+      "The role of marginalized voices (e.g., female poets, itinerant bards) in challenging the established consensus on who deserves heroic status."
+    ],
+    "sensory_details": [
+      "The sharp, metallic tang of lamp oil mixed with drying pigments staining the wooden floorboards.",
+      "The rhythmic squeak and groan of heavy, untested stage rigging under rehearsal stress.",
+      "The coarse grit of imported dye powder dusting off a scribe's inkwell."
+    ],
+    "research_questions": [
+      "What were common local narrative traditions or 'folk heroes' in the Bengal region at this time who were not already famous figures?",
+      "How did contemporary Bengali literary circles engage with classical epics (like Ramayana) beyond mere imitation, and where was their point of critical divergence?",
+      "What social structures governed the commissioning and production of large-scale cultural performances during the Sen period?"
+    ],
+    "structural_variants": [
+      "A completely decentralized structure: Multiple short vignettes showing different workshops/intellectuals engaging with the same central question, rather than a single unified debate.",
+      "Starting *in media res*—midway through an intense argument, and then flashing back to establish the prior intellectual context before resolving the scene."
+    ],
+    "variety_note": "This chapter moves away from political machinations (as seen in Chapter 3) or grand royal rituals (Chapter 4), focusing instead on the volatile, creative crucible of artistic selection itself."
+  },
+  "draft": {
+    "sha256": "72f6bbcef35c5212029c768251c08d5d1de16e6d0a8ae1f936251e9e72980269",
+    "written_at": "2026-10-10T14:20:40.758750+00:00",
+    "origin": "write"
+  }
+}

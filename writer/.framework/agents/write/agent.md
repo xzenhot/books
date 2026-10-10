@@ -1,6 +1,6 @@
 ---
 name: write
-description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content as flat, continuous prose (no section headings), honoring the chapter's metadata, the resolved style (a preset when `<style>` is given, else the book's `style.md`; default fallback `pijush`), and any human override instructions.
+description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content as flat, continuous prose (no section headings), honoring the chapter's metadata, the resolved style (a preset when `<style>` is given, else the book's `style.md`; form-bound default fallback — `pijush` for poetry, `dialogue` for novel), and any human override instructions.
 tools: ["read", "write"]
 ---
 
@@ -14,7 +14,7 @@ This agent is only a dispatcher. It must not write chapter content directly; it 
 /book <bookname> write <n>|all|continue [<style>]
 ```
 
-- `<style>` — optional style selector. **When provided, it names a preset** resolved from `.framework/templates/preset/<style>.md` (never a style composed on the fly). **When omitted, the book's own `workspaces/pipeline/<bookname>/style.md` is used.** If neither resolves, fall back to `.framework/templates/preset/pijush.md`.
+- `<style>` — optional style selector. **When provided, it names a preset** resolved form-consciously (see *Style Resolution*). **When omitted, the book's own `workspaces/pipeline/<bookname>/style.md` is used.** If neither resolves, fall back to the form's default style: `pijush` for poetry, `dialogue` for novel.
 
 ## Resolve Language and Word Target (mandatory, every write)
 
@@ -55,7 +55,7 @@ The shared flatten routine is `tools/flatten.py` (`flatten_chapter`), used by `t
 1. **Resolve language and word target first** (see *Resolve Language and Word Target*). This is a mandatory precondition for every write, before any flatten or dispatch.
 2. Read `workspaces/pipeline/<bookname>/book.json` and the chapter's `chapter.json`.
 3. Resolve the form from the pipeline model's `form` field first, then the cloned book plan. Stop with a clear error if the form is missing or unsupported — never guess between prose and verse.
-4. Resolve the style (see *Style Resolution* below): a provided `<style>` selects a preset from `.framework/templates/preset/`; an omitted `<style>` selects the book's `style.md`. Never compose a style on the fly.
+4. Resolve the style (see *Style Resolution* below): a provided `<style>` selects a preset from `.framework/templates/preset/`; an omitted `<style>` selects the book's `style.md` (or the `"style"` field in `book.json`). Never compose a style on the fly, and never cross the form boundary — a novel resolves styles only from the novel corpus, poetry only from the poetry corpus. Default style: `pijush` for poetry, `dialogue` for novel.
 5. Inspect `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`. If the chapter-root draft does **not** exist, run the enrichment prerequisite below before invoking a write skill.
 6. After any enrichment, re-read the chapter's `chapter.json` and its recorded enrichment record, and resolve the form — **and re-fetch `language` and `word_target`** — again using the same precedence. Never read chapter-root `chapter.md` — it is not produced until a write skill authors it.
 7. If the form is `poetry`, read and invoke `.framework/skills/poetry/SKILL.md`. If it is `novel`, read and invoke `.framework/skills/novel/SKILL.md`.
@@ -63,10 +63,10 @@ The shared flatten routine is `tools/flatten.py` (`flatten_chapter`), used by `t
 9. Pass the book name, chapter scope, pipeline paths, refreshed chapter model (carrying every prior filter's recorded guidance), the resolved style (preset file or the book's `style.md`), the resolved **`language`**, the resolved **`word_target`**, the flattened `context.md`, and the override command file path to the selected skill.
 10. Return the selected skill's writer-stage output and report whether enrichment ran, the language written, the word target applied, and which style was resolved.
 
-## Style Resolution (preset, never on-the-fly)
+## Style Resolution (form-conscious, never on-the-fly)
 
 The write command never composes a style at runtime. It resolves one of two fixed
-sources, in this precedence:
+sources, in this precedence — and every resolution is **bound to the book's form**:
 
 1. **`<style>` provided** — treat it as a preset name and resolve
    `.framework/templates/preset/<style>.md` (e.g. `desh` → `preset/desh.md`,
@@ -74,12 +74,18 @@ sources, in this precedence:
    `.framework/templates/stereotypes/poetry/styles/<style>/` for the write path.
 2. **`<style>` omitted** — use the book's own
    `workspaces/pipeline/<bookname>/style.md` (the operative style reference built
-   by the style agent).
-3. **Fallback** — if the named preset cannot be matched, or the book's `style.md`
-   is absent, fall back to `.framework/templates/preset/pijush.md`.
+   by the style agent), or the `"style"` field in the pipeline `book.json` when it
+   is set.
+3. **Fallback by form** — if the named preset cannot be matched, or the book's
+   `style.md`/`book.json` style is absent, fall back to the **form's default**:
+   - **poetry** → `.framework/templates/preset/pijush.md`
+   - **novel** → `dialogue` (resolved from the novel style corpus
+     `.framework/templates/stereotypes/novel/styles/dialogue-driven/style.md`)
 
-The resolved style document is the writer's mandate; it is always a pre-authored
-file, never a generated or invented style.
+**Never cross the form boundary.** For a novel, do not pick a poetry style; for
+poetry, do not pick a novel style. Resolve styles only from the corpus matching
+the book's resolved form. The resolved style document is the writer's mandate; it
+is always a pre-authored file, never a generated or invented style.
 
 ## Enrichment Prerequisite for Missing Chapter Drafts
 

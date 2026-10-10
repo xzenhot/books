@@ -17,7 +17,29 @@ translate, promote, or assemble books.
 /book <bookname> style [<style>]
 ```
 
-If `<style>` is omitted, use `pijush`.
+When `<style>` is omitted, default by the book's **form**:
+
+- **poetry** → `pijush`
+- **novel** (or any non-poetry form) → `dialogue`
+
+Resolve the form from the pipeline `book.json` (`form` field), falling back to
+the backlog `book.json`.
+
+## Record The Style In The Book Plan
+
+The `style` command must also **persist the selected style** so downstream
+commands (write, chapter, story, enrich, publish) can resolve it without
+re-asking. After resolving `<style>` (defaulting by form — `pijush` for poetry,
+`dialogue` for novel — when omitted):
+
+1. Read `workspaces/pipeline/<bookname>/book.json`.
+2. Add (or update) a top-level `"style"` field set to the selected style's
+   nickname — e.g. `"style": "desh"`, `"style": "pijush"`.
+3. Write `book.json` back with that field present, preserving every other
+   field verbatim.
+
+The `"style"` field is a single string nickname (the folder name under the
+form's styles directory), not a path and not a full document.
 
 ## Resolution
 
@@ -91,7 +113,11 @@ anchored to THIS book rather than a generic template:
 4. Write that detailed document to `workspaces/pipeline/<bookname>/style.md`,
    replacing any prior content. It becomes the book's operative style reference —
    not a chapter draft.
-5. Report the selected style, the grounding source read, and the path written.
+5. Record the selected style in `workspaces/pipeline/<bookname>/book.json` by
+   setting the top-level `"style"` field to the nickname (see *Record The Style
+   In The Book Plan*).
+6. Report the selected style, the grounding source read, the style document path
+   written, and the `book.json` `"style"` field set.
 
 ## Subjects Registry
 
