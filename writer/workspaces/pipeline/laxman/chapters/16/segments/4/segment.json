@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 4,
+  "total_segments": 6,
+  "chapter_index": 16,
+  "name": "16",
+  "chapter_title": "দোয়াবের ধুলো",
+  "chapter_summary": "দোয়াবের উর্বর ভূমিতে সেন বাহিনী অপরিচিত শক্তির মুখোমুখি হয়, আর ভাষা, খাদ্য, যুদ্ধরীতি ও রাজনীতির পার্থক্য সৈন্যদের ভিতর ভয় ও কৌতূহল জাগায়। লক্ষ্মণ শেখে প্রতিটি নতুন অঞ্চল নিজস্ব নিয়মে চলে, আর যুদ্ধ শুধু শক্তি নয়, বোঝাপড়ারও খেলা।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "Focusing on a specific culinary confrontation: A Sen soldier attempting to integrate local staple foods (different grains or spices) with traditional court cuisine, highlighting the subtle rejection or acceptance of cultural differences through the plate.",
+    "status": "enriched"
+  }
+}

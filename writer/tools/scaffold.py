@@ -118,8 +118,13 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
             folder.mkdir(parents=True, exist_ok=True)
         if not (chapter / "chapter.json").exists() and not (chapter / "model.json").exists():
             write_json(chapter / "chapter.json", dict(entry, level="chapter", state="scaffolded", segments=[1]))
-        if not (segment / "model.json").exists():
-            write_json(segment / "model.json", {"level": "segment", "state": "pending", "chapter_index": entry["chapter_index"], "segment_index": 1})
+        if not (segment / "segment.json").exists():
+            # Migrate legacy segment model.json -> segment.json (copy, keep legacy until verified).
+            legacy = segment / "model.json"
+            if legacy.exists() and not (segment / "segment.json").exists():
+                write_json(segment / "segment.json", read_json(legacy))
+            else:
+                write_json(segment / "segment.json", {"level": "segment", "state": "pending", "chapter_index": entry["chapter_index"], "segment_index": 1})
     if not existing or model != existing:
         write_json(model_path, model)
     seed = pipeline / "bookseed.txt"

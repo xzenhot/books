@@ -1,0 +1,68 @@
+{
+  "chapter_index": 13,
+  "name": "13",
+  "word_target": 5500,
+  "chapter_title": "প্রথম নদী পার",
+  "chapter_summary": "অভিযান শুরু হয়, আর নৌকা, হাতি, অশ্বারোহী, শূদ্র মাঝি, ব্রাহ্মণ পুরোহিত, সৈনিকের স্ত্রী ও শিশুর চোখে রাজযাত্রার গৌরব ভিন্ন ভিন্ন অর্থ নেয়। লক্ষ্মণ দেখে রাজার গৌরবের যাত্রা সবার কাছে এক নয়—কারও কাছে স্বপ্ন, কারও কাছে দায়, কারও কাছে বিচ্ছেদের বেদনা।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "নদী পারাপার",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "সৈন্যসমাবেশ",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "সাধারণ মানুষের দৃষ্টিকোণ",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the contrasting rhythms of different elements crossing the river: the disciplined cadence of marching feet against the chaotic lapping sound of water against wooden hulls.",
+      "Viewing the passage not as a single event, but as a temporal slippage where the idealized map-dream meets the muddy reality of logistics and discomfort.",
+      "Centering on the internal monologue of one non-combatant—perhaps a high-caste woman whose family livelihood is disrupted by the grand procession."
+    ],
+    "story_options": [
+      "Setting: A makeshift crossing point in the deepest, slow-moving eddy of the river; Desire: The youngest soldier desperately needs fresh water and encounters an elderly local who offers aid but speaks only poetry about the flow of time, not logistics.",
+      "Setting: The rear bank where baggage trains are heavily loaded; Obstacle: A sudden, unpredictable localized storm threatens to swamp the fragile provisions, and Lakshmana must make a quick decision sacrificing something non-essential (but significant) for safety.",
+      "Setting: Amidst the cacophony of hundreds of crossing boats/rafts; Turn: The procession halts abruptly because one vital but overlooked component—like an indispensable religious icon or a key administrative scroll—is found lost in the churning current."
+    ],
+    "subject_rotations": [
+      "Shifting emphasis from 'Glory' to 'Attrition': Cataloging the small, cumulative costs (torn sandals, minor injuries, spoiled supplies) that balance against the spectacle.",
+      "Examining the river as a fluid social barometer: How do different classes and castes interact/collide during transit in ways they wouldn't on dry land?",
+      "Treating the journey itself as an initiation ritual for Lakshman: Not his military training, but forced immersion into elemental chaos to temper his noble expectations."
+    ],
+    "sensory_details": [
+      "The sharp, metallic taste of river silt coating the back of the throat after a long stretch near the banks.",
+      "The incessant, high-pitched whine of straining ropes on overloaded barges against the deep thrum of oarsmen's effort.",
+      "The slick, cold feel of wet earth clinging to armor plating or ceremonial drapery as the procession scrapes past low-lying muddy banks."
+    ],
+    "research_questions": [
+      "What were standard protocols for managing non-combatant baggage and family members accompanying high nobility during 12th-century regional military movements?"
+    ],
+    "structural_variants": [
+      "An interstitial structure where the central crossing sequence is broken up by short vignettes of characters waiting on opposite banks, experiencing the event in anticipation or aftermath.",
+      "A cyclical structure: describing a specific physical landmark (a specific heron's perch, a particular curve in the water) from the perspective of multiple people as they pass it during their journey."
+    ],
+    "unused_angles": [
+      "The role and power dynamics among the low-caste boatmen relative to high military figures who rely on them for passage.",
+      "How religious ritual objects (purification rites) are adapted or compromised when moved from a fixed temple setting onto transient river craft."
+    ],
+    "variety_note": "Unlike previous chapters focusing on established political/cultural frameworks, this chapter must ground the epic conflict in immediate physical vulnerability and diverse personal micro-narratives of movement."
+  }
+}

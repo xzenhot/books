@@ -54,7 +54,7 @@ For each chapter:
    - `workspaces/pipeline/<bookname>/chapters/<n>/segments/<x>/writer/`
    - `workspaces/pipeline/<bookname>/chapters/<n>/segments/<x>/editor/`
    - `workspaces/pipeline/<bookname>/chapters/<n>/segments/<x>/translator/`
-3. For each segment, create a state file `workspaces/pipeline/<bookname>/chapters/<n>/segments/<x>/model.json`:
+3. For each segment, create the state file `workspaces/pipeline/<bookname>/chapters/<n>/segments/<x>/segment.json`:
    ```json
    {
      "level": "segment",
@@ -121,6 +121,6 @@ Do not overwrite unrelated fields; merge the seed state into the existing model.
 
 ## Output
 
-- **Segment layout** — create the segment folders and `model.json` state files under `chapters/<n>/segments/<x>/`.
+- **Segment layout** — create the segment folders and `segment.json` state files under `chapters/<n>/segments/<x>/`.
 - **Chapter models** — update `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` with `included_characters`, `quality_parameters`, `chapter_summary`, and `segments`.
 - **Filter summary** — report a single summary on screen (no `filter-summary.md` file), summarizing the layout and the seed text written.

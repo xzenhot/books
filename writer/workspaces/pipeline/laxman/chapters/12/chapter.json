@@ -1,0 +1,66 @@
+{
+  "chapter_index": 12,
+  "name": "12",
+  "word_target": 5500,
+  "chapter_title": "কনৌজের দূত",
+  "chapter_summary": "গাহড়বাল শক্তির প্রতিনিধি কনৌজের দূত সভায় আসেন, আর ভদ্রতার আড়ালে বিদ্রূপ ও হুমকি রেখে যান। লক্ষ্মণ বুঝতে পারে কনৌজ শুধু একটি শহর নয়, উত্তর ভারতের রাজ্যগৌরবের এক পুরনো মুকুট, আর এই অভিযান শুধু সামরিক নয়, প্রতীকী ও রাজনৈতিকও।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "কনৌজ",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "গাহড়বাল রাজবংশ",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "মধ্যযুগীয় কূটনীতি",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the subtle language of insult: How are threats delivered through elaborate courtly politeness in a diplomatic exchange?",
+      "The messenger's burden: Exploring the psychological weight carried by the envoy—the personal cost of being the face of his kingdom.",
+      "Shifting focus to the logistics of the negotiation: The minute details of audience arrangement, gift presentation, and guard deployment as silent statements of power."
+    ],
+    "story_options": [
+      "setting: A cramped receiving antechamber within the fortified citadel of Kanauj, desire: Lakshmana desires to elicit a direct declaration of intent from the envoy, not veiled threats., obstacle: The envoy maintains perfect, studied composure, using flowery but evasive language regarding boundary disputes and vassal duties., turn: A seemingly minor object (a specific seal, a scroll border) that the envoy touches triggers an unspoken memory in Lakshmana about past diplomatic failures.",
+      "setting: The riverside path leading to the main assembly hall, desire: Lakshmana seeks reassurance from his senior advisors about whether Kanauj can be intimidated diplomatically., obstacle: A sudden, unexpected downpour forces an unplanned halt in protocol, throwing the formality of the meeting into immediate disarray., turn: During the brief respite, a servant accidentally reveals sensitive information regarding local allegiances that undermines the official diplomatic stance.",
+      "setting: The private audience chamber designated for minor tributary representatives, desire: To understand how Kanauj views the stability of Bengal's nascent empire., obstacle: A low-ranking attendant, tasked with preparing refreshments, subtly intervenes by spoiling a gesture meant to appear hospitable., turn: The subtle sabotage forces Lakshmana to engage in a private discourse with the envoy, bypassing the formal political script."
+    ],
+    "subject_rotations": [
+      "Treating Kanauj not as a state to be conquered, but as an ancient cultural repository whose collapse signifies a regression of shared intellectual tradition.",
+      "Focusing heavily on the differing perceptions of 'honor' (Manushya Maryada) between the courtly standards of Bengal and the entrenched aristocracy of the North.",
+      "Examining how familial obligation or dynastic rivalry plays out in high statecraft, even when armies are ostensibly at war."
+    ],
+    "sensory_details": [
+      "The sharp scent of expensive, imported sandalwood paste used by the envoy’s personal guards mixed with the humid river mist.",
+      "The metallic taste on Lakshmana's tongue from a ceremonial offering poured during the audience that was slightly bitter.",
+      "The distinct sound of heavy, weighted brocade robes rustling against rough stone flooring as the envoy shifts his weight."
+    ],
+    "research_questions": [
+      "What were the specific diplomatic precedents or historical mechanisms used in 12th-century North India for mediating disputes between rising regional powers (like Bengal) and entrenched established monarchies (like Kanauj)?",
+      "Beyond military strength, what symbols of cultural legitimacy (e.g., lineage artifacts, religious sanction) held sway in the political currency of Kanauj?",
+      "How did the courtly etiquette of Bengali royalty contrast with the expected diplomatic formality required when dealing with a major power center like Kanauj at that time?"
+    ],
+    "structural_variants": [
+      "A flashback structure where Lakshmana recalls a previous, less formal encounter or exchange with Kanouj's representatives before this official meeting.",
+      "Alternating scenes between the tension of the negotiation and internal strategic briefings held by his military/political councilors regarding the perceived risk."
+    ],
+    "variety_note": "Unlike the preceding chapters which focused on preparation, religious discourse, or logistical movement, this chapter isolates a single high-stakes diplomatic confrontation against an established northern power structure."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "chapter_index": 7,
+  "name": "7",
+  "word_target": 5500,
+  "chapter_title": "গঙ্গাপথের মানচিত্র",
+  "chapter_summary": "মহাসেনাপতি রুদ্রদেব নদী, ঘাট, দোয়াব, নৌবহর, হাতি, খাদ্য ও বর্ষার হিসেব সাজান, আর কনৌজের স্বপ্ন প্রথমবার সামরিক বাস্তবতার কঠিন ভাষায় অনুবাদ হয়। রসদ, অস্ত্র ও সৈনিকের সংখ্যার হিসেব লক্ষ্মণের সামনে খুলে যায়, আর সে বোঝে স্বপ্নের গৌরব বাস্তবতার কঠিন হিসেবের ওপর দাঁড়িয়ে থাকে।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "গঙ্গা ও দোয়াব",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "সামরিক রসদ",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "নদীপথে যুদ্ধযাত্রা",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the logistical planning not as a grand strategic document, but through the meticulous handwriting and marginalia of one junior quartermaster.",
+      "A contrast between the abstract military strategy presented by Rudradeva (the 'dream') and the grim physical realities faced by individual soldiers preparing for deployment (the 'reality').",
+      "Exploring the relationship between resource scarcity and moral decision-making among supply officers—who gets priority when transport is limited?"
+    ],
+    "story_options": [
+      "Setting: A makeshift military staging camp near a major river crossing; Desire: One veteran scout harbors deep pessimism about reaching Konauj, finding a moment of unexpected camaraderie with an inexperienced young clerk; Obstacle: A recent local skirmish has diverted needed supplies, forcing creative rationing; Turn: The scouting party discovers a forgotten tributary route that bypasses the main political choke points.",
+      "Setting: Inside Rudradeva's war room, surrounded by maps and ledger books; Desire: Lakshmana pushes back against an overly optimistic supply estimate provided by his most trusted officer; Obstacle: A rival military faction attempts to leverage discrepancies in the inventory records for political gain; Turn: The discrepancy isn't about quantity, but quality—the materials are less reliable than advertised.",
+      "Setting: A private quarter reserved for a few high-ranking nobles waiting near the embarkation point; Desire: A wealthy patron uses their influence not for strategic advantage, but to secure personal provisions (better horse feed, specialized wine); Obstacle: The official military commissar intercepts this attempt, forcing an immediate confrontation over the boundaries between state provisioning and elite privilege; Turn: The clash forces a sudden clarification of command authority."
+    ],
+    "subject_rotations": [
+      "Shifting focus from the *scale* of the army's needs (total numbers) to the specific *quality* of its specialized components (e.g., metallurgy for siege gear, quality of war mounts).",
+      "Analyzing the inherent tension between military necessity and established local customs regarding water usage or transit rights in the river delta.",
+      "Treating the mapping process itself as a narrative device: how different cartographic representations—the strategic versus the ethnographic—reveal different truths about the territory."
+    ],
+    "sensory_details": [
+      "The persistent, metallic odor of poorly maintained iron fittings left exposed to the humid river air.",
+      "The coarse texture and earthy smell of hemp rope used for securing heavy military baggage on draft animals.",
+      "The precise *tick* or muffled clatter made by standardized counting weights being dropped into a clay receptacle during inventory."
+    ],
+    "research_questions": [
+      "What were the standard administrative units used by medieval Indian armies to classify and track different classes of weaponry (archery, cavalry gear, siege implements)?",
+      "Beyond general river routes, what specific local knowledge was required for safe passage through seasonal floodplains in Bengal?",
+      "How did contemporary military logistics treat specialized manpower versus simple consumable goods?"
+    ],
+    "structural_variants": [
+      "A chapter structured as a dual timeline: one stream following the grand strategic planning from Rudradeva's perspective, interwoven with a smaller stream detailing the actual preparations and difficulties of a single unit.",
+      "Structuring the chapter around an 'unanswerable question': A central logistical problem (e.g., how many healthy horses can reliably reach Konauj) that drives all subsequent action."
+    ],
+    "variety_note": "Unlike previous chapters focused on broad cultural or political currents, this must be sharply grounded in concrete, bureaucratic, and physical logistics—the 'how' of the journey rather than just the 'why.'",
+    "unused_angles": [
+      "An analysis of how religious beliefs might influence resource allocation (e.g., dedicating a specific contingent to guarding sacred sites along the route).",
+      "A microscopic look at the specialized roles within the intelligence network that feeds information into Rudradeva's planning.",
+      "Exploring the political ramifications of allied tribes/regions being required to provide non-standard levies."
+    ]
+  },
+  "draft": {
+    "sha256": "524bd2093cb21d1603f6cec62e8c735b02be0a2caa5f32e6f2f72f22b3426ec7",
+    "written_at": "2026-10-10T11:24:32.830578+00:00",
+    "origin": "write"
+  }
+}

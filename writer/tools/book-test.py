@@ -212,9 +212,9 @@ class TestValidateLayout(unittest.TestCase):
 
 
 class TestSummaryHelpers(unittest.TestCase):
-    def test_word_count(self):
-        self.assertEqual(book._summary_word_count("one two three"), 3)
-        self.assertEqual(book._summary_word_count(None), 1)  # str(None) -> "None"
+    def test_word_target(self):
+        self.assertEqual(book._summary_word_target("one two three"), 3)
+        self.assertEqual(book._summary_word_target(None), 1)  # str(None) -> "None"
 
     def test_short_summary_indices(self):
         chapters = {

@@ -73,7 +73,7 @@ workspaces/pipeline/<bookname>/
     |   |-- history/
     |   `-- segments/
     |       `-- 1/
-    |           |-- model.json
+    |           |-- segment.json
     |           |-- writer/
     |           |-- editor/
     |           |-- version/
@@ -240,7 +240,7 @@ Chapter-level `chapter.json` should include the chapter identity and initial pla
 - `workshop_file`
 - `research_file`
 
-Segment-level `model.json` minimum shape:
+Segment-level `segment.json` minimum shape:
 
 ```json
 {
@@ -307,7 +307,7 @@ Before reporting completion, verify:
 
 - Root files exist: `book.json`, `characters.json`, `masterprompt.md`, `workshop_metadata.md`, `progress.json`.
 - `filters/filters.json` exists and names the filters selected from `book.json`'s `filter_chain` (or the default novel preset chain if no book plan exists) in the exact order declared. No per-filter folders are created at scaffold; each filter creates its folder on first run.
-- Every chapter in `Introduction -> 1..N -> Conclusion` has `model.json`, `mood.json`, `chapter.md`, a `history/` folder, and `segments/1/model.json`.
+- Every chapter in `Introduction -> 1..N -> Conclusion` has `model.json`, `mood.json`, `chapter.md`, a `history/` folder, and `segments/1/segment.json`.
 - Every `segments/1/` has `writer/`, `editor/`, `version/`, and `translator/` folders.
 - No chapter or segment folders were created outside the canonical paths.
 - `workspaces/published/<bookname>/chapters/` exists and contains no unfinished generated prose unless a later workflow created it.

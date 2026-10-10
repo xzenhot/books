@@ -98,16 +98,16 @@ def search(
 
 
 @mcp.tool()
-def calculate_reading_time(word_count: int, wpm: int = 200) -> float:
+def calculate_reading_time(word_target: int, wpm: int = 200) -> float:
     """Calculate the estimated reading time in minutes for a given word count.
 
     Args:
-        word_count: Total number of words in the text.
+        word_target: Total number of words in the text.
         wpm: Words read per minute (default is 200).
     """
-    if word_count < 0:
+    if word_target < 0:
         raise ValueError("Word count must be non-negative.")
-    return round(word_count / wpm, 2)
+    return round(word_target / wpm, 2)
 
 
 @mcp.tool()

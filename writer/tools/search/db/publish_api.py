@@ -522,7 +522,7 @@ def add_chapter(bookname: str, req: ChapterInput) -> dict:
         },
     )
     _write_json(
-        os.path.join(seg, "model.json"),
+        os.path.join(seg, "segment.json"),
         {"level": "segment", "state": "scaffolded", "chapter_index": idx, "segment_index": 1},
     )
     with open(os.path.join(cd, "chapter.md"), "w", encoding="utf-8") as f:

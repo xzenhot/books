@@ -32,7 +32,7 @@ When external verification or enrichment is needed, invoke the local research MC
 - **Default search provider:** `searxng` (override with `DEFAULT_SEARCH_PROVIDER` in `tools/.env` or the `backend` argument)
 - **Tools available:**
   - `search(query: str, max_results: int = 5, backend: str | None = None, engines: list[str] | None = None) -> str` — returns a uniform JSON `SearchResponse`
-  - `calculate_reading_time(word_count: int, wpm: int = 200) -> float`
+  - `calculate_reading_time(word_target: int, wpm: int = 200) -> float`
   - `format_quote(author: str, quote: str) -> str`
   - `critique_draft(draft_text: str) -> str`
 
@@ -109,7 +109,7 @@ The chapter model at workspaces/pipeline/<bookname>/chapters/<n>/chapter.json is
 - content_shape: flat-prose (the shaping guidance passed to the writing path)
 - sources and grounding_notes: verified research and unresolved limitations
 
-Do not record a measured word_count here — research writes no prose, so there is nothing to measure; the writer measures its own draft. The writer consumes `word_target` and `content_shape` to compose `chapter.md`.
+Do not record a measured word_target here — research writes no prose, so there is nothing to measure; the writer measures its own draft. The writer consumes `word_target` and `content_shape` to compose `chapter.md`.
 
 ## Output
 

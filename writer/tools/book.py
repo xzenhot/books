@@ -94,8 +94,9 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent          # tools/
 REPO_ROOT = BASE_DIR.parent                          # repo root
 BACKLOG_ROOT = REPO_ROOT / "workspaces" / "backlog"
-BOOK_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "backlog" / "book.json"
-BOOK_MIN_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "backlog" / "book.min.json"
+BACKLOG_V1_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1"
+BOOK_TEMPLATE = BACKLOG_V1_TEMPLATE / "book.json"
+BOOK_MIN_TEMPLATE = BACKLOG_V1_TEMPLATE / "book.min.json"
 
 
 def _template_model_provider() -> tuple[str, str]:
@@ -402,7 +403,7 @@ def write_backlog_progress(book_dir: Path) -> Path:
     Args:
         book_dir: Path to the backlog folder (must already contain ``book.json``).
     """
-    template = REPO_ROOT / ".framework" / "templates" / "backlog" / "progress.json"
+    template = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "progress.json"
     plan_file = book_dir / "book.json"
     plan = json.loads(plan_file.read_text(encoding="utf-8-sig"))
     chapters = plan.get("chapters", [])
@@ -772,10 +773,10 @@ def validate_layout(
             if key not in chapter or not str(chapter[key]).strip():
                 raise ValueError(f"Chapter {i} is missing or has an empty '{key}' field.")
         summary = str(chapter["chapter_summary"]).strip()
-        if _summary_word_count(summary) < SUMMARY_MIN_WORDS:
+        if _summary_word_target(summary) < SUMMARY_MIN_WORDS:
             raise ValueError(
                 f"Chapter {i} has an under-written chapter_summary "
-                f"({_summary_word_count(summary)} words; expected 150–200)."
+                f"({_summary_word_target(summary)} words; expected 150–200)."
             )
 
     return data
@@ -836,7 +837,7 @@ def _ollama_payload(prompt: str, system: str = LAYOUT_SYSTEM_PROMPT) -> dict[str
 # Layout generation
 # ---------------------------------------------------------------------------
 
-def _summary_word_count(summary: object) -> int:
+def _summary_word_target(summary: object) -> int:
     """Count whitespace-separated words in a chapter_summary value."""
     return len(str(summary).split())
 
@@ -849,7 +850,7 @@ def _short_summary_indices(
     short = []
     for i in range(1, chapter_count + 1):
         chapter = chapters_by_index.get(i)
-        if chapter is not None and _summary_word_count(chapter.get("chapter_summary", "")) < SUMMARY_MIN_WORDS:
+        if chapter is not None and _summary_word_target(chapter.get("chapter_summary", "")) < SUMMARY_MIN_WORDS:
             short.append(i)
     return short
 
@@ -1525,7 +1526,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
         book.json, bookseed.txt, characters.json, override.txt
         filters/filters.json (registry only — no per-filter folders)
         chapters/<name>/model.json, chapter.md, history/
-        chapters/<name>/segments/1/{model.json, writer/, editor/, translator/, version/}
+        chapters/<name>/segments/1/{segment.json, writer/, editor/, translator/, version/}
 
     Raises FileNotFoundError if the backlog book.json is missing (run init first).
     Raises FileExistsError  if the pipeline already exists (avoid silent re-scaffold).
@@ -1551,12 +1552,9 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
         )
 
     chapters = plan.get("chapters", [])
-    if chapter_count != len(chapters):
-        raise ValueError(
-            f"Requested scaffold chapter count ({chapter_count}) does not match "
-            f"book.json chapters ({len(chapters)}). "
-            "Update book.json or supply the correct count."
-        )
+    # The chapter count is authoritative from book.json; ignore any supplied
+    # count and scaffold exactly the chapters declared in the plan.
+    chapter_count = len(chapters)
 
     pipeline = REPO_ROOT / "workspaces" / "pipeline" / bookname
     if pipeline.exists():
@@ -1565,6 +1563,22 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
             "Delete it manually if you want to re-scaffold."
         )
     pipeline.mkdir(parents=True)
+
+    # --- Clone the complete v1 template tree into the pipeline root. ---
+    # The pipeline starts as a verbatim copy of the backlog v1 template
+    # (book.json, book.min.json, bookseed.txt, gist.md, gist copy.md,
+    # override.txt, progress.json, storyline.md, and the layout/ form-tool
+    # templates), then scaffold customizes it below. The layout/ folder it
+    # clones holds the form tool templates (write-novel, write-poetry,
+    # enrich-novel, enrich-poetry); the book's own chapter folders are created
+    # afterwards in chapters/ alongside it.
+    if BACKLOG_V1_TEMPLATE.is_dir():
+        for child in BACKLOG_V1_TEMPLATE.iterdir():
+            dest = pipeline / child.name
+            if child.is_dir():
+                shutil.copytree(child, dest)
+            else:
+                shutil.copy2(child, dest)
 
     # --- Copy the backlog source files (gist.md, storyline.md, progress.json) verbatim ---
     for src_name in ("gist.md", "storyline.md", "progress.json"):
@@ -1652,8 +1666,8 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
             encoding="utf-8",
         )
 
-        # Segment-level model.json
-        (segment_dir / "model.json").write_text(
+        # Segment-level segment.json
+        (segment_dir / "segment.json").write_text(
             json.dumps(
                 {
                     "level": "segment",
@@ -1749,8 +1763,9 @@ def enrich_workflow(bookname: str, target: str) -> None:
     book = enrich.load_book_model(bookname)
 
     # Load the form-specific templates (lenses, twists, prompts) before enriching,
-    # so the engine never runs with an empty lens/twist set.
-    enrich.load_templates(enrich.resolve_book_form(bookname))
+    # so the engine never runs with an empty lens/twist set. Prefer the book's own
+    # pipeline layout/ folder; fall back to the shared framework template.
+    enrich.load_templates(enrich.resolve_book_form(bookname), enrich.resolve_layout_dir(bookname))
 
     # Resolve the model BEFORE any Ollama call (style regeneration included). If
     # the pipeline book.json declares no model, resolve_model raises and the agent
@@ -1954,8 +1969,8 @@ def build_parser() -> argparse.ArgumentParser:
         "-t", "--type",
         dest="book_type",
         choices=("poetry", "novel"),
-        default="poetry",
-        help="Book form override (default: poetry).",
+        default=None,
+        help="Book form override (defaults to the book plan's form, else poetry).",
     )
     parser.add_argument(
         "-r", "--refresh",
@@ -1989,13 +2004,28 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
     verb = args.verb
 
     if verb == "scaffold":
+        # A form is only explicit when the user passed `novel` or `poetry` in a
+        # positional slot; resolve_form's default must not mask the book plan.
+        form_explicit = any(
+            value in {"novel", "poetry"} for value in (args.range, args.option, args.book_type)
+        )
         form = resolve_form([args.range, args.option, args.book_type])
         count = resolve_count([args.option, args.range, args.objective])
+        # Fall back to the backlog book plan for form and count when not supplied
+        # positionally, so `scaffold` honors the book's declared form.
+        plan_file = book_dir / "book.json"
+        plan: dict[str, object] = {}
+        if plan_file.exists():
+            try:
+                plan = json.loads(plan_file.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                plan = {}
         if count is None:
-            # Fall back to chapter_count from the existing book plan
-            plan_file = book_dir / "book.json"
-            if plan_file.exists():
-                count = json.loads(plan_file.read_text(encoding="utf-8")).get("chapter_count")
+            count = plan.get("chapter_count") if isinstance(plan.get("chapter_count"), int) else None
+        if not form_explicit:
+            plan_form = plan.get("form")
+            if plan_form in {"novel", "poetry"}:
+                form = plan_form
         if count is None:
             raise ValueError(
                 "scaffold requires a chapter count.\n"

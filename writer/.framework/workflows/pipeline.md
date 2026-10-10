@@ -257,7 +257,7 @@ The current scaffold invariants are:
 - Do not create chapter number folders directly under `<bookname>/`.
 - Do not create segment number folders outside `chapters/<n>/segments/`.
 - Do not scaffold `Template*.json`, `TemplatePrompt*.txt`, or `TemplateSystemPromptText.txt` into a book pipeline.
-- Include `model.json` at book, chapter, and segment levels; it is a level state file, not a template file.
+- Include `book.json`/`chapter.json` at book/chapter levels and `segment.json` at segment level; each is a level state file, not a template file.
 - Create root planning artifacts: `book.json`, `characters.json`, `masterprompt.md`, `workshop_metadata.md`, and `filters/`.
 
 ### Form-specific initialization (after layout)

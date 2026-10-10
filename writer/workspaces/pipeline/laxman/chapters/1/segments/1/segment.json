@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 1,
+  "total_segments": 6,
+  "chapter_index": 1,
+  "name": "1",
+  "chapter_title": "ওয়ার্কশপের প্রথম ডাক",
+  "chapter_summary": "মোহিত শিল্পী ও কলাকুশলীদের ডেকে প্রশ্ন রাখেন, রামায়ণের পর কোন বাঙালি নায়ক মঞ্চে উঠতে পারে। সিরাজ, চৈতন্য, বিবেকানন্দ, রবীন্দ্রনাথের ভিড়ে বিশ্বরূপ সেন যুগের কথা তোলে, আর বিজয়, বল্লাল ও লক্ষ্মণ সেনের গল্পকে বাংলার নিজস্ব মহাকাব্যিক নায়কের সম্ভাবনা হিসেবে দাঁড় করায়।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "The tension between high classical Sanskrit drama conventions favored by the scholars versus the raw, burgeoning emotional energy of Bengali folk performance traditions.",
+    "status": "enriched"
+  }
+}

@@ -42,16 +42,25 @@ STYLE_FILE = STYLE_DIR / "pijush" / "sample.txt"
 SUBJECTS_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
 
 # Form-specific writer templates (system prompts + user prompt template) live
-# under .framework/templates/tools/write-{poetry|novel}/. They are loaded per
-# book, so the writer honors the book's declared form and language without
-# hardcoding either.
-TEMPLATE_ROOT = REPO_ROOT / ".framework" / "templates" / "tools"
-_ACTIVE_DIR = TEMPLATE_ROOT / "write-poetry"
+# per book in workspaces/pipeline/<bookname>/layout/write-{poetry|novel}/. They
+# are cloned into each pipeline at scaffold time and are the sole source of
+# truth for the writer; the framework is no longer consulted for these.
+_ACTIVE_DIR: Path | None = None
 
 MODEL = "gemma4:latest"
 CONTEXT_WINDOW = 64000  # num_ctx: token context window size
 TEMPERATURE = 0.7      # low temperature for focused, consistent output
 TOP_P = 0.9            # nucleus sampling
+
+# Novel segmentation: a novel chapter targets a large word count (often 4000+),
+# which a single Ollama generation cannot reliably produce in one coherent pass.
+# We split each novel chapter into continuous segments of roughly this many words,
+# each generated in sequence while threading the prior segments' prose so context,
+# theme, and style stay continuous across the chapter.
+WORDS_PER_SEGMENT = 1200
+# Cap how much prior prose is threaded forward, to stay well inside the context
+# window while still carrying continuity into the next segment.
+MAX_CONTINUITY_CHARS = 16000
 
 
 def resolve_model(chapter_dir: Path) -> str:
@@ -81,6 +90,7 @@ def resolve_model(chapter_dir: Path) -> str:
 SYSTEM_PROMPT_BN: str = ""
 SYSTEM_PROMPT_EN: str = ""
 USER_PROMPT_TEMPLATE: str = ""
+USER_PROMPT_SEGMENT_TEMPLATE: str = ""
 
 # Use 127.0.0.1 (IPv4) explicitly. On this machine "localhost" resolves to
 # ::1 (IPv6) first, which hits a *different* Ollama server (native Windows)
@@ -92,6 +102,8 @@ TIMEOUT = 900  # seconds; long chapters can take a while
 
 def _load_text(filename: str) -> str:
     """Read a template text file, tolerating a UTF-8 BOM."""
+    if _ACTIVE_DIR is None:
+        raise FileNotFoundError("No layout directory resolved; load_templates() must run first.")
     path = _ACTIVE_DIR / filename
     if not path.is_file():
         raise FileNotFoundError(f"Missing writer template: {path}")
@@ -106,25 +118,29 @@ def _render(template: str, **values) -> str:
     return result
 
 
-def load_templates(form: str) -> None:
+def load_templates(form: str, layout_dir: Path) -> None:
     """(Re)load the writer templates for a book form (`poetry` or `novel`).
 
-    `poetry` reads `.framework/templates/tools/write-poetry/`,
-    `novel` reads `.framework/templates/tools/write-novel/`.
+    Templates are read from the book's own pipeline folder
+    `workspaces/pipeline/<bookname>/layout/write-{form}/` (passed as
+    *layout_dir*). This is the sole source of writer templates; the shared
+    `.framework/templates/backlog` tree is no longer consulted.
     """
     global _ACTIVE_DIR, SYSTEM_PROMPT_BN, SYSTEM_PROMPT_EN, USER_PROMPT_TEMPLATE
+    global USER_PROMPT_SEGMENT_TEMPLATE
     form = (form or "poetry").strip().casefold()
     if form not in {"poetry", "novel"}:
         raise ValueError(f"Unsupported write form: {form!r}")
-    _ACTIVE_DIR = TEMPLATE_ROOT / f"write-{form}"
+    _ACTIVE_DIR = layout_dir / f"write-{form}"
     SYSTEM_PROMPT_BN = _load_text("system_prompt_bn.md")
     SYSTEM_PROMPT_EN = _load_text("system_prompt_en.md")
     USER_PROMPT_TEMPLATE = _load_text("user_prompt_template.md")
-
-
-# Default to poetry so the module is import-safe; `load_templates` re-loads for
-# the book's actual form before any chapter is written.
-load_templates("poetry")
+    # The novel form carries an extra per-segment prompt template (continuous
+    # multi-segment chapters). Poetry never needs it; leave it empty there.
+    if form == "novel":
+        USER_PROMPT_SEGMENT_TEMPLATE = _load_text("user_prompt_segment_template.md")
+    else:
+        USER_PROMPT_SEGMENT_TEMPLATE = ""
 
 ANSI_RE = re.compile(r"\x1b\[[0-9;]*[A-Za-z]")
 
@@ -371,6 +387,65 @@ def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
     )
 
 
+def segment_count_for(chapter_model: dict, form: str) -> int:
+    """How many continuous segments a chapter's target length implies.
+
+    Poetry always has a single segment per chapter (a small word target). A
+    novel chapter targets a large word count (often 4000+ words), which a single
+    generation cannot produce coherently; it is split into continuous segments
+    so their summed word targets are almost equal to the chapter's `word_target`.
+
+    The chapter's `segments` list (written by enrich) is authoritative: it holds
+    the exact segment plan. When it declares more than one segment, that count is
+    used. Otherwise the count is derived from `word_target / WORDS_PER_SEGMENT`.
+    """
+    if form == "poetry":
+        return 1
+    segments = chapter_model.get("segments")
+    if isinstance(segments, list) and len(segments) > 1:
+        return len(segments)
+    word_target = chapter_model.get("word_target")
+    if isinstance(word_target, (int, float)) and word_target > 0:
+        return max(1, -(-int(word_target) // WORDS_PER_SEGMENT))
+    # No word target and no multi-segment plan: a single continuous segment.
+    return 1
+
+
+def build_segment_prompt(poetry: str, context: str, number: int,
+                         segment: int, total: int, word_target: int,
+                         prior_text: str, language: str = "bn",
+                         override: str = "") -> str:
+    """Build the prompt for one segment of a multi-segment novel chapter.
+
+    Threads the prior segments' prose (``prior_text``) so the generated segment
+    continues the same context, theme, and style without re-opening the chapter.
+    """
+    lang = language.strip().lower()
+    is_en = lang in {"en", "english", "eng"}
+    lang_word = "English" if is_en else "Bengali"
+    return _render(
+        USER_PROMPT_SEGMENT_TEMPLATE,
+        style_prompt=poetry,
+        number=number,
+        segment=segment,
+        total=total,
+        word_target=word_target,
+        prior_text=prior_text or "(this is the first segment — no prior prose)",
+        lang_word=lang_word,
+        override=override or "(none — no human override instructions)",
+        context=context,
+    )
+
+
+def continuity_window(text: str) -> str:
+    """Clip prior-segment prose to a bounded tail for continuity threading."""
+    if not text:
+        return ""
+    if len(text) <= MAX_CONTINUITY_CHARS:
+        return text
+    return text[-MAX_CONTINUITY_CHARS:].lstrip()
+
+
 def strip_ansi(text: str) -> str:
     """Remove ANSI escape sequences (cursor/color codes) from text."""
     return ANSI_RE.sub("", text)
@@ -459,10 +534,11 @@ def resolve_version_dir(model_file: Path, segment: int | None = None) -> Path:
             segments = [int(p.name) for p in (model_file.parent / "segments").iterdir()
                         if p.is_dir() and p.name.isdecimal()]
         if segment is None:
-            if len(segments) != 1:
-                raise ValueError("Specify --segment <x> for a novel chapter with multiple segments")
-            segment = segments[0]
-        if type(segment) is not int or segment < 1 or segment not in segments:
+            # The novel write path composes the whole chapter continuously across
+            # all segments and archives the prior chapter-level draft once; when no
+            # single segment is requested, default to the first segment's folder.
+            segment = min(segments) if segments else 1
+        if type(segment) is not int or segment < 1 or (segments and segment not in segments):
             raise ValueError("Segment must match an existing novel chapter segment")
     else:
         raise ValueError("Book model must declare form as poetry or novel")
@@ -559,9 +635,16 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
 
     out_file = chapter_dir / "chapter.md"
     previous = out_file.read_bytes() if out_file.exists() else None
-    version_dir = resolve_version_dir(model_file, segment)
-    # Load the form-specific writer templates before writing.
-    load_templates(resolve_book_form(model_file))
+    # Load the form-specific writer templates before writing, from the book's
+    # own pipeline layout/ folder — the sole source of writer templates.
+    form = resolve_book_form(chapter_dir)
+    # For a novel, `--segment <x>` means "write the whole chapter across all
+    # segments" — the chapter is composed continuously, so the per-segment
+    # selector is ignored and the first segment's version folder is used for
+    # archiving. Poetry always uses segment 1.
+    version_dir = resolve_version_dir(model_file, segment if form == "poetry" else None)
+    layout_dir = chapter_dir.parents[1] / "layout"
+    load_templates(form, layout_dir)
     model = resolve_model(chapter_dir)
     # Style resolution: a provided <style> selects a preset; otherwise the
     # book's own style.md is used (falling back to the pijush preset).
@@ -569,38 +652,99 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     context = load_context(model_file)
     language = book_language(chapter_dir)
     override = load_override(model_file)
-    prompt = build_prompt(poetry, context, number, language, override)
     vlog(f"[{number}] Language resolved: {language}")
     vlog(f"[{number}] Model resolved: {model}")
+    vlog(f"[{number}] Form resolved: {form}")
 
-    if SHOW_PROMPT:
-        info(f"\n[{number}] ============ COMPLETE REQUEST ============")
-        info(f"[{number}] model      = {model}")
-        info(f"[{number}] language   = {language}")
-        info(f"[{number}] num_ctx    = {CONTEXT_WINDOW}")
-        info(f"[{number}] temperature= {TEMPERATURE}")
-        info(f"[{number}] top_p      = {TOP_P}")
-        info(f"[{number}] think      = False, stream = False")
-        sys_prompt = build_system_prompt(language)
-        info(f"\n[{number}] ----- SYSTEM PROMPT ({len(sys_prompt)} chars) -----")
-        info(sys_prompt)
-        info(f"[{number}] ----- END SYSTEM PROMPT -----")
-        info(f"\n[{number}] ----- PROMPT ({len(prompt)} chars) -----")
-        info(prompt)
-        info(f"[{number}] ----- END PROMPT -----")
-        info(f"[{number}] ============ END REQUEST ============\n")
+    # Poetry: a single segment per chapter — one generation, one draft.
+    if form == "poetry":
+        prompt = build_prompt(poetry, context, number, language, override)
+        if SHOW_PROMPT:
+            _show_request(number, model, language, prompt)
+        info(f"[{number}] Generating chapter from complete model context ...")
+        t0 = time.time()
+        output = run_ollama(prompt, language, model)
+        elapsed = time.time() - t0
+        _finish_chapter(chapter_dir, out_file, output, previous, version_dir, number, elapsed)
+        return
 
-    info(f"[{number}] Generating chapter from complete model context ...")
+    # Novel: the chapter targets a large word count and is split into
+    # continuous segments, each generated in sequence while threading the prior
+    # segments' prose so context, theme, and style stay continuous. Each
+    # segment is written to its own segments/<idx>/segment.md, and the full
+    # concatenated prose is written to the chapter's chapter.md.
+    chapter_model = read_chapter_model(chapter_dir)
+    total = segment_count_for(chapter_model, form)
+    per_segment_words = -(-int(chapter_model.get("word_target", WORDS_PER_SEGMENT)) // total)
+    info(f"[{number}] Novel chapter → {total} continuous segment(s) "
+         f"(~{per_segment_words} words each)")
     t0 = time.time()
-    output = run_ollama(prompt, language, model)
+    segments: list[str] = []
+    for idx in range(1, total + 1):
+        prior_text = continuity_window("\n\n".join(segments))
+        prompt = build_segment_prompt(
+            poetry, context, number, idx, total, per_segment_words,
+            prior_text, language, override,
+        )
+        if SHOW_PROMPT:
+            _show_request(number, model, language, prompt, label=f"segment {idx}/{total}")
+        info(f"[{number}] Generating segment {idx}/{total} ...")
+        seg_out = run_ollama(prompt, language, model)
+        if not seg_out.strip():
+            raise ValueError(f"Segment {idx}/{total} returned empty output")
+        segments.append(seg_out.strip())
+        # Write this segment's prose to its own segment.md.
+        _write_segment(chapter_dir, idx, seg_out.strip())
+        vlog(f"[{number}] segment {idx}/{total}: {len(seg_out)} chars")
+    output = "\n\n".join(segments)
     elapsed = time.time() - t0
+    _finish_chapter(chapter_dir, out_file, output, previous, version_dir, number, elapsed)
 
+
+def _write_segment(chapter_dir: Path, segment_index: int, text: str) -> Path:
+    """Write one novel segment's prose to segments/<idx>/segment.md atomically."""
+    seg_file = chapter_dir / "segments" / str(segment_index) / "segment.md"
+    seg_file.parent.mkdir(parents=True, exist_ok=True)
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=seg_file.parent, prefix=".segmd-", suffix=".tmp", delete=False) as stream:
+            temporary = Path(stream.name)
+            stream.write((text + "\n").encode("utf-8"))
+        os.replace(temporary, seg_file)
+    finally:
+        if temporary is not None and temporary.exists():
+            temporary.unlink()
+    return seg_file
+
+
+def _show_request(number: int, model: str, language: str, prompt: str, label: str = "chapter") -> None:
+    """Print a single full request (system prompt + user prompt) for -p mode."""
+    info(f"\n[{number}] ============ COMPLETE REQUEST ({label}) ============")
+    info(f"[{number}] model      = {model}")
+    info(f"[{number}] language   = {language}")
+    info(f"[{number}] num_ctx    = {CONTEXT_WINDOW}")
+    info(f"[{number}] temperature= {TEMPERATURE}")
+    info(f"[{number}] top_p      = {TOP_P}")
+    info(f"[{number}] think      = False, stream = False")
+    sys_prompt = build_system_prompt(language)
+    info(f"\n[{number}] ----- SYSTEM PROMPT ({len(sys_prompt)} chars) -----")
+    info(sys_prompt)
+    info(f"[{number}] ----- END SYSTEM PROMPT -----")
+    info(f"\n[{number}] ----- PROMPT ({len(prompt)} chars) -----")
+    info(prompt)
+    info(f"[{number}] ----- END PROMPT -----")
+    info(f"[{number}] ============ END REQUEST ============\n")
+
+
+def _finish_chapter(chapter_dir: Path, out_file: Path, output: str, previous: bytes | None,
+                    version_dir: Path, number: int, elapsed: float) -> None:
+    """Archive the prior draft, install the new one, and register it for quality."""
     backup = save_chapter(out_file, output, previous, version_dir)
     register_draft(chapter_dir)
     if backup is not None:
         info(f"[{number}] Previous version -> {backup}")
-    word_count = len(output.split())
-    vlog(f"[{number}] Output: {len(output)} chars, ~{word_count} words")
+    word_target = len(output.split())
+    vlog(f"[{number}] Output: {len(output)} chars, ~{word_target} words")
     info(f"[{number}] Saved -> {out_file} "
          f"({len(output)} chars in {elapsed:.2f}s)")
 
@@ -648,7 +792,7 @@ Paths are resolved relative to the repository, regardless of your current direct
     if sys.argv[1:] == ["help"]:
         parser.print_help()
         return 0
-    parser.add_argument("--segment", type=int, help="Owning novel segment number; poetry always uses 1.")
+    parser.add_argument("--segment", type=int, help="For novels, selects all segments (the whole chapter); poetry always uses 1.")
     parser.add_argument(
         "--style",
         metavar="NICKNAME",

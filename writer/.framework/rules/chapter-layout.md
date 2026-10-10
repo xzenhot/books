@@ -48,7 +48,7 @@ request.
   `chapter.md` and writer-stage drafts before replacement, following **Mandatory
   Draft Version Before Overwrite**. Other metadata snapshots may remain directly
   under `history/`.
-- `chapters/<n>/segments/<x>/model.json` is the runtime state for that segment.
+- `chapters/<n>/segments/<x>/segment.json` is the runtime state for that segment.
 - `chapters/<n>/segments/<x>/writer/` stores the writer-stage copy of the current
   chapter or segment draft.
 - `chapters/<n>/segments/<x>/editor/` stores editor comments, assessments, and

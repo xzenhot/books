@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 6,
+  "total_segments": 6,
+  "chapter_index": 22,
+  "name": "22",
+  "chapter_title": "বিশ্বরূপের শেষ পাঠ",
+  "chapter_summary": "বিশ্বরূপ শেষ অধ্যায় পড়ে শোনান, যেখানে লক্ষ্মণ শুধু বিজয়ী যুবরাজ নয়, ইতিহাসের ভার বহনকারী মানুষ। গৌরবের স্বপ্ন থেকে দায়ের বোঝা পর্যন্ত তার যাত্রা সম্পূর্ণ হয়, আর মোহিত বুঝতে পারেন পালাটি জনপ্রিয়তার চেয়ে বড় কিছু—বাংলার আত্মস্মৃতি ও নৈতিক দায়ের শিল্পরূপ।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "Mohit’s perspective as an artistic custodian, choosing which aspects of the journey to preserve in memory.",
+    "status": "enriched"
+  }
+}

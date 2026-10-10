@@ -1,0 +1,69 @@
+{
+  "chapter_index": 4,
+  "name": "4",
+  "word_target": 5500,
+  "chapter_title": "যুবরাজের অভিষেক-প্রস্তুতি",
+  "chapter_summary": "লক্ষ্মণের অভিষেক ঘনিয়ে আসে, আর রাজধানী জুড়ে আচার, শোভাযাত্রা ও রাজকীয় আয়োজনের ব্যস্ততা ছড়িয়ে পড়ে। রাজপুরোহিত, সেনাপতি, কবি, বণিক ও সামন্তরা নিজেদের প্রত্যাশায় তাকে বেঁধে ফেলতে চায়, আর লক্ষ্মণ এই চাপের ভিতরে নিজের স্বাধীন ইচ্ছা খোঁজে। গৌরবের স্বপ্ন ও দায়ের ভার প্রথমবার মুখোমুখি হয়।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "সেন রাজ্যাভিষেক কল্পনা",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "মধ্যযুগীয় সামন্তনীতি",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "রাজপুরোহিত ও সভাকবি",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing not on the grandeur of the procession, but on a small, ritualistic item required for the coronation—a specific piece of jewelry or ceremonial weapon—and tracing its symbolic weight against genuine political pragmatism.",
+      "Examining the internal conflict within the court bureaucracy: officials who genuinely believe in the ideal of unified Hindu rule versus those whose loyalties are purely transactional (land/tax revenue).",
+      "A perspective centered on a marginalized member of the entourage (a eunuch, a low-ranking scribe attached to the royal secretariat) whose intimate view contrasts sharply with the grand pronouncements."
+    ],
+    "story_options": [
+      "Setting: The courtyard adjacent to the main palace entrance. Desire: A dissenting minister attempts to subtly undermine the coronation's legitimacy through ritualistic error; Obstacle: Lakshmana, under immense ceremonial pressure, must choose whether to ignore or address the mistake.",
+      "Setting: The royal armory just before the procession begins. Desire: A master blacksmith feels inadequate, believing his craftsmanship cannot embody the mythic weight expected of the crown's symbols; Obstacle: The specific, heavy bronze fitting meant for the ceremonial sword breaks under final inspection.",
+      "Setting: A private viewing balcony overlooking the assembled masses (the 'doorway' moment). Desire: Lakshmana longs to address a practical administrative problem—a looming famine or border dispute—instead of merely accepting poetic flattery; Obstacle: His chief advisor forces him to focus solely on symbolic acceptance."
+    ],
+    "subject_rotations": [
+      "Treating the 'coronation preparation' as a microcosm of early state formation, where personal charisma is artificially engineered to match bureaucratic necessity.",
+      "Analyzing the performative nature of sovereignty: how much of the ritual must be convincing theatre for the populace versus genuine internal political settlement.",
+      "Shifting the focus from Lakshmana's desire for freedom to the external pressures exerted by factions wishing to control his ascent (e.g., powerful noble houses or religious patrons)."
+    ],
+    "sensory_details": [
+      "The specific, metallic tang of polished gold dust mixing with the pervasive, heavy scent of expensive incense burning constantly within the palace walls.",
+      "The abrasive scratch of stiff ceremonial fabrics being hastily draped and adjusted by nervous servants before inspection."
+    ],
+    "research_questions": [
+      "What were the customary rituals or preparatory elements for a high-status royal investiture in Sen/early medieval Bengal, outside of generalized Sanskrit descriptions?",
+      "How did patronage networks among minor nobles function during periods of transition between powerful dynasties (Pala to Sena)?",
+      "Are there evidence suggesting specific regional artisans held ceremonial roles whose functions weren't purely military or religious?"
+    ],
+    "structural_variants": [
+      "A chapter heavily structured around a series of vignettes, each focusing on the intense preparations and conflicting agendas of one different supporting character (the priest, the treasurer, the guard captain).",
+      "Employing an unreliable narrator who is present during the preparation but whose awe or fear warps the perceived significance of every event.",
+      "Beginning with the 'failure' moment—e.g., the broken utensil—and then flashing backward through preparations to show how that flaw was predetermined."
+    ],
+    "variety_note": "While previous chapters focused on the political context (war, economics, court deliberation), this chapter grounds the abstract power struggle in the intimate, highly ritualized vulnerability of a state's ceremonial threshold.",
+    "unused_angles": [
+      "The specific role and influence of non-elite religious figures who operate just outside the formal Brahminical council structure during royal ascensions."
+    ]
+  }
+}

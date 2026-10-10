@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 4,
+  "total_segments": 6,
+  "chapter_index": 8,
+  "name": "8",
+  "chapter_title": "কবি জয়দেবের আলো",
+  "chapter_summary": "ওয়ার্কশপে সাহিত্য ও রাজশক্তি নিয়ে তর্ক ওঠে—কবি কি রাজার প্রশস্তি লিখবে, নাকি সত্যের সাক্ষী থাকবে। মূল কাহিনিতে কবি জয়দেব, পণ্ডিত উমাপতিধর ও গায়করা লক্ষ্মণকে অমর করতে চান, কিন্তু কবিতার সত্য ও রাজপ্রশস্তির সত্য ধীরে ধীরে আলাদা হয়ে ওঠে, আর কাব্যের সৌন্দর্য ও সত্যের দায় মুখোমুখি হয়।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "Focusing on the internal struggle of a court poet: Does his duty to royal patronage supersede his moral obligation to historical accuracy?",
+    "status": "enriched"
+  }
+}

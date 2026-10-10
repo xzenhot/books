@@ -1,0 +1,69 @@
+{
+  "chapter_index": 14,
+  "name": "14",
+  "word_target": 5500,
+  "chapter_title": "মালিনীর ঘাট",
+  "chapter_summary": "এক ঘাটের নারী মালিনী সেনাবাহিনীকে পারাপারে সাহায্য করে, কিন্তু তার গ্রাম রসদের চাপে ক্ষতিগ্রস্ত হয়। বিজয়ের গল্পে সাধারণ মানুষের মূল্য উঠে আসে, আর লক্ষ্মণ মালিনীর চোখে দেখে যে রাজগৌরবের নিচে দাঁড়িয়ে থাকে অগণিত মানুষের নীরব ত্যাগ ও ক্ষতি।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "ঘাটজীবন",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "নারী ও যুদ্ধ",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "রসদ সংগ্রহ",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on a long-term memory of this crossing: Lakshman revisits Malini Ghat years later, not as victorious prince, but as an elder statesman observing the same spot—now scarred by time and neglect.",
+      "Treating the impact on local economies (like fishing or small trade) as the primary narrative drive rather than direct political sacrifice; how does war fundamentally disrupt non-military sustenance?",
+      "Centering on Malini's descendants: How do the children of those whose livelihoods were crushed by the campaign view their ancestors' participation in a grand imperial movement?"
+    ],
+    "story_options": [
+      "Setting: The riverbank years after the passage; Desire: A specific villager associated with the village that suffered depletion wants to speak to Lakshman about repayment/acknowledgement; Obstacle: Official historical records obscure their suffering, and there is no mechanism for redress; Turn: They offer him a small, non-monetary token of recognition.",
+      "Setting: The temporary encampment near Malini Ghat during the campaign; Desire: A low-caste supplier who provided essential sustenance to the army desperately wants more than just coin to secure his family's future; Obstacle: Military bureaucracy dictates strict distribution and no extras are allowed; Turn: Lakshman overrides a direct order using a small, deeply personal favor.",
+      "Setting: The quiet moments after the grand procession has moved past; Desire: Malini herself feels an acute sense of betrayal by the temporary presence of power that leaves behind only waste and emptiness; Obstacle: Her own community needs immediate aid but is invisible to the returning military structure; Turn: She redirects a portion of the remaining supplies toward her neighbors instead of waiting for official requisition."
+    ],
+    "subject_rotations": [
+      "Examining 'tribute' from the perspective of the recipient—the villagers receiving food, shelter, and disruption in exchange for minimal direct benefit.",
+      "A study in forgotten infrastructure: The subtle decay or over-stressing of natural features (bridges, embankments) due to the sustained flow of military traffic.",
+      "The ethics of 'necessary collateral damage' within a grand narrative; mapping the precise line where logistics become violence against civilians."
+    ],
+    "sensory_details": [
+      "The specific metallic tang of polluted river water near the overloaded ghats, smelling distinct from battlefield sweat or incense.",
+      "The sound of woven reeds being hastily mended by Malini after troop movements have torn them to shreds.",
+      "The rough, sun-baked texture of clay pots filled with provisions, showing signs of having been handled by both noble hands and dirty labor."
+    ],
+    "research_questions": [
+      "What were the local social structures governing river access rights (ghats) in North India during the 12th century, specifically concerning passage for military entities?",
+      "How did famine or resource strain typically manifest among peripheral communities when a major army passed through their region?"
+    ],
+    "structural_variants": [
+      "A long-form digression focused almost entirely on Malini's perspective, utilizing an internal landscape to mirror the geography of her village.",
+      "An episodic structure where different minor figures interact with Lakshman at the ghat over several days, each highlighting a different facet of civilian cost."
+    ],
+    "variety_note": "Unlike chapters focusing on courtly grandstanding or military logistics, this chapter roots the epic scale in micro-level human endurance and unacknowledged economic fallout.",
+    "unused_angles": [
+      "The role of ritual bathing vs. practical necessity for local women during a period of high foreign presence.",
+      "Analyzing how caste hierarchies shift momentarily under the pressure of large military deployments."
+    ]
+  }
+}
