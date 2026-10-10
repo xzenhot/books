@@ -22,7 +22,7 @@
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1,
     2,
@@ -33,38 +33,33 @@
   ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the internal struggle of a court poet: Does his duty to royal patronage supersede his moral obligation to historical accuracy?",
-      "The relationship between musical performance (Gayana) and political legitimacy: Can a powerful artistic act temporarily mask foundational political instability?",
-      "Examining how literary reputation functions as an alternative form of social currency—a rival power broker to military might."
+      "Treating poetry itself as a logistical problem: how does the poet manage scarcity—of metaphor, of meter, or of time to capture an ephemeral moment of royal glory?",
+      "The tension between aesthetic perfection (the ideal poem) and political expediency (what must be praised for survival); focusing on the internal calculus of a court poet.",
+      "A 'negative space' reading: what is *omitted* from the glorious poems—failures, doubt, private grief—and how does that silence speak volumes?"
     ],
     "story_options": [
-      "Setting: A private, candle-lit chamber in the royal court; Desire: Umapati's pride and desperation for a patronage renewal must be acknowledged by Lakshmana; Obstacle: The poet insists on an unvarnished reference to a recent military failure; Turn: Lakshman chooses poetic immortality over immediate political stability.",
-      "Setting: A traveling troupe staging ground outside the city walls; Desire: Gāyaka seeks to win favor not through royal decree, but through universal popular acclaim of a difficult composition; Obstacle: The court insists on revising the narrative for 'martial glory'; Turn: The performance itself becomes a defiant political act.",
-      "Setting: A scholarly scriptorium used by Umapati and Lakshmana late at night; Desire: To resolve a fundamental disagreement over historical metaphor—is subtlety or bombast more effective in statecraft?; Obstacle: A critical manuscript detailing regional unrest is withheld from official review; Turn: The poem becomes an allegory that only the educated elite can truly decipher."
+      "Setting: A quiet corner of the royal library where manuscript revisions occur; Desire: Poet Jayadeva agonizes over a single rhyming couplet describing Laxman's courage in battle, which feels too simplistic for his profound internal struggle.; Obstacle: The court censor demands immediate glorification without nuance.",
+      "Setting: During a small private recital amongst scholarly patrons away from the main Durbar; Desire: Umapatidhara tries to subtly critique the state-sanctioned epic by embedding oblique allusions referencing older, less glorious historical figures.; Obstacle: A zealous royal minister overhears and threatens him with accusations of sedition.",
+      "Setting: The poet's private study late at night, lit only by a single oil lamp; Desire: Jayadeva struggles not with the grandeur of Laxman, but with his own mortality and the transient nature of fame he is attempting to capture.; Obstacle: His failing eyesight makes it impossible to perfectly transcribe the necessary classical metrics."
     ],
     "subject_rotations": [
-      "Treating the composition process itself as a form of political negotiation, where each chosen metaphor or historical allusion is a deliberate concession.",
-      "Examining the economic cost of poetry: How much patronage (land, grain, access) must be promised for a major poetic work to be commissioned?",
-      "Analyzing the audience reception: Who listens most keenly—the nobility who fund it, or the common people whose lives are described in its verses?"
+      "Focusing intensely on the *craft* of verse—the mechanics of meter, alliteration, and word choice—as a form of high-stakes political performance rather than its thematic content.",
+      "A comparison between the oral tradition (the singing/recitation) versus the written permanence (the manuscript), highlighting how transmission alters meaning over time.",
+      "Exploring the role of patronage itself: is the poet serving art, or are they an elaborate instrument for dynastic self-aggrandizement?"
     ],
     "sensory_details": [
-      "The heavy, sweet scent of aged sandalwood paste rubbed onto manuscripts during long hours of writing.",
-      "The low thrumming vibration felt through the wooden floorboards when a trained vocalist begins a difficult raga.",
-      "The fine grit and dried ink residue coating the fingers of a dedicated scribe."
+      "The specific scent of aged palm leaf manuscripts dusted with lime powder and moth wing fragments in a quiet scriptorium.",
+      "The delicate, almost painfully high pitch of the *gayaka's* voice as they attempt to sustain an exceptionally long melodic line required by the patron.",
+      "The slick, dark residue left on ink pots after hours spent grinding lapis lazuli pigment for specific royal colors used in illumination."
     ],
     "research_questions": [
-      "What specific philosophical traditions informed court poetry during this period, particularly regarding the ethics of historical representation?",
-      "How did patronage systems function in relation to religious endowments (mathas) compared to direct royal grants in Sen-era Bengal?",
-      "Are there extant or theorized examples where poets intentionally obscured factual events within highly praised epic literature?"
+      "What were the common meter structures or stylistic conventions prized specifically during the 12th-century North Indian court poetry tradition that influenced poetic"
     ],
-    "structural_variants": [
-      "A fragmented structure: alternating between the high, polished language of courtly praise and terse, almost bureaucratic exchanges regarding factual details.",
-      "An epistolary approach: presenting excerpts from draft poems alongside personal letters written by the characters lamenting their conflicting duties."
-    ],
-    "variety_note": "Unlike neighboring chapters which dealt with physical logistics (rivers, grain) or external political reports (diplomacy), this chapter focuses intensely on the internal mechanics of cultural power and authorized narrative construction.",
-    "unused_angles": [
-      "Exploring how a rival court poet, marginalized by Lakshmana’s ascendance, actively sabotages literary projects through subtle critique.",
-      "The role of female patrons or muses in influencing the content that passes muster with male scholars."
-    ]
+    "variety_note": "Unlike the preceding chapters focused on logistical realities (economy, travel), this chapter drills deep into intangible assets: how language and narrative itself become objects of political power."
+  },
+  "draft": {
+    "sha256": "4c3535b91fcb3e12c5a7c4d14c3aad59ebe90f710c888416531957e1b283546e",
+    "written_at": "2026-10-10T14:37:16.743994+00:00",
+    "origin": "write"
   }
 }

@@ -16,29 +16,35 @@
       "validated": false,
       "published": false,
       "status": "pending",
-      "completed_date": null
+      "completed_date": null,
+      "published_sha256": "79ca489c279a4589e8f8424508facf1818c18c82a552d66d87209638f1e39614",
+      "published_version": 2
     },
     {
       "chapter_number": 1,
       "topic": "ওয়ার্কশপের প্রথম ডাক",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/1/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "72f6bbcef35c5212029c768251c08d5d1de16e6d0a8ae1f936251e9e72980269",
+      "published_version": 2
     },
     {
       "chapter_number": 2,
       "topic": "বিজয় সেনের ছায়া",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/2/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "d1fd86b4b1021e731b49f15a2ed55197e595e66af3b2eeb4d5412d50337cb524",
+      "published_version": 2
     },
     {
       "chapter_number": 3,
@@ -49,40 +55,48 @@
       "completed_date": null,
       "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "bf290553612834677953257b79690bd4373f8ffd54f3b353fada014f27d03179",
+      "published_version": 2
     },
     {
       "chapter_number": 4,
       "topic": "যুবরাজের অভিষেক-প্রস্তুতি",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/4/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "fb3e3414d5acb9b86f33dedaac53e73e381e97d0183b41894eaf4a2464346af0",
+      "published_version": 2
     },
     {
       "chapter_number": 5,
       "topic": "নদীর অর্থনীতি",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/5/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "3b65acd4663ff200fd4c962211909a71bdab9ae858471e3b3c2496b4dee2d903",
+      "published_version": 2
     },
     {
       "chapter_number": 6,
       "topic": "মগধের দিকে দূত",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/6/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "8b0b36940a190c48ddd9d1ed873534107e4a18ad5bd8ad52b01fb8988b3759d0",
+      "published_version": 2
     },
     {
       "chapter_number": 7,
@@ -93,172 +107,204 @@
       "completed_date": null,
       "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "b12ee59558a93570eab0ee9345ec7e614cf3416b25bb59bfecee844ead3c98ea",
+      "published_version": 2
     },
     {
       "chapter_number": 8,
       "topic": "কবি জয়দেবের আলো",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/8/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "4c3535b91fcb3e12c5a7c4d14c3aad59ebe90f710c888416531957e1b283546e",
+      "published_version": 2
     },
     {
       "chapter_number": 9,
       "topic": "ধর্মের ভিতরে রাজনীতি",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/9/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "5a6414e8eb9306c58d6b91335249eb6f2c5731f9b7658e76fd0c4b01f5c749f3",
+      "published_version": 2
     },
     {
       "chapter_number": 10,
       "topic": "কলিঙ্গ ও কামরূপের স্মৃতি",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/10/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "834e42eeb5975f7f629afcd1fe5c56ba01486eacdab36e4dd4a1950fa4fc0899",
+      "published_version": 2
     },
     {
       "chapter_number": 11,
       "topic": "দিল্লির বাঙালিদের তর্ক",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/11/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "3f8103bc062fa83a72ce83bb88a5ca3cb434e3e41d62547ff43c1ca8cb2ac18b",
+      "published_version": 2
     },
     {
       "chapter_number": 12,
       "topic": "কনৌজের দূত",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/12/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "44a4212de799c5ce0ca772c46e10cd50df17714932aa178d184f1602eb25c973",
+      "published_version": 2
     },
     {
       "chapter_number": 13,
       "topic": "প্রথম নদী পার",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/13/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "fb92562c76b1bc256e2a2aa8bb91b6ef4e2848a4dbf8a7cc562e0a5ce3eb77fb",
+      "published_version": 2
     },
     {
       "chapter_number": 14,
       "topic": "মালিনীর ঘাট",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/14/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "d8d301f1b6f9a2b2d008a5a224f147163c6c954f379c957a78950fe54d41d2e3",
+      "published_version": 2
     },
     {
       "chapter_number": 15,
       "topic": "নালন্দার নিঃশব্দ ইট",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/15/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "41bc45bfd50a2690b64eb9331b838592df7eb4fd827400c50ad4866c90b80f53",
+      "published_version": 2
     },
     {
       "chapter_number": 16,
       "topic": "দোয়াবের ধুলো",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/16/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "13c2d496f4de8f417b1f3c08371034a4042a4a7a7363dfe8ade61d38ac95adec",
+      "published_version": 2
     },
     {
       "chapter_number": 17,
       "topic": "খাজুরাহোর পথের গুজব",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/17/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "05a5bfc460ca301c719a1d1b830f3c921f65cf85fd80fe8d050cfcf1d580c38e",
+      "published_version": 2
     },
     {
       "chapter_number": 18,
       "topic": "যুদ্ধের আগের রাত্রি",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/18/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "dea3b2ca4b1290bc72c4da8f19075185d5af3b7498af593a36726f91b64d68d7",
+      "published_version": 2
     },
     {
       "chapter_number": 19,
       "topic": "গঙ্গার যুদ্ধ",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/19/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "930f638d4ac9520b4fad01409735676f02a79acdb5ff4b92eef3ad73bc727781",
+      "published_version": 2
     },
     {
       "chapter_number": 20,
       "topic": "কনৌজের দরজা",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/20/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ed281e47f85804ad1cf1f2b965d43588fc3b2daeefb3825616786c31bfaf7817",
+      "published_version": 2
     },
     {
       "chapter_number": 21,
       "topic": "ফেরার পথে বাংলা",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/21/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "f3245fb1ca54b69a81d25341132fbda97df88de5ebbd97c35aed575b9537a4c8",
+      "published_version": 2
     },
     {
       "chapter_number": 22,
       "topic": "বিশ্বরূপের শেষ পাঠ",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/22/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "cf454e5289a3ee475af47437ef8b715981a95aff34eed72a776632139d41e056",
+      "published_version": 2
     },
     {
       "chapter_number": "Conclusion",
@@ -268,9 +314,13 @@
       "validated": false,
       "published": false,
       "status": "pending",
-      "completed_date": null
+      "completed_date": null,
+      "published_sha256": "ea46297963671746013ad7cdc1b227d80cb80e235f3f24a9d64d00b0d0dbdba1",
+      "published_version": 2
     }
   ],
-  "written_chapters": 2,
-  "published": false
+  "written_chapters": 22,
+  "published": false,
+  "published_version": 2,
+  "published_at": "2026-10-10T16:04:33.815634+00:00"
 }

@@ -1804,23 +1804,30 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
 
     Loads write.py as a module, resolves the chapter list, and writes each
     requested chapter.  An optional *style* nickname selects the transformer
-    style (`.framework/templates/stereotypes/poetry/styles/<style>/style.md`,
-    default `pijush`) used when the pipeline has no style.md.
+    style; when omitted, the book's own style.md (or the form-bound default —
+    `pijush` for poetry, `dialogue` for novel) is used.
     """
     writer = _load_module("writer_write_engine", "write.py")
     chapters_root = writer.resolve_chapters_root(bookname)
     numbers = writer.parse_chapter_input(target, chapters_root)
 
     if style:
-        # Validate the nickname early so an unknown style fails fast.
-        writer.resolve_preset(style)
+        # Validate the nickname early so an unknown style fails fast. The check
+        # is form-aware: poetry resolves presets, novels resolve novel styles.
+        form = writer.resolve_book_form(chapters_root / str(numbers[0])) if numbers else "poetry"
+        if form == "poetry":
+            writer.resolve_preset(style)
+        else:
+            writer.resolve_novel_style(style)
 
     failures = 0
     for num in numbers:
         try:
+            # Pass style=None when omitted so the writer falls back to the
+            # book's style.md / form-bound default instead of a hardcoded preset.
             writer.write_chapter(
                 _chapter_model_file(chapters_root / str(num)),
-                style=style if style else writer.DEFAULT_STYLE,
+                style=style,
             )
         except Exception as exc:  # noqa: BLE001
             print(f"  [{num}] FAILED: {exc}", file=sys.stderr)

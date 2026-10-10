@@ -1,0 +1,114 @@
+# Chapter model context
+
+## chapter_index
+
+12
+
+## name
+
+12
+
+## word_target
+
+5500
+
+## chapter_title
+
+কনৌজের দূত
+
+## chapter_summary
+
+গাহড়বাল শক্তির প্রতিনিধি কনৌজের দূত সভায় আসেন, আর ভদ্রতার আড়ালে বিদ্রূপ ও হুমকি রেখে যান। লক্ষ্মণ বুঝতে পারে কনৌজ শুধু একটি শহর নয়, উত্তর ভারতের রাজ্যগৌরবের এক পুরনো মুকুট, আর এই অভিযান শুধু সামরিক নয়, প্রতীকী ও রাজনৈতিকও।
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+কনৌজ
+
+#### weblink
+
+
+### Item 2
+
+#### no
+
+2
+
+#### reference
+
+গাহড়বাল রাজবংশ
+
+#### weblink
+
+
+### Item 3
+
+#### no
+
+3
+
+#### reference
+
+মধ্যযুগীয় কূটনীতি
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+
+## creative_enrichment
+
+### angles
+
+- Framing the envoy's presence not as a political negotiation, but as an intense social/ritualistic performance wherein dignity is weaponized through minute acts of courtesy.
+- Shifting focus from the high-stakes diplomatic exchange to the peripheral reactions: how do servants, guards, or lower court members interpret—or deliberately misinterpret—the subtle gestures?
+- Analyzing the language barriers and stylistic differences between Bengali court rhetoric and the entrenched protocols of North Indian principalities.
+
+### sensory_details
+
+- The heavy scent of expensive sandalwood paste mixed with the metallic odor of poorly maintained ceremonial weaponry in the reception hall.
+- The way candlelight reflects off polished, unfamiliar brass insignia worn by the envoy's retinue.
+- The surprising warmth radiating from thick, layered silks draped over uncomfortable wooden furniture.
+
+### story_options
+
+- Setting: A highly formal receiving chamber moments before the messenger arrives; Desire: Lakshman feels a sudden, paralyzing pressure to perform royal confidence he doesn't entirely possess; Obstacle: The envoy is unnervingly polite, using language that sounds almost archaic and utterly dismissive; Turn: The conversation pivots not on border claims but on disputed ceremonial precedence at court.
+- Setting: A private balcony overlooking the city just before the embassy procession moves through the gate; Desire: Lakshman seeks a moment of grounding clarity from an older advisor; Obstacle: The advisor offers only philosophical pessimism about imperial reach; Turn: They witness the common folk reacting to the pomp with muted, ingrained resignation.
+- Setting: Inside the administrative quarter where correspondence is being dictated post-meeting; Desire: A junior secretary wants to record every insult verbatim for later strategic use; Obstacle: The head scribe insists on polishing the records into diplomatic euphemisms; Turn: The resulting formal document subtly misrepresents a core threat made during the meeting.
+
+### research_questions
+
+- What were the specific, recognized protocol breaches or veiled slights common in inter-princely communication between Bengali polities and established northern powers of that era?
+- How did localized administrative structures (e.g., local revenue collectors vs. central royal bureaucracy) interpret military movements as symbolic assertions of sovereignty during this period?
+
+### subject_rotations
+
+- Treating the envoy not as a political adversary, but as an cultural ambassador whose adherence to outdated protocols inadvertently reveals the fragility of power.
+- Focusing entirely on the psychological toll of constant diplomatic maneuvering on the younger generation tasked with managing external threats.
+- Exploring how local trade routes or economic anxieties (which fuel regional tension) are subtly invoked under the guise of ceremonial discourse.
+
+### variety_note
+
+This chapter shifts focus from the macro-political themes previously discussed in court/warfare towards a micro-study of high-stakes, culturally codified diplomatic confrontation.

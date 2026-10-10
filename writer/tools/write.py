@@ -36,7 +36,8 @@ REPO_ROOT = BASE_DIR.parent
 STYLE_DIR = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles"
 PRESET_DIR = REPO_ROOT / ".framework" / "templates" / "preset"
 POETRY_FILE = PRESET_DIR / "pijush.behula.md"
-DEFAULT_STYLE = "pijush"
+DEFAULT_STYLE = "pijush"          # poetry default style
+DEFAULT_STYLE_NOVEL = "dialogue"  # novel default style
 DEFAULT_PRESET = PRESET_DIR / "pijush.md"
 STYLE_FILE = STYLE_DIR / "pijush" / "sample.txt"
 SUBJECTS_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
@@ -252,36 +253,46 @@ def resolve_preset(style: str | None = None) -> Path:
     )
 
 
-def load_poetry(chapter_dir: Path | None = None, style: str | None = None) -> str:
-    """Load the style prompt for the write command.
+def resolve_novel_style(nickname: str) -> Path:
+    """Resolve a novel style nickname to its preset under ``.framework/templates/preset/``.
 
-    - If a `<style>` is provided, resolve it to a preset under
-      ``.framework/templates/preset/`` (falling back to ``pijush.md``).
-    - If no `<style>` is provided, use the book's own
-      ``workspaces/pipeline/<bookname>/style.md``; if that file is absent,
-      fall back to the ``pijush.md`` preset.
-
-    The write command never composes a style on the fly.
+    Novel styles are presets just like poetry styles; both forms resolve from the
+    same ``.framework/templates/preset/`` directory. A preset file must exist
+    whose stem (or first dot-segment) matches the nickname. Raises FileNotFoundError
+    if no matching preset is found.
     """
-    style_name: str
-    if style:
-        source = resolve_preset(style)
-        style_name = source.stem
-    elif chapter_dir is not None:
-        book_style = chapter_dir.parents[1] / "style.md"
-        if book_style.exists():
-            source = book_style
-            style_name = "book style.md"
-        else:
-            source = resolve_preset(DEFAULT_STYLE)
-            style_name = source.stem
-    else:
-        source = resolve_preset(DEFAULT_STYLE)
-        style_name = source.stem
+    return resolve_preset(nickname)
+
+
+def default_style_for_form(form: str) -> str:
+    """Return the default style nickname for a book form."""
+    return DEFAULT_STYLE if (form or "poetry").strip().casefold() == "poetry" else DEFAULT_STYLE_NOVEL
+
+
+def load_poetry(chapter_dir: Path | None = None, style: str | None = None,
+                form: str = "poetry") -> str:
+    """Load the style prompt for the write command, resolved from presets only.
+
+    Style is always resolved from a **preset** under ``.framework/templates/preset/``
+    — never the book's ``style.md``, and never composed on the fly. The form only
+    selects the default preset nickname (`pijush` for poetry, `dialogue` for novel);
+    the actual file always comes from the preset directory.
+
+    - If a `<style>` is provided, resolve its preset (falling back to the form's
+      default preset when the nickname does not match).
+    - If no `<style>` is provided, use the form's default preset.
+
+    A novel never picks a poetry preset and vice versa, because the default nickname
+    is form-bound and an explicit `<style>` is matched by name within the same
+    preset directory.
+    """
+    form = (form or "poetry").strip().casefold()
+    default = default_style_for_form(form)
+    nickname = (style or default).strip().lower()
+    source = resolve_preset(nickname)
+    style_name = source.stem
     info(f"Style: {style_name} ({source})")
     vlog(f"Loading style from: {source}")
-    if not source.exists():
-        raise FileNotFoundError(f"Style file not found: {source}")
     text = source.read_text(encoding="utf-8")
     vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
     return text
@@ -646,9 +657,10 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     layout_dir = chapter_dir.parents[1] / "layout"
     load_templates(form, layout_dir)
     model = resolve_model(chapter_dir)
-    # Style resolution: a provided <style> selects a preset; otherwise the
-    # book's own style.md is used (falling back to the pijush preset).
-    poetry = load_poetry(chapter_dir, style)
+    # Style resolution: a provided <style> selects a preset (poetry) or a novel
+    # style (novel); otherwise the book's own style.md is used, falling back to
+    # the form's default — pijush for poetry, dialogue for novel.
+    poetry = load_poetry(chapter_dir, style, form)
     context = load_context(model_file)
     language = book_language(chapter_dir)
     override = load_override(model_file)

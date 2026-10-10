@@ -1,0 +1,126 @@
+# Chapter model context
+
+## chapter_index
+
+10
+
+## name
+
+10
+
+## word_target
+
+5500
+
+## chapter_title
+
+কলিঙ্গ ও কামরূপের স্মৃতি
+
+## chapter_summary
+
+প্রবীণ যোদ্ধারা কলিঙ্গ, কামরূপ ও ত্রিপুরার অভিযানের কথা বলেন, আর তাদের স্মৃতিতে অতীতের যুদ্ধ, বিজয় ও ক্ষতি জীবন্ত হয়ে ওঠে। তরুণ লক্ষ্মণ বুঝতে থাকেন প্রতিটি জয় নতুন সীমান্ত তৈরি করে, আর প্রতিটি সীমান্ত নতুন দায় ও নতুন শত্রুর জন্ম দেয়—বিজয়ের গৌরব ক্ষণস্থায়ী, কিন্তু তার পরিণতি দীর্ঘস্থায়ী।
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+কলিঙ্গ অভিযান
+
+#### weblink
+
+
+### Item 2
+
+#### no
+
+2
+
+#### reference
+
+কামরূপ
+
+#### weblink
+
+
+### Item 3
+
+#### no
+
+3
+
+#### reference
+
+ত্রিপুরা ও পূর্ব সীমান্ত
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+
+## creative_enrichment
+
+### angles
+
+- Framing memory not as heroism but as collective trauma: focusing on the hidden cost of past conquests—lost kin, scorched earth, cultural displacement.
+- The 'Unreliable Memory' lens: examining how the veteran warriors selectively curate or distort historical events to fit current political needs or personal ego.
+- Juxtaposing grand historical memory against mundane persistence: contrasting epic battle recollections with small details of daily life that persisted through those wars (e.g., specific farming customs surviving conquest).
+
+### story_options
+
+- Setting: A low-lit military tent after a council meeting; Desire: An older soldier insists on recounting the campaign against Kamarupa, not for glory, but to warn about an ancient local ritual or geographic trap that still exists. Obstacle: The younger commanders are eager to focus solely on immediate strategic threats. Turn: The old man reveals a specific treaty broken centuries ago regarding water rights.
+- Setting: By the edge of a riverbank where veterans habitually gather; Desire: A grizzled warrior attempts to teach his apprentice how to tell the difference between legitimate military signaling and superstitious warning signs from past incursions. Obstacle: The conversation is violently interrupted by the arrival of urgent, unwanted news from Delhi regarding internal court politics. Turn: This external distraction forces a momentary shift from 'past war' to 'present political fragility.'
+- Setting: A dusty storage annex filled with old campaign remnants (helmets, dried banners); Desire: One veteran attempts to reconstruct a specific moment—not the battle itself, but the quiet pre-dawn decision just before engaging Kalinga forces. Obstacle: The physical artifacts fail to convey the necessary emotional weight; they are too cold and inert. Turn: A young observer notices that one piece of kit bears an insignia from a lineage completely unrelated to the Sena dynasty.
+
+### subject_rotations
+
+- Shifting the focus from 'victories achieved' to 'treaties negotiated and violated': treating memory as a ledger of broken promises rather than spoils.
+- Interrogating the nature of legacy: Are these warriors remembering themselves, or are they performing for a succeeding generation who has never seen those conflicts?
+- Analyzing historical narratives through an ecological lens: how did past conquests permanently alter the landscape (forest encroachment, river diversion) which affects their current journey?
+
+### sensory_details
+
+- The taste of dried medicinal herbs mixed with stale sweat clinging to old leather armor.
+- The specific sound of bone clicking softly inside a forgotten piece of siege weaponry kept for 'sentiment' by the veterans.
+- The texture of mud baked hard and brittle from countless past dry seasons across those borderlands.
+
+### research_questions
+
+- What common archaeological or oral tradition markers exist in medieval Bengali/North Indian frontier zones that could indicate a persistent cultural memory (positive or negative) of historical campaigns?
+- How were different regional military success stories (Kalinga vs. Kamarupa) integrated into the shared mythology of imperial narratives during this period?
+- What specific non-military artifacts (e.g., tools, religious iconography) might survive from border conflicts that would challenge purely militaristic interpretations?
+
+### structural_variants
+
+- A cyclical structure: Starting with a vivid memory, it fragments into three distinct voices representing Kalinga, Kamarupa, and Tripura memories, before returning to the present moment.
+- An escalating reveal: The chapter begins discussing minor border skirmishes, gradually building tension until one specific recounted event reveals a deep, forgotten political schism between the territories.
+
+### unused_angles
+
+- The economic impact on local communities whose livelihoods were irrevocably destroyed by distant military campaigns.
+- How rival factions within the warrior class leverage shared memories of past enemies to undermine current loyalties.
+- A reflection on how the *language* used in recounting battles changes based on whether the audience is courtly poets or common soldiers.
+
+### variety_note
+
+While neighbour chapters focus on logistical planning (Item 7) or literary framing (Item 8), this chapter turns inward, using the past military achievements as a psychological and ethical reckoning for the current generation's burdens of empire.
