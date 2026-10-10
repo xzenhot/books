@@ -1,0 +1,73 @@
+{
+  "chapter_index": 2,
+  "name": "2",
+  "word_target": 110,
+  "chapter_title": "নদীর স্রোত বনাম বাজারের স্রোত",
+  "chapter_summary": "এই পর্বটি অর্থনৈতিক চাপ এবং বাইরের জগতের অনুপ্রবেশের সূক্ষ্ম ফাটলগুলো তুলে ধরে, যেখানে নতুন ধরনের যাত্রী কেবল অর্থ নিয়ে আসে। মাঝির চিরায়ত উদারতা এই নতুন, হিসেবী জগতের সামনে কীভাবে চ্যালেঞ্জের মুখে পড়ে, তা এখানে চিত্রিত হয়। এই অধ্যায়টি সেই মুহূর্তের কেন্দ্রবিন্দুতে আসে যখন মাঝির সহজাত মানবিকতা প্রথমবার আর্থিক লেনদেনের দ্বিধায় পড়ে, প্রশ্ন তোলে—নদীর প্রাচীন, মুক্ত প্রবাহ কি পুঁজিবাদের কাঠিন্যের কাছে হার মানবে?",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "নদীর স্রোত বনাম বাজারের স্রোত",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing purely on the materiality of transaction: the weight of a specific coin versus the buoyancy of the boat.",
+      "Treating 'the market' not as an external entity but as a series of microscopic, abrasive forces acting upon the wood of the oars and hull.",
+      "Examining the physical exhaustion required to maintain freedom against predictable currents."
+    ],
+    "story_options": [
+      "Setting: A cluttered, humid riverside pawn shop at dusk. Desire: To secure essential repair parts for the boat using only old letters of credit. Obstacle: The pawnbroker requires collateral that is inherently non-material (a promise or a memory). Turn: The character attempts to pay with an object deeply personal to them.",
+      "Setting: A sprawling, chaotic temporary dockyard during a sudden squall. Desire: To quickly trade emergency food rations for swift passage downstream. Obstacle: Another vessel aggressively blocks the only clear exchange point using intimidation rather than negotiation. Turn: The protagonist sacrifices their most valuable ration to appease the blocker.",
+      "Setting: A small, enclosed administrative office overlooking the river at dawn. Desire: To formally register a recent acquisition, making it legally 'real.' Obstacle: Bureaucratic red tape requires documentation that has been deliberately lost or altered. Turn: The character must choose between forging a signature or abandoning the entire transaction."
+    ],
+    "subject_rotations": [
+      "Viewing financial pressure not as greed, but as entropy—the inevitable breakdown of pure kinetic energy.",
+      "Focusing solely on the geometry of debt: how a loan or fee imposes unnatural angles onto the otherwise fluid path.",
+      "Analyzing the difference between 'necessary friction' (like water resistance) and 'imposed friction' (like fees)."
+    ],
+    "sensory_details": [
+      "The metallic chill of recently minted currency scraping against sun-warmed teakwood.",
+      "The sharp, acidic tang left on skin after prolonged exposure to industrialized runoff near the docks.",
+      "The specific low thrumming sound of a distant diesel engine struggling in heavy silt."
+    ],
+    "research_questions": [
+      "What are typical archaic forms of maritime collateral or unsecured credit used in this setting?",
+      "How do localized river currents change their behavior based on industrial output upstream?"
+    ],
+    "structural_variants": [
+      "A non-linear structure where the narrator circles back to the physical act of rowing after a period spent negotiating currency."
+    ],
+    "unused_angles": [
+      "Exploring the emotional cost carried by the lender vs. the borrower, moving beyond purely economic terms.",
+      "Using an inanimate object (like a specific rope or knot) as the primary vehicle for demonstrating mounting structural strain."
+    ],
+    "variety_note": "This chapter pivots from abstract philosophical arguments to hyper-specific confrontations involving physical negotiation and tangible barriers."
+  },
+  "draft": {
+    "sha256": "32555faac46e34583616f2d811fedcb492000c32d399c4b6793ac1de3fcd48e3",
+    "written_at": "2026-10-09T22:00:46.707783+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "32555faac46e34583616f2d811fedcb492000c32d399c4b6793ac1de3fcd48e3",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-09T22:01:14+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

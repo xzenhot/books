@@ -1,0 +1,68 @@
+{
+  "chapter_index": 2,
+  "name": "2",
+  "word_target": 110,
+  "chapter_title": "The Night Shift",
+  "chapter_summary": "By lamplight, while the town sleeps, the painter grinds pigment and mixes lime, and the poem asks why the maker works only in the dark, where no one can see the labor that will be called beauty.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the grinding of pigment as a ritualistic conversation with the inert earth—a dialogue across geological time.",
+      "Shifting the focus from the *act* of mixing to the residue: what remains on the stone floor or in the discarded tools after the primary act is complete.",
+      "Framing the lamp not as illumination, but as a deliberate confinement, trapping effort within a small circle of dangerous heat and shadow."
+    ],
+    "story_options": [
+      "A brief scene where the painter accidentally spills an expensive pigment into dust that has settled on a piece of discarded charcoal sketch from another failed attempt (Setting: The cluttered ground area beneath scaffolding; Desire: To reclaim the material's pure form; Obstacle: Inevitable staining and loss).",
+      "The memory of a specific, intense conversation with a vanished apprentice about the necessity or futility of meticulous mixing before setting out on the scaffold (Setting: A dark storage room, smelling of resin; Desire: Validation for painstaking preparation; Obstacle: The silence confirms all his careful pre-work is ultimately invisible).",
+      "A moment where the painter uses the lamplight not to see the pigment mix perfectly, but to observe the light's refraction through microscopic bubbles in the lime mixture—a flawed beauty (Setting: Close inspection over a mortar basin; Desire: Control over material perfection; Obstacle: The flaw is immutable and cannot be scrubbed out)."
+    ],
+    "subject_rotations": [
+      "Examining the *social cost* of this isolated nocturnal labor on family life, using brief implied exchanges heard from windows.",
+      "Focusing solely on the chemistry—the slow, patient surrender of minerals to water and binder over hours, treating it as a meditation on inescapable change.",
+      "Contrasting the vibrant internal world built in pigment with the muted, heavy reality of the sleeping town outside the immediate worksite."
+    ],
+    "sensory_details": [
+      "The metallic tang of freshly ground mineral dust coating the back of the throat.",
+      "The precise, low hum and flicker pattern emanating from the single tallow lamp in the quiet air.",
+      "The specific friction sound made by stone pestle against a mortar bowl used repeatedly for hours."
+    ],
+    "research_questions": [
+      "What were common local medicinal or alchemical uses of certain mineral pigments (like indigo or ochre) that might overlap with artistic use in Rajasthan?",
+      "How did traditional Marwari families structure their sleep and waking cycles during harvest/building seasons, specifically regarding night laborers?"
+    ],
+    "structural_variants": [
+      "A poem structured as a series of parallel short fragments: one describing the light source, one describing the grinding motion, one describing the silence.",
+      "Beginning with the aftermath—the residue and dust settled in the pre-dawn gloom—and only then flashing back to the intense process under the lamp."
+    ],
+    "unused_angles": [
+      "The bureaucratic or logistical angle of acquiring raw materials from distant suppliers, viewing this labor as a chain extending far beyond Shekhawati.",
+      "A brief character study of the local night watchman, who witnesses but never judges the artist's nocturnal industry."
+    ],
+    "variety_note": "Unlike the previous chapter’s focus on the passive potential of the wall, 'The Night Shift' immerses the reader directly into the active, consuming labor required to bring that potential to life under artificial light."
+  },
+  "draft": {
+    "sha256": "aefad48f42b81655950c4f45f200cc201b059933e89ad505d01f011d54c9c503",
+    "written_at": "2026-10-09T22:11:26.518976+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "aefad48f42b81655950c4f45f200cc201b059933e89ad505d01f011d54c9c503",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-09T22:14:15+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}
