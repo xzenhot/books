@@ -1,0 +1,74 @@
+# Chapter model context
+
+## chapter_index
+
+14
+
+## name
+
+14
+
+## word_target
+
+110
+
+## chapter_title
+
+The Apprentice's Question
+
+## chapter_summary
+
+The younger painter asks why the maker's name is never written on the wall, and the poem lets the question stand as the one the master has spent a life avoiding, and can no longer answer.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The apprentice’s question as a literal inscription challenge: debating the physical act of signing versus the spiritual weight of anonymity.
+- Framing the master's silence not as shame, but as an inherited burden—a legacy of self-erasure passed down through generations of anonymous craftspeople.
+- Shifting focus to the apprentice's *view* of the finished work: seeing the art only through the lens of future fame or notoriety.
+
+### story_options
+
+- Setting: A quiet hour just before dawn, overlooking the painted courtyard; Desire: The apprentice wants a concrete story about a great master who was revealed; Obstacle: The master can only offer cryptic references to ruined statues.
+- Setting: Near the discarded palette scraps at night; Desire: The apprentice tries to physically trace his own name onto dust mixed with pigment, seeking validation; Obstacle: The powder dissolves instantly upon contact with moisture from sweat or dew.
+- Setting: Against a section of untouched lime wash on the scaffold wall; Desire: The apprentice asks if visible struggle improves beauty (a different angle than 'price'); Obstacle: The master counters that perfection is only achievable in complete isolation.
+
+### subject_rotations
+
+- Treating the name as a mathematical variable whose unknown value determines the work's ultimate success or failure.
+- Exploring the relationship between the apprentice's eagerness and the master’s paralyzing fear—the transfer of anxiety across two generations.
+- Focusing not on *why* the name isn't there, but what kind of name would be required to sustain such art without destroying it.
+
+### sensory_details
+
+- The brittle, papery sound of dried pigment flakes scattering from the scaffolding edge into the dust below.
+- The specific metallic taste on the apprentice's tongue from licking a brush clean after an hour of meticulous detail work.
+- The rhythmic scraping sound of limestone mortar being packed onto a fresh patch, a sound distinct from the brushstroke.
+
+### research_questions
+
+- What were common local symbolic gestures in Rajasthani folk art that might substitute for a formal signature or name tag?
+
+### structural_variants
+
+- A direct dialogue structure where the apprentice speaks multiple lines of inquiry, and the master responds only with physical actions (a gesture, placing a tool down).
+
+### variety_note
+
+This chapter sharply pivots from external pressures (merchants/king) to an intensely personal, relational confrontation regarding authorship itself, avoiding the historical exposition used elsewhere.

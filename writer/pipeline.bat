@@ -58,7 +58,7 @@ echo Count  : %COUNT%
 
 echo.
 echo === 1. layout  (storyline.md + book.json) ===
-python tools/book.py %BOOK% layout %COUNT% %FORM%
+rem python tools/book.py %BOOK% layout %COUNT% %FORM%
 
 echo.
 echo === 2. scaffold  (pipeline tree + progress.json) ===

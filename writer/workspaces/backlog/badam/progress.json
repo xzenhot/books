@@ -1,0 +1,52 @@
+{
+  "total_chapters": 5,
+  "completed_chapters": 0,
+  "current_chapter": 1,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "badam",
+  "form": "poetry",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "নদীর স্রোত বনাম বাজারের স্রোত",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "নদীর স্রোত বনাম বাজারের স্রোত",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "অদেখা যাত্রী",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/3/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "নদীর স্রোত বনাম বাজারের স্রোত",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/4/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "বাদাম — পর্ব 5 — badam",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/5/chapter.md",
+      "completed_date": null
+    }
+  ]
+}

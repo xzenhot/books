@@ -1,0 +1,81 @@
+{
+  "total_chapters": 5,
+  "completed_chapters": 5,
+  "current_chapter": null,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "badam",
+  "form": "poetry",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "নদীর স্রোত বনাম বাজারের স্রোত",
+      "category": "",
+      "status": "published",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": "2026-10-09T22:01:14+00:00",
+      "written": true,
+      "validated": true,
+      "published": true,
+      "published_sha256": "9609f79b6647d04d77329a52f1912ba0d1b1442fd9d557c3c2cab4912dba33b7",
+      "published_version": 1
+    },
+    {
+      "chapter_number": 2,
+      "topic": "নদীর স্রোত বনাম বাজারের স্রোত",
+      "category": "",
+      "status": "published",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": "2026-10-09T22:01:14+00:00",
+      "written": true,
+      "validated": true,
+      "published": true,
+      "published_sha256": "32555faac46e34583616f2d811fedcb492000c32d399c4b6793ac1de3fcd48e3",
+      "published_version": 1
+    },
+    {
+      "chapter_number": 3,
+      "topic": "অদেখা যাত্রী",
+      "category": "",
+      "status": "published",
+      "file_path": "chapters/3/chapter.md",
+      "completed_date": "2026-10-09T22:01:14+00:00",
+      "written": true,
+      "validated": true,
+      "published": true,
+      "published_sha256": "c3a0288a977f201b1fa7e58f628a96aeda3703d946c2c754ad489dc58ff8b8e6",
+      "published_version": 1
+    },
+    {
+      "chapter_number": 4,
+      "topic": "নদীর স্রোত বনাম বাজারের স্রোত",
+      "category": "",
+      "status": "published",
+      "file_path": "chapters/4/chapter.md",
+      "completed_date": "2026-10-09T22:01:14+00:00",
+      "written": true,
+      "validated": true,
+      "published": true,
+      "published_sha256": "74e3444292bb07c2768abffa1bf45828da060438abb152ec7018db00bc5c8ddf",
+      "published_version": 1
+    },
+    {
+      "chapter_number": 5,
+      "topic": "বাদাম — পর্ব 5 — badam",
+      "category": "",
+      "status": "published",
+      "file_path": "chapters/5/chapter.md",
+      "completed_date": "2026-10-09T22:01:14+00:00",
+      "written": true,
+      "validated": true,
+      "published": true,
+      "published_sha256": "9cc230ab16a185a429174a5cebd261f265cfa420f6a9753bc1ae3b22ab8b669c",
+      "published_version": 1
+    }
+  ],
+  "written_chapters": 5,
+  "published": true,
+  "published_version": 1,
+  "published_at": "2026-10-09T22:01:14.840810+00:00"
+}
