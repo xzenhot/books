@@ -27,7 +27,7 @@ This skill applies to the **novel** form only. The novel filter chain is
 4. The active filters' own outputs under `workspaces/pipeline/<bookname>/filters/<filter>/` — the fused guidance's source material.
 
 **Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy
-`.framework/templates/stereotypes/poetry/styles/pijush/style.md` into it if missing,
+`.framework/context/poetry/styles/pijush/style.md` into it if missing,
 without overwriting a human-edited file), then rewrite it from
 `workspaces/pipeline/<bookname>/book.json` and `override.txt` so its subject matter
 matches this book's story — re-grounding any stale/unrelated narrative to the current

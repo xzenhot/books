@@ -58,7 +58,7 @@ After **every** command in this workflow completes — including read-only, no-o
 | `publish [<language>]` | Routes through the publish agent (`.framework/agents/publish/agent.md`) to promote the latest writer-stage segments to a versioned folder `workspaces/published/<bookname>/version<k>/` and assemble `version<k>/book.md`. Without `<language>`, copies the latest segment from `chapters/<n>/segments/1/writer/`. With `<language>`, copies the latest translator segment from `chapters/<n>/segments/1/translator/` (e.g. `en.md`, `bn.md`). Read-only on the pipeline; writes only to `workspaces/published/`. Each publish creates a new version, so multiple published versions coexist. |
 | `preview [<language>]` | Assembles the same output as `publish` — promotes the latest writer-stage (or translator, with `<language>`) segments into a versioned `workspaces/published/<bookname>/version<k>/` folder and assembles `version<k>/book.md` — but **skips the quality gate and review step**. It runs everything `publish` does except validation: no quality pass, no review requirement, no draft-hash check. Useful for inspecting a full draft of the book as it stands without waiting for review to pass. |
 
-| `style` | Applies a transformer style to the latest writer-stage chapter versions, delegating to the enrich agent for the target chapter before falling back to chapter-root `chapter.md` when no writer-stage draft exists. Resolves `<style>` from `.framework/templates/stereotypes/poetry/styles/<style>/style.md`, defaults to `pijush`, and writes new writer-stage versions under `segments/1/writer/`. The enrich prerequisite may update the live draft and model after archiving; styling writes only a new writer version and does not promote output. |
+| `style` | Applies a transformer style to the latest writer-stage chapter versions, delegating to the enrich agent for the target chapter before falling back to chapter-root `chapter.md` when no writer-stage draft exists. Resolves `<style>` from `.framework/context/poetry/styles/<style>/style.md`, defaults to `pijush`, and writes new writer-stage versions under `segments/1/writer/`. The enrich prerequisite may update the live draft and model after archiving; styling writes only a new writer version and does not promote output. |
 | `translate` | Translates the latest writer-stage chapter version from `workspaces/pipeline/<bookname>/chapters/<n>/segments/1/writer/` into the requested language and writes the translated derivative to `workspaces/pipeline/<bookname>/chapters/<n>/segments/1/translator/`. Does not modify the live draft or promote output. |
 | `poet` (aliases: `poetry`, `poem`) | Invokes the write agent (`.framework/agents/write/agent.md`) to produce a single finished poem based on the human-authored `override.md` if it exists. |
 | `filter` | Runs a single named filter inside an existing pipeline. Never scaffolds or writes finished chapters. The `*` / `all` bulk form is disabled; run each filter separately. |
@@ -137,7 +137,7 @@ The `/book` workflow is a linear pipeline of six phases. Each phase has **one tr
 | 2 — Scaffold | `/book <bookname> scaffold <gist> count|chapter-count <n> [--form novel|poetry]` | Build the pipeline structure using the preset and form. | Scaffold agent (`.framework/agents/scaffold/agent.md`) | Epic/gist, preset, form | `workspaces/pipeline/<bookname>/` tree |
 | 3 — Filter chain | `/book <bookname> filter <filter>`<br>`/book <bookname> <agentname> <chapter>` | Run research/preparatory agents in strict order. No finished chapters. | Named filter/agent | Pipeline context, epic | `workspaces/pipeline/<bookname>/filters/<filter>/` |
 | 4 — Write | `/book <bookname> write <n>|range|all|continue <language>` | Turn filter outputs into finished reader-facing chapters. | Write agent (`.framework/agents/write/agent.md`) → poetry/novel skill | Filter outputs | `workspaces/published/<bookname>/<version>/chapters/<n>.md` |
-| 4a — Style | `/book <bookname> style [<style>]` | Transform latest writer-stage chapter versions through a named transformer style. | Style agent (`.framework/agents/style/agent.md`) | `.framework/templates/stereotypes/poetry/styles/<style>/style.md` + `segments/1/writer/` | next `segments/1/writer/chapter_v*.md` |
+| 4a — Style | `/book <bookname> style [<style>]` | Transform latest writer-stage chapter versions through a named transformer style. | Style agent (`.framework/agents/style/agent.md`) | `.framework/context/poetry/styles/<style>/style.md` + `segments/1/writer/` | next `segments/1/writer/chapter_v*.md` |
 | 4b — Translate | `/book <bookname> translate <n>|all|continue <language>` | Translate latest writer-stage chapter versions without changing the live draft. | Translate agent (`.framework/agents/translate/agent.md`) | `segments/1/writer/chapter_v*.md` or `chapter.md` | `segments/1/translator/<language>.md` |
 | 5 — Quality & promote | `/book <bookname> filter quality`<br>`/book <bookname> review *|all|<n>` | Final quality gate and assembly into `book.md`. | Review agent (`.framework/agents/review/agent.md`) | Completed chapters | `workspaces/published/<bookname>/<version>/book.md` |
 | 5b — Humanize | `/book <bookname> humanize *|all|<n>` | Polish chapter drafts to the target language only; remove non-relevant characters and replace with Bengali equivalents. | Humanize agent (`.framework/agents/humanize/agent.md`) | Reviewed chapters | Humanized `chapters/<n>/chapter.md` |
@@ -337,7 +337,7 @@ Responsibility: change the form of an existing pipeline and reconcile all form-d
 1. Stop if the pipeline does not exist.
 2. If `<formname>` matches the current form, report no change needed.
 3. Otherwise update the `form` field and re-select everything the form drives: filter chain (8 vs 6), chapter structure (flat prose vs flat poetic prose), word target (5,500+ vs 500–800), stereotype template folder, and source of truth.
-4. Re-run the form-dependent selections: **Theme** (re-assign each chapter's theme from `.framework/templates/stereotypes/<form>/themes/`), **Syntax** (update each chapter's `syntax` object from `.framework/templates/stereotypes/<form>/syntax/`), **Quality** (re-audit against the new form's quality parameters).
+4. Re-run the form-dependent selections: **Theme** (re-assign each chapter's theme from `.framework/context/<form>/themes/`), **Syntax** (update each chapter's `syntax` object from `.framework/context/<form>/syntax/`), **Quality** (re-audit against the new form's quality parameters).
 5. **Re-seed the override command file for the new form.** The `override` filter is in both chains, so `workspaces/pipeline/<bookname>/filters/override/filter.md` is updated when the form flips. Apply the same rules as the scaffold step (*Override Command File Seeding* in `.framework/agents/scaffold/agent.md`): read `.framework/filters/override/SKILL.md` and reproduce its content customized to the new form — identity and units ("novel pipeline" / every chapter, or "poetry pipeline" / every poem), command-file paths, model-update paths, and instruction scope. Preserve any human-authored `## Instructions` that remain applicable; carry them to the new form's operative instruction file so nothing human-authored is silently dropped:
    - **All forms:** the override command file stays at `workspaces/pipeline/<bookname>/filters/override/filter.md`. There is no pipeline-root `override.md` in any form. Re-render the role/context portion above the `---` line for the new form (identity, units, model-update paths, instruction scope) and preserve any human-authored `## Instructions` in place.
 6. Report the change and its consequences.
@@ -473,10 +473,10 @@ command file must always be present — if missing, re-seed its baseline. The
 Every chapter is rendered in its form's voice. The theme and syntax filters select
 from the stereotype templates:
 
-- **Signature** — `.framework/templates/stereotypes/<form>/signatures/`
-- **Reference** — `.framework/templates/stereotypes/<form>/references/`
-- **Theme set** — `.framework/templates/stereotypes/<form>/themes/`
-- **Syntax sample** — `.framework/templates/stereotypes/<form>/syntax/`
+- **Signature** — `.framework/context/<form>/signatures/`
+- **Reference** — `.framework/context/<form>/references/`
+- **Theme set** — `.framework/context/<form>/themes/`
+- **Syntax sample** — `.framework/context/<form>/syntax/`
 
 Read the `registry.md` in each folder to discover options, then the chosen file for
 the full definition. Selections must be mutually consistent.
@@ -499,7 +499,7 @@ For `/book <bookname> style [<style>]`:
 1. Stop if the pipeline does not exist; use `scaffold` first.
 2. Route through the style agent (`.framework/agents/style/agent.md`), which
    resolves `<style>` (default `pijush`) from
-   `.framework/templates/stereotypes/poetry/styles/<style>/style.md`, transforms
+   `.framework/context/poetry/styles/<style>/style.md`, transforms
    the current draft (delegating to the enrich agent when no writer-stage draft
    exists), and writes a new writer-stage version. It never modifies chapter-root
    `chapter.md`, writes to `workspaces/published/`, or updates `progress.json`.

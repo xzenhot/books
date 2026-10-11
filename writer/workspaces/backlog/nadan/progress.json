@@ -1,0 +1,132 @@
+{
+  "total_chapters": 15,
+  "completed_chapters": 0,
+  "current_chapter": 1,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "nadan",
+  "form": "novel",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "nadan — পর্ব 1",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "nadan — পর্ব 2",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "nadan — পর্ব 3",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/3/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "nadan — পর্ব 4",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/4/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "nadan — পর্ব 5",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/5/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "nadan — পর্ব 6",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/6/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "nadan — পর্ব 7",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/7/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "nadan — পর্ব 8",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/8/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "nadan — পর্ব 9",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/9/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "nadan — পর্ব 10",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/10/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 11,
+      "topic": "nadan — পর্ব 11",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/11/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 12,
+      "topic": "nadan — পর্ব 12",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/12/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 13,
+      "topic": "nadan — পর্ব 13",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/13/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 14,
+      "topic": "nadan — পর্ব 14",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/14/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 15,
+      "topic": "nadan — পর্ব 15",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/15/chapter.md",
+      "completed_date": null
+    }
+  ]
+}

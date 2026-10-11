@@ -88,7 +88,7 @@ A book is either **poetry** (verse) or **novel** (prose), declared in the pipeli
 | Chapter structure | flat, continuous poetic prose | flat, continuous prose |
 | Segments per chapter | exactly one (`segments/1`) | many |
 | Word target | 500–800 | 5,500+ |
-| Stereotype templates | `.framework/templates/stereotypes/poetry/` | `.framework/templates/stereotypes/novel/` |
+| Stereotype templates | `.framework/context/poetry/` | `.framework/context/novel/` |
 
 ---
 
@@ -142,8 +142,8 @@ Reference filters live under `.framework/filters/reference/` (`poeticprose`, `na
 
 ## Stereotypes & Styles
 
-- **Stereotypes** (`.framework/templates/stereotypes/<form>/`) — `signatures/`, `references/`, `themes/`, `syntax/`, `genre/`, `styles/`. Each chapter selects a signature (voice), reference (source text), theme set (philosophical lens), and syntax sample.
-- **Styles** (`.framework/templates/stereotypes/poetry/styles/<style>/`) — transformer styles (e.g. `pijush`) applied by the `style` command.
+- **Stereotypes** (`.framework/context/<form>/`) — `signatures/`, `references/`, `themes/`, `syntax/`, `genre/`, `styles/`. Each chapter selects a signature (voice), reference (source text), theme set (philosophical lens), and syntax sample.
+- **Styles** (`.framework/context/poetry/styles/<style>/`) — transformer styles (e.g. `pijush`) applied by the `style` command.
 
 ---
 

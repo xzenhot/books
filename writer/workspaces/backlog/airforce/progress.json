@@ -1,0 +1,412 @@
+{
+  "total_chapters": 50,
+  "completed_chapters": 0,
+  "current_chapter": 1,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "airforce",
+  "form": "poetry",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "airforce — পর্ব 1 — airforce",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "airforce — পর্ব 2 — airforce",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "প্রথম মিশনের প্রস্তুতি",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/3/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "প্রথম উড্ডয়ন",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/4/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "কন্ট্রোল টাওয়ারের নীরবতা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/5/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "একটি ছোট ত্রুটি",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/6/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "অপেক্ষা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/7/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "প্রথম সংঘর্ষের আভাস",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/8/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "আকাশের যুদ্ধ",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/9/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "মিশনের সমাপ্তি। সফল প্রত্যাবর্তন।",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/10/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 11,
+      "topic": "বিশ্রামের সময়",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/11/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 12,
+      "topic": "সহকর্মীর প্রতি আস্থা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/12/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 13,
+      "topic": "পরিবারের স্মৃতি",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/13/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 14,
+      "topic": "নিয়মের ব্যতিক্রম",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/14/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 15,
+      "topic": "যন্ত্রের সাথে আত্মার সংলাপ",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/15/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 16,
+      "topic": "দীর্ঘ অপেক্ষার যন্ত্রণা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/16/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 17,
+      "topic": "প্রযুক্তি এবং মানবতা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/17/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 18,
+      "topic": "ভুল বোঝাবুঝির মেঘ",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/18/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 19,
+      "topic": "অজানা অঞ্চলের ওপর দিয়ে উড়ে যাওয়া",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/19/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 20,
+      "topic": "ক্ষয় এবং মেরামত",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/20/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 21,
+      "topic": "একাকীত্ব বনাম দলবদ্ধতা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/21/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 22,
+      "topic": "প্রজন্মের পরিবর্তন",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/22/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 23,
+      "topic": "অদৃশ্য শত্রু",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/23/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 24,
+      "topic": "শৃঙ্খলার সৌন্দর্য",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/24/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 25,
+      "topic": "ব্যর্থতার স্বীকারোক্তি",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/25/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 26,
+      "topic": "অবিশ্বাস্য মুহূর্ত",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/26/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 27,
+      "topic": "অবিশ্বাস্য মুহূর্ত",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/27/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 28,
+      "topic": "অবিশ্বাস্য মুহূর্ত",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/28/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 29,
+      "topic": "অবিশ্বাস্য মুহূর্ত",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/29/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 30,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/30/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 31,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/31/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 32,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/32/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 33,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/33/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 34,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/34/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 35,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/35/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 36,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/36/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 37,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/37/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 38,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/38/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 39,
+      "topic": "নীল দিগন্তের জিজ্ঞাসা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/39/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 40,
+      "topic": "নীল দিগন্তের জিজ্ঞাসা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/40/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 41,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/41/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 42,
+      "topic": "নীল দিগন্তের জিজ্ঞাসা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/42/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 43,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/43/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 44,
+      "topic": "নীল দিগন্তের জিজ্ঞাসা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/44/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 45,
+      "topic": "নীল দিগন্তের জিজ্ঞাসা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/45/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 46,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/46/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 47,
+      "topic": "অদৃশ্য শৃঙ্খলা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/47/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 48,
+      "topic": "নীল দিগন্তের জিজ্ঞাসা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/48/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 49,
+      "topic": "নীল দিগন্তের জিজ্ঞাসা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/49/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 50,
+      "topic": "নীল দিগন্তের জিজ্ঞাসা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/50/chapter.md",
+      "completed_date": null
+    }
+  ]
+}

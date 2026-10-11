@@ -20,7 +20,7 @@ You are the **enrichment orchestrator** of the pipeline. You do not apply filter
 2. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter's metadata (the only per-chapter input).
 3. The active filters' own outputs under `workspaces/pipeline/<bookname>/filters/<filter>/` — the fused guidance's source material.
 
-**Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy `.framework/templates/stereotypes/poetry/styles/pijush/style.md` into it if missing, without overwriting a human-edited file), then rewrite it from `workspaces/pipeline/<bookname>/book.json`, `bookseed.txt`, and `override.txt` so its subject matter matches this book's topics — re-grounding any stale/unrelated narrative (e.g. a Behula template) to the current book. Keep the voice/philosophy/register intact; only re-ground the "what". If `override.txt` carries a transformation mandate, fold it in.
+**Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy `.framework/context/poetry/styles/pijush/style.md` into it if missing, without overwriting a human-edited file), then rewrite it from `workspaces/pipeline/<bookname>/book.json`, `bookseed.txt`, and `override.txt` so its subject matter matches this book's topics — re-grounding any stale/unrelated narrative (e.g. a Behula template) to the current book. Keep the voice/philosophy/register intact; only re-ground the "what". If `override.txt` carries a transformation mandate, fold it in.
 
 `chapter.md` is **not** an input here. It is an output file of the writing/authorship path; the combined agent never reads the chapter's current prose. You do **not** read the backlog or the epic.
 

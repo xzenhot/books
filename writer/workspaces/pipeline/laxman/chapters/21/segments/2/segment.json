@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 2,
+  "total_segments": 6,
+  "chapter_index": 21,
+  "name": "21",
+  "chapter_title": "ফেরার পথে বাংলা",
+  "chapter_summary": "কনৌজ-অভিযান থেকে প্রত্যাবর্তনের পথে, সেন যুগের রাজনীতি ও বাংলার গৌরব বহনকারী সেনাবাহিনী বিজয় ও গভীর শোকের এক মিশ্র অনুভূতি নিয়ে পূর্ব দিকে যাত্রা করে। এই প্রত্যাবর্তন কেবল সামরিক সাফল্যের উদযাপন নয়; বরং বন্দি, লুঠ হওয়া সম্পদ এবং যুদ্ধের মর্মান্তিক গল্পগুলোও যাত্রাপথে সঙ্গী হয়। নাট্য মঞ্চের ওয়ার্কশপে প্রশ্ন ওঠে যে, এই ঐতিহাসিক পালা সমাপ্ত হলে দর্শক কি কেবল বিজয়ীর গৌরব দেখবে, নাকি যুদ্ধের অনিবার্য দায় ও সমাজের গভীর ক্ষতও উপলব্ধি করবে? যুবরাজ লক্ষ্মণ সেনের চোখে, যুদ্ধের পরিণতি কেবল বিজয়ের উল্লাস নয়, বরং মানুষের ক্লান্তি ও সামাজিক বিচ্যুতিকেও প্রকট করে তোলে, যা এই যাত্রার মূল দ্বন্দ্বকে চিহ্নিত করে।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "Viewing the journey through the lens of logistics decay—how food spoilage, disease introduction from conquered territories, and administrative fatigue erode the 'glorious' momentum over weeks.",
+    "status": "enriched"
+  }
+}

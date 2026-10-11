@@ -37,6 +37,8 @@
     entry point. No subcommand keyword is ever treated as a book name, chapter,
     filter, or prose.
 
+    pyinstaller --onefile -w 'filename.py'
+
 .PARAMETER bookname
     The logical book name (the first positional argument). Maps to
     workspaces/backlog/<bookname>/, workspaces/pipeline/<bookname>/, and
@@ -171,6 +173,7 @@ Pipeline (owned by pipeline.md):
   <bookname> form <novel|poetry>
   <bookname> config [<key> [<value>]]
   <bookname> poet|poetry|poem
+  <bookname> workshop chapter <n|range|*> update summary|character|reference|update|expand
 
 Read-only (owned by pipeline.md / eval-judge.md):
   -o | --options | list
@@ -325,6 +328,23 @@ switch ($verb) {
     'eval' {
         # eval (read-only) -> verify_pipeline.py
         Invoke-Python @('tools/verify_pipeline.py', $bookname)
+    }
+    'workshop' {
+        # workshop chapter <n|range|*> update <verb> -> tools/expand.py
+        # Syntax: <bookname> workshop chapter <scope> update summary|character|reference|update|expand
+        $scope = 'all'
+        $verb = 'expand'
+        # Find the scope token after the literal 'chapter' keyword.
+        $chapterIdx = [Array]::IndexOf($verbRest, 'chapter')
+        if ($chapterIdx -ge 0 -and $chapterIdx + 1 -lt $verbRest.Count) {
+            $scope = $verbRest[$chapterIdx + 1]
+        }
+        # Find the verb token after the literal 'update' keyword.
+        $updateIdx = [Array]::IndexOf($verbRest, 'update')
+        if ($updateIdx -ge 0 -and $updateIdx + 1 -lt $verbRest.Count) {
+            $verb = $verbRest[$updateIdx + 1]
+        }
+        Invoke-Python @('tools/expand.py', $bookname, $scope, '--verb', $verb)
     }
     { $_ -in $AgenticVerbs } {
         $agent = $_

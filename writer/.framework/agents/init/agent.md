@@ -49,13 +49,39 @@ A fully configured backlog folder contains exactly four files. Each has one clea
 
 ### gist.md
 
-The seed idea. Contains:
+The seed idea. It MUST follow this canonical Markdown structure:
 
-- A single-sentence **gist** (the high concept).
-- A short **expansion** (2–4 sentences) that names the protagonist, the conflict, and the transformation.
-- An optional **Author Comment** section (`## Author Comment`) — the author's own note on intent, inspiration, or direction. Init creates this section as an empty placeholder for the author to fill; it never invents the author's words.
+```text
+# <bookname> — <title>
 
-If the caller supplied a gist, use it verbatim as the one-liner and expand it. If no gist was supplied, generate a great idea from the book name (see *The Great Idea* below), then write it here.
+## Canonical gist
+
+<single-sentence gist>
+
+## Expansion
+
+<short 2–4 sentence expansion>
+
+## Author Comment
+
+<author's own note — empty placeholder when the author has written nothing>
+```
+
+Where:
+
+- **`# <bookname> — <title>`** is the H1 heading: the book name, an em-dash, and the full
+  title (`<bookname>: এর কবিতা` for poetry, `<bookname>: এর কাহিনি` for novel).
+- **`## Canonical gist`** holds the single-sentence **gist** (the high concept).
+- **`## Expansion`** holds a short **expansion** (2–4 sentences) that names the
+  protagonist, the conflict, and the transformation.
+- **`## Author Comment`** is the author's own note on intent, inspiration, or direction.
+  Init creates it as an empty placeholder for the author to fill; it never invents the
+  author's words.
+
+If the caller supplied a gist, use it verbatim as the one-liner and expand it. If no
+gist was supplied, generate a great idea from the book name (see *The Great Idea*
+below), then write it here. Preserve any pre-existing `## Author Comment` content when
+overwriting.
 
 ### storyline.md
 
@@ -123,7 +149,10 @@ Rules:
 When the caller runs `init` **without** `refresh`, write `gist.md` and nothing else:
 
 1. Resolve the gist: caller `<gist>` → existing `gist.md` → inferred from the book name.
-2. Write (or update) `workspaces/backlog/<bookname>/gist.md` with the single-sentence gist and its expansion. Preserve any existing `## Author Comment` content the author has written.
+2. Write (or update) `workspaces/backlog/<bookname>/gist.md` in the canonical structure
+   (`# <bookname> — <title>`, `## Canonical gist`, `## Expansion`, `## Author Comment`)
+   with the single-sentence gist and its expansion. Preserve any existing
+   `## Author Comment` content the author has written.
 3. **Stop.** Do not create or modify `storyline.md` or `book.json`. Report that the user should run `layout` (or `init ... refresh`) to derive them.
 
 ## Full Path (`init ... refresh` / `layout`)

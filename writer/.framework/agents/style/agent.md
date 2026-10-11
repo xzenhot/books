@@ -1,6 +1,6 @@
 ---
 name: style
-description: Style identification agent for `/book <bookname> style [<style>]`. Identifies a named transformer style from its source files (`.framework/templates/stereotypes/poetry/styles/<style>/style.md` plus `signature.md`/`examples.md`), grounds it in the book's `storyline.md`, builds a single detailed, self-contained style document with an embedded subjects registry, and saves it to `workspaces/pipeline/<bookname>/style.md`. Does not transform chapters.
+description: Style identification agent for `/book <bookname> style [<style>]`. Identifies a named transformer style from its source files (`.framework/context/poetry/styles/<style>/style.md` plus `signature.md`/`examples.md`), grounds it in the book's `storyline.md`, builds a single detailed, self-contained style document with an embedded subjects registry, and saves it to `workspaces/pipeline/<bookname>/style.md`. Does not transform chapters.
 tools: ["read", "write"]
 ---
 
@@ -46,11 +46,11 @@ form's styles directory), not a path and not a full document.
 Resolve the style from:
 
 ```text
-.framework/templates/stereotypes/poetry/styles/<style>/style.md
+.framework/context/poetry/styles/<style>/style.md
 ```
 
 If the requested style folder does not exist, list the available folders under
-`.framework/templates/stereotypes/poetry/styles/` and stop. If the folder exists
+`.framework/context/poetry/styles/` and stop. If the folder exists
 but `style.md` is missing, report that the transformer is incomplete and stop.
 
 Read every companion file the style folder provides — `signature.md` and
@@ -124,8 +124,8 @@ anchored to THIS book rather than a generic template:
 Embed a **subjects registry** in the output document so the writer varies its
 subject from poem to poem instead of repeating one:
 
-1. **Source.** Read the subject catalog at `.framework/templates/subjects/`
-   (start with `.framework/templates/subjects/registry.md`, then the individual
+1. **Source.** Read the subject catalog at `.framework/context/subjects/`
+   (start with `.framework/context/subjects/registry.md`, then the individual
    `topic.md` files for the subjects the book's storyline suggests).
 2. **Select from the storyline.** Choose the subjects that fit the book's
    premise, themes, and imagery — not the whole catalog. For a book about the
@@ -147,5 +147,5 @@ subject from poem to poem instead of repeating one:
 - Do not transform or rewrite any chapter (`chapter.md`).
 - Do not write to `segments/1/version/`, `segments/1/writer/`, or `workspaces/published/`.
 - Do not run filters, enrich, or update `progress.json`.
-- Do not change `.framework/templates/stereotypes/poetry/styles/<style>/` while
+- Do not change `.framework/context/poetry/styles/<style>/` while
   documenting it.

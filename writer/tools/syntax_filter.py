@@ -20,8 +20,8 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 REPO_ROOT = BASE_DIR.parent
-SYNTAX_POETRY = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "syntax"
-SYNTAX_NOVEL = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "novel" / "syntax"
+SYNTAX_POETRY = REPO_ROOT / ".framework" / "context" / "poetry" / "syntax"
+SYNTAX_NOVEL = REPO_ROOT / ".framework" / "context" / "novel" / "syntax"
 
 # Default syntax sample per form (matches the pipeline's configured voice).
 DEFAULT_SAMPLE_POETRY = "gosai_bangla/syntax.md"
