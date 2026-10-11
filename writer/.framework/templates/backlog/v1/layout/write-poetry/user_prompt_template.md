@@ -8,6 +8,8 @@ HUMAN OVERRIDE INSTRUCTIONS (bind to these; they take precedence over the style 
 
 {override}
 
+Treat the override as craft rules to apply to your writing — do not quote them, name them, or turn their wording into subject matter.
+
 CHAPTER CONTEXT (complete model.json):
 
 {context}

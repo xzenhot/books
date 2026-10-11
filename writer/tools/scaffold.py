@@ -97,12 +97,19 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
 
     pipeline.mkdir(parents=True, exist_ok=True)
 
+    # --- Clone the form-tool template tree (layout/) into the pipeline. ---
+    # enrich.py (and write.py) read their lenses/twists/prompts from the book's
+    # own pipeline layout/ folder, not the shared framework tree. Clone the
+    # v1 layout/ subtree so the pipeline is self-contained before enrichment.
+    layout_src = root / ".framework" / "templates" / "backlog" / "v1" / "layout"
+    layout_dst = pipeline / "layout"
+    if layout_src.is_dir() and not layout_dst.exists():
+        shutil.copytree(layout_src, layout_dst)
+
     # --- Copy the backlog source files (gist.md, storyline.md) verbatim ---
     backlog_dir = root / "workspaces/backlog" / bookname
     for src_name in ("gist.md", "storyline.md", "progress.json"):
         src = backlog_dir / src_name
-        if src.is_file():
-            shutil.copy2(src, pipeline / src_name)
         if src.is_file():
             shutil.copy2(src, pipeline / src_name)
 

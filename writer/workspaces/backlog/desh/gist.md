@@ -1,3 +1,0 @@
-Desh,
-
-## Author Comment
