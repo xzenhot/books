@@ -33,14 +33,14 @@ REPO_ROOT = BASE_DIR.parent
 
 # The single-page Pijush/Dehlij master prompt lives in the framework.
 
-STYLE_DIR = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles"
+STYLE_DIR = REPO_ROOT / ".framework" / "context" / "poetry" / "styles"
 PRESET_DIR = REPO_ROOT / ".framework" / "templates" / "preset"
 POETRY_FILE = PRESET_DIR / "pijush.behula.md"
 DEFAULT_STYLE = "pijush"          # poetry default style
 DEFAULT_STYLE_NOVEL = "dialogue"  # novel default style
 DEFAULT_PRESET = PRESET_DIR / "pijush.md"
 STYLE_FILE = STYLE_DIR / "pijush" / "sample.txt"
-SUBJECTS_FILE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
+SUBJECTS_FILE = REPO_ROOT / ".framework" / "context" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
 
 # Form-specific writer templates (system prompts + user prompt template) live
 # per book in workspaces/pipeline/<bookname>/layout/write-{poetry|novel}/. They

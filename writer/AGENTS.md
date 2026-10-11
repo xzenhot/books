@@ -48,6 +48,7 @@ Supported command families are defined by the two start-point specs. The backlog
 /book <bookname> form <novel|poetry>
 /book <bookname> config [<key> [<value>]]
 /book <bookname> poet|poetry|poem
+/book <bookname> workshop chapter <n|range|*> update <verb>   # backlog-only; verb: summary|character|reference|update|expand
 
 /book -o | --options | list
 /book -h | --help
@@ -117,8 +118,8 @@ Do not create chapter folders outside `chapters/`. Do not create segment folders
 A signature/persona argument selects an authorial voice. Resolve it from the form-specific stereotype folders:
 
 ```text
-.framework/templates/stereotypes/novel/signatures/<signature>/signature.md
-.framework/templates/stereotypes/poetry/signatures/<signature>/signature.md
+.framework/context/novel/signatures/<signature>/signature.md
+.framework/context/poetry/signatures/<signature>/signature.md
 ```
 
 Known novel signatures include:
@@ -165,18 +166,21 @@ Filter-stage roles are implemented as skills under:
 
 They are reached through the filter agent (`.framework/agents/filter/agent.md`).
 
-Known filter skills:
+Known pipeline filter skills:
 
 ```text
-correctness, override, quality, research, seeds, syntax,
-theme, workshop
+correctness, override, quality, research, seeds, syntax, theme
 ```
+
+`workshop` (`.framework/filters/workshop/SKILL.md`) is a backlog-only filter — it
+enriches the backlog book plan via `/book <bookname> workshop chapter <n|range|*> update
+<verb>` and never runs inside the pipeline.
 
 Known lifecycle agents:
 
 ```text
 init, scaffold, write, enrich, filter, style, translate, publish, review,
-humanize, eval
+humanize, eval, workshop
 ```
 
 Known scaffold helper agents:
@@ -284,9 +288,9 @@ Read skill files only from inside the responsible agent flow.
 ```text
 .framework/rules/
 .framework/templates/moods/
-.framework/templates/stereotypes/novel/
-.framework/templates/stereotypes/poetry/
-.framework/templates/subjects/
+.framework/context/novel/
+.framework/context/poetry/
+.framework/context/subjects/
 ```
 
 Use templates as source material; do not copy whole template trees into pipelines unless a scaffold agent explicitly requires it.
@@ -340,7 +344,7 @@ Do not write unfinished drafts directly to `workspaces/published/`.
 
 ### Chapter Draft Ownership
 
-`chapters/<n>/chapter.md` is the live draft. The workshop filter may create an initial draft only when the file is absent; it never reads or overwrites an existing draft. The write/chapter/poet path may later revise it under the version-before-overwrite contract. All other filters and the enrich fusion agent must not read or write `chapter.md`; they operate on the chapter's `model.json` and their own `filters/<filter>/` outputs. Before a filter modifies a chapter's model, snapshot the prior `model.json` into `chapters/<chapter>/history/` with a timestamped filename. The default transformer style for the write command is `pijush` unless a `<style>` argument is supplied.
+`chapters/<n>/chapter.md` is the live draft. The write/chapter/poet path may create or revise it under the version-before-overwrite contract. All filters and the enrich fusion agent must not read or write `chapter.md`; they operate on the chapter's `model.json` and their own `filters/<filter>/` outputs. Before a filter modifies a chapter's model, snapshot the prior `model.json` into `chapters/<chapter>/history/` with a timestamped filename. The default transformer style for the write command is `pijush` unless a `<style>` argument is supplied (for poetry; the novel default is `dialogue`).
 
 ### Filter Outputs
 
@@ -379,16 +383,20 @@ Before writing to `workspaces/published/`, apply the pipeline filters in the ord
 For novels, the full validation chain is:
 
 ```text
-workshop -> research -> seeds -> correctness -> theme -> syntax -> override -> quality
+research -> seeds -> correctness -> theme -> syntax -> override -> quality
 ```
 
 For poetry, the full validation chain is:
 
 ```text
-workshop -> research -> correctness -> theme -> syntax -> override -> quality
+research -> correctness -> theme -> syntax -> override -> quality
 ```
 
 `quality` is the final gate. Do not mark a chapter complete or promote it to final output until quality has passed or the workflow explicitly records an accepted human override.
+
+`workshop` is **not** part of the pipeline validation chain. It is a backlog-only
+filter that enriches `workspaces/backlog/<bookname>/book.json` before scaffold; it
+never reads or writes the pipeline.
 
 ## Safety And Structure Constraints
 
@@ -413,7 +421,7 @@ For every `/book` request:
 4. Inspect the relevant `workspaces/backlog/`, `workspaces/pipeline/`, and `workspaces/published/` paths before writing.
 5. Select the responsible agent from `.framework/agents/`.
 6. Let that agent invoke any required skill.
-7. Write intermediate outputs only to the pipeline; workshop may create an initial `chapters/<n>/chapter.md` only if absent. Other filters never read or write that file.
+7. Write intermediate outputs only to the pipeline; never write `chapter.md` from a filter or the enrich agent. Workshop is backlog-only and never touches the pipeline.
 8. Run the required filters and validations.
 9. Promote final text to `workspaces/published/` only after validation passes.
 10. Report what changed, what was validated, and what remains pending.

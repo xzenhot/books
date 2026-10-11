@@ -12,7 +12,7 @@ The form is declared once, at scaffold time, in the pipeline's `form` field
 | **`mood.json`** | present per chapter | absent (no moods) |
 | **Filter chain** | preset-defined (`layout-novel/SKILL.md`) | preset-defined (`layout-poetry/SKILL.md`) |
 | **Word target** | 5,500+ words | 500–800 words |
-| **Stereotype templates** | `.framework/templates/stereotypes/novel/` | `.framework/templates/stereotypes/poetry/` |
+| **Stereotype templates** | `.framework/context/novel/` | `.framework/context/poetry/` |
 
 The `form` field drives: stereotype template folder, filter chain, chapter
 structure and word target, and the source-of-truth file.

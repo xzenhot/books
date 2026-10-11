@@ -87,6 +87,12 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Reconfigure stdio for UTF-8 so status arrows (e.g. U+2192) never crash on a
+# Windows console whose default codec (cp1252/charmap) cannot encode them.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 # ---------------------------------------------------------------------------
 # Repository paths
 # ---------------------------------------------------------------------------
@@ -318,6 +324,30 @@ def make_title(bookname: str, form: str) -> str:
     """Produce a Bengali book title from the book name and form."""
     suffix = "এর কবিতা" if form == "poetry" else "এর কাহিনি"
     return f"{bookname}: {suffix}"
+
+
+def format_gist_md(bookname: str, form: str, gist: str, expansion: str = "",
+                   comment: str = "") -> str:
+    """Render gist.md in the canonical structure.
+
+    Format:
+        # <bookname> — <title>
+        ## Canonical gist
+        <gist>
+        ## Expansion
+        <expansion>
+        ## Author Comment
+        <comment>
+    """
+    title = make_title(bookname, form)
+    lines = [f"# {bookname} — {title}", "", "## Canonical gist", "", gist]
+    lines += ["", "## Expansion", ""]
+    if expansion:
+        lines.append(expansion)
+    lines += ["", "## Author Comment", ""]
+    if comment:
+        lines.append(comment)
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def make_chapters(
@@ -1259,6 +1289,17 @@ def rewrite_gist_idea(bookname: str) -> None:
     book_dir.mkdir(parents=True, exist_ok=True)
     gist_file = book_dir / "gist.md"
 
+    # Resolve the form (for the title) from the existing book plan, else novel.
+    form = "novel"
+    plan_file = book_dir / "book.json"
+    if plan_file.exists():
+        try:
+            plan_form = json.loads(plan_file.read_text(encoding="utf-8-sig")).get("form")
+            if plan_form in {"novel", "poetry"}:
+                form = plan_form
+        except (json.JSONDecodeError, OSError):
+            pass
+
     # Preserve any existing `## Author Comment` section before rewriting.
     author_comment = ""
     if gist_file.exists():
@@ -1266,7 +1307,7 @@ def rewrite_gist_idea(bookname: str) -> None:
         marker = "## Author Comment"
         idx = text.find(marker)
         if idx != -1:
-            author_comment = text[idx:].rstrip() + "\n"
+            author_comment = text[idx:].replace("## Author Comment", "").strip() + "\n"
 
     # Seed source: existing gist.md one-liner, else the book name.
     if gist_file.exists():
@@ -1298,11 +1339,9 @@ def rewrite_gist_idea(bookname: str) -> None:
         print(f"  warning: idea rewrite failed ({exc}); gist unchanged.")
         return
 
-    expansion_block = f"\n\n## Expansion\n\n{expansion}\n" if expansion else "\n"
-    # author_comment already carries the full "## Author Comment ..." section,
-    # or is empty; append it (or a placeholder) after the expansion.
-    comment_block = author_comment if author_comment else "## Author Comment\n\n"
-    gist_file.write_text(gist + expansion_block + "\n" + comment_block, encoding="utf-8")
+    body = format_gist_md(bookname, form, gist, expansion=expansion,
+                          comment=author_comment.strip())
+    gist_file.write_text(body, encoding="utf-8")
 
     print(f"Gist rewritten → {gist_file}")
     print(f"  gist: {gist}")
@@ -1344,8 +1383,8 @@ def create_gist(bookname: str, gist: str | None, form: str, refresh: bool) -> No
             existing_comment = text[idx:].rstrip()
 
     if not gist_file.exists() or refresh:
-        body = resolved_gist + "\n"
-        body += "\n" + (existing_comment if existing_comment else "## Author Comment\n") 
+        comment_body = existing_comment.replace("## Author Comment", "").strip()
+        body = format_gist_md(bookname, form, resolved_gist, comment=comment_body)
         gist_file.write_text(body, encoding="utf-8")
 
     print(f"Gist written → {gist_file}")
@@ -1437,7 +1476,7 @@ def create_backlog(
 
     # Write gist.md only if it doesn't exist or refresh is requested
     if not gist_file.exists() or refresh:
-        gist_file.write_text(resolved_gist + "\n", encoding="utf-8")
+        gist_file.write_text(format_gist_md(bookname, form, resolved_gist), encoding="utf-8")
 
     epic_file.write_text(epic_text, encoding="utf-8")
     book_file.write_text(
@@ -1740,10 +1779,13 @@ def run_tool(script: str, arguments: list[str]) -> None:
 def positional_target(args: argparse.Namespace, default: str = "all") -> str:
     """Extract a chapter/filter range from the uniform positional argument slots.
 
-    Skips known keyword values (form names, structural keywords) so that
-    'python book.py mybook write all novel' correctly resolves target='all'.
+    Skips known keyword values (form names, structural keywords, and the
+    `offline`/`online` execution-mode tokens) so that
+    'python book.py mybook write all novel' correctly resolves target='all',
+    and 'python book.py mybook enrich * offline' resolves target='*'.
     """
-    reserved = {"gist", "epic", "count", "chapter-count", "poetry", "novel"}
+    reserved = {"gist", "epic", "count", "chapter-count", "poetry", "novel",
+                "offline", "online"}
     for value in (args.range, args.option, args.objective):
         if value and value not in reserved:
             return value

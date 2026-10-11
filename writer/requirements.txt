@@ -1,0 +1,22 @@
+# Writer — repository dependencies
+#
+# The /book workflow engine (tools/book.py and its siblings) uses only the
+# Python standard library. The optional packages below are required by the
+# search layer (tools/search/), the FastAPI publish service
+# (tools/search/db/publish_api.py), and the .env loader.
+#
+# Install from the repo root:
+#   pip install -r requirements.txt
+
+# --- Search providers (tools/search/providers/) ---
+requests>=2.31.0
+
+# --- Environment loading (.env) ---
+python-dotenv>=1.0.0
+
+# --- Search result schema (tools/search/schema.py) ---
+pydantic>=2.5.0
+
+# --- Publish service (tools/search/db/publish_api.py) ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0

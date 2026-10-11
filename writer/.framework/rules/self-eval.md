@@ -58,8 +58,9 @@ Read these in order. Use them as the source of truth for what *should* exist.
 4. `.framework/agents/` — every `agent.md`.
 5. `.framework/skills/` — every active `SKILL.md`. Retired/moved skills live under
    `.framework/filters/` and must not be referenced by any agent or workflow.
-6. `.framework/templates/` — `backlog/` (`book.json`, `book.min.json`, `progress.json`), `stereotypes/`,
-   `preset/`, `moods/`, `subjects/`, `tools/`.
+6. `.framework/templates/` — `backlog/` (`book.json`, `book.min.json`, `progress.json`),
+   `preset/`, `moods/`, `subjects/`, `tools/`; and `.framework/context/` — the stereotype
+   corpus (`novel/`, `poetry/`).
 7. `workspaces/start.md` — user defaults.
 8. `workspaces/backlog/`, `workspaces/pipeline/`, and `workspaces/published/` — the data layers.
 
@@ -111,7 +112,7 @@ and every dangling reference into a moved/retired skill as a defect.
 - `templates/backlog/progress.json` matches the current schema (numeric `chapter_number`,
   `status` in the allowed set, `published_sha256`, `published_version`,
   `humanized`).
-- Every `stereotypes/<form>/<sub>/registry.md` lists entries whose files exist.
+- Every `context/<form>/<sub>/registry.md` lists entries whose files exist.
 - `preset/` files are non-empty and referenced (or deliberately standalone).
 
 ### 5. Data-layer consistency (10)

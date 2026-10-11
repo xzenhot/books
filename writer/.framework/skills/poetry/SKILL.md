@@ -1,11 +1,11 @@
 ---
 name: poetry
-description: Write or rewrite a poetry chapter as flat, continuous poetic prose (no section headings). Driven by the chapter's chapter.json, honoring the assigned signature and theme. Applies the transformer style from `.framework/templates/stereotypes/poetry/styles/<style>/style.md` (default `pijush`) and any human override instructions as the final layer. Writes the chapter to chapters/<n>/chapter.md, archiving any prior copy to segments/1/version/.
+description: Write or rewrite a poetry chapter as flat, continuous poetic prose (no section headings). Driven by the chapter's chapter.json, honoring the assigned signature and theme. Applies the transformer style from `.framework/context/poetry/styles/<style>/style.md` (default `pijush`) and any human override instructions as the final layer. Writes the chapter to chapters/<n>/chapter.md, archiving any prior copy to segments/1/version/.
 ---
 
 # Poetry Write — Flat Poetic Prose
 
-Use this skill for a poetry pipeline to write (or rewrite) one chapter's core content so it becomes deeper, more finished, and more human — always in the resolved transformer style from `.framework/templates/stereotypes/poetry/styles/<style>/style.md` (default `pijush`).
+Use this skill for a poetry pipeline to write (or rewrite) one chapter's core content so it becomes deeper, more finished, and more human — always in the resolved transformer style from `.framework/context/poetry/styles/<style>/style.md` (default `pijush`).
 
 ## The Flatten Rule (ESTABLISHED)
 
@@ -26,7 +26,7 @@ Before writing, read these files in order:
 1. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (the only per-chapter input; never `chapter.md`).
 2. `workspaces/pipeline/<bookname>/book.json` — the book identity and summary, if you need broader context.
 3. `workspaces/pipeline/<bookname>/filters/override/filter.md` — the pipeline override command file (always present; created at scaffold). Read its `## Instructions` section for **every** rewrite and apply non-empty instructions to the new version (see *The Override Layer*).
-4. `.framework/templates/stereotypes/poetry/styles/<style>/style.md` — the transformer style template (resolve `<style>`, default `pijush`, before reading). If the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity in `style.md` (see *The Style Layer*).
+4. `.framework/context/poetry/styles/<style>/style.md` — the transformer style template (resolve `<style>`, default `pijush`, before reading). If the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity in `style.md` (see *The Style Layer*).
 
 ## Chapter Layout Contract
 
@@ -54,10 +54,10 @@ Before writing, read these files in order:
 ## The Style Layer (`<style>`, default `pijush`)
 
 The transformer style always applies. It selects a **transformer style** from
-`.framework/templates/stereotypes/poetry/styles/<style>/style.md` that reshapes
+`.framework/context/poetry/styles/<style>/style.md` that reshapes
 the written content:
 
-1. **Resolution.** Resolve `<style>` to `.framework/templates/stereotypes/poetry/styles/<style>/style.md`, using `pijush` when the invocation omits `<style>`. If the folder or `style.md` does not exist, stop and report, listing the available folders under `.framework/templates/stereotypes/poetry/styles/` — never silently write without the resolved style.
+1. **Resolution.** Resolve `<style>` to `.framework/context/poetry/styles/<style>/style.md`, using `pijush` when the invocation omits `<style>`. If the folder or `style.md` does not exist, stop and report, listing the available folders under `.framework/context/poetry/styles/` — never silently write without the resolved style.
 2. **Authority.** If the style folder contains `signature.md`, read it and treat it as the interpretive authority for resolving ambiguity or tension within `style.md` (voice, identity, and tonal decisions).
 3. **Application.** Apply the style to the rewritten prose. The style governs voice, imagery, and register — it never changes the chapter's metadata-driven content requirements (topic, theme, figures, word target) and never re-introduces section headings.
 4. **Layer order.** Transformation layers apply in this order: chapter metadata (base) → style (voice/register) → override instructions (`filters/override/filter.md`, final and binding).

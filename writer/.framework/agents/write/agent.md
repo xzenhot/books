@@ -71,7 +71,7 @@ sources, in this precedence — and every resolution is **bound to the book's fo
 1. **`<style>` provided** — treat it as a preset name and resolve
    `.framework/templates/preset/<style>.md` (e.g. `desh` → `preset/desh.md`,
    `pijush` → `preset/pijush.md`). Do not read
-   `.framework/templates/stereotypes/poetry/styles/<style>/` for the write path.
+   `.framework/context/poetry/styles/<style>/` for the write path.
 2. **`<style>` omitted** — use the book's own
    `workspaces/pipeline/<bookname>/style.md` (the operative style reference built
    by the style agent), or the `"style"` field in the pipeline `book.json` when it
@@ -80,7 +80,7 @@ sources, in this precedence — and every resolution is **bound to the book's fo
    `style.md`/`book.json` style is absent, fall back to the **form's default**:
    - **poetry** → `.framework/templates/preset/pijush.md`
    - **novel** → `dialogue` (resolved from the novel style corpus
-     `.framework/templates/stereotypes/novel/styles/dialogue-driven/style.md`)
+     `.framework/context/novel/styles/dialogue-driven/style.md`)
 
 **Never cross the form boundary.** For a novel, do not pick a poetry style; for
 poetry, do not pick a novel style. Resolve styles only from the corpus matching

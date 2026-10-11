@@ -27,8 +27,8 @@ must serve the poem — its image, its sound, its turn — never a prose arc.
 1. `workspaces/pipeline/<bookname>/filters/filters.json` — the authoritative filter list.
 2. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the poem's metadata (the only per-chapter input).
 3. The active filters' own outputs under `workspaces/pipeline/<bookname>/filters/<filter>/` — the fused guidance's source material.
-4. `.framework/templates/stereotypes/poetry/signatures/<poet>/signature.md` — the poetic signatures (see *Poetic Signature*).
-5. `.framework/templates/stereotypes/poetry/styles/<style>/` — the resolved style (see *Style Grounding*).
+4. `.framework/context/poetry/signatures/<poet>/signature.md` — the poetic signatures (see *Poetic Signature*).
+5. `.framework/context/poetry/styles/<style>/` — the resolved style (see *Style Grounding*).
 
 `chapter.md` is **not** an input here. It is an output file of the writing/authorship
 path; you never read the poem's current prose. You do **not** read the backlog or the epic.
@@ -37,7 +37,7 @@ path; you never read the poem's current prose. You do **not** read the backlog o
 
 Each poem is assigned a **poetic signature** — a poet-stereotype that gives the poem its
 movement, motif, and music. The signatures live under
-`.framework/templates/stereotypes/poetry/signatures/`:
+`.framework/context/poetry/signatures/`:
 
 ```text
 aurilus, blake, dickinson, eliot, gibran, hafez, jibanananda, lorca,
@@ -92,7 +92,7 @@ the tide, the paradox, the cup-bearer (Gibran).
 
 ## Style Grounding
 
-Resolve the book's style from `.framework/templates/stereotypes/poetry/styles/`:
+Resolve the book's style from `.framework/context/poetry/styles/`:
 
 - **desh** — the incantatory, collision-driven voice (see `styles/desh/style.md` and
   `signature.md`); re-key its imagery families to the book's own material.
@@ -106,7 +106,7 @@ poem that does not invite it.
 ## Poetic Parameters (what the fused pass records)
 
 The enrichment is a **poetic parameter profile**, not a story outline. Load the
-style-slider model from `.framework/templates/stereotypes/poetry/poetry-slider.json`
+style-slider model from `.framework/context/poetry/poetry-slider.json`
 (the five `style_sliders`, the seven `movements` with their `parameter_weights`, and the
 `writing_skills`). Record the poem's **parameters** — a set of numeric sliders plus the
 movement and skills that shape it — inside the poem's `creative_enrichment` under a

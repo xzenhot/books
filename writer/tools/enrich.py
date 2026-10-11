@@ -39,7 +39,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # The active form's template folder, resolved per book from the pipeline's own
 # layout/ folder. The shared .framework/templates/backlog tree is no longer used.
 _ACTIVE_DIR: Path | None = None
-STYLE_BASE = REPO_ROOT / ".framework" / "templates" / "stereotypes" / "poetry" / "styles" / "pijush" / "style.md"
+STYLE_BASE = REPO_ROOT / ".framework" / "context" / "poetry" / "styles" / "pijush" / "style.md"
 
 MODEL = "gemma4:latest"
 OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
