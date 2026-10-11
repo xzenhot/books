@@ -442,8 +442,11 @@ class WriterApp(tk.Tk):
 
         self.run_btn = ttk.Button(top, text="Run", command=self.run)
         self.run_btn.grid(row=0, column=6, padx=4)
+        # Indeterminate progress bar, shown between Run and Refresh while a
+        # command runs.
+        self.progress = ttk.Progressbar(top, mode="indeterminate", length=120)
         self.refresh_btn = ttk.Button(top, text="Refresh", command=self._refresh_books)
-        self.refresh_btn.grid(row=0, column=7, padx=4)
+        self.refresh_btn.grid(row=0, column=8, padx=4)
 
         top.columnconfigure(5, weight=1)
 
@@ -489,9 +492,6 @@ class WriterApp(tk.Tk):
         self.console.configure(yscrollcommand=console_scroll.set)
         self.console.pack(side="left", fill="both", expand=True)
         console_scroll.pack(side="right", fill="y")
-
-        # Indeterminate progress bar (shown while a command runs).
-        self.progress = ttk.Progressbar(self, mode="indeterminate")
 
         # Status bar.
         self.status_var = tk.StringVar(value="Ready.")
@@ -687,7 +687,7 @@ class WriterApp(tk.Tk):
         self._append_console(f"\n[error] {msg}\n")
 
     def _show_progress(self):
-        self.progress.pack(fill="x", padx=6, pady=(0, 2), before=self.status_label)
+        self.progress.grid(row=0, column=7, padx=4)
         # Force the widget to be realized/mapped before starting the animation,
         # otherwise start() may not begin the indeterminate cycle.
         self.update_idletasks()
@@ -695,7 +695,7 @@ class WriterApp(tk.Tk):
 
     def _hide_progress(self):
         self.progress.stop()
-        self.progress.pack_forget()
+        self.progress.grid_remove()
 
     def _append_console(self, text):
         self.console.config(state="normal")

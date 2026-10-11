@@ -1,0 +1,74 @@
+# Chapter model context
+
+## chapter_index
+
+9
+
+## name
+
+9
+
+## word_target
+
+500
+
+## chapter_title
+
+আগুনের চুমুর দাগ
+
+## chapter_summary
+
+উল্কাপাতের জ্বলন্ত আঘাতে পাহাড়ের বুকে চিরস্থায়ী ক্ষত। আকাশ থেকে নামা আগুনও পাথরকে ভাঙতে পারেনি।
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The impact event treated as a hyper-sexualized trauma—the meteor's fiery entry analogous to sudden, overwhelming physical contact or violation.
+- Focusing on the *residue* rather than the strike: the fine, incandescent dust and melted minerals that settle into fissures, treating them as indelible scars of extreme intimacy.
+- Shifting the observer from geological timescale to immediate, catastrophic moment—a brief eternity captured in combustion and fracture.
+
+### story_options
+
+- Setting: A newly formed impact scar fissure; Desire: To trace the perfect curvature where molten rock cooled instantly against ancient gneiss; Obstacle: The surrounding rock remains unnervingly stable despite the violence, its silence mocking the event.
+- Setting: Near a vein of iron sulfide visibly blackened by heat; Desire: For the specific spectral signature left in the melted minerals—a chemical 'memory' of the fiery trajectory; Obstacle: The residue is chemically inert and resists any interpretation other than sheer power.
+- Setting: An exposed plateau immediately following the thermal shockwave; Desire: To find a small, non-geological object (e.g., a shard of ancient, unknown synthetic material) embedded in the vitrified crust, signaling an external agent beyond cosmic dust.
+- The poem centers on a single, specific patch of stone scorched black, its surface texture resembling cracked leather, which holds a hidden, petrified seed that was instantly carbonized.
+
+### subject_rotations
+
+- Treating the impact not as destruction but as an aggressive act of transformation—a forced catalyst rewriting existing mineral relationships.
+- Exploring the acoustic aftermath: the silence following the supersonic breach, and how different micro-geological structures absorb or transmit residual pressure waves over centuries.
+- Focusing on the specific element introduced by the meteor (e.g., Iridium anomaly) as a transient visitor—a foreign genetic marker deposited onto an ancient, unchanging genome.
+
+### sensory_details
+
+- Olfactory: The sharp, hot scent of ozone immediately following atmospheric entry, distinct from typical mineral dust.
+- Visual: The specific color gradient where vaporized silicate meets superheated iron—ranging from incandescent orange to deep, matte hematite black.
+- Tactile: The glass-smoothness found only in the immediate periphery of high-velocity impact zones, contrasting sharply with surrounding fractured, angular debris.
+
+### research_questions
+
+- What specific isotopic signatures might be present in terrestrial rock samples immediately adjacent to meteoritic impacts that could indicate superheated atmospheric interaction?
+- Are there established patterns linking meteorite impact ejecta composition (e.g., metallic inclusions) to localized, rapid crystallization events on bedrock surfaces?
+
+### structural_variants
+
+- A fragmented structure mirroring the blast wave's progression: initial compression > peak kinetic energy transfer > expansive fragmentation/cooling.
+- Use of highly accelerated time shifts within stanzas—a moment before impact (eons) suddenly compressed into a single, blinding instant.
+
+### variety_note
+
+Where previous chapters addressed slow erosion or deep-time survival, this chapter is focused entirely on instantaneous, violent intervention and the resulting indelible mark.

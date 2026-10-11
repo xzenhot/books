@@ -382,6 +382,23 @@ def load_override(model_file: Path) -> str:
     return text
 
 
+def frame_override(override: str) -> str:
+    """Frame the human override as craft rules, not content.
+
+    The override.txt mandate is a how-to-write directive (dramatic openings,
+    line breaks, no repeated words, philosophical questions, myth-over-truth,
+    everyday-life symbols, a named muse, a living mountain). It must shape the
+    prose without ever being quoted, named, or turned into subject matter.
+    """
+    if not override:
+        return "(none — no human override instructions)"
+    return (
+        "These are CRAFT RULES, not content. Apply them silently — never quote, "
+        "name, or recite them, and never turn their wording into the poem's "
+        "subject matter:\n\n" + override
+    )
+
+
 def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
                  override: str = "") -> str:
     """Use the complete model context, including nested filter guidance and any override."""
@@ -393,7 +410,7 @@ def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
         style_prompt=poetry,
         number=number,
         lang_word=lang_word,
-        override=override or "(none — no human override instructions)",
+        override=frame_override(override),
         context=context,
     )
 
@@ -443,7 +460,7 @@ def build_segment_prompt(poetry: str, context: str, number: int,
         word_target=word_target,
         prior_text=prior_text or "(this is the first segment — no prior prose)",
         lang_word=lang_word,
-        override=override or "(none — no human override instructions)",
+        override=frame_override(override),
         context=context,
     )
 

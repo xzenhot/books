@@ -25,8 +25,9 @@ Before writing, read these files in order:
 
 1. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (the only per-chapter input; never `chapter.md`).
 2. `workspaces/pipeline/<bookname>/book.json` — the book identity and summary, if you need broader context.
-3. `workspaces/pipeline/<bookname>/filters/override/filter.md` — the pipeline override command file (always present; created at scaffold). Read its `## Instructions` section for **every** rewrite and apply non-empty instructions to the new version (see *The Override Layer*).
-4. `.framework/context/poetry/styles/<style>/style.md` — the transformer style template (resolve `<style>`, default `pijush`, before reading). If the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity in `style.md` (see *The Style Layer*).
+3. `workspaces/pipeline/<bookname>/override.txt` — the **master human override** (the author's craft directives). This is mandatory reading on every write; it takes precedence over every default in this skill, including the flatten/continuous-prose rule. Read it before writing.
+4. `workspaces/pipeline/<bookname>/filters/override/filter.md` — the pipeline override command file (always present; created at scaffold). Read its `## Instructions` section for **every** rewrite and apply non-empty instructions to the new version (see *The Override Layer*).
+5. `.framework/context/poetry/styles/<style>/style.md` — the transformer style template (resolve `<style>`, default `pijush`, before reading). If the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity in `style.md` (see *The Style Layer*).
 
 ## Chapter Layout Contract
 
@@ -62,6 +63,39 @@ the written content:
 3. **Application.** Apply the style to the rewritten prose. The style governs voice, imagery, and register — it never changes the chapter's metadata-driven content requirements (topic, theme, figures, word target) and never re-introduces section headings.
 4. **Layer order.** Transformation layers apply in this order: chapter metadata (base) → style (voice/register) → override instructions (`filters/override/filter.md`, final and binding).
 
+## The Master Override (`override.txt`)
+
+`workspaces/pipeline/<bookname>/override.txt` is the **master human override** — the
+author's own craft directives for the book. It is **always authoritative and binding**,
+and it overrides any conflicting default in this skill. Read it on **every** write
+(before `filters/override/filter.md`) and apply every directive exactly:
+
+- If it says **"লাইন ব্রেক দিন" (give line breaks)**, break the poem into short
+  lines — one clause or image per line — **overriding** the flat continuous-prose
+  flatten rule below.
+- If it gives a **line-count limit** (e.g. "১৫-১৬ লাইনের ভিতর রাখুন" — keep it
+  within 15–16 lines), compress the poem to that many lines, even when that
+  shortens the target word count. The line-count limit is binding and wins over
+  the default word target.
+- If it says **"শব্দকে পুন পুন ব্যবহার করবেন না" (do not repeat a word)**, use a
+  synonym instead of repeating any word within a line or passage.
+- If it says **"কোন একটি নির্দিষ্ট লাইন সংখ্যায় রাখবেন না"** (do not keep any one
+  fixed line count — sometimes 2–6, sometimes 7–12, sometimes 13–18), **vary the
+  line count and the poem's shape from chapter to chapter**. Do not reuse a fixed
+  stanza/line structure across poems.
+- If it says **"সব সময় কবিতা ক্লোজ করার দরকার নেই। ওপেন রাখবেন"** (the poem need
+  not always close; leave it open), end some poems on an unresolved image or
+  question rather than a conclusive turn.
+- If it says **"একই প্যাটার্নের কবিতা লিখবেন না"** (do not write the same-pattern
+  poem), never fix a recurring slot for the muse, the question, or the closing —
+  vary their position (the muse may appear early, mid, or late; the question may
+  or may not close the poem).
+- Every directive (dramatic opening, philosophical questions, myth-over-truth,
+  everyday symbols, a named muse, the living mountain) must **shape** the prose
+  silently — never be quoted, named, or recited as the poem's own content.
+
+When `override.txt` and this skill's defaults conflict, **`override.txt` wins.**
+
 ## The Override Layer (`filters/override/filter.md`)
 
 `workspaces/pipeline/<bookname>/filters/override/filter.md` is the **pipeline override command file** — a human-authored instruction file created by the scaffold step. It must **always be present** in the pipeline. Apply it to **every** rewrite:
@@ -73,11 +107,31 @@ the written content:
 
 ## Language
 
-Read the `language` field from the pipeline (`book.json` or `chapter.json`). Use that language for the rewritten content. If the language is `en`, use English. If it is another language code, write in that language. Do not assume a default language.
+Read the `language` field from the pipeline (`book.json` first, then
+`chapter.json`). Use that language for the rewritten content. If the language is
+`en`, use English. If it is another language code, write in that language. Do not
+assume a default language.
+
+**The language is read from `book.json` — never from `override.txt`.** The master
+override (`override.txt`) is a *craft* directive (voice, line breaks, repetition,
+symbol, muse, length) and may itself be written in any language; its language is
+never the output language. Even if `override.txt` is worded in English (or
+mentions "translated to English"), the poem's language is determined solely by
+`book.json` → `language`. Read that field on every write and write the poem in it.
+
+## Override Is Craft, Not Content
+
+The pipeline override command file (`filters/override/filter.md`) and the master
+prompt (`override.txt`) hold **craft directives**, never subject matter. Rules
+such as "start dramatically", "break lines", "do not repeat a word — use a
+synonym", "establish myth, wrap truth in symbol", "draw symbols from everyday
+life", "keep the muse present", and "make the mountain live" must shape the
+prose silently — they must never be quoted, named, or recited as the poem's own
+lines. Avoid repeating a word within a line or passage; reach for a synonym.
 
 ## Output Format
 
-Write the rewritten chapter to `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` as **flat, continuous poetic prose** — no section headings. The only heading permitted is the chapter title (`# {chapter_title}`) if the pipeline convention requires a title. Do not add `## Question`, `## Oration`, `## Benediction`, or any other section labels.
+Write the rewritten chapter to `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` as **flat, continuous poetic prose** — no section headings — **unless the master `override.txt` instructs otherwise** (e.g. line breaks), in which case the override wins and the output follows it. The only heading permitted is the chapter title (`# {chapter_title}`) if the pipeline convention requires a title. Do not add `## Question`, `## Oration`, `## Benediction`, or any other section labels.
 
 Do not add extra metadata, comments, or explanation outside the chapter text.
 
@@ -85,7 +139,7 @@ Do not add extra metadata, comments, or explanation outside the chapter text.
 
 - Do not scaffold pipelines.
 - Do not run filters.
-- Do not consult the backlog `workspaces/backlog/<bookname>/override.md`; apply only the pipeline override command file `workspaces/pipeline/<bookname>/filters/override/filter.md`.
+- Do not consult the backlog `workspaces/backlog/<bookname>/override.md`; apply the pipeline override command file `workspaces/pipeline/<bookname>/filters/override/filter.md` and the master `workspaces/pipeline/<bookname>/override.txt`.
 - Do not write the chapter into `segments/1/writer/` — the output is `chapters/<n>/chapter.md` only. Prior copies are archived to `segments/1/version/`.
 - Do not write to `workspaces/published/` — this skill produces the chapter in the pipeline only.
 - Do not update `progress.json` — progress tracking is the writer workflow's responsibility.

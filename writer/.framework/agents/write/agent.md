@@ -16,6 +16,32 @@ This agent is only a dispatcher. It must not write chapter content directly; it 
 
 - `<style>` — optional style selector. **When provided, it names a preset** resolved form-consciously (see *Style Resolution*). **When omitted, the book's own `workspaces/pipeline/<bookname>/style.md` is used.** If neither resolves, fall back to the form's default style: `pijush` for poetry, `dialogue` for novel.
 
+## Override Is Craft, Not Content (mandatory)
+
+The human override (`workspaces/pipeline/<bookname>/override.txt`) is a set of
+**craft directives**, never subject matter. Rules such as "start dramatically",
+"break lines", "do not repeat a word — use a synonym", "establish myth, wrap
+truth in symbol", "draw symbols from everyday life", "keep the muse present",
+and "make the mountain live" must **shape** the prose — they must never be
+quoted, named, or recited as the poem's own lines, and their wording must never
+be turned into content. The writer applies them silently, and every generated
+chapter must avoid repeating a word within a line or passage (reach for a
+synonym instead).
+
+Read `workspaces/pipeline/<bookname>/override.txt` on **every** write — it is the
+master human override and is **binding and authoritative**. It overrides every
+default in this agent and the selected skill. In particular, if it says **"লাইন
+ব্রেক দিন" (give line breaks)**, the finished poem must be broken into short
+lines (one clause or image per line), **overriding** the flat continuous-prose
+flatten rule. If it sets a **line-count limit** (e.g. "১৫-১৬ লাইনের ভিতর রাখুন"),
+compress the poem to that many lines — this limit is binding and wins over the
+default word target. If it says **"কোন একটি নির্দিষ্ট লাইন সংখ্যায় রাখবেন না"**
+(vary the line count — sometimes 2–6, sometimes 7–12, sometimes 13–18) or
+**"একই প্যাটার্নের কবিতা লিখবেন না"** (never repeat the same poem shape), vary
+the line count, stanza structure, and the position of the muse / question / close
+from chapter to chapter — do not fix a recurring slot. When `override.txt` and
+any skill default conflict, `override.txt` wins.
+
 ## Resolve Language and Word Target (mandatory, every write)
 
 Before any flatten or writing, the write agent MUST fetch the book's `language` and
@@ -26,6 +52,9 @@ remembered from a previous run, and never assume a default.
    chapter-level `chapter.json` may also carry a `language`; if it does and differs,
    the chapter value wins. This is the language the finished prose is written in.
    If `language` is absent or empty, stop and report it — do not guess.
+   **The language is read from `book.json` only — never from `override.txt`.** The
+   override is a craft directive and may be worded in any language; its own
+   language never determines the output language.
 2. **Word target.** Read `word_target` from the chapter's
    `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` first. If the chapter
    does not declare it, fall back to the `word_target` on the matching entry in
