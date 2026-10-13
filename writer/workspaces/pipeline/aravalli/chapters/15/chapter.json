@@ -12,7 +12,7 @@
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -45,6 +45,41 @@
       "A meditative catalog poem where each repetition focuses on a different aspect of whiteness: optical, structural, chemical, and emotional.",
       "A dialogue structure where the 'Stone' speaks only through its perfect silence, answering rhetorical questions posed by Sagorika."
     ],
-    "variety_note": "Unlike the preceding chapters focused on fiery color (red/orange) or dense weight (lead/zinc), this piece isolates and examines material purity as a state of extreme tension—both sublime and empty."
+    "variety_note": "Unlike the preceding chapters focused on fiery color (red/orange) or dense weight (lead/zinc), this piece isolates and examines material purity as a state of extreme tension—both sublime and empty.",
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "Makrana marble rising like a moon swallowed by stone",
+      "volta": "beauty dissolving into absence",
+      "sonic_texture": "a long, uplifted, chant-like cadence",
+      "line_gesture": "lines that turn upward toward union",
+      "variety_note": "a moonlit purity against the leaden dark"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rabindranath",
+    "style": "pijush"
   }
 }

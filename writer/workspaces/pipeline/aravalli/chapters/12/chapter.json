@@ -6,7 +6,7 @@
   "chapter_summary": "পাহাড়ের শরীরে বয়ে চলা শিরা — তামা, দস্তা, সীসার আকরিক আর মার্বেলের শুভ্র রক্ত। খনিজ শরীরের প্রথম পরিচয়।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -44,6 +44,41 @@
       "Exploring the relationship between seismic echoes and mineral stress points—the mountain having internal tremors that are felt only at specific fault lines.",
       "A focus purely on sonic geology: mapping how different rock densities affect sound propagation within the mountainside structure."
     ],
-    "variety_note": "This chapter moves from the large-scale, initial geological formation (prior chapters) to an intensely focused examination of internal composition and connectivity, linking chemistry directly to the body's vasculature metaphorically."
+    "variety_note": "This chapter moves from the large-scale, initial geological formation (prior chapters) to an intensely focused examination of internal composition and connectivity, linking chemistry directly to the body's vasculature metaphorically.",
+    "poetic_parameters": {
+      "emotional_rawness": 9,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 9,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Spoken Word",
+        "one_liner": "Rhythmic text built purely for performance."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "copper and zinc running like blood through opened stone",
+      "volta": "the vein turning from wealth into a living pulse",
+      "sonic_texture": "a percussive, uprising refrain",
+      "line_gesture": "breath-driven lines with a rallying cry of a close",
+      "variety_note": "a rebellious, beating vein after the sentinel's stillness"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "nazrul",
+    "style": "pijush"
   }
 }

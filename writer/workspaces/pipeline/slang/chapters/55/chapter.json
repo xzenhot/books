@@ -1,0 +1,80 @@
+{
+  "chapter_index": 55,
+  "name": "55",
+  "word_target": 500,
+  "chapter_title": "আপনি বাঁচলে বাপের নাম",
+  "chapter_summary": "The chapter explores the stark philosophy that self-preservation supersedes all other duties, encapsulated in the maxim, 'If you survive, your lineage remains.' This internal conflict pits the immediate, primal need for personal survival against the perceived honor and duty to the family or clan. Key imagery revolves around the harsh realities of conflict, where the act of defending one's own life becomes the highest form of righteousness, a desperate struggle for existence. The narrative leaves the reader questioning the moral boundaries: when does the instinct to save oneself become an abandonment of collective responsibility?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজানা যোদ্ধা",
+      "role": "আত্মরক্ষাকারী"
+    },
+    {
+      "id": "c2",
+      "name": "বংশধর",
+      "role": "সুরক্ষার対象"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "আত্মরক্ষাকে ধর্ম হিসেবে তুলে ধরা হয়েছে, যা তৎকালীন সামাজিক প্রেক্ষাপটের প্রতিচ্ছবি।",
+    "human_in_the_loop": "এই অধ্যায়ে আত্মরক্ষার প্রয়োজনীয়তা ব্যক্ত করা হয়েছে, যা মানব অস্তিত্বের মৌলিক চাহিদা।",
+    "influence_of_other_works": "প্রবাদ-বাক্যের কাব্যিক রূপায়ণ অন্য সাহিত্যিক ধারাগুলির প্রতিধ্বনি বহন করে।",
+    "cultural_relevance": "নিজে বাঁচলে তবেই বংশের নাম—এই ধারণাটি বাঙালি সংস্কৃতির গভীর মূল্যবোধকে স্পর্শ করে।",
+    "literary_style": "গদ্যে প্রবাদের কাব্যিক মাধুর্য ফুটিয়ে তোলা হয়েছে, যা ভাষা ও ভাবের অপূর্ব সংমিশ্রণ।",
+    "narrative_techniques": "সংক্ষিপ্ত অথচ শক্তিশালী বাক্যবিন্যাস ব্যবহার করে মূল বার্তাটিকে পাঠকের মনে গেঁথে দেওয়া হয়েছে।",
+    "symbolism_and_motifs": "'বাপের নাম' এখানে বংশমর্যাদা ও অস্তিত্ব রক্ষার প্রতীক হিসেবে কাজ করছে।",
+    "reader_engagement_strategies": "শক্তিশালী প্রবাদটির সরাসরি উপস্থাপনা পাঠককে তাৎক্ষণিক ভাবনার খোরাক যোগায়।",
+    "ethical_considerations": "আত্মরক্ষার অধিকারকে ধর্ম হিসেবে প্রতিষ্ঠা করা নৈতিকতার একটি বিতর্কিত দিক তুলে ধরে।",
+    "potential_controversies": "আত্মরক্ষাকে ধর্মের সমতুল্য ঘোষণা করা কিছু সমালোচকের কাছে বিতর্কের জন্ম দিতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি মূলত ব্যক্তিগত টিকে থাকার উপর আলোকপাত করে, যা সর্বজনীন হলেও নির্দিষ্ট সামাজিক কাঠামোর প্রতিচ্ছবি।",
+    "marketing_and_promotion": "এই শক্তিশালী শিরোনাম ('আপনি বাঁচলে বাপের নাম') সহজেই সামাজিক মাধ্যমে মনোযোগ আকর্ষণ করতে পারে।",
+    "significance_of_rise_of_bengal": "আত্মরক্ষা নির্ভরতা বাংলার সামাজিক ও রাজনৈতিক অস্থিরতার সময়ে টিকে থাকার সংগ্রামের ইঙ্গিত দেয়।"
+  },
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing survival not as an individual act of defiance but as a grotesque performance witnessed by silent community observers (the unseen 'দর্শক').",
+      "Interpreting the maxim through a lens of unavoidable cyclical violence, where one person's necessity leads to another’s inevitable fall.",
+      "Analyzing the *silence* that follows a desperate act of self-preservation—the moment after the fight when only exhausted breaths and lingering threat remain."
+    ],
+    "story_options": [
+      "Setting: A narrow, waterlogged alleyway in old Calcutta; Desire: C1 must choose between saving their own breath or ensuring C2 receives a final warning about the danger ahead; Obstacle: The imminent arrival of an unspoken enforcer.",
+      "Setting: A high rooftop overlooking the chaotic sprawl at dusk; Desire: To make a visible, defiant stand to prove worthiness to the lineage; Obstacle: The suddenness of betrayal from someone trusted within the immediate group.",
+      "Setting: Amidst the dust and debris following a skirmish in rural Bengal; Desire: C1 needs confirmation that their action preserved not just life, but *meaning* for the clan elders; Obstacle: Ambiguity—was the struggle worth the blood spilled?"
+    ],
+    "subject_rotations": [
+      "Treating 'বাপের নাম' as a burden of expectations rather than a source of honor; how survival itself becomes a performance demanded by ancestors.",
+      "Focusing less on the physical violence and more on the linguistic/ritualistic act of claiming lineage through struggle—the words spoken before or after conflict.",
+      "Examining the social contract: when does the necessity to preserve the self become an active threat to the collective safety?"
+    ],
+    "sensory_details": [
+      "The metallic taste of adrenaline and dust coating C1's tongue immediately following a desperate maneuver.",
+      "The heavy, wet smell of earth churned up by struggling feet mixed with stagnant water from low drains.",
+      "The rasping sound of ragged cloth tearing against stone during evasive movement."
+    ],
+    "research_questions": [
+      "How is the concept of 'family honor' depicted in regional Bengali folklore when faced with direct, mortal threats?",
+      "Are there distinct colloquial phrases used in Kolkata/Bangladesh that denote self-preservation as a necessary vice rather than merely an instinct?"
+    ],
+    "structural_variants": [
+      "A heavily internal monologue structure where the external conflict is rendered only through fragmented visceral sensations.",
+      "A rapid shift from extreme, claustrophobic close-ups of physical struggle to vast, desolate panoramic shots emphasizing isolation."
+    ],
+    "unused_angles": [
+      "The role of bureaucratic or legal structures in validating (or invalidating) the fierce claim of 'বাপের নাম' during a local conflict.",
+      "Contrasting this primal survival instinct against moments of quiet domesticity depicted elsewhere in the book, highlighting the constant tension between public and private selves."
+    ],
+    "variety_note": "Unlike earlier chapters focused on specific social tactics (like deception or labeling), this piece grounds its theme in raw, existential necessity, focusing on the cost of being 'the survivor.'"
+  },
+  "draft": {
+    "sha256": "0f256b58767b5102e29bafb3c603d5112e960c4273120bc23c94a82433cb53c3",
+    "written_at": "2026-10-11T18:54:25.205794+00:00",
+    "origin": "write"
+  }
+}

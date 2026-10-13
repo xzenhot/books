@@ -1,0 +1,40 @@
+{
+  "chapter_index": 17,
+  "name": "17",
+  "word_target": 500,
+  "chapter_title": "হাওয়া খাওয়া",
+  "chapter_summary": "Chapter 17, \"হাওয়া খাওয়া,\" delves into the pervasive malaise of aimless wandering, where the characters spend their days merely consuming the atmosphere without achieving any tangible outcome. The central conflict emerges from the tension between the desire for purpose and the seductive inertia of aimless movement, vividly portrayed through the imagery of dust-laden roads and the relentless, unproductive passage of time. As the characters drift through the landscape, their inaction mirrors a deeper existential drift, leaving the reader to question whether this perpetual state of 'being' without 'doing' is a temporary stagnation or a permanent condition of their lives.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরিত্র ১",
+      "role": "উদ্দেশ্যহীন পথিক"
+    },
+    {
+      "id": "c2",
+      "name": "চরিত্র ২",
+      "role": "পর্যবেক্ষক"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "উদ্দেশ্যহীন ঘোরা তৎকালীন সামাজিক অস্থিরতার এক চিত্র তুলে ধরে।",
+    "human_in_the_loop": "এই অধ্যায়ে চরিত্ররা উদ্দেশ্যহীনভাবে ঘুরে বেড়ানোর মাধ্যমে তাদের মানসিক শূন্যতা প্রকাশ করে।",
+    "influence_of_other_works": "প্রবাদ-সিদ্ধ এই জীবনযাত্রা যেন পুরোনো লোককথার এক প্রতিচ্ছবি।",
+    "cultural_relevance": "হাওয়া খাওয়া ধারণাটি বাংলার গ্রামীণ জীবনের এক পরিচিত অথচ অর্থহীন প্রবণতাকে তুলে ধরে।",
+    "literary_style": "গদ্যে একটি অলস, কিন্তু গভীর দার্শনিক সুর বিদ্যমান।",
+    "narrative_techniques": "বর্ণনার মাধ্যমে লেখক উদ্দেশ্যহীনতার এক চিত্র ফুটিয়ে তুলেছেন।",
+    "symbolism_and_motifs": "হাওয়া খাওয়া এখানে লক্ষ্যহীন জীবনের প্রতীকী রূপ।",
+    "reader_engagement_strategies": "পাঠককে উদ্দেশ্যহীনতার এই চিত্রটি গভীরভাবে চিন্তা করতে বাধ্য করে।",
+    "ethical_considerations": "অলসতা বা উদ্দেশ্যহীনতা নিয়ে সমাজের নৈতিক প্রশ্ন উত্থাপিত হয়েছে।",
+    "potential_controversies": "সমাজের কিছু অংশের নিষ্ক্রিয়তাকে সমালোচনা করা হতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়ে কোনো নির্দিষ্ট গোষ্ঠীর অন্তর্ভুক্তির বিষয়টি সরাসরি আলোচিত হয়নি।",
+    "marketing_and_promotion": "এই অধ্যায়ের শিরোনাম 'হাওয়া খাওয়া' সহজেই পাঠকের দৃষ্টি আকর্ষণ করবে।",
+    "significance_of_rise_of_bengal": "এই নিষ্ক্রিয়তা তৎকালীন বাংলার অর্থনৈতিক ও সামাজিক স্থবিরতার ইঙ্গিত দেয়।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

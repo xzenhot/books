@@ -1,0 +1,165 @@
+# Chapter model context
+
+## chapter_index
+
+74
+
+## name
+
+74
+
+## word_target
+
+500
+
+## chapter_title
+
+নিজের চরকায় তেল দেওয়া
+
+## chapter_summary
+
+In 'নিজের চরকায় তেল দেওয়া,' the narrative pivots around the internal conflict of the protagonist, who struggles to maintain focus on his own endeavors amidst the persistent noise and interference of external conflicts. The chapter vividly portrays this struggle through the imagery of a turning charkha, symbolizing self-sufficiency and dedicated labor, set against the backdrop of societal entanglements. As the protagonist strives to keep his own wheel turning smoothly, the central question remains: can one truly remain insulated from the currents of communal strife while navigating the complex tapestry of their personal life?
+
+## further_references
+
+
+## characters
+
+### Item 1
+
+#### id
+
+c1
+
+#### name
+
+চরকার
+
+#### role
+
+মূল চরিত্র
+
+### Item 2
+
+#### id
+
+c2
+
+#### name
+
+অন্যান্য গ্রামবাসী
+
+#### role
+
+পার্শ্ব চরিত্র
+
+## qualities
+
+### historical_accuracy
+
+এই অধ্যায়ে বর্ণিত কর্মপ্রচেষ্টা তৎকালীন সমাজের বাস্তব চিত্রকে প্রতিফলিত করে।
+
+### human_in_the_loop
+
+চরিত্রের নিজস্ব কাজে মনোযোগ দেওয়াই এই অধ্যায়ের মূল চালিকাশক্তি।
+
+### influence_of_other_works
+
+প্রবাদটির গভীরতা প্রাচীন লোকসাহিত্যের প্রতিধ্বনি বহন করে।
+
+### cultural_relevance
+
+নিজের কাজে স্থির থাকা বাঙালি সংস্কৃতির একটি গুরুত্বপূর্ণ দিক তুলে ধরে।
+
+### literary_style
+
+গদ্যের সরলতা এবং প্রবাদের অন্তর্নিহিত গভীরতা এই অধ্যায়ের শৈলীকে সমৃদ্ধ করে।
+
+### narrative_techniques
+
+কেন্দ্রীয় থিমটিকে একটি সরল, কার্যকরী উপায়ে উপস্থাপন করা হয়েছে।
+
+### symbolism_and_motifs
+
+নিজের চাকা ঘোরানো প্রতীকীভাবে আত্মনির্ভরশীলতাকে বোঝায়।
+
+### reader_engagement_strategies
+
+প্রবাদটির সহজবোধ্যতা পাঠকদের দ্রুত সংযোগ স্থাপনে সহায়তা করবে।
+
+### ethical_considerations
+
+অন্যের বিষয়ে হস্তক্ষেপ না করার নৈতিক দায়িত্ববোধ এখানে প্রতিফলিত।
+
+### potential_controversies
+
+কোনো সরাসরি বিতর্কিত বিষয়বস্তু এই অধ্যায়ে অনুপস্থিত।
+
+### diversity_and_inclusion
+
+এই অধ্যায়টি কর্মের মাধ্যমে সকল স্তরের মানুষের জন্য প্রযোজ্য।
+
+### marketing_and_promotion
+
+'নিজের চরকায় তেল দেওয়া' শিরোনামটি একটি শক্তিশালী বিপণন ট্যাগলাইন হতে পারে।
+
+### significance_of_rise_of_bengal
+
+ব্যক্তিগত স্বনির্ভরতা বৃদ্ধি পাওয়ায় বাংলার সামাজিক কাঠামোতে ইতিবাচক পরিবর্তন এসেছে।
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the *sound* of the turning charkha as a rhythmic counterpoint to the cacophony of external gossip or political noise.
+- Framing 'तेल দেওয়া' (oiling) not just as maintenance, but as an active, meditative ritual—a deliberate act of sonic and tactile control over chaos.
+- Exploring the internal negotiation between duty/tradition (the charkha) and modern social pressures that demand involvement in communal fray.
+
+### story_options
+
+- setting: A sun-dappled veranda overlooking a bustling, noisy street market, desire: The protagonist seeks absolute silence to maintain the charkha's perfect rotation., obstacle: An intense argument breaks out in the lane below concerning local resource allocation (like water rights or land boundary), forcing him to listen., turn: He realizes that true insulation is impossible; his labor becomes a silent commentary on the outside conflict, rather than an escape from it.
+- setting: A small, isolated workshop late at night, desire: To complete a particularly fine piece of yarn, demanding total concentration., obstacle: The presence of c2 (other villagers) attempting to pass information or solicit advice related to local disputes., turn: He must choose whether to subtly shut them out using physical action (tightening the spindle) or verbally engage and lose his focus.
+- setting: The edge of a family property, where domestic labor meets external political tension, desire: To uphold the dignity and quiet industry associated with traditional handloom work., obstacle: A figure representing entrenched local power dynamics attempts to leverage his neutrality into mandatory participation in local factionalism., turn: The protagonist risks damaging his own fine work by making a decisive public stand, choosing principle over smooth operation.
+
+### subject_rotations
+
+- Treating the thread/yarn itself as a metaphor for societal threads: how every personal act of weaving is influenced by unseen local tensions.
+- Shifting focus from 'self-sufficiency' to 'intentional isolation': exploring whether withdrawal is strength or a form of passive surrender in modern communal life.
+- Interpreting 'oiling' through the lens of economic necessity—the oil/maintenance represents investment required just to *sustain* one's niche market position against larger competitors.
+
+### sensory_details
+
+- Sight: The way dust motes catch the single shaft of sunlight striking the oiled wooden wheel of the charkha, illuminating every imperfection in its surface.
+- Sound: The precise, almost hypnotic *thump-and-whir* rhythm of the spinning mechanism, which fights against the unpredictable shouts from the street.
+- Touch: The slick, warm residue of the chosen oil transferring onto the protagonist's palms as he adjusts the gears, a greasy connection to his isolated task.
+
+### research_questions
+
+- What specific regional linguistic markers in Bengali denote an exhausted state where 'self-focus' feels less like autonomy and more like weary resignation?
+- How is the maintenance of traditional domestic machinery (like a charkha) framed in contemporary Kolkata or Bangladesh—is it sentimental, economic, or purely ceremonial?
+
+### structural_variants
+
+- A poem structured as an alternating dialogue: Stanza A details the mechanical perfection of the turning wheel; Stanza B is a sharp, chaotic interruption from the external world.
+- A stream-of-consciousness piece where the internal monologue about the thread's tension mirrors the tightening pressure of unspoken social obligations.
+
+### unused_angles
+
+- Examining how the 'oil' itself—its viscosity and smell—could represent a necessary but corrupting lubricant required to function in any system, even one dedicated to isolation.
+- A structural comparison between the controlled motion of the charkha (circular perfection) versus the linear progression of conflict presented by neighbours.
+
+### variety_note
+
+Unlike earlier chapters focusing on immediate tricks or outright confrontation, this piece explores a subtle internal friction: the active choice to maintain private momentum against surrounding social drag.

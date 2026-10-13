@@ -1,13 +1,55 @@
 {
   "chapter_index": 3,
   "name": "3",
-  "word_target": 110,
-  "chapter_title": "Pigment and Lime",
-  "chapter_summary": "The poem follows the materials of the fresco — the lapis ground to blue, the lime white, the mineral reds — as figures for the hidden work: the color the world admires is already the body of a man's hours.",
+  "word_target": 200,
+  "chapter_title": "The Scent of Sixteen",
+  "chapter_summary": "The youngest muse — a boy of sixteen — becomes a transient anchor, and the poem follows the musk before it fades into the desert air.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the sixteen-year-old not as a Muse of potential, but as an embodiment of unformed clay—raw substance waiting for structure.",
+      "Positioning the scent against the harsh, unrelenting geometry of the haveli's stone, showing how organic life disrupts engineered rigidity.",
+      "Addressing the absent listener (the wall/future reader) directly about the transient nature of his presence, forcing a self-inventory before he disappears."
+    ],
+    "story_options": [
+      "Setting: A deep archway in Mandawa. Desire: To arrest the specific youthfulness of the musk—a volatile mix of sun-baked earth and untested skin. Obstacle: The heat demanding rapid dispersal. Turn: He coughs once, an unplanned sound breaking the sensory meditation.",
+      "Setting: Near a cistern where water pools. Desire: To capture the brief moment his scent mixes with reflected moisture before evaporation. Obstacle: The pervasive dryness of the desert air pulling at molecules. Turn: A nearby bird cries out, scattering the focus from the odor to sudden auditory presence.",
+      "Setting: Just outside the shadow line of a haveli door. Desire: To trace the path of the passing boy's silhouette against dust motes illuminated by low light. Obstacle: His rapid pace suggesting purposeful departure rather than lingering passage. Turn: He hesitates at the threshold, his scent momentarily doubling before moving on."
+    ],
+    "subject_rotations": [
+      "Focusing less on the *feeling* of the musk and more on its chemical trajectory as a physical phenomenon across space.",
+      "Examining the boy's potential future—not as an abstract 'potential,' but in relation to the fixed, eternal structure of the frescoes he might one day enter or decay within.",
+      "Using his brief passage to establish the *timeline* of Debolina’s focus: how one specific ephemeral subject dictates the immediate aesthetic parameters for weeks."
+    ],
+    "sensory_details": [
+      "The faint, sharp metallic tang that blooms briefly when sweat meets heated limestone.",
+      "The precise weight of a single, dust-coated reed used by children playing near the perimeter walls.",
+      "A sudden, high-pitched whine from trapped insects disturbed by his passing shadow."
+    ],
+    "research_questions": [
+      "How does the concept of 'untrained' or 'unformed' material translate into visual artistic vocabulary within minimalist abstraction?",
+      "What specific non-musk scents (dust, young grass, certain regional flora) might composite with adolescent human scent in this locale?",
+      "Can the rhythm established by a fleeting odor be mapped onto musical time signatures without resorting to overly literal description?"
+    ],
+    "structural_variants": [
+      "A fragmented structure mirroring the uneven diffusion of the scent across open air.",
+      "A narrative arc where the poem begins focused intensely on one olfactory note, expands outward as it disperses, and collapses back into a singular residual sensation."
+    ],
+    "unused_angles": [
+      "The potential role of water (cisterns/lime slurry) in either fixing or accelerating the dissolution of transient scents.",
+      "How the physical act of *listening* to the silence after his scent has gone shapes Debolina's next gesture.",
+      "A specific comparison between the boy’s ephemeral nature and a single, freshly applied dot of lapis."
+    ],
+    "variety_note": "Unlike Chapter 2, which generalized musk into geometry, this chapter focuses on a singular, young subject whose brevity imposes a unique temporal constraint on the artistic response."
+  },
+  "draft": {
+    "sha256": "9b76c5c3c3f41cb1ed3cef176ef6f2be34706db4686a234e17baa256cff76301",
+    "written_at": "2026-10-11T18:30:41.937539+00:00",
+    "origin": "write"
+  }
 }

@@ -1,0 +1,94 @@
+# Chapter model context
+
+## chapter_index
+
+23
+
+## name
+
+23
+
+## word_target
+
+280
+
+## chapter_title
+
+Grinding the Pigment
+
+## chapter_summary
+
+Lapis is ground to dust by lamplight, and the poem meditates on the cost of a single pure color.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+written
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the physical act of grinding lapis as a ritualistic sacrifice, where each fleck lost is a piece of silence surrendered to color.
+- Shifting focus from the pigment itself to the residue—the fine, oily dust clinging to Debolina’s skin and tools as an accumulated history of labor.
+- Using the inherent impossibility of 'pure' lapis blue as a metaphor for the unattainable purity of the artist's initial intention.
+
+### story_options
+
+- setting: The grinding stone basin, slick with residual oils from crushed minerals, desire: To trace patterns in the dust using only the edge of her thumb, obstacle: The constant temptation to wipe away the history trapped in the powder.
+- setting: By a single, sputtering wick lamp, the light reflecting sharply off the microscopic facets of blue particles, desire: To capture the color not as a solid hue but as its inherent volatility—its tendency to dissolve into shadow., obstacle: The uneven quality of the oil burning preventing a consistent, focused beam.
+- setting: Near the edge of the open courtyard where the raw ore is stored under the harsh glare of midday sun, desire: To find one perfect, unbroken vein of deep blue, obstacle: The overwhelming presence of oxidized earth tones that drown out the lapis's vibrancy.
+
+### subject_rotations
+
+- Examine the relationship between the specific blue wavelength of lapis and the desert heat/twilight shadows, treating color as an atmospheric event rather than a pigment.
+- Focus on the transfer: how the ground dust moves from her hand to the mortar, becoming irrevocably part of the architecture, mirroring Debolina's own integration into the space.
+- A meditation on scale: comparing the geological vastness of lapis ore to the minute quantity being worked by a single artist.
+
+### sensory_details
+
+- The cold, abrasive grit that catches in the dry membranes inside her cheeks during prolonged grinding.
+- The distinct scent—metallic and slightly vegetal—of finely powdered malachite or lapis mixed with old lamp oil.
+- The barely audible, high-frequency 'shushing' sound of stone against pestle beneath the din of insects.
+
+### research_questions
+
+- What are specific traditional methods described in Shekhawati texts for achieving maximum yield and minimal contamination when preparing expensive mineral pigments?
+
+### structural_variants
+
+- A structure built entirely on ascending lines (the descent of the stone into dust, the ascension of color onto plaster).
+- An epistolary fragment where Debolina addresses a future recipient who can only understand pure chroma.
+
+### unused_angles
+
+- The socio-economic pressure represented by lapis—a pigment denoting wealth and distant trade routes, juxtaposed against the poverty of her working scaffold.
+- A detailed exploration of the specific type of light refraction caused when powdered blue is suspended in a beam of oil lamp flame.
+
+### variety_note
+
+Unlike earlier meditations on abstract form or bodily strain, this chapter anchors itself intensely in material chemistry—the tangible transformation from massive stone to volatile dust.
+
+## draft
+
+### sha256
+
+1a6449b0a06f9d58600fcb8ce695a5fd911b7a219a2ed1b387fcb1be77464e35
+
+### written_at
+
+2026-10-11T17:57:03.215188+00:00
+
+### origin
+
+write

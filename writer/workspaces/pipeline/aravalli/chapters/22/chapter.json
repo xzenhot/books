@@ -6,7 +6,7 @@
   "chapter_summary": "পাহাড়ের রক্তই তার খনিজ — তামা, দস্তা, মার্বেল একসঙ্গে বইছে সেই শিরায়, যা মানুষ লুট করছে।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -35,6 +35,41 @@
       "Focusing entirely on the *process* of saturation: how slow, pressurized fluids fundamentally alter the structure of surrounding inert rock (chemical lithification).",
       "Contrasting the ephemeral human desire for gold/copper against the mountain's indifference to these material fluctuations."
     ],
-    "variety_note": "This chapter shifts focus from broad elemental forces (like dust or water) to hyper-specific chemical interaction, focusing on metallic 'blood' rather than geological trauma."
+    "variety_note": "This chapter shifts focus from broad elemental forces (like dust or water) to hyper-specific chemical interaction, focusing on metallic 'blood' rather than geological trauma.",
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 5,
+      "movement": {
+        "name": "Stoicism",
+        "one_liner": "Logic, virtue, and mastering inner thoughts."
+      },
+      "writing_skills": [
+        "classical meter mastery",
+        "rhyme architecture",
+        "modern colloquial grounding"
+      ],
+      "image_seed": "red veins running through a twilight stone",
+      "volta": "the red as a quiet, fading memory",
+      "sonic_texture": "a hush, then a low unbroken drone",
+      "line_gesture": "even lines that do not rise, only persist",
+      "variety_note": "a twilight red against the whirling vein"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "jibanananda",
+    "style": "pijush"
   }
 }

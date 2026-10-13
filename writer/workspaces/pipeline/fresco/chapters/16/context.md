@@ -1,0 +1,96 @@
+# Chapter model context
+
+## chapter_index
+
+16
+
+## name
+
+16
+
+## word_target
+
+280
+
+## chapter_title
+
+The Scaffold
+
+## chapter_summary
+
+The poem sets Debolina on her scaffold in the deep night, alone, where the town cannot see her work.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+written
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Viewing the scaffold as a fragile extension of her own spine—a necessary support for an unbearable posture.
+- Treating the structure itself (wood, metal) not as setting but as a precursor to the painted lines: rough grain before perfect pigment.
+- The scaffolding as a cage designed by convention, which she willingly inhabits while pretending it is freedom.
+
+### story_options
+
+- Setting: The lowest rung of the scaffold. Desire: To feel the vibration through the wood from unseen subterranean movement (a distant animal or the settling earth). Obstacle: The precariousness of holding a piece of charcoal against her palm without losing grip. Turn: A sudden, perfect silence where even the cicadas cease their sound.
+- Setting: Near the highest point, exposed to the faint desert wind above the town's roofs. Desire: To measure the difference in air density between this height and ground level, correlating it to mental clarity or exhaustion. Obstacle: The chill of the night penetrating the layers of her clothing. Turn: A single star appears that seems impossibly close, a temporary focus point.
+- Setting: Leaning against one of the support beams during a pause in work. Desire: To examine the accumulated dust on the wood—the detritus of many forgotten laborers. Obstacle: The temptation to look down at the sleeping town and question the choice she made. Turn: An image from an old, faded fresco seen through a gap in the wall registers with startling clarity.
+
+### subject_rotations
+
+- Shifting focus entirely from the *labor* on the scaffold to the *relationship* between Debolina's body and the vertical lines of support.
+- Examining the scaffolding not as an object, but as a temporary ritual space—a liminal zone between domestic life (below) and artistic eternity (above).
+- Treating the construction materials themselves (old timber, iron fittings) as symbols of the decaying Marwari infrastructure she is documenting.
+
+### sensory_details
+
+- The sharp, metallic taste of dust mixed with cooled night air on her tongue.
+- The abrasive sound of chalk scraping across a smooth patch of priming lime while suspended high above the earth.
+- The cool, uneven pressure points where the wooden slats dig into the backs of her thighs.
+
+### research_questions
+
+- Are there traditional documented methods for constructing scaffolding in Shekhawati havelis that might relate to specific structural sound or materials?
+- What are common historical associations (mythological or practical) with working high up at night in arid regions?
+
+### structural_variants
+
+- A poem structured as a physical ascent, where each stanza represents moving up one rung.
+- A dialogue between the static structure of the scaffold and the ephemeral nature of her hand movements against its support beams.
+
+### unused_angles
+
+- The psychological weight of being structurally supported while emotionally adrift.
+- How the framework itself imposes a rigid, external geometry onto her fluid internal visions.
+- A specific memory triggered by the smell of old, treated wood (not lime or pigment).
+
+### variety_note
+
+This chapter must be distinctly about the physical apparatus of creation—the scaffold itself—rather than the sensory experience of the street below (Item 13) or the materials being applied (Items 18/23).
+
+## draft
+
+### sha256
+
+9439fb7e6828620774a81d2b21630dc07b83f07fb5f913dda2e3bddfe483fd6e
+
+### written_at
+
+2026-10-11T17:56:02.993211+00:00
+
+### origin
+
+write

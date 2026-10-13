@@ -6,7 +6,7 @@
   "chapter_summary": "উন্মুক্ত খনির ডায়নামাইট বিস্ফোরণে পাহাড়ের বুক জুড়ে ক্ষতচিহ্ন — ধুলোর আস্তরণে ঢাকা সংগ্রামের দাগ।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -45,6 +45,41 @@
       "Exploring how the resulting fine powder might become chemically reactive with surface moisture, initiating localized (and temporary) low-level oxidation.",
       "A contemplation on whether the resultant chaotic pattern creates a new form of geological 'language' that is inherently undecipherable by human intellect."
     ],
-    "variety_note": "Where previous chapters detailed slow pressures or delicate light capture, this chapter focuses exclusively on instant kinetic energy release and material reorganization without narrative ornamentation."
+    "variety_note": "Where previous chapters detailed slow pressures or delicate light capture, this chapter focuses exclusively on instant kinetic energy release and material reorganization without narrative ornamentation.",
+    "poetic_parameters": {
+      "emotional_rawness": 7,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 8,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "New Formalism",
+        "one_liner": "Returning to traditional rhyme and meter."
+      },
+      "writing_skills": [
+        "classical meter mastery",
+        "rhyme architecture",
+        "modern colloquial grounding"
+      ],
+      "image_seed": "a blast that reorders stone in a single instant",
+      "volta": "pain turning from feeling into rising entropy",
+      "sonic_texture": "a gyre — an orbital hum closing on its own echo",
+      "line_gesture": "taut turning lines that spiral and return",
+      "variety_note": "instant violence against the slow pressures"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "yeats",
+    "style": "pijush"
   }
 }

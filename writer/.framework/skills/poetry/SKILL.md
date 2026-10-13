@@ -73,10 +73,9 @@ and it overrides any conflicting default in this skill. Read it on **every** wri
 - If it says **"লাইন ব্রেক দিন" (give line breaks)**, break the poem into short
   lines — one clause or image per line — **overriding** the flat continuous-prose
   flatten rule below.
-- If it gives a **line-count limit** (e.g. "১৫-১৬ লাইনের ভিতর রাখুন" — keep it
-  within 15–16 lines), compress the poem to that many lines, even when that
-  shortens the target word count. The line-count limit is binding and wins over
-  the default word target.
+- If it gives a **line-count limit** (e.g. "১৬-২২ লাইনের মধ্যে সীমাবদ্ধ রাখুন" —
+  keep it strictly within 16–22 lines), honor that exact range. The line-count
+  limit is binding and wins over the default word target.
 - If it says **"শব্দকে পুন পুন ব্যবহার করবেন না" (do not repeat a word)**, use a
   synonym instead of repeating any word within a line or passage.
 - If it says **"কোন একটি নির্দিষ্ট লাইন সংখ্যায় রাখবেন না"** (do not keep any one
@@ -86,10 +85,18 @@ and it overrides any conflicting default in this skill. Read it on **every** wri
 - If it says **"সব সময় কবিতা ক্লোজ করার দরকার নেই। ওপেন রাখবেন"** (the poem need
   not always close; leave it open), end some poems on an unresolved image or
   question rather than a conclusive turn.
-- If it says **"একই প্যাটার্নের কবিতা লিখবেন না"** (do not write the same-pattern
-  poem), never fix a recurring slot for the muse, the question, or the closing —
-  vary their position (the muse may appear early, mid, or late; the question may
-  or may not close the poem).
+- If it says **"একই প্যাটার্নের কবিতা লিখবেন না" / "প্যাটার্ন রিপিট করবেন না"**
+  (do not write the same-pattern poem), never fix a recurring slot for the muse,
+  the question, or the closing — vary their position (the muse may appear early,
+  mid, or late; the question may or may not close the poem).
+- **The muse's position is never fixed.** If the override says the lover (e.g.
+  Sagarika) must appear but its line is landing repeatedly at the same spot (e.g.
+  a "সাগরিকা, তুমি …" address around line 14–15), **move it** — she may surface in
+  the opening, the middle, or the close; as a direct address, a third-person
+  image, or a bare name; a fragment, not always a full couplet. Vary the phrasing
+  too — do not reuse the same "সাগরিকা, তুমি …" turn in consecutive poems.
+- If it asks for **~5% Hindi-Urdu flavor** (e.g. সन्नाटा, হাওয়া, মিত্তি, দর্দ),
+  weave one or two such common words in where they fit, not in every poem.
 - Every directive (dramatic opening, philosophical questions, myth-over-truth,
   everyday symbols, a named muse, the living mountain) must **shape** the prose
   silently — never be quoted, named, or recited as the poem's own content.

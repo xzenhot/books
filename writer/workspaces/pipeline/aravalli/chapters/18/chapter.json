@@ -12,7 +12,7 @@
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -46,6 +46,41 @@
       "A highly fragmented, procedural catalog: documenting steps of the extraction (digging, breaking, washing) as if it were a ritual liturgy.",
       "An extended internal monologue delivered by one specific tool—a chisel or pickaxe—observing its utility against the immense resistance of the stone."
     ],
-    "variety_note": "This chapter pivots from geological formation (prior chapters) to human interaction with geology, focusing on labor as a violent interface between flesh and deep time, unlike the previous focus on mineral purity or ancient decay."
+    "variety_note": "This chapter pivots from geological formation (prior chapters) to human interaction with geology, focusing on labor as a violent interface between flesh and deep time, unlike the previous focus on mineral purity or ancient decay.",
+    "poetic_parameters": {
+      "emotional_rawness": 9,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 3,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 2,
+      "movement": {
+        "name": "Confessionalism",
+        "one_liner": "Direct, unflinching exposure of personal trauma."
+      },
+      "writing_skills": [
+        "visceral physical imagery",
+        "unfiltered first-person perspective",
+        "taboo mapping"
+      ],
+      "image_seed": "a miner opening the mountain's chest with bare hands",
+      "volta": "the ore refusing to be wealth, only grief",
+      "sonic_texture": "a raw, unflinching, bodily register",
+      "line_gesture": "declarative lines that cut",
+      "variety_note": "the human cost of labor against the mineral poems"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "shakti",
+    "style": "pijush"
   }
 }

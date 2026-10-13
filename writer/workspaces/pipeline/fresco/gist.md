@@ -1,10 +1,13 @@
-# Fresco
+# fresco — The Fresco of Shadows and Silk
 
-The life of an artist is lived in the night while ordinary men sleep — the world sees only the blossom of his art, never the struggle and the failure beneath it. Fresco is art form of painting, The havelis of Rajasthan, especially those in Nawalgarh and Mandawa, are not only architectural marvels but also deeply significant in terms of history, economy, and social impact, representing the golden age of the Marwari merchant class whose frescoes blended tradition with modernity — mansions that now stand half-empty, their painted walls still breathing with the unfinished lives of the families who abandoned them. Once known as Silk route capitals where business of cloths blossomed. The king of Rajasthan provided security to businessmans  and businessman provided the tax to king.
+## Canonical gist
+
+The life of an artist is lived in the deep silence of the night while ordinary men sleep — the world sees only the blossom of the final creation, never the invisible struggle and the silent failures beneath it.
 
 ## Expansion
 
-An anonymous fresco painter works through the dark hours, alone on his scaffold, while the town sleeps and sees only the finished wall. His conflict is the invisibility of the maker: the public praises the blossom of color and line, but no one witnesses the sleepless nights, the wasted sketches, the aching hands, and the failures he hides behind every finished surface. His transformation comes when he must choose whether to keep laboring unseen, or to reveal the struggle that gives the art its truth — and pay the cost of being seen. The painter is no one but the poet himself. He looks upon his own life. 
+Debolina Rai, a painter and poet, trades domestic expectation for a life consumed by creation, working alone on her scaffold in the half-empty painted havelis of Mandawa and Nawalgarh. There she absorbs the world through her senses — the musk of passing men, the wet lime, the lapis ground by lamplight — and finds in the crumbling frescoes a mirror for her own invisibility. Her transformation is the choice to step out of the shadows and expose the raw struggle that gives her art its truth, paying the cost of being seen.
 
 ## Author Comment
 
+"In writing these 60 poems, I wanted to capture the fierce, untamed heartbeat of a female artist who refuses to be neatly framed by society. Debolina Rai is a sensory nomad. Whether she is inhaling the musk of a passing stranger in the desert breeze or plastering wet lime onto a crumbling Mandawa wall, she reminds us that true art is born in the dark, built on invisible sacrifices, and fueled by an unquenchable hunger for existence. This collection is a tribute to all creators who trade worldly comfort for the immortal scars of expression."

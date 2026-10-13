@@ -1,13 +1,53 @@
 {
   "chapter_index": 17,
   "name": "17",
-  "word_target": 110,
-  "chapter_title": "The Wall Outlives the Painter",
-  "chapter_summary": "The poem meditates on the wall's patience — plaster and pigment that will outlast the hand that made them — and the strange comfort of being survived by one's own finished labor.",
+  "word_target": 200,
+  "chapter_title": "The Town Sleeps",
+  "chapter_summary": "While ordinary men sleep, she labors, and the poem contrasts the sleeping town with the one waking hand.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the town's silence not as peace, but as a deliberate withholding—a conscious choice by the masses to ignore or forget what happens above their roofs.",
+      "The 'sleeper' narrative inverted: perhaps the sleep of the men is less restful and more chemically induced by the desert heat, making them temporarily inert rather than serenely resting.",
+      "A meditation on the collective consciousness of a settled town versus Debolina’s singular, nocturnal awareness—the contrast between group dream (if one exists) and individual wakefulness."
+    ],
+    "story_options": [
+      "setting: The narrow sliver of sky visible above the haveli roofline., desire: To capture a specific constellation that acts as a silent, indifferent witness to her solitary labor., obstacle: The encroachment of pre-dawn haze, blurring celestial markers and turning guidance into guesswork., turn: She stops painting for a measured hour, allowing the cosmic indifference to temper her desperate need for human validation.",
+      "setting: Inside the open window facing the deserted street below., desire: To catch a scent that *should* be present—a ghost of the day's commerce or social ritual—but which is absent in the dead hours., obstacle: The absolute sterility of midnight air, devoid of human movement or lingering odors save dust and lime., turn: She paints the absence itself: a vast, textured void representing all that has been omitted from the night's canvas.",
+      "setting: High on the scaffold, observing the faint glow emanating from distant oil lamps in other neglected buildings., desire: To find another flicker of artistic or domestic life—a signal fire of kindred striving., obstacle: The realization that those lights are simply signs of necessary human function (watchmen, late travelers) and hold no creative resonance for her art., turn: She deliberately paints over the perceived distant lights with a heavy coat of dark pigment, asserting her singular night."
+    ],
+    "subject_rotations": [
+      "Treating 'sleep' not as absence, but as a form of communal subconscious activity—the unwritten history or unspoken dreams of the town reflected in the dust motes she sees.",
+      "Focusing on the temporal disjunction: how her work exists in a time stream detached from the town’s agricultural or commercial cycle; art existing outside commerce/necessity.",
+      "Using the concept of 'heavy breathing'—the collective, low rhythm of the sleeping town vibrating through the packed earth beneath her feet, contrasting with her own deliberate, rhythmic application of pigment."
+    ],
+    "sensory_details": [
+      "The feel of grit from long-dead animal trails caught in the joints of the scaffold beams.",
+      "The sound of one's own labored breath vibrating against the rough stone as it travels down through the structure.",
+      "A visual perception of 'color sleeping'—pigments that seem dimmer, less volatile, when unactivated by the lamplight."
+    ],
+    "research_questions": [
+      "Is there a specific regional mythology or metaphor in Rajasthan for the relationship between night and creative genesis?",
+      "What are the traditional architectural elements of Shekhawati havelis designed to buffer sound from exterior noise during extreme quiet?"
+    ],
+    "structural_variants": [
+      "A cyclical structure where each segment circles back to a single, repeated observation about the town's stillness.",
+      "An asymmetrical poem: one very short stanza describing the outside world for every long, complex movement detailing her internal state on the scaffold."
+    ],
+    "unused_angles": [
+      "The social memory of what *should* be happening in the sleeping town (feasts, arguments) versus the reality.",
+      "A detailed inventory of the tools left unused by day—brushes laid down, pigments half-mixed, symbolic of aborted potential."
+    ],
+    "variety_note": "This chapter moves beyond sensory absorption into a deliberate comparative study between two opposing states: the deep inertia of the sleeping community and Debolina's hyper-aware isolation in labor. It focuses on silence as an active substance rather than merely an absence."
+  },
+  "draft": {
+    "sha256": "50abfe45bcdc4cd969d0977353afda9870cbe10663ad57fa0a4a8dd4a5c7f8ed",
+    "written_at": "2026-10-11T18:33:10.409757+00:00",
+    "origin": "write"
+  }
 }

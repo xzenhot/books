@@ -1,0 +1,35 @@
+{
+  "chapter_index": 31,
+  "name": "31",
+  "word_target": 500,
+  "chapter_title": "মাথা খাওয়া",
+  "chapter_summary": "The chapter plunges into a relentless cycle of mental anguish, where the protagonist is consumed by an unending internal turmoil that begins at dawn and refuses to dissipate. This pervasive psychological torment is vividly portrayed through imagery of a suffocating weight pressing down, mirroring the relentless nature of the suffering. The central conflict is the protagonist's battle against this inescapable mental affliction, a siege waged within the confines of his own mind. As the day wears on, the narrative leaves the reader questioning whether this persistent agony is a temporary burden or a permanent shadow cast over his life.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজানা চরিত্র",
+      "role": "মানসিক পীড়িত ব্যক্তি"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "মানসিক জ্বালা যেন তৎকালীন সমাজের চাপা অস্থিরতাকে প্রতিফলিত করে।",
+    "human_in_the_loop": "চরিত্রের গভীর মানসিক যন্ত্রণা পাঠকের সাথে সরাসরি সংযোগ স্থাপন করে।",
+    "influence_of_other_works": "প্রবাদ-বাক্যের দার্শনিক গভীরতা অন্য সাহিত্যিক চিন্তাধারার প্রতিধ্বনি সৃষ্টি করে।",
+    "cultural_relevance": "দৈনন্দিন জীবনের তীব্র মানসিক চাপ বাঙালি সংস্কৃতির একটি পরিচিত অংশ।",
+    "literary_style": "গদ্যে ব্যবহৃত ভাষার ভারিক্কি যন্ত্রণা পাঠকের মনে অনুরণন সৃষ্টি করে।",
+    "narrative_techniques": "অবিরাম মানসিক পীড়নের চিত্রায়ন গল্পের টানটান উত্তেজনা বজায় রাখে।",
+    "symbolism_and_motifs": "'মাথা খাওয়া' এই উপাধিটি অসহনীয় মানসিক কষ্টের প্রতীক হিসেবে কাজ করে।",
+    "reader_engagement_strategies": "অসমাপ্ত মানসিক কষ্টের বর্ণনা পাঠককে পরবর্তী অধ্যায়ে আগ্রহী করে তোলে।",
+    "ethical_considerations": "মানসিক অসুস্থতার চিত্রায়ণ সংবেদনশীলতার দাবি রাখে।",
+    "potential_controversies": "চরিত্রের চরম মানসিক অবস্থার বর্ণনা সমালোচিত হতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি সর্বজনীন মানবিক কষ্টের অভিজ্ঞতা তুলে ধরে।",
+    "marketing_and_promotion": "এই অধ্যায়ের তীব্র আবেগিক চিত্রায়ণ একটি শক্তিশালী প্রচারণার উপাদান হতে পারে।",
+    "significance_of_rise_of_bengal": "ব্যক্তিগত মানসিক সংগ্রাম বৃহত্তর সামাজিক পরিবর্তনের পটভূমিতে স্থাপিত।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

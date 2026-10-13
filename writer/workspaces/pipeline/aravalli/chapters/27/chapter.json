@@ -6,8 +6,45 @@
   "chapter_summary": "পাহাড়ের ফাটল ও উপত্যকায় বয়ে চলা অদৃশ্য নদী — যে জল মানুষ দেখে না, অথচ তাতেই বেঁচে থাকে জনপদ।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
-  ]
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "blake",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 7,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Language Poetry",
+        "one_liner": "Prioritizing word structure over clear meaning."
+      },
+      "writing_skills": [
+        "syntactical scrambling",
+        "fragmentation",
+        "phonetic layering"
+      ],
+      "image_seed": "an invisible path of water through the rock",
+      "volta": "the unseen turning from absence into presence",
+      "sonic_texture": "hard consonants over one long hollow vowel",
+      "line_gesture": "fragment lines shored against a heavy close",
+      "variety_note": "an unseen path against the visible river"
+    }
+  }
 }

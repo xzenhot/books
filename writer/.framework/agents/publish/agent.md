@@ -10,21 +10,16 @@ This agent is a lightweight dispatcher that routes the publish command to the re
 
 ## Execution Mode (factory)
 
-> **IMPORTANT — PUBLISH IS OFFLINE BY DEFAULT.** In `offline` mode, **do not execute Python and do not hand-craft the published output.** Resolve the exact `python tools/publish.py <bookname>` command from `.framework/offline_registry.md` (do not re-scan the `tools/` folder), display it to the user, and ask whether to proceed. Only run it after the user says go.
+**Publish is offline by default.** It does not read the `factory` field. Resolve
+the execution mode in this order:
 
-Publish accepts an optional execution-mode argument `[offline|online]`. Resolve it in this order:
-
-1. The explicit `offline` or `online` argument supplied on the command, if present.
-2. **Default to `offline`** when no explicit argument is provided.
-
-> **NOTE — THE `factory` FIELD DOES NOT APPLY TO PUBLISH.** Publish (like scaffold) is a structural command and is **always offline by default**, regardless of any `factory` value in the book plan (`workspaces/pipeline/<bookname>/book.json`). Do **not** read the `factory` field to resolve publish's execution mode. Publish runs agentically (`online`) only when an explicit `online` argument is supplied on the command; otherwise it must resolve, display, and await confirmation for the exact `python tools/publish.py <bookname>` command.
+1. An explicit `offline` / `online` argument on the command, if present.
+2. Otherwise default to `offline`.
 
 | Mode | Behavior |
 |------|----------|
-| `offline` (**default**) | **Display, don't execute.** Resolve the exact repository Python CLI command (`python tools/publish.py <bookname>`), present it, and ask the user to confirm before running anything. |
-| `online` | Do not use Python at all; perform every step agentically through direct file reads/writes. |
-
-**The default is `offline`.** In offline mode: resolve the command → display it → ask "go / don't go" → run only on explicit confirmation. Never run Python silently.
+| `offline` (**default**) | Resolve `python tools/publish.py <bookname>` (from `.framework/offline_registry.md`), display it, ask "go / don't go", run only on confirmation. |
+| `online` | No Python; perform every step agentically via direct file reads/writes. |
 
 ## Framework Health Gate (optional, pre-publish)
 
@@ -42,70 +37,44 @@ Before publishing, the agent may check framework health via the read-only judge
 
 ## Dispatch
 
-1. Read `workspaces/pipeline/<bookname>/book.json` to confirm the book plan exists.
-2. Resolve the publish command as `python tools/publish.py <bookname>` (the CLI handles all validation — every poem must have a non-empty registered draft and a passed quality review — version allocation, `workspaces/published/<bookname>/version<k>/` creation, and `progress.json` update).
-3. In `offline` mode, display the resolved command and ask the user to confirm; run it only after the user says go. In `online` mode, perform the promotion agentically.
-4. The CLI exits non-zero if any chapter is missing or stale; report the error to the user.
+1. Confirm `workspaces/pipeline/<bookname>/book.json` exists.
+2. Resolve `python tools/publish.py <bookname>` (the CLI handles validation — every
+   poem must have a non-empty registered draft and a passed quality review — plus
+   version allocation, `workspaces/published/<bookname>/version<k>/` creation, and
+   `progress.json` update).
+3. Offline: display and await confirmation. Online: promote agentically.
+4. Report any non-zero CLI exit (missing/stale chapter).
 
 ## Responsibility Boundary
 
-The publish CLI owns:
-- Validating every chapter has a non-empty, registered draft matching the model's `draft.sha256`
-- Validating every chapter has `quality_review.status: "passed"` with matching `sha256`, `reviewer`, and `reviewed_at`
-- Creating the versioned output folder under `workspaces/published/`
-- Assembling `version<k>/book.md` from all chapter drafts
-- Updating `progress.json` with published hashes and version
+The publish CLI owns validating drafts and quality review, creating the versioned
+folder, assembling `book.md`, and updating `progress.json`.
 
-The publish agent must not:
-- Read the backlog or the epic;
-- Run any earlier filter;
-- Modify the pipeline working files (except via the CLI's `progress.json` update);
-- Write unfinished drafts to `workspaces/published/`.
+The publish agent must **not**: read the backlog/epic; run earlier filters; modify
+pipeline working files (except via the CLI's `progress.json` update); or write
+unfinished drafts to `workspaces/published/`.
 
 ## Online (Agentic) Publish
 
-In `online` mode, the agent performs the promotion itself (no Python). Version
-allocation and assembly follow `.framework/rules/source-versioning.md`. The
-agent is read-only on the pipeline and writes only to `workspaces/published/`.
+In `online` mode, the agent promotes the files itself (no Python), read-only on the
+pipeline, writing only to `workspaces/published/`. Version allocation and assembly
+follow `.framework/rules/source-versioning.md`.
 
-1. **Allocate the version folder.** Inspect `workspaces/published/<bookname>/` for existing
-   `version<k>` child folders, take the highest `<k>`, and create
-   `workspaces/published/<bookname>/version<k+1>/` (`version1` when none exist), including
-   its `chapters/` subfolder. All output of this invocation goes into that folder;
-   never overwrite a different version's files.
+1. **Allocate the version folder** — take the highest existing `version<k>` under
+   `workspaces/published/<bookname>/`, create `version<k+1>/` (and its `chapters/`);
+   never overwrite another version's files.
+2. **Without `<language>`** — copy each live `chapters/<n>/chapter.md` (plus its
+   `chapter.json`) into the new version; skip and report missing drafts.
+3. **With `<language>`** — copy the latest translator segment
+   (`chapters/<n>/segments/1/translator/<language>.md`) into
+   `chapters/<n>/<language>/chapter.md`; skip and report chapters with no match.
+4. **Assemble** `version<k>/book.md` in canonical order (novel:
+   Introduction → 1..N → Conclusion; poetry: `bookseed.txt` order). With a
+   `<language>`, assemble `book_<language>.md`.
+5. **Update `progress.json`** (`published`, `published_at`, `published_version`,
+   `published_language`) without resetting filter/write state.
 
-### Without `<language>` (writer-stage publish)
-
-2. For each target chapter, read the live working draft from
-   `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md`. Chapters whose draft
-   is missing are skipped and reported.
-3. Copy that content into `workspaces/published/<bookname>/version<k>/chapters/<n>/chapter.md`
-   (create the folder on first publish; within this new version overwrite freely —
-   other versions remain immutable).
-4. Copy the chapter metadata alongside as
-   `workspaces/published/<bookname>/version<k>/chapters/<n>/chapter.json`.
-
-### With `<language>` (translator-stage publish)
-
-5. For each target chapter, read the latest translator-stage segment from
-   `workspaces/pipeline/<bookname>/chapters/<n>/segments/1/translator/` (the file
-   matching the requested language, e.g. `en.md`, `bn.md`, `hi.md`; skip and report
-   any chapter with no exact match).
-6. Copy that translated segment to
-   `workspaces/published/<bookname>/version<k>/chapters/<n>/<language>/chapter.md`.
-
-### Assembly
-
-7. Assemble `workspaces/published/<bookname>/version<k>/book.md` (version root) from the
-   published chapters in canonical order (`Introduction`, `1..N`, `Conclusion` for
-   novels; `bookseed.txt` order for poetry). When a `<language>` was published,
-   assemble the translated book at
-   `workspaces/published/<bookname>/version<k>/book_<language>.md`.
-8. Update `progress.json` (`published`, `published_at`, `published_version`,
-   `published_language`) without resetting filter or write state. Return the
-   version folder, published/skipped counts, and assembled book paths.
-9. Do not run filters, styles, or translations here. Never mutate files under an
-   existing `version<k>` folder other than the newly created one.
+Do not run filters, styles, or translations here.
 
 ## Output
 

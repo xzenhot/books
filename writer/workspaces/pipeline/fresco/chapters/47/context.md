@@ -1,0 +1,92 @@
+# Chapter model context
+
+## chapter_index
+
+47
+
+## name
+
+47
+
+## word_target
+
+280
+
+## chapter_title
+
+The Plaster That Sets
+
+## chapter_summary
+
+The plaster must be painted before it sets, and the poem races the hardening wall.
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+Material science of lime plaster in hot climates
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the setting not as a scaffold of creation, but as an ossuary where past artists' efforts are gradually buried by new layers of lime.
+
+### story_options
+
+- Setting: A patch of lime freshly applied, still glistening wet. Desire: To catch the reflection of a fleeting shadow cast by an approaching dust devil, obstacle: The grit threatens to mar the surface before it can hold color.
+- Setting: High above the courtyard, where wind carries grit against the work surface. Desire: To feel the physical pressure of mortality—the exhaustion settling into her joints during this brief window of malleability, obstacle: Her fatigue forces a lapse in rhythm.
+- Setting: Just as the lamplight struggles to overcome the last vestiges of twilight on the wet plaster. Desire: To capture the precise moment where a single life-force element (her own sweat/breath) becomes visible within the setting matrix, obstacle: The light wavers, threatening to erase the ephemeral vision.
+
+### subject_rotations
+
+- Treating the hardening of the lime not as an ending, but as the beginning of a trap—a perfect, inescapable containment.
+- Examining the 'race' against setting time not just as speed, but as a deliberate rhythmic meditation where small deviations in pace yield larger structural changes in the art.
+- Interrogating the material itself: what specific memory or ghost resides within the chemical reaction of wet lime and mineral absorption?
+
+### sensory_details
+
+- The sharp, almost metallic tang of fresh slaked lime mixed with sweat vapor rising from Debolina’s brow.
+- The fine, velvety grit of particulate matter settling onto the exposed plaster surface just seconds before it seals completely.
+- The specific, tight ache in her wrist as she must apply pressure without rushing, forcing a controlled stillness.
+
+### research_questions
+
+- What is the typical material composition—besides lime—found in traditional Shekhawati fresco plasters that might alter their setting properties?
+- How did local artisans manage the necessary temperature and humidity control within crowded havelis during the painting process?
+
+### structural_variants
+
+- A structure composed entirely of sustained-line imagery, focusing on one vast plane rather than segmented thought.
+- Employing an interrupted, fragmented cadence to mimic the way ancient plaster cracks and loses coherence (this should be avoided if repetition is the core lens).
+- Beginning *in media res* with a powerful line describing texture, then letting the narrative accelerate or halt based on external cues like settling dust.
+
+### unused_angles
+
+- A sustained metaphorical comparison between the structural integrity of the haveli beams and the emotional architecture of her refusal to conform.
+- Exploring the specific sound Debolina makes when she is utterly still before a wall—a small, involuntary bodily noise that breaks her own silence.
+
+### variety_note
+
+This chapter focuses intensely on material urgency—the race against geological time—differing from earlier sensory focus (Musk/Scent) and later thematic depth (Mortality/Choice).

@@ -217,6 +217,31 @@ def load_book_model(bookname):
     return book
 
 
+def load_book_sources(bookname):
+    """Read the author's declared world: gist.md + storyline.md.
+
+    These two files are the authoritative subject source of truth. Every
+    enrichment must be traceable to them — the enrich tool never researches or
+    invents subject matter of its own. Reads the pipeline copies, falling back
+    to the backlog originals when the pipeline copy is absent.
+    """
+    pipeline = REPO_ROOT / "workspaces" / "pipeline" / check_bookname(bookname)
+    backlog = REPO_ROOT / "workspaces" / "backlog" / check_bookname(bookname)
+    gist = ""
+    storyline = ""
+    for name, holder in (("gist.md", gist), ("storyline.md", storyline)):
+        for root in (pipeline, backlog):
+            src = root / name
+            if src.is_file():
+                text = src.read_text(encoding="utf-8-sig").strip()
+                if name == "gist.md":
+                    gist = text
+                else:
+                    storyline = text
+                break
+    return gist, storyline
+
+
 def resolve_book_form(bookname):
     """Read the book's form from workspaces/pipeline/<bookname>/book.json.
 
@@ -836,10 +861,11 @@ def _flatten_markdown(value, title: str) -> str:
     return flatten_module.flatten_json_to_markdown(value, title=title)
 
 
-def build_prompt(book_context, chapter, neighbours, arc, pool, lens, twist, seed):
+def build_prompt(book_context, chapter, neighbours, arc, pool, lens, twist, seed, sources=""):
     return _render(
         ENRICH_USER_PROMPT_TEMPLATE,
         book_context=_flatten_markdown(book_context, "Book context"),
+        sources=sources or "(no gist.md / storyline.md found)",
         arc=_flatten_markdown(arc, "Book arc"),
         neighbours=_flatten_markdown(neighbours, "Neighbouring chapters"),
         pool=_flatten_markdown(pool[:POOL_LIMIT], "Suggestions already used"),
@@ -903,8 +929,13 @@ def request_patch(prompt, seed, temperature, model_name):
 
 
 def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_name=None,
-                   temperature=DEFAULT_TEMPERATURE, model_name=MODEL):
-    """Enrich one chapter model.json in place and return a short result record."""
+                   temperature=DEFAULT_TEMPERATURE, model_name=MODEL, sources=""):
+    """Enrich one chapter model.json in place and return a short result record.
+
+    *sources* is the author's declared world (gist.md + storyline.md) and is the
+    only permissible source of subject matter — passed into the prompt verbatim so
+    the tool never researches or invents its own material.
+    """
     model_file = Path(model_file)
     original = model_file.read_bytes()
     chapter = json.loads(original.decode("utf-8-sig"), parse_constant=reject_constant)
@@ -923,7 +954,7 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     twist = pick_twist(chapter_seed)
     neighbours, pool = neighbour_context(book, models, index)
     prompt = build_prompt(book_digest(book), chapter, neighbours, chapter_arc(book), pool,
-                          lens, twist, chapter_seed)
+                          lens, twist, chapter_seed, sources=sources)
     if show_prompt:
         print(f"=== SYSTEM PROMPT ===\n{ENRICH_SYSTEM_PROMPT}\n\n=== USER PROMPT ===\n{prompt}\n")
 
@@ -1036,6 +1067,8 @@ Writes:  only the target model.json; chapter.md is never read or written.
         chapters_root = resolve_chapters_root(args.bookname)
         numbers = parse_chapter_input(args.chapters, chapters_root)
         book = load_book_model(args.bookname)
+        gist, storyline = load_book_sources(args.bookname)
+        sources = "\n\n".join(part for part in (gist, storyline) if part)
         load_templates(resolve_book_form(args.bookname), resolve_layout_dir(args.bookname))
         if args.lens:
             forced_lens(args.lens)
@@ -1062,7 +1095,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
         try:
             results.append(enrich_chapter(_chapter_file(chapters_root / str(number)), book, models,
                                           args.show_prompt, args.seed, args.lens,
-                                          args.temperature, model_name))
+                                          args.temperature, model_name, sources=sources))
         except Exception as error:
             print(f"[{number}] FAILED: {error}", file=sys.stderr)
             failures += 1

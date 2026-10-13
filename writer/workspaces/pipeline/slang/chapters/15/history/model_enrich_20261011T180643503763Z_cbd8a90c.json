@@ -1,0 +1,40 @@
+{
+  "chapter_index": 15,
+  "name": "15",
+  "word_target": 500,
+  "chapter_title": "আমতা আমতা করা",
+  "chapter_summary": "The chapter, titled 'আমতা আমতা করা,' delves into the suffocating atmosphere of evasiveness, where the subtle dance of deceit becomes the prevailing social currency. The central conflict revolves around a character's agonizing indecision—the hesitation to speak the truth, choosing instead the perilous path of 'মিথ্যের তোতলামি' (the rambling of lies). Key imagery is painted through the nervous trembling of the character, whose very hesitation serves as an unspoken confession, a visible manifestation of guilt. As the narrative progresses through this web of unspoken truths and feigned uncertainty, the reader is left to question: Will this persistent pattern of self-doubt and evasion finally force a painful confrontation, or will the silence itself become the permanent, corrosive state of their existence?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরিত্র ১",
+      "role": "কথক/চরিত্র যিনি ইতস্তত করছেন"
+    },
+    {
+      "id": "c2",
+      "name": "চরিত্র ২",
+      "role": "প্রশ্নকর্তা/যিনি সত্য জানতে চাইছেন"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "এই অধ্যায়ে মিথ্যা বলার মাধ্যমে সত্যকে এড়িয়ে যাওয়ার সামাজিক চিত্রটি তৎকালীন সমাজের প্রতিফলন ঘটায়।",
+    "human_in_the_loop": "নার্ভাসতার কারণে সত্য কথা না বলে ইতস্তত করার মানবীয় দুর্বলতা এখানে স্পষ্টভাবে ফুটে উঠেছে।",
+    "influence_of_other_works": "প্রবাদ-কবিতার মতো এই অধ্যায়ের আখ্যান কাঠামোতে লোককথার প্রভাব লক্ষ্য করা যায়।",
+    "cultural_relevance": "সত্য না বলে ইতস্তত করার প্রবণতা বাঙালি সংস্কৃতিতে প্রচলিত সামাজিক চাপকে তুলে ধরে।",
+    "literary_style": "গল্পের ভাষা প্রবাদ-কবিতার মতো গভীরতা এবং সরলতার মিশ্রণ বহন করে।",
+    "narrative_techniques": "ইতস্তত হওয়ার মাধ্যমে চরিত্রের অভ্যন্তরীণ দ্বন্দ্বকে লেখক দক্ষতার সাথে ফুটিয়ে তুলেছেন।",
+    "symbolism_and_motifs": "মিথ্যের তোতলামি এখানে লুকানো সত্যের প্রতীক হিসেবে কাজ করছে।",
+    "reader_engagement_strategies": "পাঠককে চরিত্রের দ্বিধা এবং নৈতিক সংকটের মাধ্যমে গভীরভাবে যুক্ত হওয়ার সুযোগ দেওয়া হয়েছে।",
+    "ethical_considerations": "সত্য ও মিথ্যার মধ্যবর্তী সীমারেখা নিয়ে এই অধ্যায়টি একটি গুরুত্বপূর্ণ নৈতিক প্রশ্ন উত্থাপন করে।",
+    "potential_controversies": "সমাজের চাপানো ভয়ের কারণে সত্য গোপন করার বিষয়টি বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি মূলত সামাজিক আচরণের মাধ্যমে নারী-পুরুষ নির্বিশেষে মানুষের দ্বিধা তুলে ধরে।",
+    "marketing_and_promotion": "প্রবাদ-কবিতার মতো শক্তিশালী থিম ব্যবহার করে এই অধ্যায়টি পাঠকের মনোযোগ আকর্ষণ করতে পারে।",
+    "significance_of_rise_of_bengal": "এই অধ্যায়ের সামাজিক মিথস্ক্রিয়া তৎকালীন বাংলার সামাজিক কাঠামোর অস্থিরতা নির্দেশ করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

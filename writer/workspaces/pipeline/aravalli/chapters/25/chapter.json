@@ -6,8 +6,45 @@
   "chapter_summary": "যমুনা ও বানাস নদীর অববাহিকার ভূগর্ভস্থ জলাধার — পাহাড়ের ফাটল দিয়ে রিচার্জ হয় জলের প্রাণ।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
-  ]
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rilke",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "water dreaming deep inside the aquifer",
+      "volta": "the dream turning from hope into a held breath",
+      "sonic_texture": "sibilance and a slow oceanic pulse",
+      "line_gesture": "long enjambed lines that exhale",
+      "variety_note": "a weightless dream after the dusty assault"
+    }
+  }
 }

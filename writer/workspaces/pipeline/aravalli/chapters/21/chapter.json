@@ -6,7 +6,7 @@
   "chapter_summary": "যে পাহাড় শুধু পাথর নয়, তার ধমনীতে জমে থাকা মূল্যবান আকরিকই তার খোদাই করা বুকের কারণ।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -38,6 +38,41 @@
       "A structure built around recursive definition: each line of inscription forces a re-evaluation of the geological layer it sits upon, leading back toward the theme of time itself.",
       "A bifurcated poem: one half describing the *imposition* of meaning (the act of carving); the second half detailing the mountain's slow, inevitable process of *reclaiming* that mark."
     ],
-    "variety_note": "Where previous chapters focused on raw geological force or external invasion, this chapter centers intimacy—the fragile dialogue between a directed human intention and monumental inert matter."
+    "variety_note": "Where previous chapters focused on raw geological force or external invasion, this chapter centers intimacy—the fragile dialogue between a directed human intention and monumental inert matter.",
+    "poetic_parameters": {
+      "emotional_rawness": 9,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 7,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "scars carved into the chest reading like old script",
+      "volta": "the wound turning into an act of self-embrace",
+      "sonic_texture": "a whirling lift, the reed's long vowel",
+      "line_gesture": "lines that turn upward into union",
+      "variety_note": "a love-wound where the dust was a shroud"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rumi",
+    "style": "pijush"
   }
 }

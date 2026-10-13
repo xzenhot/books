@@ -1,0 +1,40 @@
+{
+  "chapter_index": 24,
+  "name": "24",
+  "word_target": 500,
+  "chapter_title": "কাঁচকলা",
+  "chapter_summary": "The chapter, titled 'কাঁচকলা' (Raw Banana), delves into the profound disillusionment experienced by the protagonist after a period of intense effort yields absolutely no tangible reward, symbolized by the presence of only raw bananas—a poignant metaphor for unripened potential. The central conflict is the crushing weight of unfulfilled labor against the harsh reality of emptiness, visualized through the stark image of the unripe fruit hanging heavy and unproductive. This pervasive sense of futility forces a confrontation with the nature of effort itself, leaving the reader to question whether the value lies in the striving or in the eventual harvest.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরিত্র ১",
+      "role": "কৃষক"
+    },
+    {
+      "id": "c2",
+      "name": "চরিত্র ২",
+      "role": "পর্যবেক্ষক"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "প্রবাদটি কবিতার মতো, যা তৎকালীন সামাজিক বাস্তবতাকে সূক্ষ্মভাবে তুলে ধরে।",
+    "human_in_the_loop": "শূন্য ফল পাওয়ার যন্ত্রণা একজন সাধারণ মানুষের গভীর অনুভূতিকে প্রতিফলিত করে।",
+    "influence_of_other_works": "এই হতাশা প্রাচীন বাংলা লোকসাহিত্যের 'অপেক্ষা'র থিমের সঙ্গে অনুরণিত হয়।",
+    "cultural_relevance": "কাঁচকলা প্রতীকীভাবে সেই ব্যর্থ প্রচেষ্টার প্রতিনিধিত্ব করে যা গ্রামীণ জীবনের একটি অংশ।",
+    "literary_style": "গদ্যে একটি গভীর বিষাদময়তা বিদ্যমান, যা সরল অথচ শক্তিশালী।",
+    "narrative_techniques": "লেখক 'শূন্য' এবং 'কাঁচকলা' শব্দদ্বয়ের মাধ্যমে একটি শক্তিশালী চিত্রকল্প তৈরি করেছেন।",
+    "symbolism_and_motifs": "কাঁচকলা এখানে কেবল একটি ফল নয়, বরং ব্যর্থ আকাঙ্ক্ষার একটি শক্তিশালী প্রতীক।",
+    "reader_engagement_strategies": "পাঠককে পরিশ্রম ও ফলাফলের বৈপরীত্যের মাধ্যমে আবেগগতভাবে সংযুক্ত করা হয়েছে।",
+    "ethical_considerations": "অতিরিক্ত পরিশ্রমের ফল না পাওয়ার নৈতিক প্রশ্নটি উত্থাপিত হয়েছে।",
+    "potential_controversies": "কৃষিকাজ এবং শ্রমের মূল্য নিয়ে সমাজের চাপা বিতর্ক এই অধ্যায়ে উঠে আসতে পারে।",
+    "diversity_and_inclusion": "অধ্যায়টি শ্রমজীবী মানুষের অভিজ্ঞতার মাধ্যমে সমাজের একটি স্তরকে তুলে ধরে।",
+    "marketing_and_promotion": "এই অধ্যায়ের গভীর দার্শনিকতা এটিকে সাহিত্যপ্রেমীদের কাছে আকর্ষণীয় করে তুলবে।",
+    "significance_of_rise_of_bengal": "এই শূন্যতা বাংলার অর্থনৈতিক সংগ্রাম এবং পরিশ্রমের মূল্যহীনতার একটি ক্ষুদ্র চিত্র বহন করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

@@ -6,7 +6,7 @@
   "chapter_summary": "হিমালয়ের জন্মের বহু কোটি বছর আগে যে পাহাড় দাঁড়িয়েছিল, সে আজও বেঁচে — সবচেয়ে প্রাচীন সাক্ষী।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -44,6 +44,41 @@
     "unused_angles": [
       "Exploring how ancient mineral inclusions function as trapped, inert 'memories' that resist being re-activated by modern processes.",
       "A focus on lithological boundaries (where one type of rock fundamentally gives way to another) as moments of existential choice or failure for the mountain."
-    ]
+    ],
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 5,
+      "structural_rigidity": 7,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 5,
+      "movement": {
+        "name": "Stoicism",
+        "one_liner": "Logic, virtue, and mastering inner thoughts."
+      },
+      "writing_skills": [
+        "classical meter mastery",
+        "rhyme architecture",
+        "modern colloquial grounding"
+      ],
+      "image_seed": "a lichen-crusted sentinel before the Himalaya's first snow",
+      "volta": "waiting revealed as a form of pressure, not stillness",
+      "sonic_texture": "a low, unbroken drone under a windless hush",
+      "line_gesture": "even measured lines that persist without rising",
+      "variety_note": "a vigil of patience against the births and blasts around it"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "blake",
+    "style": "pijush"
   }
 }
