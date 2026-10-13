@@ -1,0 +1,40 @@
+{
+  "chapter_index": 88,
+  "name": "88",
+  "word_target": 500,
+  "chapter_title": "খুঁটির জোরে লাফানো",
+  "chapter_summary": "The chapter delves into the precarious nature of influence and power within the political landscape, encapsulated by the proverb, 'Proverb is poetry.' The central conflict revolves around the hidden scaffolding of authority—the 'pillar' or patron—that allows certain figures to leap forward and claim prominence. The imagery evokes a precarious balancing act, where visible success is merely the façade built upon unseen, often manipulative, support structures. As the narrative unfolds, the characters grapple with the moral ambiguity of their ascent, leaving the reader to question whether true merit can ever flourish when every leap is secretly propped up by an unseen hand.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "প্রভাবশালী ব্যক্তি",
+      "role": "মূল চরিত্র"
+    },
+    {
+      "id": "c2",
+      "name": "পৃষ্ঠপোষক",
+      "role": "পটভূমি চরিত্র"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "প্রভাবের বলের উৎস এবং পৃষ্ঠপোষকদের ভূমিকা এই অধ্যায়ে ঐতিহাসিক প্রেক্ষাপটকে প্রতিফলিত করে।",
+    "human_in_the_loop": "এই অধ্যায়ে দেখানো হয়েছে যে কোনো সাফল্যের পেছনে অদৃশ্য পৃষ্ঠপোষকদের হাত থাকে।",
+    "influence_of_other_works": "প্রবাদতুল্য বাক্যগুলির মাধ্যমে সাহিত্যিক প্রভাবের গভীরতা তুলে ধরা হয়েছে।",
+    "cultural_relevance": "পৃষ্ঠপোষকতার ধারণাটি তৎকালীন সামাজিক ও রাজনৈতিক সংস্কৃতিতে অত্যন্ত প্রাসঙ্গিক ছিল।",
+    "literary_style": "গদ্যের মধ্যে প্রবাদের কাব্যিক গভীরতা ফুটিয়ে তোলা হয়েছে।",
+    "narrative_techniques": "চরিত্রবিহীন এই অংশে একটি দার্শনিক পর্যবেক্ষণকে কেন্দ্র করে আখ্যান এগিয়ে চলে।",
+    "symbolism_and_motifs": "খুঁটি এবং লাফানো—এই প্রতীকগুলি ক্ষমতার নির্ভরতাকে সূচিত করে।",
+    "reader_engagement_strategies": "পাঠককে ভাবাতে বাধ্য করে যে তাদের সাফল্যের পেছনে আসল চালিকাশক্তি কী।",
+    "ethical_considerations": "অদৃশ্য পৃষ্ঠপোষকতার নৈতিক দায়বদ্ধতা নিয়ে প্রশ্ন তোলা হয়েছে।",
+    "potential_controversies": "ক্ষমতার গোপন লেনদেন নিয়ে আলোচনা বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই নির্দিষ্ট অধ্যায়ে কোনো নির্দিষ্ট সামাজিক বৈচিত্র্য তুলে ধরা হয়নি।",
+    "marketing_and_promotion": "এই গভীর দার্শনিক আলোচনাটি বুদ্ধিবৃত্তিক পাঠক গোষ্ঠীকে আকর্ষণ করবে।",
+    "significance_of_rise_of_bengal": "ক্ষমতার কাঠামোগত নির্ভরতা বাংলার উত্থানের অভ্যন্তরীণ রাজনীতির প্রতিচ্ছবি।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

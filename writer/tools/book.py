@@ -1803,6 +1803,8 @@ def enrich_workflow(bookname: str, target: str) -> None:
     chapters_root = enrich.resolve_chapters_root(bookname)
     numbers = enrich.parse_chapter_input(target, chapters_root)
     book = enrich.load_book_model(bookname)
+    gist, storyline = enrich.load_book_sources(bookname)
+    sources = "\n\n".join(part for part in (gist, storyline) if part)
 
     # Load the form-specific templates (lenses, twists, prompts) before enriching,
     # so the engine never runs with an empty lens/twist set. Prefer the book's own
@@ -1830,7 +1832,7 @@ def enrich_workflow(bookname: str, target: str) -> None:
     for num in numbers:
         try:
             enrich.enrich_chapter(_chapter_model_file(chapters_root / str(num)), book, all_models,
-                                  model_name=model_name)
+                                  model_name=model_name, sources=sources)
         except Exception as exc:  # noqa: BLE001
             print(f"  [{num}] FAILED: {exc}", file=sys.stderr)
             failures += 1

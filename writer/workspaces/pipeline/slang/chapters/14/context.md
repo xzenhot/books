@@ -1,0 +1,165 @@
+# Chapter model context
+
+## chapter_index
+
+14
+
+## name
+
+14
+
+## word_target
+
+500
+
+## chapter_title
+
+ভাত মারা
+
+## chapter_summary
+
+Chapter 14, "ভাত মারা," delves into the stark socio-economic conflict where the struggle for basic sustenance becomes a brutal zero-sum game. The central tension revolves around the 'ভাত মারা'—the literal and metaphorical starvation of the poor, where one person's survival is inextricably linked to another's deprivation. The narrative paints a grim tableau of scarcity, perhaps symbolized by the meager, shared portions of rice, contrasting the hollow ache of hunger against the weight of societal injustice. As the characters navigate this unforgiving landscape of necessity versus morality, the chapter leaves the reader questioning: Can dignity survive when the most fundamental need—a simple meal—is weaponized by economic disparity?
+
+## further_references
+
+
+## characters
+
+### Item 1
+
+#### id
+
+c1
+
+#### name
+
+গরীব
+
+#### role
+
+জীবিকা হারানো ব্যক্তি
+
+### Item 2
+
+#### id
+
+c2
+
+#### name
+
+অপরাধী
+
+#### role
+
+ক্ষুধা সৃষ্টিকারী ব্যক্তি
+
+## qualities
+
+### historical_accuracy
+
+জীবিকা কেড়ে নেওয়ার সেই কঠিন বাস্তবতা তৎকালীন সমাজের চিত্র তুলে ধরে।
+
+### human_in_the_loop
+
+গরিবের ভাত মারা নামক পরিস্থিতিতে মানুষের চরম সংগ্রাম দৃশ্যমান।
+
+### influence_of_other_works
+
+এই অধ্যায়ে প্রবাদটির কাব্যিক গভীরতা অন্য সাহিত্যকর্মের প্রতিধ্বনি সৃষ্টি করে।
+
+### cultural_relevance
+
+খাদ্য ও জীবিকার এই সংগ্রাম বাঙালি সংস্কৃতির একটি মৌলিক দিক তুলে ধরে।
+
+### literary_style
+
+গল্পের ভাষা প্রবাদটির মতোই গভীর এবং কাব্যিক রূপ ধারণ করেছে।
+
+### narrative_techniques
+
+লেখক ক্ষুধা ও অপরাধের দ্বৈততাকে দক্ষতার সাথে বর্ণনা করেছেন।
+
+### symbolism_and_motifs
+
+ভাত মারা এখানে কেবল খাদ্যের অভাব নয়, বরং সামাজিক অবিচারের প্রতীক।
+
+### reader_engagement_strategies
+
+পাঠককে সরাসরি ক্ষুধা ও অপরাধের নৈতিক দ্বন্দ্বে নিমজ্জিত করা হয়েছে।
+
+### ethical_considerations
+
+সম্পদের অসম বন্টন এবং মৌলিক চাহিদা পূরণের নৈতিক প্রশ্ন উত্থাপিত হয়েছে।
+
+### potential_controversies
+
+জীবিকা কেড়ে নেওয়ার বিষয়টি সামাজিক কাঠামোর বিরুদ্ধে বিতর্ক সৃষ্টি করতে পারে।
+
+### diversity_and_inclusion
+
+এই অধ্যায়টি সমাজের দরিদ্র শ্রেণির দুর্দশার উপর আলোকপাত করে।
+
+### marketing_and_promotion
+
+এই শক্তিশালী সামাজিক বার্তাটি পাঠকের দৃষ্টি আকর্ষণ করতে সক্ষম।
+
+### significance_of_rise_of_bengal
+
+জীবিকা হারানোর এই ঘটনা বাংলার অর্থনৈতিক দুর্বলতার ইঙ্গিত দেয়।
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the 'ভাত মারা' not as a direct conflict between two figures (c1/c2), but through the perspective of an inert object—a single, half-eaten grain of rice left on a rough wooden surface—that witnesses the exchange.
+- Treating the starvation metaphorically: instead of physical hunger for food, the characters are suffering from 'ভাত মারা' in terms of cultural recognition or dignity within a social setting (the loss of speaking rights).
+- Focusing entirely on the dialectal nuances of famine speech; how does desperation alter grammar and rhythm, making the utterance itself sound like an irreversible loss?
+
+### story_options
+
+- Setting: A dusty crossroads just after dawn; Desire: To find any residual scraps or remnants left behind by a larger conflict; Obstacle: The harsh morning light illuminates only dust and indifference.
+- Setting: Inside the cramped, silent storeroom of a failing merchant; Desire: One character must decide whether to claim meager reserves for themselves or risk ostracism to share what little remains; Obstacle: A constant, unnerving silence that forces self-reckoning.
+- Setting: Near the boundary line between a crowded marketplace and an uncultivated field at twilight; Desire: To trade a single, valuable but worthless object (a broken tool) for symbolic representation of sustenance; Obstacle: The relentless flow of passersby who cannot or will not acknowledge their plight.
+
+### subject_rotations
+
+- Shifting focus from the 'starvation' to the *ritual* surrounding the meager meal—the specific, almost ceremonial way rice was once shared vs. how it is now taken.
+- Analyzing the economic system that permits this scarcity: treating the disparity not as individual vice (অপরাধী) but as a structural failure of the city's distribution networks.
+- Exploring the psychological toll: charting the shift in communication from pleading/negotiation to silent, aggressive survival mode.
+
+### sensory_details
+
+- The gritty, abrasive feel of uncooked rice dust clinging to dry skin; a tactile memory of potential nourishment that was never achieved.
+- The cloying, metallic tang of sweat mixed with stale smoke in an enclosed, poorly ventilated space.
+- The sound of uneven breathing—shallow gasps juxtaposed against the heavy, rhythmic scrape of cheap jute sacks being dragged across packed earth.
+
+### research_questions
+
+- How does colloquial Bengali express hunger or deprivation when standard vocabulary feels too formal for the raw immediacy of 'ভাত মারা'?
+- Are there specific non-verbal communication patterns (eye contact, posture) that replace spoken argument during resource scarcity in this socio-economic context?
+
+### structural_variants
+
+- A structure built around escalating silences: each segment is defined by a progressively longer pause between the characters' limited exchanges.
+- An internal monologue from 'গরীব,' where past feasts or moments of fullness are recalled in excruciating, fragmented detail before returning to the present lack.
+
+### unused_angles
+
+- The role of shared folklore or proverb (beyond this chapter itself) that attempts to explain systemic poverty, serving as a failed comfort mechanism.
+- A brief inclusion of an external observer—a child or peripheral figure—who understands the dynamic but cannot intervene.
+
+### variety_note
+
+While previous chapters dealt with outright deception ('ঢ্যাপ') and general malaise ('ঘ্যাঁট'), this chapter zeroes in on a precise, visceral economic zero-sum game: survival through deliberate deprivation.

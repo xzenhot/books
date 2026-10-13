@@ -1,0 +1,35 @@
+{
+  "chapter_index": 100,
+  "name": "100",
+  "word_target": 500,
+  "chapter_title": "শহরের পোকা",
+  "chapter_summary": "Chapter 100, \"শহরের পোকা\" (The City Bug), delves into the intricate, often ruthless, ecosystem of the urban sprawl, where street smarts become the ultimate currency. The central conflict pits the inherent cunning and survival instincts of the 'city bug' against the naive expectations of outsiders, illustrating a world governed by unspoken, hard-won street wisdom. The narrative is painted with the harsh imagery of bustling, unforgiving city streets—a labyrinth of petty transactions and hidden dangers. As the protagonist navigates this dense urban jungle, the chapter leaves the reader questioning whether true survival in the metropolis requires the abandonment of all idealism, or if there is any sanctuary left for genuine integrity within its relentless currents.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "শহরের পোকা",
+      "role": "ধূর্ত চরিত্র"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "রাস্তার অভিজ্ঞতার মাধ্যমে শহরের ধূর্ততা তৎকালীন নগর জীবনের প্রতিচ্ছবি তুলে ধরে।",
+    "human_in_the_loop": "শহরের পোকা চরিত্রটি তার সহজাত বিচক্ষণতা দিয়ে জটিল সামাজিক পরিস্থিতিতে নিজেকে টিকিয়ে রাখে।",
+    "influence_of_other_works": "এই অধ্যায়টি লোককথার মতো প্রবাদ-বাক্যের গভীরতা শহুরে প্রেক্ষাপটে ফুটিয়ে তোলে।",
+    "cultural_relevance": "শহুরে জীবনের কঠিন বাস্তবতাকে 'শহরের পোকা' উপাধিটির মাধ্যমে তুলে ধরা হয়েছে।",
+    "literary_style": "প্রবাদ-বাক্যকে কবিতার মতো করে বর্ণনা করার শৈলীটি গল্পের গভীরতা বাড়ায়।",
+    "narrative_techniques": "চরিত্রের মাধ্যমে শহরের জটিলতা বর্ণনা করার জন্য সরাসরি পর্যবেক্ষণমূলক আখ্যান ব্যবহার করা হয়েছে।",
+    "symbolism_and_motifs": "শহরের পোকা প্রতীকীভাবে সেইসব মানুষের প্রতিনিধিত্ব করে যারাstreet smarts দিয়ে টিকে থাকে।",
+    "reader_engagement_strategies": "পাঠককে শহরের কঠিন বাস্তবতার সঙ্গে পরিচিত করিয়ে চরিত্রটির প্রতি আকর্ষণ সৃষ্টি করা হয়।",
+    "ethical_considerations": "ধূর্ততার চিত্রায়ণ নৈতিকতার ধূসর অঞ্চলকে পাঠকের সামনে তুলে ধরে।",
+    "potential_controversies": "শহরের নিম্নবিত্ত জীবনযাত্রার চিত্রায়ণ সামাজিক বৈষম্যের বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি শহরের বিভিন্ন স্তরের মানুষের টিকে থাকার সংগ্রামকে অন্তর্ভুক্ত করে।",
+    "marketing_and_promotion": "প্রবাদ-কবিতার মতো শক্তিশালী উপশিরোনামটি পাঠককে আকৃষ্ট করবে।",
+    "significance_of_rise_of_bengal": "শহরের এই পোকার উত্থান তৎকালীন পরিবর্তিত নগর অর্থনীতির ইঙ্গিত বহন করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

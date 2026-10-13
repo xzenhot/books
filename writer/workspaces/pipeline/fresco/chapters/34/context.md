@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+34
+
+## name
+
+34
+
+## word_target
+
+280
+
+## chapter_title
+
+The King's Protection
+
+## chapter_summary
+
+The king sold safety, the merchant paid tax, and the poem sets the old bargain before the painted walls.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Viewing royal decree not as protection, but as a gilded cage whose bars are woven from tax assessments.
+- Framing the transaction—King's safety for Merchant's payment—as an ancient alchemy, where political currency is exchanged for artistic permanence (pigment for dominion).
+- Focusing on the physical remnants of the bargain: perhaps a specific type of royal seal impression found near a haveli entrance, or the texture of tax documents contrasted with painted stone.
+
+### story_options
+
+- Setting: A secluded corner inside a massive fortified outer wall structure; Desire: To feel the weight and permanence of the protective decree on one's skin; Obstacle: The knowledge that this protection is conditional upon ongoing fiscal performance (the tax), leading to an internal friction.
+- Setting: Facing a faded mural depicting a figure in royal regalia; Desire: To discern whether the depicted 'King' represents actual benevolent power or merely a highly elaborate, decorative façade—a grand lie painted over reality.; Obstacle: The realization that Debolina herself is perpetually awaiting a form of protection (artistic acceptance) from an unseen patron.
+- Setting: By the main gate where official toll/tax markings are visible on the stonework; Desire: To decipher the precise language used in these archaic tax inscriptions, treating them as an unfamiliar, dense poetic script.; Obstacle: The dust collecting within the grooves of the carved fiscal marks obscuring the original intent.
+
+### subject_rotations
+
+- Treating 'protection' not materially (walls), but philosophically—the protection afforded by art itself against the corrosive forces of time and obscurity.
+- Analyzing the structure of power relations: how a distant, powerful figure (King) validates local economies (Merchants) who then provide the material for Debolina’s creation.
+- Focusing on the transferrable nature of value—how political safety translates into aesthetic investment; from earthly gold to ephemeral lapis.
+
+### sensory_details
+
+- The dry, brittle feel of ancient tax receipts or seals contrasting sharply with the cool, damp touch of freshly ground lime.
+- A specific high-pitched resonance in the stone passageways where royal processions once trod, an echo that sounds like a forgotten bureaucratic utterance.
+- The muted color palette applied to depictions of royalty—rich but deliberately flat and standardized—suggesting manufactured permanence.
+
+### research_questions
+
+- What are common regional motifs in Shekhawati frescoes depicting royal patronage versus mercantile accumulation?
+- How is the concept of 'tax' represented visually or texturally within historical Rajput architectural records?
+
+### structural_variants
+
+- A tightly metered section mimicking a formal decree, juxtaposed against sprawling free verse describing the subsequent silent labor.
+- An object-based progression: starting with the King’s seal impression, moving to the merchant's tally mark, and ending on the painter's brushstroke.
+
+### unused_angles
+
+- Exploring the role of intermediaries—the functionaries or scribes who translated royal mandates into enforceable local conditions.
+- A momentary shift where Debolina contemplates the political stability required for any sustained artistic endeavor to even be conceivable.
+
+### variety_note
+
+Unlike the focus on scent and movement in earlier chapters, this poem shifts attention to rigid structures of obligation and formalized exchange inherent in the town's foundational history.

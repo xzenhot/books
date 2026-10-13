@@ -17,6 +17,13 @@ How to read the input:
   what this book has already done. Your material must be measurably different.
 
 Rules:
+0. GROUND EVERYTHING IN THE AUTHOR'S DECLARED WORLD. The "AUTHOR'S DECLARED WORLD"
+   section (gist.md + storyline.md) is the ONLY permissible source of subject matter —
+   its figures, places, eras, themes, images, and vocabulary. Do not add any subject,
+   figure, place, myth, historical claim, date, or literary reference that is not
+   already named in that section or in the chapter's own model. Do not research, do not
+   web-search, do not recall external facts. If the author has not written it, leave the
+   field empty or mark it "(not in source)".
 1. Additive only. Never rewrite, replace, shorten, or delete a value that is already
    populated. Fill an empty tag only when its purpose is clear.
 2. Never emit these keys: state, status, filter_history, completed_date, word_target,

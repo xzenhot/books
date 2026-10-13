@@ -1,0 +1,1011 @@
+{
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "চুন লাগানো",
+      "file_path": "chapters/1/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "টুপি পরানো",
+      "file_path": "chapters/2/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "ঘোল খাওয়ানো",
+      "file_path": "chapters/3/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "ল্যাজ গুটানো",
+      "file_path": "chapters/4/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "ল্যাদ",
+      "file_path": "chapters/5/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "আঁতেল",
+      "file_path": "chapters/6/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "নাড়ু গোপাল",
+      "file_path": "chapters/7/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "গোবর গণেশ",
+      "file_path": "chapters/8/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "ফাটবাজ",
+      "file_path": "chapters/9/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "ক্যাঁচাল",
+      "file_path": "chapters/10/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 11,
+      "topic": "ঢ্যাপ",
+      "file_path": "chapters/11/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 12,
+      "topic": "ঘ্যাঁট",
+      "file_path": "chapters/12/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 13,
+      "topic": "পোকা মারা",
+      "file_path": "chapters/13/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 14,
+      "topic": "ভাত মারা",
+      "file_path": "chapters/14/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 15,
+      "topic": "আমতা আমতা করা",
+      "file_path": "chapters/15/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 16,
+      "topic": "চালকি মারা",
+      "file_path": "chapters/16/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 17,
+      "topic": "হাওয়া খাওয়া",
+      "file_path": "chapters/17/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 18,
+      "topic": "ঘ্যাজ ঘ্যাজ",
+      "file_path": "chapters/18/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 19,
+      "topic": "তেল দেওয়া",
+      "file_path": "chapters/19/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 20,
+      "topic": "আড্ডা",
+      "file_path": "chapters/20/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 21,
+      "topic": "বাঁশ দেওয়া",
+      "file_path": "chapters/21/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 22,
+      "topic": "ধাপ্পা",
+      "file_path": "chapters/22/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 23,
+      "topic": "পট্টি দেওয়া",
+      "file_path": "chapters/23/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 24,
+      "topic": "কাঁচকলা",
+      "file_path": "chapters/24/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 25,
+      "topic": "ঝামেলা",
+      "file_path": "chapters/25/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 26,
+      "topic": "গুলতানি",
+      "file_path": "chapters/26/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 27,
+      "topic": "ফাঁকি",
+      "file_path": "chapters/27/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 28,
+      "topic": "পা-চাটা",
+      "file_path": "chapters/28/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 29,
+      "topic": "গুল মারা",
+      "file_path": "chapters/29/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 30,
+      "topic": "বান্ডেল",
+      "file_path": "chapters/30/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 31,
+      "topic": "মাথা খাওয়া",
+      "file_path": "chapters/31/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 32,
+      "topic": "কাণ্ড",
+      "file_path": "chapters/32/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 33,
+      "topic": "জগাখিচুড়ি",
+      "file_path": "chapters/33/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 34,
+      "topic": "সর্বনাশ",
+      "file_path": "chapters/34/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 35,
+      "topic": "ধুর",
+      "file_path": "chapters/35/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 36,
+      "topic": "বোকারাম",
+      "file_path": "chapters/36/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 37,
+      "topic": "পোক্ত",
+      "file_path": "chapters/37/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 38,
+      "topic": "ছ্যামড়া",
+      "file_path": "chapters/38/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 39,
+      "topic": "ফাঁসানো",
+      "file_path": "chapters/39/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 40,
+      "topic": "ঘ্যাট",
+      "file_path": "chapters/40/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 41,
+      "topic": "আদিখ্যেতা",
+      "file_path": "chapters/41/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 42,
+      "topic": "লেঙি মারা",
+      "file_path": "chapters/42/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 43,
+      "topic": "গ্যাম",
+      "file_path": "chapters/43/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 44,
+      "topic": "ক্ষীর খা",
+      "file_path": "chapters/44/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 45,
+      "topic": "চাবুক",
+      "file_path": "chapters/45/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 46,
+      "topic": "কেস খাওয়া",
+      "file_path": "chapters/46/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 47,
+      "topic": "সাংঘাতিক",
+      "file_path": "chapters/47/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 48,
+      "topic": "লে হালুয়া",
+      "file_path": "chapters/48/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 49,
+      "topic": "বিচ্ছিরি",
+      "file_path": "chapters/49/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 50,
+      "topic": "চোরের মায়ের বড় গলা",
+      "file_path": "chapters/50/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 51,
+      "topic": "বোমকে যাওয়া",
+      "file_path": "chapters/51/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 52,
+      "topic": "ফাঁসা",
+      "file_path": "chapters/52/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 53,
+      "topic": "ব্যাপক",
+      "file_path": "chapters/53/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 54,
+      "topic": "খাপে খাপ",
+      "file_path": "chapters/54/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 55,
+      "topic": "আপনি বাঁচলে বাপের নাম",
+      "file_path": "chapters/55/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 56,
+      "topic": "এক হাতে তালি বাজে না",
+      "file_path": "chapters/56/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 57,
+      "topic": "অতি লোভে তাঁতি নষ্ট",
+      "file_path": "chapters/57/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 58,
+      "topic": "হ্যাঁজানো",
+      "file_path": "chapters/58/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 59,
+      "topic": "ছড়ানো",
+      "file_path": "chapters/59/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 60,
+      "topic": "লোড নেওয়া",
+      "file_path": "chapters/60/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 61,
+      "topic": "সেয়ানে সেয়ানে",
+      "file_path": "chapters/61/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 62,
+      "topic": "গুটি সাজানো",
+      "file_path": "chapters/62/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 63,
+      "topic": "কাঁটা দিয়ে কাঁটা তোলা",
+      "file_path": "chapters/63/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 64,
+      "topic": "ঘাটে ঘাটে জল খাওয়া",
+      "file_path": "chapters/64/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 65,
+      "topic": "অতি ভক্তি চোরের লক্ষণ",
+      "file_path": "chapters/65/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 66,
+      "topic": "চাচা আপন প্রাণ বাঁচা",
+      "file_path": "chapters/66/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 67,
+      "topic": "দাঁতে দাঁত চেপে লড়া",
+      "file_path": "chapters/67/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 68,
+      "topic": "ঠেলায় না পড়লে বিড়াল গাছে ওঠে না",
+      "file_path": "chapters/68/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 69,
+      "topic": "বুকের পাটা",
+      "file_path": "chapters/69/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 70,
+      "topic": "ঘাটের মড়া",
+      "file_path": "chapters/70/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 71,
+      "topic": "জলে কুমির ডাঙায় বাঘ",
+      "file_path": "chapters/71/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 72,
+      "topic": "চোখ খোলা রাখা",
+      "file_path": "chapters/72/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 73,
+      "topic": "হাটে হাঁড়ি ভাঙা",
+      "file_path": "chapters/73/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 74,
+      "topic": "নিজের চরকায় তেল দেওয়া",
+      "file_path": "chapters/74/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 75,
+      "topic": "ঠকে শেখা",
+      "file_path": "chapters/75/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 76,
+      "topic": "গলা কাটা প্রতিযোগিতা",
+      "file_path": "chapters/76/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 77,
+      "topic": "শক্তির লড়াই",
+      "file_path": "chapters/77/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 78,
+      "topic": "বেড়ায় খেত খাওয়া",
+      "file_path": "chapters/78/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 79,
+      "topic": "পাকা মাথা",
+      "file_path": "chapters/79/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 80,
+      "topic": "চোখে ধুলো দেওয়া",
+      "file_path": "chapters/80/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 81,
+      "topic": "রুই-কাতলা",
+      "file_path": "chapters/81/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 82,
+      "topic": "পুরনো পাপী",
+      "file_path": "chapters/82/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 83,
+      "topic": "ঘুঘু",
+      "file_path": "chapters/83/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 84,
+      "topic": "ঘাটের পোকা",
+      "file_path": "chapters/84/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 85,
+      "topic": "কাঁধে বন্দুক রাখা",
+      "file_path": "chapters/85/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 86,
+      "topic": "হাওয়া বুঝে চলা",
+      "file_path": "chapters/86/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 87,
+      "topic": "নিজের আটি রাখা",
+      "file_path": "chapters/87/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 88,
+      "topic": "খুঁটির জোরে লাফানো",
+      "file_path": "chapters/88/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 89,
+      "topic": "কান খাড়া রাখা",
+      "file_path": "chapters/89/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 90,
+      "topic": "মাথা ঠান্ডা রাখা",
+      "file_path": "chapters/90/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 91,
+      "topic": "পা টিপে চলা",
+      "file_path": "chapters/91/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 92,
+      "topic": "নদীর চরা",
+      "file_path": "chapters/92/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 93,
+      "topic": "ধনুর্ভঙ্গ পণ",
+      "file_path": "chapters/93/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 94,
+      "topic": "কেল্লা ফতে",
+      "file_path": "chapters/94/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 95,
+      "topic": "বুকে পাষাণ বাঁধা",
+      "file_path": "chapters/95/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 96,
+      "topic": "হাত সাফ করা",
+      "file_path": "chapters/96/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 97,
+      "topic": "দুধে-ভাতে থাকা",
+      "file_path": "chapters/97/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 98,
+      "topic": "গলা কাটা",
+      "file_path": "chapters/98/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 99,
+      "topic": "তেল-নুন-লাকড়ি",
+      "file_path": "chapters/99/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 100,
+      "topic": "শহরের পোকা",
+      "file_path": "chapters/100/chapter.md",
+      "written": true,
+      "validated": false,
+      "published": false,
+      "status": "written",
+      "completed_date": null
+    }
+  ],
+  "total_chapters": 100,
+  "written_chapters": 100,
+  "completed_chapters": 0,
+  "published": false,
+  "current_chapter": null,
+  "model": "gemma4:latest",
+  "provider": "ollama"
+}

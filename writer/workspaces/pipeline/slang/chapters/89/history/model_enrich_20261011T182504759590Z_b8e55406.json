@@ -1,0 +1,40 @@
+{
+  "chapter_index": 89,
+  "name": "89",
+  "word_target": 500,
+  "chapter_title": "কান খাড়া রাখা",
+  "chapter_summary": "In the bustling marketplace, the central conflict revolves around the necessity of vigilance against the insidious spread of rumors, which act as the true signals of change. The chapter paints a vivid tableau of the market, where the cacophony of commerce is punctuated by whispered anxieties and circulating gossip—the very essence of 'proverb is poetry' in action. Characters must maintain an acute, almost painful alertness, their ears perpetually 'erect' (কান খাড়া রাখা) to discern truth from fabrication. This constant state of heightened auditory tension forces a confrontation with the precarious nature of survival in their society. Ultimately, the narrative leaves the reader questioning: amidst the constant din of rumors, how can one distinguish the actionable intelligence from the mere noise of fear?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "বাজারের বণিক",
+      "role": "সতর্ক শ্রবণকারী"
+    },
+    {
+      "id": "c2",
+      "name": "গুজবকার",
+      "role": "গুজব ছড়ানো ব্যক্তি"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "বাজারে গুজবকে সংকেত হিসেবে ধরে নেওয়ার বিষয়টি তৎকালীন সামাজিক বাস্তবতাকে প্রতিফলিত করে।",
+    "human_in_the_loop": "বাজারের অস্থির পরিবেশে টিকে থাকার জন্য মানুষের তীক্ষ্ণ শ্রবণ ক্ষমতার প্রয়োজনীয়তা এখানে মুখ্য।",
+    "influence_of_other_works": "এই অধ্যায়ের পর্যবেক্ষণগুলি লোককথার প্রবাদ-বাক্যের গভীরতা বহন করে।",
+    "cultural_relevance": "বাজারের গতিপ্রকৃতি এবং গুজব নির্ভরতা বাঙালি সংস্কৃতির একটি পরিচিত চিত্র।",
+    "literary_style": "প্রবাদকে কবিতার মতো করে উপস্থাপন করার শৈলী গল্পে একটি কাব্যিক মাত্রা যোগ করেছে।",
+    "narrative_techniques": "সতর্ক শ্রবণকে কেন্দ্র করে গল্প বলার ভঙ্গি পাঠককে ঘটনার গভীরে টেনে নেয়।",
+    "symbolism_and_motifs": "কান খাড়া রাখা প্রতীকীভাবে সতর্ক দৃষ্টি এবং বিচক্ষণতার প্রতীক বহন করে।",
+    "reader_engagement_strategies": "গুজব ও বাজারের উত্তেজনা পাঠককে অধ্যায়ের সাথে সক্রিয়ভাবে যুক্ত করে।",
+    "ethical_considerations": "গুজব ছড়ানোর সামাজিক নৈতিক ঝুঁকি এই অধ্যায়ে পরোক্ষভাবে আলোচিত হয়েছে।",
+    "potential_controversies": "বাজারের অনিয়ম এবং গুজব নির্ভরতা নিয়ে কিছু সামাজিক বিতর্ক উত্থাপিত হতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি নির্দিষ্ট কোনো গোষ্ঠীর ওপর আলোকপাত না করলেও অর্থনৈতিক জীবনের সার্বজনীন চিত্র তুলে ধরে।",
+    "marketing_and_promotion": "প্রবাদ-কবিতার এই মিশ্রণটি সাহিত্যপ্রেমী পাঠকদের আকর্ষণ করবে।",
+    "significance_of_rise_of_bengal": "বাজারের এই সতর্ক পরিবেশ বাংলার অর্থনৈতিক জীবনের একটি গুরুত্বপূর্ণ দিক তুলে ধরে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

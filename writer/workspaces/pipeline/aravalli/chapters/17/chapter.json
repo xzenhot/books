@@ -6,7 +6,7 @@
   "chapter_summary": "গোলাপি কোয়ার্টজ ও স্ফটিকের স্বচ্ছ আলো — পাহাড়ের বুকের ভেতরে ঘুমিয়ে থাকা কোমলতা।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -43,6 +43,41 @@
       "The specific interaction between the crystal's lattice structure and ancient human religious iconography (how a rose quartz shape might mimic a forgotten sigil).",
       "A detailed comparison between the geological timescale of this stone versus the lifespan of Sagorika in her most intensely emotional moments."
     ],
-    "variety_note": "Unlike the heavy, dense focus of earlier chapters on metal and pressure, this piece must operate at an almost weightless level, exploring light's internal mechanics before any meaning is applied."
+    "variety_note": "Unlike the heavy, dense focus of earlier chapters on metal and pressure, this piece must operate at an almost weightless level, exploring light's internal mechanics before any meaning is applied.",
+    "poetic_parameters": {
+      "emotional_rawness": 7,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "rose quartz sleeping in a seam of pale feldspar",
+      "volta": "softness shown as a point of weakness, not rest",
+      "sonic_texture": "a bright crystalline ping then a dry metallic tang",
+      "line_gesture": "luminous lines gathering into one bead",
+      "variety_note": "a weightless, wine-soaked glow after the tomb"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "hafez",
+    "style": "pijush"
   }
 }

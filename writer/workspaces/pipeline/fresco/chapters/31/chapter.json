@@ -1,0 +1,55 @@
+{
+  "chapter_index": 31,
+  "name": "31",
+  "word_target": 200,
+  "chapter_title": "Arrival in Mandawa",
+  "chapter_summary": "Debolina arrives in the desert town, and the poem opens the gate onto the painted mansions.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the specific geography of arrival—the transition from outside dust to contained desert air within Mandawa's walls.",
+      "Framing the 'arrival' not as a hopeful beginning, but as an immediate confrontation with pervasive abandonment; treating the havelis already settled into their decay.",
+      "Using the entrance itself (a door or archway) as a symbolic aperture between Debolina's abstract interior self and the historical weight of the town."
+    ],
+    "story_options": [
+      "Setting: The shadow cast by a massive, unpainted haveli courtyard; Desire: To reconcile her mobile sensory world with the immovable, fixed geometry of the old stone structures; Obstacle: The silence is too dense, it suffocates the initial intake of new sensation.",
+      "Setting: Standing at an ornate but cracked doorway upon entry; Desire: To trace a finger over dried remnants of past pigment—a ghost-signature left by another craftsman; Obstacle: The touch reveals only flaking dust, nothing substantial to hold onto.",
+      "Setting: Inside the echoing main hall where light struggles to penetrate from high openings; Desire: To find one single, surviving object (perhaps a specific, faded miniature painting fragment) that encapsulates the whole history of mercantile life; Obstacle: Everything is uniformly muted by time."
+    ],
+    "subject_rotations": [
+      "Treating Mandawa itself as a living archive—the weight of its accumulated visual memories pressing down on her arrival.",
+      "Shifting focus from Debolina's internal state to the *architecture* as the primary subject; how the havelis dictate the rhythm and shape of her emerging artistic impulse.",
+      "Examining the specific dialect or cadence spoken by the townspeople she passes—language as a textural, sensory intrusion into her visual landscape."
+    ],
+    "sensory_details": [
+      "The grit of fine desert sand adhering to her boots after crossing the boundary of the main fortified area.",
+      "The faint, mineral scent rising from centuries-old lime mortar baked under the high sun.",
+      "The sound of footsteps echoing unevenly on flagstones beneath heavy jambs."
+    ],
+    "research_questions": [
+      "What are common architectural details in Shekhawati havelis that specifically signify a shift between private/domestic space and public facade?",
+      "How is the specific dust composition—clay, sand, limestone—of Mandawa's environment typically described or utilized by local artists?",
+      "Are there known regional variations in how 'waiting time' (in terms of historical stasis) is perceived linguistically?"
+    ],
+    "structural_variants": [
+      "A poem structured as a physical navigation: each stanza mapping a different threshold crossed within the town.",
+      "An opening that begins entirely with external sensory observation, only revealing Debolina’s interiority in the final lines of the first section.",
+      "A circular structure where the initial sense of enclosure expands outward into the town's periphery."
+    ],
+    "unused_angles": [
+      "Exploring a specific interaction with an older resident whose life has been entirely bound to the cycles of the haveli's decay, providing local counter-narrative.",
+      "A meditation on light refraction through aged, tinted glass panels in a recessed courtyard."
+    ],
+    "variety_note": "This chapter shifts emphasis from internal emotional landscape (as seen in prior entries) by rooting Debolina’s experience almost entirely within the overwhelming materiality and fixed chronology of Mandawa's physical structures."
+  },
+  "draft": {
+    "sha256": "344c9c3f783932451b1f84cffd1de593122c836ea952591bfc9ffddb58b8f9d9",
+    "written_at": "2026-10-11T18:35:36.391466+00:00",
+    "origin": "write"
+  }
+}

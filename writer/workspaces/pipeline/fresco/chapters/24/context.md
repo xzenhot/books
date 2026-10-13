@@ -1,0 +1,95 @@
+# Chapter model context
+
+## chapter_index
+
+24
+
+## name
+
+24
+
+## word_target
+
+280
+
+## chapter_title
+
+The Failure Beneath
+
+## chapter_summary
+
+A section cracks and must be scraped away, and the poem lifts the edge of the hidden failure.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+written
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the imperfection not as a flaw in *skill*, but as an inevitable record of temporal pressure—the wall resisting time itself.
+- The scraping action is framed as archeological excavation, revealing not error, but prior layers of unseen intention or forgotten narratives beneath the visible surface.
+- Focusing on the sound of removal: the abrasive sigh of stone yielding to a sharp tool, contrasting this with the silent placement of new pigment.
+
+### story_options
+
+- setting: A section of fresco near an old archway in Mandawa, desire: To understand why this specific area is stressed or compromised., obstacle: The material failure seems entirely random, devoid of aesthetic reason., turn: Debolina begins to suspect that the flaw mirrors a personal, unresolved hesitation from her own past.
+- setting: A patch under intense lamplight on the scaffold, desire: To bring an 'invisible wound' into sharp focus through magnification., obstacle: The cracks are fractal and intricate, suggesting a pattern beyond simple structural decay., turn: She realizes the cracking resembles maps or cartographies of unseen journeys.
+- setting: Where two distinct layers of color meet (old/new), desire: To fuse the act of destruction with the act of creation in one immediate gesture., obstacle: The scraping removes necessary substrate, risking instability of the surrounding work., turn: She stops cleaning and instead uses the removed slivers as temporary palette ingredients.
+
+### subject_rotations
+
+- Treating the 'failure' not as a material error, but as a deliberate visual metaphor for societal expectation—a part of her life that must be visually redacted.
+- Focusing on the chemical dialogue: how water reacts with plaster to *cause* failure, mirroring Debolina’s own necessary compromises (or sacrifices) in process.
+- Viewing the scraping through the lens of memory decay; each chip reveals a ghost-image—a fleeting impression before complete erasure.
+
+### sensory_details
+
+- The fine, chalky grit of removed lime dust falling onto an already painted surface like ash.
+- A sharp, high-frequency *tink* as the scraping edge catches a hard inclusion within the plaster matrix.
+- The cool, momentary scent of damp earth released when a compromised section of wall is exposed to air.
+
+### research_questions
+
+- Are there specific types of structural stress or micro-fractures known in older Shekhawati fresco techniques that might intentionally mimic narrative fault lines?
+- How does the physical act of scraping—removing substance—thematically interact with an artistic rejection of 'clutter' (as seen in Ch. 8)?
+
+### structural_variants
+
+- A structure dominated by sharp, clipped stanzas mirroring the angularity of a severe fracture.
+- An elegy-like progression where each successful removal leads to an increasingly profound sense of disorientation rather than revelation.
+
+### unused_angles
+
+- The relationship between necessary breakage and perceived strength—is the wall stronger *because* it has broken?
+- The potential for the failure point itself to become the focal, most highly detailed area, forcing the viewer's eye there against convention.
+
+### variety_note
+
+This chapter pivots away from sensory absorption (musk, lime) toward active material disruption, focusing on deliberate destruction as a prerequisite for revealing truth. It directly contrasts previous chapters by making absence—the scrape mark—its primary subject.
+
+## draft
+
+### sha256
+
+12868f69d2a9a96a129f913dce673bd76b515aa5f32b274f0e17439742d38089
+
+### written_at
+
+2026-10-11T17:57:14.433029+00:00
+
+### origin
+
+write

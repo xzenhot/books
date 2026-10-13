@@ -1,0 +1,40 @@
+{
+  "chapter_index": 8,
+  "name": "8",
+  "word_target": 500,
+  "chapter_title": "গোবর গণেশ",
+  "chapter_summary": "The chapter delves into the profound irony embodied by the proverb, 'proverb is poetry,' through the character of a man likened to a Gobar Ganesh—a figure molded from dung, yet revered with unwarranted reverence. This central conflict explores the societal absurdity of venerating the utterly worthless, where superficial adoration masks inherent emptiness. The imagery of the dung-formed idol, contrasted against the genuine wisdom sought by others, serves as a stark visual metaphor for misplaced cultural value. As the narrative unfolds, the reader is left questioning whether true worth can ever be recognized when the collective consciousness is so easily swayed by hollow spectacle and inherited dogma.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "মূর্খ ব্যক্তি",
+      "role": "মূল্যহীন মানুষ"
+    },
+    {
+      "id": "c2",
+      "name": "গণেশ মূর্তি",
+      "role": "গোবরের তৈরি প্রতীক"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "ঐতিহাসিক প্রেক্ষাপটে, মূর্খদের পূজা পাওয়ার সামাজিক চিত্রটি এই অধ্যায়ে প্রতিফলিত হয়েছে।",
+    "human_in_the_loop": "যে মানুষটি মূল্যহীন হওয়া সত্ত্বেও পূজা পায়, তার মানবিক দুর্বলতা এখানে মুখ্য।",
+    "influence_of_other_works": "প্রবাদ-স্বরূপ এই অধ্যায়টি লোককথার গভীরতাকে সাহিত্যের আঙ্গিকে তুলে ধরে।",
+    "cultural_relevance": "পূজা ও মূল্যহীনতার এই দ্বৈততা বাঙালি সংস্কৃতির একটি সূক্ষ্ম সামাজিক ভাষ্য বহন করে।",
+    "literary_style": "প্রবাদকে কবিতায় রূপ দেওয়ার প্রচেষ্টা এই অধ্যায়ের শৈল্পিক বৈশিষ্ট্য।",
+    "narrative_techniques": "একটি শক্তিশালী উপমা ব্যবহার করে সমাজের ভণ্ডামি তুলে ধরা হয়েছে।",
+    "symbolism_and_motifs": "গোবরের গণেশ প্রতীকীভাবে সেই মূল্যহীন সত্তাকে নির্দেশ করে যা সম্মান লাভ করে।",
+    "reader_engagement_strategies": "পাঠককে প্রবাদটির অন্তর্নিহিত অর্থ নিয়ে গভীরভাবে ভাবতে উৎসাহিত করা হচ্ছে।",
+    "ethical_considerations": "অযোগ্যদের প্রতি সমাজের অন্ধ আনুগত্যের নৈতিক প্রশ্নটি উত্থাপিত হয়েছে।",
+    "potential_controversies": "সমাজের প্রচলিত মূল্যবোধের সমালোচনা হওয়ায় বিতর্ক সৃষ্টি হতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি সামাজিক শ্রেণির ভিত্তিতে মানুষের গ্রহণযোগ্যতার বৈষম্য তুলে ধরে।",
+    "marketing_and_promotion": "‘প্রবাদই কবিতা’ এই ধারণাটি প্রচারের জন্য একটি শক্তিশালী ট্যাগলাইন হতে পারে।",
+    "significance_of_rise_of_bengal": "এই সামাজিক পর্যবেক্ষণ বাংলার তৎকালীন সামাজিক কাঠামো ও নৈতিকতার প্রতিফলন ঘটায়।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

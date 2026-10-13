@@ -6,7 +6,7 @@
   "chapter_summary": "আগ্রার শ্বেত সমাধি আসলে আরাবল্লিরই কন্যা — পাহাড়ের মার্বেল প্রেমিকের জন্য সমাধিতে পরিণত হয়।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -46,6 +46,41 @@
       "The role of the external landscape (the plains surrounding Agra) as a chaotic counterpoint to the tomb's imposed stillness.",
       "Exploring the dialectic between 'pure mineral form' and 'imperfect human yearning.'"
     ],
-    "variety_note": "This chapter shifts the focus from raw, violent geological processes (like metal extraction) to one of deliberate aesthetic containment—the transformation of violence into serene, frozen memorial."
+    "variety_note": "This chapter shifts the focus from raw, violent geological processes (like metal extraction) to one of deliberate aesthetic containment—the transformation of violence into serene, frozen memorial.",
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "the white tomb as the mountain's own daughter",
+      "volta": "grief turned from closure into frozen longing",
+      "sonic_texture": "an oracular, address-driven cadence",
+      "line_gesture": "a circular return to the opening image",
+      "variety_note": "a benediction over the marble moon"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "gibran",
+    "style": "pijush"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "chapter_index": 30,
+  "name": "30",
+  "word_target": 500,
+  "chapter_title": "বান্ডেল",
+  "chapter_summary": "The chapter centers on the pervasive presence of the 'Nokol Manush'—a charlatan whose grand pronouncements lack any substantive foundation, embodying the era's moral decay. The central conflict is the clash between this hollow, self-aggrandizing facade and the quiet, enduring truths whispered by the common people, often reflected in the weight of old proverbs. Imagery of brittle, manufactured grandeur contrasts sharply with the stark reality of unfulfilled promises. As the protagonist navigates these elaborate deceptions, the narrative leaves the reader questioning: in a society saturated with eloquent falsehoods, where does genuine, unvarnished integrity find a place to take root?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "নকল মানুষ",
+      "role": "মিথ্যাবাদী"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "নকল মানুষের মিথ্যাবাদী দাবির পিছনে কোনো বাস্তব ভিত্তি ছিল না।",
+    "human_in_the_loop": "এই অধ্যায়ে কোনো নির্দিষ্ট চরিত্রের ব্যক্তিগত সিদ্ধান্তের প্রভাব দৃশ্যমান নয়।",
+    "influence_of_other_works": "প্রবাদ-বাণীর গভীরতা এই অধ্যায়ের মূল সুরকে প্রভাবিত করেছে।",
+    "cultural_relevance": "সমাজের ভেতরের কপটতা ও মিথ্যাচার এই অধ্যায়ের মাধ্যমে উঠে এসেছে।",
+    "literary_style": "গদ্যে প্রবাদ-বাণীর মতো তীক্ষ্ণতা ও গভীরতা বজায় রাখার প্রচেষ্টা রয়েছে।",
+    "narrative_techniques": "চরিত্রের অন্তঃসারশূন্যতাকে ফুটিয়ে তুলতে সরাসরি বর্ণনা ব্যবহার করা হয়েছে।",
+    "symbolism_and_motifs": "নকল মানুষ নিজেই অন্তঃসারশূন্যতার প্রতীক হিসেবে কাজ করছে।",
+    "reader_engagement_strategies": "পাঠককে নৈতিকতার প্রশ্ন সামনে রেখে চিন্তা করার সুযোগ দেওয়া হয়েছে।",
+    "ethical_considerations": "মিথ্যাচার এবং প্রতারণার নৈতিক পরিণতি এই অধ্যায়ের কেন্দ্রে রয়েছে।",
+    "potential_controversies": "সমাজের কোনো নির্দিষ্ট শ্রেণির কপটতার চিত্রায়ণ বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি মূলত নৈতিক চরিত্রের বিশ্লেষণ কেন্দ্রিক হওয়ায় বৈচিত্র্যের দিকটি গৌণ।",
+    "marketing_and_promotion": "প্রবাদ-বাণীভিত্তিক এই অধ্যায়টি গভীর চিন্তামূলক পাঠকদের আকর্ষণ করবে।",
+    "significance_of_rise_of_bengal": "রাজনৈতিক উত্থানের পটভূমিতে সামাজিক নৈতিকতার ক্ষয় এই অধ্যায়ের মাধ্যমে প্রতিফলিত হয়েছে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

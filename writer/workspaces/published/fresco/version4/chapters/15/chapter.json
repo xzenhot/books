@@ -1,0 +1,53 @@
+{
+  "chapter_index": 15,
+  "name": "15",
+  "word_target": 200,
+  "chapter_title": "The Vow of the Minima",
+  "chapter_summary": "She swears herself to the stripped, essential line, and Part I closes on the promise she will keep through the dark.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing the entire 'vow' on a single visual element of reduction—the precise moment she decides which extraneous detail to scrape away from a preliminary sketch.",
+      "Treating the vow not as an internal promise, but as an oath directed towards a silent patron or ancestral figure who sanctioned her life choice.",
+      "Centering the commitment around a physical, irreversible act: perhaps mixing a specific pigment ratio that cannot be undone without ruining the batch."
+    ],
+    "story_options": [
+      "Setting: The dusty floor beneath the scaffold. Desire: To trace the outline of an abandoned domestic object (a discarded shawl or small cup) with her bare toe, symbolizing what she rejects. Obstacle: A sudden, unavoidable scent—perhaps dried spice from a neighbor's cooking—that threatens to draw her back.",
+      "Setting: The edge of a partially painted wall, where the wet lime has not yet reached the primer layer. Desire: To etch a single, perfect line into the raw plaster before it sets, an act of defining existence. Obstacle: A whisper carried on the wind from outside the haveli gate, questioning her isolation.",
+      "Setting: Beside a small collection pot holding ground lapis. Desire: To achieve absolute stillness—a state where all internal tremor ceases—to dedicate oneself wholly to the pigment's potentiality. Obstacle: The frantic rhythm of memory intruding, manifesting as shimmering lines across the pigment dust."
+    ],
+    "subject_rotations": [
+      "The vow framed as an act of resistance against societal expectation, viewed through the lens of economic sacrifice (the cost of foregoing domestic stability).",
+      "Interpreting 'Minima' less as aesthetic minimalism and more as existential poverty—stripping away everything non-essential until only the core need for existence remains.",
+      "The vow articulated not in terms of sight or line, but through tactile sensation: the feeling of the brush handle against her palm becoming synonymous with selfhood."
+    ],
+    "sensory_details": [
+      "The sudden, sharp chill of night air hitting exposed skin on the scaffold steps.",
+      "The granular drag and abrasion of fine lapis dust caught under fingernails after mixing pigment for hours.",
+      "The faint, metallic echo made when a piece of discarded bone or pottery is tapped against the stone floor."
+    ],
+    "research_questions": [
+      "Are there specific Shekhawati terms that denote an absolute, sacred commitment or solitary undertaking outside of typical marital/family obligations?",
+      "What were the customary methods for maintaining solitude and focus in historical craft workshops during periods of extreme darkness?"
+    ],
+    "structural_variants": [
+      "Structuring the poem as a series of recursive refrains (the 'Vow') interrupted by sudden, sharp sensory vignettes that derail the commitment.",
+      "Employing an apostrophe structure where the initial declarations are addressed to a future version of herself who has already failed the vow."
+    ],
+    "unused_angles": [
+      "Exploring the relationship between artistic perfection and inherent human frailty—the tension between flawless line and inevitable tremor.",
+      "A detailed meditation on the concept of 'negative space' as an active participant in her life, rather than just a backdrop for art."
+    ],
+    "variety_note": "Unlike the sensory absorption chapters that preceded it (Musk, Scent), this poem is defined by the singular act of deliberate reduction and internal oath-taking. It solidifies her philosophical stance before she moves into external observation."
+  },
+  "draft": {
+    "sha256": "dffce0a194d1106c3eba217fb5c64bcfa89e2db0ad141b8be50de0e6dc1cb99a",
+    "written_at": "2026-10-11T18:32:46.508318+00:00",
+    "origin": "write"
+  }
+}

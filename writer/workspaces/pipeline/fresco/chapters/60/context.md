@@ -1,0 +1,83 @@
+# Chapter model context
+
+## chapter_index
+
+60
+
+## name
+
+60
+
+## word_target
+
+280
+
+## chapter_title
+
+The Poet Looks Upon Her Life
+
+## chapter_summary
+
+The closing poem turns inward: Debolina looks upon her own life, finds it worth painting, and the sequence ends not in fame but in the truth of the work.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the final act as a conscious negotiation with mortality; framing her life not just as art, but as evidence of endurance against time.
+- Revisiting the 'Musk' theme (Chapter 2) not through sensory absorption, but through memory—how do specific past scents now map onto finished work?
+- Structuring the poem around a sustained interior monologue where Debolina challenges the premise that art must be externalized to hold meaning.
+
+### story_options
+
+- Setting: The very peak of her scaffold, overlooking Mandawa at dawn; Desire: To name one specific shadow in the town below—a shadow that mirrors an unpainted section of her own portrait—and recognize it as a companion; Obstacle: The sheer weight of past unspoken choices.
+- Setting: A small, private patch of wall she has consciously left blank amidst the vibrant scenes; Desire: To treat this negative space as the ultimate confession—the silence that defines her truest form; Obstacle: The urge to fill it with detail in defense against loneliness.
+- Setting: Holding a single, dried brush dipped in residual lapis pigment; Desire: To trace its outline on paper and ask if that perfect curve holds more truth than any rendered human face she has painted; Obstacle: The ingrained habit of always needing to *build* something.
+
+### subject_rotations
+
+- Treating the finished work not as a blossom, but as an ossification—a beautiful petrification of fleeting experience.
+- Focusing on the silence that follows creation; how does the quiet aftermath feel different from the active labor?
+- Viewing her life narrative through the lens of scarcity: what must she permanently sacrifice (not just comfort, but moments of simple joy) to maintain this artistic state?
+
+### sensory_details
+
+- The abrasive sound of dried plaster crumbling under a fingertip's slow pressure.
+- The taste of dry desert wind on the tongue after hours spent inhaling mineral dust.
+- The sudden, absolute chill that creeps into the bones when moving from the sun-warmed scaffolding to the shadowed haveli interior.
+
+### research_questions
+
+- In traditional Shekhawati narrative poetry, how is the concept of 'unrealized potential' typically articulated—is it linked to fate or choice?
+- What specific symbolic meaning did early Marwari decorative arts assign to a deliberate blank space versus a filled one?
+
+### structural_variants
+
+- A cyclical form where the final lines echo the first, but with the crucial difference that the second iteration contains a moment of achieved acceptance (the volta).
+- An extended apostrophe directed outward from the self—not to critics or patrons, but to the foundational materials themselves: the lime, the lapis, the adobe.
+- A structure built around escalating questions that finally resolve into one single, profound, unanswerable query.
+
+### unused_angles
+
+- Exploring how her sensory nomadism is not escapism, but a necessary geological survey of the living landscape (Mandawa/Nawalgarh).
+- The internal debate over whether 'being seen' requires destruction—if she shows her struggle, will society dismantle the beauty alongside it?
+- A comparison between the permanence of painted pigment and the transient nature of human breath.
+
+### variety_note
+
+This chapter pivots from external observation (Part III) to deep internal accounting, utilizing a single decisive volta that interrogates the premise of artistic legacy itself rather than just its cost.

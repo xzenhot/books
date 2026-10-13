@@ -1,0 +1,40 @@
+{
+  "chapter_index": 14,
+  "name": "14",
+  "word_target": 500,
+  "chapter_title": "ভাত মারা",
+  "chapter_summary": "Chapter 14, \"ভাত মারা,\" delves into the stark socio-economic conflict where the struggle for basic sustenance becomes a brutal zero-sum game. The central tension revolves around the 'ভাত মারা'—the literal and metaphorical starvation of the poor, where one person's survival is inextricably linked to another's deprivation. The narrative paints a grim tableau of scarcity, perhaps symbolized by the meager, shared portions of rice, contrasting the hollow ache of hunger against the weight of societal injustice. As the characters navigate this unforgiving landscape of necessity versus morality, the chapter leaves the reader questioning: Can dignity survive when the most fundamental need—a simple meal—is weaponized by economic disparity?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "গরীব",
+      "role": "জীবিকা হারানো ব্যক্তি"
+    },
+    {
+      "id": "c2",
+      "name": "অপরাধী",
+      "role": "ক্ষুধা সৃষ্টিকারী ব্যক্তি"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "জীবিকা কেড়ে নেওয়ার সেই কঠিন বাস্তবতা তৎকালীন সমাজের চিত্র তুলে ধরে।",
+    "human_in_the_loop": "গরিবের ভাত মারা নামক পরিস্থিতিতে মানুষের চরম সংগ্রাম দৃশ্যমান।",
+    "influence_of_other_works": "এই অধ্যায়ে প্রবাদটির কাব্যিক গভীরতা অন্য সাহিত্যকর্মের প্রতিধ্বনি সৃষ্টি করে।",
+    "cultural_relevance": "খাদ্য ও জীবিকার এই সংগ্রাম বাঙালি সংস্কৃতির একটি মৌলিক দিক তুলে ধরে।",
+    "literary_style": "গল্পের ভাষা প্রবাদটির মতোই গভীর এবং কাব্যিক রূপ ধারণ করেছে।",
+    "narrative_techniques": "লেখক ক্ষুধা ও অপরাধের দ্বৈততাকে দক্ষতার সাথে বর্ণনা করেছেন।",
+    "symbolism_and_motifs": "ভাত মারা এখানে কেবল খাদ্যের অভাব নয়, বরং সামাজিক অবিচারের প্রতীক।",
+    "reader_engagement_strategies": "পাঠককে সরাসরি ক্ষুধা ও অপরাধের নৈতিক দ্বন্দ্বে নিমজ্জিত করা হয়েছে।",
+    "ethical_considerations": "সম্পদের অসম বন্টন এবং মৌলিক চাহিদা পূরণের নৈতিক প্রশ্ন উত্থাপিত হয়েছে।",
+    "potential_controversies": "জীবিকা কেড়ে নেওয়ার বিষয়টি সামাজিক কাঠামোর বিরুদ্ধে বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি সমাজের দরিদ্র শ্রেণির দুর্দশার উপর আলোকপাত করে।",
+    "marketing_and_promotion": "এই শক্তিশালী সামাজিক বার্তাটি পাঠকের দৃষ্টি আকর্ষণ করতে সক্ষম।",
+    "significance_of_rise_of_bengal": "জীবিকা হারানোর এই ঘটনা বাংলার অর্থনৈতিক দুর্বলতার ইঙ্গিত দেয়।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

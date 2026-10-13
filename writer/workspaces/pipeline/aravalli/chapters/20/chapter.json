@@ -12,7 +12,7 @@
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
   "segments": [
     1
   ],
@@ -49,6 +49,41 @@
     "variety_note": "This chapter shifts from the tectonic violence discussed in previous chapters to an intimate, almost microscopic examination of deposition, focusing on texture rather than raw force. The dualistic nature of ancient immutability versus modern fine entropy will drive its tone.",
     "unused_angles": [
       "The idea that the dust is actually composed of fragments from previously destroyed cultures or lost human settlements buried beneath the rock."
-    ]
+    ],
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 7,
+      "rhythmic_urgency": 2,
+      "digital_simplicity": 6,
+      "movement": {
+        "name": "Stoicism",
+        "one_liner": "Logic, virtue, and mastering inner thoughts."
+      },
+      "writing_skills": [
+        "classical meter mastery",
+        "rhyme architecture",
+        "modern colloquial grounding"
+      ],
+      "image_seed": "quarry dust settling over the old stone like a shroud",
+      "volta": "the dust as a thin modern casket over ancient rock",
+      "sonic_texture": "a brittle, compressed, glass-like silence",
+      "line_gesture": "terse lines, each a held syllable",
+      "variety_note": "a dust-veil after the blast's flame"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "dickinson",
+    "style": "pijush"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "chapter_index": 23,
+  "name": "23",
+  "word_target": 500,
+  "chapter_title": "পট্টি দেওয়া",
+  "chapter_summary": "Chapter 23, \"পট্টি দেওয়া,\" delves into the insidious nature of brainwashing, where the deliberate fabrication of falsehoods is employed to mold and manipulate minds. The narrative centers on the psychological siege, portraying the process as a slow, corrosive erosion of individual truth, much like a subtle stain spreading across a pristine canvas. Key imagery revolves around the manufactured reality—the carefully constructed illusions that serve as the foundation for the manipulation. As the characters navigate this deluge of orchestrated lies, the central conflict becomes clear: the desperate struggle to retain one's authentic self against an overwhelming tide of imposed dogma. The chapter leaves the reader questioning the ultimate resilience of the human spirit when faced with a perfectly crafted, inescapable narrative.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজ্ঞেয়",
+      "role": "ব্রেইনওয়াশকারী"
+    },
+    {
+      "id": "c2",
+      "name": "লক্ষ্যবস্তু",
+      "role": "যাকে বোকা বানানো হচ্ছে"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "ব্রেইনওয়াশ প্রক্রিয়ার সামাজিক প্রেক্ষাপট তৎকালীন সমাজের রাজনৈতিক অস্থিরতার প্রতিচ্ছবি বহন করে।",
+    "human_in_the_loop": "এই অধ্যায়ে দেখানো হয়েছে কীভাবে মন ধোলাইয়ের শিকার ব্যক্তিরা ধীরে ধীরে সত্য থেকে বিচ্যুত হয়।",
+    "influence_of_other_works": "প্রচলিত লোককথা ও প্রবাদগুলির মাধ্যমে মিথ্যাকে সত্য প্রমাণ করার কৌশল এখানে প্রতিফলিত হয়েছে।",
+    "cultural_relevance": "সমাজের প্রচলিত বিশ্বাসকে কাজে লাগিয়ে কীভাবে একটি নির্দিষ্ট মতবাদ চাপিয়ে দেওয়া হয়, তা এই অধ্যায়ে আলোচিত।",
+    "literary_style": "গভীর মনস্তাত্ত্বিক বিশ্লেষণ এবং প্রতীকী ভাষার ব্যবহার এই অধ্যায়ের সাহিত্যিক মানকে উন্নত করে।",
+    "narrative_techniques": "ধীরে ধীরে অবিশ্বাস ও বিভ্রান্তির জন্ম দেওয়া বর্ণনা কৌশলটি পাঠকের মনে গভীর ছাপ ফেলে।",
+    "symbolism_and_motifs": "মিথ্যাকে সত্যে রূপান্তরিত করার প্রক্রিয়াটি একটি শক্তিশালী প্রতীক হিসেবে কাজ করে।",
+    "reader_engagement_strategies": "পাঠককে প্রশ্ন করতে বাধ্য করে যে, কোন সত্যটি আসলে সামাজিক চাপ দ্বারা নির্মিত।",
+    "ethical_considerations": "মানসিক কারসাজি এবং ইচ্ছাকৃতভাবে কাউকে ভুল পথে চালিত করার নৈতিক প্রশ্নটি সামনে আসে।",
+    "potential_controversies": "রাজনৈতিক প্রচারণার নামে সংঘটিত মানসিক হেরফের নিয়ে বিতর্ক সৃষ্টি হতে পারে।",
+    "diversity_and_inclusion": "ক্ষমতার অপব্যবহারের শিকার হওয়া ব্যক্তিরা সমাজের বিভিন্ন স্তরের প্রতিনিধিত্ব করে।",
+    "marketing_and_promotion": "এই অধ্যায়ের গভীর দার্শনিক আলোচনা এটিকে বুদ্ধিবৃত্তিক পাঠকগোষ্ঠীর কাছে আকর্ষণীয় করে তুলবে।",
+    "significance_of_rise_of_bengal": "ক্ষমতার কাঠামো কীভাবে সাধারণ মানুষের চিন্তাধারাকে নিয়ন্ত্রণ করতে শুরু করে, তার একটি সূক্ষ্ম চিত্র এখানে ফুটে ওঠে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

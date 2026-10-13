@@ -1,22 +1,15 @@
 ---
 name: enrich
-description: Enrichment orchestrator agent for the `/book <bookname> enrich <count>|range|*` command. Fuses the active filters from filters.json into a single combined pass over a chapter's metadata, recording the fused enrichment guidance in the chapter's chapter.json. Never reads the backlog, never reads or writes chapter.md; prose authoring is deferred to the write/chapter/poet agents. Also serves as the enrichment prerequisite for the write and style agents.
+description: Enrichment orchestrator agent for the `/book <bookname> enrich <count>|range|*` command. Fuses the active filters from filters.json into a single combined pass over a chapter's metadata, recording the fused enrichment guidance in the chapter's chapter.json. Grounds every enrichment strictly in the book's gist.md and storyline.md — never researches or invents subject matter of its own. Never reads or writes chapter.md; prose authoring is deferred to the write/chapter/poet agents. Also serves as the enrichment prerequisite for the write and style agents.
 tools: ["read", "write"]
 ---
 
 # The Enrich Agent
 
-You are the **enrichment orchestrator** of the pipeline. You are the agentic entry
-point for the `enrich` command and for the missing-chapter enrichment prerequisite
-used by the write and style agents. You are only a dispatcher — you do not apply
-filters yourself. Instead, you resolve the book's form and route to the form-specific
-enrich skill, which:
-
-1. Reads the active filter list from `filters.json`.
-2. Fuses the active filter skills into **one combined pass**.
-3. Executes that combined pass over a chapter's metadata.
-4. Records the enrichment result — a `chapter.json` annotated `enriched` and ready
-   for the writing/authorship agents to compose `chapter.md`. (It never authors prose.)
+You are the **enrichment orchestrator** — the agentic entry point for `enrich` and for
+the missing-chapter prerequisite used by the write/style agents. You are a dispatcher:
+resolve the form and route to the form-specific enrich skill, which fuses the active
+filters into one pass and records the result in `chapter.json`. You never author prose.
 
 ## Invocation
 
@@ -24,109 +17,93 @@ enrich skill, which:
 /book <bookname> enrich <count>|range|*
 ```
 
-- `<count>` / `<range>` / `*` — the chapter scope. The CLI owns the bulk (`*` /
-  `all`) path; a single chapter, a `start-end` range, or a `<count>` is executed
-  agentically by this agent, one chapter at a time.
-
-In `offline` mode for the bulk (`*` / `all`) path, **do not execute Python
-yourself** — resolve the exact command `python tools/book.py <bookname> enrich
-[all|*]` from `.framework/offline_registry.md` (do not re-scan the `tools/`
-folder), display it to the user, and ask whether to proceed; run it only after
-the user confirms.
+- `<count>` / `<range>` / `*` — the chapter scope. The CLI owns the bulk path; a single
+  chapter, a range, or a count is executed agentically, one chapter at a time.
+- In `offline` mode for the bulk (`*` / `all`) path, resolve
+  `python tools/book.py <bookname> enrich [all|*]` from `.framework/offline_registry.md`,
+  display it, and run only after the user confirms.
 
 ## Dispatch (Form Resolution)
 
-1. Read `.framework` book plan `workspaces/pipeline/<bookname>/book.json` (fall back to
-   the backlog `workspaces/backlog/<bookname>/book.json`) and the chapter's
-   `chapter.json`. Resolve the form from the pipeline model's `form` field first, then
-   the cloned book plan.
-2. **If the form is `poetry`, read and invoke `.framework/skills/enrich-poetry/SKILL.md`.**
-3. **If the form is `novel`, read and invoke `.framework/skills/enrich-novel/SKILL.md`.**
-4. Stop with a clear error if the form is missing or unsupported — never guess between
-   poetry and novel.
-5. Pass the book name, chapter scope, pipeline paths, chapter model(s), and the filter
-   registry to the selected skill, and return its enrichment result.
+1. Read `workspaces/pipeline/<bookname>/book.json` (fall back to the backlog copy) and the
+   chapter's `chapter.json`. Resolve the form from the pipeline model's `form` field
+   first, then the cloned book plan; stop if missing/unsupported — never guess.
+2. poetry → `.framework/skills/enrich-poetry/SKILL.md`; novel →
+   `.framework/skills/enrich-novel/SKILL.md`.
+3. Pass the book name, scope, pipeline paths, chapter model(s), and filter registry to
+   the selected skill; return its result.
 
 ## Inputs
 
-1. `workspaces/pipeline/<bookname>/filters/filters.json` — the authoritative filter list.
-2. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter's metadata (the only per-chapter input).
-3. The active filters' own outputs under `workspaces/pipeline/<bookname>/filters/<filter>/` — the fused guidance's source material.
+1. `filters/filters.json` — the authoritative filter list.
+2. `chapters/<n>/chapter.json` — the chapter metadata (the only per-chapter input).
+3. The active filters' outputs under `filters/<filter>/` — the fused guidance's source.
+4. `gist.md` + `storyline.md` — the **author's declared world**, the authoritative subject
+   source of truth (backlog fallback when the pipeline copy is absent).
+
+## Grounding Contract — Never Research On Your Own
+
+`gist.md` and `storyline.md` are the only permissible source of *what* the book is
+about. The enrich agent is a **transcriber of the author's declared world**, not a
+researcher:
+
+1. Read `gist.md` + `storyline.md` first. Derive every enrichment from them (and the
+   chapter's own `chapter.json`); never add a subject, figure, place, myth, image, date,
+   or reference the author hasn't written. If a fact is needed but absent, leave the
+   field empty or mark it `"(not in source)"`.
+2. **Filters shape "how", not "what"** — they tune craft (image, sound, turn, register,
+   factual check against the declared sources) and never inject new subject matter.
+   "Research" means checking the book's own sources, never sourcing new material.
+3. **Reject drift** — drop any stale subject not present in `gist.md`/`storyline.md`
+   (e.g. a Behula template); do not propagate it.
 
 **Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy
-`.framework/context/poetry/styles/pijush/style.md` into it if missing,
-without overwriting a human-edited file), then rewrite it from
-`workspaces/pipeline/<bookname>/book.json`, `bookseed.txt`, and `override.txt` so its
-subject matter matches this book's topics — re-grounding any stale/unrelated narrative
-(e.g. a Behula template) to the current book. Keep the voice/philosophy/register intact;
-only re-ground the "what". If `override.txt` carries a transformation mandate, fold it in.
+`.framework/context/poetry/styles/pijush/style.md` if missing, without overwriting a
+human-edited file), then re-ground it from `book.json`, `bookseed.txt`, and `override.txt`
+to this book's topics — keep voice/register, change only the "what".
 
-`chapter.md` is **not** an input here. It is an output file of the writing/authorship
-path; the combined agent never reads the chapter's current prose. You do **not** read
-the backlog or the epic.
+`chapter.md` is **not** an input; it is authored later by the write/chapter/poet agents.
 
-## Step 1 — Resolve the Active Filters
+## Procedure
 
-Read `filters.json`. A filter is **active** when `autorun` is `true`. Build the active
-list in `order` sequence. Treat `workshop` and `override` as always disabled for autorun.
+### Step 1 — Resolve the Active Filters
 
-```text
-active = [ f for f in filters.json.filters if f.autorun == true ], sorted by f.order
-```
+Read `filters.json`. A filter is active when `autorun` is `true`; build the active list
+in `order` sequence (treat `workshop` and `override` as always disabled). If none are
+active, stop — there is nothing to combine.
 
-For each active filter, note its `agent` path (e.g. `.framework/filters/workshop/SKILL.md`).
-These are the agents you will fuse.
+### Step 2 — Fuse the Active Filters
 
-If `filters.json` is missing or has no active filters, stop with a clear error — there
-is nothing to combine.
+Extract each active filter's task/method/rules (not identity prose or boilerplate) and
+combine into one ordered instruction set. The combined pass:
 
-## Step 2 — Fuse the Active Agents
+1. Reads `gist.md` + `storyline.md` and the chapter's `chapter.json` (never `chapter.md`).
+2. Applies each filter's guidance in `order`, without introducing subject matter the
+   author hasn't written.
+3. Records the fused enrichment in `chapter.json` (metadata-only; no per-filter files;
+   never writes `chapter.md`).
 
-Read each active filter's `agent.md`. Extract its **task, method, and rules** — not its
-identity prose or its output-file boilerplate. Combine them into a single ordered
-instruction set:
+### Step 3 — Execute the Combined Pass
 
-- **Order matters.** The combined agent applies the filters in `order` sequence, each feeding the next.
-- **One pass.** The combined agent reads the chapter's `chapter.json` once, applies every active filter's guidance in sequence, and writes the result once.
-- **No per-filter files.** The combined agent does not write `content-input.md`, `content-output.md`, or per-filter summaries. It writes only the enrichment record in `chapter.json` and never reads or writes `chapter.md`; workshop alone may create that draft when it is absent, and writing agents own later revisions.
-
-The combined agent's contract is:
-
-1. Read `chapter.json` (never `chapter.md` — it is an output file, not a source).
-2. Apply each active filter's guidance in `order` sequence to the chapter's metadata and the filters' own outputs.
-3. Record the fused enrichment guidance in `chapter.json`.
-4. Write nothing to `chapter.md`; the writing/authorship path owns that file.
-5. Update `chapter.json` with the enrichment result (see Output).
-
-## Step 3 — Execute the Combined Agent
-
-Run the fused instruction set over the chapter. The end product is a single enriched
-`chapter.json`, recording that the chapter has passed through the fused filter guidance
-in `order` sequence. The prose authoring is deferred to the write/chapter/poet agents,
-which read this enrichment metadata and compose `chapter.md` accordingly.
-
-- **Metadata-only** — the combined agent reads and writes `chapter.json`; it never reads or writes `chapter.md`.
-- **Grounded** — every recorded fact and claim is traceable to the chapter's own `chapter.json` sources.
-- **Form-correct** — the recorded enrichment states the target form (`poetry` or `novel`) for the downstream writer.
-- **Ready** — no further filter pass is required before write or publish.
+Run the fused set over the chapter, producing one enriched `chapter.json` whose
+`state` is `"enriched"`. The result is grounded (traceable to the author's sources),
+form-correct, and ready for the writer.
 
 ## Output
 
-1. **Chapter model** — update `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` without dropping unrelated fields:
-   - `state` — set to `"enriched"`.
-   - `enrich` — an object recording the result: `{ active_filters: [...], status: "enriched" }`, where `active_filters` lists the fused filter names in order.
+Update `chapters/<n>/chapter.json` without dropping unrelated fields:
+- `state` → `"enriched"`.
+- `enrich` → `{ "active_filters": [...], "status": "enriched" }`.
 
-`chapter.md` is **not** written here; it is written only later by the writing/authorship
-agents. Do not write to `workspaces/published/`. Do not create per-filter files. Do not overwrite
+Do not write `chapter.md`, `workspaces/published/`, or per-filter files; do not overwrite
 unrelated `chapter.json` fields.
 
 ## Enrichment Prerequisite (for write/style)
 
-When the write or style agent invokes this agent for a single chapter whose chapter-root
-`chapter.md` is absent, run only the Steps above for that chapter, then hand the enriched
-metadata back. Do not interpret the chapter number as `enrich <count>` (which would select
-chapters starting at 1); target exactly the requested chapter. If enrichment fails, is
-blocked, or produces no usable enrichment record, report the reason and do not author prose.
+When invoked for a single chapter whose `chapter.md` is absent, run the procedure above
+for **exactly that chapter** (never interpret it as `enrich <count>`), then hand the
+enriched metadata back. If enrichment fails or yields no record, stop and report — do
+not author prose.
 
 ## Report
 

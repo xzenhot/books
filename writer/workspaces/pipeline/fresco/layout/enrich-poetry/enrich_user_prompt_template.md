@@ -1,6 +1,9 @@
 === BOOK CONTEXT (pipeline model.json) ===
 {book_context}
 
+=== AUTHOR'S DECLARED WORLD (gist.md + storyline.md — the ONLY source of subject matter) ===
+{sources}
+
 === BOOK ARC (every chapter title, in order) ===
 {arc}
 

@@ -1,0 +1,45 @@
+{
+  "chapter_index": 37,
+  "name": "37",
+  "word_target": 500,
+  "chapter_title": "পোক্ত",
+  "chapter_summary": "The chapter explores the philosophy that true strength, or 'pokto' (solid/seasoned), is forged not just through inherent skill, but through the crucible of adversity, exemplified by the proverb, 'proverb is poetry.' Central to this theme is the notion that experience, even the bitter experience of betrayal or theft, hardens the spirit, proving that acquired resilience is often more valuable than innate talent alone. The narrative paints vivid imagery of hardened hands and weathered faces, symbolizing the weight of accumulated trials. As the characters navigate this harsh reality, the central conflict remains unresolved: can wisdom gained through suffering truly replace the effortless grace of pure, untainted mastery?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরিত্র ১",
+      "role": "অভিজ্ঞ ব্যক্তি"
+    },
+    {
+      "id": "c2",
+      "name": "চরিত্র ২",
+      "role": "চোর"
+    },
+    {
+      "id": "c3",
+      "name": "চরিত্র ৩",
+      "role": "দক্ষতার প্রতীক"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "চুরি করায় পোক্ত হওয়ার বিষয়টি তৎকালীন সমাজের বাস্তব চিত্র তুলে ধরে।",
+    "human_in_the_loop": "এই অধ্যায়ে অভিজ্ঞতার মাধ্যমে টিকে থাকার মানবীয় সংগ্রাম ফুটে উঠেছে।",
+    "influence_of_other_works": "প্রবাদ-বাক্যগুলোর মাধ্যমে প্রজ্ঞার গভীরতা অন্য সাহিত্যকর্মের প্রতিধ্বনি দেয়।",
+    "cultural_relevance": "দক্ষতাকে পুঁজি করে জীবন গড়ার এই দর্শন বাঙালি সংস্কৃতির অংশ।",
+    "literary_style": "গদ্যের মধ্যে প্রবাদ-কবিতার মতো একটি কাব্যিক সুর বিদ্যমান।",
+    "narrative_techniques": "অভিজ্ঞতার মাধ্যমে চরিত্রগুলির মানসিক দৃঢ়তা ধীরে ধীরে উন্মোচিত হয়।",
+    "symbolism_and_motifs": "‘পোক্ত’ শব্দটি অভিজ্ঞতার প্রতীক হিসেবে বারবার ব্যবহৃত হয়েছে।",
+    "reader_engagement_strategies": "পাঠককে প্রবাদ-বাক্যের মাধ্যমে জীবনের কঠিন সত্যের মুখোমুখি দাঁড় করানো হয়।",
+    "ethical_considerations": "চুরিকে পুঁজি করে দক্ষতা অর্জন করা নৈতিকতার প্রশ্ন উত্থাপন করে।",
+    "potential_controversies": "নৈতিকভাবে প্রশ্নবিদ্ধ এই জীবনধারণ পদ্ধতি বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এখানে সামাজিক অবস্থানের ঊর্ধ্বে দক্ষতাকেই মূল চালিকাশক্তি হিসেবে দেখানো হয়েছে।",
+    "marketing_and_promotion": "‘প্রবাদই কবিতা’ এই ধারণাটি প্রচারের একটি শক্তিশালী ট্যাগলাইন হতে পারে।",
+    "significance_of_rise_of_bengal": "এই অধ্যায়টি দেখায় যে প্রতিকূল পরিস্থিতিতেও বাঙালি কীভাবে নিজস্ব দক্ষতা দিয়ে নিজেদের প্রতিষ্ঠা করত।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}
