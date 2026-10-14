@@ -1,0 +1,101 @@
+{
+  "published_at": "2026-10-10T16:03:37.149521+00:00",
+  "chapters": [
+    {
+      "name": "Introduction",
+      "sha256": "79ca489c279a4589e8f8424508facf1818c18c82a552d66d87209638f1e39614"
+    },
+    {
+      "name": "1",
+      "sha256": "72f6bbcef35c5212029c768251c08d5d1de16e6d0a8ae1f936251e9e72980269"
+    },
+    {
+      "name": "2",
+      "sha256": "d1fd86b4b1021e731b49f15a2ed55197e595e66af3b2eeb4d5412d50337cb524"
+    },
+    {
+      "name": "3",
+      "sha256": "bf290553612834677953257b79690bd4373f8ffd54f3b353fada014f27d03179"
+    },
+    {
+      "name": "4",
+      "sha256": "fb3e3414d5acb9b86f33dedaac53e73e381e97d0183b41894eaf4a2464346af0"
+    },
+    {
+      "name": "5",
+      "sha256": "3b65acd4663ff200fd4c962211909a71bdab9ae858471e3b3c2496b4dee2d903"
+    },
+    {
+      "name": "6",
+      "sha256": "8b0b36940a190c48ddd9d1ed873534107e4a18ad5bd8ad52b01fb8988b3759d0"
+    },
+    {
+      "name": "7",
+      "sha256": "b12ee59558a93570eab0ee9345ec7e614cf3416b25bb59bfecee844ead3c98ea"
+    },
+    {
+      "name": "8",
+      "sha256": "4c3535b91fcb3e12c5a7c4d14c3aad59ebe90f710c888416531957e1b283546e"
+    },
+    {
+      "name": "9",
+      "sha256": "5a6414e8eb9306c58d6b91335249eb6f2c5731f9b7658e76fd0c4b01f5c749f3"
+    },
+    {
+      "name": "10",
+      "sha256": "834e42eeb5975f7f629afcd1fe5c56ba01486eacdab36e4dd4a1950fa4fc0899"
+    },
+    {
+      "name": "11",
+      "sha256": "3f8103bc062fa83a72ce83bb88a5ca3cb434e3e41d62547ff43c1ca8cb2ac18b"
+    },
+    {
+      "name": "12",
+      "sha256": "44a4212de799c5ce0ca772c46e10cd50df17714932aa178d184f1602eb25c973"
+    },
+    {
+      "name": "13",
+      "sha256": "fb92562c76b1bc256e2a2aa8bb91b6ef4e2848a4dbf8a7cc562e0a5ce3eb77fb"
+    },
+    {
+      "name": "14",
+      "sha256": "d8d301f1b6f9a2b2d008a5a224f147163c6c954f379c957a78950fe54d41d2e3"
+    },
+    {
+      "name": "15",
+      "sha256": "41bc45bfd50a2690b64eb9331b838592df7eb4fd827400c50ad4866c90b80f53"
+    },
+    {
+      "name": "16",
+      "sha256": "13c2d496f4de8f417b1f3c08371034a4042a4a7a7363dfe8ade61d38ac95adec"
+    },
+    {
+      "name": "17",
+      "sha256": "05a5bfc460ca301c719a1d1b830f3c921f65cf85fd80fe8d050cfcf1d580c38e"
+    },
+    {
+      "name": "18",
+      "sha256": "dea3b2ca4b1290bc72c4da8f19075185d5af3b7498af593a36726f91b64d68d7"
+    },
+    {
+      "name": "19",
+      "sha256": "930f638d4ac9520b4fad01409735676f02a79acdb5ff4b92eef3ad73bc727781"
+    },
+    {
+      "name": "20",
+      "sha256": "ed281e47f85804ad1cf1f2b965d43588fc3b2daeefb3825616786c31bfaf7817"
+    },
+    {
+      "name": "21",
+      "sha256": "f3245fb1ca54b69a81d25341132fbda97df88de5ebbd97c35aed575b9537a4c8"
+    },
+    {
+      "name": "22",
+      "sha256": "cf454e5289a3ee475af47437ef8b715981a95aff34eed72a776632139d41e056"
+    },
+    {
+      "name": "Conclusion",
+      "sha256": "ea46297963671746013ad7cdc1b227d80cb80e235f3f24a9d64d00b0d0dbdba1"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "chapter_index": 11,
+  "name": "11",
+  "word_target": 500,
+  "chapter_title": "ঢ্যাপ",
+  "chapter_summary": "Chapter Eleven, titled 'ঢ্যাপ,' plunges into the corrosive nature of outright falsehood, encapsulated by the profound statement: 'A great lie—a word entirely hollow, not a single syllable of it being true, merely a 'Dhyap' [a baseless utterance].' The narrative explores the insidious conflict between the desperate need for self-preservation and the moral weight of deception, using the imagery of a hollow echo to represent the lie's emptiness. As the characters navigate this treacherous terrain of fabricated narratives, the central tension revolves around the point where necessary deceit crosses the line into absolute fabrication. The chapter concludes by leaving the reader to question whether the survival afforded by a monumental lie is ever truly worth the cost of its utter vacuity.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজানা",
+      "role": "কথক"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "এই অধ্যায়ে বর্ণিত মিথ্যাচার তৎকালীন সামাজিক বাস্তবতার এক প্রতিচ্ছবি বহন করে।",
+    "human_in_the_loop": "কথার ফাঁপা ভাবটি মানুষের মৌলিক বিশ্বাসের উপর সরাসরি আঘাত করে।",
+    "influence_of_other_works": "প্রবাদ-বাণীর মতো এই অধ্যায়ের ভাবটি লোকসাহিত্যের গভীরতাকে প্রতিফলিত করে।",
+    "cultural_relevance": "ঢ্যাপের মতো শব্দ ব্যবহার করে সামাজিক সত্যের ভঙ্গুরতা তুলে ধরা হয়েছে।",
+    "literary_style": "সরল অথচ গভীর এই বর্ণনাটি কাব্যিকতার ছোঁয়া বহন করে।",
+    "narrative_techniques": "অত্যন্ত সংক্ষিপ্ত পরিসরে একটি বৃহত্তর সত্যকে তুলে ধরার কৌশল অবলম্বন করা হয়েছে।",
+    "symbolism_and_motifs": "'ঢ্যাপ' শব্দটি এখানে সম্পূর্ণ মিথ্যা বা শূন্যতার প্রতীক হিসেবে কাজ করে।",
+    "reader_engagement_strategies": "পাঠককে প্রশ্ন করতে বাধ্য করে যে কোন কথা সম্পূর্ণ ফাঁকা হতে পারে।",
+    "ethical_considerations": "মিথ্যা বলার প্রবণতার নৈতিক পরিণতি এই অংশে ইঙ্গিত করা হয়েছে।",
+    "potential_controversies": "অত্যন্ত সরল উপস্থাপনার কারণে কিছু সমালোচক এটিকে অতি-সরলবাদী মনে করতে পারেন।",
+    "diversity_and_inclusion": "চরিত্রের অনুপস্থিতি সত্ত্বেও, সামাজিক মিথ্যার সর্বজনীন চিত্র অঙ্কিত হয়েছে।",
+    "marketing_and_promotion": "এই শক্তিশালী প্রবাদ-নির্ভর অংশটি বিজ্ঞাপনের জন্য একটি আকর্ষণীয় ট্যাগলাইন হতে পারে।",
+    "significance_of_rise_of_bengal": "এই মিথ্যাচার তৎকালীন সামাজিক কাঠামোতে প্রচলিত অসত্যের উত্থানকে নির্দেশ করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

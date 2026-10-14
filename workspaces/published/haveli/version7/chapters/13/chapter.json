@@ -1,0 +1,68 @@
+{
+  "chapter_index": 13,
+  "name": "13",
+  "word_target": 110,
+  "chapter_title": "The Fresco of the Mahabharata",
+  "chapter_summary": "The great war is painted across a courtyard wall, armies frozen mid-charge in a battle that will never end. The poem holds the paradox of the painted war — a violence made permanent, and therefore made safe to live beside.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the strategic positioning of the murals: how specific battles are placed to face the main street versus those hidden in quiet recesses, suggesting different audiences (public vs. private contemplation).",
+      "Treating the painted armies as bureaucratic entities rather than warriors—focusing on their standardized uniforms, ranks, and logistical formations depicted in miniature.",
+      "Interrogating the color palette of conflict: whether the reds and browns represent blood spilled or rich ochre earth churned up during siege warfare."
+    ],
+    "story_options": [
+      "Setting: A section showing Yudhisthira's hesitation before battle, desire: He desires to speak a word of counsel that only an observer from outside time can hear, obstacle: The stillness of the paint itself captures and rejects all utterance.",
+      "Setting: Amidst the chaos of Kurukshetra, desire: Gangaram attempts to 'order' the painted armies into lines resembling his own successful trade convoys, obstacle: The fluidity of fate depicted overwhelms his need for rigid accounting.",
+      "Setting: Late at night, only lit by a sputtering oil lamp reflected off the painted brass armor, desire: A forgotten retainer in the haveli reviews the mural as if reading troop movements against an adversary known only to him, obstacle: His physical memory fades while the fresco remains perfectly detailed."
+    ],
+    "subject_rotations": [
+      "Shifting focus from the narrative of Dharma vs. Adharma to the sheer mechanics of depiction: how complex formations are distilled into simplified, repeatable iconographic units across vast surfaces.",
+      "Treating the painted figures not as historical proxies but as exhausted laborers, their battle wounds being metaphors for ceaseless economic labor in the Marwari system.",
+      "A structural focus on negative space—the gaps between the warriors, where silence resides and where Gangaram's personal anxieties are projected onto the void."
+    ],
+    "sensory_details": [
+      "The faint, dusty grit of powdered minerals migrating from the fresco surface when brushed by a passing insect.",
+      "The metallic echo of unseen clash, imagined against the visual stillness of perfectly rendered bronze weapons.",
+      "The dry, alkaline smell rising from the wall pigment under intense desert heat."
+    ],
+    "research_questions": [
+      "What specific motifs in regional Indian battle art (outside mainstream Hindu epic depictions) could have influenced the representation of military organization on merchant architecture?",
+      "How did the pigments used for red and brown resist weathering, and what does that suggest about their sourcing from local geological strata?"
+    ],
+    "structural_variants": [
+      "An epistolary structure where Gangaram addresses different painted figures (Bhishma, Drona, etc.) as if they were creditors or silent partners.",
+      "A poem structured around a rhythmic incantation echoing the battle cries, with each iteration slightly shifting in tonal quality to reflect decay or endurance."
+    ],
+    "variety_note": "Unlike the earlier works focusing on foundational acts or devotional beauty, this chapter concentrates entirely on formalized conflict and its deliberate domestication through art.",
+    "unused_angles": [
+      "The political allegory of whose side 'wins' in the fresco—does Gangaram unconsciously align himself with a losing faction?",
+      "A comparative study between the portrayal of cavalry versus infantry within the mural."
+    ]
+  },
+  "draft": {
+    "sha256": "943902b5b2d640f6be2ac968936b844ac6549e596cba172d0e79584db1579438",
+    "written_at": "2026-10-04T20:11:59.003751+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "943902b5b2d640f6be2ac968936b844ac6549e596cba172d0e79584db1579438",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

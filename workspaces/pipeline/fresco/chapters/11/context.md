@@ -1,0 +1,96 @@
+# Chapter model context
+
+## chapter_index
+
+11
+
+## name
+
+11
+
+## word_target
+
+200
+
+## chapter_title
+
+Form, Texture, Line
+
+## chapter_summary
+
+Everywhere she looks she sees composition, and the poem records the three words she trusts above all others.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+written
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on 'Form' as a defense mechanism: how the rigorous adherence to pattern prevents Debolina from confronting chaotic emotional reality.
+- Treating 'Texture' not just tactilely (lime, grit) but structurally—how layering plaster creates its own internal topography of time and decay.
+- Centering the tension between the absolute precision of 'Line' (minimalism) and the inevitable smudge or bleed caused by human touch.
+
+### story_options
+
+- Setting: The rough, unplastered section of an ancient haveli wall. Desire: To impose a perfect geometric structure (Form) onto its irregular decay. Obstacle: The ingrained imperfections in the original substrate refuse to yield smoothly. Turn: She accepts the imperfection as part of the intended form.
+- Setting: A pile of raw, unevenly ground pigments, dry and heavy. Desire: To create a line so fine it is almost invisible (Line). Obstacle: The texture of the pigment dust itself rebels against perfect uniformity. Turn: The resulting near-invisible line vibrates with the weight of its own refusal to be seen.
+- Setting: While working on a fresco section that has already partially flaked away, revealing older layers underneath. Desire: To use this visible layering as a map of accrued 'Texture.' Obstacle: Each underlying layer is evidence of an artistic failure or abandonment she must now acknowledge. Turn: The new paint adheres not to the current surface, but deliberately connects with the scarred texture beneath it.
+
+### subject_rotations
+
+- Rotating from abstract elements (Form/Texture/Line) to specific physical tools—the weight of a particular trowel or the curve of a specialized brush as extensions of these concepts.
+- Treating Form, Texture, and Line not as artistic choices but as survival mechanisms against the sensory overload described in earlier chapters (e.g., the musk, the bazaar noise).
+- Interrogating the hierarchy: Does 'Line' precede 'Form'? Is pure 'Texture' sufficient without a guiding structure?
+
+### sensory_details
+
+- The cool, mineral slickness of wet lime against hot skin while applying fine tracery.
+- The granular abrasion felt when running a thumb over areas where the plaster has micro-cracked under tension.
+- A specific low-frequency hum emanating from the building structure during the deepest hours of quiet labor.
+
+### research_questions
+
+- Are there technical references within Shekhawati fresco restoration that discuss deliberate layering to achieve complex textural effects rather than just structural reinforcement?
+- How does the Marwari merchant class view geometric order versus organic flow in their commissioned art, if at all?
+
+### structural_variants
+
+- A tripartite structure: define Form (structure), explore Texture (materiality/time), resolve through Line (intention/final statement).
+- An escalating sequence where the definitions of 'Form,' 'Texture,' and 'Line' become progressively smaller, collapsing into a singular point.
+- A dialogue between three distinct fragments—one dealing purely with line, one solely with texture, and one only referencing form.
+
+### unused_angles
+
+- Exploring how the *language* used to describe these abstract elements mirrors or defies the rigid structures of Marwari trade documentation.
+- The psychological weight of imposing order onto ruins—is it an act of reverence or control?
+
+### variety_note
+
+While previous chapters explored sensory absorption (smells, light) and external encounters (strangers), this chapter drills into the internal language of creation itself—the vocabulary used to impose human structure onto raw material.
+
+## draft
+
+### sha256
+
+c92b8261367f85193e617c60e1fd38559941d069947bf68593626a3e59e1b205
+
+### written_at
+
+2026-10-11T18:32:07.536529+00:00
+
+### origin
+
+write

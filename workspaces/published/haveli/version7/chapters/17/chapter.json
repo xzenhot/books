@@ -1,0 +1,69 @@
+{
+  "chapter_index": 17,
+  "name": "17",
+  "word_target": 110,
+  "chapter_title": "The Courtyard",
+  "chapter_summary": "The open square of sky at the house's heart is where life gathers — cooking, washing, quarreling, celebrating. The poem holds the courtyard as the haveli's true center, the open space the painted walls are built around and could never fill.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the courtyard not as a social space for display (as seen in Durbar), but as an infrastructural void—a necessary emptiness enabling the verticality and enclosure of the surrounding walls.",
+      "Focusing on temporal layering: The sunlight hitting the courtyard at midday casts hard, perfect geometry onto the patterned tilework, contrasting with shadows cast by unseen things that linger from yesterday's events (like a dropped tool or forgotten spill).",
+      "The soundscape as architectural design: How the high walls funnel specific sounds—a distant donkey bray vs. a domestic quarrel—into resonant echoes within the open square."
+    ],
+    "story_options": [
+      "Setting: The midday heat beating down on sun-baked courtyard stone, desire: A cook frantically trying to coax a difficult marinade into flavour before afternoon guests arrive, obstacle: the shadow of a leaning, unused scaffolding member interrupting the sunlight.",
+      "Setting: Dusk in the central open space, desiring: Two young men engaged in a hushed political argument over trade tariffs while their elders conduct evening ritual prayers near a small shrine, obstacle: the sudden appearance of a stray dog that snaps at one's foot.",
+      "Setting: Just before dawn, mist clinging to the lower sections of the courtyard tiles, desire: A lone washerwoman meticulously scrubbing stains from expensive textiles left out overnight, obstacle: realizing she has scrubbed away not just dirt, but faint traces of last night's pigment transfer."
+    ],
+    "subject_rotations": [
+      "The courtyard as a stage for micro-dramas—the petty rivalries and daily negotiations between servants or minor tenants that occur unseen by the grand visitors.",
+      "Analyzing the relationship between 'openness' and 'confinement': how the vast, unpainted sky above emphasizes the deliberate claustrophobia created by the densely decorated interior rooms.",
+      "The courtyard as a transitional zone: less sacred than the temple room, yet more exposed than the women’s quarters; the threshold of domestic life vs. public visibility."
+    ],
+    "sensory_details": [
+      "The specific abrasive grit of red ochre dust kicked up by cart wheels crossing the stone floor at high noon.",
+      "The metallic scent of boiling brass pots mingled with curing lime mortar evaporating in the heat.",
+      "The faint, persistent vibration felt through the flagstones from subterranean water channeling or distant commerce."
+    ],
+    "research_questions": [
+      "What specific local deities or domestic practices were historically centered in the open ground areas between principal structures of wealthy Rajasthani homes?",
+      "How did different castes (artisan vs. merchant family) demarcate their operational zones within a single, shared courtyard space?"
+    ],
+    "structural_variants": [
+      "Opening with a static, wide-angle description of the square at zenith, slowly zooming in on one small action before shifting perspective.",
+      "Employing a cyclical structure where actions (washing, cooking) are presented as recurring motifs across changing light conditions (day->twilight).",
+      "Structuring the poem around 'echoes'—a single sound or action repeated and distorted as it travels through the courtyard's architectural geometry."
+    ],
+    "unused_angles": [
+      "Focusing on the specific material degradation of the paving stones, where patterns of heavy use over centuries have worn away decorative inlay to reveal older, simpler geological strata beneath.",
+      "A brief meditation on a single object left in the square (a cracked terracotta pot, an overturned wooden stool) as an unintentional monument to daily human entropy."
+    ],
+    "variety_note": "This chapter contrasts the highly codified visual narratives of the frescoes by focusing entirely on a functional, unadorned space where daily life, rather than grand spectacle, takes place."
+  },
+  "draft": {
+    "sha256": "8e75af1435821f3073f86f2a0f80ab2eb9f5606f013a8b0a270bbec2b9eeb013",
+    "written_at": "2026-10-04T20:12:37.753815+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "8e75af1435821f3073f86f2a0f80ab2eb9f5606f013a8b0a270bbec2b9eeb013",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "chapter_index": 84,
+  "name": "84",
+  "word_target": 500,
+  "chapter_title": "ঘাটের পোকা",
+  "chapter_summary": "The chapter delves into the subtle, unspoken rules of the powerful circles surrounding the office, personified by the 'ঘাটের পোকা'—the seasoned insiders of the local hub. The central conflict revolves around the delicate dance of patronage and influence, where knowledge of 'who to oil' (কারো কাছে তেল দিতে হয়) dictates one's standing and success, contrasting sharply with the more abstract realm of 'অন্তর্জ্ঞান' (intuitive wisdom). The narrative paints a vivid picture of this transactional social ecosystem, where street-smart pragmatism trumps mere intellectual understanding. As the characters navigate these murky waters, the reader is left questioning whether true merit can ever supersede the necessity of navigating the political currents of unspoken favors.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "ঘাটের পোকা",
+      "role": "অফিসের কর্মচারী"
+    },
+    {
+      "id": "c2",
+      "name": "পাকা লোক",
+      "role": "জায়গার প্রভাবশালী ব্যক্তি"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "অফিসের ঘাটের পোকা জানে কাকে তেল দিতে হয়, যা তৎকালীন প্রশাসনিক রীতিনীতির প্রতিচ্ছবি।",
+    "human_in_the_loop": "ঘাটের পোকা নামক চরিত্রটি দেখায় কিভাবে অনানুষ্ঠানিক জ্ঞান ক্ষমতার কেন্দ্রে কাজ করে।",
+    "influence_of_other_works": "এই বর্ণনাটি তৎকালীন সামাজিক কাঠামোর উপর প্রচলিত প্রবাদ-কথার প্রভাবকে তুলে ধরে।",
+    "cultural_relevance": "তেল দেওয়ার প্রথাটি বাঙালি সমাজ ও কর্মক্ষেত্রে প্রচলিত সামাজিক লেনদেনকে প্রতিফলিত করে।",
+    "literary_style": "সরল অথচ গভীর পর্যবেক্ষণমূলক ভাষা ব্যবহার করে কাহিনিটির সাহিত্যিক মান বৃদ্ধি পেয়েছে।",
+    "narrative_techniques": "অন্তর্জ্ঞান নামক ধারণার মাধ্যমে লেখক সূক্ষ্ম সামাজিক গতিপ্রকৃতি ফুটিয়ে তুলেছেন।",
+    "symbolism_and_motifs": "ঘাটের পোকা প্রতীকীভাবে সেই ব্যক্তিটিকে বোঝায় যে ক্ষমতার ভেতরের চাল জানে।",
+    "reader_engagement_strategies": "পাঠককে সরাসরি প্রশাসনিক জগতের ভেতরের জটিলতা সম্পর্কে অবগত করার মাধ্যমে আকর্ষণ সৃষ্টি করা হয়েছে।",
+    "ethical_considerations": "প্রভাব খাটিয়ে সুবিধা নেওয়ার এই চিত্রটি নৈতিকতার প্রশ্ন উত্থাপন করে।",
+    "potential_controversies": "প্রশাসনিক দুর্নীতি বা পক্ষপাতিত্বের ইঙ্গিত থাকায় এই অংশটি বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়ে নির্দিষ্ট কোনো বৈচিত্র্য বা অন্তর্ভুক্তির বিষয় সরাসরি উঠে আসেনি।",
+    "marketing_and_promotion": "‘ঘাটের পোকা’ শিরোনামটি কৌতূহল উদ্দীপক হওয়ায় এটি বিপণনের জন্য শক্তিশালী উপাদান।",
+    "significance_of_rise_of_bengal": "এই দৃশ্যটি তৎকালীন প্রশাসনিক কাঠামোতে স্থানীয় প্রভাবশালীদের উত্থানকে ইঙ্গিত করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

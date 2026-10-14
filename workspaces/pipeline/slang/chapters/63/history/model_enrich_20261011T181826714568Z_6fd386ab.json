@@ -1,0 +1,40 @@
+{
+  "chapter_index": 63,
+  "name": "63",
+  "word_target": 500,
+  "chapter_title": "কাঁটা দিয়ে কাঁটা তোলা",
+  "chapter_summary": "The chapter, titled 'কাঁটা দিয়ে কাঁটা তোলা' (Pulling thorns with thorns), plunges into a grim strategic confrontation where the principle of 'enemy by enemy' is brutally enacted, mirroring the imagery of extinguishing a fire with fire. The central conflict revolves around a desperate, retaliatory maneuver, where the protagonist must utilize methods mirroring those of their adversaries to achieve a necessary, albeit morally fraught, victory. The atmosphere is thick with the heat of conflict, symbolized by the relentless imagery of conflagration and scorched earth. As the tactical maneuvering reaches its perilous climax, the narrative leaves the reader questioning the true cost of such necessary ruthlessness: can a victory achieved through mirroring malice ever truly cleanse the stain of conflict?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজানা শত্রু",
+      "role": "শত্রু"
+    },
+    {
+      "id": "c2",
+      "name": "নায়ক",
+      "role": "প্রধান চরিত্র"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "ঐতিহাসিক প্রেক্ষাপটে শত্রুকে ব্যবহার করে শত্রু নিবারণের কৌশলটি তৎকালীন রাজনৈতিক বাস্তবতাকে প্রতিফলিত করে।",
+    "human_in_the_loop": "এই অধ্যায়ে কোনো নির্দিষ্ট চরিত্রের ব্যক্তিগত সিদ্ধান্ত গ্রহণের মাধ্যমে পরিস্থিতির মোড় ঘোরানো দেখানো হয়েছে।",
+    "influence_of_other_works": "প্রবাদটির অন্তর্নিহিত দর্শন প্রাচীন ভারতীয় নীতিশাস্ত্রের গভীর প্রভাব বহন করে।",
+    "cultural_relevance": "'কাঁটা দিয়ে কাঁটা তোলা' এই প্রবাদটি বাঙালি সংস্কৃতিতে প্রতিশোধ এবং কৌশলগত মোকাবিলা বোঝাতে ব্যবহৃত হয়।",
+    "literary_style": "গদ্যে তীব্রতা এবং নাটকীয়তার মিশ্রণ ঘটেছে, যা ঘটনার গুরুত্বকে ফুটিয়ে তোলে।",
+    "narrative_techniques": "লেখক এখানে উপমা এবং রূপকের মাধ্যমে পরিস্থিতিকে কাব্যিক ভঙ্গিতে বর্ণনা করেছেন।",
+    "symbolism_and_motifs": "আগুন এবং কাঁটা এখানে ধ্বংসাত্মক শক্তি এবং পাল্টা আক্রমণের প্রতীক হিসেবে কাজ করছে।",
+    "reader_engagement_strategies": "পাঠককে সরাসরি কঠিন নৈতিক দ্বিধার মুখে ফেলে এই অধ্যায়টি গভীর চিন্তার উদ্রেক করে।",
+    "ethical_considerations": "শত্রুর দ্বারা শত্রুকে ধ্বংস করার এই প্রক্রিয়াটি নৈতিকতার প্রশ্ন উত্থাপন করে।",
+    "potential_controversies": "প্রতিশোধমূলক কৌশল অবলম্বন করাটা সমাজের বৃহত্তর নৈতিক কাঠামোর সঙ্গে সংঘাত সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি রাজনৈতিক ক্ষমতার দ্বৈরথের মাধ্যমে বিভিন্ন পক্ষের অবস্থানকে তুলে ধরে।",
+    "marketing_and_promotion": "এই অধ্যায়ের শক্তিশালী শিরোনাম এবং অন্তর্নিহিত দ্বন্দ্ব পাঠককে আকৃষ্ট করবে।",
+    "significance_of_rise_of_bengal": "এই কৌশলগত পদক্ষেপগুলি তৎকালীন বাংলার ক্ষমতার ভারসাম্যে বড় ধরনের পরিবর্তন এনেছিল।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

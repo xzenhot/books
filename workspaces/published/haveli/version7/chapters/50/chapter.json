@@ -1,0 +1,72 @@
+{
+  "chapter_index": 50,
+  "name": "50",
+  "word_target": 110,
+  "chapter_title": "The Closed Door",
+  "chapter_summary": "The haveli is shut, its painted life sealed inside, and the dust begins to settle. The poem is the closing of the house, the threshold crossed for the last time by the living and left to the painted dead.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The mechanics of historical locking systems in Rajasthan architecture",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The door itself as a narrative agent: Its wood grain showing the physical stresses of decades of sealing and pressure.",
+      "Sound decay through closure: Focusing not on what is *in* but how all internal sounds—faint structural creaks, wind whispers—are abruptly cut off by the final bolt/latch.",
+      "The patina of neglect as a form of preservation: How the dust seals the frescos from atmospheric degradation while simultaneously suffocating their vibrancy."
+    ],
+    "story_options": [
+      "setting: The entryway where the main lock is cast, desire: To hear the specific, final mechanism engaging (the click of iron on wood), obstacle: A lingering scent of crushed jasmine from a long-ago ceremony that refuses to dissipate.",
+      "setting: The hinge structure leading to an unused storage alcove, desire: To find one single, perfectly preserved textile scrap trapped by the closing door, obstacle: The metallic groan of protesting hinges mimicking a held, dying breath.",
+      "setting: Just inside the threshold facing the main courtyard, desire: To perceive the exact moment where external light is wholly superseded by internal shadow, obstacle: A single, slow-falling speck of dust illuminated momentarily in a final beam before the darkness swallows it."
+    ],
+    "subject_rotations": [
+      "Treating the act of closing not as an end, but as a forced regression—a return to an earlier, less opulent state that precedes the painted grandeur.",
+      "Focusing entirely on the material entropy of the door mechanism: the rust bloom patterns mimicking failed frescoes or fading pigments.",
+      "Shifting focus from Gangaram's absence to the persistence of domestic ritual in the sealed space (e.g., residual traces of a specific type of cooking spice lingering despite decay)."
+    ],
+    "sensory_details": [
+      "Sight: The sharp, defined edge where polished brass hardware meets heavily oxidized iron due to prolonged moisture.",
+      "Sound: A low-frequency *thud* absorbed completely by the thick, deadened air inside the structure.",
+      "Smell: The mineral tang of ancient lime plaster mixing with the dry, sweet decay of trapped organic residue (old flowers/woodsmoke)."
+    ],
+    "research_questions": [
+      "What were common regional methods for locking and sealing large historic residential structures against moisture ingress?"
+    ],
+    "structural_variants": [
+      "A poem built around a slow, escalating rhythm that mimics the sound of a heavy bolt sliding home—from near silence to abrupt termination.",
+      "Employing highly fragmented stanzas where each line represents one distinct point of sealing or containment (a latch, a shadow, a scent)."
+    ],
+    "unused_angles": [
+      "The specific psychological impact on the community *outside* hearing the final sound of the house being shut."
+    ],
+    "variety_note": "Unlike the preceding chapters focusing on financial mechanisms or individual suffering, this chapter grounds the narrative in absolute architectural closure and sensory deprivation. It transitions from personal collapse to structural stasis."
+  },
+  "draft": {
+    "sha256": "8a0273a93fb8a3d255dd2d3eda5bfe31aab98c786b5fe65b32a419dbf25c1ccf",
+    "written_at": "2026-10-04T20:18:44.909907+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "8a0273a93fb8a3d255dd2d3eda5bfe31aab98c786b5fe65b32a419dbf25c1ccf",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

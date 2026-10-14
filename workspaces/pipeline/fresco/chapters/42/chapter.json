@@ -1,0 +1,54 @@
+{
+  "chapter_index": 42,
+  "name": "42",
+  "word_target": 200,
+  "chapter_title": "The Camel Train",
+  "chapter_summary": "A camel train crosses the old route in memory, and the poem follows the cloth it once carried.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the kinetic energy of transit—the dust cloud left by the camel train as a temporary, ephemeral stain against the permanent frescoes.",
+      "Treating the cloth carried not as trade goods but as woven memory; each fold representing a narrative pause in time or Debolina's own life.",
+      "Shifting focus from the visual procession to the sonic landscape—the creak of leather rigging and the rhythmic breath of the beasts breaking the night silence."
+    ],
+    "story_options": [
+      "Setting: The crest of a low dune overlooking the ancient route, desire: To track one specific piece of patterned cloth, hoping its design matches an abstract line in Debolina's current work, obstacle: The wind tearing the pattern apart before she can fully map it.",
+      "Setting: Inside the shadow cast by the rear pack-animal, desire: To feel the weight and heat absorbed by the camel’s hide as it passes, obstaıcle: Debolina recognizing that this ephemeral cargo mirrors the invisible burden of her own art.",
+      "Setting: Where the camel train momentarily stills to drink from a dry well basin, desire: To see the sudden, reflective flash on polished metal clasps attached to one bale, turning it into a momentary mirror for the painter."
+    ],
+    "subject_rotations": [
+      "A meditation on 'movement' as antithetical to the stasis of fresco; how transit defines the boundaries of fixed space.",
+      "The journey itself viewed through Debolina’s internal landscape, where each mile is a beat in her solitary poetic rhythm.",
+      "Treating the cargo not economically, but ontologically—what does this transient load *mean* to the unchanging stone?"
+    ],
+    "sensory_details": [
+      "The metallic tang of sweat mingling with cured leather as a camel shifts its weight on packed earth.",
+      "The dry scrape sound of coarse jute sacking against bone-dry adobe wall during the passage.",
+      "The deep, resonant thrumming in the chest felt when approaching a massed group of heavily laden beasts."
+    ],
+    "research_questions": [
+      "What specific pigments or dyes from Rajasthan were traditionally used to stain merchant textiles that might correlate with colors found in fresco restoration?"
+    ],
+    "structural_variants": [
+      "A cyclical structure: the journey begins and ends at the same point, but Debolina's perception of time within the cycle has shifted.",
+      "Fragmented stanzas mirroring the gaps between camel loads or momentary halts on the route.",
+      "A layered narrative where the description of the physical passage overlays a sustained internal monologue about artistic inertia."
+    ],
+    "unused_angles": [
+      "The interaction between the caravan's temporary firelight and the enduring, static glow of ancient painted walls.",
+      "How the rhythmic pattern of footsteps/hooves on desert stone contrasts with the brushstroke cadence she strives for in her isolation.",
+      "Using a specific textile motif (e.g., Kutch embroidery pattern) to analyze or critique one element of her own composition."
+    ],
+    "variety_note": "Unlike earlier chapters focused on internalized sensory intake or static architecture, this piece is predicated entirely on passage and external rhythm."
+  },
+  "draft": {
+    "sha256": "1b67cd9b52bc5e42fb153d6e6139c389092972ec16a90eef4c391178fceff852",
+    "written_at": "2026-10-13T03:13:04.952204+00:00",
+    "origin": "write"
+  }
+}

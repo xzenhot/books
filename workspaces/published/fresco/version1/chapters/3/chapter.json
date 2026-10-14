@@ -1,0 +1,64 @@
+{
+  "chapter_index": 3,
+  "name": "3",
+  "word_target": 80,
+  "chapter_title": "Pigment and Lime",
+  "chapter_summary": "The poem follows the materials of the fresco — the lapis ground to blue, the lime white, the mineral reds — as figures for the hidden work: the color the world admires is already the body of a man's hours.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Alchemical symbolism in pigment processing",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Mineral geology of Rajasthan and local color palettes",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the lime as a metaphor for decay or necessary transformation, rather than just binding agent—it is death facilitating new life.",
+      "Personifying each specific mineral (e.g., the hematite red) not by its color, but by its geological violence required to be extracted.",
+      "A purely inventory-based poem where the components are listed in descending order of their perceived worth (market value vs. physical effort)."
+    ],
+    "story_options": [
+      "Setting: The grinding stone basin, Desire: To achieve a perfect chromatic density that feels 'correct' against an imagined neighbor’s painting; Obstacle: A sudden realization that the desired color has been lost to contamination in storage.",
+      "Setting: Near the supply shed at dawn, Desire: To compare the raw state of earth pigments with the finished luster on the wall; Obstacle: The sound of a distant cart signaling the market's awakening, forcing an immediate choice about production pace.",
+      "Setting: Back on the scaffold during an intense mixing session, Desire: To create a single batch that captures both the purity (lime) and the deep memory (pigment); Obstacle: A physical tremor in the hands causes one drop of costly blue pigment to splash out onto the dusty floor."
+    ],
+    "subject_rotations": [
+      "Focusing solely on stoichiometry: the near-mathematical balance required between binder, aggregate, and coloration.",
+      "A poem structured around chemical reactions, treating mixing as a narrative of transformation rather than labor.",
+      "Examining how ancient pigment names (if they existed) might reveal philosophical attitudes toward matter."
+    ],
+    "sensory_details": [
+      "The gritty silt texture deposited on the painter’s lower lip after endless hours chewing mineral dust for flavor or focus.",
+      "The specific, cool dampness retained in the pulverized white lime powder when kept sealed overnight.",
+      "The abrasive sound of a quartz pestle cracking against hardened garnet chunks."
+    ],
+    "research_questions": [
+      "What are documented historical practices regarding the safe handling and storage of heavy metal-based pigments in pre-industrial artisan workshops?",
+      "Are there specific local terms or ancient alchemical metaphors associated with 'binding' or 'fixation' that could inform the poem’s lexicon?"
+    ],
+    "structural_variants": [
+      "A piece structured as a slow accretion, where each line adds one component to an ever-growing inventory.",
+      "A circular structure: beginning and ending on the same single mineral (e.g., focusing first on red ochre dust, then concluding with its presence in the final wall color)."
+    ],
+    "unused_angles": [
+      "Exploring how the very act of crushing rock transforms it from inert geology into potential narrative.",
+      "A detailed comparison between naturally sourced pigments and any artificial dyes that might have been introduced later."
+    ],
+    "variety_note": "While neighbors address the wall's emptiness or the laborer’s isolation, this chapter focuses microscopically on the substance of creation itself—the material negotiation before the vision is laid down."
+  },
+  "draft": {
+    "sha256": "891bb883090120e42441302d49e1b25f7471e555e11633c69fcbffcca5fcb430",
+    "written_at": "2026-10-04T19:40:31.146752+00:00",
+    "origin": "write"
+  }
+}

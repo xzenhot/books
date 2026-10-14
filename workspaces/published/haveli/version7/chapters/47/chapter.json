@@ -1,0 +1,68 @@
+{
+  "chapter_index": 47,
+  "name": "47",
+  "word_target": 110,
+  "chapter_title": "The Last Candle",
+  "chapter_summary": "By the light of a single candle the ruined merchant counts what remains of his fortune. The poem holds the flame against the dark, the last account being tallied by a man who has lost everything but his arithmetic.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the wax of the candle not as a source of light but as slow-dripping geological time, marking minuscule shifts in the merchant's decline.",
+      "Focusing on the precise chemical reaction: The way soot and carbon bloom onto the brittle surfaces when illuminated by imperfect flame.",
+      "Refusing to anthropomorphize Gangaram; rendering him purely as a mechanism—a ledger keeper whose survival is dependent only on his ability to quantify, not feel."
+    ],
+    "story_options": [
+      "Setting: The small desk in the upper room, desire: Gangaram attempts to count not gold coins but grains of dust settled upon an old paper balance sheet; Obstacle: The candle wax has pooled unevenly, creating pools of distorting light.",
+      "Setting: A single, intact ceramic inkwell left on a low shelf near his meager seating area; Desire: He stares at the dried pigment residue as if it were untapped capital; Obstacle: The wick is sputtering due to an undetected draft from a broken window seal.",
+      "Setting: The bare stone floor beside the candle's spill, desire: To map the circumference of the melted wax pool precisely; Obstacle: A tiny insect crawls across the perimeter of this calculated circle, breaking the illusion."
+    ],
+    "subject_rotations": [
+      "The mathematics of despair: Structuring the poem entirely around arithmetic progression or regression related to his remaining assets.",
+      "Light as forensic tool: Using the candle's narrow beam to reveal imperfections in the stone (cracks, discoloration) that symbolize internal rot rather than external wealth loss.",
+      "Object reductionism: Making the flame itself the central figure—a perfect, fragile object whose lifespan dictates the poem’s pace."
+    ],
+    "sensory_details": [
+      "Sight: The precise, high-contrast silhouette of a single finger tracing the edge of a melted wax drip.",
+      "Touch: The abrasive texture of dried soot particles under the fingertips as he handles old account scrolls.",
+      "Smell: The sharp, chemical odor of burning tallow mixed with the pervasive dampness rising from the unsealed stone foundation."
+    ],
+    "research_questions": [
+      "What was the precise composition and durability of low-grade beeswax or tallow used by wealthy households for private illumination during this specific historical period in Rajasthan?",
+      "Are there traditional accounting practices among Marwari merchants that utilized physical remnants (like charcoal marks) as a form of verification when paper records were suspect?"
+    ],
+    "structural_variants": [
+      "A highly constrained strophe structure, perhaps relying on iambic tetrameter to mimic the rigid adherence to numbers.",
+      "Employing an internal dialogue where Gangaram's counting voice is strictly logical, while the environment provides non-verbal counter-narratives (e.g., a scuttling sound)."
+    ],
+    "unused_angles": [
+      "The political implications of remaining assets: How few items might be legally considered 'liquidatable' versus those deemed 'personal relics'.",
+      "A meditation on the *labor* required to maintain this minimal light source against the encroaching darkness."
+    ],
+    "variety_note": "Unlike its predecessors which focused on grand displays of wealth or physical destruction, this poem forces an extreme reduction—isolating one minuscule object (the candle/flame) against utter blackness."
+  },
+  "draft": {
+    "sha256": "f114a2ae9454b51ff861d8cd6934c50cf3f9416935cf063770cf9c27f57a2ed3",
+    "written_at": "2026-10-04T20:18:15.390999+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "f114a2ae9454b51ff861d8cd6934c50cf3f9416935cf063770cf9c27f57a2ed3",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "chapter_index": 31,
+  "name": "31",
+  "word_target": 500,
+  "chapter_title": "The Artisan's Cracked Grain",
+  "chapter_summary": "The painter who made Gangaram immortal is paid in grain that will not keep his family through the winter. The poem turns from the splendor of the walls to the cracked grain below them, the first explicit naming of the cost.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Agricultural economies of Shekhawati during the mercantile age",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Symbolism of grain stores in Rajasthani domestic architecture",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the *weight* vs. the perceived value: Contrasting the actual caloric weight of the purchased grain against the sheer monetary 'heaviness' implied by the frescoes.",
+      "The perspective of generational debt: Showing the artisan not just paying for survival, but servicing a debt that extends across five generations of art and trade.",
+      "The commodity exchange breakdown: Analyzing the precise ratio between pigment cost, labor cost, and grain payment—a visible economic equation failing at the end."
+    ],
+    "story_options": [
+      "Setting: The darkened storeroom beneath the primary painting gallery; Desire: To recount the specific type of millet or wheat used for rations versus the high-grade pigments stored nearby; Obstacle: A single, damp rat gnawing through both supplies simultaneously; Turn: The realization that the grain itself is contaminated by dust mixed with spilled expensive dyes.",
+      "Setting: The open courtyard at dawn, before any buyer arrives; Desire: To hear an internal inventory count performed not in coins, but in handfuls of dry pulses and grains; Obstacle: An elderly matriarch from a neighboring house observing the meager count with unnerving clarity; Turn: She whispers a recipe requiring a grain that was supposed to be sold for art.",
+      "Setting: The artisan's small lodging room, late at night; Desire: To have him recount the final moment he traded his ability to dream for enough rice to last until harvest; Obstacle: A childhood tool (a wooden scoop or pestle) found amongst the meager provisions, forcing a confrontation with memory; Turn: He realizes the 'profit' of the art was never meant to feed people, but only to buy more paint."
+    ],
+    "subject_rotations": [
+      "A focus on *storage* as narrative device: Using the dry grain itself—its stacking, its deterioration, its necessity—as a visual analogue for the decline of wealth.",
+      "Treating the artisan's hands: An extended meditation on calloused fingers that transition from mixing mineral pigments to handling rough sacks of harvest goods, emphasizing physical labor over artistry.",
+      "The poem structured as an arithmetic ledger: Beginning with the glorious column of expenditure (pigments) and ending with the insufficient column of receipts (grain measure)."
+    ],
+    "sensory_details": [
+      "Smell: The distinct, slightly sweet funk of stored animal dung mixed into old compost used to enrich planting beds nearby.",
+      "Sound: The rhythmic, dull *thump* of grain being weighed against the crisp, dry sound of spilled ochre powder hitting stone.",
+      "Touch: The gritty residue left under fingernails after handling both earth-derived pigment and dusty kernels."
+    ],
+    "research_questions": [
+      "What were the specific local granaries or tax collection points outside Mandawa that might have been used as a point of transaction for non-currency payment?",
+      "Are there regional variations in how 'payment' was documented when merchants settled debts involving staple foods versus coinage during this era?"
+    ],
+    "structural_variants": [
+      "An epistolary structure: Fragmented letters or notes passed between the artisan and his family detailing daily needs vs. artistic commissions.",
+      "A dialogue format framed around a single meal preparation: A conversation about how to make a modest, filling meal using only what was exchanged."
+    ],
+    "variety_note": "Where previous chapters focused on external displays of wealth (frescoes, grand halls), this chapter turns inward and downward, grounding the narrative in basic sustenance—the material cost that lies beneath the pigment's sheen."
+  },
+  "draft": {
+    "sha256": "5c9564ac3157b4d2c41191650ddf1e52b2bb3bed79883d83dce60e37ec0d24ba",
+    "written_at": "2026-10-04T03:51:49+00:00",
+    "origin": "humanize"
+  },
+  "humanized": true,
+  "humanized_at": "2026-10-04T03:51:49+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "062d0f89635c4416ddcf55c193a80b77ef9d064e850e5e208772950dfb57b45f",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T03:53:58+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

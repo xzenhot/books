@@ -1,0 +1,68 @@
+{
+  "chapter_index": 12,
+  "name": "12",
+  "word_target": 80,
+  "chapter_title": "The King's Security, the Merchant's Tax",
+  "chapter_summary": "The gist's old bargain becomes a figure: the king sold safety to the merchant, the merchant paid tax, and the painter, beneath them both, paid in unseen nights for a beauty neither would witness.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the bureaucratic language of royal decree versus the ephemeral vocabulary of pigment; how administration codifies luxury.",
+      "Treating security not as a static protection but as an ongoing, oppressive weight—the physical presence of watchmen or fortified walls casting shadows over artistic freedom.",
+      "Deconstructing 'tax' as ritualized extraction: focusing on the specific forms of tribute (not just money) that flow from the local artisan class up to distant powers."
+    ],
+    "story_options": [
+      "Setting: The dusty palisade wall surrounding a secondary royal outpost near the merchant district; Desire: To witness the exchange of raw materials—grain for protection—and realize the painter’s labor is just another, unpaid kind of tribute.",
+      "Setting: A narrow, shadowed thoroughfare between two havelis where guards conduct late-night patrols; Desire: For the painter to slip past them undetected while carrying a small, illicit cache of experimental color, turning surveillance into an artistic risk.",
+      "Setting: The administrative office attached to a merchant's compound, smelling heavily of old seals and ink; Desire: To read a faded receipt detailing mandatory levies on 'domestic ornamentation', connecting the state apparatus directly to the frescoes."
+    ],
+    "subject_rotations": [
+      "Focusing not on the abstract power dynamic (King vs. Merchant) but on the material friction between military hardware (iron, rope, stone fortifications) and artistic tools (brush, mortar, pigment).",
+      "A micro-history of obligation: tracing one specific mineral dye—its source, its journey to Rajasthan, and how both the royal monopoly and merchant trade dictated its final placement on the wall.",
+      "Shifting the burden from 'the painter's cost' to the sheer logistical complexity of *maintaining* this system of patronage—the endless movement of goods required by state and commerce."
+    ],
+    "sensory_details": [
+      "The specific, metallic taste left on the lips after working near hot iron fittings used for gates or weaponry.",
+      "The gritty texture of fine sand blown in from a fortified border crossing that coats both official seals and pigment containers.",
+      "The high-pitched whine of wind whipping through narrow gaps in heavily reinforced stone enclosures at midnight."
+    ],
+    "research_questions": [
+      "What were the standardized forms of 'tax' or tribute levied on non-essential cultural production in 18th/19th century Marwari trading centers?",
+      "How did local governance structures reconcile military protection requirements with emerging mercantile luxury demands in Shekhawati settlements?"
+    ],
+    "structural_variants": [
+      "A dialogue structure where the painter speaks to two unseen, abstracted voices representing 'Order' (King) and 'Demand' (Merchant), forcing him into a dialectic.",
+      "A strict cataloging structure: listing every necessary input—security patrols, tithes owed, required colors—and treating the poem as an inventory of obligation."
+    ],
+    "unused_angles": [
+      "The role of intermediaries or brokers who profit from facilitating this complex balance between state and trade.",
+      "How local religious/spiritual figures managed to navigate or exploit the economic pressures exerted by both crown and market."
+    ],
+    "variety_note": "While neighboring chapters deal with praise ('Blossom') or physical decline ('Haveli'), this chapter anchors itself in the institutional, systemic weight—the invisible tax code of power that dictates artistic viability."
+  },
+  "draft": {
+    "sha256": "6f547eed2e9da179da85c5c7f0a4284ec6d15832d82a14566f5e29a4280a10af",
+    "written_at": "2026-10-04T19:41:46.698894+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "6f547eed2e9da179da85c5c7f0a4284ec6d15832d82a14566f5e29a4280a10af",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T19:43:48+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

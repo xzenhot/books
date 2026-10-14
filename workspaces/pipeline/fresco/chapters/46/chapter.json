@@ -1,0 +1,59 @@
+{
+  "chapter_index": 46,
+  "name": "46",
+  "word_target": 200,
+  "chapter_title": "The Blend of Lime and Mortality",
+  "chapter_summary": "Lime, pigment, and mortality are mixed together, and the poem watches them set.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Alchemical processes involving lime stabilization and mineral pigment binding.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the setting not as a scaffold of creation, but as an ossuary where past artists' efforts are gradually buried by new layers of lime.",
+      "The blending process treated as alchemical—not just mixing materials, but merging life-force (mortality) with mineral structure (lime/pigment).",
+      "Shifting the focus from Debolina’s personal struggle to the slow geological timescale embodied in the setting sun fading against ancient plasterwork."
+    ],
+    "story_options": [
+      "Setting: A patch of lime freshly applied, still glistening wet. Desire: To catch the reflection of a fleeting shadow cast by an approaching dust devil, obstacle: The moment of perfect liquidity before it begins to stiffen.",
+      "Setting: High above the courtyard, where wind carries grit against the work surface. Desire: To feel the physical pressure of mortality—the exhaustion settling into the bones while mixing pigments—obstacle: The awareness that the pigment itself is finite, even if the wall persists.",
+      "Setting: Just as the lamplight struggles to overcome the last vestiges of twilight. Desire: To capture the precise moment where a single life-force element (a breath held, a tear) stains the wet lime before it seals away all expression."
+    ],
+    "subject_rotations": [
+      "Focusing specifically on the chemical degradation of pigments under arid light and heat, treating 'mortality' as physical entropy.",
+      "A poem structured around counterpoints: mineral hardness (lime) versus organic decay (the life element), rather than just visual contrast.",
+      "Treating the application process not as painting, but as sedimentation—how layers of time are slowly being deposited onto the surface."
+    ],
+    "sensory_details": [
+      "The faint metallic tang rising from crushed lapis dust mixed with damp lime mortar.",
+      "The abrasive grit of fine sand used in preparing plaster felt against the palms.",
+      "The coolness radiating up from the packed earth below, contrasting the feverish heat at her working height."
+    ],
+    "research_questions": [
+      "What specific types of organic stabilizers or binding agents might have been traditionally utilized by fresco artisans in Rajasthan to counteract arid conditions?",
+      "How do the mineral properties of local limestone compare chemically to those required for stable pigment adherence in this region?"
+    ],
+    "structural_variants": [
+      "A cyclical structure that mirrors the 'setting' process, starting with a state of pure potential (wetness) and ending only when the cycle must inevitably begin again.",
+      "Structuring it as an interrupted meditation, where each thought is literally ‘stopped’ or solidified by a shift in the material being worked on."
+    ],
+    "unused_angles": [
+      "The sonic quality of plaster cracking under curing strain.",
+      "A sustained focus on the microscopic view of how pigment particles adhere to porous calcium carbonate."
+    ],
+    "variety_note": "While earlier poems focused on scent and line, this chapter turns inward toward process, grounding the abstract struggle in the tangible physical chemistry of mixing materials that embody time itself."
+  },
+  "draft": {
+    "sha256": "ece2bf820f82a071e6e71861560869a54ed382ad0678a0e7cd8e390162771198",
+    "written_at": "2026-10-13T03:13:48.248032+00:00",
+    "origin": "write"
+  }
+}

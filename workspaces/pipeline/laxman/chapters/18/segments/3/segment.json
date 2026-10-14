@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 3,
+  "total_segments": 6,
+  "chapter_index": 18,
+  "name": "18",
+  "chapter_title": "যুদ্ধের আগের রাত্রি",
+  "chapter_summary": "গঙ্গার তীরে আসন্ন নির্ধারক যুদ্ধের প্রাক্কালে, যুবরাজ লক্ষ্মণ সেন, বল্লাল, সেনাপতি, কবি এবং মালিনী প্রত্যেকেই তাদের গভীরতম ব্যক্তিগত সংঘাতের মুখোমুখি হন। এই রাতে, লক্ষ্মণের মহৎ গৌরবের আকাঙ্ক্ষা, বল্লালের পিতৃদায়ের ভার, সেনাপতির অনিবার্য পরিণতির হিসাব, কবির সত্য প্রকাশ করার নৈতিক বাধ্যবাধকতা এবং মালিনীর অপূরণীয় ক্ষতির বেদনা—এই সমস্ত আবেগ এক তীব্র মানসিক আবহ তৈরি করে। যুদ্ধের আসন্ন ছায়া এই চরিত্রদের বিবেকের সামনে দাঁড় করায়, যেখানে প্রতিটি সিদ্ধান্তের নৈতিক মূল্য এবং ব্যক্তিগত আত্মত্যাগ প্রশ্নবিদ্ধ হয়। এই চরম মুহূর্তের মুখোমুখি দাঁড়িয়ে, তাদের সম্মিলিত দ্বিধা এবং ভবিষ্যতের অনিশ্চয়তা কী নির্ধারণ করবে, সেই প্রশ্নটি অধ্যায়টির শেষে অমীমাংসিত থেকে যায়।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "Shifting the focus from personal guilt (like Maliini's pain) to political calculation: how each character weighs their actions against long-term dynastic stability versus short-term military gain.",
+    "status": "enriched"
+  }
+}

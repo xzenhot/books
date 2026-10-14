@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 6,
+  "total_segments": 6,
+  "chapter_index": 15,
+  "name": "15",
+  "chapter_title": "নালন্দার নিঃশব্দ ইট",
+  "chapter_summary": "যুবরাজ লক্ষ্মণ সেনের কনৌজ-অভিযান চলাকালীন, নালন্দার ধ্বংসাবশেষের মধ্য দিয়ে তাঁর দল অগ্রসর হয়, যেখানে জ্ঞানালোকের পতনের করুণ চিত্রটি নিঃশব্দ ইটের স্তূপে প্রতিফলিত হয়। এই ধ্বংসপ্রাপ্ত বিহারের দৃশ্য লক্ষ্মণকে গভীরভাবে নাড়া দেয়; তিনি উপলব্ধি করেন যে সামরিক বিজয় কেবল নগর দখল নয়, বরং জ্ঞানের ঐতিহ্য এবং পাণ্ডিত্যের সুরক্ষা করাও এক অপরিহার্য কর্তব্য। নালন্দার গ্রন্থাগার ও জ্ঞানী পণ্ডিতদের স্মৃতি তাঁকে এক কঠিন নৈতিক দ্বন্দ্বে ফেলে দেয়: যদি সাম্রাজ্যের বিস্তার জ্ঞানের বিনাশের সমার্থক হয়, তবে সেই বিজয়কে প্রকৃত অর্থে সাফল্য হিসেবে গণ্য করা যায় কিনা? এই প্রশ্নটি তাঁর পরবর্তী রাজনৈতিক সিদ্ধান্তের ভিত্তি স্থাপন করে।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "Framing the interaction with the ruins through the lens of an environmental disaster: comparing the slow cultural decay of Nalanda's books to the immediate, harshness of the encroaching terrain.",
+    "status": "enriched"
+  }
+}

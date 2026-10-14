@@ -1,0 +1,166 @@
+# Chapter model context
+
+## chapter_index
+
+98
+
+## name
+
+98
+
+## word_target
+
+500
+
+## chapter_title
+
+গলা কাটা
+
+## chapter_summary
+
+The chapter plunges into the harsh reality of the marketplace, where the central conflict revolves around the exorbitant and merciless pricing dictated by the shopkeeper. This environment is vividly painted with the imagery of predatory commerce, where the 'gola kata dam'—a price that feels like a throat-cutting demand—dominates the air. The protagonist confronts this economic cruelty, feeling the sharp sting of exploitation in every transaction. As the tension mounts over this relentless financial pressure, the narrative leaves the reader questioning: can dignity and fair exchange survive within such a brutally unforgiving commercial landscape?
+
+## further_references
+
+
+## characters
+
+### Item 1
+
+#### id
+
+c1
+
+#### name
+
+দোকানদার
+
+#### role
+
+দাম নির্ধারণকারী
+
+### Item 2
+
+#### id
+
+c2
+
+#### name
+
+ক্রেতা
+
+#### role
+
+দাম প্রদানকারী
+
+## qualities
+
+### historical_accuracy
+
+দোকানদারের গলা কাটা দাম নেওয়ার দৃশ্যটি তৎকালীন অর্থনৈতিক বাস্তবতার একটি কঠোর চিত্র তুলে ধরে।
+
+### human_in_the_loop
+
+নির্মম দাম চাপিয়ে দেওয়া দোকানদারের আচরণ মানুষের দৈনন্দিন সংগ্রামের প্রতিফলন ঘটায়।
+
+### influence_of_other_works
+
+এই অধ্যায়ের বর্ণনা প্রাচীন লোককথার কঠোর বাস্তবতার প্রতিধ্বনি বহন করে।
+
+### cultural_relevance
+
+গলা কাটা দামের প্রসঙ্গটি বাংলার গ্রামীণ অর্থনীতির একটি পরিচিত সামাজিক সমস্যাকে তুলে ধরে।
+
+### literary_style
+
+গল্পের ভাষা নির্মমতা এবং তীক্ষ্ণ বাস্তবতার মিশ্রণে রচিত হয়েছে।
+
+### narrative_techniques
+
+সংক্ষিপ্ত অথচ তীব্র বর্ণনা ব্যবহার করে লেখক দামের নিষ্ঠুরতা ফুটিয়ে তুলেছেন।
+
+### symbolism_and_motifs
+
+দোকানদারের উচ্চ দাম এখানে অর্থনৈতিক শোষণ এবং নিষ্ঠুরতার প্রতীক হিসেবে কাজ করে।
+
+### reader_engagement_strategies
+
+পাঠককে সরাসরি দামের নিষ্ঠুরতার মুখোমুখি দাঁড় করিয়ে দেওয়া হয়েছে, যা মনোযোগ আকর্ষণ করে।
+
+### ethical_considerations
+
+অতিরিক্ত মুনাফা বা গলা কাটা দাম নেওয়া নৈতিকতার প্রশ্ন উত্থাপন করে।
+
+### potential_controversies
+
+বাজারের এই ধরনের অনৈতিক লেনদেন নিয়ে সামাজিক বিতর্কের সৃষ্টি হতে পারে।
+
+### diversity_and_inclusion
+
+এই অধ্যায়টি অর্থনৈতিক বৈষম্যের শিকার সাধারণ মানুষের চিত্র তুলে ধরে।
+
+### marketing_and_promotion
+
+এই অধ্যায়ের তীব্র বাস্তববাদটি সামাজিক সচেতনতা বৃদ্ধির মাধ্যমে প্রচারের সুযোগ সৃষ্টি করে।
+
+### significance_of_rise_of_bengal
+
+এই অর্থনৈতিক চাপ বাংলার সাধারণ মানুষের জীবনে যে কঠিন বাস্তবতা এনেছিল, তার একটি ক্ষুদ্র প্রতিচ্ছবি এটি।
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing 'গলা কাটা দাম' not as a financial transaction but as a linguistic violence—the word itself feels like physical abrasion.
+- Focusing on the collateral damage of the pricing: how does the exorbitant price affect the *quality* or *nature* of the purchased item, rendering it almost worthless despite its presence?
+- Using an auditory perspective where C2's internal monologue is dominated by the cacophony of other market noises—a constant counterpoint to the silence imposed by C1's rigid demand.
+
+### story_options
+
+- Setting: A specific section of a crowded bazaar near a river crossing; Desire: C2 needs only a small, vital component (e.g., a particular thread or handful of spice) but the shopkeeper demands a price proportional to a whole livelihood; Obstacle: The rhythmic haggling of nearby vendors drowns out any plea for reason.
+- Setting: A narrow lane overshadowed by aging structures where dust hangs heavy in the afternoon sun; Desire: C2 seeks a specific heirloom or necessary craft item, but the shopkeeper insists on an inflated price rooted in sentimentality rather than commerce; Obstacle: The oppressive heat makes communication labored and slow.
+- Setting: Near the edge of the market, at a small roadside stall specializing in perishable goods (e.g., fish); Desire: C2 attempts to argue based on scarcity or spoilage against the shopkeeper's fixed demand; Obstacle: A third party intervenes with an equally unreasonable counter-demand, creating a stalemate of greed.
+
+### subject_rotations
+
+- Treating 'গলা কাটা দাম' as a systemic failure of social contract rather than just individual haggling.
+- Exploring the shopkeeper (C1) not as pure villainy, but as a symptom of an over-saturated market where survival necessitates predatory behavior.
+- Shifting focus from the *price* to the *object*: how does the narrator imbue the object being sold with impossible symbolic weight due to the required price?
+
+### sensory_details
+
+- Touch: The coarse, chafing texture of jute sacks or heavily worn counter surfaces under C2's tentative hand.
+- Sound: The specific, high-pitched, grating sound of scales or measuring implements being manipulated aggressively by the shopkeeper.
+- Smell: The competing scents of damp earth mixed with cheap spices and stagnant river water in the market periphery.
+
+### research_questions
+
+- In local colloquialisms, is there an equivalent idiom describing unfair pricing that implies a physical violation rather than just financial loss?
+- How are 'survival' narratives presented in Bengali folklore—is exploitation ever framed as inevitable or heroic?
+
+### structural_variants
+
+- A cyclical structure: C2 enters the negotiation, reaches maximum friction (the throat-cutting price), and retreats, only to be drawn back later by necessity.
+- An internal mosaic: Juxtaposing rapid-fire, aggressive lines of haggling with extremely slow, observational passages detailing the texture or light in the marketplace.
+
+### unused_angles
+
+- Detailing the unseen labour that creates the item being priced, contrasting it sharply against the seller's markup.
+- Exploring C2’s deep cultural shame/fear when forced into such an overtly aggressive financial confrontation in public.
+- Using silence as a weapon: moments where all negotiation stops, leaving only the weight of the demanded price hanging between them.
+
+### variety_note
+
+This chapter focuses exclusively on economic predation and sharp transactional friction, differing from prior poems' focus on social labeling (like 'ল্যাদ') or strategic maneuvering ('সেয়ানে সেয়ানে').

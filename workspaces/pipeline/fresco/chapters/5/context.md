@@ -1,0 +1,95 @@
+# Chapter model context
+
+## chapter_index
+
+5
+
+## name
+
+5
+
+## word_target
+
+200
+
+## chapter_title
+
+The Rejection of the House
+
+## chapter_summary
+
+She turns her back on domestic expectation, and the poem argues that her loyalty belongs only to the canvas and the verse.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+written
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing domestic expectation not as emotional restraint, but as a structural limitation—the walls of the haveli trapping the color.
+- Treating 'loyalty to canvas' less as romantic dedication and more as an economic necessity for survival in this environment.
+- Centering the physical mechanics of refusal: the tension between the soft textile expectation (silk) and the hard, chemical reality of lime plaster.
+
+### story_options
+
+- Setting: The threshold of a richly decorated family courtyard. Desire: To visualize the weight of unsaid obligations clinging to Debolina’s shawl. Obstacle: A persistent vision of polished brass utensils symbolizing routine.
+- Setting: Looking out from the scaffold onto perfectly manicured (but unused) domestic garden beds. Desire: To prove that art requires wildness, not cultivation. Obstacle: The temptation of a predictable, beautiful bloom.
+- Setting: Near an intricately carved wooden doorway which symbolizes enclosure. Desire: To perform a physical act of severance—a specific gesture with her tools or body part. Obstacle: An echo of familial expectation projected onto the wood grain.
+
+### subject_rotations
+
+- Shifting from 'rejection' to 'redirection': showing how the energy previously bound for domestic roles is transmuted directly into pigment-making fervor.
+- Analyzing the house not as a place of confinement, but as a massive, inherited archive—a memory Debolina must refuse to become part of.
+- The comparison between the permanence sought in art and the inescapable temporality imposed by social/familial structures.
+
+### sensory_details
+
+- The gritty friction of dry sandstone dust against bare skin during a long night shift.
+- The specific, sharp metallic scent of unpolished iron tools used for grinding pigments, contrasting with warm interior smells.
+- The sound of the cicadas in aggressive chorus immediately following the last light leaving the courtyards.
+
+### research_questions
+
+- How did labor expectations for women within the established Marwari merchant households translate into domestic routines that Debolina would need to actively fight against?
+- Can specific vocabulary related to domestic arts (weaving, cooking, embroidery) be deployed as antithetical concepts to artistic abstraction in this poem?
+
+### structural_variants
+
+- A highly fragmented structure mimicking the break of a commitment, with sharp caesuras punctuating discarded futures.
+- Using an extended metaphor where the act of painting is described as physically dismantling or un-weaving a societal garment.
+
+### unused_angles
+
+- The specific legal/social implications of female autonomy in that era regarding property and labor.
+- A direct confrontation with an imagined, archetypal 'domestic self' who speaks only in silences and domestic imperatives.
+
+### variety_note
+
+This chapter moves away from pure sensory absorption (Part I) to a definitive ideological stance—the active severing of ties—unlike the preceding poems which were observational musings on scent and form.
+
+## draft
+
+### sha256
+
+947b665fe7a4bde9b9513672ddd98d5162672d34d2552770b0ca91f5d9952dd5
+
+### written_at
+
+2026-10-11T18:31:02.318712+00:00
+
+### origin
+
+write

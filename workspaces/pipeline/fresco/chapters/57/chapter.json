@@ -1,0 +1,58 @@
+{
+  "chapter_index": 57,
+  "name": "57",
+  "word_target": 200,
+  "chapter_title": "The Abandoned Fresco",
+  "chapter_summary": "The painted wall stands in a house no family returns to, and the poem asks what the art means now.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Geological effects on plastered surface arts",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the abandoned fresco as a memorial to failed ambition, where every pigment choice is a lost conversation.",
+      "Focusing on the physical deterioration—the spalling lime or the flaking color—as a metaphor for Debolina's own suppressed creative energy that cannot be contained by stasis.",
+      "Treating the dust settling over the abandoned piece not as passive neglect, but as an active, slow process of artistic integration and forgetting."
+    ],
+    "story_options": [
+      "Setting: A patch of fresco where a painted figure is visibly crumbling; Desire: To imagine what unfinished gesture or word that face was meant to convey before the decay started; Obstacle: The inability to resurrect the intended narrative from the ruin.",
+      "Setting: The deep, shaded niche within an unused haveli wall; Desire: To sense how the cool interior air preserves a specific ghost-scent—not musk, but perhaps old, dry wood mixed with aged lime; Obstacle: The feeling that this preserved memory is too fragile to be acknowledged by her own active labor.",
+      "Setting: Debolina working near an adjacent, pristine wall, constantly viewing the abandoned one in contrast; Desire: To consciously refuse a particular color palette on her new work, mourning what the derelict wall represents, but accepting the necessity of moving forward."
+    ],
+    "subject_rotations": [
+      "Shifting from 'what does the art mean now' to 'what remains when meaning is stripped away by neglect?'",
+      "Framing abandonment not as tragedy, but as a necessary dialectic partner—the failed piece informs the successful one.",
+      "Examining the fresco through geological time (stone, pigment) rather than human life-span (Debolina's labor)."
+    ],
+    "sensory_details": [
+      "The granular grit of dried lapis dust caught in a draft that moves across the textured plaster.",
+      "The high, sharp smell of mineral efflorescence—the salts leaching from the stone surface when disturbed by the night air."
+    ],
+    "research_questions": [
+      "In Shekhawati architecture, how is weathering traditionally categorized: as decay (failure) or as a form of slow visual patina?",
+      "What are specific terms used in Rajasthani artisanal lore for areas where pigment loss signifies a disruption in the intended pattern?"
+    ],
+    "structural_variants": [
+      "A cyclical poem structure mirroring the patterns on the fresco itself: repeating motifs that become increasingly fractured as the lines progress.",
+      "An epistolary approach, where Debolina addresses the wall as if it were a former student or an unacknowledged collaborator."
+    ],
+    "unused_angles": [
+      "Exploring how the silence of abandoned art affects the *sound* of her current labor on active walls (e.g., is the scraping brush quieter in comparison?).",
+      "A direct confrontation with the ghosts within the paintings, asking if they are actively judging her pursuit."
+    ],
+    "variety_note": "While previous chapters explored the vibrant struggle and material application, this piece grounds the sequence in absence—the weight of what has been left behind and the philosophical residue of artistic entropy."
+  },
+  "draft": {
+    "sha256": "6b33d5348f2871e030ede58aed7f79de21d4df5a192a3f8d89c18d8fcba95e70",
+    "written_at": "2026-10-13T03:15:47.940314+00:00",
+    "origin": "write"
+  }
+}

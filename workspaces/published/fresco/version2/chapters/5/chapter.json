@@ -1,0 +1,67 @@
+{
+  "chapter_index": 5,
+  "name": "5",
+  "word_target": 80,
+  "chapter_title": "The Unseen Hand",
+  "chapter_summary": "The poem names the central wound: the hand that lays the line, the hand that aches and fails, is the one thing the finished wall refuses to record, and the wall keeps its silence about the man.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing exclusively on the mechanics of grip: how muscle memory translates into stroke without conscious thought, treating control as a physical discipline separate from inspiration.",
+      "Interrogating the relationship between fingerprints and permanence; whether sweat or oil stains leave a mark that is more honest than pigment.",
+      "Treating the tools (brushes, trowels) not as extensions of the hand, but as temporary proxies for the artist's own failing strength."
+    ],
+    "story_options": [
+      "Setting: The precise corner joint where two sections meet; Desire: To secure a hairline crack that threatens to betray fatigue, Obstacle: A momentary tremor in the forearm.",
+      "Setting: Inspecting a patch of cured plaster before applying pigment; Desire: To feel the substrate's texture through worn skin, Obstacle: Being distracted by the sound of a distant animal call cutting through the night.",
+      "Setting: Clutching a piece of discarded scaffolding wood for leverage while painting high up; Desire: A single moment of perfect balance that feels transcendent, Obstacle: The weight suddenly shifting too far to one side."
+    ],
+    "subject_rotations": [
+      "A hyper-focus on the bone structure beneath the flesh—the skeletal reality required to support such prolonged physical output.",
+      "Shifting the perspective from 'hand' as instrument to 'hand' as witness, observing its own minute failures (a slight wobble, a patch of hesitation).",
+      "Treating the hand not in action, but in necessary *rest*—the tension before movement versus the limpness after exhaustion."
+    ],
+    "sensory_details": [
+      "The specific grit of limestone dust accumulating under fingernails into an unshakeable stratum.",
+      "The low-frequency thrumming vibration felt through soles of worn leather shoes when near a poorly constructed section of the haveli.",
+      "The sharp, almost metallic scent of dried adhesive glue clinging to the undersides of tools."
+    ],
+    "research_questions": [
+      "What were the specific ergonomic challenges faced by pre-industrial muralists working at heights without modern scaffolding safety measures?"
+    ],
+    "structural_variants": [
+      "A sustained, single-breath examination: one extended metaphor where the hand is compared to a migrating animal or root system.",
+      "Alternating focus between macro (the broad sweep of a line across the wall) and micro (the tremor in the index finger applying final definition)."
+    ],
+    "unused_angles": [
+      "The philosophical weight given to 'finish' vs. 'process' from an ancient artisan's viewpoint, separate from the modernist/Romantic critique.",
+      "Exploring labor fatigue not as a personal failing, but as an inevitable consequence of historical economic stratification."
+    ],
+    "variety_note": "This chapter grounds the abstract concept of the unseen labor by focusing intensely on the tangible, almost geological reality of the physical act—the hand itself becomes the subject matter rather than simply the agent."
+  },
+  "draft": {
+    "sha256": "13309f672790dbd7d4060212e8e3b150a9004a453b13574cd4513935d0f5136a",
+    "written_at": "2026-10-04T19:40:44.350496+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "13309f672790dbd7d4060212e8e3b150a9004a453b13574cd4513935d0f5136a",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T19:43:48+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

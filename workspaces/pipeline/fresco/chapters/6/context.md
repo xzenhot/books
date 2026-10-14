@@ -1,0 +1,89 @@
+# Chapter model context
+
+## chapter_index
+
+6
+
+## name
+
+6
+
+## word_target
+
+200
+
+## chapter_title
+
+Abstract, Minimal
+
+## chapter_summary
+
+The minimalist stroke is a discipline of subtraction, and the poem praises the line that leaves everything else out.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+written
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing minimalism not as subtraction, but as an active act of violent negation against the richness of memory.
+- Focusing entirely on the *physicality* of the line—the pressure exerted by the brush or stylus, a measure of force rather than grace.
+- Viewing the finished 'minimal' stroke as a fossilized moment, incapable of change but perfectly preserving a single decision.
+
+### story_options
+
+- Setting: The bare patch of wall after a large design has been scraped back. Desire: To apply one perfect, singular line that defines the emptiness left behind. Obstacle: A sudden tremor in her hand forcing an unnecessary corrective mark.
+- Setting: Her own stretched arm while working high on the scaffold. Desire: To translate the perceived strain of holding up a weightless abstraction into pigment density. Obstacle: The harsh desert wind causing micro-vibrations that ruin the edge definition.
+- Setting: A discarded palette, scraped clean save for one residual speck of color. Desire: To obsessively study this single surviving mote as if it holds the entire philosophy of her recent work. Obstacle: Another streak of dust settling onto the pigment.
+
+### subject_rotations
+
+- Treating 'minimalism' not in terms of line economy, but in terms of *temporal* reduction—capturing a single instant before it dissolves into memory.
+- Analyzing the negative space (the unpainted wall) as an active participant or entity within the composition itself.
+- Exploring whether this pursuit of absolute essence requires a corresponding withdrawal from external sensory input (i.e., choosing silence over musk).
+
+### sensory_details
+
+- The gritty, cool resistance of old lime plaster beneath a dry charcoal line.
+- The sound of the brush bristles dragging against set pigment, a faint, abrasive hiss.
+- The metallic taste on her tongue after inhaling fine gypsum dust from the crumbling wall.
+
+### research_questions
+
+- Are there historical instances in Shekhawati fresco traditions where purposeful 'voids' or deliberately empty areas were used compositionally?
+
+### structural_variants
+
+- A poem structured entirely around a series of negations, each line beginning with 'not...' or 'without...'.
+- A haiku-like cascade, where the final word/image must be maximally self-contained and absolute.
+
+### variety_note
+
+This chapter shifts focus from Debolina's sensory absorption of fleeting external figures (musks) to her rigorous internal discipline through controlled visual negation and structural economy.
+
+## draft
+
+### sha256
+
+3233a4b616f46356ce5de6ebe8d7741722b458d0442f7a0d4f44466534967277
+
+### written_at
+
+2026-10-11T18:31:12.183320+00:00
+
+### origin
+
+write

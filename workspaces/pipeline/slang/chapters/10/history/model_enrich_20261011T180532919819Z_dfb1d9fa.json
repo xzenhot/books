@@ -1,0 +1,45 @@
+{
+  "chapter_index": 10,
+  "name": "10",
+  "word_target": 500,
+  "chapter_title": "ক্যাঁচাল",
+  "chapter_summary": "Chapter 10, titled 'ক্যাঁচাল' (Kyanchal), plunges the narrative into a protracted, labyrinthine argument, a verbal entanglement where logic dissolves into endless squabbling. The central conflict manifests as a relentless, cyclical debate, symbolized by the growing, intractable 'Kyanchal'—a tangle of unresolved issues and escalating friction. The imagery is dominated by this linguistic knot, a web of words where every attempted resolution only seems to weave the argument tighter. As the characters exhaust themselves in this fruitless exchange, the chapter leaves the reader suspended in uncertainty: can this Gordian knot of dispute ever be untangled, or is the 'Kyanchal' destined to become the defining, permanent state of their relationship?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরিত্র ১",
+      "role": "বিতর্ককারী"
+    },
+    {
+      "id": "c2",
+      "name": "চরিত্র ২",
+      "role": "আলোচনাকারী"
+    },
+    {
+      "id": "c3",
+      "name": "চরিত্র ৩",
+      "role": "উত্তেজিত पक्ष"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "এই অধ্যায়টি এমন একটি দীর্ঘ জটিল বচসার চিত্র তুলে ধরে যেখানে ঐতিহাসিক প্রেক্ষাপট ক্রমশ অস্পষ্ট হয়ে আসছে।",
+    "human_in_the_loop": "চরিত্রহীন এই অধ্যায়েও, কেবল কথার জটিলতাই মানুষের মানসিক দ্বন্দ্বর প্রতিফলন ঘটাচ্ছে।",
+    "influence_of_other_works": "কোনো নির্দিষ্ট সাহিত্যকর্মের সরাসরি প্রভাব এখানে দৃশ্যমান নয়, কেবল বাগাড়ম্বরই প্রধান।",
+    "cultural_relevance": "বাংলা সংস্কৃতিতে দীর্ঘ ও অপ্রয়োজনীয় তর্ক-বিতর্ক বা 'ক্যাঁচাল' একটি পরিচিত সামাজিক চিত্র।",
+    "literary_style": "গদ্যের এই অংশটি মূলত কথোপকথনের জটিলতার মাধ্যমে একটি দার্শনিক অস্থিরতা ফুটিয়ে তুলেছে।",
+    "narrative_techniques": "লেখক এখানে সংলাপের মাধ্যমে একটি চলমান, সমাধানহীন দ্বন্দ্ব তৈরি করেছেন।",
+    "symbolism_and_motifs": "অসমাপ্ত ঝামেলার প্রতীক হিসেবে 'ক্যাঁচাল' শব্দটি বারবার ফিরে আসছে।",
+    "reader_engagement_strategies": "পাঠককে এই নিরন্তর বচসার মধ্যে আটকে রাখা হচ্ছে, যেন সমাধানই মূল আকর্ষণ।",
+    "ethical_considerations": "অযৌক্তিক ঝগড়া এবং যুক্তির অনুপস্থিতি নৈতিকতার প্রশ্নে প্রশ্ন তোলে।",
+    "potential_controversies": "কোনো নির্দিষ্ট বিতর্ক এখানে নেই, তবে অযৌক্তিক তর্ক-বিতর্ককে কেন্দ্র করে সামাজিক সমালোচনা হতে পারে।",
+    "diversity_and_inclusion": "চরিত্রের অনুপস্থিতির কারণে এই অধ্যায়ে কোনো নির্দিষ্ট সামাজিক বৈচিত্র্য তুলে ধরা হয়নি।",
+    "marketing_and_promotion": "এই অধ্যায়টিকে 'অসমাপ্ত দ্বন্দ্বের কাব্য' হিসেবে প্রচার করা যেতে পারে।",
+    "significance_of_rise_of_bengal": "রাজনৈতিক বা সামাজিক উত্থানের জটিলতা এখানে কেবল ব্যক্তিগত বচসার রূপক হিসেবে চিত্রিত হয়েছে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "chapter_index": 5,
+  "name": "5",
+  "word_target": 500,
+  "chapter_title": "সূর্যের দিকে প্রথম রক্ত",
+  "chapter_summary": "সমুদ্রের গর্ভ ছেড়ে পাহাড়ের রক্তাক্ত উত্থান — প্রথমবার সূর্যের আলো ছুঁয়ে নগ্ন দাঁড়ানো।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Proterozoic Redox Transitions in Earth History",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "enriched",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": ["research", "correctness", "theme", "syntax", "quality"],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "neruda",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 9,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 3,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Confessionalism",
+        "one_liner": "Direct, unflinching exposure of personal trauma."
+      },
+      "writing_skills": ["visceral physical imagery", "unfiltered first-person perspective", "taboo mapping"],
+      "image_seed": "a ridge crest meeting the first unfiltered light",
+      "volta": "the blood turning from mineral into breathless revelation",
+      "sonic_texture": "oxidation — a rust-edged vowel, a raw gash of sound",
+      "line_gesture": "short declarative lines that bloom into a single flare",
+      "variety_note": "an exposure poem, unflinching where chapter 4 was ecstatic."
+    },
+    "angles": [
+      "The transition from deep-sea chemistry (sulfides, mantle melt) to photochemical reactivity upon atmospheric exposure.",
+      "Viewing the 'blood' not as mineral iron oxide but as a sudden phase change in trapped volatiles reacting violently with nascent oxygen/UV light.",
+      "Framing the first solar contact as an overwhelming sensory assault on the ancient rock—a transition from profound darkness to blinding, unbearable revelation."
+    ],
+    "story_options": [
+      "setting: A newly exposed ridge crest overlooking a dark, primordial ocean basin., desire: To shed the pressure of oceanic depth and achieve aerial permanence., obstacle: The corrosive, aggressive nature of unfiltered stellar radiation interacting with mineral surfaces., turn: The rock achieves brief luminescence before crusting over in rapid oxidation.",
+      "setting: A subterranean fault line where the upwelling magma meets the cooled abyssal sediments., desire: To escape confinement and express its internal heat outward., obstacle: The sheer inertia of millennia of accumulated hydrostatic pressure., turn: The rising material does not form a solid mountain, but a colossal plume of incandescent gas visible from orbit.",
+      "setting: A fissure cutting through the boundary where oceanic crust meets continental precursor rock (a hybrid zone)., desire: To reconcile two disparate chemical signatures—salt and iron., obstacle: The rapid, irreversible mixing of these incompatible chemistries creating volatile instability., turn: The resultant 'blood' is not solid but a transient, phosphorescent plasma jetting into the upper atmosphere."
+    ],
+    "subject_rotations": [
+      "Focusing less on tectonic ascent and more on mineralogical *color*—how pressure/temperature dictates light absorption and emission before true weathering.",
+      "Treating the solar incident as an aggressive, judgmental entity observing the mountain's 'shameful' raw exposure rather than just a source of energy.",
+      "Interweaving সাগরিকা ঘোষ's initial awareness of her own body's sudden flush/heat against this external geological ignition."
+    ],
+    "sensory_details": [
+      "Visual: The transition from the absolute, lightless indigo of deep water to the blinding ochre-red smear across the exposed granite.",
+      "Aural: The sound of fracturing releasing trapped H2S gas—a sudden, sharp hiss against the low, oceanic pressure drone.",
+      "Tactile: The chilling slickness of supercooled brine evaporating instantly upon contact with warmer, rising rock surfaces."
+    ],
+    "research_questions": [
+      "What specific iron-bearing minerals dominate Proterozoic shelf margins where anoxic conditions suddenly meet oxidative atmospheric exposure?",
+      "How does the crystallization temperature profile change when magma ascends rapidly through chemically distinct (saline vs. silicate) layers?"
+    ],
+    "structural_variants": [
+      "A cyclical structure based on rhythmic descriptions of 'shedding light' and 'absorbing darkness,' mimicking a tidal cycle.",
+      "Structuring the poem as an accretion sequence, where each stanza describes one newly exposed layer reacting to the sun in turn."
+    ],
+    "unused_angles": [
+      "The mountain’s internal debate about which geological story—deep time or surface appearance—to adopt.",
+      "Using the concept of 'geological voyeurism,' wherein the deep Earth is suddenly observed by a distant, harsh light source."
+    ],
+    "variety_note": "This chapter shifts focus from slow deformation (previous chapters) to the moment of violent chemical interface and immediate environmental trauma imposed by external energy."
+  },
+  "draft": {
+    "sha256": "0dc8c0a0eb7af7f4824fd77d007e107e16fa141484debfd4bf4fc30411617dc5",
+    "written_at": "2026-10-11T13:13:53.690768+00:00",
+    "origin": "write"
+  }
+}

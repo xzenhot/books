@@ -1,0 +1,105 @@
+# Chapter model context
+
+## chapter_index
+
+43
+
+## name
+
+43
+
+## word_target
+
+200
+
+## chapter_title
+
+The Bazaar of Silks
+
+## chapter_summary
+
+Silks and rich fabrics return in the poem's imagining, and the poem folds them back into the wall.
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+Mineral chemistry of textile dyes vs. fresco pigments
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+written
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the silks not as luxury goods for patrons, but as protective wrappings for hidden artisan tools or pigments necessary for Debolina’s unseen labor.
+- Treating the textiles poetically as captured moments of sound—the weave mimicking the rhythm of a distant merchant's bargaining voice, now silenced against the plaster.
+- A focus on scent transference: how the residual musk of dyes and oils from stored silks clings to the porous lime walls even after they are gone.
+
+### story_options
+
+- setting: The shadowed corner of a half-empty haveli, near where bales were once stacked., desire: To map the specific pattern of faded dye residue onto Debolina's current minimalist sketch line., obstacle: The memory of the merchants’ haggling voices is too loud and insistent.
+- setting: Upon a discarded swatch of rich, patterned silk caught in a breeze through a broken archway., desire: To trace the pattern's complexity back to one fundamental geometric shape she could render in black pigment., obstacle: The weight of historical expectation associated with such opulence threatens to collapse her abstraction.
+- setting: Within a tightly rolled bundle of fabric, smelling faintly of saffron and old leather., desire: To find one singular thread—a color or texture—that matches the lapis pigment she is currently grinding by lamplight., obstacle: The sheer volume of forgotten commerce overwhelms her focus on minimalist essence.
+
+### subject_rotations
+
+- Examining how the dyes used in textiles (cochineal, indigo) share chemical kinship with mineral pigments like lapis and ochre.
+- Shifting from the physical object of silk to its symbolic function: it represents transported desire—the wish for permanence that clashes with the fading wall.
+- Viewing the silks as a temporary skin draped over the structural bones (columns, beams) of the haveli, contrasting transient beauty with enduring stone.
+
+### sensory_details
+
+- The slick, cool feel of untanned silk against the rough porosity of curing wet lime.
+- The sharp, ephemeral smell of specific textile mordants (fixing agents) mingled with desert dust.
+- The low, visual shimmer created when a sliver of reflected lamplight catches trapped metallic threads within an old weave.
+
+### research_questions
+
+- What were the most common imported dyes utilized by Shekhawati merchants in addition to local plant sources?
+
+### structural_variants
+
+- A cyclical structure where every stanza begins with a descriptive fragment of textile pattern, only to abruptly halt mid-sentence as Debolina focuses on her brushwork.
+
+### unused_angles
+
+- The specific logistical challenge of keeping delicate dyes stable in the arid Shekhawati climate.
+- How the act of storage—folding and wrapping silks—creates a form of unintentional, compressed art.
+
+### variety_note
+
+Unlike chapters focusing on the sheer scale of trade (like The Camel Train), this piece will focus intimately on the materiality and sensory texture of textiles themselves as they relate to color transfer.
+
+## draft
+
+### sha256
+
+34a06035bea413286befb7f12d7bdc65c48337ee25eef911deb4bae9e02e86b0
+
+### written_at
+
+2026-10-11T18:37:45.451898+00:00
+
+### origin
+
+write

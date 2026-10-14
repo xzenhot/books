@@ -1,0 +1,53 @@
+{
+  "chapter_index": 54,
+  "name": "54",
+  "word_target": 200,
+  "chapter_title": "The Name Spoken",
+  "chapter_summary": "For the first time the struggle is spoken aloud in the maker's own voice, and the poem records it.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing 'the name spoken' not as a singular confession but as a linguistic fragmentation—a sound breaking down into component vowels and harsh consonants against the silence.",
+      "Treating the act of naming an intrusion: does the uttered struggle become something external, an artifact caught in the air before it dissolves?",
+      "Centering the moment on the physical acoustics of the haveli courtyard; how does the dry night air carry this vulnerable sound outwards?"
+    ],
+    "story_options": [
+      "setting: The low veranda overlooking the empty main baori (stepwell)., desire: To see if the name, when uttered into the echoing stone basin, is absorbed or returned., obstacle: The sheer weight of inherited silence in the architecture that presses down on the sound.",
+      "setting: The sliver of open space between two massive haveli walls at midnight., desire: To have the utterance caught by a specific, unrelated nocturnal creature (e.g., a desert owl or stray dog) whose witness is impartial., obstacle: The artist's fear that this accidental audience will misinterpret the sound as madness rather than truth.",
+      "setting: Close to the freshly applied lime plaster, where the wetness acts like an amplifier for small sounds., desire: To use the moisture itself—the dampness of the material—as a metaphor for how words struggle to take shape and permanence., obstacle: The immediate fear that the name will be absorbed by the damp plaster, becoming indistinguishable from the pigment beneath."
+    ],
+    "subject_rotations": [
+      "Shifting focus entirely to the phonetic qualities of the struggle—the rasp, the hitch, the tonal shape—rather than its semantic content.",
+      "Interpreting 'speaking' not as verbal articulation but as a sudden, involuntary physical release (a gasp, a tremor) that functions like language.",
+      "Focusing on the memory: is she speaking her current struggle, or is the name drawn from a previous failure—a haunting echo?"
+    ],
+    "sensory_details": [
+      "The specific grit of residual ochre dust vibrating under the tongue when tasting the metallic tang before speaking.",
+      "The high-pitched, attenuated whine of cicadas in the dry heat that briefly drowns out and then reveals the spoken word.",
+      "The texture of her own calloused fingertips gripping the edge of the scaffold beam during the utterance."
+    ],
+    "research_questions": [
+      "How is vulnerability framed within traditions where female artistic expression was historically policed or confined?",
+      "What are documented sonic qualities in Rajasthani poetry that convey repressed emotional trauma without relying on overt declaration?"
+    ],
+    "structural_variants": [
+      "The poem could be structured as a direct, desperate monologue addressed to the 'Blank Canvas' from Chapter 1.",
+      "Using an abrupt fragmentation style, where every word of the confession is prefaced by a repeated, small sensory detail (e.g., 'Wet lime... and I said...')."
+    ],
+    "unused_angles": [
+      "An exploration of how societal expectation forms its own linguistic cage, making any true declaration inherently incomplete.",
+      "Contrasting the technical language of fresco restoration with the raw, unplanned grammar of her personal confession."
+    ],
+    "variety_note": "Where previous chapters focused on the invisibility of labor or the material properties of pigment (lime, lapis), this chapter must focus solely on the sonic and linguistic failure/success of articulation."
+  },
+  "draft": {
+    "sha256": "04039e52737d70b3ebab175c4e553ed36096813c5d2872191fe3b781d585838e",
+    "written_at": "2026-10-13T03:15:17.669288+00:00",
+    "origin": "write"
+  }
+}
