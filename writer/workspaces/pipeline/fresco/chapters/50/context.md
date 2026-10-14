@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 This chapter focuses intensely on the psychological comfort derived from erasure and anonymity, contrasting sharply with chapters that deal with sensory intake or impending confrontation.
+
+## draft
+
+### sha256
+
+3f2a3f3369b1eca4424a1d896e9d776f43e6755f8a2aa58d55add8f4114a70d1
+
+### written_at
+
+2026-10-11T18:39:03.500962+00:00
+
+### origin
+
+write

@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 Unlike earlier chapters focused on internalized sensory intake or static architecture, this piece is predicated entirely on passage and external rhythm.
+
+## draft
+
+### sha256
+
+67b75e9229ffffc6dfc07634cf99c6fe6fd6c029a9b652da76fa097931f33547
+
+### written_at
+
+2026-10-11T18:37:34.307392+00:00
+
+### origin
+
+write

@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -81,3 +81,17 @@ scaffolded
 ### variety_note
 
 Unlike earlier chapters focused on sensory intake or solitary struggle, this piece centers on an external social event—the visitation—and how that public gaze interacts with, and ultimately negates, her private labor.
+
+## draft
+
+### sha256
+
+e1a0da2a74bd6b3234302c6da5b3c6830918b36ae397cb2da11dd17201801cf3
+
+### written_at
+
+2026-10-11T18:37:55.562721+00:00
+
+### origin
+
+write

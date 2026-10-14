@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -82,3 +82,17 @@ scaffolded
 ### variety_note
 
 Where preceding chapters focused on Debolina's sensory input (musk, lime) or her internal state, this chapter turns outward to analyze the external presence of established power structures through the architecture they commissioned.
+
+## draft
+
+### sha256
+
+f1a3decee39d3688cbfde3d6e8245987d40c8f3314b3fe615563b26f5d48b8b6
+
+### written_at
+
+2026-10-11T18:35:59.137314+00:00
+
+### origin
+
+write

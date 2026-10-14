@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -83,11 +83,11 @@ This chapter pivots from focusing on the mechanics of creation (Part II) toward 
 
 ### sha256
 
-e5d67d8c61c6bffe480ad0c841395f6a2f6cedfa5e5a087867872b47f057e9a3
+9fd47e77115e811cf0972f200f2ad9aac953058a85315049523177fca3a980f7
 
 ### written_at
 
-2026-10-11T17:58:12.898951+00:00
+2026-10-11T18:35:23.822748+00:00
 
 ### origin
 

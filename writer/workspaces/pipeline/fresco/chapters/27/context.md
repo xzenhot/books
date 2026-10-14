@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -96,11 +96,11 @@ While neighbors explore material flaws (24, 25) or color depth (26), this chapte
 
 ### sha256
 
-f0179dd19d1699ce6f2898dc62b4ec5e37669eee72070c75a1cdaf17475a7a03
+fc9c32cf8b481059c4c5968ba1f880a21a01e2571dfa2923448db538947c056e
 
 ### written_at
 
-2026-10-11T17:57:44.747365+00:00
+2026-10-11T18:34:54.630597+00:00
 
 ### origin
 

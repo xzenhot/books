@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -77,3 +77,17 @@ scaffolded
 ### variety_note
 
 This chapter shifts focus from the ephemeral sensory input in Part I to a deep material engagement with architecture, treating the painted surface as an embodied, historical entity unlike previous meditations on scent or light.
+
+## draft
+
+### sha256
+
+b87b9c4214a1ee98e290faff57d1792dababf503b675991d9ccb8893fad1b61c
+
+### written_at
+
+2026-10-11T18:36:31.108534+00:00
+
+### origin
+
+write

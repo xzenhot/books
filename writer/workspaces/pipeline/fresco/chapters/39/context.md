@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -94,3 +94,17 @@ scaffolded
 ### variety_note
 
 This chapter moves away from the purely physical decay (lime/fresco skin) to examine man-made structures of value—finance and record-keeping—and how they conflict with raw sensory experience.
+
+## draft
+
+### sha256
+
+ed6105e4fd3f0a460be14ef93e4db9b15c7fc6ec6b6c23587b8864e9b57265dd
+
+### written_at
+
+2026-10-11T18:37:03.988842+00:00
+
+### origin
+
+write

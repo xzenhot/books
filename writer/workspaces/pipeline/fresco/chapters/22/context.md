@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -82,11 +82,11 @@ Unlike chapters focused on tangible failure (sketches, wounds), this poem center
 
 ### sha256
 
-b528b35acb0a4f5f6bbc2707328826385318289255c27acda97f5acbd2806167
+633686d4640cee3d3c017f8ab3071ceb4fc92a1a7a948771845872ac37158b55
 
 ### written_at
 
-2026-10-11T17:56:55.346449+00:00
+2026-10-11T18:34:04.213964+00:00
 
 ### origin
 

@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -84,11 +84,11 @@ This chapter moves away from sensory absorption to ritual commencement, groundin
 
 ### sha256
 
-524760a19c36e489dc2af8cb3326725be671b773d0c408a2847a2bf131338937
+058bf7531c318b37da9b5bda38846f10435b0ea6d4d22e164b5ca8f29ad6c925
 
 ### written_at
 
-2026-10-11T17:55:42.242216+00:00
+2026-10-11T18:32:37.373367+00:00
 
 ### origin
 

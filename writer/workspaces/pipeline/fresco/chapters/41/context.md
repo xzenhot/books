@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 While previous chapters focused on sensory input (musk, lime) or economic records (ledgers), this chapter pivots to historical authority and the burden of inherited grandeur in the architecture itself.
+
+## draft
+
+### sha256
+
+5e7a9287e0a87322da5af2f690b93abe58069bfddad973772e1db876bed65328
+
+### written_at
+
+2026-10-11T18:37:24.043532+00:00
+
+### origin
+
+write

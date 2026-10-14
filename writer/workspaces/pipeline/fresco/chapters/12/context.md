@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -82,11 +82,11 @@ Unlike earlier poems focusing on external stimuli (musk, light), this chapter is
 
 ### sha256
 
-e382f79146770cec3ce1c259fb66fbcb222980ba465b00641b50245b88ac0b41
+ff3beaf7e4993f5610b577ab877b6fb5bd9f7c4a72e2a51ec86639e2ca26de79
 
 ### written_at
 
-2026-10-11T17:55:26.253893+00:00
+2026-10-11T18:32:18.230168+00:00
 
 ### origin
 

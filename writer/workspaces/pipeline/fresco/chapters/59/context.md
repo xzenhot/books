@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -89,3 +89,17 @@ scaffolded
 ### variety_note
 
 This chapter emphasizes the internal calculus—the active cost and deliberate choice behind her trajectory—contrasting with neighbours that focus on surface or external pressure.
+
+## draft
+
+### sha256
+
+b1f708b582a6459c077ac3660e183fec4851cd7308775da25be79f3a16d38b4c
+
+### written_at
+
+2026-10-11T18:40:40.864451+00:00
+
+### origin
+
+write

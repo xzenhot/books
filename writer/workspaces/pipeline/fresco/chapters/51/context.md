@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 While previous chapters focused on the internal cost or the mechanics of labor (shadow vs. light), this poem must anchor its energy in the external moment of acknowledged reception.
+
+## draft
+
+### sha256
+
+8fa51c734c6bcb605a20f85cf76b8818f1957852792b3bd46951409358dd7f07
+
+### written_at
+
+2026-10-11T18:39:13.951313+00:00
+
+### origin
+
+write

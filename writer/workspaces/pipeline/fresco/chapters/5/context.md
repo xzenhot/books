@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -84,11 +84,11 @@ This chapter moves away from pure sensory absorption (Part I) to a definitive id
 
 ### sha256
 
-ff06171802c8959ef289e85968c9a5395b44608e9dadc803cf2b777ed4453821
+947b665fe7a4bde9b9513672ddd98d5162672d34d2552770b0ca91f5d9952dd5
 
 ### written_at
 
-2026-10-11T17:54:19.974805+00:00
+2026-10-11T18:31:02.318712+00:00
 
 ### origin
 

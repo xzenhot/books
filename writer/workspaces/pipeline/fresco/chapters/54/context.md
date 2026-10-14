@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Where previous chapters focused on the invisibility of labor or the material properties of pigment (lime, lapis), this chapter must focus solely on the sonic and linguistic failure/success of articulation.
+
+## draft
+
+### sha256
+
+b4734fe1292351a4d297dca10fb5437400966ba47439804016bb3587dc9b5e81
+
+### written_at
+
+2026-10-11T18:39:48.897760+00:00
+
+### origin
+
+write

@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -80,11 +80,11 @@ Unlike earlier poems focused on singular sensory observations (musk or line), th
 
 ### sha256
 
-6f186e0bcc6181fc3d70ef408502f4ce470abbbf986347870a0462e7a5f5f355
+aeefbe82876deabb3554c6302d1bbdbc07b4e2a243825d07375ea95038ee4e3a
 
 ### written_at
 
-2026-10-11T17:54:40.077174+00:00
+2026-10-11T18:31:24.108725+00:00
 
 ### origin
 

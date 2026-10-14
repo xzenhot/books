@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 Unlike poems that focus on established cycles (like color endurance or market rhythm), this chapter focuses specifically on the negative space—the deliberate, profound interruption of the narrative flow.
+
+## draft
+
+### sha256
+
+e954fb8e21836bc49b168f4e4bb4f60e6370960efe95da17ebf48dd33e0ba281
+
+### written_at
+
+2026-10-11T18:37:14.652122+00:00
+
+### origin
+
+write

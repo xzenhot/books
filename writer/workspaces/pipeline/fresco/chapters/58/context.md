@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -75,3 +75,17 @@ scaffolded
 ### variety_note
 
 Unlike earlier poems that focus on the inputs (musk, lime) or processes (grinding), this chapter focuses exclusively on the accumulated evidence—the permanent marks left behind by action itself.
+
+## draft
+
+### sha256
+
+6e1dcf8e1dcd05b57100da601d60e36d605c6937db87ea6885502efaf76043c9
+
+### written_at
+
+2026-10-11T18:40:30.373490+00:00
+
+### origin
+
+write

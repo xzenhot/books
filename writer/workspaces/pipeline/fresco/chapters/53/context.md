@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -93,3 +93,17 @@ scaffolded
 ### variety_note
 
 This poem must move beyond internal struggle and use intense physical action, translating the thematic choice into a single, visible (if brief) bodily event that differs from earlier sensory absorption.
+
+## draft
+
+### sha256
+
+962cf707e5ac2fc5df12d25ab7468466e4afbfd2597cf95c74776bbe3ccbe071
+
+### written_at
+
+2026-10-11T18:39:36.995232+00:00
+
+### origin
+
+write

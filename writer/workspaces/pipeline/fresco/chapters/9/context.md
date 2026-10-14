@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -85,11 +85,11 @@ Unlike the deep immersion into scent or pure form of neighbouring chapters, this
 
 ### sha256
 
-090ca7a5c20ecaff10b5e4d584d7d683a94c07a1deaf61690fe01df95fb9fe89
+36e87563a82db8ca2933d0e9ceab900a2b1ed6e847bc52f209d707073152955b
 
 ### written_at
 
-2026-10-11T17:54:57.371245+00:00
+2026-10-11T18:31:45.819850+00:00
 
 ### origin
 

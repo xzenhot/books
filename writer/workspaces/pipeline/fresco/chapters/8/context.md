@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -84,11 +84,11 @@ While previous chapters focused on sensual absorption or violent negation, this 
 
 ### sha256
 
-76f367c8fc7ce3b54d3e43907bb77eec45d64cefe546d246523391bc0dcc56db
+f87a9e5168c034095d3510bb836d3b994ce71bef2d4cf72581a52166e44fe1e3
 
 ### written_at
 
-2026-10-11T17:54:47.369765+00:00
+2026-10-11T18:31:34.976846+00:00
 
 ### origin
 

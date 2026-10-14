@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -89,3 +89,17 @@ scaffolded
 ### variety_note
 
 Unlike chapters focusing on the sheer scale of trade (like The Camel Train), this piece will focus intimately on the materiality and sensory texture of textiles themselves as they relate to color transfer.
+
+## draft
+
+### sha256
+
+34a06035bea413286befb7f12d7bdc65c48337ee25eef911deb4bae9e02e86b0
+
+### written_at
+
+2026-10-11T18:37:45.451898+00:00
+
+### origin
+
+write

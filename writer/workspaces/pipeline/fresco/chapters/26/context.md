@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -79,11 +79,11 @@ While neighboring poems focus on *revealing* hidden material (cracks, layers), t
 
 ### sha256
 
-4d6cf6b9381229492bee43d8caeb930d43077a48eed4ff4178f5ca45813e52d6
+9dfb53cbe866dd7062ce5283834956973f78fc1e2f9c519a334e98f359a003ca
 
 ### written_at
 
-2026-10-11T17:57:33.198922+00:00
+2026-10-11T18:34:44.411557+00:00
 
 ### origin
 
