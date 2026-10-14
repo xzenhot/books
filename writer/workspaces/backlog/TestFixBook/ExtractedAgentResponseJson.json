@@ -1,0 +1,112 @@
+{
+  "book_name": "TestFixBook",
+  "book_long_title": "টেস্টফিক্সবুক: গৌড়ের অগ্নিগর্ভ পাণ্ডুলিপি",
+  "generic": "ঐতিহাসিক মহাকাব্য / জাতীয়তাবাদী সাহিত্য",
+  "era": "590AD-625AD",
+  "language": "Bengali",
+  "target_audience": "সাধারণ পাঠক, ইতিহাস অনুরাগী, শিক্ষার্থী",
+  "chapter_count": 2,
+  "created_at": "2026-04-22",
+  "user_name": "pijush",
+  "book_summary": "৫৯০-৬২৫ খ্রিস্টাব্দের গৌড় রাজ্যের পটভূমিতে রচিত এক মহাকাব্যিক উপন্যাস। রাজা শশাঙ্কের উত্থান, বৌদ্ধ ও ব্রাহ্মণ্য ধর্মের দ্বন্দ্ব এবং 'টেস্টফিক্সবুক' নামে এক রহস্যময় পাণ্ডুলিপির সন্ধান কেন্দ্র করে কাহিনি আবর্তিত। এক তরুণ লিপিকর, এক বিদুষী সন্ন্যাসিনী এবং এক নিষ্করুণ সেনাপতির মাধ্যমে ইতিহাস, ক্ষমতা ও নিয়তির প্রশ্ন উঠে আসে।",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "name": "Chapter 1",
+      "chapter_title": "অগ্নিগর্ভ সূচনা ও নিষিদ্ধ পাণ্ডুলিপি",
+      "chapter_summary": "৫৯০ খ্রিস্টাব্দের গৌড় রাজ্যের রাজধানী কর্ণসুবর্ণে তরুণ লিপিকর বসন্তভট্ট রাজকীয় ভাণ্ডারে একটি নিষিদ্ধ তালপাতার পাণ্ডুলিপি আবিষ্কার করে, যার নাম 'টেস্টফিক্সবুক'। পাণ্ডুলিপিটিতে লেখা আছে গৌড়ের ভবিষ্যৎ, এক মহাযুদ্ধ এবং এমন এক আচারের ইঙ্গিত যা রাজ্যকে রক্ষা বা ধ্বংস করতে পারে। বৌদ্ধ সন্ন্যাসিনী মহাশ্বেতার কাছে এর অর্থ জানতে গিয়ে সে জানতে পারে রাজা শশাঙ্কের গুপ্তচর এবং হর্ষবর্ধনের দূত উভয়েই এই পাণ্ডুলিপি খুঁজছে। এদিকে সেনাপতি বীরগুপ্ত বসন্তভট্টকে বন্দি করে পাণ্ডুলিপির পাঠোদ্ধার করতে বাধ্য করে; প্রথম অর্ধেক পাঠোদ্ধারে প্রকাশ পায় পুণ্ড্রবর্ধনে এক রক্তক্ষয়ী সংঘর্ষের ভবিষ্যদ্বাণী। মহাশ্বেতা রাজকীয় প্রহরীদের হাতে ধরা পড়লে বসন্তভট্ট এক নৈতিক সংকটে পড়ে—সে কি রাজার আদেশ পালন করবে, না সত্য ও ধর্মের পথ বেছে নেবে?",
+      "reference_characters": [
+        "বসন্তভট্ট",
+        "মহাশ্বেতা",
+        "রাজা শশাঙ্ক",
+        "সেনাপতি বীরগুপ্ত"
+      ],
+      "chapter_segments": 4
+    },
+    {
+      "chapter_index": 2,
+      "name": "Chapter 2",
+      "chapter_title": "রক্তাক্ত সমাপতন ও নিয়তির উন্মোচন",
+      "chapter_summary": "পাণ্ডুলিপির দ্বিতীয় অর্ধেক পাঠোদ্ধার করে বসন্তভট্ট আবিষ্কার করে 'টেস্টফিক্সবুক' কোনো অলৌকিক অস্ত্র নয়, বরং এক বিস্মৃত ব্রাহ্মণ্য-বৌদ্ধ দার্শনিকের লেখা একটি আধ্যাত্মিক ইচ্ছাপত্র—যা ক্ষমতা ও ধর্মের মধ্যে ভারসাম্যের আহ্বান জানায়। হর্ষবর্ধনের সৈন্যদের বিরুদ্ধে পুণ্ড্রবর্ধনের যুদ্ধে সেনাপতি বীরগুপ্ত পাণ্ডুলিপিটিকে ধ্বংসাত্মক আচারে ব্যবহার করতে চাইলে বসন্তভট্ট ও মহাশ্বেতা তাকে বাধা দেয়। রাজা শশাঙ্ক পাণ্ডুলিপির প্রকৃত অর্থ উপলব্ধি করে শত্রুকে সম্পূর্ণ ধ্বংস না করে গৌড়ের সার্বভৌমত্ব রক্ষার পথ বেছে নেন; বিশ্বাসঘাতক বীরগুপ্তের মৃত্যু হয়। যুদ্ধের পর শশাঙ্ক বসন্তভট্টকে রাজ-ইতিহাসকার নিযুক্ত করেন এবং মহাশ্বেতা নালন্দায় চলে যান; পাণ্ডুলিপিটি আবার গোপনে রক্ষিত হয়। উপন্যাসের শেষে ইতিহাস, স্মৃতি ও নিয়তির এক দার্শনিক প্রতিধ্বনি রেখে যায়।",
+      "reference_characters": [
+        "বসন্তভট্ট",
+        "মহাশ্বেতা",
+        "রাজা শশাঙ্ক",
+        "সেনাপতি বীরগুপ্ত",
+        "হর্ষবর্ধন"
+      ],
+      "chapter_segments": 5
+    }
+  ],
+  "all_characters": [
+    {
+      "character_id": 1,
+      "full_name": "বসন্তভট্ট",
+      "role": "Young royal scribe and protagonist",
+      "identity": {
+        "age": 22,
+        "sex": "Male",
+        "caste": "Brahmin"
+      },
+      "psychological_depth": "Curious, fearful yet determined, torn between royal duty and moral truth."
+    },
+    {
+      "character_id": 2,
+      "full_name": "মহাশ্বেতা",
+      "role": "Buddhist nun and scholar",
+      "identity": {
+        "age": 28,
+        "sex": "Female",
+        "caste": "Brahmin"
+      },
+      "psychological_depth": "Wise, compassionate, secretly guarding the forbidden manuscript."
+    },
+    {
+      "character_id": 3,
+      "full_name": "রাজা শশাঙ্ক",
+      "role": "King of Gauda",
+      "identity": {
+        "age": 45,
+        "sex": "Male",
+        "caste": "Brahmin"
+      },
+      "psychological_depth": "Fearless warrior, shrewd diplomat, ruthless but patriotic."
+    },
+    {
+      "character_id": 4,
+      "full_name": "সেনাপতি বীরগুপ্ত",
+      "role": "Commander of Gauda army",
+      "identity": {
+        "age": 50,
+        "sex": "Male",
+        "caste": "Kshatriya"
+      },
+      "psychological_depth": "Cruel, ambitious, blindly loyal to power and eager to weaponize the manuscript."
+    },
+    {
+      "character_id": 5,
+      "full_name": "হর্ষবর্ধন",
+      "role": "Rival emperor of Thaneshwar",
+      "identity": {
+        "age": 30,
+        "sex": "Male",
+        "caste": "Kshatriya"
+      },
+      "psychological_depth": "Ambitious, strategic, determined to expand his empire eastward."
+    }
+  ],
+  "quality_attributes": [
+    {
+      "attribute_name": "Historical Accuracy",
+      "attribute_summary": "Depicts 590-625 AD Gauda, Thaneshwar and Kamarupa politics, the Shashanka-Harsha conflict, and contemporary religious tensions based on available historical sources."
+    },
+    {
+      "attribute_name": "Philosophical Depth",
+      "attribute_summary": "Explores fate, dharma, power and truth through Buddhist-Brahmin philosophical dialogue and the symbolic TestFixBook manuscript."
+    },
+    {
+      "attribute_name": "Narrative Complexity",
+      "attribute_summary": "Complete two-chapter arc with introduction, rising action, climax and resolution, using multiple character perspectives and historical events."
+    }
+  ]
+}

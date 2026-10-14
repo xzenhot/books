@@ -23,6 +23,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from promptkit import PromptSet, framework_layout_dir, render
+
 # --- Resolve paths relative to this script ---------------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent          # .framework/scripts/
 FRAMEWORK = SCRIPT_DIR.parent                          # .framework/
@@ -30,6 +32,11 @@ REPO_ROOT = FRAMEWORK.parent                           # novelist/
 TEMPLATE = FRAMEWORK / "templates" / "novel"
 PIPELINE_DIR = REPO_ROOT / "workspaces" / "pipeline"
 SOURCE_DIR = REPO_ROOT / "workspaces" / "published"
+
+# Prompt dataset templates (masterprompt.md, workshop_metadata.md). FRAMEWORK
+# here resolves to the writer repo root (this script lives in tools/, so
+# SCRIPT_DIR.parent == repo root), which is where .framework/ actually sits.
+LAYOUT_PROMPTS = PromptSet(framework_layout_dir(FRAMEWORK), "layout")
 
 # The ordered, prefixed pipeline filters. Each filter owns a folder under
 # filters/ and is recorded in book.json's "filters" array.
@@ -152,51 +159,21 @@ def scaffold(book_name: str, chapter_count: int, gist: str) -> None:
     write_json(book_dir / "characters.json", characters_json)
 
     premise = gist if gist else "Provide the central premise of the book."
-    masterprompt = f"""# Master Prompt — {book_name}
-
-## Identity
-You are a master novelist writing a frame-story novel. The book interleaves a
-**modern frame** (a workshop) with a **historical narrative**.
-
-## Central Premise
-{premise}
-
-## Frame
-A modern workshop where characters gather to hear a story.
-
-## Style Mandate
-- Serious, descriptive, image-rich literary register.
-- Weave the book's subject matter into every chapter.
-- Highlight the protagonist's conflict and victory.
-- Preserve the contrast between the modern frame and the historical setting.
-- End each chapter with a narrative handoff that sustains curiosity.
-
-## Section Structure
-1. **Section 1 — Workshop:** the modern frame scene (kept unchanged).
-2. **Section 2 — Story:** the narrated historical narrative (rewritten in the selected style).
-3. **Section 3 — Discussion:** the characters' response (kept unchanged).
-"""
+    masterprompt = render(
+        LAYOUT_PROMPTS.text("masterprompt.md"),
+        book_name=book_name,
+        premise=premise,
+    )
     write_text(book_dir / "masterprompt.md", masterprompt)
 
-    workshop_meta = f"""# Workshop Metadata — {book_name}
-
-## Workshop Team
-| Role | Character | Description |
-|------|-----------|-------------|
-| Narrator | TBD | Guides the workshop through the story |
-| Participant | TBD | A modern participant questioning the story |
-
-## Schedule
-| Chapter | Title | Focus |
-|---------|-------|-------|
-"""
-    for i in range(1, chapter_count + 1):
-        workshop_meta += f"| {i} | Chapter {i} | TBD |\n"
-    workshop_meta += """
-## Grounding Notes
-- Ground the narrative in accurate detail.
-- Weave the book's subject matter into the story.
-"""
+    chapter_rows = "".join(
+        f"| {i} | Chapter {i} | TBD |\n" for i in range(1, chapter_count + 1)
+    )
+    workshop_meta = render(
+        LAYOUT_PROMPTS.text("workshop_metadata.md"),
+        book_name=book_name,
+        chapter_rows=chapter_rows,
+    )
     write_text(book_dir / "workshop_metadata.md", workshop_meta)
 
     # Filter folders (one per pipeline filter, ordered and prefixed)

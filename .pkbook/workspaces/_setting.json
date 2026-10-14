@@ -1,6 +1,6 @@
 {
-  "ID": "B14102026111127",
-  "BookName": "Book-481c4c5c468d940ba823a90f7547",
+  "ID": "B14102026020154",
+  "BookName": "Book-e569b7494a9cad5c9e88a9dfb7d0",
   "TemplateType": "latest",
   "Language": "Bengali",
   "MaxChapterCount": 2,
@@ -15,7 +15,7 @@
   "NumberOfWordPerSegment": 2000,
   "ProjectRootPath": "D:\\lab\\github\\books",
   "AgentRootPath": "D:\\lab\\visualstudio\\xzen\\BookWriter\\writer",
-  "DateCreated": "2026-10-14T05:41:27.3061466Z",
+  "DateCreated": "2026-10-14T08:31:54.5471089Z",
   "Location": "BISWAS",
   "User": "pijush",
   "WorkspaceRoot": "D:\\lab\\github\\books\\.pkbook\\workspaces",
