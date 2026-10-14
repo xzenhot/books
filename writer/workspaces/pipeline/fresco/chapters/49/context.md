@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ This chapter shifts the focus from describing the *process* (like previous night
 
 - The specific failure of an emotional argument when faced with the physical reality of the plaster drying on the wall.
 - A sustained meditation on the difference between 'being seen' and 'being understood' in art.
+
+## draft
+
+### sha256
+
+ffbf692d865d757a5a72c5beb085aaa995a1e6626f58c6138cb4c47ea996e7fe
+
+### written_at
+
+2026-10-11T18:38:51.168302+00:00
+
+### origin
+
+write

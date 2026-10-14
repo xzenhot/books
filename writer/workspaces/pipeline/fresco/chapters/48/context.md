@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -81,3 +81,17 @@ scaffolded
 ### variety_note
 
 Where earlier chapters focused on sensory absorption (musk, lime), this chapter pivots inward, quantifying the abstract cost of creation through material accounting.
+
+## draft
+
+### sha256
+
+4aa7d4ca7c23e584a60441764adacc91660b970455260d5b34bad963a2004607
+
+### written_at
+
+2026-10-11T18:38:40.985888+00:00
+
+### origin
+
+write

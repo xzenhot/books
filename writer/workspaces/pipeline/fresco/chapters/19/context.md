@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -83,11 +83,11 @@ This poem shifts focus from Debolina's external labor (scaffolding, lime) to her
 
 ### sha256
 
-ba35adf60e0515539482ce75380f4262901194567bb2d115e5357e0e155369af
+4c150bb9771fd2f1cffd92b4b318f695ecc1a4df3f349918810504bf7765f663
 
 ### written_at
 
-2026-10-11T17:56:29.527121+00:00
+2026-10-11T18:33:30.422155+00:00
 
 ### origin
 

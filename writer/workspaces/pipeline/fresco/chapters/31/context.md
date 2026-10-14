@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -81,3 +81,17 @@ scaffolded
 ### variety_note
 
 This chapter shifts emphasis from internal emotional landscape (as seen in prior entries) by rooting Debolina’s experience almost entirely within the overwhelming materiality and fixed chronology of Mandawa's physical structures.
+
+## draft
+
+### sha256
+
+344c9c3f783932451b1f84cffd1de593122c836ea952591bfc9ffddb58b8f9d9
+
+### written_at
+
+2026-10-11T18:35:36.391466+00:00
+
+### origin
+
+write

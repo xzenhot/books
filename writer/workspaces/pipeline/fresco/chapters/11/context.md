@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -85,11 +85,11 @@ While previous chapters explored sensory absorption (smells, light) and external
 
 ### sha256
 
-3204bd308eba2286458cb83c791503e9984f88e21100d4732e5f437aeba376d5
+c92b8261367f85193e617c60e1fd38559941d069947bf68593626a3e59e1b205
 
 ### written_at
 
-2026-10-11T17:55:14.253821+00:00
+2026-10-11T18:32:07.536529+00:00
 
 ### origin
 

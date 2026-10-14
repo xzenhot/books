@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -86,11 +86,11 @@ Where previous poems focused on establishing the raw input (scent/line), this ch
 
 ### sha256
 
-ea2e68c53d99903327e73e4da2167aa62f7f3025d76b2b0261b757df2d093003
+d744c26e54d5c2b15b9fdcb4f9c7d192a2c1653d82bd7bef94da56a6af20b74c
 
 ### written_at
 
-2026-10-11T17:54:12.681358+00:00
+2026-10-11T18:30:52.695790+00:00
 
 ### origin
 

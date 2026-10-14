@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 This chapter pivots from merely describing her labor in isolation (Part II) to actively engaging with the historical weight of the art itself, using decay as a catalyst for self-recognition.
+
+## draft
+
+### sha256
+
+aa98a4826b7e31bbbbe4d9aa7e169ba17d2fff9162e6a6488f2b962962e5b653
+
+### written_at
+
+2026-10-11T18:38:06.175124+00:00
+
+### origin
+
+write

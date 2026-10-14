@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -85,11 +85,11 @@ Unlike the focus on material failures in Chapter 25 or chromatic depth in Chapte
 
 ### sha256
 
-c5f77e3d592da69cf8202538bd1b99bdccd9c9fdcc33c0be82f6309c9314fb53
+1f18bb034e448167a9f339d128adf56dc54eb909477a0eb7a887b0c0264636a5
 
 ### written_at
 
-2026-10-11T17:57:52.756938+00:00
+2026-10-11T18:35:03.547561+00:00
 
 ### origin
 

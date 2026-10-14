@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 Unlike chapters focusing on sensory intake (Part I) or raw struggle (Part II), this chapter resolves the conflict by embracing labor over legacy, grounding the philosophical pivot in a tangible return to material routine.
+
+## draft
+
+### sha256
+
+f42afd9f5961f36a278fc185478c6c9dbd47ca3cd21598a647e71137244d44a0
+
+### written_at
+
+2026-10-11T18:40:00.588978+00:00
+
+### origin
+
+write

@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -78,11 +78,11 @@ This chapter shifts focus from Debolina's sensory absorption of fleeting externa
 
 ### sha256
 
-e547f09473eb515c989ea4a7dd6e49303ae79a12f1e88fdf25f0ba19714499ef
+3233a4b616f46356ce5de6ebe8d7741722b458d0442f7a0d4f44466534967277
 
 ### written_at
 
-2026-10-11T17:54:31.251474+00:00
+2026-10-11T18:31:12.183320+00:00
 
 ### origin
 

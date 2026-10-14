@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -91,3 +91,17 @@ scaffolded
 ### variety_note
 
 This chapter shifts focus from the narrative presence of ghosts or the physical labor, concentrating instead on pigment as a geological agent resisting temporal forces.
+
+## draft
+
+### sha256
+
+fe7e0048145d374bcdcea66fb252a2f4152d2b75b9acd061fbedac76bf03cfef
+
+### written_at
+
+2026-10-11T18:36:52.883696+00:00
+
+### origin
+
+write

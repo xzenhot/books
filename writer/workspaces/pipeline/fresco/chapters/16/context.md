@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -85,11 +85,11 @@ This chapter must be distinctly about the physical apparatus of creation—the s
 
 ### sha256
 
-9439fb7e6828620774a81d2b21630dc07b83f07fb5f913dda2e3bddfe483fd6e
+d60774f1d4b39627f342890becd8f1c68a838599edd93f3cbdf88f1221fb8878
 
 ### written_at
 
-2026-10-11T17:56:02.993211+00:00
+2026-10-11T18:32:57.522048+00:00
 
 ### origin
 

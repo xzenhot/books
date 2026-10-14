@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -83,11 +83,11 @@ Unlike earlier meditations on abstract form or bodily strain, this chapter ancho
 
 ### sha256
 
-1a6449b0a06f9d58600fcb8ce695a5fd911b7a219a2ed1b387fcb1be77464e35
+01cd45846d407d8c27b70bcddcdfbb30ba2e458ad292c457749a86c0d728198d
 
 ### written_at
 
-2026-10-11T17:57:03.215188+00:00
+2026-10-11T18:34:15.355246+00:00
 
 ### origin
 

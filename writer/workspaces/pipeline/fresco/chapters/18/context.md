@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -80,11 +80,11 @@ Unlike earlier explorations of individual scents (musk) or labor structures (sca
 
 ### sha256
 
-9bf54528764bad5f11efbf165ddd2ac8578b63ea8a5288d8fe5a617288d9d7e5
+beb59cf7c83b1e3bc3d77b32cd1d442554701c3cc184396956e3c55f1528dada
 
 ### written_at
 
-2026-10-11T17:56:21.568856+00:00
+2026-10-11T18:33:20.274470+00:00
 
 ### origin
 

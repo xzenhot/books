@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -74,3 +74,17 @@ scaffolded
 ### variety_note
 
 Unlike the preceding chapters that build tension toward visibility or lament internal sacrifice, this chapter must embody the immediate, raw *disgust* at the sheer vulnerability of creation when it meets its own limits.
+
+## draft
+
+### sha256
+
+445cade38d9146a5d837803c7fb2f302972497914170a283c3fee724dfef1fb3
+
+### written_at
+
+2026-10-11T18:39:24.916196+00:00
+
+### origin
+
+write

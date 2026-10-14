@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -90,3 +90,17 @@ scaffolded
 ### variety_note
 
 This chapter focuses intensely on material urgency—the race against geological time—differing from earlier sensory focus (Musk/Scent) and later thematic depth (Mortality/Choice).
+
+## draft
+
+### sha256
+
+c188c840a8372d938187d57a2f5cef04008964379ebb4aa214909f28227a2a76
+
+### written_at
+
+2026-10-11T18:38:29.215763+00:00
+
+### origin
+
+write

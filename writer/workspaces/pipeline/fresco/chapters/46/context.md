@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -91,3 +91,17 @@ scaffolded
 ### variety_note
 
 While earlier poems focused on scent and line, this chapter turns inward toward process, grounding the abstract struggle in the tangible physical chemistry of mixing materials that embody time itself.
+
+## draft
+
+### sha256
+
+6b6d12e455827f632d3785baa649b2a2f3c316fff0eebd12fb4b864c07576d45
+
+### written_at
+
+2026-10-11T18:38:18.152720+00:00
+
+### origin
+
+write

@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -82,11 +82,11 @@ Unlike the prior focus on scent (Item 3) or solitary labor (Item 16), this chapt
 
 ### sha256
 
-27b3a9b96517b65294079a7828a1460b01768734c83a5581e829c0283bbd14e8
+793dc9322044fd2df0bcbd5b5c74f3dc780cf8e9e75641809cdb2a909fdf1245
 
 ### written_at
 
-2026-10-11T17:55:34.091389+00:00
+2026-10-11T18:32:26.912133+00:00
 
 ### origin
 

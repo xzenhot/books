@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -96,11 +96,11 @@ While previous chapters focused on scent and visual failure (sketches), this poe
 
 ### sha256
 
-565fd104def0591baaa59936e57790039e79ac226e5e9ff76a1a7afbd9115737
+afd4d3e1b1f153b8f7493e35a71bf1c088423fb84d92d66eac8ccb4fd20eca71
 
 ### written_at
 
-2026-10-11T17:56:46.714404+00:00
+2026-10-11T18:33:52.203077+00:00
 
 ### origin
 

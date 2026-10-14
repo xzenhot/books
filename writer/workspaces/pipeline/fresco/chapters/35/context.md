@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -91,3 +91,17 @@ scaffolded
 ### variety_note
 
 Unlike the intense focus on trade dynamics or sensory bombardment found elsewhere, this chapter grounds Debolina's exploration in the architecture of dwelling itself—the static evidence of layered human life.
+
+## draft
+
+### sha256
+
+f2dee9569ce2d484db1555c97e260959cdef7c86771ae63bbb0f73bbdef53ab6
+
+### written_at
+
+2026-10-11T18:36:20.986743+00:00
+
+### origin
+
+write

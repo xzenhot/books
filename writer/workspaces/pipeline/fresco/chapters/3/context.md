@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -86,11 +86,11 @@ Unlike Chapter 2, which generalized musk into geometry, this chapter focuses on 
 
 ### sha256
 
-55eed38da93184ce99f7b563d28fdcd8f971951f0ce3cd61b704566b417c30fd
+9b76c5c3c3f41cb1ed3cef176ef6f2be34706db4686a234e17baa256cff76301
 
 ### written_at
 
-2026-10-11T17:54:03.554620+00:00
+2026-10-11T18:30:41.937539+00:00
 
 ### origin
 

@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -77,3 +77,17 @@ scaffolded
 ### variety_note
 
 Unlike the preceding chapters focused on her active struggle or immediate choice, this poem dwells entirely in aftermath and inertia, exploring the passive relationship between maker and enduring artifact.
+
+## draft
+
+### sha256
+
+5b63f65467a27d609dec26f3d235d71bc6cd4e099674313fa69cc6e4cc15951b
+
+### written_at
+
+2026-10-11T18:40:10.167597+00:00
+
+### origin
+
+write

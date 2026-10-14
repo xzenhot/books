@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 Where earlier poems focused on scent or labor, this chapter turns inward by focusing on the *narrative potential* locked within stillness, asking what speaks when nothing moves.
+
+## draft
+
+### sha256
+
+03226eb31b7bf41c486b468e2729442f9cc02c04c7327a2ab73788430466427a
+
+### written_at
+
+2026-10-11T18:36:42.512469+00:00
+
+### origin
+
+write

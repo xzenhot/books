@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -84,11 +84,11 @@ This chapter moves beyond sensory absorption into a deliberate comparative study
 
 ### sha256
 
-95da36941fe7130925bab493bafc9f0bf79673a74d4e0a84b4a3df2e49f9a940
+50abfe45bcdc4cd969d0977353afda9870cbe10663ad57fa0a4a8dd4a5c7f8ed
 
 ### written_at
 
-2026-10-11T17:56:10.539704+00:00
+2026-10-11T18:33:10.409757+00:00
 
 ### origin
 

@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 Where previous chapters focused on the intimate body or immediate tools of art, this chapter must scale outward to encompass the macrocosm of commerce and travel that built these decaying walls.
+
+## draft
+
+### sha256
+
+f39a886d01e9ab04fe2c283f616b5d9dae46ff842e8a8c795df53859aedbecd7
+
+### written_at
+
+2026-10-11T18:35:47.846005+00:00
+
+### origin
+
+write

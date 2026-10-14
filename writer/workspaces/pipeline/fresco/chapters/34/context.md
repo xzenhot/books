@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Unlike the focus on scent and movement in earlier chapters, this poem shifts attention to rigid structures of obligation and formalized exchange inherent in the town's foundational history.
+
+## draft
+
+### sha256
+
+c35a03126907f7f5305af944c62f89d7ed0e74796c4a15e41d6c53b8ba95d7ec
+
+### written_at
+
+2026-10-11T18:36:09.645467+00:00
+
+### origin
+
+write

@@ -10,7 +10,7 @@
 
 ## word_target
 
-280
+200
 
 ## chapter_title
 
@@ -83,11 +83,11 @@ Where earlier chapters focused externally (scents, town sounds), this poem turns
 
 ### sha256
 
-6c04c527970e348bb668bd03c7526430906d0a25e36bc2388009d3f8e46f24c4
+4d1329d4d616fab1a4ce4e17258c6f880456ba87d32db7f4367bc6e3d3dd6e16
 
 ### written_at
 
-2026-10-11T17:56:36.335870+00:00
+2026-10-11T18:33:40.803897+00:00
 
 ### origin
 
