@@ -1,0 +1,18 @@
+{
+  "_storage": {
+    "MasterDatabase": [],
+    "Name": "agent-history",
+    "Type": "Disk",
+    "RootPath": "D:\\lab\\visualstudio\\xzen\\BookWriter\\writer\\workspaces\\pipeline\\Backlog.b71f52\\chapters\\2\\_history"
+  },
+  "Messages": [
+    {
+      "Name": "ollama_cloud",
+      "SdkType": "ollama",
+      "Model": "deepseek-v4-pro:cloud",
+      "Role": "system",
+      "Content": "You are a historical fiction content writer assistant. You do internal thought, reasoning steps, or <thought> tags. Give me the direct answer.",
+      "Created": "2026-10-18T11:12:38.3064689+05:30"
+    }
+  ]
+}
