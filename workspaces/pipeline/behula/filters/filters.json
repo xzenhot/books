@@ -1,0 +1,44 @@
+[
+  {
+    "order": 1,
+    "name": "workshop",
+    "agent": ".framework/filters/workshop/SKILL.md",
+    "autorun": true
+  },
+  {
+    "order": 2,
+    "name": "research",
+    "agent": ".framework/filters/research/SKILL.md",
+    "autorun": true
+  },
+  {
+    "order": 3,
+    "name": "correctness",
+    "agent": ".framework/filters/correctness/SKILL.md",
+    "autorun": true
+  },
+  {
+    "order": 4,
+    "name": "theme",
+    "agent": ".framework/filters/theme/SKILL.md",
+    "autorun": true
+  },
+  {
+    "order": 5,
+    "name": "syntax",
+    "agent": ".framework/filters/syntax/SKILL.md",
+    "autorun": true
+  },
+  {
+    "order": 6,
+    "name": "override",
+    "agent": ".framework/filters/override/SKILL.md",
+    "autorun": true
+  },
+  {
+    "order": 7,
+    "name": "quality",
+    "agent": ".framework/filters/quality/SKILL.md",
+    "autorun": true
+  }
+]
