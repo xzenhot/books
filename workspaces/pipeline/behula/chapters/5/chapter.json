@@ -2,62 +2,12 @@
   "chapter_index": 5,
   "name": "5",
   "word_target": 280,
-  "chapter_title": "কঠিন সময়ের প্রবেশ",
-  "chapter_summary": "কষ্টের সময়কে অস্বীকার না করেই যাত্রা শুরু হয়। এই কবিতা দেখবে, অন্ধকারের উপস্থিতি মেনে নেওয়া এবং তার কাছে আত্মসমর্পণ করা এক কথা নয়; বরং অন্ধকারকে স্বীকার করেও ভিতরের দীপকে জাগিয়ে রাখার প্রথম পরীক্ষা।",
+  "chapter_title": "কৃষ্ণপক্ষের দ্বারে অভিবাদন",
+  "chapter_summary": "অন্ধকারকে অস্বীকার করা আত্মার আত্মপ্রবঞ্চনা মাত্র। দিবস যেমন সত্য, রজনীর বিষাদও তেমনি অবধারিত। সময়ের রুক্ষ রূপকে নতমুখে স্বীকার করে ভেতরের আলো জাগিয়ে রাখাই মহাযাত্রার প্রথম পাঠ।",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Treating 'darkness' not as an absence of light, but as a heavy, tangible substance—perhaps smelling of damp earth or stagnant water.",
-      "Framing the initial acceptance of hardship (Kothin Somoyer Probesh) not as resignation, but as a strategic pause before mobilization, like a tightened bowstring.",
-      "Exploring the moment where the 'inner flame' refuses to be defined by its external container; it becomes pure kinetic energy resisting entropy."
-    ],
-    "story_options": [
-      "setting: A flooded earthen courtyard, desire: To feel the ground give way beneath weary feet, testing stability., obstacle: The pervasive slickness of mud mirroring internal indecision., turn: The light source is not a lamp, but reflected moonlight on rising water, forcing an ephemeral form.",
-      "setting: A narrow pass obscured by hanging vines, desire: To push through the suffocating weight of accumulated moments/regrets., obstacle: The claustrophobic density preventing any broad view of the path ahead., turn: When the effort stalls, a single, unexpected gust of wind (or breath) seems to carry the light forward momentarily.",
-      "setting: A cavern entrance dripping with cold moisture, desire: To find an anchor point—a singular constant within chaos., obstacle: The echoes amplifying every small sound of struggle, turning quiet into noise., turn: The internal flame is represented by a single drop of incandescent sap running down the rock face."
-    ],
-    "subject_rotations": [
-      "Focusing exclusively on the phenomenology of *waiting* within difficulty—the suspended state before action, devoid of narrative forward momentum.",
-      "Interpreting 'hard time' through a lens of necessary geological pressure (like rock formations) that creates crystalline strength from density.",
-      "Viewing the initial acceptance not as surrender to fate, but as an active cataloging of every single point of friction encountered so far in the journey."
-    ],
-    "sensory_details": [
-      "The abrasive rasp of dry skin against a rough fiber or coarse thread (touch).",
-      "The specific metallic tang that accompanies deep fatigue and stagnation (taste/smell).",
-      "The low, resonant hum felt in the chest cavity when forcing breath against resistance (sound)."
-    ],
-    "research_questions": [
-      "How can Bengali poetic tradition differentiate between quiet endurance (shohanshilota) and sheer defiance when depicting internal struggle?"
-    ],
-    "structural_variants": [
-      "A tightly compressed, highly alliterative sequence of images that builds intensity through repetition rather than expansion.",
-      "A structure where the first half is entirely negative description (what light *isn't*), followed by a sudden pivot into affirmation."
-    ],
-    "unused_angles": [
-      "The concept of 'necessary scarring': how difficulty leaves patterns on the self that become markers of survival, rather than merely wounds.",
-      "Examining the specific relationship between physical slowing (fatigue) and spiritual deepening; is one prerequisite for the other?",
-      "A meditation on borrowed light—the momentary grace received from an external source before retrieving internal luminescence."
-    ],
-    "variety_note": "Unlike preceding chapters that focused on symbolic definitions or initial impulses, this chapter grounds the philosophy in a palpable state of being—the active engagement with overwhelming negative conditions."
-  },
-  "enrich": {
-    "active_filters": [
-      "research",
-      "correctness",
-      "theme",
-      "syntax",
-      "quality"
-    ],
-    "status": "enriched"
-  },
-  "draft": {
-    "sha256": "c6a6de2e44e5e5d05b36f66c6e3d1f5030153e679f6824b60ecb9784219805a6",
-    "written_at": "2026-10-21T10:24:11.454873+00:00",
-    "origin": "write"
-  }
+  ]
 }

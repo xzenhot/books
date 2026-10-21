@@ -1,0 +1,54 @@
+{
+  "chapter_index": 77,
+  "name": "77",
+  "word_target": 280,
+  "chapter_title": "নতুন সূর্য",
+  "chapter_summary": "প্রতিটি সকাল নতুন সুযোগ — নবজন্মের প্রমাণ। কবিতাটি নতুন সূর্যের উদয়কে জীবনের পুনর্নবীকরণের প্রতীক করে, যেখানে আগের দিনের ক্লান্তি, ভুল ও ব্যর্থতা সত্ত্বেও প্রতিটি ভোর আবার শুরু করার অকৃত্রিম সুযোগ হাতে এনে দেয়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the 'new sun' not as a celestial event of grand promise, but as a mundane recurrence—the persistent return of an ordinary light despite profound personal exhaustion.",
+      "Focusing on the *silence* that precedes dawn: the heavy quiet before sound breaks, using this pregnant pause to frame renewed resolve rather than mere waking.",
+      "Examining how memory reshapes the 'new day': is it truly new, or a heavily curated echo of past struggles viewed through a filter of survival?"
+    ],
+    "story_options": [
+      "Setting: The threshold where the earth meets damp clay at pre-dawn; Desire: To find an unbroken spore clinging to that edge—a tiny seed representing complete renewal from near-death decay; Obstacle: The persistent chill that threatens to freeze any fragile hope.",
+      "Setting: A worn, carved stone step leading upward toward diffused light; Desire: The character deliberately placing their weight on the very first step after a night of deep inertia; Obstacle: The phantom ache in the joints from prolonged holding still.",
+      "Setting: Inside a hollowed-out piece of resilient wood left out overnight; Desire: To find that residual, subtle scent—the smell of ancient fibers awakened by minimal warmth—as proof of persistent life within stillness; Obstacle: Doubt about whether the wood's survival was accidental or deliberate."
+    ],
+    "subject_rotations": [
+      "Viewing renewal not as a grand beginning, but as an accretion process—each small act of movement adding negligible mass to the momentum against gravity.",
+      "Reframing 'opportunity' away from external chance and toward internal metabolic functions: the body’s sheer refusal to cease its basic processes (breathing, circulation).",
+      "Using the sun not for warmth or visibility, but as a marker of transition—the precise angle where shadow gives way before true brightness arrives."
+    ],
+    "sensory_details": [
+      "The specific grainy friction felt underfoot when walking on dew-dampened ground just as the first light touches it (touch).",
+      "The low, almost subsonic thrumming sound of distant life stirring in undisturbed soil during the darkest hour before dawn (sound).",
+      "The sharp, mineral tang left on the lips from breathing the cool, pre-dawn air which carries the scent of disturbed earth and old stone (taste)."
+    ],
+    "research_questions": [
+      "How can 'onomatopoeia'—the vocalization of action or sound in Bengali—be used to describe the *hesitation* before a decisive first movement at dawn, rather than just the ensuing activity?"
+    ],
+    "structural_variants": [
+      "A structure built on antithetical pairs: Exhaustion/Resilience, Void/Substance, Stillness/Impulse.",
+      "A highly asymmetrical form where lines of intense density (compressed memory/pain) break abruptly into sparse lines describing the nascent light.",
+      "Structuring the poem as a descent from retrospective failure into present-moment acceptance."
+    ],
+    "unused_angles": [
+      "The idea that 'rebirth' requires the conscious acknowledgement and containment of the debris left by the previous night (a specific ritualistic act).",
+      "Exploring how the concept of 'waiting' becomes an active, disciplined form of generative labor rather than passive endurance.",
+      "Delineating a difference between temporary respite and true ontological continuation."
+    ],
+    "variety_note": "Unlike neighbouring poems which focus on reception (gratitude/courage), this chapter centers entirely on the *self-initiating* quality of dawn, treating renewal as a mechanical necessity rather than a spiritual reward."
+  },
+  "draft": {
+    "sha256": "57e5d0ad49206e388248b427eb37fa20a7e2b507631caf95d1309905025d53b1",
+    "written_at": "2026-10-21T07:51:13.352893+00:00",
+    "origin": "write"
+  }
+}

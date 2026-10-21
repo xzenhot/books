@@ -2,52 +2,12 @@
   "chapter_index": 70,
   "name": "70",
   "word_target": 280,
-  "chapter_title": "ঘরের আলো",
-  "chapter_summary": "ঘর বিশ্বাসের প্রথম পাঠশালা — ভালোবাসাই প্রথম দীপ। এই কবিতা ঘরের নিত্যদিনের যত্ন ও সান্নিধ্যকে বিশ্বাসের জন্মস্থান করে তোলে, যেখানে শেখানো নয়, বরং অনুভব করা ভালোবাসাই মানুষের ভিতরের প্রথম আলো জ্বালিয়ে দেয়।",
+  "chapter_title": "গৃহকোণের অনাড়ম্বর দীপশিখা",
+  "chapter_summary": "গৃহের চার দেওয়ালের নিত্যদিনের অকৃত্রিম মমতাই বিশ্বাসের আদি পাঠশালা। কোনো উচ্চমার্গীয় তত্ত্ব নয়, বরং ঘরোয়া স্নেহের নিঃশব্দ আদান-প্রদানই অন্তরের প্রথম প্রদীপটি জ্বালিয়ে রাখে।",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Framing the domestic space not as sanctuary, but as a highly regulated pressure chamber where devotion is constantly tested by external sounds.",
-      "Treating the 'light' in this chapter strictly metaphorically—it must be defined purely by its function (to guide/reveal) rather than its physical presence (a flame).",
-      "Shifting focus from the act of *giving* light to the quiet, almost parasitic nature of how belief consumes ambient doubt within a fixed domestic boundary."
-    ],
-    "story_options": [
-      "Setting: A single, heavily worn clay lamp placed on a low wooden shelf in a dim room; Desire: For an unseen visitor (symbolic or real) to observe the light's steadfastness against their own hesitant arrival; Obstacle: The encroaching shadow creeping from under the doorframe and the Turn: the lamplight subtly pushing it back with only its unwavering, steady burn.",
-      "Setting: A pair of hands carefully polishing a small brass object (a relic or simple tool) in an inner room; Desire: To achieve absolute clarity on the surface—a reflection so perfect it momentarily mirrors a distant, desired landscape; Obstacle: The persistent grit and imperfection in the metal that seems to absorb rather than reflect light, and the Turn: the hands choosing to accept one tiny smudge as part of the object's narrative.",
-      "Setting: A corner where dust motes dance only when a single shaft of weak daylight manages to penetrate a high window; Desire: To freeze time within those suspended particles—a moment of perfect visibility in domestic decay; Obstacle: The sudden, disruptive rush of wind or movement that sends the cloud of light scattering violently, and the Turn: focusing on the trajectory of the *first* returning mote."
-    ],
-    "subject_rotations": [
-      "Interpreting 'home' (ঘর) less as a physical dwelling and more as the self-imposed intellectual enclosure required for deep reflection.",
-      "Examining the difference between external celebration/ritualistic light sources and the quiet, internal combustion of daily faith.",
-      "Exploring the concept that domestic devotion requires meticulous maintenance—the small rituals (cleaning, tending) are themselves acts of metaphysical resistance."
-    ],
-    "sensory_details": [
-      "The faint, oily warmth emanating from a single wick where it burns low and steady; (Touch/Smell)",
-      "The sound of the specific friction when woven fibers brush against aged wood furniture within the room; (Sound)",
-      "The visual texture of finely layered dust caught in oblique shafts of light slicing through imperfect pane glass; (Sight)"
-    ],
-    "research_questions": [
-      "What indigenous Bengali imagery represents domestic persistence or low-burning, sustained inner warmth without invoking overtly religious iconography?",
-      "How can the language distinguish between 'seeing' something brightly lit and 'being illuminated by' a presence?"
-    ],
-    "structural_variants": [
-      "A structurally recursive poem: each line begins with an image of domestic maintenance (e.g., sweeping, setting down water) leading inevitably to the illumination.",
-      "An episodic structure where small, discrete acts within the room serve as standalone verses that build a cumulative narrative arc toward one final implied question."
-    ],
-    "unused_angles": [
-      "The role of silence in preserving or corrupting light within an enclosed space (a contrast to the wind-blown scenes explored elsewhere).",
-      "How the act of seeing another person reflected in the lamp's glow changes the nature of that reflection from objective to deeply personal."
-    ],
-    "variety_note": "This chapter moves inward from the external journeying focus of earlier chapters, confining its symbolic action entirely within a singular, intimate domestic space defined by a persistent light source."
-  },
-  "draft": {
-    "sha256": "34f9c529f2acb1930475fb5b22ea4d4995210ece691f84a1c89454cd9fb81e41",
-    "written_at": "2026-10-20T21:28:42.414824+00:00",
-    "origin": "write"
-  }
+  ]
 }

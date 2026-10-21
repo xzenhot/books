@@ -2,53 +2,12 @@
   "chapter_index": 25,
   "name": "25",
   "word_target": 280,
-  "chapter_title": "বাধা থেকে দোরগোড়া",
-  "chapter_summary": "শেষ বলে মনে হওয়া বাধা কখনও নতুন উপলব্ধির দোরগোড়া হয়ে দাঁড়ায়। কবিতাটি বাধাকে রোমান্টিক করে না; তবু তার মুখোমুখি হওয়ার মধ্যে কীভাবে দৃষ্টির পরিবর্তন ঘটতে পারে, তা খোঁজে।",
+  "chapter_title": "সমাপ্তির কূলে নবদ্বার",
+  "chapter_summary": "যে প্রান্তকে পথিকের চোখে শেষ সীমানা বলে ভ্রম হয়, সেখানেই লুক্কায়িত থাকে অন্য এক উপলব্ধির প্রবেশদ্বার। বাধা কোনো অভিশাপ নয়, তা কেবল দৃষ্টির কোণ বদলে নতুন আকাশ দেখার নীরব নিমন্ত্রণ।",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Framing the impasse not as a blockage to forward motion, but as a momentary pivot point where opposing vectors (e.g., duty vs. desire) achieve perfect equilibrium before re-calculating direction.",
-      "Treating the 'threshold' not as a geographic boundary, but as a semantic one—the precise moment language fails to categorize the current emotional state, forcing reliance on pure imagery.",
-      "Analyzing the obstacle through a lens of material friction; how the rough surface of the barrier (stone, woven reed) imparts its texture onto the perception itself."
-    ],
-    "story_options": [
-      "Setting: A narrow gap between two opposing forces (like twin earthen walls during a monsoon deluge); Desire: To find the momentary visual clarity in the water streaming through the breach; Obstacle: The sheer volume and chaotic nature of the flow.",
-      "Setting: Before an ancient, imposing wooden gate that has been sealed for generations; Desire: To perceive not the lock mechanism (the problem) but the pattern worn into the wood by centuries of attempted entry (the history); Obstacle: The weight of established closure.",
-      "Setting: Standing at the edge of a field suddenly divided by an unseen, shimmering line (boundary between known and unknown cultivation); Desire: To test the firmness of this boundary with a single, delicate object; Obstacle: Fear that the object will either dissipate or vanish entirely upon contact."
-    ],
-    "subject_rotations": [
-      "Viewing 'the barrier' as a necessity for definition—that without a defined edge, any movement lacks context.",
-      "Shifting focus from overcoming the obstacle to inhabiting the state *within* the confrontation; the pause becomes the subject, not the action of passing through it.",
-      "Examining how cultural narratives around female resilience (like Bekhula's) might paradoxically rely on periods of profound stasis or internal siege rather than constant kinetic motion."
-    ],
-    "sensory_details": [
-      "The sharp, almost mineral taste left on the tongue after staring too long at a dense, opaque barrier.",
-      "The sound of dry leaves skittering against stone as the wind shifts direction around an obstruction.",
-      "A sudden chill that sinks into the bones when standing in shadow cast by a massive, immovable object."
-    ],
-    "research_questions": [
-      "How can 'silence' be described using vocabulary related to physical pressure or compression rather than auditory absence?"
-    ],
-    "structural_variants": [
-      "A fragmented structure where the passage of one small image (a bird, a pebble) is repeatedly interrupted by an unbroken block of text representing the immovable barrier.",
-      "Using heavy alliteration and consonance to physically mimic the grinding resistance encountered when pushing against something substantial.",
-      "Employing extreme enjambment across the entire piece—forcing every thought to bleed into the next without resolution, mirroring the lack of definitive passage."
-    ],
-    "unused_angles": [
-      "The subtle language surrounding bureaucratic or systemic obstruction (a societal 'wall' implied by custom rather than stone).",
-      "A moment where the 'self' dissolves completely into the perception of the obstacle, losing its distinct boundaries.",
-      "Exploring the philosophical concept that some walls are self-imposed through habit rather than external force."
-    ],
-    "variety_note": "While previous chapters have focused on the *act* of moving forward despite difficulty, this chapter explores the profound significance and quiet potential found precisely in the moment motion ceases at a defined boundary."
-  },
-  "draft": {
-    "sha256": "26b0e0b3abcf0ff878df3fe9c020d778091436a92e13d4ac8016af923676d1b0",
-    "written_at": "2026-10-21T10:49:28.708037+00:00",
-    "origin": "write"
-  }
+  ]
 }

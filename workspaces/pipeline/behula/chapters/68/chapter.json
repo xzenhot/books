@@ -2,47 +2,12 @@
   "chapter_index": 68,
   "name": "68",
   "word_target": 280,
-  "chapter_title": "বীজের বিশ্বাস",
-  "chapter_summary": "অন্ধকারে বীজ অপেক্ষা করে — যা দেখা যায় না, তবু ঘটে। এই কবিতা মাটির নিচে লুকিয়ে থাকা বীজের চিত্রে অদৃশ্য প্রক্রিয়ার প্রতি বিশ্বাসকে মূর্ত করে, যেখানে চোখে না দেখলেও ভিতরে চলতে থাকা বেড়ে ওঠার কাজই ভবিষ্যতের প্রতিশ্রুতি।",
+  "chapter_title": "গর্ভগৃহের তমসায় সুপ্ত অঙ্কুর",
+  "chapter_summary": "মাটির তলদেশের নিবিড় অন্ধকারে যে বীজ পরিণতি পায়, তার প্রস্তুতি চোখে দেখা যায় না। লোকচক্ষুর অগোচরে ঘটে চলা এই অন্তর্নিহিত রূপান্তরই মহাবিশ্বের সবচেয়ে গভীর সৃষ্টিশীল সত্য।",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "The germination process viewed as a quiet act of rebellion against the surrounding inertia of soil and gravity.",
-      "Focusing on the chemical/metabolic transformation within the seed—the internal, unseen violence necessary for growth.",
-      "Framing the waiting period not as passive stasis, but as an active gathering of latent energy preparing for explosive emergence."
-    ],
-    "story_options": [
-      "Setting: The cramped darkness beneath a heavy layer of dark earth; Desire: For the first microscopic thread of root to pierce downward against unimaginable pressure; Obstacle: Subterranean density; Turn: A sudden, inexplicable shift in moisture saturation.",
-      "Setting: The fragile husk of the seed just before cracking open; Desire: To experience the internal tension as the life force strains against its protective shell; Obstacle: Desiccation threat; Turn: A single ray of light accidentally penetrating and hitting the point of nascent rupture.",
-      "Setting: Where a small, hard piece of stone rests near viable seeds; Desire: The seed to exert infinitesimal but constant pressure on the inert stone as an act of quiet defiance; Obstacle: Mineral hardness; Turn: The slow grinding of the surrounding soil particles against the growing root tip."
-    ],
-    "subject_rotations": [
-      "Treating 'belief' not as a hopeful assertion, but as a material force with quantifiable pressure and tensile strength.",
-      "Shifting focus from biological growth to metaphorical cognitive emergence—the slow surfacing of an idea (seed) against the heavy mental terrain (soil).",
-      "Exploring patience through cyclical failure: The seed dying back internally only to reform its structure differently in the next potential cycle, not a straight forward advance."
-    ],
-    "sensory_details": [
-      "The damp, loamy scent of decaying leaf matter mingling with the sharp, metallic smell of microscopic root exudates (smell/taste).",
-      "The near-absolute absence of sound save for the faint, internal *pop* of cell division occurring deep within the seed structure (sound).",
-      "The feeling of granular friction—the constant, subtle abrasive drag of fine soil particles against any emergent surface (touch)."
-    ],
-    "research_questions": [
-      "How can Bengali poetry convey this concept of internal 'molecular insistence' without resorting to overly technical scientific terminology?"
-    ],
-    "structural_variants": [
-      "A highly fragmented structure where each stanza isolates a different phase of unseen work (e.g., hydration, biochemical signaling, structural weakening).",
-      "Using repetition not for emphasis, but as an analogue for the constant vibration or slow metabolic rhythm inside the seed."
-    ],
-    "variety_note": "Unlike preceding chapters which focused on visible movement or external resistance, this chapter must immerse the reader in absolute interiority and hidden potential."
-  },
-  "draft": {
-    "sha256": "589e4c0359a569ebdc40712f7a4cd5e27eb5429e69191d830c86fe226de8eb1b",
-    "written_at": "2026-10-20T21:28:17.202267+00:00",
-    "origin": "write"
-  }
+  ]
 }

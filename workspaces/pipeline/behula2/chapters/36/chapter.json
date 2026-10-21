@@ -1,0 +1,51 @@
+{
+  "chapter_index": 36,
+  "name": "36",
+  "word_target": 280,
+  "chapter_title": "প্রজন্মে প্রজন্মে দীপ",
+  "chapter_summary": "দীপের রূপক সময়ের সীমানা ছাড়িয়ে নতুন হাতে পৌঁছায়। কবিতাটি উত্তরাধিকারের ধারণাকে স্থির স্মৃতি নয়, বরং পরবর্তী মানুষের নিজের অভিজ্ঞতায় অর্থ খুঁজে নেওয়ার স্বাধীনতা হিসেবে দেখে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining 'inheritance' not as a transmission of status or blessing, but as the quiet weight of unresolved tension—the future must navigate the remnants of past pain.",
+      "Focusing on the physical passage of light/illumination across different generations (e.g., from aged hands to young skin) and how its quality shifts upon contact.",
+      "Interrogating whether the 'light' being passed down is a guiding principle or an inherited expectation that risks suffocating new paths."
+    ],
+    "story_options": [
+      "setting: A worn, darkened loom in a quiet workshop, desire: To weave a pattern using threads dyed with the 'echo' of previous struggles., obstacle: The old dye colors are too heavy; they resist being interwoven into new cloth structures., turn: The weaver must intentionally introduce an un-dyed, pure thread to give the inherited color a chance to breathe.",
+      "setting: A shadowed veranda overlooking fields harvested long ago, desire: To recognize the specific shape of their ancestor’s journey within the current season's growth., obstacle: The new crop appears healthy and abundant, seemingly erasing all trace of previous hardship or struggle., turn: A single root system under the new grain reveals a knotted history that defies the surface appearance.",
+      "setting: A chamber filled with ancient, unused lanterns, desire: To light a lantern using only the residual warmth left in its glass casing after being extinguished generations ago., obstacle: The wick refuses to catch; the stored warmth is insufficient to ignite independent energy., turn: They realize they must deliberately crack one of the ancient casings, allowing the trapped air/memory out, rather than just trying to relight it."
+    ],
+    "subject_rotations": [
+      "Treating the 'light' not as a source of energy (illumination), but as a specific *frequency*—a resonance that can be absorbed or distorted by different materials/individuals.",
+      "Analyzing the relationship between the successor and the predecessor through the concept of *negative space*: what is left unsaid, undone, or abandoned?",
+      "Shifting the focus from 'continuity' to 're-contextualization': how a previous trauma can be intentionally reinterpreted as necessary fuel for radical change."
+    ],
+    "sensory_details": [
+      "The brittle, papery sound of old parchment cracking under the weight of handling it.",
+      "The scent of damp clay mixed with faint metallic notes—the residue of extreme past pressure or effort."
+    ],
+    "research_questions": [
+      "How can Bengali poetic language effectively differentiate between 'legacy' (burdened inheritance) and 'inheritance' (unfettered opportunity)?"
+    ],
+    "structural_variants": [
+      "Employing an interwoven stanzaic form where two distinct voices speak simultaneously—one rooted in the past's experience, one speaking into its ambiguous future.",
+      "A cyclical structure beginning and ending with a near-identical visual image (e.g., 'a single flame') but describing it under radically different lighting conditions at start vs. end."
+    ],
+    "unused_angles": [
+      "Exploring the necessary friction between tradition and innovation—where does honoring the past become stifling to future invention?",
+      "The notion that true transmission happens not through objects, but through shared moments of profound, unsung vulnerability."
+    ],
+    "variety_note": "Where earlier chapters focused on the active struggle toward light (climb/breakthrough), this chapter focuses on the silent consequence of having already reached a point—how is that arrival lived?"
+  },
+  "draft": {
+    "sha256": "1ebb358cbf9b18865818765743c4260b56fe256179d60ecca046e4af7d6e2578",
+    "written_at": "2026-10-21T10:09:59.544695+00:00",
+    "origin": "write"
+  }
+}

@@ -2,52 +2,12 @@
   "chapter_index": 31,
   "name": "31",
   "word_target": 280,
-  "chapter_title": "পথের পেছনে থাকা আলো",
-  "chapter_summary": "বেহুলার চলার পরে পথের পেছনে আলো থেকে যায়—অন্য কারও জন্য নিশ্চিত মানচিত্র নয়, একটি ইঙ্গিত। কবিতাটি ব্যক্তিগত সাহস কীভাবে অন্যের প্রথম পদক্ষেপকে সহজতর করতে পারে, সেই সম্ভাবনা ধরে।",
+  "chapter_title": "চরণের পিছে রেখে যাওয়া দ্যুতি",
+  "chapter_summary": "পথিকের প্রস্থানে পথ চিরতরে অন্ধকার হয়ে যায় না; রেখে যাওয়া আলোর রেখা কোনো অপরিবর্তনীয় মানচিত্র নয়, বরং পরবর্তী পদযাত্রীর জন্য অন্ধকারের মাঝে এক নীরব অভয়বাণী।",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "The light is treated as a physical, almost viscous substance—something that clings to the remnants of the path rather than merely illuminating it.",
-      "Framing the 'behind' not just spatially, but temporally: the glow represents a future possibility receding into memory as the present action continues.",
-      "Shifting focus from *giving* light to an implied responsibility or debt owed by the walker to the lingering radiance."
-    ],
-    "story_options": [
-      "Setting: A curve in a path winding near dense, silent groves; Desire: To feel the warmth of the residual light on skin despite darkness ahead; Obstacle: The memory-light is strangely cold and distant.",
-      "Setting: Near the edge of cultivated fields just after harvest, where shadows are long and sharp; Desire: To find a way to *carry* that trailing glow within the physical act of walking; Obstacle: The soil itself seems to absorb any nascent light quickly.",
-      "Setting: An elevated, desolate watch-point overlooking a vast expanse towards an unseen horizon; Desire: To understand if the lingering light implies guidance or simply the weight of what has been left behind; Obstacle: Complete atmospheric indistinction between near and far."
-    ],
-    "subject_rotations": [
-      "Interpreting the 'light' not as divine grace, but as the self-generated energy required to traverse extreme internal resistance (the spiritual expenditure).",
-      "Treating the path/trace relationship in reverse: how does the *expectation* of light guide the hesitant step before any struggle begins?",
-      "Focusing on the nature of residual experience—is the 'light behind' a guarantee, or merely a necessary psychological construct to continue?"
-    ],
-    "sensory_details": [
-      "The specific, faint scent of cooled metal (like old tools) lingering where the light touched the rough stone.",
-      "A peculiar visual sensation: seeing movement in peripheral vision that corresponds exactly to the shape of the receding glow.",
-      "The auditory quality of silence immediately following a moment of intense exertion—a heavy vacuum where sound used to be."
-    ],
-    "research_questions": [
-      "How can the transition from 'dawn' (as implied by previous suggestions) into absolute, expectant night be depicted in Bengali poetry without implying failure?"
-    ],
-    "structural_variants": [
-      "A movement from descriptive imagery of the light to a highly compressed dialogue with an imagined shadow/echo that reflects on the meaning of endurance.",
-      "Using stanzas composed entirely of questions directed at the lingering glow, rather than declarative statements."
-    ],
-    "unused_angles": [
-      "The inherent danger in relying solely on residual phenomena; what happens when the light finally fades completely?",
-      "Exploring the concept that sometimes one must walk *into* darkness to give meaning to the memory of light.",
-      "A focus on the physical mechanism of 'carrying' an inspiration—is it held in the hands, or woven into the fabric of the garment?"
-    ],
-    "variety_note": "This chapter diverges from its immediate neighbors by focusing less on external acts of outreach (neighbor 29/30) and more deeply on the internal physics and temporal residue of personal passage."
-  },
-  "draft": {
-    "sha256": "ad84ac58f199378896c9d0b9a044f5a9ab3cf7bb42e63a583e01a396d7a0fec7",
-    "written_at": "2026-10-21T10:03:23.579593+00:00",
-    "origin": "write"
-  }
+  ]
 }

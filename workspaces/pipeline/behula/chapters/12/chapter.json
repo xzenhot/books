@@ -2,51 +2,12 @@
   "chapter_index": 12,
   "name": "12",
   "word_target": 280,
-  "chapter_title": "সাহসের ক্ষুদ্র রূপ",
-  "chapter_summary": "সাহস সবসময় উচ্চারণ বা বড় বিজয়ের মধ্যে থাকে না; কখনও তা পরের পদক্ষেপ নেওয়া। এই কবিতা দৃশ্যমান বীরত্বের বদলে দৈনন্দিন সংকল্পের ছোট অথচ অর্থবহ রূপটি ধরে।",
+  "chapter_title": "অঘোষিত সাহসের অণুপরমাণু",
+  "chapter_summary": "শোরগোল বা রণজয়ের কোলাহলে সাহসের পরিমাপ হয় না। সমস্ত নৈরাশ্যের গভীরে দাঁড়িয়ে নীরবে আরেকটি নিঃশ্বাস নেওয়া এবং সামনে পা বাড়ানোর একক সংকল্পই সাহসের সবচেয়ে সূক্ষ্ম অথচ অবিনাশী রূপ।",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Treating 'small courage' not as an internal moral fortitude, but as a precise kinetic decision—the micro-adjustment in balance required to shift weight from one unsteady point to the next.",
-      "Framing the small act of perseverance against the vastness of potential failure; where every tiny forward push is measured against the perceived insurmountable distance ahead.",
-      "Adopting an almost anthropological gaze: examining the ritualistic nature of these minute acts of self-encouragement, as if documenting a fragile survival technique."
-    ],
-    "story_options": [
-      "Setting: The immediate threshold before sleep takes hold; Desire: To articulate one more necessary action against the inertia pulling toward collapse; Obstacle: The voice whispers a seductive promise of absolute rest.",
-      "Setting: A momentary shelter under a drooping foliage, late at night; Desire: To find enough residual warmth to fuel just a single further movement into the cold expanse; Obstacle: The memory of prior failures is sharper in the dark quiet.",
-      "Setting: Beside an object recently handled—a cup set down, a rope coiled; Desire: To maintain contact with that tangible reminder of commitment before slipping entirely into abstraction; Obstacle: A persistent, unseen presence seems to mock the smallness of the effort."
-    ],
-    "subject_rotations": [
-      "Focusing on courage as an anti-epic quality—the dignity found in never achieving monumental victory but persistently refusing ultimate surrender.",
-      "Exploring the necessary dialectic between the internal will (the impulse) and the external manifestation (the actual, small action).",
-      "Treating 'smallness' not as insignificance, but as irreducible truth: that life is often sustained by increments, not surges."
-    ],
-    "sensory_details": [
-      "The dry, papery scrape of clothing against rough stone during a momentary shift in stance (touch).",
-      "The low hum of unseen insects or wind moving through dense vegetation just outside the immediate sphere of awareness (sound).",
-      "The specific scent of damp earth warmed slightly by reflected starlight clinging to the skin (smell)."
-    ],
-    "research_questions": [
-      "In Bengali poetic tradition, what is the precise lexical difference between 'effort' that leads to recognizable progress versus 'striving' that seems purely self-consuming?"
-    ],
-    "structural_variants": [
-      "A structure built around binary oppositions: The small vs. The vast; Whisper vs. Declaration; Momentary hold vs. Eternal pull.",
-      "Starting with the anticipated failure, and having each subsequent stanza offer a minute counter-argument to that initial collapse."
-    ],
-    "unused_angles": [
-      "The role of inherited memory—how past struggles inform the *specific* way one chooses to push forward now, without needing grand narrative context.",
-      "Connecting this micro-action directly to an elemental force mentioned elsewhere in the book (e.g., a specific strain of wind or earth tremor), making the small action a direct negotiation with nature."
-    ],
-    "variety_note": "Unlike previous chapters that focused on the necessity of pause, this chapter centers entirely on the defiant quality embedded within the very next, barely perceptible step taken after acknowledging limitation."
-  },
-  "draft": {
-    "sha256": "b39abcf2b3958ebc4b75830be909f9a93a618867b20921c65184d2827fabbc83",
-    "written_at": "2026-10-21T10:26:13.307931+00:00",
-    "origin": "write"
-  }
+  ]
 }

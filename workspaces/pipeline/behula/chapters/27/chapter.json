@@ -2,53 +2,12 @@
   "chapter_index": 27,
   "name": "27",
   "word_target": 280,
-  "chapter_title": "বিশ্বাস মানে নিশ্চয়তা নয়",
-  "chapter_summary": "ফল জানা না থাকলেও কোনো পথ মূল্যবান মনে হতে পারে। কবিতাটি বিশ্বাসকে নিশ্চিত জয়ের প্রতিশ্রুতি থেকে আলাদা করে, এবং অনিশ্চয়তার মধ্যেও মূল্যবোধ ধরে রাখার অর্থ নিয়ে প্রশ্ন তোলে।",
+  "chapter_title": "সংশপ্তকের অনিশ্চিত প্রত্যয়",
+  "chapter_summary": "চূড়ান্ত পরিণাম বা নিশ্চিত বিজয় না জেনেও কোনো পথ পরম মূল্যবান হয়ে উঠতে পারে। আস্থা কোনো হিসাবনিকাশ নয়; সকল অনিশ্চয়তার মধ্যেও সততার সাথে পথচলার নামই বিশ্বাসের প্রকৃত রূপ।",
   "further_references": [],
   "level": "chapter",
-  "state": "written",
+  "state": "scaffolded",
   "segments": [
     1
-  ],
-  "creative_enrichment": {
-    "angles": [
-      "Approaching belief not as an unwavering beam of light, but as a delicate, almost frayed thread—a tension maintained against overwhelming gravitational pull.",
-      "Reframing 'certainty' not as the absence of risk, but as the acceptance and strategic navigation *of* inherent uncertainty (the known variable vs. the accepted unknown).",
-      "Structuring the poem around an epistemological hesitation: moments where the act of knowing is actively interrupted by overwhelming sensory ambiguity."
-    ],
-    "story_options": [
-      "Setting: A stretch of shoreline where receding tide exposes slick, treacherous stones (unpredictable footing); Desire: To press forward based only on the memory of stable ground just passed; Obstacle: The relentless pull back toward the deep water.",
-      "Setting: Inside a dimly lit workshop cluttered with partially assembled forms (a half-finished fresco or mechanism); Desire: To complete one small, necessary join despite the visible lack of final picture; Obstacle: Dust obscuring the precise alignment point required for continuation.",
-      "Setting: At a clearing where fog rolls in rapidly from surrounding hills; Desire: To trace a single path forward based on minute temperature variations (a subtle cue); Obstacle: The fog erasing all previous signposts or established routes."
-    ],
-    "subject_rotations": [
-      "Treating 'belief' as a necessary form of intellectual defiance against observable physical entropy, rather than spiritual assurance.",
-      "Exploring the tension between inherited cultural certainty (the expectation) and personal intuitive conviction (the reality).",
-      "Focusing on the *labor* of maintaining belief—it is not a state achieved, but an exhausting process requiring perpetual internal adjustment."
-    ],
-    "sensory_details": [
-      "The metallic scent of rain hitting hot, dry earth just before it breaks into steady downpour (smell/temperature contrast).",
-      "The vibration felt through the soles of bare feet when a massive, unseen object shifts deep in subterranean soil (touch/sound implication).",
-      "The sharp, cool taste of metal on the tongue after accidentally biting into a forgotten piece of rusted iron left near a path."
-    ],
-    "research_questions": [
-      "In Bengali philosophical discourse, how is 'doubt' linguistically distinguished from 'cautious inquiry' when both pertain to existential risk?",
-      "Are there specific poetic techniques in classical Bengali verse that capture the feeling of suspended potential—the energy just before a decision is made?"
-    ],
-    "structural_variants": [
-      "Using an ABA B C D... rhyme/rhythm structure where each stanza completes its internal pattern only to be broken violently by an unrhymed, prose-like line questioning the premise.",
-      "A long, spiraling cantus (line) that repeatedly folds back on itself, creating a visual and thematic loop before finally breaking outward with a sharp departure."
-    ],
-    "unused_angles": [
-      "The relationship between faith and necessary compromise—where adherence to value forces an acceptance of material loss.",
-      "How the pursuit of 'meaning' might only serve as a complex distraction from confronting raw, unmediated fear.",
-      "Using the imagery of biological dormancy (seed awaiting rain) not as waiting for fulfillment, but as holding potential under duress."
-    ],
-    "variety_note": "This chapter pivots from the external struggle described in previous sections to an internal epistemological challenge: questioning whether perseverance is about *knowing* where you are going or simply choosing *to keep moving* despite lacking a map."
-  },
-  "draft": {
-    "sha256": "0f0959fdd37d2a0a6f7f11dbea8856a449f5e8b6fde93f0a0ff9be92a867466b",
-    "written_at": "2026-10-21T10:50:00.337532+00:00",
-    "origin": "write"
-  }
+  ]
 }
