@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-enriched
+written
 
 ## segments
 
@@ -48,3 +48,17 @@ enriched
 ### status
 
 enriched
+
+## draft
+
+### sha256
+
+1e7d2acf2ab7d4dbd0f276a1e5d9a363df50864a37676d6e1557899d1ca5bc5b
+
+### written_at
+
+2026-10-20T21:14:27.488403+00:00
+
+### origin
+
+write

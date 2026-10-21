@@ -83,11 +83,11 @@ This chapter deliberately avoids framing the stop as solely corrective (like Cha
 
 ### sha256
 
-4e959e8df3f467027c7670c2b7c4b0658a247176de9b03f2b9efb67f8b53f0c6
+23cea0e61243f94f65a90d4641127c77d9c5394cd6192161d6596d63ab93ee71
 
 ### written_at
 
-2026-10-20T21:16:03.140832+00:00
+2026-10-21T08:03:43.041109+00:00
 
 ### origin
 

@@ -55,8 +55,8 @@
     "status": "enriched"
   },
   "draft": {
-    "sha256": "e5c197106f6f824995d1664ecde189cb651fc628a506c410ff1cf86b251c680b",
-    "written_at": "2026-10-20T21:14:52.863036+00:00",
+    "sha256": "074bb5c6984d17d9e2b6e0853518e5e52273fe3d859b94a4c782a0c05183430a",
+    "written_at": "2026-10-21T10:23:36.809843+00:00",
     "origin": "write"
   }
 }

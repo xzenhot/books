@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -81,3 +81,17 @@ scaffolded
 ### variety_note
 
 While previous chapters dealt with naming pain ('কষ্ট') or defining hope ('আলো'), this chapter pivots to the subtle evidence of journey—the silent record left behind in the terrain itself. It engages a more passive, observant mode relative to the intense internal struggle.
+
+## draft
+
+### sha256
+
+957a07a2269fff4b3767d89c038c7954eb30d80c7fadd55c2bf273faf9f3872b
+
+### written_at
+
+2026-10-20T21:20:11.935076+00:00
+
+### origin
+
+write

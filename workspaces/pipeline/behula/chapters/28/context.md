@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 Unlike neighbours that analyze resistance or past struggle, this chapter focuses exclusively on the precarious, unfulfilled promise held within a developing moment—the pause before action is fully justified.
+
+## draft
+
+### sha256
+
+d645c8629c1643bb197d60b85ef058c70c5050a62ef4e383069edc394bbc03e7
+
+### written_at
+
+2026-10-20T21:19:59.473099+00:00
+
+### origin
+
+write

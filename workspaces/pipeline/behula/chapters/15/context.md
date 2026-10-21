@@ -96,11 +96,11 @@ Unlike the earlier focus on large-scale existential struggles (Chapter 4), this 
 
 ### sha256
 
-8826e9bd220535014f598aa284e7aa8dbbbc3425a575f66dddb10e7d5133e723
+9cb3949eb242049dc23e0ed33cff47e117d61b89f89af62d7a601f3d60e6ec10
 
 ### written_at
 
-2026-10-20T21:17:18.266270+00:00
+2026-10-21T09:35:17.740703+00:00
 
 ### origin
 

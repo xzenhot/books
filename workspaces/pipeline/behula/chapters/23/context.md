@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 This chapter moves away from pure abstract forward motion by foregrounding the physical cost; it anchors the theme in the material reality of strain and necessary pause, unlike earlier chapters which emphasized perpetual momentum.
+
+## draft
+
+### sha256
+
+2c3dd70c36389a22b89dd3518bb5261f8b4442a6e0236fedbbcf5839fc6fde21
+
+### written_at
+
+2026-10-20T21:18:59.627852+00:00
+
+### origin
+
+write

@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 While previous chapters examined the mechanics of light and steps, this chapter focuses specifically on the epistemology of suffering—how we define and resist being defined by our own anguish.
+
+## draft
+
+### sha256
+
+e8ac9c0ed57ee3ea00310609b0bf10287d6f00264f67626a09884f2c275a44d5
+
+### written_at
+
+2026-10-20T21:19:35.275365+00:00
+
+### origin
+
+write

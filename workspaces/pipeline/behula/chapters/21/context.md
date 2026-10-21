@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 Where previous chapters addressed individual struggle against barriers (like boundaries or despair), this chapter isolates the *process* of moving—the persistent, often monotonous act that underlies all grand gestures.
+
+## draft
+
+### sha256
+
+ae2642cd22522b4896d5f32f620b55fd69d10498cb05b7f8d930da5adf5bf136
+
+### written_at
+
+2026-10-20T21:18:34.375181+00:00
+
+### origin
+
+write

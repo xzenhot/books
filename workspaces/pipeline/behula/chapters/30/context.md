@@ -85,11 +85,11 @@ While previous chapters focused on the internal mechanics of maintaining self-li
 
 ### sha256
 
-fa89fa10f2bf835f4285f4da40974afe035a963f8f360f772a42001d2aaa5cde
+95f56ca2641c9ee6390f91fdabdb84abb59013e24af135199b9f5894a4c7bcf5
 
 ### written_at
 
-2026-10-20T21:20:23.365482+00:00
+2026-10-21T10:03:09.608952+00:00
 
 ### origin
 

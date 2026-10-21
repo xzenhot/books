@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Where adjacent chapters focused on the internal soundscape (silence/voice) or the personal vow (commitment), this chapter grounds that abstract energy into a tangible, precarious physical gesture of maintenance.
+
+## draft
+
+### sha256
+
+71331e52f33b0b5fab4169669cc0bc394d879123d5d4864509a6707793062078
+
+### written_at
+
+2026-10-20T21:17:31.238650+00:00
+
+### origin
+
+write

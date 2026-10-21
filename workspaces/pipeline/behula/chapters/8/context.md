@@ -84,11 +84,11 @@ This chapter differentiates from its neighbours by making 'doubt' an active co-p
 
 ### sha256
 
-a9d92b74593f8fde962a84620de40361c28191807c2f760e4414337be89c8c95
+c78972a265bc05c1495bb77fa6013492ef604a0f980401d5015928af2b716b8c
 
 ### written_at
 
-2026-10-20T21:15:51.376122+00:00
+2026-10-21T08:03:28.587984+00:00
 
 ### origin
 

@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Where neighbour chapters dealt with momentum (20) or persistence through exhaustion (16), this chapter focuses intensely on the static confrontation: the act of observing the boundary itself before any movement is permitted.
+
+## draft
+
+### sha256
+
+38ccce52699ff4bf4d933cc4dda2f34f8c0a2a4a72a9201d778a9636a8eab64a
+
+### written_at
+
+2026-10-20T21:17:57.839771+00:00
+
+### origin
+
+write

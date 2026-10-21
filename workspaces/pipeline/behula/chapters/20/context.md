@@ -84,11 +84,11 @@ While previous chapters have explored resistance and light interaction with mass
 
 ### sha256
 
-d5dfd1cc5486770e2a63bca8fd3f00fa8e75a0eb8b83c8ec68c80ac08e9acf2b
+2b8f33068e08519a445886b8b942db13f2f5d6969ac66b3de581a18fdefb8bcb
 
 ### written_at
 
-2026-10-20T21:18:20.710940+00:00
+2026-10-21T09:38:43.224191+00:00
 
 ### origin
 

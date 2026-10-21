@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-enriched
+written
 
 ## segments
 
@@ -93,3 +93,17 @@ Unlike neighbours that may focus on external events, this chapter centers purely
 ### status
 
 enriched
+
+## draft
+
+### sha256
+
+ffaa495e3635ac266b3a7e67e7ae7e7eedaafabdb8943679c67c6bb5891879fc
+
+### written_at
+
+2026-10-20T21:14:39.749861+00:00
+
+### origin
+
+write

@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 While previous chapters have focused on the *act* of moving forward despite difficulty, this chapter explores the profound significance and quiet potential found precisely in the moment motion ceases at a defined boundary.
+
+## draft
+
+### sha256
+
+d79aeffb57902419e6c9b5c0ea4ae9c69f134e9e07219a5bafe63dde7047ef0d
+
+### written_at
+
+2026-10-20T21:19:23.291096+00:00
+
+### origin
+
+write

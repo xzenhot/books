@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-enriched
+written
 
 ## segments
 
@@ -92,3 +92,17 @@ Unlike Chapter 1's focus on the naming weight, this chapter dives immediately in
 ### status
 
 enriched
+
+## draft
+
+### sha256
+
+e5c197106f6f824995d1664ecde189cb651fc628a506c410ff1cf86b251c680b
+
+### written_at
+
+2026-10-20T21:14:52.863036+00:00
+
+### origin
+
+write

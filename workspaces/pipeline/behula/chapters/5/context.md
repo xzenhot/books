@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-enriched
+written
 
 ## segments
 
@@ -93,3 +93,17 @@ Unlike preceding chapters that focused on symbolic definitions or initial impuls
 ### status
 
 enriched
+
+## draft
+
+### sha256
+
+775a36a5998593a4066d63693cf19cbbf0c3dce9ecb4733e55e817faefef608a
+
+### written_at
+
+2026-10-20T21:15:15.241248+00:00
+
+### origin
+
+write

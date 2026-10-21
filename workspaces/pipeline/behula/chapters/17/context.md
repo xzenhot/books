@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -91,3 +91,17 @@ scaffolded
 ### variety_note
 
 This chapter diverges by focusing intensely on the *materiality* of stagnation—how an imperfect, unfinished surface interacts with light, rather than abstractly battling darkness or continuing movement.
+
+## draft
+
+### sha256
+
+4dea3128988c28acbe1aa10d5d13f57d7342b9276fc034847d514a3194f85d3f
+
+### written_at
+
+2026-10-20T21:17:45.237917+00:00
+
+### origin
+
+write

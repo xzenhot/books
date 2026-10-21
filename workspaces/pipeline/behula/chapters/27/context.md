@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 This chapter pivots from the external struggle described in previous sections to an internal epistemological challenge: questioning whether perseverance is about *knowing* where you are going or simply choosing *to keep moving* despite lacking a map.
+
+## draft
+
+### sha256
+
+bde8a68a0687ec7e6975a272d4de835d03b486a3da8c93799d7053b3332e7475
+
+### written_at
+
+2026-10-20T21:19:46.358104+00:00
+
+### origin
+
+write

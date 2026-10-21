@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-enriched
+written
 
 ## segments
 
@@ -93,3 +93,17 @@ Unlike previous explorations of 'belief' (Chapter 2), this chapter grounds the a
 ### status
 
 enriched
+
+## draft
+
+### sha256
+
+890069168c8e58722477bc742f88193b14602a835a2f6ca429d6154c915256b1
+
+### written_at
+
+2026-10-20T21:15:03.687113+00:00
+
+### origin
+
+write

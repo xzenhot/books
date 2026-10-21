@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 While previous chapters dealt with the arrival at hard stops (limits) or the cadence of movement (rhythm), this chapter concentrates entirely on the deliberate internal discipline required to *continue* in a state of arrested motion.
+
+## draft
+
+### sha256
+
+342df716c1d1c00dff109f211b49712940fc3e9ca8d6bf784d4cae62c9419c9e
+
+### written_at
+
+2026-10-20T21:18:47.295323+00:00
+
+### origin
+
+write

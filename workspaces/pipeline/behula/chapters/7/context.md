@@ -84,11 +84,11 @@ Unlike the immediate clarity of Chapter 3 or the slow build of Chapter 4, this c
 
 ### sha256
 
-3e9676afb096fe7faf0015353315261195272f3b8e1cbb83a6dfe5e037687b07
+12487b0f6e31db469643dcacfba95efd750ab772add2ed016f55a2938c50d315
 
 ### written_at
 
-2026-10-20T21:15:39.202029+00:00
+2026-10-21T08:03:13.408813+00:00
 
 ### origin
 

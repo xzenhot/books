@@ -84,11 +84,11 @@ This chapter moves away from the external 'battle' motif prevalent in earlier ar
 
 ### sha256
 
-921e838f25c4e18d95836a0b380f79ee801c382e5e18b7fb353cedbf94b4827e
+f7aeb47e49d7c3a964d99186944916d87f580411f6aea5a77660d63b6d04d1c8
 
 ### written_at
 
-2026-10-20T21:17:04.581320+00:00
+2026-10-21T09:35:03.398768+00:00
 
 ### origin
 
