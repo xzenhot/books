@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+30
+
+## name
+
+30
+
+## word_target
+
+280
+
+## chapter_title
+
+অন্যের দিকে হাত
+
+## chapter_summary
+
+নিজের সংগ্রামের ভিতরেও অন্যের কষ্টের দিকে তাকানোর অবকাশ তৈরি হয়। কবিতাটি সহমর্মিতাকে দুর্বলতা নয়, বরং নিজের অভিজ্ঞতাকে অন্যের ওপর চাপিয়ে না দিয়ে পাশে থাকার সামর্থ্য হিসেবে দেখে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Addressing an absent figure: The speaker speaks not to the immediate sufferer, but to a historical or ancestral version of struggle, framing contemporary pain as echoed fate.
+- The gesture of 'reaching out' is entirely non-demanding; it is merely holding space for another’s unseen burden without expectation of reciprocation.
+- Reframing empathy as an act of momentary structural mirroring—briefly adopting the shape of the other's isolated hardship before returning to self.
+
+### story_options
+
+- Setting: The edge of a desolate, windswept plain; Desire: To extend a hand toward a shadow that is both present and ephemeral; Obstacle: The wind constantly threatening to tear away any fragile connection, Turn: Realizing the reach was only for the air itself.
+- Setting: Inside a structure built around silence (like an ancient, unused well); Desire: To offer light into the depths where pain resides; Obstacle: The overwhelming density of accumulated darkness refusing penetration, Turn: Discovering the water at the bottom reflects a distorted image of the self doing the reaching.
+- Setting: Beside a crumbling boundary wall separating fields of life from barren earth; Desire: To touch the stone to feel its shared history of endurance; Obstacle: The cold permanence of the stone resisting any warmth, Turn: Deciding that the connection is not physical but in the resonance between two forms of weathering.
+
+### subject_rotations
+
+- Shifting from self-preservation through perseverance to an ethical imperative—the *duty* to witness suffering without consuming it.
+- Exploring non-verbal communication as a primary language for shared struggle, prioritizing tone and posture over propositional statements.
+- Treating the connection not as mutual aid, but as the recognition of parallel trajectories running along different planes of existence.
+
+### sensory_details
+
+- The faint, gritty residue of distant dust settling on an upturned palm where a reach was made (touch/visual).
+- The muted, hollow quality of sound in an open space when one is actively *not* calling out or demanding attention (sound).
+- The specific, dry scent of sun-baked clay stirred by the movement of reaching fingers near scorched earth (olfactory).
+
+### research_questions
+
+- In Bengali poetic tradition, how is 'witnessing' rendered distinctly from 'sympathizing,' particularly when speaking to an entity beyond immediate comprehension?
+- What lexicon allows for describing a gesture that carries immense weight but zero physical force or expectation?
+
+### structural_variants
+
+- A sustained associative stream of consciousness where the act of reaching triggers memories of past failures, only to loop back to the present moment of outreach.
+- Strict adherence to tercets (three-line stanzas), each stanza functioning as a pivot: Assertion -> Observation of Absence -> Reaffirmation of Intent.
+
+### unused_angles
+
+- The mechanical or biological necessity of offering support—is it an emotional choice, or a fundamental law of existence?
+- How the act of observing suffering can paradoxically lead to profound personal exhaustion rather than renewed strength.
+- The possibility that 'others' are fundamentally illusions created by the speaker's own need for external validation.
+
+### variety_note
+
+While previous chapters focused on the internal mechanics of maintaining self-light, this chapter externally projects that energy outward toward an unanswering subject, testing the resilience of inner fortitude against exterior void.

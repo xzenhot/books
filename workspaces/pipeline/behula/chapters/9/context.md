@@ -1,0 +1,80 @@
+# Chapter model context
+
+## chapter_index
+
+9
+
+## name
+
+9
+
+## word_target
+
+280
+
+## chapter_title
+
+বিরতির অধিকার
+
+## chapter_summary
+
+চলার মধ্যে থামা শরীর ও মনের সীমাকে স্বীকার করার একটি উপায়। এই বিরতি পরাজয়ের ঘোষণা নয়; তা আবার শুরু করার অবকাশ এবং নিজের প্রতি যত্নেরও নাম।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing rest not as a gap in endurance, but as the essential calibration point where internal energy is redistributed across different planes of being (physical vs. spiritual).
+- Interrogating the cultural assumption that 'progress' requires constant forward motion; treating pause itself as a valid, powerful narrative subject.
+- Shifting focus from the *reason* for the stop (exhaustion) to the *act* of stopping—the precise physical ritual required to surrender tension without capitulating.
+
+### story_options
+
+- Setting: A small, shadowed clearing just off a main path; Desire: To allow the weight of accumulated breaths to settle fully in the chest; Obstacle: The sudden return of phantom sounds from the journey ahead; Turn: Embracing the quiet so deeply that the 'self' temporarily dissolves into the surrounding space.
+- Setting: Beside a stone marker where previous travelers paused; Desire: To map the subtle topography of accumulated fatigue on the skin and muscle; Obstacle: An internal, insistent momentum demanding immediate resumption of travel; Turn: A realization that the *path itself* pauses when one ceases to force movement upon it.
+- Setting: Within the shadow cast by a single, tall tree—a natural anchor; Desire: To allow the light source (the lamp/inner flame) to run low and sputter without fear of total extinguishing; Obstacle: The memory of past perceived failures acting as an invisible wind against the wick; Turn: The act of feeding the lamp is replaced by simply accepting its current, dim state.
+
+### subject_rotations
+
+- Examining 'pause' through the lens of negative space—what does the stillness *reveal* about the shape and texture of the preceding effort?
+- Viewing cessation not as a functional break in action (like maintenance), but as an ontological statement: asserting existence without productivity.
+- Contrasting the visible physical exhaustion with the invisible, internalized 'debt' of sustained commitment.
+
+### sensory_details
+
+- The metallic tang of unshed tears condensing on the skin when deep fatigue sets in (taste/touch).
+- The sound of slow, irregular heartbeat beating against an ear pressed close to a still object (auditory focus).
+- The scent of cooled stone or dust settling over exposed, tired hands after they have been gripping something tautly.
+
+### research_questions
+
+- How can the Bengali poetic vocabulary distinguish between 'resting' (a temporary physical state) and 'ceasing to strive' (a fundamental shift in will)?
+
+### structural_variants
+
+- Beginning with a slow, almost frozen-frame stanza that focuses entirely on one body part at rest, gradually expanding outward.
+- Utilizing a cyclical structure where the final lines of the poem circle back to rephrase the initiating moment of exhaustion without repeating words.
+
+### unused_angles
+
+- Exploring how other transient elements in nature—a cloud passing, a tide receding—mirror or contradict the necessity/luxury of this pause.
+- A focus on the *sound* silence makes; is it absence, or a composition of muffled background noises?
+
+### variety_note
+
+This chapter deliberately avoids framing the stop as solely corrective (like Chapter 10's weariness); instead, it treats cessation as an active, necessary state that must be navigated with intention.

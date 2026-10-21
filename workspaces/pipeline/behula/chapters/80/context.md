@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+80
+
+## name
+
+80
+
+## word_target
+
+280
+
+## chapter_title
+
+অনন্ত যাত্রা
+
+## chapter_summary
+
+যাত্রা শেষ হয় না; এক রূপ থেকে অন্য রূপে চলে। এই কবিতা সমাপ্তির ধারণাকেই প্রশ্নের মুখে ফেলে, যেখানে পথের শেষ নেই, বরং প্রতিটি পৌঁছনোই নতুন সূচনার রূপান্তর এবং চলার ধারা অনন্তকাল ধরে ভিন্ন ভিন্ন আকারে বয়ে চলে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The finality of movement: treating the 'unending journey' not as perpetual motion, but as a series of recursive, looping patterns within time.
+- Silence as destination: focusing on the resonant quiet *after* arrival, suggesting that true fulfillment lies in the cessation of striving, even if that stillness is vast and formless.
+- Dissolution into landscape: portraying the journey's end not with fanfare or revelation, but as a slow, quiet absorption back into the elemental matter from which it began (soil, water).
+
+### story_options
+
+- Setting: A desolate shore where tide recedes infinitely; Desire: To find one small object—a shell, a stone—that perfectly encapsulates the entire preceding journey's weight and shape; Obstacle: The overwhelming expanse of empty horizon forcing self-confrontation; Turn: Recognizing that the journey is not defined by what was crossed, but by what refuses to be washed away.
+- Setting: A single, deep well at a crossroads where all paths converge into shadow; Desire: To listen for echoes of every past step and moment in the water's surface before it settles completely; Obstacle: The inherent impossibility of hearing 'all' steps simultaneously without distortion; Turn: Accepting that the journey must be redefined as a series of concurrent, overlapping vibrations rather than sequential events.
+- Setting: A vast, subterranean cavern where faint light trickles from an unknown fissure; Desire: To map the subtle variations in humidity and temperature across the cave floor, each shift representing a past 'stage' of travel; Obstacle: The claustrophobic nature suggesting stagnation, despite the outward appearance of endless passage; Turn: Realizing that true infinity is contained within the micro-climate of a single point.
+
+### subject_rotations
+
+- Rethinking arrival as merely an initiation into a new state of perpetual transit—the 'destination' being perpetually fluid.
+- Viewing the journey through the lens of energetic decay versus energy renewal; where does the momentum go when it stops striving?
+- De-emphasizing 'infinite flow' and focusing instead on cyclical return: how every end point inevitably maps back onto a previous departure point.
+
+### sensory_details
+
+- The faint, metallic scent of ozone after a long period of uninterrupted travel through charged air (smell).
+- The sensation of friction loss—the nearly imperceptible drag on the sole of the foot when moving across polished, non-reactive stone (touch).
+- A sustained, high-pitched ringing in the inner ear that seems to emanate from the vastness between sounds rather than a specific source (sound).
+
+### research_questions
+
+- How can the Bengali poetic vocabulary distinguish between boundless recurrence ('cyclical time') and absolute lack of boundary ('infinite duration')?
+- What images exist in traditional Bengali cosmology that represent a state beyond linear progression, outside of spiritual achievement?
+
+### structural_variants
+
+- Employing an open-ended form where the final stanza dissolves entirely into negative space or silence, requiring the reader to supply the concluding rhythm.
+- Using highly fragmented stanzas—short bursts representing moments of decision or observation, punctuated by long white spaces signifying indefinite travel time.
+- A mirrored structure where the opening images (start) are subtly inverted in the final movement pattern (the return/continuation).
+
+### unused_angles
+
+- The concept of 'negative space' as a traveled territory; charting the journeys taken *around* obstacles rather than directly through them.
+- How the act of observation itself becomes an impediment to true onward motion, trapping awareness in transient moments.
+
+### variety_note
+
+This chapter moves away from the focused internal struggle or collective inspiration found in earlier parts, instead centering on the abstract philosophical weight of perpetual transition after all individual striving seems complete.

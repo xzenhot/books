@@ -1,0 +1,94 @@
+# Chapter model context
+
+## chapter_index
+
+3
+
+## name
+
+3
+
+## word_target
+
+280
+
+## chapter_title
+
+দৃঢ় বিশ্বাসের দীপ
+
+## chapter_summary
+
+অন্তরের দীপ জ্বলে ওঠে এমন এক মুহূর্তে, যখন সামনে থাকা পথের নিশ্চয়তা নেই। বিশ্বাস এখানে অন্ধ নিশ্চয়তা নয়; অনিশ্চয়তার মাঝেও মূল্যবান মনে হওয়া পথের দিকে মন ফেরানোর শক্তি।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+enriched
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the 'light' not as a steady flame but as a flickering wick fighting an unseen draft—emphasizing vulnerability over steadfastness.
+- Focusing intensely on the *sound* of belief: how does it articulate itself when words fail, perhaps in guttural humming or rhythmic silence?
+- A structural oscillation between absolute internal conviction and the near-physical sensation of doubt threatening to extinguish the flame.
+
+### story_options
+
+- setting: The precipice overlooking a vast, featureless expanse (symbolic wasteland), desire: To feel tangible proof—a single reflection in water or stone—that validates the internal light., obstacle: The air itself seems too thin, dissolving conviction into meaningless breath., turn: The realization that the validation must come from within the heat of the lamp itself.
+- setting: A closed space defined by oppressive shadow (a small dwelling room), desire: To maintain a visual connection to 'what is lost' while tending the flame., obstacle: The oil burns too low, mirroring the diminishment of hope with every passing moment., turn: The light begins to cast unusual, distorted shadows that seem to move independently of logic.
+- setting: The threshold between day and night (the cusp of transition), desire: To capture the precise instant where sheer will overrides logical exhaustion., obstacle: The internal dialogue becomes a frantic, rhythmic argument against cessation., turn: A sudden, unexpected resonance—a distant, resonant chime that doesn't clarify but amplifies the inner struggle.
+
+### subject_rotations
+
+- Shifting the focus from the 'belief' itself to the *maintenance* of belief: the physical act of tending the flame (feeding the oil, shielding it).
+- Interpreting the uncertainty not as a flaw in the symbol, but as an active component of its power—a dynamic tension.
+- Examining the contrast between the profound internal state and the utterly mundane physics of light sources.
+
+### sensory_details
+
+- The specific smell of slightly scorched wick against damp night air (olfactory).
+- The delicate, rapid *tick* sound as a hot metal element cools within the lamp base (auditory).
+- The slight tremor running through the hands from holding the source steady in uncertain currents (tactile).
+
+### research_questions
+
+- In Bengali poetics, how is sustained internal tension—where the resolution remains perpetually out of reach—typically rendered sonically?
+
+### structural_variants
+
+- A poem structured around an intensifying musical motif (a single recurring phrase or sound) that becomes dissonant as uncertainty grows.
+- An extremely compact structure where every word carries dual weight: a physical action and its metaphysical implication.
+
+### unused_angles
+
+- How the light reveals microscopic dust motes, making intangible faith visible but also fragile in the ordinary world.
+- Exploring the relationship between sustained rhythmic breathing and the controlled burn of the lamp as synchronized acts of will.
+
+### variety_note
+
+Unlike Chapter 1's focus on the naming weight, this chapter dives immediately into the physics and soundscape of maintaining a fragile light source against inherent darkness.
+
+## enrich
+
+### active_filters
+
+- research
+- correctness
+- theme
+- syntax
+- quality
+
+### status
+
+enriched

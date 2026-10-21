@@ -2,12 +2,52 @@
   "chapter_index": 18,
   "name": "18",
   "word_target": 280,
-  "chapter_title": "সীমা পেরোনো",
-  "chapter_summary": "সীমা পেরোনো মানে বাধাকে অস্বীকার করা নয়; কখনও তার পাশ দিয়ে, কখনও তার ভিতর দিয়ে পথ খুঁজতে হয়। এই কবিতা অগ্রযাত্রাকে একটিমাত্র বীরত্বের বদলে সৃজনশীল মানিয়ে নেওয়া হিসেবে দেখে।",
+  "chapter_title": "দেয়ালের সামনে",
+  "chapter_summary": "দেয়ালের মতো কঠিন বাধা সামনে এলে থেমে যাওয়া এবং নতুন পথ খোঁজার দ্বন্দ্ব তৈরি হয়। কবিতাটি অতিক্রমের কোনো সহজ কৌশল দেয় না; বরং বাধাটিকে মনোযোগ দিয়ে দেখার অভিজ্ঞতা ধরে।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the 'wall' not as a singular obstacle of permanence, but as a sequence of receding surfaces—each layer revealing its own history before the next.",
+      "Shifting focus entirely from *breaking* the wall to the act of carefully mapping its surface; treating the texture (lichen, mortar decay) as primary text.",
+      "Employing the low register 'night-voice' to explore silence not as absence, but as a pressurized weight—the sound absorbed by insurmountable mass."
+    ],
+    "story_options": [
+      "Setting: The shadowed base of an aged boundary wall; Desire: To use a single word (perhaps related to 'breath' or 'waiting') that alters the perceived texture of the stone before climbing it.",
+      "Setting: Near a crumbling section of masonry, where moss grips tightly; Desire: To dedicate stanzas entirely to the microscopic life clinging to the wall, making them the temporary protagonists against the 'wall'.",
+      "Setting: The threshold area beneath the wall, where light barely grazes the ground; Desire: To allow the late-arriving word to function as a counterpoint sound—a distinct chime or rustle that breaks the stone's assumed silence."
+    ],
+    "subject_rotations": [
+      "Treating the 'wall' metaphorically not just as societal restriction (as hinted in general context), but specifically as the hardened, unquestioned structure of tradition itself.",
+      "Examining how personal fatigue manifests against this external barrier—is it a weariness of spirit or one induced by physical proximity to unyielding mass?",
+      "Using the wall's perceived rigidity to explore fluid concepts: how belief flows *around* impossibility rather than through it."
+    ],
+    "sensory_details": [
+      "The metallic, cold tang in the air immediately adjacent to the damp stone.",
+      "The gritty texture of fine dust falling from weathered mortar onto still surfaces below.",
+      "A deep, subsonic hum felt when standing close enough to a massive, aged structure."
+    ],
+    "research_questions": [
+      "In Bengali poetic tradition concerning immense barriers (like mountains or fortifications), what specific lexical choices are used to denote sheer mass vs. layered complexity?",
+      "How can the concept of 'overheard' recitation in the small hours enhance the thematic weight of an unspoken internal struggle against a visible barrier?"
+    ],
+    "structural_variants": [
+      "A fragmented structure where stanzas appear out of sequence, mimicking attempts to trace a path around or through the obstruction.",
+      "An accretionary structure: building density and focus stanza by stanza towards a single moment where the external word interrupts the internal momentum."
+    ],
+    "unused_angles": [
+      "A full exploration of how the 'shadow' cast by the wall informs, rather than opposes, the light.",
+      "Focusing on one specific minute detail—a chip in the stone, a patch of bright green growth—as an entire philosophical statement."
+    ],
+    "variety_note": "Where neighbour chapters dealt with momentum (20) or persistence through exhaustion (16), this chapter focuses intensely on the static confrontation: the act of observing the boundary itself before any movement is permitted."
+  },
+  "draft": {
+    "sha256": "38ccce52699ff4bf4d933cc4dda2f34f8c0a2a4a72a9201d778a9636a8eab64a",
+    "written_at": "2026-10-20T21:17:57.839771+00:00",
+    "origin": "write"
+  }
 }

@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+26
+
+## name
+
+26
+
+## word_target
+
+280
+
+## chapter_title
+
+কষ্টের নাম দেওয়া
+
+## chapter_summary
+
+কষ্টকে অলংকারে ঢেকে দিলে তার বাস্তব ভার অদৃশ্য হয়ে যায়। এই কবিতা দুর্দশাকে স্পষ্ট নামে ডাকার প্রয়োজন মনে করায়, যাতে সহনশীলতার প্রশংসা কষ্টের স্বীকৃতিকে প্রতিস্থাপন না করে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Viewing 'naming the pain' not as a declaration of suffering, but as an act of microscopic cartography—pinpointing exactly where the fracture is located in the self.
+- Framing the naming process through linguistic archaeology: attempting to find older, more potent Bengali words for specific agonies that modern language has smoothed over.
+- The active refusal to name the pain at all; using pure sonic texture (vocalization/non-lexical sound) instead of words to represent its weight.
+
+### story_options
+
+- Setting: The uneven, cracked surface of drying earth during a harsh midday sun; Desire: To apply pressure with fingertip until the name ('কষ্ট') emerges not as thought, but as a visible discoloration or physical shift in the soil.
+- Setting: Inside a tightly woven mat where shadows pool deepest at dusk; Desire: To articulate the pain using only gestures—a specific fold of hands or an arrested breath—before assigning it a verbal label.
+- Setting: Against a boundary wall covered in intricate, ignored patterns (suggesting hidden history); Desire: To find the one imperfection or flaw in the pattern that precisely mirrors the unnameable weight inside.
+
+### subject_rotations
+
+- Focusing less on 'endurance' and more on the precise, momentary failure of endurance—the second right before surrender.
+- Treating the act of articulation itself (speaking/writing) as a physical expenditure that drains the very energy needed to sustain belief.
+- Exploring how societal categorization ('বিধবা', 'কষ্ট') imposes names from *outside* the self, contrasting with the necessary, internal naming process.
+
+### sensory_details
+
+- The specific taste of salt residue left on the lips after holding back a cry for too long.
+- The cool, damp sensation felt when brushing against rough slate during a moment of intense mental inventory.
+- The high-pitched, almost painful whine produced by taut gut muscles straining under invisible internal pressure.
+
+### research_questions
+
+- How can the concept of 'semantic weight' be poetically conveyed—i.e., making it feel heavier to write a specific word than any other?
+
+### structural_variants
+
+- A tercet-quatrain structure where each unit builds an image, but the final line introduces a jarring, single monosyllable that refuses categorization.
+- Using heavy enjambment across short internal sections to mimic the stuttering halt of breath during self-confrontation.
+- Adopting an inverted focus: starting with the label ('কষ্ট') and painstakingly dismantling it through imagery until only raw sensation remains.
+
+### unused_angles
+
+- The concept of pain as a temporary, necessary feedback loop essential for recalibrating one's relationship to reality.
+- A momentary suspension where the narrator *wishes* they could name the pain but actively resists the language available.
+- Connecting the internal naming mechanism to older devotional practices where vocalization was used to 'fix' spiritual states.
+
+### variety_note
+
+While previous chapters examined the mechanics of light and steps, this chapter focuses specifically on the epistemology of suffering—how we define and resist being defined by our own anguish.

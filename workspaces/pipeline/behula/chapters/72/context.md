@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+72
+
+## name
+
+72
+
+## word_target
+
+280
+
+## chapter_title
+
+স্মৃতির দীপ
+
+## chapter_summary
+
+যারা গেছেন, স্মৃতি আলো হয়ে থাকে। এই কবিতা স্মৃতিকে নিছক অতীতের ছায়া না বানিয়ে জীবন্ত আলোর উৎস করে তোলে, যেখানে প্রিয়জনের চলে যাওয়ার পরেও তাদের ভালোবাসা, শিক্ষা ও উপস্থিতি পথ চলার দিশা হয়ে ভিতরে জ্বলতে থাকে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The thread of memory as a tangible physical substance—perhaps woven into the garment or caught in the air currents between moments.
+- Treating the absence (what is missing) as the primary light source; illumination derived entirely from negative space left by those departed.
+- Framing reminiscence not as comfort, but as a necessary act of endurance; holding onto the thread to avoid dissolving into pure grief.
+
+### story_options
+
+- setting: A small, cluttered corner where old objects reside (a forgotten piece of cloth or tool)., desire: To trace a single imperfection on an object that once belonged to the departed., obstacle: The inability to distinguish between genuine touch and mere lingering shadow., turn: Accepting that the thread is not tangible, but woven into the very structure of memory itself.
+- setting: The pathway just before it becomes completely obscured by night or fog., desire: To find a single point where the past light intersects with the present darkness., obstacle: The compulsion to speak aloud, breaking the fragile silence required for memory., turn: Realizing that the only necessary communication is an internal, unspoken echo.
+- setting: A spot on the ground where light used to pool but is now empty., desire: To recreate the exact geometry of a past moment through positioning oneself precisely., obstacle: The shifting nature of recollection; each attempt to fix the scene distorts it further., turn: Deciding that the beauty resides not in the recreated shape, but in the awareness of its impermanence.
+
+### subject_rotations
+
+- Shifting from 'light as presence' (which has been explored) to 'memory as a tensile force'—the unseen pull holding the present self tethered to the past.
+- Focusing intensely on the *process* of retrieval: the muscular effort required by the mind to recall details, turning remembrance into physical strain.
+- Interrogating whether memory is truly preserving or if it is actively editing/curating the beloved's image for survival.
+
+### sensory_details
+
+- The cool, granular resistance of dust when a hand brushes across an aged surface saturated with reminiscence (touch).
+- A faint, residual scent—not perfume, but the specific smell of worn cloth left in prolonged darkness (smell).
+- The subtle, low-frequency hum felt beneath the skin during moments of intense recall, perceived as vibrational rather than auditory (kinesthetic/sound).
+
+### research_questions
+
+- How can Bengali poetic vocabulary distinguish between a memory that provides comfort versus one that imposes existential weight?
+- What imagery conveys 'the act of holding on' when the object being held is abstract, like a recollection?
+
+### structural_variants
+
+- A heavily punctuated structure relying on strategic voids (blank lines) to represent moments where memory fails or dissolves.
+- An inverted narrative arc: starting with overwhelming presence and fading toward irreducible silence.
+
+### unused_angles
+
+- The idea that the 'thread' of memory connects not just past to present, but also links various disparate people who have known the lost figure (creating a network)
+- Treating the departed person’s lesson as a form of quiet rebellion against external forces or societal pressures.
+
+### variety_note
+
+While neighbouring chapters explore light arising from internal faith or shared physical experience, this chapter must manifest memory not as illumination but as an invisible, binding tension (a thread) that defies dissolution.

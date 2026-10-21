@@ -1,0 +1,52 @@
+{
+  "chapter_index": 64,
+  "name": "64",
+  "word_target": 280,
+  "chapter_title": "বিদায়ের আলো",
+  "chapter_summary": "বিচ্ছেদ শেষ নয়, নতুন পথের সূচনা। এই কবিতা বিদায়ের শোককে অস্বীকার না করেই দেখায় যে বিচ্ছেদের বেদনার ভিতর দিয়েও জীবনের প্রবাহ থেমে থাকে না; বরং যা শেষ হয়েছে তার স্মৃতি পরবর্তী যাত্রার ভিত্তি হয়ে দাঁড়ায়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the *negative* space of departure: The light that is inherently absent rather than the light that remains.",
+      "Treating the goodbye not as a final event, but as a perpetual state—a continuous oscillation between being present and having moved on.",
+      "Shifting from shared memory to physical residue: How the *traces* left by the departing presence (smell of worn cloth, specific shadow patterns) become the anchors for the next journey."
+    ],
+    "story_options": [
+      "Setting: The edge of a riverbank at dusk, Desire: To anchor one final image of separation—the ripple where the last boat faded in the water, Obstacle: The pull toward silence that threatens to absorb all memory.",
+      "Setting: A doorway framing an empty path leading into mist, Desire: To find the precise moment when looking *at* the departing light ceases and merely feeling its lack begins, Obstacle: The urge to grasp or reach out physically across the threshold.",
+      "Setting: Inside a small room where one object remains untouched by travel (a specific clay pot), Desire: To let that mundane object bear witness to the departure without commentary, Obstacle: The internal pressure to imbue the static object with narrative significance."
+    ],
+    "subject_rotations": [
+      "Exploring the 'light' not as a guiding force, but as a finite resource being depleted by the act of remembering.",
+      "Examining the *architecture* of absence: how the space left behind takes on its own weight and defines subsequent movement.",
+      "Reframing parting not as loss, but as an involuntary material shift—the becoming heavier or lighter after separation."
+    ],
+    "sensory_details": [
+      "The cool, gritty sensation of dust settled onto a surface where the departing figure had rested their hand.",
+      "A specific, low-pitched resonance felt in the ear cavity caused by the sudden drop in ambient noise post-departure (sound).",
+      "The taste of dry, dusty air lingering after someone has moved through a space."
+    ],
+    "research_questions": [
+      "How can Bengali poetic forms convey 'silence' not as an absence of sound, but as a richly textured presence that actively colors the surrounding atmosphere?"
+    ],
+    "structural_variants": [
+      "An intentionally fragmented structure where stanzas are short, almost breathless recordings of micro-moments of transition.",
+      "A cyclical structure where each stanza describes a 'departure' only to immediately reference an equivalent state of prior arrival, emphasizing the nature of ceaseless movement."
+    ],
+    "unused_angles": [
+      "The theme of light as a necessary form of physical exhaustion—the brilliance demanding its own expenditure.",
+      "How the act of witnessing separation can temporarily invert one's sense of self (feeling 'smaller' than the absent object)."
+    ],
+    "variety_note": "Unlike explorations focusing on the *act* of perseverance, this chapter centers entirely on the texture and persistence of what has irrevocably left—the aftermath."
+  },
+  "draft": {
+    "sha256": "9c52cccfebe61ac989852a7c09ed88dd3b50811e747f2bd59130170a4179dd1a",
+    "written_at": "2026-10-20T21:27:26.080427+00:00",
+    "origin": "write"
+  }
+}

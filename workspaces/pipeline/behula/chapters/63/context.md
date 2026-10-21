@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+63
+
+## name
+
+63
+
+## word_target
+
+280
+
+## chapter_title
+
+অসুস্থতার পাশে দীপ
+
+## chapter_summary
+
+রোগশয্যার পাশে সেবা ও প্রার্থনা — বিশ্বাসের কঠিনতম পরীক্ষা। কবিতাটি অসুস্থতার সময়ের পাশে থাকাকে কেন্দ্রে আনে, যেখানে আরোগ্যের কোনো নিশ্চয়তা না থাকলেও নিঃস্বার্থ সেবা ও মমতাই ভালোবাসা ও বিশ্বাসের সবচেয়ে গভীর প্রমাণ হয়ে ওঠে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the futility of ritualized care: The devotion shown (the light) is perfect, but the recipient's condition resists all symbolic effort.
+- The shift from outward service to inward questioning: The caregiver’s initial certainty in 'love as cure' cracks under prolonged vigil, forcing a confrontation with limits.
+- Reversing the focus onto the light source itself: Is the lamp fueled by faith, or is it merely burning down its own substance against inevitable cessation?
+
+### story_options
+
+- setting: A bedside near an unmoving form, desire: To coax a flicker of response—a sign of will, recognition, or acknowledgment., obstacle: The absolute stillness and unresponsive nature of the illness itself., turn: The speaker stops performing acts of care, simply existing in proximity until exhaustion forces a raw confession.
+- setting: A small space confined by woven mats and cooling air, desire: To articulate the exact physical cost paid by the caregiver for this vigil., obstacle: The social pressure to maintain an image of unwavering, serene devotion., turn: The speaker realizes their own exhaustion mirrors the patient's inertia, dissolving the boundary between giver and receiver.
+- setting: Near a window where weak daylight barely penetrates, desire: To find in the passing light a metaphor for healing momentum., obstacle: The unchanging pallor of the patient’s skin, indifferent to the day cycle outside., turn: The speaker recognizes that 'healing' isn't about restoration but about acceptance—the refusal to force an outcome.
+
+### subject_rotations
+
+- Treating devotion not as a magical catalyst for cure, but as a form of sustained metaphysical witnessing.
+- Exploring the relationship between spiritual energy (the light) and corporeal decay (the illness).
+- Focusing less on the patient’s condition and more on the *language* used by the caregiver to frame suffering—how words either sustain or undermine hope.
+
+### sensory_details
+
+- The faint, acrid scent of burning oil struggling against the heavy smell of sickness.
+- The specific granular texture of dried sweat collecting on linen near the bedside.
+- The intermittent sound of a labored breath that sounds less like life and more like friction.
+
+### research_questions
+
+- How can Bengali phrasing capture the necessary temporal lag between an act of devotion and any perceived change in outcome?
+- What specific imagery related to light sources (oil lamps, weak sun) conveys sustained effort without suggesting imminent success?
+
+### structural_variants
+
+- A structure built entirely on contrasts: each stanza pairing a perfect, beautiful ritualistic act with its mundane, failing reality.
+- An opening that rapidly establishes the idealized scene of care, followed by an accelerating dissolution through increasingly short and fragmented lines.
+- Employing epistolary segments within the poem—a stream of internal letters addressed to both the patient and the self.
+
+### unused_angles
+
+- The role of non-human presence: How do background elements (e.g., insects, wind against a shutter) interact with the intense focus on human suffering?
+- Examining silence as an active participant—is it complicit in the stalemate or resistant to it?
+
+### variety_note
+
+This chapter shifts away from proactive struggle toward endurance and passive witnessing, focusing on what remains when vigorous action ceases.

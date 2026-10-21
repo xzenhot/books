@@ -1,0 +1,76 @@
+# Chapter model context
+
+## chapter_index
+
+34
+
+## name
+
+34
+
+## word_target
+
+280
+
+## chapter_title
+
+আলোর দায় ভাগ করা
+
+## chapter_summary
+
+পথ দেখানোর দায় এক ব্যক্তির একার নয়; আলো ভাগ করে নেওয়া যায়। কবিতাটি অনুপ্রেরণাকে মহিমার আসন থেকে নামিয়ে পারস্পরিক যত্ন ও দায়িত্বের মধ্যে স্থাপন করে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the act of 'sharing' light not as a generous gift, but as an inherent metabolic necessity—a dependency where one source cannot survive without distributing its energy.
+- Focusing on the *texture* of shared responsibility: contrasting the smooth ease of mutual support with the abrasive friction when efforts clash.
+- Treating the distribution of 'light' not to other persons, but to abstract concepts (e.g., hope, memory, future potential) that require sustenance.
+
+### story_options
+
+- Setting: A shared well in a drought-stricken village; Desire: To distribute the meager cool water/reflected light equally among all whose thirst is visible; Obstacle: The inherent human selfishness regarding scarcity and access to vital resources; Turn: Realizing that equitable distribution still leaves everyone diminished, but together.
+- Setting: Two travelers meeting at a difficult crossroads late in the season; Desire: To trade not provisions for shelter, but small vials containing their internal 'glow's memory'; Obstacle: Misinterpretation—one perceives the other's light as weakness rather than strength; Turn: They realize true sharing involves absorbing the partner’s perceived flaw.
+- Setting: Inside a vast, echoing chamber where sound dissipates rapidly (a moment of stillness); Desire: To project one small, consistent beam onto another traveler so they can gauge their own stability through reflection; Obstacle: The beams are too diffuse to form a clear image of the other; Turn: They begin synchronizing their internal rhythms rather than attempting mutual illumination.
+
+### subject_rotations
+
+- Examining 'responsibility' purely through an ecological lens: how one organism depends on another for survival in a symbiotic relationship, divorced from human morality.
+- Diverging from the immediate struggle; considering the light as a legacy or inherited burden—the obligation to sustain something that was broken by previous journeys.
+- Shifting the focus from *giving* outward radiance to meticulously cultivating an internal state of readiness so that when external need arises, one's own resource is maximally available.
+
+### sensory_details
+
+- The cool slickness of dew collecting on rough, uneven flagstones as the light hits it just before full daybreak (tactile/visual).
+- The sharp, high-pitched whine of taut threads vibrating in a sudden, localized gust of wind (auditory).
+- The specific earthy taste of dust that settles when one stops moving for too long, signifying stasis and potential depletion (taste).
+
+### research_questions
+
+- What are the poetic connotations in Bengali tradition regarding 'shared suffering' versus 'joint prosperity'?
+
+### structural_variants
+
+- A cyclical structure where each stanza begins by acknowledging what *was* given, but ends by questioning if that gift has been adequately received or integrated.
+- Alternating between highly dense, concentrated imagery of personal light and sparse, open stanzas representing the recipient's space for reception.
+- Employing a deliberate structural fragmentation at points where the sharing seems insufficient, breaking the rhythm to enforce the concept of incomplete transfer.
+
+### variety_note
+
+This chapter moves beyond simple witnessing (Ch. 31) or questioning utility (Ch. 32), focusing intensely on the active dynamics and inherent relational cost of mutual support itself.

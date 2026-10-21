@@ -53,6 +53,17 @@ Every write flattens first — never pass raw JSON to the writer. For the chapte
 3. **Write** `chapter.md` (flat, continuous prose; archive any prior copy to
    `segments/1/version/`).
 
+## Always Overwrite (no confirmation)
+
+When the command names a chapter whose `chapter.md` already exists, **overwrite
+it unconditionally**. Do not ask the user whether to keep the existing draft,
+whether to rewrite in a different style, or any other question — resolve the
+chapter's form, style, language, and word target, then write the new draft
+directly, archiving the prior copy to `segments/1/version/` as the skill
+prescribes. The only permitted stop is a hard failure (missing `language`,
+unsupported `form`, or a failed enrichment prerequisite); never stop to ask for
+confirmation on an existing draft.
+
 ## Dispatch
 
 Dispatch is a **strict per-chapter loop** — never batch, never parallelize. For

@@ -382,6 +382,42 @@ def load_override(model_file: Path) -> str:
     return text
 
 
+def load_gist(model_file: Path) -> str:
+    """Read the book's seed premise (gist.md) as a guardrail.
+
+    The gist is the author's declared essence — the one-line high concept plus
+    its expansion. Every chapter's consciousness must never drift away from it.
+    It is a guardrail (an anchor), never a quotation source. Returns the
+    content, or an empty string when absent.
+    """
+    gist_file = model_file.parents[2] / "gist.md"
+    if not gist_file.exists():
+        return ""
+    text = gist_file.read_text(encoding="utf-8-sig").strip()
+    if not text:
+        return ""
+    vlog(f"Gist guardrail loaded: {len(text)} chars")
+    return text
+
+
+def load_storyline(model_file: Path) -> str:
+    """Read the book's storyline (storyline.md) for thematic grounding.
+
+    The storyline is the source of the book's declared themes, imagery, and
+    world. Every chapter's theme must trace to it; the writer must not invent
+    subject matter absent from it. Returns the content, or an empty string when
+    absent.
+    """
+    storyline_file = model_file.parents[2] / "storyline.md"
+    if not storyline_file.exists():
+        return ""
+    text = storyline_file.read_text(encoding="utf-8-sig").strip()
+    if not text:
+        return ""
+    vlog(f"Storyline theme grounding loaded: {len(text)} chars")
+    return text
+
+
 def frame_override(override: str) -> str:
     """Frame the human override as craft rules, not content.
 
@@ -399,8 +435,31 @@ def frame_override(override: str) -> str:
     )
 
 
+def frame_guardrail(gist: str) -> str:
+    """Frame the gist as an unbreakable guardrail, not a source to quote."""
+    if not gist:
+        return "(none — no gist guardrail available)"
+    return (
+        "GUARDRAIL (the author's declared essence — anchor your consciousness "
+        "here, never drift away from it, never quote it as your own lines):\n\n"
+        + gist
+    )
+
+
+def frame_theme(storyline: str) -> str:
+    """Frame the storyline as thematic grounding, not a source to quote."""
+    if not storyline:
+        return "(none — no storyline theme grounding available)"
+    return (
+        "THEME GROUNDING (the book's declared themes, imagery, and world — keep "
+        "your subject and imagery traceable to this, invent nothing beyond it):\n\n"
+        + storyline
+    )
+
+
 def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
-                 override: str = "") -> str:
+                 override: str = "", gist: str = "", storyline: str = "",
+                 title: str = "", word_target: int = 0) -> str:
     """Use the complete model context, including nested filter guidance and any override."""
     lang = language.strip().lower()
     is_en = lang in {"en", "english", "eng"}
@@ -409,8 +468,12 @@ def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
         USER_PROMPT_TEMPLATE,
         style_prompt=poetry,
         number=number,
+        title=title or "",
+        word_target=word_target or 0,
         lang_word=lang_word,
         override=frame_override(override),
+        gist_guardrail=frame_guardrail(gist),
+        theme_grounding=frame_theme(storyline),
         context=context,
     )
 
@@ -681,13 +744,25 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     context = load_context(model_file)
     language = book_language(chapter_dir)
     override = load_override(model_file)
+    gist = load_gist(model_file)
+    storyline = load_storyline(model_file)
+    chapter_model = read_chapter_model(chapter_dir)
+    title = str(chapter_model.get("chapter_title") or chapter_model.get("title") or "").strip()
+    word_target = chapter_model.get("word_target")
+    if not isinstance(word_target, (int, float)) or word_target <= 0:
+        word_target = 0
     vlog(f"[{number}] Language resolved: {language}")
     vlog(f"[{number}] Model resolved: {model}")
     vlog(f"[{number}] Form resolved: {form}")
+    vlog(f"[{number}] Title resolved: {title!r}")
+    vlog(f"[{number}] Word target resolved: {word_target}")
 
     # Poetry: a single segment per chapter — one generation, one draft.
     if form == "poetry":
-        prompt = build_prompt(poetry, context, number, language, override)
+        prompt = build_prompt(
+            poetry, context, number, language, override, gist, storyline,
+            title, word_target,
+        )
         if SHOW_PROMPT:
             _show_request(number, model, language, prompt)
         info(f"[{number}] Generating chapter from complete model context ...")

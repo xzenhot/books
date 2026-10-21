@@ -133,7 +133,26 @@ Minimum fields:
 
 ### `bookseed.txt`
 
-One topic per line, in the exact writing order.
+One topic (chapter title) per line, in the exact writing order. This file is
+**machine-read**: `tools/verify_pipeline.py` checks each line equals the plan's
+`chapter_title`, and publish counts its lines for the chapter total. Keep it
+exactly one title per line — never add summaries, numbering, or commentary here.
+
+### `bookseed_outline.md` (new — storyline-derived summary outline)
+
+A **human-readable** numbered outline generated from
+`workspaces/backlog/<bookname>/storyline.md` (grounded in its Premise, Poetic
+Voice, Thematic Threads, Topical Structure, and World-Building sections, plus
+each chapter's `chapter_title`/`chapter_summary` from the book plan). One entry
+per chapter in writing order:
+
+```text
+1. <Title> — <one-line summary distilled from the storyline> [Image: <key image>; Question: <open question>]
+```
+
+Rules: never invent plot, names, places, or events absent from the storyline;
+each summary must trace to the storyline or the chapter's own plan summary;
+preserve writing order identical to `bookseed.txt`.
 
 ### `progress.json`
 
@@ -244,7 +263,7 @@ Do not write poem chapters or `book.md` during layout.
 
 Before reporting completion, verify:
 
-- Root files exist: `book.json`, `bookseed.txt`, and `progress.json`.
+- Root files exist: `book.json`, `bookseed.txt`, `bookseed_outline.md`, and `progress.json`.
 - `filters/override/filter.md` exists — the override command file (no pipeline-root `override.md`).
 - `filters/filters.json` exists and names all seven poetry filters in order. No per-filter folders are created at scaffold; each filter creates its folder on first run.
 - Every topic has one numeric chapter folder.

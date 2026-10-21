@@ -80,11 +80,11 @@ Resolve and hand off a **pre-layout plan** with these fields:
 2. The pipeline `book.json` exists and declares the `form`.
 3. The backlog master prompt exists at `workspaces/backlog/<bookname>/override.txt`.
 
-If the backlog master prompt is missing, do not fail — derive the master prompt from the pipeline `book.json` (gist, book_summary, register, form) alone, and note that the backlog source was absent.
+If the backlog master prompt is missing, do not fail — fall back to the canonical template `.framework/templates/backlog/v1/override.txt` (and, if that is also absent, derive the master prompt from the pipeline `book.json` — gist, book_summary, register, form — alone), and note that the backlog source was absent.
 
 ## What to Read (in order)
 
-1. `workspaces/backlog/<bookname>/override.txt` — the book's static identity and mandate (the seed idea).
+1. `workspaces/backlog/<bookname>/override.txt` — the book's static identity and mandate (the seed idea). This file is seeded by the init agent from `.framework/templates/backlog/v1/override.txt` — the canonical backlog override template — and may then be human-edited. When the backlog copy is absent, fall back to the template at `.framework/templates/backlog/v1/override.txt`.
 2. `workspaces/pipeline/<bookname>/book.json` — the resolved form, language, register, quality, themes, reference, signature, sacred vocabulary, translation guide, gist, and book summary.
 3. `workspaces/pipeline/<bookname>/bookseed.txt` (poetry) — the concrete topic list; or `workspaces/pipeline/<bookname>/book.json` (novel) — the chapter plan.
 

@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+7
+
+## name
+
+7
+
+## word_target
+
+280
+
+## chapter_title
+
+বাধার মুখোমুখি
+
+## chapter_summary
+
+বাধা সামনে এলে সংকল্পের সীমা এবং তার প্রকৃত শক্তি দুটোই স্পষ্ট হয়। কবিতাটি বাধাকে কেবল শত্রু না বানিয়ে, তার মুখোমুখি দাঁড়ানোর অভিজ্ঞতাকে কেন্দ্রে রাখে এবং সেই মুখোমুখি হওয়ার মধ্যেই নিজেকে নতুন করে চেনার সুযোগ খোঁজে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the 'obstacle' not as an external force to be defeated, but as a necessary medium through which inner resilience gains its specific texture.
+- Framing the confrontation itself—the act of standing *against* the barrier—as the momentary definition of self, prior to any action taken against it.
+- Exploring the internal shift where recognition of the obstacle moves from generating fear (a negative state) to becoming a catalyst for focused energy (a kinetic potential).
+
+### story_options
+
+- setting: A vast field, bordered by an impenetrable thicket of wild thorny creepers (representing societal judgment/external pressure)., desire: To articulate the precise moment conviction wavers before pressing forward., obstacle: The dense entanglement that seems to mock small acts of will., turn: A momentary choice is made: either yield to the silence of the thicket or force a specific, slow breach.
+- setting: At the mouth of a deep ravine carved by ancient water erosion (representing unavoidable existential challenge)., desire: To map the precise gradient of fear versus absolute resolve in one's own body., obstacle: The sheer, unforgiving vertical drop into shadowed depths., turn: Instead of attempting to climb over, the character finds a single point of unexpected purchase on the rock face.
+- setting: In a room lined with heavy, sound-dampening walls (representing suffocating domestic or social expectation)., desire: To find a resonant frequency within oneself that can pierce the enforced quiet., obstacle: The oppressive weight of unvoiced expectations and whispered doubt., turn: The inner 'flame' is not a sudden burst, but a deep, subterranean tremor felt through the soles of the feet.
+
+### subject_rotations
+
+- Focusing exclusively on the dialectic between 'Impermanence' (the transient nature of any obstacle) and 'Commitment' (the enduring internal stance).
+- Treating the confrontation as a metaphysical negotiation: what must be acknowledged about the barrier for it to cease being merely an impediment?
+- Shifting from external struggle (defying the object) to internal mapping (charting how *I* change when faced with this specific type of resistance).
+
+### sensory_details
+
+- The sharp, almost acidic scent released by vegetation under extreme duress.
+- The dull, gritty friction against skin where flesh meets unyielding material during a prolonged stand.
+- The high-pitched ring or vibration in the inner ear when resisting immense static pressure.
+
+### research_questions
+
+- How can Bengali poetic tradition describe the physical sensation of holding tautness—muscular strain without movement—using non-martial metaphors?
+- What linguistic register best conveys the difference between resigned acceptance and active acknowledgment of a severe impediment?
+
+### structural_variants
+
+- Employing an escalating rhetorical question structure, where each subsequent line frames the obstacle in increasingly abstract or existential terms.
+- A fragmented rhythm that momentarily breaks into stasis (a deliberate syncopation) precisely when the barrier is perceived as most insurmountable.
+
+### unused_angles
+
+- The potential for the 'obstacle' to reveal a hidden, beautiful pattern if approached with intense scrutiny rather than brute force.
+- A brief meditative section where the confrontation leads not to action, but to perfect stillness—a zero-state moment before decision.
+
+### variety_note
+
+Unlike the immediate clarity of Chapter 3 or the slow build of Chapter 4, this chapter focuses entirely on the dynamic state *at* the point of friction—the sustained tension between self and barrier.
