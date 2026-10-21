@@ -2,12 +2,49 @@
   "chapter_index": 13,
   "name": "13",
   "word_target": 280,
-  "chapter_title": "অনুচ্চারিত আর্তির তলদেশ",
-  "chapter_summary": "যে বেদনা কোনো ধ্বনি বা ভাষা পায় না, নীরবতা তাকেই সবচেয়ে বিশ্বস্তভাবে ধারণ করে। এই স্তব্ধতার পাশে এসে দাঁড়িয়ে শোনার কাজটাই পরম মমতার এক গভীরতম সাক্ষ্য।",
+  "chapter_title": "চম্পকনগরের রুদ্ধ দ্বারের স্মৃতি",
+  "chapter_summary": "দূরের স্মৃতিতে ফেলে আসা শ্বশুরবাড়ির লাঞ্ছনা তাকে আর দুর্বল করে না, বরং পরনির্ভরশীলতা ঘুচিয়ে আত্মশক্তির গোপন উৎসের সন্ধান দেয়।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The memory not as a source of pain, but as hardened armor—each remembered slight polished into a specific facet of resilience.",
+      "Framing the locked door metaphorically: it represents the societal confinement she escaped by venturing into the unknown waters, making escape an act of spiritual breaking.",
+      "A psychological geography: charting how the physical space of Champa Nagar (as memory) translates into psychic terrain on the raft—a landscape of unresolved tension."
+    ],
+    "story_options": [
+      "Setting: The imagined threshold of the closed gate in her mind. Desire: To feel a moment of sharp, almost painful clarity about why she *must* move forward now, despite echoes of past humiliation. Obstacle: The phantom weight of judgments cast by those gates.",
+      "Setting: A patch of water reflecting the distant memory's light (a momentary vision). Desire: To pinpoint one specific word or gesture from her time there that remains stubbornly untranslatable into action on the river. Obstacle: The overwhelming pressure to immediately respond with defiance rather than reflection.",
+      "Setting: When a minor, mundane event occurs on the raft—perhaps a bird landing nearby. Desire: To use this tiny present reality as a counterpoint against the grander, oppressive memory of the ancestral house. Obstacle: The pull back into historical grievances, threatening to hijack her focus."
+    ],
+    "subject_rotations": [
+      "Focusing entirely on the *linguistic* residue of past insults—how specific archaic Bengali phrasing remains in her mind like silt clinging to her tongue.",
+      "Treating the 'locked door' not as a boundary imposed by people, but as a structural symbol of tradition itself—the unyielding nature of rigid social constructs.",
+      "Shifting from remembering external humiliation to recognizing an internal inheritance: realizing that the strength required to survive *that* past pain is now flowing into her present journey."
+    ],
+    "sensory_details": [
+      "The sharp, mineral scent rising off the river mud near where she imagines passing by familiar, forbidding landmarks.",
+      "The specific texture of woven thread—a memory tactile against skin while navigating the current, contrasting with smooth, slick water.",
+      "A sudden, jarring auditory element: the distinct sound of a door bolt sliding shut from a great distance."
+    ],
+    "research_questions": [
+      "How can the vocabulary associated with domestic confinement (within a wealthy Bengali household) be rendered poetically without lapsing into mere melodrama or cliché?",
+      "What specific tonal shifts in Bengali poetry best convey the transition from remembered bitterness to empowered neutrality?",
+      "Are there established poetic metaphors within the traditional Bengal canon for memory that operate as both burden and propellant?"
+    ],
+    "structural_variants": [
+      "A fragmented structure where each stanza presents a flash-memory scene (a door, a gaze, a word), followed by a single, grounding image from the present raft journey.",
+      "An extended metaphor wherein the river's flow is continuously compared to the slow erosion of memory—some details fade while others become bedrock features."
+    ],
+    "variety_note": "Unlike earlier chapters focusing on immediate physical ordeal (starvation/attack), this chapter uses the past not as a threat, but as inert material that she actively processes and re-engineers into present strength."
+  },
+  "draft": {
+    "sha256": "1a8835ae41d106db4b8093e96c47e3db37ba6700885ab460b69cc2bf91c3dd6b",
+    "written_at": "2026-10-21T16:24:37.156017+00:00",
+    "origin": "write"
+  }
 }

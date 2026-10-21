@@ -16,6 +16,25 @@ This agent is only a dispatcher. It must not write chapter content directly; it 
 
 - `<style>` — optional style selector. **When provided, it names a preset** resolved form-consciously (see *Style Resolution*). **When omitted, the book's own `workspaces/pipeline/<bookname>/style.md` is used.** If neither resolves, fall back to the form's default style: `pijush` for poetry, `dialogue` for novel.
 
+## Execution Mode (never route to Python when online)
+
+Read the book's `factory` (or an explicit `offline`/`online` argument) per
+`.framework/rules/command-boundary.md` **before** choosing a route, for every
+target — `all`, `*`, a single chapter, a range, or `continue`:
+
+- **`online`** (the default): this agent performs the writing **agentically** —
+  direct file reads and writes only. Never run `python`, `python tools/book.py
+  ... write`, or any helper script, even for `all`/`*`.
+- **`offline`**: **always** resolve the exact command from
+  `.framework/offline_registry.md` and run it via Python, for **every** target —
+  a single chapter, a range, `continue`, or `all`/`*`. The command is
+  `python tools/book.py <bookname> write [<n>|range|all|continue] [--style NICK]`.
+  Display it to the user and ask "go / don't go" before running it; do not
+  execute Python yourself until the user confirms.
+
+The execution mode is a route switch only — it never changes the resolved form,
+style, language, or word target.
+
 ## Override Is Craft, Not Content (mandatory)
 
 Read `workspaces/pipeline/<bookname>/override.txt` on **every** write. It is the

@@ -2,12 +2,51 @@
   "chapter_index": 1,
   "name": "1",
   "word_target": 280,
-  "chapter_title": "নামের ভিতরে প্রতীক",
-  "chapter_summary": "বেহুলা নামটি এই কবিতায় এক ব্যক্তির পরিচয় ছাড়িয়ে বিশ্বাস ও সংগ্রামের প্রতীক হয়ে ওঠে। কবিতাটি প্রতীকের মর্যাদা এবং মানুষের বাস্তব ক্লান্তি—এই দুইয়ের মধ্যে দূরত্বটি খোলা রাখে।",
+  "chapter_title": "নামের গভীরে জাগা রক্তমাংস",
+  "chapter_summary": "বেহুলা কোনো অলৌকিক শিলালিপি নয়; এক রক্তমাংসের তরুণীর রক্তাশ্রু, সামাজিক লাঞ্ছনা ও দুর্গম পথ পেরোনোর মধ্য দিয়ে এই আত্মিক প্রতীকের জন্ম।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The physicality of identity: exploring how 'blood-flesh' translates into the physical endurance required for her journey.",
+      "The weight of a name: focusing intensely on what it means to bear the name 'Behula' in a patriarchal society before any crisis occurs.",
+      "The initial friction between idealized myth and human vulnerability, establishing the contrast early."
+    ],
+    "story_options": [
+      "A moment just after her wedding preparations, where she looks at her own reflection—a young woman unsure how to inhabit the grand name bestowed upon her.",
+      "An internal monologue during a quiet domestic ritual (perhaps preparing for a festival), contrasting the societal expectation of grace with the nascent storm inside her soul.",
+      "A brief imagined scene from childhood or youth, showcasing an early moment where she demonstrated fierce spirit in response to minor injustice, foreshadowing later trials."
+    ],
+    "subject_rotations": [
+      "Focusing entirely on the *promise* of the name—the weight of cultural expectation before it is tarnished.",
+      "Treating 'blood-flesh' as immediate lived reality rather than symbolic suffering; focusing on mundane bodily sensations alongside nascent spiritual strength.",
+      "Analyzing the language itself: how poetic diction frames her existence from the very beginning, setting up future conflict with prosaic harshness."
+    ],
+    "sensory_details": [
+      "The specific scent of freshly pressed silk or wedding unguents juxtaposed against an internal metallic taste (blood/fear).",
+      "The precise feeling of intricately woven bangles clicking faintly in the silence of a grand, expectant hall.",
+      "The visual texture of morning light catching dust motes suspended above highly polished ancestral wood."
+    ],
+    "research_questions": [
+      "How does the initial portrayal of 'Behula' differ from the later archetype, ensuring this opening is distinctly rooted in human frailty rather than immediate transcendence?"
+    ],
+    "structural_variants": [
+      "A sequence built entirely around rhetorical questioning directed inward toward her own identity.",
+      "An escalating rhythmic pattern where repetition builds tension until a single, sharp thematic image breaks the cadence."
+    ],
+    "unused_angles": [
+      "The political dimension of womanhood within that society before she is defined by tragedy.",
+      "Detailed exploration of the specific lineage or clan identity associated with her name prior to any external conflict."
+    ],
+    "variety_note": "Unlike later chapters which deal with physical trials (crowds, water, beasts), this chapter anchors the narrative in the internal and material reality of being a person assigned a powerful mythological designation."
+  },
+  "draft": {
+    "sha256": "2048d06b96e107e3ae9996e9640122131e37abdb47e61c08b2abec66532ed7cf",
+    "written_at": "2026-10-21T16:21:30.152158+00:00",
+    "origin": "write"
+  }
 }

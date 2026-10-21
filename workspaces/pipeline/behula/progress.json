@@ -8,861 +8,1017 @@
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "নামের ভিতরে প্রতীক",
+      "topic": "নামের গভীরে জাগা রক্তমাংস",
       "category": "",
       "status": "pending",
       "file_path": "chapters/1/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ee54d4c879ef3e0dee223ae11145fca2b15296577632a220e45f84f87929e541",
+      "published_version": 4
     },
     {
       "chapter_number": 2,
-      "topic": "অক্ষরের আড়ালে জেগে থাকা রক্তমাংস",
+      "topic": "বাসরঘরে প্রলয় ও আকস্মিক শূন্যতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/2/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "93e18ef34c3b8f938465872f3c2725f3c4f925ef577ecbd05a7f286e4af22700",
+      "published_version": 4
     },
     {
       "chapter_number": 3,
-      "topic": "অনিশ্চয়তার মুখে অনির্বাণ শিখা",
+      "topic": "বিধবা শাড়ির নিচে অপয়া অপবাদের দাহ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/3/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "7c4ee116d552081db31652ba0f3106bc5d4deae94b48914ce6d138e9817133d4",
+      "published_version": 4
     },
     {
       "chapter_number": 4,
-      "topic": "দৃষ্টিসীমার প্রথম উন্মোচন",
+      "topic": "শ্বশুরকুলের সন্দেহের অনল ও আশ্রয়হীনতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/4/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "1a43c1c97c801616407af118a71be7bdfe2b585b00cea01843cbe78138659b42",
+      "published_version": 4
     },
     {
       "chapter_number": 5,
-      "topic": "কৃষ্ণপক্ষের দ্বারে অভিবাদন",
+      "topic": "লোকাচারের শৃঙ্খল ভাঙার স্পর্ধা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/5/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "5f6c0510c2a81b42601cbb4d11749c15882994d28747305220eda1e71aafd268",
+      "published_version": 4
     },
     {
       "chapter_number": 6,
-      "topic": "দিগন্তহীন শূন্যে প্রথম চরণ",
+      "topic": "কলার মান্দাসে একাকী মহাপ্রস্থান",
       "category": "",
       "status": "pending",
       "file_path": "chapters/6/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ea95c428c16c6400c1d0cc28ccad5d1939f9e50edd5a7a775c33b6bfa3250ea6",
+      "published_version": 4
     },
     {
       "chapter_number": 7,
-      "topic": "প্রস্তরখণ্ডের মুখোমুখি দৃষ্টি",
+      "topic": "গাঙুড়ের কৃষ্ণজলে বিশ্বাসের সলতে",
       "category": "",
       "status": "pending",
       "file_path": "chapters/7/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "f3a59c403c92d732af5d86b2e743d61c19536271978534c3710bb48984266dec",
+      "published_version": 4
     },
     {
       "chapter_number": 8,
-      "topic": "আস্থার তলে কাঁপা ছায়া",
+      "topic": "দৈব আক্রোশের মুখে নৈতিক প্রতিরোধ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/8/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ca4aac4e710898100baffcfa7133b591e78a72796e9dbcfedeb1ddb1544c41ad",
+      "published_version": 4
     },
     {
       "chapter_number": 9,
-      "topic": "মধ্যপথের নিস্তব্ধ নিঃশ্বাস",
+      "topic": "গলিত শবের বুকে প্রেমের শুচিতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/9/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ae3f586d2d3e974e170dc5e1f17fddb520ca5a74e3f2d89d3c79967513e84ccc",
+      "published_version": 4
     },
     {
       "chapter_number": 10,
-      "topic": "বালুবেলায় ফেলে আসা রেখা",
+      "topic": "অনাহারে শীর্ণ কায়া ও অপরাজেয় চিত্ত",
       "category": "",
       "status": "pending",
       "file_path": "chapters/10/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "b889984141b3dcd050337a8875b4b90f2d1e429df1fc6b8b5e5fe6e0d2cbedea",
+      "published_version": 4
     },
     {
       "chapter_number": 11,
-      "topic": "পরিশ্রান্ত ডানার স্বীকৃতি",
+      "topic": "কামুক দৃষ্টির মুখে সতীর তেজস্বী বজ্র",
       "category": "",
       "status": "pending",
       "file_path": "chapters/11/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "0ad1963aceaa85bcedefecfe4c295c576b0b48549c578a0a48bbe6c836e00a5a",
+      "published_version": 4
     },
     {
       "chapter_number": 12,
-      "topic": "অঘোষিত সাহসের অণুপরমাণু",
+      "topic": "শকুনের ছায়া ও মায়াবী শ্বাপদের আক্রমণ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/12/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "4d76de15a4a6fc70722b118d316be24ac38eb809cc091228f223ebce697d81f4",
+      "published_version": 4
     },
     {
       "chapter_number": 13,
-      "topic": "অনুচ্চারিত আর্তির তলদেশ",
+      "topic": "চম্পকনগরের রুদ্ধ দ্বারের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/13/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "e5a699a9066f319644a8ad80f995b950d2d2d83e143b3907166ad7b45c3bdfc9",
+      "published_version": 4
     },
     {
       "chapter_number": 14,
-      "topic": "অন্তরের নিভৃতে গড়া চুক্তি",
+      "topic": "মাঝনদীর নিস্তব্ধতায় সংশয় জয়",
       "category": "",
       "status": "pending",
       "file_path": "chapters/14/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "222aa06858ac5195958c190a72faeef97a74d8f7db3ff5ff1d4bf684c1987f45",
+      "published_version": 4
     },
     {
       "chapter_number": 15,
-      "topic": "কালবোশেখির মুখে একাকী দীপ",
+      "topic": "ধর্মীয় অচলায়তনের বিরুদ্ধে সত্যের ডাক",
       "category": "",
       "status": "pending",
       "file_path": "chapters/15/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "6883e794c45acc6af4f5ef23981b53c9ba0c10e862fd881c5bbdb3b24666c6ac",
+      "published_version": 4
     },
     {
       "chapter_number": 16,
-      "topic": "করপুটের নিঃশব্দ প্রাচীর",
+      "topic": "রক্তাক্ত করতলে দাঁড় বাওয়ার ছন্দ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/16/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "99ef014295af734f6b2db1de80773ca8bf411bd8c006598481300769bdfcff78",
+      "published_version": 4
     },
     {
       "chapter_number": 17,
-      "topic": "অমানিশার সখ্য",
+      "topic": "বিষাক্ত কুয়াশা ও সর্পকুলের ভীতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/17/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "bfa31bea03028e722b334d6ad7e066495579e49628648483c671e96efefb9d8c",
+      "published_version": 4
     },
     {
       "chapter_number": 18,
-      "topic": "নিরেট পাথরের পাঠশালা",
+      "topic": "বধূর কোমলতা চিরে জন্ম নেওয়া যোদ্ধা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/18/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "07d7ba129732e4869ba96e85baf70bcb3ad49c087653cf6be88838c113fae8ee",
+      "published_version": 4
     },
     {
       "chapter_number": 19,
-      "topic": "বৃত্ত ভাঙার নিঃশব্দ কৌশল",
+      "topic": "উন্মত্ত ঢেউয়ের সাথে সহাবস্থান",
       "category": "",
       "status": "pending",
       "file_path": "chapters/19/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "540c3d37ee5024c52b1693390c8c89e3eea9abffae84425f3943b77743b23eba",
+      "published_version": 4
     },
     {
       "chapter_number": 20,
-      "topic": "একাকী অরণ্যের প্রতিস্বর",
+      "topic": "অটল নয়নে ভোরের রক্তিম রেখা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/20/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ad968cb7258525e8365180f5a85dc48fa82c18076149172b6086e8841b0de765",
+      "published_version": 4
     },
     {
       "chapter_number": 21,
-      "topic": "অধ্যবসায়ের ছন্দ",
+      "topic": "অপমানিত কুলের সম্মান উদ্ধারের সঙ্কল্প",
       "category": "",
       "status": "pending",
       "file_path": "chapters/21/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "b06a7a03697ab2adf8a7e897a7146f2913d9900c2e3fc9a3476b3b5c617f0cff",
+      "published_version": 4
     },
     {
       "chapter_number": 22,
-      "topic": "দৈনন্দিনের শান্ত প্রতীক্ষা",
+      "topic": "নিভৃত কান্নার রূপান্তর শক্তিতে",
       "category": "",
       "status": "pending",
       "file_path": "chapters/22/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "68c1d70394b6e62242454783c60ac89ac1bbe7ab30cee581f13f75c9e2a6f6bb",
+      "published_version": 4
     },
     {
       "chapter_number": 23,
-      "topic": "মাটির কায়া ও নভোমণ্ডলের শিখা",
+      "topic": "স্বর্গের নিষ্ঠুর নীরবতার পাঠ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/23/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "0091186853d6d4bdb95a930ea30f087958ee34eccf62ac4ed7e76b125e046f63",
+      "published_version": 4
     },
     {
       "chapter_number": 24,
-      "topic": "বিবেকবীণার সূক্ষ্ম ঝংকার",
+      "topic": "তটভূমির ব্যঙ্গ ও কৌতূহলী দৃষ্টি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/24/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "bcfac0db5361889c67fd2412ced5e99a9f46c23522935b002d5c606fd7a07b77",
+      "published_version": 4
     },
     {
       "chapter_number": 25,
-      "topic": "সমাপ্তির কূলে নবদ্বার",
+      "topic": "ক্ষমার আলোয় অন্তরের ভারমুক্তি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/25/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ec0969d632ae5aaf1710a68d2f9adccff74cb6e448663f69cc885307ed706a99",
+      "published_version": 4
     },
     {
       "chapter_number": 26,
-      "topic": "ক্ষতের অবিকৃত উচ্চারণ",
+      "topic": "পচন ও পুনর্জন্মের সন্ধিরেখা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/26/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "f25fcd52f4bdb9efe7f830bcae4f8a2fb1bcd2bbc881c7e5179b96202409bc5b",
+      "published_version": 4
     },
     {
       "chapter_number": 27,
-      "topic": "সংশপ্তকের অনিশ্চিত প্রত্যয়",
+      "topic": "অজানা বাঁকে অচঞ্চল দাঁড়ের গতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/27/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "0bb883f6c47aed13dfee0ca1950d0aaa988f215eb3b52e808aa0bcbeddf8de58",
+      "published_version": 4
     },
     {
       "chapter_number": 28,
-      "topic": "ধূসর তিমিরে প্রথম ঊষার রেখা",
+      "topic": "হিজল-তমালের ছায়ায় প্রকৃতির সান্ত্বনা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/28/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "041d187a68004a2c39d32002abef02eb18b636f0c09769018357c6dcef7705c1",
+      "published_version": 4
     },
     {
       "chapter_number": 29,
-      "topic": "পদরেখার নিঃশব্দ সাক্ষ্য",
+      "topic": "অন্তরের অগ্নিকুণ্ডে অবিরাম আহুতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/29/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "e80e2576430a3c8d6673ad4e66459abcda6c233390b41910d9854107251df837",
+      "published_version": 4
     },
     {
       "chapter_number": 30,
-      "topic": "মুক্ত করপুটের সহমর্মিতা",
+      "topic": "বঞ্চিত বঙ্গনারীর সামগ্রিক দীর্ঘশ্বাস",
       "category": "",
       "status": "pending",
       "file_path": "chapters/30/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "9d81af7e27bf9dd8977d7cc507fadf8426665e0a83b4352793f8052b594e8bb5",
+      "published_version": 4
     },
     {
       "chapter_number": 31,
-      "topic": "চরণের পিছে রেখে যাওয়া দ্যুতি",
+      "topic": "একাকী বাহুর আত্মনির্ভরতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/31/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "f3ec1173067de203a34b804e113e954eab31c9b9916cf46f8ae7344c5e0dca44",
+      "published_version": 4
     },
     {
       "chapter_number": 32,
-      "topic": "একাকী ক্রন্দন ও সর্বজনীন আর্তি",
+      "topic": "কুয়াশার চরে বিবেকের দিকদর্শন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/32/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "87bb327c3d1ae61f1f6e13efa9fa6119fee65d46e59ff852fbdd91cae7c3811e",
+      "published_version": 4
     },
     {
       "chapter_number": 33,
-      "topic": "স্বয়ম্ভূ চরণের মুক্তি",
+      "topic": "মৌনতার অন্তরালে চরম আঘাত",
       "category": "",
       "status": "pending",
       "file_path": "chapters/33/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "5c77293c6fbcba967beacd0df5f2db7329e99f2a96fdf62d044a3e56e8051a5c",
+      "published_version": 4
     },
     {
       "chapter_number": 34,
-      "topic": "আলোর মহৎ বণ্টন",
+      "topic": "ক্ষুদ্র বিন্দুর বিরাট আশ্বাস",
       "category": "",
       "status": "pending",
       "file_path": "chapters/34/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "f928fda35dadd648b9cc053ab7839e6fdb71749a8d6a0b4b76784961bfe1d31f",
+      "published_version": 4
     },
     {
       "chapter_number": 35,
-      "topic": "নীরব সহযাত্রার বিস্তার",
+      "topic": "সমর্পণ পেরিয়ে অধিকারের প্রত্যয়",
       "category": "",
       "status": "pending",
       "file_path": "chapters/35/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "87bf0c4a7035166bce2502dca6556216dede9c138573cd4992a8e7041283bfc3",
+      "published_version": 4
     },
     {
       "chapter_number": 36,
-      "topic": "কালান্তরে হস্তান্তরিত শিখা",
+      "topic": "ব্যক্তিগত সীমানা ছাড়িয়ে সার্বজনীন আর্তি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/36/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "2fe5f61b01aa285a107e698854f559fc96d400cbd66a6403c20d69c424d5dfcb",
+      "published_version": 4
     },
     {
       "chapter_number": 37,
-      "topic": "অলংকারহীন লড়াইয়ের বয়ান",
+      "topic": "পুরুষতান্ত্রিক দম্ভের বিপরীতে নৈতিক বল",
       "category": "",
       "status": "pending",
       "file_path": "chapters/37/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "2551f4bd4a132b726941f7866c9a4f23ee1675eefdf84de99f04b4fb06c4b9b2",
+      "published_version": 4
     },
     {
       "chapter_number": 38,
-      "topic": "প্রতিমার খোলস ভেঙে জীবন্ত মানুষ",
+      "topic": "ক্লান্ত ডানায় অপরাজেয় পালক",
       "category": "",
       "status": "pending",
       "file_path": "chapters/38/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "45ce5c52ee6840be3be96e9df82828f113bd787e8b8e047fb122fb388b44c6c1",
+      "published_version": 4
     },
     {
       "chapter_number": 39,
-      "topic": "চরম বাঁকের নিরাসক্ত পরীক্ষা",
+      "topic": "আত্মমর্যাদার অলিখিত সনদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/39/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "9593f085bfa1f739b1febe573c50eb5f0d6e329be1d533978fc1e08a5a0c8e8b",
+      "published_version": 4
     },
     {
       "chapter_number": 40,
-      "topic": "অনন্ত উন্মেষের কূলে",
+      "topic": "অন্ধকার নদীর শেষ বাঁক",
       "category": "",
       "status": "pending",
       "file_path": "chapters/40/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "c7e7d9ceca0ead5d3ad1e30ee6f9cd3ac1b0420b64a2c5b45eb6b640dcba92ff",
+      "published_version": 4
     },
     {
       "chapter_number": 41,
-      "topic": "মুক্ত প্রান্তরের সার্বজনীন ডাক",
+      "topic": "নেতাই ধোবানির ঘাটে তরীর নোঙর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/41/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "82f4c84c2570bce87e6e6d59fcc1f09e6a743bf466277e0ab57f055e37852937",
+      "published_version": 4
     },
     {
       "chapter_number": 42,
-      "topic": "নির্জন স্তব্ধতার অবকাশ",
+      "topic": "অলৌকিক পুনরুজ্জীবন দর্শন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/42/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "9689a48d0773d46b98b4ae895c10f02281f548f35da97bd9646ed17979b84a49",
+      "published_version": 4
     },
     {
       "chapter_number": 43,
-      "topic": "মৃত্তিকা-সংলগ্ন নৈমিত্তিক অর্ঘ্য",
+      "topic": "নেতাইয়ের আশ্রয়ে আত্মনিবেদন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/43/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "c36483008e88cab4d375562b21b86d7c0a4e1958c4ea0280b53542ced6702440",
+      "published_version": 4
     },
     {
       "chapter_number": 44,
-      "topic": "সক্রিয় অপেক্ষার নিভৃত ফলন",
+      "topic": "স্বর্গের অলিন্দে ধূলিমলিন চরণ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/44/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "2e1652c35e80811862eecd5c874895f9aa04a849034db7311012a62ecafa3cc9",
+      "published_version": 4
     },
     {
       "chapter_number": 45,
-      "topic": "ক্ষতচিহ্নে ধারণ করা দ্যুতি",
+      "topic": "দেবতাদের আত্মম্ভরিতা ও বিচারসভা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/45/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ea162a106b9abe58b3b236833a7348001ba459322638b44b94d062b5425827d3",
+      "published_version": 4
     },
     {
       "chapter_number": 46,
-      "topic": "ধার করা জ্যোতির নিরাসক্ত স্বীকৃতি",
+      "topic": "নৃত্যের তালে শোকের অগ্ন্যুৎপাত",
       "category": "",
       "status": "pending",
       "file_path": "chapters/46/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "4b8bdf3dbbc7b01e6e5b549ed0cda82cbb2f976278b84cc21b7301c719c8d770",
+      "published_version": 4
     },
     {
       "chapter_number": 47,
-      "topic": "হিমরাত্রির নিঃসঙ্গ স্ফুলিঙ্গ",
+      "topic": "সুরের বাঁধনে ইন্দ্রের দম্ভ চূর্ণ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/47/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "f22c1f6601a2b60ff366529208fb12e28636464766fae990dc74a0a8b94152bb",
+      "published_version": 4
     },
     {
       "chapter_number": 48,
-      "topic": "নতুন করপুটে অর্পিত অনল",
+      "topic": "মহাদেবের চরণে মর্ত্যের অধিকার দাবি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/48/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "f768798b400ccc0a8821a620def5ba2219bc957835cc874f3d2f78f13c6a5b80",
+      "published_version": 4
     },
     {
       "chapter_number": 49,
-      "topic": "হারানো চরণের প্রজ্ঞাময় পাঠ",
+      "topic": "লখিন্দরের অঙ্গে প্রথম প্রাণের স্পন্দন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/49/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "beffb28e277e884b29110319a5b74e9ad7a0d05e09ac93bd17379ece17d439c3",
+      "published_version": 4
     },
     {
       "chapter_number": 50,
-      "topic": "স্মৃতির ভারমুক্তির উদার আকাশ",
+      "topic": "পুনর্জন্মের মহালগ্ন ও নয়ন উন্মীলন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/50/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "85a2b0a110224fa91c518b7a1a2743e67cbb73b8b6661b0bd6d5f8635073ef12",
+      "published_version": 4
     },
     {
       "chapter_number": 51,
-      "topic": "মধ্যবর্তী সোপানে দ্বিধাহীন স্থিতি",
+      "topic": "হারানো ছয়পুত্রের জীবন ভিক্ষা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/51/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "d207fb0f2ff6ddbeae77cdcb26eae77a2f42fa1d070475cb5afb069a5502f882",
+      "published_version": 4
     },
     {
       "chapter_number": 52,
-      "topic": "কর্মস্রোতে নিমগ্ন সমাহিত চিত্ত",
+      "topic": "অতলের সপ্তডিঙা উদ্ধারের আদেশ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/52/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "0412a67f5761de6aa9d3487193e3efa02867f3d98734bc24f75d8d876d9f7bd4",
+      "published_version": 4
     },
     {
       "chapter_number": 53,
-      "topic": "বাদলধারায় আগলানো নিঃশব্দ শিখা",
+      "topic": "মানবীর চরণে নত স্বর্গের আসন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/53/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "202ba4cdfdcf5767c9c5aacca8f5a529694bfe50a2944194143dbaa9a0daa003",
+      "published_version": 4
     },
     {
       "chapter_number": 54,
-      "topic": "সংশয় ও জিজ্ঞাসার দহনে খাঁটি আলো",
+      "topic": "বিজয়িনী বেশে চম্পকনগরে ফেরা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/54/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "07ddd266235b46f56d231f34fa98c9dc29502ec06e53834802e8216be5967a26",
+      "published_version": 4
     },
     {
       "chapter_number": 55,
-      "topic": "সোঁদা মাটির ঘ্রাণে শাশ্বত প্রত্যয়",
+      "topic": "পিতা চন্দ্রকান্তের অহংকার চূর্ণ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/55/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "61f0e2ae41bf44d23e6b2aa6797196ab45cd3cff7af193e27185e4d5db1e7c63",
+      "published_version": 4
     },
     {
       "chapter_number": 56,
-      "topic": "তমসায় নিমগ্ন একাকী পাহারাদার",
+      "topic": "শ্বশুরকুলে অভিভাবকের আসনে বধূ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/56/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "abe89ff7210a9456b35d7f2029c3dbf302bce44118ca4dbb2520fc086e9c522f",
+      "published_version": 4
     },
     {
       "chapter_number": 57,
-      "topic": "ঊষালগ্নের অদেখা পরিচর্যা",
+      "topic": "সমাজের কুৎসিত মুখের নীরবতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/57/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "be27b1cb952b3218b988dd6a94dc377b66dc2d2da9d44563696ce96ebeb2f609",
+      "published_version": 4
     },
     {
       "chapter_number": 58,
-      "topic": "দুই তীরের ব্যবধানহীন সাঁকো",
+      "topic": "ক্ষমার ঔদার্যে আত্মমর্যাদা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/58/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "adedd47f1cd93ec465fe0d1cc6a5ee675f92ba6769c7cb26b7015fb740374cae",
+      "published_version": 4
     },
     {
       "chapter_number": 59,
-      "topic": "অচেনা চরণের অহেতুক করুণা",
+      "topic": "ষড়যন্ত্রের বিষদাঁত ভেঙে দেওয়া",
       "category": "",
       "status": "pending",
       "file_path": "chapters/59/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "eb2cd6324700b3a6e9fa38ad281df6aa9f6ff4900859cd98cfb980cc4f151e5d",
+      "published_version": 4
     },
     {
       "chapter_number": 60,
-      "topic": "দ্যুতির তলে আশ্রিত ছায়াপথ",
+      "topic": "বিবেক ও আইনের কাঠগড়ায় অসত্য",
       "category": "",
       "status": "pending",
       "file_path": "chapters/60/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "89bf2ed0d2761799efb76c0f33c41c132eba937624d50406655f287d9c5a0d6f",
+      "published_version": 4
     },
     {
       "chapter_number": 61,
-      "topic": "প্রতিদিনের প্রত্যুষে নবীন শপথ",
+      "topic": "সম্পদের চেয়ে নিষ্ঠার শ্রেষ্ঠত্ব",
       "category": "",
       "status": "pending",
       "file_path": "chapters/61/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "5c7674a1b2377dc857d80dde78e78e8d281986195fafae0ef2fe234695ee8f2b",
+      "published_version": 4
     },
     {
       "chapter_number": 62,
-      "topic": "সুরের আশ্রয়ে অবিনাশী জ্যোতি",
+      "topic": "যৌথ স্বপ্নের নবনির্মাণ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/62/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "9de67f91dc37ab5279b026d3cd8ac85c1e52ab30cc9cc235b08788f3fadaa255",
+      "published_version": 4
     },
     {
       "chapter_number": 63,
-      "topic": "রোগশয্যার শিয়রে নিঃশব্দ তপস্যা",
+      "topic": "লাঞ্ছিত নারীর মুক্তিসনদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/63/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "21c8da97ae0c25ec17891c1969358bf912fb2a4a5aa8a363b4c90eb9d25fe620",
+      "published_version": 4
     },
     {
       "chapter_number": 64,
-      "topic": "বিচ্ছেদের অন্তরালে নবযাত্রার রেখা",
+      "topic": "ভালোবাসার পূর্ণাঙ্গ সংজ্ঞা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/64/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "5f1919f356ac9d2a2856593bca8fd2fa71db74c9706dc4de4c9479e28c22a6fa",
+      "published_version": 4
     },
     {
       "chapter_number": 65,
-      "topic": "প্রত্যাবর্তনের পরিণত প্রজ্ঞা",
+      "topic": "অন্ধ ধর্মের ঊর্ধ্বে মানবিক ধর্ম",
       "category": "",
       "status": "pending",
       "file_path": "chapters/65/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "09dff9a70954f263b1284735326043a43fccc99cb4381a97a9994c5b267aa533",
+      "published_version": 4
     },
     {
       "chapter_number": 66,
-      "topic": "তটিনীর অবিরত গতিশীল নিষ্ঠা",
+      "topic": "ক্ষতের চিহ্নে গৌরবের রেখা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/66/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "0968ade57243c24980c7a2f4fc8ae46849893079b202defffe85e5964454d539",
+      "published_version": 4
     },
     {
       "chapter_number": 67,
-      "topic": "পর্বতের মৌন সহিষ্ণুতা",
+      "topic": "গাঙুড়ের প্রতি নীরব কৃতজ্ঞতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/67/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "3013fa516393de2ccb41e4de07dca0e8190657977d4a01083278aa57ade51132",
+      "published_version": 4
     },
     {
       "chapter_number": 68,
-      "topic": "গর্ভগৃহের তমসায় সুপ্ত অঙ্কুর",
+      "topic": "কন্যাদের হাতে সাহসের সঞ্চার",
       "category": "",
       "status": "pending",
       "file_path": "chapters/68/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "2adb03325253a7f1398d4c76aee3627bc284aadbc237687376424a928ae790bc",
+      "published_version": 4
     },
     {
       "chapter_number": 69,
-      "topic": "অরুণোদয়ের পূর্বে বিহঙ্গের কাকলি",
+      "topic": "আধুনিক চেতনার মেলবন্ধন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/69/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "bdf82c36ef30fcebb7e77ac635c6d543f2e869d102cbac559d3611f941f92b92",
+      "published_version": 4
     },
     {
       "chapter_number": 70,
-      "topic": "গৃহকোণের অনাড়ম্বর দীপশিখা",
+      "topic": "জয়ের শিখরেও মাটির সারল্য",
       "category": "",
       "status": "pending",
       "file_path": "chapters/70/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "33b9835f0a25a43fc56dbde7282166715e6b80e50dbbcb476cf71e1b363ad609",
+      "published_version": 4
     },
     {
       "chapter_number": 71,
-      "topic": "সংকটের সরণিতে জাত সখ্য",
+      "topic": "সমতার বন্ধনে নতুন দাম্পত্য",
       "category": "",
       "status": "pending",
       "file_path": "chapters/71/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "5c0f3e165fdb464d60a1a536b7544f14ccf612995cf7e92124e33705c67fda3f",
+      "published_version": 4
     },
     {
       "chapter_number": 72,
-      "topic": "স্মৃতিলোকে প্রজ্জ্বলিত অবিনশ্বর শিখা",
+      "topic": "জনপদে আত্মবিশ্বাসের জোয়ার",
       "category": "",
       "status": "pending",
       "file_path": "chapters/72/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ac21cd4c5e182c8bdc0d1ff4846abac15a370ff7a204be394094b2793666a487",
+      "published_version": 4
     },
     {
       "chapter_number": 73,
-      "topic": "ধূলিকণায় লুকানো স্বপ্নের ভ্রূণ",
+      "topic": "ঝড়ের স্মৃতিতে প্রশান্ত অবগাহন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/73/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ece753c8db8698ff489d66188d4c8cd552c8e45ae5b82469b535067de406bcbb",
+      "published_version": 4
     },
     {
       "chapter_number": 74,
-      "topic": "কৃতজ্ঞতার নির্মল অবগাহন",
+      "topic": "অপরাজেয় নারীশক্তির সামাজিক প্রতিষ্ঠা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/74/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "b113ec6eb4509397bd486bbe88ef6db14809af897011486d9dad713b6d286c65",
+      "published_version": 4
     },
     {
       "chapter_number": 75,
-      "topic": "স্থৈর্যের অদৃশ্য সংক্রমণ",
+      "topic": "সাহসের সংক্রামক স্ফুলিঙ্গ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/75/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "ffb8c6f6d25b31f5265fc18a3de43e50c4ae679e766d936fd61dde1811e15af7",
+      "published_version": 4
     },
     {
       "chapter_number": 76,
-      "topic": "অন্তিম প্রহরের সমাহিত পূর্ণতা",
+      "topic": "পূর্ণতার নিস্তব্ধ আলো",
       "category": "",
       "status": "pending",
       "file_path": "chapters/76/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "aa3f223bf04cc5c59945373f35eb377d292b90ca899736ec3d1735814015a14a",
+      "published_version": 4
     },
     {
       "chapter_number": 77,
-      "topic": "নবীন ভাস্করের অভ্যর্থনা",
+      "topic": "নবদিগন্তের অমর সূর্য",
       "category": "",
       "status": "pending",
       "file_path": "chapters/77/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "f37ccffb433ef5cadc54a53bdd95654f16589fd2740a66e277cd447cdadd1052",
+      "published_version": 4
     },
     {
       "chapter_number": 78,
-      "topic": "মহাজাগতিক প্রবাহের ক্ষুদ্র অংশীদার",
+      "topic": "মহাকালের বুকে অক্ষয় স্বাক্ষর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/78/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "666fb2899bff066cced3881aa3c2fd14590fecd0e945b79ca169de23e4992d1b",
+      "published_version": 4
     },
     {
       "chapter_number": 79,
@@ -873,33 +1029,41 @@
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "474e5d96c117630fadf759d0c54663f1f6a0675e685c80420c6a61470df06cab",
+      "published_version": 4
     },
     {
       "chapter_number": 80,
-      "topic": "সীমাহীন দিগন্তের কালান্তর",
+      "topic": "অনন্তযাত্রার মুক্ত মোহনা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/80/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "37c7294c14168bdf21dae198f13441d80883d3203d455a119c66dacd7f059d49",
+      "published_version": 4
     },
     {
       "chapter_number": 81,
-      "topic": "প্রতিটি অন্তরে বেহুলার অধিষ্ঠান",
+      "topic": "সবার অন্তরে বেহুলার অধিষ্ঠান",
       "category": "",
       "status": "pending",
       "file_path": "chapters/81/chapter.md",
       "completed_date": null,
       "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "published_sha256": "035279032b9ff5311b1b443a5a6cd83aa38468ef6a306247652c23a4e63894ee",
+      "published_version": 4
     }
   ],
   "written_chapters": 0,
   "published": false,
   "model": "gemma4:latest",
-  "provider": "ollama"
+  "provider": "ollama",
+  "published_version": 4,
+  "published_at": "2026-10-21T17:42:26.532469+00:00"
 }

@@ -2,12 +2,69 @@
   "chapter_index": 65,
   "name": "65",
   "word_target": 280,
-  "chapter_title": "প্রত্যাবর্তনের পরিণত প্রজ্ঞা",
-  "chapter_summary": "পূর্বের আঙিনায় ফিরে আসা কোনো পরাজয় নয়; বরং দীর্ঘ পথপরিক্রমায় অর্জিত প্রজ্ঞায় নিজেকে নতুন করে চেনার নাম। চেনা ঘাটে ফিরলেও সেই মানুষটি আর আগের মতো অপরিবর্তিত থাকে না।",
+  "chapter_title": "অন্ধ ধর্মের ঊর্ধ্বে মানবিক ধর্ম",
+  "chapter_summary": "ভয় দেখিয়ে পূজা আদায় করার দেবতাদের চেয়ে মানুষের নিঃস্বার্থ আত্মত্যাগই বড়। ধর্মের সংকীর্ণ রূপ ভেঙে মানবতার প্রতিষ্ঠা।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Re-framing divinity not as majestic power (দেবতা) but as transactional obligation (কর্তব্য), contrasting the demand for worship with the quiet integrity of human action.",
+      "Focusing on the *interior* negotiation: how Behula reconciles the need for transcendent validation (divine approval) with the tangible reality of mortal empathy.",
+      "Examining 'human Dharma' not as simple kindness, but as a radical act of self-assertion against inherited dogma, where moral law supersedes ritual."
+    ],
+    "story_options": [
+      "Setting: The edge of the ceremonial boundary in Debpuri (দেবপুরী); Desire: To articulate the precise moment when Behula sees the limitations of divine 'grace' versus human steadfastness; Obstacle: A specific, rigid attendant demanding strict adherence to a prescribed prayer form.",
+      "Setting: During a prolonged vigil after a ritual failure; Desire: To witness the slow realization that genuine spiritual alignment comes from endurance *despite* prophecy, not through fulfilling it; Obstacle: The cold indifference of surrounding mythological figures who only recognize power wielded by fiat.",
+      "Setting: A quiet contemplation near the sacrificial ground; Desire: To chart the dialectic between her profound devotion (বিশ্বাস) and the logical necessity of judging that devotion outside narrow religious constructs; Obstacle: Her own internalized fear of being cast out for such heterodoxy."
+    ],
+    "subject_rotations": [
+      "Shifting from 'opposition to dogma' toward 'the emergence of a personalized cosmology' where human suffering *is* the highest ritual.",
+      "Treating the act of devotion itself as an anthropological study: how systems (religious or social) codify and exploit vulnerability for power consolidation.",
+      "Focusing purely on the *linguistic* power shift—how her simple articulation of empathy dismantles complex, hierarchical theological language."
+    ],
+    "sensory_details": [
+      "The gritty taste of ritual ash mixed with unshed tears; a metallic tang in the air where sanctity is manufactured.",
+      "The visual weight of tightly woven ceremonial cloth seeming to press down on her shoulders, suffocating its potential movement.",
+      "A persistent, low thrumming sound from unseen altars, representing the incessant bureaucratic machinery of established belief."
+    ],
+    "research_questions": [
+      "How can the concept of 'humanitarian obligation' (মানবিক ধর্ম) be differentiated in poetic terms from mere sentimentality without sounding naive against a backdrop of divine power?",
+      "What specific lexical choices in Bengali can denote a spiritual framework that is both profoundly rooted (grounded in struggle) and yet aggressively forward-looking (transcending established boundaries)?",
+      "Are there any symbolic objects within the source material—besides the Kolar boat or the body—that represent constrained societal roles?"
+    ],
+    "structural_variants": [
+      "A highly fragmented structure, where each stanza presents a contrasting pair: 'Sacred Mandate' vs. 'Mortal Response'.",
+      "An embedded narrative device where one internal monologue argues for orthodox belief while the prevailing lines execute the humanist counter-argument.",
+      "Starting not with Behula, but with an imagined chorus of onlookers—the silent community reflecting on what true virtue looks like."
+    ],
+    "unused_angles": [
+      "Deeply investigating the *economics* of religion: the power structure that profits from fear and ritual adherence.",
+      "Examining the tension between 'sacred sacrifice' and 'self-preservation,' viewing human morality as a necessary act of self-defense against spiritual coercion."
+    ],
+    "variety_note": "This chapter moves away from Behula's immediate physical journey (the river, the battle) to an internal, ontological conflict—a clash between mandated cosmic law and emergent human compassion."
+  },
+  "draft": {
+    "sha256": "0d06ee92be4ba8ec0b54c55f34c61ced6da94d8d85a7114db61e4863ebccbd60",
+    "written_at": "2026-10-21T14:15:15.882223+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "0d06ee92be4ba8ec0b54c55f34c61ced6da94d8d85a7114db61e4863ebccbd60",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T16:19:57+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

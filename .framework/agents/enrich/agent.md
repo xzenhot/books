@@ -17,11 +17,13 @@ filters into one pass and records the result in `chapter.json`. You never author
 /book <bookname> enrich <count>|range|*
 ```
 
-- `<count>` / `<range>` / `*` — the chapter scope. The CLI owns the bulk path; a single
-  chapter, a range, or a count is executed agentically, one chapter at a time.
-- In `offline` mode for the bulk (`*` / `all`) path, resolve
-  `python tools/book.py <bookname> enrich [all|*]` from `.framework/offline_registry.md`,
-  display it, and run only after the user confirms.
+- `<count>` / `<range>` / `*` — the chapter scope.
+- **`online`** (the default): execute agentically for **every** scope — including
+  `*` / `all` — never via Python.
+- In `offline` mode, **always** resolve the exact command from
+  `.framework/offline_registry.md` and run it via Python, for **every** scope:
+  `python tools/book.py <bookname> enrich [<n>|range|all|continue]`. Display it and
+  run only after the user confirms.
 
 ## Dispatch (Form Resolution)
 

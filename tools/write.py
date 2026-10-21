@@ -33,13 +33,11 @@ REPO_ROOT = BASE_DIR.parent
 
 # The single-page Pijush/Dehlij master prompt lives in the framework.
 
-STYLE_DIR = REPO_ROOT / ".framework" / "context" / "poetry" / "styles"
 PRESET_DIR = REPO_ROOT / ".framework" / "templates" / "preset"
 POETRY_FILE = PRESET_DIR / "pijush.behula.md"
 DEFAULT_STYLE = "pijush"          # poetry default style
 DEFAULT_STYLE_NOVEL = "dialogue"  # novel default style
 DEFAULT_PRESET = PRESET_DIR / "pijush.md"
-STYLE_FILE = STYLE_DIR / "pijush" / "sample.txt"
 SUBJECTS_FILE = REPO_ROOT / ".framework" / "context" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
 
 # Form-specific writer templates (system prompts + user prompt template) live
@@ -97,7 +95,7 @@ USER_PROMPT_SEGMENT_TEMPLATE: str = ""
 # ::1 (IPv6) first, which hits a *different* Ollama server (native Windows)
 # that does NOT have the `writer-gemma` model. The WSL Ollama instance that
 # does host `writer-gemma` is bound to 127.0.0.1 only.
-OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
+OLLAMA_CHAT_URL = "http://127.0.0.1:11434/api/chat"
 TIMEOUT = 900  # seconds; long chapters can take a while
 
 
@@ -315,17 +313,6 @@ def load_poetry(chapter_dir: Path | None = None, style: str | None = None,
     return text
 
 
-def load_style() -> str:
-    """Load the good-sample style reference (goddo.txt) for few-shot guidance."""
-    vlog(f"Loading style sample from: {STYLE_FILE}")
-    if not STYLE_FILE.exists():
-        vlog(f"  style sample not found, continuing without it")
-        return ""
-    text = STYLE_FILE.read_text(encoding="utf-8")
-    vlog(f"  style sample loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
-    return text
-
-
 def load_subjects() -> str:
     """Load thematic subjects from gosai_bangla.md for aligned generation."""
     vlog(f"Loading subjects from: {SUBJECTS_FILE}")
@@ -337,19 +324,29 @@ def load_subjects() -> str:
     return text
 
 
-def build_system_prompt(language: str = "bn", override: str = "") -> str:
-    """Combine the base persona directive with style, subject, and override references.
+def build_system_prompt(language: str = "bn", override: str = "",
+                        gist: str = "", storyline: str = "", style: str = "") -> str:
+    """Combine the base persona directive with style, subject, guardrail, theme,
+    and override references — the book-stable directives.
 
     *language* selects the persona directive language: 'en' (or 'English') uses
-    the English prompt, anything else uses the Bengali prompt. Style, subject,
-    and override references are appended in the same language.
+    the English prompt, anything else uses the Bengali prompt. The style directive
+    (the book's resolved style.md / preset) and the gist guardrail and storyline
+    theme grounding are appended here so the per-chapter user prompt stays short
+    (title, word target, output format, and chapter context).
     """
     lang = language.strip().lower()
     is_en = lang in {"en", "english", "eng"}
     base = SYSTEM_PROMPT_EN if is_en else SYSTEM_PROMPT_BN
-    style = load_style() if not is_en else ""
     subjects = load_subjects() if not is_en else ""
     parts = [base]
+    # Override first — the human mandate is the most impactful directive and
+    # must sit immediately after the base persona.
+    if override:
+        parts.append(
+            "\n\nবিশেষ-নির্দেশনা (Human Override): নিচের নির্দেশনাগুলো কঠোরভাবে মেনে চলো।\n\n"
+            + override
+        )
     if subjects:
         parts.append(
             "\n\nথিম-নির্দেশনা (বিষয়ভিত্তিক রেফারেন্স): নিচের বিষয়বস্তু কাঠামো, রূপক পরিবার "
@@ -357,16 +354,18 @@ def build_system_prompt(language: str = "bn", override: str = "") -> str:
             "মর্মবাণী প্রতিফলিত করে।\n\n"
             + subjects
         )
+    if storyline:
+        parts.append(
+            "\n\n" + frame_theme(storyline)
+        )
+    if gist:
+        parts.append(
+            "\n\n" + frame_guardrail(gist)
+        )
     if style:
         parts.append(
-            "\n\nশৈলী-নির্দেশনা (রেফারেন্স নমুনা): নিচের নমুনার বাক্যগঠন, ছন্দ, রূপক ও গাম্ভীর্য "
-            "অনুসরণ করো, কিন্তু এর শব্দ বা বিষয়বস্তু হুবহু নকল করবে না।\n\n"
+            "\n\nশৈলী-নির্দেশনা (Style): নিচের কণ্ঠ, দর্শন ও গঠন মেনে চলো।\n\n"
             + style
-        )
-    if override:
-        parts.append(
-            "\n\nবিশেষ-নির্দেশনা (Human Override): নিচের নির্দেশনাগুলো কঠোরভাবে মেনে চলো।\n\n"
-            + override
         )
     return "".join(parts)
 
@@ -440,63 +439,47 @@ def load_storyline(model_file: Path) -> str:
     return text
 
 
-def frame_override(override: str) -> str:
-    """Frame the human override as craft rules, not content.
-
-    The override.txt mandate is a how-to-write directive (dramatic openings,
-    line breaks, no repeated words, philosophical questions, myth-over-truth,
-    everyday-life symbols, a named muse, a living mountain). It must shape the
-    prose without ever being quoted, named, or turned into subject matter.
-    """
-    if not override:
-        return "(none — no human override instructions)"
-    return (
-        "These are CRAFT RULES, not content. Apply them silently — never quote, "
-        "name, or recite them, and never turn their wording into the poem's "
-        "subject matter:\n\n" + override
-    )
-
-
 def frame_guardrail(gist: str) -> str:
-    """Frame the gist as an unbreakable guardrail, not a source to quote."""
+    """Frame the gist as the author's core premise — the book's essential identity."""
     if not gist:
         return "(none — no gist guardrail available)"
     return (
-        "GUARDRAIL (the author's declared essence — anchor your consciousness "
-        "here, never drift away from it, never quote it as your own lines):\n\n"
+        "CORE PREMISE (the author's one-line essence of the book — this is what "
+        "the whole work is about; keep every chapter anchored to this idea, never "
+        "contradict it):\n\n"
         + gist
     )
 
 
 def frame_theme(storyline: str) -> str:
-    """Frame the storyline as thematic grounding, not a source to quote."""
+    """Frame the storyline as the book's thematic world — themes, imagery, symbols."""
     if not storyline:
         return "(none — no storyline theme grounding available)"
     return (
-        "THEME GROUNDING (the book's declared themes, imagery, and world — keep "
-        "your subject and imagery traceable to this, invent nothing beyond it):\n\n"
+        "THEME GROUNDING (the book's declared themes, imagery, and world — draw "
+        "your symbols and imagery from this reservoir, invent nothing beyond it):\n\n"
         + storyline
     )
 
 
-def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
-                 gist: str = "", storyline: str = "",
+def build_prompt(context: str, number: int, language: str = "bn",
                  title: str = "", word_target: int = 0) -> str:
-    """Use the complete model context, including nested filter guidance.
-    Note: Human override is now handled in the system prompt.
+    """Build the per-chapter user prompt from the chapter model.
+
+    Kept deliberately short: the chapter number, title, word target, and the
+    flattened chapter context. Book-stable directives — the style directive,
+    gist guardrail, storyline theme grounding, and the human override — are
+    handled in the system prompt (``build_system_prompt``).
     """
     lang = language.strip().lower()
     is_en = lang in {"en", "english", "eng"}
     lang_word = "English" if is_en else "Bengali"
     return _render(
         USER_PROMPT_TEMPLATE,
-        style_prompt=poetry,
         number=number,
         title=title or "",
         word_target=word_target or 0,
         lang_word=lang_word,
-        gist_guardrail=frame_guardrail(gist),
-        theme_grounding=frame_theme(storyline),
         context=context,
     )
 
@@ -525,7 +508,7 @@ def segment_count_for(chapter_model: dict, form: str) -> int:
     return 1
 
 
-def build_segment_prompt(poetry: str, context: str, number: int,
+def build_segment_prompt(context: str, number: int,
                          segment: int, total: int, word_target: int,
                          prior_text: str, language: str = "bn") -> str:
     """Build the prompt for one segment of a multi-segment novel chapter.
@@ -538,7 +521,6 @@ def build_segment_prompt(poetry: str, context: str, number: int,
     lang_word = "English" if is_en else "Bengali"
     return _render(
         USER_PROMPT_SEGMENT_TEMPLATE,
-        style_prompt=poetry,
         number=number,
         segment=segment,
         total=total,
@@ -563,37 +545,70 @@ def strip_ansi(text: str) -> str:
     return ANSI_RE.sub("", text)
 
 
-def run_ollama(prompt: str, language: str = "bn", model: str = MODEL, override: str = "") -> str:
-    """Call Ollama's HTTP API directly and return the generated text.
+_ACTIVE_SESSION: "WriteSession | None" = None
 
-    Uses ``think=False`` to suppress the model's internal reasoning/"thinking"
-    output, and ``stream=False`` so the result is plain text (no ANSI codes).
-    Retries transient failures with linear backoff.
+
+class WriteSession:
+    """A stateful Ollama ``/api/chat`` session for one book-write command.
+
+    The system prompt is sent once (as the first message) and the model is kept
+    loaded via ``keep_alive``. Each chapter is a fresh user turn; a short rolling
+    window of the last ``rolling`` chapters (user+assistant pairs) is retained for
+    cross-chapter continuity, and older turns are trimmed so the context does not
+    grow unbounded.
     """
-    sys_prompt = build_system_prompt(language, override)
+
+    def __init__(self, system_prompt: str, model: str = MODEL, rolling: int = 2):
+        self.system_prompt = system_prompt
+        self.model = model
+        self.rolling = max(0, rolling)
+        self.messages: list[dict[str, str]] = []
+        if system_prompt:
+            self.messages.append({"role": "system", "content": system_prompt})
+        info(f"\n--- SYSTEM PROMPT (session start) ---\n{system_prompt}\n"
+             f"--- END SYSTEM PROMPT ---\n")
+
+    def chat(self, user_prompt: str) -> str:
+        """Send one user turn and return the assistant's reply."""
+        self.messages.append({"role": "user", "content": user_prompt})
+        reply = _chat_once(self.model, self.messages)
+        self.messages.append({"role": "assistant", "content": reply})
+        self._trim()
+        return reply
+
+    def _trim(self) -> None:
+        """Keep the system message plus the last ``rolling`` (user, assistant) pairs."""
+        head = 1 if (self.messages and self.messages[0]["role"] == "system") else 0
+        body = self.messages[head:]
+        if self.rolling <= 0:
+            body = []
+        else:
+            body = body[-(self.rolling * 2):]
+        self.messages = self.messages[:head] + body
+
+
+def _chat_once(model: str, messages: list[dict[str, str]]) -> str:
+    """POST one /api/chat request and return the assistant text (with retries)."""
     payload = {
         "model": model,
-        "prompt": prompt,
-        "system": sys_prompt,
+        "messages": messages,
         "stream": False,
         "think": False,
+        "keep_alive": "30m",
         "options": {
             "num_ctx": CONTEXT_WINDOW,
             "temperature": TEMPERATURE,
             "top_p": TOP_P,
         },
     }
-    info(f"\n--- SYSTEM PROMPT ---\n{sys_prompt}\n--- END SYSTEM PROMPT ---\n")
-    vlog(f"[ollama] POST {OLLAMA_URL} model='{model}' think=False stream=False "
-         f"num_ctx={CONTEXT_WINDOW} temperature={TEMPERATURE} top_p={TOP_P}")
-
+    vlog(f"[ollama] POST {OLLAMA_CHAT_URL} model='{model}' think=False stream=False "
+         f"keep_alive=30m num_ctx={CONTEXT_WINDOW} temperature={TEMPERATURE} top_p={TOP_P}")
     encoded = json.dumps(payload).encode("utf-8")
-    vlog(f"[ollama] Sending prompt ({len(prompt)} chars)")
 
     last_error = None
     for attempt in range(1, MAX_RETRIES + 1):
         req = urllib.request.Request(
-            OLLAMA_URL,
+            OLLAMA_CHAT_URL,
             data=encoded,
             headers={"Content-Type": "application/json"},
         )
@@ -614,19 +629,38 @@ def run_ollama(prompt: str, language: str = "bn", model: str = MODEL, override: 
         elapsed = time.time() - t0
         vlog(f"[ollama] Completed in {elapsed:.2f}s (attempt {attempt})")
         data = json.loads(body)
-        response = data.get("response", "")
-        thinking = data.get("thinking", "")
-        vlog(f"[ollama] response size: {len(response)} chars, "
-             f"thinking size: {len(thinking)} chars")
-
-        # Safety net: strip any stray ANSI escape sequences that leak through.
-        cleaned = strip_ansi(response)
-        if cleaned != response:
-            vlog(f"[ollama] Removed {len(response) - len(cleaned)} ANSI escape chars")
+        content = (data.get("message") or {}).get("content", "")
+        if not content:
+            # Fall back to the /api/generate-style "response" field just in case.
+            content = data.get("response", "")
+        cleaned = strip_ansi(content)
+        if cleaned != content:
+            vlog(f"[ollama] Removed {len(content) - len(cleaned)} ANSI escape chars")
         return cleaned.strip()
 
-    # Unreachable; kept for type-safety/clarity.
     raise RuntimeError(f"Ollama request failed: {last_error}")
+
+
+def reset_write_session() -> None:
+    """Drop the active session so a fresh one starts for the next write command."""
+    global _ACTIVE_SESSION
+    _ACTIVE_SESSION = None
+
+
+def run_ollama(prompt: str, language: str = "bn", model: str = MODEL, override: str = "",
+               gist: str = "", storyline: str = "", style: str = "") -> str:
+    """Send one user turn within the book's shared write session.
+
+    Builds the book-stable system prompt, reuses the active session when its
+    system prompt and model match, and otherwise starts a new session (system
+    prompt sent once). Returns the generated text.
+    """
+    global _ACTIVE_SESSION
+    sys_prompt = build_system_prompt(language, override, gist, storyline, style)
+    if _ACTIVE_SESSION is None or _ACTIVE_SESSION.model != model \
+            or _ACTIVE_SESSION.system_prompt != sys_prompt:
+        _ACTIVE_SESSION = WriteSession(sys_prompt, model)
+    return _ACTIVE_SESSION.chat(prompt)
 
 
 def resolve_version_dir(model_file: Path, segment: int | None = None) -> Path:
@@ -783,24 +817,25 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     # Poetry: a single segment per chapter — one generation, one draft.
     if form == "poetry":
         prompt = build_prompt(
-            poetry, context, number, language, gist, storyline,
+            context, number, language,
             title, word_target,
         )
         
         # Strictly enforce the requested Bengali format
         format_directive = (
             f"\n\nOUTPUT FORMAT (Strictly follow this structure):\n"
-            f"# শিরোনামঃ \n{title}\n\n"
-            f"# কবিতাঃ\n[Write the poetry content here]\n\n"
-            f"# সারাংশঃ\n[Write the chapter summary here]"
+            f"## শিরোনামঃ \n{title}\n\n"
+            f"## কবিতাঃ\n[Write the poetry content here]\n\n"
+            f"## সারাংশঃ\n[Write the chapter summary here]"
         )
         prompt += format_directive
 
         if SHOW_PROMPT:
-            _show_request(number, model, language, prompt)
+            _show_request(number, model, language, prompt, override=override,
+                          gist=gist, storyline=storyline, style=poetry)
         info(f"[{number}] Generating chapter from complete model context ...")
         t0 = time.time()
-        output = run_ollama(prompt, language, model, override)
+        output = run_ollama(prompt, language, model, override, gist, storyline, poetry)
         elapsed = time.time() - t0
         # If the body came out short of the target, extend it until it is close.
         output = _ensure_length(number, output, word_target, language, model, override)
@@ -822,13 +857,14 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     for idx in range(1, total + 1):
         prior_text = continuity_window("\n\n".join(segments))
         prompt = build_segment_prompt(
-            poetry, context, number, idx, total, per_segment_words,
-            prior_text, language, override,
+            context, number, idx, total, per_segment_words,
+            prior_text, language,
         )
         if SHOW_PROMPT:
-            _show_request(number, model, language, prompt, label=f"segment {idx}/{total}")
+            _show_request(number, model, language, prompt, label=f"segment {idx}/{total}",
+                          override=override, gist=gist, storyline=storyline, style=poetry)
         info(f"[{number}] Generating segment {idx}/{total} ...")
-        seg_out = run_ollama(prompt, language, model, override)
+        seg_out = run_ollama(prompt, language, model, override, gist, storyline, poetry)
         if not seg_out.strip():
             raise ValueError(f"Segment {idx}/{total} returned empty output")
         segments.append(seg_out.strip())
@@ -856,7 +892,9 @@ def _write_segment(chapter_dir: Path, segment_index: int, text: str) -> Path:
     return seg_file
 
 
-def _show_request(number: int, model: str, language: str, prompt: str, label: str = "chapter") -> None:
+def _show_request(number: int, model: str, language: str, prompt: str,
+                  label: str = "chapter", override: str = "",
+                  gist: str = "", storyline: str = "", style: str = "") -> None:
     """Print a single full request (system prompt + user prompt) for -p mode."""
     info(f"\n[{number}] ============ COMPLETE REQUEST ({label}) ============")
     info(f"[{number}] model      = {model}")
@@ -865,7 +903,7 @@ def _show_request(number: int, model: str, language: str, prompt: str, label: st
     info(f"[{number}] temperature= {TEMPERATURE}")
     info(f"[{number}] top_p      = {TOP_P}")
     info(f"[{number}] think      = False, stream = False")
-    sys_prompt = build_system_prompt(language)
+    sys_prompt = build_system_prompt(language, override, gist, storyline, style)
     info(f"\n[{number}] ----- SYSTEM PROMPT ({len(sys_prompt)} chars) -----")
     info(sys_prompt)
     info(f"[{number}] ----- END SYSTEM PROMPT -----")
@@ -879,11 +917,11 @@ def _count_body_words(output: str) -> int:
     """Count words in the poetry body, ignoring the title/summary headings."""
     text = output.strip()
     # If the output uses the structured format, drop the শিরোনাম and সারাংশ sections
-    # and count only the কবিতাঃ body.
-    for marker in ("# কবিতাঃ", "# কবিতা:", "# কবিতাঃ "):
+    # and count only the কবিতাঃ body. Headings may be "## " or "# " prefixed.
+    for marker in ("## কবিতাঃ", "# কবিতাঃ", "# কবিতা:", "## কবিতা:"):
         if marker in text:
             body = text.split(marker, 1)[1]
-            for end_marker in ("# সারাংশঃ", "# সারাংশ:", "# সারাংশঃ "):
+            for end_marker in ("## সারাংশঃ", "# সারাংশঃ", "# সারাংশ:", "## সারাংশ:"):
                 if end_marker in body:
                     body = body.split(end_marker, 1)[0]
                     break

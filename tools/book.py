@@ -51,6 +51,13 @@ VERBS
 
               python tools/book.py <bookname> preview
 
+    cleanup   Reset selected pipeline chapters back to their scaffolded
+              baseline: delete chapter.md/context.md, clear history/ and
+              segment output folders, and reinitialize chapter.json +
+              segment.json from the book plan.
+
+              python tools/book.py <bookname> cleanup [all|1|1-5|continue]
+
 COMMON FLAGS
 ------------
     -t, --type  poetry|novel   Override book form (default: poetry)
@@ -88,6 +95,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from promptkit import PromptSet, framework_layout_dir, render
+from quality import read_json, write_json
 
 # Reconfigure stdio for UTF-8 so status arrows (e.g. U+2192) never crash on a
 # Windows console whose default codec (cp1252/charmap) cannot encode them.
@@ -1785,7 +1793,9 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
             writer.resolve_novel_style(style)
 
     failures = 0
-    for num in numbers:
+    total = len(numbers)
+    for position, num in enumerate(numbers, 1):
+        print(f"[{position}/{total}] Writing chapter {num} ...", flush=True)
         try:
             # Pass style=None when omitted so the writer falls back to the
             # book's style.md / form-bound default instead of a hardcoded preset.
@@ -1793,6 +1803,7 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
                 _chapter_model_file(chapters_root / str(num)),
                 style=style,
             )
+            print(f"[{position}/{total}] Chapter {num} done.", flush=True)
         except Exception as exc:  # noqa: BLE001
             print(f"  [{num}] FAILED: {exc}", file=sys.stderr)
             failures += 1
@@ -1801,6 +1812,92 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
     print(f"Write complete. {successes} succeeded, {failures} failed.")
     if failures:
         raise RuntimeError(f"{failures} chapter(s) failed writing.")
+
+
+def cleanup_workflow(bookname: str, target: str) -> None:
+    """Reset the selected pipeline chapters back to their scaffolded baseline.
+
+    For each chapter in ``target`` (a number/range/list/'all'/'*'):
+
+    - Delete ``chapter.md`` and ``context.md``.
+    - Clear ``history/`` and the per-segment ``writer/``, ``editor/``,
+      ``translator/``, and ``version/`` folders.
+    - Reinitialize ``chapter.json`` from the root ``book.json`` plan entry,
+      dropping runtime fields (``creative_enrichment``, ``draft``,
+      ``state`` → ``scaffolded``, ``level``, ``segments``).
+    - Reinitialize ``segment.json`` to the pending baseline.
+
+    The root ``book.json`` is never touched. Prior content is removed
+    permanently; this is a destructive reset.
+    """
+    writer = _load_module("writer_write_engine", "write.py")
+    chapters_root = writer.resolve_chapters_root(bookname)
+    numbers = writer.parse_chapter_input(target, chapters_root)
+
+    pipeline = chapters_root.parent
+    book_file = pipeline / "book.json"
+    if not book_file.exists():
+        book_file = pipeline / "model.json"
+    book = read_json(book_file)
+    plan_by_name = {str(entry.get("name")): entry for entry in book.get("chapters", [])}
+
+    cleared = 0
+    for num in numbers:
+        chapter_dir = chapters_root / str(num)
+        if not chapter_dir.is_dir():
+            print(f"  [{num}] SKIP: chapter folder not found", file=sys.stderr)
+            continue
+
+        name = str(num)
+        baseline = plan_by_name.get(name)
+        if baseline is None:
+            print(f"  [{num}] SKIP: no baseline entry in book.json", file=sys.stderr)
+            continue
+
+        # 1. Delete the live draft and flattened context.
+        for fname in ("chapter.md", "context.md"):
+            f = chapter_dir / fname
+            if f.exists():
+                f.unlink()
+
+        # 2. Clear history/ and per-segment output folders.
+        for folder in ("history", "segments/1/writer", "segments/1/editor",
+                       "segments/1/translator", "segments/1/version"):
+            path = chapter_dir / folder
+            if path.is_dir():
+                for child in path.iterdir():
+                    if child.is_dir():
+                        shutil.rmtree(child)
+                    else:
+                        child.unlink()
+
+        # 3. Reinitialize chapter.json from the baseline plan entry.
+        chapter_json = chapter_dir / "chapter.json"
+        write_json(chapter_json, dict(
+            baseline,
+            level="chapter",
+            state="scaffolded",
+            segments=[1],
+        ))
+        # Drop a legacy model.json if present, to avoid dual sources of truth.
+        legacy_model = chapter_dir / "model.json"
+        if legacy_model.exists():
+            legacy_model.unlink()
+
+        # 4. Reinitialize segment.json to the pending baseline.
+        seg_json = chapter_dir / "segments/1/segment.json"
+        write_json(seg_json, {
+            "level": "segment",
+            "state": "pending",
+            "chapter_index": baseline.get("chapter_index", num),
+            "segment_index": 1,
+        })
+
+        print(f"  [{num}] Cleaned and reinitialized.")
+        cleared += 1
+
+    print(f"Cleanup complete. {cleared} chapter(s) reset, "
+          f"{len(numbers) - cleared} skipped.")
 
 
 def _write_style(args: argparse.Namespace) -> tuple[str, str | None]:
@@ -1908,7 +2005,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "verb",
         nargs="?",
-        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish", "preview"),
+        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish", "preview", "cleanup"),
         help="Workflow action to perform.",
     )
     parser.add_argument(
@@ -2014,6 +2111,10 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
     if verb == "write":
         target, style = _write_style(args)
         write_workflow(bookname, target, style)
+        return
+
+    if verb == "cleanup":
+        cleanup_workflow(bookname, positional_target(args))
         return
 
     if verb == "enrich":

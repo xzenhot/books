@@ -1,0 +1,58 @@
+{
+  "chapter_index": 7,
+  "name": "7",
+  "word_target": 280,
+  "chapter_title": "গাঙুড়ের কৃষ্ণজলে বিশ্বাসের সলতে",
+  "chapter_summary": "চারপাশে কুয়াশাচ্ছন্ন অনন্ত নদী ও পেছনে ফেলে আসা অপবাদের নগরী। তমসাবৃত নদীর ঘূর্ণিজলে বেহুলা জ্বেলে রাখে অবিচল প্রার্থনার এক নিভৃত প্রদীপ।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The phenomenology of dense river fog in South Asian waterways",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the river water not as a medium for transport, but as a massive, reflective memory bank where she sees fragmented glimpses of what was lost.",
+      "Focusing on the auditory experience: the constant, low-frequency thrumming sound of the great river current acting as a counterpoint to her silent prayer.",
+      "Framing the 'trust' not as an act of faith in divinity, but as a desperate pact made with herself—a refusal to accept erasure."
+    ],
+    "story_options": [
+      "setting: The deepest eddy pool of the 강ুড় (gangur) water, desire: To find absolute stillness beneath the surface, momentarily silencing the world's judgment., obstacle: A sudden updraft or current shift that threatens to sweep her off course into deeper obscurity., turn: In that momentary calm, she sees not just Lkhindor's face, but a flash of his forgotten worldly vitality—the sound of laughter before the storm.",
+      "setting: The edge where the dark river meets the unseen shore, desire: To reach back toward the remnants of her former life and claim them symbolically., obstacle: The absolute impenetrability of the fog, which renders all landmarks meaningless., turn: She deliberately sacrifices a small piece of her earthly adornment (a thread, a single bloom) to the current, turning it into a conscious renunciation.",
+      "setting: Mid-river, anchored momentarily by unseen reeds, desire: To communicate across vast distances—not just spiritually, but materially., obstacle: The physical weight of her sorrow making even minimal movement Herculean., turn: She uses a small ritual object (a specific leaf or seed from the banks) to deliberately mark the spot where her soul anchors itself in that moment."
+    ],
+    "subject_rotations": [
+      "The transformation of 'blind faith' into an almost scientific, rigorous method of maintenance—the dedication required to keep a fragile flame burning against overwhelming entropy.",
+      "Exploring the dialectic between the immediate sensory reality (cold, dampness, movement) and the eternal abstract goal (reunion/justice).",
+      "Shifting from 'sorrow' as passive emotion to 'determination' as an active force shaping the physical environment around her."
+    ],
+    "sensory_details": [
+      "The taste of metallic tang in the air, caused by the river's ancient minerals.",
+      "The sound: a persistent, dull *thrum* vibrating up through the thin material of the raft and into her bones.",
+      "Sight: The way phosphorescence catches momentarily on disturbed patches of water beneath the heavy murk."
+    ],
+    "research_questions": [
+      "What is the localized Bengali vocabulary used to describe fog that has such a weight, almost palpable density?"
+    ],
+    "structural_variants": [
+      "A section heavily weighted toward stanzas focused solely on cyclical motion (the rise and fall of the raft against the current), creating rhythmic monotony punctuated by sharp bursts of remembered imagery.",
+      "Employing an extended internal monologue structure where each line is a deliberate, slow-motion resistance to the water's pull."
+    ],
+    "unused_angles": [
+      "The concept of the river as a primordial archive—a place holding all past mistakes and unsaid words from that region.",
+      "A focus on the symbiotic relationship between her resilience and the indifferent, powerful natural forces surrounding her."
+    ],
+    "variety_note": "This chapter diverges by rooting the high spiritual tension in deeply physical, tactile experiences of being adrift—the vibration, the taste, the resistance against water's gravity, unlike earlier chapters focused on social or internal conflict."
+  },
+  "draft": {
+    "sha256": "67022cd1f3e65661a69632dbd50fa2b32c9d913850b5c95e0f38b8035941c39c",
+    "written_at": "2026-10-21T14:03:26.789282+00:00",
+    "origin": "write"
+  }
+}

@@ -101,7 +101,8 @@ command has an `offline` execution route, the agent resolves the command from
 | `options` / `help` | (workflow-level, read-only) | — |
 
 Offline-capable commands (resolve from `.framework/offline_registry.md`): `scaffold`,
-`publish`, and the bulk (`*`/`all`) routes of `enrich` and `write`.
+`publish`, `enrich`, and `write` — in `offline` mode every scope of these commands
+resolves to Python CLI and runs after user confirmation.
 
 ## Poetry Lifecycle Contract
 
@@ -395,7 +396,17 @@ Responsibility: fuse the active filters into one combined agent and run it in a 
 - `range` — a `start-end` range targets those chapters inclusive (e.g. `enrich 3-7` → chapters 3,4,5,6,7).
 - `*` (or `all`) — targets every canonical chapter in order.
 
-**Execution route (scope-dependent).** If the target is `*` or `all`, delegate to the repository CLI: resolve the command `python tools/book.py <bookname> enrich [all|*]`. In `offline` mode, **display that command and ask the user to confirm before running it** — do not execute Python yourself. For any other target — a single chapter, a range, a `<count>`, or `continue` — execute agentically via the enrich agent.
+**Execution route (mode-dependent).** Read the book's `factory` (or an explicit
+`offline`/`online` argument) per `.framework/rules/command-boundary.md` before
+choosing a route:
+
+- **`online`** (the default): execute **agentically via the enrich agent** for
+  **every** target — including `all` and `*`. Never route to Python.
+- **`offline`**: **always** resolve the exact command from
+  `.framework/offline_registry.md` and run it via Python — for **every** target,
+  not just `all`/`*`. The command is
+  `python tools/book.py <bookname> enrich [<n>|range|all|continue]`. Display it and
+  ask the user to confirm before running it; do not execute Python yourself.
 
 1. Stop if the pipeline does not exist; use `scaffold` first.
 2. Route the work through the enrich agent at `.framework/agents/enrich/agent.md`. The
@@ -536,12 +547,19 @@ For `/book <bookname> write <n>|range|all|continue <language>` (aliases: `chapte
 Responsibility: turn pipeline filter outputs into finished reader-facing chapters and
 update progress.
 
-**Execution route (scope-dependent).** If the target is `*` or `all`, delegate to
-the repository CLI: resolve the command
-`python tools/book.py <bookname> write [all|*] --style NICK`. In `offline` mode,
-**display that command and ask the user to confirm before running it** — do not
-execute Python yourself. For any other target — a single chapter, a range, or
-`continue` — execute agentically via the write agent.
+**Execution route (mode-dependent).** Read the book's `factory` (or an explicit
+`offline`/`online` argument) per `.framework/rules/command-boundary.md` before
+choosing a route:
+
+- **`online`** (the default): execute **agentically via the write agent** for
+  **every** target — including `all` and `*`. Never route to Python, never run
+  `python tools/book.py ... write`.
+- **`offline`**: **always** resolve the exact command from
+  `.framework/offline_registry.md` and run it via Python — for **every** target,
+  not just `all`/`*`. The command is
+  `python tools/book.py <bookname> write [<n>|range|all|continue] [--style NICK]`.
+  Display it and ask the user to confirm before running it; do not execute
+  Python yourself until the user confirms.
 
 1. Stop if the pipeline does not exist; use `scaffold` first.
 2. Route the writing work through the write agent (`.framework/agents/write/agent.md`),

@@ -1,0 +1,52 @@
+{
+  "chapter_index": 27,
+  "name": "27",
+  "word_target": 280,
+  "chapter_title": "অজানা বাঁকে অচঞ্চল দাঁড়ের গতি",
+  "chapter_summary": "স্বর্গের তটভূমি কত দূরে জানা নেই; নিশ্চিত ফলের হিসাব না কষে কেবল দায়িত্বটুকু নিষ্ঠার সাথে পালন করাই যোগীর তপস্যা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing 'অজানা বাঁক' (unknown bend) as a moment where the *internal* landscape momentarily outweighs the physical geography of the river.",
+      "Treating 'অচঞ্চল দাঁড়ের গতি' (immobile oarsman's motion) not as inaction, but as perfect kinetic stasis—a state of resistance achieved through absolute alignment with unchangeable law/duty.",
+      "A focus on radical acceptance: defining duty solely in the context of continuing the *process* rather than achieving a visible outcome (the refusal to seek final assurance)."
+    ],
+    "story_options": [
+      "Setting: A point where the river widens suddenly, offering a vast, unsettling vista; Desire: To pause and examine how small details on the distant shore—a patch of contrasting colour or an unusual shadow—might offer misplaced reassurance; Obstacle: The sheer scale of the unknown forces retreat back to the immediate task.",
+      "Setting: A shadowed indentation where bank foliage presses close to the hull, restricting peripheral sight; Desire: To address a specific person (an ancestor figure) whose silent expectation fuels this unwavering pace; Obstacle: A sudden, profound internal exhaustion that threatens to break the disciplined rhythm of rowing.",
+      "Setting: Where the water current appears momentarily stagnant despite surrounding movement; Desire: To test the boundary between 'effort' and 'stasis,' perhaps by subtly altering the angle of the oars; Obstacle: The realization that perfect stillness might be as treacherous a trap as uncontrolled forward momentum."
+    ],
+    "subject_rotations": [
+      "Shifting emphasis from devotional duty (as seen in previous chapters) to an almost mechanical, ritualistic fulfillment—the sheer necessity of performing the action regardless of belief.",
+      "Interpreting 'অচঞ্চলতা' not as spiritual calm, but as a highly disciplined, active tension; the necessary muscle strain that sustains faith against despair.",
+      "Viewing the voyage as a metaphysical cartography: each bend maps an internal psychic geography rather than external river bends."
+    ],
+    "sensory_details": [
+      "The specific, rhythmic scrape of wet wood grain against polished bronze of the oar handles (touch).",
+      "A low-frequency vibration resonating up through the hull from deep water movement, felt more as a pressure than heard (feeling/sound).",
+      "The scent of damp river silt mixed with pulverized mineral dust kicked up by the subtle eddy currents at the bend."
+    ],
+    "research_questions": [
+      "How can Bengali poetic language articulate absolute commitment to process over outcome without resorting to purely abstract theological statements?"
+    ],
+    "structural_variants": [
+      "A cyclical structure where the final stanza returns word-for-word (or near-word-for-word) to the first, but with a subtle semantic shift in meaning.",
+      "An extremely sparse form utilizing heavy negative space and punctuation pauses, forcing the reader into the same enforced 'stasis' as the oarsman."
+    ],
+    "unused_angles": [
+      "The interplay between the physical toll on the paddler (body fatigue) versus the metaphysical weight of their commitment—a tension previously not foregrounded.",
+      "Exploration of how memory itself becomes an anchor or a drag against the forward motion, independent of external currents."
+    ],
+    "variety_note": "This chapter moves away from direct confrontations with societal judgment (like previous chapters) and instead focuses intensely on the internalized discipline required to maintain momentum when no visible reward or enemy is present."
+  },
+  "draft": {
+    "sha256": "ee1feed24ca5ba41fcd02356715db587c08eb7385b6a1d8a0fdcbeb773933671",
+    "written_at": "2026-10-21T14:07:31.227140+00:00",
+    "origin": "write"
+  }
+}

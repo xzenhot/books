@@ -2,12 +2,54 @@
   "chapter_index": 40,
   "name": "40",
   "word_target": 280,
-  "chapter_title": "অনন্ত উন্মেষের কূলে",
-  "chapter_summary": "আলোয় পৌঁছানো মানে সমস্ত প্রশ্নের সমাপ্তি বা অলৌকিক বিজয় নয়; বরং যাত্রার পূর্ণতাকে উপলব্ধি করে নিজের অর্জিত বোধকে জগতের সাথে ভাগ করে নেওয়ার এক শান্ত, পূর্ণাঙ্গ সমর্পণ।",
+  "chapter_title": "অন্ধকার নদীর শেষ বাঁক",
+  "chapter_summary": "গাঙুড়ের মরণফাঁদ ও পার্থিব ভয়ের সীমা পেরিয়ে অলৌকিক দেবপুরীর সীমানায় তরী ভিড়ানোর প্রস্তুতি। এক চূড়ান্ত রূপান্তরের দ্বারপ্রান্ত।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the physical exhaustion of anticipation—the moment before crossing a threshold where all past struggle must condense into one final, brittle act.",
+      "Treating the 'dark river' not just as an obstacle to be overcome, but as a reflective surface holding all her accumulated memory and trauma in liquid shadow.",
+      "The narrative weight carried by the vessel itself; the burden of the departed/expected life resting upon the fragile wood."
+    ],
+    "story_options": [
+      "Setting: The final stretch of water before reaching the known divine shores; desire: To experience the absolute quiet, a silence that feels more threatening than the river’s noise; obstacle: An internal doubt about whether devotion is enough to bridge this ultimate gap.",
+      "Setting: A place where the darkness of the river meets an unearthly luminescence from the shore; desire: To visually map the tension between known despair (the water) and unknown salvation (the light); obstacle: The physical inability to trust the boat's mooring in that strange liminal zone.",
+      "Setting: Inside the woven structure of the raft, sheltered but exposed; desire: A sensory memory—perhaps the scent of a specific earthly flower or the texture of an old garment—that sharply contrasts with the impending divine landscape; obstacle: The persistent sound of water sloshing against the sides becoming unbearably rhythmic."
+    ],
+    "subject_rotations": [
+      "The transformation from 'struggle' to 'waiting': how the energy shifts from active fighting to static, profound suspension.",
+      "Examining the nature of the boundary itself: is it a wall, a membrane, or simply the cessation of perception?",
+      "The relationship between her personal belief and the impersonal forces governing this final passage—is faith sufficient for cosmic transit?"
+    ],
+    "sensory_details": [
+      "The slick, cool feel of moss gripping submerged wood at the river's edge.",
+      "The low, resonant drone of unseen night insects vibrating against the still surface tension.",
+      "A pervasive smell of mineral earth and deep, slow-moving current."
+    ],
+    "research_questions": [
+      "How can Bengali poetic diction convey a state of suspended animation or perfect impasse without resorting to clichés of religious trance?",
+      "What are specific vocabulary choices in classical Bengali that denote 'the edge' or 'threshold' when that boundary is not merely geographic but existential?"
+    ],
+    "structural_variants": [
+      "A highly compressed, taut poem where every word feels weighted by the impossibility of motion.",
+      "A poem structured as a dialectic between immediate physical sensation (cold, rocking) and overwhelming metaphysical projection (the shore's promise).",
+      "Using an auditory motif—a single sound that recurs exactly before moments of perceived breakthrough or collapse."
+    ],
+    "unused_angles": [
+      "The idea of the finality of letting go: not just surrendering to aid, but willingly emptying the self to meet the other side.",
+      "Mapping the physical weight of her past trials onto the raft's timbers as they approach stillness.",
+      "The possibility of a 'failure state' in this chapter—what if the passage stalls forever at the boundary?"
+    ],
+    "variety_note": "Unlike earlier chapters focused on active combat or resilience, this segment focuses entirely on the tension inherent in perfect transition: the moment before action becomes fate."
+  },
+  "draft": {
+    "sha256": "ef1c465f26e422facf95da89033f8e294a158eabe6e83103e4256b8e3e53b6bd",
+    "written_at": "2026-10-21T16:32:36.833373+00:00",
+    "origin": "write"
+  }
 }
