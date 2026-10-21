@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 This chapter moves away from the external 'battle' motif prevalent in earlier arcs and focuses inward, using physical anchor points to validate abstract personal commitment against entropy. It provides a pause between kinetic striving (previous chapters) and shared impact (upcoming sections).
+
+## draft
+
+### sha256
+
+921e838f25c4e18d95836a0b380f79ee801c382e5e18b7fb353cedbf94b4827e
+
+### written_at
+
+2026-10-20T21:17:04.581320+00:00
+
+### origin
+
+write

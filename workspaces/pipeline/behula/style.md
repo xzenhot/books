@@ -2,7 +2,7 @@
 
 ## Authority Note
 
-When any instruction in this style file is unclear, incomplete, or in tension with another Pijush transformer file, consult `.framework/context/poetry/styles/pijush/signature.md`. Treat `signature.md` as the interpretive authority for Pijush's core identity, inheritance, Dehlij philosophy, Delhi-Bengal coordinates, and final tonal decisions.
+When any instruction in this style file is unclear, incomplete, or in tension with another Pijush transformer file, consult `.framework/context/poetry/styles/pijushbengali/signature.md`. Treat `signature.md` as the interpretive authority for Pijush's core identity, inheritance, Dehlij philosophy, Delhi-Bengal coordinates, and final tonal decisions.
 
 ## Identity
 

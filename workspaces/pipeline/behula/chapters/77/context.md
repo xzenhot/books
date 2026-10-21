@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 Unlike neighbouring poems which focus on reception (gratitude/courage), this chapter centers entirely on the *self-initiating* quality of dawn, treating renewal as a mechanical necessity rather than a spiritual reward.
+
+## draft
+
+### sha256
+
+ee9e618d01e62bd38fc280ee652cbd19d1fc3255e95c3105907867119226b0fd
+
+### written_at
+
+2026-10-20T21:30:11.659814+00:00
+
+### origin
+
+write

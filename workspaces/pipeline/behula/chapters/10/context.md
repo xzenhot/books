@@ -85,11 +85,11 @@ Unlike neighbours which address internal states (doubt/rest), this chapter focus
 
 ### sha256
 
-f931599f19de033120471cf939591354660cd06a6d7df65f9f98f353580168c7
+ea40eda131fe7d72576a913f3cc44cebf17a65de5b9c5ae6f533375c9fc499f3
 
 ### written_at
 
-2026-10-20T21:13:42.180563+00:00
+2026-10-20T21:16:15.496386+00:00
 
 ### origin
 

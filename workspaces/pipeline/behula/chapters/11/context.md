@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Unlike previous meditations on the struggle itself (e.g., in Chapters 6 or 10), this chapter focuses specifically on the *process of recognizing* that exhaustion as a valid, narrative point in time, rather than pushing past it immediately.
+
+## draft
+
+### sha256
+
+032958bdf3671b3fe91f1324a4cd7a7c25fd04a64950dcc3e7979811b88671d5
+
+### written_at
+
+2026-10-20T21:16:27.646167+00:00
+
+### origin
+
+write

@@ -271,25 +271,42 @@ def default_style_for_form(form: str) -> str:
 
 def load_poetry(chapter_dir: Path | None = None, style: str | None = None,
                 form: str = "poetry") -> str:
-    """Load the style prompt for the write command, resolved from presets only.
+    """Load the style prompt for the write command.
 
-    Style is always resolved from a **preset** under ``.framework/templates/preset/``
-    — never the book's ``style.md``, and never composed on the fly. The form only
-    selects the default preset nickname (`pijush` for poetry, `dialogue` for novel);
-    the actual file always comes from the preset directory.
-
-    - If a `<style>` is provided, resolve its preset (falling back to the form's
-      default preset when the nickname does not match).
-    - If no `<style>` is provided, use the form's default preset.
-
-    A novel never picks a poetry preset and vice versa, because the default nickname
-    is form-bound and an explicit `<style>` is matched by name within the same
-    preset directory.
+    Priority:
+    1. If a <style> is explicitly provided in the command, resolve it as a 
+       preset under ``.framework/templates/preset/``.
+    2. Otherwise, if a local ``style.md`` exists in the book pipeline root, 
+       use it exclusively.
+    3. Fall back to the form's default preset (pijush/dialogue).
     """
     form = (form or "poetry").strip().casefold()
+    
+    # 1. Explicit style requested? Use preset.
+    if style:
+        default = default_style_for_form(form)
+        nickname = style.strip().lower()
+        source = resolve_preset(nickname)
+        style_name = source.stem
+        info(f"Style: {style_name} ({source})")
+        vlog(f"Loading style from: {source}")
+        text = source.read_text(encoding="utf-8")
+        vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
+        return text
+
+    # 2. No explicit style? Prefer local style.md.
+    if chapter_dir:
+        local_style = chapter_dir.parents[1] / "style.md"
+        if local_style.exists():
+            info(f"Style: local ({local_style})")
+            vlog(f"Loading style from: {local_style}")
+            text = local_style.read_text(encoding="utf-8")
+            vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
+            return text
+
+    # 3. Fallback to form default preset.
     default = default_style_for_form(form)
-    nickname = (style or default).strip().lower()
-    source = resolve_preset(nickname)
+    source = resolve_preset(default)
     style_name = source.stem
     info(f"Style: {style_name} ({source})")
     vlog(f"Loading style from: {source}")
@@ -320,12 +337,12 @@ def load_subjects() -> str:
     return text
 
 
-def build_system_prompt(language: str = "bn") -> str:
-    """Combine the base persona directive with style and subject references.
+def build_system_prompt(language: str = "bn", override: str = "") -> str:
+    """Combine the base persona directive with style, subject, and override references.
 
     *language* selects the persona directive language: 'en' (or 'English') uses
-    the English prompt, anything else uses the Bengali prompt. Style and subject
-    references are appended in the same language.
+    the English prompt, anything else uses the Bengali prompt. Style, subject,
+    and override references are appended in the same language.
     """
     lang = language.strip().lower()
     is_en = lang in {"en", "english", "eng"}
@@ -345,6 +362,11 @@ def build_system_prompt(language: str = "bn") -> str:
             "\n\nশৈলী-নির্দেশনা (রেফারেন্স নমুনা): নিচের নমুনার বাক্যগঠন, ছন্দ, রূপক ও গাম্ভীর্য "
             "অনুসরণ করো, কিন্তু এর শব্দ বা বিষয়বস্তু হুবহু নকল করবে না।\n\n"
             + style
+        )
+    if override:
+        parts.append(
+            "\n\nবিশেষ-নির্দেশনা (Human Override): নিচের নির্দেশনাগুলো কঠোরভাবে মেনে চলো।\n\n"
+            + override
         )
     return "".join(parts)
 
@@ -458,9 +480,11 @@ def frame_theme(storyline: str) -> str:
 
 
 def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
-                 override: str = "", gist: str = "", storyline: str = "",
+                 gist: str = "", storyline: str = "",
                  title: str = "", word_target: int = 0) -> str:
-    """Use the complete model context, including nested filter guidance and any override."""
+    """Use the complete model context, including nested filter guidance.
+    Note: Human override is now handled in the system prompt.
+    """
     lang = language.strip().lower()
     is_en = lang in {"en", "english", "eng"}
     lang_word = "English" if is_en else "Bengali"
@@ -471,7 +495,6 @@ def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
         title=title or "",
         word_target=word_target or 0,
         lang_word=lang_word,
-        override=frame_override(override),
         gist_guardrail=frame_guardrail(gist),
         theme_grounding=frame_theme(storyline),
         context=context,
@@ -504,8 +527,7 @@ def segment_count_for(chapter_model: dict, form: str) -> int:
 
 def build_segment_prompt(poetry: str, context: str, number: int,
                          segment: int, total: int, word_target: int,
-                         prior_text: str, language: str = "bn",
-                         override: str = "") -> str:
+                         prior_text: str, language: str = "bn") -> str:
     """Build the prompt for one segment of a multi-segment novel chapter.
 
     Threads the prior segments' prose (``prior_text``) so the generated segment
@@ -523,7 +545,6 @@ def build_segment_prompt(poetry: str, context: str, number: int,
         word_target=word_target,
         prior_text=prior_text or "(this is the first segment — no prior prose)",
         lang_word=lang_word,
-        override=frame_override(override),
         context=context,
     )
 
@@ -542,17 +563,18 @@ def strip_ansi(text: str) -> str:
     return ANSI_RE.sub("", text)
 
 
-def run_ollama(prompt: str, language: str = "bn", model: str = MODEL) -> str:
+def run_ollama(prompt: str, language: str = "bn", model: str = MODEL, override: str = "") -> str:
     """Call Ollama's HTTP API directly and return the generated text.
 
     Uses ``think=False`` to suppress the model's internal reasoning/"thinking"
     output, and ``stream=False`` so the result is plain text (no ANSI codes).
     Retries transient failures with linear backoff.
     """
+    sys_prompt = build_system_prompt(language, override)
     payload = {
         "model": model,
         "prompt": prompt,
-        "system": build_system_prompt(language),
+        "system": sys_prompt,
         "stream": False,
         "think": False,
         "options": {
@@ -561,6 +583,7 @@ def run_ollama(prompt: str, language: str = "bn", model: str = MODEL) -> str:
             "top_p": TOP_P,
         },
     }
+    info(f"\n--- SYSTEM PROMPT ---\n{sys_prompt}\n--- END SYSTEM PROMPT ---\n")
     vlog(f"[ollama] POST {OLLAMA_URL} model='{model}' think=False stream=False "
          f"num_ctx={CONTEXT_WINDOW} temperature={TEMPERATURE} top_p={TOP_P}")
 
@@ -760,14 +783,24 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     # Poetry: a single segment per chapter — one generation, one draft.
     if form == "poetry":
         prompt = build_prompt(
-            poetry, context, number, language, override, gist, storyline,
+            poetry, context, number, language, gist, storyline,
             title, word_target,
         )
+        
+        # Strictly enforce the requested Bengali format
+        format_directive = (
+            f"\n\nOUTPUT FORMAT (Strictly follow this structure):\n"
+            f"# শিরোনামঃ \n{title}\n\n"
+            f"# কবিতাঃ\n[Write the poetry content here]\n\n"
+            f"# সারাংশঃ\n[Write the chapter summary here]"
+        )
+        prompt += format_directive
+
         if SHOW_PROMPT:
             _show_request(number, model, language, prompt)
         info(f"[{number}] Generating chapter from complete model context ...")
         t0 = time.time()
-        output = run_ollama(prompt, language, model)
+        output = run_ollama(prompt, language, model, override)
         elapsed = time.time() - t0
         _finish_chapter(chapter_dir, out_file, output, previous, version_dir, number, elapsed)
         return
@@ -793,7 +826,7 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
         if SHOW_PROMPT:
             _show_request(number, model, language, prompt, label=f"segment {idx}/{total}")
         info(f"[{number}] Generating segment {idx}/{total} ...")
-        seg_out = run_ollama(prompt, language, model)
+        seg_out = run_ollama(prompt, language, model, override)
         if not seg_out.strip():
             raise ValueError(f"Segment {idx}/{total} returned empty output")
         segments.append(seg_out.strip())
@@ -847,8 +880,19 @@ def _finish_chapter(chapter_dir: Path, out_file: Path, output: str, previous: by
     register_draft(chapter_dir)
     if backup is not None:
         info(f"[{number}] Previous version -> {backup}")
-    word_target = len(output.split())
-    vlog(f"[{number}] Output: {len(output)} chars, ~{word_target} words")
+    
+    # Word count validation: ensure output is within 75% - 125% of word_target.
+    chapter_model = read_chapter_model(chapter_dir)
+    target = chapter_model.get("word_target", 0)
+    actual = len(output.split())
+    vlog(f"[{number}] Output: {len(output)} chars, ~{actual} words (Target: {target})")
+    
+    if target > 0:
+        lower = target * 0.75
+        upper = target * 1.25
+        if actual < lower or actual > upper:
+            info(f"[{number}] WARNING: Word count {actual} is outside target range [{int(lower)}-{int(upper)}]")
+    
     info(f"[{number}] Saved -> {out_file} "
          f"({len(output)} chars in {elapsed:.2f}s)")
 

@@ -1,6 +1,6 @@
 ---
 name: write
-description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content as flat, continuous prose (no section headings), honoring the chapter's metadata, the resolved style (a preset when `<style>` is given, else the book's `style.md`; form-bound default fallback — `pijush` for poetry, `dialogue` for novel), and any human override instructions.
+description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content in the requested format (e.g., including specific Bengali headings for poetry), honoring the chapter's metadata, the resolved style (a preset when `<style>` is given, else the book's `style.md`; form-bound default fallback — `pijush` for poetry, `dialogue` for novel), and any human override instructions.
 tools: ["read", "write"]
 ---
 
@@ -106,13 +106,11 @@ On success, resume dispatch with the refreshed metadata.
 
 ## Responsibility Boundary
 
-The selected skill owns writing the chapter (flat, continuous prose — no section
-headings), honoring the blueprint, signature, theme, style voice, and override as
-the final layer, and writes only `chapters/<n>/chapter.md` (archiving prior copies).
+The selected skill owns writing the chapter (honoring the required format—e.g., including headings for poetry), honoring the blueprint, signature, theme, style voice, and override as the final layer, and writes only `chapters/<n>/chapter.md` (archiving prior copies).
 
 The write agent must **not**: write chapter content directly; scaffold or run
 filters; write to `workspaces/published/` or `segments/1/writer/`; update
-`progress.json`; re-introduce section headings; or apply a form the pipeline's
+`progress.json`; or apply a form the pipeline's
 model doesn't declare.
 
 ## Output

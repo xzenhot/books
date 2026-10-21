@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Where previous chapters dealt with the *process* of light generation, this chapter focuses solely on the profound texture and psychological weight found in its absolute absence or residue.
+
+## draft
+
+### sha256
+
+e8977211a63341abd3676fa728e06c17ce78ec7e8fe55297100b401b8deca08e
+
+### written_at
+
+2026-10-20T21:29:58.264898+00:00
+
+### origin
+
+write

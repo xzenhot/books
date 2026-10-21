@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 Where neighbour 16 focused on internal maintenance against decay and neighbours 17/18 explored the darkness surrounding a limit, this chapter will anchor itself in the physical interaction with the *edge* of that resistance.
+
+## draft
+
+### sha256
+
+53817c0d0d76ffe7e21a4c6a42b401832f45a53a4d886f273c945e16e1d6f78e
+
+### written_at
+
+2026-10-20T21:18:09.227999+00:00
+
+### origin
+
+write

@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 This chapter differentiates from its neighbours by making 'doubt' an active co-present entity rather than a passive obstacle, forcing the light not to deny it, but to interact with it directly.
+
+## draft
+
+### sha256
+
+a9d92b74593f8fde962a84620de40361c28191807c2f760e4414337be89c8c95
+
+### written_at
+
+2026-10-20T21:15:51.376122+00:00
+
+### origin
+
+write

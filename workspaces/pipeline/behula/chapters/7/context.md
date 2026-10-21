@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Unlike the immediate clarity of Chapter 3 or the slow build of Chapter 4, this chapter focuses entirely on the dynamic state *at* the point of friction—the sustained tension between self and barrier.
+
+## draft
+
+### sha256
+
+3e9676afb096fe7faf0015353315261195272f3b8e1cbb83a6dfe5e037687b07
+
+### written_at
+
+2026-10-20T21:15:39.202029+00:00
+
+### origin
+
+write

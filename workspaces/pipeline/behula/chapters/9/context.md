@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 This chapter deliberately avoids framing the stop as solely corrective (like Chapter 10's weariness); instead, it treats cessation as an active, necessary state that must be navigated with intention.
+
+## draft
+
+### sha256
+
+4e959e8df3f467027c7670c2b7c4b0658a247176de9b03f2b9efb67f8b53f0c6
+
+### written_at
+
+2026-10-20T21:16:03.140832+00:00
+
+### origin
+
+write

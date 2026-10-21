@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -91,3 +91,17 @@ scaffolded
 ### variety_note
 
 Unlike the earlier focus on large-scale existential struggles (Chapter 4), this chapter collapses the scope down to a single, precarious physical event: maintaining one small point of heat against surrounding friction.
+
+## draft
+
+### sha256
+
+8826e9bd220535014f598aa284e7aa8dbbbc3425a575f66dddb10e7d5133e723
+
+### written_at
+
+2026-10-20T21:17:18.266270+00:00
+
+### origin
+
+write

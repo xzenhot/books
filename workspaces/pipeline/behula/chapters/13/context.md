@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 Unlike chapters focusing on active struggle (paths/steps) or visible despair (exhaustion), this chapter anchors itself entirely in the quality and texture of stillness and non-articulation.
+
+## draft
+
+### sha256
+
+fdf60119e0d8456e7021bf6cb56bcadb0bed11e21188355bee9092d381426048
+
+### written_at
+
+2026-10-20T21:16:51.384877+00:00
+
+### origin
+
+write

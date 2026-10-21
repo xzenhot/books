@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 While previous chapters have explored resistance and light interaction with mass, this poem focuses purely on the acoustic manifestation of internal state—the relationship between sound, space, and solitude.
+
+## draft
+
+### sha256
+
+d5dfd1cc5486770e2a63bca8fd3f00fa8e75a0eb8b83c8ec68c80ac08e9acf2b
+
+### written_at
+
+2026-10-20T21:18:20.710940+00:00
+
+### origin
+
+write

@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-enriched
+written
 
 ## segments
 
@@ -92,3 +92,17 @@ This chapter focuses intensely on the initial moment of muscular commitment, pro
 ### status
 
 enriched
+
+## draft
+
+### sha256
+
+95a25e12234854ada21fafc0248180c87d0cfea9eb63a4c6c026e72630a6f026
+
+### written_at
+
+2026-10-20T21:15:27.263098+00:00
+
+### origin
+
+write
