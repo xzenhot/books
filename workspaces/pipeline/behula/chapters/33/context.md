@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 Where neighbouring chapters explore the *aftermath* of endurance, this chapter focuses on the delicate, conscious act of projecting forward potential onto an unformed external reality without dictating its path.
+
+## draft
+
+### sha256
+
+63b96ed381affb66e8e2e56d594ad21956f181d818e27a2c0250d8e039f5996f
+
+### written_at
+
+2026-10-20T21:20:59.244654+00:00
+
+### origin
+
+write

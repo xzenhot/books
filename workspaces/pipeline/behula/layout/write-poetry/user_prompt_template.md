@@ -6,7 +6,7 @@ Now write chapter {number}. Use the complete chapter model context below: its ti
 
 CHAPTER TITLE: {title}
 
-WORD TARGET: {word_target} words — write as close to this length as you can, without padding or cutting the thought short.
+WORD TARGET: {word_target} words (the poetry body alone). This is a HARD requirement, not a suggestion. You MUST write a body of at least {word_target} words, and not more than 125% of it. If you stop early, the chapter is incomplete. Keep writing and deepening the imagery, the riverine detail, the body and the myth, until the body reaches this length. Do not pad with filler — expand with genuine sensory and spiritual depth.
 
 HUMAN OVERRIDE INSTRUCTIONS (bind to these; they take precedence over the style above):
 

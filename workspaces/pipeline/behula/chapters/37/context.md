@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -82,3 +82,17 @@ scaffolded
 ### variety_note
 
 Unlike preceding chapters that might focus on the continuous act of lighting or moving forward, this chapter centers entirely on the static function of recording and bearing witness to past expenditures of will.
+
+## draft
+
+### sha256
+
+05821516bb9fc99565b0fd8a518e3510cdd1346085930c0eea053fc54a614ef1
+
+### written_at
+
+2026-10-20T21:21:49.463576+00:00
+
+### origin
+
+write

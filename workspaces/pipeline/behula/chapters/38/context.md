@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -74,3 +74,17 @@ scaffolded
 ### variety_note
 
 Unlike surrounding chapters that focus on the mechanics of belief or social ripple effects, this chapter pivots inward, scrutinizing the raw, imperfect cost of endurance rather than its resulting glory.
+
+## draft
+
+### sha256
+
+f2a69c2773e5201fff24a4bf34441351d4eb649d2b53c4fb32782746a491926f
+
+### written_at
+
+2026-10-20T21:22:02.923488+00:00
+
+### origin
+
+write

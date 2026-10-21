@@ -802,6 +802,8 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
         t0 = time.time()
         output = run_ollama(prompt, language, model, override)
         elapsed = time.time() - t0
+        # If the body came out short of the target, extend it until it is close.
+        output = _ensure_length(number, output, word_target, language, model, override)
         _finish_chapter(chapter_dir, out_file, output, previous, version_dir, number, elapsed)
         return
 
@@ -873,6 +875,66 @@ def _show_request(number: int, model: str, language: str, prompt: str, label: st
     info(f"[{number}] ============ END REQUEST ============\n")
 
 
+def _count_body_words(output: str) -> int:
+    """Count words in the poetry body, ignoring the title/summary headings."""
+    text = output.strip()
+    # If the output uses the structured format, drop the শিরোনাম and সারাংশ sections
+    # and count only the কবিতাঃ body.
+    for marker in ("# কবিতাঃ", "# কবিতা:", "# কবিতাঃ "):
+        if marker in text:
+            body = text.split(marker, 1)[1]
+            for end_marker in ("# সারাংশঃ", "# সারাংশ:", "# সারাংশঃ "):
+                if end_marker in body:
+                    body = body.split(end_marker, 1)[0]
+                    break
+            return len(body.split())
+    return len(text.split())
+
+
+def _ensure_length(number: int, output: str, word_target: int, language: str,
+                   model: str, override: str) -> str:
+    """Extend a short poetry draft until its body is close to word_target.
+
+    When the generated body falls well below the target (under 75%), ask the
+    model to continue the same poem, deepening it without starting over. This
+    iterates up to a few times, growing the body toward the target.
+    """
+    if not word_target or word_target <= 0:
+        return output
+    text = output.strip()
+    current = _count_body_words(text)
+    lower = int(word_target * 0.75)
+    info(f"[{number}] Body words: {current} (target {word_target}, lower {lower})")
+
+    attempts = 0
+    while current < lower and attempts < MAX_RETRIES:
+        attempts += 1
+        extend_prompt = (
+            f"The poem above is currently {current} words but the required length "
+            f"is {word_target} words. Continue and deepen the SAME poem — do not "
+            f"restart, do not add a new title or summary. Weave in more of the "
+            f"riverine and sensory imagery (flora, fauna, silt, monsoon, folk-myth) "
+            f"until the body alone reaches close to {word_target} words. Keep the "
+            f"same voice, language, and structure. Output only the complete, "
+            f"expanded poem body.\n\nExisting poem:\n\n{text}"
+        )
+        info(f"[{number}] Extending body (attempt {attempts}) ...")
+        extended = run_ollama(extend_prompt, language, model, override)
+        if not extended.strip():
+            break
+        text = extended.strip()
+        new_count = _count_body_words(text)
+        info(f"[{number}] After extension: {new_count} body words")
+        if new_count <= current:
+            # No growth; stop to avoid an infinite loop.
+            break
+        current = new_count
+
+    if current < lower:
+        info(f"[{number}] WARNING: body at {current} words, still below target {word_target}")
+    return text
+
+
 def _finish_chapter(chapter_dir: Path, out_file: Path, output: str, previous: bytes | None,
                     version_dir: Path, number: int, elapsed: float) -> None:
     """Archive the prior draft, install the new one, and register it for quality."""
@@ -884,8 +946,8 @@ def _finish_chapter(chapter_dir: Path, out_file: Path, output: str, previous: by
     # Word count validation: ensure output is within 75% - 125% of word_target.
     chapter_model = read_chapter_model(chapter_dir)
     target = chapter_model.get("word_target", 0)
-    actual = len(output.split())
-    vlog(f"[{number}] Output: {len(output)} chars, ~{actual} words (Target: {target})")
+    actual = _count_body_words(output)
+    vlog(f"[{number}] Output: {len(output)} chars, ~{actual} body words (Target: {target})")
     
     if target > 0:
         lower = target * 0.75

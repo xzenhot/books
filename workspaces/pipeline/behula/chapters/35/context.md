@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 Unlike neighbour 32 which framed individual stepping as a starting point, this chapter focuses on the intricate, fragile mechanics of two paths moving in relation to one another without merging.
+
+## draft
+
+### sha256
+
+3725a30a06e722b8b4992cd40848306aaa3e336d1b5da4af0598cfb4b457c951
+
+### written_at
+
+2026-10-20T21:21:24.765607+00:00
+
+### origin
+
+write

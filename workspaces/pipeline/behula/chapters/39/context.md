@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Where earlier chapters focused on the *necessity* and *hope* within struggle, this chapter tests the structural integrity of that hope by forcing repetition to become unstable.
+
+## draft
+
+### sha256
+
+be0822d9b7769bc49ff3c7af6b0da4dc96bc7d3eeda93755659de06cac27e326
+
+### written_at
+
+2026-10-20T21:22:15.527793+00:00
+
+### origin
+
+write
