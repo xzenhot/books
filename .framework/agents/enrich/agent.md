@@ -61,7 +61,7 @@ researcher:
 
 **Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy
 `.framework/context/poetry/styles/pijush/style.md` if missing, without overwriting a
-human-edited file), then re-ground it from `book.json`, `bookseed.txt`, and `override.txt`
+human-edited file), then re-ground it from `book.json` and `override.txt`
 to this book's topics — keep voice/register, change only the "what".
 
 `chapter.md` is **not** an input; it is authored later by the write/chapter/poet agents.

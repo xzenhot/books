@@ -1,0 +1,65 @@
+{
+  "chapter_index": 27,
+  "name": "27",
+  "word_target": 500,
+  "chapter_title": "অদৃশ্য জলের পথ",
+  "chapter_summary": "পাহাড়ের ফাটল ও উপত্যকায় বয়ে চলা অদৃশ্য নদী — যে জল মানুষ দেখে না, অথচ তাতেই বেঁচে থাকে জনপদ।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "blake",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 7,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Language Poetry",
+        "one_liner": "Prioritizing word structure over clear meaning."
+      },
+      "writing_skills": [
+        "syntactical scrambling",
+        "fragmentation",
+        "phonetic layering"
+      ],
+      "image_seed": "an invisible path of water through the rock",
+      "volta": "the unseen turning from absence into presence",
+      "sonic_texture": "hard consonants over one long hollow vowel",
+      "line_gesture": "fragment lines shored against a heavy close",
+      "variety_note": "an unseen path against the visible river"
+    }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "731fd5a20bd2f77db1c57b86e9302f75a1bf19824acbf25b069d6bee01ef50de",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

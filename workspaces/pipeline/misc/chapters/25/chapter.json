@@ -1,0 +1,54 @@
+{
+  "chapter_index": 25,
+  "name": "25",
+  "word_target": 500,
+  "chapter_title": "The Lullaby and the Mosquito Net",
+  "chapter_summary": "A lullaby hums beneath a mosquito net, and the poem regards the thin white tent that keeps the night's small dangers from a sleeping child.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Folklore concerning protective barriers in domestic ritual spaces.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the mosquito net as a biological sieve: focusing on what it successfully filters out (insects) versus what its structure inadvertently allows to pass through (sound, scent, light patterns).",
+      "Developing the lullaby not as simple comfort, but as an inherited, slightly distorted memory—the melody is only partially remembered by the speaker.",
+      "Framing the child's breathing beneath the net as a subtle, constant sonic texture against the backdrop of the night sounds being excluded."
+    ],
+    "story_options": [
+      "setting: A specific corner of the sleeping room where the netting is frayed, desire: To trace the pattern of a tiny tear in the mesh with a fingertip, obstacle: The sound of nocturnal creatures outside, muffled but insistent by the net's presence, turn: A memory surfaces not of the lullaby itself, but of the act of mending the netting.",
+      "setting: Immediately beside the child’s ear, where the humming is loudest, desire: To capture the precise pitch and vibration of the hum as if it were a physical object that could be weighed, obstacle: The low drone of distant life—a generator, street noise—that proves the net's containment is porous to the wider world., turn: The humming abruptly shifts tonal quality, perhaps mirroring an older, forgotten version of the tune.",
+      "setting: Looking out from beneath the netting at a patch of moonlight, desire: To define the perimeter where shadow meets the filtered light through the weave, obstacle: The realization that the protective barrier itself creates its own, smaller prison of soft illumination., turn: The speaker wonders if the child is more dependent on the net's structure for definition than protection."
+    ],
+    "subject_rotations": [
+      "Exploring the *materiality* of the threads: focusing on how they are woven—the tension, the specific knotting, and what that engineering feat represents in a domestic context.",
+      "Shifting the focus entirely to the nocturnal soundscape external to the net, treating the 'silence' inside as an active curation of noise rather than pure absence.",
+      "Examining the contrast between the rhythmic predictability of the lullaby (human control) and the chaotic unpredictability of what is trapped outside or against the weave."
+    ],
+    "sensory_details": [
+      "The faint, sweetish metallic scent of damp cotton threads just inside the netting.",
+      "The specific sound of air being drawn in by a small, regular inhalation beneath fine mesh.",
+      "The gritty friction felt on skin when the net brushes against it during a slight shift in sleep posture."
+    ],
+    "research_questions": [
+      "What are common cultural understandings or folk beliefs regarding protective nets (against insects or spirits) in contemporary Indian homes?",
+      "Are there regional variations in lullaby melodies that involve repetitive, near-chant cadences suitable for poetic focus?"
+    ],
+    "structural_variants": [
+      "A circular structure where the poem starts by describing the final moment of stillness under the net and spirals outward into a recollection of why it was needed.",
+      "A staccato arrangement: short bursts focused intensely on one specific point (a knot, a breath, a vibrating thread) punctuated by longer sections dedicated to the melodic flow."
+    ],
+    "unused_angles": [
+      "The relationship between the child's need for sleep and the societal pressure (implied or real) that dictates when rest must occur.",
+      "A direct meditation on the labor involved in weaving such a delicate barrier—the invisible, repetitive work of preservation."
+    ],
+    "variety_note": "Unlike poems focused on tangible objects like stained cloth or metal tools, this chapter concentrates on mediated existence: sound filtered by thread and light restricted by geometry."
+  }
+}

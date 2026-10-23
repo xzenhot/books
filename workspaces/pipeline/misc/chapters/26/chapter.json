@@ -1,0 +1,47 @@
+{
+  "chapter_index": 26,
+  "name": "26",
+  "word_target": 500,
+  "chapter_title": "The Mortar in the Kitchen",
+  "chapter_summary": "A stone mortar stands in a kitchen corner, and the poem attends to the old grinding tool that turns hard things to powder in a patient rhythm.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing solely on the *sound*—the grinding action alone—as a sustained percussive meditation that transcends ingredients to become pure labor.",
+      "Viewing the mortar not as an instrument of cooking, but as a geological device, wearing away grain and hard shells over generations of unseen hands.",
+      "The intersection of scent and texture: contrasting the dry, gritty residue inside with the wet steam rising from nearby vessels."
+    ],
+    "story_options": [
+      "setting: A sun-dappled kitchen corner just before the midday heat crests, desire: To capture the sound of the pestle meeting resistance, signaling a successful reduction in hardness., obstacle: The momentary pause when one ingredient is too dense or unevenly ground.",
+      "setting: As twilight deepens over the tiled floor, desire: To trace the changing light that transforms the dull grey stone into something polished and warm., obstacle: The encroaching shadows making the contours of the mortar seem to shift, as if sentient.",
+      "setting: Near a window where dust motes dance in the last slant of daylight, desire: To observe how the pulverized material accumulates—the fine dust settling like narrative silt on nearby surfaces., obstacle: The sudden intrusion of an animal sound or movement from outside disrupting the rhythm."
+    ],
+    "subject_rotations": [
+      "Treating the mortar as a repository of forgotten flavors and vanished meals, giving it historical weight rather than present utility.",
+      "An intense focus on the texture of the stone itself—the grain, the chipped edges, the imperfections that map usage history.",
+      "Shifting from the physical grinding to the conceptual labor: what is being 'reduced' or dissolved in this act (stubborn habit, hard word)?"
+    ],
+    "sensory_details": [
+      "The sharp, dry scent of toasted grain clinging faintly to the stone surface.",
+      "The slick, cool dampness left on the pestle after a period of heavy use against resistant material."
+    ],
+    "research_questions": [
+      "What specific types of ground spices or ingredients are traditionally prepared using this type of mortar and pestle in contemporary domestic settings?",
+      "Are there regional variations in how the stone surface is maintained or treated to preserve its grinding effectiveness?"
+    ],
+    "structural_variants": [
+      "A movement from extreme close-up on the impact point (sound/force) outwards to a wider shot encompassing the whole working kitchen.",
+      "Starting with the silence *before* the first strike, building tension through anticipation until the rhythmic commencement of grinding."
+    ],
+    "unused_angles": [
+      "Examining the relationship between the mortar and other implements—the bowl it sits within, or the cloth used to wipe residue from its sides.",
+      "A contemplation on silence itself: the necessary space between each strike that allows the previous action to settle into quiet observation."
+    ],
+    "variety_note": "Unlike poems focused on external passage (like transit or waiting), this focuses intensely inward, anchoring time in cyclical, repetitive human effort within a contained domestic sphere."
+  }
+}

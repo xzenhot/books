@@ -11,7 +11,7 @@ This agent is only a dispatcher. It must not apply the quality review directly; 
 ## Dispatch
 
 1. Read `workspaces/pipeline/<bookname>/book.json` and the matching chapter model.
-2. **Regenerate the style reference from current context.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy `.framework/context/poetry/styles/pijush/style.md` into it if missing, without overwriting a human-edited file), then rewrite it from `workspaces/pipeline/<bookname>/book.json`, `bookseed.txt`, and `override.txt` so its subject matter matches this book's topics — re-grounding any stale/unrelated narrative (e.g. a Behula template) to the current book. Keep the voice/philosophy/register intact; only re-ground the "what". If `override.txt` carries a transformation mandate, fold it in.
+2. **Regenerate the style reference from current context.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy `.framework/context/poetry/styles/pijush/style.md` into it if missing, without overwriting a human-edited file), then rewrite it from `workspaces/pipeline/<bookname>/book.json` and `override.txt` so its subject matter matches this book's topics — re-grounding any stale/unrelated narrative (e.g. a Behula template) to the current book. Keep the voice/philosophy/register intact; only re-ground the "what". If `override.txt` carries a transformation mandate, fold it in.
 3. Resolve the form from the pipeline model first, then the chapter model's `syntax.form`, then the cloned book plan.
 4. If the form is `poetry`, read and invoke `.framework/skills/quality-poetry/SKILL.md`.
 5. If the form is `novel`, read and invoke `.framework/skills/quality-novel/SKILL.md`.

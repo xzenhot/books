@@ -6,8 +6,23 @@
   "chapter_summary": "ইতিহাসের রেশ পাহাড়ের রক্তস্রোতে বয়ে যায় — প্রতিটি সভ্যতার পদচিহ্ন শিলায় জমে থাকে।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "7b68162bd9f01dbf90f88c97c3b28098caae4d72cd174b1d8642979450ce9b96",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

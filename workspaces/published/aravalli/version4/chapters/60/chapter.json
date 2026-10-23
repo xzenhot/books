@@ -1,0 +1,28 @@
+{
+  "chapter_index": 60,
+  "name": "60",
+  "word_target": 500,
+  "chapter_title": "তামার গর্ভ",
+  "chapter_summary": "তাম্রযুগের খনি — পাহাড়ের তামা দিয়েই গড়ে ওঠে প্রাচীন সভ্যতার হাতিয়ার ও অলংকার।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "0b85ba2db2b7350749ec70444d8ca1d7701a43f16675b69993a2068083572b10",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

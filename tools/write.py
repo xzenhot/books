@@ -25,7 +25,8 @@ import time
 import urllib.error
 import urllib.request
 from pathlib import Path
-from quality import register_draft, read_json, digest, read_chapter_model, chapter_model_file
+from quality import (register_draft, read_json, digest, read_chapter_model,
+                     chapter_model_file, write_chapter_model, write_json)
 
 BASE_DIR = Path(__file__).resolve().parent
 # Repo root is one level above tools/
@@ -874,6 +875,103 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     output = "\n\n".join(segments)
     elapsed = time.time() - t0
     _finish_chapter(chapter_dir, out_file, output, previous, version_dir, number, elapsed)
+
+
+def _resolve_chapter_dir(chapters_root: Path, ref: str) -> tuple[Path, int]:
+    """Resolve a chapter folder by numeric name or by chapter title."""
+    ref = (ref or "").strip()
+    if ref.isdecimal() and (chapters_root / ref).is_dir():
+        return chapters_root / ref, int(ref)
+    for folder in chapters_root.iterdir():
+        if not folder.is_dir() or not folder.name.isdecimal():
+            continue
+        try:
+            model = read_chapter_model(folder)
+        except (OSError, json.JSONDecodeError):
+            continue
+        candidate = (model.get("chapter_title") or model.get("title") or "").strip()
+        if candidate and candidate == ref:
+            return folder, int(folder.name)
+    raise ValueError(f"Chapter '{ref}' not found")
+
+
+def _run_silent(fn):
+    """Run *fn* with stdout/stderr redirected to an in-memory buffer.
+
+    The book workflows print Bengali text; capturing it sidesteps any console
+    encoding error when the app runs on a non-UTF-8 code page (e.g. cp1252).
+    """
+    import io
+
+    buf = io.StringIO()
+    old_out, old_err = sys.stdout, sys.stderr
+    sys.stdout = sys.stderr = buf
+    try:
+        return fn()
+    finally:
+        sys.stdout, sys.stderr = old_out, old_err
+
+
+def update_chapter(bookname: str, chapter_ref: str, title: str, summary: str) -> int:
+    """Persist a new chapter_title/chapter_summary, then enrich via book.py.
+
+    Writes the new title/summary into the chapter's ``chapter.json`` and the
+    matching ``chapters[]`` entry in ``book.json``, then reuses the standard
+    ``enrich`` command (``book.enrich_workflow``) for that chapter. Returns the
+    chapter number.
+    """
+    import book as book_mod  # noqa: PLC0415
+
+    chapters_root = resolve_chapters_root(bookname)
+    chapter_dir, number = _resolve_chapter_dir(chapters_root, chapter_ref)
+
+    title = (title or "").strip()
+    summary = (summary or "").strip()
+
+    # 1. Update the chapter model (chapter.json / model.json).
+    chapter_model = read_chapter_model(chapter_dir)
+    chapter_model["chapter_title"] = title
+    chapter_model["chapter_summary"] = summary
+    # Drop any prior enrichment so the enrich command recreates the tag fresh
+    # instead of carrying older creative context forward.
+    chapter_model.pop("creative_enrichment", None)
+    write_chapter_model(chapter_dir, chapter_model)
+
+    # 2. Update the matching entry in the book plan (book.json / model.json).
+    pipeline = chapter_dir.parents[1]
+    plan_file = pipeline / "book.json"
+    if not plan_file.is_file():
+        plan_file = pipeline / "model.json"
+    plan = read_json(plan_file)
+    for entry in plan.get("chapters", []):
+        if str(entry.get("name")) == str(number) or entry.get("chapter_index") == number:
+            entry["chapter_title"] = title
+            entry["chapter_summary"] = summary
+            break
+    write_json(plan_file, plan)
+
+    # 3. Reuse the standard enrich command for this chapter.
+    _run_silent(lambda: book_mod.enrich_workflow(bookname, str(number)))
+    return number
+
+
+def write_adhoc(bookname: str, chapter_ref: str) -> str:
+    """Write the (already updated/enriched) chapter via the standard command.
+
+    Reuses ``book.write_workflow`` for the selected chapter, then reads back the
+    resulting ``chapter.md`` and returns its text for display.
+    """
+    import book as book_mod  # noqa: PLC0415
+
+    chapters_root = resolve_chapters_root(bookname)
+    chapter_dir, number = _resolve_chapter_dir(chapters_root, chapter_ref)
+
+    _run_silent(lambda: book_mod.write_workflow(bookname, str(number)))
+
+    out_file = chapter_dir / "chapter.md"
+    if not out_file.is_file():
+        raise ValueError(f"Write produced no chapter.md for chapter {number}")
+    return out_file.read_text(encoding="utf-8-sig")
 
 
 def _write_segment(chapter_dir: Path, segment_index: int, text: str) -> Path:

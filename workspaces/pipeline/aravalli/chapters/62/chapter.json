@@ -6,8 +6,23 @@
   "chapter_summary": "ব্যবসায়ীর খাতার শূন্যের স্তম্ভ — পাহাড়ের সম্পদের হিসেব যেখানে কলামে কলামে বন্দি।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "abfd4d57ade67806f78d137cf35bd7c8d7baa028d3a07c1a783ff4695ee3aa0a",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

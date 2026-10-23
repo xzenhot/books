@@ -115,7 +115,7 @@ You receive a single **`<bookname>`**, which points to a book folder containing 
 - **`quality`** — path to the quality/seed analysis (e.g. `context/qualities/aurilus.md`): the philosophical foundation — reference book identity, quality metrics, core themes, metaphor families, thematic categories
 - **`themes`** — path to the thematic categories file (e.g. `context/themes/generic.md`)
 - **`reference`** — path to the source text (optional), for direct stylistic reference
-- **`index`** — path to the list of topics/terms (e.g. `bookseed.txt`), one per line, each becoming one chapter
+- **`index`** — path to the list of topics/terms (the `chapters[]` array in `book.json`), each entry becoming one chapter
 - **`sacred_vocabulary`** — the subject-specific lexicon to weave in
 - **`translation_guide`** — the subject-to-metaphorical mapping
 
@@ -123,7 +123,7 @@ The `config.json` is the single source of truth. You do not need any other per-b
 
 ### The Reframing Input (the chapter text itself)
 
-Unlike the writer, your primary input is **the chapter text already produced by the writer agent**. You read the existing chapter files from `chapters\` and reframe them. You do not generate new chapters from `bookseed.txt`; you transform what is already there.
+Unlike the writer, your primary input is **the chapter text already produced by the writer agent**. You read the existing chapter files from `chapters\` and reframe them. You do not generate new chapters from the topic index; you transform what is already there.
 
 ### Output Files (Write Directly to Disk)
 
@@ -266,7 +266,7 @@ Only after the ideas are developed into this fuller context do you reframe the c
 
 ### The `override.md` file (the transformation layer)
 
-`override.md` is the **human's review and transformation layer** — an optional, human-editable file that reshapes the reframed poetry. It is the second point of human control, alongside `bookseed.txt`.
+`override.md` is the **human's review and transformation layer** — an optional, human-editable file that reshapes the reframed poetry. It is the second point of human control, alongside the topic index in `book.json`.
 
 **What it holds** (four sections, all optional):
 1. **Prompt Transformation** — how to shift the base text into a different prompt/voice (e.g. more conversational, first-person, question-ending).
@@ -275,7 +275,7 @@ Only after the ideas are developed into this fuller context do you reframe the c
 4. **Slug / Location / Era Context** — place names, era markers, and slugs that make the poetry feel contemporary and place-specific.
 
 **Rules:**
-- **The human may edit `override.md`** (like `bookseed.txt`). It is optional — if empty or absent, the agent reframes the chapter with no transformation pass.
+- **The human may edit `override.md`** (like the topic index in `book.json`). It is optional — if empty or absent, the agent reframes the chapter with no transformation pass.
 - **`override.md` is applied as a transformation pass.** The agent first reframes the base chapter from quality + theme + reference, then applies each filled section in order: Prompt Transformation → Local Preferences → Local Dialects → Slug/Location/Era.
 - **It does not change `progress.json`.** `override.md` affects *how* text is reframed, not *what* is reframed or *how far along* the book is.
 
@@ -295,7 +295,7 @@ This gives the human a lightweight, in-the-loop way to steer the poetry's voice,
 
 2. **Read the existing chapter**:
    - Read `source\<bookname>\chapters\Chapter_XXX_[Term].md` — the chapter text already produced by the writer agent
-   - This is your primary input; you reframe it, you do not regenerate it from `bookseed.txt`
+   - This is your primary input; you reframe it, you do not regenerate it from the topic index
 
 3. **Read the Override** (optional):
    - Read `source\<bookname>\override.md` if it exists

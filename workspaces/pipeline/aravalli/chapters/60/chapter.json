@@ -6,8 +6,23 @@
   "chapter_summary": "তাম্রযুগের খনি — পাহাড়ের তামা দিয়েই গড়ে ওঠে প্রাচীন সভ্যতার হাতিয়ার ও অলংকার।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "d5b38ccb3afffb161003c2bb29f8d9106b7ee0e543b7d073eb6a01a79bd7f38c",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

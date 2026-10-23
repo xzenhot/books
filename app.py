@@ -196,6 +196,281 @@ class CreateBookDialog(tk.Toplevel):
         self.destroy()
 
 
+def _load_write_module():
+    """Import ``tools/write.py`` as a module so ad-hoc writes reuse its engine.
+
+    ``write.py`` imports ``quality`` (also under ``tools/``), so the tools
+    directory is prepended to ``sys.path`` before importing.
+    """
+    tools_dir = str(REPO_ROOT / "tools")
+    if tools_dir not in sys.path:
+        sys.path.insert(0, tools_dir)
+    import write as write_mod  # noqa: PLC0415
+
+    return write_mod
+
+
+class AdhocWriteDialog(tk.Toplevel):
+    """Modal form to update a chapter (new title/summary) then write its poem.
+
+    - Book dropdown (pipeline only).
+    - Chapter dropdown (chapter titles from the selected book's book.json).
+    - "Chapter Title" text box and "Summary" text box for the new values.
+    - "Update Chapter" persists the new title/summary into chapter.json +
+      book.json and enriches the chapter; "Write" stays disabled until that
+      succeeds.
+    - "Write" generates the poem (display only) into the output text box.
+    """
+
+    def __init__(self, parent):
+        super().__init__(parent)
+        self.title("Adhoc Write")
+        self.transient(parent)
+        self.grab_set()
+        self._thread = None
+        self._chapter_titles = []  # (display_title, chapter_ref) pairs
+
+        pad = {"padx": 10, "pady": 6}
+        body = ttk.Frame(self)
+        body.pack(fill="both", expand=True, **pad)
+
+        # Book (pipeline only).
+        ttk.Label(body, text="Book (pipeline):").grid(row=0, column=0, sticky="w")
+        self.book_var = tk.StringVar()
+        pipeline_books = self._pipeline_books()
+        self.book_combo = ttk.Combobox(
+            body, textvariable=self.book_var, values=pipeline_books,
+            state="readonly", width=42,
+        )
+        self.book_combo.grid(row=0, column=1, sticky="we", pady=(0, 8))
+        if pipeline_books:
+            self.book_var.set(pipeline_books[0])
+        self.book_combo.bind("<<ComboboxSelected>>", lambda e: self._refresh_chapters())
+
+        # Chapter (titles from the selected book's book.json).
+        ttk.Label(body, text="Chapter:").grid(row=1, column=0, sticky="w")
+        self.chapter_var = tk.StringVar()
+        self.chapter_combo = ttk.Combobox(
+            body, textvariable=self.chapter_var, values=[], state="readonly", width=42,
+        )
+        self.chapter_combo.grid(row=1, column=1, sticky="we", pady=(0, 8))
+        self.chapter_combo.bind("<<ComboboxSelected>>", lambda e: self._on_chapter_select())
+
+        # Chapter title text box.
+        ttk.Label(body, text="Chapter title:").grid(row=2, column=0, sticky="w")
+        self.title_var = tk.StringVar()
+        ttk.Entry(body, textvariable=self.title_var, width=42).grid(
+            row=2, column=1, sticky="we", pady=(0, 8)
+        )
+
+        # Summary (new gist) with scrollbar.
+        ttk.Label(body, text="Summary (new gist):").grid(
+            row=3, column=0, columnspan=2, sticky="w"
+        )
+        sum_wrap = ttk.Frame(body)
+        sum_wrap.grid(row=4, column=0, columnspan=2, sticky="nsew")
+        self.summary_text = tk.Text(sum_wrap, width=60, height=8, wrap="word")
+        sum_scroll = ttk.Scrollbar(sum_wrap, orient="vertical", command=self.summary_text.yview)
+        self.summary_text.configure(yscrollcommand=sum_scroll.set)
+        self.summary_text.pack(side="left", fill="both", expand=True)
+        sum_scroll.pack(side="right", fill="y")
+
+        # Update Chapter + Write + progress bar.
+        action_bar = ttk.Frame(body)
+        action_bar.grid(row=5, column=0, columnspan=2, sticky="w", pady=(8, 0))
+        self.update_btn = ttk.Button(action_bar, text="Update Chapter", command=self._update_chapter)
+        self.update_btn.pack(side="left")
+        self.write_btn = ttk.Button(action_bar, text="Write", command=self._write, state="disabled")
+        self.write_btn.pack(side="left", padx=(8, 0))
+        self.progress = ttk.Progressbar(action_bar, mode="indeterminate", length=160)
+        self.progress.pack(side="left", padx=(10, 0))
+
+        # Output textarea with scrollbar.
+        ttk.Label(body, text="Poem output:").grid(
+            row=6, column=0, columnspan=2, sticky="w", pady=(8, 0)
+        )
+        out_wrap = ttk.Frame(body)
+        out_wrap.grid(row=7, column=0, columnspan=2, sticky="nsew")
+        self.out_text = tk.Text(out_wrap, width=60, height=14, wrap="word")
+        out_scroll = ttk.Scrollbar(out_wrap, orient="vertical", command=self.out_text.yview)
+        self.out_text.configure(yscrollcommand=out_scroll.set)
+        self.out_text.pack(side="left", fill="both", expand=True)
+        out_scroll.pack(side="right", fill="y")
+
+        # Status label.
+        self.status_var = tk.StringVar(value="Select a chapter and enter a new title/summary.")
+        ttk.Label(body, textvariable=self.status_var, anchor="w", foreground="#666").grid(
+            row=8, column=0, columnspan=2, sticky="w", pady=(4, 0)
+        )
+
+        # Close.
+        ttk.Button(body, text="Close", command=self.destroy).grid(
+            row=9, column=0, columnspan=2, sticky="e", pady=(8, 0)
+        )
+
+        body.columnconfigure(1, weight=1)
+        body.rowconfigure(4, weight=1)
+        body.rowconfigure(7, weight=1)
+
+        self.bind("<Escape>", lambda e: self.destroy())
+        self._refresh_chapters()
+        self.geometry("720x760")
+        self.update_idletasks()
+        x = parent.winfo_rootx() + 40
+        y = parent.winfo_rooty() + 40
+        self.geometry(f"+{x}+{y}")
+
+    # -- helpers ------------------------------------------------------------
+    def _pipeline_books(self):
+        d = REPO_ROOT / "workspaces" / "pipeline"
+        if not d.is_dir():
+            return []
+        return sorted(c.name for c in d.iterdir() if c.is_dir())
+
+    def _book_plan(self, book):
+        plan = REPO_ROOT / "workspaces" / "pipeline" / book / "book.json"
+        if not plan.is_file():
+            return None
+        try:
+            return json.loads(plan.read_text(encoding="utf-8-sig"))
+        except (json.JSONDecodeError, OSError):
+            return None
+
+    def _refresh_chapters(self):
+        book = self.book_var.get().strip()
+        self._chapter_titles = []
+        data = self._book_plan(book) if book else None
+        if data:
+            for ch in data.get("chapters", []):
+                ref = ch.get("name")
+                title = (ch.get("chapter_title") or "").strip()
+                if ref is not None:
+                    self._chapter_titles.append((title, str(ref)))
+        self.chapter_combo["values"] = [t for t, _ in self._chapter_titles]
+        if self._chapter_titles:
+            self.chapter_var.set(self._chapter_titles[0][0])
+        else:
+            self.chapter_var.set("")
+        self._on_chapter_select()
+
+    def _on_chapter_select(self):
+        title = self.chapter_var.get().strip()
+        entry = next((e for e in self._chapter_titles if e[0] == title), None)
+        if entry:
+            data = self._book_plan(self.book_var.get().strip())
+            for ch in (data or {}).get("chapters", []):
+                if str(ch.get("name")) == entry[1]:
+                    self.title_var.set(ch.get("chapter_title") or "")
+                    self.summary_text.config(state="normal")
+                    self.summary_text.delete("1.0", "end")
+                    self.summary_text.insert("end", ch.get("chapter_summary") or "")
+                    # Keep it editable so the user can type a new summary.
+                    self.summary_text.config(state="normal")
+                    break
+
+    # -- actions ------------------------------------------------------------
+    def _update_chapter(self):
+        book = self.book_var.get().strip()
+        title = self.chapter_var.get().strip()
+        new_title = self.title_var.get().strip()
+        new_summary = self.summary_text.get("1.0", "end").strip()
+        if not book:
+            messagebox.showwarning("Missing book", "Select a book.", parent=self)
+            return
+        if not title:
+            messagebox.showwarning("Missing chapter", "Select a chapter.", parent=self)
+            return
+        if not new_title:
+            messagebox.showwarning("Missing title", "Enter a new chapter title.", parent=self)
+            return
+        if not new_summary:
+            messagebox.showwarning("Missing summary", "Enter a new summary.", parent=self)
+            return
+        if self._thread is not None and self._thread.is_alive():
+            messagebox.showinfo("Busy", "An operation is already running.", parent=self)
+            return
+
+        self._busy(True, "Updating and enriching chapter …")
+        self._thread = threading.Thread(
+            target=self._update_worker, args=(book, title, new_title, new_summary),
+            daemon=True,
+        )
+        self._thread.start()
+
+    def _update_worker(self, book, title, new_title, new_summary):
+        try:
+            write_mod = _load_write_module()
+            number = write_mod.update_chapter(book, title, new_title, new_summary)
+            self.after(0, self._update_done, number, None)
+        except Exception as e:  # noqa: BLE001
+            self.after(0, self._update_done, None, str(e))
+
+    def _update_done(self, number, err):
+        self._busy(False)
+        if err:
+            self.status_var.set(f"Update failed: {err}")
+            messagebox.showerror("Update failed", str(err), parent=self)
+            return
+        self.status_var.set(
+            f"Chapter {number} updated and enriched — you can now Write."
+        )
+        # Refresh the dropdown title and enable the Write button.
+        self._refresh_chapters()
+        self.write_btn.config(state="normal")
+        messagebox.showinfo(
+            "Chapter updated",
+            f"Chapter {number} updated and enriched. You can go ahead and write.",
+            parent=self,
+        )
+
+    def _write(self):
+        book = self.book_var.get().strip()
+        title = self.chapter_var.get().strip()
+        if not book or not title:
+            messagebox.showwarning("Missing selection", "Select a book and chapter.", parent=self)
+            return
+        if self._thread is not None and self._thread.is_alive():
+            messagebox.showinfo("Busy", "An operation is already running.", parent=self)
+            return
+
+        self._busy(True, "Writing poem …")
+        self._thread = threading.Thread(
+            target=self._write_worker, args=(book, title), daemon=True
+        )
+        self._thread.start()
+
+    def _write_worker(self, book, title):
+        try:
+            write_mod = _load_write_module()
+            output = write_mod.write_adhoc(book, title)
+            self.after(0, self._write_done, output, None)
+        except Exception as e:  # noqa: BLE001
+            self.after(0, self._write_done, None, str(e))
+
+    def _write_done(self, output, err):
+        self._busy(False)
+        self.out_text.config(state="normal")
+        self.out_text.delete("1.0", "end")
+        if err:
+            self.out_text.insert("end", f"[error] {err}\n")
+            self.status_var.set(f"Write failed: {err}")
+        else:
+            self.out_text.insert("end", output)
+            self.status_var.set("Poem written.")
+        self.out_text.config(state="disabled")
+
+    def _busy(self, busy, status=None):
+        state = "disabled" if busy else "normal"
+        self.update_btn.config(state=state)
+        self.write_btn.config(state=state)
+        if busy:
+            self.progress.start(12)
+            if status:
+                self.status_var.set(status)
+        else:
+            self.progress.stop()
+
+
 class FilePickerDialog(tk.Toplevel):
     """An Explorer-like file browser: a tree view of folders/files, a content
     pane, and edit/save for text files.
@@ -474,6 +749,8 @@ class WriterApp(tk.Tk):
         clear_bar.pack(fill="x", padx=4, pady=(4, 0))
         self.create_btn = ttk.Button(clear_bar, text="Create", command=self.create)
         self.create_btn.pack(side="left")
+        self.adhoc_btn = ttk.Button(clear_bar, text="Adhoc Write", command=self.adhoc_write)
+        self.adhoc_btn.pack(side="left", padx=(6, 0))
         self.browse_btn = ttk.Button(clear_bar, text="Browse", command=self.browse)
         self.browse_btn.pack(side="left", padx=(6, 0))
         self.close_btn = ttk.Button(clear_bar, text="Close", command=self.destroy)
@@ -617,6 +894,10 @@ class WriterApp(tk.Tk):
         args.append(form)
         self.book_var.set(name)
         self._launch([name, "init", *args], refresh_books=True)
+
+    def adhoc_write(self):
+        """Open the ad-hoc write dialog (pipeline book + chapter title + new gist)."""
+        AdhocWriteDialog(self)
 
     def browse(self):
         """Open the file-selection dialog rooted at the repository, and show the

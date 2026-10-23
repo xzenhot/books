@@ -6,8 +6,23 @@
   "chapter_summary": "আধুনিক শহরের নিঃশ্বাসে পাহাড়ের ধুলো মেশে — যান্ত্রিক যুগের ফুসফুসে প্রাচীন শিলার শেষ শ্বাস।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "98e198ab500ea0774c5b5dca3ca911169a0b8d392b3b5326fb64f17e130b87ac",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

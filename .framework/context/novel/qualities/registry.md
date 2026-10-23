@@ -51,7 +51,7 @@ The writer agent reads this registry to discover available qualities, then reads
 
 **Thematic Categories:** See [`../themes/generic.md`](../themes/generic.md) for the ten Stoic themes derived from this work.
 
-**Associated Index:** `bookseed.txt` (topics/terms in the target language)
+**Associated Index:** `book.json` `chapters[]` (topics/terms in the target language)
 
 ---
 

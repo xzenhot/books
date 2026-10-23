@@ -1,0 +1,49 @@
+{
+  "chapter_index": 44,
+  "name": "44",
+  "word_target": 500,
+  "chapter_title": "The Platform's Sleeping Traveller",
+  "chapter_summary": "A traveller sleeps on a folded cloth on a platform, and the poem attends to the small fragile rest taken in the middle of everyone's hurry.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing not on the traveller as a person, but on the precise topography of the cloth under their body—the creases forming maps of accumulated journeys.",
+      "Treating the platform itself as a stage where different rhythms collide: the slow, deep breath of sleep against the sharp, metallic rhythm of passing trains.",
+      "Framing the small object (e.g., a single worn sandal nearby) not as an accessory to the sleeper, but as its quiet guardian or anchor in transit."
+    ],
+    "story_options": [
+      "Setting: Beneath the skeletal overhang of the platform shed; desire: To capture the soundscape—the muffled chuffing of unseen engines beneath the deeper drone of localized conversation and vendor cries; obstacle: The constant, invisible tremor of the tracks that threatens the deep repose.",
+      "Setting: Near a cluster of utilitarian water taps at the edge of the waiting area; desire: To observe how the sleeper's shadow stretches and distorts across the damp concrete as ambient light shifts; obstacle: A small child attempting to interact with or disrupt the sleeping figure, a momentary spike of intrusion into stasis.",
+      "Setting: Just beyond the main boarding zone, where service vehicles pause momentarily; desire: To focus on the specific weight distribution—the folded cloth and its occupant resisting gravity against the unforgiving stone surface; obstacle: The arrival of an unbidden surge of morning/evening rush hour traffic."
+    ],
+    "subject_rotations": [
+      "Viewing the 'sleep' not as rest, but as a temporary act of radical refusal—a deliberate withdrawal from the relentless current of routine and movement.",
+      "Analyzing the folded cloth itself: its material (cotton, cheap blanket) speaking to economic necessity rather than choice, making fragility a marker of survival.",
+      "Interpreting the sleeper's stillness not as absence of activity, but as an intense form of internalized labor—the sheer effort required to maintain repose in such an exposed environment."
+    ],
+    "sensory_details": [
+      "Sound: The specific high-pitched whine of poorly maintained braking mechanisms echoing off the station walls.",
+      "Touch: The granular friction of dust stirred up by infrequent, heavier shoes passing too close to the sleeper's perimeter.",
+      "Sight: How the stark, bleached white of sun-bleached luggage contrasting sharply with the deep indigo of night shadows clinging underneath the figure."
+    ],
+    "research_questions": [
+      "What are the common types of fabric or material used for resting cloths by travellers in this specific environment?",
+      "How does local sonic pollution (e.g., horns, announcements) modulate the perception of 'silence' within a busy station setting?"
+    ],
+    "structural_variants": [
+      "A structure based on an escalating pattern of sounds: starting with near-silence, layering in localized noises, and climaxing with a sudden mechanical sound.",
+      "An associative sequence where every image encountered (a distant vendor, a passing train) triggers an immediate, sensory echo related to the sleeper's physical state."
+    ],
+    "unused_angles": [
+      "Examining the interaction between human repose and infrastructure decay—the sleeping form against cracked concrete or rusting metal.",
+      "Using olfactory memory: what specific smells are carried in the air that might be unconsciously processed by the sleeping figure (e.g., coal smoke, distant cooking oil)?",
+      "A highly stylized poem where the sleeper is described entirely through abstract concepts of pressure and duration."
+    ],
+    "variety_note": "Unlike previous meditations on objects at thresholds or in commerce, this chapter centers solely on stasis within high motion, using sound texture as its primary organizing principle."
+  }
+}

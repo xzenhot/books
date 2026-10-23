@@ -6,7 +6,7 @@
   "chapter_summary": "প্রাচীর ভেঙে গেলে থর মরুভূমির গ্রাস পূর্বের সবুজকে গিলে নেয় — এক পরিবেশগত ট্র্যাজেডি।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -46,5 +46,20 @@
       "line_gesture": "lines that turn upward toward union",
       "variety_note": "a song of thirst against the outcry"
     }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "27befdbceaddd910812ac4ca789a10c666ba6944e416051155f8f84bb8c1b6ae",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

@@ -55,7 +55,7 @@ def regenerate_style_md(bookname: str, book: dict) -> None:
     """Ensure style.md exists and is grounded in the current book context.
 
     Copies the template if missing, then rewrites from book.json,
-    bookseed.txt, and override.txt so its subject matter matches
+    progress.json, and override.txt so its subject matter matches
     the book's topics.
     """
     style_path = PIPELINE_ROOT / bookname / "style.md"
@@ -69,10 +69,20 @@ def regenerate_style_md(bookname: str, book: dict) -> None:
         return
 
     # Rewrite style.md grounded in current book context
-    bookseed_path = PIPELINE_ROOT / bookname / "bookseed.txt"
+    progress_path = PIPELINE_ROOT / bookname / "progress.json"
     override_path = PIPELINE_ROOT / bookname / "override.txt"
 
-    bookseed = bookseed_path.read_text(encoding="utf-8-sig") if bookseed_path.exists() else ""
+    topics: list[str] = []
+    if progress_path.exists():
+        try:
+            progress = json.loads(progress_path.read_text(encoding="utf-8-sig"))
+            topics = [
+                str(item.get("topic", "")).strip()
+                for item in progress.get("chapters", [])
+                if str(item.get("topic", "")).strip()
+            ]
+        except (OSError, ValueError, json.JSONDecodeError):
+            topics = []
     override = override_path.read_text(encoding="utf-8-sig") if override_path.exists() else ""
 
     lines = [
@@ -86,10 +96,8 @@ def regenerate_style_md(bookname: str, book: dict) -> None:
         "## Topics",
         "",
     ]
-    if bookseed:
-        for topic in bookseed.strip().splitlines():
-            if topic.strip():
-                lines.append(f"- {topic.strip()}")
+    for topic in topics:
+        lines.append(f"- {topic}")
     lines.extend([
         "",
         "## Human Override",

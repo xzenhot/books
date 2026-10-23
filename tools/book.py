@@ -1490,7 +1490,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     then creates all required pipeline folders and placeholder files.
 
     The pipeline structure created:
-        book.json, bookseed.txt, characters.json, override.txt
+        book.json, characters.json, override.txt
         filters/filters.json (registry only — no per-filter folders)
         chapters/<name>/model.json, chapter.md, history/
         chapters/<name>/segments/1/{segment.json, writer/, editor/, translator/, version/}
@@ -1533,7 +1533,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
 
     # --- Clone the complete v1 template tree into the pipeline root. ---
     # The pipeline starts as a verbatim copy of the backlog v1 template
-    # (book.json, book.min.json, bookseed.txt, gist.md, gist copy.md,
+    # (book.json, book.min.json, gist.md, gist copy.md,
     # override.txt, progress.json, storyline.md, and the layout/ form-tool
     # templates), then scaffold customizes it below. The layout/ folder it
     # clones holds the form tool templates (write-novel, write-poetry,
@@ -1556,10 +1556,6 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     # --- Root pipeline files ---
     (pipeline / "book.json").write_text(
         json.dumps(plan, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-    (pipeline / "bookseed.txt").write_text(
-        "\n".join(str(ch["chapter_title"]) for ch in chapters) + "\n",
         encoding="utf-8",
     )
     (pipeline / "characters.json").write_text(

@@ -1,0 +1,110 @@
+{
+  "chapter_index": 2,
+  "name": "2",
+  "word_target": 500,
+  "chapter_title": "আদি যুগের নিঃশ্বাস",
+  "chapter_summary": "প্রোটেরোজোয়িক যুগের গভীরে জন্ম নেওয়া পৃথিবীর অন্যতম প্রাচীন শিলা। সময়ের শ্বাস যে পাথরে জমে থাকে।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Schist metamorphism and mineral lattice deformation",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Geothermal fluid dynamics in early crustal accretion",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rilke",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "microscopic lattice adjustments breathing inside a schist block",
+      "volta": "the breath that is not expansion but a thousand quiet yieldings",
+      "sonic_texture": "sibilance and a slow, oceanic pulse",
+      "line_gesture": "long enjambed lines that exhale into a short close",
+      "variety_note": "a nearly weightless poem of respiration where chapter 1 was rupture."
+    },
+    "angles": [
+      "Framing the geological 'breath' not as a massive expansion/contraction, but as thousands of microscopic mineral lattice adjustments in response to internal strain.",
+      "Shifting the focus from pure tectonic force to the influence of early biological precursors—the first slow metabolism within hydrothermal vents interacting with nascent rock structures.",
+      "Employing an architectural metaphor: viewing the early crust formation as a catastrophic structural failure or imperfect scaffolding that precedes final form."
+    ],
+    "story_options": [
+      "Setting: A deeply fractured vein of primitive schist. Desire: To stabilize one microscopic crystal structure against overwhelming shear force. Obstacle: The relentless, slow pressure differential pushing neighboring grains apart. Turn: The formation of an impossible internal symmetry.",
+      "Setting: A high-pressure geothermal vent pocket beneath the emerging crust. Desire: For a temporary reprieve from compression. Obstacle: Supercritical fluid cycling through microfissures at unsustainable temperatures. Turn: An ephemeral moment where chemical reaction momentarily mimics biological life.",
+      "Setting: The boundary layer between molten mantle and cool, nascent lithosphere. Desire: To achieve perfect equilibrium before crystallization. Obstacle: Impurities (unrecognized elements) disrupting the crystalline lattice pattern. Turn: A brief, resonant 'sigh' that ripples through the entire forming mass."
+    ],
+    "subject_rotations": [
+      "Treating the rock's accumulation not as slow growth but as rapid accretion driven by supercritical fluid dynamics.",
+      "Focusing on the specific failure modes of early mineral bonds (e.g., cleavage planes, fault lines) as analogous to emotional breaking points in memory.",
+      "Inverting the focus: instead of how the mountain forms, explore what *prevents* its formation at certain critical junctures."
+    ],
+    "sensory_details": [
+      "Tactile: The sensation of pervasive, non-directional internal grinding—a pressure felt uniformly across all surfaces.",
+      "Aural: A subsonic 'thrumming' that vibrates the interior structure without producing discernable air movement.",
+      "Visual (Internal): Observing mineral growth patterns like self-propagating, chaotic calligraphy under immense darkness."
+    ],
+    "research_questions": [
+      "What is the role of early fluid circulation in dictating regional metamorphic grade during initial crust formation?",
+      "Can models differentiate between deformation driven purely by thermal gradients versus those involving nascent chemical reactions?"
+    ],
+    "structural_variants": [
+      "A poem structured around an escalating series of increasingly complex, self-contradictory physical states (e.g., simultaneously viscous and brittle).",
+      "Using a tightly constrained form where line breaks represent seismic wave propagation paths through the forming strata."
+    ],
+    "unused_angles": [
+      "The specific role of water content—where is it sourced, and how does its movement influence structure during this early phase?",
+      "Examining the geological equivalent of 'memory' in terms of preserved trace elements or isotopic signatures.",
+      "A narrative voice that alternates between deep-time cosmological perspective and intensely microscopic material observation."
+    ],
+    "variety_note": "This chapter moves away from external collision (Chapter 4) to explore internal, molecular mechanics—the slow, pressurized life occurring *within* the initial rock mass itself."
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "0f1b5b05e78b4024d8b0a64c52d468a33a4056c048b26329b8918eb622b22131",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

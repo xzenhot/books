@@ -944,9 +944,9 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     index = chapter.get("chapter_index")
     if not isinstance(index, int):
         raise ValueError("Chapter model needs an integer chapter_index")
-    creative = chapter.get("creative_enrichment")
-    if creative is not None and not isinstance(creative, dict):
-        raise ValueError("Existing creative_enrichment must be an object or null")
+    # Recreate the creative_enrichment tag fresh on every enrich run — never
+    # carry older enrichment context forward into the merged chapter.json.
+    chapter.pop("creative_enrichment", None)
 
     run_seed = secrets.randbelow(2**31) if seed is None else seed
     chapter_seed = (run_seed * 1_000_003 + index) % (2**31)

@@ -6,7 +6,7 @@
   "chapter_summary": "যে পাহাড় শুধু পাথর নয়, তার ধমনীতে জমে থাকা মূল্যবান আকরিকই তার খোদাই করা বুকের কারণ।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -74,5 +74,20 @@
   "stereotype": {
     "signature": "rumi",
     "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "308a27d4eda14a8911e9048dafa0e5dc52a7cbd31a41d8e9540b330a53d16ad1",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

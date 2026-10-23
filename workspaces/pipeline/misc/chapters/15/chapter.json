@@ -1,0 +1,54 @@
+{
+  "chapter_index": 15,
+  "name": "15",
+  "word_target": 500,
+  "chapter_title": "The Vendor's Call",
+  "chapter_summary": "A street vendor calls out his wares in a rising voice, and the poem listens to the chant that prices, pleads, and sings all at once.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Vocal dynamics in dense urban environments",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the call not as a series of discrete items for sale, but as a single, complex sonic entity—a unified hum that is simultaneously commerce and lament.",
+      "Focusing on how different ears perceive the same cry: one hears the price, another hears a plea to hunger, and a third hears only rhythmic pattern.",
+      "Framing the vendor's call as a temporary linguistic structure imposed upon the chaotic background noise of the street (a competing counter-rhythm)."
+    ],
+    "story_options": [
+      "setting: A narrow bazaar alley at noon, desire: The speaker wants to catch one specific word or phrase in the call that seems utterly out of place, like an accidental whisper., obstacle: The sheer volume and overlapping nature of other vendor calls drowns it out completely., turn: The near-miss causes a sudden, profound quiet where only residual sound vibrations remain.",
+      "setting: Near the edge of a residential lane in early afternoon, desire: To map the precise physical territory covered by the vendor's movement while calling., obstacle: The path is constantly interrupted by pedestrians, small animals, or passing traffic., turn: A child, captivated by the sound, stops to mimic a fragment of the call perfectly.",
+      "setting: Against the backdrop of an older brick wall showing signs of weathering, desire: To assign material permanence to the ephemeral sound; perhaps comparing the volume's force to the physical erosion of the building., obstacle: The call is inherently fleeting, always moving forward into the next breath., turn: A moment where the vendor pauses mid-call, his voice suddenly low and conversational for a beat before resuming the chant."
+    ],
+    "subject_rotations": [
+      "Focusing on the *physics* of the sound: how the call bounces off varied surfaces (stone, cloth awnings, bodies) in an acoustic echo chamber.",
+      "Treating the cadence of the call as a micro-history—each repetition referencing older transactional patterns or forgotten markets.",
+      "Viewing the vendor's voice as a temporary conduit for collective social need, not merely personal profit."
+    ],
+    "sensory_details": [
+      "The sticky warmth rising from spilled sweet syrup that coats the curb near the vendor's stall.",
+      "The abrasive texture of coarse burlap bags stacked high behind the seller.",
+      "The specific metallic resonance when the call vibrates against a loose iron railing."
+    ],
+    "research_questions": [
+      "What are local variations in pricing cries or market jargon used for common goods that could ground this scene? (Must be highly localized terminology.)",
+      "How do street vendors use vocal projection to navigate sound occlusion caused by heavy foot traffic and vehicle noise in contemporary Indian cities?"
+    ],
+    "structural_variants": [
+      "A call-and-response structure, where the poem uses stanzas that imitate the vendor's repetition against internal, quieter responses.",
+      "An associative spiral: starting with a product, moving to its source/labor (e.g., spices), and returning to the sound of the cry itself."
+    ],
+    "unused_angles": [
+      "A study on competitive vocalization—how one vendor's call actively challenges or undermines another's presence in the auditory landscape.",
+      "The spectral quality of the voice: when does the human effort transform into something almost animalistic in its urgency?"
+    ],
+    "variety_note": "Unlike previous poems focusing on static objects, this piece must capture pure, dynamic motion and sound, using silence as a sharp interruption to the continuous flow."
+  }
+}

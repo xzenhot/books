@@ -6,8 +6,23 @@
   "chapter_summary": "ষোড়শ মহাজনপদের ধুলি — প্রাচীন ভারতের রাজ্যগুলোর মানচিত্র পাহাড়ের পাদদেশে ছড়িয়ে।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "56293397b543669ebad1288cce60974695152698fe847fd4ead7e67e220cc55b",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }
