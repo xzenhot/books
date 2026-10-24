@@ -35,6 +35,8 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+import notify
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 # The active form's template folder, resolved per book from the pipeline's own
 # layout/ folder. The shared .framework/templates/backlog tree is no longer used.
@@ -1009,6 +1011,15 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     record["written"] = True
     print(f"[{index}] {title} — enriched.")
     vlog(f"variety_note: {patch.get('creative_enrichment', {}).get('variety_note', '')}")
+
+    # Publish a decoupled notification (in-process + durable transport).
+    notify.emit(
+        notify.CHAPTER_ENRICHED,
+        model_file.parent.parents[1].name,
+        index,
+        title=title,
+        message=f"Chapter {index} enriched.",
+    )
     return record
 
 

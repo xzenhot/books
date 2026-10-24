@@ -20,6 +20,7 @@ Usage:
 
 import argparse
 import json
+import queue
 import subprocess
 import sys
 import threading
@@ -30,6 +31,12 @@ from tkinter import messagebox, simpledialog, ttk
 REPO_ROOT = Path(__file__).resolve().parent
 BOOK_SCRIPT = REPO_ROOT / "tools" / "book.py"
 PYTHON = sys.executable
+
+# Make tools/ importable so app.py can subscribe to the decoupled logger.
+_tools_dir = str(REPO_ROOT / "tools")
+if _tools_dir not in sys.path:
+    sys.path.insert(0, _tools_dir)
+import notify  # noqa: E402
 
 # The verbs the engine (tools/book.py) actually dispatches.
 # `init` and `backlog` are exposed via the dedicated "Create" button instead of
@@ -681,9 +688,12 @@ class WriterApp(tk.Tk):
         self.title("Writer — /book Desktop")
         self.geometry("880x640")
         self._proc = None
+        self._tail_stop = None
 
         self._build_ui()
+        self._wire_notifications()
         self._refresh_books()
+        self.protocol("WM_DELETE_WINDOW", self._on_close)
 
     # -- UI construction ---------------------------------------------------
     def _build_ui(self):
@@ -731,9 +741,20 @@ class WriterApp(tk.Tk):
             anchor="w", **pad
         )
 
+        # A top-level notebook: the main workbench plus a Notifications tab.
+        self.notebook = ttk.Notebook(self)
+        self.notebook.pack(fill="both", expand=True, **pad)
+
+        # Workbench tab: a frame (child of the notebook) holding the split.
+        workbench = ttk.Frame(self.notebook)
+        self.notebook.add(workbench, text="Workbench")
+
         # Books list + console split.
-        pane = ttk.PanedWindow(self, orient="horizontal")
+        pane = ttk.PanedWindow(workbench, orient="horizontal")
         pane.pack(fill="both", expand=True, **pad)
+
+        self._build_notifications_tab()
+        self.notebook.add(self._notif_frame, text="Notifications")
 
         books_frame = ttk.LabelFrame(pane, text="Books")
         pane.add(books_frame, weight=1)
@@ -776,6 +797,137 @@ class WriterApp(tk.Tk):
         self.status_label.pack(fill="x", **pad)
 
     # -- Helpers ------------------------------------------------------------
+    def _build_notifications_tab(self):
+        """Build the Notifications tab: a list of events plus a clear button."""
+        self._notif_frame = ttk.Frame(self.notebook)
+
+        bar = ttk.Frame(self._notif_frame)
+        bar.pack(fill="x", padx=6, pady=(6, 0))
+        ttk.Label(bar, text="Notifications", font=("TkDefaultFont", 10, "bold")).pack(side="left")
+        ttk.Button(bar, text="Clear", command=self._clear_notifications).pack(side="right")
+
+        # Treeview: timestamp | kind | book | chapter | title
+        self.notif_tree = ttk.Treeview(
+            self._notif_frame,
+            columns=("ts", "kind", "book", "chapter", "title"),
+            show="headings",
+        )
+        for col, text, width in (
+            ("ts", "Time", 150),
+            ("kind", "Event", 130),
+            ("book", "Book", 90),
+            ("chapter", "Ch.", 60),
+            ("title", "Title", 320),
+        ):
+            self.notif_tree.heading(col, text=text)
+            self.notif_tree.column(col, width=width, anchor="w")
+        scroll = ttk.Scrollbar(self._notif_frame, orient="vertical",
+                               command=self.notif_tree.yview)
+        self.notif_tree.configure(yscrollcommand=scroll.set)
+        self.notif_tree.pack(side="left", fill="both", expand=True, padx=(6, 0), pady=6)
+        scroll.pack(side="right", fill="y", pady=6)
+
+    def _wire_notifications(self):
+        """Subscribe to the logger and start the async transport tail.
+
+        Three pieces cooperate, all thread-safe:
+
+          1. ``notify.subscribe`` — fires when a producer runs in THIS process
+             (e.g. the Adhoc Write dialog, which imports write.py directly).
+          2. A background thread tails ``notify.LOG_PATH`` — catches events
+             raised by the ``tools/book.py`` subprocess launched from Run.
+          3. Both paths push into a ``queue.Queue``; a main-thread poller
+             (``self.after``) drains it onto the Tk tree. Tkinter is not
+             thread-safe, so no widget is touched off the main thread.
+        """
+        self._seen_notif_keys = set()
+        self._notif_queue = queue.Queue()
+
+        # Replay anything already persisted.
+        for event in notify.read_log():
+            self._enqueue_notification(event)
+
+        notify.subscribe(self._enqueue_notification)
+
+        self._tail_stop = threading.Event()
+        self._tail_thread = threading.Thread(
+            target=self._tail_notifications, args=(self._tail_stop,), daemon=True
+        )
+        self._tail_thread.start()
+
+        # Main-thread drain: schedules itself every 300 ms.
+        self.after(300, self._drain_notifications)
+
+    def _enqueue_notification(self, event):
+        """Thread-safe ingress point for both producer paths."""
+        self._notif_queue.put(event)
+
+    def _drain_notifications(self):
+        """Run on the main thread; move queued events into the tree."""
+        try:
+            while True:
+                event = self._notif_queue.get_nowait()
+                self._add_notification(event)
+        except queue.Empty:
+            pass
+        self.after(300, self._drain_notifications)
+
+    def _on_notify_event(self, event):
+        # Kept for API compatibility; enqueue is the real path.
+        self._enqueue_notification(event)
+
+    def _tail_notifications(self, stop_event):
+        """Poll the durable log for new events (cross-process transport).
+
+        Runs on a background thread; only pushes onto the thread-safe queue —
+        never touches Tk widgets directly.
+        """
+        path = notify.LOG_PATH
+        offset = path.stat().st_size if path.is_file() else 0
+        while not stop_event.is_set():
+            if path.is_file():
+                size = path.stat().st_size
+                if size < offset:  # log was truncated/cleared
+                    offset = 0
+                if size > offset:
+                    with path.open("r", encoding="utf-8") as handle:
+                        handle.seek(offset)
+                        for line in handle:
+                            line = line.strip()
+                            if not line:
+                                continue
+                            try:
+                                event = notify.Event.from_dict(json.loads(line))
+                            except (json.JSONDecodeError, TypeError):
+                                continue
+                            self._enqueue_notification(event)
+                    offset = size
+            stop_event.wait(0.5)
+
+    def _add_notification(self, event):
+        # Main thread only.
+        key = (event.ts, event.kind, event.bookname, event.chapter, event.title)
+        if key in self._seen_notif_keys:
+            return
+        self._seen_notif_keys.add(key)
+        # Trim display timestamp to a friendly local form.
+        ts = event.ts
+        try:
+            from datetime import datetime
+            dt = datetime.fromisoformat(ts)
+            ts = dt.strftime("%Y-%m-%d %H:%M:%S")
+        except (ValueError, TypeError):
+            pass
+        self.notif_tree.insert(
+            "", "end",
+            values=(ts, event.kind, event.bookname, event.chapter, event.title),
+        )
+        self.notif_tree.see(self.notif_tree.get_children()[-1])
+
+    def _clear_notifications(self):
+        self.notif_tree.delete(*self.notif_tree.get_children())
+        self._seen_notif_keys.clear()
+
     def _refresh_books(self):
         self._books = scan_books()
         self.books_tree.delete(*self.books_tree.get_children())
@@ -989,6 +1141,12 @@ class WriterApp(tk.Tk):
         self.console.config(state="normal")
         self.console.delete("1.0", "end")
         self.console.config(state="disabled")
+
+    def _on_close(self):
+        """Stop the notification tail thread, then close the window."""
+        if self._tail_stop is not None:
+            self._tail_stop.set()
+        self.destroy()
 
 
 def main(argv=None):

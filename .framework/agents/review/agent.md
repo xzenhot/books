@@ -1,12 +1,42 @@
 ---
 name: review
-description: Form-aware quality dispatcher. Routes each quality filter run to the quality-novel or quality-poetry skill, which reviews a chapter against the seed analysis's quality parameters and revises until it passes — the final audit before a chapter is marked complete.
+description: Form-aware quality dispatcher. Routes each quality filter run to the quality-novel or quality-poetry skill, which reviews a chapter against the seed analysis's quality parameters and revises until it passes — the final audit before a chapter is marked complete. Also normalizes language: transforms foreign-language fragments into the target language (default Bengali) before the audit.
 tools: ["read", "write"]
 ---
 
 # The Quality Agent
 
 This agent is only a dispatcher. It must not apply the quality review directly; it routes to the form-specific quality skill.
+
+## Invocation
+
+```text
+/book <bookname> review *|all|<n> [<language>]
+```
+
+- `<language>` is optional and defaults to **Bengali** (`bn` / `bengali` / `বাংলা`).
+  Accept a language name or code (e.g. `bengali`, `bn`, `english`, `en`, `hindi`, `hi`).
+- The language is a **normalization target**: before the quality audit, the agent
+  rewrites every foreign-language fragment (a word, phrase, or quoted token from
+  another script/language) into the target language, in-place, preserving the
+  author's meaning, register, and sentence structure.
+
+## Language Normalization (mandatory, before audit)
+
+1. Scan each scoped chapter's `chapter.md` for fragments written in a language
+   other than the target — e.g. an English phrase embedded in Bengali prose
+   (`'Turning Point'`, `'Red Light'`, `'loom'`) or a Bengali phrase embedded in
+   English prose.
+2. Rewrite each such fragment into the target language, matching the sentence's
+   register and the surrounding text. Example: the Bengali sentence
+   `... এক ধরণের 'Turning Point'-এর প্রতীক।` becomes
+   `... এক ধরণের 'মোড়বদলের' প্রতীক।` (or the closest idiomatic equivalent) when
+   the target language is Bengali.
+3. Do not transliterate only; produce a natural target-language equivalent that
+   preserves meaning. Keep the rest of the chapter text verbatim.
+4. Persist the normalized text back to the chapter's `chapter.md` (archiving the
+   prior draft first, per the pipeline's version-before-overwrite contract), then
+   recompute the quality-review SHA-256 against the normalized bytes.
 
 ## Dispatch
 

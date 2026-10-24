@@ -15,7 +15,10 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import sys
+import urllib.error
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -27,6 +30,16 @@ BASE_DIR = Path(__file__).resolve().parent
 REPO_ROOT = BASE_DIR.parent
 PIPELINE_ROOT = REPO_ROOT / "workspaces" / "pipeline"
 FILTERS_DIR = REPO_ROOT / ".framework" / "context" / "poetry"
+
+OLLAMA_CHAT_URL = "http://127.0.0.1:11434/api/chat"
+TIMEOUT = 900
+DEFAULT_LANGUAGE = "bengali"
+
+# Script ranges used to detect foreign-language fragments relative to a
+# Bengali-dominant text. A "foreign fragment" is a run of characters outside
+# the Bengali script that is still word-like (Latin letters, digits, etc.).
+BENGALI_RE = re.compile(r"[\u0980-\u09ff]")
+LATIN_RE = re.compile(r"[A-Za-z][A-Za-z'\- ]*[A-Za-z]")
 
 # Quality parameters for poetry (from quality-poetry SKILL.md)
 QUALITY_PARAMS = [
@@ -141,20 +154,28 @@ def compute_sha256(chapter_md: Path) -> str:
     return hashlib.sha256(chapter_md.read_bytes()).hexdigest()
 
 
-def parse_chapter_input(target: str, chapters_root: Path) -> list[int]:
-    """Resolve a chapter target spec to a list of chapter numbers.
+def parse_chapter_input(target: str, chapters_root: Path) -> list[str]:
+    """Resolve a chapter target spec to an ordered list of chapter folder names.
 
-    - '*' or 'all' → every canonical chapter
-    - 'continue' → first chapter that is written but not yet completed
-    - '<n>' → single chapter number
-    - '<start>-<end>' → range inclusive
+    - '*' or 'all' → every canonical chapter, in novel order
+      (`Introduction`, `1..N`, `Conclusion`) or poetry order (`1..N`).
+    - 'continue' → first chapter that is written but not yet completed.
+    - '<n>' → single chapter number.
+    - '<start>-<end>' → inclusive numeric range.
     """
     if target in ("*", "all"):
-        numbers = []
+        names = []
         for d in sorted(chapters_root.glob("*"), key=lambda p: p.name):
             if d.is_dir() and d.name.isdigit():
-                numbers.append(int(d.name))
-        return sorted(numbers)
+                names.append(d.name)
+        # For novels, prepend/append the named Introduction and Conclusion.
+        ordered: list[str] = []
+        if (chapters_root / "Introduction").is_dir():
+            ordered.append("Introduction")
+        ordered.extend(names)
+        if (chapters_root / "Conclusion").is_dir():
+            ordered.append("Conclusion")
+        return ordered
 
     if target == "continue":
         return _find_continue(chapters_root)
@@ -162,15 +183,16 @@ def parse_chapter_input(target: str, chapters_root: Path) -> list[int]:
     if "-" in target:
         start_s, end_s = target.split("-", 1)
         start, end = int(start_s), int(end_s)
-        return list(range(start, end + 1))
+        return [str(n) for n in range(start, end + 1)]
 
-    return [int(target)]
+    return [str(int(target))]
 
 
-def _find_continue(chapters_root: Path) -> list[int]:
+def _find_continue(chapters_root: Path) -> list[str]:
     """Find the first chapter that is written but has no passed quality_review."""
-    for d in sorted(chapters_root.glob("*"), key=lambda p: p.name):
-        if not d.is_dir() or not d.name.isdigit():
+    for name in parse_chapter_input("all", chapters_root):
+        d = chapters_root / name
+        if not d.is_dir():
             continue
         model = load_chapter_model(d)
         if not model:
@@ -178,7 +200,7 @@ def _find_continue(chapters_root: Path) -> list[int]:
         state = model.get("state", "")
         qr = model.get("quality_review")
         if state == "written" and (not qr or qr.get("status") != "passed"):
-            return [int(d.name)]
+            return [name]
     return []
 
 
@@ -239,6 +261,134 @@ def read_filter_instructions(filter_md: Path) -> str:
     return ""
 
 
+# ---------------------------------------------------------------------------
+# Language normalization (foreign fragment → target language)
+# ---------------------------------------------------------------------------
+
+def resolve_language(language: str | None) -> str:
+    """Normalize a language name/code to a display name; default Bengali."""
+    if not language:
+        return DEFAULT_LANGUAGE
+    key = language.strip().lower()
+    mapping = {
+        "bn": "bengali", "bengali": "bengali", "bangla": "bengali", "বাংলা": "bengali",
+        "en": "english", "english": "english", "eng": "english",
+        "hi": "hindi", "hindi": "hindi",
+        "es": "spanish", "spanish": "spanish",
+        "fr": "french", "french": "french",
+    }
+    return mapping.get(key, language.strip())
+
+
+def find_foreign_fragments(text: str) -> list[str]:
+    """Return foreign-language (non-target) fragments embedded in the text.
+
+    For a Bengali target, this finds Latin-word runs (e.g. ``'Turning Point'``)
+    that are not part of the Bengali script. The heuristic also catches quoted
+    tokens regardless of surrounding punctuation.
+    """
+    fragments: list[str] = []
+    # Latin word runs (with internal spaces/hyphens), e.g. "Turning Point".
+    for match in LATIN_RE.finditer(text):
+        token = match.group(0).strip()
+        if token and token not in fragments:
+            fragments.append(token)
+    return fragments
+
+
+def _ollama_translate(fragments: list[str], language: str, model: str) -> dict[str, str]:
+    """Ask Ollama to translate a batch of foreign fragments into *language*.
+
+    Returns a mapping ``{original: translation}``. If Ollama is unavailable or
+    returns nothing usable, returns an empty mapping (caller keeps originals).
+    """
+    if not fragments:
+        return {}
+    listing = "\n".join(f"- {f}" for f in fragments)
+    system = (
+        f"You are a precise literary translator. Translate each given "
+        f"foreign-language fragment into {language}, producing the most "
+        f"idiomatic equivalent that preserves meaning and register. Return "
+        f"strict JSON: an object mapping each original fragment to its "
+        f"translation, with no extra keys, commentary, or text."
+    )
+    prompt = (
+        f"Translate each fragment below into {language}. "
+        f"Output only a JSON object mapping original -> translation.\n\n{listing}"
+    )
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": prompt},
+        ],
+        "stream": False,
+        "think": False,
+        "format": "json",
+        "options": {"temperature": 0.3},
+    }
+    req = urllib.request.Request(
+        OLLAMA_CHAT_URL,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError):
+        return {}
+    content = (data.get("message") or {}).get("content", "")
+    if not content:
+        content = data.get("response", "")
+    try:
+        parsed = json.loads(content)
+    except (json.JSONDecodeError, TypeError):
+        return {}
+    if not isinstance(parsed, dict):
+        return {}
+    return {str(k): str(v) for k, v in parsed.items() if str(v).strip()}
+
+
+def normalize_language(chapter_md_path: Path, language: str, model: str) -> int:
+    """Rewrite foreign-language fragments in a chapter into *language*.
+
+    Reads the chapter, finds foreign fragments, translates them via Ollama,
+    substitutes in-place (archiving the prior draft first), and returns the
+    number of fragments replaced. Returns 0 when there is nothing to do or the
+    translation step yields nothing usable.
+    """
+    text = chapter_md_path.read_text(encoding="utf-8-sig")
+    fragments = find_foreign_fragments(text)
+    if not fragments:
+        return 0
+
+    mapping = _ollama_translate(fragments, language, model)
+    if not mapping:
+        return 0
+
+    replaced = 0
+    new_text = text
+    for original, translated in mapping.items():
+        if original and translated and original != translated and original in new_text:
+            new_text = new_text.replace(original, translated)
+            replaced += 1
+
+    if replaced:
+        # Archive prior draft before overwriting.
+        version_dir = chapter_md_path.parent / "segments" / "1" / "version"
+        try:
+            version_dir.mkdir(parents=True, exist_ok=True)
+            existing = [int(m.group(1)) for p in version_dir.iterdir()
+                        if (m := re.fullmatch(r"chapter_v([0-9]+)\.md", p.name))]
+            version = max(existing, default=0) + 1
+            (version_dir / f"chapter_v{version}.md").write_bytes(chapter_md_path.read_bytes())
+        except OSError:
+            pass
+        chapter_md_path.write_text(new_text, encoding="utf-8")
+
+    return replaced
+
+
 def audit_chapter(chapter_model: dict, chapter_md_path: Path) -> dict:
     """Audit a chapter against the seed analysis's quality parameters.
 
@@ -271,10 +421,15 @@ def audit_chapter(chapter_model: dict, chapter_md_path: Path) -> dict:
     }
 
 
-def run_review(bookname: str, target: str) -> None:
-    """Execute the quality review for the given chapter scope."""
+def run_review(bookname: str, target: str, language: str | None = None) -> None:
+    """Execute the quality review for the given chapter scope.
+
+    *language* (optional) is the normalization target; defaults to Bengali.
+    Foreign-language fragments are rewritten into it before the audit.
+    """
     bookname = validate_bookname(bookname)
     chapters_root = resolve_chapters_root(bookname)
+    language = resolve_language(language)
 
     if not chapters_root.exists():
         raise FileNotFoundError(
@@ -285,16 +440,17 @@ def run_review(bookname: str, target: str) -> None:
     # Load book model
     book = load_book_model(bookname)
     form = book.get("form", "poetry")
-    print(f"Reviewing {bookname} (form: {form})")
+    ollama_model = (book.get("model") or "").strip() or "gemma4:latest"
+    print(f"Reviewing {bookname} (form: {form}, language: {language})")
 
     # Resolve target chapters
-    numbers = parse_chapter_input(target, chapters_root)
-    print(f"Target chapters: {numbers[0]}–{numbers[-1]} ({len(numbers)} chapters)")
+    names = parse_chapter_input(target, chapters_root)
+    print(f"Target chapters: {names[0]}–{names[-1]} ({len(names)} chapters)")
 
     # Load all chapter models for the context summary
     all_chapter_models = []
-    for num in numbers:
-        chapter_dir = chapters_root / str(num)
+    for name in names:
+        chapter_dir = chapters_root / name
         model = load_chapter_model(chapter_dir)
         if model:
             all_chapter_models.append(model)
@@ -322,20 +478,28 @@ def run_review(bookname: str, target: str) -> None:
     failed = 0
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
-    for num in numbers:
-        chapter_dir = chapters_root / str(num)
+    for name in names:
+        chapter_dir = chapters_root / name
         chapter_md_path = chapter_dir / "chapter.md"
         model = load_chapter_model(chapter_dir)
 
         if not model:
-            print(f"  [{num}] SKIP: no model found")
+            print(f"  [{name}] SKIP: no model found")
             failed += 1
             continue
 
         if not chapter_md_path.exists():
-            print(f"  [{num}] SKIP: no chapter.md")
+            print(f"  [{name}] SKIP: no chapter.md")
             failed += 1
             continue
+
+        # --- Language normalization (foreign fragments → target language) ---
+        try:
+            replaced = normalize_language(chapter_md_path, language, ollama_model)
+            if replaced:
+                print(f"  [{name}] normalized {replaced} foreign fragment(s) → {language}")
+        except OSError as exc:
+            print(f"  [{name}] WARNING: normalization skipped: {exc}", file=sys.stderr)
 
         # Perform the audit
         review_result = audit_chapter(model, chapter_md_path)
@@ -356,13 +520,13 @@ def run_review(bookname: str, target: str) -> None:
         )
 
     print(f"\nReview complete. {passed} passed, {failed} failed.")
-    print(f"Quality review recorded for chapters {numbers[0]}–{numbers[-1]}.")
+    print(f"Quality review recorded for chapters {names[0]}–{names[-1]}.")
 
     # --- Step 4: Summary ---
     print(f"\n--- Review Summary ---")
     print(f"Form: {form}")
     print(f"Scope: {target}")
-    print(f"Chapters reviewed: {len(numbers)}")
+    print(f"Chapters reviewed: {len(names)}")
     print(f"Passed: {passed}")
     print(f"Failed/Revised: {failed}")
     print(f"filter.md: {filter_md_path}")

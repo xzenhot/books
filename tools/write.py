@@ -27,6 +27,7 @@ import urllib.request
 from pathlib import Path
 from quality import (register_draft, read_json, digest, read_chapter_model,
                      chapter_model_file, write_chapter_model, write_json)
+import notify
 
 BASE_DIR = Path(__file__).resolve().parent
 # Repo root is one level above tools/
@@ -1093,6 +1094,17 @@ def _finish_chapter(chapter_dir: Path, out_file: Path, output: str, previous: by
     
     info(f"[{number}] Saved -> {out_file} "
          f"({len(output)} chars in {elapsed:.2f}s)")
+
+    # Publish a decoupled notification (in-process + durable transport).
+    bookname = chapter_dir.parents[1].name
+    title = chapter_model.get("chapter_title") or chapter_model.get("name") or str(number)
+    notify.emit(
+        notify.CHAPTER_WRITTEN,
+        bookname,
+        number,
+        title=title,
+        message=f"Chapter {number} written ({len(output)} chars).",
+    )
 
 
 def main() -> int:

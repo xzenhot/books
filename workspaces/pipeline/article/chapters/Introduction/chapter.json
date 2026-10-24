@@ -1,0 +1,28 @@
+{
+  "chapter_index": 0,
+  "name": "Introduction",
+  "word_target": 5500,
+  "chapter_title": "দিল্লির ভোর, এক ভাঁজ করা খবরের কাগজ",
+  "chapter_summary": "শহর জাগে তার স্বাভাবিক কোলাহলে। সূর্য ওঠার আগে ময়ূর বিহার, সিআর পার্ক ও রোহিণীর কলোনিতে খবরের কাগজ লোহার গেটের উপর ছুড়ে দেওয়া হয়। এই অধ্যায়ে 'article' শব্দের দ্বৈত অর্থ—লেখা ও দ্রব্য—প্রতিষ্ঠিত হয়, এবং অরুণিমার প্রথম উপস্থিতি ঘটে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "32f71302fae3c9aa43b85cc125e1697775e3d604d4ae55aad9f409cb0b6a9979",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-24T03:33:33+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

@@ -86,6 +86,7 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -1896,6 +1897,43 @@ def cleanup_workflow(bookname: str, target: str) -> None:
           f"{len(numbers) - cleared} skipped.")
 
 
+def _review_target_and_language(args: argparse.Namespace) -> tuple[str, str | None]:
+    """Split the review command into a chapter scope and an optional language.
+
+    ``/book <book> review all bengali`` → ``("all", "bengali")``. The chapter
+    scope is the first slot that looks like a target (``all``, ``*``, a number,
+    or a range ``N-M``); any other non-reserved token is the language. Defaults
+    to ``("all", None)`` — the engine then defaults the language to Bengali.
+    """
+    slots = [args.objective, args.option, args.range, *args.extra]
+    reserved = {"gist", "epic", "count", "chapter-count", "poetry", "novel",
+                "offline", "online"}
+
+    def _is_target(value: str) -> bool:
+        v = value.strip()
+        if v in {"all", "*"}:
+            return True
+        if v.isdigit():
+            return True
+        if re.fullmatch(r"[0-9]+-[0-9]+", v):
+            return True
+        return False
+
+    target = "all"
+    language = None
+    for value in slots:
+        if not value:
+            continue
+        if _is_target(value):
+            if target == "all":
+                target = value
+            continue
+        if value not in reserved:
+            language = value
+            break
+    return target, language
+
+
 def _write_style(args: argparse.Namespace) -> tuple[str, str | None]:
     """Split the write target from an optional 'style <nickname>' modifier.
 
@@ -1940,8 +1978,12 @@ def publish_workflow(bookname: str, language: str | None = None, draft: bool = F
     publisher.publish(bookname, draft=draft)
 
 
-def review_workflow(bookname: str, target: str) -> None:
-    """Run the quality review engine (review.py) on selected chapters."""
+def review_workflow(bookname: str, target: str, language: str | None = None) -> None:
+    """Run the quality review engine (review.py) on selected chapters.
+
+    *language* is the normalization target (default Bengali): foreign-language
+    fragments in each chapter are rewritten into it before the audit.
+    """
     review = _load_module("writer_review_engine", "review.py")
     chapters_root = review.resolve_chapters_root(bookname)
     numbers = review.parse_chapter_input(target, chapters_root)
@@ -1950,7 +1992,7 @@ def review_workflow(bookname: str, target: str) -> None:
         return
     book = review.load_book_model(bookname)
     review.regenerate_style_md(bookname, book)
-    review.run_review(bookname, target)
+    review.run_review(bookname, target, language=language)
 
 
 def humanize_workflow(bookname: str, target: str) -> None:
@@ -2138,7 +2180,8 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
         )
 
     if verb == "review":
-        review_workflow(bookname, positional_target(args))
+        target, language = _review_target_and_language(args)
+        review_workflow(bookname, target, language)
         return
 
     if verb == "humanize":

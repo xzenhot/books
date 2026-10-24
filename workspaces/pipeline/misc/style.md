@@ -66,7 +66,7 @@
 - The Evening's Shared Silence
 - The Lamp Lit at Dusk
 - The Moon Over the Terrace
-- The Folded Hands at the End of Day
+- On the Sacred Kiss and the Flesh
 
 ## Human Override
 
