@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+
+  "mcp": {
+    "server": {
+      "name": "kobi",
+      "path": "D:\\lab\\github\\books\\writer\\tools\\mcp",
+      "executable": "kobi.exe",
+      "transport": "stdio",
+      "protocolVersion": "2024-11-05"
+    },
+    "client": {
+      "name": "kobi-mcp-client",
+      "version": "1.0"
+    },
+    "toolDomains": ["book", "chapter", "segment", "workspace", "word"]
+  },
+
+  "application": {
+    "environment": "Prod",
+    "secretRootPath": "D:\\Deployment\\KeysSecret\\newformat",
+    "workspaceStartPath": "D:\\lab\\github\\books",
+    "agentRootPath": "D:\\lab\\visualstudio\\xzen\\BookWriter\\writer"
+  },
+
+  "services": {
+    "wordBackend": "InProcess",
+    "lipikaBackend": "InProcess",
+    "magNetServiceUrl": "https://biswas:443/",
+    "ollamaServiceUrl": "http://biswas:11434",
+    "translateServiceUrl": "http://biswas:11380",
+    "corpusLocation": ".\\corpus",
+    "workspace": "dehlij"
+  },
+
+  "logging": {
+    "file": {
+      "path": "./_logs/app.log",
+      "maxSizeMB": 10,
+      "maxFiles": 5,
+      "compress": true,
+      "enabled": true
+    },
+    "console": {
+      "enabled": true,
+      "format": "structured"
+    }
+  }
+}

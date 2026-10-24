@@ -39,12 +39,26 @@ class McpError(Exception):
     """Raised for MCP transport / protocol errors."""
 
 
-def default_server_path():
-    """Resolve the kobi MCP server executable.
+def server_path_from_config(config):
+    """Resolve the kobi MCP server executable from a caller-supplied config dict.
 
-    Prefers the path relative to this script's directory (./mcp/kobi.exe), since
-    the published server lives alongside this client under tools/mcp/. Falls back
-    to a working-directory-relative path.
+    The calling function owns the configuration (e.g. loaded from config.json)
+    and passes it here; mcpclient.py stores no hard-coded path. Expects:
+
+        {"mcp": {"server": {"path": "...", "executable": "kobi.exe"}}}
+
+    The path may be relative or absolute, but it is always supplied by the
+    caller — never baked into this module.
+    """
+    server = config["mcp"]["server"]
+    return os.path.join(server["path"], server["executable"])
+
+
+def default_server_path():
+    """Resolve the kobi MCP server executable relative to this script or cwd.
+
+    No absolute path is hard-coded; the server is located relative to this
+    client's own folder (./mcp/kobi.exe) or the current working directory.
     """
     script_dir = os.path.dirname(os.path.abspath(__file__))
     candidates = [
@@ -77,6 +91,9 @@ class McpClient:
         exe = os.path.abspath(self.server_path)
         if not os.path.exists(exe):
             raise McpError(f"MCP server not found: {exe}")
+        # kobi.exe must run from its own directory: it loads its config and corpus
+        # (e.g. appSettings.json, _default.json, ./corpus) relative to the cwd.
+        cwd = os.path.dirname(exe)
         try:
             self.proc = subprocess.Popen(
                 [exe, "mcp"],
@@ -85,6 +102,7 @@ class McpClient:
                 stderr=subprocess.PIPE,
                 text=True,
                 encoding="utf-8",
+                cwd=cwd,
             )
         except OSError as e:
             raise McpError(f"Failed to launch MCP server '{exe}': {e}")
@@ -120,11 +138,26 @@ class McpClient:
         try:
             return json.loads(line)
         except json.JSONDecodeError:
+            # kobi.exe writes a startup log line (e.g. "GenAI configuration
+            # loaded") to stdout before console logging is disabled, which
+            # corrupts the JSON-RPC stream. Skip such log noise and keep
+            # reading until a real JSON message arrives.
+            if self._looks_like_log_line(line):
+                return self._recv_line()
             raise McpError(
                 "Received non-JSON output from the server. "
                 "Is the published appSettings.json Environment.Run set to 'Prod'? "
                 f"Raw: {line[:200]}"
             )
+
+    @staticmethod
+    def _looks_like_log_line(line):
+        """Detect kobi log lines like '2026-10-24 13:14:47.147 INFORMATION ...'."""
+        upper = line.upper()
+        return any(
+            keyword in upper
+            for keyword in ("INFORMATION", "WARNING", "ERROR", "DEBUG", "VERBOSE", "FATAL")
+        ) or upper.startswith(("20", "19"))  # log timestamp prefix
 
     def request(self, method, params=None):
         self._next_id += 1
