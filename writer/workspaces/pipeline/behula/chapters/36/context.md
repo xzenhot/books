@@ -1,0 +1,122 @@
+# Chapter model context
+
+## chapter_index
+
+36
+
+## name
+
+36
+
+## word_target
+
+280
+
+## chapter_title
+
+ব্যক্তিগত সীমানা ছাড়িয়ে সার্বজনীন আর্তি
+
+## chapter_summary
+
+বেহুলার ভেলা এখন আর একার শোকের তরণী নয়; তা হয়ে উঠেছে পিতৃতন্ত্রের যূপকাষ্ঠে বলিদত্ত সকল নারীর মুক্তির প্রতীকী প্রতীক।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the porousness of boundaries: How does a personal agony (loss) begin to bleed into collective suffering when articulated? The river current metaphorically widening its channel.
+- The shift from lamentation as private grief to articulation as public petition; using specific, archaic invocation styles that bridge the intimate and the communal in Bengali verse.
+- Examining the social geography of her plea: Moving beyond just 'society' to name specific structures—the threshold, the assembly hall, the unyielding ritual space—where the universal cry is made.
+
+### story_options
+
+- Setting: The mouth of a village waterway, desire: To channel her individual sorrow into a rhythm that others can follow, obstacle: The heavy weight of expectation pressing down on her shoulder.
+- Setting: A dark patch of water where the moonlight fails to reach, desire: To find an echo or a ripple from another soul who shares similar unseen burden, obstacle: The terrifying certainty of utter solitude if no one answers.
+- Setting: Beside a worn mooring post used by many travelers (symbolizing shared journeys), desire: To transform her personal ordeal into a navigational beacon for others lost in the same current, obstacle: Fear that her visibility will attract ridicule rather than aid.
+
+### subject_rotations
+
+- Treating 'universal appeal' not as an abstract virtue, but as a specific, tactile resonance—a shared frequency felt across different lives.
+- Shifting the focus from *being* symbolic to the act of *becoming* a mirror for others' struggles; less about her state, more about her function in the community narrative.
+- Analyzing the linguistic transition: How does the language change when moving from addressing the Gods (personal appeal) to addressing 'the people' or 'those who witness' (universal plea)?
+
+### sensory_details
+
+- The specific taste of damp river mud on the lips just before a deliberate, public statement.
+- The sound of oars dipping into heavy, still water—each dip measuring out a unit of shared time and endurance.
+- The cool, slick feel of wet clay on exposed skin during a long vigil at a confluence.
+
+### research_questions
+
+- In classical Bengali poetry addressing communal suffering, what specific rhetorical devices are used to move from the singular lament ('আমি') to the plural address ('আমরা')?
+
+### structural_variants
+
+- Employing a call-and-response structure where one stanza presents the personal burden, and the subsequent stanza offers an implied echo or counterpoint (without stating it explicitly).
+- Alternating between highly condensed, sharp declarations of self/experience and longer, more flowing lines describing the expansive nature of the shared pain.
+
+### unused_angles
+
+- The relationship between Behula's spiritual state and the physical flow dynamics of the waterway she traverses.
+- Exploring the ethical weight placed upon those who witness suffering but do not intervene (the bystanders in society).
+
+### variety_note
+
+This chapter moves beyond the focused internal struggle documented previously, externalizing her pain into a visible, directional force aimed outwards at the wider social structure.
+
+## draft
+
+### sha256
+
+dddde286f6de34af565f2d6ca06006b8b245b63078e03dbd8eaa84bdb31697fd
+
+### written_at
+
+2026-10-21T14:09:19.031145+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+dddde286f6de34af565f2d6ca06006b8b245b63078e03dbd8eaa84bdb31697fd
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-21T16:19:57+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

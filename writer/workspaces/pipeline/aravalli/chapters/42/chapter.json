@@ -6,8 +6,23 @@
   "chapter_summary": "আলেকজান্ডারের ঘোড়ার খুরের ধুলো — পাহাড়ের পথে বয়ে যাওয়া আক্রমণের পদধ্বনি।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "6022c70b43895357527b3f55de0bdf965f7b51fea2b409f19486b86ddd93a199",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

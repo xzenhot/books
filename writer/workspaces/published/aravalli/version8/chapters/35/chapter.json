@@ -1,0 +1,28 @@
+{
+  "chapter_index": 35,
+  "name": "35",
+  "word_target": 500,
+  "chapter_title": "হরফে জন্ম নেওয়া ধ্বনি",
+  "chapter_summary": "সেই নদীর তীরে লেখা হলো দেবনাগরী — হরফে হরফে প্রাচীন সভ্যতার প্রথম ধ্বনি।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "74147f5cd83d147814b2e0e754e540e23e75aaee98c315bca1fdc063b56429d8",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

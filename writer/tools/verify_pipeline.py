@@ -12,7 +12,7 @@ fields with identical values and types plus runtime metadata; `history/` and a
 complete `segments/1/` state exist; form invariants hold (poetry: no
 `mood.json`); `filters/filters.json` mirrors the plan's `filter_chain` order
 with resolvable agents and boolean `autorun` flags; and the root planning files
-(`bookseed.txt`, `progress.json`, `override.txt`) exist and match the plan.
+(`progress.json`, `override.txt`) exist and match the plan.
 
 Exit code 0 means the pipeline matches the contract; 1 means at least one error.
 """
@@ -148,17 +148,11 @@ def verify(bookname: str) -> int:
         if folders:
             notes.append("filter folders exist at scaffold (spec: created lazily on first run): " + ", ".join(folders))
 
-    for name in ("bookseed.txt", "progress.json", "override.txt"):
+    for name in ("progress.json", "override.txt"):
         if not os.path.isfile(os.path.join(pipeline, name)):
             errors.append(f"missing pipeline root file: {name}")
 
     if form == "poetry":
-        seed_path = os.path.join(pipeline, "bookseed.txt")
-        if os.path.isfile(seed_path):
-            with open(seed_path, encoding="utf-8") as handle:
-                topics = [line.strip() for line in handle if line.strip()]
-            if topics != [entry["chapter_title"] for entry in chapters]:
-                errors.append("bookseed.txt topics do not match the plan chapter titles")
         progress_path = os.path.join(pipeline, "progress.json")
         if os.path.isfile(progress_path):
             progress = load(progress_path)

@@ -1,0 +1,123 @@
+# Chapter model context
+
+## chapter_index
+
+11
+
+## name
+
+11
+
+## word_target
+
+280
+
+## chapter_title
+
+কামুক দৃষ্টির মুখে সতীর তেজস্বী বজ্র
+
+## chapter_summary
+
+গাঙুড়ের নির্জন ঘাটে গোদা ও ধূর্ত শিকারীদের লালসাময় কুপ্রস্তাব। অসহায় কান্নার বদলে আত্মমর্যাদার অগ্নিশিখায় জ্বলে উঠে বেহুলার বজ্রকঠিন প্রত্যাখ্যান।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The internal geometry of rejection: mapping the precise physical mechanics (tension in muscles, pressure against breath) required to maintain a stance of absolute refusal.
+- Reframing the 'Kāmuk Drishti' not merely as lust, but as an attempt by corrupt societal forces to map or possess her symbolic purity—a cartographical invasion of her soul.
+- The contrast between the primordial stillness of the river environment and the sharp, disruptive heat generated internally by her moral fire.
+
+### story_options
+
+- Setting: The damp reeds lining a submerged stretch of Gangur. Desire: To articulate her refusal not in spoken words (which might be co-opted), but purely through sustained, non-verbal physical opposition; Obstacle: A sudden shift in the river current threatening to isolate her completely.
+- Setting: Just as dawn begins to stain the eastern sky—the moment of greatest vulnerability between darkness and visibility. Desire: To find a temporary solace in the impersonal vastness before engaging with the specific threat; Obstacle: The insistent, localized pressure closing in from one direction.
+- Setting: Beneath an overhanging, sheltering canopy (natural or otherwise). Desire: To transform the initial shock of confrontation into an almost ritualistic recitation of her devotion to Lkhindor, making the rejection sacred; Obstacle: A subtle attempt by the accusers to introduce a familiar, appealing distraction.
+
+### subject_rotations
+
+- Treating the 'tejaswi vajra' (radiant thunderbolt) not as an explosion of force, but as an incredibly dense state of arrested energy—potentiality held perfectly in check.
+- Focusing less on the aggressors and more on the *space* they attempt to occupy within her sanctity; making the void between them a charged battleground.
+- An inversion: exploring how, for a fleeting instant, the refusal itself acts as a form of transcendent connection with Lkhindor—a silent communication across realms.
+
+### sensory_details
+
+- The scent of stagnant water mixed sharply with sweat and heated earth from prolonged stillness.
+- The cool, slick feel of moss or algae clinging to the raft's edges against her skin during tense moments.
+- A specific sound—the rapid, unnatural flutter of a single insect trapped in the warm air surrounding her refusal.
+
+### research_questions
+
+- How can Bengali poetic diction capture the tension between an internalized, absolute spiritual resolve and external physical violation without resorting to overt melodrama?
+- What are concrete ways to portray 'Sati's fire' as a process of sustained metabolic expenditure rather than instantaneous emotional outburst?
+
+### structural_variants
+
+- A highly fragmented structure where each stanza is defined by the perceived shift in the attacker’s posture or gaze, creating a staccato rhythm mirroring her internal tension.
+- Starting *in media res* at the moment before speech/action, dedicating the entire chapter to the escalating internal monologue preceding the definitive act of rejection.
+
+### unused_angles
+
+- An analysis of how societal expectations (the gaze) are intrinsically tied to economic or survival needs in that setting.
+- The possibility of introducing a moment of shared vulnerability between her and another peripheral figure, only for it to be swiftly broken by the central threat.
+
+### variety_note
+
+Unlike earlier depictions of isolation (Chapters 10 & 14), this chapter forces direct, active confrontation. Where others dealt with passive endurance, here the energy is channeled into a sharp, deliberate outward push against external corruption.
+
+## draft
+
+### sha256
+
+54a485d6dd503171474c7849f4c61f87dd53e16b4e814d5484eea7e7f66a5429
+
+### written_at
+
+2026-10-21T14:04:12.660948+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+54a485d6dd503171474c7849f4c61f87dd53e16b4e814d5484eea7e7f66a5429
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-21T16:19:57+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

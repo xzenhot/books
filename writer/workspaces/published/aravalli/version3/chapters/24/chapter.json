@@ -1,0 +1,65 @@
+{
+  "chapter_index": 24,
+  "name": "24",
+  "word_target": 500,
+  "chapter_title": "মরুর ধুলোর আক্রমণ",
+  "chapter_summary": "পশ্চিমের থর মরুভূমির ধূলিঝড় — আরাবল্লির দেয়ালে ধাক্কা খেয়ে থেমে যায় মরুভূমির বিস্তার।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "neruda",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 8,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 3,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Confessionalism",
+        "one_liner": "Direct, unflinching exposure of personal trauma."
+      },
+      "writing_skills": [
+        "visceral physical imagery",
+        "unfiltered first-person perspective",
+        "taboo mapping"
+      ],
+      "image_seed": "desert dust assaulting the green wall",
+      "volta": "the dust as an encroaching, unerasable tide",
+      "sonic_texture": "a raw, oxidizing gash of sound",
+      "line_gesture": "declarative lines that surge",
+      "variety_note": "an encroaching tide against the protective wall"
+    }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "a1bb6897f8a079e835ac1701c5d22cd6eaee27edb3d87fe5a414420ee558330f",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

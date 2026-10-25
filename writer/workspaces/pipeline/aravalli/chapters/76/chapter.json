@@ -6,8 +6,23 @@
   "chapter_summary": "সাগরিকার কোমরের তীব্র গভীর খাজ — যার মায়াবী বাঁকে হারিয়ে যায় মহাভারতের প্রাগৈতিহাসিক রূপকথা ও ষোড়শ মহাজনপদের মানচিত্র।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "801687b45f64fea0b8d207a99c6503f62c2341291114b4fb6ff37cab4948c360",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

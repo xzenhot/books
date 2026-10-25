@@ -49,7 +49,7 @@ For every `/book [args...]` request, follow this procedure:
 /book <bookname> filter <filter> *|all|<n>
 /book <bookname> <agentname> <chapter>|<n>|all|continue
 /book <bookname> enrich <count>|range|*
-/book <bookname> review *|all|<n>
+/book <bookname> review *|all|<n> [<language>]   # default language: bengali (bn)
 /book <bookname> humanize *|all|<n>
 /book <bookname> eval all|*|<n>|<range>|continue
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
@@ -99,7 +99,7 @@ never be treated as a chapter count, form, gist, or prose.
 | `<bookname> filter` | Pipeline | `pipeline.md` | Run a single named filter against `*`/`all` chapters or one chapter `<n>`. |
 | `<bookname> <agentname>` | Pipeline | `pipeline.md` | Run a registered agent against selected chapters. |
 | `<bookname> enrich` | Pipeline | `pipeline.md` | Fuse active filters into one combined pass. |
-| `<bookname> review` | Pipeline | `pipeline.md` | Audit chapters against quality parameters via the review agent; final quality gate before publish. |
+| `<bookname> review [<language>]` | Pipeline | `pipeline.md` | Audit chapters against quality parameters via the review agent; also normalize language — transform any foreign-language fragments (words/phrases) into the given `<language>` (default: Bengali). The review agent rewrites such fragments in-place, then runs the final quality gate before publish. |
 | `<bookname> humanize` | Pipeline | `pipeline.md` | Ensure content is in the target language only; remove non-relevant characters and replace with Bengali equivalents. |
 | `<bookname> eval` | Pipeline | `pipeline.md` | Evaluate pipeline completeness before write/publish. Read-only. |
 | `<bookname> write` | Pipeline | `pipeline.md` | Write finished chapters via the write agent (→ poetry/novel skill). |

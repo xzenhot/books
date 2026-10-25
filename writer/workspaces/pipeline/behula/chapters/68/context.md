@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+68
+
+## name
+
+68
+
+## word_target
+
+280
+
+## chapter_title
+
+কন্যাদের হাতে সাহসের সঞ্চার
+
+## chapter_summary
+
+মায়েরা তাদের কন্যাদের আর অসহায় অশ্রু ফেলতে শেখায় না; বেহুলার তেজস্বিতা দিয়ে জীবনের প্রতিটি ঝড়ের মুখোমুখি হওয়ার পাঠ দেয়।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the transmission of strength not through instruction, but through shared vulnerability—the act of witnessing her resilience rather than being told it.
+- Exploring the concept of generational endurance: how Behula's resolve becomes a blueprint for future female agency within the cultural context described by the source material (e.g., relating to other noble women mentioned).
+- Treating this moment as an inversion of traditional maternal guidance; where the mother teaches strength not by buffering hardship, but by exposing it to her child in controlled bursts.
+
+### story_options
+
+- Setting: A dimly lit space near the boat's edge after a particularly violent passage across the Gangur; Desire: The women are silently preparing simple sustenance together, an act of shared defiance against destitution, Obstacle: Initial hesitation/fear in one younger woman who resists mirroring her mother’s stoicism, Turn: Her mother simply accepts that fear is necessary for true courage.
+- Setting: A momentary lull between severe weather systems on the open water; Desire: To articulate a non-verbal exchange of understanding—a gesture or a shared look conveying mutual commitment to their arduous journey, Obstacle: An external sign (like a distant shadow or unfamiliar sound) that pulls them back toward immediate threat, Turn: They reaffirm each other's internal resolve against this sudden distraction.
+- Setting: As the sun dips low, painting the water in bruised colours; Desire: To detail how the matriarch passes down not just fortitude, but specific knowledge of survival—a knot, a tide pattern, an herbal remedy (using only allowed vocabulary), Obstacle: The weight of their immediate physical exhaustion threatening to overwhelm any intellectual lesson, Turn: They choose rest, understanding that resilience requires moments of necessary surrender.
+
+### subject_rotations
+
+- Shifting the focus from 'strength imparted' to 'burden shared': how the women navigate the collective grief alongside the act of empowering their daughters.
+- Treating the mothers not as instructors in valor, but as custodians of memory—preserving the narrative of struggle so it can inform future actions.
+- Examining the concept of female solidarity against external forces (social/divine) using their shared physical proximity on the water as the core metaphor.
+
+### sensory_details
+
+- The gritty, almost medicinal scent of wet river silt clinging to the women's skin after hours exposed to the Gangur.
+- The specific sound of a small child’s quiet weeping being absorbed by the vast, dull drone of the water flowing past the hull.
+- The coarse weave texture of an old sari that has been repeatedly soaked and dried, mapping out survival on its fibers.
+
+### research_questions
+
+- Are there specific vocabulary terms in Bengali within the source's implied context for 'shared endurance' versus 'individual courage'?
+- How does the text differentiate between learned resilience (skill) and innate spirit when passed from mother to daughter?
+
+### structural_variants
+
+- A cyclical structure, mirroring how a single day of struggle repeats itself across different generations.
+- A call-and-response structure where one voice speaks doubt/fear while the other responds with quiet action or a physical demonstration.
+
+### unused_angles
+
+- The political implications of female interdependence in an era defined by patriarchal scrutiny (a macro layer not yet explored).
+- A focus on the internal dialogue regarding sacrifice—is this strength about enduring for others, or preserving self?
+- How physical labor (like paddling or maintaining the boat) serves as a continuous meditation against existential dread.
+
+### variety_note
+
+Where earlier chapters focused heavily on Behula's individual trials and triumphs against overwhelming odds, this chapter pivots inward to examine the relational aspect of her strength—its transmission through familial bonds.

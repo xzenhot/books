@@ -36,11 +36,14 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+from promptkit import PromptSet, framework_layout_dir, render
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 BACKLOG_ROOT = REPO_ROOT / "workspaces" / "backlog"
 EXPAND_SCHEMA = (
     REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "layout" / "expand.json"
 )
+EXPAND_PROMPTS = PromptSet(framework_layout_dir(REPO_ROOT), "expand")
 
 MODEL = "gemma4:latest"
 OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
@@ -199,43 +202,33 @@ def load_quality_names():
 # Dimension prompts
 # ---------------------------------------------------------------------------
 
-SYSTEM = (
-    "You enrich a chapter of a Bengali historical novel for a book plan. "
-    "Return a single valid JSON object only — no Markdown fences, no commentary. "
-    "Ground every value in the chapter summary, its characters, and the story gist "
-    "you are given; never invent a new premise or a fabricated URL."
-)
+SYSTEM = EXPAND_PROMPTS.text("system_prompt.md")
+
+_SUMMARY_PROMPT = EXPAND_PROMPTS.text("summary_prompt.md")
+_CHARACTER_PROMPT = EXPAND_PROMPTS.text("character_prompt.md")
+_QUALITIES_PROMPT = EXPAND_PROMPTS.text("qualities_prompt.md")
 
 
 def summary_prompt(gist, chapter):
-    return (
-        "Expand this chapter's `chapter_summary` into a longer, more detailed seed "
-        "(2–4 sentences, ~150–200 words) that names the central conflict, key imagery, "
-        "and the open question it leaves. Keep it form-neutral and grounded in the gist. "
-        "Return JSON: {\"chapter_summary\": \"...\"}.\n\n"
-        f"GIST:\n{gist}\n\nCHAPTER:\n{json.dumps(chapter, ensure_ascii=False)}"
-    )
+    return render(_SUMMARY_PROMPT, gist=gist, chapter=json.dumps(chapter, ensure_ascii=False))
 
 
 def character_prompt(gist, chapter, roster_names):
-    return (
-        "Propose 3–5 characters for this chapter, each {id, name, role} (short Bengali). "
-        "Derive from the chapter summary and the existing roster; do not invent a figure "
-        "that contradicts the story. Return JSON: {\"characters\": [{\"id\":\"...\",\"name\":\"...\",\"role\":\"...\"}]}.\n\n"
-        f"GIST:\n{gist}\n\nCHAPTER:\n{json.dumps(chapter, ensure_ascii=False)}\n\n"
-        f"EXISTING CHARACTER NAMES:\n{roster_names}"
+    return render(
+        _CHARACTER_PROMPT,
+        gist=gist,
+        chapter=json.dumps(chapter, ensure_ascii=False),
+        roster=roster_names,
     )
 
 
 def qualities_prompt(gist, chapter, quality_names, characters):
-    return (
-        "Fill each of these quality attributes for this chapter with a fresh, grounded "
-        "sentence (Bengali) drawn from the chapter summary, its characters, and the gist. "
-        "Do not reuse template sample text, and do not copy another chapter. "
-        "Return JSON whose keys are exactly these attributes:\n"
-        f"{json.dumps(quality_names, ensure_ascii=False)}\n\n"
-        f"GIST:\n{gist}\n\nCHAPTER:\n{json.dumps(chapter, ensure_ascii=False)}\n\n"
-        f"CHARACTERS:\n{json.dumps(characters, ensure_ascii=False)}"
+    return render(
+        _QUALITIES_PROMPT,
+        gist=gist,
+        chapter=json.dumps(chapter, ensure_ascii=False),
+        quality_names=json.dumps(quality_names, ensure_ascii=False),
+        characters=json.dumps(characters, ensure_ascii=False),
     )
 
 

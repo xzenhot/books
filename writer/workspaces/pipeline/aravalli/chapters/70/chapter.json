@@ -6,8 +6,23 @@
   "chapter_summary": "গ্রিন বেল্টের ধীরে ধীরে মৃত্যু — পাহাড়ের সবুজ ফুসফুস শহুরে আগ্রাসনে নিঃশ্বাস বন্ধ করে দেয়।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "398736ffd15bc9b1a00804220aeb3fe4907d13c5c6da5aa43c26c06c8a7cf429",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

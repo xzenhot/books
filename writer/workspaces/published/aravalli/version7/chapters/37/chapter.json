@@ -1,0 +1,28 @@
+{
+  "chapter_index": 37,
+  "name": "37",
+  "word_target": 500,
+  "chapter_title": "যুদ্ধের আগে ও পরে",
+  "chapter_summary": "মহাভারতের আগে ও পরের রূপকথা — কল্পকথার ছায়া পাহাড়ের চূড়ায় পড়ে থাকে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "d1af26d9f726bc64325d8577dfe7c5fc9e7368ac4a2f2ff77dd0babff87c58fc",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

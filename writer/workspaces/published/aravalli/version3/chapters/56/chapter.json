@@ -1,0 +1,28 @@
+{
+  "chapter_index": 56,
+  "name": "56",
+  "word_target": 500,
+  "chapter_title": "জ্ঞান থেকে ধনের পথ",
+  "chapter_summary": "তক্ষশীলা থেকে মগধ পর্যন্ত বয়ে চলা বাণিজ্য — পাহাড়ের পথ ধরে জ্ঞান ও সম্পদের আদান-প্রদান।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "dbe216a967da862c2dd537b4a17443d0909332f1fd58bce2a6bb1849211d1259",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

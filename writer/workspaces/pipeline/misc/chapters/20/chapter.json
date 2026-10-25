@@ -1,0 +1,47 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 500,
+  "chapter_title": "The Coin in the Beggar's Bowl",
+  "chapter_summary": "A coin drops into a beggar's bowl, and the poem weighs the small sound of the gift against the larger silence of the street.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The coin as a temporal anchor: examining how its metallic weight momentarily halts the flow of the street's time.",
+      "Framing the transaction not as charity given, but as an exchange of unseen value—the societal currency met by invisible need.",
+      "Focusing on the receptacle itself: describing the bowl (its material, patina, dented history) as a primary subject before the coin arrives."
+    ],
+    "story_options": [
+      "Setting: A shadowed corner near a temple entrance at deep twilight; Desire: To quantify the cost of that single drop against the beggar's internal ledger; Obstacle: The speaker perceives the act through a layer of necessary moral distance, culminating in asking what currency belief carries.",
+      "Setting: Just before dawn, when street sounds are minimal and sharp; Desire: To isolate the acoustic signature of the coin hitting metal—its ring vs. its dull thud; Obstacle: The resonance is swallowed immediately by the ambient urban grit, leaving only a hollow echo to question.",
+      "Setting: Under a single sputtering gas lamp in an alleyway; Desire: To connect the specific metallic gleam of the offered coin to some memory or ritual act seen elsewhere; Obstacle: This connection dissolves into abstraction before the end, replaced by a deeply personal but unanswerable inquiry about worth."
+    ],
+    "subject_rotations": [
+      "Treating the sound of the drop as sonic event study: isolating its timbre and decay against the backdrop of city noise.",
+      "Examining the coin's material history (its age, wear) as a reflection of its owner's life journey before it becomes an object of giving.",
+      "Shifting focus from the *giving* to the *receiving*—how does the bowl absorb the sound, the weight, and the momentary reprieve?"
+    ],
+    "sensory_details": [
+      "The sharp, cold scent of residual street grime clinging to the rim of the metal bowl.",
+      "The specific, muted jingle of a single coin rolling within the basin before it is dropped.",
+      "The texture of dust mixed with dried residue inside the receptacle, feeling gritty against the warmth of skin."
+    ],
+    "research_questions": [
+      "What are the common types or denominations of coins typically observed in such scenes, and what do they suggest about economic strata?"
+    ],
+    "structural_variants": [
+      "A cyclical structure where the coin's impact is meticulously detailed (approach > contact > reverberation) before fading back into the preceding street silence.",
+      "A highly fragmented sequence, moving from the owner's hand, to the air between them, to the bowl's surface, treating each point as a separate, weighted pause."
+    ],
+    "unused_angles": [
+      "Exploring how other silent witnesses—a sleeping dog, an unattended cartwheel—react or remain still during this pivotal auditory moment.",
+      "Developing a symbolic dialogue between the coin (the immediate present) and the worn bowl (accumulated past)."
+    ],
+    "variety_note": "Unlike scenes focused on movement (bus, rickshaw), this poem is anchored in intense stasis, using sound as the sole catalyst for change."
+  }
+}

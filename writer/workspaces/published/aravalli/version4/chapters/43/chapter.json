@@ -1,0 +1,28 @@
+{
+  "chapter_index": 43,
+  "name": "43",
+  "word_target": 500,
+  "chapter_title": "হরপ্পারও আগে",
+  "chapter_summary": "হরপ্পারও আগে সোথি-সিসওয়াল পর্যায় — কালিবঙ্গন ও কুনালের মানুষ পাহাড়ের খনি থেকে তামা তুলত।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "37f8f1d21fb8453d44a10b78235666ff9a51767af2a57a40b11d4163f504fca0",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

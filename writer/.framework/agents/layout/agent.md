@@ -80,13 +80,13 @@ Resolve and hand off a **pre-layout plan** with these fields:
 2. The pipeline `book.json` exists and declares the `form`.
 3. The backlog master prompt exists at `workspaces/backlog/<bookname>/override.txt`.
 
-If the backlog master prompt is missing, do not fail — derive the master prompt from the pipeline `book.json` (gist, book_summary, register, form) alone, and note that the backlog source was absent.
+If the backlog master prompt is missing, do not fail — fall back to the canonical template `.framework/templates/backlog/v1/override.txt` (and, if that is also absent, derive the master prompt from the pipeline `book.json` — gist, book_summary, register, form — alone), and note that the backlog source was absent.
 
 ## What to Read (in order)
 
-1. `workspaces/backlog/<bookname>/override.txt` — the book's static identity and mandate (the seed idea).
+1. `workspaces/backlog/<bookname>/override.txt` — the book's static identity and mandate (the seed idea). This file is seeded by the init agent from `.framework/templates/backlog/v1/override.txt` — the canonical backlog override template — and may then be human-edited. When the backlog copy is absent, fall back to the template at `.framework/templates/backlog/v1/override.txt`.
 2. `workspaces/pipeline/<bookname>/book.json` — the resolved form, language, register, quality, themes, reference, signature, sacred vocabulary, translation guide, gist, and book summary.
-3. `workspaces/pipeline/<bookname>/bookseed.txt` (poetry) — the concrete topic list; or `workspaces/pipeline/<bookname>/book.json` (novel) — the chapter plan.
+3. `workspaces/pipeline/<bookname>/book.json` (poetry) — the concrete topic list (`chapters[]`); or `workspaces/pipeline/<bookname>/book.json` (novel) — the chapter plan.
 
 ## What to Produce
 
@@ -105,7 +105,7 @@ This is the scaffold-time default: it tells the override agent that no transform
 ## Phase 2 Rules
 
 - **Dynamic, not copied.** Do not copy the backlog `override.txt` verbatim. Re-derive it: keep the identity and mandate, but enrich it with the pipeline's resolved form, language, register, signature, and the concrete topic/chapter list.
-- **Backlog is the idea; pipeline is the reality.** The backlog file is the seed. The pipeline `book.json` and `bookseed.txt`/`book.json` are the resolved truth. When they differ, the pipeline wins.
+- **Backlog is the idea; pipeline is the reality.** The backlog file is the seed. The pipeline `book.json` is the resolved truth. When they differ, the pipeline wins.
 - **Form resolution lives here.** The pipeline `book.json` is the authoritative source for the resolved `form`. Init no longer reads the pipeline; this agent is the sole place that resolves the form from pipeline state.
 - **Plain text only.** The output is a `.txt` file. No front-matter YAML, no scripts, no wrapper files.
 - **Default is "No transform required."** A plain scaffold writes `workspaces/pipeline/<bookname>/override.txt` containing exactly `No transform required.` — nothing else. Do not derive a full master prompt during a plain scaffold.

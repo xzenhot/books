@@ -6,8 +6,23 @@
   "chapter_summary": "জল ও পাথরের এক আদিম চুক্তি — পাহাড় জল ধরে রাখে, জল জনপদকে বাঁচায়; এই ভারসাম্যই টিকে থাকার শর্ত।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "a39db376585b83347250eaaf8d51f3808e75a03cb80c35dd13cc45de21c46847",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

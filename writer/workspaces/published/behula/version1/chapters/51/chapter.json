@@ -1,0 +1,51 @@
+{
+  "chapter_index": 51,
+  "name": "51",
+  "word_target": 280,
+  "chapter_title": "হারানো ছয়পুত্রের জীবন ভিক্ষা",
+  "chapter_summary": "শুধু নিজের স্বামীকে নিয়ে ফিরে যাওয়া নয়; শ্বশুরকুলের অতীতে হারিয়ে যাওয়া সকল সন্তানের প্রাণ ফিরিয়ে দেওয়ার অসামান্য উদারতা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing entirely on the *burden* of responsibility: treating the request for the children's lives not as an act of generosity, but as a profound imposition onto the recovering hero/community.",
+      "The contrast between the intense personal sacrifice (her husband) and the diffuse, collective weight she must now carry (the six sons).",
+      "Treating the 'plea' itself—the negotiation for life—as an act of poetic defiance against cosmic hierarchy, rather than a submission to it."
+    ],
+    "story_options": [
+      "Setting: The threshold where divine authority meets mortal petition; Desire: To focus on a single, worn token or artifact from the lost sons that she clutches as her promise; Obstacle: The lingering doubt in the celestial presence regarding the feasibility of such widespread restoration.",
+      "Setting: A moment immediately following Lkhindor's revival, while he is still recovering physically (a quiet room); Desire: To explore his initial reaction to this request—is it shock at the scope, or immediate acceptance based on her gaze?; Obstacle: The internal debate over which life should be prioritized first.",
+      "Setting: Outside the immediate divine chamber, perhaps in a transitional, liminal space; Desire: To have one of the surviving family members (perhaps related to Chand Sadagar) observe this exchange from afar, seeing Behula not as savior, but as monumental risk-taker."
+    ],
+    "subject_rotations": [
+      "Shifting emphasis from the *outcome* (saving lives) to the *process* of requesting—the specific language used in the petition and its weight.",
+      "Treating the six sons collectively not as individuals, but as symbolic representations of fractured lineages or scattered potentials that must be re-integrated into a single narrative structure.",
+      "Examining the societal perception of this 'extra' act: is it viewed as supreme piety, or as an overwhelming extravagance/hubris by some observers?"
+    ],
+    "sensory_details": [
+      "The scent of ancient river mud mixed with newly awakened vital warmth on a recovering body.",
+      "The visual texture of heavy, unspun cotton worn during a long, arduous waiting period in the celestial courts."
+    ],
+    "research_questions": [
+      "How can Bengali poetic diction convey the immense scale of collective restoration (six lives) while maintaining the intimate focus established by her initial struggle?"
+    ],
+    "structural_variants": [
+      "An interweaving structure: A brief, almost dreamlike scene dedicated to each of the six lost figures' potential life/loss before returning to Behula’s plea.",
+      "A deeply sustained monologue where she weighs the moral calculus: which lives demand saving and why."
+    ],
+    "unused_angles": [
+      "The silent burden carried by Lkhindor as he witnesses her extending her protection beyond their personal bond into the wider community/clan.",
+      "Focusing on the metaphysical 'cost'—not of her pain, but of the divine system having to bend so drastically for this request."
+    ],
+    "variety_note": "This chapter differs by moving focus from intense singular endurance (her survival) to expansive empathetic action; it is about expanding the scope of her personal victory into a communal mandate."
+  },
+  "draft": {
+    "sha256": "5651c03b5795811ee5ed481a29dc6270161e7f8048fb642250db8237d086feb9",
+    "written_at": "2026-10-21T14:12:17.629913+00:00",
+    "origin": "write"
+  }
+}

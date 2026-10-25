@@ -25,7 +25,9 @@ import time
 import urllib.error
 import urllib.request
 from pathlib import Path
-from quality import register_draft, read_json, digest, read_chapter_model, chapter_model_file
+from quality import (register_draft, read_json, digest, read_chapter_model,
+                     chapter_model_file, write_chapter_model, write_json)
+import notify
 
 BASE_DIR = Path(__file__).resolve().parent
 # Repo root is one level above tools/
@@ -33,13 +35,11 @@ REPO_ROOT = BASE_DIR.parent
 
 # The single-page Pijush/Dehlij master prompt lives in the framework.
 
-STYLE_DIR = REPO_ROOT / ".framework" / "context" / "poetry" / "styles"
 PRESET_DIR = REPO_ROOT / ".framework" / "templates" / "preset"
 POETRY_FILE = PRESET_DIR / "pijush.behula.md"
 DEFAULT_STYLE = "pijush"          # poetry default style
 DEFAULT_STYLE_NOVEL = "dialogue"  # novel default style
 DEFAULT_PRESET = PRESET_DIR / "pijush.md"
-STYLE_FILE = STYLE_DIR / "pijush" / "sample.txt"
 SUBJECTS_FILE = REPO_ROOT / ".framework" / "context" / "poetry" / "syntax" / "gosai_bangla" / "syntax.md"
 
 # Form-specific writer templates (system prompts + user prompt template) live
@@ -97,7 +97,7 @@ USER_PROMPT_SEGMENT_TEMPLATE: str = ""
 # ::1 (IPv6) first, which hits a *different* Ollama server (native Windows)
 # that does NOT have the `writer-gemma` model. The WSL Ollama instance that
 # does host `writer-gemma` is bound to 127.0.0.1 only.
-OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
+OLLAMA_CHAT_URL = "http://127.0.0.1:11434/api/chat"
 TIMEOUT = 900  # seconds; long chapters can take a while
 
 
@@ -271,41 +271,47 @@ def default_style_for_form(form: str) -> str:
 
 def load_poetry(chapter_dir: Path | None = None, style: str | None = None,
                 form: str = "poetry") -> str:
-    """Load the style prompt for the write command, resolved from presets only.
+    """Load the style prompt for the write command.
 
-    Style is always resolved from a **preset** under ``.framework/templates/preset/``
-    — never the book's ``style.md``, and never composed on the fly. The form only
-    selects the default preset nickname (`pijush` for poetry, `dialogue` for novel);
-    the actual file always comes from the preset directory.
-
-    - If a `<style>` is provided, resolve its preset (falling back to the form's
-      default preset when the nickname does not match).
-    - If no `<style>` is provided, use the form's default preset.
-
-    A novel never picks a poetry preset and vice versa, because the default nickname
-    is form-bound and an explicit `<style>` is matched by name within the same
-    preset directory.
+    Priority:
+    1. If a <style> is explicitly provided in the command, resolve it as a 
+       preset under ``.framework/templates/preset/``.
+    2. Otherwise, if a local ``style.md`` exists in the book pipeline root, 
+       use it exclusively.
+    3. Fall back to the form's default preset (pijush/dialogue).
     """
     form = (form or "poetry").strip().casefold()
+    
+    # 1. Explicit style requested? Use preset.
+    if style:
+        default = default_style_for_form(form)
+        nickname = style.strip().lower()
+        source = resolve_preset(nickname)
+        style_name = source.stem
+        info(f"Style: {style_name} ({source})")
+        vlog(f"Loading style from: {source}")
+        text = source.read_text(encoding="utf-8")
+        vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
+        return text
+
+    # 2. No explicit style? Prefer local style.md.
+    if chapter_dir:
+        local_style = chapter_dir.parents[1] / "style.md"
+        if local_style.exists():
+            info(f"Style: local ({local_style})")
+            vlog(f"Loading style from: {local_style}")
+            text = local_style.read_text(encoding="utf-8")
+            vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
+            return text
+
+    # 3. Fallback to form default preset.
     default = default_style_for_form(form)
-    nickname = (style or default).strip().lower()
-    source = resolve_preset(nickname)
+    source = resolve_preset(default)
     style_name = source.stem
     info(f"Style: {style_name} ({source})")
     vlog(f"Loading style from: {source}")
     text = source.read_text(encoding="utf-8")
     vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
-    return text
-
-
-def load_style() -> str:
-    """Load the good-sample style reference (goddo.txt) for few-shot guidance."""
-    vlog(f"Loading style sample from: {STYLE_FILE}")
-    if not STYLE_FILE.exists():
-        vlog(f"  style sample not found, continuing without it")
-        return ""
-    text = STYLE_FILE.read_text(encoding="utf-8")
-    vlog(f"  style sample loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
     return text
 
 
@@ -320,19 +326,29 @@ def load_subjects() -> str:
     return text
 
 
-def build_system_prompt(language: str = "bn") -> str:
-    """Combine the base persona directive with style and subject references.
+def build_system_prompt(language: str = "bn", override: str = "",
+                        gist: str = "", storyline: str = "", style: str = "") -> str:
+    """Combine the base persona directive with style, subject, guardrail, theme,
+    and override references — the book-stable directives.
 
     *language* selects the persona directive language: 'en' (or 'English') uses
-    the English prompt, anything else uses the Bengali prompt. Style and subject
-    references are appended in the same language.
+    the English prompt, anything else uses the Bengali prompt. The style directive
+    (the book's resolved style.md / preset) and the gist guardrail and storyline
+    theme grounding are appended here so the per-chapter user prompt stays short
+    (title, word target, output format, and chapter context).
     """
     lang = language.strip().lower()
     is_en = lang in {"en", "english", "eng"}
     base = SYSTEM_PROMPT_EN if is_en else SYSTEM_PROMPT_BN
-    style = load_style() if not is_en else ""
     subjects = load_subjects() if not is_en else ""
     parts = [base]
+    # Override first — the human mandate is the most impactful directive and
+    # must sit immediately after the base persona.
+    if override:
+        parts.append(
+            "\n\nবিশেষ-নির্দেশনা (Human Override): নিচের নির্দেশনাগুলো কঠোরভাবে মেনে চলো।\n\n"
+            + override
+        )
     if subjects:
         parts.append(
             "\n\nথিম-নির্দেশনা (বিষয়ভিত্তিক রেফারেন্স): নিচের বিষয়বস্তু কাঠামো, রূপক পরিবার "
@@ -340,10 +356,17 @@ def build_system_prompt(language: str = "bn") -> str:
             "মর্মবাণী প্রতিফলিত করে।\n\n"
             + subjects
         )
+    if storyline:
+        parts.append(
+            "\n\n" + frame_theme(storyline)
+        )
+    if gist:
+        parts.append(
+            "\n\n" + frame_guardrail(gist)
+        )
     if style:
         parts.append(
-            "\n\nশৈলী-নির্দেশনা (রেফারেন্স নমুনা): নিচের নমুনার বাক্যগঠন, ছন্দ, রূপক ও গাম্ভীর্য "
-            "অনুসরণ করো, কিন্তু এর শব্দ বা বিষয়বস্তু হুবহু নকল করবে না।\n\n"
+            "\n\nশৈলী-নির্দেশনা (Style): নিচের কণ্ঠ, দর্শন ও গঠন মেনে চলো।\n\n"
             + style
         )
     return "".join(parts)
@@ -382,35 +405,83 @@ def load_override(model_file: Path) -> str:
     return text
 
 
-def frame_override(override: str) -> str:
-    """Frame the human override as craft rules, not content.
+def load_gist(model_file: Path) -> str:
+    """Read the book's seed premise (gist.md) as a guardrail.
 
-    The override.txt mandate is a how-to-write directive (dramatic openings,
-    line breaks, no repeated words, philosophical questions, myth-over-truth,
-    everyday-life symbols, a named muse, a living mountain). It must shape the
-    prose without ever being quoted, named, or turned into subject matter.
+    The gist is the author's declared essence — the one-line high concept plus
+    its expansion. Every chapter's consciousness must never drift away from it.
+    It is a guardrail (an anchor), never a quotation source. Returns the
+    content, or an empty string when absent.
     """
-    if not override:
-        return "(none — no human override instructions)"
+    gist_file = model_file.parents[2] / "gist.md"
+    if not gist_file.exists():
+        return ""
+    text = gist_file.read_text(encoding="utf-8-sig").strip()
+    if not text:
+        return ""
+    vlog(f"Gist guardrail loaded: {len(text)} chars")
+    return text
+
+
+def load_storyline(model_file: Path) -> str:
+    """Read the book's storyline (storyline.md) for thematic grounding.
+
+    The storyline is the source of the book's declared themes, imagery, and
+    world. Every chapter's theme must trace to it; the writer must not invent
+    subject matter absent from it. Returns the content, or an empty string when
+    absent.
+    """
+    storyline_file = model_file.parents[2] / "storyline.md"
+    if not storyline_file.exists():
+        return ""
+    text = storyline_file.read_text(encoding="utf-8-sig").strip()
+    if not text:
+        return ""
+    vlog(f"Storyline theme grounding loaded: {len(text)} chars")
+    return text
+
+
+def frame_guardrail(gist: str) -> str:
+    """Frame the gist as the author's core premise — the book's essential identity."""
+    if not gist:
+        return "(none — no gist guardrail available)"
     return (
-        "These are CRAFT RULES, not content. Apply them silently — never quote, "
-        "name, or recite them, and never turn their wording into the poem's "
-        "subject matter:\n\n" + override
+        "CORE PREMISE (the author's one-line essence of the book — this is what "
+        "the whole work is about; keep every chapter anchored to this idea, never "
+        "contradict it):\n\n"
+        + gist
     )
 
 
-def build_prompt(poetry: str, context: str, number: int, language: str = "bn",
-                 override: str = "") -> str:
-    """Use the complete model context, including nested filter guidance and any override."""
+def frame_theme(storyline: str) -> str:
+    """Frame the storyline as the book's thematic world — themes, imagery, symbols."""
+    if not storyline:
+        return "(none — no storyline theme grounding available)"
+    return (
+        "THEME GROUNDING (the book's declared themes, imagery, and world — draw "
+        "your symbols and imagery from this reservoir, invent nothing beyond it):\n\n"
+        + storyline
+    )
+
+
+def build_prompt(context: str, number: int, language: str = "bn",
+                 title: str = "", word_target: int = 0) -> str:
+    """Build the per-chapter user prompt from the chapter model.
+
+    Kept deliberately short: the chapter number, title, word target, and the
+    flattened chapter context. Book-stable directives — the style directive,
+    gist guardrail, storyline theme grounding, and the human override — are
+    handled in the system prompt (``build_system_prompt``).
+    """
     lang = language.strip().lower()
     is_en = lang in {"en", "english", "eng"}
     lang_word = "English" if is_en else "Bengali"
     return _render(
         USER_PROMPT_TEMPLATE,
-        style_prompt=poetry,
         number=number,
+        title=title or "",
+        word_target=word_target or 0,
         lang_word=lang_word,
-        override=frame_override(override),
         context=context,
     )
 
@@ -439,10 +510,9 @@ def segment_count_for(chapter_model: dict, form: str) -> int:
     return 1
 
 
-def build_segment_prompt(poetry: str, context: str, number: int,
+def build_segment_prompt(context: str, number: int,
                          segment: int, total: int, word_target: int,
-                         prior_text: str, language: str = "bn",
-                         override: str = "") -> str:
+                         prior_text: str, language: str = "bn") -> str:
     """Build the prompt for one segment of a multi-segment novel chapter.
 
     Threads the prior segments' prose (``prior_text``) so the generated segment
@@ -453,14 +523,12 @@ def build_segment_prompt(poetry: str, context: str, number: int,
     lang_word = "English" if is_en else "Bengali"
     return _render(
         USER_PROMPT_SEGMENT_TEMPLATE,
-        style_prompt=poetry,
         number=number,
         segment=segment,
         total=total,
         word_target=word_target,
         prior_text=prior_text or "(this is the first segment — no prior prose)",
         lang_word=lang_word,
-        override=frame_override(override),
         context=context,
     )
 
@@ -479,35 +547,70 @@ def strip_ansi(text: str) -> str:
     return ANSI_RE.sub("", text)
 
 
-def run_ollama(prompt: str, language: str = "bn", model: str = MODEL) -> str:
-    """Call Ollama's HTTP API directly and return the generated text.
+_ACTIVE_SESSION: "WriteSession | None" = None
 
-    Uses ``think=False`` to suppress the model's internal reasoning/"thinking"
-    output, and ``stream=False`` so the result is plain text (no ANSI codes).
-    Retries transient failures with linear backoff.
+
+class WriteSession:
+    """A stateful Ollama ``/api/chat`` session for one book-write command.
+
+    The system prompt is sent once (as the first message) and the model is kept
+    loaded via ``keep_alive``. Each chapter is a fresh user turn; a short rolling
+    window of the last ``rolling`` chapters (user+assistant pairs) is retained for
+    cross-chapter continuity, and older turns are trimmed so the context does not
+    grow unbounded.
     """
+
+    def __init__(self, system_prompt: str, model: str = MODEL, rolling: int = 2):
+        self.system_prompt = system_prompt
+        self.model = model
+        self.rolling = max(0, rolling)
+        self.messages: list[dict[str, str]] = []
+        if system_prompt:
+            self.messages.append({"role": "system", "content": system_prompt})
+        info(f"\n--- SYSTEM PROMPT (session start) ---\n{system_prompt}\n"
+             f"--- END SYSTEM PROMPT ---\n")
+
+    def chat(self, user_prompt: str) -> str:
+        """Send one user turn and return the assistant's reply."""
+        self.messages.append({"role": "user", "content": user_prompt})
+        reply = _chat_once(self.model, self.messages)
+        self.messages.append({"role": "assistant", "content": reply})
+        self._trim()
+        return reply
+
+    def _trim(self) -> None:
+        """Keep the system message plus the last ``rolling`` (user, assistant) pairs."""
+        head = 1 if (self.messages and self.messages[0]["role"] == "system") else 0
+        body = self.messages[head:]
+        if self.rolling <= 0:
+            body = []
+        else:
+            body = body[-(self.rolling * 2):]
+        self.messages = self.messages[:head] + body
+
+
+def _chat_once(model: str, messages: list[dict[str, str]]) -> str:
+    """POST one /api/chat request and return the assistant text (with retries)."""
     payload = {
         "model": model,
-        "prompt": prompt,
-        "system": build_system_prompt(language),
+        "messages": messages,
         "stream": False,
         "think": False,
+        "keep_alive": "30m",
         "options": {
             "num_ctx": CONTEXT_WINDOW,
             "temperature": TEMPERATURE,
             "top_p": TOP_P,
         },
     }
-    vlog(f"[ollama] POST {OLLAMA_URL} model='{model}' think=False stream=False "
-         f"num_ctx={CONTEXT_WINDOW} temperature={TEMPERATURE} top_p={TOP_P}")
-
+    vlog(f"[ollama] POST {OLLAMA_CHAT_URL} model='{model}' think=False stream=False "
+         f"keep_alive=30m num_ctx={CONTEXT_WINDOW} temperature={TEMPERATURE} top_p={TOP_P}")
     encoded = json.dumps(payload).encode("utf-8")
-    vlog(f"[ollama] Sending prompt ({len(prompt)} chars)")
 
     last_error = None
     for attempt in range(1, MAX_RETRIES + 1):
         req = urllib.request.Request(
-            OLLAMA_URL,
+            OLLAMA_CHAT_URL,
             data=encoded,
             headers={"Content-Type": "application/json"},
         )
@@ -528,19 +631,38 @@ def run_ollama(prompt: str, language: str = "bn", model: str = MODEL) -> str:
         elapsed = time.time() - t0
         vlog(f"[ollama] Completed in {elapsed:.2f}s (attempt {attempt})")
         data = json.loads(body)
-        response = data.get("response", "")
-        thinking = data.get("thinking", "")
-        vlog(f"[ollama] response size: {len(response)} chars, "
-             f"thinking size: {len(thinking)} chars")
-
-        # Safety net: strip any stray ANSI escape sequences that leak through.
-        cleaned = strip_ansi(response)
-        if cleaned != response:
-            vlog(f"[ollama] Removed {len(response) - len(cleaned)} ANSI escape chars")
+        content = (data.get("message") or {}).get("content", "")
+        if not content:
+            # Fall back to the /api/generate-style "response" field just in case.
+            content = data.get("response", "")
+        cleaned = strip_ansi(content)
+        if cleaned != content:
+            vlog(f"[ollama] Removed {len(content) - len(cleaned)} ANSI escape chars")
         return cleaned.strip()
 
-    # Unreachable; kept for type-safety/clarity.
     raise RuntimeError(f"Ollama request failed: {last_error}")
+
+
+def reset_write_session() -> None:
+    """Drop the active session so a fresh one starts for the next write command."""
+    global _ACTIVE_SESSION
+    _ACTIVE_SESSION = None
+
+
+def run_ollama(prompt: str, language: str = "bn", model: str = MODEL, override: str = "",
+               gist: str = "", storyline: str = "", style: str = "") -> str:
+    """Send one user turn within the book's shared write session.
+
+    Builds the book-stable system prompt, reuses the active session when its
+    system prompt and model match, and otherwise starts a new session (system
+    prompt sent once). Returns the generated text.
+    """
+    global _ACTIVE_SESSION
+    sys_prompt = build_system_prompt(language, override, gist, storyline, style)
+    if _ACTIVE_SESSION is None or _ACTIVE_SESSION.model != model \
+            or _ACTIVE_SESSION.system_prompt != sys_prompt:
+        _ACTIVE_SESSION = WriteSession(sys_prompt, model)
+    return _ACTIVE_SESSION.chat(prompt)
 
 
 def resolve_version_dir(model_file: Path, segment: int | None = None) -> Path:
@@ -681,19 +803,44 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     context = load_context(model_file)
     language = book_language(chapter_dir)
     override = load_override(model_file)
+    gist = load_gist(model_file)
+    storyline = load_storyline(model_file)
+    chapter_model = read_chapter_model(chapter_dir)
+    title = str(chapter_model.get("chapter_title") or chapter_model.get("title") or "").strip()
+    word_target = chapter_model.get("word_target")
+    if not isinstance(word_target, (int, float)) or word_target <= 0:
+        word_target = 0
     vlog(f"[{number}] Language resolved: {language}")
     vlog(f"[{number}] Model resolved: {model}")
     vlog(f"[{number}] Form resolved: {form}")
+    vlog(f"[{number}] Title resolved: {title!r}")
+    vlog(f"[{number}] Word target resolved: {word_target}")
 
     # Poetry: a single segment per chapter — one generation, one draft.
     if form == "poetry":
-        prompt = build_prompt(poetry, context, number, language, override)
+        prompt = build_prompt(
+            context, number, language,
+            title, word_target,
+        )
+        
+        # Strictly enforce the requested Bengali format
+        format_directive = (
+            f"\n\nOUTPUT FORMAT (Strictly follow this structure):\n"
+            f"## শিরোনামঃ \n{title}\n\n"
+            f"## কবিতাঃ\n[Write the poetry content here]\n\n"
+            f"## সারাংশঃ\n[Write the chapter summary here]"
+        )
+        prompt += format_directive
+
         if SHOW_PROMPT:
-            _show_request(number, model, language, prompt)
+            _show_request(number, model, language, prompt, override=override,
+                          gist=gist, storyline=storyline, style=poetry)
         info(f"[{number}] Generating chapter from complete model context ...")
         t0 = time.time()
-        output = run_ollama(prompt, language, model)
+        output = run_ollama(prompt, language, model, override, gist, storyline, poetry)
         elapsed = time.time() - t0
+        # If the body came out short of the target, extend it until it is close.
+        output = _ensure_length(number, output, word_target, language, model, override)
         _finish_chapter(chapter_dir, out_file, output, previous, version_dir, number, elapsed)
         return
 
@@ -712,13 +859,14 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     for idx in range(1, total + 1):
         prior_text = continuity_window("\n\n".join(segments))
         prompt = build_segment_prompt(
-            poetry, context, number, idx, total, per_segment_words,
-            prior_text, language, override,
+            context, number, idx, total, per_segment_words,
+            prior_text, language,
         )
         if SHOW_PROMPT:
-            _show_request(number, model, language, prompt, label=f"segment {idx}/{total}")
+            _show_request(number, model, language, prompt, label=f"segment {idx}/{total}",
+                          override=override, gist=gist, storyline=storyline, style=poetry)
         info(f"[{number}] Generating segment {idx}/{total} ...")
-        seg_out = run_ollama(prompt, language, model)
+        seg_out = run_ollama(prompt, language, model, override, gist, storyline, poetry)
         if not seg_out.strip():
             raise ValueError(f"Segment {idx}/{total} returned empty output")
         segments.append(seg_out.strip())
@@ -728,6 +876,103 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     output = "\n\n".join(segments)
     elapsed = time.time() - t0
     _finish_chapter(chapter_dir, out_file, output, previous, version_dir, number, elapsed)
+
+
+def _resolve_chapter_dir(chapters_root: Path, ref: str) -> tuple[Path, int]:
+    """Resolve a chapter folder by numeric name or by chapter title."""
+    ref = (ref or "").strip()
+    if ref.isdecimal() and (chapters_root / ref).is_dir():
+        return chapters_root / ref, int(ref)
+    for folder in chapters_root.iterdir():
+        if not folder.is_dir() or not folder.name.isdecimal():
+            continue
+        try:
+            model = read_chapter_model(folder)
+        except (OSError, json.JSONDecodeError):
+            continue
+        candidate = (model.get("chapter_title") or model.get("title") or "").strip()
+        if candidate and candidate == ref:
+            return folder, int(folder.name)
+    raise ValueError(f"Chapter '{ref}' not found")
+
+
+def _run_silent(fn):
+    """Run *fn* with stdout/stderr redirected to an in-memory buffer.
+
+    The book workflows print Bengali text; capturing it sidesteps any console
+    encoding error when the app runs on a non-UTF-8 code page (e.g. cp1252).
+    """
+    import io
+
+    buf = io.StringIO()
+    old_out, old_err = sys.stdout, sys.stderr
+    sys.stdout = sys.stderr = buf
+    try:
+        return fn()
+    finally:
+        sys.stdout, sys.stderr = old_out, old_err
+
+
+def update_chapter(bookname: str, chapter_ref: str, title: str, summary: str) -> int:
+    """Persist a new chapter_title/chapter_summary, then enrich via book.py.
+
+    Writes the new title/summary into the chapter's ``chapter.json`` and the
+    matching ``chapters[]`` entry in ``book.json``, then reuses the standard
+    ``enrich`` command (``book.enrich_workflow``) for that chapter. Returns the
+    chapter number.
+    """
+    import book as book_mod  # noqa: PLC0415
+
+    chapters_root = resolve_chapters_root(bookname)
+    chapter_dir, number = _resolve_chapter_dir(chapters_root, chapter_ref)
+
+    title = (title or "").strip()
+    summary = (summary or "").strip()
+
+    # 1. Update the chapter model (chapter.json / model.json).
+    chapter_model = read_chapter_model(chapter_dir)
+    chapter_model["chapter_title"] = title
+    chapter_model["chapter_summary"] = summary
+    # Drop any prior enrichment so the enrich command recreates the tag fresh
+    # instead of carrying older creative context forward.
+    chapter_model.pop("creative_enrichment", None)
+    write_chapter_model(chapter_dir, chapter_model)
+
+    # 2. Update the matching entry in the book plan (book.json / model.json).
+    pipeline = chapter_dir.parents[1]
+    plan_file = pipeline / "book.json"
+    if not plan_file.is_file():
+        plan_file = pipeline / "model.json"
+    plan = read_json(plan_file)
+    for entry in plan.get("chapters", []):
+        if str(entry.get("name")) == str(number) or entry.get("chapter_index") == number:
+            entry["chapter_title"] = title
+            entry["chapter_summary"] = summary
+            break
+    write_json(plan_file, plan)
+
+    # 3. Reuse the standard enrich command for this chapter.
+    _run_silent(lambda: book_mod.enrich_workflow(bookname, str(number)))
+    return number
+
+
+def write_adhoc(bookname: str, chapter_ref: str) -> str:
+    """Write the (already updated/enriched) chapter via the standard command.
+
+    Reuses ``book.write_workflow`` for the selected chapter, then reads back the
+    resulting ``chapter.md`` and returns its text for display.
+    """
+    import book as book_mod  # noqa: PLC0415
+
+    chapters_root = resolve_chapters_root(bookname)
+    chapter_dir, number = _resolve_chapter_dir(chapters_root, chapter_ref)
+
+    _run_silent(lambda: book_mod.write_workflow(bookname, str(number)))
+
+    out_file = chapter_dir / "chapter.md"
+    if not out_file.is_file():
+        raise ValueError(f"Write produced no chapter.md for chapter {number}")
+    return out_file.read_text(encoding="utf-8-sig")
 
 
 def _write_segment(chapter_dir: Path, segment_index: int, text: str) -> Path:
@@ -746,7 +991,9 @@ def _write_segment(chapter_dir: Path, segment_index: int, text: str) -> Path:
     return seg_file
 
 
-def _show_request(number: int, model: str, language: str, prompt: str, label: str = "chapter") -> None:
+def _show_request(number: int, model: str, language: str, prompt: str,
+                  label: str = "chapter", override: str = "",
+                  gist: str = "", storyline: str = "", style: str = "") -> None:
     """Print a single full request (system prompt + user prompt) for -p mode."""
     info(f"\n[{number}] ============ COMPLETE REQUEST ({label}) ============")
     info(f"[{number}] model      = {model}")
@@ -755,7 +1002,7 @@ def _show_request(number: int, model: str, language: str, prompt: str, label: st
     info(f"[{number}] temperature= {TEMPERATURE}")
     info(f"[{number}] top_p      = {TOP_P}")
     info(f"[{number}] think      = False, stream = False")
-    sys_prompt = build_system_prompt(language)
+    sys_prompt = build_system_prompt(language, override, gist, storyline, style)
     info(f"\n[{number}] ----- SYSTEM PROMPT ({len(sys_prompt)} chars) -----")
     info(sys_prompt)
     info(f"[{number}] ----- END SYSTEM PROMPT -----")
@@ -765,6 +1012,66 @@ def _show_request(number: int, model: str, language: str, prompt: str, label: st
     info(f"[{number}] ============ END REQUEST ============\n")
 
 
+def _count_body_words(output: str) -> int:
+    """Count words in the poetry body, ignoring the title/summary headings."""
+    text = output.strip()
+    # If the output uses the structured format, drop the শিরোনাম and সারাংশ sections
+    # and count only the কবিতাঃ body. Headings may be "## " or "# " prefixed.
+    for marker in ("## কবিতাঃ", "# কবিতাঃ", "# কবিতা:", "## কবিতা:"):
+        if marker in text:
+            body = text.split(marker, 1)[1]
+            for end_marker in ("## সারাংশঃ", "# সারাংশঃ", "# সারাংশ:", "## সারাংশ:"):
+                if end_marker in body:
+                    body = body.split(end_marker, 1)[0]
+                    break
+            return len(body.split())
+    return len(text.split())
+
+
+def _ensure_length(number: int, output: str, word_target: int, language: str,
+                   model: str, override: str) -> str:
+    """Extend a short poetry draft until its body is close to word_target.
+
+    When the generated body falls well below the target (under 75%), ask the
+    model to continue the same poem, deepening it without starting over. This
+    iterates up to a few times, growing the body toward the target.
+    """
+    if not word_target or word_target <= 0:
+        return output
+    text = output.strip()
+    current = _count_body_words(text)
+    lower = int(word_target * 0.75)
+    info(f"[{number}] Body words: {current} (target {word_target}, lower {lower})")
+
+    attempts = 0
+    while current < lower and attempts < MAX_RETRIES:
+        attempts += 1
+        extend_prompt = (
+            f"The poem above is currently {current} words but the required length "
+            f"is {word_target} words. Continue and deepen the SAME poem — do not "
+            f"restart, do not add a new title or summary. Weave in more of the "
+            f"riverine and sensory imagery (flora, fauna, silt, monsoon, folk-myth) "
+            f"until the body alone reaches close to {word_target} words. Keep the "
+            f"same voice, language, and structure. Output only the complete, "
+            f"expanded poem body.\n\nExisting poem:\n\n{text}"
+        )
+        info(f"[{number}] Extending body (attempt {attempts}) ...")
+        extended = run_ollama(extend_prompt, language, model, override)
+        if not extended.strip():
+            break
+        text = extended.strip()
+        new_count = _count_body_words(text)
+        info(f"[{number}] After extension: {new_count} body words")
+        if new_count <= current:
+            # No growth; stop to avoid an infinite loop.
+            break
+        current = new_count
+
+    if current < lower:
+        info(f"[{number}] WARNING: body at {current} words, still below target {word_target}")
+    return text
+
+
 def _finish_chapter(chapter_dir: Path, out_file: Path, output: str, previous: bytes | None,
                     version_dir: Path, number: int, elapsed: float) -> None:
     """Archive the prior draft, install the new one, and register it for quality."""
@@ -772,10 +1079,32 @@ def _finish_chapter(chapter_dir: Path, out_file: Path, output: str, previous: by
     register_draft(chapter_dir)
     if backup is not None:
         info(f"[{number}] Previous version -> {backup}")
-    word_target = len(output.split())
-    vlog(f"[{number}] Output: {len(output)} chars, ~{word_target} words")
+    
+    # Word count validation: ensure output is within 75% - 125% of word_target.
+    chapter_model = read_chapter_model(chapter_dir)
+    target = chapter_model.get("word_target", 0)
+    actual = _count_body_words(output)
+    vlog(f"[{number}] Output: {len(output)} chars, ~{actual} body words (Target: {target})")
+    
+    if target > 0:
+        lower = target * 0.75
+        upper = target * 1.25
+        if actual < lower or actual > upper:
+            info(f"[{number}] WARNING: Word count {actual} is outside target range [{int(lower)}-{int(upper)}]")
+    
     info(f"[{number}] Saved -> {out_file} "
          f"({len(output)} chars in {elapsed:.2f}s)")
+
+    # Publish a decoupled notification (in-process + durable transport).
+    bookname = chapter_dir.parents[1].name
+    title = chapter_model.get("chapter_title") or chapter_model.get("name") or str(number)
+    notify.emit(
+        notify.CHAPTER_WRITTEN,
+        bookname,
+        number,
+        title=title,
+        message=f"Chapter {number} written ({len(output)} chars).",
+    )
 
 
 def main() -> int:

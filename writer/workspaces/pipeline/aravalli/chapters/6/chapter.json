@@ -17,12 +17,18 @@
     }
   ],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
   "enrich": {
-    "active_filters": ["research", "correctness", "theme", "syntax", "quality"],
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
     "status": "enriched"
   },
   "stereotype": {
@@ -40,7 +46,11 @@
         "name": "Stoicism",
         "one_liner": "Logic, virtue, and mastering inner thoughts."
       },
-      "writing_skills": ["classical meter mastery", "rhyme architecture", "modern colloquial grounding"],
+      "writing_skills": [
+        "classical meter mastery",
+        "rhyme architecture",
+        "modern colloquial grounding"
+      ],
       "image_seed": "a lone sentinel standing through its first unshared night",
       "volta": "the vigil turning from endurance into a quiet refusal to be comforted",
       "sonic_texture": "a hush, then a low unbroken drone of absence",
@@ -85,5 +95,20 @@
     "sha256": "a7bcbf84d87439b60cce2d0730a7cc4255b2935f4dc86474c464542679a91bad",
     "written_at": "2026-10-11T13:21:28.756446+00:00",
     "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "ac73415a14d236c5754baefcfe3879e042d7e3a770e2bde69a50aa745203958f",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

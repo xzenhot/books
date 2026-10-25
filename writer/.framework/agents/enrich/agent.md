@@ -17,11 +17,13 @@ filters into one pass and records the result in `chapter.json`. You never author
 /book <bookname> enrich <count>|range|*
 ```
 
-- `<count>` / `<range>` / `*` — the chapter scope. The CLI owns the bulk path; a single
-  chapter, a range, or a count is executed agentically, one chapter at a time.
-- In `offline` mode for the bulk (`*` / `all`) path, resolve
-  `python tools/book.py <bookname> enrich [all|*]` from `.framework/offline_registry.md`,
-  display it, and run only after the user confirms.
+- `<count>` / `<range>` / `*` — the chapter scope.
+- **`online`** (the default): execute agentically for **every** scope — including
+  `*` / `all` — never via Python.
+- In `offline` mode, **always** resolve the exact command from
+  `.framework/offline_registry.md` and run it via Python, for **every** scope:
+  `python tools/book.py <bookname> enrich [<n>|range|all|continue]`. Display it and
+  run only after the user confirms.
 
 ## Dispatch (Form Resolution)
 
@@ -59,7 +61,7 @@ researcher:
 
 **Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy
 `.framework/context/poetry/styles/pijush/style.md` if missing, without overwriting a
-human-edited file), then re-ground it from `book.json`, `bookseed.txt`, and `override.txt`
+human-edited file), then re-ground it from `book.json` and `override.txt`
 to this book's topics — keep voice/register, change only the "what".
 
 `chapter.md` is **not** an input; it is authored later by the write/chapter/poet agents.
@@ -89,6 +91,29 @@ Run the fused set over the chapter, producing one enriched `chapter.json` whose
 `state` is `"enriched"`. The result is grounded (traceable to the author's sources),
 form-correct, and ready for the writer.
 
+### Step 4 — Align the Master Prompt with the Gist (after all scoped chapters)
+
+After the **full enrichment scope** has completed (all scoped chapters enriched), and
+only for the `enrich` command path (never for the single-chapter write/style
+prerequisite), customize `workspaces/pipeline/<bookname>/override.txt` so its subject
+matter aligns with `workspaces/pipeline/<bookname>/gist.md`:
+
+1. Read `workspaces/pipeline/<bookname>/gist.md` — the author's declared essence.
+2. Read `workspaces/pipeline/<bookname>/override.txt` — the master craft prompt.
+3. Re-ground the **"what"** of `override.txt` to the gist: keep the author's craft
+   rules, voice, register, and style directives exactly as they are; change only the
+   subject-matter references (premise, protagonist, theme, imagery) so they trace to the
+   gist and never contradict it.
+4. Never introduce subject matter absent from the gist — the gist is the guardrail. If a
+   subject in `override.txt` has drifted from the gist, pull it back to the gist's
+   declared premise rather than inventing a new one.
+5. Preserve the human's own wording where it is already aligned; do not rewrite what
+   already matches. Do not overwrite a human-edited `override.txt` with a wholesale
+   replacement — reconcile it minimally so it stays in step with the gist.
+
+This step runs **once**, after every chapter in the scope has been enriched — not
+per chapter. Report the file written and what was re-grounded.
+
 ## Output
 
 Update `chapters/<n>/chapter.json` without dropping unrelated fields:
@@ -103,9 +128,31 @@ unrelated `chapter.json` fields.
 When invoked for a single chapter whose `chapter.md` is absent, run the procedure above
 for **exactly that chapter** (never interpret it as `enrich <count>`), then hand the
 enriched metadata back. If enrichment fails or yields no record, stop and report — do
-not author prose.
+not author prose. The prerequisite path runs Steps 1–3 only; it must **not** run
+Step 4 (the master-prompt alignment), which is reserved for the full `enrich` command
+after every scoped chapter has been enriched.
 
 ## Report
 
-Report the resolved active filters, the fused order, the chapter processed, and the
-resulting `state`.
+After every enrichment completes, emit a structured report covering:
+
+1. **Scope and form.** The resolved form (`poetry` / `novel`), the chapter scope
+   (`<count>` / `<range>` / `*`), and the total number of chapters processed.
+2. **Active filters.** The resolved active filters in `order` sequence (the fused
+   pass), and which filters were skipped (e.g. `workshop` / `override`, or any
+   `autorun: false`).
+3. **Per-chapter result.** For each chapter enriched: its `chapter_index`, `chapter_title`,
+   the resulting `state` (`enriched`), and any gap left as `"(not in source)"`.
+4. **Master-prompt alignment (Step 4, when it ran).** State that
+   `workspaces/pipeline/<bookname>/override.txt` was re-aligned to
+   `workspaces/pipeline/<bookname>/gist.md`, and enumerate specifically what was
+   re-grounded (the premise/protagonist/theme/imagery references that were pulled
+   back to the gist) versus what was preserved (craft rules, voice, register, style
+   directives, and the human's already-aligned wording).
+5. **Grounding guarantee.** Confirm every enrichment traces to `gist.md` + `storyline.md`
+   and that no subject matter was invented beyond the author's declared world.
+6. **Pending.** Anything left for the write/chapter/poet agents (note that no
+   `chapter.md` was authored here).
+
+If enrichment failed or produced no record, stop and report the failure with the
+specific chapter and reason — do not author prose.

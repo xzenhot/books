@@ -1,0 +1,47 @@
+{
+  "chapter_index": 52,
+  "name": "52",
+  "word_target": 500,
+  "chapter_title": "The Lantern in the Power Cut",
+  "chapter_summary": "A lantern is lit when the power fails, and the poem attends to the small flame that gathers a household back into one circle of light.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the light not as illumination against darkness, but as a temporary material presence—a fragile constellation anchored in the domestic space.",
+      "Treating the *absence* of modern electrical hum (the silence) as an active force that allows older, quieter noises to surface and gain importance.",
+      "Viewing the lantern's flame through the lens of accumulated household history; each flicker momentarily reveals a past action or memory embedded in the room."
+    ],
+    "story_options": [
+      "setting: The main living area, after sudden darkness,, desire: To capture the focused, circular intensity of the light as it pools on one specific domestic object—a set of polished wooden toys or a stack of well-used books., obstacle: The initial jarring shock of the failure, forcing an immediate cessation of modern rhythm and connectivity.",
+      "setting: A small hallway adjacent to where the lantern is lit,, desire: To observe how figures move through the periphery of the light—shadows elongated or fractured—rather than being caught fully within its glow., obstacle: The practical necessity of someone having to fetch the fuel/wick, creating a small, focused drama of momentary labor.",
+      "setting: Outside the immediate dwelling, viewing the lantern through a windowpane,, desire: To see how this single point of light interacts with the surrounding, unlit environment—casting defined edges onto nearby walls or foliage., obstacle: The external world remaining indifferent to the domestic moment, its darkness refusing to be overcome."
+    ],
+    "subject_rotations": [
+      "Focusing on the specific physical mechanics of the lamp (the wick catching fire, the trembling glass casing) as an object lesson in fragile human persistence.",
+      "Using the pattern of light and shadow cast by the flame to map the internal social geography of the family gathered—who is closest to the heat/light source?",
+      "Examining the color quality of the lantern's glow (amber, smoky orange) against the colors used in daily life outside the home (e.g., faded blues or reds)."
+    ],
+    "sensory_details": [
+      "The faint, acrid scent of burning lamp oil mingling with stale indoor air.",
+      "The brittle sound of dried leaves skittering across the pavement just beyond the reach of the lantern's circle.",
+      "The uneven warmth radiating from the glass casing onto an upturned patch of dark cloth."
+    ],
+    "research_questions": [
+      "What specific cultural or historical variations exist regarding the type of oil traditionally used in such lanterns across different regions of India?"
+    ],
+    "structural_variants": [
+      "A circular structure, mirroring the light pool itself: outward expansion into dark edges, followed by a momentary contraction back to the central flame.",
+      "An associative poem where each sentence is triggered not by time passing, but by a flicker or wave of heat from the lamp."
+    ],
+    "variety_note": "Unlike previous chapters focused on concrete items in motion (buses, cycles) or fixed objects (statues), this chapter focuses on an ephemeral source of energy and its resulting altered perceptual reality.",
+    "unused_angles": [
+      "The comparative difference between the glow of manufactured electric light versus the organic heat signature of oil fire.",
+      "How different members of a household react to sudden darkness—fear, curiosity, or immediate practical adaptation."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "chapter_index": 34,
+  "name": "34",
+  "word_target": 500,
+  "chapter_title": "The Postbox at the Corner",
+  "chapter_summary": "A red postbox stands at a street corner, and the poem regards the small iron mouth that swallows words and sends them far away.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The symbolic weight of civic markers in daily life.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the postbox not as a point of departure but as a quiet receiving station—a place where distant lives meet unexpectedly through returned mail or neighborhood notices.",
+      "Viewing the act of depositing mail against the backdrop of transactional life (the market, the queue), contrasting the private weight of correspondence with the public flow of commerce and labor.",
+      "Treating the postbox as a civic anchor point; its fixed presence mediating between the constantly shifting tides of people passing by on the street corner."
+    ],
+    "story_options": [
+      "Setting: The stone plinth around the red box, desire: To observe how hands linger there—a brief pause before dropping letters or retrieving notices—obstacle: A momentary hesitation that turns into a conversation with a passerby.",
+      "Setting: Inside the shadowed recess of the postbox itself (imagined interior), desire: To visualize the tiny geography formed by stacked letters, representing accumulated private desires and official mandates, obstacle: The metallic smell of old ink and waiting parchment.",
+      "Setting: Just as street shadows lengthen towards evening, desire: To watch a single, crucial letter being slid through the slot, an act pregnant with unknown consequences for its recipient, obstacle: A sudden downpour blurring the metal surface."
+    ],
+    "subject_rotations": [
+      "Shifting from the *act* of sending to the *potentiality* of arrival—the letters that are addressed but never claimed.",
+      "Treating the postbox's color (red) not as a national symbol, but as a visual beacon amidst the varied, earthy tones of the street life around it.",
+      "Focusing on the metallic sound and vibration of the slot latch under specific ambient noises—the distant rattle of a vehicle or a vendor's call."
+    ],
+    "sensory_details": [
+      "The cool, slightly gritty transfer of dust from the pavement onto the bright red lacquer of the box.",
+      "The sharp, distinct *clack* sound made by paper catching on the inside edge of the slot upon impact.",
+      "A specific aroma: the mingling scent of baked earth and old sealing wax that clings to the metal casing."
+    ],
+    "research_questions": [
+      "What are the typical types of official notices or public announcements frequently posted in this context that reveal local community structure?",
+      "Are there any established regional variations in the design or color scheme of such street postboxes, and how does this specific red one fit into that taxonomy?"
+    ],
+    "structural_variants": [
+      "A cyclical poem: begin with a sharp focus on the iron texture; introduce narrative motion (people passing) until tension builds; resolve by returning to the absolute stillness of the box itself.",
+      "A fractured sequence: use short, staccato lines that mimic the mechanical function of the slot and drop-off process, interspersed with longer lines describing the life surrounding it."
+    ],
+    "unused_angles": [
+      "How the postbox functions as a passive repository of community grief or celebration (e.g., obituaries versus birth announcements).",
+      "The interaction between graffiti or scuffs on the box and the official, pristine mandate of its function.",
+      "Contrasting the uniformity of the national red with unique stains left by individual hands over time."
+    ],
+    "variety_note": "Unlike the morning pieces which focus on beginnings (chai, vermilion), this poem anchors itself in a point of transition—a fixed hub where private human narratives are momentarily injected into the public sphere. The suggested volta demands shifting perspective away from mere observation toward existential pause or change."
+  }
+}

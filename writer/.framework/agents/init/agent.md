@@ -19,7 +19,7 @@ Init operates entirely inside the backlog:
 
 - **Input/output path:** `workspaces/backlog/<bookname>/`
 - **Gist-only path (`init`, no refresh) creates/edits:** `gist.md` only.
-- **Full path (`init ... refresh` / `layout`) creates/edits:** `gist.md`, `storyline.md`, `book.json`, `progress.json`, and the `materials/` directory (for the user's research materials).
+- **Full path (`init ... refresh` / `layout`) creates/edits:** `gist.md`, `storyline.md`, `book.json`, `progress.json`, `override.txt`, and the `materials/` directory (for the user's research materials).
 - **What you never create:** `workspaces/pipeline/<bookname>/`, `model.json`, chapter folders, or `filters/` directories, and never any subfolder under `workspaces/backlog/<bookname>/` other than `materials/`.
 
 The `materials/` directory holds **research materials** for the book. Init seeds it with a small set of research documents generated from the gist (see *Seeding Research Materials* below); the user may also add their own source texts, notes, images, or references there. `layout` and `init ... refresh` read `materials/` and ground `storyline.md`/`book.json` in it.
@@ -46,6 +46,7 @@ A fully configured backlog folder contains exactly four files. Each has one clea
 | `storyline.md` | The full narrative foundation — premise, setting, characters, themes, chapter outline. The source of truth for a novel's story. |
 | `book.json` | The chapter-layout plan and filter chain — chapter count, per-chapter titles and summaries, characters, subject matter, and the ordered filter/agent sequence. The blueprint for `scaffold`. |
 | `progress.json` | The seeded progress plan — one `pending` entry per chapter (`chapter_number`, `topic`, `category`, `status`, `file_path`, `completed_date`), copied from `.framework/templates/backlog/progress.json` and re-seeded with the plan's actual chapters. `scaffold` copies it verbatim into the pipeline as the initial progress state. |
+| `override.txt` | The backlog master prompt — the book's static identity and mandate (the seed idea plus its craft directives). Seeded from `.framework/templates/backlog/v1/override.txt` (the canonical backlog override template), then human-editable. The layout agent (Phase 2) reads it to derive the pipeline's dynamic master prompt. |
 
 ### gist.md
 
@@ -118,6 +119,17 @@ This file gives the complete hint of how many chapters will be written, how each
 
 For normal init, keep each chapter_summary contextual and informative. Do not force a poetry or prose voice, and do not expand it into a long four-bullet treatment; the summary is a neutral seed that later agents can use for any literary form. Init is the only backlog-plan command; its summaries stay simple and form-neutral. Layout is an alias of init, not a separate workflow.
 
+## Seeding the Backlog Master Prompt
+
+Init seeds `workspaces/backlog/<bookname>/override.txt` — the **backlog master prompt** — from the canonical template `.framework/templates/backlog/v1/override.txt`. This is the book's static identity and mandate: the author's declared premise (the "ভূমিকা"), how to write (the craft rules), and any enriched directives.
+
+Rules:
+
+- **Seed from the template, never invent.** Copy the template verbatim as the initial content. The template is the canonical starting point; init does not author a fresh override mandate on its own.
+- **Fill gaps only.** If `override.txt` already exists, leave it untouched (the human may have edited it). Seed it from the template only when the file is missing.
+- **Human-editable afterwards.** Once seeded, the human owns the file. Init never overwrites a human-edited copy.
+- **Consumed by the layout agent.** The layout agent (Phase 2) reads this backlog `override.txt` to derive the pipeline's dynamic master prompt (`workspaces/pipeline/<bookname>/override.txt`). The backlog file is the idea; the pipeline file is the resolved reality.
+
 ## Seeding Research Materials
 
 Init seeds `workspaces/backlog/<bookname>/materials/` with research documents derived **from the gist** (and, when present, the storyline), so the book starts with grounded source material even before the user adds their own. These are lightweight, factual starters — not the finished story and not a substitute for the research filter.
@@ -162,8 +174,9 @@ When the caller runs `init` **without** `refresh`, write `gist.md` and nothing e
    1. `gist.md` — generate or record the seed idea.
    2. `storyline.md` — build the full narrative foundation from the gist, grounded in any `materials/` content (see *Storyline Generation*).
    3. `book.json` — derive the chapter-layout plan from the storyline and form, and the ordered filter chain from the form's preset (chapter count, per-chapter titles and summaries, characters, subject matter, `filter_chain`, `word_target`).
-   4. `materials/` — create the folder and seed it with research documents derived from the gist (see *Seeding Research Materials*).
-4. **If the gist is present, only fill gaps.** Ensure book.json exists (create if missing); leave gist.md and storyline.md untouched unless the caller explicitly asks to regenerate them. Every new chapter_summary must be a short, form-neutral context derived only from those two files. Ensure `materials/` exists and, if it is empty of both user files and seed files, seed it with the research documents (see *Seeding Research Materials*); never overwrite or delete anything the user has placed there.
+   4. `override.txt` — seed the backlog master prompt from `.framework/templates/backlog/v1/override.txt` (see *Seeding the Backlog Master Prompt*).
+   5. `materials/` — create the folder and seed it with research documents derived from the gist (see *Seeding Research Materials*).
+4. **If the gist is present, only fill gaps.** Ensure book.json exists (create if missing); leave gist.md and storyline.md untouched unless the caller explicitly asks to regenerate them. Every new chapter_summary must be a short, form-neutral context derived only from those two files. Ensure `override.txt` exists (seed it from `.framework/templates/backlog/v1/override.txt` if missing; never overwrite a human-edited copy). Ensure `materials/` exists and, if it is empty of both user files and seed files, seed it with the research documents (see *Seeding Research Materials*); never overwrite or delete anything the user has placed there.
 5. **`layout` rewrites the storyline first.** The `layout` command rewrites `storyline.md` from the gist (grounded in `materials/`), then derives `book.json` from the refreshed storyline. An explicit `<count>` and `<form>` control the resulting plan.
 6. **Parse the ordered sequence.** Read the `filter_chain` field from `book.json` and extract the ordered agent/filter list. Preserve the numeric order exactly. Return only the leading token (e.g. `workshop`).
 7. **Do not scaffold anything.** The init agent must not create `workspaces/pipeline/<bookname>/`, must not create `filters/` directories, and must not run any agent or filter.

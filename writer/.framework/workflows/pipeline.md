@@ -101,7 +101,8 @@ command has an `offline` execution route, the agent resolves the command from
 | `options` / `help` | (workflow-level, read-only) | — |
 
 Offline-capable commands (resolve from `.framework/offline_registry.md`): `scaffold`,
-`publish`, and the bulk (`*`/`all`) routes of `enrich` and `write`.
+`publish`, `enrich`, and `write` — in `offline` mode every scope of these commands
+resolves to Python CLI and runs after user confirmation.
 
 ## Poetry Lifecycle Contract
 
@@ -164,8 +165,8 @@ Responsibility: run one named agent against selected chapters inside an existing
 4. Read the agent file. If the agent needs a skill, it may invoke `.framework/skills/<agentname>/SKILL.md` or another skill as directed by its own instructions; this workflow does not execute skills directly.
 5. Resolve the target chapter(s):
    - A bare `<n>` targets that numbered chapter.
-   - `<chapter>` targets that named chapter (`Introduction`, `Conclusion`, or a topic from `bookseed.txt`).
-   - `all` targets every canonical chapter in order (`Introduction`, `1..N`, `Conclusion` for novels; `bookseed.txt` order for poetry).
+   - `<chapter>` targets that named chapter (`Introduction`, `Conclusion`, or a topic from `book.json`'s `chapters[].chapter_title`).
+   - `all` targets every canonical chapter in order (`Introduction`, `1..N`, `Conclusion` for novels; `book.json` `chapters[]` order for poetry).
    - `continue` targets the first chapter that is pending in `progress.json` or missing the agent's expected upstream input.
 6. For each target chapter, collect its current context: `model.json`, `mood.json` (novel), segment state, upstream filter outputs, the epic (novel), or the topic (poetry).
 7. Pass that context to the agent and let the agent produce its output. Write the output to the location defined by the agent's contract (typically `workspaces/pipeline/<bookname>/filters/<agentname>/` for filter-like agents, or another agent-specific folder).
@@ -216,7 +217,7 @@ folder, filter chain, chapter structure and word target, and source-of-truth fil
 - **Filters never scaffold.** The `filter` command is read/write on existing pipeline data only: it never creates folders, seeds planning artifacts, or runs layout or research scaffold steps.
 - **Archive before replacing drafts.** Every write/chapter/poet agent must copy and verify the existing `chapter.md` as the next `segments/<x>/version/chapter_v<k>.md` before overwriting it; see **Mandatory Draft Version Before Overwrite**.
 - **Version, never overwrite.** Every `write` invocation creates a fresh numeric version under `workspaces/published/<bookname>/`; `write continue` chooses the next pending pipeline chapter, then writes it into that new version folder.
-- **The epic is the single source of truth for a novel's story.** Chapter narratives are drawn from the epic, never invented from the gist. The gist is indicative only. `model.json` + `bookseed.txt` are the source of truth for poetry: `model.json` holds *how* to write (language, register, quality, themes, reference, index); `bookseed.txt` holds *what* to write (one topic per line).
+- **The epic is the single source of truth for a novel's story.** Chapter narratives are drawn from the epic, never invented from the gist. The gist is indicative only. `model.json` is the source of truth for poetry: it holds *how* to write (language, register, quality, themes, reference, index) and *what* to write (the `chapters[]` array, one entry per topic — its `chapter_title` and `chapter_summary`).
 - **Gist vs. summary.** The gist is exactly one sentence (used for `book_long_title`). The book summary is a 5–10 sentence paragraph outlining the complete story, derived from the epic and stored as `book_summary`. When the epic changes, regenerate the gist and update `model.json`.
 - **Read before writing.** Before writing any chapter, read its seed/JSON from the pipeline's `filters/`, including `included_characters` and `quality_parameters` (novel) or the topic and category (poetry).
 - **Agents invoke skills.** Never execute a skill directly from this workflow. Route every skill-backed operation through an agent in `.framework/agents/<name>/agent.md`; the agent may then read and apply `.framework/skills/<name>/SKILL.md`. If the required agent does not exist, create that agent first, then have the agent invoke the skill.
@@ -269,12 +270,12 @@ The current scaffold invariants are:
 **Poetry:**
 1. Do not create any `workspaces/published/` destination during scaffold; reader-facing version folders are created only by the `write` command.
 2. Read poetry settings from the cloned `model.json`; do not replace it with a poetry template or inject extra root fields during scaffold.
-3. Copy or create `bookseed.txt` (human-editable chapter topics). The override command file is `filters/override/filter.md`, seeded by scaffold step 9 from `.framework/filters/override/SKILL.md` (dynamically customized for the poetry form and pipeline context). Do **not** create a pipeline-root `override.md`.
+3. The chapter topics live in `book.json`'s `chapters[]` array (each entry's `chapter_title`/`chapter_summary`); there is no separate topic list. The override command file is `filters/override/filter.md`, seeded by scaffold step 9 from `.framework/filters/override/SKILL.md` (dynamically customized for the poetry form and pipeline context). Do **not** create a pipeline-root `override.md`.
 4. Initialize `progress.json` with all topics pending if it does not already exist, using `.framework/templates/backlog/progress.json` as the template shape.
 
 ### Progress tracking (both forms)
 
-For **poetry**, scaffold `progress.json` at the book pipeline root. The file tracks the writing state of each topic in `bookseed.txt`: total chapters, completed chapters, current chapter, and a per-topic array of `{chapter_number, topic, category, status, file_path, completed_date}`. Use `.framework/templates/backlog/progress.json` as the template shape, but re-seed it with the actual topics and categories from the current pipeline.
+For **poetry**, scaffold `progress.json` at the book pipeline root. The file tracks the writing state of each topic declared in `book.json`'s `chapters[]` array: total chapters, completed chapters, current chapter, and a per-topic array of `{chapter_number, topic, category, status, file_path, completed_date}`. Use `.framework/templates/backlog/progress.json` as the template shape, but re-seed it with the actual topics and categories from the current pipeline.
 
 For **novels**, also scaffold `progress.json` at the book pipeline root. Use the same template shape, but populate it with the novel's canonical chapter order: `Introduction`, `1..N`, `Conclusion`. Set all chapters to `status: "pending"` and `completed_date: null` until written. Update the file after each chapter is written (mark status `completed` and set `completed_date` to the current ISO 8601 timestamp). Before `write continue` or `write all`, read `progress.json` to determine which chapters remain.
 
@@ -395,7 +396,17 @@ Responsibility: fuse the active filters into one combined agent and run it in a 
 - `range` — a `start-end` range targets those chapters inclusive (e.g. `enrich 3-7` → chapters 3,4,5,6,7).
 - `*` (or `all`) — targets every canonical chapter in order.
 
-**Execution route (scope-dependent).** If the target is `*` or `all`, delegate to the repository CLI: resolve the command `python tools/book.py <bookname> enrich [all|*]`. In `offline` mode, **display that command and ask the user to confirm before running it** — do not execute Python yourself. For any other target — a single chapter, a range, a `<count>`, or `continue` — execute agentically via the enrich agent.
+**Execution route (mode-dependent).** Read the book's `factory` (or an explicit
+`offline`/`online` argument) per `.framework/rules/command-boundary.md` before
+choosing a route:
+
+- **`online`** (the default): execute **agentically via the enrich agent** for
+  **every** target — including `all` and `*`. Never route to Python.
+- **`offline`**: **always** resolve the exact command from
+  `.framework/offline_registry.md` and run it via Python — for **every** target,
+  not just `all`/`*`. The command is
+  `python tools/book.py <bookname> enrich [<n>|range|all|continue]`. Display it and
+  ask the user to confirm before running it; do not execute Python yourself.
 
 1. Stop if the pipeline does not exist; use `scaffold` first.
 2. Route the work through the enrich agent at `.framework/agents/enrich/agent.md`. The
@@ -536,12 +547,19 @@ For `/book <bookname> write <n>|range|all|continue <language>` (aliases: `chapte
 Responsibility: turn pipeline filter outputs into finished reader-facing chapters and
 update progress.
 
-**Execution route (scope-dependent).** If the target is `*` or `all`, delegate to
-the repository CLI: resolve the command
-`python tools/book.py <bookname> write [all|*] --style NICK`. In `offline` mode,
-**display that command and ask the user to confirm before running it** — do not
-execute Python yourself. For any other target — a single chapter, a range, or
-`continue` — execute agentically via the write agent.
+**Execution route (mode-dependent).** Read the book's `factory` (or an explicit
+`offline`/`online` argument) per `.framework/rules/command-boundary.md` before
+choosing a route:
+
+- **`online`** (the default): execute **agentically via the write agent** for
+  **every** target — including `all` and `*`. Never route to Python, never run
+  `python tools/book.py ... write`.
+- **`offline`**: **always** resolve the exact command from
+  `.framework/offline_registry.md` and run it via Python — for **every** target,
+  not just `all`/`*`. The command is
+  `python tools/book.py <bookname> write [<n>|range|all|continue] [--style NICK]`.
+  Display it and ask the user to confirm before running it; do not execute
+  Python yourself until the user confirms.
 
 1. Stop if the pipeline does not exist; use `scaffold` first.
 2. Route the writing work through the write agent (`.framework/agents/write/agent.md`),
@@ -588,7 +606,7 @@ book-assembly contract (assembly itself is the publish agent's job).
 |---|---|
 | Storyline (novel source of truth) | `workspaces/backlog/<bookname>/storyline.md` |
 | Book plan & gist (`gist`, `epic_path`, `form` fields) | `workspaces/pipeline/<bookname>/book.json` |
-| Poetry topic index | `workspaces/pipeline/<bookname>/bookseed.txt` |
+| Poetry topic index | `workspaces/pipeline/<bookname>/book.json` (`chapters[].chapter_title`) |
 | Workshop narratives (novel source) | `workspaces/pipeline/<bookname>/filters/workshop/` |
 | Chapter seeds (novel characters & quality) | `workspaces/pipeline/<bookname>/filters/seeds/` |
 | Per-chapter research | `workspaces/pipeline/<bookname>/filters/research/` (novel), `filters/research/` (poetry) |

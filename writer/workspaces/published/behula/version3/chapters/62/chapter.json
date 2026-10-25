@@ -1,0 +1,66 @@
+{
+  "chapter_index": 62,
+  "name": "62",
+  "word_target": 280,
+  "chapter_title": "যৌথ স্বপ্নের নবনির্মাণ",
+  "chapter_summary": "বেহুলা ও লখিন্দরের একসাথে জনকল্যাণমূলক নতুন অধ্যায়ের সূচনা। দুঃখের অভিজ্ঞতাকে মানুষের দুঃখমোচনে ব্যয় করার যুগল সংকল্প।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing their 'joint dream' (যৌথ স্বপ্ন) not as a merger of romantic ideals, but as an architectural endeavor—a conscious rebuilding on foundations laid by shared trauma.",
+      "Shifting the focus from public achievement to the private rituals they establish together; the small acts of companionship that define their new reality.",
+      "Framing the 'rebuilding' through the lens of communal memory—how their joint project serves as a visible monument to endured suffering, rather than merely an engine for commerce."
+    ],
+    "story_options": [
+      "Setting: The initial blueprints laid out on rough parchment; Desire: To agree not just on profit, but on the moral geometry of the future structure; Obstacle: A lingering shadow of past despair that threatens to bleed into the design plans; Turn: They decide the first cornerstone must be cast with soil gathered from their shared river journey.",
+      "Setting: A quiet, early morning meeting overlooking a nascent landscape project site; Desire: To articulate how personal sacrifice transmutes into tangible good for others; Obstacle: The temptation to glorify their own endurance rather than focus on external need; Turn: They agree that the primary function of this new endeavor is not profit, but the silent honoring of those lost in hardship.",
+      "Setting: Inside a workshop or collaborative space filled with raw, unfinished materials; Desire: To find an aesthetic balance between the harsh reality of their past struggle and the delicate promise of renewal; Obstacle: The fear that their shared history will always cast a dark patina on their work; Turn: They choose one design element—a specific pattern or material—as an intentional memorial to what was lost, not as lamentation."
+    ],
+    "subject_rotations": [
+      "Treating the 'dream' not as a singular grand project (like commerce), but as a slow, patient cultural shift within their community.",
+      "Focusing intensely on the mechanics of *sharing* labor and vision—the tangible grammar of collaboration between two resilient souls.",
+      "Exploring how the act of creation becomes a form of defiance against external forces that sought to diminish them (societal judgment/divine wrath)."
+    ],
+    "sensory_details": [
+      "The dry, papery smell of aged plans contrasting with the sharp, clean scent of new-cut wood or fresh earth.",
+      "The texture of intertwined hands resting on a shared surface—showing not just contact, but mutual support in effort.",
+      "A specific sound: the rhythmic tapping or sawing required to shape a material for their joint endeavor, replacing the sound of lament."
+    ],
+    "research_questions": [
+      "What visual metaphors within Bengali art can represent 'reconstruction' or 'renewal' that are distinct from simple repair?",
+      "How can the concept of 'joy built on sorrow' be rendered poetically without descending into sentimental platitude?",
+      "Are there specific traditional crafts mentioned in cultural memory associated with starting new ventures after severe personal loss?"
+    ],
+    "structural_variants": [
+      "A layered structure: an outer stanza describing the grand vision, while inner stanzas detail minute, almost obsessive focus on a single material or joint action.",
+      "An alternating refrain: a short, stark image of their past hardship followed by an expansive description of the current act of building.",
+      "A dialectical movement: presenting the initial tension between personal recovery and social responsibility before resolution."
+    ],
+    "variety_note": "Where earlier chapters focused on resistance against external forces (society/gods), this chapter centers entirely inward, documenting the delicate, constructive alchemy occurring within the pair themselves as they plan their future."
+  },
+  "draft": {
+    "sha256": "e7a695357943a7611111996746210bfeeb71484b7c076fc4f6b6ac836d5d317c",
+    "written_at": "2026-10-21T14:14:40.467781+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "e7a695357943a7611111996746210bfeeb71484b7c076fc4f6b6ac836d5d317c",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T16:19:57+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

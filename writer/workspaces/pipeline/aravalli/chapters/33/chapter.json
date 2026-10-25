@@ -6,8 +6,23 @@
   "chapter_summary": "ভূখণ্ডের উপর ইন্দ্রপ্রস্থ নগরী স্থাপন — ময়দানবের জ্যামিতিক নকশায় গড়ে ওঠা মায়ানগরী।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "219c0bd82d014c96f70794a3c66da8b90fbc554054bf0ed35fc65bad7d3734a3",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

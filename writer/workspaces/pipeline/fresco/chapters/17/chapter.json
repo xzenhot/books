@@ -49,5 +49,18 @@
     "sha256": "7792d197c45e4008b41c73c10a437c16054f3d57a4377c18fefa219f92df7f61",
     "written_at": "2026-10-13T03:08:25.523786+00:00",
     "origin": "write"
-  }
+  },
+  "akshar_target": 14,
+  "caesura": "8+6",
+  "sonnet_mode": true,
+  "volta_line": 9,
+  "calibration_method": "agent_composed_mcp_verified",
+  "rhyme_scheme": "ABAB",
+  "rhyme_families": {
+    "A": ["নীরবতা", "স্তব্ধতা", "নিঃশব্দতা", "ধূসরতা", "নিষ্ক্রিয়তা", "জটিলতা", "আকুলতা"],
+    "B": ["আলো", "কালো", "বলো", "ভালো", "ঢালো", "ধারালো"]
+  },
+  "lines_calibrated": 14,
+  "lines_needs_review": [],
+  "sonnet_calibrated_at": "20261025_230807"
 }

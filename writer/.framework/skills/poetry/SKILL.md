@@ -23,11 +23,28 @@ This skill works on **one chapter at a time** in an existing pipeline, driven by
 
 Before writing, read these files in order:
 
-1. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (the only per-chapter input; never `chapter.md`).
+1. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (the only per-chapter input; never `chapter.md`). Resolve `chapter_title` (the poem's title) and `word_target` (its target length) from here.
 2. `workspaces/pipeline/<bookname>/book.json` — the book identity and summary, if you need broader context.
 3. `workspaces/pipeline/<bookname>/override.txt` — the **master human override** (the author's craft directives). This is mandatory reading on every write; it takes precedence over every default in this skill, including the flatten/continuous-prose rule. Read it before writing.
 4. `workspaces/pipeline/<bookname>/filters/override/filter.md` — the pipeline override command file (always present; created at scaffold). Read its `## Instructions` section for **every** rewrite and apply non-empty instructions to the new version (see *The Override Layer*).
 5. `.framework/context/poetry/styles/<style>/style.md` — the transformer style template (resolve `<style>`, default `pijush`, before reading). If the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity in `style.md` (see *The Style Layer*).
+6. `workspaces/pipeline/<bookname>/gist.md` — the **gist guardrail**: the author's declared essence (one-line high concept + expansion). Anchor the poem's consciousness to it; never drift away from it, and never quote it as your own lines.
+7. `workspaces/pipeline/<bookname>/storyline.md` — the **thematic grounding**: the book's declared themes, imagery, and world. Keep the poem's subject and imagery traceable to it; invent nothing beyond it.
+
+## The Title (mandatory, every write)
+
+Always resolve the poem's title from `chapter.json` → `chapter_title` (fall back
+to `title`). Write the title as the poem's single permitted heading (`# {chapter_title}`)
+at the top of `chapter.md`. Never omit the title, never substitute an invented
+title, and never add any other heading.
+
+## The Word Target (mandatory, every write)
+
+Resolve `word_target` from the chapter's `chapter.json` (then the matching
+`book.json` `chapters[]` entry, then the book-level value). Write as close to
+that length as you can — do not pad to inflate it, and do not cut the thought
+short to undershoot it. A line-count or other length directive in `override.txt`
+or `filters/override/filter.md` wins over this target.
 
 ## Chapter Layout Contract
 
@@ -46,11 +63,12 @@ Before writing, read these files in order:
 ## Rewriting Rules
 
 1. **Flatten.** Remove the **Question**, **Oration**, and **Benediction** headings entirely; merge their prose into continuous paragraphs. The output is flat poetic prose, not a three-section frame.
-2. **Topic and category.** Ground the prose in the chapter's topic and thematic category from `chapter.json` or `bookseed.txt`.
+2. **Topic and category.** Ground the prose in the chapter's topic and thematic category from `chapter.json` (its `chapter_title`/`chapter_summary`).
 3. **Verse qualities.** Use compression, image, anaphora, rhythm, and line-break as instruments. Let metaphors carry abstraction rather than explaining it.
 4. **Honor the signature.** Write in the chapter's assigned signature voice — its movement, motifs, and diction should carry the theme.
-5. **Thread the theme.** Weave the chapter's assigned theme and its essence into the prose's images and turning points.
-6. **Length.** Target 500–800 words unless the pipeline specifies otherwise.
+5. **Thread the theme.** Weave the chapter's assigned theme and its essence into the prose's images and turning points. Keep that theme traceable to `storyline.md` — never invent subject matter, figures, places, or imagery beyond what the storyline and gist declare.
+6. **Stay inside the gist guardrail.** Your consciousness must never drift away from `gist.md`'s declared essence. Treat the gist as an anchor that bounds the poem's premise and tone; never quote it verbatim and never contradict it.
+7. **Length.** Write to the chapter's resolved `word_target` (see *The Word Target*) — reach that length without padding. When no `word_target` is declared, target 500–800 words.
 
 ## The Style Layer (`<style>`, default `pijush`)
 
@@ -138,7 +156,10 @@ lines. Avoid repeating a word within a line or passage; reach for a synonym.
 
 ## Output Format
 
-Write the rewritten chapter to `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` as **flat, continuous poetic prose** — no section headings — **unless the master `override.txt` instructs otherwise** (e.g. line breaks), in which case the override wins and the output follows it. The only heading permitted is the chapter title (`# {chapter_title}`) if the pipeline convention requires a title. Do not add `## Question`, `## Oration`, `## Benediction`, or any other section labels.
+Write the rewritten chapter to `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` as **flat, continuous poetic prose** — no section headings — **unless the master `override.txt` instructs otherwise** (e.g. line breaks), in which case the override wins and the output follows it. Always begin the file with the chapter title as the single permitted heading (`# {chapter_title}`), resolved from `chapter.json`. Do not add `## Question`, `## Oration`, `## Benediction`, or any other section labels.
+
+Write to the chapter's resolved `word_target` (see *The Word Target*); do not
+undershoot it for brevity or pad it with filler.
 
 Do not add extra metadata, comments, or explanation outside the chapter text.
 

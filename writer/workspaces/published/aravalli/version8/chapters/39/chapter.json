@@ -1,0 +1,28 @@
+{
+  "chapter_index": 39,
+  "name": "39",
+  "word_target": 500,
+  "chapter_title": "জ্ঞানের প্রথম সুবাস",
+  "chapter_summary": "তক্ষশীলার গন্ধ ও গান্ধর্ব শিল্প — পাহাড়ের পথ ধরেই বয়ে আসা জ্ঞানের সুবাস।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "4b553dba037e75abae73894bd811b952c8b80996e44f19e35c00bd772cbb0787",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

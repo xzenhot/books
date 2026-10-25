@@ -1,0 +1,83 @@
+# Chapter model context
+
+## chapter_index
+
+72
+
+## name
+
+72
+
+## word_target
+
+280
+
+## chapter_title
+
+জনপদে আত্মবিশ্বাসের জোয়ার
+
+## chapter_summary
+
+এক নারীর অদম্য সংগ্রাম সমগ্র চম্পকনগরের মানুষের মনের ভীরুতা দূর করে দেয়। সত্যের পথে চলার সম্মিলিত সাহস জাগ্রত হয়।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the collective surge of confidence not as a sudden burst of hero worship for Behula, but as an involuntary reflection—the populace mirroring her own suppressed resilience.
+- Positioning the townspeople's change from fear to confidence as a socio-economic shift enabled by restored familial honor and stability (post-tragedy relief).
+- Treating the 'tide of self-confidence' less as divine favor, and more as an organic saturation—a slow seepage of courage into daily routines like market chatter or shared irrigation duties.
+
+### story_options
+
+- Setting: A bustling local marketplace in Champaknagar; Desire: The collective hesitation among vendors breaks when Behula moves through it, their transactions becoming bolder and less guarded. Obstacle: Old societal habits of whispering doubt persist. Turn: One vendor mirrors her resolve by aggressively demanding fair measure.
+- Setting: Along the riverbanks where she once journeyed, now a place of communal gathering; Desire: To watch children play with newfound abandon, unburdened by older anxieties inherited from hardship. Obstacle: The memory of past fear casts long shadows on their activities. Turn: An elderly resident quietly shares a story of ancestral perseverance, connecting current hope to deep tradition.
+- Setting: Inside the public space where community matters are discussed (e.g., village council area); Desire: To hear discussions shift from mitigating risk and avoiding conflict to actively proposing shared improvements for the town's future structure. Obstacle: A conservative voice attempts to pull focus back to tradition/fear. Turn: Behula's quiet presence serves as an unspoken ratification of a new, bolder consensus.
+
+### subject_rotations
+
+- Shifting focus from 'personal triumph' (her victory) to 'communal permission' (the town granting itself the right to believe in fortitude).
+- Analyzing how restored familial honor impacts wider community trust networks—how does her personal vindication stabilize regional economic/social interactions?
+- Treating the confidence not as a singular emotional event, but as a gradual change in *texture* of public interaction (e.g., sharper gazes, more direct speech).
+
+### sensory_details
+
+- The specific, low-frequency hum of communal activity—the sound of many small engines/hands working together against resistance.
+- The grit or fine powder kicked up by confident feet on dusty paths, contrasting with the slick mud of her earlier journeys.
+- The sudden brightness of unfiltered sunlight hitting a newly repaired common structure, suggesting clarity after prolonged shadow.
+
+### research_questions
+
+- How can Bengali poetic diction evoke the sense of accumulated communal 'morale' or psychological weight without using direct, abstract descriptors like 'courage'?
+- What linguistic markers exist in regional dialect to signify a shift from guarded speech (fear) to open address (trust)?
+- In mythic framing, what is the equivalent cultural symbol for widespread societal acknowledgment of personal heroism?
+
+### structural_variants
+
+- A sustained passage that focuses entirely on the *absence* of fear in a crowd—a composition built on negative space and rhythmic surety.
+- An interplay between an external scene (the town) and a highly internal monologue, where Behula observes the tide change while wrestling with her own sense of obligation to carry it.
+
+### unused_angles
+
+- The logistical ripple effect: how restored stability allows for trade or communal rituals previously too risky to undertake.
+- Interrogating whether this newfound confidence is sustainable, or if it merely masks deeper societal insecurities.
+- The role of the forgotten individuals—the laborers, the merchants whose lives were implicitly tied to her ordeal.
+
+### variety_note
+
+This chapter shifts focus outward from Behula's internal endurance (seen in earlier chapters) to its external cultural resonance, examining how one soul’s strength recalibrates the entire social ecosystem of Champaknagar.

@@ -232,3 +232,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# Book.Backend runtime state (tools/mcp)
+tools/mcp/corpus/
+tools/mcp/Content/
+tools/mcp/Data/
+tools/mcp/*.pdb
+tools/mcp/_default*.json
+tools/mcp/_lic.*
+tools/mcp/Select.Html.dep
+tools/mcp/KeyLipika.deps.json
+

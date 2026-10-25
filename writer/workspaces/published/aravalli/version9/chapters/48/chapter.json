@@ -1,0 +1,28 @@
+{
+  "chapter_index": 48,
+  "name": "48",
+  "word_target": 500,
+  "chapter_title": "পাথরের নীরব স্মৃতি",
+  "chapter_summary": "জীবাশ্মের নিঃশব্দ সাক্ষ্য — পাহাড়ের শরীরে সংরক্ষিত বিলুপ্তির আধিভৌতিক হাহাকার।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "ded4b63dcc2fc3ced649b7f5ba7467b054ade8a6f49507d6a42022691c8755df",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

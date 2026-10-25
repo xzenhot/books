@@ -1,0 +1,28 @@
+{
+  "chapter_index": 33,
+  "name": "33",
+  "word_target": 500,
+  "chapter_title": "মায়া নগরীর প্রথম ইট",
+  "chapter_summary": "ভূখণ্ডের উপর ইন্দ্রপ্রস্থ নগরী স্থাপন — ময়দানবের জ্যামিতিক নকশায় গড়ে ওঠা মায়ানগরী।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "0a42192fc566b4b41581524afdad3db5d77b267a6bd55d7baef617e5ba231c55",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

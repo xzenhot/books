@@ -6,7 +6,7 @@
   "chapter_summary": "পাহাড় কাটা মানেই ভূগর্ভের গলা টিপে জল শুকিয়ে দেওয়া — এক প্রাচীন প্রহরীর নিঃশব্দ হত্যা।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -46,5 +46,20 @@
       "line_gesture": "declarative lines that cut",
       "variety_note": "an outcry against the hidden river"
     }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "a0174674fd35a8bbcd5ee4542533aaea1e5e36366e37c685db6ef458e1a14488",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

@@ -6,7 +6,7 @@
   "chapter_summary": "উন্মুক্ত খনির ডায়নামাইট বিস্ফোরণে পাহাড়ের বুক জুড়ে ক্ষতচিহ্ন — ধুলোর আস্তরণে ঢাকা সংগ্রামের দাগ।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -81,5 +81,20 @@
   "stereotype": {
     "signature": "yeats",
     "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "10fc4501ec55675e7f2d056500ffb50f7f8a8b3ef3f7242b4a5a61ca8aa45546",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

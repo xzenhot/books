@@ -8,19 +8,28 @@
   "chapter_count": 84,
   "factory": "online",
   "form": "poetry",
+  "style": "pijush",
   "model": "gemma4:latest",
   "provider": "ollama",
   "book_summary": "আরাবল্লি পৃথিবীর অন্যতম প্রাচীন ভাঁজ পর্বতমালা — প্রোটেরোজোয়িক যুগে টেথিস সাগরের বুক চিরে তার নগ্ন ও রক্তাক্ত উত্থান। চুরাশিটি কবিতার এই সিকোয়েন্স পাহাড়ের জন্ম, একাকীত্ব, লড়াই ও সারভাইভ্যালের জীবন-কাহিনি, যেখানে ভূতত্ত্ব, ইতিহাস, বিলুপ্তি, যৌনতা ও আধুনিকতার টানাপোড়েন মেটাফোর-নির্ভর stream-of-consciousness ধাঁচে, অতিলৌকিক ও রূপকথার ঢঙে ফুটে ওঠে। প্রতিটি কবিতার কেন্দ্রে থাকে কবির প্রিয়তমা সাগরিকা ঘোষের শরীরী বিভঙ্গ, যিনি নিজেও কবিতা লেখেন এবং এই মহাকাব্যের একমাত্র প্রেম-নিবেদন।",
   "created_at": "2026-10-11",
   "user_name": "pijush",
   "gist": "আরাবল্লি পাহাড়কে কেন্দ্র করে একটি কবিতার সিকোয়েন্স — পাহাড়ের জন্ম, একাকীত্ব, লড়াই ও সারভাইভ্যাল; যেখানে ভূতত্ত্ব, ইতিহাস, বিলুপ্তি, যৌনতা ও আধুনিকতার টানাপোড়েন মেটাফোর-নির্ভর stream-of-consciousness ধাঁচে, অতিলৌকিক ও রূপকথার ঢঙে ফুটে ওঠে।",
-  "filter_chain": ["workshop", "research", "correctness", "theme", "syntax", "override", "quality"],
-  "word_target": 500,
+  "filter_chain": [
+    "workshop",
+    "research",
+    "correctness",
+    "theme",
+    "syntax",
+    "override",
+    "quality"
+  ],
+  "word_target": 300,
   "chapters": [
     {
       "chapter_index": 1,
       "name": "1",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "নীল গর্ভের প্রথম কান্না",
       "chapter_summary": "প্রাগৈতিহাসিক টেথিস সাগরের অতল নীল গর্ভে পাহাড়ের প্রথম নড়াচড়া। টেকটনিক প্লেটের ধাক্কায় শিলার নগ্ন উত্থানের সূচনা।",
       "further_references": []
@@ -28,7 +37,7 @@
     {
       "chapter_index": 2,
       "name": "2",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "আদি যুগের নিঃশ্বাস",
       "chapter_summary": "প্রোটেরোজোয়িক যুগের গভীরে জন্ম নেওয়া পৃথিবীর অন্যতম প্রাচীন শিলা। সময়ের শ্বাস যে পাথরে জমে থাকে।",
       "further_references": []
@@ -36,7 +45,7 @@
     {
       "chapter_index": 3,
       "name": "3",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শিলার প্রথম বলিরেখা",
       "chapter_summary": "ফোল্ড মাউন্টেনের প্রথম বাঁক — শিলার শরীরে খোদাই হয়ে যাওয়া পৃথিবীর প্রাচীনতম বলিরেখা।",
       "further_references": []
@@ -44,7 +53,7 @@
     {
       "chapter_index": 4,
       "name": "4",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "দুই মহাদেশের আলিঙ্গন",
       "chapter_summary": "দুটি মহাদেশীয় প্লেটের মুখোমুখি সংঘর্ষে জন্ম নেয় পাহাড়ের দীর্ঘ মেরুদণ্ড। সংঘর্ষই সৃষ্টির ভাষা।",
       "further_references": []
@@ -52,7 +61,7 @@
     {
       "chapter_index": 5,
       "name": "5",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "সূর্যের দিকে প্রথম রক্ত",
       "chapter_summary": "সমুদ্রের গর্ভ ছেড়ে পাহাড়ের রক্তাক্ত উত্থান — প্রথমবার সূর্যের আলো ছুঁয়ে নগ্ন দাঁড়ানো।",
       "further_references": []
@@ -60,7 +69,7 @@
     {
       "chapter_index": 6,
       "name": "6",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "কোটি বছরের একা পাহারা",
       "chapter_summary": "কোটি কোটি বছর ধরে একা দাঁড়িয়ে থাকা প্রাচীন প্রহরীর প্রথম রাত। ঝড়, খরা ও বরফযুগের সঙ্গে একাকী লড়াই।",
       "further_references": []
@@ -68,7 +77,7 @@
     {
       "chapter_index": 7,
       "name": "7",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "পাথরের ঘামের ঝিলিক",
       "chapter_summary": "পাহাড়ের গায়ে জমে থাকা ফলসপার, কোয়ার্টজ ও খনিজ লবণের দাগ আসলে দীর্ঘ সংগ্রামের ঘাম।",
       "further_references": []
@@ -76,7 +85,7 @@
     {
       "chapter_index": 8,
       "name": "8",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "হিমের চুম্বনে ঘুম",
       "chapter_summary": "বরফযুগের হিমানী পাহাড়ের চূড়া ঘেঁষে নেমে যায়। শীতের স্পর্শে পাথরের গভীরে জমে টিকে থাকার জেদ।",
       "further_references": []
@@ -84,7 +93,7 @@
     {
       "chapter_index": 9,
       "name": "9",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "আগুনের চুমুর দাগ",
       "chapter_summary": "উল্কাপাতের জ্বলন্ত আঘাতে পাহাড়ের বুকে চিরস্থায়ী ক্ষত। আকাশ থেকে নামা আগুনও পাথরকে ভাঙতে পারেনি।",
       "further_references": []
@@ -92,7 +101,7 @@
     {
       "chapter_index": 10,
       "name": "10",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "সময়ের দীর্ঘতম স্মৃতি",
       "chapter_summary": "৩.৬ বিলিয়ন বছরের শিলার সাক্ষ্য — সময়ের সবচেয়ে দীর্ঘ স্মৃতি এক পাহাড়ের শরীরে আটকে আছে।",
       "further_references": []
@@ -100,7 +109,7 @@
     {
       "chapter_index": 11,
       "name": "11",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "যে আগে দাঁড়িয়েছিল",
       "chapter_summary": "হিমালয়ের জন্মের বহু কোটি বছর আগে যে পাহাড় দাঁড়িয়েছিল, সে আজও বেঁচে — সবচেয়ে প্রাচীন সাক্ষী।",
       "further_references": []
@@ -108,7 +117,7 @@
     {
       "chapter_index": 12,
       "name": "12",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "পাথরের শিরায় রক্ত",
       "chapter_summary": "পাহাড়ের শরীরে বয়ে চলা শিরা — তামা, দস্তা, সীসার আকরিক আর মার্বেলের শুভ্র রক্ত। খনিজ শরীরের প্রথম পরিচয়।",
       "further_references": []
@@ -116,7 +125,7 @@
     {
       "chapter_index": 13,
       "name": "13",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "লাল ধাতুর আগুন",
       "chapter_summary": "খেতরি অঞ্চলের তামার খনি — পাহাড়ের ধমনীতে জমে থাকা আগুনের মতো লাল ধাতু। প্রাচীন সভ্যতার প্রথম রক্ত।",
       "further_references": []
@@ -124,7 +133,7 @@
     {
       "chapter_index": 14,
       "name": "14",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "ভারী ধাতুর নিঃশব্দ ঘুম",
       "chapter_summary": "জাওয়ার খনির দস্তা ও সীসা — পাহাড়ের গভীরে চাপা পড়ে থাকা ভারী ও নিঃশব্দ ধাতু।",
       "further_references": []
@@ -132,7 +141,7 @@
     {
       "chapter_index": 15,
       "name": "15",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শুভ্র পাথরের চাঁদ",
       "chapter_summary": "বিশ্বখ্যাত মাকড়ানা মার্বেল — যে শুভ্র পাথর দিয়ে তাজমহল তৈরি হয়েছে। পাহাড়ের দেহ থেকে উঠে আসা সমাধির শ্বেতপাথর।",
       "further_references": []
@@ -140,7 +149,7 @@
     {
       "chapter_index": 16,
       "name": "16",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শ্বেত সমাধির জন্মদাত্রী",
       "chapter_summary": "আগ্রার শ্বেত সমাধি আসলে আরাবল্লিরই কন্যা — পাহাড়ের মার্বেল প্রেমিকের জন্য সমাধিতে পরিণত হয়।",
       "further_references": []
@@ -148,7 +157,7 @@
     {
       "chapter_index": 17,
       "name": "17",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "গোলাপি আলোর ঘুম",
       "chapter_summary": "গোলাপি কোয়ার্টজ ও স্ফটিকের স্বচ্ছ আলো — পাহাড়ের বুকের ভেতরে ঘুমিয়ে থাকা কোমলতা।",
       "further_references": []
@@ -156,7 +165,7 @@
     {
       "chapter_index": 18,
       "name": "18",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "বুক খোলার মানুষ",
       "chapter_summary": "পাহাড়ের বুক কেটে ধাতু তোলা শ্রমিকের ঘাম ও রক্ত — যে মানুষ পাথরের শিরা খুলে দেয়।",
       "further_references": []
@@ -164,7 +173,7 @@
     {
       "chapter_index": 19,
       "name": "19",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "বিস্ফোরণের ব্যথা",
       "chapter_summary": "উন্মুক্ত খনির ডায়নামাইট বিস্ফোরণে পাহাড়ের বুক জুড়ে ক্ষতচিহ্ন — ধুলোর আস্তরণে ঢাকা সংগ্রামের দাগ।",
       "further_references": []
@@ -172,7 +181,7 @@
     {
       "chapter_index": 20,
       "name": "20",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "ধুলোর পাতলা কাফন",
       "chapter_summary": "খনি থেকে ওঠা ধুলো পাহাড়ের গায়ে জমে — প্রাচীন শিলার বুকে আধুনিক নিষ্পেষণের সূক্ষ্ম কাফন।",
       "further_references": []
@@ -180,7 +189,7 @@
     {
       "chapter_index": 21,
       "name": "21",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "খোদাইয়ের দাগে লেখা",
       "chapter_summary": "যে পাহাড় শুধু পাথর নয়, তার ধমনীতে জমে থাকা মূল্যবান আকরিকই তার খোদাই করা বুকের কারণ।",
       "further_references": []
@@ -188,7 +197,7 @@
     {
       "chapter_index": 22,
       "name": "22",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "পাথরের লাল শিরা",
       "chapter_summary": "পাহাড়ের রক্তই তার খনিজ — তামা, দস্তা, মার্বেল একসঙ্গে বইছে সেই শিরায়, যা মানুষ লুট করছে।",
       "further_references": []
@@ -196,7 +205,7 @@
     {
       "chapter_index": 23,
       "name": "23",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "সবুজের দেওয়াল",
       "chapter_summary": "উত্তর-পশ্চিম ভারতের প্রাকৃতিক সবুজ প্রাচীর — থর মরুভূমির ধূলিঝড় আটকে পূর্বের উর্বর জনপদকে রক্ষা।",
       "further_references": []
@@ -204,7 +213,7 @@
     {
       "chapter_index": 24,
       "name": "24",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "মরুর ধুলোর আক্রমণ",
       "chapter_summary": "পশ্চিমের থর মরুভূমির ধূলিঝড় — আরাবল্লির দেয়ালে ধাক্কা খেয়ে থেমে যায় মরুভূমির বিস্তার।",
       "further_references": []
@@ -212,7 +221,7 @@
     {
       "chapter_index": 25,
       "name": "25",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "গভীরে জমা জলের স্বপ্ন",
       "chapter_summary": "যমুনা ও বানাস নদীর অববাহিকার ভূগর্ভস্থ জলাধার — পাহাড়ের ফাটল দিয়ে রিচার্জ হয় জলের প্রাণ।",
       "further_references": []
@@ -220,7 +229,7 @@
     {
       "chapter_index": 26,
       "name": "26",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "পাথরের ভেতরে গোপন নদী",
       "chapter_summary": "বানাস নদীর ভূগর্ভস্থ অ্যাকুইফার পাহাড়ের উপত্যকায় পুনরুজ্জীবিত হয় — পাথরের ভেতরে জলের গোপন নদী।",
       "further_references": []
@@ -228,7 +237,7 @@
     {
       "chapter_index": 27,
       "name": "27",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "অদৃশ্য জলের পথ",
       "chapter_summary": "পাহাড়ের ফাটল ও উপত্যকায় বয়ে চলা অদৃশ্য নদী — যে জল মানুষ দেখে না, অথচ তাতেই বেঁচে থাকে জনপদ।",
       "further_references": []
@@ -236,7 +245,7 @@
     {
       "chapter_index": 28,
       "name": "28",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শুকিয়ে দেওয়া প্রাণ",
       "chapter_summary": "পাহাড় কাটা মানেই ভূগর্ভের গলা টিপে জল শুকিয়ে দেওয়া — এক প্রাচীন প্রহরীর নিঃশব্দ হত্যা।",
       "further_references": []
@@ -244,7 +253,7 @@
     {
       "chapter_index": 29,
       "name": "29",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "মরুর ক্ষুধার্ত মুখ",
       "chapter_summary": "প্রাচীর ভেঙে গেলে থর মরুভূমির গ্রাস পূর্বের সবুজকে গিলে নেয় — এক পরিবেশগত ট্র্যাজেডি।",
       "further_references": []
@@ -252,7 +261,7 @@
     {
       "chapter_index": 30,
       "name": "30",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "তৃষ্ণার খোদাই",
       "chapter_summary": "খনি ও পাহাড় কাটায় ভূগর্ভস্থ জলাধার শুকিয়ে যায় — ভবিষ্যতের তৃষ্ণা পাথরের বুকে খোদাই হয়ে থাকে।",
       "further_references": []
@@ -260,7 +269,7 @@
     {
       "chapter_index": 31,
       "name": "31",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "ফলবান মাটির আশীর্বাদ",
       "chapter_summary": "আরাবল্লির সুরক্ষায় বেঁচে থাকা পূর্বের উর্বর জনপদ — সবুজ প্রাচীরের আশীর্বাদে ফলবান মাটি।",
       "further_references": []
@@ -268,7 +277,7 @@
     {
       "chapter_index": 32,
       "name": "32",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "জল ও পাথরের আদিম প্রতিশ্রুতি",
       "chapter_summary": "জল ও পাথরের এক আদিম চুক্তি — পাহাড় জল ধরে রাখে, জল জনপদকে বাঁচায়; এই ভারসাম্যই টিকে থাকার শর্ত।",
       "further_references": []
@@ -276,7 +285,7 @@
     {
       "chapter_index": 33,
       "name": "33",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "মায়া নগরীর প্রথম ইট",
       "chapter_summary": "ভূখণ্ডের উপর ইন্দ্রপ্রস্থ নগরী স্থাপন — ময়দানবের জ্যামিতিক নকশায় গড়ে ওঠা মায়ানগরী।",
       "further_references": []
@@ -284,7 +293,7 @@
     {
       "chapter_index": 34,
       "name": "34",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "দানবের আঁকা জ্যামিতি",
       "chapter_summary": "ময়দানবের জ্যামিতিক নগর-নকশা — প্রাচীন স্থাপত্যের রেখা পাহাড়ের সঙ্গে মিশে যায়।",
       "further_references": []
@@ -292,7 +301,7 @@
     {
       "chapter_index": 35,
       "name": "35",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "হরফে জন্ম নেওয়া ধ্বনি",
       "chapter_summary": "সেই নদীর তীরে লেখা হলো দেবনাগরী — হরফে হরফে প্রাচীন সভ্যতার প্রথম ধ্বনি।",
       "further_references": []
@@ -300,7 +309,7 @@
     {
       "chapter_index": 36,
       "name": "36",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "পবিত্র বাণীর তীর",
       "chapter_summary": "বেদ-গীতার পঙক্তি সেই নদীর তীরে রচিত — পবিত্র বাণী পাহাড়ের ছায়ায় জন্ম নেয়।",
       "further_references": []
@@ -308,7 +317,7 @@
     {
       "chapter_index": 37,
       "name": "37",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "যুদ্ধের আগে ও পরে",
       "chapter_summary": "মহাভারতের আগে ও পরের রূপকথা — কল্পকথার ছায়া পাহাড়ের চূড়ায় পড়ে থাকে।",
       "further_references": []
@@ -316,7 +325,7 @@
     {
       "chapter_index": 38,
       "name": "38",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "ষোলো রাজ্যের ধুলি",
       "chapter_summary": "ষোড়শ মহাজনপদের ধুলি — প্রাচীন ভারতের রাজ্যগুলোর মানচিত্র পাহাড়ের পাদদেশে ছড়িয়ে।",
       "further_references": []
@@ -324,7 +333,7 @@
     {
       "chapter_index": 39,
       "name": "39",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "জ্ঞানের প্রথম সুবাস",
       "chapter_summary": "তক্ষশীলার গন্ধ ও গান্ধর্ব শিল্প — পাহাড়ের পথ ধরেই বয়ে আসা জ্ঞানের সুবাস।",
       "further_references": []
@@ -332,7 +341,7 @@
     {
       "chapter_index": 40,
       "name": "40",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শীতল রাজসভার প্রহর",
       "chapter_summary": "সম্রাট বিন্দুসারের রাজসভা — পাহাড়ের পাদদেশে প্রাচীন ক্ষমতার ঠান্ডা প্রমাদ কক্ষ।",
       "further_references": []
@@ -340,7 +349,7 @@
     {
       "chapter_index": 41,
       "name": "41",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "পাথরে খোদাই শান্তি",
       "chapter_summary": "সম্রাট অশোকের অনুশাসনের শিলালিপি — পাথরে খোদাই করা ধর্ম ও শান্তির বাণী।",
       "further_references": []
@@ -348,7 +357,7 @@
     {
       "chapter_index": 42,
       "name": "42",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "বিজয়ীর ঘোড়ার ধুলো",
       "chapter_summary": "আলেকজান্ডারের ঘোড়ার খুরের ধুলো — পাহাড়ের পথে বয়ে যাওয়া আক্রমণের পদধ্বনি।",
       "further_references": []
@@ -356,7 +365,7 @@
     {
       "chapter_index": 43,
       "name": "43",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "হরপ্পারও আগে",
       "chapter_summary": "হরপ্পারও আগে সোথি-সিসওয়াল পর্যায় — কালিবঙ্গন ও কুনালের মানুষ পাহাড়ের খনি থেকে তামা তুলত।",
       "further_references": []
@@ -364,7 +373,7 @@
     {
       "chapter_index": 44,
       "name": "44",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শিলায় জমা পদচিহ্ন",
       "chapter_summary": "ইতিহাসের রেশ পাহাড়ের রক্তস্রোতে বয়ে যায় — প্রতিটি সভ্যতার পদচিহ্ন শিলায় জমে থাকে।",
       "further_references": []
@@ -372,7 +381,7 @@
     {
       "chapter_index": 45,
       "name": "45",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "দৈত্যের ছাই",
       "chapter_summary": "ডাইনোসরের হাড়ের গুঁড়ো পাহাড়ের বুকে চাপা — বিলুপ্ত দৈত্যদের সূক্ষ্ম ছাই।",
       "further_references": []
@@ -380,7 +389,7 @@
     {
       "chapter_index": 46,
       "name": "46",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "হারানো আকাশের পালক",
       "chapter_summary": "হারিয়ে যাওয়া পাখির পালক — আকাশে আর নেই, অথচ তার পালক পাহাড়ের ফাটলে জমে আছে।",
       "further_references": []
@@ -388,7 +397,7 @@
     {
       "chapter_index": 47,
       "name": "47",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শুকিয়ে যাওয়া সবুজ",
       "chapter_summary": "শুকিয়ে যাওয়া লতাগুল্মের জীবাশ্ম — একসময়ের সবুজ প্রাণ এখন পাথরের স্মৃতিচিহ্ন।",
       "further_references": []
@@ -396,7 +405,7 @@
     {
       "chapter_index": 48,
       "name": "48",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "পাথরের নীরব স্মৃতি",
       "chapter_summary": "জীবাশ্মের নিঃশব্দ সাক্ষ্য — পাহাড়ের শরীরে সংরক্ষিত বিলুপ্তির আধিভৌতিক হাহাকার।",
       "further_references": []
@@ -404,7 +413,7 @@
     {
       "chapter_index": 49,
       "name": "49",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "হারানো নদীর কান্না",
       "chapter_summary": "অদৃশ্য সরস্বতী নদীর হারিয়ে যাওয়া স্রোতধ্বনি — যে নদী আজ লুপ্ত, তার জল পাহাড়ের গভীরে কাঁদে।",
       "further_references": []
@@ -412,7 +421,7 @@
     {
       "chapter_index": 50,
       "name": "50",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শুকনো খাতের প্রার্থনা",
       "chapter_summary": "সরস্বতীর শুকিয়ে যাওয়া পথ — যেখানে একসময় জল বইত, এখন ধুলো আর নীরবতা।",
       "further_references": []
@@ -420,7 +429,7 @@
     {
       "chapter_index": 51,
       "name": "51",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "লুপ্ত ঝরনার স্বপ্ন",
       "chapter_summary": "লুপ্ত সরস্বতীর আদিম উৎস — পাহাড়ের নাভিতে লুকিয়ে থাকা সেই ঝরনা, যেখানে আজও জলের নেশা।",
       "further_references": []
@@ -428,7 +437,7 @@
     {
       "chapter_index": 52,
       "name": "52",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "মুছে যাওয়া নামের শোক",
       "chapter_summary": "বিলুপ্ত প্রজাতি ও শুকনো নদীর আধিভৌতিক হাহাকার — পাহাড়ের বুক থেকে ওঠা শোকের প্রতিধ্বনি।",
       "further_references": []
@@ -436,7 +445,7 @@
     {
       "chapter_index": 53,
       "name": "53",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শেষ প্রাণের বিদায়",
       "chapter_summary": "একটি প্রজাতির শেষ নিঃশ্বাস — পাহাড়ের ইতিহাসে আরেকটি নাম চিরতরে মুছে যাওয়া।",
       "further_references": []
@@ -444,7 +453,7 @@
     {
       "chapter_index": 54,
       "name": "54",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "বিলুপ্তির পাথরে লেখা",
       "chapter_summary": "পাহাড়ই বিলুপ্তির স্মৃতির শিলালিপি — প্রতিটি জীবাশ্মে লেখা থাকে হারিয়ে যাওয়া পৃথিবীর নাম।",
       "further_references": []
@@ -452,7 +461,7 @@
     {
       "chapter_index": 55,
       "name": "55",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "প্রথম বণিকের যাত্রা",
       "chapter_summary": "পাহাড়ের পথ ধরে প্রাচীন ভারতের আদিম বাণিজ্য বহর — সিল্ক ও ধাতুর কারবারের প্রথম যাত্রা।",
       "further_references": []
@@ -460,7 +469,7 @@
     {
       "chapter_index": 56,
       "name": "56",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "জ্ঞান থেকে ধনের পথ",
       "chapter_summary": "তক্ষশীলা থেকে মগধ পর্যন্ত বয়ে চলা বাণিজ্য — পাহাড়ের পথ ধরে জ্ঞান ও সম্পদের আদান-প্রদান।",
       "further_references": []
@@ -468,7 +477,7 @@
     {
       "chapter_index": 57,
       "name": "57",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "জ্বরের উপত্যকা পেরিয়ে",
       "chapter_summary": "ম্যালেরিয়া আক্রান্ত উপত্যকা পেরিয়ে বণিকদের কাফেলা — বিপদের ভেতর দিয়েই গড়ে ওঠে বাণিজ্যের সড়ক।",
       "further_references": []
@@ -476,7 +485,7 @@
     {
       "chapter_index": 58,
       "name": "58",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "মরুতে বেজে ওঠা ঘণ্টা",
       "chapter_summary": "উটের কাফেলার ঘণ্টা ও ধুলো — মরুভূমির বুকে ধীরে ধীরে বয়ে চলা মুনাফার যাত্রা।",
       "further_references": []
@@ -484,7 +493,7 @@
     {
       "chapter_index": 59,
       "name": "59",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "রেশমের ধমনী",
       "chapter_summary": "সিল্ক ও ধাতুর কারবারের প্রাচীন সড়ক — পাহাড়ের গা বেয়ে বয়ে যাওয়া সম্পদের ধমনী।",
       "further_references": []
@@ -492,7 +501,7 @@
     {
       "chapter_index": 60,
       "name": "60",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "তামার গর্ভ",
       "chapter_summary": "তাম্রযুগের খনি — পাহাড়ের তামা দিয়েই গড়ে ওঠে প্রাচীন সভ্যতার হাতিয়ার ও অলংকার।",
       "further_references": []
@@ -500,7 +509,7 @@
     {
       "chapter_index": 61,
       "name": "61",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "লাভের প্রথম জ্বর",
       "chapter_summary": "বণিকের খাতায় প্রথম মুনাফা — পাহাড়ের ধাতু দিয়ে জমে ওঠে প্রাচীন পুঁজির প্রথম স্তূপ।",
       "further_references": []
@@ -508,7 +517,7 @@
     {
       "chapter_index": 62,
       "name": "62",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "শূন্যের জপমালা",
       "chapter_summary": "ব্যবসায়ীর খাতার শূন্যের স্তম্ভ — পাহাড়ের সম্পদের হিসেব যেখানে কলামে কলামে বন্দি।",
       "further_references": []
@@ -516,7 +525,7 @@
     {
       "chapter_index": 63,
       "name": "63",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "ক্ষমতার পাহাড়ে ভোর",
       "chapter_summary": "রাইসিনা হিলসে ভারতের রাষ্ট্রপতি ভবন — প্রাচীন পাহাড়ের উপরে আধুনিক ক্ষমতার আসন।",
       "further_references": []
@@ -524,7 +533,7 @@
     {
       "chapter_index": 64,
       "name": "64",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "প্রাসাদের দীর্ঘ ছায়া",
       "chapter_summary": "রাষ্ট্রপতি ভবনের ছায়া পাহাড়ের গায়ে পড়ে — ক্ষমতার স্থাপত্য প্রাচীন শিলার উপর চাপিয়ে দেওয়া।",
       "further_references": []
@@ -532,7 +541,7 @@
     {
       "chapter_index": 65,
       "name": "65",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "কাঁচের বনে জেগে ওঠা",
       "chapter_summary": "গুরগ্রামের সুউচ্চ কাঁচ-কংক্রিটের স্কাইলাইন — আধুনিক শহরের কৃত্রিম চূড়া পাহাড়কে গিলে খাচ্ছে।",
       "further_references": []
@@ -540,7 +549,7 @@
     {
       "chapter_index": 66,
       "name": "66",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "কংক্রিটের নিঃশ্বাস",
       "chapter_summary": "ফরিদাবাদের কংক্রিটের জঙ্গল — প্রাকৃতিক ফুসফুসের উপর ক্রমে গড়ে ওঠা যান্ত্রিক প্রাচীর।",
       "further_references": []
@@ -548,7 +557,7 @@
     {
       "chapter_index": 67,
       "name": "67",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "মাটির দলিলের ক্ষুধা",
       "chapter_summary": "রিয়েল এস্টেটের গ্রাস — পাহাড়ের গ্রিন বেল্ট বা প্রাকৃতিক ফুসফুসকে গিলে খাওয়া আধুনিক টানাপোড়েন।",
       "further_references": []
@@ -556,7 +565,7 @@
     {
       "chapter_index": 68,
       "name": "68",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "ন্যায়ের তরবারি, পাথরের বুক",
       "chapter_summary": "সুপ্রিম কোর্টের আইনি লড়াই — পাহাড় রক্ষার দীর্ঘ আইনি টানাপোড়েন ও বিচারের প্রহর।",
       "further_references": []
@@ -564,7 +573,7 @@
     {
       "chapter_index": 69,
       "name": "69",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "সবুজের শেষ কান্না",
       "chapter_summary": "পরিবেশবাদীদের আর্তনাদ — পাহাড় বাঁচানোর নীরব ও জোরালো কণ্ঠ, যা কংক্রিটের শব্দে চাপা পড়ে।",
       "further_references": []
@@ -572,7 +581,7 @@
     {
       "chapter_index": 70,
       "name": "70",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "সবুজ ফুসফুসের শেষ নিঃশ্বাস",
       "chapter_summary": "গ্রিন বেল্টের ধীরে ধীরে মৃত্যু — পাহাড়ের সবুজ ফুসফুস শহুরে আগ্রাসনে নিঃশ্বাস বন্ধ করে দেয়।",
       "further_references": []
@@ -580,7 +589,7 @@
     {
       "chapter_index": 71,
       "name": "71",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "আয়নায় দেখা প্রাচীন পাহাড়",
       "chapter_summary": "কাঁচ-কংক্রিটের চূড়ার আয়নায় প্রতিফলিত প্রাচীন পাহাড় — আধুনিকতা তার নিজের অহংকারে পাথরকে দেখে।",
       "further_references": []
@@ -588,7 +597,7 @@
     {
       "chapter_index": 72,
       "name": "72",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "যন্ত্রের শহরে শিলার শ্বাস",
       "chapter_summary": "আধুনিক শহরের নিঃশ্বাসে পাহাড়ের ধুলো মেশে — যান্ত্রিক যুগের ফুসফুসে প্রাচীন শিলার শেষ শ্বাস।",
       "further_references": []
@@ -596,7 +605,7 @@
     {
       "chapter_index": 73,
       "name": "73",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "সাগরিকার নাম",
       "chapter_summary": "প্রেমিকা সাগরিকা ঘোষের নাম — যিনি নিজেও কবিতা লেখেন, এবং প্রতিটি কবিতায় প্রেম নিবেদিত হয় তাকে।",
       "further_references": []
@@ -604,7 +613,7 @@
     {
       "chapter_index": 74,
       "name": "74",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "উত্তুঙ্গ বক্ষের তরঙ্গ",
       "chapter_summary": "সাগরিকার উন্নত বক্ষের তরঙ্গভঙ্গ — যা আরাবল্লির খাড়া রূক্ষ চূড়াকেও লজ্জা দেয় এবং টেথিসের মৃতবুকে নতুন জোয়ার তোলে।",
       "further_references": []
@@ -612,7 +621,7 @@
     {
       "chapter_index": 75,
       "name": "75",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "রক্তিম লিপস্টিক",
       "chapter_summary": "সাগরিকার ঠোঁটের রক্তিম লিপস্টিক — তক্ষশীলার গুপ্ত গুহায় নরমেধ যজ্ঞের সদ্য ঝরে পড়া উষ্ণ রক্তের মতো গাঢ়।",
       "further_references": []
@@ -620,7 +629,7 @@
     {
       "chapter_index": 76,
       "name": "76",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "কোমরের খাজ",
       "chapter_summary": "সাগরিকার কোমরের তীব্র গভীর খাজ — যার মায়াবী বাঁকে হারিয়ে যায় মহাভারতের প্রাগৈতিহাসিক রূপকথা ও ষোড়শ মহাজনপদের মানচিত্র।",
       "further_references": []
@@ -628,7 +637,7 @@
     {
       "chapter_index": 77,
       "name": "77",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "হাই হিলের পদাঘাত",
       "chapter_summary": "সাগরিকার হাই হিলের তীক্ষ্ণ পদাঘাত — কংক্রিটে আঘাত হানার সময় প্রাচীন ভূত্বক ও অশোকের শিলালিপিকে মুচড়ে দেয়।",
       "further_references": []
@@ -636,7 +645,7 @@
     {
       "chapter_index": 78,
       "name": "78",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "উড়ে আসা চুল",
       "chapter_summary": "সাগরিকার উড়ে আসা অবাধ্য চুল — যার প্রতিটি আষ্টেপৃষ্ঠে জড়িয়ে থাকে আলেকজান্ডারের ঘোড়ার খুরের ধুলো ও গান্ধর্ব শিল্পের নিষিদ্ধ সুবাস।",
       "further_references": []
@@ -644,7 +653,7 @@
     {
       "chapter_index": 79,
       "name": "79",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "গরম নিঃশ্বাস",
       "chapter_summary": "সাগরিকার গরম নিঃশ্বাসের কামোদ্দীপক বাষ্প — যা বিন্দুসারের রাজসভার শীতল প্রমাদ কক্ষকে মুহূর্তে দাবানলে পরিণত করে।",
       "further_references": []
@@ -652,7 +661,7 @@
     {
       "chapter_index": 80,
       "name": "80",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "চোখের কাজল",
       "chapter_summary": "সাগরিকার চোখের কাজলের গাঢ় অতল — যার দৃষ্টিতে তাকালেই মনে হয় প্রাচীন তন্ত্রসাধনার মায়াজালে পা দিয়েছে আধুনিক মানুষ।",
       "further_references": []
@@ -660,7 +669,7 @@
     {
       "chapter_index": 81,
       "name": "81",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "নগ্ন উরুর বিস্তার",
       "chapter_summary": "সাগরিকার নগ্ন উরুর বিজয়ী বিস্তার — প্রাচীন নর্তকীর ভঙ্গি মনে করিয়ে দেয়, যার প্রতিচ্ছবিতে কেঁপে ওঠে আধুনিক মেট্রোপলিস।",
       "further_references": []
@@ -668,7 +677,7 @@
     {
       "chapter_index": 82,
       "name": "82",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "নখের আঁচড়",
       "chapter_summary": "সাগরিকার নখের আঁচড় ও বন্য শিকারী প্রবৃত্তি — প্রেম নিবেদনের ছলে পুরুষের বুকে এঁকে দেয় আদিম সারভাইভ্যালের নিষ্ঠুর দলিল।",
       "further_references": []
@@ -676,7 +685,7 @@
     {
       "chapter_index": 83,
       "name": "83",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "নাভিকূপের আবর্তন",
       "chapter_summary": "সাগরিকার নাভিকূপের গভীর আবর্তন — যার গভীরে লুকিয়ে আছে সরস্বতীর শুকিয়ে যাওয়া নদীর আদিম উৎস, যেখানে জলের নেশায় ডুব দিতে চায় পাহাড়।",
       "further_references": []
@@ -684,7 +693,7 @@
     {
       "chapter_index": 84,
       "name": "84",
-      "word_target": 500,
+      "word_target": 300,
       "chapter_title": "পাহাড়ের প্রেম",
       "chapter_summary": "পাহাড় ও সাগরিকার প্রেম — প্রাচীন শিলার বুকে আধুনিক শরীরের স্পর্শ, যেখানে ভূতত্ত্ব, ইতিহাস, বিলুপ্তি ও কাম একসঙ্গে গলে একাকার।",
       "further_references": []
