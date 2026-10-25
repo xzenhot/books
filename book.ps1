@@ -138,7 +138,7 @@ $WriteAliases = @('chapter', 'story')
 $ConfigVerbs = @('form', 'config')
 
 # Agentic-only commands (no standalone Python CLI): filter, style, translate, poet/poetry/poem.
-$AgenticVerbs = @('filter', 'style', 'translate', 'poet', 'poetry', 'poem')
+$AgenticVerbs = @('filter', 'style', 'translate', 'poet', 'poetry', 'poem', 'line')
 
 # Read-only commands.
 $ReadOnlyFlags = @('-o', '--options', 'list', '-h', '--help', 'help')
@@ -354,6 +354,9 @@ switch ($verb) {
         Write-Host "  style     -> .framework/agents/style/agent.md"
         Write-Host "  translate -> .framework/agents/translate/agent.md"
         Write-Host "  poet      -> .framework/agents/write/agent.md (single finished poem)"
+        if ($agent -eq 'line') {
+            Write-Host "  line      -> .framework/agents/line/agent.md (kobi.exe MCP client)" -ForegroundColor Cyan
+        }
     }
     default {
         Write-Host "Unknown subcommand '$verb'." -ForegroundColor Red
