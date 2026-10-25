@@ -1,0 +1,28 @@
+{
+  "chapter_index": 50,
+  "name": "50",
+  "word_target": 500,
+  "chapter_title": "শুকনো খাতের প্রার্থনা",
+  "chapter_summary": "সরস্বতীর শুকিয়ে যাওয়া পথ — যেখানে একসময় জল বইত, এখন ধুলো আর নীরবতা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "7959ed29d35f2e1205ef2c3971544338c1e0163da3913c864651f9db49ced83d",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

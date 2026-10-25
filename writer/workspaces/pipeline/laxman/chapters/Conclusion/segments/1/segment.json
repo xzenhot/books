@@ -1,6 +1,11 @@
 {
   "level": "segment",
+<<<<<<<< HEAD:writer/workspaces/pipeline/haveli/chapters/1/segments/1/segment.json
+  "state": "pending",
+  "chapter_index": 1,
+========
   "state": "returning",
   "chapter_index": 23,
+>>>>>>>> template:writer/workspaces/pipeline/laxman/chapters/Conclusion/segments/1/segment.json
   "segment_index": 1
 }

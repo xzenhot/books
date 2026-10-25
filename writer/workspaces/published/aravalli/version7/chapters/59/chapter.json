@@ -1,0 +1,28 @@
+{
+  "chapter_index": 59,
+  "name": "59",
+  "word_target": 500,
+  "chapter_title": "রেশমের ধমনী",
+  "chapter_summary": "সিল্ক ও ধাতুর কারবারের প্রাচীন সড়ক — পাহাড়ের গা বেয়ে বয়ে যাওয়া সম্পদের ধমনী।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "906a5055bd20dd00e5ef4073e072fdf66321c029b84828a480466f1de8317093",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

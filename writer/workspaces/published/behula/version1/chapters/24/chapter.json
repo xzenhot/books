@@ -1,0 +1,60 @@
+{
+  "chapter_index": 24,
+  "name": "24",
+  "word_target": 280,
+  "chapter_title": "তটভূমির ব্যঙ্গ ও কৌতূহলী দৃষ্টি",
+  "chapter_summary": "নদীতীরের জনপদে ভেলার দিকে ওঠা বিস্ময় ও উপহাসের আঙুল। লোকনিন্দাকে নিঃশব্দে পেছনে ফেলে আপন সরণিতে স্থির থাকা।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The symbolic weight of the 'boundary' (tôtobhumi) between wilderness and settled life.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating 'ব্যঙ্গ' (mockery) not as verbal attack, but as a specific form of environmental static—the way the riverbank itself seems to lean in with patronizing curiosity.",
+      "Framing 'কৌতূহলী দৃষ্টি' (curious gaze) as an unavoidable documentation, where every watcher is simultaneously judge and unwitting chronicler of her solitary pilgrimage.",
+      "The tension between internal monologue/address-to-absence and the external, persistent drone of village gossip echoing off the river walls."
+    ],
+    "story_options": [
+      "Setting: The low-slung huts of the riverside settlement; Desire: To momentarily address a specific child who points at her boat with unselfconscious curiosity—a pure gaze untouched by judgment; Obstacle: The parent's immediate, sharp correction.",
+      "Setting: A dry stretch of earth bordering the slow water flow; Desire: To find a single object left behind (a discarded husk or tool) that symbolizes a life path she deliberately rejected; Obstacle: The realization that even overlooked things carry their own narrative condemnation.",
+      "Setting: The moment the boat pauses against a cluster of reeds, sheltered from direct view; Desire: To speak aloud to an imaginary 'witness'—perhaps her deceased husband's memory—about the sheer weight of the eyes watching her approach; Obstacle: The immediate return of physical discomfort (thirst/fatigue) grounding her back into solitary reality."
+    ],
+    "subject_rotations": [
+      "Shifting the focus from 'public perception' to the *psychology* of the observer—what does the judgmental gaze reveal about the observers' own unfulfilled desires or societal anxieties?",
+      "Treating the act of being watched as a form of unintentional sacrament; her visibility forces an acknowledgment of life, even if that acknowledgment is laced with scorn.",
+      "Deconstructing 'ব্যঙ্গ' not through its content, but its *rhythm*—the pattern of laughter and pointing becoming a disturbing, localized counter-melody to the natural flow of the water."
+    ],
+    "sensory_details": [
+      "The gritty texture of sun-baked earth clinging to the hull as she drifts past the bank (touch).",
+      "The specific, slightly sweet scent of decay mixing with monsoon humidity rising from the mudflats (smell).",
+      "A high-pitched, insistent whine—perhaps insects or a distant loom—that serves as the backdrop noise for human commentary (sound)."
+    ],
+    "research_questions": [
+      "How can Bengali vocabulary evoke 'patronizing curiosity' in a non-aggressive manner while still conveying social judgment?",
+      "What are specific, localized markers on riverbanks in Bengal that suggest sustained observation points or traditional gathering spots for villagers?"
+    ],
+    "structural_variants": [
+      "A heavily fragmented structure where one stanza focuses solely on the gaze of one individual, followed by a brief return to self-reflection before moving to the next.",
+      "An extended use of anaphora directed toward the unseen onlookers: 'তারা দেখল...' / 'তারা হাসল...'",
+      "Alternating between highly detailed description of the physical surroundings (the bank) and abstract portrayal of judgment."
+    ],
+    "variety_note": "Unlike preceding chapters focused on internal endurance against visible forces, this chapter externalizes the pressure by focusing intensely on the passive, pervasive nature of societal scrutiny from the periphery. It introduces a momentary confrontation with the uncurated reality outside her immediate struggle.",
+    "unused_angles": [
+      "The comparison between the judgmental gaze and the fixed, unforgiving nature of certain river stone formations (geological permanence vs. social judgment).",
+      "Exploring whether her steadfastness itself becomes an object of spectacle, thus robbing it of its personal spiritual weight."
+    ]
+  },
+  "draft": {
+    "sha256": "b8a4a4f5408850b46e09dfe75b55cc384a463ee92a3c13354c012e200957802c",
+    "written_at": "2026-10-21T14:06:50.728900+00:00",
+    "origin": "write"
+  }
+}

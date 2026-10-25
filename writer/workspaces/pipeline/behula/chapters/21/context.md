@@ -1,0 +1,134 @@
+# Chapter model context
+
+## chapter_index
+
+21
+
+## name
+
+21
+
+## word_target
+
+280
+
+## chapter_title
+
+অপমানিত কুলের সম্মান উদ্ধারের সঙ্কল্প
+
+## chapter_summary
+
+কেবল পতির জীবন নয়; শ্বশুরবাড়ির হারানো সপ্তডিঙা আর নিজের নারীমর্যাদাকে সমাজে পুনঃপ্রতিষ্ঠিত করার সুপ্ত তেজস্বী সঙ্কল্প।
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+Symbolic weight of heirloom objects within Bengali tradition and their relationship to lineage.
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Shifting the focus from external 'honor' (kula-samman) to internal definition of self-worth; is honor imposed by society, or forged internally?
+- Treating the lost treasures (Saptadinga) not as wealth, but as symbolic representations of potential futures and unfulfilled roles that she must reclaim for herself.
+- Framing the desire for restoration not in grand acts of violence, but through meticulous, almost ritualistic self-reconstruction against societal erosion.
+
+### story_options
+
+- Setting: The threshold between known domesticity and the uncertain expanse; Desire: To articulate the quiet vow made when facing ostracism—a contract only she can uphold. Obstacle: The persistent whisper of 'unworthy' echoing from unseen onlookers. Turn: She begins to treat her body not as a victim, but as the sacred vessel carrying this renewed mandate.
+- Setting: A moment beside the water where reflections become fragmented; Desire: To actively re-weave the broken narrative of her family/lineage in her mind, thread by painful thread. Obstacle: The seductive ease of accepting resignation and dissolving into shadow. Turn: She finds a single anchor point—a gesture, a piece of memory—to begin pulling the whole structure back into visible reality.
+- Setting: Inside an abandoned dwelling representing lost social standing; Desire: To mentally dismantle the societal judgments aimed at her—one by one, like removing rust from metal. Obstacle: The physical exhaustion mirroring the mental weight of perceived failures. Turn: She realizes that reclaiming status begins not with external victory, but with refusing to acknowledge the judgment’s validity.
+
+### subject_rotations
+
+- Examining societal 'honor' (samman) as a fragile consensus—a shared agreement that she is now challenging by operating outside its definitions.
+- The shift from grieving her husband's life to actively fighting for the integrity of the *whole* unit (family, legacy, self).
+- Treating the concept of 'reclamation' not as forceful taking back, but as patient, meticulous re-insertion into a desired social or spiritual structure.
+
+### sensory_details
+
+- The cold weight of unpolished stone under her bare foot where she pauses to gather resolve.
+- The metallic tang of old iron left on her skin after touching an abandoned family heirloom.
+- The specific, dry rasp sound of breath drawn in deep counterpoint to the rush of distant water.
+
+### research_questions
+
+- What precise Bengali imagery captures the feeling of a legacy being 'scattered' or dispersed (beyond mere loss)?
+
+### structural_variants
+
+- A section where the poem becomes almost prosaic in its listing of what has been lost, before violently snapping back into lyrical intensity.
+- Using an extended metaphor of weaving or knot-tying to represent the act of reassembling fractured reputation/possessions.
+
+### unused_angles
+
+- A detailed exploration of the silence itself—not as a pause for reflection, but as a highly charged form of defiance that demands interpretation from others.
+- The psychological geography of her retreat: mapping the psychic distance between where she *is* and where society *expects* her to be.
+
+### variety_note
+
+This chapter shifts away from acute personal tragedy (as seen in preceding chapters) toward a calculated, future-oriented mobilization—a quiet assertion that demands structural change rather than merely enduring suffering.
+
+## draft
+
+### sha256
+
+f5e07515a673aa2336b48fee98e5e7cc8e0835ad79a0eaa47382b626ba7dc43f
+
+### written_at
+
+2026-10-21T14:06:16.431771+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+f5e07515a673aa2336b48fee98e5e7cc8e0835ad79a0eaa47382b626ba7dc43f
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-21T16:19:57+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

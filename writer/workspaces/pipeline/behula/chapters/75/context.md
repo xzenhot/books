@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+75
+
+## name
+
+75
+
+## word_target
+
+280
+
+## chapter_title
+
+সাহসের সংক্রামক স্ফুলিঙ্গ
+
+## chapter_summary
+
+একজনের অটল অবস্থান কীভাবে বহু মানুষের হৃদয়কে আলোকিত করে। ভয়হীনভাবে বাঁচার এই প্রেরণা বাতাসের মতো ছড়িয়ে পড়ে চারিপাশে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the *transfer* of energy: How does Behula's internal fire manifest physically onto others—not as a grand wave, but as kinetic transfer (a shift in gait, a change in grip)?
+- The shadow effect: Instead of showing people *gaining* courage, focus on the shadows they cast shrinking or losing definition when near her aura.
+- Micro-epidemiology of inspiration: Tracing how one small act of defiance by Behula sparks a chain reaction in seemingly unrelated individuals (e.g., a merchant choosing honesty over deceit).
+
+### story_options
+
+- Setting: The threshold of a tightly clustered, fearful village lane; Desire: To witness the moment a hesitant neighbour mirrors her steady pace when she passes through it; Obstacle: The ingrained habit of perpetual deference; Turn: A communal nod becomes a shared declaration.
+- Setting: Beside an ancient well, usually shunned by timid folk; Desire: To observe how those who gather there suddenly begin to speak more loudly about their private struggles; Obstacle: Shared societal gossip that encourages self-censorship; Turn: The conversation pivots from blame towards collaborative problem-solving.
+- Setting: Near the loom or workshop of a skilled artisan, where work is routine and predictable; Desire: To see the worker spontaneously introduce an element of risky innovation into their craft due to her influence; Obstacle: Fear of commercial failure overshadowing creative impulse; Turn: The perfectionist momentarily breaks form in recognition of bolder possibility.
+
+### subject_rotations
+
+- Examining 'Infection' as a structural device: Does the poem build by showing individual moments of mirroring, or does it suggest the spirit itself becomes airborne?
+- Shifting from Behula *causing* courage to courage being an intrinsic state she simply *reveals* in others (she is a catalyst for pre-existing strength).
+- Treating inspiration as a physical phenomenon—like heat radiating from stone, rather than purely spiritual transmission.
+
+### sensory_details
+
+- The brittle sound of dry leaves crunching underfoot where there was previously only soft silt.
+- The sharp, mineral tang of ozone immediately following the moment inspiration strikes (a precursor to a storm).
+- The visual contrast between skin that has been perpetually guarded/tightened versus skin relaxed by sudden self-assurance.
+
+### research_questions
+
+- What specific Bengali idiomatic phrases exist to describe an intangible, subtle contagion of spirit or nerve?
+- How can the concept of 'kinetic echo' be rendered poetically in a way that respects the established symbolic nature of her journey?
+
+### structural_variants
+
+- A pattern of short stanzas (one line per human reaction) followed by one longer, sustained stanza describing Behula’s unwavering physical presence amidst them.
+- Using internal enjambment heavily in sections describing the spread of light, creating a sensation of unstoppable momentum across page breaks.
+
+### unused_angles
+
+- The concept that sometimes courage is not aggressive action, but perfect, sustained inaction against external pressure (a held breath).
+- Focusing on the internal resistance within the community itself—who fears her influence, and why?
+- A moment where the 'spark' fails to ignite anyone, forcing Behula into a private reckoning about the nature of projection.
+
+### variety_note
+
+Unlike neighbour 72 which focuses on communal shift through public action, this chapter concentrates microscopically on the *physical sensation* of inner courage being mirrored in subtle human interaction around her presence.

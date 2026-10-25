@@ -1,0 +1,28 @@
+{
+  "chapter_index": 32,
+  "name": "32",
+  "word_target": 500,
+  "chapter_title": "জল ও পাথরের আদিম প্রতিশ্রুতি",
+  "chapter_summary": "জল ও পাথরের এক আদিম চুক্তি — পাহাড় জল ধরে রাখে, জল জনপদকে বাঁচায়; এই ভারসাম্যই টিকে থাকার শর্ত।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "21bbc03f515a39d559d9fa695d976fe8d7778739ebd4aad6d44cd1c7d4f58d98",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

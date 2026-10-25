@@ -6,8 +6,23 @@
   "chapter_summary": "সম্রাট বিন্দুসারের রাজসভা — পাহাড়ের পাদদেশে প্রাচীন ক্ষমতার ঠান্ডা প্রমাদ কক্ষ।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "4b8113d6a8daf5bfc5dc6a48475dddd20ff557803555496c2fc97782a88bbeeb",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

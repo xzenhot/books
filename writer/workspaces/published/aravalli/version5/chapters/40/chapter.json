@@ -1,0 +1,28 @@
+{
+  "chapter_index": 40,
+  "name": "40",
+  "word_target": 500,
+  "chapter_title": "শীতল রাজসভার প্রহর",
+  "chapter_summary": "সম্রাট বিন্দুসারের রাজসভা — পাহাড়ের পাদদেশে প্রাচীন ক্ষমতার ঠান্ডা প্রমাদ কক্ষ।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "d93669145ae7c5825c3e0925325075e65369dee8cace751c9a522743dfdf074e",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

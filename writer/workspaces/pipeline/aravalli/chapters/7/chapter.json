@@ -6,12 +6,18 @@
   "chapter_summary": "পাহাড়ের গায়ে জমে থাকা ফলসপার, কোয়ার্টজ ও খনিজ লবণের দাগ আসলে দীর্ঘ সংগ্রামের ঘাম।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
   "enrich": {
-    "active_filters": ["research", "correctness", "theme", "syntax", "quality"],
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
     "status": "enriched"
   },
   "stereotype": {
@@ -29,7 +35,11 @@
         "name": "Sufism",
         "one_liner": "Seeking divine union through ecstatic love."
       },
-      "writing_skills": ["cadence matching", "breath-based lineation", "phonetic percussion"],
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
       "image_seed": "salt and quartz glinting like sweat on a rock's cheek",
       "volta": "the weeping turning from excretion into a crystallised memory",
       "sonic_texture": "a bright crystalline 'ping', then a dry metallic tang",
@@ -70,5 +80,20 @@
     "sha256": "13a9dc68672ac01c1dc2c7ee2dc1adfd9fcd1f7ff1d861616524b8f04de8fb3a",
     "written_at": "2026-10-11T13:22:39.833380+00:00",
     "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "b74726b2b9d463315b41fa30312a7cba24400f829c7309fece9f0438269ee682",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

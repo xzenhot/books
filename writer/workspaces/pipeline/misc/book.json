@@ -1,0 +1,512 @@
+{
+  "book_name": "misc",
+  "book_long_title": "Observation of Small Things in Daily Social Life in India",
+  "generic": "observational poem sequence",
+  "era": "contemporary India",
+  "language": "Bengali",
+  "target_audience": "readers of reflective, imagist poetry on everyday Indian life, ritual, labor, and the overlooked particulars of daily social experience",
+  "chapter_count": 60,
+  "factory": "online",
+  "form": "poetry",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "style": "desh",
+  "book_summary": "A sequence of sixty poems, each turned toward one small thing in the daily social life of India — the chai glass sweating on a railway platform, the vermilion at a doorway, the folded hands of a shopkeeper at dawn, the shared silence of a bus that has not yet started. The speaker is a quiet witness who has learned that a nation is made not of monuments but of minutes, and that to look closely at any small, overlooked particular is to look closely at everyone. The poems move through a single day, from first light to the lamp lit at dusk, and find in each object, gesture, and pause a larger truth about ritual, labor, and belonging.",
+  "created_at": "2026-10-23",
+  "updated_at": "2026-10-23",
+  "user_name": "pijush",
+  "gist": "Observation of small things in daily social life in India — the tiny, half-seen gestures and objects that carry the whole weight of a society.",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "chapter_title": "On the Sacred Kiss and the Flesh",
+      "chapter_summary": "Do not despise the trembling of two lips that meet in reverence, nor crown it with the false guilt of mortal judges. For what the world calls a carnal snare is, to the watchful soul, merely the quiet consent of the Universal Reason. In that brief communion, two breaths remember they were born of the same infinite fire; the body pays its humble tribute to Nature, while the spirit kneels at an altar not made by human hands.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "chapter_title": "Vermilion at the Doorstep",
+      "chapter_summary": "A smear of vermilion marks a doorway, and the poem considers the small sign that separates the household from the street and the daily gesture that renews it.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "chapter_title": "The Shopkeeper's Folded Hands",
+      "chapter_summary": "At the first light of morning a shopkeeper folds his hands before opening his shutter, and the poem lingers on the small prayer that begins the work of the day.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "chapter_title": "The Rustle of the Newspaper",
+      "chapter_summary": "The morning newspaper rustles in many hands at once, and the poem follows its paper sound as a small shared ritual of the waking city.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "chapter_title": "The Rickshaw Bell at the Crossing",
+      "chapter_summary": "A cycle-rickshaw bell rings at a busy crossing, and the poem listens to the small bright sound that threads through the larger noise of traffic.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "chapter_title": "Slippers Left Outside the Temple",
+      "chapter_summary": "Rows of slippers wait outside a temple door, and the poem sees in the abandoned pairs a quiet map of who has come and gone to pray.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "chapter_title": "The Porter's Sweat",
+      "chapter_summary": "A railway porter balances a heavy load, and the poem attends to the sweat and strain that carry other people's belongings from platform to train.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "chapter_title": "The Bindi",
+      "chapter_summary": "A small bindi sits at the centre of a forehead, and the poem regards the dot of colour as a tiny, concentrated emblem of adornment and belonging.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 9,
+      "name": "9",
+      "word_target": 500,
+      "chapter_title": "The Broom in First Light",
+      "chapter_summary": "A broom whispers against the pavement in the first light, and the poem follows the sweep that clears the street before the day's noise begins.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 10,
+      "name": "10",
+      "word_target": 500,
+      "chapter_title": "The Tiffin in Its Cloth",
+      "chapter_summary": "A tiffin is wrapped in cloth and tied for the day's journey, and the poem considers the small parcel of food that travels from a kitchen to a desk.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 11,
+      "name": "11",
+      "word_target": 500,
+      "chapter_title": "The Barber's Mirror",
+      "chapter_summary": "A barber holds up a mirror at the end of a shave, and the poem regards the small framed moment in which a man meets his own face.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 12,
+      "name": "12",
+      "word_target": 500,
+      "chapter_title": "The Tailor's Tape",
+      "chapter_summary": "A tailor's measuring tape loops around a customer's shoulders, and the poem attends to the small yellow ruler that translates a body into cloth.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 13,
+      "name": "13",
+      "word_target": 500,
+      "chapter_title": "The Paan Stain on the Pavement",
+      "chapter_summary": "A dark stain on the pavement marks where a betel leaf was spat, and the poem sees in the small red mark the city's unremarked, recurring signature.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 14,
+      "name": "14",
+      "word_target": 500,
+      "chapter_title": "Incense at the Street Shrine",
+      "chapter_summary": "A thin thread of incense rises from a shrine at the street's edge, and the poem follows the scent as a small boundary between the holy and the hurried.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 15,
+      "name": "15",
+      "word_target": 500,
+      "chapter_title": "The Vendor's Call",
+      "chapter_summary": "A street vendor calls out his wares in a rising voice, and the poem listens to the chant that prices, pleads, and sings all at once.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 16,
+      "name": "16",
+      "word_target": 500,
+      "chapter_title": "The Water Pot on a Head",
+      "chapter_summary": "A woman balances a water pot on her head and walks, and the poem regards the steady line of the body that carries what the household needs.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 17,
+      "name": "17",
+      "word_target": 500,
+      "chapter_title": "The Marigold Garland at the Stall",
+      "chapter_summary": "A garland of marigolds hangs at a flower stall, and the poem considers the brief bright loop made to wilt by evening.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 18,
+      "name": "18",
+      "word_target": 500,
+      "chapter_title": "The Bus That Has Not Started",
+      "chapter_summary": "A bus sits at its stop, not yet started, and the poem dwells in the shared silence of the passengers before the engine turns and the day begins to move.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 19,
+      "name": "19",
+      "word_target": 500,
+      "chapter_title": "The Window Seat and the Passing Field",
+      "chapter_summary": "A traveller at a window seat watches fields pass, and the poem measures the small distance between the moving train and the still land.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 20,
+      "name": "20",
+      "word_target": 500,
+      "chapter_title": "The Coin in the Beggar's Bowl",
+      "chapter_summary": "A coin drops into a beggar's bowl, and the poem weighs the small sound of the gift against the larger silence of the street.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 21,
+      "name": "21",
+      "word_target": 500,
+      "chapter_title": "The Milkman's Cycle",
+      "chapter_summary": "A milkman's cycle carries its rattling cans through the dark, and the poem follows the small daily delivery that arrives before most doors wake.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 22,
+      "name": "22",
+      "word_target": 500,
+      "chapter_title": "Chalk on the Blackboard",
+      "chapter_summary": "A piece of chalk moves across a blackboard, and the poem regards the small white mark that carries a lesson from one mind to many.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 23,
+      "name": "23",
+      "word_target": 500,
+      "chapter_title": "The Uniform Hung to Dry",
+      "chapter_summary": "A school uniform hangs on a line to dry, and the poem considers the small garment that waits through the night to become a child's public self.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 24,
+      "name": "24",
+      "word_target": 500,
+      "chapter_title": "The Wristwatch on the Desk",
+      "chapter_summary": "A wristwatch is left on a desk beside a half-filled cup, and the poem listens to the small ticking that measures the time someone stepped away.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 25,
+      "name": "25",
+      "word_target": 500,
+      "chapter_title": "The Lullaby and the Mosquito Net",
+      "chapter_summary": "A lullaby hums beneath a mosquito net, and the poem regards the thin white tent that keeps the night's small dangers from a sleeping child.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 26,
+      "name": "26",
+      "word_target": 500,
+      "chapter_title": "The Mortar in the Kitchen",
+      "chapter_summary": "A stone mortar stands in a kitchen corner, and the poem attends to the old grinding tool that turns hard things to powder in a patient rhythm.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 27,
+      "name": "27",
+      "word_target": 500,
+      "chapter_title": "The Prayer Beads in the Old Man's Hand",
+      "chapter_summary": "Prayer beads move through an old man's fingers, and the poem counts the small repeated touch that holds a lifetime of quiet devotion.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 28,
+      "name": "28",
+      "word_target": 500,
+      "chapter_title": "The Saree Folded on the Rope",
+      "chapter_summary": "A saree hangs folded over a rope, and the poem regards the length of cloth that rests between one wearing and the next.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 29,
+      "name": "29",
+      "word_target": 500,
+      "chapter_title": "The Umbrella Against the Monsoon",
+      "chapter_summary": "An umbrella opens against the first monsoon rain, and the poem follows the small black canopy that turns a downpour into a private shelter.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 30,
+      "name": "30",
+      "word_target": 500,
+      "chapter_title": "The Puddle and Its Sky",
+      "chapter_summary": "A puddle holds a patch of sky after the rain, and the poem regards the small mirror where the street briefly contains the heavens.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 31,
+      "name": "31",
+      "word_target": 500,
+      "chapter_title": "The Kite Caught in the Wire",
+      "chapter_summary": "A kite is caught in an electric wire, and the poem considers the small bright failure that flutters above the rooftops until the wind lets it go.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 32,
+      "name": "32",
+      "word_target": 500,
+      "chapter_title": "The Gulmohar in the Courtyard",
+      "chapter_summary": "A gulmohar tree blooms red in a courtyard, and the poem attends to the small flowers that scatter a bright season across a private ground.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 33,
+      "name": "33",
+      "word_target": 500,
+      "chapter_title": "The Letter That Never Arrived",
+      "chapter_summary": "A letter was written but never arrived, and the poem dwells on the small absence that a folded page leaves in the life of the one who waits.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 34,
+      "name": "34",
+      "word_target": 500,
+      "chapter_title": "The Postbox at the Corner",
+      "chapter_summary": "A red postbox stands at a street corner, and the poem regards the small iron mouth that swallows words and sends them far away.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 35,
+      "name": "35",
+      "word_target": 500,
+      "chapter_title": "The Photograph on the Wall",
+      "chapter_summary": "A framed photograph hangs on a wall, and the poem considers the small paper face that keeps someone present long after they have gone.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 36,
+      "name": "36",
+      "word_target": 500,
+      "chapter_title": "The Threshold Wiped with Water",
+      "chapter_summary": "A threshold is wiped with water and swept clean, and the poem regards the small daily cleansing that keeps the boundary of the home pure.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 37,
+      "name": "37",
+      "word_target": 500,
+      "chapter_title": "The Kolam Drawn at Dawn",
+      "chapter_summary": "A pattern of rice flour is drawn at a doorway before dawn, and the poem follows the small white design that welcomes the day and the guest.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 38,
+      "name": "38",
+      "word_target": 500,
+      "chapter_title": "The Lock on the Closed Door",
+      "chapter_summary": "A lock clicks shut on a closed door, and the poem weighs the small metal promise that guards what is left behind.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 39,
+      "name": "39",
+      "word_target": 500,
+      "chapter_title": "The Key Under the Mat",
+      "chapter_summary": "A key is hidden under a mat, and the poem regards the small shared secret that lets a trusted hand into a locked house.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 40,
+      "name": "40",
+      "word_target": 500,
+      "chapter_title": "The Fan That Turns All Night",
+      "chapter_summary": "A ceiling fan turns slowly through the night, and the poem attends to the small steady breeze that keeps sleep possible in the heat.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 41,
+      "name": "41",
+      "word_target": 500,
+      "chapter_title": "The Mat Spread for the Guest",
+      "chapter_summary": "A mat is spread on the floor for a guest, and the poem considers the small courtesy that makes room for a stranger in a small home.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 42,
+      "name": "42",
+      "word_target": 500,
+      "chapter_title": "The Betel Leaf at Farewell",
+      "chapter_summary": "A betel leaf is offered at a farewell, and the poem regards the small green token that sweetens the moment of parting.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 43,
+      "name": "43",
+      "word_target": 500,
+      "chapter_title": "The Train Window and the Unknown Station",
+      "chapter_summary": "A train passes an unknown station without stopping, and the poem dwells on the small lit platform that flashes by and is never known.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 44,
+      "name": "44",
+      "word_target": 500,
+      "chapter_title": "The Platform's Sleeping Traveller",
+      "chapter_summary": "A traveller sleeps on a folded cloth on a platform, and the poem attends to the small fragile rest taken in the middle of everyone's hurry.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 45,
+      "name": "45",
+      "word_target": 500,
+      "chapter_title": "The Hawker's Scale",
+      "chapter_summary": "A hawker's scale tips and settles with a weight, and the poem regards the small instrument that measures fairness in a handful of grams.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 46,
+      "name": "46",
+      "word_target": 500,
+      "chapter_title": "The Sugar in the Offered Tea",
+      "chapter_summary": "Sugar dissolves in a cup of tea offered to a guest, and the poem considers the small sweetness that is the first act of welcome.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 47,
+      "name": "47",
+      "word_target": 500,
+      "chapter_title": "The Salt and the First Rain",
+      "chapter_summary": "The first rain falls on warm dust, and the poem attends to the small scent of salt and earth that announces the season's turning.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 48,
+      "name": "48",
+      "word_target": 500,
+      "chapter_title": "The Crowd at the Water Tap",
+      "chapter_summary": "People gather with pots at a common water tap, and the poem regards the small shared queue where the neighbourhood meets over a basic need.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 49,
+      "name": "49",
+      "word_target": 500,
+      "chapter_title": "The Queue at the Ration Shop",
+      "chapter_summary": "A patient queue forms at the ration shop, and the poem attends to the small orderly waiting that holds a community to its daily promise.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 50,
+      "name": "50",
+      "word_target": 500,
+      "chapter_title": "The Handshake and the Namaste",
+      "chapter_summary": "Two greetings meet in one doorway, and the poem regards the small choice between a clasped hand and folded palms that each carry a different courtesy.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 51,
+      "name": "51",
+      "word_target": 500,
+      "chapter_title": "The Footprints in the Wet Mud",
+      "chapter_summary": "Fresh footprints press into wet mud after rain, and the poem follows the small impressions that mark who passed before the ground dried.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 52,
+      "name": "52",
+      "word_target": 500,
+      "chapter_title": "The Lantern in the Power Cut",
+      "chapter_summary": "A lantern is lit when the power fails, and the poem attends to the small flame that gathers a household back into one circle of light.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 53,
+      "name": "53",
+      "word_target": 500,
+      "chapter_title": "The Radio and the Old Song",
+      "chapter_summary": "A radio plays an old song in the evening, and the poem considers the small familiar voice that fills a room with a shared memory.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 54,
+      "name": "54",
+      "word_target": 500,
+      "chapter_title": "The Clock Above the Station",
+      "chapter_summary": "A large clock hangs above the station, and the poem regards the small hands that synchronize a thousand private hurries into one public time.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 55,
+      "name": "55",
+      "word_target": 500,
+      "chapter_title": "The School Bell's Last Ring",
+      "chapter_summary": "The school bell rings for the last time in a day, and the poem follows the small bright sound that releases children into the evening.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 56,
+      "name": "56",
+      "word_target": 500,
+      "chapter_title": "The Cricket Game in the Lane",
+      "chapter_summary": "A cricket game fills a narrow lane, and the poem attends to the small makeshift pitch where a whole neighbourhood's evening comes to life.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 57,
+      "name": "57",
+      "word_target": 500,
+      "chapter_title": "The Evening's Shared Silence",
+      "chapter_summary": "The street falls into an evening silence, and the poem dwells in the small communal quiet that settles when the day's noise has gone.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 58,
+      "name": "58",
+      "word_target": 500,
+      "chapter_title": "The Lamp Lit at Dusk",
+      "chapter_summary": "A lamp is lit at dusk before a doorway, and the poem regards the small flame that marks the turn from day into the household's evening.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 59,
+      "name": "59",
+      "word_target": 500,
+      "chapter_title": "The Moon Over the Terrace",
+      "chapter_summary": "The moon rises over a terrace where someone stands alone, and the poem attends to the small shared sky that the whole city looks up to at once.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 60,
+      "name": "60",
+      "word_target": 500,
+      "chapter_title": "On the Sacred Kiss and the Flesh",
+      "chapter_summary": "Do not despise the trembling of two lips that meet in reverence, nor crown it with the false guilt of mortal judges. For what the world calls a carnal snare is, to the watchful soul, merely the quiet consent of the Universal Reason. In that brief communion, two breaths remember they were born of the same infinite fire; the body pays its humble tribute to Nature, while the spirit kneels at an altar not made by human hands.",
+      "further_references": []
+    }
+  ],
+  "all_characters": [],
+  "filter_chain": [
+    "workshop",
+    "research",
+    "correctness",
+    "theme",
+    "syntax",
+    "override",
+    "quality"
+  ],
+  "word_target": 500
+}

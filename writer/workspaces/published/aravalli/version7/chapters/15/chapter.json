@@ -1,0 +1,100 @@
+{
+  "chapter_index": 15,
+  "name": "15",
+  "word_target": 500,
+  "chapter_title": "শুভ্র পাথরের চাঁদ",
+  "chapter_summary": "বিশ্বখ্যাত মাকড়ানা মার্বেল — যে শুভ্র পাথর দিয়ে তাজমহল তৈরি হয়েছে। পাহাড়ের দেহ থেকে উঠে আসা সমাধির শ্বেতপাথর।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Classical philosophy on negative space in art and architecture",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing Carrara/Makrana marble not as a symbol of permanence or beauty, but as solidified absence—the space where something vast was lost.",
+      "Adopting the perspective of the mineral itself (calcite crystallizing) detailing its slow, obsessive journey from deep earth to polished surface, mirroring an eternal yearning.",
+      "Examining how the marble's perfect whiteness acts as a historical palimpsest; what shadows or colors might be *under* the visible light layer?"
+    ],
+    "story_options": [
+      "setting: A vast, unfinished quarry face during high noon, desire: The marble block desires to recall its original, chaotic geological state before human geometry imposed order., obstacle: The oppressive glare of the sun obliterating any trace of its deep history., turn: A single vein of hidden iron oxide momentarily blooms across the pristine surface.",
+      "setting: Inside a Mughal-era workshop, viewing the marble blocks, desire: Sagarika desires to find a fissure or blemish that proves the mountain's suffering was not entirely smoothed away., obstacle: The relentless perfection demanded by imperial patronage and divine aesthetic standards., turn: She finds a microscopic pocket of trapped, ancient air—a frozen moment of primordial breath.",
+      "setting: A twilight field where newly quarried marble dust settles, desire: The mountain seeks to exhale the weight it has borne for eons, releasing its pressure in fine particulate form., obstacle: The political/economic imperative that dictates the constant harvest and consumption of 'pure' stone., turn: The moonlight hits the dust at a specific angle, revealing ephemeral patterns resembling old script."
+    ],
+    "subject_rotations": [
+      "Treating the marble not as material for monuments (like previous luxury/wealth references), but as a medium for absorbing and reflecting human grief.",
+      "Focusing exclusively on the chemical process of calcification—the mineralizing action itself—as an analogue to transformation or memory formation.",
+      "Juxtaposing the massive, eternal scale of the marble against the transient nature of the hands that carve it (a micro-history within macro-geology)."
+    ],
+    "sensory_details": [
+      "Touch: The astonishing coldness of freshly cut marble, a temperature wholly divorced from the summer heat outside.",
+      "Sight: The way diffused dawn light refracts across microscopic cleavage planes, creating internal, momentary rainbows on the surface.",
+      "Sound: The sound of a perfectly balanced mallet tapping against solid white stone—a clean, absolute 'tick' that absorbs all other noise."
+    ],
+    "research_questions": [
+      "Are there specific traditional Bengali metaphors or linguistic structures for 'pure white' (শুভ্র) that evoke both celestial purity and deathly pallor?",
+      "What are the documented historical processes of marble polishing in pre-modern Indian contexts, beyond simple aesthetic application?"
+    ],
+    "structural_variants": [
+      "A meditative catalog poem where each repetition focuses on a different aspect of whiteness: optical, structural, chemical, and emotional.",
+      "A dialogue structure where the 'Stone' speaks only through its perfect silence, answering rhetorical questions posed by Sagorika."
+    ],
+    "variety_note": "Unlike the preceding chapters focused on fiery color (red/orange) or dense weight (lead/zinc), this piece isolates and examines material purity as a state of extreme tension—both sublime and empty.",
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "Makrana marble rising like a moon swallowed by stone",
+      "volta": "beauty dissolving into absence",
+      "sonic_texture": "a long, uplifted, chant-like cadence",
+      "line_gesture": "lines that turn upward toward union",
+      "variety_note": "a moonlit purity against the leaden dark"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rabindranath",
+    "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "093697384567cb0286214e57b452bf9015c8ed579ae088048632700624808b7e",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

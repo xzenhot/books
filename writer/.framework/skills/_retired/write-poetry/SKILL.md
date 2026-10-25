@@ -45,7 +45,7 @@ Before writing, read these files in order:
 ## Rewriting Rules
 
 1. **Flatten.** Remove the **Question**, **Oration**, and **Benediction** headings entirely; merge their prose into continuous paragraphs. The output is flat poetic prose, not a three-section frame.
-2. **Topic and category.** Ground the prose in the chapter's topic and thematic category from `model.json` or `bookseed.txt`.
+2. **Topic and category.** Ground the prose in the chapter's topic and thematic category from `model.json` (its `chapter_title`/`chapter_summary`).
 3. **Verse qualities.** Use compression, image, anaphora, rhythm, and line-break as instruments. Let metaphors carry abstraction rather than explaining it.
 4. **Honor the signature.** Write in the chapter's assigned signature voice (e.g. gibran) — its movement, motifs, and diction should carry the theme.
 5. **Thread the theme.** Weave the chapter's assigned theme and its essence into the prose's images and turning points.

@@ -1,0 +1,28 @@
+{
+  "chapter_index": 36,
+  "name": "36",
+  "word_target": 500,
+  "chapter_title": "পবিত্র বাণীর তীর",
+  "chapter_summary": "বেদ-গীতার পঙক্তি সেই নদীর তীরে রচিত — পবিত্র বাণী পাহাড়ের ছায়ায় জন্ম নেয়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "bc3386a75a3ed1af4d942f00455a06eaae2427086b31b7f2aff55682da93139d",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

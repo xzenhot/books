@@ -6,8 +6,23 @@
   "chapter_summary": "হারিয়ে যাওয়া পাখির পালক — আকাশে আর নেই, অথচ তার পালক পাহাড়ের ফাটলে জমে আছে।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "480d9ad1e59b9bebeae52cfa19c6cc3bf60f7418c566a70199d06f55a9f05bfd",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

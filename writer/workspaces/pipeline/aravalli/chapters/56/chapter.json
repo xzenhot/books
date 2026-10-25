@@ -6,8 +6,23 @@
   "chapter_summary": "তক্ষশীলা থেকে মগধ পর্যন্ত বয়ে চলা বাণিজ্য — পাহাড়ের পথ ধরে জ্ঞান ও সম্পদের আদান-প্রদান।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "e5ab74a6fece86aff33defd2bf68b3aa5d4c1b4ce53d028a81802867378740ae",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

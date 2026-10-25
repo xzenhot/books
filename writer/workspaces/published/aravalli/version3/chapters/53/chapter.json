@@ -1,0 +1,28 @@
+{
+  "chapter_index": 53,
+  "name": "53",
+  "word_target": 500,
+  "chapter_title": "শেষ প্রাণের বিদায়",
+  "chapter_summary": "একটি প্রজাতির শেষ নিঃশ্বাস — পাহাড়ের ইতিহাসে আরেকটি নাম চিরতরে মুছে যাওয়া।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "233642dc48bbd0c7fc5a41be8d6e2b2b1ba8b63983bce6e6a7071ff088d32f02",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

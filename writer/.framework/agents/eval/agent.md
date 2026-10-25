@@ -32,7 +32,7 @@ Read these paths (falling back to legacy names where noted):
   `validated`, `published`, `status`.
 - `workspaces/pipeline/<bookname>/filters/filters.json` — the filter registry with
   `order`, `name`, `autorun`.
-- `workspaces/pipeline/<bookname>/bookseed.txt` (poetry) — the topic list.
+- `workspaces/pipeline/<bookname>/book.json` (poetry) — the topic list (`chapters[]`).
 - `workspaces/pipeline/<bookname>/override.txt` and
   `filters/override/filter.md` — override presence.
 - For each chapter in scope:

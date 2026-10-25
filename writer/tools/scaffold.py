@@ -134,14 +134,6 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
                 write_json(segment / "segment.json", {"level": "segment", "state": "pending", "chapter_index": entry["chapter_index"], "segment_index": 1})
     if not existing or model != existing:
         write_json(model_path, model)
-    seed = pipeline / "bookseed.txt"
-    if not seed.exists():
-        atomic_bytes(seed, ("\n".join(c["chapter_title"] for c in model["chapters"]) + "\n").encode("utf-8"))
-    elif len(names) > len(old_names):
-        # Preserve human-edited topic text; append only missing positions.
-        lines = seed.read_text(encoding="utf-8-sig").splitlines()
-        if len(lines) < len(names):
-            atomic_bytes(seed, ("\n".join(lines + [c["chapter_title"] for c in model["chapters"][len(lines):]]) + "\n").encode("utf-8"))
     registry = pipeline / "filters/filters.json"
     if not registry.exists():
         write_json(registry, {"filters": [{"order": i, "name": name, "agent": f".framework/filters/{name}/SKILL.md", "autorun": True} for i, name in enumerate(chain, 1)]})

@@ -51,6 +51,13 @@ VERBS
 
               python tools/book.py <bookname> preview
 
+    cleanup   Reset selected pipeline chapters back to their scaffolded
+              baseline: delete chapter.md/context.md, clear history/ and
+              segment output folders, and reinitialize chapter.json +
+              segment.json from the book plan.
+
+              python tools/book.py <bookname> cleanup [all|1|1-5|continue]
+
 COMMON FLAGS
 ------------
     -t, --type  poetry|novel   Override book form (default: poetry)
@@ -79,6 +86,7 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -86,6 +94,9 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+
+from promptkit import PromptSet, framework_layout_dir, render
+from quality import read_json, write_json
 
 # Reconfigure stdio for UTF-8 so status arrows (e.g. U+2192) never crash on a
 # Windows console whose default codec (cp1252/charmap) cannot encode them.
@@ -103,6 +114,7 @@ BACKLOG_ROOT = REPO_ROOT / "workspaces" / "backlog"
 BACKLOG_V1_TEMPLATE = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1"
 BOOK_TEMPLATE = BACKLOG_V1_TEMPLATE / "book.json"
 BOOK_MIN_TEMPLATE = BACKLOG_V1_TEMPLATE / "book.min.json"
+BOOK_PROMPTS = PromptSet(framework_layout_dir(REPO_ROOT), "book")
 
 
 def _template_model_provider() -> tuple[str, str]:
@@ -180,45 +192,19 @@ FILTER_CHAIN_POETRY = [
 # System prompt for layout generation
 # ---------------------------------------------------------------------------
 
-LAYOUT_SYSTEM_PROMPT = (
-    "You are the book-plan architect for a literary pipeline.\n"
-    "Your task is structural planning, not prose generation.\n\n"
-    "CONTRACT:\n"
-    "- Return exactly one valid JSON object — no Markdown fences, no commentary.\n"
-    "- Use only the field names present in the supplied template.\n"
-    "- Derive chapter count, titles, summaries, and references from the epic; never invent a different premise.\n"
-    "- Every chapter must have: chapter_index, name, chapter_title, chapter_summary, "
-    "word_target (positive integer), further_references (array).\n"
-    "- Every chapter_summary must be 2–4 sentences (roughly 150–200 words) describing what "
-    "the chapter explores — its conflict, imagery, and open question; never a one-line placeholder.\n"
-    "- chapter_count must equal the length of the chapters array.\n"
-    "- filter_chain must be a non-empty ordered array of filter names.\n"
-    "- Do not write chapter prose, filter results, or runtime pipeline state."
-)
+LAYOUT_SYSTEM_PROMPT = BOOK_PROMPTS.text("layout_system_prompt.md")
 
-EPIC_SYSTEM_PROMPT = (
-    "You are the founding author and narrative architect for a Bengali literary book.\n"
-    "You expand a short seed (gist) into the book's storyline.md — the narrative source of truth\n"
-    "that later guides chapter writing, filtering, and editing.\n\n"
-    "CONTRACT:\n"
-    "- Write entirely in fluent, literary Bengali (বাংলা).\n"
-    "- Produce Markdown using only the section headings given in the prompt, in that order.\n"
-    "- Expand and deepen the seed; never contradict or replace its core idea.\n"
-    "- Be concrete and specific: images, tensions, motifs, names — not generic filler.\n"
-    "- The epic is a plan and compass, not final prose; keep summaries evocative but open.\n"
-    "- Preserve the exact chapter count and titles supplied; do not add or remove chapters.\n"
-    "- Leave open questions that later chapters will resolve.\n"
-    "- Output the epic body only; do not invent a metadata header."
-)
+EPIC_SYSTEM_PROMPT = BOOK_PROMPTS.text("epic_system_prompt.md")
 
 # Minimal chapter schema description sent in batch prompts
-BATCH_CHAPTER_SCHEMA = (
-    '{"chapter_index": 1, "name": "1", "word_target": 500, '
-    '"chapter_title": "Title", '
-    '"chapter_summary": "A 2–4 sentence, 150–200 word description of what this chapter '
-    'explores — its central conflict, key imagery, and the open question it leaves.", '
-    '"further_references": []}'
-)
+BATCH_CHAPTER_SCHEMA = BOOK_PROMPTS.text("batch_chapter_schema.json").strip()
+
+# User-prompt templates (rendered with render(...) at call time)
+_EPIC_USER_PROMPT = BOOK_PROMPTS.text("epic_user_prompt.md")
+_CHAPTER_BATCH_PROMPT = BOOK_PROMPTS.text("chapter_batch_prompt.md")
+_CHAPTER_ONE_PROMPT = BOOK_PROMPTS.text("chapter_one_prompt.md")
+_LAYOUT_SINGLE_PROMPT = BOOK_PROMPTS.text("layout_single_prompt.md")
+_GIST_IDEA_PROMPT = BOOK_PROMPTS.text("gist_idea_prompt.md")
 
 
 # ---------------------------------------------------------------------------
@@ -586,36 +572,14 @@ def build_epic_prompt(
         f"{ch['chapter_index']}. {ch['chapter_title']} — {ch['chapter_summary']}"
         for ch in chapters
     )
-    return (
-        f"Expand the seed (gist) below into the complete narrative foundation "
-        f"(epic) for a Bengali {form_label}.\n\n"
-        f"BOOK NAME: {bookname}\n"
-        f"FORM: {form} ({form_label})\n"
-        f"GIST (seed):\n{gist}\n\n"
-        f"CHAPTER PLAN ({len(chapters)} chapters — keep this exact count and these titles):\n"
-        f"{chapter_plan}\n\n"
-        "Write the epic body as Markdown using EXACTLY these sections, in order:\n\n"
-        "## মূল ভাবনা\n"
-        "Restate and deepen the gist into one unifying thesis. Explain why this "
-        "subject matters and what the book hopes to reveal.\n\n"
-        "## বিষয়গত সূত্র\n"
-        "List 3–5 recurring motifs, images, or questions that thread through the chapters.\n\n"
-        "## পর্বের বিন্যাস\n"
-        "One '### {index}. {title}' heading per chapter, followed by a 2–3 sentence "
-        "summary that deepens the supplied chapter_summary. Keep the exact titles and count.\n\n"
-        "## চরিত্র ও কণ্ঠস্বর\n"
-        "For a novel: name key characters, their desires and conflicts. "
-        "For poetry: describe the speaking voice(s) and the recurring 'I'.\n\n"
-        "## ভাষা ও কাব্যিক/আখ্যানিক অভিমুখ\n"
-        "Describe the register, rhythm, and imagery strategy.\n\n"
-        "## আবেগের গন্তব্য\n"
-        "Where the book should leave the reader, and which questions stay open.\n\n"
-        "RULES:\n"
-        "- Write entirely in fluent literary Bengali.\n"
-        "- Be specific and concrete; avoid generic filler.\n"
-        "- The epic is a compass for later writing — evocative but open, never final prose.\n"
-        "- Do not change the book name, form, or chapter count.\n"
-        "- Output only the epic body — the metadata header is added separately."
+    return render(
+        _EPIC_USER_PROMPT,
+        bookname=bookname,
+        form=form,
+        form_label=form_label,
+        gist=gist,
+        chapter_count=len(chapters),
+        chapter_plan=chapter_plan,
     )
 
 
@@ -907,17 +871,11 @@ def _generate_chapter_batch(
     RuntimeError if every attempt fails.
     """
     indices_str = ", ".join(str(i) for i in indices)
-    prompt = (
-        f"Generate ONLY these chapters for the book described below: {indices_str}.\n"
-        "Return a JSON array of chapter objects — one object per index listed. "
-        "Use this schema for each object:\n"
-        f"{BATCH_CHAPTER_SCHEMA}\n\n"
-        "IMPORTANT: chapter_summary must be 2–4 sentences (150–200 words) describing "
-        "what the chapter explores — its conflict, imagery, and open question. "
-        "Never write a one-line placeholder.\n"
-        "Derive each chapter's title and summary from the epic. "
-        "Set chapter_index to the matching index and name to its string form.\n\n"
-        f"EPIC:\n{epic}"
+    prompt = render(
+        _CHAPTER_BATCH_PROMPT,
+        indices=indices_str,
+        schema=BATCH_CHAPTER_SCHEMA,
+        epic=epic,
     )
     last_error: Exception | None = None
     for attempt in range(1, OLLAMA_MAX_RETRIES + 1):
@@ -981,16 +939,11 @@ def _generate_chapter_one(
 
     Returns a single chapter dict. Raises RuntimeError if every attempt fails.
     """
-    prompt = (
-        f"Generate exactly ONE chapter for the book below: chapter_index {index}.\n"
-        "Return a single JSON object matching this schema — no array, no prose, "
-        "no markdown fence:\n"
-        f"{schema}\n\n"
-        "IMPORTANT: chapter_summary must be 2–4 sentences describing what the "
-        "chapter explores — its conflict, imagery, and open question. "
-        "Derive chapter_title and chapter_summary from the epic. "
-        f"Set chapter_index to {index} and name to \"{index}\".\n\n"
-        f"EPIC:\n{epic}"
+    prompt = render(
+        _CHAPTER_ONE_PROMPT,
+        index=index,
+        schema=schema,
+        epic=epic,
     )
     last_error: Exception | None = None
     for attempt in range(1, OLLAMA_MAX_RETRIES + 1):
@@ -1097,21 +1050,12 @@ def _generate_layout_single(
     Suitable for books with up to OLLAMA_BATCH_SIZE chapters.
     Returns the validated book plan dict.
     """
-    prompt = (
-        "Create the complete backlog book plan as valid JSON. "
-        "Return JSON only — no Markdown fence, no explanation.\n"
-        "Use the exact structural shape and field names of the template below.\n"
-        f"Set book_name to {json.dumps(bookname, ensure_ascii=False)} "
-        f"and form to {json.dumps(form)}.\n"
-        "Derive chapter count, titles, summaries, references, book summary, "
-        "and filter chain from the epic. "
-        "Preserve every topic or chapter in the epic; do not invent a different premise.\n"
-        "Each chapter must include: chapter_index, name, word_target, "
-        "chapter_title, chapter_summary, further_references.\n"
-        "IMPORTANT: every chapter_summary must be 2–4 sentences (150–200 words) "
-        "describing what the chapter explores — never a one-line placeholder.\n\n"
-        f"TEMPLATE book.json:\n{template}\n\n"
-        f"EPIC:\n{epic}"
+    prompt = render(
+        _LAYOUT_SINGLE_PROMPT,
+        bookname=json.dumps(bookname, ensure_ascii=False),
+        form=json.dumps(form),
+        template=template,
+        epic=epic,
     )
     last_error: Exception | None = None
     for attempt in range(1, OLLAMA_MAX_RETRIES + 1):
@@ -1264,18 +1208,7 @@ def generate_layout(
 # Backlog creation
 # ---------------------------------------------------------------------------
 
-IDEA_SYSTEM_PROMPT = (
-    "You are the founding idea-gardener for a literary book.\n"
-    "Given a seed (an existing one-line gist, or a bare book name), you rewrite it\n"
-    "into a stronger, more dramatically charged single-sentence premise.\n\n"
-    "CONTRACT:\n"
-    "- Return exactly one valid JSON object — no Markdown fences, no commentary.\n"
-    "- Use exactly two fields: 'gist' and 'expansion'.\n"
-    "- 'gist' is a single sentence that names a person, a place, a problem, and a consequence.\n"
-    "- 'expansion' is 2–4 sentences naming the protagonist, the conflict, and the transformation.\n"
-    "- Preserve the seed's core idea; elevate it, do not replace it with an unrelated story.\n"
-    "- Write in English unless the seed is in another language, in which case match it."
-)
+IDEA_SYSTEM_PROMPT = BOOK_PROMPTS.text("idea_system_prompt.md")
 
 
 def rewrite_gist_idea(bookname: str) -> None:
@@ -1320,11 +1253,7 @@ def rewrite_gist_idea(bookname: str) -> None:
     else:
         seed = bookname
 
-    prompt = (
-        f"Rewrite this book idea into a stronger one-line gist and a short expansion.\n\n"
-        f"SEED: {seed}\n\n"
-        "Return JSON with 'gist' (one sentence) and 'expansion' (2–4 sentences)."
-    )
+    prompt = render(_GIST_IDEA_PROMPT, seed=seed)
 
     try:
         raw = _ollama_post(_ollama_payload(prompt, system=IDEA_SYSTEM_PROMPT))
@@ -1562,7 +1491,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     then creates all required pipeline folders and placeholder files.
 
     The pipeline structure created:
-        book.json, bookseed.txt, characters.json, override.txt
+        book.json, characters.json, override.txt
         filters/filters.json (registry only — no per-filter folders)
         chapters/<name>/model.json, chapter.md, history/
         chapters/<name>/segments/1/{segment.json, writer/, editor/, translator/, version/}
@@ -1605,7 +1534,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
 
     # --- Clone the complete v1 template tree into the pipeline root. ---
     # The pipeline starts as a verbatim copy of the backlog v1 template
-    # (book.json, book.min.json, bookseed.txt, gist.md, gist copy.md,
+    # (book.json, book.min.json, gist.md, gist copy.md,
     # override.txt, progress.json, storyline.md, and the layout/ form-tool
     # templates), then scaffold customizes it below. The layout/ folder it
     # clones holds the form tool templates (write-novel, write-poetry,
@@ -1628,10 +1557,6 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     # --- Root pipeline files ---
     (pipeline / "book.json").write_text(
         json.dumps(plan, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-    (pipeline / "bookseed.txt").write_text(
-        "\n".join(str(ch["chapter_title"]) for ch in chapters) + "\n",
         encoding="utf-8",
     )
     (pipeline / "characters.json").write_text(
@@ -1865,7 +1790,9 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
             writer.resolve_novel_style(style)
 
     failures = 0
-    for num in numbers:
+    total = len(numbers)
+    for position, num in enumerate(numbers, 1):
+        print(f"[{position}/{total}] Writing chapter {num} ...", flush=True)
         try:
             # Pass style=None when omitted so the writer falls back to the
             # book's style.md / form-bound default instead of a hardcoded preset.
@@ -1873,6 +1800,7 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
                 _chapter_model_file(chapters_root / str(num)),
                 style=style,
             )
+            print(f"[{position}/{total}] Chapter {num} done.", flush=True)
         except Exception as exc:  # noqa: BLE001
             print(f"  [{num}] FAILED: {exc}", file=sys.stderr)
             failures += 1
@@ -1881,6 +1809,129 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
     print(f"Write complete. {successes} succeeded, {failures} failed.")
     if failures:
         raise RuntimeError(f"{failures} chapter(s) failed writing.")
+
+
+def cleanup_workflow(bookname: str, target: str) -> None:
+    """Reset the selected pipeline chapters back to their scaffolded baseline.
+
+    For each chapter in ``target`` (a number/range/list/'all'/'*'):
+
+    - Delete ``chapter.md`` and ``context.md``.
+    - Clear ``history/`` and the per-segment ``writer/``, ``editor/``,
+      ``translator/``, and ``version/`` folders.
+    - Reinitialize ``chapter.json`` from the root ``book.json`` plan entry,
+      dropping runtime fields (``creative_enrichment``, ``draft``,
+      ``state`` → ``scaffolded``, ``level``, ``segments``).
+    - Reinitialize ``segment.json`` to the pending baseline.
+
+    The root ``book.json`` is never touched. Prior content is removed
+    permanently; this is a destructive reset.
+    """
+    writer = _load_module("writer_write_engine", "write.py")
+    chapters_root = writer.resolve_chapters_root(bookname)
+    numbers = writer.parse_chapter_input(target, chapters_root)
+
+    pipeline = chapters_root.parent
+    book_file = pipeline / "book.json"
+    if not book_file.exists():
+        book_file = pipeline / "model.json"
+    book = read_json(book_file)
+    plan_by_name = {str(entry.get("name")): entry for entry in book.get("chapters", [])}
+
+    cleared = 0
+    for num in numbers:
+        chapter_dir = chapters_root / str(num)
+        if not chapter_dir.is_dir():
+            print(f"  [{num}] SKIP: chapter folder not found", file=sys.stderr)
+            continue
+
+        name = str(num)
+        baseline = plan_by_name.get(name)
+        if baseline is None:
+            print(f"  [{num}] SKIP: no baseline entry in book.json", file=sys.stderr)
+            continue
+
+        # 1. Delete the live draft and flattened context.
+        for fname in ("chapter.md", "context.md"):
+            f = chapter_dir / fname
+            if f.exists():
+                f.unlink()
+
+        # 2. Clear history/ and per-segment output folders.
+        for folder in ("history", "segments/1/writer", "segments/1/editor",
+                       "segments/1/translator", "segments/1/version"):
+            path = chapter_dir / folder
+            if path.is_dir():
+                for child in path.iterdir():
+                    if child.is_dir():
+                        shutil.rmtree(child)
+                    else:
+                        child.unlink()
+
+        # 3. Reinitialize chapter.json from the baseline plan entry.
+        chapter_json = chapter_dir / "chapter.json"
+        write_json(chapter_json, dict(
+            baseline,
+            level="chapter",
+            state="scaffolded",
+            segments=[1],
+        ))
+        # Drop a legacy model.json if present, to avoid dual sources of truth.
+        legacy_model = chapter_dir / "model.json"
+        if legacy_model.exists():
+            legacy_model.unlink()
+
+        # 4. Reinitialize segment.json to the pending baseline.
+        seg_json = chapter_dir / "segments/1/segment.json"
+        write_json(seg_json, {
+            "level": "segment",
+            "state": "pending",
+            "chapter_index": baseline.get("chapter_index", num),
+            "segment_index": 1,
+        })
+
+        print(f"  [{num}] Cleaned and reinitialized.")
+        cleared += 1
+
+    print(f"Cleanup complete. {cleared} chapter(s) reset, "
+          f"{len(numbers) - cleared} skipped.")
+
+
+def _review_target_and_language(args: argparse.Namespace) -> tuple[str, str | None]:
+    """Split the review command into a chapter scope and an optional language.
+
+    ``/book <book> review all bengali`` → ``("all", "bengali")``. The chapter
+    scope is the first slot that looks like a target (``all``, ``*``, a number,
+    or a range ``N-M``); any other non-reserved token is the language. Defaults
+    to ``("all", None)`` — the engine then defaults the language to Bengali.
+    """
+    slots = [args.objective, args.option, args.range, *args.extra]
+    reserved = {"gist", "epic", "count", "chapter-count", "poetry", "novel",
+                "offline", "online"}
+
+    def _is_target(value: str) -> bool:
+        v = value.strip()
+        if v in {"all", "*"}:
+            return True
+        if v.isdigit():
+            return True
+        if re.fullmatch(r"[0-9]+-[0-9]+", v):
+            return True
+        return False
+
+    target = "all"
+    language = None
+    for value in slots:
+        if not value:
+            continue
+        if _is_target(value):
+            if target == "all":
+                target = value
+            continue
+        if value not in reserved:
+            language = value
+            break
+    return target, language
 
 
 def _write_style(args: argparse.Namespace) -> tuple[str, str | None]:
@@ -1927,8 +1978,12 @@ def publish_workflow(bookname: str, language: str | None = None, draft: bool = F
     publisher.publish(bookname, draft=draft)
 
 
-def review_workflow(bookname: str, target: str) -> None:
-    """Run the quality review engine (review.py) on selected chapters."""
+def review_workflow(bookname: str, target: str, language: str | None = None) -> None:
+    """Run the quality review engine (review.py) on selected chapters.
+
+    *language* is the normalization target (default Bengali): foreign-language
+    fragments in each chapter are rewritten into it before the audit.
+    """
     review = _load_module("writer_review_engine", "review.py")
     chapters_root = review.resolve_chapters_root(bookname)
     numbers = review.parse_chapter_input(target, chapters_root)
@@ -1937,7 +1992,7 @@ def review_workflow(bookname: str, target: str) -> None:
         return
     book = review.load_book_model(bookname)
     review.regenerate_style_md(bookname, book)
-    review.run_review(bookname, target)
+    review.run_review(bookname, target, language=language)
 
 
 def humanize_workflow(bookname: str, target: str) -> None:
@@ -1988,7 +2043,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "verb",
         nargs="?",
-        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish", "preview"),
+        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish", "preview", "cleanup"),
         help="Workflow action to perform.",
     )
     parser.add_argument(
@@ -2096,6 +2151,10 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
         write_workflow(bookname, target, style)
         return
 
+    if verb == "cleanup":
+        cleanup_workflow(bookname, positional_target(args))
+        return
+
     if verb == "enrich":
         enrich_workflow(bookname, positional_target(args))
         return
@@ -2121,7 +2180,8 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
         )
 
     if verb == "review":
-        review_workflow(bookname, positional_target(args))
+        target, language = _review_target_and_language(args)
+        review_workflow(bookname, target, language)
         return
 
     if verb == "humanize":

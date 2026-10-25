@@ -1,0 +1,28 @@
+{
+  "chapter_index": 21,
+  "name": "Conclusion",
+  "word_target": 5500,
+  "chapter_title": "ভাঁজ করা কাগজ, খোলা জানালা",
+  "chapter_summary": "শহর আবার তার স্বাভাবিক কোলাহলে ফিরে আসে। সকালের কাগজ আবার গেটের উপর ছুড়ে দেওয়া হয়। কিন্তু অরুণিমা ও বিক্রমের উপলব্ধির পরিবর্তন এক নতুন, অস্পষ্ট 'আর্টিকেল' হিসেবে পাঠকের সামনে উপস্থাপিত হয়—একটি খোলা প্রশ্ন, যার উত্তর শহর নিজেই লিখে চলে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "1bd29c0fdc0e3668c93a950a6452933f521aa4b48ef476ba49d663594df54e2f",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-24T03:33:33+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

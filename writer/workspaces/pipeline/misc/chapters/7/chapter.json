@@ -1,0 +1,47 @@
+{
+  "chapter_index": 7,
+  "name": "7",
+  "word_target": 500,
+  "chapter_title": "The Porter's Sweat",
+  "chapter_summary": "A railway porter balances a heavy load, and the poem attends to the sweat and strain that carry other people's belongings from platform to train.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing solely on the mechanics of the sweat itself—the salt crystallization patterns forming on cloth or skin, treating it as a mineral deposition rather than just evidence of labor.",
+      "Viewing the porter not through his effort, but through the *objects* he carries; examining how weight distorts the shapes and textures of luggage (a specific trunk seam, the curve of a rolled shawl).",
+      "Presenting the sweat not as exertion in the heat, but as an internal temperature regulator responding to minute shifts in environment—the transition from shade to sun on the platform."
+    ],
+    "story_options": [
+      "Setting: The narrow gap between two stationary trains; Desire: To record the specific sound of breath hitching under strain while maneuvering around luggage, Obstacle: The sheer physical bulk/impersonality of the stacked goods.",
+      "Setting: A shaded overhang near the main ticketing office; Desire: To catch the faint scent profile mixing human perspiration with oxidized metal from a piece of baggage, Obstacle: The pressure to move on and never linger in this paused moment of labor.",
+      "Setting: Midway across an exposed patch of platform concrete under direct midday sun; Desire: To chronicle how the porter’s skin changes color/texture due to evaporation, until it mirrors the heat shimmer rising from the track ballast, Obstacle: The audience's expectation of immediate narrative resolution."
+    ],
+    "subject_rotations": [
+      "Treating 'sweat' as a form of ephemeral currency—a visible accounting of hours spent in service, traded for passage.",
+      "Examining the porter’s tools (hand straps, ropes, bindings) alongside his skin; how does the material exhaustion reflect on the object?",
+      "Focusing the entire poem not on the act of carrying, but on the *pause*—the microsecond where he stabilizes a load before stepping forward."
+    ],
+    "sensory_details": [
+      "The specific granular friction sound of rough jute straps against damp cotton skin.",
+      "A sharp, metallic tang in the air immediately above the heated metal of railway tracks interacting with moisture.",
+      "The visual sheen on an object (a leather bag strap) that has absorbed sweat so thoroughly it appears slick and dark, like oil."
+    ],
+    "research_questions": [
+      "How does the visible evidence of sweat—is it uniform or concentrated in specific anatomical areas based on typical porter labor?—differentially convey intensity?",
+      "What is the standard material composition and texture of the ropes or straps typically used by platform porters that might react visibly to body moisture?"
+    ],
+    "structural_variants": [
+      "A catalogue structure: listing successive items being carried, each item linked semantically (or ironically) to a single bead of sweat.",
+      "A cyclical structure mimicking the rhythm of short bursts of maximum exertion followed by shallow breaths."
+    ],
+    "unused_angles": [
+      "How the weight influences peripheral vision—how carrying heavy loads distorts or frames the world seen by the porter (a specific, unusual foreground element)."
+    ],
+    "variety_note": "This poem shifts focus entirely from static objects in domestic spaces to kinetic labor, examining strain through mineral residue rather than simply documenting movement."
+  }
+}
