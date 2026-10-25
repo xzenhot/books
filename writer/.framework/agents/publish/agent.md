@@ -69,7 +69,7 @@ follow `.framework/rules/source-versioning.md`.
    (`chapters/<n>/segments/1/translator/<language>.md`) into
    `chapters/<n>/<language>/chapter.md`; skip and report chapters with no match.
 4. **Assemble** `version<k>/book.md` in canonical order (novel:
-   Introduction → 1..N → Conclusion; poetry: `bookseed.txt` order). With a
+   Introduction → 1..N → Conclusion; poetry: `book.json` `chapters[]` order). With a
    `<language>`, assemble `book_<language>.md`.
 5. **Update `progress.json`** (`published`, `published_at`, `published_version`,
    `published_language`) without resetting filter/write state.

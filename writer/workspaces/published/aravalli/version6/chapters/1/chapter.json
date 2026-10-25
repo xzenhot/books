@@ -1,0 +1,94 @@
+{
+  "chapter_index": 1,
+  "name": "1",
+  "word_target": 500,
+  "chapter_title": "নীল গর্ভের প্রথম কান্না",
+  "chapter_summary": "প্রাগৈতিহাসিক টেথিস সাগরের অতল নীল গর্ভে পাহাড়ের প্রথম নড়াচড়া। টেকটনিক প্লেটের ধাক্কায় শিলার নগ্ন উত্থানের সূচনা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "eliot",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 7,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Language Poetry",
+        "one_liner": "Prioritizing word structure over clear meaning."
+      },
+      "writing_skills": [
+        "syntactical scrambling",
+        "fragmentation",
+        "phonetic layering"
+      ],
+      "image_seed": "a first fracture line drawn across abyssal silt",
+      "volta": "the heat that turns pressure into a first breath",
+      "sonic_texture": "hard consonants over one long vowel of water",
+      "line_gesture": "short broken lines widening into one enjambed cry",
+      "variety_note": "opens in the liquid abyss, not on a peak — the only poem that begins underwater."
+    },
+    "angles": [
+      "The nascent agony of continental collision visualized as a primal scream trapped in magma.",
+      "Focusing the narrative entirely on the oceanic pressure against the embryonic rock, personifying deep-sea forces before terrestrial emergence.",
+      "Interweaving early tectonic stress with the first subconscious flicker of desire or separation within 'the mountain'."
+    ],
+    "story_options": [
+      "Scene: The absolute abyssal plain of Tethys. Desire: To find stillness against infinite movement. Obstacle: Unyielding hydrostatic pressure and shifting crustal plates. Turn: A momentary flash of heat, the first hint of mineral crystallization.",
+      "Scene: Within a nascent mantle plume. Desire: Self-definition amidst undifferentiated slurry. Obstacle: The crushing weight of pre-mountainous strata pressing down. Turn: An internal fracture line appearing as if drawn by an unknown force (the hand metaphor).",
+      "Scene: Near the continental boundary, before solid uplift. Desire: To achieve a perfect, singular form. Obstacle: Shear stress ripping at atomic bonds. Turn: The sound of the first 'cry' being perceived not acoustically, but vibrationally through sediment."
+    ],
+    "subject_rotations": [
+      "Treating the initial geological phase as a purely existential event—a state of pure becoming versus absolute nothingness.",
+      "Focusing less on the plate collision and more on the chemical reactions occurring within the proto-rock (silicates, dissolved salts) as precursors to consciousness.",
+      "The mountain's birth described through cyclical patterns analogous to heartbeat or respiration before it develops true form."
+    ],
+    "sensory_details": [
+      "Tactile: The slick, viscous friction of oceanic mud sliding against emerging lithic forms.",
+      "Aural: A low-frequency hum that registers more as bone-deep resonance than sound waves.",
+      "Olfactory: The metallic, cold scent of dissolved salts and deep-sea volcanic gases."
+    ],
+    "research_questions": [
+      "What are the known chemical signatures associated with the earliest recognized metamorphic events in Tethys Sea margins?",
+      "How does modern seismology model the transition point between ductile flow and brittle faulting during initial continental plate convergence?"
+    ],
+    "structural_variants": [
+      "A single, unbroken stream-of-consciousness monologue that mirrors the slow deformation of rock over eons.",
+      "A heavily fragmented poem where each line represents a distinct measurable geological process (e.g., pressure gauge reading, temperature spike)."
+    ],
+    "variety_note": "This chapter must establish the foundational *tension*—the raw kinetic energy and silent agony of formation—unlike later chapters which will deal with the consequences of that structure."
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "604e2b5a12cfe45e7eaea964c7b5a90727077f79e407415326819397aa5370a7",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

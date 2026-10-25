@@ -3,7 +3,7 @@
 Reusable "add chapters" tool.
 
 Appends new chapter entries to a poetry book's backlog book.json and pipeline
-book.json, and reconciles model.json, bookseed.txt, progress.json, and the
+book.json, and reconciles model.json, progress.json, and the
 chapter folders. New chapters are defined inline in NEW_CHAPTERS below.
 
 Usage:
@@ -107,12 +107,6 @@ def add_chapters(bookname: str) -> None:
         model["source_terms"] = [c["chapter_title"] for c in plan["chapters"]]
         with open(model_path, "w", encoding="utf-8") as f:
             json.dump(model, f, indent=2, ensure_ascii=False)
-
-    # bookseed.txt
-    seed_path = os.path.join(PIPE, "bookseed.txt")
-    with open(seed_path, "w", encoding="utf-8") as f:
-        for c in plan["chapters"]:
-            f.write(c["chapter_title"] + "\n")
 
     # progress.json
     prog_path = os.path.join(PIPE, "progress.json")

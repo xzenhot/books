@@ -1,0 +1,122 @@
+# Chapter model context
+
+## chapter_index
+
+26
+
+## name
+
+26
+
+## word_target
+
+280
+
+## chapter_title
+
+পচন ও পুনর্জন্মের সন্ধিরেখা
+
+## chapter_summary
+
+মৃত্যুর দৃশ্যমান অবক্ষয়কে প্রত্যক্ষ করেও জীবনের সুপ্ত শক্তির প্রতি অগাধ বিশ্বাস। ধ্বংসের ছাই থেকেই নতুন উন্মেষের প্রতীক্ষা।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating 'pochen' (decay) not as physical decomposition but as the slow erosion of rigid societal structures surrounding widowhood.
+- Framing the 'sondhirekha' (threshold line) as a liminal state where memory and possibility exist simultaneously, demanding no immediate resolution.
+- Interrogating the nature of faith during irreversible material decline: Is belief stronger when the object of devotion is visibly returning to dust?
+
+### story_options
+
+- setting: Near a section of the riverbank coated in wet silt and decaying foliage, desire: To feel the cold, yielding give of the mud beneath her feet—a temporary grounding against metaphysical drift, obstacle: The constant visual evidence of death (decaying plant matter) acting as an insistent counter-narrative to hope, turn: A sudden surge of life from a weed breaking through the mire.
+- setting: Within a space where water meets earth, characterized by stagnant pools and slow currents, desire: To observe the precise moment mold or rot begins its transformation into new growth, obstacle: The psychological weight of holding onto something that should logically pass away, turn: Recognizing in the cycle of decay/growth a pattern mirroring her own internal spiritual renewal.
+- setting: Against an abandoned, half-finished structure—perhaps a decaying religious offering site or ruin visible from afar, desire: To project her intense belief onto this broken edifice, forcing it to complete itself anew in spirit, obstacle: The sheer vulnerability of the unfinished state, turn: A single act of intentional repair (a small gesture) enacted by her presence.
+
+### subject_rotations
+
+- Focusing purely on the material language of dissolution—the textures, colors, and smells associated with organic breakdown.
+- Shifting from a focus on 'renewal' to an equally potent emphasis on 'acceptance'—what does acceptance mean when beauty is fundamentally fragile?
+- Examining the difference between spiritual transcendence (moving beyond) and cyclical recurrence (being caught within) in moments of death.
+
+### sensory_details
+
+- The metallic tang of rust leaching from damp river stones into the soft sediment (smell/taste)
+- The spongy, giving resistance of deeply saturated mud against bare skin (touch)
+- A low, persistent hum emanating from insect life thriving in rich, decomposing matter (sound)
+
+### research_questions
+
+- In Bengali poetic tradition, what specific lexical choices best convey the transition from 'entropy' to 'genesis' without resorting to cliché?
+
+### structural_variants
+
+- A fragmented structure where each short segment addresses a different stage of decay (softness, rigidity, return), ending with a single, unbroken line representing the threshold.
+- Using an almost scientific register for describing organic collapse, juxtaposed violently against intensely personal or devotional phrasing.
+
+### unused_angles
+
+- The physical manifestation of exhaustion as it intersects with the spiritual will; how bodily failure informs theological persistence.
+- Exploring the shadow-side: if decay is necessary for life, what does that imply about the value placed on pristine purity in society?
+
+### variety_note
+
+This chapter diverges from neighbours by grounding its abstract philosophical concerns of dissolution firmly within specific, tactile interactions with decaying natural matter.
+
+## draft
+
+### sha256
+
+73bfc204ee2f0b2036c3a8fede143ed86c94e88fe4396b255a7857a714a1d60c
+
+### written_at
+
+2026-10-21T14:07:20.119264+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+73bfc204ee2f0b2036c3a8fede143ed86c94e88fe4396b255a7857a714a1d60c
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-21T16:19:57+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

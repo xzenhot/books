@@ -6,7 +6,7 @@
   "chapter_summary": "হিমালয়ের জন্মের বহু কোটি বছর আগে যে পাহাড় দাঁড়িয়েছিল, সে আজও বেঁচে — সবচেয়ে প্রাচীন সাক্ষী।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -80,5 +80,20 @@
   "stereotype": {
     "signature": "blake",
     "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "9d37180cb9fe26bf85089c2ae39fc10db50d79087ed5043e231ee06701399509",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

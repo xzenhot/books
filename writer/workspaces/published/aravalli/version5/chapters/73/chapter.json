@@ -1,0 +1,28 @@
+{
+  "chapter_index": 73,
+  "name": "73",
+  "word_target": 500,
+  "chapter_title": "সাগরিকার নাম",
+  "chapter_summary": "প্রেমিকা সাগরিকা ঘোষের নাম — যিনি নিজেও কবিতা লেখেন, এবং প্রতিটি কবিতায় প্রেম নিবেদিত হয় তাকে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "ce90ff4985c0aadc64e31eff371925cb41b8143f14a23f88fac77ea400500c30",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

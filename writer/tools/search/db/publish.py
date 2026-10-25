@@ -40,10 +40,13 @@ def publish(bookname: str, language: str | None = None) -> None:
     chapters_out = os.path.join(ver_dir, "chapters")
     os.makedirs(chapters_out, exist_ok=True)
 
-    # canonical order
-    with open(os.path.join(PIPE, "bookseed.txt"), encoding="utf-8") as f:
-        topics = [l.strip() for l in f if l.strip()]
-    total = len(topics)
+    # canonical order — chapter count/topics from progress.json (bookseed.txt retired)
+    total = 0
+    prog_path = os.path.join(PIPE, "progress.json")
+    if os.path.isfile(prog_path):
+        with open(prog_path, encoding="utf-8") as f:
+            prog = json.load(f)
+        total = len(prog.get("chapters", []))
 
     def version_key(fname):
         if fname.startswith("chapter_v") and fname[len("chapter_v"):-3].isdigit():

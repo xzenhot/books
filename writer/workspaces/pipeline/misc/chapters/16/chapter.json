@@ -1,0 +1,50 @@
+{
+  "chapter_index": 16,
+  "name": "16",
+  "word_target": 500,
+  "chapter_title": "The Water Pot on a Head",
+  "chapter_summary": "A woman balances a water pot on her head and walks, and the poem regards the steady line of the body that carries what the household needs.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing strictly on the physics of balance: how subtle shifts in muscle tension or gait translate to a visual metaphor for societal equilibrium.",
+      "The pot as a portable, contained reservoir—a miniature ecosystem that carries the life-source into the dry heat of the city street.",
+      "Analyzing the relationship between the headwear and local adornment; is the weight balanced by decorative counterweights or specific hairstyle choices?"
+    ],
+    "story_options": [
+      "Setting: A dusty, afternoon thoroughfare leading from a well to clustered homes; Desire: To capture the exact moment of perfect, momentary poise before inevitable wobble begins; Obstacle: The unpredictable texture of uneven stone underfoot; Turn: The pause is broken by the sound of rushing metalwork nearby.",
+      "Setting: Twilight, approaching the shadowed ingress of a crowded lane; Desire: To observe how the pot's shape subtly catches the first scattered light from kerosene lamps; Obstacle: A sudden downpour threatens the water supply itself; Turn: The bearer shifts her gait not in fear, but in conscious acknowledgment of the fading daylight.",
+      "Setting: Early morning, near a source of filtered sunlight breaking through haze; Desire: To map the shadow cast by the pot—a perfect circle against the uneven ground—as the true subject; Obstacle: A persistent, low-frequency drone (e.g., distant machinery) disrupting concentration; Turn: The water inside seems to visibly shimmer or warp when subjected to this vibration."
+    ],
+    "subject_rotations": [
+      "Treating the act of carrying as a sustained negotiation with gravity and tradition, rather than solely an act of labor.",
+      "Examining the pots themselves—their material (earthenware vs. metal) and its sonic signature when water sloshes or contacts stone.",
+      "Focusing on the periphery: the visual distortion caused by heat rising off the pot's surface in intense sunlight, making it appear unstable."
+    ],
+    "sensory_details": [
+      "The specific gritty taste of fine dust adhering to the woman’s hairline from proximity to the path.",
+      "The sound of liquid water being moved across different densities of pavement (baked clay vs. worn slate).",
+      "The visual effect of light refracting through a slight ripple on the pot's surface, creating distorted bands of color."
+    ],
+    "research_questions": [
+      "What are the common local varieties or materials used for water pots carried in this manner across different regional settings of contemporary India?",
+      "How does the weight distribution change dynamically as the liquid level within such a container fluctuates during transit?"
+    ],
+    "structural_variants": [
+      "A single, unbroken observational stream following the woman's path from start to finish.",
+      "A structure composed of alternating stanzas: one focusing on the pot itself (material/form), and the next focusing on the world receding around her feet.",
+      "Starting with a microscopic view of water beaded on the outside surface, then slowly pulling back to reveal the full vertical line."
+    ],
+    "unused_angles": [
+      "The politics of ownership: who owns the water source? Who benefits from this precise distribution?",
+      "A study of counter-movement: how the pedestrian flow around her changes in reaction to her balanced presence.",
+      "Comparing the weight of the pot to other symbolic weights (e.g., jewelry, harvest loads) mentioned elsewhere in the sequence."
+    ],
+    "variety_note": "This poem pivots away from transient social gestures and instead anchors on a sustained, physical act—the constant, unwavering verticality of labor against environmental forces."
+  }
+}

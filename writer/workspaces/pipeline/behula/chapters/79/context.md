@@ -1,0 +1,80 @@
+# Chapter model context
+
+## chapter_index
+
+79
+
+## name
+
+79
+
+## word_target
+
+280
+
+## chapter_title
+
+চেতনার শাশ্বত উত্তরাধিকার
+
+## chapter_summary
+
+পার্থিব সম্পদ নয়; দৃঢ় বিশ্বাস ও আত্মমর্যাদার যে আলোকবর্তিকা বেহুলা জ্বেলেছে, তা-ই পরবর্তী প্রজন্মের জন্য চিরকালীন সম্পদ।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the *act* of passing down knowledge rather than just the resultant wisdom—the physical gesture or ritual transfer.
+- Framing the 'legacy' not as a large, abstract societal structure, but in microscopic detail: the specific way an heirloom object is held or used daily by descendants.
+- Contrasting the ancient, almost mythic source of this legacy (Behula’s struggle) with its quiet, mundane manifestation in modern Bengali life.
+
+### story_options
+
+- Setting: A dimly lit corner within a community gathering space; Desire: To witness a young girl mimic an old woman's specific posture—a physical echo of Behula's enduring resolve—Obstacle: The girl is distracted by immediate, trivial comforts; Turn: Her focused imitation momentarily silences the surrounding chatter.
+- Setting: Near the remnants of earth or stone touched during Behula’s journey (perhaps a river pebble); Desire: To trace lines on this object that suggest both passage of time and persistent pattern—Obstacle: The marks are eroded and meaningless to an outsider; Turn: A descendant recognizes a specific, repeated knot-like formation in the erosion.
+- Setting: While tending a simple domestic fire or weaving thread; Desire: To find rhythm not in the action itself, but in the almost subconscious repetition between generations—Obstacle: The elders struggle to articulate *why* this pattern matters; Turn: Their shared exhaustion brings them into alignment with the unseen weight of past endurance.
+
+### subject_rotations
+
+- Examining 'inheritance' through the lens of physical wear and repair on tools or artifacts, where each mended piece represents a surmounted obstacle.
+- Reframing 'consciousness/चेतना' away from abstract thought into muscle memory—the inherited way one stands, walks, or holds tension in moments of stress.
+- Treating the legacy as an unsaid burden; the quiet obligation carried by those who benefit from past sacrifice.
+
+### sensory_details
+
+- The dry, slightly metallic taste left on the tongue after prolonged silence, like old iron or dust settled in a hollow space.
+- The precise weight and unevenness of an inherited piece of cloth, feeling less like fabric and more like concentrated history against the skin.
+
+### research_questions
+
+- In Bengali poetic tradition, is there a specific motif for 'inherited silent burden' that captures this concept more precisely than simple lineage?
+- How does the physical act of performing mundane domestic labor contrast with or reinforce monumental historical struggle in contemporary cultural narrative?
+
+### structural_variants
+
+- A tripartite structure: A moment of intense individual focus (body/gesture) -> a slow widening to include immediate family presence -> a momentary suspension where all voices cease, leaving only the implied continuity.
+- A spiraling motif: Each stanza introduces a new level of abstraction about 'legacy' but always resolves back to a single, grounded physical sensation (e.g., pressure, temperature, texture).
+
+### unused_angles
+
+- The active role of forgetting: exploring how necessary amnesia allows the struggle to transition from personal trauma to symbolic strength.
+- The internal critique: what is lost or actively suppressed when 'strength' becomes a inherited trait instead of a consciously chosen act?
+
+### variety_note
+
+Unlike previous chapters that emphasized overcoming outward physical/societal obstacles, this chapter focuses entirely on the internalized transmission—the intangible, rhythmic passing down of resilience itself.

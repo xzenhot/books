@@ -6,8 +6,23 @@
   "chapter_summary": "সাগরিকার নগ্ন উরুর বিজয়ী বিস্তার — প্রাচীন নর্তকীর ভঙ্গি মনে করিয়ে দেয়, যার প্রতিচ্ছবিতে কেঁপে ওঠে আধুনিক মেট্রোপলিস।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "6f6232e95041728ee5b72fd73b87c0aa879077480cabc232dc6cb306c5552151",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

@@ -218,13 +218,12 @@
       <tbody>
         <tr><td><code>.framework/workflows/pipeline.md</code></td><td><strong>The writing engine.</strong> Defines commands, scaffolding, filter execution, form selection, config, and writing rules.</td></tr>
         <tr><td><code>.framework/skills/layout-novel/SKILL.md</code></td><td><strong>The novel layout authority.</strong> Owns novel scaffold shape, <code>book.json</code>, characters, moods, workshop metadata, filters, and chapter/segment path invariants.</td></tr>
-        <tr><td><code>.framework/skills/layout-poetry/SKILL.md</code></td><td><strong>The poetry layout authority.</strong> Owns poetry scaffold shape, <code>book.json</code>, <code>bookseed.txt</code>, progress, override, filters, and one-segment chapter layout.</td></tr>
+        <tr><td><code>.framework/skills/layout-poetry/SKILL.md</code></td><td><strong>The poetry layout authority.</strong> Owns poetry scaffold shape, <code>book.json</code>, progress, override, filters, and one-segment chapter layout.</td></tr>
         <tr><td><code>.framework/filters/research/SKILL.md</code></td><td><strong>Research support.</strong> A chain filter reached through the filter agent; performs research against the epic/gist as contextual source.</td></tr>
         <tr><td><code>workspaces/backlog/&lt;bookname&gt;/storyline.md</code></td><td><strong>The backlog epic.</strong> The single source of truth for a novel's story. Created/updated by the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command.</td></tr>
         <tr><td><code>workspaces/backlog/&lt;bookname&gt;/book.json</code></td><td><strong>The backlog book plan.</strong> The chapter-layout plan plus the authoritative <code>filter_chain</code> and <code>word_target</code>. Produced by <code>init</code>; the blueprint <code>scaffold</code> builds from.</td></tr>
         <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/</code></td><td><strong>The book pipeline.</strong> Holds model data, characters, filters, chapter plans, segments, and progress state.</td></tr>
-        <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/book.json</code></td><td><strong>The book plan.</strong> A complete clone of backlog <code>book.json</code>, preserved unchanged throughout scaffold and the master-prompt phase. Later explicit config or runtime operations may update it.</td></tr>
-        <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/bookseed.txt</code></td><td><strong>The poetry index.</strong> One topic or term per line; each topic becomes one chapter.</td></tr>
+        <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/book.json</code></td><td><strong>The book plan.</strong> A complete clone of backlog <code>book.json</code>, preserved unchanged throughout scaffold and the master-prompt phase. Later explicit config or runtime operations may update it. Its <code>chapters[]</code> array is the poetry index — each entry (a <code>chapter_title</code> + <code>chapter_summary</code>) becomes one poem.</td></tr>
         <tr><td><code>.framework/context/&lt;form&gt;/</code></td><td><strong>The stereotype templates.</strong> Signatures, references, themes, qualities, and syntax samples for each form.</td></tr>
         <tr><td><code>workspaces/published/&lt;bookname&gt;/&lt;version&gt;/</code></td><td><strong>Verified output.</strong> Chapters and the consolidated book live inside a fresh version folder.</td></tr>
       </tbody>
@@ -311,7 +310,7 @@
       <thead><tr><th>Signal</th><th>Novel</th><th>Poetry</th></tr></thead>
       <tbody>
         <tr><td><strong><code>form</code> field</strong></td><td><code>"novel"</code></td><td><code>"poetry"</code></td></tr>
-        <tr><td><strong>Source of truth</strong></td><td><code>storyline.md</code></td><td><code>book.json</code> + <code>bookseed.txt</code></td></tr>
+        <tr><td><strong>Source of truth</strong></td><td><code>storyline.md</code></td><td><code>book.json</code> (<code>chapters[]</code>)</td></tr>
         <tr><td><strong>Chapter structure</strong></td><td>flat, continuous prose</td><td>flat, continuous poetic prose</td></tr>
         <tr><td><strong>Segments per chapter</strong></td><td>many (<code>segments/1</code>, <code>segments/2</code>, …)</td><td>exactly one (<code>segments/1</code>)</td></tr>
         <tr><td><strong><code>mood.json</code></strong></td><td>present per chapter</td><td>absent</td></tr>
@@ -455,7 +454,7 @@
     <p>Novel chapters are written as <strong>flat, continuous prose</strong> — no section headings. The modern frame scene, the main historical or fictional story, and the characters' response are woven into a single unbroken prose flow, using the epic, filter outputs, included characters, and quality parameters as source material.</p>
 
     <h3>Poetry</h3>
-    <p>Each poetry chapter is a single <strong>flat, continuous poetic-prose</strong> unit — no section headings — generated from one topic in <code>bookseed.txt</code>, grounded in <code>book.json</code>, and rendered in the selected poetic voice.</p>
+    <p>Each poetry chapter is a single <strong>flat, continuous poetic-prose</strong> unit — no section headings — generated from one topic in <code>book.json</code>'s <code>chapters[]</code>, grounded in <code>book.json</code>, and rendered in the selected poetic voice.</p>
 
     <h3>For both forms</h3>
     <ul>

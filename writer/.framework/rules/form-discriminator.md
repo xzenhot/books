@@ -6,7 +6,7 @@ The form is declared once, at scaffold time, in the pipeline's `form` field
 | Signal | Novel | Poetry |
 |---|---|---|
 | **`form` field** | `"novel"` | `"poetry"` |
-| **Source of truth** | `storyline.md` (epic-driven) | `model.json` + `bookseed.txt` |
+| **Source of truth** | `storyline.md` (epic-driven) | `model.json` (the `chapters[]` array holds topics) |
 | **Chapter structure** | flat, continuous prose | flat, continuous poetic prose |
 | **Segments per chapter** | many (`segments/1`, `segments/2`, …) | exactly one (`segments/1`) |
 | **`mood.json`** | present per chapter | absent (no moods) |

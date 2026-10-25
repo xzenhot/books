@@ -1,0 +1,50 @@
+{
+  "chapter_index": 58,
+  "name": "58",
+  "word_target": 500,
+  "chapter_title": "The Lamp Lit at Dusk",
+  "chapter_summary": "A lamp is lit at dusk before a doorway, and the poem regards the small flame that marks the turn from day into the household's evening.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the lamp flame as a localized portal—a tiny, fragile boundary between the known day-light world outside and the intimate shadows of the threshold within.",
+      "Framing the act of lighting the lamp not just as an initiation to evening, but as a small, deliberate defiance against the encroaching vastness of night (the unseen darkness beyond the immediate doorway).",
+      "The flame's relationship to memory: how the light pulls forward images or smells associated with past evenings at that very spot."
+    ],
+    "story_options": [
+      "setting: A narrow passage just outside a compound wall., desire: To recall the shape of an argument held in daylight, now illuminated by flickering orange light., obstacle: The encroaching smell of damp earth and night insects attempting to settle into the heat signature of the flame., turn: The speaker notes that the warmth of the lamp does not push back the coldness of the approaching evening, only defines its edge.",
+      "setting: A threshold where the pavement meets a darkened veranda., desire: To address an unseen presence—perhaps the resident who must still be tending to interior duties—through the light's steady rhythm., obstacle: The visual distortion of the flame itself, making the concrete backdrop ripple and seem alive, like captured heat haze., turn: The speaker observes that for this single act of lighting, all other daily labor (the street stalls, the hurried passage) momentarily pauses in deference to the ritual.",
+      "setting: A cluttered doorway piled with domestic objects awaiting the night's quiet., desire: To attribute agency to the lamp—to believe the flame itself is keeping watch over the unsaid things of the day left behind., obstacle: The specific sound of the wick catching, a small, sharp 'hiss' or 'flicker,' that cuts through the general ambient hum before settling into its soft drone., turn: The focus shifts from the *light* to the quality of shadow it casts: how shadows deepen and become more defined after being chased away by midday sun."
+    ],
+    "subject_rotations": [
+      "Focusing intensely on the physical material—the oil, the wick's precise burn rate, the soot accumulating near the holder—rather than its symbolic meaning.",
+      "Examining the lamp not as a singular event, but as part of an entire sequence: how it changes from being lit (a spark) to burning steady (sustenance) to guttering low before sleep.",
+      "Treating the light source in contrast to other evening lights—the distant sodium glow, or the softer internal illumination leaking from another window."
+    ],
+    "sensory_details": [
+      "Smell: The sharp, momentary scent of kerosene (or oil) mixed with dry dust as the wick is first touched.",
+      "Sound: The high-pitched, almost imperceptible *sizzle* emanating directly from the center of the flame.",
+      "Touch: The specific temperature gradient felt near the lamp base—a small pocket of intense warmth against the cooling air of twilight."
+    ],
+    "research_questions": [
+      "What are the local/regional variations in the type of oil or wick used for these domestic lamps, and how does that affect its visual quality?",
+      "How is the 'dusk' moment specifically perceived in terms of color saturation by local observers before artificial light takes over?"
+    ],
+    "structural_variants": [
+      "A strict strophic form where each stanza focuses on a single phase of the flame (initial ignition, peak burn, settling glow).",
+      "Using an extended metaphor where the lamp is conceived as a tiny heart beating against the vastness of external quiet.",
+      "Beginning the poem with the aftermath—the small shadow cast by the newly extinguished wick moments later."
+    ],
+    "unused_angles": [
+      "The interaction between the lamp's light and specific textiles or colors in the home that are only visible once lit.",
+      "A meditation on how this single point of stable, controlled fire contrasts with the erratic movement of street life witnessed earlier in the day.",
+      "Exploring the familial obligation tied to ensuring the lamp is properly fueled for the night."
+    ],
+    "variety_note": "While many previous poems focused on a starting action (a bell ringing, hands folding), this poem centers on an act of transition—the deliberate demarcation between daylight and evening's interior life."
+  }
+}

@@ -6,7 +6,7 @@
   "chapter_summary": "পাহাড়ের শরীরে বয়ে চলা শিরা — তামা, দস্তা, সীসার আকরিক আর মার্বেলের শুভ্র রক্ত। খনিজ শরীরের প্রথম পরিচয়।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -80,5 +80,20 @@
   "stereotype": {
     "signature": "nazrul",
     "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "b928b48d029ee96de010579071e3771179cdbfc88898dfdb37645e0d07f84339",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

@@ -1,0 +1,53 @@
+{
+  "chapter_index": 61,
+  "name": "61",
+  "word_target": 280,
+  "chapter_title": "সম্পদের চেয়ে নিষ্ঠার শ্রেষ্ঠত্ব",
+  "chapter_summary": "চন্দ্রকান্ত কর্তৃক বাণিজ্যিক সাম্রাজ্যের দায়িত্ব বেহুলার হাতে তুলে দেওয়া। ক্ষমতার চেয়ে নৈতিক পবিত্রতাই প্রতিষ্ঠান পরিচালনার আসল শক্তি।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing her assumption of power not as a 'gift' from a broken man (Chandrakanta), but as an inevitable recognition by the cosmos of inherent merit, regardless of human endorsement.",
+      "Viewing the transfer of responsibility (দায়িত্ব) through the lens of ancient contracts or covenants, where spiritual adherence is the highest currency against material wealth.",
+      "Focusing on the silence following the decree: The weight and quiet resonance in the hall when her name replaces the old authority's, making the 'weight' purely metaphorical rather than social."
+    ],
+    "story_options": [
+      "Setting: A dusty chamber within the merchant compound; Desire: To feel the physical shift of power as a mantle, heavy yet perfectly fitting, bestowed by Chandrakanta; Obstacle: The unspoken reservations of established council members; Turn: Behula’s first directive is not financial or strategic, but symbolic—a quiet act honoring an ancient principle.",
+      "Setting: A view from a high balcony overlooking the city's bustling port at dusk; Desire: To gain clarity on the scope of her new influence against the backdrop of endless commerce below; Obstacle: The persistent shadow of past injustice clinging to the merchant house’s foundations; Turn: She decides that her first action must be one that visibly mitigates a specific, small hardship suffered by the lowest laborers.",
+      "Setting: Chandrakanta's private study late at night, lit only by oil lamps; Desire: To privately acknowledge the true nature of his sacrifice before accepting the role publicly; Obstacle: The lingering exhaustion and doubt about her own capacity for governance; Turn: She shares a brief, unguarded moment with him, where responsibility is discussed not as duty, but as mutual burden."
+    ],
+    "subject_rotations": [
+      "Examining the *cost* of this elevation: Does inheriting 'honor' mean permanently sacrificing a portion of her personal vulnerability for public duty?",
+      "Treating Chandrakanta's concession not as repentance, but as a recognition that his previous definition of 'value' (material accumulation) was incomplete.",
+      "Shifting focus entirely from the business to the *act* of handing over—the transfer itself becoming an embodied ritual between two souls."
+    ],
+    "sensory_details": [
+      "The cool, oiled scent of aged sandalwood used in the merchant house’s private study.",
+      "The precise vibration felt through a polished wooden table when her hand makes contact with the documents of succession.",
+      "The muted, dry rasp of parchment curling under prolonged exposure to arid air."
+    ],
+    "research_questions": [
+      "Given that this chapter involves the business world (Chandrakanta's company), what Bengali cultural touchstones exist for describing the intangible value ('Nishtha') when compared to concrete wealth?",
+      "How can I portray the transition from 'enduring hardship' (grief) to 'administrative authority' without sounding bureaucratic or dry in poetic form?",
+      "Are there specific symbolic gestures within mercantile tradition that could represent transferring moral stewardship over material assets?"
+    ],
+    "structural_variants": [
+      "A highly formalized structure mimicking a legal decree, yet infused with deeply personal pauses and lyrical digressions on duty.",
+      "A fragmented structure where the weight of the 'inheritance' is shown through quick shifts between her past suffering and present responsibilities."
+    ],
+    "unused_angles": [
+      "The potential for this moment to be seen as merely one stepping stone before her final journey into divine confrontation, rather than a resting point of achieved earthly power."
+    ],
+    "variety_note": "Unlike previous chapters focused on external conflict or personal survival in nature, this chapter anchors Behula within the formal structures of human society and commerce, defining her value against material gain."
+  },
+  "draft": {
+    "sha256": "be8b702c7bf4c490b7cdb370bb58d9736eb6bdd1a1b72bb4b1a6b30202d48959",
+    "written_at": "2026-10-21T14:14:27.757263+00:00",
+    "origin": "write"
+  }
+}

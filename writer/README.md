@@ -25,7 +25,7 @@ writer/
 │   └── templates/           # stereotypes (novel/, poetry/), moods/, subjects/, preset/
 ├── workspaces/                  # inputs & working state
 │   ├── backlog/<book>/     # gist.md, storyline.md, book.json (the book plan)
-│   └── pipeline/<book>/     # model.json, bookseed.txt, progress.json, filters/, chapters/
+│   └── pipeline/<book>/     # model.json, progress.json, filters/, chapters/
 ├── workspaces/published/<book>/     # finished, versioned output
 ├── AGENTS.md                # runtime steering for autonomous coding agents
 ├── LICENSE
@@ -84,7 +84,7 @@ A book is either **poetry** (verse) or **novel** (prose), declared in the pipeli
 
 | Signal | Poetry | Novel |
 |--------|--------|-------|
-| Source of truth | `model.json` + `bookseed.txt` | `storyline.md` |
+| Source of truth | `model.json` (`chapters[]` holds topics) | `storyline.md` |
 | Chapter structure | flat, continuous poetic prose | flat, continuous prose |
 | Segments per chapter | exactly one (`segments/1`) | many |
 | Word target | 500–800 | 5,500+ |
@@ -152,7 +152,7 @@ Reference filters live under `.framework/filters/reference/` (`poeticprose`, `na
 | Path | Role |
 |------|------|
 | `workspaces/backlog/<book>/` | `gist.md`, `storyline.md`, `book.json` (the book plan) |
-| `workspaces/pipeline/<book>/` | `model.json`, `bookseed.txt`, `progress.json`, `filters/`, `chapters/` |
+| `workspaces/pipeline/<book>/` | `model.json`, `progress.json`, `filters/`, `chapters/` |
 | `workspaces/pipeline/<book>/chapters/<n>/` | `chapter.md` (live draft), `model.json`, `history/`, `segments/1/{writer,editor,translator}/` |
 | `workspaces/published/<book>/<version>/` | finished, versioned reader-facing output |
 

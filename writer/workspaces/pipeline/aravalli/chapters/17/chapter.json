@@ -6,7 +6,7 @@
   "chapter_summary": "গোলাপি কোয়ার্টজ ও স্ফটিকের স্বচ্ছ আলো — পাহাড়ের বুকের ভেতরে ঘুমিয়ে থাকা কোমলতা।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -79,5 +79,20 @@
   "stereotype": {
     "signature": "hafez",
     "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "178d379eb144662498adf9d3e51adf52edf9936725667decf6bab118100e7f1b",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

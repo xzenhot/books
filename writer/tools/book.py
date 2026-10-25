@@ -51,6 +51,13 @@ VERBS
 
               python tools/book.py <bookname> preview
 
+    cleanup   Reset selected pipeline chapters back to their scaffolded
+              baseline: delete chapter.md/context.md, clear history/ and
+              segment output folders, and reinitialize chapter.json +
+              segment.json from the book plan.
+
+              python tools/book.py <bookname> cleanup [all|1|1-5|continue]
+
 COMMON FLAGS
 ------------
     -t, --type  poetry|novel   Override book form (default: poetry)
@@ -79,6 +86,7 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -88,6 +96,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from promptkit import PromptSet, framework_layout_dir, render
+from quality import read_json, write_json
 
 # Reconfigure stdio for UTF-8 so status arrows (e.g. U+2192) never crash on a
 # Windows console whose default codec (cp1252/charmap) cannot encode them.
@@ -1482,7 +1491,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     then creates all required pipeline folders and placeholder files.
 
     The pipeline structure created:
-        book.json, bookseed.txt, characters.json, override.txt
+        book.json, characters.json, override.txt
         filters/filters.json (registry only — no per-filter folders)
         chapters/<name>/model.json, chapter.md, history/
         chapters/<name>/segments/1/{segment.json, writer/, editor/, translator/, version/}
@@ -1525,7 +1534,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
 
     # --- Clone the complete v1 template tree into the pipeline root. ---
     # The pipeline starts as a verbatim copy of the backlog v1 template
-    # (book.json, book.min.json, bookseed.txt, gist.md, gist copy.md,
+    # (book.json, book.min.json, gist.md, gist copy.md,
     # override.txt, progress.json, storyline.md, and the layout/ form-tool
     # templates), then scaffold customizes it below. The layout/ folder it
     # clones holds the form tool templates (write-novel, write-poetry,
@@ -1548,10 +1557,6 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     # --- Root pipeline files ---
     (pipeline / "book.json").write_text(
         json.dumps(plan, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-    (pipeline / "bookseed.txt").write_text(
-        "\n".join(str(ch["chapter_title"]) for ch in chapters) + "\n",
         encoding="utf-8",
     )
     (pipeline / "characters.json").write_text(
@@ -1785,7 +1790,9 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
             writer.resolve_novel_style(style)
 
     failures = 0
-    for num in numbers:
+    total = len(numbers)
+    for position, num in enumerate(numbers, 1):
+        print(f"[{position}/{total}] Writing chapter {num} ...", flush=True)
         try:
             # Pass style=None when omitted so the writer falls back to the
             # book's style.md / form-bound default instead of a hardcoded preset.
@@ -1793,6 +1800,7 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
                 _chapter_model_file(chapters_root / str(num)),
                 style=style,
             )
+            print(f"[{position}/{total}] Chapter {num} done.", flush=True)
         except Exception as exc:  # noqa: BLE001
             print(f"  [{num}] FAILED: {exc}", file=sys.stderr)
             failures += 1
@@ -1801,6 +1809,129 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
     print(f"Write complete. {successes} succeeded, {failures} failed.")
     if failures:
         raise RuntimeError(f"{failures} chapter(s) failed writing.")
+
+
+def cleanup_workflow(bookname: str, target: str) -> None:
+    """Reset the selected pipeline chapters back to their scaffolded baseline.
+
+    For each chapter in ``target`` (a number/range/list/'all'/'*'):
+
+    - Delete ``chapter.md`` and ``context.md``.
+    - Clear ``history/`` and the per-segment ``writer/``, ``editor/``,
+      ``translator/``, and ``version/`` folders.
+    - Reinitialize ``chapter.json`` from the root ``book.json`` plan entry,
+      dropping runtime fields (``creative_enrichment``, ``draft``,
+      ``state`` → ``scaffolded``, ``level``, ``segments``).
+    - Reinitialize ``segment.json`` to the pending baseline.
+
+    The root ``book.json`` is never touched. Prior content is removed
+    permanently; this is a destructive reset.
+    """
+    writer = _load_module("writer_write_engine", "write.py")
+    chapters_root = writer.resolve_chapters_root(bookname)
+    numbers = writer.parse_chapter_input(target, chapters_root)
+
+    pipeline = chapters_root.parent
+    book_file = pipeline / "book.json"
+    if not book_file.exists():
+        book_file = pipeline / "model.json"
+    book = read_json(book_file)
+    plan_by_name = {str(entry.get("name")): entry for entry in book.get("chapters", [])}
+
+    cleared = 0
+    for num in numbers:
+        chapter_dir = chapters_root / str(num)
+        if not chapter_dir.is_dir():
+            print(f"  [{num}] SKIP: chapter folder not found", file=sys.stderr)
+            continue
+
+        name = str(num)
+        baseline = plan_by_name.get(name)
+        if baseline is None:
+            print(f"  [{num}] SKIP: no baseline entry in book.json", file=sys.stderr)
+            continue
+
+        # 1. Delete the live draft and flattened context.
+        for fname in ("chapter.md", "context.md"):
+            f = chapter_dir / fname
+            if f.exists():
+                f.unlink()
+
+        # 2. Clear history/ and per-segment output folders.
+        for folder in ("history", "segments/1/writer", "segments/1/editor",
+                       "segments/1/translator", "segments/1/version"):
+            path = chapter_dir / folder
+            if path.is_dir():
+                for child in path.iterdir():
+                    if child.is_dir():
+                        shutil.rmtree(child)
+                    else:
+                        child.unlink()
+
+        # 3. Reinitialize chapter.json from the baseline plan entry.
+        chapter_json = chapter_dir / "chapter.json"
+        write_json(chapter_json, dict(
+            baseline,
+            level="chapter",
+            state="scaffolded",
+            segments=[1],
+        ))
+        # Drop a legacy model.json if present, to avoid dual sources of truth.
+        legacy_model = chapter_dir / "model.json"
+        if legacy_model.exists():
+            legacy_model.unlink()
+
+        # 4. Reinitialize segment.json to the pending baseline.
+        seg_json = chapter_dir / "segments/1/segment.json"
+        write_json(seg_json, {
+            "level": "segment",
+            "state": "pending",
+            "chapter_index": baseline.get("chapter_index", num),
+            "segment_index": 1,
+        })
+
+        print(f"  [{num}] Cleaned and reinitialized.")
+        cleared += 1
+
+    print(f"Cleanup complete. {cleared} chapter(s) reset, "
+          f"{len(numbers) - cleared} skipped.")
+
+
+def _review_target_and_language(args: argparse.Namespace) -> tuple[str, str | None]:
+    """Split the review command into a chapter scope and an optional language.
+
+    ``/book <book> review all bengali`` → ``("all", "bengali")``. The chapter
+    scope is the first slot that looks like a target (``all``, ``*``, a number,
+    or a range ``N-M``); any other non-reserved token is the language. Defaults
+    to ``("all", None)`` — the engine then defaults the language to Bengali.
+    """
+    slots = [args.objective, args.option, args.range, *args.extra]
+    reserved = {"gist", "epic", "count", "chapter-count", "poetry", "novel",
+                "offline", "online"}
+
+    def _is_target(value: str) -> bool:
+        v = value.strip()
+        if v in {"all", "*"}:
+            return True
+        if v.isdigit():
+            return True
+        if re.fullmatch(r"[0-9]+-[0-9]+", v):
+            return True
+        return False
+
+    target = "all"
+    language = None
+    for value in slots:
+        if not value:
+            continue
+        if _is_target(value):
+            if target == "all":
+                target = value
+            continue
+        if value not in reserved:
+            language = value
+            break
+    return target, language
 
 
 def _write_style(args: argparse.Namespace) -> tuple[str, str | None]:
@@ -1847,8 +1978,12 @@ def publish_workflow(bookname: str, language: str | None = None, draft: bool = F
     publisher.publish(bookname, draft=draft)
 
 
-def review_workflow(bookname: str, target: str) -> None:
-    """Run the quality review engine (review.py) on selected chapters."""
+def review_workflow(bookname: str, target: str, language: str | None = None) -> None:
+    """Run the quality review engine (review.py) on selected chapters.
+
+    *language* is the normalization target (default Bengali): foreign-language
+    fragments in each chapter are rewritten into it before the audit.
+    """
     review = _load_module("writer_review_engine", "review.py")
     chapters_root = review.resolve_chapters_root(bookname)
     numbers = review.parse_chapter_input(target, chapters_root)
@@ -1857,7 +1992,7 @@ def review_workflow(bookname: str, target: str) -> None:
         return
     book = review.load_book_model(bookname)
     review.regenerate_style_md(bookname, book)
-    review.run_review(bookname, target)
+    review.run_review(bookname, target, language=language)
 
 
 def humanize_workflow(bookname: str, target: str) -> None:
@@ -1908,7 +2043,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "verb",
         nargs="?",
-        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish", "preview"),
+        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish", "preview", "cleanup"),
         help="Workflow action to perform.",
     )
     parser.add_argument(
@@ -2016,6 +2151,10 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
         write_workflow(bookname, target, style)
         return
 
+    if verb == "cleanup":
+        cleanup_workflow(bookname, positional_target(args))
+        return
+
     if verb == "enrich":
         enrich_workflow(bookname, positional_target(args))
         return
@@ -2041,7 +2180,8 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
         )
 
     if verb == "review":
-        review_workflow(bookname, positional_target(args))
+        target, language = _review_target_and_language(args)
+        review_workflow(bookname, target, language)
         return
 
     if verb == "humanize":

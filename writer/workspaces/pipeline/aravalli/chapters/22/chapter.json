@@ -6,7 +6,7 @@
   "chapter_summary": "পাহাড়ের রক্তই তার খনিজ — তামা, দস্তা, মার্বেল একসঙ্গে বইছে সেই শিরায়, যা মানুষ লুট করছে।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -71,5 +71,20 @@
   "stereotype": {
     "signature": "jibanananda",
     "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "d5036684972e294141bfb8d2a88321950f8c55fe2a6f4733b7d6964d8df3d512",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

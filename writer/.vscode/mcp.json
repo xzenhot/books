@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "kobi": {
+      "command": "d:\\lab\\github\\books\\writer\\tools\\mcp\\kobi.exe",
+      "args": ["mcp"],
+      "env": {},
+      "disabled": false
+    }
+  }
+}
