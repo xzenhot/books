@@ -86,15 +86,14 @@ For each chapter in scope, the agent processes every segment's writer-stage text
 
 For each line, the agent:
 
-1. Calls `word.akshar-count` MCP tool to count current akshars:
+1. Calls `word.akshar-count` through the MCP endpoint:
    ```python
-   from mcpclient import get_client, close_client
-   client = get_client()
-   try:
-       result = client.call_tool("word.akshar-count", {"word": "<bengali-line-text>"})
-       current_count = int(result.strip())
-   finally:
-       close_client()
+   import sys
+   sys.path.insert(0, "tools")
+   from mcphttpclient import call_tool, extract_text
+
+   result = call_tool("word.akshar-count", {"word": "<bengali-line-text>"})
+   current_count = int(extract_text(result))
    ```
 
 2. If `current_count == target_akshars`: line is calibrated, record as `calibrated`
@@ -203,7 +202,7 @@ This calibrates chapter 1 to exactly 21 akshars per line.
 This transforms only chapters that haven't been calibrated yet (state: "needs_calibration").
 
 ### Example 4: Online mode via agent
-The agent routes through `.framework/agents/line/agent.md` which uses the persistent MCP session in `mcpclient.py` to call `word.akshar-count` for each line calibration.
+The agent routes through `.framework/agents/line/agent.md`, which calls `word.akshar-count` through the MCP endpoint configured in `tools/mcphttpclient.py` for each line calibration.
 
 ---
 
@@ -223,7 +222,7 @@ obtained via the `word.akshar-count` MCP tool. Native computation is forbidden.
 | Line length | 10 syllables | **14 akshars** |
 | Internal break | None enforced | **8 + 6 caesura** |
 | Total lines | 14 | **14** |
-| Count tool | Rule-based | `word.akshar-count` via kobi MCP |
+| Count tool | Rule-based | `word.akshar-count` via the MCP endpoint |
 
 ### Command
 
@@ -242,9 +241,9 @@ The `sonnet` keyword activates sonnet mode. When present:
 ### Prerequisites (in addition to standard transform prerequisites)
 
 - Book form must be `poetry`.
-- `tools/sonnet_utils.py` must be present alongside `tools/mcpclient.py`.
-- `kobi.exe` MCP server must be registered (`.vscode/mcp.json` or
-  `.kiro/settings/mcp.json`).
+- `tools/sonnet_utils.py` must be present alongside `tools/mcphttpclient.py`.
+- The MCP endpoint must be reachable. Its address is `BASE_URL` in
+  `tools/mcphttpclient.py`; no stdio server registration is required.
 
 ### Sonnet Transformation Process
 
@@ -378,12 +377,12 @@ Next Steps:
 
 | Condition | Response |
 |---|---|
-| MCP server not reachable | Stop: "kobi MCP server unavailable — check .vscode/mcp.json and tools/mcp/kobi.exe" |
+| MCP endpoint not reachable | Stop: "MCP endpoint unavailable — confirm Book.Backend is running and `BASE_URL` in tools/mcphttpclient.py is correct" |
 | `word.akshar-count` returns non-integer | Stop: "MCP tool returned unexpected value: <raw>" |
 | Line cannot reach 14 after 5 attempts | Record `needs_manual_review`, continue with remaining lines |
 | Source has 0 non-empty lines | Stop: "Chapter has no content; write or enrich first" |
 | Book form is not poetry | Stop: "Sonnet mode requires form: poetry" |
-| `sonnet_utils.py` missing | Stop: "tools/sonnet_utils.py not found; ensure it is present alongside mcpclient.py" |
+| `sonnet_utils.py` missing | Stop: "tools/sonnet_utils.py not found; ensure it is present alongside mcphttpclient.py" |
 
 ### Integration Notes
 

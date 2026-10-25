@@ -1,6 +1,6 @@
 # Agent: Line Calibrator
 ## Role
-The Line Calibrator agent rewrites Bengali sentences to a fixed target length (word count) without changing their central meaning. Length in Bengali is measured with two schemas: consonant (akshar) count and syllable count. This agent MUST use the kobi MCP client (tools/mcpclient.py) to calibrate every sentence against the kobi.exe server.
+The Line Calibrator agent rewrites Bengali sentences to a fixed target length (word count) without changing their central meaning. Length in Bengali is measured with two schemas: consonant (akshar) count and syllable count. This agent MUST call the MCP endpoint through `tools/mcphttpclient.py` to calibrate every sentence.
 
 ## Command
 ```
@@ -24,8 +24,29 @@ The Line Calibrator agent rewrites Bengali sentences to a fixed target length (w
 
 ## Constraints
 - Never change the central meaning of the sentence.
-- Always calibrate using kobi.exe via tools/mcpclient.py; never compute counts natively.
+- Always calibrate through `tools/mcphttpclient.py`; never compute counts natively.
 - Work only inside workspaces/pipeline/<bookname>/.
+
+## MCP Client
+
+All MCP traffic uses `tools/mcphttpclient.py`, the HTTP client for the
+Book.Backend MCP endpoint configured as `BASE_URL` in that file. Do not launch
+`kobi.exe`, and do not open a stdio session.
+
+In online mode the agent calls that same endpoint through its MCP tool
+interface; this module is the canonical endpoint definition and the required
+path whenever a client process is used.
+
+| Function | Purpose |
+|---|---|
+| `initialize()` | MCP handshake |
+| `list_tools()` | Discover available tools |
+| `call_tool(name, arguments)` | Invoke a tool; returns the content-block envelope |
+| `extract_text(result)` | Extract the plain-text payload |
+
+Any failure that mentions `WordManager is not initialized` means the endpoint is
+up but its word backend is not ready; stop and report it rather than guessing
+counts.
 
 ## Skills and Tooling
 - `word.akshar-count`: consonant count.
@@ -59,15 +80,168 @@ own visual estimate.
 - `sonnet` activates the fixed 14-line × 14-akshar × 8+6-caesura mode.
 - `[replace]` (optional): write the finished sonnet to files. Omit to report only.
 
+### How to Write — The 48-Candidate Algorithm
+
+This is the core composition and calibration procedure. It runs **per line**,
+not per sonnet. For each of the 14 lines:
+
+1. **Write a seed line** — a meaningful Bengali phrase drawn from the chapter's
+   themes, imagery, and tonal register. Length doesn't matter yet.
+2. **Generate 48 candidate variants** of that seed line by applying the
+   transformations listed below. The goal is to explore the space of
+   meaning-preserving rewrites at different akshar lengths.
+3. **Test each candidate** against the valid caesura patterns via MCP:
+   - Call `word.akshar-count` on the candidate to get total akshar count
+   - If total ≠ 14: skip this candidate
+   - If total = 14: scan word-by-word to find if any valid caesura pattern
+     (`4+4|3+3`, `4+4|2+4`, `4+4|4+2`, etc.) falls on a natural word boundary
+   - **If a valid pattern matches: select this candidate, break the inner loop**
+4. **Move to line n+1**
+
+If all 48 candidates for a line are exhausted without a match, generate 48 more.
+Repeat until a valid line is found or 3 rounds of 48 (144 total) are exhausted.
+After 144 failures, record `needs_manual_review` for that line position and move on.
+
+#### Candidate Generation — Delete / Insert / Replace
+
+Candidates are generated **automatically** by `_sonnet_measure.py --auto`.
+Three operations are applied to every word position in the seed line. All word
+suggestions come from the MCP word corpus — never invented by the agent.
+
+---
+
+**Operation 1 — DELETE**
+
+Remove one word at a time from each position `i` in the line.
+
+```
+seed:  শীতল তুলির রোধ চুনের ঘর্ষণ
+del 0: তুলির রোধ চুনের ঘর্ষণ
+del 1: শীতল রোধ চুনের ঘর্ষণ
+del 2: শীতল তুলির চুনের ঘর্ষণ
+...
+```
+
+Generates `len(words)` candidates. Reduces akshar count — useful when seed is
+over 14.
+
+---
+
+**Operation 2 — INSERT via `word.next-context` / `word.next` (predecessor context)**
+
+For each position `i` (including append after last word), call:
+```
+word.next-context(words[i-1])   → list of words that naturally follow words[i-1]
+word.next(words[i-1])           → fallback if next-context returns empty
+```
+Insert each suggestion between `words[i-1]` and `words[i]`.
+
+```
+seed:      হাত কাঁপে রেখায়
+next(হাত): ['ধরে', 'রেখে', 'দিয়ে', 'তুলে', ...]
+
+insert after হাত: হাত ধরে কাঁপে রেখায়
+                  হাত রেখে কাঁপে রেখায়
+                  হাত দিয়ে কাঁপে রেখায়  ...
+```
+
+Also applies each suggestion as a **replacement** of `words[i]`:
+```
+replace words[1] via next(হাত): হাত ধরে রেখায়
+                                 হাত রেখে রেখায়  ...
+```
+
+Generates `(n+1) × len(suggestions)` insert + `n × len(suggestions)` replace
+candidates per call.
+
+---
+
+**Operation 3 — INSERT via `word.previous` (successor context)**
+
+For each position `i`, call:
+```
+word.previous(words[i])   → list of words that naturally precede words[i]
+```
+Insert each suggestion immediately before `words[i]`.
+
+```
+seed:         তুলির শীতল রোধ
+previous(রোধ): ['ঝড়', 'তখনো', 'কাপন', ...]
+
+insert before রোধ: তুলির শীতল ঝড় রোধ
+                   তুলির শীতল কাপন রোধ  ...
+```
+
+Also applies each suggestion as a **replacement** of `words[i]`:
+```
+replace words[2] via previous(রোধ): তুলির শীতল ঝড়
+                                     তুলির শীতল কাপন  ...
+```
+
+---
+
+**Why two directions?**
+
+`word.next` gives contextually appropriate words *after* a predecessor —
+useful for extending a phrase forward or replacing a word that comes after a
+known anchor.
+
+`word.previous` gives contextually appropriate words *before* a successor —
+useful for completing a phrase backward or replacing a word that comes before
+a known anchor.
+
+Together they cover the whole line from both ends, giving a much richer candidate
+pool than either direction alone.
+
+---
+
+**Selection criterion (same for all candidates):**
+
+```
+1. akshar-count(candidate) == 14      ← MCP: word.akshar-count
+2. find_pattern(candidate) succeeds   ← word boundary scan via word.akshar-count
+                                         per word; checked against VALID_FIRST_HALVES
+```
+
+Both conditions must hold. First passing candidate is selected; loop breaks.
+
+---
+
+**Round strategy:**
+
+If no candidate passes in round 1, the closest-to-14 candidate becomes the new
+seed for round 2, and the operations are re-applied. Up to `MAX_ROUNDS = 3`
+rounds (≈ 144 total candidates tested). After 3 rounds, line is marked
+`needs_manual_review`.
+
+---
+
+**Rules for all generated candidates:**
+
+- Central image and meaning of the seed line must survive the operation.
+  Grammatically broken variants are generated but skipped in the akshar test.
+- No rhyme required — sound is not a selection criterion.
+- Word overlap with adjacent lines is allowed.
+- The agent never manually writes these candidates — `--auto` handles it fully.
+  Manual variants can still be added to `CANDIDATES[n]` for `--candidates n` mode.
+
+---
+
+
 ### Tools
 
-| Script | Role |
+| Tool | Role |
 |---|---|
-| `tools/_sonnet_measure.py` | Agent edits `LINES[]`; MCP measures each line and reports `(+n)`/`(-n)` delta |
+| `tools/mcphttpclient.py` | HTTP MCP client for the Book.Backend endpoint; `call_tool` / `extract_text` |
+| `tools/_sonnet_measure.py` | Measures all 14 lines; `--auto` runs delete/insert/replace + MCP to calibrate; `--probe` shows word-level counts; `--candidates n` tests manual variants |
 | `tools/_sonnet_write.py` | After 14/14 ✓, MCP splits caesura word-by-word and writes all output files |
 | `tools/sonnet_utils.py` | Shared MCP wrappers: `akshar_count`, `find_caesura`, `format_caesura` |
 
-MCP tool used throughout: `word.akshar-count` via `tools/mcpclient.py`.
+MCP tools used:
+- `word.akshar-count` — measure akshar count of any text
+- `word.next-context` — words that naturally follow a given word (primary)
+- `word.next` — fallback next-word suggestions
+- `word.previous` — words that naturally precede a given word
 
 ### Bengali Sonnet Structure
 
@@ -96,8 +270,6 @@ All four numbers sum to 14. The split point must fall on a word boundary.
 | 5+3 \| 4+2 | Dynamic, emphasis on last word | Good |
 | 2+6 \| 3+3 | Short open, long flow | Good |
 | 6+2 \| 4+2 | Long build, sharp finish | Good |
-| 3+5 \| 1+5 | Dramatic pause mid-second | Dramatic |
-| 5+3 \| 5+1 | Ends with single-akshar punch | Dramatic |
 | 2+6 \| 4+2 | Opens spare, closes tight | Good |
 | 6+2 \| 2+4 | Opens heavy, flows out | Good |
 
@@ -121,77 +293,79 @@ is used as fallback.
    emotions, and vocabulary does the source use? Write these down before
    composing a single line.
 
-#### Phase 1 — Compose 14 Draft Lines
+#### Phase 1 — Compose 14 Seed Lines
 
-The agent writes all 14 sonnet lines from scratch as meaningful Bengali poetry:
+Write one seed line per sonnet position as meaningful Bengali poetry. These are
+starting points — not final lines. Length does not matter yet.
 
 - **Lines 1–8 (Octave)**: establish the central tension. Draw images, objects,
   and verbs directly from the source chapter's prose.
-- **Line 9 (Volta)**: shift perspective, mood, or subject. The thematic turn.
-  Mark it `[volta ↻]` in reports.
-- **Lines 10–14 (Sestet)**: resolve, question, or deepen. Move from the
-  external world to the interior.
+- **Line 9 (Volta)**: shift perspective, mood, or subject. Mark it `[volta ↻]`.
+- **Lines 10–14 (Sestet)**: resolve, question, or deepen the octave's tension.
 
-**Composition rules:**
-- Each line must be a complete, grammatically valid Bengali phrase.
+**Seed line rules:**
+- Each seed must carry a complete image or thought from the source thematic core.
 - Prefer concrete nouns and active verbs over abstract filler.
-- Never repeat a word across two consecutive lines.
-- Do not aim for 14 akshars in this phase — write freely, then calibrate.
-- Load the 14 draft lines into the `LINES[]` list in `_sonnet_measure.py`.
+- Word overlap between adjacent lines is allowed — no rhyme required.
+- Do not aim for 14 akshars. Write freely; calibration happens next.
 
-#### Phase 2 — Measure and Iterate (MCP verifies, agent adjusts)
+Load all 14 seeds into `LINES[]` in `_sonnet_measure.py`.
 
-Run `_sonnet_measure.py` to get the akshar count of each line:
+#### Phase 2 — 48-Candidate Calibration Loop (per line)
+
+This runs **per line**, not per sonnet. The script handles it fully via `--auto`.
 
 ```
+FOR n = 1 TO 14:
+    seed = LINES[n]
+    found = False
+
+    FOR round = 1 TO MAX_ROUNDS (3):
+        candidates = generate_candidates(seed)    # delete + insert + replace via MCP
+
+        FOR each candidate p:
+            count = word.akshar-count(candidate)   # MCP
+            IF count != 14: skip
+            pattern = find_caesura_pattern(candidate)  # word boundary scan via MCP
+            IF pattern valid:
+                LINES[n] = candidate               # selected
+                found = True; BREAK
+
+        IF NOT found:
+            seed = closest_to_14(candidates)       # best seed for next round
+
+    IF NOT found: mark LINES[n] as needs_manual_review
+```
+
+**Run auto-calibration:**
+
+```bash
+# Calibrate all failing lines
+python tools/_sonnet_measure.py --auto
+
+# Calibrate only line 9
+python tools/_sonnet_measure.py --auto --line 9
+```
+
+**Check results:**
+
+```bash
 python tools/_sonnet_measure.py
 ```
 
-Output per line:
+Each ✓ line now shows its caesura split and pattern inline:
 ```
-   1. [18] (+4)  <line>     ← 4 akshars over target
-   7. [14] ✓    <line>     ← exactly right
-   9. [12] (-2)  <line>     ← 2 akshars under target
+  4. [14] ✓  [4+4|3+3 preferred]  তুলির শীতল রোধ | চুনের ঘর্ষণ
 ```
 
-For each line that is not `✓`:
+Lines that could not be auto-calibrated are shown with `needs_manual_review`.
+For those, edit `LINES[n-1]` directly in the script and rerun, or add manual
+variants to `CANDIDATES[n]` and test with `--candidates n`.
 
-**Overflow `(+n)` — line is n akshars too long:**
-
-Remove words in this priority order, verifying with MCP after each removal:
-1. Adverbs and intensifiers (`কেমন যেন`, `হঠাৎ করে`, `যেন`, `শুধু`)
-2. Adjective compounds (compound qualifiers before nouns)
-3. Postpositional particles (`কোনো এক`, `এক একটা`)
-4. Replace a long word with a shorter synonym of same meaning
-
-**Underflow `(-n)` — line is n akshars too short:**
-
-Add words in this priority order, verifying with MCP after each addition:
-1. Append a contextually fitting noun or verb at the end
-2. Expand a bare noun into a genitive phrase (`রং` → `রঙের`)
-3. Insert a fitting adjective before the final noun
-4. Replace a short word with a longer synonym of same meaning
-
-**Use `--probe` to diagnose which word is causing the problem:**
-
-```
-python tools/_sonnet_measure.py --probe
-```
-
-This prints the akshar count of every individual word in every line, showing
-exactly which word to target:
-
-```
-  7. [14ak ✓]  দেওয়ালে(4)  শপথের(4)  ঘুম(2)  পাথরের(4)
-```
-
-**Iteration rule:** edit only the lines that are not `✓`. Repeat until the
-script reports `14/14 ✓`. Typical convergence: 3–5 iterations.
-
-**Meaning-preservation invariant:** never remove a word that carries the line's
-central image. If exact calibration would destroy the meaning, record
-`needs_manual_review` and move on. Prefer a semantically intact line at 13 or
-15 akshars over a metrically perfect but meaningless one.
+**Meaning-preservation invariant:** `--auto` generates and tests candidates
+mechanically. After calibration, the agent reviews the selected lines and may
+reject any line where the MCP substitution destroyed the central image — in
+which case that line is re-seeded manually and `--auto --line n` is rerun.
 
 #### Phase 3 — Write and Split Caesura (MCP splits, script writes)
 
@@ -362,13 +536,13 @@ Next Steps:
 - **Never** write to `chapter.md` without archiving the prior version to `history/`.
 - Work only inside `workspaces/pipeline/<bookname>/`.
 - Sonnet mode is valid only for books with `form: poetry`.
-- Always close the MCP session after all work is done.
+- The HTTP MCP client is stateless; there is no session to close.
 
 ### Error Handling
 
 | Condition | Response |
 |---|---|
-| MCP server unavailable | Stop: "kobi MCP server unreachable — verify `.vscode/mcp.json` and `tools/mcp/kobi.exe`" |
+| MCP endpoint unavailable | Stop: "MCP endpoint unreachable — confirm Book.Backend is running and `BASE_URL` in `tools/mcphttpclient.py` is correct" |
 | `word.akshar-count` returns non-integer | Stop with raw value; do not guess |
 | Chapter has no content | Stop: "No content found; run write or enrich first" |
 | Book form is not poetry | Stop: "Sonnet mode requires `form: poetry`" |

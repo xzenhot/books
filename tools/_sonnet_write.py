@@ -339,6 +339,8 @@ def run(book, chapter, dry_run=False):
     finally:
         client.close()
 
+def build_line(previous):
+    return previous
 
 def main():
     parser = argparse.ArgumentParser(
