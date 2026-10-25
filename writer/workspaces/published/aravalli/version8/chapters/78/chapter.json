@@ -1,0 +1,28 @@
+{
+  "chapter_index": 78,
+  "name": "78",
+  "word_target": 500,
+  "chapter_title": "উড়ে আসা চুল",
+  "chapter_summary": "সাগরিকার উড়ে আসা অবাধ্য চুল — যার প্রতিটি আষ্টেপৃষ্ঠে জড়িয়ে থাকে আলেকজান্ডারের ঘোড়ার খুরের ধুলো ও গান্ধর্ব শিল্পের নিষিদ্ধ সুবাস।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "87846d80c7e9ea184cde0e217df005d83dbb5d0e5ccdb40ea569c2ade4a6b903",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

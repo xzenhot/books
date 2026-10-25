@@ -320,7 +320,6 @@ Common pipeline files:
 ```text
 workspaces/pipeline/<bookname>/book.json          # the book plan (cloned from the backlog)
 workspaces/pipeline/<bookname>/characters.json
-workspaces/pipeline/<bookname>/bookseed.txt
 workspaces/pipeline/<bookname>/progress.json
 workspaces/pipeline/<bookname>/filters/
 workspaces/pipeline/<bookname>/chapters/
@@ -328,7 +327,7 @@ workspaces/pipeline/<bookname>/chapters/
 
 Novel pipelines use `storyline.md`, `book.json`, `characters.json`, chapter folders, moods, segments, and filters.
 
-Poetry pipelines use `book.json` and `bookseed.txt` as source of truth, one segment per topic, and no `mood.json` unless explicitly configured as a hybrid.
+Poetry pipelines use `book.json` (its `chapters[]` array) as source of truth, one segment per topic, and no `mood.json` unless explicitly configured as a hybrid.
 
 ### Segment Drafts
 

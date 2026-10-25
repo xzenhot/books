@@ -1,0 +1,125 @@
+# Chapter model context
+
+## chapter_index
+
+35
+
+## name
+
+35
+
+## word_target
+
+280
+
+## chapter_title
+
+সমর্পণ পেরিয়ে অধিকারের প্রত্যয়
+
+## chapter_summary
+
+কেবল দুঃখ সহ্য করা নয়; এবার সমস্ত অন্যায় বঞ্চনার বিরুদ্ধে নিজের জীবনের ও ভালোবাসার ন্যায্য অধিকার ছিনিয়ে নেওয়ার পালা।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the tangible mechanics of demanding justice—the physical strain of utterance versus internal resolve.
+- Framing 'right' (অধিকার) not as a divine decree, but as an emergent property born from sustained human will against systemic pressure.
+- Treating the act of claiming rights as a precise craft or ritual, rather than a grand emotional outburst.
+
+### story_options
+
+- setting: The lip of the river bank, just before the necessary confrontation, desire: To define one's worth in objective terms rather than emotional suffering., obstacle: The ingrained societal expectation to accept unending sacrifice.
+- setting: A quiet space near a threshold—between refuge and action, desire: To hold the tangible proof of past endurance (e.g., a worn piece of cloth) as leverage for future claim., obstacle: The internalized habit of self-erasure developed through prolonged hardship.
+- setting: Facing down a figure representing established, unyielding custom, desire: To articulate the necessary shift from 'suffering willingly' to 'demanding rightfully'., obstacle: The fear that asserting rights will shatter the fragile unity formed by past shared struggle.
+
+### subject_rotations
+
+- Exploring how the symbolic weight of the sari transforms from a garment of endurance into a banner of claim.
+- Deconstructing 'submission' (সমর্পণ) not as defeat, but as the necessary preceding phase required to correctly identify the nature of oppression.
+- Analyzing the linguistic weight of verbs of demand versus verbs of acceptance in Bengali poetic syntax.
+
+### sensory_details
+
+- The sharp, metallic taste of bile rising when pride forces itself past accepted limits.
+- The tactile memory of rough jute fibers against raw skin after prolonged clinging to a makeshift raft.
+- The specific sound of fine sand being ground down under intense pressure from an unseen weight.
+
+### research_questions
+
+- How can Bengali poetic diction convey the intellectual precision required for self-advocacy without diminishing its tragic, devotional context?
+- What is the precise metaphorical difference between surrender born of exhaustion and surrender as a tactical pause?
+
+### structural_variants
+
+- A tightly focused monologue building from negation (what I was forced to accept) toward assertion (what must now be claimed).
+- A fragmented structure where each stanza presents an 'old truth' that is definitively rejected by the next line of action.
+- Using highly compressed, declarative lines reminiscent of epigrammatic pronouncements rather than lyrical flow.
+
+### unused_angles
+
+- The idea that claiming rights might inadvertently erase the purity or nobility of the suffering itself.
+- How the self transforms from a passive vessel (of devotion) into an active engine (of change).
+- A focus on the relationship between personal claim and communal benefit, moving beyond just 'self'.
+
+### variety_note
+
+Where earlier chapters focused heavily on enduring or resisting pressure passively, this chapter shifts emphasis toward the conscious act of linguistic and existential articulation—the pivot from holding on to demanding.
+
+## draft
+
+### sha256
+
+c83d14a3429e79cb7be9749277b51b4447851ffa84abfcdb63a24ebd898d925f
+
+### written_at
+
+2026-10-21T14:09:10.688988+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+c83d14a3429e79cb7be9749277b51b4447851ffa84abfcdb63a24ebd898d925f
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-21T16:19:57+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

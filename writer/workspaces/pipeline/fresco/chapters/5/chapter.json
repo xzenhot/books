@@ -49,5 +49,14 @@
     "sha256": "1d2cbad61c010be5d3b245a2975e2707f645978873c2eb25583cd888bd35d087",
     "written_at": "2026-10-13T03:06:12.406785+00:00",
     "origin": "write"
-  }
+  },
+  "akshar_target": 14,
+  "caesura": "8+6",
+  "sonnet_mode": true,
+  "volta_line": 9,
+  "calibration_method": "agent_composed_mcp_verified",
+  "lines_calibrated": 14,
+  "lines_adjusted": 0,
+  "lines_needs_review": [],
+  "sonnet_calibrated_at": "20261025_171803"
 }

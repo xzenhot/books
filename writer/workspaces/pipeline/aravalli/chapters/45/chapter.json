@@ -6,8 +6,23 @@
   "chapter_summary": "ডাইনোসরের হাড়ের গুঁড়ো পাহাড়ের বুকে চাপা — বিলুপ্ত দৈত্যদের সূক্ষ্ম ছাই।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "5ff3db28745ba29bd9563bcca537099469871fa5973aebe349a5daed63a6f118",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

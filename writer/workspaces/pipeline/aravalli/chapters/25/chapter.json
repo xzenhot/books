@@ -6,7 +6,7 @@
   "chapter_summary": "যমুনা ও বানাস নদীর অববাহিকার ভূগর্ভস্থ জলাধার — পাহাড়ের ফাটল দিয়ে রিচার্জ হয় জলের প্রাণ।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -46,5 +46,20 @@
       "line_gesture": "long enjambed lines that exhale",
       "variety_note": "a weightless dream after the dusty assault"
     }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "2260d0510b5868944be4f5f273365c9aea6fe00bdb4e4b631d1bb90ea5c17ec7",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

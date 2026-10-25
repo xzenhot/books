@@ -1,6 +1,6 @@
 ---
 name: layout-poetry
-description: "Use when scaffolding or repairing the structural skeleton of a poetry pipeline. Creates workspaces/pipeline/<bookname>/, book.json, bookseed.txt, progress.json, override.md, named poetry filter folders, one segment per topic, and the empty workspaces/published destination. Does not write poem chapters or runtime filter results."
+description: "Use when scaffolding or repairing the structural skeleton of a poetry pipeline. Creates workspaces/pipeline/<bookname>/, book.json, progress.json, override.md, named poetry filter folders, one segment per topic, and the empty workspaces/published destination. Does not write poem chapters or runtime filter results."
 ---
 
 # Layout Poetry - Pipeline Scaffold
@@ -25,8 +25,7 @@ Use this skill together with `.framework/workflows/pipeline.md`. Do not inspect 
 
 Poetry uses these root files as source of truth:
 
-- `book.json` for how to write: form, language, register, quality, themes, reference, index, vocabulary, and translation guide.
-- `bookseed.txt` for what to write: one topic per line.
+- `book.json` for how to write: form, language, register, quality, themes, reference, index, vocabulary, and translation guide — and for **what** to write: the `chapters[]` array, one entry per topic (`chapter_title` + `chapter_summary`).
 
 ## Preset (Philosophical Poem)
 
@@ -54,7 +53,6 @@ workshop -> research -> correctness -> theme -> syntax -> override -> quality
 ```text
 workspaces/pipeline/<bookname>/
 |-- book.json
-|-- bookseed.txt
 |-- progress.json
 |-- filters/
 |   |-- filters.json
@@ -102,7 +100,7 @@ The scaffold agent's `## Chapter Layout` section is the runtime semantics for th
 
 ## Topic And Chapter Set
 
-Each non-empty line in `bookseed.txt` becomes one poetry chapter.
+Each entry in `book.json`'s `chapters[]` array becomes one poetry chapter.
 
 If the user supplies topics, preserve their text exactly except for trimming surrounding whitespace. If no topic list is supplied, derive a concise ordered topic list from the gist or book name and the requested chapter count.
 
@@ -131,9 +129,30 @@ Minimum fields:
 - `source_terms`
 - `created_at`
 
-### `bookseed.txt`
+### Topics (in `book.json`)
 
-One topic per line, in the exact writing order.
+Each chapter's topic is its `chapters[]` entry: the `chapter_title` (the topic)
+and `chapter_summary` (its seed), in the exact writing order. `chapter_title` is
+**machine-read**: `tools/verify_pipeline.py` checks progress against the plan's
+`chapters[]`, and publish counts `chapters[]` for the chapter total. Keep each
+`chapter_title` a single title — never fold summaries, numbering, or commentary
+into it.
+
+### `bookseed_outline.md` (new — storyline-derived summary outline)
+
+A **human-readable** numbered outline generated from
+`workspaces/backlog/<bookname>/storyline.md` (grounded in its Premise, Poetic
+Voice, Thematic Threads, Topical Structure, and World-Building sections, plus
+each chapter's `chapter_title`/`chapter_summary` from the book plan). One entry
+per chapter in writing order:
+
+```text
+1. <Title> — <one-line summary distilled from the storyline> [Image: <key image>; Question: <open question>]
+```
+
+Rules: never invent plot, names, places, or events absent from the storyline;
+each summary must trace to the storyline or the chapter's own plan summary;
+preserve writing order identical to `book.json`'s `chapters[]`.
 
 ### `progress.json`
 
@@ -225,7 +244,7 @@ Leave runtime content empty unless the active workflow explicitly runs that filt
 
 1. **Read `.framework/filters/override/SKILL.md`** — the base content for the command file: the override command file is `workspaces/pipeline/<bookname>/filters/override/filter.md`, and it is generated/refreshed from the chapter (or poem) models' context so the human instructions are grounded in what the poems actually contain.
 2. **Read `.framework/context/poetry/readme.md`** — the master index of the poetry stereotype folder, for the identity wording and conventions of the poetry form.
-3. **Seed `workspaces/pipeline/<bookname>/filters/override/filter.md`** on first use (not at scaffold), customized for poetry: identity "poetry pipeline", applies to every **poem**, model updates on the poem chapter models under `chapters/<n>/`, instruction scope "every poem" (each topic in `bookseed.txt`).
+3. **Seed `workspaces/pipeline/<bookname>/filters/override/filter.md`** on first use (not at scaffold), customized for poetry: identity "poetry pipeline", applies to every **poem**, model updates on the poem chapter models under `chapters/<n>/`, instruction scope "every poem" (each topic in `book.json`'s `chapters[]`).
 4. **Do not create a pipeline-root `override.md`.** All forms share the single override command file at `filters/override/filter.md`.
 5. Align with whatever the readme's sub-indexes declare (singer/signature set, reference texts, syntax samples, theme sets under `signatures/`, `references/`, `syntax/`, `themes/`) — the override layer must not contradict the stereotype set the pipeline will use.
 6. Leave the trailing `## Instructions` section empty below the `---` line and never overwrite existing human instructions there.
@@ -244,7 +263,7 @@ Do not write poem chapters or `book.md` during layout.
 
 Before reporting completion, verify:
 
-- Root files exist: `book.json`, `bookseed.txt`, and `progress.json`.
+- Root files exist: `book.json`, `bookseed_outline.md`, and `progress.json`.
 - `filters/override/filter.md` exists — the override command file (no pipeline-root `override.md`).
 - `filters/filters.json` exists and names all seven poetry filters in order. No per-filter folders are created at scaffold; each filter creates its folder on first run.
 - Every topic has one numeric chapter folder.

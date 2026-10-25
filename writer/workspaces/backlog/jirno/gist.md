@@ -1,42 +1,46 @@
-# jirno — Gist
+এখানে মূল ভাবনাটির সারবত্তা, দর্শন এবং ট্রিলজি বা আখ্যান-বিন্যাসকে আরও প্রাতিষ্ঠানিক, সুসংহত ও সাহিত্যিক ভাষায় পুনর্লিখন (Rewrite) করা হলো:
 
-## Canonical gist
+---
 
-এক নামহীন ভূখণ্ডের পলাশঘেরা পরিত্যক্ত বাড়ির অসমাপ্ত পূজা ও অতীত উদ্ধার করতে গিয়ে এক পথিক পাশের সাঁওতাল বসতির অনাগ্রহের মুখোমুখি হয় এবং কালবৈশাখীর আগে তাকে স্থির করতে হয়, ধ্বংসাবশেষটিকে নিজের ইচ্ছায় পুনরুজ্জীবিত করবে, না তার অপূর্ণ অস্তিত্ব মেনে সরে যাবে।
+# জীর্ণ (Jirno) — গ্রন্থ রূপরেখা ও ধারণাপত্র
 
-## Expansion
+## ১. মূল আখ্যান-সূত্র (Canonical Gist)
 
-লাল মাটির উপর ভাঙা ইটের বাড়িটিতে ফুলের প্রাচুর্য আছে, কিন্তু শঙ্খ, ধূপ বা পূজার মানুষ নেই। শুকনো খাতের ওপারের সাঁওতাল বসতি তাকে ভয়ের কেন্দ্র করে না; বহিরাগত পথিকই তার ভিতর উদ্ধারযোগ্য ইতিহাস ও অসমাপ্ত উদ্দেশ্য খুঁজতে থাকে। সংরক্ষণের আকাঙ্ক্ষা ক্রমে অধিকারের প্রশ্ন হয়ে উঠলে তার যাত্রা শেষ হয় কিছু জিনিস অপূর্ণ রেখে যাওয়ার সীমা চিনে নেওয়ায়।
+এক নামহীন লালমাটির ভূখণ্ডে রক্তপলাশঘেরা এক পরিত্যক্ত রাজবাড়ির ধ্বংসাবশেষ। সেখানে একদা মাঝপথে থেমে যাওয়া এক অসমাপ্ত পূজার ইতিহাস ও অতীত উদ্ধার করতে এসে এক পরিব্রাজক মুখোমুখি হয় পাশের সাঁওতাল বসতির দুর্ভেদ্য উদাসীনতার। সেই প্রাচীন ভূমিতে ফোটে অজস্র অনামী, অপাঙ্‌ক্তেয় বুনো ফুল—যেগুলো কোনো দেবালয়ের অঞ্জলিতে লাগে না, যে নিভৃত প্রান্তরে কখনও পৌঁছায় না কোনো পর্যটকের কোলাহল। আসন্ন কালবৈশাখীর তামাটে মেঘ ঘনিয়ে আসার আগেই পথিককে জীবনের এক চরম দ্বন্দ্বে স্থির হতে হয়: নিজের নাগরিক অহংকারে সে কি এই ধ্বংসাবশেষকে পুনরুজ্জীবিত করার চেষ্টা করবে, নাকি প্রকৃতির অনন্ত নিয়মে তার এই অপূর্ণ অস্তিত্বকে মেনে নিয়ে নীরবে প্রস্থান করবে?
 
-## Original concept brief (preserved)
+---
 
-Core Concept: Rakta-Palash (The Flame of the Barren Earth)
-The narrative revolves around an isolated, crumbling brick homestead (kuthir math or rajbari annex) marooned on a laterite plateau. While spring sets the surrounding trees ablaze in scarlet blooms, the deities’ alcoves inside remain barren—no conch blows, no incense rises.
+## ২. সম্প্রসারিত ভাবনা (Narrative Expansion)
 
-To the neighboring Santhal village across the dry gully, the house is not an object of terror, but of deliberate irremediance. It is simply part of the geology, a remnant of a feudal order or colonial imprint that consumed itself. They pass it with neutral eyes, neither revering nor disturbing it. The true disruption begins when outsiders arrive.
+কাঁকুরে মাটির বুকে দাঁড়িয়ে থাকা চুন-সুরকির ভাঙা প্রাসাদে বসন্তের পলাশ প্রতি বছর রক্তাভ আগুন জ্বালায়; অথচ তার শূন্য গর্ভগৃহে না বাজে শঙ্খ, না জ্বলে ধূপ। শুকনো খাদের ওপারে শতাব্দীর পর শতাব্দী ধরে টিকে থাকা সাঁওতাল বসতি এই বাড়িটিকে ঘিরে কোনো অলৌকিক ভয়ের জাল বোনে না। তাদের চোখে এটি কোনো অভিশপ্ত ভৌতিক দালান নয়, বরং ক্ষয়িষ্ণু সামন্ততান্ত্রিক অহংকারের এক জীর্ণ কঙ্কাল—যা নিজ ভারেই মাটিতে মিশে যাচ্ছে। 
 
-Overarching Series Architecture
-Book 1: The Ash and the Crimson
+সংঘাতের সূত্রপাত ঘটে যখন এক বহিরাগত পথিকের আগমন হয়। সে এই পতনের মাঝে এক ‘উদ্ধারযোগ্য অতীত’ ও মহাকাব্যিক ট্র্যাজেডি খুঁজতে চায়। সংরক্ষণের এই শহুরে বাসনা একপর্যায়ে আধিপত্য ও অধিকারবোধের সূক্ষ্ম রূপ নেয়। প্রকৃতির নিজস্ব ভারসাম্য এবং সাঁওতালদের আদিম নৈঃশব্দ্যের মুখোমুখি হয়ে পথিকের সেই উদ্ধার-অভিযান শেষ পর্যন্ত পর্যবসিত হয় এক আত্মদর্শনে—যেখানে সে চিনে নেয় নিজের সীমাবদ্ধতা এবং উপলব্ধি করে যে, কিছু ক্ষত ও সৃষ্টিকে অসমাপ্ত রেখে যাওয়াই প্রকৃতির চরম পবিত্রতা।
 
-Focus: The Stranger’s Gaze & The Village’s Silence.
+---
 
-Premise: A lone traveler—perhaps a surveyor, a weary chronicler, or someone fleeing their own life—halts at the edge of the barren clearing. Compelled by the contradiction of vibrant palash blossoms surrounding a hollow ruin, they attempt to learn its history. They try to engage the nearby Santhali elders, expecting dramatic folk legends or ghost lore, only to be met with calm indifference: "What is dead does not need a name." As the traveler investigates the dust-choked inner courtyard, they realize the house doesn’t trap spirits—it traps unresolved intentions.
+## ৩. গ্রন্থত্রয়ীর আখ্যান-বিন্যাস (Series Architecture)
 
-Book 2: The Unoffered Bloom
+### প্রথম পর্ব: ভস্ম ও রক্তিম (The Ash and the Crimson)
+* **কেন্দ্রীয় বিষয়:** বহিরাগতের দৃষ্টি বনাম আদিবাসী নীরবতা।
+* **আখ্যান-বিকাশ:** ক্লান্ত, গৃহত্যাগী এক পরিব্রাজক মানচিত্রহীন এই লালমাটির সীমানায় এসে থমকে দাঁড়ায়। রুক্ষ ধূসর প্রান্তরে প্রস্ফুটিত রক্তপলাশের প্রাচুর্য আর তার ভেতরে এক নিস্পৃহ, জনহীন ধ্বংসাবশেষের বৈপরীত্য তাকে আচ্ছন্ন করে। সে সাঁওতাল প্রবীণদের কাছে এই ভিটের অলৌকিক লোকগাথা বা ভুতুড়ে ইতিহাস শুনতে চায়; কিন্তু প্রতিদানে পায় এক নিঃশব্দ, প্রশান্ত অনীহা—*“যা মরে গেছে, তার কোনো নামের প্রয়োজন থাকে না।”* ঠাকুরদালানের ধুলো ঘাঁটতে গিয়ে পথিক বোঝে, বাড়িটিতে কোনো অতৃপ্ত আত্মা নেই; সেখানে বন্দি হয়ে আছে মানুষের এক অসমাপ্ত সংকল্প।
 
-Focus: Memory, Feudal Decadence, and The Forgotten Ritual.
+### দ্বিতীয় পর্ব: অনিবেদিত কুসুম (The Unoffered Bloom)
+* **কেন্দ্রীয় বিষয়:** সামন্ত অহংকার, স্মৃতি এবং অপাঙ্‌ক্তেয় অঞ্জলি।
+* **আখ্যান-বিকাশ:** বর্তমানের দীর্ঘশ্বাসের সাথে সমান্তরালভাবে উন্মোচিত হয় কয়েক দশক আগের অতীত। কেন সে রাতে মাঝপথে থেমে গিয়েছিল মহোৎসবের আয়োজন? জানা যায় এক বিশ্বাসঘাতকতা ও আত্মবিনাশের ইতিহাস। যে রাতে দেবীর চরণে অঞ্জলি দেওয়ার কথা ছিল, সে রাতেই শূন্য ভিটে ফেলে পালিয়েছিল প্রাসাদের শেষ উত্তরাধিকারী। সেই উৎসবের জন্যই একদা রোপণ করা হয়েছিল এই রক্তপলাশের চারা। কালক্রমে সেই পুষ্প নিজের ডালে অজস্র রক্তবিন্দু ফুটিয়ে চলে ঠিকই, কিন্তু দেবীর পা পর্যন্ত তা আর পৌঁছায় না। পথিক যখন নিজের উদ্যোগে সেই শতাব্দীর প্রাচীন অসমাপ্ত পূজাকে ‘সম্পূর্ণ’ করার উন্মাদনায় ভোগে, সে বুঝতে পারে না—এই মাটি বহু আগেই সেই মানুষের তৈরি ধর্ম ও দেবালয়কে প্রত্যাখ্যান করেছে।
 
-Premise: Alternating between the traveler’s prolonged stay and the house’s origins decades prior. We learn why the puja ceased: an act of betrayal or sudden abandonment that occurred right in the middle of a festival preparation when the palash was first planted. The blooms were intended for a ritual that never concluded. The tension builds as the traveler feels an urge to "finish" what was broken, oblivious to the fact that the soil itself chose to reject the structure long ago.
+### তৃতীয় পর্ব: সীমারেখা (The Boundary Line)
+* **কেন্দ্রীয় বিষয়:** অধিকারবোধ, প্রকৃতির অধিকার এবং কালবৈশাখীর প্রস্থান।
+* **আখ্যান-বিকাশ:** চৈত্র শেষ হয়ে রুক্ষ প্রকৃতিতে ঘনিয়ে আসে বৈশাখের প্রথম প্রলয়ঙ্কর ধূলিঝড়—কালবৈশাখী। ঝড় আছড়ে পড়ার আগেই পথিককে চূড়ান্ত সিদ্ধান্ত নিতে হবে: সে কি তার নাগরিক প্রবৃত্তি দিয়ে এই ধ্বংসাবশেষকে অধিকার করবে, নাকি বাস্তুভিটার নিঃশব্দ বিলয়কে স্বীকার করে নেবে? সাঁওতাল পল্লী এবার আর কেবল নীরব দর্শক থাকে না; তারা সামনে আসে প্রকৃতির চিরন্তন ভারসাম্যের অতন্দ্র প্রহরী রূপে। তারা পথিককে শিখিয়ে দেয়—টিকে থাকার আসল রহস্য ধ্বংসস্তূপকে জোর করে বাঁচিয়ে রাখায় নয়, বরং কোন জিনিসকে প্রকৃতির ধূলিসাৎ নিয়মের ওপর ছেড়ে দিতে হয়, সেই সীমারেখাটা চিনে নেওয়ায়।
 
-Book 3: The Boundary Line
+---
 
-Focus: Possession, Nature’s Reclamation, and Departure.
+## ৪. মূল রূপক ও দার্শনিক উপাদান (Key Themes & Motifs)
 
-Premise: The dry heat turns into the fierce pre-monsoon storm season (Kalbaishakhi). The traveler must decide whether to restore, possess, or walk away from the house before it consumes their sense of reality. The Santhal community steps into sharper view—not as passive observers, but as custodians of a deeper balance, showing that true survival lies in knowing which ruins to leave to the elements.
+* **অনামী ফুল ও অবহেলিত অঞ্জলি (Unconsecrated Blooms):** 
+  পলাশ, ভাঁটফুল কিংবা কাঁটাঝোপের পুটুস—এসব ফুল কোনো ব্রাহ্মণ্য পূজার পাত্রে স্থান পায় না, কোনো পর্যটকের ক্যামেরাও তাদের খোঁজে আসে না। তবু তারা নিজ মহিমায় উজ্জ্বল। এরা প্রতীক হয়ে ওঠে এমন এক স্বতঃস্ফূর্ত প্রাকৃতিক অঞ্জলির, যার অস্তিত্ব টিকিয়ে রাখার জন্য কোনো মানুষের বিশ্বাস বা মন্দিরের অনুমোদনের দরকার পড়ে না।
 
-Key Themes & Motifs
-Palash as Neglected Devotion: The tree blooms aggressively, offering petals that fall onto cracked flagstones. It represents nature providing an extravagant offering where human faith abandoned its post.
+* **উদাসীনতার শক্তি (The Power of Indifference):** 
+  সাধারণ গথিক উপন্যাসের মতো বাড়িটি কোনো ভীতির সঞ্চার করে না। এখানকার ভীতি লুকিয়ে আছে আদিবাসীদের গভীর, স্বাভাবিক ‘উদাসীনতায়’। তারা বাড়িটিকে ঘৃণা করে না, ভয় পায় না, এমনকি মনে রাখাও প্রয়োজন মনে করে না। মানুষের তৈরি ইতিহাসকে অস্বীকার করার এর চেয়ে বড় শক্তি আর হতে পারে না।
 
-The Power of Indifference: Rather than a typical gothic haunted house that terrifies the locals, the horror here is rooted in absolute disregard. The local inhabitants do not fear the house; they simply refuse to grant it significance.
-
-The Traveler's Obsession: The outsider brings city-bred anxieties, nostalgia, and an urge to categorize and preserve what the land itself has already dismissed.
+* **উদ্ধারকর্তার নাগরিক অহমিকা (The Savior Complex):** 
+  পথিক আসলে আধুনিক নগরজীবনের প্রতীক—যে সবকিছুকে শ্রেণিবদ্ধ করতে চায়, সংরক্ষণ করতে চায় এবং অতীতকে নিজের মতো করে ব্যাখ্যা করতে চায়। তার বিপরীতে এই নামহীন ভূখণ্ড ও কালবৈশাখী তাকে শেখায় এক পরম বৈরাগ্য: *সব গল্পকে শেষ করতে নেই, কিছু শূন্যতা অপূর্ণ থাকলেই পূর্ণ হয়।*

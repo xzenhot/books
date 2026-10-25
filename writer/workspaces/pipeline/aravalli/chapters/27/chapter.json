@@ -6,7 +6,7 @@
   "chapter_summary": "পাহাড়ের ফাটল ও উপত্যকায় বয়ে চলা অদৃশ্য নদী — যে জল মানুষ দেখে না, অথচ তাতেই বেঁচে থাকে জনপদ।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -46,5 +46,20 @@
       "line_gesture": "fragment lines shored against a heavy close",
       "variety_note": "an unseen path against the visible river"
     }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "518bee8f0ea08e33179fcf9a42e530e1e195783b9d76964b5add43d8288b4f50",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

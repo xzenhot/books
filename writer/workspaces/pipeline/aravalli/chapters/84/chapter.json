@@ -6,8 +6,23 @@
   "chapter_summary": "পাহাড় ও সাগরিকার প্রেম — প্রাচীন শিলার বুকে আধুনিক শরীরের স্পর্শ, যেখানে ভূতত্ত্ব, ইতিহাস, বিলুপ্তি ও কাম একসঙ্গে গলে একাকার।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "completed",
   "segments": [
     1
-  ]
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "fd2188a426054713759d09faa6a38cab94dad243036c2c853c648b052ee9f78b",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
 }

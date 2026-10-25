@@ -1,0 +1,117 @@
+# Chapter model context
+
+## chapter_index
+
+9
+
+## name
+
+9
+
+## word_target
+
+280
+
+## chapter_title
+
+গলিত শবের বুকে প্রেমের শুচিতা
+
+## chapter_summary
+
+রোদে পুড়ে ও জলে ভিজে গলিত স্বামীর দেহ যখন বিভীষিকা জাগায়, বেহুলার প্রেম তখন ইন্দ্রিয়গ্রাহ্য বিতৃষ্ণা জয় করে আত্মিক অমরত্বে রূপ নেয়।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the transformative horror: how decay in the physical realm forces a definition of purity in the spiritual.
+- Treating the body not as a singular loss, but as a confluence point where worldly corruption meets absolute devotion.
+- A lens entirely focused on the mechanics of endurance—the precise musculature and nerve endings protesting while the will overrides them.
+
+### story_options
+
+- Setting: The exposed timbers of the raft catching the setting sun's harsh light. Desire: To maintain focus on Lkhindor’s features beneath decomposition; Obstacle: A sudden, overwhelming wave washes over, threatening to conceal him completely from sight.
+- Setting: Inside a shadowed corner of the barge, where dampness collects and fosters unseen life. Desire: To find solace in an internal memory—a specific moment of their vibrant past together; Obstacle: The stench of putrefaction overwhelms that fragile recollection.
+- Setting: As twilight brings a cool, heavy mist onto the water. Desire: To perform one final, quiet ritual upon him, an act of utmost personal intimacy before accepting the journey forward; Obstacle: A chilling sound from the river banks suggests external observers are watching this ultimate private moment.
+
+### subject_rotations
+
+- Examining 'purity' not as a static state (sati), but as a volatile action—the continuous, active expenditure of will to *maintain* purity against decay.
+- A microscopic study of touch: how the act of touching him transitions from desperate yearning to almost clinical reverence.
+- Treating the scent and texture of death not as an aberration, but as a new element in the sacred geography of her pilgrimage.
+
+### sensory_details
+
+- The slick, cold give of slime against skin where hands grasp the timbers near the body's weight.
+- A sharp, acrid smell mixing decay with the metallic tang of river minerals under stress.
+- The strange visual effect of light diffusing unevenly through a film of surface algae coating the water around the load.
+
+### research_questions
+
+- In this context, how is 'shuchita' (purity) defined when confronted by absolute physical entropy? Is it an internal state or a performative one?
+
+### structural_variants
+
+- A tightly controlled sequence of vignettes, each moment dedicated to wrestling with a specific sensory data point related to the body.
+- An extended metaphor where the decomposition process is mapped onto the erosion of societal expectation.
+
+### variety_note
+
+Where previous chapters focused on external resistance (society's gaze) or initial movement, this chapter grounds the struggle in an intensely intimate, physical confrontation with mortality itself.
+
+## draft
+
+### sha256
+
+5019a0e6b7a306e59ea7da8c8ad24f93e0393f64204a98e824593700f9d81bcf
+
+### written_at
+
+2026-10-21T14:03:49.619992+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+5019a0e6b7a306e59ea7da8c8ad24f93e0393f64204a98e824593700f9d81bcf
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-21T16:19:57+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

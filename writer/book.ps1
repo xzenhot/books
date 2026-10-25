@@ -126,7 +126,7 @@ $BacklogVerbs = @('init', 'backlog', 'layout')
 
 # Pipeline subcommands owned by pipeline.md that book.py dispatches directly.
 # (book.py's argparse 'verb' choices include these.)
-$BookPyVerbs = @('scaffold', 'enrich', 'review', 'humanize', 'write', 'publish', 'preview')
+$BookPyVerbs = @('scaffold', 'enrich', 'review', 'humanize', 'write', 'publish', 'preview', 'cleanup')
 
 # Pipeline subcommands that are aliases of write.
 $WriteAliases = @('chapter', 'story')
@@ -138,7 +138,7 @@ $WriteAliases = @('chapter', 'story')
 $ConfigVerbs = @('form', 'config')
 
 # Agentic-only commands (no standalone Python CLI): filter, style, translate, poet/poetry/poem.
-$AgenticVerbs = @('filter', 'style', 'translate', 'poet', 'poetry', 'poem')
+$AgenticVerbs = @('filter', 'style', 'translate', 'poet', 'poetry', 'poem', 'line')
 
 # Read-only commands.
 $ReadOnlyFlags = @('-o', '--options', 'list', '-h', '--help', 'help')
@@ -167,6 +167,7 @@ Pipeline (owned by pipeline.md):
   <bookname> humanize *|all|<n>
   <bookname> eval all|*|<n>|<range>|continue
   <bookname> write <n>|all|continue [style <nickname>]   (aliases: chapter, story)
+  <bookname> cleanup <n>|range|all|*|continue
   <bookname> style [<style>]
   <bookname> translate <n>|all|continue <language>
   <bookname> publish [<language>]
@@ -353,6 +354,9 @@ switch ($verb) {
         Write-Host "  style     -> .framework/agents/style/agent.md"
         Write-Host "  translate -> .framework/agents/translate/agent.md"
         Write-Host "  poet      -> .framework/agents/write/agent.md (single finished poem)"
+        if ($agent -eq 'line') {
+            Write-Host "  line      -> .framework/agents/line/agent.md (kobi.exe MCP client)" -ForegroundColor Cyan
+        }
     }
     default {
         Write-Host "Unknown subcommand '$verb'." -ForegroundColor Red

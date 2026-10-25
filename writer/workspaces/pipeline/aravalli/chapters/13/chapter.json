@@ -6,7 +6,7 @@
   "chapter_summary": "খেতরি অঞ্চলের তামার খনি — পাহাড়ের ধমনীতে জমে থাকা আগুনের মতো লাল ধাতু। প্রাচীন সভ্যতার প্রথম রক্ত।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -78,5 +78,20 @@
   "stereotype": {
     "signature": "lorca",
     "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "08959bff5d93bdd6223c527090f2914337e12436475d5cddbbde1e880ee528bd",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

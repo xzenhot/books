@@ -1,0 +1,48 @@
+{
+  "chapter_index": 42,
+  "name": "42",
+  "word_target": 500,
+  "chapter_title": "The Betel Leaf at Farewell",
+  "chapter_summary": "A betel leaf is offered at a farewell, and the poem regards the small green token that sweetens the moment of parting.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The leaf as a momentary, fragrant interruption to inevitable finality—its scent overwhelming the metallic tang of unspoken goodbyes.",
+      "Examining the mechanics of sharing: how the act of passing the prepared betel nut/leaf transfers more than flavor; it transmits ritualized acknowledgment.",
+      "Framing the offering itself not as a gift, but as a temporary suspension of distance, allowing two people to exist in a shared, edible present."
+    ],
+    "story_options": [
+      "Setting: A worn verandah just before twilight, desire: To capture the specific pattern of humidity clinging to the leaf surface, contrasting its moisture against dry farewells.",
+      "Setting: Near a busy street corner where the parting occurs, desire: To have the sharp citrus notes of the accompanying nut/areca mingling with the exhaust fumes as they leave each other's sight.",
+      "Setting: A small domestic threshold, desire: To focus on how the leaf is held—the practiced grip in the hand that administers it versus the receiver who barely accepts it."
+    ],
+    "subject_rotations": [
+      "Treating the betel leaf as a marker of local dialect or specific social caste/relationship dynamics (if context allows for this subtlety).",
+      "Focusing on the preparation ritual—the selection, chewing implements, and curing process—as a miniature epic preceding the brief parting.",
+      "The material chemistry: how saliva interacts with the plant fiber to change its texture from pliable green vessel to used remnant."
+    ],
+    "sensory_details": [
+      "Sight: The vein structure of the leaf catching the low, oblique light before it begins to wilt in the air.",
+      "Sound: The slight, wet *thwack* as the offered leaves meet the lips or are placed into a mouth.",
+      "Smell: An intense, almost cloying burst of catechu and fresh chlorophyll that signals transition."
+    ],
+    "research_questions": [
+      "What is the specific social hierarchy implied by who offers the betel leaf versus who receives it in traditional departure scenarios?",
+      "Are there regional variations in how the leaf is folded or treated when presented as a sign of respect during leaving?"
+    ],
+    "structural_variants": [
+      "A cyclical structure where each stanza mimics the process: preparation -> offering -> consumption (or rejection) -> silence after.",
+      "An intensely concentrated free verse form, relying on enjambment to simulate the swiftness and awkwardness of a genuine farewell."
+    ],
+    "unused_angles": [
+      "The residual stain left on the hands or lips long after the conversation has ended.",
+      "Comparing the act of accepting the betel offering to moments of small, necessary societal compromises during passage."
+    ],
+    "variety_note": "This chapter moves away from large thematic statements by grounding its emotional weight in a singular, shared object—the prepared leaf and nut—to investigate subtle social exchanges."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "chapter_index": 5,
+  "name": "5",
+  "word_target": 280,
+  "chapter_title": "লোকাচারের শৃঙ্খল ভাঙার স্পর্ধা",
+  "chapter_summary": "যে শাস্ত্র বিধবাকে এক কোণে বন্দি রাখতে চায়, বেহুলা সেই সামাজিক অনুশাসন চূর্ণ করে স্বামীর গলিত শব নিয়ে অনির্দিষ্ট পথে পা বাড়ানোর সংকল্প নেয়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the sheer physical effort of transgression: describing the precise biomechanical struggle required to move a corpse against entrenched social prohibition.",
+      "Treating societal customs (the 'shringkhol') not as abstract rules, but as tangible weights or knots that must be physically undone by her resolve.",
+      "Examining the moment she consciously rejects the prescribed posture of a grieving widow in favor of an assertive, forward-moving stance."
+    ],
+    "story_options": [
+      "A sequence set at the boundary marker of propriety—a stone threshold or a specific iron gate—where her internal negotiation with duty against desire is visualized as crossing that line.",
+      "An imagined scene where she encounters an early mourner who attempts to physically restrain her, forcing her into a direct, powerful physical assertion of will against their hands.",
+      "A moment immediately preceding the departure when she looks back at the established domestic space—not in longing, but with clinical detachment, analyzing it as a failed structure."
+    ],
+    "subject_rotations": [
+      "Shifting the focus from 'breaking chains' (external force) to redefining what the chain *is*—perhaps viewing tradition itself as an overly ornate cage.",
+      "Treating her resolve not just as defiance, but as a profound act of ultimate devotion that supersedes social contract entirely.",
+      "Focusing on the relationship between the sacred duty (to the husband) and the profane violation (of societal expectation)."
+    ],
+    "sensory_details": [
+      "The cold, uneven texture of damp earth under her bare feet as she begins to move away from settled ground.",
+      "A specific, sharp scent—like crushed night-blooming jasmine or old river silt—that accompanies the movement toward unknown waters.",
+      "The gritty friction sound made by the rough woven fiber of the shroud/wrapping against the corpse’s surface."
+    ],
+    "research_questions": [
+      "In the context of Bengali traditions, what specific ritual items or boundary markers would signal the definitive crossing from domestic to wild territory?"
+    ],
+    "structural_variants": [
+      "A section utilizing highly condensed, forceful imagery—a rapid staccato poem segment that mimics a break snapping under tension.",
+      "Employing an extended metaphor where the societal rules are portrayed as interwoven roots, and her will is the shear force cutting them through."
+    ],
+    "unused_angles": [
+      "The internal calculus of risk: what specific reputation or social consequence she consciously chooses to accept in exchange for this single act of movement.",
+      "A comparison between the societal 'path' expected of a widow versus the entirely self-drawn, undefined path she must forge."
+    ],
+    "variety_note": "Where previous chapters focused on grief's internal weight or external scorn, this chapter pivots to depict the active, muscular *act* of breaking free from established social boundaries with physical force."
+  },
+  "draft": {
+    "sha256": "06b5035f6c8b753ed87fe782bddabc3d57762405ab4bbf7bceb6452b85513ace",
+    "written_at": "2026-10-21T14:02:53.204847+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "06b5035f6c8b753ed87fe782bddabc3d57762405ab4bbf7bceb6452b85513ace",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T16:19:57+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

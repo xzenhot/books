@@ -187,10 +187,9 @@ def publish(bookname: str, language: Optional[str] = None) -> PublishResult:
     chapters_out = os.path.join(ver_dir, "chapters")
     os.makedirs(chapters_out, exist_ok=True)
 
-    # canonical order
-    with open(os.path.join(PIPE, "bookseed.txt"), encoding="utf-8") as f:
-        topics = [line.strip() for line in f if line.strip()]
-    total = len(topics)
+    # canonical order — chapter count/topics from progress.json (bookseed.txt retired)
+    prog = _read_json(os.path.join(PIPE, "progress.json")) if os.path.exists(os.path.join(PIPE, "progress.json")) else {}
+    total = len(prog.get("chapters", []))
 
     def version_key(fname: str) -> int:
         if fname.startswith("chapter_v") and fname[len("chapter_v"):-3].isdigit():
@@ -378,8 +377,6 @@ def create_book(req: CreateBookRequest) -> dict:
         "created_at": now,
     }
     _write_json(os.path.join(pipe, "book.json"), model)
-    with open(os.path.join(pipe, "bookseed.txt"), "w", encoding="utf-8") as f:
-        f.write("")
     _write_json(
         os.path.join(pipe, "progress.json"),
         {
@@ -469,7 +466,7 @@ def add_chapter(bookname: str, req: ChapterInput) -> dict:
     plan["chapter_count"] = len(chapters)
     _save_book_plan(bookname, plan)
 
-    # pipeline book.json / bookseed.txt / progress.json
+    # pipeline book.json / progress.json
     pipe = _pipeline_dir(bookname)
     model_path = os.path.join(pipe, "book.json")
     if not os.path.exists(model_path):
@@ -479,10 +476,6 @@ def add_chapter(bookname: str, req: ChapterInput) -> dict:
         model["chapter_count"] = len(chapters)
         model["source_terms"] = [c.get("chapter_title", str(c.get("chapter_index"))) for c in chapters]
         _write_json(model_path, model)
-
-    with open(os.path.join(pipe, "bookseed.txt"), "w", encoding="utf-8") as f:
-        for c in chapters:
-            f.write(f"{c.get('chapter_title', c.get('chapter_index'))}\n")
 
     prog_path = os.path.join(pipe, "progress.json")
     if os.path.exists(prog_path):
@@ -618,12 +611,6 @@ def delete_chapter(bookname: str, chapter: str) -> None:
     cd = _chapter_dir(bookname, name)
     if os.path.isdir(cd):
         shutil.rmtree(cd)
-
-    # bookseed.txt
-    pipe = _pipeline_dir(bookname)
-    with open(os.path.join(pipe, "bookseed.txt"), "w", encoding="utf-8") as f:
-        for c in kept:
-            f.write(f"{c.get('chapter_title', c.get('chapter_index'))}\n")
 
 
 @app.get("/books/{bookname}/versions/{version}/chapters/{chapter}/content", response_model=ChapterContent)

@@ -1,0 +1,123 @@
+# Chapter model context
+
+## chapter_index
+
+12
+
+## name
+
+12
+
+## word_target
+
+280
+
+## chapter_title
+
+শকুনের ছায়া ও মায়াবী শ্বাপদের আক্রমণ
+
+## chapter_summary
+
+মনসার চক্রান্তে চিল ও বাঘের বেশে স্বামীর শব লুটের অপচেষ্টা। সমস্ত অপশক্তির হিংস্র নখের সামনে একা দাঁড়িয়ে বেহুলার বর্ম হয়ে ওঠা।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the narrative silence *between* attacks: using gaps in sound or movement to build unbearable tension before each predatory strike.
+- Treating the physical space around the corpse as a locus of unstable, competing energies—spiritual conviction vs. raw biological predation.
+- Framing the attack not as brute force, but as an invasive ritual enacted by disguised forces trying to violate sacred boundaries.
+
+### story_options
+
+- Setting: The precise moment before the shape shifts from bird/tiger to shadow; Desire: A sudden internal flash of divine imagery—a protective light or form—Obstacle: The immediate, ground-level threat demanding instantaneous action; Turn: Her focus snaps back to the physicality of survival.
+- Setting: Amidst the chaos of the initial assault (beak striking bone/claw tearing flesh); Desire: To articulate a single, sustained, defiant vocalization that pierces through the attack's noise—Obstacle: The visceral pain overriding any planned utterance; Turn: The sound itself seems to momentarily halt the movement around her.
+- Setting: As she braces herself against an impossibly heavy blow (a metaphorical or literal weight of malice); Desire: To recall a single, small, domestic gesture from before the tragedy—an anchor to ordinary love—Obstacle: This fragile memory being snatched away by the violence; Turn: The recalled warmth becomes the catalyst for her fiercest physical resistance.
+
+### subject_rotations
+
+- Shifting focus from 'her defense' to 'the integrity of the boundary': analyzing the act as a metaphysical defense against forces that would seek to dissolve reality.
+- Examining the predator's perspective, not through sympathy but purely analytically: how does malice manifest its own logic when attempting desecration?
+- Centering on the *objects* involved—the wooden raft, the corpse itself—as battlegrounds where pure intention clashes with destructive intent.
+
+### sensory_details
+
+- The grating sound of displaced wood fibers under a powerful, dragging weight.
+- A specific, phantom scent associated only with aggressive avian predation mingled with the river's musk.
+- The granular texture of dried mud kicked up by an unseen, sudden lunge.
+
+### research_questions
+
+- How can the Bengali poetic tradition render the simultaneous experience of acute physical trauma and transcendent spiritual awareness in a single image?
+- In what specific way does 'Māyābī' (illusory/deceptive) function structurally when describing entities that attack with undeniable, tangible force?
+
+### structural_variants
+
+- A structure built around escalating degrees of enclosure: moving from open river assault to a final, claustrophobic defense.
+- Employing the fragmented mirroring technique where every action (a strike, a gasp) is immediately echoed by an abstract concept (resolve, silence).
+
+### unused_angles
+
+- Deep exploration of the 'silent promise' made before the attack—the unvoiced covenant between her and Lkhindor that sets this sequence in motion.
+- A thematic thread focusing on how societal expectations (what a widow *should* do) are utterly shattered by this elemental confrontation.
+
+### variety_note
+
+While previous chapters focused on the internal climate of grief or external moral battles, this chapter must root the struggle firmly in physical, predatory chaos and immediate survival dynamics.
+
+## draft
+
+### sha256
+
+b2595d4d7967a887daa8381ad61a6ca62e9026d9049d25a0fb5f51104a754084
+
+### written_at
+
+2026-10-21T14:04:26.810206+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+b2595d4d7967a887daa8381ad61a6ca62e9026d9049d25a0fb5f51104a754084
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-21T16:19:57+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

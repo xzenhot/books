@@ -6,7 +6,7 @@
   "chapter_summary": "আগ্রার শ্বেত সমাধি আসলে আরাবল্লিরই কন্যা — পাহাড়ের মার্বেল প্রেমিকের জন্য সমাধিতে পরিণত হয়।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
@@ -82,5 +82,20 @@
   "stereotype": {
     "signature": "gibran",
     "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "bccac7a61480546ecb5e5318c829e70489c3bd91433777ac5a0bd63a03687eac",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }

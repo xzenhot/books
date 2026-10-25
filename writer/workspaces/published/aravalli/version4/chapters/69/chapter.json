@@ -1,0 +1,28 @@
+{
+  "chapter_index": 69,
+  "name": "69",
+  "word_target": 500,
+  "chapter_title": "সবুজের শেষ কান্না",
+  "chapter_summary": "পরিবেশবাদীদের আর্তনাদ — পাহাড় বাঁচানোর নীরব ও জোরালো কণ্ঠ, যা কংক্রিটের শব্দে চাপা পড়ে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "c5e9b145732aafd03a7757f91de80d9101dd9024eca185ec4616f9620139042f",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

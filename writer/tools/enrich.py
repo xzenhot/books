@@ -35,6 +35,8 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+import notify
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 # The active form's template folder, resolved per book from the pipeline's own
 # layout/ folder. The shared .framework/templates/backlog tree is no longer used.
@@ -944,9 +946,9 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     index = chapter.get("chapter_index")
     if not isinstance(index, int):
         raise ValueError("Chapter model needs an integer chapter_index")
-    creative = chapter.get("creative_enrichment")
-    if creative is not None and not isinstance(creative, dict):
-        raise ValueError("Existing creative_enrichment must be an object or null")
+    # Recreate the creative_enrichment tag fresh on every enrich run — never
+    # carry older enrichment context forward into the merged chapter.json.
+    chapter.pop("creative_enrichment", None)
 
     run_seed = secrets.randbelow(2**31) if seed is None else seed
     chapter_seed = (run_seed * 1_000_003 + index) % (2**31)
@@ -1009,6 +1011,15 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     record["written"] = True
     print(f"[{index}] {title} — enriched.")
     vlog(f"variety_note: {patch.get('creative_enrichment', {}).get('variety_note', '')}")
+
+    # Publish a decoupled notification (in-process + durable transport).
+    notify.emit(
+        notify.CHAPTER_ENRICHED,
+        model_file.parent.parents[1].name,
+        index,
+        title=title,
+        message=f"Chapter {index} enriched.",
+    )
     return record
 
 

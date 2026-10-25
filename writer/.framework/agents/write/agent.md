@@ -1,6 +1,6 @@
 ---
 name: write
-description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content as flat, continuous prose (no section headings), honoring the chapter's metadata, the resolved style (a preset when `<style>` is given, else the book's `style.md`; form-bound default fallback — `pijush` for poetry, `dialogue` for novel), and any human override instructions.
+description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content in the requested format (e.g., including specific Bengali headings for poetry), honoring the chapter's metadata, the resolved style (a preset when `<style>` is given, else the book's `style.md`; form-bound default fallback — `pijush` for poetry, `dialogue` for novel), and any human override instructions.
 tools: ["read", "write"]
 ---
 
@@ -15,6 +15,25 @@ This agent is only a dispatcher. It must not write chapter content directly; it 
 ```
 
 - `<style>` — optional style selector. **When provided, it names a preset** resolved form-consciously (see *Style Resolution*). **When omitted, the book's own `workspaces/pipeline/<bookname>/style.md` is used.** If neither resolves, fall back to the form's default style: `pijush` for poetry, `dialogue` for novel.
+
+## Execution Mode (never route to Python when online)
+
+Read the book's `factory` (or an explicit `offline`/`online` argument) per
+`.framework/rules/command-boundary.md` **before** choosing a route, for every
+target — `all`, `*`, a single chapter, a range, or `continue`:
+
+- **`online`** (the default): this agent performs the writing **agentically** —
+  direct file reads and writes only. Never run `python`, `python tools/book.py
+  ... write`, or any helper script, even for `all`/`*`.
+- **`offline`**: **always** resolve the exact command from
+  `.framework/offline_registry.md` and run it via Python, for **every** target —
+  a single chapter, a range, `continue`, or `all`/`*`. The command is
+  `python tools/book.py <bookname> write [<n>|range|all|continue] [--style NICK]`.
+  Display it to the user and ask "go / don't go" before running it; do not
+  execute Python yourself until the user confirms.
+
+The execution mode is a route switch only — it never changes the resolved form,
+style, language, or word target.
 
 ## Override Is Craft, Not Content (mandatory)
 
@@ -52,6 +71,17 @@ Every write flattens first — never pass raw JSON to the writer. For the chapte
    the raw JSON.
 3. **Write** `chapter.md` (flat, continuous prose; archive any prior copy to
    `segments/1/version/`).
+
+## Always Overwrite (no confirmation)
+
+When the command names a chapter whose `chapter.md` already exists, **overwrite
+it unconditionally**. Do not ask the user whether to keep the existing draft,
+whether to rewrite in a different style, or any other question — resolve the
+chapter's form, style, language, and word target, then write the new draft
+directly, archiving the prior copy to `segments/1/version/` as the skill
+prescribes. The only permitted stop is a hard failure (missing `language`,
+unsupported `form`, or a failed enrichment prerequisite); never stop to ask for
+confirmation on an existing draft.
 
 ## Dispatch
 
@@ -95,13 +125,11 @@ On success, resume dispatch with the refreshed metadata.
 
 ## Responsibility Boundary
 
-The selected skill owns writing the chapter (flat, continuous prose — no section
-headings), honoring the blueprint, signature, theme, style voice, and override as
-the final layer, and writes only `chapters/<n>/chapter.md` (archiving prior copies).
+The selected skill owns writing the chapter (honoring the required format—e.g., including headings for poetry), honoring the blueprint, signature, theme, style voice, and override as the final layer, and writes only `chapters/<n>/chapter.md` (archiving prior copies).
 
 The write agent must **not**: write chapter content directly; scaffold or run
 filters; write to `workspaces/published/` or `segments/1/writer/`; update
-`progress.json`; re-introduce section headings; or apply a form the pipeline's
+`progress.json`; or apply a form the pipeline's
 model doesn't declare.
 
 ## Output

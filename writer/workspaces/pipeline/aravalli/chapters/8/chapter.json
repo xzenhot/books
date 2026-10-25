@@ -6,12 +6,18 @@
   "chapter_summary": "বরফযুগের হিমানী পাহাড়ের চূড়া ঘেঁষে নেমে যায়। শীতের স্পর্শে পাথরের গভীরে জমে টিকে থাকার জেদ।",
   "further_references": [],
   "level": "chapter",
-  "state": "enriched",
+  "state": "completed",
   "segments": [
     1
   ],
   "enrich": {
-    "active_filters": ["research", "correctness", "theme", "syntax", "quality"],
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
     "status": "enriched"
   },
   "stereotype": {
@@ -29,7 +35,11 @@
         "name": "Stoicism",
         "one_liner": "Logic, virtue, and mastering inner thoughts."
       },
-      "writing_skills": ["classical meter mastery", "rhyme architecture", "modern colloquial grounding"],
+      "writing_skills": [
+        "classical meter mastery",
+        "rhyme architecture",
+        "modern colloquial grounding"
+      ],
       "image_seed": "moonlight on microscopic ice needles lining a sheer face",
       "volta": "sleep turning from stillness into a held breath that refuses to end",
       "sonic_texture": "a brittle, glass-like silence that could shatter",
@@ -74,5 +84,20 @@
     "sha256": "7873518f7f886dfd241d974285a84e10399ed68033387607916864d9e806b1b1",
     "written_at": "2026-10-11T13:25:53.292436+00:00",
     "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "9c97418b91797138430dc3c1f1a92e5112c3e8769e9146ad8532ac8c4c7f4efd",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
   }
 }
