@@ -73,6 +73,8 @@ The skill owns the section list, the provenance block, and the synthesis rules.
    `creative_enrichment`, fixing the through-line, the 14-syllable couplet
    contract, the strong-rhyme protocol, the archive-before-overwrite rule, the
    `chapter.md` output shape, the audit, and the `chapter.json` record.
+   Length resolves in the skill's order — an explicit count directive, then a
+   material `word_target`, then the **default 16 couplets / 32 lines**.
 6. Report the skill's result in the skill's Poyar Report format, including whether
    the cached style was reused or synthesized.
 

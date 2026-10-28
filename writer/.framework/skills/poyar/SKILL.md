@@ -123,26 +123,44 @@ exists to carry the sound, so the sense has to carry everything.
 - Each couplet advances the argument by one step.
 - The register and idiom carry forward.
 
-A poyar whose couplets each stand alone is **broken even when all sixteen rhymes
-pass**. Before writing, fix the through-line — the single movement the whole poem
-makes — and let every couplet take the next step of it.
+A poyar whose couplets each stand alone is **broken even when every rhyme in the
+poem passes**. Before writing, fix the through-line — the single movement the whole
+poem makes — and let every couplet take the next step of it.
 
-## Length (derived from `word_target`, not guessed)
+## Length — default 16 couplets (32 lines)
 
-Resolve `word_target` from the chapter's `chapter.json`, then the matching
-`book.json` `chapters[]` entry, then the book-level value.
+**The default poyar is 16 couplets = 32 verse lines.** Use that unless an explicit
+instruction says otherwise — it is the standard shape this skill composes to.
 
-A 14-syllable line holds roughly **6–7 words**; a couplet roughly **12–13**.
+Measured against real poyar drafts, a couplet runs **~12 words** (2 lines × ~6
+words), so the default 32-line poem lands near **195 words**. It is therefore
+*shorter* than a typical 300-word `word_target`; that is expected and is not a
+defect.
 
-```text
-couplet_count = round(word_target / 12.5)      # 300 words → 24 couplets
-```
+Resolution order, highest first:
 
-- Reach the target. Do not stop at 60–70% because the couplets "feel finished".
+1. **Explicit line/couplet count** in the invocation, `override.txt`, or
+   `filters/override/filter.md` (e.g. "20 lines are enough", "12 couplets").
+   Always wins — a directive of "20 lines" means **20 couplets = 40 lines**.
+2. **`word_target`** from the chapter's `chapter.json`, then the matching
+   `book.json` `chapters[]` entry, then the book-level value — but **only when it
+   is explicitly marked as binding for this chapter**. When it is the ordinary
+   book-wide value, the default shape wins.
+
+   ```text
+   couplet_count = round(word_target / 12)          # 300 words → 25 couplets
+   ```
+
+3. **Default** — **16 couplets / 32 lines** (~195 words).
+
+A 14-syllable line holds roughly **6–7 words**; a couplet roughly **12**.
+
+- Do not stop early because the couplets "feel finished".
 - Do not pad: never add a couplet that repeats a step already taken.
 - To grow, **advance the argument** — a new image, a new turn, a new consequence.
-- An explicit line-count directive in `override.txt` or
-  `filters/override/filter.md` wins over this target.
+- Report the resolved count and its source (directive, `word_target`, or default),
+  and if a count constraint puts the poem under `word_target`, say so plainly
+  rather than silently undershooting.
 
 ## Register — Borrow Srijato's Lexicon, Not Its Form
 
@@ -322,26 +340,39 @@ Write one sentence naming what the poem does from first couplet to last (the
 movement, not the topic). Every couplet must take the next step of it. If the
 `creative_enrichment` offers several story options, choose one and commit.
 
+Then work **one couplet at a time**. For each couplet, generate **16 candidate
+first lines** and, once an end word is fixed, **16 candidate second lines**; take
+the best pair that passes the meter and the strong-rhyme test, then move to the
+next couplet. Do not draft the whole poem and repair it afterwards.
+
+A couplet must read as a **real sentence**, not a decorative fragment. The poem must
+read as one argument, not a list of rhymes.
+
 ### Phase 1 — Fix the rhyme pair before writing either line
 
 A couplet is only as good as its rhyme; a beautiful line 1 cannot rescue a weak
 pair.
 
 1. Choose end word **A** that the meaning needs.
-2. Fetch partners: `word.rhyming-words` (`sizes` is a hint, not a filter).
-3. Confirm `word.rhyme-test(A, B) >= 1` **and** identical final rhyme unit
-   (`verse.py rhyme A B`, exit 0).
-4. If no **strong** partner exists, **discard A** and choose another end word.
+2. Fetch partners: `word.rhyming-words` (`sizes` is a hint, not a filter). Pick the
+   partner the meaning can carry — do **not** select on `word.rhyme-rank`: `Rank`
+   is the word's position inside its rhyme class, not a quality score.
+3. Confirm `word.rhyme-test(A, B) >= 1` **and** an identical final rhyme unit
+   (`verse.py rhyme A B`, exit 0). `>= 1` is the required floor — values beyond it
+   are simply looser classes and still need the strength check.
+4. If no **strong** partner exists, **discard A** and choose another end word —
+   or end line 1 on a different syllable with better partners.
 
 ### Phase 2 — Write line 1
 
 A complete, singable statement in the daily register, ending on **A**. Measure it
-immediately: exactly 14 syllables. If 13 or 15, rewrite it now — never carry a
-wrong-length line forward.
+immediately: **exactly 14 syllables**, ideally `4 + 4 + 4 + 2`. If it is short, add
+an everyday clause; if long, trim the least essential modifier. Never inflate a word
+to reach 14. The sentence must complete a thought and continue the through-line.
 
 ### Phase 3 — Write line 2
 
-Close the pair on **B**, exactly 14 syllables, continuing line 1's sentence.
+Close the pair on **B**, **exactly 14 syllables**, continuing line 1's sentence.
 
 ### Phase 3a — If line 2 will not rhyme well, change line 1
 
@@ -395,8 +426,8 @@ The audit must print `=== PASS ===`. Then:
   "form_skill": "poyar",
   "form": "couplet_poem",
   "stanza_form": "couplet",
-  "stanza_count": 24,
-  "line_count": 48,
+  "stanza_count": 16,
+  "line_count": 32,
   "rhyme_scheme": "AA",
   "rhyme_scheme_note": "L1~L2 inside each couplet; no cross-couplet rhyme",
   "meter_unit": "syllable",
@@ -464,7 +495,7 @@ Book     : <bookname>
 Chapter  : <n>
 Mode     : poyar (14-syllable couplets, 4+4+4+2)
 Style    : poyar (<reused|synthesized> → workspaces/pipeline/<bookname>/style.md)
-Target   : <word_target> words → <n> couplets
+Target   : 16 couplets / 32 lines (default) | <count directive> | <word_target> words
 Language : <language>
 
 Couplets:
