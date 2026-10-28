@@ -1,12 +1,68 @@
 ---
 name: write
-description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Resolves the pipeline's form and routes each chapter to the poetry skill or the novel skill, which write or rewrite the chapter content in the requested format (e.g., including specific Bengali headings for poetry), honoring the chapter's metadata, the resolved style (a preset when `<style>` is given, else the book's `style.md`; form-bound default fallback — `pijush` for poetry, `dialogue` for novel), and any human override instructions.
+description: Form-aware write dispatcher for the `/book <bookname> write <n>|all|continue [<style>]` command. Owns the four-task composition sequence — enrich (gated), draft (gated), transform (line calibration via MCP), compose (fixed form) — resolving the pipeline's form and routing each stage to its owning agent and skill. Honors the chapter metadata, the resolved style (a preset when `<style>` is given, else the book's `style.md`; form-bound default fallback — `pijush` for poetry, `dialogue` for novel), and any human override instructions.
 tools: ["read", "write"]
 ---
 
 # The Write Agent
 
-This agent is only a dispatcher. It must not write chapter content directly; it resolves the book's form and routes to the form-specific write skill (`.framework/skills/poetry/SKILL.md` for poetry, `.framework/skills/novel/SKILL.md` for novels).
+This agent is the sole owner of chapter composition. It runs the **four-task
+sequence** and delegates each stage to the owning agent — it does not author
+content itself except through those delegates.
+
+## The Four-Task Sequence (mandatory, in order)
+
+| # | Task | Gate | Delegate |
+|---|------|------|----------|
+| 1 | **Enrich** | skip if `chapter.json` already carries enrichment guidance | `.framework/agents/enrich/agent.md` → `enrich-poetry` / `enrich-novel` |
+| 2 | **Draft** | skip if `chapters/<n>/chapter.md` exists with content | `.framework/agents/write/agent.md` (this agent) → `poetry` / `novel` skill |
+| 3 | **Transform** | always — reshape to the target meter | `.framework/agents/line/agent.md` |
+| 4 | **Compose** | only when a fixed form is requested | form agent → form skill |
+
+Steps 1–3 prepare the source; step 4 produces the final composed content. There is
+**no separate `transform` or `compose` command** — both are stages inside `write`.
+
+### Task 3 — Transform (meter calibration)
+
+Reshape the draft to the target meter without changing meaning. The ruler is
+**form-specific**:
+
+| Form | Meter unit | Tool |
+|---|---|---|
+| sonnet, limerick, haiku | akshar (consonant) | `word.akshar-count` |
+| lyrics / modern song, srijato, **poyar** | syllable | `word.syllable-count` (per word, summed) |
+
+Route through `.framework/agents/line/agent.md`. Every measurement goes through
+MCP (`tools/mcpbangla/kamolika.py`) — **never compute counts natively**, because
+Bengali conjuncts (যুক্তব্যঞ্জন) make visual counting invalid.
+
+**Poyar is exact, not a floor.** Every line must hold **exactly 14 syllables** in
+the `4 + 4 + 4 + 2` measure; a 13 or 15 is rewritten, not balanced. Measure a line
+by summing its per-word counts — `word.syllable-count` over-counts whole phrases.
+
+**Poyar rhymes must be strong.** `word.rhyme-test >= 1` proves only class
+membership; the two end words must also share an identical final rhyme unit.
+`শব্দ/গন্ধ` returns `1` and is still weak. **When line 2 cannot make a strong
+rhyme, rework line 1** — shuffle its words or replace the line — rather than
+accept the weak pair. Verify with `tools/mcpbangla/verse.py rhyme A B` (exits
+non-zero on a weak pair).
+
+For rhyme-schemed forms, task 3 also verifies rhyme with `word.rhyme-test`:
+`>= 1` passes; `0` is **not** a rhyme (same vowel shape, different class) and must
+be rejected. For **poyar**, a class match is only half the test — the couplet's end
+words must also share an identical final rhyme unit (see above).
+
+### Task 4 — Compose (fixed forms)
+
+| Form | Agent | Skill |
+|---|---|---|
+| Bengali sonnet | `.framework/agents/line/agent.md` / `.framework/agents/rhyme/agent.md` | `.framework/skills/sonnet/SKILL.md` |
+| lyrics / modern song | `.framework/agents/lyrics/agent.md` | `.framework/skills/lyrics/SKILL.md` |
+| Limerick | `.framework/agents/limerick/agent.md` | `.framework/skills/limerick/SKILL.md` |
+| Haiku | `.framework/agents/haiku/agent.md` | `.framework/skills/haiku/SKILL.md` |
+
+Style-level forms (`srijato`, `poyar`) are resolved through the book's style and
+composed directly under the style contract.
 
 ## Invocation
 

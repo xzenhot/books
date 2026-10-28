@@ -1,4 +1,4 @@
-# Stereotype: Rabindra Sangeet-Inspired Devotional Lyric
+# Stereotype: Rabindra Sangeet-Inspired Devotional lyrics
 
 Use this stereotype when a chapter should feel songlike, devotional, intimate, and filled with wonder before the beloved, nature, and the unseen order of life.
 

@@ -407,7 +407,7 @@ never reads or writes the pipeline.
 - Preserve existing pipeline state and resume from it.
 - Maintain the configured authorial tone, signature, language, register, syntax sample, reference, and theme set.
 - Prefer existing framework agents, skills, templates, and rules over new abstractions.
-- Keep runtime outputs in `workspaces/pipeline/` until validation permits promotion.
+- **Pipeline is the operative home.** Agents and skills (including layout, write, and enrich) operate directly within `workspaces/pipeline/<bookname>/` once the pipeline is scaffolded. They use the pipeline's `book.json` and chapter models as the active state.
 - Keep finished, reader-facing text in versioned folders under `workspaces/published/<bookname>/<version>/` only.
 
 ## Operating Procedure

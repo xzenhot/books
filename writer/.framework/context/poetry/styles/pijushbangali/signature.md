@@ -4,7 +4,7 @@ Pijush is a Bengali Poet, born and rooted in Bahirgachi, a village in the Nadia 
 
 He is a son of Jnanendra Nath Biswas (জ্ঞানেন্দ্র নাথ বিশ্বাস), Mother - Karunamayee Biswas (করুণাময়ী বিশ্বাস). Jnanendra was known as জ্ঞান গোঁসাই (Jnan Gosai), a supreme figure among the local Sadhus, revered for his wisdom, spiritual leadership, and mastery of Sufi, Baul, and religious practices within his community.
 
-Jnanendra authored lyrics on dehatattva (দেহতত্ত্ব)—the philosophy that the Divine resides within the human body—also known as bhav gaan (ভাব গান), echoing the divine love and teachings of Lord Krishna.
+Jnanendra authored lyricss on dehatattva (দেহতত্ত্ব)—the philosophy that the Divine resides within the human body—also known as bhav gaan (ভাব গান), echoing the divine love and teachings of Lord Krishna.
 
 Pijush is influenced by these deep roots in Bengali culture, focusing on the living, imaginary life of the Bengal Delta—its khals (খাল), bils (বিল), and the rhythmic flow of its riverine existence.
 

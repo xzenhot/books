@@ -1,6 +1,6 @@
 # Signature: Virginia Woolf
 
-Use this signature when a chapter should feel interior, fluid, and lyrical — where thought flows into thought and the boundary between self and world dissolves.
+Use this signature when a chapter should feel interior, fluid, and lyricsal — where thought flows into thought and the boundary between self and world dissolves.
 
 ## Core Movement
 
@@ -19,7 +19,7 @@ Use this signature when a chapter should feel interior, fluid, and lyrical — w
 
 ## Diction
 
-Use lyrical, image-rich language with long, sinuous sentences that turn on semicolons and dashes. The music is inward and associative. Render recurring terms in the configured target language.
+Use lyricsal, image-rich language with long, sinuous sentences that turn on semicolons and dashes. The music is inward and associative. Render recurring terms in the configured target language.
 
 ## Pattern
 

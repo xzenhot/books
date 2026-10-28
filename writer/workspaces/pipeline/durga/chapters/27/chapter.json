@@ -1,0 +1,53 @@
+{
+  "chapter_index": 27,
+  "name": "27",
+  "word_target": 300,
+  "chapter_title": "বিদায়ের চোখের জল",
+  "chapter_summary": "মণ্ডপ থেকে মাকে কাঁধে তুলে নেওয়ার মুহূর্তে চোখে জল — আনন্দ আর বেদনা একই নদীতে মেশে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the specific physical weight of the idol being carried—the strain against human muscle versus the perceived lightness/weightlessness in memory.",
+      "Treating the tears not as singular emotional acts, but as a shared, communal fluid that temporarily binds participants before dispersal.",
+      "The internal monologue breaking mid-stream; the speaker starts to lament the loss but is abruptly pulled back by an external, recurring sound (e.g., a specific high pitch from a distant ritual)."
+    ],
+    "story_options": [
+      "Setting: The narrow path leading away from the main pandal towards the immersion point; Desire: To reconcile the fierce power of Durga with the vulnerability exposed in moments of saying goodbye; Obstacle: The overwhelming presence of other celebrants who rush past, demanding forward momentum.",
+      "Setting: Behind the visible line of mourners, where unseen carriers struggle under load; Desire: To find a moment of profound, wordless communication between two people supporting the deity; Obstacle: The physical exhaustion threatening to break the practiced dignity of the farewell.",
+      "Setting: Just as the final sound cue (a specific beat or call) signals the beginning of the ritual procession towards the water; Desire: For the speaker's sorrow to coalesce into a sharp, clear observation about the cyclical nature of creation/destruction; Obstacle: The siren-like pull of the ongoing celebratory chaos just beyond their immediate grief."
+    ],
+    "subject_rotations": [
+      "Treating the tears not as pure sadness (বেদনা), but as concentrated, luminous acts of devotion (ভক্তি) that defy the river's dissolution.",
+      "Reframing the weight carried: is it the physical mass of clay and straw, or the accumulated memory and expectation of the entire past year?",
+      "Exploring the soundscape shift—how the loud, collective noise of the festival seems to momentarily invert itself into a deafening, isolating hush around the point of farewell."
+    ],
+    "sensory_details": [
+      "The gritty, cool dampness of soil kicked up by hurried feet on paths slicked with rainwater and dissolved pigment.",
+      "The specific metallic taste of salt mixed with sweat from those straining under the load during transit.",
+      "A sudden, momentary visual distortion in the air just above the water line as heat meets cooler evening humidity."
+    ],
+    "research_questions": [
+      "Are there any textual references or localized Bengali ritual notes detailing how 'shared' tears are viewed within the context of a major communal departure rite?",
+      "What specific sounds (besides general drumming) signify the transition from festival celebration to ritual procession in modern Durga Puja narratives?"
+    ],
+    "structural_variants": [
+      "An extended section dedicated solely to the physical mechanics of lifting and balancing the heavy form, using sharp, percussive imagery.",
+      "A highly fragmented structure where memory flashes (past pujas) are interrupted by a single, sustained auditory motif that acts as a tether to the present moment of farewell."
+    ],
+    "unused_angles": [
+      "Exploring the perspective of an animal witnessing the procession—the bird, dog, or insect reacting to the profound emotional currents.",
+      "Analyzing the social dynamics: how age and societal role dictate who weeps most openly during this specific phase of transition."
+    ],
+    "variety_note": "This chapter shifts focus entirely from the creation/energy (construction) or the communal joy (celebration), to the intensely personal, liminal moment where overwhelming feeling meets irreversible change."
+  },
+  "draft": {
+    "sha256": "5bed5514ca4475fc84f49d74ae740fdaf9bd8263fd7ebc1bd6b712ba835be0e9",
+    "written_at": "2026-10-28T07:36:13.152100+00:00",
+    "origin": "write"
+  }
+}

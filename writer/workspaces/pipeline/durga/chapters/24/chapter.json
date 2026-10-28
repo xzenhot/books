@@ -1,0 +1,54 @@
+{
+  "chapter_index": 24,
+  "name": "24",
+  "word_target": 300,
+  "chapter_title": "ঢাকির হৃদয়",
+  "chapter_summary": "ঢাকির হাতের তালে ঘুম ভাঙে পাড়ার — তার নিজের হৃদয়ও সেই ঢাকের সঙ্গে তাল মিলিয়ে বাজে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the physical endurance of the Dhaki's body—sweat, blistered skin, aching joints—as a metaphor for carrying the communal spiritual weight.",
+      "Framing the rhythm not as joy, but as a form of necessary ritualized trance that momentarily suspends worldly grief and memory.",
+      "Treating the sound itself as an almost biological function of the community, rather than just music."
+    ],
+    "story_options": [
+      "Setting: The small, cluttered alcove where the Dhaki rests between intense beats; Desire: To address a lost love whose echo is felt only in the memory of that precise rhythmic cadence; Obstacle: The overwhelming noise of the immediate crowd pressing close.",
+      "Setting: Just before dawn, while preparing the drum skin (the *dhak*) for the day's use; Desire: To speak to an absent mentor or master who taught the specific technique; Obstacle: A recurring internal doubt about whether the inherited rhythm is authentic or merely worn-out habit.",
+      "Setting: During a lull in the drumming, near the edge of the pandal where sounds fade slightly; Desire: To catch the memory of the first person they ever played for (a specific lost relative); Obstacle: The sudden intrusion of another, competing rhythmic sound from a nearby celebration."
+    ],
+    "subject_rotations": [
+      "Examining the material—the wood, the tensioned skin, the lacquer, and its relationship to the human pulse it attempts to mimic or channel.",
+      "Treating the rhythm as a kind of language spoken only by initiates; where non-participants hear noise but insiders perceive theology.",
+      "Shifting the focus from 'heartbeat' to 'shared memory'; how specific rhythmic patterns lock together moments from past Pujas."
+    ],
+    "sensory_details": [
+      "The sharp, metallic tang of exertion mixed with dust in the humid air near the drum.",
+      "The deep, resonant *thud* that vibrates up through the sole of a worn leather slipper.",
+      "The dry, cracked texture of aged wood beneath the musician’s palms."
+    ],
+    "research_questions": [
+      "Are there documented regional variations in Bengali folk drumming traditions where specific patterns carry prescribed ritualistic or narrative meanings beyond general celebration?",
+      "How is the concept of 'inherited rhythm' treated poetically—is it seen as blessing, curse, or inescapable destiny?"
+    ],
+    "structural_variants": [
+      "A highly fragmented structure mimicking the break-and-sustain nature of drumming itself: short bursts followed by extended meditative pauses.",
+      "An opening that is purely soundscape before a single, clear voice breaks through to speak to an absent entity."
+    ],
+    "unused_angles": [
+      "The mechanical precision required—treating the drum not as an instrument but as an extension of bone structure and tendon tension.",
+      "A focus on the economic aspect: the life cycle of the *dhak* maker versus the player.",
+      "Comparing the steady beat to geological time rather than biological pulse."
+    ],
+    "variety_note": "This chapter focuses intensely inward onto the visceral experience of the musician, contrasting sharply with earlier descriptions of broader community ritual or external divine presence."
+  },
+  "draft": {
+    "sha256": "f885697e277b14d6df3472c6c80daeca6da4107a96e63b3f43a36a53b7ea89b6",
+    "written_at": "2026-10-28T07:35:40.276499+00:00",
+    "origin": "write"
+  }
+}

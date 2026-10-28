@@ -52,7 +52,7 @@ Before writing, read these files in order:
 1. **Flatten.** Remove the **Workshop** and **Discussion** frame headings entirely; merge their prose with the **Story** into continuous paragraphs. The output is flat prose, not a three-section frame.
 2. **Honor the model.** Follow the chapter's `chapter_summary`, `included_characters`, `quality_parameters`, `theme`, `theme_essence`, and `era`/`place`.
 3. **Deepen, don't invent.** Stay within the events and emotional arc already present in the source chapter. Do not add new major plot points or characters that are not already suggested by the chapter model.
-4. **Lyrical prose.** Use long, flowing sentences; precise sensory detail; embodied metaphor; and rhythmic closure. Elevate the register without becoming ornate or artificial.
+4. **lyricsal prose.** Use long, flowing sentences; precise sensory detail; embodied metaphor; and rhythmic closure. Elevate the register without becoming ornate or artificial.
 5. **Character interiority.** Reveal what the central figure does not say aloud: doubt, memory, longing, fatigue, resolve, tenderness, and the quiet choice to love again.
 6. **Civilizational weight.** Treat domestic acts — tea, food, listening, welcome, repair — as civilizational labor, not small chores.
 7. **Length.** Expand toward the novel's target word count (5,500+ words by default) by deepening scenes, adding dialogue, extending inner thought, and enriching setting and gesture. Do not pad with filler.

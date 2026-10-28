@@ -98,6 +98,8 @@ Resolve the book's style from `.framework/context/poetry/styles/`:
   `signature.md`); re-key its imagery families to the book's own material.
 - **pijush** — the Dehlij threshold-dweller voice (see `styles/pijush/style.md` and
   `signature.md`); ground the poem in a place and a body.
+- **srijato** — the modern urban song-lyrics voice (see `styles/srijato/style.md` and
+  `signature.md`); ground the poem in the daily-used register of the subject.
 
 The style supplies the **voice**; the signature supplies the **movement and motif**. Keep
 both consistent with the poem's topic — do not import a tantric/foreign lexicon onto a

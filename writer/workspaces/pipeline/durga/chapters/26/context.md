@@ -1,0 +1,84 @@
+# Chapter model context
+
+## chapter_index
+
+26
+
+## name
+
+26
+
+## word_target
+
+300
+
+## chapter_title
+
+বিসর্জনের নদী
+
+## chapter_summary
+
+প্রতিমা নদীর জলে ভাসে, আর মায়ের ফেরার পথে জলে মিলিয়ে যায় বছরের সমস্ত আনন্দ ও কান্না।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the river not as a destination, but as a vast, indifferent mirror reflecting fractured fragments of color (pigments, clay dust) from the submerged image.
+- Focusing solely on the physics of dissolution: how the earthen structure interacts chemically and physically with the water—the slow stain, the dispersal of particles.
+- Emphasizing the profound quiet that rushes in immediately after the final immersion, a silence heavier than any prior noise.
+
+### story_options
+
+- Setting: The specific point where the thickest current pulls the idol away from the shore; Desire: To capture only the sound of friction—the clay scraping against riverbed stones—as it sinks.
+- Setting: A solitary figure watching from a distance, not crying, but meticulously cataloging the rate at which the color leeches into the water's surface; Desire: To observe this disintegration as an act of precise, scientific mourning.
+- Setting: Among the small boats that guide the procession; Desire: To focus on the collective shuddering—the slight dip and rise of every boat hull in response to the submerged mass passing beneath them.
+
+### subject_rotations
+
+- Focusing less on 'pathos' (grief) and more on the unstoppable, geological necessity of return/dissolution; viewing it as a natural cycle rather than an emotional one.
+- Examining the raw materiality: the difference between the vibrant crimson *sindoor* pigment staining the water versus the dull ochre of the fired clay body dissolving slowly.
+- Shifting from the scale of 'the festival' to the micro-scale experience—a single drop of holy water hitting a specific patch of exposed mud near the ghat.
+
+### sensory_details
+
+- The acrid, metallic smell rising off stagnant patches where debris collects at the riverbank.
+- The gritty, cool sensation of fine silt settling in the lungs as one breathes deep by the water's edge.
+- The faint sound of splintering reeds or submerged wood beneath the main current.
+
+### research_questions
+
+- Are there specific local traditions regarding how fragments of the immersed idol are handled post-dissolution, beyond general ritual?
+- What is the precise texture difference between wet clay and powdered colorants (like those used in Durga's ornamentation) when submerged?
+- How does the cultural perception of 'completion' or 'ending' manifest itself linguistically in descriptions of this moment?
+
+### structural_variants
+
+- An anti-narrative structure: A series of fragmented images (color, current speed, texture) with no connecting emotional thread.
+- A highly minimalist poem where the majority of space is dedicated to white/empty lines, using only short bursts of text mimicking ripples.
+- Starting *in media res* in the moment the head first disappears beneath the surface, and then backtracking temporally through the memory of that specific color palette.
+
+### unused_angles
+
+- The negotiation between the industrial flow of modern river traffic (boats, barges) and the ancient ritualistic passage of the image.
+- A focus on how local flora reacts to the sudden influx of pigmented runoff from the immersion point.
+- Treating the deity's departure as a necessary act of 'un-manifestation' required for cyclical rebirth.
+
+### variety_note
+
+Unlike previous chapters that emphasized active celebration or internal emotional states, this chapter must prioritize material objectivity and the inevitability of physical dissolution.

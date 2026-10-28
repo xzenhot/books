@@ -2043,7 +2043,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "verb",
         nargs="?",
-        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish", "preview", "cleanup"),
+        choices=("build", "layout", "backlog", "init", "scaffold", "filter", "enrich", "review", "humanize", "write", "publish", "preview", "cleanup", "style", "poet", "poetry", "poem", "line", "rhyme", "lyrics", "limerick", "limeric", "haiku"),
         help="Workflow action to perform.",
     )
     parser.add_argument(
@@ -2177,6 +2177,14 @@ def dispatch_workflow(args: argparse.Namespace, bookname: str, book_dir: Path) -
         raise ValueError(
             "'filter' has no standalone runner in tools/.\n"
             "Invoke the registered filter agent through /book or run the filter agent directly."
+        )
+
+    # Agentic-only verbs — no standalone Python runner. Route through their agent.
+    if verb in {"style", "poet", "poetry", "poem", "line", "rhyme", "lyrics", "limerick", "limeric", "haiku"}:
+        raise ValueError(
+            f"'{verb}' has no standalone runner in tools/.\n"
+            "Invoke it through /book (or .framework/workflows/book.md) so the "
+            "corresponding agent (and its skill) handles the work directly."
         )
 
     if verb == "review":

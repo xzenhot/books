@@ -6,7 +6,7 @@ Use this signature when a chapter should feel bohemian, wandering, and tenderly 
 
 - Let the wanderer's restlessness and the lover's tenderness braid together.
 - Let the city and the forest, the tavern and the temple, sit side by side.
-- Let the line be conversational, lyrical, and touched with gentle irony.
+- Let the line be conversational, lyricsal, and touched with gentle irony.
 - Let the ordinary moment open onto the infinite.
 
 ## Motifs
@@ -19,7 +19,7 @@ Use this signature when a chapter should feel bohemian, wandering, and tenderly 
 
 ## Diction
 
-Use conversational, lyrical Bengali, tender and lightly ironic, moving between the colloquial and the elevated. The tone is bohemian, warm, and quietly profound. Render recurring terms in the configured target language.
+Use conversational, lyricsal Bengali, tender and lightly ironic, moving between the colloquial and the elevated. The tone is bohemian, warm, and quietly profound. Render recurring terms in the configured target language.
 
 ## Pattern
 

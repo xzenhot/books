@@ -4,7 +4,7 @@ Pijush is a Bengali Poet, he is actually from Bahirgachi , a small village from 
 
 He is a son of Jnanendra Nath Biswas (জ্ঞানেন্দ্র নাথ বিশ্বাস), Mother - Karunamayee Biswas (করুণাময়ী বিশ্বাস). Where Jnananeda was also known as জ্ঞান গোঁসাই , meaning is supreem amoung the Sadhu in the locality with wisdom, knowledge, decision making in Sufi, Boul, Religious Practices in his community.
 
-Jnanendra has himself written lyrics on subject god within own body ( দেহতত্ত্ব ) also known  ( ভাব গান ) resembles the loves and teachings of Lord Krishna.
+Jnanendra has himself written lyricss on subject god within own body ( দেহতত্ত্ব ) also known  ( ভাব গান ) resembles the loves and teachings of Lord Krishna.
 
 Pijush is influenced by real deep root in bengali cultures preached over century and focus more on living of imaginery life in bengali khal (খাল), bil (বিল) .
 

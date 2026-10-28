@@ -70,7 +70,7 @@ Use these as living coordinates when they fit the source:
 
 ## Instruction
 
-- Write poetic prose, no lyrics or rhymes
+- Write poetic prose, no lyricss or rhymes
 - If language not provided, Assume bengali. Write text in Bengali. 
 - Always start with dramatically with multi-textured statement which drives to the next.
 - Seek attention - continuity not important here. Human life expeience matters.

@@ -18,7 +18,7 @@ The system is split into two layers:
 ```
 writer/
 ├── .framework/              # the engine
-│   ├── workflows/           # pipeline.md — the single orchestration spec for /book
+│   ├── workflows/           # book.md + backlog.md + pipeline.md — the /book specs
 │   ├── agents/              # role agents (scaffold, research, theme, enrich, write, publish, …)
 │   ├── skills/              # form-specific skills (layout-poetry, layout-novel, workshop-*, …)
 │   ├── rules/               # shared rules
@@ -55,6 +55,11 @@ writer/
 /book <bookname> style [<style>]                                    # transform writer-stage chapters
 /book <bookname> translate <n>|all|continue <language>              # translate writer-stage chapters
 /book <bookname> poet|poetry|poem                                   # produce a single finished poem
+/book <bookname> lyrics <n>|<chapter> [<target_syllables>] [replace]    # modern Bengali song lyrics
+/book <bookname> limerick|limeric <n>|<chapter> [replace]          # 5-line AABBA limerick
+/book <bookname> haiku <n>|<chapter> [replace]                     # 5-7-5 akshar haiku
+/book <bookname> line <chapter> sonnet [replace]                   # sonnet calibration (line agent)
+/book <bookname> rhyme <chapter> sonnet [<scheme>] [replace]       # sonnet composition (rhyme agent)
 /book <bookname> publish [<language>]                               # promote segments to workspaces/published
 /book <bookname> preview [<language>]                               # draft preview (skips quality gate)
 /book <bookname> form <formname>                                    # set/change the book's form
@@ -118,6 +123,11 @@ Each filter is a skill under `.framework/filters/<filter>/SKILL.md`, reached thr
 | `humanize` | Target-language-only polish (Bengali), post-review. |
 | `eval` | Read-only pipeline-completeness evaluator. |
 | `style` | Transform writer-stage chapters through a style template. |
+| `line` | Calibrate Bengali lines to a fixed akshar count (sonnet calibration; MCP). |
+| `rhyme` | Compose rhymed Bengali sonnets (rhyme bank + akshar via MCP). |
+| `lyrics` | Dispatch the modern Bengali song lyrics to `skills/lyrics`. |
+| `limerick` | Dispatch the 5-line AABBA Bengali limerick to `skills/limerick`. |
+| `haiku` | Dispatch the 5-7-5 akshar Bengali haiku to `skills/haiku`. |
 | `translate` | Translate writer-stage chapters. |
 | `publish` | Promote segments to `workspaces/published/` and assemble the book. |
 
@@ -135,6 +145,8 @@ Skills are invoked **only through an agent** — never directly. Form-specific s
 - `quality-poetry`, `quality-novel` — quality audit per form.
 - `theme-poetry`, `theme-novel` — thematic lens per form.
 - `enrich-poetry`, `enrich-novel` — fused enrichment per form.
+- `sonnet`, `limerick`, `haiku` — fixed-form Bengali poems (akshar-count via MCP).
+- `lyrics` — modern Bengali song lyrics (syllable-count via MCP; akshar does not apply).
 
 Reference filters live under `.framework/filters/reference/` (`poeticprose`, `narrative`, `dialogue`, `pacing`, `geography`, `history`, `indian`, `mythology`, `philosophy`, `contemporary`, `revision`, `translation`).
 
@@ -170,5 +182,5 @@ Reference filters live under `.framework/filters/reference/` (`poeticprose`, `na
 /book behula publish bengali                           # promote to workspaces/published
 ```
 
-See `AGENTS.md` for the runtime steering contract and `.framework/workflows/pipeline.md` for the full command specification.
+See `AGENTS.md` for the runtime steering contract, `.framework/workflows/book.md` for the command registry, and `.framework/workflows/pipeline.md` for the full pipeline specification — including *The Write Command*, which owns the four-task compose sequence (enrich → draft → transform → compose).
 

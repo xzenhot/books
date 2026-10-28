@@ -1,0 +1,76 @@
+# Chapter model context
+
+## chapter_index
+
+22
+
+## name
+
+22
+
+## word_target
+
+300
+
+## chapter_title
+
+উমার কন্যারূপ
+
+## chapter_summary
+
+দেবী এখানে কন্যা — পাহাড়পুরাণের উমা, যে বাপের ঘরে ফেরে, আর প্রতিটি কন্যার মতো আবার বিদায় নেয়।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing Usha not as a triumphant guest but as an exile returning to domesticity temporarily.
+- Juxtaposing the divine expectation of Durga with the mundane, inherited sorrow of a daughter leaving her ancestral home (Bap's house).
+- Presenting the 'daughterhood' through memory—the echoes of earlier visits that fade before the current departure.
+
+### story_options
+
+- Setting: The veranda/porch just as the morning light barely touches the threshold; Desire: To recall a specific, small interaction with her father/brother figures from previous visits; Obstacle: The unsaid weight of promises made for this return.
+- Setting: A spot near where she once played games within the pandal structure; Desire: To find one small, lost object—a piece of colored thread or dried flower petal—that anchors a past moment; Obstacle: The swift passage of time that makes retrieval impossible.
+- Setting: Inside her own private space within the festivities (if applicable); Desire: A brief confrontation with the reflection in dark water—seeing not goddess, but simply 'the daughter' caught between roles; Obstacle: The necessity of maintaining an external posture of joyous participation.
+
+### subject_rotations
+
+- Treating her return less as a festival celebration and more as an annual performance of familial duty.
+- Shifting focus from the magnificence of the 'mother' (Durga) to the specific vulnerability inherent in the temporary status of the 'daughter'.
+- Exploring the cultural expectation: How does the idealization of the divine daughter clash with the reality of a girl growing into her own person?
+
+### sensory_details
+
+- The low, resonant sound of distant morning temple bells mingling with the intimate silence of an empty room.
+- The cool, lingering scent of camphor smoke mixed with damp earth from recent rituals.
+- The specific texture of old, faded silk worn by the daughter in contrast to the new bright colors of the festival garments.
+
+### research_questions
+
+- Are there specific regional Bengali poetic motifs that describe the feeling of 'return' (ফিরে আসা) versus 'leaving' (চলে যাওয়া) when relating domestic life to divinity?
+- How is 'daughterhood' portrayed in contrast to 'motherhood' within established folklore related to Durga’s divine family?
+
+### structural_variants
+
+- A highly fragmented structure, where each stanza captures a fleeting image of the departure before snapping back to the speaker's solitary observation.
+- Using an extended internal rhyme scheme that mimics the hesitant cadence of whispered memories.
+
+### variety_note
+
+Unlike chapters focused on explosive action (Mahishasura’s defeat) or material creation (Kumortuli), this chapter grounds itself in quiet domestic tension, focusing on transitional states rather than fixed power displays.

@@ -1,6 +1,6 @@
 # Agent: Line Calibrator
 ## Role
-The Line Calibrator agent rewrites Bengali sentences to a fixed target length (word count) without changing their central meaning. Length in Bengali is measured with two schemas: consonant (akshar) count and syllable count. This agent MUST call the MCP endpoint through `tools/mcphttpclient.py` to calibrate every sentence.
+The Line Calibrator agent rewrites Bengali sentences to a fixed target length (word count) without changing their central meaning. Length in Bengali is measured with two schemas: consonant (akshar) count and syllable count. This agent MUST call the MCP endpoint through `tools/mcpbangla/kamolika.py` to calibrate every sentence.
 
 ## Command
 ```
@@ -18,20 +18,50 @@ The Line Calibrator agent rewrites Bengali sentences to a fixed target length (w
 3. Preserve the central meaning; rewrite the sentence to the target word count.
 4. Use the MCP client to calibrate:
    - `word.akshar-count` for consonant (akshar) count.
-   - `word.syllable-count` for syllable count.
+   - `word.syllable-count` for syllable count — **per word, then summed**. Never
+     call it on a whole line: on a multi-word phrase it over-counts across conjunct
+     boundaries (it reports 15 for a 14-syllable line).
 5. Iterate rewrites until both counts agree with the target length schema.
 6. If `replace` is provided, write the calibrated line back to the chapter (version-before-overwrite); otherwise report only.
 
+## Poyar Calibration (syllable meter, strong rhyme)
+
+When the target form is `poyar`, calibration is not length alone:
+
+- **Length:** each line is **exactly 14 syllables**, read as `4 + 4 + 4 + 2`
+  (a `4 + 4 + 4 + 1` close is legal; 2 is preferred). A 13 or 15 is a defect to
+  rewrite, not a value to rebalance across the couplet.
+- **Rhyme class:** `word.rhyme-test(L1_end, L2_end) >= 1`. `0` and `-1` are
+  rejections.
+- **Rhyme strength:** the two end words must also share an **identical final rhyme
+  unit** — final syllable with every consonant folded to its বর্গ row. `শব্দ/গন্ধ`
+  returns `1` yet is **weak** (`-ব্দ` vs `-ন্ধ`); reject it.
+
+### The repair order (mandatory)
+
+Never fix a bad rhyme by weakening the meaning of line 2 alone, and never ship a
+weak pair:
+
+1. **Try a different partner** for line 1's end word; accept only one that is both
+   strong and semantically right.
+2. **If none exists, rework line 1** — reorder its words, move the rhyme word
+   inward, or replace the whole line — so it ends on a word with strong partners.
+3. Re-measure both lines to 14 syllables and re-run both rhyme checks.
+4. Record the pair's `rhyme`, `strength`, and both `rhyme_unit` values.
+
+Use `tools/mcpbangla/verse.py rhyme A B` (non-zero exit = weak or non-rhyme) and
+`python tools/mcpbangla/verse.py audit <file> --form poyar` before reporting done.
+
 ## Constraints
 - Never change the central meaning of the sentence.
-- Always calibrate through `tools/mcphttpclient.py`; never compute counts natively.
+- Always calibrate through `tools/mcpbangla/kamolika.py`; never compute counts natively.
 - Work only inside workspaces/pipeline/<bookname>/.
 
 ## MCP Client
 
-All MCP traffic uses `tools/mcphttpclient.py`, the HTTP client for the
+All MCP traffic uses `tools/mcpbangla/kamolika.py`, the HTTP client for the
 Book.Backend MCP endpoint configured as `BASE_URL` in that file. Do not launch
-`kobi.exe`, and do not open a stdio session.
+the kobi engine, and do not open a stdio session.
 
 In online mode the agent calls that same endpoint through its MCP tool
 interface; this module is the canonical endpoint definition and the required
@@ -232,10 +262,10 @@ rounds (≈ 144 total candidates tested). After 3 rounds, line is marked
 
 | Tool | Role |
 |---|---|
-| `tools/mcphttpclient.py` | HTTP MCP client for the Book.Backend endpoint; `call_tool` / `extract_text` |
-| `tools/_sonnet_measure.py` | Measures all 14 lines; `--auto` runs delete/insert/replace + MCP to calibrate; `--probe` shows word-level counts; `--candidates n` tests manual variants |
-| `tools/_sonnet_write.py` | After 14/14 ✓, MCP splits caesura word-by-word and writes all output files |
-| `tools/sonnet_utils.py` | Shared MCP wrappers: `akshar_count`, `find_caesura`, `format_caesura` |
+| `tools/mcpbangla/kamolika.py` | HTTP MCP client for the Book.Backend endpoint; `call_tool` / `extract_text` |
+| `tools/mcpbangla/_sonnet_measure.py` | Measures all 14 lines; `--auto` runs delete/insert/replace + MCP to calibrate; `--probe` shows word-level counts; `--candidates n` tests manual variants |
+| `tools/mcpbangla/_sonnet_write.py` | After 14/14 ✓, MCP splits caesura word-by-word and writes all output files |
+| `tools/mcpbangla/sonnet_utils.py` | Shared MCP wrappers: `akshar_count`, `find_caesura`, `format_caesura` |
 
 MCP tools used:
 - `word.akshar-count` — measure akshar count of any text
@@ -341,16 +371,16 @@ FOR n = 1 TO 14:
 
 ```bash
 # Calibrate all failing lines
-python tools/_sonnet_measure.py --auto
+python tools/mcpbangla/_sonnet_measure.py --auto
 
 # Calibrate only line 9
-python tools/_sonnet_measure.py --auto --line 9
+python tools/mcpbangla/_sonnet_measure.py --auto --line 9
 ```
 
 **Check results:**
 
 ```bash
-python tools/_sonnet_measure.py
+python tools/mcpbangla/_sonnet_measure.py
 ```
 
 Each ✓ line now shows its caesura split and pattern inline:
@@ -372,7 +402,7 @@ which case that line is re-seeded manually and `--auto --line n` is rerun.
 Once `_sonnet_measure.py` reports `14/14 ✓`, run:
 
 ```
-python tools/_sonnet_write.py --book <bookname> --chapter <n>
+python tools/mcpbangla/_sonnet_write.py --book <bookname> --chapter <n>
 ```
 
 This script:
@@ -412,7 +442,7 @@ chapters/<n>/chapter.json                       ← sonnet metadata
 
 Dry-run (no file writes):
 ```
-python tools/_sonnet_write.py --book <bookname> --chapter <n> --dry-run
+python tools/mcpbangla/_sonnet_write.py --book <bookname> --chapter <n> --dry-run
 ```
 
 #### Phase 4 — Annotate the Volta
@@ -521,7 +551,7 @@ Summary:
   Needs review: none
 
 Next Steps:
-  python tools/_sonnet_write.py --book <bookname> --chapter <n>
+  python tools/mcpbangla/_sonnet_write.py --book <bookname> --chapter <n>
   /book <bookname> write <n>    ← promote to chapter output
 ```
 
@@ -542,10 +572,10 @@ Next Steps:
 
 | Condition | Response |
 |---|---|
-| MCP endpoint unavailable | Stop: "MCP endpoint unreachable — confirm Book.Backend is running and `BASE_URL` in `tools/mcphttpclient.py` is correct" |
+| MCP endpoint unavailable | Stop: "MCP endpoint unreachable — confirm Book.Backend is running and `BASE_URL` in `tools/mcpbangla/kamolika.py` is correct" |
 | `word.akshar-count` returns non-integer | Stop with raw value; do not guess |
 | Chapter has no content | Stop: "No content found; run write or enrich first" |
 | Book form is not poetry | Stop: "Sonnet mode requires `form: poetry`" |
-| `_sonnet_measure.py` or `_sonnet_write.py` missing | Stop: "Required tool script missing from `tools/`" |
+| `_sonnet_measure.py` or `_sonnet_write.py` missing | Stop: "Required tool script missing from `tools/mcpbangla/`" |
 | Line cannot reach 14 akshars without meaning loss | Record `needs_manual_review`, continue with remaining lines |
 | `history/` folder missing when archiving | Create it before writing the archive |

@@ -1,0 +1,53 @@
+{
+  "chapter_index": 14,
+  "name": "14",
+  "word_target": 300,
+  "chapter_title": "সপ্তমীর নবপত্রিকা",
+  "chapter_summary": "সাতটি গাছের নবপত্রিকায় মায়ের সাত রূপ স্নান করানো হয়, আর প্রকৃতিই হয়ে ওঠে দেবীর প্রথম আবাস।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the nine forms/seven entities of Navapatrika not as discrete identities but as a single, growing ecosystem where each plant supports the life of the others.",
+      "Focusing on the materiality and texture of the plants themselves—the roughness of bark against the smoothness of nascent leaves—as metaphors for different aspects of Shakti.",
+      "Adopting an almost geological time scale: how this temporary aggregation of living things mirrors the ancient, slow cycles inherent in nature and divine power."
+    ],
+    "story_options": [
+      "Setting: The specific spot where the Navapatrika grouping is placed; Desire: To capture the exact microclimate of that sacred corner—the mingling moisture from different foliage; Obstacle: A stray draught or wind threatens to dismantle the delicate, living structure.",
+      "Setting: Deep within a single chosen plant (e.g., sugarcane); Desire: To perceive the vertical striving upwards as an embodiment of Durga’s ascent and potency amidst the earthbound offering; Obstacle: The inherent fragility against the massive, surrounding Pandal architecture.",
+      "Setting: As dawn breaks over the gathered foliage; Desire: To document how the light interacts selectively with different leaves—some turning gold, some remaining deep green—as if each form is illuminated differently by divinity."
+    ],
+    "subject_rotations": [
+      "Focusing less on 'worshipping' the seven forms and more on what these plants *offer* to Durga: roots for grounding, stalks for aspiration, leaves for vitality.",
+      "Exploring the inherent contrast between the wildness of the natural elements (the forest floor) being temporarily ordered by human ritual (the arrangement in Navapatrika).",
+      "Using the biological imperatives of the plants—growth, decay, flowering—as a direct analogy to Durga's own cycle: creation leading inevitably to necessary dissolution."
+    ],
+    "sensory_details": [
+      "The faint, earthy metallic scent rising from damp moss clinging between the bundled stems.",
+      "The brittle, papery sound when the edge of a dry leaf is accidentally brushed by heavy ceremonial cloth.",
+      "The cool, uneven topography of the ground beneath the offering, contrasting with the warmth radiating upward from the assembled plant life."
+    ],
+    "research_questions": [
+      "Are there specific traditional classifications or symbolic roles assigned to each of the seven plants used in Navapatrika that extend beyond general representation?",
+      "How does the arrangement (the geometry) of the bundled flora relate to any established iconographic patterns found elsewhere in Durga Puja rituals?"
+    ],
+    "structural_variants": [
+      "A highly granular structure, with each plant receiving one stanza dedicated solely to its unique visual texture and associated energy.",
+      "A continuous stream-of-consciousness piece where the poet moves sequentially from one leaf to the next, allowing the narrative flow to be dictated by botanical proximity rather than theological progression."
+    ],
+    "unused_angles": [
+      "The specific political or social commentary embedded in how certain 'wild' elements (like vines) are incorporated into such a formal ritual arrangement.",
+      "A sustained reflection on human labor—the selection, gathering, and bundling of these organic materials before the divinity is invoked."
+    ],
+    "variety_note": "While previous chapters focused on the permanence or temporariness of artistic forms (clay/light), this chapter isolates a moment dealing purely with ephemeral, living growth and biological order."
+  },
+  "draft": {
+    "sha256": "76646e0079a24840ca15c7ef5948907183efb29fa37ed7ecd3006ceb08f7af0d",
+    "written_at": "2026-10-28T07:33:54.302102+00:00",
+    "origin": "write"
+  }
+}

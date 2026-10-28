@@ -34,7 +34,7 @@ Here is how text-based poetry evolved across these five major movements:
 📊 Shift in Style: A Quick Look
 
 Movement	Text Structure	Primary Subject Matter
-Confessionalism	Free verse, highly lyrical	Private trauma and taboo psychology
+Confessionalism	Free verse, highly lyricsal	Private trauma and taboo psychology
 Language Poetry	Broken, fragmented syntax	The mechanics of grammar and words
 New Formalism	Strict rhyme and meter	Modern life inside ancient frames
 Spoken Word	Rhythmic, phonetic, punchy	Social justice and identity

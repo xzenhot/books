@@ -163,7 +163,7 @@ scaffolded
 
 ### subject_rotations
 
-- A lyrical deconstruction of the elemental components themselves—the density of oil, the crystalline structure of salt, the heat memory of ash.
+- A lyricsal deconstruction of the elemental components themselves—the density of oil, the crystalline structure of salt, the heat memory of ash.
 - Shifting the focus from 'want' to the ritualistic performance of subsistence—how the acquisition becomes a ceremony that reinforces social bonds or isolation.
 - Using the ingredients as metaphors for moral compromises: is every small survival act (like haggling over one scoop of salt) a miniature ethical failure?
 

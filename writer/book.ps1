@@ -137,8 +137,9 @@ $WriteAliases = @('chapter', 'story')
 #  - eval         -> tools/verify_pipeline.py (read-only)
 $ConfigVerbs = @('form', 'config')
 
-# Agentic-only commands (no standalone Python CLI): filter, style, translate, poet/poetry/poem.
-$AgenticVerbs = @('filter', 'style', 'translate', 'poet', 'poetry', 'poem', 'line')
+# Agentic-only commands (no standalone Python CLI): filter, style, translate,
+# poet/poetry/poem, and the fixed-form poetry verbs (line, rhyme, lyrics, limerick, haiku).
+$AgenticVerbs = @('filter', 'style', 'translate', 'poet', 'poetry', 'poem', 'line', 'rhyme', 'lyrics', 'limerick', 'limeric', 'haiku')
 
 # Read-only commands.
 $ReadOnlyFlags = @('-o', '--options', 'list', '-h', '--help', 'help')
@@ -174,6 +175,11 @@ Pipeline (owned by pipeline.md):
   <bookname> form <novel|poetry>
   <bookname> config [<key> [<value>]]
   <bookname> poet|poetry|poem
+  <bookname> lyrics <n>|<chapter> [<target_syllables>] [replace]
+  <bookname> limerick|limeric <n>|<chapter> [replace]
+  <bookname> haiku <n>|<chapter> [replace]
+  <bookname> line <chapter> sonnet [replace]
+  <bookname> rhyme <chapter> sonnet [<scheme>] [replace]
   <bookname> workshop chapter <n|range|*> update summary|character|reference|update|expand
 
 Read-only (owned by pipeline.md / eval-judge.md):
@@ -354,8 +360,13 @@ switch ($verb) {
         Write-Host "  style     -> .framework/agents/style/agent.md"
         Write-Host "  translate -> .framework/agents/translate/agent.md"
         Write-Host "  poet      -> .framework/agents/write/agent.md (single finished poem)"
-        if ($agent -eq 'line') {
-            Write-Host "  line      -> .framework/agents/line/agent.md (kobi.exe MCP client)" -ForegroundColor Cyan
+        switch ($agent) {
+            'line'      { Write-Host "  line      -> .framework/agents/line/agent.md -> .framework/skills/sonnet/SKILL.md (calibration)" -ForegroundColor Cyan }
+            'rhyme'     { Write-Host "  rhyme     -> .framework/agents/rhyme/agent.md -> .framework/skills/sonnet/SKILL.md (composition)" -ForegroundColor Cyan }
+            'lyrics'     { Write-Host "  lyrics     -> .framework/agents/lyrics/agent.md -> .framework/skills/lyrics/SKILL.md" -ForegroundColor Cyan }
+            'limerick'  { Write-Host "  limerick  -> .framework/agents/limerick/agent.md -> .framework/skills/limerick/SKILL.md" -ForegroundColor Cyan }
+            'limeric'   { Write-Host "  limeric   -> alias of limerick" -ForegroundColor Cyan }
+            'haiku'     { Write-Host "  haiku     -> .framework/agents/haiku/agent.md -> .framework/skills/haiku/SKILL.md" -ForegroundColor Cyan }
         }
     }
     default {

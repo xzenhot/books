@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+3
+
+## name
+
+3
+
+## word_target
+
+300
+
+## chapter_title
+
+কাশফুলের নিঃশ্বাস
+
+## chapter_summary
+
+নদীর ধারে কাশফুল দুলে ওঠে বাতাসে, আর সেই দোলায় লুকিয়ে থাকে মায়ের আসার পথের ইশারা।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the movement of the Kashful not as a greeting, but as an involuntary biological spasm in response to the atmospheric pressure change preceding the larger event.
+- Adopting the perspective of the riverbank itself—the ancient earth feeling the vibration through the reeds and stalks before any human sound is made.
+- Treating the 'breath' (নিঃশ্বাস) not as a sigh of hope, but as the labored intake required by the plant to support its sheer verticality against an unseen force.
+
+### story_options
+
+- Setting: The water's edge where the Kashful meets the slow current. Desire: To map the precise sound frequency created when stalks rub together in a specific breeze. Obstacle: The weight of accumulated silt at the base, anchoring the movement.
+- Setting: A quiet corner near an old banyan tree overgrown with reeds. Desire: To find one stalk that refuses to bend, holding its rigid defiance against the seasonal shift. Obstacle: Nearby insects buzzing too loudly, drowning out the subtle rhythm.
+- Setting: The highest point of a cluster of Kashful stalks reaching into the pale morning sky. Desire: To feel the chill air against the most exposed leaf tip while simultaneously sensing the coming heat wave/change in humidity. Obstacle: A sudden, localized pocket of stillness where all motion ceases.
+
+### subject_rotations
+
+- Shifting from Kashful as a 'sign' (as implied by neighbours) to Kashful as an independent, melancholic entity whose movement simply *is*, indifferent to the human narrative.
+- Examining the structural rigidity of the stalk versus its ephemeral crown; exploring the tension between durable form and transient bloom.
+- Focusing on the soundscape created by the dry stalks—the friction against each other—rather than their visual oscillation, treating it as percussion.
+
+### sensory_details
+
+- The sharp, mineral tang of damp river mud kicked up slightly by the swaying movement near the waterline.
+- The abrasive whisper of dried stalk fibers rubbing together during the softest part of the wind. (Sound)
+- The cool, slick film of early morning mist clinging specifically to the underside of the white petals.
+
+### research_questions
+
+- How can I describe the specific physics or organic mechanism that causes a mass of tall, dry grasses to create an audible sound when moved by subtle air currents?
+
+### structural_variants
+
+- A highly fragmented poem, where each line represents the movement of one single stalk at a different point in time/intensity.
+- Building the entire piece around an extended metaphor comparing the Kashful’s resilience to a human endurance ritual.
+- Starting mid-sway—a sudden burst of motion observed retrospectively by the speaker.
+
+### unused_angles
+
+- The specific relationship between shadow play cast by the Kashful onto the water's surface, treating it as a momentary mirror to distant human activity.
+- The historical connotation of wild grasses in Bengali rural life versus their role here as a divine messenger.
+
+### variety_note
+
+Unlike its neighbors which focus on light or scent (Shiuli), this chapter centers entirely on subtle kinetic energy, sound, and the organic mechanics of the tall grass structure along the water's edge.

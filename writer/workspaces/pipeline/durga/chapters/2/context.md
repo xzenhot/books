@@ -1,0 +1,80 @@
+# Chapter model context
+
+## chapter_index
+
+2
+
+## name
+
+2
+
+## word_target
+
+300
+
+## chapter_title
+
+শিউলির সাদা চিঠি
+
+## chapter_summary
+
+শরতের শিউলি ঝরে পড়ে সিঁড়ির গায়ে — যেন মা এসেছেন, তার আগমনীর সাদা চিঠি লিখে রেখে গেছেন।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the falling Shiuli petals not as a gentle harbinger, but as a frantic, hurried communication—a coded message of impending arrival.
+- Framing the 'white letter' metaphor around tactile memory: the feeling of dry, papery decay versus the freshness of the bloom itself.
+- A perspective where the speaker is entirely detached from human anticipation; instead, observing the Shiuli as a biological process responding to atmospheric pressure changes.
+
+### story_options
+
+- Setting: A narrow alleyway shaded by a balcony. Desire: To catch one perfect petal before it hits the dust. Obstacle: The wind catches it and scatters its message across neighboring roofs, rendering it illegible.
+- Setting: Near a stone step where early morning dew lingers. Desire: To trace the trajectory of a single petal from its point of fall to its resting place. Obstacle: A passing animal or human foot disrupts the clean path, scattering the sequence of petals.
+- Setting: At an open window facing south-east. Desire: To collect all fallen blooms in a specific vessel before the sun gains real heat. Obstacle: The memory of last year's arrival feels heavier than this year’s promise, overshadowing the white message.
+
+### subject_rotations
+
+- Shifting focus from 'arrival' to 'departure': Viewing the falling Shiuli as a pre-emptive acknowledgement of future farewell.
+- Analyzing the color spectrum: Deconstructing 'white'—is it pure, or is it tinged with faint yellowing decay and shadowed grey?
+- The contrast between ephemeral beauty (the bloom) and enduring pattern (the inherent cycle written by the petal fall).
+
+### sensory_details
+
+- The dry, brittle rustle of a thousand petals as they settle on unvarnished wood.
+- A faint, milky-sweet perfume mixed with the sharp scent of cold morning stone.
+- The visual impression of shadow pooling *beneath* the pile of petals, creating momentary pockets of absolute blackness.
+
+### research_questions
+
+- How can I depict the physical mechanism of a petal detaching from the branch—is it gravity overcoming adhesion, or some internal systemic trigger?
+
+### structural_variants
+
+- A piece structured as an interrupted poem: four stanzas discussing 'arrival', followed by a break in meter/tone that shifts the focus entirely to the *materiality* of the falling petals, before returning to a fractured sense of promise.
+
+### unused_angles
+
+- The inherent conflict between the beauty of the decay and the perceived purity of the bloom.
+- Treating the Shiuli not as a passive symbol but as an active agent in guiding the human ritualistic mindset.
+- A very brief, sharp focus on the *mechanism* of memory retrieval—how one petal unlocks the entire year's cycle.
+
+### variety_note
+
+While Chapter 1 focused on the onset of light and silence, this chapter grounds that anticipation in a specific, highly delicate organic action: the shedding of bloom against structures.

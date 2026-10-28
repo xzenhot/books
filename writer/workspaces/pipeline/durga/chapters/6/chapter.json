@@ -1,0 +1,114 @@
+{
+  "chapter_index": 6,
+  "name": "6",
+  "word_target": 300,
+  "chapter_title": "মায়ের ফেরার অপেক্ষা",
+  "chapter_summary": "মেয়ে বারবার দরজার দিকে তাকায় — মা কি এবার সত্যিই ফিরবে? অপেক্ষার প্রতিটি মুহূর্ত একটি প্রার্থনা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the wait not as passive hope, but as an active, almost anxious labor—the internal maintenance of ritual faith against encroaching mundane fatigue.",
+      "Adopting the perspective of a single object within the waiting space (e.g., a hanging prayer flag, a wooden chair) whose unchanging presence forces the contemplation of time's distortion.",
+      "Treating the cyclical nature of the wait itself as mythological—the speaker is trapped in the earthly recursion mirroring Durga’s own descent and ascent."
+    ],
+    "story_options": [
+      "setting: The dimly lit entryway, where dust motes hang suspended in a single shaft of late afternoon sun., desire: To catch the precise quality of air—the scent mixing earthiness from outside with faint domestic incense inside., obstacle: A sudden, sharp sound from the street (a distant horn or a specific vendor's call) that momentarily fractures the focused stillness.",
+      "setting: Beside an unlit clay lamp intended for arrival, waiting on a low shelf., desire: To feel the potential heat and promise of the flame—the memory of fire resisting the current dampness., obstacle: The realization that the darkness outside is not temporary twilight, but the deep, impenetrable night itself.",
+      "setting: A shared space where neighbors are quietly observing from a distance (a single window visible)., desire: To articulate the silent, non-verbal pact between expectant families that binds the entire locality in this ritual suspense., obstacle: The fear of being seen—the terror that outward appearance might betray the depth or weakness of one's private devotion."
+    ],
+    "subject_rotations": [
+      "Shifting from 'waiting for arrival' to 'waiting *in* transition,' treating the suspended time as a liminal space where definitions of self and divinity blur.",
+      "Focusing on the physical toll of continuous hope—the small, repetitive aches in joints or eyes caused by sleepless anticipation rather than grand emotional outpouring.",
+      "Interrogating the nature of 'return' itself: is Durga returning to fulfill an ancient duty, or to fulfill a human need for cosmic order?"
+    ],
+    "sensory_details": [
+      "The slightly sticky residue on brass surfaces from countless previous rituals that remain untouched by the current lack of ceremony.",
+      "A specific, almost inaudible hum resonating in wooden floorboards as temperature shifts between day and night.",
+      "The sight of fingernails catching a minuscule amount of dirt or pollen gathered during an earlier, fruitless moment of looking out."
+    ],
+    "research_questions": [
+      "How can the poem structurally manifest the volta mentioned in the brief—a pivot point where memory overrides immediate perception without narrative description?"
+    ],
+    "structural_variants": [
+      "A tightly compressed stanzaic structure, each line representing a different minute of observation, building cumulative tension.",
+      "An extended rhetorical question that begins small and gradually expands its scope until it touches upon the entire cosmic cycle described in the gist."
+    ],
+    "unused_angles": [
+      "Exploring the specific sound profile of silence in this particular locale—how deep is the quiet when all expectation has momentarily dropped away?",
+      "A meditation on the mechanics of 'hope' as a biological, almost compulsive necessity for human continuation.",
+      "How does the concept of *delay* itself become a form of divine testing?"
+    ],
+    "variety_note": "This chapter must shift focus entirely from external expectation (the sign of arrival) to internal psychic landscape, using stillness and minimal action as its primary engine, unlike chapters focusing on movement or sound."
+  },
+  "draft": {
+    "sha256": "d3d9a55589a23e546b2d0cbb063e14fe8b9db79e93d136d5321263481007a275",
+    "written_at": "2026-10-28T10:10:21.569414+00:00",
+    "origin": "write"
+  },
+  "form_skill": "poyar",
+  "stanza_form": "couplet",
+  "stanza_count": 4,
+  "rhyme_scheme": "AA",
+  "rhyme_scheme_note": "each two-line couplet is self-contained; L1 rhymes L2",
+  "calibration_method": "agent_composed_mcp_verified",
+  "mcp_verification": {
+    "akshar_tool": "word.akshar-count",
+    "rhyme_tool": "word.rhyme-test",
+    "couplets": [
+      {
+        "couplet": 1,
+        "L1_end": "যাওয়া",
+        "L2_end": "দেওয়া",
+        "rhyme": "2",
+        "L1_akshar": 14,
+        "L2_akshar": 14
+      },
+      {
+        "couplet": 2,
+        "L1_end": "আশা",
+        "L2_end": "ভাষা",
+        "rhyme": "1",
+        "L1_akshar": 14,
+        "L2_akshar": 14
+      },
+      {
+        "couplet": 3,
+        "L1_end": "আমরা",
+        "L2_end": "তারা",
+        "rhyme": "1",
+        "L1_akshar": 14,
+        "L2_akshar": 14
+      },
+      {
+        "couplet": 4,
+        "L1_end": "চোখ",
+        "L2_end": "শোক",
+        "rhyme": "1",
+        "L1_akshar": 14,
+        "L2_akshar": 14
+      }
+    ],
+    "couplets_verified": 4,
+    "all_rhymes_verified": true,
+    "min_akshar": 14,
+    "all_lines_at_or_above_floor": true
+  },
+  "form": "couplet_poem",
+  "akshar_target": 14,
+  "akshar_floor": 14,
+  "akshar_counts": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ]
+}

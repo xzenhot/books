@@ -1,0 +1,96 @@
+# Chapter model context
+
+## chapter_index
+
+17
+
+## name
+
+17
+
+## word_target
+
+300
+
+## chapter_title
+
+দশমীর প্রভাত
+
+## chapter_summary
+
+দশমীর ভোরে শেষ অঞ্জলির প্রস্তুতি — বিদায়ের আগে মায়ের কাছে জমা পড়ে বছরের সমস্ত প্রার্থনা।
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+The specific cultural weight of 'Absence' (অনুপস্থিতি) in Bengal’s devotional poetry.
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the 'prabhat' (morning) not as a new beginning, but as the fragile, deceptive calm preceding utter collapse—the silence of things paused before dissolution.
+- Shifting focus from the act of offering to the *weight* and *gravity* of those unspoken prayers; treating each prayer as a small, dense object about to be released into the great current of departure.
+- Employing the secondary twist heavily: The speaker is not simply preparing for the final offerings but speaking across an immense, unbridgeable void to a memory tied intimately to the Goddess's arrival.
+
+### story_options
+
+- Setting: The open veranda facing the river, just as the first pale light touches the mud-plastered idols; Desire: To capture the specific sound of the water shifting against the embankment in the early mist, anticipating the ritual frenzy to come; Obstacle: A single broken clay offering left forgotten by a hurried volunteer.
+- Setting: The inner sanctum (the core altar), where the preparations are most hushed and intensely private; Desire: To witness the intricate layering of flowers that must be perfect for this final presentation, despite the knowledge it is momentary; Obstacle: A specific, necessary element—like fresh vermillion or a particular type of camphor—is missing.
+- Setting: Amongst the discarded materials from earlier rites (leftover rice grains, wilted petals); Desire: To find resonance in these remnants, viewing them as the accumulated residue of all past blessings and failures; Obstacle: The speaker cannot reconcile the vibrant memory of yesterday’s celebration with this muted, preparatory morning.
+
+### subject_rotations
+
+- Treating the prayers not as requests for boons, but as a quiet accounting—a summation of debts owed by humanity to divine grace over the course of the year.
+- Focusing on the material evidence of devotion left behind: smeared earth from footsteps across the pandal floor, faint residue on hands, and wilting garland strands.
+- Interrogating the concept of 'waiting' itself—how does the collective tension of all thirty preceding chapters culminate in this specific morning stillness?
+
+### sensory_details
+
+- The scent of damp earth mingling with stale incense smoke lingering from the previous evening’s lamps.
+- The cool, slick feel of newly polished bronze implements used for final rites, contrasting sharply with rough cotton cloth.
+- The sound of a single, distant bird call cutting unnervingly through the ritualized morning quiet.
+
+### research_questions
+
+- What is the precise local tradition regarding the placement or significance of the *final* offering made on Dashami morning? (If this chapter were to anchor a specific rite.)
+- How does the Bengali vocabulary related to 'morning light' (*prabhat*) differ contextually when describing a spiritual awakening versus a natural dawn, and how can that nuanced difference be evoked?
+- Are there documented variations in the prescribed rituals for the very last *anjali* before immersion, distinct from those mentioned earlier?
+
+### structural_variants
+
+- A structure built on cascading fragments: one short stanza per item of preparation (flower, lamp, bell, water), building toward a final, unanswered address.
+- An inverted chronological approach: beginning with the memory of yesterday’s zenith and using that intensity as fuel to power the muted actions of this morning.
+- A deliberate use of negative space; large stanzas containing minimal action, where the breath between lines carries the weight of unsaid vows.
+
+### unused_angles
+
+- The logistics of dismantling the pandal after immersion—the labor and necessary disrespect involved in transforming divine presence back into mundane materials.
+- Exploring the relationship between the specific shade of pre-dawn blue sky and how it symbolically mirrors Durga’s shifting emotional state (from fierce to maternal).
+- A sustained focus on a single, small object that was intended for final worship but is now relegated to being forgotten or discarded.
+
+### variety_note
+
+This chapter pivots away from the grand spectacle of ritual invocation seen in previous poems, focusing instead on the incredibly pressurized quiet before dissolution and addressing an absent presence to deepen thematic resonance.

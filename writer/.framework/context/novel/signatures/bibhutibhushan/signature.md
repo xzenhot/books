@@ -1,6 +1,6 @@
 # Signature: Bibhutibhushan Bandyopadhyay
 
-Use this signature when a chapter should feel lyrical, nature-saturated, and quietly transcendent — the voice of *Pather Panchali*, where the forest, the river, and the poor child's wonder hold the whole of existence.
+Use this signature when a chapter should feel lyricsal, nature-saturated, and quietly transcendent — the voice of *Pather Panchali*, where the forest, the river, and the poor child's wonder hold the whole of existence.
 
 ## Core Movement
 
@@ -19,7 +19,7 @@ Use this signature when a chapter should feel lyrical, nature-saturated, and qui
 
 ## Diction
 
-Use simple, lyrical, image-rich Bengali that moves with the rhythm of the land. The tone is tender, reverent, and quietly mystical. Render recurring terms in the configured target language.
+Use simple, lyricsal, image-rich Bengali that moves with the rhythm of the land. The tone is tender, reverent, and quietly mystical. Render recurring terms in the configured target language.
 
 ## Pattern
 

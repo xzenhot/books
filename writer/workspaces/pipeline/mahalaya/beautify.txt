@@ -19,7 +19,7 @@
 
 ---
 
-## সমৃদ্ধ নির্দেশনা (Enriched Lyrics-Beautification Directives)
+## সমৃদ্ধ নির্দেশনা (Enriched lyricss-Beautification Directives)
 
 উপরের ১–১০ নিয়ম অক্ষরে অক্ষরে মানতে হবে।
 

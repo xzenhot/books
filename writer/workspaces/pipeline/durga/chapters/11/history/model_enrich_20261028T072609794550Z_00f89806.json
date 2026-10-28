@@ -1,0 +1,50 @@
+{
+  "chapter_index": 11,
+  "name": "11",
+  "word_target": 300,
+  "chapter_title": "মায়ের মুখের রূপ",
+  "chapter_summary": "মাটির মুখে রঙের পরত পড়ে, আর শিল্পীর কল্পনায় ফুটে ওঠে মায়ের শান্ত, করুণাময় চেহারা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "enriched",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rabindrasangeet",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 7,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Sufism",
+        "description": "longing and union as one pole, the wound that opens into light"
+      },
+      "writing_skills": [
+        "ecstatic_lift",
+        "divine_presence_imagery"
+      ],
+      "image_seed": "তুলির শেষ টান আর চোখের পলক",
+      "volta": "রঙের মায়া কেটে যখন প্রাণ জাগে",
+      "sonic_texture": "soft sibilance and rhythmic repetition of 'মা'",
+      "line_gesture": "flowing lines that mirror the curves of the face",
+      "variety_note": "Focuses on the transition from clay/pigment to divine presence"
+    }
+  },
+  "form_skill": "lyrics"
+}

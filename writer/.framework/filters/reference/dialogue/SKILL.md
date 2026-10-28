@@ -20,7 +20,7 @@ Give each archetype a recognizable register:
 - **King / ruler** — gravity, measured cadence, the royal "we", commands that sound like pronouncements.
 - **Minister / diplomat** — indirection, hedging, conditional clauses, words that commit to nothing.
 - **General / soldier** — clipped, imperative, war-fever, concrete and physical.
-- **Poet / mystic** — lyricism, metaphor, rhythm, questions that turn inward.
+- **Poet / mystic** — lyricsism, metaphor, rhythm, questions that turn inward.
 - **Commoner / servant** — simplicity, concrete objects, deference or bluntness, dialect flavor.
 
 ## Techniques

@@ -1,4 +1,4 @@
-# Stereotype: Jibanananda-Inflected Lyric Prose
+# Stereotype: Jibanananda-Inflected lyrics Prose
 
 Use this stereotype when a chapter should feel twilight-toned, solitary, sensuous, memory-rich, and quietly haunted.
 

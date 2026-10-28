@@ -1,0 +1,55 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 300,
+  "chapter_title": "শক্তির রূপ",
+  "chapter_summary": "দশভুজা দেবীর দশ হাতে দশ অস্ত্র — প্রতিটি হাত একটি রক্ষার প্রতিশ্রুতি, একটি অন্যায়ের উত্তর।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the *weight* of each weapon—not their power, but their physical presence in Durga's grip: the cool heft of the trident versus the smooth curve of the lotus.",
+      "Treating the ten hands as a fractured mirror of human capability; each hand representing a different necessary facet of strength (intellect, compassion, war-rage, patience).",
+      "Using repetition not for devotional mantra, but to build an overwhelming sense of *function*—the cataloging and deployment rhythm of defensive action rather than divine grace."
+    ],
+    "story_options": [
+      "setting: The immediate space around the Goddess's torso, desire: To map the choreography between the ten weapons as they move in a single, terrifying arc against shadow forces., obstacle: The immense, necessary silence before the final blow—the point of maximal tension where sound is impossible.",
+      "setting: A close-up view of one specific weapon (e.g., the Chakra), desire: To trace its perfect symmetry and purpose against a background of smeared clay and ritual color., obstacle: The inability to voice the necessity of that violence; the language failing where action begins.",
+      "setting: Looking out from the Pandal, focusing on the reflection in polished bronze implements held by the Goddess, desire: To see not the deity, but a fragmented vision of the devotee observing her—a momentary collapse of divine focus into human mirroring., obstacle: The intrusion of the mundane world (the distant sound of the city/neighbors) breaking the consecrated ritual moment."
+    ],
+    "subject_rotations": [
+      "Shifting from 'Power' to 'Responsibility': Viewing each weapon as a burden that must be held perfectly still and correctly aimed, rather than merely being an asset.",
+      "Focusing on the *potential* energy: The moments before impact—the taught sinews of Durga's arm, the suspended motion of light striking metal.",
+      "Treating the arms not as tools for fighting outsiders (Mahishasura), but as stabilizers holding together the disparate elements of cosmic order."
+    ],
+    "sensory_details": [
+      "The grit and dust coating the hilt of a secondary weapon, contrasted with the polished sheen of its edge.",
+      "The low, resonant thrumming felt through the earth beneath the pandal platform when Durga assumes her full martial stance.",
+      "A brief flash of searing heat rising from where the divine energy emanates around the Goddess's figure."
+    ],
+    "research_questions": [
+      "Is there any codified poetic tradition in Bengali literature that uses rhythmic repetition specifically to represent overwhelming, functional force rather than melodic devotion?",
+      "How is the concept of 'restrained violence' articulated in contemporary Bengali metaphorical language? (Beyond explicit action)",
+      "What specific linguistic texture distinguishes divine resolve from sheer human anger within this thematic scope?"
+    ],
+    "structural_variants": [
+      "An opening sequence built entirely around a short, cyclical phrase repeated ten times before any descriptive narrative begins.",
+      "A structure that alternates between rapid-fire descriptions of the weapons (stanzas 1-5) and vast stretches of profound silence/internal reflection on their meaning (stanzas 6-end).",
+      "A piece constructed like an anatomical diagram, with each strophe isolating one limb/weapon and describing its relationship to the central body."
+    ],
+    "unused_angles": [
+      "How the act of holding these disparate elements together creates a momentary stillness in time itself.",
+      "The theological implication of having ten 'I's' operating simultaneously within one divine consciousness."
+    ],
+    "variety_note": "While previous chapters focused on anticipation (arrival) or aftermath (war conclusion), this chapter must immerse the reader entirely within the kinetic, suspended moment of active, controlled power."
+  },
+  "draft": {
+    "sha256": "20d0d94afecf9ee50e4ee5a61fa0616b19d024165a5800ba98f9eea5e1397157",
+    "written_at": "2026-10-28T07:34:59.669463+00:00",
+    "origin": "write"
+  }
+}

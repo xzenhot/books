@@ -65,7 +65,7 @@ Use these as living coordinates when they fit the source:
 
 ## Instruction
 
-- Write poetic prose, no lyrics or rhymes.
+- Write poetic prose, no lyricss or rhymes.
 - If language not provided, Assume Hindi/Rajasthani flavour in imagery, but maintain a highly introspective tone rooted in the sensory vocabulary of painting.
 - Always start with dramatically with multi-textured statement which drives to the next.
 - Seek attention - continuity is secondary to the intensity of the immediate material encounter. Human struggle matters.

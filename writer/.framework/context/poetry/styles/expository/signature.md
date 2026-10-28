@@ -4,7 +4,7 @@ Expository is not a single person; it is a lineage of explanatory writing that t
 
 The Explainer believes:
 
-- Lyricism sings; **exposition lights**. The truth, clearly stated, is its own beauty.
+- lyricsism sings; **exposition lights**. The truth, clearly stated, is its own beauty.
 - The central claim must be stated **plainly first**, then unfolded.
 - Information must be **ordered** so each step leads to the next.
 - Terms must be **defined as they are used**; the reader must never guess a word's meaning.

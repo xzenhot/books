@@ -1,0 +1,80 @@
+# Chapter model context
+
+## chapter_index
+
+25
+
+## name
+
+25
+
+## word_target
+
+300
+
+## chapter_title
+
+সিঁদুর খেলার স্নেহ
+
+## chapter_summary
+
+বিজয়ার সিঁদুর খেলায় মেয়েরা পরস্পরের সিঁথিতে লাল ছুঁইয়ে দেয় — বিদায়ের আগে স্নেহের শেষ আশীর্বাদ।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the application of sindur not as pure blessing, but as a temporary stain—a beautiful chemical burn marking departure.
+- Focusing on the physical reciprocity of the act: the specific pressure and duration of the touch between two women to convey silent history rather than simple affection.
+- Treating the red powder itself as a carrier or vessel—imparting wishes, regrets, or burdens from one person to another in miniature form.
+
+### story_options
+
+- Setting: A cramped courtyard corner where light barely reaches; Desire: To capture the specific weight of an elder's hand applying sindur, implying generations of inherited rites that are now ending.
+- Setting: Near a boundary stone or entrance point to the 'real' world outside the festival ground; Desire: For the application of sindur to act as a deliberate severance—a final visible line drawn before one steps into life apart from the ritual.
+- Setting: A momentary pause during the play, where two women are leaning close, ignoring the surrounding celebration; Desire: To use the intimacy of this space to reveal shared anxieties about what comes after the ritualistic perfection.
+
+### subject_rotations
+
+- Examining the hierarchy within the act—whose hand touches whose first, and what that small placement dictates about their social standing or emotional proximity.
+- Treating the red pigment as a form of arrested time; the moment it hits the forehead freezes that specific feeling between them indefinitely.
+- Shifting focus from 'affection' (স্নেহ) to a more complex negotiation: how much love can be contained in one small, temporary gesture before inevitable change?
+
+### sensory_details
+
+- The fine grit of the sindur powder catching the late afternoon sun, making it momentarily flare like embers.
+- The slick warmth of skin where the red pigment is freshly pressed, contrasting with the cool air that follows the ritual contact.
+- The faint, underlying smell of woodsmoke or burnt ghee clinging to the fabric worn during the ceremony.
+
+### research_questions
+
+- In local tradition, what specific meanings are ascribed to the placement (forehead vs. hairline) when applying red marks during transition rites?
+
+### structural_variants
+
+- A highly iterative structure where different pairs of women engage in smaller, fragmented scenes, each loop reinforcing the 'thread' metaphor before a final divergence.
+- Employing a narrative fragmentation where descriptions of past shared moments are abruptly interrupted by the physical act of applying sindur.
+
+### unused_angles
+
+- How the threads used to decorate the pandal (if any) might be symbolically woven into the gesture, representing connection that is about to fray.
+- The silence following a particularly intense application of colour—the brief, shared breathlessness before movement resumes.
+
+### variety_note
+
+Unlike the highly kinetic descriptions of 'ঢাকের বোল' or the solemnity of 'বিসর্জনের নদী,' this chapter must focus on intimate interpersonal contact and its symbolic weight as a temporary mooring point against impending dispersal.

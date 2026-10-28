@@ -69,7 +69,7 @@ scaffolded
 
 ### structural_variants
 
-- A highly formalized structure mimicking a legal decree, yet infused with deeply personal pauses and lyrical digressions on duty.
+- A highly formalized structure mimicking a legal decree, yet infused with deeply personal pauses and lyricsal digressions on duty.
 - A fragmented structure where the weight of the 'inheritance' is shown through quick shifts between her past suffering and present responsibilities.
 
 ### unused_angles

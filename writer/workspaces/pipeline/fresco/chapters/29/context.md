@@ -76,7 +76,7 @@ written
 ### research_questions
 
 - How did traditional Marwari artisans differentiate between an 'artistic signature' and random wear patterns on older havelis? Does this differentiation hold theological or social weight?
-- Are there specific linguistic metaphors within Rajasthani oral traditions that describe the intersection of visual craft and lyrical expression?
+- Are there specific linguistic metaphors within Rajasthani oral traditions that describe the intersection of visual craft and lyricsal expression?
 
 ### structural_variants
 

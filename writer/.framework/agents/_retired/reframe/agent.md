@@ -222,7 +222,7 @@ Common reframing operations (interpret the human's request flexibly):
 
 - **Voice shift** — change the prophet's voice (e.g. formal sermon → intimate whisper; third-person → first-person; declarative → interrogative).
 - **Perspective shift** — re-tell the chapter from a different seeker's eyes, or from the prophet's inner monologue.
-- **Register shift** — make the text more archaic, more colloquial, more Baul, more Stoic, more lyrical.
+- **Register shift** — make the text more archaic, more colloquial, more Baul, more Stoic, more lyricsal.
 - **Dialect weave** — infuse regional dialect words and grammatical forms.
 - **Structural shift** — reorder the prose's movement, or convert the closing thought into a question.
 - **Emphasis shift** — foreground a different metaphor family or theme already latent in the text.

@@ -70,7 +70,7 @@ completed
 
 - A tightly focused monologue building from negation (what I was forced to accept) toward assertion (what must now be claimed).
 - A fragmented structure where each stanza presents an 'old truth' that is definitively rejected by the next line of action.
-- Using highly compressed, declarative lines reminiscent of epigrammatic pronouncements rather than lyrical flow.
+- Using highly compressed, declarative lines reminiscent of epigrammatic pronouncements rather than lyricsal flow.
 
 ### unused_angles
 

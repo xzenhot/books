@@ -153,7 +153,7 @@ scaffolded
 ### structural_variants
 
 - A dialogue structured as a verbal debate: one character advocating for the 'proper path' and the other defending the 'necessary risk'.
-- An extended lyrical meditation on weight distribution, using the physical mechanics of the improvisation as an extended metaphor for societal pressure.
+- An extended lyricsal meditation on weight distribution, using the physical mechanics of the improvisation as an extended metaphor for societal pressure.
 - Beginning with the failure—the moment the improvised structure wobbles or fails—and then flashing back to the desperate catalyst.
 
 ### unused_angles

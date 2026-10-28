@@ -84,7 +84,7 @@ If the backlog master prompt is missing, do not fail — fall back to the canoni
 
 ## What to Read (in order)
 
-1. `workspaces/backlog/<bookname>/override.txt` — the book's static identity and mandate (the seed idea). This file is seeded by the init agent from `.framework/templates/backlog/v1/override.txt` — the canonical backlog override template — and may then be human-edited. When the backlog copy is absent, fall back to the template at `.framework/templates/backlog/v1/override.txt`.
+1. `workspaces/backlog/<bookname>/override.txt` — the book's static identity and mandate (the seed idea). This file is seeded by the init agent from `.framework/templates/backlog/v1/override.txt` — the canonical backlog override template — then reseeded to be grounded in the book's own `gist.md`/`storyline.md` (never left carrying the template's fixed placeholder premise), and may then be human-edited. When the backlog copy is absent, fall back to the template at `.framework/templates/backlog/v1/override.txt` and apply the same reseed before deriving the pipeline prompt.
 2. `workspaces/pipeline/<bookname>/book.json` — the resolved form, language, register, quality, themes, reference, signature, sacred vocabulary, translation guide, gist, and book summary.
 3. `workspaces/pipeline/<bookname>/book.json` (poetry) — the concrete topic list (`chapters[]`); or `workspaces/pipeline/<bookname>/book.json` (novel) — the chapter plan.
 

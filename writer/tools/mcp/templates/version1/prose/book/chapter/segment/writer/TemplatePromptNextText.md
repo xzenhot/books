@@ -4,7 +4,7 @@ CONTINUE COMPOSING THE NEXT STANZA.
 You have to write a specific part of poem number {chapter_index} of the collection. 
 - **Current Part:** Stanza/Section {segment_index} of {segment_count}.
 - **Goal:** This section will be created based on the thematic summary: {segment_summary}.
-- **Lyrical Continuity:** Here are the previous lines to ensure rhythmic and thematic flow: {last_two_sentences}
+- **lyricsal Continuity:** Here are the previous lines to ensure rhythmic and thematic flow: {last_two_sentences}
 
 ### TECHNICAL CONSTRAINTS (FOR AGENTIC PARSING)
 1. **Output Format:** Return ONLY a valid JSON object. 

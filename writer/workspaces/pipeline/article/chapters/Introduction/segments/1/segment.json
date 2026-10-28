@@ -1,10 +1,6 @@
 {
   "level": "segment",
   "state": "returning",
-<<<<<<<< HEAD:writer/workspaces/pipeline/laxman/chapters/Conclusion/segments/1/segment.json
-  "chapter_index": 23,
-========
   "chapter_index": 0,
->>>>>>>> template:writer/workspaces/pipeline/article/chapters/Introduction/segments/1/segment.json
   "segment_index": 1
 }

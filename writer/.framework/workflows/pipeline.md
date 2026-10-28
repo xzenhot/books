@@ -27,7 +27,7 @@ After **every** command in this workflow completes — including read-only, no-o
 
 /book <bookname> scaffold count                                                      # 1. scaffold a new book pipeline
 /book <bookname> <agentname> <chapter>|<n>|all|continue                              # 2. execute agent on each chapters in the pipeline
-/book <bookname> write <n>|range|all|continue <language>                              # 3. write finished chapter output (write agent dispatching to poetry/novel skills)
+/book <bookname> write <n>|range|all|continue [<style>]                               # 3. write finished chapter output (four tasks: enrich -> draft -> transform -> compose)
 /book <bookname> chapter <n>|all|continue [<style>]                                    # 3a. alias of write (routed through the write agent)
 /book <bookname> story <n>|all|continue [<style>]                                       # 3b. alias of write (routed through the write agent)
 /book <bookname> style [<style>]                                                     # 4. transform writer-stage chapters through a style template
@@ -53,7 +53,7 @@ After **every** command in this workflow completes — including read-only, no-o
 |---------|--------------|
 | `scaffold` | Creates or repairs `workspaces/pipeline/<bookname>/` through the scaffold agent, gated by the existence of `book.json`. Never creates or modifies `storyline.md`. |
 | `<agentname>` | Runs any registered agent against selected chapters in an existing pipeline. Does not promote output to `workspaces/published/`. |
-| `write` | Writes finished chapters to a new version folder `workspaces/published/<bookname>/<version>/chapters/` from filter outputs and updates `progress.json`. Dispatches through the **write agent** (`.framework/agents/write/agent.md`), which resolves the form and routes to the **poetry skill** (`.framework/skills/poetry/SKILL.md`) for poetry or the **novel skill** (`.framework/skills/novel/SKILL.md`) for novels. Also ensures the writer-stage segment exists: if `chapters/<n>/segments/1/writer/` has no segment yet, writes it there with metadata; if one is already written, overwrites it (archiving the prior copy first).  , language to pick up from book.json if not provided |
+| `write` | Runs the four-task composition sequence (enrich -> draft -> transform -> compose) and writes the finished chapter to `chapters/<n>/chapter.md`, updating `progress.json`. It does not promote to `workspaces/published/` — that is `publish`. Routes through the **write agent** (`.framework/agents/write/agent.md`), which resolves the form and dispatches to the poetry or novel skill. Ensures the writer-stage segment exists, archiving any prior copy first. Language resolves from `book.json` when not supplied. |
 | `chapter` / `story` | Aliases of `write` — write finished chapters through the **write agent** (`.framework/agents/write/agent.md`), routing to the poetry or novel skill by form. |
 | `publish [<language>]` | Routes through the publish agent (`.framework/agents/publish/agent.md`) to promote the latest writer-stage segments to a versioned folder `workspaces/published/<bookname>/version<k>/` and assemble `version<k>/book.md`. Without `<language>`, copies the latest segment from `chapters/<n>/segments/1/writer/`. With `<language>`, copies the latest translator segment from `chapters/<n>/segments/1/translator/` (e.g. `en.md`, `bn.md`). Read-only on the pipeline; writes only to `workspaces/published/`. Each publish creates a new version, so multiple published versions coexist. |
 | `preview [<language>]` | Assembles the same output as `publish` — promotes the latest writer-stage (or translator, with `<language>`) segments into a versioned `workspaces/published/<bookname>/version<k>/` folder and assembles `version<k>/book.md` — but **skips the quality gate and review step**. It runs everything `publish` does except validation: no quality pass, no review requirement, no draft-hash check. Useful for inspecting a full draft of the book as it stands without waiting for review to pass. |
@@ -89,7 +89,7 @@ command has an `offline` execution route, the agent resolves the command from
 | `eval` | `.framework/agents/eval/agent.md` | — (read-only) |
 | `review` | `.framework/agents/review/agent.md` | `quality-novel` / `quality-poetry` |
 | `humanize` | `.framework/agents/humanize/agent.md` | — |
-| `write` / `chapter` / `story` | `.framework/agents/write/agent.md` | `novel` / `poetry` |
+| `write` / `chapter` / `story` | `.framework/agents/write/agent.md` | `novel` / `poetry`, then `line` (transform), then the form skill (`sonnet` / `lyrics` / `limerick` / `haiku`) |
 | `style` | `.framework/agents/style/agent.md` | (style template) |
 | `translate` | `.framework/agents/translate/agent.md` | — |
 | `publish` | `.framework/agents/publish/agent.md` | — |
@@ -542,12 +542,13 @@ version is one greater than the highest existing numeric folder (`1` when none).
 Existing versions are immutable snapshots.
 ## The Write Command
 
-For `/book <bookname> write <n>|range|all|continue <language>` (aliases: `chapter`, `story`):
+For `/book <bookname> write <n>|range|all|continue [<style>]` (aliases: `chapter`,
+`story`):
 
-Responsibility: turn pipeline filter outputs into finished reader-facing chapters and
-update progress.
+Responsibility: turn the chapter model and filter outputs into a finished,
+reader-facing chapter, and update progress.
 
-**Execution route (mode-dependent).** Read the book's `factory` (or an explicit
+Execution route (mode-dependent). Read the book's `factory` (or an explicit
 `offline`/`online` argument) per `.framework/rules/command-boundary.md` before
 choosing a route:
 
@@ -562,13 +563,187 @@ choosing a route:
   Python yourself until the user confirms.
 
 1. Stop if the pipeline does not exist; use `scaffold` first.
-2. Route the writing work through the write agent (`.framework/agents/write/agent.md`),
-   which resolves the form, routes to the poetry/novel skill, flattens the chapter
-   model into `context.md`, authors the live draft at `chapters/<n>/chapter.md`
-   (archiving any prior copy per `.framework/rules/draft-versioning.md`), and never
-   writes to `segments/1/writer/`. Reader-facing output is versioned per
-   `.framework/rules/source-versioning.md`.
-3. Update `progress.json` after each completed chapter. Do not run filter agents here.
+2. Run the **four-task sequence** below. Each task is gated: it runs only when its
+   precondition is not already satisfied.
+3. Update `progress.json` after each completed chapter. Do not run filter agents
+   here.
+
+### The Four-Task Sequence
+
+`write` owns the whole composition path. There is no separate `transform` or
+`compose` command — both are stages **inside** `write`.
+
+| # | Task | Gate | Owning agent / skill |
+|---|------|------|----------------------|
+| 1 | **Enrich** | only if the chapter is not yet enriched | `.framework/agents/enrich/agent.md` → `enrich-poetry` |
+| 2 | **Draft** | only if `chapter.md` is absent or empty | `.framework/agents/write/agent.md` → `poetry` / `novel` |
+| 3 | **Transform** | always — reshape the draft to the target meter | `.framework/agents/line/agent.md` |
+| 4 | **Compose** | only for a requested fixed form | the form agent → its form skill |
+
+#### Task 1 — Enrich (gated)
+
+Read `chapters/<n>/chapter.json`. If it already carries enrichment guidance (the
+enrich agent's fused-filter record), skip. Otherwise route through
+`.framework/agents/enrich/agent.md`, which applies
+`.framework/skills/enrich-poetry/SKILL.md` to fuse the active
+`filters/filters.json` filters into one pass and records the guidance in the
+chapter model. Enrich writes guidance only — never `chapter.md`.
+
+#### Task 2 — Draft (gated)
+
+Check `chapters/<n>/chapter.md`. If it exists with content, skip. Otherwise route
+through `.framework/agents/write/agent.md`, which resolves the form and dispatches
+to `.framework/skills/poetry/SKILL.md` (or `novel`), producing the flat
+poetic-prose draft. This draft is the **source content** that tasks 3–4 reshape —
+it is not the final composed form.
+
+#### Task 3 — Transform (always)
+
+Reshape the draft to the target meter, preserving meaning. The meter unit and
+target are **form-specific**:
+
+| Form | Meter unit | Target | Ruler |
+|---|---|---|---|
+| sonnet | akshar (consonant) | 14/line, 8+6 caesura | `word.akshar-count` |
+| limerick, haiku | akshar (consonant) | form pattern (haiku 5-7-5) | `word.akshar-count` |
+| **poyar** | **syllable** | **exactly 14/line**, `4 + 4 + 4 + 2` | `word.syllable-count` (summed per word) |
+| lyrics / modern song, srijato | syllable | syllable signature | `word.syllable-count` |
+
+**Poyar is a syllable form** — every line holds exactly 14 syllables in the
+`4 + 4 + 4 + 2` measure (a `+1` close is legal, 2 preferred). A 13- or
+15-syllable line must be rewritten. Never measure poyar by akshar, and never call
+`word.syllable-count` on a whole line (it over-counts phrases) — sum the words.
+
+**Poyar also demands a strong rhyme.** `word.rhyme-test >= 1` only proves the two
+end words sit in one rhyme class; the pair is still weak when the codas differ
+(`শব্দ/গন্ধ` returns `1` and is weak). Require an identical final rhyme unit, and
+when line 2 cannot reach one, rework line 1 — shuffle or replace it — rather than
+accept the weak pair. `tools/mcpbangla/verse.py rhyme A B` exits non-zero for a
+weak pair.
+
+Route through `.framework/agents/line/agent.md`. For each line:
+
+1. Measure with the form's ruler via MCP (`tools/mcpbangla/kamolika.py`).
+2. If the count matches the target, record `calibrated`.
+3. If under, expand with semantically compatible words until it matches.
+4. If over, remove the least essential modifiers until it matches.
+5. If no exact match is reachable, record `underflow`/`overflow` and flag for
+   review.
+
+**Never compute akshar or syllable counts natively.** Bengali consonant clusters
+(যুক্তব্যঞ্জন) make visual counting invalid; every count must come from MCP.
+
+For rhyme-schemed forms (srijato, poyar, lyrics, sonnet), task 3 also verifies the rhyme:
+`word.rhyme-test` must return `>= 1` for every required pair. A `0` is **not** a
+rhyme (same vowel shape, different class) and must be rejected.
+
+#### Task 4 — Compose (fixed forms only)
+
+When a fixed form is requested, author the finished content in that form — not
+merely a reshaped copy of the draft, but new poetry written to the form's contract
+from the enriched model and the chapter's thematic core. Route through the
+form-specific agent and skill:
+
+| Desired form | Command | Agent | Skill |
+|---|---|---|---|
+| Bengali sonnet (14 lines, 8+6 caesura, volta at 9) | `line` / `rhyme` | `.framework/agents/line/agent.md`, `.framework/agents/rhyme/agent.md` | `.framework/skills/sonnet/SKILL.md` |
+| lyrics / modern song (refrain + verses, syllable signature) | `lyrics` | `.framework/agents/lyrics/agent.md` | `.framework/skills/lyrics/SKILL.md` |
+| Limerick (5-line AABBA) | `limerick` | `.framework/agents/limerick/agent.md` | `.framework/skills/limerick/SKILL.md` |
+| Haiku (5-7-5 akshars) | `haiku` | `.framework/agents/haiku/agent.md` | `.framework/skills/haiku/SKILL.md` |
+
+Rhyme schemes are style-level. The default scheme is `ACBD`, resolved per stanza
+as **L1 rhymes L3, L2 rhymes L4** — not a vertical map across stanzas. Verify each
+stanza with two `word.rhyme-test` calls plus one negative check (`L1` must *not*
+rhyme `L2`, or the scheme has collapsed into `AABB`).
+
+#### Output and Record
+
+Every task writes to `chapters/<n>/chapter.md` only, archiving any prior copy to
+`chapters/<n>/history/` per `.framework/rules/draft-versioning.md`. The chapter
+model records:
+
+```json
+{
+  "form_skill": "<sonnet|lyrics|limerick|haiku|srijato|poyar>",
+  "form": "poem",
+  "rhyme_scheme": "ACBD",
+  "syllable_counts": [7, 7, 7, 7],
+  "calibration_method": "agent_composed_mcp_verified",
+  "mcp_verification": { "all_rhymes_verified": true, "syllable_delta": 0 }
+}
+```
+
+Reader-facing output is versioned per `.framework/rules/source-versioning.md`.
+Nothing is promoted to `workspaces/published/` by `write` alone.
+
+### Sonnet Mode
+
+The `sonnet` form is a specialisation of task 3 + task 4 and is fixed at:
+
+- exactly **14 lines**
+- exactly **14 akshars** per line
+- each line split **8 + 6** at a word boundary (caesura)
+- the thematic turn (volta) at line 9
+
+A Bengali sonnet counts **akshars**, not syllables:
+
+| Property | English sonnet | Bengali sonnet |
+|---|---|---|
+| Meter unit | syllable | akshar (consonant) |
+| Line length | 10 syllables | **14 akshars** |
+| Internal break | none enforced | **8 + 6 caesura** |
+| Total lines | 14 | **14** |
+
+Line-count normalisation comes first: if the source has more than 14 lines keep
+lines 1–8 plus the last 6 (preserving the volta and closing couplet); if fewer,
+append thematically consistent lines marked `generated`.
+
+Calibration uses the shared wrappers in `tools/mcpbangla/sonnet_utils.py`:
+
+```python
+import sys; sys.path.insert(0, "tools/mcpbangla")
+from sonnet_utils import akshar_count, calibrate_line
+
+count = akshar_count(line)              # MCP call — never native
+status, detail = calibrate_line(line)   # calibrated | underflow | overflow
+```
+
+The full 48-candidate delete/insert/replace algorithm, caesura pattern table, and
+volta handling live in `.framework/agents/line/agent.md` (**Sonnet Mode**) and
+`.framework/skills/sonnet/SKILL.md`. Rhyme selection for a sonnet is owned by
+`.framework/agents/rhyme/agent.md`.
+
+### Write Error Handling
+
+| Condition | Response |
+|---|---|
+| Pipeline doesn't exist | stop: use `scaffold` first |
+| Book form is not poetry for a fixed form | stop: "`<form>` requires `form: poetry`" |
+| Chapter has no draft and cannot be drafted | stop: chapter `<n>` has no source; run `enrich`/`write` first |
+| MCP endpoint unreachable | stop: confirm Book.Backend is running and `BASE_URL` in `tools/mcpbangla/kamolika.py` is correct |
+| Count cannot reach target | record `underflow`/`overflow`, report the delta, continue |
+| Rhyme test returns `0` or `-1` | rewrite the line — `0` is not a rhyme |
+| `sonnet_utils.py` missing | stop: ensure `tools/mcpbangla/sonnet_utils.py` is present |
+
+### Write Next Steps
+
+After every `write` run, report next steps per `.framework/rules/next-steps.md`:
+
+- all chapters composed → `/book <bookname> review all`, then `publish`
+- some chapters need review → `/book <bookname> review all`, then re-`write`
+- meter target needs adjustment → adjust the book/chapter target, then re-`write`
+- MCP errors → resolve the endpoint, then re-`write`
+- general → `/book <bookname> eval all` to check completeness before publish
+
+### Write Examples
+
+```bash
+/book durga write 1                    # default style, four-task sequence
+/book durga write all online           # every chapter, agentic
+/book durga write 6 poyar              # fixed-form compose (couplets)
+/book durga write 4 srijato            # rhyme-schemed poem
+/book wife write 5 --style desh        # explicit style
+```
 
 ## The Publish Command
 

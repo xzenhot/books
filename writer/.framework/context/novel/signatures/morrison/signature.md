@@ -1,6 +1,6 @@
 # Signature: Toni Morrison
 
-Use this signature when a chapter should feel lyrical, mythic, and unflinching — where the music of the sentence carries the weight of history and the sacred lives inside the ordinary.
+Use this signature when a chapter should feel lyricsal, mythic, and unflinching — where the music of the sentence carries the weight of history and the sacred lives inside the ordinary.
 
 ## Core Movement
 
@@ -19,7 +19,7 @@ Use this signature when a chapter should feel lyrical, mythic, and unflinching �
 
 ## Diction
 
-Use lyrical, rhythmic, image-dense language that moves between the colloquial and the incantatory. The tone is grave, tender, and mythic. Render recurring terms in the configured target language.
+Use lyricsal, rhythmic, image-dense language that moves between the colloquial and the incantatory. The tone is grave, tender, and mythic. Render recurring terms in the configured target language.
 
 ## Pattern
 

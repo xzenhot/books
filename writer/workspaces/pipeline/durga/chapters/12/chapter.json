@@ -1,0 +1,56 @@
+{
+  "chapter_index": 12,
+  "name": "12",
+  "word_target": 300,
+  "chapter_title": "সাজের আলোয় দেবী",
+  "chapter_summary": "ডাকের সাজে, গয়নায়, রেশমি শাড়িতে দেবী সেজে ওঠেন — আলোর প্যান্ডেলে তিনি মর্ত্যের কন্যা হয়ে দাঁড়ান।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the divine adornments (jewelry, sari) not as embellishment but as a complex mechanism of societal recognition—how human craft defines divinity for the populace.",
+      "Viewing 'Saj' (decoration) through the lens of transformation: how the material weight of gold/silk physically shifts the perceived gravitational pull of the goddess on her pedestal.",
+      "The interplay between artificial light (lamp, festival lighting) and inherent divine luminescence—where does the source of brightness truly reside?"
+    ],
+    "story_options": [
+      "Setting: A moment just as the final piece of jewelry is fastened to a specific joint; Desire: To capture the fleeting reflection of a single flame in polished metal, Obstacle: The sudden rush of onlookers disturbing the delicate balance.",
+      "Setting: Within the brightly lit Pandal after the main rituals have ceased for the night; Desire: To experience the deity illuminated only by residual, low-burning oil lamps, realizing her human vulnerability, Obstacle: The encroaching shadows reclaiming the edges of the light.",
+      "Setting: Focus on a specific fold or drape of the ceremonial sari as it catches the movement of air from an approaching crowd; Desire: To see the textile pattern mimic cosmic patterns (like constellations), while the Goddess remains fixed, Obstacle: A gust of wind threatening to unbalance the entire structure."
+    ],
+    "subject_rotations": [
+      "Treating the act of dressing/adorning as a ritualized negotiation between the divine essence and earthly presentation—the necessity of costume for communal faith.",
+      "Deconstructing light itself: moving beyond mere illumination to explore how different colors (from turmeric to crimson) alter the perceived temperament or aspect of Durga in the eyes of the devotee.",
+      "Focusing not on her grandeur, but on the specific tools/materials used by the dressers—the needle, the thread, the polishing cloth—treating them as proxies for human dedication."
+    ],
+    "sensory_details": [
+      "The distinct, oily warmth emanating from a newly polished brass ornament held near the idol's form.",
+      "The sharp, dry crackle of straw beneath heavy silk drapery when disturbed by movement.",
+      "The coppery scent rising faintly from ancient metalwork (jewelry) under bright festival lamps."
+    ],
+    "research_questions": [
+      "What specific Bengali textile motifs are traditionally incorporated into Durga's ceremonial attire, and what do those motifs symbolize in relation to Shakti?",
+      "How does the traditional use of various metals in idol ornamentation affect light refraction within the local temple/pandal environment?",
+      "Are there distinct ritual protocols regarding which garments or jewelry pieces must be presented first during the 'Saj' ceremony?"
+    ],
+    "structural_variants": [
+      "A highly fragmented structure, where each stanza focuses on a singular piece of ornamentation (e.g., one stanza only for an earring, another for a necklace), forcing thematic leaps between them.",
+      "Employing heavy enjambment that mimics the slow, deliberate act of dressing—the thought process lagging behind the physical movement.",
+      "Using repetition not to reinforce theme, but to replicate the hypnotic rhythm of ritual application."
+    ],
+    "unused_angles": [
+      "A meditation on the 'weight' of divine expectation resting upon the physical form, symbolized by heavy gold chains.",
+      "The silent dialogue between the deity (as representation) and the human craftspeople who bring her to life through adornment.",
+      "How the external environment—the noise, the smell of the gathering crowd—is filtered *through* the opulent layers of decoration."
+    ],
+    "variety_note": "Unlike previous chapters which focus on foundational materials (clay, straw) or singular moments (Chokkhudan), this chapter centers entirely on presentation and symbolic overlay—how the divine is publicly 'worn' and perceived by the community."
+  },
+  "draft": {
+    "sha256": "836d3af5c6113cee13b8eacb2125262b2bd6da4d22bc66b75f4edc9f0892fecc",
+    "written_at": "2026-10-28T07:33:30.634645+00:00",
+    "origin": "write"
+  }
+}

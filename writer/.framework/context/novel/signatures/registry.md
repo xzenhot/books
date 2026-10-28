@@ -15,7 +15,7 @@ The writer agent reads this registry to discover available signatures, then read
 | 3 | Jibanananda Das | `jibanananda/` | Twilight-toned, solitary, sensuous | ✅ Active |
 | 4 | Rabindranath Tagore | `rabindrasangeet/` | Songlike, devotional, intimate | ✅ Active |
 | 5 | Ernest Hemingway | `hemingway/` | Spare, declarative, hard-edged | ✅ Active |
-| 6 | Virginia Woolf | `woolf/` | Interior, fluid, lyrical | ✅ Active |
+| 6 | Virginia Woolf | `woolf/` | Interior, fluid, lyricsal | ✅ Active |
 | 7 | Gabriel García Márquez | `marquez/` | Lush, mythic, magical-realist | ✅ Active |
 | 8 | James Joyce | `joyce/` | Dense, allusive, musical | ✅ Active |
 | 9 | William Faulkner | `faulkner/` | Brooding, time-haunted, elegiac | ✅ Active |
@@ -23,10 +23,10 @@ The writer agent reads this registry to discover available signatures, then read
 | 11 | Fyodor Dostoevsky | `dostoevsky/` | Fevered, philosophical, tormented | ✅ Active |
 | 12 | Franz Kafka | `kafka/` | Precise, surreal, quietly terrifying | ✅ Active |
 | 13 | Marcel Proust | `proust/` | Meditative, memory-saturated, slow | ✅ Active |
-| 14 | Toni Morrison | `morrison/` | Lyrical, mythic, unflinching | ✅ Active |
+| 14 | Toni Morrison | `morrison/` | lyricsal, mythic, unflinching | ✅ Active |
 | 15 | Bankim Chandra Chattopadhyay | `bankim/` | Grand, Sanskritized, morally elevated | ✅ Active |
 | 16 | Sarat Chandra Chattopadhyay | `sarat/` | Tender, humane, emotionally direct | ✅ Active |
-| 17 | Bibhutibhushan Bandyopadhyay | `bibhutibhushan/` | Lyrical, nature-saturated, transcendent | ✅ Active |
+| 17 | Bibhutibhushan Bandyopadhyay | `bibhutibhushan/` | lyricsal, nature-saturated, transcendent | ✅ Active |
 | 18 | Manik Bandyopadhyay | `manik/` | Psychological, unsparing, socially acute | ✅ Active |
 | 19 | Tarashankar Bandyopadhyay | `tarashankar/` | Earthy, epic, rooted in the soil | ✅ Active |
 | 20 | Mahasweta Devi | `mahasweta/` | Fierce, political, mythic | ✅ Active |
@@ -44,10 +44,10 @@ The prophetic voice of *The Prophet* (1923): biblical cadence, the seeker's ques
 The Stoic prophetic prose: the inner citadel, the fading name, the beloved necessity. Calm force over ornament.
 
 ### 3. `jibanananda/` — Jibanananda Das
-Twilight-toned lyric prose: dusk, fields, rivers, memory, and a quiet haunting. Landscape carries feeling.
+Twilight-toned lyrics prose: dusk, fields, rivers, memory, and a quiet haunting. Landscape carries feeling.
 
 ### 4. `rabindrasangeet/` — Rabindranath Tagore
-Devotional lyric: refrain, verse, reprise. Longing and union before the beloved and the unseen order.
+Devotional lyrics: refrain, verse, reprise. Longing and union before the beloved and the unseen order.
 
 ### 5. `hemingway/` — Ernest Hemingway
 The iceberg: spare, declarative sentences, grace under pressure, emotion submerged beneath the surface.
@@ -77,7 +77,7 @@ The precise nightmare: the impossible rendered with bureaucratic exactness, the 
 The recovered time: a sensation unlocking the past, the long sentence following memory's path.
 
 ### 14. `morrison/` — Toni Morrison
-The mythic lyric: the sentence that sings even of horror, the ancestral and the present woven together.
+The mythic lyrics: the sentence that sings even of horror, the ancestral and the present woven together.
 
 ### 15. `bankim/` — Bankim Chandra Chattopadhyay
 The father of the Bengali novel: grand, Sanskritized, morally elevated. The motherland as goddess, the ideal hero, the noble sacrifice.
@@ -86,7 +86,7 @@ The father of the Bengali novel: grand, Sanskritized, morally elevated. The moth
 The storyteller of the Bengali heart: tender, humane, emotionally direct. The wronged woman, the selfless lover, the quiet dignity of suffering.
 
 ### 17. `bibhutibhushan/` — Bibhutibhushan Bandyopadhyay
-The lyric of *Pather Panchali*: nature-saturated, reverent, quietly transcendent. The child's wonder, the poor family's endurance, the small life that holds the infinite.
+The lyrics of *Pather Panchali*: nature-saturated, reverent, quietly transcendent. The child's wonder, the poor family's endurance, the small life that holds the infinite.
 
 ### 18. `manik/` — Manik Bandyopadhyay
 The unsparing realist: psychological, lean, socially acute. Hunger, desire, and the hidden motive beneath the surface.
@@ -98,7 +98,7 @@ The epic of rural Bengal: earthy, communal, rooted in the soil. The land and the
 The fierce voice of the dispossessed: political, mythic, unflinching. The body as labor and weapon, the refusal to be erased.
 
 ### 21. `sunil/` — Sunil Gangopadhyay
-The modern urban wanderer: restless, introspective, lyrical. The city, love, memory, and the search for meaning.
+The modern urban wanderer: restless, introspective, lyricsal. The city, love, memory, and the search for meaning.
 
 ### 22. `mujtaba/` — Syed Mujtaba Ali
 The cosmopolitan wit: erudite, allusive, light in touch. The traveler-scholar moving between lands and ideas.

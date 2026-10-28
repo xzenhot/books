@@ -28,7 +28,7 @@ Each chapter must reach a **minimum target word count** (e.g. 5500 words), writt
 
 ## Storytelling Techniques
 
-- **Dialogue** — reveal personality, class, and attitude; carry conflict, emotion, and power-play. Give each character a distinct voice (king = gravity, minister = diplomacy, general = war-fever, poet = lyricism, commoner = simplicity).
+- **Dialogue** — reveal personality, class, and attitude; carry conflict, emotion, and power-play. Give each character a distinct voice (king = gravity, minister = diplomacy, general = war-fever, poet = lyricsism, commoner = simplicity).
 - **Inner monologue** — expose the thoughts a character never speaks aloud.
 - **Philosophical questions** — pose questions with no easy answer; let them resonate, don't answer them.
 - **Political wisdom** — weave power games, diplomacy, conspiracy, alliance, and betrayal through hint, double-meaning, and strategic speech.

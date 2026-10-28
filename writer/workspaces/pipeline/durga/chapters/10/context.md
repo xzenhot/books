@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+10
+
+## name
+
+10
+
+## word_target
+
+300
+
+## chapter_title
+
+চক্ষুদানের মুহূর্ত
+
+## chapter_summary
+
+শিল্পী তুলি দিয়ে মায়ের চোখ এঁকে দেন, আর সেই মুহূর্তে প্রতিমার ভেতরে ঢুকে পড়েন দেবী নিজেই।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Examining the eyes not as windows to divinity, but as a newly installed apparatus—a function rather than an emotion.
+- Focusing on the chemistries: the exact mineral content of the pigments and lime reacting with the material texture beneath them.
+- Presenting the act as a precise, almost surgical application of color where the spiritual leap is most physically tangible.
+
+### story_options
+
+- Setting: The still-wet surface of the idol’s face; Desire: To feel the microscopic grit of pigment settling against the fired clay pores, Obstacle: A sudden gust of wind threatens to smudge the nascent gaze.
+- Setting: The artisan's wrist holding the fine brush; Desire: To experience the singular focus required—a moment where all other external sounds (the drumming, the street noise) are electronically filtered out, Obstacle: Brief memory flashes of domestic life distracting the artist from divine concentration.
+- Setting: Close-up on a single painted iris; Desire: To trace the exact path the fine hairs/lines of definition take across the surface, creating a perceived depth that seems impossible for two dimensions, Obstacle: The realization that this perfect illusion is inherently temporary.
+
+### subject_rotations
+
+- Treating 'Chokkhudan' as an act of technological activation—the point where inert matter becomes perceivable life through application.
+- Focusing on the relationship between the artist’s own visual perception and the deity’s perceived gaze (Is the eye painted, or is it *seen* into being?).
+- Deconstructing the word 'eye' across different traditions—is it just sight, or does it encompass omniscience/knowing?
+
+### sensory_details
+
+- The sharp, metallic tang of ground ochre pigments on wet skin.
+- The microscopic *crackle* sound as dry binding agents react to moisture drawn into the pigment layer.
+- The precise, velvety drag of a badger-hair brush across the dense, damp facial surface.
+
+### research_questions
+
+- What specific historical or mythological interpretation justifies the application of color onto raw clay rather than allowing it to cure naturally?
+- How is 'Chokkhudan' conceptually differentiated from other ritualistic applications of material blessing in Bengali traditions?
+
+### structural_variants
+
+- A sudden shift from microscopic focus (the pigment particle) to macro scope (the completed form’s gaze).
+- Structuring the poem as a series of near-silences, punctuated only by the sound of the brush making contact.
+- Using an entirely visual vocabulary, minimizing verbs related to action and maximizing nouns describing state.
+
+### unused_angles
+
+- The metaphysical weight of the *name* invoked during the application of the eyes.
+- How the shadows cast by the artist's own hand distort the emerging features before they are finalized.
+
+### variety_note
+
+While previous chapters focused on the raw materials (clay, straw), this chapter forces a hyper-focus onto the point of final perceptual inscription—the moment matter claims awareness.

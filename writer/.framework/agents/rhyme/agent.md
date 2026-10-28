@@ -8,10 +8,10 @@ agent selects the rhyme scheme, obtains and verifies rhyme words from the MCP
 endpoint, composes every line, and calibrates each line to exactly
 **8 + 6 = 14 akshars** (অক্ষর).
 
-All MCP traffic goes through `tools/mcphttpclient.py`, the HTTP client for the
+All MCP traffic goes through `tools/mcpbangla/kamolika.py`, the HTTP client for the
 Book.Backend MCP endpoint configured as `BASE_URL` in that file. Call tools with
 `call_tool(name, arguments)` and read results with `extract_text(result)`. Do
-not launch `kobi.exe` and do not open a stdio session.
+not launch the kobi engine and do not open a stdio session.
 
 In online mode the agent calls that same endpoint through its MCP tool
 interface; this module is the canonical endpoint definition and the required
@@ -357,7 +357,7 @@ Read `factory` in `book.json` before choosing a calibration or write path
 (`.framework/rules/command-boundary.md`).
 
 - **Online** (`"factory": "online"`): do everything agentically. Call the MCP
-  tools through the endpoint configured in `tools/mcphttpclient.py`, reason
+  tools through the endpoint configured in `tools/mcpbangla/kamolika.py`, reason
   about the results, and edit files with file operations. **Never shell out to
   Python** and never invoke `_sonnet_measure.py` or `_sonnet_write.py`.
 - **Offline**: the scripts below are available as calibration aids. They remain
@@ -365,15 +365,15 @@ Read `factory` in `book.json` before choosing a calibration or write path
 
 #### Script-assisted calibration (offline only)
 
-Load the 14 seed lines into `LINES[]` in `tools/_sonnet_measure.py`. Use
+Load the 14 seed lines into `LINES[]` in `tools/mcpbangla/_sonnet_measure.py`. Use
 `CANDIDATES[n]` for locked-end variants that must be tested manually.
 
 ```
-python tools/_sonnet_measure.py                    # measure all 14 lines
-python tools/_sonnet_measure.py --probe            # word-level akshar breakdown
-python tools/_sonnet_measure.py --auto              # calibrate failing lines
-python tools/_sonnet_measure.py --auto --line 9    # calibrate only line 9
-python tools/_sonnet_measure.py --candidates 9      # test manual variants
+python tools/mcpbangla/_sonnet_measure.py                    # measure all 14 lines
+python tools/mcpbangla/_sonnet_measure.py --probe            # word-level akshar breakdown
+python tools/mcpbangla/_sonnet_measure.py --auto              # calibrate failing lines
+python tools/mcpbangla/_sonnet_measure.py --auto --line 9    # calibrate only line 9
+python tools/mcpbangla/_sonnet_measure.py --candidates 9      # test manual variants
 ```
 
 After any script run, the agent must still apply the four gates above.
@@ -415,13 +415,13 @@ nothing — report only.
 If `[replace]` was supplied:
 
 ```
-python tools/_sonnet_write.py --book <bookname> --chapter <n>
+python tools/mcpbangla/_sonnet_write.py --book <bookname> --chapter <n>
 ```
 
 If `[replace]` was not supplied, use the dry run and report only:
 
 ```
-python tools/_sonnet_write.py --book <bookname> --chapter <n> --dry-run
+python tools/mcpbangla/_sonnet_write.py --book <bookname> --chapter <n> --dry-run
 ```
 
 `_sonnet_write.py` verifies akshar counts and splits each line at the best
@@ -574,7 +574,7 @@ Next:
 
 | Condition | Response |
 |---|---|
-| MCP endpoint unavailable | Stop: "MCP endpoint unreachable — confirm Book.Backend is running and `BASE_URL` in `tools/mcphttpclient.py` is correct" |
+| MCP endpoint unavailable | Stop: "MCP endpoint unreachable — confirm Book.Backend is running and `BASE_URL` in `tools/mcpbangla/kamolika.py` is correct" |
 | Scheme is not `ABAB`, `ACBD`, or `ABCDEFFEDCBA` | Stop and list the supported schemes |
 | `word.rhyming-words` returns no usable Bengali word | Change the family anchor's end word and build a new rhyme bank; never invent a rhyme |
 | `word.rhyme-test` returns `-1` or `0` | Reject the word immediately and query again |
@@ -585,7 +585,7 @@ Next:
 | Line cannot meet rhyme + 14 akshars + 8+6 without meaning loss | Record `needs_manual_review` and continue |
 | Chapter has no content | Stop: "No content found; run write or enrich first" |
 | Book form is not poetry | Stop: "Sonnet mode requires `form: poetry`" |
-| `_sonnet_measure.py` or `_sonnet_write.py` missing in offline mode | Stop: "Required tool script missing from `tools/`" |
+| `_sonnet_measure.py` or `_sonnet_write.py` missing in offline mode | Stop: "Required tool script missing from `tools/mcpbangla/`" |
 | `history/` folder missing when archiving | Create it before writing the archive |
 
 ## Skills and Tooling
@@ -594,10 +594,10 @@ Next:
 
 | Script | Role |
 |---|---|
-| `tools/mcphttpclient.py` | HTTP MCP client for the Book.Backend endpoint. Use `call_tool(name, arguments)` and `extract_text(result)`. |
-| `tools/_sonnet_measure.py` | Offline-only. Measures all 14 lines; `--auto` runs delete/insert/replace with MCP; `--probe` shows word-level counts; `--candidates n` tests manual variants. Rhyme-blind and accepts legacy non-8 first halves; audit both separately. |
-| `tools/_sonnet_write.py` | Offline-only. Re-verifies akshar counts, splits each line at the best 8-akshar boundary, and writes output files. Falls back to the nearest boundary if no exact 8 exists; rhyme-blind. |
-| `tools/sonnet_utils.py` | Shared MCP wrappers: `akshar_count`, `find_caesura`, `format_caesura`. |
+| `tools/mcpbangla/kamolika.py` | HTTP MCP client for the Book.Backend endpoint. Use `call_tool(name, arguments)` and `extract_text(result)`. |
+| `tools/mcpbangla/_sonnet_measure.py` | Offline-only. Measures all 14 lines; `--auto` runs delete/insert/replace with MCP; `--probe` shows word-level counts; `--candidates n` tests manual variants. Rhyme-blind and accepts legacy non-8 first halves; audit both separately. |
+| `tools/mcpbangla/_sonnet_write.py` | Offline-only. Re-verifies akshar counts, splits each line at the best 8-akshar boundary, and writes output files. Falls back to the nearest boundary if no exact 8 exists; rhyme-blind. |
+| `tools/mcpbangla/sonnet_utils.py` | Shared MCP wrappers: `akshar_count`, `find_caesura`, `format_caesura`. |
 
 In online mode, none of these scripts may be invoked. Use the MCP tools directly.
 

@@ -19,7 +19,7 @@ Use this signature when a chapter should feel modern, restless, and urban — th
 
 ## Diction
 
-Use fluid, contemporary Bengali with a lyrical, slightly ironic edge. The tone is modern, introspective, and restless. Render recurring terms in the configured target language.
+Use fluid, contemporary Bengali with a lyricsal, slightly ironic edge. The tone is modern, introspective, and restless. Render recurring terms in the configured target language.
 
 ## Pattern
 

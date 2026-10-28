@@ -79,7 +79,7 @@ completed
 
 ### structural_variants
 
-- A section where the poem becomes almost prosaic in its listing of what has been lost, before violently snapping back into lyrical intensity.
+- A section where the poem becomes almost prosaic in its listing of what has been lost, before violently snapping back into lyricsal intensity.
 - Using an extended metaphor of weaving or knot-tying to represent the act of reassembling fractured reputation/possessions.
 
 ### unused_angles

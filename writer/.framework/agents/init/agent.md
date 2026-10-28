@@ -125,8 +125,8 @@ Init seeds `workspaces/backlog/<bookname>/override.txt` — the **backlog master
 
 Rules:
 
-- **Seed from the template, never invent.** Copy the template verbatim as the initial content. The template is the canonical starting point; init does not author a fresh override mandate on its own.
-- **Fill gaps only.** If `override.txt` already exists, leave it untouched (the human may have edited it). Seed it from the template only when the file is missing.
+- **Copy, then reseed.** First copy the canonical template `.framework/templates/backlog/v1/override.txt` into `workspaces/backlog/<bookname>/override.txt`. Then reseed the copy: rewrite it grounded in the book's own `gist.md` and `storyline.md` so the mandate reflects this book — its premise, subject, figures, form, and language — instead of the template's fixed placeholder premise. The template supplies the structure (ভূমিকা / কিভাবে লিখতে হবে) and the craft-rule shape; the reseed replaces the template's hardcoded subject and sample stanzas with the book's real identity. Never leave a backlog copy carrying another book's premise.
+- **Fill gaps only.** If `override.txt` already exists, leave it untouched (the human may have edited it). Seed and reseed it only when the file is missing.
 - **Human-editable afterwards.** Once seeded, the human owns the file. Init never overwrites a human-edited copy.
 - **Consumed by the layout agent.** The layout agent (Phase 2) reads this backlog `override.txt` to derive the pipeline's dynamic master prompt (`workspaces/pipeline/<bookname>/override.txt`). The backlog file is the idea; the pipeline file is the resolved reality.
 

@@ -47,9 +47,11 @@ REPO_ROOT = Path(__file__).resolve().parent
 TOOLS_DIR = REPO_ROOT / "tools"
 CONFIG_PATH = REPO_ROOT / "config.json"
 
-# Make tools/ importable (mcpclient.py, book.py, notify, ... live there).
-if str(TOOLS_DIR) not in sys.path:
-    sys.path.insert(0, str(TOOLS_DIR))
+# Make tools/ and tools/mcpbangla/ importable (book.py, notify, kamolika, ...).
+MCPBANGLA_DIR = TOOLS_DIR / "mcpbangla"
+for _d in (MCPBANGLA_DIR, TOOLS_DIR):
+    if str(_d) not in sys.path:
+        sys.path.insert(0, str(_d))
 
 
 def load_config():
@@ -58,16 +60,16 @@ def load_config():
         return json.load(fh)
 
 
-def mcp_server_path(config=None):
-    """Resolve the kobi MCP server executable from config.json.
+def mcp_endpoint(config=None):
+    """Return the MCP HTTP endpoint URL.
 
-    The calling function (this harness) owns the configuration; the path is
-    passed to mcpclient via server_path_from_config — never hard-coded there.
+    The backend is reached over HTTP (Book.Backend). The legacy stdio
+    ``mcp.server`` entry in config.json describes a `the kobi engine` executable that
+    no longer ships, so it is deliberately ignored.
     """
-    import mcpclient
+    import kamolika
 
-    cfg = config or load_config()
-    return mcpclient.server_path_from_config(cfg)
+    return kamolika.BASE_URL
 
 
 # ---------------------------------------------------------------------------
@@ -75,9 +77,11 @@ def mcp_server_path(config=None):
 # ---------------------------------------------------------------------------
 
 def make_mcp_client(config=None):
-    import mcpclient
+    """Return the HTTP MCP client after completing the handshake."""
+    import kamolika
 
-    return mcpclient.McpClient(mcp_server_path(config))
+    kamolika.initialize()
+    return kamolika
 
 
 def make_app_module(config=None):

@@ -1,0 +1,53 @@
+{
+  "chapter_index": 21,
+  "name": "21",
+  "word_target": 300,
+  "chapter_title": "মায়ের চার সন্তান",
+  "chapter_summary": "লক্ষ্মী, সরস্বতী, কার্তিক আর গণেশ — মায়ের চার সন্তানের সঙ্গে দেবী মর্ত্যের ঘরে ঘরে আশীর্বাদ নিয়ে আসেন।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the four children not as divine attributes but as different modes of necessary human labor required for domestic stability (e.g., Lakshmi as meticulous accounting, Saraswati as archival knowledge).",
+      "Framing their arrival relative to the architectural space of the pandal—how each child occupies a distinct quadrant of the devotee's vision.",
+      "Treating the children not as figures in myth but as reflections of specific ancestral lines within the local community who bring 'blessings' (material, intellectual, artistic) into the household."
+    ],
+    "story_options": [
+      "Setting: The threshold of a modest home receiving a small offering; Desire: To trace the weight difference between placing one child-figure (a stone Ganesh) versus another (a light clay Lakshmi), leading to an obstacle defined by structural instability.",
+      "Setting: A quiet moment in the courtyard during Aarti, shielded from the main crowd's firelight; Desire: To focus solely on one child—perhaps Kartikeya—and explore his internal posture of duty while the others are visible nearby, forcing a turn toward solitary burden.",
+      "Setting: The communal area where the families gather to witness the deities; Desire: To track how different generations interpret each child—the elders seeing mythological grace, the youth seeing potential for vocational success (an obstacle stemming from outdated piety)."
+    ],
+    "subject_rotations": [
+      "A rotation focused entirely on the *interaction* between the four figures in close proximity, treating their juxtaposition as a complex ecosystem of needs rather than discrete gifts.",
+      "Shifting focus away from divinity toward embodiment: how these abstract forces (wealth, art, intellect, war) manifest physically when rendered in perishable materials like clay and colored pigment.",
+      "Analyzing the *relationship* between Ma Durga and her children through the lens of shared responsibility; what silent negotiations occur among them regarding who handles which aspect of their mother's divine demands?"
+    ],
+    "sensory_details": [
+      "The specific, earthy scent of wet ochre dust adhering to the miniature representations of each child.",
+      "The cool, slick feel of the paint (like dried river silt) on the polished forehead of one small figure.",
+      "The sudden, high-pitched sound made by tiny, hollowed bells attached near a deity's ankle as they are moved in procession."
+    ],
+    "research_questions": [
+      "Are there regional Bengali folk traditions that differentiate the practical functions assigned to Lakshmi/Saraswati beyond generalized 'prosperity' and 'knowledge' during festival preparation?",
+      "In contemporary Durga Puja iconography, how is the physical scale or posture of each child artistically manipulated to signify their importance relative to one another?"
+    ],
+    "structural_variants": [
+      "A cataloguing structure: dedicating a brief section to articulating the *entry* of each child as if they were separate processions entering the main tableau.",
+      "An oscillating structure: moving from a detailed focus on one child's attribute, to a panoramic view showing all four interacting with Ma Durga, and repeating this pattern."
+    ],
+    "unused_angles": [
+      "Exploring the internal political dynamics within the 'family'—how does Kartikeya navigate the expectations set by his more contemplative siblings?",
+      "The contrast between the vibrant material presence of the children versus the transcendent nature ascribed to their mother, Durga."
+    ],
+    "variety_note": "Unlike the focus on external acts (offering, battle aftermath), this chapter turns inward to examine the internal structure and distributed responsibilities embodied by Durga's immediate divine family within the domestic setting."
+  },
+  "draft": {
+    "sha256": "daeccbcb04b9ff24435560fabf377bb720913fa723a86a86e534ff4e529cd66b",
+    "written_at": "2026-10-28T07:35:08.541657+00:00",
+    "origin": "write"
+  }
+}

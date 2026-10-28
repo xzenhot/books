@@ -63,7 +63,7 @@ Use these as living coordinates when they fit the source:
 
 ## Instruction
 
-- Write poetic prose, no lyrics or rhymes.
+- Write poetic prose, no lyricss or rhymes.
 - If language not provided, Assume Bengali. Write text in Bengali.
 - Always start with a dramatically textured statement that immediately engages the core conflict of survival inherent in the phrase.
 - Seek attention—the immediate human calculus matters more than narrative continuity here. Focus on lived experience.
