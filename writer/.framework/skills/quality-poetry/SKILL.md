@@ -5,6 +5,14 @@ description: Review a poetry chapter against the seed analysis's quality paramet
 
 # Poetry Quality — Review and Apply Quality Parameters
 
+## Audit Metadata
+
+Chapter models and drafts are exempt. This skill may generate or rewrite
+`filters/quality/filter.md` and the pipeline `style.md`; both are non-exempt and
+must carry `updated_by` and `updated_date` per
+`.framework/rules/audit-metadata.md`, stamped as the invoking `review` agent (or
+`filter:quality`). Never stamp history/version snapshots.
+
 Use this skill for a poetry pipeline to audit a finished chapter against the **quality parameters** defined in the seed analysis, and revise it until it passes. This is the final gate before a chapter is marked `completed`.
 
 ## Current-Draft Requirement

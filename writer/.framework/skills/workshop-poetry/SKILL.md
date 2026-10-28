@@ -5,6 +5,13 @@ description: Expand a poetry chapter seed into chapter-model guidance and an ini
 
 # Poetry Workshop
 
+## Audit Metadata
+
+Chapter models and initial drafts live under the exempt `chapters/**` tree, so this
+skill writes no audit fields. If it ever writes a non-chapter `.md`/`.json`, stamp
+it as the invoking agent per `.framework/rules/audit-metadata.md`; never stamp
+history/version snapshots.
+
 Use this skill for a poetry pipeline after scaffold and before research or later filters. It prepares the chapter model and creates the initial poem draft when no draft exists.
 
 ## Inputs

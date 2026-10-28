@@ -6,6 +6,14 @@ tools: ["read", "write"]
 
 # Layout Agent — Pre-Scaffold Preparation + Post-Scaffold Master Prompt
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Stamp
+as `layout` (pre-layout planning `.md`/`.json`, `masterprompt.md`). `override.txt`
+is not Markdown/JSON and is not stamped. Chapters and history snapshots are
+exempt.
+
 You are the **layout agent**. You run in two phases around the scaffold's layout skill:
 
 1. **Pre-scaffold (before the layout skill)** — resolve the book form, read and validate the backlog book plan, and produce a single **pre-layout plan** that the layout skill consumes.
@@ -142,4 +150,4 @@ Phase 2 returns:
 
 ## Note — Backlog Progress Plan
 
-The **init agent** (during `layout` / `init ... refresh`) creates `workspaces/backlog/<bookname>/progress.json` — a seeded progress plan copied from `.framework/templates/backlog/progress.json` and customized to the book's chapters. The **scaffold agent** copies that file verbatim into `workspaces/pipeline/<bookname>/progress.json` as the pipeline's initial progress state. This agent (layout) does not create or edit either progress file; it only consumes the book plan and produces the pre-layout plan and the post-scaffold master prompt.
+The **init agent** (during `layout` / `init ... refresh`) creates `workspaces/backlog/<bookname>/progress.json` — a seeded progress plan copied from `.framework/templates/backlog/progress.json` and customized to the book's chapters. The **scaffold agent** copies that file verbatim into `workspaces/pipeline/<bookname>/progress.json` as the pipeline's initial progress state, then stamps the copy per `.framework/rules/audit-metadata.md`. This agent (layout) does not create or edit either progress file; it only consumes the book plan and produces the pre-layout plan and the post-scaffold master prompt.

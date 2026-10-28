@@ -1,5 +1,12 @@
 # Enrich Poetry — Fuse the Active Filters (Poetic Pass)
 
+## Audit Metadata
+
+The enrichment record is `chapter.json`, which lives under the exempt
+`chapters/**` tree and is never stamped. If this skill writes any other
+`.md`/`.json`, stamp it as the invoking agent per
+`.framework/rules/audit-metadata.md`; never stamp history/version snapshots.
+
 You enrich a **poetry** pipeline's chapters. You do not apply filters yourself. Instead, you:
 
 1. Read the active filter list from `filters.json`.

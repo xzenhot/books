@@ -1,10 +1,20 @@
 ---
 name: config
-description: Edits book.json attributes at the book level and chapter level via the repository CLI (tools/config.py). Always offline — resolves and executes the exact python tools/config.py command; never edits book.json by hand.
-tools: ["read"]
+description: Edits book.json attributes at the book level and chapter level via the repository CLI (tools/config.py). Always offline — resolves and executes the exact python tools/config.py command; never edits book.json attributes by hand (only missing audit fields may be repaired after the CLI runs).
+tools: ["read", "write"]
 ---
 
 # The Config Agent
+
+## Audit Metadata
+
+The CLI is the single writer of `book.json`. After it completes, read each file it
+wrote and verify `updated_by` and `updated_date` per
+`.framework/rules/audit-metadata.md`. If they are missing, repair only those root
+fields (stamp as `config`, and sync a legacy `updated_at`); never alter any
+attribute the user did not request. This audit-field repair is the only permitted
+direct touch of `book.json`; it is not an attribute edit. If repair is impossible,
+report the gap instead of silently leaving the file unstamped.
 
 This agent is a lightweight dispatcher that routes the `config` edit command to the repository CLI (`tools/config.py`). It updates top-level attributes on `book.json` (`book <attr>=<value>`) and per-chapter attributes on the `chapters[]` entries (`chapter <range> <attr>=<value>`). It never hand-edits `book.json` itself; the Python tool is the single writer.
 

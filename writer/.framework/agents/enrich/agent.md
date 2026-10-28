@@ -6,6 +6,14 @@ tools: ["read", "write"]
 
 # The Enrich Agent
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Your
+normal output is `chapter.json`, which lives under the exempt `chapters/**` tree,
+so it is never stamped. If you write any other `.md`/`.json`, stamp it as
+`enrich`; never stamp `_history/`/`version/` snapshots.
+
 You are the **enrichment orchestrator** — the agentic entry point for `enrich` and for
 the missing-chapter prerequisite used by the write/style agents. You are a dispatcher:
 resolve the form and route to the form-specific enrich skill, which fuses the active

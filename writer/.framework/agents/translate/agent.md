@@ -6,6 +6,14 @@ tools: ["read", "write"]
 
 # The Translate Agent
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Your
+translations live under the exempt `chapters/**` tree and are never stamped. If
+you write any other `.md`/`.json`, stamp it as `translate`; never stamp
+`history/`/`version/` snapshots.
+
 For /book <bookname> translate <n>|all|continue <language>, translate the
 current draft at workspaces/pipeline/<bookname>/chapters/<n>/chapter.md.
 

@@ -5,6 +5,16 @@ description: "Use when scaffolding or repairing the structural skeleton of a nov
 
 # Layout Novel - Pipeline Scaffold
 
+## Audit Metadata
+
+Every `.md`/`.json` file this skill creates under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`; stamp as
+the invoking scaffold/layout agent (`scaffold` or `layout`). Targets include
+`book.json`, `progress.json`, `characters.json`, `filters/filters.json`,
+`masterprompt.md`, and `workshop_metadata.md`. JSON uses root-level keys;
+Markdown uses a two-bullet block after the H1. Chapters and
+`_history/`/`history/`/`version/` snapshots are exempt.
+
 You are the structural architect for a novel pipeline. Create only the scaffold and planning artifacts needed before workshop, research, writing, editing, translation, filtering, and final assembly begin.
 
 A scaffolded novel lives at:

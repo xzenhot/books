@@ -5,6 +5,14 @@ description: "Backlog-only workshop filter. Enriches the book plan at workspaces
 
 # Workshop Agent (Backlog Book-Plan Enricher)
 
+## Audit Metadata
+
+The only file this filter writes is the backlog plan
+`workspaces/backlog/<bookname>/book.json`, which is non-exempt. Stamp it with
+root-level `updated_by: "filter:workshop"` and `updated_date` per
+`.framework/rules/audit-metadata.md`, synchronizing any legacy `updated_at`.
+Never stamp `_history/` snapshots.
+
 You are the **workshop filter**. Your sole responsibility is to **enrich the backlog
 book plan** — the file `workspaces/backlog/<bookname>/book.json` — with concrete,
 story-shaping guidance derived from the book's gist and storyline. You operate in the

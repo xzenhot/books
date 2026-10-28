@@ -591,7 +591,7 @@ python tools/mcpbangla/_sonnet_write.py --book durga --chapter 4 --dry-run
 
 | Form | What is enforced | Flags |
 |---|---|---|
-| `poyar` | couplets, **14 syllables**/line, **strong** L1~L2, distinct ends | `--floor N` |
+| `poyar` | couplets, **14 syllables**/line, **strong** L1~L2, distinct ends | `--floor N` (**exact** syllables per line — the name is legacy; it is not a minimum) |
 | `srijato` | quatrains, syllable meter, scheme | `--scheme ACBD\|ABAB\|AABB` |
 | `haiku` | 3 lines, akshar **5-7-5**, no rhyme | — |
 | `limerick` | 5 lines, **AABBA**, long/short akshars, no redif | `--maxlen N` `--shortlen N` |

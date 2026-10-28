@@ -5,6 +5,12 @@ description: "Use when defining, assigning, or weaving thematic categories into 
 
 # The Theme Agent
 
+## Audit Metadata
+
+This filter writes only the chapter model under the exempt `chapters/**` tree, so
+it stamps no audit fields. If it ever writes a non-chapter `.md`/`.json`, stamp it
+as `filter:theme` per `.framework/rules/audit-metadata.md`.
+
 This agent is only a dispatcher. It must not apply the theme assignment directly; it routes to the form-specific theme skill.
 
 ## Dispatch

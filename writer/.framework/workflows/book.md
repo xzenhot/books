@@ -29,7 +29,8 @@ For every `/book [args...]` request, follow this procedure:
    - `init`, `backlog`, `layout`, `idea`, or a bare `<bookname>` with no subcommand → **backlog.md**.
    - `scaffold`, `add`, `filter`, `enrich`, `eval`, `review`, `write`, `chapter`, `story`, `style`, `translate`, `publish`, `form`, `config`, `poet`/`poetry`/`poem`, `line`/`rhyme`/`sonnet`, `lyrics`, `limerick`/`limeric`, `haiku`, or a `<filter>`/`<agentname>` → **pipeline.md**.
 4. Read the delegated workflow spec and execute its matching section.
-5. Append the **Next Steps** section per `.framework/rules/next-steps.md` after **every** command (including read-only, no-op, and error stops).
+5. Stamp every `.md`/`.json` file written under `workspaces/` with `updated_by` and `updated_date`, per `.framework/rules/audit-metadata.md` — except the pipeline chapter tree and history/archive snapshots.
+6. Append the **Next Steps** section per `.framework/rules/next-steps.md` after **every** command (including read-only, no-op, and error stops).
 
 ## Command Families
 

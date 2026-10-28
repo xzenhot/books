@@ -6,6 +6,13 @@ tools: ["read"]
 
 # The Eval Agent
 
+## Audit Metadata
+
+This agent is strictly read-only: it never creates or edits a file, so it never
+stamps `updated_by`/`updated_date` per `.framework/rules/audit-metadata.md`. If it
+detects a missing or stale audit field on a non-exempt workspace `.md`/`.json`, it
+reports the file as a finding; it does not repair it.
+
 For `/book <bookname> eval all|*|<n>|<range>|continue`, evaluate whether the
 pipeline is complete enough to `write` and `publish`. This agent is **read-only**:
 it inspects state and reports a verdict; it never scaffolds, runs filters, writes

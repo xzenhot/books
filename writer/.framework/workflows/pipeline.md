@@ -21,6 +21,17 @@ Every command in this workflow **must pass through** `.framework/rules/command-b
 
 After **every** command in this workflow completes — including read-only, no-op, and early-stop results — append a **Next Steps** section to the response, following `.framework/rules/next-steps.md`. That rule is mandatory and unconditional; it maps each completed command to its recommended next action and optional follow-ups. Read it and apply it to every response.
 
+## Audit Metadata
+
+Every `.md` or `.json` file this workflow's agents create or edit under `workspaces/` must carry `updated_by` and `updated_date`, per `.framework/rules/audit-metadata.md`. Read that rule before the first write.
+
+- **JSON** (`book.json`, `progress.json`, `characters.json`, `filters.json`, filter outputs): root-level `updated_by` and `updated_date`; keep a legacy `updated_at` in sync.
+- **Markdown** (`masterprompt.md`, `filters/override/filter.md`, `style.md`, assembled `book.md`, filter outputs): a two-bullet block directly after the H1 (or at the top when no H1) — `- **updated_by:** <agent>` and `- **updated_date:** <ISO-8601-UTC>`.
+- **Stamp as:** the acting agent (`scaffold`, `filter:<name>`, `write`, `publish`, `style`, ...). A skill inherits its invoking agent's identity.
+- **Exempt:** the entire `workspaces/pipeline/<bookname>/chapters/**` tree and all `_history/`, `history/`, and `version/` archive snapshots. Never stamp immutable copies.
+- **Assembled books:** keep one consolidated block after the H1 in `book.md`; strip per-chapter blocks from the concatenated body.
+- **Clones:** stamp a copied file after copying; equality checks ignore the audit fields.
+
 ## Command Reference
 
 ```text
@@ -55,7 +66,7 @@ After **every** command in this workflow completes — including read-only, no-o
 | `<agentname>` | Runs any registered agent against selected chapters in an existing pipeline. Does not promote output to `workspaces/published/`. |
 | `write` | Runs the four-task composition sequence (enrich -> draft -> transform -> compose) and writes the finished chapter to `chapters/<n>/chapter.md`, updating `progress.json`. It does not promote to `workspaces/published/` — that is `publish`. Routes through the **write agent** (`.framework/agents/write/agent.md`), which resolves the form and dispatches to the poetry or novel skill. Ensures the writer-stage segment exists, archiving any prior copy first. Language resolves from `book.json` when not supplied. |
 | `chapter` / `story` | Aliases of `write` — write finished chapters through the **write agent** (`.framework/agents/write/agent.md`), routing to the poetry or novel skill by form. |
-| `publish [<language>]` | Routes through the publish agent (`.framework/agents/publish/agent.md`) to promote the latest writer-stage segments to a versioned folder `workspaces/published/<bookname>/version<k>/` and assemble `version<k>/book.md`. Without `<language>`, copies the latest segment from `chapters/<n>/segments/1/writer/`. With `<language>`, copies the latest translator segment from `chapters/<n>/segments/1/translator/` (e.g. `en.md`, `bn.md`). Read-only on the pipeline; writes only to `workspaces/published/`. Each publish creates a new version, so multiple published versions coexist. |
+| `publish [<language>]` | Routes through the publish agent (`.framework/agents/publish/agent.md`) to promote the latest writer-stage segments to a versioned folder `workspaces/published/<bookname>/version<k>/` and assemble `version<k>/book.md`. Without `<language>`, copies the latest segment from `chapters/<n>/segments/1/writer/`. With `<language>`, copies the latest translator segment from `chapters/<n>/segments/1/translator/` (e.g. `en.md`, `bn.md`). Read-only on pipeline content; writes to `workspaces/published/` and updates (and stamps) the pipeline `progress.json`. Each publish creates a new version, so multiple published versions coexist. |
 | `preview [<language>]` | Assembles the same output as `publish` — promotes the latest writer-stage (or translator, with `<language>`) segments into a versioned `workspaces/published/<bookname>/version<k>/` folder and assembles `version<k>/book.md` — but **skips the quality gate and review step**. It runs everything `publish` does except validation: no quality pass, no review requirement, no draft-hash check. Useful for inspecting a full draft of the book as it stands without waiting for review to pass. |
 
 | `style` | Applies a transformer style to the latest writer-stage chapter versions, delegating to the enrich agent for the target chapter before falling back to chapter-root `chapter.md` when no writer-stage draft exists. Resolves `<style>` from `.framework/context/poetry/styles/<style>/style.md`, defaults to `pijush`, and writes new writer-stage versions under `segments/1/writer/`. The enrich prerequisite may update the live draft and model after archiving; styling writes only a new writer version and does not promote output. |
@@ -89,7 +100,8 @@ command has an `offline` execution route, the agent resolves the command from
 | `eval` | `.framework/agents/eval/agent.md` | — (read-only) |
 | `review` | `.framework/agents/review/agent.md` | `quality-novel` / `quality-poetry` |
 | `humanize` | `.framework/agents/humanize/agent.md` | — |
-| `write` / `chapter` / `story` | `.framework/agents/write/agent.md` | `novel` / `poetry`, then `line` (transform), then the form skill (`sonnet` / `lyrics` / `limerick` / `haiku`) |
+| `write` / `chapter` / `story` | `.framework/agents/write/agent.md` | `novel` / `poetry`, then `line` (transform), then the form skill (`sonnet` / `lyrics` / `limerick` / `haiku` / `poyar`) |
+| `poyar` / `payar` | `.framework/agents/poyar/agent.md` | `.framework/skills/poyar/SKILL.md` |
 | `style` | `.framework/agents/style/agent.md` | (style template) |
 | `translate` | `.framework/agents/translate/agent.md` | — |
 | `publish` | `.framework/agents/publish/agent.md` | — |
@@ -122,6 +134,7 @@ before the command that needs it):
 |------|------|------------|
 | Command boundary & execution mode (`factory`) | `.framework/rules/command-boundary.md` | every command |
 | Next steps (mandatory after every command) | `.framework/rules/next-steps.md` | every command |
+| Audit metadata (`updated_by` / `updated_date`) | `.framework/rules/audit-metadata.md` | every workspace write (except chapters and history snapshots) |
 | Poetry lifecycle contract | `.framework/rules/poetry-lifecycle.md` | poetry pipelines |
 | Mandatory draft version before overwrite | `.framework/rules/draft-versioning.md` | write / style / poet |
 | Source versioning (reader-facing output) | `.framework/rules/source-versioning.md` | write / publish |
@@ -240,11 +253,11 @@ Responsibility: build the pipeline structure from the backlog book plan and form
 5. Stop if the backlog epic is missing for a novel; do not create or rewrite it. The actual story always comes from the existing epic.
 6. Invoke the scaffold agent at `.framework/agents/scaffold/agent.md`; do not invoke layout skills directly. Pass the epic (novel) or the gist/topic list (poetry), the chapter count, and **the path to the backlog book plan** `workspaces/backlog/<bookname>/book.json`.
 7. The scaffold agent MUST invoke the layout agent (`.framework/agents/layout/agent.md`, Phase 1) as its first step, before any layout work, to resolve the form, validate the book plan, and produce the pre-layout plan. The layout skill runs only after the pre-layout plan returns.
-8. **Clone the book plan and seed chapter models (mandatory).** After Phase 1 validation and before layout populates chapter folders, the scaffold agent must copy all three backlog source files — `gist.md`, `storyline.md`, and `book.json` — from `workspaces/backlog/<bookname>/` to `workspaces/pipeline/<bookname>/`. Copy `workspaces/backlog/<bookname>/book.json` to `workspaces/pipeline/<bookname>/book.json` in full, and copy `gist.md` and `storyline.md` verbatim alongside it. For Behula, this is `workspaces/backlog/behula/book.json` → `workspaces/pipeline/behula/book.json`. Preserve every field, value, and chapter entry; do not substitute a template or a reduced runtime model. Seed each chapter model from its matching `chapters` entry according to the model contract below. Use the cloned plan's declared `filter_chain` sequence to build `filters/filters.json`, never the layout skills' preset chain. Scaffold creates **only** `filters/filters.json` (the registry); it does not create per-filter folders — each filter creates its own `filters/<filter>/` folder when it first runs. These requirements take precedence over conflicting scaffold-agent or layout-skill model templates.
+8. **Clone the book plan and seed chapter models (mandatory).** After Phase 1 validation and before layout populates chapter folders, the scaffold agent must copy all three backlog source files — `gist.md`, `storyline.md`, and `book.json` — from `workspaces/backlog/<bookname>/` to `workspaces/pipeline/<bookname>/`. Copy `workspaces/backlog/<bookname>/book.json` to `workspaces/pipeline/<bookname>/book.json` in full, and copy `gist.md` and `storyline.md` verbatim alongside it. For Behula, this is `workspaces/backlog/behula/book.json` → `workspaces/pipeline/behula/book.json`. After copying, stamp each copied `.md`/`.json` with `updated_by: "scaffold"` and the current `updated_date` per `.framework/rules/audit-metadata.md`; the copy stays semantically identical. Preserve every other field, value, and chapter entry; do not substitute a template or a reduced runtime model. Seed each chapter model from its matching `chapters` entry according to the model contract below. Use the cloned plan's declared `filter_chain` sequence to build `filters/filters.json`, never the layout skills' preset chain. Scaffold creates **only** `filters/filters.json` (the registry); it does not create per-filter folders — each filter creates its own `filters/<filter>/` folder when it first runs. These requirements take precedence over conflicting scaffold-agent or layout-skill model templates.
 9. Apply form-specific initialization (below).
 10. **Seed the override command file lazily.** The override command file `workspaces/pipeline/<bookname>/filters/override/filter.md` is not created at scaffold. It is seeded on first use — by the override filter, the write/poet path, or any step that needs it — with form-customized content derived from `.framework/filters/override/SKILL.md` whenever `override` appears in the book plan's `filter_chain`.
 11. **Generate the dynamic master prompt.** After layout, the scaffold agent MUST invoke the layout agent (`.framework/agents/layout/agent.md`, Phase 2) to derive the pipeline's dynamic master prompt from the backlog idea (`workspaces/backlog/<bookname>/override.txt`) and the resolved pipeline state, writing it to `workspaces/pipeline/<bookname>/override.txt`. This is a mandatory final step — a scaffold is not complete until the layout agent has run.
-12. **Verify the model contract before completing scaffold.** The root `book.json` must still equal the complete backlog `book.json` as parsed JSON after layout and the master prompt. Each chapter model must contain all fields from its matching plan entry with identical values and types. Missing, duplicated, or mismatched chapter identities fail validation; do not report scaffold complete until resolved. Run only the scaffold and layout agents and delegated layout work here, not filter or writing agents. After scaffold, the user must run `/book <bookname> filter <filter>` for each filter, in order, to populate filter outputs.
+12. **Verify the model contract before completing scaffold.** The root `book.json` must still equal the complete backlog `book.json` as parsed JSON after layout and the master prompt, ignoring `updated_by`, `updated_date`, and the synchronized legacy `updated_at` per `.framework/rules/audit-metadata.md`. Each chapter model must contain all fields from its matching plan entry with identical values and types. Missing, duplicated, or mismatched chapter identities fail validation; do not report scaffold complete until resolved. Run only the scaffold and layout agents and delegated layout work here, not filter or writing agents. After scaffold, the user must run `/book <bookname> filter <filter>` for each filter, in order, to populate filter outputs.
 13. Write chapters only after all filter outputs have been produced.
 
 Scaffold execution goes through `.framework/agents/scaffold/agent.md`, and that agent invokes the selected form-specific layout skill. The authoritative scaffold rules live in `.framework/skills/layout-novel/SKILL.md` for novels and `.framework/skills/layout-poetry/SKILL.md` for poetry; the scaffold agent selects the correct one by form.
@@ -300,7 +313,7 @@ Every epic embeds a **Metadata** block near the top, right after the title and s
 | Field | Meaning |
 |-------|---------|
 | Title / Book name / Storyline path | The book's long title; the `<bookname>`; `workspaces/backlog/<bookname>/storyline.md` |
-| Created / Updated / Updated By | ISO 8601 timestamps and the agent/model that last updated |
+| Created / `updated_date` / `updated_by` | ISO 8601 timestamps and the agent that last updated (see `.framework/rules/audit-metadata.md`) |
 | User / Author / Machine | The invoking user; the authoring engine; the producing model/agent |
 | Language / Genre / Era | The epic's language code, genre, and historical era |
 | Chapter count / Gist | The number of chapters; the single-sentence gist |
@@ -503,6 +516,36 @@ For `/book <bookname> poet` (aliases: `poetry`, `poem`):
    language. Write the result to `workspaces/published/<bookname>/<version>/poem.md` (or
    `poems/override.md` if present); do not overwrite a human-edited poem.
 
+## The Poyar Command
+
+For `/book <bookname> poyar <n>|<chapter> [replace]` (alias: `payar`):
+
+1. Stop if the pipeline does not exist; use `scaffold` first. Stop if the form is
+   not `poetry`.
+2. Resolve the **poyar style cache** at `workspaces/pipeline/<bookname>/style.md`.
+   Poyar's default style is `poyar`, grounded from
+   `.framework/context/poetry/styles/poyar/{sample.txt,signature.md,style.md}`:
+   - **Reuse** when the file's `<!-- style-provenance -->` block declares
+     `style: poyar` for this book — never regenerate per chapter.
+   - **Synthesize** when it is missing, grounded to another style (e.g. a Srijato
+     "Refrain + Verses" reference at 6–12 syllables), stale against
+     `book.json` → `updated_at`, or names another book.
+   - **Honor** `human_edited: true`; never revert it.
+   A style grounded to a different form contradicts the couplet contract and must
+   not be composed against.
+3. Route through the poyar agent (`.framework/agents/poyar/agent.md`) →
+   `.framework/skills/poyar/SKILL.md`. That skill owns the couplet contract:
+   exactly 14 syllables per line in the `4 + 4 + 4 + 2` measure, strong L1~L2
+   rhyme inside each couplet, no cross-couplet rhyme, daily-used spoken register,
+   and continuous flow between couplets. The couplet count derives from the
+   chapter's `word_target`.
+4. **Never** satisfy a poyar request with `.framework/skills/poetry/SKILL.md`. That
+   skill writes continuous poetic prose and cannot meet the couplet contract.
+5. The agent writes `chapters/<n>/chapter.md` (archiving the prior copy to
+   `segments/1/version/`), records the form evidence in `chapter.json`, and must
+   report `=== PASS ===` from
+   `python tools/mcpbangla/verse.py audit <file> --form poyar`.
+
 ## The Style Command
 
 For `/book <bookname> style [<style>]`:
@@ -621,6 +664,13 @@ when line 2 cannot reach one, rework line 1 — shuffle or replace it — rather
 accept the weak pair. `tools/mcpbangla/verse.py rhyme A B` exits non-zero for a
 weak pair.
 
+**Poyar composition is owned by its own skill.** Task 3 only calibrates an existing
+draft to the meter; the poyar form itself is authored under
+`.framework/skills/poyar/SKILL.md` (dispatched via `.framework/agents/poyar/agent.md`),
+which owns the couplet contract, the strong-rhyme protocol, the flow rule, and the
+`word_target`-derived couplet count. Do not use the generic `poetry` skill to
+produce poyar content.
+
 Route through `.framework/agents/line/agent.md`. For each line:
 
 1. Measure with the form's ruler via MCP (`tools/mcpbangla/kamolika.py`).
@@ -650,6 +700,18 @@ form-specific agent and skill:
 | lyrics / modern song (refrain + verses, syllable signature) | `lyrics` | `.framework/agents/lyrics/agent.md` | `.framework/skills/lyrics/SKILL.md` |
 | Limerick (5-line AABBA) | `limerick` | `.framework/agents/limerick/agent.md` | `.framework/skills/limerick/SKILL.md` |
 | Haiku (5-7-5 akshars) | `haiku` | `.framework/agents/haiku/agent.md` | `.framework/skills/haiku/SKILL.md` |
+| **Poyar (14-syllable couplets)** | `poyar` / `payar` | `.framework/agents/poyar/agent.md` | `.framework/skills/poyar/SKILL.md` |
+
+**Poyar is a fixed form with a dedicated skill.** Never compose it through
+`.framework/skills/poetry/SKILL.md` — that skill writes continuous poetic prose
+and cannot satisfy the couplet contract (exactly 14 syllables per line, strong
+L1~L2 rhyme, no cross-couplet rhyme). `poyar` is also a style-directory name under
+`.framework/context/poetry/styles/poyar/`; when that name is invoked, treat it as
+this form and route here. Its default style is `poyar`, grounded from
+`.framework/context/poetry/styles/poyar/` and **cached per book** at
+`workspaces/pipeline/<bookname>/style.md` with a `<!-- style-provenance -->` block:
+reuse that cache, synthesize it only on a miss, and never compose against a
+reference grounded to another form.
 
 Rhyme schemes are style-level. The default scheme is `ACBD`, resolved per stanza
 as **L1 rhymes L3, L2 rhymes L4** — not a vertical map across stanzas. Verify each
@@ -664,7 +726,7 @@ model records:
 
 ```json
 {
-  "form_skill": "<sonnet|lyrics|limerick|haiku|srijato|poyar>",
+  "form_skill": "<sonnet|lyrics|limerick|haiku|poyar|srijato>",
   "form": "poem",
   "rhyme_scheme": "ACBD",
   "syllable_counts": [7, 7, 7, 7],
@@ -760,8 +822,9 @@ For `/book <bookname> publish [<language>]`:
    the book name and optional `<language>`. The agent owns version allocation,
    writer-stage or translator-stage promotion, `book.md` assembly, and the
    `progress.json` update — see its `## Online (Agentic) Publish` section for the
-   full step contract. It is read-only on the pipeline; it writes only to
-   `workspaces/published/`.
+   full step contract. It is read-only on pipeline content; it writes only to
+   `workspaces/published/` and to the pipeline `progress.json` (including its audit
+   fields).
 3. The agent may apply the optional **framework health gate** — when
    `publish_gate_framework_health: true` is set in `book.json`, a judge score of
    49 or below (`Broken`/`Inoperable`) refuses the publish. Disabled by default.

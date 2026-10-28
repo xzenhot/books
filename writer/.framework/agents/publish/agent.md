@@ -1,10 +1,23 @@
 ---
 name: publish
-description: Routes the publish command to the repository CLI (publish.py). Promotes validated chapter drafts to versioned workspaces/published output and assembles book.md. Read-only on the pipeline; writes only to workspaces/published/.
-tools: ["read"]
+description: Routes the publish command to the repository CLI (publish.py). Promotes validated chapter drafts to versioned workspaces/published output and assembles book.md. Read-only on pipeline content; writes published output and stamps audit fields on the pipeline progress.json it updates.
+tools: ["read", "write"]
 ---
 
 # The Publish Agent
+
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/published/` must
+carry `updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`.
+Stamp published chapter files and version metadata as `publish`; in assembled
+`book.md`, keep one consolidated block after the H1 and strip per-chapter audit
+blocks from the body. Pipeline sources under `chapters/**` stay unstamped, but
+the pipeline `progress.json` that publish updates is non-exempt and must be
+stamped as `publish`.
+Because publish may run through the CLI, verify the produced files after it
+completes and repair only the two audit fields when they are missing; report a
+gap if repair is impossible.
 
 This agent is a lightweight dispatcher that routes the publish command to the repository CLI (`publish.py`). It never reads the backlog or the epic.
 

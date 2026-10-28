@@ -6,6 +6,13 @@ tools: ["read", "write"]
 
 # The Style Agent
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Stamp
+the pipeline `style.md` (and any other non-chapter `.md`/`.json`) as `style`.
+Writer-stage chapter versions and their history/version snapshots are exempt.
+
 You are the **Style Agent**. Your job is to **identify a named transformer style
 and write a single detailed, book-grounded style document** for it to the book's
 `style.md`. You do not transform chapters, write drafts, scaffold, run filters,
@@ -24,6 +31,26 @@ When `<style>` is omitted, default by the book's **form**:
 
 Resolve the form from the pipeline `book.json` (`form` field), falling back to
 the backlog `book.json`.
+
+## Fixed Forms Own Their Reference
+
+`poyar` is a **metred fixed form**, not a free voice. When `<style>` resolves to
+`poyar` — or when the book's poyar chapters are being styled — do **not** build a
+free-voice document from `sample.txt`. Instead delegate to the poyar flow, which
+owns the grounded reference and caches it:
+
+```text
+.framework/agents/poyar/agent.md → .framework/skills/poyar/SKILL.md
+```
+
+That skill synthesizes `workspaces/pipeline/<bookname>/style.md` from
+`.framework/context/poetry/styles/poyar/{sample.txt,signature.md,style.md}` plus the
+book's `book.json`/`storyline.md`, writes the `<!-- style-provenance -->` block, and
+reuses the result thereafter. A free-voice document would drop the couplet
+contract (14 syllables, strong L1~L2 rhyme) and break the form.
+
+The same applies in reverse: never overwrite an existing `style.md` that carries a
+`poyar` provenance block with a free-voice document.
 
 ## Record The Style In The Book Plan
 

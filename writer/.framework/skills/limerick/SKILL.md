@@ -5,6 +5,13 @@ description: Fixed-form Bengali limerick (লিমেরিক) — five lines,
 
 # Limerick Skill (লিমেরিক)
 
+## Audit Metadata
+
+This skill writes only chapter content and its history/version snapshots, all
+inside the exempt `chapters/**` tree, so it stamps no audit fields. If it ever
+writes a non-chapter `.md`/`.json`, stamp it as the invoking agent per
+`.framework/rules/audit-metadata.md`.
+
 Use this skill to compose a **Bengali limerick** — a five-line humorous or
 satirical poem with an **AABBA** rhyme scheme: two long lines, two short lines,
 and a closing long line that delivers the punchline.

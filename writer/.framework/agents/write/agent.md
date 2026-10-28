@@ -6,6 +6,14 @@ tools: ["read", "write"]
 
 # The Write Agent
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Chapter
+drafts/models and their history/version snapshots are exempt. Stamp
+`progress.json` (and any other non-chapter `.md`/`.json`) as `write`; never stamp
+immutable copies.
+
 This agent is the sole owner of chapter composition. It runs the **four-task
 sequence** and delegates each stage to the owning agent — it does not author
 content itself except through those delegates.
@@ -60,9 +68,17 @@ words must also share an identical final rhyme unit (see above).
 | lyrics / modern song | `.framework/agents/lyrics/agent.md` | `.framework/skills/lyrics/SKILL.md` |
 | Limerick | `.framework/agents/limerick/agent.md` | `.framework/skills/limerick/SKILL.md` |
 | Haiku | `.framework/agents/haiku/agent.md` | `.framework/skills/haiku/SKILL.md` |
+| **Poyar (couplets)** | `.framework/agents/poyar/agent.md` | `.framework/skills/poyar/SKILL.md` |
 
-Style-level forms (`srijato`, `poyar`) are resolved through the book's style and
-composed directly under the style contract.
+**Poyar has a dedicated skill.** It is a metred, rhymed couplet form (exactly 14
+syllables per line, strong L1~L2 rhyme), not a voice to be layered onto the
+generic `poetry` skill. When `poyar` is the resolved form or style, task 4 routes
+to `.framework/agents/poyar/agent.md` → `.framework/skills/poyar/SKILL.md`.
+Never satisfy a poyar request with `.framework/skills/poetry/SKILL.md` — that
+skill writes continuous prose and cannot meet the couplet contract.
+
+Style-level forms without a dedicated skill (`srijato`) are resolved through the
+book's style and composed directly under the style contract.
 
 ## Invocation
 
@@ -154,6 +170,11 @@ order, and report each as it completes. For one chapter:
    and re-resolve the form.
 6. Route by form: poetry → `.framework/skills/poetry/SKILL.md`; novel →
    `.framework/skills/novel/SKILL.md`.
+   **Exception — `poyar`:** when the resolved style or an explicit argument is
+   `poyar`, route to `.framework/agents/poyar/agent.md` →
+   `.framework/skills/poyar/SKILL.md`. Poyar is a fixed couplet form (exactly 14
+   syllables per line, strong L1~L2 rhyme) with its own dedicated skill; it must
+   never be composed by the generic poetry skill, which writes continuous prose.
 7. Flatten `chapter.json` → `context.md`, build the prompt, and pass it (with the
    chapter model, style, language, word target, and override path) to the skill.
 8. Report the writer-stage output: form, style, language, word target, and whether

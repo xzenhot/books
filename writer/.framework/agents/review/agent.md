@@ -6,6 +6,14 @@ tools: ["read", "write"]
 
 # The Quality Agent
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Chapter
+models and drafts are exempt. Stamp generated command files such as
+`filters/quality/filter.md` (and any other non-chapter `.md`/`.json`) as `review`;
+never stamp history/version snapshots.
+
 This agent is only a dispatcher. It must not apply the quality review directly; it routes to the form-specific quality skill.
 
 ## Invocation
@@ -41,7 +49,7 @@ This agent is only a dispatcher. It must not apply the quality review directly; 
 ## Dispatch
 
 1. Read `workspaces/pipeline/<bookname>/book.json` and the matching chapter model.
-2. **Regenerate the style reference from current context.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy `.framework/context/poetry/styles/pijush/style.md` into it if missing, without overwriting a human-edited file), then rewrite it from `workspaces/pipeline/<bookname>/book.json` and `override.txt` so its subject matter matches this book's topics — re-grounding any stale/unrelated narrative (e.g. a Behula template) to the current book. Keep the voice/philosophy/register intact; only re-ground the "what". If `override.txt` carries a transformation mandate, fold it in.
+2. **Regenerate the style reference from current context.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy `.framework/context/poetry/styles/pijush/style.md` into it if missing, without overwriting a human-edited file), then rewrite it from `workspaces/pipeline/<bookname>/book.json` and `override.txt` so its subject matter matches this book's topics — re-grounding any stale/unrelated narrative (e.g. a Behula template) to the current book. Keep the voice/philosophy/register intact; only re-ground the "what". If `override.txt` carries a transformation mandate, fold it in. **Exception — form-grounded cache:** if `style.md` opens with a `<!-- style-provenance ... -->` block whose `style:` is a fixed form (`poyar`) rather than a free voice, do **not** overwrite it with the `pijush` template. That file is the operative reference for a metred form; leave it intact and audit the chapter against its contract instead.
 3. Resolve the form from the pipeline model first, then the chapter model's `syntax.form`, then the cloned book plan.
 4. If the form is `poetry`, read and invoke `.framework/skills/quality-poetry/SKILL.md`.
 5. If the form is `novel`, read and invoke `.framework/skills/quality-novel/SKILL.md`.

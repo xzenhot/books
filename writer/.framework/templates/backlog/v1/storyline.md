@@ -3,8 +3,8 @@
 - **Book name:** fresco
 - **Storyline path:** workspaces/backlog/fresco/storyline.md
 - **Created:** 2026-10-04T00:00:00Z
-- **Updated:** 2026-10-04T00:00:00Z
-- **Updated by:** init agent
+- **updated_by:** init
+- **updated_date:** 2026-10-04T00:00:00Z
 - **Form:** poetry
 - **Language:** English
 - **Genre:** philosophical poem sequence

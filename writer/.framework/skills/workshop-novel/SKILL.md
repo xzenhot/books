@@ -5,6 +5,13 @@ description: Expand a novel chapter seed into chapter-model guidance and an init
 
 # Novel Workshop
 
+## Audit Metadata
+
+Chapter models and initial drafts live under the exempt `chapters/**` tree, so this
+skill writes no audit fields. If it ever writes a non-chapter `.md`/`.json`, stamp
+it as the invoking agent per `.framework/rules/audit-metadata.md`; never stamp
+history/version snapshots.
+
 Use this skill for a novel pipeline after scaffold and before research or later filters. It prepares the chapter model and creates the initial chapter draft when no draft exists.
 
 ## Inputs

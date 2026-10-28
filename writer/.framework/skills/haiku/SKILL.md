@@ -5,6 +5,13 @@ description: Fixed-form Bengali haiku (হাইকু) — three lines of 5-7-5
 
 # Haiku Skill (হাইকু)
 
+## Audit Metadata
+
+This skill writes only chapter content and its history/version snapshots, all
+inside the exempt `chapters/**` tree, so it stamps no audit fields. If it ever
+writes a non-chapter `.md`/`.json`, stamp it as the invoking agent per
+`.framework/rules/audit-metadata.md`.
+
 Use this skill to compose a **Bengali haiku** — a three-line poem of **5-7-5
 akshars** that captures a single, fleeting moment of perception in nature,
 anchored by a **season word** (ঋতুশব্দ) and marked by a **pause** (kireji).

@@ -27,6 +27,15 @@ Every command in this workflow **must pass through** `.framework/rules/command-b
 
 After **every** command in this workflow completes — including read-only, no-op, and early-stop results — append a **Next Steps** section to the response, following `.framework/rules/next-steps.md`. That rule is mandatory and unconditional; it maps each completed command to its recommended next action and optional follow-ups. Read it and apply it to every response.
 
+## Audit Metadata
+
+Every `.md` or `.json` file this workflow creates or edits under `workspaces/` must carry `updated_by` and `updated_date`, per `.framework/rules/audit-metadata.md`. Read that rule before the first write.
+
+- **Markdown** (`gist.md`, `storyline.md`): a two-bullet block directly after the H1 — `- **updated_by:** <agent>` and `- **updated_date:** <ISO-8601-UTC>` — or inside an existing metadata list after the H1. Migrate legacy `Updated` / `Updated by` bullets to these keys instead of duplicating them.
+- **JSON** (`book.json`, `progress.json`): root-level `updated_by` and `updated_date`; keep a legacy `updated_at` in sync.
+- **Stamp as:** the owning agent (`init` for backlog files; `layout` for layout-derived files).
+- **Exempt:** `_history/` archive snapshots and non-Markdown/non-JSON files.
+
 ## Scope Boundary
 
 The backlog workflow operates **only inside the backlog**:
@@ -86,7 +95,7 @@ then derive `book.json`. `layout` is its own command, not an alias of `init`.
    owns storyline generation and book-plan derivation, including the
    **Incremental Count Rule** (append-only, never truncate) and the
    **Refresh And Count Contract**. It preserves the original `Created` timestamp
-   and updates `Updated`/`Updated By`.
+   and updates `updated_by`/`updated_date`.
 
 ## The Idea Command
 

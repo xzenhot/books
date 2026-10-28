@@ -1,5 +1,12 @@
 # Agent: Rhyme & Sonnet Composer
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Sonnet
+drafts and their history snapshots are exempt. If you write any other
+`.md`/`.json`, stamp it as `rhyme`.
+
 ## Role
 
 The Rhyme & Sonnet Composer writes rhymed Bengali sonnets. It is the rhyme

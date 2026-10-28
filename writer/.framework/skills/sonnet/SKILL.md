@@ -5,6 +5,13 @@ description: Fixed-form Bengali sonnet — 14 lines of exactly 14 akshars each, 
 
 # Sonnet Skill (বাংলা সনেট)
 
+## Audit Metadata
+
+This skill writes only chapter content and its history/version snapshots, all
+inside the exempt `chapters/**` tree, so it stamps no audit fields. If it ever
+writes a non-chapter `.md`/`.json`, stamp it as the invoking agent per
+`.framework/rules/audit-metadata.md`.
+
 Use this skill to compose or calibrate a **Bengali sonnet**: exactly **14 lines**,
 each **14 akshars** (অক্ষর), split **8 + 6** at the caesura, with a **volta** at
 line 9 and an optional verified rhyme scheme.

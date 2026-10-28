@@ -5,6 +5,13 @@ description: Modern Bengali song lyrics (আধুনিক গান), in the t
 
 # lyrics Skill (আধুনিক গান / Bengali song)
 
+## Audit Metadata
+
+This skill writes only chapter content and its history/version snapshots, all
+inside the exempt `chapters/**` tree, so it stamps no audit fields. If it ever
+writes a non-chapter `.md`/`.json`, stamp it as the invoking agent per
+`.framework/rules/audit-metadata.md`.
+
 > Voice tradition: the Salil Chowdhury line — the refrain that pivots, the verse
 > that answers it, and a next word chosen for its sound in the mouth.
 

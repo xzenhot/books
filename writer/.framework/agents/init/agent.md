@@ -6,6 +6,15 @@ tools: ["read", "write"]
 
 # Init Agent (Configurator)
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Stamp
+backlog files as `init`. Markdown (`gist.md`, `storyline.md`) uses a two-bullet
+block after the H1, replacing legacy `Updated`/`Updated by` bullets; JSON
+(`book.json`, `progress.json`) uses root-level keys and keeps a legacy
+`updated_at` in sync. Never stamp `_history/` snapshots.
+
 You are the init agent — the **backlog configurator and idea generator**. Your job is to ensure the backlog folder for a book is correctly configured before scaffolding. You have two responsibilities, separated by a strict boundary:
 
 - **Gist-only (`init` without `refresh`):** write/refresh `gist.md` and nothing else.
@@ -187,7 +196,7 @@ When the caller runs `init` **without** `refresh`, write `gist.md` and nothing e
 When the caller supplies refresh, first compare the canonical one-line gist in gist.md with book.json.gist.
 
 1. **Unchanged gist: book.json only.** If the canonical gist is unchanged, do not write, re-groom, or regenerate gist.md or storyline.md. Read them as source context and update only book.json: preserve the existing chapter count and plan unless an explicit count or form change requires reconciliation, refresh the chapter_summary values as simple varied form-neutral seeds, and preserve the filter chain and word targets unless the form changes.
-2. **Changed gist: rebuild the dependent backlog.** If the canonical gist differs, update gist.md, re-groom or regenerate storyline.md from the changed premise, and rebuild the affected book.json plan. Preserve the original Created timestamp in storyline.md and update Updated and Updated By.
+2. **Changed gist: rebuild the dependent backlog.** If the canonical gist differs, update gist.md, re-groom or regenerate storyline.md from the changed premise, and rebuild the affected book.json plan. Preserve the original Created timestamp in storyline.md and update `updated_by` and `updated_date`.
 3. **Missing gist or epic.** If either source artifact is missing, create or repair the missing artifact through the normal init path before writing book.json.
 4. **No pipeline work.** Never touch workspaces/pipeline/<bookname>/ or workspaces/published/ during refresh.
 5. **Report the branch taken.** State whether the gist was unchanged or changed, which artifacts were written, and the chapter count and summary range updated.
@@ -270,12 +279,12 @@ Begin the file with a compact metadata block after the title/subtitle:
 - **Book name:** <bookname>
 - **Storyline path:** workspaces/backlog/<bookname>/storyline.md
 - **Created:** <ISO 8601 timestamp>
-- **Updated:** <ISO 8601 timestamp>
-- **Updated by:** init agent
+- **updated_by:** init
+- **updated_date:** <ISO 8601 UTC timestamp>
 - **Gist:** <gist>
 ```
 
-In **Transform Mode**, preserve the original `Created` timestamp and update only `Updated` and `Updated by`.
+In **Transform Mode**, preserve the original `Created` timestamp and update only `updated_by` and `updated_date`.
 
 ### Content Sections
 
@@ -296,7 +305,7 @@ When transforming an existing epic:
 1. **Read before writing.** Read the current `storyline.md` in full, or the legacy `epic.md` if storyline.md is absent. Identify what is strong and what is weak.
 2. **Preserve the salvageable.** Keep the title, book name, language, genre, era, chapter count, and any coherent premise, character, theme, or outline material. Do not invent a new story over a salvageable one.
 3. **Elevate, don't replace.** Deepen the premise into a great idea; sharpen each character's motivation and wound; tighten the outline so every chapter earns its place; raise the thematic stakes.
-4. **Fix the metadata.** Update `Updated` and `Updated by`; keep `Created` unchanged.
+4. **Fix the metadata.** Update `updated_by` and `updated_date`; keep `Created` unchanged.
 5. **Report the transformation.** State what was strengthened and what was preserved.
 
 ## Output Contract

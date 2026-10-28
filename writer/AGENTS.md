@@ -48,6 +48,7 @@ Supported command families are defined by the two start-point specs. The backlog
 /book <bookname> form <novel|poetry>
 /book <bookname> config [<key> [<value>]]
 /book <bookname> poet|poetry|poem
+/book <bookname> poyar|payar <n>|<chapter> [replace]      # dedicated couplet form
 /book <bookname> workshop chapter <n|range|*> update <verb>   # backlog-only; verb: summary|character|reference|update|expand
 
 /book -o | --options | list
@@ -189,6 +190,16 @@ Known scaffold helper agents:
 layout
 ```
 
+Known form-specific agents (fixed poetic forms; each owns its own skill):
+
+```text
+sonnet (via line/rhyme), lyrics, limerick, haiku, poyar
+```
+
+`poyar` is a **dedicated form**, not a style layered onto the generic poetry
+skill: `.framework/agents/poyar/agent.md` → `.framework/skills/poyar/SKILL.md`.
+Never compose poyar through `.framework/skills/poetry/SKILL.md`.
+
 ## Agent-First Skill Invocation
 
 Workflows must never execute skills directly.
@@ -251,6 +262,14 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/translate/agent.md
 .framework/agents/publish/agent.md
 
+# Form-specific agents (fixed poetic forms)
+.framework/agents/poyar/agent.md
+.framework/agents/limerick/agent.md
+.framework/agents/haiku/agent.md
+.framework/agents/lyrics/agent.md
+.framework/agents/line/agent.md
+.framework/agents/rhyme/agent.md
+
 # Filter agents (moved to .framework/filters/)
 .framework/filters/workshop/SKILL.md
 .framework/filters/research/SKILL.md
@@ -279,6 +298,13 @@ Agents are the only valid runtime entry points for skill-backed behavior.
 .framework/skills/theme-novel/SKILL.md
 .framework/skills/enrich-poetry/SKILL.md
 .framework/skills/enrich-novel/SKILL.md
+
+# Form-specific skills (fixed poetic forms)
+.framework/skills/poyar/SKILL.md
+.framework/skills/sonnet/SKILL.md
+.framework/skills/limerick/SKILL.md
+.framework/skills/haiku/SKILL.md
+.framework/skills/lyrics/SKILL.md
 ```
 
 Read skill files only from inside the responsible agent flow.
@@ -375,6 +401,22 @@ workspaces/published/<bookname>/<version>/book.md
 
 Only promote text after the required validation filters have passed.
 
+## Audit Metadata
+
+Every Markdown (`.md`) and JSON (`.json`) file an agent creates or edits under `workspaces/` must carry two audit fields, per `.framework/rules/audit-metadata.md`:
+
+```text
+updated_by    # the acting agent name, e.g. init, scaffold, filter:research, write, publish
+updated_date  # ISO 8601 UTC timestamp, YYYY-MM-DDTHH:MM:SSZ
+```
+
+- **Markdown:** a two-bullet block directly after the H1 (or at the top when no H1; inside an existing metadata list when one is already there):
+  `- **updated_by:** <agent>` and `- **updated_date:** <timestamp>`.
+- **JSON:** root-level `updated_by` and `updated_date` keys; keep any legacy `updated_at` in sync.
+- **Exempt:** `workspaces/pipeline/<bookname>/chapters/**` and every `_history/`, `history/`, or `version/` archive snapshot. Never stamp immutable copies.
+- **Preserve:** merge the fields; never drop existing fields or backdate `created_at`/`Created`.
+- **Clone rule:** when a file is copied to a new location, copy the bytes first, then stamp the copy; equality checks ignore the audit fields.
+
 ## Validation And Promotion Rules
 
 Before writing to `workspaces/published/`, apply the pipeline filters in the order specified by `.framework/workflows/pipeline.md`.
@@ -421,9 +463,10 @@ For every `/book` request:
 5. Select the responsible agent from `.framework/agents/`.
 6. Let that agent invoke any required skill.
 7. Write intermediate outputs only to the pipeline; never write `chapter.md` from a filter or the enrich agent. Workshop is backlog-only and never touches the pipeline.
-8. Run the required filters and validations.
-9. Promote final text to `workspaces/published/` only after validation passes.
-10. Report what changed, what was validated, and what remains pending.
+8. Stamp every written `.md`/`.json` file with `updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`, except the chapter tree and history/archive snapshots.
+9. Run the required filters and validations.
+10. Promote final text to `workspaces/published/` only after validation passes.
+11. Report what changed, what was validated, and what remains pending.
 
 ### After structural changes to the framework
 

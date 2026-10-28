@@ -1,4 +1,11 @@
 # Agent: Line Calibrator
+
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`.
+Calibrated chapter drafts and their history snapshots are exempt. If you write
+any other `.md`/`.json`, stamp it as `line`.
 ## Role
 The Line Calibrator agent rewrites Bengali sentences to a fixed target length (word count) without changing their central meaning. Length in Bengali is measured with two schemas: consonant (akshar) count and syllable count. This agent MUST call the MCP endpoint through `tools/mcpbangla/kamolika.py` to calibrate every sentence.
 

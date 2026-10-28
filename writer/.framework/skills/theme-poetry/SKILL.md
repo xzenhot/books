@@ -5,6 +5,13 @@ description: Assign a poetry chapter its thematic lens and stereotype (signature
 
 # Poetry Theme — The Philosophical Lens
 
+## Audit Metadata
+
+This skill writes only the chapter model, which lives under the exempt
+`chapters/**` tree, so it stamps no audit fields. If it ever writes a non-chapter
+`.md`/`.json`, stamp it as the invoking agent per
+`.framework/rules/audit-metadata.md`.
+
 Use this skill for a poetry pipeline to assign one chapter its **theme** (the philosophical lens) and one **stereotype** (signature, reference, theme set). Work only from the chapter's own metadata.
 
 ## Inputs (only these)

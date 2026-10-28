@@ -1,5 +1,11 @@
 # The Transform Workflow (Poetry Fixed-Line Calibration)
 
+> **Audit metadata.** Every `.md`/`.json` file this workflow writes under
+> `workspaces/` must carry `updated_by` and `updated_date` per
+> `.framework/rules/audit-metadata.md`. The pipeline chapter tree
+> (`workspaces/pipeline/<bookname>/chapters/**`) is exempt, so the calibrated
+> chapter draft itself is never stamped.
+
 This workflow transforms Bengali poetry chapters to fixed-length lines, where each line has exactly the target number of akshars (consonants). It uses the `line` agent to perform akshar count calibration via the `word.akshar-count` MCP tool.
 
 **Additional Note: Sonnets**

@@ -5,6 +5,13 @@ description: Write or rewrite a novel chapter as flat, continuous prose (no sect
 
 # Novel Write — Flat Prose
 
+## Audit Metadata
+
+This skill writes only `chapters/<n>/chapter.md` and its history/version
+snapshots, all inside the exempt `chapters/**` tree, so it stamps no audit
+fields. If it ever writes a non-chapter `.md`/`.json`, stamp it as the invoking
+write agent per `.framework/rules/audit-metadata.md`.
+
 Use this skill for a novel pipeline to write (or rewrite) one chapter's core content so it becomes deeper, more finished, and more human — always in the resolved transformer style from `.framework/context/poetry/styles/<style>/style.md` (default `pijush`).
 
 ## The Flatten Rule (ESTABLISHED)

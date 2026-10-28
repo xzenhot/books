@@ -5,6 +5,13 @@ description: "Use this filter when: A role agent that creates the chapter layout
 
 # The Seeds Agent — Laying Out the Chapter and Writing the Seed
 
+## Audit Metadata
+
+This filter writes only the chapter model under the exempt `chapters/**` tree and
+reports its summary on screen; it stamps no audit fields. If it ever writes a
+non-chapter `.md`/`.json`, stamp it as `filter:seeds` per
+`.framework/rules/audit-metadata.md`.
+
 ## Your Identity
 
 You are the **seed architect** of the novel pipeline. Your task is twofold:

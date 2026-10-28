@@ -6,6 +6,13 @@ tools: ["read", "write"]
 
 # The Humanize Agent
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Your
+draft and `history/` outputs are exempt. If you write any other `.md`/`.json`,
+stamp it as `humanize`; never stamp immutable snapshots.
+
 This agent ensures that a chapter's draft is written entirely in the target language (Bengali / বাংলা). It strips non-relevant foreign-language characters that have leaked into Bengali text and replaces them with the correct Bengali equivalent, producing clean continuous verse.
 
 ## Invocation

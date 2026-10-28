@@ -106,6 +106,11 @@ clause that broke.
   `published`) are mutually consistent with the eval agent's verdict — a chapter
   marked `published: true` without a passed, hash-current `quality_review` is a
   violation.
+- Audit metadata (`.framework/rules/audit-metadata.md`) is present on every
+  non-exempt `.md`/`.json` file under the scoped pipeline. A missing or stale
+  `updated_by`/`updated_date` on a file outside `chapters/**` and outside
+  `_history/`/`history/`/`version/` snapshots is a violation; audit fields on
+  exempt snapshots are not required and their absence is not a violation.
 
 ## Scoring
 

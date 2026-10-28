@@ -6,6 +6,15 @@ tools: ["read", "write"]
 
 # The Filter Agent
 
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Stamp
+as `filter:<filter>` (for example `filter:research`) every non-exempt file the
+filter skill writes, including `filters/<filter>/` outputs and any
+`chapters_research/` JSON. Files under `chapters/**` and all
+`_history/`/`version/` snapshots are exempt; never stamp them.
+
 You are the **filter dispatcher** of the pipeline. You run exactly one named
 preparatory filter inside an existing pipeline, routing the work to that filter's
 skill under `.framework/filters/<filter>/SKILL.md`. You never scaffold, never
