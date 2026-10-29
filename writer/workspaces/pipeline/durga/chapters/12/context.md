@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-written
+scaffolded
 
 ## segments
 
@@ -39,60 +39,43 @@ written
 
 ### angles
 
-- Framing the divine adornments (jewelry, sari) not as embellishment but as a complex mechanism of societal recognition—how human craft defines divinity for the populace.
-- Viewing 'Saj' (decoration) through the lens of transformation: how the material weight of gold/silk physically shifts the perceived gravitational pull of the goddess on her pedestal.
-- The interplay between artificial light (lamp, festival lighting) and inherent divine luminescence—where does the source of brightness truly reside?
+- Treating every piece of jewelry not as adornment, but as a tiny captured sun or shard of celestial weight affixed to the earthen form.
+- Framing the sari/cloth wrapping as a veil that oscillates between concealment (hiding the power) and revelation (displaying divine grace).
+- Focusing on the transformative moment where raw clay becomes 'attire'—the material language spoken by color and textile, moving beyond mere decoration to narrative encoding.
 
 ### story_options
 
-- Setting: A moment just as the final piece of jewelry is fastened to a specific joint; Desire: To capture the fleeting reflection of a single flame in polished metal, Obstacle: The sudden rush of onlookers disturbing the delicate balance.
-- Setting: Within the brightly lit Pandal after the main rituals have ceased for the night; Desire: To experience the deity illuminated only by residual, low-burning oil lamps, realizing her human vulnerability, Obstacle: The encroaching shadows reclaiming the edges of the light.
-- Setting: Focus on a specific fold or drape of the ceremonial sari as it catches the movement of air from an approaching crowd; Desire: To see the textile pattern mimic cosmic patterns (like constellations), while the Goddess remains fixed, Obstacle: A gust of wind threatening to unbalance the entire structure.
+- Setting: The central glow of the temporary, brightly lit pandal. Desire: To focus on a single, reflective element—a gold coin sewn onto a drape—and trace how its reflection distorts and magnifies the Goddess's unseen power.
+- Setting: A quiet corner behind the main idol assembly area, where discarded silks and jewelry pieces are temporarily set aside. Desire: To observe the craftsmanship of those *not* visible in the final glory, giving voice to their painstaking labor as a secret act of worship.
+- Setting: The moment before the oil lamps are lit for the grand display (just pre-illumination). Desire: To capture the anticipation—the vibrant colors seeming muted, waiting for the transformative intervention of firelight and divine presence.
 
 ### subject_rotations
 
-- Treating the act of dressing/adorning as a ritualized negotiation between the divine essence and earthly presentation—the necessity of costume for communal faith.
-- Deconstructing light itself: moving beyond mere illumination to explore how different colors (from turmeric to crimson) alter the perceived temperament or aspect of Durga in the eyes of the devotee.
-- Focusing not on her grandeur, but on the specific tools/materials used by the dressers—the needle, the thread, the polishing cloth—treating them as proxies for human dedication.
+- Viewing the ornamentation through a lens of burden: how much weight—symbolic, material, or mythological—does this splendor place upon the earthen body?
+- Shifting focus from 'beauty' to 'architecture in miniature': analyzing the intricate pattern work of the textiles and ornaments as complex devotional geometries.
+- Exploring the contrast between external shimmer (gold, silk) and internal stillness (the soul/power residing within the clay).
 
 ### sensory_details
 
-- The distinct, oily warmth emanating from a newly polished brass ornament held near the idol's form.
-- The sharp, dry crackle of straw beneath heavy silk drapery when disturbed by movement.
-- The coppery scent rising faintly from ancient metalwork (jewelry) under bright festival lamps.
+- Sight: The specific iridescence of a newly applied piece of mica or foil catching the artificial, electric light of the contemporary pandal.
+- Touch: The cool, slick feel of tightly draped satin against the dry, porous texture of the underlying terracotta clay.
+- Sound: A high-pitched, almost inaudible hum from the array of small electrical bulbs used to illuminate the intricate goldwork.
 
 ### research_questions
 
-- What specific Bengali textile motifs are traditionally incorporated into Durga's ceremonial attire, and what do those motifs symbolize in relation to Shakti?
-- How does the traditional use of various metals in idol ornamentation affect light refraction within the local temple/pandal environment?
-- Are there distinct ritual protocols regarding which garments or jewelry pieces must be presented first during the 'Saj' ceremony?
+- Are there traditional Bengali descriptions distinguishing between adornments meant for ephemeral display versus those intended purely as mythological symbols?
+- What is the process for ensuring that artificial colors and materials applied to the idol maintain a visual 'spiritual integrity' when contrasted with natural clay?
 
 ### structural_variants
 
-- A highly fragmented structure, where each stanza focuses on a singular piece of ornamentation (e.g., one stanza only for an earring, another for a necklace), forcing thematic leaps between them.
-- Employing heavy enjambment that mimics the slow, deliberate act of dressing—the thought process lagging behind the physical movement.
-- Using repetition not to reinforce theme, but to replicate the hypnotic rhythm of ritual application.
+- A fragmented, mosaic structure where each line focuses on one distinct element (one necklace, one drape fold, one earring) before snapping back to the whole.
+- Structuring the poem around a single visual path—the eye tracing a route across the meticulously adorned form, like a devout pilgrim following an unseen map.
 
 ### unused_angles
 
-- A meditation on the 'weight' of divine expectation resting upon the physical form, symbolized by heavy gold chains.
-- The silent dialogue between the deity (as representation) and the human craftspeople who bring her to life through adornment.
-- How the external environment—the noise, the smell of the gathering crowd—is filtered *through* the opulent layers of decoration.
+- The tension between consumerism and devotion in modern festival ornamentation (if that conflict is allowable under strict world-building adherence).
+- A meditation on costume design as a proxy for cosmic hierarchy—how the smallest piece of jewelry signals immense power.
 
 ### variety_note
 
-Unlike previous chapters which focus on foundational materials (clay, straw) or singular moments (Chokkhudan), this chapter centers entirely on presentation and symbolic overlay—how the divine is publicly 'worn' and perceived by the community.
-
-## draft
-
-### sha256
-
-836d3af5c6113cee13b8eacb2125262b2bd6da4d22bc66b75f4edc9f0892fecc
-
-### written_at
-
-2026-10-28T07:33:30.634645+00:00
-
-### origin
-
-write
+This chapter distinguishes itself from the earlier construction focus by moving entirely past raw materials to explore the application of aesthetic transformation, focusing on how light interacts with symbolic dress rather than structure.

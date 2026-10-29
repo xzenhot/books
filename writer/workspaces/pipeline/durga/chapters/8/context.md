@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-written
+scaffolded
 
 ## segments
 
@@ -39,59 +39,42 @@ written
 
 ### angles
 
-- The hands of the artisan not as creators, but as conduits—the physical mechanism through which cosmic intention is transferred from concept to clay.
-- Focusing on the texture of the intermediary materials: the juxtaposition of dry bamboo/straw (skeleton) against slick, pliable wet earth (flesh).
-- Treating the moment of shaping not as an act of devotion, but a necessary calibration—the sculptor adjusting the material until it mirrors divine *balance*.
+- Focusing on the specific mechanics of transformation: how a simple tool (a brush, a scoop) is elevated to an instrument of divine intervention.
+- The relationship between the artist's physical exhaustion and the spiritual weight being transferred into the clay form—the human sacrifice required for divinity to appear.
+- Treating the *silence* of creation: The moments in the workshop where the intense focus drowns out all external sounds, creating a private, sacred bubble distinct from the surrounding city noise.
 
 ### story_options
 
-- Setting: A cramped corner within a workshop where only half-finished forms reside; Desire: To capture the tension between the planned form and the unpredictable drag of the clay on the thumb pad, leading to an unplanned gesture.
-- Setting: The moment immediately after a major limb or feature has been defined; Obstacle: The exhaustion setting in with the artist—the body beginning to mimic the weary slump of Durga's human form before her divine power is fully vested. Turn: A sudden, instinctive need for rest becoming part of the artistry.
-- Setting: Inspecting a specific area (e.g., the curvature of an ear or the set of a shoulder); Desire: To find one tiny deviation from the ideal proportion that forces the artist to pause and question the perfection they seek.
+- setting: The inner sanctum of the artisan's workspace, late afternoon., desire: To capture the precise moment the artist realizes the form is not an imitation but a channel for something older than himself., obstacle: A sudden, jarring interruption from the outside world (a shout, the clanging of metal) that threatens to shatter the delicate artistic concentration and the nascent spiritual transfer.
+- setting: The scaffolded armature (the 'skeletal frame')., desire: To explore the contrast between the raw, functional structure (wood/reed) and the emergent organic grace of the Goddess being shaped upon it., obstacle: A technical failure in the drying or binding material—a crack appearing too early, symbolizing a rupture in divine continuity.
+- setting: The artist's hands covered in damp, pigmented earth., desire: To trace the history embedded within the clay particles—each grain being linked to previous cycles of worship and dissolution., obstacle: A memory flare-up within the artist caused by touching a specific type of ancient clay, briefly overwhelming the present creative act with echoes of past Devis.
 
 ### subject_rotations
 
-- Shifting focus from the *act* of making towards the *memory* embedded in the clay—the ghosts of previous shapes or the history of the earth used.
-- Analyzing the hands themselves: are they the tools, or are they momentarily becoming vessels for Durga's own divine energy? Focus on skin lines and calluses as scripture.
-- Contrasting the massive, enduring weight of the final effigy with the fleeting lightness and impermanence of the individual touch.
+- Examining the interplay between human labor (physical strain) and divine grace (effortless beauty) in the creation process.
+- Shifting perspective from the creator's intent to the object's inevitable fate: focusing on the pre-programmed cycle of destruction inherent in all created forms.
+- A meditation solely on the palette—how colors, when applied by the artist, are simultaneously earthly pigments and cosmic symbols.
 
 ### sensory_details
 
-- The cool, mineral scent rising from wet earth mixed with fine particles of dried straw dust (smell).
-- The slick, warm resistance felt under a thumb as it navigates the contours of growing form (touch).
-- The rhythmic, muted *thud* or scrape as tools are repositioned against wood surfaces between sculpting phases (sound).
+- Sight: The fine dust motes catching the single strong beam of sunlight entering the workshop's high window, illuminating a specific joint in the armature.
+- Touch: The distinct difference between the coarse, dry texture of the scaffolding wood and the yielding, cool plasticity of freshly mixed clay on the palms.
+- Sound: A very low, almost sub-audible hum or resonance felt through the packed earth floor beneath the artisan's feet while shaping.
 
 ### research_questions
 
-- What specific Bengali colloquialisms exist that describe the tactile sensation of handling very wet, high-density clay in humid conditions?
-- How do historical accounts differentiate the practical function of bamboo framing versus decorative straw bundling in Durga idols?
-- Can the term 'chokkhudan' be philosophically separated from the physical act of painting eyes?
+- What specific type of local binding agent (natural starch, bark residue) is traditionally used in Bengali *protima* making that affects its texture and structural integrity?
 
 ### structural_variants
 
-- A highly fragmented, almost staccato structure, mimicking the short, decisive strokes of a shaping implement.
-- A meditative spiral, where each stanza slowly coils inward toward one defining feature (e.g., the gaze), forcing a reduction in vocabulary.
-- An antiphonal poem: alternating between the 'Hand' as agent and the 'Clay' as receptive entity.
+- A very sparse chapter focusing almost entirely on the tactile verbs—*gripping, pressing, folding, smoothing*—with minimal narrative context.
+- Structuring the poem around a visual inventory: listing every necessary tool (wire, scoop, brush) as if it were an offering before depicting their use.
 
 ### unused_angles
 
-- The role of discarded pigments or leftover colors that are not yet integrated into the form, representing potential unrealized mythos.
-- A focus on the shadows cast *by* the partially formed deity onto the dusty floor of the workshop.
+- Exploring the concept of mimicry vs. embodiment in art: Is the artist copying Durga, or is he facilitating her temporary manifestation?
+- The metaphysical weight carried by a single, unused tool left beside the work—what does its potential signify?
 
 ### variety_note
 
-While previous chapters touched on material (clay/structure), this chapter isolates the kinetic action—the specialized vocabulary and sensory grammar of skilled, manual shaping itself.
-
-## draft
-
-### sha256
-
-2e0d271aa9aad799b2818a5a7837548636cd46e7e9d418ffd1381c75f6d70a63
-
-### written_at
-
-2026-10-28T07:32:37.096858+00:00
-
-### origin
-
-write
+While neighbour chapters focus on external markers of expectation (light/waiting) or raw material beginnings (clay), this chapter delves deeply into the intimate, transformative action occurring between human touch and divine form.

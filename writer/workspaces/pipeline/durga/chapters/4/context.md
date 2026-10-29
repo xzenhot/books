@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-written
+scaffolded
 
 ## segments
 
@@ -39,286 +39,44 @@ written
 
 ### angles
 
-- The transition from human collective sound (the broadcast) to a singular, deeply internal resonance within the speaker.
-- Treating the radio signal not as music, but as a physical atmospheric wave—a pressure system carrying the memory of distance and migration.
-- Focusing on the contrast between the manufactured perfection of the recorded song versus the imperfect reality of the living Bengali home absorbing it.
+- Shifting perspective from passive listening (the crowd) to active mimicry—how the speaker attempts to embody the rhythm of the song, only to find his own voice inadequate.
+- Focusing on the physical mechanism of sound reception: the vibration traveling through old wooden floorboards into the chest cavity as a ritualistic initiation.
+- The internal conflict between the ecstatic, communal energy of the *Agomoni* tune and the profound, isolating weight of personal memory attached to that rhythm.
 
 ### story_options
 
-- Setting: A small, cluttered kitchen corner. Desire: To capture the faint hiss/static sound between the musical phrases as a measure of time passing slowly toward the ritual. Obstacle: The domestic sounds (cooking, children) competing with the radio's 'arrival' melody.
-- Setting: Directly beside an antique transistor radio. Desire: To analyze how different frequencies (the music versus ambient street noise) create a composite sonic landscape that defines anticipation. Obstacle: The magnetic interference from nearby electrical appliances distorting the key notes.
-- Setting: A balcony overlooking a quiet, pre-festival street corner. Desire: To listen to the radio's rhythm against the silence of the sleeping neighborhood, treating the sound as an invisible vanguard leading the procession. Obstacle: The sudden interruption by a mundane, unexpected sound—a dog barking or a vendor calling.
+- setting: A narrow alleyway (গলি) where sound reverberates unnaturally, desire: To capture the perfect pitch of the lead singer's invocation., obstacle: The local brick dust and dampness muffles the high notes, turning them into muted ghosts., turn: The speaker stops trying to hear the divine call and starts listening only to the sound of his own heartbeat beating against the rhythm.
+- setting: A crowded communal gathering place (আড্ডা), near a sputtering kerosene lamp, desire: To merge completely with the collective energy of the waiting community., obstacle: The overwhelming, chaotic mixture of competing sounds—laughter, street vendor calls, and the song itself., turn: As the light dips toward evening (secondary twist), the music doesn't intensify; it suddenly fragments into disparate memories.
+- setting: A single room dominated by a cracked radio speaker, desire: To mentally 'rewind' the song, isolating the moment of divine promise., obstacle: The old radio unit itself begins to fail under the pressure of anticipation—static replacing music., turn: When the static takes over (secondary twist), it isn't noise; it's perceived as a language older than human speech.
 
 ### subject_rotations
 
-- Focusing less on 'arrival,' and more on the *texture* of waiting itself—the slow burn beneath the surface of domestic routine.
-- Re-interpreting the melody not as joy, but as a narrative device: a cyclical pattern that anticipates inevitable deviation or loss.
-- Treating the radio as an artifact linking time periods—carrying voices and sounds from a generalized 'mythical past' into the immediate present.
+- Treating the radio not as a medium, but as an ephemeral temporary shrine or conduit.
+- Analyzing the song's structure (rhythm/meter) in isolation—deconstructing its ancient musical notation before applying devotional meaning to it.
+- The relationship between sonic repetition and obsessive thought patterns; how the refrain becomes a psychological loop rather than a religious chant.
 
 ### sensory_details
 
-- The fine, granular dust motes illuminated in the beam of light cast by the listening device.
-- The metallic scent given off by hot vacuum tubes within an aging radio casing.
-- The slight vibration felt through a wooden table when the bass line hits—a physical tremor unrelated to sight or sound alone.
+- Sound: The specific, tinny distortion produced when an older radio attempts to reproduce deep, resonant bass notes.
+- Sight: The way the warm glow of a single kerosene lamp bleeds across peeling paint during the initial listening session.
+- Touch: The sticky humidity clinging to skin after standing too long in close proximity to shared sound.
 
 ### research_questions
 
-- How can I convey the emotional weight of 'waiting' using purely auditory metaphors without falling into generic romanticism, given that the song itself is already defined as an arrival cue?
+- What are the specific rhythmic patterns used in Bengali *Agomoni* songs that evoke a sense of inescapable cyclical return, as opposed to linear progression?
+- In classical Bengali poetic description, how is 'sound' often personified when it carries divine portent rather than simple information?
 
 ### structural_variants
 
-- A fragmented structure where lines relating to the music are punctuated by short, sharp descriptions of domestic inaction or physical stillness.
-- Beginning with a very close-up focus on one object in the room (e.g., an earbud, a dial) before expanding out to encompass the entire soundscape.
-- A strict call-and-response structure: part dedicated to the *sound received* vs. part dedicated to the *body's internal response*.
+- A poem built entirely around the concept of sonic decay—beginning loud and vibrant, fading into white noise.
+- A dialogue poem where the speaker argues with an imagined representation of the song's original, pure acoustic source.
 
 ### unused_angles
 
-- Exploring how the radio introduces themes of geographical separation, making the 'return' of Durga even more potent because she is arriving from afar.
-- The concept that the song itself becomes an oppressive weight—too much expectation building up before anything physical happens.
+- The physical discomfort or weariness accompanying prolonged periods of intense, communal waiting before a grand event.
+- Exploring the social hierarchy within the listening circle—who controls the volume/attention and what that signifies about pre-festival power dynamics.
+- Using the contrast between the radio's manufactured sound and the 'natural' sounds (like distant river flow) to build thematic tension.
 
 ### variety_note
 
-Where earlier chapters focused on natural phenomena signalling arrival (light, scent), this chapter isolates a *technological* signal—a recorded sound—to mark the start of anticipation.
-
-## draft
-
-### sha256
-
-37a843472b08e46a830818c85cf0433f1411fbf6f6744689805ce305d14e6655
-
-### written_at
-
-2026-10-28T08:16:41.348783+00:00
-
-### origin
-
-write
-
-## form_skill
-
-srijato
-
-## form
-
-poem
-
-## stanza_form
-
-quatrain
-
-## stanza_count
-
-3
-
-## rhyme_scheme
-
-ABAB
-
-## rhyme_scheme_note
-
-L1 rhymes L3; L2 rhymes L4 — inside every stanza
-
-## stanza_rhyme_pairs
-
-### S1
-
-#### odd
-
-- গান
-- উঠান
-
-#### even
-
-- সুর
-- দুপুর
-
-### S2
-
-#### odd
-
-- আশা
-- ভাষা
-
-#### even
-
-- সন্ধে
-- গন্ধে
-
-### S3
-
-#### odd
-
-- আলো
-- কালো
-
-#### even
-
-- নম্বর
-- খবর
-
-## syllable_counts
-
-- 7
-- 7
-- 7
-- 7
-- 7
-- 7
-- 7
-- 7
-- 7
-- 7
-- 7
-- 7
-
-## calibration_method
-
-agent_composed_mcp_verified
-
-## mcp_verification
-
-### syllable_tool
-
-word.syllable-count
-
-### rhyme_tool
-
-word.rhyme-test
-
-### rhyme_result_semantics
-
-#### -1
-
-no rhyme (different class)
-
-#### 0
-
-no rhyme (same vowel, different class) — REJECT
-
-#### 1+
-
-rhymes — ACCEPT
-
-#### 2
-
-perfect rhyme
-
-### per_stanza
-
-#### Item 1
-
-##### stanza
-
-1
-
-##### L1_end
-
-গান
-
-##### L3_end
-
-উঠান
-
-##### L1_L3
-
-1
-
-##### L2_end
-
-সুর
-
-##### L4_end
-
-দুপুর
-
-##### L2_L4
-
-1
-
-##### L1_L2
-
--1
-
-#### Item 2
-
-##### stanza
-
-2
-
-##### L1_end
-
-আশা
-
-##### L3_end
-
-ভাষা
-
-##### L1_L3
-
-1
-
-##### L2_end
-
-সন্ধে
-
-##### L4_end
-
-গন্ধে
-
-##### L2_L4
-
-3
-
-##### L1_L2
-
--1
-
-#### Item 3
-
-##### stanza
-
-3
-
-##### L1_end
-
-আলো
-
-##### L3_end
-
-কালো
-
-##### L1_L3
-
-1
-
-##### L2_end
-
-নম্বর
-
-##### L4_end
-
-খবর
-
-##### L2_L4
-
-1
-
-##### L1_L2
-
--1
-
-### in_stanza_pairs_verified
-
-6
-
-### l1_l2_confirmed_non_rhyming
-
-true
-
-### all_rhymes_verified
-
-true
-
-### syllable_delta
-
-0
+Unlike preceding chapters focusing on nature signs or physical craftsmanship, this chapter centers entirely on auditory experience and its internalization by the community.

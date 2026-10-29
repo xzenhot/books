@@ -12,45 +12,43 @@
   ],
   "creative_enrichment": {
     "angles": [
-      "Treating the river not as a destination, but as a vast, indifferent mirror reflecting fractured fragments of color (pigments, clay dust) from the submerged image.",
-      "Focusing solely on the physics of dissolution: how the earthen structure interacts chemically and physically with the water—the slow stain, the dispersal of particles.",
-      "Emphasizing the profound quiet that rushes in immediately after the final immersion, a silence heavier than any prior noise."
+      "Focusing on the water itself—the current's memory of color, the way silt carries pigments away from the main body of the idol.",
+      "The juxtaposition between the monumental grief of departure (বিসর্জন) and the small, mundane act of a single villager retrieving scattered floral offerings from the riverbank.",
+      "Framing the dissolution as an inevitable physical chemistry: pigment mixing with water, divine form breaking down into elemental components."
     ],
     "story_options": [
-      "Setting: The specific point where the thickest current pulls the idol away from the shore; Desire: To capture only the sound of friction—the clay scraping against riverbed stones—as it sinks.",
-      "Setting: A solitary figure watching from a distance, not crying, but meticulously cataloging the rate at which the color leeches into the water's surface; Desire: To observe this disintegration as an act of precise, scientific mourning.",
-      "Setting: Among the small boats that guide the procession; Desire: To focus on the collective shuddering—the slight dip and rise of every boat hull in response to the submerged mass passing beneath them."
+      "Setting: The slow, muddy outflow point where the main procession has passed; Desire: To observe a child wading through the residue, searching not for toys but for fragments of color—a single shard of vibrant pigment clinging to reeds.",
+      "Setting: A small makeshift shrine erected on the riverbank after the immersion ceremony concludes; Desire: To capture the moment when the first lantern is lit against the darkening water, signaling the end of public mourning and the beginning of private reflection.",
+      "Setting: The boat carrying the deity's final procession leaving the sight of shore; Desire: To focus entirely on the soundscape as it recedes—the muffled drumming fading into the natural lapping sounds of the river."
     ],
     "subject_rotations": [
-      "Focusing less on 'pathos' (grief) and more on the unstoppable, geological necessity of return/dissolution; viewing it as a natural cycle rather than an emotional one.",
-      "Examining the raw materiality: the difference between the vibrant crimson *sindoor* pigment staining the water versus the dull ochre of the fired clay body dissolving slowly.",
-      "Shifting from the scale of 'the festival' to the micro-scale experience—a single drop of holy water hitting a specific patch of exposed mud near the ghat."
+      "Treating the water not just as a medium of farewell, but as a temporary vessel for divine energy returning to its source.",
+      "Shifting from Durga's physical body dissolving to exploring the 'dissolving' quality of human ritual belief—the fading certainty of the myth itself.",
+      "A purely elemental focus: the contrast between the heavy, earthen weight of the idol and the light, unstoppable flow of the water carrying it away."
     ],
     "sensory_details": [
-      "The acrid, metallic smell rising off stagnant patches where debris collects at the riverbank.",
-      "The gritty, cool sensation of fine silt settling in the lungs as one breathes deep by the water's edge.",
-      "The faint sound of splintering reeds or submerged wood beneath the main current."
+      "Sight: The specific iridescent film of residual oil or incense smoke clinging to the calm patches of the river surface post-immersion.",
+      "Smell: The sharp, metallic tang of disturbed river sediment mixing with the heavy scent of damp earth and crushed flowers.",
+      "Sound: A sudden, unnatural silence in the usual cacophony—the momentary absence of chanting or drums as the idols pass through a particular section."
     ],
     "research_questions": [
-      "Are there specific local traditions regarding how fragments of the immersed idol are handled post-dissolution, beyond general ritual?",
-      "What is the precise texture difference between wet clay and powdered colorants (like those used in Durga's ornamentation) when submerged?",
-      "How does the cultural perception of 'completion' or 'ending' manifest itself linguistically in descriptions of this moment?"
+      "Are there specific Bengali poetic traditions that use the imagery of water merging with soil to signify cosmic dissolution?",
+      "What are the traditional local practices concerning the cleaning and reuse of riverbanks immediately following the immersion ceremonies?"
     ],
     "structural_variants": [
-      "An anti-narrative structure: A series of fragmented images (color, current speed, texture) with no connecting emotional thread.",
-      "A highly minimalist poem where the majority of space is dedicated to white/empty lines, using only short bursts of text mimicking ripples.",
-      "Starting *in media res* in the moment the head first disappears beneath the surface, and then backtracking temporally through the memory of that specific color palette."
+      "A lyrical sequence where each stanza names a different element (earth, water, pigment, sound) as it separates from the central image.",
+      "An in media res structure that begins with the aftermath—the empty space on the riverbank—and then flashes back through the procession's trajectory."
     ],
     "unused_angles": [
-      "The negotiation between the industrial flow of modern river traffic (boats, barges) and the ancient ritualistic passage of the image.",
-      "A focus on how local flora reacts to the sudden influx of pigmented runoff from the immersion point.",
-      "Treating the deity's departure as a necessary act of 'un-manifestation' required for cyclical rebirth."
+      "Exploring the practicalities of the artisans cleaning their tools after the massive, wet construction process.",
+      "A detached observer figure positioned far upriver, viewing the descent as a vanishing point on a map of Bengali life.",
+      "Examining the role of non-participating community members—those who watch from afar without joining the public ritual."
     ],
-    "variety_note": "Unlike previous chapters that emphasized active celebration or internal emotional states, this chapter must prioritize material objectivity and the inevitability of physical dissolution."
+    "variety_note": "This chapter pivots from action to residue; rather than capturing the moment of departure, it isolates the echo and traces the material aftermath left behind in the water."
   },
   "draft": {
-    "sha256": "87b026afa62978c58c841c75c685b6924a7f00fae8956f58eb49114f69624f9e",
-    "written_at": "2026-10-29T09:56:17.726114+00:00",
+    "sha256": "1ce6921d471901e357f3db064ad7c10141eeadbf354a12c7fc62d6049bade34f",
+    "written_at": "2026-10-29T15:02:10.761319+00:00",
     "origin": "write"
   }
 }

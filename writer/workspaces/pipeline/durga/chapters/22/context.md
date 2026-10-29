@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-written
+scaffolded
 
 ## segments
 
@@ -39,52 +39,43 @@ written
 
 ### angles
 
-- Framing Usha not as a triumphant guest but as an exile returning to domesticity temporarily.
-- Juxtaposing the divine expectation of Durga with the mundane, inherited sorrow of a daughter leaving her ancestral home (Bap's house).
-- Presenting the 'daughterhood' through memory—the echoes of earlier visits that fade before the current departure.
+- Reframing 'Kanya' (daughter) not as a blessing to the father's home, but as an independent force carrying the burden of cosmic memory; her return is less about filial duty and more about completing a necessary cycle.
+- Treating Usha/Umai’s temporary sojourn in Bengal through the lens of cultural displacement—the divinity wearing the guise of local Bengali domestic ritual.
+- Focusing on the inherent tension between 'daughter' (a fragile, relational role) and 'Shakti' (unbreakable cosmic power); the vulnerability is merely a presentation.
 
 ### story_options
 
-- Setting: The veranda/porch just as the morning light barely touches the threshold; Desire: To recall a specific, small interaction with her father/brother figures from previous visits; Obstacle: The unsaid weight of promises made for this return.
-- Setting: A spot near where she once played games within the pandal structure; Desire: To find one small, lost object—a piece of colored thread or dried flower petal—that anchors a past moment; Obstacle: The swift passage of time that makes retrieval impossible.
-- Setting: Inside her own private space within the festivities (if applicable); Desire: A brief confrontation with the reflection in dark water—seeing not goddess, but simply 'the daughter' caught between roles; Obstacle: The necessity of maintaining an external posture of joyous participation.
+- Setting: A sun-dappled veranda overlooking a village pond; Desire: To capture Umai observing mundane human rituals of domestic life (fetching water, preparing food), realizing her divine nature must temporarily mimic simple earthly routine; Obstacle: The weight of infinite worlds pressing down on the fragile guise she wears.
+- Setting: The threshold between the Pandal and the common village pathway; Desire: To depict Umai hesitating before stepping into the domestic space—is this a sacred visitation or an assumption of human frailty?; Obstacle: The necessary shedding of divine armor to fit the form of a 'daughter'.
+- Setting: An interior chamber filled with intricate Bengali hand-woven textiles; Desire: To explore how Umai interacts with these crafted representations of life—do they mirror her own cosmic complexity, or merely serve as beautiful containment?; Obstacle: The desire to escape the patterned confines of human artistry and return to pure energy.
 
 ### subject_rotations
 
-- Treating her return less as a festival celebration and more as an annual performance of familial duty.
-- Shifting focus from the magnificence of the 'mother' (Durga) to the specific vulnerability inherent in the temporary status of the 'daughter'.
-- Exploring the cultural expectation: How does the idealization of the divine daughter clash with the reality of a girl growing into her own person?
+- Shifting focus from external devotion (the devotees looking at the 'daughter') to internal self-recognition—Umai recognizing her own power *through* the reflection in a mundane object.
+- Examining the dual nature of maternal departure: Is it a loving return, or an absolute severing that necessitates eternal longing?
+- Conceptualizing the journey back not as physical travel (to Shiva’s abode), but as a retreat into pure potentiality—a silence after the festival's climax.
 
 ### sensory_details
 
-- The low, resonant sound of distant morning temple bells mingling with the intimate silence of an empty room.
-- The cool, lingering scent of camphor smoke mixed with damp earth from recent rituals.
-- The specific texture of old, faded silk worn by the daughter in contrast to the new bright colors of the festival garments.
+- Sight: The iridescent sheen of gold thread embroidery on traditional Bengali attire catching the specific, weak light of late afternoon.
+- Sound: The rhythmic, muffled sound of distant domestic hammering (carpentry or repair work) contrasting with the silent majesty within the Pandal.
+- Touch: The texture of worn, sun-baked clay pots used in daily household rituals, grounding her ephemeral presence.
 
 ### research_questions
 
-- Are there specific regional Bengali poetic motifs that describe the feeling of 'return' (ফিরে আসা) versus 'leaving' (চলে যাওয়া) when relating domestic life to divinity?
-- How is 'daughterhood' portrayed in contrast to 'motherhood' within established folklore related to Durga’s divine family?
+- Are there specific poetic motifs regarding a divine being adopting temporary mortal forms (avatar/incarnation) in Bengali literature that detail the necessary camouflage?
+- How do traditional descriptions of domestic settings contrast with cosmological descriptions when describing Durga's manifestation in Bengal?
 
 ### structural_variants
 
-- A highly fragmented structure, where each stanza captures a fleeting image of the departure before snapping back to the speaker's solitary observation.
-- Using an extended internal rhyme scheme that mimics the hesitant cadence of whispered memories.
+- A cyclical structure where each strophe begins by referencing a specific element of human femininity (e.g., braid, saree fold, gentle hand) and ends by contrasting it with an eternal celestial law.
+- A highly fragmented structure mirroring memory recall—a sudden leap from the grand Pandal tableau to a singular moment of quiet interaction in a small domestic space.
+
+### unused_angles
+
+- The socio-political weight carried by the 'daughter' figure when representing Bengal’s cultural self-image during the festival.
+- A deep dive into the concept of *Nirguna* (formless) versus *Saguna* (with form), using Umai as the precise point where this metaphysical debate becomes intensely personal.
 
 ### variety_note
 
-Unlike chapters focused on explosive action (Mahishasura’s defeat) or material creation (Kumortuli), this chapter grounds itself in quiet domestic tension, focusing on transitional states rather than fixed power displays.
-
-## draft
-
-### sha256
-
-3823732b4a8aa524c01073c7c931efba358a5c6acd4bdf96a3872391b9a79402
-
-### written_at
-
-2026-10-28T07:35:20.185051+00:00
-
-### origin
-
-write
+This chapter moves away from battle and ritual performance to focus entirely on intimacy, presentation, and the bittersweet paradox of divine embodiment in a relatable domestic space, contrasting with earlier celebrations.

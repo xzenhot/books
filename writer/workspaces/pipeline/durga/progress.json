@@ -1,7 +1,7 @@
 {
   "total_chapters": 30,
   "completed_chapters": 0,
-  "current_chapter": 1,
+  "current_chapter": null,
   "factory": "online",
   "model": "gemma4:latest",
   "provider": "ollama",
@@ -12,10 +12,10 @@
       "chapter_number": 1,
       "topic": "মহালয়ার প্রথম ভোর",
       "category": "আগমনী",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/1/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
       "published": false
     },
@@ -23,10 +23,10 @@
       "chapter_number": 2,
       "topic": "শিউলির সাদা চিঠি",
       "category": "আগমনী",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/2/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
       "published": false
     },
@@ -45,10 +45,10 @@
       "chapter_number": 4,
       "topic": "আগমনীর সুর",
       "category": "আগমনী",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/4/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
       "published": false
     },
@@ -339,6 +339,6 @@
       "published": false
     }
   ],
-  "written_chapters": 27,
+  "written_chapters": 30,
   "published": false
 }

@@ -12,291 +12,42 @@
   ],
   "creative_enrichment": {
     "angles": [
-      "Treating the light of the Aarti not as divine radiance but as a quantifiable physical phenomenon—the heat distortion rising from multiple burning lamps interacting with damp air.",
-      "Focusing on the 'noise' created by the ritual sounds (bell, conch) as an overwhelming sonic texture that momentarily dissolves individual thought into pure vibration.",
-      "Analyzing the geometry of the worshippers in relation to the light source—how shadows are cast and warped against the idol’s surface during the deepest part of the rite."
+      "Framing the *arati* not as a devotional act, but as an intense, shared, ephemeral performance of collective exhaustion—the moment the fervor dips into quiet reverence.",
+      "Adopting the voice of an observer positioned just outside the central circle of light, hearing and feeling the ceremony more than seeing it clearly (low register focus).",
+      "Focusing on a single point of internal bodily sensation during the ritual: the rhythm of one person's breath syncing with the measured beat of the gong/ghanta."
     ],
     "story_options": [
-      "Setting: The periphery of the main pandal, where offerings burn; Desire: To capture the smell of ash mingling with leftover sweet remnants from earlier rituals; Obstacle: The overwhelming cacophony forcing a sudden moment of perfect auditory void; Turn: A single, unburnt offering remaining untouched.",
-      "Setting: Directly opposite the idol in the circle of devotees; Desire: To document the subtle shift in posture as participants move into rhythmic trance induced by the combined sound and light; Obstacle: The claustrophobic press of bodies during peak devotion; Turn: One devotee momentarily looks away from the deity, focusing instead on their own reflection in a brass lamp.",
-      "Setting: Inside the enclosed area where ritual implements are kept pre-Aarti; Desire: To sense the cold metal and stored oils before the flames consume them; Obstacle: The rush of activity as participants converge for the evening rite; Turn: A minor, accidental drop—a splash of oil or a loose bead from an ornament."
+      "setting: The shadow line at the edge of the pandal, near stacked earthen pots., desire: To capture the texture of residual heat radiating from the lit lamps against damp evening air., obstacle: The surrounding crowd murmuring anxieties about the coming departure., turn: A sudden, sharp silence during a rhythmic chant, amplifying the sound of a single cricket.",
+      "setting: Near the deity's feet, where small offerings are placed., desire: To feel the weight and warmth of accumulated prayers pressed into the earth underfoot., obstacle: The visual distraction caused by the myriad flickering flames reflecting off varied surfaces (metal, cloth)., turn: A close focus on a specific offering—perhaps fallen petals or grains of rice—and their transformation as they catch fire.",
+      "setting: Inside a small alcove used by performers/helpers away from the main circle., desire: To witness the brief, unguarded expressions of devotion on those tasked with managing the ritual mechanics (lighting wicks, striking bells)., obstacle: The deafening wash of sound threatening to drown out internal thought or feeling., turn: A realization that the mechanical precision of the *arti* is what allows the spiritual moment its momentary coherence."
     ],
     "subject_rotations": [
-      "Reframing 'Shakti' not through triumph (as in Chapter 19), but through pure, momentary expenditure—the immense energy required for the sustained act of collective ritual performance.",
-      "Treating the Idol/Mata as a recipient of sensory data: her 'light' is defined by the pigments and flames directed at her surface, rather than inherent divinity.",
-      "The Aarti circle as a temporary human crucible where disparate intentions (fear, hope, duty) are briefly fused by shared visual ritual."
+      "Shifting from the divine luminosity shining *outward* onto the devotees, to the inward, self-consuming fire within the worshiper.",
+      "Treating the soundscape—gongs, bells, chanting—as a physical pressure or vibration that alters the atmosphere of the entire pandal space.",
+      "Examining the symbolic relationship between darkness (the night) and light (the lamps) not as opposition, but as necessary co-dependence for revelation."
     ],
     "sensory_details": [
-      "The acrid, chemical sharpness of burnt camphor mixing with the heavy, sweet smoke trails of ghee lamps.",
-      "The deep resonance felt in the chest cavity when the conch shell is blown at its maximum volume, vibrating bone against breath.",
-      "The granular heat radiating upwards from banked coals or spent sacrificial embers near the edge of the viewing space."
+      "Touch: The metallic tingle on the skin from proximity to the burning brass of a ritual instrument.",
+      "Sound: The distinct, resonant *thrum* of an antique bronze bell catching the night air before being struck.",
+      "Sight: How the flames warp and stretch the lines carved into the stone or mud structure surrounding the idol."
     ],
     "research_questions": [
-      "What specific local metallurgical composition do the ritual brass/bronze vessels used for Aarti possess that dictates their resonance?",
-      "Are there documented traditional variations in the sequence or timing of bell strikes relative to lamp ignition during this phase of the puja?",
-      "How does the physical interaction between various flame types (oil vs. camphor) affect smoke behavior and visual texture in low-light conditions?"
+      "What is the traditional Bengali terminology for the specific moment where devotional fervor shifts from active chanting to silent absorption during an evening *arati*?",
+      "Are there regional variations in how the rhythm of the bell (*ghanta*) interacts with the recitation of mantras during Navami?"
     ],
     "structural_variants": [
-      "A cyclical structure, where every stanza mirrors a specific element: sound -> heat/light -> posture -> scent -> silence.",
-      "An escalating intensity model, starting with the peripheral sounds (low buzz of crowd, faint clanging) and building to the centralized, blinding light/sound climax.",
-      "Interleaving observational stanzas about the material reality (the flame licking wax) with intense subjective bursts of faith."
+      "A spiraling structure: starting close, moving outward into the crowd's peripheral sounds, and then drawing back inward to a single focused moment of light.",
+      "Alternating between long, sustained stanzas describing the sensory overload, broken by very short, sharp lines mimicking drum or bell strikes."
     ],
     "unused_angles": [
-      "Examining how the urban architecture surrounding the pandal interacts with the focused, internal glow of the Aarti.",
-      "A focus on generational difference in participation—how older devotees experience the light versus younger ones who are more digitally attuned.",
-      "The symbolic weight carried by small, incidental items: a single strand of thread caught in smoke, a dropped flower petal."
+      "The theological implication of the *arati* as an act of reciprocity—not just asking for grace, but returning energy to the Divine.",
+      "A focus on the specific material decay: soot accumulating on sacred cloth or lamps over repeated rituals."
     ],
-    "variety_note": "While neighbours have explored material textures (clay, leaves) or high energy states (Chamunda), this chapter focuses intensely on the convergence point where organized light and sound impose themselves upon physical space during performance."
+    "variety_note": "This chapter departs from the grand architectural scope of earlier construction scenes by focusing intensely on the momentary, internalized ritual experience under artificial light, using sound as a physical force rather than just music."
   },
   "draft": {
-    "sha256": "26124c72acbf6c9c7c1c80322f19d577b03b7f9eff8492c05c908c97e0757146",
-    "written_at": "2026-10-29T09:54:00.713175+00:00",
+    "sha256": "3758c520f229bf7141e741c17f0b3de510c9060b6dce0af6ea07dd1448474e17",
+    "written_at": "2026-10-29T14:59:07.776110+00:00",
     "origin": "write"
-  },
-  "form_skill": "poyar",
-  "form": "couplet_poem",
-  "stanza_form": "couplet",
-  "stanza_count": 16,
-  "line_count": 32,
-  "rhyme_scheme": "AA",
-  "rhyme_scheme_note": "L1~L2 inside each couplet; no cross-couplet rhyme",
-  "meter_unit": "syllable",
-  "syllable_target": 14,
-  "syllable_measure": "4 + 4 + 4 + (2|1)",
-  "syllable_counts": [
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14
-  ],
-  "calibration_method": "agent_composed_mcp_verified",
-  "mcp_verification": {
-    "syllable_tool": "word.syllable-count (per word, summed)",
-    "rhyme_tool": "word.rhyme-test + identical final rhyme unit",
-    "couplets": [
-      {
-        "couplet": 1,
-        "L1_end": "আলো",
-        "L2_end": "ভালো",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "লো",
-        "rhyme_unit_L2": "লো",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 2,
-        "L1_end": "হাত",
-        "L2_end": "রাত",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "াত",
-        "rhyme_unit_L2": "াত",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 3,
-        "L1_end": "ভক্তি",
-        "L2_end": "শক্তি",
-        "rhyme": "3",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "ক্তি",
-        "rhyme_unit_L2": "ক্তি",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 4,
-        "L1_end": "চোখে",
-        "L2_end": "শোকে",
-        "rhyme": "2",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "কে",
-        "rhyme_unit_L2": "কে",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 5,
-        "L1_end": "দীপ",
-        "L2_end": "দ্বীপ",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "ীপ",
-        "rhyme_unit_L2": "ীপ",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 6,
-        "L1_end": "স্তব্ধ",
-        "L2_end": "শব্দ",
-        "rhyme": "2",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "প্ত",
-        "rhyme_unit_L2": "প্ত",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 7,
-        "L1_end": "মুখ",
-        "L2_end": "সুখ",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "ুক",
-        "rhyme_unit_L2": "ুক",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 8,
-        "L1_end": "ছায়া",
-        "L2_end": "কায়া",
-        "rhyme": "2",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "য়া",
-        "rhyme_unit_L2": "য়া",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 9,
-        "L1_end": "তাকায়",
-        "L2_end": "চায়",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "ায়",
-        "rhyme_unit_L2": "ায়",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 10,
-        "L1_end": "ধরে",
-        "L2_end": "ভরে",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "রে",
-        "rhyme_unit_L2": "রে",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 11,
-        "L1_end": "নড়ে",
-        "L2_end": "পড়ে",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "ট়ে",
-        "rhyme_unit_L2": "ট়ে",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 12,
-        "L1_end": "বাজে",
-        "L2_end": "সাজে",
-        "rhyme": "2",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "চে",
-        "rhyme_unit_L2": "চে",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 13,
-        "L1_end": "জ্বলে",
-        "L2_end": "গলে",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "লে",
-        "rhyme_unit_L2": "লে",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 14,
-        "L1_end": "আসে",
-        "L2_end": "ভাসে",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "শে",
-        "rhyme_unit_L2": "শে",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 15,
-        "L1_end": "ওঠে",
-        "L2_end": "ফোটে",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "টে",
-        "rhyme_unit_L2": "টে",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      },
-      {
-        "couplet": 16,
-        "L1_end": "ছাই",
-        "L2_end": "তাই",
-        "rhyme": "1",
-        "strength": "STRONG",
-        "rhyme_unit_L1": "াই",
-        "rhyme_unit_L2": "াই",
-        "distinct": true,
-        "L1_syllables": 14,
-        "L2_syllables": 14
-      }
-    ],
-    "min_syllables": 14,
-    "all_rhymes_verified": true,
-    "all_rhymes_strong": true
   }
 }

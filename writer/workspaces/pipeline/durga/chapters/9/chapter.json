@@ -12,42 +12,42 @@
   ],
   "creative_enrichment": {
     "angles": [
-      "Framing the straw/bamboo skeleton not as a support, but as the very framework of human aspiration—a fragile structure temporarily holding divine weight.",
-      "Treating the assembly process not through art, but structural engineering: how tension points (joints) mimic mythological binding or endurance.",
-      "The invisible struggle between rigidity (the dry frame) and fluidity (the applied clay), personifying these opposing forces in dialogue."
+      "Treating the structural scaffolding (khad/bansh) not as support for divinity, but as a metaphor for human societal scaffolding or tradition itself—fragile yet necessary.",
+      "Focusing on the tension between the temporary nature of the frame and the seemingly eternal promise it holds for the Goddess's presence within.",
+      "Viewing the assembly process through the lens of architecture: the mathematical precision required to hold such an immense symbolic weight, juxtaposed with organic (mud) imprecision."
     ],
     "story_options": [
-      "Setting: The point where the initial bamboo ribs are lashed together; Desire: To focus on the knotting—a miniature act of stubborn, necessary binding against collapse; Obstacle: The fear that the entire structure is merely a delicate scaffolding for an illusion.",
-      "Setting: Inside the nascent frame, looking outward through gaps in the material; Desire: To experience the world outside (the noise of the marketplace, distant chants) as distorted and muffled by the framework's density; Obstacle: The self-consciousness of being trapped within one's own making.",
-      "Setting: A moment just before any clay is applied to a specific joint; Desire: To meditate on the *potential energy* locked in the dry materials—the stored kinetic promise before form takes over; Obstacle: The silence preceding construction, which feels heavier than the final statue."
+      "setting: The high scaffold supports, dimly lit by a single oil lamp., desire: To capture the moment the artist recognizes that the frame is merely an echo of life—a necessary placeholder before true vibrancy., obstacle: A sudden gust of wind threatens to destabilize the loosely bound reed structures., turn: The speaker pauses, recognizing the fragility of their own earthly ambitions reflected in the bamboo.",
+      "setting: Near a pile of discarded straw and leftover vine binding material., desire: To imbue these humble 'waste' materials with narrative weight—their history as harvested life that now serves a sacred purpose., obstacle: The relentless, slow process of construction feels agonizingly protracted against the quickening urgency of the festival calendar., turn: A small child wanders past, touching one of the bindings without understanding its spiritual significance.",
+      "setting: Inside the core junction where multiple poles meet to bear weight., desire: To isolate a single knot—a point of profound tension and strength within the structure—and give it epic importance., obstacle: The material itself (the dried reed) seems brittle against the dampness of the surrounding air, threatening collapse., turn: The speaker focuses entirely on that one knot until their own sense of internal connection/binding loosens or tightens."
     ],
     "subject_rotations": [
-      "Focusing solely on the acoustic properties of the framework—how the dried reeds and straw creak or resonate under subtle vibrations (a sound unique to its structure).",
-      "Examining the 'bones' not as structural elements, but as a map: how the arrangement mirrors ancient somatic diagrams or cosmological blueprints.",
-      "Shifting the focus from the final form to the *decay* of the frame; what happens when the temporary support is left alone in the humid air after construction?"
+      "Shifting the focus from 'structure' to 'limitation': How the boundary provided by the frame defines and protects the divine form within it.",
+      "Personifying the bamboo/reed structure: Treating the scaffolding as an ancient, silent witness—a skeletal spirit that precedes the flesh of the Goddess.",
+      "Examining the relationship between temporary human craftsmanship (the frame) and timeless mythological presence (Durga): The artifact vs. the archetype."
     ],
     "sensory_details": [
-      "The dry, brittle rustle of thousands of straw fibers rubbing against each other in a draft (Sound).",
-      "The faint scent of cured bamboo—a sharp, mineral odor beneath the earthiness of nearby wet clay (Smell).",
-      "The gritty friction felt when an artisan tightens a binding rope around a joint (Touch/Tactile)."
+      "Sight: The way dried straw catches the faint afternoon light, making it appear brittle gold against the dark earth.",
+      "Touch: The rasping dryness of tightly woven reeds chafing against rough skin during binding work.",
+      "Sound: A low, sustained creak from a heavily loaded vertical pole under strain."
     ],
     "research_questions": [
-      "Are there specific regional methods in Bengal for reinforcing ephemeral structures like these frames, and how do they influence the final aesthetic?",
-      "What is the traditional symbolic meaning attached to the bamboo or straw used in Durga idol construction—is it purely practical or does it carry its own miniature cosmology?"
+      "Are there specific regional or traditional terminology used in Bengali craft circles to describe the essential 'skeleton' or armature of large ephemeral structures?",
+      "How do artisans traditionally manage the symbolic weight distribution when assembling such temporary, monumental forms?"
     ],
     "structural_variants": [
-      "An intensely object-focused structure, where each section of the armature (a rib, a crossbeam) receives an entire stanza dedicated only to its specific nature.",
-      "A dynamic oscillation between extreme close-up on binding points and vast pull-back views showing the skeletal map against the workshop ceiling."
+      "A highly concentrated piece focused entirely on a single point of structural failure (or near-failure), using that moment as the entire chapter.",
+      "Structuring the poem as an inverted pyramid: beginning with the grand scale of the intended form, narrowing to a microscopic view of one joint, and then expanding out again."
     ],
     "unused_angles": [
-      "The relationship between the raw material (straw/bamboo) and the mythological concept of cyclical time—the plant life that must die to create the support for divinity.",
-      "A meditation on *unseen* labor: the hours spent securing the framework before any public viewing can even begin, acknowledging the foundational invisibility."
+      "Exploring the contrast between the permanence of stone temple architecture (if applicable in context) versus this fleeting monument.",
+      "A detailed examination of how different types of binding material (rope vs. vine vs. reed) carry different symbolic resonance."
     ],
-    "variety_note": "Where previous chapters explored the pliable wetness of clay or the spiritual anticipation of arrival, this chapter dwells entirely within the hard, pre-material skeleton—the infrastructure of belief itself."
+    "variety_note": "Unlike preceding chapters focused on raw earth or artistic touch, this chapter isolates the skeletal support—the invisible framework that allows divine manifestation to exist in mortal space."
   },
   "draft": {
-    "sha256": "cd04456ebf9c3220372531c8daa4495ad40e21510ee9ca94ac0ea75f310c383b",
-    "written_at": "2026-10-29T09:52:22.623133+00:00",
+    "sha256": "c07e46085446b656e912e4c1991dc504916c478532d4fcdee9547a4a77fb4f02",
+    "written_at": "2026-10-29T14:56:05.851554+00:00",
     "origin": "write"
   }
 }

@@ -1,14 +1,3 @@
-<!-- style-provenance
-style: poyar
-book: durga
-form: poetry
-meter: syllable-14
-grounded_from: .framework/context/poetry/styles/poyar/{sample.txt,signature.md,style.md}
-generated_at: 2026-10-29T00:20:00Z
-book_updated_at: 2026-10-27
-human_edited: false
--->
-
 # Poyar Style Grounded in 'Durga' (দুর্গা: এর কবিতা)
 
 ## Authority Note

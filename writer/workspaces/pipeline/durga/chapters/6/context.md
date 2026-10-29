@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-written
+scaffolded
 
 ## segments
 
@@ -39,236 +39,43 @@ written
 
 ### angles
 
-- Framing the wait not as passive hope, but as an active, almost anxious labor—the internal maintenance of ritual faith against encroaching mundane fatigue.
-- Adopting the perspective of a single object within the waiting space (e.g., a hanging prayer flag, a wooden chair) whose unchanging presence forces the contemplation of time's distortion.
-- Treating the cyclical nature of the wait itself as mythological—the speaker is trapped in the earthly recursion mirroring Durga’s own descent and ascent.
+- Focusing on the micro-ritual of waiting: The precise way one checks a latch or peers through a specific crack in the doorframe, treating this small action as monumental.
+- The psychological toll of cyclical waiting: How repeated hope/disappointment begins to erode the speaker's internal sense of time, blurring past and future.
+- Inverting the focus from 'waiting for arrival' to 'managing absence': The subtle maintenance of domestic ritual (sweeping, cleaning) in anticipation of a guest who may never come.
 
 ### story_options
 
-- setting: The dimly lit entryway, where dust motes hang suspended in a single shaft of late afternoon sun., desire: To catch the precise quality of air—the scent mixing earthiness from outside with faint domestic incense inside., obstacle: A sudden, sharp sound from the street (a distant horn or a specific vendor's call) that momentarily fractures the focused stillness.
-- setting: Beside an unlit clay lamp intended for arrival, waiting on a low shelf., desire: To feel the potential heat and promise of the flame—the memory of fire resisting the current dampness., obstacle: The realization that the darkness outside is not temporary twilight, but the deep, impenetrable night itself.
-- setting: A shared space where neighbors are quietly observing from a distance (a single window visible)., desire: To articulate the silent, non-verbal pact between expectant families that binds the entire locality in this ritual suspense., obstacle: The fear of being seen—the terror that outward appearance might betray the depth or weakness of one's private devotion.
+- Setting: Just before dawn on a mid-festival night. Desire: To catch the spectral outline of the expected arrival through dew-laden courtyard tiles. Obstacle: The oppressive silence that feels heavier than noise.
+- Setting: Inside an empty, dark room where only one flickering oil lamp burns low. Desire: For the lamp's flame to momentarily transform into a shape resembling Durga’s form while awaiting her entrance. Obstacle: The wax melting unevenly, causing shadows to writhe erratically.
+- Setting: On the periphery of the neighborhood boundary wall after late-night gathering ends. Desire: To observe how residual energy (laughter echoes/dust motes) seems heavier in the air where she is expected to appear. Obstacle: The sound of a distant jackal, grounding the divine anticipation back into mortal reality.
 
 ### subject_rotations
 
-- Shifting from 'waiting for arrival' to 'waiting *in* transition,' treating the suspended time as a liminal space where definitions of self and divinity blur.
-- Focusing on the physical toll of continuous hope—the small, repetitive aches in joints or eyes caused by sleepless anticipation rather than grand emotional outpouring.
-- Interrogating the nature of 'return' itself: is Durga returning to fulfill an ancient duty, or to fulfill a human need for cosmic order?
+- Treating the physical act of looking out not as hope, but as an involuntary habit—a muscle memory of devotion that cannot be stopped.
+- Exploring the concept of 'partial presence': The belief that even in absence, a subtle spiritual residue (smell, temperature change) remains where she should be entering.
+- Shifting from external waiting to internal confrontation: The speaker wrestling with their own inadequacy or doubt against the monumental promise of her return.
 
 ### sensory_details
 
-- The slightly sticky residue on brass surfaces from countless previous rituals that remain untouched by the current lack of ceremony.
-- A specific, almost inaudible hum resonating in wooden floorboards as temperature shifts between day and night.
-- The sight of fingernails catching a minuscule amount of dirt or pollen gathered during an earlier, fruitless moment of looking out.
+- Sight: Observing how the moonlight catches a single strand of dust disturbed by the slightest draft near the threshold.
+- Touch: The cool, slick residue of well-oiled brass handles on the door as they are gripped repeatedly in anticipation.
+- Sound: A specific, high-pitched insect drone (not ঢাক or general noise) that serves as a persistent, irritating metronome for patience.
 
 ### research_questions
 
-- How can the poem structurally manifest the volta mentioned in the brief—a pivot point where memory overrides immediate perception without narrative description?
+- Is there a traditional Bengali metaphor connecting cyclical waiting/patience to the physical state of seeds ripening in autumn?
+- How is the concept of 'hesitation' (দ্বিধা) linguistically rendered in devotional poetry when facing divine expectation?
 
 ### structural_variants
 
-- A tightly compressed stanzaic structure, each line representing a different minute of observation, building cumulative tension.
-- An extended rhetorical question that begins small and gradually expands its scope until it touches upon the entire cosmic cycle described in the gist.
+- A sequence where each stanza corresponds to a specific time marker—the passing of one hour, or the darkening/lightening cycle within a single night.
+- Structuring it as an overlapping set of short vignettes showing three different aspects of the wait (sound, sight, smell) occurring simultaneously.
 
 ### unused_angles
 
-- Exploring the specific sound profile of silence in this particular locale—how deep is the quiet when all expectation has momentarily dropped away?
-- A meditation on the mechanics of 'hope' as a biological, almost compulsive necessity for human continuation.
-- How does the concept of *delay* itself become a form of divine testing?
+- Focusing on the mundane domestic chores being performed *not* out of duty, but as a form of ecstatic appeasement to distract from the anxiety of waiting.
+- A brief exploration of what happens in the physical world (the village/street) when this specific household is locked in intense vigil.
 
 ### variety_note
 
-This chapter must shift focus entirely from external expectation (the sign of arrival) to internal psychic landscape, using stillness and minimal action as its primary engine, unlike chapters focusing on movement or sound.
-
-## draft
-
-### sha256
-
-d3d9a55589a23e546b2d0cbb063e14fe8b9db79e93d136d5321263481007a275
-
-### written_at
-
-2026-10-28T10:10:21.569414+00:00
-
-### origin
-
-write
-
-## form_skill
-
-poyar
-
-## stanza_form
-
-couplet
-
-## stanza_count
-
-4
-
-## rhyme_scheme
-
-AA
-
-## rhyme_scheme_note
-
-each two-line couplet is self-contained; L1 rhymes L2
-
-## calibration_method
-
-agent_composed_mcp_verified
-
-## mcp_verification
-
-### akshar_tool
-
-word.akshar-count
-
-### rhyme_tool
-
-word.rhyme-test
-
-### couplets
-
-#### Item 1
-
-##### couplet
-
-1
-
-##### L1_end
-
-যাওয়া
-
-##### L2_end
-
-দেওয়া
-
-##### rhyme
-
-2
-
-##### L1_akshar
-
-14
-
-##### L2_akshar
-
-14
-
-#### Item 2
-
-##### couplet
-
-2
-
-##### L1_end
-
-আশা
-
-##### L2_end
-
-ভাষা
-
-##### rhyme
-
-1
-
-##### L1_akshar
-
-14
-
-##### L2_akshar
-
-14
-
-#### Item 3
-
-##### couplet
-
-3
-
-##### L1_end
-
-আমরা
-
-##### L2_end
-
-তারা
-
-##### rhyme
-
-1
-
-##### L1_akshar
-
-14
-
-##### L2_akshar
-
-14
-
-#### Item 4
-
-##### couplet
-
-4
-
-##### L1_end
-
-চোখ
-
-##### L2_end
-
-শোক
-
-##### rhyme
-
-1
-
-##### L1_akshar
-
-14
-
-##### L2_akshar
-
-14
-
-### couplets_verified
-
-4
-
-### all_rhymes_verified
-
-true
-
-### min_akshar
-
-14
-
-### all_lines_at_or_above_floor
-
-true
-
-## form
-
-couplet_poem
-
-## akshar_target
-
-14
-
-## akshar_floor
-
-14
-
-## akshar_counts
-
-- 14
-- 14
-- 14
-- 14
-- 14
-- 14
-- 14
-- 14
+Unlike Chapters 1-5 which focus on the anticipation before the visible preparation begins, this chapter isolates a moment of suspended time where hope confronts silence.
