@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -94,3 +94,17 @@ scaffolded
 ### variety_note
 
 This chapter pivots away from the grand spectacle of ritual invocation seen in previous poems, focusing instead on the incredibly pressurized quiet before dissolution and addressing an absent presence to deepen thematic resonance.
+
+## draft
+
+### sha256
+
+eca9a0f7d913b32ac987d3ccd47e23a7475dee5b37c330104df49f9b29879588
+
+### written_at
+
+2026-10-28T07:34:31.668680+00:00
+
+### origin
+
+write

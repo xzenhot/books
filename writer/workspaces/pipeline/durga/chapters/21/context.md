@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,944 @@ scaffolded
 ### variety_note
 
 Unlike the focus on external acts (offering, battle aftermath), this chapter turns inward to examine the internal structure and distributed responsibilities embodied by Durga's immediate divine family within the domestic setting.
+
+## draft
+
+### sha256
+
+d242737f90463c62cf771cde4c4aba0fe869a91ebc4a3d7d477110dc144869d0
+
+### written_at
+
+2026-10-28T20:52:33.527722+00:00
+
+### origin
+
+write
+
+## form_skill
+
+poyar
+
+## form
+
+couplet_poem
+
+## stanza_form
+
+couplet
+
+## stanza_count
+
+16
+
+## line_count
+
+32
+
+## rhyme_scheme
+
+AA
+
+## rhyme_scheme_note
+
+L1~L2 inside each couplet; no cross-couplet rhyme
+
+## meter_unit
+
+akshar
+
+## akshar_target
+
+14
+
+## akshar_measure
+
+8 + 6
+
+## akshar_counts
+
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+
+## caesura
+
+word boundary at akshar 8 on every line
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## mcp_verification
+
+### akshar_tool
+
+word.akshar-count (whole line)
+
+### rhyme_tool
+
+word.rhyme-test + identical final rhyme unit
+
+### all_akshar_exact
+
+true
+
+### all_caesura_8_plus_6
+
+true
+
+### all_rhymes_verified
+
+true
+
+### all_rhymes_strong
+
+true
+
+### all_ends_distinct
+
+true
+
+### no_duplicate_pairs
+
+true
+
+### akshar_delta
+
+0
+
+### min_akshar
+
+14
+
+### couplets
+
+#### Item 1
+
+##### couplet
+
+1
+
+##### L1_end
+
+থাকে
+
+##### L2_end
+
+রাখে
+
+##### rhyme
+
+2
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+কে
+
+##### rhyme_unit_L2
+
+কে
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 2
+
+##### couplet
+
+2
+
+##### L1_end
+
+লেখে
+
+##### L2_end
+
+দেখে
+
+##### rhyme
+
+2
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+কে
+
+##### rhyme_unit_L2
+
+কে
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 3
+
+##### couplet
+
+3
+
+##### L1_end
+
+জ্ঞান
+
+##### L2_end
+
+সমাধান
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+াত
+
+##### rhyme_unit_L2
+
+াত
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 4
+
+##### couplet
+
+4
+
+##### L1_end
+
+রক্ষা
+
+##### L2_end
+
+দীক্ষা
+
+##### rhyme
+
+3
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ক্শা
+
+##### rhyme_unit_L2
+
+ক্শা
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 5
+
+##### couplet
+
+5
+
+##### L1_end
+
+দেখা
+
+##### L2_end
+
+শেখা
+
+##### rhyme
+
+2
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+কা
+
+##### rhyme_unit_L2
+
+কা
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 6
+
+##### couplet
+
+6
+
+##### L1_end
+
+ভরে
+
+##### L2_end
+
+করে
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+রে
+
+##### rhyme_unit_L2
+
+রে
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 7
+
+##### couplet
+
+7
+
+##### L1_end
+
+থেকে
+
+##### L2_end
+
+ঢেকে
+
+##### rhyme
+
+2
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+কে
+
+##### rhyme_unit_L2
+
+কে
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 8
+
+##### couplet
+
+8
+
+##### L1_end
+
+কথা
+
+##### L2_end
+
+ব্যথা
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+তা
+
+##### rhyme_unit_L2
+
+তা
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 9
+
+##### couplet
+
+9
+
+##### L1_end
+
+আলো
+
+##### L2_end
+
+ভালো
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+লো
+
+##### rhyme_unit_L2
+
+লো
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 10
+
+##### couplet
+
+10
+
+##### L1_end
+
+ছাই
+
+##### L2_end
+
+তাই
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+াই
+
+##### rhyme_unit_L2
+
+াই
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 11
+
+##### couplet
+
+11
+
+##### L1_end
+
+শক্তি
+
+##### L2_end
+
+ভক্তি
+
+##### rhyme
+
+3
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ক্তি
+
+##### rhyme_unit_L2
+
+ক্তি
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 12
+
+##### couplet
+
+12
+
+##### L1_end
+
+মুখ
+
+##### L2_end
+
+সুখ
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ুক
+
+##### rhyme_unit_L2
+
+ুক
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 13
+
+##### couplet
+
+13
+
+##### L1_end
+
+প্রদীপ
+
+##### L2_end
+
+দীপ
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ীপ
+
+##### rhyme_unit_L2
+
+ীপ
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 14
+
+##### couplet
+
+14
+
+##### L1_end
+
+আসে
+
+##### L2_end
+
+হাসে
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+শে
+
+##### rhyme_unit_L2
+
+শে
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 15
+
+##### couplet
+
+15
+
+##### L1_end
+
+দান
+
+##### L2_end
+
+মান
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+াত
+
+##### rhyme_unit_L2
+
+াত
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true
+
+#### Item 16
+
+##### couplet
+
+16
+
+##### L1_end
+
+ছায়া
+
+##### L2_end
+
+মায়া
+
+##### rhyme
+
+2
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+য়া
+
+##### rhyme_unit_L2
+
+য়া
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+##### caesura_8_L1
+
+true
+
+##### caesura_8_L2
+
+true

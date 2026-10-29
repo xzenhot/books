@@ -137,15 +137,17 @@ Write the refrain as the song's anchor (2–4 lines). Measure each line with
 (default reference 8 per line). Record that pattern as the syllable signature
 for the verses. Adjust with delete / insert / replace via `word.next`,
 `word.previous`, `word.next-context`; use `word.syllable` to inspect vowel
-nuclei when a count feels off.
+nuclei when a count feels off. A line **within ±10 %** of its reference count
+(so 7–9 for a reference of 8) is final — per
+`.framework/rules/meter-tolerance.md`, do not rewrite it to hit the exact number.
 
 ### Phase 2 — Compose the Verses
 
 Write 2–4 verses that advance and intensify the refrain's situation, echoing the
 refrain's syllable signature line-for-line. Calibrate each line with
-`word.syllable-count`; the count of verse line *i* should match the refrain line
-*i* count. Add a bridge (সঞ্চারী) or conclusion (আভোগ) only if the emotional arc
-requires it.
+`word.syllable-count`; the count of verse line *i* should land **within ±10 %**
+of the refrain line *i* count. Add a bridge (সঞ্চারী) or conclusion (আভোগ) only if
+the emotional arc requires it.
 
 ### Phase 3 — Rhyme Pass
 
@@ -174,7 +176,8 @@ Write the finished lyrics to `chapters/<n>/chapter.md`, archive the prior draft 
 ```
 
 The `syllable_signature` must be the actual ordered per-line syllable counts of
-the finished refrain, verified by `word.syllable-count`.
+the finished refrain, verified by `word.syllable-count`. Parallel lines are held
+to that signature **within ±10 %** (`.framework/rules/meter-tolerance.md`).
 
 ## Constraints
 
@@ -182,8 +185,11 @@ the finished refrain, verified by `word.syllable-count`.
 - Never compute syllable counts natively; always via `word.syllable-count`.
 - Do **not** use `word.akshar-count` here — akshar count does not matter for lyrics.
 - Never alter a line's central meaning to hit a syllable target.
+- A line inside **±10 %** of its signature count is final; never rewrite it to hit
+  the exact number.
 - The refrain must repeat verbatim — never paraphrase it on repetition.
-- Keep the syllable signature consistent across parallel verse lines.
+- Keep the syllable signature consistent across parallel verse lines, within the
+  ±10 % band.
 - Work only inside `workspaces/pipeline/<bookname>/`.
 - Valid only for books with `form: poetry`.
 

@@ -1,6 +1,6 @@
 ---
 name: haiku
-description: Fixed-form Bengali haiku (হাইকু) — three lines of 5-7-5 akshars, a season word (kigo) and a pause (kireji), capturing a single moment of perception in nature. No rhyme. Akshar count measured via the MCP endpoint. Reached through the write agent's poetry route.
+description: Fixed-form Bengali haiku (হাইকু) — three lines of 5-7-5 akshars (each foot accepted within ±10%: 4–6 / 6–8 / 4–6), a season word (kigo) and a pause (kireji), capturing a single moment of perception in nature. No rhyme. Akshar count measured via the MCP endpoint. Reached through the write agent's poetry route.
 ---
 
 # Haiku Skill (হাইকু)
@@ -12,9 +12,10 @@ inside the exempt `chapters/**` tree, so it stamps no audit fields. If it ever
 writes a non-chapter `.md`/`.json`, stamp it as the invoking agent per
 `.framework/rules/audit-metadata.md`.
 
-Use this skill to compose a **Bengali haiku** — a three-line poem of **5-7-5
-akshars** that captures a single, fleeting moment of perception in nature,
-anchored by a **season word** (ঋতুশব্দ) and marked by a **pause** (kireji).
+Use this skill to compose a **Bengali haiku** — a three-line poem targeting
+**5-7-5 akshars** (each foot accepted within **±10 %**: 4–6 / 6–8 / 4–6) that
+captures a single, fleeting moment of perception in nature, anchored by a
+**season word** (ঋতুশব্দ) and marked by a **pause** (kireji).
 
 ## Fundamental Paradigm
 
@@ -22,9 +23,9 @@ anchored by a **season word** (ঋতুশব্দ) and marked by a **pause** 
 
 MCP (`word.akshar-count`) is a ruler — it measures, never writes. The agent
 authors the haiku's three lines as precise, image-led Bengali, then uses MCP to
-confirm the 5-7-5 akshar count and adjusts word choice until it fits. MCP is
-never asked to generate or complete a line. Bengali consonant clusters
-(যুক্তব্যঞ্জন) make visual counting unreliable; trust MCP, never the eye.
+confirm each line sits in its akshar band and adjusts word choice only when it
+does not. MCP is never asked to generate or complete a line. Bengali consonant
+clusters (যুক্তব্যঞ্জন) make visual counting unreliable; trust MCP, never the eye.
 
 ## Invocation
 
@@ -71,9 +72,12 @@ stdio session.
 
 ### The 5-7-5 Akshar Pattern
 
-Three lines, exactly 5, 7, and 5 akshars respectively. The pattern is measured
-with `word.akshar-count`, never by eye. The middle line (7 akshars) usually
-carries the widest image; the shorter outer lines frame it.
+Three lines targeting 5, 7, and 5 akshars respectively. Each foot accepts a
+**±10 %** band (`.framework/rules/meter-tolerance.md`), so the accepted shape is
+**4–6 / 6–8 / 4–6**. The pattern is measured with `word.akshar-count`, never by
+eye. A line inside its band is final — do not rewrite it to hit the exact number.
+The middle line (7 akshars) usually carries the widest image; the shorter outer
+lines frame it.
 
 ### The Season Word (kigo / ঋতুশব্দ)
 
@@ -106,8 +110,10 @@ each line meaning-first. Do not aim for 5-7-5 yet.
 ### Phase 2 — Calibrate to 5-7-5
 
 Measure each line with `word.akshar-count` and adjust with
-`word.previous` / `word.next` / `word.next-context` until the counts read 5, 7,
-and 5. Preserve the image and the season word throughout.
+`word.previous` / `word.next` / `word.next-context` until the counts sit in their
+bands — **4–6 / 6–8 / 4–6** (±10 % of 5-7-5). Preserve the image and the season
+word throughout. Once a line is in its band it is done; do not shave it to the
+exact number.
 
 ### Phase 3 — Write and Record
 
@@ -118,6 +124,7 @@ Write the finished haiku to `chapters/<n>/chapter.md`, archive the prior draft t
 {
   "form_skill": "haiku",
   "akshar_pattern": "5-7-5",
+  "akshar_band": "4-6/6-8/4-6",
   "season_word": "<kigo>",
   "calibration_method": "agent_composed_mcp_verified"
 }
@@ -128,6 +135,8 @@ Write the finished haiku to `chapters/<n>/chapter.md`, archive the prior draft t
 - Never use MCP to generate or complete a line; MCP measures only.
 - Never compute akshar counts natively.
 - Never alter the image or drop the season word to hit the 5-7-5 target.
+- Each line stays inside its **±10 %** band (4–6 / 6–8 / 4–6); an in-band line is
+  never rewritten to read exactly 5, 7, or 5.
 - No rhyme — the haiku is image and rhythm only.
 - Work only inside `workspaces/pipeline/<bookname>/`.
 - Valid only for books with `form: poetry`.
@@ -149,7 +158,7 @@ It measures every line via MCP and fails the run on any contract violation.
 Haiku Report
 Book    : <bookname>
 Chapter : <n>
-Mode    : haiku (5-7-5 akshars)
+Mode    : haiku (5-7-5 akshar targets, bands 4–6/6–8/4–6)
 
 Lines:
   1. [5ak ✓]  <line>
@@ -159,7 +168,8 @@ Lines:
 Season word : <kigo>
 
 Summary:
-  Calibrated : 3/3
+  In band    : 3/3
+  Exact      : <n>/3
 
 Next steps:
   /book <bookname> write <n>      # promote to chapter output

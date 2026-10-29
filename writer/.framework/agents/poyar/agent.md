@@ -45,8 +45,8 @@ workspaces/pipeline/<bookname>/style.md
 Dispatch must resolve that cache **before** handing off:
 
 1. **Reuse** — if `style.md` exists and its `<!-- style-provenance -->` block says
-   `style: poyar` for this book (and still declares the 14-syllable couplet
-   measure), pass it through untouched. Do **not** regenerate it per chapter.
+   `style: poyar` for this book (and still declares the 14-akshar couplet measure),
+   pass it through untouched. Do **not** regenerate it per chapter.
 2. **Synthesize** — if the file is missing, or is grounded to another style (for
    example a Srijato "Refrain + Verses" reference at 6–12 syllables), have the
    poyar skill build a poyar-grounded reference from the corpus *and* the book's
@@ -70,9 +70,13 @@ The skill owns the section list, the provenance block, and the synthesis rules.
 4. Resolve the **cached poyar style** (above) and note whether it was reused or
    synthesized.
 5. Hand off to **`.framework/skills/poyar/SKILL.md`**. The skill owns: reading
-   `creative_enrichment`, fixing the through-line, the 14-syllable couplet
-   contract, the strong-rhyme protocol, the archive-before-overwrite rule, the
-   `chapter.md` output shape, the audit, and the `chapter.json` record.
+   `creative_enrichment`, fixing the through-line, the 14-akshar couplet
+   contract (accepted band **12–16**, ±10 % per
+   `.framework/rules/meter-tolerance.md`), the strong-rhyme protocol, the
+   archive-before-overwrite rule, **incremental persistence** (each verified
+   couplet appended to `chapter.md` immediately, so an interrupted run leaves a
+   valid shorter poem), the `chapter.md` output shape, the final audit, and the
+   `chapter.json` record.
    Length resolves in the skill's order — an explicit count directive, then a
    material `word_target`, then the **default 16 couplets / 32 lines**.
 6. Report the skill's result in the skill's Poyar Report format, including whether
@@ -114,7 +118,7 @@ Read the book's `factory` per `.framework/rules/command-boundary.md`:
   `book.json`/`storyline.md` on a cache miss.
 - Do not additionally apply a second transformer style unless the user names one.
 - When another style **is** named explicitly, honor it — but state that the poyar
-  form contract (14 syllables per couplet line, strong L1~L2 rhyme) still binds.
+  form contract (14-akshar target with 12–16 band, strong L1~L2 rhyme) still binds.
 
 ## Scope and Guardrails
 
@@ -122,4 +126,6 @@ Read the book's `factory` per `.framework/rules/command-boundary.md`:
 - Never write to `workspaces/published/` or `workspaces/backlog/`.
 - Never compose poyar content yourself — always delegate to the poyar skill.
 - Never overwrite `chapter.md` without archiving the prior copy.
+- Never let the skill buffer finished couplets in memory — they are appended to
+  `chapter.md` as they pass, so a stopped run is still a readable poem.
 - Valid only for books with `form: poetry`.

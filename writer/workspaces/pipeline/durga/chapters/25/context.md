@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 Unlike the highly kinetic descriptions of 'ঢাকের বোল' or the solemnity of 'বিসর্জনের নদী,' this chapter must focus on intimate interpersonal contact and its symbolic weight as a temporary mooring point against impending dispersal.
+
+## draft
+
+### sha256
+
+ce9ac8e75cc107729f023f16818efbb53eaab5af91bab8937aa3c4cdfed5d6d5
+
+### written_at
+
+2026-10-28T07:35:48.672623+00:00
+
+### origin
+
+write

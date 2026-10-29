@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,246 @@ scaffolded
 ### variety_note
 
 Where earlier chapters focused on natural phenomena signalling arrival (light, scent), this chapter isolates a *technological* signal—a recorded sound—to mark the start of anticipation.
+
+## draft
+
+### sha256
+
+37a843472b08e46a830818c85cf0433f1411fbf6f6744689805ce305d14e6655
+
+### written_at
+
+2026-10-28T08:16:41.348783+00:00
+
+### origin
+
+write
+
+## form_skill
+
+srijato
+
+## form
+
+poem
+
+## stanza_form
+
+quatrain
+
+## stanza_count
+
+3
+
+## rhyme_scheme
+
+ABAB
+
+## rhyme_scheme_note
+
+L1 rhymes L3; L2 rhymes L4 — inside every stanza
+
+## stanza_rhyme_pairs
+
+### S1
+
+#### odd
+
+- গান
+- উঠান
+
+#### even
+
+- সুর
+- দুপুর
+
+### S2
+
+#### odd
+
+- আশা
+- ভাষা
+
+#### even
+
+- সন্ধে
+- গন্ধে
+
+### S3
+
+#### odd
+
+- আলো
+- কালো
+
+#### even
+
+- নম্বর
+- খবর
+
+## syllable_counts
+
+- 7
+- 7
+- 7
+- 7
+- 7
+- 7
+- 7
+- 7
+- 7
+- 7
+- 7
+- 7
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## mcp_verification
+
+### syllable_tool
+
+word.syllable-count
+
+### rhyme_tool
+
+word.rhyme-test
+
+### rhyme_result_semantics
+
+#### -1
+
+no rhyme (different class)
+
+#### 0
+
+no rhyme (same vowel, different class) — REJECT
+
+#### 1+
+
+rhymes — ACCEPT
+
+#### 2
+
+perfect rhyme
+
+### per_stanza
+
+#### Item 1
+
+##### stanza
+
+1
+
+##### L1_end
+
+গান
+
+##### L3_end
+
+উঠান
+
+##### L1_L3
+
+1
+
+##### L2_end
+
+সুর
+
+##### L4_end
+
+দুপুর
+
+##### L2_L4
+
+1
+
+##### L1_L2
+
+-1
+
+#### Item 2
+
+##### stanza
+
+2
+
+##### L1_end
+
+আশা
+
+##### L3_end
+
+ভাষা
+
+##### L1_L3
+
+1
+
+##### L2_end
+
+সন্ধে
+
+##### L4_end
+
+গন্ধে
+
+##### L2_L4
+
+3
+
+##### L1_L2
+
+-1
+
+#### Item 3
+
+##### stanza
+
+3
+
+##### L1_end
+
+আলো
+
+##### L3_end
+
+কালো
+
+##### L1_L3
+
+1
+
+##### L2_end
+
+নম্বর
+
+##### L4_end
+
+খবর
+
+##### L2_L4
+
+1
+
+##### L1_L2
+
+-1
+
+### in_stanza_pairs_verified
+
+6
+
+### l1_l2_confirmed_non_rhyming
+
+true
+
+### all_rhymes_verified
+
+true
+
+### syllable_delta
+
+0

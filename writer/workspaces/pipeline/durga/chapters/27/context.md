@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 This chapter shifts focus entirely from the creation/energy (construction) or the communal joy (celebration), to the intensely personal, liminal moment where overwhelming feeling meets irreversible change.
+
+## draft
+
+### sha256
+
+5bed5514ca4475fc84f49d74ae740fdaf9bd8263fd7ebc1bd6b712ba835be0e9
+
+### written_at
+
+2026-10-28T07:36:13.152100+00:00
+
+### origin
+
+write

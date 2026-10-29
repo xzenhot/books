@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 While previous chapters dealt with the material construction (clay, light), this poem must focus solely on kinetic energy made audible—the primal force of rhythm that underlies all other festive acts.
+
+## draft
+
+### sha256
+
+4da352b5758a601ca758d762bfddae4ad3640652519aaf0a296a8bf3f4b9fe28
+
+### written_at
+
+2026-10-28T07:35:28.937926+00:00
+
+### origin
+
+write

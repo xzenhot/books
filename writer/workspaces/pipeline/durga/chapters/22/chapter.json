@@ -41,9 +41,60 @@
     ],
     "variety_note": "Unlike chapters focused on explosive action (Mahishasura’s defeat) or material creation (Kumortuli), this chapter grounds itself in quiet domestic tension, focusing on transitional states rather than fixed power displays."
   },
+  "form_skill": "limerick",
+  "form": "limerick",
+  "stanza_form": "limerick",
+  "rhyme_scheme": "AABBA",
+  "rhyme_scheme_note": "L1~L2 and L5 share the A family; L3~L4 share the B family; punchline in L5",
+  "akshar_target": {
+    "long": 9,
+    "short": 6
+  },
+  "akshar_band": {
+    "long": "8-10",
+    "short": "5-7"
+  },
+  "akshar_counts": [
+    9,
+    9,
+    6,
+    6,
+    10
+  ],
+  "calibration_method": "agent_composed_mcp_verified",
+  "mcp_verification": {
+    "akshar_tool": "word.akshar-count",
+    "rhyme_tool": "word.rhyme-test",
+    "all_rhymes_verified": true,
+    "lines_in_band": 5,
+    "a_rhymes": {
+      "ends": [
+        "ঘরে",
+        "ধরে",
+        "ভরে"
+      ],
+      "rhyme_test": [
+        1,
+        1,
+        1
+      ],
+      "distinct_family": true
+    },
+    "b_rhymes": {
+      "ends": [
+        "মেয়ে",
+        "চেয়ে"
+      ],
+      "rhyme_test": [
+        2
+      ],
+      "distinct_family": true
+    },
+    "families_distinct": true
+  },
   "draft": {
-    "sha256": "3823732b4a8aa524c01073c7c931efba358a5c6acd4bdf96a3872391b9a79402",
-    "written_at": "2026-10-28T07:35:20.185051+00:00",
+    "sha256": "1fac66e622c87d40284688801b18fb20afe1d9f64ce389e716359b711836c14f",
+    "written_at": "2026-10-29T09:55:46.416232+00:00",
     "origin": "write"
   }
 }

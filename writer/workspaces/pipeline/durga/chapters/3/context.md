@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Unlike its neighbors which focus on light or scent (Shiuli), this chapter centers entirely on subtle kinetic energy, sound, and the organic mechanics of the tall grass structure along the water's edge.
+
+## draft
+
+### sha256
+
+45942732a8952f310193f543afe5d61668dcc525c488f2816fd1abdc2c4c7d48
+
+### written_at
+
+2026-10-28T07:31:43.401767+00:00
+
+### origin
+
+write

@@ -1,6 +1,6 @@
 ---
 name: sonnet
-description: Fixed-form Bengali sonnet — 14 lines of exactly 14 akshars each, split 8+6 at the caesura, volta at line 9, optional verified rhyme. Routes through the line agent (calibration) and rhyme agent (composition). MCP measures; the agent composes.
+description: Fixed-form Bengali sonnet — 14 lines of 14 akshars each (accepted 12–16, ±10% meter tolerance), split 8+6 at the caesura, volta at line 9, optional verified rhyme. Routes through the line agent (calibration) and rhyme agent (composition). MCP measures; the agent composes.
 ---
 
 # Sonnet Skill (বাংলা সনেট)
@@ -13,8 +13,8 @@ writes a non-chapter `.md`/`.json`, stamp it as the invoking agent per
 `.framework/rules/audit-metadata.md`.
 
 Use this skill to compose or calibrate a **Bengali sonnet**: exactly **14 lines**,
-each **14 akshars** (অক্ষর), split **8 + 6** at the caesura, with a **volta** at
-line 9 and an optional verified rhyme scheme.
+each **14 akshars** (অক্ষর) with a **±10 % band (12–16)**, split **8 + 6** at the
+caesura, with a **volta** at line 9 and an optional verified rhyme scheme.
 
 ## Fundamental Paradigm
 
@@ -22,9 +22,11 @@ line 9 and an optional verified rhyme scheme.
 
 MCP (`word.akshar-count`) is a ruler — it measures, never writes. Every line is
 authored by the agent as meaningful Bengali poetry drawn from the source chapter's
-themes, imagery, and tonal register. The agent then uses MCP to check whether each
-line hits exactly 14 akshars and makes targeted word-level edits until it does.
-MCP is never asked to generate, suggest, or complete a line.
+themes, imagery, and tonal register. The agent then uses MCP to check each line
+against the 14-akshar target and makes targeted word-level edits only when the
+line falls outside the **12–16** band. A 13, 15, or 16-akshar line that reads well
+is finished — do not burn edits to force 14. MCP is never asked to generate,
+suggest, or complete a line.
 
 Bengali consonant clusters (যুক্তব্যঞ্জন) make visual akshar counting unreliable;
 a word such as `বেঁধেছে` looks like 4–5 letters but the MCP counts it as 3 akshars.
@@ -46,7 +48,7 @@ This skill is never executed directly by a workflow. It is reached through the
 | Property | Value |
 |---|---|
 | Total lines | **14** |
-| Akshars per line | **14** (consonant count, measured by MCP) |
+| Akshars per line | **14 target**, accepted **12–16** (±10 %, per `.framework/rules/meter-tolerance.md`), measured by MCP |
 | Caesura | **8 + 6**, ending on a natural word boundary |
 | Volta | Line **9** (thematic turn — noted, not enforced) |
 | Octave | Lines 1–8 |
@@ -112,13 +114,17 @@ not matter yet; calibration happens next.
 - **Line 9 (Volta)**: shift perspective, mood, or subject.
 - **Lines 10–14 (Sestet)**: resolve, question, or deepen the tension.
 
-### Phase 2 — Calibrate to 14 Akshars (line agent)
+### Phase 2 — Calibrate to the 14-Akshar Target (line agent)
 
-For each line, generate meaning-preserving variants (delete / insert / replace
-via `word.next`, `word.previous`, `word.next-context`), test each with
-`word.akshar-count`, and select the first candidate that reaches exactly 14
-akshars on a valid caesura boundary. Iterate up to 3 rounds per line; on
-exhaustion record `needs_manual_review` and continue.
+For each line, measure it with `word.akshar-count`:
+
+- **Inside 12–16** — the line passes. **Keep it.** Never rewrite an in-band line
+  merely to make it read exactly 14.
+- **Outside 12–16** — generate meaning-preserving variants (delete / insert /
+  replace via `word.next`, `word.previous`, `word.next-context`), test each with
+  `word.akshar-count`, and select the first candidate that lands in **12–16** on a
+  valid caesura boundary (`8 + 6`, or the fallback midpoint boundary). Iterate up
+  to 3 rounds per line; on exhaustion record `needs_manual_review` and continue.
 
 ### Phase 3 — Compose the Rhyme Bank (rhyme agent, when rhyme is enabled)
 
@@ -136,11 +142,14 @@ marks), archive the prior draft to `chapters/<n>/history/`, and record in
 ```json
 {
   "akshar_target": 14,
+  "akshar_tolerance": 2,
+  "akshar_band": "12-16",
   "caesura": "8+6",
   "sonnet_mode": true,
   "volta_line": 9,
   "calibration_method": "agent_composed_mcp_verified",
   "lines_calibrated": 14,
+  "lines_in_band": 14,
   "lines_needs_review": []
 }
 ```
@@ -150,6 +159,8 @@ marks), archive the prior draft to `chapters/<n>/history/`, and record in
 - Never use MCP to generate or complete a line; MCP measures only.
 - Never compute akshar counts natively.
 - Never alter a line's central meaning to hit an akshar target.
+- Every line lands in the **12–16** band (±10 % of 14); a line inside the band is
+  never rewritten merely to read exactly 14.
 - Never write to `chapter.md` without archiving the prior version to `history/`.
 - Work only inside `workspaces/pipeline/<bookname>/`.
 - Valid only for books with `form: poetry`.
@@ -160,12 +171,13 @@ marks), archive the prior draft to `chapters/<n>/history/`, and record in
 Sonnet Report
 Book    : <bookname>
 Chapter : <n>
-Mode    : sonnet (14 lines × 14 akshars, 8+6 caesura)
+Mode    : sonnet (14 lines × 14 akshars target, band 12–16, 8+6 caesura)
 
 Per-line: [14ak ✓] <line>   (line 9 marked [volta ↻])
 
 Summary:
-  Calibrated   : 14/14
+  In band      : 14/14
+  Exact 14     : <n>/14
   Needs review : none
 
 Next steps:

@@ -209,7 +209,7 @@ python tools/mcpbangla/_sonnet_write.py --book durga --chapter 4 --dry-run
 | `poyar` | couplets, akshar >= 14, L1~L2, distinct ends | `--floor N` |
 | `srijato` | quatrains, syllable meter, scheme | `--scheme ACBD\|ABAB\|AABB` |
 | `haiku` | 3 lines, akshar **5-7-5**, no rhyme | — |
-| `limerick` | 5 lines, **AABBA**, long/short akshars, no redif | `--maxlen N` `--shortlen N` |
+| `limerick` | 5 lines, **AABBA**, long/short syllable pattern (±10 %, internally consistent), no redif | `--maxlen N` `--shortlen N` (optional pin; else derived) |
 | `lyrics` | syllable signature, refrain repetition, rhyme reported only | `--syllable-target N` `--syllable-tol N` |
 
 Every form also reports what it *cannot* check mechanically. `lyrics` rhyme and the

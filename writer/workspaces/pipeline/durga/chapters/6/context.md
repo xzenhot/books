@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,196 @@ scaffolded
 ### variety_note
 
 This chapter must shift focus entirely from external expectation (the sign of arrival) to internal psychic landscape, using stillness and minimal action as its primary engine, unlike chapters focusing on movement or sound.
+
+## draft
+
+### sha256
+
+d3d9a55589a23e546b2d0cbb063e14fe8b9db79e93d136d5321263481007a275
+
+### written_at
+
+2026-10-28T10:10:21.569414+00:00
+
+### origin
+
+write
+
+## form_skill
+
+poyar
+
+## stanza_form
+
+couplet
+
+## stanza_count
+
+4
+
+## rhyme_scheme
+
+AA
+
+## rhyme_scheme_note
+
+each two-line couplet is self-contained; L1 rhymes L2
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## mcp_verification
+
+### akshar_tool
+
+word.akshar-count
+
+### rhyme_tool
+
+word.rhyme-test
+
+### couplets
+
+#### Item 1
+
+##### couplet
+
+1
+
+##### L1_end
+
+যাওয়া
+
+##### L2_end
+
+দেওয়া
+
+##### rhyme
+
+2
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 2
+
+##### couplet
+
+2
+
+##### L1_end
+
+আশা
+
+##### L2_end
+
+ভাষা
+
+##### rhyme
+
+1
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 3
+
+##### couplet
+
+3
+
+##### L1_end
+
+আমরা
+
+##### L2_end
+
+তারা
+
+##### rhyme
+
+1
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 4
+
+##### couplet
+
+4
+
+##### L1_end
+
+চোখ
+
+##### L2_end
+
+শোক
+
+##### rhyme
+
+1
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+### couplets_verified
+
+4
+
+### all_rhymes_verified
+
+true
+
+### min_akshar
+
+14
+
+### all_lines_at_or_above_floor
+
+true
+
+## form
+
+couplet_poem
+
+## akshar_target
+
+14
+
+## akshar_floor
+
+14
+
+## akshar_counts
+
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14

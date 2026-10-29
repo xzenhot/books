@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 While previous chapters focused on the permanence or temporariness of artistic forms (clay/light), this chapter isolates a moment dealing purely with ephemeral, living growth and biological order.
+
+## draft
+
+### sha256
+
+76646e0079a24840ca15c7ef5948907183efb29fa37ed7ecd3006ceb08f7af0d
+
+### written_at
+
+2026-10-28T07:33:54.302102+00:00
+
+### origin
+
+write

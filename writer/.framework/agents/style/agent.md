@@ -47,7 +47,7 @@ That skill synthesizes `workspaces/pipeline/<bookname>/style.md` from
 `.framework/context/poetry/styles/poyar/{sample.txt,signature.md,style.md}` plus the
 book's `book.json`/`storyline.md`, writes the `<!-- style-provenance -->` block, and
 reuses the result thereafter. A free-voice document would drop the couplet
-contract (14 syllables, strong L1~L2 rhyme) and break the form.
+contract (14-akshar target in a 12–16 band, strong L1~L2 rhyme) and break the form.
 
 The same applies in reverse: never overwrite an existing `style.md` that carries a
 `poyar` provenance block with a free-voice document.

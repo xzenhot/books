@@ -1,5 +1,5 @@
-Syllable = 4 + 3 + 4
-Akshar = 14
+Akshar = 8 + 6  (= 14 per line)
+Rhyme  = AA inside each couplet (no cross-couplet rhyme)
 ===========
 
 1)
@@ -50,7 +50,7 @@ Akshar = 14
 
 
 
-Syllable: 4 + 4 + 4 2
+Akshar: 6+6+6+2  ( approx long-line variant below is not the poyar model)
 Akshar = 20 ( approx )
 
 1)
@@ -86,7 +86,7 @@ Akshar = 20 ( approx )
 
 
 Kashiram - Old Style
-Syllable = 4 + 3 + 4 ( approx)
+Akshar = 8 + 6  (approx.)
 Akshar = 14 ( Approx)
 ===========
 

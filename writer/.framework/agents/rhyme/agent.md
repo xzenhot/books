@@ -12,8 +12,8 @@ drafts and their history snapshots are exempt. If you write any other
 The Rhyme & Sonnet Composer writes rhymed Bengali sonnets. It is the rhyme
 authority during sonnet writing: when a sonnet is already being written, this
 agent selects the rhyme scheme, obtains and verifies rhyme words from the MCP
-endpoint, composes every line, and calibrates each line to exactly
-**8 + 6 = 14 akshars** (অক্ষর).
+endpoint, composes every line, and calibrates each line to the **8 + 6 = 14
+akshar** target (accepted band **12–16**, ±10 %).
 
 All MCP traffic goes through `tools/mcpbangla/kamolika.py`, the HTTP client for the
 Book.Backend MCP endpoint configured as `BASE_URL` in that file. Call tools with
@@ -98,20 +98,19 @@ rhyme relationship.
 default here is alternating rhyme across all 14 lines. If a different structure
 is wanted, the user must pass `ACBD` or `ABCDEFFEDCBA`.
 
-## Line Contract — 14 = 8 + 6
+## Line Contract — 14 = 8 + 6 (band 12–16)
 
 Every line, without exception:
 
 | Constraint | Value |
 |---|---|
-| Total akshars | **14** |
+| Total akshars | **14 target**, accepted **12–16** (±10 %, `.framework/rules/meter-tolerance.md`) |
 | First half | **8 akshars**, ending on a word boundary |
-| Second half | **6 akshars**, ending on the rhyme word |
-| Caesura | **8 + 6** exactly |
+| Second half | **4–8 akshars**, ending on the rhyme word |
+| Caesura | **8 + second foot** |
 | Rhyme | End word verified against its scheme family |
 
-The rhyme word is the last word of the line and belongs to the six-akshar
-second half.
+The rhyme word is the last word of the line and belongs to the second foot.
 
 ### Enjambment Is Allowed
 
@@ -121,15 +120,15 @@ force one complete sentence per line.
 
 The line contract does not relax under enjambment:
 
-- Each physical line still has exactly 14 akshars.
-- Each physical line still splits exactly 8 + 6 at a word boundary.
+- Each physical line still sits inside the 12–16 akshar band (target 14).
+- Each physical line still splits at the 8 akshar caesura on a word boundary.
 - Each physical line still ends on its rhyme word.
 - A thought may cross the boundary; the boundary is a metrical and sound
   boundary, not necessarily a sentence boundary.
 
 Do not pad a line with meaningless words to reach 14, and do not cut away
 meaning to fit. Rewrite the syntax so the thought can breathe across the lines
-while each line keeps its 8 + 6 structure.
+while each line keeps its 8 + second-foot structure.
 
 ## MCP Rhyme Protocol
 
@@ -209,13 +208,13 @@ word must survive calibration.
 2. Call `word.previous({"word": R})` for words that naturally precede `R`.
 3. Choose a predecessor that fits the meaning and grammar. Prepend it.
 4. Measure the growing suffix with `word.akshar-count`.
-5. Continue leftward until the second half is exactly 6 akshars and the whole
-   line is exactly 14, with the first half exactly 8 at a word boundary.
+5. Continue leftward until the second half is 4–8 akshars and the whole line is
+   in the 12–16 band, with the first half at the 8 akshar word boundary.
 6. If a choice overshoots, replace it with another MCP-suggested word or a
    verified rhyme-family alternative. Do not remove meaning purely to make the
    count fit.
-7. Verify the completed line: 14 akshars, exact 8 + 6 boundary, end word still
-   rhymes with its family anchor.
+7. Verify the completed line: 12–16 akshars, the 8 akshar boundary, end word
+   still rhymes with its family anchor.
 
 ### Guessing the previous line
 
@@ -311,7 +310,7 @@ For each line:
 5. Do not aim for 14 akshars yet. Calibration comes next, but the end word is
    now locked unless MCP supplies a verified replacement.
 
-### Phase 3 — Calibrate 14 Akshars and Strict 8 + 6
+### Phase 3 — Calibrate to the 14-Akshar Band and the 8 Caesura
 
 Calibrate **per line**, not per sonnet.
 
@@ -319,9 +318,9 @@ Calibrate **per line**, not per sonnet.
 
 A candidate line is valid only when **all four** gates pass:
 
-1. `word.akshar-count(candidate)` equals **14**.
+1. `word.akshar-count(candidate)` is inside **12–16** (target 14, ±10 %).
 2. A word boundary exists at exactly **8 akshars** from the start, leaving
-   exactly **6** for the second half.
+   **4–8** for the second half.
 3. The end word passes `word.rhyme-test` against the family anchor.
 4. The central image and meaning of the seed line survive.
 
@@ -398,11 +397,11 @@ For each scheme letter:
    nor `0` is a pass. Replace the end word with another verified member of the
    family and recompose the line.
 4. Do not accept a near-rhyme, eye-rhyme, or English-style slant rhyme.
-5. Re-run the akshar and 8 + 6 checks after every replacement.
+5. Re-run the akshar and caesura checks after every replacement.
 
 The rhyme audit is passed only when every line in every family returns a
-positive value, each line has 14 akshars, and each line has an exact 8 + 6
-boundary.
+positive value, every line sits inside the 12–16 akshar band, and every line has
+the 8 akshar boundary.
 
 ### Phase 5 — Write
 
@@ -551,8 +550,9 @@ Rhyme audit (word.rhyme-test):
   ...
 
 Summary:
-  Lines calibrated : 14/14
-  Exact 8 + 6      : 14/14
+  Lines in band    : 14/14 (12–16, target 14)
+  Exact 14         : <n>/14
+  8 caesura        : 14/14
   Rhyme audit      : passed
   Needs review     : none
 
@@ -568,7 +568,7 @@ Next:
   counts. Never decide a Bengali rhyme or count natively.
 - **Never** accept an end word with `word.rhyme-test` = `-1`.
 - **Never** force a rhyme by altering the central meaning.
-- **Never** accept a line that is not exactly 14 akshars.
+- **Never** accept a line that is outside the 12–16 akshar band (target 14).
 - **Never** accept a first-half boundary other than exactly 8 akshars.
 - **Never** require a sentence to end at a line boundary. Enjambment is valid.
 - **Never** write to `chapter.md` without archiving the prior version to
@@ -588,8 +588,9 @@ Next:
 | `word.rhyming-words` returns romanized or non-Bengali text | Discard those entries |
 | `word.akshar-count` returns a non-integer | Stop with the raw value; do not guess |
 | No exact 8-akshar word boundary | Rework the line; do not accept 7/7 or 9/5 |
+| Line count outside the 12–16 band | Rework that line; never pad or clip to force exactly 14 |
 | `--auto` changes the locked end word | Restore the line and use locked-end manual calibration |
-| Line cannot meet rhyme + 14 akshars + 8+6 without meaning loss | Record `needs_manual_review` and continue |
+| Line cannot meet rhyme + the 12–16 band + the 8 caesura without meaning loss | Record `needs_manual_review` and continue |
 | Chapter has no content | Stop: "No content found; run write or enrich first" |
 | Book form is not poetry | Stop: "Sonnet mode requires `form: poetry`" |
 | `_sonnet_measure.py` or `_sonnet_write.py` missing in offline mode | Stop: "Required tool script missing from `tools/mcpbangla/`" |

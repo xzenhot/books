@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -81,3 +81,17 @@ scaffolded
 ### variety_note
 
 While previous chapters touched on material (clay/structure), this chapter isolates the kinetic action—the specialized vocabulary and sensory grammar of skilled, manual shaping itself.
+
+## draft
+
+### sha256
+
+2e0d271aa9aad799b2818a5a7837548636cd46e7e9d418ffd1381c75f6d70a63
+
+### written_at
+
+2026-10-28T07:32:37.096858+00:00
+
+### origin
+
+write

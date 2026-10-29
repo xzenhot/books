@@ -53,6 +53,7 @@ import sys
 import os
 import argparse
 import json
+import math
 
 TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
 if TOOLS_DIR not in sys.path:
@@ -62,8 +63,18 @@ from mcpclient import McpClient, default_server_path
 
 TARGET       = 14
 VOLTA_LINE   = 9
+# Every metre target carries a +/-10% band (.framework/rules/meter-tolerance.md).
 MAX_SUGGESTIONS = 12   # max words to fetch per word.next / word.previous call
 MAX_ROUNDS   = 3       # rounds of 48 before giving up
+
+
+def tolerance() -> int:
+    """Allowed drift on the akshar target: 10% of it, never below 1."""
+    return max(1, math.ceil(TARGET * 0.10))
+
+
+def in_band(count: int) -> bool:
+    return abs(count - TARGET) <= tolerance()
 
 # ---------------------------------------------------------------------------
 # Valid caesura patterns — ordered by preference
@@ -375,26 +386,27 @@ def auto_calibrate_line(client, line_n: int, verbose: bool = True) -> str | None
 
 def run_measure(client):
     print("=" * 65)
-    print(f"Akshar measurement — target: {TARGET} per line")
+    print(f"Akshar measurement — target: {TARGET} "
+          f"(band {TARGET - tolerance()}-{TARGET + tolerance()})")
     print("=" * 65)
     all_ok = True
     needs_work = []
     for i, line in enumerate(LINES, 1):
         count = akshar(client, line)
         delta = count - TARGET
-        if delta == 0:
+        if in_band(count):
             pr = find_pattern(client, line)
             if pr:
                 label, first, second = pr
                 flag = f" ✓  [{label}]  {first} | {second}"
             else:
-                flag = " ✓  [14ak — no caesura pattern; run --auto]"
+                flag = " ✓  [in band — no caesura pattern; run --auto]"
         else:
             all_ok = False
             needs_work.append(i)
             flag = f" ({delta:+d})"
         volta = "  [volta ↻]" if i == VOLTA_LINE else ""
-        if delta != 0:
+        if not in_band(count):
             print(f"  {i:2d}.{volta} [{count:2d}]{flag}  {line}")
         else:
             print(f"  {i:2d}.{volta} [{count:2d}]{flag}")

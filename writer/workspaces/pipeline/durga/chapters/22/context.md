@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -74,3 +74,17 @@ scaffolded
 ### variety_note
 
 Unlike chapters focused on explosive action (Mahishasura’s defeat) or material creation (Kumortuli), this chapter grounds itself in quiet domestic tension, focusing on transitional states rather than fixed power displays.
+
+## draft
+
+### sha256
+
+3823732b4a8aa524c01073c7c931efba358a5c6acd4bdf96a3872391b9a79402
+
+### written_at
+
+2026-10-28T07:35:20.185051+00:00
+
+### origin
+
+write

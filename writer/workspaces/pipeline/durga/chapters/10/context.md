@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 While previous chapters focused on the raw materials (clay, straw), this chapter forces a hyper-focus onto the point of final perceptual inscription—the moment matter claims awareness.
+
+## draft
+
+### sha256
+
+e6092f550bddc741ca9474591f336f3bea5b4a074bd378790fd5b3f8a68fa209
+
+### written_at
+
+2026-10-28T07:33:05.186283+00:00
+
+### origin
+
+write

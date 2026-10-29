@@ -67,10 +67,10 @@
       "chapter_number": 6,
       "topic": "মায়ের ফেরার অপেক্ষা",
       "category": "আগমনী",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/6/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
       "published": false
     },
@@ -78,10 +78,10 @@
       "chapter_number": 7,
       "topic": "কুমোরটুলির মাটি",
       "category": "শিল্প ও নির্মাণ",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/7/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
       "published": false
     },
@@ -339,6 +339,6 @@
       "published": false
     }
   ],
-  "written_chapters": 25,
+  "written_chapters": 27,
   "published": false
 }

@@ -37,16 +37,19 @@ Reshape the draft to the target meter without changing meaning. The ruler is
 
 | Form | Meter unit | Tool |
 |---|---|---|
-| sonnet, limerick, haiku | akshar (consonant) | `word.akshar-count` |
-| lyrics / modern song, srijato, **poyar** | syllable | `word.syllable-count` (per word, summed) |
+| sonnet, haiku, **poyar** | akshar (consonant) | `word.akshar-count` |
+| limerick | syllable | `word.syllable-count` (per word, summed) |
+| lyrics / modern song, srijato | syllable | `word.syllable-count` (per word, summed) |
 
 Route through `.framework/agents/line/agent.md`. Every measurement goes through
 MCP (`tools/mcpbangla/kamolika.py`) — **never compute counts natively**, because
 Bengali conjuncts (যুক্তব্যঞ্জন) make visual counting invalid.
 
-**Poyar is exact, not a floor.** Every line must hold **exactly 14 syllables** in
-the `4 + 4 + 4 + 2` measure; a 13 or 15 is rewritten, not balanced. Measure a line
-by summing its per-word counts — `word.syllable-count` over-counts whole phrases.
+**Poyar is akshar-metred with a tolerance band.** Every line targets **14 akshar**
+in the `8 + 6` measure and is accepted anywhere in **12–16** (±10 % per
+`.framework/rules/meter-tolerance.md`); a line outside that band is rewritten, and
+an in-band line is never rewritten just to read exactly 14. Measure a line with
+`word.akshar-count` on the whole line — poyar is not a syllable form.
 
 **Poyar rhymes must be strong.** `word.rhyme-test >= 1` proves only class
 membership; the two end words must also share an identical final rhyme unit.
@@ -70,8 +73,8 @@ words must also share an identical final rhyme unit (see above).
 | Haiku | `.framework/agents/haiku/agent.md` | `.framework/skills/haiku/SKILL.md` |
 | **Poyar (couplets)** | `.framework/agents/poyar/agent.md` | `.framework/skills/poyar/SKILL.md` |
 
-**Poyar has a dedicated skill.** It is a metred, rhymed couplet form (exactly 14
-syllables per line, strong L1~L2 rhyme), not a voice to be layered onto the
+**Poyar has a dedicated skill.** It is a metred, rhymed couplet form (14-akshar
+target per line with a 12–16 band, strong L1~L2 rhyme), not a voice to be layered onto the
 generic `poetry` skill. When `poyar` is the resolved form or style, task 4 routes
 to `.framework/agents/poyar/agent.md` → `.framework/skills/poyar/SKILL.md`.
 Never satisfy a poyar request with `.framework/skills/poetry/SKILL.md` — that
@@ -172,9 +175,10 @@ order, and report each as it completes. For one chapter:
    `.framework/skills/novel/SKILL.md`.
    **Exception — `poyar`:** when the resolved style or an explicit argument is
    `poyar`, route to `.framework/agents/poyar/agent.md` →
-   `.framework/skills/poyar/SKILL.md`. Poyar is a fixed couplet form (exactly 14
-   syllables per line, strong L1~L2 rhyme) with its own dedicated skill; it must
-   never be composed by the generic poetry skill, which writes continuous prose.
+   `.framework/skills/poyar/SKILL.md`. Poyar is a fixed couplet form (14-akshar
+   target per line, accepted 12–16, strong L1~L2 rhyme) with its own dedicated
+   skill; it must never be composed by the generic poetry skill, which writes
+   continuous prose.
 7. Flatten `chapter.json` → `context.md`, build the prompt, and pass it (with the
    chapter model, style, language, word target, and override path) to the skill.
 8. Report the writer-stage output: form, style, language, word target, and whether

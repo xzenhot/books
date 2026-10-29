@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,17 @@ scaffolded
 ### variety_note
 
 Unlike the preceding chapters focused on natural signs (Shiuli, Kashful, music), this piece anchors itself in the deliberate human act of creation—the controlled imposition of light into the landscape.
+
+## draft
+
+### sha256
+
+9248eae90881b8ef5b7d111968cc4a4a2fa1ae02484e826c5f73f9f317127da0
+
+### written_at
+
+2026-10-28T07:31:59.952538+00:00
+
+### origin
+
+write

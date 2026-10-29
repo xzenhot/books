@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,133 @@ scaffolded
 ### variety_note
 
 While Chapter 1 focused on the onset of light and silence, this chapter grounds that anticipation in a specific, highly delicate organic action: the shedding of bloom against structures.
+
+## draft
+
+### sha256
+
+0ba04562c6e668053f7ee5166f3a8d6d02d562afd63882bbe1fde326f5c0c13f
+
+### written_at
+
+2026-10-28T08:13:59.866774+00:00
+
+### origin
+
+write
+
+## form_skill
+
+srijato
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## mcp_verification
+
+### syllable_tool
+
+word.syllable-count
+
+### rhyme_tool
+
+word.rhyme-test
+
+### rhyme_result_semantics
+
+#### -1
+
+no rhyme (different class)
+
+#### 0
+
+no rhyme (same vowel, different class) — REJECT
+
+#### 1+
+
+rhymes — ACCEPT
+
+#### 2
+
+perfect rhyme
+
+### in_stanza_pairs_verified
+
+6
+
+### l1_l2_confirmed_non_rhyming
+
+true
+
+### all_rhymes_verified
+
+true
+
+### syllable_delta
+
+1
+
+## form
+
+poem
+
+## stanza_form
+
+quatrain
+
+## rhyme_scheme
+
+ABAB
+
+## stanza_count
+
+3
+
+## rhyme_scheme_note
+
+L1 rhymes L3; L2 rhymes L4 — inside every stanza
+
+## stanza_rhyme_pairs
+
+### S1
+
+- আলো
+- গেলো
+
+- ভোর
+- জোর
+
+
+### S2
+
+- ডাক
+- ঠিকঠাক
+
+- নাম
+- আরাম
+
+
+### S3
+
+- হাত
+- হঠাত
+
+- কারণ
+- বরণ
+
+
+## syllable_counts
+
+- 6
+- 7
+- 7
+- 6
+- 6
+- 7
+- 6
+- 6
+- 6
+- 6
+- 6
+- 6

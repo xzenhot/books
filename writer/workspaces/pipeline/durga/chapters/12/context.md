@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -82,3 +82,17 @@ scaffolded
 ### variety_note
 
 Unlike previous chapters which focus on foundational materials (clay, straw) or singular moments (Chokkhudan), this chapter centers entirely on presentation and symbolic overlay—how the divine is publicly 'worn' and perceived by the community.
+
+## draft
+
+### sha256
+
+836d3af5c6113cee13b8eacb2125262b2bd6da4d22bc66b75f4edc9f0892fecc
+
+### written_at
+
+2026-10-28T07:33:30.634645+00:00
+
+### origin
+
+write

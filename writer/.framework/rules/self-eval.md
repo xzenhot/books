@@ -55,7 +55,7 @@ Read these in order. Use them as the source of truth for what *should* exist.
    and path map.
 2. `.framework/workflows/backlog.md`, `book.md`, `pipeline.md` — the specs.
 3. `.framework/rules/command-boundary.md`, `next-steps.md`,
-   `audit-metadata.md` — the rules.
+   `audit-metadata.md`, `meter-tolerance.md` — the rules.
 4. `.framework/agents/` — every `agent.md`.
 5. `.framework/skills/` — every active `SKILL.md`. Retired/moved skills live under
    `.framework/filters/` and must not be referenced by any agent or workflow.

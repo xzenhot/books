@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,412 @@ scaffolded
 ### variety_note
 
 While preceding chapters dealt with external signals (radio wave, lamp light), this chapter roots the experience entirely in a dense, visceral materiality—the tactile presence of raw earth as divine genesis. It avoids naming the resultant form until the very last suggestion line.
+
+## draft
+
+### sha256
+
+f38095050a91253cfe6a3488eb17856857deb5b429a35e8369063af45743032b
+
+### written_at
+
+2026-10-28T10:25:36.520653+00:00
+
+### origin
+
+write
+
+## form_skill
+
+poyar
+
+## form
+
+couplet_poem
+
+## stanza_form
+
+couplet
+
+## stanza_count
+
+10
+
+## line_count
+
+20
+
+## rhyme_scheme
+
+AA
+
+## rhyme_scheme_note
+
+L1~L2 and L3~L4 inside each couplet; no cross-couplet rhyme
+
+## akshar_target
+
+14
+
+## akshar_floor
+
+14
+
+## akshar_counts
+
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## mcp_verification
+
+### akshar_tool
+
+word.akshar-count
+
+### rhyme_tool
+
+word.rhyme-test
+
+### couplets
+
+#### Item 1
+
+##### couplet
+
+1
+
+##### L1_end
+
+মাটি
+
+##### L2_end
+
+বৃষ্টি
+
+##### rhyme
+
+1
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 2
+
+##### couplet
+
+2
+
+##### L1_end
+
+গন্ধ
+
+##### L2_end
+
+শব্দ
+
+##### rhyme
+
+1
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 3
+
+##### couplet
+
+3
+
+##### L1_end
+
+হাত
+
+##### L2_end
+
+রাত
+
+##### rhyme
+
+1
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 4
+
+##### couplet
+
+4
+
+##### L1_end
+
+তত্ত্ব
+
+##### L2_end
+
+অস্তিত্ব
+
+##### rhyme
+
+2
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 5
+
+##### couplet
+
+5
+
+##### L1_end
+
+নদী
+
+##### L2_end
+
+কালিন্দী
+
+##### rhyme
+
+1
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 6
+
+##### couplet
+
+6
+
+##### L1_end
+
+গলি
+
+##### L2_end
+
+বাঙালি
+
+##### rhyme
+
+1
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 7
+
+##### couplet
+
+7
+
+##### L1_end
+
+দেবী
+
+##### L2_end
+
+পৃথিবী
+
+##### rhyme
+
+1
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 8
+
+##### couplet
+
+8
+
+##### L1_end
+
+মাটি
+
+##### L2_end
+
+বৃষ্টি
+
+##### rhyme
+
+1
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 9
+
+##### couplet
+
+9
+
+##### L1_end
+
+গন্ধ
+
+##### L2_end
+
+শব্দ
+
+##### rhyme
+
+1
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+#### Item 10
+
+##### couplet
+
+10
+
+##### L1_end
+
+শহর
+
+##### L2_end
+
+অক্ষর
+
+##### rhyme
+
+1
+
+##### distinct
+
+true
+
+##### L1_akshar
+
+14
+
+##### L2_akshar
+
+14
+
+### couplets_verified
+
+10
+
+### all_rhymes_verified
+
+true
+
+### min_akshar
+
+14
+
+### all_lines_at_or_above_floor
+
+true
+
+### identical_end_word_pairs
+
+0

@@ -31,13 +31,15 @@ The Line Calibrator agent rewrites Bengali sentences to a fixed target length (w
 5. Iterate rewrites until both counts agree with the target length schema.
 6. If `replace` is provided, write the calibrated line back to the chapter (version-before-overwrite); otherwise report only.
 
-## Poyar Calibration (syllable meter, strong rhyme)
+## Poyar Calibration (akshar meter, strong rhyme)
 
 When the target form is `poyar`, calibration is not length alone:
 
-- **Length:** each line is **exactly 14 syllables**, read as `4 + 4 + 4 + 2`
-  (a `4 + 4 + 4 + 1` close is legal; 2 is preferred). A 13 or 15 is a defect to
-  rewrite, not a value to rebalance across the couplet.
+- **Length:** each line targets **14 akshar**, read as `8 + 6`, and is accepted
+  anywhere in **12–16** (±10 %, `.framework/rules/meter-tolerance.md`). A line
+  outside the band is a defect to rewrite; an in-band line (13, 15, 16) is final —
+  never rewrite it just to read exactly 14. Measure with `word.akshar-count` on
+  the whole line; poyar is **not** a syllable form.
 - **Rhyme class:** `word.rhyme-test(L1_end, L2_end) >= 1`. `0` and `-1` are
   rejections.
 - **Rhyme strength:** the two end words must also share an **identical final rhyme
@@ -53,14 +55,18 @@ weak pair:
    strong and semantically right.
 2. **If none exists, rework line 1** — reorder its words, move the rhyme word
    inward, or replace the whole line — so it ends on a word with strong partners.
-3. Re-measure both lines to 14 syllables and re-run both rhyme checks.
-4. Record the pair's `rhyme`, `strength`, and both `rhyme_unit` values.
+3. Re-measure both lines against the **12–16** band and re-run both rhyme checks.
+4. Record the pair's `rhyme`, `strength`, both `rhyme_unit` values, and each
+   line's `in_band` flag.
 
-Use `tools/mcpbangla/verse.py rhyme A B` (non-zero exit = weak or non-rhyme) and
-`python tools/mcpbangla/verse.py audit <file> --form poyar` before reporting done.
+Use `tools/mcpbangla/verse.py rhyme A B` (non-zero exit = weak or non-rhyme),
+`python tools/mcpbangla/verse.py review <file> --form poyar` for the per-line,
+per-word report, and `python tools/mcpbangla/verse.py audit <file> --form poyar`
+before reporting done. Both `review` and `audit` must print `=== PASS ===`.
 
 ## Constraints
 - Never change the central meaning of the sentence.
+- Never let Python write or rewrite a line — it measures and reports only.
 - Always calibrate through `tools/mcpbangla/kamolika.py`; never compute counts natively.
 - Work only inside workspaces/pipeline/<bookname>/.
 
@@ -100,8 +106,10 @@ counts.
 MCP (`word.akshar-count`) is a ruler — it measures, never writes. Every sonnet
 line is authored by the agent as meaningful Bengali poetry drawn from the source
 chapter's themes, imagery, and tonal register. The agent then uses MCP to check
-whether each line hits exactly 14 akshars, and makes targeted word-level edits
-until it does. MCP is never asked to generate, suggest, or complete a line.
+whether each line sits in the **12–16** akshar band around the 14 target
+(`.framework/rules/meter-tolerance.md`), and makes targeted word-level edits only
+when it does not. An in-band line is never rewritten to read exactly 14. MCP is
+never asked to generate, suggest, or complete a line.
 
 This distinction matters because Bengali consonant clusters (যুক্তব্যঞ্জন) make
 visual akshar counting unreliable. A word like `বেঁধেছে` looks like 4-5 letters
@@ -117,33 +125,33 @@ own visual estimate.
 - `sonnet` activates the fixed 14-line × 14-akshar × 8+6-caesura mode.
 - `[replace]` (optional): write the finished sonnet to files. Omit to report only.
 
-### How to Write — The 48-Candidate Algorithm
+### How to Write — Author, Review, Repair
 
-This is the core composition and calibration procedure. It runs **per line**,
-not per sonnet. For each of the 14 lines:
+Python **never writes verse**. It measures and reports; the agent authors every
+line and every repair. The loop runs **per line**, then per sonnet:
 
-1. **Write a seed line** — a meaningful Bengali phrase drawn from the chapter's
-   themes, imagery, and tonal register. Length doesn't matter yet.
-2. **Generate 48 candidate variants** of that seed line by applying the
-   transformations listed below. The goal is to explore the space of
-   meaning-preserving rewrites at different akshar lengths.
-3. **Test each candidate** against the valid caesura patterns via MCP:
-   - Call `word.akshar-count` on the candidate to get total akshar count
-   - If total ≠ 14: skip this candidate
-   - If total = 14: scan word-by-word to find if any valid caesura pattern
-     (`4+4|3+3`, `4+4|2+4`, `4+4|4+2`, etc.) falls on a natural word boundary
-   - **If a valid pattern matches: select this candidate, break the inner loop**
-4. **Move to line n+1**
+```text
+1. author — write a seed line from the chapter's themes, imagery, register
+2. write  — place the lines in the chapter draft
+3. review — python tools/mcpbangla/verse.py review <file> --form poyar --json
+            (or the sonnet measure report for sonnet mode)
+4. repair — read the per-line/per-word report; rewrite only the flagged lines
+5. repeat until the review prints === PASS ===
+```
 
-If all 48 candidates for a line are exhausted without a match, generate 48 more.
-Repeat until a valid line is found or 3 rounds of 48 (144 total) are exhausted.
-After 144 failures, record `needs_manual_review` for that line position and move on.
+The exit criteria are: every line inside its band, the 8 akshar caesura present,
+every required rhyme verified STRONG, no redif, and no reused rhyme pair.
 
-#### Candidate Generation — Delete / Insert / Replace
+`_sonnet_measure.py --auto` may be used as an **optional measurement helper** to
+test agent-authored variants, but it must never be the author of a line: the agent
+supplies the candidate text, Python only counts and reports.
 
-Candidates are generated **automatically** by `_sonnet_measure.py --auto`.
-Three operations are applied to every word position in the seed line. All word
-suggestions come from the MCP word corpus — never invented by the agent.
+#### Repair Operations — Delete / Insert / Replace
+
+When the review flags a line, the **agent** repairs it. These three operations are
+the vocabulary of that repair; the agent applies them and writes the resulting
+text itself. `_sonnet_measure.py --auto` can measure a batch of candidate strings
+only if the agent supplies them — it never authors replacements on its own.
 
 ---
 
@@ -253,14 +261,15 @@ rounds (≈ 144 total candidates tested). After 3 rounds, line is marked
 
 ---
 
-**Rules for all generated candidates:**
+**Rules for all repaired lines:**
 
 - Central image and meaning of the seed line must survive the operation.
-  Grammatically broken variants are generated but skipped in the akshar test.
+  Grammatically broken variants are never written to the draft.
 - No rhyme required — sound is not a selection criterion.
 - Word overlap with adjacent lines is allowed.
-- The agent never manually writes these candidates — `--auto` handles it fully.
-  Manual variants can still be added to `CANDIDATES[n]` for `--candidates n` mode.
+- The **agent** authors every repaired line. MCP word tools may suggest vocabulary,
+  and the review tool may test a candidate the agent supplied, but neither writes
+  the line into the draft.
 
 ---
 
@@ -270,9 +279,10 @@ rounds (≈ 144 total candidates tested). After 3 rounds, line is marked
 | Tool | Role |
 |---|---|
 | `tools/mcpbangla/kamolika.py` | HTTP MCP client for the Book.Backend endpoint; `call_tool` / `extract_text` |
-| `tools/mcpbangla/_sonnet_measure.py` | Measures all 14 lines; `--auto` runs delete/insert/replace + MCP to calibrate; `--probe` shows word-level counts; `--candidates n` tests manual variants |
-| `tools/mcpbangla/_sonnet_write.py` | After 14/14 ✓, MCP splits caesura word-by-word and writes all output files |
+| `tools/mcpbangla/_sonnet_measure.py` | Measures all 14 lines; `--probe` shows word-level counts; `--candidates n` tests variants the agent supplied (never authors one) |
+| `tools/mcpbangla/_sonnet_write.py` | After the review passes, MCP splits caesura word-by-word and writes all output files |
 | `tools/mcpbangla/sonnet_utils.py` | Shared MCP wrappers: `akshar_count`, `find_caesura`, `format_caesura` |
+| `tools/mcpbangla/verse.py review` | Per-line, per-word report-only reviewer for the write → review → repair loop |
 
 MCP tools used:
 - `word.akshar-count` — measure akshar count of any text
@@ -344,69 +354,52 @@ starting points — not final lines. Length does not matter yet.
 - Each seed must carry a complete image or thought from the source thematic core.
 - Prefer concrete nouns and active verbs over abstract filler.
 - Word overlap between adjacent lines is allowed — no rhyme required.
-- Do not aim for 14 akshars. Write freely; calibration happens next.
+- Do not aim for a band yet. Write freely; review happens next.
 
-Load all 14 seeds into `LINES[]` in `_sonnet_measure.py`.
+Load all 14 seeds as the chapter draft (or pass them to the review tool).
 
-#### Phase 2 — 48-Candidate Calibration Loop (per line)
+#### Phase 2 — Review and Repair Loop (per line)
 
-This runs **per line**, not per sonnet. The script handles it fully via `--auto`.
+This runs **per line**, not per sonnet. The agent authors; Python reports.
 
 ```
 FOR n = 1 TO 14:
-    seed = LINES[n]
-    found = False
+    line = author_line(n)                     # the agent writes it
 
-    FOR round = 1 TO MAX_ROUNDS (3):
-        candidates = generate_candidates(seed)    # delete + insert + replace via MCP
+    LOOP:
+        report = review(line)                 # python: akshar, words, caesura
+        IF in_band and caesura_at_8: BREAK    # exit criteria met for this line
+        line = agent_repair(line, report)     # the agent rewrites, not python
 
-        FOR each candidate p:
-            count = word.akshar-count(candidate)   # MCP
-            IF count != 14: skip
-            pattern = find_caesura_pattern(candidate)  # word boundary scan via MCP
-            IF pattern valid:
-                LINES[n] = candidate               # selected
-                found = True; BREAK
-
-        IF NOT found:
-            seed = closest_to_14(candidates)       # best seed for next round
-
-    IF NOT found: mark LINES[n] as needs_manual_review
+    IF not repairable: mark needs_manual_review
 ```
 
-**Run auto-calibration:**
+**Run the review:**
 
 ```bash
-# Calibrate all failing lines
-python tools/mcpbangla/_sonnet_measure.py --auto
-
-# Calibrate only line 9
-python tools/mcpbangla/_sonnet_measure.py --auto --line 9
+python tools/mcpbangla/verse.py review workspaces/pipeline/<book>/chapters/<n>/chapter.md --form poyar
+python tools/mcpbangla/verse.py review <file> --form poyar --json   # machine-readable
 ```
 
-**Check results:**
+Each line in the report shows its caesura split and word breakdown inline:
 
-```bash
-python tools/mcpbangla/_sonnet_measure.py
+```text
+L04 [14 ak] PASS (+0 vs 14)
+     তুলির শীতল রোধ চুনের ঘর্ষণ
+     words: তুলির(2→2)  শীতল(2→4)  রোধ(2→6)  চুনের(3→9)  ঘর্ষণ(3→12)
+     caesura: 6 + 6 at word 3 (off by -2 vs 8)
 ```
 
-Each ✓ line now shows its caesura split and pattern inline:
-```
-  4. [14] ✓  [4+4|3+3 preferred]  তুলির শীতল রোধ | চুনের ঘর্ষণ
-```
+Lines the agent cannot repair within its round budget are recorded as
+`needs_manual_review` and reported, not silently accepted.
 
-Lines that could not be auto-calibrated are shown with `needs_manual_review`.
-For those, edit `LINES[n-1]` directly in the script and rerun, or add manual
-variants to `CANDIDATES[n]` and test with `--candidates n`.
-
-**Meaning-preservation invariant:** `--auto` generates and tests candidates
-mechanically. After calibration, the agent reviews the selected lines and may
-reject any line where the MCP substitution destroyed the central image — in
-which case that line is re-seeded manually and `--auto --line n` is rerun.
+**Meaning-preservation invariant:** the agent never accepts a repaired line whose
+central image was destroyed by the edit. If a repair cannot keep both the band and
+the meaning, the agent re-seeds that line from the source and re-enters the loop.
 
 #### Phase 3 — Write and Split Caesura (MCP splits, script writes)
 
-Once `_sonnet_measure.py` reports `14/14 ✓`, run:
+Once the review reports `=== PASS ===`, run:
 
 ```
 python tools/mcpbangla/_sonnet_write.py --book <bookname> --chapter <n>
@@ -539,7 +532,7 @@ Sonnet Calibration Report
 ─────────────────────────────────────────────────
 Book    : <bookname>
 Chapter : <n>
-Mode    : sonnet (14 lines × 14 akshars, 8+6 caesura)
+Mode    : sonnet (14 lines × 14 akshar target, band 12–16, 8 caesura)
 Method  : agent_composed_mcp_verified
 
 Verification (via word.akshar-count):
@@ -554,7 +547,8 @@ Caesura split:
   ...
 
 Summary:
-  Calibrated  : 14/14
+  In band     : 14/14 (12–16, target 14)
+  Exact 14    : <n>/14
   Needs review: none
 
 Next Steps:
@@ -566,7 +560,8 @@ Next Steps:
 
 ### Constraints
 
-- **Never** use MCP to generate, suggest, or complete a line. MCP measures only.
+- **Never** use MCP or Python to generate, suggest, complete, or rewrite a line.
+  MCP measures; Python reports. The agent authors every line and every repair.
 - **Never** compute akshar counts natively — `word.akshar-count` via MCP is the
   only valid ruler.
 - **Never** alter the central meaning of a line to hit an akshar target.
@@ -584,5 +579,5 @@ Next Steps:
 | Chapter has no content | Stop: "No content found; run write or enrich first" |
 | Book form is not poetry | Stop: "Sonnet mode requires `form: poetry`" |
 | `_sonnet_measure.py` or `_sonnet_write.py` missing | Stop: "Required tool script missing from `tools/mcpbangla/`" |
-| Line cannot reach 14 akshars without meaning loss | Record `needs_manual_review`, continue with remaining lines |
+| Line cannot enter the 12–16 band without meaning loss | Record `needs_manual_review`, continue with remaining lines |
 | `history/` folder missing when archiving | Create it before writing the archive |

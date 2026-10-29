@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -78,3 +78,133 @@ scaffolded
 ### variety_note
 
 This chapter intentionally strips away immediate religious grandeur, focusing instead on the almost clinical physics and auditory emptiness of pre-dawn Bengali winter light, differentiating it from later ceremonial descriptions.
+
+## draft
+
+### sha256
+
+438ab31f8c80eccc24d23fa91bdbfa543c88ebd1af2df578d9c50c972ad3b1aa
+
+### written_at
+
+2026-10-28T08:13:59.865266+00:00
+
+### origin
+
+write
+
+## form_skill
+
+srijato
+
+## form
+
+poem
+
+## stanza_form
+
+quatrain
+
+## rhyme_scheme
+
+ABAB
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## mcp_verification
+
+### syllable_tool
+
+word.syllable-count
+
+### rhyme_tool
+
+word.rhyme-test
+
+### rhyme_result_semantics
+
+#### -1
+
+no rhyme (different class)
+
+#### 0
+
+no rhyme (same vowel, different class) — REJECT
+
+#### 1+
+
+rhymes — ACCEPT
+
+#### 2
+
+perfect rhyme
+
+### in_stanza_pairs_verified
+
+6
+
+### l1_l2_confirmed_non_rhyming
+
+true
+
+### all_rhymes_verified
+
+true
+
+### syllable_delta
+
+2
+
+## stanza_count
+
+3
+
+## rhyme_scheme_note
+
+L1 rhymes L3; L2 rhymes L4 — inside every stanza
+
+## stanza_rhyme_pairs
+
+### S1
+
+- কালো
+- আলো
+
+- ভোর
+- জোর
+
+
+### S2
+
+- ডাক
+- ঠিকঠাক
+
+- নাম
+- আরাম
+
+
+### S3
+
+- হাত
+- হঠাত
+
+- কারণ
+- বরণ
+
+
+## syllable_counts
+
+- 6
+- 6
+- 6
+- 5
+- 6
+- 6
+- 7
+- 7
+- 6
+- 6
+- 6
+- 6

@@ -20,6 +20,7 @@ Usage (standalone test):
 
 import os
 import sys
+import math
 
 # ---------------------------------------------------------------------------
 # Import the HTTP MCP client from the same directory
@@ -211,32 +212,40 @@ def format_caesura(line: str, target_first: int = CAESURA_FIRST) -> str:
 # Line-level calibration
 # ---------------------------------------------------------------------------
 
-def calibrate_line(line: str, target: int = SONNET_AKSHARS) -> tuple[str, str]:
+def calibrate_line(line: str, target: int = SONNET_AKSHARS,
+                   tolerance: int | None = None) -> tuple[str, str]:
     """
     Return the akshar count status of a line against the target.
+
+    Every metre target carries a +/-10% band (`.framework/rules/meter-tolerance.md`):
+    a 14-akshar target accepts 12-16. A line inside that band is "calibrated";
+    only a line outside it is reported as underflow/overflow.
 
     This function only *reports* the status — it does not rewrite the line.
     Actual rewriting is the responsibility of the line agent, which has access
     to the poem's semantic context and can make meaning-preserving edits.
 
     Args:
-        line:   Bengali line to check.
-        target: Target akshar count (default 14).
+        line:      Bengali line to check.
+        target:    Target akshar count (default 14).
+        tolerance: Allowed drift; default is 10% of target, minimum 1.
 
     Returns:
         A tuple (status, detail) where status is one of:
-          "calibrated"  — line already matches target
-          "underflow"   — line is below target (needs expansion)
-          "overflow"    — line is above target (needs reduction)
+          "calibrated"  — line is inside the target band (target +/- tolerance)
+          "underflow"   — line is below the band (needs expansion)
+          "overflow"    — line is above the band (needs reduction)
         and detail is a human-readable description with actual count.
     """
     count = akshar_count(line)
-    if count == target:
-        return "calibrated", f"akshar count = {count} ✓"
-    elif count < target:
-        return "underflow", f"akshar count = {count}, need {target - count} more"
+    tol = tolerance if tolerance is not None else max(1, math.ceil(target * 0.10))
+    low, high = target - tol, target + tol
+    if low <= count <= high:
+        return "calibrated", f"akshar count = {count} (band {low}-{high}) ✓"
+    elif count < low:
+        return "underflow", f"akshar count = {count}, need {low - count} more to reach {low}"
     else:
-        return "overflow", f"akshar count = {count}, need to reduce by {count - target}"
+        return "overflow", f"akshar count = {count}, need to reduce by {count - high} to reach {high}"
 
 
 def check_sonnet(lines: list[str]) -> dict:

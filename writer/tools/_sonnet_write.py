@@ -59,6 +59,7 @@ USAGE
 import sys
 import os
 import json
+import math
 import argparse
 from datetime import datetime
 
@@ -72,6 +73,8 @@ from mcpclient import McpClient, default_server_path
 
 TARGET = 14
 VOLTA_LINE = 9
+# Every metre target carries a +/-10% band (.framework/rules/meter-tolerance.md).
+TOLERANCE = max(1, math.ceil(TARGET * 0.10))
 
 # ---------------------------------------------------------------------------
 # Valid caesura patterns for a 14-akshar Bengali sonnet line.
@@ -227,26 +230,31 @@ def run(book, chapter, dry_run=False):
         print("=" * 65)
         print(f"SONNET WRITE — {book} / chapter {chapter}")
         print("=" * 65)
-        print(f"Target  : {TARGET} lines × {TARGET} akshars (valid caesura patterns: 4+4|3+3, 4+4|2+4, ...)")
+        print(f"Target  : {TARGET} lines × {TARGET} akshars "
+              f"(band {TARGET - TOLERANCE}-{TARGET + TOLERANCE}; "
+              f"caesura patterns: 4+4|3+3, 4+4|2+4, ...)")
         print()
 
         # --- Safety re-verify all 14 lines ---
-        print("Step 1 — Safety verification (14 akshars per line):")
+        print("Step 1 — Safety verification (akshar band per line):")
         print("-" * 65)
         all_ok = True
         counts = []
         for i, line in enumerate(LINES, 1):
             count = akshar(client, line)
             counts.append(count)
-            flag = "✓" if count == TARGET else f"FAIL ({count-TARGET:+d})"
-            if count != TARGET:
+            if abs(count - TARGET) <= TOLERANCE:
+                flag = "✓" if count == TARGET else f"✓ in band ({count-TARGET:+d})"
+            else:
+                flag = f"FAIL ({count-TARGET:+d}, band {TARGET-TOLERANCE}-{TARGET+TOLERANCE})"
                 all_ok = False
             volta = "  [volta ↻]" if i == VOLTA_LINE else ""
             print(f"  {i:2d}.{volta} [{count:2d}] {flag}  {line}")
 
         if not all_ok:
             print()
-            print("ERROR: Not all lines are 14 akshars.")
+            print(f"ERROR: Not all lines are inside the {TARGET-TOLERANCE}-"
+                  f"{TARGET+TOLERANCE} akshar band.")
             print("Fix failing lines in _sonnet_measure.py first, then rerun.")
             return
 

@@ -1,6 +1,6 @@
 ---
 name: poyar
-description: Dedicated Bengali poyar (পয়ার) skill — two-line couplets (দ্বিপদী), exactly 14 syllables per line in the 4+4+4+2 measure, L1~L2 strong rhyme inside each couplet, no cross-couplet rhyme, daily-used spoken register, couplets bound by continuous meaning. Default style is `poyar`, grounded from `.framework/context/poetry/styles/poyar/` and cached per book as `workspaces/pipeline/<bookname>/style.md`. Owns poyar composition end to end; never delegates to the generic poetry skill. Alias: "payar".
+description: Dedicated Bengali poyar (পয়ার) skill — two-line couplets (দ্বিপদী), 14 akshar per line measured 8 + 6 with ±10% tolerance (12–16 akshar), strong L1~L2 rhyme inside each couplet, no cross-couplet rhyme, daily-used spoken register, couplets bound by continuous meaning. Default style is `poyar`, grounded from `.framework/context/poetry/styles/poyar/` and cached per book as `workspaces/pipeline/<bookname>/style.md`. Owns poyar composition end to end; never delegates to the generic poetry skill. Alias: "payar".
 ---
 
 # Poyar Skill (পয়ার)
@@ -13,8 +13,9 @@ cache `workspaces/pipeline/<bookname>/style.md` is non-exempt: it must carry
 as the invoking `poyar` agent.
 
 Use this skill to compose or recompose a **Bengali poyar** — a run of **two-line
-couplets** (দ্বিপদী), each sealed by a **strong rhyme**, each line **exactly 14
-syllables**, the whole poem moving as one continuous argument.
+couplets** (দ্বিপদী), each sealed by a **strong rhyme**, each line **14 akshar**
+in the `8 + 6` measure with a **±10 % band (12–16)**, the whole poem moving as one
+continuous argument.
 
 ## Dedicated-Form Rule (binding)
 
@@ -26,8 +27,8 @@ other form skill.
 |---|---|
 | Delegate poyar composition to `.framework/skills/poetry/SKILL.md` | Compose here, under the contract below |
 | Ask the `poetry` skill to "add a couplet form" | Apply the couplet contract in this file |
-| Emit flat poetic prose because the generic skill writes prose | Emit verse lines — 14 syllables, rhymed pairs |
-| Borrow srijato's refrain/stanza shape | Borrow only srijato's **register** |
+| Emit flat poetic prose because the generic skill writes prose | Emit verse lines — 14 akshar, rhymed pairs |
+| Borrow srijato's stanza/refrain shape | Borrow only srijato's **register** |
 
 The generic `poetry` skill writes continuous poetic **prose**. Poyar is **metred,
 rhymed verse**. They are incompatible outputs; using the generic skill for a poyar
@@ -35,11 +36,26 @@ request is a contract violation, not a shortcut.
 
 ## Fundamental Paradigm
 
-> **The agent composes. MCP measures. The agent adjusts.**
+> **The agent composes and repairs. MCP measures. Python reports. The agent reads
+> the report.**
 
-MCP (`word.syllable-count`, `word.rhyme-test`, `word.syllable`) is a ruler. It
-measures and verifies; it never writes a line. Bengali conjuncts (যুক্তব্যঞ্জন)
-make visual counting invalid — trust MCP, never the eye.
+MCP (`word.akshar-count`, `word.rhyme-test`) is a ruler. `tools/mcpbangla/verse.py`
+is a **reviewer**, not a writer: it measures and emits a per-line, per-word report.
+It never composes, rewrites, replaces, or "fixes" a line — every repair is the
+agent's own authored edit. Bengali conjuncts (যুক্তব্যঞ্জন) make visual counting
+invalid — trust MCP, never the eye.
+
+The loop is **write → review → repair**, repeated until the exit criteria pass:
+
+```text
+1. write  — the agent authors the couplet(s) and appends them to chapter.md
+2. review — python tools/mcpbangla/verse.py review <file> --form poyar
+3. repair — the agent reads the report and rewrites only the flagged lines
+4. repeat until review prints === PASS ===
+```
+
+Never script the composition. Never ask Python to generate, complete, or rewrite a
+line. Python only measures, describes, and returns a verdict.
 
 ## Invocation
 
@@ -59,9 +75,10 @@ execute this skill directly from a workflow.
 |---|---|
 | Unit | **Two-line couplet** (দ্বিপদী) |
 | Line order | Line 1 first; line 2 closes the pair |
-| **Meter unit** | **Syllable** — never akshar, never matra |
-| **Line length** | **Exactly 14 syllables**, `4 + 4 + 4 + 2` (a `+1` close is legal; 2 preferred) |
-| Ruler | `word.syllable-count` **per word, summed** |
+| **Meter unit** | **Akshar** (অক্ষর) — the consonant count, never syllables |
+| **Line length** | **14 akshar target**, accepted **12–16 akshar** (±10 %), measured **`8 + 6`** |
+| Caesura | A word boundary at **akshar 8** (the 8 falls, then a 4–8 foot) |
+| Ruler | `word.akshar-count` |
 | Rhyme | **L1 ~ L2 inside each couplet** — `word.rhyme-test >= 1` **and** identical final rhyme unit |
 | Cross-couplet rhyme | **None required and none wanted** — L2~L4 / L1~L4 carry no obligation |
 | Distinct ends | L1 end ≠ L2 end (an identical pair is a *redif* and fails) |
@@ -71,16 +88,34 @@ execute this skill directly from a workflow.
 
 ### The meter rule
 
-**A poyar line is exactly 14 syllables.** Not 13, not 15, not "about 14". Sum the
-per-word counts:
+**A poyar line targets 14 akshar** and is accepted anywhere in **12–16**
+(±10 % of 14 = ±2). Within that band the line **passes as written** — never burn a
+revision chasing 14 when the line already reads well at 13, 15, or 16. Below 12 or
+above 16 the line is rewritten. The measure is always **akshar**, never syllables.
 
 ```python
-total = sum(int(extract_text(call_tool("word.syllable-count", {"word": w})))
-            for w in line.split())
+total = int(extract_text(call_tool("word.akshar-count", {"word": line})))
+in_band = 12 <= total <= 16          # 14 ± 10 %
 ```
 
-Never call `word.syllable-count` on a whole line — it over-counts across conjunct
-boundaries and reports 15 for a genuine 14. Never measure by akshar.
+The caesura does not need to fall mid-word: the first 8 akshar end at a word
+boundary, and the remaining 4–8 akshar complete the line. The **`8` side is the
+anchor** — keep it at 8 — and let the second foot absorb the tolerance.
+
+```text
+আমাদের ছোটো নদী চলে | বাঁকে বাঁকে        8 + 6 = 14 akshar   ✓ exact target
+আমাদের ছোটো নদী | বাঁকে বাঁকে চলে যায়     8 + 8 = 16 akshar   ✓ upper band
+আমাদের ছোটো নদী | বাঁকে বাঁকে              8 + 4 = 12 akshar   ✓ lower band
+বৈশাখ মাসে তার হাঁটু | জল                  7 + 3 = 10 akshar   ✗ below band; extend
+```
+
+Do not measure syllables. A poyar line and its syllable count are different
+numbers, and only the akshar count is the contract.
+
+This ±10 % band is the repository-wide meter rule
+(`.framework/rules/meter-tolerance.md`) and applies to every metre-based form —
+poyar, sonnet, haiku, limerick, srijato, and lyrics. It relaxes the **line count
+only**: the akshar-8 caesura, the rhyme, and the flow rule all still bind.
 
 ### The rhyme rule
 
@@ -153,7 +188,7 @@ Resolution order, highest first:
 
 3. **Default** — **16 couplets / 32 lines** (~195 words).
 
-A 14-syllable line holds roughly **6–7 words**; a couplet roughly **12**.
+A 14-**akshar** line holds roughly **6–7 words**; a couplet roughly **12**.
 
 - Do not stop early because the couplets "feel finished".
 - Do not pad: never add a couplet that repeats a step already taken.
@@ -166,20 +201,24 @@ A 14-syllable line holds roughly **6–7 words**; a couplet roughly **12**.
 
 Take the daily-used spoken word over the literary one.
 
-- **Never inflate a word to reach 14 syllables.** `শুধু` → `শুধুই` to gain a
-  syllable is a register break and is forbidden. Add another **everyday clause**
-  instead:
+- **Never inflate a word to reach 14 akshar.** `শুধু` → `শুধুই` is a register
+  break and is forbidden. Add another **everyday clause** instead:
 
   ```text
-  short (9):  অপেক্ষা মানে শুধু আশা
-  ok   (14):  অপেক্ষা মানে সারাক্ষণ পাহারা আশা     ← added a spoken clause
+  short (11 ak):  অপেক্ষা মানে শুধু আশা
+  ok   (14 ak):  অপেক্ষা মানে সারাক্ষণ পাহারা আশা     ← added a spoken clause
   ```
+
+- The band means an ordinary line usually lands in **12–16** without forcing. If a
+  line is inside the band and reads naturally, **keep it** — do not pad it to 14
+  and do not trim it to 14.
 
 - Let idiom and onomatopoeia carry the line (`ঝমঝমিয়ে`, `বড্ড`, `থোড়াই`).
 - Ground every elevated turn in a plain, concrete word in the same breath.
 - Keep the slight colloquial "incorrectness" (`ততক্ষনে` for `ততক্ষণে`).
 - If a line runs long, cut the least essential modifier — never promote a word to
-  its tatsama form to save a syllable, and never clip a word to lose one.
+  its tatsama form to save an akshar, and never clip a word to lose one. Outside
+  the band a line must be repaired; inside it, leave it alone.
 
 ## Language Rule
 
@@ -215,9 +254,9 @@ re-ground — one operative style reference per book, never a second copy.
 
 1. **Cache hit** — `workspaces/pipeline/<bookname>/style.md` exists **and** its
    provenance block declares `style: poyar` for this book **and** its form
-   contract still states the 14-syllable couplet measure. **Use it. Do not
-   regenerate.** Regeneration on every write is a cache miss by construction and
-   is forbidden.
+   contract still states the 14-akshar target in the `8 + 6` couplet measure
+   (with the ±10 % / 12–16 band). **Use it. Do not regenerate.** Regeneration on
+   every write is a cache miss by construction and is forbidden.
 2. **Cache miss / wrong style** — the file is absent, or it is grounded to a
    different style (for example a Srijato reference declaring "Refrain + Verses"
    and a 6–12 syllable line). **Synthesize a poyar-grounded reference and write
@@ -245,7 +284,7 @@ then the couplet contract still binds.
 Read, in order:
 
 1. `.framework/context/poetry/styles/poyar/sample.txt` — extract the **method**:
-   couplet pairing, the `4 + 4 + 4 + 2` measure, the daily-used register, the
+   couplet pairing, the `8 + 6` akshar measure, the daily-used register, the
    plain-concrete anchoring, the oral narrator's address.
 2. `.framework/context/poetry/styles/poyar/signature.md` — the distilled pattern.
 3. `.framework/context/poetry/styles/poyar/style.md` — the full contract.
@@ -264,7 +303,7 @@ Then write **one self-contained document** with these sections, in this order:
 |---|---|
 | Provenance | the block below — this is what makes caching safe |
 | Authority Note | files read, and their precedence on conflict (`sample.txt` first) |
-| Form Contract | couplets, **exactly 14 syllables**, `4 + 4 + 4 + 2`, strong L1~L2, **no cross-couplet rhyme** |
+| Form Contract | couplets, **14 akshar target** with **12–16 band** (±10 %), `8 + 6` caesura, strong L1~L2, **no cross-couplet rhyme** |
 | Register | daily-used spoken Bengali; the forbidden literary inflations |
 | Persona & Voice | the couplet-maker's stance, grounded in *this* book |
 | Book Grounding | premise, setting/era, thematic threads, the book's own vocabulary |
@@ -287,7 +326,7 @@ river) into the reference — carry its **method** onto this book's subject.
 style: poyar
 book: <bookname>
 form: poetry
-meter: syllable-14
+meter: akshar-14
 grounded_from: .framework/context/poetry/styles/poyar/{sample.txt,signature.md,style.md}
 generated_at: <ISO-8601 UTC>
 book_updated_at: <book.json updated_at>
@@ -340,77 +379,183 @@ Write one sentence naming what the poem does from first couplet to last (the
 movement, not the topic). Every couplet must take the next step of it. If the
 `creative_enrichment` offers several story options, choose one and commit.
 
-Then work **one couplet at a time**. For each couplet, generate **16 candidate
-first lines** and, once an end word is fixed, **16 candidate second lines**; take
-the best pair that passes the meter and the strong-rhyme test, then move to the
-next couplet. Do not draft the whole poem and repair it afterwards.
-
 A couplet must read as a **real sentence**, not a decorative fragment. The poem must
 read as one argument, not a list of rhymes.
 
 ### Phase 1 — Fix the rhyme pair before writing either line
 
 A couplet is only as good as its rhyme; a beautiful line 1 cannot rescue a weak
-pair.
+pair. Choose the **end words first**, then write the two lines around them.
 
 1. Choose end word **A** that the meaning needs.
-2. Fetch partners: `word.rhyming-words` (`sizes` is a hint, not a filter). Pick the
-   partner the meaning can carry — do **not** select on `word.rhyme-rank`: `Rank`
+2. Find a partner **B** with `word.rhyming-words`, then confirm
+   `word.rhyme-test(A, B) >= 1` **and** an identical final rhyme unit
+   (`verse.py rhyme A B`, exit 0). Do **not** select on `word.rhyme-rank`: `Rank`
    is the word's position inside its rhyme class, not a quality score.
-3. Confirm `word.rhyme-test(A, B) >= 1` **and** an identical final rhyme unit
-   (`verse.py rhyme A B`, exit 0). `>= 1` is the required floor — values beyond it
-   are simply looser classes and still need the strength check.
-4. If no **strong** partner exists, **discard A** and choose another end word —
-   or end line 1 on a different syllable with better partners.
+3. If **A** has no strong partner, **discard A** and choose another end word.
+   Never plan a line around an end word with no verified rhymate.
 
-### Phase 2 — Write line 1
+### Phase 2 — Write line 1 at 8 + second foot
 
-A complete, singable statement in the daily register, ending on **A**. Measure it
-immediately: **exactly 14 syllables**, ideally `4 + 4 + 4 + 2`. If it is short, add
-an everyday clause; if long, trim the least essential modifier. Never inflate a word
-to reach 14. The sentence must complete a thought and continue the through-line.
-
-### Phase 3 — Write line 2
-
-Close the pair on **B**, **exactly 14 syllables**, continuing line 1's sentence.
-
-### Phase 3a — If line 2 will not rhyme well, change line 1
-
-Mandatory, not optional: shuffle line 1's words, swap its final phrase, or replace
-it wholesale with a line ending on a word whose strong partners fit the meaning.
-Then re-verify the pair and re-measure both lines.
-
-### Phase 4 — Continue without rhyming across
-
-Move to the next couplet. Its rhyme class is free — deliberately do **not** chain
-the sound from the previous couplet. Its *meaning* must continue the previous
-couplet's thought.
-
-### Phase 5 — Audit, then write
+Write the opening line as a complete, singable statement in the daily register,
+ending on **A**. Then measure it:
 
 ```bash
-python tools/mcpbangla/verse.py audit workspaces/pipeline/<book>/chapters/<n>/chapter.md --form poyar
+python tools/mcpbangla/verse.py measure <file-or-line>
 ```
 
-The audit must print `=== PASS ===`. Then:
+- The line **targets 14 akshar** and passes anywhere in **12–16**. Keep the first
+  foot at **8** akshar on a word boundary (the caesura) and let the second foot run
+  **4–8**.
+- If it is below 12, add an **everyday clause**; if it is above 16, cut the least
+  essential modifier. Never inflate a word into its literary form to reach 14.
+- Inside the band, **do not adjust** — a 13 or 15 akshar line that reads well is
+  correct and final.
 
-1. Archive any existing `chapter.md` to `chapters/<n>/segments/1/version/chapter_v<k>.md`
+Do not carry an out-of-band line forward: fix it before writing line 2.
+
+### Phase 3 — Write line 2 at 8 + second foot
+
+Close the pair on **B** as the continuation of line 1's sentence — one sentence
+across the two lines, not two statements. Measure it the same way: **12–16 akshar**
+(target 14), first foot **8** on a word boundary, ending on **B**.
+
+### Phase 4 — Verify the couplet, then continue
+
+Before appending, confirm all five gates with MCP:
+
+1. both lines are **within 12–16 akshar**, target 14 (`word.akshar-count`);
+2. both lines read **`8` + 4–8** — a word boundary at akshar 8;
+3. `word.rhyme-test(A, B) >= 1`;
+4. the two ends share an **identical final rhyme unit** (STRONG) — `verse.py rhyme`
+   exits non-zero when they do not;
+5. the ends are **distinct** (a repeated end word is a redif and fails), and the
+   pair is **not already used earlier in this poem**.
+
+If line 2 cannot satisfy the rhyme, **rewrite line 1** — shuffle its words or
+replace it — rather than accept a weak pair.
+
+Then move to the next couplet. Its rhyme class is free — deliberately do **not**
+chain the sound from the previous couplet. Its *meaning* must continue the previous
+couplet's thought, and it must **add a new step** to the argument, not restate the
+last one.
+
+**Append each verified couplet to the file immediately** (see *Incremental
+Persistence* below). Do not hold finished couplets in memory to write them at the
+end.
+
+## Incremental Persistence (write each couplet as it is verified)
+
+The chapter file is the work-in-progress, not a final dump. **Every verified couplet
+is written to disk before the next one is composed.**
+
+### Open the draft (once, before the first couplet)
+
+1. **Archive** any existing `chapter.md` to
+   `chapters/<n>/segments/1/version/chapter_v<k>.md`
    (`<k>` = highest existing + 1; never overwrite an archive).
-2. Write `chapters/<n>/chapter.md` as `# {chapter_title}`, a blank line, then
-   couplets separated by blank lines (verse, one line per line — never merged
-   into paragraphs).
-3. Record the form evidence in `chapter.json`.
+2. **Truncate** `chapter.md` to the title and one blank line:
+
+   ```markdown
+   # {chapter_title}
+
+   ```
+
+### Append after each couplet passes
+
+A couplet is appended **only** when it satisfies, in this order:
+
+1. both lines measure **within 12–16 akshar** (target 14);
+2. `word.rhyme-test(L1_end, L2_end) >= 1`;
+3. the two end words share an **identical final rhyme unit** (STRONG);
+4. the ends are **distinct** (no redif);
+5. the rhyme pair is **not already used earlier in this poem**.
+
+Then append the two lines plus a blank line, in the output shape of the next
+section. Never append an unverified pair "to fix later" — a rejected couplet is
+reworked in place, never written.
+
+### Resumability (a hard requirement)
+
+Because the file only ever holds verified couplets, an interrupted run leaves a
+**valid shorter poem**, not a corrupt draft:
+
+- On start, if `chapter.md` already holds `k` complete couplets (title + 2k verse
+  lines), treat them as done and resume at couplet `k + 1`.
+- Re-audit the existing lines before continuing; if any line fails, repair that
+  couplet before appending anything new.
+- Never restart from zero just because the target count was not reached.
+
+### Progress reporting
+
+Report the count after each append (e.g. `7/16 couplets written`), so a long run
+shows its state on disk rather than only at the end.
+
+## Review Loop — Python reports, the agent repairs
+
+`review` is the report stage of the write → review → repair loop. It is
+**read-only**: it prints a per-line, per-word verdict and never touches the file.
+
+```bash
+python tools/mcpbangla/verse.py review workspaces/pipeline/<book>/chapters/<n>/chapter.md --form poyar
+python tools/mcpbangla/verse.py review <file> --form poyar --json   # machine-readable
+```
+
+The report is what the agent reads to find its own errors. Per line it gives the
+total akshar, the delta against the target, the band verdict, and the exact word
+breakdown with cumulative counts:
+
+```text
+L02 [15 ak] PASS (+1 vs 14)
+     বৈশাখ মাসে তার হাঁটু জল থাকে না
+     words: বৈশাখ(3→3)  মাসে(2→5)  তার(2→7)  হাঁটু(2→9)  জল(2→11)  থাকে(2→13)  না(1→14)
+     caesura: 9 + 5 at word 4 (off by +1 vs 8)
+```
+
+Per couplet it gives the rhyme test, strength, and both rhyme units:
+
+```text
+c02 হাত/রাত rhyme=2 STRONG units 'াত'/'াত' PASS
+```
+
+Repair rules for the agent:
+
+- Act **only** on the lines and couplets the report flags. Do not rewrite a
+  passing line.
+- `SHORT` — add an everyday clause; never inflate a word to its tatsama form.
+- `LONG` — cut the least essential modifier.
+- `off by ±n` on the caesura — move a word across the boundary; the `8` foot is
+  the anchor, so prefer adjusting the second foot.
+- `WEAK` or `rhyme=0/-1` — rework line 1 and choose a new end word with a verified
+  strong partner.
+- `REDIF` — the two ends are the same word; replace one.
+
+Re-run `review` after every repair batch. The loop exits only on `=== PASS ===`.
+
+## Final Verification
+
+After the last couplet is appended:
+
+```bash
+python tools/mcpbangla/verse.py review workspaces/pipeline/<book>/chapters/<n>/chapter.md --form poyar
+python tools/mcpbangla/verse.py audit  workspaces/pipeline/<book>/chapters/<n>/chapter.md --form poyar
+```
+
+`review` must print `=== PASS ===` and the audit must print `=== PASS ===`. If
+either fails on a couplet written earlier, repair that couplet in place and re-run
+both. Then record the form evidence in `chapter.json` (`stanza_count`,
+`line_count`, `akshar_counts`, and the per-couplet `mcp_verification` block).
 
 ## Output Shape
 
 ```markdown
 # {chapter_title}
 
-<line 1 — 14 syllables>
-<line 2 — 14 syllables, rhymes line 1>
+<line 1 — 14 akshar target (12–16), 8 + 2nd foot>
+<line 2 — 14 akshar target (12–16), 8 + 2nd foot, rhymes line 1>
 
-<line 3 — 14 syllables>
-<line 4 — 14 syllables, rhymes line 3>
+<line 3 — 14 akshar target (12–16), 8 + 2nd foot>
+<line 4 — 14 akshar target (12–16), 8 + 2nd foot, rhymes line 3>
 
 ...
 ```
@@ -430,23 +575,27 @@ The audit must print `=== PASS ===`. Then:
   "line_count": 32,
   "rhyme_scheme": "AA",
   "rhyme_scheme_note": "L1~L2 inside each couplet; no cross-couplet rhyme",
-  "meter_unit": "syllable",
-  "syllable_target": 14,
-  "syllable_measure": "4 + 4 + 4 + (2|1)",
-  "syllable_counts": [14, 14, 14, 14],
+  "meter_unit": "akshar",
+  "akshar_target": 14,
+  "akshar_tolerance": 2,
+  "akshar_band": "12-16",
+  "caesura": "8 + 2nd foot",
+  "akshar_counts": [14, 13, 15, 14],
   "calibration_method": "agent_composed_mcp_verified",
   "state": "written",
   "draft": {"sha256": "<sha256 of chapter.md>", "written_at": "<iso8601 utc>", "origin": "write"},
   "mcp_verification": {
-    "syllable_tool": "word.syllable-count (per word, summed)",
+    "akshar_tool": "word.akshar-count",
     "rhyme_tool": "word.rhyme-test + identical final rhyme unit",
     "all_rhymes_verified": true,
     "all_rhymes_strong": true,
-    "syllable_delta": 0,
+    "all_lines_in_band": true,
+    "akshar_delta": 0,
     "couplets": [
       {"couplet": 1, "L1_end": "…", "L2_end": "…", "rhyme": "1",
        "strength": "STRONG", "rhyme_unit_L1": "…", "rhyme_unit_L2": "…",
-       "distinct": true, "L1_syllables": 14, "L2_syllables": 14}
+       "distinct": true, "L1_akshar": 14, "L2_akshar": 13,
+       "L1_in_band": true, "L2_in_band": true}
     ]
   }
 }
@@ -460,14 +609,26 @@ The audit must print `=== PASS ===`. Then:
   this form.
 - **Never** regenerate `workspaces/pipeline/<bookname>/style.md` when it already
   carries a valid `style: poyar` provenance block for this book — reuse it.
-- Never use MCP to generate or complete a line; MCP measures and verifies only.
-- Never compute syllable or rhyme facts natively.
-- Every line exactly 14 syllables; no exceptions, no "close enough".
+- Never use MCP or Python to generate, complete, or rewrite a line; MCP measures
+  and Python reports only. Every line is authored by the agent.
+- Never compute akshar or rhyme facts natively; every count comes from MCP.
+- Never plan a couplet around an end word with no verified strong partner.
+- Never accept an unverified rhyme; `word.rhyme-test` **and** the strength test must
+  both pass.
+- Never measure poyar by syllables — it is an akshar form.
+- Every line inside the **12–16 akshar** band (±10 % of 14), keeping the first
+  foot at 8; a line outside the band is rewritten. Inside the band, never rewrite
+  a line merely to make it read 14.
 - Never accept a weak rhyme; `0` is not a rhyme and `1` alone is not proof.
 - Never accept an identical end pair (redif).
 - Never rhyme across couplets.
 - Never inflate a word to its literary form to make the count.
 - Never leave couplets as isolated vignettes — flow is part of the contract.
+- **Never hold verified couplets in memory** — append each one to `chapter.md` as
+  soon as it passes, so an interrupted run leaves a valid shorter poem.
+- Never append an unverified couplet "to fix later"; rework it in place instead.
+- Never restart a partially written chapter from zero — resume after the couplets
+  already on disk.
 - Never write `chapter.md` without archiving the prior copy first.
 - Never revert a cache marked `human_edited: true`.
 - Write only inside `workspaces/pipeline/<bookname>/`. Never promote to
@@ -478,14 +639,17 @@ The audit must print `=== PASS ===`. Then:
 
 | Script | Use |
 |---|---|
-| `tools/mcpbangla/verse.py audit <file> --form poyar` | full contract audit; `=== PASS ===` required |
-| `tools/mcpbangla/verse.py measure <file> --syllable` | per-line akshar + syllable table |
+| `tools/mcpbangla/verse.py review <file> --form poyar` | **report-only** per-line, per-word review for the repair loop; `=== PASS ===` required |
+| `tools/mcpbangla/verse.py audit <file> --form poyar` | full contract audit; `=== PASS ===` required (target 14, band 12–16) |
+| `tools/mcpbangla/verse.py measure <file> --syllable` | per-line akshar (and syllable, for reference) |
 | `tools/mcpbangla/verse.py rhyme A B` | single pair; exit 1 on weak or non-rhyme |
 | `tools/mcpbangla/verse.py family <word>` | verified rhyme-class candidates |
 | `tools/mcpbangla/kamolika.py` | MCP HTTP client (`BASE_URL`), imported not run |
 
-`--floor N` on the audit means **exact syllables per line** (default 14), despite
-the name. These scripts are permanent — never delete or rewrite them inline.
+`--floor N` on the audit sets the **akshar target** per line (default 14), and
+`--akshar-tolerance N` sets the allowed drift (default `ceil(N × 10%)`, so 2 for a
+target of 14 → band **12–16**). The name `--floor` is legacy: it is a target, not a
+minimum. These scripts are permanent — never delete or rewrite them inline.
 
 ## Report Format
 
@@ -493,21 +657,24 @@ the name. These scripts are permanent — never delete or rewrite them inline.
 Poyar Report
 Book     : <bookname>
 Chapter  : <n>
-Mode     : poyar (14-syllable couplets, 4+4+4+2)
+Mode     : poyar (14-akshar couplets, 8 + 6, band 12–16)
 Style    : poyar (<reused|synthesized> → workspaces/pipeline/<bookname>/style.md)
 Target   : 16 couplets / 32 lines (default) | <count directive> | <word_target> words
 Language : <language>
 
 Couplets:
-  c01 [14/14 ✓] হাত/রাত   rt=1 STRONG
+  c01 [14/13 ✓] হাত/রাত   rt=1 STRONG
       <line 1>
       <line 2>
   ...
 
 Summary:
-  Couplets    : <n>/<n> at exactly 14 syllables
+  Couplets    : <n>/<n> within band 12–16 akshar (8 + 2nd foot)
+  Line length : <exact-n>/<total> at exactly 14 | band <total>/<total> pass
   Strong rhyme: <n>/<n>
+  Review      : PASS (per-line/per-word report attached on failure)
   Audit       : PASS
+  Written     : incremental (last append at couplet <n>)
   Flow        : <the through-line the poem follows>
   Reused pairs: none
 ```

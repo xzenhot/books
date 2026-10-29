@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -93,3 +93,17 @@ scaffolded
 ### variety_note
 
 This chapter grounds the high drama of arrival in a single, potent moment of transition—the threshold between waiting and being—focusing on the physical reception rather than just the visual spectacle.
+
+## draft
+
+### sha256
+
+915c3630e9674253dacd8e24944e0f397297cff944aa4220b5781bbef3910389
+
+### written_at
+
+2026-10-28T07:33:40.197369+00:00
+
+### origin
+
+write

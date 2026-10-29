@@ -225,8 +225,8 @@ obtained via the `word.akshar-count` MCP tool. Native computation is forbidden.
 | Property | English Sonnet | Bengali Sonnet |
 |---|---|---|
 | Meter unit | Syllable | Akshar (consonant) |
-| Line length | 10 syllables | **14 akshars** |
-| Internal break | None enforced | **8 + 6 caesura** |
+| Line length | 10 syllables | **14 akshars** (band 12–16) |
+| Internal break | None enforced | **8 caesura** (`8 + 4–8`) |
 | Total lines | 14 | **14** |
 | Count tool | Rule-based | `word.akshar-count` via the MCP endpoint |
 
@@ -238,10 +238,11 @@ obtained via the `word.akshar-count` MCP tool. Native computation is forbidden.
 
 The `sonnet` keyword activates sonnet mode. When present:
 
-- Target akshars is **fixed at 14** — the `<target_akshar>` argument is ignored.
+- Target akshars is **14**, accepted in a **12–16 band** (±10 %) — the
+  `<target_akshar>` argument is ignored.
 - Total output lines is **fixed at 14** — the poem is trimmed or extended to
   exactly 14 lines before calibration begins.
-- Each calibrated line is split **8 + 6** at the caesura.
+- Each calibrated line is split at the **8** akshar caesura (`8 + 4–8`).
 - The volta (thematic turn) is noted at line 9.
 
 ### Prerequisites (in addition to standard transform prerequisites)
@@ -263,7 +264,7 @@ Before any akshar calibration, enforce exactly **14 non-empty lines**:
 | Fewer than 14 | Append thematically consistent continuation lines until count = 14; mark each appended line `generated` in the model |
 | Exactly 14 | Proceed |
 
-#### Step 1 — Calibrate Each Line to 14 Akshars
+#### Step 1 — Calibrate Each Line to the 14-Akshar Band
 
 For each of the 14 lines, route through the `line` agent which calls
 `word.akshar-count` via `tools/sonnet_utils.py`:
@@ -275,20 +276,22 @@ count = akshar_count(line)          # MCP call — never native
 status, detail = calibrate_line(line)   # "calibrated" | "underflow" | "overflow"
 ```
 
-- **`calibrated`** (`count == 14`): no change needed, record status.
-- **`underflow`** (`count < 14`): expand — add semantically compatible Bengali words
-  or matras until `akshar_count(line) == 14`. Prefer appending to the end; if
+- **`calibrated`** (12–16, target 14): no change needed, record status. Never
+  rewrite an in-band line merely to reach exactly 14.
+- **`underflow`** (below 12): expand — add semantically compatible Bengali words
+  or matras until the line is back in the band. Prefer appending to the end; if
   meaning would be distorted, insert before the last word.
-- **`overflow`** (`count > 14`): reduce — remove least-essential modifiers (adverbs
-  first, then adjectives, then compound verb particles). Retry until count = 14.
-  If exact reduction is impossible, record `adjusted` and log the discrepancy.
+- **`overflow`** (above 16): reduce — remove least-essential modifiers (adverbs
+  first, then adjectives, then compound verb particles). Retry until in band.
+  If reduction is impossible, record `adjusted` and log the discrepancy.
 
-Iterate the expand/reduce loop until `akshar_count(line) == 14` or the agent
-exhausts 5 rewrite attempts, at which point it records `needs_manual_review`.
+Iterate the expand/reduce loop until the line is in band or the agent exhausts 5
+rewrite attempts, at which point it records `needs_manual_review`. Python measures
+and reports; the agent authors every rewrite.
 
-#### Step 2 — Split Each Line at the Caesura (8 + 6)
+#### Step 2 — Split Each Line at the Caesura (8)
 
-After a line reaches 14 akshars, split it using `find_caesura`:
+After a line is inside its band, split it using `find_caesura`:
 
 ```python
 from sonnet_utils import format_caesura, CAESURA_MARK
@@ -299,7 +302,7 @@ formatted_line = format_caesura(line)
 
 `find_caesura` scans word-by-word, calling `word.akshar-count` per word, until
 the accumulated count reaches 8 — that boundary is the caesura. The remaining
-words form the 6-akshar second half.
+words form the second foot (4–8 akshars).
 
 The caesura mark (`" | "`) is kept in the draft for editorial review and stripped
 before final `publish` output unless the book config sets `keep_caesura_mark: true`.
@@ -356,12 +359,12 @@ After processing, the agent produces:
 Sonnet Transform Summary:
 - Book      : <bookname>
 - Chapter   : <n>
-- Mode      : sonnet (14 lines × 14 akshars, 8+6 caesura)
+- Mode      : sonnet (14 lines × 14-akshar target, band 12–16, 8 caesura)
 - Lines in  : <original line count>
 - Lines out : 14
 
 Per-Line Results:
-  1.  [calibrated]  আমার সোনার বাংলা আমি | তোমায় ভালোবাসি চির    (14 akshars: 8+6)
+  1.  [calibrated]  আমার সোনার বাংলা আমি | তোমায় ভালোবাসি চির    (14 akshars: 8+6, in band)
   2.  [calibrated]  ...
   ...
   9.  [volta ↻]     ...
@@ -402,7 +405,7 @@ Next Steps:
 ### Example
 
 ```bash
-# Transform chapter 1 into a 14-line Bengali sonnet (14 akshars × 8+6 caesura)
+# Transform chapter 1 into a 14-line Bengali sonnet (14-akshar target, band 12–16)
 /book mypoetry transform 1 sonnet
 
 # Transform all chapters into sonnets

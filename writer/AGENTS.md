@@ -417,6 +417,14 @@ updated_date  # ISO 8601 UTC timestamp, YYYY-MM-DDTHH:MM:SSZ
 - **Preserve:** merge the fields; never drop existing fields or backdate `created_at`/`Created`.
 - **Clone rule:** when a file is copied to a new location, copy the bytes first, then stamp the copy; equality checks ignore the audit fields.
 
+## Meter Tolerance
+
+Every metre-based form (`poyar`, `sonnet`, `haiku`, `limerick`, `srijato`, `lyrics`) accepts **±10 %** drift around its line target — a 14-akshar target accepts **12–16**. The rule lives in `.framework/rules/meter-tolerance.md`.
+
+- A line inside its band **passes**; never rewrite it merely to hit the exact number. Only an out-of-band line is repaired.
+- The band relaxes **line count only**. Caesura placement (akshar 8 for poyar/sonnet), rhyme strength, distinct ends, stanza shape, and the form's ruler all still bind.
+- **Python never writes verse.** The loop is *write → review → repair*: the agent authors every line and every repair, while `python tools/mcpbangla/verse.py review <file> --form <form>` measures and reports **per line, per word**. Repeat until `review` prints `=== PASS ===` and `audit` prints `=== PASS ===`.
+
 ## Validation And Promotion Rules
 
 Before writing to `workspaces/published/`, apply the pipeline filters in the order specified by `.framework/workflows/pipeline.md`.

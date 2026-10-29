@@ -535,16 +535,22 @@ For `/book <bookname> poyar <n>|<chapter> [replace]` (alias: `payar`):
    not be composed against.
 3. Route through the poyar agent (`.framework/agents/poyar/agent.md`) →
    `.framework/skills/poyar/SKILL.md`. That skill owns the couplet contract:
-   exactly 14 syllables per line in the `4 + 4 + 4 + 2` measure, strong L1~L2
-   rhyme inside each couplet, no cross-couplet rhyme, daily-used spoken register,
-   and continuous flow between couplets. The couplet count derives from the
-   chapter's `word_target`.
+   **14 akshar per line target, accepted in a 12–16 band (±10 %)** in the
+   `8 + 6` measure, strong L1~L2 rhyme inside each couplet, no cross-couplet
+   rhyme, daily-used spoken register, and continuous flow between couplets. The
+   couplet count derives from the chapter's `word_target`.
 4. **Never** satisfy a poyar request with `.framework/skills/poetry/SKILL.md`. That
    skill writes continuous poetic prose and cannot meet the couplet contract.
 5. The agent writes `chapters/<n>/chapter.md` (archiving the prior copy to
    `segments/1/version/`), records the form evidence in `chapter.json`, and must
-   report `=== PASS ===` from
+   report `=== PASS ===` from both
+   `python tools/mcpbangla/verse.py review <file> --form poyar` (per-line, per-word
+   report used for repair) and
    `python tools/mcpbangla/verse.py audit <file> --form poyar`.
+6. **Python never writes verse.** The loop is write → review → repair: the agent
+   authors the couplets and every repair, Python only measures and reports. The
+   loop repeats until the exit criteria in
+   `.framework/rules/meter-tolerance.md` are met.
 
 ## The Style Command
 
@@ -647,15 +653,20 @@ target are **form-specific**:
 
 | Form | Meter unit | Target | Ruler |
 |---|---|---|---|
-| sonnet | akshar (consonant) | 14/line, 8+6 caesura | `word.akshar-count` |
-| limerick, haiku | akshar (consonant) | form pattern (haiku 5-7-5) | `word.akshar-count` |
-| **poyar** | **syllable** | **exactly 14/line**, `4 + 4 + 4 + 2` | `word.syllable-count` (summed per word) |
-| lyrics / modern song, srijato | syllable | syllable signature | `word.syllable-count` |
+| sonnet | akshar (consonant) | 14/line (band 12–16), 8+6 caesura | `word.akshar-count` |
+| haiku | akshar (consonant) | 5-7-5 (each foot ±10 %) | `word.akshar-count` |
+| **poyar** | **akshar** | **14/line target, band 12–16**, `8 + 6` | `word.akshar-count` |
+| limerick | syllable | pattern from menu (compact 14/7, canonical 16/8, long-line 20/10, extended 22/12), each ±10 % and internally consistent | `word.syllable-count` (per word, summed) |
+| lyrics / modern song, srijato | syllable | syllable signature (±10 %) | `word.syllable-count` |
 
-**Poyar is a syllable form** — every line holds exactly 14 syllables in the
-`4 + 4 + 4 + 2` measure (a `+1` close is legal, 2 preferred). A 13- or
-15-syllable line must be rewritten. Never measure poyar by akshar, and never call
-`word.syllable-count` on a whole line (it over-counts phrases) — sum the words.
+**Every metre target carries a ±10 % band** (`.framework/rules/meter-tolerance.md`):
+a 14-akshar target accepts **12–16**, a limerick's chosen long/short pattern (e.g.
+16/8, 22/12) accepts **±10 %** per line, and a haiku's 5-7-5 accepts **4–6 / 6–8 / 4–6**. An
+in-band line is `calibrated` and is never rewritten to hit the exact number; only
+an out-of-band line is expanded or reduced.
+
+**Poyar is an akshar form** — every line targets 14 akshar in the `8 + 6` measure
+and passes anywhere in 12–16. Never measure poyar by syllables.
 
 **Poyar also demands a strong rhyme.** `word.rhyme-test >= 1` only proves the two
 end words sit in one rhyme class; the pair is still weak when the codas differ
@@ -674,11 +685,13 @@ produce poyar content.
 Route through `.framework/agents/line/agent.md`. For each line:
 
 1. Measure with the form's ruler via MCP (`tools/mcpbangla/kamolika.py`).
-2. If the count matches the target, record `calibrated`.
-3. If under, expand with semantically compatible words until it matches.
-4. If over, remove the least essential modifiers until it matches.
-5. If no exact match is reachable, record `underflow`/`overflow` and flag for
-   review.
+2. If the count is inside the form's **±10 % band** around the target, record
+   `calibrated`. Do not "improve" an in-band line.
+3. If outside the band and under, expand with semantically compatible words until
+   it is in band.
+4. If outside the band and over, remove the least essential modifiers until it is
+   in band.
+5. If the band is unreachable, record `underflow`/`overflow` and flag for review.
 
 **Never compute akshar or syllable counts natively.** Bengali consonant clusters
 (যুক্তব্যঞ্জন) make visual counting invalid; every count must come from MCP.
@@ -700,12 +713,13 @@ form-specific agent and skill:
 | lyrics / modern song (refrain + verses, syllable signature) | `lyrics` | `.framework/agents/lyrics/agent.md` | `.framework/skills/lyrics/SKILL.md` |
 | Limerick (5-line AABBA) | `limerick` | `.framework/agents/limerick/agent.md` | `.framework/skills/limerick/SKILL.md` |
 | Haiku (5-7-5 akshars) | `haiku` | `.framework/agents/haiku/agent.md` | `.framework/skills/haiku/SKILL.md` |
-| **Poyar (14-syllable couplets)** | `poyar` / `payar` | `.framework/agents/poyar/agent.md` | `.framework/skills/poyar/SKILL.md` |
+| **Poyar (14-akshar couplets)** | `poyar` / `payar` | `.framework/agents/poyar/agent.md` | `.framework/skills/poyar/SKILL.md` |
 
 **Poyar is a fixed form with a dedicated skill.** Never compose it through
 `.framework/skills/poetry/SKILL.md` — that skill writes continuous poetic prose
-and cannot satisfy the couplet contract (exactly 14 syllables per line, strong
-L1~L2 rhyme, no cross-couplet rhyme). `poyar` is also a style-directory name under
+and cannot satisfy the couplet contract (14-akshar target per line in a 12–16
+band, strong L1~L2 rhyme, no cross-couplet rhyme). `poyar` is also a
+style-directory name under
 `.framework/context/poetry/styles/poyar/`; when that name is invoked, treat it as
 this form and route here. Its default style is `poyar`, grounded from
 `.framework/context/poetry/styles/poyar/` and **cached per book** at
@@ -743,7 +757,7 @@ Nothing is promoted to `workspaces/published/` by `write` alone.
 The `sonnet` form is a specialisation of task 3 + task 4 and is fixed at:
 
 - exactly **14 lines**
-- exactly **14 akshars** per line
+- a **14-akshar target** per line, accepted **12–16** (±10 %)
 - each line split **8 + 6** at a word boundary (caesura)
 - the thematic turn (volta) at line 9
 
@@ -752,7 +766,7 @@ A Bengali sonnet counts **akshars**, not syllables:
 | Property | English sonnet | Bengali sonnet |
 |---|---|---|
 | Meter unit | syllable | akshar (consonant) |
-| Line length | 10 syllables | **14 akshars** |
+| Line length | 10 syllables | **14 akshars** (band 12–16) |
 | Internal break | none enforced | **8 + 6 caesura** |
 | Total lines | 14 | **14** |
 
@@ -769,6 +783,9 @@ from sonnet_utils import akshar_count, calibrate_line
 count = akshar_count(line)              # MCP call — never native
 status, detail = calibrate_line(line)   # calibrated | underflow | overflow
 ```
+
+`calibrate_line` treats the **±10 % band** as calibrated: a line between 12 and 16
+akshars returns `calibrated` for a 14 target.
 
 The full 48-candidate delete/insert/replace algorithm, caesura pattern table, and
 volta handling live in `.framework/agents/line/agent.md` (**Sonnet Mode**) and

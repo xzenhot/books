@@ -36,8 +36,9 @@ request to the limerick skill, which owns the full contract.
 2. Confirm the pipeline exists (`workspaces/pipeline/<bookname>/`); otherwise stop
    and direct the user to `scaffold`.
 3. Delegate the composition to **`.framework/skills/limerick/SKILL.md`**. The
-   skill owns: the 5-line AABBA structure, the 9/9/6/6/9 akshar contract, the
-   Bengali-only rule, the MCP measurement and rhyme protocol (`word.akshar-count`,
+   skill owns: the 5-line AABBA structure, a randomly chosen long/short syllable
+   pattern (compact 14/7, canonical 16/8, long-line 20/10, extended 22/12), the
+   Bengali-only rule, the MCP measurement and rhyme protocol (`word.syllable-count`,
    `word.rhyme-test` via `tools/mcpbangla/kamolika.py`), file output, and the
    `chapter.json` record.
 4. Report the skill's result (per-line counts, rhyme verification, punchline).

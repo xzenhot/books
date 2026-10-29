@@ -41,7 +41,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -91,3 +91,17 @@ scaffolded
 ### variety_note
 
 This chapter intentionally avoids depicting active ritual action; instead, it focuses entirely on the aftermath, the void, and the sustained vibration of a promise that transcends physical presence.
+
+## draft
+
+### sha256
+
+e0ba37ccc01cdc9e3f32966dd872325f0e9366aa5f227a98fe04ae2fade645ac
+
+### written_at
+
+2026-10-28T07:36:43.223422+00:00
+
+### origin
+
+write

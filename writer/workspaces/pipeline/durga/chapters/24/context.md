@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -80,3 +80,17 @@ scaffolded
 ### variety_note
 
 This chapter focuses intensely inward onto the visceral experience of the musician, contrasting sharply with earlier descriptions of broader community ritual or external divine presence.
+
+## draft
+
+### sha256
+
+f885697e277b14d6df3472c6c80daeca6da4107a96e63b3f43a36a53b7ea89b6
+
+### written_at
+
+2026-10-28T07:35:40.276499+00:00
+
+### origin
+
+write

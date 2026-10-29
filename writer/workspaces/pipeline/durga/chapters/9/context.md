@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -79,3 +79,17 @@ scaffolded
 ### variety_note
 
 Where previous chapters explored the pliable wetness of clay or the spiritual anticipation of arrival, this chapter dwells entirely within the hard, pre-material skeleton—the infrastructure of belief itself.
+
+## draft
+
+### sha256
+
+082d791bfc7aece048fdf8a5cefd356a83b1c631bdd37e5fab29a7d1bf8715bc
+
+### written_at
+
+2026-10-28T07:32:51.043764+00:00
+
+### origin
+
+write

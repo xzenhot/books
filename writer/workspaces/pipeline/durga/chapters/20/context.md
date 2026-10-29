@@ -29,7 +29,7 @@ chapter
 
 ## state
 
-scaffolded
+written
 
 ## segments
 
@@ -81,3 +81,804 @@ scaffolded
 ### variety_note
 
 While previous chapters focused on anticipation (arrival) or aftermath (war conclusion), this chapter must immerse the reader entirely within the kinetic, suspended moment of active, controlled power.
+
+## draft
+
+### sha256
+
+b59eccfd80af55710c959493d01f1f58b997495446b7f810fb4d71b55d317eac
+
+### written_at
+
+2026-10-28T19:41:21.483054+00:00
+
+### origin
+
+write
+
+## form_skill
+
+poyar
+
+## form
+
+couplet_poem
+
+## stanza_form
+
+couplet
+
+## stanza_count
+
+16
+
+## line_count
+
+32
+
+## rhyme_scheme
+
+AA
+
+## rhyme_scheme_note
+
+L1~L2 inside each couplet; no cross-couplet rhyme
+
+## meter_unit
+
+syllable
+
+## syllable_target
+
+14
+
+## syllable_measure
+
+4 + 4 + 4 + (2|1)
+
+## syllable_counts
+
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+- 14
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## mcp_verification
+
+### syllable_tool
+
+word.syllable-count (per word, summed)
+
+### rhyme_tool
+
+word.rhyme-test + identical final rhyme unit
+
+### all_rhymes_verified
+
+true
+
+### all_rhymes_strong
+
+true
+
+### all_ends_distinct
+
+true
+
+### no_duplicate_pairs
+
+true
+
+### syllable_delta
+
+0
+
+### min_syllables
+
+14
+
+### couplets
+
+#### Item 1
+
+##### couplet
+
+1
+
+##### L1_end
+
+ধরে
+
+##### L2_end
+
+পারে
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+রে
+
+##### rhyme_unit_L2
+
+রে
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 2
+
+##### couplet
+
+2
+
+##### L1_end
+
+মূল
+
+##### L2_end
+
+অনুকূল
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ূল
+
+##### rhyme_unit_L2
+
+ূল
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 3
+
+##### couplet
+
+3
+
+##### L1_end
+
+পদ্মফুল
+
+##### L2_end
+
+ভুল
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ুল
+
+##### rhyme_unit_L2
+
+ুল
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 4
+
+##### couplet
+
+4
+
+##### L1_end
+
+ক্রোধ
+
+##### L2_end
+
+শোধ
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+োত
+
+##### rhyme_unit_L2
+
+োত
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 5
+
+##### couplet
+
+5
+
+##### L1_end
+
+আগলে
+
+##### L2_end
+
+বলে
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+লে
+
+##### rhyme_unit_L2
+
+লে
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 6
+
+##### couplet
+
+6
+
+##### L1_end
+
+ধীর
+
+##### L2_end
+
+শরীর
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ীর
+
+##### rhyme_unit_L2
+
+ীর
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 7
+
+##### couplet
+
+7
+
+##### L1_end
+
+অঙ্কুশ
+
+##### L2_end
+
+মানুষ
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ুশ
+
+##### rhyme_unit_L2
+
+ুশ
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 8
+
+##### couplet
+
+8
+
+##### L1_end
+
+বাণ
+
+##### L2_end
+
+প্রাণ
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+াট
+
+##### rhyme_unit_L2
+
+াট
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 9
+
+##### couplet
+
+9
+
+##### L1_end
+
+নাগপাশ
+
+##### L2_end
+
+আকাশ
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+াশ
+
+##### rhyme_unit_L2
+
+াশ
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 10
+
+##### couplet
+
+10
+
+##### L1_end
+
+শক্তি
+
+##### L2_end
+
+ভক্তি
+
+##### rhyme
+
+3
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ক্তি
+
+##### rhyme_unit_L2
+
+ক্তি
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 11
+
+##### couplet
+
+11
+
+##### L1_end
+
+নীরবতা
+
+##### L2_end
+
+কথা
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+তা
+
+##### rhyme_unit_L2
+
+তা
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 12
+
+##### couplet
+
+12
+
+##### L1_end
+
+আলো
+
+##### L2_end
+
+ভালো
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+লো
+
+##### rhyme_unit_L2
+
+লো
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 13
+
+##### couplet
+
+13
+
+##### L1_end
+
+ছাই
+
+##### L2_end
+
+তাই
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+াই
+
+##### rhyme_unit_L2
+
+াই
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 14
+
+##### couplet
+
+14
+
+##### L1_end
+
+পদ্ম
+
+##### L2_end
+
+জন্ম
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ত্প
+
+##### rhyme_unit_L2
+
+ত্প
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 15
+
+##### couplet
+
+15
+
+##### L1_end
+
+শক্ত
+
+##### L2_end
+
+ভক্ত
+
+##### rhyme
+
+2
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ক্ত
+
+##### rhyme_unit_L2
+
+ক্ত
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
+
+#### Item 16
+
+##### couplet
+
+16
+
+##### L1_end
+
+চায়
+
+##### L2_end
+
+পায়
+
+##### rhyme
+
+1
+
+##### strength
+
+STRONG
+
+##### rhyme_unit_L1
+
+ায়
+
+##### rhyme_unit_L2
+
+ায়
+
+##### distinct
+
+true
+
+##### L1_syllables
+
+14
+
+##### L2_syllables
+
+14
