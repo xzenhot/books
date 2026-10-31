@@ -13,19 +13,21 @@ The underlying HTTP service must be running first (see tools/search/db/publish_a
 """
 
 import json
+import sys
 from pathlib import Path
 from typing import Any, Optional
 
-from dotenv import load_dotenv
-from mcp.server.fastmcp import FastMCP
+# Make sibling modules (env, lib.*) importable no matter which directory the
+# process was launched from.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from lib.bookclient import BookClient, PublishApiError
+from env import bootstrap as _bootstrap_env  # noqa: E402
 
-# Load tools/.env next to this script if it exists.
-SCRIPT_DIR = Path(__file__).resolve().parent
-ENV_PATH = SCRIPT_DIR / ".env"
-if ENV_PATH.exists():
-    load_dotenv(ENV_PATH, override=False)
+_bootstrap_env()
+
+from mcp.server.fastmcp import FastMCP  # noqa: E402
+
+from lib.bookclient import BookClient, PublishApiError  # noqa: E402
 
 mcp = FastMCP("novelist-book")
 

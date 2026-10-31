@@ -16,6 +16,12 @@ with resolvable agents and boolean `autorun` flags; and the root planning files
 
 Exit code 0 means the pipeline matches the contract; 1 means at least one error.
 """
+
+# Load the workspace .env and force UTF-8 output (see tools/env.py).
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from env import bootstrap as _env_bootstrap  # noqa: E402
+_env_bootstrap()
 import json
 import os
 import sys

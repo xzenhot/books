@@ -16,6 +16,12 @@ masterprompt.md, workshop_metadata.md) are seeded with placeholders that the
 writing agents fill in later.
 """
 
+# Load the workspace .env and force UTF-8 output (see tools/env.py).
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from env import bootstrap as _env_bootstrap  # noqa: E402
+_env_bootstrap()
+
 import argparse
 import json
 import shutil

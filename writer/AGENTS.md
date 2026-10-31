@@ -33,6 +33,7 @@ Supported command families are defined by the two start-point specs. The backlog
 /book <bookname> init idea
 /book <bookname> scaffold <gist> count|chapter-count <number> [--form novel|poetry]
 /book <bookname> add <chapter-count> filter <filter>
+/book <bookname> add <chapter-title> <chapter-summary-seed>
 /book <bookname> filter <filter> *|all|<n>
 /book <bookname> <agentname> <chapter>|<n>|all|continue
 /book <bookname> enrich <count>|range|*
@@ -181,7 +182,7 @@ Known lifecycle agents:
 
 ```text
 init, scaffold, write, enrich, filter, style, translate, publish, review,
-humanize, eval, workshop
+humanize, eval, workshop, add
 ```
 
 Known scaffold helper agents:
@@ -261,6 +262,7 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/style/agent.md
 .framework/agents/translate/agent.md
 .framework/agents/publish/agent.md
+.framework/agents/add/agent.md
 
 # Form-specific agents (fixed poetic forms)
 .framework/agents/poyar/agent.md
@@ -459,6 +461,8 @@ never reads or writes the pipeline.
 - Prefer existing framework agents, skills, templates, and rules over new abstractions.
 - **Pipeline is the operative home.** Agents and skills (including layout, write, and enrich) operate directly within `workspaces/pipeline/<bookname>/` once the pipeline is scaffolded. They use the pipeline's `book.json` and chapter models as the active state.
 - Keep finished, reader-facing text in versioned folders under `workspaces/published/<bookname>/<version>/` only.
+- **MCP configuration has exactly one home: `.vscode/mcp.json`.** Never create or edit MCP server definitions in `.mcp.json`, `.github/mcp.json`, `~/.copilot/mcp-config.json`, or the `chat.mcp.servers` user setting. Edit `.vscode/mcp.json`, then run `python tools/mcp_sync.py sync` to regenerate the client-specific files; `python tools/mcp_sync.py check` fails on drift. Never put a credential in any MCP config file — use `${input:...}` prompts or `.env`.
+- **Environment has exactly one home: `.env` at the workspace root.** Every Python entry point must load it via `tools/env.py` (`from env import bootstrap; bootstrap()`), never with its own `load_dotenv` call and never from a `tools/.env` path. Never export secrets inline on a command line or hardcode them in a script. `tools/env.py` also forces UTF-8 on stdout/stderr, so Bengali prints correctly on Windows.
 
 ## Operating Procedure
 

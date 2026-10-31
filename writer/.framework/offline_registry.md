@@ -61,6 +61,17 @@ Each is runnable standalone (the `book.py` dispatcher wraps several of these).
 | `tools/search/cli.py` | Web search via a configured provider adapter | `python tools/search/cli.py "query" [--backend searxng] [--max 5] [--engines wikipedia]` |
 | `tools/server.py` | MCP server exposing a `search` tool (SearXNG default) | `python tools/server.py` |
 | `tools/book_server.py` | MCP server exposing the Novelist book/publish API | `python tools/book_server.py` |
+| `tools/mcpbangla/mcpfacebook/facebook.py` | MCP server exposing Facebook Page publishing/insights/comments | `python tools/mcpbangla/mcpfacebook/facebook.py` |
+| `tools/mcp_sync.py` | Regenerate/verify every MCP client config from `.vscode/mcp.json` | `python tools/mcp_sync.py [status\|sync\|check]` |
+| `tools/friends_export.py` | List friends from a Facebook data export (no API exists) | `python tools/friends_export.py <export-folder-or-zip> [--format md\|json] [--search TEXT]` |
+
+**`.vscode/mcp.json` is the only MCP configuration in this repository.** Never
+add server definitions to `.mcp.json`, `.github/mcp.json`,
+`~/.copilot/mcp-config.json`, or the `chat.mcp.servers` user setting by hand.
+Edit `.vscode/mcp.json`, then run `python tools/mcp_sync.py sync`; CI and
+pre-commit run `python tools/mcp_sync.py check`, which exits non-zero on drift.
+Secrets are never stored in any of these files — use `${input:...}` prompts in
+`.vscode/mcp.json` and `.env` for the servers themselves.
 
 ---
 

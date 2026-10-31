@@ -51,6 +51,7 @@ Every `.md` or `.json` file this workflow's agents create or edit under `workspa
 /book <bookname> form <formname>                                                     # 7. set/change the book's form
 /book <bookname> config [<key> [<value>]]                                            # 8. get/set the book's model config
 /book <bookname> add <chapter-count> filter <filter>                          # 9. add chapters and run a single filter
+/book <bookname> add <chapter-title> <chapter-summary-seed>                  # 9a. add one fully-detailed chapter and reconcile its stage
 /book -o | --options | list                                                         # 10. list available books and chapters
 /book -h | --help                                                                    # 11. show usage
 /book <bookname> publish [<language>]                                                # 12. publish latest writer/translator segments to workspaces/published and assemble book.md
@@ -79,6 +80,7 @@ Every `.md` or `.json` file this workflow's agents create or edit under `workspa
 | `form` | Changes the pipeline's `form` field and reconciles form-driven settings. |
 | `config` | Reads or writes book-level configuration values in `model.json` and chapter models. Requires an existing pipeline. |
 | `add <chapter-count> filter <filter>` | Adds more main chapters to an existing book pipeline, then runs the requested single filter for the newly added chapters. |
+| `add <chapter-title> <chapter-summary-seed>` | Adds one fully-detailed chapter to an existing pipeline. Understands the title and seed, expands the seed into a full `chapter_summary` grounded in `gist.md`/`storyline.md`, writes the entry into `book.json`, creates the chapter's on-disk state, and reconciles its pipeline stage (enriching it when the other chapters are already enriched). Routes through the add agent (`.framework/agents/add/agent.md`). Online-only. |
 | `options` | Lists book pipelines in `workspaces/pipeline/` and their `workspaces/published/` destinations. Read-only. |
 | `help` | Shows usage. |
 
@@ -109,6 +111,7 @@ command has an `offline` execution route, the agent resolves the command from
 | `form` | (workflow-level reconcile) | — |
 | `config` | (workflow-level, `model.json`) | — |
 | `add ... filter` | (workflow-level) + `.framework/agents/filter/agent.md` | — |
+| `add <chapter-title> <chapter-summary-seed>` | `.framework/agents/add/agent.md` | (enrich via form skill when peers are enriched) |
 | `poet` / `poetry` / `poem` | `.framework/agents/write/agent.md` | `poetry` |
 | `options` / `help` | (workflow-level, read-only) | — |
 
@@ -341,6 +344,37 @@ Responsibility: extend an existing pipeline with additional main chapters and ru
 6. Create only the new chapter folders under `workspaces/pipeline/<bookname>/chapters/<n>/`, with `model.json`, form-appropriate `mood.json` handling, and canonical `segments/1/` state files following the path invariant enforced by the scaffold agent and its selected layout skill.
 7. Leave existing chapters, filters, source output, and human override files unchanged unless the user explicitly asks to regenerate them.
 8. Run the requested single `<filter>` only for the newly added chapters. The `*` / `all` bulk form is not accepted — report an error and instruct the user to run each filter separately by name. Do not refresh existing chapters unless the user explicitly asks to refresh the whole book.
+
+## The Add Command — Single Chapter
+
+For `/book <bookname> add <chapter-title> <chapter-summary-seed>`:
+
+Responsibility: extend an existing pipeline with **one** new, fully-detailed
+chapter and bring it to the same pipeline stage as its peers.
+
+This variant is disambiguated from the batch form (`add <chapter-count> filter
+<filter>`) by argument shape: a `<chapter-title>` followed by a
+`<chapter-summary-seed>`, never a `filter` token. It is **online-only**
+(agentic) — the seed→summary expansion is authored, not scripted. Route through
+the add agent (`.framework/agents/add/agent.md`), which:
+
+1. Stops if the pipeline does not exist.
+2. Reads `book.json` (form, `chapter_count`, `word_target`, `chapters[]`) and the
+   pipeline `gist.md`/`storyline.md`.
+3. Understands the title and seed, then expands the seed into a full
+   `chapter_summary` grounded strictly in `gist.md` + `storyline.md`, matching the
+   richness and register of the existing chapters' summaries.
+4. Computes the new chapter's identity — poetry: `max(numeric index) + 1`;
+   novel: insert before `Conclusion` (if present), re-indexing it and any
+   subsequent entries.
+5. Appends/inserts the entry into `book.json`'s `chapters[]` and updates
+   `chapter_count`.
+6. Creates `chapters/<name>/chapter.json` and `segments/1/segment.json` plus the
+   canonical segment folders, per `.framework/rules/chapter-layout.md`. Does not
+   create `chapter.md`.
+7. Reconciles the new chapter's stage — if the existing chapters are enriched,
+   enrich the new chapter via the form skill; otherwise leave it `scaffolded`.
+8. Syncs and stamps `progress.json`, then reports the new chapter and next steps.
 
 ## The Form Command
 

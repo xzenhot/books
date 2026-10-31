@@ -7,20 +7,24 @@ search providers. SearXNG is the default provider.
 
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Any, List, Optional
 
-from dotenv import load_dotenv
-from mcp.server.fastmcp import FastMCP
+# Make sibling modules (env, search.*) importable and load the workspace .env
+# before the search adapter reads its provider settings.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from search.adapter import SearchAdapter, build_adapter
-from search.schema import SearchResponse
+from env import bootstrap as _bootstrap_env  # noqa: E402
 
-# Load tools/.env next to this script if it exists.
+_bootstrap_env()
+
+from mcp.server.fastmcp import FastMCP  # noqa: E402
+
+from search.adapter import SearchAdapter, build_adapter  # noqa: E402
+from search.schema import SearchResponse  # noqa: E402
+
 SCRIPT_DIR = Path(__file__).resolve().parent
-ENV_PATH = SCRIPT_DIR / ".env"
-if ENV_PATH.exists():
-    load_dotenv(ENV_PATH, override=False)
 
 # Initialize the server
 mcp = FastMCP("novelist-search")

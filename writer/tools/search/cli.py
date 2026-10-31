@@ -15,18 +15,17 @@ import os
 import sys
 from pathlib import Path
 
-from dotenv import load_dotenv
-
-# Make `search.*` importable when run as a script, and load the repo tools/.env.
+# Make `search.*` and `env` importable when run as a script (from any cwd), then
+# load the workspace .env before the adapter reads provider settings.
 TOOLS_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(TOOLS_DIR))
 
-from search.adapter import build_adapter
-from search.schema import SearchResponse
+from env import bootstrap as _bootstrap_env  # noqa: E402
 
-ENV_PATH = TOOLS_DIR / ".env"
-if ENV_PATH.exists():
-    load_dotenv(ENV_PATH, override=False)
+_bootstrap_env()
+
+from search.adapter import build_adapter  # noqa: E402
+from search.schema import SearchResponse  # noqa: E402
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:

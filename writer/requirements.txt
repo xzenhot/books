@@ -11,6 +11,10 @@
 # --- Search providers (tools/search/providers/) ---
 requests>=2.31.0
 
+# --- MCP servers (tools/server.py, tools/book_server.py,
+#     tools/mcpbangla/mcpfacebook/facebook.py) ---
+mcp>=1.2.0
+
 # --- Environment loading (.env) ---
 python-dotenv>=1.0.0
 

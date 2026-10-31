@@ -1,0 +1,39 @@
+{
+  "inputs": [
+    {
+      "id": "stitch-api-key",
+      "type": "promptString",
+      "description": "Google Stitch API key (remote HTTP server; cannot read .env)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "novelist-search": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspaceFolder:\\writer}/tools/server.py"]
+    },
+    "novelist-book": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspaceFolder:\\writer}/tools/book_server.py"]
+    },
+    "novelist-facebook": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspaceFolder:\\writer}/tools/mcpbangla/mcpfacebook/facebook.py"]
+    },
+    "stitch": {
+      "type": "http",
+      "url": "https://stitch.googleapis.com/mcp",
+      "headers": {
+        "Accept": "application/json",
+        "X-Goog-Api-Key": "${input:stitch-api-key}"
+      }
+    }
+  }
+}

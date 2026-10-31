@@ -47,6 +47,7 @@ For every `/book [args...]` request, follow this procedure:
 ```text
 /book <bookname> scaffold <gist> count|chapter-count <number> [--form novel|poetry] [offline|online]
 /book <bookname> add <chapter-count> filter <filter>
+/book <bookname> add <chapter-title> <chapter-summary-seed>
 /book <bookname> filter <filter> *|all|<n>
 /book <bookname> <agentname> <chapter>|<n>|all|continue
 /book <bookname> enrich <count>|range|*
@@ -102,6 +103,7 @@ never be treated as a chapter count, form, gist, or prose.
 | `<bookname> init idea` | Backlog | `backlog.md` | Rewrite the gist with AI assistance. |
 | `<bookname> scaffold` | Pipeline | `pipeline.md` | Build/repair the pipeline tree from the backlog book plan. |
 | `<bookname> add ... filter` | Pipeline | `pipeline.md` | Add chapters and run one filter on the new chapters. |
+| `<bookname> add <chapter-title> <chapter-summary-seed>` | Pipeline | `pipeline.md` | Add one fully-detailed chapter (title + seed → full summary), create its state, and reconcile its stage. Routes through the add agent (`.framework/agents/add/agent.md`). |
 | `<bookname> filter` | Pipeline | `pipeline.md` | Run a single named filter against `*`/`all` chapters or one chapter `<n>`. |
 | `<bookname> <agentname>` | Pipeline | `pipeline.md` | Run a registered agent against selected chapters. |
 | `<bookname> enrich` | Pipeline | `pipeline.md` | Fuse active filters into one combined pass. |

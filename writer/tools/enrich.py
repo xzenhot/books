@@ -21,6 +21,12 @@ Existing values are preserved; only validated additions are merged into model.js
 Original bytes are backed up to the chapter history directory before replacement.
 chapter.md is never read or written.
 """
+
+# Load the workspace .env and force UTF-8 output (see tools/env.py).
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from env import bootstrap as _env_bootstrap  # noqa: E402
+_env_bootstrap()
 import argparse
 import copy
 import json

@@ -108,6 +108,10 @@
 $ErrorActionPreference = 'Stop'
 # Repo root = the directory containing this script (parent of tools/).
 $RepoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+# Every Python tool expects to run from the workspace root: paths are relative to
+# it (workspaces/, .framework/, tools/) and tools/env.py resolves .env from there.
+# Anchor the working directory to the script rather than the caller's shell.
+Set-Location -LiteralPath $RepoRoot
 # The Python interpreter used to run tools/*.py. Override to a venv path if the
 # system 'python' does not have the required dependencies.
 $Python = 'python'

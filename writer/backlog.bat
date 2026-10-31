@@ -29,9 +29,13 @@ chcp 65001 >nul
 set PYTHONUTF8=1
 set PYTHONIOENCODING=utf-8
 
+rem Run from the workspace root regardless of where the caller invoked us.
+pushd "%~dp0"
+
 if "%~1"=="" (
     echo Usage: backlog.bat ^<bookname^> ^<count^> ^<form^> ["gist"]
     echo Example: backlog.bat haveli 60 poetry "one-line premise"
+    popd
     exit /b 1
 )
 
@@ -58,3 +62,5 @@ echo Backlog complete for "%BOOK%". See pipeline.bat for scaffold onward.
 
 
 
+
+popd

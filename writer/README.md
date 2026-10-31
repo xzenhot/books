@@ -132,6 +132,7 @@ Each filter is a skill under `.framework/filters/<filter>/SKILL.md`, reached thr
 | `haiku` | Dispatch the 5-7-5 akshar Bengali haiku to `skills/haiku`. |
 | `translate` | Translate writer-stage chapters. |
 | `publish` | Promote segments to `workspaces/published/` and assemble the book. |
+| `add` | Append one fully-detailed chapter (`add <chapter-title> <chapter-summary-seed>`). |
 
 Filter skills (`.framework/filters/`): `workshop`, `research`, `seeds`, `correctness`, `theme`, `syntax`, `override`, `quality`.
 
@@ -169,6 +170,49 @@ Reference filters live under `.framework/filters/reference/` (`poeticprose`, `na
 | `workspaces/pipeline/<book>/` | `model.json`, `progress.json`, `filters/`, `chapters/` |
 | `workspaces/pipeline/<book>/chapters/<n>/` | `chapter.md` (live draft), `model.json`, `history/`, `segments/1/{writer,editor,translator}/` |
 | `workspaces/published/<book>/<version>/` | finished, versioned reader-facing output |
+
+---
+
+## Environment (.env)
+
+Every Python entry point loads **one** file: `.env` at the workspace root
+(`writer/.env`). `tools/env.py` resolves it relative to its own location, so a
+tool behaves identically whether you run it from `writer/`, from `tools/`, or
+from an MCP client that launches it with an arbitrary working directory.
+
+```text
+python tools/env.py            # show the file, and which keys are set
+```
+
+Rules:
+
+- **Put every credential and setting in `.env`.** Never in an MCP config, a
+  script, or a command line.
+- Real environment variables win over `.env` (pass `override=True` to
+  `load_env()` to flip that for a deliberate case).
+- `.env` is git-ignored; copy `.env.example` to create one.
+- Loading it also switches stdout/stderr to UTF-8, so Bengali prints correctly
+  on a Windows code page console without setting `PYTHONIOENCODING`.
+- The only exception is a **remote HTTP** MCP server, which runs outside this
+  process and cannot read the file — see the `stitch` entry in
+  `.vscode/mcp.json`.
+
+## MCP Servers
+
+**`.vscode/mcp.json` is the single source of truth** for MCP server definitions.
+VS Code reads it directly. The Copilot CLI cannot (it needs `mcpServers` in
+`.mcp.json`), so those files are *generated* — never hand-edited:
+
+```text
+python tools/mcp_sync.py           # what is canonical, and is anything drifted?
+python tools/mcp_sync.py sync      # regenerate .mcp.json + ~/.copilot/mcp-config.json
+python tools/mcp_sync.py check     # exit 1 on drift (CI / pre-commit)
+```
+
+To add, change, or remove a server: edit `.vscode/mcp.json`, then `sync`.
+Secrets stay out of every config file — use `${input:...}` prompts (VS Code
+prompts once and stores them securely) or `.env` (git-ignored) for the
+server process itself.
 
 ---
 
