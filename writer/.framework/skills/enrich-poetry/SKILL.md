@@ -1,3 +1,8 @@
+---
+name: enrich-poetry
+description: "Use when enriching a poetry pipeline's chapters through the fused active filters in a single pass. Fuses the active filters from filters.json into one combined poetic pass over each chapter's chapter.json, recording the fused enrichment guidance so the write/poet agents can compose chapter.md. USE FOR: enriching poetry chapters after scaffold, before write. DO NOT USE FOR: novel (use enrich-novel), or authoring prose (use poetry)."
+---
+
 # Enrich Poetry — Fuse the Active Filters (Poetic Pass)
 
 ## Audit Metadata

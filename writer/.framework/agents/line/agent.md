@@ -1,3 +1,9 @@
+---
+name: line
+description: Line calibration agent for the `/book <bookname> line <chapter-range> <linenumber-range> <target-word-count> [replace]` command and for `write` task 3 (transform). Rewrites Bengali sentences to a fixed target length — akshar (consonant) or syllable count — without changing central meaning, and calibrates fixed-form meters (sonnet 14-akshar/8+6-caesura). Every measurement routes through the MCP endpoint via `tools/mcpbangla/kamolika.py`; never counts natively.
+tools: ["read", "write"]
+---
+
 # Agent: Line Calibrator
 
 ## Audit Metadata

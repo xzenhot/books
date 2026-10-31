@@ -1,3 +1,9 @@
+---
+name: rhyme
+description: Rhyme & Sonnet composer agent for the `/book <bookname> rhyme <chapter> sonnet [<scheme>] [replace]` command. Selects the rhyme scheme, obtains and verifies rhyme words via the MCP endpoint, composes every line of a rhymed Bengali sonnet, and calibrates each line to the 8 + 6 = 14 akshar target (band 12–16, ±10 %). All MCP traffic routes through `tools/mcpbangla/kamolika.py`.
+tools: ["read", "write"]
+---
+
 # Agent: Rhyme & Sonnet Composer
 
 ## Audit Metadata
