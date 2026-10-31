@@ -930,6 +930,28 @@ def request_patch(prompt, seed, temperature, model_name):
     raise ValueError(f"model returned no usable patch: {last_error}")
 
 
+def _show_request(index, model_name, temperature, prompt):
+    """Print one complete request (system + user prompt) for ``--show-prompt`` mode.
+
+    Echoes the prompt only when the caller asked for it, matching the write
+    command's ``-p`` output so both forms report the same way.
+    """
+    system = ENRICH_SYSTEM_PROMPT
+    print(f"\n[{index}] ============ COMPLETE REQUEST (enrich) ============")
+    print(f"[{index}] model      = {model_name}")
+    print(f"[{index}] num_ctx    = {CONTEXT_WINDOW}")
+    print(f"[{index}] temperature= {temperature}")
+    print(f"[{index}] top_p      = 0.95")
+    print(f"[{index}] think      = False, stream = False, format = json")
+    print(f"\n[{index}] ----- SYSTEM PROMPT ({len(system)} chars) -----")
+    print(system)
+    print(f"[{index}] ----- END SYSTEM PROMPT -----")
+    print(f"\n[{index}] ----- PROMPT ({len(prompt)} chars) -----")
+    print(prompt)
+    print(f"[{index}] ----- END PROMPT -----")
+    print(f"[{index}] ============ END REQUEST ============\n")
+
+
 def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_name=None,
                    temperature=DEFAULT_TEMPERATURE, model_name=MODEL, sources=""):
     """Enrich one chapter model.json in place and return a short result record.
@@ -958,7 +980,7 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     prompt = build_prompt(book_digest(book), chapter, neighbours, chapter_arc(book), pool,
                           lens, twist, chapter_seed, sources=sources)
     if show_prompt:
-        print(f"=== SYSTEM PROMPT ===\n{ENRICH_SYSTEM_PROMPT}\n\n=== USER PROMPT ===\n{prompt}\n")
+        _show_request(index, model_name, temperature, prompt)
 
     patch = request_patch(prompt, chapter_seed, temperature, model_name)
     patch = trim_patch(patch, chapter)

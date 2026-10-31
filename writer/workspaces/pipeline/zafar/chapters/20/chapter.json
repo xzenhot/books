@@ -12,8 +12,44 @@
     }
   ],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the philosophical burden placed on the surveyor/archival clerk: they are not just mapping land; they are inscribing finality onto sacred absence."
+    ],
+    "story_options": [
+      "Setting: The exact coordinates logged in a colonial survey map, seen under moonlight (the small hours); Desire: To project an auditory memory of a forgotten Mughal procession directly onto the sterile grid lines marked on the parchment; Obstacle: The overwhelming, uniform grayness of bureaucratic ink.",
+      "Setting: Inside a sealed ledger documenting 'Site Clearance'—a space devoid of life or shadow; Desire: For the act of erasure itself to momentarily glitch, revealing fragmented glimmers of vibrant color (saffron, turquoise) beneath the official blotch; Obstacle: The enforced meticulousness of the cataloging system.",
+      "Setting: A solitary lamp cast into a newly leveled patch of earth at dawn; Desire: To whisper a question—a single, profoundly personal query that has no place in imperial documentation—into the void before it is absorbed by the dust; Obstacle: The cold logic of the rising sun demanding perfect conformity."
+    ],
+    "subject_rotations": [
+      "Treating 'absence' not as a negative void, but as an active entity—a pervasive pressure that dictates the silence and rhythm of the final lines.",
+      "Analyzing how mythologizing the event complicates its documentation: the deliberate gap between courtly narrative and administrative fact."
+    ],
+    "sensory_details": [
+      "The metallic tang of iron oxide leaching from disturbed, ancient soil into rainwater barrels.",
+      "A profound infrasonic vibration felt in the chest cavity when standing where something vast once stood, unrelated to weather patterns."
+    ],
+    "research_questions": [
+      "What specific tonal quality—pitch or timbre—is linguistically implied by the perfect negation found in official colonial reports versus poetic invocation?",
+      "Are there documented regional correspondences detailing how local populace processed decrees leading to total site erasure, beyond simple public mourning?"
+    ],
+    "structural_variants": [
+      "A fragmented structure where each line acts as both an archival entry (a bureaucratic clause) and a poetic elegy, without discernible transition.",
+      "Building the chapter backward: starting from the documented 'zero trace' and reversing the process, attempting to summon evidence of what preceded it in chronological order."
+    ],
+    "unused_angles": [
+      "The potential role of chance encounters among anonymous local workers who were tasked with carrying out the final disposition rituals.",
+      "A highly fragmented poem composed entirely from short, declarative sentences taken directly from fictionalized bureaucratic reports, punctuated by single, unbrok…."
+    ],
+    "variety_note": "This chapter moves away from internal lamentation (Chapters 10-12) to focus externally on the mechanics of historical finality: how official systems actively manufacture and enforce absence, creating a new kind of emptiness that resists poetry."
+  },
+  "draft": {
+    "sha256": "9d52a6326e6de49058f681a8c3427e14cee6062822759b77276b26b782a4a241",
+    "written_at": "2026-10-29T20:03:27.916929+00:00",
+    "origin": "write"
+  }
 }

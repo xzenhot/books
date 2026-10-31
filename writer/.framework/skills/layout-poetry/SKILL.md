@@ -230,6 +230,8 @@ Before creating the filter registry, read `workspaces/backlog/<bookname>/book.js
 workshop -> research -> correctness -> theme -> syntax -> override -> quality
 ```
 
+**Reconcile a chain inherited from the novel option.** A poetry book that was laid out with the novel option declares the novel chain (`research -> seeds -> correctness -> theme -> syntax -> override -> quality`), which lacks the required `workshop` step. Do not stop: rewrite the plan's `filter_chain` to the poetry chain above, persist that repair to the backlog `book.json`, and report it. A chain that already contains the required steps in order keeps its extra filters.
+
 Create `workspaces/pipeline/<bookname>/filters/filters.json` with the selected chain in order.
 
 Each registry entry must include:

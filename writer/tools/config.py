@@ -32,6 +32,8 @@ import json
 import sys
 from pathlib import Path
 
+from quality import reconcile_filter_chain, stamp_json
+
 # ---------------------------------------------------------------------------
 # Repository paths
 # ---------------------------------------------------------------------------
@@ -112,6 +114,12 @@ def apply_book(book: dict, assignments: list[str]) -> list[str]:
     for token in assignments:
         key, value = parse_assignment(token)
         book[key] = value
+    if any(parse_assignment(token)[0] == "form" for token in assignments):
+        # `form` re-selects everything the form drives. A poetry book must carry
+        # the ordered workshop-through-quality chain, so a chain inherited from
+        # the novel option is reconciled instead of left inconsistent.
+        if book.get("form") == "poetry":
+            book["filter_chain"] = reconcile_filter_chain(book)
     return [parse_assignment(t)[0] for t in assignments]
 
 
@@ -227,7 +235,8 @@ def run(bookname: str, clauses: list[tuple[str, object]]) -> None:
             print(f"chapter {target}: set {', '.join(keys)} on {len(indices)} chapter(s)"
                   f" | synced {synced} chapter metadata file(s)")
 
-    # Write atomically
+    # Write atomically, stamped per the audit-metadata rule.
+    stamp_json(book, "config")
     book_path.write_text(json.dumps(book, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Updated {book_path}")
 

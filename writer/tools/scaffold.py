@@ -3,10 +3,30 @@
 import argparse
 import shutil
 from pathlib import Path
-from quality import read_json, write_json, atomic_bytes, canonical_names, sync_progress, read_book_plan
+from quality import (read_json, write_json, atomic_bytes, canonical_names, sync_progress,
+                     reconcile_filter_chain, stamp_json, audit_timestamp)
 
 ROOT = str(Path(__file__).resolve().parent.parent)
-REQUIRED_FILTERS = ["workshop", "research", "correctness", "theme", "syntax", "override", "quality"]
+AUDIT_FIELDS = ("updated_by", "updated_date", "updated_at")
+
+
+def _content(document):
+    """Return a JSON document without its audit fields, for equality checks."""
+    return {key: value for key, value in document.items() if key not in AUDIT_FIELDS}
+
+
+def _write_if_changed(path, document):
+    """Write a JSON document only when its content (ignoring audit fields) changed.
+
+    A newly stamped document whose content is unchanged is also refreshed, so a
+    file written before audit stamping gains the fields on the next run.
+    """
+    if path.exists():
+        current = read_json(path)
+        if _content(current) == _content(document) and all(field in current for field in ("updated_by", "updated_date")):
+            return False
+    write_json(path, document)
+    return True
 
 
 def scaffold(bookname, chapter_count=None, form=None, gist=None,
@@ -22,7 +42,8 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
     # loop to Python with explicit deterministic parameters instead of
     # hand-writing every chapter folder itself. Every override must stay
     # consistent with the backlog plan; scaffold refuses rather than silently
-    # rewriting the plan.
+    # rewriting the plan — the one exception is the filter chain, reconciled
+    # below to the form the plan declares.
     if form is not None:
         if form != "poetry":
             raise ValueError(
@@ -55,14 +76,15 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
             raise ValueError("word_target must be a positive integer")
         if any(not isinstance(entry.get(k), str) or not entry[k].strip() for k in ("chapter_title", "chapter_summary")) or not isinstance(entry.get("further_references"), list):
             raise ValueError("Incomplete chapter model")
-    chain = plan.get("filter_chain", [])
-    if not isinstance(chain, list) or any(not isinstance(n, str) or not n.isidentifier() for n in chain):
-        raise ValueError("Invalid filter chain")
-    if len(set(chain)) != len(chain) or [n for n in chain if n in REQUIRED_FILTERS] != REQUIRED_FILTERS:
-        raise ValueError("Poetry requires the ordered workshop-through-quality chain")
+    chain = reconcile_filter_chain(plan)
     for name in chain:
         if not (root / ".framework/filters" / name / "SKILL.md").is_file():
             raise ValueError(f"Missing filter skill: {name}")
+    # A plan laid out with the novel option declares the novel chain. Poetry
+    # requires the ordered workshop-through-quality chain, so reconcile the plan
+    # instead of refusing to scaffold it.
+    chain_repaired = plan.get("filter_chain") != chain
+    plan["filter_chain"] = chain
 
     pipeline = root / "workspaces/pipeline" / bookname
     model_path = pipeline / "book.json"
@@ -79,7 +101,12 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
         if existing["chapters"] != plan["chapters"][:len(old_names)]:
             raise ValueError("Existing plan entries changed; reconcile explicitly before scaffold")
         if existing.get("filter_chain") != chain:
-            raise ValueError("Existing filter chain changed; reconcile explicitly")
+            # A pipeline cloned from a novel-preset layout carries the novel
+            # chain; poetry reconciles it to the canonical chain instead of
+            # refusing. A genuinely different human chain still stops scaffold.
+            if reconcile_filter_chain(existing) != chain:
+                raise ValueError("Existing filter chain changed; reconcile explicitly")
+            existing["filter_chain"] = chain
     else:
         old_names = []
 
@@ -107,16 +134,28 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
         shutil.copytree(layout_src, layout_dst)
 
     # --- Copy the backlog source files (gist.md, storyline.md) verbatim ---
+    # Never overwrite a pipeline file that already exists: progress.json holds
+    # live writing state, and the sources are only cloned on first scaffold.
     backlog_dir = root / "workspaces/backlog" / bookname
     for src_name in ("gist.md", "storyline.md", "progress.json"):
         src = backlog_dir / src_name
-        if src.is_file():
-            shutil.copy2(src, pipeline / src_name)
+        dest = pipeline / src_name
+        if src.is_file() and not dest.exists():
+            shutil.copy2(src, dest)
 
     model = dict(existing or plan)
     if existing and len(names) > len(old_names):
         model["chapters"] = existing["chapters"] + plan["chapters"][len(old_names):]
         model["chapter_count"] = len(names)
+    # The pipeline plan is a verbatim clone of the backlog plan; the audit
+    # fields are the only permitted difference (see audit-metadata.md). Stamp
+    # both with one timestamp so the clone stays equal to its source.
+    stamp = audit_timestamp()
+    stamp_json(model, "scaffold", stamp)
+    if chain_repaired:
+        write_json(plan_path, stamp_json(plan, "scaffold", stamp))
+        print(f"Reconciled poetry filter chain: {' -> '.join(chain)}")
+    _write_if_changed(model_path, model)
     # Each chapter is complete before publishing the expanded root model.
     for entry in plan["chapters"]:
         chapter = pipeline / "chapters" / entry["name"]
@@ -132,16 +171,20 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
                 write_json(segment / "segment.json", read_json(legacy))
             else:
                 write_json(segment / "segment.json", {"level": "segment", "state": "pending", "chapter_index": entry["chapter_index"], "segment_index": 1})
-    if not existing or model != existing:
-        write_json(model_path, model)
     registry = pipeline / "filters/filters.json"
     if not registry.exists():
-        write_json(registry, {"filters": [{"order": i, "name": name, "agent": f".framework/filters/{name}/SKILL.md", "autorun": True} for i, name in enumerate(chain, 1)]})
+        write_json(registry, stamp_json(
+            {"filters": [{"order": i, "name": name, "agent": f".framework/filters/{name}/SKILL.md", "autorun": True}
+                         for i, name in enumerate(chain, 1)]},
+            "scaffold"))
     prompt = pipeline / "override.txt"
     if not prompt.exists():
         atomic_bytes(prompt, b"No transform required.\n")
     # Override filter.md remains lazy; existing human instructions are untouched.
     sync_progress(pipeline)
+    progress_path = pipeline / "progress.json"
+    if progress_path.exists():
+        _write_if_changed(progress_path, stamp_json(read_json(progress_path), "scaffold", stamp))
     print(f"Scaffold ready: {bookname}, {len(names)} poems; existing drafts and metadata preserved")
 
 

@@ -46,7 +46,9 @@ def verify(bookname: str) -> int:
 
     plan = load(plan_path)
     model = load(model_path)
-    if plan != model:
+    # The clone is compared ignoring audit fields, per `.framework/rules/audit-metadata.md`.
+    audit = ("updated_by", "updated_date", "updated_at")
+    if {k: v for k, v in plan.items() if k not in audit} != {k: v for k, v in model.items() if k not in audit}:
         errors.append("root book.json does not equal backlog book.json as parsed JSON")
     with open(plan_path, "rb") as handle:
         plan_bytes = handle.read()

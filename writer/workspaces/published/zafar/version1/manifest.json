@@ -1,0 +1,85 @@
+{
+  "published_at": "2026-10-29T19:43:00.202672+00:00",
+  "chapters": [
+    {
+      "name": "1",
+      "sha256": "faae59a4a892c2e7cf79ee2aaf9a900219d6ac6eb116c6e3061057ff10d1c3a8"
+    },
+    {
+      "name": "2",
+      "sha256": "a7b23d458d1deb9f875caf9d9480f0d8141536dfed008c8096bfe9c6ffb83bef"
+    },
+    {
+      "name": "3",
+      "sha256": "3ddc74ab043e7acbd01561d41cbe225fd5c7876ba12b64b0e0aa3bc3b195aeb5"
+    },
+    {
+      "name": "4",
+      "sha256": "6939f62f99b0437c937b14eccf1412ace9560d1d2ddf0eeddeb8a10991890876"
+    },
+    {
+      "name": "5",
+      "sha256": "cc9a629ea93e43c7432f65233f4be7f5ff72ae43624f0600669fbc8e91b02aa7"
+    },
+    {
+      "name": "6",
+      "sha256": "1f5e9b238e22e34477cea6b51e668ee09246b729c34c86d162573f617a5f0ca3"
+    },
+    {
+      "name": "7",
+      "sha256": "f75fc3278e52a7b0d6e3b4bde36a8400c6c3062f669238cedb758e92415ab527"
+    },
+    {
+      "name": "8",
+      "sha256": "f72aa0ea56bbccd2215a19a3677e1c2cd0cde14940ba795b2b035faf18cf9d89"
+    },
+    {
+      "name": "9",
+      "sha256": "7650f662f366662157e49452e9a596c58e101291f64195655fce28bb31282a76"
+    },
+    {
+      "name": "10",
+      "sha256": "f93a4f3039b5a79adec7d7360fc271a1a50efe5f0eea2b270ea2d952a8fee558"
+    },
+    {
+      "name": "11",
+      "sha256": "335d5c79d1a89ec791b02813b5309d24331da2aaa08c94327470c9ae97aa24ea"
+    },
+    {
+      "name": "12",
+      "sha256": "af1e8041c9075906b9667d85cf232e96c35117907b54f21ea0e6248b7165d1a6"
+    },
+    {
+      "name": "13",
+      "sha256": "df5fc5244cd12f044657da1e7d7e99b5532d5d41282ab4b7614ec11728451748"
+    },
+    {
+      "name": "14",
+      "sha256": "c19a0da7e2a4cba7b62ddf2a026427942293aa12489a79f5df083ed9d28e3be7"
+    },
+    {
+      "name": "15",
+      "sha256": "1f20d33b760597a3c04982570750efaf2e7997e0105727b2e56de751faf54753"
+    },
+    {
+      "name": "16",
+      "sha256": "fdc7c35f5e6b038d87e875bc79908dc1935b977610a7fe633fa9248fa1cacb47"
+    },
+    {
+      "name": "17",
+      "sha256": "074fbb126b56b84201a3b5ce7edca78051b5705b88fff9ae8c1ce13ce0ccadee"
+    },
+    {
+      "name": "18",
+      "sha256": "06f92149c930c5fd3ee9e475409b428e29a315577ac30d621caf792a0202ca4a"
+    },
+    {
+      "name": "19",
+      "sha256": "e1a9bea7a7885945b963a0791cfc2735a5f481158e5b23efa65cdb8602b3143f"
+    },
+    {
+      "name": "20",
+      "sha256": "314c7ca5208e349a85a59d5915fd875d51a2107a215bef780bee691a0f450a58"
+    }
+  ]
+}

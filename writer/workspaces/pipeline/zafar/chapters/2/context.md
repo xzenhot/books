@@ -1,0 +1,147 @@
+# Chapter model context
+
+## chapter_index
+
+2
+
+## name
+
+2
+
+## word_target
+
+400
+
+## chapter_title
+
+দিওয়ান-ই-খাস: ভাতার অঙ্ক বনাম সার্বভৌমত্বের দাবি
+
+## chapter_summary
+
+এই অধ্যায়টি দিল্লির দরবারের আনুষ্ঠানিকতার পটভূমিতে স্থাপিত, যেখানে জাফর তাঁর কূটনৈতিক সমতার দাবি উত্থাপন করেন। তিনি উপলব্ধি করেন যে তাঁর বিশাল সাম্রাজ্যের উত্তরাধিকার এখন কেবল ব্রিটিশ নথিতে লিপিবদ্ধ একটি মাসিক ভাতার অঙ্কে পর্যবসিত হয়েছে। এই দৃশ্যটি প্রতীকী মর্যাদার মৃত্যু এবং ঔপনিবেশিক ক্ষমতার শীতল, কাঠামোগত বাস্তবতার মুখোমুখি হওয়ার যন্ত্রণা ফুটিয়ে তোলে। প্রশ্নটি হলো—যখন ক্ষমতাকে কেবল একটি প্রশাসনিক নথিতে সংকুচিত করা হয়, তখন একজন সম্রাটের আত্মমর্যাদা কীভাবে টিকে থাকে?
+
+## further_references
+
+### Item 1
+
+#### no
+
+5
+
+#### reference
+
+ওয়ারেন হেস্টিংস-পরবর্তী কোম্পানি নথি (পেনশন ও উপাধি সংক্রান্ত)
+
+#### weblink
+
+
+### Item 2
+
+#### no
+
+2
+
+#### reference
+
+দেবীমাহাত্ম্য নয় — বরং ১৮৫৭-র সমসাময়িক বিবরণ ও ব্রিটিশ প্রতিবেদন
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The focus shifts from the grand court ceremony to a highly intimate internal monologue where every formal address ('His Highness') becomes an unbearable linguistic cage.
+- Framing the confrontation not as a political debate, but as a ritualistic performance: জাফর meticulously adhering to Mughal court etiquette while internally undermining the power of his own words against bureaucratic jargon.
+- Employing unreliable memory within the scene; perhaps জাফর recalls instances from before the annexation, subtly contrasting them with the current sterile reality at the Diwan-i-Khas.
+
+### story_options
+
+- Setting: The Diwan-i-Khass chamber during a stifling afternoon. Desire: To force the British administrators to acknowledge his inherent sovereignty beyond salary terms. Obstacle: Their unwavering adherence to standardized ledgers and protocols. Turn: জাফর delivers an eloquent, passionate monologue that is immediately met with a polite but devastatingly sterile bureaucratic notation.
+- Setting: A side corridor leading into the Diwan-i-Khass, moments before the main audience. Desire: A small act of defiance—perhaps communicating covertly with a trusted Mughal retainer. Obstacle: The pervasive presence of British military guards whose silence is heavier than any shout. Turn: The retainer gives him not advice, but a specific object (like a dried rose petal) that symbolizes an old promise.
+- Setting: A small ante-room adjacent to the main reception hall. Desire: To recapture the atmosphere of genuine diplomatic parity from earlier Mughal interactions. Obstacle: The lingering scent of imported British tea and stale tobacco replacing the rich aromas of court spices. Turn: জাফর attempts to invoke a historical precedent, but finds his own citation is dismissed as 'romantic excess'.
+
+### subject_rotations
+
+- Treating the pension amount not merely as money, but as a precise metric measuring the decay rate of imperial prestige.
+- Analyzing the power dynamics through the shared vocabulary: how both Mughal noble language and Company administrative English attempt to define 'Dignity'.
+- Focusing on the physical act of signing documents—the weight of his seal versus the triviality of the clauses.
+
+### sensory_details
+
+- The specific, dry, papery scent emanating from the ledger books that quantify his meager stipend.
+- The harsh, reflective gleam of a polished brass lamp in the Diwan-i-Khass, casting unforgiving shadows on powdered marble floors.
+
+### research_questions
+
+- What specific archaic Mughal court titles (beyond 'Emperor') could জাফর employ that might hold unrecognized symbolic weight against British nomenclature?
+- How did 19th-century Company officialdom document the status of deposed royalty in their correspondence, and what linguistic markers were used for demotion?
+
+### structural_variants
+
+- A dialogue heavily punctuated by long pauses where only the ticking of a large, prominent wall clock fills the silence.
+- Alternating short scenes: one detailing the formal exchange at the Diwan-i-Khass, followed immediately by an internalized flashback to his childhood in court.
+
+### unused_angles
+
+- Exploring the specific psychological exhaustion of having to maintain 'royal bearing' while being treated as a civil servant.
+- How the physical layout of the room—the fixed seating arrangement—enforces and visualizes the hierarchy that words fail to articulate.
+
+### variety_note
+
+This chapter contrasts sharply with the internalized struggle of Chapter 1 by placing জাফর directly within the apparatus of oppressive bureaucracy, shifting focus from personal reflection to a public, failed assertion of dignity.
+
+## draft
+
+### sha256
+
+f5ae1adf8f7e1144690028047fd111de59c2babe449984ba7ce6de23356c23f0
+
+### written_at
+
+2026-10-29T19:33:08.395660+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+a7b23d458d1deb9f875caf9d9480f0d8141536dfed008c8096bfe9c6ffb83bef
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-29T19:42:46+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

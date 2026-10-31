@@ -3,7 +3,8 @@
 Pipeline chapter writer.
 
 Reads chapters/<n>/model.json, flattens the complete JSON into context.md,
-builds a prompt from poetry.md + that context, runs it through Ollama,
+builds a prompt from the resolved style (the book's style.md, else the
+form-default preset) + that context, runs it through Ollama,
 and saves the result to chapters/<n>/chapter.md.
 
 Usage:
@@ -567,8 +568,9 @@ class WriteSession:
         self.messages: list[dict[str, str]] = []
         if system_prompt:
             self.messages.append({"role": "system", "content": system_prompt})
-        info(f"\n--- SYSTEM PROMPT (session start) ---\n{system_prompt}\n"
-             f"--- END SYSTEM PROMPT ---\n")
+        # The full prompt is only echoed by `--show-prompt`; a normal write
+        # reports just the session start so the console stays readable.
+        vlog(f"session start: system prompt ready ({len(system_prompt)} chars)")
 
     def chat(self, user_prompt: str) -> str:
         """Send one user turn and return the assistant's reply."""

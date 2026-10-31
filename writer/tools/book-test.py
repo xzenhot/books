@@ -23,6 +23,7 @@ if str(TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(TOOLS_DIR))
 
 import book  # noqa: E402
+import quality  # noqa: E402
 
 
 class TestValidateBookname(unittest.TestCase):
@@ -226,6 +227,46 @@ class TestSummaryHelpers(unittest.TestCase):
     def test_incomplete_chapters(self):
         chapters = {1: {"chapter_summary": "word " * 200}}
         self.assertEqual(book._incomplete_chapters(chapters, 3), [2, 3])
+
+
+class TestFilterChainReconciliation(unittest.TestCase):
+    """A poetry book laid out with the novel option must still scaffold."""
+
+    NOVEL_CHAIN = ["research", "seeds", "correctness", "theme", "syntax", "override", "quality"]
+    POETRY_CHAIN = list(quality.POETRY_FILTER_CHAIN)
+
+    def test_poetry_chain_names_accepts_objects_and_strings(self):
+        self.assertEqual(quality.filter_chain_names(self.POETRY_CHAIN), self.POETRY_CHAIN)
+        self.assertEqual(
+            quality.filter_chain_names([{"sl": 1, "filter": "workshop"}, {"name": "research"}]),
+            ["workshop", "research"],
+        )
+        self.assertEqual(quality.filter_chain_names(["", None, "workshop"]), ["workshop"])
+
+    def test_novel_chain_is_reconciled_for_poetry(self):
+        plan = {"form": "poetry", "filter_chain": self.NOVEL_CHAIN}
+        self.assertEqual(quality.reconcile_filter_chain(plan), self.POETRY_CHAIN)
+        self.assertEqual(quality.poetry_filter_chain(self.NOVEL_CHAIN), self.POETRY_CHAIN)
+
+    def test_canonical_poetry_chain_is_preserved(self):
+        plan = {"form": "poetry", "filter_chain": self.POETRY_CHAIN}
+        self.assertEqual(quality.reconcile_filter_chain(plan), self.POETRY_CHAIN)
+
+    def test_novel_plan_keeps_its_chain(self):
+        plan = {"form": "novel", "filter_chain": self.NOVEL_CHAIN}
+        self.assertEqual(quality.reconcile_filter_chain(plan), self.NOVEL_CHAIN)
+
+    def test_extra_filters_survive_when_order_is_intact(self):
+        chain = self.POETRY_CHAIN[:2] + ["extra"] + self.POETRY_CHAIN[2:]
+        self.assertEqual(quality.poetry_filter_chain(chain), chain)
+
+    def test_stamp_json_syncs_legacy_updated_at(self):
+        document = {"created_at": "2026-01-01T00:00:00Z", "updated_at": "old"}
+        quality.stamp_json(document, "scaffold", "2026-02-02T00:00:00Z")
+        self.assertEqual(document["updated_by"], "scaffold")
+        self.assertEqual(document["updated_date"], "2026-02-02T00:00:00Z")
+        self.assertEqual(document["updated_at"], "2026-02-02T00:00:00Z")
+        self.assertEqual(document["created_at"], "2026-01-01T00:00:00Z")
 
 
 if __name__ == "__main__":

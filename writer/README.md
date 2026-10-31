@@ -105,6 +105,8 @@ Filters run in a fixed order inside the pipeline. The chain is declared in `book
 
 **Novel:** `workshop → research → seeds → correctness → theme → syntax → override → quality`
 
+If a book's `filter_chain` does not match its declared `form` — for example a poetry book laid out with the novel option, which inherits the novel chain — `scaffold` reconciles it to the form's canonical ordered chain and rewrites the backlog `book.json` accordingly, rather than failing. Extra filters are preserved when the required steps are already in order.
+
 Each filter is a skill under `.framework/filters/<filter>/SKILL.md`, reached through the filter agent (`.framework/agents/filter/agent.md`). The `enrich` command fuses the active (`autorun: true`) filters into a single combined agent and runs them in one pass.
 
 ---
