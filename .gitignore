@@ -634,20 +634,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
-.vscode/*
-# The writer workspace's MCP definitions are shared on purpose: they are the
-# single source of truth from which tools/mcp_sync.py derives the Copilot CLI
-# configs. The file holds no secrets (only ${input:...} prompt ids).
-!writer/.vscode/mcp.json
-.venv/
-.github/
-_logs/
-
-mcp.config.json
-# Generated from writer/.vscode/mcp.json — never hand-edited.
-mcp.json
-
-__pycache__/
-
-mcp/*.pdb 
