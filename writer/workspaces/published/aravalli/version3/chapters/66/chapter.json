@@ -1,0 +1,28 @@
+{
+  "chapter_index": 66,
+  "name": "66",
+  "word_target": 500,
+  "chapter_title": "কংক্রিটের নিঃশ্বাস",
+  "chapter_summary": "ফরিদাবাদের কংক্রিটের জঙ্গল — প্রাকৃতিক ফুসফুসের উপর ক্রমে গড়ে ওঠা যান্ত্রিক প্রাচীর।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "5f5793afdf22d7d335c41fc77826167bdc400ff0e2b682d9b099666a2367020a",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

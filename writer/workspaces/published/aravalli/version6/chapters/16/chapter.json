@@ -1,0 +1,101 @@
+{
+  "chapter_index": 16,
+  "name": "16",
+  "word_target": 500,
+  "chapter_title": "শ্বেত সমাধির জন্মদাত্রী",
+  "chapter_summary": "আগ্রার শ্বেত সমাধি আসলে আরাবল্লিরই কন্যা — পাহাড়ের মার্বেল প্রেমিকের জন্য সমাধিতে পরিণত হয়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the marble as a form of petrified memory; each polished surface is an attempt to erase a geological trauma.",
+      "Focusing on the paradox: ultimate purity (white) arising from immense, violent pressure (metamorphosis and interment).",
+      "Inverting the typical funerary narrative; the tomb is not closure but a crystallized state of active, frozen longing."
+    ],
+    "story_options": [
+      "setting: A silent mausoleum at pre-dawn in Agra., desire: To feel the chilling transfer of the mountain's ancient coldness through the marble floor,, obstacle: The presence of an unseen, persistent echo—the sound of tectonic grinding beneath the tomb structure., turn: Sagorika perceives this vibration not as a threat, but as the slow rhythm of eternal love.",
+      "setting: A remote quarry in Rajasthan where marble blocks are being rough-cut,, desire: To identify the precise mineral impurity that allowed the stone to catch and hold moonlight like trapped milk., obstacle: The local laborer refuses to touch a specific slab, claiming it is 'too mournful' (a refusal based on sympathetic resonance)., turn: The narrator discovers this taboo reflects an ancient myth about geological grief.",
+      "setting: A chamber where artisans are polishing the final inlay of the tomb,, desire: To trace a pattern using only negative space—leaving intentional voids in the white surface., obstacle: The perfectionism of the craft risks smoothing away all traces of origin, erasing the mountain's narrative., turn: The act of polishing becomes an agonizing attempt to *reveal* the trauma beneath, rather than conceal it."
+    ],
+    "subject_rotations": [
+      "Analyzing the marble not through its aesthetic qualities (beauty) but as a medium for tectonic scarring; viewing veins and fractures as fault lines mapped onto human sorrow.",
+      "Shifting the focus from the *death* to the *potentiality*; what impossible, unrealized life was solidified into this perfect white stasis?",
+      "Exploring the cultural semiotics of whiteness in South Asian grief—is it transcendence, oblivion, or a terrifying lack of color?"
+    ],
+    "sensory_details": [
+      "Auditory: The high, crystalline 'ping' sound when a small piece of marble is struck against another piece in echoing silence.",
+      "Tactile: The surprising granular friction felt not on the polished surface, but within microscopic imperfections beneath the skin while touching it.",
+      "Visual: The way the intense midday sun refracts through residual micro-fissures, turning pure white into momentary spears of iridescent blue."
+    ],
+    "research_questions": [
+      "What are the specific cultural connotations in early modern Indian funerary architecture regarding the use of high-purity marble (beyond just permanence)?",
+      "Are there documented cases where geological fault lines have been ritually incorporated into sacred or monumental structures in pre-Mughal contexts?",
+      "How does poetic tradition address the conflict between ephemeral human emotion and eternal, seemingly immutable stone?"
+    ],
+    "structural_variants": [
+      "A fragmented structure mimicking shatter patterns; each stanza is a newly formed shard of memory.",
+      "An extended invocation sequence—the poem begins by addressing the stone as if it were a living deity undergoing slow petrification.",
+      "Alternating between vast, silent geological time scales and sudden, sharp flashes of human ritualistic activity."
+    ],
+    "unused_angles": [
+      "A sustained metaphor comparing marble polishing to an act of aggressive self-erasure necessary for spiritual ascension.",
+      "The role of the external landscape (the plains surrounding Agra) as a chaotic counterpoint to the tomb's imposed stillness.",
+      "Exploring the dialectic between 'pure mineral form' and 'imperfect human yearning.'"
+    ],
+    "variety_note": "This chapter shifts the focus from raw, violent geological processes (like metal extraction) to one of deliberate aesthetic containment—the transformation of violence into serene, frozen memorial.",
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "the white tomb as the mountain's own daughter",
+      "volta": "grief turned from closure into frozen longing",
+      "sonic_texture": "an oracular, address-driven cadence",
+      "line_gesture": "a circular return to the opening image",
+      "variety_note": "a benediction over the marble moon"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "gibran",
+    "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "bccac7a61480546ecb5e5318c829e70489c3bd91433777ac5a0bd63a03687eac",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

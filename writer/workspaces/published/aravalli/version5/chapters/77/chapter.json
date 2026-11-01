@@ -1,0 +1,28 @@
+{
+  "chapter_index": 77,
+  "name": "77",
+  "word_target": 500,
+  "chapter_title": "হাই হিলের পদাঘাত",
+  "chapter_summary": "সাগরিকার হাই হিলের তীক্ষ্ণ পদাঘাত — কংক্রিটে আঘাত হানার সময় প্রাচীন ভূত্বক ও অশোকের শিলালিপিকে মুচড়ে দেয়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "4c27b0da3f218c225f1e4d2b016db04efa37c2f80e13c8a6b051cf132b2c1301",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

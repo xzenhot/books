@@ -1,0 +1,59 @@
+{
+  "chapter_index": 40,
+  "name": "40",
+  "word_target": 250,
+  "chapter_title": "রাতের ফ্রিজের আলো",
+  "chapter_summary": "রাতের ফ্রিজে আলো জ্বলে ওঠে, আর ভিতরে এক প্যাকেট বাঁধা খাবার দেখা যায়। স্মৃতি কী, ঠান্ডা ভান্ডারে রাখা একধরনের খাদ্য।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The phenomenology of refrigerated storage in migrant contexts.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the refrigerator light not as illumination of food, but as a spectral projector casting the memory of heat onto cold surfaces.",
+      "Framing the sealed packet contents as artifacts—perfectly preserved moments awaiting reactivation by an absent flame or specific touch.",
+      "A focus on the container itself (the plastic/paper wrapper) as the primary subject: how this manufactured shell attempts to mimic the organic warmth of home."
+    ],
+    "story_options": [
+      "Setting: একটি বন্ধ টিফিন-বাক্সের ভেতরের শীতল আবছা আলো; Desire: পুরনো গন্ধটিকে সজোরে ধরে রাখা, কোনোভাবেই যেন বাষ্পে মুক্তি না পায়; Obstacle: ফ্রিজের মোটর চলার ক্রমাগত যান্ত্রিক শব্দ যা সমস্ত আকাঙ্ক্ষাকে বিচ্ছিন্ন করে দেয় এবং তার ফলস্বরূপ।",
+      "Setting: রান্নাঘরের কোণে থাকা একটি অন্ধকার তাকের ওপর স্থাপিত প্যাকেট; Desire: সেই উষ্ণতার তীব্র প্রতিলিপি তৈরি করা, যেন এই উপাদানটি মুহূর্তেই আবার তাওয়ায় পড়বে; Obstacle: আধুনিক শীতলতা—যা তাপকে কেবল প্রতিরোধ করে না, তাকে অস্বীকারও করে।",
+      "Setting: গভীর রাতের রান্নাঘরের কাউন্টারটপ, যেখানে ফ্রিজের আলো এসে পড়েছে একটি অর্ধ-খোলা প্যাকেট বা টিফিন-বাক্সের ওপর; Desire: সেই ভেতরের 'সুখুন' মুহূর্তটি বের করে আনা যা সময় ও স্থানের দ্বারা বন্দী হয়ে আছে; Obstacle: প্রবাসীর সময়ের ফুরিয়ে আসা সত্তা যা প্রতিটি প্যাকেটে আরও বেশি পরিপক্ক, তবুও স্বাদহীন।"
+    ],
+    "subject_rotations": [
+      "Focusing on the *cold* aspect of preservation—the way absence manifests not as emptiness but as a specific, unyielding chill that defines memory.",
+      "The psychological topography of the cold storage space: how it becomes a self-contained museum of impossible culinary moments from the past.",
+      "Metaphorically treating the sealed packet as a tiny, edible 'border'—a contained microcosm where outside influences cannot penetrate, yet warmth must eventually leak through."
+    ],
+    "sensory_details": [
+      "Tactile: প্লাস্টিকের পাতলা আচ্ছাদনের উপর জমে থাকা শিশির বা কণার শীতল, মসৃণ স্পর্শ।",
+      "Auditory: ফ্রিজের অভ্যন্তরীণ ফ্যান মোটর থেকে আসা একটি নিচু, অবিরাম গুঞ্জন (humming), যা সমস্ত আবেগকে চাপা দেয়।",
+      "Olfactory: বদ্ধ বাতাসের মধ্যে আটকে পড়া তেলের সামান্য জ্যাম হয়ে যাওয়া, স্থবির অথচ তীব্র গন্ধের স্তূপ।"
+    ],
+    "research_questions": [
+      "In Bengali poetic lexicon, are there terms that capture the state of 'frozen longing' beyond simple concepts like sadness or waiting?",
+      "How can the language evoke the specific textural difference between food preserved by cold versus food allowed to cool naturally?"
+    ],
+    "structural_variants": [
+      "An extreme inventory: a line-by-line cataloging of the components within the sealed packet, each item receiving disproportionate philosophical weight.",
+      "A cyclical structure mirroring the refrigerator's compressor cycle: On/Off—Memory/Stasis—On/Off."
+    ],
+    "unused_angles": [
+      "The political implication of preserved food in diaspora settings—a tangible commodity defying geopolitical borders through chemical preservation.",
+      "Exploring the color spectrum seen under artificial, cold light versus the warm hues recalled from domestic cooking (saffron vs. fluorescent white)."
+    ],
+    "variety_note": "This chapter distinguishes itself by focusing entirely on the stasis and material containment of food—the 'paused' state—in stark contrast to previous chapters that dealt with active consumption or transit."
+  },
+  "draft": {
+    "sha256": "e9a6f334cfc3cb4953a9f211bb8cafb84b46df179fdb19ceedfbe350efa61cde",
+    "written_at": "2026-11-01T08:26:13.110350+00:00",
+    "origin": "write"
+  }
+}

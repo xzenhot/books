@@ -1,0 +1,70 @@
+{
+  "chapter_index": 46,
+  "name": "46",
+  "word_target": 110,
+  "chapter_title": "The Locked Upper Room",
+  "chapter_summary": "Gangaram retreats to an upper chamber as the world closes in, and the door is shut. The poem enters the room where the merchant will die, the small space that is all that remains of a man who once owned the town.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing solely on the physics of confinement: The geometry of a small room exerting physical pressure on its occupant.",
+      "The chamber as an anti-fresco: The walls are bare, not decorated; their blankness becomes a terrifying form of high art representing finality.",
+      "Reframing the lock itself: Treating the door's mechanism—the bolt, the keyhole—as a primitive act of metaphysical self-exile rather than mere imprisonment."
+    ],
+    "story_options": [
+      "Setting: The uppermost alcove of the chamber; Desire: Gangaram attempting to trace lines in the dust accumulation on the floorboards with his fingertip; Obstacle: The relentless sound of distant, indifferent life continuing outside the locked walls; Turn: He discovers a single, forgotten seed trapped in the mortar.",
+      "Setting: Near the small high window that admits slivers of harsh afternoon light; Desire: To catch one last glimpse of the bustling courtyard below—not as glory, but as a mocking parade; Obstacle: The glass or lattice is cracked, diffusing the image into meaningless shards; Turn: A single, persistent insect manages to enter and crawl across his possessions.",
+      "Setting: By an overturned stool in the center of the room; Desire: To find one small, perfect object—perhaps a specific, un-painted terracotta shard from the earlier construction phase; Obstacle: The surrounding detritus is so overwhelming that this single object feels microscopically insignificant; Turn: This shard bears a maker's mark or symbol Gangaram doesn't recognize."
+    ],
+    "subject_rotations": [
+      "Examining the silence inside the room not as absence, but as an active, pressurized entity consuming all sound and memory.",
+      "Treating the materials of the room—the specific type of stone, the texture of the failing lime wash—as a biographical record of Gangaram's decline.",
+      "Focusing on the difference between the visible decay (crumbling plaster) and the invisible psychic collapse within the sealed space."
+    ],
+    "sensory_details": [
+      "Smell: The acrid, metallic scent of dried sweat mingled with stagnant dust inside a sealed enclosure.",
+      "Touch: The grit of calcified airborne particles adhering to the skin when the merchant scrapes his hand against the inner wall.",
+      "Sight: The way the weak light catches the microscopic fractures in aged wooden beams overhead."
+    ],
+    "research_questions": [
+      "What are the specific traditional methods for sealing or barring upper chamber doors in Shekhawati architecture to ensure complete isolation?",
+      "What were common indigenous uses of lime mortar and local stone that might leave unique textural signatures when exposed?"
+    ],
+    "structural_variants": [
+      "A strictly imagistic poem, relying on sustained metaphor derived purely from the material elements of the room (stone weight, dust accumulation).",
+      "An internalized monologue delivered as a series of fragmented, physical observations about the room's dimensions and failings.",
+      "Structuring the chapter around the slow progression of time measured only by changes in light ingress through a single aperture."
+    ],
+    "unused_angles": [
+      "The role of sound transmission (or lack thereof) between this sealed room and the adjacent, active parts of the haveli.",
+      "A comparison between the intentional permanence of fresco paint and the accidental fragility of dust settling on unused surfaces.",
+      "How the physical constraints of the small space force an extreme magnification of minor flaws."
+    ],
+    "variety_note": "Unlike chapters detailing outward displays of wealth or external journeys, this chapter is entirely inward-facing, focusing exclusively on spatial compression and material entropy at its point of terminal stasis."
+  },
+  "draft": {
+    "sha256": "c3969894ca31fdb4a58cc8f5c3b5b2aa22ed72c72e7802dea3e15589d0393fd6",
+    "written_at": "2026-10-04T20:18:05.423910+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "c3969894ca31fdb4a58cc8f5c3b5b2aa22ed72c72e7802dea3e15589d0393fd6",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

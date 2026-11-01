@@ -1,0 +1,90 @@
+{
+  "chapter_index": 22,
+  "name": "22",
+  "word_target": 500,
+  "chapter_title": "পাথরের লাল শিরা",
+  "chapter_summary": "পাহাড়ের রক্তই তার খনিজ — তামা, দস্তা, মার্বেল একসঙ্গে বইছে সেই শিরায়, যা মানুষ লুট করছে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The vein as a parasitic lifeline: not just resource extraction, but an organic intrusion into the mountain's ancient structure.",
+      "A geological taxonomy of 'blood': distinguishing between the deep iron-oxide red (ancient life) and the hydrothermal copper green (recent chemical action).",
+      "Personifying the mineral flow itself—the metallic substances are not being extracted by humans, but struggling through a subterranean circulatory system."
+    ],
+    "sensory_details": [
+      "Visual: The specific way light refracts off exposed chalcopyrite crystals, giving them an internal, oily sheen.",
+      "Tactile: The surprising warmth radiating from newly fractured quartz adjacent to the mineralized veins after deep earth pressure release.",
+      "Olfactory: A faint, sharp scent of ozone and heated sulfur emanating from a deeply stressed fracture point."
+    ],
+    "research_questions": [
+      "What is the contemporary scientific understanding of fluid migration paths through highly metamorphosed iron-rich schists in this geological region?",
+      "Can ancient Indian metalworking traditions offer metaphorical vocabulary for describing molten or pressurized metallic flows within rock?"
+    ],
+    "story_options": [
+      "Setting: A narrow, shadowed fissure where a copper vein runs visibly; Desire: To track the pathway of the earliest known intrusion event before it is masked by later weathering; Obstacle: The constant threat of cave-ins rendering any detailed observation impossible; Turn: Sagerika's memory surfaces—a sudden vision of this red flow mirrored in her own internal trauma.",
+      "Setting: High above, observing a recently disturbed outcrop under the fierce midday sun; Desire: To isolate and document one specific nodule exhibiting both quartz inclusion and native copper; Obstacle: The sheer scale makes isolating any single point an act of near-impossible focus; Turn: The vein's red hue shifts subtly in response to a distant change in atmospheric pressure, suggesting subterranean signaling.",
+      "Setting: Inside the mouth of a minor shaft, just before extraction machinery begins operations; Desire: To map the precise chemical signature of the earliest mineral deposit found—the primordial bloodline; Obstacle: Bureaucratic inertia prevents detailed study for 'efficiency'; Turn: The poet perceives that the extraction process itself is mimicking the mountain's agonizing birth pangs."
+    ],
+    "subject_rotations": [
+      "Treating the minerals not as wealth, but as trapped moments of time—each inclusion a fossilized instant.",
+      "Focusing entirely on the *process* of saturation: how slow, pressurized fluids fundamentally alter the structure of surrounding inert rock (chemical lithification).",
+      "Contrasting the ephemeral human desire for gold/copper against the mountain's indifference to these material fluctuations."
+    ],
+    "variety_note": "This chapter shifts focus from broad elemental forces (like dust or water) to hyper-specific chemical interaction, focusing on metallic 'blood' rather than geological trauma.",
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 5,
+      "movement": {
+        "name": "Stoicism",
+        "one_liner": "Logic, virtue, and mastering inner thoughts."
+      },
+      "writing_skills": [
+        "classical meter mastery",
+        "rhyme architecture",
+        "modern colloquial grounding"
+      ],
+      "image_seed": "red veins running through a twilight stone",
+      "volta": "the red as a quiet, fading memory",
+      "sonic_texture": "a hush, then a low unbroken drone",
+      "line_gesture": "even lines that do not rise, only persist",
+      "variety_note": "a twilight red against the whirling vein"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "jibanananda",
+    "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "d5036684972e294141bfb8d2a88321950f8c55fe2a6f4733b7d6964d8df3d512",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

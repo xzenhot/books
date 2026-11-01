@@ -1,0 +1,48 @@
+{
+  "chapter_index": 40,
+  "name": "40",
+  "word_target": 500,
+  "chapter_title": "The Fan That Turns All Night",
+  "chapter_summary": "A ceiling fan turns slowly through the night, and the poem attends to the small steady breeze that keeps sleep possible in the heat.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the fan not as a source of comfort, but as a steady metronome dictating the unceasing rhythm of nocturnal life in close quarters.",
+      "Treating the sound—the cyclical whir and the subtle variations in speed across different hours of the night—as a form of mechanical meditation or drone.",
+      "Shifting perspective to view the fan's movement not as air circulation, but as an invisible physical process mapping out unspoken anxieties or dreams within the room."
+    ],
+    "story_options": [
+      "Setting: A cramped upper-floor bedroom overlooking a darkened alley; desire: To chart the moment when the steady whir of the fan is momentarily disturbed by a sudden sound from below, forcing a shift in attention.",
+      "Setting: The periphery of an open sleeping space where the cool air reaches; desire: To track how that isolated pocket of coolness contrasts with the humid heat clinging to skin or fabric just centimeters away.",
+      "Setting: Just as dawn light begins to weakly penetrate through slats; desire: To observe the pattern of dust particles momentarily illuminated and caught in the slow, deliberate rotation before they settle again."
+    ],
+    "subject_rotations": [
+      "Treating the fan's blade shadow not as a visual distraction, but as an ephemeral ghost tracing pathways across walls during hours of darkness.",
+      "Analyzing the *quality* of the breeze—is it stirring dust (a reminder of age/neglect) or carrying scents (reminders of the street)?",
+      "Focusing intensely on the mechanics: the bearing's slow friction, the wobble in the armature, as markers of enduring human effort."
+    ],
+    "sensory_details": [
+      "The specific metallic taste left on the tongue from humidity and old iron.",
+      "The dry, papery sound of bedding rustling softly against itself under a sustained current of air.",
+      "A visual description of moonlight being stretched and distorted by the rotating blades."
+    ],
+    "research_questions": [
+      "Are there specific folk traditions or localized superstitions regarding the placement or function of ceiling fans in homes, particularly concerning sleep or spiritual atmosphere?"
+    ],
+    "structural_variants": [
+      "A structure where each rotation (or near-rotation) initiates a complete thematic stanza shift.",
+      "Using stanzas that build toward a central moment of cessation—the fan stopping for maintenance or power interruption."
+    ],
+    "unused_angles": [
+      "How the sound pattern relates specifically to religious observance (e.g., is it louder during specific times of mandated silence?).",
+      "A comparison between the mechanical constancy of the fan and the unpredictable nature of human restlessness in the dark.",
+      "Focusing on the *weight* of the air being moved, not just its coolness—the density of the heat itself."
+    ],
+    "variety_note": "Where earlier poems focused on static objects like stains or folded hands, this chapter must focus on sustained motion and environmental persistence against stillness."
+  }
+}

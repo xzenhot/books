@@ -1,0 +1,52 @@
+{
+  "chapter_index": 58,
+  "name": "58",
+  "word_target": 250,
+  "chapter_title": "অসমাপ্ত থালা",
+  "chapter_summary": "অসমাপ্ত থালা ফেলে রাখা হয়, আর রাতের বাতাসে গন্ধ ছড়িয়ে পড়ে। যা শেষ হয়েছে বলে মনে হয়, তার গন্ধ থেকে যায়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the unused space on the plate not as absence, but as an actively consumed void—a negative flavor profile.",
+      "Focusing on the ritual of clearing/not clearing the table: Does leaving the 'অসমাপ্ত থালা' signify stubbornness or deference to memory?",
+      "The texture of the grease film left behind on the plate after the food has been removed, making it a map of where the filling once sat."
+    ],
+    "story_options": [
+      "Setting: A bare ceramic plate under harsh fluorescent light; Desire: To meticulously trace the geometric impression of the missing samosa with a finger; Obstacle: The fear that tracing will disturb the memory imprinted on the grease.",
+      "Setting: An old, wooden dining table in a borrowed room; Desire: To gather every stray crumb and dust mote into one small pile; Obstacle: Realizing that gathering the physical remains does not reclaim the flavor of the home hearth.",
+      "Setting: By a single open window overlooking an anonymous street at dusk; Desire: The narrator watches the exterior city lights flicker, attempting to match their chaotic pulse to the silent emptiness on the plate; Obstacle: The realization that the light source itself—the 'heat' of memory—is not contained within the plate."
+    ],
+    "subject_rotations": [
+      "Treating the remnants (oil film, residue) as a palimpsest: layers of foreign seasoning overlaid onto the faint ghost image of home spice.",
+      "The weight of inertia in inaction: The physical refusal to scrape or clean the plate, symbolizing an inability to fully move forward.",
+      "Shifting from the 'taste' deficit (as seen elsewhere) to the 'visual' deficit—the pattern disruption on a formerly uniform surface."
+    ],
+    "sensory_details": [
+      "The sharp, metallic tang of congealed frying oil cooling against cold porcelain.",
+      "The faint, almost inaudible whisper of dry pastry fragments settling onto the slick, oily surface of the plate.",
+      "The visual distortion created by ambient light catching the microscopic residue patterns on the plate's curve."
+    ],
+    "research_questions": [
+      "How can I use Bengali vocabulary to describe a scent that is present but fundamentally altered by distance or oxidation (i.e., 'ghost fragrance')?"
+    ],
+    "structural_variants": [
+      "A structure built around repetition of the verb 'থাকা' (to be/remain) applied successively to the plate, the smell, and the self.",
+      "Beginning with a description of an unrelated foreign object present on the table (a key, a receipt), using it as an anchor before returning to the emptiness."
+    ],
+    "unused_angles": [
+      "The idea of the plate itself evolving into a symbolic boundary marker—the point where assimilation stops.",
+      "Focusing on the act of *waiting* for the remnants to fully dissipate, treating this dissipation time as metaphysical purgatory."
+    ],
+    "variety_note": "Where previous poems focused on the physical interaction with the food or the narrative journey, this chapter isolates the aftermath: the silent conversation between scent and empty ceramic after consumption has ceased."
+  },
+  "draft": {
+    "sha256": "ca0edd635582b556655a941bf9c0eb450441ae0103772c30053746b6f9f4d3c2",
+    "written_at": "2026-11-01T08:29:54.734847+00:00",
+    "origin": "write"
+  }
+}

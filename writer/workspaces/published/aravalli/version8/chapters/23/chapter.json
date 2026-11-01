@@ -1,0 +1,65 @@
+{
+  "chapter_index": 23,
+  "name": "23",
+  "word_target": 500,
+  "chapter_title": "সবুজের দেওয়াল",
+  "chapter_summary": "উত্তর-পশ্চিম ভারতের প্রাকৃতিক সবুজ প্রাচীর — থর মরুভূমির ধূলিঝড় আটকে পূর্বের উর্বর জনপদকে রক্ষা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "whitman",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 3,
+      "rhythmic_urgency": 8,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Spoken Word",
+        "one_liner": "Rhythmic text built purely for performance."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "the green wall holding back the Thar's dust",
+      "volta": "the wall as a living body, not a barrier",
+      "sonic_texture": "an expansive, cataloguing cadence",
+      "line_gesture": "long enjambed lines that open wide",
+      "variety_note": "a broad, protective green after the red veins"
+    }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "2a1026d7a327054b57bc2eff85edd66967f9f1f695ae3137f2abd9d0e850860f",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

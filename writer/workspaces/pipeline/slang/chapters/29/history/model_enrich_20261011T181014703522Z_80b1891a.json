@@ -1,0 +1,35 @@
+{
+  "chapter_index": 29,
+  "name": "29",
+  "word_target": 500,
+  "chapter_title": "গুল মারা",
+  "chapter_summary": "The chapter, titled 'গুল মারা,' delves into the corrosive nature of empty boasting, encapsulated by the proverb, 'আকাশকুসুম মিথ্যা'—a metaphor for illusions that defy reality. The central conflict revolves around the clash between exaggerated claims and the stark, unyielding truth, symbolized by the 'বড়াইয়ের গুল' (the poison of vanity). Key imagery focuses on the hollowness behind grand pronouncements, where pride acts as a deceptive weed choking out genuine substance. As the narrative unfolds, the reader is left pondering whether such unfounded arrogance is merely a fleeting performance, or if it signals a deeper, irreversible moral decay within the community or the protagonist's circle.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজানা",
+      "role": "কথক"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "আকাশকুসুম মিথ্যার ধারণাটি তৎকালীন সামাজিক প্রেক্ষাপটে প্রচলিত ছিল।",
+    "human_in_the_loop": "চরিত্রের মাধ্যমে 'বড়াইয়ের গুল' নামক মিথ্যা কথার প্রতি অবিশ্বাস ফুটিয়ে তোলা হয়েছে।",
+    "influence_of_other_works": "প্রবাদ বা কবিতার মতো গভীর অর্থ বহনকারী বাক্য ব্যবহারের মাধ্যমে সাহিত্যিক প্রভাব সৃষ্টি করা হয়েছে।",
+    "cultural_relevance": "এই অধ্যায়টি লোকপ্রবাদ এবং সামাজিক আচারের প্রতি বাঙালি সংস্কৃতির প্রতিফলন ঘটায়।",
+    "literary_style": "সরল অথচ গভীর অর্থবহ বাক্যগঠন 'গুল মারা'র মাধ্যমে কাব্যিক মাত্রা যোগ করে।",
+    "narrative_techniques": "উপমা এবং রূপকের ব্যবহার করে লেখকের বক্তব্যকে শক্তিশালী করা হয়েছে।",
+    "symbolism_and_motifs": "'আকাশকুসুম' প্রতীকীভাবে অবাস্তব আকাঙ্ক্ষা বা মিথ্যাকে নির্দেশ করে।",
+    "reader_engagement_strategies": "পাঠককে প্রবাদটির অন্তর্নিহিত সত্যতা নিয়ে ভাবতে উৎসাহিত করা হয়েছে।",
+    "ethical_considerations": "অবাস্তব প্রতিপত্তি বা মিথ্যা অহংকারকে সমালোচনা করার মাধ্যমে নৈতিক বার্তা দেওয়া হয়েছে।",
+    "potential_controversies": "কোনো নির্দিষ্ট গোষ্ঠীর প্রতি কটাক্ষ না করে সাধারণ সামাজিক ভণ্ডামির সমালোচনা করা হয়েছে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি নির্দিষ্ট কোনো গোষ্ঠীর উপর আলোকপাত না করে সার্বজনীন সত্য তুলে ধরে।",
+    "marketing_and_promotion": "প্রবাদটির আকর্ষণীয় শিরোনাম ব্যবহার করে পাঠকের মনোযোগ দ্রুত আকর্ষণ করা সম্ভব।",
+    "significance_of_rise_of_bengal": "এই ধরনের সামাজিক পর্যবেক্ষণ বাংলার তৎকালীন জীবনবোধের একটি গুরুত্বপূর্ণ অংশকে তুলে ধরে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

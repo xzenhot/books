@@ -1,0 +1,53 @@
+{
+  "chapter_index": 13,
+  "name": "13",
+  "word_target": 80,
+  "chapter_title": "The Aching Hands",
+  "chapter_summary": "The poem stays close to the body of the maker — the aching hands, the stiff back, the eyes strained by lamplight — and insists the work is written in flesh before it is ever written in color.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the transfer of strain: tracing how a specific knot in tendon or wrist becomes mimicked by an overly strained line or curve in the painted depiction.",
+      "The hand as conduit and filter: exploring not just the pain, but the momentary moments where physical exhaustion forces a different kind of perception—a sudden clarity amidst the fatigue.",
+      "Treating accumulated calluses and scarred skin as palimpsests themselves; each mark telling a story of past materials or efforts, separate from the current fresco."
+    ],
+    "story_options": [
+      "setting: A section where the painter must lean heavily against the scaffold supports, desire: To find a momentary reprieve not in rest, but in the precise geometry of support; to align his failing body with the static strength of the architecture., obstacle: The chemical residue of old lime leaching into his skin breaks out in angry patches where he grips too tightly., turn: He realizes that the hand's grip on the scaffold is functionally identical to the idealized, rigid posture he paints for the noble figures.",
+      "setting: The corner of a dimly lit workshop table near his pigments, desire: To trace the grain of an untreated piece of wood with calloused fingers after hours of fine brushwork., obstacle: A sudden, sharp cramp shoots up his forearm, forcing him to drop the brush and watch the minute bead of wet pigment slide down a painted sleeve., turn: This involuntary spasm acts as a spontaneous gesture—a flawed line that inadvertently captures a truth about human frailty.",
+      "setting: The moment before pouring a measured amount of ultramarine powder, desire: To achieve absolute, temporary stillness in the entire upper body to ensure perfect evenness of the fall., obstacle: A tremor, fine as moth wings, starts deep in his wrist despite all conscious effort., turn: He chooses not to correct it, instead incorporating the slight wobble into the next brushstroke, accepting imperfection as inherent."
+    ],
+    "subject_rotations": [
+      "Viewing the body as a slow, living loom: where every gesture is both an act of creation and a binding tension on his own physical self.",
+      "Shifting from chronic pain to localized moments of acute sensation—the specific burn in the deltoid after lifting a heavy tray of supplies, for instance.",
+      "Mapping exhaustion onto line weight: how fatigue manifests not as weakness, but as an inability to maintain consistent pressure, leading to variations in stroke texture."
+    ],
+    "sensory_details": [
+      "The gritty, dry sensation of powdered ochre adhering stubbornly beneath the skin creases on his knuckles.",
+      "The high-pitched internal hum in the bones of a perpetually strained lower back when he pauses mid-stroke.",
+      "The cool, slick feel of freshly mixed binding medium running down the inside curve of a tired forearm."
+    ],
+    "research_questions": [
+      "What historical or cultural knowledge exists regarding occupational stress injuries in 19th/early 20th-century artisanal painting trades in Rajasthan?",
+      "How did ancient Indian texts describe bodily fatigue as a metaphor for spiritual or creative striving?"
+    ],
+    "structural_variants": [
+      "The poem structured around short, sharp 'stutters'—moments of intense physical interruption followed by the labored resumption of movement.",
+      "A dialogue where the body itself is addressed directly, cataloging its aches as if it were a patron receiving payment."
+    ],
+    "unused_angles": [
+      "The interplay between muscle memory and conscious artistic intent; when does the hand remember how to paint before the mind commands it?",
+      "How the act of 'holding' (a brush, a stone, posture) becomes an almost religious discipline within his night work."
+    ],
+    "variety_note": "This chapter grounds the abstract labor described in previous sections into visceral materiality, focusing internally on flesh and bone rather than externally on environment or patron dynamics."
+  },
+  "draft": {
+    "sha256": "532b61e06143951b2305996f9a2a5f0d5786c6f1d3681744692366ba9d06d430",
+    "written_at": "2026-10-04T19:41:55.941430+00:00",
+    "origin": "write"
+  }
+}

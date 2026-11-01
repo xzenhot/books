@@ -1,0 +1,28 @@
+{
+  "chapter_index": 54,
+  "name": "54",
+  "word_target": 500,
+  "chapter_title": "বিলুপ্তির পাথরে লেখা",
+  "chapter_summary": "পাহাড়ই বিলুপ্তির স্মৃতির শিলালিপি — প্রতিটি জীবাশ্মে লেখা থাকে হারিয়ে যাওয়া পৃথিবীর নাম।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "568d9888fad9140cc1dfc3c817b7458442443a7045f481a4dbb34824b7c9431a",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

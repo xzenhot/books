@@ -3,7 +3,7 @@ What I want:
 
 # What this system should do (in plain English)
 
-## Part 1 — Planning a book (`.space/backlog/epic/`)
+## Part 1 — Planning a book (`workspaces/backlog/`)
 
 This is the *idea* stage. Nothing is written yet — you are only deciding what the book will be.
 
@@ -13,10 +13,10 @@ This is the *idea* stage. Nothing is written yet — you are only deciding what 
    - the **type** — **Novel** (prose) or **Poetry** (verse)
    - the **chapter count** — how many chapters / poems
 4. The system watches the files: if you **edit the gist by hand**, it notices.
-5. When the gist changes → the system writes a detailed story outline called **`epic.md`**.
-6. When `epic.md` changes → the system writes a chapter plan called **`book.json`**.
-7. `book.json` is the **complete blueprint** of the book, built from `epic.md` + the chapter count.
-8. `book.json` must follow the example schema at **`.framework/templates/book.json`**.
+5. When the gist changes → the system writes a detailed story outline called **`storyline.md`**.
+6. When `storyline.md` changes → the system writes a chapter plan called **`book.json`**.
+7. `book.json` is the **complete blueprint** of the book, built from `storyline.md` + the chapter count.
+8. `book.json` must follow the example schema at **`.framework/templates/backlog/book.json`**.
 9. Each chapter's `chapter_summary` must carry **enough context** to guide writing it later.
 10. Word target per piece:
     - **Poetry** → 200–300 words
@@ -25,7 +25,7 @@ This is the *idea* stage. Nothing is written yet — you are only deciding what 
 
 
 
-## Part 2 — Building the book (`.space/pipeline/`)
+## Part 2 — Building the book (`workspaces/pipeline/`)
 
 This is the *writing* stage. The blueprint from Part 1 becomes the actual book.
 
@@ -38,5 +38,5 @@ This is the *writing* stage. The blueprint from Part 1 becomes the actual book.
 5. **write** — the actual chapter/poem text is authored here (one chapter, or all), in the style from `book.json`.
 6. **quality** — after writing, the final check runs before a chapter is marked done.
 7. **translate** — optionally translate a chapter into another language. 
-8. **publish** — copy the finished chapters into the final book at `source/books/<bookname>/`.
+8. **publish** — copy the finished chapters into the final book at `workspaces/published/<bookname>/`.
 

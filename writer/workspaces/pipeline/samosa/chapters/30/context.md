@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+30
+
+## name
+
+30
+
+## word_target
+
+250
+
+## chapter_title
+
+কাগজে লেখা নতুন ঠিকানা
+
+## chapter_summary
+
+কাগজে লেখা নতুন ঠিকানা একদিন বাসস্থান হয়ে ওঠে, কিন্তু ঘর হয়ে ওঠে না। এই পার্থক্য প্রতিদিন স্পষ্ট হয়।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the written address not as a locus of habitation but as a fixed point of inertia against the fluidity of memory.
+- Shifting from acknowledging *where* one is to mourning the loss of *how* the place felt, even if it was temporary or imperfectly known.
+- Employing self-irony wherein the protagonist recognizes their own dependency on this 'new address' despite its inherent falseness.
+
+### story_options
+
+- Setting: A rented room, overlooking a street whose names are in an unfamiliar script; Desire: To trace the alien characters of the new address with a finger dipped in tea-stain; Obstacle: The inability to relate this abstract notation back to any known geographical feature from home; Turn: Realizing the 'address' is merely another shape imposed by necessity, like the samosa wrapper.
+- Setting: In front of an official mailbox or gatepost bearing the new address; Desire: To scream a familiar Bengali street name at the inanimate object as if it could translate longing into location; Obstacle: The cold indifference of the postal system itself, which only recognizes nomenclature; Turn: A sudden silence where the expected echo should be.
+- Setting: Inside a travel document or ledger where the new address is inscribed alongside other immutable data (passport number); Desire: To feel the weight of that precise series of characters as if it were an inherited ancestral bond; Obstacle: The text itself feels chemically inert, lacking the organic warmth of handwritten familiarity; Turn: A sudden image of the original kitchen wall, its texture more meaningful than any postal code.
+
+### subject_rotations
+
+- Focusing less on geographical change and more on chronological dislocation—how time functions differently under this new address.
+- Examining the sociolinguistic weight: how 'address' demands a certain performative behavior (the accent, the politeness) that is alien to the speaker.
+- Contrasting the specificity of the written location with the boundless nature of memory; the map vs. the flavor.
+
+### sensory_details
+
+- The dry, almost papery scent of official stationery contrasting with the residual grease smell from a stored *bag*.
+- The abrasive drag of fingernails across cold glass when trying to visually decipher an unknown municipal street sign (touch/sight).
+- The faint, high-pitched hum of unfamiliar electrical appliances in the dwelling associated with the new location (sound).
+
+### research_questions
+
+- How does official postal formatting or addressing nomenclature strip away narrative texture from a place?
+- In Bengali poetic tradition, how is 'place' often rendered when it lacks specific sensory markers?
+
+### structural_variants
+
+- A sustained questioning structure where each stanza begins with an interrogative sentence about the address.
+- Beginning by listing geographical coordinates or alphanumeric strings and building toward a single, emotionally charged Bengali word that resists translation.
+
+### unused_angles
+
+- The bureaucratic fetishization of precision over experience.
+- How modernity forces an individual to prioritize legible data points (address) over subjective reality (home).
+
+### variety_note
+
+This chapter pivots from the functional struggle of language in naming, focusing instead on the ontological gap between a documented point and the lived warmth of memory.

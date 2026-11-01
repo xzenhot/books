@@ -1,0 +1,222 @@
+{
+    "metadata": {
+        "description": "Parameters for analyzing and generating text-based prose-fiction styles across historical movements.",
+        "timeframe": "1800 AD - 2020 AD",
+        "version": "1.0"
+    },
+    "style_sliders": {
+        "narrative_distance": {
+            "scale": "1-10",
+            "description": "Measures how close the narration sits to a character's interior, from distant omniscient to raw first-person stream-of-consciousness."
+        },
+        "plot_architecture": {
+            "scale": "1-10",
+            "description": "Measures the degree of formal plotting, from loose episodic drift to tightly structured cause-and-effect."
+        },
+        "sensory_density": {
+            "scale": "1-10",
+            "description": "Measures the richness of concrete physical description — place, body, object, weather — versus abstract exposition."
+        },
+        "temporal_fluidity": {
+            "scale": "1-10",
+            "description": "Measures how freely the narrative moves through time, from strict chronology to fractured memory and flashback."
+        },
+        "dialogic_energy": {
+            "scale": "1-10",
+            "description": "Measures how much the story is carried by spoken dialogue and voice rather than narration."
+        }
+    },
+    "movements": [
+        {
+            "name": "Realism",
+            "era": "19th Century",
+            "key_figures": [
+                "Gustave Flaubert",
+                "George Eliot",
+                "Leo Tolstoy"
+            ],
+            "one_liner": "Faithful, grounded depiction of ordinary social life.",
+            "parameter_weights": {
+                "narrative_distance": 5,
+                "plot_architecture": 6,
+                "sensory_density": 8,
+                "temporal_fluidity": 4,
+                "dialogic_energy": 5
+            }
+        },
+        {
+            "name": "Naturalism",
+            "era": "Late 19th Century",
+            "key_figures": [
+                "Émile Zola",
+                "Frank Norris"
+            ],
+            "one_liner": "Deterministic, documentary, driven by heredity and environment.",
+            "parameter_weights": {
+                "narrative_distance": 7,
+                "plot_architecture": 5,
+                "sensory_density": 9,
+                "temporal_fluidity": 3,
+                "dialogic_energy": 6
+            }
+        },
+        {
+            "name": "Modernism",
+            "era": "Early 20th Century",
+            "key_figures": [
+                "James Joyce",
+                "Virginia Woolf",
+                "William Faulkner"
+            ],
+            "one_liner": "Fragmented interiority, stream-of-consciousness, broken time.",
+            "parameter_weights": {
+                "narrative_distance": 2,
+                "plot_architecture": 2,
+                "sensory_density": 7,
+                "temporal_fluidity": 10,
+                "dialogic_energy": 3
+            }
+        },
+        {
+            "name": "Magic Realism",
+            "era": "Mid 20th Century",
+            "key_figures": [
+                "Gabriel García Márquez",
+                "Salman Rushdie",
+                "Toni Morrison"
+            ],
+            "one_liner": "The fantastic rendered as ordinary, myth folded into the everyday.",
+            "parameter_weights": {
+                "narrative_distance": 5,
+                "plot_architecture": 5,
+                "sensory_density": 9,
+                "temporal_fluidity": 8,
+                "dialogic_energy": 5
+            }
+        },
+        {
+            "name": "Postmodernism",
+            "era": "Late 20th Century",
+            "key_figures": [
+                "Thomas Pynchon",
+                "Italo Calvino",
+                "Don DeLillo"
+            ],
+            "one_liner": "Self-reflexive, playful, distrustful of grand narrative.",
+            "parameter_weights": {
+                "narrative_distance": 4,
+                "plot_architecture": 3,
+                "sensory_density": 6,
+                "temporal_fluidity": 8,
+                "dialogic_energy": 4
+            }
+        },
+        {
+            "name": "Minimalism",
+            "era": "Late 20th Century",
+            "key_figures": [
+                "Raymond Carver",
+                "Ann Beattie",
+                "Amy Hempel"
+            ],
+            "one_liner": "Sparse, understated, iceberg-style restraint.",
+            "parameter_weights": {
+                "narrative_distance": 8,
+                "plot_architecture": 2,
+                "sensory_density": 2,
+                "temporal_fluidity": 3,
+                "dialogic_energy": 9
+            }
+        },
+        {
+            "name": "Autofiction",
+            "era": "21st Century",
+            "key_figures": [
+                "Karl Ove Knausgård",
+                "Rachel Cusk",
+                "Sheila Heti"
+            ],
+            "one_liner": "The self-as-character, fiction and memoir blurred.",
+            "parameter_weights": {
+                "narrative_distance": 1,
+                "plot_architecture": 1,
+                "sensory_density": 6,
+                "temporal_fluidity": 7,
+                "dialogic_energy": 5
+            }
+        }
+    ],
+    "writing_skills": {
+        "realist_skills": [
+            "social texture",
+            "ordinary-life fidelity",
+            "unobtrusive narration"
+        ],
+        "naturalist_skills": [
+            "documentary detail",
+            "environmental determinism",
+            "clinical observation"
+        ],
+        "modernist_skills": [
+            "stream-of-consciousness",
+            "fragmented interiority",
+            "temporal montage"
+        ],
+        "magic_realist_skills": [
+            "mythic folding",
+            "the fantastic as ordinary",
+            "generational saga"
+        ],
+        "postmodernist_skills": [
+            "self-reflexivity",
+            "playful structure",
+            "pastiche"
+        ],
+        "minimalist_skills": [
+            "radical understatement",
+            "iceberg dialogue",
+            "implication over statement"
+        ],
+        "autofiction_skills": [
+            "self-as-character",
+            "memory excavation",
+            "essayistic drift"
+        ]
+    },
+    "creative_enrichment": {
+        "angles": [
+            "Focusing on the micro-ecology of the caravan journey: how specific insects or microscopic lifeforms survive the desert miles alongside the massive beasts.",
+            "The concept of shared, unspoken ritual between the drivers—a communal code that contrasts with Gangaram's isolated ambition.",
+            "Treating the camel itself not as transport, but as a living, slow-motion barometer for the stability and temperament of the trade network."
+        ],
+        "story_options": [
+            "Setting: The highest point between two settlements at midday. Desire: A young driver wants to see the distant city lights ahead. Obstacle: Heat shimmer distorts his vision until he can't distinguish mirage from reality. Turn: He realizes the illusion of infinite distance is what keeps him moving.",
+            "Setting: Inside a heavily laden wagon just before sunset, under patched canvas. Desire: The weary captain wishes to break silence and speak honestly about debts owed on both sides. Obstacle: A nervous shift in cargo causes the load to groan ominously. Turn: They trade one quiet story of home for another.",
+            "Setting: Near a rare oasis, deep into the night when only starlight remains. Desire: One driver seeks solace by watching specific constellations, mapping his personal path against the cosmic route. Obstacle: The water source is suspiciously brackish. Turn: He must decide whether to risk drinking it or abandon the profitable halt."
+        ],
+        "subject_rotations": [
+            "A meditation on sound frequency: shifting from the low thrum of a camel's gait to the high, sharp cries of scavengers at dusk.",
+            "Focusing entirely on the materials of burden—the leather harness stitching, the worn rope knots, and the woven textiles that contain the wealth.",
+            "Mapping time not by clock hours but by biological indicators: the changing angle of shadows, the rhythm of grazing animals, or the camel's predictable metabolic cycle."
+        ],
+        "sensory_details": [
+            "The dry, metallic taste of dust ground into the back of the throat.",
+            "The specific, muffled sound made when a thick saddle blanket is finally spread and settled against packed sand.",
+            "The visual contrast between the dull, sun-bleached brown hides of the camels and the brilliant, iridescent sheen of their brass bells."
+        ],
+        "research_questions": [
+            "What were common historical methods for tracking time or distance in caravans before precise navigational aids?",
+            "Are there specific dietary staples that would sustain long-haul camel drivers during desert travel?"
+        ],
+        "structural_variants": [
+            "A strictly cyclical structure mirroring the caravan's repeated passage through familiar landmarks, with subtle alterations each cycle.",
+            "An associative structure where the poem jumps between different senses experienced by various individuals within or adjacent to the convoy (driver, guard, laborer).",
+            "Beginning with a single moment of extreme stillness during a halt, expanding outwards into the motion and noise of the movement, then contracting back to silence."
+        ],
+        "unused_angles": [
+            "The political geography visible from the road—signs of minor local disputes or border shifts glimpsed at a far distance.",
+            "A focus on the transactional intimacy between the merchant (from afar) and the laborers who manage the beast's welfare, exploring their dependency beyond wages."
+        ],
+        "variety_note": "This chapter focuses intensely on the interstitial moments of movement—the pause between one destination and the next—rather than celebrating the commodity or its arrival like previous chapters have done."
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "chapter_index": 27,
+  "name": "27",
+  "word_target": 500,
+  "chapter_title": "ফাঁকি",
+  "chapter_summary": "Chapter 27, titled 'ফাঁকি' (Evasion), delves into the pervasive theme of shirking responsibility, portraying a society where the avoidance of duty is an ingrained habit. The central conflict revolves around the struggle between the inherent obligation to contribute and the seductive ease of deliberate inaction, vividly captured through the imagery of neglected tasks and half-hearted efforts. As characters navigate this landscape of willful negligence, the narrative raises a profound question: Can a community thrive or find genuine meaning when the spirit of accountability is so thoroughly eroded by the habit of evasion?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "প্রধান চরিত্র",
+      "role": "দায়িত্ব এড়ানো ব্যক্তি"
+    },
+    {
+      "id": "c2",
+      "name": "পর্যবেক্ষক",
+      "role": "ফাঁকি দেওয়ার বিষয়টি লক্ষ্য করা ব্যক্তি"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "দায়িত্ব এড়ানোর এই প্রবণতা তৎকালীন সামাজিক কাঠামোর একটি বাস্তব প্রতিফলন ছিল।",
+    "human_in_the_loop": "চরিত্রের স্বভাবগত দায়িত্ব পলায়ন এই অধ্যায়ে মুখ্য ভূমিকা নেয়।",
+    "influence_of_other_works": "প্রবাদ-বাক্যের মতো এই আচরণ সমাজের গভীরে প্রোথিত ছিল।",
+    "cultural_relevance": "কাজে ফাঁকি দেওয়া বাঙালির সামাজিক আচরণের একটি পরিচিত দিক তুলে ধরে।",
+    "literary_style": "এই অধ্যায়ে ভাষার ব্যবহার প্রবাদ-কবিতার মতো গভীরতা লাভ করেছে।",
+    "narrative_techniques": "দায়িত্বের পলায়নকে কেন্দ্র করে আখ্যানটি চালিত হয়েছে।",
+    "symbolism_and_motifs": "ফাঁকি দেওয়া শব্দটি অলসতার প্রতীক হিসেবে কাজ করছে।",
+    "reader_engagement_strategies": "পাঠককে চরিত্রের এই স্বভাবের মাধ্যমে গভীরভাবে ভাবাতে উৎসাহিত করা হচ্ছে।",
+    "ethical_considerations": "কর্তব্যপরায়ণতার অভাব নৈতিক প্রশ্ন উত্থাপন করে।",
+    "potential_controversies": "সামাজিক দায়িত্ব এড়ানোকে সমালোচনা করার অবকাশ থাকে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি নির্দিষ্ট কোনো গোষ্ঠীর উপর আলোকপাত না করে সাধারণ প্রবণতা দেখায়।",
+    "marketing_and_promotion": "প্রবাদ-কবিতার মতো শক্তিশালী শিরোনামটি প্রচারের জন্য আকর্ষণীয়।",
+    "significance_of_rise_of_bengal": "এই অধ্যায়টি তৎকালীন সামাজিক স্থিতাবস্থার একটি সূক্ষ্ম চিত্র ফুটিয়ে তোলে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

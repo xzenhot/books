@@ -1,0 +1,50 @@
+{
+  "chapter_index": 28,
+  "name": "28",
+  "word_target": 500,
+  "chapter_title": "The Saree Folded on the Rope",
+  "chapter_summary": "A saree hangs folded over a rope, and the poem regards the length of cloth that rests between one wearing and the next.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the saree not as an object of beauty or ritual wear, but as a complex form of salvaged textile—a record of dyes bled from previous seasons or damaged by monsoon grit.",
+      "Approaching the folded fabric through the lens of its potential absence: imagining what it *would* look like if unfolded into motion versus how it lies static and waiting on the rope.",
+      "Framing the rope itself as a counterpoint to the cloth—a rigid, utilitarian anchor against the flowing, complex pattern of human life captured in the drape."
+    ],
+    "story_options": [
+      "Setting: A high balcony catching the heat of late afternoon, desire: To trace the precise way the sunlight bleaches specific colors on the warp and weft, obstacle: The wind threatening to catch it violently before its intended use.",
+      "Setting: Dampened by an overnight shower hanging near a low doorway, desire: To note how the fibers absorb moisture and shift their internal structure, turning bright patterns into deep, saturated indigo echoes, obstacle: The potential for mildew or decay setting in while waiting.",
+      "Setting: Inside a small courtyard where dappled light filters through foliage onto the cloth, desire: To observe how tiny insects might move across its surface during the day’s quiet hours before it is needed by someone, obstacle: The stain of dust settling into the weave unnoticed."
+    ],
+    "subject_rotations": [
+      "Focusing on the labor embedded in the textile's making—the specific geometry of the dye placement or the hand-looming rhythm that dictates its final form.",
+      "Viewing the fold itself as a temporary monument: an intentional act of pausing and preserving identity until the next time it must express that identity publicly.",
+      "Shifting attention from color/pattern to weight—how the density of the material causes it to pull against the rope under gravity, anchoring it to its spot in the day's narrative."
+    ],
+    "sensory_details": [
+      "The faint mineral tang picked up by the cotton fibers after being left near a stone wall.",
+      "The subtle sound of the dried threads chafing against each other as temperature shifts throughout the day.",
+      "The tactile sensation of fine, almost invisible grit—dry earth dust or lime powder—caught within the folds."
+    ],
+    "research_questions": [
+      "What are common methods used in contemporary Indian homes to maintain the structure and color saturation of hand-woven sarees when they are stored folded?",
+      "Are there specific traditional meanings associated with how a saree is folded or draped before use that differ from its presentation while hanging?"
+    ],
+    "structural_variants": [
+      "A poem structured around the concept of tension: pull (the weight of the cloth) vs. release (the possibility of wearing it).",
+      "An inventory structure, listing the visible patterns or colors as if they were lines of code, until one pattern introduces an unexpected anomaly.",
+      "Beginning with a moment *after* use—a discarded, partially crumpled remnant caught beneath the main fold—to suggest weariness."
+    ],
+    "unused_angles": [
+      "The comparison between the complexity of the saree's weave and a nearby architectural detail (like a carved window frame or lattice work).",
+      "A focus on how the shadows cast by the folds change shape throughout the day, mimicking narrative shifts.",
+      "Treating the rope as an accidental metaphor for duty—taut, necessary, always present."
+    ],
+    "variety_note": "Unlike poems focusing on fleeting actions (like a bell or a splash), this piece arrests the subject in a state of suspended potential, examining material duration rather than momentary event."
+  }
+}

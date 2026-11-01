@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+22
+
+## name
+
+22
+
+## word_target
+
+300
+
+## chapter_title
+
+উমার কন্যারূপ
+
+## chapter_summary
+
+দেবী এখানে কন্যা — পাহাড়পুরাণের উমা, যে বাপের ঘরে ফেরে, আর প্রতিটি কন্যার মতো আবার বিদায় নেয়।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Reframing 'Kanya' (daughter) not as a blessing to the father's home, but as an independent force carrying the burden of cosmic memory; her return is less about filial duty and more about completing a necessary cycle.
+- Treating Usha/Umai’s temporary sojourn in Bengal through the lens of cultural displacement—the divinity wearing the guise of local Bengali domestic ritual.
+- Focusing on the inherent tension between 'daughter' (a fragile, relational role) and 'Shakti' (unbreakable cosmic power); the vulnerability is merely a presentation.
+
+### story_options
+
+- Setting: A sun-dappled veranda overlooking a village pond; Desire: To capture Umai observing mundane human rituals of domestic life (fetching water, preparing food), realizing her divine nature must temporarily mimic simple earthly routine; Obstacle: The weight of infinite worlds pressing down on the fragile guise she wears.
+- Setting: The threshold between the Pandal and the common village pathway; Desire: To depict Umai hesitating before stepping into the domestic space—is this a sacred visitation or an assumption of human frailty?; Obstacle: The necessary shedding of divine armor to fit the form of a 'daughter'.
+- Setting: An interior chamber filled with intricate Bengali hand-woven textiles; Desire: To explore how Umai interacts with these crafted representations of life—do they mirror her own cosmic complexity, or merely serve as beautiful containment?; Obstacle: The desire to escape the patterned confines of human artistry and return to pure energy.
+
+### subject_rotations
+
+- Shifting focus from external devotion (the devotees looking at the 'daughter') to internal self-recognition—Umai recognizing her own power *through* the reflection in a mundane object.
+- Examining the dual nature of maternal departure: Is it a loving return, or an absolute severing that necessitates eternal longing?
+- Conceptualizing the journey back not as physical travel (to Shiva’s abode), but as a retreat into pure potentiality—a silence after the festival's climax.
+
+### sensory_details
+
+- Sight: The iridescent sheen of gold thread embroidery on traditional Bengali attire catching the specific, weak light of late afternoon.
+- Sound: The rhythmic, muffled sound of distant domestic hammering (carpentry or repair work) contrasting with the silent majesty within the Pandal.
+- Touch: The texture of worn, sun-baked clay pots used in daily household rituals, grounding her ephemeral presence.
+
+### research_questions
+
+- Are there specific poetic motifs regarding a divine being adopting temporary mortal forms (avatar/incarnation) in Bengali literature that detail the necessary camouflage?
+- How do traditional descriptions of domestic settings contrast with cosmological descriptions when describing Durga's manifestation in Bengal?
+
+### structural_variants
+
+- A cyclical structure where each strophe begins by referencing a specific element of human femininity (e.g., braid, saree fold, gentle hand) and ends by contrasting it with an eternal celestial law.
+- A highly fragmented structure mirroring memory recall—a sudden leap from the grand Pandal tableau to a singular moment of quiet interaction in a small domestic space.
+
+### unused_angles
+
+- The socio-political weight carried by the 'daughter' figure when representing Bengal’s cultural self-image during the festival.
+- A deep dive into the concept of *Nirguna* (formless) versus *Saguna* (with form), using Umai as the precise point where this metaphysical debate becomes intensely personal.
+
+### variety_note
+
+This chapter moves away from battle and ritual performance to focus entirely on intimacy, presentation, and the bittersweet paradox of divine embodiment in a relatable domestic space, contrasting with earlier celebrations.

@@ -1,0 +1,49 @@
+{
+  "chapter_index": 11,
+  "name": "11",
+  "word_target": 500,
+  "chapter_title": "The Barber's Mirror",
+  "chapter_summary": "A barber holds up a mirror at the end of a shave, and the poem regards the small framed moment in which a man meets his own face.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the mirror not as a tool for self-assessment, but as an artifact of forced momentary stasis—a pause in the daily rush, trapping the subject's transient state.",
+      "Framing the reflected image through the lens of its inevitable deterioration (the slight tarnish on the glass, the way the light warps it), suggesting a fragility inherent to self-perception.",
+      "Viewing the scene as an exchange between two realities: the man preparing for the day/work in reality, and the polished, almost idealized version seen in reflection."
+    ],
+    "story_options": [
+      "Setting: The brightly lit barber's chair; Desire: To observe the precise moment the steam from the hot water clears, revealing a newly sculpted line of hair—Obstacle: A smudge on the mirror catches the light just as it’s perfectly finished.",
+      "Setting: Just outside the shop, while the subject straightens his collar in his reflection; Desire: To note how the reflected image interacts with the backdrop of dusty street activity (a passing cart, a child's shout)—Obstacle: The background blurs instantly upon eye contact with the mirror, snapping the man back to reality.",
+      "Setting: A quiet mid-morning lull within the shop; Desire: To focus on the barber’s own reflection in peripheral vision—the subtle fatigue etched onto his face as he waits for the next client—Obstacle: The silence of the moment is broken by a sharp, unrelated mechanical sound from outside."
+    ],
+    "subject_rotations": [
+      "Shifting from the man's appearance to the mirror itself as an object burdened with observation; what does its silvering absorb?",
+      "Focusing on the lingering scent of post-shave water and astringent, treating this chemical residue as a temporary patina over the face.",
+      "Interrogating the *gaze*—not just the man looking at himself, but the mirror 'watching' him through time; is it memory or anticipation?"
+    ],
+    "sensory_details": [
+      "The cool, slick feel of the metal razor handle against the palm.",
+      "The sharp, mineral scent of soap mixed with warm copper from used blades.",
+      "The specific way ambient dust motes hang suspended and visible only in the narrow beam of reflected sunlight."
+    ],
+    "research_questions": [
+      "Are there particular types of antique or common mirrors found in small neighborhood barbershops that possess distinct visual distortions? (This relates to light/reflection mechanics in vernacular objects.)",
+      "What is the specific cultural connotation of a man 'meeting' his own reflection after a ritualistic act like shaving?"
+    ],
+    "structural_variants": [
+      "A highly fragmented poem, where each stanza focuses solely on one part of the reflected image (e.g., jawline, eye socket, collar crease).",
+      "A cyclical structure where the focus starts on the mirror's edge and spirals inward toward the center of the face, only to find the edges encroaching again at the end.",
+      "An inverted progression: beginning with a detailed description of the *result* (the clean line) and then working backward through the process (steam, lather, blade touch)."
+    ],
+    "unused_angles": [
+      "A deep dive into the materiality of shaving implements—the grain of the wooden handle vs. the sharpness of steel.",
+      "Using the mirror to comment obliquely on the fleeting nature of labor itself; does the man look as 'polished' for work as he looks in that moment?"
+    ],
+    "variety_note": "This chapter leans into introspection and arrested motion, contrasting with earlier chapters which focused heavily on kinetic energy (walking, carrying) or static ritual surfaces."
+  }
+}

@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+14
+
+## name
+
+14
+
+## word_target
+
+300
+
+## chapter_title
+
+সপ্তমীর নবপত্রিকা
+
+## chapter_summary
+
+সাতটি গাছের নবপত্রিকায় মায়ের সাত রূপ স্নান করানো হয়, আর প্রকৃতিই হয়ে ওঠে দেবীর প্রথম আবাস।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the seven plants not as diverse offerings but as a single complex biological system supporting the Divine form.
+- Focusing on the *process* of integration: how the inert materials (the plants) become conduits for the living Goddess, rather than just vessels.
+- Inverting the focus from the divine manifestation to the fragility of nature itself—how can this grand, temporary union survive outside its ritual moment?
+
+### story_options
+
+- Setting: A quiet corner near the puja altar at dawn. Desire: To chart the slow diffusion of dew/moisture across the leaves as they meet the earthen structure. Obstacle: The encroaching chill before full sunlight grants the necessary warmth for connection. Turn: A momentary cessation of all ritual sound.
+- Setting: Inside the baskets holding the seven specific flora (the *nabapatrika*). Desire: To feel the interwoven, compressed life force of roots and stems being gathered. Obstacle: The human hand needing to separate them without wounding their collective vitality. Turn: The scent profile shifts from earth/greenness to something unexpectedly metallic.
+- Setting: Following the water used in the ritual bath for the *nabapatrika*. Desire: To trace the symbolic journey of that cleansing liquid, moving from its source (river/well) into the sanctity of the arrangement. Obstacle: The river's impersonal movement contrasting with the highly personal focus of the rite. Turn: A sudden reflection of the sky in a puddle pooling at the base.
+
+### subject_rotations
+
+- Examining the philosophical implications of 'seven': why seven, and what does this number imply about cosmic structure or human completeness?
+- Analyzing the relationship between *nature* (the plants) and *artifice* (the constructed idol)—is the plant a raw material being shaped, or is it an inherent part of the deity's original state?
+- Focusing on the 'burden' carried by the composite nature: how does embodying multiple forces through one collection challenge the singular focus of divinity?
+
+### sensory_details
+
+- Sight: The way morning light fractures across varied leaf surfaces—glossy versus matte, catching different hues.
+- Touch: The difference in texture between smooth bark and fine root fibers bundled together.
+- Smell: The specific dampness of moss clinging to the roots mingling with floral sweetness.
+
+### research_questions
+
+- What are the canonical traditional names or symbolic meanings assigned to each of the seven plants typically used in Bengali Nabapatrika during Durga Puja?
+- Is there an established narrative concerning how the act of bathing/integrating these elements affects the deity's perceived strength (Shakti)?
+
+### structural_variants
+
+- A highly fragmented poem where each line focuses intensely on a single component part of one plant, only to be subsumed by the next segment.
+- Structuring the piece as an ascending hierarchy: starting with the smallest element and building outward until the entire collection forms the 'body' of the Goddess.
+
+### unused_angles
+
+- The socio-economic implication of harvesting these specific plants in the immediate vicinity of the puja grounds.
+- A contemplation on the temporary nature of biological life mirroring the ephemeral quality of the festival itself.
+
+### variety_note
+
+Unlike previous chapters which focus on material creation (clay, color), this chapter pivots inward, treating organic matter as the active intermediary between human ritual and divine presence.

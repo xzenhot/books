@@ -1,0 +1,59 @@
+{
+  "chapter_index": 22,
+  "name": "22",
+  "word_target": 250,
+  "chapter_title": "বানান বদলায়",
+  "chapter_summary": "বানান বদলায়, ডাকনাম বদলায়, আর লেবেলের ভাষা বদলায়। একই খাবারের দুই নামের মাঝখানে দাঁড়িয়ে থাকে একটি অচেনা ভূমি।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Phonetics and Script Drift in Diaspora Languages",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the shift in spelling as a form of self-erasure required for 'entry' into the new geography.",
+      "Framing the phonetic drift—the sound decaying with distance—as an unstoppable natural law, like erosion or tectonic shifting.",
+      "Adopting the perspective of the ink/typewriter mechanism itself, witnessing the failure of accurate transcription across borders."
+    ],
+    "story_options": [
+      "Setting: A faded receipt in a market stall; Desire: To trace the difference between two wildly divergent spellings of 'Simgara' and 'Samosa'; Obstacle: The vendor refuses to clarify, insisting the new spelling is 'final'.",
+      "Setting: Against a backdrop of damp, peeling plaster (the wall lens); Desire: To watch how moisture causes one script form to blur into the other; Obstacle: The blurring seems organic, suggesting inevitability rather than market pressure.",
+      "Setting: In a cluttered, dusty drawer filled with old travel documents and mismatched packaging; Desire: To align fragments of text that represent the two identities; Obstacle: They resist alignment, mocking each other's differing glyphs."
+    ],
+    "subject_rotations": [
+      "Focusing less on the *name* and more on the sound/vibration ('শ্রুতি') as a persistent, unwritten carrier of culture that survives linguistic modification.",
+      "Analyzing the 'letter' (অক্ষর) not as a mark, but as an inherited memory trace—where does the original stroke point lead?",
+      "Treating the name change as a micro-act of colonialism: the foreign market imposes its orthography upon the local artifact."
+    ],
+    "sensory_details": [
+      "The slightly gritty texture of dried dust clinging to the edge of an old, brittle paper label.",
+      "The high, thin *click* sound of a cheap manual stamp apparatus rejecting a non-standard character glyph.",
+      "The visual interference pattern created when printed text is viewed through imperfect, wavy glass."
+    ],
+    "research_questions": [
+      "What specific Bengali orthographic rules are most frequently violated or simplified in rapid translation across linguistic barriers?",
+      "Are there documented instances where the physical act of writing/typing a name (e.g., on customs forms) alters its perceived cultural weight?"
+    ],
+    "structural_variants": [
+      "A deliberate fragmentation mirroring the broken phonetic flow, using abrupt shifts in sentence length to mimic stuttering pronunciation.",
+      "Structuring the poem as two parallel columns: one pristine/rooted (Bengali script focus) and one mutable/external (Latinized or highly simplified script focus), ending in a merge that fails."
+    ],
+    "unused_angles": [
+      "Exploring how non-linguistic actions—like folding the wrapper, which remains consistent regardless of name change—become the primary carriers of identity.",
+      "A deep dive into the materiality of 'dye' or color on packaging, where the hue remains constant even if the printed word beneath changes."
+    ],
+    "variety_note": "Unlike previous chapters that focused on material change (oil/flour), this chapter centers entirely on semiotic decay—how nomenclature itself becomes a point of rupture."
+  },
+  "draft": {
+    "sha256": "7f7f7b0a4398c8866e6305294e37f4d56a3fd2b1fdcf4c480396411f4fd4893f",
+    "written_at": "2026-11-01T08:22:21.700295+00:00",
+    "origin": "write"
+  }
+}

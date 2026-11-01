@@ -1,0 +1,53 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 250,
+  "chapter_title": "প্লাস্টিকের চামচ",
+  "chapter_summary": "প্লাস্টিকের চামচ হাতে মৃত মনে হয়, ধাতুর চামচের ঠান্ডা স্পর্শের অভাব। ছোট এই পার্থক্যই প্রবাসের ভাষা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The 'spoon' as a proxy for absent human touch—not just the metal vs plastic difference, but the inability to convey warmth through the utensil.",
+      "Framing the meal not in terms of taste loss, but in terms of *thermal* memory loss: how the synthetic chill of the object betrays the lost internal heat (আঁচ).",
+      "A satirical confrontation between the durable, cheap plastic and the ephemerality of home-cooked Bengali warmth."
+    ],
+    "story_options": [
+      "Setting: A cramped, brightly lit modern kitchen table; Desire: To feel the weight and reliability of a grandmother's worn steel spoon (metal); Obstacle: The synthetic brittleness of the plastic spoon forces a momentary, sharp confrontation with transient existence.",
+      "Setting: Near a poorly ventilated window overlooking industrial activity; Desire: To use the spoon to scoop up the last fragment of spice-dust from the 'থালা'; Obstacle: The cheapness of the utensil makes this delicate act feel absurd and insufficient.",
+      "Setting: A dimly lit corner during an unexpected evening rainstorm; Desire: To maintain a precise, steady rhythm while eating, using the spoon as a metronome against chaos; Obstacle: The plastic yields too easily to friction, disrupting the sought-after cadence."
+    ],
+    "subject_rotations": [
+      "Treating the utensil itself as a micro-landscape of consumer globalization, where the 'plastic' represents enforced homogeneity replacing regionality.",
+      "Exploring the semantic weight of 'চামচ': Is it merely an eating tool, or is it the modern substitute for shared community/hand gestures?",
+      "A focus on the *sound* produced by the plastic scraping against the cheap ceramic dish—a grating sound as a stand-in for cultural dissonance."
+    ],
+    "sensory_details": [
+      "The high, thin squeak of the spoon catching dry residue in the synthetic polymer.",
+      "The visual distortion caused when overhead fluorescent light reflects unevenly off the plastic surface during the transition from day to night.",
+      "The sterile, slightly medicinal odor that clings to new, mass-produced utensils."
+    ],
+    "research_questions": [
+      "What are specific Bengali terms or idioms that describe a feeling of profound, yet quiet, sensory insufficiency?",
+      "Can the diction mimic the clipped, functional nature of modern commercial language while maintaining poetic depth?"
+    ],
+    "structural_variants": [
+      "A rapid-fire sequence contrasting images: Metal (warmth/weight) $\rightarrow$ Plastic (lightness/cold) $\rightarrow$ Memory (heat/savor) in three tightly structured stanzas.",
+      "Starting with a dense metaphor of the spoon, and having it 'dissolve' physically into the surrounding environment by the end."
+    ],
+    "unused_angles": [
+      "A full narrative treatment of one specific border crossing event where the utensil was symbolically exchanged or lost.",
+      "An extended meditation on food preservation methods used in the homeland vs. modern refrigeration techniques abroad."
+    ],
+    "variety_note": "This chapter deliberately focuses solely on the immediate, tactile dissonance of a single object (the spoon) to contrast with previous chapters that focused on broader culinary states or geographical transitions."
+  },
+  "draft": {
+    "sha256": "95ee4ab8888d98c27dba5e342fff8cf982d9ef71b3f07097afcdfecafc1e3863",
+    "written_at": "2026-11-01T08:21:55.122229+00:00",
+    "origin": "write"
+  }
+}

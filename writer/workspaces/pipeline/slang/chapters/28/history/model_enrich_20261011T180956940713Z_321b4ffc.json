@@ -1,0 +1,40 @@
+{
+  "chapter_index": 28,
+  "name": "28",
+  "word_target": 500,
+  "chapter_title": "পা-চাটা",
+  "chapter_summary": "Chapter 28, \"পা-চাটা,\" delves into the corrosive nature of sycophancy within the political landscape, vividly portraying the act of flattery and subservience—the 'পা চাটা' (literally, foot-licking). The central conflict arises from the moral decay inherent in the court where flatterers, the 'চাটুকার,' actively undermine genuine leadership through insincere praise and servile admiration. Imagery of hollow praise and bent backs dominates the scene, illustrating a society where genuine merit is suffocated by insincere adoration. The chapter leaves the reader questioning the true cost of political maneuvering: can authentic leadership survive when the foundations of power are built solely upon the veneer of insincere flattery?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "নেতা",
+      "role": "নেতা"
+    },
+    {
+      "id": "c2",
+      "name": "চাটুকার",
+      "role": "নেতার তোষামোদকারী"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "ঐতিহাসিক প্রেক্ষাপটে চাটুকারিতার চিত্রটি তৎকালীন রাজনীতির সূক্ষ্মতা তুলে ধরে।",
+    "human_in_the_loop": "নেতার প্রতি অন্ধ আনুগত্য প্রদর্শনকারী চরিত্রটি মানব সম্পর্কের দুর্বলতা ফুটিয়ে তোলে।",
+    "influence_of_other_works": "এই অধ্যায়টি লোকপ্রবাদ এবং বাগ্মিতার মাধ্যমে পূর্ববর্তী সাহিত্যিক ধারার প্রতিধ্বনি বহন করে।",
+    "cultural_relevance": "পা চাটার সংস্কৃতি সমাজের একটি পরিচিত এবং সমালোচিত দিককে তুলে ধরে।",
+    "literary_style": "গদ্যে তীক্ষ্ণ ব্যঙ্গ এবং লোকজীবনের বাস্তবতার মিশ্রণ ঘটেছে।",
+    "narrative_techniques": "চরিত্রের অভ্যন্তরীণ দ্বন্দ্ব এবং বাহ্যিক পরিস্থিতির মাধ্যমে কাহিনি এগিয়ে চলে।",
+    "symbolism_and_motifs": "মেরুদণ্ডহীন তোষামোদ এখানে দুর্বল নৈতিকতার প্রতীক হিসেবে কাজ করে।",
+    "reader_engagement_strategies": "পাঠককে সমাজের এই নেতিবাচক প্রবণতার প্রতি গভীরভাবে চিন্তা করতে বাধ্য করা হয়।",
+    "ethical_considerations": "তোষামোদ এবং ক্ষমতার অপব্যবহারের নৈতিক প্রশ্নটি উত্থাপিত হয়েছে।",
+    "potential_controversies": "রাজনৈতিক চাটুকারিতার चित्रण কিছু রক্ষণশীল পাঠকের কাছে বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "চরিত্রের মাধ্যমে সমাজের বিভিন্ন স্তরের মানুষের রাজনৈতিক আচরণ চিত্রিত হয়েছে।",
+    "marketing_and_promotion": "এই অধ্যায়ের তীব্র সামাজিক সমালোচনা পাঠক মহলে আলোচনার জন্ম দেবে।",
+    "significance_of_rise_of_bengal": "রাজনৈতিক আনুগত্যের এই দৃশ্যপট বাংলার সামাজিক কাঠামোর পরিবর্তনের ইঙ্গিত দেয়।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

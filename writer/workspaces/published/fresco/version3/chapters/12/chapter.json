@@ -1,0 +1,79 @@
+{
+  "chapter_index": 12,
+  "name": "12",
+  "word_target": 110,
+  "chapter_title": "The King's Security, the Merchant's Tax",
+  "chapter_summary": "The gist's old bargain becomes a figure: the king sold safety to the merchant, the merchant paid tax, and the painter, beneath them both, paid in unseen nights for a beauty neither would witness.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Historical taxation structures in Rajputana states",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Feudal obligations between ruling classes and mercantile guilds of the 19th century India",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Reframing the 'bargain' not as a political transaction, but as an ontological exchange: how security and art are both forms of borrowed time.",
+      "Focusing on the bureaucratic language used by tax collectors—rigid, impersonal legalism contrasted against the organic fluidity of the paint brush.",
+      "Presenting the King/Taxman as external forces whose *sound* (the clip-clop of horses, the rustle of ledgers) is more oppressive than their physical presence."
+    ],
+    "story_options": [
+      "setting: A high vantage point on the haveli parapet overlooking a fortified gate, desire: The painter desires to see the moment the King's guard shifts watch, offering a fleeting view of imposed order., obstacle: The heavy, pervasive dust kicked up by patrols obscures any clear view of authority., turn: The repetitive action of watching the changing light over fortifications mirrors the rhythmic application of pigment.",
+      "setting: The narrow alleyway connecting two fortified trading posts, desire: The painter seeks to hear a conversation detailing tax rates or security contracts, hoping for a tangible metric of his invisibility., obstacle: The sounds are muffled by the density of woven rugs and closed merchant doors., turn: A forgotten ledger book, left open near a water source, offers fragmented figures that suggest hidden debt.",
+      "setting: Within the scaffolding itself, adjacent to a structural beam, desire: The painter longs for a direct acknowledgment of his existence from any patrolling official or wealthy owner., obstacle: A specific piece of iron hardware supporting the scaffold rusts and flakes under his hand., turn: He begins using that single, repetitive gesture—brushing dust away from an old coin found near the base—as a silent commentary on transactional value."
+    ],
+    "subject_rotations": [
+      "Treating Royal authority not as benevolent protection, but as a heavy, inert weight pressing down on the city's potential.",
+      "Viewing taxation/security payments as an abstract form of patronage—a payment made in abstraction rather than in visible light or color.",
+      "Focusing solely on how different classes *perceive* time: the King’s timeline based on patrols, the Merchant’s timeline based on seasons/deliveries, and the Painter's immediate, suspended night."
+    ],
+    "sensory_details": [
+      "The metallic taste of dust saturated with smoke from distant cooking fires.",
+      "The precise, high-pitched whistle sound used by guards to signal changes in watch rotations across the city walls.",
+      "The coarse, stiff feel of an unused ledger page pressed against the palm during a break."
+    ],
+    "research_questions": [
+      "What was the typical relationship between municipal security forces and local trade guilds in Shekhawati at that time?",
+      "How did concepts like 'risk premium' or 'guaranteed transit' manifest culturally within merchant contracts of the period?"
+    ],
+    "structural_variants": [
+      "A catalogue-like section detailing the various forms of levies (salt tax, passage fees, etc.) as if they were pigment codes.",
+      "The poem structured around three intersecting soundscapes: the low murmur of finance, the sharp commands of military authority, and the painter's internal breathing rhythm."
+    ],
+    "unused_angles": [
+      "Exploring the specific cost of importing non-local materials (pigments/stone) as a form of collateral against debt.",
+      "A moment where the political tension forces a physical confrontation between different strata represented by shadows on the wall."
+    ],
+    "variety_note": "While neighbours explore memory or finished praise, this chapter grounds the artistic act in external economic and power structures, treating societal constraints as visible pressures."
+  },
+  "draft": {
+    "sha256": "2be09398997e5b310ec5f6e93340462c4c97131edaf67fb19f65f386670e322c",
+    "written_at": "2026-10-09T22:13:01.049454+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "2be09398997e5b310ec5f6e93340462c4c97131edaf67fb19f65f386670e322c",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-09T22:14:15+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "chapter_index": 48,
+  "name": "48",
+  "word_target": 500,
+  "chapter_title": "The Crowd at the Water Tap",
+  "chapter_summary": "People gather with pots at a common water tap, and the poem regards the small shared queue where the neighbourhood meets over a basic need.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Shifting from viewing the queue as a display of community cohesion to seeing it as a geography of subtle social stratification based on pot size or distance from the tap.",
+      "Focusing intently on the weight and texture of the different vessels (earthenware, metal, plastic) and how those objects dictate posture during the wait.",
+      "Framing the waiting not around need, but around the ritual performance—the self-presentation before an entire neighborhood body at this singular point."
+    ],
+    "story_options": [
+      "Setting: The sunlit stone apron surrounding the public tap; desire: To observe a specific gesture of kinship between two women sharing water, obstacle: A sudden moment of sharp, unplanned silence breaks their exchange, turn: The speaker notices how quickly they re-establish their shared rhythm.",
+      "Setting: Dusk near the communal well/tap area; desire: To track the contrast between the harsh metallic sheen of the tap mechanism and the muted colors of the gathered domestic vessels, obstacle: A family arrives late in the day after a long journey, turn: Their presence momentarily alters the established order of patience.",
+      "Setting: Just before dawn when the first few people arrive; desire: To focus on the profound isolation felt by the very first person drawing water, obstacle: The sound of their labor is only answered by the distant, pre-dawn traffic noise, turn: They briefly look up towards the lightening sky instead of the tap."
+    ],
+    "subject_rotations": [
+      "Treating the flow of water itself as a narrative thread—its pressure, its temperature, its speed relative to the surrounding human inertia.",
+      "Examining the pots not just as containers for sustenance but as artifacts carrying memory or lineage within the family units they represent.",
+      "The tap mechanism itself as the protagonist: its mechanical sounds and necessary endurance juxtaposed against fragile human expectation."
+    ],
+    "sensory_details": [
+      "Auditory: The rhythmic, wet *clank* of a heavy metal ladle striking a ceramic pot while drawing water.",
+      "Tactile: The surprising coolness or residual warmth transferred from the brass tap fixture to the skin of waiting hands.",
+      "Visual: The momentary distortion of light across the surface tension of disturbed water droplets clinging to a hanging cloth."
+    ],
+    "research_questions": [
+      "How do local variations in the design or material of traditional household water vessels reflect different regional social or economic statuses?"
+    ],
+    "structural_variants": [
+      "A poem structured around cycles: draw -> wait -> refill -> pause, mirroring the ebb and flow of service at the tap.",
+      "An invocation/response form, where the speaker presents an observation about the queue's order (invocation), followed by a sudden counter-image showing human disorder beneath that surface (response)."
+    ],
+    "unused_angles": [
+      "The specific sounds made by children playing nearby—a contrasting soundscape to the serious work of gathering water.",
+      "A microscopic focus on dust motes suspended in the spray mist rising from the immediate area around the tap."
+    ],
+    "variety_note": "While other poems ground themselves in static objects, this chapter emphasizes a kinetic event: the sustained, shared action of drawing and waiting for a necessary resource."
+  }
+}

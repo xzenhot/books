@@ -1,0 +1,92 @@
+{
+  "total_chapters": 10,
+  "completed_chapters": 0,
+  "current_chapter": 1,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider":"ollama",
+  "book_name": "fresco",
+  "form": "poetry",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "Chapter 1",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "Chapter 2",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "Chapter 3",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/3/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "Chapter 4",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/4/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "Chapter 5",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/5/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "Chapter 6",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/6/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "Chapter 7",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/7/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "Chapter 8",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/8/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "Chapter 9",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/9/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "Chapter 10",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/10/chapter.md",
+      "completed_date": null
+    }
+  ]
+}

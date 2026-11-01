@@ -1,0 +1,54 @@
+{
+  "chapter_index": 49,
+  "name": "49",
+  "word_target": 250,
+  "chapter_title": "চেনা গন্ধে চোখ ভিজে যায়",
+  "chapter_summary": "চেনা গন্ধে চোখ ভিজে যায়, আর হাত নিজে থেকেই ময়দা ধরতে চায়। ঘর কখনও ঠিকানা বদলায় না, শুধু অভ্যর্থনা বদলায়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on how a specific domestic scent (e.g., ghee mixed with coriander) acts as a localized temporal anchor, momentarily suspending the modernity of the new address.",
+      "Adopting the persona of the 'smell' itself—a fugitive entity traversing borders and houses, mourning the loss of its originating source.",
+      "Treating the memory-trigger scent not just as nostalgia, but as an unexpected, disruptive chemical agent that forces an immediate, visceral confrontation with self."
+    ],
+    "story_options": [
+      "Setting: A contemporary, unfamiliar hallway; Desire: To recognize the specific, familiar aroma clinging to a coat left behind by a relative, obstacle: the new wallpaper stubbornly masking true scents.",
+      "Setting: The cold metal of an urban balcony railing at dusk; Desire: For the first faint trace of smoke from the old Bengali cooking fire carried on the wind, obstacle: the prevailing, foreign industrial exhaust.",
+      "Setting: An unfamiliar spice rack in a market stall; Desire: To find one single jar whose dried powder—perhaps cumin or fenugreek—retains a ghostly echo of its ancestral preparation method, obstacle: the standardization and commercial dilution of ingredients."
+    ],
+    "subject_rotations": [
+      "Examining how the act of 'recognizing' a scent paradoxically proves that nothing is fully recognized; the familiar smell becomes slightly askew.",
+      "Shifting focus from the food (Samosa/Singara) to the raw components—the specific way the flour absorbs oil, making it an allegory for cultural absorption versus preservation.",
+      "Treating memory not as a treasure chest but as a leaky container: how strong sensory input allows glimpses of the past while simultaneously revealing its inevitable decay."
+    ],
+    "sensory_details": [
+      "The specific granular texture felt on the tongue when tasting residual, faint oil residue from years-old memory.",
+      "The high, thin, almost inaudible hum of a modern refrigerator motor contrasting with the deep, organic crackle of ancient cooking fats.",
+      "The visual dissonance between the harsh glare of fluorescent kitchen lighting and the remembered soft amber glow of an old gas lamp."
+    ],
+    "research_questions": [
+      "How might Bengali poetic diction articulate the sensation of a highly specific, layered scent profile fading into a generalized, unidentifiable 'memory smell'?",
+      "What rhetorical strategies can be employed to maintain the unity of narrative focus (the single thread/sound) while traversing disparate physical locations?"
+    ],
+    "structural_variants": [
+      "An anapestic cascade structure emphasizing breathless recognition and emotional overflow.",
+      "A fractured, stanzaic form where key sensory words appear isolated in their own short lines before the main narrative reassembles them."
+    ],
+    "unused_angles": [
+      "The role of silence after a strong scent memory fades—the vacuum left by absolute recall.",
+      "Interrogating whether one can 're-learn' an aroma; is it a learned skill or an innate biological imprint?",
+      "Using the sound of domestic life (e.g., rhythmic chopping, boiling) as a counterpoint to the silent olfactory intrusion."
+    ],
+    "variety_note": "Unlike the focus on physical transition in preceding chapters, this piece roots itself entirely in a singular, persistent sensory moment: scent, using it as the tether between geography and psyche."
+  },
+  "draft": {
+    "sha256": "0cf2199011a3bcc9de59291ea7b6961eea17dede61e6717375c6adacd8148a47",
+    "written_at": "2026-11-01T08:28:01.124184+00:00",
+    "origin": "write"
+  }
+}

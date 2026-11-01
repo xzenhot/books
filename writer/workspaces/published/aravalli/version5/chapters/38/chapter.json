@@ -1,0 +1,28 @@
+{
+  "chapter_index": 38,
+  "name": "38",
+  "word_target": 500,
+  "chapter_title": "ষোলো রাজ্যের ধুলি",
+  "chapter_summary": "ষোড়শ মহাজনপদের ধুলি — প্রাচীন ভারতের রাজ্যগুলোর মানচিত্র পাহাড়ের পাদদেশে ছড়িয়ে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "8d90ecff038f3d460c4fce686ded10d28da5fe90428c52622f5b3cab62180c7e",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

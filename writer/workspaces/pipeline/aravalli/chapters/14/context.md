@@ -1,0 +1,78 @@
+# Chapter model context
+
+## chapter_index
+
+14
+
+## name
+
+14
+
+## word_target
+
+500
+
+## chapter_title
+
+ভারী ধাতুর নিঃশব্দ ঘুম
+
+## chapter_summary
+
+জাওয়ার খনির দস্তা ও সীসা — পাহাড়ের গভীরে চাপা পড়ে থাকা ভারী ও নিঃশব্দ ধাতু।
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the heavy metals not as inert geological features, but as slow, pressurized memories—dense emotional weight held captive by crystal lattices.
+- Framing 'silence' (নিঃশব্দ) as a form of crushing, deafening pressure that pre-dates sound; the mountain holding back an overwhelming roar.
+- Contrasting the density and darkness of lead/zinc with Sagorika's own internal shadow moments or submerged vulnerabilities.
+
+### story_options
+
+- Setting: The lowest accessible point of the ore seam, smelling of stagnant water and decay; Desire: To find a vein where the metal has achieved perfect crystalline silence—absolute stillness before rupture; Obstacle: A localized pocket of toxic gas; Turn: Sagorika momentarily merges with the metallic sheen.
+- Setting: An ancient, unused mining shaft, choked with fine dust; Desire: To feel the immense gravitational pull of the accumulated weight above; Obstacle: The slow collapse of an overburdened support structure; Turn: The falling rock is not destructive, but merely redistributes layers of forgotten time.
+- Setting: A subterranean chamber where water slowly weeps down walls saturated with dissolved heavy metals; Desire: To observe a single drop forming and hanging suspended in the metallic gloom; Obstacle: The pervasive sense of geological exhaustion that resists definition; Turn: The drop dissolves into an image, not a reflection.
+
+### subject_rotations
+
+- Focusing on density as moral weight: How does the sheer mass of lead represent ethical inertia or historical burden?
+- Examining entropy at a macro scale: Instead of focusing on change (like erosion), focus on the profound *resistance* to change offered by dense, stable minerals.
+- Treating the heavy metal itself as an alchemical trap—a beautiful containment field for chaotic energetic pressures.
+
+### sensory_details
+
+- Olfactory: The specific, dry odor of pulverized metallic dust mixed with cool, subterranean dampness.
+- Tactile: The unnerving slick coldness of a vein face that has been perpetually coated by mineralized condensation.
+- Auditory (negative): A total lack of high-frequency sound; the absence of reverberation in deep spaces.
+
+### research_questions
+
+- What are Bengali literary tropes for describing immense, inert gravitational pressure on a human or organic subject?
+- Are there geological descriptions that connect the density of sulfide ores to ancient concepts of 'weight' or existential burden?
+
+### structural_variants
+
+- A piece structured entirely around negative space and implied sound, using pauses (white space) to mimic geologic voids.
+- Employing a highly restrictive vocabulary—only words describing weight, darkness, viscosity, and stillness.
+
+### unused_angles
+
+- The contrast between the invisible threat of heavy metal poisoning versus the sublime beauty of its formation.
+- A meditation on how geological 'drowsiness' mirrors human apathy or deep unconscious states.
+
+### variety_note
+
+This chapter focuses intensely on mass, density, and inertia—a stark counterpoint to the energetic upheavals (fire/explosion) detailed in neighbouring chapters. The emphasis is on suffocating stillness rather than kinetic action.

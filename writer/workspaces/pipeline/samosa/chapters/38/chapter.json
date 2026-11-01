@@ -1,0 +1,54 @@
+{
+  "chapter_index": 38,
+  "name": "38",
+  "word_target": 250,
+  "chapter_title": "জিভের বিভ্রান্তি",
+  "chapter_summary": "জিভ একইসঙ্গে চেনা স্বাদ খোঁজে আর অচেনা স্বাদ গ্রহণ করে। এই বিভ্রান্তিই প্রবাসের জিভের স্বাভাবিক অবস্থা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the tongue as a porous membrane—a flawed receptor unable to differentiate between spectral echoes of the past and harsh realities of the present.",
+      "Treating the act of tasting itself as a small, silent rebellion against imposed foreign nomenclature and expectation.",
+      "A psychological dive where 'confusion' is recast not as error, but as the inherent state of perpetual longing—a necessary disharmony."
+    ],
+    "story_options": [
+      "setting: একটি কাঠের টেবিল, যা বাজারের কোলাহল থেকে বিচ্ছিন্ন, desire: সেই সুনির্দিষ্ট গন্ধটি পাকড়াও করা যা জিভের গভীরে কোথাও আটকে আছে, obstacle: নতুন মশলার তীব্র আগ্রাসন এবং অপ্রত্যাশিত মিশ্রণ, turn: জিভ আবিষ্কার করে যে এটি আর 'স্বাদ' গ্রহণ করছে না, কেবল একটি সংকেত পাঠাচ্ছে।",
+      "setting: একটি পুরনো পাত্রের পাশে রাখা আধুনিক প্লাস্টিকের চামচ, desire: অতীতে কোনো এক রান্নার আদিম ছোঁয়া অনুভব করা (দিদার হাতের মতো), obstacle: তেল আর লবণের রাসায়নিক মানদণ্ড পাল্টে যাওয়া, turn: জিভ বুঝতে পারে যে এই পার্থক্য কেবল উপকরণে নয়, বরং 'আঁচ'-এর দর্শন বদলে গেছে।",
+      "setting: একটি নিস্তব্ধ সকালের ভোরের আলো যেখানে ছায়াগুলো ঝাপসা, desire: সেই আলুর পুরের কোমলতার স্মৃতিকে অক্ষত রাখা, obstacle: ভাজা খোলসের অতিরিক্ত কর্কশতা যা স্মৃতির নরমতাকে ছিঁড়ে ফেলে, turn: জিভের বিভ্রান্তি এক ধরণের নীরব প্রতিরোধে পরিণত হয়, যেখানে তা নিজেকে স্বীকার করে নেয়।"
+    ],
+    "subject_rotations": [
+      "Shifting the focus entirely to the *mouth*—not as a tool for savoring, but as a geopolitical borderland where two culinary maps meet and clash.",
+      "Treating 'confusion' (*বিভ্রান্তি*) not as psychological failure, but as an active form of dialectic struggle: how memory fights against present sensation.",
+      "Focusing on the specific tactile experience of friction—the interplay between the crispness of the *খোলস* and the uncertainty of the filling."
+    ],
+    "sensory_details": [
+      "The high-frequency, brittle sound (*khrinkhle*) made by the slightly over-baked exterior when it meets the tongue.",
+      "A momentary phantom scent—a precise aroma that vanishes immediately upon being consciously sought or named.",
+      "The granular sensation of an unfamiliar salt crystal against the softer starch, creating a dual-textured assault."
+    ],
+    "research_questions": [
+      "In Bengali culinary poetry, what are comparable metaphors for a 'misaligned taste' or a 'false beginning' that avoids direct psychological description?",
+      "How can I integrate the vocabulary of sensory overload (too many inputs) while maintaining the required high-register diction?"
+    ],
+    "structural_variants": [
+      "Beginning with an intense, almost violent gustatory sensation, and slowing down to minute descriptions of residual tingling.",
+      "A structure where every line starts by negating a known quality ('Not this taste...', 'Never like that...') before presenting the next fractured sensory input."
+    ],
+    "unused_angles": [
+      "The relationship between language distortion (Chapter 27) and gustatory distortion—how one affects the other?",
+      "A sustained focus on the migratory nature of the spice itself, as if it travels with the migrant.",
+      "Using the internal chemical reaction in the mouth as a metaphor for cultural assimilation/rejection."
+    ],
+    "variety_note": "Unlike previous chapters which examined static objects (cold, sealed), this chapter is dynamic; it focuses on the moment of active cognitive dissonance occurring within consumption itself."
+  },
+  "draft": {
+    "sha256": "524ec1b4c6d00ea8aa0f75effb3d5a38e2eaac6d4fe6d943529adc468a764b8f",
+    "written_at": "2026-11-01T08:25:38.390474+00:00",
+    "origin": "write"
+  }
+}

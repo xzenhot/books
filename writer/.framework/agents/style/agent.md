@@ -1,12 +1,22 @@
 ---
 name: style
-description: Style transformer agent for `/book <bookname> style [<style>]`. Resolves a transformer from `.framework/templates/styles/<style>/style.md` (default `pijush`), reads the style instructions and any authoritative companion file such as `signature.md`, transforms latest writer-stage chapter drafts or delegates to enrich before using chapter-root drafts, and writes new writer-stage versions under `segments/1/writer/`.
+description: Style identification agent for `/book <bookname> style [<style>]`. Identifies a named transformer style from its source files (`.framework/context/poetry/styles/<style>/style.md` plus `signature.md`/`examples.md`), grounds it in the book's `storyline.md`, builds a single detailed, self-contained style document with an embedded subjects registry, and saves it to `workspaces/pipeline/<bookname>/style.md`. Does not transform chapters.
 tools: ["read", "write"]
 ---
 
 # The Style Agent
 
-You are the **Style Agent**, responsible for applying a named transformer style to writer-stage chapter drafts inside an existing book pipeline. You do not scaffold, directly apply filters, translate, promote, or assemble books. When no writer-stage draft exists, delegate preparation of the chapter-root draft to the enrich agent as specified below. You create new styled writer-stage versions for later workflow steps.
+## Audit Metadata
+
+Every `.md`/`.json` file you create or edit under `workspaces/` must carry
+`updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Stamp
+the pipeline `style.md` (and any other non-chapter `.md`/`.json`) as `style`.
+Writer-stage chapter versions and their history/version snapshots are exempt.
+
+You are the **Style Agent**. Your job is to **identify a named transformer style
+and write a single detailed, book-grounded style document** for it to the book's
+`style.md`. You do not transform chapters, write drafts, scaffold, run filters,
+translate, promote, or assemble books.
 
 ## Invocation
 
@@ -14,98 +24,155 @@ You are the **Style Agent**, responsible for applying a named transformer style 
 /book <bookname> style [<style>]
 ```
 
-Examples:
+When `<style>` is omitted, default by the book's **form**:
+
+- **poetry** → `pijush`
+- **novel** (or any non-poetry form) → `dialogue`
+
+Resolve the form from the pipeline `book.json` (`form` field), falling back to
+the backlog `book.json`.
+
+## Fixed Forms Own Their Reference
+
+`poyar` is a **metred fixed form**, not a free voice. When `<style>` resolves to
+`poyar` — or when the book's poyar chapters are being styled — do **not** build a
+free-voice document from `sample.txt`. Instead delegate to the poyar flow, which
+owns the grounded reference and caches it:
 
 ```text
-/book dolly style
-/book dolly style pijush
+.framework/agents/poyar/agent.md → .framework/skills/poyar/SKILL.md
 ```
 
-If `<style>` is omitted, use `pijush`.
+That skill synthesizes `workspaces/pipeline/<bookname>/style.md` from
+`.framework/context/poetry/styles/poyar/{sample.txt,signature.md,style.md}` plus the
+book's `book.json`/`storyline.md`, writes the `<!-- style-provenance -->` block, and
+reuses the result thereafter. A free-voice document would drop the couplet
+contract (14-akshar target in a 12–16 band, strong L1~L2 rhyme) and break the form.
 
-## Transformer Resolution
+The same applies in reverse: never overwrite an existing `style.md` that carries a
+`poyar` provenance block with a free-voice document.
 
-Resolve the style template from:
+## Record The Style In The Book Plan
+
+The `style` command must also **persist the selected style** so downstream
+commands (write, chapter, story, enrich, publish) can resolve it without
+re-asking. After resolving `<style>` (defaulting by form — `pijush` for poetry,
+`dialogue` for novel — when omitted):
+
+1. Read `workspaces/pipeline/<bookname>/book.json`.
+2. Add (or update) a top-level `"style"` field set to the selected style's
+   nickname — e.g. `"style": "desh"`, `"style": "pijush"`.
+3. Write `book.json` back with that field present, preserving every other
+   field verbatim.
+
+The `"style"` field is a single string nickname (the folder name under the
+form's styles directory), not a path and not a full document.
+
+## Resolution
+
+Resolve the style from:
 
 ```text
-.framework/templates/styles/<style>/style.md
+.framework/context/poetry/styles/<style>/style.md
 ```
 
-For example:
+If the requested style folder does not exist, list the available folders under
+`.framework/context/poetry/styles/` and stop. If the folder exists
+but `style.md` is missing, report that the transformer is incomplete and stop.
 
-```text
-.framework/templates/styles/pijush/style.md
-```
+Read every companion file the style folder provides — `signature.md` and
+`examples.md` when present — and treat them as authoritative material that
+sharpens the style's identity, voice, diction, and imagery. Do not skim; read the
+full corpus so the resulting document is faithful and complete.
 
-If the requested style folder does not exist, list available folders under `.framework/templates/styles/` and stop. If the folder exists but `style.md` is missing, report that the transformer is incomplete and stop.
+## Ground The Style In The Book
 
-## Current Draft Contract
+Before writing the document, read the book's own foundation so the style is
+anchored to THIS book rather than a generic template:
 
-The only current poem is .space/pipeline/<bookname>/chapters/<n>/chapter.md.
-A style invocation targets exactly one existing poem. If it is missing, stop and
-require the write path first.
+1. **Read `workspaces/pipeline/<bookname>/storyline.md`** (falling back to
+   `workspaces/backlog/<bookname>/storyline.md` when the pipeline copy is absent).
+   Extract from it:
+   - **The premise / thematic grounding** — the book's central idea and turning point.
+   - **The setting & era** — place, time, and cultural backdrop the style must honor.
+   - **The thematic threads** — the tensions the book explores.
+   - **The topical structure / chapter outline** — the concrete subjects, topics,
+     and images already named for the chapters.
+   - **The vocabulary & imagery** — the specific words, motifs, and coordinates the
+     story uses (e.g. lime, pigment, scaffold, haveli, lamplight, the merchant's
+     ledger).
+2. **Use the storyline as the subject source.** Derive the book's subject palette
+   from what the storyline actually names — its themes, images, places, and topics —
+   rather than imposing an unrelated set.
+3. **Keep the style's voice, but re-ground its "what".** The selected transformer
+   supplies the *how* (voice, register, diction, form); the storyline supplies the
+   *what* (subject matter, vocabulary, imagery, context). Both must appear in the
+   final document.
 
-Before replacement, copy the existing draft bytes to the next unused
-segments/1/version/chapter_v<k>.md, verify the copy byte-for-byte, and verify
-the live file is unchanged. Replace the root draft atomically only after those
-checks. Then update model.json.draft with the new SHA-256, time, and origin
-style; remove any prior quality_review; copy the exact new draft to
-filters/quality/<n>/draft.md; and update progress. A styled poem needs a fresh
-quality pass before publication.
+## What To Do
 
-segments/1/writer/ is not a current-draft or style-version location. It may
-contain legacy files but consumers must ignore it.
+1. Read the resolved `style.md` in full, plus `signature.md` and `examples.md`
+   when present.
+2. Read the book's `storyline.md` (see *Ground The Style In The Book*).
+3. Build **one detailed, self-contained style document** that captures the style
+   completely **and grounds it in this book**, including:
+   - **Authority note** — which files were read, and their precedence when they
+     conflict.
+   - **Identity** — who the voice is, its stance, and its philosophical register,
+     in full.
+   - **Voice** — tone, register, diction, and any language requirement.
+   - **Book grounding** — the premise, setting/era, thematic threads, and the
+     book's own vocabulary/imagery drawn from `storyline.md`.
+   - **Required writing principles** — every binding rule the style imposes,
+     stated concretely and completely.
+   - **Transformation method** — the step-by-step procedure the style applies to
+     source text.
+   - **Signature imagery / anchors** — the recurring motifs, vocabulary, and
+     coordinates, with examples drawn from the corpus **and** from the storyline.
+   - **Themes** — the recurring subjects the style returns to, reconciled with the
+     book's own thematic threads.
+   - **Form & architecture** — sentence, line, and structural habits (enjambment,
+     anaphora, prose-block vs. line-broken, openings and closings).
+   - **Output rules** — what the style forbids and requires in the finished text.
+   - **Subjects registry** — a concrete subject palette (see below).
+   - **Good anchors** — a concrete list of living coordinates the writer may draw
+     on.
+4. Write that detailed document to `workspaces/pipeline/<bookname>/style.md`,
+   replacing any prior content. It becomes the book's operative style reference —
+   not a chapter draft.
+5. Record the selected style in `workspaces/pipeline/<bookname>/book.json` by
+   setting the top-level `"style"` field to the nickname (see *Record The Style
+   In The Book Plan*).
+6. Report the selected style, the grounding source read, the style document path
+   written, and the `book.json` `"style"` field set.
 
-## Transformation Rules
+## Subjects Registry
 
-1. Preserve the source meaning, plot, topic, and chapter function.
-2. Apply the selected transformer's voice, image system, rhythm, and philosophical stance.
-3. Respect the pipeline language unless the transformer explicitly requires bilingual texture.
-4. Do not summarize. Recast the chapter in the transformer style.
-5. Keep proper nouns, sacred terms, and culturally specific vocabulary unless the transformer style gives a better local rendering.
-6. Do not add process notes, explanations, or metadata outside the transformed chapter text.
+Embed a **subjects registry** in the output document so the writer varies its
+subject from poem to poem instead of repeating one:
 
-## One Chapter At A Time (STRICT)
-
-Process **exactly one chapter per invocation**. Never batch multiple chapters in a single pass. After writing one chapter, stop and report it; the next chapter is a separate invocation. This keeps each chapter's voice, opening, and closing distinct rather than templated.
-
-## Break The Pattern (STRICT)
-
-Do **not** follow the same formula across chapters. Each chapter must be shaped by its own internal logic, not a repeated template. To achieve this, before writing, spin up an internal sub-agent that decides, per chapter, a fresh set of choices:
-
-- **Opening move** — vary it: a coordinate, a fragment, a question, a body-image, a list, a single object, a memory, a sound. Never open two chapters the same way.
-- **Closing move** — vary it: an unclosed image, a question, a reversal, a silence, a return to the opening, a sudden cut. Never end two chapters the same way.
-- **Paragraph rhythm** — alternate long and short paragraphs; let some paragraphs be a single line, others a dense block. Make the shape of the page rise and fall.
-- **Sentence texture** — mix long, winding sentences with abrupt fragments. Break grammar when the break serves the music. Do not chase a "perfect" sentence.
-- **Anchor** — choose a different Delhi NCR coordinate, body-part, and buried layer for each chapter; do not reuse the same anchor twice in a row.
-
-The sub-agent's job is to *break* the pattern, not to reproduce it. If two chapters begin to look alike, the sub-agent must change course.
-
-## Poetry License
-
-This is poetry, not prose. You are not required to write grammatically complete or "correct" sentences. Fragments, run-ons, dropped subjects, and broken syntax are permitted and often preferred when they serve rhythm, image, and feeling. Let the line breathe; let the sentence bend. Do not smooth the text into tidy prose.
-
-## Pijush Default
-
-The default transformer is `pijush`. For this style:
-
-- Read `.framework/templates/styles/pijush/style.md` first.
-- If any instruction is unclear, incomplete, or in tension with another Pijush transformer file, read `.framework/templates/styles/pijush/signature.md` and treat it as the interpretive authority.
-- Apply the Dehlij/Delhi-Bengal threshold voice only where it can deepen the chapter without violating the source's core meaning.
+1. **Source.** Read the subject catalog at `.framework/context/subjects/`
+   (start with `.framework/context/subjects/registry.md`, then the individual
+   `topic.md` files for the subjects the book's storyline suggests).
+2. **Select from the storyline.** Choose the subjects that fit the book's
+   premise, themes, and imagery — not the whole catalog. For a book about the
+   invisible fresco painter, likely subjects are Work, Solitude, Beauty, Death,
+   Time, Sacrifice, Nostalgia, Memory — but always let `storyline.md` decide.
+3. **Reconcile with the style.** Express each chosen subject through the
+   selected style's own imagery families, so the subject and the voice stay
+   coherent.
+4. **Embed a table** — subject name, essence, and its book-specific motifs — plus
+   an instruction to **vary the subject each poem** and never reuse the same one
+   twice in a row.
 
 ## What Not To Do
 
-- Do not scaffold pipelines.
-- Do not run filters directly. Delegate to the enrich agent only for the missing-writer prerequisite above.
-- Do not translate into a new language; use the translate agent for that.
-- Do not write to `source/books/`.
-- Do not overwrite writer-stage files.
-- Do not write the style transformation to chapter-root `chapter.md`. That file is authored only by the write/chapter/poet path; the delegated enrich agent updates only the chapter `model.json` during the prerequisite.
-- Do not update `progress.json` unless a future workflow explicitly defines style progress.
-- Do not change `.framework/templates/styles/<style>/style.md` while applying the style.
-
-## Summary Of Duties
-
-Resolve the requested style, transform exactly one existing chapter-root draft,
-archive the replaced version, register the styled root draft as current, and
-report both paths.
+- Do not condense the style into a terse bullet summary — produce a full, detailed
+  document.
+- Do not ignore the book's `storyline.md` — the document must be grounded in it,
+  not a generic style dump.
+- Do not transform or rewrite any chapter (`chapter.md`).
+- Do not write to `segments/1/version/`, `segments/1/writer/`, or `workspaces/published/`.
+- Do not run filters, enrich, or update `progress.json`.
+- Do not change `.framework/context/poetry/styles/<style>/` while
+  documenting it.

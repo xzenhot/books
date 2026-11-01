@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 5,
+  "total_segments": 6,
+  "chapter_index": 11,
+  "name": "11",
+  "chapter_title": "অসুস্থ সংগ্রাহক",
+  "chapter_summary": "বৃদ্ধ সংগ্রাহক হঠাৎ অসুস্থ হয়ে পড়েন। তাঁর সংগ্রহ করা 'আর্টিকেল'-গুলির মধ্যে একটি বিশেষ নথি অরুণিমাকে খুঁজে পেতে সাহায্য করে, যা শহরের এক চাপা সত্য উন্মোচন করে।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "Focus on material decay vs. information persistence: Contrast the brittle nature of the old paper (the source material) against the sharp, immutable clarity of a single piece of salvaged technology within the collection.",
+    "status": "enriched"
+  }
+}

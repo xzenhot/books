@@ -1,0 +1,83 @@
+# Chapter model context
+
+## chapter_index
+
+1
+
+## name
+
+1
+
+## word_target
+
+300
+
+## chapter_title
+
+মহালয়ার প্রথম ভোর
+
+## chapter_summary
+
+মহালয়ার শুভ ভোরে অন্ধকার ভেদ করে প্রথম আলো, আর সেই আলোয় মায়ের আগমনের প্রথম বার্তা পৌঁছে যায়।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the dawn not as a transition to light, but as a momentary holding of pre-arrival emptiness.
+- Centering the initial silence *before* any sound (pre-Dhak), using only internal human reception.
+- Viewing the first light through the eyes of an aged artisan contemplating his seasonal labor.
+
+### story_options
+
+- Setting: A dimly lit, ancestral veranda. Desire: The faint echo of a promised ritual. Obstacle: Overwhelming dew/mist. Turn: A single, hesitant crackle of distant morning fire.
+- Setting: A rooftop overlooking the nascent city haze. Desire: Clarity on the coming presence. Obstacle: Heavy inertia of routine sleep. Turn: The sudden awareness of an ancient familial prayer being recited nearby.
+- Setting: Inside a sleeping household shrine room. Desire: Confirmation that the tradition remains pure. Obstacle: Doubt creeping in from modern noises outside. Turn: A specific, cold breath drawn by a devoted figure.
+
+### subject_rotations
+
+- Focusing purely on astronomical/temporal transition (the shift of morning star visibility) rather than cultural reception.
+- Treating the 'light' as an intrusive spiritual presence rather than merely illumination.
+- Examining the relationship between primordial cosmic darkness and anticipated divine emergence.
+
+### sensory_details
+
+- Smell: The sharp, cold scent of undisturbed morning earth before human movement touches it.
+- Sound: The microscopic sound of condensation dripping from thatch or eaves.
+- Touch: The chill in the bones felt even indoors as the last vestiges of night cling to shadows.
+
+### research_questions
+
+- What specific traditional pre-dawn calls (besides known 'Agomoni' songs) might have been employed during this precise historical period?
+- How is the quality of light described in classical Bengali poetry when denoting a purely spiritual arrival versus a physical sunrise?
+
+### structural_variants
+
+- A fragmented structure, where each line represents a momentary flicker of perception.
+- A sustained anaphora built around the word for 'waiting' or 'unfolding'.
+- A very sparse poem employing extreme white space to mirror the emptiness before arrival.
+
+### unused_angles
+
+- The contrast between personal hope and communal obligation in awaiting divinity.
+- The material remnants of last year's celebration juxtaposed against this fresh, nascent light.
+- A focus on specific architectural elements catching the first oblique rays (e.g., temple stone).
+
+### variety_note
+
+This chapter focuses tightly on the absolute quiet and atmospheric prelude to the festival, contrasting sharply with 'Agomoni's tune' in Chapter 4 by lingering in silence.

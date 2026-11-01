@@ -1,0 +1,56 @@
+{
+  "chapter_index": 33,
+  "name": "33",
+  "word_target": 200,
+  "chapter_title": "The Marwari Merchants",
+  "chapter_summary": "The merchants who built the havelis return as ghosts, and the poem listens for their footsteps in the stone.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on a single object of immense mercantile wealth—a specific type of ledger or jewel—and exploring how its sheer, dry materiality contrasts with the wetness required for fresco.",
+      "Framing the merchants not as powerful beings, but as intricately patterned figures in faded mural fragments—their life depicted through their surviving, arrested poses on a wall.",
+      "The merchant's signature/mark (a seal impression or unique calligraphic flourish) being examined by Debolina as if it were a forgotten pigment formula."
+    ],
+    "story_options": [
+      "Setting: The heavy, closed inner chamber of a mansion, Desire: To trace the shadow cast by an unused merchant's ceremonial staff against the lime-plastered wall; Obstacle: The profound silence where the sound of counting coins should be.",
+      "Setting: A high window overlooking a deserted main courtyard at midday, Desire: To map the ghost trails of men moving between rooms through the angle and length of light; Obstacle: The unrelenting glare that burns away definition like dry sand against wet paint.",
+      "Setting: Near an alcove where a portrait of a merchant's ancestor might have hung, Desire: To intuit the texture of their silk garments based on the faint ghosting they left on surrounding plasterwork; Obstacle: The inability to distinguish between fading pigments and mere surface dirt."
+    ],
+    "subject_rotations": [
+      "Treating the accumulation of wealth not as financial power, but as a geological force—the weight of years pressing down until it cracks the foundation or stains the wall.",
+      "Shifting focus entirely to the *absence* left by the merchants; their absence creating voids on the frescoes that Debolina must fill with her own 'invisible struggle'.",
+      "Examining the mechanics of the merchant's life—the precise, repetitive motions of trade—as a form of non-artistic pattern work, contrasting it sharply with artistic gesture."
+    ],
+    "sensory_details": [
+      "The dry, almost brittle scent of old account books mingling briefly with the damp smell of fresh lime.",
+      "The sharp, metallic tang left on the tongue from inhaling dust motes disturbed from ancient merchant seals.",
+      "The specific weight and texture difference between a heavy brass inkwell (found nearby) and the lightness of ground lapis."
+    ],
+    "research_questions": [
+      "What are common forms of symbolic representation—besides human figures—used in Shekhawati haveli frescoes to denote prosperity or lineage?",
+      "How was time perceived by these merchants; was it measured linearly (ledger) or cyclically (seasons/trade routes)?",
+      "Is there a localized folklore regarding the spirits of those who passed away while engaged in complex, detailed labor like accounting?"
+    ],
+    "structural_variants": [
+      "A structure mimicking an inventory list—each stanza detailing a commodity and its corresponding spectral presence.",
+      "A poem that moves strictly from the most tangible objects (spices, gold) to the most intangible (debt, reputation), and back again.",
+      "An epistolary fragment addressed to a merchant who never truly existed, built entirely around his assumed virtues."
+    ],
+    "unused_angles": [
+      "The mechanical precision required for high-level ledger work versus the chaotic improvisation of artistic creation.",
+      "Debolina projecting her own anxieties about debt or obligation onto the silent figures on the walls.",
+      "A sustained focus on one specific, unchanging detail—a single geometric border pattern used across all merchant chambers."
+    ],
+    "variety_note": "Where preceding chapters focused on Debolina's sensory input (musk, lime) or her internal state, this chapter turns outward to analyze the external presence of established power structures through the architecture they commissioned."
+  },
+  "draft": {
+    "sha256": "f1a3decee39d3688cbfde3d6e8245987d40c8f3314b3fe615563b26f5d48b8b6",
+    "written_at": "2026-10-11T18:35:59.137314+00:00",
+    "origin": "write"
+  }
+}

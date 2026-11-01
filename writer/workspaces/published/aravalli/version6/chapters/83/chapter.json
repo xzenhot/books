@@ -1,0 +1,28 @@
+{
+  "chapter_index": 83,
+  "name": "83",
+  "word_target": 500,
+  "chapter_title": "নাভিকূপের আবর্তন",
+  "chapter_summary": "সাগরিকার নাভিকূপের গভীর আবর্তন — যার গভীরে লুকিয়ে আছে সরস্বতীর শুকিয়ে যাওয়া নদীর আদিম উৎস, যেখানে জলের নেশায় ডুব দিতে চায় পাহাড়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "8b22163120562e6c22c978a15ecc690a0281d4a504d3826769b1fdaa149e3df7",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

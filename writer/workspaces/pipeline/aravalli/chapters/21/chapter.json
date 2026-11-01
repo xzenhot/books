@@ -1,0 +1,93 @@
+{
+  "chapter_index": 21,
+  "name": "21",
+  "word_target": 500,
+  "chapter_title": "খোদাইয়ের দাগে লেখা",
+  "chapter_summary": "যে পাহাড় শুধু পাথর নয়, তার ধমনীতে জমে থাকা মূল্যবান আকরিকই তার খোদাই করা বুকের কারণ।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the inscription process not as marking history, but as a geological intervention—the chisel momentarily altering deep-time pressure to create a surface memory.",
+      "Focusing on the semantic layering of 'inscription': how ancient symbols interact with mineral grain structure, suggesting that meaning itself is trapped within crystal lattice imperfections.",
+      "Shifting the focus entirely onto the *material* quality of the inscription: the contrast between soft, organic wear patterns (like erosion) and sharp, deliberate fractures left by human tool use."
+    ],
+    "story_options": [
+      "Setting: A newly exposed section of vein material; Desire: The poet desires to read the silent story held in a specific cleavage plane within the rock; Obstacle: A sudden surge of subterranean moisture threatens to dissolve the freshly cut surface text before observation.",
+      "Setting: Beneath the shadow of an ancient, wind-eroded outcrop; Desire: The subject desires to find a pattern that predates human inscription—a natural glyphe formed by mineral flow; Obstacle: The twilight obscures the subtle tonal shift between iron oxide staining and actual carving.",
+      "Setting: A high crevice where freeze-thaw cycles repeatedly stress the rock face; Desire: To witness the precise moment frost widens a micro-fissure into a significant, legible crack in an inscription; Obstacle: The constant temperature fluctuation prevents sustained observation, forcing fragmentation of the narrative."
+    ],
+    "subject_rotations": [
+      "Exploring the tactile dialectic: how the grit left by fine abrasives used to polish inscriptions contrasts with the violence of initial quarrying.",
+      "Treating the script or mark as a momentary, fragile counter-narrative against the mountain's eternal narrative of slow compression and uplift.",
+      "Focusing on the negative space: the surrounding stone that frames the inscription, representing all the geological time *not* recorded."
+    ],
+    "sensory_details": [
+      "Sound: The high, almost painful whine of a sharpened tool cutting against dense quartz over hours of repetitive labor.",
+      "Touch: The slick residue left by mineral-rich runoff after rain mixes with dust on the inscribed surface.",
+      "Smell: The sterile, electric scent of ozone immediately following intense physical friction in dry rock."
+    ],
+    "research_questions": [
+      "Are there specific geological indicators (like vein filling materials) that historically corresponded to ceremonial or marking activities in early civilizations touching this region?"
+    ],
+    "structural_variants": [
+      "A structure built around recursive definition: each line of inscription forces a re-evaluation of the geological layer it sits upon, leading back toward the theme of time itself.",
+      "A bifurcated poem: one half describing the *imposition* of meaning (the act of carving); the second half detailing the mountain's slow, inevitable process of *reclaiming* that mark."
+    ],
+    "variety_note": "Where previous chapters focused on raw geological force or external invasion, this chapter centers intimacy—the fragile dialogue between a directed human intention and monumental inert matter.",
+    "poetic_parameters": {
+      "emotional_rawness": 9,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 7,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "scars carved into the chest reading like old script",
+      "volta": "the wound turning into an act of self-embrace",
+      "sonic_texture": "a whirling lift, the reed's long vowel",
+      "line_gesture": "lines that turn upward into union",
+      "variety_note": "a love-wound where the dust was a shroud"
+    }
+  },
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rumi",
+    "style": "pijush"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "308a27d4eda14a8911e9048dafa0e5dc52a7cbd31a41d8e9540b330a53d16ad1",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

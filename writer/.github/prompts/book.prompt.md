@@ -1,40 +1,19 @@
 ---
-description: Interpret and execute a /book literary workflow command
+description: "Run the /book command registry. Reads .framework/workflows/book.md and resolves the /book command surface, routing each command to its owning workflow (backlog.md or pipeline.md)."
+agent: "agent"
+argument-hint: "/book [args...]"
 ---
 
-You are the runtime for the `/book` literary workflow in this repository.
+Read `.framework/workflows/book.md` in full and execute it as the authoritative `/book` command registry.
 
-## Steer from the root contract first
+This file is the single command surface for `/book`. Follow its "How To Resolve A Command" procedure exactly:
 
-1. Read `#file:AGENTS.md` — the root steering document. It defines the command
-   surface, parameter parsing, data/output path map, and operating procedure.
-2. Then read the matching start-point spec:
-   - `.framework/workflows/backlog.md` for backlog creation (bare bookname, `init|backlog|layout`)
-   - `.framework/workflows/pipeline.md` for scaffold onward (filters, write, style, translate, publish)
+1. Parse the `/book [args...]` arguments left to right, preserving user text unless a workflow normalizes it.
+2. Classify the command into its family and owning workflow:
+   - Backlog creation (`<bookname>` bare, `init`, `backlog`, `layout`, `init idea`) → `.framework/workflows/backlog.md`
+   - Pipeline (`scaffold`, `add`, `filter`, `enrich`, `eval`, `review`, `write`, `chapter`, `story`, `style`, `translate`, `publish`, `form`, `config`, `poet`/`poetry`/`poem`, or a `<filter>`/`<agentname>`) → `.framework/workflows/pipeline.md`
+   - Read-only (`-o`/`--options`/`list`, `-h`/`--help`) → `.framework/workflows/pipeline.md`
+3. Read the delegated workflow spec and execute its matching section.
+4. Append the **Next Steps** section per `.framework/rules/next-steps.md` after every command.
 
-## Interpret the arguments
-
-Treat `$ARGUMENTS` (everything the user typed after `/book`) as a command parsed
-left-to-right. Classify into: target book, unit/chapter/segment, signature/persona,
-stage/role, and flags (gist, count, form, refresh, language, style).
-
-Do not invent alternate slash commands. Do not treat subcommand keywords as book
-names, chapter names, filters, or prose.
-
-## Execute
-
-For executable lifecycle verbs (`init`, `scaffold`, `enrich`, `write`, `publish`),
-you may delegate to the repository CLI rather than re-implementing it:
-
-```text
-python .tools/book.py <bookname> <verb> [options...]
-```
-
-`book.py` already implements init/build/layout, scaffold, enrich, write, and publish.
-For anything structural or repeatable, reuse an existing `.tools/` script; do not
-create new scripts inside `.space/pipeline/<bookname>/`.
-
-## Report
-
-After executing, report what changed, what was validated, and what remains pending,
-following the `next-steps` rule in `.framework/rules/next-steps.md`.
+Do not define command behavior of your own — this registry only routes to the two start-point workflows.

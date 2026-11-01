@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+57
+
+## name
+
+57
+
+## word_target
+
+250
+
+## chapter_title
+
+আধখোলা খোলস
+
+## chapter_summary
+
+আধখোলা খোলস খোলা থাকে, ভিতরের পুর ঠান্ডা। অসমাপ্ততার এই ছোট দৃশ্যই সবচেয়ে বেশি কথা বলে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the tactile memory: The way the split crust of the samosa feels under a foreign fingertip—not just heat, but structural integrity failing.
+- The temporality of opening: Treating the act of slowly separating the halves as a deliberate stalling of time, preventing assimilation into the present moment.
+- The interior echo: Using the hollow space left by the removed filling to reflect an auditory emptiness resonating from the memory of home.
+
+### story_options
+
+- Setting: A cheap plastic stool on a deserted back alley; Desire: The speaker examines the flaky edges, yearning for the precise way the dough folded in the ancestral kitchen; Obstacle: The ambient city noise seems to mock this fragile examination; Turn: Recognition that the fragility mirrors the migrant's own precarious existence.
+- Setting: A small counter cluttered with generic packaged snacks; Desire: To mentally reassemble the lost internal components (the precise ratio of potato to spice); Obstacle: The filling has congealed, hardening into a meaningless paste under foreign air conditioning; Turn: Accepting that perfect reconstruction is an act of hubris.
+- Setting: Holding the half-opened piece near one's own mouth but not committing to eating it; Desire: To savor the scent alone—the 'ghost fragrance' clinging to the torn seam; Obstacle: A sudden, sharp breathlessness (a physical manifestation of nostalgia); Turn: The inhale becomes a silent dialogue with the past.
+
+### subject_rotations
+
+- Treating the exposed filling not as foodstuff but as geological stratum—layers representing different stages of life or journey.
+- Shifting focus entirely from loss to *potential*—the half-eaten piece represents all possible futures that remain unchosen.
+- Using the act of pausing at the opening as a meditation on nomenclature; is it still 'Singara' in this exposed, compromised state?
+
+### sensory_details
+
+- The specific visual contrast between the uniform, deep-fried brown exterior and the pallid, slightly weeping interior filling.
+- A high-pitched, almost imperceptible crackle sound as a microscopic pocket of trapped vapor escapes when the dough shifts.
+- The gritty sensation of finely ground spice adhering statically to the exposed edges of the broken crust.
+
+### research_questions
+
+- What specific term in Bengali diction implies 'a state of suspended action' that can fit rhythmically into a poetic line?
+- Can I use precise physical descriptions of dough elasticity (like 'gluten stress') metaphorically without sounding overly clinical?
+
+### structural_variants
+
+- A sudden, abrupt shift in focus from the external shell to an internal bodily sensation (e.g., a tightening in the chest corresponding to the food's division).
+- Structuring the poem as two immediate rhetorical questions posed to the object itself, one about its past and one about its future.
+
+### unused_angles
+
+- A comparison between the oily residue on the wrapper versus a memory stain left on an older piece of cloth.
+- Exploring the idea that the 'gap' created by opening is where new possibilities—unrelated to flavor—can enter the narrative.
+
+### variety_note
+
+This chapter emphasizes inertia and stasis, contrasting sharply with the 'journey' narratives used in earlier sections, focusing instead on a paused moment of existential inventory.

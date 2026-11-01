@@ -1,0 +1,28 @@
+{
+  "chapter_index": 41,
+  "name": "41",
+  "word_target": 500,
+  "chapter_title": "পাথরে খোদাই শান্তি",
+  "chapter_summary": "সম্রাট অশোকের অনুশাসনের শিলালিপি — পাথরে খোদাই করা ধর্ম ও শান্তির বাণী।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "ccf820fcaff7ffc794b66a9592fa8513946c7ab88effdae56a26a277d92dcd2d",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

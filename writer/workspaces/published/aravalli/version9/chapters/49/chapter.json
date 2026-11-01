@@ -1,0 +1,28 @@
+{
+  "chapter_index": 49,
+  "name": "49",
+  "word_target": 500,
+  "chapter_title": "হারানো নদীর কান্না",
+  "chapter_summary": "অদৃশ্য সরস্বতী নদীর হারিয়ে যাওয়া স্রোতধ্বনি — যে নদী আজ লুপ্ত, তার জল পাহাড়ের গভীরে কাঁদে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "2f4f9377dd04ef19479caea3d219e8a7bd469a2a02d5db6ec03b86bcbe387f10",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

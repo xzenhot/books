@@ -1,0 +1,40 @@
+{
+  "chapter_index": 90,
+  "name": "90",
+  "word_target": 500,
+  "chapter_title": "মাথা ঠান্ডা রাখা",
+  "chapter_summary": "Chapter 90, titled 'মাথা ঠান্ডা রাখা,' delves into the profound philosophy of maintaining composure amidst escalating peril, framing restraint as the ultimate strategic weapon. The central conflict arises from a moment of intense crisis where rash action threatens to unravel carefully laid plans, forcing the characters to confront the internal battle between panic and poised deliberation. Key imagery revolves around the stark contrast between turbulent external chaos and the quiet, almost glacial stillness maintained by the protagonist, symbolizing that true power lies in inner calm. The chapter ultimately leaves the reader pondering whether this cultivated tranquility is a sustainable defense against the relentless pressures of their adversaries, or merely a temporary respite before the next storm breaks.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরিত্র ১",
+      "role": "প্রধান চরিত্র"
+    },
+    {
+      "id": "c2",
+      "name": "চরিত্র ২",
+      "role": "সহচর"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "এই অধ্যায়ে বর্ণিত পরিস্থিতিগুলি তৎকালীন সামাজিক বাস্তবতাকে প্রতিফলিত করে।",
+    "human_in_the_loop": "বিপদের মুখে শান্ত থাকা বা মাথা ঠান্ডা রাখা প্রতিটি চরিত্রের জন্য একটি গুরুত্বপূর্ণ মানবিক পরীক্ষা।",
+    "influence_of_other_works": "প্রবাদটির গভীরতা প্রাচীন বাংলা সাহিত্যের অন্তর্নিহিত দার্শনিক চিন্তাধারার প্রতিধ্বনি বহন করে।",
+    "cultural_relevance": "বিপদে সংযম বজায় রাখার ধারণাটি বাঙালি সংস্কৃতির একটি অবিচ্ছেদ্য অংশ।",
+    "literary_style": "গদ্যের সাবলীল প্রবাহে প্রবাদটির কাব্যিক মাধুর্য ফুটিয়ে তোলা হয়েছে।",
+    "narrative_techniques": "চরিত্রদের প্রতিক্রিয়ার মাধ্যমে অভ্যন্তরীণ দ্বন্দ্বকে দক্ষতার সাথে তুলে ধরা হয়েছে।",
+    "symbolism_and_motifs": "'শান্তিই কৌশল' এই বাক্যটি স্থিরতার প্রতীক হিসেবে কাজ করে।",
+    "reader_engagement_strategies": "পাঠককে সরাসরি বিপদের পরিস্থিতিতে স্থির থাকার প্রয়োজনীয়তার দিকে চালিত করা হয়েছে।",
+    "ethical_considerations": "সংকটে বিচক্ষণতা প্রদর্শন করা নৈতিক দায়িত্বের একটি অংশ হিসেবে চিত্রিত হয়েছে।",
+    "potential_controversies": "কোন পরিস্থিতিতে 'মাথা ঠান্ডা রাখা' সঠিক কৌশল, তা নিয়ে ভিন্নমত সৃষ্টি হতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়ে সামাজিক প্রেক্ষাপটের সাধারণ মানুষের মানসিক স্থিতির উপর জোর দেওয়া হয়েছে।",
+    "marketing_and_promotion": "প্রবাদটির মাধ্যমে বইটি পাঠককে একটি গভীর জীবনদর্শন প্রদান করবে বলে প্রচার করা যেতে পারে।",
+    "significance_of_rise_of_bengal": "এই মানসিক দৃঢ়তা তৎকালীন অস্থির সময়ে বাংলার স্থিতিশীলতার ভিত্তি হিসেবে কাজ করেছিল।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

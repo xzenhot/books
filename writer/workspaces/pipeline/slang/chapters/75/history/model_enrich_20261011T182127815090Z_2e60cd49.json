@@ -1,0 +1,40 @@
+{
+  "chapter_index": 75,
+  "name": "75",
+  "word_target": 500,
+  "chapter_title": "ঠকে শেখা",
+  "chapter_summary": "The chapter, 'ঠকে শেখা' (Learning by Being Hit), delves into the harsh philosophy that true wisdom is forged through painful experience, encapsulating the proverb, 'অভিজ্ঞতায় শিক্ষা — ঠকে শিখেছি, আর ভুল হবে না, যেখানে ব্যথাই গুরু' (Learning through experience—I have learned by being struck, and no mistake will be made where pain is the teacher). The central conflict revolves around the protagonist's internal struggle to reconcile the necessity of past suffering with the desire for a flawless future, symbolized by the imagery of scars—physical or emotional—as indelible marks of hard-won knowledge. As the narrative progresses, the characters grapple with the ethical weight of past errors, leaving the reader to question whether the certainty gained from pain can ever truly guarantee freedom from future mistakes, or if the cycle of learning remains inherently cyclical.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজ্ঞাত",
+      "role": "শিক্ষার্থী"
+    },
+    {
+      "id": "c2",
+      "name": "অভিজ্ঞ",
+      "role": "গুরু"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "অভিজ্ঞতায় শিক্ষা গ্রহণের বিষয়টি তৎকালীন সামাজিক প্রেক্ষাপটে গভীরভাবে প্রতিফলিত হয়েছে।",
+    "human_in_the_loop": "চরিত্রের মাধ্যমে দেখানো হচ্ছে যে প্রতিটি ভুলই এক একটি শিক্ষকের ভূমিকা পালন করে।",
+    "influence_of_other_works": "এই অধ্যায়ের দার্শনিক গভীরতা প্রবাদ-প্রবচনের কাব্যিক কাঠামোর প্রতিধ্বনি তোলে।",
+    "cultural_relevance": "ব্যথাই গুরু হওয়ার ধারণাটি বাঙালির জীবনদর্শন ও প্রবাদ-ধারার সঙ্গে সরাসরি সম্পর্কিত।",
+    "literary_style": "গল্পের ভাষা অত্যন্ত সরল অথচ গভীর, যা প্রবাদ-কবিতার মতো অনুরণিত হয়।",
+    "narrative_techniques": "লেখক অভিজ্ঞতার মাধ্যমে শিক্ষা অর্জনের প্রক্রিয়াটিকে একটি শক্তিশালী আখ্যানের মাধ্যমে ফুটিয়ে তুলেছেন।",
+    "symbolism_and_motifs": "'ঠকে শেখা' শব্দটি ভুল এবং অভিজ্ঞতার প্রতীকী মিশ্রণ বহন করে।",
+    "reader_engagement_strategies": "পাঠককে সরাসরি জীবনের কঠিন সত্যের মুখোমুখি দাঁড় করানোর মাধ্যমে অধ্যায়টি আকর্ষণ সৃষ্টি করে।",
+    "ethical_considerations": "ভুল করার অধিকার এবং সেই ভুল থেকে শেখার নৈতিক প্রয়োজনীয়তা এখানে আলোচিত।",
+    "potential_controversies": "কখনও কখনও ভুল করাকে স্বাভাবিকভাবে গ্রহণ করাটা নৈতিক বিতর্কের জন্ম দিতে পারে।",
+    "diversity_and_inclusion": "ব্যক্তিগত অভিজ্ঞতার মাধ্যমে শেখার বিষয়টি সকল সামাজিক স্তরের মানুষের জন্য প্রযোজ্য।",
+    "marketing_and_promotion": "এই অধ্যায়টির মূল বার্তা, 'প্রবাদই কবিতা', এটিকে সাহিত্যিক আলোচনার কেন্দ্রবিন্দুতে আনতে পারে।",
+    "significance_of_rise_of_bengal": "এই শিক্ষামূলক দর্শনটি বাংলার সংস্কৃতি ও জীবনযাত্রার স্থিতিস্থাপকতাকে তুলে ধরে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

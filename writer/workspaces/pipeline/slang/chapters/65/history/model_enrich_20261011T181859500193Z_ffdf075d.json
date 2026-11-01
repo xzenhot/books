@@ -1,0 +1,40 @@
+{
+  "chapter_index": 65,
+  "name": "65",
+  "word_target": 500,
+  "chapter_title": "অতি ভক্তি চোরের লক্ষণ",
+  "chapter_summary": "The chapter delves into the subtle political currents within the court, where excessive deference—the 'অতি ভক্তি'—is examined not as piety, but as a dangerous mask. The central conflict revolves around discerning genuine loyalty from calculated flattery; the elaborate displays of humility are depicted through the imagery of oiling a lock, suggesting that such over-adulation is merely the precursor to theft or betrayal. As the characters navigate these treacherous social waters, the narrative leaves the reader with the crucial, unanswered question: at what precise point does sincere reverence devolve into insidious manipulation, and who among the courtiers is truly serving the state versus serving their own hidden agendas?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরিত্র ১",
+      "role": "প্রধান চরিত্র"
+    },
+    {
+      "id": "c2",
+      "name": "চরিত্র ২",
+      "role": "সহযোগী চরিত্র"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "ঐতিহাসিক প্রেক্ষাপটে অতিরিক্ত বিনয়কে চাটুকারিতা হিসেবে চিত্রিত করা হয়েছে।",
+    "human_in_the_loop": "চরিত্রের আচরণে অতিরিক্ত ভক্তির মাধ্যমে লুকানো চুরির ইঙ্গিত পাওয়া যায়।",
+    "influence_of_other_works": "প্রবাদ-বাণীর দার্শনিক গভীরতা এখানে কাব্যিক রূপে প্রতিফলিত হয়েছে।",
+    "cultural_relevance": "সমাজতাত্ত্বিক দৃষ্টিকোণ থেকে অতিরিক্ত ভক্তির সামাজিক গ্রহণযোগ্যতা নিয়ে আলোচনা করা হয়েছে।",
+    "literary_style": "গল্পের ভাষা প্রবাদ-সদৃশ তীক্ষ্ণতা এবং গভীরতা বহন করে।",
+    "narrative_techniques": "উপমা এবং ব্যঙ্গাত্মক বর্ণনার মাধ্যমে ঘটনার মোড় ঘোরানো হয়েছে।",
+    "symbolism_and_motifs": "অতিরিক্ত তেল দেওয়া—যা চাটুকারিতার প্রতীক—তা এখানে একটি প্রধান মোটিফ হিসেবে কাজ করে।",
+    "reader_engagement_strategies": "পাঠককে প্রবাদটির অন্তর্নিহিত অর্থ অনুধাবন করতে উৎসাহিত করা হয়েছে।",
+    "ethical_considerations": "অতিরিক্ত আনুগত্যের নৈতিক বিপদগুলি সতর্কতার সঙ্গে তুলে ধরা হয়েছে।",
+    "potential_controversies": "কারো প্রতি অতিরিক্ত ভক্তিকে চুরির সমার্থক হিসেবে দেখার প্রবণতা বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়ে নির্দিষ্ট কোনো সামাজিক গোষ্ঠীর বৈচিত্র্য তুলে ধরা হয়নি, বরং আচরণগত বিশ্লেষণ প্রাধান্য পেয়েছে।",
+    "marketing_and_promotion": "প্রবাদটির আকর্ষণীয় শিরোনাম ব্যবহার করে পাঠক আকর্ষণ করা সম্ভব।",
+    "significance_of_rise_of_bengal": "এই সামাজিক পর্যবেক্ষণ তৎকালীন বাংলার সূক্ষ্ম সামাজিক গতিপ্রকৃতিকে প্রতিফলিত করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

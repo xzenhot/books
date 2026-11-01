@@ -1,0 +1,28 @@
+{
+  "chapter_index": 47,
+  "name": "47",
+  "word_target": 500,
+  "chapter_title": "শুকিয়ে যাওয়া সবুজ",
+  "chapter_summary": "শুকিয়ে যাওয়া লতাগুল্মের জীবাশ্ম — একসময়ের সবুজ প্রাণ এখন পাথরের স্মৃতিচিহ্ন।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "3683ea30372936d39b07c5d3c4c88ac4bb5358be702a508d99f6919acf1043d9",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

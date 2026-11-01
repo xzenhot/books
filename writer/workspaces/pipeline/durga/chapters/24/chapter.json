@@ -1,0 +1,59 @@
+{
+  "chapter_index": 24,
+  "name": "24",
+  "word_target": 300,
+  "chapter_title": "ঢাকির হৃদয়",
+  "chapter_summary": "ঢাকির হাতের তালে ঘুম ভাঙে পাড়ার — তার নিজের হৃদয়ও সেই ঢাকের সঙ্গে তাল মিলিয়ে বাজে।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The acoustic properties of traditional Bengali drum hides (dhol/dhak)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the drummer not as a spiritual conduit for Durga's energy, but as a repository of localized, inherited community history—the rhythm encodes specific neighborhood lore.",
+      "Treating the beating drum skin itself (the material) as a metaphor for communal vulnerability; the tautness reflecting civic tension between celebration and exhaustion.",
+      "Shifting focus from the external sound perceived by others to the internal micro-physical experience of the drummer: nerve vibration, sweat, and breath control becoming liturgical acts."
+    ],
+    "story_options": [
+      "Setting: A dimly lit corner outside the *pandal*, late night; Desire: To capture a single, specific sequence of three strikes that momentarily halts all other communal sound (the 'silence within the beat'); Obstacle: The drummer fighting muscle fatigue which threatens to break the sacred pattern.",
+      "Setting: Beside the stacked clay pots used for offerings near the drum platform; Desire: To find resonance between the repetitive circular motion of the drumming and the slow, cyclical aging/weathering of a specific pot; Obstacle: A sudden downpour that momentarily dampens the soundscape, forcing an adaptation in rhythm.",
+      "Setting: The drummer's personal shelter abutting the festival grounds; Desire: To illustrate how the rhythmic pattern carries over into waking consciousness—the beat as insomnia or dream sequence trigger; Obstacle: A quiet moment where the drumming ceases completely, leaving only the ordinary sounds of the sleeping city to assert themselves."
+    ],
+    "subject_rotations": [
+      "Focusing entirely on the timbre and material quality of the drum itself (the hide, the wood) rather than the resulting rhythm or its theological meaning.",
+      "Treating the drumming act as an involuntary physiological state—a trance induced by repetitive motor action rather than a conscious devotional choice.",
+      "Inverting the typical focus: instead of celebrating Durga's power through sound, explore how the *absence* of the drumbeat in moments is what allows domestic life to creep back into awareness."
+    ],
+    "sensory_details": [
+      "The coarse grit of dried mud kicked up by ritual movement around the drummers’ feet.",
+      "The sudden, sharp metallic scent of sweat mingling with incense smoke trapped under the drum's edge.",
+      "The resonant vibration felt in the teeth or sternum from a particularly deep, protracted bass strike."
+    ],
+    "research_questions": [
+      "What specific traditional Bengali terminology exists to describe the moment when the physical exertion of drumming transcends mere performance into a near-trance state?",
+      "Are there recognized regional differences in how the *dhak* (drum) is ritually maintained or treated during this festival period?"
+    ],
+    "structural_variants": [
+      "A highly condensed, fragmented section where only sound descriptions are used, almost like an aural transcript before any semantic meaning is applied.",
+      "A dialogue piece centered entirely on the technical instructions passed between experienced drummers regarding tempo shifts."
+    ],
+    "unused_angles": [
+      "How the drummer relates to the external sounds of city life (traffic, modern horns) versus the internally generated soundscape of the festival's rhythm.",
+      "The concept of inherited drumming knowledge—the unspoken grammar passed from master to apprentice across generations."
+    ],
+    "variety_note": "Unlike chapters focusing on visual splendor or symbolic action, this piece drills down into the sonic physicality and localized ritual endurance of the instrument itself."
+  },
+  "draft": {
+    "sha256": "65cae9e46863f12b09c7c2753147dc63df385dc798264def45c71d5e8ca97e2c",
+    "written_at": "2026-10-29T15:01:42.813402+00:00",
+    "origin": "write"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "chapter_index": 63,
+  "name": "63",
+  "word_target": 500,
+  "chapter_title": "ক্ষমতার পাহাড়ে ভোর",
+  "chapter_summary": "রাইসিনা হিলসে ভারতের রাষ্ট্রপতি ভবন — প্রাচীন পাহাড়ের উপরে আধুনিক ক্ষমতার আসন।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "15d1a0a274af0f8e46b5b094bda9e22814a01f9f5d3a0b9461e77bb0ed298b48",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

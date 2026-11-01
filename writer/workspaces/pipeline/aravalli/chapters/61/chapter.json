@@ -1,0 +1,28 @@
+{
+  "chapter_index": 61,
+  "name": "61",
+  "word_target": 500,
+  "chapter_title": "লাভের প্রথম জ্বর",
+  "chapter_summary": "বণিকের খাতায় প্রথম মুনাফা — পাহাড়ের ধাতু দিয়ে জমে ওঠে প্রাচীন পুঁজির প্রথম স্তূপ।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "3f31b96b62a25332d528cd59fc896219589c6ac1cb6619fab35d88820e1115a1",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

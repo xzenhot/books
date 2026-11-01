@@ -1,0 +1,68 @@
+{
+  "chapter_index": 6,
+  "name": "6",
+  "word_target": 280,
+  "chapter_title": "কলার মান্দাসে একাকী মহাপ্রস্থান",
+  "chapter_summary": "স্বজনদের অনুনয় ও সমাজের চোখরাঙানি উপেক্ষা করে পচাগলা দেহ কোলে নিয়ে কলার ভেলায় ভাসা কোনো অন্ধ মোহ নয়, এক নারীর তেজস্বী আত্মিক বিদ্রোহ।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the act of paddling/navigating the water not as a journey toward a goal, but as a cyclical performance of maintaining equilibrium against inherent instability.",
+      "Focusing entirely on the silent dialogue between Behula and her own reflection in the murky waters—a confrontation with selfhood stripped bare by circumstance.",
+      "Viewing the 'mandas' (the raft/vessel) not as mere transport, but as a fragile boundary object separating accepted reality from necessary transgression."
+    ],
+    "story_options": [
+      "Setting: The exact point where the river widens into an unfamiliar confluence. Desire: To feel absolute grounding in this precarious craft; Obstacle: A sudden shift in current pulling toward unseen banks of consequence; Turn: She deliberately changes her rhythmic paddle strokes, asserting control over the tempo itself.",
+      "Setting: Mid-passage, under a canopy of heavy river foliage that filters the sun into stripes. Desire: To find a single shard of recognizable shore or landmass to anchor her vision; Obstacle: The relentless sound of insects or unseen life in the water drowning out any internal monologue; Turn: She stops paddling completely for an extended period, forcing total sensory deprivation save for the movement of the body.",
+      "Setting: At night, when the stars are visible through a thin veil of river mist. Desire: To whisper a plea to Lkhindor that only he can hear across time/space; Obstacle: The chilling indifference of the water surrounding her vessel; Turn: She uses the momentum of the darkness to fuel an internal fire—the commitment becomes less about hope and more about witnessing."
+    ],
+    "subject_rotations": [
+      "Shifting from 'rebellion' as outward action against custom, to 'resilience' as internalized mechanics—how the body *remembers* how to move forward when intellect dictates paralysis.",
+      "Focusing on the existential weight of solitude: The transition from a societal outcast to an absolute singularity, where her existence is defined only by the continuous act of motion itself.",
+      "Examining the materiality of the 'body' being transported: treating the corpse not as grief incarnate, but as a heavy, inert counterweight that necessitates perpetual effort and defiance against entropy."
+    ],
+    "sensory_details": [
+      "The oily slick sheen on the water contrasting with the rough, sun-bleached wood of her makeshift raft.",
+      "The specific, resonant *thwack* sound as a paddle meets resistant, silt-laden river mud.",
+      "The smell of stagnant water layered beneath the scent of dry leaves clinging to the barge structure."
+    ],
+    "research_questions": [
+      "In Bengali poetic traditions describing liminal journeys (like crossing rivers), what specific vocabulary exists for 'self-imposed exile' versus 'forced displacement'?",
+      "How can the concept of a continuous, rhythmic action (paddling) be rendered in verse without becoming repetitive or purely mechanical?"
+    ],
+    "structural_variants": [
+      "A spiraling structure: each stanza circles back to the motif of forward motion, but the circumference tightens on the internal tension rather than expanding outward.",
+      "Alternating between intensely focused micro-moments (the grip on the paddle, a splash) and vast, blurred panoramas of the river expanse."
+    ],
+    "unused_angles": [
+      "The potential for her to briefly mistake an object floating past for Lkhindor himself, only for the illusion to shatter in reality.",
+      "A meditation on the difference between *moving* physically and *progressing* spiritually—are they always concurrent?"
+    ],
+    "variety_note": "While previous chapters dealt with the emotional weight of scorn or societal constraints (the 'why' she must leave), this chapter focuses strictly on the embodied, physical act of sustained movement itself (the 'how')."
+  },
+  "draft": {
+    "sha256": "d321d4f3424327a0be9f9a2e8e5c8275b4ed74c887f24f796fa3b09e1f24e61c",
+    "written_at": "2026-10-21T14:03:06.408831+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "d321d4f3424327a0be9f9a2e8e5c8275b4ed74c887f24f796fa3b09e1f24e61c",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T16:19:57+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

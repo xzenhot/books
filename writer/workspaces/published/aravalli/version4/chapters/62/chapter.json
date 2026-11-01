@@ -1,0 +1,28 @@
+{
+  "chapter_index": 62,
+  "name": "62",
+  "word_target": 500,
+  "chapter_title": "শূন্যের জপমালা",
+  "chapter_summary": "ব্যবসায়ীর খাতার শূন্যের স্তম্ভ — পাহাড়ের সম্পদের হিসেব যেখানে কলামে কলামে বন্দি।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "52b2f3b17d7ef1972dc25d98fe78736478e3a7b29c4e4c3a48248bce0ff24227",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

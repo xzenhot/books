@@ -1,0 +1,68 @@
+{
+  "chapter_index": 7,
+  "name": "7",
+  "word_target": 80,
+  "chapter_title": "The Wasted Sketch",
+  "chapter_summary": "The poem gathers the discarded studies — the thrown-away drawings, the abandoned attempts — and argues that the blossom is only the last of a hundred failures, the single surviving leaf of a long pruning.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the sketch not as a failure of execution, but as an act of pure intellectual dialogue with the form—a conversation where the image proposes alternatives to the inevitable reality.",
+      "Treating the discarded sketches as temporary ghosts: residual impressions that linger on the drafting paper long after the artist's focus has moved to the wall.",
+      "Interrogating the materiality of failure: contrasting the ephemeral, yielding nature of charcoal or watercolor study with the permanence sought in mineral pigments."
+    ],
+    "story_options": [
+      "Setting: A pile of sketches heaped near a low clay water jug; Desire: The painter to find one small detail in an old study that suggests the *emotional* origin of the final, approved motif, Obstacle: Realizing all prior attempts were merely logical derivations, devoid of soul.",
+      "Setting: Leaning against the rough stone wall of the storage room where materials are kept; Desire: To sketch a perfect depiction of exhaustion onto scrap paper before abandoning it, Obstacle: The hand trembling too violently to capture the precise line needed for the self-portrait study.",
+      "Setting: Under a sliver of moonlight illuminating a specific ink stain on an early draft; Desire: To trace that accidental blot as if it were the true starting point of the design, Obstacle: A visiting elder/patron walks past and stops to critique the 'smudge' with detached artistic condescension."
+    ],
+    "subject_rotations": [
+      "Shifting focus from the *visual* failure (a bad line) to the *conceptual* failure (the inadequacy of the chosen metaphor for the patron’s pride).",
+      "Examining how sketches are used as a deliberate form of self-erasure—not just failures, but paths rejected for strategic reasons necessary for future 'success'.",
+      "Treating the studies not as preliminary drafts, but as palimpsests where successive attempts to capture truth overlap and cancel each other out."
+    ],
+    "sensory_details": [
+      "The smell of damp paper mixing with the sharp, acidic tang of discarded ochre pigments.",
+      "The granular drag sound made by a stiff charcoal stick scraping across coarse handmade rag paper.",
+      "The cool slickness of dried lampblack smudging against slightly warm fingertips."
+    ],
+    "research_questions": [
+      "What were the typical mediums available for preliminary artistic studies in 19th/early 20th-century Shekhawati that would contrast sharply with fresco chemistry (e.g., specific local vegetable dyes or earth pigments)?",
+      "Are there documented practices within Marwari artisan guilds regarding the preservation or disposal of preparatory drawings? What does this imply about the value assigned to 'in-progress' work?"
+    ],
+    "structural_variants": [
+      "Structuring the poem as a recursive loop, where each stanza revisits an earlier rejected composition only to modify it slightly based on the wisdom gained from its failure.",
+      "Using fragmented lines taken directly from different discarded studies, stitching them together into a collage-like narrative that defies linear sense."
+    ],
+    "unused_angles": [
+      "The political implication of revision: how each sketch represents an attempt to satisfy shifting power dynamics between the artist and various local stakeholders.",
+      "A focus on color theory as self-critique—analyzing *why* a particular hue was discarded, beyond merely visual appeal."
+    ],
+    "variety_note": "This poem moves away from material labor (like mixing pigments or scaling walls) to address the cognitive and conceptual labor of ideation; it is about the landscape of intention rather than the texture of execution."
+  },
+  "draft": {
+    "sha256": "dfd7a7c75a1b7ce1c12393e7d79e440ec91c7922b4300144e4bfa55f9f1e5e88",
+    "written_at": "2026-10-04T19:41:03.222787+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "dfd7a7c75a1b7ce1c12393e7d79e440ec91c7922b4300144e4bfa55f9f1e5e88",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T19:43:48+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

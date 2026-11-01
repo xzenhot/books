@@ -1,0 +1,52 @@
+{
+  "chapter_index": 66,
+  "name": "66",
+  "word_target": 280,
+  "chapter_title": "ক্ষতের চিহ্নে গৌরবের রেখা",
+  "chapter_summary": "হাতে ও পায়ে থাকা দাঁড়ের ক্ষতের দাগগুলো আর ব্যথার নয়; তা হয়ে ওঠে এক অসম লড়াইয়ের বিজয়ী পদক। অতীত এখন গর্বের ভিত্তি।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the scar not as a mark of suffering endured, but as an integrated map charting specific encounters with divine or societal indifference.",
+      "Viewing 'glory' (গৌরব) through the lens of functional endurance—the physical damage is what grants her the authority to move forward unimpeded by doubt.",
+      "Focusing on the microscopic view of the wound healing: how the flesh adapts, strengthening rather than merely recovering from the trauma."
+    ],
+    "story_options": [
+      "Setting: The edge of a muddy bank where the boat scraped stone; Desire: To render the texture of that abrasion—the grit embedded in the skin as permanent testimony to struggle; Obstacle: The memory of onlookers who saw only damage, Turn: A silent refusal to let their gaze invalidate the mark.",
+      "Setting: In a solitary moment after reaching stable ground; Desire: To trace the path from the point of deepest pain outwards, turning each line of scar into a testament to specific moral choices made during hardship; Obstacle: The temptation to hide the evidence of her fight, Turn: Deciding that visibility is essential for validation.",
+      "Setting: At night, beneath a single flickering lamp after passage; Desire: To watch how the light catches the edges of past wounds, revealing them not as flaws but as topographical features of resilience; Obstacle: The overwhelming urge to allow the exhaustion to erase the sharp definition of these marks, Turn: Reasserting their sharpness into the silence."
+    ],
+    "subject_rotations": [
+      "Treating the scars as a linguistic archive—each healed line representing an unsaid word or vetoed thought during her trial.",
+      "Analyzing the body's response to trauma not defensively, but offensively; how the body itself becomes the ultimate weapon of persistence.",
+      "Shifting focus from outward 'glory' (social perception) to inward sovereignty: the scars as internal proof only she recognizes."
+    ],
+    "sensory_details": [
+      "The dull, persistent throb beneath a layer of taut skin when the air shifts from humid river dampness to dry coastal breeze.",
+      "The rough, particulate taste left in the mouth after sustaining injury—the metallic tang mixed with sediment.",
+      "The specific visual quality of older scar tissue under direct sunlight: how it holds a different sheen than surrounding healthy flesh."
+    ],
+    "research_questions": [
+      "How can Bengali poetic language describe physical healing processes (tissue repair) without sounding clinical or purely anatomical?"
+    ],
+    "structural_variants": [
+      "A cumulative structure where each stanza introduces one specific mark, detailing the event it commemorates before moving to the next.",
+      "A fragmented structure mirroring a wound response: acute flare-up followed by slow, deliberate mending over several internal movements/sections."
+    ],
+    "unused_angles": [
+      "The potential for these marks to become conduits—implying that past suffering can transfer energy or lessons into the present state of being.",
+      "Exploring the interaction between old injuries and new emotional stresses, showing how past resilience informs current fortitude."
+    ],
+    "variety_note": "Unlike chapters focusing on external struggle (like navigating societal judgment), this focuses microscopically on the internalized physical proof of that long-term battle."
+  },
+  "draft": {
+    "sha256": "3ae559c41b213e631db32d96bceccbe12bad40943fc97f9b67777403d909ab51",
+    "written_at": "2026-10-21T14:15:28.644503+00:00",
+    "origin": "write"
+  }
+}

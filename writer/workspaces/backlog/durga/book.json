@@ -1,0 +1,271 @@
+{
+  "book_name": "durga",
+  "book_long_title": "দুর্গা: এর কবিতা",
+  "generic": "ভক্তিমূলক-রূপক উৎসবকবিতা",
+  "era": "পৌরাণিক সময় থেকে সমকালীন বাংলা",
+  "language": "Bengali",
+  "target_audience": "ভক্তি, উৎসব, বাংলার সংস্কৃতি ও রূপক কবিতার পাঠক",
+  "chapter_count": 30,
+  "factory": "online",
+  "form": "poetry",
+  "style": "pijush",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_summary": "দুর্গাপূজাকে কেন্দ্র করে ত্রিশটি কবিতার সিকোয়েন্স — মহালয়ার ভোর থেকে বিজয়ার গোধূলি পর্যন্ত, দেবীর আগমন, শিল্পীর নির্মাণ, উৎসবের ভক্তি, আর বিসর্জনের বেদনার ভেতর দিয়ে বয়ে চলা আশা ও বিচ্ছেদের চিরন্তন রূপকথা।",
+  "created_at": "2026-10-27",
+  "updated_at": "2026-10-27",
+  "user_name": "pijush",
+  "gist": "দুর্গাপূজা — বাংলার শ্রেষ্ঠ উৎসব, যেখানে দেবী দুর্গা মহিষাসুর বধের পর শক্তিরূপে পুত্র-কন্যাদের সঙ্গে মর্ত্যে ফেরেন, আর গোটা বঙ্গ তার আগমনকে নিজের ঘরের আলো, ঢাক আর শিল্পে বরণ করে নেয়।",
+  "filter_chain": [
+    "workshop",
+    "research",
+    "correctness",
+    "theme",
+    "syntax",
+    "override",
+    "quality"
+  ],
+  "word_target": 300,
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "name": "1",
+      "word_target": 300,
+      "chapter_title": "মহালয়ার প্রথম ভোর",
+      "chapter_summary": "মহালয়ার শুভ ভোরে অন্ধকার ভেদ করে প্রথম আলো, আর সেই আলোয় মায়ের আগমনের প্রথম বার্তা পৌঁছে যায়।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 2,
+      "name": "2",
+      "word_target": 300,
+      "chapter_title": "শিউলির সাদা চিঠি",
+      "chapter_summary": "শরতের শিউলি ঝরে পড়ে সিঁড়ির গায়ে — যেন মা এসেছেন, তার আগমনীর সাদা চিঠি লিখে রেখে গেছেন।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 3,
+      "name": "3",
+      "word_target": 300,
+      "chapter_title": "কাশফুলের নিঃশ্বাস",
+      "chapter_summary": "নদীর ধারে কাশফুল দুলে ওঠে বাতাসে, আর সেই দোলায় লুকিয়ে থাকে মায়ের আসার পথের ইশারা।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 4,
+      "name": "4",
+      "word_target": 300,
+      "chapter_title": "আগমনীর সুর",
+      "chapter_summary": "রেডিওর আগমনীর গানে বাড়ি ভরে ওঠে, আর সেই সুরে জেগে ওঠে সারা বছরের জমে থাকা অপেক্ষা।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 5,
+      "name": "5",
+      "word_target": 300,
+      "chapter_title": "পাড়ার প্রথম প্রদীপ",
+      "chapter_summary": "প্যান্ডেলের প্রথম আলো জ্বলে ওঠে, আর অন্ধকার পাড়া সেই আলোয় মায়ের ঘরে ফেরার পথ খুঁজে পায়।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 6,
+      "name": "6",
+      "word_target": 300,
+      "chapter_title": "মায়ের ফেরার অপেক্ষা",
+      "chapter_summary": "মেয়ে বারবার দরজার দিকে তাকায় — মা কি এবার সত্যিই ফিরবে? অপেক্ষার প্রতিটি মুহূর্ত একটি প্রার্থনা।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 7,
+      "name": "7",
+      "word_target": 300,
+      "chapter_title": "কুমোরটুলির মাটি",
+      "chapter_summary": "কুমোরটুলির ভেজা মাটির গন্ধে জেগে ওঠে দেবীর প্রথম রূপ — মাটিই সেই দেবীর আদি গর্ভ।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 8,
+      "name": "8",
+      "word_target": 300,
+      "chapter_title": "শিল্পীর হাত",
+      "chapter_summary": "শিল্পীর হাত খড়ের কাঠামোয় প্রাণ এনে দেয়, আর প্রতিটি আঙুলের ছাপে দেবী ধীরে ধীরে মর্ত্যে নামেন।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 9,
+      "name": "9",
+      "word_target": 300,
+      "chapter_title": "খড়ের কাঠামোয় প্রাণ",
+      "chapter_summary": "খড়, বাঁশ আর দড়ির অদৃশ্য কাঠামো — যে কঙ্কালের ওপর দেবীর শরীর গড়ে ওঠে মাটি দিয়ে।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 10,
+      "name": "10",
+      "word_target": 300,
+      "chapter_title": "চক্ষুদানের মুহূর্ত",
+      "chapter_summary": "শিল্পী তুলি দিয়ে মায়ের চোখ এঁকে দেন, আর সেই মুহূর্তে প্রতিমার ভেতরে ঢুকে পড়েন দেবী নিজেই।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 11,
+      "name": "11",
+      "word_target": 300,
+      "chapter_title": "মায়ের মুখের রূপ",
+      "chapter_summary": "মাটির মুখে রঙের পরত পড়ে, আর শিল্পীর কল্পনায় ফুটে ওঠে মায়ের শান্ত, করুণাময় চেহারা।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 12,
+      "name": "12",
+      "word_target": 300,
+      "chapter_title": "সাজের আলোয় দেবী",
+      "chapter_summary": "ডাকের সাজে, গয়নায়, রেশমি শাড়িতে দেবী সেজে ওঠেন — আলোর প্যান্ডেলে তিনি মর্ত্যের কন্যা হয়ে দাঁড়ান।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 13,
+      "name": "13",
+      "word_target": 300,
+      "chapter_title": "ষষ্ঠীর বোধন",
+      "chapter_summary": "ষষ্ঠীর সন্ধ্যায় বেলগাছের তলায় দেবীর বোধন — মাটি থেকে জাগ্রত হন মা, শুরু হয় উৎসবের আনুষ্ঠানিক প্রাণ।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 14,
+      "name": "14",
+      "word_target": 300,
+      "chapter_title": "সপ্তমীর নবপত্রিকা",
+      "chapter_summary": "সাতটি গাছের নবপত্রিকায় মায়ের সাত রূপ স্নান করানো হয়, আর প্রকৃতিই হয়ে ওঠে দেবীর প্রথম আবাস।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 15,
+      "name": "15",
+      "word_target": 300,
+      "chapter_title": "অষ্টমীর সন্ধিক্ষণ",
+      "chapter_summary": "অষ্টমীর সন্ধিক্ষণে চামুণ্ডার পূজা — সেই মুহূর্তে দেবীর শক্তি সবচেয়ে তীব্র, সবচেয়ে করুণাময়।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 16,
+      "name": "16",
+      "word_target": 300,
+      "chapter_title": "নবমীর আরতি",
+      "chapter_summary": "নবমীর রাতে কাঁসর, ঘণ্টা আর শঙ্খের ধ্বনিতে আরতি জ্বলে — মায়ের মুখের আলোয় ডুবে যায় গোটা মণ্ডপ।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 17,
+      "name": "17",
+      "word_target": 300,
+      "chapter_title": "দশমীর প্রভাত",
+      "chapter_summary": "দশমীর ভোরে শেষ অঞ্জলির প্রস্তুতি — বিদায়ের আগে মায়ের কাছে জমা পড়ে বছরের সমস্ত প্রার্থনা।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 18,
+      "name": "18",
+      "word_target": 300,
+      "chapter_title": "অঞ্জলির হাত",
+      "chapter_summary": "ভক্তের হাত অঞ্জলি হয়ে ওঠে, আর ফুল-বেলপাতার ভেতর দিয়ে নিঃশব্দে মায়ের কাছে পৌঁছে যায় মনের কথা।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 19,
+      "name": "19",
+      "word_target": 300,
+      "chapter_title": "মহিষাসুরের পতন",
+      "chapter_summary": "মহিষাসুরের অহংকারের পতন — দেবীর ত্রিশূলে শেষ হয় অসুরের মত্ততা, আর জন্ম নেয় শক্তির জয়গাথা।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 20,
+      "name": "20",
+      "word_target": 300,
+      "chapter_title": "শক্তির রূপ",
+      "chapter_summary": "দশভুজা দেবীর দশ হাতে দশ অস্ত্র — প্রতিটি হাত একটি রক্ষার প্রতিশ্রুতি, একটি অন্যায়ের উত্তর।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 21,
+      "name": "21",
+      "word_target": 300,
+      "chapter_title": "মায়ের চার সন্তান",
+      "chapter_summary": "লক্ষ্মী, সরস্বতী, কার্তিক আর গণেশ — মায়ের চার সন্তানের সঙ্গে দেবী মর্ত্যের ঘরে ঘরে আশীর্বাদ নিয়ে আসেন।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 22,
+      "name": "22",
+      "word_target": 300,
+      "chapter_title": "উমার কন্যারূপ",
+      "chapter_summary": "দেবী এখানে কন্যা — পাহাড়পুরাণের উমা, যে বাপের ঘরে ফেরে, আর প্রতিটি কন্যার মতো আবার বিদায় নেয়।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 23,
+      "name": "23",
+      "word_target": 300,
+      "chapter_title": "ঢাকের বোল",
+      "chapter_summary": "ঢাকের বোল বুকের ভেতর বেজে ওঠে — সেই তাল কেবল শব্দ নয়, উৎসবের হৃদস্পন্দন।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 24,
+      "name": "24",
+      "word_target": 300,
+      "chapter_title": "ঢাকির হৃদয়",
+      "chapter_summary": "ঢাকির হাতের তালে ঘুম ভাঙে পাড়ার — তার নিজের হৃদয়ও সেই ঢাকের সঙ্গে তাল মিলিয়ে বাজে।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 25,
+      "name": "25",
+      "word_target": 300,
+      "chapter_title": "সিঁদুর খেলার স্নেহ",
+      "chapter_summary": "বিজয়ার সিঁদুর খেলায় মেয়েরা পরস্পরের সিঁথিতে লাল ছুঁইয়ে দেয় — বিদায়ের আগে স্নেহের শেষ আশীর্বাদ।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 26,
+      "name": "26",
+      "word_target": 300,
+      "chapter_title": "বিসর্জনের নদী",
+      "chapter_summary": "প্রতিমা নদীর জলে ভাসে, আর মায়ের ফেরার পথে জলে মিলিয়ে যায় বছরের সমস্ত আনন্দ ও কান্না।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 27,
+      "name": "27",
+      "word_target": 300,
+      "chapter_title": "বিদায়ের চোখের জল",
+      "chapter_summary": "মণ্ডপ থেকে মাকে কাঁধে তুলে নেওয়ার মুহূর্তে চোখে জল — আনন্দ আর বেদনা একই নদীতে মেশে।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 28,
+      "name": "28",
+      "word_target": 300,
+      "chapter_title": "বিজয়ার কোলাকুলি",
+      "chapter_summary": "বিজয়ার কোলাকুলিতে শত্রুও মিত্র হয় — বিদায়ের স্পর্শে ভুলে যায় বছরের সমস্ত দূরত্ব।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 29,
+      "name": "29",
+      "word_target": 300,
+      "chapter_title": "খালি প্যান্ডেলের স্তব্ধতা",
+      "chapter_summary": "মা চলে যাওয়ার পর প্যান্ডেল খালি — সেই স্তব্ধতায় এখনো বাজে ঢাকের প্রতিধ্বনি।",
+      "further_references": []
+    },
+    {
+      "chapter_index": 30,
+      "name": "30",
+      "word_target": 300,
+      "chapter_title": "আবার আসবে মা",
+      "chapter_summary": "বিসর্জনের পরেও থেকে যায় প্রতিশ্রুতি — আসছে বছর আবার হবে; দেবী শেষ হন না, ফিরে আসেন।",
+      "further_references": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "chapter_index": 7,
+  "name": "7",
+  "word_target": 110,
+  "chapter_title": "The Wasted Sketch",
+  "chapter_summary": "The poem gathers the discarded studies — the thrown-away drawings, the abandoned attempts — and argues that the blossom is only the last of a hundred failures, the single surviving leaf of a long pruning.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating each failed sketch not as an artistic misstep but as a topographical map of the painter's cognitive stress under deadline pressure.",
+      "Focusing on the material waste: measuring the physical volume of discarded chalk, charcoal, and preliminary washes against the final yield.",
+      "The act of burning or dissolving the sketches—the deliberate erasure that solidifies the 'finality' of the accepted design."
+    ],
+    "story_options": [
+      "Setting: A pile of dried, crumbled charcoal studies near the scaffolding base; Desire: To sift through them by hand to find one definitive marker that was accidentally preserved; Obstacle: The overwhelming dust obscuring any recognizable form.",
+      "Setting: An abandoned piece of parchment left partially stained with indigo wash; Desire: To carefully peel back a layer of dried pigment hoping to reveal the initial, invisible pencil line beneath; Obstacle: The brittle nature of the old paper threatening total collapse upon contact.",
+      "Setting: A small basin where failed washes have pooled and crystallized over many nights; Desire: To observe how the water evaporated differently across various pigments—ochre vs. azurite—revealing differential chemical absorption; Obstacle: The risk that disturbing the residue will muddy or destroy years of accumulated pigment traces."
+    ],
+    "subject_rotations": [
+      "Framing the sketches as failed conversations with a perfect, idealized image existing only in memory.",
+      "Examining the 'waste' not economically, but spiritually—what is lost when an idea dies before it finds substance?",
+      "Analyzing the shadow play of the discarded studies at different times of day/night, emphasizing how light reveals structure even where pigment fails."
+    ],
+    "sensory_details": [
+      "The sharp, acrid smell of wet chalk grinding against rough plaster during study sessions.",
+      "The sound of a tiny shard of dry lime crumbling between the fingers as it is brushed away from a discarded drawing.",
+      "The tactile sensation of thin, stiff paper buckling under humidity changes after hours spent near damp stone walls."
+    ],
+    "research_questions": [
+      "What are the historical methods used by fresco artists to catalogue or discard preliminary studies before they were deemed unsalvageable?",
+      "How does the chemical stability of various mineral pigments differ when subjected to prolonged exposure to alkaline lime wash?"
+    ],
+    "structural_variants": [
+      "A non-linear progression: start with a perfect, finished fragment from another wall, then flash back through a rapid montage of rejected studies leading up to it.",
+      "The poem structured entirely as an inventory list (a catalogue) of discarded shapes and colors before offering the final thematic argument."
+    ],
+    "variety_note": "This chapter is distinct from its neighbours because it focuses solely on 'un-art'—the materials, sketches, and failures rejected prior to commitment, rather than focusing on performance or finished surfaces. It centers on material epistemology.",
+    "further_references": []
+  },
+  "draft": {
+    "sha256": "080a6b2850f52c32ae6e4df76f11127afc416d4c8520ae175335ef52013ff9e0",
+    "written_at": "2026-10-09T22:12:12.782884+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "080a6b2850f52c32ae6e4df76f11127afc416d4c8520ae175335ef52013ff9e0",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-09T22:14:15+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

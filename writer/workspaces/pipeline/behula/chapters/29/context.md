@@ -1,0 +1,135 @@
+# Chapter model context
+
+## chapter_index
+
+29
+
+## name
+
+29
+
+## word_target
+
+280
+
+## chapter_title
+
+অন্তরের অগ্নিকুণ্ডে অবিরাম আহুতি
+
+## chapter_summary
+
+বাইরের হিমেল বাতাস ও সমাজ-সংসারের শীতল অবহেলার বিপরীতে নিজের অন্তরে ভালোবাসার পবিত্র অনলশিখাকে সজীব রাখার সংগ্রাম।
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+The physics of sustained exothermic reactions at minimal fuel loads.
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing not on the fire itself, but on the residual *heat* it generates—the heat that warms stone or cools the surrounding pervasive cold.
+- Framing the 'Aahuti' (offering) as a quiet negotiation with inner self; the sacrifice is internal rather than external to societal judgment.
+- The sound of sustained devotion: treating the continuous ritualistic act not as silence, but as a specific, rhythmic, almost mechanical resonance that defies the chaos outside.
+
+### story_options
+
+- Setting: A small patch of earth near the riverbank where embers have cooled into dull ash; Desire: To maintain the memory of the flame's peak intensity against the encroaching chill—Obstacle: The physical weight of daily exhaustion, Turn: The realization that the fire’s essence resides in the *intent* to keep it burning.
+- Setting: Inside a confined space (a small dwelling or niche) where only faint warmth remains; Desire: To re-enact a tiny portion of the ritualistic offering purely through muscle memory—Obstacle: Distraction from unseen societal scrutiny, Turn: The internal fire briefly flares in response to the remembered act.
+- Setting: Against the backdrop of pervasive river fog (mimicking emotional cloud cover); Desire: To perceive the invisible filament connecting the inner heat to the external world, suggesting a shared energetic plane—Obstacle: Doubt that this connection is real, Turn: The faint scent of consumed sandalwood or ghee briefly cutting through the damp air.
+
+### subject_rotations
+
+- Treating the 'Agni' (fire) as an unstable thermodynamic process rather than a purely spiritual symbol; how does persistent low-level energy defy entropic decay?
+- Reinterpreting 'Aahuti' not as appeasement, but as a continuous act of self-definition against external definitions imposed by society.
+- Exploring the relationship between sustained internal temperature and the ability to process painful memories (heat enabling cognitive function over despair).
+
+### sensory_details
+
+- The sharp, mineral tang of cold night air biting at exposed skin near a banked fire.
+- The gritty texture of fine ash clinging to clothing after repeated tending.
+- A specific, almost subliminal high-pitched whine (insect sound or structural creak) that seems to be drowned out by the internal focus.
+
+### research_questions
+
+- In Bengali poetic diction, what subtle verbal phrasing conveys sustained, necessary effort against overwhelming environmental inertia without employing grand pronouncements?
+- How can the concept of an 'unseen current' (metaphorical energy flow) be described using only tactile or thermal language?
+
+### structural_variants
+
+- A staccato structure where each short burst describes a moment of intense focus, separated by longer lines describing the external cold inertia.
+- Using an escalating pattern: starting with minute offerings/intense internal heat, gradually moving to larger metaphors as the required maintenance becomes seemingly impossible.
+
+### unused_angles
+
+- Exploring the exhaustion not as a narrative pause, but as a state that *changes* the nature of the offering—a weary prayer vs. an ecstatic one.
+- Focusing on the sound of the fuel burning down to its last structural element before ash forms.
+
+### variety_note
+
+Where previous chapters focused heavily on external pressures (society, family) or journey mechanics (the boat), this chapter must internalize the conflict—making the fire a purely psychological battleground against environmental indifference.
+
+## draft
+
+### sha256
+
+f7097a36558ef827d2f8722266535262c6041b8ceeee96334d422c2932b15879
+
+### written_at
+
+2026-10-21T14:07:48.315285+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+f7097a36558ef827d2f8722266535262c6041b8ceeee96334d422c2932b15879
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-21T16:19:57+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

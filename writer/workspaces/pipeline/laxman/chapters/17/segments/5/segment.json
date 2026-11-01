@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 5,
+  "total_segments": 6,
+  "chapter_index": 17,
+  "name": "17",
+  "chapter_title": "খাজুরাহোর পথের গুজব",
+  "chapter_summary": "খাজুরাহোর পথে ছড়িয়ে পড়া গুজব সেন বাহিনীর মধ্যে গভীর অনিশ্চয়তা সৃষ্টি করে, যখন চন্দেল, কর্ণাট, রাজপুত এবং অন্যান্য আঞ্চলিক শক্তির সংবাদ শিবিরগুলি রাজনৈতিক অস্থিরতার ইঙ্গিত দেয়। এই সময়ে, নাটকের ওয়ার্কশপে অভিনেতারা উপলব্ধি করেন যে ইতিহাসের গতিপ্রকৃতি কেবল একক রাজার সংঘাতের মধ্যে সীমাবদ্ধ নয়, বরং তা অসংখ্য জোট এবং বিশ্বাসঘাতকতার জটিল জালের দ্বারা চালিত। যুবরাজ লক্ষ্মণ সেন এই পরিস্থিতিতে শিখতে শুরু করেন যে বিজয়ের পথ মসৃণ নয়; বরং এটি জোট গঠনের সূক্ষ্ম কৌশল এবং অপ্রত্যাশিত বিশ্বাসঘাতকতার মুখোমুখি হওয়ার এক কঠিন পরীক্ষা। এই রাজনৈতিক সমীকরণের গভীরে, লক্ষ্মণ সেন কি এই অস্থির পরিস্থিতিতে সেন সাম্রাজ্যের ভাগ্যকে সুরক্ষিত করতে সক্ষম হবেন, নাকি জোটের ভাঙনই হবে চূড়ান্ত পরিণতি?",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "Examining the cognitive dissonance within the military camp: how soldiers reconcile their loyalties to Sen versus the overwhelming tide of external threat narratives brought in by travelers.",
+    "status": "enriched"
+  }
+}

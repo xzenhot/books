@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+30
+
+## name
+
+30
+
+## word_target
+
+300
+
+## chapter_title
+
+আবার আসবে মা
+
+## chapter_summary
+
+বিসর্জনের পরেও থেকে যায় প্রতিশ্রুতি — আসছে বছর আবার হবে; দেবী শেষ হন না, ফিরে আসেন।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the return not as a deity's choice, but as an environmental necessity—the river needs her energy to flow next year.
+- Centering on a single object that remains after immersion (a discarded strand of decoration or burnt incense) and uses its slow decay as metaphor for memory.
+- Exploring the generational aspect: how the oldest attendees hold the promise versus how the youngest interpret it, approaching it with modern skepticism rather than ritual certainty.
+
+### story_options
+
+- Setting: The quiet edge of a village well or pond post-immersion; Desire: To focus on one child tracing patterns in the wet mud, believing these marks are the blueprint for next year's arrival; Obstacle: The indifferent current of the water.
+- Setting: A single, untouched corner of the dismantled Pandal structure; Desire: To follow a craftsman meticulously sweeping away dust while unconsciously rebuilding fragments into recognizable shapes; Obstacle: The urge to collapse under exhaustion and abandon the ritual cleanliness.
+- Setting: One specific homeowner's veranda overlooking the river; Desire: To detail the physical act of sealing away the remnants of the festival (the clay shards, the leftover paint) in a locked tin, safeguarding the promise from intrusion or decay; Obstacle: The temptation to throw them into the mundane household trash instead.
+
+### subject_rotations
+
+- Shifting the focus entirely from 'arrival' to the concept of 'in-between time'—the vast temporal gap between one year's departure and the next year's anticipation.
+- Treating the promise ('আবার আসবে মা') as a biological imperative or seed-bearing mechanism, not purely theological, connecting it to seasonal natural cycles (like the rice paddies).
+- Viewing the cyclical return through the lens of exhaustion: how the community survives the energetic drain after such monumental outpouring only by holding this abstract future commitment.
+
+### sensory_details
+
+- Sight: The specific way the late afternoon sun hits the dried, ochre dust motes still clinging to a discarded bundle of jute.
+- Sound: The absolute absence of high-frequency noise—no bells, no rhythmic drum beats, only the low, constant hum of cicadas in the gathering twilight.
+- Touch: The coarse, papery texture of sun-baked clay remnants left outside the main temple structure.
+
+### research_questions
+
+- What precise cultural rituals exist to mark the *end* of a festival year that are not immediately related to mourning or celebration (e.g., cleaning specific sacred tools)?
+- Are there established local metaphors in Bengali folklore for cyclical time that emphasize dormancy rather than just renewal?
+- How do contemporary urban communities manage this promise when physical participation is difficult?
+
+### structural_variants
+
+- A non-linear structure where the final lines of one stanza pull forward a single, specific detail from Chapter 1 (মহালয়ার প্রথম ভোর) to suggest continuity.
+- A recursive form: beginning and ending with near-identical syntactical structures describing emptiness.
+
+### unused_angles
+
+- The political implications of tradition maintenance in an ever-changing social landscape, viewed through the lens of this cyclical commitment.
+- Examining the role of modern media/recordings (a single photograph or audio clip) as a proxy for the deity's presence during the dormant season.
+
+### variety_note
+
+This chapter must resist the pathos of Item 27 and the stasis of Item 29; its energy must be purely promissory, using quiet imagery to project massive future momentum.

@@ -1,0 +1,49 @@
+{
+  "chapter_index": 39,
+  "name": "39",
+  "word_target": 280,
+  "chapter_title": "আত্মমর্যাদার অলিখিত সনদ",
+  "chapter_summary": "যে সমাজ তাকে পদানত করতে চেয়েছিল, তার নিজের চরিত্রবলই আজ তাকে সমাজের সমস্ত বিধানের ঊর্ধ্বে এক অনন্য উচ্চতায় তুলে ধরে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating 'Dignity' (আত্মমর্যাদা) not as a defended possession against external attack, but as an actively generated state—a difficult, sustained creation.",
+      "Shifting the focus from justifying her actions to experiencing the internal architecture of self-worth when all societal scaffolding has collapsed.",
+      "Framing the 'unwritten charter' (অলিখিত সনদ) not as a proclamation, but as an internalized dialogue with a lost ideal or progenitor figure."
+    ],
+    "story_options": [
+      "setting: The quiet solitude following a major confrontation/victory, desire: To find confirmation that her self-defined value is stable, despite the chaos around her., obstacle: The silence itself, which threatens to swallow the hard-won affirmation of self., turn: She does not seek validation from the outside world but instead grounds herself in a specific physical memory or sensation from the struggle.",
+      "setting: A threshold—the line between public acceptance and private understanding, desire: To articulate the precise, subtle language of her own internal law., obstacle: The temptation to revert to older, socially prescribed modes of appeal or justification., turn: She repeats a phrase not as an appeal, but as a self-administered mantra—a private ritual that defies external consumption.",
+      "setting: A place of reflection (perhaps near the water's edge, referencing earlier journeys), desire: To address the spectral presence of someone who witnessed her struggle and now remains unheard., obstacle: The emotional weight preventing the sustained repetition required by the primary lens., turn: The unanswered address becomes a structural device; the echo she seeks is only ever generated internally, forcing focus inward."
+    ],
+    "subject_rotations": [
+      "Examining 'Dignity' (আত্মমর্যাদা) as kinetic energy: how it pushes outward against pressure rather than merely resisting penetration.",
+      "The nature of the 'unwritten': exploring what happens when codified social norms are utterly replaced by a self-authored code of conduct.",
+      "Focusing on the exhaustion inherent in maintaining an uncompromising stance—the sheer muscular effort required for moral consistency."
+    ],
+    "sensory_details": [
+      "The gritty texture of salt or river clay under fingernails after long periods of unwavering resolve.",
+      "The precise, high-pitched sound of a single, sustained note held just before breaking—a moment of controlled tension.",
+      "A sharp, dry sensation in the throat from speaking truths that have been rigorously rehearsed internally."
+    ],
+    "research_questions": [
+      "How can the concept of 'self-generation' be poetically rendered without dissolving into sheer abstraction?",
+      "In Bengali literary contexts, what specific physical gestures accompany private affirmation or unbreakable resolve?"
+    ],
+    "structural_variants": [
+      "An extended canto built almost entirely on variations and slight modulations of a single, core declarative phrase.",
+      "A dialogue structure where one voice is the speaker's interiority (the assertion) and the other is an imagined, unresponsive audience/past self."
+    ],
+    "variety_note": "This chapter moves away from external conflict resolution toward internal ratification; it focuses on the *process* of self-definition rather than the outcome of a battle or plea seen in previous chapters."
+  },
+  "draft": {
+    "sha256": "5dec798e6873d2db825a39f4cb6933094729afed8a936616c6dbaaa221a11835",
+    "written_at": "2026-10-21T16:32:20.221794+00:00",
+    "origin": "write"
+  }
+}

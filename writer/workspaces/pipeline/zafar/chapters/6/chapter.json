@@ -1,0 +1,65 @@
+{
+  "chapter_index": 6,
+  "name": "6",
+  "word_target": 400,
+  "chapter_title": "বংশের রক্তপাত: মৃত্যুদণ্ড ও উত্তরাধিকারের চরম আঘাত",
+  "chapter_summary": "এই অধ্যায়টি জাফর-এর ব্যক্তিগত মহত্ত্বের উপর আরোপিত সবচেয়ে নৃশংস আঘাতের চিত্রায়ণ করে—পুত্র ও পৌত্রদের মৃত্যুদণ্ড এবং তাদের ছিন্ন মস্তক সম্রাটের সামনে উপস্থাপন। এটি কেবল একটি রাজনৈতিক হত্যাকাণ্ড নয়, বরং একটি সম্পূর্ণ সাংস্কৃতিক উত্তরাধিকারের উপর ঔপনিবেশিক শক্তির চূড়ান্ত, প্রতীকী আক্রমণ। আখ্যানটি দেখায় কীভাবে সর্বোচ্চ ক্ষমতার অধিকারী একজন ব্যক্তি তার বংশের অস্তিত্ব রক্ষার শেষ চেষ্টা করেও ব্যর্থ হন, যখন প্রশাসনিক বর্বরতা ব্যক্তিগত মর্যাদাকে পদদলিত করে। প্রশ্নটি উত্থাপিত হয়: যখন বংশের রক্তপাতকে রাষ্ট্রীয় 'নিরাপত্তা'র নামে বৈধতা দেওয়া হয়, তখন মানবিক মর্যাদা কোথায় আশ্রয় খুঁজে পায়?",
+  "further_references": [
+    {
+      "no": "2",
+      "reference": "দেবীমাহাত্ম্য নয় — বরং ১৮৫৭-র সমসাময়িক বিবরণ ও ব্রিটিশ প্রতিবেদন",
+      "weblink": ""
+    },
+    {
+      "no": "4",
+      "reference": "উইলিয়াম ডালরিম্পলের 'The Last Mughal'",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing intensely on the administrative documentation surrounding the execution order—how mundane bureaucratic language sanitizes ultimate violence.",
+      "A subjective experience of time during the waiting period, where seconds stretch into geological epochs reflecting the dissolution of imperial time.",
+      "The silent, visceral reaction of a trusted retainer who is forced to witness this event while simultaneously trying to maintain professional composure."
+    ],
+    "story_options": [
+      "Setting: The receiving room adjacent to the courtyard. Desire: জাফর fixates on a specific, small heirloom (a signet ring, a favorite pen) before it is confiscated/destroyed; Obstacle: A guard's indifference prevents him from accessing it; Turn: He stares at his own reflection in a polished floor tile as the violence unfolds.",
+      "Setting: Just prior to the procession. Desire: জাফর attempts to formulate a final, dignified address or prayer for his lineage before they are led out; Obstacle: The sheer overwhelming presence of foreign military officials renders any oratorical attempt hollow; Turn: He falls silent, accepting that language itself has failed him.",
+      "Setting: A brief moment alone after the primary act. Desire: To seek solace in a single stanza from Ghalib's work (a poem he holds as a shield); Obstacle: The stain of blood or the visible scars left by the event are too immediate and profane for art to soothe; Turn: He recognizes that his poetry, once salvation, is now merely another archived document."
+    ],
+    "subject_rotations": [
+      "Treating the execution not as a tragedy inflicted *upon* জাফর, but as the definitive severing of an ontological link—the physical manifestation of 'Sovereignty' being physically excised.",
+      "Shifting focus from the political actors to the concept of 'Inheritance' itself; what specific duties did these heirs owe to their lineage that were violently invalidated?",
+      "Analyzing the symbolism of the *manner* of death (decapitation/presentation) as a deliberate act designed not merely to remove life, but to erase legitimate succession in the eyes of both tradition and foreign power."
+    ],
+    "sensory_details": [
+      "The smell of damp earth mingling with stale iron from spilled blood on the stone courtyard.",
+      "The grating, rhythmic sound of heavy leather-soled boots marching across flagged marble during the presentation.",
+      "A sudden, overwhelming blast of cold, unfiltered desert wind entering the enclosed chamber moments before the action."
+    ],
+    "research_questions": [
+      "What specific non-verbal cues or gestures were traditionally reserved for a sovereign in such ceremonies that could have momentarily broken the rigidity of the proceedings?",
+      "How might 19th-century Indian court records distinguish between 'political execution' and 'familial disciplinary action' under colonial observation, and what linguistic slippage would occur?",
+      "What rituals related to displaying heads or bodies existed within Mughal protocols that this specific act violently subverted?"
+    ],
+    "structural_variants": [
+      "A highly compressed, almost clinical sequence of events mirroring a legal deposition, contrasting sharply with the inner turmoil.",
+      "Beginning with an image of silence and stillness (the aftermath), then spiraling backward through the necessary preceding bureaucratic steps that made the violence possible."
+    ],
+    "unused_angles": [
+      "The role of specific religious interpretations being leveraged by administrators to justify the brutality as divinely ordained or legally requisite.",
+      "A detailed focus on a single, ignored object (a broken sword, an overturned ceremonial vessel) left in the immediate aftermath for later symbolic examination."
+    ],
+    "variety_note": "Unlike previous chapters which dealt with intellectual or administrative decay, this chapter demands a visceral commitment to irreversible physical trauma. The repetition lens will be used here not as rhythmic solace, but as maddening fixation on small details amidst overwhelming horror."
+  },
+  "draft": {
+    "sha256": "db39efe1c41f2b134e1199b79ac813ea519ef81d53361a874f61dc213ef42c0a",
+    "written_at": "2026-10-29T19:59:08.767058+00:00",
+    "origin": "write"
+  }
+}

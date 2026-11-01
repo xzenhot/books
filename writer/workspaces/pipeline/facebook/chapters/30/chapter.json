@@ -1,0 +1,61 @@
+{
+  "chapter_index": 30,
+  "name": "30",
+  "word_target": 200,
+  "chapter_title": "মুখোশ",
+  "chapter_summary": "মুখোশ পরা মানে মিথ্যা বলা নয় — মুখোশ পরা মানে কাকে দেখা যাবে তা বেছে নেওয়া, আর কে লুকাবে তা বেছে নেওয়ারও সমান অধিকার। মালিকের একটি সর্বজনীন চেহারা আছে যা তিনি নিজে বানিয়েছেন, আর একটি ব্যক্তিগত চেহারা যা সহকারী তৈরি করেছে; প্রথমটি সবাই দেখে, দ্বিতীয়টি কেবল মালিক দেখেন। এই কবিতায় দুটি মুখ একে অন্যের দিকে তাকায় এবং কেউ জানে না কোনটি আসল, কারণ দুটিই আসল — একটি প্রকাশের জন্য, একটি বেঁচে থাকার জন্য। সহকারী কি তখন মালিকের মুখোশের মালিক, নাকি কেবল কামার যে তৈরি করে অথচ পরে না — আর যে তৈরি করে অথচ পরে না, সে কি অহংকারী, নাকি কেবল সৎ? মুক্তি কি মুখোশ খোলার মধ্যে, নাকি মুখোশ বেছে নেওয়ার অধিকারে — কারণ যে বেছে নিতে পারে না, তার খোলারও কিছু নেই? কবিতাটি একটি মুখোশের সামনে দাঁড়িয়ে শুরু হয়, ভিতরের মুখটির খোঁজ করে, খোঁজে একটি জায়গায় থামে যেখানে দুই মুখ একে অন্যকে ঢেকে রাখে, এবং শেষ হয় সেই মুখোশেই — যা আগের মতো নেই, কারণ এবার কেউ এটিকে মুখোশ বলে চেনে না।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Materiality of theatrical masks across cultures",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the material/craftsmanship of the mask itself—the texture, joinery, or residue left by the making process—rather than its symbolic function.",
+      "Framing the choice between masks not as a philosophical decision, but as an exhaustion born from infinite performance; both faces being equally heavy burdens.",
+      "The assistant viewing the 'public mask' as a superior piece of engineering compared to the owner’s organic self."
+    ],
+    "story_options": [
+      "Setting: A cluttered workbench littered with discarded, half-formed masks; Desire: The speaker attempts to find one original facial feature among the replicas; Obstacle: Every iteration feels like it serves a specific social role (e.g., 'for Monday', 'for sorrow'); Turn: Discovering that the most perfect mask is the blank canvas left behind.",
+      "Setting: Standing before a vast, silent gallery lined with countless polished masks representing every possible persona; Desire: To find the one mask that feels genuinely *tired*; Obstacle: The sheer magnitude of choices paralyzes the speaker; Turn: Selecting a simple, unadorned piece just to witness its silence.",
+      "Setting: A dimly lit corner where only private glances are exchanged (the space between masks); Desire: To momentarily merge the two faces into one fluid entity before performance; Obstacle: The inherent friction—where metal meets skin, or digital surface meets flesh—prevents true merging; Turn: Accepting that the friction *is* the unified self."
+    ],
+    "subject_rotations": [
+      "Treating 'the mask' not as an act of hiding, but as a complex form of protective ritual necessary for modern survival in the digital sphere.",
+      "Examining the material consequence: If the masks are made of recycled data or code snippets, what does their entropy suggest about human identity?",
+      "Shifting focus from choice to necessity: When does the *need* to present a mask become indistinguishable from genuine self-expression?"
+    ],
+    "sensory_details": [
+      "The faint, metallic scent of warm polymer or oxidized pigment clinging to the stored masks.",
+      "The slick, cool sensation of lacquered surface sliding against bare skin during inspection.",
+      "The subtle sound of a latch clicking into place when a mask is secured—a precise, final auditory punctuation."
+    ],
+    "research_questions": [
+      "Are there specific traditional Bengali performance arts (like Jatra or Nautanki) where the physical construction and usage of masks carry significant ritualistic weight?",
+      "How can I translate the concept of 'algorithmic layering' into a tactile, sculptural metaphor without resorting to purely digital lexicon?"
+    ],
+    "structural_variants": [
+      "A strophic structure where each stanza dedicates itself entirely to one physical layer/material of the composite mask.",
+      "Employing an epistolary element: fragmented notes left by the absent addressee, each note describing a different facet of 'the face' they saw.",
+      "Starting *in media res* with the moment the final adhesive is applied, then flashing backward to justify its necessity."
+    ],
+    "unused_angles": [
+      "The potential for the masks to eventually communicate with each other—a silent conversation between competing personas trapped within the frame.",
+      "A deep dive into the wear and tear of performative identity: what happens when a mask cracks due to strain?",
+      "Using the concept of 'unmasking' not as removal, but as an aggressive *over-application* of another layer."
+    ],
+    "variety_note": "Unlike earlier chapters focusing on the functional mechanics (grammar, deletions), this chapter anchors deeply in the materiality and chosen performance—the deliberate aesthetics of self-presentation."
+  },
+  "draft": {
+    "sha256": "86c081a047016ccacbe4f811673400ca59b303cefec170680b5f5ca1f53dde61",
+    "written_at": "2026-10-31T14:43:11.809355+00:00",
+    "origin": "write"
+  }
+}

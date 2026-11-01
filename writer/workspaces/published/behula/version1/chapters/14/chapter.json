@@ -1,0 +1,61 @@
+{
+  "chapter_index": 14,
+  "name": "14",
+  "word_target": 280,
+  "chapter_title": "মাঝনদীর নিস্তব্ধতায় সংশয় জয়",
+  "chapter_summary": "অন্ধকার রাতে মানবীয় ক্লান্তি ও সংশয় এলেও সে দোলাচলে হার মানে না; বরং দ্বিধাকে বুকে ধারণ করেই প্রার্থনার প্রদীপকে জ্বালিয়ে রাখে।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The poetics of vigil and stillness in Bengali literary tradition",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing doubt not as a failure of faith, but as the necessary counterpart to conviction—the tension between what is certain (love) and what must be endured (waiting).",
+      "Treating silence itself as an active entity; the 'নিস্তব্ধতা' isn't just absence of sound, but a pressure exerted by unresolved spiritual questions.",
+      "Shifting focus from external obstacles to the internal landscape of fatigue: how physical exhaustion becomes indistinguishable from spiritual uncertainty."
+    ],
+    "story_options": [
+      "Setting: The absolute trough between two moon cycles; Desire: To articulate the moment when hope dims, forcing a confrontation with the sheer weight of her solitary vigil on the raft.",
+      "Setting: Just before the first hint of pre-dawn light breaks the horizon; Desire: A sudden, almost physical urge to surrender to exhaustion and let go of the desperate ritualistic pursuit.",
+      "Setting: Amidst the subtle, creeping chill that settles onto the water at night's deepest point; Desire: To find a micro-moment of grounding—a singular anchor (the feel of wood, the smell of river silt) against the vastness of her doubt."
+    ],
+    "subject_rotations": [
+      "Focusing purely on the dialectic between *Dharma* (duty/ritual adherence) and visceral human need for relief or answer.",
+      "Treating 'doubt' as a temporary, necessary phase in profound spiritual endeavor—a purification stage rather than an endpoint of failure.",
+      "Exploring the vulnerability inherent in prolonged self-exposure on the open water under surveillance of unseen forces (the river spirits/gods)."
+    ],
+    "sensory_details": [
+      "The metallic scent of cold water clinging to exposed skin at night, contrasting with the dry heat radiating from a small lamp.",
+      "A sound profile dominated by extremely low-frequency resonance—the deep thrumming vibration of the river current against the raft's hull.",
+      "The texture of worn threadbare fabric pressed into dampness during long hours of motionless waiting."
+    ],
+    "research_questions": [
+      "How can Bengali poetic diction effectively portray a state of 'active stasis,' where movement is impossible but mental striving remains absolute?",
+      "What imagery captures the psychological sensation of time slowing down radically when faced with an eternal, unresolved crisis?"
+    ],
+    "structural_variants": [
+      "A circular structure: beginning and ending in near-identical atmospheric conditions (e.g., identical quality of darkness), but showing a subtle shift in internal resolve.",
+      "A bifurcated structure: alternating sections between the highly externalized, vast imagery of the night/river vs. intensely close focus on her breath/hand holding the lamp.",
+      "An accelerating cadence that subtly builds throughout the piece, suggesting not action, but increasing mental pressure."
+    ],
+    "unused_angles": [
+      "The political weight of a single female figure existing outside established societal structures (a quiet rebellion against rigid expectation).",
+      "A metaphorical examination of the raft as a temporary, fragile 'liminal space' where conventional laws cease to apply.",
+      "Using highly specific vocabulary from navigation or deep water travel to ground her internal state in tangible risk."
+    ],
+    "variety_note": "Unlike previous chapters which focus on overt conflict (attacks, societal scorn), this piece zeroes in on the quiet friction between endurance and mental fatigue during a vigil of sustained hope."
+  },
+  "draft": {
+    "sha256": "c8b3b64f7dea344125a7f8aaafa4e20dc1455873bf43e641065b57a4303bd9ed",
+    "written_at": "2026-10-21T14:04:55.028183+00:00",
+    "origin": "write"
+  }
+}

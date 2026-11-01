@@ -1,0 +1,93 @@
+# Chapter model context
+
+## chapter_index
+
+41
+
+## name
+
+41
+
+## word_target
+
+250
+
+## chapter_title
+
+মায়ের হাতের কথা মনে পড়া
+
+## chapter_summary
+
+মায়ের হাতের কথা মনে পড়ে, আঙুলের চাপ, পুরের মাপ, ভাজার ধৈর্য। মনে পড়ার এই তালিকায় কিছুই লেখা নেই।
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+Metaphorical representation of muscle memory in culinary arts across cultures
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing entirely on the subtle physical memory left in the hands after kneading/shaping, treating the palm as a geographical map of longing.
+- Framing 'mother's touch' not through warmth or flavour, but through a deliberate, almost painful precision—the mathematical exactitude of tradition against modern chaos.
+- The poem narrated from the perspective of an inherited tool (e.g., a specific cutter, a worn spatula) that has traversed continents.
+
+### story_options
+
+- setting: একটি পুরনো কাঠের সোপান, desire: সেই নির্দিষ্ট হাতের টান অনুভব করা যা ময়দার নরম কণার মধ্যে লুকিয়ে ছিল, obstacle: অতিরিক্ত ঠান্ডা পরিবেশের কারণে স্মৃতিগুলো কঠিন পাথরের মতো জমে গেছে, turn: স্মৃতির সেই স্পর্শ হঠাৎ করে একটি তীক্ষ্ণ, অচেনা বাতাসের ধাক্কায় ভেঙে পড়ে।
+- setting: একটি ভাঙা আয়না বা কাঁচের টুকরো, desire: নিজের হাতের আকারকে মায়ের হাতের আকারের সঙ্গে মিলিয়ে দেখা, obstacle: প্রতিফলনটি সর্বদা বিকৃত এবং সময়ের সাথে পরিবর্তিত হচ্ছে, turn: আয়নার ফাটল বরাবর সেই হারানো স্পর্শের একটি রেখা খুঁজে পাওয়া।
+- setting: ভ্রমণ ব্যাগের ভেতরের ভাঁজ করা কাপড়, desire: ঐ হাত ও মাটির গন্ধে স্থিতিশীলতা খোঁজা যা সময়ের সাথে বিলীন হয়েছে, obstacle: গন্ধটি কেবল ধুলো আর পুরোনো কাপড়ের মিশ্রিত একটি নিস্তেজ অনুরণন মাত্র, turn: ভাঁজের ভেতর থেকে আলগা হয়ে পড়া একটি ছোট, শুকনো আদার টুকরো অপ্রত্যাশিতভাবে স্মৃতিকে সজাগ করে তোলে।
+
+### subject_rotations
+
+- Treating the act of remembering not as retrieval (what was), but as an active process of re-creation (making it happen again in thought).
+- Analyzing the 'mother's hand' across generations—how memory distorts when passed down without literal action.
+- Contrasting the organic, intuitive knowledge embodied by the mother against codified, written recipes.
+
+### sensory_details
+
+- The dry, papery texture of a folded cloth carrying residual warmth/oil traces from past shaping.
+- A phantom sensation of finely milled flour dusting the fingertips after long absence.
+- The low-frequency hum (resonance) felt in one's bones when recalling the steady rhythm of manual work.
+
+### research_questions
+
+- In Bengali culinary metaphors, what exists to represent an 'intuitive measurement' that surpasses empirical documentation?
+- How can I evoke the distinct tactile difference between a hand accustomed to soft, home-baked dough versus one handling foreign, industrial starches?
+
+### structural_variants
+
+- A poem structured as a series of non-sequitur fragments—each fragment being an isolated gesture (a pinch, a roll) detached from its original context.
+- Using the rhythmic pattern of repetitive motion (kneading/shaping) to establish the poem's underlying beat before allowing it to fracture dramatically.
+
+### unused_angles
+
+- The specific socio-economic implication of having a mother capable of imparting culinary knowledge versus reliance on outsourced, mass-produced food.
+- A section dedicated solely to the sound profile: the sigh of dough under pressure vs. the harsh clatter of foreign utensils.
+
+### variety_note
+
+This chapter shifts focus entirely from the finished product (like 'flavour') or the journey ('border'), locking down on the pre-cooking intimacy—the tactile blueprint imprinted by memory upon the hands.

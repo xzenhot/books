@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+29
+
+## name
+
+29
+
+## word_target
+
+300
+
+## chapter_title
+
+খালি প্যান্ডেলের স্তব্ধতা
+
+## chapter_summary
+
+মা চলে যাওয়ার পর প্যান্ডেল খালি — সেই স্তব্ধতায় এখনো বাজে ঢাকের প্রতিধ্বনি।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Viewing the stillness not as absence, but as a temporary, resonant compression—the sound of all prior energy packed into absolute quiet.
+- Shifting the focus from the architecture (Pandal) to the human residues: scattered ash, fallen threads, misplaced bangles left by hurried departures.
+- A meditation on the 'unfolding' silence; instead of immediate cessation, the stillness itself is a slow, almost audible process of decay and settling.
+
+### story_options
+
+- Setting: The empty pandal's inner sanctum, post-Bisharjan; Desire: To trace the outlines of where the deity stood against the fading dust motes caught in a single shaft of late afternoon sun; Obstacle: The pervasive scent of damp clay and burnt camphor that refuses to dissipate; Turn: Realizing this specific quietude is more palpable than the celebration itself.
+- Setting: Just outside the main Pandal entrance, where lingering crowds have dispersed but debris remains; Desire: To pick up a single, forgotten piece of vibrant ceremonial fabric (like an orange sash); Obstacle: The difficulty in anchoring any meaning to such mundane refuse after the divine spectacle; Turn: Finding that this one small scrap holds the pattern of every shared ritual moment.
+- Setting: A peripheral spot, perhaps a storage area adjacent to the main structure; Desire: To observe residual traces—the imprint on the floor where a weight rested for days; Obstacle: The temptation to fill the space with grand memory rather than detailing the empty shape itself; Turn: Accepting that the true form of 'Maa' is now only this negative space.
+
+### subject_rotations
+
+- Treating the Pandal structure not as a container for divinity, but as a temporary scaffolding built by human labor, whose essential function—holding up weight—is now complete and irrelevant.
+- Examining the silence through the lens of sound physics: analyzing how echoes decay differently in a space saturated with dense ritual noise versus one suddenly emptied.
+- Reframing the 'stillness' as an aggressive vacuum; it is not merely quiet, but the forced removal of all momentum left behind by celebration.
+
+### sensory_details
+
+- Sight: The way dust motes drift visible in a final beam of low-angled sun cutting through the draped fabric.
+- Smell: A complex mix of wet, cool concrete absorbing lingering traces of sweet incense and charred camphor residue.
+- Sound: Not the sound that has stopped, but the *quality* of the silence—a heavy pressure against the eardrums rather than a mere lack of noise.
+
+### research_questions
+
+- Are there specific ritualistic practices involving 'clearing' or sanctifying the physical spaces (pandals) immediately after Durga Puja concludes, beyond general cleanup?
+- How do regional Bengali poetic traditions describe silence—is it treated as a negative space that must be filled, or an active presence?
+- What are the established metaphorical usages of 'empty space' in devotional literature regarding cyclical return?
+
+### structural_variants
+
+- A long-form catalog poem where each line enumerates one forgotten small object left within the Pandal.
+- Structuring the piece around a deliberate, gradual tightening of focus: from the vast expanse of the empty ground to the microscopic texture of spilled glitter on the floor.
+
+### unused_angles
+
+- The relationship between the local market vendors who supplied materials and their immediate return to mundane commerce after the cessation of the festival's economic surge.
+- A brief focus on a specific, non-religious participant (a young helper or delivery person) as they clean up, experiencing the quiet before they leave the frame entirely.
+
+### variety_note
+
+This chapter shifts away from action and dynamic presence (like the construction or procession), instead dwelling solely within the resonant aftermath—the auditory and visual texture of post-event emptiness, unlike chapters focusing on vibrant ritual noise.

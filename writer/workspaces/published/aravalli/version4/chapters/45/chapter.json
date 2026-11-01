@@ -1,0 +1,28 @@
+{
+  "chapter_index": 45,
+  "name": "45",
+  "word_target": 500,
+  "chapter_title": "দৈত্যের ছাই",
+  "chapter_summary": "ডাইনোসরের হাড়ের গুঁড়ো পাহাড়ের বুকে চাপা — বিলুপ্ত দৈত্যদের সূক্ষ্ম ছাই।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "8c13ce8b1468585312856259997f6e3d421c28b18b5e8b58a1044fca73109477",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

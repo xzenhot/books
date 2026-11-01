@@ -1,0 +1,35 @@
+{
+  "chapter_index": 92,
+  "name": "92",
+  "word_target": 500,
+  "chapter_title": "নদীর চরা",
+  "chapter_summary": "The chapter, \"নদীর চরা\" (The River's Shifting Banks), explores the profound disillusionment stemming from impermanence, encapsulated in the proverb that life is like the constantly shifting sandbar of a river. The central conflict revolves around the protagonist's struggle to maintain faith and trust in relationships and circumstances that prove as fluid and unreliable as the river's ever-changing banks. Key imagery is dominated by the vast, unpredictable expanse of the river, mirroring the protagonist's internal turmoil as he watches solid ground dissolve into mist. This pervasive instability leaves the reader questioning whether genuine, lasting anchors exist in a world defined by constant, beautiful flux.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অস্থির",
+      "role": "চরিত্র প্রধান"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "নদীর চরা যেভাবে স্থান পরিবর্তন করে, সেই অস্থিরতার চিত্রটি তৎকালীন সামাজিক অস্থিরতাকে প্রতিফলিত করে।",
+    "human_in_the_loop": "অস্থির বিশ্বাস তার ভেতরের দ্বিধা ও অনিশ্চয়তার মাধ্যমে পাঠকের সাথে সরাসরি সংযোগ স্থাপন করে।",
+    "influence_of_other_works": "এই অধ্যায়ের ভাবধারা লোককথা এবং প্রবাদ-প্রবচনের গভীরতাকে স্মরণ করিয়ে দেয়।",
+    "cultural_relevance": "নদীর চরের পরিবর্তনশীলতা বাংলার কৃষিনির্ভর জীবনযাত্রার একটি চিরন্তন সাংস্কৃতিক প্রতীক।",
+    "literary_style": "প্রবাদকে কবিতার মতো করে উপস্থাপন করার শৈলীটি গদ্যে কাব্যিক মাধুর্য এনেছে।",
+    "narrative_techniques": "চরিত্রের মানসিক অবস্থাকে নদীর চরের পরিবর্তনশীলতার সাথে তুলনা করে লেখক শক্তিশালী রূপক ব্যবহার করেছেন।",
+    "symbolism_and_motifs": "নদীর চর এখানে বিশ্বাসযোগ্যতার অভাব এবং ক্ষণস্থায়ীতার মূল প্রতীক হিসেবে কাজ করছে।",
+    "reader_engagement_strategies": "পাঠককে প্রশ্ন করা হয়—কীভাবে এমন অস্থিরতাকে বিশ্বাস করা সম্ভব?",
+    "ethical_considerations": "অস্থিরতার কারণে সৃষ্ট মানবিক সম্পর্কের ভাঙন নৈতিক প্রশ্ন উত্থাপন করে।",
+    "potential_controversies": "পরিবর্তনশীলতাকে মেনে না নেওয়ার মানসিকতা সমাজের স্থিতাবস্থা নিয়ে বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি জীবনের পরিবর্তনশীল প্রকৃতির মাধ্যমে সকল স্তরের মানুষের অভিজ্ঞতার প্রতিফলন ঘটায়।",
+    "marketing_and_promotion": "‘নদীর চরা’ শিরোনামটিই পাঠককে অস্থিরতা ও গভীরতার এক নতুন জগতে টেনে আনার প্রতিশ্রুতি দেয়।",
+    "significance_of_rise_of_bengal": "এই অস্থিরতা তৎকালীন বাংলার সামাজিক কাঠামোতে আসা গভীর পরিবর্তনের ইঙ্গিত বহন করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

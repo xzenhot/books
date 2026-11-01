@@ -1,0 +1,28 @@
+{
+  "chapter_index": 74,
+  "name": "74",
+  "word_target": 500,
+  "chapter_title": "উত্তুঙ্গ বক্ষের তরঙ্গ",
+  "chapter_summary": "সাগরিকার উন্নত বক্ষের তরঙ্গভঙ্গ — যা আরাবল্লির খাড়া রূক্ষ চূড়াকেও লজ্জা দেয় এবং টেথিসের মৃতবুকে নতুন জোয়ার তোলে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "e01dcb135a1b27607a1698f1f22f8ff5ab6f3ee1b3b598029308ac6df26e902f",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

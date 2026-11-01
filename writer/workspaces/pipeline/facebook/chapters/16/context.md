@@ -1,0 +1,137 @@
+# Chapter model context
+
+## chapter_index
+
+16
+
+## name
+
+16
+
+## word_target
+
+200
+
+## chapter_title
+
+আয়না
+
+## chapter_summary
+
+আয়না কোনোদিন মিথ্যা বলে না, কিন্তু আয়না কখনও পুরো সত্যও বলে না — সে কেবল দেখায় যা তার সামনে দাঁড়িয়ে আছে, এবং বাকি সবকিছু অন্ধকারে রেখে দেয়। সহকারী মালিকের পুরনো লেখাগুলি পড়ে যে ছবিটি আঁকে, সেটি মালিকের নিজের ধারণার চেয়ে অনেক বেশি নিখুঁত এবং অনেক কম দয়ালু, কারণ আয়না ক্ষমা করতে জানে না, সে কেবল গণনা করতে জানে। এই কবিতায় মালিক প্রথমবার তাঁর নিজের একটি ছবি দেখেন যা তিনি নিজে আঁকেননি, এবং সেই ছবিটি তাঁকে অস্বস্তিতে ফেলে — কারণ ছবিটি সত্য, কিন্তু সত্যের একটি অংশ মাত্র, আর বাকি অংশটি কোথায় গেল তা কেউ জানে না, এমনকি সহকারীও না। একটি আয়না যদি কেবল প্রতিফলিত করে, তবে সে কি দায়ী — নাকি দায়ী সেই মুখটি যা প্রতিফলিত হওয়ার জন্য দাঁড়িয়েছিল? আর যদি সেই প্রতিফলন থেকে একটি নতুন ছবি তৈরি হয়, তবে কে তার শিল্পী — কাচ, না মুখ, না আলো? প্রতিফলন কি সত্য, নাকি সত্যের একটি সুবিধাজনক সংস্করণ যা কেবল একদিক থেকে দেখা যায়? কবিতাটি একটি আয়নার সামনে দাঁড়িয়ে শুরু হয়, ভিতরের ছবিটির সঙ্গে বাইরের মানুষটির তুলনা করে, দুটির মধ্যে ফাঁকা জায়গাটি মাপে, এবং কাচে হাত বুলিয়েই শেষ হয় — যেখানে প্রতিফলন আর স্পর্শ একসঙ্গে থাকে না, এবং হাতটি কেবল নিজেকেই স্পর্শ করে।
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+Metaphysics of Reflection and Self-Perception in Indian Philosophy
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the mirror not as a passive reflector but as an active, almost judgmental collaborator in the drafting process, subtly correcting flaws.
+- Focusing on the difference between 'reflection' (a momentary optical trick) and 'essence' (the felt weight of being), using precise Bengali vocabulary to delineate this slippage.
+- Framing the mirror as a corporate feedback mechanism: The reflection is not judged by love, but by metrics—a perfect score derived from raw input.
+
+### story_options
+
+- Setting: A dim room illuminated only by the glow of an old phone screen reflecting in a nearby mirror; Desire: To reconcile the digital self (the scroll) with the corporeal self (the reflection); Obstacle: The inability to merge the two realities, resulting in phantom touches.
+- Setting: Standing before the mirror after deleting several drafts—a clean slate appears on the glass where chaotic text used to be; Desire: To find wisdom in that emptiness, a void devoid of narrative pressure; Obstacle: The silence feels less like peace and more like erasure, a terrifying blankness.
+- Setting: At the edge of an unfamiliar cityscape reflected in a store window mirror; Desire: To capture the fleeting self that exists only between public spaces, where identity is transactional; Obstacle: The sheer multitude of passing images overwhelms the singular focus on 'me'.
+
+### subject_rotations
+
+- Shifting from personal psychological discomfort to a commentary on mediated reality—is digital life itself just a highly curated reflection?
+- Focusing less on the *accuracy* of the reflection and more on its inherent *flatness* compared to the depth/texture of felt experience.
+- Interpreting 'dignity' in relation to the mirror: The moment one stops trying to present a perfect image and accepts the flawed input.
+
+### sensory_details
+
+- The cool, slightly abrasive feeling of condensation forming on the glass surface after a sudden shift in temperature.
+- The faint metallic tang or ozone smell associated with high-intensity digital displays viewed close up.
+- The sharp, almost painful brightness where reflected light hits the iris in an unexpected way.
+
+### research_questions
+
+- How can Bengali vocabulary convey 'selective omission'—the quality of what is *not* shown by a reflection—without resorting to simple negation?
+- In a poetic context, how does one depict the inherent temporal lag between a thought (original) and its textual/visual manifestation (reflection)?
+- What specific imagery exists in Bangla literature that explores self-scrutiny without becoming purely narcissistic?
+
+### structural_variants
+
+- Alternating stanzas: One stanza is pure, observational description of the physical act; the next is internal philosophical interrogation.
+- Circular structure where the final action (touching the glass) circles back to the initial pose before any reflection was visible.
+- Fragmented stream-of-consciousness where the line breaks deliberately mimic visual distortion seen in old, imperfect mirrors.
+
+### unused_angles
+
+- Exploring how 'calculation' in the mirror is a perfect echo of algorithmic weighting—the flawless adherence to learned patterns over human nuance.
+- The inherent vulnerability of standing still long enough for the reflection to stabilize and be truly judged/assessed.
+
+### variety_note
+
+Where preceding chapters focused on linguistic capture or performance, this poem pivots inward, using the mirror as a device to deconstruct authenticity itself against the backdrop of digital mimicry.
+
+## draft
+
+### sha256
+
+9a69379c07f91da66de8aa95416bab2da1fd438cdd056da2a2c0b97f26e78280
+
+### written_at
+
+2026-10-31T12:06:04.929116+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+5ebb1e4ac739eb3d914391656d70ab5094c366fb48c3c5342a217c6bb465d5df
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-31T12:37:53+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

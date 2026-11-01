@@ -1,0 +1,92 @@
+# Chapter model context
+
+## chapter_index
+
+51
+
+## name
+
+51
+
+## word_target
+
+250
+
+## chapter_title
+
+বাড়ি কি আর আগের বাড়ি
+
+## chapter_summary
+
+বাড়ি ফিরে দেখা যায় বাড়ি আর আগের বাড়ি নয়, দেয়াল বদলেছে, চেয়ার বদলেছে। তবে চুলার জায়গাটি একই।
+
+## further_references
+
+### Item 1
+
+#### no
+
+1
+
+#### reference
+
+Architecture of Memory (Spatio-temporal resonance in familiar locales)
+
+#### weblink
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the unchanging hearth/cooker spot as a sacred, stubbornly persisting nexus point against surrounding modernization.
+- Framing the changing physical spaces (walls, chairs) not just as decay, but as aggressive substitutions of cultural signifiers by imported material culture.
+- Structuring the poem around an auditory hallucination—the phantom sound of an old kitchen ritual (e.g., a specific wooden utensil scraping against the clay).
+
+### story_options
+
+- Setting: The front stoop, now paved with cold foreign stone; Desire: To trace the outline of where the original patch of earth was, obstacle: the hard, impervious surface itself and its refusal to hold memory.
+- Setting: The central room dominated by a newly placed, impersonal piece of furniture; Desire: To find one specific, familiar indentation or warmth left by the old arrangement, obstacle: the perfect neutrality of the new object.
+- Setting: Hovering over the original spot where the hearth was located (the physical center); Desire: To perform an impossible ritual—to coax smoke from stone that has been sealed and rebuilt, turning futility into a moment of profound truth.
+
+### subject_rotations
+
+- Shifting focus from the *house* as a static container to the *act of looking* itself—how the act of observation fundamentally alters what is seen.
+- Interrogating ownership: Is the home owned by its structure, or by the intangible weight of repeated domestic actions performed within it?
+- Examining time not as linear progression but as overlapping sedimentation; how past uses remain chemically bonded to present surfaces despite visible change.
+
+### sensory_details
+
+- The specific, metallic taste left on the tongue when licking the edge of a newly painted, utilitarian doorframe.
+- The visual contrast between sunlight refracting through new, sharp glass panes versus the diffused amber glow remembered from the old window dressing.
+- The distinct, dull thud of modern interior construction materials (e.g., synthetic flooring tiles) replacing the soft give of aged wood.
+
+### research_questions
+
+- How can a poem capture the feeling of structural change—where every physical element is 'present' but fundamentally altered in character—without resorting to simple cataloging?
+
+### structural_variants
+
+- A highly fragmented structure where each line describes one changed object, followed by a sudden caesura (pause) before the central motif ('চুলার জায়গাটি একই') forces all preceding details back into uneasy alignment.
+- Beginning with an immediate sensory anchor (like the sound mentioned in the twist), and using that sound as a rhythmic guide to list departures from the original state.
+
+### unused_angles
+
+- Developing a secondary persona who represents 'unrecognized continuity'—the ghost of routine lingering even when objects change.
+- An extended internal argument about which element (the wall, the chair, or the hearth) holds the true weight of cultural permanence.
+
+### variety_note
+
+This chapter moves away from the visceral food metaphor and focuses on the architectural/spatial echo, using an auditory obsession as a primary narrative device to re-examine the very concept of 'home' after displacement.

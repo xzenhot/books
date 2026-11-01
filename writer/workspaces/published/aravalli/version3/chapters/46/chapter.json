@@ -1,0 +1,28 @@
+{
+  "chapter_index": 46,
+  "name": "46",
+  "word_target": 500,
+  "chapter_title": "হারানো আকাশের পালক",
+  "chapter_summary": "হারিয়ে যাওয়া পাখির পালক — আকাশে আর নেই, অথচ তার পালক পাহাড়ের ফাটলে জমে আছে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "9e3dab7fa81a800b764d2f643b2de3c4fef1dc878dfe42c67492a91d67c6c807",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

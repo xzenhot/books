@@ -5,11 +5,18 @@ description: Assign a poetry chapter its thematic lens and stereotype (signature
 
 # Poetry Theme — The Philosophical Lens
 
+## Audit Metadata
+
+This skill writes only the chapter model, which lives under the exempt
+`chapters/**` tree, so it stamps no audit fields. If it ever writes a non-chapter
+`.md`/`.json`, stamp it as the invoking agent per
+`.framework/rules/audit-metadata.md`.
+
 Use this skill for a poetry pipeline to assign one chapter its **theme** (the philosophical lens) and one **stereotype** (signature, reference, theme set). Work only from the chapter's own metadata.
 
 ## Inputs (only these)
 
-1. `.space/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter's metadata. This is the only per-chapter input; `chapter.md` is an output file owned by the write path and is never read.
+1. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter's metadata. This is the only per-chapter input; `chapter.md` is an output file owned by the write path and is never read.
 
 Everything you need is in the chapter model.
 
@@ -22,9 +29,9 @@ A theme is not a topic or a plot point. It is a **lens** — a recurring idea th
 1. Read the chapter's `model.json`.
 2. Confirm the form is `poetry` (from `model.json` → `syntax.form` or the pipeline model).
 3. Select the **signature**, **reference**, and **theme set** from the poetry stereotype templates:
-   - `.framework/templates/stereotypes/poetry/signatures/`
-   - `.framework/templates/stereotypes/poetry/references/`
-   - `.framework/templates/stereotypes/poetry/themes/`
+   - `.framework/context/poetry/signatures/`
+   - `.framework/context/poetry/references/`
+   - `.framework/context/poetry/themes/`
    - Read the `registry.md` in each folder to discover what is available, then read the chosen files.
 4. Assign the chapter its theme, and map it onto a present-day concern.
 5. Record the stereotype in `model.json` (see Output).
@@ -54,9 +61,9 @@ Update the chapter's `model.json` by adding (or updating) a `stereotype` object:
 ```
 
 - **`form`** — `"poetry"`, matching the template directory used.
-- **`signature`** — the folder name under `stereotypes/poetry/signatures/`.
-- **`reference`** — the file name under `stereotypes/poetry/references/`.
-- **`theme_set`** — the file name under `stereotypes/poetry/themes/`.
+- **`signature`** — the folder name under `.framework/context/poetry/signatures/`.
+- **`reference`** — the file name under `.framework/context/poetry/references/`.
+- **`theme_set`** — the file name under `.framework/context/poetry/themes/`.
 
 If `model.json` already has a `stereotype` object, update it in place; otherwise add it as a new top-level key. Do not overwrite the other fields in `model.json`.
 
@@ -64,6 +71,6 @@ If `model.json` already has a `stereotype` object, update it in place; otherwise
 
 - Work only in the named pipeline and its chapter model.
 - Do not read the backlog or the epic.
-- Do not create or modify `source/books/`.
+- Do not create or modify `workspaces/published/`.
 - Do not run research, correctness, syntax, override, or quality.
 - The result must remain a poetry chapter; do not apply novel-only sections or voices.

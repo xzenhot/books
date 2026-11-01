@@ -1,0 +1,68 @@
+{
+  "chapter_index": 14,
+  "name": "14",
+  "word_target": 110,
+  "chapter_title": "The Train in the Wall",
+  "chapter_summary": "A steam locomotive is painted with the same reverence as Indra's chariot, the modern world arriving in Shekhawati as a wonder. The poem captures the moment the future entered the fresco, and the merchant's wall became a record of change itself.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the train not as an object of admiration but as a mechanism of inescapable economic fate—its schedule representing Gangaram's imposed deadlines.",
+      "Focusing on the mechanical detail: the rivet heads, the iron wheel tread, rendered with the same meticulous devotion traditionally reserved for gods.",
+      "Using the contrast between steam (ephemeral vapor) and permanent pigment to comment on transient technological power versus lasting artistic record."
+    ],
+    "story_options": [
+      "Setting: The tracks emerging from an imagined depot within the wall, desire: Gangaram desires control over speed and trajectory, obstacle: the unpredictable nature of the railway timetable itself.",
+      "Setting: A merchant's hand tracing the outline of the engine on the plaster surface before painting begins, desire: to impose personal order onto industrial chaos, obstacle: the painter insists on depicting rivets with perfect, indifferent uniformity.",
+      "Setting: The night when the train passes through a section lit only by oil lamps within the haveli complex, desire: that the locomotive's light should briefly illuminate the spiritual carvings nearby, turning them to mundane brass."
+    ],
+    "subject_rotations": [
+      "Examining the iconography of movement itself: how the depiction of speed implies labor and consumption rather than merely progress.",
+      "Analyzing the social gap crossed by this image—the juxtaposition of ancient Hindu cosmic motion (Vimana) against Industrial Age terrestrial power.",
+      "Treating the train as a metaphorical extension of Gangaram's own relentless accumulation process: linear, unstoppable growth."
+    ],
+    "sensory_details": [
+      "The high-pitched whistle sound captured in pigment—a thin, vibrating line barely heavier than dust on the plaster.",
+      "The intense smell of hot coal smoke interacting with damp limestone from the monsoon season creeping into the haveli structure.",
+      "The dull, rhythmic thud of massive iron wheels pressing against stone ballast visualized as a pattern underfoot."
+    ],
+    "research_questions": [
+      "How did early commercial depictions of railways in Rajasthan integrate local mythological or symbolic motifs alongside Western engineering accuracy?",
+      "What was the common contemporary reception among conservative land-owning families regarding such mechanized, rapid transportation systems?"
+    ],
+    "structural_variants": [
+      "Beginning with a visceral description of the physical act of painting the wheel's rotation until the image catches up to the descriptive pace.",
+      "Employing a structural fragmentation mirroring the train—a sequence of stills separated by moments of absolute stillness within the haveli architecture."
+    ],
+    "unused_angles": [
+      "A reflection on how this specific depiction precedes, or perhaps anticipates, the later economic collapses detailed in chapters 41-43.",
+      "Focusing on any subtle human figures placed near the train—are they porters, overseers, or simply onlookers? What does their posture reveal about class friction?"
+    ],
+    "variety_note": "Unlike previous chapters focused on static divine narratives (Ramayana/Mahabharata) or fixed domestic space, this chapter introduces dynamic industrial movement as a spiritualized object."
+  },
+  "draft": {
+    "sha256": "92a452357df19daa55566f81ccca9a984714acc6593c1724ac796f90ea38aa04",
+    "written_at": "2026-10-04T20:12:10.277752+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "92a452357df19daa55566f81ccca9a984714acc6593c1724ac796f90ea38aa04",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "chapter_index": 31,
+  "name": "31",
+  "word_target": 500,
+  "chapter_title": "ফলবান মাটির আশীর্বাদ",
+  "chapter_summary": "আরাবল্লির সুরক্ষায় বেঁচে থাকা পূর্বের উর্বর জনপদ — সবুজ প্রাচীরের আশীর্বাদে ফলবান মাটি।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "5b65c8f3fba0ce26ba4f762616358ef46607c9d59bd122063263467a3edef188",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

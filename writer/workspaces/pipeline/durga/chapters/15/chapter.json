@@ -1,0 +1,54 @@
+{
+  "chapter_index": 15,
+  "name": "15",
+  "word_target": 300,
+  "chapter_title": "অষ্টমীর সন্ধিক্ষণ",
+  "chapter_summary": "অষ্টমীর সন্ধিক্ষণে চামুণ্ডার পূজা — সেই মুহূর্তে দেবীর শক্তি সবচেয়ে তীব্র, সবচেয়ে করুণাময়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing entirely on a single element of ritual hardware (e.g., the specific trident or weapon being invoked) as a proxy for cosmic conflict, allowing the 'burden' to be object-specific rather than abstract.",
+      "Framing the moment not just as peak power, but as extreme tension—the precise sliver of time *between* fierce action and protective grace—making the deity simultaneously terrifying and merciful.",
+      "Adopting a highly fragmented structure that mirrors the chaotic intensity of the ritual chanting (Chandi Path), with lines breaking mid-thought to mimic breathlessness."
+    ],
+    "story_options": [
+      "Setting: The edge of the sanctum, near where the fiercest iconography is displayed. Desire: To trace how a specific streak of blood or sacrificial ash on an implement visually maps onto the internal struggle of Durga.",
+      "Setting: Inside the inner circle witnessing the intense focus required by the priest(s). Desire: To capture the sweat and physical strain of those channeling the raw energy, making human dedication visible.",
+      "Setting: The surrounding crowd, where participants are not chanting yet but absorbing the wave of sound. Desire: To render their collective state as a shared tremor or vibration, anticipating the storm."
+    ],
+    "subject_rotations": [
+      "Treating the 'fierce' aspect (Chandi/Mahishasur context) through the lens of profound sacrifice required by power—not just battle, but the necessary cost.",
+      "Examining the intersection of protective energy and domesticity: how is this ultimate cosmic violence simultaneously framed as a familial necessity?",
+      "Shifting from external display to internal resonance: mapping the mythological struggle onto an almost unbearable subjective emotional climax."
+    ],
+    "sensory_details": [
+      "Sight: The incandescent, nearly blinding flare cast by camphor/ghee within the ritual fire during the peak invocation.",
+      "Touch: The grit of fine red sandalwood paste drying on skin or clay surfaces under intense heat.",
+      "Sound: A sudden, jarring dissonance in the rhythmic chant—a deliberate breaking of pattern that signifies a turning point."
+    ],
+    "research_questions": [
+      "Are there specific traditional Bengali terms used to describe the transitional state between raw fury and tempered grace within Durga iconography?",
+      "What is the precise ritualistic significance of any single, small implement (like a particular type of bell or blade) in defining this peak moment?"
+    ],
+    "structural_variants": [
+      "A staccato, almost jarring progression mimicking musical crescendo followed by an abrupt suspension.",
+      "Starting with the aftermath—a slight lull after the highest intensity—and using that quiet to build tension toward the next surge.",
+      "Utilizing sustained alliteration and assonance over a short span to mimic the drone-like quality of intense, prolonged mantra recitation."
+    ],
+    "unused_angles": [
+      "A deep dive into the specific *material* texture of the weapons/implements used in this phase of devotion.",
+      "Exploring the concept of inherited spiritual trauma—the weight of past battles echoing in the present ritual performance."
+    ],
+    "variety_note": "Unlike earlier chapters focused on construction or preparation, this piece demands a focus on peak, embodied energy and controlled chaos inherent to the devotional violence."
+  },
+  "draft": {
+    "sha256": "7d46566ee8ae892cad4a7ef4036390a774200d476761557595860d85599c1b98",
+    "written_at": "2026-10-29T14:58:14.136579+00:00",
+    "origin": "write"
+  }
+}

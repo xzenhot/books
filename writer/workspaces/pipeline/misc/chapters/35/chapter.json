@@ -1,0 +1,48 @@
+{
+  "chapter_index": 35,
+  "name": "35",
+  "word_target": 500,
+  "chapter_title": "The Photograph on the Wall",
+  "chapter_summary": "A framed photograph hangs on a wall, and the poem considers the small paper face that keeps someone present long after they have gone.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the photograph not as a memory preserved, but as a small point of visual resistance against the blurring passage of contemporary life.",
+      "Investigating the chemical state of the image itself—how light and humidity have altered the surface emulsion over time, making it brittle or faded in specific ways.",
+      "Shifting perspective to what is *around* the photograph: the dust motes dancing in the limited light that hits its frame, or the texture of the wall beneath it."
+    ],
+    "story_options": [
+      "Setting: The periphery of a dimly lit household hallway late at night; desire: To peer closely at the subject's unblinking gaze captured on the photo, seeking an answer to a question only visible in that faded moment; obstacle: The pervasive hum of unseen neighborhood activity pressing against the quiet of the inner walls; turn: The light catches the glass frame, revealing dust layered by generations.",
+      "Setting: A sun-streaked domestic corner where the photo leans slightly away from the wall; desire: To trace the faint pattern of wear on the picture's protective glass—a minute topography mapping years of overlooked glances; obstacle: The memory attached to the face in the photo demanding a narrative that cannot be spoken aloud; turn: A slight vibration from outside causes the image to momentarily blur, dissolving the specific features.",
+      "Setting: A cluttered surface near where the photograph rests (e.g., beside an old book or ritual object); desire: To compare the captured moment of the photo with the mundane objects surrounding it—the present clutter versus the fixed past; obstacle: The contrast between the vibrant life *implied* in the image and the quiet stagnation of its resting spot; turn: A small, contemporary detail (like a modern appliance wire) creeps into the composition near the frame."
+    ],
+    "subject_rotations": [
+      "Treating the photograph's surface as a palimpsest—each layer of fading or slight damage representing an overlaid history of feeling rather than just one moment.",
+      "Focusing less on the person pictured, and more on the *act* of framing: why this image was chosen, how it was treated by its current possessor, turning the frame into a small domestic altar.",
+      "Exploring the dichotomy between 'presence' (the captured moment) and 'absence' (the life continuing around the photo without the subject)."
+    ],
+    "sensory_details": [
+      "The cool, slick feel of polished wood or cheap veneer on the frame moulding under a fingertip.",
+      "The faint, metallic scent emanating from old photographic paper reacting to indoor humidity.",
+      "The specific sound of the house settling around the silent image—a low *tick* or creak that punctuates the stillness."
+    ],
+    "research_questions": [
+      "What is the most common, non-iconic type of frame material found in contemporary Indian homes that might offer unique textural details?",
+      "How does light refraction through older glass (such as early 20th century plate glass) affect the perceived depth or sharpness of an old photograph?"
+    ],
+    "structural_variants": [
+      "A highly fragmented structure, where each stanza focuses on one microscopic element of the photo (an eye, a fold in clothing, a background detail), only converging on the whole subject at the final turn.",
+      "An overt dialogue between the speaker's present consciousness and the silent captured moment, structured around moments of near-recognition or misrecognition."
+    ],
+    "unused_angles": [
+      "The photograph being part of a larger devotional display alongside other small objects (e.g., an idol), questioning how personal memory intersects with established ritual.",
+      "A detailed meditation on the specific quality of light required to reveal both the subject and the flaws in its capture."
+    ],
+    "variety_note": "Unlike preceding poems that ground themselves firmly in active, ongoing labor or transit (like vendors or travelers), this piece turns inward, focusing on stasis—a captured moment resisting the daily current."
+  }
+}

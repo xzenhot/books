@@ -1,0 +1,28 @@
+{
+  "chapter_index": 75,
+  "name": "75",
+  "word_target": 500,
+  "chapter_title": "রক্তিম লিপস্টিক",
+  "chapter_summary": "সাগরিকার ঠোঁটের রক্তিম লিপস্টিক — তক্ষশীলার গুপ্ত গুহায় নরমেধ যজ্ঞের সদ্য ঝরে পড়া উষ্ণ রক্তের মতো গাঢ়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "e70093b86d148ffefc0d12cbf1f040c93da6a80c361f314dfdcd31f45d290c05",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

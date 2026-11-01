@@ -1,0 +1,511 @@
+{
+  "book_name": "fresco",
+  "book_long_title": "Fresco",
+  "generic": "philosophical poem sequence",
+  "era": "the twilight of the Marwari merchant class — Shekhawati, Rajasthan",
+  "language": "English",
+  "target_audience": "readers of poetry and reflective literary prose on art, labor, memory, and the senses",
+  "chapter_count": 60,
+  "factory": "online",
+  "form": "poetry",
+  "book_summary": "A sequence of sixty poems following Debolina Rai — painter and poet, sensory nomad — who rejects domesticity to live entirely for creation. Working alone on her scaffold in the half-empty painted havelis of Mandawa and Nawalgarh, she absorbs the world through her senses — the musk of passing men, the wet lime, the lapis ground by lamplight — and finds in the crumbling frescoes a mirror for her own invisibility. Her transformation is the choice to step out of the shadows and expose the raw struggle that gives her art its truth, paying the cost of being seen.",
+  "created_at": "2026-10-04",
+  "updated_at": "2026-10-11",
+  "user_name": "pijush",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "gist": "The life of an artist is lived in the night while ordinary men sleep — the world sees only the blossom of the final creation, never the invisible struggle and the silent failures beneath it.",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "name": "1",
+      "word_target": 110,
+      "chapter_title": "The Blank Canvas of Her",
+      "chapter_summary": "Debolina strips the world to its raw essence, and the first poem names the minimalist line she will chase through every wall to come.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 2,
+      "name": "2",
+      "word_target": 110,
+      "chapter_title": "Musk and Minima",
+      "chapter_summary": "She inhales the distinct odor of male companionship and finds in a passing scent the whole grammar of form, texture, and line.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 3,
+      "name": "3",
+      "word_target": 110,
+      "chapter_title": "The Scent of Sixteen",
+      "chapter_summary": "The youngest muse — a boy of sixteen — becomes a transient anchor, and the poem follows the musk before it fades into the desert air.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 4,
+      "name": "4",
+      "word_target": 110,
+      "chapter_title": "Every Man a Muse",
+      "chapter_summary": "To Debolina age is an illusion and every man from sixteen to sixty is a passing scent, a temporary catalyst for her hunger to exist.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 5,
+      "name": "5",
+      "word_target": 110,
+      "chapter_title": "The Rejection of the House",
+      "chapter_summary": "She turns her back on domestic expectation, and the poem argues that her loyalty belongs only to the canvas and the verse.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 6,
+      "name": "6",
+      "word_target": 110,
+      "chapter_title": "Abstract, Minimal",
+      "chapter_summary": "The minimalist stroke is a discipline of subtraction, and the poem praises the line that leaves everything else out.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 7,
+      "name": "7",
+      "word_target": 110,
+      "chapter_title": "The Synesthete",
+      "chapter_summary": "Color is smell, line is sound, and the poem lets Debolina's senses bleed into one another until the world is a single chord.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 8,
+      "name": "8",
+      "word_target": 110,
+      "chapter_title": "The Unnecessary Clutter",
+      "chapter_summary": "She discards the clutter of the ordinary, and the poem watches what remains when the world is reduced to essence.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 9,
+      "name": "9",
+      "word_target": 110,
+      "chapter_title": "A Passing Stranger",
+      "chapter_summary": "A stranger crosses the bazaar, and Debolina borrows his shadow for a single poem before letting it go.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 10,
+      "name": "10",
+      "word_target": 110,
+      "chapter_title": "The Hunger for Existence",
+      "chapter_summary": "The poem names the unquenchable hunger beneath her art — the need not to be framed, but to be alive.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 11,
+      "name": "11",
+      "word_target": 110,
+      "chapter_title": "Form, Texture, Line",
+      "chapter_summary": "Everywhere she looks she sees composition, and the poem records the three words she trusts above all others.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 12,
+      "name": "12",
+      "word_target": 110,
+      "chapter_title": "The Woman Trapped in the Poet",
+      "chapter_summary": "She realizes the painter is no one but the poet herself, trapped within a woman's soul, and the poem turns the thought over.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 13,
+      "name": "13",
+      "word_target": 110,
+      "chapter_title": "The Bazaar's Noise",
+      "chapter_summary": "The market roars around her, and the poem lets Debolina find the minimal line hidden inside the crowd's noise.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 14,
+      "name": "14",
+      "word_target": 110,
+      "chapter_title": "The First Midnight",
+      "chapter_summary": "Night falls over the desert town, and the poem marks the hour Debolina first climbs the scaffold to begin.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 15,
+      "name": "15",
+      "word_target": 110,
+      "chapter_title": "The Vow of the Minima",
+      "chapter_summary": "She swears herself to the stripped, essential line, and Part I closes on the promise she will keep through the dark.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 16,
+      "name": "16",
+      "word_target": 110,
+      "chapter_title": "The Scaffold",
+      "chapter_summary": "The poem sets Debolina on her scaffold in the deep night, alone, where the town cannot see her work.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 17,
+      "name": "17",
+      "word_target": 110,
+      "chapter_title": "The Town Sleeps",
+      "chapter_summary": "While ordinary men sleep, she labors, and the poem contrasts the sleeping town with the one waking hand.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 18,
+      "name": "18",
+      "word_target": 110,
+      "chapter_title": "The Wet Lime",
+      "chapter_summary": "The smell of wet lime and turpentine fills the dark, and the poem makes it the scent of the invisible maker.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 19,
+      "name": "19",
+      "word_target": 110,
+      "chapter_title": "The Wasted Sketch",
+      "chapter_summary": "A drawing is swept away by the desert wind, and the poem counts the sketches that never survived to become art.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 20,
+      "name": "20",
+      "word_target": 110,
+      "chapter_title": "The Invisible Wound",
+      "chapter_summary": "The poem names the wounds of the creator — the ones the finished wall will never show.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 21,
+      "name": "21",
+      "word_target": 110,
+      "chapter_title": "The Aching Joints",
+      "chapter_summary": "Her joints ache through the long night, and the poem insists the work is written in flesh before it is written in color.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 22,
+      "name": "22",
+      "word_target": 110,
+      "chapter_title": "The Dialogue with the Dark",
+      "chapter_summary": "Debolina speaks to the silence, and the silence answers only with the scratch of the brush.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 23,
+      "name": "23",
+      "word_target": 110,
+      "chapter_title": "Grinding the Pigment",
+      "chapter_summary": "Lapis is ground to dust by lamplight, and the poem meditates on the cost of a single pure color.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 24,
+      "name": "24",
+      "word_target": 110,
+      "chapter_title": "The Failure Beneath",
+      "chapter_summary": "A section cracks and must be scraped away, and the poem lifts the edge of the hidden failure.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 25,
+      "name": "25",
+      "word_target": 110,
+      "chapter_title": "The Silent Failures",
+      "chapter_summary": "She hides her failures behind every smooth surface, and the poem insists they are the true material of the work.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 26,
+      "name": "26",
+      "word_target": 110,
+      "chapter_title": "The Lapis Hour",
+      "chapter_summary": "At the deepest hour, the blue stone yields its color, bought with dark hours no one will ever count.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 27,
+      "name": "27",
+      "word_target": 110,
+      "chapter_title": "The Unseen Hand",
+      "chapter_summary": "The hand that lays the line, that aches and fails, is the one thing the wall refuses to record.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 28,
+      "name": "28",
+      "word_target": 110,
+      "chapter_title": "The Night's Ledger",
+      "chapter_summary": "The poem tallies the sleepless nights as a column of zeroes no merchant will ever audit.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 29,
+      "name": "29",
+      "word_target": 110,
+      "chapter_title": "The Poet-Painter's Soul",
+      "chapter_summary": "Debolina's soul holds both the verse and the pigment, and the poem listens to the two voices in one breath.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 30,
+      "name": "30",
+      "word_target": 110,
+      "chapter_title": "The Scaffold's Edge",
+      "chapter_summary": "Part II closes at the scaffold's edge, where the choice to remain unseen first begins to tremble.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 31,
+      "name": "31",
+      "word_target": 110,
+      "chapter_title": "Arrival in Mandawa",
+      "chapter_summary": "Debolina arrives in the desert town, and the poem opens the gate onto the painted mansions.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 32,
+      "name": "32",
+      "word_target": 110,
+      "chapter_title": "The Silk Route Capital",
+      "chapter_summary": "The poem recalls the town's wealth — cloth, camel trains, capital flowing along the silk route.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 33,
+      "name": "33",
+      "word_target": 110,
+      "chapter_title": "The Marwari Merchants",
+      "chapter_summary": "The merchants who built the havelis return as ghosts, and the poem listens for their footsteps in the stone.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 34,
+      "name": "34",
+      "word_target": 110,
+      "chapter_title": "The King's Protection",
+      "chapter_summary": "The king sold safety, the merchant paid tax, and the poem sets the old bargain before the painted walls.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 35,
+      "name": "35",
+      "word_target": 110,
+      "chapter_title": "The Havelis of Nawalgarh",
+      "chapter_summary": "The poem walks the twin towns' half-empty mansions, their walls still breathing with the families who left.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 36,
+      "name": "36",
+      "word_target": 110,
+      "chapter_title": "The Living Skin of Fresco",
+      "chapter_summary": "Fresco is discovered as a living, breathing skin of architecture, and the poem presses its ear to the plaster.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 37,
+      "name": "37",
+      "word_target": 110,
+      "chapter_title": "The Ghost-Lives",
+      "chapter_summary": "The painted walls hold the unfinished stories of the abandoned, and the poem lets them speak.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 38,
+      "name": "38",
+      "word_target": 110,
+      "chapter_title": "The Color That Outlives",
+      "chapter_summary": "Pigment outlasts the hand that laid it, and the poem marvels at color's patience.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 39,
+      "name": "39",
+      "word_target": 110,
+      "chapter_title": "The Merchant's Ledger",
+      "chapter_summary": "The column of zeroes returns, and the poem asks what the wealth bought that the maker never saw.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 40,
+      "name": "40",
+      "word_target": 110,
+      "chapter_title": "The Unfinished Story",
+      "chapter_summary": "A fresco remains unfinished on a wall no family returns to, and the poem leaves it unfinished too.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 41,
+      "name": "41",
+      "word_target": 110,
+      "chapter_title": "The Echoes of Kings",
+      "chapter_summary": "The poem hears the old royal decrees in the dust, and lets them fade back into the stone.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 42,
+      "name": "42",
+      "word_target": 110,
+      "chapter_title": "The Camel Train",
+      "chapter_summary": "A camel train crosses the old route in memory, and the poem follows the cloth it once carried.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 43,
+      "name": "43",
+      "word_target": 110,
+      "chapter_title": "The Bazaar of Silks",
+      "chapter_summary": "Silks and rich fabrics return in the poem's imagining, and the poem folds them back into the wall.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 44,
+      "name": "44",
+      "word_target": 110,
+      "chapter_title": "The Patron's Guests",
+      "chapter_summary": "Guests praise the color and never ask the maker's name, and the poem stands with Debolina at the edge of the room.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 45,
+      "name": "45",
+      "word_target": 110,
+      "chapter_title": "The Fresco's Mirror",
+      "chapter_summary": "Part III closes as Debolina finds in the crumbling fresco a mirror for her own invisibility.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 46,
+      "name": "46",
+      "word_target": 110,
+      "chapter_title": "The Blend of Lime and Mortality",
+      "chapter_summary": "Lime, pigment, and mortality are mixed together, and the poem watches them set.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 47,
+      "name": "47",
+      "word_target": 110,
+      "chapter_title": "The Plaster That Sets",
+      "chapter_summary": "The plaster must be painted before it sets, and the poem races the hardening wall.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 48,
+      "name": "48",
+      "word_target": 110,
+      "chapter_title": "The Cost of a Color",
+      "chapter_summary": "Each color is bought with hours, and the poem counts what the blue and the red truly cost.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 49,
+      "name": "49",
+      "word_target": 110,
+      "chapter_title": "The Choice",
+      "chapter_summary": "Debolina stands at the choice — to remain a ghost, or to step into the light — and the poem names both doors.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 50,
+      "name": "50",
+      "word_target": 110,
+      "chapter_title": "To Remain a Ghost",
+      "chapter_summary": "The poem weighs the safety of laboring unseen, and the quiet comfort of anonymity.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 51,
+      "name": "51",
+      "word_target": 110,
+      "chapter_title": "To Be Seen",
+      "chapter_summary": "The poem weighs the other path — the raw, unfiltered struggle exposed, and the price it demands.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 52,
+      "name": "52",
+      "word_target": 110,
+      "chapter_title": "The Terrifying Truth",
+      "chapter_summary": "The struggle that gives her art its truth is also its terror, and the poem does not soften it.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 53,
+      "name": "53",
+      "word_target": 110,
+      "chapter_title": "The Step Out of the Shadows",
+      "chapter_summary": "Debolina steps forward, and the poem marks the single step that ends the long invisibility.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 54,
+      "name": "54",
+      "word_target": 110,
+      "chapter_title": "The Name Spoken",
+      "chapter_summary": "For the first time the struggle is spoken aloud in the maker's own voice, and the poem records it.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 55,
+      "name": "55",
+      "word_target": 110,
+      "chapter_title": "The Return to the Scaffold",
+      "chapter_summary": "She returns to the scaffold, and the poem argues the work, not the recognition, is the truth she reached for.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 56,
+      "name": "56",
+      "word_target": 110,
+      "chapter_title": "The Wall Outlives Her",
+      "chapter_summary": "The wall will outlast the hand that painted it, and the poem finds a strange comfort in that.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 57,
+      "name": "57",
+      "word_target": 110,
+      "chapter_title": "The Abandoned Fresco",
+      "chapter_summary": "The painted wall stands in a house no family returns to, and the poem asks what the art means now.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 58,
+      "name": "58",
+      "word_target": 110,
+      "chapter_title": "The Immortal Scars",
+      "chapter_summary": "The poem gathers the scars of expression — the sleepless nights, the aching hands — and calls them immortal.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 59,
+      "name": "59",
+      "word_target": 110,
+      "chapter_title": "The Art Over Everything",
+      "chapter_summary": "She chose art over everything, and the poem sets that choice against the worldly comfort she traded away.",
+      "further_references": []
+    },
+    {
+      "chapter_index": 60,
+      "name": "60",
+      "word_target": 110,
+      "chapter_title": "The Poet Looks Upon Her Life",
+      "chapter_summary": "The closing poem turns inward: Debolina looks upon her own life, finds it worth painting, and the sequence ends not in fame but in the truth of the work.",
+      "further_references": []
+    }
+  ],
+  "all_characters": [],
+  "filter_chain": [
+    "workshop",
+    "research",
+    "correctness",
+    "theme",
+    "syntax",
+    "override",
+    "quality"
+  ],
+  "word_target": 110
+}

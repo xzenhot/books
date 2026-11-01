@@ -1,0 +1,55 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 300,
+  "chapter_title": "শক্তির রূপ",
+  "chapter_summary": "দশভুজা দেবীর দশ হাতে দশ অস্ত্র — প্রতিটি হাত একটি রক্ষার প্রতিশ্রুতি, একটি অন্যায়ের উত্তর।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the ten arms not as implements of power, but as complex systems—each weapon demanding a specific type of focus or invocation.",
+      "The speaker addresses an imagined devotee (or perhaps one who has passed beyond their earthly state) from outside the battlefield scene, commenting on its necessity.",
+      "Treating the collected weapons/objects in each hand not just as divine artifacts, but as residues—ancient histories held captive within polished metal or symbolic wood."
+    ],
+    "story_options": [
+      "Setting: A silent alcove near the newly formed altar; Desire: To describe the precise weight and chill of one particular weapon (e.g., a trident or sword) in the palm, as if held by an absent comrade; Obstacle: The sheer magnitude of cosmic energy radiating from the figure; Turn: Realizing the arms are extensions of shared human resilience rather than singular divine mandates.",
+      "Setting: From the perspective of the dust motes settling on the deity's adornments immediately after battle; Desire: To witness how the kinetic chaos settles into a pattern of stillness; Obstacle: The impossibility of capturing sound when it is entirely internal to the figure; Turn: The 'stillness' reveals itself to be an immense, held-breath anticipation for the next cycle.",
+      "Setting: During the moment between one weapon being raised and another being lowered (a microsecond pause); Desire: To articulate the mental calculus required by the goddess—the perfect transition from offense to defense; Obstacle: The overwhelming nature of divine consciousness versus finite poetic articulation; Turn: Recognizing that this calculation mirrors human decision-making under extreme pressure."
+    ],
+    "subject_rotations": [
+      "Shifting focus from the *action* (Mahishasura's defeat) to the *state* maintained by Durga—the relentless, embodied vigilance necessary for cosmic equilibrium.",
+      "Framing the ten weapons as mnemonic devices or cultural touchstones, where each weapon represents a specific Bengali narrative archetype rather than just an abstract virtue.",
+      "Exploring the concept of 'burden': how the myriad responsibilities (represented by the hands/weapons) are held without causing fatigue to the divine vessel."
+    ],
+    "sensory_details": [
+      "Sight: The prismatic refraction of light catching on polished metal surfaces, creating fleeting, rainbow-edged trails against skin.",
+      "Touch: The imagined vibration traveling up the arm from a handle made of ancient, dense wood during a momentary shift in posture.",
+      "Smell: A sharp contrast between the ozone tang left by immense power expenditure and the sweet residue of devotional sandalwood paste."
+    ],
+    "research_questions": [
+      "Are there specific poetic devices or metaphors within Bengali tradition used to describe the tension held within an overloaded, yet balanced, system?",
+      "What concrete imagery exists in regional folklore connecting Durga's ten forms/weapons to specific aspects of domestic or societal protection outside the direct myth?",
+      "How do poets historically differentiate between 'power' (shakti) and 'purpose' when describing divine weaponry?"
+    ],
+    "structural_variants": [
+      "A structure that mimics the enumeration: a catalogue poem where each weapon is given two lines of intense, isolated focus before moving to the next.",
+      "A spiraling structure beginning with one hand/weapon and continually orbiting back toward it, never fully resolving the initial image until the final line."
+    ],
+    "unused_angles": [
+      "The socio-political interpretation: seeing each weapon as a necessary tool against specific contemporary forms of societal 'demon' (beyond Mahishasura).",
+      "A narrative focus on the *cost* to the Goddess—the internal sacrifice required to wield so much destructive and preservative force.",
+      "Comparing the weight/symbolism of her divine implements to mundane, everyday tools used by Bengali artisans in their daily work."
+    ],
+    "variety_note": "While previous chapters focused on anticipation (arrival) or conflict aftermath, this poem zeroes in microscopically on the mechanics of controlled power during the peak manifestation of divinity."
+  },
+  "draft": {
+    "sha256": "9628703fd0d6667b2b437c060fb9bd6e4a54b453ea22db6d08b893b60d6c0f91",
+    "written_at": "2026-10-29T15:01:00.010671+00:00",
+    "origin": "write"
+  }
+}

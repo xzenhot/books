@@ -1,0 +1,28 @@
+{
+  "chapter_index": 64,
+  "name": "64",
+  "word_target": 500,
+  "chapter_title": "প্রাসাদের দীর্ঘ ছায়া",
+  "chapter_summary": "রাষ্ট্রপতি ভবনের ছায়া পাহাড়ের গায়ে পড়ে — ক্ষমতার স্থাপত্য প্রাচীন শিলার উপর চাপিয়ে দেওয়া।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "0cd8981df1582500dce4891bc756aad3bca3886e4f8c2bfee8f15c7c2bcec42f",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

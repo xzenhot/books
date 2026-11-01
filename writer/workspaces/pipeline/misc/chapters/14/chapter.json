@@ -1,0 +1,48 @@
+{
+  "chapter_index": 14,
+  "name": "14",
+  "word_target": 500,
+  "chapter_title": "Incense at the Street Shrine",
+  "chapter_summary": "A thin thread of incense rises from a shrine at the street's edge, and the poem follows the scent as a small boundary between the holy and the hurried.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the smoke not as a connection to the divine, but as an ephemeral marker of ownership—a boundary drawn by ritual action.",
+      "Investigating the social stratification implied by where such shrines are placed: near high traffic versus tucked into quiet alleyways.",
+      "Treating the scent molecules themselves as narrative agents, traveling and interacting with the dust and heat of the street."
+    ],
+    "story_options": [
+      "setting: The shrine corner during a mid-day sunburst, desire: To witness the exact moment the incense smoke catches the sharp angle of light, solidifying into visible form., obstacle: A hurried passerby’s shadow falls across the offering area, momentarily obscuring the flame and forcing the speaker to wait.",
+      "setting: Just before the monsoon rains begin, desire: To capture the intense contrast between the smoke's dry ascent and the heavy, humid weight of the gathering atmosphere., obstacle: A nearby vendor’s sharp cry interferes with the concentration required to trace the delicate plume.",
+      "setting: Deep within a narrow passage flanked by stone walls, desire: To explore the smoke's scent as a form of memory, suggesting past moments tethered to that specific spot., obstacle: The wind shifts unexpectedly, ripping the plume down into the grime-laden streets instead of allowing its steady vertical prayer."
+    ],
+    "subject_rotations": [
+      "Focusing solely on the particulate matter within the smoke—the ash particles and resins suspended in the rising heat—rather than the scent.",
+      "Interrogating the material composition of the shrine itself: the weathering of the stone, the specific color of the offerings (e.g., turmeric stains vs. bright petals).",
+      "Shifting the focus from the *rising* smoke to the residue left behind on the metal or earthen vessel that holds it."
+    ],
+    "sensory_details": [
+      "The high, metallic whine of a distant street motor vehicle cutting through the steady drift of scented vapor.",
+      "The textural difference between the gritty heat radiating from the stone shrine and the cool passage of air around the smoke's core.",
+      "A sudden, sharp visual contrast where the near-black soot pattern on the pavement meets the pale, rising thread of white/grey."
+    ],
+    "research_questions": [
+      "Are there documented regional variations in the prescribed placement or construction materials used for roadside devotional shrines in contemporary India?",
+      "How does the density and scent profile of typical Indian incense (e.g., sandalwood vs. camphor) interact visually with ambient street particulates?"
+    ],
+    "structural_variants": [
+      "A poem structured as a slow, inhaled count—each line representing an increasing depth or concentration within the vapor.",
+      "An epistolary fragment where the smoke is imagined as carrying a message *to* the speaker from the shrine's past."
+    ],
+    "unused_angles": [
+      "Using the incense not for religious observation, but to metaphorize a localized societal gossip or narrative thread that flows through the area.",
+      "Exploring how the act of burning itself is labor—the consistent replenishment and careful placement by an unseen caretaker."
+    ],
+    "variety_note": "This chapter shifts the focus from static objects (like vermilion) to dynamic phenomena (smoke), prioritizing sonic texture over visual rigidity, a path untouched in these earlier observational moments."
+  }
+}

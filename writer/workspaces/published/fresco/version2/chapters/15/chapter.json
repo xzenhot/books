@@ -1,0 +1,64 @@
+{
+  "chapter_index": 15,
+  "name": "15",
+  "word_target": 80,
+  "chapter_title": "The Price of Being Seen",
+  "chapter_summary": "The painter weighs the choice — to keep laboring unseen until the plaster cracks, or to step forward and reveal the struggle that gives the art its truth — and the poem counts the cost of each.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing 'seeing' not as public recognition, but as the irreversible moment one’s own internal mechanisms—fear, doubt, hunger—are rendered external and visible.",
+      "Framing the decision through a strictly economic lens: calculating the risk-reward of visibility against the certainness of anonymous sustenance.",
+      "Presenting 'the cost' not in social exile or public censure, but as an ontological shift: the loss of one's capacity for pure, unburdened interiority."
+    ],
+    "story_options": [
+      "Setting: The outer edge of the compound wall just before sunrise; Desire: To catch a single glimpse of the waking town (the beneficiaries) and decide whether that brief connection justifies the vulnerability; Obstacle: A sudden noise—a cart, a vendor’s shout—that snaps his resolve toward concealment.",
+      "Setting: The scaffold itself, near the final, critical section of color application; Desire: To deliberately smear a piece of preparation material onto the finished work as an act of silent protest/signature; Obstacle: A brief but intense surge of adrenaline when he realizes this small mark might be noticed by the early morning caretakers.",
+      "Setting: The tiny basin where cleaning water and pigment slurry are mixed during his final washdown; Desire: To mix a color so vibrant it demands attention, knowing that excess brilliance is inherently provocative; Obstacle: The water temperature suddenly drops, forcing him to pause in an almost defenseless posture."
+    ],
+    "subject_rotations": [
+      "Focusing entirely on the language of negotiation or argument (internal monologue) as a substitute for physical action—the debate between silence and speech.",
+      "Treating 'seeing' metaphorically: not human eyes, but the eye of history or posterity judging his choices from afar.",
+      "A dialectical poem where one half argues for perpetual obscurity (comfort/safety) and the other demands radical disclosure (truth/meaning)."
+    ],
+    "sensory_details": [
+      "The sharp smell of drying plaster meeting the sweet, damp scent of night-blooming jasmine clinging to the haveli walls.",
+      "The dull ache in the diaphragm from holding breath while balancing on unstable scaffolding supports for long periods.",
+      "A single drop of concentrated blue pigment running down a fingertip and leaving an iridescent trail on his palm."
+    ],
+    "research_questions": [
+      "What specific social rituals or taboos existed within Shekhawati merchant culture regarding public display versus private endeavor?",
+      "How did concepts of artistic patronage in this period balance the requirement for anonymity against the desire for familial or civic pride?"
+    ],
+    "structural_variants": [
+      "A sustained, rhetorical questioning sequence that builds tension through escalating internal stakes.",
+      "Juxtaposing two physical locations (the cramped scaffold vs. a distant window) to represent the polarized choices available to him."
+    ],
+    "variety_note": "Unlike Chapter 13's somatic focus and Chapter 7's regret over materials, this poem hinges on a high-stakes ethical calculus: action versus inertia, visibility versus survival."
+  },
+  "draft": {
+    "sha256": "877f8722283a90262075dda9bee4e07f90be76c9bc412dfe60322d948dcf4229",
+    "written_at": "2026-10-04T19:42:20.713533+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "877f8722283a90262075dda9bee4e07f90be76c9bc412dfe60322d948dcf4229",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T19:43:48+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

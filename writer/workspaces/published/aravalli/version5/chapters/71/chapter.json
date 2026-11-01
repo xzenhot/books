@@ -1,0 +1,28 @@
+{
+  "chapter_index": 71,
+  "name": "71",
+  "word_target": 500,
+  "chapter_title": "আয়নায় দেখা প্রাচীন পাহাড়",
+  "chapter_summary": "কাঁচ-কংক্রিটের চূড়ার আয়নায় প্রতিফলিত প্রাচীন পাহাড় — আধুনিকতা তার নিজের অহংকারে পাথরকে দেখে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "3d6122257062abb5af0b33e91944a0d33b0bac25f6fc817070a708fb8ce9c35a",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

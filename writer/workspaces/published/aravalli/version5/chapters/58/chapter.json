@@ -1,0 +1,28 @@
+{
+  "chapter_index": 58,
+  "name": "58",
+  "word_target": 500,
+  "chapter_title": "মরুতে বেজে ওঠা ঘণ্টা",
+  "chapter_summary": "উটের কাফেলার ঘণ্টা ও ধুলো — মরুভূমির বুকে ধীরে ধীরে বয়ে চলা মুনাফার যাত্রা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "fc033ee485c4edde857d7f4e69a0930f5300e089daff967ab76e95f5deb93ba1",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

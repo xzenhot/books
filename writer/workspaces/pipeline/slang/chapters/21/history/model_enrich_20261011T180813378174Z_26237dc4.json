@@ -1,0 +1,40 @@
+{
+  "chapter_index": 21,
+  "name": "21",
+  "word_target": 500,
+  "chapter_title": "বাঁশ দেওয়া",
+  "chapter_summary": "The chapter plunges into the treacherous landscape of betrayal, symbolized by the act of 'বাঁশ দেওয়া'—a deliberate sabotage that shatters the foundations of trust within the community or organization. The central conflict revolves around the insidious nature of internal treachery, where allies turn into saboteurs, leaving characters stranded in a state of profound vulnerability. Imagery of broken bonds and hidden malice pervades the narrative as the protagonist navigates a world where every gesture is suspect. Ultimately, the chapter leaves the reader grappling with the agonizing question: how can genuine loyalty survive when the very fabric of mutual faith has been deliberately undermined by the most trusted among them?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজ্ঞাত",
+      "role": "সাবোটাজকারী"
+    },
+    {
+      "id": "c2",
+      "name": "বন্ধুই",
+      "role": "বিপদে পড়া ব্যক্তি"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "বন্ধুর প্রতি বিশ্বাসঘাতকতার এই চিত্র তৎকালীন সামাজিক সম্পর্কের জটিলতা তুলে ধরে।",
+    "human_in_the_loop": "বিশ্বাসভঙ্গ এবং বিপদের মুখে মানুষের প্রতিক্রিয়া এখানে কেন্দ্রীয়ভাবে চিত্রিত হয়েছে।",
+    "influence_of_other_works": "প্রবাদতুল্য বাক্যগুলির ব্যবহার সাহিত্যিক গভীরতা প্রদান করে।",
+    "cultural_relevance": "বিশ্বাসঘাতকতা একটি সর্বজনীন সাংস্কৃতিক প্রেক্ষাপট যা এই অধ্যায়ে প্রতিফলিত।",
+    "literary_style": "গদ্যে কাব্যিকতা এবং তীক্ষ্ণতা বিদ্যমান, যা প্রবাদকে কবিতার রূপ দেয়।",
+    "narrative_techniques": "সাবোটাজ নামক ঘটনার মাধ্যমে নাটকীয় উত্তেজনা সৃষ্টি করা হয়েছে।",
+    "symbolism_and_motifs": "বাঁশ দেওয়া প্রতীকীভাবে আস্থার সম্পূর্ণ বিলুপ্তি বোঝায়।",
+    "reader_engagement_strategies": "বিপদের মুখে ফেলে দেওয়া এই পরিস্থিতি পাঠককে গভীরভাবে আকৃষ্ট করবে।",
+    "ethical_considerations": "বিশ্বাসঘাতকতা এবং নৈতিক পতন এই অধ্যায়ের মূল বিবেচ্য বিষয়।",
+    "potential_controversies": "বন্ধুর ওপর এই ধরনের বিশ্বাসঘাতকতা নিয়ে সামাজিক বিতর্কের সৃষ্টি হতে পারে।",
+    "diversity_and_inclusion": "চরিত্রের অনুপস্থিতিতে, এই অধ্যায়টি সার্বজনীন মানবিক সম্পর্কের উপর আলোকপাত করে।",
+    "marketing_and_promotion": "‘বিশ্বাস ভেঙে বাঁশ দেওয়া’ এই শক্তিশালী উক্তিটি প্রচারের জন্য উপযুক্ত।",
+    "significance_of_rise_of_bengal": "এই বিশ্বাসঘাতকতার ঘটনা তৎকালীন সামাজিক কাঠামোর দুর্বলতা নির্দেশ করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

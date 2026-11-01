@@ -1,0 +1,48 @@
+{
+  "chapter_index": 8,
+  "name": "8",
+  "word_target": 500,
+  "chapter_title": "The Bindi",
+  "chapter_summary": "A small bindi sits at the centre of a forehead, and the poem regards the dot of colour as a tiny, concentrated emblem of adornment and belonging.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the bindi not as a symbol of marriage or piety, but as an accidental splash of pigment reacting chemically to humidity in the humid afternoon air.",
+      "Treating the placement of the bindi as an act of calibration—a tiny focus point against the backdrop of blurred motion (the hurried passersby).",
+      "Exploring the tactile difference: not just the color, but the specific weight or slight grit of the material pressed onto the skin."
+    ],
+    "story_options": [
+      "Setting: A crowded street corner under harsh noon sun; Desire: To track how a bead of sweat interacts with the bindi’s pigment—does it run, dissolve, or simply darken? Obstacle: The anonymity of the figure bearing the mark.",
+      "Setting: Near an old doorway where morning light first strikes faces; Desire: To observe the specific sheen imparted to the dot by low-angle illumination, making it appear like polished obsidian. Obstacle: Other small markings (freckles, dust) competing for focus.",
+      "Setting: A quiet moment on a moving bus—a fleeting profile captured through a dusty window; Desire: To let the act of *passing* deconstruct the meaning of the mark before the memory fades. Obstacle: The vehicle's vibrations distorting the visual clarity."
+    ],
+    "subject_rotations": [
+      "Moving from the bindi as an object/adornment to it being a marker of inherited or community practice, tracing its specific shape or border style.",
+      "Examining the contrast between the small, deliberate point and the vastness of the skin it rests upon (the micro vs. macro scale).",
+      "Analyzing the bindi in relation to other temporary bodily markings—mehndi residue, smudges from dust, natural blemishes—as a spectrum of surface decoration."
+    ],
+    "sensory_details": [
+      "The subtle heat radiating off tanned skin immediately surrounding the cool pigment of the dot.",
+      "The powdery, almost chalky texture left on the fingers if one were to absentmindedly touch the forehead. (Touch)",
+      "The sharp, specific shade difference between the vermilion mark and the surrounding natural hue of the wearer’s complexion."
+    ],
+    "research_questions": [
+      "Are there common regional stylistic variations in the application or size of a bindi that could be hinted at through description without naming geography?",
+      "What are the visual qualities (e.g., sheen, opacity) of pigments commonly used for bindis versus those listed as being used elsewhere in the book context?"
+    ],
+    "structural_variants": [
+      "A recursive structure where every line detailing the dot is immediately followed by a phrase expanding outward to describe the whole face/person.",
+      "An intentionally fragmented presentation, mimicking how quick glances catch only slivers of color before moving on."
+    ],
+    "unused_angles": [
+      "The bindi as a lens refracting or absorbing light differently than the surrounding skin, creating micro-shadows around it.",
+      "Considering the history embedded in the *material*—whether it is natural paste, colored powder, or modern adhesive."
+    ],
+    "variety_note": "While previous poems focused on functional objects (glass, scale), this poem focuses entirely on a symbolic application of color onto skin, shifting focus from labor/utility to identity/ritual marking."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "chapter_index": 36,
+  "name": "36",
+  "word_target": 110,
+  "chapter_title": "The Servant Girl's Spilled Wine",
+  "chapter_summary": "A servant girl is struck for spilling a single drop of wine. The poem isolates the blow — the drop, the hand, the girl's silence — and lets it stand for every small cruelty the haveli's grandeur was built upon.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the physical mechanics of the spill: The trajectory of the single drop as an almost unbearable event—a micro-tragedy against the vast backdrop of opulence.",
+      "The wine not as a luxury, but as a volatile medium: Treating the spilled liquid as a temporary stain that momentarily defeats the polished veneer of the haveli's interior perfection.",
+      "A reversal of power through accident: The servant girl's accidental act is rendered with such precise detail that it forces a moment of uncomfortable pause from the enforcer, making the *spill* an unintentional critique."
+    ],
+    "story_options": [
+      "Setting: A cool, tiled hallway near the private chambers; Desire: To capture the echo—a single, sharp sound following the drop's impact on marble—which the girl cannot stop hearing after her master has left. Obstacle: Her imposed silence.",
+      "Setting: The edge of a richly embroidered ceremonial rug in the inner court; Desire: For the wine stain to spread outward like an unfurling rumor or complaint, visible only under specific lighting conditions. Obstacle: The immediate threat of physical reprimand.",
+      "Setting: Behind a heavy, carved wooden door used for private audience; Desire: To have the sound—the impact, followed by the servant's choked intake of breath—be amplified in this confined acoustic space, making it feel like a public broadcast. Obstacle: The pressure to remain perfectly still."
+    ],
+    "subject_rotations": [
+      "Viewing 'spilled wine' as a historical parallel to lost trade shipments: How one small loss ripples through the entire economic structure of the haveli.",
+      "The physical labor required to maintain perfection: Exploring how much effort (cleaning, polishes) is needed just to contain inevitable accidents like this spill.",
+      "Wine in Bengali cultural context: Briefly contrasting its meaning here—a marker of elite excess and fragility—against more familiar domestic or ritual use."
+    ],
+    "sensory_details": [
+      "Sight: The way the deep ruby liquid catches the light, momentarily shimmering against pale, highly polished sandstone before sinking into the grout.",
+      "Sound: The high-pitched *tink* sound of a drop hitting fine imported glass or glazed ceramic, distinct from the dull thud on stone.",
+      "Smell: The abrupt, sharp contrast between the sweet, fermented aroma of the spilled wine and the underlying, dry scent of old beeswax and polished wood."
+    ],
+    "research_questions": [
+      "What specific types of ceremonial or high-status wines were typically served within wealthy Rajasthani households during this period?",
+      "How was domestic labor policed in grand mercantile residences—was punishment usually physical, verbal, or economic?"
+    ],
+    "structural_variants": [
+      "A highly minimalist structure where each line focuses on a single element: drop, surface, reaction (silence/sound).",
+      "An anapestic meter that mimics the slight, unsteady rhythm of someone attempting to hold perfectly still under duress."
+    ],
+    "variety_note": "Unlike previous chapters which focused on economic mechanics or grand visuals, this chapter isolates a moment of minuscule domestic failure, using heightened auditory detail to convey structural violence."
+  },
+  "draft": {
+    "sha256": "e177ee42476935f1e5a6cfb819664dcaa0b757f781459369bb17eb0ee4391e07",
+    "written_at": "2026-10-04T20:16:09.235165+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "e177ee42476935f1e5a6cfb819664dcaa0b757f781459369bb17eb0ee4391e07",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

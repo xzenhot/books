@@ -1,0 +1,139 @@
+
+🛠️ Core Techniques to Practice
+
+1. For Confessionalism (Emotional Depth): Write a letter to your worst fear or deepest secret. Use the first-person "I" and banish all polite filters. Replace soft metaphors with visceral, physical imagery (e.g., instead of "I am sad," use "I am inhabited by a cry").
+2. For Language Poetry (Abstract Wordplay): Take a standard sentence and scramble the word order. Strip away punctuation and force unrelated words together to create entirely new textures, focusing purely on how syllables sound next to each other.
+3. For New Formalism (Structural Restraint): Choose a fixed form like a Sonnet or a Villanelle. Force yourself to tell a completely modern story (like sitting in traffic or scrolling on a phone) while strictly adhering to iambic pentameter or an AABB rhyme scheme.
+4. For Spoken Word (Rhythmic Cadence): Write your lines based on your natural breathing patterns. Read the poem aloud as you write it. Use repetition, alliteration, and internal rhymes to make the text roll off the tongue like music.
+5. For Instapoetry (Digital Minimalism): Take a complex thought and edit it down to its absolute skeleton—ideally under 20 words. Remove all capital letters, use simple line breaks, and focus on an universally understood human truth.
+
+
+{
+  "metadata": {
+    "description": "Parameters for analyzing and generating text-based poetry styles across historical movements.",
+    "timeframe": "300 BC - 2020 AD",
+    "version": "1.0"
+  },
+  "style_sliders": {
+    "emotional_rawness": {
+      "scale": "1-10",
+      "description": "Measures the transition from objective philosophy to intense personal trauma/confession."
+    },
+    "grammatical_abstraction": {
+      "scale": "1-10",
+      "description": "Measures how much the syntax is broken down, moving from clear narratives to abstract language play."
+    },
+    "structural_rigidity": {
+      "scale": "1-10",
+      "description": "Measures adherence to formal rules, moving from organic free verse to strict mathematical/classical constraints."
+    },
+    "rhythmic_urgency": {
+      "scale": "1-10",
+      "description": "Measures oral musicality, pacing, and suitability for spoken performance rather than silent reading."
+    },
+    "digital_simplicity": {
+      "scale": "1-10",
+      "description": "Measures line brevity, minimal vocabulary, and structural optimization for smartphone screens."
+    }
+  },
+  "movements": [
+    {
+      "name": "Stoicism",
+      "era": "Ancient (c. 300 BC)",
+      "key_figures": ["Marcus Aurelius"],
+      "one_liner": "Logic, virtue, and mastering inner thoughts.",
+      "parameter_weights": {
+        "emotional_rawness": 2,
+        "grammatical_abstraction": 1,
+        "structural_rigidity": 8,
+        "rhythmic_urgency": 2,
+        "digital_simplicity": 4
+      }
+    },
+    {
+      "name": "Sufism",
+      "era": "Medieval Foundations",
+      "key_figures": ["Rumi", "Hafez"],
+      "one_liner": "Seeking divine union through ecstatic love.",
+      "parameter_weights": {
+        "emotional_rawness": 9,
+        "grammatical_abstraction": 4,
+        "structural_rigidity": 5,
+        "rhythmic_urgency": 7,
+        "digital_simplicity": 3
+      }
+    },
+    {
+      "name": "Confessionalism",
+      "era": "Postmodern (1960s-1970s)",
+      "key_figures": ["Sylvia Plath", "Robert Lowell"],
+      "one_liner": "Direct, unflinching exposure of personal trauma.",
+      "parameter_weights": {
+        "emotional_rawness": 10,
+        "grammatical_abstraction": 3,
+        "structural_rigidity": 3,
+        "rhythmic_urgency": 5,
+        "digital_simplicity": 2
+      }
+    },
+    {
+      "name": "Language Poetry",
+      "era": "Postmodern (1970s-1980s)",
+      "key_figures": ["Charles Bernstein", "Lyn Hejinian"],
+      "one_liner": "Prioritizing word structure over clear meaning.",
+      "parameter_weights": {
+        "emotional_rawness": 1,
+        "grammatical_abstraction": 10,
+        "structural_rigidity": 6,
+        "rhythmic_urgency": 4,
+        "digital_simplicity": 2
+      }
+    },
+    {
+      "name": "New Formalism",
+      "era": "Late 20th Century (1980s-1990s)",
+      "key_figures": ["Dana Gioia", "Marilyn Hacker"],
+      "one_liner": "Returning to traditional rhyme and meter.",
+      "parameter_weights": {
+        "emotional_rawness": 5,
+        "grammatical_abstraction": 2,
+        "structural_rigidity": 10,
+        "rhythmic_urgency": 6,
+        "digital_simplicity": 3
+      }
+    },
+    {
+      "name": "Spoken Word",
+      "era": "Digital Age Transition (1990s-2000s)",
+      "key_figures": ["Marc Smith", "Saul Williams"],
+      "one_liner": "Rhythmic text built purely for performance.",
+      "parameter_weights": {
+        "emotional_rawness": 8,
+        "grammatical_abstraction": 3,
+        "structural_rigidity": 4,
+        "rhythmic_urgency": 10,
+        "digital_simplicity": 4
+      }
+    },
+    {
+      "name": "Instapoetry",
+      "era": "Digital Age (2010s-2020)",
+      "key_figures": ["Rupi Kaur", "Warsan Shire"],
+      "one_liner": "Minimalist, highly accessible emotional text snapshots.",
+      "parameter_weights": {
+        "emotional_rawness": 7,
+        "grammatical_abstraction": 1,
+        "structural_rigidity": 2,
+        "rhythmic_urgency": 3,
+        "digital_simplicity": 10
+      }
+    }
+  ],
+  "writing_skills": {
+    "confessional_skills": ["visceral physical imagery", "unfiltered first-person perspective", "taboo mapping"],
+    "language_poetry_skills": ["syntactical scrambling", "fragmentation", "phonetic layering"],
+    "new_formalist_skills": ["classical meter mastery", "rhyme architecture", "modern colloquial grounding"],
+    "spoken_word_skills": ["cadence matching", "breath-based lineation", "phonetic percussion"],
+    "instapoetry_skills": ["radical compression", "universal thematic scaling", "visual text layout"]
+  }
+}

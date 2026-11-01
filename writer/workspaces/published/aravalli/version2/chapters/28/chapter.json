@@ -1,0 +1,50 @@
+{
+  "chapter_index": 28,
+  "name": "28",
+  "word_target": 500,
+  "chapter_title": "শুকিয়ে দেওয়া প্রাণ",
+  "chapter_summary": "পাহাড় কাটা মানেই ভূগর্ভের গলা টিপে জল শুকিয়ে দেওয়া — এক প্রাচীন প্রহরীর নিঃশব্দ হত্যা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "enriched",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "nazrul",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 9,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 8,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Confessionalism",
+        "one_liner": "Direct, unflinching exposure of personal trauma."
+      },
+      "writing_skills": [
+        "visceral physical imagery",
+        "unfiltered first-person perspective",
+        "taboo mapping"
+      ],
+      "image_seed": "life drying out of the throttled aquifer",
+      "volta": "the drying turning from loss into an accusation",
+      "sonic_texture": "a percussive, uprising refrain",
+      "line_gesture": "declarative lines that cut",
+      "variety_note": "an outcry against the hidden river"
+    }
+  }
+}

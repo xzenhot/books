@@ -1,0 +1,40 @@
+{
+  "chapter_index": 80,
+  "name": "80",
+  "word_target": 500,
+  "chapter_title": "চোখে ধুলো দেওয়া",
+  "chapter_summary": "The chapter, titled 'চোখে ধুলো দেওয়া' (To put dust in the eyes), plunges into a tense confrontation where cunning deception becomes the primary weapon. The central conflict revolves around a calculated act of evasion, as the protagonist employs elaborate stratagems to successfully mislead the pursuing police force. Key imagery is woven through the narrative—the dust, the fog of misdirection, and the shadows of deceit—as the character orchestrates a masterful escape. This episode leaves the reader pondering the true cost of such cleverness: whether this temporary triumph of wit over authority will ultimately secure freedom or merely postpone an inevitable reckoning.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "প্রতারক",
+      "role": "চালাক"
+    },
+    {
+      "id": "c2",
+      "name": "পুলিশ",
+      "role": "কর্তৃপক্ষ"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "প্রতারণার দৃশ্যটি তৎকালীন সামাজিক প্রেক্ষাপটের সঙ্গে সামঞ্জস্যপূর্ণভাবে চিত্রিত হয়েছে।",
+    "human_in_the_loop": "চালাক প্রকৃতির চরিত্রেরা পুলিশের বুদ্ধিমত্তাকে কৌশলে অতিক্রম করার চেষ্টা করেছে।",
+    "influence_of_other_works": "প্রবাদবাক্যের মতো গভীরতা এই অধ্যায়ের ধূর্ত চালগুলির মধ্যে ফুটে উঠেছে।",
+    "cultural_relevance": "চোখে ধুলো দেওয়ার এই কৌশলটি লোকজ প্রবাদ ও চালাকি সংস্কৃতির প্রতিচ্ছবি।",
+    "literary_style": "গল্পের ভাষা তীক্ষ্ণ এবং চাতুর্যের সূক্ষ্মতা ফুটিয়ে তুলেছে।",
+    "narrative_techniques": "প্রতারণার প্রক্রিয়াটিকে ধাপে ধাপে বর্ণনা করে উত্তেজনা সৃষ্টি করা হয়েছে।",
+    "symbolism_and_motifs": "ধোঁকা এবং ছলনা এই অধ্যায়ের প্রধান প্রতীকী মোটিফ হিসেবে কাজ করছে।",
+    "reader_engagement_strategies": "পাঠককে চরিত্রদের চালাকি অনুসরণ করতে বাধ্য করে, যা তীব্র মনোযোগ আকর্ষণ করে।",
+    "ethical_considerations": "প্রতারণার এই চিত্রটি নৈতিকতার ধূসর অঞ্চলকে তুলে ধরে।",
+    "potential_controversies": "আইন প্রয়োগকারী সংস্থার প্রতি এই ধরনের কৌশলগত চ্যালেঞ্জ কিছু বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়ে সামাজিক শ্রেণিবিন্যাসের ঊর্ধ্বে উঠে বুদ্ধির লড়াই দেখানো হয়েছে।",
+    "marketing_and_promotion": "‘চোখে ধুলো দেওয়া’ শিরোনামটিই পাঠককে রহস্যময়তার দিকে প্রলুব্ধ করবে।",
+    "significance_of_rise_of_bengal": "এই অধ্যায়টি তৎকালীন সমাজের অভ্যন্তরে বিদ্যমান বিচক্ষণতার উত্থানকে ইঙ্গিত করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

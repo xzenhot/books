@@ -1,0 +1,64 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 110,
+  "chapter_title": "The Gold Thali",
+  "chapter_summary": "The beaten-gold platter that will feed five hundred guests is polished to a mirror. The poem holds the thali as the emblem of Gangaram's excess, the object that will both fix his name in the town's mouth and empty his vault.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining the gold thali not as a symbol of prosperity but as an artifact of required performance—its shine is dictated by who will be watching, rather than intrinsic value.",
+      "Focusing on the logistics: The sheer number of hands (servants) needed to polish, stack, and arrange five hundred identical platters before the guests arrive. The labor beneath the gleam.",
+      "Treating the metal itself as a reservoir of captured light—the reflection pooling the entire sky or courtyard onto its surface."
+    ],
+    "story_options": [
+      "Setting: A darkened, cool storeroom within the haveli, desire: Gangaram scrutinizes the thali under one sputtering oil lamp, obstacle: He notices a hairline scratch that suggests carelessness among his staff.",
+      "Setting: The threshing floor adjacent to the main receiving area, desire: A young servant struggles with the sheer weight and fragility of transporting stacks of gold-laden platters across uneven stone, obstacle: A sudden gust of wind threatens to destabilize the load.",
+      "Setting: Right as the sun dips below the western wall (golden hour), desire: Gangaram holds one thali up, testing its reflection against the setting light, but hesitates before it is fully prepared."
+    ],
+    "subject_rotations": [
+      "Shifting focus from the *gold* to the *memory*—what meals, conversations, and political maneuvering will this single platter witness?",
+      "Treating the plating process as a ritualistic manufacturing of status, where perfection is measured not against scarcity but against competition.",
+      "Viewing the thali's contents (the food) as a secondary focus: what does the specific presentation of humble local foods—spices, grains—on this ultimate signifier of wealth reveal about taste and hierarchy?"
+    ],
+    "sensory_details": [
+      "The high-pitched, almost musical *singing* sound made by a polished gold surface when tapped lightly with a fingerbone.",
+      "The cloying, sweet musk of saffron threads mixed into the rice dishes intended for presentation on the platter (Smell).",
+      "The overwhelming visual shimmer where the reflected light from hundreds of overlapping platters creates optical distortion across an otherwise still room (Sight)."
+    ],
+    "research_questions": [
+      "What were the typical regional standards or specific rituals associated with the plating and presentation of food during grand Marwari feasts in this era?",
+      "How did the perceived value of gold tableware differ between merchant families who accumulated it for display versus those who used it purely for trade collateral?"
+    ],
+    "structural_variants": [
+      "A strictly recursive structure where each sentence repeats a modification of 'polished to mirror,' gradually introducing new, conflicting details (e.g., polished to mirror / but shadowed by the debt).",
+      "An initial focus on the light catching the gold during the day, followed by an abrupt shift in pacing and tone as darkness forces the reliance on artificial, warm flame."
+    ],
+    "variety_note": "Unlike the broader architectural explorations of earlier chapters, this poem zooms into a single, hyper-defined object—the golden platter—to explore excess rather than space or structure. The use of fluctuating light will give it a kinetic instability absent in static portrayals of wealth."
+  },
+  "draft": {
+    "sha256": "72abb8707ace269129b33fdd52f318403504fff75bda7677344413556c9e392a",
+    "written_at": "2026-10-04T20:13:07.301784+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "72abb8707ace269129b33fdd52f318403504fff75bda7677344413556c9e392a",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

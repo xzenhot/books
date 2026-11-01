@@ -1,0 +1,40 @@
+{
+  "chapter_index": 98,
+  "name": "98",
+  "word_target": 500,
+  "chapter_title": "গলা কাটা",
+  "chapter_summary": "The chapter plunges into the harsh reality of the marketplace, where the central conflict revolves around the exorbitant and merciless pricing dictated by the shopkeeper. This environment is vividly painted with the imagery of predatory commerce, where the 'gola kata dam'—a price that feels like a throat-cutting demand—dominates the air. The protagonist confronts this economic cruelty, feeling the sharp sting of exploitation in every transaction. As the tension mounts over this relentless financial pressure, the narrative leaves the reader questioning: can dignity and fair exchange survive within such a brutally unforgiving commercial landscape?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "দোকানদার",
+      "role": "দাম নির্ধারণকারী"
+    },
+    {
+      "id": "c2",
+      "name": "ক্রেতা",
+      "role": "দাম প্রদানকারী"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "দোকানদারের গলা কাটা দাম নেওয়ার দৃশ্যটি তৎকালীন অর্থনৈতিক বাস্তবতার একটি কঠোর চিত্র তুলে ধরে।",
+    "human_in_the_loop": "নির্মম দাম চাপিয়ে দেওয়া দোকানদারের আচরণ মানুষের দৈনন্দিন সংগ্রামের প্রতিফলন ঘটায়।",
+    "influence_of_other_works": "এই অধ্যায়ের বর্ণনা প্রাচীন লোককথার কঠোর বাস্তবতার প্রতিধ্বনি বহন করে।",
+    "cultural_relevance": "গলা কাটা দামের প্রসঙ্গটি বাংলার গ্রামীণ অর্থনীতির একটি পরিচিত সামাজিক সমস্যাকে তুলে ধরে।",
+    "literary_style": "গল্পের ভাষা নির্মমতা এবং তীক্ষ্ণ বাস্তবতার মিশ্রণে রচিত হয়েছে।",
+    "narrative_techniques": "সংক্ষিপ্ত অথচ তীব্র বর্ণনা ব্যবহার করে লেখক দামের নিষ্ঠুরতা ফুটিয়ে তুলেছেন।",
+    "symbolism_and_motifs": "দোকানদারের উচ্চ দাম এখানে অর্থনৈতিক শোষণ এবং নিষ্ঠুরতার প্রতীক হিসেবে কাজ করে।",
+    "reader_engagement_strategies": "পাঠককে সরাসরি দামের নিষ্ঠুরতার মুখোমুখি দাঁড় করিয়ে দেওয়া হয়েছে, যা মনোযোগ আকর্ষণ করে।",
+    "ethical_considerations": "অতিরিক্ত মুনাফা বা গলা কাটা দাম নেওয়া নৈতিকতার প্রশ্ন উত্থাপন করে।",
+    "potential_controversies": "বাজারের এই ধরনের অনৈতিক লেনদেন নিয়ে সামাজিক বিতর্কের সৃষ্টি হতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি অর্থনৈতিক বৈষম্যের শিকার সাধারণ মানুষের চিত্র তুলে ধরে।",
+    "marketing_and_promotion": "এই অধ্যায়ের তীব্র বাস্তববাদটি সামাজিক সচেতনতা বৃদ্ধির মাধ্যমে প্রচারের সুযোগ সৃষ্টি করে।",
+    "significance_of_rise_of_bengal": "এই অর্থনৈতিক চাপ বাংলার সাধারণ মানুষের জীবনে যে কঠিন বাস্তবতা এনেছিল, তার একটি ক্ষুদ্র প্রতিচ্ছবি এটি।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

@@ -1,0 +1,77 @@
+# Chapter model context
+
+## chapter_index
+
+13
+
+## name
+
+13
+
+## word_target
+
+500
+
+## chapter_title
+
+লাল ধাতুর আগুন
+
+## chapter_summary
+
+খেতরি অঞ্চলের তামার খনি — পাহাড়ের ধমনীতে জমে থাকা আগুনের মতো লাল ধাতু। প্রাচীন সভ্যতার প্রথম রক্ত।
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Re-framing the metal not as a resource for civilization (like Chapter 56), but as trapped, solidified agony—the mountain weeping heavy copper tears.
+- Viewing the initial extraction site through the lens of ritualistic sacrifice rather than industrial labor; the miners are priests extracting divine gore.
+- Juxtaposing the violent, molten appearance of raw ore with the delicate fragility of Sagorika's own skin under stress.
+
+### story_options
+
+- Setting: A deep fissure where veins of copper oxidize into fiery reds., Desire: To isolate one piece of heavily tarnished, ancient nugget—the 'small concrete object'—and perceive its entire history in a single reflection., Obstacle: The intense heat and metallic tang overwhelm the poet's sensory perception, blurring the line between mineral and blood.
+- Setting: A low-lying area where runoff has stained vast sheets of surrounding black shale with vibrant copper oxides., Desire: To trace the chemical gradient across this stain, realizing that the 'fire' is merely a slow seep away from an internal wound., Obstacle: The constant flow of water washes away any singular focus, demanding a poetic pivot toward ephemerality.
+- Setting: Inside a rudimentary smelting operation where small batches are heated until they glow., Desire: To observe how the controlled fire momentarily brings the latent geological memory to a visible, incandescent state before cooling and obscuring it., Obstacle: The smoke carries a specific, acrid scent—the ghost of both primitive metallurgy and decay.
+
+### subject_rotations
+
+- Treating the color 'red' not as heat (Chapter 9), but specifically as oxidation—a slow, chemical death staining the stone.
+- Focusing on the *sound* of copper being worked or cracked—a dissonant, high-pitched stress against the mountain's deep silence.
+- Examining the symbolic meaning of the molten state: is it birth, rage, or unstoppable transformation?
+
+### sensory_details
+
+- Olfactory: The sharp, metallic tang in the air mixed with ancient damp earth and sulfurous fumes.
+- Visual: The unpredictable transition from dull, bruised green patina to blinding, arterial red under direct light.
+- Tactile: The unexpectedly granular, coarse texture of raw copper ore against the soft pads of a hand.
+
+### research_questions
+
+- Are there specific geological markers within Chattri region's porphyry deposits that indicate periods of extremely rapid metamorphic change suggestive of sudden internal pressure bursts?
+- How has local folklore traditionally interpreted metallic veins—as blessings, curses, or imprisoned entities?
+
+### structural_variants
+
+- A structure entirely built around the Volta: presenting a sequence of images depicting the 'fire' as outward eruption, followed by a sharp pivot to how that same material cools into something brittle and tragically inert.
+- An oscillating stanza pattern: alternating between extremely technical mineralogical descriptions (Cuprite identification) and intensely visceral metaphors concerning human suffering.
+
+### unused_angles
+
+- Exploring the cultural memory of early indigenous smiths who might have revered or feared this specific metal in ways not related to later empires or industry.
+
+### variety_note
+
+While previous chapters touched on color, this chapter isolates 'red' specifically as a chemical signature of trapped violence and molten potential, moving beyond simple warmth into material agony.

@@ -1,0 +1,40 @@
+{
+  "chapter_index": 70,
+  "name": "70",
+  "word_target": 500,
+  "chapter_title": "ঘাটের মড়া",
+  "chapter_summary": "The chapter, titled 'ঘাটের মড়া,' delves into the subtle yet profound conflict between brute force and seasoned wisdom, encapsulated by the proverb, 'পাকা টিকে থাকা — ভয় দেখিয়ে লাভ নেই, যেখানে অভিজ্ঞতাই বর্ম।' The narrative paints a stark picture of a tense confrontation at the ghat, where the raw aggression of the younger, untested characters clashes against the quiet, unshakeable authority of the elders. Imagery of weathered stone, the slow ebb and flow of the river, and the silent weight of years serve as a backdrop to this ideological battle. As the younger generation attempts to impose their will through intimidation, the established characters demonstrate that true resilience lies not in threats, but in the accumulated knowledge and tested patience of experience. The central question hanging in the humid air is whether the old guard's quiet endurance can truly withstand the rising tide of youthful hubris.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজ্ঞাত",
+      "role": "গ্রামবাসী"
+    },
+    {
+      "id": "c2",
+      "name": "অভিজ্ঞ",
+      "role": "গুরুজন"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "ঐতিহাসিক প্রেক্ষাপটে অভিজ্ঞতার গুরুত্বকে তুলে ধরা হয়েছে, যা তৎকালীন সামাজিক বাস্তবতাকে প্রতিফলিত করে।",
+    "human_in_the_loop": "চরিত্রের মাধ্যমে অভিজ্ঞতার শক্তিকে ব্যবহার করে পরিস্থিতি মোকাবিলা করার চিত্র অঙ্কিত হয়েছে।",
+    "influence_of_other_works": "এই অধ্যায়ের অন্তর্নিহিত দর্শন লোককথা এবং প্রবাদ-প্রবচনের গভীর প্রভাব বহন করে।",
+    "cultural_relevance": "'পাকা টিকে থাকা' এই ধারণাটি বাঙালি সংস্কৃতিতে প্রজ্ঞার অপরিহার্যতার প্রতীক।",
+    "literary_style": "প্রবাদকে কবিতার মতো করে উপস্থাপনের মাধ্যমে একটি কাব্যিক এবং গভীর সাহিত্যিক আবহ সৃষ্টি হয়েছে।",
+    "narrative_techniques": "উপমা এবং রূপকের ব্যবহার করে কঠিন বাস্তবতাকে সহজভাবে বর্ণনা করা হয়েছে।",
+    "symbolism_and_motifs": "অভিজ্ঞতা এখানে বর্মের প্রতীক, যা বিপদ থেকে রক্ষা করে।",
+    "reader_engagement_strategies": "পাঠককে সরাসরি প্রবাদের মাধ্যমে জীবনের একটি গভীর সত্যের মুখোমুখি দাঁড় করানো হয়েছে।",
+    "ethical_considerations": "ভয় দেখানোর চেয়ে অভিজ্ঞতার মাধ্যমে সমস্যার সমাধান করার নৈতিক পথ দেখানো হয়েছে।",
+    "potential_controversies": "কোনো নির্দিষ্ট বিতর্কিত বিষয় না থাকলেও, ক্ষমতার প্রদর্শন বনাম বিচক্ষণতা নিয়ে সূক্ষ্ম আলোচনা থাকতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়ে নির্দিষ্ট কোনো বৈচিত্র্যমূলক চরিত্র বা গোষ্ঠীর উপস্থিতি নেই, যা অভিজ্ঞতার সার্বজনীনতাকে তুলে ধরে।",
+    "marketing_and_promotion": "প্রবাদের শক্তিশালী বার্তা ব্যবহার করে পাঠক মহলে এর দার্শনিক গুরুত্ব তুলে ধরা যেতে পারে।",
+    "significance_of_rise_of_bengal": "এই অধ্যায়টি দেখায় যে, যেকোনো উত্থানের মূলে কেবল শক্তি নয়, বরং গভীর অভিজ্ঞতা ও প্রজ্ঞা থাকা আবশ্যক।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

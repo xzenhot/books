@@ -1,0 +1,40 @@
+{
+  "chapter_index": 85,
+  "name": "85",
+  "word_target": 500,
+  "chapter_title": "কাঁধে বন্দুক রাখা",
+  "chapter_summary": "The chapter delves into the cynical wisdom encapsulated in the proverb, 'পরের কাঁধে শিকার'—the futility of merely placing a gun on another's shoulder without taking direct action. This theme explores the moral decay within the community, where self-interest dictates that one should never shoulder the burden of true risk or responsibility. The central conflict manifests as a struggle between passive complicity and active resistance, vividly portrayed through the imagery of a loaded rifle resting on an unwilling shoulder, symbolizing delegated danger. As the narrative unfolds, the reader is left to question whether true change can ever be achieved when the weight of necessary action is perpetually shifted onto the next person in line.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজানা শিকারী",
+      "role": "প্রধান চরিত্র"
+    },
+    {
+      "id": "c2",
+      "name": "অন্য শিকারী",
+      "role": "সহযোগী চরিত্র"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "এই অধ্যায়ে বর্ণিত পরিস্থিতি তৎকালীন সামাজিক কাঠামোর প্রতিচ্ছবি তুলে ধরে।",
+    "human_in_the_loop": "চরিত্রের নিষ্ক্রিয়তা এবং অন্যের ওপর নির্ভরশীলতা এখানে স্পষ্টভাবে দৃশ্যমান।",
+    "influence_of_other_works": "প্রবাদটির গভীরতা প্রাচীন বাঙালি লোকসাহিত্যের ধারার সঙ্গে অনুরণিত হয়।",
+    "cultural_relevance": "আত্মনির্ভরশীলতার গুরুত্ব এই সমাজের একটি চিরন্তন সাংস্কৃতিক প্রশ্ন উত্থাপন করে।",
+    "literary_style": "গদ্যে প্রবাদের দার্শনিক গভীরতাকে কাব্যিক ছোঁয়ায় ফুটিয়ে তোলা হয়েছে।",
+    "narrative_techniques": "উপমা ও রূপকের মাধ্যমে ঘটনার অন্তর্নিহিত অর্থ পাঠককে উপলব্ধি করতে উৎসাহিত করে।",
+    "symbolism_and_motifs": "অন্যের কাঁধে বন্দুক রাখা প্রতীকীভাবে সুযোগসন্ধানী মনোভাবকে নির্দেশ করে।",
+    "reader_engagement_strategies": "পাঠককে প্রবাদটির মাধ্যমে নিজেদের জীবনের নৈতিক dilemmas নিয়ে ভাবতে বাধ্য করা হয়।",
+    "ethical_considerations": "কারও সাফল্যের পেছনে অন্যের শ্রমকে ব্যবহার করার নৈতিক প্রশ্নটি সামনে আসে।",
+    "potential_controversies": "ক্ষমতার অপব্যবহার এবং অন্যের ওপর নির্ভরতা নিয়ে বিতর্ক সৃষ্টি হতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি সামাজিক স্তরবিন্যাস এবং সুযোগের অসম বণ্টনের চিত্র তুলে ধরে।",
+    "marketing_and_promotion": "প্রবাদটির সারমর্মকে ব্যবহার করে সামাজিক সচেতনতামূলক প্রচার চালানো যেতে পারে।",
+    "significance_of_rise_of_bengal": "এই নিষ্ক্রিয়তা তৎকালীন সামাজিক স্থিতাবস্থার একটি সূক্ষ্ম প্রতিফলন ঘটায়।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

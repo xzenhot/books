@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 4,
+  "total_segments": 5,
+  "chapter_index": 4,
+  "name": "4",
+  "chapter_title": "প্রাচীন বিশ্বাস বনাম আধুনিক জীবনের বৈপরীত্য",
+  "chapter_summary": "এই অধ্যায়টি মহালয়ার পবিত্র আচারের সঙ্গে আধুনিক জীবনের দ্রুত গতির বৈপরীত্যকে গভীরভাবে অনুসন্ধান করে। অর্ণবের মতো চরিত্রটি ঐতিহ্যবাহী আচার-অনুষ্ঠানগুলির মধ্যে এক ধরনের কাঠামোগত শান্তি খোঁজে, কিন্তু আধুনিকতার স্রোত তাকে ক্রমাগত টেনে নিয়ে যায়। এই দ্বন্দ্বের চিত্রায়ণ আলো-ছায়ার খেলা এবং প্রাচীন স্থাপত্যের জীর্ণতার মাধ্যমে ফুটিয়ে তোলা হয়। প্রশ্নটি হলো— যখন জীবন দ্রুত গতিতে ছুটে চলেছে, তখন কি এই প্রাচীন বিশ্বাসগুলি কেবলই স্মৃতির আবছা প্রতিচ্ছবি হয়ে থেকে যায়, নাকি এগুলিই জীবনের মূল ভিত্তি?",
+  "word_target": 300,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "The ritual object (a specific utensil) failing precisely at the moment of peak perceived sanctity, forcing a confrontation between abstract faith and material reality.",
+    "status": "enriched"
+  }
+}

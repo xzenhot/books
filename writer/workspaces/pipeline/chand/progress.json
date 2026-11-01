@@ -1,0 +1,82 @@
+{
+  "total_chapters": 6,
+  "completed_chapters": 0,
+  "current_chapter": null,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "chand",
+  "form": "poetry",
+  "updated_by": "write",
+  "updated_date": "2026-11-01T18:28:47Z",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "প্রথম দৃষ্টি",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 2,
+      "topic": "সম্বোধনের ভাষা",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 3,
+      "topic": "পূর্ণিমার অধিকার",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/3/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 4,
+      "topic": "ক্ষয়ের রাত",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/4/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 5,
+      "topic": "অমাবস্যার স্মৃতি",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/5/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 6,
+      "topic": "শেষ প্রশ্ন",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/6/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    }
+  ],
+  "written_chapters": 6,
+  "published": false
+}

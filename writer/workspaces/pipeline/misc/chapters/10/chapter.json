@@ -1,0 +1,55 @@
+{
+  "chapter_index": 10,
+  "name": "10",
+  "word_target": 500,
+  "chapter_title": "The Tiffin in Its Cloth",
+  "chapter_summary": "A tiffin is wrapped in cloth and tied for the day's journey, and the poem considers the small parcel of food that travels from a kitchen to a desk.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Regional cloth patterns and their associated cultural meanings in India.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the cloth not as a wrapper for food, but as a portable vessel of domestic ritual—a temporary shrine carrying nourishment.",
+      "Viewing the tiffin itself as a contained ecosystem: how internal moisture interacts with spices and grains over time.",
+      "Shifting the focus entirely to the *tying* mechanism (the knot), examining it as an act of miniature, necessary binding that holds labor in place."
+    ],
+    "story_options": [
+      "Setting: A busy railway compartment at midday; Desire: To have the cloth briefly jostled by movement, causing a single grain of rice to spill onto the worn fabric, Obstacle: The need to immediately reseal the parcel without visible disturbance.",
+      "Setting: On a forgotten bench near an office gate as evening approaches; Desire: To watch the outline beneath the folds change from a compact geometry to a slumped, yielding weight, Obstacle: A stray gust of wind threatening to unravel the knot entirely.",
+      "Setting: Inside a quiet room during the transition from late afternoon sun to indoor shadow; Desire: To trace the pattern of heat transfer through the cloth—how the stored warmth radiates outward subtly, Obstacle: The sound of distant evening traffic interfering with internal stillness."
+    ],
+    "subject_rotations": [
+      "Treating the contents not as sustenance for the self, but as a miniature offering intended for later consumption (a form of deferred ritual).",
+      "Focusing on the material decay—the faint aroma leaching out from the cloth over several hours, altering the perceived 'purity' of the package.",
+      "Inverting the gaze: Instead of looking at the object, look at the *hand* that ties it, charting the familiarity and exhaustion in the specific pressure applied to the string."
+    ],
+    "sensory_details": [
+      "The papery dryness of an inner lining cloth contrasting with the oily warmth escaping the tightly packed contents.",
+      "A high-pitched, almost imperceptible squeak from the friction points where the tie knot digs into the woven fiber.",
+      "The specific scent profile when the outer wrap is momentarily peeled back—a sharp burst of turmeric mingling with stale cotton dust."
+    ],
+    "research_questions": [
+      "What are common regional variations in the fabric or binding material used for packing a tiffin, and how might these suggest different social contexts?",
+      "How does sustained warmth alter the molecular structure (or perceived aroma) of grains stored under a porous cloth over many hours?"
+    ],
+    "structural_variants": [
+      "A spiraling structure: beginning with the final knot and visually unwinding back through each layer of packing, until it reaches the raw ingredients inside.",
+      "A fragmented montage: juxtaposing brief flashes—a hand reaching for the tiffin at dawn, a glimpse of spice colors, the moment of setting down, fading to silence."
+    ],
+    "unused_angles": [
+      "Exploring the symbolic weight of what is *left out* of the tiffin (the communal elements vs. the individual ration).",
+      "A meditation on containment: how this small object performs its function against the vast, chaotic backdrop of the city/street life.",
+      "The tension between preparation (past) and consumption (future)."
+    ],
+    "variety_note": "Where previous poems focused on objects in motion or fixed points of contact, this poem will isolate the tiffin as a self-contained mobile archive of private domesticity."
+  }
+}

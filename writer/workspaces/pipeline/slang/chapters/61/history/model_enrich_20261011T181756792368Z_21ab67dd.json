@@ -1,0 +1,40 @@
+{
+  "chapter_index": 61,
+  "name": "61",
+  "word_target": 500,
+  "chapter_title": "সেয়ানে সেয়ানে",
+  "chapter_summary": "Chapter 61, titled 'সেয়ানে সেয়ানে,' delves into a tense intellectual duel between two cunning characters, where the clash of equal wits forms the core conflict. The narrative is steeped in the imagery of a subtle, almost silent battlefield, where every word and gesture is a carefully placed maneuver, reflecting the proverb 'proverb is poetry.' This confrontation is not marked by physical violence, but by a relentless sparring of sharp intellects, with neither combatant willing to yield an inch of ground or concede a single point. As the exchange reaches its zenith, the reader is left to ponder the true nature of victory: is it the one who speaks the cleverest line, or the one whose underlying strategy proves ultimately insurmountable?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "ধূর্ত ১",
+      "role": "বুদ্ধিমান প্রতিদ্বন্দ্বী"
+    },
+    {
+      "id": "c2",
+      "name": "ধূর্ত ২",
+      "role": "বুদ্ধিমান প্রতিদ্বন্দ্বী"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "দুই ধূর্তের বুদ্ধির সংঘর্ষের চিত্রণ তৎকালীন সামাজিক প্রেক্ষাপটকে প্রতিফলিত করে।",
+    "human_in_the_loop": "এই অধ্যায়ে দুই চরিত্রের তীক্ষ্ণ মানসিক দ্বৈরথ পাঠকের মনোযোগ ধরে রাখে।",
+    "influence_of_other_works": "প্রবাদ-বাণীর মতো গভীরতা এই অধ্যায়ের সংঘাতকে সাহিত্যিক মাত্রা দেয়।",
+    "cultural_relevance": "সমান বুদ্ধির লড়াইয়ের মাধ্যমে লোক-প্রজ্ঞা ও কৌশলগত বিচক্ষণতা তুলে ধরা হয়েছে।",
+    "literary_style": "প্রতিটি সংলাপ যেন একটি সুচিন্তিত কাব্যিক আদান-প্রদান।",
+    "narrative_techniques": "চরিত্রদের মধ্যেকার চাপা উত্তেজনা এবং বুদ্ধির খেলা বর্ণনা করার মাধ্যমে কাহিনি এগিয়ে যায়।",
+    "symbolism_and_motifs": "ধূর্ততা ও বুদ্ধিমত্তা এখানে প্রধান প্রতীক হিসেবে কাজ করে।",
+    "reader_engagement_strategies": "কেউ হার মানতে না চাওয়ার এই লড়াই পাঠককে শেষ পর্যন্ত बांधে রাখে।",
+    "ethical_considerations": "বুদ্ধির ব্যবহার নৈতিকতার সীমারেখার কাছাকাছি চলে আসে।",
+    "potential_controversies": "দুই ধূর্তের মধ্যেকার তীব্র প্রতিযোগিতা সামাজিক দ্বন্দ্বের ইঙ্গিত দিতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি বুদ্ধিমত্তার যে কোনো রূপকে গুরুত্ব দেয়, তা বর্ণনার মাধ্যমে প্রকাশ পায়।",
+    "marketing_and_promotion": "‘সমান বুদ্ধির সংঘর্ষ’ এই উপশিরোনামটি প্রচারের জন্য অত্যন্ত আকর্ষণীয়।",
+    "significance_of_rise_of_bengal": "এই ধরনের বুদ্ধিবৃত্তিক সংগ্রাম বাংলার নিজস্ব সাংস্কৃতিক ঐতিহ্যের প্রতিচ্ছবি বহন করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

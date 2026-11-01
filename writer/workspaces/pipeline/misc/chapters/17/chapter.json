@@ -1,0 +1,57 @@
+{
+  "chapter_index": 17,
+  "name": "17",
+  "word_target": 500,
+  "chapter_title": "The Marigold Garland at the Stall",
+  "chapter_summary": "A garland of marigolds hangs at a flower stall, and the poem considers the brief bright loop made to wilt by evening.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Symbolism of Marigolds in Hindu Rituals (as opposed to market commodity)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the garland not as decoration for sale, but as a discarded remnant—a few petals found on the dirt path outside the stall.",
+      "Treating the marigold's color (orange/yellow) not as vibrancy, but as an overwhelming visual heat that absorbs and distorts surrounding reality.",
+      "Observing the interaction between the garland and other elements at the stall: how its bright mass clashes with dull copper pots or sacking sacks."
+    ],
+    "story_options": [
+      "Setting: The immediate base of the flower stall, desire: To find a single, perfect petal that has detached itself in transit, obstacle: Its isolation on the gritty pavement, turn: The speaker attempts to preserve it using only breath.",
+      "Setting: Inside the stalls' shadow at late afternoon, desire: To map the subtle bruising or fading lines across the clustered flowers before nightfall, obstacle: The slow process of decay becoming visible, turn: The garland itself seems to momentarily 'remember' its original perfect state when viewed in a specific sliver of light.",
+      "Setting: Near where garlands are being tied for another purpose (ritual/offering), desire: To trace the hands that create them—the quick labor and practiced rhythm—obstacle: Observing these hands from far enough away to remain an observer, turn: The ritualistic loop mimics a pattern found in traditional script or weaving."
+    ],
+    "subject_rotations": [
+      "Examining the life cycle of *Tagetes* (marigold) as a micro-metaphor for commitment—the bloom is vibrant, but its existence is inherently finite.",
+      "Focusing on the chemical scent profile: the slightly vegetal, earthy sweetness of the fresh blooms contrasted with the drier, sharper smell of wilting ones.",
+      "The garland as economic object: how carefully the length and density are judged by buyers to assign value within the market's day-to-day ritual."
+    ],
+    "sensory_details": [
+      "The sharp, slightly waxy texture felt under fingertips when touching the densest part of the cluster.",
+      "The gritty particulate matter—dust motes—caught and momentarily suspended in the dry air clinging to the orange petals.",
+      "The specific sound of a heavy metal string or twine being pulled taut across the length of the garland, creating a faint, high-pitched tension."
+    ],
+    "research_questions": [
+      "What are common folk uses or symbolic meanings attached to marigolds beyond immediate decoration in contemporary regional Indian life that could inform metaphor?",
+      "Are there specific observable ways in which vendors handle or drape garlands to maximize visual impact against typical stall backdrops (wood, canvas, stone)?",
+      "How does the perceived 'freshness' of a bloom translate into an established market price point among local sellers?"
+    ],
+    "structural_variants": [
+      "A highly segmented piece where each line focuses on one microscopic part of a single petal.",
+      "A cyclical structure, mirroring the process of garland making (looping action) and subsequent wilting (unraveling action).",
+      "Starting with the color's intensity at high noon, then meticulously slowing down the meter as it approaches the diffused glow of evening."
+    ],
+    "unused_angles": [
+      "The specific language used by vendors when describing the quality or auspiciousness of a particular batch of blooms.",
+      "How the shadows cast by the garlands during peak afternoon heat refract and distort the colors into unnatural hues.",
+      "A contrast between the marigold's permanence as a cultural signifier versus the extreme ephemerality of its physical state."
+    ],
+    "variety_note": "While other chapters focus on single objects in motion (e.g., cycle, bell), this chapter lingers on stasis—a hanging mass whose internal drama is purely one of time and slow entropy."
+  }
+}

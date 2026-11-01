@@ -1,0 +1,28 @@
+{
+  "chapter_index": 82,
+  "name": "82",
+  "word_target": 500,
+  "chapter_title": "নখের আঁচড়",
+  "chapter_summary": "সাগরিকার নখের আঁচড় ও বন্য শিকারী প্রবৃত্তি — প্রেম নিবেদনের ছলে পুরুষের বুকে এঁকে দেয় আদিম সারভাইভ্যালের নিষ্ঠুর দলিল।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "1ddfefb05078ccd64ecc701c81bb54d8abb50228f036216e591e7e64b399217e",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

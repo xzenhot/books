@@ -1,0 +1,51 @@
+{
+  "chapter_index": 21,
+  "name": "21",
+  "word_target": 250,
+  "chapter_title": "নাম বদলায়",
+  "chapter_summary": "একদিন খোলসটি ভিতরে বদলে যায় না, শুধু তার নাম বদলায়। নামান্তরের এই সরল ঘটনা কে নিয়ন্ত্রণ করে, তা কেউ জানে না।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Examining 'নাম' (Name) not as a descriptor, but as an active force—a linguistic boundary that separates the internal geography from the external reality.",
+      "A dialectical focus: contrasting the guttural pride of the original Bengali naming convention with the flattening anonymity of the foreign market moniker.",
+      "Framing the name change as a subtle form of cultural erosion; the lexicon itself is becoming porous, losing its load-bearing capacity."
+    ],
+    "story_options": [
+      "Setting: A busy junction in an unnamed city street; Desire: To watch the vendor meticulously swap the old wrapper for a new one (the nomenclature shifts); Obstacle: The observer feels unable to correct the imposed name, fearing disruption.",
+      "Setting: Inside a sterile packaging factory late at night; Desire: To witness the stamping of a standardized, foreign-market label onto the familiar form; Obstacle: The machinery operates with inhuman precision, erasing nuance.",
+      "Setting: A quiet tea stall near an airport terminal; Desire: To overhear two different pronunciations of the item—one local slang, one official transit jargon—and trace their divergence."
+    ],
+    "subject_rotations": [
+      "Treating 'নাম' (Name) as a form of transient political currency: how quickly value shifts based on pronunciation.",
+      "Focusing entirely on sound and phonetics: the exact difference in glottal stop or vowel glide between সিঙ্গাড়া and সামোসা, treating this phonetic gap as an ontological rift.",
+      "The name change as self-deception: when I accept the new label, am I accepting a different foodstuff, even if the dough remains?"
+    ],
+    "sensory_details": [
+      "Visual: The sharp, high-contrast shadow cast by standardized printed font on the textured oil stain of the cart.",
+      "Auditory: The clipped, rapid exchange between buyer and vendor using abbreviated foreign commerce terminology.",
+      "Olfactory: The scent of industrial sealing wax mingling uneasily with residual deep-fryer grease."
+    ],
+    "research_questions": [
+      "How does the specific linguistic cadence ('ভুল উচ্চারণ') used in diaspora communities differ structurally from its 'accepted' market pronunciation?"
+    ],
+    "structural_variants": [
+      "A sustained, unbroken stream of consciousness where the internal monologue is continually interrupted by vendor shouts or passing advertisements listing alternative names.",
+      "Alternating stanzas between intensely focused description (the physical object) and sweeping abstraction (the meaning of nomenclature/identity)."
+    ],
+    "unused_angles": [
+      "Exploring whether a universally understood 'image' can survive when the specific cultural label attached to it has been systematically replaced across geographies."
+    ],
+    "variety_note": "This chapter pivots from the initial, visceral preparation (Chapter 1) and the physical journey (Chapters 11-13) by isolating the semiotic transaction—the point where object becomes commodity via name change."
+  },
+  "draft": {
+    "sha256": "3d749239b3a91c40e033f268e50b92e27bb17ee45f8b22bf193b4ec07748d8fa",
+    "written_at": "2026-11-01T08:22:08.241231+00:00",
+    "origin": "write"
+  }
+}

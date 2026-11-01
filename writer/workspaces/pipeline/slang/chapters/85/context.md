@@ -1,0 +1,162 @@
+# Chapter model context
+
+## chapter_index
+
+85
+
+## name
+
+85
+
+## word_target
+
+500
+
+## chapter_title
+
+কাঁধে বন্দুক রাখা
+
+## chapter_summary
+
+The chapter delves into the cynical wisdom encapsulated in the proverb, 'পরের কাঁধে শিকার'—the futility of merely placing a gun on another's shoulder without taking direct action. This theme explores the moral decay within the community, where self-interest dictates that one should never shoulder the burden of true risk or responsibility. The central conflict manifests as a struggle between passive complicity and active resistance, vividly portrayed through the imagery of a loaded rifle resting on an unwilling shoulder, symbolizing delegated danger. As the narrative unfolds, the reader is left to question whether true change can ever be achieved when the weight of necessary action is perpetually shifted onto the next person in line.
+
+## further_references
+
+
+## characters
+
+### Item 1
+
+#### id
+
+c1
+
+#### name
+
+অজানা শিকারী
+
+#### role
+
+প্রধান চরিত্র
+
+### Item 2
+
+#### id
+
+c2
+
+#### name
+
+অন্য শিকারী
+
+#### role
+
+সহযোগী চরিত্র
+
+## qualities
+
+### historical_accuracy
+
+এই অধ্যায়ে বর্ণিত পরিস্থিতি তৎকালীন সামাজিক কাঠামোর প্রতিচ্ছবি তুলে ধরে।
+
+### human_in_the_loop
+
+চরিত্রের নিষ্ক্রিয়তা এবং অন্যের ওপর নির্ভরশীলতা এখানে স্পষ্টভাবে দৃশ্যমান।
+
+### influence_of_other_works
+
+প্রবাদটির গভীরতা প্রাচীন বাঙালি লোকসাহিত্যের ধারার সঙ্গে অনুরণিত হয়।
+
+### cultural_relevance
+
+আত্মনির্ভরশীলতার গুরুত্ব এই সমাজের একটি চিরন্তন সাংস্কৃতিক প্রশ্ন উত্থাপন করে।
+
+### literary_style
+
+গদ্যে প্রবাদের দার্শনিক গভীরতাকে কাব্যিক ছোঁয়ায় ফুটিয়ে তোলা হয়েছে।
+
+### narrative_techniques
+
+উপমা ও রূপকের মাধ্যমে ঘটনার অন্তর্নিহিত অর্থ পাঠককে উপলব্ধি করতে উৎসাহিত করে।
+
+### symbolism_and_motifs
+
+অন্যের কাঁধে বন্দুক রাখা প্রতীকীভাবে সুযোগসন্ধানী মনোভাবকে নির্দেশ করে।
+
+### reader_engagement_strategies
+
+পাঠককে প্রবাদটির মাধ্যমে নিজেদের জীবনের নৈতিক dilemmas নিয়ে ভাবতে বাধ্য করা হয়।
+
+### ethical_considerations
+
+কারও সাফল্যের পেছনে অন্যের শ্রমকে ব্যবহার করার নৈতিক প্রশ্নটি সামনে আসে।
+
+### potential_controversies
+
+ক্ষমতার অপব্যবহার এবং অন্যের ওপর নির্ভরতা নিয়ে বিতর্ক সৃষ্টি হতে পারে।
+
+### diversity_and_inclusion
+
+এই অধ্যায়টি সামাজিক স্তরবিন্যাস এবং সুযোগের অসম বণ্টনের চিত্র তুলে ধরে।
+
+### marketing_and_promotion
+
+প্রবাদটির সারমর্মকে ব্যবহার করে সামাজিক সচেতনতামূলক প্রচার চালানো যেতে পারে।
+
+### significance_of_rise_of_bengal
+
+এই নিষ্ক্রিয়তা তৎকালীন সামাজিক স্থিতাবস্থার একটি সূক্ষ্ম প্রতিফলন ঘটায়।
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating 'কাঁধে বন্দুক রাখা' not as a commentary on risk delegation, but as a physical manifestation of collective societal paralysis—a cultural habit of deferring necessary confrontation.
+- Framing the act through an intensely personal lens: One character is so paralyzed by fear of ownership (of the rifle/responsibility) that they can only gesture it forward, making the burden purely existential rather than practical.
+- Focusing on the silence required for this delegation to work—the unspoken contract between C1 and C2 where both know the danger but refuse the initiation.
+
+### story_options
+
+- Setting: A sun-bleached, cracked earthen floor near a forgotten roadside shrine; Desire: The character who 'should' fire refuses to look at the muzzle, obstacle: the sheer heat and silence of the vast open space.
+- Setting: Inside the claustrophobic confines of a storage room filled with moth-eaten jute sacks (a visual echo of stored inaction); Desire: C1 yearns to shatter the stasis by forcing the issue, obstacle: C2's quiet, immovable acceptance of the burden transfer.
+- Setting: A threshold between two spaces—inside/outside, decision/inaction; Desire: To reclaim agency by physically taking the weapon back, obstacle: an invisible social force pulling both characters toward complicity.
+
+### subject_rotations
+
+- Examining 'responsibility' through the lens of physical labor required to maintain the gun (cleaning, carrying), highlighting how this maintenance itself becomes a passive burden.
+- Shifting focus from the political implication to the intimate failure: The weapon represents a broken promise between two people rather than a grand strategic maneuver.
+- Interpreting 'the shoulder' not as muscle or posture, but as a metaphor for shared lineage or unspoken cultural obligation that compels this passivity.
+
+### sensory_details
+
+- Touch: The gritty resistance of dried river mud clinging to the metal casing of the rifle stock.
+- Sound: The faint, metallic *tink* sound when the bolt is nudged slightly by a nervous finger, echoing in a still environment.
+
+### research_questions
+
+- Are there specific regional Bengali metaphors for inherited social inertia or passive acceptance that mirror this theme of deferred action?
+
+### structural_variants
+
+- A highly fragmented structure mirroring strained breath—each stanza is an incomplete thought, punctuated by the weight settling onto a shoulder.
+- Starting with a direct address to an absent confidant (the secondary twist), using that conversation to define the current paralysis.
+
+### unused_angles
+
+- How this passive stance contrasts with moments of sudden, almost manic physical exertion observed elsewhere in the community (a brief juxtaposition).
+
+### variety_note
+
+This chapter diverges from previous explorations of cunning by focusing entirely on *inaction* and the shared paralysis that results from refusing to claim necessary danger.

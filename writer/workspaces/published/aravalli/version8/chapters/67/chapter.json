@@ -1,0 +1,28 @@
+{
+  "chapter_index": 67,
+  "name": "67",
+  "word_target": 500,
+  "chapter_title": "মাটির দলিলের ক্ষুধা",
+  "chapter_summary": "রিয়েল এস্টেটের গ্রাস — পাহাড়ের গ্রিন বেল্ট বা প্রাকৃতিক ফুসফুসকে গিলে খাওয়া আধুনিক টানাপোড়েন।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "86f70c3b981efc69d4133ff40f8342368bb34ea3091821794f13444e929eb519",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "chapter_index": 4,
+  "name": "4",
+  "word_target": 110,
+  "chapter_title": "The Merchant's House",
+  "chapter_summary": "Inside the painted mansion the patron entertains guests who praise the color and never ask the maker's name, and the painter overhears his own erasure from the shadows of a house he built with his hands.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Patron-artist dynamic in Rajput miniature painting traditions.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the architecture itself as a character—how the mansion's intricate design dictates or subtly mocks the singular act of painting.",
+      "A perspective shift from outside observation (the guests) to an internal, sensory perception of the *interior* light interacting with the frescoed scenes versus the harsh external lamplight.",
+      "Examining the concept of patronage as a transactional ritual: how does flattery function as payment when it is purely aesthetic and entirely uncommittal?"
+    ],
+    "story_options": [
+      "Setting: The central courtyard during an evening reception; Desire: To intercept a specific, careless phrase spoken by a guest that dismisses labor as 'mere adornment'; Obstacle: The sound of high-pitched laughter drowning out the critical whisper.",
+      "Setting: A shadowed alcove within the haveli walls after the guests depart; Desire: The painter's impulse to touch one of the completed figures, testing its solidity against the ghost of his own unseen contribution; Obstacle: The weight of the night’s fatigue forcing him away from the wall.",
+      "Setting: Observing the reflections in highly polished metalware (e.g., a silver tray) during the feast; Desire: To see a momentary distortion of the painted scene that reveals not glory, but raw structure beneath the color; Obstacle: The chaotic movement and shifting candlelight preventing any sustained observation."
+    ],
+    "subject_rotations": [
+      "Treating the act of praising the *color* as an almost religious form of blind faith—the devotion to surface over substance.",
+      "Focusing on the psychological dissonance of being physically inside a masterpiece while spiritually existing outside its frame (i.e., in the shadows).",
+      "Examining the permanence of the architecture versus the ephemerality of recognition; the building remains, but the *name* vanishes."
+    ],
+    "sensory_details": [
+      "The faint, cloying sweetness of imported spices wafting from the host's private chambers into the cooling masonry.",
+      "The sharp, dry heat radiating off an unshaded brass lamp positioned near a heavily decorated niche, contrasting with the evening chill in the corridor.",
+      "The slick, cool feel of highly lacquered wood paneling underfoot where guests congregate."
+    ],
+    "research_questions": [
+      "What specific social protocols governed conversation and hierarchy within elite Marwari households during high-status gatherings that might result in the erasure of low-level laborers' contributions?",
+      "Are there documented instances or local anecdotes regarding how praise was framed towards artisans versus patrons in Shekhawati artistic contexts?",
+      "How did traditional Rajasthani hospitality practices visually manifest power dynamics between those who host and those who are hosted?"
+    ],
+    "structural_variants": [
+      "A poem structured around a slow accretion of overheard fragments, each phrase being denser and more dismissive than the last.",
+      "Alternating stanzas: one entirely focused on the glittering opulence observed from below (guest level), followed by verses describing the isolation of the scaffold above."
+    ],
+    "variety_note": "Where previous chapters centered on materials or processes, this chapter pivots to the social reception and psychological fallout of being invisible within a completed spectacle."
+  },
+  "draft": {
+    "sha256": "fac3e7dd45314ee3f419443ca3f67322d9cfb9a5c18626dd19a10549e069fb62",
+    "written_at": "2026-10-09T22:11:45.761545+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "fac3e7dd45314ee3f419443ca3f67322d9cfb9a5c18626dd19a10549e069fb62",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-09T22:14:15+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

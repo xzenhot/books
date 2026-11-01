@@ -1,0 +1,65 @@
+{
+  "chapter_index": 26,
+  "name": "26",
+  "word_target": 500,
+  "chapter_title": "পাথরের ভেতরে গোপন নদী",
+  "chapter_summary": "বানাস নদীর ভূগর্ভস্থ অ্যাকুইফার পাহাড়ের উপত্যকায় পুনরুজ্জীবিত হয় — পাথরের ভেতরে জলের গোপন নদী।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "sukanta",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 8,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 8,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Spoken Word",
+        "one_liner": "Rhythmic text built purely for performance."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "a secret river running inside the stone",
+      "volta": "the river turning from water into a promise",
+      "sonic_texture": "a rising, breath-driven cadence",
+      "line_gesture": "breath-driven lines with a rallying close",
+      "variety_note": "a hidden current after the aquifer's dream"
+    }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "437cd5c62bba2d4200ef343bfde6bc1bd3c2d1fa8e271a5c33191ee14ead26df",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

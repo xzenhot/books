@@ -1,0 +1,65 @@
+{
+  "chapter_index": 29,
+  "name": "29",
+  "word_target": 500,
+  "chapter_title": "মরুর ক্ষুধার্ত মুখ",
+  "chapter_summary": "প্রাচীর ভেঙে গেলে থর মরুভূমির গ্রাস পূর্বের সবুজকে গিলে নেয় — এক পরিবেশগত ট্র্যাজেডি।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rabindrasangeet",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 7,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 7,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "the desert's hungry face turned toward the green wall",
+      "volta": "hunger turning from need into a song",
+      "sonic_texture": "a long, uplifted, chant-like cadence",
+      "line_gesture": "lines that turn upward toward union",
+      "variety_note": "a song of thirst against the outcry"
+    }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "9956d4c198e100bf2c7238710fb0eedb9aad333d532dec3eafebdbe053ae26f7",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

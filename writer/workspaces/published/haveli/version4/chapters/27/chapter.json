@@ -1,0 +1,87 @@
+{
+  "chapter_index": 27,
+  "name": "27",
+  "word_target": 500,
+  "chapter_title": "The Wedding Season",
+  "chapter_summary": "Marriages are celebrated with ghee and marigold in the painted courtyards, the haveli at its most alive. The poem lingers on the scent and the music, the weddings whose fragrance will outlast the memory of anyone who attended.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Traditional wedding music instrumentation specific to Marwari regions (e.g., specialized flutes or drums)",
+      "weblink": ""
+    },
+    {
+      "no": "2",
+      "reference": "Historical costs associated with bridal trousseaus and decorative elements in 19th-century Rajasthan",
+      "weblink": ""
+    },
+    {
+      "no": "3",
+      "reference": "The social function of wedding patronage by powerful merchant families beyond mere display",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The transactional cost perspective: Examining the marriage celebration not as joy, but as a large-scale investment exchange where every expenditure is calculated profit/loss.",
+      "Focusing on discarded wedding paraphernalia: Treating veils, garlands, and temporary decorations like industrial waste that tells a story of sudden abundance rather than lasting permanence.",
+      "The perspective of hired labor *during* the festival: Centering entirely on the musicians, caterers, or decorators whose livelihoods depend on this single season's expenditure."
+    ],
+    "story_options": [
+      "setting: The main courtyard after a wedding procession has cleared;",
+      "desire: To find one piece of discarded symbolic material (a unique thread, a forgotten scent) that contradicts the outward splendor., obstacle: The relentless sweep of servants clearing away all traces of the celebration, maintaining the illusion of order., turn: This small remnant triggers a memory or revelation about the *real* cost to one specific family unit involved in the ceremony.",
+      "setting: A quiet corner where music instruments are stored after an evening function;",
+      "desire: To examine a single, broken component of musical apparatus (a snapped reed, a dull string)., obstacle: The realization that the failure of this small tool symbolizes the temporary nature of all amassed wealth and joy., turn: A lingering silence punctuated by a sound *not* related to music—the creak of old wood or settling dust.",
+      "setting: Near the kitchens responsible for feeding hundreds during the festivities;",
+      "desire: To observe the waste output: the discarded scraps of food, spices, and biodegradable decorations., obstacle: The juxtaposition between the feast's excess and the meager reality outside the haveli gates at dawn., turn: A single surviving ingredient (e.g., a perfect, unblemished saffron strand) suggests an untapped or overlooked source of value."
+    ],
+    "subject_rotations": [
+      "Treating the celebration as a form of temporary economic inflation: How does spending all this excess wealth signal strength when that money must come from finite sources?",
+      "Focusing solely on the materials involved in clothing exchanges for weddings, detailing dye processes and embroidery costs rather than the ceremony itself.",
+      "Shifting the focus from grand spectacle to intimate moments witnessed by peripheral characters—the aged domestic help, the visiting relatives who are not central to the plot."
+    ],
+    "sensory_details": [
+      "Sight: The precise geometric pattern of spilled marigold petals mixing with dried stains of turmeric.",
+      "Sound: The rhythmic, slightly off-key laughter echoing from an enclosed space after the main crowd has dispersed.",
+      "Smell: A layered scent profile containing sweet ghee overlaid by the sharp, chemical tang of newly dyed fabric."
+    ],
+    "research_questions": [
+      "What were the customary symbolic objects or specific textiles associated with a 'successful' marriage in this region that are now lost or undervalued?",
+      "Were there specific timings or weather patterns considered auspicious or detrimental to wedding celebrations, and how did that affect planning?",
+      "How was payment for the services (music, feast preparation) structured after such large gatherings—was it immediate cash, debt repayment deferred until a harvest, or barter?"
+    ],
+    "structural_variants": [
+      "A structure built around three acts: Preparation (the accumulation of goods), Climax (the event itself), and Aftermath (the sudden deflation back to quiet routine).",
+      "Interweaving narratives: Alternating between the high-energy 'public' view of the wedding celebration and private moments of negotiation or melancholy within a single family.",
+      "A poem written in fragmented, epigrammatic bursts that mimic scattered memories, punctuated by one sustained, detailed sensory immersion."
+    ],
+    "variety_note": "Where earlier chapters focused on accumulation (profit) or established grandeur (frescoes), this chapter must focus on the high-cost *expenditure* of joy—a controlled moment of unsustainable public excess."
+  },
+  "draft": {
+    "sha256": "ef4ed0db3bb6441e701ee5b0de587f19f3d9d4da679256d1c1779767162f8caa",
+    "written_at": "2026-09-28T18:39:29.723609+00:00",
+    "origin": "write"
+  },
+  "humanized": true,
+  "humanized_at": "2026-09-27T18:22:17+00:00",
+  "quality_review": {
+    "status": "passed",
+    "sha256": "ef4ed0db3bb6441e701ee5b0de587f19f3d9d4da679256d1c1779767162f8caa",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-09-28T18:41:21+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

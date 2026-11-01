@@ -1,0 +1,40 @@
+{
+  "chapter_index": 87,
+  "name": "87",
+  "word_target": 500,
+  "chapter_title": "নিজের আটি রাখা",
+  "chapter_summary": "Chapter 87, \"নিজের আটি রাখা,\" delves into the harsh pragmatism governing the social interactions within the community, centering on the proverb's philosophy: 'First, keep your own grain, then do charity.' The central conflict emerges from the tension between this ingrained self-preservation—the belief that personal interest must always form the foundation of any action—and the moral obligation to the collective. The narrative is underscored by imagery of carefully guarded stores and the calculated distribution of resources, reflecting a society where generosity is conditional upon personal security. As the chapter concludes, the lingering question remains: when the necessity of self-preservation becomes absolute, at what point does the pursuit of the 'own grain' transform from wise prudence into destructive isolation, fracturing the bonds of community that the proverb ostensibly seeks to govern?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরিত্র ১",
+      "role": "মূল চরিত্র"
+    },
+    {
+      "id": "c2",
+      "name": "চরিত্র ২",
+      "role": "সহযোগী/প্রতিদ্বন্দ্বী"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "ঐতিহাসিক প্রেক্ষাপটে স্বার্থসিদ্ধির এই দর্শন তৎকালীন সামাজিক কাঠামোর প্রতিফলন ঘটায়।",
+    "human_in_the_loop": "চরিত্রের আচরণে স্পষ্টতই নিজের স্বার্থকে অগ্রাধিকার দেওয়ার প্রবণতা ফুটে উঠেছে।",
+    "influence_of_other_works": "এই নীতিবাক্যটি প্রাচীন প্রবাদগুলির গভীর দার্শনিক চিন্তাধারার প্রতিধ্বনি বহন করে।",
+    "cultural_relevance": "সমাজের প্রচলিত ধারণা অনুযায়ী, ব্যক্তিগত সুরক্ষার গুরুত্ব এখানে তুলে ধরা হয়েছে।",
+    "literary_style": "গদ্যে প্রবাদের মতো সরল কিন্তু গভীর বক্তব্য উপস্থাপনের শৈলী অবলম্বন করা হয়েছে।",
+    "narrative_techniques": "কেন্দ্রীয় উপমা বা প্রবাদ ব্যবহার করে কাহিনিকে একটি নির্দিষ্ট দিকে চালিত করা হয়েছে।",
+    "symbolism_and_motifs": "‘আটি রাখা’ শব্দটি আত্মরক্ষা ও স্বনির্ভরতার প্রতীক হিসেবে কাজ করছে।",
+    "reader_engagement_strategies": "প্রবাদ-নির্ভর এই অধ্যায়টি পাঠকের মনে তাৎক্ষণিক চিন্তার উদ্রেক ঘটাবে।",
+    "ethical_considerations": "ব্যক্তিগত স্বার্থকে সর্বাগ্রে রাখার নৈতিক দিকটি আলোচনার দাবি রাখে।",
+    "potential_controversies": "পরোপকারের ধারণাকে গৌণ করার প্রবণতা সমাজে বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি কোনো নির্দিষ্ট গোষ্ঠীর উপর চাপিয়ে দেওয়া মতবাদ নয়, বরং একটি সাধারণ জীবনদর্শন তুলে ধরে।",
+    "marketing_and_promotion": "প্রবাদ-ভিত্তিক এই অধ্যায়টি সামাজিক আলোচনার মাধ্যমে পাঠকের দৃষ্টি আকর্ষণ করতে পারে।",
+    "significance_of_rise_of_bengal": "এই আত্মকেন্দ্রিক দৃষ্টিভঙ্গি তৎকালীন সামাজিক পরিবর্তনের এক সূক্ষ্ম ইঙ্গিত বহন করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

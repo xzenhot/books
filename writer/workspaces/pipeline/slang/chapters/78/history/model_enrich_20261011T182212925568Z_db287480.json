@@ -1,0 +1,40 @@
+{
+  "chapter_index": 78,
+  "name": "78",
+  "word_target": 500,
+  "chapter_title": "বেড়ায় খেত খাওয়া",
+  "chapter_summary": "The chapter plunges into a crisis of trust as the protagonist confronts the devastating reality of a guardian's betrayal. The central conflict is starkly illuminated by the proverb, 'When the field eats, I wander'—a metaphor for a time of profound vulnerability where external forces, symbolized by the encroaching fields, threaten stability. Key imagery revolves around the precarious balance between the protagonist's solitude and the insidious nature of the deceit, casting long shadows over their perceived safety. This betrayal forces a deep internal reckoning, leaving the reader to question: In a world where the protector turns into a threat, can any allegiance be truly trusted?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "রক্ষক",
+      "role": "বিশ্বাসঘাতক"
+    },
+    {
+      "id": "c2",
+      "name": "চরিত্র",
+      "role": "যে সন্দেহ করছে"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "রক্ষকের বিশ্বাসঘাতকতার ঘটনা তৎকালীন সামাজিক কাঠামোর প্রতিচ্ছবি বহন করে।",
+    "human_in_the_loop": "এই অধ্যায়ে রক্ষকের ভুলের মাধ্যমে মানুষের বিশ্বাসের ভঙ্গুরতা স্পষ্ট হয়ে ওঠে।",
+    "influence_of_other_works": "প্রবাদটির গভীরতা প্রাচীন লোককথার দার্শনিক সুরের সঙ্গে অনুরণিত হয়।",
+    "cultural_relevance": "খেত খাওয়া এবং রক্ষকের ভূমিকা বাংলার গ্রামীণ জীবনযাত্রার একটি গুরুত্বপূর্ণ সাংস্কৃতিক দিক তুলে ধরে।",
+    "literary_style": "গদ্যে একটি কাব্যিক ভারিক্কি বিদ্যমান, যা প্রবাদের অন্তর্নিহিত গভীরতা প্রকাশ করে।",
+    "narrative_techniques": "বিশ্বাসঘাতকতার মুহূর্তটি তীব্র নাটকীয়তা এবং অভ্যন্তরীণ দ্বন্দ্বের মাধ্যমে চিত্রিত হয়েছে।",
+    "symbolism_and_motifs": "‘খেত খাওয়া’ প্রতীকীভাবে অনিশ্চিত ভবিষ্যতের ইঙ্গিত দেয়, যেখানে ভরসা করা কঠিন।",
+    "reader_engagement_strategies": "প্রশ্নবোধক বাক্যটি পাঠককে দ্রুত গল্পের নৈতিক দ্বন্দ্বে টেনে আনে।",
+    "ethical_considerations": "বিশ্বাস ও ভঙ্গের নৈতিক জটিলতা এই অধ্যায়ের মূল বিবেচ্য বিষয়।",
+    "potential_controversies": "রক্ষকের নৈতিক পতনকে সমাজের বিভিন্ন স্তরে ভিন্ন ভিন্ন দৃষ্টিকোণ থেকে বিচার করা যেতে পারে।",
+    "diversity_and_inclusion": "যদিও চরিত্র নির্দিষ্ট নয়, তবে বিশ্বাসঘাতকতার শিকার হওয়া সাধারণ মানুষের প্রতিনিধিত্ব করে।",
+    "marketing_and_promotion": "‘বেড়ায় খেত খাওয়া’ শিরোনামটি রহস্যময়তা এবং গভীরতা উভয়ই প্রতিশ্রুতি দেয়।",
+    "significance_of_rise_of_bengal": "এই বিশ্বাসঘাতকতা তৎকালীন রাজনৈতিক ও সামাজিক অস্থিরতার একটি ক্ষুদ্র প্রতিচ্ছবি হিসেবে কাজ করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

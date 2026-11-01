@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+43
+
+## name
+
+43
+
+## word_target
+
+250
+
+## chapter_title
+
+যে রেসিপি লেখা হয়নি
+
+## chapter_summary
+
+যে রেসিপি কোনোদিন লেখা হয়নি, তার প্রতিটি ধাপ স্মৃতিতে থাকে। লেখার অভাবই এটিকে এত সম্পূর্ণ রেখেছে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The recipe not as a set of instructions, but as an oral contract between generations—a pact defying documentation.
+- Treating the unwritten nature of the recipe as a form of superior technology: intuitive knowledge versus mechanical replication.
+- Personifying the ghost or echo of the matriarch whose silent instruction is more potent than any written formula.
+
+### story_options
+
+- setting: একটি পুরোনো, জীর্ণ মেঝের উপর, desire: সেই আদিম মিশ্রণের সঠিক অনুপাতকে পুনরায় অনুভব করা যা কাগজে বন্দী সম্ভব নয়, obstacle: স্মৃতির ধুলো তাকে প্রতিটি চেষ্টার মাঝে বাধা দেয় এবং প্রশ্ন করে কেন সে চেষ্টা করছে।
+- setting: রান্নাঘরের ভাঙা জানালা দিয়ে আসা ক্ষীণ আলোয়, desire: সেই কণ্ঠস্বরকে ফিরিয়ে আনা যা সব সময় নির্দেশ দিত কিন্তু কখনো শব্দ করত না, obstacle: বাতাস সেই অকথিত কথাগুলো উড়িয়ে নিয়ে যায়, কেবল একটি নীরব প্রতিধ্বনি থাকে।
+- setting: একটি পাথরের বাটিকার পাশে দাঁড়িয়ে যখন আমি উপকরণগুলো মেপে নিই, desire: সেই নিখুঁত *জায়কা* (স্বাদ) মুহূর্তটিকে ক্যামেরার ফ্রেমে ধরে রাখার আকাঙ্ক্ষা, যা ফটোগ্রাফি দিয়ে সম্ভব নয়, obstacle: প্রতিটি পরিমাপ একটি যান্ত্রিকতা আরোপ করে সেই স্বতঃস্ফূর্ত প্রবাহের ওপর যা আমি খুঁজছি।
+
+### subject_rotations
+
+- Shifting focus from the *lack* of writing to the *presence* of embodied knowledge—the recipes existing solely within posture and gesture.
+- Examining how culinary tradition itself acts as a form of resistance against globalization or rigid standardization.
+- Interrogating the relationship between 'memory' and 'accuracy': is an imperfect recall more true than perfect replication?
+
+### sensory_details
+
+- The rough, porous texture of flour dusted onto aged hands after attempts to mimic the proper feel of dough.
+- A faint, earthy scent lingering in old mortar and pestle, distinct from modern processed spice aroma (ঘ্রাণ)।
+- The sound of one's own breathing becoming abnormally loud during concentration, drowning out any imagined instruction.
+
+### research_questions
+
+- Within Bengali folk traditions concerning food preparation, what specific metaphors are used to describe knowledge that is intuitively inherited rather than learned?
+
+### structural_variants
+
+- A continuous monologue where the speaker addresses an absent figure using highly formalized/archaic address forms before fracturing into fragmented, rhythmic repetitions of key actions.
+- Alternating between a high-register philosophical reflection on documentation and raw, visceral descriptions of mixing ingredients.
+- Structuring it as an evolving internal argument: Thesis (The recipe must be written) vs. Antithesis (It can never be captured by ink).
+
+### unused_angles
+
+- How the specific geography or light conditions of the original kitchen might influence a 'perfect' version of the unwritten taste.
+- Exploring the idea that attempting to write it down is an act of betrayal against its pure, living form.
+- The role of communal presence (multiple hands) in perfecting recipes that solitary memory cannot hold.
+
+### variety_note
+
+This chapter moves away from documenting physical changes (like 'নাম বদলায়') into the ontological space of knowledge itself—how things are known without being recorded, differing significantly from earlier material's focus on external shifts.

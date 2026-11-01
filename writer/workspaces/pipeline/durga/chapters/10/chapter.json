@@ -1,0 +1,53 @@
+{
+  "chapter_index": 10,
+  "name": "10",
+  "word_target": 300,
+  "chapter_title": "চক্ষুদানের মুহূর্ত",
+  "chapter_summary": "শিল্পী তুলি দিয়ে মায়ের চোখ এঁকে দেন, আর সেই মুহূর্তে প্রতিমার ভেতরে ঢুকে পড়েন দেবী নিজেই।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing solely on the transfer mechanism: how a mere pigment application (the eye paint) becomes the literal conduit for divine presence/energy.",
+      "The subjective experience of the artist as this boundary dissolves—is it reverence, or a form of temporary possession?",
+      "Treating the eyes not as features, but as two distinct portals: one gazing outward at the world, the other inward towards Mahishasura's victory."
+    ],
+    "story_options": [
+      "Setting: The final moments before the pigment dries. Desire: To capture a single drop of water (used in mixing or rinsing tools) symbolizing both life and dissolution falling onto the painted eye.",
+      "Setting: Close proximity to the colossal, unmoving visage. Desire: A brief internal monologue by the artist where they struggle with the overwhelming weight of 'seeing' manifested—the responsibility of creation becoming communion.",
+      "Setting: The specific angle required for the light source (diya/lamp) to catch the wet pigment on the eye. Desire: To use this singular, fleeting reflection as a momentary glimpse into eternity."
+    ],
+    "subject_rotations": [
+      "Exploring the act of painting itself as a ritualistic language—each stroke being an invocation rather than merely decorative.",
+      "Focusing heavily on the object used to paint (the brush/fine liner)—treating it like a highly consecrated, fragile instrument that cannot be seen for its function.",
+      "Deconstructing 'vision': If the eyes are painted *onto* the clay, how does this imply the divine aspect is an externally applied coat of reality?"
+    ],
+    "sensory_details": [
+      "Sight: The specific viscosity and sheen of the ochre or black pigment used for the iris against the dull matte surface of the cured earth.",
+      "Sound: The infinitesimally quiet *scrape* of the fine brush tip being lifted from the clay after deposition, a sound almost swallowed by stillness.",
+      "Touch: The slight stickiness and warmth radiating from the localized area where the pigment is freshly applied to the porous clay surface."
+    ],
+    "research_questions": [
+      "What are the traditional symbolic meanings assigned to the specific colors (e.g., black, red) used for the divine eyes in regional Bengali iconography?",
+      "Are there documented variations in the materials of the finest brushes utilized by Kumortuli artisans during this critical phase?"
+    ],
+    "structural_variants": [
+      "An extreme focus on hyper-detailed observation: dedicating stanzas solely to the microscopic interplay between pigment and clay porosity.",
+      "A sudden shift into highly metaphorical dialogue, where the unpainted sections of the face seem to 'whisper' before the eyes are filled."
+    ],
+    "unused_angles": [
+      "The logistical tension of managing multiple, complex ritual steps that must converge perfectly at this single point of inscription.",
+      "A comparison between the artisan’s personal vision and the established iconographic standard—the silent negotiation with tradition."
+    ],
+    "variety_note": "While previous chapters focused on external preparation (clay, frame), this chapter forces a pivot inward, focusing intensely on a single act of creation that serves as the gateway to divinity."
+  },
+  "draft": {
+    "sha256": "633e353434dc4eea45cb6106451380d43d1a96df5465c3389c49c383d9db68e6",
+    "written_at": "2026-10-29T14:56:12.879690+00:00",
+    "origin": "write"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "chapter_index": 79,
+  "name": "79",
+  "word_target": 500,
+  "chapter_title": "গরম নিঃশ্বাস",
+  "chapter_summary": "সাগরিকার গরম নিঃশ্বাসের কামোদ্দীপক বাষ্প — যা বিন্দুসারের রাজসভার শীতল প্রমাদ কক্ষকে মুহূর্তে দাবানলে পরিণত করে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "d39c5ecbc98235aa2f8f461e2fb82f93217813470e77295f880f4761e6b3660c",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

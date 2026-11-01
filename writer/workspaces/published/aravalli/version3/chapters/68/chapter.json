@@ -1,0 +1,28 @@
+{
+  "chapter_index": 68,
+  "name": "68",
+  "word_target": 500,
+  "chapter_title": "ন্যায়ের তরবারি, পাথরের বুক",
+  "chapter_summary": "সুপ্রিম কোর্টের আইনি লড়াই — পাহাড় রক্ষার দীর্ঘ আইনি টানাপোড়েন ও বিচারের প্রহর।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "de5f8d69cd2fd1a514908bc25bdb12b8f33a653afaa2750ee4d9a8f7f127f964",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

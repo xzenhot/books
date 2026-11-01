@@ -1,0 +1,40 @@
+{
+  "chapter_index": 67,
+  "name": "67",
+  "word_target": 500,
+  "chapter_title": "দাঁতে দাঁত চেপে লড়া",
+  "chapter_summary": "The chapter, titled 'দাঁতে দাঁত চেপে লড়া' (Fighting with Gritted Teeth), plunges into a crucible of unwavering struggle, where the central conflict is defined by the necessity of enduring immense pain through sheer obstinacy. The narrative is steeped in the imagery of relentless, grinding effort—a silent, internal battle where every breath is a deliberate act of defiance against overwhelming adversity. This intense internal and external pressure forces the characters to embody the proverb's spirit: that sheer willpower is the ultimate determinant. As the chapter concludes, the lingering question remains: can this fierce, almost self-destructive tenacity sustain them long enough to achieve the victory they are fighting so desperately to claim?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজানা যোদ্ধা",
+      "role": "দৃঢ় সংগ্রামকারী"
+    },
+    {
+      "id": "c2",
+      "name": "প্রতিপক্ষ",
+      "role": "লড়াইয়ের বাধা"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "দৃঢ় সংগ্রামের পটভূমিতে ঐতিহাসিক সত্যের প্রতি শ্রদ্ধাশীল থাকা আবশ্যক।",
+    "human_in_the_loop": "ব্যথার গভীরে চেপে লড়াই করা মানুষের মানসিক সংগ্রামকে ফুটিয়ে তোলা হয়েছে।",
+    "influence_of_other_works": "এই অধ্যায়ের জেদ ও সংগ্রামের চিত্রণ লোককথার প্রবাদ-বাণীর প্রতিধ্বনি বহন করে।",
+    "cultural_relevance": "দাঁতে দাঁত চেপে লড়াই করার মানসিকতা বাঙালি সংস্কৃতির এক গভীর অংশ।",
+    "literary_style": "প্রবাদকে কবিতায় রূপান্তরিত করার মতো শক্তিশালী এবং সংহত ভাষা ব্যবহার করা হয়েছে।",
+    "narrative_techniques": "দৃঢ় সংগ্রামের মাধ্যমে চরিত্রগুলির অভ্যন্তরীণ দ্বন্দ্বকে কার্যকরভাবে তুলে ধরা হয়েছে।",
+    "symbolism_and_motifs": "জেদ ও ব্যথা এখানে অবিচল প্রতিরোধের শক্তিশালী প্রতীক হিসেবে কাজ করছে।",
+    "reader_engagement_strategies": "পাঠককে চরিত্রের চরম প্রতিকূলতার মধ্য দিয়ে টেনে নিয়ে যাওয়ার প্রচেষ্টা রয়েছে।",
+    "ethical_considerations": "অতিরিক্ত যন্ত্রণার চিত্রণ যেন পাঠকের উপর অপ্রয়োজনীয় চাপ সৃষ্টি না করে, সেদিকে নজর দিতে হবে।",
+    "potential_controversies": "অত্যধিক জেদকে যদি অন্ধত্ব হিসেবে দেখানো হয়, তবে তা বিতর্ক সৃষ্টি করতে পারে।",
+    "diversity_and_inclusion": "এই সংগ্রামটি সর্বস্তরের মানুষের প্রতিকূলতার প্রতিচ্ছবি হিসেবে উপস্থাপিত হতে পারে।",
+    "marketing_and_promotion": "‘জেদই শেষ কথা’ এই শক্তিশালী থিমটি প্রচারের মূল আকর্ষণ হতে পারে।",
+    "significance_of_rise_of_bengal": "এই অধ্যায়ের সংগ্রাম বাংলার প্রতিরোধমূলক ইতিহাসের এক ক্ষুদ্র কিন্তু দৃঢ় অংশকে তুলে ধরে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

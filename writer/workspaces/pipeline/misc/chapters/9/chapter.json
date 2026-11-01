@@ -1,0 +1,54 @@
+{
+  "chapter_index": 9,
+  "name": "9",
+  "word_target": 500,
+  "chapter_title": "The Broom in First Light",
+  "chapter_summary": "A broom whispers against the pavement in the first light, and the poem follows the sweep that clears the street before the day's noise begins.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The sonic quality of friction against dry earth/stone in daily Indian settings.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The broom as an instrument of necessary erasure: viewing the dust swept away not as detritus, but as accumulated time or discarded moments.",
+      "Framing the sweep entirely around sound dynamics: the shift from dry scraping to a damp, heavier drag as morning dew settles on the grit.",
+      "The relationship between the broom's passage and human intention: is the sweeping an act of cleansing, maintenance, or quiet preparation for labor?"
+    ],
+    "story_options": [
+      "Setting: The unpaved shoulder outside a low dwelling; Desire: To feel the friction of dried mud being lifted by stiff bristles, Obstacle: A single misplaced brick obstructing the sweep path; Turn: The broom hesitates, acknowledging the small piece of human refuse before continuing.",
+      "Setting: A narrow passage between two stone walls; Desire: To track the specific trail left in the mortar dust after every pass, Obstacle: Sunlight catching and illuminating a microscopic layer of residue (ash, pollen); Turn: The speaker notes that what is cleared only reveals other layers beneath.",
+      "Setting: Just inside the entrance to a small courtyard before sunrise; Desire: To feel the weightlessness of the first few sweeps when the air is coldest, Obstacle: A single, overlooked object—perhaps a fallen leaf or dried flower—resists the bristles; Turn: The broom delicately nudges the object aside rather than violently sweeping it."
+    ],
+    "subject_rotations": [
+      "Treating the broom not as an instrument of cleaning the public space, but as a proxy for memory; each swept particle representing something forgotten or passed over in life.",
+      "Focusing microscopically on the bristles themselves: their varying densities, how they catch light differently based on their age and exposure to earth.",
+      "Viewing the sweeping action rhythmically—as a physical meditation, where the pace dictates an internal state of being (calmness, rising anxiety) rather than just task completion."
+    ],
+    "sensory_details": [
+      "The dry, papery crunch of fine dust disturbed by the straw/fiber bristles underfoot.",
+      "The cool, metallic tang in the air immediately following the first sweep, before solar warmth can bake it into scent.",
+      "The visual effect of the early light catching the microscopic particles—making the swept dirt glow briefly like disturbed amber."
+    ],
+    "research_questions": [
+      "What are typical materials used for simple domestic brooms in contemporary India that would yield a distinct sound or texture when sweeping dry, compacted earth?"
+    ],
+    "structural_variants": [
+      "A short, tercet-heavy structure emphasizing momentum and repetitive action.",
+      "An associative mapping where each sweep transitions into a disparate image from another part of the day's rhythm (e.g., sweep $\rightarrow$ tiffin cloth $\rightarrow$ platform shadow).",
+      "A near-monologue addressing the broom directly, granting it agency within the observation."
+    ],
+    "unused_angles": [
+      "Exploring the interaction between the broom and the lingering scents of night—the smell of cooling earth mixed with residual nighttime cooking fumes.",
+      "Examining how the sweeping motion influences the soundscape: does the silence *change* as it is broken by friction?"
+    ],
+    "variety_note": "Unlike earlier poems that focus on stationary objects, this piece centers on a kinetic action—the sweep itself—and utilizes an external address to create its primary texture."
+  }
+}

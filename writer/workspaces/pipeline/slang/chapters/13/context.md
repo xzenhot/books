@@ -1,0 +1,165 @@
+# Chapter model context
+
+## chapter_index
+
+13
+
+## name
+
+13
+
+## word_target
+
+500
+
+## chapter_title
+
+পোকা মারা
+
+## chapter_summary
+
+Chapter 13, titled 'পোকা মারা,' delves into the slow, corrosive nature of simmering resentment. The central conflict manifests as a series of petty, seemingly insignificant irritations—the 'insects'—that accumulate during the course of daily labor, gradually escalating from mere annoyance to a deep, internal furnace of frustration. The chapter is rich with imagery of persistent, nagging intrusions, like microscopic pests gnawing at the fabric of composure, mirroring the proverb's theme of how small grievances can poison the whole. As the protagonist struggles to maintain focus amidst these constant, low-grade provocations, the narrative leaves the reader questioning whether this mounting internal pressure will finally erupt into a decisive outburst, or if it will remain a perpetual, simmering undercurrent beneath the surface of their life.
+
+## further_references
+
+
+## characters
+
+### Item 1
+
+#### id
+
+c1
+
+#### name
+
+চরিত্র ১
+
+#### role
+
+বিরক্ত ব্যক্তি
+
+### Item 2
+
+#### id
+
+c2
+
+#### name
+
+চরিত্র ২
+
+#### role
+
+খোঁচা প্রদানকারী
+
+## qualities
+
+### historical_accuracy
+
+এই অধ্যায়ে বর্ণিত দৈনন্দিন বিরক্তি তৎকালীন সামাজিক প্রেক্ষাপটে সাধারণ মানুষের মানসিক চাপকে প্রতিফলিত করে।
+
+### human_in_the_loop
+
+অকারণ বিরক্তি নামক অভ্যন্তরীণ সংঘাতটি চরিত্রদের দৈনন্দিন অভিজ্ঞতার মাধ্যমে পাঠকের সামনে আসে।
+
+### influence_of_other_works
+
+প্রবাদটির মতো ছোট ছোট খোঁচা, যা কবিতার মতো গভীর অর্থ বহন করে, সাহিত্যিক ধারার প্রতি ইঙ্গিত দেয়।
+
+### cultural_relevance
+
+কাজের সময়ে ছোট ছোট জ্বালা বা খোঁচা দেওয়া বাঙালি সংস্কৃতির একটি পরিচিত চিত্র।
+
+### literary_style
+
+পোকা মারা উপমাটি ব্যবহার করে লেখক একটি সংক্ষিপ্ত অথচ তীব্র আখ্যান শৈলী ফুটিয়ে তুলেছেন।
+
+### narrative_techniques
+
+ছোট ছোট বিরক্তির সঞ্চয়কে একটি ক্রমবর্ধমান মানসিক উত্তেজনার মাধ্যমে বর্ণনা করা হয়েছে।
+
+### symbolism_and_motifs
+
+পোকা মারা এখানে ক্ষুদ্র, উপেক্ষিত সমস্যাগুলির প্রতীক যা বড় সমস্যার জন্ম দেয়।
+
+### reader_engagement_strategies
+
+পাঠককে নিজের জীবনে ঘটে যাওয়া তুচ্ছ অথচ বিরক্তিকর মুহূর্তগুলির সঙ্গে সংযোগ স্থাপনের সুযোগ দেওয়া হচ্ছে।
+
+### ethical_considerations
+
+অতিরিক্ত বিরক্তি বা খিটখিটে মেজাজ প্রদর্শন করা নৈতিকভাবে কতটা গ্রহণযোগ্য, তা প্রশ্ন তোলে।
+
+### potential_controversies
+
+যদি এই বিরক্তি কোনো নির্দিষ্ট সামাজিক গোষ্ঠীর প্রতি direcion করা হয়, তবে তা বিতর্কের জন্ম দিতে পারে।
+
+### diversity_and_inclusion
+
+এই অধ্যায়ে চরিত্র বা গোষ্ঠীর বৈচিত্র্য না থাকায়, এটি সার্বজনীন মানসিক অভিজ্ঞতার ওপর বেশি জোর দেয়।
+
+### marketing_and_promotion
+
+এই অধ্যায়টি 'ছোট্ট জ্বালা, বড় বিদ্রোহ' শিরোনামের মাধ্যমে সোশ্যাল মিডিয়ায় দ্রুত আকর্ষণ সৃষ্টি করতে পারে।
+
+### significance_of_rise_of_bengal
+
+এই মানসিক অস্থিরতা তৎকালীন সামাজিক পরিবর্তনের চাপ এবং চাপা অসন্তোষের একটি সূক্ষ্ম বহিঃপ্রকাশ।
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the 'insects' not as personal flaws but as symptomatic representations of economic pressure or systemic inefficiencies within the urban environment.
+- Treating the accumulation of irritation ('পোকা মারা') as a ritualistic process, where each small action is performed in preparation for an inevitable, larger confrontation (a social rite).
+- Adopting the perspective of the 'insects' themselves—their imagined tiny dramas that contribute to the whole feeling of unease.
+
+### story_options
+
+- Setting: A shared workspace with incessant low-level mechanical noise; Desire: Character 1 desperately seeks a moment of absolute auditory silence to regain control; Obstacle: Character 2 constantly taps or makes small, rhythmic noises that sync perfectly with the annoying sounds.
+- Setting: Near an old wooden structure where termites or woodworm are visible under repair; Desire: The protagonist needs one specific, crucial piece of information from a colleague/neighbor to survive a deadline; Obstacle: Every interaction brings up trivial past slights (the 'pests') that delay the exchange indefinitely.
+- Setting: During a poorly managed shared meal preparation or packaging process; Desire: To complete the physical task efficiently and cleanly before inspection; Obstacle: The smallest element—a misplaced spice, a stubborn knot in thread, a slow drip of oil—becomes an agent of maddening disruption.
+
+### subject_rotations
+
+- Treating 'পোকা মারা' not as personal failure but as inevitable byproduct of dense urban living and overcrowding (the psychological toll of proximity).
+- Shifting the focus entirely from *resentment* to *hyper-vigilance*; the protagonist is so attuned to small irritants that they are unconsciously anticipating a larger threat.
+- Interpreting 'insects' as symbols of misplaced social energy—people wasting their vitality on petty grievances instead of productive action.
+
+### sensory_details
+
+- The fine, abrasive dust coating the tongue from poorly ventilated work areas, tasting faintly metallic and stale.
+- The persistent, high-frequency whine of a badly oiled machine or mechanism that drills into the inner ear.
+- The specific smell of damp paper mixed with industrial solvent during periods of stagnant tension.
+
+### research_questions
+
+- How is the concept of 'small irritation' functionally distinguished from outright conflict in traditional Bengali colloquial speech outside of direct confrontation?
+- Are there specific localized descriptions for minor, persistent physical discomforts (like chronic itchiness or slight nausea) that parallel psychological stagnation?
+
+### structural_variants
+
+- Cyclical structure: The chapter begins and ends with the protagonist performing an identical small task, highlighting that no moment of relief is possible.
+- Fragmented montage: Juxtaposing intense moments of internal focus (hyper-clarity) against rapid succession of low-level distractions.
+
+### unused_angles
+
+- How this simmering resentment might manifest physically in the protagonist's posture or gait, rather than just internally.
+- A shift to a brief external scene—the source of the pests being something entirely unrelated to the immediate conflict (e.g., weather pattern changes).
+
+### variety_note
+
+Unlike Chapters 1-9 which focus on proactive deception ('চুন লাগানো,' 'টুপি পরানো'), this chapter deals with reactive, internalized decay resulting from constant environmental/social friction.

@@ -1,0 +1,35 @@
+{
+  "chapter_index": 64,
+  "name": "64",
+  "word_target": 500,
+  "chapter_title": "ঘাটে ঘাটে জল খাওয়া",
+  "chapter_summary": "The chapter, titled 'ঘাটে ঘাটে জল খাওয়া,' delves into the harsh wisdom encapsulated in the proverb, 'পোড় খাওয়া অভিজ্ঞ — যে সব ঘাটের জল খেয়েছে, তাকে ঠকানো যায় না।' This segment explores the central conflict between ingrained, hard-won experience and the naive attempts of others to exploit or deceive those who have endured life's inevitable hardships. The imagery is steeped in the gritty reality of the river ghats—places of communal struggle, endurance, and unavoidable suffering—where every drop of water carries the residue of past trials. As the characters navigate this landscape of tested resilience, the narrative leaves the reader questioning: Does the depth of one's suffering truly equate to an impenetrable shield against all forms of deceit, or is there a vulnerability even the most seasoned soul cannot escape?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "অজ্ঞাত ব্যক্তি",
+      "role": "অভিজ্ঞ পথিক"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "ঘাটের জল খাওয়ার অভিজ্ঞতাই চরিত্রদের বিশ্বাসযোগ্যতা প্রতিষ্ঠা করে।",
+    "human_in_the_loop": "পোড় খাওয়া অভিজ্ঞতার মাধ্যমে চরিত্ররা জীবনের কঠিন সত্যগুলি উপলব্ধি করে।",
+    "influence_of_other_works": "এই উপমাটি বাংলার লোককথার গভীরতাকে প্রতিফলিত করে।",
+    "cultural_relevance": "ঘাটের জল খাওয়া একটি প্রাচীন সামাজিক প্রথা ও অভিজ্ঞতার প্রতীক।",
+    "literary_style": "প্রবাদটিকে কবিতার মতো করে উপস্থাপন করা হয়েছে।",
+    "narrative_techniques": "অভিজ্ঞতার মাধ্যমে চরিত্রদের চরিত্রায়ণ সম্পন্ন করা হয়েছে।",
+    "symbolism_and_motifs": "ঘাটের জল এখানে জীবনের কঠিন পরীক্ষার প্রতীক হিসেবে কাজ করে।",
+    "reader_engagement_strategies": "পাঠককে প্রবাদের গভীর অর্থ অনুধাবন করতে উৎসাহিত করা হয়।",
+    "ethical_considerations": "অভিজ্ঞতাভিত্তিক সত্যের প্রতি সম্মান প্রদর্শন করা হয়েছে।",
+    "potential_controversies": "কোনো সরাসরি বিতর্কিত উপাদান এই অধ্যায়ে নেই।",
+    "diversity_and_inclusion": "এই অধ্যায়টি সার্বজনীন অভিজ্ঞতার উপর আলোকপাত করে।",
+    "marketing_and_promotion": "প্রবাদের কাব্যিক আবেদন প্রচারের মূল ভিত্তি হতে পারে।",
+    "significance_of_rise_of_bengal": "এই অভিজ্ঞতা বাংলার জীবনযাত্রার নিবিড় চিত্র তুলে ধরে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+59
+
+## name
+
+59
+
+## word_target
+
+250
+
+## chapter_title
+
+একটি নাম যা আর ফেরে না
+
+## chapter_summary
+
+একটি নাম যা আর ফেরে না — সিঙ্গাড়া শব্দটি এখনও জিভে আছে, কিন্তু বাজারে এখনও সামোসা।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on linguistic erosion: How the phonetics of 'সিঙ্গাড়া' are corrupted or replaced by alien sounds in the act of commerce, rendering the original word functionally obsolete.
+- The internal monologue of nomenclature: The struggle within the self—the mind insisting on the ancestral name despite external pressure to accept the commercial designation.
+- Juxtaposing sound decay with flavor persistence: Analyzing how a single, lingering taste (like mustard oil) retains its chemical integrity even as the word describing it dissolves into regional dialect.
+
+### story_options
+
+- Setting: A busy vendor cart near an international transit point; Desire: The narrator actively sabotages their own purchasing by stuttering between 'Singara' and 'Samosa', causing confusion, Obstacle: The vendor impatiently forces the dominant market name upon them.
+- Setting: An old spice merchant's shop in a foreign quarter; Desire: To ask for ingredients using only archaic Bengali nomenclature (e.g., referring to potato or flour by their village names), Obstacle: The merchant responds with incomprehensible local jargon, highlighting linguistic displacement.
+- Setting: Inside the memory banks of an elderly relative who insists on the original name despite modernization; Desire: To force a conversation where they must reconcile inherited lexicon with modern usage, Obstacle: Their resistance becomes protective, not merely traditional.
+
+### subject_rotations
+
+- Treating the naming shift as an act of cultural erasure—the replacement of one identity marker (name) for another that implies homogenization.
+- Exploring the philosophical tension between 'essence' and 'label': Can a perfect internal essence survive if its external label is fundamentally altered?
+- A focus on phonetic drift: Examining how small shifts in pronunciation over generations warp meaning, mirroring the slow change of community belonging.
+
+### sensory_details
+
+- Visual: The sharp, synthetic gloss finish on mass-produced packaging juxtaposed against the matte, porous texture of an ancient hand-folded wrapper.
+- Olfactory: The cloying, artificial sweetness sometimes associated with processed roadside snacks versus the deep, volatile scent of true cooked ghee residue.
+- Tactile: The slick, slightly oily film accumulating on paper or plastic used to wrap/sell the item in a non-native environment.
+
+### research_questions
+
+- What are the most common linguistic substitutions for regional South Asian food items when transitioning into Anglophone market vernaculars?
+- How does the Bengali language handle semantic shift when a product acquires multiple, conflicting names across different social strata?
+
+### structural_variants
+
+- A sustained interior monologue that builds vocabulary complexity (from local to Sanskritized/foreign) only to collapse back into utter simplicity on the final line.
+- Framing the chapter as a failed dialogue with an unseen counterpart—the ideal 'Singara' persona who cannot be reached through current language.
+
+### unused_angles
+
+- Examining the administrative documentation (bills, menus) where linguistic compromise is forced for record-keeping purposes.
+- A study of how diaspora communities create pidgin/creole dialects around beloved foods to maintain a private lexicon.
+
+### variety_note
+
+Unlike previous explorations that focused on taste or structural failure, this chapter zeroes in exclusively on the failure of articulation—the linguistic slippage between memory and market reality.

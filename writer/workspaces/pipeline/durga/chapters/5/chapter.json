@@ -1,0 +1,52 @@
+{
+  "chapter_index": 5,
+  "name": "5",
+  "word_target": 300,
+  "chapter_title": "পাড়ার প্রথম প্রদীপ",
+  "chapter_summary": "প্যান্ডেলের প্রথম আলো জ্বলে ওঠে, আর অন্ধকার পাড়া সেই আলোয় মায়ের ঘরে ফেরার পথ খুঁজে পায়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The light itself as a tangible entity—not just illumination, but a substance carrying the heat/weight of expectation.",
+      "Focusing on how the initial glow transforms the visible dirt and imperfections of the neighborhood into sacred geometry.",
+      "A narrative centered on the *first* person to strike a match or ignite the lamp, framing their action as an act of pure, irreversible commitment."
+    ],
+    "story_options": [
+      "setting: The threshold/entrance gate of the pandal, desire: To witness the specific shadow cast by the first flame against the surrounding darkness., obstacle: The hesitation of others—those who delay lighting their own lamps, fearful of starting the necessary commitment.",
+      "setting: A small kitchen/room adjacent to the main pandal, desire: To focus on the domestic rituals surrounding the lamp—the oil mixing, the careful placement of wick., obstacle: The overwhelming noise from the village outside conflicting with the required intimacy of the first sacred light.",
+      "setting: A single lane leading to the pandal, desire: To trace how one tiny point of artificial light alters the visual texture of the mud-brick homes and earthen pathways., obstacle: The sudden, profound silence that falls among neighbors who usually maintain constant chatter."
+    ],
+    "subject_rotations": [
+      "Treating the 'light' as a counterpoint to the previous chapters' natural light metaphors (Shuili/Kashful), focusing on human-made, ritualistic luminescence.",
+      "Exploring the socio-economic difference in *how* the light is lit—a wealthy household’s steady lamp versus the sputtering wick of a poorer corner.",
+      "The metaphor of 'finding the way home' through the light: Is the destination (the deity) known, or is the journey illuminated?"
+    ],
+    "sensory_details": [
+      "Smell: The sharp, metallic scent of freshly struck match powder cutting through damp evening air.",
+      "Sight: The corona effect around a small flame—where the heat warps the edges of the darkness it displaces.",
+      "Touch: The gritty texture of soot and carbon on the fingers after holding an oil lamp for extended periods."
+    ],
+    "research_questions": [
+      "What specific traditional type of lamp or fuel source (e.g., mustard oil, ghee) is most historically associated with initial devotional lighting in Bengali communities?",
+      "How does local dialect describe the precise moment a vigil light becomes an established fixture versus a transient spark?"
+    ],
+    "structural_variants": [
+      "A fragmented poem where each stanza represents a different household's attempt/success in initiating their own ritual lamp.",
+      "A sustained, long-line meditation on the transition from 'nothingness' (pre-light) to defined form via fire."
+    ],
+    "unused_angles": [
+      "Exploring the interaction between the light and specific religious iconography within the pandal that has not yet been detailed (e.g., early decorations, protective markings)."
+    ],
+    "variety_note": "Where previous chapters focused on natural signs (flowers, wind), this chapter shifts focus entirely to a human-made, artificial luminescence as a marker of arrival."
+  },
+  "draft": {
+    "sha256": "b84b75294bd5825996a2182eba279354bc3d478962c753de34c41d14f99fd87b",
+    "written_at": "2026-10-29T14:55:18.856913+00:00",
+    "origin": "write"
+  }
+}

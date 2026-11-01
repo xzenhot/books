@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 4,
+  "total_segments": 6,
+  "chapter_index": 19,
+  "name": "19",
+  "chapter_title": "প্রকাশের দাম",
+  "chapter_summary": "সত্যটি প্রকাশের মুহূর্ত—সংবাদপত্রের প্রথম পাতার বিরুদ্ধে মানুষের মুখের কথা। অরুণিমা ও বিক্রম তাদের সিদ্ধান্তের মূল্য পরিশোধ করে।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "The 'article' as a consumable commodity: treating the published truth not as knowledge but as another transient piece of urban ephemera, designed for quick consumption and immediate disposal.",
+    "status": "enriched"
+  }
+}

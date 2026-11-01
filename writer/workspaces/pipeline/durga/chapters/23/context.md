@@ -1,0 +1,80 @@
+# Chapter model context
+
+## chapter_index
+
+23
+
+## name
+
+23
+
+## word_target
+
+300
+
+## chapter_title
+
+ঢাকের বোল
+
+## chapter_summary
+
+ঢাকের বোল বুকের ভেতর বেজে ওঠে — সেই তাল কেবল শব্দ নয়, উৎসবের হৃদস্পন্দন।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The sound of the *dhol* as a form of communal memory—each strike recalls past festivals.
+- Examining the drummer's physical exhaustion and ritualistic trance; the drumming as an endurance test mirroring spiritual striving.
+- Treating the rhythm not just as celebratory, but as a sonic architecture that temporarily reorganizes the village space.
+
+### story_options
+
+- Setting: The dusty corner of the *pandal* structure where the drums are kept; Desire: To isolate one specific, repetitive drum pattern (a drone or a signature beat) and follow its resonance through the night; Obstacle: The sudden, disruptive silence between intense rhythmic bursts.
+- Setting: A single drummer sitting alone near the river bank before the main procession begins; Desire: To focus on the intricate, private dialogue between the drummer's breath and the drum skin; Obstacle: The fear of striking a wrong beat that could break the spell of the festival.
+- Setting: Inside the tightly packed *pandal* during peak revelry; Desire: To momentarily cease drumming to hear the ambient human sounds (chatter, laughter) before diving back into the rhythm; Obstacle: The immediate pressure and collective gaze of the surrounding devotees demanding continuous sound.
+
+### subject_rotations
+
+- Shifting from the sound to the *feeling* produced by the rhythm—how it imposes an involuntary, ecstatic bodily posture on the listener.
+- Interpreting the drumming pattern itself as a codified language or message that only the initiated (the drummers) can fully read.
+- Contrasting the relentless, predictable pulse of the drum against the unpredictable surge of human emotion during the festival.
+
+### sensory_details
+
+- Sound: The low, resonant thud vibrating up through packed earth and into the soles of worn leather shoes.
+- Touch: The slight tackiness or oiliness left on the fingers after hours spent gripping drum sticks tightly.
+- Sight: How the rhythmic sweep of a dancer's skirt briefly refracts the weak, flickering light cast by nearby clay lamps.
+
+### research_questions
+
+- Are there documented micro-rhythmic variations in Bengali devotional drumming that signify specific mythological moments?
+
+### structural_variants
+
+- A poem built entirely on an escalating polyrhythm, starting deceptively simple and building complex layers until the final line collapses back into a single, foundational beat.
+- An associative stream-of-consciousness piece where each subsequent drum strike triggers an unrelated but thematically resonant memory from the speaker.
+
+### unused_angles
+
+- Exploring the cultural economics of the drummer—the unseen labor and its inherent sacred value within the festival's financial structure.
+- A detailed examination of the physical geography of sound—how the drum's tone behaves differently inside a tightly packed *pandal* versus in open air.
+
+### variety_note
+
+Where previous chapters focused on static iconography (the figure, the material), this chapter dives into kinetic energy, treating rhythm as a persistent, structuring force rather than mere decoration.

@@ -1,0 +1,28 @@
+{
+  "chapter_index": 80,
+  "name": "80",
+  "word_target": 500,
+  "chapter_title": "চোখের কাজল",
+  "chapter_summary": "সাগরিকার চোখের কাজলের গাঢ় অতল — যার দৃষ্টিতে তাকালেই মনে হয় প্রাচীন তন্ত্রসাধনার মায়াজালে পা দিয়েছে আধুনিক মানুষ।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "99a0860fc00fdbaea98f2f5d425a065d0f6e61b8263bb6d0298ff6cb7627a144",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

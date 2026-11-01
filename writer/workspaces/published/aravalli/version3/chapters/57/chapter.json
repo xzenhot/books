@@ -1,0 +1,28 @@
+{
+  "chapter_index": 57,
+  "name": "57",
+  "word_target": 500,
+  "chapter_title": "জ্বরের উপত্যকা পেরিয়ে",
+  "chapter_summary": "ম্যালেরিয়া আক্রান্ত উপত্যকা পেরিয়ে বণিকদের কাফেলা — বিপদের ভেতর দিয়েই গড়ে ওঠে বাণিজ্যের সড়ক।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "c5fad34e9fe71d8bd4468b154f93a7d80821d9fe6423f4bcb309f4e84c32953e",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T17:51:38+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

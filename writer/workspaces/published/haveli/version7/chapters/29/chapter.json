@@ -1,0 +1,70 @@
+{
+  "chapter_index": 29,
+  "name": "29",
+  "word_target": 110,
+  "chapter_title": "The Competition of Frescoes",
+  "chapter_summary": "The one-upmanship of pigment and gold leaf escalates — the elephant answered by the motorcar, the motorcar by the airplane. The poem is a comedy of rival walls that is also, underneath, the ledger of a fortune being spent to ruin.",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Architectural iconography of Marwari mercantile class",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the expenditure as a purely financial risk calculation rather than social display: Every layer of paint is a leveraged bet on sustained prosperity.",
+      "The physical relationship between the rival mansions: Viewing them not as two separate entities, but as two interlocking economic pressure points.",
+      "Focusing on the unintended aesthetic consequences: How the competition forces innovation or ugliness in the art, beyond mere patronage."
+    ],
+    "story_options": [
+      "setting: The narrow dividing wall separating the two havelis, desire: To find a moment where both paintings overlap perfectly under the same shaft of afternoon sun., obstacle: Dust settling unevenly, obscuring the intended visual dialogue between pigment choices., turn: A sudden gust of wind momentarily shifts debris across both facades, revealing hidden outlines on either side.",
+      "setting: The courtyard where a shared water spout is located, desire: To capture the sound of the rival's construction workers briefly pausing to share a drink with Gangaram's craftsmen., obstacle: The unspoken etiquette preventing direct, sympathetic communication between the two competing factions., turn: A third, older craftsman walks through both grounds momentarily, observing the spectacle with quiet disdain for the modern contest.",
+      "setting: Inside a receiving hall where murals from both properties face each other, desire: To allow one character to experience severe vertigo or disorientation when looking between two equally overpowering painted visions., obstacle: The sheer exhaustion of maintaining the facade, leading characters to view the art with sudden, desperate boredom., turn: A small animal (a pigeon, a stray dog) is trapped in the visual gutter between the two dominant scenes."
+    ],
+    "subject_rotations": [
+      "Treating the competition as an accelerated timeline: The rival's project must be completed faster than Gangaram’s to win by expiration date.",
+      "Refocusing on materiality over theme: Instead of *what* is painted (Ramayana vs. Motorcar), focus entirely on the specific composition and expense of the medium itself—the mica, the gold leaf application.",
+      "Shifting from pride to documentation: The narrative centers on an objective observer (a visiting scholar or scribe) trying to catalogue the escalating symbolic language."
+    ],
+    "sensory_details": [
+      "The acrid smell of newly mixed pigment binder drying under the punishing sun.",
+      "The gritty, rasping sound of a fine-grained sanding tool polishing oxidized gold leaf on the rival's work.",
+      "The sharp, chemical bite of fixing agents used to stabilize the vibrant blues against the bleached Rajasthani sky."
+    ],
+    "research_questions": [
+      "What documented historical precedents exist for localized architectural competition in Rajput merchant communities?",
+      "How did specific industrial materials (like early forms of motorcar paint or aniline dyes) become integrated into traditional fresco practices during this era?"
+    ],
+    "structural_variants": [
+      "A highly fragmented poem, structured like a series of rapidly escalating auction bids.",
+      "An opening stanza set entirely in the ledger room observing financial projections that mirror pictorial extravagance."
+    ],
+    "variety_note": "This chapter deviates from earlier economic documentation by focusing explicitly on how capital expenditure manifests as visual conflict rather than just trade flow, stepping away from purely transactional concerns to aesthetic warfare."
+  },
+  "draft": {
+    "sha256": "6da4482cb44a77c14673fce16bde71324b840094979c81a6a7e703c88976c266",
+    "written_at": "2026-10-04T20:14:50.858120+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "6da4482cb44a77c14673fce16bde71324b840094979c81a6a7e703c88976c266",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-04T20:20:31+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "template": "ego_clash",
+  "moods": [
+    {
+      "characteristic": "initial_challenge",
+      "mood_description": "The first confrontation, where pride or self-respect is threatened"
+    },
+    {
+      "characteristic": "escalating_pride",
+      "mood_description": "Both have increased self-importance, an unwillingness to yield"
+    },
+    {
+      "characteristic": "verbal_sparring",
+      "mood_description": "Conflict through arguments, sharp remarks, or bitter reasoning"
+    },
+    {
+      "characteristic": "power_play",
+      "mood_description": "Attempts to assert authority, a competition to dominate one another"
+    },
+    {
+      "characteristic": "misunderstanding_fueled",
+      "mood_description": "Misunderstandings grow and misinterpretations arise due to pride"
+    },
+    {
+      "characteristic": "unyielding_stance",
+      "mood_description": "Neither is willing to step down from their position, stubbornness persists"
+    },
+    {
+      "characteristic": "underlying_insecurity",
+      "mood_description": "Fear or weakness hidden behind pride, which intensifies the conflict"
+    },
+    {
+      "characteristic": "point_of_no_return",
+      "mood_description": "A moment where the relationship or situation becomes irreversible"
+    },
+    {
+      "characteristic": "bitter_resolution",
+      "mood_description": "The bitter aftermath of conflict, where even victory comes with irreparable loss"
+    }
+  ]
+}

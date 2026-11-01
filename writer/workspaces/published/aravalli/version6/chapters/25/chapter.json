@@ -1,0 +1,65 @@
+{
+  "chapter_index": 25,
+  "name": "25",
+  "word_target": 500,
+  "chapter_title": "গভীরে জমা জলের স্বপ্ন",
+  "chapter_summary": "যমুনা ও বানাস নদীর অববাহিকার ভূগর্ভস্থ জলাধার — পাহাড়ের ফাটল দিয়ে রিচার্জ হয় জলের প্রাণ।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rilke",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 3,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "water dreaming deep inside the aquifer",
+      "volta": "the dream turning from hope into a held breath",
+      "sonic_texture": "sibilance and a slow oceanic pulse",
+      "line_gesture": "long enjambed lines that exhale",
+      "variety_note": "a weightless dream after the dusty assault"
+    }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "2260d0510b5868944be4f5f273365c9aea6fe00bdb4e4b631d1bb90ea5c17ec7",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:36+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

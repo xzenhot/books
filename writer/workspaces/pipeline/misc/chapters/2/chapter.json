@@ -1,0 +1,49 @@
+{
+  "chapter_index": 2,
+  "name": "2",
+  "word_target": 500,
+  "chapter_title": "Vermilion at the Doorstep",
+  "chapter_summary": "A smear of vermilion marks a doorway, and the poem considers the small sign that separates the household from the street and the daily gesture that renews it.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the mark not as a boundary between inside/outside, but as a convergence point where two different kinds of devotion meet; treating the application ritual itself—the precision, the hesitation—as a miniature drama rather than just its outcome.",
+      "Observing the vermilion's interaction with ambient elements: how morning dust settles into it, or how rainwater might slightly bleed its edges over time.",
+      "Shifting focus from the doorway as a static boundary to the continuous flow of passage *through* that boundary (people coming and going) framed by the color."
+    ],
+    "story_options": [
+      "Setting: The worn stone step just before the threshold; Desire: To understand the permanence of this small, bright insistence in daily decay; Obstacle: A sudden shadow or interruption from a street dog passing through; Turn: The poem finds its meaning not in the mark itself, but in the repetitive act of re-marking it.",
+      "Setting: Inside the dwelling, focused on the hands applying the pigment late at dusk; Desire: To create a perfect line under conditions of low light and fatigue; Obstacle: A small tremor or hesitation in the hand causing an imperfect edge; Turn: The slight flaw in the application becomes more significant than its intended perfection.",
+      "Setting: Observing the mark from across the street, far enough away that it is slightly blurred by distance; Desire: To perceive the meaning of the daily act without understanding its ritual context; Obstacle: A shift in weather (a sudden gust) causing a vibration or ripple on the pigment surface; Turn: The viewer interprets the shimmer caused by the wind as an unrelated sign of transition."
+    ],
+    "subject_rotations": [
+      "A focus on the *material* aspects: how the pigment adheres to wood grain or stone versus its vibrancy.",
+      "An almost geological treatment of the mark: viewing it as a sediment layer charting daily acts over time.",
+      "Treating the vermilion's 'glow' not as religious fervor, but as a biological signal against creeping darkness."
+    ],
+    "sensory_details": [
+      "The faint, powdery grit scent where the dust has settled upon the dry color.",
+      "The sound of slow, deliberate shuffling feet pausing just before making contact with the threshold stone.",
+      "The slightly cooler temperature of the shadowed area immediately under the overhang versus the sun-baked step."
+    ],
+    "research_questions": [
+      "What specific local customs or symbolic interpretations surround the maintenance or aging of such a ritual mark in contemporary daily life?",
+      "How is the specific application technique (brush, finger) usually performed, and what does that imply about intimacy or authority in the domestic sphere?"
+    ],
+    "structural_variants": [
+      "A single, sustained meditation on the pigment's surface integrity.",
+      "A sequence of micro-moments: first glance, application action, long view across distance.",
+      "An internal dialogue between the act of marking and the nature of passage."
+    ],
+    "unused_angles": [
+      "Exploring the *source* of the vermilion—where does this specific color material come from in relation to the dwelling?",
+      "Focusing entirely on the domestic routine preceding or following the ritual application, without mentioning the mark until its conclusion."
+    ],
+    "variety_note": "This chapter differs from neighbours by isolating a moment of stasis at a threshold, intensely examining permanence and ephemeral decay rather than broad movement through space."
+  }
+}

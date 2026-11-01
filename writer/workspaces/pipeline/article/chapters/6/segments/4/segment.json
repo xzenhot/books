@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 4,
+  "total_segments": 6,
+  "chapter_index": 6,
+  "name": "6",
+  "chapter_title": "দুটি জগতের সেতু",
+  "chapter_summary": "বিক্রম ও অরুণিমার মধ্যে এক অপ্রত্যাশিত সংযোগ তৈরি হয়—এক জরুরি কাজের অজুহাতে দেখা। তাদের কথোপকথন দুটি ভিন্ন জগতের মধ্যেকার ক্ষীণ সেতু।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "The negotiation of unspoken debts: Focusing not on the transactional aspect of a favor, but on the emotional cost when one world demands reciprocity from another.",
+    "status": "enriched"
+  }
+}

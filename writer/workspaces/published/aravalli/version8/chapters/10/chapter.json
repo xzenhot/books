@@ -1,0 +1,94 @@
+{
+  "chapter_index": 10,
+  "name": "10",
+  "word_target": 500,
+  "chapter_title": "সময়ের দীর্ঘতম স্মৃতি",
+  "chapter_summary": "৩.৬ বিলিয়ন বছরের শিলার সাক্ষ্য — সময়ের সবচেয়ে দীর্ঘ স্মৃতি এক পাহাড়ের শরীরে আটকে আছে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "aurilus-rumi-eliot-gibran",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 5,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 4,
+      "movement": {
+        "name": "Sufism",
+        "one_liner": "Seeking divine union through ecstatic love."
+      },
+      "writing_skills": [
+        "cadence matching",
+        "breath-based lineation",
+        "phonetic percussion"
+      ],
+      "image_seed": "strata layered like untranslatable languages on a single face",
+      "volta": "the self made small before the immense duty of memory",
+      "sonic_texture": "a braided voice — stoic ground, ecstatic lift, shored fragments",
+      "line_gesture": "collage lines that return, transformed, to the opening image",
+      "variety_note": "the compound signature — a braid of four voices closing the geological decade."
+    },
+    "angles": [
+      "Framing the mountain's memory not as accumulation of events, but as a state of perpetual temporal dissonance—being simultaneously Protozoic and present.",
+      "Interrogating how personal grief (Sagarika's memory) refracts against deep geological time, making transient human sadness feel anciently weighted.",
+      "Treating the visible strata lines not just as layers of history, but as superimposed languages that cannot be fully translated into one another."
+    ],
+    "story_options": [
+      "Setting: A solitary outcrop catching the setting sun; Desire: To read an invisible narrative written by mineral erosion over epochs; Obstacle: The light distorts every line into a shimmering lie, making focus impossible.",
+      "Setting: Inside a cave where stalactites drip slowly; Desire: To witness the precise moment of geological 'choice' between one depositional path and another (a split in the rock's will); Obstacle: A sudden seismic tremor shifts the slow-motion narrative into chaos.",
+      "Setting: Where ancient, pale bedrock meets a vein of bright, modern intrusion (like human infrastructure scar tissue); Desire: To find the point where deep time yields to hurried modernity; Obstacle: The clash generates an unbearable high-pitched sonic frequency."
+    ],
+    "subject_rotations": [
+      "Focusing on entropy not as destruction, but as a slow process of information dispersal—how memory leaks from structure into surrounding void.",
+      "Exploring the concept of geological 'language' using non-human syntax; if rock spoke, what would its grammar be?",
+      "Treating time itself as a physical substance within the mountain, something that can erode or accumulate like sediment."
+    ],
+    "sensory_details": [
+      "Visual: The impossibly slow progression of lichen growth across a face scarred by eons—a microscopic clock ticking against continental drift.",
+      "Tactile: The paradoxical feeling of immense pressure combined with absolute stillness, like holding a perfect, heavy droplet in the palm.",
+      "Aural: A profound silence that is not empty, but saturated with the ghost-echoes of past tectonic shudders."
+    ],
+    "research_questions": [
+      "Are there specific petrological indicators (e.g., microfracturing patterns) that geologists use to differentiate between slow, gradual stress accumulation versus rapid, episodic uplift events?",
+      "How do linguistic models handle the concept of time as a non-linear physical state when attempting to map deep geological narratives?"
+    ],
+    "structural_variants": [
+      "A poem structured entirely around numbered strata layers (e.g., 'Stratum 1: The First Breath,' 'Stratum X: The Echo'), with the transition between layers marked by a shift in rhythm or diction.",
+      "Alternating stanzas of pure, dense geological description (highly specific mineral/rock terms) with stanzas focused solely on ephemeral human sensation (Sagarika's fleeting thought)."
+    ],
+    "variety_note": "Unlike chapters focusing on elemental trauma (fire, cold) or biological infiltration (water), this chapter centers entirely on the abstract, enduring quality of accumulated existence and temporal weight."
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "153cf08cb9ce75357cad0cdbb2ccb2eb009fe4acfd104f1dcd04e4c9f8ae9b9a",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

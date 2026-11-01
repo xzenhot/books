@@ -1,0 +1,68 @@
+{
+  "chapter_index": 25,
+  "name": "25",
+  "word_target": 280,
+  "chapter_title": "ক্ষমার আলোয় অন্তরের ভারমুক্তি",
+  "chapter_summary": "শ্বশুরকুল ও সমাজের বিষাক্ত আচরণের প্রতিশোধ নয়; মন থেকে তিক্ততা মুছে ক্ষমাশীল হতে পারাই পথচলার আত্মাকে ভারমুক্ত করে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the internal mechanics of forgiveness: how one dismantles a deep-seated narrative of injury to create space for peace.",
+      "Contrasting the outward, visible manifestation of grace (the 'light of pardon') against the unseen, intricate process of its internalization within the self.",
+      "Framing absolution not as an act granted by others, but as a sovereign decision made over one's own emotional landscape."
+    ],
+    "story_options": [
+      "Setting: The threshold of her former marital home; Desire: To offer a single gesture of acknowledgment to a hostile figure (perhaps a relative) without any accompanying words—obstacle: the urge to defend or argue against past slights; turn: achieving a sudden, profound stillness that silences the argument.",
+      "Setting: Alone by the riverbank after witnessing public censure; Desire: To actively choose what memory to release from her immediate consciousness into the flow of the water—obstacle: the gravitational pull of righteous anger; turn: feeling the physical lightness where the remembered grievance once settled in the chest.",
+      "Setting: In a moment of profound quiet contemplation while tending to something simple (like a lamp or plant); Desire: To perceive the antagonist's own human vulnerability, rather than their judgmental mask—obstacle: years of perfected bitterness acting as armor; turn: seeing them not as an obstacle to be overcome, but as another suffering soul."
+    ],
+    "subject_rotations": [
+      "Treating 'ক্ষমা' (forgiveness) itself as a physical substance that must be meticulously shed or dissolved from the body.",
+      "Exploring forgiveness through a performative lens: how does one *act* mercifully when deep within remains wounded?",
+      "Focusing on the difference between forgetting an event and consciously choosing to release its emotional weight."
+    ],
+    "sensory_details": [
+      "The cool, slick texture of river stone against her palm while making a decision about mercy (touch).",
+      "The almost imperceptible scent of ozone just before a heavy storm breaks over the landscape, symbolizing inner clearing (smell).",
+      "The sound of distant insects—a complex chorus that seems to resolve into a singular, harmonious chord when she stops fighting (sound)."
+    ],
+    "research_questions": [
+      "What specific Bengali poetic motifs or metaphors inherently describe the 'unburdening' from resentment without resorting to abstract virtue signaling?",
+      "Can the concept of internal forgiveness be mapped onto natural processes observed in the water cycle described elsewhere in the book?"
+    ],
+    "structural_variants": [
+      "A highly fragmented structure where each stanza addresses a different relationship (mother, society, self) and resolves it with a single act of intentional release.",
+      "A liturgical form: building towards the phrase 'মুক্তি' (liberation/release) through iterative, diminishing repetitions."
+    ],
+    "unused_angles": [
+      "How this internal state affects her physical movement—is grace gained when she stops bracing against invisible forces?",
+      "Exploring whether complete forgiveness is possible without a profound sense of loss for what was unjustly denied."
+    ],
+    "variety_note": "While prior chapters dealt with the arduous act of enduring hardship (the weight), this chapter pivots inward to explore the active, transformative work required to shed that historical and emotional load."
+  },
+  "draft": {
+    "sha256": "edbd1694f39ab8cf23a4755279d8e44eef20ff0f43f4cfbdf9f97284348f4fee",
+    "written_at": "2026-10-21T14:07:02.170224+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "edbd1694f39ab8cf23a4755279d8e44eef20ff0f43f4cfbdf9f97284348f4fee",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T16:19:57+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

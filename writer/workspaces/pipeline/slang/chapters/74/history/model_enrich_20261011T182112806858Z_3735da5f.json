@@ -1,0 +1,40 @@
+{
+  "chapter_index": 74,
+  "name": "74",
+  "word_target": 500,
+  "chapter_title": "নিজের চরকায় তেল দেওয়া",
+  "chapter_summary": "In 'নিজের চরকায় তেল দেওয়া,' the narrative pivots around the internal conflict of the protagonist, who struggles to maintain focus on his own endeavors amidst the persistent noise and interference of external conflicts. The chapter vividly portrays this struggle through the imagery of a turning charkha, symbolizing self-sufficiency and dedicated labor, set against the backdrop of societal entanglements. As the protagonist strives to keep his own wheel turning smoothly, the central question remains: can one truly remain insulated from the currents of communal strife while navigating the complex tapestry of their personal life?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরকার",
+      "role": "মূল চরিত্র"
+    },
+    {
+      "id": "c2",
+      "name": "অন্যান্য গ্রামবাসী",
+      "role": "পার্শ্ব চরিত্র"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "এই অধ্যায়ে বর্ণিত কর্মপ্রচেষ্টা তৎকালীন সমাজের বাস্তব চিত্রকে প্রতিফলিত করে।",
+    "human_in_the_loop": "চরিত্রের নিজস্ব কাজে মনোযোগ দেওয়াই এই অধ্যায়ের মূল চালিকাশক্তি।",
+    "influence_of_other_works": "প্রবাদটির গভীরতা প্রাচীন লোকসাহিত্যের প্রতিধ্বনি বহন করে।",
+    "cultural_relevance": "নিজের কাজে স্থির থাকা বাঙালি সংস্কৃতির একটি গুরুত্বপূর্ণ দিক তুলে ধরে।",
+    "literary_style": "গদ্যের সরলতা এবং প্রবাদের অন্তর্নিহিত গভীরতা এই অধ্যায়ের শৈলীকে সমৃদ্ধ করে।",
+    "narrative_techniques": "কেন্দ্রীয় থিমটিকে একটি সরল, কার্যকরী উপায়ে উপস্থাপন করা হয়েছে।",
+    "symbolism_and_motifs": "নিজের চাকা ঘোরানো প্রতীকীভাবে আত্মনির্ভরশীলতাকে বোঝায়।",
+    "reader_engagement_strategies": "প্রবাদটির সহজবোধ্যতা পাঠকদের দ্রুত সংযোগ স্থাপনে সহায়তা করবে।",
+    "ethical_considerations": "অন্যের বিষয়ে হস্তক্ষেপ না করার নৈতিক দায়িত্ববোধ এখানে প্রতিফলিত।",
+    "potential_controversies": "কোনো সরাসরি বিতর্কিত বিষয়বস্তু এই অধ্যায়ে অনুপস্থিত।",
+    "diversity_and_inclusion": "এই অধ্যায়টি কর্মের মাধ্যমে সকল স্তরের মানুষের জন্য প্রযোজ্য।",
+    "marketing_and_promotion": "'নিজের চরকায় তেল দেওয়া' শিরোনামটি একটি শক্তিশালী বিপণন ট্যাগলাইন হতে পারে।",
+    "significance_of_rise_of_bengal": "ব্যক্তিগত স্বনির্ভরতা বৃদ্ধি পাওয়ায় বাংলার সামাজিক কাঠামোতে ইতিবাচক পরিবর্তন এসেছে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

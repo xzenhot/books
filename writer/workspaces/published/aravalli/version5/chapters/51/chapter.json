@@ -1,0 +1,28 @@
+{
+  "chapter_index": 51,
+  "name": "51",
+  "word_target": 500,
+  "chapter_title": "লুপ্ত ঝরনার স্বপ্ন",
+  "chapter_summary": "লুপ্ত সরস্বতীর আদিম উৎস — পাহাড়ের নাভিতে লুকিয়ে থাকা সেই ঝরনা, যেখানে আজও জলের নেশা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "406b3e449c3b19d8826c1fc3fe35fcd376ae83dd25a6df020d6eafd11d7e59ed",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

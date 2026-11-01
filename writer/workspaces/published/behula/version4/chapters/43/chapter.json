@@ -1,0 +1,53 @@
+{
+  "chapter_index": 43,
+  "name": "43",
+  "word_target": 280,
+  "chapter_title": "নেতাইয়ের আশ্রয়ে আত্মনিবেদন",
+  "chapter_summary": "কোনো অহংকার নয়, বিনম্র ভক্তিতে স্বর্গের ধোবানির সহায়তা গ্রহণ। এক নারীর বেদনা অন্য নারীর মমতা দিয়ে আলিঙ্গন করার পবিত্র মুহূর্ত।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing entirely on the transference of weight—the physical shift from Behula's own unsupported burden to the support offered by Netai/the divine attendant.",
+      "The 'humility' not as self-abasement, but as a necessary strategic posture: adopting the guise of supplication to gain leverage for her ultimate claim.",
+      "Framing the act as ritualistic exchange: what does Behula offer (her essence, her suffering) in return for Netai's aid?"
+    ],
+    "story_options": [
+      "setting: The cool stone platform near Netai’s dwelling, desire: To allow the coldness of the divine structure to momentarily temper her feverish exhaustion., obstacle: The overwhelming, unearned proximity to celestial power that threatens to dissolve her mortal self., turn: She speaks not of Lkhindor, but only of the *path*—the necessity of continuance.",
+      "setting: A secluded corner where Netai attends to smaller rites, desire: To find a moment of absolute anonymity within the overwhelming celestial court., obstacle: The perpetual, watchful gaze of unseen beings who define her worth based on adherence to protocol., turn: She reveals a specific, small detail about Lkhindor’s worldly life—a scent or habit—to make him tangible.",
+      "setting: As Netai guides the raft away from the river's edge towards solid ground, desire: To test the reliability of this transcendent aid against her deep-seated trauma., obstacle: The terrifying ease with which divine assistance seems to negate years of earned struggle, risking making her story feel cheap., turn: She clings not to Netai's garment, but touches a specific pattern woven into his cloth, grounding the miracle in texture."
+    ],
+    "subject_rotations": [
+      "Reinterpreting 'humility' as active self-possession: how she controls the narrative of her own need rather than simply accepting aid.",
+      "The anatomy of acceptance: detailing which specific part of her body first yields to external comfort/support (e.g., a trembling shoulder, a sinking hip).",
+      "Shifting focus from Netai's benevolent action to Behula’s internal mechanism for *receiving* grace—the architecture of faith that allows it in."
+    ],
+    "sensory_details": [
+      "The metallic, cold scent emanating from the divine stone platform where she rests.",
+      "The precise feel of aged, dry velvet or fine woven cloth beneath her palm during contact with Netai’s attire.",
+      "A momentary cessation of sound that feels like a pressure change in the inner ear, rather than true quiet."
+    ],
+    "research_questions": [
+      "How can Bengali poetic diction distinguish between respectful deferential posture and genuine psychological collapse under divine scrutiny?",
+      "What are established literary ways to describe 'necessary vulnerability' versus 'true subservience' within high devotional narrative structures?"
+    ],
+    "structural_variants": [
+      "A structure built entirely around repeated rhetorical questions directed at Netai, seeking validation for her own pain rather than his mercy.",
+      "Using the form of a dialogue that is heavily interrupted by internal monologue or sensory flare-ups, mimicking a fractured state of receiving help."
+    ],
+    "unused_angles": [
+      "Exploring the potential bias in divine reception—is Netai's assistance inherently tinged with a predetermined agenda regarding cosmic order?",
+      "A direct juxtaposition between the mundane dirt stains on her sari and the polished, unblemished nature of the celestial attendants."
+    ],
+    "variety_note": "While previous chapters focused on external conflict (society, gods), this chapter isolates the interior space where struggle meets potential salvation; it shifts from active resistance to highly nuanced reception."
+  },
+  "draft": {
+    "sha256": "2af93b7dd379f22cd144f1b242639aa726abd8735dcd5a86d2d314df7f771bc6",
+    "written_at": "2026-10-21T16:33:27.917190+00:00",
+    "origin": "write"
+  }
+}

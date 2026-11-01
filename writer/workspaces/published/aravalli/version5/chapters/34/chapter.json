@@ -1,0 +1,28 @@
+{
+  "chapter_index": 34,
+  "name": "34",
+  "word_target": 500,
+  "chapter_title": "দানবের আঁকা জ্যামিতি",
+  "chapter_summary": "ময়দানবের জ্যামিতিক নগর-নকশা — প্রাচীন স্থাপত্যের রেখা পাহাড়ের সঙ্গে মিশে যায়।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "1efa64d2e86126230bbaa01f30500632ce11f14f06527c838baf182765104af1",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:14:25+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

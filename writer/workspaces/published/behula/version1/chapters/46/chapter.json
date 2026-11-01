@@ -1,0 +1,55 @@
+{
+  "chapter_index": 46,
+  "name": "46",
+  "word_target": 280,
+  "chapter_title": "নৃত্যের তালে শোকের অগ্ন্যুৎপাত",
+  "chapter_summary": "দেবসভায় বেহুলার অলৌকিক নৃত্য কোনো বিনোদন নয়; চরণের প্রতিটি মুদ্রায় ছিল নারীর শোক, ক্ষোভ ও অধিকার আদায়ের মহাবিস্ফোরণ।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the residual exhaustion *after* the dance: how does the sheer exertion of expressing monumental grief leave a strange, quiet aftermath?",
+      "Framing the 'spurt of anger' not as raw rage, but as meticulously controlled kinetic energy—the discipline required to turn sorrow into divine art.",
+      "Viewing the onlookers (gods) through Behula's hyper-aware lens: are their faces masks of boredom, pity, or genuine confusion at such unfiltered human passion?"
+    ],
+    "story_options": [
+      "setting: The periphery of the divine assembly hall, moments after the final pose., desire: To find one single point where her human tears mixed with celestial luminescence, creating a momentary stain on perfection., obstacle: The pervasive weight of immortality, which refuses to acknowledge transient suffering., turn: A sudden, unexpected stillness—not peaceful, but brittle and unsustainable.",
+      "setting: The stage floor, still vibrating slightly from the dance's intensity., desire: To reclaim the narrative control lost during the performance; to articulate what the dance *failed* to say about Lkhindor., obstacle: The established, immutable doctrines of celestial order that resist human articulation., turn: A whispered counter-argument from a minor deity, challenging her right to speak.",
+      "setting: The transition zone between the dance space and the observing thrones., desire: To communicate a specific, private detail of Lkhindor's life—a small memory only she holds—to break their generalized judgment., obstacle: Their detachment; they perceive symbols, not specifics., turn: Her attempt to anchor the abstract drama in a single, tangible, remembered sound."
+    ],
+    "subject_rotations": [
+      "Treating the dance as a performance of *memory*, where each gesture is a retrieval of a specific moment with Lkhindor, rather than just generalized mourning.",
+      "Shifting from 'grief' to 'assertion': focusing on how the physical movement becomes an act of legal claim against fate and divine caprice.",
+      "Examining the audience reaction not as monolithic indifference, but as a spectrum: some bored, some concerned, some profoundly unmoved."
+    ],
+    "sensory_details": [
+      "The specific, sharp smell of dried jasmine crushed underfoot during a particularly powerful turn.",
+      "A high-frequency ringing in the bones immediately following the cessation of movement, signifying energy debt.",
+      "The cool press of invisible divine currents against exposed skin when she pauses mid-flow."
+    ],
+    "research_questions": [
+      "How can Bengali poetic language best convey the sensation of profound physical depletion juxtaposed with spiritual exhilaration?",
+      "What specific imagery in classical texts denotes 'assertion' or 'vindication' outside of outright combat?"
+    ],
+    "structural_variants": [
+      "A circular structure: beginning and ending with a mirroring posture, but filled with radically different emotional content.",
+      "Free-form fragmentation: breaking the rhythm entirely at peak emotional moments to suggest cognitive overload.",
+      "Invocation/Response: A structured call-and-response between her performed movements and an unseen cosmic echo."
+    ],
+    "unused_angles": [
+      "A moment where she sees a reflection of herself in polished divine metal, observing the disparity between the performer and the ideal.",
+      "Exploring the physical sensation of being utterly *seen* by so many eyes simultaneously—a terrifying form of absolute exposure.",
+      "Focusing entirely on the costume/adornment: how does her mortal finery interact with the divine setting?"
+    ],
+    "variety_note": "While earlier chapters detailed the build-up to this confrontation, this chapter anchors in the immediate aftermath, using lingering sensory details and ending not with a resolution, but with an unanswerable question."
+  },
+  "draft": {
+    "sha256": "18638c69ec431e7941c0479de76738152358d2dbd1a9b7cd497912a945fd5aa2",
+    "written_at": "2026-10-21T14:11:16.660258+00:00",
+    "origin": "write"
+  }
+}

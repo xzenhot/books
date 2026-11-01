@@ -1,0 +1,73 @@
+{
+  "chapter_index": 19,
+  "name": "19",
+  "word_target": 5500,
+  "chapter_title": "প্রকাশের দাম",
+  "chapter_summary": "সত্যটি প্রকাশের মুহূর্ত—সংবাদপত্রের প্রথম পাতার বিরুদ্ধে মানুষের মুখের কথা। অরুণিমা ও বিক্রম তাদের সিদ্ধান্তের মূল্য পরিশোধ করে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The 'article' as a consumable commodity: treating the published truth not as knowledge but as another transient piece of urban ephemera, designed for quick consumption and immediate disposal.",
+      "Sensory overload vs. targeted focus: contrasting the deafening ambient noise of publication/protest with one hyper-specific, intimate sound (e.g., the click of a specific pen cap, or the scrape of metal on concrete) that anchors the emotional weight of the moment.",
+      "The cost calculation: exploring how Arunima and Bikram quantify their 'payment'—is it financial ruin, social ostracization, or the quiet erosion of personal comfort?"
+    ],
+    "story_options": [
+      "Setting: A cramped, rented stall near a major printing press; Desire: To see the final proof sheet physically imprinted before public release; Obstacle: The compositor’s sudden refusal to print without a further, unspoken demand; Turn: Bikram must trade something deeply personal, unrelated to the truth itself, for permission.",
+      "Setting: A busy intersection where an impromptu street gathering is forming around news hawkers; Desire: To be anonymously present—witnessing the reaction from the periphery rather than being central; Obstacle: One of their contacts forces them into a highly visible role during the peak moment of fervor; Turn: The object they brought (the biographical item) becomes inadvertently prominent in the scene.",
+      "Setting: A silent, institutional archive room after hours; Desire: To review the original filing system one last time, searching for a loophole or context that might alter the narrative's impact; Obstacle: Security forces initiate an unexpected sweep of the building concurrent with their presence; Turn: They realize the 'truth' they unearthed was already cataloged—not in the grand historical record, but in mundane administrative notes."
+    ],
+    "subject_rotations": [
+      "Shifting from ideological conflict to relational consequence: focusing heavily on how this publication event irrevocably alters Arunima and Bikram’s relationship with each other.",
+      "The unintended recipient: examining a secondary character who receives the published article or evidence, completely outside their immediate orbit, and how that person processes the information entirely differently.",
+      "Object persistence: tracking one small object (e.g., a specific stamp, a folded receipt from the original discovery) as it travels through different hands—from investigative tool to discarded litter—after publication."
+    ],
+    "sensory_details": [
+      "The smell of ozone and hot ink rising from newly set type during night printing.",
+      "The gritty texture of newsprint accumulating in creases where the paper has been hastily folded by a reader at an outdoor stall.",
+      "The sharp, metallic tang on the tongue when someone nervously bites their lower lip while reading inflammatory material."
+    ],
+    "research_questions": [
+      "What specific types of local iconography or cultural symbols are often used in New Delhi's street pamphleteering that might act as an immediate visual shorthand for dissent?",
+      "How do different segments of the readership react to highly personalized 'truth' versus generalized political narratives presented in urban Indian journalism?"
+    ],
+    "structural_variants": [
+      "A non-linear structure: Starting with the public reception (chaos/reaction), flashing back only to the immediate, quiet moment preceding the final decision.",
+      "The dual timeline: Alternating between a rapid montage of newspaper sales/distribution and a slowed-down, almost agonizing close-up on one physical artifact's slow degradation in time."
+    ],
+    "unused_angles": [
+      "How the economic engine of journalism (printers, vendors) benefits from—and is complicit with—the dissemination of challenging narratives.",
+      "The concept of 'public fatigue': examining how quickly society moves past a major revelatory event and back to its normalized rhythm."
+    ],
+    "variety_note": "While previous chapters dealt with the *preparation* for impact (document discovery, negotiation), this chapter focuses entirely on the visceral *moment* of release and immediate fallout, using an object's trajectory as its anchor."
+  },
+  "draft": {
+    "sha256": "e4baaecc24dda9ad868a6b4b932437c5c1c5d0a8f32b2f7b08e511b46c184ae2",
+    "written_at": "2026-10-23T21:32:28.881442+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "e4baaecc24dda9ad868a6b4b932437c5c1c5d0a8f32b2f7b08e511b46c184ae2",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-24T03:33:33+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

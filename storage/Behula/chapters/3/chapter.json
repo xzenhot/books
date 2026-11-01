@@ -1,0 +1,54 @@
+{
+  "chapter_index": 3,
+  "name": "3",
+  "word_target": 280,
+  "chapter_title": "বিধবা শাড়ির নিচে অপয়া অপবাদের দাহ",
+  "chapter_summary": "স্বামীর চিতা ওঠার আগেই সমাজ এক লহমায় তাকে দাগিয়ে দেয় ‘সর্বনাশী অপয়া’ রূপে। শোকের ক্ষতের চেয়েও প্রতিবেশীর বিষাক্ত কটাক্ষ তার আত্মসম্মান দলিত করে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Shifting focus from societal judgement (the neighbours) to her internal dialogue about the nature of 'purity' when it is outwardly challenged by slander.",
+      "Framing the continuous, ritualistic act of mourning not as passive suffering, but as an active, almost militant performance against defamation.",
+      "Treating the physical fabric of the widow's saree itself as a narrative device—a shroud that both cloaks and exposes her to public gaze."
+    ],
+    "story_options": [
+      "A scene where she is forced to walk past a specific, recurring landmark in the village (e.g., a well or a market crossroad), each passing neighbour delivering a slightly different, yet equally corrosive, phrase.",
+      "An imagined interaction with one specific individual who acts as the focal point of rumour—a gossiping artisan or elder—where her reply is entirely non-verbal, conveyed through gesture only.",
+      "Focusing on the ritual task of tending to the funerary rites (like pouring water or arranging flowers) while simultaneously receiving invisible verbal attacks from the crowd gathered nearby."
+    ],
+    "subject_rotations": [
+      "Treating 'অপবাদ' not as an insult, but as a specific form of social energy—a corrosive current she must physically swim against.",
+      "Viewing the widow’s garment (the saree) less as mourning attire and more as a contested piece of territory defining her liminal state between life and accepted afterlife.",
+      "Examining how the memory of Lkhindor's vitality contrasts sharply with the oppressive weight of public scorn, creating an internal psychic schism."
+    ],
+    "sensory_details": [
+      "The gritty feel of dry earth or dust settling onto the edges of her mourning cloth.",
+      "The metallic tang of unshed tears mixed with the smell of banked funeral pyre smoke clinging to her skin.",
+      "The specific, uneven rhythm created by her footsteps on rough ground as she walks through judgment."
+    ],
+    "research_questions": [
+      "How can Bengali poetic diction render pervasive social condemnation in a way that feels personal and immediate rather than generalized?"
+    ],
+    "structural_variants": [
+      "A circular structure: beginning and ending with the act of looking out at the world, but each repetition showing a minuscule shift in her internal resilience.",
+      "A heavily fragmented structure mirroring rumour—short bursts of dialogue/judgment interspersed with long, unbroken lines of her silent endurance.",
+      "An inverted arc: starting deeply immersed in grief (the immediate wound) and slowly gaining altitude by achieving emotional distance from the slander."
+    ],
+    "unused_angles": [
+      "Exploration of how younger generations view or interpret the suffering woman through different moral lenses than older villagers.",
+      "The silence of certain people—those who witness the cruelty but offer no verbal defence, and what that silence signifies about communal complicity.",
+      "A brief meditation on memory: does her recollection of Lkhindor soften the blow, or make the slander feel more acute?"
+    ],
+    "variety_note": "Where previous chapters established the loss (Chapter 2) and initial flight (Chapter 6), this chapter focuses microscopically on the public endurance required to maintain dignity against targeted social corrosion."
+  },
+  "draft": {
+    "sha256": "4f1c9bc4ccda101fa838341a72e049978b8bd0548b0eef8e53d0a50cb1aa6ed7",
+    "written_at": "2026-10-21T16:40:37.932130+00:00",
+    "origin": "write"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "chapter_index": 30,
+  "name": "30",
+  "word_target": 500,
+  "chapter_title": "তৃষ্ণার খোদাই",
+  "chapter_summary": "খনি ও পাহাড় কাটায় ভূগর্ভস্থ জলাধার শুকিয়ে যায় — ভবিষ্যতের তৃষ্ণা পাথরের বুকে খোদাই হয়ে থাকে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "enrich": {
+    "active_filters": [
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "aurilus",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 8,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 5,
+      "movement": {
+        "name": "Stoicism",
+        "one_liner": "Logic, virtue, and mastering inner thoughts."
+      },
+      "writing_skills": [
+        "classical meter mastery",
+        "rhyme architecture",
+        "modern colloquial grounding"
+      ],
+      "image_seed": "thirst carved forever into the drying stone",
+      "volta": "the self made small before the immense duty of water",
+      "sonic_texture": "a calm, compact, stoic close",
+      "line_gesture": "measured lines that do not rise, only persist",
+      "variety_note": "a stoic seal closing the water decade"
+    }
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "0daef2bc21a680bd9321b97832165c5598c4de46c83d70a4ba3d2646cd39549e",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

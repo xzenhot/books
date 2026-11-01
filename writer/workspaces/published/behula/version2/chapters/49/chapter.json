@@ -1,0 +1,75 @@
+{
+  "chapter_index": 49,
+  "name": "49",
+  "word_target": 280,
+  "chapter_title": "লখিন্দরের অঙ্গে প্রথম প্রাণের স্পন্দন",
+  "chapter_summary": "দেবীর রোষ পরাজিত; বেহুলার ত্যাগের আগুনে পুড়ে গলিত অস্থিতে মাংস ও রক্ত ফিরে আসা। ভালোবাসার ক্ষমতায় মৃত্যুর পরাজয়।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The relationship between sacred ritual and the reanimation of physical form in Bengali folklore.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the return of life not as a miracle bestowed, but as a violent reassertion against absolute entropy—a temporary defiance of cosmic decay.",
+      "Focusing on the *sensory* experience of the first heartbeat: is it warm or cold? Is it strong enough to feel like an invasion, rather than a gentle awakening?",
+      "Adopting a perspective that dwells solely on the transition from 'calcified matter' back to something biologically fluid—the terrifying beauty of chemical reconstruction."
+    ],
+    "story_options": [
+      "Setting: The immediate surface of the dissolved remains; Desire: To capture the precise moment when the rigid form begins to yield to internal, chaotic warmth; Obstacle: The lingering shadow of death's stillness; Turn: The first breath is ragged, sounding almost like a complaint rather than an intake.",
+      "Setting: Deep within the reconstructed flesh, where residual stasis lingers; Desire: To trace the path of the first impulse—the nascent desire for reunion or recognition; Obstacle: The lingering echo of divine judgment in the tissue structure; Turn: Lkhindor's eyes open not to Behula, but to a fragmented image of the celestial court.",
+      "Setting: The delicate membrane separating death from life; Desire: To observe the biological memory struggling against the magical infusion; Obstacle: The slow, painful integration of mortal injury with renewed vitality; Turn: A phantom sensation of ice or searing fire runs through the nascent body before true warmth sets in."
+    ],
+    "subject_rotations": [
+      "Treating the revival not as a singular event, but as an ongoing process of re-negotiation between mortality and divine intervention.",
+      "Exploring the psychological weight on Behula: is her triumph one of pure joy, or burdened by the memory of what she had to sacrifice for this return?",
+      "Shifting focus from Lkhindor's body to his *potential*—the sheer volume of life that rushes back into a vessel nearly emptied."
+    ],
+    "sensory_details": [
+      "The precise, almost metallic scent released as the first vital fluids begin circulation.",
+      "A sound described not as a beat, but as the friction of two disparate energies (life/death) briefly locking into rhythm.",
+      "The sensation of altered texture—skin no longer like dried clay, but something yielding and impossibly tender to the touch."
+    ],
+    "research_questions": [
+      "How can Bengali poetic diction capture the juxtaposition of perfect biological restoration alongside the remnants of extreme physical trauma?",
+      "What parallels exist in myth/philosophy regarding a body being reactivated by immense external force versus internal will?"
+    ],
+    "structural_variants": [
+      "A strictly cyclical structure mirroring the ebb and flow of life returning to its previous state, yet fundamentally altered.",
+      "An inverted arc: starting with the perceived *lack* of life (the final moment before movement) and culminating in a dizzying rush toward full existence."
+    ],
+    "unused_angles": [
+      "The political implication of restoring one figure from death within a divine hierarchy; who else is spared or cursed by this act?",
+      "A deep dive into the concept of *labor* required for resurrection, linking it back to Behula's ceaseless physical exertion.",
+      "Examining how Lkhindor’s return fundamentally shifts the dynamic between mortal striving and celestial decree."
+    ],
+    "variety_note": "This chapter shifts focus from external struggle (the journey) to internal emergence—the quiet, visceral moment where metaphysical conflict resolves into palpable biological reality."
+  },
+  "draft": {
+    "sha256": "1d50e54e649ebd4e611cc6038923e187cc809e3b2745e52df7323aebda6b6127",
+    "written_at": "2026-10-21T14:11:57.452323+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "1d50e54e649ebd4e611cc6038923e187cc809e3b2745e52df7323aebda6b6127",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T16:19:57+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

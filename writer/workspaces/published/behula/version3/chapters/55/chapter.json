@@ -1,0 +1,68 @@
+{
+  "chapter_index": 55,
+  "name": "55",
+  "word_target": 280,
+  "chapter_title": "পিতা চন্দ্রকান্তের অহংকার চূর্ণ",
+  "chapter_summary": "চাঁদ সওদাগরের পৌরুষ ও অহমিকা ভেঙে অশ্রু হয়ে ঝরে পড়া। বেহুলার চরণে নত হয়ে ক্ষমাপ্রার্থনা ও ভালোবাসার মহত্ত্ব উপলব্ধি।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the psychological fracture in Chandrakanta: how does his recognition of his pride's futility feel—is it sudden enlightenment or a slow drowning?",
+      "Shifting from external consequence (the loss of wealth) to internal landscape: mapping the geography of his shame within Champaknagar's familiar streets.",
+      "Treating the apology not as an act of submission to Behula, but as a desperate attempt by him to reconcile his patriarchal definition of honor with a reality he cannot control."
+    ],
+    "story_options": [
+      "A scene in Chandrakanta's study: He clutches a ledger or map—symbols of his worldly pride—while watching Behula from afar, feeling the cold weight of obsolete authority.",
+      "The moment immediately after the apology: Chandrakanta attempts to rebuild a piece of his shattered image (perhaps straightening a misplaced carving or restoring an old scroll), only for it to crumble again.",
+      "An invented internal monologue from Chandrakanta while witnessing Behula's grace: contrasting his 'hard' sense of value with the devastating softness and strength he perceives in her."
+    ],
+    "subject_rotations": [
+      "Examining the precise taxonomy of pride being broken: is it arrogance, rigid adherence to custom, or misplaced belief in self-sufficiency?",
+      "Exploring the economic implications of this shift: how does his acceptance change future mercantile decisions—moving from risk based on dogma to one based on connection?",
+      "Treating Chandrakanta's grief as a form of cultural mourning for an outdated model of masculine authority."
+    ],
+    "sensory_details": [
+      "The grit of fine, disturbed dust rising from the floor where Chandrakanta kneels, catching the late afternoon light.",
+      "A sudden, sharp scent of camphor or old sandalwood in his chamber—a smell associated with rigid tradition now undercut by humid grief.",
+      "The specific sound of silk dragging faintly across stone as Behula moves away after offering her forgiveness."
+    ],
+    "research_questions": [
+      "Does any extant Bengali literary tradition provide nuanced vocabulary for 'pride dissolving into humility'?",
+      "How is the visual language of wealth (trade goods, ledgers) counterpointed against the aesthetic purity implied by a posture of profound sorrow in this cultural context?"
+    ],
+    "structural_variants": [
+      "A tightly focused sequence revolving entirely around Chandrakanta's inability to articulate his regret coherently.",
+      "A fragmented structure mirroring the breakdown of his ego: each beat is a word or phrase that fails to capture the gravity of his realization."
+    ],
+    "unused_angles": [
+      "The reaction of lesser family members witnessing this profound public/private collapse of their patriarch, hinting at systemic rot beneath the surface.",
+      "How Behula's forgiveness interacts with past, unmentioned slights she may have endured from him before her trials began."
+    ],
+    "variety_note": "This chapter leans heavily into Chandrakanta’s internal reckoning by focusing on the micro-details of his self-reconstruction following the confrontation."
+  },
+  "draft": {
+    "sha256": "1409426241c06b95fdf02fb15e29ac00f35e617f415ac907d6dea3d980a8b112",
+    "written_at": "2026-10-21T14:13:08.012207+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "1409426241c06b95fdf02fb15e29ac00f35e617f415ac907d6dea3d980a8b112",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T16:19:57+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "chapter_index": 27,
+  "name": "27",
+  "word_target": 300,
+  "chapter_title": "বিদায়ের চোখের জল",
+  "chapter_summary": "মণ্ডপ থেকে মাকে কাঁধে তুলে নেওয়ার মুহূর্তে চোখে জল — আনন্দ আর বেদনা একই নদীতে মেশে।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The specific iconography of tears in Bengali devotional art (eyes)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing the 'tears' not as grief over loss, but as a pressurized overflow of uncontained collective energy that must be released during transition.",
+      "Structuring the chapter around the tactile friction between hands: the grip on the palanquin versus the dampness/slippage of skin when weeping.",
+      "Treating the physical act of lifting the idol ('কাঁধে তুলে নেওয়া') as a momentary, impossible reversal of gravity—a suspension of goodbye."
+    ],
+    "story_options": [
+      "Setting: The threshold where the procession transitions from the Pandal courtyard to the main thoroughfare; Desire: To center on one individual whose eyes are not weeping for Durga's departure, but rather in exhaustion from holding up the symbolic weight; Obstacle: The loud drumming temporarily muffling this private bodily surrender; Turn: A silent acknowledgment between two people witnessing this hidden struggle.",
+      "Setting: Directly beneath the mobile deity platform, where shadow pools darkest; Desire: To focus on a single droplet of sweat merging with a tear while lifting—a convergence of physical strain and emotional release; Obstacle: The insistent, high-pitched sound of the *dhak* forcing all internal murmurs to remain submerged; Turn: The moment that merged drop catches the reflected light from an ancillary lantern.",
+      "Setting: A momentary pause before the final walk towards the riverbank; Desire: To explore a cyclical phrase spoken by a guide or elder—a chant repeated until it breaks down into pure, unarticulated sobbing; Obstacle: The pressure of maintaining the public face of festival joy while internally experiencing utter desolation; Turn: The speaker's mouth suddenly going silent mid-phrase."
+    ],
+    "subject_rotations": [
+      "Shifting from the external spectacle (the crowd watching) to the internal mechanics of holding the idol—musculature, breath control, and nerve strain.",
+      "Examining 'tears' through a purely physical lens: what does this fluid symbolize in terms of body chemistry versus spiritual release?",
+      "Reframing the moment not as 'sadness about loss,' but as the painful culmination of intense, sustained collective joy finally breaking under its own weight."
+    ],
+    "sensory_details": [
+      "Touch: The slick, hot transfer of exertion sweat mingling with cool, salty tears on the bare skin of shoulders.",
+      "Sight: How the metallic sheen of temple jewelry reflects distortedly in a face momentarily blurred by weeping.",
+      "Sound: The distinct *stutter* or catch in the rhythm of the approaching music when it brushes against this intensely personal moment of pause."
+    ],
+    "research_questions": [
+      "Are there specific Bengali phrases used to describe an overwhelming emotional outpouring that seems beyond mere grief?",
+      "How is the physical burden (the weight) culturally interpreted versus its symbolic meaning in relation to the deity?"
+    ],
+    "structural_variants": [
+      "A structure built around a single, repeating somatic action (e.g., a repeated deep breath taken before lifting).",
+      "Juxtaposing very short, sharp fragments of public celebration against long, flowing lines dedicated only to internal bodily sensation.",
+      "The chapter organized as an ascending list: from the initial heavy silence to the peak overflow, and then abruptly cut off."
+    ],
+    "unused_angles": [
+      "Exploring the relationship between the weight of the idol and ancestral burdens carried by the bearers.",
+      "Using the momentary darkness cast behind the lifted deity as a space for quiet introspection before re-entry into light.",
+      "A focus on how children, who are not yet burdened with adult grief, react to this mature expression of sorrow."
+    ],
+    "variety_note": "This chapter deliberately moves away from the external ritual movements (like those concerning the drum or powder) to focus microscopically on the embodied experience of transition and emotional release in a single physical gesture."
+  },
+  "draft": {
+    "sha256": "c6a234680aac2eeda6461c1dd75d02ff1de7d90806382788b79d45b5b0c26d42",
+    "written_at": "2026-10-29T15:02:23.169018+00:00",
+    "origin": "write"
+  }
+}

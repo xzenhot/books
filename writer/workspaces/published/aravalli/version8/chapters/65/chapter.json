@@ -1,0 +1,28 @@
+{
+  "chapter_index": 65,
+  "name": "65",
+  "word_target": 500,
+  "chapter_title": "কাঁচের বনে জেগে ওঠা",
+  "chapter_summary": "গুরগ্রামের সুউচ্চ কাঁচ-কংক্রিটের স্কাইলাইন — আধুনিক শহরের কৃত্রিম চূড়া পাহাড়কে গিলে খাচ্ছে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "quality_review": {
+    "status": "passed",
+    "sha256": "443083cb2eeb98fa95e16987f16b67a794e66d8a30172a25edec94cddb2fe9e3",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-21T18:22:42+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

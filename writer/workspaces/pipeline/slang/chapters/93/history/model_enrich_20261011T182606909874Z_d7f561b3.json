@@ -1,0 +1,35 @@
+{
+  "chapter_index": 93,
+  "name": "93",
+  "word_target": 500,
+  "chapter_title": "ধনুর্ভঙ্গ পণ",
+  "chapter_summary": "The chapter, titled 'ধনুর্ভঙ্গ পণ' (Oath of the Broken Bow), plunges into the protagonist's unwavering resolve, crystallizing the internal conflict between societal pressures and personal ambition. His declaration, 'অটল সংকল্প — চাকরি পাবই, এ আমার ধনুর্ভঙ্গ পণ,' is not merely a statement but a profound vow, symbolized by the metaphor of the broken bow—a commitment so absolute it defies all setbacks. The narrative is steeped in the imagery of this intense, self-imposed promise, where every obstacle is measured against the purity of this singular, life-altering goal. As the chapter concludes, the reader is left to ponder whether this fierce, almost defiant commitment is the catalyst for his ultimate success, or if the very rigidity of his 'dhonurbhongo pon' will prove to be the insurmountable barrier to his desired future.",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "চরিত্র",
+      "role": "প্রধান চরিত্র"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "অটল সংকল্পের মাধ্যমে তৎকালীন সামাজিক বাস্তবতাকে প্রতিফলিত করা হয়েছে।",
+    "human_in_the_loop": "চরিত্রের দৃঢ় প্রতিজ্ঞা 'চাকরি পাবই' এই অধ্যায়ের মূল চালিকাশক্তি।",
+    "influence_of_other_works": "এই পণটি লোকজ প্রবাদ ও সাহিত্যের গভীর প্রভাব বহন করে।",
+    "cultural_relevance": "চাকরি লাভের আকাঙ্ক্ষা তৎকালীন বাঙালি সমাজের একটি গুরুত্বপূর্ণ সাংস্কৃতিক দিক তুলে ধরে।",
+    "literary_style": "কবিতার মতো গভীরতা নিয়ে 'ধনুর্ভঙ্গ পণ' নামকরণের মাধ্যমে সাহিত্যিক শৈলী উচ্চকিত।",
+    "narrative_techniques": "প্রতিজ্ঞাটিকে কেন্দ্র করে কাহিনি এগিয়ে নিয়ে যাওয়া একটি শক্তিশালী আখ্যান কৌশল।",
+    "symbolism_and_motifs": "ধনুর্ভঙ্গ প্রতীকীভাবে অদম্য ইচ্ছাশক্তি এবং সংকল্পকে নির্দেশ করে।",
+    "reader_engagement_strategies": "পাঠককে চরিত্রটির প্রতিজ্ঞা এবং সংগ্রামের সঙ্গে গভীরভাবে যুক্ত করার চেষ্টা করা হয়েছে।",
+    "ethical_considerations": "কর্মসংস্থানের জন্য দৃঢ় সংকল্পের নৈতিক দিকটি আলোচনা করা হয়েছে।",
+    "potential_controversies": "সামাজিক কাঠামোর মধ্যে চাকরি লাভের সংগ্রামকে কেন্দ্র করে বিতর্ক সৃষ্টি হতে পারে।",
+    "diversity_and_inclusion": "এই অধ্যায়টি নির্দিষ্ট সামাজিক প্রেক্ষাপটের মানুষের সংগ্রামকে তুলে ধরে।",
+    "marketing_and_promotion": "প্রবাদধর্মী শিরোনাম ব্যবহার করে পাঠক আকর্ষণ করা সম্ভব।",
+    "significance_of_rise_of_bengal": "এই পণটি মধ্যবিত্ত শ্রেণির উত্থান এবং তাদের আকাঙ্ক্ষার প্রতীক হিসেবে কাজ করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

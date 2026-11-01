@@ -1,0 +1,59 @@
+{
+  "chapter_index": 17,
+  "name": "17",
+  "word_target": 250,
+  "chapter_title": "প্রথম ব্যর্থ চেষ্টা",
+  "chapter_summary": "প্রথম চেষ্টায় স্বাদ মেলে না, খোলস ফেটে যায়, পুর বেরিয়ে আসে। ব্যর্থতার এই ছোট্ট সিঙ্গাড়াটি শেখার সবচেয়ে সৎ পাঠ।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Metaphysics of culinary process vs. desired outcome in diaspora literature.",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the 'bursting out' of the filling not as simple error, but as an involuntary expulsion of submerged memory when the protective structure (the dough/identity) is too weak.",
+      "Focusing solely on the specific *sound* of failure—the hiss that becomes a brief, sharp articulation of profound loss, rather than just visual wreckage.",
+      "The 'I' addressing the raw, imperfect ingredients (e.g., rejecting one batch of flour for another), treating ingredient quality as moral failing or resilience."
+    ],
+    "story_options": [
+      "setting: রান্নাঘরের প্রান্তের তাওয়া, desire: একটি 'নিখুঁত' মুচমুচে ধ্বনি (crisp sound) প্রতিষ্ঠা করা, যা অতীতের অনুরণন বহন করে।, obstacle: তেল ও ময়দার অনুপাত ঠিক করতে ব্যর্থ হওয়া; খোলস দুর্বল হয়ে যাওয়া এবং পুরের অংশ বিচ্ছিন্ন হয়ে বেরিয়ে আসা।",
+      "setting: হাতের ভাঁজে জমা আলুর মিশ্রণ, desire: সেই আদিম, মাটির কাছাকাছি স্বাদটুকু—সরষার তেলের ভেতরের গাঢ় গন্ধটি—পুনরুদ্ধার করা।, obstacle: অচেনা পরিবেশের কারণে তেলের উষ্ণতা কমে আসা; পুরের মশলার তীব্রতার সঠিক ভারসাম্য বজায় রাখতে না পারা।",
+      "setting: প্রথম ভাজা পাত্রের ধার ঘেঁষে, desire: পুরোপুরি ধ্বংসপ্রাপ্ত সেই প্রথম জিনিসটিকে ফেলে দিতে না পারা, বরং সেটির ভাঙা অংশে কোনো সত্য খুঁজে বের করা।, obstacle: বিদ্রূপাত্মকভাবে হাসতে বাধ্য হওয়া নিজের প্রতি—কেন এই অতিপ্রাকৃত স্বাদ এতটা অধরা।"
+    ],
+    "subject_rotations": [
+      "Focusing entirely on the *texture* of failure: not the visual burst, but the gritty, imperfect feel left on the fingertips after handling the broken pieces.",
+      "Examining the 'flaw' (the split dough) as a self-portrait—how every life choice in exile is inherently porous and prone to leaking something vital.",
+      "Treating the oil not just as a medium of heat, but as a carrier fluid for misplaced cultural essence; how it absorbs wrongness."
+    ],
+    "sensory_details": [
+      "শব্দ: তেলের মধ্যে খোলস ফেটে যাওয়ার সময় সৃষ্ট একটি তীক্ষ্ণ, অসহায় 'ফাটল' ধ্বনি।",
+      "স্পর্শ: ভেজা ময়দার আঠালো ভাব এবং গরম তেলে ভাজা অংশ থেকে আসা দ্রুত ঠান্ডা হয়ে আসার বিপরীত অনুভূতি।",
+      "ঘ্রাণ: পুরনো তেল ও নতুন মশলার মিশ্রণে তৈরি হওয়া এক অপ্রীতিকর রাসায়নিক গন্ধ, যা প্রত্যাশিত সুবাসের বিপরীত।"
+    ],
+    "research_questions": [
+      "কবিতার লয় বজায় রেখে, 'খোলস ফেটে যাওয়া' (cracking/bursting) প্রক্রিয়াটিকে একটি নির্দিষ্ট অভ্যন্তরীণ ধ্বনির পুনরাবৃত্তির মাধ্যমে কীভাবে কার্যকরভাবে ফুটিয়ে তোলা যায়?",
+      "প্রবাসীর ব্যর্থ প্রচেষ্টা এবং আকাঙ্ক্ষিত সিদ্ধি—এই দুইয়ের মধ্যেকার দার্শনিক দূরত্বকে যেন কেবল বস্তুর বর্ণনার মাধ্যমেই স্থাপন করা সম্ভব, তা কী করে নিশ্চিত হবে?"
+    ],
+    "structural_variants": [
+      "A highly fragmented structure where each stanza isolates a specific failure point (e.g., one for the dough tearing, one for the filling leaking, one for the heat dissipating).",
+      "Starting mid-action—at the moment of the first crack under pressure—and building outward to explain the preceding missteps."
+    ],
+    "unused_angles": [
+      "The potential metaphor of 'pressure' applied not just by frying temperature, but by expectation itself.",
+      "A brief dive into the specific *sound* difference between good oil saturation and poor oil absorption."
+    ],
+    "variety_note": "Where preceding chapters focused on establishing the material reality (oil, dough), this chapter isolates the failure—the moment when technical execution betrays inherited memory. It is a confrontation with inadequacy before any grand narrative can begin."
+  },
+  "draft": {
+    "sha256": "a0c906988497b9d8d71554d2ddd90f9072daab2c536639c2a56648ebe5ebcde4",
+    "written_at": "2026-11-01T08:21:14.721431+00:00",
+    "origin": "write"
+  }
+}

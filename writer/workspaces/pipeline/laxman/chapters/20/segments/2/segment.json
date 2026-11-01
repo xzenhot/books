@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 2,
+  "total_segments": 6,
+  "chapter_index": 20,
+  "name": "20",
+  "chapter_title": "কনৌজের দরজা",
+  "chapter_summary": "কনৌজের দরজায় উপনীত যুবরাজ লক্ষ্মণ সেন এক গভীর দ্বন্দ্বে নিমজ্জিত হন; একদিকে বিজয়ের প্রতীকী মহিমা, যা গৌরবের ঘোষণার সঙ্গে জড়িয়ে, অন্যদিকে সেই বিজিত নগরীর কঠিন বাস্তব শাসনভার। এই অধ্যায়ে, বিজয়ের উল্লাসের আড়ালে জমে থাকা ক্লান্তি এবং লিপির জয় ও বাস্তব শাসনের মধ্যেকার মৌলিক ফারাক লক্ষ্মণকে তীব্রভাবে তাড়া করে। নগরী দখল করা গেলেও, তাকে কার্যকরভাবে শাসন করার জটিলতা তাকে গ্রাস করে, যা সেন যুগের রাজনৈতিক প্রেক্ষাপটে এক বিশাল চ্যালেঞ্জ হয়ে দাঁড়ায়। এই পরিস্থিতিতে, কেবল সামরিক বিজয় কি প্রকৃত রাজকীয় কর্তৃত্ব প্রতিষ্ঠা করতে পারে, নাকি শাসনের সূক্ষ্মতা ও কূটনীতির মাধ্যমেই সত্যিকারের গৌরব অর্জিত হয়—এই প্রশ্নটি পাঠকের সামনে উন্মুক্ত হয়ে থাকে।",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "Examining the strategic failure: How military momentum dissipates instantly when faced with entrenched administrative structures and local loyalties within the conquered city.",
+    "status": "enriched"
+  }
+}

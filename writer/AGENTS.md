@@ -30,19 +30,31 @@ Supported command families are defined by the two start-point specs. The backlog
 ```text
 /book <bookname> [<gist>] [form] [refresh]
 /book <bookname> init|backlog|layout [<gist>] [<count>] [form] [refresh]
+/book <bookname> init idea
 /book <bookname> scaffold <gist> count|chapter-count <number> [--form novel|poetry]
 /book <bookname> add <chapter-count> filter <filter>
-/book <bookname> filter <filter>
+/book <bookname> add <chapter-title> <chapter-summary-seed>
+/book <bookname> filter <filter> *|all|<n>
+/book <bookname> <agentname> <chapter>|<n>|all|continue
 /book <bookname> enrich <count>|range|*
+/book <bookname> review *|all|<n>
+/book <bookname> humanize *|all|<n>
+/book <bookname> eval all|*|<n>|<range>|continue
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
+/book <bookname> chapter <n>|all|continue [<style>]      # alias of write (routed through the write agent)
+/book <bookname> story <n>|all|continue [<style>]         # alias of write (routed through the write agent)
 /book <bookname> style [<style>]
 /book <bookname> translate <n>|all|continue <language>
 /book <bookname> publish [<language>]
 /book <bookname> form <novel|poetry>
 /book <bookname> config [<key> [<value>]]
+/book <bookname> poet|poetry|poem
+/book <bookname> poyar|payar <n>|<chapter> [replace]      # dedicated couplet form
+/book <bookname> workshop chapter <n|range|*> update <verb>   # backlog-only; verb: summary|character|reference|update|expand
 
-/book -o | --options
+/book -o | --options | list
 /book -h | --help
+/book eval-judge [--completeness] [--effectiveness] [--book <bookname>] [--all]
 ```
 
 Do not invent alternate slash commands. Do not treat subcommand keywords as book names, chapter names, filters, or prose.
@@ -59,12 +71,12 @@ Map it to repository paths as follows:
 
 ```text
 <bookname>                       -> logical book name, e.g. wife
-.space/backlog/epic/<bookname>/  -> backlog epic folder
-.space/pipeline/<bookname>/ -> pipeline folder
-source/books/<bookname>/<version>/ -> final versioned book output folder
+workspaces/backlog/<bookname>/       -> backlog folder
+workspaces/pipeline/<bookname>/ -> pipeline folder
+workspaces/published/<bookname>/<version>/ -> final versioned book output folder
 ```
 
-If the user supplies `book_wife` or a legacy `book_<bookname>` path, treat the canonical `<bookname>` as `wife` (strip the `book_` prefix) unless an existing path proves otherwise. Prefer existing repository paths over inference. The pipeline folder is named directly after the book: `.space/pipeline/<bookname>/`.
+If the user supplies `book_wife` or a legacy `book_<bookname>` path, treat the canonical `<bookname>` as `wife` (strip the `book_` prefix) unless an existing path proves otherwise. Prefer existing repository paths over inference. The pipeline folder is named directly after the book: `workspaces/pipeline/<bookname>/`.
 
 ### Unit, Chapter, And Segment
 
@@ -91,8 +103,8 @@ Conclusion/1
 Map chapter and segment paths to:
 
 ```text
-.space/pipeline/<bookname>/chapters/<chapter>/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/
+workspaces/pipeline/<bookname>/chapters/<chapter>/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/
 ```
 
 For poetry, every chapter has exactly one segment:
@@ -108,8 +120,8 @@ Do not create chapter folders outside `chapters/`. Do not create segment folders
 A signature/persona argument selects an authorial voice. Resolve it from the form-specific stereotype folders:
 
 ```text
-.framework/templates/stereotypes/novel/signatures/<signature>/signature.md
-.framework/templates/stereotypes/poetry/signatures/<signature>/signature.md
+.framework/context/novel/signatures/<signature>/signature.md
+.framework/context/poetry/signatures/<signature>/signature.md
 ```
 
 Known novel signatures include:
@@ -143,41 +155,51 @@ translator
 Segment-stage paths are:
 
 ```text
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/writer/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/writer/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
 ```
 
-Filter-stage roles are implemented by agents under:
+Filter-stage roles are implemented as skills under:
 
 ```text
-.framework/agents/<filter>/agent.md
+.framework/filters/<filter>/SKILL.md
 ```
 
-Known filter agents:
+They are reached through the filter agent (`.framework/agents/filter/agent.md`).
+
+Known pipeline filter skills:
 
 ```text
-correctness, enrich, override, quality, research, seeds, syntax,
-theme, workshop
+correctness, override, quality, research, seeds, syntax, theme
 ```
+
+`workshop` (`.framework/filters/workshop/SKILL.md`) is a backlog-only filter — it
+enriches the backlog book plan via `/book <bookname> workshop chapter <n|range|*> update
+<verb>` and never runs inside the pipeline.
 
 Known lifecycle agents:
 
 ```text
-init, scaffold, write, chapter, style, translate, publish, gist, reframe
+init, scaffold, write, enrich, filter, style, translate, publish, review,
+humanize, eval, workshop, add
 ```
 
-Known post-scaffold agents:
+Known scaffold helper agents:
 
 ```text
-postlayout
+layout
 ```
 
-Known pre-scaffold agents:
+Known form-specific agents (fixed poetic forms; each owns its own skill):
 
 ```text
-prelayout
+sonnet (via line/rhyme), lyrics, limerick, haiku, poyar
 ```
+
+`poyar` is a **dedicated form**, not a style layered onto the generic poetry
+skill: `.framework/agents/poyar/agent.md` → `.framework/skills/poyar/SKILL.md`.
+Never compose poyar through `.framework/skills/poetry/SKILL.md`.
 
 ## Agent-First Skill Invocation
 
@@ -223,31 +245,42 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/workflows/pipeline.md  # scaffold onward — filters, write, style, translate, publish
 ```
 
-`backlog.md` owns Phase 0 (Backlog) and Phase 1 (Init): the bare bookname command and the init/backlog/layout command, operating only inside `.space/backlog/epic/<bookname>/`. `pipeline.md` owns Phase 2 onward: scaffold, the filter chain, write, style, translate, enrich, form, config, add, and publish, operating only inside `.space/pipeline/<bookname>/` and `source/books/`.
+`backlog.md` owns Phase 0 (Backlog) and Phase 1 (Init): the bare bookname command and the init/backlog/layout command, operating only inside `workspaces/backlog/<bookname>/`. `pipeline.md` owns Phase 2 onward: scaffold, the filter chain, write, style, translate, enrich, form, config, add, and publish, operating only inside `workspaces/pipeline/<bookname>/` and `workspaces/published/`.
 
 ### Agents
 
 ```text
 .framework/agents/init/agent.md
-.framework/agents/gist/agent.md
 .framework/agents/scaffold/agent.md
-.framework/agents/prelayout/agent.md
-.framework/agents/postlayout/agent.md
-.framework/agents/workshop/agent.md
-.framework/agents/research/agent.md
-.framework/agents/correctness/agent.md
-.framework/agents/theme/agent.md
-.framework/agents/syntax/agent.md
-.framework/agents/override/agent.md
-.framework/agents/quality/agent.md
+.framework/agents/layout/agent.md
+.framework/agents/humanize/agent.md
+.framework/agents/eval/agent.md
+.framework/agents/review/agent.md
+.framework/agents/write/agent.md
 .framework/agents/enrich/agent.md
-.framework/agents/poetry/agent.md
-.framework/agents/story/agent.md
+.framework/agents/filter/agent.md
 .framework/agents/style/agent.md
 .framework/agents/translate/agent.md
 .framework/agents/publish/agent.md
-.framework/agents/reframe/agent.md
-.framework/agents/seeds/agent.md
+.framework/agents/add/agent.md
+
+# Form-specific agents (fixed poetic forms)
+.framework/agents/poyar/agent.md
+.framework/agents/limerick/agent.md
+.framework/agents/haiku/agent.md
+.framework/agents/lyrics/agent.md
+.framework/agents/line/agent.md
+.framework/agents/rhyme/agent.md
+
+# Filter agents (moved to .framework/filters/)
+.framework/filters/workshop/SKILL.md
+.framework/filters/research/SKILL.md
+.framework/filters/correctness/SKILL.md
+.framework/filters/theme/SKILL.md
+.framework/filters/syntax/SKILL.md
+.framework/filters/override/SKILL.md
+.framework/filters/quality/SKILL.md
+.framework/filters/seeds/SKILL.md
 ```
 
 Agents are the only valid runtime entry points for skill-backed behavior.
@@ -255,28 +288,25 @@ Agents are the only valid runtime entry points for skill-backed behavior.
 ### Skills
 
 ```text
-.framework/skills/contemporary/SKILL.md
-.framework/skills/correctness/SKILL.md
-.framework/skills/dialogue/SKILL.md
-.framework/skills/geography/SKILL.md
-.framework/skills/history/SKILL.md
-.framework/skills/indian/SKILL.md
-.framework/skills/layout/SKILL.md
 .framework/skills/layout-novel/SKILL.md
 .framework/skills/layout-poetry/SKILL.md
-.framework/skills/mythology/SKILL.md
-.framework/skills/narrative/SKILL.md
-.framework/skills/pacing/SKILL.md
-.framework/skills/philosophy/SKILL.md
-.framework/skills/poeticprose/SKILL.md
+.framework/skills/poetry/SKILL.md
+.framework/skills/novel/SKILL.md
 .framework/skills/workshop-poetry/SKILL.md
 .framework/skills/workshop-novel/SKILL.md
-.framework/skills/quality/SKILL.md
-.framework/skills/research/SKILL.md
-.framework/skills/revision/SKILL.md
-.framework/skills/syntax/SKILL.md
-.framework/skills/theme/SKILL.md
-.framework/skills/translation/SKILL.md
+.framework/skills/quality-poetry/SKILL.md
+.framework/skills/quality-novel/SKILL.md
+.framework/skills/theme-poetry/SKILL.md
+.framework/skills/theme-novel/SKILL.md
+.framework/skills/enrich-poetry/SKILL.md
+.framework/skills/enrich-novel/SKILL.md
+
+# Form-specific skills (fixed poetic forms)
+.framework/skills/poyar/SKILL.md
+.framework/skills/sonnet/SKILL.md
+.framework/skills/limerick/SKILL.md
+.framework/skills/haiku/SKILL.md
+.framework/skills/lyrics/SKILL.md
 ```
 
 Read skill files only from inside the responsible agent flow.
@@ -286,9 +316,9 @@ Read skill files only from inside the responsible agent flow.
 ```text
 .framework/rules/
 .framework/templates/moods/
-.framework/templates/stereotypes/novel/
-.framework/templates/stereotypes/poetry/
-.framework/templates/subjects/
+.framework/context/novel/
+.framework/context/poetry/
+.framework/context/subjects/
 ```
 
 Use templates as source material; do not copy whole template trees into pipelines unless a scaffold agent explicitly requires it.
@@ -300,56 +330,62 @@ Use templates as source material; do not copy whole template trees into pipeline
 Novel backlog epics live at:
 
 ```text
-.space/backlog/epic/<bookname>/epic.md
+workspaces/backlog/<bookname>/storyline.md
 ```
 
-For novels, `epic.md` is the story source of truth. Do not invent story content beyond it.
+For novels, `storyline.md` is the story source of truth. Do not invent story content beyond it.
+Before scaffold, the backlog `layout`/`refresh` path stages the vocabulary seed at
+`workspaces/backlog/<bookname>/bookseed.md`. Scaffold then copies both
+`bookseed.md` and the selected style's `signature.md` (read from
+`.framework/context/<form>/styles/<style>/`) into the pipeline root. Scaffold never
+stages anything in the backlog.
 
 ### Pipeline Working State
 
 Book pipelines live at:
 
 ```text
-.space/pipeline/<bookname>/
+workspaces/pipeline/<bookname>/
 ```
 
 Common pipeline files:
 
 ```text
-.space/pipeline/<bookname>/book.json          # the book plan (cloned from the backlog)
-.space/pipeline/<bookname>/characters.json
-.space/pipeline/<bookname>/bookseed.txt
-.space/pipeline/<bookname>/progress.json
-.space/pipeline/<bookname>/filters/
-.space/pipeline/<bookname>/chapters/
+workspaces/pipeline/<bookname>/book.json          # the book plan (cloned from the backlog)
+workspaces/pipeline/<bookname>/signature.md       # the selected style's copied signature (when available)
+workspaces/pipeline/<bookname>/bookseed.md       # the book's copied vocabulary seed; enrich appends a derived lexicon block
+workspaces/pipeline/<bookname>/characters.json
+workspaces/pipeline/<bookname>/progress.json
+workspaces/pipeline/<bookname>/filters/
+workspaces/pipeline/<bookname>/chapters/
 ```
 
-Novel pipelines use `epic.md`, `book.json`, `characters.json`, chapter folders, moods, segments, and filters.
+Novel pipelines use `storyline.md`, `book.json`, `characters.json`, chapter folders, moods, segments, and filters.
 
-Poetry pipelines use `book.json` and `bookseed.txt` as source of truth, one segment per topic, and no `mood.json` unless explicitly configured as a hybrid.
+Poetry pipelines use `book.json` (its `chapters[]` array) as source of truth, one segment per topic, and no `mood.json` unless explicitly configured as a hybrid.
 
 ### Segment Drafts
 
-Intermediate segment work stays inside `.space/pipeline/`:
+Intermediate segment work stays inside `workspaces/pipeline/`:
 
 ```text
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/writer/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
-.space/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/writer/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
+workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
 ```
 
-Do not write unfinished drafts directly to `source/books/`.
+Do not write unfinished drafts directly to `workspaces/published/`.
 
 ### Chapter Draft Ownership
 
-`chapters/<n>/chapter.md` is output-only. It is authored exclusively by the write/chapter/poet path (the `/book write` and `/book poet` commands); filters never read it as input. Filters (workshop, research, correctness, theme, syntax, override, quality) and the enrich fusion agent operate only on the chapter's `model.json` and their own `filters/<filter>/` outputs, recording guidance and state into `model.json`. Before a filter modifies a chapter's model, snapshot the prior `model.json` into `chapters/<chapter>/history/` with a timestamped filename. The default transformer style for the write command is `pijush` unless a `<style>` argument is supplied.
+`chapters/<n>/chapter.md` is the live draft. The write/chapter/poet path may create or revise it under the version-before-overwrite contract. All filters and the enrich fusion agent must not read or write `chapter.md`; they operate on the chapter's `model.json` and their own `filters/<filter>/` outputs. Before a filter modifies a chapter's model, snapshot the prior `model.json` into `chapters/<chapter>/history/` with a timestamped filename. The default transformer style for the write command is `pijush` unless a `<style>` argument is supplied (for poetry; the novel default is `dialogue`).
 
 ### Filter Outputs
 
 Filters write only inside the pipeline filter folders resolved by:
 
 ```text
-.space/pipeline/<bookname>/filters/filters.json
+workspaces/pipeline/<bookname>/filters/filters.json
 ```
 
 If a registry exists, use it to resolve each filter's `agent` path and `autorun` flag. Each registry entry carries only:
@@ -358,7 +394,6 @@ If a registry exists, use it to resolve each filter's `agent` path and `autorun`
 order
 name
 agent
-summary_file
 autorun
 ```
 
@@ -369,42 +404,72 @@ If no registry exists, follow `.framework/workflows/pipeline.md` and the current
 Verified, finalized text is promoted to:
 
 ```text
-source/books/<bookname>/<version>/chapters/
-source/books/<bookname>/<version>/book.md
+workspaces/published/<bookname>/<version>/chapters/
+workspaces/published/<bookname>/<version>/book.md
 ```
 
 Only promote text after the required validation filters have passed.
 
+## Audit Metadata
+
+Every Markdown (`.md`) and JSON (`.json`) file an agent creates or edits under `workspaces/` must carry two audit fields, per `.framework/rules/audit-metadata.md`:
+
+```text
+updated_by    # the acting agent name, e.g. init, scaffold, filter:research, write, publish
+updated_date  # ISO 8601 UTC timestamp, YYYY-MM-DDTHH:MM:SSZ
+```
+
+- **Markdown:** a two-bullet block directly after the H1 (or at the top when no H1; inside an existing metadata list when one is already there):
+  `- **updated_by:** <agent>` and `- **updated_date:** <timestamp>`.
+- **JSON:** root-level `updated_by` and `updated_date` keys; keep any legacy `updated_at` in sync.
+- **Exempt:** `workspaces/pipeline/<bookname>/chapters/**` and every `_history/`, `history/`, or `version/` archive snapshot. Never stamp immutable copies.
+- **Preserve:** merge the fields; never drop existing fields or backdate `created_at`/`Created`.
+- **Clone rule:** when a file is copied to a new location, copy the bytes first, then stamp the copy; equality checks ignore the audit fields.
+
+## Meter Tolerance
+
+Every metre-based form (`poyar`, `sonnet`, `haiku`, `limerick`, `srijato`, `lyrics`) accepts **±10 %** drift around its line target — a 14-akshar target accepts **12–16**. The rule lives in `.framework/rules/meter-tolerance.md`.
+
+- A line inside its band **passes**; never rewrite it merely to hit the exact number. Only an out-of-band line is repaired.
+- The band relaxes **line count only**. Caesura placement (akshar 8 for poyar/sonnet), rhyme strength, distinct ends, stanza shape, and the form's ruler all still bind.
+- **Python never writes verse.** The loop is *write → review → repair*: the agent authors every line and every repair, while `python tools/mcpbangla/verse.py review <file> --form <form>` measures and reports **per line, per word**. Repeat until `review` prints `=== PASS ===` and `audit` prints `=== PASS ===`.
+
 ## Validation And Promotion Rules
 
-Before writing to `source/books/`, apply the pipeline filters in the order specified by `.framework/workflows/pipeline.md`.
+Before writing to `workspaces/published/`, apply the pipeline filters in the order specified by `.framework/workflows/pipeline.md`.
 
 For novels, the full validation chain is:
 
 ```text
-workshop -> research -> seeds -> correctness -> theme -> syntax -> override -> quality
+research -> seeds -> correctness -> theme -> syntax -> override -> quality
 ```
 
 For poetry, the full validation chain is:
 
 ```text
-workshop -> research -> correctness -> theme -> syntax -> override -> quality
+research -> correctness -> theme -> syntax -> override -> quality
 ```
 
 `quality` is the final gate. Do not mark a chapter complete or promote it to final output until quality has passed or the workflow explicitly records an accepted human override.
 
+`workshop` is **not** part of the pipeline validation chain. It is a backlog-only
+filter that enriches `workspaces/backlog/<bookname>/book.json` before scaffold; it
+never reads or writes the pipeline.
+
 ## Safety And Structure Constraints
 
 - Never alter the repository directory structure unless the active workflow explicitly requires it.
-- Never create root-level chapter folders under `.space/pipeline/<bookname>/`.
+- Never create root-level chapter folders under `workspaces/pipeline/<bookname>/`.
 - Never create segment folders outside `chapters/<chapter>/segments/<segment>/`.
 - Never move, rename, delete, or overwrite user-authored content without first reading it and confirming the workflow requires the change.
 - Never re-scaffold an existing pipeline from scratch unless the user explicitly asks.
 - Preserve existing pipeline state and resume from it.
 - Maintain the configured authorial tone, signature, language, register, syntax sample, reference, and theme set.
 - Prefer existing framework agents, skills, templates, and rules over new abstractions.
-- Keep runtime outputs in `.space/pipeline/` until validation permits promotion.
-- Keep finished, reader-facing text in versioned folders under `source/books/<bookname>/<version>/` only.
+- **Pipeline is the operative home.** Agents and skills (including layout, write, and enrich) operate directly within `workspaces/pipeline/<bookname>/` once the pipeline is scaffolded. They use the pipeline's `book.json` and chapter models as the active state.
+- Keep finished, reader-facing text in versioned folders under `workspaces/published/<bookname>/<version>/` only.
+- **MCP configuration has exactly one home: `.vscode/mcp.json`.** Never create or edit MCP server definitions in `.mcp.json`, `.github/mcp.json`, `~/.copilot/mcp-config.json`, or the `chat.mcp.servers` user setting. Edit `.vscode/mcp.json`, then run `python tools/mcp_sync.py sync` to regenerate the client-specific files; `python tools/mcp_sync.py check` fails on drift. Never put a credential in any MCP config file — use `${input:...}` prompts or `.env`.
+- **Environment has exactly one home: `.env` at the workspace root.** Every Python entry point must load it via `tools/env.py` (`from env import bootstrap; bootstrap()`), never with its own `load_dotenv` call and never from a `tools/.env` path. Never export secrets inline on a command line or hardcode them in a script. `tools/env.py` also forces UTF-8 on stdout/stderr, so Bengali prints correctly on Windows.
 
 ## Operating Procedure
 
@@ -413,14 +478,28 @@ For every `/book` request:
 1. Read this `AGENTS.md` file.
 2. Read the matching start-point spec — `.framework/workflows/backlog.md` for backlog creation (bare bookname, init/backlog/layout), `.framework/workflows/pipeline.md` for scaffold onward.
 3. Parse the target book, unit/chapter/segment, signature/persona, and stage/role from the user arguments.
-4. Inspect the relevant `.space/backlog/`, `.space/pipeline/`, and `source/books/` paths before writing.
+4. Inspect the relevant `workspaces/backlog/`, `workspaces/pipeline/`, and `workspaces/published/` paths before writing.
 5. Select the responsible agent from `.framework/agents/`.
 6. Let that agent invoke any required skill.
-7. Write intermediate outputs only to the pipeline; filters never read or write `chapters/<n>/chapter.md`.
-8. Run the required filters and validations.
-9. Promote final text to `source/books/` only after validation passes.
-10. Report what changed, what was validated, and what remains pending.
+7. Write intermediate outputs only to the pipeline; never write `chapter.md` from a filter or the enrich agent. Workshop is backlog-only and never touches the pipeline.
+8. Stamp every written `.md`/`.json` file with `updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`, except the chapter tree and history/archive snapshots.
+9. Run the required filters and validations.
+10. Promote final text to `workspaces/published/` only after validation passes.
+11. Report what changed, what was validated, and what remains pending.
 
+### After structural changes to the framework
+
+After any change that moves, renames, retires, or adds framework files (workflows,
+agents, skills, rules, templates, or filters), run the read-only judge to confirm
+the framework is still complete and effective:
+
+```text
+/book eval-judge --all
+```
+
+The judge delegates structural audit to `.framework/rules/self-eval.md` and applies
+the routing/boundary/lifecycle checks in `.framework/workflows/eval-judge.md`. It
+never mutates files.
 
 
 

@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 4,
+  "total_segments": 6,
+  "chapter_index": 10,
+  "name": "10",
+  "chapter_title": "কলিঙ্গ ও কামরূপের স্মৃতি",
+  "chapter_summary": "প্রবীণ যোদ্ধাদের মুখে কলিঙ্গ, কামরূপ এবং ত্রিপুরার পূর্ব অভিযানের স্মৃতিচারণ চলতে থাকে, যেখানে অতীতের রক্তক্ষয়ী যুদ্ধগুলির গৌরবোজ্জ্বল বিজয় এবং অনিবার্য ক্ষতির চিত্র জীবন্ত হয়ে ওঠে। যুবরাজ লক্ষ্মণ সেন এই স্মৃতিচারণের মধ্য দিয়ে উপলব্ধি করেন যে প্রতিটি সামরিক বিজয় কেবল নতুন ভৌগোলিক সীমান্তই তৈরি করে না, বরং সেই নতুন সীমানার সঙ্গে নতুন রাজনৈতিক দায়বদ্ধতা এবং অনিবার্য শত্রুর জন্মও ঘটায়। এই অধ্যায়ে বিজয়ের ক্ষণস্থায়ী ঔজ্জ্বল্য এবং তার দীর্ঘস্থায়ী রাজনৈতিক ও মানবিক পরিণতির মধ্যেকার গভীর দ্বন্দ্ব ফুটে ওঠে, যা পাঠককে প্রশ্ন করে—এই সাম্রাজ্যিক সম্প্রসারণের চূড়ান্ত মূল্য কী হবে?",
+  "word_target": 917,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "The tactical memory: Framing the recounting of battles not through glorious outcomes, but through specific moments of strategic failure or desperate improvisation learned from past conflicts.",
+    "status": "enriched"
+  }
+}

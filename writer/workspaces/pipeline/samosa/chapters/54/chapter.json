@@ -1,0 +1,53 @@
+{
+  "chapter_index": 54,
+  "name": "54",
+  "word_target": 250,
+  "chapter_title": "রেসিপি লেখার ব্যর্থ চেষ্টা",
+  "chapter_summary": "রেসিপি লেখার চেষ্টায় ধাপ ঠিক থাকে, পরিমাণ ঠিক থাকে, তবু স্বাদ আসে না। যা লেখা যায় না, তাকেই খুঁজতে থাকে হাত।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the failure of *documentation*—the antithesis of culinary preservation, suggesting flavor is inherently non-transferable to text.",
+      "Adopting the perspective of the *tool* (e.g., a worn notebook or pen) that attempts transcription, making it the unreliable narrator of the sensory data.",
+      "A sudden shift where the attempt to write becomes an act of aggressive sabotage against the memory itself—the precision is too sharp, too cutting."
+    ],
+    "story_options": [
+      "Setting: A small, cold table illuminated only by a weak bedside lamp in the pre-dawn hours; Desire: The narrator tries to map the 'feeling' onto measured weight and volume, obstacle: Every written measurement feels like a lie.",
+      "Setting: Beside an old, empty flour packet on a foreign counter; Desire: The speaker attempts to find a single word—a true adjective for *that* specific flavor—obstacle: All available vocabulary defaults back to the neutral 'samosa'.",
+      "Setting: While standing at the window watching the city wake up in muted light; Desire: To reverse-engineer the entire experience—trace the process backward from the empty plate, obstacle: The original starting point (the mother's hand) is now completely obscured by distance."
+    ],
+    "subject_rotations": [
+      "Shifting emphasis from 'what is lost' to 'how the attempt to recreate implies loss'; the recipe itself becomes a monument to absence.",
+      "Treating the written instructions not as guidance, but as ritualistic mimicry—performing the motions without the soul required for authenticity.",
+      "Focusing on the *physicality* of writing recipes—the scraping sound of the pen against paper mirroring the sharp edges of memory."
+    ],
+    "sensory_details": [
+      "The dry, papery whisper of a pencil scratching notes onto thin foreign ledger paper before dawn.",
+      "A profound chill in the air contrasting sharply with the phantom heat described on the page of the recipe's instructions.",
+      "The faint, clinging scent of stale ink mingling unpleasantly with the ghost aroma of fried oil."
+    ],
+    "research_questions": [
+      "What specific Bengali verb or idiomatic phrase exists that perfectly captures 'the flavor is present but utterly unreachable by words'?"
+    ],
+    "structural_variants": [
+      "Structuring the poem as a deliberate, failed bureaucratic document—using subheadings and bullet points before collapsing them into abstract verse.",
+      "Alternating between hyper-literal measurement descriptions (e.g., 'three grams of spice') and vast, unquantifiable emotional descriptors ('infinite regret').",
+      "Employing an epistolary fragment style, where the act of writing is interrupted by a sudden, sensory memory flash that destroys the current line of thought."
+    ],
+    "unused_angles": [
+      "The impossibility of measuring *intent* or *care* when translating culinary process into rigid notation.",
+      "How language forces a betrayal upon sensation—the necessity of reduction leads to mutilation."
+    ],
+    "variety_note": "Unlike previous chapters which focused on the sensory contrast (taste/smell), this chapter must focus exclusively on the intellectual failure inherent in transcribing feeling into measurable text, maintaining the low, watchful tone."
+  },
+  "draft": {
+    "sha256": "06ed10300a85b7fab75a06a46d0eb979e9896968ec6a94f8e47676b1b2b162ee",
+    "written_at": "2026-11-01T08:29:05.235290+00:00",
+    "origin": "write"
+  }
+}

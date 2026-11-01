@@ -1,0 +1,59 @@
+{
+  "chapter_index": 34,
+  "name": "34",
+  "word_target": 250,
+  "chapter_title": "ভিন্ন লবণ",
+  "chapter_summary": "ভিন্ন লবণ, ভিন্ন মাপ, ভিন্ন আঙুলে ছিটানো। একই রেসিপি হলে কী হবে, হাত বদলে গেলে সব বদলে যায়।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "লবণ ও ভাষাতাত্ত্বিক বিচ্ছিন্নতা (Salt and Linguistic Divergence)",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing 'ভিন্ন লবণ' not as a mere chemical difference, but as the sudden realization of fractured cultural inheritance—the missing salt of ancestry.",
+      "Framing the act of tasting with unfamiliar salt granules as an involuntary political recognition; each crystal represents a border crossed or denied.",
+      "Employing the night-voice to suggest that flavor memory survives best when suppressed and observed in near-darkness, like secrets held too long."
+    ],
+    "story_options": [
+      "setting: একটি ভেজা রাতে বারান্দা, desire: লবণাক্ত বাতাসের মধ্যেও সেই চেনা 'নুন'-এর গাঢ় টান খুঁজে বের করা, obstacle: নতুন জায়গার বাতাসে মিশ্রিত অন্যরকম আর্দ্রতা ও ধুলো (ধুল), turn: জিভ না থেমে নীরব, কেবল থালাটিকে হাতে ধরে এক নিস্তব্ধ আত্মসমর্পণ।",
+      "setting: অচেনা বাজারের কোণ, desire: লবণের দানার গঠন পর্যবেক্ষণ করা—যা যেন ভিন্ন ভূখণ্ডের ইতিহাস বহন করছে, obstacle: কৌতূহলী দৃষ্টির বিপরীতে নেমে আসা ক্লান্তি ও একঘেয়েমি (বিদ্রূপের উৎস), turn: অসম্পূর্ণ কামড়টি ফেলে দেওয়া; কারণ এই লবণ তাকে শুধু 'সামোসা' করে না, অন্য কিছুতে পরিণত করে।",
+      "setting: ভাড়াঘরের বাসনকোানি, desire: পুরোনো রান্নার সরঞ্জামের গায়ে লেগে থাকা নুনের ফোঁটা স্পর্শ করা, obstacle: নতুন উপকরণের প্রতি অনিবার্য আকর্ষণ, যা পুরনো স্বাদকে মুছে দেয়, turn: একটি সূক্ষ্ম ব্যঙ্গের মাধ্যমে এই নতুন 'সুরক্ষিত' স্বাদের উদযাপন।"
+    ],
+    "subject_rotations": [
+      "Focusing solely on the molecular structure of salt as a microcosm for linguistic divergence—how two chemically similar things create entirely different meanings (like সিঙ্গাড়া ও সামোসা)।",
+      "Treating 'লবণ' as an ancient, universal constant that fails to bridge geographical divides; it highlights disparity rather than unifying.",
+      "Exploring the performative nature of seasoning: are we adding salt, or are we attempting to enforce a remembered cultural syntax upon the food?"
+    ],
+    "sensory_details": [
+      "নুনের দানার উপর চাঁদের আলো পড়লে তার অপ্রত্যাশিতভাবে নিষ্প্রভ হয়ে যাওয়া (আলো/দৃষ্টি)",
+      "লবণ গলতে গিয়ে জিভের ভেতরের উষ্ণতা হঠাৎ তীক্ষ্ণ শীতলতায় পরিণত হওয়া (তাপ/জিভ)",
+      "আঙুলের ভাঁজে জমা হওয়া নতুন লবণের অমসৃণ, কর্কশ দানার অনুভূতি (স্পর্শ)"
+    ],
+    "research_questions": [
+      "লবণ এবং জলের মিথস্ক্রিয়ায় 'স্বাদ' কিভাবে রাসায়নিকভাবে পরিবর্তিত হয় যা আঞ্চলিক উপভাষা দ্বারা বর্ণিত আবেগের সঙ্গে তুলনীয়?"
+    ],
+    "structural_variants": [
+      "A fragmented structure where each line attempts to establish a specific salt-type vocabulary before the meter deliberately collapses, mimicking flavor breakdown.",
+      "Beginning and ending with an extreme juxtaposition: one stanza on perfect taste memory; the next on catastrophic present failure."
+    ],
+    "unused_angles": [
+      "The idea that some memories are so intensely flavored they actually leave a phantom residue *on* the salt itself, even after consumption.",
+      "A direct address to 'লবণ' as an indifferent deity presiding over culinary fate.",
+      "Using the act of measuring salt (if applicable) as a meditation on colonial precision vs. domestic intuition."
+    ],
+    "variety_note": "Where previous chapters dissected texture or shape, this chapter zeroes in purely on flavor divergence—the invisible ingredient that reveals the deepest cultural fracture."
+  },
+  "draft": {
+    "sha256": "a1625ddff52ffd779525d9cf06e005da5c0af71de8cf2051b2ea70ac26907331",
+    "written_at": "2026-11-01T08:24:48.618728+00:00",
+    "origin": "write"
+  }
+}

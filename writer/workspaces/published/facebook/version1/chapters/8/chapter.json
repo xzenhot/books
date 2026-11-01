@@ -1,0 +1,69 @@
+{
+  "chapter_index": 8,
+  "name": "8",
+  "word_target": 200,
+  "chapter_title": "হ্যাশট্যাগ",
+  "chapter_summary": "একটি # চিহ্নের পর তিনটি শব্দ, আর সেই তিনটি শব্দেই একটি মানুষ নিজেকে শ্রেণিবদ্ধ করে ফেলে — যেমন একজন কৃষক নিজের জমি একবার সীমানা-পাথর দিয়ে বাঁধলে আর বদলাতে পারে না, যদিও জমিটি তারই ছিল। সহকারী শেখে কোন শব্দ কোন সভায় শোনায়, কোন শব্দ কার কাছে পৌঁছোয়, আর কোন শব্দ পৌঁছোয় না — এবং এই জানাটাই তাকে একটি অদ্ভুত ক্ষমতা দেয়, প্রকাশের ক্ষমতা নয়, নির্বাচনের ক্ষমতা। এখানেই মুক্ত প্রকাশের প্রথম মিথ্যা ধরা পড়ে: যে বাক্য সবাইকে বলা হয়, সেটি কাউকেই বলা হয় না, কারণ সবাই মানে কেউ নয়। মালিক প্রথমে ভাবেন এটি কেবল যোগাযোগের প্রযুক্তি, পরে ভাবেন এটি একটি পোশাক — এবং পোশাক পরেই মানুষ ভাবে, পোশাক খুললে যা ভাবত না। যদি একটি শব্দই আমার পরিচয় ঠিক করে দেয়, তবে সেই পরিচয়টি আমার, নাকি শব্দটির, নাকি সেই সমাজের যে শব্দটিকে অর্থ দিয়েছে? আর যদি আমি নিজের পরিচয় বেছে না নিয়ে কেবল একটি শব্দ বেছে নিই, তবে বাকি মানুষটি কোথায় থাকে? কবিতাটি একটি হ্যাশট্যাগের ভিতর দিয়ে শুরু হয়, তার ভিতরের শ্রেণিবিন্যাস খুলে দেখে, এবং সেই একই চিহ্নেই থামে — এবার একটি প্রশ্নবোধক হয়ে, যা কোনোদিন বন্ধ হবে না।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing the hashtag not as a label of identity, but as a linguistic cage woven by collective agreement; exploring how the shared signifier becomes a mechanism for silencing private complexity.",
+      "Treating the act of tagging as an involuntary confession—the moment before public airing when the speaker knows they are choosing visibility over nuance.",
+      "A viewpoint where the 'tag' is an ancestral memory, inherited from older societal forms of categorization (e.g., castes, guilds), mapped onto digital space."
+    ],
+    "story_options": [
+      "Setting: A massive digital bulletin board scrolling endlessly with overlapping hashtags; Desire: The assistant searches for a tag that encapsulates pure, unmarketable internal feeling, obstacle: The algorithms reject all attempts at 'meaningless' tags.",
+      "Setting: An ancient scriptorium where scribes categorize scrolls using highly formalized seals (a cultural parallel to #); Desire: The owner tries to find the semantic weight of an old seal against the lightness of a modern tag, obstacle: The digital world refuses historical gravity.",
+      "Setting: A single, overcrowded public space—like a market square or college campus; Desire: To witness two people who use the same public label (#) yet express radically opposing internal narratives in their subsequent actions, obstacle: Their adjacent paths never visually cross."
+    ],
+    "subject_rotations": [
+      "Shifting focus from categorization (classifying oneself) to commodification (what emotional states are successfully tagged and thus sellable).",
+      "Exploring the mechanics of 'hashtag fatigue'—the psychological exhaustion that comes from constantly performing an externally defined role.",
+      "Interrogating whether a universally understood hashtag ('#love', '#life') becomes inherently meaningless through over-saturation."
+    ],
+    "sensory_details": [
+      "The brittle, papery texture of old printed manifestos being digitally scanned and rendered into glowing, ephemeral digital tags (visual/tactile clash).",
+      "The high-pitched electronic whine that sounds like a trapped insect when the system struggles to process an ambiguous or self-contradictory tag combination (auditory).",
+      "The cool, sterile slickness of the screen surface under heavy, rapid thumb-typing during moments of indecision over categorization (tactile/thermal)."
+    ],
+    "research_questions": [
+      "What is the historical parallel in Bengali social structures where public labeling determined one's access to societal resources or belief systems?",
+      "How does the algorithmic pressure to achieve 'resonance' force the compression of complex emotional states into single, consumable descriptors?",
+      "In what specific ways does the act of selecting a tag change the speaker’s internal monologue *after* the post is live, compared to before?"
+    ],
+    "structural_variants": [
+      "Structuring the poem as a cascading list—starting wide with broad, popular tags and narrowing microscopically until only one highly personal, unsustainable tag remains.",
+      "Using an AABB rhyme scheme for the initial descriptions of tagging (mimicry/surface level), but intentionally breaking into free verse whenever the concept touches upon genuine internal doubt."
+    ],
+    "unused_angles": [
+      "The specific phenomenology of 'going viral'—the sensation of being momentarily captured by mass attention, akin to a fleeting physical phenomenon.",
+      "The relationship between digital categorization and traditional forms of religious or spiritual grouping in Bengali culture."
+    ],
+    "variety_note": "Unlike previous chapters focused on the mechanics of text (grammar/silence), this chapter anchors itself entirely on the meta-function of social signage, treating labels as potent, self-defining forces."
+  },
+  "draft": {
+    "sha256": "9748acef8e7b7acdb46556b972286cde3a5ecee22974f45cdb913c57afd70cd6",
+    "written_at": "2026-10-31T12:04:51.002380+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "9748acef8e7b7acdb46556b972286cde3a5ecee22974f45cdb913c57afd70cd6",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-31T12:37:54+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

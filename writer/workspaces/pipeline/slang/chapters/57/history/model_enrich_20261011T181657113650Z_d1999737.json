@@ -1,0 +1,45 @@
+{
+  "chapter_index": 57,
+  "name": "57",
+  "word_target": 500,
+  "chapter_title": "অতি লোভে তাঁতি নষ্ট",
+  "chapter_summary": "Chapter 57, 'অতি লোভে তাঁতি নষ্ট,' delves into the pervasive theme of destructive avarice, illustrating how the pursuit of excessive gain inevitably leads to ruin. The narrative vividly portrays this conflict through the imagery of a weaver, whose ambition to achieve an impossible level of profit ultimately unravels his entire livelihood. This episode serves as a cautionary tale, demonstrating that where greed takes root, only devastation can flourish. As the weaver's looms fall silent, the reader is left to ponder: is the human capacity for ambition inherently flawed, or is it the unchecked nature of desire that ultimately dictates one's fate?",
+  "further_references": [],
+  "characters": [
+    {
+      "id": "c1",
+      "name": "তাঁতি",
+      "role": "লোভী কারিগর"
+    },
+    {
+      "id": "c2",
+      "name": "গ্রামবাসী",
+      "role": "সাক্ষী/প্রভাবিত"
+    },
+    {
+      "id": "c3",
+      "name": "জ্ঞানী",
+      "role": "উপদেশদাতা"
+    }
+  ],
+  "qualities": {
+    "historical_accuracy": "ঐতিহাসিক প্রেক্ষাপটে লোভের পরিণতিকে প্রবাদের মাধ্যমে তুলে ধরা হয়েছে।",
+    "human_in_the_loop": "চরিত্রের মাধ্যমে লোভের ধ্বংসাত্মক পরিণতি পাঠকের সামনে উন্মোচিত হচ্ছে।",
+    "influence_of_other_works": "প্রবাদটি সাহিত্যের চিরায়ত শিক্ষামূলক কাঠামোর সঙ্গে অনুরণিত হচ্ছে।",
+    "cultural_relevance": "'অতি লোভে তাঁতি নষ্ট' এই প্রবাদটি বাঙালি সংস্কৃতির গভীরে প্রোথিত একটি নৈতিক শিক্ষা।",
+    "literary_style": "গল্পের আখ্যানটি প্রবাদের মাধ্যমে একটি গভীর দার্শনিক মাত্রা লাভ করেছে।",
+    "narrative_techniques": "লেখক লোভের পরিণাম বোঝাতে সরাসরি প্রবাদকে গল্পের মূল চালিকাশক্তি হিসেবে ব্যবহার করেছেন।",
+    "symbolism_and_motifs": "লোভ এখানে ধ্বংসের প্রতীক হিসেবে কাজ করছে, যা গল্পের মূল মোটিফ।",
+    "reader_engagement_strategies": "পাঠককে নৈতিকতার প্রশ্নে ভাবতে বাধ্য করার মাধ্যমে পাঠক সংযোগ স্থাপন করা হয়েছে।",
+    "ethical_considerations": "অতিরিক্ত আকাঙ্ক্ষার বিপদ সম্পর্কে সতর্ক করা এই অধ্যায়ের প্রধান নৈতিক বার্তা।",
+    "potential_controversies": "এই নির্দিষ্ট প্রবাদের ব্যাখ্যার ক্ষেত্রে ভিন্ন ভিন্ন সামাজিক দৃষ্টিভঙ্গি উঠে আসতে পারে।",
+    "diversity_and_inclusion": "চরিত্রের অনুপস্থিতিতে, এই অধ্যায়টি সার্বজনীন নৈতিকতার উপর জোর দেয়।",
+    "marketing_and_promotion": "এই অধ্যায়টি 'নীতিধর্মী আখ্যান' হিসেবে প্রচারের জন্য উপযুক্ত।",
+    "significance_of_rise_of_bengal": "এই নৈতিক শিক্ষা তৎকালীন সমাজের অর্থনৈতিক ও সামাজিক স্থিতিশীলতার প্রতি ইঙ্গিত বহন করে।"
+  },
+  "level": "chapter",
+  "state": "scaffolded",
+  "segments": [
+    1
+  ]
+}

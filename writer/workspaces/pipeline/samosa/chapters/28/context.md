@@ -1,0 +1,79 @@
+# Chapter model context
+
+## chapter_index
+
+28
+
+## name
+
+28
+
+## word_target
+
+250
+
+## chapter_title
+
+পাসপোর্টের নাম আর ডাকনাম
+
+## chapter_summary
+
+পাসপোর্টে লেখা নাম আর ঘরের ডাকনাম এক নয় — এই দুই নামের মধ্যে একটি জীবনের দুই অংশ।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Examining how bureaucratic nomenclature (the passport name) functions as a brutal simplification of lived complexity—a flattening of the 'rasal' identity into a mere administrative string.
+- Shifting focus to the performative nature of 'self-naming': How does the individual actively negotiate between the mandated official title and the inherited, visceral moniker? The internal dialectic of selfhood.
+- Treating the dual naming structure as a geographic allegory: One name points rigidly outward (the destination/state), while the other roots inward (the soil/memory).
+
+### story_options
+
+- setting: A sparsely furnished, borrowed room smelling faintly of disinfectant., desire: To speak one's true name aloud to a reflective surface—a window pane or mirror—to confirm its substance against the paper record., obstacle: The sheer difficulty in making the unfamiliar syllables of the foreign pronunciation fit the expected cadence, forcing an automatic return to the simplified official sound.
+- setting: A noisy public transport terminus (bus station or railway platform)., desire: To overhear a native speaker use both forms of the name in rapid succession—the administrative version being used for logistics, and the local version carrying emotional weight., obstacle: The overwhelming din of transit drowns out any chance of confirming the resonance of either name.
+- setting: A bureaucratic counter or office where identification is required (e.g., a 'border' check point analogue)., desire: To find an unguarded moment in the clerk’s gaze—a flicker of recognition, pity, or dismissal—when presenting the official document., obstacle: The clerk remains entirely focused on the ink and the standardized form, rendering personal history invisible.
+
+### subject_rotations
+
+- A purely linguistic study: How specific phonemes from Bengali are structurally distorted when transliterated into a less-familiar script (the sound trauma of conversion).
+- An internal monologue focusing on the somatic experience of naming: The physical feeling in the mouth or throat when attempting to articulate one name versus the other.
+- A comparison where the 'ডাকনাম' is treated as an ancestral chant, while the passport name is a modern, cold decree.
+
+### sensory_details
+
+- The dry, almost brittle texture of the paper ID against sweaty palm (touch/sight).
+- The metallic echo in the throat when forcing out the foreign syllables of the official designation (sound/sensation).
+- The specific scent of recycled ink and aged laminate from official documents (smell).
+
+### research_questions
+
+- What are common, informal Bengali nickname structures that carry deep cultural meaning versus formal registry names?
+
+### structural_variants
+
+- A highly fragmented structure where each stanza presents a word or phrase from one name followed by its opposite counterpart (official/folk), creating rhythmic dissonance.
+- Starting with the act of physically holding both documents side-by-side before dissolving into internal linguistic debate.
+
+### unused_angles
+
+- The role of intermediaries—the person who must constantly translate or mediate between the two names in social settings (a lost opportunity for external narrative tension).
+
+### variety_note
+
+This chapter deviates from previous sections by focusing intensely on nomenclature and identity articulation rather than purely culinary sensory experience, grounding the diaspora metaphor in paperwork.

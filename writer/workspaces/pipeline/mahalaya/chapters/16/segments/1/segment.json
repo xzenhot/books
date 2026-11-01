@@ -1,0 +1,15 @@
+{
+  "level": "segment",
+  "segment_index": 1,
+  "total_segments": 5,
+  "chapter_index": 16,
+  "name": "16",
+  "chapter_title": "পুনর্জন্মের প্রত্যাখ্যান",
+  "chapter_summary": "এই অধ্যায়ে, অর্ণব বা অন্য কোনো চরিত্র মহালয়ার বার্ষিক পুনর্জন্মের ধারণাকে সরাসরি প্রত্যাখ্যান করে। সে যুক্তি দেয় যে জীবনের অর্থ কেবল স্থিতাবস্থা, কাঠামোগত বাস্তবতা এবং দৈনন্দিন সংগ্রামের মধ্যেই নিহিত, কোনো অতিপ্রাকৃত বা ক্ষণস্থায়ী পবিত্রতায় নয়। এই প্রত্যাখ্যানটি আখ্যানের একটি গুরুত্বপূর্ণ মোড় তৈরি করে, যেখানে আধ্যাত্মিক আকাঙ্ক্ষা এবং কঠোর বাস্তবতার মধ্যে তীব্র সংঘাত সৃষ্টি হয়। প্রশ্নটি ওঠে— যখন জীবনের সমস্ত সৌন্দর্য ক্ষণস্থায়ী, তখন কি সেই ক্ষণস্থায়ীতাকে অস্বীকার করে কেবল স্থায়িত্বের আশ্রয় নেওয়াটাই মানবীয় অঙ্গীকার?",
+  "word_target": 300,
+  "state": "enriched",
+  "segment_enrichment": {
+    "angle": "The rejection of rebirth not as cynicism, but as a deeply practical commitment to the immediate, tangible struggles of surviving another day.",
+    "status": "enriched"
+  }
+}
