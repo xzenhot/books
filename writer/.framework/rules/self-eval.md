@@ -124,7 +124,7 @@ For each book in `workspaces/backlog/` that has a `workspaces/pipeline/` counter
 - `progress.json` chapter entries match the plan's chapter names/topics.
 - Every chapter with `status: published` has a matching `workspaces/published/` version
   and a non-empty `chapter.md`.
-- No pipeline references a `style.md`/`override.txt` that is missing.
+- No pipeline references a `style.md`/`override.md` that is missing.
 
 Score per book and aggregate.
 

@@ -84,7 +84,7 @@ execute this skill directly from a workflow.
 | Distinct ends | L1 end ≠ L2 end (an identical pair is a *redif* and fails) |
 | Flow | Every couplet continues the previous thought as a real sentence |
 | Register | Daily-used spoken Bengali (srijato's lexicon, not its forms) |
-| Language | Resolved from `book.json` → `language` (never from `override.txt`) |
+| Language | Resolved from `book.json` → `language` (never from `override.md`) |
 
 ### The meter rule
 
@@ -174,7 +174,7 @@ defect.
 
 Resolution order, highest first:
 
-1. **Explicit line/couplet count** in the invocation, `override.txt`, or
+1. **Explicit line/couplet count** in the invocation, `override.md`, or
    `filters/override/filter.md` (e.g. "20 lines are enough", "12 couplets").
    Always wins — a directive of "20 lines" means **20 couplets = 40 lines**.
 2. **`word_target`** from the chapter's `chapter.json`, then the matching
@@ -292,7 +292,7 @@ Read, in order:
    `language`, `form`, `chapters[]` titles and summaries.
 5. `workspaces/pipeline/<bookname>/storyline.md` — premise, thematic threads,
    voice, imagery.
-6. `workspaces/pipeline/<bookname>/override.txt` and
+6. `workspaces/pipeline/<bookname>/override.md` and
    `filters/override/filter.md` — fold any transformation mandate in.
 7. `.framework/context/subjects/registry.md` and the topic files the storyline
    suggests — for the subjects palette.
@@ -353,7 +353,7 @@ cache miss.
    A poyar that ignores `creative_enrichment` and re-writes the chapter summary in
    couplets has not been written.
 2. `book.json` — `language`, book `gist`, `book_summary`, `era`.
-3. `filters/override/filter.md` and `override.txt` — craft directives. Binding.
+3. `filters/override/filter.md` and `override.md` — craft directives. Binding.
    Apply silently; never quote them as lines.
 4. `storyline.md` — thematic grounding. Invent nothing beyond it.
 5. `workspaces/pipeline/<bookname>/style.md` — the **cached, book-grounded poyar

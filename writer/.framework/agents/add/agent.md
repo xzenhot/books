@@ -140,7 +140,7 @@ summary, the created paths, and the reconciled state.
 
 ## What Not to Do
 
-- Do not modify existing chapters, filters, `override.txt`, or published output.
+- Do not modify existing chapters, filters, `override.md`, or published output.
 - Do not create `chapter.md` for the new chapter.
 - Do not run filters or write prose.
 - Do not change the form, filter chain, or book-level settings.

@@ -106,9 +106,9 @@ They are allowed to create, read, or modify only the backlog files:
 - `book.json`
 - `gist.md`
 - `override.md`
-- `override.txt`
+- `override.md`
 
-`bookseed.txt` is a layout-staged backlog artifact; `signature.md` is copied by
+`bookseed.md` is a layout-staged backlog artifact; `signature.md` is copied by
 scaffold straight from the framework style folder. Neither is a backlog-command
 output. The scaffold exception below governs scaffold's pipeline copies.
 
@@ -151,7 +151,7 @@ The pipeline commands are:
 ### Invariants
 
 - A pipeline command must **never** create, modify, or delete `workspaces/backlog/<bookname>/storyline.md` or `workspaces/backlog/<bookname>/book.json`, except scaffold may repair the book plan's filter chain to the resolved form's canonical order as specified by `.framework/agents/scaffold/agent.md`.
-- Scaffold may repair `book.json`'s filter chain to the resolved form's canonical order as specified by `.framework/agents/scaffold/agent.md`. It never stages files in the backlog: `signature.md` is read directly from `.framework/context/<form>/styles/<style>/`, and `bookseed.txt` is staged by the backlog `layout`/`refresh` path. No pipeline command may otherwise write to the backlog.
+- Scaffold may repair `book.json`'s filter chain to the resolved form's canonical order as specified by `.framework/agents/scaffold/agent.md`. It never stages files in the backlog: `signature.md` is read directly from `.framework/context/<form>/styles/<style>/`, and `bookseed.md` is staged by the backlog `layout`/`refresh` path. No pipeline command may otherwise write to the backlog.
 - Pipeline commands may otherwise read the backlog as read-only input (for example, scaffold reads `storyline.md` and `book.json`).
 - If the required pipeline does not exist, a pipeline command must stop and tell the user to run `scaffold` first.
 

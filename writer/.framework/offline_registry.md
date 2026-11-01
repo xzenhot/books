@@ -40,7 +40,7 @@ Each is runnable standalone (the `book.py` dispatcher wraps several of these).
 
 | Tool | Purpose | Command shape |
 |------|---------|---------------|
-| `tools/scaffold.py` | Create/resume/extend a **poetry** pipeline (append-only, no overwrite); reconciles a novel-preset `filter_chain` and stages/copies the style signature and `bookseed.txt` | `python tools/scaffold.py <bookname>` |
+| `tools/scaffold.py` | Create/resume/extend a **poetry** pipeline (append-only, no overwrite); reconciles a novel-preset `filter_chain` and stages/copies the style signature and `bookseed.md` | `python tools/scaffold.py <bookname>` |
 | `tools/enrich.py` | Enrich chapter models with variety-driven planning tags | `python tools/enrich.py <bookname> <number\|range\|list\|all\|*>` |
 | `tools/write.py` | Write chapter drafts via Ollama from flattened context | `python tools/write.py <bookname> <n\|range\|list\|all\|"*">` |
 | `tools/workplan.py` | Shared plan-of-works banner for enrich/write (model, book, count, range, ETA) | imported by `enrich.py` / `write.py`; not run directly |

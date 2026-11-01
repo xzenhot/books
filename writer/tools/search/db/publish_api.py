@@ -187,7 +187,7 @@ def publish(bookname: str, language: Optional[str] = None) -> PublishResult:
     chapters_out = os.path.join(ver_dir, "chapters")
     os.makedirs(chapters_out, exist_ok=True)
 
-    # canonical order — chapter count/topics from progress.json (bookseed.txt retired)
+    # canonical order — chapter count/topics from progress.json (bookseed.md retired)
     prog = _read_json(os.path.join(PIPE, "progress.json")) if os.path.exists(os.path.join(PIPE, "progress.json")) else {}
     total = len(prog.get("chapters", []))
 

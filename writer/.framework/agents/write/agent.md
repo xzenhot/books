@@ -112,15 +112,15 @@ style, language, or word target.
 
 ## Override Is Craft, Not Content (mandatory)
 
-Read `workspaces/pipeline/<bookname>/override.txt` on **every** write. It is the
+Read `workspaces/pipeline/<bookname>/override.md` on **every** write. It is the
 master human override and is **binding and authoritative** — it overrides every
 default in this agent and the selected skill. Treat it as **craft directives,
 never subject matter**: apply its rules (dramatic opening, line breaks, no word
 repetition, myth-over-truth, everyday symbols, the named muse, the living
 mountain, any line-count or variation rules) silently — never quote, name, or
 recite them as the poem's own lines, and never fix a recurring slot for the muse,
-the question, or the close across chapters. When `override.txt` and any skill
-default conflict, `override.txt` wins.
+the question, or the close across chapters. When `override.md` and any skill
+default conflict, `override.md` wins.
 
 ## Resolve Language and Word Target (mandatory, every write)
 
@@ -128,7 +128,7 @@ Fetch both fresh on **every** write (never cache, never assume a default):
 
 1. **Language** — read `workspaces/pipeline/<bookname>/book.json` → `language`;
    a differing chapter-level `chapter.json` value wins. **Never** take the
-   output language from `override.txt`. If `language` is absent/empty, stop and
+   output language from `override.md`. If `language` is absent/empty, stop and
    report it.
 2. **Word target** — read `word_target` from the chapter's `chapter.json` first,
    then the matching `book.json` `chapters[]` entry, then the book-level value.

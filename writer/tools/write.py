@@ -417,14 +417,14 @@ def load_context(model_file: Path) -> str:
 
 
 def load_override(model_file: Path) -> str:
-    """Read the book's human override mandate (override.txt), if present.
+    """Read the book's human override mandate (override.md, if present).
 
     Returns the file's content, or an empty string when absent or holding only
     the default "No transform required." line.
     """
     # model_file is chapters/<n>/chapter.json (or model.json), so the pipeline
     # root is two parents up.
-    override_file = model_file.parents[2] / "override.txt"
+    override_file = model_file.parents[2] / "override.md"
     if not override_file.exists():
         return ""
     text = override_file.read_text(encoding="utf-8-sig").strip()

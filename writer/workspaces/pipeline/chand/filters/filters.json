@@ -1,6 +1,4 @@
 {
-  "updated_by": "scaffold",
-  "updated_date": "2026-11-01T18:01:23Z",
   "filters": [
     {
       "order": 1,
@@ -44,5 +42,7 @@
       "agent": ".framework/filters/quality/SKILL.md",
       "autorun": true
     }
-  ]
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-01T18:09:34Z"
 }

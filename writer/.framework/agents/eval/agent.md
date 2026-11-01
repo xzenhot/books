@@ -40,7 +40,7 @@ Read these paths (falling back to legacy names where noted):
 - `workspaces/pipeline/<bookname>/filters/filters.json` — the filter registry with
   `order`, `name`, `autorun`.
 - `workspaces/pipeline/<bookname>/book.json` (poetry) — the topic list (`chapters[]`).
-- `workspaces/pipeline/<bookname>/override.txt` and
+- `workspaces/pipeline/<bookname>/override.md` and
   `filters/override/filter.md` — override presence.
 - For each chapter in scope:
   - `chapters/<n>/chapter.json` (fall back to `model.json`) — runtime metadata,

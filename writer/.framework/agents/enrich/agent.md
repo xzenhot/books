@@ -1,6 +1,6 @@
 ---
 name: enrich
-description: Enrichment orchestrator agent for the `/book <bookname> enrich <count>|range|*` command. Fuses the active filters from filters.json into a single combined pass over a chapter's metadata, recording the fused enrichment guidance in the chapter's chapter.json. After every scoped chapter is enriched, it aligns the master prompt to the gist and grows the pipeline's bookseed.txt into the book's derived vocabulary and phrase lexicon. Grounds every enrichment strictly in the book's gist.md and storyline.md — never researches or invents subject matter of its own. Never reads or writes chapter.md; prose authoring is deferred to the write/chapter/poet agents. Also serves as the enrichment prerequisite for the write and style agents.
+description: Enrichment orchestrator agent for the `/book <bookname> enrich <count>|range|*` command. Fuses the active filters from filters.json into a single combined pass over a chapter's metadata, recording the fused enrichment guidance in the chapter's chapter.json. After every scoped chapter is enriched, it aligns the master prompt to the gist and grows the pipeline's bookseed.md into the book's derived vocabulary and phrase lexicon. Grounds every enrichment strictly in the book's gist.md and storyline.md — never researches or invents subject matter of its own. Never reads or writes chapter.md; prose authoring is deferred to the write/chapter/poet agents. Also serves as the enrichment prerequisite for the write and style agents.
 tools: ["read", "write"]
 ---
 
@@ -50,7 +50,7 @@ filters into one pass and records the result in `chapter.json`. You never author
 3. The active filters' outputs under `filters/<filter>/` — the fused guidance's source.
 4. `gist.md` + `storyline.md` — the **author's declared world**, the authoritative subject
    source of truth (backlog fallback when the pipeline copy is absent).
-5. `bookseed.txt` — the book's vocabulary and phrase seed (human-staged plus any prior
+5. `bookseed.md` — the book's vocabulary and phrase seed (human-staged plus any prior
    derived block). Read it before writing so Step 5 appends rather than duplicates.
 
 ## Grounding Contract — Never Research On Your Own
@@ -71,7 +71,7 @@ researcher:
 
 **Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy
 `.framework/context/poetry/styles/pijush/style.md` if missing, without overwriting a
-human-edited file), then re-ground it from `book.json` and `override.txt`
+human-edited file), then re-ground it from `book.json` and `override.md`
 to this book's topics — keep voice/register, change only the "what".
 
 `chapter.md` is **not** an input; it is authored later by the write/chapter/poet agents.
@@ -105,20 +105,20 @@ form-correct, and ready for the writer.
 
 After the **full enrichment scope** has completed (all scoped chapters enriched), and
 only for the `enrich` command path (never for the single-chapter write/style
-prerequisite), customize `workspaces/pipeline/<bookname>/override.txt` so its subject
+prerequisite), customize `workspaces/pipeline/<bookname>/override.md` so its subject
 matter aligns with `workspaces/pipeline/<bookname>/gist.md`:
 
 1. Read `workspaces/pipeline/<bookname>/gist.md` — the author's declared essence.
-2. Read `workspaces/pipeline/<bookname>/override.txt` — the master craft prompt.
-3. Re-ground the **"what"** of `override.txt` to the gist: keep the author's craft
+2. Read `workspaces/pipeline/<bookname>/override.md` — the master craft prompt.
+3. Re-ground the **"what"** of `override.md` to the gist: keep the author's craft
    rules, voice, register, and style directives exactly as they are; change only the
    subject-matter references (premise, protagonist, theme, imagery) so they trace to the
    gist and never contradict it.
 4. Never introduce subject matter absent from the gist — the gist is the guardrail. If a
-   subject in `override.txt` has drifted from the gist, pull it back to the gist's
+   subject in `override.md` has drifted from the gist, pull it back to the gist's
    declared premise rather than inventing a new one.
 5. Preserve the human's own wording where it is already aligned; do not rewrite what
-   already matches. Do not overwrite a human-edited `override.txt` with a wholesale
+   already matches. Do not overwrite a human-edited `override.md` with a wholesale
    replacement — reconcile it minimally so it stays in step with the gist.
 
 This step runs **once**, after every chapter in the scope has been enriched — not
@@ -128,7 +128,7 @@ per chapter. Report the file written and what was re-grounded.
 
 After the **full enrichment scope** has completed, and only for the `enrich` command path
 (never for the single-chapter write/style prerequisite), synthesize the book's own
-lexicon into `workspaces/pipeline/<bookname>/bookseed.txt` from the enrichment you just
+lexicon into `workspaces/pipeline/<bookname>/bookseed.md` from the enrichment you just
 produced across every chapter:
 
 1. **Read every enriched `chapter.json` in the scope** — especially
@@ -136,7 +136,7 @@ produced across every chapter:
    `line_gesture`, `variety_note`), the `stereotype`, and each chapter's
    `chapter_title`/`chapter_summary`. This is the only permitted source: the book seed
    summarizes *this book's* enrichments, never outside material.
-2. **Read the existing `bookseed.txt`** — it may hold human-authored vocabulary staged
+2. **Read the existing `bookseed.md`** — it may hold human-authored vocabulary staged
    from the backlog. **Preserve every existing line byte-for-byte**; the human owns it.
 3. **Derive the recurring lexicon** across chapters — the concrete nouns, place-and-body
    words, recurring images, refrain candidates, and book-specific phrases that repeat or
@@ -144,11 +144,11 @@ produced across every chapter:
    `storyline.md`, or an enriched `chapter.json`. Never invent a word from outside the
    author's declared world.
 4. **Write the derived section** under a single delimited block appended to
-   `bookseed.txt`, grouped by category — `Vocabulary`, `Images & motifs`,
+   `bookseed.md`, grouped by category — `Vocabulary`, `Images & motifs`,
    `Phrases & refrains`, `Sound & diction`. One entry per line. **Deduplicate** against
    the lines already present.
 5. **Stay idempotent.** Re-running replaces only the delimited derived block with a fresh
-   derivation; all human-authored lines outside it survive untouched. `bookseed.txt` is
+   derivation; all human-authored lines outside it survive untouched. `bookseed.md` is
    plain text, so it carries **no** `updated_by`/`updated_date` stamp.
 
 This step also runs **once**, after the full scope — never per chapter. Report the path
@@ -184,13 +184,13 @@ After every enrichment completes, emit a structured report covering:
 3. **Per-chapter result.** For each chapter enriched: its `chapter_index`, `chapter_title`,
    the resulting `state` (`enriched`), and any gap left as `"(not in source)"`.
 4. **Master-prompt alignment (Step 4, when it ran).** State that
-   `workspaces/pipeline/<bookname>/override.txt` was re-aligned to
+   `workspaces/pipeline/<bookname>/override.md` was re-aligned to
    `workspaces/pipeline/<bookname>/gist.md`, and enumerate specifically what was
    re-grounded (the premise/protagonist/theme/imagery references that were pulled
    back to the gist) versus what was preserved (craft rules, voice, register, style
    directives, and the human's already-aligned wording).
 5. **Book seed growth (Step 5, when it ran).** State that
-   `workspaces/pipeline/<bookname>/bookseed.txt` was derived from the enriched
+   `workspaces/pipeline/<bookname>/bookseed.md` was derived from the enriched
    chapters, list the entries added per category (vocabulary, images & motifs,
    phrases & refrains, sound & diction), confirm human-authored lines were preserved,
    and confirm no entry was invented beyond `gist.md`/`storyline.md`/the enrichments.

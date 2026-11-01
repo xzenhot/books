@@ -230,7 +230,7 @@ def load_book_sources(bookname):
 
     Returns ``(gist, storyline, override)``. These three files are the
     authoritative source of truth: `gist.md` + `storyline.md` supply WHAT the
-    book is about, and `override.txt` supplies HOW it is written (register,
+    book is about, and `override.md` supplies HOW it is written (register,
     diction mix, craft rules, sample poems).
 
     The pipeline is a self-contained snapshot: `scaffold` copies all three from
@@ -241,7 +241,7 @@ def load_book_sources(bookname):
     state.
     """
     pipeline = REPO_ROOT / "workspaces" / "pipeline" / check_bookname(bookname)
-    resolved = {"gist.md": "", "storyline.md": "", "override.txt": ""}
+    resolved = {"gist.md": "", "storyline.md": "", "override.md": ""}
     missing = []
     for name in resolved:
         src = pipeline / name
@@ -251,14 +251,14 @@ def load_book_sources(bookname):
         text = src.read_text(encoding="utf-8-sig").strip()
         # A scaffold stub carries no author instruction; treat it as absent so the
         # caller can fall back to the storyline's register explicitly.
-        if name == "override.txt" and text.lower().startswith("no transform required"):
+        if name == "override.md" and text.lower().startswith("no transform required"):
             continue
         resolved[name] = text
 
     if missing:
         vlog(f"[sources] pipeline is missing {', '.join(missing)} — "
              "re-run `/book <bookname> scaffold` to snapshot them from the backlog")
-    return resolved["gist.md"], resolved["storyline.md"], resolved["override.txt"]
+    return resolved["gist.md"], resolved["storyline.md"], resolved["override.md"]
 
 
 def resolve_book_form(bookname):
@@ -885,7 +885,7 @@ def build_prompt(book_context, chapter, neighbours, arc, pool, lens, twist, seed
         ENRICH_USER_PROMPT_TEMPLATE,
         book_context=_flatten_markdown(book_context, "Book context"),
         sources=sources or "(no gist.md / storyline.md found)",
-        voice=voice or "(no override.txt found — fall back to the storyline's register)",
+        voice=voice or "(no override.md found — fall back to the storyline's register)",
         arc=_flatten_markdown(arc, "Book arc"),
         neighbours=_flatten_markdown(neighbours, "Neighbouring chapters"),
         pool=_flatten_markdown(pool[:POOL_LIMIT], "Suggestions already used"),
@@ -978,7 +978,7 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     is the only permissible source of subject matter — passed into the prompt
     verbatim so the tool never researches or invents its own material.
 
-    *voice* is the author's override.txt: the mandated register, diction mix and
+    *voice* is the author's override.md: the mandated register, diction mix and
     craft rules. It governs *how* the enrichment is phrased, while *sources*
     governs *what* it is about. Omitting it let enrich contradict the author's
     declared voice.

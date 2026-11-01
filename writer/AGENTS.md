@@ -335,8 +335,8 @@ workspaces/backlog/<bookname>/storyline.md
 
 For novels, `storyline.md` is the story source of truth. Do not invent story content beyond it.
 Before scaffold, the backlog `layout`/`refresh` path stages the vocabulary seed at
-`workspaces/backlog/<bookname>/bookseed.txt`. Scaffold then copies both
-`bookseed.txt` and the selected style's `signature.md` (read from
+`workspaces/backlog/<bookname>/bookseed.md`. Scaffold then copies both
+`bookseed.md` and the selected style's `signature.md` (read from
 `.framework/context/<form>/styles/<style>/`) into the pipeline root. Scaffold never
 stages anything in the backlog.
 
@@ -353,7 +353,7 @@ Common pipeline files:
 ```text
 workspaces/pipeline/<bookname>/book.json          # the book plan (cloned from the backlog)
 workspaces/pipeline/<bookname>/signature.md       # the selected style's copied signature (when available)
-workspaces/pipeline/<bookname>/bookseed.txt       # the book's copied vocabulary seed; enrich appends a derived lexicon block
+workspaces/pipeline/<bookname>/bookseed.md       # the book's copied vocabulary seed; enrich appends a derived lexicon block
 workspaces/pipeline/<bookname>/characters.json
 workspaces/pipeline/<bookname>/progress.json
 workspaces/pipeline/<bookname>/filters/

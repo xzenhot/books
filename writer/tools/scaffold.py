@@ -155,7 +155,7 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
     # vocabulary seed. Never overwrite an existing pipeline file: progress.json
     # holds live writing state, and the sources are cloned only on first scaffold.
     backlog_dir = root / "workspaces/backlog" / bookname
-    for src_name in ("gist.md", "storyline.md", "progress.json", "bookseed.txt"):
+    for src_name in ("gist.md", "storyline.md", "progress.json", "bookseed.md"):
         src = backlog_dir / src_name
         dest = pipeline / src_name
         if src.is_file() and not dest.exists():
@@ -208,13 +208,13 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
             {"filters": [{"order": i, "name": name, "agent": f".framework/filters/{name}/SKILL.md", "autorun": True}
                          for i, name in enumerate(chain, 1)]},
             "scaffold"))
-    prompt = pipeline / "override.txt"
+    prompt = pipeline / "override.md"
     if not prompt.exists():
         # Copy the author's master prompt from the backlog. Once the pipeline
         # exists the backlog is never read again, so this is the only chance to
         # carry the mandated voice, craft rules and sample poems across. The
         # neutral stub is used only when the backlog has no override.
-        source = plan_path.parent / "override.txt"
+        source = plan_path.parent / "override.md"
         if source.is_file():
             atomic_bytes(prompt, source.read_bytes())
         else:

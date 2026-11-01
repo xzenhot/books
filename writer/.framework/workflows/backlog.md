@@ -115,7 +115,7 @@ dramatically charged one-line premise (plus matching expansion). Operates only o
 
 A configured backlog folder contains these three core files; the init agent owns
 their full schemas. The backlog `layout` / `init ... refresh` path also stages the
-book's vocabulary seed (`bookseed.txt`); `scaffold` copies it into the pipeline
+book's vocabulary seed (`bookseed.md`); `scaffold` copies it into the pipeline
 together with the selected style's `signature.md`.
 
 | File | Role |

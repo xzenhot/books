@@ -53,7 +53,7 @@ This file is the **user-maintained default configuration**. It is read by all wo
 
 | Key | Default |
 |-----|---------|
-| `override.txt` | `No transform required.` — every chapter passes through unchanged until the human writes a transformation mandate. |
+| `override.md` | `No transform required.` — every chapter passes through unchanged until the human writes a transformation mandate. |
 
 ### Search
 

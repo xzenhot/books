@@ -340,7 +340,7 @@
       <li>Clone the complete backlog <code>book.json</code> to pipeline <code>book.json</code>. Preserve every field, value, and chapter entry throughout scaffold, initialization, and the master-prompt phase.</li>
       <li>Seed each chapter <code>model.json</code> as a single object from the matching plan entry. Match by <code>name</code> and verify <code>chapter_index</code>. Preserve <code>word_target</code>, <code>chapter_title</code>, <code>chapter_summary</code>, <code>further_references</code>, and any additional source fields.</li>
       <li>Build only <code>filters/filters.json</code> from the plan's authoritative <code>filter_chain</code>. Filters create their own folders on first use. Seed <code>filters/override/filter.md</code> lazily when a step first needs it and override is in the chain.</li>
-      <li>Run the <code>layout</code> agent (Phase 2) to write the dynamic pipeline <code>override.txt</code> from available backlog context and resolved pipeline state. Override artifacts belong to the pipeline, not to backlog initialization.</li>
+      <li>Run the <code>layout</code> agent (Phase 2) to write the dynamic pipeline <code>override.md/code> from available backlog context and resolved pipeline state. Override artifacts belong to the pipeline, not to backlog initialization.</li>
       <li>Verify that the root model still equals the full backlog plan as parsed JSON and each chapter preserves its matching plan entry. Initialize progress without resetting existing work.</li>
       <li>Run filters or <code>enrich</code> separately after scaffold. No research, filtering, finished chapters, or source output is produced during scaffold.</li>
     </ol>
@@ -376,7 +376,7 @@
         <tr><td><code>book.json</code></td><td>The chapter-layout plan and the authoritative <code>filter_chain</code>/<code>word_target</code> — the blueprint <code>scaffold</code> builds from.</td></tr>
       </tbody>
     </table>
-    <p>Override artifacts belong to the pipeline: the layout agent (Phase 2) produces <code>override.txt</code>, and the first step needing override instructions seeds <code>filters/override/filter.md</code>. Init creates neither file in the backlog.</p>
+    <p>Override artifacts belong to the pipeline: the layout agent (Phase 2) produces <code>override.md/code>, and the first step needing override instructions seeds <code>filters/override/filter.md</code>. Init creates neither file in the backlog.</p>
     <h3>Behavior</h3>
     <p>With an unchanged gist, a larger requested count appends only missing chapters and preserves existing entries; a smaller or equal count never truncates or renumbers them. Chapter summaries are varied, form-neutral seeds derived from the gist and epic. Report previous/new counts and appended chapters.</p>
     <ol>

@@ -32,15 +32,15 @@ This skill applies to the **novel** form only. The novel filter chain is
 2. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter's metadata (the only per-chapter input).
 3. `workspaces/pipeline/<bookname>/chapters/<n>/mood.json` — the chapter's mood (novel, optional).
 4. The active filters' own outputs under `workspaces/pipeline/<bookname>/filters/<filter>/` — the fused guidance's source material.
-5. `workspaces/pipeline/<bookname>/bookseed.txt` — the book's vocabulary and phrase seed (human-staged plus any prior derived block). Read it before Step 4 so new derivations append rather than duplicate.
+5. `workspaces/pipeline/<bookname>/bookseed.md` — the book's vocabulary and phrase seed (human-staged plus any prior derived block). Read it before Step 4 so new derivations append rather than duplicate.
 
 **Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy
 `.framework/context/poetry/styles/pijush/style.md` into it if missing,
 without overwriting a human-edited file), then rewrite it from
-`workspaces/pipeline/<bookname>/book.json` and `override.txt` so its subject matter
+`workspaces/pipeline/<bookname>/book.json` and `override.md` so its subject matter
 matches this book's story — re-grounding any stale/unrelated narrative to the current
 book. Keep the voice/philosophy/register intact; only re-ground the "what". If
-`override.txt` carries a transformation mandate, fold it in.
+`override.md` carries a transformation mandate, fold it in.
 
 `chapter.md` is **not** an input here. It is an output file of the writing path; you
 never read the chapter's current prose. You do **not** read the backlog or the epic.
@@ -94,14 +94,14 @@ reads this enrichment metadata and composes `chapter.md` accordingly.
 
 After the **full enrichment scope** has completed — never per chapter, and never on the
 single-chapter write/style prerequisite — synthesize this book's own lexicon into
-`workspaces/pipeline/<bookname>/bookseed.txt`. By now every chapter's enrichment exists,
+`workspaces/pipeline/<bookname>/bookseed.md`. By now every chapter's enrichment exists,
 so the book's recurring diction and imagery are visible at once.
 
 1. **Read every enriched chapter in the scope.** Source the lexicon from each chapter's
    `creative_enrichment` (its images, recurring objects, sensory anchors), the resolved
    `stereotype`, and its `chapter_summary`. Nothing outside this book's own enrichment
    may enter the seed.
-2. **Read the existing `bookseed.txt`.** Human-authored lines staged from the backlog are
+2. **Read the existing `bookseed.md`.** Human-authored lines staged from the backlog are
    the author's own words — **preserve every line byte-for-byte**.
 3. **Derive the recurring lexicon.** Keep the concrete nouns, place words, recurring
    images and motifs, phrase and refrain candidates, and sound-notes that recur across
@@ -127,7 +127,7 @@ so the book's recurring diction and imagery are visible at once.
    ```
 
 5. **Stay idempotent.** Re-running the enrich replaces only the content between the
-   markers; everything outside them survives untouched. `bookseed.txt` is plain text and
+   markers; everything outside them survives untouched. `bookseed.md` is plain text and
    carries **no** audit stamp.
 
 ## Output
@@ -136,7 +136,7 @@ so the book's recurring diction and imagery are visible at once.
    - `state` — set to `"enriched"`.
    - `enrich` — an object recording the result: `{ active_filters: [...], status: "enriched" }`, where `active_filters` lists the fused filter names in order.
 
-- **Book seed** — after the full scope, `workspaces/pipeline/<bookname>/bookseed.txt`
+- **Book seed** — after the full scope, `workspaces/pipeline/<bookname>/bookseed.md`
   gains a `<!-- bookseed:derived -->` block holding the book's recurring vocabulary,
   images & motifs, phrases & refrains, and sound notes (Step 4). Plain text; no audit
   stamp; human-authored lines preserved.

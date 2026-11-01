@@ -471,8 +471,8 @@ def write_backlog_progress(book_dir: Path) -> Path:
 def ensure_backlog_bookseed(book_dir: Path) -> Path:
     """Stage the book's vocabulary seed in the backlog.
 
-    Layout copies ``.framework/templates/backlog/v1/bookseed.txt`` into
-    ``workspaces/backlog/<bookname>/bookseed.txt`` so the book has its own
+    Layout copies ``.framework/templates/backlog/v1/bookseed.md`` into
+    ``workspaces/backlog/<bookname>/bookseed.md`` so the book has its own
     editable vocabulary and phrase list. ``scaffold`` later copies it into the
     pipeline. An existing backlog copy is always preserved — it may be
     human-edited — so seeding is create-if-missing only.
@@ -480,12 +480,12 @@ def ensure_backlog_bookseed(book_dir: Path) -> Path:
     Args:
         book_dir: Path to the backlog folder for this book.
     """
-    template = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "bookseed.txt"
-    staged = book_dir / "bookseed.txt"
+    template = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "bookseed.md"
+    staged = book_dir / "bookseed.md"
     if staged.exists():
         return staged
     if not template.is_file():
-        print("  bookseed.txt: template missing; skipped")
+        print("  bookseed.md: template missing; skipped")
         return staged
     book_dir.mkdir(parents=True, exist_ok=True)
     shutil.copy2(template, staged)
@@ -1457,7 +1457,7 @@ def create_backlog(
     print(f"  storyline.md  : {epic_file}")
     print(f"  book.json: {book_file}")
     print(f"  progress.json: {progress_file}")
-    print(f"  bookseed.txt: {bookseed_file}")
+    print(f"  bookseed.md: {bookseed_file}")
     print(f"  materials/ : {materials_dir}")
     print(f"  form: {form} | chapters: {len(chapters)} | refreshed: {refresh}")
 
@@ -1517,7 +1517,7 @@ def run_layout(
     print(f"  storyline.md  : {book_dir / 'storyline.md'}")
     print(f"  book.json: {book_dir / 'book.json'}")
     print(f"  progress.json: {progress_file}")
-    print(f"  bookseed.txt: {bookseed_file}")
+    print(f"  bookseed.md: {bookseed_file}")
     print(f"  form: {form} | chapters: {chapter_count or '(from book.json)'}")
 
 
@@ -1532,8 +1532,8 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     then creates all required pipeline folders and placeholder files.
 
     The pipeline structure created:
-        book.json, characters.json, override.txt, signature.md (when available),
-        bookseed.txt (when available)
+        book.json, characters.json, override.md, signature.md (when available),
+        bookseed.md (when available)
         filters/filters.json (registry only — no per-filter folders)
         chapters/<name>/model.json, chapter.md, history/
         chapters/<name>/segments/1/{segment.json, writer/, editor/, translator/, version/}
@@ -1586,7 +1586,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     # --- Clone the complete v1 template tree into the pipeline root. ---
     # The pipeline starts as a verbatim copy of the backlog v1 template
     # (book.json, book.min.json, gist.md, gist copy.md,
-    # override.txt, progress.json, storyline.md, and the layout/ form-tool
+    # override.md, progress.json, storyline.md, and the layout/ form-tool
     # templates), then scaffold customizes it below. The layout/ folder it
     # clones holds the form tool templates (write-novel, write-poetry,
     # enrich-novel, enrich-poetry); the book's own chapter folders are created
@@ -1599,13 +1599,13 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
             else:
                 shutil.copy2(child, dest)
 
-    # --- Copy the backlog source files (gist.md, storyline.md, progress.json, override.txt) ---
+    # --- Copy the backlog source files (gist.md, storyline.md, progress.json, override.md) ---
     # The pipeline is a self-contained snapshot of the backlog at scaffold time.
     # Once the pipeline exists the backlog is never read again, so every source
     # file the downstream stages need must be copied here — including the
-    # author's override.txt, which carries the mandated voice, craft rules and
+    # author's override.md which carries the mandated voice, craft rules and
     # sample poems. Writing a stub instead silently discards all of it.
-    for src_name in ("gist.md", "storyline.md", "progress.json", "override.txt"):
+    for src_name in ("gist.md", "storyline.md", "progress.json", "override.md"):
         src = book_dir / src_name
         if src.is_file():
             shutil.copy2(src, pipeline / src_name)
@@ -1622,16 +1622,16 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     else:
         print(f"No style signature found for novel style '{style}'; continuing without one")
 
-    bookseed_source = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "bookseed.txt"
-    bookseed_backlog = book_dir / "bookseed.txt"
-    bookseed_dest = pipeline / "bookseed.txt"
+    bookseed_source = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "bookseed.md"
+    bookseed_backlog = book_dir / "bookseed.md"
+    bookseed_dest = pipeline / "bookseed.md"
     if bookseed_backlog.is_file():
         # Prefer the backlog copy: the human may have filled it with this book's words.
         shutil.copy2(bookseed_backlog, bookseed_dest)
-        print("Copied bookseed.txt into the pipeline")
+        print("Copied bookseed.md into the pipeline")
     elif bookseed_source.is_file():
         shutil.copy2(bookseed_source, bookseed_dest)
-        print("Copied template bookseed.txt into the pipeline")
+        print("Copied template bookseed.md into the pipeline")
 
     # --- Root pipeline files ---
     (pipeline / "book.json").write_text(
@@ -1646,9 +1646,9 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
         ) + "\n",
         encoding="utf-8",
     )
-    # override.txt was copied from the backlog above. Only fall back to the
+    # override.md was copied from the backlog above. Only fall back to the
     # neutral stub when the backlog supplied none — never overwrite a real one.
-    prompt_file = pipeline / "override.txt"
+    prompt_file = pipeline / "override.md"
     if not prompt_file.exists():
         prompt_file.write_text("No transform required.\n", encoding="utf-8")
 

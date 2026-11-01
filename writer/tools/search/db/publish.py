@@ -40,7 +40,7 @@ def publish(bookname: str, language: str | None = None) -> None:
     chapters_out = os.path.join(ver_dir, "chapters")
     os.makedirs(chapters_out, exist_ok=True)
 
-    # canonical order — chapter count/topics from progress.json (bookseed.txt retired)
+    # canonical order — chapter count/topics from progress.json (bookseed.md retired)
     total = 0
     prog_path = os.path.join(PIPE, "progress.json")
     if os.path.isfile(prog_path):

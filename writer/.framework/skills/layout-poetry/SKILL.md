@@ -148,12 +148,12 @@ and `chapter_summary` (its seed), in the exact writing order. `chapter_title` is
 `chapter_title` a single title — never fold summaries, numbering, or commentary
 into it.
 
-### `bookseed.txt` (book vocabulary seed)
+### `bookseed.md` (book vocabulary seed)
 
 The book's own vocabulary and phrases. **Layout stages it** in the backlog at
-`workspaces/backlog/<bookname>/bookseed.txt` from
-`.framework/templates/backlog/v1/bookseed.txt`; the human may fill it. **Scaffold
-copies it** verbatim to `workspaces/pipeline/<bookname>/bookseed.txt` (plain text,
+`workspaces/backlog/<bookname>/bookseed.md` from
+`.framework/templates/backlog/v1/bookseed.md`; the human may fill it. **Scaffold
+copies it** verbatim to `workspaces/pipeline/<bookname>/bookseed.md` (plain text,
 no audit stamp). Treat each line as a reusable word or phrase for this book.
 
 ### `signature.md` (selected style's signature)
@@ -256,7 +256,7 @@ Leave runtime content empty unless the active workflow explicitly runs that filt
 1. **Read `.framework/filters/override/SKILL.md`** — the base content for the command file: the override command file is `workspaces/pipeline/<bookname>/filters/override/filter.md`, and it is generated/refreshed from the chapter (or poem) models' context so the human instructions are grounded in what the poems actually contain.
 2. **Read `.framework/context/poetry/readme.md`** — the master index of the poetry stereotype folder, for the identity wording and conventions of the poetry form.
 3. **Seed `workspaces/pipeline/<bookname>/filters/override/filter.md`** on first use (not at scaffold), customized for poetry: identity "poetry pipeline", applies to every **poem**, model updates on the poem chapter models under `chapters/<n>/`, instruction scope "every poem" (each topic in `book.json`'s `chapters[]`).
-4. **Do not create a pipeline-root `override.md`.** All forms share the single override command file at `filters/override/filter.md`.
+4. **Keep the two override layers distinct.** All forms share the override command file at `filters/override/filter.md`. The pipeline-root `override.md` is a different file — the master prompt — and both may coexist; never merge them or write one at the other's path.
 5. Align with whatever the readme's sub-indexes declare (singer/signature set, reference texts, syntax samples, theme sets under `signatures/`, `references/`, `syntax/`, `themes/`) — the override layer must not contradict the stereotype set the pipeline will use.
 6. Leave the trailing `## Instructions` section empty below the `---` line and never overwrite existing human instructions there.
 
@@ -274,8 +274,8 @@ Do not write poem chapters or `book.md` during layout.
 
 Before reporting completion, verify:
 
-- Root files exist: `book.json`, `bookseed.txt`, `signature.md`, and `progress.json`.
-- `filters/override/filter.md` exists — the override command file (no pipeline-root `override.md`).
+- Root files exist: `book.json`, `bookseed.md`, `signature.md`, and `progress.json`.
+- `filters/override/filter.md` exists — the override command file. The pipeline-root `override.md` (master prompt) is a separate file and may coexist with it.
 - `filters/filters.json` exists and names all seven poetry filters in order. No per-filter folders are created at scaffold; each filter creates its folder on first run.
 - Every topic has one numeric chapter folder.
 - Every `segments/1/` has `writer/`, `editor/`, `version/`, and `translator/` folders.

@@ -3,14 +3,14 @@
 - **Book name:** chand
 - **Storyline path:** workspaces/backlog/chand/storyline.md
 - **Created:** 2026-11-01T17:49:16Z
+- **updated_by:** init
+- **updated_date:** 2026-11-01T17:49:16Z
 - **Form:** poetry
 - **Language:** Bengali
 - **Genre:** চন্দ্র-রূপক প্রেম ও স্মৃতিকবিতা (lunar-devotion sequence)
 - **Era:** সমকালীন — বাংলার গ্রাম ও নগর, রাতের জানালা থেকে শহরের ছাদ
 - **Chapter count:** 6
 - **Gist:** Of all the subjects poetry has ever loved, none has held the imagination like the moon — and this book is one poet's long, unfinished devotion to the moon and to moonlight.
-- **updated_by:** scaffold
-- **updated_date:** 2026-11-01T18:01:23Z
 
 ## Premise (Thematic Grounding)
 

@@ -74,7 +74,7 @@ def regenerate_style_md(bookname: str, book: dict) -> None:
     """Ensure style.md exists and is grounded in the current book context.
 
     Copies the template if missing, then rewrites from book.json,
-    progress.json, and override.txt so its subject matter matches
+    progress.json, and override.md so its subject matter matches
     the book's topics.
     """
     style_path = PIPELINE_ROOT / bookname / "style.md"
@@ -89,7 +89,7 @@ def regenerate_style_md(bookname: str, book: dict) -> None:
 
     # Rewrite style.md grounded in current book context
     progress_path = PIPELINE_ROOT / bookname / "progress.json"
-    override_path = PIPELINE_ROOT / bookname / "override.txt"
+    override_path = PIPELINE_ROOT / bookname / "override.md"
 
     topics: list[str] = []
     if progress_path.exists():

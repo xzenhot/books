@@ -12,7 +12,7 @@ fields with identical values and types plus runtime metadata; `history/` and a
 complete `segments/1/` state exist; form invariants hold (poetry: no
 `mood.json`); `filters/filters.json` mirrors the plan's `filter_chain` order
 with resolvable agents and boolean `autorun` flags; and the root planning files
-(`progress.json`, `override.txt`) exist and match the plan.
+(`progress.json`, `override.md`) exist and match the plan.
 
 Exit code 0 means the pipeline matches the contract; 1 means at least one error.
 """
@@ -156,7 +156,7 @@ def verify(bookname: str) -> int:
         if folders:
             notes.append("filter folders exist at scaffold (spec: created lazily on first run): " + ", ".join(folders))
 
-    for name in ("progress.json", "override.txt"):
+    for name in ("progress.json", "override.md"):
         if not os.path.isfile(os.path.join(pipeline, name)):
             errors.append(f"missing pipeline root file: {name}")
 

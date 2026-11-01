@@ -45,7 +45,7 @@ must serve the poem — its image, its sound, its turn — never a prose arc.
 `chapter.md` is **not** an input here. It is an output file of the writing/authorship
 path; you never read the poem's current prose. You do **not** read the backlog or the epic.
 
-`workspaces/pipeline/<bookname>/bookseed.txt` **is** an input: it holds the book's
+`workspaces/pipeline/<bookname>/bookseed.md` **is** an input: it holds the book's
 vocabulary and phrase seed. Read it before Step 5 so new derivations append instead of
 duplicating what is already there.
 
@@ -219,7 +219,7 @@ this enrichment metadata and compose `chapter.md` accordingly.
 
 After the **full enrichment scope** has completed — never per poem, and never on the
 single-chapter write/style prerequisite — synthesize this book's own lexicon into
-`workspaces/pipeline/<bookname>/bookseed.txt`. The point of the ordering: by now every
+`workspaces/pipeline/<bookname>/bookseed.md`. The point of the ordering: by now every
 poem's `creative_enrichment` exists, so the recurring words and images of the whole book
 are visible at once.
 
@@ -228,7 +228,7 @@ are visible at once.
    `line_gesture`, `variety_note`), each poem's `stereotype`, and its
    `chapter_title`/`chapter_summary`. Nothing outside this book's own enrichment may
    enter the seed.
-2. **Read the existing `bookseed.txt`.** Human-authored lines staged from the backlog
+2. **Read the existing `bookseed.md`.** Human-authored lines staged from the backlog
    are the author's own words — **preserve every line byte-for-byte**.
 3. **Derive the recurring lexicon.** Keep the concrete nouns, place-and-body words,
    recurring images and motifs, refrain and phrase candidates, and sound-notes that
@@ -254,7 +254,7 @@ are visible at once.
    ```
 
 5. **Stay idempotent.** Re-running the enrich replaces only the content between the
-   markers; everything outside them survives untouched. `bookseed.txt` is plain text and
+   markers; everything outside them survives untouched. `bookseed.md` is plain text and
    carries **no** audit stamp.
 
 ## Output
@@ -270,7 +270,7 @@ are visible at once.
      `line_gesture`, `variety_note`), merged into any existing `creative_enrichment`
      without discarding it.
 
-- **Book seed** — after the full scope, `workspaces/pipeline/<bookname>/bookseed.txt`
+- **Book seed** — after the full scope, `workspaces/pipeline/<bookname>/bookseed.md`
   gains a `<!-- bookseed:derived -->` block holding the book's recurring vocabulary,
   images & motifs, phrases & refrains, and sound notes (Step 4). Plain text; no audit
   stamp; human-authored lines preserved.

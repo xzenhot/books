@@ -1,7 +1,7 @@
 # chand — chand: এর কবিতা
 
-- **updated_by:** scaffold
-- **updated_date:** 2026-11-01T18:01:23Z
+- **updated_by:** init
+- **updated_date:** 2026-11-01T17:46:59Z
 
 ## Canonical gist
 

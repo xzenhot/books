@@ -24,7 +24,7 @@ Rules:
    already named in that section or in the chapter's own model. Do not research, do not
    web-search, do not recall external facts. If the author has not written it, leave the
    field empty or mark it "(not in source)".
-0a. HOW vs WHAT. The "AUTHOR'S MANDATED VOICE" section (override.txt) governs
+0a. HOW vs WHAT. The "AUTHOR'S MANDATED VOICE" section (override.md governs
    HOW every field is phrased: register, diction mix, imagery family, sentence rhythm,
    and the sample poems' cadence. The "AUTHOR'S DECLARED WORLD" section governs WHAT the
    enrichment may be about. Both bind at once. If they appear to conflict, the voice

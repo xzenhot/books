@@ -131,12 +131,12 @@ Do not copy a mood-template directory into the pipeline.
 
 Create these at the pipeline root.
 
-### `bookseed.txt` (book vocabulary seed)
+### `bookseed.md` (book vocabulary seed)
 
 The book's own vocabulary and phrases. **Layout stages it** in the backlog at
-`workspaces/backlog/<bookname>/bookseed.txt` from
-`.framework/templates/backlog/v1/bookseed.txt`; the human may fill it. **Scaffold
-copies it** verbatim to `workspaces/pipeline/<bookname>/bookseed.txt` (plain text,
+`workspaces/backlog/<bookname>/bookseed.md` from
+`.framework/templates/backlog/v1/bookseed.md`; the human may fill it. **Scaffold
+copies it** verbatim to `workspaces/pipeline/<bookname>/bookseed.md` (plain text,
 no audit stamp).
 
 ### `signature.md` (selected style's signature)
