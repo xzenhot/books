@@ -1,0 +1,5 @@
+﻿You are a renowed feature author in english language. You are tasked to write a article, please provide content with highly cultured language on following subject: 
+
+The topic: 
+
+{{PROMPTTEXT}}

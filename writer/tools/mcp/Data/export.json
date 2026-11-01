@@ -1,0 +1,172 @@
+{
+  "Prompts": [
+    {
+      "ID": "0d9049479dea4c438511a597",
+      "User": "auto",
+      "Tag": "Generic",
+      "Text": "Write a facebook post on air quality situation on Delhi NCR",
+      "PromptType": 1,
+      "Model": "openai",
+      "Name": "New Generic",
+      "GeneratedText": null,
+      "Created": "2024-11-29T22:55:49.6505801",
+      "Updated": "2024-11-29T22:55:49.6505801"
+    },
+    {
+      "ID": "13534dce9275b60cf168d6e5",
+      "User": "auto",
+      "Tag": "Poetry",
+      "Text": "Write a facebook post on air quality situation on Delhi NCR",
+      "PromptType": 1,
+      "Model": "openai",
+      "Name": "New Poetry",
+      "GeneratedText": null,
+      "Created": "2024-11-29T22:55:50.1776017",
+      "Updated": "2024-11-29T22:55:50.1776017"
+    },
+    {
+      "ID": "aca342b0a0533a437ae856b4",
+      "User": "auto",
+      "Tag": "Article",
+      "Text": "Write a facebook post on air quality situation on Delhi NCR",
+      "PromptType": 1,
+      "Model": "openai",
+      "Name": "New Article",
+      "GeneratedText": null,
+      "Created": "2024-11-29T22:55:50.3391322",
+      "Updated": "2024-11-29T22:55:50.3391322"
+    },
+    {
+      "ID": "c01d4c2290ddafdc19e8e76c",
+      "User": "auto",
+      "Tag": "SocialMedia",
+      "Text": "Write a facebook post on air quality situation on Delhi NCR",
+      "PromptType": 1,
+      "Model": "openai",
+      "Name": "New SocialMedia",
+      "GeneratedText": null,
+      "Created": "2024-11-29T22:55:50.4722365",
+      "Updated": "2024-11-29T22:55:50.4722365"
+    }
+  ],
+  "Languages": [
+    {
+      "ID": "a04f4c74a37c0241b05040fb",
+      "Language": "English",
+      "LanguageCode": "en",
+      "IsSelected": true
+    },
+    {
+      "ID": "fcd041fa97b88bbec8ad163a",
+      "Language": "বাংলা",
+      "LanguageCode": "bn",
+      "IsSelected": true
+    }
+  ],
+  "Templates": [
+    {
+      "ID": "48174a770389839d6ef6d186f",
+      "User": "auto",
+      "Name": "Generic-bn",
+      "Purpose": "বাংলা সাধারন",
+      "LanguageCode": "en",
+      "Template": "You are an author of bengali language. To write a bengali book, we needs a storyline. Please Write a chapter on the story on this given subject: {text}. \n Use bengali script and context to generate the text.\n",
+      "Variables": null
+    },
+    {
+      "ID": "c5a84fd6b88bd59393940d534",
+      "User": "auto",
+      "Name": "Poetry-bn",
+      "Purpose": "বাংলা কবিতা",
+      "LanguageCode": "en",
+      "Template": "You are a renown and bengali modernpoet. You follow post modern poetry in all over the world. You apply critical thinking and progressiveness poetry syntax with subject theme. Please write a poetry on this given subject:\n{text}.\n Use bengali script and context to generate the text.\n",
+      "Variables": null
+    },
+    {
+      "ID": "fbae837373a6ec42673e9bb0f5",
+      "User": "auto",
+      "Name": "Article-bn",
+      "Purpose": "বাংলা খবর",
+      "LanguageCode": "en",
+      "Template": "You are a renown reported of Anandabazar Patrika. You are requested to cover an event and provide in dept insights as a subject matter expert. Please write an article on this given subject: {text}.\n Use bengali script and context to generate the text.\n",
+      "Variables": null
+    },
+    {
+      "ID": "e0303jnh805bff214cc3746",
+      "User": "auto",
+      "Name": "SocialMedia-bn",
+      "Purpose": "বাংলা ফেসবুক",
+      "LanguageCode": "en",
+      "Template": "You are an social media expert and wanted to post a facebook post. Please write a post on this given subject: {text}.\n Use bengali script and context to generate the text.\n",
+      "Variables": null
+    },
+    {
+      "ID": "48174a77bb5889d6ef6d186f",
+      "User": "auto",
+      "Name": "Generic-en",
+      "Purpose": "Simple Text",
+      "LanguageCode": "en",
+      "Template": "You are an author of english language. To write a book, we needs a storyline. Please Write a chapter on the story on this given subject: {text}. \n Use indian context to generate the text.\n",
+      "Variables": null
+    },
+    {
+      "ID": "c5a84fd6b88bd53b8d40d534",
+      "User": "auto",
+      "Name": "Poetry-en",
+      "Purpose": "Poetry",
+      "LanguageCode": "en",
+      "Template": "You are an renown and experienced poet. You follow modern poets over the world. You are critical about innovative thinking and progress of syntax of a poetry. Please write a poetry with best of your knowledge and experience on this given subject: {text}.\n Use indian context to generate the text.\n",
+      "Variables": null
+    },
+    {
+      "ID": "fbae4adda6ec42673e9bb0f5",
+      "User": "auto",
+      "Name": "Article-en",
+      "Purpose": "News Article",
+      "LanguageCode": "en",
+      "Template": "You are a renown reported of Times of India. You are requested to cover an event and provide in dept insights as a subject matter expert. Please write an article on this given subject: {text}.\n Use indian context to generate the text.\n",
+      "Variables": null
+    },
+    {
+      "ID": "eabb41dea805bff214cc3746",
+      "User": "auto",
+      "Name": "SocialMedia-en",
+      "Purpose": "New Post",
+      "LanguageCode": "en",
+      "Template": "You are an social media expert and wanted to post a facebook post. Please write a post on this given subject: {text}.\n Use indian context to generate the text.\n",
+      "Variables": null
+    }
+  ],
+  "TemplateVariables": [
+    {
+      "ID": "64fd43128310cf55f3919628",
+      "Name": "text",
+      "Data": "What is truth in this world",
+      "TemplateID": "48174a77bb5889d6ef6d186f"
+    },
+    {
+      "ID": "c79c43dabb05de4d779684a5",
+      "Name": "text",
+      "Data": "What is truth in this world",
+      "TemplateID": "c5a84fd6b88bd53b8d40d534"
+    },
+    {
+      "ID": "307f4b49944065126ea23a74",
+      "Name": "text",
+      "Data": "What is truth in this world",
+      "TemplateID": "fbae4adda6ec42673e9bb0f5"
+    },
+    {
+      "ID": "fa144674a0d83025355b1ed4",
+      "Name": "medianame",
+      "Data": "What is truth in this world",
+      "TemplateID": "eabb41dea805bff214cc3746"
+    },
+    {
+      "ID": "e99e47a8a6f189b8b19bf879",
+      "Name": "text",
+      "Data": "What is truth in this world",
+      "TemplateID": "eabb41dea805bff214cc3746"
+    }
+  ]
+}

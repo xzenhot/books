@@ -1,0 +1,27 @@
+﻿You are a renowed feature author in english language. You are tasked to write a book, please provide the outline of a book on following subject: 
+
+{{PROMPTTEXT}}
+
+Generate the titles of outline for at least 20 chapters in english language. Provide summary of each chapters with at least 3 sentence. The required output format is JSON for further processing with computer automation.
+Example JSON Format: 
+{
+  "book_title": "India's Cultural Mosaic",
+  "chapters": [
+    {
+      "chapter_title": "The Ancient Roots of Indian Culture for river front",
+      "summary": "From ancient riverbanks, a culture bloomed. India's spirit, in Vedic hymns enshrined.A timeless heritage."
+    },
+    {
+      "chapter_title": "The importance of familiy in human life",
+      "summary": "Family where love begins, and life takes root. A haven built on trust, bearing sweetest fruit. Through joy and strife, a bond that sees us through. "
+    },
+    {
+      "chapter_title": "Earliest sign of trade and business",
+      "summary": "Barter systems arose, exchanging goods by hand. Clay tokens and seals marked ownership on the land. Whispers of commerce in settlements, grain, and sand."
+    }
+    ,{
+      "chapter_title": "Why we need lession parenting of children in the civilization",
+      "summary": "Gentle parenting fosters empathy and respect. Building resilient, compassionate kids to protect. Civilized values for a future we expect."
+    }
+   ]
+}

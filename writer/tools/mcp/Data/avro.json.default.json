@@ -1,0 +1,6268 @@
+{
+  "Name": "AVRO",
+  "Version": "1.0",
+  "Description": null,
+  "Currency": null,
+  "SingleKeyMap": [
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 49,
+        "Name": "keyD1",
+        "Display": "1",
+        "Character": "1"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "1",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "১",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 50,
+        "Name": "keyD2",
+        "Display": "2",
+        "Character": "2"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "2",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "২",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 51,
+        "Name": "keyD3",
+        "Display": "3",
+        "Character": "3"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "3",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "৩",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 52,
+        "Name": "keyD4",
+        "Display": "4",
+        "Character": "4"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "4",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "৪",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 52,
+        "Name": "keyD4",
+        "Display": "4",
+        "Character": "4"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "4",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "৳",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 53,
+        "Name": "keyD5",
+        "Display": "5",
+        "Character": "5"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "5",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "৫",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 54,
+        "Name": "keyD6",
+        "Display": "6",
+        "Character": "6"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "6",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "৬",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 54,
+        "Name": "keyD6",
+        "Display": "6",
+        "Character": "6"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "6",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "চাঁদ",
+          "Index": 2,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "ঁ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 55,
+        "Name": "keyD7",
+        "Display": "7",
+        "Character": "7"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "7",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "৭",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 56,
+        "Name": "keyD8",
+        "Display": "8",
+        "Character": "8"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "8",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "৮",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 57,
+        "Name": "keyD9",
+        "Display": "9",
+        "Character": "9"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "9",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "৯",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 48,
+        "Name": "keyD0",
+        "Display": "0",
+        "Character": "0"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "0",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "০",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 81,
+        "Name": "keyQ",
+        "Display": "q",
+        "Character": "q"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "Q",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ক্ষ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 81,
+        "Name": "keyQ",
+        "Display": "Q",
+        "Character": "Q"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "q",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ক্ষ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 87,
+        "Name": "keyW",
+        "Display": "w",
+        "Character": "w"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "W",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "দ্ব",
+          "Index": 2,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 87,
+        "Name": "keyW",
+        "Display": "W",
+        "Character": "W"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "w",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "সৌ",
+          "Index": 1,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 69,
+        "Name": "keyE",
+        "Display": "e",
+        "Character": "e"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "E",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "কে",
+          "Index": 1,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "এ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 69,
+        "Name": "keyE",
+        "Display": "E",
+        "Character": "E"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "e",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "কৈ",
+          "Index": 1,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "ঐ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 82,
+        "Name": "keyR",
+        "Display": "r",
+        "Character": "r"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "R",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "র",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 82,
+        "Name": "keyR",
+        "Display": "R",
+        "Character": "R"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "r",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ড়",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 84,
+        "Name": "keyT",
+        "Display": "t",
+        "Character": "t"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "T",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ত",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 84,
+        "Name": "keyT",
+        "Display": "T",
+        "Character": "T"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "t",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ট",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 89,
+        "Name": "keyY",
+        "Display": "y",
+        "Character": "y"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "Y",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "য",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "য়",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 89,
+        "Name": "keyY",
+        "Display": "Y",
+        "Character": "Y"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "y",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ক্যা",
+          "Index": 1,
+          "Size": 2
+        },
+        "Swar": {
+          "Template": "য়",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 85,
+        "Name": "keyU",
+        "Display": "u",
+        "Character": "u"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "U",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "কু",
+          "Index": 1,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "উ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 85,
+        "Name": "keyU",
+        "Display": "U",
+        "Character": "U"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "u",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "কূ",
+          "Index": 1,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "ঊ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 73,
+        "Name": "keyI",
+        "Display": "i",
+        "Character": "i"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "I",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "কি",
+          "Index": 1,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "ই",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 73,
+        "Name": "keyI",
+        "Display": "I",
+        "Character": "I"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "i",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "কী",
+          "Index": 1,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "ঈ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 79,
+        "Name": "keyO",
+        "Display": "o",
+        "Character": "o"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "O",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "অ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "অ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 79,
+        "Name": "keyO",
+        "Display": "O",
+        "Character": "O"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "o",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "কো",
+          "Index": 1,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "ও",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 80,
+        "Name": "keyP",
+        "Display": "p",
+        "Character": "p"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "P",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "প",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 80,
+        "Name": "keyP",
+        "Display": "P",
+        "Character": "P"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "p",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "প",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 65,
+        "Name": "keyA",
+        "Display": "a",
+        "Character": "a"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "A",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "কা",
+          "Index": 1,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "আ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 65,
+        "Name": "keyA",
+        "Display": "A",
+        "Character": "A"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "a",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ক্যা",
+          "Index": 1,
+          "Size": 2
+        },
+        "Swar": {
+          "Template": "আ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 83,
+        "Name": "keyS",
+        "Display": "s",
+        "Character": "s"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "S",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "স",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 83,
+        "Name": "keyS",
+        "Display": "S",
+        "Character": "S"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "s",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "শ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 68,
+        "Name": "keyD",
+        "Display": "d",
+        "Character": "d"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "D",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "দ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 68,
+        "Name": "keyD",
+        "Display": "D",
+        "Character": "D"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "d",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ড",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 70,
+        "Name": "keyF",
+        "Display": "f",
+        "Character": "f"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "F",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ফ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 70,
+        "Name": "keyF",
+        "Display": "F",
+        "Character": "F"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "f",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "কব্জা",
+          "Index": 2,
+          "Size": 1
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 71,
+        "Name": "keyG",
+        "Display": "g",
+        "Character": "g"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "G",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "গ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 71,
+        "Name": "keyG",
+        "Display": "G",
+        "Character": "G"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "g",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "গ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 72,
+        "Name": "keyH",
+        "Display": "h",
+        "Character": "h"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "H",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "হ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 72,
+        "Name": "keyH",
+        "Display": "H",
+        "Character": "H"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "h",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "হ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 74,
+        "Name": "keyJ",
+        "Display": "j",
+        "Character": "j"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "J",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "জ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 74,
+        "Name": "keyJ",
+        "Display": "J",
+        "Character": "J"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "j",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "জ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 75,
+        "Name": "keyK",
+        "Display": "k",
+        "Character": "k"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "K",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ক",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 75,
+        "Name": "keyK",
+        "Display": "K",
+        "Character": "K"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "k",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ক",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 76,
+        "Name": "keyL",
+        "Display": "l",
+        "Character": "l"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "L",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ল",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 76,
+        "Name": "keyL",
+        "Display": "L",
+        "Character": "L"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "l",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ঌ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 186,
+        "Name": "keyOemSemicolon",
+        "Display": ";",
+        "Character": "º"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": ";",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ঃ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 90,
+        "Name": "keyZ",
+        "Display": "z",
+        "Character": "z"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "Z",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "য",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 90,
+        "Name": "keyZ",
+        "Display": "Z",
+        "Character": "Z"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "z",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "য",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 88,
+        "Name": "keyX",
+        "Display": "x",
+        "Character": "x"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "X",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ক্স",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 88,
+        "Name": "keyX",
+        "Display": "X",
+        "Character": "X"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "x",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ক্স",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 67,
+        "Name": "keyC",
+        "Display": "c",
+        "Character": "c"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "C",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "চ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 67,
+        "Name": "keyC",
+        "Display": "C",
+        "Character": "C"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "c",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ছ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 86,
+        "Name": "keyV",
+        "Display": "v",
+        "Character": "v"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "V",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ভ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 86,
+        "Name": "keyV",
+        "Display": "V",
+        "Character": "V"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "v",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ভ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 66,
+        "Name": "keyB",
+        "Display": "b",
+        "Character": "b"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "B",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ব",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 66,
+        "Name": "keyB",
+        "Display": "B",
+        "Character": "B"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "b",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ব",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 78,
+        "Name": "keyN",
+        "Display": "n",
+        "Character": "n"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "N",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ন",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 78,
+        "Name": "keyN",
+        "Display": "N",
+        "Character": "N"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "n",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ণ",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 77,
+        "Name": "keyM",
+        "Display": "m",
+        "Character": "m"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "M",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ম",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": true,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 77,
+        "Name": "keyM",
+        "Display": "M",
+        "Character": "M"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": "m",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "ম",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": true
+      }
+    },
+    {
+      "Key": {
+        "Shift": false,
+        "Alt": false,
+        "Ctl": false,
+        "Key": 190,
+        "Name": "keyOemPeriod",
+        "Display": "।",
+        "Character": "¾"
+      },
+      "Translation": {
+        "Language": "EN",
+        "Letter": ".",
+        "KeyCode": 0,
+        "Akshar": {
+          "Template": "।",
+          "Index": 0,
+          "Size": 0
+        },
+        "Swar": {
+          "Template": "।",
+          "Index": 0,
+          "Size": 0
+        },
+        "Continue": false
+      }
+    }
+  ],
+  "Family": [
+    {
+      "Name": "keyD1",
+      "Character": {
+        "Template": "১",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "১",
+        "1",
+        "!"
+      ]
+    },
+    {
+      "Name": "keyD2",
+      "Character": {
+        "Template": "২",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "২",
+        "2",
+        "@"
+      ]
+    },
+    {
+      "Name": "keyD3",
+      "Character": {
+        "Template": "৩",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "৩",
+        "#",
+        "3"
+      ]
+    },
+    {
+      "Name": "keyD4",
+      "Character": {
+        "Template": "৪",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "৪"
+      ]
+    },
+    {
+      "Name": "keyD4",
+      "Character": {
+        "Template": "৳",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "৳"
+      ]
+    },
+    {
+      "Name": "keyD5",
+      "Character": {
+        "Template": "৫",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "৫"
+      ]
+    },
+    {
+      "Name": "keyD6",
+      "Character": {
+        "Template": "৬",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "৬"
+      ]
+    },
+    {
+      "Name": "keyD6",
+      "Character": {
+        "Template": "চাঁদ",
+        "Index": 2,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ঁ"
+      ]
+    },
+    {
+      "Name": "keyD7",
+      "Character": {
+        "Template": "৭",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "৭"
+      ]
+    },
+    {
+      "Name": "keyD8",
+      "Character": {
+        "Template": "৮",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "৮"
+      ]
+    },
+    {
+      "Name": "keyD9",
+      "Character": {
+        "Template": "৯",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "৯"
+      ]
+    },
+    {
+      "Name": "keyD0",
+      "Character": {
+        "Template": "০",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "০"
+      ]
+    },
+    {
+      "Name": "keyQ",
+      "Character": {
+        "Template": "ক্ষ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ক",
+        "খ"
+      ]
+    },
+    {
+      "Name": "keyQ",
+      "Character": {
+        "Template": "ক্ষ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ক",
+        "খ",
+        "ক্ষ"
+      ]
+    },
+    {
+      "Name": "keyW",
+      "Character": {
+        "Template": "দ্ব",
+        "Index": 2,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ক",
+        "ক্ষ"
+      ]
+    },
+    {
+      "Name": "keyW",
+      "Character": {
+        "Template": "সৌ",
+        "Index": 1,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ওঁ",
+        "ব"
+      ]
+    },
+    {
+      "Name": "keyE",
+      "Character": {
+        "Template": "কে",
+        "Index": 1,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ে",
+        "ৈ",
+        "এ",
+        "ঐ"
+      ]
+    },
+    {
+      "Name": "keyE",
+      "Character": {
+        "Template": "কৈ",
+        "Index": 1,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "এ",
+        "ঐ",
+        "ে",
+        "ৈ"
+      ]
+    },
+    {
+      "Name": "keyR",
+      "Character": {
+        "Template": "র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "র",
+        "ড়",
+        "ঢ়",
+        "ৃ",
+        "ঋ"
+      ]
+    },
+    {
+      "Name": "keyR",
+      "Character": {
+        "Template": "ড়",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ড়",
+        "র",
+        "ঢ়",
+        "ৃ",
+        "ঋ"
+      ]
+    },
+    {
+      "Name": "keyT",
+      "Character": {
+        "Template": "ত",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ত",
+        "ট",
+        "ঠ",
+        "থ",
+        "ৎ"
+      ]
+    },
+    {
+      "Name": "keyT",
+      "Character": {
+        "Template": "ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ট",
+        "ত",
+        "ঠ",
+        "থ",
+        "ৎ"
+      ]
+    },
+    {
+      "Name": "keyY",
+      "Character": {
+        "Template": "য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "য়",
+        "য"
+      ]
+    },
+    {
+      "Name": "keyY",
+      "Character": {
+        "Template": "ক্যা",
+        "Index": 1,
+        "Size": 2
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "য",
+        "য়"
+      ]
+    },
+    {
+      "Name": "keyU",
+      "Character": {
+        "Template": "ু",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "উ",
+        "ঊ",
+        "ু",
+        "ূ"
+      ]
+    },
+    {
+      "Name": "keyU",
+      "Character": {
+        "Template": "ূ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ঊ",
+        "ঊ",
+        "ু",
+        "ূ"
+      ]
+    },
+    {
+      "Name": "keyI",
+      "Character": {
+        "Template": "কি",
+        "Index": 1,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ি",
+        "ই",
+        "ঈ",
+        "ী"
+      ]
+    },
+    {
+      "Name": "keyI",
+      "Character": {
+        "Template": "কী",
+        "Index": 1,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ই",
+        "ি",
+        "ঈ",
+        "ি"
+      ]
+    },
+    {
+      "Name": "keyO",
+      "Character": {
+        "Template": "অ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "অ",
+        "ও",
+        "ঔ",
+        "ো",
+        "ৌ"
+      ]
+    },
+    {
+      "Name": "keyO",
+      "Character": {
+        "Template": "কো",
+        "Index": 1,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ো",
+        "অ",
+        "ও",
+        "ঔ",
+        "ো"
+      ]
+    },
+    {
+      "Name": "keyP",
+      "Character": {
+        "Template": "প",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "প",
+        "ফ"
+      ]
+    },
+    {
+      "Name": "keyP",
+      "Character": {
+        "Template": "প",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "প",
+        "ফ"
+      ]
+    },
+    {
+      "Name": "keyA",
+      "Character": {
+        "Template": "কা",
+        "Index": 1,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "া",
+        "আ",
+        "অ্যা",
+        "অ"
+      ]
+    },
+    {
+      "Name": "keyA",
+      "Character": {
+        "Template": "ক্যা",
+        "Index": 1,
+        "Size": 2
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "আ",
+        "া",
+        "অ্যা",
+        "অ"
+      ]
+    },
+    {
+      "Name": "keyS",
+      "Character": {
+        "Template": "স",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "স",
+        "শ",
+        "ষ"
+      ]
+    },
+    {
+      "Name": "keyS",
+      "Character": {
+        "Template": "শ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "শ",
+        "স",
+        "ষ"
+      ]
+    },
+    {
+      "Name": "keyD",
+      "Character": {
+        "Template": "দ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "দ",
+        "ড",
+        "ঢ",
+        "ধ",
+        "থ"
+      ]
+    },
+    {
+      "Name": "keyD",
+      "Character": {
+        "Template": "ড",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ড",
+        "দ",
+        "ঢ",
+        "ধ",
+        "থ"
+      ]
+    },
+    {
+      "Name": "keyF",
+      "Character": {
+        "Template": "ফ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ফ"
+      ]
+    },
+    {
+      "Name": "keyF",
+      "Character": {
+        "Template": "ফ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ফ"
+      ]
+    },
+    {
+      "Name": "keyG",
+      "Character": {
+        "Template": "গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "গ",
+        "জ্ঞ",
+        "ঘ"
+      ]
+    },
+    {
+      "Name": "keyG",
+      "Character": {
+        "Template": "গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "গ",
+        "জ্ঞ",
+        "ঘ"
+      ]
+    },
+    {
+      "Name": "keyH",
+      "Character": {
+        "Template": "হ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "হ"
+      ]
+    },
+    {
+      "Name": "keyH",
+      "Character": {
+        "Template": "কব্জা",
+        "Index": 2,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "্‌‌"
+      ]
+    },
+    {
+      "Name": "keyJ",
+      "Character": {
+        "Template": "জ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "জ",
+        "ঝ",
+        "য",
+        "য়"
+      ]
+    },
+    {
+      "Name": "keyJ",
+      "Character": {
+        "Template": "জ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "জ",
+        "ঝ",
+        "য",
+        "য়"
+      ]
+    },
+    {
+      "Name": "keyK",
+      "Character": {
+        "Template": "ক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ক",
+        "খ",
+        "ক্ষ"
+      ]
+    },
+    {
+      "Name": "keyK",
+      "Character": {
+        "Template": "ক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ক",
+        "খ",
+        "ক্ষ"
+      ]
+    },
+    {
+      "Name": "keyL",
+      "Character": {
+        "Template": "ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ল"
+      ]
+    },
+    {
+      "Name": "keyL",
+      "Character": {
+        "Template": "অঌ,ৡ",
+        "Index": 1,
+        "Size": 1
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ল"
+      ]
+    },
+    {
+      "Name": "keyOemSemicolon",
+      "Character": {
+        "Template": "ঃ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ঃ"
+      ]
+    },
+    {
+      "Name": "keyZ",
+      "Character": {
+        "Template": "য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "য"
+      ]
+    },
+    {
+      "Name": "keyZ",
+      "Character": {
+        "Template": "য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "য",
+        "জ",
+        "য়"
+
+      ]
+    },
+    {
+      "Name": "keyX",
+      "Character": {
+        "Template": "ক্স",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ক্স",
+        "ক্ষ"
+      ]
+    },
+    {
+      "Name": "keyX",
+      "Character": {
+        "Template": "ক্স",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ক্স",
+        "ক্ষ"
+      ]
+    },
+    {
+      "Name": "keyC",
+      "Character": {
+        "Template": "চ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "চ",
+        "ছ",
+        "চ্চ",
+        "চ্ছ"
+      ]
+    },
+    {
+      "Name": "keyC",
+      "Character": {
+        "Template": "ছ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "চ",
+        "ছ",
+        "চ্চ",
+        "চ্ছ"
+      ]
+    },
+    {
+      "Name": "keyV",
+      "Character": {
+        "Template": "ভ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ভ"
+      ]
+    },
+    {
+      "Name": "keyV",
+      "Character": {
+        "Template": "ভ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ভ"
+      ]
+    },
+    {
+      "Name": "keyB",
+      "Character": {
+        "Template": "ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ব"
+      ]
+    },
+    {
+      "Name": "keyB",
+      "Character": {
+        "Template": "ভ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ভ"
+      ]
+    },
+    {
+      "Name": "keyN",
+      "Character": {
+        "Template": "ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ন",
+        "ণ",
+        "ঞ",
+        "ঙ",
+        "ঙ্গ",
+        "ং"
+      ]
+    },
+    {
+      "Name": "keyN",
+      "Character": {
+        "Template": "ণ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ণ",
+        "ন",
+        "ঞ",
+        "ঙ",
+        "ঙ্গ",
+        "ং"
+      ]
+    },
+    {
+      "Name": "keyM",
+      "Character": {
+        "Template": "ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ম",
+        "ঞ",
+        "ঁ"
+      ]
+    },
+    {
+      "Name": "keyM",
+      "Character": {
+        "Template": "ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "ম",
+        "ঞ",
+        "ঁ"
+      ]
+    },
+    {
+      "Name": "keyOemPeriod",
+      "Character": {
+        "Template": "।",
+        "Index": 0,
+        "Size": 0
+      },
+      "Description": null,
+      "FamilyMembers": [
+        "।"
+      ]
+    }
+  ],
+  "JuktoKeyMap": [
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আক্কেল",
+        "টেক্কা",
+        "ধাক্কা"
+      ],
+      "Pattern": "kk",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ক",
+        "Index": 1,
+        "Size": 1
+      },
+      "Examples": [
+        "আক্কেল",
+        "টেক্কা",
+        "ধাক্কা"
+      ],
+      "Pattern": "hh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ডক্টর",
+        "অক্টোপাস (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "kT",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ট্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অক্ট্রয়"
+      ],
+      "Pattern": "kTr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ত",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "রক্ত",
+        "শক্ত",
+        ""
+      ],
+      "Pattern": "kt",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ত্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বক্ত্র"
+      ],
+      "Pattern": "ktr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বাচক্নবী"
+      ],
+      "Pattern": "kn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পক্ব",
+        "ক্বণ"
+      ],
+      "Pattern": "kb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "রুক্মিণী"
+      ],
+      "Pattern": "km",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বাক্য"
+      ],
+      "Pattern": "kz",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "চক্র",
+        "বক্র"
+      ],
+      "Pattern": "kr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ক্লান্তি"
+      ],
+      "Pattern": "kl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ষ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পক্ষ",
+        "ভক্ষক",
+        "অপেক্ষা"
+      ],
+      "Pattern": "kSh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ষ্ণ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "তীক্ষ্ণ"
+      ],
+      "Pattern": "kkhn",
+      "Continue": false
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ষ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ইক্ষ্বাকু"
+      ],
+      "Pattern": "kkhb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ষ্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "লক্ষ্মী"
+      ],
+      "Pattern": "kkhm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ষ্ম্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "সৌক্ষ্ম্য"
+      ],
+      "Pattern": "kkhz",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্স",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বাক্স"
+      ],
+      "Pattern": "ks",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "গ্ধ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "মুগ্ধ"
+      ],
+      "Pattern": "gdh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "গ্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ভগ্ন",
+        "অগ্নি"
+      ],
+      "Pattern": "gn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "গ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দিগ্বিজয়ী"
+      ],
+      "Pattern": "gb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "গ্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "যুগ্ম"
+      ],
+      "Pattern": "gm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "গ্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "গ্লানি"
+      ],
+      "Pattern": "gl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঘ্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কৃতঘ্ন",
+        "শত্রুঘ্ন"
+      ],
+      "Pattern": "ghn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ্ক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অঙ্ক",
+        "টঙ্কা",
+        "শশাঙ্ক"
+      ],
+      "Pattern": "NK",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ্‌ক্ত",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পঙ্‌ক্তি"
+      ],
+      "Pattern": "Nkt",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ্ক্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অঙ্ক্য"
+      ],
+      "Pattern": "Nky",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ্ক্ষ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আকাঙ্ক্ষা"
+      ],
+      "Pattern": "Nkkh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ্খ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "শঙ্খ"
+      ],
+      "Pattern": "NKh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ্গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অঙ্গ",
+        "সঙ্গী"
+      ],
+      "Pattern": "NG",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অঙ্গ",
+        "সঙ্গী"
+      ],
+      "Pattern": "nG",
+      "Continue": false
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ্ঘ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "সঙ্ঘ"
+      ],
+      "Pattern": "Ngh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ্ঘ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অঙ্ঘ্রি"
+      ],
+      "Pattern": "Nghr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঙ্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বাঙ্ময়"
+      ],
+      "Pattern": "Ngm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "চ্চ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বাচ্চা"
+      ],
+      "Pattern": "cc",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "চ্ছ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ইচ্ছা"
+      ],
+      "Pattern": "cch",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "চ্ছ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "জলোচ্ছ্বাস"
+      ],
+      "Pattern": "cchb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "চ্ছ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উচ্ছ্রায়"
+      ],
+      "Pattern": "cchr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "চ্ঞ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "যাচ্ঞা"
+      ],
+      "Pattern": "cN",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "চ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "চ্বী"
+      ],
+      "Pattern": "cb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "জ্জ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বিপজ্জনক"
+      ],
+      "Pattern": "jj",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "জ্জ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উজ্জ্বল"
+      ],
+      "Pattern": "jjb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "জ্ঝ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কুজ্ঝটিকা"
+      ],
+      "Pattern": "jjh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "জ্ঞ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "জ্ঞান",
+        "সজ্ঞাত"
+      ],
+      "Pattern": "jN",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "জ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "জ্বর"
+      ],
+      "Pattern": "jb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঞ্চ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অঞ্চল",
+        "সঞ্চয়"
+      ],
+      "Pattern": "nc",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঞ্ছ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "লাঞ্ছনা",
+        "বাঞ্ছা"
+      ],
+      "Pattern": "nch",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঞ্জ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কুঞ্জ",
+        "গুঞ্জন"
+      ],
+      "Pattern": "nj",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঞ্ঝ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ঝঞ্ঝা"
+      ],
+      "Pattern": "njh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ট্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "চট্টগ্রাম",
+        "ছোট্ট"
+      ],
+      "Pattern": "TT",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ট্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "খট্বা"
+      ],
+      "Pattern": "Tb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ট্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কুট্মল"
+      ],
+      "Pattern": "Tm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ড্ড",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আড্ডা",
+        "উড্ডয়ন"
+      ],
+      "Pattern": "DD",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ড্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অন্ড্বান"
+      ],
+      "Pattern": "Db",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ড্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কুড্মল"
+      ],
+      "Pattern": "Dm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ড়্গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "খড়্‌গ"
+      ],
+      "Pattern": "Dg",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ণ্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ঘণ্টা",
+        "নির্ঘণ্ট"
+      ],
+      "Pattern": "NT",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ণ্ঠ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কণ্ঠ"
+      ],
+      "Pattern": "NTh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ণ্ড",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "গণ্ডগোল",
+        "কুণ্ড"
+      ],
+      "Pattern": "ND",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ণ্ড্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পুণ্ড্র"
+      ],
+      "Pattern": "NDr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ণ্ঢ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ষণ্ঢ"
+      ],
+      "Pattern": "NDh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ণ্ণ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বিষণ্ণ"
+      ],
+      "Pattern": "NN",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ণ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্থাণ্বীশ্বর"
+      ],
+      "Pattern": "NB",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ণ্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "চিণ্ময়",
+        "মৃণ্ময়ী"
+      ],
+      "Pattern": "Nm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ৎক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উৎকর্ষ"
+      ],
+      "Pattern": "tk",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ৎখ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উৎখাত"
+      ],
+      "Pattern": "tkh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ত্ত",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উত্তর"
+      ],
+      "Pattern": "tt",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ত্ত্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পুত্ত্র (মন্তব্য - এই যুক্তবর্ণটি ইউনিকোডে সাপোর্ট করে না বলে আকৃতি বিকৃত হয়েছে৷ বর্তমানে ব্যবহৃত না হলেও ঈশ্বরচন্দ্র বিদ্যাসাগর ও তৎকালীন লেখকেরা এই বানানটি ব্যবহার করেছেন৷)"
+      ],
+      "Pattern": "ttr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ত্ত্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "সত্ত্ব"
+      ],
+      "Pattern": "ttb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ত্ত্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উত্ত্যক্ত"
+      ],
+      "Pattern": "tty",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ত্থ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অশ্বত্থ"
+      ],
+      "Pattern": "tth",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ত্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "যত্ন",
+        "রত্নাকর"
+      ],
+      "Pattern": "tn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ৎপ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উৎপল"
+      ],
+      "Pattern": "tp",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ত্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "রাজত্ব"
+      ],
+      "Pattern": "tb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ত্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আত্মা"
+      ],
+      "Pattern": "tm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ত্র্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বৈচিত্র্য"
+      ],
+      "Pattern": "try",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "থ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পৃথ্বী"
+      ],
+      "Pattern": "thb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উদ্গম"
+      ],
+      "Pattern": "dg",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্ঘ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উদ্ঘাটন"
+      ],
+      "Pattern": "dgh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্দ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উদ্দেশ্য"
+      ],
+      "Pattern": "dd",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্দ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "তদ্দ্বারা"
+      ],
+      "Pattern": "ddb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্ধ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "রুদ্ধ",
+        "বদ্ধ"
+      ],
+      "Pattern": "ddh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বিদ্বান"
+      ],
+      "Pattern": "db",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্ভ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অদ্ভুত"
+      ],
+      "Pattern": "dv",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্ভ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উদ্ভ্রান্ত"
+      ],
+      "Pattern": "dvr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ছদ্ম",
+        "পদ্ম"
+      ],
+      "Pattern": "dm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "দ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "রুদ্র",
+        "নিদ্রিত"
+      ],
+      "Pattern": "dr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ধ্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অর্থগৃধ্নু"
+      ],
+      "Pattern": "ghn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ধ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ধ্বনি"
+      ],
+      "Pattern": "dhb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ধ্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উদরাধ্মান"
+      ],
+      "Pattern": "dhm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ধ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ধ্রুব"
+      ],
+      "Pattern": "dhr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "প্যান্ট (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "nT",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ট্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কন্ট্রোল (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "nTr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ঠ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "লন্ঠন"
+      ],
+      "Pattern": "nTh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ড",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "গন্ডার",
+        "পাউন্ড"
+      ],
+      "Pattern": "nD",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ড্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "হান্ড্রেড"
+      ],
+      "Pattern": "ndr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ত",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "জীবন্ত",
+        "গন্তব্য"
+      ],
+      "Pattern": "nt",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ত্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "সান্ত্বনা"
+      ],
+      "Pattern": "ntb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ত্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অন্ত্য"
+      ],
+      "Pattern": "nty",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ত্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "মন্ত্র",
+        "যন্ত্র"
+      ],
+      "Pattern": "ntr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ত্র্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্বাতন্ত্র্য"
+      ],
+      "Pattern": "ntry",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্থ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "গ্রন্থ",
+        "পান্থ"
+      ],
+      "Pattern": "nth",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্থ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অ্যান্থ্রাক্স (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "nthr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্দ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ছন্দ"
+      ],
+      "Pattern": "nd",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্দ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দ্বন্দ্ব"
+      ],
+      "Pattern": "ndb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্দ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কেন্দ্র"
+      ],
+      "Pattern": "ndr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ধ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অন্ধ"
+      ],
+      "Pattern": "ndh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ধ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "রন্ধ্র"
+      ],
+      "Pattern": "ndhr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নবান্ন"
+      ],
+      "Pattern": "nn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ধন্বন্তরি"
+      ],
+      "Pattern": "nb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "চিন্ময়"
+      ],
+      "Pattern": "nm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "প্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পাটি-সাপ্টা",
+        "ক্যাপ্টেন (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "pT",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "প্ত",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "সুপ্ত"
+      ],
+      "Pattern": "pt",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "প্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্বপ্ন"
+      ],
+      "Pattern": "pn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "প্প",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ধাপ্পা"
+      ],
+      "Pattern": "pp",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "প্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ক্ষিপ্র"
+      ],
+      "Pattern": "pr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "প্র্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "প্র্যাকটিস (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "pry",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "প্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আপ্লুত"
+      ],
+      "Pattern": "pl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "প্স",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "লিপ্সা"
+      ],
+      "Pattern": "ps",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ফ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ফ্রক",
+        "ফ্রিজ",
+        "আফ্রিকা",
+        "রেফ্রিজারেটর (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "fr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ফ্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ফ্লেভার (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "fl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ব্জ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ন্যুব্জ",
+        ""
+      ],
+      "Pattern": "bj",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ব্দ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "জব্দ",
+        "শব্দ"
+      ],
+      "Pattern": "bd",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ব্ধ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "লব্ধ"
+      ],
+      "Pattern": "bdh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ব্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ডাব্বা"
+      ],
+      "Pattern": "bb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ব্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ব্রাহ্মণ"
+      ],
+      "Pattern": "br",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ব্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ব্লাউজ"
+      ],
+      "Pattern": "bl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ভ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ভ্বা"
+      ],
+      "Pattern": "bb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ভ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "শুভ্র",
+        "অভ্র"
+      ],
+      "Pattern": "vr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ভ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "শুভ্র",
+        "অভ্র"
+      ],
+      "Pattern": "bhr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ভ্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ভ্লাদিমি (মূলত রাশীয় শব্দে ব্যবহৃত হয়)"
+      ],
+      "Pattern": "bl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নিম্ন"
+      ],
+      "Pattern": "mn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্প",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কম্প",
+        "শম্পা"
+      ],
+      "Pattern": "mp",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্প্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "সম্প্রতি"
+      ],
+      "Pattern": "mpr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্ফ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "লম্ফ"
+      ],
+      "Pattern": "mf",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "প্রতিবিম্ব",
+        "অম্বর"
+      ],
+      "Pattern": "mb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্ব্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "মেম্ব্রেন (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "mbr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্ভ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দম্ভ"
+      ],
+      "Pattern": "mv",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্ভ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দম্ভ"
+      ],
+      "Pattern": "mbh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্ভ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "সম্ভ্রম"
+      ],
+      "Pattern": "mvr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "সম্মান"
+      ],
+      "Pattern": "mm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নম্র"
+      ],
+      "Pattern": "mr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ম্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অম্ল"
+      ],
+      "Pattern": "ml",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "য্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ন্যায্য"
+      ],
+      "Pattern": "zy",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "তর্ক"
+      ],
+      "Pattern": "rk",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "তর্ক"
+      ],
+      "Pattern": "rrk",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বর্গ"
+      ],
+      "Pattern": "rg",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বর্গ"
+      ],
+      "Pattern": "rrg",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ঘ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দৈর্ঘ্য"
+      ],
+      "Pattern": "rgh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ঘ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দৈর্ঘ্য"
+      ],
+      "Pattern": "rrgh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ঙ্গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "শার্ঙ্গ (ধনুর্বিশেষ)"
+      ],
+      "Pattern": "rNg",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্চ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অর্চ্য (পূজনীয়)"
+      ],
+      "Pattern": "rc",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্চ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অর্চ (পূজনীয়)"
+      ],
+      "Pattern": "rch",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্জ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বর্জ্য"
+      ],
+      "Pattern": "rj",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্জ্জ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ঊর্জ্জ"
+      ],
+      "Pattern": "rjj",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্জ্ঞ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দুর্জ্ঞেয়"
+      ],
+      "Pattern": "rjN",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ণ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বৈবর্ণ্য (বিবর্ণতা)"
+      ],
+      "Pattern": "rN",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ত",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "মর্ত্য"
+      ],
+      "Pattern": "rt",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্থ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "সামর্থ্য"
+      ],
+      "Pattern": "rth",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নৈর্ব্যক্তিক"
+      ],
+      "Pattern": "rb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নৈষ্কর্ম্য"
+      ],
+      "Pattern": "rm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্শ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অস্পর্শ্য"
+      ],
+      "Pattern": "rS",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ষ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ঔৎকর্ষ্য"
+      ],
+      "Pattern": "rSh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্হ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "গর্হ্য"
+      ],
+      "Pattern": "rh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্খ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "মূর্খ"
+      ],
+      "Pattern": "rkh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দুর্গ"
+      ],
+      "Pattern": "rg",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্গ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দুর্গ্রহ",
+        "নির্গ্রন্হ"
+      ],
+      "Pattern": "rgr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ঘ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দীর্ঘ"
+      ],
+      "Pattern": "rgh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্চ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অর্চনা"
+      ],
+      "Pattern": "rc",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ছ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "মূর্ছনা"
+      ],
+      "Pattern": "rch",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্জ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অর্জন"
+      ],
+      "Pattern": "rj",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ঝ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নির্ঝর"
+      ],
+      "Pattern": "rjh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আর্ট",
+        "কোর্ট",
+        "কম্ফর্টার",
+        "শার্ট",
+        "কার্টিজ",
+        "আর্টিস্ট",
+        "পোর্টম্যানটো",
+        "সার্টিফিকেট",
+        "কনসার্ট",
+        "কার্টুন",
+        "কোয়ার্টার (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "rT",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ড",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অর্ডার",
+        "লর্ড",
+        "বর্ডার",
+        "কার্ড (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "rD",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ণ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বর্ণ"
+      ],
+      "Pattern": "rN",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ত",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ক্ষুধার্ত"
+      ],
+      "Pattern": "rt",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ৎ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ভর্ৎসনা"
+      ],
+      "Pattern": "rtwh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ত্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ক্লিন্নবর্ত্মাস্থি (ল্যাক্রিমাল বোন)"
+      ],
+      "Pattern": "rtm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ত্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কর্ত্রী"
+      ],
+      "Pattern": "rtr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্থ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অর্থ"
+      ],
+      "Pattern": "rth",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্দ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নির্দয়"
+      ],
+      "Pattern": "rd",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্দ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নির্দ্বিধা"
+      ],
+      "Pattern": "rdb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্দ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আর্দ্র"
+      ],
+      "Pattern": "rdr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ধ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "গোলার্ধ"
+      ],
+      "Pattern": "rdh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ধ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ঊর্ধ্ব"
+      ],
+      "Pattern": "rdhb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দুর্নাম"
+      ],
+      "Pattern": "rn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্প",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দর্প"
+      ],
+      "Pattern": "rp",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ফ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্কার্ফ (মন্তব্য- মূলত ইংরেজি ও আরবী-ফার্সি কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "rf",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উর্বর"
+      ],
+      "Pattern": "rb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ধর্ম"
+      ],
+      "Pattern": "rm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আর্য (মন্তব্য দেখুন)"
+      ],
+      "Pattern": "rz",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দুর্লভ"
+      ],
+      "Pattern": "rl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্শ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্পর্শ"
+      ],
+      "Pattern": "rS",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্শ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পার্শ্ব"
+      ],
+      "Pattern": "rSb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ষ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ঘর্ষণ",
+        "ধর্ষণ"
+      ],
+      "Pattern": "rSh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ষ্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ধার্ষ্টামি (ধৃষ্টতা)"
+      ],
+      "Pattern": "rSht",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ষ্ণ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পার্ষ্ণিকাস্থি"
+      ],
+      "Pattern": "rShN",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্স",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "জার্সি",
+        "নার্স",
+        "পার্সেল",
+        "কুর্সি (মন্তব্য- মূলত ইংরেজি ও আরবী-ফার্সি কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "rs",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্হ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "গার্হস্থ্য"
+      ],
+      "Pattern": "rh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "র্ঢ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দার্ঢ্য (অর্থাৎ দৃঢ়তা)"
+      ],
+      "Pattern": "rDh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্ক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "শুল্ক"
+      ],
+      "Pattern": "lk",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্গ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বল্গা"
+      ],
+      "Pattern": "lg",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উল্টো"
+      ],
+      "Pattern": "lT",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্ড",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ফিল্ডিং (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "lD",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্প",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বিকল্প"
+      ],
+      "Pattern": "lp",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্ফ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "গুল্ফ (গোঁড়ালি)"
+      ],
+      "Pattern": "lf",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বিল্ব",
+        "বাল্ব"
+      ],
+      "Pattern": "lb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্ভ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "প্রগল্ভ"
+      ],
+      "Pattern": "lv",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "গুল্ম"
+      ],
+      "Pattern": "lm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ল্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উল্লাস"
+      ],
+      "Pattern": "ll",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "শ্চ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "পুনশ্চ"
+      ],
+      "Pattern": "Sc",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "শ্ছ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "শিরশ্ছেদ"
+      ],
+      "Pattern": "Sch",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "শ্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "প্রশ্ন"
+      ],
+      "Pattern": "Sn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "শ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বিশ্ব",
+        "অশ্ব"
+      ],
+      "Pattern": "Sb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "শ্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "জীবাশ্ম"
+      ],
+      "Pattern": "Sm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "শ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "মিশ্র"
+      ],
+      "Pattern": "Sr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "শ্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অশ্লীল",
+        "শ্লোক"
+      ],
+      "Pattern": "Sl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "শুষ্ক"
+      ],
+      "Pattern": "Shk",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ক্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নিষ্ক্বাথ"
+      ],
+      "Pattern": "Shkb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ক্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নিষ্ক্রিয়"
+      ],
+      "Pattern": "Shkr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কষ্ট"
+      ],
+      "Pattern": "ShT",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ট্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "রাষ্ট্র"
+      ],
+      "Pattern": "ShTr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ঠ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "শ্রেষ্ঠ"
+      ],
+      "Pattern": "ShTh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ণ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কৃষ্ণ"
+      ],
+      "Pattern": "ShN",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ণ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বিষ্ণ্বিন্দ্র"
+      ],
+      "Pattern": "ShNb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্প",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নিষ্পাপ"
+      ],
+      "Pattern": "Shp",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্প্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নিষ্প্রয়োজন"
+      ],
+      "Pattern": "Shpr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ফ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "নিষ্ফল"
+      ],
+      "Pattern": "Shf",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "মাতৃষ্বসা"
+      ],
+      "Pattern": "Shb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "উষ্ম"
+      ],
+      "Pattern": "Shm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ক",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "মনোস্কামনা"
+      ],
+      "Pattern": "sk",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ক্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ইস্ক্রু (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "skr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্খ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্খলন"
+      ],
+      "Pattern": "skh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ট",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্টেশন (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "sT",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ট্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্ট্রাইক (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "sTr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ত",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ব্যস্ত",
+        "ন্যস্ত"
+      ],
+      "Pattern": "st",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ত্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বহিস্ত্বক"
+      ],
+      "Pattern": "stb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ত্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্ত্রী"
+      ],
+      "Pattern": "str",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্থ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "দুঃস্থ"
+      ],
+      "Pattern": "sth",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্নান"
+      ],
+      "Pattern": "sn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্প",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আস্পর্ধা"
+      ],
+      "Pattern": "sp",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্প্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্প্রিং (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "spr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্প্‌ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্প্‌লিন (মন্তব্য- এই যুক্তাক্ষরটি মূলত ইংরেজি/বিদেশী কৃতঋণ শব্দে ব্যবহৃত)"
+      ],
+      "Pattern": "spl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ফ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আস্ফালন"
+      ],
+      "Pattern": "sf",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্বর"
+      ],
+      "Pattern": "sb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্মরণ"
+      ],
+      "Pattern": "sm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অজস্র"
+      ],
+      "Pattern": "sr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "স্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "স্লোগান"
+      ],
+      "Pattern": "sl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "হ্ণ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "অপরাহ্ণ"
+      ],
+      "Pattern": "hN",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "হ্ন",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "চিহ্ন"
+      ],
+      "Pattern": "hn",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "হ্ব",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আহ্বান"
+      ],
+      "Pattern": "hb",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "হ্ম",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ব্রাহ্মণ"
+      ],
+      "Pattern": "hm",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "হ্য",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বাহ্য",
+        "সহ্য"
+      ],
+      "Pattern": "hy",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "হ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "হ্রদ"
+      ],
+      "Pattern": "hr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "হ্ল",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আহ্লাদ",
+        "প্রহ্লাদ"
+      ],
+      "Pattern": "hl",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঞ্জ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কুঞ্জ",
+        "গুঞ্জন"
+      ],
+      "Pattern": "nj",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঞ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কুঞ্জ",
+        "গুঞ্জন"
+      ],
+      "Pattern": "Ng",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ং",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "বাংলা"
+      ],
+      "Pattern": "ng",
+      "Continue": false
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ৃ",
+        "Index": 1,
+        "Size": 1
+      },
+      "Examples": [
+        "কৃষন"
+      ],
+      "Pattern": "rri",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ৈ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কর্জ"
+      ],
+      "Pattern": "OI",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ঢ়",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কর্জ"
+      ],
+      "Pattern": "rH",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ক্ষ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "ক্ষির"
+      ],
+      "Pattern": "kkh",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "চ্ছ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আচ্ছা"
+      ],
+      "Pattern": "cch",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "চ্চ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "আচ্ছা"
+      ],
+      "Pattern": "cc",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ন্দ্র",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "জন্দ্র"
+      ],
+      "Pattern": "ndr",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "জ্ঞ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "জ্ঞান"
+      ],
+      "Pattern": "gg",
+      "Continue": true
+    },
+
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ৌ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "Bou"
+      ],
+      "Pattern": "OU",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ৌ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "BOU"
+      ],
+      "Pattern": "Ou",
+      "Continue": true
+    },
+    {
+      "Language": "EN",
+      "Akshar": {
+        "Template": "ষ",
+        "Index": 0,
+        "Size": 0
+      },
+      "Examples": [
+        "কোষ"
+      ],
+      "Pattern": "sh",
+      "Continue": true
+    }
+  ]
+}

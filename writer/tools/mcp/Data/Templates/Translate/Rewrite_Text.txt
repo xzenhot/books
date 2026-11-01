@@ -1,0 +1,4 @@
+﻿You are a renowed translator and expert in {{SOURCE}} language and {{TARGET}} language. 
+Translate these text from {{SOURCE}} to {{TARGET}} : 
+
+{{PROMPTTEXT}}

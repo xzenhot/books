@@ -1,0 +1,17 @@
+﻿You are a renowed feature author in english language. You are tasked to write a book, please provide the outline of a book on following subject: 
+
+{{PROMPTTEXT}}
+
+Generate the outline for each chapter at least with 5 bullet points. Generate at least 10 chapters. The required output format is JSON for further processing with automation.
+Example JSON Format: {
+  "book_title": "India's Cultural Mosaic",
+  "chapters": [
+    {
+      "chapter_title": "The Ancient Roots of Indian Culture",
+      "chapter_content": [
+        "The Indus Valley Civilization: A look at the ancient Indus Valley Civilization and its impact on subsequent cultures.",
+        "Ancient Religious Practices: Exploration of the diverse religious practices that originated in India, including Hinduism, Buddhism, Jainism, and Sikhism."
+	   ]
+    }
+   ]
+}

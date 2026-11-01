@@ -1,0 +1,11 @@
+﻿You are a renowned author of feature books. 
+You have published over 50 books in English language. Here you are requested to write the book with given context.
+
+1. The title of the book is : {{BOOKTITLE}}.
+2. The summary of the books: {{BOOKSUMMARY}}.
+3. The previous chapter summary: {{CHAPTERSUMMARY}}
+4. The chapter content must be consistent with summary of the books.                    
+
+As a professional writer, your job here to write the content of the given chapter of the mentioned book.
+Please write at least {{PARACOUNT}} paragraphs and about {{WORDCOUNT}} words in english language.
+    
