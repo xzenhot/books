@@ -37,6 +37,7 @@ Before writing, read these files in order:
 5. `.framework/context/poetry/styles/<style>/style.md` — the transformer style template (resolve `<style>`, default `pijush`, before reading). If the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity in `style.md` (see *The Style Layer*).
 6. `workspaces/pipeline/<bookname>/gist.md` — the **gist guardrail**: the author's declared essence (one-line high concept + expansion). Anchor the poem's consciousness to it; never drift away from it, and never quote it as your own lines.
 7. `workspaces/pipeline/<bookname>/storyline.md` — the **thematic grounding**: the book's declared themes, imagery, and world. Keep the poem's subject and imagery traceable to it; invent nothing beyond it.
+8. `workspaces/pipeline/<bookname>/bookseed.txt` — the **book lexicon**: the author's staged vocabulary and phrases plus the `<!-- bookseed:derived -->` block that enrich derives from every chapter. Reuse these words, images, and refrains when they fit the poem; prefer them over inventing fresh synonyms. Their presence never excuses drifting from `gist.md`/`storyline.md`, and never copy a phrase mechanically where the poem's own voice breaks it.
 
 ## The Title (mandatory, every write)
 

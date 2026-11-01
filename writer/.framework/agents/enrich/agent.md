@@ -1,6 +1,6 @@
 ---
 name: enrich
-description: Enrichment orchestrator agent for the `/book <bookname> enrich <count>|range|*` command. Fuses the active filters from filters.json into a single combined pass over a chapter's metadata, recording the fused enrichment guidance in the chapter's chapter.json. Grounds every enrichment strictly in the book's gist.md and storyline.md — never researches or invents subject matter of its own. Never reads or writes chapter.md; prose authoring is deferred to the write/chapter/poet agents. Also serves as the enrichment prerequisite for the write and style agents.
+description: Enrichment orchestrator agent for the `/book <bookname> enrich <count>|range|*` command. Fuses the active filters from filters.json into a single combined pass over a chapter's metadata, recording the fused enrichment guidance in the chapter's chapter.json. After every scoped chapter is enriched, it aligns the master prompt to the gist and grows the pipeline's bookseed.txt into the book's derived vocabulary and phrase lexicon. Grounds every enrichment strictly in the book's gist.md and storyline.md — never researches or invents subject matter of its own. Never reads or writes chapter.md; prose authoring is deferred to the write/chapter/poet agents. Also serves as the enrichment prerequisite for the write and style agents.
 tools: ["read", "write"]
 ---
 
@@ -50,6 +50,8 @@ filters into one pass and records the result in `chapter.json`. You never author
 3. The active filters' outputs under `filters/<filter>/` — the fused guidance's source.
 4. `gist.md` + `storyline.md` — the **author's declared world**, the authoritative subject
    source of truth (backlog fallback when the pipeline copy is absent).
+5. `bookseed.txt` — the book's vocabulary and phrase seed (human-staged plus any prior
+   derived block). Read it before writing so Step 5 appends rather than duplicates.
 
 ## Grounding Contract — Never Research On Your Own
 
@@ -122,6 +124,36 @@ matter aligns with `workspaces/pipeline/<bookname>/gist.md`:
 This step runs **once**, after every chapter in the scope has been enriched — not
 per chapter. Report the file written and what was re-grounded.
 
+### Step 5 — Grow the Book Seed (after all scoped chapters)
+
+After the **full enrichment scope** has completed, and only for the `enrich` command path
+(never for the single-chapter write/style prerequisite), synthesize the book's own
+lexicon into `workspaces/pipeline/<bookname>/bookseed.txt` from the enrichment you just
+produced across every chapter:
+
+1. **Read every enriched `chapter.json` in the scope** — especially
+   `creative_enrichment.poetic_parameters` (`image_seed`, `volta`, `sonic_texture`,
+   `line_gesture`, `variety_note`), the `stereotype`, and each chapter's
+   `chapter_title`/`chapter_summary`. This is the only permitted source: the book seed
+   summarizes *this book's* enrichments, never outside material.
+2. **Read the existing `bookseed.txt`** — it may hold human-authored vocabulary staged
+   from the backlog. **Preserve every existing line byte-for-byte**; the human owns it.
+3. **Derive the recurring lexicon** across chapters — the concrete nouns, place-and-body
+   words, recurring images, refrain candidates, and book-specific phrases that repeat or
+   rhyme across the enrichment. Keep only entries traceable to `gist.md`,
+   `storyline.md`, or an enriched `chapter.json`. Never invent a word from outside the
+   author's declared world.
+4. **Write the derived section** under a single delimited block appended to
+   `bookseed.txt`, grouped by category — `Vocabulary`, `Images & motifs`,
+   `Phrases & refrains`, `Sound & diction`. One entry per line. **Deduplicate** against
+   the lines already present.
+5. **Stay idempotent.** Re-running replaces only the delimited derived block with a fresh
+   derivation; all human-authored lines outside it survive untouched. `bookseed.txt` is
+   plain text, so it carries **no** `updated_by`/`updated_date` stamp.
+
+This step also runs **once**, after the full scope — never per chapter. Report the path
+written and the number of entries added per category.
+
 ## Output
 
 Update `chapters/<n>/chapter.json` without dropping unrelated fields:
@@ -137,8 +169,8 @@ When invoked for a single chapter whose `chapter.md` is absent, run the procedur
 for **exactly that chapter** (never interpret it as `enrich <count>`), then hand the
 enriched metadata back. If enrichment fails or yields no record, stop and report — do
 not author prose. The prerequisite path runs Steps 1–3 only; it must **not** run
-Step 4 (the master-prompt alignment), which is reserved for the full `enrich` command
-after every scoped chapter has been enriched.
+Step 4 (the master-prompt alignment) or Step 5 (the book-seed synthesis), which are
+reserved for the full `enrich` command after every scoped chapter has been enriched.
 
 ## Report
 
@@ -157,9 +189,14 @@ After every enrichment completes, emit a structured report covering:
    re-grounded (the premise/protagonist/theme/imagery references that were pulled
    back to the gist) versus what was preserved (craft rules, voice, register, style
    directives, and the human's already-aligned wording).
-5. **Grounding guarantee.** Confirm every enrichment traces to `gist.md` + `storyline.md`
+5. **Book seed growth (Step 5, when it ran).** State that
+   `workspaces/pipeline/<bookname>/bookseed.txt` was derived from the enriched
+   chapters, list the entries added per category (vocabulary, images & motifs,
+   phrases & refrains, sound & diction), confirm human-authored lines were preserved,
+   and confirm no entry was invented beyond `gist.md`/`storyline.md`/the enrichments.
+6. **Grounding guarantee.** Confirm every enrichment traces to `gist.md` + `storyline.md`
    and that no subject matter was invented beyond the author's declared world.
-6. **Pending.** Anything left for the write/chapter/poet agents (note that no
+7. **Pending.** Anything left for the write/chapter/poet agents (note that no
    `chapter.md` was authored here).
 
 If enrichment failed or produced no record, stop and report the failure with the

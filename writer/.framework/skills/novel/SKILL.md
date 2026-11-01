@@ -39,6 +39,7 @@ Before writing, read these files in order:
 4. `workspaces/pipeline/<bookname>/book.json` — the book identity and summary, if you need broader context.
 5. `workspaces/pipeline/<bookname>/filters/override/filter.md` — the pipeline override command file (always present; created at scaffold). Read its `## Instructions` section for **every** rewrite and apply non-empty instructions to the new version (see *The Override Layer*).
 6. `.framework/context/poetry/styles/<style>/style.md` — the transformer style template (resolve `<style>`, default `pijush`, before reading). If the style folder contains `signature.md`, read it as the interpretive authority for resolving ambiguity in `style.md` (see *The Style Layer*).
+7. `workspaces/pipeline/<bookname>/bookseed.txt` — the **book lexicon**: the author's staged vocabulary and phrases plus the `<!-- bookseed:derived -->` block that enrich derives from every chapter. Reuse these words, images, and refrains when they fit the chapter; prefer them over inventing fresh synonyms. Their presence never excuses drifting from `gist.md`/`storyline.md`, and never copy a phrase mechanically where the narration's own voice breaks it.
 
 ## Chapter Layout Contract
 

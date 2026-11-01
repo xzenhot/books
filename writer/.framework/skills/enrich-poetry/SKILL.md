@@ -45,6 +45,10 @@ must serve the poem — its image, its sound, its turn — never a prose arc.
 `chapter.md` is **not** an input here. It is an output file of the writing/authorship
 path; you never read the poem's current prose. You do **not** read the backlog or the epic.
 
+`workspaces/pipeline/<bookname>/bookseed.txt` **is** an input: it holds the book's
+vocabulary and phrase seed. Read it before Step 5 so new derivations append instead of
+duplicating what is already there.
+
 ## Poetic Signature
 
 Each poem is assigned a **poetic signature** — a poet-stereotype that gives the poem its
@@ -211,6 +215,48 @@ this enrichment metadata and compose `chapter.md` accordingly.
 - **Form-correct** — the recorded enrichment states the target form `poetry` and names the chosen signature and style.
 - **Ready** — no further filter pass is required before write or publish.
 
+## Step 4 — Grow the Book Seed (after all scoped poems)
+
+After the **full enrichment scope** has completed — never per poem, and never on the
+single-chapter write/style prerequisite — synthesize this book's own lexicon into
+`workspaces/pipeline/<bookname>/bookseed.txt`. The point of the ordering: by now every
+poem's `creative_enrichment` exists, so the recurring words and images of the whole book
+are visible at once.
+
+1. **Read every enriched poem in the scope.** Source the lexicon from
+   `creative_enrichment.poetic_parameters` (`image_seed`, `volta`, `sonic_texture`,
+   `line_gesture`, `variety_note`), each poem's `stereotype`, and its
+   `chapter_title`/`chapter_summary`. Nothing outside this book's own enrichment may
+   enter the seed.
+2. **Read the existing `bookseed.txt`.** Human-authored lines staged from the backlog
+   are the author's own words — **preserve every line byte-for-byte**.
+3. **Derive the recurring lexicon.** Keep the concrete nouns, place-and-body words,
+   recurring images and motifs, refrain and phrase candidates, and sound-notes that
+   recur across poems or carry the book's signature. Every entry must trace to
+   `gist.md`, `storyline.md`, or an enriched `chapter.json`; invent no word from outside
+   the author's declared world.
+4. **Append one delimited block**, grouped and deduplicated against existing lines:
+
+   ```text
+   <!-- bookseed:derived -->
+   Vocabulary
+   <word or phrase>
+
+   Images & motifs
+   <image or motif>
+
+   Phrases & refrains
+   <phrase>
+
+   Sound & diction
+   <sound note>
+   <!-- /bookseed:derived -->
+   ```
+
+5. **Stay idempotent.** Re-running the enrich replaces only the content between the
+   markers; everything outside them survives untouched. `bookseed.txt` is plain text and
+   carries **no** audit stamp.
+
 ## Output
 
 1. **Chapter model** — update `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` without dropping unrelated fields:
@@ -224,6 +270,11 @@ this enrichment metadata and compose `chapter.md` accordingly.
      `line_gesture`, `variety_note`), merged into any existing `creative_enrichment`
      without discarding it.
 
+- **Book seed** — after the full scope, `workspaces/pipeline/<bookname>/bookseed.txt`
+  gains a `<!-- bookseed:derived -->` block holding the book's recurring vocabulary,
+  images & motifs, phrases & refrains, and sound notes (Step 4). Plain text; no audit
+  stamp; human-authored lines preserved.
+
 `chapter.md` is **not** written here; it is written only later by the writing/authorship
 agents. Do not write to `workspaces/published/`. Do not create per-filter files. Do not overwrite
 unrelated `chapter.json` fields.
@@ -231,4 +282,5 @@ unrelated `chapter.json` fields.
 ## Report
 
 Report the resolved active filters, the fused order, the poetic signature and style
-assigned, the poems processed, and the resulting `state`.
+assigned, the poems processed, and the resulting `state`. When Step 4 ran, also report the
+book-seed path and the entries added per category.

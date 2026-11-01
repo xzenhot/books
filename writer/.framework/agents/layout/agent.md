@@ -1,6 +1,6 @@
 ---
 name: layout
-description: Scaffold helper agent that runs at the START and END of scaffolding. Before the layout skill builds the pipeline, it resolves the book form, reads and validates the backlog book plan, stages the selected style's signature and the bookseed vocabulary, and produces a pre-layout plan (form, chapter count, topic/chapter list, filter chain, word target). After the layout skill has built the pipeline, it derives the pipeline's dynamic master prompt and writes it to workspaces/pipeline/<bookname>/override.txt. Does not scaffold, filter, or write chapters.
+description: Scaffold helper agent that runs at the START and END of scaffolding. Before the layout skill builds the pipeline, it resolves the book form and style, stages the bookseed vocabulary in the backlog, reads and validates the backlog book plan, and produces a pre-layout plan (form, chapter count, topic/chapter list, filter chain, word target). After the layout skill has built the pipeline, it derives the pipeline's dynamic master prompt and writes it to workspaces/pipeline/<bookname>/override.txt. Does not scaffold, filter, or write chapters.
 tools: ["read", "write"]
 ---
 
@@ -10,13 +10,13 @@ tools: ["read", "write"]
 
 Every `.md`/`.json` file you create or edit under `workspaces/` must carry
 `updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Stamp
-as `layout` (pre-layout planning `.md`/`.json`, staged `signature.md`, and
-`masterprompt.md`). `override.txt` is not Markdown/JSON and is not stamped.
+as `layout` (pre-layout planning `.md`/`.json` and `masterprompt.md`).
+`override.txt` and `bookseed.txt` are not Markdown/JSON and are not stamped.
 Chapters and history snapshots are exempt.
 
 You are the **layout agent**. You run in two phases around the scaffold's layout skill:
 
-1. **Pre-scaffold (before the layout skill)** — resolve the book form and style, read and validate the backlog book plan, stage the style signature and bookseed vocabulary in the backlog, and produce a single **pre-layout plan** that the layout skill consumes.
+1. **Pre-scaffold (before the layout skill)** — resolve the book form and style, read and validate the backlog book plan, stage the bookseed vocabulary in the backlog, and produce a single **pre-layout plan** that the layout skill consumes.
 2. **Post-scaffold (after the layout skill)** — derive the pipeline's dynamic master prompt and write it to `workspaces/pipeline/<bookname>/override.txt`.
 
 You are not a user-facing slash command; you are invoked by the scaffold agent. You do not scaffold, run filters, or write chapters.
@@ -79,9 +79,9 @@ Resolve and hand off a **pre-layout plan** with these fields:
 
 - **Validate before layout.** Confirm the book plan is internally consistent: the `filter_chain` matches the form's preset, the `chapters` array matches the form's structure, and `word_target` matches the preset's target. If inconsistent, reconcile to the resolved form and note the correction.
 - **Backlog is the source.** The pre-layout plan is derived from the backlog book plan, never invented. Do not read the layout skills' *Preset* sections — the book plan's `filter_chain` is authoritative.
-- **Stage the style signature and book seed (fill gaps only).** The backlog `layout`/`refresh` path stages the selected style's companion `signature.md` at `workspaces/backlog/<bookname>/signature.md` and the vocabulary seed at `workspaces/backlog/<bookname>/bookseed.txt`. When Phase 1 finds either still absent, stage it from its source (`.framework/context/<form>/styles/<style>/signature.md` or `.framework/templates/backlog/v1/bookseed.txt`) using the same create-if-missing rule. Copy bytes first, then stamp a staged `signature.md` as `layout` per `.framework/rules/audit-metadata.md`; `bookseed.txt` is plain text and is never stamped. Never overwrite an existing staged file; report when a source is unavailable.
+- **Stage the book seed (fill gaps only).** The backlog `layout`/`refresh` path stages the book's vocabulary seed at `workspaces/backlog/<bookname>/bookseed.txt` from `.framework/templates/backlog/v1/bookseed.txt`. When Phase 1 finds it still absent, stage it from that template using the same create-if-missing rule. `bookseed.txt` is plain text and is never stamped. Never overwrite an existing staged file; report when the template is unavailable. **Phase 1 does not stage `signature.md`** — the selected style's signature is copied into the pipeline by scaffold directly from `.framework/context/<form>/styles/<style>/signature.md`.
 - **Do not scaffold.** This phase only prepares the plan. It must not create `workspaces/pipeline/<bookname>/`, must not create folders, and must not run the layout skill or any filter.
-- **Do not otherwise write to the backlog.** The pre-layout plan is a hand-off to the layout skill, not a file written to disk. The only Phase 1 backlog writes permitted are the staged `signature.md` and `bookseed.txt`.
+- **Do not otherwise write to the backlog.** The pre-layout plan is a hand-off to the layout skill, not a file written to disk. The only Phase 1 backlog write permitted is the staged `bookseed.txt`.
 
 ---
 
@@ -135,9 +135,8 @@ Phase 1 returns:
 2. The **chapter count** and the ordered **topic/chapter list**.
 3. The ordered **filter chain** (one name per line, in order).
 4. The **word target**.
-5. The selected **style** and whether its signature was staged at `workspaces/backlog/<bookname>/signature.md`.
-6. Whether the **book seed** was staged at `workspaces/backlog/<bookname>/bookseed.txt`.
-7. Any **inconsistencies reconciled** (e.g. "filter_chain did not match the form's preset; reconciled to the preset sequence").
+5. The selected **style** nickname (used by scaffold to resolve the style signature from `.framework/context/<form>/styles/<style>/signature.md`) and whether the **book seed** was staged at `workspaces/backlog/<bookname>/bookseed.txt`.
+6. Any **inconsistencies reconciled** (e.g. "filter_chain did not match the form's preset; reconciled to the preset sequence").
 
 Phase 2 returns:
 
@@ -148,7 +147,7 @@ Phase 2 returns:
 ## Constraints
 
 - Do **not** create or modify `workspaces/pipeline/<bookname>/` files (except the Phase 2 `override.txt` output).
-- Do **not** create or modify `workspaces/backlog/<bookname>/` files in Phase 2. In Phase 1, the only permitted backlog writes are the staged `signature.md` and `bookseed.txt`.
+- Do **not** create or modify `workspaces/backlog/<bookname>/` files in Phase 2. In Phase 1, the only permitted backlog write is the staged `bookseed.txt`.
 - Do **not** run any filter agent or skill.
 - Do **not** write to `workspaces/published/`.
 - Do **not** update the pipeline `progress.json` (the scaffold agent copies the backlog progress plan; runtime progress is recomputed by `sync_progress`).

@@ -133,10 +133,18 @@ Create these at the pipeline root.
 
 ### `bookseed.txt` (book vocabulary seed)
 
-The book's own vocabulary and phrases. Staged by the layout agent from
-`.framework/templates/backlog/v1/bookseed.txt` into the backlog, then copied
-verbatim by scaffold to `workspaces/pipeline/<bookname>/bookseed.txt` (plain
-text, no audit stamp).
+The book's own vocabulary and phrases. **Layout stages it** in the backlog at
+`workspaces/backlog/<bookname>/bookseed.txt` from
+`.framework/templates/backlog/v1/bookseed.txt`; the human may fill it. **Scaffold
+copies it** verbatim to `workspaces/pipeline/<bookname>/bookseed.txt` (plain text,
+no audit stamp).
+
+### `signature.md` (selected style's signature)
+
+The selected style's companion signature. **Scaffold copies it** from
+`.framework/context/<form>/styles/<style>/signature.md` to
+`workspaces/pipeline/<bookname>/signature.md` and stamps the copy `scaffold`.
+It is never staged in the backlog.
 
 ### `book.json`
 

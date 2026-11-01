@@ -150,26 +150,18 @@ into it.
 
 ### `bookseed.txt` (book vocabulary seed)
 
-The book's own vocabulary and phrases. Staged by the layout agent from
-`.framework/templates/backlog/v1/bookseed.txt` into the backlog, then copied
-verbatim by scaffold to `workspaces/pipeline/<bookname>/bookseed.txt` (plain
-text, no audit stamp). Treat each line as a reusable word or phrase for this book.
+The book's own vocabulary and phrases. **Layout stages it** in the backlog at
+`workspaces/backlog/<bookname>/bookseed.txt` from
+`.framework/templates/backlog/v1/bookseed.txt`; the human may fill it. **Scaffold
+copies it** verbatim to `workspaces/pipeline/<bookname>/bookseed.txt` (plain text,
+no audit stamp). Treat each line as a reusable word or phrase for this book.
 
-### `bookseed_outline.md` (new — storyline-derived summary outline)
+### `signature.md` (selected style's signature)
 
-A **human-readable** numbered outline generated from
-`workspaces/backlog/<bookname>/storyline.md` (grounded in its Premise, Poetic
-Voice, Thematic Threads, Topical Structure, and World-Building sections, plus
-each chapter's `chapter_title`/`chapter_summary` from the book plan). One entry
-per chapter in writing order:
-
-```text
-1. <Title> — <one-line summary distilled from the storyline> [Image: <key image>; Question: <open question>]
-```
-
-Rules: never invent plot, names, places, or events absent from the storyline;
-each summary must trace to the storyline or the chapter's own plan summary;
-preserve writing order identical to `book.json`'s `chapters[]`.
+The selected style's companion signature. **Scaffold copies it** from
+`.framework/context/<form>/styles/<style>/signature.md` to
+`workspaces/pipeline/<bookname>/signature.md` and stamps the copy `scaffold`.
+It is never staged in the backlog.
 
 ### `progress.json`
 
@@ -282,7 +274,7 @@ Do not write poem chapters or `book.md` during layout.
 
 Before reporting completion, verify:
 
-- Root files exist: `book.json`, `bookseed_outline.md`, and `progress.json`.
+- Root files exist: `book.json`, `bookseed.txt`, `signature.md`, and `progress.json`.
 - `filters/override/filter.md` exists — the override command file (no pipeline-root `override.md`).
 - `filters/filters.json` exists and names all seven poetry filters in order. No per-filter folders are created at scaffold; each filter creates its folder on first run.
 - Every topic has one numeric chapter folder.

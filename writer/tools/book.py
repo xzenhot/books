@@ -492,54 +492,6 @@ def ensure_backlog_bookseed(book_dir: Path) -> Path:
     return staged
 
 
-def ensure_backlog_signature(book_dir: Path, form: str) -> Path:
-    """Stage the selected style's companion signature in the backlog.
-
-    Layout copies the style's ``signature.md`` from
-    ``.framework/context/<form>/styles/<style>/signature.md`` into
-    ``workspaces/backlog/<bookname>/signature.md`` so ``scaffold`` can carry it
-    into the pipeline. The style resolves from the backlog plan's ``style``
-    field, defaulting per form (``pijush`` for poetry, ``dialogue`` for novels).
-
-    An existing backlog copy is always preserved — it may be human-edited — so
-    staging is create-if-missing only.
-
-    Args:
-        book_dir: Path to the backlog folder for this book.
-        form:     Resolved ``poetry`` or ``novel``.
-    """
-    staged = book_dir / "signature.md"
-    if staged.exists():
-        return staged
-
-    form_folder = "poetry" if form == "poetry" else "novel"
-    default_style = "pijush" if form_folder == "poetry" else "dialogue"
-    style = default_style
-    plan_file = book_dir / "book.json"
-    if plan_file.is_file():
-        try:
-            plan = json.loads(plan_file.read_text(encoding="utf-8-sig"))
-        except (json.JSONDecodeError, OSError):
-            plan = {}
-        declared = plan.get("style")
-        if isinstance(declared, str) and declared.strip():
-            style = declared.strip()
-
-    if style in {".", ".."} or any(char in style for char in "/\\"):
-        print(f"  signature.md: unsafe style name {style!r}; skipped")
-        return staged
-
-    source = REPO_ROOT / ".framework" / "context" / form_folder / "styles" / style / "signature.md"
-    if not source.is_file():
-        print(f"  signature.md: no companion signature for {form_folder} style {style!r}; skipped")
-        return staged
-
-    book_dir.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(source, staged)
-    stamp_markdown_file(staged, "layout")
-    return staged
-
-
 def make_epic(
     bookname: str,
     form: str,
@@ -1500,17 +1452,12 @@ def create_backlog(
     # scaffold copies it into the pipeline.
     bookseed_file = ensure_backlog_bookseed(book_dir)
 
-    # Selected style's companion signature — staged here so scaffold can copy
-    # it into the pipeline root.
-    signature_file = ensure_backlog_signature(book_dir, form)
-
     print(f"Backlog created → {book_dir}")
     print(f"  gist.md  : {gist_file}")
     print(f"  storyline.md  : {epic_file}")
     print(f"  book.json: {book_file}")
     print(f"  progress.json: {progress_file}")
     print(f"  bookseed.txt: {bookseed_file}")
-    print(f"  signature.md: {signature_file}")
     print(f"  materials/ : {materials_dir}")
     print(f"  form: {form} | chapters: {len(chapters)} | refreshed: {refresh}")
 
@@ -1566,15 +1513,11 @@ def run_layout(
     # scaffold copies it into the pipeline.
     bookseed_file = ensure_backlog_bookseed(book_dir)
 
-    # 5. Stage the selected style's companion signature for scaffold to copy.
-    signature_file = ensure_backlog_signature(book_dir, form)
-
     print(f"Layout complete → {book_dir}")
     print(f"  storyline.md  : {book_dir / 'storyline.md'}")
     print(f"  book.json: {book_dir / 'book.json'}")
     print(f"  progress.json: {progress_file}")
     print(f"  bookseed.txt: {bookseed_file}")
-    print(f"  signature.md: {signature_file}")
     print(f"  form: {form} | chapters: {chapter_count or '(from book.json)'}")
 
 
@@ -1667,45 +1610,28 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
         if src.is_file():
             shutil.copy2(src, pipeline / src_name)
 
-    # Keep a staged copy of the selected style signature in the backlog, then
-    # carry it into the pipeline snapshot without replacing existing content.
+    # Scaffold never writes to the backlog. The selected style's signature and
+    # the book's vocabulary seed are resolved from their framework sources and
+    # copied straight into the pipeline snapshot.
     signature_source = REPO_ROOT / ".framework" / "context" / "novel" / "styles" / style / "signature.md"
-    signature_stage = book_dir / "signature.md"
-    if not signature_stage.exists():
-        if signature_source.is_file():
-            shutil.copy2(signature_source, signature_stage)
-            stamp_markdown_file(signature_stage, "layout", stamp)
-        else:
-            print(f"No style signature found for novel style '{style}'; continuing without one")
-    else:
-        print("Preserving existing staged style signature")
     signature_dest = pipeline / "signature.md"
-    if signature_stage.is_file() and not signature_dest.exists():
-        shutil.copy2(signature_stage, signature_dest)
+    if signature_source.is_file():
+        shutil.copy2(signature_source, signature_dest)
         stamp_markdown_file(signature_dest, "scaffold", stamp)
         print("Copied style signature into the pipeline")
-    elif signature_dest.exists():
-        print("Preserving existing pipeline style signature")
-
-    # The book seed hosts the book's own vocabulary and phrases. Stage the
-    # template in the backlog, then copy it into the pipeline. The pipeline is
-    # always fresh here (re-scaffold is refused), so the backlog copy wins over
-    # the placeholder that the cloned v1 template tree placed at the root.
-    bookseed_source = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "bookseed.txt"
-    bookseed_stage = book_dir / "bookseed.txt"
-    if not bookseed_stage.exists():
-        if bookseed_source.is_file():
-            shutil.copy2(bookseed_source, bookseed_stage)
-        else:
-            print("No bookseed template found; continuing without a staged bookseed.txt")
     else:
-        print("Preserving existing staged bookseed.txt")
+        print(f"No style signature found for novel style '{style}'; continuing without one")
+
+    bookseed_source = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "bookseed.txt"
+    bookseed_backlog = book_dir / "bookseed.txt"
     bookseed_dest = pipeline / "bookseed.txt"
-    if bookseed_stage.is_file():
-        shutil.copy2(bookseed_stage, bookseed_dest)
+    if bookseed_backlog.is_file():
+        # Prefer the backlog copy: the human may have filled it with this book's words.
+        shutil.copy2(bookseed_backlog, bookseed_dest)
         print("Copied bookseed.txt into the pipeline")
-    elif bookseed_dest.exists():
-        print("Preserving template bookseed.txt in the pipeline")
+    elif bookseed_source.is_file():
+        shutil.copy2(bookseed_source, bookseed_dest)
+        print("Copied template bookseed.txt into the pipeline")
 
     # --- Root pipeline files ---
     (pipeline / "book.json").write_text(

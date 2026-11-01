@@ -1,3 +1,6 @@
+- **updated_by:** scaffold
+- **updated_date:** 2026-11-01T18:01:23Z
+
 This is the Style, Pijush Biswas (পীযূষকান্তি বিশ্বাস) , the poet from New Delhi.
 
 Pijush is a Bengali Poet, he is actually from Bahirgachi , a small village from Nadia District of West Bengal.
@@ -212,9 +215,6 @@ Take all five. Condense them into this:
 
 
 # More Characteristice
-
-- **updated_by:** layout
-- **updated_date:** 2026-11-01T17:53:00Z
 
 **15 powerful items**, completely formatted with matching structural depth (explaining both how it shifts preferences/what it means, and its poetic/mass impact) to resonate deeply with both literature and mass Indian sentiment:
 
