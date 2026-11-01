@@ -16,7 +16,7 @@ If a command stopped early (missing prerequisite, boundary violation, no-op), st
 
 ## Next-Step Mapping by Command
 
-Use this table to choose the recommended follow-up command. Remember the boundary: backlog commands never touch the pipeline, and pipeline commands never touch the backlog. Commands are listed for both workflows.
+Use this table to choose the recommended follow-up command. Remember the boundary: backlog commands never touch the pipeline; pipeline commands normally do not touch the backlog, except for scaffold's explicitly authorized signature staging and filter-chain repair. Commands are listed for both workflows.
 
 ### Backlog commands (`.framework/workflows/backlog.md`)
 

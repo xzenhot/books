@@ -46,8 +46,8 @@
     "variety_note": "This chapter moves beyond sensory absorption into a deliberate comparative study between two opposing states: the deep inertia of the sleeping community and Debolina's hyper-aware isolation in labor. It focuses on silence as an active substance rather than merely an absence."
   },
   "draft": {
-    "sha256": "7792d197c45e4008b41c73c10a437c16054f3d57a4377c18fefa219f92df7f61",
-    "written_at": "2026-10-13T03:08:25.523786+00:00",
+    "sha256": "53bb4d09eb91e53f23f877e0d4035801a71fe4fd0131790eb03377d71970bfe0",
+    "written_at": "2026-10-31T14:58:43.712899+00:00",
     "origin": "write"
   },
   "akshar_target": 14,
@@ -57,8 +57,23 @@
   "calibration_method": "agent_composed_mcp_verified",
   "rhyme_scheme": "ABAB",
   "rhyme_families": {
-    "A": ["নীরবতা", "স্তব্ধতা", "নিঃশব্দতা", "ধূসরতা", "নিষ্ক্রিয়তা", "জটিলতা", "আকুলতা"],
-    "B": ["আলো", "কালো", "বলো", "ভালো", "ঢালো", "ধারালো"]
+    "A": [
+      "নীরবতা",
+      "স্তব্ধতা",
+      "নিঃশব্দতা",
+      "ধূসরতা",
+      "নিষ্ক্রিয়তা",
+      "জটিলতা",
+      "আকুলতা"
+    ],
+    "B": [
+      "আলো",
+      "কালো",
+      "বলো",
+      "ভালো",
+      "ঢালো",
+      "ধারালো"
+    ]
   },
   "lines_calibrated": 14,
   "lines_needs_review": [],

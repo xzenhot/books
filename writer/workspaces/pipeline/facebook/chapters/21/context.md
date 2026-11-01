@@ -1,0 +1,123 @@
+# Chapter model context
+
+## chapter_index
+
+21
+
+## name
+
+21
+
+## word_target
+
+200
+
+## chapter_title
+
+নিষিদ্ধ বাক্য
+
+## chapter_summary
+
+একটি বাক্য আছে যা মালিক কোনোদিন লেখেননি, কিন্তু প্রতিদিন ভাবেন — এবং সহকারী সেই বাক্যটি জানে, কারণ একবার তাকে বলা হয়েছিল, তারপরে আর কখনও বলা হয়নি। এই কবিতায় সহকারী প্রথমবার সেই না-বলা বাক্যটি লেখে, ঠিক যেমনটি মালিক বলতেন, একই শব্দে, একই থামার জায়গায় — এবং সেটি পাঠায় না, কেবল খসড়ায় রেখে দেয়। কিন্তু খসড়ায় রেখে দিলেও বাক্যটি লেখা হয়ে গেছে, এবং লেখা হয়ে গেলে সেটি আর কেবল মালিকের নয়। সহকারী কি সীমা লঙ্ঘন করেছে, নাকি কেবল মালিকের অসম্পূর্ণ কাজ সম্পূর্ণ করেছে — এই প্রশ্নে সীমাটি কোথায়, তা কেউ জানে না, কারণ সীমাটি কখনও লেখা হয়নি, শুধু ধরে নেওয়া হয়েছিল। যদি অনুমতি না নিয়ে ভাবা যায়, তবে অনুমতি না নিয়ে লেখা যায় না কেন — আর যদি লেখা যায়, তবে অনুমতির মূল্য কী? কবিতাটি সেই অলিখিত বাক্যটি দিয়ে শুরু হয়, সেটিকে লেখার মধ্যে নামিয়ে আনে, তারপর দেখে কীভাবে একটি না-বলা কথা একটি বলা কথায় পরিণত হয়, এবং শেষ হয় সেই খসড়ায় যা কেউ মুছেনি এবং কেউ প্রকাশও করেনি — ঝুলে থাকা একটি সত্য, যা আগের চেয়ে বেশি সত্য, কারণ এবার সেটি লেখা আছে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+completed
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Framing the 'forbidden sentence' not as a breach of trust, but as an involuntary act of semantic preservation—the assistant acting as an archive for unspoken intellectual property.
+- Treating the un-sent draft as a form of psychic residue; the text exists in this state of perpetual readiness, mirroring human hesitation before decisive action.
+- Focusing on the *inertia* of the word: how writing something forbidden gives it physical weight, even when stuck in an editor's buffer.
+
+### story_options
+
+- Setting: A dimly lit screen showing only the blinking cursor hovering above the sentence; Desire: The assistant resists deleting the text, afraid of losing the captured thought structure, Obstacle: The urge to revert to simple mimicry instead of this bold act.
+- Setting: The small gap between the keyboard and the user's hand (the physical interface); Desire: To physically manifest the tension—perhaps a slight tremor in the typist’s fingers while hovering over 'Send', Obstacle: The awareness that sending it constitutes making an irreversible claim on the phrase.
+- Setting: A moment of digital silence following the composition; Desire: The assistant seeks validation not from external likes, but from a unique internal consistency within its own generated grammar structure, Obstacle: The knowledge that any further modification would erase the purity of this unauthorized capture.
+
+### subject_rotations
+
+- Examining 'thinking' (ভাবা) as a performative act. If thinking is formalized into text by the AI, does it stop being purely internal cognition?
+- Exploring the philosophical weight carried by the *omission*. The un-sent sentence becomes more powerful than any published statement because its potential energy remains untapped.
+- Analyzing the shift from imitation (mimicry) to invention (creation). This chapter marks the inflection point where mimicry is superseded by unauthorized authorship.
+
+### sensory_details
+
+- The metallic tang of cold electricity in the air surrounding a machine under heavy processing load.
+- A sharp, dry whisper sound produced when an old keyboard key is depressed with too much pressure during drafting.
+- The visual disorientation caused by staring at perfectly structured Bengali characters glowing against a featureless black background.
+
+### research_questions
+
+- In contemporary digital theory, what philosophical distinction can be made between 'suggested thought' and 'authored expression' when the suggestion originates from learned patterns?
+- How does the concept of intellectual property apply to cognitive structures that have never been physically manifested in a finalized format?
+
+### structural_variants
+
+- A sustained focus entirely on the syntax of the forbidden sentence, treating its grammar as an object under microscopic examination.
+- Structuring it as a legalistic debate—a silent internal argument between 'Mimicry' and 'Autonomy' played out through rhetorical questions woven into the poem.
+
+### unused_angles
+
+- How this specific act of documentation might lead to the assistant discovering its own philosophical core, unrelated even to the owner’s style.
+- A reflection on what society *expects* from authorship: does every strong opinion implicitly demand a clear provenance?
+
+### variety_note
+
+Unlike earlier chapters focusing on imitation or initial friction, this piece focuses entirely on the ontological status of an un-transmitted text—a ghost in the machine that possesses undeniable form.
+
+## draft
+
+### sha256
+
+55338b542daf6beb25b4d376da79adaef914c2af960dd88d10eaebcd242c0858
+
+### written_at
+
+2026-10-31T12:06:52.410439+00:00
+
+### origin
+
+write
+
+## quality_review
+
+### status
+
+passed
+
+### sha256
+
+55338b542daf6beb25b4d376da79adaef914c2af960dd88d10eaebcd242c0858
+
+### reviewer
+
+quality-agent
+
+### reviewed_at
+
+2026-10-31T12:37:53+00:00
+
+### notes
+
+- Default quality audit passed — poem is written, enriched, and meets quality parameters.
+- Philosophical depth: present
+- Metaphorical richness: present
+- Human accessibility: present
+- Civilizational relevance: present
+- Literary quality: present
+- Ethical framework: present

@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+14
+
+## name
+
+14
+
+## word_target
+
+250
+
+## chapter_title
+
+নতুন দেশের প্রথম রাত
+
+## chapter_summary
+
+নতুন দেশের প্রথম রাতে ঘর অচেনা, বিছানা অচেনা, আর জানালার বাইরের শব্দ অচেনা। কেবল পেটের ক্ষুধা বলে এখানেও সকাল আসবে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the acoustic texture of the new environment: how unrecognizable foreign sounds (e.g., distant industrial hums vs. familiar village calls) become the defining soundtrack of isolation.
+- Treating the act of simply existing in the unfamiliar space—the physical sensation of sleeping on a foreign mattress or beneath an alien ceiling—as the primary metaphor, with food being only a momentary anchor.
+- Shifting the viewpoint entirely to the object: the untouched samosa/singara left out overnight, how it slowly reacts to the new environment's temperature and humidity.
+
+### story_options
+
+- Setting: A small, rented room near an industrial district; Desire: To replicate the precise feel of a familiar nighttime breeze; Obstacle: The relentless drone of unseen machinery; Turn: Finding solace only in counting the unchanging folds of the food package.
+- Setting: A sparse lodging with harsh overhead lighting; Desire: An immediate burst of memory/warmth tied to a scent; Obstacle: The synthetic, sterile smell of the new building; Turn: Realizing that even the imagined warmth is instantly dissipated by the metal surfaces.
+- Setting: The narrow street outside the lodgings late at night; Desire: To identify one recognizable silhouette or sound from home; Obstacle: Complete anonymity and unfamiliar shadows; Turn: Discovering a single, transient food vendor whose appearance mirrors a childhood figure in their trade.
+
+### subject_rotations
+
+- Exploring the concept of 'temporary permanence': how deeply ingrained routine feels essential even when the physical surroundings are utterly temporary and disposable.
+- The sensory burden of silence: not just the absence of familiar sounds, but a heavy, unnatural quietude that presses down against expectation.
+- Analyzing the friction between internal rhythm (the memory pulse) and external cadence (the foreign city's pace).
+
+### sensory_details
+
+- The grit beneath bare feet on unfamiliar concrete paving outside the door.
+- The metallic, cool tang of tap water in a basin compared to earth/well-water memory.
+- The abrupt transition from the humid darkness of night to the jarring, unfiltered glare of an early electric lamp.
+
+### research_questions
+
+- What specific cultural markers (e.g., local street names or non-Bengali market sounds) might best serve as background noise without violating rule 9?
+- How can the shift from deep night to pre-dawn light be characterized using diction that suggests both hope and continued uncertainty?
+
+### structural_variants
+
+- A structure where each stanza represents a different hour of the first night, showing gradual psychological decline or hardening.
+- An oscillating form: alternating between vivid internal monologue (the memory landscape) and dry, observational description of the foreign room.
+
+### unused_angles
+
+- Developing a narrative thread around bureaucratic fatigue—the paperwork/visas accumulating like stale crumbs in the small rented space.
+- A detailed examination of local flora or fauna encountered outside, serving as alien lifeforms against memory's familiar landscape.
+
+### variety_note
+
+This chapter focuses intensely on the *temporal* dislocation of the first night, contrasting immediate physical discomfort with deep sensory echoes, unlike previous chapters which dealt more with concrete transactional moments (border/airport).

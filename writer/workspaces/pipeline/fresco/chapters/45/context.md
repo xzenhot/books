@@ -84,11 +84,11 @@ This chapter pivots from merely describing her labor in isolation (Part II) to a
 
 ### sha256
 
-aa98a4826b7e31bbbbe4d9aa7e169ba17d2fff9162e6a6488f2b962962e5b653
+9a3970f5fb36ed8e7b74890dad4142300137cb0a1e633159c0aee7a900b35ee5
 
 ### written_at
 
-2026-10-11T18:38:06.175124+00:00
+2026-10-13T03:13:37.950320+00:00
 
 ### origin
 

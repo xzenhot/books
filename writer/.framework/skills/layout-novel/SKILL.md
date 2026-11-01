@@ -131,6 +131,13 @@ Do not copy a mood-template directory into the pipeline.
 
 Create these at the pipeline root.
 
+### `bookseed.txt` (book vocabulary seed)
+
+The book's own vocabulary and phrases. Staged by the layout agent from
+`.framework/templates/backlog/v1/bookseed.txt` into the backlog, then copied
+verbatim by scaffold to `workspaces/pipeline/<bookname>/bookseed.txt` (plain
+text, no audit stamp).
+
 ### `book.json`
 
 The root file is the book plan — a clone of the backlog `book.json`. It carries both the identity/runtime fields and the chapter layout.

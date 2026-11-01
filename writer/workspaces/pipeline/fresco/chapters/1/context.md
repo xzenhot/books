@@ -83,11 +83,11 @@ This chapter establishes the foundational philosophical rejection required for D
 
 ### sha256
 
-5ff99dfcc45e867b356aaa029936d726c541a24e1554d1c03cbf26b047702fac
+d6621870b4d2261049826cd8c15c194be21eb3eed84cb8610e44590d66d30baa
 
 ### written_at
 
-2026-10-11T18:30:20.763200+00:00
+2026-10-13T03:05:29.255043+00:00
 
 ### origin
 

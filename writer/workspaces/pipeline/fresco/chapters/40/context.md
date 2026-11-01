@@ -83,11 +83,11 @@ Unlike poems that focus on established cycles (like color endurance or market rh
 
 ### sha256
 
-e954fb8e21836bc49b168f4e4bb4f60e6370960efe95da17ebf48dd33e0ba281
+66427e58460ccf4e84a2d5037e25f0a752a9e1dff82170971a4a189f0e19f9fc
 
 ### written_at
 
-2026-10-11T18:37:14.652122+00:00
+2026-10-13T03:12:42.500542+00:00
 
 ### origin
 

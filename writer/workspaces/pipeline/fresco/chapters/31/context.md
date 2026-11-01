@@ -86,11 +86,11 @@ This chapter shifts emphasis from internal emotional landscape (as seen in prior
 
 ### sha256
 
-344c9c3f783932451b1f84cffd1de593122c836ea952591bfc9ffddb58b8f9d9
+3d43e4796ae6349aab6de524fa372c015465b0a7bbd618c174d2de41b31db09e
 
 ### written_at
 
-2026-10-11T18:35:36.391466+00:00
+2026-10-13T03:11:01.590007+00:00
 
 ### origin
 

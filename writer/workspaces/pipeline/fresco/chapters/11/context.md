@@ -85,11 +85,11 @@ While previous chapters explored sensory absorption (smells, light) and external
 
 ### sha256
 
-c92b8261367f85193e617c60e1fd38559941d069947bf68593626a3e59e1b205
+dcdf2c35fb79869fcd1d9825d591cdbec3c73408267a43d8499284d4e0020260
 
 ### written_at
 
-2026-10-11T18:32:07.536529+00:00
+2026-10-13T03:07:18.452112+00:00
 
 ### origin
 

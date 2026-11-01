@@ -85,11 +85,11 @@ Unlike the focus on material failures in Chapter 25 or chromatic depth in Chapte
 
 ### sha256
 
-1f18bb034e448167a9f339d128adf56dc54eb909477a0eb7a887b0c0264636a5
+41e1704eaf04d3dc3e8181f8a5f2a4f588694c846eb72cea81787e97b26c711e
 
 ### written_at
 
-2026-10-11T18:35:03.547561+00:00
+2026-10-13T03:10:27.914472+00:00
 
 ### origin
 

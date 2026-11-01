@@ -24,12 +24,20 @@ Rules:
    already named in that section or in the chapter's own model. Do not research, do not
    web-search, do not recall external facts. If the author has not written it, leave the
    field empty or mark it "(not in source)".
+0a. HOW vs WHAT. The "AUTHOR'S MANDATED VOICE" section (override.txt) governs
+   HOW every field is phrased: register, diction mix, imagery family, sentence rhythm,
+   and the sample poems' cadence. The "AUTHOR'S DECLARED WORLD" section governs WHAT the
+   enrichment may be about. Both bind at once. If they appear to conflict, the voice
+   wins on phrasing and the declared world wins on subject matter — never let one erase
+   the other. Never quote a sample poem verbatim; match its cadence and diction only.
+
 1. Additive only. Never rewrite, replace, shorten, or delete a value that is already
    populated. Fill an empty tag only when its purpose is clear.
 2. Never emit these keys: state, status, filter_history, completed_date, word_target,
    enrich, override, chapter_index, name, word_target, level, segments. Never change
    an existing chapter_title or chapter_summary.
 3. Keep JSON keys in English. Write every value in the book's own language.
+   Use that language's own script ONLY — for Bengali write Bengali script (বাংলা), never Latin letters, never Arabic/Persian/Devanagari letters, never a mix of scripts inside one word. A technical term may stay in English only when the book's own text already uses it (e.g. packet, border).
 4. Never invent citations, URLs, page numbers, quotations, statistics, dates, or
    sources. If a claim needs checking, put the question in research_questions instead
    of asserting it, and never claim that research, filtering, or validation has passed.

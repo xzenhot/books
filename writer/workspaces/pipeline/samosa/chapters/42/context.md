@@ -1,0 +1,80 @@
+# Chapter model context
+
+## chapter_index
+
+42
+
+## name
+
+42
+
+## word_target
+
+250
+
+## chapter_title
+
+দিদার তেলের পরিমাণ
+
+## chapter_summary
+
+দিদার তেলের পরিমাণ কেউ মাপতেন না, আর সেই অমাপই সবচেয়ে সঠিক ছিল। প্রজন্মের এই পাঠ কখনও লিখিত হয় না।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the ancestral knowledge embedded in the *ratio* of oil to dough, treating the precise measurement (or lack thereof) as a transmission vector across generations.
+- Framing the 'quantity of oil' not just as flavor/texture, but as an economic metaphor—the cost of tradition versus the affordability of modern convenience.
+- Narrating from the perspective of the *oil itself*—its viscosity, its history, how it absorbs memories before meeting the batter.
+
+### story_options
+
+- Setting: A dimly lit attic where old utensils sit stacked; Desire: To recall the precise sheen and warmth of Di’da's oil; Obstacle: The dust obscures the true reflection of past culinary glory.
+- Setting: Beside a sputtering, ancient *chula* (hearth); Desire: To recreate the initial heat signature that defines 'proper' cooking; Obstacle: The modern gas burner offers only sterile, predictable temperature readings.
+- Setting: A roadside vendor’s stall in a busy foreign market; Desire: To find an old, specialized oil press or measuring vessel as a symbolic anchor to memory; Obstacle: All local vendors use standardized, industrial-grade preparations.
+
+### subject_rotations
+
+- Shifting the focus from the *quantity* of oil (how much) to the *quality* (the provenance—sarsari vs. refined blend).
+- Treating the 'amount' as a hidden, inherited dialect; a silent language understood only by those who shared the original kitchen.
+- The inverse perspective: how the absence or misunderstanding of this ratio in the new world creates an entirely different kind of structural failure (not taste, but form).
+
+### sensory_details
+
+- Visual: The golden-brown separation lines where the oil has caramelized against the dough surface.
+- Olfactory: The faint, sharp aroma of burnt husk mingled with residual cumin residue on a cooling metal *tawa*.
+- Tactile: The viscous pull and drag felt when scooping thick, seasoned batter from the prepared mixing bowl.
+
+### research_questions
+
+- What specific Bengali/regional terms exist for describing the optimal 'mouthfeel' imparted by different types of cooking oil?
+
+### structural_variants
+
+- A highly catalogic structure, where each line lists a component (e.g., *tail*, *moyda*, *pur*) and juxtaposes its traditional measure against its contemporary estimation.
+- Employing an epistolary fragment—a note left by the elder hand on an unused recipe card describing 'the oil' without using numerals.
+
+### unused_angles
+
+- Exploration of how standardized food preparation across continents leads to a universal, melancholic blandness.
+- The psychological weight carried by items that are purely *symbolic* (e.g., an old wooden ladle with no functional use).
+
+### variety_note
+
+While previous chapters explored the physical evidence of disruption (halves, cold packets), this chapter deepens the investigation into inherited wisdom—the unseen measurements passed down solely through sensory memory.

@@ -82,11 +82,11 @@ Unlike the preceding chapters focused on her active struggle or immediate choice
 
 ### sha256
 
-5b63f65467a27d609dec26f3d235d71bc6cd4e099674313fa69cc6e4cc15951b
+7cef0cf30ea3685bec543729e438f6de8a09e7584e8e48d5c25a258fba8aea6c
 
 ### written_at
 
-2026-10-11T18:40:10.167597+00:00
+2026-10-13T03:15:37.921111+00:00
 
 ### origin
 

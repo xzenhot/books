@@ -148,6 +148,13 @@ and `chapter_summary` (its seed), in the exact writing order. `chapter_title` is
 `chapter_title` a single title — never fold summaries, numbering, or commentary
 into it.
 
+### `bookseed.txt` (book vocabulary seed)
+
+The book's own vocabulary and phrases. Staged by the layout agent from
+`.framework/templates/backlog/v1/bookseed.txt` into the backlog, then copied
+verbatim by scaffold to `workspaces/pipeline/<bookname>/bookseed.txt` (plain
+text, no audit stamp). Treat each line as a reusable word or phrase for this book.
+
 ### `bookseed_outline.md` (new — storyline-derived summary outline)
 
 A **human-readable** numbered outline generated from

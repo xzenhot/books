@@ -83,11 +83,11 @@ Unlike chapters focusing on sensory intake (Part I) or raw struggle (Part II), t
 
 ### sha256
 
-f42afd9f5961f36a278fc185478c6c9dbd47ca3cd21598a647e71137244d44a0
+dead6e2e0a218346786fca14b2a5d7ef312d61db0ae42c6078d1b3b645602b38
 
 ### written_at
 
-2026-10-11T18:40:00.588978+00:00
+2026-10-13T03:15:27.532451+00:00
 
 ### origin
 

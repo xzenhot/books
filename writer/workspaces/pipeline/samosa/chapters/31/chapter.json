@@ -1,0 +1,53 @@
+{
+  "chapter_index": 31,
+  "name": "31",
+  "word_target": 250,
+  "chapter_title": "আকার একই, স্বাদ নয়",
+  "chapter_summary": "আকার একই, খোলসের তিন কোণ একই, অথচ ভিতরের স্বাদ নয়। রূপের এই বিশ্বাসঘাতকতা সবচেয়ে কষ্টের।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the perfectly uniform shape (the geometry of mass production) as a suffocating trap compared to the organic asymmetry of home-made goods.",
+      "Focusing on the texture contrast: the brittle, dry exterior versus the implied moistness of genuine filling—a material critique of cultural fidelity.",
+      "Viewing the failure of flavor not just as personal loss, but as a systemic failure of migration; the industry replacing tradition."
+    ],
+    "story_options": [
+      "Setting: A dimly lit stall near an unfamiliar traffic crossing; Desire: To catch a single lingering aroma—a phantom whiff of homemade ghee that contradicts the current oil; Obstacle: The overwhelming, standardized smell of frying fat in the modern setting; Turn: Realizing the memory itself has become as artificial as the item.",
+      "Setting: Looking at dozens of identical samosas lined up under harsh fluorescent light; Desire: To find one—a single anomaly, a flaw—that suggests a hand instead of a machine; Obstacle: The oppressive mathematical perfection of the display; Turn: The protagonist accepts that uniformity *is* the new reality.",
+      "Setting: A quiet kitchen counter late at night; Desire: To attempt to 're-calibrate' the flavor using only trace amounts of imported spice; Obstacle: The inability of any ingredient to bridge the gap between recollection and actuality; Turn: Abandoning imitation, choosing instead to taste the *absence*."
+    ],
+    "subject_rotations": [
+      "Shifting focus from 'taste' (flavor) to 'mouthfeel'—the specific resistance or yielding quality that signifies authenticity.",
+      "Examining the internal structure of the pastry as a metaphor for personal self-containment: sealed off, durable, yet ultimately hollowed out.",
+      "Treating the process of cooling/hardening after frying not merely as temperature change but as narrative solidification—the finality of the experience."
+    ],
+    "sensory_details": [
+      "The sound of a perfectly uniform crust cracking under pressure, sounding too sharp, almost manufactured (auditory).",
+      "The visual perception of oil sheen on an otherwise flat surface—a mirror reflecting only the utilitarian overhead light (sight).",
+      "The sensation of residual heat that feels strangely inert or dead, lacking the vigorous warmth of genuine cookery (touch/thermal)."
+    ],
+    "research_questions": [
+      "What specific tactile qualities differentiate mass-produced fried dough from artisanal preparation in a way that transcends simple structural analysis?",
+      "How can colloquial Bengali phrasing capture the precise sense of 'hollow perfection' without resorting to abstract philosophical terms?"
+    ],
+    "structural_variants": [
+      "A structure where every completed couplet is immediately negated by a single, sharp counter-image or observation.",
+      "The poem progresses backward: starting with the present standardized item and tracing its form back toward the memory of its organic origins in reverse chronological order."
+    ],
+    "unused_angles": [
+      "A deep dive into the linguistic failure of describing this specific flavor gap—the need for a new, composite word that signifies 'near-but-not-there'.",
+      "Contrasting the perceived weight/density of the modern iteration versus the ancestral version using physical imagery (e.g., comparing it to types of soil or stone)."
+    ],
+    "variety_note": "Unlike the previous chapters focused on the physical act of making or arriving, this chapter isolates and scrutinizes the object itself, turning its standardized form into a site of existential conflict."
+  },
+  "draft": {
+    "sha256": "00f410a37fa9d5c08dfe52517e6647c95eb75c07ec9e48340f9c10448893ae36",
+    "written_at": "2026-11-01T08:24:11.219415+00:00",
+    "origin": "write"
+  }
+}

@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+15
+
+## name
+
+15
+
+## word_target
+
+250
+
+## chapter_title
+
+ভাড়া ঘরের রান্নাঘর
+
+## chapter_summary
+
+ভাড়া ঘরের রান্নাঘর ছোট, চুলার আঁচ কম, আর তেতো জল। নতুন ঠিকানায় রান্নার প্রথম পাঠ।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the dialectic between 'চুলার আঁচ' (the controlled domestic fire) and the omnipresent external, unforgiving city noise which encroaches upon the kitchen space.
+- The narrative voice adopts the perspective of the cooking surface itself—the stove or pan—commenting wryly on the culinary limitations imposed by cramped quarters.
+- A sustained focus on the tactile language of rationing: measuring precious ingredients not by weight, but by slivers of memory associated with specific hands.
+
+### story_options
+
+- setting: ভাড়া ঘরের রান্নাঘর, desire: একটা নিখুঁত পুরের মতো ঘন স্বাদের অনুরণন ফিরিয়ে আনা, obstacle: কম আঁচ এবং সীমিত পরিমাণ লবণের কারণে 맛의 dilution (স্বাদের পাতলা হওয়া), turn: রান্না করা খাবারটি স্বাদযুক্ত হলেও, তা খাওয়ার ভঙ্গিমাতেই একটি গভীর বিদ্রূপ বা আত্ম-পর্যালোচনা লুকিয়ে থাকে।
+- setting: ছোট্ট রান্নাঘরের কোণ, desire: সামোসার 'খোলস'-এর সেই প্রাথমিক মুচমুচে সাউন্ডটি পুনরুদ্ধার করা, obstacle: তেলের ভাজা করার জন্য পর্যাপ্ত তাপমাত্রা না পাওয়া, ফলে খোলসে একটি দুর্বল কাঠিন্য তৈরি হওয়া (brittleness), turn: স্বাদবিহীন হলেও, শব্দটির স্মৃতিই যেন একধরনের আধ্যাত্মিক পরিপূর্ণতা দান করে।
+- setting: রান্নাঘরের টেবিলের ওপর রাখা কিছু কাঁচা উপাদান, desire: পুরোনো মাটির (গ্রামের) টক গন্ধটি ফুটিয়ে তোলা, obstacle: নতুন বাজারের শাক-সবজির মধ্যে অনুপস্থিত, এক ধরণের 'জীবন্ত' দুর্গন্ধ বা সুবাসের অভাব, turn: এই প্রচেষ্টা ব্যর্থ হয় এবং রান্নাঘর থেকে একটি দীর্ঘশ্বাস বেরিয়ে আসে যা বাতাসকে ভারি করে তোলে।
+
+### subject_rotations
+
+- Instead of focusing on the failure to recreate flavor, focus solely on the 'ritual' itself—the obsessive, almost desperate repetition of the shaping process despite the known result.
+- Treating the heat source ('আঁচ') not as a physical element, but as a metaphor for curtailed emotional capacity in exile (limited passion).
+- Elevating the raw ingredients (আলু/তেল) to characters that passively resist being transformed into something familiar.
+
+### sensory_details
+
+- The visual of the meager heat glow (কম আঁচ) failing to illuminate a whole bowl, casting long, distorted shadows across the cramped surfaces.
+- The persistent scent of stale woodsmoke or nearby industrial runoff infiltrating the supposedly 'clean' kitchen air.
+- The sharp, metallic taste left on the tongue after tasting overly diluted water used for soaking ingredients.
+
+### research_questions
+
+- Given the dictated word ratio (5% পুরানো বাংলা শব্দ: কড়াই, তাওয়া; 10% তৎসম শব্দ), what is the most evocative piece of 'পুরোনো বাংলার' vocabulary that describes a low-heat cooking process?
+- What specific idiomatic expression in Bengali can capture the feeling of 'minimal sustenance/limited scope' while maintaining the required register?
+
+### structural_variants
+
+- A cyclical structure where the poem attempts to start, reach a peak (the desired perfect heat), and immediately fall back into the initial low-intensity state.
+- An intrusive narrative break in the middle of the cooking process where the 'I' stops moving/shaping and simply watches the ingredients under the meager light.
+
+### unused_angles
+
+- The role of shadows cast by unseen domestic figures outside the kitchen window, suggesting omnipresent scrutiny or judgment on one's efforts.
+- A focus on the relationship between the hands performing the labor in this small space and the larger geography that has been lost (connecting physical confinement to geographic exile).
+
+### variety_note
+
+Unlike chapters focused on borders or packaging, this piece grounds the emotional tension entirely within a hyper-specific domestic microcosm—the impoverished functionality of the rented kitchen.

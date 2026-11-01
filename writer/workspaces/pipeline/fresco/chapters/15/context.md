@@ -84,11 +84,11 @@ Unlike the sensory absorption chapters that preceded it (Musk, Scent), this poem
 
 ### sha256
 
-dffce0a194d1106c3eba217fb5c64bcfa89e2db0ad141b8be50de0e6dc1cb99a
+4da9d649c5a7466cd31b30e0e012a4d7794635e2664a1093a72124de2033d6d3
 
 ### written_at
 
-2026-10-11T18:32:46.508318+00:00
+2026-10-13T03:08:02.227534+00:00
 
 ### origin
 

@@ -226,28 +226,39 @@ def load_book_model(bookname):
 
 
 def load_book_sources(bookname):
-    """Read the author's declared world: gist.md + storyline.md.
+    """Read the author's declared world from the PIPELINE only.
 
-    These two files are the authoritative subject source of truth. Every
-    enrichment must be traceable to them — the enrich tool never researches or
-    invents subject matter of its own. Reads the pipeline copies, falling back
-    to the backlog originals when the pipeline copy is absent.
+    Returns ``(gist, storyline, override)``. These three files are the
+    authoritative source of truth: `gist.md` + `storyline.md` supply WHAT the
+    book is about, and `override.txt` supplies HOW it is written (register,
+    diction mix, craft rules, sample poems).
+
+    The pipeline is a self-contained snapshot: `scaffold` copies all three from
+    the backlog. Once the pipeline exists there is no going back — the backlog is
+    never read here, not even as a fallback. A missing pipeline file means the
+    scaffold did not copy it, and that is reported rather than silently patched
+    from the backlog, because a stale backlog must never override live pipeline
+    state.
     """
     pipeline = REPO_ROOT / "workspaces" / "pipeline" / check_bookname(bookname)
-    backlog = REPO_ROOT / "workspaces" / "backlog" / check_bookname(bookname)
-    gist = ""
-    storyline = ""
-    for name, holder in (("gist.md", gist), ("storyline.md", storyline)):
-        for root in (pipeline, backlog):
-            src = root / name
-            if src.is_file():
-                text = src.read_text(encoding="utf-8-sig").strip()
-                if name == "gist.md":
-                    gist = text
-                else:
-                    storyline = text
-                break
-    return gist, storyline
+    resolved = {"gist.md": "", "storyline.md": "", "override.txt": ""}
+    missing = []
+    for name in resolved:
+        src = pipeline / name
+        if not src.is_file():
+            missing.append(name)
+            continue
+        text = src.read_text(encoding="utf-8-sig").strip()
+        # A scaffold stub carries no author instruction; treat it as absent so the
+        # caller can fall back to the storyline's register explicitly.
+        if name == "override.txt" and text.lower().startswith("no transform required"):
+            continue
+        resolved[name] = text
+
+    if missing:
+        vlog(f"[sources] pipeline is missing {', '.join(missing)} — "
+             "re-run `/book <bookname> scaffold` to snapshot them from the backlog")
+    return resolved["gist.md"], resolved["storyline.md"], resolved["override.txt"]
 
 
 def resolve_book_form(bookname):
@@ -364,20 +375,19 @@ def ensure_segments(chapter_dir, chapter, form):
 def resolve_model(bookname):
     """Resolve the Ollama model name from the pipeline book plan.
 
-    Reads `workspaces/pipeline/<bookname>/progress.json` → `model`, falling
-    back to `book.json` → `model`. If no model is declared, raises ValueError —
-    the engine never assumes a model. A `--model` CLI override is resolved by
-    the caller before this function.
+    `book.json` is authoritative — it is the plan every agent reads. A stale
+    `progress.json` cached by an earlier run must never override the plan, so it
+    is not consulted. If no model is declared, raises ValueError — the engine
+    never assumes a model. A `--model` CLI override is resolved by the caller
+    before this function.
     """
     pipeline = REPO_ROOT / "workspaces" / "pipeline" / check_bookname(bookname)
-    for name in ("progress.json", "book.json"):
-        f = pipeline / name
-        if not f.is_file():
-            continue
+    f = pipeline / "book.json"
+    if f.is_file():
         try:
             data = json.loads(f.read_text(encoding="utf-8-sig"))
         except (json.JSONDecodeError, OSError):
-            continue
+            data = {}
         model = data.get("model")
         if isinstance(model, str) and model.strip():
             return model.strip()
@@ -869,11 +879,13 @@ def _flatten_markdown(value, title: str) -> str:
     return flatten_module.flatten_json_to_markdown(value, title=title)
 
 
-def build_prompt(book_context, chapter, neighbours, arc, pool, lens, twist, seed, sources=""):
+def build_prompt(book_context, chapter, neighbours, arc, pool, lens, twist, seed,
+                 sources="", voice=""):
     return _render(
         ENRICH_USER_PROMPT_TEMPLATE,
         book_context=_flatten_markdown(book_context, "Book context"),
         sources=sources or "(no gist.md / storyline.md found)",
+        voice=voice or "(no override.txt found — fall back to the storyline's register)",
         arc=_flatten_markdown(arc, "Book arc"),
         neighbours=_flatten_markdown(neighbours, "Neighbouring chapters"),
         pool=_flatten_markdown(pool[:POOL_LIMIT], "Suggestions already used"),
@@ -959,12 +971,17 @@ def _show_request(index, model_name, temperature, prompt):
 
 
 def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_name=None,
-                   temperature=DEFAULT_TEMPERATURE, model_name=MODEL, sources=""):
+                   temperature=DEFAULT_TEMPERATURE, model_name=MODEL, sources="", voice=""):
     """Enrich one chapter model.json in place and return a short result record.
 
-    *sources* is the author's declared world (gist.md + storyline.md) and is the
-    only permissible source of subject matter — passed into the prompt verbatim so
-    the tool never researches or invents its own material.
+    *sources* is the author's declared subject world (gist.md + storyline.md) and
+    is the only permissible source of subject matter — passed into the prompt
+    verbatim so the tool never researches or invents its own material.
+
+    *voice* is the author's override.txt: the mandated register, diction mix and
+    craft rules. It governs *how* the enrichment is phrased, while *sources*
+    governs *what* it is about. Omitting it let enrich contradict the author's
+    declared voice.
     """
     model_file = Path(model_file)
     original = model_file.read_bytes()
@@ -984,7 +1001,7 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     twist = pick_twist(chapter_seed)
     neighbours, pool = neighbour_context(book, models, index)
     prompt = build_prompt(book_digest(book), chapter, neighbours, chapter_arc(book), pool,
-                          lens, twist, chapter_seed, sources=sources)
+                          lens, twist, chapter_seed, sources=sources, voice=voice)
     if show_prompt:
         _show_request(index, model_name, temperature, prompt)
 
@@ -1106,7 +1123,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
         chapters_root = resolve_chapters_root(args.bookname)
         numbers = parse_chapter_input(args.chapters, chapters_root)
         book = load_book_model(args.bookname)
-        gist, storyline = load_book_sources(args.bookname)
+        gist, storyline, override = load_book_sources(args.bookname)
         sources = "\n\n".join(part for part in (gist, storyline) if part)
         load_templates(resolve_book_form(args.bookname), resolve_layout_dir(args.bookname))
         if args.lens:
@@ -1118,6 +1135,23 @@ Writes:  only the target model.json; chapter.md is never read or written.
     # the pipeline book.json declares no model, resolve_model raises and the agent
     # stops without assuming a default. A --model CLI override wins.
     model_name = args.model or resolve_model(args.bookname)
+
+    # Plan of works first: style.md regeneration below is itself an Ollama call.
+    # Pass the CLI override (not the resolved name) so the banner reports the
+    # real source.
+    from workplan import print_plan
+    print_plan(
+        "enrich",
+        args.bookname,
+        numbers,
+        model=args.model,
+        form=book.get("form"),
+        notes=(
+            ["--dry-run: no model files will be written"] if DRY_RUN else []
+        ),
+        dry_run=DRY_RUN,
+    )
+
     regenerate_style_md(args.bookname, book, model_name=model_name)
 
     # Load every chapter model once so neighbours can be compared with each other.
@@ -1134,7 +1168,8 @@ Writes:  only the target model.json; chapter.md is never read or written.
         try:
             results.append(enrich_chapter(_chapter_file(chapters_root / str(number)), book, models,
                                           args.show_prompt, args.seed, args.lens,
-                                          args.temperature, model_name, sources=sources))
+                                          args.temperature, model_name, sources=sources,
+                                          voice=override))
         except Exception as error:
             print(f"[{number}] FAILED: {error}", file=sys.stderr)
             failures += 1
@@ -1163,6 +1198,12 @@ Writes:  only the target model.json; chapter.md is never read or written.
         print("  Chapters with nothing new:")
         for result in unchanged:
             print(f"    [{result['index']}] {result['title']} — {result['lens']}")
+    # Always reconcile progress.json from book.json after the run, so the plan
+    # and the progress file cannot drift apart. A dry run wrote no models, but
+    # the sync is still safe: it only reflects the actual chapter state.
+    from workplan import sync_progress
+    changed = sync_progress(args.bookname)
+    print(f"  progress.json          : {'updated' if changed else 'already current'}")
     print("=" * 60)
     return int(bool(failures))
 

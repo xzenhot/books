@@ -79,11 +79,11 @@ While neighboring poems focus on *revealing* hidden material (cracks, layers), t
 
 ### sha256
 
-9dfb53cbe866dd7062ce5283834956973f78fc1e2f9c519a334e98f359a003ca
+1223186903ef86e205a93638f148ec216e93838687fa21a0bf10c65feaf9b90b
 
 ### written_at
 
-2026-10-11T18:34:44.411557+00:00
+2026-10-13T03:10:06.403257+00:00
 
 ### origin
 

@@ -84,12 +84,43 @@ While previous chapters focused on sensual absorption or violent negation, this 
 
 ### sha256
 
-f87a9e5168c034095d3510bb836d3b994ce71bef2d4cf72581a52166e44fe1e3
+21a6ca51d4bc2b390006cf6a613c9a93b448009678bb13afdcc986a685ca17e3
 
 ### written_at
 
-2026-10-11T18:31:34.976846+00:00
+2026-10-13T03:06:42.999779+00:00
 
 ### origin
 
 write
+
+## akshar_target
+
+14
+
+## caesura
+
+multi-pattern (4+4|3+3 preferred)
+
+## sonnet_mode
+
+true
+
+## volta_line
+
+9
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## lines_calibrated
+
+14
+
+## lines_needs_review
+
+
+## sonnet_calibrated_at
+
+20261025_191551

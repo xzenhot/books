@@ -1,0 +1,84 @@
+# Chapter model context
+
+## chapter_index
+
+11
+
+## name
+
+11
+
+## word_target
+
+250
+
+## chapter_title
+
+রেলের কামরায় মোড়া কাগজ
+
+## chapter_summary
+
+রেলের কামরায় জানালার ধারে বসে কাগজে মোড়া খাবার হাতে নেওয়া হয়, আর শহর পিছনে সরে যায়। ভ্রমণ তখনও শুরু হয়নি, তবু ঘরAlready পিছনে।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The paper wrapper itself becomes a symbolic border—a thin, fragile membrane separating known comfort from unknown transit.
+- Treating the train's rhythm (the 'chug' or 'hiss') as an obsessive internal monologue, where the physical movement externalizes fragmented thought.
+- Personifying the papers/packages: they are clandestine carriers of displaced domesticity, packed with unspoken histories.
+
+### story_options
+
+- The narrator tries to unwrap a specific corner of the package on a rattling platform late at night; desire is immediate warmth, obstacle is slick condensation and uncertainty; turn is noticing the city lights blurring into streaks, like forgotten memory trails.
+- A momentary stop in a desolate rural yard (ไม่ใช่ main station); setting: abandoned siding under sodium lamps; desire: to catch a scent that matches home, obstacle: only dust-heavy air exists; turn: realizing the food inside smells faintly of *a* region, but not *the* intended one.
+- Sitting by a window as the light shifts from pre-dawn gray to pale electric blue (day to night transition); desire: an anchor point in the shifting landscape, obstacle: the speed of movement eroding memory; turn is the reflection on the glass mirroring two realities—past and present.
+
+### subject_rotations
+
+- Focusing less on the act of eating/carrying food, and more on the paper's texture—its cheapness contrasted with the precious cargo inside.
+- The 'journey not started yet': exploring the paralysis of anticipation while already mentally arrived elsewhere.
+- Contrasting the mechanical indifference of the railway carriage against the fierce warmth radiating from the sealed packet.
+
+### sensory_details
+
+- The sound of rusty metal joints protesting under momentum (metallic grating).
+- The ephemeral, trapped smell inside the paper—a momentary scent profile overwhelmed by diesel fumes.
+- The abrasive texture of cheap newsprint tearing slightly as the wrapper is shifted.
+
+### research_questions
+
+- How can the rhythmic noise of a train be rendered in Bengali poetry to evoke both forward motion and existential stasis without resorting to cliché on sound?
+- Are there specific idioms or historical terms related to 'traveling parcels' or 'border goods' from early 20th-century Bengal that might inform diction?
+- What linguistic nuance best captures the feeling of something being 'already behind' even before one has physically departed?
+
+### structural_variants
+
+- A highly fractured structure mirroring the train’s jolts, where each jolt forces a momentary thematic shift (e.g., comfort -> alienation -> domesticity).
+- A tightly focused meditation on the paper itself—a microscopic study of its folds and seals before any content is revealed.
+- An extended dialogue with an unseen passenger or the landscape passing by the window.
+
+### unused_angles
+
+- The potential conflict between different forms of 'package' (formal transport vs. illegal/smuggled domestic provision).
+- Developing a strong motif around time zones—the perceived local time versus the internal memory-time carried in the food.
+- Exploring how the narrator negotiates their sense of self while being temporarily suspended between two geographical anchors.
+
+### variety_note
+
+Unlike chapters focused on culinary specifics or physical displacement, this chapter centers intensely on the portable container and the liminal state before arrival.

@@ -84,11 +84,11 @@ This chapter pivots away from sensory absorption (musk, lime) toward active mate
 
 ### sha256
 
-ab76c80340ca7d9e416a3a56995c893abece4fd5bf3478b62af58300c01c0b15
+f652256ac3c0e01114e35cb73ae9e92b231c415490906c496f65d44b2ffcbfd5
 
 ### written_at
 
-2026-10-11T18:34:25.974301+00:00
+2026-10-13T03:09:45.254710+00:00
 
 ### origin
 

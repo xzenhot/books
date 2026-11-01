@@ -94,11 +94,11 @@ This chapter emphasizes the internal calculus—the active cost and deliberate c
 
 ### sha256
 
-b1f708b582a6459c077ac3660e183fec4851cd7308775da25be79f3a16d38b4c
+9d761964698b91382ccfd66c42e1085129daf81387304c5a8babae7e77aaf8ef
 
 ### written_at
 
-2026-10-11T18:40:40.864451+00:00
+2026-10-13T03:16:09.566983+00:00
 
 ### origin
 

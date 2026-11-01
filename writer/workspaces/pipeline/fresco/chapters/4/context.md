@@ -86,11 +86,11 @@ Where previous poems focused on establishing the raw input (scent/line), this ch
 
 ### sha256
 
-d744c26e54d5c2b15b9fdcb4f9c7d192a2c1653d82bd7bef94da56a6af20b74c
+a19cfa14f7513293bdaabf745d9142aa0e769d9edee86da8a4ccd94db4c86f15
 
 ### written_at
 
-2026-10-11T18:30:52.695790+00:00
+2026-10-13T03:06:00.306201+00:00
 
 ### origin
 

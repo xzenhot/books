@@ -83,11 +83,11 @@ Unlike earlier meditations on abstract form or bodily strain, this chapter ancho
 
 ### sha256
 
-01cd45846d407d8c27b70bcddcdfbb30ba2e458ad292c457749a86c0d728198d
+b6a2c3b5d70560496731a451a4d4e76384146a27b351de1ce2461df9f5a29ba5
 
 ### written_at
 
-2026-10-11T18:34:15.355246+00:00
+2026-10-13T03:09:33.083336+00:00
 
 ### origin
 

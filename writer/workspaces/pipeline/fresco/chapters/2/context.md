@@ -87,11 +87,11 @@ Unlike preceding chapters focusing on abstract rejection or external societal pr
 
 ### sha256
 
-d47ef8a5eb3b730255a9ada88265e59913667af33418baad3f13c3af9771fd3f
+b38daf5c7425f0d6e64edb72e587955c1ac483b8e106e39a047d2250ab08a30b
 
 ### written_at
 
-2026-10-11T18:30:30.496663+00:00
+2026-10-13T03:05:39.726502+00:00
 
 ### origin
 

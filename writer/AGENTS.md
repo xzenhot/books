@@ -334,6 +334,10 @@ workspaces/backlog/<bookname>/storyline.md
 ```
 
 For novels, `storyline.md` is the story source of truth. Do not invent story content beyond it.
+Before scaffold, the backlog `layout`/`refresh` path stages both companion files at
+`workspaces/backlog/<bookname>/`: `signature.md` (the selected style's signature) and
+`bookseed.txt` (the vocabulary seed). Scaffold copies both to the pipeline root when
+present.
 
 ### Pipeline Working State
 
@@ -347,6 +351,8 @@ Common pipeline files:
 
 ```text
 workspaces/pipeline/<bookname>/book.json          # the book plan (cloned from the backlog)
+workspaces/pipeline/<bookname>/signature.md       # the selected style's copied signature (when available)
+workspaces/pipeline/<bookname>/bookseed.txt       # the book's copied vocabulary and phrases seed
 workspaces/pipeline/<bookname>/characters.json
 workspaces/pipeline/<bookname>/progress.json
 workspaces/pipeline/<bookname>/filters/
@@ -493,7 +499,6 @@ the framework is still complete and effective:
 The judge delegates structural audit to `.framework/rules/self-eval.md` and applies
 the routing/boundary/lifecycle checks in `.framework/workflows/eval-judge.md`. It
 never mutates files.
-
 
 
 

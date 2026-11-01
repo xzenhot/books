@@ -1,0 +1,54 @@
+{
+  "chapter_index": 18,
+  "name": "18",
+  "word_target": 250,
+  "chapter_title": "বাসি রুটির সকাল",
+  "chapter_summary": "বাসি রুটির সকালে ঘরে চায়ের বাষ্প ছাড়া কিছু তাজা নেই। প্রবাসে সকাল মানে একাকী পুনরাবৃত্তি।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Viewing the stale bread not as a culinary item, but as fossilized time—a record of inertia in exile.",
+      "The repetition focuses on the ritualistic act of warming the sparse fuel/heat source (আঁচ) versus the vastness implied by 'morning' (সকাল).",
+      "Using the residual scent trapped within the bread itself to evoke a specific, unreachable memory of monsoon humidity or village dust."
+    ],
+    "story_options": [
+      "setting: রান্নাঘরের কোণে রাখা পুরনো রুটির স্তূপ, desire: এক টুকরো ভাজা 'সরিষার তেলের' উষ্ণতা খুঁজে বের করা, যা সময়ের কারণে ম্রিয়মাণ হয়ে গেছে।, obstacle: রুটিগুলি এতই শুকনো যে স্পর্শ করতেই গুঁড়ো হয়ে আসে; প্রতিটি কামড় যেন অতীতকে ঝেড়ে ফেলে দেয়।",
+      "setting: জানালার ধারে সকালের আলো পড়া টেবিল, desire: সেই 'বাষ্প' বা ধোঁয়াশার চিত্রটি পুনরুজ্জীবিত করা, যা একসময় রান্নাঘরের কেন্দ্রবিন্দু ছিল।, obstacle: বাইরে কেবল শীতল, জমাট বাতাসের আগমন; ভেতরের সামান্য তাপ বাইরের শীতের কাছে আত্মসমর্পণ করে।",
+      "setting: একটি খালি চায়ের কাপ (যা ধোঁয়া দিতে পারেনি), desire: অতীতের সেই 'ঝাঁঝালো' মুহূর্তটিকে স্পর্শ করা, যেখানে চা এবং তাজা পুর মিশে একটি তীব্র স্বাদ তৈরি করেছিল।, obstacle: চা বানানো হয়নি; কেবল রুটির গন্ধে সেই উষ্ণতার আকাঙ্ক্ষা জিভের উপর দংশন করে।"
+    ],
+    "subject_rotations": [
+      "Treating the staleness of the bread as a critique on preserved identity—something outwardly whole but inwardly petrified.",
+      "Reframing morning not as a beginning, but as an eternal, monotonous return to a state of insufficient nourishment.",
+      "Focusing less on the 'absence' of flavor and more on the *density* of time packed into the dry texture itself."
+    ],
+    "sensory_details": [
+      "রুটির শুকনো পৃষ্ঠের উপর পড়ে থাকা সকালের ধূলিকণার ক্ষণস্থায়ী দীপ্তি (Visual).",
+      "বাসি রুটিকে চাপ দিলে নির্গত সেই মৃদু, শুষ্ক ফাটলধ্বনি—যেন প্রাচীন কোনো কাঠের কাঠামো ভেঙে যাচ্ছে (Auditory).",
+      "হাতের আঙুলের ফাঁকে আটকে পড়া আলুর গুঁড়োর সামান্য কর্কশতা এবং তেলের পুরোনো গন্ধের ক্ষীণতম আভাস (Tactile/Olfactory)."
+    ],
+    "research_questions": [
+      "কোন নির্দিষ্ট পুরনো বাংলা শব্দ আছে যা 'শুষ্ক অথচ ভারী' অনুভূতিটিকে একটি কাব্যিক ওজন দিতে পারে, যা শুধু শুকনো নয়, বরং সময়ের ভার বহন করে?",
+      "কীভাবে রুটির ভাঙা প্রান্তের গঠনকে ব্যবহার করে এমন একটি চিত্র তৈরি করা যায় যা একইসাথে বিচ্ছিন্নতা ও সংযোগের প্রতীক হতে পারে?"
+    ],
+    "structural_variants": [
+      "A structure based on an ascending litany of repetitive physical actions (touching, smelling, waiting) that resolves into a sharp cessation.",
+      "Beginning with the 'cold' quality of the bread, moving through internal contemplation to end abruptly on a statement of perpetual incompleteness."
+    ],
+    "unused_angles": [
+      "Using the concept of 'inertia' in domestic routines—the refusal to change even when external circumstances demand it.",
+      "A meta-commentary on the limitations of poetry itself: how does one write about absolute stasis without resorting to mere descriptive prose?",
+      "Contrast between the organic decay represented by the bread and the engineered permanence of modern foreign packaging (a distant future threat)."
+    ],
+    "variety_note": "Unlike other chapters which focus on transformative heat or naming shifts, this piece settles into a profound meditation on arrested time—the weight of an unchanged domestic ritual."
+  },
+  "draft": {
+    "sha256": "45634799ecd3cd169a88be0065c5539bae752800cb0e4bffbb872df3c5ea546b",
+    "written_at": "2026-11-01T08:21:27.714881+00:00",
+    "origin": "write"
+  }
+}

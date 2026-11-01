@@ -726,8 +726,11 @@
   "completed_chapters": 0,
   "published": false,
   "current_chapter": null,
-  "model": "gemma4:latest",
+  "model": "gemma4:12b",
   "provider": "ollama",
   "published_version": 4,
-  "published_at": "2026-10-13T03:00:38.399708+00:00"
+  "published_at": "2026-10-13T03:00:38.399708+00:00",
+  "book_name": "fresco",
+  "form": "poetry",
+  "factory": "online"
 }

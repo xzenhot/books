@@ -78,12 +78,43 @@ This chapter shifts focus from Debolina's sensory absorption of fleeting externa
 
 ### sha256
 
-3233a4b616f46356ce5de6ebe8d7741722b458d0442f7a0d4f44466534967277
+a939628a93670720c79226f9eabf893fa654a61740ee5d5478301727e101e9a9
 
 ### written_at
 
-2026-10-11T18:31:12.183320+00:00
+2026-10-13T03:06:22.232392+00:00
 
 ### origin
 
 write
+
+## akshar_target
+
+14
+
+## caesura
+
+multi-pattern (4+4|3+3 preferred)
+
+## sonnet_mode
+
+true
+
+## volta_line
+
+9
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## lines_calibrated
+
+14
+
+## lines_needs_review
+
+
+## sonnet_calibrated_at
+
+20261025_175617

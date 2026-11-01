@@ -12,7 +12,7 @@
   "created_at": "2026-10-04",
   "updated_at": "2026-10-11",
   "user_name": "pijush",
-  "model": "gemma4:latest",
+  "model": "gemma4:12b",
   "provider": "ollama",
   "gist": "The life of an artist is lived in the night while ordinary men sleep — the world sees only the blossom of the final creation, never the invisible struggle and the silent failures beneath it.",
   "chapters": [

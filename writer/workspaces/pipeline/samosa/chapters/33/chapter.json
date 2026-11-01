@@ -1,0 +1,59 @@
+{
+  "chapter_index": 33,
+  "name": "33",
+  "word_target": 250,
+  "chapter_title": "তেলের গন্ধের পার্থক্য",
+  "chapter_summary": "তেলের গন্ধের পার্থক্য প্রথমেই বোঝা যায়, স্বাদ বোঝারও আগে। ঘ্রাণ সবচেয়ে সৎ বিচারক।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "The semiotics of culinary oils in diasporic literature",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the oil smell as a form of atmospheric memory—how it hangs in the air despite physical distance, like smoke from an unseen *chula*.",
+      "Personifying the different oils: the assertive scent of mustard oil versus the bland neutrality of industrialized frying fats.",
+      "Framing the scent difference not as failure, but as a dialectical tension between two historical culinary epochs."
+    ],
+    "story_options": [
+      "Setting: Standing near an old spice vendor's stall in a new district; Desire: To ask the vendor which 'type' of oil gives the true smell; Obstacle: The vendor's knowing silence, an acknowledgment of cultural entropy.",
+      "Setting: In front of an empty *karoai* (frying pan) on a cooling rack; Desire: To inhale deeply, trying to map the spectral contours of past aromas onto the metal surface; Obstacle: Only residual heat remains, not scent itself.",
+      "Setting: While packaging leftovers in a new kitchen; Desire: To smell the oil clinging to the wrapper and project an image of Bengal's damp earth into that enclosed space; Obstacle: The synthetic plastic of the modern container aggressively sealing away authenticity."
+    ],
+    "subject_rotations": [
+      "Focusing exclusively on the molecular structure of scent as a proxy for nostalgia, avoiding descriptive culinary terms.",
+      "Treating 'ঘ্রাণ' (smell) itself as an unstated language—a form of non-verbal discourse that bypasses translation and political rhetoric.",
+      "A contrast between the ephemeral nature of steam/vapor (*বাষ্প*) carryover versus the stubborn permanence of oil saturation in material."
+    ],
+    "sensory_details": [
+      "The sharp, almost vinegary sting of old mustard oil against the sinuses upon first inhalation (olfactory).",
+      "The slick, unnaturally smooth film left on metal surfaces after frying, resisting a fingertip's tracing attempt (tactile/visual).",
+      "The heavy, warm blanket of aroma that seems to absorb light in the dim evening air (atmospheric/thermal)."
+    ],
+    "research_questions": [
+      "How do prevailing cultural narratives distinguish between 'authentic' culinary scents and commercially acceptable substitutes within diaspora communities?",
+      "Can the linguistic vocabulary employed for describing scent capture the nuanced gap between regional Bengali oils and globally standardized fats?"
+    ],
+    "structural_variants": [
+      "An extended series of interrogatives, where each unanswered question serves as a different olfactory inquiry.",
+      "A poem structured around an inverted chronology, starting with the present foreign smell and tracing its degradation backward to the source aroma."
+    ],
+    "unused_angles": [
+      "The specific interaction between salt crystals and hot oil—a micro-event that defines early flavor profiling but is bypassed here in favor of scent.",
+      "A detailed examination of how the initial 'heat' (আঁচ) imparts a molecular structure to the fat itself, which is then lost over time."
+    ],
+    "variety_note": "This chapter deliberately bypasses direct taste and texture (covered previously) to concentrate solely on scent as the most immediate, yet unreliable, carrier of memory across borders. It engages with auditory absence rather than presence."
+  },
+  "draft": {
+    "sha256": "7858b152ea6749693e04fd829c3156a790faf9daef6e112abb2c4b062a137375",
+    "written_at": "2026-11-01T08:24:36.198297+00:00",
+    "origin": "write"
+  }
+}

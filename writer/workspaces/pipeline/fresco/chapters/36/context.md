@@ -82,11 +82,11 @@ This chapter shifts focus from the ephemeral sensory input in Part I to a deep m
 
 ### sha256
 
-b87b9c4214a1ee98e290faff57d1792dababf503b675991d9ccb8893fad1b61c
+0b7e3b0648558dea58e42453d348c20a27f47917cc621e19d1a52e15fcc0a9f4
 
 ### written_at
 
-2026-10-11T18:36:31.108534+00:00
+2026-10-13T03:11:57.735793+00:00
 
 ### origin
 

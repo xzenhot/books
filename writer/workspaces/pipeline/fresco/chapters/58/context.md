@@ -80,11 +80,11 @@ Unlike earlier poems that focus on the inputs (musk, lime) or processes (grindin
 
 ### sha256
 
-6e1dcf8e1dcd05b57100da601d60e36d605c6937db87ea6885502efaf76043c9
+8a444b6c754e18deccc54f7089bcbe874de578321a2cb632cf9106f2e9ea809c
 
 ### written_at
 
-2026-10-11T18:40:30.373490+00:00
+2026-10-13T03:15:57.949029+00:00
 
 ### origin
 

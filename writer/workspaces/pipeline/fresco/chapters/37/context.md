@@ -83,11 +83,11 @@ Where earlier poems focused on scent or labor, this chapter turns inward by focu
 
 ### sha256
 
-03226eb31b7bf41c486b468e2729442f9cc02c04c7327a2ab73788430466427a
+3f596b14b96d0a833979c9d0f6a76b018e905233a5a44319c06f6e3ca4fbd7df
 
 ### written_at
 
-2026-10-11T18:36:42.512469+00:00
+2026-10-13T03:12:08.860035+00:00
 
 ### origin
 

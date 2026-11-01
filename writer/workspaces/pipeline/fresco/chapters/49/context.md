@@ -84,11 +84,11 @@ This chapter shifts the focus from describing the *process* (like previous night
 
 ### sha256
 
-ffbf692d865d757a5a72c5beb085aaa995a1e6626f58c6138cb4c47ea996e7fe
+99e1f51edf1f8790c6f88ce7beb41a0dce97c6e86d8ef945d2a10c9e51faa326
 
 ### written_at
 
-2026-10-11T18:38:51.168302+00:00
+2026-10-13T03:14:21.910562+00:00
 
 ### origin
 

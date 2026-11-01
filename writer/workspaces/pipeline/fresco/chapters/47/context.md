@@ -95,11 +95,11 @@ This chapter focuses intensely on material urgency—the race against geological
 
 ### sha256
 
-c188c840a8372d938187d57a2f5cef04008964379ebb4aa214909f28227a2a76
+30db4648112983b19cafff29ebe330515f0fc7995c9049bf32ff8770825ce3cf
 
 ### written_at
 
-2026-10-11T18:38:29.215763+00:00
+2026-10-13T03:13:59.635415+00:00
 
 ### origin
 

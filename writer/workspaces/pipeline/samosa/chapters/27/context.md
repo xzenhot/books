@@ -1,0 +1,82 @@
+# Chapter model context
+
+## chapter_index
+
+27
+
+## name
+
+27
+
+## word_target
+
+250
+
+## chapter_title
+
+ভুল উচ্চারণ
+
+## chapter_summary
+
+ভুল উচ্চারণে অচেনা প্রতিক্রিয়া, ঠিক উচ্চারণে চেনা হাসি। ভাষার এই সরু সীমান্ত প্রতিদিন পার হতে হয়।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating linguistic mispronunciation not as a failure of speech, but as the creation of an entirely new, localized mythology around the foodstuff.
+- Focusing on the *sound* itself—the clipped, flattened pronunciation—as a physical texture that changes how the mouth perceives 'taste' (linking sound directly to sensation).
+- Exploring the speaker addressing an absent figure (perhaps the old self, or the grandmother) who can no longer correct the phonetic drift.
+
+### story_options
+
+- setting: A small, hurried street corner where vendors hawk their wares., desire: To perfectly recall the native, untainted pronunciation of 'সিঙ্গাড়া' in a moment of intense craving., obstacle: The constant pressure and speed of the foreign marketplace forcing immediate, imperfect utterance., turn: The speaker accepts that the corrupted word is now his new, essential truth.
+- setting: A quiet, imagined echo chamber within the memory space (a reflection of a kitchen)., desire: To elicit an audible correction from the spectral figure of the first cook., obstacle: The silence that swallows any attempt at linguistic repatriation., turn: Only the sound of frying oil provides affirmation, not language.
+- setting: While waiting in line for a quick purchase; an impersonal, almost robotic transaction., desire: To imbue the mundane act of asking 'কী চাই?' (What do you want?) with profound cultural weight through precise diction., obstacle: The immediate need for speed superseding the ritualistic care of perfect phonetics., turn: A bystander, noticing the struggle, corrects it gently without malice.
+
+### subject_rotations
+
+- Shifting focus from dialectal difference to tonal shifts: how pitch and stress in Bengali convey meaning beyond mere word choice when discussing food.
+- Treating 'ভুল উচ্চারণ' (wrong pronunciation) as a map of emotional distance; each syllable deviation marks a step away from the origin point, rather than just phonetic inaccuracy.
+- Interrogating the inanimate object itself: does the Samosa bear the weight of its mispronunciation? Is it shaped by foreign sounds?
+
+### sensory_details
+
+- The oily sheen on the rough surface of a poorly printed paper wrapper reflecting neon light (sight).
+- The sharp, almost abrasive scraping sound made when one tries to articulate a difficult regional consonant clearly (sound).
+- The faint taste of metallic dust left behind after forced, rapid enunciation in dry air (taste).
+
+### research_questions
+
+- What specific Bengali sounds or phonetic shifts are most commonly distorted when speaking rapidly under pressure/stress?
+- Are there established colloquial patterns where a deliberate linguistic error is used ironically for humor or to signal insider knowledge among diaspora communities?
+
+### structural_variants
+
+- A sustained monologue that circles the phrase 'আমার উচ্চারণ' (my pronunciation) without ever landing on a concrete description of the Samosa.
+- A cyclical structure where every attempt at perfect speech inevitably spirals back into the same slightly incorrect sound pattern.
+
+### unused_angles
+
+- The comparison between the spoken word and the silent image—how the visual perfection of the food defies the auditory imperfection of its naming.
+- Exploring how official, written documentation (labels, menus) sanitizes or freezes this fluid linguistic corruption.
+- A philosophical pivot: Is identity defined by flawless articulation or by persistent, resonant communication?
+
+### variety_note
+
+Unlike chapters dealing with economic shifts (like price changes), this chapter focuses acutely on the subtle, yet profound, physical struggle of language itself as it collides with the food's external presentation.

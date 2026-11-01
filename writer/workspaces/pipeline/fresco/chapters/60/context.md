@@ -86,11 +86,11 @@ This chapter pivots from external observation (Part III) to deep internal accoun
 
 ### sha256
 
-ad0cb970874536cbece7d570bc35f6b0902197f5a622c78ad558baa3a17a6510
+1e3f3dd778c684039a5fdc2cf54b603e574262e7063c44e2431f49264e92e06d
 
 ### written_at
 
-2026-10-11T18:40:51.363563+00:00
+2026-10-13T03:16:20.398076+00:00
 
 ### origin
 

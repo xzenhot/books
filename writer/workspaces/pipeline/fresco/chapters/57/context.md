@@ -95,11 +95,11 @@ While previous chapters explored the vibrant struggle and material application, 
 
 ### sha256
 
-60c063b276506e8737303119cae2a1c573f4ebcbc963d8bf78646ca3a2782e1a
+6b33d5348f2871e030ede58aed7f79de21d4df5a192a3f8d89c18d8fcba95e70
 
 ### written_at
 
-2026-10-11T18:40:21.533778+00:00
+2026-10-13T03:15:47.940314+00:00
 
 ### origin
 

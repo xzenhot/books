@@ -80,12 +80,43 @@ Unlike earlier poems focused on singular sensory observations (musk or line), th
 
 ### sha256
 
-aeefbe82876deabb3554c6302d1bbdbc07b4e2a243825d07375ea95038ee4e3a
+ea2932e500ddf04d7daeb06a3c8c3477c3fa06367523b20dc6be9b17566bd724
 
 ### written_at
 
-2026-10-11T18:31:24.108725+00:00
+2026-10-13T03:06:33.025599+00:00
 
 ### origin
 
 write
+
+## akshar_target
+
+14
+
+## caesura
+
+multi-pattern (4+4|3+3 preferred)
+
+## sonnet_mode
+
+true
+
+## volta_line
+
+9
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## lines_calibrated
+
+14
+
+## lines_needs_review
+
+
+## sonnet_calibrated_at
+
+20261025_190834

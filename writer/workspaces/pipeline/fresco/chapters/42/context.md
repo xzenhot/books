@@ -85,11 +85,11 @@ Unlike earlier chapters focused on internalized sensory intake or static archite
 
 ### sha256
 
-67b75e9229ffffc6dfc07634cf99c6fe6fd6c029a9b652da76fa097931f33547
+1b67cd9b52bc5e42fb153d6e6139c389092972ec16a90eef4c391178fceff852
 
 ### written_at
 
-2026-10-11T18:37:34.307392+00:00
+2026-10-13T03:13:04.952204+00:00
 
 ### origin
 

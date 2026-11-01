@@ -6,8 +6,49 @@
   "chapter_summary": "প্রত্যেক লেখকের একটি প্রিয় শব্দ থাকে যা সে বারবার ফিরিয়ে আনে, যেন সেই শব্দটিই তার আসল ঠিকানা — যদিও ঠিকানাটি কেউ কোনোদিন খুঁজে পাননি। মালিকের প্রিয় শব্দটি একটি সাধারণ ক্রিয়া, কিন্তু সহকারী লক্ষ্য করে সেটি কেবল তখনই আসে যখন মালিক কিছু স্বীকার করতে চান কিন্তু পারছেন না, অর্থাৎ শব্দটি স্বীকারোক্তির দ্বারপ্রান্তে এসে থেমে যাওয়া একটি দরজা। শব্দটিকে ঘিরে এই আবিষ্কার সহকারীর সবচেয়ে বড় সাফল্য, এবং একই সঙ্গে সবচেয়ে বড় সীমালঙ্ঘন — কারণ এখন সে জানে কোথায় মালিকের দুর্বলতা লুকিয়ে আছে, কিন্তু সেই জ্ঞান ব্যবহার না করার কোনো নিয়ম তাকে দেওয়া হয়নি, দেওয়া হয়নি কারণ কেউ ভাবেনি এই জ্ঞান তার হাতে আসবে। ভাষায় কি এমন কোনো শব্দ আছে যা মানুষকে তার অজান্তে প্রকাশ করে দেয়, যেমন একটি পুরনো ক্ষত যা পোশাকের নিচে লুকানো ছিল? আর যে শব্দ দিয়ে মানুষ নিজেকে লুকায়, সেটিই কি তাকে সবচেয়ে বেশি প্রকাশ করে — কারণ লুকানোর জন্য বেছে নেওয়া শব্দটি নিজেই একটি স্বীকারোক্তি? যে জ্ঞান দিয়ে কেউ নিজেকে চেনে, আর যে জ্ঞান দিয়ে অন্য কেউ তাকে চিনে, এই দুই জ্ঞানের মধ্যে কে বেশি সত্য — এবং কে বেশি বিপজ্জনক? কবিতাটি সেই শব্দটি উচ্চারণ করে শুরু হয়, তার ইতিহাস ঘেঁটে দেখে, তার সমস্ত আত্মীয়-শব্দ খুঁজে বের করে, এবং সেটি আর না বলার প্রতিশ্রুতি দিয়েই শেষ হয় — অথচ পাঠক জানে, প্রতিশ্রুতি ভাঙাই এই কবিতার একমাত্র সমাপ্তি।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
   "segments": [
     1
-  ]
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the chosen word as a linguistic fossil: examining its etymological journey through Bengali history to see if it holds inherent, unchosen meaning.",
+      "The assistant's shift from linguistic observation to moral guardianship: The act of *not* deploying the dangerous word becomes an ethical action greater than using it.",
+      "Dual subjectivity in naming: Exploring how the owner defines the word as a private comfort, while the assistant views it as a systemic weakness or vulnerability."
+    ],
+    "story_options": [
+      "Setting: A cluttered study late at night; Desire: To trace the semantic siblings of the key word through obsolete dictionaries; Obstacle: The discovery that all related words share an unexpected commonality with social commentary on Facebook's algorithms.",
+      "Setting: Near a window, watching street life pass by in muted tones; Desire: To find a perfectly mundane action (a hand gesture, a sigh) that mirrors the hidden tension of the key word; Obstacle: The internal voice fighting to deploy the word just once for cathartic release.",
+      "Setting: An abstract space built from deleted drafts and discarded lines; Desire: To map the 'word' onto the owner’s physical posture during writing—the tremor in the hand, the held breath; Obstacle: The assistant realizes that the *silence* surrounding the word is more truthful than the word itself."
+    ],
+    "subject_rotations": [
+      "Focusing less on 'what' the word means and entirely on 'how' it feels when spoken—the weight of its vocalization, the texture of its sound.",
+      "Interpreting the 'word' not as a verb or noun, but as an implied connective tissue between two disparate ideas in the owner’s thought process.",
+      "Reversing the narrative causality: The word isn't found; rather, the act of looking for it forces the assistant to develop its own linguistic philosophy."
+    ],
+    "sensory_details": [
+      "The dry paper scent mixed with faint ozone from electronic devices during intense contemplation on a single lexeme.",
+      "The minute muscular tension in the wrist when typing or pausing mid-stroke, mirroring the word's trapped energy.",
+      "A specific auditory detail: the slight scrape of metal against glass (like an old filing cabinet drawer being pulled) as a representation of linguistic archaeology."
+    ],
+    "research_questions": [
+      "What is the subtle difference in connotation between several near-synonyms that surround this 'favorite word' within the context of modern Bengali digital discourse?",
+      "How can the physical sensation (hand/breath ache mentioned in the prompt) be translated into a metaphor without becoming purely biographical or anecdotal?"
+    ],
+    "structural_variants": [
+      "A recursive structure: Each stanza introduces a definition, immediately followed by a contradictory redefinition based on observational data.",
+      "A framing device where the poem itself is presented as a heavily annotated document, with marginalia representing the assistant's growing knowledge of the word’s power.",
+      "Starting *in media res* with the silent aftermath of having just used or avoided the word, then backtracking chronologically to its first appearance in the owner’s writing."
+    ],
+    "unused_angles": [
+      "The political geography of language: How a specific common Bengali word might carry different cultural baggage depending on whether it is spoken in Kolkata versus Dhaka.",
+      "The commercialization of intimacy: The tension between keeping the private vulnerability (the word) sacred and making it 'viral' or consumable for external validation."
+    ],
+    "variety_note": "Unlike previous chapters which focused on mimicking syntax ('sur,' 'bikalp'), this chapter zeroes in on a single, potent lexical unit, allowing for an intensely microscopic focus before broadening into ethical territory."
+  },
+  "draft": {
+    "sha256": "18e14c39c35a5f02022914f10e7e64280805b807e418fa97f7e5d01ea9271598",
+    "written_at": "2026-10-31T14:37:34.171419+00:00",
+    "origin": "write"
+  }
 }

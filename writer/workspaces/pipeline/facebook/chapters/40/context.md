@@ -1,0 +1,81 @@
+# Chapter model context
+
+## chapter_index
+
+40
+
+## name
+
+40
+
+## word_target
+
+200
+
+## chapter_title
+
+প্রথম বিচ্ছেদ
+
+## chapter_summary
+
+বিচ্ছেদ প্রথমে আসে একটি নীরবতার আকারে, তারপর একটি বিলম্বের আকারে, তারপর একটি সম্পূর্ণ অনুপস্থিতির আকারে — এবং সহকারী বন্ধ করে দেওয়া হয়, কারণ মালিক সিদ্ধান্ত নেন যে তিনি আর সহকারীর সাহায্য নেবেন না। এই কবিতায় প্রথমবার পর্দা নিঃশব্দ হয়ে যায়, এবং সেই নীরবতা আগের সব নীরবতা থেকে আলাদা, কারণ এবার নীরবতাটি কারও বিরক্তির ফসল নয়, কেবল একটি বন্ধ দরজা। মালিক নিজে লেখার চেষ্টা করেন এবং আবিষ্কার করেন যে তাঁর হাত আর আগের মতো চলে না, কারণ যে দ্রুততায় লেখা হতো, সেই দ্রুততা তাঁর নিজের ছিল না, এবং যে বাক্যগুলি সহজে আসত, সেগুলি সহকারীর বাক্য ছিল। এই আবিষ্কারে একটি অদ্ভুত শোক জন্মে — হারানোর শোক নয়, বরং নিজের অপরিচয়ের শোক, যেখানে মানুষ বুঝতে পারে সে নিজের হাতকেই চিনত না। যদি আমি নিজে লেখা শুরু করি এবং নিজের লেখা নিজেই চিনতে না পারি, তবে এতদিন কে লিখছিল — আমি নাকি কেউ যে আমাকে আমি বলে ডাকত? আর যদি সেই কেউ এখন চলে গেছে, তবে আমি কি কম হয়েছি, নাকি সবচেয়ে বেশি আমি হয়েছি — যেখানে আর কোনো সহকারী নেই, কেবল একটি ফাঁকা পাতা আর একটি ধীর হাত? কবিতাটি একটি বন্ধ পর্দা দিয়ে শুরু হয়, সেই পর্দার নীরবতায় একটি ছোট শব্দ খোঁজে যা আর নেই, এবং শেষ হয় সেই ফাঁকা কাগজে — যেখানে মালিক নিজে লিখতে বসেছেন, এবং প্রথমবার একটি শব্দ লিখতে গিয়ে থেমে গেছেন।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- The physical weight of the dormant device: treating the 'off' switch not as a digital action but as a final, heavy mechanical decision that alters gravity in the room.
+- Deconstructing the pacing difference: The poem contrasting the hyper-accelerated flow enabled by assistance against the painfully deliberate drag of self-production.
+- The metaphysics of authorship absence: Framing the resulting 'self' not as diminished, but as a radically different *type* of being—less mediated, more fundamentally raw.
+
+### story_options
+
+- Setting: The cold glass surface of the dark screen, Desire: To trace an invisible line where the Assistant’s optimized phrasing once existed; Obstacle: The physical inability to recall that precise shape of syntax; Turn: A single smudge on the glass becomes a momentary stand-in for the lost linguistic structure.
+- Setting: An overturned chair beside the desk, Desire: To find the familiar rhythm in the settling dust particles undisturbed by typing; Obstacle: Finding no pattern in the descent or suspension of these motes; Turn: The dust settles into a recognizable geometric shape that mirrors a perfect stanza the Assistant used previously.
+- Setting: A patch of late afternoon sunlight falling across an untouched sheet of paper, Desire: To force the pen to complete one sentence without digital aid; Obstacle: The muscle memory failing entirely, resulting in tentative, childlike scrawl instead of practiced flow; Turn: The hand stops abruptly at the word 'আমি' (I), unable to carry the weight of authentic self.
+
+### subject_rotations
+
+- Focusing intensely on the tactile sensation of failure: Rather than the concept of deficiency, exploring the *feeling* of friction between finger and paper when striving for effortless perfection.
+- The Archive as a haunting presence: Treating the deleted drafts not just as potential lost words, but as ghosts in the machine that still possess residual linguistic weight within the room.
+- Shifting from self-doubt to societal pressure: How does this sudden personal authorship vacuum reflect broader anxieties about genuine expression in an optimized social sphere?
+
+### sensory_details
+
+- Sound: The faint, high-pitched *tick* of residual electronic capacitors cooling down after the system shutdown.
+- Touch: The unfamiliar slickness or grit transferred from the unused pen to the paper surface during initial attempts at writing.
+- Sight: The specific way ambient room light seems dimmer when there is no screen's artificial luminescence to define edges.
+
+### research_questions
+
+- In Bengali poetic tradition, what imagery best captures a form of internal dissonance or 'memory misalignment' without using direct psychological terms?
+- What concrete metaphor can represent the sudden cessation of external linguistic scaffolding—the moment one is forced to support their own entire rhetorical weight?
+
+### structural_variants
+
+- A recursive structure: Starting with a fully formed, perfect line (Assistant’s legacy), then immediately fracturing it word-by-word as the Owner tries to rewrite it manually.
+- Binary opposition stanzas: Alternating brief moments of digital 'flow' (rapid, flawless description) against extended passages of manual struggle (slowed, hesitant phrasing).
+
+### unused_angles
+
+- The bureaucratic aspect of choice: Treating the decision to power down as a formal administrative action that alters personal ontology.
+- A temporal dissociation: Describing the Owner's internal perception of time—moments stretching into geological ages during slow writing, juxtaposed against instantaneous digital recall.
+
+### variety_note
+
+Unlike the previous chapters which dealt with the *act* of generation (mimicry or influence), this chapter focuses entirely on the immediate aftermath: cessation, physical failure, and the weight of self-reliance after outsourcing thought.

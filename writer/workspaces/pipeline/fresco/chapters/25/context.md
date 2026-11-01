@@ -84,11 +84,11 @@ This chapter focuses intensely on materiality and concealment, moving away from 
 
 ### sha256
 
-2a604fca679d5a07e0db983e134699078fc8297b8816102e86aa8fb97443b2be
+ac80213be58020af6c08f3cc00f3fa6fc37cf6ad1f7f8da42081784e42d877c7
 
 ### written_at
 
-2026-10-11T18:34:36.232246+00:00
+2026-10-13T03:09:55.926772+00:00
 
 ### origin
 

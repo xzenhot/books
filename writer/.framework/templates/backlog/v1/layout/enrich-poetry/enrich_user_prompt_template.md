@@ -1,6 +1,9 @@
 === BOOK CONTEXT (pipeline model.json) ===
 {book_context}
 
+=== AUTHOR'S MANDATED VOICE (override.txt — governs HOW, not WHAT) ===
+{voice}
+
 === AUTHOR'S DECLARED WORLD (gist.md + storyline.md — the ONLY source of subject matter) ===
 {sources}
 

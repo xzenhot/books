@@ -102,7 +102,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from promptkit import PromptSet, framework_layout_dir, render
-from quality import read_json, write_json
+from quality import (audit_timestamp, read_json, stamp_markdown_file,
+                     write_json)
 
 # Reconfigure stdio for UTF-8 so status arrows (e.g. U+2192) never crash on a
 # Windows console whose default codec (cp1252/charmap) cannot encode them.
@@ -465,6 +466,78 @@ def write_backlog_progress(book_dir: Path) -> Path:
     out = book_dir / "progress.json"
     out.write_text(json.dumps(progress, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return out
+
+
+def ensure_backlog_bookseed(book_dir: Path) -> Path:
+    """Stage the book's vocabulary seed in the backlog.
+
+    Layout copies ``.framework/templates/backlog/v1/bookseed.txt`` into
+    ``workspaces/backlog/<bookname>/bookseed.txt`` so the book has its own
+    editable vocabulary and phrase list. ``scaffold`` later copies it into the
+    pipeline. An existing backlog copy is always preserved — it may be
+    human-edited — so seeding is create-if-missing only.
+
+    Args:
+        book_dir: Path to the backlog folder for this book.
+    """
+    template = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "bookseed.txt"
+    staged = book_dir / "bookseed.txt"
+    if staged.exists():
+        return staged
+    if not template.is_file():
+        print("  bookseed.txt: template missing; skipped")
+        return staged
+    book_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(template, staged)
+    return staged
+
+
+def ensure_backlog_signature(book_dir: Path, form: str) -> Path:
+    """Stage the selected style's companion signature in the backlog.
+
+    Layout copies the style's ``signature.md`` from
+    ``.framework/context/<form>/styles/<style>/signature.md`` into
+    ``workspaces/backlog/<bookname>/signature.md`` so ``scaffold`` can carry it
+    into the pipeline. The style resolves from the backlog plan's ``style``
+    field, defaulting per form (``pijush`` for poetry, ``dialogue`` for novels).
+
+    An existing backlog copy is always preserved — it may be human-edited — so
+    staging is create-if-missing only.
+
+    Args:
+        book_dir: Path to the backlog folder for this book.
+        form:     Resolved ``poetry`` or ``novel``.
+    """
+    staged = book_dir / "signature.md"
+    if staged.exists():
+        return staged
+
+    form_folder = "poetry" if form == "poetry" else "novel"
+    default_style = "pijush" if form_folder == "poetry" else "dialogue"
+    style = default_style
+    plan_file = book_dir / "book.json"
+    if plan_file.is_file():
+        try:
+            plan = json.loads(plan_file.read_text(encoding="utf-8-sig"))
+        except (json.JSONDecodeError, OSError):
+            plan = {}
+        declared = plan.get("style")
+        if isinstance(declared, str) and declared.strip():
+            style = declared.strip()
+
+    if style in {".", ".."} or any(char in style for char in "/\\"):
+        print(f"  signature.md: unsafe style name {style!r}; skipped")
+        return staged
+
+    source = REPO_ROOT / ".framework" / "context" / form_folder / "styles" / style / "signature.md"
+    if not source.is_file():
+        print(f"  signature.md: no companion signature for {form_folder} style {style!r}; skipped")
+        return staged
+
+    book_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(source, staged)
+    stamp_markdown_file(staged, "layout")
+    return staged
 
 
 def make_epic(
@@ -1423,11 +1496,21 @@ def create_backlog(
     # pipeline at scaffold time.
     progress_file = write_backlog_progress(book_dir)
 
+    # Book vocabulary seed — staged here so the human can edit it before
+    # scaffold copies it into the pipeline.
+    bookseed_file = ensure_backlog_bookseed(book_dir)
+
+    # Selected style's companion signature — staged here so scaffold can copy
+    # it into the pipeline root.
+    signature_file = ensure_backlog_signature(book_dir, form)
+
     print(f"Backlog created → {book_dir}")
     print(f"  gist.md  : {gist_file}")
     print(f"  storyline.md  : {epic_file}")
     print(f"  book.json: {book_file}")
     print(f"  progress.json: {progress_file}")
+    print(f"  bookseed.txt: {bookseed_file}")
+    print(f"  signature.md: {signature_file}")
     print(f"  materials/ : {materials_dir}")
     print(f"  form: {form} | chapters: {len(chapters)} | refreshed: {refresh}")
 
@@ -1479,10 +1562,19 @@ def run_layout(
     # 3. Create the backlog progress.json from the template, customized to the plan.
     progress_file = write_backlog_progress(book_dir)
 
+    # 4. Stage the book's vocabulary seed so the human can edit it before
+    # scaffold copies it into the pipeline.
+    bookseed_file = ensure_backlog_bookseed(book_dir)
+
+    # 5. Stage the selected style's companion signature for scaffold to copy.
+    signature_file = ensure_backlog_signature(book_dir, form)
+
     print(f"Layout complete → {book_dir}")
     print(f"  storyline.md  : {book_dir / 'storyline.md'}")
     print(f"  book.json: {book_dir / 'book.json'}")
     print(f"  progress.json: {progress_file}")
+    print(f"  bookseed.txt: {bookseed_file}")
+    print(f"  signature.md: {signature_file}")
     print(f"  form: {form} | chapters: {chapter_count or '(from book.json)'}")
 
 
@@ -1497,7 +1589,8 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     then creates all required pipeline folders and placeholder files.
 
     The pipeline structure created:
-        book.json, characters.json, override.txt
+        book.json, characters.json, override.txt, signature.md (when available),
+        bookseed.txt (when available)
         filters/filters.json (registry only — no per-filter folders)
         chapters/<name>/model.json, chapter.md, history/
         chapters/<name>/segments/1/{segment.json, writer/, editor/, translator/, version/}
@@ -1524,6 +1617,14 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
             "scaffold_novel requires form='novel' in book.json. "
             "For poetry use: python tools/book.py <bookname> scaffold [count] poetry"
         )
+    style = plan.get("style") or "dialogue"
+    if (
+        not isinstance(style, str)
+        or not style.strip()
+        or style in {".", ".."}
+        or any(char in style for char in "/\\")
+    ):
+        raise ValueError("Book style must be a single style nickname")
 
     chapters = plan.get("chapters", [])
     # The chapter count is authoritative from book.json; ignore any supplied
@@ -1537,6 +1638,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
             "Delete it manually if you want to re-scaffold."
         )
     pipeline.mkdir(parents=True)
+    stamp = audit_timestamp()
 
     # --- Clone the complete v1 template tree into the pipeline root. ---
     # The pipeline starts as a verbatim copy of the backlog v1 template
@@ -1554,11 +1656,56 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
             else:
                 shutil.copy2(child, dest)
 
-    # --- Copy the backlog source files (gist.md, storyline.md, progress.json) verbatim ---
-    for src_name in ("gist.md", "storyline.md", "progress.json"):
+    # --- Copy the backlog source files (gist.md, storyline.md, progress.json, override.txt) ---
+    # The pipeline is a self-contained snapshot of the backlog at scaffold time.
+    # Once the pipeline exists the backlog is never read again, so every source
+    # file the downstream stages need must be copied here — including the
+    # author's override.txt, which carries the mandated voice, craft rules and
+    # sample poems. Writing a stub instead silently discards all of it.
+    for src_name in ("gist.md", "storyline.md", "progress.json", "override.txt"):
         src = book_dir / src_name
         if src.is_file():
             shutil.copy2(src, pipeline / src_name)
+
+    # Keep a staged copy of the selected style signature in the backlog, then
+    # carry it into the pipeline snapshot without replacing existing content.
+    signature_source = REPO_ROOT / ".framework" / "context" / "novel" / "styles" / style / "signature.md"
+    signature_stage = book_dir / "signature.md"
+    if not signature_stage.exists():
+        if signature_source.is_file():
+            shutil.copy2(signature_source, signature_stage)
+            stamp_markdown_file(signature_stage, "layout", stamp)
+        else:
+            print(f"No style signature found for novel style '{style}'; continuing without one")
+    else:
+        print("Preserving existing staged style signature")
+    signature_dest = pipeline / "signature.md"
+    if signature_stage.is_file() and not signature_dest.exists():
+        shutil.copy2(signature_stage, signature_dest)
+        stamp_markdown_file(signature_dest, "scaffold", stamp)
+        print("Copied style signature into the pipeline")
+    elif signature_dest.exists():
+        print("Preserving existing pipeline style signature")
+
+    # The book seed hosts the book's own vocabulary and phrases. Stage the
+    # template in the backlog, then copy it into the pipeline. The pipeline is
+    # always fresh here (re-scaffold is refused), so the backlog copy wins over
+    # the placeholder that the cloned v1 template tree placed at the root.
+    bookseed_source = REPO_ROOT / ".framework" / "templates" / "backlog" / "v1" / "bookseed.txt"
+    bookseed_stage = book_dir / "bookseed.txt"
+    if not bookseed_stage.exists():
+        if bookseed_source.is_file():
+            shutil.copy2(bookseed_source, bookseed_stage)
+        else:
+            print("No bookseed template found; continuing without a staged bookseed.txt")
+    else:
+        print("Preserving existing staged bookseed.txt")
+    bookseed_dest = pipeline / "bookseed.txt"
+    if bookseed_stage.is_file():
+        shutil.copy2(bookseed_stage, bookseed_dest)
+        print("Copied bookseed.txt into the pipeline")
+    elif bookseed_dest.exists():
+        print("Preserving template bookseed.txt in the pipeline")
 
     # --- Root pipeline files ---
     (pipeline / "book.json").write_text(
@@ -1573,7 +1720,11 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
         ) + "\n",
         encoding="utf-8",
     )
-    (pipeline / "override.txt").write_text("No transform required.\n", encoding="utf-8")
+    # override.txt was copied from the backlog above. Only fall back to the
+    # neutral stub when the backlog supplied none — never overwrite a real one.
+    prompt_file = pipeline / "override.txt"
+    if not prompt_file.exists():
+        prompt_file.write_text("No transform required.\n", encoding="utf-8")
 
     # --- Filter registry (filters.json only; no per-filter folders) ---
     filter_chain = plan.get("filter_chain", FILTER_CHAIN_NOVEL)
@@ -1734,7 +1885,7 @@ def enrich_workflow(bookname: str, target: str) -> None:
     chapters_root = enrich.resolve_chapters_root(bookname)
     numbers = enrich.parse_chapter_input(target, chapters_root)
     book = enrich.load_book_model(bookname)
-    gist, storyline = enrich.load_book_sources(bookname)
+    gist, storyline, override = enrich.load_book_sources(bookname)
     sources = "\n\n".join(part for part in (gist, storyline) if part)
 
     # Load the form-specific templates (lenses, twists, prompts) before enriching,
@@ -1746,6 +1897,11 @@ def enrich_workflow(bookname: str, target: str) -> None:
     # the pipeline book.json declares no model, resolve_model raises and the agent
     # stops without assuming a default.
     model_name = enrich.resolve_model(bookname)
+
+    # Plan of works first: style.md regeneration is itself an Ollama call, so the
+    # operator must see the plan before any model work begins.
+    from workplan import print_plan
+    print_plan("enrich", bookname, numbers, form=book.get("form"))
 
     # Ensure the pipeline style.md exists and is grounded in the current book.
     enrich.regenerate_style_md(bookname, book, model_name=model_name)
@@ -1763,13 +1919,16 @@ def enrich_workflow(bookname: str, target: str) -> None:
     for num in numbers:
         try:
             enrich.enrich_chapter(_chapter_model_file(chapters_root / str(num)), book, all_models,
-                                  model_name=model_name, sources=sources)
+                                  model_name=model_name, sources=sources, voice=override)
         except Exception as exc:  # noqa: BLE001
             print(f"  [{num}] FAILED: {exc}", file=sys.stderr)
             failures += 1
 
     successes = len(numbers) - failures
     print(f"Enrich complete. {successes} succeeded, {failures} failed.")
+    # Reconcile progress.json from book.json after the run.
+    from workplan import sync_progress
+    print(f"progress.json {'updated' if sync_progress(bookname) else 'already current'}")
     if failures:
         raise RuntimeError(f"{failures} chapter(s) failed enrichment.")
 
@@ -1797,6 +1956,11 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
 
     failures = 0
     total = len(numbers)
+    # Style is announced once for the whole run, not once per chapter.
+    writer.reset_style_announcement()
+    # Plan of works before the first per-chapter Ollama call.
+    from workplan import print_plan
+    print_plan("write", bookname, numbers, style=style or writer.DEFAULT_STYLE)
     for position, num in enumerate(numbers, 1):
         print(f"[{position}/{total}] Writing chapter {num} ...", flush=True)
         try:
@@ -1813,6 +1977,9 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
 
     successes = len(numbers) - failures
     print(f"Write complete. {successes} succeeded, {failures} failed.")
+    # Reconcile progress.json from book.json after the run.
+    from workplan import sync_progress
+    print(f"progress.json {'updated' if sync_progress(bookname) else 'already current'}")
     if failures:
         raise RuntimeError(f"{failures} chapter(s) failed writing.")
 

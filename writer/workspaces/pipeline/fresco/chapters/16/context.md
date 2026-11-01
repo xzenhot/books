@@ -85,12 +85,69 @@ This chapter must be distinctly about the physical apparatus of creation—the s
 
 ### sha256
 
-d60774f1d4b39627f342890becd8f1c68a838599edd93f3cbdf88f1221fb8878
+9d9d2fdcb4aa58df29064c8c8dc20917aa40e7df99968ee9f8e2a1836ffbc154
 
 ### written_at
 
-2026-10-11T18:32:57.522048+00:00
+2026-10-13T03:08:13.675795+00:00
 
 ### origin
 
 write
+
+## akshar_target
+
+14
+
+## caesura
+
+8+6
+
+## sonnet_mode
+
+true
+
+## volta_line
+
+9
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## rhyme_scheme
+
+ABAB
+
+## rhyme_families
+
+### A
+
+- শূন্যতা
+- ব্যর্থতা
+- ধূসরতা
+- স্বাধীনতা
+- স্থবিরতা
+- জটিলতা
+- স্মৃতিমেদুরতা
+
+### B
+
+- পাথর
+- ভিতর
+- উত্তর
+- অন্তর
+- নিরুত্তর
+- প্রান্তর
+- নিথর
+
+## lines_calibrated
+
+14
+
+## lines_needs_review
+
+
+## sonnet_calibrated_at
+
+20261025_223336

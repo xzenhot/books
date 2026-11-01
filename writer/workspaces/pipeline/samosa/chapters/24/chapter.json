@@ -1,0 +1,53 @@
+{
+  "chapter_index": 24,
+  "name": "24",
+  "word_target": 250,
+  "chapter_title": "দাম বদলায়",
+  "chapter_summary": "দাম বদলায়, আর দামের সঙ্গে বদলায় মূল্য। যে খাবার একদিন শুধু খিদের ছিল, আজ একে নানা বাজার নিয়ন্ত্রণ করে।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Framing price as a direct measure of distance: higher 'দাম' equaling further separation from the source soil.",
+      "Adopting the perspective of money/currency itself—how it interacts with the object, valuing appearance over internal substance.",
+      "The negotiation dynamic: viewing the exchange not as transactional necessity but as an existential surrender to market forces."
+    ],
+    "story_options": [
+      "Setting: A dimly lit, anonymous vendor stall; Desire: To trace the exact arithmetic that separates the price from 'feeling'; Obstacle: The impersonal swipe of a plastic card replaces cash memory.",
+      "Setting: In a standardized supermarket aisle under harsh fluorescent light; Desire: To compare multiple branded packets side-by-side to see how the numerical difference dictates perceived quality; Obstacle: An invisible, mandated ceiling on acceptable longing.",
+      "Setting: While haggling with a street seller late at night; Desire: To find the precise inflection in my voice that signals authentic hunger versus performative need; Obstacle: The vendor's practiced, unreadable neutrality."
+    ],
+    "subject_rotations": [
+      "Examining price fluctuation not as economic instability, but as a measure of cultural dilution—the faster the change, the further the flavor has traveled.",
+      "The contrast between the 'price tag' (external metric) and the inherent, unquantifiable 'value' (internal memory).",
+      "How different forms of currency—local coin vs. foreign digital transfer—impact the perceived weight of the single pastry."
+    ],
+    "sensory_details": [
+      "The slick, almost oily residue on a vendor’s counting scale where digits have been repeatedly pressed.",
+      "The sudden, sharp chill emanating from a modern refrigerated display case contrasting with the warm grease stain on the wrapper.",
+      "The faint metallic tang of coinage clashing against the earthy, muted aroma of spices."
+    ],
+    "research_questions": [
+      "How does the specific dialect used when discussing cost (e.g., using slang vs. formal terms) shift the underlying emotional resonance within a diaspora community?",
+      "Are there established cultural metaphors in Bengali commerce that connect price directly to authenticity or purity of ingredients?"
+    ],
+    "structural_variants": [
+      "The 'price as lyric' structure: where each stanza represents an ascending scale—from local cost, through transport fees, to final market inflation.",
+      "A rapid-fire catalogue poem alternating between the object's physical descriptors and its constantly shifting numerical tags."
+    ],
+    "unused_angles": [
+      "The impact of tax structures on the perceived morality of buying the foodstuff.",
+      "Detailed analysis of how international currency symbols distort the simple act of paying for a piece of comfort food."
+    ],
+    "variety_note": "While previous chapters focused on material transformation (name, packaging), this chapter focuses exclusively on the valuation—the economic geography imposed upon the edible memory."
+  },
+  "draft": {
+    "sha256": "8d55e9a97c352a39247f3ab1d54368e00f2f0989fc24db1b5a883fc0966e7dee",
+    "written_at": "2026-11-01T08:22:43.890915+00:00",
+    "origin": "write"
+  }
+}

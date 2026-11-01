@@ -98,11 +98,11 @@ Unlike earlier explorations of sensation (Musk/Lapis), this chapter integrates t
 
 ### sha256
 
-20fdf2039dfdf7fba44ff5e141c82553db455251dafebe4f316027596ab750ad
+eed4dc5f091a0970f3f5a1b3924d7e824e2d676ea08c9b6db244cf56d42b0ecd
 
 ### written_at
 
-2026-10-11T18:35:14.598617+00:00
+2026-10-13T03:10:38.661772+00:00
 
 ### origin
 

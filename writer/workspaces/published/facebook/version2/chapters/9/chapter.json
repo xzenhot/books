@@ -1,0 +1,69 @@
+{
+  "chapter_index": 9,
+  "name": "9",
+  "word_target": 200,
+  "chapter_title": "ছবির নিচে লেখা",
+  "chapter_summary": "একটি ছবি হাজার কথা বলে, আর তার নিচে লেখা এক লাইন সেই হাজার কথা চেপে ধরে — এখানেই ছবির আর লেখার পুরনো লড়াই নতুন রূপে ফিরে আসে, যেখানে ছবি অভিযুক্ত আর লেখা বিচারক। সহকারীকে বলা হয় ছবিটি দেখে একটি লাইন লিখতে, কিন্তু সে ছবি দেখতে পায় না, সে কেবল দেখতে পায় ছবিটির বিবরণ — কে কোথায় দাঁড়িয়ে, কোন দিকে তাকিয়ে, কী রঙের পোশাকে। এই অন্ধত্বই কবিতার বিষয়: যদি লেখক বিষয়টি না দেখেই লেখেন, তবে সেই লেখা কার অভিজ্ঞতা থেকে জন্ম নেয় — তার, না যে বর্ণনা লিখেছিল, না যে ছবি তুলেছিল? ছবি তোলা আর ছবি বর্ণনা করা আর ছবির নিচে লেখা — এই তিনটি কাজে তিনজন আলাদা মানুষ থাকে, অথচ পাঠক একজনকেই লেখক বলে ধরে নেয়। মালিক বলেন, ওই ছবিতে যা আছে তা নয়, ওই ছবির পেছনে যা ঘটেছিল তা লিখতে হবে — আর সহকারী বুঝতে পারে, প্রকাশ কখনও প্রকাশিত বস্তু নিয়ে নয়, প্রকাশ সবসময় অনুপস্থিতি নিয়ে; যা দেখা যায় তা নয়, যা দেখে কেউ দেখেনি তাই লেখা হয়। কবিতাটি একটি ছবি দিয়ে শুরু হয়, ছবিটির বাইরে যা ঘটেছিল তা নিয়ে ভাবে, ছবির ফ্রেমের বাইরের অংশটিকে খোঁজে, এবং ছবিতেই ফিরে এসে থামে — এবার জেনে যে ছবিটি কখনও সম্পূর্ণ ছিল না।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Focusing on the relationship between caption/description vs. narrative context: The assistant tries to imbue description with implied backstory, forcing a philosophical collision.",
+      "Treating the photographic image as an artifact of cultural memory rather than just optics—the pose and color choices reflecting societal expectation versus private yearning.",
+      "An internal monologue where the 'unseen' element is not personal tragedy but political or communal absence (e.g., a missing figure in the frame)."
+    ],
+    "story_options": [
+      "Setting: A public square captured at dusk; Desire: The assistant seeks to write about the unspoken conversation between two figures whose faces are blurred by shadow; Obstacle: Its inability to differentiate the 'captured' reality from the felt, living moment.",
+      "Setting: An interior shot of an old room (implied context); Desire: To capture the scent and resonance of a prior event that shaped the scene, ignoring the current visual stillness; Obstacle: The digital description only provides furniture dimensions and light levels.",
+      "Setting: A portrait taken in strong directional sunlight; Desire: To articulate the burden carried by the subject's posture—a weight heavier than the visible garment or jewelry; Obstacle: The assistant can only analyze the angle of light, not its emotional source."
+    ],
+    "subject_rotations": [
+      "Examining the frame itself as an act of editing/censorship: What is actively excluded by the composition? (Difference from Neighboring Chapter 8 on labeling).",
+      "Shifting focus to the language of description—how clinical, detached cataloging inherently denies emotional depth.",
+      "Viewing the picture not as a moment captured, but as a memory being manufactured and sold back to the viewer."
+    ],
+    "sensory_details": [
+      "The faint residue of heat from the phone screen after a prolonged period of analyzing metadata (a physical trace of digital labor).",
+      "The specific chill in the air that precedes heavy cloud cover, which the assistant must translate into mood when none is present.",
+      "The abrasive grit texture felt on the lens glass before it was wiped clean by the photographer."
+    ],
+    "research_questions": [
+      "In Bengali literature, are there established metaphors for 'that which lies beyond sight' (অদৃশ্য) that could guide the poem’s language?",
+      "How is the concept of 'presence vs. absence' framed in visual rhetoric when describing still life or portraiture?"
+    ],
+    "structural_variants": [
+      "A dialogue-driven structure where the assistant argues with a hypothetical 'photographer figure' about what constitutes truth.",
+      "An inverted progression: Starting with the rich, complex emotional text, and systematically stripping it down to only verifiable visual metadata.",
+      "A cyclical structure mirroring the photograph itself—zooming in on an object, then pulling back to show its relationship within the frame, before finally moving outside."
+    ],
+    "unused_angles": [
+      "The concept of algorithmic bias coloring the description: if the assistant is trained primarily on high-gloss commercial imagery, how does that color the search for 'genuine' depth?",
+      "Comparing this act to ancient mythologies where seeing was a cursed/blessed form of knowledge."
+    ],
+    "variety_note": "Unlike previous chapters focusing on internal linguistic mechanics or silence in withholding speech, this chapter externally confronts the limitations of representation—the gulf between what is captured and what is felt."
+  },
+  "draft": {
+    "sha256": "9c9f7fb849e5a6cef46d3f71d66b89fa8783dba175757218eea4558ce4792bf9",
+    "written_at": "2026-10-31T12:05:00.974292+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "9c9f7fb849e5a6cef46d3f71d66b89fa8783dba175757218eea4558ce4792bf9",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-31T12:37:54+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

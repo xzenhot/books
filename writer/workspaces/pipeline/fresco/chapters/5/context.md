@@ -84,12 +84,47 @@ This chapter moves away from pure sensory absorption (Part I) to a definitive id
 
 ### sha256
 
-947b665fe7a4bde9b9513672ddd98d5162672d34d2552770b0ca91f5d9952dd5
+1d2cbad61c010be5d3b245a2975e2707f645978873c2eb25583cd888bd35d087
 
 ### written_at
 
-2026-10-11T18:31:02.318712+00:00
+2026-10-13T03:06:12.406785+00:00
 
 ### origin
 
 write
+
+## akshar_target
+
+14
+
+## caesura
+
+8+6
+
+## sonnet_mode
+
+true
+
+## volta_line
+
+9
+
+## calibration_method
+
+agent_composed_mcp_verified
+
+## lines_calibrated
+
+14
+
+## lines_adjusted
+
+0
+
+## lines_needs_review
+
+
+## sonnet_calibrated_at
+
+20261025_171803

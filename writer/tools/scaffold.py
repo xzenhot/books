@@ -10,7 +10,8 @@ import argparse
 import shutil
 from pathlib import Path
 from quality import (read_json, write_json, atomic_bytes, canonical_names, sync_progress,
-                     reconcile_filter_chain, stamp_json, audit_timestamp)
+                     reconcile_filter_chain, stamp_json, audit_timestamp,
+                     stamp_markdown_file)
 
 ROOT = str(Path(__file__).resolve().parent.parent)
 AUDIT_FIELDS = ("updated_by", "updated_date", "updated_at")
@@ -73,6 +74,14 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
     names = canonical_names(plan)
     if plan.get("form") != "poetry" or plan.get("book_name") != bookname:
         raise ValueError("Plan must identify the requested poetry book")
+    style = plan.get("style") or "pijush"
+    if (
+        not isinstance(style, str)
+        or not style.strip()
+        or style in {".", ".."}
+        or any(char in style for char in "/\\")
+    ):
+        raise ValueError("Book style must be a single style nickname")
     if plan.get("chapter_count") != len(names):
         raise ValueError("chapter_count must equal the number of poems")
     for i, entry in enumerate(plan["chapters"], 1):
@@ -129,6 +138,7 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
             read_json(path)
 
     pipeline.mkdir(parents=True, exist_ok=True)
+    stamp = audit_timestamp()
 
     # --- Clone the form-tool template tree (layout/) into the pipeline. ---
     # enrich.py (and write.py) read their lenses/twists/prompts from the book's
@@ -139,15 +149,31 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
     if layout_src.is_dir() and not layout_dst.exists():
         shutil.copytree(layout_src, layout_dst)
 
-    # --- Copy the backlog source files (gist.md, storyline.md) verbatim ---
-    # Never overwrite a pipeline file that already exists: progress.json holds
-    # live writing state, and the sources are only cloned on first scaffold.
+    # --- Copy the backlog sources into the pipeline verbatim ---
+    # Scaffold never writes to the backlog. It copies the sources the backlog
+    # phase staged: the plan inputs (gist, storyline, progress) and the book's
+    # vocabulary seed. Never overwrite an existing pipeline file: progress.json
+    # holds live writing state, and the sources are cloned only on first scaffold.
     backlog_dir = root / "workspaces/backlog" / bookname
-    for src_name in ("gist.md", "storyline.md", "progress.json"):
+    for src_name in ("gist.md", "storyline.md", "progress.json", "bookseed.txt"):
         src = backlog_dir / src_name
         dest = pipeline / src_name
         if src.is_file() and not dest.exists():
             shutil.copy2(src, dest)
+
+    # The selected style's signature lives with the framework, not in the
+    # backlog, so scaffold resolves it directly from the style folder. Plain
+    # text seed files are copied verbatim; the Markdown signature is stamped.
+    signature_source = root / ".framework/context/poetry/styles" / style / "signature.md"
+    signature_dest = pipeline / "signature.md"
+    if signature_dest.exists():
+        print("Preserving existing pipeline style signature")
+    elif signature_source.is_file():
+        shutil.copy2(signature_source, signature_dest)
+        stamp_markdown_file(signature_dest, "scaffold", stamp)
+        print("Copied style signature into the pipeline")
+    else:
+        print(f"No style signature found for poetry style '{style}'; continuing without one")
 
     model = dict(existing or plan)
     if existing and len(names) > len(old_names):
@@ -156,7 +182,6 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
     # The pipeline plan is a verbatim clone of the backlog plan; the audit
     # fields are the only permitted difference (see audit-metadata.md). Stamp
     # both with one timestamp so the clone stays equal to its source.
-    stamp = audit_timestamp()
     stamp_json(model, "scaffold", stamp)
     if chain_repaired:
         write_json(plan_path, stamp_json(plan, "scaffold", stamp))
@@ -185,7 +210,15 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
             "scaffold"))
     prompt = pipeline / "override.txt"
     if not prompt.exists():
-        atomic_bytes(prompt, b"No transform required.\n")
+        # Copy the author's master prompt from the backlog. Once the pipeline
+        # exists the backlog is never read again, so this is the only chance to
+        # carry the mandated voice, craft rules and sample poems across. The
+        # neutral stub is used only when the backlog has no override.
+        source = plan_path.parent / "override.txt"
+        if source.is_file():
+            atomic_bytes(prompt, source.read_bytes())
+        else:
+            atomic_bytes(prompt, b"No transform required.\n")
     # Override filter.md remains lazy; existing human instructions are untouched.
     sync_progress(pipeline)
     progress_path = pipeline / "progress.json"

@@ -94,11 +94,11 @@ Unlike chapters focusing on the sheer scale of trade (like The Camel Train), thi
 
 ### sha256
 
-34a06035bea413286befb7f12d7bdc65c48337ee25eef911deb4bae9e02e86b0
+7f47aab60a273d299efb40989efc6644050bc9828029012f861f25b7f3eeb6d2
 
 ### written_at
 
-2026-10-11T18:37:45.451898+00:00
+2026-10-13T03:13:17.042225+00:00
 
 ### origin
 

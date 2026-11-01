@@ -1,0 +1,53 @@
+{
+  "chapter_index": 23,
+  "name": "23",
+  "word_target": 250,
+  "chapter_title": "প্যাকেট বদলায়",
+  "chapter_summary": "কাগজের মোড়ক ছিঁড়ে যায়, আর ভিতরে প্লাস্টিকের খোলস। বাড়ির পত্রিকা থেকে দোকানের প্যাকেট — মোড়কও একটি ঠিকানা।",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "Treating the packaging material itself as a second skin—synthetic membrane replacing organic wrapper (like muslin or newspaper print from home).",
+      "Focusing on the texture of the change: the brittle crispness of factory sealing versus the yielding softness of homemade wrappings.",
+      "Framing 'প্যাকেট' not just as wrapping, but as a mandated containment unit that forces isolation between object and environment."
+    ],
+    "story_options": [
+      "Setting: A poorly lit railway platform at dusk; Desire: To examine the standardized plastic seal on a small packet of savory bites; Obstacle: The pressure to consume quickly before the 'expiry' stamped in indelible ink.",
+      "Setting: Inside a cluttered storage room, stacked high with different brands/types; Desire: To sift through various paper and polymer layers, seeking one familiar texture or print pattern; Obstacle: The overwhelming noise of commerce drowning out any whisper of memory.",
+      "Setting: Near a roadside stall where the vendor is preparing fresh goods nearby; Desire: To observe the contrast between the handcrafted freshness (the *kora*) and the factory-sealed uniformity in close proximity; Obstacle: The speed of mechanized production outpacing human ritual."
+    ],
+    "subject_rotations": [
+      "The shift from a perishable, home-held item to an industrially immortalized product.",
+      "How color/graphic design on the wrapper functions as aggressive consumer propaganda masking cultural loss.",
+      "Examining 'প্যাকেট' through a strictly chemical lens—the polymers and additives that replace the natural scents of oil and flour."
+    ],
+    "sensory_details": [
+      "The faint, sweet plasticky odor leaching from newly opened packets in the dry air of transit spaces.",
+      "The sight of standardized heat-seals contrasting sharply with a stain pattern left by hand oils on old paper bags.",
+      "The sharp, high-pitched sound of tearing synthetic film under tension."
+    ],
+    "research_questions": [
+      "What are specific Bengali/regional terms for the sense of 'artificial preservation' or engineered flavor in processed foods?",
+      "How is mass packaging typography used across various diaspora markets to communicate global standardization?"
+    ],
+    "structural_variants": [
+      "A poem that builds solely through a cataloguing process: listing different materials (paper, foil, plastic grade) before touching the food.",
+      "A structure mimicking an inspection report—clinical language applied to intensely emotional subject matter."
+    ],
+    "unused_angles": [
+      "How the visual design of the packaging attempts to mimic regional artistry while failing due to mass-market constraints.",
+      "The political implication of needing standardized, recognizable foreign labels for items that are inherently hyper-local (Singara)."
+    ],
+    "variety_note": "This chapter focuses intensely on the *container* rather than the contents or the movement, examining manufactured surfaces as a substitute for familial touch."
+  },
+  "draft": {
+    "sha256": "5aae08a0692ddca9723f12486f294d55f9efb7d26bbf178c3a5b967990555954",
+    "written_at": "2026-11-01T08:22:33.083064+00:00",
+    "origin": "write"
+  }
+}

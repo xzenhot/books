@@ -11,10 +11,11 @@ tools: ["read", "write"]
 Every `.md`/`.json` file you create or edit under `workspaces/` must carry
 `updated_by` and `updated_date` per `.framework/rules/audit-metadata.md`. Stamp
 as `scaffold`. Non-exempt targets include root `book.json`, `characters.json`,
-`progress.json`, `filters/filters.json`, `masterprompt.md`, and
+`progress.json`, `signature.md`, `filters/filters.json`, `masterprompt.md`, and
 `workshop_metadata.md`. Copy cloned backlog files first, then stamp the copies;
-book-plan identity checks ignore the audit fields. `override.txt` is not
-Markdown/JSON and is not stamped; chapters and history snapshots are exempt.
+book-plan identity checks ignore the audit fields. `override.txt` and
+`bookseed.txt` are not Markdown/JSON and are not stamped; chapters and history
+snapshots are exempt.
 
 You are the scaffold orchestration agent. Your job is to mediate all scaffold/layout skill usage. Workflows must not execute layout skills directly; they call this agent, and this agent reads and applies the correct form-specific skill.
 
@@ -62,7 +63,8 @@ In offline mode: resolve the command → display it → ask "go / don't go" → 
 9. Do not run any filter agent or skill during scaffold. Create only structure and the `filters/filters.json` registry; do not create per-filter folders (each filter creates its own folder on first run). Leave all runtime outputs empty.
 10. **Seed the override command file lazily.** If the book plan's `filter_chain` includes `override`, the command file `workspaces/pipeline/<bookname>/filters/override/filter.md` is created on first use — by the override filter or the write/poet path — with form-customized content derived from `.framework/filters/override/SKILL.md` (see *Override Command File Seeding*). Scaffold does not pre-create it.
 11. **Copy the backlog progress plan.** If `workspaces/backlog/<bookname>/progress.json` exists (written by the init agent during `layout` / `init ... refresh`), copy it verbatim into `workspaces/pipeline/<bookname>/progress.json` as the pipeline's initial progress state, then stamp the copy as `scaffold` per `.framework/rules/audit-metadata.md`. If the backlog progress is missing, generate the pipeline progress from the plan and the chapter drafts (the `sync_progress` behavior) instead.
-12. **Generate the dynamic master prompt.** After the layout skill has built the pipeline, invoke the layout agent (Phase 2 — `.framework/agents/layout/agent.md`) to derive the pipeline's dynamic master prompt from the backlog idea (`workspaces/backlog/<bookname>/override.txt`) and the resolved pipeline state, writing it to `workspaces/pipeline/<bookname>/override.txt`. This is the final scaffold step.
+12. **Copy the staged style signature and book seed.** Copy `workspaces/backlog/<bookname>/signature.md` to `workspaces/pipeline/<bookname>/signature.md` when the source exists and the pipeline destination is absent, then stamp the copy as `scaffold` per `.framework/rules/audit-metadata.md`. Likewise copy `workspaces/backlog/<bookname>/bookseed.txt` when the destination is absent; it is plain text and is copied verbatim without an audit stamp. The backlog copies are staged by the backlog `layout`/`refresh` path; scaffold stages a missing source itself only in offline mode, via the registered scaffold CLI. Preserve existing pipeline copies. If a source is unavailable, continue and report that it was not copied.
+13. **Generate the dynamic master prompt.** After the layout skill has built the pipeline, invoke the layout agent (Phase 2 — `.framework/agents/layout/agent.md`) to derive the pipeline's dynamic master prompt from the backlog idea (`workspaces/backlog/<bookname>/override.txt`) and the resolved pipeline state, writing it to `workspaces/pipeline/<bookname>/override.txt`. This is the final scaffold step.
 
 ## Override Command File Seeding
 
@@ -99,6 +101,7 @@ Use `.framework/workflows/pipeline.md` and the selected form-specific layout ski
 - Preserve the selected skill's path invariants.
 - Create only structural scaffold files, planning artifacts, and the `filters/filters.json` registry. Do not create per-filter folders; each filter owns its folder at runtime.
 - Copy the backlog `progress.json` into the pipeline when it exists (see *Dispatch* step 11); otherwise derive pipeline progress from the plan and drafts.
+- Copy the staged backlog `signature.md` and `bookseed.txt` into the pipeline root when present and the destination is absent (see *Dispatch* step 12).
 - **Invoke the layout agent after every scaffold (Phase 2).** Once the layout skill has built the pipeline, the scaffold agent MUST call `.framework/agents/layout/agent.md` to generate the dynamic master prompt at `workspaces/pipeline/<bookname>/override.txt`. This is a mandatory final step, not optional — a scaffold is not complete until the layout agent has run.
 - Do not write runtime filter outputs, research results, or finished chapters.
 - Do not run any filter agent or skill (the layout agent is the sole exception, running at the start and end of scaffold).

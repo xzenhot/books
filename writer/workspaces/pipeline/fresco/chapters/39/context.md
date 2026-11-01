@@ -99,11 +99,11 @@ This chapter moves away from the purely physical decay (lime/fresco skin) to exa
 
 ### sha256
 
-ed6105e4fd3f0a460be14ef93e4db9b15c7fc6ec6b6c23587b8864e9b57265dd
+36455a4548ddef6e17ad563dc1e62dc117dcd1a518b77d282e4d7d84a2c90814
 
 ### written_at
 
-2026-10-11T18:37:03.988842+00:00
+2026-10-13T03:12:30.595550+00:00
 
 ### origin
 

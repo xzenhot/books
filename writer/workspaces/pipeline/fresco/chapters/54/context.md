@@ -84,11 +84,11 @@ Where previous chapters focused on the invisibility of labor or the material pro
 
 ### sha256
 
-b4734fe1292351a4d297dca10fb5437400966ba47439804016bb3587dc9b5e81
+04039e52737d70b3ebab175c4e553ed36096813c5d2872191fe3b781d585838e
 
 ### written_at
 
-2026-10-11T18:39:48.897760+00:00
+2026-10-13T03:15:17.669288+00:00
 
 ### origin
 

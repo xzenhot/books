@@ -85,11 +85,11 @@ This chapter focuses intensely on the psychological comfort derived from erasure
 
 ### sha256
 
-3f2a3f3369b1eca4424a1d896e9d776f43e6755f8a2aa58d55add8f4114a70d1
+4e5da20015c2fa4e841927715e7d0634c30d91ae55144457e45c23824c70bd89
 
 ### written_at
 
-2026-10-11T18:39:03.500962+00:00
+2026-10-13T03:14:34.419585+00:00
 
 ### origin
 

@@ -96,11 +96,11 @@ While earlier poems focused on scent and line, this chapter turns inward toward 
 
 ### sha256
 
-6b6d12e455827f632d3785baa649b2a2f3c316fff0eebd12fb4b864c07576d45
+ece2bf820f82a071e6e71861560869a54ed382ad0678a0e7cd8e390162771198
 
 ### written_at
 
-2026-10-11T18:38:18.152720+00:00
+2026-10-13T03:13:48.248032+00:00
 
 ### origin
 

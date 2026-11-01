@@ -11,6 +11,7 @@ _env_bootstrap()
 import hashlib
 import json
 import os
+import re
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -99,6 +100,76 @@ def stamp_json(value, agent, timestamp=None):
     if "updated_at" in value:
         value["updated_at"] = timestamp
     return value
+
+
+def stamp_markdown_file(path, agent, timestamp=None):
+    """Stamp a Markdown file after it has been copied into a workspace."""
+    path = Path(path)
+    original = path.read_bytes()
+    has_bom = original.startswith(b"\xef\xbb\xbf")
+    text = original.decode("utf-8-sig")
+    newline = "\r\n" if "\r\n" in text else "\n"
+    has_trailing_newline = text.endswith(("\n", "\r"))
+    lines = text.splitlines()
+    timestamp = timestamp or audit_timestamp()
+    metadata = [
+        f"- **updated_by:** {agent}",
+        f"- **updated_date:** {timestamp}",
+    ]
+
+    frontmatter_end = None
+    if lines and lines[0].strip() == "---":
+        frontmatter_end = next(
+            (index for index in range(1, len(lines)) if lines[index].strip() == "---"),
+            None,
+        )
+    # Only a *title* H1 counts: the first content line of the document. A file
+    # that opens with prose may contain H1 headings far below; stamping after
+    # one of those would corrupt the body, so such a file is treated as having
+    # no title heading and gets the block at the top instead.
+    body_start = frontmatter_end + 1 if frontmatter_end is not None else 0
+    first_content = next(
+        (index for index in range(body_start, len(lines)) if lines[index].strip()),
+        None,
+    )
+    heading_index = (
+        first_content
+        if first_content is not None and lines[first_content].startswith("# ")
+        else None
+    )
+    if heading_index is not None:
+        block_start = heading_index + 1
+    elif frontmatter_end is not None:
+        block_start = frontmatter_end + 1
+    else:
+        block_start = 0
+    content_start = block_start
+    while content_start < len(lines) and not lines[content_start].strip():
+        content_start += 1
+    block_end = content_start
+    while block_end < len(lines) and lines[block_end].startswith("- "):
+        block_end += 1
+
+    if content_start < block_end:
+        retained = [
+            line for line in lines[content_start:block_end]
+            if not re.match(
+                r"- \*\*(?:updated_by|updated_date|Updated by|Updated):\*\*",
+                line,
+            )
+        ]
+        lines[content_start:block_end] = retained + metadata
+    elif heading_index is None and frontmatter_end is None:
+        lines[0:0] = metadata + [""]
+    else:
+        lines[content_start:content_start] = metadata + [""]
+
+    stamped = newline.join(lines)
+    if has_trailing_newline:
+        stamped += newline
+    if has_bom:
+        stamped = "\ufeff" + stamped
+    atomic_bytes(path, stamped.encode("utf-8"))
 
 
 def read_book_plan(pipeline):
@@ -197,11 +268,13 @@ def sync_progress(pipeline):
                     completed_chapters=sum(r["validated"] for r in rows),
                     published=all(r["published"] for r in rows),
                     current_chapter=next((r["chapter_number"] for r in rows if not r["written"]), None))
-    # Propagate the LLM model/provider from the pipeline book.json so the
-    # progress file stays consistent with the plan agents consume.
-    for key in ("model", "provider"):
-        if key not in progress and book.get(key):
-            progress[key] = book[key]
+    # The pipeline book.json is the source of truth for book-level settings, so
+    # these always overwrite a stale cached value (an earlier run may have
+    # recorded a different model). Never write an empty value over a real one.
+    for key in ("model", "provider", "book_name", "form", "factory"):
+        value = book.get(key)
+        if value not in (None, ""):
+            progress[key] = value
     # Do not rewrite the file when nothing changed (audit-metadata: no-op writes
     # must not bump the timestamp).
     if not path.exists() or read_json(path) != progress:

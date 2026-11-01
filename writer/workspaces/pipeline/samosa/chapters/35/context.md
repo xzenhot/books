@@ -1,0 +1,84 @@
+# Chapter model context
+
+## chapter_index
+
+35
+
+## name
+
+35
+
+## word_target
+
+250
+
+## chapter_title
+
+ঠান্ডা হয়ে যাওয়া কামড়
+
+## chapter_summary
+
+ঠান্ডা হয়ে যাওয়া কামড়ে স্বাদ কমে যায়, কিন্তু স্মৃতি বাড়ে। খাবার ঠান্ডা হলে ভিতরের মানুষটি বেশি উচ্চকিত হয়।
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## segments
+
+- 1
+
+## creative_enrichment
+
+### angles
+
+- Treating the cooling process not as a loss of flavor but as a necessary crystallization of memory—the slow transformation from immediate sensation to durable narrative.
+- Framing the temperature shift (from warmth/life to cold/stasis) as a direct metaphor for diaspora’s psychic state: energetic life slowed into suspended reflection.
+- Adopting an external, almost geological viewpoint on the food object, observing how heat loss changes its structural resonance and emotional gravity.
+
+### story_options
+
+- Setting: A hard kitchen counter beneath a single bare bulb; Desire: To force the cooling pastry back into a semblance of initial warmth through sheer mental will (memory); Obstacle: The undeniable physical inertia of the cold object.
+- Setting: Near an open window, watching the light fade from late afternoon to deep indigo dusk; Desire: To witness the transition in how shadows fall across the surface of the stale food, mirroring internal darkening; Obstacle: The persistent sound of distant traffic asserting temporal reality over nostalgic stillness.
+- Setting: A worn section of a transit platform just after rush hour has cleared; Desire: To hold the slightly chilled pastry, using its temperature as an anchor against the rushing oblivion of commuters' lives; Obstacle: An overwhelming olfactory intrusion from nearby street vendors that corrupts the fragile memory-scent.
+
+### subject_rotations
+
+- Focusing solely on how the 'outer shell' (*খোলস*) manages to retain its shape even when its interior warmth has fled, symbolizing stoic endurance.
+- Shifting the focus from the immediate bite to the tactile memory—the precise moment the lips register the lack of *hot* vibration against them.
+- Employing a cyclical structure: tracing the path from the peak heat (moment before eating) through cooling stages until it reaches an ambient, near-zero state.
+
+### sensory_details
+
+- The fine grit felt on the tongue as the starch begins to lose its pliable moisture content.
+- The muted echo of a decisive, soft *thud* when the cold pastry is placed onto a surface, devoid of any satisfying 'crackle'.
+- Visual tracking: how the once vibrant, golden-yellow exterior dulls into an opaque, matte ochre under indoor artificial light.
+
+### research_questions
+
+- In Bengali poetics related to culinary imagery, are there specific metaphors for stasis or arrested action that could substitute for 'cooling down'?
+- How does the cadence of high-register (tatsama) words change when paired with very low, almost whispery descriptive language about temperature?
+- What is the most evocative image in the source material related to an interior/exterior contrast surviving a thermal shock?
+
+### structural_variants
+
+- A stanza break occurring precisely at the moment the perceived warmth leaves the body and enters the air.
+- Alternating lines dedicated solely to external observation (light, setting) versus internal sensation (taste, memory).
+- An opening that describes the cold as an active entity—a quiet weight pressing down.
+
+### unused_angles
+
+- A sustained focus on the specific *sound* of slow entropy in a frozen-like state.
+- Using 'cold' not just as absence of heat, but as the presence of absolute, unchangeable judgment.
+- The structural parallel between cooling food and hardening emotional resignation.
+
+### variety_note
+
+This chapter pivots away from immediate sensory impact (taste/smell) to focus on temporal aftermath—the residue state where memory becomes more potent than physical experience, contrasting sharply with the visceral energy of earlier chapters.

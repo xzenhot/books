@@ -86,11 +86,11 @@ Where earlier chapters focused on sensory absorption (musk, lime), this chapter 
 
 ### sha256
 
-4aa7d4ca7c23e584a60441764adacc91660b970455260d5b34bad963a2004607
+002da330df4257e6787697b4f273ba476ef37fb2004b590aee466afddad4e04b
 
 ### written_at
 
-2026-10-11T18:38:40.985888+00:00
+2026-10-13T03:14:10.674195+00:00
 
 ### origin
 

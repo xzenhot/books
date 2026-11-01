@@ -85,11 +85,11 @@ Unlike the deep immersion into scent or pure form of neighbouring chapters, this
 
 ### sha256
 
-36e87563a82db8ca2933d0e9ceab900a2b1ed6e847bc52f209d707073152955b
+25b31f08ef8c2343a4a29bbe008cbe7dd99e601110f93110d03129682a71192a
 
 ### written_at
 
-2026-10-11T18:31:45.819850+00:00
+2026-10-13T03:06:53.655070+00:00
 
 ### origin
 

@@ -96,11 +96,11 @@ While previous chapters focused on scent and visual failure (sketches), this poe
 
 ### sha256
 
-afd4d3e1b1f153b8f7493e35a71bf1c088423fb84d92d66eac8ccb4fd20eca71
+7f1158e419f933b7d4ebb0d4878efb77d12133b37fd998f08ddae5130b440a60
 
 ### written_at
 
-2026-10-11T18:33:52.203077+00:00
+2026-10-13T03:09:08.177849+00:00
 
 ### origin
 

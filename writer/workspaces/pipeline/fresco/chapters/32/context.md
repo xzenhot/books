@@ -83,11 +83,11 @@ Where previous chapters focused on the intimate body or immediate tools of art, 
 
 ### sha256
 
-f39a886d01e9ab04fe2c283f616b5d9dae46ff842e8a8c795df53859aedbecd7
+29cedf517152699d3d4eb142b948ee07afbee41f4188fceb9eb1146eae89249d
 
 ### written_at
 
-2026-10-11T18:35:47.846005+00:00
+2026-10-13T03:11:12.681862+00:00
 
 ### origin
 

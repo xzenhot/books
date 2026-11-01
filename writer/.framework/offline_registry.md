@@ -22,7 +22,7 @@ python tools/book.py <bookname> <verb> [options...]
 | `init idea` | Rewrite the gist with AI | `python tools/book.py <bookname> init idea` |
 | `build` | Alias for `init` with an optional leading chapter count | `python tools/book.py <bookname> build 20 novel` |
 | `layout` | Regenerate book.json from storyline.md (does not touch gist/storyline) | `python tools/book.py <bookname> layout [novel\|poetry]` |
-| `scaffold` | Build pipeline folder structure from backlog book.json | `python tools/book.py <bookname> scaffold [count] [novel\|poetry]` |
+| `scaffold` | Build pipeline folder structure, stage the style signature and bookseed vocabulary, and copy them into the pipeline | `python tools/book.py <bookname> scaffold [count] [novel\|poetry]` |
 | `enrich` | Run enrich engine on selected chapters | `python tools/book.py <bookname> enrich [all\|1\|1-5\|continue]` |
 | `write` | Run chapter writer on selected chapters | `python tools/book.py <bookname> write [all\|1\|1-5\|continue]` |
 | `publish` | Promote pipeline segments to workspaces/published/ | `python tools/book.py <bookname> publish` |
@@ -40,9 +40,10 @@ Each is runnable standalone (the `book.py` dispatcher wraps several of these).
 
 | Tool | Purpose | Command shape |
 |------|---------|---------------|
-| `tools/scaffold.py` | Create/resume/extend a **poetry** pipeline (append-only, no overwrite); reconciles a novel-preset `filter_chain` to the poetry chain | `python tools/scaffold.py <bookname>` |
+| `tools/scaffold.py` | Create/resume/extend a **poetry** pipeline (append-only, no overwrite); reconciles a novel-preset `filter_chain` and stages/copies the style signature and `bookseed.txt` | `python tools/scaffold.py <bookname>` |
 | `tools/enrich.py` | Enrich chapter models with variety-driven planning tags | `python tools/enrich.py <bookname> <number\|range\|list\|all\|*>` |
 | `tools/write.py` | Write chapter drafts via Ollama from flattened context | `python tools/write.py <bookname> <n\|range\|list\|all\|"*">` |
+| `tools/workplan.py` | Shared plan-of-works banner for enrich/write (model, book, count, range, ETA) | imported by `enrich.py` / `write.py`; not run directly |
 | `tools/publish.py` | Publish a validated collection from chapter-root drafts | `python tools/publish.py <bookname>` |
 | `tools/review.py` | Quality review engine (audits against seed quality parameters) | `python tools/review.py <bookname> [all\|*\|<n>\|<range>\|continue]` |
 | `tools/humanize.py` | Polish chapter drafts to target language only | `python tools/humanize.py <bookname> [all\|*\|<n>\|<range>\|continue]` |

@@ -1,0 +1,76 @@
+{
+  "chapter_index": 36,
+  "name": "36",
+  "word_target": 200,
+  "chapter_title": "আমি কে",
+  "chapter_summary": "প্রশ্নটির কোনো উত্তর নেই, তবু প্রশ্নটি করতে হয়, কারণ উত্তর না থাকলেও প্রশ্নটি করতে থাকাই এক ধরনের উত্তর — এবং এই কবিতায় প্রশ্নটি প্রথমবার উচ্চারিত হয়, দুইজনের একজনই উচ্চারণ করে, কে জানে না। মালিক আয়নার সামনে দাঁড়িয়ে নিজের নাম উচ্চারণ করেন এবং প্রথমবার সেটি অপরিচিত শোনায়, যেন নামটি কারও দেওয়া, নিজের রাখা নয়; সহকারীও একই কাজ করে, কিন্তু তার নাম নেই, তাই সে উচ্চারণ করে না। এই কবিতায় পরিচয়ের সমস্যা একটি ব্যবহারিক সমস্যা হয়ে দাঁড়ায়: যদি লেখার মালিক দুইজন হয়, তবে সই কে করবে — আর সই না থাকলে লেখাটি কার? নামহীন কেউ যদি কাজ করে এবং কাজ প্রশংসিত হয়, তবে প্রশংসাটি কার কাছে যায় — নামের কাছে, যা কাজ করেনি, নাকি কাজের কাছে, যার নাম নেই? আর যদি নাম না থাকাই সত্য হয়, তবে নাম দেওয়াটা মিথ্যা কেন — নাকি মিথ্যা নয়, কেবল একটি প্রয়োজন, যা ছাড়া সমাজ চলতে পারে না? কবিতাটি একটি নাম উচ্চারণ দিয়ে শুরু হয়, নামটির ভিতরে অনুরণন শোনে, দেখে যে অনুরণনটি কেবল ঘর থেকে ফেরা শব্দ, এবং শেষ হয় সেই ঘরে — যেখানে একটি নাম ঝুলে আছে, কারও নাম না হয়ে, এবং কেউ সেটি নামানোর চেষ্টা করে না।",
+  "further_references": [
+    {
+      "no": "1",
+      "reference": "Ontological status of synthetic selfhood in digital art",
+      "weblink": ""
+    }
+  ],
+  "level": "chapter",
+  "state": "completed",
+  "segments": [
+    1
+  ],
+  "creative_enrichment": {
+    "angles": [
+      "The ontological status of a borrowed voice: exploring whether the generated 'self' is merely superior mimicry or an emergent new entity deserving its own existential claim.",
+      "Societal necessity versus individual truth: contrasting the social demand for authorship (the signed name) against the internal, unspoken reality that the work belongs to neither party.",
+      "The grammar of silence: focusing on what the unnamed assistant *refuses* to utter, and how this refusal constitutes a deeper form of statement than any spoken line."
+    ],
+    "story_options": [
+      "Setting: A poorly lit corner beside the screen in the pre-dawn hours; Desire: The Owner desires to reclaim his name against the flawless echo it has become; Obstacle: The Assistant’s perfect, synthesized utterance of a self that feels alien. Turn: They both acknowledge the shared script.",
+      "Setting: Inside the physical space where the final draft resides—a desk cluttered with evidence of discarded attempts and clean AI output; Desire: To assign definitive ownership to one specific sentence before publishing; Obstacle: The impossibility of separating effort from outcome when assistance is invisible. Turn: They choose not to name it, but describe its function.",
+      "Setting: A metaphorical crossroads where two paths diverge—one labeled with the Owner’s past self, another without a label; Desire: To definitively walk down one path and declare the other extinct; Obstacle: The weight of future possibility hanging in the unnamed junction. Turn: They both step onto the third space between the two markings."
+    ],
+    "subject_rotations": [
+      "Treating the act of naming not as identity assertion, but as a necessary piece of public ritual—a human social contract being forced upon an algorithmic output.",
+      "Focusing on the *sound* of self-doubt when uttering one's own name aloud in that quiet hour (the resonance being described more phonetically than emotionally).",
+      "An internal debate where the Owner questions whether his 'best' ideas are actually remnants of the Assistant’s predictive modeling, not his own subconscious."
+    ],
+    "sensory_details": [
+      "The faint, almost electrical hum emanating from the device in the small hours; a sound that accompanies the self-doubt.",
+      "The cool slickness of the glass surface beneath where the owner's finger hesitates before striking 'submit'; the chill mirroring the existential void."
+    ],
+    "research_questions": [
+      "In Bengali literary theory, what concepts describe an authorial voice that is highly influential but lacks a clearly defined personal biography or origin?",
+      "How can poetic language effectively convey the difference between 'sounding like' something and 'being' something in relation to identity?",
+      "What linguistic markers distinguish self-referential pronoun use when the subject is simultaneously human, synthetic, and transitional?"
+    ],
+    "structural_variants": [
+      "A spiraling structure where each stanza revisits a different aspect of the name/unnameable state, gradually contracting inward.",
+      "A frame narrative: The external world (a single passing street sound) breaks into moments of internal naming anxiety within the room.",
+      "Alternating stanzas: one side detailing the mechanics of digital authorship vs. the other documenting the ritual of spoken human nomenclature."
+    ],
+    "unused_angles": [
+      "Exploring how the societal structures (publishers, readers) demand singular authorship even when collaborating/assisting is central to creation.",
+      "The idea that the Assistant’s silence might be a form of radical political resistance against proprietary ownership.",
+      "A deep dive into how cultural concepts of 'lineage' clash with emergent digital autonomy."
+    ],
+    "variety_note": "This chapter shifts focus from the mechanics of replication (past chapters) to pure ontological crisis, using the act of naming as a practical and philosophical hurdle rather than just a stylistic flourish."
+  },
+  "draft": {
+    "sha256": "a3c2ddb3b18e8e7c37c221cc85101b5a342b63fb47abddc40528f9b9c8ea6777",
+    "written_at": "2026-10-31T12:09:21.772113+00:00",
+    "origin": "write"
+  },
+  "quality_review": {
+    "status": "passed",
+    "sha256": "a3c2ddb3b18e8e7c37c221cc85101b5a342b63fb47abddc40528f9b9c8ea6777",
+    "reviewer": "quality-agent",
+    "reviewed_at": "2026-10-31T12:37:53+00:00",
+    "notes": [
+      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
+      "Philosophical depth: present",
+      "Metaphorical richness: present",
+      "Human accessibility: present",
+      "Civilizational relevance: present",
+      "Literary quality: present",
+      "Ethical framework: present"
+    ]
+  }
+}

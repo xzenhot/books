@@ -86,11 +86,11 @@ Unlike Chapter 2, which generalized musk into geometry, this chapter focuses on 
 
 ### sha256
 
-9b76c5c3c3f41cb1ed3cef176ef6f2be34706db4686a234e17baa256cff76301
+db657156d99bf265a4b93239f47242fac447ae4966949dfbd50e56624e82be7d
 
 ### written_at
 
-2026-10-11T18:30:41.937539+00:00
+2026-10-13T03:05:50.856468+00:00
 
 ### origin
 

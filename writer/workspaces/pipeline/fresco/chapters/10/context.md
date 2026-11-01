@@ -85,11 +85,11 @@ While previous chapters explored sensory input and minimal form, this chapter ce
 
 ### sha256
 
-2f20f777d8bd480f2a244faaec586d6cf08ad20420e230ece0d042a60abfcff4
+28f3400f277e327fa75d0463663efd008d1b7e56fab2b8827ca00017dc58e1ea
 
 ### written_at
 
-2026-10-11T18:31:56.574703+00:00
+2026-10-13T03:07:06.132088+00:00
 
 ### origin
 

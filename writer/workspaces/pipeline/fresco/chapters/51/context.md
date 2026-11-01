@@ -85,11 +85,11 @@ While previous chapters focused on the internal cost or the mechanics of labor (
 
 ### sha256
 
-8fa51c734c6bcb605a20f85cf76b8818f1957852792b3bd46951409358dd7f07
+dded3702a7595c111e8fcfd879dcc790026d9bb030c907a30662c045fc7a2864
 
 ### written_at
 
-2026-10-11T18:39:13.951313+00:00
+2026-10-13T03:14:44.986367+00:00
 
 ### origin
 

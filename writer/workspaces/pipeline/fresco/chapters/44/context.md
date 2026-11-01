@@ -86,11 +86,11 @@ Unlike earlier chapters focused on sensory intake or solitary struggle, this pie
 
 ### sha256
 
-e1a0da2a74bd6b3234302c6da5b3c6830918b36ae397cb2da11dd17201801cf3
+6b72ab62718aa7fcdb816f79904cab89ae96f198fd11b95e2d2a980b2627c98b
 
 ### written_at
 
-2026-10-11T18:37:55.562721+00:00
+2026-10-13T03:13:27.369198+00:00
 
 ### origin
 

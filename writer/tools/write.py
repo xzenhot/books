@@ -74,19 +74,18 @@ MAX_CONTINUITY_CHARS = 16000
 def resolve_model(chapter_dir: Path) -> str:
     """Resolve the Ollama model name from the book's pipeline book plan.
 
-    Reads `workspaces/pipeline/<bookname>/progress.json` → `model`, falling
-    back to `book.json` → `model`. If no model is declared, raises ValueError —
-    the writer never assumes a model.
+    `book.json` is authoritative — it is the plan every agent reads. A stale
+    `progress.json` cached by an earlier run must never override the plan, so it
+    is not consulted. If no model is declared, raises ValueError — the writer
+    never assumes a model.
     """
     pipeline = chapter_dir.parents[1]
-    for name in ("progress.json", "book.json"):
-        f = pipeline / name
-        if not f.is_file():
-            continue
+    f = pipeline / "book.json"
+    if f.is_file():
         try:
             data = json.loads(f.read_text(encoding="utf-8-sig"))
         except (json.JSONDecodeError, OSError):
-            continue
+            data = {}
         model = data.get("model")
         if isinstance(model, str) and model.strip():
             return model.strip()
@@ -154,6 +153,8 @@ ANSI_RE = re.compile(r"\x1b\[[0-9;]*[A-Za-z]")
 
 VERBOSE = False
 SHOW_PROMPT = False
+# Style is resolved per chapter but announced once per run (see announce_style).
+_STYLE_ANNOUNCED = False
 
 # Retry behaviour for transient Ollama failures.
 MAX_RETRIES = 3
@@ -168,6 +169,27 @@ def vlog(*args) -> None:
 
 def info(*args) -> None:
     print(*args)
+
+
+def announce_style(label: str) -> None:
+    """Print the resolved style once per run, not once per chapter.
+
+    Style resolution happens inside ``write_chapter`` (per chapter), so the
+    per-chapter ``Style:`` line would repeat for every chapter in a range. The
+    first chapter announces it; the rest stay quiet. Reset with
+    ``reset_style_announcement()`` at the start of a run.
+    """
+    global _STYLE_ANNOUNCED
+    if _STYLE_ANNOUNCED:
+        return
+    _STYLE_ANNOUNCED = True
+    print(f"Style: {label}")
+
+
+def reset_style_announcement() -> None:
+    """Allow the next write run to announce the style again."""
+    global _STYLE_ANNOUNCED
+    _STYLE_ANNOUNCED = False
 
 
 def parse_chapter_input(value: str, chapters_root: Path | None = None) -> list[int]:
@@ -295,7 +317,7 @@ def load_poetry(chapter_dir: Path | None = None, style: str | None = None,
         nickname = style.strip().lower()
         source = resolve_preset(nickname)
         style_name = source.stem
-        info(f"Style: {style_name} ({source})")
+        announce_style(f"{style_name} ({source})")
         vlog(f"Loading style from: {source}")
         text = source.read_text(encoding="utf-8")
         vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
@@ -305,7 +327,7 @@ def load_poetry(chapter_dir: Path | None = None, style: str | None = None,
     if chapter_dir:
         local_style = chapter_dir.parents[1] / "style.md"
         if local_style.exists():
-            info(f"Style: local ({local_style})")
+            announce_style(f"local ({local_style})")
             vlog(f"Loading style from: {local_style}")
             text = local_style.read_text(encoding="utf-8")
             vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
@@ -315,7 +337,7 @@ def load_poetry(chapter_dir: Path | None = None, style: str | None = None,
     default = default_style_for_form(form)
     source = resolve_preset(default)
     style_name = source.stem
-    info(f"Style: {style_name} ({source})")
+    announce_style(f"{style_name} ({source})")
     vlog(f"Loading style from: {source}")
     text = source.read_text(encoding="utf-8")
     vlog(f"  style loaded: {len(text)} chars, {text.count(chr(10)) + 1} lines")
@@ -1191,6 +1213,22 @@ Paths are resolved relative to the repository, regardless of your current direct
         return 1
 
     info(f"Processing {args.bookname}: {len(numbers)} chapter(s): {numbers}")
+
+    # Style is announced once for the whole run, not once per chapter.
+    reset_style_announcement()
+
+    # Print the plan of works before the first Ollama call. No CLI model override
+    # exists in write.py, so the planner resolves it from the book plan itself.
+    from workplan import print_plan
+    notes = [f"segments: {args.segment}"] if args.segment else []
+    print_plan(
+        "write",
+        args.bookname,
+        numbers,
+        style=args.style or DEFAULT_STYLE,
+        notes=notes,
+    )
+
     failures = 0
     for number in numbers:
         model_file = chapter_model_file(chapters_root / str(number))
@@ -1199,6 +1237,10 @@ Paths are resolved relative to the repository, regardless of your current direct
         except Exception as e:
             print(f"[{number}] FAILED: {e}", file=sys.stderr)
             failures += 1
+    # Always reconcile progress.json from book.json after the run.
+    from workplan import sync_progress
+    changed = sync_progress(args.bookname)
+    info(f"progress.json {'updated' if changed else 'already current'}")
     info(f"Done. {len(numbers) - failures} succeeded, {failures} failed.")
     return 1 if failures else 0
 
