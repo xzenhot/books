@@ -6,11 +6,48 @@
   "chapter_summary": "প্রথম রাতে চাঁদের সঙ্গে দেখা — আকাশের একটি সাধারণ বস্তু কীভাবে একজনের ব্যক্তিগত হয়ে ওঠে। জানালার ধারে দাঁড়িয়ে থাকা মানুষটি লক্ষ করে, চাঁদ কারও জন্য জ্বলে না, তবু যেন কেবল তার জন্যই উঠেছে। সেই রাত থেকেই চাঁদকে 'তুমি' বলে সম্বোধন শুরু।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
+  "enrich": {
+    "active_filters": [
+      "workshop",
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "override",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "jibanananda",
+    "style": "pijush"
+  },
   "segments": [
     1
   ],
   "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 2,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 3,
+      "movement": "Stoicism — logic, virtue, and mastering inner thoughts, worn as a quiet evening discipline.",
+      "writing_skills": [
+        "restrained first-person witnessing",
+        "one long breath-held sentence closing on a question",
+        "physical image carrying feeling instead of naming it"
+      ],
+      "image_seed": "খোলা জানালার কাঠের পাল্লায় জমে থাকা রাতের ধুলো, যার উপর চাঁদের আলো প্রথমবার পড়ে।",
+      "volta": "'কারও জন্য জ্বলে না' থেকে 'কেবল তার জন্যই উঠেছে' — চাঁদ বস্তু থেকে সম্বোধনে বাঁক নেয়।",
+      "sonic_texture": "নরম 'অ' ধ্বনি আর 'জানালা—চাঁদ—রাত' শব্দত্রয়ের পুনরাবৃত্তি, যেন নিঃশ্বাস আটকে রাখা।",
+      "line_gesture": "লম্বা, একনিঃশ্বাসে টানা পঙক্তি; মাঝে একটি ছোট বিরতি যেখানে চাঁদকে 'তুমি' বলা হয়।",
+      "variety_note": "বাকি পাঁচটি কবিতা চাঁদকে সম্বোধন করে ডাকে; এই কবিতাটি এখনও ডাকে না — শুধু প্রথমবার লক্ষ করে, আর সেই লক্ষ করার ভঙ্গিটাই কবিতার ঘটনা।",
+      "metaphor_family": "জানালা, ধুলো, কাঠ, জানালার কাচ — ঘরের ভিতরের জিনিস, যার উপর বাইরের আলো প্রথমবার এসে পড়ে।",
+      "address": "নিজেকে, তৃতীয় পুরুষে দেখা একজনের চোখ দিয়ে — 'তুমি' এখনও জন্মায়নি।",
+      "closing_move": "একটি নিরুত্তর প্রশ্ন ছেড়ে দেওয়া, যার উত্তর পরের পাঁচটি কবিতা খুঁজবে।"
+    },
     "angles": [
       "চাঁদের আলোর শারীরিক উপস্থিতি: শব্দটি ব্যবহার না করে কেবল তার ছায়া বা স্পর্শের মাধ্যমে তাকে অনুভব করা।",
       "শহরের কাঠামো বনাম চাঁদের প্রাচীনতা: আধুনিক স্থাপত্যের পটভূমিতে চিরন্তন চাঁদের একক সত্তা প্রতিষ্ঠা করা।",
@@ -42,5 +79,10 @@
       "প্রথম দর্শনেই কোনো নির্দিষ্ট আবেগ (যেমন প্রেম) আরোপিত না করে শুধু 'পরিচিতি' বা 'উপলব্ধির সূত্রপাত' নিয়ে ফোকাস করা।"
     ],
     "variety_note": "পূর্ববর্তী কবিতাগুলোর মতো সরাসরি সম্বোধন শুরু করার পরিবর্তে, এই কবিতাটি প্রথম সাক্ষাতে বস্তুকে গভীরভাবে পর্যবেক্ষণ করবে এবং তারপর কেবল একটি প্রশ্ন ছুঁড়ে দেবে যা বাকি কবিতায় আরও বিস্তৃত হবে।"
+  },
+  "draft": {
+    "sha256": "d200a9bf9b2e937b3b18cda537bcf189e40ca6808b7e6a13670022fe83c83661",
+    "written_at": "2026-11-01T18:28:43Z",
+    "origin": "write"
   }
 }

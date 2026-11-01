@@ -6,11 +6,48 @@
   "chapter_summary": "যে রাতে চাঁদ নেই, সেখানে তার স্মৃতি — অন্ধকারে কিছু দেখা যায় না, কিন্তু মনে হয় সব দেখা যাচ্ছে। অনুপস্থিতি কি উপস্থিতির চেয়ে বড়? কবিতাটি ফাঁকা আকাশের দিকে তাকিয়ে সেই আলো খোঁজে যা চোখে নেই, কিন্তু চুলে, ত্বকে, অভ্যাসে লেগে আছে।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
+  "enrich": {
+    "active_filters": [
+      "workshop",
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "override",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "rumi",
+    "style": "pijush"
+  },
   "segments": [
     1
   ],
   "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 8,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 3,
+      "rhythmic_urgency": 7,
+      "digital_simplicity": 3,
+      "movement": "Sufism — absence itself becomes the beloved, and the dark room becomes the place of union.",
+      "writing_skills": [
+        "ecstatic address to something not present",
+        "repetition that intensifies instead of explaining",
+        "turning deprivation into a form of presence"
+      ],
+      "image_seed": "অমাবস্যার রাতে ফাঁকা আকাশ, আর চুলে লেগে থাকা আলোর অভ্যাস যা আয়নায় দেখা যায় না।",
+      "volta": "'চাঁদ নেই' থেকে 'চাঁদ সব জায়গায় আছে, শুধু আকাশে নয়' — অনুপস্থিতি উপস্থিতিতে বাঁক নেয়।",
+      "sonic_texture": "পুনরাবৃত্ত 'নেই' শব্দের ধ্বনি, যা প্রতিবার একটু বেশি জোরে ফিরে আসে — মন্ত্রের মতো।",
+      "line_gesture": "উদ্বেলিত, দীর্ঘ, শ্বাস ফুরিয়ে যাওয়া পঙক্তি; বিরামহীন প্রবাহ, যেন থামলেই অন্ধকার সত্যি হয়ে যাবে।",
+      "variety_note": "একমাত্র কবিতা যেখানে চাঁদ দৃশ্যমান নয়। বাকি সব কবিতা আলোকে দেখে; এই কবিতা আলোর অভাবে আলোকে খোঁজে।",
+      "metaphor_family": "অন্ধকার, অনুপস্থিতি, অভ্যাস, স্মৃতির শরীর — যা নেই তার জায়গা।",
+      "address": "অনুপস্থিত চাঁদকে — যে এখন কেবল স্মৃতি এবং অভ্যাসে বাস করে।",
+      "closing_move": "একটি মন্ত্রের মতো পুনরাবৃত্তি, যা কোনো তৃপ্তি দেয় না, শুধু টেনে রাখে।"
+    },
     "angles": [
       "চাঁদের অনুপস্থিতিকে কেবল শূন্যতা হিসেবে না দেখে, বরং স্মৃতি দ্বারা তৈরি করা একপ্রকার 'অদৃশ্য আলোকক্ষেত্র' (Invisible Luminosity Field) হিসাবে চিত্রিত করা—যেখানে আলো নেই কিন্তু উপস্থিতি তীব্রতম।",
       "এই অধ্যায়টিকে সময়ের স্থবিরতার কেন্দ্রবিন্দুতে স্থাপন করা; অমাবস্যার রাতকে এমন একটি ক্ষণ হিসেবে দেখানো যেখানে অতীত ও বর্তমানের মধ্যেকার দূরত্ব কেবল আলোর অভাবে মুছে যায়, শব্দের প্রয়োজন পড়ে না।",
@@ -44,5 +81,10 @@
       "স্মৃতিকে এমন একটি রাসায়নিক প্রক্রিয়ার সঙ্গে তুলনা করা যা পরিবেশের পরিবর্তন হলেও এর মূল উপাদান অক্ষত থাকে।"
     ],
     "variety_note": "পূর্ববর্তী অধ্যায়গুলিতে আলো ও আকাঙ্ক্ষার উপর জোর দেওয়া হয়েছিল; এখানে ফোকাস সম্পূর্ণভাবে সেই 'শূন্য' স্থানের দিকে, যেখানে অস্তিত্ব কেবল স্মৃতি এবং অনুভূতি দ্বারা টিকিয়ে থাকে।"
+  },
+  "draft": {
+    "sha256": "9ceed4c710fcb4a5fdecd344d75bb1dbe89b2f8cf3e30dbab3da7327136e442b",
+    "written_at": "2026-11-01T18:28:43Z",
+    "origin": "write"
   }
 }

@@ -6,11 +6,48 @@
   "chapter_summary": "পূর্ণিমার রাতে আলো এত বেশি যে একাকিত্ব আর লুকোতে পারে না; ঘরের প্রতিটি কোণ দেখা যায়। ভালোবাসা আর দখলের পার্থক্য এখানেই স্পষ্ট হয় — আলোকে নিজের বলে দাবি করা যায় না, তবু দাবি করার ইচ্ছা জেগে থাকে। কবিতাটি সেই দাবির ভুল স্বীকার করে।",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "written",
+  "enrich": {
+    "active_filters": [
+      "workshop",
+      "research",
+      "correctness",
+      "theme",
+      "syntax",
+      "override",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "stereotype": {
+    "signature": "eliot",
+    "style": "pijush"
+  },
   "segments": [
     1
   ],
   "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 5,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 3,
+      "movement": "Language Poetry — the room's surfaces broken into fragments so the light can be seen as a structure, not a mood.",
+      "writing_skills": [
+        "collage of the room's objects instead of narrative",
+        "register shift from domestic to liturgical",
+        "objective correlative: the lit room carries the claim"
+      ],
+      "image_seed": "পূর্ণিমার আলোয় ঘরের প্রতিটি কোণ দেখা যায় — নিভে যাওয়া প্রদীপের কালি, চেয়ারের উপরে ভাঁজ করা কাপড়।",
+      "volta": "প্রদীপ নিভিয়ে দেওয়ার পরেও আলো না কমা — আলো নিজের নয়, এই স্বীকারোক্তি।",
+      "sonic_texture": "কঠিন ব্যঞ্জনধ্বনি — 'কোণ', 'কাচ', 'কাপড়' — ঘরের শুকনো, নির্মম স্পষ্টতা।",
+      "line_gesture": "বাঁধা-ভাঙা ছোট পঙক্তি, তালিকা যেমন হয়; মাঝে একটি লম্বা বাক্য যা পুরো ঘরটাকে একসঙ্গে দেখায়।",
+      "variety_note": "একমাত্র কবিতা যেখানে আলো বেশি, কম নয় — তাই একাকিত্ব লুকোতে পারে না। বাকি সব কবিতা কম আলোর কবিতা।",
+      "metaphor_family": "ঘর, কোণ, প্রদীপ, ভাঁজ করা কাপড় — বস্তু যা আলোয় দাবি করে দৃশ্যমান হতে।",
+      "address": "ঘরটিকে — এবং তার ভিতর দিয়ে নিজেকে, যে আলোকে নিজের বলে দাবি করতে চেয়েছিল।",
+      "closing_move": "দাবি করার ভুল স্বীকার করে একটি নিভে যাওয়া প্রদীপের দিকে তাকিয়ে থাকা।"
+    },
     "angles": [
       "আলোককে 'নিজের' করে নেওয়ার মানসিক আকাঙ্ক্ষা এবং সেই দাবি-প্রতিষ্ঠার মুহূর্তটির আভ্যন্তরীণ নৈতিক দ্বন্দ্বের উপর ফোকাস করা।",
       "পূর্ণিমার আলো যখন ঘরটিকে সম্পূর্ণভাবে দৃশ্যমান করে দেয়, তখন গোপন করার মতো কোনো কিছুই থাকে না—এই চরম স্বচ্ছতা এক ধরণের ভয় সৃষ্টি করে; এই ভয়ের চিত্রায়ণ করা।",
@@ -44,5 +81,10 @@
       "দখল করার ইচ্ছার পেছনে লুকিয়ে থাকা 'ভয়'—এই ভয়টি আলোর বাইরে কীসে লুকানো থাকতে পারে?"
     ],
     "variety_note": "পূর্ববর্তী কবিতাগুলি যা উপলব্ধির সূত্রপাত বা ভাষা-অক্ষমতার ওপর জোর দিয়েছে, এই পর্বটি আলোকের আধিক্য ও সেই আলোকে নিজের করে নেওয়ার মানসিক সংঘাতকে কেন্দ্র করে লেখা হবে।"
+  },
+  "draft": {
+    "sha256": "eea7ee2b6e2135415166ede872270e99c0fb63dc109dee34f3cbd3cc5c654c57",
+    "written_at": "2026-11-01T18:28:43Z",
+    "origin": "write"
   }
 }
