@@ -214,7 +214,11 @@ cython_debug/
 #   that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
 #   and can be added to the global gitignore or merged into this file. However, if you prefer, 
 #   you could uncomment the following to ignore the entire vscode folder
-# .vscode/
+.vscode/*
+# MCP server definitions are the single source of truth for every client
+# (tools/mcp_sync.py derives .mcp.json and ~/.copilot/mcp-config.json from it).
+# Secrets are never stored here — they come from ${input:...} prompts or tools/.env.
+!.vscode/mcp.json
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
@@ -242,3 +246,6 @@ tools/mcp/_lic.*
 tools/mcp/Select.Html.dep
 tools/mcp/KeyLipika.deps.json
 
+tools/mcp/_default.backup.json 
+tools/mcp/_default.json 
+tools/mcp/_lic.b6t

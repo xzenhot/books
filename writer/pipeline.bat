@@ -36,9 +36,15 @@ chcp 65001 >nul
 set PYTHONUTF8=1
 set PYTHONIOENCODING=utf-8
 
+rem Run from the workspace root regardless of where the caller invoked us:
+rem tools/*.py resolve workspaces/ and .framework/ relative to the cwd, and
+rem tools/env.py loads the root .env from there.
+pushd "%~dp0"
+
 if "%~1"=="" (
     echo Usage: pipeline.bat ^<bookname^> ^<form^> ^<count^>
     echo Example: pipeline.bat matima poetry 5
+    popd
     exit /b 1
 )
 
@@ -90,3 +96,5 @@ echo Pipeline complete for "%BOOK%".
 
 
 
+
+popd
