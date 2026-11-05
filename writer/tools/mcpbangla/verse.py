@@ -31,6 +31,11 @@ Forms
              the 10% tolerance rule, measured as 8 + 6), L1~L2 strong rhyme
              (identical final rhyme unit), no cross-couplet rhyme.
     srijato  quatrains, syllable meter, scheme ACBD -> L1~L3 and L2~L4 per stanza.
+    amitra   Bengali blank verse (অমিত্রাক্ষর ছন্দ): continuous enjambed lines,
+             akshar meter (target 14, 8 + 6, band 12-16). Rhyme is optional and
+             scheme-selected: `blank` (chhanda/meter only, no rhyme), `poyar`
+             (L2~L1 strong rhyme per couplet), or `srijato` (L3~L1, L4~L2 per
+             quatrain).
 
 Every metre-based form allows +/-10% drift on its line target
 (`.framework/rules/meter-tolerance.md`): a 14-akshar target accepts 12-16, and a
@@ -364,7 +369,7 @@ def cmd_rhyme(a: str, b: str) -> int:
 
 def cmd_review(path: Path, form: str, floor: int,
                akshar_tolerance: int | None = None,
-               as_json: bool = False) -> int:
+               as_json: bool = False, scheme: str = "blank") -> int:
     """Report-only contract review: per line, per word.
 
     Python never writes or rewrites verse. It measures every line through MCP and
@@ -447,6 +452,73 @@ def cmd_review(path: Path, form: str, floor: int,
 
     report["passed"] = not report["issues"]
 
+    if form == "amitra":
+        # অমিত্রাক্ষর ছন্দ — blank verse. Meter (akshar + 8 caesura) is mandatory;
+        # rhyme is scheme-selected: `blank` = none, `poyar` = couplets,
+        # `srijato` = quatrains (L1~L3, L2~L4).
+        report["mode"] = scheme
+        if scheme == "poyar":
+            if len(lines) % 2:
+                report["issues"].append(
+                    f"odd line count ({len(lines)}) — couplets need pairs")
+            report["couplets"] = []
+            for i in range(0, len(lines) - 1, 2):
+                a, b = report["lines"][i], report["lines"][i + 1]
+                ea, eb = a["end_word"], b["end_word"]
+                r = rhyme(ea, eb)
+                sound, ua, ub = rhyme_strength(ea, eb)
+                pair_ok = is_rhyme(r) and sound == "STRONG"
+                distinct = ea != eb
+                couplet = {
+                    "couplet": i // 2 + 1,
+                    "lines": [a["line"], b["line"]],
+                    "ends": [ea, eb],
+                    "rhyme_test": r,
+                    "strength": sound,
+                    "rhyme_units": [ua, ub],
+                    "distinct": distinct,
+                    "verdict": "PASS" if pair_ok and distinct else "FAIL",
+                }
+                if not pair_ok:
+                    report["issues"].append(
+                        f"c{couplet['couplet']}: {ea}/{eb} rhyme={r} {sound} "
+                        f"(units {ua!r}/{ub!r})")
+                if not distinct:
+                    report["issues"].append(
+                        f"c{couplet['couplet']}: identical end words {ea} (redif)")
+                report["couplets"].append(couplet)
+        elif scheme == "srijato":
+            if len(lines) % 4:
+                report["issues"].append(
+                    f"line count {len(lines)} not a multiple of 4 — "
+                    f"quatrains need 4 lines each")
+            report["stanzas"] = []
+            for s in range(0, len(lines) - 3, 4):
+                block = report["lines"][s:s + 4]
+                ends = [b["end_word"] for b in block]
+                stanza = {
+                    "stanza": s // 4 + 1,
+                    "ends": ends,
+                    "pairs": [],
+                    "verdict": "PASS",
+                }
+                for i, j in ((0, 2), (1, 3)):
+                    r = rhyme(ends[i], ends[j])
+                    ok = is_rhyme(r)
+                    stanza["pairs"].append(
+                        {"lines": [s + i + 1, s + j + 1],
+                         "ends": [ends[i], ends[j]],
+                         "rhyme_test": r,
+                         "ok": ok})
+                    if not ok:
+                        stanza["verdict"] = "FAIL"
+                        report["issues"].append(
+                            f"stanza {stanza['stanza']}: L{i + 1}~L{j + 1} "
+                            f"{ends[i]}/{ends[j]} -> {r}")
+                report["stanzas"].append(stanza)
+        # blank mode: no rhyme constraints — meter and caesura only.
+        report["passed"] = not report["issues"]
+
     if as_json:
         print(json.dumps(report, ensure_ascii=False, indent=2))
         return 0 if report["passed"] else 1
@@ -480,6 +552,22 @@ def cmd_review(path: Path, form: str, floor: int,
                   f"units {c['rhyme_units'][0]!r}/{c['rhyme_units'][1]!r} "
                   f"{c['verdict']}"
                   f"{'' if c['distinct'] else ' REDIF'}")
+        print()
+
+    if form == "amitra":
+        print(f"Mode: {report.get('mode', 'blank')}")
+        if report.get("mode") == "poyar":
+            print("Couplets:")
+            for c in report.get("couplets", []):
+                print(f"  c{c['couplet']:02d} {c['ends'][0]}/{c['ends'][1]} "
+                      f"rhyme={c['rhyme_test']} {c['strength']} "
+                      f"units {c['rhyme_units'][0]!r}/{c['rhyme_units'][1]!r} "
+                      f"{c['verdict']}"
+                      f"{'' if c['distinct'] else ' REDIF'}")
+        elif report.get("mode") == "srijato":
+            print("Stanzas:")
+            for s in report.get("stanzas", []):
+                print(f"  stanza {s['stanza']}: {s['ends']} {s['verdict']}")
         print()
 
     print("Issues:")
@@ -632,6 +720,57 @@ def cmd_audit(path: Path, form: str, scheme: str, floor: int,
                 print(f"    {'OK  ' if ok else 'FAIL'} L{i + 1}~L{j + 1} must NOT "
                       f"rhyme {ends[i]}/{ends[j]} -> {r}")
 
+    elif form == "amitra":
+        # অমিত্রাক্ষর ছন্দ — blank verse. Meter (akshar + 8 caesura) is mandatory;
+        # rhyme is scheme-selected: `blank` = none, `poyar` = couplets,
+        # `srijato` = quatrains (L1~L3, L2~L4).
+        tol = meter_tolerance(floor, akshar_tolerance)
+        print(f"  line ruler: akshar (target {floor} +/- {tol} = "
+              f"{floor - tol}-{floor + tol}); mode={scheme}")
+        counts = []
+        feet_ok = 0
+        for line in lines:
+            counts.append(akshar(line))
+            _, bounds = akshar_feet(line)
+            if 8 in bounds:
+                feet_ok += 1
+        in_band = sum(1 for c in counts if abs(c - floor) <= tol)
+        band_ok = in_band == len(counts)
+        if not band_ok:
+            failures += 1
+        print(f"  akshar: min {min(counts)}, max {max(counts)}, "
+              f"target {floor} (band {floor - tol}-{floor + tol}) -> "
+              f"{'PASS' if band_ok else f'FAIL ({in_band}/{len(counts)} in band)'}")
+        print(f"  exact {floor}: {sum(1 for c in counts if c == floor)}/{len(counts)} "
+              f"| 8 caesura: {feet_ok}/{len(counts)}")
+        if scheme == "poyar":
+            if len(lines) % 2:
+                print(f"  FAIL  odd line count ({len(lines)}) — couplets need pairs",
+                      file=sys.stderr)
+                failures += 1
+            for i in range(0, len(lines) - 1, 2):
+                ea, eb = end_word(lines[i]), end_word(lines[i + 1])
+                r = rhyme(ea, eb)
+                sound, ua, ub = rhyme_strength(ea, eb)
+                ok = is_rhyme(r) and sound == "STRONG" and ea != eb
+                failures += 0 if ok else 1
+                print(f"    {'OK  ' if ok else 'FAIL'} c{i // 2 + 1} "
+                      f"{ea}/{eb} -> {r} {sound}")
+        elif scheme == "srijato":
+            if len(lines) % 4:
+                print(f"  FAIL  line count {len(lines)} not a multiple of 4",
+                      file=sys.stderr)
+                failures += 1
+            for s in range(0, len(lines) - 3, 4):
+                ends = [end_word(lines[s + k]) for k in range(4)]
+                for i, j in ((0, 2), (1, 3)):
+                    r = rhyme(ends[i], ends[j])
+                    ok = is_rhyme(r)
+                    failures += 0 if ok else 1
+                    print(f"    {'OK  ' if ok else 'FAIL'} "
+                          f"stanza {s // 4 + 1} L{i + 1}~L{j + 1} "
+                          f"{ends[i]}/{ends[j]} -> {r}")
+
     elif form == "haiku":
         # 3 lines, akshar pattern 5-7-5 (+/-10%), no rhyme requirement
         pattern = [5, 7, 5]
@@ -766,20 +905,24 @@ def main(argv=None) -> int:
         "review",
         help="report-only contract review: per line, per word (for the composing agent)")
     rv.add_argument("file", type=Path)
-    rv.add_argument("--form", default="poyar", choices=["poyar", "free"],
+    rv.add_argument("--form", default="poyar", choices=["poyar", "amitra", "free"],
                     help="contract to review against (default: poyar)")
     rv.add_argument("--target", type=int, default=14,
                     help="akshar target per line (default 14)")
     rv.add_argument("--akshar-tolerance", type=int, default=None,
                     help="akshar tolerance (default: 10%% of target, min 1 -> 14 gives 12-16)")
+    rv.add_argument("--scheme", default="blank",
+                    choices=["blank", "poyar", "srijato"],
+                    help="amitra rhyme mode (blank=no rhyme, poyar=couplets, srijato=quatrains)")
     rv.add_argument("--json", action="store_true",
                     help="emit the report as JSON (machine-readable for the agent)")
 
     a = sub.add_parser("audit", help="audit a chapter against a form contract")
     a.add_argument("file", type=Path)
     a.add_argument("--form", default="poyar",
-                   choices=["poyar", "srijato", "haiku", "limerick", "lyrics"])
-    a.add_argument("--scheme", default="ACBD", help="srijato scheme (ACBD/ABAB/AABB)")
+                   choices=["poyar", "srijato", "haiku", "limerick", "lyrics", "amitra"])
+    a.add_argument("--scheme", default="ACBD",
+                   help="srijato scheme (ACBD/ABAB/AABB); amitra mode (blank/poyar/srijato)")
     a.add_argument("--floor", type=int, default=14,
                    help="poyar line length: akshar target per line (default 14)")
     a.add_argument("--maxlen", type=int, default=0,
@@ -807,7 +950,7 @@ def main(argv=None) -> int:
             return cmd_family(args.word, args.limit)
         if args.cmd == "review":
             return cmd_review(args.file, args.form, args.target,
-                              args.akshar_tolerance, args.json)
+                              args.akshar_tolerance, args.json, args.scheme)
         if args.cmd == "audit":
             return cmd_audit(args.file, args.form, args.scheme, args.floor,
                              args.maxlen, args.shortlen,

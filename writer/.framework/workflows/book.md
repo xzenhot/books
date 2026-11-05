@@ -66,6 +66,7 @@ For every `/book [args...]` request, follow this procedure:
 /book <bookname> lyrics <n>|<chapter> [<target_syllables>] [replace]   # modern song lyrics (lyrics agent → skills/lyrics)
 /book <bookname> limerick|limeric <n>|<chapter> [replace]         # fixed limerick (limerick agent → skills/limerick)
 /book <bookname> haiku <n>|<chapter> [replace]                    # fixed haiku (haiku agent → skills/haiku)
+/book <bookname> amitra <n>|<chapter> [<scheme>] [replace]        # blank verse (amitra agent → skills/amitra)
 /book <bookname> line <chapter> sonnet [replace]                  # sonnet calibration (line agent)
 /book <bookname> rhyme <chapter> sonnet [<scheme>] [replace]      # sonnet composition (rhyme agent → skills/sonnet)
 ```
@@ -122,6 +123,7 @@ never be treated as a chapter count, form, gist, or prose.
 | `<bookname> lyrics` | Pipeline | `pipeline.md` | Compose a modern Bengali song lyrics via the lyrics agent → `.framework/skills/lyrics/SKILL.md`. |
 | `<bookname> limerick` / `limeric` | Pipeline | `pipeline.md` | Compose a 5-line AABBA Bengali limerick via the limerick agent → `.framework/skills/limerick/SKILL.md`. |
 | `<bookname> haiku` | Pipeline | `pipeline.md` | Compose a 5-7-5 akshar Bengali haiku via the haiku agent → `.framework/skills/haiku/SKILL.md`. |
+| `<bookname> amitra <n> [<scheme>] [replace]` | Pipeline | `pipeline.md` | Compose Bengali অমিত্রাক্ষর ছন্দ (blank verse) via the amitra agent → `.framework/skills/amitra/SKILL.md`. Scheme: `blank` (no rhyme) \| `poyar` (couplets) \| `srijato` (quatrains). |
 | `<bookname> line ... sonnet` | Pipeline | `pipeline.md` | Calibrate a 14-line Bengali sonnet via the line agent. |
 | `<bookname> rhyme ... sonnet` | Pipeline | `pipeline.md` | Compose a rhymed Bengali sonnet via the rhyme agent → `.framework/skills/sonnet/SKILL.md`. |
 | `-o` / `--options` / `list` | Read-only | `pipeline.md` | List books across backlog, pipeline, and `workspaces/published`. |

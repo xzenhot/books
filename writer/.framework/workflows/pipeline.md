@@ -597,6 +597,45 @@ For `/book <bookname> poyar <n>|<chapter> [replace]` (alias: `payar`):
    loop repeats until the exit criteria in
    `.framework/rules/meter-tolerance.md` are met.
 
+## The Amitra Command
+
+For `/book <bookname> amitra <n>|<chapter> [<scheme>] [replace]`:
+
+1. Stop if the pipeline does not exist; use `scaffold` first. Stop if the form is
+   not `poetry`.
+2. Resolve the **amitra style cache** at `workspaces/pipeline/<bookname>/style.md`.
+   Amitra's default style is `amitra`, grounded from
+   `.framework/context/poetry/styles/amitra/{sample.txt,signature.md,style.md}`:
+   - **Reuse** when the file's `<!-- style-provenance -->` block declares
+     `style: amitra` for this book — never regenerate per chapter.
+   - **Synthesize** when it is missing, grounded to another style (e.g. a Srijato
+     "Refrain + Verses" reference at 6–12 syllables), stale against
+     `book.json` → `updated_at`, or names another book.
+   - **Honor** `human_edited: true`; never revert it.
+   A style grounded to a different form contradicts the blank-verse contract and
+   must not be composed against.
+3. Route through the amitra agent (`.framework/agents/amitra/agent.md`) →
+   `.framework/skills/amitra/SKILL.md`. That skill owns the blank-verse contract:
+   continuous enjambed sentences whose line breaks fall at **14 akshar per line
+   target, accepted in a 12–16 band (±10 %)** in the `8 + 6` measure, with an
+   optional rhyme scheme — `blank` (no rhyme, chhanda/মেট্রে only), `poyar`
+   (L2~L1 per couplet), or `srijato` (L3~L1, L4~L2 per quatrain). Daily-used
+   spoken register, continuous flow across line breaks. The line count derives
+   from the chapter's `word_target`.
+4. **Never** satisfy an amitra request with `.framework/skills/poetry/SKILL.md`.
+   That skill writes continuous poetic prose without the metred line break and
+   cannot meet the blank-verse contract.
+5. The agent writes `chapters/<n>/chapter.md` (archiving the prior copy to
+   `segments/1/version/`), records the form evidence in `chapter.json`, and must
+   report `=== PASS ===` from both
+   `python tools/mcpbangla/verse.py review <file> --form amitra [--scheme <mode>]`
+   (per-line, per-word report used for repair) and
+   `python tools/mcpbangla/verse.py audit <file> --form amitra --scheme <mode>`.
+6. **Python never writes verse.** The loop is write → review → repair: the agent
+   authors every line and every repair, Python only measures and reports. The
+   loop repeats until the exit criteria in `.framework/rules/meter-tolerance.md`
+   are met.
+
 ## The Style Command
 
 For `/book <bookname> style [<style>]`:

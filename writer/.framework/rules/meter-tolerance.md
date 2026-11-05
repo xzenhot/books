@@ -1,7 +1,7 @@
 # Meter Tolerance
 
 Every metre-based form — `poyar`, `sonnet`, `haiku`, `limerick`, `srijato`,
-`lyrics` — allows **±10 % drift** on its line target. A target is the centre of an
+`lyrics`, `amitra` — allows **±10 % drift** on its line target. A target is the centre of an
 accepted band, not an exact quota.
 
 | Target | Accepted band | Tolerance |
@@ -16,7 +16,8 @@ accepted band, not an exact quota.
 
 Rule: `tolerance = ceil(target * 0.10)`, with a minimum of **1**.
 
-Meter-unit per form: **akshar** for `poyar` (14), `sonnet` (14), and `haiku`
+Meter-unit per form: **akshar** for `poyar` (14), `sonnet` (14), `amitra` (14),
+and `haiku`
 (5-7-5); **syllable** for `limerick`, `srijato`, and `lyrics`.
 
 ### Limerick — a pattern, not a fixed scheme
@@ -42,7 +43,8 @@ consistency; `--maxlen`/`--shortlen` pin a specific pattern.
   never rewritten merely to hit the exact number, and a line outside the band is
   rewritten.
 - **Not relaxed:** the form's structure. Poyar and sonnet keep the caesura at
-  akshar **8**, haiku keeps three lines and its 5-7-5 shape, limerick keeps AABBA
+  akshar **8**, amitra keeps the enjambed line at the 8 + 6 caesura (and its
+  optional rhyme mode), haiku keeps three lines and its 5-7-5 shape, limerick keeps AABBA
   and its long/short line split, poyar keeps strong L1~L2 rhyme with distinct ends
   and no cross-couplet rhyme.
 - **Not relaxed:** the ruler. Akshar (`word.akshar-count`) for akshar metre,

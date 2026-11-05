@@ -72,6 +72,7 @@ words must also share an identical final rhyme unit (see above).
 | Limerick | `.framework/agents/limerick/agent.md` | `.framework/skills/limerick/SKILL.md` |
 | Haiku | `.framework/agents/haiku/agent.md` | `.framework/skills/haiku/SKILL.md` |
 | **Poyar (couplets)** | `.framework/agents/poyar/agent.md` | `.framework/skills/poyar/SKILL.md` |
+| **Amitra (blank verse)** | `.framework/agents/amitra/agent.md` | `.framework/skills/amitra/SKILL.md` |
 
 **Poyar has a dedicated skill.** It is a metred, rhymed couplet form (14-akshar
 target per line with a 12–16 band, strong L1~L2 rhyme), not a voice to be layered onto the
@@ -79,6 +80,14 @@ generic `poetry` skill. When `poyar` is the resolved form or style, task 4 route
 to `.framework/agents/poyar/agent.md` → `.framework/skills/poyar/SKILL.md`.
 Never satisfy a poyar request with `.framework/skills/poetry/SKILL.md` — that
 skill writes continuous prose and cannot meet the couplet contract.
+
+**Amitra has a dedicated skill.** It is a metred blank-verse form (অমিত্রাক্ষর
+ছন্দ: continuous enjambed sentences whose line breaks fall at the 14-akshar
+target with a 12–16 band and an 8 + 6 caesura; rhyme optional — `blank`, `poyar`,
+or `srijato`). When `amitra` is the resolved form or style, task 4 routes to
+`.framework/agents/amitra/agent.md` → `.framework/skills/amitra/SKILL.md`. Never
+satisfy an amitra request with `.framework/skills/poetry/SKILL.md` — that skill
+writes continuous prose without the metred line break.
 
 Style-level forms without a dedicated skill (`srijato`) are resolved through the
 book's style and composed directly under the style contract.
@@ -179,6 +188,12 @@ order, and report each as it completes. For one chapter:
    target per line, accepted 12–16, strong L1~L2 rhyme) with its own dedicated
    skill; it must never be composed by the generic poetry skill, which writes
    continuous prose.
+   **Exception — `amitra`:** when the resolved style or an explicit argument is
+   `amitra`, route to `.framework/agents/amitra/agent.md` →
+   `.framework/skills/amitra/SKILL.md`. Amitra is a fixed blank-verse form
+   (অমিত্রাক্ষর ছন্দ: continuous enjambed sentences, 14-akshar target per line,
+   accepted 12–16, 8 + 6 caesura, optional rhyme) with its own dedicated skill;
+   it must never be composed by the generic poetry skill.
 7. Flatten `chapter.json` → `context.md`, build the prompt, and pass it (with the
    chapter model, style, language, word target, and override path) to the skill.
 8. Report the writer-stage output: form, style, language, word target, and whether

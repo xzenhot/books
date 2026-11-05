@@ -194,12 +194,18 @@ layout
 Known form-specific agents (fixed poetic forms; each owns its own skill):
 
 ```text
-sonnet (via line/rhyme), lyrics, limerick, haiku, poyar
+sonnet (via line/rhyme), lyrics, limerick, haiku, poyar, amitra
 ```
 
 `poyar` is a **dedicated form**, not a style layered onto the generic poetry
 skill: `.framework/agents/poyar/agent.md` → `.framework/skills/poyar/SKILL.md`.
 Never compose poyar through `.framework/skills/poetry/SKILL.md`.
+
+`amitra` (অমিত্রাক্ষর ছন্দ, blank verse) is a **dedicated form**, not a style:
+`.framework/agents/amitra/agent.md` → `.framework/skills/amitra/SKILL.md`.
+Its contract is continuous enjambed sentences broken at the 14-akshar `8 + 6`
+measure, with rhyme optional (`blank` / `poyar` / `srijato`). Never compose
+amitra through `.framework/skills/poetry/SKILL.md`.
 
 ## Agent-First Skill Invocation
 
@@ -266,6 +272,7 @@ The `/book` command surface is split across two start-point workflow specs:
 
 # Form-specific agents (fixed poetic forms)
 .framework/agents/poyar/agent.md
+.framework/agents/amitra/agent.md
 .framework/agents/limerick/agent.md
 .framework/agents/haiku/agent.md
 .framework/agents/lyrics/agent.md
@@ -303,6 +310,7 @@ Agents are the only valid runtime entry points for skill-backed behavior.
 
 # Form-specific skills (fixed poetic forms)
 .framework/skills/poyar/SKILL.md
+.framework/skills/amitra/SKILL.md
 .framework/skills/sonnet/SKILL.md
 .framework/skills/limerick/SKILL.md
 .framework/skills/haiku/SKILL.md
@@ -428,7 +436,7 @@ updated_date  # ISO 8601 UTC timestamp, YYYY-MM-DDTHH:MM:SSZ
 
 ## Meter Tolerance
 
-Every metre-based form (`poyar`, `sonnet`, `haiku`, `limerick`, `srijato`, `lyrics`) accepts **±10 %** drift around its line target — a 14-akshar target accepts **12–16**. The rule lives in `.framework/rules/meter-tolerance.md`.
+Every metre-based form (`poyar`, `sonnet`, `haiku`, `limerick`, `srijato`, `lyrics`, `amitra`) accepts **±10 %** drift around its line target — a 14-akshar target accepts **12–16**. The rule lives in `.framework/rules/meter-tolerance.md`.
 
 - A line inside its band **passes**; never rewrite it merely to hit the exact number. Only an out-of-band line is repaired.
 - The band relaxes **line count only**. Caesura placement (akshar 8 for poyar/sonnet), rhyme strength, distinct ends, stanza shape, and the form's ruler all still bind.
