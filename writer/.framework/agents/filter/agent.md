@@ -42,7 +42,7 @@ write finished chapters, and never read or write `chapters/<n>/chapter.md`
 3. **Load the filter skill from its folder directory.** Resolve the filter name to
    its skill file by folder name. The **form-divergent** filters — `workshop`,
    `research`, `seeds`, and `quality` — resolve by the book's form to
-   `.framework/context/<form>/filters/<filter>/SKILL.md` (poetry or novel). The
+   `.framework/editor/<form>/filters/<filter>/SKILL.md` (poetry or novel). The
    **shared** filters — `genre`, `history`, `spatality`, `movement`, `correctness`,
    and `override` — resolve to `.framework/filters/<filter>/SKILL.md`. Resolve the
    form from the pipeline `book.json` first, then the chapter model. Read the resolved

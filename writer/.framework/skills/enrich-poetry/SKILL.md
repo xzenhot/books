@@ -39,8 +39,8 @@ must serve the poem — its image, its sound, its turn — never a prose arc.
 1. `workspaces/pipeline/<bookname>/filters/filters.json` — the authoritative filter list.
 2. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the poem's metadata (the only per-chapter input).
 3. The active filters' own outputs under `workspaces/pipeline/<bookname>/filters/<filter>/` — the fused guidance's source material.
-4. `.framework/context/poetry/signatures/<poet>/signature.md` — the poetic signatures (see *Poetic Signature*).
-5. `.framework/context/poetry/styles/<style>/` — the resolved style (see *Style Grounding*).
+4. `.framework/editor/poetry/signatures/<poet>/signature.md` — the poetic signatures (see *Poetic Signature*).
+5. `.framework/editor/poetry/styles/<style>/` — the resolved style (see *Style Grounding*).
 
 `chapter.md` is **not** an input here. It is an output file of the writing/authorship
 path; you never read the poem's current prose. You do **not** read the backlog or the epic.
@@ -53,9 +53,9 @@ duplicating what is already there.
 
 Each poem is assigned a **poetic signature** — a poet-stereotype that gives the poem its
 movement, motif, and music. The signatures live under
-`.framework/context/poetry/signatures/`:
+`.framework/editor/poetry/signatures/`:
 
-**Discover them from `.framework/context/poetry/signatures/registry.md`** — never from a
+**Discover them from `.framework/editor/poetry/signatures/registry.md`** — never from a
 hardcoded list. Read the registry first, then read the chosen `signature.md`. The registry
 now catalogues two families:
 
@@ -115,7 +115,7 @@ the tide, the paradox, the cup-bearer (Gibran).
 
 ## Style Grounding
 
-Resolve the book's style from `.framework/context/poetry/styles/`:
+Resolve the book's style from `.framework/editor/poetry/styles/`:
 
 - **desh** — the incantatory, collision-driven voice (see `styles/desh/style.md` and
   `signature.md`); re-key its imagery families to the book's own material.
@@ -135,7 +135,7 @@ movement or the seed analysis's content.
 ## Poetic Parameters (what the fused pass records)
 
 The enrichment is a **poetic parameter profile**, not a story outline. Load the
-style-slider model from `.framework/context/poetry/poetry-slider.json`
+style-slider model from `.framework/editor/poetry/poetry-slider.json`
 (the five `style_sliders`, the seven `movements` with their `parameter_weights`, and the
 `writing_skills`). Record the poem's **parameters** — a set of numeric sliders plus the
 movement and skills that shape it — inside the poem's `creative_enrichment` under a
@@ -189,7 +189,7 @@ active = [ f for f in filters.json.filters if f.autorun == true ], sorted by f.o
 ```
 
 For each active filter, note its skill path. Form-divergent filters (`workshop`,
-`research`, `seeds`, `quality`) resolve to `.framework/context/<form>/filters/<name>/SKILL.md`;
+`research`, `seeds`, `quality`) resolve to `.framework/editor/<form>/filters/<name>/SKILL.md`;
 the rest resolve to `.framework/filters/<name>/SKILL.md`. These are the skills you will fuse. If `filters.json` is missing or has no active filters,
 stop with a clear error — there is nothing to combine.
 

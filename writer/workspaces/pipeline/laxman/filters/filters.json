@@ -3,19 +3,19 @@
     {
       "order": 1,
       "name": "workshop",
-      "agent": ".framework/context/novel/filters/workshop/SKILL.md",
+      "agent": ".framework/editor/novel/filters/workshop/SKILL.md",
       "autorun": true
     },
     {
       "order": 2,
       "name": "research",
-      "agent": ".framework/context/novel/filters/research/SKILL.md",
+      "agent": ".framework/editor/novel/filters/research/SKILL.md",
       "autorun": true
     },
     {
       "order": 3,
       "name": "seeds",
-      "agent": ".framework/context/novel/filters/seeds/SKILL.md",
+      "agent": ".framework/editor/novel/filters/seeds/SKILL.md",
       "autorun": true
     },
     {
@@ -57,7 +57,7 @@
     {
       "order": 10,
       "name": "quality",
-      "agent": ".framework/context/novel/filters/quality/SKILL.md",
+      "agent": ".framework/editor/novel/filters/quality/SKILL.md",
       "autorun": true
     }
   ],

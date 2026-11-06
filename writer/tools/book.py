@@ -1629,7 +1629,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
     # Scaffold never writes to the backlog. The selected style's signature and
     # the book's vocabulary seed are resolved from their framework sources and
     # copied straight into the pipeline snapshot.
-    signature_source = REPO_ROOT / ".framework" / "context" / "novel" / "styles" / style / "signature.md"
+    signature_source = REPO_ROOT / ".framework" / "editor" / "novel" / "styles" / style / "signature.md"
     signature_dest = pipeline / "signature.md"
     if signature_source.is_file():
         shutil.copy2(signature_source, signature_dest)

@@ -8,17 +8,17 @@
 This document is the operative style reference for `zafar`. It was built from,
 in this precedence order:
 
-1. `.framework/context/poetry/styles/mughal/style.md` — the transformer's voice,
+1. `.framework/editor/poetry/styles/mughal/style.md` — the transformer's voice,
    register, historical matter, and political and social culture of the Sultanate
    and Mughal eras in Delhi.
-2. `.framework/context/poetry/styles/mughal/signature.md` — the interpretive
+2. `.framework/editor/poetry/styles/mughal/signature.md` — the interpretive
    authority for identity, overview-philosophy, and tonal decisions when the two
    disagree.
 3. `workspaces/pipeline/zafar/storyline.md` — the book's premise, era, themes,
    chapter outline, and its own declared vocabulary. The storyline supplies the
    *what*; the mughal transformer supplies the *how*.
 4. `workspaces/pipeline/zafar/gist.md` — the gist guardrail.
-5. `.framework/context/subjects/registry.md` — the subject palette embedded below.
+5. `.framework/editor/subjects/registry.md` — the subject palette embedded below.
 
 Where the style and the storyline differ on subject matter, the **storyline
 wins**: this is Bahadur Shah Zafar's book, not a chronicle of the dynasty.
@@ -331,7 +331,7 @@ When you receive a text, do the following:
 
 ## Subjects Registry
 
-Selected from `.framework/context/subjects/registry.md` to fit this book's
+Selected from `.framework/editor/subjects/registry.md` to fit this book's
 premise, themes, and imagery, and expressed through the mughal transformer's own
 material.
 

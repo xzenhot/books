@@ -3,13 +3,13 @@
     {
       "order": 1,
       "name": "workshop",
-      "agent": ".framework/context/poetry/filters/workshop/SKILL.md",
+      "agent": ".framework/editor/poetry/filters/workshop/SKILL.md",
       "autorun": true
     },
     {
       "order": 2,
       "name": "research",
-      "agent": ".framework/context/poetry/filters/research/SKILL.md",
+      "agent": ".framework/editor/poetry/filters/research/SKILL.md",
       "autorun": true
     },
     {
@@ -51,7 +51,7 @@
     {
       "order": 9,
       "name": "quality",
-      "agent": ".framework/context/poetry/filters/quality/SKILL.md",
+      "agent": ".framework/editor/poetry/filters/quality/SKILL.md",
       "autorun": true
     }
   ],

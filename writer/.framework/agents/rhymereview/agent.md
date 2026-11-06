@@ -82,7 +82,7 @@ Read, in order:
 4. `workspaces/pipeline/<bookname>/style.md` — the book's style cache. Read its
    `<!-- style-provenance ... -->` block when present (`style:`, `form:`,
    `meter:`).
-5. `.framework/context/poetry/styles/<style>/style.md` — the style's own form
+5. `.framework/editor/poetry/styles/<style>/style.md` — the style's own form
    contract (rhyme scheme, stanza shape, meter).
 
 Do not read the backlog, the epic, `workspaces/published/`, or any other
@@ -98,7 +98,7 @@ Apply the first hit:
 3. `book.json` chapter entry: `form`, `form_skill`, or `style`.
 4. `book.json`: `style`, then `form`.
 5. `style.md` provenance: `style:` or `form:`.
-6. The style contract under `.framework/context/poetry/styles/<style>/`.
+6. The style contract under `.framework/editor/poetry/styles/<style>/`.
 7. Fallback: `generic` — no fixed rhyme or meter obligation unless declared.
 
 **Precedence guard.** A dedicated form skill's contract beats the provenance

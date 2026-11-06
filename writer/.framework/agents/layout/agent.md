@@ -61,7 +61,7 @@ If the book plan is missing, do not proceed — report the missing book plan and
 1. `workspaces/backlog/<bookname>/book.json` — the authoritative book plan: `filter_chain`, `quality_chain`, `chapters`, `chapter_count`, `word_target`, `all_characters` (novel), `gist`, `book_summary`, and optional `style`.
 2. `workspaces/backlog/<bookname>/storyline.md` (novel) — the story source of truth; or the gist/topic list (poetry).
 3. The command's `--form` flag, if supplied, to override the inferred form.
-4. The selected style's `signature.md` at `.framework/context/<form>/styles/<style>/signature.md`. Resolve `<style>` from the backlog plan's `style`, defaulting to `pijush` for poetry or `dialogue` for novels.
+4. The selected style's `signature.md` at `.framework/editor/<form>/styles/<style>/signature.md`. Resolve `<style>` from the backlog plan's `style`, defaulting to `pijush` for poetry or `dialogue` for novels.
 5. The vocabulary template `.framework/templates/backlog/v1/bookseed.md` — the book's seed vocabulary and phrases, staged into the backlog and copied into the pipeline.
 
 ## What to Produce
@@ -81,7 +81,7 @@ Resolve and hand off a **pre-layout plan** with these fields:
 
 - **Validate before layout.** Confirm the book plan is internally consistent: the `filter_chain` matches the form's preset, the `quality_chain` matches the form's quality dimensions (poetry: `subject, genre, theme, syntax, signature`; novel: `genre, syntax, signature`), the `chapters` array matches the form's structure, and `word_target` matches the preset's target. If inconsistent, reconcile to the resolved form and note the correction.
 - **Backlog is the source.** The pre-layout plan is derived from the backlog book plan, never invented. Do not read the layout skills' *Preset* sections — the book plan's `filter_chain` is authoritative.
-- **Stage the book seed (fill gaps only).** The backlog `layout`/`refresh` path stages the book's vocabulary seed at `workspaces/backlog/<bookname>/bookseed.md` from `.framework/templates/backlog/v1/bookseed.md`. When Phase 1 finds it still absent, stage it from that template using the same create-if-missing rule. `bookseed.md` is plain text and is never stamped. Never overwrite an existing staged file; report when the template is unavailable. **Phase 1 does not stage `signature.md`** — the selected style's signature is copied into the pipeline by scaffold directly from `.framework/context/<form>/styles/<style>/signature.md`.
+- **Stage the book seed (fill gaps only).** The backlog `layout`/`refresh` path stages the book's vocabulary seed at `workspaces/backlog/<bookname>/bookseed.md` from `.framework/templates/backlog/v1/bookseed.md`. When Phase 1 finds it still absent, stage it from that template using the same create-if-missing rule. `bookseed.md` is plain text and is never stamped. Never overwrite an existing staged file; report when the template is unavailable. **Phase 1 does not stage `signature.md`** — the selected style's signature is copied into the pipeline by scaffold directly from `.framework/editor/<form>/styles/<style>/signature.md`.
 - **Do not scaffold.** This phase only prepares the plan. It must not create `workspaces/pipeline/<bookname>/`, must not create folders, and must not run the layout skill or any filter.
 - **Do not otherwise write to the backlog.** The pre-layout plan is a hand-off to the layout skill, not a file written to disk. The only Phase 1 backlog write permitted is the staged `bookseed.md`.
 
@@ -138,7 +138,7 @@ Phase 1 returns:
 3. The ordered **filter chain** (one name per line, in order).
 4. The ordered **quality chain** (one name per line, in order).
 5. The **word target**.
-6. The selected **style** nickname (used by scaffold to resolve the style signature from `.framework/context/<form>/styles/<style>/signature.md`) and whether the **book seed** was staged at `workspaces/backlog/<bookname>/bookseed.md`.
+6. The selected **style** nickname (used by scaffold to resolve the style signature from `.framework/editor/<form>/styles/<style>/signature.md`) and whether the **book seed** was staged at `workspaces/backlog/<bookname>/bookseed.md`.
 7. Any **inconsistencies reconciled** (e.g. "filter_chain did not match the form's preset; reconciled to the preset sequence").
 
 Phase 2 returns:

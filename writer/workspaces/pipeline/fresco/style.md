@@ -2,7 +2,7 @@
 
 ## Authority Note
 
-When any instruction in this style file is unclear, incomplete, or in tension with another pipeline transformer file, consult `.framework/context/poetry/styles/fresco/signature.md`. Treat `signature.md` as the interpretive authority for Fresco's core identity, inheritance of pigment and plaster, sensory nomadism, Mandawa-Nawalgarh coordinates, and final tonal decisions regarding visibility versus shadow.
+When any instruction in this style file is unclear, incomplete, or in tension with another pipeline transformer file, consult `.framework/editor/poetry/styles/fresco/signature.md`. Treat `signature.md` as the interpretive authority for Fresco's core identity, inheritance of pigment and plaster, sensory nomadism, Mandawa-Nawalgarh coordinates, and final tonal decisions regarding visibility versus shadow.
 
 ## Identity
 

@@ -1,6 +1,6 @@
 # Style / Signature / Quality — Layer Separation
 
-The poetic context under `.framework/context/<form>/` is split into **three
+The poetic context under `.framework/editor/<form>/` is split into **three
 non-overlapping layers**. Each owns one kind of knowledge; mixing them is a
 defect. This rule is the authoritative boundary for `styles/`, `signatures/`, and
 `themes/` (which carries the seed analysis / quality) in both `novel/` and

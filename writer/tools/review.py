@@ -35,7 +35,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 REPO_ROOT = BASE_DIR.parent
 PIPELINE_ROOT = REPO_ROOT / "workspaces" / "pipeline"
-FILTERS_DIR = REPO_ROOT / ".framework" / "context" / "poetry"
+FILTERS_DIR = REPO_ROOT / ".framework" / "editor" / "poetry"
 
 OLLAMA_CHAT_URL = "http://127.0.0.1:11434/api/chat"
 TIMEOUT = 900
@@ -78,7 +78,7 @@ def regenerate_style_md(bookname: str, book: dict) -> None:
     the book's topics.
     """
     style_path = PIPELINE_ROOT / bookname / "style.md"
-    template_path = REPO_ROOT / ".framework" / "context" / "poetry" / "styles" / "pijush" / "style.md"
+    template_path = REPO_ROOT / ".framework" / "editor" / "poetry" / "styles" / "pijush" / "style.md"
 
     if not style_path.exists():
         if template_path.exists():

@@ -120,8 +120,8 @@ Do not create chapter folders outside `chapters/`. Do not create segment folders
 A signature/persona argument selects an authorial voice. Resolve it from the form-specific stereotype folders:
 
 ```text
-.framework/context/novel/signatures/<signature>/signature.md
-.framework/context/poetry/signatures/<signature>/signature.md
+.framework/editor/novel/signatures/<signature>/signature.md
+.framework/editor/poetry/signatures/<signature>/signature.md
 ```
 
 Known novel signatures include:
@@ -176,7 +176,7 @@ correctness, override, quality
 ```
 
 The form-divergent filters — `workshop`, `research`, `seeds`, `quality` — resolve
-by form to `.framework/context/<form>/filters/<name>/SKILL.md`; the rest resolve to
+by form to `.framework/editor/<form>/filters/<name>/SKILL.md`; the rest resolve to
 `.framework/filters/<name>/SKILL.md`.
 
 Known lifecycle agents:
@@ -282,15 +282,15 @@ The `/book` command surface is split across two start-point workflow specs:
 
 # Filter agents — shared (form-agnostic) under .framework/filters/;
 # form-divergent (workshop, research, seeds, quality) live per form under
-# .framework/context/<form>/filters/
+# .framework/editor/<form>/filters/
 .framework/filters/genre/SKILL.md
 .framework/filters/history/SKILL.md
 .framework/filters/spatality/SKILL.md
 .framework/filters/movement/SKILL.md
 .framework/filters/correctness/SKILL.md
 .framework/filters/override/SKILL.md
-.framework/context/poetry/filters/{workshop,research,seeds,quality}/SKILL.md
-.framework/context/novel/filters/{workshop,research,seeds,quality}/SKILL.md
+.framework/editor/poetry/filters/{workshop,research,seeds,quality}/SKILL.md
+.framework/editor/novel/filters/{workshop,research,seeds,quality}/SKILL.md
 ```
 
 Agents are the only valid runtime entry points for skill-backed behavior.
@@ -327,9 +327,9 @@ Read skill files only from inside the responsible agent flow.
 ```text
 .framework/rules/
 .framework/templates/moods/
-.framework/context/novel/
-.framework/context/poetry/
-.framework/context/subjects/
+.framework/editor/novel/
+.framework/editor/poetry/
+.framework/editor/subjects/
 ```
 
 Use templates as source material; do not copy whole template trees into pipelines unless a scaffold agent explicitly requires it.
@@ -348,7 +348,7 @@ For novels, `storyline.md` is the story source of truth. Do not invent story con
 Before scaffold, the backlog `layout`/`refresh` path stages the vocabulary seed at
 `workspaces/backlog/<bookname>/bookseed.md`. Scaffold then copies both
 `bookseed.md` and the selected style's `signature.md` (read from
-`.framework/context/<form>/styles/<style>/`) into the pipeline root. Scaffold never
+`.framework/editor/<form>/styles/<style>/`) into the pipeline root. Scaffold never
 stages anything in the backlog.
 
 ### Pipeline Working State

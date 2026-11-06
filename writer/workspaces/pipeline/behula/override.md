@@ -14,7 +14,7 @@
 **কিভাবে লিখতে হবে**
 
 ১) এই সিন্ট্যাক্সে জিবরান ও অরিলাসের দর্শন ভিত্তিক লিখতে হবে । 
-২) Dont Ignore the signature of Pijush Biswas : .framework\context\poetry\styles\pijushbangali\signature.md  
+২) Dont Ignore the signature of Pijush Biswas : .framework\editor\poetry\styles\pijushbangali\signature.md  
 
 ৩) নমুনা কবিতার মতো একটি শব্দ-সংশ্লেষের **স্টেজ এরিয়া** (কর্মক্ষেত্র) বানিয়ে নিতে হবে —
     যেখানে সেই শব্দগুলির মতো আরও প্রতিশব্দ খুঁজে, সেগুলিকে মিলিয়ে প্রতিটি কবিতার জন্য নতুন

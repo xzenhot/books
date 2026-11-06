@@ -48,14 +48,14 @@ Apply the seed analysis's quality metrics to every chapter:
 ### Resolving the seed analysis
 
 The quality metrics come from the book's **seed analysis**, which lives under
-`.framework/context/poetry/themes/<theme-set>/` (each theme set carries its own
+`.framework/editor/poetry/themes/<theme-set>/` (each theme set carries its own
 quality/seed analysis as the `theme.md`). Resolve it first:
 
 1. Read the chapter model's `stereotype.theme_set` (and its associated
    `reference`) to name the seed analysis; when none is named, fall back to the
    book plan's theme set.
 2. Read the resolved seed analysis (e.g.
-   `.framework/context/poetry/themes/aurilus/theme.md`, which is the Meditations
+   `.framework/editor/poetry/themes/aurilus/theme.md`, which is the Meditations
    seed analysis, or a theme set that carries its own seed analysis) for its full
    metrics — philosophical depth, metaphorical richness, accessibility, relevance,
    literary quality, ethical framework — and audit the chapter against those

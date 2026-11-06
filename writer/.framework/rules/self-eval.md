@@ -60,7 +60,7 @@ Read these in order. Use them as the source of truth for what *should* exist.
 5. `.framework/skills/` — every active `SKILL.md`. Retired/moved skills live under
    `.framework/filters/` and must not be referenced by any agent or workflow.
 6. `.framework/templates/` — `backlog/` (`book.json`, `book.min.json`, `progress.json`),
-   `preset/`, `moods/`, `subjects/`, `tools/`; and `.framework/context/` — the stereotype
+   `preset/`, `moods/`, `subjects/`, `tools/`; and `.framework/editor/` — the stereotype
    corpus (`novel/`, `poetry/`).
 7. `workspaces/start.md` — user defaults.
 8. `workspaces/backlog/`, `workspaces/pipeline/`, and `workspaces/published/` — the data layers.

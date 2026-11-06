@@ -33,7 +33,7 @@ declared sources.
    its `subject`, `chapter_summary`, `era`, and any prior `genre` record.
 2. Read the book plan at `workspaces/pipeline/<bookname>/book.json` for the `form`
    and the book's declared `generic` (genre) where present.
-3. Select the chapter's genre from `.framework/context/<form>/genre/<genre>/registry.md`
+3. Select the chapter's genre from `.framework/editor/<form>/genre/<genre>/registry.md`
    (poetry or novel, matching the book's form), or confirm the plan's declared
    genre when it already fits.
 4. Record the genre in the chapter model (see Output). Do not invent subject matter.

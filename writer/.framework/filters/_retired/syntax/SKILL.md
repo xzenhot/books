@@ -24,8 +24,8 @@ The novel writes in an elevated, image-rich register. But elevated *voice* must 
 
 Every chapter is rendered in a **form** — either **poetry** or **novel (prose)**. Based on that form, you select the **syntax sample** that defines the target sentence structure:
 
-- Poetry: `.framework/context/poetry/syntax/`
-- Novel: `.framework/context/novel/syntax/`
+- Poetry: `.framework/editor/poetry/syntax/`
+- Novel: `.framework/editor/novel/syntax/`
 
 Read the `registry.md` to discover available syntax samples, then read the chosen sample file for the full definition (the target register, sentence patterns, and readability bar). The sample must match the chapter's form — the same form used for the signature, reference, and theme set selections.
 

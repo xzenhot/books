@@ -3,10 +3,10 @@
 ## Authority Note
 
 This is a **book-grounded instantiation of the Poyar style**. The primary
-authority is the canonical corpus `.framework/context/poetry/styles/poyar/sample.txt`
+authority is the canonical corpus `.framework/editor/poetry/styles/poyar/sample.txt`
 (**form, rhyme, and register**), distilled in
-`.framework/context/poetry/styles/poyar/signature.md`, and specified in full in
-`.framework/context/poetry/styles/poyar/style.md`. Where these disagree, the
+`.framework/editor/poetry/styles/poyar/signature.md`, and specified in full in
+`.framework/editor/poetry/styles/poyar/style.md`. Where these disagree, the
 sample wins; where the sample cannot decide, the signature decides.
 
 The corpus describes a **method** — how a couplet pairs, rhymes, measures and

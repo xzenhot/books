@@ -1,6 +1,6 @@
 ---
 name: poyar
-description: Dedicated Bengali poyar (পয়ার) skill — two-line couplets (দ্বিপদী), 14 akshar per line measured 8 + 6 with ±10% tolerance (12–16 akshar), strong L1~L2 rhyme inside each couplet, no cross-couplet rhyme, daily-used spoken register, couplets bound by continuous meaning. Default style is `poyar`, grounded from `.framework/context/poetry/styles/poyar/` and cached per book as `workspaces/pipeline/<bookname>/style.md`. Owns poyar composition end to end; never delegates to the generic poetry skill. Alias: "payar".
+description: Dedicated Bengali poyar (পয়ার) skill — two-line couplets (দ্বিপদী), 14 akshar per line measured 8 + 6 with ±10% tolerance (12–16 akshar), strong L1~L2 rhyme inside each couplet, no cross-couplet rhyme, daily-used spoken register, couplets bound by continuous meaning. Default style is `poyar`, grounded from `.framework/editor/poetry/styles/poyar/` and cached per book as `workspaces/pipeline/<bookname>/style.md`. Owns poyar composition end to end; never delegates to the generic poetry skill. Alias: "payar".
 ---
 
 # Poyar Skill (পয়ার)
@@ -229,7 +229,7 @@ Take the daily-used spoken word over the literary one.
 ## Style Resolution and Caching (default: `poyar`)
 
 Poyar is form-bound. When this skill runs and no other style is named, the style
-is **`poyar`** — resolved from `.framework/context/poetry/styles/poyar/`:
+is **`poyar`** — resolved from `.framework/editor/poetry/styles/poyar/`:
 
 | File | Role |
 |---|---|
@@ -283,18 +283,18 @@ then the couplet contract still binds.
 
 Read, in order:
 
-1. `.framework/context/poetry/styles/poyar/sample.txt` — extract the **method**:
+1. `.framework/editor/poetry/styles/poyar/sample.txt` — extract the **method**:
    couplet pairing, the `8 + 6` akshar measure, the daily-used register, the
    plain-concrete anchoring, the oral narrator's address.
-2. `.framework/context/poetry/styles/poyar/signature.md` — the distilled pattern.
-3. `.framework/context/poetry/styles/poyar/style.md` — the full contract.
+2. `.framework/editor/poetry/styles/poyar/signature.md` — the distilled pattern.
+3. `.framework/editor/poetry/styles/poyar/style.md` — the full contract.
 4. `workspaces/pipeline/<bookname>/book.json` — `gist`, `book_summary`, `era`,
    `language`, `form`, `chapters[]` titles and summaries.
 5. `workspaces/pipeline/<bookname>/storyline.md` — premise, thematic threads,
    voice, imagery.
 6. `workspaces/pipeline/<bookname>/override.md` and
    `filters/override/filter.md` — fold any transformation mandate in.
-7. `.framework/context/subjects/registry.md` and the topic files the storyline
+7. `.framework/editor/subjects/registry.md` and the topic files the storyline
    suggests — for the subjects palette.
 
 Then write **one self-contained document** with these sections, in this order:
@@ -327,7 +327,7 @@ style: poyar
 book: <bookname>
 form: poetry
 meter: akshar-14
-grounded_from: .framework/context/poetry/styles/poyar/{sample.txt,signature.md,style.md}
+grounded_from: .framework/editor/poetry/styles/poyar/{sample.txt,signature.md,style.md}
 generated_at: <ISO-8601 UTC>
 book_updated_at: <book.json updated_at>
 human_edited: false
@@ -359,7 +359,7 @@ cache miss.
 5. `workspaces/pipeline/<bookname>/style.md` — the **cached, book-grounded poyar
    reference** (resolve it per *Style Resolution and Caching* above; synthesize it
    only on a cache miss).
-6. `.framework/context/poetry/styles/poyar/{signature.md,sample.txt}` — form and
+6. `.framework/editor/poetry/styles/poyar/{signature.md,sample.txt}` — form and
    register authority; consult when the cache is ambiguous, never as a substitute
    for the grounded reference.
 

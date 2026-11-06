@@ -24,14 +24,14 @@ AUDIT_FIELDS = ("updated_by", "updated_date", "updated_at")
 POETRY_QUALITY_DIMENSIONS = ("subject", "genre", "theme", "syntax", "signature")
 NOVEL_QUALITY_DIMENSIONS = ("genre", "theme", "syntax", "signature")
 
-# Filters that resolve by form (`.framework/context/<form>/filters/<name>/SKILL.md`);
+# Filters that resolve by form (`.framework/editor/<form>/filters/<name>/SKILL.md`);
 # everything else resolves to the shared `.framework/filters/<name>/SKILL.md`.
 FORM_DIVERGENT_FILTERS = frozenset(("workshop", "research", "seeds", "quality"))
 
 
 def _filter_skill_path(root, name, form):
     """Resolve a filter name to its SKILL.md, by form for the divergent set."""
-    base = "context" / form / "filters" if name in FORM_DIVERGENT_FILTERS else "filters"
+    base = "editor" / form / "filters" if name in FORM_DIVERGENT_FILTERS else "filters"
     return root / ".framework" / base / name / "SKILL.md"
 
 
@@ -182,7 +182,7 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
     # The selected style's signature lives with the framework, not in the
     # backlog, so scaffold resolves it directly from the style folder. Plain
     # text seed files are copied verbatim; the Markdown signature is stamped.
-    signature_source = root / ".framework/context/poetry/styles" / style / "signature.md"
+    signature_source = root / ".framework/editor/poetry/styles" / style / "signature.md"
     signature_dest = pipeline / "signature.md"
     if signature_dest.exists():
         print("Preserving existing pipeline style signature")
@@ -226,7 +226,7 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
         write_json(registry, stamp_json(
             {"filters": [
                 {"order": i, "name": name,
-                 "agent": (f".framework/context/{form}/filters/{name}/SKILL.md"
+                 "agent": (f".framework/editor/{form}/filters/{name}/SKILL.md"
                            if name in FORM_DIVERGENT_FILTERS
                            else f".framework/filters/{name}/SKILL.md"),
                  "autorun": True}

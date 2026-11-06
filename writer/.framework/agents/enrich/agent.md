@@ -70,7 +70,7 @@ researcher:
    (e.g. a Behula template); do not propagate it.
 
 **Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy
-`.framework/context/poetry/styles/pijush/style.md` if missing, without overwriting a
+`.framework/editor/poetry/styles/pijush/style.md` if missing, without overwriting a
 human-edited file), then re-ground it from `book.json` and `override.md`
 to this book's topics — keep voice/register, change only the "what".
 

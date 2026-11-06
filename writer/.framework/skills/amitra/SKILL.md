@@ -1,6 +1,6 @@
 ---
 name: amitra
-description: Dedicated Bengali অমিত্রাক্ষর ছন্দ (blank-verse) skill — continuous enjambed sentences whose line breaks fall at the 14-akshar (8 + 6) measure with ±10% tolerance (12–16 akshar). Rhyme is optional and scheme-selected: `blank` (chhanda/meter only, no rhyme), `poyar` (L2~L1 strong rhyme per couplet), or `srijato` (L3~L1, L4~L2 per quatrain). Daily-used spoken register, couplets/quatrains bound by continuous meaning. Default style is `amitra`, grounded from `.framework/context/poetry/styles/amitra/` and cached per book as `workspaces/pipeline/<bookname>/style.md`. Owns amitra composition end to end; never delegates to the generic poetry skill.
+description: Dedicated Bengali অমিত্রাক্ষর ছন্দ (blank-verse) skill — continuous enjambed sentences whose line breaks fall at the 14-akshar (8 + 6) measure with ±10% tolerance (12–16 akshar). Rhyme is optional and scheme-selected: `blank` (chhanda/meter only, no rhyme), `poyar` (L2~L1 strong rhyme per couplet), or `srijato` (L3~L1, L4~L2 per quatrain). Daily-used spoken register, couplets/quatrains bound by continuous meaning. Default style is `amitra`, grounded from `.framework/editor/poetry/styles/amitra/` and cached per book as `workspaces/pipeline/<bookname>/style.md`. Owns amitra composition end to end; never delegates to the generic poetry skill.
 ---
 
 # Amitra Skill (অমিত্রাক্ষর ছন্দ)
@@ -186,7 +186,7 @@ Take the daily-used spoken word over the literary one.
 ## Style Resolution and Caching (default: `amitra`)
 
 Amitra is form-bound. When this skill runs and no other style is named, the style
-is **`amitra`** — resolved from `.framework/context/poetry/styles/amitra/`:
+is **`amitra`** — resolved from `.framework/editor/poetry/styles/amitra/`:
 
 | File | Role |
 |---|---|
@@ -226,12 +226,12 @@ re-ground — one operative style reference per book, never a second copy.
 
 Read, in order:
 
-1. `.framework/context/poetry/styles/amitra/sample.txt` — extract the **method**:
+1. `.framework/editor/poetry/styles/amitra/sample.txt` — extract the **method**:
    the 8 + 6 akshar measure, the continuous enjambed sentence, the daily-used
    register, the plain-concrete anchoring, the oral narrator's address.
-2. `.framework/context/poetry/styles/amitra/signature.md` — the distilled pattern
+2. `.framework/editor/poetry/styles/amitra/signature.md` — the distilled pattern
    (create if missing).
-3. `.framework/context/poetry/styles/amitra/style.md` — the full contract (create if
+3. `.framework/editor/poetry/styles/amitra/style.md` — the full contract (create if
    missing).
 4. `workspaces/pipeline/<bookname>/book.json` — `gist`, `book_summary`, `era`,
    `language`, `form`, `chapters[]` titles and summaries.
@@ -239,7 +239,7 @@ Read, in order:
    voice, imagery.
 6. `workspaces/pipeline/<bookname>/override.md` and
    `filters/override/filter.md` — fold any transformation mandate in.
-7. `.framework/context/subjects/registry.md` and the topic files the storyline
+7. `.framework/editor/subjects/registry.md` and the topic files the storyline
    suggests — for the subjects palette.
 
 Then write **one self-contained document** with these sections, in this order:

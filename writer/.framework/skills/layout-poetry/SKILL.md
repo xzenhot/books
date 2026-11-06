@@ -161,7 +161,7 @@ no audit stamp). Treat each line as a reusable word or phrase for this book.
 ### `signature.md` (selected style's signature)
 
 The selected style's companion signature. **Scaffold copies it** from
-`.framework/context/<form>/styles/<style>/signature.md` to
+`.framework/editor/<form>/styles/<style>/signature.md` to
 `workspaces/pipeline/<bookname>/signature.md` and stamps the copy `scaffold`.
 It is never staged in the backlog.
 
@@ -253,10 +253,10 @@ For each named filter folder, scaffold only the registry entry in `filters.json`
 
 Leave runtime content empty unless the active workflow explicitly runs that filter.
 
-**Override command file (poetry customization):** the `override` filter is the one structural exception. Its exact seeding content is **dynamically derived at scaffold time** from `.framework/filters/override/SKILL.md` plus the poetry stereotype index at `.framework/context/poetry/readme.md` — do not treat this paragraph as the fixed recipe. Before you create the override file, read both and let them govern the shape:
+**Override command file (poetry customization):** the `override` filter is the one structural exception. Its exact seeding content is **dynamically derived at scaffold time** from `.framework/filters/override/SKILL.md` plus the poetry stereotype index at `.framework/editor/poetry/readme.md` — do not treat this paragraph as the fixed recipe. Before you create the override file, read both and let them govern the shape:
 
 1. **Read `.framework/filters/override/SKILL.md`** — the base content for the command file: the override command file is `workspaces/pipeline/<bookname>/filters/override/filter.md`, and it is generated/refreshed from the chapter (or poem) models' context so the human instructions are grounded in what the poems actually contain.
-2. **Read `.framework/context/poetry/readme.md`** — the master index of the poetry stereotype folder, for the identity wording and conventions of the poetry form.
+2. **Read `.framework/editor/poetry/readme.md`** — the master index of the poetry stereotype folder, for the identity wording and conventions of the poetry form.
 3. **Seed `workspaces/pipeline/<bookname>/filters/override/filter.md`** on first use (not at scaffold), customized for poetry: identity "poetry pipeline", applies to every **poem**, model updates on the poem chapter models under `chapters/<n>/`, instruction scope "every poem" (each topic in `book.json`'s `chapters[]`).
 4. **Keep the two override layers distinct.** All forms share the override command file at `filters/override/filter.md`. The pipeline-root `override.md` is a different file — the master prompt — and both may coexist; never merge them or write one at the other's path.
 5. Align with whatever the readme's sub-indexes declare (singer/signature set, reference texts, syntax samples, theme sets under `signatures/`, `references/`, `syntax/`, `themes/`) — the override layer must not contradict the stereotype set the pipeline will use.

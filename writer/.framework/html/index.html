@@ -219,12 +219,12 @@
         <tr><td><code>.framework/workflows/pipeline.md</code></td><td><strong>The writing engine.</strong> Defines commands, scaffolding, filter execution, form selection, config, and writing rules.</td></tr>
         <tr><td><code>.framework/skills/layout-novel/SKILL.md</code></td><td><strong>The novel layout authority.</strong> Owns novel scaffold shape, <code>book.json</code>, characters, moods, workshop metadata, filters, and chapter/segment path invariants.</td></tr>
         <tr><td><code>.framework/skills/layout-poetry/SKILL.md</code></td><td><strong>The poetry layout authority.</strong> Owns poetry scaffold shape, <code>book.json</code>, progress, override, filters, and one-segment chapter layout.</td></tr>
-        <tr><td><code>.framework/context/&lt;form&gt;/filters/research/SKILL.md</code></td><td><strong>Research support.</strong> A chain filter reached through the filter agent; performs research against the epic/gist as contextual source.</td></tr>
+        <tr><td><code>.framework/editor/&lt;form&gt;/filters/research/SKILL.md</code></td><td><strong>Research support.</strong> A chain filter reached through the filter agent; performs research against the epic/gist as contextual source.</td></tr>
         <tr><td><code>workspaces/backlog/&lt;bookname&gt;/storyline.md</code></td><td><strong>The backlog epic.</strong> The single source of truth for a novel's story. Created/updated by the bare <code>/book &lt;bookname&gt; [&lt;gist&gt;]</code> command.</td></tr>
         <tr><td><code>workspaces/backlog/&lt;bookname&gt;/book.json</code></td><td><strong>The backlog book plan.</strong> The chapter-layout plan plus the authoritative <code>filter_chain</code> and <code>word_target</code>. Produced by <code>init</code>; the blueprint <code>scaffold</code> builds from.</td></tr>
         <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/</code></td><td><strong>The book pipeline.</strong> Holds model data, characters, filters, chapter plans, segments, and progress state.</td></tr>
         <tr><td><code>workspaces/pipeline/&lt;bookname&gt;/book.json</code></td><td><strong>The book plan.</strong> A complete clone of backlog <code>book.json</code>, preserved unchanged throughout scaffold and the master-prompt phase. Later explicit config or runtime operations may update it. Its <code>chapters[]</code> array is the poetry index — each entry (a <code>chapter_title</code> + <code>chapter_summary</code>) becomes one poem.</td></tr>
-        <tr><td><code>.framework/context/&lt;form&gt;/</code></td><td><strong>The stereotype templates.</strong> Signatures, references, themes, qualities, and syntax samples for each form.</td></tr>
+        <tr><td><code>.framework/editor/&lt;form&gt;/</code></td><td><strong>The stereotype templates.</strong> Signatures, references, themes, qualities, and syntax samples for each form.</td></tr>
         <tr><td><code>workspaces/published/&lt;bookname&gt;/&lt;version&gt;/</code></td><td><strong>Verified output.</strong> Chapters and the consolidated book live inside a fresh version folder.</td></tr>
       </tbody>
     </table>
@@ -316,7 +316,7 @@
         <tr><td><strong><code>mood.json</code></strong></td><td>present per chapter</td><td>absent</td></tr>
         <tr><td><strong>Filter chain</strong></td><td>preset-defined (<code>layout-novel/SKILL.md</code>)</td><td>preset-defined (<code>layout-poetry/SKILL.md</code>)</td></tr>
         <tr><td><strong>Word target</strong></td><td>Use the configured chapter <code>word_target</code></td><td>Use the configured chapter <code>word_target</code></td></tr>
-        <tr><td><strong>Stereotype templates</strong></td><td><code>.framework/context/novel/</code></td><td><code>.framework/context/poetry/</code></td></tr>
+        <tr><td><strong>Stereotype templates</strong></td><td><code>.framework/editor/novel/</code></td><td><code>.framework/editor/poetry/</code></td></tr>
       </tbody>
     </table>
 
@@ -406,16 +406,16 @@
     <table>
       <thead><tr><th>Filter</th><th>Agent</th></tr></thead>
       <tbody>
-        <tr><td>workshop</td><td><code>.framework/context/novel/filters/workshop/SKILL.md</code></td></tr>
-        <tr><td>research</td><td><code>.framework/context/novel/filters/research/SKILL.md</code></td></tr>
-        <tr><td>seeds</td><td><code>.framework/context/novel/filters/seeds/SKILL.md</code></td></tr>
+        <tr><td>workshop</td><td><code>.framework/editor/novel/filters/workshop/SKILL.md</code></td></tr>
+        <tr><td>research</td><td><code>.framework/editor/novel/filters/research/SKILL.md</code></td></tr>
+        <tr><td>seeds</td><td><code>.framework/editor/novel/filters/seeds/SKILL.md</code></td></tr>
         <tr><td>genre</td><td><code>.framework/filters/genre/SKILL.md</code></td></tr>
         <tr><td>history</td><td><code>.framework/filters/history/SKILL.md</code></td></tr>
         <tr><td>spatality</td><td><code>.framework/filters/spatality/SKILL.md</code></td></tr>
         <tr><td>movement</td><td><code>.framework/filters/movement/SKILL.md</code></td></tr>
         <tr><td>correctness</td><td><code>.framework/filters/correctness/SKILL.md</code></td></tr>
         <tr><td>override</td><td><code>.framework/filters/override/SKILL.md</code></td></tr>
-        <tr><td>quality</td><td><code>.framework/context/novel/filters/quality/SKILL.md</code></td></tr>
+        <tr><td>quality</td><td><code>.framework/editor/novel/filters/quality/SKILL.md</code></td></tr>
       </tbody>
     </table>
 
@@ -424,15 +424,15 @@
     <table>
       <thead><tr><th>Filter</th><th>Agent</th></tr></thead>
       <tbody>
-        <tr><td>workshop</td><td><code>.framework/context/poetry/filters/workshop/SKILL.md</code></td></tr>
-        <tr><td>research</td><td><code>.framework/context/poetry/filters/research/SKILL.md</code></td></tr>
+        <tr><td>workshop</td><td><code>.framework/editor/poetry/filters/workshop/SKILL.md</code></td></tr>
+        <tr><td>research</td><td><code>.framework/editor/poetry/filters/research/SKILL.md</code></td></tr>
         <tr><td>genre</td><td><code>.framework/filters/genre/SKILL.md</code></td></tr>
         <tr><td>history</td><td><code>.framework/filters/history/SKILL.md</code></td></tr>
         <tr><td>spatality</td><td><code>.framework/filters/spatality/SKILL.md</code></td></tr>
         <tr><td>movement</td><td><code>.framework/filters/movement/SKILL.md</code></td></tr>
         <tr><td>correctness</td><td><code>.framework/filters/correctness/SKILL.md</code></td></tr>
         <tr><td>override</td><td><code>.framework/filters/override/SKILL.md</code></td></tr>
-        <tr><td>quality</td><td><code>.framework/context/poetry/filters/quality/SKILL.md</code></td></tr>
+        <tr><td>quality</td><td><code>.framework/editor/poetry/filters/quality/SKILL.md</code></td></tr>
       </tbody>
     </table>
     <p>Each filter reads the pipeline data and any upstream filter output it needs, then writes to its own folder. Run the full chain strictly in order.</p>
@@ -445,11 +445,11 @@
     <h2 id="stereotypes">Stereotype Selection</h2>
     <p>Every chapter is rendered in a form-specific stereotype:</p>
     <ul>
-      <li><strong>Signature:</strong> <code>.framework/context/&lt;form&gt;/signatures/</code></li>
-      <li><strong>Reference:</strong> <code>.framework/context/&lt;form&gt;/references/</code></li>
-      <li><strong>Theme set:</strong> <code>.framework/context/&lt;form&gt;/themes/</code></li>
-      <li><strong>Quality profile:</strong> <code>.framework/context/&lt;form&gt;/qualities/</code></li>
-      <li><strong>Syntax sample:</strong> <code>.framework/context/&lt;form&gt;/syntax/</code></li>
+      <li><strong>Signature:</strong> <code>.framework/editor/&lt;form&gt;/signatures/</code></li>
+      <li><strong>Reference:</strong> <code>.framework/editor/&lt;form&gt;/references/</code></li>
+      <li><strong>Theme set:</strong> <code>.framework/editor/&lt;form&gt;/themes/</code></li>
+      <li><strong>Quality profile:</strong> <code>.framework/editor/&lt;form&gt;/qualities/</code></li>
+      <li><strong>Syntax sample:</strong> <code>.framework/editor/&lt;form&gt;/syntax/</code></li>
     </ul>
     <p>Read the <code>registry.md</code> in each folder to discover available options, then read the chosen file for the full definition. Selections must be mutually consistent: same form, and where possible the same author or tradition.</p>
 
@@ -471,7 +471,7 @@
     </ul>
 
     <h2 id="style-translate">Style and Translation</h2>
-    <p><code>/book &lt;bookname&gt; style [&lt;style&gt;]</code> resolves <code>.framework/context/poetry/styles/&lt;style&gt;/style.md</code> (default <code>pijush</code>) through the <a href="../agents/style/agent.md">style agent</a>. Read any companion files required by the template. Transform exactly one chapter per invocation.</p>
+    <p><code>/book &lt;bookname&gt; style [&lt;style&gt;]</code> resolves <code>.framework/editor/poetry/styles/&lt;style&gt;/style.md</code> (default <code>pijush</code>) through the <a href="../agents/style/agent.md">style agent</a>. Read any companion files required by the template. Transform exactly one chapter per invocation.</p>
     <p>Select the highest numbered <code>segments/1/writer/chapter_v*.md</code>, comparing numbers numerically; otherwise use writer <code>chapter.md</code>. If neither exists, the style agent delegates model enrichment and then requires the writing path to produce a writer-stage source. Styling writes the next unused <code>chapter_v&lt;k&gt;.md</code> and does not promote output.</p>
     <p><code>/book &lt;bookname&gt; translate &lt;n&gt;|all|continue &lt;language&gt;</code> uses the same writer-source selection through the <a href="../agents/translate/agent.md">translate agent</a>. It writes <code>segments/1/translator/&lt;language-slug&gt;.md</code>, preserving voice and Markdown structure. Normalize the filename by trimming, lowercasing, and replacing spaces with hyphens; language codes remain codes. Archive an existing translation in chapter <code>history/</code> before replacement. Missing writer sources are reported.</p>
     <p><code>translate continue</code> selects the first chapter with a writer source but no translation for that language. Neither translation nor styling replaces the chapter-root draft or publishes a book.</p>

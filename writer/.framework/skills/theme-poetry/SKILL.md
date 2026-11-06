@@ -29,12 +29,12 @@ A theme is not a topic or a plot point. It is a **lens** — a recurring idea th
 1. Read the chapter's `model.json`.
 2. Confirm the form is `poetry` (from `model.json` → `syntax.form` or the pipeline model).
 3. Select the **signature**, **reference**, and **theme set** from the poetry stereotype templates:
-   - `.framework/context/poetry/signatures/` — **read `registry.md` first** to discover the
+   - `.framework/editor/poetry/signatures/` — **read `registry.md` first** to discover the
      available voices (poet-voices + tonal/POV voices folded from the retired `styles/`),
      then read the chosen `signature.md`.
-   - `.framework/context/poetry/references/` — read the folder listing to discover sources,
+   - `.framework/editor/poetry/references/` — read the folder listing to discover sources,
      then the chosen reference.
-   - `.framework/context/poetry/themes/` — read the folder listing to discover theme sets,
+   - `.framework/editor/poetry/themes/` — read the folder listing to discover theme sets,
      then the chosen `theme.md`.
    - Read the `registry.md` in each folder where one exists to discover what is available,
      then read the chosen files.
@@ -66,9 +66,9 @@ Update the chapter's `model.json` by adding (or updating) a `stereotype` object:
 ```
 
 - **`form`** — `"poetry"`, matching the template directory used.
-- **`signature`** — the folder name under `.framework/context/poetry/signatures/`.
-- **`reference`** — the file name under `.framework/context/poetry/references/`.
-- **`theme_set`** — the file name under `.framework/context/poetry/themes/`.
+- **`signature`** — the folder name under `.framework/editor/poetry/signatures/`.
+- **`reference`** — the file name under `.framework/editor/poetry/references/`.
+- **`theme_set`** — the file name under `.framework/editor/poetry/themes/`.
 
 If `model.json` already has a `stereotype` object, update it in place; otherwise add it as a new top-level key. Do not overwrite the other fields in `model.json`.
 

@@ -35,7 +35,7 @@ This skill applies to the **novel** form only. The novel filter chain is
 5. `workspaces/pipeline/<bookname>/bookseed.md` — the book's vocabulary and phrase seed (human-staged plus any prior derived block). Read it before Step 4 so new derivations append rather than duplicate.
 
 **Style reference.** Ensure `workspaces/pipeline/<bookname>/style.md` exists (copy
-`.framework/context/poetry/styles/pijush/style.md` into it if missing,
+`.framework/editor/poetry/styles/pijush/style.md` into it if missing,
 without overwriting a human-edited file), then rewrite it from
 `workspaces/pipeline/<bookname>/book.json` and `override.md` so its subject matter
 matches this book's story — re-grounding any stale/unrelated narrative to the current
@@ -55,7 +55,7 @@ active = [ f for f in filters.json.filters if f.autorun == true ], sorted by f.o
 ```
 
 For each active filter, note its skill path. Form-divergent filters (`workshop`,
-`research`, `seeds`, `quality`) resolve to `.framework/context/<form>/filters/<name>/SKILL.md`;
+`research`, `seeds`, `quality`) resolve to `.framework/editor/<form>/filters/<name>/SKILL.md`;
 the rest resolve to `.framework/filters/<name>/SKILL.md`. These are the skills you will fuse.
 
 If `filters.json` is missing or has no active filters, stop with a clear error — there
