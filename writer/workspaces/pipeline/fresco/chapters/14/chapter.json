@@ -6,7 +6,53 @@
   "chapter_summary": "A sound from the courtyard interrupts the private rhythm of painting. The possibility of being noticed unsettles the protection of night.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "dramatic lyric",
+  "spatality": {
+    "place": "the scaffold above a courtyard, a voice rising from ground level",
+    "season": "night, the dry season",
+    "route": "the voice stays below; the poem stays above",
+    "texture": "stone courtyard carrying sound upward, the brush suspended, held breath"
+  },
+  "stereotype": {
+    "signature": "unreliable-narrator",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 4,
+      "movement": "Spoken Word — performance-driven cadence, here the acoustics of a courtyard deciding what is heard.",
+      "writing_skills": [
+        "overheard speech rendered as broken report",
+        "a narration the poem itself begins to doubt",
+        "silence used as punctuation between claims"
+      ],
+      "image_seed": "a brush held still above wet plaster while a voice finishes a sentence below",
+      "volta": "from certainty that the voice means her to the realisation that the name it calls may not be hers",
+      "sonic_texture": "the echo of a single syllable off stone, repeated with slight distortion",
+      "line_gesture": "broken call-and-response lines, with the second half always shorter",
+      "variety_note": "This is the book's first poem with another human being in it, and the only one where the speaker is uncertain of what she heard.",
+      "metaphor_family": "echo, courtyard, mishearing — sound that arrives changed",
+      "address": "the voice, in accusation and then in doubt",
+      "closing_move": "a report that withdraws its own certainty in the final clause"
+    }
+  },
   "segments": [
     1
   ]

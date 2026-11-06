@@ -1,7 +1,7 @@
 # Book Analysis: The Lord of the Rings
 
 ## Document Overview
-**Source:** tolkien_fantasy.txt
+**Source:** tolkien.md
 **Work:** The Lord of the Rings (1954–55)
 **Author:** J.R.R. Tolkien
 **Genre:** Fantasy

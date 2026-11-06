@@ -5,8 +5,8 @@
 When any instruction in this style file is unclear, incomplete, or in tension with
 another Poyar style file, consult `.framework/editor/poetry/styles/poyar/signature.md`
 — the **pattern** specification — and, above it,
-`.framework/editor/poetry/styles/poyar/sample.txt` — the canonical couplets.
-Treat `sample.txt` as the first and final authority for **form, rhyme, and register**;
+`.framework/editor/poetry/styles/poyar/sample.md` — the canonical couplets.
+Treat `sample.md` as the first and final authority for **form, rhyme, and register**;
 treat `signature.md` as the distilled pattern. Where they disagree, the sample wins.
 
 For register and the "next word", the Poyar voice borrows directly from
@@ -111,7 +111,7 @@ python tools/mcpbangla/verse.py rhyme শব্দ গন্ধ     # exits 1: W
 python tools/mcpbangla/verse.py rhyme হাত রাত       # exits 0: STRONG
 ```
 
-The corpus in `sample.txt` declares its meter more than once. **This style uses the
+The corpus in `sample.md` declares its meter more than once. **This style uses the
 akshar ruler**, so every working line is read as `8 + 6` = 14 akshar:
 
 | Section | Declared meter | Backend measurement |

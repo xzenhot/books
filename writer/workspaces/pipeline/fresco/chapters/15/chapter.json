@@ -6,7 +6,53 @@
   "chapter_summary": "The completed wall receives attention while the maker's name is absent. Debolina sees that silence can be imposed as well as chosen.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "elegiac lyric",
+  "spatality": {
+    "place": "a finished wall with morning visitors in front of it",
+    "season": "the first morning after completion",
+    "route": "the visitors arrive; the maker stays at the courtyard's edge",
+    "texture": "sun on fresh lime, a hand raised to the paint, sandals on stone"
+  },
+  "stereotype": {
+    "signature": "lorca",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 7,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 3,
+      "movement": "Confessionalism — the wound exposed, here the wound of being unnamed.",
+      "writing_skills": [
+        "duende — the dark root under a bright surface",
+        "refrain carrying an omission",
+        "a close that turns the omission into an indictment without a target"
+      ],
+      "image_seed": "a fingertip touching the blue panel where a signature would have gone",
+      "volta": "from pride in the completed wall to the discovery that completion is what erases her",
+      "sonic_texture": "the dark open o of wall, all, who, and a hard coda on the word name",
+      "line_gesture": "refrain-based lines with a repeated half-line, then one line with the refrain cut short",
+      "variety_note": "Chapter fourteen was interrupted before it could be seen; this poem is seen only after the maker has been subtracted from the sentence.",
+      "metaphor_family": "signature, margin, and the unlit space where a hand should be",
+      "address": "the wall, then the visitors, then the wall again",
+      "closing_move": "the name withheld in the poem's own last syllable"
+    }
+  },
   "segments": [
     1
   ]

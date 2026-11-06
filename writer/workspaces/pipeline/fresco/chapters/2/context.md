@@ -1,0 +1,150 @@
+# Chapter model context
+
+## chapter_index
+
+2
+
+## name
+
+2
+
+## word_target
+
+500
+
+## chapter_title
+
+The Sleeping Town
+
+## chapter_summary
+
+She climbs to the scaffold after the lamps go dark and hears the ordinary world withdraw. The silence becomes both shelter and isolation.
+
+## further_references
+
+
+## level
+
+chapter
+
+## state
+
+enriched
+
+## enrich
+
+### active_filters
+
+- research
+- genre
+- history
+- spatality
+- movement
+- correctness
+- quality
+
+### status
+
+enriched
+
+## genre
+
+nocturne
+
+## spatality
+
+### place
+
+a scaffold against a haveli wall, above a sleeping lane
+
+### season
+
+dry season, the hour after the lamps go out
+
+### route
+
+ground to the third rung and no higher
+
+### texture
+
+cold bamboo, settling dust, one lamp left burning two houses away
+
+## stereotype
+
+### signature
+
+dickinson
+
+### style
+
+pijush
+
+## creative_enrichment
+
+### poetic_parameters
+
+#### emotional_rawness
+
+4
+
+#### grammatical_abstraction
+
+5
+
+#### structural_rigidity
+
+4
+
+#### rhythmic_urgency
+
+4
+
+#### digital_simplicity
+
+6
+
+#### movement
+
+Language Poetry — word structure over clear meaning, used here to make silence audible.
+
+#### writing_skills
+
+- compressed elliptical syntax
+- abrupt line breaks where the breath refuses to finish
+- a single repeated noun standing in for the whole street
+
+#### image_seed
+
+the last lamp going out in a lane where no one has closed a shutter
+
+#### volta
+
+from relief at being unheard to the admission that no one is listening
+
+#### sonic_texture
+
+short flat vowels and the click of the final t in shut, night, quiet
+
+#### line_gesture
+
+short broken lines; the breath lands every third or fourth word and withholds
+
+#### variety_note
+
+Chapter one watched the wall in daylight; this poem is the first to stand above the ground and feel the town subtract itself.
+
+#### metaphor_family
+
+extinguished light, closed shutters, and the arithmetic of subtraction
+
+#### address
+
+the sleeping town, named but never woken
+
+#### closing_move
+
+one word repeated as a line, refusing to become a conclusion
+
+## segments
+
+- 1

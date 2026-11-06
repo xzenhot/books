@@ -6,7 +6,60 @@
   "chapter_summary": "Debolina moves through rooms whose former life survives only in fragments. The haveli shifts her attention from possession to what remains after departure.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "architectural elegy",
+  "history": {
+    "status": "grounded in the declared setting only",
+    "corrections": [],
+    "flagged_uncertainties": [
+      "No specific haveli, patron family, or construction date is named in the source; the poem must not date the house or assign it an owner."
+    ]
+  },
+  "spatality": {
+    "place": "an abandoned haveli in Mandawa, entered from the lane side",
+    "season": "late afternoon, dry heat easing",
+    "route": "outer courtyard to inner rooms, each smaller and darker",
+    "texture": "hollow corridors, plaster fallen from the ceiling, cool air with no source"
+  },
+  "stereotype": {
+    "signature": "jibanananda",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 4,
+      "movement": "Language Poetry — the room as a field of fragments, meaning delayed and spatial.",
+      "writing_skills": [
+        "walking syntax, where each room is a clause",
+        "sensuous but unpeopled description",
+        "a close that hands the emptiness back to the reader"
+      ],
+      "image_seed": "a hanging rope from which a swing has been cut down, the fray still visible",
+      "volta": "from reading emptiness as absence to reading it as a kind of continued occupation",
+      "sonic_texture": "hollow o and r in room, door, floor, and the flatness of dust",
+      "line_gesture": "long walking lines that slow at each doorway, ending on one very short line",
+      "variety_note": "Part three opens outward into other people's lives; this is the first poem where Debolina is a visitor rather than the sole inhabitant of the night.",
+      "metaphor_family": "departure as architecture — rooms shaped around who has left",
+      "address": "the house itself, in the second person",
+      "closing_move": "an image of the swing's cut rope, offered as the poem's last fact"
+    }
+  },
   "segments": [
     1
   ]

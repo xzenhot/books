@@ -6,7 +6,53 @@
   "chapter_summary": "She counts abandoned strokes and unfinished studies rather than hoped-for praise. The list exposes how much she has measured herself by an unseen audience.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "confessional lyric",
+  "spatality": {
+    "place": "a corner of the chapter room where spoiled studies are stacked",
+    "season": "night, the lamps burning low",
+    "route": "from one stack to the next, a ledger walked rather than read",
+    "texture": "brittle paper, lime dust on the fingertips, the smell of old sizing"
+  },
+  "stereotype": {
+    "signature": "first-person",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 7,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 7,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 5,
+      "movement": "Confessionalism — direct exposure of personal cost, here measured in counted objects rather than confessed feeling.",
+      "writing_skills": [
+        "enumeration as emotional structure",
+        "flat, unadorned numbers placed against lyric phrases",
+        "a turn that converts an inventory into an accusation of the self"
+      ],
+      "image_seed": "a stack of spoiled studies tied with the same twine used for the scaffold",
+      "volta": "from totalling the failures as proof of effort to seeing them as proof of an audience she invented",
+      "sonic_texture": "the dry count-rhythm of one, two, four, and the hiss of s in spoiled, stack, still",
+      "line_gesture": "list-shaped lines that tighten into shorter units as the count rises",
+      "variety_note": "Chapter eleven argued with the wall; this poem argues with her own accounting, and is the first to name the unseen audience directly.",
+      "metaphor_family": "ledger, debt, inventory — the merchant's arithmetic turned on the maker",
+      "address": "the self, addressed as the auditor of her own losses",
+      "closing_move": "the count abandoned mid-tally, and the poem ending on the unfinished number"
+    }
+  },
   "segments": [
     1
   ]

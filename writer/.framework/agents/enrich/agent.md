@@ -143,11 +143,21 @@ produced across every chapter:
    rhyme across the enrichment. Keep only entries traceable to `gist.md`,
    `storyline.md`, or an enriched `chapter.json`. Never invent a word from outside the
    author's declared world.
-4. **Write the derived section** under a single delimited block appended to
+4. **Write the lexicon in the book's language.** Read `language` from
+   `workspaces/pipeline/<bookname>/book.json` and write every derived entry in that
+   language and its own script — never in the language the enrichment notes happen to be
+   written in, and never in the language `override.md` is worded in
+   (`.framework/rules/language-authority.md`). The enrichment values are the *source* of
+   the lexicon, not its output language: translate the concrete nouns, images, refrains,
+   and sound notes into the book's declared language. Keep the four category headings
+   (`Vocabulary`, `Images & motifs`, `Phrases & refrains`, `Sound & diction`) verbatim so
+   the block stays machine-locatable. For Bengali, use Bengali script only — never Latin
+   letters or another Indic script inside a word.
+5. **Write the derived section** under a single delimited block appended to
    `bookseed.md`, grouped by category — `Vocabulary`, `Images & motifs`,
    `Phrases & refrains`, `Sound & diction`. One entry per line. **Deduplicate** against
    the lines already present.
-5. **Stay idempotent.** Re-running replaces only the delimited derived block with a fresh
+6. **Stay idempotent.** Re-running replaces only the delimited derived block with a fresh
    derivation; all human-authored lines outside it survive untouched. `bookseed.md` is
    plain text, so it carries **no** `updated_by`/`updated_date` stamp.
 

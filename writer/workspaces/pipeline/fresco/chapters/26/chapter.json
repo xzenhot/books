@@ -6,7 +6,53 @@
   "chapter_summary": "Daylight exposes the scaffold, stains, and discarded studies. She leaves the door open and lets the conditions of making become visible.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "dramatic lyric",
+  "spatality": {
+    "place": "the doorway of the chapter room, propped open onto daylight",
+    "season": "morning, dry season, hard sun",
+    "route": "from inside the room out through the open door",
+    "texture": "sun on bare floor, dust suspended, the smell of lime warming"
+  },
+  "stereotype": {
+    "signature": "blake",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 7,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 4,
+      "movement": "Spoken Word — the declarative force of a door deliberately opened.",
+      "writing_skills": [
+        "prophetic declaratives that refuse apology",
+        "light admitted as a moral act rather than a mood",
+        "a close that names the cost in the same breath as the choice"
+      ],
+      "image_seed": "a door held open with a brick, sunlight lying across a floor of scattered studies",
+      "volta": "from hiding the conditions of work to letting the conditions be the work's context",
+      "sonic_texture": "open vowels of door, floor, more, held against the hard k of brick, back, dark",
+      "line_gesture": "strong end-stopped lines, then a run of enjambment as the light spreads",
+      "variety_note": "Chapter twenty-five made a shape of absence; this poem makes a shape of exposure and is the first to choose visibility openly.",
+      "metaphor_family": "threshold, sunlight, and the brick that keeps a door from closing",
+      "address": "the door, then the town beyond it",
+      "closing_move": "the brick left in place as the poem's final gesture"
+    }
+  },
   "segments": [
     1
   ]

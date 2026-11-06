@@ -59,7 +59,7 @@ Update the chapter's `model.json` by adding (or updating) a `stereotype` object:
   "stereotype": {
     "form": "poetry",
     "signature": "gibran",
-    "reference": "aurilus.txt",
+    "reference": "aurilus.md",
     "theme_set": "generic.md"
   }
 }

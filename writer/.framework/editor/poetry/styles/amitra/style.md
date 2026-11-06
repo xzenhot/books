@@ -5,8 +5,8 @@
 When any instruction in this style file is unclear, incomplete, or in tension with
 another amitra style file, consult `.framework/editor/poetry/styles/amitra/signature.md`
 — the **pattern** specification — and, above it,
-`.framework/editor/poetry/styles/amitra/sample.txt` — the canonical corpus (the
-Tagore and Madhusudan excerpts). Treat `sample.txt` as the first and final
+`.framework/editor/poetry/styles/amitra/sample.md` — the canonical corpus (the
+Tagore and Madhusudan excerpts). Treat `sample.md` as the first and final
 authority for **metre and the enjambed line**; treat `signature.md` as the
 distilled pattern. Where they disagree, the corpus wins.
 

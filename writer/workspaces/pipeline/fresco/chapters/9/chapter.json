@@ -6,7 +6,53 @@
   "chapter_summary": "The scaffold turns each ascent into a measure of fatigue and resolve. At its highest rung, Debolina realizes solitude is not the same as freedom.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "meditative lyric",
+  "spatality": {
+    "place": "the scaffold's upper rungs, head level with the top of the wall",
+    "season": "deep night, dry season",
+    "route": "rung to rung, a vertical walk with no corridor",
+    "texture": "bamboo flex, rope bite in the palm, cold air at the height"
+  },
+  "stereotype": {
+    "signature": "aurilus",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 3,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 7,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 5,
+      "movement": "Stoicism — mastery of inner thought, here tested by a ladder that cannot be argued with.",
+      "writing_skills": [
+        "stepwise ascent as the poem's spine",
+        "plain declaratives that resist lyric swelling",
+        "a correction at the top rather than a revelation"
+      ],
+      "image_seed": "a rope tied off at the fourth rung, the knot gone soft with use",
+      "volta": "from counting the rungs as progress to realising height is not distance from the town",
+      "sonic_texture": "the repeated short u of rung, up, cut, and the small click of rope against bamboo",
+      "line_gesture": "climbing lines of near-equal length, breaking only where a rung would be missing",
+      "variety_note": "Part two opens by moving upward instead of inward; this is the first poem whose structure is literally a climb.",
+      "metaphor_family": "ladder, knot, vertigo — the geometry of getting above a life without leaving it",
+      "address": "the self, in the second person, issued as instruction",
+      "closing_move": "a Stoic correction: solitude named, freedom withheld"
+    }
+  },
   "segments": [
     1
   ]

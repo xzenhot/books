@@ -450,6 +450,11 @@ Every metre-based form (`poyar`, `sonnet`, `haiku`, `limerick`, `srijato`, `lyri
 
 ## Validation And Promotion Rules
 
+Language for every composed unit resolves from `book.json` → `language`, or a
+chapter-level `chapter.json` override for that unit only. `override.md`,
+`style.md`, `signature.md`, and `bookseed.md` never determine it — see
+`.framework/rules/language-authority.md`.
+
 Before writing to `workspaces/published/`, apply the pipeline filters in the order specified by `.framework/workflows/pipeline.md`.
 
 For novels, the full validation chain is:

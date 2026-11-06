@@ -6,7 +6,53 @@
   "chapter_summary": "Debolina climbs again, no longer pretending the labor is effortless or wholly private. Her return keeps the work alive without hiding its truth.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "reflective lyric",
+  "spatality": {
+    "place": "the scaffold again, this time climbed without secrecy",
+    "season": "night, the town still awake and unbothered",
+    "route": "ground to rung, a climb repeated rather than discovered",
+    "texture": "bamboo warm from the day, rope familiar in the palm, lamplight already lit"
+  },
+  "stereotype": {
+    "signature": "aurilus-rumi-eliot-gibran",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 5,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 4,
+      "movement": "Stoicism — return to the work as the only reliable duty.",
+      "writing_skills": [
+        "fragment opening followed by an aphoristic turn",
+        "circular structure returning to an earlier climb",
+        "a close that refuses both triumph and defeat"
+      ],
+      "image_seed": "a scaffold rope already knotted in the same place as before",
+      "volta": "from the expectation that returning means starting over to the discovery that it means continuing",
+      "sonic_texture": "the blended cadence of the compound signature: a stopped consonant, a lifted vowel, a fragment, a blessing",
+      "line_gesture": "mixed — a broken opening, a long lift, and a short plain close",
+      "variety_note": "Chapter thirty named her publicly; this poem returns to the private ladder and is the book's only explicitly compound-voiced poem.",
+      "metaphor_family": "ladder, knot, and the circle that is not a repetition",
+      "address": "the scaffold, then the work itself",
+      "closing_move": "a blessing that withholds comfort and ends on the next rung"
+    }
+  },
   "segments": [
     1
   ]

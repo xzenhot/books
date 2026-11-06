@@ -6,7 +6,53 @@
   "chapter_summary": "A thin glimmer catches the eye and threatens to hide the rough work beneath it. She leaves part of the edge unresolved so the image cannot pretend to be seamless.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "ars poetica",
+  "spatality": {
+    "place": "a panel's edge where gold leaf meets unfinished plaster",
+    "season": "night, the last hour before lamplight is useless",
+    "route": "from the gilded edge inward to the working surface",
+    "texture": "thin gold catching the flame, rough plaster beside it, the smell of size"
+  },
+  "stereotype": {
+    "signature": "yeats",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 8,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 3,
+      "movement": "New Formalism — formal constraint as conscience, here the discipline of leaving an edge unfinished.",
+      "writing_skills": [
+        "ceremonial cadence built on a single repeated image",
+        "antithesis of gold and rough plaster",
+        "a close that chooses incompleteness over display"
+      ],
+      "image_seed": "a strip of gold leaf stopping abruptly where the plaster has not been smoothed",
+      "volta": "from admiring the gold as the poem's climax to leaving the edge deliberately dull",
+      "sonic_texture": "the bright ring of gold, leaf, edge cut against the flat u of rough",
+      "line_gesture": "ceremonial, slightly formal lines that break once, hard, at the unfinished edge",
+      "variety_note": "Chapter twenty-one refused to beautify anonymity; this poem refuses to beautify completion, and is the book's most deliberately formal piece.",
+      "metaphor_family": "gilding, seam, and the seam left visible",
+      "address": "the gold leaf, then the self as its steward",
+      "closing_move": "the unfinished edge named as the poem's own truth-telling"
+    }
+  },
   "segments": [
     1
   ]

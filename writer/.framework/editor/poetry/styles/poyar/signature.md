@@ -1,7 +1,7 @@
 # Poyar Style — Pattern Specification
 
 A **craft-pattern** specification for the **Poyar** (পয়ার) couplet voice, derived
-from `.framework/editor/poetry/styles/poyar/sample.txt`. That file is the canonical
+from `.framework/editor/poetry/styles/poyar/sample.md`. That file is the canonical
 couplet corpus, read for **pattern, not subject**. The job of this spec is to extract
 the **method** — how the couplet pairs, rhymes, and flows — so the same voice can be
 carried onto any subject a book supplies.
@@ -81,7 +81,7 @@ share an **identical final rhyme unit** (final syllable, every consonant folded 
 its বর্গ row). `শব্দ / গন্ধ` returns `1` and is **weak** — reject it. If line 2
 cannot land a strong rhyme, **rework line 1**; never accept the weak pair.
 
-The corpus in `sample.txt` declares its meter more than once:
+The corpus in `sample.md` declares its meter more than once:
 
 | Section | Declared | Backend measurement |
 |---|---|---|

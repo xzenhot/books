@@ -247,7 +247,16 @@ are visible at once.
    recur across poems or carry the book's signature. Every entry must trace to
    `gist.md`, `storyline.md`, or an enriched `chapter.json`; invent no word from outside
    the author's declared world.
-4. **Append one delimited block**, grouped and deduplicated against existing lines:
+4. **Write it in the book's language.** Read `language` from
+   `workspaces/pipeline/<bookname>/book.json` and render every entry in that language
+   and its own script. The language of the enrichment values is irrelevant — they are
+   the *source*, not the output language. This is the same authority that governs the
+   poems themselves (`.framework/rules/language-authority.md`); an English-language
+   enrichment pass over a Bengali book still yields a Bengali seed. Keep the four
+   category headings verbatim (`Vocabulary`, `Images & motifs`, `Phrases & refrains`,
+   `Sound & diction`) so the block stays machine-locatable, and never mix scripts
+   inside a word.
+5. **Append one delimited block**, grouped and deduplicated against existing lines:
 
    ```text
    <!-- bookseed:derived -->
@@ -265,7 +274,7 @@ are visible at once.
    <!-- /bookseed:derived -->
    ```
 
-5. **Stay idempotent.** Re-running the enrich replaces only the content between the
+6. **Stay idempotent.** Re-running the enrich replaces only the content between the
    markers; everything outside them survives untouched. `bookseed.md` is plain text and
    carries **no** audit stamp.
 

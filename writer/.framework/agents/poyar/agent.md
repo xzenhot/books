@@ -33,7 +33,7 @@ poyar skill, which owns the full contract.
 ## Style Resolution (default `poyar`, cached per book)
 
 Poyar's default style is **`poyar`**, sourced from
-`.framework/editor/poetry/styles/poyar/` (`sample.txt`, `signature.md`,
+`.framework/editor/poetry/styles/poyar/` (`sample.md`, `signature.md`,
 `style.md`). Those files describe a **pattern**, not a subject, so they must be
 grounded to the book before composing — and the grounded result is **cached** as
 the book's operative style reference:
@@ -114,7 +114,7 @@ Read the book's `factory` per `.framework/rules/command-boundary.md`:
 - Treat it as a **form** request and dispatch here.
 - Default the style to `poyar`: resolve the per-book cache at
   `workspaces/pipeline/<bookname>/style.md`, synthesizing it from
-  `styles/poyar/{sample.txt,signature.md,style.md}` plus the book's
+  `styles/poyar/{sample.md,signature.md,style.md}` plus the book's
   `book.json`/`storyline.md` on a cache miss.
 - Do not additionally apply a second transformer style unless the user names one.
 - When another style **is** named explicitly, honor it — but state that the poyar

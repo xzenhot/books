@@ -1,7 +1,7 @@
 {
   "total_chapters": 32,
-  "completed_chapters": 0,
-  "current_chapter": 1,
+  "completed_chapters": 2,
+  "current_chapter": 3,
   "factory": "online",
   "model": "gemma4:latest",
   "provider": "ollama",
@@ -12,21 +12,21 @@
       "chapter_number": 1,
       "topic": "Before the Blossom",
       "category": "The Musks and the Minima",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/1/chapter.md",
       "completed_date": null,
-      "written": false,
       "validated": false,
-      "published": false
+      "published": false,
+      "written": true
     },
     {
       "chapter_number": 2,
       "topic": "The Sleeping Town",
       "category": "The Musks and the Minima",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/2/chapter.md",
       "completed_date": null,
-      "written": false,
+      "written": true,
       "validated": false,
       "published": false
     },
@@ -361,8 +361,8 @@
       "published": false
     }
   ],
-  "updated_by": "scaffold",
-  "updated_date": "2026-11-06T12:21:26Z",
-  "written_chapters": 0,
-  "published": false
+  "updated_by": "write",
+  "updated_date": "2026-11-06T18:19:32Z",
+  "published": false,
+  "written_chapters": 1
 }

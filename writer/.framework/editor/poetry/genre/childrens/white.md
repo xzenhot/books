@@ -1,7 +1,7 @@
 # Book Analysis: Charlotte's Web
 
 ## Document Overview
-**Source:** white.txt
+**Source:** white.md
 **Work:** Charlotte's Web (1952)
 **Author:** E.B. White
 **Genre:** Children's

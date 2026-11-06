@@ -1,7 +1,7 @@
 # Book Analysis: Frankenstein
 
 ## Document Overview
-**Source:** shelley.txt
+**Source:** shelley.md
 **Work:** Frankenstein; or, The Modern Prometheus (1818)
 **Author:** Mary Shelley
 **Genre:** Horror

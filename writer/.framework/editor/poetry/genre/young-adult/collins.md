@@ -1,7 +1,7 @@
 # Book Analysis: The Hunger Games
 
 ## Document Overview
-**Source:** collins.txt
+**Source:** collins.md
 **Work:** The Hunger Games (2008)
 **Author:** Suzanne Collins
 **Genre:** Young Adult

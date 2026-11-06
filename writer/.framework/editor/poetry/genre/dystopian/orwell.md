@@ -1,7 +1,7 @@
 # Book Analysis: Nineteen Eighty-Four
 
 ## Document Overview
-**Source:** orwell.txt
+**Source:** orwell.md
 **Work:** Nineteen Eighty-Four (1949)
 **Author:** George Orwell
 **Genre:** Dystopian

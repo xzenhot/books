@@ -6,7 +6,60 @@
   "chapter_summary": "Fading pigment makes the wall seem to reply in intervals. Its slowness teaches her that endurance is not the same as permanence.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "elegiac meditation",
+  "history": {
+    "status": "grounded in the declared setting only",
+    "corrections": [],
+    "flagged_uncertainties": [
+      "The poem must not assert a specific conservation history or dating for any mural; fading is described as an observed condition, not a documented process."
+    ]
+  },
+  "spatality": {
+    "place": "a fading panel beside the chapter's finished work",
+    "season": "dry season, late afternoon, raking light",
+    "route": "from the bright new panel to the faded old one, a few paces",
+    "texture": "chalky pigment lifting, raking light revealing the wall's tooth"
+  },
+  "stereotype": {
+    "signature": "eliot",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 7,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 3,
+      "movement": "Language Poetry — delay, fragment, and the refusal of a clean reading.",
+      "writing_skills": [
+        "a dialogue carried by the wall's intervals rather than a voice",
+        "collage of new pigment and old chalk",
+        "a close that separates endurance from permanence"
+      ],
+      "image_seed": "raking light showing the tooth of the wall through a colour that used to be solid",
+      "volta": "from reading the fade as loss to reading it as the wall continuing to speak at its own pace",
+      "sonic_texture": "long pauses and sibilance in slow, still, surface, thinning in the mouth",
+      "line_gesture": "irregular stanzas with gaps that widen as the poem goes on",
+      "variety_note": "Chapter twenty-three corrected a memory; this poem corrects a metaphor, and closes Part III on the wall rather than the maker.",
+      "metaphor_family": "weathering, patience, and speech that happens in decades",
+      "address": "the fading panel, as a slow correspondent",
+      "closing_move": "endurance named, permanence withheld"
+    }
+  },
   "segments": [
     1
   ]

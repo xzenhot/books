@@ -1,7 +1,7 @@
 # Amitra Style — Pattern Specification (অমিত্রাক্ষর ছন্দ)
 
 A **craft-pattern** specification for the **অমিত্রাক্ষর ছন্দ** (blank verse) voice,
-derived from `.framework/editor/poetry/styles/amitra/sample.txt` (the Tagore and
+derived from `.framework/editor/poetry/styles/amitra/sample.md` (the Tagore and
 Madhusudan excerpts). That file is the canonical corpus, read for **pattern, not
 subject**. The excerpts happen to be set in epic and river scenes; that is only one
 instantiation of the measure. This spec extracts the **method** — how the line is

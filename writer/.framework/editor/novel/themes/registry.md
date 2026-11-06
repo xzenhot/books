@@ -23,7 +23,7 @@ The writer agent reads this registry to discover available theme sets, then read
 - **Theme Count:** 10
 - **Language:** Target language — archaic/literary register
 - **Associated Quality:** [`../qualities/aurilus.md`](../qualities/aurilus.md)
-- **Associated Reference:** [`../references/aurilus.txt`](../references/aurilus.txt)
+- **Associated Reference:** [`../references/aurilus.md`](../references/aurilus.md)
 
 **The Ten Themes:**
 
@@ -44,7 +44,7 @@ Each theme in `generic.md` provides: **essence**, **Stoic source** (the groundin
 
 ### 2. `gosai_bangla.md` — The Ten Baul-Fakir Themes
 
-- **Source:** Gosai/Baul/Fakir spiritual tradition (from `../references/gosai_dictionary.txt`)
+- **Source:** Gosai/Baul/Fakir spiritual tradition (from `../references/gosai_dictionary.md`)
 - **Theme Count:** 10
 - **Language:** Target language — archaic/literary register
 - **Associated Syntax:** [`../syntax/gosai_bangla.md`](../syntax/gosai_bangla.md)

@@ -1,7 +1,7 @@
 # Book Analysis: The Immortal Life of Henrietta Lacks
 
 ## Document Overview
-**Source:** skloot.txt
+**Source:** skloot.md
 **Work:** The Immortal Life of Henrietta Lacks (2010)
 **Author:** Rebecca Skloot
 **Genre:** Non-fiction

@@ -1,7 +1,7 @@
 # Book Analysis: War and Peace
 
 ## Document Overview
-**Source:** tolstoy.txt
+**Source:** tolstoy.md
 **Work:** War and Peace (1869)
 **Author:** Leo Tolstoy
 **Genre:** Historical Fiction

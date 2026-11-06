@@ -1,7 +1,7 @@
 # Book Analysis: The Hound of the Baskervilles
 
 ## Document Overview
-**Source:** doyle.txt
+**Source:** doyle.md
 **Work:** The Hound of the Baskervilles (1902)
 **Author:** Arthur Conan Doyle
 **Genre:** Mystery

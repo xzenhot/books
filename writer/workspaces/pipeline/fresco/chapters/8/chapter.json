@@ -6,7 +6,53 @@
   "chapter_summary": "A failed sketch stays visible beside the finished passage. She keeps it as evidence that the work has a history.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "confessional lyric",
+  "spatality": {
+    "place": "the wall between two panels, one finished and one spoiled",
+    "season": "the hour before dawn, dry season",
+    "route": "from the failed study to the finished passage and back",
+    "texture": "flaking skin of dried lime, a smear that will not lift, cold hands"
+  },
+  "stereotype": {
+    "signature": "shakti",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 8,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 3,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 4,
+      "movement": "Confessionalism — unflinching exposure of personal failure, kept in the first person and never excused.",
+      "writing_skills": [
+        "visceral physical imagery of the failed work",
+        "colloquial self-address that refuses consolation",
+        "a closing admission rather than a moral"
+      ],
+      "image_seed": "a spoiled panel left beside a finished one, its smear already dry",
+      "volta": "from wanting to scrape the failure off to deciding to leave it where it is",
+      "sonic_texture": "the wet consonants of smear, scrape, spoil, and the flatness of the repeated word again",
+      "line_gesture": "winding, slightly breathless lines that keep doubling back, ending on a short flat line",
+      "variety_note": "Chapter seven refused a line before making it; this poem makes the line, ruins it, and keeps the ruin — the first time failure is displayed rather than avoided.",
+      "metaphor_family": "stain, scar, and evidence kept instead of cleaned",
+      "address": "the failed sketch, then the self in the same breath",
+      "closing_move": "an admission that the failure is now part of the work, offered without relief"
+    }
+  },
   "segments": [
     1
   ]

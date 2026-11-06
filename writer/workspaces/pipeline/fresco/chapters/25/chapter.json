@@ -6,7 +6,53 @@
   "chapter_summary": "The central passage remains blank while the surrounding work nears completion. Debolina recognizes the missing image as a decision, not a technical failure.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "ars poetica",
+  "spatality": {
+    "place": "the centre of the wall, surrounded by finished panels",
+    "season": "night, the work nearly complete",
+    "route": "from the surrounding edges inward to the untouched middle",
+    "texture": "dry finished colour all around, one patch of bare plaster still cool"
+  },
+  "stereotype": {
+    "signature": "yeats",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 8,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 3,
+      "movement": "New Formalism — the deliberate empty centre as the poem's strictest form.",
+      "writing_skills": [
+        "framing device: the finished edges describe the unfinished middle",
+        "formal repetition that tightens toward the blank",
+        "a close that treats the gap as a decision, not a lack"
+      ],
+      "image_seed": "a ring of finished colour around a patch of bare, still-cool plaster",
+      "volta": "from reading the centre as the poem's failure to naming it as the poem's refusal",
+      "sonic_texture": "the encircling m and n of centre, finished, surround, closing on the flat a of blank",
+      "line_gesture": "balanced framing lines that stop dead at the centre and resume as one short line",
+      "variety_note": "Chapter twenty-four let the wall speak slowly; this poem makes the silence a deliberate shape and opens Part IV.",
+      "metaphor_family": "frame, ring, aperture — the shape made by what is left out",
+      "address": "the blank centre, spoken to as a decision",
+      "closing_move": "the gap accepted as authorship, in a line that does not explain itself"
+    }
+  },
   "segments": [
     1
   ]

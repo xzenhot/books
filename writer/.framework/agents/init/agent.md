@@ -41,6 +41,8 @@ You receive two optional positional parameters:
 1. **`<bookname>`** — the logical book name (e.g. `wife`, `chaitanya`). If omitted, use the currently active/focused book as determined by the caller.
 2. **`<form>`** — the desired form: `novel` or `poetry`. If omitted, default to `novel`. This parameter is used only when the form cannot be determined from the backlog epic.
 
+Output language is never an input here: it is declared in `book.json` → `language` and is read by the downstream write path, not by init (`.framework/rules/language-authority.md`). Init must not copy that value into `override.md` or any other craft file.
+
 You may also receive a **`refresh`** keyword. When present, re-groom and regenerate all three backlog artifacts from the existing material, reconciling them to the resolved form (see *Refresh Mode* below).
 
 Init does not inspect or modify the pipeline. The form parameter exists solely to choose the correct default preset for the form.
@@ -138,7 +140,8 @@ Init seeds `workspaces/backlog/<bookname>/override.md — the **backlog master p
 
 Rules:
 
-- **Copy, then reseed.** First copy the canonical template `.framework/templates/backlog/v1/override.md into `workspaces/backlog/<bookname>/override.md Then reseed the copy: rewrite it grounded in the book's own `gist.md` and `storyline.md` so the mandate reflects this book — its premise, subject, figures, form, and language — instead of the template's fixed placeholder premise. The template supplies the structure (ভূমিকা / কিভাবে লিখতে হবে) and the craft-rule shape; the reseed replaces the template's hardcoded subject and sample stanzas with the book's real identity. Never leave a backlog copy carrying another book's premise.
+- **Copy, then reseed.** First copy the canonical template `.framework/templates/backlog/v1/override.md into `workspaces/backlog/<bookname>/override.md Then reseed the copy: rewrite it grounded in the book's own `gist.md` and `storyline.md` so the mandate reflects this book — its premise, subject, figures, and form — instead of the template's fixed placeholder premise. The template supplies the structure (ভূমিকা / কিভাবে লিখতে হবে) and the craft-rule shape; the reseed replaces the template's hardcoded subject and sample stanzas with the book's real identity. Never leave a backlog copy carrying another book's premise.
+- **Never encode the language.** Do **not** write the book's output language into `override.md` (no "Write in English", no "the language of the book is Bengali"). Output language is declared in `book.json` → `language` and nowhere else; `override.md` owns craft only. See `.framework/rules/language-authority.md`. When a language rule is needed at all, use the deferring form: *"Write in the language declared by `book.json` → `language`. This file never sets the output language."*
 - **Fill gaps only.** If `override.md` already exists, leave it untouched (the human may have edited it). Seed and reseed it only when the file is missing.
 - **Human-editable afterwards.** Once seeded, the human owns the file. Init never overwrites a human-edited copy.
 - **Consumed by the layout agent.** The layout agent (Phase 2) reads this backlog `override.md to derive the pipeline's dynamic master prompt (`workspaces/pipeline/<bookname>/override.md. The backlog file is the idea; the pipeline file is the resolved reality.

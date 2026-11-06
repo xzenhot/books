@@ -6,7 +6,53 @@
   "chapter_summary": "In a half-empty haveli, she reads absence in rooms and fading paint. The house reminds her that a wall preserves traces but cannot restore its people.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "elegiac meditation",
+  "spatality": {
+    "place": "an abandoned haveli, three rooms and a roofless inner court",
+    "season": "dry season, late afternoon",
+    "route": "through the outer room to the sealed inner door",
+    "texture": "plaster falling in flakes, pigeon droppings, a coolness that outlives the heat"
+  },
+  "stereotype": {
+    "signature": "eliot",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 3,
+      "grammatical_abstraction": 7,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 3,
+      "movement": "Language Poetry — fragmented syntax and collage, here used as the grammar of an emptied house.",
+      "writing_skills": [
+        "collage of room, object, and half-heard speech",
+        "register shifts from inventory to lament",
+        "an unresolved pronoun carrying the whole absence"
+      ],
+      "image_seed": "a door sealed with its own fallen plaster, the keyhole filled",
+      "volta": "from describing the house to admitting the house is describing her",
+      "sonic_texture": "hollow o sounds and the dry rustle of the fricatives in dust, shut, husk",
+      "line_gesture": "uneven stanzas, some of one line, that refuse to settle into a room shape",
+      "variety_note": "The earlier poems are about a wall being made; this is the first about a house being left, and the first where the speaker is not the only maker in the poem.",
+      "metaphor_family": "sealed openings, absence as architecture, plaster as skin shed and kept",
+      "address": "an unnamed former owner, addressed only as whoever",
+      "closing_move": "the poem leaves a door it never opens, and does not apologise"
+    }
+  },
   "segments": [
     1
   ]

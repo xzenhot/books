@@ -36,7 +36,7 @@ the backlog `book.json`.
 
 `poyar` is a **metred fixed form**, not a free voice. When `<style>` resolves to
 `poyar` — or when the book's poyar chapters are being styled — do **not** build a
-free-voice document from `sample.txt`. Instead delegate to the poyar flow, which
+free-voice document from `sample.md`. Instead delegate to the poyar flow, which
 owns the grounded reference and caches it:
 
 ```text
@@ -44,7 +44,7 @@ owns the grounded reference and caches it:
 ```
 
 That skill synthesizes `workspaces/pipeline/<bookname>/style.md` from
-`.framework/editor/poetry/styles/poyar/{sample.txt,signature.md,style.md}` plus the
+`.framework/editor/poetry/styles/poyar/{sample.md,signature.md,style.md}` plus the
 book's `book.json`/`storyline.md`, writes the `<!-- style-provenance -->` block, and
 reuses the result thereafter. A free-voice document would drop the couplet
 contract (14-akshar target in a 12–16 band, strong L1~L2 rhyme) and break the form.

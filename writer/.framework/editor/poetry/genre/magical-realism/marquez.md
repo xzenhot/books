@@ -1,7 +1,7 @@
 # Book Analysis: One Hundred Years of Solitude
 
 ## Document Overview
-**Source:** marquez.txt
+**Source:** marquez.md
 **Work:** One Hundred Years of Solitude (1967)
 **Author:** Gabriel García Márquez
 **Genre:** Magical Realism

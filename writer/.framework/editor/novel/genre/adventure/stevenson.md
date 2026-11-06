@@ -1,7 +1,7 @@
 # Book Analysis: Treasure Island
 
 ## Document Overview
-**Source:** stevenson.txt
+**Source:** stevenson.md
 **Work:** Treasure Island (1883)
 **Author:** Robert Louis Stevenson
 **Genre:** Adventure

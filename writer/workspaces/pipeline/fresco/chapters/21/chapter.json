@@ -6,7 +6,60 @@
   "chapter_summary": "An old mark outlasts any known account of its maker. Debolina feels kinship with that hand while resisting the romance of its disappearance.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "philosophical meditation",
+  "history": {
+    "status": "grounded in the declared setting only",
+    "corrections": [],
+    "flagged_uncertainties": [
+      "The anonymity of Shekhawati mural painters is a theme of the source, not a documented finding; the poem must not claim every maker was anonymous."
+    ]
+  },
+  "spatality": {
+    "place": "an old panel in the oldest part of a haveli, above head height",
+    "season": "dry season, a still afternoon",
+    "route": "up the scaffold to the oldest layer, then down again",
+    "texture": "faded ochre, a surface worn smooth where hands have touched it"
+  },
+  "stereotype": {
+    "signature": "rilke",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 3,
+      "grammatical_abstraction": 5,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 4,
+      "movement": "Language Poetry — the fragment as the only complete statement, here a hand with no name.",
+      "writing_skills": [
+        "address to an absent maker rather than a present object",
+        "refusal of the consolation of anonymity",
+        "an ending that keeps the difference between kinship and equality"
+      ],
+      "image_seed": "an old ochre stroke worn smooth, its maker's gesture still legible",
+      "volta": "from claiming kinship with the anonymous hand to refusing to make its erasure beautiful",
+      "sonic_texture": "soft h and w in hand, who, wore, and the dry fricative of faded",
+      "line_gesture": "elegiac medium lines that lengthen at the volta, then break",
+      "variety_note": "Chapter twenty travelled to another town; this poem travels backward in time to a single unknown hand and refuses the romance of its loss.",
+      "metaphor_family": "worn stroke, unrecorded name, and kinship that does not flatter",
+      "address": "the anonymous painter, in the second person",
+      "closing_move": "a refusal — the poem declines to call the silence holy"
+    }
+  },
   "segments": [
     1
   ]

@@ -1,7 +1,7 @@
 # Book Analysis: Dune
 
 ## Document Overview
-**Source:** herbert.txt
+**Source:** herbert.md
 **Work:** Dune (1965)
 **Author:** Frank Herbert
 **Genre:** Sci-fi

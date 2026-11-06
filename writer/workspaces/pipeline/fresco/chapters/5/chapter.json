@@ -6,7 +6,53 @@
   "chapter_summary": "Blue pigment gathers in the lamp's narrow circle, making the night seem briefly immense. Debolina sees how limited means can sharpen attention.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "devotional lyric",
+  "spatality": {
+    "place": "a ledge inside a haveli, one lamp and a shallow dish of ground lapis",
+    "season": "night, the dry season",
+    "route": "lamp to dish to wall, a circle no wider than the arm",
+    "texture": "fine blue dust, lamp heat on the cheek, a blue darker than the room"
+  },
+  "stereotype": {
+    "signature": "rabindranath",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 7,
+      "digital_simplicity": 3,
+      "movement": "Sufism — ecstatic union sought through a single material, the lamp's small circle as the whole world.",
+      "writing_skills": [
+        "incantatory repetition of one colour word",
+        "a devotional address to a stone",
+        "close on a blessing that is also a limit"
+      ],
+      "image_seed": "a shallow dish of lapis lit from one side by a lamp with a cracked chimney",
+      "volta": "from the blue as wealth to the blue as a wage paid nightly",
+      "sonic_texture": "the long u of blue held and repeated, broken by the flat a of lamp",
+      "line_gesture": "flowing lines that lengthen as the circle of light widens, then shorten as it fails",
+      "variety_note": "Chapter four measured time by plaster setting; this poem measures it by a lamp that will burn out before the work does.",
+      "metaphor_family": "small light, precious dust, and the economy of a colour that costs more than the wall",
+      "address": "the pigment, then the lamp, then the self as the smallest of the three",
+      "closing_move": "a benediction that turns out to be a warning about dawn"
+    }
+  },
   "segments": [
     1
   ]

@@ -190,7 +190,7 @@ is **`amitra`** — resolved from `.framework/editor/poetry/styles/amitra/`:
 
 | File | Role |
 |---|---|
-| `sample.txt` | canonical অমিত্রাক্ষর corpus (Tagore, Madhusudan) — form and register authority |
+| `sample.md` | canonical অমিত্রাক্ষর corpus (Tagore, Madhusudan) — form and register authority |
 | `signature.md` | distilled pattern spec (the *method*, not the subject) |
 | `style.md` | full transmuter contract (metre, rhyme modes, MCP protocol, register) |
 
@@ -226,7 +226,7 @@ re-ground — one operative style reference per book, never a second copy.
 
 Read, in order:
 
-1. `.framework/editor/poetry/styles/amitra/sample.txt` — extract the **method**:
+1. `.framework/editor/poetry/styles/amitra/sample.md` — extract the **method**:
    the 8 + 6 akshar measure, the continuous enjambed sentence, the daily-used
    register, the plain-concrete anchoring, the oral narrator's address.
 2. `.framework/editor/poetry/styles/amitra/signature.md` — the distilled pattern
@@ -247,7 +247,7 @@ Then write **one self-contained document** with these sections, in this order:
 | Section | Must contain |
 |---|---|
 | Provenance | the block below — this is what makes caching safe |
-| Authority Note | files read, and their precedence on conflict (`sample.txt` first) |
+| Authority Note | files read, and their precedence on conflict (`sample.md` first) |
 | Form Contract | continuous sentences, **14 akshar target** with **12–16 band** (±10 %), `8 + 6` caesura, optional rhyme modes |
 | Register | daily-used spoken Bengali; the forbidden literary inflations |
 | Persona & Voice | the blank-verse narrator's stance, grounded in *this* book |

@@ -6,7 +6,53 @@
   "chapter_summary": "Morning visitors read the mural differently from its painter. Their interpretations make Debolina question where meaning belongs.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "dramatic monologue",
+  "spatality": {
+    "place": "the courtyard of a painted haveli, visitors between the wall and the well",
+    "season": "morning, dry and already warm",
+    "route": "the visitors move along the wall; the maker does not move at all",
+    "texture": "sun on painted panels, a camera-less pointing hand, dust settling after arrival"
+  },
+  "stereotype": {
+    "signature": "interactive",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 7,
+      "digital_simplicity": 4,
+      "movement": "Spoken Word — the poem as a room with listeners, paced for a crowd.",
+      "writing_skills": [
+        "direct address to a plural audience",
+        "overheard opinions quoted and answered",
+        "a close that turns the question back on the reader"
+      ],
+      "image_seed": "a visitor's finger pointing at a painted figure while the painter stands behind them",
+      "volta": "from wanting to correct the misreading to seeing that the misreading is the poem's real life",
+      "sonic_texture": "bright open vowels of courtyard talk cut by the flat a of art",
+      "line_gesture": "quick conversational lines that overlap, then a single held line for the unspoken reply",
+      "variety_note": "Chapter eighteen looked at a page; this poem listens to voices, and is the first to bring the poem's audience physically into the poem.",
+      "metaphor_family": "borrowed light, reflection, and commentary that becomes its own surface",
+      "address": "the visitors, then the reader, in the same second person",
+      "closing_move": "a question handed to the reader with no speaker left to answer it"
+    }
+  },
   "segments": [
     1
   ]

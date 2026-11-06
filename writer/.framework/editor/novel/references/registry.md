@@ -10,20 +10,20 @@ The writer agent reads this registry to discover available references, then read
 
 | # | Reference File | Work | Author | Format | Language | Status |
 |---|---------------|------|--------|--------|----------|--------|
-| 1 | [`aurilus.txt`](aurilus.txt) | *The Meditations* | Marcus Aurelius | Plain text (full text) | English | ✅ Active |
-| 2 | [`gosai_dictionary.txt`](gosai_dictionary.txt) | Gosai/Baul/Fakir spiritual lexicon — "Prose of Leaving Home" | Bengali folk-mystical tradition | Plain text (annotated lexicon) | English | ✅ Active |
-| 3 | [`languages_sample.txt`](languages_sample.txt) | "The Right of the Flower" — a philosophical prose sample on rights and nature | Framework sample | Plain text (prophetic-register sample) | English | ✅ Active |
+| 1 | [`aurilus.md`](aurilus.md) | *The Meditations* | Marcus Aurelius | Plain text (full text) | English | ✅ Active |
+| 2 | [`gosai_dictionary.md`](gosai_dictionary.md) | Gosai/Baul/Fakir spiritual lexicon — "Prose of Leaving Home" | Bengali folk-mystical tradition | Plain text (annotated lexicon) | English | ✅ Active |
+| 3 | [`languages_sample.md`](languages_sample.md) | "The Right of the Flower" — a philosophical prose sample on rights and nature | Framework sample | Plain text (prophetic-register sample) | English | ✅ Active |
 
 ---
 
 ## Reference Details
 
-### 1. `aurilus.txt` — The Meditations of Marcus Aurelius
+### 1. `aurilus.md` — The Meditations of Marcus Aurelius
 
 - **Work:** *The Meditations of Marcus Aurelius*
 - **Author:** Marcus Aurelius (121–180 CE), Roman Emperor and Stoic philosopher
 - **Translation:** Jeremy Collier, revised by Alice Zimmern (1887)
-- **Format:** Plain text (`.txt`), full text of the work
+- **Format:** Markdown (`.md`), full text of the work
 - **Language:** English
 - **Structure:** 12 Books of aphorisms, reflections, and moral teachings
 
@@ -31,21 +31,21 @@ The writer agent reads this registry to discover available references, then read
 
 **Associated Themes:** [`../themes/generic.md`](../themes/generic.md) — the ten Stoic themes derived from this work.
 
-### 2. `gosai_dictionary.txt` — Gosai: Prose of Leaving Home
+### 2. `gosai_dictionary.md` — Gosai: Prose of Leaving Home
 
 - **Content:** An annotated spiritual lexicon of the Gosai, Baul, and Fakir traditions of Bengal — the seeker, the wanderer, the person of the heart.
 - **Sections:** What Is Home, Who Is a Baul, Who Is a Fakir.
-- **Format:** Plain text (`.txt`), annotated dictionary/prose.
+- **Format:** Markdown (`.md`), annotated dictionary/prose.
 - **Language:** English.
 
 **Associated Themes:** [`../themes/gosai_bangla.md`](../themes/gosai_bangla.md) — the ten Baul-Fakir themes derived from this lexicon.
 
 **Associated Syntax:** [`../syntax/gosai_bangla.md`](../syntax/gosai_bangla.md).
 
-### 3. `languages_sample.txt` — The Right of the Flower
+### 3. `languages_sample.md` — The Right of the Flower
 
 - **Content:** A framework-authored philosophical prose sample ("The Right of the Flower") on rights, nature, and mutual belonging, written in the prophetic/literary register.
-- **Format:** Plain text (`.txt`), single literary sample.
+- **Format:** Markdown (`.md`), single literary sample.
 - **Language:** English.
 - **Use:** A style-grounded sample for calibrating the target register across languages.
 

@@ -23,11 +23,11 @@ The syntax agent reads this registry to discover available syntax samples, then 
 - **Register:** Archaic/literary
 - **Sentence pattern:** Long, flowing sentences that unfold through clauses, images, and emotional turns; commas, semicolons, and dashes create a controlled current of thought
 - **Associated Theme Set:** [`../themes/generic.md`](../themes/generic.md) — the ten Stoic themes
-- **Associated Reference:** [`../references/aurilus.txt`](../references/aurilus.txt)
+- **Associated Reference:** [`../references/aurilus.md`](../references/aurilus.md)
 
 ### 2. `gosai_bangla.md` — The Baul-Fakir Syntax
 
-- **Source:** Gosai/Baul/Fakir spiritual tradition (from `../references/gosai_dictionary.txt`)
+- **Source:** Gosai/Baul/Fakir spiritual tradition (from `../references/gosai_dictionary.md`)
 - **Register:** Archaic/literary with songlike, meditative cadence
 - **Sentence pattern:** Wandering, incantatory, and intimate; repetition and refrain carry the seeker's movement
 - **Associated Theme Set:** [`../themes/gosai_bangla.md`](../themes/gosai_bangla.md) — the ten Baul-Fakir themes

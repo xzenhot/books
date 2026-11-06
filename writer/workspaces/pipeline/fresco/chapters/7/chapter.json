@@ -6,7 +6,53 @@
   "chapter_summary": "Debolina rejects a pleasing line that says nothing she believes. The discarded mark leaves a blank that becomes an honest choice.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "ars poetica",
+  "spatality": {
+    "place": "the scaffold, a charcoal sketch still on the wall",
+    "season": "night, before the lamps are trimmed",
+    "route": "from the drawn line to the unmarked plaster beside it",
+    "texture": "charcoal dust on the thumb, the tooth of the wall under the palm"
+  },
+  "stereotype": {
+    "signature": "rilke",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 5,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 4,
+      "movement": "New Formalism — constraint as conscience, here the discipline of what is left out.",
+      "writing_skills": [
+        "argument by subtraction",
+        "a single metaphor kept and interrogated for the whole poem",
+        "close on a choice rendered as a physical act"
+      ],
+      "image_seed": "a charcoal line that is beautiful and says nothing, still visible beside the bare patch",
+      "volta": "from the pleasure of a good line to the refusal to let pleasure stand as truth",
+      "sonic_texture": "the clean bite of k and t in sketch, cut, kept, and a long pause after beautiful",
+      "line_gesture": "balanced lines that hold an argument, then a fragment where the line is taken back again",
+      "variety_note": "This is the book's first poem about refusing something, and the only one that makes a blank the subject rather than the setting.",
+      "metaphor_family": "erasure, blankness, and the negative space that proves a hand was there",
+      "address": "the rejected line, spoken to as a rival who nearly won",
+      "closing_move": "the blank is named as the poem's first honest sentence"
+    }
+  },
   "segments": [
     1
   ]

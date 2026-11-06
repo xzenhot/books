@@ -1,7 +1,7 @@
 # Book Analysis: The Meditations of Marcus Aurelius
 
 ## Document Overview
-**Source:** aurilus.txt  
+**Source:** aurilus.md  
 **Work:** The Meditations of Marcus Aurelius (Translated by Jeremy Collier, Revised by Alice Zimmern, 1887)  
 **Genre:** Stoic Philosophy / Personal Reflections / Philosophical Memoir  
 **Structure:** 12 Books of aphorisms, reflections, and moral teachings

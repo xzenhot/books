@@ -6,7 +6,53 @@
   "chapter_summary": "The wall accepts some colors and refuses others. Debolina learns that not every intention survives contact with its material.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "philosophical meditation",
+  "spatality": {
+    "place": "a panel where two coats of colour meet, one holding, one lifting",
+    "season": "the cool hours after midnight",
+    "route": "along the join, where the wall shows what it will and will not take",
+    "texture": "chalky refusal under the brush, a patch that drinks and a patch that beads"
+  },
+  "stereotype": {
+    "signature": "philosophical",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 3,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 4,
+      "movement": "Stoicism — accepting what cannot be changed, here the wall's own terms.",
+      "writing_skills": [
+        "argument built from two contrasting material behaviours",
+        "personification held to a single consistent conceit",
+        "a conclusion that refuses to moralise the refusal"
+      ],
+      "image_seed": "a bead of pigment standing on the plaster instead of sinking in",
+      "volta": "from reading refusal as failure to reading it as the material's honest answer",
+      "sonic_texture": "hard k and p in keep, take, refuse, beading like the pigment",
+      "line_gesture": "measured sentences of medium length; one clause held longer where the wall wins",
+      "variety_note": "This is the book's most patient poem — nothing happens except a decision about what a surface will accept.",
+      "metaphor_family": "absorption and refusal, thirst and stone, invitation and closedness",
+      "address": "the plaster, as a party to a negotiation",
+      "closing_move": "an unfinished thought about what the maker must therefore change in herself"
+    }
+  },
   "segments": [
     1
   ]

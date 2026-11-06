@@ -6,7 +6,53 @@
   "chapter_summary": "A passing scent turns a brief encounter into a meditation on how the senses keep what the eye loses. Debolina recognizes that observation must not become possession.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "sensuous lyric",
+  "spatality": {
+    "place": "a lane in Mandawa, the wall's scaffolding just behind the speaker",
+    "season": "hot afternoon shading into evening",
+    "route": "a passer-by crosses the lane and is gone before the next line",
+    "texture": "warm air, dust lifting, a scent that arrives before the person does"
+  },
+  "stereotype": {
+    "signature": "neruda",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 3,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 4,
+      "movement": "Sufism — seeking union through ecstatic love, here turned toward a scent that will not stay.",
+      "writing_skills": [
+        "sensuous cataloguing that keeps to one sense",
+        "anaphora building until the list becomes a lament",
+        "a turn from appetite to restraint"
+      ],
+      "image_seed": "a musk that reaches the scaffold before the man who wears it turns the corner",
+      "volta": "from wanting to keep the scent to refusing to keep the man",
+      "sonic_texture": "long open vowels in air, lane, and name, closing on clipped consonants",
+      "line_gesture": "long enjambed lines that gather speed, then one short line that stops the poem",
+      "variety_note": "The previous poem emptied the street; this one fills it with a single passing body and then has to give that body back.",
+      "metaphor_family": "scent as temporary architecture — doorway, lintel, air that holds a shape and loses it",
+      "address": "the scent first, then the self, in a correction",
+      "closing_move": "the image withdrawn — the lane returned to being only a lane"
+    }
+  },
   "segments": [
     1
   ]

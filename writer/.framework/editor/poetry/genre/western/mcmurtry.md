@@ -1,7 +1,7 @@
 # Book Analysis: Lonesome Dove
 
 ## Document Overview
-**Source:** mcmurtry.txt
+**Source:** mcmurtry.md
 **Work:** Lonesome Dove (1985)
 **Author:** Larry McMurtry
 **Genre:** Western

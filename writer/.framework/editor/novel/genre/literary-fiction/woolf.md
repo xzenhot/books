@@ -1,7 +1,7 @@
 # Book Analysis: To the Lighthouse
 
 ## Document Overview
-**Source:** woolf.txt
+**Source:** woolf.md
 **Work:** To the Lighthouse (1927)
 **Author:** Virginia Woolf
 **Genre:** Literary Fiction

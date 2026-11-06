@@ -58,7 +58,7 @@ metre is the entire test.
 ## Style Resolution (default `amitra`, cached per book)
 
 Amitra's default style is **`amitra`**, sourced from
-`.framework/editor/poetry/styles/amitra/` (`sample.txt`, `signature.md`,
+`.framework/editor/poetry/styles/amitra/` (`sample.md`, `signature.md`,
 `style.md`). Those files describe a **pattern** (the Tagore/Madhusudan
 অমিত্রাক্ষর measure), not a subject, so they must be grounded to the book before
 composing — and the grounded result is **cached** as the book's operative style
@@ -141,7 +141,7 @@ Read the book's `factory` per `.framework/rules/command-boundary.md`:
 - Treat it as a **form** request and dispatch here.
 - Default the style to `amitra`: resolve the per-book cache at
   `workspaces/pipeline/<bookname>/style.md`, synthesizing it from
-  `styles/amitra/{sample.txt,signature.md,style.md}` plus the book's
+  `styles/amitra/{sample.md,signature.md,style.md}` plus the book's
   `book.json`/`storyline.md` on a cache miss.
 - Do not additionally apply a second transformer style unless the user names one.
 - When another style **is** named explicitly, honor it — but state that the amitra

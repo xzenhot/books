@@ -6,7 +6,53 @@
   "chapter_summary": "She works against the short life of fresh plaster, watching each gesture become irreversible. A small mistake forces her to begin again.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "craft lyric",
+  "spatality": {
+    "place": "a lime pit and a just-plastered panel inside a haveli",
+    "season": "dry season, work done before the heat",
+    "route": "pit to wall, a bucket carried the length of one corridor",
+    "texture": "gritty lime under the nails, cool damp plaster, a smell that coats the throat"
+  },
+  "stereotype": {
+    "signature": "first-person",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 3,
+      "movement": "New Formalism — return to traditional constraint, here the constraint of a surface that sets.",
+      "writing_skills": [
+        "procedural sequence in strict working order",
+        "present tense held without flashback",
+        "the body's labour as the poem's meter"
+      ],
+      "image_seed": "a thumbprint pressed into plaster that has begun to stiffen",
+      "volta": "from the confidence of the first stroke to the discovery that the wall has already decided",
+      "sonic_texture": "hard t and k in wet, set, crack, cut — the sound of a surface refusing",
+      "line_gesture": "even, workmanlike lines; the sentence breaks exactly where the work breaks",
+      "variety_note": "This is the first poem written from inside the making rather than from the admiring side, and the first to let a mistake stay visible.",
+      "metaphor_family": "setting, curing, and the narrow window between soft and fixed",
+      "address": "the panel, as a collaborator that will not negotiate",
+      "closing_move": "a single instruction to the self, left unfinished"
+    }
+  },
   "segments": [
     1
   ]

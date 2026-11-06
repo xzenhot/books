@@ -6,7 +6,53 @@
   "chapter_summary": "Attention brings recognition and scrutiny. She discovers that visibility is not a cure for erasure, only a different risk.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "confessional lyric",
+  "spatality": {
+    "place": "the completed wall, now with people in front of it",
+    "season": "morning, dry season",
+    "route": "from the wall to the lane and out of the courtyard",
+    "texture": "attention like heat, a hand on the shoulder, the wall too bright to look at directly"
+  },
+  "stereotype": {
+    "signature": "shakti",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 9,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 3,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 4,
+      "movement": "Confessionalism — exposure without anaesthetic, here the discovery that being seen is not being known.",
+      "writing_skills": [
+        "visceral bodily register for social exposure",
+        "colloquial self-correction mid-sentence",
+        "a close that refuses the consolation of arrival"
+      ],
+      "image_seed": "a hand resting on her shoulder while the wall gets all the looking",
+      "volta": "from expecting recognition to feel like rescue to finding it merely changes the shape of the risk",
+      "sonic_texture": "breathy h and the repeated short i of seen, still, this, tightening the throat",
+      "line_gesture": "restless lines that shift direction mid-clause, then stop on one blunt short line",
+      "variety_note": "Chapter twenty-seven refused an explanation; this poem admits the private cost of the refusal, and is the rawest poem in the book.",
+      "metaphor_family": "light that exposes rather than warms; skin under inspection",
+      "address": "the self, in the second person, at the moment of being looked at",
+      "closing_move": "visibility named as a different risk, not a cure, in the final flat line"
+    }
+  },
   "segments": [
     1
   ]

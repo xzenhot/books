@@ -6,7 +6,53 @@
   "chapter_summary": "Those who see her labor ask for an explanation that would make it easy to admire. Debolina refuses a neat answer and names what the work has cost.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "philosophical dialogue",
+  "spatality": {
+    "place": "inside the haveli, among the exposed tools and unfinished panels",
+    "season": "midday, the heat at its worst",
+    "route": "the witnesses stand; the maker stays seated",
+    "texture": "stale warm air, lime dust on every surface, the discomfort of being looked at"
+  },
+  "stereotype": {
+    "signature": "gibran",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 6,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 6,
+      "digital_simplicity": 4,
+      "movement": "Sufism — the seeker's question and the inadequate answer, here the demand for a tidy story.",
+      "writing_skills": [
+        "question-and-refusal structure",
+        "aphoristic answer withheld rather than delivered",
+        "a close that names cost instead of meaning"
+      ],
+      "image_seed": "a visitor's notebook open and empty, waiting for a sentence that explains the wall",
+      "volta": "from preparing an answer that will satisfy to refusing the shape of the question",
+      "sonic_texture": "the oracular cadence of why, what, tell, broken by one flat sentence with no ornament",
+      "line_gesture": "short questions and longer non-answers, the poem breathing between them",
+      "variety_note": "Chapter twenty-six opened the door; this poem faces the people who walk through it and declines the explanation they came for.",
+      "metaphor_family": "question, ledger of explanation, and the refusal to settle an account",
+      "address": "the witnesses, in the plural, then a single imagined reader",
+      "closing_move": "a plain sentence about cost, offered in place of a meaning"
+    }
+  },
   "segments": [
     1
   ]

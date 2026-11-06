@@ -6,7 +6,53 @@
   "chapter_summary": "A brief encounter returns as a memory whose details keep changing. Debolina accepts memory as an imperfect witness, not a license to claim another person's story.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "confessional lyric",
+  "spatality": {
+    "place": "the lane below the scaffold, where a stranger passed hours earlier",
+    "season": "the same dry evening, remembered later",
+    "route": "no movement — the poem stays in the place of remembering",
+    "texture": "warm dust remembered, a scent that memory keeps altering"
+  },
+  "stereotype": {
+    "signature": "first-person",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 7,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 4,
+      "movement": "Confessionalism — the personal record examined, here the ethics of remembering another body.",
+      "writing_skills": [
+        "deliberate correction of a remembered detail within the poem",
+        "first-person admission without absolution",
+        "a close that gives the stranger back his privacy"
+      ],
+      "image_seed": "a remembered scent that no longer matches the lane it came from",
+      "volta": "from trusting memory to catching it in the act of improving a stranger",
+      "sonic_texture": "the soft repeated r of remember, altered, stranger, wearing the memory down",
+      "line_gesture": "winding lines with parenthetical corrections, ending on a bare short line",
+      "variety_note": "Chapter three met the stranger in the present; this poem meets him again in memory and finds the account compromised.",
+      "metaphor_family": "rewriting, revision, and the hand that edits a person into an image",
+      "address": "the stranger, then the self, in reproach",
+      "closing_move": "a withdrawal of the remembered detail, leaving the lane empty again"
+    }
+  },
   "segments": [
     1
   ]

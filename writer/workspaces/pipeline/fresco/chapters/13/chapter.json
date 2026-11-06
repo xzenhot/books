@@ -6,7 +6,53 @@
   "chapter_summary": "Dawn approaches before anyone has seen what she made. Debolina asks whether work without witnesses can still address the world.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "nocturne",
+  "spatality": {
+    "place": "the scaffold at the hour when the sky begins to grey behind the haveli",
+    "season": "dry season, first light",
+    "route": "from the wall to the lane to the sky, and back to the wall",
+    "texture": "cold metal of the lamp, dew on the rope, the first bird absurdly loud"
+  },
+  "stereotype": {
+    "signature": "eliot",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 5,
+      "grammatical_abstraction": 6,
+      "structural_rigidity": 4,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 4,
+      "movement": "Language Poetry — fragmented field, here the hour before witnesses exist.",
+      "writing_skills": [
+        "fragments of ordinary sound breaking the meditation",
+        "a question repeated with shifting emphasis",
+        "close on a factual observation that withholds judgement"
+      ],
+      "image_seed": "the lamp still lit while the sky behind the wall has already turned blue-grey",
+      "volta": "from fearing the unwitnessed hour to doubting whether witness changes the work at all",
+      "sonic_texture": "the long open a of dawn held against the clipped k of clock, dark, back",
+      "line_gesture": "sentences that begin confidently and trail into fragments as the light arrives",
+      "variety_note": "Chapter twelve counted the past; this poem faces the future of a single morning and refuses to answer whether it will be seen.",
+      "metaphor_family": "grey light, unread pages, a door opening onto nobody",
+      "address": "the coming day, spoken to as a creditor",
+      "closing_move": "a flat statement of fact that lands harder than any question"
+    }
+  },
   "segments": [
     1
   ]

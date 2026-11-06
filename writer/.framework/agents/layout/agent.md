@@ -119,10 +119,10 @@ This is the scaffold-time default: it tells the override agent that no transform
 
 ## Phase 2 Rules
 
-- **Dynamic, not copied.** Do not copy the backlog `override.md` verbatim. Re-derive it: keep the identity and mandate, but enrich it with the pipeline's resolved form, language, register, signature, and the concrete topic/chapter list.
+- **Dynamic, not copied.** Do not copy the backlog `override.md` verbatim. Re-derive it: keep the identity and mandate, but enrich it with the pipeline's resolved form, register, signature, and the concrete topic/chapter list. **Never write the output language into it** — `book.json` → `language` is the sole language authority (`.framework/rules/language-authority.md`); deriving the prompt's *wording* in the book's language is fine, but a directive that *sets* the language is a defect.
 - **Backlog is the idea; pipeline is the reality.** The backlog file is the seed. The pipeline `book.json` is the resolved truth. When they differ, the pipeline wins.
 - **Form resolution lives here.** The pipeline `book.json` is the authoritative source for the resolved `form`. Init no longer reads the pipeline; this agent is the sole place that resolves the form from pipeline state.
-- **Plain text only.** The output is a `.txt` file. No front-matter YAML, no scripts, no wrapper files.
+- **Markdown only.** The output is a Markdown file (`override.md`). There is no `override.txt` sibling: a `.txt` twin is a defect from an older contradictory instruction, so write `override.md` and never a second plain-text copy. No front-matter YAML, no scripts, no wrapper files.
 - **Default is "No transform required."** A plain scaffold writes `workspaces/pipeline/<bookname>/override.md` containing exactly `No transform required.` — nothing else. Do not derive a full master prompt during a plain scaffold.
 - **Do not overwrite a human-edited file.** If `workspaces/pipeline/<bookname>/override.md` already exists and contains content other than the default `No transform required.` line, do not overwrite it; report that it exists and leave it. Otherwise write the default.
 - **Do not scaffold or run filters.** This agent produces the master prompt only; it must not create folders, run filters, seed chapter content, or touch `workspaces/published/`.

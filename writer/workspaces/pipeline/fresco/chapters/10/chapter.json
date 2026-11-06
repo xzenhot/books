@@ -6,7 +6,53 @@
   "chapter_summary": "A brush, a wrist, and a shifting lamp make a private weather over the wall. One tremor changes the mark, and she treats uncertainty as part of the hand.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "craft lyric",
+  "spatality": {
+    "place": "arm's length from the wall, the lamp set low and to the left",
+    "season": "night, wind moving through the courtyard",
+    "route": "no movement beyond the wrist's short arc",
+    "texture": "lamp flame leaning, shadow of the brush jumping, a tremor in the wrist"
+  },
+  "stereotype": {
+    "signature": "dickinson",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 6,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 6,
+      "movement": "Language Poetry — attention to the smallest unit, here the tremor inside one stroke.",
+      "writing_skills": [
+        "microscopic attention to a single gesture",
+        "syntax that stutters where the hand stutters",
+        "a metaphor built from weather rather than feeling"
+      ],
+      "image_seed": "a lamp flame leaning left, throwing the brush's shadow across the wet line",
+      "volta": "from treating the tremor as an intruder to accepting it as the hand's own weather",
+      "sonic_texture": "soft sibilance in wrist, shift, small, and a hard stop on the word wrong",
+      "line_gesture": "very short lines that mimic small adjustments; one long line where the hand steadies",
+      "variety_note": "Chapter nine was vertical and effortful; this poem is almost motionless and finds its drama in a millimetre.",
+      "metaphor_family": "weather at the scale of a hand — wind, lean, shadow, steadiness",
+      "address": "the brush, treated as a small animal with its own intention",
+      "closing_move": "the tremor welcomed, but the line left uncorrected"
+    }
+  },
   "segments": [
     1
   ]

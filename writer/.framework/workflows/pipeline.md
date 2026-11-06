@@ -275,7 +275,7 @@ The current scaffold invariants are:
 - Segment folders use numeric level names: `chapters/<n>/segments/<x>/`.
 - Do not create chapter number folders directly under `<bookname>/`.
 - Do not create segment number folders outside `chapters/<n>/segments/`.
-- Do not scaffold `Template*.json`, `TemplatePrompt*.txt`, or `TemplateSystemPromptText.txt` into a book pipeline.
+- Do not scaffold `Template*.json`, `TemplatePrompt*.txt`, or `TemplateSystemPromptText.md` into a book pipeline.
 - Include `book.json`/`chapter.json` at book/chapter levels and `segment.json` at segment level; each is a level state file, not a template file.
 - Create root planning artifacts: `book.json`, `characters.json`, `masterprompt.md`, `workshop_metadata.md`, and `filters/`.
 - **Write the pipeline map.** Generate `workspaces/pipeline/<bookname>/README.md` from the book plan (`tools/pipeline_readme.py`) so the pipeline documents itself: book facts, every root file, the chapter/segment layout, the two registries, and per-actor write ownership. Stamp it `scaffold`. Refresh it on re-scaffold while it carries the generator marker; preserve a README without the marker as hand-written.
@@ -576,7 +576,7 @@ For `/book <bookname> poyar <n>|<chapter> [replace]` (alias: `payar`):
    not `poetry`.
 2. Resolve the **poyar style cache** at `workspaces/pipeline/<bookname>/style.md`.
    Poyar's default style is `poyar`, grounded from
-   `.framework/editor/poetry/styles/poyar/{sample.txt,signature.md,style.md}`:
+   `.framework/editor/poetry/styles/poyar/{sample.md,signature.md,style.md}`:
    - **Reuse** when the file's `<!-- style-provenance -->` block declares
      `style: poyar` for this book — never regenerate per chapter.
    - **Synthesize** when it is missing, grounded to another style (e.g. a Srijato
@@ -612,7 +612,7 @@ For `/book <bookname> amitra <n>|<chapter> [<scheme>] [replace]`:
    not `poetry`.
 2. Resolve the **amitra style cache** at `workspaces/pipeline/<bookname>/style.md`.
    Amitra's default style is `amitra`, grounded from
-   `.framework/editor/poetry/styles/amitra/{sample.txt,signature.md,style.md}`:
+   `.framework/editor/poetry/styles/amitra/{sample.md,signature.md,style.md}`:
    - **Reuse** when the file's `<!-- style-provenance -->` block declares
      `style: amitra` for this book — never regenerate per chapter.
    - **Synthesize** when it is missing, grounded to another style (e.g. a Srijato

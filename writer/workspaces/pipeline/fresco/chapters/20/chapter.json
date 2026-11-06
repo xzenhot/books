@@ -6,7 +6,60 @@
   "chapter_summary": "The journey to another painted town places familiar colors in changed light. Debolina understands that no wall stands outside the lives around it.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "travel lyric",
+  "history": {
+    "status": "grounded in the declared setting only",
+    "corrections": [],
+    "flagged_uncertainties": [
+      "Nawalgarh and Mandawa are declared places in the source; the poem must not add specific monuments, dates, or families."
+    ]
+  },
+  "spatality": {
+    "place": "the road into Nawalgarh at dusk, then a lane of painted facades",
+    "season": "dry season, the light failing early",
+    "route": "Mandawa to Nawalgarh, a short journey made long by dusk",
+    "texture": "dust on the road, cooling air, facades flattened by low light"
+  },
+  "stereotype": {
+    "signature": "jibanananda",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 5,
+      "digital_simplicity": 4,
+      "movement": "Sufism — the journey as inward motion, here a short road that changes the eye.",
+      "writing_skills": [
+        "travel syntax, each clause a stage of the road",
+        "light treated as the poem's only actor",
+        "a close that relocates the earlier poems in a new town"
+      ],
+      "image_seed": "a painted facade going flat and colourless as the last light leaves it",
+      "volta": "from arriving in a new place to realising the place has not changed the worker, only the wall",
+      "sonic_texture": "the drawn-out a of Nawalgarh held against the short clipped dusk",
+      "line_gesture": "longer lines that move with the road, then a stopped line at the town's edge",
+      "variety_note": "This is the book's only poem of transit, and the one that lets a second town exist without making it a rival.",
+      "metaphor_family": "road, dusk, and facades as pages turned by light",
+      "address": "the town, addressed before it is reached",
+      "closing_move": "the poem ends on an unlit wall, withholding arrival"
+    }
+  },
   "segments": [
     1
   ]

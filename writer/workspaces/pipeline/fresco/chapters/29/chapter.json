@@ -6,7 +6,53 @@
   "chapter_summary": "The finished color looks less like a reward than the last stage of an unfinished process. Debolina accepts that beauty does not cancel failure.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "philosophical meditation",
+  "spatality": {
+    "place": "the finished wall, seen at a distance from the courtyard's far side",
+    "season": "late afternoon, the light turning gold",
+    "route": "from a distance to close range and back again",
+    "texture": "colour that looks seamless from far and rough from near"
+  },
+  "stereotype": {
+    "signature": "aurilus",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 3,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 7,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 5,
+      "movement": "Stoicism — the correction of scale, here beauty placed in right proportion to its making.",
+      "writing_skills": [
+        "two distances held in one gaze",
+        "a phrase repeated with its meaning reversed",
+        "a close that corrects rather than celebrates"
+      ],
+      "image_seed": "a panel that reads as one colour from across the courtyard and as twenty repairs up close",
+      "volta": "from the pleasure of the finished whole to the refusal to let the whole erase the parts",
+      "sonic_texture": "smooth long vowels for distance, hard k and t for the close-up repairs",
+      "line_gesture": "calm even lines; one line halved at the volta, as if stepping nearer",
+      "variety_note": "Chapter twenty-eight is the book's emotional peak; this poem deliberately steps back to measure what that peak cost.",
+      "metaphor_family": "distance, scale, and the seam that only appears up close",
+      "address": "the finished wall, then the self as its severest reader",
+      "closing_move": "beauty granted, and immediately given its price"
+    }
+  },
   "segments": [
     1
   ]

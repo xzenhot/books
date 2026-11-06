@@ -1,7 +1,7 @@
 # Book Analysis: Normal People
 
 ## Document Overview
-**Source:** rooney.txt
+**Source:** rooney.md
 **Work:** Normal People (2018)
 **Author:** Sally Rooney
 **Genre:** Contemporary

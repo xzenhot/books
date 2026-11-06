@@ -1,7 +1,7 @@
 # Book Analysis: The Importance of Being Earnest
 
 ## Document Overview
-**Source:** wilde.txt
+**Source:** wilde.md
 **Work:** The Importance of Being Earnest (1895)
 **Author:** Oscar Wilde
 **Genre:** Comedy

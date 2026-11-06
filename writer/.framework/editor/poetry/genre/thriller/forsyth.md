@@ -1,7 +1,7 @@
 # Book Analysis: The Day of the Jackal
 
 ## Document Overview
-**Source:** forsyth.txt
+**Source:** forsyth.md
 **Work:** The Day of the Jackal (1971)
 **Author:** Frederick Forsyth
 **Genre:** Thriller

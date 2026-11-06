@@ -6,7 +6,53 @@
   "chapter_summary": "She puts down the brush before exhaustion decides for her. Rest becomes an act of authorship rather than a retreat.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "reflective lyric",
+  "spatality": {
+    "place": "the chapter room, a low stool, the brush laid across a cloth",
+    "season": "dry season, mid-morning heat building",
+    "route": "no route — the poem refuses to move",
+    "texture": "aching wrist, warm dust, a cloth stiff with dried pigment"
+  },
+  "stereotype": {
+    "signature": "reflective",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 5,
+      "movement": "Stoicism — right action including the action of stopping.",
+      "writing_skills": [
+        "stillness rendered as deliberate act",
+        "short declaratives that slow the reading down",
+        "a close that reframes rest as authorship rather than surrender"
+      ],
+      "image_seed": "a brush laid down across a stained cloth, its tip still wet",
+      "volta": "from guilt at stopping to the recognition that the decision to stop is also hers",
+      "sonic_texture": "the soft falling cadence of rest, wrist, laid, still",
+      "line_gesture": "brief lines separated by white space, the poem breathing where the hand does not",
+      "variety_note": "Chapter fifteen is public and accusatory; this poem is private and quiet, and is the only one that ends Part II without a question.",
+      "metaphor_family": "tool laid down, cloth, and the body's refusal as a form of speech",
+      "address": "the hand, spoken to as a separate tired person",
+      "closing_move": "a flat statement that rest is authorship, given without triumph"
+    }
+  },
   "segments": [
     1
   ]

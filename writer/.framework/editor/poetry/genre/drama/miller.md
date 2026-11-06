@@ -1,7 +1,7 @@
 # Book Analysis: Death of a Salesman
 
 ## Document Overview
-**Source:** miller.txt
+**Source:** miller.md
 **Work:** Death of a Salesman (1949)
 **Author:** Arthur Miller
 **Genre:** Drama

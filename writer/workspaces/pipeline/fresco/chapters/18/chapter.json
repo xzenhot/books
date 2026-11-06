@@ -6,7 +6,60 @@
   "chapter_summary": "A merchant's ledger suggests the arithmetic behind display and patronage. She notices the blank space where the makers' names might have been.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "philosophical meditation",
+  "history": {
+    "status": "grounded in the declared setting only",
+    "corrections": [],
+    "flagged_uncertainties": [
+      "The poem must not assert specific ledger entries, commodity prices, or dates; the ledger is a declared object of the setting, not a documented artefact."
+    ]
+  },
+  "spatality": {
+    "place": "a room in a haveli with a ledger left on a shelf",
+    "season": "dry season, a windless afternoon",
+    "route": "from the open ledger page to the painted wall beyond the doorway",
+    "texture": "brittle paper, iron-gall ink, a column ruled but never filled"
+  },
+  "stereotype": {
+    "signature": "aurilus",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 2,
+      "grammatical_abstraction": 3,
+      "structural_rigidity": 8,
+      "rhythmic_urgency": 2,
+      "digital_simplicity": 5,
+      "movement": "Stoicism — proportion and right reckoning, applied to the account book of a household.",
+      "writing_skills": [
+        "two-column argument: what is counted and what is not",
+        "plain fiscal vocabulary turned ethical",
+        "a conclusion that corrects the scale rather than blaming the merchant"
+      ],
+      "image_seed": "a ledger column ruled down the page and left entirely blank",
+      "volta": "from reading the blank as an omission to reading it as the only honest line in the book",
+      "sonic_texture": "clipped t and k in count, cost, credit, and one long open vowel where the page is blank",
+      "line_gesture": "even, ruled lines; a single unruled line where the poem stops counting",
+      "variety_note": "Chapter seventeen emptied a house; this poem finds the one page where its economy kept no record, and is the most restrained poem in the book.",
+      "metaphor_family": "ledger, column, and the space that no sum can enter",
+      "address": "the merchant, unnamed and long absent",
+      "closing_move": "the blank column named as the only place a maker could have been written"
+    }
+  },
   "segments": [
     1
   ]

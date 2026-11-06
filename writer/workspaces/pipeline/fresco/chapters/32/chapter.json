@@ -6,7 +6,53 @@
   "chapter_summary": "The town wakes to the fresco, while its maker remains present in the marks and in the account she has chosen to give. The wall closes the sequence as evidence and unfinished question.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "elegiac meditation",
+  "spatality": {
+    "place": "the haveli wall in the first light, the lane beginning to move",
+    "season": "dry season, the hour after dawn",
+    "route": "the town enters; the poem stays at the wall",
+    "texture": "cool lime warming, a broom somewhere, colour becoming visible as the sky brightens"
+  },
+  "stereotype": {
+    "signature": "jibanananda",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 4,
+      "grammatical_abstraction": 4,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 4,
+      "digital_simplicity": 4,
+      "movement": "Sufism — the closing return, not to union but to the threshold that remains.",
+      "writing_skills": [
+        "dawn description that carries the whole book's turn",
+        "a final image built from two unequal things, wall and hand",
+        "a close that leaves the question open without saying so"
+      ],
+      "image_seed": "a painted panel in first light with a broom sounding somewhere behind the wall",
+      "volta": "from treating the wall as finished to seeing it as evidence still being read",
+      "sonic_texture": "the soft twilight vowels of the opening poems returned, now in daylight",
+      "line_gesture": "long closing lines that gather the book's earlier images, then one short line to end",
+      "variety_note": "The final poem deliberately echoes the first, but answers its question with a condition rather than a resolution.",
+      "metaphor_family": "first light, evidence, and the unfinished question a surface can hold",
+      "address": "the wall, then the reader, in the last two lines",
+      "closing_move": "a single short line that leaves the wall standing and the question unanswered"
+    }
+  },
   "segments": [
     1
   ]

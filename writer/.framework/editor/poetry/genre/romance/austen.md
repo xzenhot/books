@@ -1,7 +1,7 @@
 # Book Analysis: Pride and Prejudice
 
 ## Document Overview
-**Source:** austen.txt
+**Source:** austen.md
 **Work:** Pride and Prejudice (1813)
 **Author:** Jane Austen
 **Genre:** Romance

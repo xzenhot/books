@@ -4,7 +4,7 @@ Fresco is a 32-poem sequence about Debolina Rai, a painter and poet who chooses 
 
 **কিভাবে লিখতে হবে**
 
-1. Write in English, the language of the book. Use a reflective, image-led voice grounded in the materials of painting: plaster, pigment, brush, scaffold, lamp, wall, dust, and desert air.
+1. Write in the language declared by `book.json` → `language`. This file never sets the output language. Use a reflective, image-led voice grounded in the materials of painting: plaster, pigment, brush, scaffold, lamp, wall, dust, and desert air.
 2. Let each poem begin from a concrete sensory detail and widen toward a philosophical question. Avoid turning the sequence into an abstract essay or a linear plot summary.
 3. Keep Debolina's experience specific and self-directed. A passing person may prompt perception, but must not be reduced to an object or claimed as hers.
 4. Let the title and summary guide each poem's question, not dictate a literal retelling. Each poem should discover a distinct image, tension, or turn.

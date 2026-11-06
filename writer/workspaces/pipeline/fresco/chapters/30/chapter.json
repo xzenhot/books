@@ -6,7 +6,53 @@
   "chapter_summary": "She identifies herself as the maker before returning to the wall. Saying her name changes the silence without deciding what anyone will remember.",
   "further_references": [],
   "level": "chapter",
-  "state": "scaffolded",
+  "state": "enriched",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "dramatic lyric",
+  "spatality": {
+    "place": "the courtyard, in front of the wall, before a small gathered crowd",
+    "season": "morning, dry season",
+    "route": "the poem does not move; the speaking is the whole action",
+    "texture": "dry throat, warm stone underfoot, the wall behind her"
+  },
+  "stereotype": {
+    "signature": "gibran",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 8,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 6,
+      "rhythmic_urgency": 8,
+      "digital_simplicity": 5,
+      "movement": "Spoken Word — a single name spoken aloud as the poem's whole architecture.",
+      "writing_skills": [
+        "one-line refrain built around a proper name",
+        "plain declaratives that carry the weight of ceremony",
+        "a close that returns to the wall rather than to the crowd"
+      ],
+      "image_seed": "a mouth dry before speaking her own name to people who did not ask",
+      "volta": "from the fear that naming herself is vanity to the recognition that the name is a fact, not a claim",
+      "sonic_texture": "the name's consonants repeated until they stop sounding like a boast",
+      "line_gesture": "short spoken lines with a full stop after the name, then a longer line turning back",
+      "variety_note": "Chapter twenty-nine measured the wall; this poem speaks, and is the only poem in the book where the maker's name is said out loud.",
+      "metaphor_family": "naming, breath, and the difference between a claim and a record",
+      "address": "the gathered people, then the wall behind her",
+      "closing_move": "the name spoken, and the poem turning away from the crowd in its last line"
+    }
+  },
   "segments": [
     1
   ]

@@ -233,7 +233,7 @@ is **`poyar`** — resolved from `.framework/editor/poetry/styles/poyar/`:
 
 | File | Role |
 |---|---|
-| `sample.txt` | canonical couplet corpus — form, rhyme, and register authority |
+| `sample.md` | canonical couplet corpus — form, rhyme, and register authority |
 | `signature.md` | distilled pattern spec (the *method*, not the subject) |
 | `style.md` | full transmuter contract (meter, rhyme, MCP protocol, register) |
 
@@ -283,7 +283,7 @@ then the couplet contract still binds.
 
 Read, in order:
 
-1. `.framework/editor/poetry/styles/poyar/sample.txt` — extract the **method**:
+1. `.framework/editor/poetry/styles/poyar/sample.md` — extract the **method**:
    couplet pairing, the `8 + 6` akshar measure, the daily-used register, the
    plain-concrete anchoring, the oral narrator's address.
 2. `.framework/editor/poetry/styles/poyar/signature.md` — the distilled pattern.
@@ -302,7 +302,7 @@ Then write **one self-contained document** with these sections, in this order:
 | Section | Must contain |
 |---|---|
 | Provenance | the block below — this is what makes caching safe |
-| Authority Note | files read, and their precedence on conflict (`sample.txt` first) |
+| Authority Note | files read, and their precedence on conflict (`sample.md` first) |
 | Form Contract | couplets, **14 akshar target** with **12–16 band** (±10 %), `8 + 6` caesura, strong L1~L2, **no cross-couplet rhyme** |
 | Register | daily-used spoken Bengali; the forbidden literary inflations |
 | Persona & Voice | the couplet-maker's stance, grounded in *this* book |
@@ -327,7 +327,7 @@ style: poyar
 book: <bookname>
 form: poetry
 meter: akshar-14
-grounded_from: .framework/editor/poetry/styles/poyar/{sample.txt,signature.md,style.md}
+grounded_from: .framework/editor/poetry/styles/poyar/{sample.md,signature.md,style.md}
 generated_at: <ISO-8601 UTC>
 book_updated_at: <book.json updated_at>
 human_edited: false
@@ -359,7 +359,7 @@ cache miss.
 5. `workspaces/pipeline/<bookname>/style.md` — the **cached, book-grounded poyar
    reference** (resolve it per *Style Resolution and Caching* above; synthesize it
    only on a cache miss).
-6. `.framework/editor/poetry/styles/poyar/{signature.md,sample.txt}` — form and
+6. `.framework/editor/poetry/styles/poyar/{signature.md,sample.md}` — form and
    register authority; consult when the cache is ambiguous, never as a substitute
    for the grounded reference.
 
