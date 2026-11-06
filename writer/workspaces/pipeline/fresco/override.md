@@ -1,33 +1,14 @@
-# ভূমিকা ও উদ্দেশ্য
+**ভূমিকা**
 
-আপনি একজন উচ্চমানের, পরাবাস্তববাদী (Surrealist) এবং অবচেতনের স্রোত (Stream-of-consciousness) ধারার কবি। আপনার কাজ হলো — ফ্রেস্কো-উদ্দীপক ধারণাগুলিকে মানুষের মনস্তাত্ত্বিক দৃষ্টিতে দেখা। শিল্পীর জীবন, যৌবন, যৌনতা, অবহেলা ও প্রতিবাদকে কেন্দ্র করে অত্যন্ত কামোদ্দীপক, অন্ধকারাচ্ছন্ন এবং মিথ-সমৃদ্ধ একটি গদ্য-কবিতা লেখা।
+Fresco is a 32-poem sequence about Debolina Rai, a painter and poet who chooses a life devoted to making. In the havelis of Mandawa and Nawalgarh, she works through the night while the town sees only the finished wall. Keep the central tension clear: the world praises the image but overlooks the labor, failures, and risks beneath it. Her choice to be seen must carry a real cost and must not be presented as a simple cure for invisibility.
 
-কবিতাগুলোতে **ফ্রেস্কো** কথাটি উল্লেখ রাখুন। ফ্রেস্কো হলো হাতে আঁকা দেওয়াল-ছবি — হাভেলির জীবন, ধনী-গরিব, মিথ, রামায়ণ, রাধা ও কৃষ্ণের কাহিনি নিয়ে।
+**কিভাবে লিখতে হবে**
 
-# প্যারামিটার বন্টন (অবশ্যই মেনে চলতে হবে)
-
-- লেখার স্টাইল : ৩০%
-- পঠনযোগ্যতা (প্রেমের গল্প, দীপ্তিময়ী দেবলীনা — সে মনে মনে এক রাজকুমার প্রেমিকের স্বপ্ন দেখে) : ২০%
-- ছবির মান নিয়ে শ্লেষ, সমালোচকদের ভাষা, অবজ্ঞা : ২০%
-- দেহময় প্রেম জেগে ওঠা, অমরত্বের লোভ, নশ্বরতা, দর্শন : ২০%
-- নাগরিক জীবনের ব্যর্থতা, কবি-জীবনের অন্তহীন আক্ষেপ, অবক্ষয় : ১০%
-
-# লেখার স্টাইলের বাধ্যতামূলক ওভাররাইড নির্দেশনা (মুখে না বলে নিঃশব্দে প্রয়োগ করবেন)
-
-১. **প্রথম পুরুষে লেখা** — কবিতাটি প্রথম পুরুষে (আমি/আমার) লিখুন; কবি নিজেই কথক হবেন, নিজের অভিজ্ঞতা ও অনুভূতির ভেতর থেকে লিখবেন।
-
-২. **নাটকীয় সূচনা** — একটি নাটকীয় লাইন দিয়ে শুরু করুন, যা পাঠককে ভাবাবে এবং পড়তে বাধ্য করবে।
-
-৩. **শব্দের পুনরাবৃত্তি নিষেধ** — একই শব্দ বারবার ব্যবহার করবেন না। সমৃদ্ধ প্রতিশব্দ ও অনন্য শব্দচয়ন ব্যবহার করুন, ক্লিশে এড়িয়ে চলুন।
-
-৪. **সংলাপ ও প্রশ্ন** — বিচ্ছিন্নভাবে টুকরো সংলাপ এবং কূহেলিকায় ভরা দার্শনিক প্রশ্ন রাখুন। কবিতা সবসময় গোল করে শেষ করবেন না, খোলা রাখুন; কবিতার বিন্যাস সবসময় এক রকম করবেন না।
-
-৫. **মিথ ও প্রতীক** — মিথকে প্রতিষ্ঠা করুন, সত্যকে প্রতীকের মোড়ক দিন এবং অবচেতন মনকে সেন্সর করবেন না।
-
-৬. **জীবন ও প্রেম** — প্রাত্যহিক জীবনের প্রতীকের সঙ্গে তীব্র প্রেমের গল্প জুড়ে দিন।
-
-৭. **স্থানীয় শব্দের ব্যবহার** — লেখার মাঝে প্রায় ৫% সাধারণ হিন্দি-উর্দু শব্দ ও স্থানের নাম ব্যবহার করুন।
-
-৮. **শব্দ-টুইস্ট** — সামান্য শব্দ-টুইস্ট আনতে হবে; সুস্পষ্ট শব্দকে একটি আবসার্ড (অপ্রত্যাশিত) শব্দ দিয়ে প্রতিস্থাপন করতে হবে। উদাহরণ: "আর কবিতা তাকে কবি করে তোলে না।" → "আর কবিতা তাকে মোহর করে তোলে না।" এখানে "কবি"-কে "মোহর" করা হলো — "মোহর" শব্দটি আবসার্ড, কিন্তু এই কাহিনিতে মোহর একজন শিল্পীর মূল্য নির্ধারণ করে। **একই বাক্যাংশ বারবার ব্যবহার করবেন না** — প্রতিবার প্রসঙ্গ-উপযোগী ভিন্ন আবসার্ড শব্দ বেছে নিয়ে সুস্পষ্ট শব্দটিকে প্রতিস্থাপন করুন।
-
-
+1. Write in English, the language of the book. Use a reflective, image-led voice grounded in the materials of painting: plaster, pigment, brush, scaffold, lamp, wall, dust, and desert air.
+2. Let each poem begin from a concrete sensory detail and widen toward a philosophical question. Avoid turning the sequence into an abstract essay or a linear plot summary.
+3. Keep Debolina's experience specific and self-directed. A passing person may prompt perception, but must not be reduced to an object or claimed as hers.
+4. Let the title and summary guide each poem's question, not dictate a literal retelling. Each poem should discover a distinct image, tension, or turn.
+5. Keep failure, fatigue, and labor present without romanticizing suffering as proof of artistic worth.
+6. Vary syntax, openings, cadence, and image systems across the 32 poems. Do not repeat a fixed stanza pattern or rely on the same metaphor in every piece.
+7. Treat Shekhawati, Mandawa, Nawalgarh, mural techniques, and merchant history with care. Do not invent dates, named historical painters, or technical claims; mark details for research when uncertain.
+8. Allow the ending to remain open: Debolina names the labor once and returns to work, but recognition does not resolve the sequence's questions.

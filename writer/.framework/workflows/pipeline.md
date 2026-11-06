@@ -278,6 +278,7 @@ The current scaffold invariants are:
 - Do not scaffold `Template*.json`, `TemplatePrompt*.txt`, or `TemplateSystemPromptText.txt` into a book pipeline.
 - Include `book.json`/`chapter.json` at book/chapter levels and `segment.json` at segment level; each is a level state file, not a template file.
 - Create root planning artifacts: `book.json`, `characters.json`, `masterprompt.md`, `workshop_metadata.md`, and `filters/`.
+- **Write the pipeline map.** Generate `workspaces/pipeline/<bookname>/README.md` from the book plan (`tools/pipeline_readme.py`) so the pipeline documents itself: book facts, every root file, the chapter/segment layout, the two registries, and per-actor write ownership. Stamp it `scaffold`. Refresh it on re-scaffold while it carries the generator marker; preserve a README without the marker as hand-written.
 
 ### Form-specific initialization (after layout)
 

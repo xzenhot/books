@@ -23,6 +23,7 @@ if str(TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(TOOLS_DIR))
 
 import book  # noqa: E402
+import pipeline_readme  # noqa: E402
 import quality  # noqa: E402
 
 
@@ -227,6 +228,77 @@ class TestSummaryHelpers(unittest.TestCase):
     def test_incomplete_chapters(self):
         chapters = {1: {"chapter_summary": "word " * 200}}
         self.assertEqual(book._incomplete_chapters(chapters, 3), [2, 3])
+
+
+class TestPipelineReadme(unittest.TestCase):
+    def setUp(self):
+        self.plan = {
+            "book_name": "demo",
+            "form": "poetry",
+            "chapter_count": 2,
+            "word_target": 500,
+            "style": "pijush",
+            "factory": "online",
+            "filter_chain": ["workshop", "research"],
+            "quality_chain": ["subject", "theme"],
+        }
+
+    def test_render_states_book_facts_and_ownership(self):
+        text = pipeline_readme.render(
+            "demo", form="poetry", chapter_count=2, word_target=500,
+            filter_chain=["workshop", "research"], quality_chain=["subject", "theme"],
+            style="pijush", factory="online", updated_date="2026-01-01T00:00:00Z",
+        )
+        self.assertIn("# Pipeline — demo", text)
+        self.assertIn("`workshop` → `research`", text)
+        self.assertIn("| `book.json` |", text)
+        self.assertIn("`chapters/`", text)
+        self.assertIn("publish", text)
+        self.assertIn(pipeline_readme.MARKER, text)
+
+    def test_write_creates_readme_with_marker(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            pipeline = Path(tmp)
+            self.assertTrue(
+                pipeline_readme.write_for_pipeline(
+                    pipeline, "demo", self.plan, stamp="2026-01-01T00:00:00Z",
+                    logger=lambda *_: None,
+                )
+            )
+            text = (pipeline / "README.md").read_text(encoding="utf-8")
+            self.assertIn(pipeline_readme.MARKER, text)
+            self.assertIn("2026-01-01T00:00:00Z", text)
+
+    def test_generated_readme_is_refreshed(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            pipeline = Path(tmp)
+            pipeline_readme.write_for_pipeline(
+                pipeline, "demo", self.plan, stamp="2026-01-01T00:00:00Z",
+                logger=lambda *_: None,
+            )
+            grown = dict(self.plan, chapter_count=3)
+            self.assertTrue(
+                pipeline_readme.write_for_pipeline(
+                    pipeline, "demo", grown, stamp="2026-01-02T00:00:00Z",
+                    logger=lambda *_: None,
+                )
+            )
+            text = (pipeline / "README.md").read_text(encoding="utf-8")
+            self.assertIn("2026-01-02T00:00:00Z", text)
+            self.assertIn("| 3 |", text)
+
+    def test_hand_written_readme_is_preserved(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            pipeline = Path(tmp)
+            (pipeline / "README.md").write_text("# My notes\n", encoding="utf-8")
+            self.assertFalse(
+                pipeline_readme.write_for_pipeline(
+                    pipeline, "demo", self.plan, logger=lambda *_: None
+                )
+            )
+            self.assertEqual(
+                (pipeline / "README.md").read_text(encoding="utf-8"), "# My notes\n"
+            )
 
 
 class TestFilterChainReconciliation(unittest.TestCase):

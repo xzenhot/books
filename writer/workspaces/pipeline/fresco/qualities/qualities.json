@@ -1,0 +1,32 @@
+{
+  "form": "poetry",
+  "qualities": [
+    {
+      "order": 1,
+      "name": "subject",
+      "autorun": true
+    },
+    {
+      "order": 2,
+      "name": "genre",
+      "autorun": true
+    },
+    {
+      "order": 3,
+      "name": "theme",
+      "autorun": true
+    },
+    {
+      "order": 4,
+      "name": "syntax",
+      "autorun": true
+    },
+    {
+      "order": 5,
+      "name": "signature",
+      "autorun": true
+    }
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T12:21:26Z"
+}

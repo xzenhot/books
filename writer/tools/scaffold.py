@@ -12,6 +12,7 @@ from pathlib import Path
 from quality import (read_json, write_json, atomic_bytes, canonical_names, sync_progress,
                      reconcile_filter_chain, stamp_json, audit_timestamp,
                      stamp_markdown_file)
+from pipeline_readme import write_for_pipeline
 
 ROOT = str(Path(__file__).resolve().parent.parent)
 AUDIT_FIELDS = ("updated_by", "updated_date", "updated_at")
@@ -260,6 +261,10 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
     progress_path = pipeline / "progress.json"
     if progress_path.exists():
         _write_if_changed(progress_path, stamp_json(read_json(progress_path), "scaffold", stamp))
+    # The pipeline map is scaffold output: it names this book's chains and counts,
+    # so it is refreshed on resume while it still carries the generator marker.
+    if write_for_pipeline(pipeline, bookname, model, filter_chain=chain, stamp=stamp):
+        print("Wrote pipeline README.md")
     print(f"Scaffold ready: {bookname}, {len(names)} poems; existing drafts and metadata preserved")
 
 

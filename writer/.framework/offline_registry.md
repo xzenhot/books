@@ -22,7 +22,7 @@ python tools/book.py <bookname> <verb> [options...]
 | `init idea` | Rewrite the gist with AI | `python tools/book.py <bookname> init idea` |
 | `build` | Alias for `init` with an optional leading chapter count | `python tools/book.py <bookname> build 20 novel` |
 | `layout` | Regenerate book.json from storyline.md (does not touch gist/storyline) | `python tools/book.py <bookname> layout [novel\|poetry]` |
-| `scaffold` | Build pipeline folder structure, stage the style signature and bookseed vocabulary, and copy them into the pipeline | `python tools/book.py <bookname> scaffold [count] [novel\|poetry]` |
+| `scaffold` | Build pipeline folder structure, stage the style signature and bookseed vocabulary, write the pipeline `README.md` map, and copy them into the pipeline | `python tools/book.py <bookname> scaffold [count] [novel\|poetry]` |
 | `enrich` | Run enrich engine on selected chapters | `python tools/book.py <bookname> enrich [all\|1\|1-5\|continue]` |
 | `write` | Run chapter writer on selected chapters | `python tools/book.py <bookname> write [all\|1\|1-5\|continue]` |
 | `publish` | Promote pipeline segments to workspaces/published/ | `python tools/book.py <bookname> publish` |

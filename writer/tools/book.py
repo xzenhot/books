@@ -102,6 +102,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from promptkit import PromptSet, framework_layout_dir, render
+from pipeline_readme import write_for_pipeline
 from quality import (audit_timestamp, read_json, stamp_markdown_file,
                      write_json)
 
@@ -1745,6 +1746,15 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
         )
 
     print(f"Scaffolded novel pipeline → {pipeline} ({chapter_count} chapters)")
+    # The pipeline map is scaffold output, kept beside the plan it describes.
+    write_for_pipeline(
+        pipeline,
+        bookname,
+        plan,
+        filter_chain=filter_chain,
+        quality_chain=plan.get("quality_chain") or QUALITY_CHAIN_NOVEL,
+        stamp=stamp,
+    )
 
 
 # ---------------------------------------------------------------------------

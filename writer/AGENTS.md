@@ -354,6 +354,7 @@ Common pipeline files:
 
 ```text
 workspaces/pipeline/<bookname>/book.json          # the book plan (cloned from the backlog)
+workspaces/pipeline/<bookname>/README.md          # scaffold-generated map of this pipeline's files and folders
 workspaces/pipeline/<bookname>/signature.md       # the selected style's copied signature (when available)
 workspaces/pipeline/<bookname>/bookseed.md       # the book's copied vocabulary seed; enrich appends a derived lexicon block
 workspaces/pipeline/<bookname>/characters.json
