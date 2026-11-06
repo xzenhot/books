@@ -63,54 +63,24 @@
     }
   ],
   "filter_chain": [
-    {
-      "sl": 1,
-      "filter": "workshop",
-      "autorun": true,
-      "reference": ""
-    },
-    {
-      "sl": 2,
-      "filter": "research",
-      "autorun": false,
-      "reference": ""
-    },
-    {
-      "sl": 3,
-      "filter": "seeds",
-      "autorun": false,
-      "reference": ""
-    },
-    {
-      "sl": 4,
-      "filter": "correctness",
-      "autorun": false,
-      "reference": ""
-    },
-    {
-      "sl": 5,
-      "filter": "theme",
-      "autorun": true,
-      "reference": ""
-    },
-    {
-      "sl": 6,
-      "filter": "syntax",
-      "autorun": true,
-      "reference": ""
-    },
-    {
-      "sl": 7,
-      "filter": "override",
-      "autorun": false,
-      "reference": ""
-    },
-    {
-      "sl": 8,
-      "filter": "quality",
-      "autorun": false,
-      "reference": ""
-    }
+    "workshop",
+    "research",
+    "seeds",
+    "genre",
+    "history",
+    "spatality",
+    "movement",
+    "correctness",
+    "override",
+    "quality"
   ],
-  "updated_at": "2026-10-02T05:06:35.2788726Z"
+  "updated_at": "2026-11-06T10:11:06Z",
+  "quality_chain": [
+    "genre",
+    "theme",
+    "syntax",
+    "signature"
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T10:11:06Z"
 }

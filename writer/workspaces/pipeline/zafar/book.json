@@ -9,7 +9,7 @@
   "form": "poetry",
   "book_summary": "Generated via per-chapter layout — update from storyline.md",
   "created_at": "2026-10-29T18:39:39+00:00",
-  "updated_at": "2026-10-29T19:54:42Z",
+  "updated_at": "2026-11-06T10:11:03Z",
   "user_name": "pijush",
   "gist": "Generated via per-chapter layout — update from storyline.md",
   "chapters": [
@@ -393,16 +393,25 @@
   "filter_chain": [
     "workshop",
     "research",
+    "genre",
+    "history",
+    "spatality",
+    "movement",
     "correctness",
-    "theme",
-    "syntax",
     "override",
     "quality"
   ],
   "word_target": 400,
   "model": "gemma4:latest",
   "provider": "ollama",
-  "updated_by": "style",
-  "updated_date": "2026-10-29T19:54:42Z",
-  "style": "mughal"
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T10:11:03Z",
+  "style": "mughal",
+  "quality_chain": [
+    "subject",
+    "genre",
+    "theme",
+    "syntax",
+    "signature"
+  ]
 }

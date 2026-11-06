@@ -31,12 +31,16 @@ This is the *writing* stage. The blueprint from Part 1 becomes the actual book.
 
 1. **scaffold** — turn `book.json` into a working folder: one folder per chapter, plus the filter chain.
 2. **filters** — each chapter is refined step by step *before* it is written, one filter at a time:
-   - Novel: `workshop → research → seeds → correctness → theme → syntax`
-   - Poetry: `workshop → research → correctness → theme → syntax → override → quality`
+   - Novel: `workshop → research → seeds → genre → history → spatality → movement → correctness → override → quality`
+   - Poetry: `workshop → research → genre → history → spatality → movement → correctness → override → quality`
 3. **enrich** — optionally fuse the active filters into one combined pass — the sum of all filters **except `override` and `quality`** — to refine chapters in a single run.
-4. **style** — pick the voice each chapter is written in (default: `pijush`); this is recorded in `book.json` so the writer knows which style to use.
-5. **write** — the actual chapter/poem text is authored here (one chapter, or all), in the style from `book.json`.
-6. **quality** — after writing, the final check runs before a chapter is marked done.
-7. **translate** — optionally translate a chapter into another language. 
+4. **qualities** — like filters, assign each chapter its quality dimensions in dedicated folders: 
+   - Poetry → `subject`, `genre`, `theme`, `syntax`, `signature`
+   - Novel → `genre`, `theme`, `syntax`, `signature`.
+5. **style** — pick the voice each chapter is written in (default: `pijush`); this is recorded in `book.json` so the writer knows which style to use.
+6. **write** — the actual chapter/poem text is authored here (one chapter, or all), in the style from `book.json`.
+7. **review** — audit the written chapter/poem against its quality dimensions before it is marked done.
 8. **publish** — copy the finished chapters into the final book at `workspaces/published/<bookname>/`.
+
+
 

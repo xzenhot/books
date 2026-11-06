@@ -10,7 +10,7 @@
   "form": "poetry",
   "book_summary": "A sequence of sixty poems following Debolina Rai — painter and poet, sensory nomad — who rejects domesticity to live entirely for creation. Working alone on her scaffold in the half-empty painted havelis of Mandawa and Nawalgarh, she absorbs the world through her senses — the musk of passing men, the wet lime, the lapis ground by lamplight — and finds in the crumbling frescoes a mirror for her own invisibility. Her transformation is the choice to step out of the shadows and expose the raw struggle that gives her art its truth, paying the cost of being seen.",
   "created_at": "2026-10-04",
-  "updated_at": "2026-10-11",
+  "updated_at": "2026-11-06T10:11:06Z",
   "user_name": "pijush",
   "model": "gemma4:latest",
   "provider": "ollama",
@@ -501,11 +501,22 @@
   "filter_chain": [
     "workshop",
     "research",
+    "genre",
+    "history",
+    "spatality",
+    "movement",
     "correctness",
-    "theme",
-    "syntax",
     "override",
     "quality"
   ],
-  "word_target": 110
+  "word_target": 110,
+  "quality_chain": [
+    "subject",
+    "genre",
+    "theme",
+    "syntax",
+    "signature"
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T10:11:06Z"
 }

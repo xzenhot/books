@@ -16,6 +16,24 @@ from quality import (read_json, write_json, atomic_bytes, canonical_names, sync_
 ROOT = str(Path(__file__).resolve().parent.parent)
 AUDIT_FIELDS = ("updated_by", "updated_date", "updated_at")
 
+# The quality dimensions a poetry pipeline assigns per poem, mirroring the
+# filter registry. Each dimension owns a folder under qualities/ and is recorded
+# in qualities/qualities.json. Novel pipelines use the shorter NOVEL list.
+# `theme` and `syntax` moved here from the filter chain. See
+# `.framework/what_i_need.md` Part 2 and the book plan's `quality_chain`.
+POETRY_QUALITY_DIMENSIONS = ("subject", "genre", "theme", "syntax", "signature")
+NOVEL_QUALITY_DIMENSIONS = ("genre", "theme", "syntax", "signature")
+
+# Filters that resolve by form (`.framework/context/<form>/filters/<name>/SKILL.md`);
+# everything else resolves to the shared `.framework/filters/<name>/SKILL.md`.
+FORM_DIVERGENT_FILTERS = frozenset(("workshop", "research", "seeds", "quality"))
+
+
+def _filter_skill_path(root, name, form):
+    """Resolve a filter name to its SKILL.md, by form for the divergent set."""
+    base = "context" / form / "filters" if name in FORM_DIVERGENT_FILTERS else "filters"
+    return root / ".framework" / base / name / "SKILL.md"
+
 
 def _content(document):
     """Return a JSON document without its audit fields, for equality checks."""
@@ -93,7 +111,7 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
             raise ValueError("Incomplete chapter model")
     chain = reconcile_filter_chain(plan)
     for name in chain:
-        if not (root / ".framework/filters" / name / "SKILL.md").is_file():
+        if not _filter_skill_path(root, name, plan.get("form", "poetry")).is_file():
             raise ValueError(f"Missing filter skill: {name}")
     # A plan laid out with the novel option declares the novel chain. Poetry
     # requires the ordered workshop-through-quality chain, so reconcile the plan
@@ -132,7 +150,7 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
             live = read_json(path)
             if live.get("name") != entry["name"] or live.get("chapter_index") != entry["chapter_index"]:
                 raise ValueError(f"Conflicting chapter identity: {path}")
-    for relative in ("progress.json", "filters/filters.json"):
+    for relative in ("progress.json", "filters/filters.json", "qualities/qualities.json"):
         path = pipeline / relative
         if path.exists():
             read_json(path)
@@ -204,9 +222,30 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
                 write_json(segment / "segment.json", {"level": "segment", "state": "pending", "chapter_index": entry["chapter_index"], "segment_index": 1})
     registry = pipeline / "filters/filters.json"
     if not registry.exists():
+        form = plan.get("form", "poetry")
         write_json(registry, stamp_json(
-            {"filters": [{"order": i, "name": name, "agent": f".framework/filters/{name}/SKILL.md", "autorun": True}
-                         for i, name in enumerate(chain, 1)]},
+            {"filters": [
+                {"order": i, "name": name,
+                 "agent": (f".framework/context/{form}/filters/{name}/SKILL.md"
+                           if name in FORM_DIVERGENT_FILTERS
+                           else f".framework/filters/{name}/SKILL.md"),
+                 "autorun": True}
+                for i, name in enumerate(chain, 1)]},
+            "scaffold"))
+    # The quality registry is scaffold's counterpart to filters.json: it names the
+    # book's quality dimensions, one folder each under qualities/, resolved by form.
+    # The book plan's `quality_chain` is authoritative; when absent, fall back to
+    # the form's canonical dimensions. Scaffold creates only the registry JSON
+    # (like filters.json); each quality folder is created on first use by its agent.
+    quality_registry = pipeline / "qualities/qualities.json"
+    if not quality_registry.exists():
+        quality_names = list(plan.get("quality_chain") or [])
+        if not quality_names:
+            quality_names = NOVEL_QUALITY_DIMENSIONS if plan.get("form") == "novel" else POETRY_QUALITY_DIMENSIONS
+        write_json(quality_registry, stamp_json(
+            {"form": plan.get("form"), "qualities": [
+                {"order": i, "name": name, "autorun": True}
+                for i, name in enumerate(quality_names, 1)]},
             "scaffold"))
     prompt = pipeline / "override.md"
     if not prompt.exists():

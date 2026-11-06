@@ -18,9 +18,11 @@
   "filter_chain": [
     "workshop",
     "research",
+    "genre",
+    "history",
+    "spatality",
+    "movement",
     "correctness",
-    "theme",
-    "syntax",
     "override",
     "quality"
   ],
@@ -698,5 +700,14 @@
       "chapter_summary": "পাহাড় ও সাগরিকার প্রেম — প্রাচীন শিলার বুকে আধুনিক শরীরের স্পর্শ, যেখানে ভূতত্ত্ব, ইতিহাস, বিলুপ্তি ও কাম একসঙ্গে গলে একাকার।",
       "further_references": []
     }
-  ]
+  ],
+  "quality_chain": [
+    "subject",
+    "genre",
+    "theme",
+    "syntax",
+    "signature"
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T10:11:03Z"
 }

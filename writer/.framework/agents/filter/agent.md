@@ -40,8 +40,12 @@ write finished chapters, and never read or write `chapters/<n>/chapter.md`
    to resolve the filter name to its skill path and `autorun` flag. Each entry
    carries only `order`, `name`, `agent` (the skill path), and `autorun`.
 3. **Load the filter skill from its folder directory.** Resolve the filter name to
-   its skill file directly by folder name: `.framework/filters/<filter>/SKILL.md`
-   (e.g. `filter workshop` → `.framework/filters/workshop/SKILL.md`). Read that
+   its skill file by folder name. The **form-divergent** filters — `workshop`,
+   `research`, `seeds`, and `quality` — resolve by the book's form to
+   `.framework/context/<form>/filters/<filter>/SKILL.md` (poetry or novel). The
+   **shared** filters — `genre`, `history`, `spatality`, `movement`, `correctness`,
+   and `override` — resolve to `.framework/filters/<filter>/SKILL.md`. Resolve the
+   form from the pipeline `book.json` first, then the chapter model. Read the resolved
    `SKILL.md` in full and execute it as the filter's authoritative instruction set.
    If the folder or `SKILL.md` does not exist, stop and report the missing filter
    skill — do not guess or substitute another skill.

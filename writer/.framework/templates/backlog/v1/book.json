@@ -1088,5 +1088,25 @@
             "autorun": true,
             "reference": "final polish and refinement"
         }
+    ],
+    "quality_chain": [
+        {
+            "sl": 1,
+            "quality": "genre",
+            "autorun": true,
+            "reference": "assign the chapter's genre"
+        },
+        {
+            "sl": 2,
+            "quality": "syntax",
+            "autorun": true,
+            "reference": "assign the chapter's syntax/register"
+        },
+        {
+            "sl": 3,
+            "quality": "signature",
+            "autorun": true,
+            "reference": "assign the chapter's authorial voice"
+        }
     ]
 }

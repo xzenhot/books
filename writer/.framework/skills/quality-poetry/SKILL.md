@@ -45,6 +45,26 @@ Apply the seed analysis's quality metrics to every chapter:
 - **Literary quality** — the verse is crafted, not merely correct.
 - **Ethical framework** — grounded in the epic's values.
 
+### Resolving the seed analysis
+
+The quality metrics come from the book's **seed analysis**, which lives under
+`.framework/context/poetry/themes/<theme-set>/` (each theme set carries its own
+quality/seed analysis as the `theme.md`). Resolve it first:
+
+1. Read the chapter model's `stereotype.theme_set` (and its associated
+   `reference`) to name the seed analysis; when none is named, fall back to the
+   book plan's theme set.
+2. Read the resolved seed analysis (e.g.
+   `.framework/context/poetry/themes/aurilus/theme.md`, which is the Meditations
+   seed analysis, or a theme set that carries its own seed analysis) for its full
+   metrics — philosophical depth, metaphorical richness, accessibility, relevance,
+   literary quality, ethical framework — and audit the chapter against those
+   specific ratings and metaphor families.
+
+The seed analysis supplies the **content bar and the creative parameters**; the
+style supplies only the **structure and register**. Never pull the creative bar
+(voice, imagery, emotional depth) from a style file.
+
 ## Generating the filter.md (Runtime, Context-Aware)
 
 The `filter.md` is **generated from the chapter models** — it is not a static template. At runtime, read the chapter models and populate the file with the book's actual context, so the human's directives are grounded in what the chapters actually contain.

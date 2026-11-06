@@ -189,11 +189,21 @@ SUMMARY_MIN_WORDS = 150    # minimum chapter_summary length in words (target 150
 # ---------------------------------------------------------------------------
 
 FILTER_CHAIN_NOVEL = [
-    "workshop", "research", "seeds", "correctness", "theme", "syntax",
+    "workshop", "research", "seeds", "genre", "history", "spatality", "movement",
+    "correctness", "override", "quality",
 ]
 FILTER_CHAIN_POETRY = [
-    "workshop", "research", "correctness", "theme", "syntax", "override", "quality",
+    "workshop", "research", "genre", "history", "spatality", "movement",
+    "correctness", "override", "quality",
 ]
+
+# Quality chains — canonical defaults per form (the qualities counterpart of the
+# filter chain). See `.framework/what_i_need.md` Part 2 and
+# `.framework/rules/style-signature-quality.md`. `theme` and `syntax` moved here
+# from the filter chain; poetry assigns subject, genre, theme, syntax, and
+# signature; novels assign genre, theme, syntax, and signature.
+QUALITY_CHAIN_POETRY = ["subject", "genre", "theme", "syntax", "signature"]
+QUALITY_CHAIN_NOVEL = ["genre", "theme", "syntax", "signature"]
 
 # ---------------------------------------------------------------------------
 # System prompt for layout generation
@@ -411,6 +421,7 @@ def make_book_json(
         "chapters": chapters,
         "all_characters": [],
         "filter_chain": FILTER_CHAIN_POETRY if form == "poetry" else FILTER_CHAIN_NOVEL,
+        "quality_chain": QUALITY_CHAIN_POETRY if form == "poetry" else QUALITY_CHAIN_NOVEL,
         "word_target": 500 if form == "poetry" else 4500,
     }
 
@@ -1066,6 +1077,7 @@ def _generate_layout_batched(
         "chapters": chapters,
         "all_characters": [],
         "filter_chain": FILTER_CHAIN_POETRY if form == "poetry" else FILTER_CHAIN_NOVEL,
+        "quality_chain": QUALITY_CHAIN_POETRY if form == "poetry" else QUALITY_CHAIN_NOVEL,
         "word_target": word_target,
     }
 
@@ -1206,6 +1218,7 @@ def generate_layout(
         "chapters": chapters,
         "all_characters": [],
         "filter_chain": FILTER_CHAIN_POETRY if form == "poetry" else FILTER_CHAIN_NOVEL,
+        "quality_chain": QUALITY_CHAIN_POETRY if form == "poetry" else QUALITY_CHAIN_NOVEL,
         "word_target": word_target,
     }
 
@@ -1423,6 +1436,9 @@ def create_backlog(
         plan["form"] = form
         plan["filter_chain"] = (
             FILTER_CHAIN_POETRY if form == "poetry" else FILTER_CHAIN_NOVEL
+        )
+        plan["quality_chain"] = (
+            QUALITY_CHAIN_POETRY if form == "poetry" else QUALITY_CHAIN_NOVEL
         )
         if chapter_count is not None and chapter_count != len(chapters):
             chapters = make_chapters(bookname, form, seed, chapter_count)

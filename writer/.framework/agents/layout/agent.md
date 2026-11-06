@@ -58,7 +58,7 @@ If the book plan is missing, do not proceed — report the missing book plan and
 
 ## What to Read (in order)
 
-1. `workspaces/backlog/<bookname>/book.json` — the authoritative book plan: `filter_chain`, `chapters`, `chapter_count`, `word_target`, `all_characters` (novel), `gist`, `book_summary`, and optional `style`.
+1. `workspaces/backlog/<bookname>/book.json` — the authoritative book plan: `filter_chain`, `quality_chain`, `chapters`, `chapter_count`, `word_target`, `all_characters` (novel), `gist`, `book_summary`, and optional `style`.
 2. `workspaces/backlog/<bookname>/storyline.md` (novel) — the story source of truth; or the gist/topic list (poetry).
 3. The command's `--form` flag, if supplied, to override the inferred form.
 4. The selected style's `signature.md` at `.framework/context/<form>/styles/<style>/signature.md`. Resolve `<style>` from the backlog plan's `style`, defaulting to `pijush` for poetry or `dialogue` for novels.
@@ -72,13 +72,14 @@ Resolve and hand off a **pre-layout plan** with these fields:
 2. **Chapter count** — from `book.json`'s `chapter_count`, or the length of its `chapters` array, or the default (5).
 3. **Topic/chapter list** — for poetry, the ordered topic list (from `book.json`'s `chapters` or the gist); for novels, the canonical chapter order (`Introduction`, `1..N`, `Conclusion`).
 4. **Filter chain** — the ordered `filter_chain` from `book.json`, as declared by the form's preset (`.framework/skills/layout-poetry/SKILL.md` for poetry, `.framework/skills/layout-novel/SKILL.md` for novel). This is the authoritative sequence the layout skill uses to build `filters/filters.json`.
-5. **Word target** — from `book.json`'s `word_target`, as declared by the preset. This is a **chapter-instance property**: the book-level value is only a default. Hand it to the layout skill as a per-chapter default that must be stamped into every chapter instance (each `chapters[]` item and each chapter's `model.json`), not kept as a book-level-only value.
-6. **Style** — the style nickname from `book.json` or its form default, used to resolve the companion style signature.
-7. **Book seed** — the path of the vocabulary/phrase seed staged at `workspaces/backlog/<bookname>/bookseed.md` for scaffold to copy.
+5. **Quality chain** — the ordered `quality_chain` from `book.json`, the qualities counterpart of the filter chain, resolved by form. Poetry: `subject → genre → theme → syntax → signature`; novel: `genre → syntax → signature`. This is the authoritative sequence the layout skill uses to build `qualities/qualities.json`.
+6. **Word target** — from `book.json`'s `word_target`, as declared by the preset. This is a **chapter-instance property**: the book-level value is only a default. Hand it to the layout skill as a per-chapter default that must be stamped into every chapter instance (each `chapters[]` item and each chapter's `model.json`), not kept as a book-level-only value.
+7. **Style** — the style nickname from `book.json` or its form default, used to resolve the companion style signature.
+8. **Book seed** — the path of the vocabulary/phrase seed staged at `workspaces/backlog/<bookname>/bookseed.md` for scaffold to copy.
 
 ## Phase 1 Rules
 
-- **Validate before layout.** Confirm the book plan is internally consistent: the `filter_chain` matches the form's preset, the `chapters` array matches the form's structure, and `word_target` matches the preset's target. If inconsistent, reconcile to the resolved form and note the correction.
+- **Validate before layout.** Confirm the book plan is internally consistent: the `filter_chain` matches the form's preset, the `quality_chain` matches the form's quality dimensions (poetry: `subject, genre, theme, syntax, signature`; novel: `genre, syntax, signature`), the `chapters` array matches the form's structure, and `word_target` matches the preset's target. If inconsistent, reconcile to the resolved form and note the correction.
 - **Backlog is the source.** The pre-layout plan is derived from the backlog book plan, never invented. Do not read the layout skills' *Preset* sections — the book plan's `filter_chain` is authoritative.
 - **Stage the book seed (fill gaps only).** The backlog `layout`/`refresh` path stages the book's vocabulary seed at `workspaces/backlog/<bookname>/bookseed.md` from `.framework/templates/backlog/v1/bookseed.md`. When Phase 1 finds it still absent, stage it from that template using the same create-if-missing rule. `bookseed.md` is plain text and is never stamped. Never overwrite an existing staged file; report when the template is unavailable. **Phase 1 does not stage `signature.md`** — the selected style's signature is copied into the pipeline by scaffold directly from `.framework/context/<form>/styles/<style>/signature.md`.
 - **Do not scaffold.** This phase only prepares the plan. It must not create `workspaces/pipeline/<bookname>/`, must not create folders, and must not run the layout skill or any filter.
@@ -135,9 +136,10 @@ Phase 1 returns:
 1. The resolved **form**.
 2. The **chapter count** and the ordered **topic/chapter list**.
 3. The ordered **filter chain** (one name per line, in order).
-4. The **word target**.
-5. The selected **style** nickname (used by scaffold to resolve the style signature from `.framework/context/<form>/styles/<style>/signature.md`) and whether the **book seed** was staged at `workspaces/backlog/<bookname>/bookseed.md`.
-6. Any **inconsistencies reconciled** (e.g. "filter_chain did not match the form's preset; reconciled to the preset sequence").
+4. The ordered **quality chain** (one name per line, in order).
+5. The **word target**.
+6. The selected **style** nickname (used by scaffold to resolve the style signature from `.framework/context/<form>/styles/<style>/signature.md`) and whether the **book seed** was staged at `workspaces/backlog/<bookname>/bookseed.md`.
+7. Any **inconsistencies reconciled** (e.g. "filter_chain did not match the form's preset; reconciled to the preset sequence").
 
 Phase 2 returns:
 

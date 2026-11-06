@@ -151,7 +151,7 @@ Skills are invoked **only through an agent** — never directly. Form-specific s
 - `sonnet`, `limerick`, `haiku` — fixed-form Bengali poems (akshar-count via MCP).
 - `lyrics` — modern Bengali song lyrics (syllable-count via MCP; akshar does not apply).
 
-Reference filters live under `.framework/filters/reference/` (`poeticprose`, `narrative`, `dialogue`, `pacing`, `geography`, `history`, `indian`, `mythology`, `philosophy`, `contemporary`, `revision`, `translation`).
+Reference filters live under `.framework/filters/reference/` (`narrative`, `dialogue`, `pacing`, `geography`, `history`, `indian`, `mythology`, `contemporary`, `revision`, `translation`).
 
 ---
 

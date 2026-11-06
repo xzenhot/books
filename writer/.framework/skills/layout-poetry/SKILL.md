@@ -47,16 +47,18 @@ The poetry form's default preset is the **philosophical poem** preset, now folde
 - **Filter sequence** (each step is an agent/filter applied to every selected poem in sequence):
 
 ```text
-workshop -> research -> correctness -> theme -> syntax -> override -> quality
+workshop -> research -> genre -> history -> spatality -> movement -> correctness -> override -> quality
 ```
 
 1. **workshop** — Create the poem as flat, continuous poetic prose, grounded in the topic and chapter plan.
 2. **research** — Gather and organize the subject, context, source notes, and usable images for the poem.
-3. **correctness** — Verify factual, attributional, religious, philosophical, and cultural claims before poetic rendering.
-4. **theme** — Assign the poem's philosophical lens, contemporary mapping, and form-consistent poetic stereotype selection.
-5. **syntax** — Apply the selected poetic syntax guidance so the language remains current while preserving elevated cadence.
-6. **override** — Apply any human transformation instructions from the override layer, or pass through unchanged when empty.
-7. **quality** — Audit the poem against the preset, topic, theme, voice, correctness result, and final quality bar.
+3. **genre** — Assign the poem's genre (the literary category shaping its register).
+4. **history** — Ground the poem in verified historical/contextual material.
+5. **spatality** — Ground the poem in a specific sense of place and space.
+6. **movement** — Shape the poem's through-line, pacing, and closing gesture.
+7. **correctness** — Verify factual, attributional, religious, philosophical, and cultural claims before poetic rendering.
+8. **override** — Apply any human transformation instructions from the override layer, or pass through unchanged when empty.
+9. **quality** — Audit the poem against the preset, topic, theme, voice, correctness result, and final quality bar.
 
 ## Canonical Folder Shape
 

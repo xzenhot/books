@@ -55,12 +55,19 @@ Each poem is assigned a **poetic signature** — a poet-stereotype that gives th
 movement, motif, and music. The signatures live under
 `.framework/context/poetry/signatures/`:
 
-```text
-aurilus, blake, dickinson, eliot, gibran, hafez, jibanananda, lorca,
-nazrul, neruda, rabindranath, rabindrasangeet, rilke, rumi, shakti,
-sukanta, whitman, yeats,
-aurilus-rumi-eliot-gibran   # the blended compound signature
-```
+**Discover them from `.framework/context/poetry/signatures/registry.md`** — never from a
+hardcoded list. Read the registry first, then read the chosen `signature.md`. The registry
+now catalogues two families:
+
+- **Poet-voices** — `aurilus`, `blake`, `dickinson`, `eliot`, `gibran`, `hafez`,
+  `jibanananda`, `lorca`, `nazrul`, `neruda`, `rabindranath`, `rabindrasangeet`, `rilke`,
+  `rumi`, `shakti`, `sukanta`, `whitman`, `yeats`, plus the compound
+  `aurilus-rumi-eliot-gibran`.
+- **Tonal/POV voices** (folded from the retired `styles/`) — `action-packed`, `dark`,
+  `descriptive`, `dialogue-driven`, `epistolary`, `experimental`, `expository`,
+  `first-person`, `humorous`, `interactive`, `lyrical`, `minimalist`, `narrative`,
+  `persuasive`, `philosophical`, `reflective`, `satirical`, `stream-of-consciousness`,
+  `third-person-limited`, `unreliable-narrator`, `vignette`.
 
 Each `signature.md` defines four things you must fold into the poem's record:
 
@@ -117,9 +124,13 @@ Resolve the book's style from `.framework/context/poetry/styles/`:
 - **srijato** — the modern urban song-lyrics voice (see `styles/srijato/style.md` and
   `signature.md`); ground the poem in the daily-used register of the subject.
 
-The style supplies the **voice**; the signature supplies the **movement and motif**. Keep
-both consistent with the poem's topic — do not import a tantric/foreign lexicon onto a
-poem that does not invite it.
+Per `.framework/rules/style-signature-quality.md`: the **style** supplies the
+**structure** (syntax, meter, line/stanza shape, register); the **signature** supplies the
+**voice** (movement, motif, diction, pattern); the **theme set / seed analysis** supplies
+the **content bar** (metrics, metaphor families, creative parameters). Keep all three
+consistent with the poem's topic — do not import a tantric/foreign lexicon onto a poem
+that does not invite it, and do not let a style's structure overrule a signature's
+movement or the seed analysis's content.
 
 ## Poetic Parameters (what the fused pass records)
 
@@ -177,8 +188,9 @@ list in `order` sequence. Treat `workshop` and `override` as always disabled for
 active = [ f for f in filters.json.filters if f.autorun == true ], sorted by f.order
 ```
 
-For each active filter, note its skill path (e.g. `.framework/filters/workshop/SKILL.md`).
-These are the skills you will fuse. If `filters.json` is missing or has no active filters,
+For each active filter, note its skill path. Form-divergent filters (`workshop`,
+`research`, `seeds`, `quality`) resolve to `.framework/context/<form>/filters/<name>/SKILL.md`;
+the rest resolve to `.framework/filters/<name>/SKILL.md`. These are the skills you will fuse. If `filters.json` is missing or has no active filters,
 stop with a clear error — there is nothing to combine.
 
 ## Step 2 — Fuse the Active Skills

@@ -171,12 +171,13 @@ They are reached through the filter agent (`.framework/agents/filter/agent.md`).
 Known pipeline filter skills:
 
 ```text
-correctness, override, quality, research, seeds, syntax, theme
+workshop, research, seeds, genre, history, spatality, movement,
+correctness, override, quality
 ```
 
-`workshop` (`.framework/filters/workshop/SKILL.md`) is a backlog-only filter — it
-enriches the backlog book plan via `/book <bookname> workshop chapter <n|range|*> update
-<verb>` and never runs inside the pipeline.
+The form-divergent filters — `workshop`, `research`, `seeds`, `quality` — resolve
+by form to `.framework/context/<form>/filters/<name>/SKILL.md`; the rest resolve to
+`.framework/filters/<name>/SKILL.md`.
 
 Known lifecycle agents:
 
@@ -279,15 +280,17 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/line/agent.md
 .framework/agents/rhyme/agent.md
 
-# Filter agents (moved to .framework/filters/)
-.framework/filters/workshop/SKILL.md
-.framework/filters/research/SKILL.md
+# Filter agents — shared (form-agnostic) under .framework/filters/;
+# form-divergent (workshop, research, seeds, quality) live per form under
+# .framework/context/<form>/filters/
+.framework/filters/genre/SKILL.md
+.framework/filters/history/SKILL.md
+.framework/filters/spatality/SKILL.md
+.framework/filters/movement/SKILL.md
 .framework/filters/correctness/SKILL.md
-.framework/filters/theme/SKILL.md
-.framework/filters/syntax/SKILL.md
 .framework/filters/override/SKILL.md
-.framework/filters/quality/SKILL.md
-.framework/filters/seeds/SKILL.md
+.framework/context/poetry/filters/{workshop,research,seeds,quality}/SKILL.md
+.framework/context/novel/filters/{workshop,research,seeds,quality}/SKILL.md
 ```
 
 Agents are the only valid runtime entry points for skill-backed behavior.
@@ -365,6 +368,7 @@ workspaces/pipeline/<bookname>/bookseed.md       # the book's copied vocabulary 
 workspaces/pipeline/<bookname>/characters.json
 workspaces/pipeline/<bookname>/progress.json
 workspaces/pipeline/<bookname>/filters/
+workspaces/pipeline/<bookname>/qualities/          # quality-dimension registry + folders (qualities.json)
 workspaces/pipeline/<bookname>/chapters/
 ```
 
@@ -406,6 +410,16 @@ autorun
 ```
 
 If no registry exists, follow `.framework/workflows/pipeline.md` and the current pipeline layout.
+
+### Quality Dimensions
+
+Quality dimensions write only inside the pipeline quality folders resolved by:
+
+```text
+workspaces/pipeline/<bookname>/qualities/qualities.json
+```
+
+The quality registry is the qualities counterpart of `filters/filters.json`: it names the book's quality dimensions by form — **poetry**: `subject → genre → theme → style → signature`; **novel**: `genre → style → signature` — each with `order`, `name`, and `autorun`. Scaffold creates only the registry JSON; each dimension owns its `qualities/<dimension>/` folder on first use.
 
 ### Final Output
 

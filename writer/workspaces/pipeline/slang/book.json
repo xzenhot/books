@@ -17,9 +17,11 @@
   "filter_chain": [
     "workshop",
     "research",
+    "genre",
+    "history",
+    "spatality",
+    "movement",
     "correctness",
-    "theme",
-    "syntax",
     "override",
     "quality"
   ],
@@ -3527,5 +3529,14 @@
       "role": "জীবনের মূল সংগ্রামকে ধারণকারী",
       "arc": ""
     }
-  ]
+  ],
+  "quality_chain": [
+    "subject",
+    "genre",
+    "theme",
+    "syntax",
+    "signature"
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T10:11:03Z"
 }

@@ -20,9 +20,11 @@
   "filter_chain": [
     "workshop",
     "research",
+    "genre",
+    "history",
+    "spatality",
+    "movement",
     "correctness",
-    "theme",
-    "syntax",
     "override",
     "quality"
   ],
@@ -676,5 +678,14 @@
       "further_references": []
     }
   ],
-  "all_characters": []
+  "all_characters": [],
+  "quality_chain": [
+    "subject",
+    "genre",
+    "theme",
+    "syntax",
+    "signature"
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T10:11:06Z"
 }

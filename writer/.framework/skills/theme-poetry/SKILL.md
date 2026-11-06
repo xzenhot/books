@@ -29,10 +29,15 @@ A theme is not a topic or a plot point. It is a **lens** — a recurring idea th
 1. Read the chapter's `model.json`.
 2. Confirm the form is `poetry` (from `model.json` → `syntax.form` or the pipeline model).
 3. Select the **signature**, **reference**, and **theme set** from the poetry stereotype templates:
-   - `.framework/context/poetry/signatures/`
-   - `.framework/context/poetry/references/`
-   - `.framework/context/poetry/themes/`
-   - Read the `registry.md` in each folder to discover what is available, then read the chosen files.
+   - `.framework/context/poetry/signatures/` — **read `registry.md` first** to discover the
+     available voices (poet-voices + tonal/POV voices folded from the retired `styles/`),
+     then read the chosen `signature.md`.
+   - `.framework/context/poetry/references/` — read the folder listing to discover sources,
+     then the chosen reference.
+   - `.framework/context/poetry/themes/` — read the folder listing to discover theme sets,
+     then the chosen `theme.md`.
+   - Read the `registry.md` in each folder where one exists to discover what is available,
+     then read the chosen files.
 4. Assign the chapter its theme, and map it onto a present-day concern.
 5. Record the stereotype in `model.json` (see Output).
 

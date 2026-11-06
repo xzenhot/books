@@ -54,8 +54,9 @@ list in `order` sequence. Treat `workshop` and `override` as always disabled for
 active = [ f for f in filters.json.filters if f.autorun == true ], sorted by f.order
 ```
 
-For each active filter, note its skill path (e.g. `.framework/filters/workshop/SKILL.md`).
-These are the skills you will fuse.
+For each active filter, note its skill path. Form-divergent filters (`workshop`,
+`research`, `seeds`, `quality`) resolve to `.framework/context/<form>/filters/<name>/SKILL.md`;
+the rest resolve to `.framework/filters/<name>/SKILL.md`. These are the skills you will fuse.
 
 If `filters.json` is missing or has no active filters, stop with a clear error — there
 is nothing to combine.

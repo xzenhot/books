@@ -1,0 +1,60 @@
+{
+  "filters": [
+    {
+      "order": 1,
+      "name": "workshop",
+      "agent": ".framework/context/poetry/filters/workshop/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 2,
+      "name": "research",
+      "agent": ".framework/context/poetry/filters/research/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 3,
+      "name": "genre",
+      "agent": ".framework/filters/genre/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 4,
+      "name": "history",
+      "agent": ".framework/filters/history/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 5,
+      "name": "spatality",
+      "agent": ".framework/filters/spatality/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 6,
+      "name": "movement",
+      "agent": ".framework/filters/movement/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 7,
+      "name": "correctness",
+      "agent": ".framework/filters/correctness/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 8,
+      "name": "override",
+      "agent": ".framework/filters/override/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 9,
+      "name": "quality",
+      "agent": ".framework/context/poetry/filters/quality/SKILL.md",
+      "autorun": true
+    }
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T10:11:03Z"
+}

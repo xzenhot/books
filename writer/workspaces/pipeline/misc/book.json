@@ -13,7 +13,7 @@
   "style": "desh",
   "book_summary": "A sequence of sixty poems, each turned toward one small thing in the daily social life of India — the chai glass sweating on a railway platform, the vermilion at a doorway, the folded hands of a shopkeeper at dawn, the shared silence of a bus that has not yet started. The speaker is a quiet witness who has learned that a nation is made not of monuments but of minutes, and that to look closely at any small, overlooked particular is to look closely at everyone. The poems move through a single day, from first light to the lamp lit at dusk, and find in each object, gesture, and pause a larger truth about ritual, labor, and belonging.",
   "created_at": "2026-10-23",
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-11-06T10:11:03Z",
   "user_name": "pijush",
   "gist": "Observation of small things in daily social life in India — the tiny, half-seen gestures and objects that carry the whole weight of a society.",
   "chapters": [
@@ -502,11 +502,22 @@
   "filter_chain": [
     "workshop",
     "research",
+    "genre",
+    "history",
+    "spatality",
+    "movement",
     "correctness",
-    "theme",
-    "syntax",
     "override",
     "quality"
   ],
-  "word_target": 500
+  "word_target": 500,
+  "quality_chain": [
+    "subject",
+    "genre",
+    "theme",
+    "syntax",
+    "signature"
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T10:11:03Z"
 }

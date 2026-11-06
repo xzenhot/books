@@ -30,9 +30,11 @@ def read_json(path):
 
 
 # Canonical poetry filter chain: workshop-through-quality, in order.
-POETRY_FILTER_CHAIN = ("workshop", "research", "correctness", "theme", "syntax", "override", "quality")
+# `theme` and `syntax` moved to the quality chain; `genre`, `history`, `spatality`,
+# and `movement` joined the filter chain.
+POETRY_FILTER_CHAIN = ("workshop", "research", "genre", "history", "spatality", "movement", "correctness", "override", "quality")
 # Canonical novel filter chain, as declared by the backlog book template.
-NOVEL_FILTER_CHAIN = ("research", "seeds", "correctness", "theme", "syntax", "override", "quality")
+NOVEL_FILTER_CHAIN = ("workshop", "research", "seeds", "genre", "history", "spatality", "movement", "correctness", "override", "quality")
 
 
 def filter_chain_names(chain):

@@ -9,7 +9,7 @@
   "form": "novel",
   "book_summary": "Generated via per-chapter layout — update from storyline.md",
   "created_at": "2026-10-24T03:57:22+00:00",
-  "updated_at": "2026-10-24T03:57:22+00:00",
+  "updated_at": "2026-11-06T10:11:06Z",
   "user_name": "pijush",
   "gist": "Generated via per-chapter layout — update from storyline.md",
   "chapters": [
@@ -301,15 +301,26 @@
   ],
   "all_characters": [],
   "filter_chain": [
+    "workshop",
     "research",
     "seeds",
+    "genre",
+    "history",
+    "spatality",
+    "movement",
     "correctness",
-    "theme",
-    "syntax",
     "override",
     "quality"
   ],
   "word_target": 4500,
   "model": "gemma4:latest",
-  "provider": "ollama"
+  "provider": "ollama",
+  "quality_chain": [
+    "genre",
+    "theme",
+    "syntax",
+    "signature"
+  ],
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-06T10:11:06Z"
 }

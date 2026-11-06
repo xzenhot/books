@@ -8,19 +8,23 @@ than guessing.
 ## Chain members (active)
 
 These are the named filters that appear in a book plan's `filter_chain` and are
-routed by `.framework/agents/filter/agent.md`. Each dispatches to a form-specific
-skill under `.framework/skills/`.
+routed by `.framework/agents/filter/agent.md`. The **form-divergent** filters
+(`workshop`, `research`, `seeds`, `quality`) resolve by the book's form to
+`.framework/context/<form>/filters/<name>/SKILL.md`; the **shared** filters resolve
+to `.framework/filters/<name>/SKILL.md`.
 
-| Folder | Dispatches to |
-|--------|---------------|
-| `workshop/` | `.framework/skills/workshop-novel/SKILL.md`, `workshop-poetry/SKILL.md` |
-| `research/` | (self-contained) |
-| `seeds/` | (self-contained) |
-| `correctness/` | (self-contained) |
-| `theme/` | `.framework/skills/theme-novel/SKILL.md`, `theme-poetry/SKILL.md` |
-| `syntax/` | (self-contained) |
-| `override/` | (human-in-the-loop command file) |
-| `quality/` | `.framework/skills/quality-novel/SKILL.md`, `quality-poetry/SKILL.md` |
+| Folder | Resolves to | Form-divergent |
+|--------|-------------|----------------|
+| `workshop/` | `.framework/context/<form>/filters/workshop/SKILL.md` | ✅ |
+| `research/` | `.framework/context/<form>/filters/research/SKILL.md` | ✅ |
+| `seeds/` | `.framework/context/<form>/filters/seeds/SKILL.md` | ✅ |
+| `genre/` | `.framework/filters/genre/SKILL.md` | — |
+| `history/` | `.framework/filters/history/SKILL.md` | — |
+| `spatality/` | `.framework/filters/spatality/SKILL.md` | — |
+| `movement/` | `.framework/filters/movement/SKILL.md` | — |
+| `correctness/` | `.framework/filters/correctness/SKILL.md` | — |
+| `override/` | `.framework/filters/override/SKILL.md` | — |
+| `quality/` | `.framework/context/<form>/filters/quality/SKILL.md` | ✅ |
 
 ## Reference libraries (`reference/`)
 
@@ -38,8 +42,6 @@ writing agents as grounding material. Never invoked directly by a filter agent.
 | `reference/mythology/` | myth and legend |
 | `reference/narrative/` | narrative structure |
 | `reference/pacing/` | pacing technique |
-| `reference/philosophy/` | philosophical grounding |
-| `reference/poeticprose/` | poetic-prose craft |
 | `reference/revision/` | revision guidance |
 | `reference/translation/` | translation guidance |
 
@@ -51,3 +53,11 @@ Moved out of the active tree; no live agent, workflow, or skill may reference th
 |--------|-------------|-------------|
 | `layout/` | compatibility dispatcher | superseded by `skills/layout-novel` / `layout-poetry` |
 | `enrich/` | legacy enrich engine | superseded by `skills/enrich-novel` / `enrich-poetry` |
+| `reference/philosophy/` | philosophical grounding | pointed at the removed `workspaces/context/qualities/` path; seed analysis now lives under `context/<form>/themes/` |
+| `reference/poeticprose/` | Gibran-esque prose craft | pointed at the removed `workspaces/context/qualities/` path and a dead `config.json`/`workspaces/context` tree |
+| `theme/` | thematic lens filter | moved to the quality chain (`qualities/theme`) |
+| `syntax/` | syntax/register filter | moved to the quality chain (`qualities/syntax`) |
+| `workshop/` | shared workshop dispatcher | split into `.framework/context/poetry/filters/workshop/` and `.framework/context/novel/filters/workshop/` |
+| `research/` | shared research filter | split into `.framework/context/poetry/filters/research/` and `.framework/context/novel/filters/research/` |
+| `seeds/` | shared seeds filter | split into `.framework/context/poetry/filters/seeds/` and `.framework/context/novel/filters/seeds/` |
+| `quality/` | shared quality dispatcher | split into `.framework/context/poetry/filters/quality/` and `.framework/context/novel/filters/quality/` |
