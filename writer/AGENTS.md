@@ -163,7 +163,7 @@ workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
 Filter-stage roles are implemented as skills under:
 
 ```text
-.framework/filters/<filter>/SKILL.md
+.framework/editor/<form>/filters/<filter>/SKILL.md
 ```
 
 They are reached through the filter agent (`.framework/agents/filter/agent.md`).
@@ -175,9 +175,8 @@ workshop, research, seeds, genre, history, spatality, movement,
 correctness, override, quality
 ```
 
-The form-divergent filters — `workshop`, `research`, `seeds`, `quality` — resolve
-by form to `.framework/editor/<form>/filters/<name>/SKILL.md`; the rest resolve to
-`.framework/filters/<name>/SKILL.md`.
+Every filter resolves by the book's form to
+`.framework/editor/<form>/filters/<name>/SKILL.md` (poetry or novel).
 
 Known lifecycle agents:
 
@@ -280,17 +279,9 @@ The `/book` command surface is split across two start-point workflow specs:
 .framework/agents/line/agent.md
 .framework/agents/rhyme/agent.md
 
-# Filter agents — shared (form-agnostic) under .framework/filters/;
-# form-divergent (workshop, research, seeds, quality) live per form under
-# .framework/editor/<form>/filters/
-.framework/filters/genre/SKILL.md
-.framework/filters/history/SKILL.md
-.framework/filters/spatality/SKILL.md
-.framework/filters/movement/SKILL.md
-.framework/filters/correctness/SKILL.md
-.framework/filters/override/SKILL.md
-.framework/editor/poetry/filters/{workshop,research,seeds,quality}/SKILL.md
-.framework/editor/novel/filters/{workshop,research,seeds,quality}/SKILL.md
+# Filter skills — every filter lives per form under .framework/editor/<form>/filters/
+.framework/editor/poetry/filters/{workshop,research,seeds,genre,history,spatality,movement,correctness,override,quality}/SKILL.md
+.framework/editor/novel/filters/{workshop,research,seeds,genre,history,spatality,movement,correctness,override,quality}/SKILL.md
 ```
 
 Agents are the only valid runtime entry points for skill-backed behavior.

@@ -96,7 +96,7 @@ command has an `offline` execution route, the agent resolves the command from
 | Command | Owning agent | Form-specific skill |
 |---------|--------------|---------------------|
 | `scaffold` | `.framework/agents/scaffold/agent.md` | `layout-novel` / `layout-poetry` |
-| `filter <filter>` | `.framework/agents/filter/agent.md` | `.framework/filters/<filter>/SKILL.md` |
+| `filter <filter>` | `.framework/agents/filter/agent.md` | `.framework/editor/<form>/filters/<filter>/SKILL.md` |
 | `<agentname>` | `.framework/agents/<agentname>/agent.md` | (agent-selected) |
 | `enrich` | `.framework/agents/enrich/agent.md` | `enrich-novel` / `enrich-poetry` |
 | `eval` | `.framework/agents/eval/agent.md` | — (read-only) |
@@ -260,7 +260,7 @@ Responsibility: build the pipeline structure from the backlog book plan and form
 8. **Clone the book plan and seed chapter models (mandatory).** After Phase 1 validation and before layout populates chapter folders, the scaffold agent must copy all three backlog source files — `gist.md`, `storyline.md`, and `book.json` — from `workspaces/backlog/<bookname>/` to `workspaces/pipeline/<bookname>/`. Copy `workspaces/backlog/<bookname>/book.json` to `workspaces/pipeline/<bookname>/book.json` in full, and copy `gist.md` and `storyline.md` verbatim alongside it. **Also copy `override.md` verbatim** — it carries the author's mandated voice, diction rules, and sample poems, and the pipeline is a self-contained snapshot: once it exists the backlog is never read again. Never write a neutral stub (`No transform required.`) over a backlog `override.md` that has content; use the stub only when the backlog supplies none. **Copy the staged style signature and book seed** from `workspaces/backlog/<bookname>/signature.md` and `workspaces/backlog/<bookname>/bookseed.md` to the pipeline root when each source exists and its destination does not; the offline scaffold CLI stages them from the selected style's companion signature and the `bookseed.md` template when needed. Preserve existing pipeline copies. `signature.md` is stamped as `scaffold`; `bookseed.md` is plain text and is copied verbatim without a stamp. For Behula, the book plan copy is `workspaces/backlog/behula/book.json` → `workspaces/pipeline/behula/book.json`. After copying, stamp each copied `.md`/`.json` with `updated_by: "scaffold"` and the current `updated_date` per `.framework/rules/audit-metadata.md`; the copy stays semantically identical. Preserve every other field, value, and chapter entry; do not substitute a template or a reduced runtime model. Seed each chapter model from its matching `chapters` entry according to the model contract below. Use the cloned plan's declared `filter_chain` sequence to build `filters/filters.json`, never the layout skills' preset chain. **Reconcile that chain to the resolved form first:** a poetry book laid out with the novel option declares the novel chain (which includes `seeds` and lacks `workshop`), so rewrite its `filter_chain` to the ordered `workshop -> research -> genre -> history -> spatality -> movement -> correctness -> override -> quality` chain, persist the repair to the backlog `book.json`, and report it — never refuse to scaffold a poetry book whose chain was inherited from the novel option. Scaffold creates **only** `filters/filters.json` (the registry); it does not create per-filter folders — each filter creates its own `filters/<filter>/` folder when it first runs. Scaffold also creates **only** `qualities/qualities.json` (the quality-dimension registry), resolved by form — poetry: `subject → genre → theme → syntax → signature`; novel: `genre → theme → syntax → signature` — and does not create per-quality folders (each quality dimension owns its `qualities/<dimension>/` folder on first use). These requirements take precedence over conflicting scaffold-agent or layout-skill model templates.
 8a. **Copy the style signature and book seed into the pipeline.** Copy the selected style's companion `signature.md` from `.framework/editor/<form>/styles/<style>/signature.md` and the backlog `bookseed.md` into the pipeline root; stamp `signature.md` as `scaffold`, and copy `bookseed.md` verbatim (plain text, no stamp). Scaffold writes only to the pipeline — it never stages backlog files. Preserve existing pipeline copies; if a source is unavailable, report that and continue.
 9. Apply form-specific initialization (below).
-10. **Seed the override command file lazily.** The override command file `workspaces/pipeline/<bookname>/filters/override/filter.md` is not created at scaffold. It is seeded on first use — by the override filter, the write/poet path, or any step that needs it — with form-customized content derived from `.framework/filters/override/SKILL.md` whenever `override` appears in the book plan's `filter_chain`.
+10. **Seed the override command file lazily.** The override command file `workspaces/pipeline/<bookname>/filters/override/filter.md` is not created at scaffold. It is seeded on first use — by the override filter, the write/poet path, or any step that needs it — with form-customized content derived from `.framework/editor/<form>/filters/override/SKILL.md` whenever `override` appears in the book plan's `filter_chain`.
 11. **Generate the dynamic master prompt.** After layout, the scaffold agent MUST invoke the layout agent (`.framework/agents/layout/agent.md`, Phase 2) to derive the pipeline's dynamic master prompt from the backlog idea (`workspaces/backlog/<bookname>/override.md) and the resolved pipeline state, writing it to `workspaces/pipeline/<bookname>/override.md This is a mandatory final step — a scaffold is not complete until the layout agent has run.
 12. **Verify the model contract before completing scaffold.** The root `book.json` must still equal the complete backlog `book.json` as parsed JSON after layout and the master prompt, ignoring `updated_by`, `updated_date`, and the synchronized legacy `updated_at` per `.framework/rules/audit-metadata.md`. Each chapter model must contain all fields from its matching plan entry with identical values and types. Missing, duplicated, or mismatched chapter identities fail validation; do not report scaffold complete until resolved. Run only the scaffold and layout agents and delegated layout work here, not filter or writing agents. After scaffold, the user must run `/book <bookname> filter <filter>` for each filter, in order, to populate filter outputs.
 13. Write chapters only after all filter outputs have been produced.
@@ -288,7 +288,7 @@ The current scaffold invariants are:
 **Poetry:**
 1. Do not create any `workspaces/published/` destination during scaffold; reader-facing version folders are created only by the `write` command.
 2. Read poetry settings from the cloned `model.json`; do not replace it with a poetry template or inject extra root fields during scaffold.
-3. The chapter topics live in `book.json`'s `chapters[]` array (each entry's `chapter_title`/`chapter_summary`); there is no separate topic list. The override command file is `filters/override/filter.md`, seeded by scaffold step 9 from `.framework/filters/override/SKILL.md` (dynamically customized for the poetry form and pipeline context). Do **not** create a pipeline-root `override.md`.
+3. The chapter topics live in `book.json`'s `chapters[]` array (each entry's `chapter_title`/`chapter_summary`); there is no separate topic list. The override command file is `filters/override/filter.md`, seeded by scaffold step 9 from `.framework/editor/poetry/filters/override/SKILL.md` (dynamically customized for the poetry form and pipeline context). Do **not** create a pipeline-root `override.md`.
 4. Initialize `progress.json` with all topics pending if it does not already exist, using `.framework/templates/backlog/progress.json` as the template shape.
 
 ### Progress tracking (both forms)
@@ -388,7 +388,7 @@ Responsibility: change the form of an existing pipeline and reconcile all form-d
 2. If `<formname>` matches the current form, report no change needed.
 3. Otherwise update the `form` field and re-select everything the form drives: filter chain (8 vs 6), chapter structure (flat prose vs flat poetic prose), word target (5,500+ vs 500–800), stereotype template folder, and source of truth.
 4. Re-run the form-dependent selections: **Theme** (re-assign each chapter's theme from `.framework/editor/<form>/themes/`), **Syntax** (update each chapter's `syntax` object from `.framework/editor/<form>/syntax/`), **Quality** (re-audit against the new form's quality parameters).
-5. **Re-seed the override command file for the new form.** The `override` filter is in both chains, so `workspaces/pipeline/<bookname>/filters/override/filter.md` is updated when the form flips. Apply the same rules as the scaffold step (*Override Command File Seeding* in `.framework/agents/scaffold/agent.md`): read `.framework/filters/override/SKILL.md` and reproduce its content customized to the new form — identity and units ("novel pipeline" / every chapter, or "poetry pipeline" / every poem), command-file paths, model-update paths, and instruction scope. Preserve any human-authored `## Instructions` that remain applicable; carry them to the new form's operative instruction file so nothing human-authored is silently dropped:
+5. **Re-seed the override command file for the new form.** The `override` filter is in both chains, so `workspaces/pipeline/<bookname>/filters/override/filter.md` is updated when the form flips. Apply the same rules as the scaffold step (*Override Command File Seeding* in `.framework/agents/scaffold/agent.md`): read `.framework/editor/<form>/filters/override/SKILL.md` and reproduce its content customized to the new form — identity and units ("novel pipeline" / every chapter, or "poetry pipeline" / every poem), command-file paths, model-update paths, and instruction scope. Preserve any human-authored `## Instructions` that remain applicable; carry them to the new form's operative instruction file so nothing human-authored is silently dropped:
    - **All forms:** the override command file stays at `workspaces/pipeline/<bookname>/filters/override/filter.md`. The pipeline-root `override.md` is a separate file — the master prompt — and both coexist. Re-render the role/context portion above the `---` line for the new form (identity, units, model-update paths, instruction scope) and preserve any human-authored `## Instructions` in place.
 6. Report the change and its consequences.
 
@@ -400,40 +400,40 @@ Responsibility: run exactly one named preparatory filter inside an existing pipe
 
 The filter chain depends on the form. Each filter owns a folder in the pipeline's `filters/` and consumes the output of the filters before it — run them strictly in order, never skipping or reordering.
 
-**Novel (preset: `layout-novel/SKILL.md`)** — routed through the filter agent (`.framework/agents/filter/agent.md`), which invokes each filter's skill under `.framework/filters/`:
+**Novel (preset: `layout-novel/SKILL.md`)** — routed through the filter agent (`.framework/agents/filter/agent.md`), which invokes each filter's skill under `.framework/editor/novel/filters/`:
 
 | # | Filter | Agent | Produces |
 |---|---|---|---|
 | 1 | workshop | `.framework/editor/novel/filters/workshop/SKILL.md` | The flat, continuous prose (no section headings) |
 | 2 | research | `.framework/editor/novel/filters/research/SKILL.md` | The refined chapter at the target mastery level |
 | 3 | seeds | `.framework/editor/novel/filters/seeds/SKILL.md` | `included_characters` and `quality_parameters` |
-| 4 | genre | `.framework/filters/genre/SKILL.md` | The chapter's genre |
-| 5 | history | `.framework/filters/history/SKILL.md` | Historical grounding |
-| 6 | spatality | `.framework/filters/spatality/SKILL.md` | Spatial/place grounding |
-| 7 | movement | `.framework/filters/movement/SKILL.md` | Through-line and pacing |
-| 8 | correctness | `.framework/filters/correctness/SKILL.md` | Fact-check results |
-| 9 | override | `.framework/filters/override/SKILL.md` | Custom human-authored override instructions |
+| 4 | genre | `.framework/editor/novel/filters/genre/SKILL.md` | The chapter's genre |
+| 5 | history | `.framework/editor/novel/filters/history/SKILL.md` | Historical grounding |
+| 6 | spatality | `.framework/editor/novel/filters/spatality/SKILL.md` | Spatial/place grounding |
+| 7 | movement | `.framework/editor/novel/filters/movement/SKILL.md` | Through-line and pacing |
+| 8 | correctness | `.framework/editor/novel/filters/correctness/SKILL.md` | Fact-check results |
+| 9 | override | `.framework/editor/novel/filters/override/SKILL.md` | Custom human-authored override instructions |
 | 10 | quality | `.framework/editor/novel/filters/quality/SKILL.md` | Quality review |
 
-**Poetry (preset: `layout-poetry/SKILL.md`)** — routed through the filter agent (`.framework/agents/filter/agent.md`), which invokes each filter's skill under `.framework/editor/poetry/filters/` (form-divergent) or `.framework/filters/` (shared):
+**Poetry (preset: `layout-poetry/SKILL.md`)** — routed through the filter agent (`.framework/agents/filter/agent.md`), which invokes each filter's skill under `.framework/editor/poetry/filters/`:
 
 | Filter | Agent | Produces |
 |---|---|---|
 | workshop | `.framework/editor/poetry/filters/workshop/SKILL.md` | The flat, continuous poem prose (no section headings) |
 | research | `.framework/editor/poetry/filters/research/SKILL.md` | Research subject |
-| genre | `.framework/filters/genre/SKILL.md` | The poem's genre |
-| history | `.framework/filters/history/SKILL.md` | Historical grounding |
-| spatality | `.framework/filters/spatality/SKILL.md` | Spatial/place grounding |
-| movement | `.framework/filters/movement/SKILL.md` | Through-line and pacing |
-| correctness | `.framework/filters/correctness/SKILL.md` | Correctness of information |
-| override | `.framework/filters/override/SKILL.md` | Custom human-authored override instructions |
+| genre | `.framework/editor/poetry/filters/genre/SKILL.md` | The poem's genre |
+| history | `.framework/editor/poetry/filters/history/SKILL.md` | Historical grounding |
+| spatality | `.framework/editor/poetry/filters/spatality/SKILL.md` | Spatial/place grounding |
+| movement | `.framework/editor/poetry/filters/movement/SKILL.md` | Through-line and pacing |
+| correctness | `.framework/editor/poetry/filters/correctness/SKILL.md` | Correctness of information |
+| override | `.framework/editor/poetry/filters/override/SKILL.md` | Custom human-authored override instructions |
 | quality | `.framework/editor/poetry/filters/quality/SKILL.md` | Quality review |
 
 Running a filter (`/book <bookname> filter <filter> *|all|<n>`):
 
 1. Stop if the pipeline does not exist; the user must run `scaffold` first.
 2. Route the work through the filter agent at `.framework/agents/filter/agent.md`. The
-   agent loads the filter skill from `.framework/filters/<filter>/SKILL.md`, snapshots
+   agent loads the filter skill from `.framework/editor/<form>/filters/<filter>/SKILL.md`, snapshots
    the chapter model into `history/` before any update, runs the named filter, and
    records `state` + a `filter_history` entry in `chapter.json`. Only workshop may
    create `chapters/<n>/chapter.md`, and only when absent; no filter reads or
@@ -533,12 +533,12 @@ human-edited command file.
 
 | Form | Override file | Mediated by |
 |---|---|---|
-| Novel | `workspaces/pipeline/<bookname>/filters/override/filter.md` | `.framework/filters/override/SKILL.md` |
-| Poetry | `workspaces/pipeline/<bookname>/filters/override/filter.md` | `.framework/filters/override/SKILL.md` |
+| Novel | `workspaces/pipeline/<bookname>/filters/override/filter.md` | `.framework/editor/novel/filters/override/SKILL.md` |
+| Poetry | `workspaces/pipeline/<bookname>/filters/override/filter.md` | `.framework/editor/poetry/filters/override/SKILL.md` |
 
 Key points: the override filter runs as a normal chain step; the agent reads the
 human-edited `filter.md` (passes through unchanged when missing/empty); scaffold
-pre-seeds it from `.framework/filters/override/SKILL.md`; the chapter and poet
+pre-seeds it from `.framework/editor/<form>/filters/override/SKILL.md`; the chapter and poet
 agents read the same file and apply its `## Instructions` as the final layer. The
 command file must always be present — if missing, re-seed its baseline. The
 `quality` filter is also human-in-the-loop, but its role is audit/gatekeeping.

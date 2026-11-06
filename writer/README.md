@@ -101,13 +101,13 @@ A book is either **poetry** (verse) or **novel** (prose), declared in the pipeli
 
 Filters run in a fixed order inside the pipeline. The chain is declared in `book.json`'s `filter_chain` and materialized as `workspaces/pipeline/<bookname>/filters/filters.json`.
 
-**Poetry:** `workshop → research → correctness → theme → syntax → override → quality`
+**Poetry:** `workshop → research → genre → history → spatality → movement → correctness → override → quality`
 
-**Novel:** `workshop → research → seeds → correctness → theme → syntax → override → quality`
+**Novel:** `workshop → research → seeds → genre → history → spatality → movement → correctness → override → quality`
 
 If a book's `filter_chain` does not match its declared `form` — for example a poetry book laid out with the novel option, which inherits the novel chain — `scaffold` reconciles it to the form's canonical ordered chain and rewrites the backlog `book.json` accordingly, rather than failing. Extra filters are preserved when the required steps are already in order.
 
-Each filter is a skill under `.framework/filters/<filter>/SKILL.md`, reached through the filter agent (`.framework/agents/filter/agent.md`). The `enrich` command fuses the active (`autorun: true`) filters into a single combined agent and runs them in one pass.
+Each filter is a skill under `.framework/editor/<form>/filters/<filter>/SKILL.md`, reached through the filter agent (`.framework/agents/filter/agent.md`). The `enrich` command fuses the active (`autorun: true`) filters into a single combined agent and runs them in one pass.
 
 ---
 
@@ -118,7 +118,7 @@ Each filter is a skill under `.framework/filters/<filter>/SKILL.md`, reached thr
 | `init` | Configure the backlog book plan (`book.json`). |
 | `scaffold` | Build the pipeline structure (dispatches to layout skills). |
 | `layout` | Pre/post-scaffold preparation and master-prompt seeding. |
-| `filter` | Run a named filter skill (`.framework/filters/<filter>/SKILL.md`). |
+| `filter` | Run a named filter skill (`.framework/editor/<form>/filters/<filter>/SKILL.md`). |
 | `enrich` | Fuse active filters into one combined pass. |
 | `write` | Write finished reader-facing chapters (→ poetry/novel skill). |
 | `review` | Quality gate — audit chapters against quality parameters. |
@@ -134,7 +134,7 @@ Each filter is a skill under `.framework/filters/<filter>/SKILL.md`, reached thr
 | `publish` | Promote segments to `workspaces/published/` and assemble the book. |
 | `add` | Append one fully-detailed chapter (`add <chapter-title> <chapter-summary-seed>`). |
 
-Filter skills (`.framework/filters/`): `workshop`, `research`, `seeds`, `correctness`, `theme`, `syntax`, `override`, `quality`.
+Filter skills (`.framework/editor/<form>/filters/`): `workshop`, `research`, `seeds`, `genre`, `history`, `spatality`, `movement`, `correctness`, `override`, `quality`.
 
 ---
 
@@ -151,7 +151,7 @@ Skills are invoked **only through an agent** — never directly. Form-specific s
 - `sonnet`, `limerick`, `haiku` — fixed-form Bengali poems (akshar-count via MCP).
 - `lyrics` — modern Bengali song lyrics (syllable-count via MCP; akshar does not apply).
 
-Reference filters live under `.framework/filters/reference/` (`narrative`, `dialogue`, `pacing`, `geography`, `history`, `indian`, `mythology`, `contemporary`, `revision`, `translation`).
+Reference libraries live under `.framework/editor/<form>/references/` (`narrative`, `dialogue`, `pacing`, `geography`, `history`, `indian`, `mythology`, `contemporary`, `revision`, `translation`).
 
 ---
 

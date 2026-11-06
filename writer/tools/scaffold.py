@@ -24,15 +24,14 @@ AUDIT_FIELDS = ("updated_by", "updated_date", "updated_at")
 POETRY_QUALITY_DIMENSIONS = ("subject", "genre", "theme", "syntax", "signature")
 NOVEL_QUALITY_DIMENSIONS = ("genre", "theme", "syntax", "signature")
 
-# Filters that resolve by form (`.framework/editor/<form>/filters/<name>/SKILL.md`);
-# everything else resolves to the shared `.framework/filters/<name>/SKILL.md`.
-FORM_DIVERGENT_FILTERS = frozenset(("workshop", "research", "seeds", "quality"))
+# Every filter resolves by form: `.framework/editor/<form>/filters/<name>/SKILL.md`.
+# (Formerly some filters lived in a shared, form-agnostic tree; that has been
+# folded into the per-form `editor/<form>/filters/` folders.)
 
 
 def _filter_skill_path(root, name, form):
-    """Resolve a filter name to its SKILL.md, by form for the divergent set."""
-    base = "editor" / form / "filters" if name in FORM_DIVERGENT_FILTERS else "filters"
-    return root / ".framework" / base / name / "SKILL.md"
+    """Resolve a filter name to its SKILL.md, always by form."""
+    return root / ".framework" / "editor" / form / "filters" / name / "SKILL.md"
 
 
 def _content(document):
@@ -226,9 +225,7 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
         write_json(registry, stamp_json(
             {"filters": [
                 {"order": i, "name": name,
-                 "agent": (f".framework/editor/{form}/filters/{name}/SKILL.md"
-                           if name in FORM_DIVERGENT_FILTERS
-                           else f".framework/filters/{name}/SKILL.md"),
+                 "agent": f".framework/editor/{form}/filters/{name}/SKILL.md",
                  "autorun": True}
                 for i, name in enumerate(chain, 1)]},
             "scaffold"))

@@ -1048,42 +1048,60 @@
     "filter_chain": [
         {
             "sl": 1,
+            "filter": "workshop",
+            "autorun": true,
+            "reference": "create the flat, continuous prose draft"
+        },
+        {
+            "sl": 2,
             "filter": "research",
             "autorun": true,
             "reference": "gather supporting information"
         },
         {
-            "sl": 2,
+            "sl": 3,
             "filter": "seeds",
             "autorun": true,
             "reference": "seed characters and quality parameters"
         },
         {
-            "sl": 3,
+            "sl": 4,
+            "filter": "genre",
+            "autorun": true,
+            "reference": "assign the chapter's genre"
+        },
+        {
+            "sl": 5,
+            "filter": "history",
+            "autorun": true,
+            "reference": "ground the chapter in historical context"
+        },
+        {
+            "sl": 6,
+            "filter": "spatality",
+            "autorun": true,
+            "reference": "ground the chapter in place and spatial context"
+        },
+        {
+            "sl": 7,
+            "filter": "movement",
+            "autorun": true,
+            "reference": "ensure through-line and pacing"
+        },
+        {
+            "sl": 8,
             "filter": "correctness",
             "autorun": true,
             "reference": "validate accuracy of content"
         },
         {
-            "sl": 4,
-            "filter": "theme",
-            "autorun": true,
-            "reference": "ensure thematic consistency"
-        },
-        {
-            "sl": 5,
-            "filter": "syntax",
-            "autorun": true,
-            "reference": "check grammar and structure"
-        },
-        {
-            "sl": 6,
+            "sl": 9,
             "filter": "override",
             "autorun": true,
             "reference": "apply custom rules or exceptions"
         },
         {
-            "sl": 7,
+            "sl": 10,
             "filter": "quality",
             "autorun": true,
             "reference": "final polish and refinement"
@@ -1098,12 +1116,18 @@
         },
         {
             "sl": 2,
+            "quality": "theme",
+            "autorun": true,
+            "reference": "assign the chapter's theme"
+        },
+        {
+            "sl": 3,
             "quality": "syntax",
             "autorun": true,
             "reference": "assign the chapter's syntax/register"
         },
         {
-            "sl": 3,
+            "sl": 4,
             "quality": "signature",
             "autorun": true,
             "reference": "assign the chapter's authorial voice"

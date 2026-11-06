@@ -21,37 +21,37 @@
     {
       "order": 4,
       "name": "genre",
-      "agent": ".framework/filters/genre/SKILL.md",
+      "agent": ".framework/editor/novel/filters/genre/SKILL.md",
       "autorun": true
     },
     {
       "order": 5,
       "name": "history",
-      "agent": ".framework/filters/history/SKILL.md",
+      "agent": ".framework/editor/novel/filters/history/SKILL.md",
       "autorun": true
     },
     {
       "order": 6,
       "name": "spatality",
-      "agent": ".framework/filters/spatality/SKILL.md",
+      "agent": ".framework/editor/novel/filters/spatality/SKILL.md",
       "autorun": true
     },
     {
       "order": 7,
       "name": "movement",
-      "agent": ".framework/filters/movement/SKILL.md",
+      "agent": ".framework/editor/novel/filters/movement/SKILL.md",
       "autorun": true
     },
     {
       "order": 8,
       "name": "correctness",
-      "agent": ".framework/filters/correctness/SKILL.md",
+      "agent": ".framework/editor/novel/filters/correctness/SKILL.md",
       "autorun": true
     },
     {
       "order": 9,
       "name": "override",
-      "agent": ".framework/filters/override/SKILL.md",
+      "agent": ".framework/editor/novel/filters/override/SKILL.md",
       "autorun": true
     },
     {
@@ -62,5 +62,5 @@
     }
   ],
   "updated_by": "scaffold",
-  "updated_date": "2026-11-06T10:11:03Z"
+  "updated_date": "2026-11-06T10:21:40Z"
 }

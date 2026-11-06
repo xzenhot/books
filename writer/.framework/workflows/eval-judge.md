@@ -80,7 +80,7 @@ clause that broke.
   violation.
 - **Identity matches folder:** every `.framework/agents/<x>/agent.md` has
   frontmatter `name: <x>` and every `.framework/skills/<x>/SKILL.md` (and
-  `.framework/filters/<x>/SKILL.md`) has `name: <x>` — the `name:` field must
+  `.framework/editor/<form>/filters/<x>/SKILL.md`) has `name: <x>` — the `name:` field must
   equal its parent folder name. A mismatch is a violation.
 
 ### 7. Boundary and execution-mode

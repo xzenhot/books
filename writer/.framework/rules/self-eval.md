@@ -58,7 +58,7 @@ Read these in order. Use them as the source of truth for what *should* exist.
    `audit-metadata.md`, `meter-tolerance.md` — the rules.
 4. `.framework/agents/` — every `agent.md`.
 5. `.framework/skills/` — every active `SKILL.md`. Retired/moved skills live under
-   `.framework/filters/` and must not be referenced by any agent or workflow.
+   `.framework/skills/_retired/` and must not be referenced by any agent or workflow.
 6. `.framework/templates/` — `backlog/` (`book.json`, `book.min.json`, `progress.json`),
    `preset/`, `moods/`, `subjects/`, `tools/`; and `.framework/editor/` — the stereotype
    corpus (`novel/`, `poetry/`).
@@ -92,13 +92,13 @@ contradictory commands, or phase-gate contradictions.
 
 Build the set of roles from the command surface and filter chains. Verify:
 
-- Every filter (`workshop`, `research`, `seeds`, `correctness`, `theme`,
-  `syntax`, `override`, `quality`) has `.framework/agents/<filter>/agent.md`.
+- Every filter (`workshop`, `research`, `seeds`, `genre`, `history`, `spatality`,
+  `movement`, `correctness`, `override`, `quality`) has a skill under
+  `.framework/editor/<form>/filters/<name>/SKILL.md` for both poetry and novel.
 - Every agent that the workflow says "invokes a skill" has a matching
   `.framework/skills/<skill>/SKILL.md`.
 - **Routing policy is honored:** skills are reached only through an agent
-  (`workflow → agent → skill`). No workflow may execute a skill directly, and
-  no agent may reference a skill that lives under `.framework/filters/` (retired).
+  (`workflow → agent → skill`). No workflow may execute a skill directly.
 - No agent references a skill folder that does not exist (e.g. an agent that
   says "read `.framework/skills/<x>/SKILL.md`" where `<x>` is absent).
 
