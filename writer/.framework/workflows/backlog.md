@@ -9,7 +9,7 @@ This workflow owns the **backlog-creation phase** of the `/book` pipeline. It ha
 
 ```text
 /book <bookname> init [<gist>] [form] [refresh]          # gist.md only; with refresh: full bootstrap (gist + storyline + book.json)
-/book <bookname> layout [<count>] [form]                 # rewrite storyline.md from gist + materials, then derive book.json
+/book <bookname> layout [<count>] [form]                 # rewrite storyline.md from gist + materials, then derive book.json (default count: 4 chapters; poetry chapters default to 8 segments each)
 /book <bookname> init idea                               # rewrite the gist with AI assistance
 ```
 
@@ -42,7 +42,7 @@ The backlog workflow operates **only inside the backlog**:
 
 ```text
 workspaces/backlog/<bookname>/
-├── gist.md     # the seed idea — a single-sentence gist plus a short expansion
+├── gist.md     # the seed idea — a single-sentence gist + dense expansion (≥400 words total)
 ├── storyline.md     # the full narrative foundation (novel) or thematic grounding (poetry)
 ├── book.json   # the chapter-layout plan + ordered filter chain (blueprint for scaffold)
 └── materials/  # human-authored research materials (created by init; user writes here)
@@ -62,7 +62,7 @@ The backlog is **metadata**; the pipeline is **execution state**. Commands here 
 |---------|--------------|
 | `<bookname> init [<gist>] [form]` | Creates or edits **only `gist.md`** — the seed idea. Does **not** create `storyline.md` or `book.json`. Use `layout` to derive them, or `init ... refresh` to regenerate the full backlog. |
 | `<bookname> init ... refresh` | Full bootstrap: regenerates `gist.md`, `storyline.md`, and `book.json` from the premise (grounded in `materials/`). |
-| `<bookname> layout [<count>] [form]` | Rewrites `storyline.md` from `gist.md` plus any research materials in `materials/`, then derives `book.json` (the layout). An explicit `<count>` and `form` control the resulting plan. |
+| `<bookname> layout [<count>] [form]` | Rewrites `storyline.md` from `gist.md` plus any research materials in `materials/`, then derives `book.json` (the layout). An explicit `<count>` and `form` control the resulting plan. When `<count>` is omitted, the plan defaults to **4 chapters** (`chapter_count: 4`); for poetry, each chapter defaults to **8 segments** (`segment_count: 8`). |
 | `<bookname> init idea` | Rewrites the book's gist with AI assistance — reads the existing `gist.md` (or the book name if absent), generates a stronger, more dramatically charged one-line premise, and writes it back to `gist.md` (updating its expansion to match). Never touches `storyline.md`, `book.json`, the pipeline, or `workspaces/published/`. |
 
 Every subcommand keyword is literal and unambiguous. `backlog` is a synonym of `init`. `idea` is a subcommand of `init`. `layout` is its own command — not an alias of `init`.
@@ -79,7 +79,8 @@ switches to **full bootstrap** (gist + storyline + book.json, grounded in
 
 1. Route the work through the init agent (`.framework/agents/init/agent.md`), which
    owns the gist-only and refresh paths: resolving the gist, writing `gist.md`
-   (single-sentence gist + 2–4 sentence expansion + empty `## Author Comment`), and
+   (single-sentence gist + information-dense 6–9 sentence expansion totalling at
+   least 400 words + empty `## Author Comment`), and
    — only with `refresh` — regenerating `storyline.md` and `book.json`.
 2. Without `refresh`, report that the user should run `layout` (or `init ... refresh`)
    to derive `storyline.md`/`book.json`.
@@ -96,6 +97,11 @@ then derive `book.json`. `layout` is its own command, not an alias of `init`.
    **Incremental Count Rule** (append-only, never truncate) and the
    **Refresh And Count Contract**. It preserves the original `Created` timestamp
    and updates `updated_by`/`updated_date`.
+   - **Default chapter count:** when `<count>` is omitted, `book.json` derives
+     **4 chapters** (`chapter_count: 4`). An explicit `<count>` overrides this.
+   - **Default segment count (poetry only):** each poetry chapter declares
+     **8 segments** (`segment_count: 8`) with an inline `segments[]` plan at
+     layout time; retain an explicit count when the author specifies one.
 
 ## The Idea Command
 
@@ -120,7 +126,7 @@ together with the selected style's `signature.md`.
 
 | File | Role |
 |------|------|
-| `gist.md` | The seed idea — single-sentence gist, short expansion, optional Author Comment. |
+| `gist.md` | The seed idea — single-sentence gist, dense expansion (≥400 words total), optional Author Comment. |
 | `storyline.md` | The full narrative foundation (novel) or thematic grounding (poetry). |
 | `book.json` | The chapter-layout plan + ordered filter chain — blueprint for `scaffold`. |
 

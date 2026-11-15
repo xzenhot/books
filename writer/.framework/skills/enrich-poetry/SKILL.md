@@ -23,8 +23,10 @@ You enrich a **poetry** pipeline's chapters. You do not apply filters yourself. 
 ## Form
 
 This skill applies to the **poetry** form only. The poetry filter chain is
-`workshop → research → correctness → theme → syntax → override → quality`, one
-segment (`segments/1`) per topic, and a 500–800 word target per poem.
+`workshop → research → correctness → theme → syntax → override → quality`.
+Each chapter has the explicit `segment_count` in its chapter model (legacy
+chapters default to one); each segment receives the chapter's per-segment word
+target.
 
 ## The Poetic Enrichment Model (this is what you record)
 
@@ -37,7 +39,7 @@ must serve the poem — its image, its sound, its turn — never a prose arc.
 ## Inputs
 
 1. `workspaces/pipeline/<bookname>/filters/filters.json` — the authoritative filter list.
-2. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the poem's metadata (the only per-chapter input).
+2. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the poem's metadata (the only per-chapter input), including `segment_count`.
 3. The active filters' own outputs under `workspaces/pipeline/<bookname>/filters/<filter>/` — the fused guidance's source material.
 4. `.framework/editor/poetry/signatures/<poet>/signature.md` — the poetic signatures (see *Poetic Signature*).
 5. `.framework/editor/poetry/styles/<style>/` — the resolved style (see *Style Grounding*).
@@ -223,6 +225,9 @@ Run the fused instruction set over each target poem. The end product is a single
 this enrichment metadata and compose `chapter.md` accordingly.
 
 - **Metadata-only** — the combined pass reads and writes `chapter.json`; it never reads or writes `chapter.md`.
+- **Segment plan** — preserve the layout's `chapter.json` → `segments` array (it is authored at layout time and scaffold clones it). Only when a legacy chapter still has an empty `segments` list do you fill exactly `segment_count` ordered objects; otherwise leave the plan untouched. Each object has `segment_index`, string `name`, the chapter's `word_target`, a distinct `segment_title`, a grounded `segment_summary`, and `further_references` (an array, possibly empty). Segment titles and summaries split the chapter's declared topic without adding subject matter.
+- **Segment runtime state** — create/update `segments/<n>/segment.json` from the matching plan object, preserving unrelated existing fields and adding `level: "segment"`, `state: "enriched"`, `chapter_index`, `segment_index`, and `total_segments`. Also attach a per-segment `segment_enrichment` object carrying the full fused profile for that segment — `status: "enriched"` plus one entry cycled from each `creative_enrichment` field (`angle`, `story_option`, `subject_rotation`, `sensory_detail`, `research_question`, `structural_variant`) and the chapter's shared `variety_note`. Keep `chapter.json`'s `segments[]` and each segment file's details consistent.
+- **Float-segment scope** — a `<n>.<m>` target (e.g. `3.2`) enriches the chapter's creative block once, then writes **only** segment `m`'s `segment.json` (and any selected segments in a `3.2-3.5` range). Every other segment file is left untouched, and `chapter.json`'s `segments[]` plan remains complete. A bare `<n>` or `all`/`*` still enriches every segment of the scoped chapter(s).
 - **Grounded** — every recorded image, motif, and claim is traceable to the poem's own `chapter.json` sources.
 - **Form-correct** — the recorded enrichment states the target form `poetry` and names the chosen signature and style.
 - **Ready** — no further filter pass is required before write or publish.
@@ -290,6 +295,16 @@ are visible at once.
      `writing_skills`, and the concrete anchors (`image_seed`, `volta`, `sonic_texture`,
      `line_gesture`, `variety_note`), merged into any existing `creative_enrichment`
      without discarding it.
+   - `segments` — preserve the layout-authored ordered segment records (each
+     record's `word_target` equals the chapter's `word_target`); fill them only
+     when a legacy chapter still has an empty list.
+
+Also update each matching `chapters/<n>/segments/<segment>/segment.json` from
+the segment plan, without dropping unrelated fields, and attach its
+per-segment `segment_enrichment` (the full fused profile for that segment:
+`status`, cycled `angle`/`story_option`/`subject_rotation`/`sensory_detail`/
+`research_question`/`structural_variant`, and the chapter's `variety_note`).
+Never create segment folders outside the chapter's configured range.
 
 - **Book seed** — after the full scope, `workspaces/pipeline/<bookname>/bookseed.md`
   gains a `<!-- bookseed:derived -->` block holding the book's recurring vocabulary,

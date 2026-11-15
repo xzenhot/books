@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "বাতাসে মিলিয়ে যাওয়া স্বর",
+  "segment_summary": "ভাটিয়ালির একটি স্বর নদীর বাতাসে মিলিয়ে যায়; কবিতা এই মিলিয়ে যাওয়াকে হারানো নয়, ছড়িয়ে পড়া হিসেবে দেখে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the continuation of the song through the fog/mist—the inability to perceive its physical location makes it immune to dredging or diesel noise.",
+    "story_option": "Setting: Very early morning, just as the first sliver of sun catches the water vapor; Desire: To perform the song knowing that its sound will be immediately absorbed and scattered by the moisture, prioritizing diffusion over projection; Obstacle: A single passenger remains silent, perhaps deafened or unwilling to acknowledge the musical act.",
+    "subject_rotation": "Reinterpreting 'generosity' here as auditory generosity—offering one's voice freely into the unknown currents without expectation of reception.",
+    "sensory_detail": "A sudden, momentary auditory hallucination: hearing not the engine, but the collective sigh of all unheard passengers.",
+    "research_question": "What specific tactile sensation corresponds to holding a rhythmic pattern that defies structural linearity?",
+    "structural_variant": "An anti-climax structure: building immense sonic tension only for the final notes to dissolve into absolute sensory flatness (silence/mist).",
+    "variety_note": "This chapter must function as a thematic closure rather than an argumentative one; it is defined by what remains intangible after all visible conflict—a shift from the clash of materials (wood vs. steel) to the persistence of vibration."
+  }
+}

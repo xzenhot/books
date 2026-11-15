@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "রাস্তা ভাবা মানুষ",
+  "segment_summary": "যে মানুষ নদীকে রাস্তা ভেবেছে, নদী কি তাকে মনে করিয়ে দেবে সে কার শরীরের উপর দিয়ে চলছে — কবিতা এই প্রশ্ন তোলে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal breakdown of Gopal’s traditional metronome: How the rhythm of his rowing hand falters specifically when facing an artificially created eddy or rogue wave caused by dredging.",
+    "story_option": "Setting: Early dawn after a flash flood in a straightened section; Desire: To find evidence that the river 'remembers' its old curves, seeking confirmation of ancient paths; Obstacle: Only smooth, inorganic concrete lines are visible where the memory should be.",
+    "subject_rotation": "De-personalizing Gopal’s feeling: Treating his deference not as devotion, but as an instinctive survival protocol learned across generations in uncertain waters.",
+    "sensory_detail": "The taste of mineral tang mixed with stagnant river salt left on Gopal's lower lip after a sudden deluge.",
+    "research_question": "What is the precise local vocabulary for 'unpredictable current' in a heavily modified river system?",
+    "structural_variant": "Employing abrupt shifts: A segment dedicated entirely to the detailed mechanics of water erosion, jarringly contrasted with a purely internal monologue on acceptance.",
+    "variety_note": "This chapter deliberately moves beyond description of conflict (as seen in previous chapters) to focus on the *consequences* and the existential quietude following a moment of overwhelming natural force, making it more reflective than combative."
+  }
+}

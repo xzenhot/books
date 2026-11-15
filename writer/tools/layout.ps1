@@ -9,7 +9,7 @@
 #   workspaces/published/book_<name>/      (empty destination for finished chapters)
 #
 # The layout is static and deterministic: book -> chapters/<n> -> segments/<x>
-# -> writer/editor/translator. Planning artifacts (book.json, characters.json,
+# -> writer/editor/latest/translator. Planning artifacts (book.json, characters.json,
 # masterprompt.md, workshop_metadata.md) are seeded with placeholders that the
 # writing agents fill in later.
 
@@ -198,8 +198,8 @@ for ($i = 1; $i -le $ChapterCount; $i++) {
     $segmentDir = Join-Path $chapterDir "segments\1"
     New-Item -ItemType Directory -Force -Path $segmentDir | Out-Null
 
-    # writer/editor/translator agent folders
-    foreach ($agent in @("writer", "editor", "translator")) {
+    # writer/editor/translator/latest agent folders
+    foreach ($agent in @("writer", "editor", "translator", "latest")) {
         New-Item -ItemType Directory -Force -Path (Join-Path $segmentDir $agent) | Out-Null
     }
 
@@ -213,7 +213,7 @@ New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
 # --- 5. Report --------------------------------------------------------------
 Write-Host ""
 Write-Host "Scaffolded book pipeline: $BookDir" -ForegroundColor Green
-Write-Host "  chapters: 1..$ChapterCount (each with segments/1 -> writer/editor/translator)"
+Write-Host "  chapters: 1..$ChapterCount (each with segments/1 -> writer/editor/translator/latest)"
 Write-Host "  planning: book.json, characters.json, masterprompt.md, workshop_metadata.md"
 Write-Host "  filters:  1_workshop, 2_research, 3_seeds, 4_correctness, 5_theme, 6_syntax, 7_override, 8_quality"
 Write-Host "  output:   $OutDir"

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <!-- Logo.ico is generated from ImageResources\Logo.jpg (16/24/32/48/64/128/256 px) - regenerate it when the artwork changes. -->
+    <ApplicationIcon>ImageResources\Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WriterWorker\WriterWorker.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ImageResources\Logo.ico" />
+    <Resource Include="ImageResources\Logo.png" />
+  </ItemGroup>
+
+</Project>

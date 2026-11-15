@@ -1,0 +1,297 @@
+# Chapter model context
+
+## chapter_index
+
+2
+
+## name
+
+2
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+নদীর শরীর
+
+## chapter_summary
+
+বাংলার ভূখণ্ড আসলে নদীরই দান — যে পলি জমিয়ে ডেল্টা গড়েছে, সেই নদীই আবার প্রতিটি বাঁকে তার নিজের শরীর বদলে নেয়। গোপাল গঙ্গার শাখা-প্রশাখার সেই সর্পিল জালে পথ চেনে চোখের নয়, শরীরের স্মৃতি দিয়ে: কোথায় স্রোত চাপা, কোথায় চর জেগেছে, কোথায় ঘূর্ণি লুকিয়ে থাকে। নদী তার কাছে মানচিত্র নয়, এক শ্বাস-প্রশ্বাস নেওয়া জীবন্ত সত্তা — যে পুষ্ট করে, আবার ধ্বংসও করে। এই কবিতা নদীর সেই দ্বৈত শরীরকে দেখে: একদিকে উর্বর পলি আর ফসল, অন্যদিকে ভাঙন আর বন্যা। গোপাল জানে, নদীকে জয় করা যায় না, কেবল তার সঙ্গে বয়ে চলা যায়; ওয়ার টেনে সে নদীর সঙ্গে কথা বলে, তাকে মানে না, শুধু শোনে। প্রতিটি স্রোতের টান তার পায়ের তলায়, প্রতিটি চরের নরম মাটি তার চোখে লেখা। কংক্রিটের শহর যখন উজানে গজিয়ে ওঠে, নদীর প্রাচীন প্রবাহ তখনো নিজের নিয়মে বয়ে চলে, মানুষের সব হিসাব উপেক্ষা করে। কবিতাটি জিজ্ঞেস করে, যে নদী ভূখণ্ড বানিয়েছে, মানুষ কি তাকে চিনেছে, নাকি কেবল তাকে ব্যবহার করতে শিখেছে।
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+পলির দান
+
+#### segment_summary
+
+বাংলার ভূখণ্ড নদীরই দান; যে পলি জমিয়ে ডেল্টা গড়েছে, সেই নদীই প্রতিটি বাঁকে নিজের শরীর বদলে নেয়।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+সর্পিল জাল
+
+#### segment_summary
+
+গোপাল গঙ্গার শাখা-প্রশাখার সর্পিল জালে পথ চেনে চোখের নয়, শরীরের স্মৃতি দিয়ে — কোথায় স্রোত চাপা, কোথায় চর জেগেছে, কোথায় ঘূর্ণি লুকিয়ে থাকে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+মানচিত্রহীন পথ
+
+#### segment_summary
+
+নদী গোপালের কাছে মানচিত্র নয়, এক শ্বাস-প্রশ্বাস নেওয়া জীবন্ত সত্তা; কবিতা নদীকে চেনাকে নদীকে ভালোবাসার প্রথম পাঠ হিসেবে দেখে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+দ্বৈত শরীর
+
+#### segment_summary
+
+নদীর একদিকে উর্বর পলি আর ফসল, অন্যদিকে ভাঙন আর বন্যা; কবিতা এই দ্বৈততাকে জীবন ও মৃত্যুর একই নিঃশ্বাস হিসেবে পড়ে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+জয়ের বদলে প্রবাহ
+
+#### segment_summary
+
+গোপাল জানে নদীকে জয় করা যায় না, কেবল তার সঙ্গে বয়ে চলা যায়; কবিতা এই বিনয়কে মাঝির জ্ঞান হিসেবে দেখে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+উজানের শহর
+
+#### segment_summary
+
+কংক্রিটের শহর যখন উজানে গজিয়ে ওঠে, নদীর প্রাচীন প্রবাহ তখনো নিজের নিয়মে বয়ে চলে, মানুষের হিসাব উপেক্ষা করে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+নদীর নিজস্ব নিয়ম
+
+#### segment_summary
+
+নদী তার নিজের ছন্দে চলে, কোনো পরিকল্পনা মানে না; কবিতা নদীর স্বাধীনতাকে মানুষের উচ্চাকাঙ্ক্ষার বিপরীতে দাঁড় করায়।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+চেনা ও ব্যবহার
+
+#### segment_summary
+
+যে নদী ভূখণ্ড বানিয়েছে, মানুষ কি তাকে চিনেছে, নাকি কেবল ব্যবহার করতে শিখেছে — কবিতা এই প্রশ্নে ফিরে আসে।
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+written
+
+## creative_enrichment
+
+### angles
+
+- Framing Gopal’s knowledge as a submerged language—the river's geography spoken only through the rhythm of his oars hitting the water.
+- Focusing intensely on the geological weight of the silt itself, treating each grain as an embedded memory or historical witness to past floods and settlements.
+- The boat (nouka) acting as a temporary anchor point where human perception struggles to reconcile the river's organic chaos with mapping conventions.
+
+### story_options
+
+- A fleeting vision of Gopal recognizing an ancestral pattern in a particularly vicious whirlpool—a knot from a forgotten fishing trip.
+- An imaginary moment where, alone on the current, he feels the silt shift beneath his hull as if sensing geological time passing too quickly.
+- Observing a child in the village watching the boat pass and mimicking the pull of the oar, embodying an intuitive connection before formalized geography.
+
+### subject_rotations
+
+- Treating the 'body' of the river less as a physical entity and more as a psychic landscape reflecting human endurance.
+- Analyzing the erosion cycle: how breaking down (erosion/flood) is simultaneously necessary for rebuilding (new silt/fertile land).
+- Contrasting the slow, sedimentation-driven time scale with the rushed, linear measurement implied by modern engineering.
+
+### sensory_details
+
+- The slick, dark coolness of mud clinging to the lower hull after a night of stagnant flow.
+- The abrasive texture of sun-baked silt against bare skin while hauling lines on a low bank.
+- The deep, resonant *thrum* of water displacement as Gopal moves through an eddy rather than just cutting it.
+
+### research_questions
+
+- How does the local Bengali vocabulary describe the difference between 'flow' (movement) and 'body' (structure/being) in relation to a large river?
+- What are the specific localized terms for different types of submerged sandbars or eddies within the Ganges tributaries that Gopal might know?
+
+### structural_variants
+
+- A cyclical structure mirroring the flow—where each segment begins with an image drawn from the end of the previous one, forming a continuous eddy.
+- Employing stanzas as shifting river cross-sections: top layer (surface action), middle layer (current dynamics), bottom layer (sediment/memory).
+
+### unused_angles
+
+- A direct contrast between the sound of water flowing *over* concrete versus flowing *through* sediment.
+- The specific role of older riverine flora whose roots hold back crucial banks, a form of organic engineering.
+
+### variety_note
+
+This poem drills down into the intrinsic nature of the river itself—its physical reality and its inherent contradictions—before touching upon human imposition (as in later chapters).
+
+## draft
+
+### sha256
+
+d66d11439b9334c89497709f386ad6bca44321fa8097b639a6463bc622f4478d
+
+### written_at
+
+2026-11-11T04:45:52.831075+00:00
+
+### origin
+
+write

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "যন্ত্রের বিনিময়",
+  "segment_summary": "যন্ত্র যখন দ্রুততা দেয়, তখন সে কেড়ে নেয় কী — নীরবতা, ছন্দ, নাকি সেই গান; কবিতা এই হিসাব তোলে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The shift in Gopal's internal rhythm: how his own breath and heartbeat synchronize with the mechanical pulse before it overrides him.",
+    "story_option": "Setting: A specific moment when the engine sputters or coughs, mimicking a failing human breath; Desire: Gopal perceives this momentary lapse not as mechanical failure, but as a fragile, accidental echo of human struggle; Obstacle: The immediate resumption of overwhelming power.",
+    "subject_rotation": "Contrast between the 'efficient travel time' offered by diesel versus the *experience* of duration inherent in rowing.",
+    "sensory_detail": "The visual shimmer on the disturbed water surface caused by high-speed propeller wash, momentarily scattering light.",
+    "research_question": "What is the relationship between sound pollution and perceived spiritual quality in Bengali river culture?",
+    "structural_variant": "An extended internal monologue where Gopal narrates the engine’s mechanical processes as if it were an alien language he is struggling to translate into human feeling.",
+    "variety_note": "While previous chapters dealt with environmental/cultural friction through geography (Concrete Floodwalls, Muddy Banks), this chapter isolates the conflict entirely within the sonic spectrum—a confrontation of pure sound versus rhythm."
+  }
+}

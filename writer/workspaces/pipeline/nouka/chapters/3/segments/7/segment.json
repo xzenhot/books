@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অমূল্য সুর",
+  "segment_summary": "যে সুর কোনো টাকায় কেনা যায় না, তার দাম হিসাব করা যায় না; কবিতা সুরকে বাজারের উল্টো পিঠে রাখে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the sound of a single wooden oar against the water as the physical manifestation of the song's rhythm.",
+    "story_option": "setting: A particularly muddy bend where the dredging machinery momentarily pauses, desire: Gopal wishes to make the river 'listen' with his song, commanding it to pause its change., obstacle: Mr. Chatterjee’s crew ignores the music completely, focused only on depth readings., turn: Gopal sings a lament for a specific submerged patch of land that is about to be dredged away.",
+    "subject_rotation": "Shifting focus entirely to the structural integrity of the song itself—how its ancient melodic framework resists sonic decay.",
+    "sensory_detail": "The grit of dried river mud staining Gopal's throat after long hours of singing over the open water.",
+    "research_question": "What are the subtle phonetic markers in Bhatiyali singing that differentiate true cultural resonance from mere vocal imitation?",
+    "structural_variant": "A highly fragmented structure where each line is a captured sonic artifact—a single syllable from song, a specific engine sound, an intake of breath.",
+    "variety_note": "This chapter moves away from broad geological descriptions (Chapter 2) to focus intensely on an ephemeral, non-material force—the sound—and introduces the central conflict through auditory contrast."
+  }
+}

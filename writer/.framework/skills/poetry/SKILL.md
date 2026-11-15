@@ -1,22 +1,42 @@
 ---
 name: poetry
-description: Write or rewrite a poetry chapter as flat, continuous poetic prose (no section headings). Driven by the chapter's chapter.json, honoring the assigned signature and theme. Applies the transformer style from `.framework/editor/poetry/styles/<style>/style.md` (default `pijush`) and any human override instructions as the final layer. Writes the chapter to chapters/<n>/chapter.md, archiving any prior copy to segments/1/version/.
+description: Write or rewrite a poetry chapter as a collection of independent poems — one poem per segment. Every segment is its own complete, standalone poem, authored from its own segments/<m>/segment.json (segment_title, segment_summary, word_target, segment_enrichment), written to segments/<m>/writer/segment.md, and assembled into chapters/<n>/chapter.md as an anthology. A segment_count: 1 chapter is a single poem. Driven by the chapter's chapter.json, honoring the assigned signature and theme. Applies the transformer style from `.framework/editor/poetry/styles/<style>/style.md` (default `pijush`) and any human override instructions as the final layer.
 ---
 
-# Poetry Write — Flat Poetic Prose
+# Poetry Write — One Poem Per Segment
 
 ## Audit Metadata
 
-This skill writes only `chapters/<n>/chapter.md` and its history/version
+This skill writes only `chapters/<n>/chapter.md`, its segment poems under
+`chapters/<n>/segments/<m>/writer/`, and their history/version
 snapshots, all inside the exempt `chapters/**` tree, so it stamps no audit
 fields. If it ever writes a non-chapter `.md`/`.json`, stamp it as the invoking
 write agent per `.framework/rules/audit-metadata.md`.
 
 Use this skill for a poetry pipeline to write (or rewrite) one chapter's core content so it becomes deeper, more finished, and more human — always in the resolved transformer style from `.framework/editor/poetry/styles/<style>/style.md` (default `pijush`).
 
-## The Flatten Rule (ESTABLISHED)
+**A poetry chapter is an anthology of independent poems, not one long poem.** Each
+segment is its **own complete poem** with its own title, subject, and closing —
+never a stanza or continuation of the previous segment, and never the same poem
+re-stated. When `chapter.json` declares `segment_count` (or its `segments[]` plan
+holds more than one record), compose **one full poem per segment**:
 
-The chapter output is **always flat, continuous poetic prose** — never sectioned. Section headings such as `## Question`, `## Oration`, and `## Benediction` are **removed entirely**; only the prose that followed them remains, merged into continuous paragraphs. Do not leave empty headings, stray `#` markers, or orphaned labels. The only heading permitted is the chapter title (`# {chapter_title}`) if the pipeline convention requires a title. This rule is absolute and overrides any other instruction in this skill.
+- Segment `m` is authored entirely from `segments/<m>/segment.json` — its
+  `segment_title`, `segment_summary`, `word_target`, and `segment_enrichment`
+  (`angle`, `story_option`, `subject_rotation`, `sensory_detail`,
+  `research_question`, `structural_variant`, `variety_note`).
+- Each segment poem is written to `segments/<m>/writer/segment.md`.
+- The finished `chapter.md` is the **ordered anthology** of those poems (each
+  under its `segment_title`), not a single merged piece.
+
+A `segment_count: 1` chapter is the exception: a single poem written to
+`chapter.md` directly.
+
+## The Flatten Rule (single-poem output)
+
+For a **single-segment** chapter, the chapter output is **always flat, continuous poetic prose** — never sectioned. Section headings such as `## Question`, `## Oration`, and `## Benediction` are **removed entirely**; only the prose that followed them remains, merged into continuous paragraphs. Do not leave empty headings, stray `#` markers, or orphaned labels. The only heading permitted is the chapter title (`# {chapter_title}`) if the pipeline convention requires a title. This rule is absolute and overrides any other instruction in this skill.
+
+For a **multi-segment** chapter, the same flatten rule applies to each segment poem (each is continuous prose, no section headings — it is a complete poem, not a sub-section); the assembled `chapter.md` uses each segment's `segment_title` as its permitted heading — see *Segment Composition*.
 
 ## Scope
 
@@ -30,7 +50,7 @@ This skill works on **one chapter at a time** in an existing pipeline, driven by
 
 Before writing, read these files in order:
 
-1. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (the only per-chapter input; never `chapter.md`). Resolve `chapter_title` (the poem's title) and `word_target` (its target length) from here.
+1. `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` — the chapter model (the only per-chapter input; never `chapter.md`). Resolve `chapter_title` (the poem's title), `word_target`, `segment_count`, and the ordered `segments[]` plan from here. For a multi-segment chapter, each segment's own input is `workspaces/pipeline/<bookname>/chapters/<n>/segments/<m>/segment.json` — its `segment_title`, `segment_summary`, `word_target`, and `segment_enrichment`.
 2. `workspaces/pipeline/<bookname>/book.json` — the book identity and summary, if you need broader context.
 3. `workspaces/pipeline/<bookname>/override.md` — the **master human override** (the author's craft directives). This is mandatory reading on every write; it takes precedence over every default in this skill, including the flatten/continuous-prose rule. Read it before writing.
 4. `workspaces/pipeline/<bookname>/filters/override/filter.md` — the pipeline override command file (always present; created at scaffold). Read its `## Instructions` section for **every** rewrite and apply non-empty instructions to the new version (see *The Override Layer*).
@@ -39,34 +59,98 @@ Before writing, read these files in order:
 7. `workspaces/pipeline/<bookname>/storyline.md` — the **thematic grounding**: the book's declared themes, imagery, and world. Keep the poem's subject and imagery traceable to it; invent nothing beyond it.
 8. `workspaces/pipeline/<bookname>/bookseed.md` — the **book lexicon**: the author's staged vocabulary and phrases plus the `<!-- bookseed:derived -->` block that enrich derives from every chapter. Reuse these words, images, and refrains when they fit the poem; prefer them over inventing fresh synonyms. Their presence never excuses drifting from `gist.md`/`storyline.md`, and never copy a phrase mechanically where the poem's own voice breaks it.
 
-## The Title (mandatory, every write)
+## Segment Composition (multi-segment chapters)
 
-Always resolve the poem's title from `chapter.json` → `chapter_title` (fall back
-to `title`). Write the title as the poem's single permitted heading (`# {chapter_title}`)
-at the top of `chapter.md`. Never omit the title, never substitute an invented
-title, and never add any other heading.
+When the chapter is an anthology of independent poems, the mapping is
+**deterministic** — never reassign at random, never re-derive, never merge or
+split:
 
-## The Word Target (mandatory, every write)
+1. Read `chapter.json` → `segment_count` and the ordered `segments[]` plan.
+2. For each `m` in `1 … segment_count`, read `segments/<m>/segment.json` — its
+   `segment_title`, `segment_summary`, `word_target`, and `segment_enrichment`
+   (`angle`, `story_option`, `subject_rotation`, `sensory_detail`,
+   `research_question`, `structural_variant`, `variety_note`).
+3. Compose segment `m` as a **complete, standalone poem** from **that segment's
+   own** plan and profile: its `segment_title` (the poem's title), its
+   `segment_summary` (the poem's subject), its image (from `sensory_detail`), its
+   turn (from `subject_rotation`), its structure (from `structural_variant`), and
+   the chapter's shared `variety_note`. Ground it in `gist.md`/`storyline.md` and
+   the resolved style/override. Each poem stands alone — it must not read as a
+   fragment, a stanza, or a continuation of another segment.
+4. `word_target` is **per poem** — write segment `m` to its own `word_target`,
+   never the chapter's total divided by `segment_count`.
+5. Write the segment poem to `chapters/<n>/segments/<m>/writer/segment.md`,
+   archiving any prior copy there first. Do not write into
+   `segments/1/writer/` unless the chapter is single-segment.
+6. After every poem is written, assemble `chapters/<n>/chapter.md` as the
+   **ordered anthology** of the poems (each under its `segment_title`),
+   archiving any prior `chapter.md` first.
 
-Resolve `word_target` from the chapter's `chapter.json` (then the matching
-`book.json` `chapters[]` entry, then the book-level value). Write as close to
-that length as you can — do not pad to inflate it, and do not cut the thought
-short to undershoot it. A line-count or other length directive in `override.md`
-or `filters/override/filter.md` wins over this target.
+**Float-segment targeting.** When the command names a `<n>.<m>` target (e.g.
+`3.2`), write **only** segment `m` of chapter `n`; leave every other segment's
+`writer/segment.md` untouched, then still assemble `chapter.md` from **all**
+written segment poems (the new one plus the preserved ones). A bare `<n>` still
+means "every segment of chapter `n`".
+
+A single-segment chapter (poetry `segment_count: 1`) skips the loop: compose one
+poem and write it to `chapters/<n>/chapter.md` directly.
+
+## The Title (mandatory, every poem)
+
+Resolve each poem's title from its own segment record. For a multi-segment
+chapter, segment `m`'s poem title is `segments/<m>/segment.json` →
+`segment_title` (fall back to the chapter's `chapter_title`); write it as the
+poem's single permitted heading (`# {segment_title}`) at the top of that
+segment's `writer/segment.md`, and use it as the heading in the assembled
+`chapter.md`. For a single-segment chapter, resolve the title from `chapter.json`
+→ `chapter_title` (fall back to `title`) and write `# {chapter_title}`. Never
+omit the title, never substitute an invented title, and never add any other
+heading.
+
+## The Word Target (mandatory, every poem)
+
+Resolve `word_target` per poem: for a multi-segment chapter, each
+`segments/<m>/segment.json` → `word_target` is authoritative for that poem (fall
+back to `chapter.json` → `word_target`, then `book.json` → `chapters[]` → the
+book-level value). Write each poem as close to its own length as you can — do
+not pad to inflate it, and do not cut the thought short to undershoot it. A
+line-count or other length directive in `override.md` or
+`filters/override/filter.md` wins over this target.
 
 ## Chapter Layout Contract
 
-- `chapters/<n>/chapter.md` is the live working draft, authored by this skill. It is written to the chapter root, not the segment writer folder.
+- `chapters/<n>/chapter.md` is the live working draft. For a multi-segment chapter it is the **ordered anthology** of the independent segment poems; for a single-segment chapter it is the one poem. It is written to the chapter root.
+- `chapters/<n>/segments/<m>/writer/segment.md` holds each segment's own writer-stage poem (multi-segment chapters only). It is the raw draft and is **not** versioned — the write agent overwrites it in place.
+- `chapters/<n>/segments/<m>/editor/segment.md` holds the **reviewed/finalized** segment poem.
+- `chapters/<n>/segments/<m>/latest/` holds the most recent finalized segment copy — **the publish source** (falling back to `editor/segment.md` when absent); refreshed by review and publish.
+- `chapters/<n>/segments/<m>/version/` holds archived copies of any prior editor poem, made by the review agent **before** overwriting the editor copy.
 - `chapters/<n>/chapter.json` remains the authoritative runtime metadata file.
-- `segments/1/version/` holds archived copies of any prior `chapter.md` before this skill overwrites it.
-- `segments/1/editor/` is for editorial notes only, and `segments/1/translator/` is for translated derivatives only.
+
+## Movement Contract (stages)
+
+```text
+write agent  →  writer/segment.md   (raw draft; NOT versioned)
+review agent →  version/            (archive prior editor copy)
+             →  editor/segment.md   (reviewed)
+             →  latest/segment.md   (finalized copy; publish source)
+publish      →  reads latest/segment.md (falls back to editor/)
+```
+
+This skill (the poetry writer) writes only the **writer** stage and the assembled
+`chapter.md`; it never archives writer copies. Versioning is the review agent's
+responsibility and applies only to the **editor** stage.
 
 ## Archive Before Overwrite
+
+This skill archives **only** the chapter-root `chapter.md` it is about to
+overwrite. Writer-stage segment poems are **not** archived here — they are
+overwritten in place (versioning of the editor stage is done by the review agent,
+not the writer).
 
 1. If `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` does **not** exist, create it — this is a first write; no archive is required.
 2. If it **already** exists, copy it to `workspaces/pipeline/<bookname>/chapters/<n>/segments/1/version/` (creating that folder if missing) before overwriting. Name the copy `chapter_v<k>.md`, where `<k>` is one greater than the highest existing `chapter_v*.md` in that version folder (start at `1`).
 3. Never overwrite an existing archived copy; always increment.
-4. After archiving, overwrite `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` with the new draft. Do not write the result into `segments/1/writer/`.
+4. After archiving, overwrite `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` (single-segment) or assemble it from the segment poems (multi-segment). Do not write a multi-segment result into `segments/1/writer/`.
 
 ## Rewriting Rules
 
@@ -164,7 +248,21 @@ lines. Avoid repeating a word within a line or passage; reach for a synonym.
 
 ## Output Format
 
-Write the rewritten chapter to `workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` as **flat, continuous poetic prose** — no section headings — **unless the master `override.md` instructs otherwise** (e.g. line breaks), in which case the override wins and the output follows it. Always begin the file with the chapter title as the single permitted heading (`# {chapter_title}`), resolved from `chapter.json`. Do not add `## Question`, `## Oration`, `## Benediction`, or any other section labels.
+For a **multi-segment** chapter, write each segment as its own **complete poem**
+to `workspaces/pipeline/<bookname>/chapters/<n>/segments/<m>/writer/segment.md`
+(flat, continuous poetic prose — no section headings — unless the master
+`override.md` instructs otherwise, e.g. line breaks), then assemble
+`workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` as the ordered
+anthology of those poems, each under its `segment_title` heading. No segment
+poem may read as a fragment, stanza, or continuation of another segment.
+
+For a **single-segment** chapter, write the poem to
+`workspaces/pipeline/<bookname>/chapters/<n>/chapter.md` as **flat, continuous
+poetic prose** — no section headings — **unless the master `override.md`
+instructs otherwise** (e.g. line breaks), in which case the override wins and the
+output follows it. Always begin the file with the chapter title as the single
+permitted heading (`# {chapter_title}`), resolved from `chapter.json`. Do not add
+`## Question`, `## Oration`, `## Benediction`, or any other section labels.
 
 Write to the chapter's resolved `word_target` (see *The Word Target*); do not
 undershoot it for brevity or pad it with filler.
@@ -176,7 +274,7 @@ Do not add extra metadata, comments, or explanation outside the chapter text.
 - Do not scaffold pipelines.
 - Do not run filters.
 - Do not consult the backlog `workspaces/backlog/<bookname>/override.md`; apply the pipeline override command file `workspaces/pipeline/<bookname>/filters/override/filter.md` and the master `workspaces/pipeline/<bookname>/override.md`.
-- Do not write the chapter into `segments/1/writer/` — the output is `chapters/<n>/chapter.md` only. Prior copies are archived to `segments/1/version/`.
+- Do not write a single-segment chapter into `segments/1/writer/` — its output is `chapters/<n>/chapter.md` only. For a multi-segment chapter, each segment poem is written to its own `segments/<m>/writer/segment.md` and then assembled into `chapters/<n>/chapter.md`. The writer stage is **not** versioned (no writer→version copies); only the chapter-root `chapter.md` is archived to `segments/1/version/` before overwrite.
 - Do not write to `workspaces/published/` — this skill produces the chapter in the pipeline only.
 - Do not update `progress.json` — progress tracking is the writer workflow's responsibility.
 - Do not merge versions or decide which version is final.

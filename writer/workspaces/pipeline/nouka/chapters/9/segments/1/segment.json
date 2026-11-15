@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "চেনা ভূগোল",
+  "segment_summary": "ড্রেজিং আর কংক্রিটের বিস্তার গোপালের চেনা ভূগোলকে ধীরে ধীরে মুছে ফেলে; কবিতা এই মুছে যাওয়াকে ক্ষতির সূচনা হিসেবে দেখে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the loss not as a visible map change, but as an auditory erasure—the silence where old names used to echo during specific river noises.",
+    "story_option": "Setting: A newly straightened section of river under early morning mist; Desire: Gopal navigates it feeling disorientation and fear as he seeks a familiar turning point that is absent; Obstacle: The engineered banks offer no recognizable landmarks, only identical walls.",
+    "subject_rotation": "Treating geography as a living text—the river's body as literature that is being censored or redacted by infrastructural bureaucracy.",
+    "sensory_detail": "The slick, unnatural smoothness of polished stone used for modern pier abutments contrasted against the porous grain of weathered wooden pilings.",
+    "research_question": "What specific Bengali colloquialisms describe subtle variations in water current or bank erosion that an engineer would dismiss as 'normal fluctuation'?",
+    "structural_variant": "A fragmented structure where each segment begins with a different geographical term (e.g., 'চর', 'বাঁক', 'ঘাট') before moving into the philosophical digression.",
+    "variety_note": "This chapter contrasts sharply with the 'Diesel Sound' (Ch. 7) by focusing inward on memory and language rather than outward on noise pollution; it explores cultural entropy through geography instead of sonic invasion."
+  }
+}

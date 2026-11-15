@@ -2,5 +2,10 @@
   "level": "segment",
   "state": "pending",
   "chapter_index": 4,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "জীবাশ্মের ফিসফিসানি",
+  "segment_summary": "পাহাড়ের শিলাস্তরে চাপা পড়ে থাকা ডাইনোসরের হাড়ের গুঁড়ো আর শুকিয়ে যাওয়া গুল্মলতার জীবাশ্ম যেন সময়ের নীরব সাক্ষী হয়ে আর্তনাদ করে।",
+  "name": "1",
+  "word_target": 500
 }

@@ -2,93 +2,79 @@
   "chapter_index": 1,
   "name": "1",
   "word_target": 500,
-  "chapter_title": "নীল গর্ভের প্রথম কান্না",
-  "chapter_summary": "প্রাগৈতিহাসিক টেথিস সাগরের অতল নীল গর্ভে পাহাড়ের প্রথম নড়াচড়া। টেকটনিক প্লেটের ধাক্কায় শিলার নগ্ন উত্থানের সূচনা।",
-  "further_references": [],
-  "level": "chapter",
-  "state": "completed",
-  "segments": [
-    1
+  "segment_count": 8,
+  "chapter_title": "টেথিস সাগরের রক্তাক্ত উত্থান",
+  "chapter_summary": "এই প্রথম অধ্যায়টি আরাবল্লির ভূতাত্ত্বিক জন্মকথাকে কেন্দ্র করে আবর্তিত, যেখানে কোটি কোটি বছর আগের টেথিস সাগরের অতল নীল গর্ভ থেকে প্রোটেরোজোয়িক শিলার রক্তাক্ত উত্থান চিত্রিত হয়। পাহাড় এখানে এক প্রাচীন, নিঃসঙ্গ সত্তা, যার প্রতিটি ভাঁজ মহাজাগতিক সংঘর্ষের সাক্ষ্য বহন করে। এই আদিম উত্থানের পটভূমিতে, সাগরিকা ঘোষের শরীরী উপস্থিতি এক তীব্র, কামুক অনুপ্রবেশ ঘটায়, যা প্রাচীন শিলার স্থবিরতাকে চ্যালেঞ্জ জানায়। প্রশ্নটি হলো—এই আদিম, পাথুরে অস্তিত্ব কি মানব আকাঙ্ক্ষার তীব্র স্রোতে বিলীন হবে, নাকি তার গভীরে টেথিসের আদিম স্পন্দন আজও জীবিত থাকবে?",
+  "further_references": [
+    "1",
+    "2"
   ],
-  "enrich": {
-    "active_filters": [
-      "research",
-      "correctness",
-      "theme",
-      "syntax",
-      "quality"
-    ],
-    "status": "enriched"
-  },
-  "stereotype": {
-    "signature": "eliot",
-    "style": "pijush"
-  },
-  "creative_enrichment": {
-    "poetic_parameters": {
-      "emotional_rawness": 4,
-      "grammatical_abstraction": 7,
-      "structural_rigidity": 6,
-      "rhythmic_urgency": 4,
-      "digital_simplicity": 3,
-      "movement": {
-        "name": "Language Poetry",
-        "one_liner": "Prioritizing word structure over clear meaning."
-      },
-      "writing_skills": [
-        "syntactical scrambling",
-        "fragmentation",
-        "phonetic layering"
-      ],
-      "image_seed": "a first fracture line drawn across abyssal silt",
-      "volta": "the heat that turns pressure into a first breath",
-      "sonic_texture": "hard consonants over one long vowel of water",
-      "line_gesture": "short broken lines widening into one enjambed cry",
-      "variety_note": "opens in the liquid abyss, not on a peak — the only poem that begins underwater."
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "প্রোটেরোজোয়িক রক্তপাত",
+      "segment_summary": "টেথিস সাগরের গভীর থেকে টেকটনিক প্লেটের ধাক্কায় আরাবল্লির প্রাচীন শিলাগুলো রক্তাক্তভাবে উঠে আসছে, যা পৃথিবীর আদিমতম সংগ্রামকে ধারণ করে।",
+      "further_references": []
     },
-    "angles": [
-      "The nascent agony of continental collision visualized as a primal scream trapped in magma.",
-      "Focusing the narrative entirely on the oceanic pressure against the embryonic rock, personifying deep-sea forces before terrestrial emergence.",
-      "Interweaving early tectonic stress with the first subconscious flicker of desire or separation within 'the mountain'."
-    ],
-    "story_options": [
-      "Scene: The absolute abyssal plain of Tethys. Desire: To find stillness against infinite movement. Obstacle: Unyielding hydrostatic pressure and shifting crustal plates. Turn: A momentary flash of heat, the first hint of mineral crystallization.",
-      "Scene: Within a nascent mantle plume. Desire: Self-definition amidst undifferentiated slurry. Obstacle: The crushing weight of pre-mountainous strata pressing down. Turn: An internal fracture line appearing as if drawn by an unknown force (the hand metaphor).",
-      "Scene: Near the continental boundary, before solid uplift. Desire: To achieve a perfect, singular form. Obstacle: Shear stress ripping at atomic bonds. Turn: The sound of the first 'cry' being perceived not acoustically, but vibrationally through sediment."
-    ],
-    "subject_rotations": [
-      "Treating the initial geological phase as a purely existential event—a state of pure becoming versus absolute nothingness.",
-      "Focusing less on the plate collision and more on the chemical reactions occurring within the proto-rock (silicates, dissolved salts) as precursors to consciousness.",
-      "The mountain's birth described through cyclical patterns analogous to heartbeat or respiration before it develops true form."
-    ],
-    "sensory_details": [
-      "Tactile: The slick, viscous friction of oceanic mud sliding against emerging lithic forms.",
-      "Aural: A low-frequency hum that registers more as bone-deep resonance than sound waves.",
-      "Olfactory: The metallic, cold scent of dissolved salts and deep-sea volcanic gases."
-    ],
-    "research_questions": [
-      "What are the known chemical signatures associated with the earliest recognized metamorphic events in Tethys Sea margins?",
-      "How does modern seismology model the transition point between ductile flow and brittle faulting during initial continental plate convergence?"
-    ],
-    "structural_variants": [
-      "A single, unbroken stream-of-consciousness monologue that mirrors the slow deformation of rock over eons.",
-      "A heavily fragmented poem where each line represents a distinct measurable geological process (e.g., pressure gauge reading, temperature spike)."
-    ],
-    "variety_note": "This chapter must establish the foundational *tension*—the raw kinetic energy and silent agony of formation—unlike later chapters which will deal with the consequences of that structure."
-  },
-  "quality_review": {
-    "status": "passed",
-    "sha256": "604e2b5a12cfe45e7eaea964c7b5a90727077f79e407415326819397aa5370a7",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-10-21T18:22:42+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 70,
+      "segment_title": "৩.৬ বিলিয়ন বছরের নীরব প্রহর",
+      "segment_summary": "এই পর্বতমালা কোটি কোটি বছর ধরে একাকী দাঁড়িয়ে আছে, তার শিলাস্তরে জমে থাকা ফলসপার ও কোয়ার্টজ যেন দীর্ঘ সংগ্রামের ঘাম।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 65,
+      "segment_title": "সাগরিকার আগমনী ঢেউ",
+      "segment_summary": "এই প্রাচীন পাথরের স্তব্ধতাকে ভেঙে, সাগরিকা ঘোষের উত্তুঙ্গ বক্ষের তরঙ্গভঙ্গ যেন টেথিস সাগরের মৃতবুকে নতুন জোয়ার তোলে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 75,
+      "segment_title": "রক্তিম লিপস্টিকের তান্ত্রিক আবেশ",
+      "segment_summary": "তার ঠোঁটের গাঢ় রক্তিম লিপস্টিক যেন তক্ষশীলার কোনো গুপ্ত গুহায় ঝরে পড়া উষ্ণ রক্তের প্রতীক, যা প্রাচীন তন্ত্রের মায়াজাল সৃষ্টি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "ভূত্বকের ফাটল ও কামনার ম্যাপ",
+      "segment_summary": "পাহাড়ের ফাটলগুলো যেন তার কোমরের গভীর খাজ, যেখানে মহাভারতের প্রাগৈতিহাসিক মানচিত্র মায়াবী বাঁকে লুকিয়ে আছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 70,
+      "segment_title": "অবাধ্য কেশের ধুলো",
+      "segment_summary": "তার উড়ে আসা চুলগুলো আলেকজান্ডারের ঘোড়ার খুরের ধুলো ও গান্ধর্ব শিল্পের নিষিদ্ধ সুবাসে আবৃত, যা অতীত ও বর্তমানকে মিশিয়ে দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 65,
+      "segment_title": "গরম নিঃশ্বাসের দাবানল",
+      "segment_summary": "তার গরম নিঃশ্বাস যখন গ্রীবা ছুঁয়ে নামে, তখন বিন্দুসারের শীতল প্রমাদ কক্ষ মুহূর্তেই আদিম কামনার দাবানলে পরিণত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "অস্তিত্বের আদিম প্রশ্ন",
+      "segment_summary": "এই আদিম সত্তা কি মানব আকাঙ্ক্ষার তীব্র স্রোতে বিলীন হবে, নাকি তার গভীরে টেথিসের আদিম স্পন্দন আজও জেগে উঠবে, এই প্রশ্নটি বাতাসে মিশে থাকে।",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
 }

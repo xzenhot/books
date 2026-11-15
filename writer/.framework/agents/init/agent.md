@@ -54,7 +54,7 @@ agent may also stage the selected style signature before scaffold.
 
 | File | Role |
 |------|------|
-| `gist.md` | The seed idea — a single-sentence gist plus a short expansion. The source of the book's premise. |
+| `gist.md` | The seed idea — a single-sentence gist plus a dense expansion (≥400 words total). The source of the book's premise. |
 | `storyline.md` | The full narrative foundation — premise, setting, characters, themes, chapter outline. The source of truth for a novel's story. |
 | `book.json` | The chapter-layout plan and filter chain — chapter count, per-chapter titles and summaries, characters, subject matter, and the ordered filter/agent sequence. The blueprint for `scaffold`. |
 | `progress.json` | The seeded progress plan — one `pending` entry per chapter (`chapter_number`, `topic`, `category`, `status`, `file_path`, `completed_date`), copied from `.framework/templates/backlog/progress.json` and re-seeded with the plan's actual chapters. `scaffold` copies it verbatim into the pipeline as the initial progress state. |
@@ -75,7 +75,7 @@ The seed idea. It MUST follow this canonical Markdown structure:
 
 ## Expansion
 
-<short 2–4 sentence expansion>
+<information-dense 6–9 sentence expansion>
 
 ## Author Comment
 
@@ -87,11 +87,20 @@ Where:
 - **`# <bookname> — <title>`** is the H1 heading: the book name, an em-dash, and the full
   title (`<bookname>: এর কবিতা` for poetry, `<bookname>: এর কাহিনি` for novel).
 - **`## Canonical gist`** holds the single-sentence **gist** (the high concept).
-- **`## Expansion`** holds a short **expansion** (2–4 sentences) that names the
-  protagonist, the conflict, and the transformation.
+- **`## Expansion`** holds a rich **expansion** (6–9 sentences) that names the
+  protagonist/voice, the setting and era, the central conflict, the key figures,
+  the recurring images and motifs, the stakes, and the transformation.
 - **`## Author Comment`** is the author's own note on intent, inspiration, or direction.
   Init creates it as an empty placeholder for the author to fill; it never invents the
   author's words.
+
+**Minimum seed length.** The gist is the actual starting point and seed for every
+later stage (storyline, layout, enrichment, writing), so the combined `## Canonical
+gist` + `## Expansion` must total **at least 400 words**. Pack the expansion with
+concrete specifics (a person, place, era, object, conflict, question) rather than
+abstract filler — dense but concise. The offline `init` path grows a short seed via
+Ollama (`tools/book.py` → `_expand_gist_seed`) and keeps a user-supplied seed that
+already meets the floor verbatim.
 
 If the caller supplied a gist, use it verbatim as the one-liner and expand it. If no
 gist was supplied, generate a great idea from the book name (see *The Great Idea*
@@ -117,16 +126,27 @@ The `book.json` must contain:
   - `chapter_title` — a short, evocative title.
   - `chapter_summary` - a short, form-neutral contextual seed of 2-4 sentences around 150-200 words, derived only from gist.md and storyline.md (or a legacy epic.md when storyline.md is absent). Select a concrete subject, place, event, image, tension, or question from the source material with varied generation; do not reuse a fixed opening or sentence pattern. Keep it usable for poetry, prose, and other literary content, and do not invent details beyond the gist and epic.
   - `further_references` — an array of `{ "no", "reference", "weblink" }` grounding sources (optional but recommended).
+  - **Poetry only:** `segment_count` — a positive integer declaring how many
+    content segments this chapter splits into (default `8`; retain an explicit
+    count when the author specifies one) — and `segments` — an ordered array of
+    exactly that many records, each with `segment_index`, string `name`, the
+    chapter's `word_target`, a distinct `segment_title`, a grounded
+    `segment_summary` (splitting this chapter's declared topic without adding
+    subject matter), and `further_references` (an array, possibly empty).
+    Layout owns the segment plan; scaffold clones it and enrichment only adds
+    the poetic parameters on top.
 - **`all_characters`** — an array of `{ "character_id", "full_name", "role", "identity", "psychological_depth" }` for novels; omit or leave empty for poetry.
 - **`history`** — a short paragraph of historical/contextual grounding (novels).
 - **`filter_chain`** — an ordered array of filter/agent names, taken from the form's preset (see *Presets* above), e.g. `["research", "correctness", "theme", "syntax", "override", "quality"]` for the poetry preset or `["workshop", "research", "seeds", "correctness", "theme", "syntax"]` for the novel preset. This is the authoritative filter sequence that `scaffold` uses to build the pipeline's `filters/filters.json`.
 - **`quality_chain`** — an ordered array of quality-dimension names, the qualities counterpart of the `filter_chain`, resolved by form. Poetry: `["subject", "genre", "theme", "syntax", "signature"]`; novel: `["genre", "syntax", "signature"]`. This is the authoritative quality sequence that `scaffold` uses to build the pipeline's `qualities/qualities.json`.
-- **`word_target`** — the default target word count per chapter/poem (e.g. `4500` for novels, `500` for poetry). It is a **chapter-instance property**: the book-level value is only a default. Every item in the `chapters` array must carry its own `word_target` field (stamped from the default unless a per-chapter override is declared), and consumers read the target from the chapter item / chapter `model.json`, not from the book level.
+- **`word_target`** — the default target word count per chapter (e.g. `4500` for novels, `500` per segment for poetry). It is a **chapter-instance property**: the book-level value is only a default. Every item in the `chapters` array must carry its own `word_target` field (stamped from the default unless a per-chapter override is declared), and consumers read the target from the chapter item / chapter `chapter.json`, not from the book level. For poetry, every generated segment inherits this chapter target.
 
 **Chapter count and layout.** The chapter count comes from the epic's declared chapter count (or its chapter outline length). The layout — how many main chapters, whether there is an Introduction and Conclusion — follows the form:
 
 - **Novel:** `Introduction`, `1..N`, `Conclusion` (N = the epic's main chapter count).
-- **Poetry:** `1..N` (N = the number of topics in the epic's topical structure).
+- **Poetry:** `1..N` (N = the number of planned parent topics in the epic's
+  topical structure); each topic declares its own `segment_count` (default 8)
+  and its inline `segments` array (titles and summaries) at layout time.
 - **Format:** Sample book.json is here `.framework\templates\backlog\book.json`
 
 This file gives the complete hint of how many chapters will be written, how each is laid out, and the ordered filter chain, so `scaffold` can build the pipeline without re-deriving the plan.
@@ -190,8 +210,8 @@ When the caller runs `init` **without** `refresh`, write `gist.md` and nothing e
 1. Resolve the gist: caller `<gist>` → existing `gist.md` → inferred from the book name.
 2. Write (or update) `workspaces/backlog/<bookname>/gist.md` in the canonical structure
    (`# <bookname> — <title>`, `## Canonical gist`, `## Expansion`, `## Author Comment`)
-   with the single-sentence gist and its expansion. Preserve any existing
-   `## Author Comment` content the author has written.
+   with the single-sentence gist and a dense expansion totalling at least 400 words.
+   Preserve any existing `## Author Comment` content the author has written.
 3. **Stop.** Do not create or modify `storyline.md` or `book.json`. Report that the user should run `layout` (or `init ... refresh`) to derive them.
 
 ## Full Path (`init ... refresh` / `layout`)
@@ -200,7 +220,7 @@ When the caller runs `init` **without** `refresh`, write `gist.md` and nothing e
 3. **If the gist is not present, bootstrap the whole folder.** Create all artifacts in order:
    1. `gist.md` — generate or record the seed idea.
    2. `storyline.md` — build the full narrative foundation from the gist, grounded in any `materials/` content (see *Storyline Generation*).
-   3. `book.json` — derive the chapter-layout plan from the storyline and form, and the ordered filter chain from the form's preset (chapter count, per-chapter titles and summaries, characters, subject matter, `filter_chain`, `quality_chain`, `word_target`).
+   3. `book.json` — derive the chapter-layout plan from the storyline and form, and the ordered filter chain from the form's preset (chapter count, per-chapter titles and summaries, poetry `segment_count`, characters, subject matter, `filter_chain`, `quality_chain`, `word_target`).
    4. `override.md — seed the backlog master prompt from `.framework/templates/backlog/v1/override.md(see *Seeding the Backlog Master Prompt*).
    5. `bookseed.md` — stage the book's vocabulary and phrases seed from `.framework/templates/backlog/v1/bookseed.md` (see *Seeding The Book Seed*). Create-if-missing only; never overwrite a human-edited copy.
    6. `materials/` — create the folder and seed it with research documents derived from the gist (see *Seeding Research Materials*).

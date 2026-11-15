@@ -1,0 +1,148 @@
+<UserControl x:Class="LocalBookBinder.Views.SettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:infra="clr-namespace:LocalBookBinder.Infrastructure"
+             Background="{DynamicResource EditorBackgroundBrush}">
+
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <infra:StringEqualsToVisibilityConverter x:Key="StringEqualsToVis" />
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Search bar -->
+        <Border Grid.Row="0"
+                Padding="32,18,32,16"
+                BorderBrush="{DynamicResource PanelBorderBrush}"
+                BorderThickness="0,0,0,1">
+            <Border Width="520"
+                    Height="30"
+                    HorizontalAlignment="Left"
+                    Background="{DynamicResource InputBackgroundBrush}"
+                    BorderBrush="{DynamicResource PanelBorderBrush}"
+                    BorderThickness="1"
+                    CornerRadius="4">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0"
+                               Text="&#xE721;"
+                               FontFamily="Segoe MDL2 Assets"
+                               FontSize="13"
+                               Foreground="{DynamicResource MutedTextBrush}"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center" />
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="SearchBox"
+                                 Style="{DynamicResource VsSearchBoxStyle}"
+                                 Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock Text="Search settings"
+                                   Foreground="{DynamicResource MutedTextBrush}"
+                                   VerticalAlignment="Center"
+                                   IsHitTestVisible="False"
+                                   Visibility="{Binding Text, ElementName=SearchBox, Converter={StaticResource StringEqualsToVis}, ConverterParameter=''}" />
+                    </Grid>
+                    <TextBlock Grid.Column="2"
+                               Text="{Binding ResultSummary}"
+                               Foreground="{DynamicResource MutedTextBrush}"
+                               FontSize="11"
+                               Margin="8,0,10,0"
+                               VerticalAlignment="Center" />
+                </Grid>
+            </Border>
+        </Border>
+
+        <!-- Settings content -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Focusable="False">
+            <StackPanel Width="620" Margin="32,20,32,40" HorizontalAlignment="Left">
+
+                <TextBlock Text="APPEARANCE"
+                           FontSize="11"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource MutedTextBrush}" />
+                <Border Height="1" Background="{DynamicResource PanelBorderBrush}" Margin="0,6,0,18" />
+
+                <TextBlock Text="Color Theme"
+                           FontSize="13"
+                           FontWeight="SemiBold"
+                           Foreground="{DynamicResource TextBrush}" />
+                <TextBlock Text="Sets the color theme of the whole workspace. Selecting a theme applies it immediately."
+                           Foreground="{DynamicResource MutedTextBrush}"
+                           TextWrapping="Wrap"
+                           Margin="0,3,0,10" />
+
+                <ItemsControl ItemsSource="{Binding FilteredThemes}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Style="{DynamicResource ThemeCardStyle}"
+                                    Command="{Binding SelectCommand}"
+                                    ToolTip="{Binding DisplayName}">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <!-- Theme preview swatch -->
+                                    <Border Grid.Column="0"
+                                            Width="54"
+                                            Height="34"
+                                            CornerRadius="3"
+                                            BorderThickness="1"
+                                            BorderBrush="{DynamicResource PanelBorderBrush}"
+                                            Background="{Binding PreviewBackground}">
+                                        <Grid>
+                                            <Border Height="3"
+                                                    VerticalAlignment="Top"
+                                                    Background="{Binding PreviewAccent}" />
+                                            <StackPanel Orientation="Horizontal"
+                                                        VerticalAlignment="Center"
+                                                        Margin="7,0">
+                                                <Border Width="16" Height="3" CornerRadius="1.5"
+                                                        Background="{Binding PreviewForeground}" Opacity="0.9" />
+                                                <Border Width="9" Height="3" CornerRadius="1.5" Margin="3,0,0,0"
+                                                        Background="{Binding PreviewForeground}" Opacity="0.5" />
+                                            </StackPanel>
+                                            <Border Height="4"
+                                                    VerticalAlignment="Bottom"
+                                                    Background="{Binding PreviewAccent}"
+                                                    Opacity="0.9" />
+                                        </Grid>
+                                    </Border>
+
+                                    <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="12,0,0,0">
+                                        <TextBlock Text="{Binding DisplayName}" Foreground="{DynamicResource TextBrush}" />
+                                        <TextBlock Text="{Binding Kind}" FontSize="11" Foreground="{DynamicResource MutedTextBrush}" />
+                                    </StackPanel>
+
+                                    <TextBlock Grid.Column="2"
+                                               Text="&#xE73E;"
+                                               FontFamily="Segoe MDL2 Assets"
+                                               FontSize="13"
+                                               Foreground="{DynamicResource AccentBrush}"
+                                               VerticalAlignment="Center"
+                                               Margin="12,0,2,0"
+                                               Visibility="{Binding IsActive, Converter={StaticResource BoolToVis}}" />
+                                </Grid>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <TextBlock Text="No settings match your search."
+                           Foreground="{DynamicResource MutedTextBrush}"
+                           Margin="2,6,0,0"
+                           Visibility="{Binding IsEmpty, Converter={StaticResource BoolToVis}}" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

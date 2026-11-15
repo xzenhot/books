@@ -131,22 +131,25 @@ If a scaffold/layout-related skill is needed, this agent invokes it. If a future
 This section is the binding downstream contract for scaffolded chapter state. Filters, chapter-writing agents, poet agents, and any skills they invoke must treat these paths and responsibilities as normative unless this agent is updated.
 
 │   chapter.md  - The live working draft; workshop may create it if missing, then write/chapter/poet agents own revisions (never read by filters)
-│   model.json  - It contains the runtime state of the chapter. Contains meta data of the chapter. 
+│   chapter.json - Runtime state, including poetry's configured segment_count and the segment metadata list
 │   mood.json   - How the content would be written in segments. This ensures the continuity and reasability
 │
 ├───history     - It contains backed up version of chapter.md , maintains a history when the write path overwrites it
 └───segments
-    └───1
+    ├───1
         │   segment.json - It contains the runtime state of the segment . Contains meta data of the chapter. 
         │
         ├───editor - Any Editor comments are kept here. It shows the content quality score.
+        ├───latest - It contains the latest finalized segment output (most recent reviewed copy, refreshed by publish).
         ├───translator - It contains translated version of latest chapter.md ( if translated ). The name like: en.md, hn.md, bn.md etc
         ├───version - It contains published/promoted snapshots of the segment's output (versioned copies)
         └───writer - It contains final copy of chapter.md
 
       - `chapter.md` is the live working draft in the chapter root. Only workshop may create it, and only if absent; later revisions belong to write/chapter/poet agents. Filters never read it.
       - `history/` stores superseded drafts before anything overwrites the live draft or writer-stage copy.
+      - For poetry, create one segment folder per `segment_count` in the chapter's backlog plan (legacy plans without it use one). Clone the layout's inline `segments[]` plan into `chapter.json` (a legacy plan with no inline array keeps `segments: []`), and seed each `segments/<n>/segment.json` with that plan's title/summary plus pending runtime state. Enrichment layers poetic parameters on top and, for legacy chapters with an empty plan, fills the segment metadata.
       - `writer/` stores the writer-stage output for the current segment or chapter.
       - `editor/` stores commentary and quality feedback only.
+      - `latest/` stores the most recent finalized segment output (the latest reviewed copy, also refreshed by publish).
       - `translator/` stores translated derivatives only.
       - `version/` stores versioned/promoted snapshots of the segment's published output.

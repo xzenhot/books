@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "দ্বৈত শরীর",
+  "segment_summary": "নদীর একদিকে উর্বর পলি আর ফসল, অন্যদিকে ভাঙন আর বন্যা; কবিতা এই দ্বৈততাকে জীবন ও মৃত্যুর একই নিঃশ্বাস হিসেবে পড়ে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing Gopal’s knowledge as a submerged language—the river's geography spoken only through the rhythm of his oars hitting the water.",
+    "story_option": "A fleeting vision of Gopal recognizing an ancestral pattern in a particularly vicious whirlpool—a knot from a forgotten fishing trip.",
+    "subject_rotation": "Treating the 'body' of the river less as a physical entity and more as a psychic landscape reflecting human endurance.",
+    "sensory_detail": "The slick, dark coolness of mud clinging to the lower hull after a night of stagnant flow.",
+    "research_question": "What are the specific localized terms for different types of submerged sandbars or eddies within the Ganges tributaries that Gopal might know?",
+    "structural_variant": "Employing stanzas as shifting river cross-sections: top layer (surface action), middle layer (current dynamics), bottom layer (sediment/memory).",
+    "variety_note": "This poem drills down into the intrinsic nature of the river itself—its physical reality and its inherent contradictions—before touching upon human imposition (as in later chapters)."
+  }
+}

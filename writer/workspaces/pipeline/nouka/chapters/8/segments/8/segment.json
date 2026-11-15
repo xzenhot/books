@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "নীরব বিচারক",
+  "segment_summary": "নদী নিজেই এক নীরব বিচারক — কবিতা এই উপলব্ধিতে ফিরে আসে, শুরুর দ্বৈত শক্তি শেষে বিচারের রূপ নেয়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal breakdown of Gopal’s traditional metronome: How the rhythm of his rowing hand falters specifically when facing an artificially created eddy or rogue wave caused by dredging.",
+    "story_option": "Setting: Early dawn after a flash flood in a straightened section; Desire: To find evidence that the river 'remembers' its old curves, seeking confirmation of ancient paths; Obstacle: Only smooth, inorganic concrete lines are visible where the memory should be.",
+    "subject_rotation": "De-personalizing Gopal’s feeling: Treating his deference not as devotion, but as an instinctive survival protocol learned across generations in uncertain waters.",
+    "sensory_detail": "The visual contrast between the slick, black sheen of newly exposed, waterlogged clay and the sun-bleached white foam that finally retreats from the banks.",
+    "research_question": "What is the precise local vocabulary for 'unpredictable current' in a heavily modified river system?",
+    "structural_variant": "A cyclical structure where Segment 1 describes a calm day, and Segment 8 re-examines that very same calm state through the lens of recent catastrophe.",
+    "variety_note": "This chapter deliberately moves beyond description of conflict (as seen in previous chapters) to focus on the *consequences* and the existential quietude following a moment of overwhelming natural force, making it more reflective than combative."
+  }
+}

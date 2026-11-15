@@ -1,6 +1,6 @@
 ---
 name: layout-poetry
-description: "Use when scaffolding or repairing the structural skeleton of a poetry pipeline. Creates workspaces/pipeline/<bookname>/, book.json, progress.json, override.md, named poetry filter folders, one segment per topic, and the empty workspaces/published destination. Does not write poem chapters or runtime filter results."
+description: "Use when scaffolding or repairing the structural skeleton of a poetry pipeline. Creates workspaces/pipeline/<bookname>/, book.json, progress.json, override.md, named poetry filter folders, and the configured segment folders for each topic. Does not write poem chapters or runtime filter results."
 ---
 
 # Layout Poetry - Pipeline Scaffold
@@ -35,15 +35,16 @@ Use this skill together with `.framework/workflows/pipeline.md`. Do not inspect 
 
 Poetry uses these root files as source of truth:
 
-- `book.json` for how to write: form, language, register, quality, themes, reference, index, vocabulary, and translation guide — and for **what** to write: the `chapters[]` array, one entry per topic (`chapter_title` + `chapter_summary`).
+- `book.json` for how to write: form, language, register, quality, themes, reference, index, vocabulary, and translation guide — and for **what** to write: the `chapters[]` array, one entry per topic (`chapter_title` + `chapter_summary` + `segment_count`).
 
 ## Preset (Philosophical Poem)
 
 The poetry form's default preset is the **philosophical poem** preset, now folded into this skill. It declares the book's chapter count, word target, and the ordered filter/agent sequence (the "chapter-curation workflow"):
 
 - **Chapter count:** 10 main poems, one introductory poem, and one conclusion poem.
+- **Segments per chapter:** 8 by default, declared explicitly by each chapter's `segment_count`.
 - **Development:** new poetic development for each chapter.
-- **Word target:** 500 words per poem unless the book pipeline overrides it.
+- **Word target:** 500 words per segment unless the book pipeline overrides it.
 - **Filter sequence** (each step is an agent/filter applied to every selected poem in sequence):
 
 ```text
@@ -74,10 +75,13 @@ workspaces/pipeline/<bookname>/
         |-- model.json
         |-- history/
         `-- segments/
-            `-- 1/
+            |-- 1/
+            |-- 2/
+            `-- <segment_count>/
                 |-- model.json
                 |-- writer/
                 |-- editor/
+                |-- latest/
                 |-- version/
                 `-- translator/
 ```
@@ -90,29 +94,42 @@ This is mandatory.
 
 - Chapter folders live only under `workspaces/pipeline/<bookname>/chapters/`.
 - Segment folders live only under `workspaces/pipeline/<bookname>/chapters/<chapter>/segments/`.
-- Poetry chapters always have exactly one segment: `segments/1/`.
-- Writer, editor, translator, and version folders live only under `segments/1/`.
+- Each poetry chapter has the positive `segment_count` declared in its plan; legacy plans without it use one segment.
+- Each segment gets its own `segment.json`, `writer/`, `editor/`, `latest/`, `translator/`, and `version/` folders under `segments/<n>/`.
 - Each chapter has a `history/` folder (`workspaces/pipeline/<bookname>/chapters/<n>/history/`) that holds superseded drafts of `chapter.md`; the live `chapter.md` always holds the current state.
 - Do not create `mood.json` for poetry.
 - Do not create `book.json`, `characters.json`, `masterprompt.md`, or `workshop_metadata.md` for poetry unless the user explicitly asks for a hybrid project.
 
 ## Chapter And Segment State
 
-Create `chapter.json` in every chapter folder and `segment.json` in `segments/1/`.
+Create `chapter.json` in every chapter folder and a pending `segment.json` in each configured segment folder.
+
+Layout owns the segment plan: the backlog `book.json` carries each poetry
+chapter's `segment_count` **and** its inline `segments[]` array. Scaffold clones
+that plan into the pipeline, so `chapter.json` starts with `segment_count` and
+the same `segments[]` records (not an empty list). Each record contains
+`segment_index`, `name`, `word_target` (the chapter's per-segment target),
+`segment_title`, `segment_summary`, and `further_references`; scaffold also
+seeds the matching `segments/<n>/segment.json` with the record's title and
+summary plus runtime identity/state fields. Enrichment preserves the plan and
+only layers the poetic parameters on top.
 
 The scaffold agent's `## Chapter Layout` section is the runtime semantics for these files and folders:
 
 - `chapter.md` is the live poem draft and starts with only the bare minimum content.
 - `chapter.json` is the authoritative runtime metadata file for the poem chapter.
 - `history/` stores superseded copies of `chapter.md` or writer-stage drafts before overwrite.
-- `segments/1/writer/` stores writer-stage poem copies.
-- `segments/1/editor/` stores editorial notes and quality feedback.
-- `segments/1/version/` stores versioned/promoted snapshots of the segment's published output.
-- `segments/1/translator/` stores translated derivatives only.
+- `segments/<n>/writer/` stores writer-stage poem copies.
+- `segments/<n>/editor/` stores editorial notes and quality feedback.
+- `segments/<n>/latest/` stores the most recent finalized poem copy (refreshed by review and publish).
+- `segments/<n>/version/` stores versioned/promoted snapshots of the segment's published output.
+- `segments/<n>/translator/` stores translated derivatives only.
 
 ## Topic And Chapter Set
 
-Each entry in `book.json`'s `chapters[]` array becomes one poetry chapter.
+Each entry in `book.json`'s `chapters[]` array becomes one poetry chapter. Its
+`segment_count` controls the number of segment records and folders; new poetry
+plans default this field to 8, while a legacy plan without it remains one.
 
 If the user supplies topics, preserve their text exactly except for trimming surrounding whitespace. If no topic list is supplied, derive a concise ordered topic list from the gist or book name and the requested chapter count.
 
@@ -280,9 +297,8 @@ Before reporting completion, verify:
 - `filters/override/filter.md` exists — the override command file. The pipeline-root `override.md` (master prompt) is a separate file and may coexist with it.
 - `filters/filters.json` exists and names all seven poetry filters in order. No per-filter folders are created at scaffold; each filter creates its folder on first run.
 - Every topic has one numeric chapter folder.
-- Every `segments/1/` has `writer/`, `editor/`, `version/`, and `translator/` folders.
-- Every chapter has `model.json`, a `history/` folder, and `segments/1/segment.json`.
+- Every configured `segments/<n>/` has `writer/`, `editor/`, `latest/`, `version/`, `translator/`, and `segment.json`.
+- Every chapter has `chapter.json` with `segment_count` and `segments` plus a `history/` folder.
 - No `mood.json` files exist in poetry chapter folders.
 - No chapter or segment folders were created outside the canonical paths.
 - `workspaces/published/<bookname>/chapters/` exists and contains no unfinished generated prose unless a later workflow created it.
-

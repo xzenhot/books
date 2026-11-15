@@ -79,6 +79,8 @@ Keep the `chapter_title` exactly as the user wrote it (quote-stripped).
 
 `word_target` is inherited from the book-level `word_target` (or from a sibling
 chapter when the book plan omits it).
+For poetry, also inherit `segment_count` from a sibling or use the new-plan
+default of 8. The `word_target` applies to each segment.
 
 ### Step 4 — Update the book plan
 
@@ -91,9 +93,25 @@ Append/insert a chapter entry into `book.json`'s `chapters[]`:
   "word_target": <int>,
   "chapter_title": "<title>",
   "chapter_summary": "<expanded summary>",
-  "further_references": []
+  "further_references": [],
+  "segment_count": 8,
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": <int>,
+      "segment_title": "<title>",
+      "segment_summary": "<expanded summary>",
+      "further_references": []
+    }
+  ]
 }
 ```
+
+For novels, omit `segment_count` and `segments`. For poetry, the inline
+`segments[]` carries one record per `segment_count` (ordered, 1-based
+`segment_index`, `name` as its string form, `word_target` equal to the chapter's,
+and `segment_title`/`segment_summary` splitting the chapter's topic).
 
 Set `chapter_count` to the new total (for novels, the count of **main** chapters
 only — `Introduction`/`Conclusion` are not counted). Stamp the file `updated_by:
@@ -108,10 +126,14 @@ Follow `.framework/rules/chapter-layout.md`. Under
   entry, plus runtime metadata (`level`, `state`, `segments`), preserving the
   source fields (`chapter_index`, `name`, `word_target`, `chapter_title`,
   `chapter_summary`, `further_references`). Initial `state` is `"scaffolded"`.
-- Create `segments/1/segment.json` (`{ "level": "segment", "state": "pending",
-  "chapter_index": <int>, "segment_index": 1 }`).
-- Create the folders `history/`, `segments/1/writer/`, `segments/1/editor/`,
-  `segments/1/translator/`, `segments/1/version/`.
+- For poetry, set `segment_count` from the plan and derive the inline
+  `segments[]` plan (titles and summaries splitting the new chapter's topic);
+  create one `segment.json` (seeded with that plan's title/summary plus pending
+  runtime state) and the `writer/`, `editor/`, `latest/`, `translator/`, and `version/`
+  folders for every `segments/<n>/`. Enrichment layers poetic parameters on top
+  and only fills the plan when it is still empty. Legacy poems without
+  `segment_count` use one segment.
+- For novels, retain the form's existing segment layout.
 - Do **not** create `chapter.md` — prose is authored later by the write/poet
   agents (or by workshop only when the draft is absent).
 
@@ -156,7 +178,7 @@ Add Chapter Summary:
 - New chapter: <chapter_index> / <name> — <chapter_title>
 - Summary    : <expanded summary>
 - State      : <scaffolded|enriched> (peers: <stage>)
-- Files      : chapters/<name>/chapter.json, chapters/<name>/segments/1/segment.json
+- Files      : chapters/<name>/chapter.json, chapters/<name>/segments/<n>/segment.json
 - book.json / progress.json updated and stamped
 
 Next Steps (per .framework/rules/next-steps.md):

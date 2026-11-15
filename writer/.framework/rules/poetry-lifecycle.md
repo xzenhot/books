@@ -15,13 +15,17 @@ conventions and over legacy writer-stage conventions.
    chapter model. It removes any old quality review.
 4. **Quality reviews the actual current poem.** A passed review records `status`,
    `sha256`, `reviewed_at`, and `reviewer`. Its hash must equal the current draft
-   hash.
+   hash. Review **promotes** each reviewed segment poem into the editor stage
+   (`segments/<m>/editor/segment.md`) — the writer stage stays the raw draft. A
+   chapter is `completed` only when every planned segment has an editor poem.
 5. **Write and style never create reader-facing output.** Publish is the only
    operation that creates `workspaces/published/<bookname>/versionN`.
-6. **Publish requires every planned poem to have a nonempty registered current
-   draft and a matching passed quality review.** It fails before version
-   allocation when any poem is missing or stale. It does not create
-   introductions, conclusions, or substitute placeholder material for poetry.
+6. **Publish reads only the editor stage** for per-segment chapters. It requires
+   every planned segment to have a nonempty reviewed editor poem. A legacy/novel
+   chapter (no per-segment plan) publishes from `chapters/<n>/chapter.md`. It
+   fails before version allocation when any poem is missing or stale. It does not
+   create introductions, conclusions, or substitute placeholder material for
+   poetry.
 7. **Progress keeps written, validated, and published states separately for each
    poem.** A partial write cannot mark the collection complete.
 8. **Translation reads only a current, validated chapter-root draft** and writes a

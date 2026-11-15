@@ -1,0 +1,295 @@
+# Chapter model context
+
+## chapter_index
+
+8
+
+## name
+
+8
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+নদীর ক্রোধ
+
+## chapter_summary
+
+নদী সুন্দর, শক্তিমান — যে একই হাতে পুষ্ট করে, সেই হাতেই গিলে নেয়। ড্রেজিংয়ে নদীর প্রাচীন প্রবাহ বদলে যাওয়ার পর সেই শক্তি আরও অপ্রত্যাশিত হয়ে ওঠে; আগে যে স্রোত জীবন দিত, এখন তা কখনো-কখনো মৃত্যুর ফাঁদ পাতে। গোপাল এই নদীর দ্বৈত প্রকৃতি ভালো করেই জানে — তার হাত নদীকে ভালোবাসে, তবু শ্রদ্ধা করে, কারণ নদী কখনো সম্পূর্ণ বশ মানে না। এই কবিতা নদীর সেই ভয়ংকর রূপকে দেখে, যা কংক্রিটের অহংকারের উত্তর দেয় নিজের ভাষায় — বন্যা, ভাঙন, স্রোতের হঠাৎ উল্টে যাওয়া। এক রাতে শান্ত জল পরদিন সকালে গিলে নেয় একটি ঘাট, একটি খেত, একটি না-বাঁধা নৌকা; নদী কোনো হিসাব চায় না, কেবল নিজের পথ নেয়। সেই গিলে নেওয়া ঘাটে কেউ আর স্নান করে না, সেই খেতে ফসল আর ওঠে না, তবু নদীর জল আগের মতোই স্বচ্ছ, যেন কিছুই ঘটেনি — এটাই নদীর ভয়ংকর নিরপেক্ষতা। কবিতা জিজ্ঞেস করে, যে মানুষ নদীকে রাস্তা ভেবেছে, নদী কি তাকে মনে করিয়ে দেবে যে সে আসলে কার শরীরের উপর দিয়ে চলছে। মাঝির শ্রদ্ধা আর শহরের অহংকারের মধ্যে নদী নিজেই হয়ে ওঠে এক নীরব বিচারক।
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+সুন্দর ও শক্তিমান
+
+#### segment_summary
+
+নদী সুন্দর, শক্তিমান — যে একই হাতে পুষ্ট করে, সেই হাতেই গিলে নেয়; কবিতা নদীর দ্বৈত প্রকৃতিকে দেখে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপ্রত্যাশিত শক্তি
+
+#### segment_summary
+
+ড্রেজিংয়ে প্রবাহ বদলে যাওয়ার পর নদীর শক্তি আরও অপ্রত্যাশিত হয়; আগে যে স্রোত জীবন দিত, এখন তা কখনো মৃত্যুর ফাঁদ পাতে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভালোবাসা ও শ্রদ্ধা
+
+#### segment_summary
+
+গোপাল নদীকে ভালোবাসে, তবু শ্রদ্ধা করে, কারণ নদী কখনো সম্পূর্ণ বশ মানে না; কবিতা এই শ্রদ্ধাকে মাঝির ধর্ম হিসেবে পড়ে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+কংক্রিটের উত্তর
+
+#### segment_summary
+
+নদী কংক্রিটের অহংকারের উত্তর দেয় নিজের ভাষায় — বন্যা, ভাঙন, স্রোতের হঠাৎ উল্টে যাওয়া; কবিতা এই প্রতিশোধকে প্রকৃতির সতর্কতা হিসেবে দেখে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+রাস্তা ভাবা মানুষ
+
+#### segment_summary
+
+যে মানুষ নদীকে রাস্তা ভেবেছে, নদী কি তাকে মনে করিয়ে দেবে সে কার শরীরের উপর দিয়ে চলছে — কবিতা এই প্রশ্ন তোলে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অহংকার ও শ্রদ্ধা
+
+#### segment_summary
+
+মাঝির শ্রদ্ধা আর শহরের অহংকারের মধ্যে নদী নিজেই হয়ে ওঠে এক নীরব বিচারক; কবিতা এই বৈপরীত্য আঁকে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+মৃত্যুর ফাঁদ
+
+#### segment_summary
+
+বদলে যাওয়া স্রোত কখনো মৃত্যুর ফাঁদ পাতে; কবিতা নদীর ক্রোধকে কংক্রিটের হস্তক্ষেপের পরিণতি হিসেবে দেখে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+নীরব বিচারক
+
+#### segment_summary
+
+নদী নিজেই এক নীরব বিচারক — কবিতা এই উপলব্ধিতে ফিরে আসে, শুরুর দ্বৈত শক্তি শেষে বিচারের রূপ নেয়।
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+written
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the residue of destruction: The poem begins after a major flood surge has passed, focusing only on the unnerving quiet and the strange clarity of the water left behind.
+- The internal breakdown of Gopal’s traditional metronome: How the rhythm of his rowing hand falters specifically when facing an artificially created eddy or rogue wave caused by dredging.
+- Treating the silt deposit after a flood not as mud, but as the preserved ghost-image of vanished geography (a solidified map) that no human engineer can read.
+
+### story_options
+
+- Setting: A specific, recently flooded small fishing cove; Desire: Gopal attempts to salvage something utterly insignificant—a single worn piece of netting—to affirm life's persistence despite the water’s malice; Obstacle: The water itself refuses to let him recover it, flowing around his reach.
+- Setting: Early dawn after a flash flood in a straightened section; Desire: To find evidence that the river 'remembers' its old curves, seeking confirmation of ancient paths; Obstacle: Only smooth, inorganic concrete lines are visible where the memory should be.
+- Setting: On a low-lying patch of land recently claimed by the tide during a rapid rise; Desire: A passenger—someone who represents purely modern utility—is caught in the undertow and lost without ceremony; Obstacle: The water moves with indifferent grace, offering no narrative drama.
+
+### subject_rotations
+
+- Shifting emphasis from 'anger' to 'indifference': Presenting the river not as vengeful, but perfectly neutral, which is arguably a more terrifying judgment.
+- De-personalizing Gopal’s feeling: Treating his deference not as devotion, but as an instinctive survival protocol learned across generations in uncertain waters.
+- Focusing less on the flood itself and more on the specific sounds *after* the worst passes—the slow sloshing, the dripping from overhanging mud banks.
+
+### sensory_details
+
+- The taste of mineral tang mixed with stagnant river salt left on Gopal's lower lip after a sudden deluge.
+- The visual contrast between the slick, black sheen of newly exposed, waterlogged clay and the sun-bleached white foam that finally retreats from the banks.
+
+### research_questions
+
+- What is the precise local vocabulary for 'unpredictable current' in a heavily modified river system?
+
+### structural_variants
+
+- Employing abrupt shifts: A segment dedicated entirely to the detailed mechanics of water erosion, jarringly contrasted with a purely internal monologue on acceptance.
+- A cyclical structure where Segment 1 describes a calm day, and Segment 8 re-examines that very same calm state through the lens of recent catastrophe.
+
+### unused_angles
+
+- The silent complicity of the local villagers who must navigate these new dangerous channels daily.
+- A brief moment where Gopal sees his own reflection momentarily warped by an unnatural confluence—a vision of fractured selfhood mirroring river fracture.
+
+### variety_note
+
+This chapter deliberately moves beyond description of conflict (as seen in previous chapters) to focus on the *consequences* and the existential quietude following a moment of overwhelming natural force, making it more reflective than combative.
+
+## draft
+
+### sha256
+
+3596c50fa08d2e8ec82d257bf6bf6c65d5af6d8ac8c8a2b8ff0d304336489dc8
+
+### written_at
+
+2026-11-11T04:47:42.068444+00:00
+
+### origin
+
+write

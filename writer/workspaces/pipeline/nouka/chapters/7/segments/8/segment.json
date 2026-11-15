@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "ডুববে না ভাসবে",
+  "segment_summary": "ডিজেলের জোয়ারে ভাটিয়ালি কি নিঃশব্দে ডুবে যাবে, নাকি কোনো গভীর রাতে আবার ভেসে উঠবে — কবিতা এই সংশয়ে থামে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the engine's exhaust plume visually as a temporary stain on the water that refuses to dissolve like mud or oil.",
+    "story_option": "Setting: Nighttime, near a newly constructed slipway for motorized craft; Desire: To observe an outsider—perhaps Mr. Chatterjee's assistant—using the diesel speed to complete an impossibly fast task; Obstacle: The loss of authentic navigational rhythm in favor of plotted charts.",
+    "subject_rotation": "Examining the psychological effect of constant sonic vibration on Gopal's body, viewing it as a slow form of exhaustion rather than artistic suppression.",
+    "sensory_detail": "The high-pitched, whining metallic resonance felt directly against the wooden grain beneath Gopal's palms when idling too close to a powerful engine.",
+    "research_question": "What is the relationship between sound pollution and perceived spiritual quality in Bengali river culture?",
+    "structural_variant": "An extended internal monologue where Gopal narrates the engine’s mechanical processes as if it were an alien language he is struggling to translate into human feeling.",
+    "variety_note": "While previous chapters dealt with environmental/cultural friction through geography (Concrete Floodwalls, Muddy Banks), this chapter isolates the conflict entirely within the sonic spectrum—a confrontation of pure sound versus rhythm."
+  }
+}

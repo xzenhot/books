@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "কংক্রিটের শহর",
+  "segment_summary": "নদীর উজানে কংক্রিটের শহর গজিয়ে ওঠে; কবিতা সেই শহরকে নদীর বিপরীত সভ্যতা হিসেবে দাঁড় করায়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the entire chapter on the contrast between a single, calloused hand (Gopal's) tracing an ancient bend on a wet map versus the mechanical readout of dredging coordinates.",
+    "story_option": "Setting: The muddy edge where a newly straightened channel meets an old, beloved sandbar; Desire: Gopal attempts to anchor his boat in the familiar place, only to find the dredged bank is razor-sharp concrete; Obstacle: A small piece of ancient river wood he used as a guide marker has been cleanly severed.",
+    "subject_rotation": "Shifting emphasis from 'modernization' as an external threat to 'erasure' as a passive state—the slow, unfeeling decay of meaning when context is stripped away.",
+    "sensory_detail": "The sharp, mineral taste left in the mouth after inhaling air near heavy machinery exhaust.",
+    "research_question": "What is the local Bengali descriptor for an area that has been irreversibly altered by infrastructural development?",
+    "structural_variant": "A sectional structure: dedicating one segment entirely to the language/jargon of engineering versus another entirely to the oral traditions used by boatmen.",
+    "variety_note": "This chapter is distinct from earlier pieces by externalizing the conflict; rather than focusing on internal tradition (song/generosity), it targets the imposition of an alien, quantifiable structure onto the natural flow of life."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "কার দাম",
+  "segment_summary": "নদীর ভাগ্য নিয়ে যে হাত কখনো নদী ছুঁয়ে দেখেনি সে সিদ্ধান্ত নিলে, তার দাম দেবে কে — মাঝি, নাকি কংক্রিট; কবিতা এই প্রশ্নে থামে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the chapter as a dialogue—not spoken, but through opposing textures: rough wood vs. smooth concrete; patient water current vs. forced machine velocity.",
+    "story_option": "Setting: The observation deck overlooking the main construction site near an upstream junction; Desire: Chatterjee makes a casual gesture dismissing a local fisher's plea, seeing it only as 'operational delay'; Obstacle: Gopal watches this dismissal from his boat, feeling the specific chill of institutional indifference.",
+    "subject_rotation": "Treating the dredge equipment itself not as machinery, but as a colossal, voracious form of appetite that consumes geography rather than just mud.",
+    "sensory_detail": "The abrasive sound of concrete being poured or cut against wet river clay.",
+    "research_question": "How do historical river maps of this region differentiate between 'natural flow patterns' and navigable, man-made channels?",
+    "structural_variant": "Alternating stanzas focusing on the scale disparity—one verse capturing the tiny, resilient life on the water; the next capturing the monolithic scale of a concrete embankment.",
+    "variety_note": "This chapter is distinct from earlier pieces by externalizing the conflict; rather than focusing on internal tradition (song/generosity), it targets the imposition of an alien, quantifiable structure onto the natural flow of life."
+  }
+}

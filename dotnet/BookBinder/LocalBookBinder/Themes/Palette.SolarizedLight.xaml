@@ -1,0 +1,32 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Palette: Solarized Light -->
+    <SolidColorBrush x:Key="ActivityBarBrush" Color="#EEE8D5" />
+    <SolidColorBrush x:Key="SideBarBrush" Color="#EEE8D5" />
+    <SolidColorBrush x:Key="EditorBackgroundBrush" Color="#FDF6E3" />
+    <SolidColorBrush x:Key="TitleBarBrush" Color="#EEE8D5" />
+    <SolidColorBrush x:Key="StatusBarBrush" Color="#EEE8D5" />
+    <SolidColorBrush x:Key="StatusBarTextBrush" Color="#586E75" />
+    <SolidColorBrush x:Key="TabInactiveBrush" Color="#E6DFC9" />
+    <SolidColorBrush x:Key="TabStripBrush" Color="#EEE8D5" />
+    <SolidColorBrush x:Key="PanelBorderBrush" Color="#DDD6C1" />
+    <SolidColorBrush x:Key="TextBrush" Color="#657B83" />
+    <SolidColorBrush x:Key="MutedTextBrush" Color="#93A1A1" />
+    <SolidColorBrush x:Key="AccentBrush" Color="#268BD2" />
+    <SolidColorBrush x:Key="HoverBrush" Color="#E4DDC8" />
+    <SolidColorBrush x:Key="SelectionBrush" Color="#D7D0BA" />
+    <SolidColorBrush x:Key="MenuPopupBrush" Color="#FDF6E3" />
+    <SolidColorBrush x:Key="InputBackgroundBrush" Color="#FDF6E3" />
+    <SolidColorBrush x:Key="ScrollThumbBrush" Color="#C9C2AC" />
+    <SolidColorBrush x:Key="IconBrush" Color="#839496" />
+    <SolidColorBrush x:Key="PlaceholderGlyphBrush" Color="#C9C2AC" />
+    <SolidColorBrush x:Key="ActivityBarIconBrush" Color="#93A1A1" />
+    <SolidColorBrush x:Key="ActivityBarActiveIconBrush" Color="#586E75" />
+    <SolidColorBrush x:Key="WelcomeTitleBrush" Color="#586E75" />
+    <SolidColorBrush x:Key="LinkBrush" Color="#268BD2" />
+    <SolidColorBrush x:Key="TabActiveForegroundBrush" Color="#586E75" />
+    <SolidColorBrush x:Key="TabCloseHoverBrush" Color="#D7D0BA" />
+    <SolidColorBrush x:Key="TabCloseHoverForegroundBrush" Color="#586E75" />
+
+</ResourceDictionary>

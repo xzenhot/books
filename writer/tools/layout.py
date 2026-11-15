@@ -11,7 +11,7 @@ Produces:
     workspaces/published/book_<name>/      (empty destination for finished chapters)
 
 The layout is static and deterministic: book -> chapters/<n> -> segments/<x>
--> writer/editor/translator. Planning artifacts (book.json, characters.json,
+-> writer/editor/latest/translator. Planning artifacts (book.json, characters.json,
 masterprompt.md, workshop_metadata.md) are seeded with placeholders that the
 writing agents fill in later.
 """
@@ -208,8 +208,8 @@ def scaffold(book_name: str, chapter_count: int, gist: str) -> None:
         segment_dir = chapter_dir / "segments" / "1"
         segment_dir.mkdir(parents=True, exist_ok=True)
 
-        # writer/editor/translator agent folders
-        for agent in ("writer", "editor", "translator"):
+        # writer/editor/translator/latest agent folders
+        for agent in ("writer", "editor", "translator", "latest"):
             (segment_dir / agent).mkdir(parents=True, exist_ok=True)
 
         # Segment-level state files
@@ -225,7 +225,7 @@ def scaffold(book_name: str, chapter_count: int, gist: str) -> None:
     # --- 5. Report ----------------------------------------------------------
     print()
     print(f"Scaffolded book pipeline: {book_dir}")
-    print(f"  chapters: 1..{chapter_count} (each with segments/1 -> writer/editor/translator)")
+    print(f"  chapters: 1..{chapter_count} (each with segments/1 -> writer/editor/translator/latest)")
     print("  planning: book.json, characters.json, masterprompt.md, workshop_metadata.md")
     print("  filters:  1_workshop, 2_research, 3_seeds, 4_correctness, 5_theme, 6_syntax, 7_override, 8_quality")
     print(f"  output:   {out_dir}")

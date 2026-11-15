@@ -21,6 +21,17 @@ The required base fields are `chapter_index` (integer), `name` (string),
 `state`, `syntax`, and filter history may be added without dropping or overwriting
 the copied source fields.
 
+For poetry, each plan chapter may declare a positive integer `segment_count`
+(new plans default to 8; legacy plans without it default to one) and an inline
+`segments[]` plan (ordered titles and summaries) authored by layout. Scaffold
+copies the count and the plan into `chapter.json` and creates the corresponding
+segment folders, seeding each `segments/<n>/segment.json` from its matching plan
+record with pending runtime state. Enrichment layers poetic parameters on top of
+the preserved plan and, for legacy chapters whose plan is still empty, fills the
+`segments` array with exactly that many ordered records and mirrors each record
+into its matching `segments/<n>/segment.json`. The poetry `word_target` is per
+segment, not divided among the segment count.
+
 Named novel units such as `Introduction` and `Conclusion` likewise use their plan
 entry's `name` as the folder name and preserve its declared index.
 
@@ -53,6 +64,9 @@ request.
   chapter or segment draft.
 - `chapters/<n>/segments/<x>/editor/` stores editor comments, assessments, and
   quality notes.
+- `chapters/<n>/segments/<x>/latest/` stores the most recent finalized copy of
+  the chapter or segment draft (the latest reviewed output, refreshed by review
+  and publish).
 - `chapters/<n>/segments/<x>/translator/` stores translated outputs of the latest
   chapter or segment draft, named by language such as `en.md`, `hn.md`, or `bn.md`.
 
@@ -60,5 +74,5 @@ No downstream step may create alternate chapter-version files in the chapter roo
 unless the scaffold agent's contract is updated to allow them. The chapter root
 holds the live `chapter.md`; workshop may create it only when absent, while later
 writers archive before replacing it. Versioned or translated derivatives belong in
-segment `version/`, `writer/`, `editor/`, or `translator/` folders (legacy archives
+segment `version/`, `writer/`, `editor/`, `latest/`, or `translator/` folders (legacy archives
 remain in `history/`).

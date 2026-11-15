@@ -42,6 +42,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import notify
+from segment_target import SegmentTarget, chapter_numbers, group_by_chapter, parse_target_spec
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 # The active form's template folder, resolved per book from the pipeline's own
@@ -79,7 +80,7 @@ STYLE_REGENERATE_SYSTEM_PROMPT: str = ""
 
 
 RUNTIME_KEYS = {"state", "status", "filter_history", "completed_date", "word_target", "enrich", "override"}
-IDENTITY_KEYS = {"chapter_index", "name", "word_target", "level", "segments"}
+IDENTITY_KEYS = {"chapter_index", "name", "word_target", "level", "segment_count"}
 PROTECTED_KEYS = RUNTIME_KEYS | IDENTITY_KEYS
 URL_RE = re.compile(r"(?:https?://|www\.)\S+", re.IGNORECASE)
 # Punctuation stripped from token edges. Letters are never used as separators, so Indic
@@ -275,21 +276,25 @@ def resolve_book_form(bookname):
 
 
 # --- Form-aware segmentation -----------------------------------------------
-# Poetry is a single-segment form: one segment per chapter (unchanged). A novel
-# chapter targets a large word count, so it is split into several continuous
-# segments, each carrying its own segment.json (chapter details + summary + word
-# target) and enriched with a per-segment creative angle.
+# Poetry segment counts come from each chapter's explicit plan. A novel chapter
+# targets a large word count, so it is split into several continuous segments,
+# each carrying its own segment.json and per-segment creative angle.
 WORDS_PER_SEGMENT = 1000   # rough words each novel segment is expected to carry
 MIN_SEGMENTS = 5
 MAX_SEGMENTS = 10
 
 
 def segment_count_for(chapter):
-    """How many segments a novel chapter splits into (5–10).
+    """Resolve the segment count for this chapter.
 
-    Derived from the chapter's `word_target`, falling back to the length of its
-    `chapter_summary`. Poetry callers never use this — they have one segment.
+    Poetry uses the explicit per-chapter `segment_count`, defaulting to one for
+    legacy plans. Novel segmentation remains based on the chapter's target size.
     """
+    if chapter.get("form") == "poetry":
+        count = chapter.get("segment_count", 1)
+        if type(count) is not int or count < 1:
+            raise ValueError("Poetry segment_count must be a positive integer")
+        return count
     word_target = chapter.get("word_target")
     if isinstance(word_target, (int, float)) and word_target > 0:
         raw = int(word_target) / WORDS_PER_SEGMENT
@@ -320,6 +325,47 @@ def build_segment_model(chapter, segment_index, total):
     }
 
 
+def build_poetry_segment_model(chapter, segment, segment_index, total):
+    """Build a segment.json from a validated poetry segment plan."""
+    return {
+        **copy.deepcopy(segment),
+        "level": "segment",
+        "state": "enriched",
+        "chapter_index": chapter.get("chapter_index"),
+        "segment_index": segment_index,
+        "total_segments": total,
+    }
+
+
+def _segment_enrichment(creative, index):
+    """Build a per-segment enrichment profile from the chapter's creative block.
+
+    Each segment gets one entry cycled from **every** creative field (not just a
+    single angle), plus the chapter's shared ``variety_note``, so every segment
+    carries a complete fused creative direction of its own.
+
+    *index* is 1-based. ``creative`` may be None or a non-dict; missing fields are
+    skipped, and a field with no usable entries is omitted.
+    """
+    creative = creative if isinstance(creative, dict) else {}
+    enrichment: dict[str, object] = {"status": "enriched"}
+    for field, key in (
+        ("angles", "angle"),
+        ("story_options", "story_option"),
+        ("subject_rotations", "subject_rotation"),
+        ("sensory_details", "sensory_detail"),
+        ("research_questions", "research_question"),
+        ("structural_variants", "structural_variant"),
+    ):
+        values = [v for v in creative.get(field, []) if isinstance(v, str) and v.strip()]
+        if values:
+            enrichment[key] = values[(index - 1) % len(values)]
+    variety_note = flatten_entry(creative.get("variety_note"))
+    if variety_note:
+        enrichment["variety_note"] = variety_note
+    return enrichment
+
+
 def _atomic_write_json(path, data):
     """Write a JSON file atomically (temp file + rename)."""
     path = Path(path)
@@ -337,29 +383,72 @@ def _atomic_write_json(path, data):
             temporary.unlink()
 
 
-def ensure_segments(chapter_dir, chapter, form):
+def ensure_segments(chapter_dir, chapter, form, selected_segments=None):
     """Split a chapter into its form's segments and write/enrich each segment.json.
 
-    - **Poetry** — a single segment (`segments/1`); segmentation is a no-op.
+    - **Poetry** — materialize the explicit segment plan in `chapter.json`; each
+      `segments/<n>/segment.json` is enriched with a per-segment creative profile
+      (one entry cycled from every `creative_enrichment` field, plus the chapter's
+      `variety_note`) so each segment carries the full fused direction.
     - **Novel** — 5–10 continuous segments derived from the chapter's word target
       (falling back to its summary). Each segment is written to
       `segments/<n>/segment.json` carrying the chapter's details, summary, and its
       own `word_target`, then enriched with a per-segment creative angle cycled
       from the chapter's `creative_enrichment.angles`.
 
-    Returns the list of segment models written (empty for poetry).
+    ``selected_segments`` (optional) limits enrichment to a subset of 1-based
+    segment indices — the float-target case (``3.2``). When ``None``, every
+    segment is enriched.
+
+    Returns the list of segment models written.
     """
     chapter_dir = Path(chapter_dir)
+    if form == "poetry":
+        segment_plans = chapter.get("segments")
+        total = segment_count_for({**chapter, "form": form})
+        if not isinstance(segment_plans, list) or len(segment_plans) != total:
+            raise ValueError(
+                f"Poetry chapter {chapter.get('chapter_index')} needs exactly "
+                f"{total} enriched segment records"
+            )
+        creative = chapter.get("creative_enrichment")
+        creative = creative if isinstance(creative, dict) else {}
+        indices = list(range(1, total + 1)) if selected_segments is None \
+            else sorted(i for i in selected_segments if 1 <= i <= total)
+        if not indices:
+            raise ValueError(f"No valid segments selected for poetry chapter {chapter.get('chapter_index')}")
+        records = []
+        for i in indices:
+            segment_plan = segment_plans[i - 1]
+            if not isinstance(segment_plan, dict):
+                raise ValueError(f"Poetry segment {i} must be a JSON object")
+            segment_dir = chapter_dir / "segments" / str(i)
+            segment_dir.mkdir(parents=True, exist_ok=True)
+            segment_model_path = segment_dir / "segment.json"
+            generated = build_poetry_segment_model(chapter, segment_plan, i, total)
+            segment_enrichment = _segment_enrichment(creative, i)
+            if segment_enrichment:
+                generated["segment_enrichment"] = segment_enrichment
+            if segment_model_path.exists():
+                existing = _read_segment_json(segment_model_path)
+                existing.update(generated)
+                generated = existing
+            _atomic_write_json(segment_model_path, generated)
+            records.append(generated)
+        return records
     if form != "novel":
-        (chapter_dir / "segments" / "1").mkdir(parents=True, exist_ok=True)
-        return []
+        raise ValueError(f"Unsupported enrichment form: {form!r}")
 
     total = segment_count_for(chapter)
     creative = chapter.get("creative_enrichment")
     creative = creative if isinstance(creative, dict) else {}
     angles = [a for a in creative.get("angles", []) if isinstance(a, str) and a.strip()]
+    indices = list(range(1, total + 1)) if selected_segments is None \
+        else sorted(i for i in selected_segments if 1 <= i <= total)
+    if not indices:
+        raise ValueError(f"No valid segments selected for novel chapter {chapter.get('chapter_index')}")
     records = []
-    for i in range(1, total + 1):
+    for i in indices:
         seg_dir = chapter_dir / "segments" / str(i)
         seg_model = build_segment_model(chapter, i, total)
         if angles:
@@ -370,6 +459,11 @@ def ensure_segments(chapter_dir, chapter, form):
         _atomic_write_json(seg_dir / "segment.json", seg_model)
         records.append(seg_model)
     return records
+
+
+def _read_segment_json(path):
+    """Read an existing segment model while rejecting invalid JSON values."""
+    return json.loads(Path(path).read_text(encoding="utf-8-sig"), parse_constant=reject_constant)
 
 
 def resolve_model(bookname):
@@ -470,31 +564,19 @@ def regenerate_style_md(bookname, book, model_name=None):
     return style_file
 
 
+def parse_targets(value, chapters_root=None):
+    """Parse a chapter/segment target spec into an ordered ``SegmentTarget`` list.
+
+    Accepts ``all``/``*``, chapter numbers (``3``), float-segment forms
+    (``3.2`` = chapter 3 segment 2), ranges (``3-5``, ``3.2-3.5``), and lists
+    (``3.2,4.1``).
+    """
+    return parse_target_spec(value, chapters_root)
+
+
 def parse_chapter_input(value, chapters_root=None):
-    """Parse numbers/ranges, or discover all numeric chapter folders in order."""
-    if value.strip().lower() in {"all", "*"}:
-        if chapters_root is None:
-            raise ValueError("A chapters directory is required for all or '*'")
-        numbers = sorted({
-            int(folder.name)
-            for folder in chapters_root.iterdir()
-            if folder.is_dir() and re.fullmatch(r"[0-9]+", folder.name)
-            and int(folder.name) > 0
-        })
-        if not numbers:
-            raise ValueError(f"No numbered chapters found in {chapters_root}")
-        return numbers
-    numbers = []
-    for token in value.split(","):
-        match = re.fullmatch(r"([0-9]+)(?:-([0-9]+))?", token.strip())
-        if match is None:
-            raise ValueError("Expected all, '*', or chapter numbers, e.g. 2, 2-5, or 2-5,8")
-        start = int(match.group(1))
-        end = int(match.group(2)) if match.group(2) else start
-        if start < 1 or end < start:
-            raise ValueError("Chapter numbers must be positive and ranges ascending")
-        numbers.extend(range(start, end + 1))
-    return list(dict.fromkeys(numbers))
+    """Backward-compatible chapter-only resolver (flattens segment targets)."""
+    return chapter_numbers(parse_targets(value, chapters_root))
 
 
 def empty(value):
@@ -680,15 +762,52 @@ def merge_gaps(current, patch, path=()):
     return copy.deepcopy(current)
 
 
-def trim_patch(patch, chapter):
+def trim_patch(patch, chapter, form=None):
     """Drop keys this tool may never write, and any tag the chapter has already filled."""
     cleaned = {key: value for key, value in patch.items() if key not in PROTECTED_KEYS}
+    if form != "poetry" or not empty(chapter.get("segments")):
+        cleaned.pop("segments", None)
     for key in ("chapter_title", "chapter_summary"):
         if not empty(chapter.get(key)):
             cleaned.pop(key, None)
     if not empty(chapter.get("further_references")):
         cleaned.pop("further_references", None)
     return cleaned
+
+
+def validate_poetry_segments(segments, expected_count, word_target):
+    """Require a complete ordered segment plan with the chapter's per-segment target."""
+    if not isinstance(segments, list) or len(segments) != expected_count:
+        raise ValueError(f"segments must contain exactly {expected_count} objects")
+    if type(word_target) is not int or word_target < 1:
+        raise ValueError("chapter word_target must be a positive integer")
+    required = ("segment_index", "name", "word_target", "segment_title",
+                "segment_summary", "further_references")
+    for index, segment in enumerate(segments, 1):
+        if not isinstance(segment, dict):
+            raise ValueError(f"segments[{index}] must be an object")
+        missing = [key for key in required if key not in segment]
+        if missing:
+            raise ValueError(f"segments[{index}] is missing: {', '.join(missing)}")
+        if type(segment["segment_index"]) is not int or segment["segment_index"] != index:
+            raise ValueError(f"segments[{index}].segment_index must be {index}")
+        if segment["name"] != str(index):
+            raise ValueError(f"segments[{index}].name must be '{index}'")
+        if type(segment["word_target"]) is not int or segment["word_target"] != word_target:
+            raise ValueError(
+                f"segments[{index}].word_target must match chapter word_target "
+                f"({word_target})"
+            )
+        for key in ("segment_title", "segment_summary"):
+            if not isinstance(segment[key], str) or not segment[key].strip():
+                raise ValueError(f"segments[{index}].{key} must be a non-empty string")
+        if not isinstance(segment["further_references"], list):
+            raise ValueError(f"segments[{index}].further_references must be a list")
+        problems = []
+        normalized = normalize_references(segment["further_references"], problems)
+        if problems:
+            raise ValueError(f"segments[{index}]: {'; '.join(problems)}")
+        segment["further_references"] = normalized or []
 
 
 def flatten_entry(value):
@@ -933,7 +1052,8 @@ def run_ollama(prompt, seed, temperature, model_name, system=None, format_json=T
             time.sleep(5 * (attempt + 1))
 
 
-def request_patch(prompt, seed, temperature, model_name):
+def request_patch(prompt, seed, temperature, model_name, segment_count=None,
+                  word_target=None):
     """Ask for a patch, and give the model a couple of chances to repair a bad reply."""
     reply = None
     last_error = None
@@ -941,7 +1061,11 @@ def request_patch(prompt, seed, temperature, model_name):
         ask = prompt if reply is None else repair_prompt(reply, last_error)
         reply = run_ollama(ask, seed + attempt, temperature, model_name)
         try:
-            return validate_patch(reply)
+            patch = validate_patch(reply)
+            if segment_count is not None:
+                validate_poetry_segments(patch.get("segments"), segment_count,
+                                         word_target)
+            return patch
         except ValueError as error:
             last_error = str(error)
             vlog(f"patch rejected ({attempt + 1}): {last_error}")
@@ -971,7 +1095,8 @@ def _show_request(index, model_name, temperature, prompt):
 
 
 def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_name=None,
-                   temperature=DEFAULT_TEMPERATURE, model_name=MODEL, sources="", voice=""):
+                   temperature=DEFAULT_TEMPERATURE, model_name=MODEL, sources="", voice="",
+                   selected_segments=None):
     """Enrich one chapter model.json in place and return a short result record.
 
     *sources* is the author's declared subject world (gist.md + storyline.md) and
@@ -1005,8 +1130,16 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
     if show_prompt:
         _show_request(index, model_name, temperature, prompt)
 
-    patch = request_patch(prompt, chapter_seed, temperature, model_name)
-    patch = trim_patch(patch, chapter)
+    form = book.get("form")
+    expected_segments = None
+    if form == "poetry" and empty(chapter.get("segments")):
+        expected_segments = segment_count_for({**chapter, "form": form})
+    patch = request_patch(
+        prompt, chapter_seed, temperature, model_name,
+        segment_count=expected_segments,
+        word_target=chapter.get("word_target"),
+    )
+    patch = trim_patch(patch, chapter, form=form)
     patch, dropped = enforce_novelty(patch, chapter, pool)
     merged = merge_gaps(chapter, patch)
     additions = describe_additions(chapter, merged)
@@ -1021,13 +1154,19 @@ def enrich_chapter(model_file, book, models, show_prompt=False, seed=None, lens_
         print(f"[{index}] {title} — DRY RUN would add: {additions}")
         return record
 
-    # Form-aware segmentation: poetry stays a single segment; novels split into
-    # 5–10 continuous segments, each with its own enriched segment.json.
-    form = book.get("form")
-    segment_models = ensure_segments(model_file.parent, merged, form)
-    if segment_models:
+    # Poetry materializes its generated segment plan; novels keep the existing
+    # word-target-based continuous segmentation. A partial (float-segment) target
+    # limits the segment.json writes to the selected indices while still
+    # enriching the chapter-level creative block once.
+    segment_models = ensure_segments(model_file.parent, merged, form,
+                                     selected_segments=selected_segments)
+    if form == "poetry":
         record["segments"] = len(segment_models)
-        merged["segments"] = [m["segment_index"] for m in segment_models]
+    elif segment_models:
+        record["segments"] = len(segment_models)
+        # Preserve every segment index in the chapter model (a partial enrich
+        # must not shrink the plan to the selected subset).
+        merged["segments"] = list(range(1, segment_count_for(merged) + 1))
     else:
         merged["segments"] = [1]
 
@@ -1075,12 +1214,14 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""Examples:
   python tools/enrich.py lau 15
+  python tools/enrich.py lau 2.3            Chapter 2, segment 3 only (float-segment)
+  python tools/enrich.py lau 2.3-2.5        Chapter 2, segments 3 through 5
   python tools/enrich.py lau 2-5,8
   python tools/enrich.py lau all --seed 42
   python tools/enrich.py lau 15 --lens witness --show-prompt
   python tools/enrich.py lau 15 --dry-run
   python tools/enrich.py lau --list-lenses
-  python tools/enrich.py help
+  python tools/enrich.py lau help
 
 Reads:   workspaces/pipeline/<bookname>/book.json               (book context + form)
          workspaces/pipeline/<bookname>/chapters/<n>/model.json  (target chapter)
@@ -1089,7 +1230,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
 """,
     )
     parser.add_argument("bookname", help="Book folder under workspaces/pipeline/.")
-    parser.add_argument("chapters", nargs="?", help="Number, range, list, all, or '*'.")
+    parser.add_argument("chapters", nargs="?", help="Chapter/segment selector: <n>, <n.m>, <n.m>-<n.k>, <n>-<k>, list, all, or '*'.")
     parser.add_argument("-v", "--verbose", action="store_true")
     parser.add_argument("-p", "--show-prompt", action="store_true",
                         help="Print the prompts before enriching.")
@@ -1121,7 +1262,9 @@ Writes:  only the target model.json; chapter.md is never read or written.
 
     try:
         chapters_root = resolve_chapters_root(args.bookname)
-        numbers = parse_chapter_input(args.chapters, chapters_root)
+        specs = parse_targets(args.chapters, chapters_root)
+        numbers = chapter_numbers(specs)
+        segment_map = group_by_chapter(specs)
         book = load_book_model(args.bookname)
         gist, storyline, override = load_book_sources(args.bookname)
         sources = "\n\n".join(part for part in (gist, storyline) if part)
@@ -1148,7 +1291,7 @@ Writes:  only the target model.json; chapter.md is never read or written.
         form=book.get("form"),
         notes=(
             ["--dry-run: no model files will be written"] if DRY_RUN else []
-        ),
+        ) + [f"targets: {', '.join(str(s) for s in specs)}"],
         dry_run=DRY_RUN,
     )
 
@@ -1165,11 +1308,12 @@ Writes:  only the target model.json; chapter.md is never read or written.
     results = []
     failures = 0
     for number in numbers:
+        selected_segments = segment_map.get(number)
         try:
             results.append(enrich_chapter(_chapter_file(chapters_root / str(number)), book, models,
                                           args.show_prompt, args.seed, args.lens,
                                           args.temperature, model_name, sources=sources,
-                                          voice=override))
+                                          voice=override, selected_segments=selected_segments))
         except Exception as error:
             print(f"[{number}] FAILED: {error}", file=sys.stderr)
             failures += 1
@@ -1198,12 +1342,14 @@ Writes:  only the target model.json; chapter.md is never read or written.
         print("  Chapters with nothing new:")
         for result in unchanged:
             print(f"    [{result['index']}] {result['title']} — {result['lens']}")
-    # Always reconcile progress.json from book.json after the run, so the plan
-    # and the progress file cannot drift apart. A dry run wrote no models, but
-    # the sync is still safe: it only reflects the actual chapter state.
-    from workplan import sync_progress
-    changed = sync_progress(args.bookname)
-    print(f"  progress.json          : {'updated' if changed else 'already current'}")
+    # Always reconcile progress.json and regenerate config.json from book.json
+    # after the run, so the plan and the generated reports cannot drift apart.
+    # A dry run wrote no models, but the sync is still safe: it only reflects
+    # the actual chapter state.
+    from workplan import sync_outputs
+    progress_changed, config_changed = sync_outputs(args.bookname, updated_by="enrich")
+    print(f"  progress.json          : {'updated' if progress_changed else 'already current'}")
+    print(f"  config.json            : {'updated' if config_changed else 'already current'}")
     print("=" * 60)
     return int(bool(failures))
 

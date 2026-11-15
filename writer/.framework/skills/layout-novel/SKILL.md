@@ -86,6 +86,7 @@ workspaces/pipeline/<bookname>/
     |           |-- segment.json
     |           |-- writer/
     |           |-- editor/
+    |           |-- latest/
     |           |-- version/
     |           `-- translator/
     |-- 1/
@@ -101,7 +102,7 @@ This is mandatory.
 
 - Chapter folders live only under `workspaces/pipeline/<bookname>/chapters/`.
 - Segment folders live only under `workspaces/pipeline/<bookname>/chapters/<chapter>/segments/`.
-- Writer, editor, translator, and version folders live only under `workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/`.
+- Writer, editor, latest, translator, and version folders live only under `workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/`.
 - Each chapter has a `history/` folder (`workspaces/pipeline/<bookname>/chapters/<n>/history/`) that holds superseded drafts of `chapter.md`; the live `chapter.md` always holds the current state.
 - Do not create root-level chapter folders under `workspaces/pipeline/<bookname>/`.
 - Do not create `chapter_<n>` or `segment_<n>` folders in new scaffolds; use `1`, `2`, etc.
@@ -238,6 +239,7 @@ The scaffold agent's `## Chapter Layout` section is the runtime semantics for th
 - `history/` stores superseded copies of `chapter.md` or writer-stage drafts before overwrite.
 - `segments/<x>/writer/` stores writer-stage chapter copies.
 - `segments/<x>/editor/` stores editorial notes and quality feedback.
+- `segments/<x>/latest/` stores the most recent finalized chapter copy (refreshed by review and publish).
 - `segments/<x>/version/` stores versioned/promoted snapshots of the segment's published output.
 - `segments/<x>/translator/` stores translated derivatives only.
 
@@ -333,6 +335,6 @@ Before reporting completion, verify:
 - Root files exist: `book.json`, `characters.json`, `masterprompt.md`, `workshop_metadata.md`, `progress.json`.
 - `filters/filters.json` exists and names the filters selected from `book.json`'s `filter_chain` (or the default novel preset chain if no book plan exists) in the exact order declared. No per-filter folders are created at scaffold; each filter creates its folder on first run.
 - Every chapter in `Introduction -> 1..N -> Conclusion` has `model.json`, `mood.json`, `chapter.md`, a `history/` folder, and `segments/1/segment.json`.
-- Every `segments/1/` has `writer/`, `editor/`, `version/`, and `translator/` folders.
+- Every `segments/1/` has `writer/`, `editor/`, `latest/`, `version/`, and `translator/` folders.
 - No chapter or segment folders were created outside the canonical paths.
 - `workspaces/published/<bookname>/chapters/` exists and contains no unfinished generated prose unless a later workflow created it.

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নৌকা আবার জলে",
+  "segment_summary": "শেষে নৌকাটি আবার জলে নামে, ওয়ার আবার ডোবে; কবিতা এই ফিরে যাওয়াকে প্রতিরোধের ধারাবাহিকতা হিসেবে পড়ে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the final melody not as a human emission but as an emergent property of the river itself, activated by Gopal's voice.",
+    "story_option": "Setting: A deep bend where the modernized channel meets an old, overgrown tributary mouth; Desire: He chooses a final note not to sing for passengers, but as an offering *to* the silt and memory of the forgotten geography; Obstacle: The dissonant whine of a nearby distant engine is perceived as part of his own sustained harmony.",
+    "subject_rotation": "Emphasizing the ontological status of sound: Is the song an action, or is it a permanent change in the river’s state?",
+    "sensory_detail": "The specific smell of river mist carrying trace minerals and dissolved peat after a period of mechanical silence.",
+    "research_question": "How can 'unbroken melody' be represented poetically when its function is explicitly defined as ephemeral or non-linear?",
+    "structural_variant": "A highly fragmented structure where each segment ends abruptly, mimicking the way sound fragments in heavy moisture.",
+    "variety_note": "This chapter must function as a thematic closure rather than an argumentative one; it is defined by what remains intangible after all visible conflict—a shift from the clash of materials (wood vs. steel) to the persistence of vibration."
+  }
+}

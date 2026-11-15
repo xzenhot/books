@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নদীর দান ভাগ করে",
+  "segment_summary": "নদী যেমন বিনা মূল্যে সবাইকে বয়ে চলে, মাঝিও তেমনি নদীর সেই দানকে মানুষের মধ্যে ভাগ করে দেয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting the passenger's gaze at the end of the crossing not as thanks, but as a recognition of debt owed to an abstract concept (the river/tradition), not Gopal.",
+    "story_option": "Setting: A low, muddy bank near an ancient, forgotten ghat; Desire: To cross for passage to attend a sudden rite or burial; Obstacle: The sheer effort of pulling the boat against slow current.",
+    "subject_rotation": "Treating 'generosity' not as an act of virtue but as a necessary ecological function for the riverine community to survive infrastructural change.",
+    "sensory_detail": "The particular, gritty feel of dried river mud adhering to worn sandals after disembarking at an unofficial landing.",
+    "research_question": "How is communal resource sharing historically documented or unspoken within delta communities in response to external economic pressure?",
+    "structural_variant": "Structuring segments as parallel reflections: 'Then' (unmeasured passage) vs. 'Now' (the pressure for measurement/coinage).",
+    "variety_note": "This chapter deliberately shifts focus away from conflict (dredging/diesel) and toward ethical action, using the rhythm of unpaid passage as a meditative counterpoint to later chapters' sonic battles."
+  }
+}

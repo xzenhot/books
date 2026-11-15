@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বাবার গলা",
+  "segment_summary": "গোপাল যখন একা ওয়ার টানে, তার গলা থেকে ভেসে ওঠে সেই সুর যা তার বাবা গাইত, তার দাদু গাইত; কবিতা গানকে প্রজন্মের সেতু হিসেবে দেখে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the dissonance between the human voice and the diesel engine not just as sound clash, but as a philosophical argument over definitions: what constitutes 'organic life'?",
+    "story_option": "setting: Deep within the boat's cramped wooden cabin during an overnight tow, desire: To reconnect with the lost voices of his ancestors through the song., obstacle: The persistent, high-pitched whine of a distant, modern boat motor infiltrates the night silence., turn: Gopal notices a specific knot in the worn rope which resembles an old musical notation from his youth.",
+    "subject_rotation": "Viewing the boat as a mobile stage where tradition performs against a backdrop of rapid, impersonal industrial progress.",
+    "sensory_detail": "The faint, almost imperceptible scent of crushed river blossoms carried on a current that has been unnaturally straightened.",
+    "research_question": "What are the subtle phonetic markers in Bhatiyali singing that differentiate true cultural resonance from mere vocal imitation?",
+    "structural_variant": "A highly fragmented structure where each line is a captured sonic artifact—a single syllable from song, a specific engine sound, an intake of breath.",
+    "variety_note": "This chapter moves away from broad geological descriptions (Chapter 2) to focus intensely on an ephemeral, non-material force—the sound—and introduces the central conflict through auditory contrast."
+  }
+}

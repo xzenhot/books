@@ -36,8 +36,8 @@ Supported command families are defined by the two start-point specs. The backlog
 /book <bookname> add <chapter-title> <chapter-summary-seed>
 /book <bookname> filter <filter> *|all|<n>
 /book <bookname> <agentname> <chapter>|<n>|all|continue
-/book <bookname> enrich <count>|range|*
-/book <bookname> review *|all|<n>
+/book <bookname> enrich <count>|range|*|<n.m>|<n.m>-<n.k>
+/book <bookname> review *|all|<n>|<n.m>|<n.m>-<n.k>|<n>-<k>
 /book <bookname> humanize *|all|<n>
 /book <bookname> eval all|*|<n>|<range>|continue
 /book <bookname> write <n>|all|continue [<style>]        # default style: pijush
@@ -107,10 +107,11 @@ workspaces/pipeline/<bookname>/chapters/<chapter>/
 workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/
 ```
 
-For poetry, every chapter has exactly one segment:
+For poetry, each chapter's explicit `segment_count` in its `book.json` plan
+determines its segment folders (legacy plans without the field use one):
 
 ```text
-segments/1
+segments/<segment>
 ```
 
 Do not create chapter folders outside `chapters/`. Do not create segment folders outside `chapters/<chapter>/segments/`.
@@ -366,11 +367,18 @@ workspaces/pipeline/<bookname>/chapters/
 
 Novel pipelines use `storyline.md`, `book.json`, `characters.json`, chapter folders, moods, segments, and filters.
 
-Poetry pipelines use `book.json` (its `chapters[]` array) as source of truth, one segment per topic, and no `mood.json` unless explicitly configured as a hybrid.
+Poetry pipelines use `book.json` (its `chapters[]` array) as source of truth;
+each chapter entry declares its `segment_count` (default 8 for new poetry plans)
+and its inline `segments[]` plan (titles and summaries), authored by layout.
+Scaffold clones that plan into `chapter.json` and each `segment.json`; enrichment
+only layers poetic parameters on top (and fills the plan when a legacy chapter
+still has an empty list). Poetry has no `mood.json` unless explicitly configured
+as a hybrid.
 
 ### Segment Drafts
 
-Intermediate segment work stays inside `workspaces/pipeline/`:
+Intermediate segment work stays inside `workspaces/pipeline/`. A segment poem
+moves through stages: `writer/` (raw draft) → `editor/` (reviewed, finalized).
 
 ```text
 workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/writer/
@@ -378,7 +386,9 @@ workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/editor/
 workspaces/pipeline/<bookname>/chapters/<chapter>/segments/<segment>/translator/
 ```
 
-Do not write unfinished drafts directly to `workspaces/published/`.
+**Review writes only to `editor/`** (never the writer stage); **publish reads only
+from `editor/`** for per-segment chapters. Do not write unfinished drafts directly
+to `workspaces/published/`.
 
 ### Chapter Draft Ownership
 
@@ -519,7 +529,6 @@ the framework is still complete and effective:
 The judge delegates structural audit to `.framework/rules/self-eval.md` and applies
 the routing/boundary/lifecycle checks in `.framework/workflows/eval-judge.md`. It
 never mutates files.
-
 
 
 

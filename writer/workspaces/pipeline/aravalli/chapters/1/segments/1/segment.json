@@ -2,5 +2,10 @@
   "level": "segment",
   "state": "pending",
   "chapter_index": 1,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "প্রোটেরোজোয়িক রক্তপাত",
+  "segment_summary": "টেথিস সাগরের গভীর থেকে টেকটনিক প্লেটের ধাক্কায় আরাবল্লির প্রাচীন শিলাগুলো রক্তাক্তভাবে উঠে আসছে, যা পৃথিবীর আদিমতম সংগ্রামকে ধারণ করে।",
+  "name": "1",
+  "word_target": 60
 }

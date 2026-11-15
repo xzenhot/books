@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "গাছ থেকে নৌকা",
+  "segment_summary": "কবিতা সেই জন্মকথা মনে করে, যে মুহূর্তে একটি গাছ নদীর জলে নৌকা হয়ে ওঠে, আর এক কিশোর প্রথমবার ওয়ার হাতে বাবার পাশে বসে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'birth' moment through the sensory experience of material transformation: tree bark yielding to river water.",
+    "story_option": "A vignette where Gopal instinctively rejects a smooth, fabricated piece of wood offered by a modern supplier, preferring the imperfection of aged river-salvaged planking.",
+    "subject_rotation": "Viewing the river during the initial journey less as life-giver and more as indifferent vastness preceding conscious connection.",
+    "sensory_detail": "The metallic taste of river mist clinging to the lips before dawn.",
+    "research_question": "What is the precise acoustic difference between a manually propelled wooden hull and a diesel-powered vessel in water?",
+    "structural_variant": "Structuring segments as parallel reflections: 'Then' (past craft) vs. 'Now' (threat of machine).",
+    "variety_note": "This chapter roots the book firmly in tactile memory and material heritage, setting a deep contrast against the later chapters that will engage with noise, concrete, and erasure. It leans into intimate domesticity of the craft."
+  }
+}

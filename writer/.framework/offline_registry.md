@@ -23,9 +23,9 @@ python tools/book.py <bookname> <verb> [options...]
 | `build` | Alias for `init` with an optional leading chapter count | `python tools/book.py <bookname> build 20 novel` |
 | `layout` | Regenerate book.json from storyline.md (does not touch gist/storyline) | `python tools/book.py <bookname> layout [novel\|poetry]` |
 | `scaffold` | Build pipeline folder structure, stage the style signature and bookseed vocabulary, write the pipeline `README.md` map, and copy them into the pipeline | `python tools/book.py <bookname> scaffold [count] [novel\|poetry]` |
-| `enrich` | Run enrich engine on selected chapters | `python tools/book.py <bookname> enrich [all\|1\|1-5\|continue]` |
-| `write` | Run chapter writer on selected chapters | `python tools/book.py <bookname> write [all\|1\|1-5\|continue]` |
-| `publish` | Promote pipeline segments to workspaces/published/ | `python tools/book.py <bookname> publish` |
+| `enrich` | Run enrich engine on selected chapters | `python tools/book.py <bookname> enrich [all\|1\|1-5\|3.2\|3.2-3.5\|list]` |
+| `write` | Run chapter writer on selected chapters | `python tools/book.py <bookname> write [all\|1\|1-5\|3.2\|3.2-3.5\|list\|continue]` |
+| `publish` | Promote latest-stage segments (latest/, else editor/) to workspaces/published/ (with pipeline `latest/` mirrors) | `python tools/book.py <bookname> publish` |
 | `preview` | Same as publish but skips quality gate/review (publish --draft) | `python tools/book.py <bookname> preview` |
 
 Common flags: `-t/--type poetry|novel` (form override, default poetry),
@@ -41,11 +41,12 @@ Each is runnable standalone (the `book.py` dispatcher wraps several of these).
 | Tool | Purpose | Command shape |
 |------|---------|---------------|
 | `tools/scaffold.py` | Create/resume/extend a **poetry** pipeline (append-only, no overwrite); reconciles a novel-preset `filter_chain` and stages/copies the style signature and `bookseed.md` | `python tools/scaffold.py <bookname>` |
-| `tools/enrich.py` | Enrich chapter models with variety-driven planning tags | `python tools/enrich.py <bookname> <number\|range\|list\|all\|*>` |
-| `tools/write.py` | Write chapter drafts via Ollama from flattened context | `python tools/write.py <bookname> <n\|range\|list\|all\|"*">` |
+| `tools/enrich.py` | Enrich chapter models with variety-driven planning tags | `python tools/enrich.py <bookname> <n\|n.m\|n.m-n.k\|n-k\|list\|all\|*>` |
+| `tools/write.py` | Write chapter drafts via Ollama from flattened context | `python tools/write.py <bookname> <n\|n.m\|n.m-n.k\|n-k\|list\|all\|"*"\|continue>` |
 | `tools/workplan.py` | Shared plan-of-works banner for enrich/write (model, book, count, range, ETA) | imported by `enrich.py` / `write.py`; not run directly |
-| `tools/publish.py` | Publish a validated collection from chapter-root drafts | `python tools/publish.py <bookname>` |
-| `tools/review.py` | Quality review engine (audits against seed quality parameters) | `python tools/review.py <bookname> [all\|*\|<n>\|<range>\|continue]` |
+| `tools/publish.py` | Publish validated latest-stage segments (latest/, else editor/; plus legacy chapter-root drafts), refreshing the pipeline segment `latest/` | `python tools/publish.py <bookname>` |
+| `tools/config_report.py` | Regenerate the pipeline `config.json` report from book/chapter/segment models and progress (runs automatically after enrich and write) | `python tools/config_report.py <bookname>` |
+| `tools/review.py` | Quality review engine (audits against seed quality parameters) | `python tools/review.py <bookname> [all\|*\|<n>\|<n.m>\|<n.m>-<n.k>\|<n>-<k>\|list\|continue]` |
 | `tools/humanize.py` | Polish chapter drafts to target language only | `python tools/humanize.py <bookname> [all\|*\|<n>\|<range>\|continue]` |
 | `tools/syntax_filter.py` | Apply the syntax filter (records syntax sample into chapter models) | `python tools/syntax_filter.py <bookname> [all\|1\|1-5\|continue]` |
 | `tools/flatten.py` | Flatten a chapter model.json into context.md | `python tools/flatten.py <bookname> <n>` |

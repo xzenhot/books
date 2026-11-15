@@ -29,7 +29,7 @@ the seed is the compressed story the writer expands.
 
 1. Determine the chapter's segment count from its length and the epic's material.
 2. For each segment `<x>`, create `chapters/<n>/segments/<x>/` with
-   `writer/`, `editor/`, `translator/` folders and a `segment.json`.
+   `writer/`, `editor/`, `latest/`, `translator/` folders and a `segment.json`.
 3. Write the seed text — a rich `chapter_summary` (3–6 sentences) naming the scene,
    characters, conflict, turn, and handoff, shaped by the mood.
 4. Record `included_characters` (from the roster) and `quality_parameters`.

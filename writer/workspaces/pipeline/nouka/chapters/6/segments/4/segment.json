@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "মিস্টার চ্যাটার্জি",
+  "segment_summary": "নির্বিকার, নিখুঁত পোশাকধারী প্রকৌশলী মিস্টার চ্যাটার্জি প্রকল্পের নেতৃত্বে; কবিতা তাকে নদীর সঙ্গে মানুষের শাসক-সম্বন্ধের মুখ হিসেবে আঁকে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the entire chapter on the contrast between a single, calloused hand (Gopal's) tracing an ancient bend on a wet map versus the mechanical readout of dredging coordinates.",
+    "story_option": "Setting: The muddy edge where a newly straightened channel meets an old, beloved sandbar; Desire: Gopal attempts to anchor his boat in the familiar place, only to find the dredged bank is razor-sharp concrete; Obstacle: A small piece of ancient river wood he used as a guide marker has been cleanly severed.",
+    "subject_rotation": "Shifting emphasis from 'modernization' as an external threat to 'erasure' as a passive state—the slow, unfeeling decay of meaning when context is stripped away.",
+    "sensory_detail": "The sharp, mineral taste left in the mouth after inhaling air near heavy machinery exhaust.",
+    "research_question": "How do historical river maps of this region differentiate between 'natural flow patterns' and navigable, man-made channels?",
+    "structural_variant": "Alternating stanzas focusing on the scale disparity—one verse capturing the tiny, resilient life on the water; the next capturing the monolithic scale of a concrete embankment.",
+    "variety_note": "This chapter is distinct from earlier pieces by externalizing the conflict; rather than focusing on internal tradition (song/generosity), it targets the imposition of an alien, quantifiable structure onto the natural flow of life."
+  }
+}

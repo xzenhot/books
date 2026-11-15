@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "name": "default",
+  "source": {
+    "book_name": null,
+    "source_format": null,
+    "source_path": null,
+    "version": null
+  },
+  "book": {
+    "display_name": null,
+    "author": "Pijush Biswas",
+    "about_author": null,
+    "about_book": null,
+    "cover_type": "Paperback",
+    "paperback_price": 200,
+    "hard_cover_price": 300,
+    "isbn": null,
+    "publisher_name": null,
+    "publisher_address": null,
+    "publisher_logo_path": "logo.jpg",
+    "composer": null,
+    "cover_artist": null,
+    "year_of_production": 2026,
+    "copyright": null,
+    "options": {
+      "page_width_mm": 139.7,
+      "page_height_mm": 215.9,
+      "margin_mm": 20.07,
+      "size_unit": "Inches",
+      "font_family": "AdorshoLipi",
+      "font_size": null,
+      "footer_text": "© 2026 Pijush Biswas. All rights reserved.",
+      "page_number_format": "Page {page} of {total}",
+      "background_image_path": null,
+      "front_cover_image_path": "pages/cover/front.jpg",
+      "back_cover_image_path": "pages/backcover/back.jpg",
+      "include_covers": true,
+      "layout": "ChapterPages"
+    },
+    "pages": [
+      {
+        "order": 1,
+        "file_path": "pages/cover/",
+        "format": "image",
+        "paths": [
+          {
+            "order": 1,
+            "file_path": "pages/cover/front.jpg",
+            "content_type": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "file_path": "pages/blurb/",
+        "format": "rtf",
+        "paths": []
+      },
+      {
+        "order": 3,
+        "file_path": "pages/publisher/",
+        "format": "rtf",
+        "paths": [
+          {
+            "order": 1,
+            "file_path": "pages/publisher/title.rtf",
+            "content_type": "application/rtf"
+          },
+          {
+            "order": 2,
+            "file_path": "pages/publisher/copyright.rtf",
+            "content_type": "application/rtf"
+          },
+          {
+            "order": 3,
+            "file_path": "pages/publisher/dedicate.rtf",
+            "content_type": "application/rtf"
+          },
+          {
+            "order": 4,
+            "file_path": "pages/publisher/publisher.rtf",
+            "content_type": "application/rtf"
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "file_path": "pages/index/",
+        "format": "markdown",
+        "paths": []
+      },
+      {
+        "order": 5,
+        "file_path": "pages/content/",
+        "format": "markdown",
+        "paths": []
+      },
+      {
+        "order": 6,
+        "file_path": "pages/appendix/",
+        "format": "rtf",
+        "paths": []
+      },
+      {
+        "order": 7,
+        "file_path": "pages/backcover/",
+        "format": "image",
+        "paths": [
+          {
+            "order": 1,
+            "file_path": "pages/backcover/back.jpg",
+            "content_type": "image/jpeg"
+          }
+        ]
+      }
+    ]
+  }
+}

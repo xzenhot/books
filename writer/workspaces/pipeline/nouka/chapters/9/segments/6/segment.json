@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নামহীন ভূখণ্ড",
+  "segment_summary": "মানচিত্র থেকে নাম মুছে গেলে জায়গাটি কি সত্যিই আর থাকে, নাকি নামহীন ভূখণ্ডে পরিণত হয় — কবিতা এই প্রশ্ন তোলে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal conflict presented as a failed cartographic attempt—Gopal trying to draw the old contours with water markings, only for them to be washed away before permanence.",
+    "story_option": "Setting: Docked temporarily at a remote ghat where only old timers gather; Desire: A brief, desperate sharing of local dialect/names among the aging few before they are dispersed by modern life; Obstacle: Younger boatmen treat these places with utilitarian indifference.",
+    "subject_rotation": "Examining 'memory density': measuring not area (square kilometers) but accumulated cultural weight tied to specific points on the river.",
+    "sensory_detail": "The faint, mineral tang of disturbed silt mixed with a sharp, inorganic scent rising from diesel-fed construction runoff at dawn.",
+    "research_question": "How do the local dialects differ when referring to a bend—is there a word for a gentle curve versus a sharp, perilous one?",
+    "structural_variant": "A call-and-response pattern: Gopal naming/describing a place, followed by a short stanza detailing the bureaucratic substitute for that name.",
+    "variety_note": "This chapter contrasts sharply with the 'Diesel Sound' (Ch. 7) by focusing inward on memory and language rather than outward on noise pollution; it explores cultural entropy through geography instead of sonic invasion."
+  }
+}

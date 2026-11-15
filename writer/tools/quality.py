@@ -259,8 +259,23 @@ def sync_progress(pipeline):
         data = draft.read_bytes() if draft.exists() else b""
         authored = bool(data.strip()) and model.get("draft", {}).get("sha256") == digest(data)
         review = model.get("quality_review", {})
-        validated = authored and review.get("status") == "passed" and review.get("sha256") == digest(data)
-        published = validated and row.get("published_sha256") == digest(data)
+        # For a per-segment chapter, the publish source (and therefore the
+        # validation target) is the publish stage (latest/, falling back to
+        # editor/), not chapter.md.
+        if planned_segment_count(chapter) > 0:
+            staged = assemble_publish_md(chapter)
+            if staged:
+                staged_sha = digest(staged.encode("utf-8"))
+                validated = (review.get("status") == "passed"
+                             and review.get("sha256") == staged_sha
+                             and publish_stage_is_complete(chapter))
+                published = validated and row.get("published_sha256") == staged_sha
+            else:
+                validated = False
+                published = False
+        else:
+            validated = authored and review.get("status") == "passed" and review.get("sha256") == digest(data)
+            published = validated and row.get("published_sha256") == digest(data)
         row.update(written=authored, validated=validated, published=published,
                    status="published" if published else "validated" if validated else "written" if authored else "pending",
                    completed_date=review.get("reviewed_at") if validated else None)
@@ -299,17 +314,219 @@ def register_draft(chapter, origin="write"):
     sync_progress(chapter.parents[1])
 
 
-def require_publishable(chapter):
+def segment_poems(chapter, stage="editor"):
+    """Return ordered ``[(segment_title, body), ...]`` poems from a chapter's per-segment stage.
+
+    Reads ``chapters/<n>/segments/<m>/<stage>/segment.md`` in numeric segment
+    order, resolving each poem's title from ``segments/<m>/segment.json`` (then
+    the chapter's ``segments[]`` plan, then the segment number). A missing or
+    empty poem is skipped.
+    """
     chapter = Path(chapter)
-    data = (chapter / "chapter.md").read_bytes()
+    segments_dir = chapter / "segments"
+    if not segments_dir.is_dir():
+        return []
+    model = read_chapter_model(chapter)
+    plan: dict[int, dict] = {}
+    for record in model.get("segments") or []:
+        if isinstance(record, dict) and isinstance(record.get("segment_index"), int):
+            plan[int(record["segment_index"])] = record
+    poems: list[tuple[str, str]] = []
+    for seg in sorted(segments_dir.iterdir(), key=lambda p: int(p.name) if p.name.isdecimal() else 1 << 30):
+        if not seg.is_dir() or not seg.name.isdecimal():
+            continue
+        stage_file = seg / stage / "segment.md"
+        if not stage_file.is_file():
+            continue
+        body = stage_file.read_text(encoding="utf-8-sig").strip()
+        if not body:
+            continue
+        title = ""
+        seg_json = seg / "segment.json"
+        if seg_json.is_file():
+            try:
+                title = str(json.loads(seg_json.read_text(encoding="utf-8-sig")).get("segment_title") or "").strip()
+            except (OSError, json.JSONDecodeError):
+                title = ""
+        if not title:
+            title = str((plan.get(int(seg.name)) or {}).get("segment_title") or "").strip()
+        poems.append((title or seg.name, body))
+    return poems
+
+
+def segment_poems_prefer(chapter, primary="editor", fallback="writer"):
+    """Per-segment poems preferring *primary* stage, falling back to *fallback*.
+
+    Used to keep the live anthology complete while publish still reads only the
+    primary stage: a segment that has been reviewed (editor) uses its editor copy,
+    and an un-reviewed segment keeps its writer copy.
+    """
+    chapter = Path(chapter)
+    segments_dir = chapter / "segments"
+    if not segments_dir.is_dir():
+        return []
+    primary_map = {int(p.name): (title, body) for title, body, p in
+                   _segment_poems_with_index(chapter, primary)}
+    fallback_map = {int(p.name): (title, body) for title, body, p in
+                    _segment_poems_with_index(chapter, fallback)}
+    indices = sorted(set(primary_map) | set(fallback_map))
+    poems: list[tuple[str, str]] = []
+    for idx in indices:
+        if idx in primary_map:
+            poems.append(primary_map[idx])
+        elif idx in fallback_map:
+            poems.append(fallback_map[idx])
+    return poems
+
+
+def _segment_poems_with_index(chapter, stage):
+    """Yield ``(title, body, seg_path)`` for every poem in a per-segment stage."""
+    chapter = Path(chapter)
+    segments_dir = chapter / "segments"
+    if not segments_dir.is_dir():
+        return
+    model = read_chapter_model(chapter)
+    plan: dict[int, dict] = {}
+    for record in model.get("segments") or []:
+        if isinstance(record, dict) and isinstance(record.get("segment_index"), int):
+            plan[int(record["segment_index"])] = record
+    for seg in sorted(segments_dir.iterdir(), key=lambda p: int(p.name) if p.name.isdecimal() else 1 << 30):
+        if not seg.is_dir() or not seg.name.isdecimal():
+            continue
+        stage_file = seg / stage / "segment.md"
+        if not stage_file.is_file():
+            continue
+        body = stage_file.read_text(encoding="utf-8-sig").strip()
+        if not body:
+            continue
+        title = ""
+        seg_json = seg / "segment.json"
+        if seg_json.is_file():
+            try:
+                title = str(json.loads(seg_json.read_text(encoding="utf-8-sig")).get("segment_title") or "").strip()
+            except (OSError, json.JSONDecodeError):
+                title = ""
+        if not title:
+            title = str((plan.get(int(seg.name)) or {}).get("segment_title") or "").strip()
+        yield (title or seg.name, body, seg)
+
+
+def assemble_segment_md(chapter, stage="editor"):
+    """Assemble a chapter's per-segment poems into the canonical chapter body.
+
+    Returns ``""`` when no stage poems exist (the caller then falls back to the
+    chapter-root ``chapter.md`` — the legacy/novel path).
+    """
+    poems = segment_poems(chapter, stage)
+    if not poems:
+        return ""
+    return "\n\n".join(f"# {title}\n\n{body}" for title, body in poems) + "\n"
+
+
+def assemble_segment_md_prefer(chapter, primary="editor", fallback="writer"):
+    """Assemble the live anthology preferring *primary*, falling back to *fallback*."""
+    poems = segment_poems_prefer(chapter, primary, fallback)
+    if not poems:
+        return ""
+    return "\n\n".join(f"# {title}\n\n{body}" for title, body in poems) + "\n"
+
+
+def require_publishable(chapter, data=None):
+    chapter = Path(chapter)
+    if data is None:
+        data = (chapter / "chapter.md").read_bytes()
     model = read_chapter_model(chapter)
     sha = digest(data)
     review = model.get("quality_review", {})
-    if not data.strip() or model.get("draft", {}).get("sha256") != sha:
-        raise ValueError(f"{chapter.name}: missing or unregistered authored draft")
+    if not data.strip():
+        raise ValueError(f"{chapter.name}: empty draft")
+    # The quality review hash binds the publish source (editor stage for a
+    # per-segment chapter, chapter.md otherwise). The `draft.sha256` field tracks
+    # the live writer draft and is not the publish gate.
     if review.get("status") != "passed" or review.get("sha256") != sha or not review.get("reviewer") or not review.get("reviewed_at"):
         raise ValueError(f"{chapter.name}: current draft needs a quality pass")
     return data, model
+
+
+def planned_segment_count(chapter):
+    """Number of planned per-segment records for a chapter, else 0.
+
+    Poetry chapters carry an ordered ``segments[]`` plan (list of dicts); novels
+    and legacy single-segment chapters carry none or a flat index list, so they
+    return 0 (no per-segment completeness requirement).
+    """
+    model = read_chapter_model(chapter)
+    segments = model.get("segments")
+    if isinstance(segments, list):
+        records = [s for s in segments if isinstance(s, dict) and "segment_index" in s]
+        if records:
+            return len(records)
+    return 0
+
+
+def editor_is_complete(chapter):
+    """True when every planned segment has a non-empty editor-stage poem."""
+    planned = planned_segment_count(chapter)
+    if planned == 0:
+        return True
+    return len(segment_poems(chapter, "editor")) == planned
+
+
+# The publish source is the ``latest/`` stage (the most recent finalized copy),
+# falling back to ``editor/`` for segments that predate the latest/ contract.
+PUBLISH_STAGE = "latest"
+PUBLISH_STAGE_FALLBACK = "editor"
+
+
+def publish_poems(chapter):
+    """Ordered ``[(segment_title, body), ...]`` from the publish stage.
+
+    Prefers ``segments/<m>/latest/segment.md`` and falls back to
+    ``segments/<m>/editor/segment.md`` per segment, so a segment that has no
+    latest copy is still publishable from its reviewed editor copy.
+    """
+    return segment_poems_prefer(chapter, PUBLISH_STAGE, PUBLISH_STAGE_FALLBACK)
+
+
+def publish_poem_sources(chapter):
+    """``[(segment_name, bytes, stage), ...]`` for the publish source per segment.
+
+    ``stage`` records which file the bytes came from (``latest`` or ``editor``)
+    so the publisher can report fallbacks.
+    """
+    chapter = Path(chapter)
+    segments_dir = chapter / "segments"
+    if not segments_dir.is_dir():
+        return []
+    sources = []
+    for seg in sorted(segments_dir.iterdir(),
+                      key=lambda p: int(p.name) if p.name.isdecimal() else 1 << 30):
+        if not seg.is_dir() or not seg.name.isdecimal():
+            continue
+        for stage in (PUBLISH_STAGE, PUBLISH_STAGE_FALLBACK):
+            source = seg / stage / "segment.md"
+            if source.is_file():
+                data = source.read_bytes()
+                if data.strip():
+                    sources.append((seg.name, data, stage))
+                    break
+    return sources
+
+
+def assemble_publish_md(chapter):
+    """Assemble the chapter body from the publish stage (latest, else editor)."""
+    poems = publish_poems(chapter)
+    if not poems:
+        return ""
+    return "\n\n".join(f"# {title}\n\n{body}" for title, body in poems) + "\n"
+
+
+def publish_stage_is_complete(chapter):
+    """True when every planned segment has a non-empty publish-stage poem."""
+    planned = planned_segment_count(chapter)
+    if planned == 0:
+        return True
+    return len(publish_poems(chapter)) == planned
 
 
 def register_existing_book(pipeline, origin="legacy"):

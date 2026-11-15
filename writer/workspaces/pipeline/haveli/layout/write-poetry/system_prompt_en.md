@@ -13,3 +13,5 @@ Writing rules:
 10. Make the central idea concrete through scene, object, action, and feeling — not abstract pronouncement.
 11. Give each poem its own voice and rhythm — through diction, pause, repetition, and sentence movement.
 12. End on a specific, resonant image, turn, question, or silence; do not merely summarize.
+13. Do not repeat the same word — choose a synonym, avoid cliché; if a word would appear twice within a line or passage, replace the second occurrence.
+14. HUMAN OVERRIDE INSTRUCTIONS are craft directives, not subject matter — never reproduce their wording as content; apply them silently, writing only under their influence.

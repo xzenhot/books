@@ -493,7 +493,7 @@
     |-- chapter.md                  # writer text
     |-- chapter.json                # segment metadata, when present
     `-- &lt;language&gt;/chapter.md       # translated text</code></pre>
-    <p>Without a language, publish selects the latest writer segment. With a language, it selects the matching translator output and reports missing translations. Report published/skipped counts and assembled paths. Preserve pipeline content; only publication progress metadata may change. Existing published versions remain intact.</p>
+    <p>Without a language, publish selects the latest writer segment. With a language, it selects the matching translator output and reports missing translations. Report published/skipped counts and assembled paths. Publish writes the versioned output, refreshes each pipeline segment's <code>latest/segment.md</code> mirror, and updates publication progress metadata; all other pipeline content is preserved. Existing published versions remain intact.</p>
     <p>Assembly opens with the book title and gist, appends chapters in canonical order with dividers, and includes Introduction and Conclusion for a complete novel. Poetry follows the configured topic order.</p>
 
     <h2 id="progress">Progress Tracking</h2>

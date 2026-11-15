@@ -15,6 +15,30 @@ must carry `updated_by` and `updated_date` per
 
 Use this skill for a poetry pipeline to audit a finished chapter against the **quality parameters** defined in the seed analysis, and revise it until it passes. This is the final gate before a chapter is marked `completed`.
 
+## Cleanup Before Audit (mandatory)
+
+Before auditing, clean each scoped segment poem (the `latest/` copy, else
+`editor/`, else the `writer/` draft):
+
+1. **Remove the `## সারাংশ` section** — the heading (`## সারাংশ`, `## সারাংশঃ`,
+   `## Summary`, any heading level) and the prose under it, up to the next
+   same-or-higher heading or end of file. Summary is planner metadata, never
+   reader-facing text.
+2. **Remove the segment title heading** — the leading Markdown heading line
+   (e.g. `## প্রাসাদের প্রথম আহ্বান`) and any `## শিরোনামঃ` / `## কবিতাঃ` /
+   `## Title` / `## Poem` label (dropping the title line after a bare title
+   label). The title already lives in `segment.json` and is emitted by the
+   assembled anthology, so leaving it in the poem prints it twice. Never remove
+   the poem body: removal must not empty the poem.
+3. **Strip non-target-language content** — remove words written in a script other
+   than the book's declared language script (from `book.json` → `language`). This
+   is removal, not translation: Latin (`Turning Point`), Devanagari, Tamil,
+   CJK, Cyrillic, etc. are dropped; target-script words, digits, and punctuation
+   are kept. A mixed token keeps only its target-script clusters.
+
+All steps are idempotent. After cleanup, write the poem to the editor stage and
+mirror it into `latest/`.
+
 ## Current-Draft Requirement
 
 Review the current chapter.md, not metadata alone. Compute its SHA-256 before
@@ -90,7 +114,11 @@ The `filter.md` is **generated from the chapter models** — it is not a static 
 2. If the `## Instructions` section is empty, audit the chapter against the seed analysis's quality parameters and pass it if it meets them.
 3. If the instructions specify directives, apply them **exactly as written** to **every chapter** (unless a directive is scoped to a specific chapter).
 4. Revise any chapter that falls short, looping back to an earlier filter (research, correctness, theme, syntax, override) if the root cause lies there.
-5. Record the result in each chapter's model.
+5. **Promote the reviewed poem into the editor stage** — write the normalized,
+   finalized poem to `chapters/<n>/segments/<m>/editor/segment.md` (archiving any
+   prior editor copy) and mirror it into `chapters/<n>/segments/<m>/latest/segment.md`,
+   then rebuild `chapters/<n>/chapter.md` from the editor poems.
+6. Record the result in each chapter's model.
 
 ## Rules
 
@@ -102,6 +130,20 @@ The `filter.md` is **generated from the chapter models** — it is not a static 
 - **Timelessness** — written as if it will be read a hundred years from now.
 - **The human's word is final.** Apply the directives exactly; do not reinterpret or soften them.
 - **Apply to all chapters.** An unscoped directive applies to every chapter (1 through N).
+- **Float-segment scope.** A `<n>.<m>` target (e.g. `3.2`) audits and normalizes only
+  segment `m` of chapter `n` (a `3.2-3.5` range selects several); the other segments'
+  poems are preserved, and `chapter.md` is rebuilt from all reviewed editor-stage poems.
+  A bare `<n>` or `all`/`*` still audits every segment of the scoped chapter(s).
+
+## Editor Stage (review output)
+
+Review **promotes** content into the editor stage — it never rewrites the writer
+stage in place. Each reviewed segment poem is written to
+`chapters/<n>/segments/<m>/editor/segment.md` (archiving the prior editor copy
+first) and mirrored into `chapters/<n>/segments/<m>/latest/segment.md`. The writer
+copy stays the raw draft. `publish` reads **only** the
+`editor/` stage (and refreshes `latest/` from it); an un-reviewed segment has no
+editor copy and is skipped by publish.
 
 ## Chapter Model
 
@@ -122,4 +164,5 @@ Do not overwrite unrelated fields; merge the quality state into the existing mod
 ## Output
 
 - **Command file** — create or update `workspaces/pipeline/<bookname>/filters/quality/filter.md`, generated from the chapter models' context.
+- **Editor stage** — promote each reviewed segment poem to `chapters/<n>/segments/<m>/editor/segment.md` (archiving the prior copy), and rebuild `chapters/<n>/chapter.md` from the editor poems.
 - **Chapter models** — update `workspaces/pipeline/<bookname>/chapters/<n>/chapter.json` with the `quality_review` result for each chapter. A chapter is `completed` only when this filter passes.

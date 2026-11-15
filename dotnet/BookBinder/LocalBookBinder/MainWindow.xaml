@@ -1,0 +1,367 @@
+<Window x:Class="LocalBookBinder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:LocalBookBinder.Models"
+        xmlns:infra="clr-namespace:LocalBookBinder.Infrastructure"
+        xmlns:views="clr-namespace:LocalBookBinder.Views"
+        mc:Ignorable="d"
+        Title="{Binding WindowTitle}"
+        Icon="pack://application:,,,/ImageResources/Logo.ico"
+        Height="820"
+        Width="1320"
+        MinHeight="420"
+        MinWidth="720"
+        WindowStartupLocation="CenterScreen"
+        Style="{StaticResource VsWindowStyle}"
+        AllowDrop="True"
+        Drop="Window_Drop"
+        DragOver="Window_DragOver">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <infra:InverseBooleanToVisibilityConverter x:Key="InverseBoolToVis" />
+
+        <HierarchicalDataTemplate DataType="{x:Type models:ExplorerNode}" ItemsSource="{Binding Children}">
+            <StackPanel Orientation="Horizontal" Margin="0,1">
+                <TextBlock Text="{Binding Glyph}"
+                           FontFamily="Segoe MDL2 Assets"
+                           FontSize="13"
+                           Foreground="{DynamicResource IconBrush}"
+                           VerticalAlignment="Center"
+                           Margin="0,0,6,0" />
+                <TextBlock Text="{Binding Name}"
+                           VerticalAlignment="Center"
+                           TextTrimming="CharacterEllipsis" />
+            </StackPanel>
+        </HierarchicalDataTemplate>
+
+        <DataTemplate x:Key="TabHeaderTemplate" DataType="{x:Type models:DocumentTab}">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding Glyph}"
+                           FontFamily="Segoe MDL2 Assets"
+                           FontSize="12"
+                           Foreground="{DynamicResource IconBrush}"
+                           VerticalAlignment="Center"
+                           Margin="0,0,8,0" />
+                <TextBlock Text="{Binding DisplayTitle}" VerticalAlignment="Center" />
+                <Button Style="{StaticResource TabCloseButtonStyle}"
+                        Margin="10,0,0,0"
+                        ToolTip="Close (Ctrl+W)"
+                        Command="{Binding DataContext.CloseDocumentCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                        CommandParameter="{Binding}" />
+            </StackPanel>
+        </DataTemplate>
+
+        <DataTemplate x:Key="DocumentContentTemplate" DataType="{x:Type models:DocumentTab}">
+            <Grid Background="{DynamicResource EditorBackgroundBrush}">
+                <ContentControl Content="{Binding Page}"
+                                HorizontalContentAlignment="Stretch"
+                                VerticalContentAlignment="Stretch"
+                                Visibility="{Binding IsPage, Converter={StaticResource BoolToVis}}" />
+
+                <Grid Visibility="{Binding IsPage, Converter={StaticResource InverseBoolToVis}}">
+                    <Grid Visibility="{Binding IsSettings, Converter={StaticResource InverseBoolToVis}}">
+                        <TextBox Style="{StaticResource EditorTextBoxStyle}"
+                                 Text="{Binding Text, Mode=OneWay}"
+                                 Visibility="{Binding IsText, Converter={StaticResource BoolToVis}}" />
+                        <StackPanel VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Visibility="{Binding IsText, Converter={StaticResource InverseBoolToVis}}">
+                            <TextBlock Text="{Binding Glyph}"
+                                       FontFamily="Segoe MDL2 Assets"
+                                       FontSize="48"
+                                       Foreground="{DynamicResource PlaceholderGlyphBrush}"
+                                       HorizontalAlignment="Center" />
+                            <TextBlock Text="{Binding Title}"
+                                       FontSize="16"
+                                       Margin="0,14,0,6"
+                                       HorizontalAlignment="Center" />
+                            <TextBlock Text="{Binding Placeholder}"
+                                       Foreground="{DynamicResource MutedTextBrush}"
+                                       HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Visibility="{Binding IsSettings, Converter={StaticResource BoolToVis}}">
+                        <views:SettingsView DataContext="{Binding DataContext.Settings, RelativeSource={RelativeSource AncestorType=Window}}" />
+                    </Grid>
+                </Grid>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Window.InputBindings>
+        <KeyBinding Key="O" Modifiers="Control" Command="{Binding OpenFolderCommand}" />
+        <KeyBinding Key="O" Modifiers="Control+Shift" Command="{Binding OpenFileCommand}" />
+        <KeyBinding Key="W" Modifiers="Control" Command="{Binding CloseDocumentCommand}" CommandParameter="{Binding SelectedDocument}" />
+        <KeyBinding Key="B" Modifiers="Control" Command="{Binding ToggleSideBarCommand}" />
+        <KeyBinding Key="E" Modifiers="Control+Shift" Command="{Binding ShowExplorerCommand}" />
+        <KeyBinding Key="B" Modifiers="Control+Shift" Command="{Binding BookListCommand}" />
+        <KeyBinding Key="F5" Command="{Binding RefreshCommand}" />
+        <KeyBinding Key="OemComma" Modifiers="Control" Command="{Binding OpenSettingsCommand}" />
+    </Window.InputBindings>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Menu bar -->
+        <Menu Grid.Row="0" Style="{StaticResource VsMenuStyle}">
+            <MenuItem Header="_File">
+                <MenuItem Header="Open _Folder..." InputGestureText="Ctrl+O" Command="{Binding OpenFolderCommand}" />
+                <MenuItem Header="Open _File..." InputGestureText="Ctrl+Shift+O" Command="{Binding OpenFileCommand}" />
+                <Separator />
+                <MenuItem Header="Close _Tab" InputGestureText="Ctrl+W" Command="{Binding CloseDocumentCommand}" CommandParameter="{Binding SelectedDocument}" />
+                <MenuItem Header="Close A_ll Tabs" Command="{Binding CloseAllDocumentsCommand}" />
+                <Separator />
+                <MenuItem Header="_Preferences">
+                    <MenuItem Header="_Settings" InputGestureText="Ctrl+," Command="{Binding OpenSettingsCommand}" />
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="E_xit" InputGestureText="Alt+F4" Command="{Binding ExitCommand}" />
+            </MenuItem>
+            <MenuItem Header="_View">
+                <MenuItem Header="Toggle _Side Bar" InputGestureText="Ctrl+B" Command="{Binding ToggleSideBarCommand}" />
+                <MenuItem Header="_Explorer" InputGestureText="Ctrl+Shift+E" Command="{Binding ShowExplorerCommand}" />
+                <MenuItem Header="_Refresh Explorer" InputGestureText="F5" Command="{Binding RefreshCommand}" />
+                <Separator />
+                <MenuItem Header="_Theme" ItemsSource="{Binding Themes}">
+                    <MenuItem.ItemContainerStyle>
+                        <Style TargetType="MenuItem" BasedOn="{StaticResource {x:Type MenuItem}}">
+                            <Setter Property="Header" Value="{Binding DisplayName}" />
+                            <Setter Property="Command" Value="{Binding SelectCommand}" />
+                            <Setter Property="IsChecked" Value="{Binding IsActive, Mode=OneWay}" />
+                        </Style>
+                    </MenuItem.ItemContainerStyle>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="_Settings" InputGestureText="Ctrl+," Command="{Binding OpenSettingsCommand}" />
+            </MenuItem>
+            <MenuItem Header="_Book">
+                <MenuItem Header="_List Books" InputGestureText="Ctrl+Shift+B" Command="{Binding BookListCommand}" />
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_About Local Book Binder" Command="{Binding AboutCommand}" />
+            </MenuItem>
+        </Menu>
+
+        <!-- Body -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="48" />
+                <ColumnDefinition x:Name="SideBarColumn" Width="260" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Activity bar -->
+            <Border Grid.Column="0" Background="{DynamicResource ActivityBarBrush}">
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Top">
+                        <Button Style="{StaticResource ActivityBarButtonActiveStyle}"
+                                Command="{Binding ShowExplorerCommand}"
+                                ToolTip="Explorer (Ctrl+Shift+E)" AutomationProperties.Name="Explorer">
+                            <TextBlock Text="&#xE8B7;" FontFamily="Segoe MDL2 Assets" FontSize="22" Foreground="{DynamicResource ActivityBarActiveIconBrush}" />
+                        </Button>
+                        <Button Style="{StaticResource ActivityBarButtonStyle}"
+                                Command="{Binding OpenFileCommand}"
+                                ToolTip="Open File (Ctrl+Shift+O)" AutomationProperties.Name="Open File">
+                            <TextBlock Text="&#xE8A5;" FontFamily="Segoe MDL2 Assets" FontSize="22" Foreground="{DynamicResource ActivityBarIconBrush}" />
+                        </Button>
+                        <Button Style="{StaticResource ActivityBarButtonStyle}"
+                                Command="{Binding BookListCommand}"
+                                ToolTip="List Books (Ctrl+Shift+B)" AutomationProperties.Name="List Books">
+                            <TextBlock Text="&#xE8F1;" FontFamily="Segoe MDL2 Assets" FontSize="22" Foreground="{DynamicResource ActivityBarIconBrush}" />
+                        </Button>
+                    </StackPanel>
+                    <StackPanel DockPanel.Dock="Bottom">
+                        <Button Style="{StaticResource ActivityBarButtonStyle}"
+                                Command="{Binding OpenSettingsCommand}"
+                                ToolTip="Settings (Ctrl+,)" AutomationProperties.Name="Settings">
+                            <TextBlock Text="&#xE713;" FontFamily="Segoe MDL2 Assets" FontSize="20" Foreground="{DynamicResource ActivityBarIconBrush}" />
+                        </Button>
+                        <Button Style="{StaticResource ActivityBarButtonStyle}"
+                                Command="{Binding AboutCommand}"
+                                ToolTip="About" AutomationProperties.Name="About">
+                            <TextBlock Text="&#xE946;" FontFamily="Segoe MDL2 Assets" FontSize="20" Foreground="{DynamicResource ActivityBarIconBrush}" />
+                        </Button>
+                    </StackPanel>
+                    <Border />
+                </DockPanel>
+            </Border>
+
+            <!-- Side bar -->
+            <Border Grid.Column="1"
+                    Background="{DynamicResource SideBarBrush}"
+                    BorderBrush="{DynamicResource PanelBorderBrush}"
+                    BorderThickness="0,0,1,0"
+                    Visibility="{Binding IsSideBarVisible, Converter={StaticResource BoolToVis}}">
+                <DockPanel>
+                    <Grid DockPanel.Dock="Top" Margin="16,10,8,6">
+                        <TextBlock Text="EXPLORER"
+                                   FontSize="11"
+                                   Foreground="{DynamicResource MutedTextBrush}"
+                                   VerticalAlignment="Center" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Style="{StaticResource IconButtonStyle}"
+                                    Command="{Binding OpenFileCommand}"
+                                    ToolTip="Open File">
+                                <TextBlock Text="&#xE8E5;" FontFamily="Segoe MDL2 Assets" FontSize="14" />
+                            </Button>
+                            <Button Style="{StaticResource IconButtonStyle}"
+                                    Command="{Binding OpenFolderCommand}"
+                                    ToolTip="Open Folder">
+                                <TextBlock Text="&#xE838;" FontFamily="Segoe MDL2 Assets" FontSize="14" />
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+
+                    <Border DockPanel.Dock="Top" Padding="16,0,16,8">
+                        <TextBlock Text="{Binding FolderName}"
+                                   FontWeight="SemiBold"
+                                   TextTrimming="CharacterEllipsis"
+                                   ToolTip="{Binding FolderPath}" />
+                    </Border>
+
+                    <Grid>
+                        <TreeView x:Name="ExplorerTree"
+                                  Margin="6,0,0,8"
+                                  ItemsSource="{Binding Roots}"
+                                  SelectedItemChanged="ExplorerTree_SelectedItemChanged"
+                                  TreeViewItem.Expanded="ExplorerTree_ItemExpanded"
+                                  ContextMenuOpening="ExplorerTree_ContextMenuOpening"
+                                  Visibility="{Binding HasFolder, Converter={StaticResource BoolToVis}}">
+                            <TreeView.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem x:Name="BindBookMenuItem" Header="Bind Book" Click="BindBook_Click" />
+                                </ContextMenu>
+                            </TreeView.ContextMenu>
+                        </TreeView>
+
+                        <StackPanel Margin="16,8" VerticalAlignment="Top"
+                                    Visibility="{Binding HasFolder, Converter={StaticResource InverseBoolToVis}}">
+                            <TextBlock Text="No folder opened."
+                                       Foreground="{DynamicResource MutedTextBrush}"
+                                       TextWrapping="Wrap" />
+                            <Button Style="{StaticResource LinkButtonStyle}"
+                                    Content="Open Folder"
+                                    Command="{Binding OpenFolderCommand}"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,8,0,0" />
+                        </StackPanel>
+                    </Grid>
+                </DockPanel>
+            </Border>
+
+            <GridSplitter Grid.Column="2"
+                          Width="4"
+                          HorizontalAlignment="Stretch"
+                          VerticalAlignment="Stretch"
+                          Background="Transparent"
+                          ResizeBehavior="PreviousAndNext"
+                          ResizeDirection="Columns"
+                          Visibility="{Binding IsSideBarVisible, Converter={StaticResource BoolToVis}}" />
+
+            <!-- Documents -->
+            <Grid Grid.Column="3">
+                <TabControl x:Name="DocumentTabs"
+                            Style="{StaticResource VsTabControlStyle}"
+                            ItemsSource="{Binding Documents}"
+                            SelectedItem="{Binding SelectedDocument, Mode=TwoWay}"
+                            ItemTemplate="{StaticResource TabHeaderTemplate}"
+                            PreviewMouseDown="DocumentTabs_PreviewMouseDown">
+                    <TabControl.ItemContainerStyle>
+                        <Style TargetType="TabItem" BasedOn="{StaticResource VsTabItemStyle}">
+                            <Setter Property="Content" Value="{Binding}" />
+                            <Setter Property="ContentTemplate" Value="{StaticResource DocumentContentTemplate}" />
+                        </Style>
+                    </TabControl.ItemContainerStyle>
+                </TabControl>
+
+                <Grid Background="{DynamicResource EditorBackgroundBrush}"
+                      Visibility="{Binding HasDocuments, Converter={StaticResource InverseBoolToVis}}">
+                    <StackPanel Width="560" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="Local Book Binder"
+                                   FontSize="32"
+                                   FontWeight="Light"
+                                   Foreground="{DynamicResource WelcomeTitleBrush}"
+                                   HorizontalAlignment="Center" />
+                        <TextBlock Text="A local-first workspace for your documents"
+                                   Foreground="{DynamicResource MutedTextBrush}"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,8,0,30" />
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0" Margin="0,0,18,0">
+                                <TextBlock Text="Start" Foreground="{DynamicResource TextBrush}" FontWeight="SemiBold" Margin="0,0,0,8" />
+                                <Button Style="{StaticResource LinkButtonStyle}" Content="Open Folder" Command="{Binding OpenFolderCommand}" HorizontalAlignment="Left" Margin="0,0,0,6" />
+                                <Button Style="{StaticResource LinkButtonStyle}" Content="Open File" Command="{Binding OpenFileCommand}" HorizontalAlignment="Left" Margin="0,0,0,6" />
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="1">
+                                <TextBlock Text="Shortcuts" Foreground="{DynamicResource TextBrush}" FontWeight="SemiBold" Margin="0,0,0,8" />
+                                <TextBlock Text="Ctrl+O          Open folder" Foreground="{DynamicResource MutedTextBrush}" Margin="0,0,0,6" />
+                                <TextBlock Text="Ctrl+Shift+O    Open file" Foreground="{DynamicResource MutedTextBrush}" Margin="0,0,0,6" />
+                                <TextBlock Text="Ctrl+B          Toggle side bar" Foreground="{DynamicResource MutedTextBrush}" Margin="0,0,0,6" />
+                                <TextBlock Text="Ctrl+W          Close tab" Foreground="{DynamicResource MutedTextBrush}" />
+                            </StackPanel>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <!-- Status bar -->
+        <Border Grid.Row="2" Background="{DynamicResource StatusBarBrush}" Height="24">
+            <Grid Margin="10,0">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock Text="&#xE8B7;"
+                               FontFamily="Segoe MDL2 Assets"
+                               FontSize="11"
+                               Foreground="{DynamicResource StatusBarTextBrush}"
+                               VerticalAlignment="Center"
+                               Margin="0,0,6,0" />
+                    <TextBlock Text="{Binding StatusMessage}"
+                               Foreground="{DynamicResource StatusBarTextBrush}"
+                               FontSize="11"
+                               VerticalAlignment="Center" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                    <TextBlock Text="{Binding SelectedPath}"
+                               Foreground="{DynamicResource StatusBarTextBrush}"
+                               FontSize="11"
+                               MaxWidth="420"
+                               TextTrimming="CharacterEllipsis"
+                               Margin="0,0,16,0"
+                               ToolTip="{Binding SelectedPath}" />
+                    <TextBlock Text="{Binding SelectedLanguage}"
+                               Foreground="{DynamicResource StatusBarTextBrush}"
+                               FontSize="11"
+                               Margin="0,0,16,0" />
+                    <TextBlock Text="{Binding SelectedLineCount}"
+                               Foreground="{DynamicResource StatusBarTextBrush}"
+                               FontSize="11"
+                               Margin="0,0,16,0" />
+                    <TextBlock Text="UTF-8"
+                               Foreground="{DynamicResource StatusBarTextBrush}"
+                               FontSize="11"
+                               Margin="0,0,16,0" />
+                    <TextBlock x:Name="ClockText"
+                               Foreground="{DynamicResource StatusBarTextBrush}"
+                               FontSize="11" />
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

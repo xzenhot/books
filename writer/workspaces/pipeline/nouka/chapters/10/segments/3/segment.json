@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "সাংস্কৃতিক নাবিকতা",
+  "segment_summary": "চূড়ান্ত, প্রতিবাদী সাংস্কৃতিক নাবিকতা — গোপাল জানে সে নদীকে বাঁচাতে পারবে না, কিন্তু সুরকে বাঁচাতে পারে; কবিতা এই সংকল্পকে দেখে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Observing the silence immediately *after* the final note fades: is that silence a victory (emptiness) or another form of sound (residual vibration)?",
+    "story_option": "Setting: Very early morning, just as the first sliver of sun catches the water vapor; Desire: To perform the song knowing that its sound will be immediately absorbed and scattered by the moisture, prioritizing diffusion over projection; Obstacle: A single passenger remains silent, perhaps deafened or unwilling to acknowledge the musical act.",
+    "subject_rotation": "Reinterpreting 'generosity' here as auditory generosity—offering one's voice freely into the unknown currents without expectation of reception.",
+    "sensory_detail": "A sudden, momentary auditory hallucination: hearing not the engine, but the collective sigh of all unheard passengers.",
+    "research_question": "How can 'unbroken melody' be represented poetically when its function is explicitly defined as ephemeral or non-linear?",
+    "structural_variant": "A highly fragmented structure where each segment ends abruptly, mimicking the way sound fragments in heavy moisture.",
+    "variety_note": "This chapter must function as a thematic closure rather than an argumentative one; it is defined by what remains intangible after all visible conflict—a shift from the clash of materials (wood vs. steel) to the persistence of vibration."
+  }
+}

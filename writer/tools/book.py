@@ -184,6 +184,7 @@ OLLAMA_TEMPERATURE = 0.2   # low temperature → consistent, structured output
 OLLAMA_TOP_P = 0.9
 OLLAMA_MAX_RETRIES = 3     # retries per chapter batch and completeness pass
 SUMMARY_MIN_WORDS = 150    # minimum chapter_summary length in words (target 150–200)
+GIST_MIN_WORDS = 400       # minimum gist.md seed length in words (canonical gist + expansion)
 
 # ---------------------------------------------------------------------------
 # Filter chains — canonical defaults per form
@@ -223,6 +224,7 @@ _CHAPTER_BATCH_PROMPT = BOOK_PROMPTS.text("chapter_batch_prompt.md")
 _CHAPTER_ONE_PROMPT = BOOK_PROMPTS.text("chapter_one_prompt.md")
 _LAYOUT_SINGLE_PROMPT = BOOK_PROMPTS.text("layout_single_prompt.md")
 _GIST_IDEA_PROMPT = BOOK_PROMPTS.text("gist_idea_prompt.md")
+_GIST_SEED_PROMPT = BOOK_PROMPTS.text("gist_seed_prompt.md")
 
 
 # ---------------------------------------------------------------------------
@@ -324,6 +326,58 @@ def default_gist(bookname: str, form: str) -> str:
     )
 
 
+def _gist_word_count(text: str) -> int:
+    """Count whitespace-separated words in a gist.md body.
+
+    The seed is the author's declared world and the actual starting point of
+    every downstream stage, so it must carry enough information to stand alone.
+    """
+    return len(text.split())
+
+
+def _gist_too_short(text: str) -> bool:
+    """True when a gist.md body falls below the minimum seed length."""
+    return _gist_word_count(text) < GIST_MIN_WORDS
+
+
+def _expand_gist_seed(seed: str) -> tuple[str, str, str] | None:
+    """Expand a short seed into a dense, information-rich gist via Ollama.
+
+    The gist is the actual starting point and seed for every later stage
+    (storyline, layout, enrichment, writing), so a short seed is grown into a
+    ``gist`` one-liner plus a concrete ``expansion`` of at least ``GIST_MIN_WORDS``
+    combined words. Returns ``(gist, expansion, comment)`` on success, or ``None``
+    when Ollama fails after every attempt (callers fall back to writing the seed
+    verbatim).
+    """
+    prompt = render(_GIST_SEED_PROMPT, seed=seed)
+    last_error: Exception | None = None
+    for attempt in range(1, OLLAMA_MAX_RETRIES + 1):
+        try:
+            raw = _ollama_post(_ollama_payload(prompt, system=IDEA_SYSTEM_PROMPT))
+            data = extract_json(raw, expect_list=False)
+            if not isinstance(data, dict):
+                raise ValueError("gist seed response must be a JSON object.")
+            gist = str(data.get("gist", "")).strip()
+            expansion = str(data.get("expansion", "")).strip()
+            comment = str(data.get("comment", "")).strip()
+            if not gist or not expansion:
+                raise ValueError("gist seed response is missing 'gist' or 'expansion'.")
+            if _gist_word_count(f"{gist} {expansion}") < GIST_MIN_WORDS:
+                raise ValueError(
+                    f"gist seed too short "
+                    f"({_gist_word_count(gist + ' ' + expansion)} words; "
+                    f"need {GIST_MIN_WORDS})."
+                )
+            return gist, expansion, comment
+        except (RuntimeError, ValueError) as exc:
+            last_error = exc
+            print(f"  [gist seed] attempt {attempt}/{OLLAMA_MAX_RETRIES} failed: {exc}")
+    print(f"  warning: gist seed expansion failed after "
+          f"{OLLAMA_MAX_RETRIES} attempts ({last_error}); using seed verbatim.")
+    return None
+
+
 def make_title(bookname: str, form: str) -> str:
     """Produce a Bengali book title from the book name and form."""
     suffix = "এর কবিতা" if form == "poetry" else "এর কাহিনি"
@@ -374,7 +428,7 @@ def make_chapters(
         for i in range(len(topics) + 1, count + 1)
     )
     word_target = 500 if form == "poetry" else 4500
-    return [
+    chapters = [
         {
             "chapter_index": idx,
             "name": str(idx),
@@ -388,6 +442,11 @@ def make_chapters(
         }
         for idx, topic in enumerate(topics, 1)
     ]
+    if form == "poetry":
+        for chapter in chapters:
+            chapter["segment_count"] = 8
+            chapter["segments"] = _placeholder_segments(chapter, 8, word_target)
+    return chapters
 
 
 def make_book_json(
@@ -815,8 +874,60 @@ def validate_layout(
                 f"Chapter {i} has an under-written chapter_summary "
                 f"({_summary_word_target(summary)} words; expected 150–200)."
             )
+        if form == "poetry" and (
+            type(chapter.get("segment_count")) is not int
+            or chapter["segment_count"] < 1
+        ):
+            raise ValueError(f"Poetry chapter {i} needs a positive segment_count.")
+        if form == "poetry":
+            _validate_chapter_segments(chapter, i)
 
     return data
+
+
+def _validate_chapter_segments(chapter: dict[str, object], index: int) -> None:
+    """Validate a poetry chapter's inline segment plan (layout-owned)."""
+    segments = chapter.get("segments")
+    segment_count = chapter.get("segment_count")
+    if not segments:
+        return
+    if not isinstance(segments, list):
+        raise ValueError(f"Poetry chapter {index} segments must be an array.")
+    if type(segment_count) is not int or segment_count < 1:
+        raise ValueError(f"Poetry chapter {index} needs a positive segment_count.")
+    if len(segments) != segment_count:
+        raise ValueError(
+            f"Poetry chapter {index} segments must contain exactly {segment_count} records."
+        )
+    word_target = chapter.get("word_target")
+    required = ("segment_index", "name", "word_target", "segment_title",
+                "segment_summary", "further_references")
+    for position, segment in enumerate(segments, 1):
+        if not isinstance(segment, dict):
+            raise ValueError(f"Poetry chapter {index} segments[{position}] must be an object.")
+        missing = [key for key in required if key not in segment]
+        if missing:
+            raise ValueError(
+                f"Poetry chapter {index} segments[{position}] missing: {', '.join(missing)}."
+            )
+        if segment["segment_index"] != position or segment["name"] != str(position):
+            raise ValueError(
+                f"Poetry chapter {index} segments[{position}] has invalid identity."
+            )
+        if type(segment["word_target"]) is not int or segment["word_target"] != word_target:
+            raise ValueError(
+                f"Poetry chapter {index} segments[{position}].word_target must equal "
+                f"the chapter word_target ({word_target})."
+            )
+        for key in ("segment_title", "segment_summary"):
+            if not isinstance(segment[key], str) or not segment[key].strip():
+                raise ValueError(
+                    f"Poetry chapter {index} segments[{position}].{key} must be non-empty."
+                )
+        if not isinstance(segment["further_references"], list):
+            raise ValueError(
+                f"Poetry chapter {index} segments[{position}].further_references must be a list."
+            )
 
 
 # ---------------------------------------------------------------------------
@@ -959,9 +1070,9 @@ def _min_chapter_schema() -> str:
     return BATCH_CHAPTER_SCHEMA
 
 
-def _placeholder_chapter(index: int) -> dict[str, object]:
+def _placeholder_chapter(index: int, form: str) -> dict[str, object]:
     """A deterministic chapter entry used when Ollama fails to produce one."""
-    return {
+    chapter = {
         "chapter_index": index,
         "name": str(index),
         "word_target": 500,
@@ -969,6 +1080,58 @@ def _placeholder_chapter(index: int) -> dict[str, object]:
         "chapter_summary": f"Chapter {index} — to be written from the storyline.",
         "further_references": [],
     }
+    if form == "poetry":
+        chapter["segment_count"] = 8
+    return chapter
+
+
+def _placeholder_segments(
+    chapter: dict[str, object],
+    count: int,
+    word_target: int,
+) -> list[dict[str, object]]:
+    """Deterministic fallback segment plan when the model returns none.
+
+    Layout now owns the poetry segment plan, so a chapter whose ``segments``
+    are missing or the wrong length still gets a valid, ordered plan instead of
+    failing the write.
+    """
+    title = str(chapter.get("chapter_title") or chapter.get("name") or "Chapter").strip()
+    summary = str(chapter.get("chapter_summary") or "").strip()
+    segments: list[dict[str, object]] = []
+    for index in range(1, count + 1):
+        segments.append({
+            "segment_index": index,
+            "name": str(index),
+            "word_target": word_target,
+            "segment_title": f"{title} — অংশ {index}",
+            "segment_summary": summary or f"{title} এর {index} নম্বর অংশ।",
+            "further_references": [],
+        })
+    return segments
+
+
+def _normalize_chapter_segments(chapter: dict[str, object], word_target: int) -> None:
+    """Ensure a poetry chapter carries a complete, ordered segment plan.
+
+    When the model returns a wrong-length or malformed ``segments`` array,
+    replace it with the deterministic placeholder plan so layout always emits
+    a valid, complete plan.
+    """
+    segment_count = chapter.get("segment_count")
+    if type(segment_count) is not int or segment_count < 1:
+        segment_count = 8
+        chapter["segment_count"] = segment_count
+    segments = chapter.get("segments")
+    if isinstance(segments, list) and len(segments) == segment_count:
+        valid = True
+        for position, segment in enumerate(segments, 1):
+            if not isinstance(segment, dict) or segment.get("segment_index") != position:
+                valid = False
+                break
+        if valid:
+            return
+    chapter["segments"] = _placeholder_segments(chapter, segment_count, word_target)
 
 
 def _generate_chapter_one(
@@ -1058,6 +1221,11 @@ def _generate_layout_batched(
         chapter.setdefault("name", str(i))
         chapter.setdefault("word_target", word_target)
         chapter.setdefault("further_references", [])
+        if form == "poetry":
+            chapter.setdefault("segment_count", 8)
+            if type(chapter["segment_count"]) is not int or chapter["segment_count"] < 1:
+                raise ValueError(f"Chapter {i} segment_count must be a positive integer.")
+            _normalize_chapter_segments(chapter, word_target)
         chapters.append(chapter)
 
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
@@ -1106,6 +1274,14 @@ def _generate_layout_single(
         try:
             generated = _ollama_post(_ollama_payload(prompt))
             layout = extract_json(generated)
+            if form == "poetry" and isinstance(layout, dict):
+                word_target = layout.get("word_target")
+                if type(word_target) is not int or word_target < 1:
+                    word_target = 500
+                for chapter in layout.get("chapters", []):
+                    if isinstance(chapter, dict):
+                        chapter.setdefault("segment_count", 8)
+                        _normalize_chapter_segments(chapter, word_target)
             validate_layout(layout, bookname, form)  # type: ignore[arg-type]
             return layout  # type: ignore[return-value]
         except (RuntimeError, ValueError) as exc:
@@ -1187,7 +1363,7 @@ def generate_layout(
             chapter = _generate_chapter_one(epic, bookname, form, index, schema)
         except RuntimeError as exc:
             print(f"  [chapter {index}] generation failed ({exc}); using placeholder")
-            chapter = _placeholder_chapter(index)
+            chapter = _placeholder_chapter(index, form)
         chapters_by_index[index] = chapter
         title = chapter.get("chapter_title") or f"Chapter {index}"
         print(f"  → chapter {index}/{chapter_count}: {title}")
@@ -1195,10 +1371,15 @@ def generate_layout(
     word_target = 500 if form == "poetry" else 4500
     chapters: list[dict[str, object]] = []
     for i in range(1, chapter_count + 1):
-        chapter = chapters_by_index.get(i) or _placeholder_chapter(i)
+        chapter = chapters_by_index.get(i) or _placeholder_chapter(i, form)
         chapter.setdefault("name", str(i))
         chapter.setdefault("word_target", word_target)
         chapter.setdefault("further_references", [])
+        if form == "poetry":
+            chapter.setdefault("segment_count", 8)
+            if type(chapter["segment_count"]) is not int or chapter["segment_count"] < 1:
+                raise ValueError(f"Chapter {i} segment_count must be a positive integer.")
+            _normalize_chapter_segments(chapter, word_target)
         chapters.append(chapter)
 
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
@@ -1260,8 +1441,9 @@ def rewrite_gist_idea(bookname: str) -> None:
     """Rewrite the book's gist with AI assistance (the `init idea` subcommand).
 
     Reads the existing gist.md one-liner (or the book name if gist.md is absent),
-    asks Ollama for a stronger single-sentence premise plus a short expansion,
-    and writes both back to gist.md. It does not touch storyline.md or book.json.
+    asks Ollama for a stronger single-sentence premise plus a rich expansion, and
+    writes both back to gist.md (total at least GIST_MIN_WORDS words). It does not
+    touch storyline.md or book.json.
     """
     book_dir = BACKLOG_ROOT / validate_bookname(bookname)
     book_dir.mkdir(parents=True, exist_ok=True)
@@ -1309,6 +1491,12 @@ def rewrite_gist_idea(bookname: str) -> None:
         expansion = str(data.get("expansion", "")).strip()
         if not gist:
             raise ValueError("Idea response is missing a non-empty 'gist'.")
+        if _gist_word_count(f"{gist} {expansion}") < GIST_MIN_WORDS:
+            raise ValueError(
+                f"rewritten gist too short "
+                f"({_gist_word_count(gist + ' ' + expansion)} words; "
+                f"need {GIST_MIN_WORDS})."
+            )
     except (RuntimeError, ValueError) as exc:
         print(f"  warning: idea rewrite failed ({exc}); gist unchanged.")
         return
@@ -1358,7 +1546,18 @@ def create_gist(bookname: str, gist: str | None, form: str, refresh: bool) -> No
 
     if not gist_file.exists() or refresh:
         comment_body = existing_comment.replace("## Author Comment", "").strip()
-        body = format_gist_md(bookname, form, resolved_gist, comment=comment_body)
+
+        # Grow a short seed into a dense, ≥400-word seed via Ollama (the seed is
+        # the actual starting point for every later stage). A gist that already
+        # meets the floor is kept verbatim.
+        expansion = ""
+        if _gist_too_short(resolved_gist):
+            grown = _expand_gist_seed(resolved_gist)
+            if grown is not None:
+                resolved_gist, expansion, _auto_comment = grown
+
+        body = format_gist_md(bookname, form, resolved_gist,
+                              expansion=expansion, comment=comment_body)
         gist_file.write_text(body, encoding="utf-8")
 
     print(f"Gist written → {gist_file}")
@@ -1414,6 +1613,15 @@ def create_backlog(
         resolved_gist = gist_file.read_text(encoding="utf-8").strip() or None
     resolved_gist = resolved_gist or default_gist(bookname, form)
 
+    # Grow a short seed into a dense, ≥400-word seed via Ollama (the seed is the
+    # actual starting point for every later stage). A gist that already meets the
+    # floor is kept verbatim.
+    gist_expansion = ""
+    if _gist_too_short(resolved_gist):
+        grown = _expand_gist_seed(resolved_gist)
+        if grown is not None:
+            resolved_gist, gist_expansion, _auto_comment = grown
+
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
     # On refresh, preserve the existing plan (chapter count, chapters, and
@@ -1453,7 +1661,11 @@ def create_backlog(
 
     # Write gist.md only if it doesn't exist or refresh is requested
     if not gist_file.exists() or refresh:
-        gist_file.write_text(format_gist_md(bookname, form, resolved_gist), encoding="utf-8")
+        gist_file.write_text(
+            format_gist_md(bookname, form, resolved_gist,
+                           expansion=gist_expansion),
+            encoding="utf-8",
+        )
 
     epic_file.write_text(epic_text, encoding="utf-8")
     book_file.write_text(
@@ -1553,7 +1765,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
         bookseed.md (when available)
         filters/filters.json (registry only — no per-filter folders)
         chapters/<name>/model.json, chapter.md, history/
-        chapters/<name>/segments/1/{segment.json, writer/, editor/, translator/, version/}
+        chapters/<name>/segments/1/{segment.json, writer/, editor/, latest/, translator/, version/}
 
     Raises FileNotFoundError if the backlog book.json is missing (run init first).
     Raises FileExistsError  if the pipeline already exists (avoid silent re-scaffold).
@@ -1705,6 +1917,7 @@ def scaffold_novel(bookname: str, chapter_count: int, gist: str = "") -> None:
             segment_dir / "writer",
             segment_dir / "editor",
             segment_dir / "translator",
+            segment_dir / "latest",
             segment_dir / "version",
         ):
             sub.mkdir(parents=True, exist_ok=True)
@@ -1835,7 +2048,9 @@ def enrich_workflow(bookname: str, target: str) -> None:
     """
     enrich = _load_module("writer_enrich_engine", "enrich.py")
     chapters_root = enrich.resolve_chapters_root(bookname)
-    numbers = enrich.parse_chapter_input(target, chapters_root)
+    specs = enrich.parse_targets(target, chapters_root)
+    numbers = enrich.chapter_numbers(specs)
+    segment_map = enrich.group_by_chapter(specs)
     book = enrich.load_book_model(bookname)
     gist, storyline, override = enrich.load_book_sources(bookname)
     sources = "\n\n".join(part for part in (gist, storyline) if part)
@@ -1853,7 +2068,10 @@ def enrich_workflow(bookname: str, target: str) -> None:
     # Plan of works first: style.md regeneration is itself an Ollama call, so the
     # operator must see the plan before any model work begins.
     from workplan import print_plan
-    print_plan("enrich", bookname, numbers, form=book.get("form"))
+    print_plan(
+        "enrich", bookname, numbers, form=book.get("form"),
+        notes=[f"targets: {', '.join(str(s) for s in specs)}"],
+    )
 
     # Ensure the pipeline style.md exists and is grounded in the current book.
     enrich.regenerate_style_md(bookname, book, model_name=model_name)
@@ -1871,7 +2089,8 @@ def enrich_workflow(bookname: str, target: str) -> None:
     for num in numbers:
         try:
             enrich.enrich_chapter(_chapter_model_file(chapters_root / str(num)), book, all_models,
-                                  model_name=model_name, sources=sources, voice=override)
+                                  model_name=model_name, sources=sources, voice=override,
+                                  selected_segments=segment_map.get(num))
         except Exception as exc:  # noqa: BLE001
             print(f"  [{num}] FAILED: {exc}", file=sys.stderr)
             failures += 1
@@ -1895,7 +2114,9 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
     """
     writer = _load_module("writer_write_engine", "write.py")
     chapters_root = writer.resolve_chapters_root(bookname)
-    numbers = writer.parse_chapter_input(target, chapters_root)
+    specs = writer.parse_targets(target, chapters_root)
+    numbers = writer.chapter_numbers(specs)
+    segment_map = writer.group_by_chapter(specs)
 
     if style:
         # Validate the nickname early so an unknown style fails fast. The check
@@ -1912,7 +2133,10 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
     writer.reset_style_announcement()
     # Plan of works before the first per-chapter Ollama call.
     from workplan import print_plan
-    print_plan("write", bookname, numbers, style=style or writer.DEFAULT_STYLE)
+    print_plan(
+        "write", bookname, numbers, style=style or writer.DEFAULT_STYLE,
+        notes=[f"targets: {', '.join(str(s) for s in specs)}"],
+    )
     for position, num in enumerate(numbers, 1):
         print(f"[{position}/{total}] Writing chapter {num} ...", flush=True)
         try:
@@ -1921,6 +2145,7 @@ def write_workflow(bookname: str, target: str, style: str | None = None) -> None
             writer.write_chapter(
                 _chapter_model_file(chapters_root / str(num)),
                 style=style,
+                segments=segment_map.get(num),
             )
             print(f"[{position}/{total}] Chapter {num} done.", flush=True)
         except Exception as exc:  # noqa: BLE001
@@ -1943,11 +2168,13 @@ def cleanup_workflow(bookname: str, target: str) -> None:
 
     - Delete ``chapter.md`` and ``context.md``.
     - Clear ``history/`` and the per-segment ``writer/``, ``editor/``,
-      ``translator/``, and ``version/`` folders.
+      ``translator/``, ``latest/``, and ``version/`` folders.
     - Reinitialize ``chapter.json`` from the root ``book.json`` plan entry,
       dropping runtime fields (``creative_enrichment``, ``draft``,
-      ``state`` → ``scaffolded``, ``level``, ``segments``).
-    - Reinitialize ``segment.json`` to the pending baseline.
+      ``state`` → ``scaffolded``, ``level``) while preserving the
+      layout-authored inline ``segments[]`` plan.
+    - Reinitialize ``segment.json`` to the pending baseline, seeding the
+      matching plan record's title/summary.
 
     The root ``book.json`` is never touched. Prior content is removed
     permanently; this is a destructive reset.
@@ -1982,9 +2209,8 @@ def cleanup_workflow(bookname: str, target: str) -> None:
             if f.exists():
                 f.unlink()
 
-        # 2. Clear history/ and per-segment output folders.
-        for folder in ("history", "segments/1/writer", "segments/1/editor",
-                       "segments/1/translator", "segments/1/version"):
+        # 2. Clear history/ and every segment's output folders.
+        for folder in ("history",):
             path = chapter_dir / folder
             if path.is_dir():
                 for child in path.iterdir():
@@ -1992,28 +2218,60 @@ def cleanup_workflow(bookname: str, target: str) -> None:
                         shutil.rmtree(child)
                     else:
                         child.unlink()
+        segments_root = chapter_dir / "segments"
+        segment_count = baseline.get("segment_count", 1)
+        if type(segment_count) is not int or segment_count < 1:
+            raise ValueError(f"Chapter {name} has an invalid segment_count.")
+        for segment_dir in segments_root.iterdir() if segments_root.is_dir() else ():
+            if not segment_dir.is_dir() or not segment_dir.name.isdecimal():
+                continue
+            for subfolder in ("writer", "editor", "translator", "latest", "version"):
+                path = segment_dir / subfolder
+                if path.is_dir():
+                    for child in path.iterdir():
+                        if child.is_dir():
+                            shutil.rmtree(child)
+                        else:
+                            child.unlink()
 
-        # 3. Reinitialize chapter.json from the baseline plan entry.
+        # 3. Reinitialize chapter.json from the baseline plan entry, preserving
+        # the layout-authored inline segments[] plan (layout owns the plan;
+        # cleanup must not drop it).
+        plan_segments = baseline.get("segments")
+        if not isinstance(plan_segments, list):
+            plan_segments = []
+        plan_segments = [s for s in plan_segments if isinstance(s, dict)]
         chapter_json = chapter_dir / "chapter.json"
         write_json(chapter_json, dict(
             baseline,
             level="chapter",
             state="scaffolded",
-            segments=[1],
+            segments=list(plan_segments),
         ))
         # Drop a legacy model.json if present, to avoid dual sources of truth.
         legacy_model = chapter_dir / "model.json"
         if legacy_model.exists():
             legacy_model.unlink()
 
-        # 4. Reinitialize segment.json to the pending baseline.
-        seg_json = chapter_dir / "segments/1/segment.json"
-        write_json(seg_json, {
-            "level": "segment",
-            "state": "pending",
-            "chapter_index": baseline.get("chapter_index", num),
-            "segment_index": 1,
-        })
+        # 4. Reinitialize each configured segment.json to the pending baseline,
+        # seeding the matching plan record's title/summary (mirrors scaffold).
+        for segment_index in range(1, segment_count + 1):
+            segment_dir = segments_root / str(segment_index)
+            for subfolder in ("writer", "editor", "translator", "latest", "version"):
+                (segment_dir / subfolder).mkdir(parents=True, exist_ok=True)
+            segment_model = {
+                "level": "segment",
+                "state": "pending",
+                "chapter_index": baseline.get("chapter_index", num),
+                "segment_index": segment_index,
+                "total_segments": segment_count,
+            }
+            if segment_index <= len(plan_segments):
+                plan = plan_segments[segment_index - 1]
+                for key in ("segment_title", "segment_summary", "name", "word_target"):
+                    if key in plan:
+                        segment_model[key] = plan[key]
+            write_json(segment_dir / "segment.json", segment_model)
 
         print(f"  [{num}] Cleaned and reinitialized.")
         cleared += 1
@@ -2036,11 +2294,16 @@ def _review_target_and_language(args: argparse.Namespace) -> tuple[str, str | No
 
     def _is_target(value: str) -> bool:
         v = value.strip()
-        if v in {"all", "*"}:
+        if v in {"all", "*", "continue"}:
             return True
         if v.isdigit():
             return True
-        if re.fullmatch(r"[0-9]+-[0-9]+", v):
+        if re.fullmatch(r"[0-9]+(?:-[0-9]+)?", v):
+            return True
+        # Float-segment forms: 3.2, 3.2-3.5, 3.2,4.1
+        if re.fullmatch(r"[0-9]+\.[0-9]+(?:-[0-9]+\.[0-9]+)?", v):
+            return True
+        if re.fullmatch(r"(?:[0-9]+(?:\.[0-9]+)?)(?:,(?:[0-9]+(?:\.[0-9]+)?))+", v):
             return True
         return False
 
@@ -2087,17 +2350,19 @@ def _write_style(args: argparse.Namespace) -> tuple[str, str | None]:
 
 
 def publish_workflow(bookname: str, language: str | None = None, draft: bool = False) -> None:
-    """Promote pipeline segments to workspaces/published/ via publish.py.
+    """Promote reviewed editor-stage segments to workspaces/published/.
 
-    The current publisher supports writer-stage chapter drafts only; the
-    *language* parameter is reserved for future translator-stage support.
-    When *draft* is True, publication bypasses the quality-pass and
-    registered-draft validation and publishes the current drafts forcefully.
+    Legacy chapters without a segment plan publish their chapter-root draft.
+    Each published editor poem is mirrored into the pipeline segment ``latest/``
+    folder as well. The *language* parameter is reserved for future
+    translator-stage support. When *draft* is True, publication bypasses the
+    quality-pass validation and promotes the available editor-stage or legacy
+    chapter drafts.
     """
     if language:
         raise ValueError(
             "Language-specific publish is not yet supported. "
-            "Omit the language argument to publish writer-stage drafts."
+            "Omit the language argument to publish editor-stage drafts."
         )
     publisher = _load_module("writer_publish_engine", "publish.py")
     publisher.publish(bookname, draft=draft)
@@ -2106,8 +2371,10 @@ def publish_workflow(bookname: str, language: str | None = None, draft: bool = F
 def review_workflow(bookname: str, target: str, language: str | None = None) -> None:
     """Run the quality review engine (review.py) on selected chapters.
 
-    *language* is the normalization target (default Bengali): foreign-language
-    fragments in each chapter are rewritten into it before the audit.
+    The target language resolves from ``book.json`` → ``language`` (an explicit
+    *language* narrows this run only). Before the audit, each segment poem is
+    cleaned: its ``## সারাংশ`` summary section and segment title heading are
+    removed and content in a script other than the target language's is stripped.
     """
     review = _load_module("writer_review_engine", "review.py")
     chapters_root = review.resolve_chapters_root(bookname)

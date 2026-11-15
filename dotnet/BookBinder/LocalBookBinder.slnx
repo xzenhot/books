@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Plugins/">
+    <Project Path="WriterWorker/WriterWorker.csproj" Id="84b35293-70d1-444e-bfb7-411feb71c63a" />
+  </Folder>
+  <Project Path="LocalBookBinder/LocalBookBinder.csproj" />
+</Solution>

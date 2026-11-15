@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অলিখিত প্রতিশ্রুতি",
+  "segment_summary": "যন্ত্রের যুগে মানুষের মুখ ফিরিয়ে দেওয়া এক প্রাচীন, অলিখিত প্রতিশ্রুতি — কবিতা এই প্রতিশ্রুতিতে ফিরে আসে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the narrative entirely on the physical mechanisms: the boat gently nudging against various banks and ghats—some official concrete, some mud-banked ruin—as markers of transaction vs. non-transaction.",
+    "story_option": "Setting: Dusk, under a sliver moon on an unlit stretch of water; Desire: Passage sought by someone fleeing some unseen pressure/danger (not named); Obstacle: Gopal's internal negotiation between his own meager sustenance and this necessary act of giving.",
+    "subject_rotation": "Examining the passengers who *do* pay, focusing on their quiet discomfort when witnessing this unpaid passage—the social friction between transaction and tradition.",
+    "sensory_detail": "The specific scent mixture upon stopping—the sharp smell of fish drying mingled with the damp earth and faint human sweat.",
+    "research_question": "How is communal resource sharing historically documented or unspoken within delta communities in response to external economic pressure?",
+    "structural_variant": "Structuring segments as parallel reflections: 'Then' (unmeasured passage) vs. 'Now' (the pressure for measurement/coinage).",
+    "variety_note": "This chapter deliberately shifts focus away from conflict (dredging/diesel) and toward ethical action, using the rhythm of unpaid passage as a meditative counterpoint to later chapters' sonic battles."
+  }
+}

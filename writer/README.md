@@ -168,7 +168,7 @@ Reference libraries live under `.framework/editor/<form>/references/` (`narrativ
 |------|------|
 | `workspaces/backlog/<book>/` | `gist.md`, `storyline.md`, `book.json` (the book plan) |
 | `workspaces/pipeline/<book>/` | `model.json`, `progress.json`, `filters/`, `chapters/` |
-| `workspaces/pipeline/<book>/chapters/<n>/` | `chapter.md` (live draft), `model.json`, `history/`, `segments/1/{writer,editor,translator}/` |
+| `workspaces/pipeline/<book>/chapters/<n>/` | `chapter.md` (live draft), `model.json`, `history/`, `segments/1/{writer,editor,latest,translator}/` |
 | `workspaces/published/<book>/<version>/` | finished, versioned reader-facing output |
 
 ---

@@ -40,6 +40,37 @@ def _content(document):
     return {key: value for key, value in document.items() if key not in AUDIT_FIELDS}
 
 
+def _plan_segments(entry, segment_count):
+    """Return the chapter's inline segment plan from the layout, or [] when absent.
+
+    Layout owns the poetry segment plan; scaffold clones whatever the backlog
+    plan already declares instead of regenerating it. A legacy plan without an
+    inline ``segments`` array still yields an empty list so enrichment can fill
+    it later.
+    """
+    segments = entry.get("segments")
+    if not isinstance(segments, list):
+        return []
+    return [segment for segment in segments if isinstance(segment, dict)]
+
+
+def _segment_baseline(entry, plan_segments, segment_index, segment_count):
+    """Build a pending segment.json, seeding the plan's title/summary when present."""
+    baseline = {
+        "level": "segment",
+        "state": "pending",
+        "chapter_index": entry["chapter_index"],
+        "segment_index": segment_index,
+        "total_segments": segment_count,
+    }
+    if segment_index <= len(plan_segments):
+        plan = plan_segments[segment_index - 1]
+        for key in ("segment_title", "segment_summary", "name", "word_target"):
+            if key in plan:
+                baseline[key] = plan[key]
+    return baseline
+
+
 def _write_if_changed(path, document):
     """Write a JSON document only when its content (ignoring audit fields) changed.
 
@@ -102,6 +133,7 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
         raise ValueError("Book style must be a single style nickname")
     if plan.get("chapter_count") != len(names):
         raise ValueError("chapter_count must equal the number of poems")
+    segment_counts = {}
     for i, entry in enumerate(plan["chapters"], 1):
         if entry.get("name") != str(i) or type(entry.get("chapter_index")) is not int or entry["chapter_index"] != i:
             raise ValueError("Poetry identities must be sequential, starting at 1")
@@ -109,6 +141,10 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
             raise ValueError("word_target must be a positive integer")
         if any(not isinstance(entry.get(k), str) or not entry[k].strip() for k in ("chapter_title", "chapter_summary")) or not isinstance(entry.get("further_references"), list):
             raise ValueError("Incomplete chapter model")
+        segment_count = entry.get("segment_count", 1)
+        if type(segment_count) is not int or segment_count < 1:
+            raise ValueError(f"chapters/{entry['name']} segment_count must be a positive integer")
+        segment_counts[entry["name"]] = segment_count
     chain = reconcile_filter_chain(plan)
     for name in chain:
         if not _filter_skill_path(root, name, plan.get("form", "poetry")).is_file():
@@ -150,6 +186,23 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
             live = read_json(path)
             if live.get("name") != entry["name"] or live.get("chapter_index") != entry["chapter_index"]:
                 raise ValueError(f"Conflicting chapter identity: {path}")
+        chapter_dir = pipeline / "chapters" / entry["name"]
+        chapter_json = chapter_dir / "chapter.json"
+        if chapter_json.exists():
+            live = read_json(chapter_json)
+            existing_count = live.get("segment_count", 1)
+            planned_count = segment_counts[entry["name"]]
+            existing_segments = [
+                int(path.name) for path in (chapter_dir / "segments").iterdir()
+                if path.is_dir() and path.name.isdecimal()
+            ] if (chapter_dir / "segments").is_dir() else []
+            if type(existing_count) is not int or existing_count < 1:
+                raise ValueError(f"Invalid segment_count in {chapter_json}")
+            if planned_count < max(existing_count, max(existing_segments, default=0)):
+                raise ValueError(
+                    f"Scaffold cannot remove segments from chapter {entry['name']}; "
+                    "reduce segment_count only through an explicit migration"
+                )
     for relative in ("progress.json", "filters/filters.json", "qualities/qualities.json"):
         path = pipeline / relative
         if path.exists():
@@ -208,18 +261,30 @@ def scaffold(bookname, chapter_count=None, form=None, gist=None,
     # Each chapter is complete before publishing the expanded root model.
     for entry in plan["chapters"]:
         chapter = pipeline / "chapters" / entry["name"]
-        segment = chapter / "segments/1"
-        for folder in (chapter / "history", segment / "writer", segment / "editor", segment / "translator", segment / "version"):
+        segment_count = segment_counts[entry["name"]]
+        plan_segments = _plan_segments(entry, segment_count)
+        for folder in (chapter / "history",):
             folder.mkdir(parents=True, exist_ok=True)
         if not (chapter / "chapter.json").exists() and not (chapter / "model.json").exists():
-            write_json(chapter / "chapter.json", dict(entry, level="chapter", state="scaffolded", segments=[1]))
-        if not (segment / "segment.json").exists():
-            # Migrate legacy segment model.json -> segment.json (copy, keep legacy until verified).
-            legacy = segment / "model.json"
-            if legacy.exists() and not (segment / "segment.json").exists():
-                write_json(segment / "segment.json", read_json(legacy))
-            else:
-                write_json(segment / "segment.json", {"level": "segment", "state": "pending", "chapter_index": entry["chapter_index"], "segment_index": 1})
+            write_json(chapter / "chapter.json", dict(
+                entry, level="chapter", state="scaffolded",
+                segment_count=segment_count, segments=list(plan_segments),
+            ))
+        for segment_index in range(1, segment_count + 1):
+            segment = chapter / "segments" / str(segment_index)
+            for folder in (segment / "writer", segment / "editor",
+                           segment / "translator", segment / "latest",
+                           segment / "version"):
+                folder.mkdir(parents=True, exist_ok=True)
+            segment_model_path = segment / "segment.json"
+            if not segment_model_path.exists():
+                # Migrate the first legacy segment model without discarding it.
+                legacy = segment / "model.json"
+                if legacy.exists():
+                    write_json(segment_model_path, read_json(legacy))
+                else:
+                    write_json(segment_model_path, _segment_baseline(
+                        entry, plan_segments, segment_index, segment_count))
     registry = pipeline / "filters/filters.json"
     if not registry.exists():
         form = plan.get("form", "poetry")

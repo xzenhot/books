@@ -15,6 +15,24 @@ must carry `updated_by` and `updated_date` per
 
 Use this skill for a novel pipeline to audit a finished chapter against the **quality parameters** defined in the seed analysis, and revise it until it passes. This is the final gate before a chapter is marked `completed`.
 
+## Cleanup Before Audit (mandatory)
+
+Before auditing, clean each scoped chapter draft:
+
+1. **Remove any `## সারাংশ` / `## Summary` section** — the heading (any level) and
+   the prose under it, up to the next same-or-higher heading or end of file.
+   Summary is planner metadata, never reader-facing text.
+2. **Remove a leading title heading** — a leading Markdown heading line (e.g.
+   `## Chapter One`) and any `## শিরোনামঃ` / `## Title` label. A title already
+   lives in the chapter model and would otherwise print twice. Never remove the
+   prose body.
+3. **Strip non-target-language content** — remove words written in a script other
+   than the book's declared language script (from `book.json` → `language`). This
+   is removal, not translation: Latin, Devanagari, Tamil, CJK, Cyrillic, etc. are
+   dropped; target-script words, digits, and punctuation are kept.
+
+All steps are idempotent.
+
 ## Your Task
 
 1. **Generate the command file** — create (or update) the human-editable `filter.md` from the chapter models' context, so the human has a ready-made, context-aware template to write quality directives into.

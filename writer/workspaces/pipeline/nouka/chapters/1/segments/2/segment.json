@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "তক্তার স্মৃতি",
+  "segment_summary": "নৌকার প্রতিটি তক্তা বর্ষার জল আর ভাটিয়ালি সুরের অনুরণন ধরে রেখেছে; কবিতা নৌকাকে এক জীবন্ত সংরক্ষণাগার হিসেবে দেখে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the boat not as wood, but as a repository of trapped sound—the ghosts of past Bhatiyali strains held within its planks.",
+    "story_option": "An imagined scene during the boat's early days: The sound of an inexperienced young man’s labored breath mingling with the rhythmic slap of water against new timber.",
+    "subject_rotation": "Revisiting the 'origin' not as a material birth, but as a spiritual handover—the passing of stewardship from hands to hands.",
+    "sensory_detail": "The specific, cool scent of decaying moss mixed with fresh monsoon runoff on the early timbers.",
+    "research_question": "What is the precise acoustic difference between a manually propelled wooden hull and a diesel-powered vessel in water?",
+    "structural_variant": "Structuring segments as parallel reflections: 'Then' (past craft) vs. 'Now' (threat of machine).",
+    "variety_note": "This chapter roots the book firmly in tactile memory and material heritage, setting a deep contrast against the later chapters that will engage with noise, concrete, and erasure. It leans into intimate domesticity of the craft."
+  }
+}

@@ -6,13 +6,12 @@ Implements the scaffold contract of `.framework/workflows/pipeline.md`
 
     python tools/verify_pipeline.py <bookname>
 
-Checks: root `model.json` equals the backlog `book.json` as parsed JSON; every
-plan chapter has a matching `chapters/<name>/model.json` carrying all source
-fields with identical values and types plus runtime metadata; `history/` and a
-complete `segments/1/` state exist; form invariants hold (poetry: no
-`mood.json`); `filters/filters.json` mirrors the plan's `filter_chain` order
-with resolvable agents and boolean `autorun` flags; and the root planning files
-(`progress.json`, `override.md`) exist and match the plan.
+Checks: root `book.json` equals the backlog plan as parsed JSON; every plan
+chapter has a matching `chapter.json` carrying all source fields; `history/`
+and the configured segment folders and state files exist; form invariants hold
+(poetry: no `mood.json`); `filters/filters.json` mirrors the plan's
+`filter_chain` order with resolvable agents and boolean `autorun` flags; and
+the root planning files (`progress.json`, `override.md`) exist and match.
 
 Exit code 0 means the pipeline matches the contract; 1 means at least one error.
 """
@@ -92,27 +91,75 @@ def verify(bookname: str) -> int:
                 errors.append(f"chapters/{name}/chapter.json field {key!r} has a different type")
         if chapter_model.get("level") != "chapter":
             errors.append(f"chapters/{name}/chapter.json level must be 'chapter'")
-        if chapter_model.get("segments") != [1]:
-            errors.append(f"chapters/{name}/chapter.json segments must be [1]")
+        segment_count = entry.get("segment_count", 1) if form == "poetry" else 1
+        if type(segment_count) is not int or segment_count < 1:
+            errors.append(f"chapters/{name} segment_count must be a positive integer")
+            segment_count = 1
+        if chapter_model.get("segment_count", segment_count) != segment_count:
+            errors.append(
+                f"chapters/{name}/chapter.json segment_count does not match the plan"
+            )
+        segment_plans = chapter_model.get("segments")
+        legacy_single_segment = segment_count == 1 and segment_plans == [1]
+        if segment_plans not in (None, []) and not legacy_single_segment:
+            if not isinstance(segment_plans, list) or len(segment_plans) != segment_count:
+                errors.append(
+                    f"chapters/{name}/chapter.json segments must contain "
+                    f"{segment_count} records after enrichment"
+                )
+            elif any(
+                not isinstance(segment, dict)
+                or segment.get("segment_index") != position
+                or segment.get("name") != str(position)
+                for position, segment in enumerate(segment_plans, 1)
+            ):
+                errors.append(
+                    f"chapters/{name}/chapter.json segments have invalid identities"
+                )
         if not os.path.isdir(os.path.join(chapter_dir, "history")):
             errors.append(f"missing chapters/{name}/history/")
-        segment_dir = os.path.join(chapter_dir, "segments", "1")
-        segment_model_path = os.path.join(segment_dir, "segment.json")
-        if not os.path.isfile(segment_model_path):
-            # Fall back to legacy segment model.json for pipelines scaffolded before the rename.
-            legacy_path = os.path.join(segment_dir, "model.json")
-            if os.path.isfile(legacy_path):
-                segment_model_path = legacy_path
-        if not os.path.isfile(segment_model_path):
-            errors.append(f"missing chapters/{name}/segments/1/segment.json")
-        else:
-            segment = load(segment_model_path)
-            if (segment.get("level") != "segment" or segment.get("chapter_index") != index
-                    or segment.get("segment_index") != 1):
-                errors.append(f"chapters/{name}/segments/1/segment.json identity fields are wrong")
-        for sub in ("writer", "editor", "translator", "version"):
-            if not os.path.isdir(os.path.join(segment_dir, sub)):
-                errors.append(f"missing chapters/{name}/segments/1/{sub}/")
+        segments_root = os.path.join(chapter_dir, "segments")
+        expected_segments = {str(i) for i in range(1, segment_count + 1)}
+        actual_segments = {
+            entry_name for entry_name in os.listdir(segments_root)
+            if os.path.isdir(os.path.join(segments_root, entry_name))
+            and entry_name.isdecimal()
+        } if os.path.isdir(segments_root) else set()
+        for extra in sorted(actual_segments - expected_segments, key=int):
+            errors.append(f"unexpected segment folder: chapters/{name}/segments/{extra}/")
+        for segment_name in sorted(expected_segments, key=int):
+            segment_dir = os.path.join(segments_root, segment_name)
+            if not os.path.isdir(segment_dir):
+                errors.append(f"missing chapters/{name}/segments/{segment_name}/")
+                continue
+            segment_model_path = os.path.join(segment_dir, "segment.json")
+            if not os.path.isfile(segment_model_path):
+                # Fall back to legacy segment model.json for pipelines scaffolded before the rename.
+                legacy_path = os.path.join(segment_dir, "model.json")
+                if os.path.isfile(legacy_path):
+                    segment_model_path = legacy_path
+            if not os.path.isfile(segment_model_path):
+                errors.append(f"missing chapters/{name}/segments/{segment_name}/segment.json")
+            else:
+                segment = load(segment_model_path)
+                if (segment.get("level") != "segment" or segment.get("chapter_index") != index
+                        or segment.get("segment_index") != int(segment_name)):
+                    errors.append(
+                        f"chapters/{name}/segments/{segment_name}/segment.json identity fields are wrong"
+                    )
+                if isinstance(segment_plans, list) and len(segment_plans) == segment_count:
+                    plan_segment = segment_plans[int(segment_name) - 1]
+                    for key in ("segment_title", "segment_summary", "word_target"):
+                        if key in plan_segment and segment.get(key) != plan_segment[key]:
+                            errors.append(
+                                f"chapters/{name}/segments/{segment_name}/segment.json "
+                                f"{key} differs from chapter.json"
+                            )
+            for sub in ("writer", "editor", "translator", "latest", "version"):
+                if not os.path.isdir(os.path.join(segment_dir, sub)):
+                    errors.append(
+                        f"missing chapters/{name}/segments/{segment_name}/{sub}/"
+                    )
         if form == "poetry":
             if os.path.exists(os.path.join(chapter_dir, "mood.json")):
                 errors.append(f"poetry chapter {name} must not have mood.json")

@@ -1,0 +1,1249 @@
+<Window x:Class="WriterWorker.Views.PdfPageSetupDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Book layout"
+        Width="840"
+        Height="620"
+        MinWidth="720"
+        MinHeight="520"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize"
+        ShowInTaskbar="False"
+        Background="{DynamicResource EditorBackgroundBrush}"
+        Foreground="{DynamicResource TextBrush}"
+        FontFamily="Segoe UI"
+        FontSize="12">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/WriterWorker;component/Views/BookStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- The sections of the dialog sit in a tab strip on the left, the way the settings of
+                 a page setup are grouped in a print dialog. -->
+            <Style x:Key="SetupTabItemStyle" TargetType="TabItem">
+                <Setter Property="Foreground" Value="{DynamicResource MutedTextBrush}" />
+                <Setter Property="MinWidth" Value="140" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="TabItem">
+                            <Border x:Name="Bd"
+                                    Background="Transparent"
+                                    BorderBrush="{DynamicResource PanelBorderBrush}"
+                                    BorderThickness="0,0,0,1"
+                                    Padding="12,10">
+                                <Grid>
+                                    <Border x:Name="Accent"
+                                            Width="2"
+                                            HorizontalAlignment="Left"
+                                            Margin="-12,0,0,0"
+                                            Background="Transparent" />
+                                    <ContentPresenter ContentSource="Header" VerticalAlignment="Center" />
+                                </Grid>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter TargetName="Bd" Property="Background" Value="{DynamicResource EditorBackgroundBrush}" />
+                                    <Setter TargetName="Accent" Property="Background" Value="{DynamicResource AccentBrush}" />
+                                    <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
+                                </Trigger>
+                                <MultiTrigger>
+                                    <MultiTrigger.Conditions>
+                                        <Condition Property="IsSelected" Value="False" />
+                                        <Condition Property="IsMouseOver" Value="True" />
+                                    </MultiTrigger.Conditions>
+                                    <Setter TargetName="Bd" Property="Background" Value="{DynamicResource HoverBrush}" />
+                                </MultiTrigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="SetupTabControlStyle" TargetType="TabControl">
+                <Setter Property="TabStripPlacement" Value="Left" />
+                <Setter Property="ItemContainerStyle" Value="{StaticResource SetupTabItemStyle}" />
+                <Setter Property="Background" Value="Transparent" />
+                <Setter Property="BorderThickness" Value="0" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="TabControl">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.Column="0"
+                                        Background="{DynamicResource SideBarBrush}"
+                                        BorderBrush="{DynamicResource PanelBorderBrush}"
+                                        BorderThickness="0,0,1,0"
+                                        Padding="0,10,0,0">
+                                    <TabPanel IsItemsHost="True" KeyboardNavigation.TabIndex="1" />
+                                </Border>
+                                <Border Grid.Column="1" Padding="16,14">
+                                    <ContentPresenter ContentSource="SelectedContent" />
+                                </Border>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- The layouts a page can be printed on; the chosen row sets the width and the height
+                 of the page, so the list is the first thing the Print Setup tab shows. -->
+            <Style x:Key="LayoutListStyle" TargetType="ListBox">
+                <Setter Property="Background" Value="{DynamicResource EditorBackgroundBrush}" />
+                <Setter Property="BorderBrush" Value="{DynamicResource PanelBorderBrush}" />
+                <Setter Property="BorderThickness" Value="1" />
+                <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
+                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
+                <Setter Property="ItemContainerStyle">
+                    <Setter.Value>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="Padding" Value="8,5" />
+                            <Setter Property="Foreground" Value="{DynamicResource MutedTextBrush}" />
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="ListBoxItem">
+                                        <Border x:Name="Bd"
+                                                Background="Transparent"
+                                                Padding="{TemplateBinding Padding}"
+                                                SnapsToDevicePixels="True">
+                                            <ContentPresenter VerticalAlignment="Center" />
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsSelected" Value="True">
+                                                <Setter TargetName="Bd" Property="Background" Value="{DynamicResource SelectionBrush}" />
+                                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
+                                            </Trigger>
+                                            <MultiTrigger>
+                                                <MultiTrigger.Conditions>
+                                                    <Condition Property="IsSelected" Value="False" />
+                                                    <Condition Property="IsMouseOver" Value="True" />
+                                                </MultiTrigger.Conditions>
+                                                <Setter TargetName="Bd" Property="Background" Value="{DynamicResource HoverBrush}" />
+                                            </MultiTrigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- The about-the-book, about-the-author and copyright fields hold a paragraph, so they
+                 take returns and scroll instead of running off the tab. -->
+            <Style x:Key="BookMultilineInputStyle" TargetType="TextBox" BasedOn="{StaticResource BookInputStyle}">
+                <Setter Property="AcceptsReturn" Value="True" />
+                <Setter Property="TextWrapping" Value="Wrap" />
+                <Setter Property="VerticalScrollBarVisibility" Value="Auto" />
+                <Setter Property="HorizontalScrollBarVisibility" Value="Disabled" />
+                <Setter Property="VerticalContentAlignment" Value="Top" />
+                <Setter Property="Height" Value="58" />
+            </Style>
+
+            <!-- The pages of the book are listed the same way on the Cover, Blurb, Publisher,
+                 Content and Appendix tabs: the name of the page, the file it is kept in, what state
+                 that file is in, and the buttons that open or drop it. Every page of the book is a
+                 file of one of the page folders of the workspace, so the lists read the same
+                 <c>pages</c> section of the configuration the export prints. -->
+            <Style x:Key="PageListStyle" TargetType="ListBox" BasedOn="{StaticResource LayoutListStyle}">
+                <Setter Property="Height" Value="200" />
+                <Setter Property="ItemContainerStyle">
+                    <Setter.Value>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="Padding" Value="0" />
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            <Setter Property="Background" Value="Transparent" />
+                            <Setter Property="ToolTip" Value="{Binding RelativePath}" />
+                        </Style>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- The two arrows that move a page of the book one place up or down; they sit in front
+                 of the buttons of a page so the list can be read as the print order it is. -->
+            <Style x:Key="PageMoveButtonStyle" TargetType="Button" BasedOn="{StaticResource BookButtonStyle}">
+                <Setter Property="MinWidth" Value="26" />
+                <Setter Property="Padding" Value="0,4" />
+                <Setter Property="Margin" Value="4,0,0,0" />
+                <Setter Property="FontSize" Value="10" />
+            </Style>
+
+            <DataTemplate x:Key="PageRowTemplate">
+                <Grid Margin="8,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" MinWidth="120" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0" Margin="0,0,10,0" VerticalAlignment="Center">
+                        <TextBlock Text="{Binding Name}"
+                                   TextTrimming="CharacterEllipsis" />
+                        <TextBlock Text="{Binding RelativePath}"
+                                   Foreground="{DynamicResource MutedTextBrush}"
+                                   TextTrimming="CharacterEllipsis"
+                                   Margin="0,2,0,0" />
+                    </StackPanel>
+                    <TextBlock Grid.Column="1"
+                               Text="{Binding State}"
+                               Foreground="{DynamicResource MutedTextBrush}"
+                               VerticalAlignment="Center"
+                               Margin="0,0,6,0" />
+                    <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                        <Button Content="&#x25B2;"
+                                Style="{StaticResource PageMoveButtonStyle}"
+                                IsEnabled="{Binding UpEnabled}"
+                                Tag="{Binding}"
+                                Click="MovePageUp_Click"
+                                ToolTip="Print this page one place earlier" />
+                        <Button Content="&#x25BC;"
+                                Style="{StaticResource PageMoveButtonStyle}"
+                                IsEnabled="{Binding DownEnabled}"
+                                Tag="{Binding}"
+                                Click="MovePageDown_Click"
+                                ToolTip="Print this page one place later" />
+                        <Button Content="Design..."
+                                Style="{StaticResource BookButtonStyle}"
+                                MinWidth="82"
+                                Visibility="{Binding DesignVisibility}"
+                                Tag="{Binding}"
+                                Click="DesignPage_Click"
+                                ToolTip="Open the page in the rich text editor" />
+                        <Button Content="Don't print"
+                                Style="{StaticResource BookButtonStyle}"
+                                MinWidth="86"
+                                Tag="{Binding}"
+                                Click="ClearPage_Click"
+                                ToolTip="Take the page out of the book; the file is left on disk" />
+                        <Button Content="Delete"
+                                Style="{StaticResource BookButtonStyle}"
+                                MinWidth="64"
+                                Tag="{Binding}"
+                                Click="DeletePage_Click"
+                                ToolTip="Take the page out of the book and delete its file" />
+                    </StackPanel>
+                </Grid>
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TabControl x:Name="SetupTabs" Grid.Row="0" Style="{StaticResource SetupTabControlStyle}">
+            <TabItem x:Name="ProfileTab" Header="Select Profile">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                            <TextBlock Text="Profile of the book"
+                                       Style="{StaticResource BookTitleStyle}" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Text="The profile a book is set up from: the author, the book type and the size the book prints at, with the layout and the pages it starts with. A profile is kept in the settings folder - profile/default is the one a book uses when nothing else is chosen - so a book of the same shape is set up the same way without the workspace holding a copy of it." />
+                        </StackPanel>
+
+                        <ListBox x:Name="ProfileList"
+                                 Grid.Row="1"
+                                 Style="{StaticResource PageListStyle}"
+                                 SelectionChanged="ProfileList_SelectionChanged">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Margin="8,5">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" MinWidth="120" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackPanel Grid.Column="0" Margin="0,0,10,0" VerticalAlignment="Center">
+                                            <TextBlock Text="{Binding Name}"
+                                                       TextTrimming="CharacterEllipsis" />
+                                            <TextBlock Text="{Binding Details}"
+                                                       Foreground="{DynamicResource MutedTextBrush}"
+                                                       TextTrimming="CharacterEllipsis"
+                                                       Margin="0,2,0,0" />
+                                        </StackPanel>
+                                        <TextBlock Grid.Column="1"
+                                                   Text="{Binding State}"
+                                                   Foreground="{DynamicResource MutedTextBrush}"
+                                                   VerticalAlignment="Center" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button x:Name="ApplyProfileButton"
+                                    Content="Use this profile"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    MinWidth="120"
+                                    Click="ApplyProfile_Click"
+                                    ToolTip="Set the book up from the selected profile: record it in the book and copy the pages the book does not have yet" />
+                            <Button Content="Refresh"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    MinWidth="82"
+                                    Click="RefreshProfiles_Click"
+                                    ToolTip="Read the profiles in the settings folder again" />
+                            <Button Content="Open profile folder"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    MinWidth="140"
+                                    Click="OpenProfileFolder_Click"
+                                    ToolTip="Open the folder the profiles are kept in, so a profile can be edited like a book folder" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="3" Margin="0,10,0,0">
+                            <TextBlock x:Name="ProfileSummaryText"
+                                       Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,10,0,0"
+                                       Text="A profile is a folder named after the author, the book type and the size of the book, such as default or tagore-paperback-216x140. What is changed in a profile is what the next book cloned from it starts with; a book already set up keeps its own configuration and pages." />
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem x:Name="BookModelTab" Header="Book Model">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" MinWidth="150" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Margin="0,0,0,10">
+                            <TextBlock Text="Book details"
+                                       Style="{StaticResource BookTitleStyle}" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Text="What the book says about itself: the name it is displayed under, who wrote it, the price of each binding, the ISBN, the publisher and the copyright. The details are written to the book section of profile.json as soon as they stop changing, so a book keeps its own details next to its page setup." />
+                        </StackPanel>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0"
+                                   Text="Book name (display)"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="DisplayNameBox"
+                                 Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Unique name the book is listed and printed under." />
+
+                        <TextBlock Grid.Row="2" Grid.Column="0"
+                                   Text="Author"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="AuthorBox"
+                                 Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Name printed on the cover and the title page." />
+
+                        <TextBlock Grid.Row="3" Grid.Column="0"
+                                   Text="About the author"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   VerticalAlignment="Top"
+                                   Margin="0,6,12,8" />
+                        <TextBox x:Name="AboutAuthorBox"
+                                 Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3"
+                                 Style="{StaticResource BookMultilineInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Short biography printed on the about page or the back cover." />
+
+                        <TextBlock Grid.Row="4" Grid.Column="0"
+                                   Text="About the book"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   VerticalAlignment="Top"
+                                   Margin="0,6,12,8" />
+                        <TextBox x:Name="AboutBookBox"
+                                 Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3"
+                                 Style="{StaticResource BookMultilineInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Description of the book printed on the about page or the back cover." />
+
+                        <TextBlock Grid.Row="5" Grid.Column="0"
+                                   Text="Cover type"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <ComboBox x:Name="CoverTypeBox"
+                                  Grid.Row="5" Grid.Column="1"
+                                  Height="24"
+                                  Width="220"
+                                  HorizontalAlignment="Left"
+                                  Margin="0,0,0,8"
+                                  VerticalContentAlignment="Center"
+                                  SelectionChanged="TextField_SelectionChanged"
+                                  ToolTip="Binding the book is sold in; the price of that binding is printed on the back cover." />
+
+                        <TextBlock Grid.Row="6" Grid.Column="0"
+                                   Text="Paperback price"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="PaperbackPriceBox"
+                                 Grid.Row="6" Grid.Column="1"
+                                 Width="140"
+                                 HorizontalAlignment="Left"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Price of the paperback edition; leave empty when the book is not sold in paperback." />
+
+                        <TextBlock Grid.Row="7" Grid.Column="0"
+                                   Text="Hard cover price"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="HardCoverPriceBox"
+                                 Grid.Row="7" Grid.Column="1"
+                                 Width="140"
+                                 HorizontalAlignment="Left"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Price of the hard cover edition; leave empty when the book is not sold in hard cover." />
+
+                        <TextBlock Grid.Row="8" Grid.Column="0"
+                                   Text="ISBN"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="IsbnBox"
+                                 Grid.Row="8" Grid.Column="1"
+                                 Width="220"
+                                 HorizontalAlignment="Left"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="ISBN of the edition, as printed above the barcode." />
+
+                        <TextBlock Grid.Row="9" Grid.Column="0"
+                                   Text="Publisher"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="PublisherBox"
+                                 Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Name of the publishing house printed on the cover and the title page." />
+
+                        <TextBlock Grid.Row="10" Grid.Column="0"
+                                   Text="Publisher address"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   VerticalAlignment="Top"
+                                   Margin="0,6,12,8" />
+                        <TextBox x:Name="PublisherAddressBox"
+                                 Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="3"
+                                 Style="{StaticResource BookMultilineInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Address of the publishing house, printed under its name." />
+
+                        <TextBlock Grid.Row="11" Grid.Column="0"
+                                   Text="Publisher logo"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="PublisherLogoBox"
+                                 Grid.Row="11" Grid.Column="1"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Image of the publisher's logo printed on the cover and the title page." />
+                        <Button Grid.Row="11" Grid.Column="2"
+                                Content="Browse..."
+                                Style="{StaticResource BookButtonStyle}"
+                                Margin="6,0,0,8"
+                                Click="BrowsePublisherLogo_Click" />
+                        <Button Grid.Row="11" Grid.Column="3"
+                                Content="Clear"
+                                Style="{StaticResource BookButtonStyle}"
+                                Margin="6,0,0,8"
+                                Click="ClearPublisherLogo_Click" />
+
+                        <Border Grid.Row="12" Grid.Column="1"
+                                Width="140"
+                                Height="76"
+                                HorizontalAlignment="Left"
+                                Margin="0,0,0,10"
+                                Background="{DynamicResource SideBarBrush}"
+                                BorderBrush="{DynamicResource PanelBorderBrush}"
+                                BorderThickness="1"
+                                CornerRadius="3">
+                            <Image x:Name="PublisherLogoPreview" Stretch="Uniform" Margin="4" />
+                        </Border>
+
+                        <TextBlock Grid.Row="13" Grid.Column="0"
+                                   Text="Composer"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="ComposerBox"
+                                 Grid.Row="13" Grid.Column="1" Grid.ColumnSpan="3"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Name of the composer of the music the book belongs to." />
+
+                        <TextBlock Grid.Row="14" Grid.Column="0"
+                                   Text="Cover artist"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="CoverArtistBox"
+                                 Grid.Row="14" Grid.Column="1" Grid.ColumnSpan="3"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Name of the artist who painted the cover." />
+
+                        <TextBlock Grid.Row="15" Grid.Column="0"
+                                   Text="Year of production"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="YearBox"
+                                 Grid.Row="15" Grid.Column="1"
+                                 Width="140"
+                                 HorizontalAlignment="Left"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Year the edition was produced." />
+
+                        <TextBlock Grid.Row="16" Grid.Column="0"
+                                   Text="Copyright"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   VerticalAlignment="Top"
+                                   Margin="0,6,12,8" />
+                        <TextBox x:Name="CopyrightBox"
+                                 Grid.Row="16" Grid.Column="1" Grid.ColumnSpan="3"
+                                 Style="{StaticResource BookMultilineInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Copyright line of the edition, for example the holder and the year." />
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem x:Name="CoverTab" Header="Cover Pages">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0">
+                            <TextBlock Text="Cover"
+                                       Style="{StaticResource BookTitleStyle}" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Text="The cover is printed alone on a page of the export, before every other page. It uses the whole page - the margins apply to the text pages only - and carries no footer and no page number, while the chapter titles stay on odd pages. The picture is stretched to the shape of the page, so it covers the sheet edge to edge with no white band. The book has one cover image: the back cover is kept and printed by the Back Cover tab." />
+                        </StackPanel>
+
+                        <CheckBox x:Name="IncludeCoversBox"
+                                  Grid.Row="1"
+                                  Margin="0,14,0,0"
+                                  Content="Add the covers to the exported book"
+                                  Foreground="{DynamicResource TextBrush}"
+                                  Checked="IncludeCovers_Changed"
+                                  Unchecked="IncludeCovers_Changed" />
+
+                        <StackPanel x:Name="CoverFields" Grid.Row="2" Margin="0,12,0,0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Column="0"
+                                           Text="Front cover"
+                                           Style="{StaticResource BookLabelStyle}"
+                                           VerticalAlignment="Center"
+                                           Margin="0,0,12,0" />
+                                <TextBox x:Name="FrontCoverBox"
+                                         Grid.Column="1"
+                                         Style="{StaticResource BookInputStyle}"
+                                         TextChanged="TextField_TextChanged"
+                                         ToolTip="Image printed alone on the first page of the book." />
+                                <Button Grid.Column="2"
+                                        Content="Browse..."
+                                        Style="{StaticResource BookButtonStyle}"
+                                        Margin="6,0,0,0"
+                                        Click="BrowseFrontCover_Click" />
+                                <Button Grid.Column="3"
+                                        Content="Clear"
+                                        Style="{StaticResource BookButtonStyle}"
+                                        Margin="6,0,0,0"
+                                        Click="ClearFrontCover_Click" />
+                            </Grid>
+
+                            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                <Border Width="96"
+                                        Height="136"
+                                        Background="{DynamicResource SideBarBrush}"
+                                        BorderBrush="{DynamicResource PanelBorderBrush}"
+                                        BorderThickness="1"
+                                        CornerRadius="3">
+                                    <Image x:Name="FrontCoverPreview" Stretch="Uniform" Margin="4" />
+                                </Border>
+                                <TextBlock Style="{StaticResource BookLabelStyle}"
+                                           TextWrapping="Wrap"
+                                           Width="360"
+                                           Margin="12,0,0,0"
+                                           VerticalAlignment="Center"
+                                           Text="The cover of the book is the front image alone. The back cover has a tab of its own, after the appendix, where its images are kept and printed at the end of the book." />
+                            </StackPanel>
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="3" Margin="0,16,0,0">
+                            <TextBlock Text="Cover pages"
+                                       Style="{StaticResource BookLabelStyle}"
+                                       Margin="0,0,0,6" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,0,0,8"
+                                       Text="The images kept in the cover folder, in the order they print. The cover opens the book and prints first; any other image of the folder prints after it, in the order it is listed. The back cover is kept in the Back Cover tab." />
+                        </StackPanel>
+
+                        <ListBox x:Name="CoverPageList"
+                                 Grid.Row="4"
+                                 Style="{StaticResource PageListStyle}"
+                                 ItemTemplate="{StaticResource PageRowTemplate}" />
+
+                        <StackPanel Grid.Row="5">
+                            <Button Content="Add images..."
+                                    Style="{StaticResource BookButtonStyle}"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,10,0,0"
+                                    Click="AddCoverImages_Click"
+                                    ToolTip="Copy cover images into the cover folder of the book and print them" />
+                            <Button Content="Insert image..."
+                                    Tag="Cover"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,10,0,0"
+                                    Click="InsertPage_Click"
+                                    ToolTip="Copy an image into the cover folder and print it where the selected cover page is" />
+                            <Button Content="Insert blank page"
+                                    Tag="Cover"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,10,0,0"
+                                    Click="InsertBlankPage_Click"
+                                    ToolTip="Keep an empty sheet of the cover, to fill a page where the selected cover page is" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,10,0,0"
+                                       Text="A page is printed only while it is listed here. Taking it out leaves the file in the cover folder, so it can be put back by adding it again." />
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem x:Name="BlurbTab" Header="Blurb Pages">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                            <TextBlock Text="Blurb"
+                                       Style="{StaticResource BookTitleStyle}" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Text="The page that tells a reader what the book is about. It is printed right after the front cover, before the title page, and is numbered with the rest of the front matter in roman numerals - i, ii, iii. It is optional: when the folder holds no design for it, the page is left out. The starter design is filled from the about-the-book text of the Book Model tab, and the design is kept as pages/blurb/blurb.rtf." />
+                        </StackPanel>
+
+                        <ListBox x:Name="BlurbPageList"
+                                 Grid.Row="1"
+                                 Style="{StaticResource PageListStyle}"
+                                 ItemTemplate="{StaticResource PageRowTemplate}" />
+
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Content="Insert page"
+                                    Tag="Blurb"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Margin="0"
+                                    Click="InsertPage_Click"
+                                    ToolTip="Add a page to this part of the book where the selected page is, and design it" />
+                            <Button Content="Insert blank page"
+                                    Tag="Blurb"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Click="InsertBlankPage_Click"
+                                    ToolTip="Keep an empty sheet of this part of the book, to fill a page where the selected page is" />
+                            <Button Content="Create missing pages"
+                                    Tag="Blurb"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Click="CreatePages_Click"
+                                    ToolTip="Write the pages of this part that have no design yet, filled with the details of the book" />
+                        </StackPanel>
+
+                        <TextBlock Grid.Row="3"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   TextWrapping="Wrap"
+                                   Margin="0,10,0,0"
+                                   Text="A page is printed only when it has a design. The files are only written where there is no design yet, and a design that has been edited is never overwritten." />
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem x:Name="PublisherTab" Header="Publisher Pages">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                            <TextBlock Text="Publisher"
+                                       Style="{StaticResource BookTitleStyle}" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Text="The pages of the imprint. The publisher page is printed by every book, right after the title page, and a design is written for it from the Book Model details when the folder holds none. The dedication is optional, and a blank page always follows it, so the next page opens on the right-hand side of a spread. The copyright page and the foreword are optional too. They print in the front matter, numbered in roman numerals - i, ii, iii." />
+                        </StackPanel>
+
+                        <ListBox x:Name="PublisherPageList"
+                                 Grid.Row="1"
+                                 Style="{StaticResource PageListStyle}"
+                                 ItemTemplate="{StaticResource PageRowTemplate}" />
+
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Content="Insert page"
+                                    Tag="Publisher"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Margin="0"
+                                    Click="InsertPage_Click"
+                                    ToolTip="Add a page to this part of the book where the selected page is, and design it" />
+                            <Button Content="Insert blank page"
+                                    Tag="Publisher"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Click="InsertBlankPage_Click"
+                                    ToolTip="Keep an empty sheet of this part of the book, to fill a page where the selected page is" />
+                            <Button Content="Create missing pages"
+                                    Tag="Publisher"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Click="CreatePages_Click"
+                                    ToolTip="Write the pages of this part that have no design yet, filled with the details of the book" />
+                        </StackPanel>
+
+                        <TextBlock Grid.Row="3"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   TextWrapping="Wrap"
+                                   Margin="0,10,0,0"
+                                   Text="A page is printed only when it has a design. The files are only written where there is no design yet, and a design that has been edited is never overwritten." />
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem x:Name="IndexTab" Header="Index Pages">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                            <TextBlock Text="Index"
+                                       Style="{StaticResource BookTitleStyle}" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Text="The index is built from the contents of the book: every segment title with the page it is printed on. It follows the contents page at the end of the front matter and is numbered with the rest of the front matter in roman numerals." />
+                        </StackPanel>
+
+                        <ListBox x:Name="IndexPageList"
+                                 Grid.Row="1"
+                                 Style="{StaticResource PageListStyle}"
+                                 ItemTemplate="{StaticResource PageRowTemplate}" />
+
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Content="Insert blank page"
+                                    Tag="Index"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Margin="0"
+                                    Click="InsertBlankPage_Click"
+                                    ToolTip="Keep an empty sheet after the reserved pages of the index" />
+                        </StackPanel>
+
+                        <TextBlock Grid.Row="3"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   TextWrapping="Wrap"
+                                   Margin="0,10,0,0"
+                                   Text="Two pages are reserved for the index and print blank for now, until the export fills them from the contents. There is no design to edit for them, so this part has no pages to create; a page listed here is an empty sheet kept after the reserved pages, printed in the order it is listed." />
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem x:Name="ContentTab" Header="Content Pages">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                            <TextBlock Text="Content"
+                                       Style="{StaticResource BookTitleStyle}" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Text="The body of the book, printed from the chapters in the order they are written. Every chapter and every segment of it is a page of this part, one after the other, so the pages follow the plan instead of a design: the chapter pages start a new page per segment, the continuous layout runs the text on. The body is numbered in arabic numerals and starts again at 1, whatever the front matter counted to." />
+                        </StackPanel>
+
+                        <ListBox x:Name="ContentPageList"
+                                 Grid.Row="1"
+                                 Style="{StaticResource PageListStyle}"
+                                 ItemTemplate="{StaticResource PageRowTemplate}" />
+
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Content="Insert blank page"
+                                    Tag="Content"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Margin="0"
+                                    Click="InsertBlankPage_Click"
+                                    ToolTip="Keep an empty sheet after the chapters, to fill a page where the selected page is" />
+                        </StackPanel>
+
+                        <TextBlock Grid.Row="3"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   TextWrapping="Wrap"
+                                   Margin="0,10,0,0"
+                                   Text="The pages are made from the chapters and segments of the book, so there is no design to edit and no page to create here. A file listed above is a page of this part the workspace keeps beside the chapters; it prints where its order puts it, and a blank page prints as an empty sheet after the chapters." />
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem x:Name="AppendixTab" Header="Appendix Pages">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                            <TextBlock Text="Appendix"
+                                       Style="{StaticResource BookTitleStyle}" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Text="The appendix printed after the last chapter, and numbered on with the arabic page numbers of the chapters. It is optional: when the folder holds no design for it, the page is left out. The design is kept as pages/appendix/appendix.rtf." />
+                        </StackPanel>
+
+                        <ListBox x:Name="AppendixPageList"
+                                 Grid.Row="1"
+                                 Style="{StaticResource PageListStyle}"
+                                 ItemTemplate="{StaticResource PageRowTemplate}" />
+
+                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Content="Insert page"
+                                    Tag="Appendix"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Margin="0"
+                                    Click="InsertPage_Click"
+                                    ToolTip="Add a page to this part of the book where the selected page is, and design it" />
+                            <Button Content="Insert blank page"
+                                    Tag="Appendix"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Click="InsertBlankPage_Click"
+                                    ToolTip="Keep an empty sheet of this part of the book, to fill a page where the selected page is" />
+                            <Button Content="Create missing pages"
+                                    Tag="Appendix"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Click="CreatePages_Click"
+                                    ToolTip="Write the pages of this part that have no design yet, filled with the details of the book" />
+                        </StackPanel>
+
+                        <TextBlock Grid.Row="3"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   TextWrapping="Wrap"
+                                   Margin="0,10,0,0"
+                                   Text="A page is printed only when it has a design. The files are only written where there is no design yet, and a design that has been edited is never overwritten." />
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem x:Name="BackCoverTab" Header="Back Cover Pages">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                            <TextBlock Text="Back cover"
+                                       Style="{StaticResource BookTitleStyle}" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"
+                                       Text="The images kept in the back cover folder, printed after every other page of the book, because a printed book ends with the cover it began with. The pages of this part are images, like the cover pages, and are kept as pages/backcover. A blank page kept here prints as an empty sheet at the end of the book." />
+                        </StackPanel>
+
+                        <ListBox x:Name="BackCoverPageList"
+                                 Grid.Row="1"
+                                 Style="{StaticResource PageListStyle}"
+                                 ItemTemplate="{StaticResource PageRowTemplate}" />
+
+                        <StackPanel Grid.Row="2">
+                            <Button Content="Add images..."
+                                    Style="{StaticResource BookButtonStyle}"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,10,0,0"
+                                    Click="AddBackCoverImages_Click"
+                                    ToolTip="Copy images into the back cover folder of the book and print them at the end" />
+                            <Button Content="Insert image..."
+                                    Tag="BackCover"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,10,0,0"
+                                    Click="InsertPage_Click"
+                                    ToolTip="Copy an image into the back cover folder and print it where the selected page is" />
+                            <Button Content="Insert blank page"
+                                    Tag="BackCover"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    HorizontalAlignment="Left"
+                                    Margin="0,10,0,0"
+                                    Click="InsertBlankPage_Click"
+                                    ToolTip="Keep an empty sheet at the end of the book, where the selected back cover page is" />
+                            <TextBlock Style="{StaticResource BookLabelStyle}"
+                                       TextWrapping="Wrap"
+                                       Margin="0,10,0,0"
+                                       Text="A page is printed only while it is listed here. Taking it out leaves the file in the back cover folder, so it can be put back by adding it again." />
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem x:Name="PdfSetupTab" Header="Print Setup">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                                    Margin="0,0,0,10">
+                            <TextBlock Text="List of layouts available"
+                                       Style="{StaticResource BookLabelStyle}"
+                                       Margin="0,0,0,6" />
+                            <ListBox x:Name="PresetList"
+                                     Height="128"
+                                     Style="{StaticResource LayoutListStyle}"
+                                     SelectionChanged="PresetList_SelectionChanged"
+                                     ToolTip="Page size of the export. The width and the height below follow the choice; Custom keeps the values you type." />
+                        </StackPanel>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0"
+                                   Text="Unit"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <ComboBox x:Name="UnitBox"
+                                  Grid.Row="1" Grid.Column="1"
+                                  Height="24"
+                                  Margin="0,0,0,8"
+                                  VerticalContentAlignment="Center"
+                                  SelectionChanged="UnitBox_SelectionChanged" />
+
+                        <TextBlock x:Name="WidthLabel"
+                                   Grid.Row="2" Grid.Column="0"
+                                   Text="Width (mm)"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="WidthBox"
+                                 Grid.Row="2" Grid.Column="1"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="SizeBox_TextChanged" />
+
+                        <TextBlock x:Name="HeightLabel"
+                                   Grid.Row="3" Grid.Column="0"
+                                   Text="Height (mm)"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="HeightBox"
+                                 Grid.Row="3" Grid.Column="1"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="SizeBox_TextChanged" />
+
+                        <TextBlock x:Name="MarginLabel"
+                                   Grid.Row="4" Grid.Column="0"
+                                   Text="Margin (mm)"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="MarginBox"
+                                 Grid.Row="4" Grid.Column="1"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="SizeBox_TextChanged" />
+
+                        <TextBlock Grid.Row="5" Grid.Column="0"
+                                   Text="Font"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <ComboBox x:Name="FontBox"
+                                  Grid.Row="5" Grid.Column="1"
+                                  Height="24"
+                                  Margin="0,0,0,8"
+                                  IsEditable="True"
+                                  IsTextSearchEnabled="True"
+                                  MaxDropDownHeight="220"
+                                  VerticalContentAlignment="Center"
+                                  SelectionChanged="TextField_SelectionChanged" />
+
+                        <TextBlock Grid.Row="6" Grid.Column="0"
+                                   Text="Font size (pt)"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="SizeBox"
+                                 Grid.Row="6" Grid.Column="1"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Leave empty to keep the size of the book." />
+
+                        <TextBlock Grid.Row="7" Grid.Column="0"
+                                   Text="Footer text"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <TextBox x:Name="FooterBox"
+                                 Grid.Row="7" Grid.Column="1"
+                                 Style="{StaticResource BookInputStyle}"
+                                 Margin="0,0,0,8"
+                                 TextChanged="TextField_TextChanged"
+                                 ToolTip="Shown in the footer of every page, inside the bottom margin so that it sits a little above the edge of the sheet." />
+
+                        <TextBlock Grid.Row="8" Grid.Column="0"
+                                   Text="Page numbers"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <ComboBox x:Name="FormatBox"
+                                  Grid.Row="8" Grid.Column="1"
+                                  Height="24"
+                                  Margin="0,0,0,8"
+                                  IsEditable="True"
+                                  MaxDropDownHeight="220"
+                                  VerticalContentAlignment="Center"
+                                  SelectionChanged="TextField_SelectionChanged"
+                                  ToolTip="Use {page} and {total} as placeholders. The pages before the content are numbered in roman numerals and the chapters from 1. Choose None to hide the page numbers." />
+
+                        <TextBlock Grid.Row="9" Grid.Column="0"
+                                   Text="Background"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <Grid Grid.Row="9" Grid.Column="1" Margin="0,0,0,8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="BackgroundBox"
+                                     Grid.Column="0"
+                                     Style="{StaticResource BookInputStyle}"
+                                     TextChanged="TextField_TextChanged"
+                                     ToolTip="Image drawn behind the text of every page, edge to edge. The image is cropped around its middle to the shape of the page, so a photo of another shape loses a little of its outer edge instead of leaving a white band." />
+                            <Button Grid.Column="1"
+                                    Content="Browse..."
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Margin="6,0,0,0"
+                                    Click="BrowseBackground_Click" />
+                            <Button Grid.Column="2"
+                                    Content="Clear"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Margin="6,0,0,0"
+                                    Click="ClearBackground_Click" />
+                        </Grid>
+
+                        <TextBlock x:Name="LayoutLabel"
+                                   Grid.Row="10" Grid.Column="0"
+                                   Text="Book layout"
+                                   Style="{StaticResource BookLabelStyle}"
+                                   Margin="0,0,12,8" />
+                        <ComboBox x:Name="LayoutBox"
+                                  Grid.Row="10" Grid.Column="1"
+                                  Height="24"
+                                  Margin="0,0,0,8"
+                                  VerticalContentAlignment="Center"
+                                  SelectionChanged="TextField_SelectionChanged"
+                                  ToolTip="How a book is spread over the pages: one page per segment with a chapter title page, or one continuous text." />
+
+                        <Border Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="2"
+                                Height="88"
+                                Background="{DynamicResource SideBarBrush}"
+                                BorderBrush="{DynamicResource PanelBorderBrush}"
+                                BorderThickness="1"
+                                CornerRadius="3">
+                            <Border x:Name="PreviewBox"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Background="{DynamicResource EditorBackgroundBrush}"
+                                    BorderBrush="{DynamicResource MutedTextBrush}"
+                                    BorderThickness="1" />
+                        </Border>
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+
+        <Border Grid.Row="1"
+                Style="{StaticResource BookStatusBarStyle}"
+                Padding="16,10,16,12">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Margin="0,0,0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0"
+                               Text="Layout file"
+                               Style="{StaticResource BookLabelStyle}"
+                               VerticalAlignment="Center"
+                               Margin="0,0,12,0" />
+                    <TextBlock x:Name="ConfigPathText"
+                               Grid.Column="1"
+                               Foreground="{DynamicResource MutedTextBrush}"
+                               VerticalAlignment="Center"
+                               TextTrimming="CharacterEllipsis"
+                               ToolTip="Every change is written to the profile.json of the book as it is made; Save writes it at once." />
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="MessageText"
+                               Grid.Column="0"
+                               Foreground="{DynamicResource MutedTextBrush}"
+                               VerticalAlignment="Center"
+                               TextWrapping="Wrap"
+                               Margin="0,0,12,0"
+                               Text="Choose how every page of the PDF is rendered." />
+                    <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button x:Name="SaveButton"
+                                Content="Save"
+                                Style="{StaticResource BookButtonStyle}"
+                                Click="Save_Click"
+                                ToolTip="Write the page setup and the book details to the profile.json of the book now." />
+                        <Button Content="Cancel"
+                                Style="{StaticResource BookButtonStyle}"
+                                IsCancel="True" />
+                        <Button x:Name="OkButton"
+                                Content="Continue"
+                                Style="{StaticResource BookButtonStyle}"
+                                IsDefault="True"
+                                Click="Ok_Click" />
+                    </StackPanel>
+                </Grid>
+
+                <Grid Grid.Row="2" Margin="0,10,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="ProgressText"
+                               Grid.Column="0"
+                               Style="{StaticResource BookLabelStyle}"
+                               Visibility="Collapsed"
+                               Margin="0,0,12,0" />
+                    <ProgressBar x:Name="ProgressBar"
+                                 Grid.Column="1"
+                                 Width="180"
+                                 Height="6"
+                                 Minimum="0"
+                                 Maximum="100"
+                                 Visibility="Collapsed"
+                                 VerticalAlignment="Center" />
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

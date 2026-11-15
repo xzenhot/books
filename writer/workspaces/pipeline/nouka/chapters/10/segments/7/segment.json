@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "জয় নয়, বেঁচে থাকা",
+  "segment_summary": "জয় বা পরাজয়ের ঘোষণা নয়, এক নিরবচ্ছিন্ন সুরের বেঁচে থাকা; কবিতা এই নীরব জয়কে চূড়ান্ত উত্তর হিসেবে রাখে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Observing the silence immediately *after* the final note fades: is that silence a victory (emptiness) or another form of sound (residual vibration)?",
+    "story_option": "Setting: The river at pre-dawn, moments before full mist clears; Desire: Gopal allows his voice to become unrestrained, letting the notes break meter entirely, embracing the sound of breakdown; Obstacle: The reflection on the water is so unstable from churning that he cannot see himself.",
+    "subject_rotation": "Shifting focus from 'survival' to 'transmission': The poem is about the inherent inability of a specific mode of cultural expression (Bhatiyali) to be physically destroyed.",
+    "sensory_detail": "The feeling of resonant coldness traveling up Gopal's arm from where his hands gripped the damp, treated wood.",
+    "research_question": "How can 'unbroken melody' be represented poetically when its function is explicitly defined as ephemeral or non-linear?",
+    "structural_variant": "A highly fragmented structure where each segment ends abruptly, mimicking the way sound fragments in heavy moisture.",
+    "variety_note": "This chapter must function as a thematic closure rather than an argumentative one; it is defined by what remains intangible after all visible conflict—a shift from the clash of materials (wood vs. steel) to the persistence of vibration."
+  }
+}

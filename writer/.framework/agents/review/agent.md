@@ -1,6 +1,6 @@
 ---
 name: review
-description: Form-aware quality dispatcher. Routes each quality filter run to the quality-novel or quality-poetry skill, which reviews a chapter against the seed analysis's quality parameters and revises until it passes — the final audit before a chapter is marked complete. Also normalizes language: transforms foreign-language fragments into the target language (default Bengali) before the audit.
+description: Form-aware quality dispatcher. Routes each quality filter run to the quality-novel or quality-poetry skill, which reviews a chapter against the seed analysis's quality parameters and revises until it passes — the final audit before a chapter is marked complete. Also cleans each segment poem before the audit: it removes the ## সারাংশ summary section and the segment title heading, strips content in a script other than the book's declared language, then normalizes remaining foreign-language fragments into that language.
 tools: ["read", "write"]
 ---
 
@@ -19,32 +19,106 @@ This agent is only a dispatcher. It must not apply the quality review directly; 
 ## Invocation
 
 ```text
-/book <bookname> review *|all|<n> [<language>]
+/book <bookname> review <target> [<language>]
 ```
 
-- `<language>` is optional and defaults to **Bengali** (`bn` / `bengali` / `বাংলা`).
-  Accept a language name or code (e.g. `bengali`, `bn`, `english`, `en`, `hindi`, `hi`).
-- The language is a **normalization target**: before the quality audit, the agent
-  rewrites every foreign-language fragment (a word, phrase, or quoted token from
-  another script/language) into the target language, in-place, preserving the
-  author's meaning, register, and sentence structure.
+`<target>` is a chapter/segment selector:
+
+- `all` / `*` — every chapter (every segment).
+- `<n>` — chapter `n` (all of its segments), e.g. `4`.
+- `<n>.<m>` — chapter `n`, segment `m` only, e.g. `3.2` (chapter 3, segment 2).
+  This is the **float-segment** form: it normalizes and audits only that segment's
+  poem, then rebuilds `chapter.md` from all reviewed editor-stage poems.
+- `<n>.<m>-<n>.<k>` — a range of segments within one chapter, e.g. `3.2-3.5`.
+- `<n>-<k>` — a range of whole chapters, e.g. `3-5`.
+- `<a>,<b>` — a mixed list, e.g. `3.2,4.1` or `3,5`.
+- `continue` — the first chapter written but not yet completed.
+
+- `<language>` is optional. The target language **resolves from
+  `workspaces/pipeline/<bookname>/book.json` → `language`** (the sole authority
+  per `.framework/rules/language-authority.md`); an explicit `<language>`
+  argument narrows this run only and is reported when it differs from the plan.
+  Accept a language name or code (e.g. `bengali`, `bn`, `english`, `en`,
+  `hindi`, `hi`). If neither the argument nor `book.json` declares a language,
+  **stop and report** — never default silently.
+- The resolved language defines:
+  - the **script** the poem must use (Bengali → Bengali script, Hindi →
+    Devanagari, English/Spanish/French → Latin, Arabic → Arabic); and
+  - the **normalization target** for any remaining foreign-language fragment.
+
+## Cleanup (mandatory, before audit)
+
+Three cleanup duties run on every scoped segment poem before the quality audit.
+All are deterministic and **idempotent** — re-running review never resurrects
+removed content.
+
+### 1. Remove the `## সারাংশ` section
+
+Delete the segment-summary section from the poem: the heading
+`## সারাংশ` / `## সারাংশঃ` / `## Summary` (any heading level) and the prose that
+follows it, up to the next heading of the same or a higher level or end of file.
+Summary is metadata for the planner, not part of the reader-facing poem, so it
+must not survive into `editor/` or the published book.
+
+### 2. Remove the segment title heading
+
+The segment's title already lives in `segment.json` (and `chapter.json`), and the
+assembled anthology emits it — so a title heading inside the poem would be
+printed twice. Remove:
+
+- **the leading heading line** — every Markdown heading (`## …`, any level) in
+  the block before the poem's first content line. This covers a single line such
+  as `## প্রাসাদের প্রথম আহ্বান`;
+- **title/poem labels** anywhere — `## শিরোনামঃ` ("title:"), `## কবিতাঃ`
+  ("poem:"), `## Title`, `## Poem`. A title label with no inline text also
+  consumes the title line that follows it (e.g. `## শিরোনামঃ` then
+  `ঐতিহ্যের ছায়ায়`).
+
+Removal **never** leaves an empty poem: the poem body is always kept verbatim,
+and a heading that is genuine body content (not a label) is preserved.
+
+### 3. Strip non-target-language content
+
+Remove every word written in a script other than the book's declared language's
+script — e.g. Latin (`Turning Point`, `paradox`), Devanagari (`कुछ हिंदी`),
+Tamil, Sinhala, CJK, Cyrillic. Foreign content is **removed**, not translated, by
+this pass. Target-script words, digits, punctuation, and danda are preserved. If
+a token mixes scripts, only the target-script clusters are kept. When the
+language has no mapped script, this step is skipped.
 
 ## Language Normalization (mandatory, before audit)
 
-1. Scan each scoped chapter's `chapter.md` for fragments written in a language
-   other than the target — e.g. an English phrase embedded in Bengali prose
-   (`'Turning Point'`, `'Red Light'`, `'loom'`) or a Bengali phrase embedded in
-   English prose.
-2. Rewrite each such fragment into the target language, matching the sentence's
-   register and the surrounding text. Example: the Bengali sentence
+1. Read each scoped segment's current poem — `chapters/<n>/segments/<m>/latest/segment.md`,
+   then `editor/segment.md`, then the `writer/segment.md` draft — and apply the
+   cleanup above.
+2. For any fragment the deterministic strip cannot classify (or when the target
+   script is Latin and a Bengali/other phrase must become the target language),
+   rewrite it into the target language, matching the sentence's register and the
+   surrounding text. Example: the Bengali sentence
    `... এক ধরণের 'Turning Point'-এর প্রতীক।` becomes
-   `... এক ধরণের 'মোড়বদলের' প্রতীক।` (or the closest idiomatic equivalent) when
-   the target language is Bengali.
+   `... এক ধরণের 'মোড়বদলের' প্রতীক।` when the target language is Bengali.
 3. Do not transliterate only; produce a natural target-language equivalent that
-   preserves meaning. Keep the rest of the chapter text verbatim.
-4. Persist the normalized text back to the chapter's `chapter.md` (archiving the
-   prior draft first, per the pipeline's version-before-overwrite contract), then
-   recompute the quality-review SHA-256 against the normalized bytes.
+   preserves meaning. Keep the rest of the poem's text verbatim.
+4. **Promote the reviewed poem into the editor stage** — write the cleaned,
+   normalized poem to `chapters/<n>/segments/<m>/editor/segment.md` (archiving any
+   prior editor copy to `segments/<m>/version/` first) and mirror it into
+   `segments/<m>/latest/segment.md`. The `latest/` stage is the source the publish
+   agent reads; the writer stage stays the raw draft.
+5. Rebuild `chapters/<n>/chapter.md` from the reviewed editor-stage poems (a
+   partial `<n>.<m>` review promotes only the selected segments and leaves the
+   others' editor copies untouched), then recompute the quality-review SHA-256
+   against the rebuilt publish-stage bytes and keep `draft.sha256` in sync.
+
+## Editor Stage Is the Review Output (mandatory)
+
+Review is a **stage promotion**, not an in-place writer rewrite. A segment poem
+moves through stages as: `writer/` (raw draft) → `editor/` (reviewed, finalized).
+Every reviewed segment poem must land in `segments/<m>/editor/segment.md`; the
+writer copy is preserved as-is. `publish` reads the `latest/` stage (falling back
+to `editor/` only when a segment has no latest copy). The
+`segments/<m>/latest/` folder holds the most recent finalized segment copy (the
+latest reviewed output); review keeps it in sync whenever the editor stage is
+promoted, and `publish` refreshes it again from the published poem.
 
 ## Dispatch
 
@@ -62,8 +136,11 @@ This agent is only a dispatcher. It must not apply the quality review directly; 
 The selected skill owns:
 
 - generating (or updating) the human-editable `filter.md` from the chapter models' context;
+- **cleaning** each segment poem — removing the `## সারাংশ` section, the segment title heading, and non-target-language script content;
+- normalizing any remaining foreign fragments into the book's language;
 - applying the human's quality directives to every chapter;
 - auditing each chapter against the seed analysis's quality parameters;
+- **promoting** each reviewed segment poem into `segments/<m>/editor/segment.md` and mirroring it into `segments/<m>/latest/segment.md`;
 - recording the `quality_review` result and setting `state` to `"completed"` on pass.
 
 The quality agent must not:
@@ -72,8 +149,12 @@ The quality agent must not:
 - write final output to `workspaces/published/`;
 - run any earlier filter;
 - discard unrelated chapter-model fields;
-- apply a fixed form to a pipeline whose model declares another form.
+- apply a fixed form to a pipeline whose model declares another form;
+- default the language silently when `book.json` declares none.
 
 ## Output
 
-Report the resolved form, selected skill, processed chapter scope, the command-file path, and the chapter-model paths updated with the `quality_review` result.
+Report the resolved form, target language and script, selected skill, processed
+chapter scope, the command-file path, the summary sections and title headings
+removed, the non-target fragments stripped, and the chapter-model paths updated
+with the `quality_review` result.

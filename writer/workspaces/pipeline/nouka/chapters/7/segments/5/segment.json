@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "মাঝির কান",
+  "segment_summary": "মাঝির কান দুই সুরই শোনে, কিন্তু তার হৃদয় জানে কোনটা বাঁচিয়ে রাখার মতো; কবিতা এই নির্বাচনকে মূল্যবোধ হিসেবে পড়ে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the engine's exhaust plume visually as a temporary stain on the water that refuses to dissolve like mud or oil.",
+    "story_option": "Setting: Nighttime, near a newly constructed slipway for motorized craft; Desire: To observe an outsider—perhaps Mr. Chatterjee's assistant—using the diesel speed to complete an impossibly fast task; Obstacle: The loss of authentic navigational rhythm in favor of plotted charts.",
+    "subject_rotation": "Examining the psychological effect of constant sonic vibration on Gopal's body, viewing it as a slow form of exhaustion rather than artistic suppression.",
+    "sensory_detail": "The high-pitched, whining metallic resonance felt directly against the wooden grain beneath Gopal's palms when idling too close to a powerful engine.",
+    "research_question": "What is the relationship between sound pollution and perceived spiritual quality in Bengali river culture?",
+    "structural_variant": "A strict alternation: one stanza devoted entirely to 'Water/Song' imagery, immediately followed by a stanza dedicated entirely to 'Engine/Metal' imagery.",
+    "variety_note": "While previous chapters dealt with environmental/cultural friction through geography (Concrete Floodwalls, Muddy Banks), this chapter isolates the conflict entirely within the sonic spectrum—a confrontation of pure sound versus rhythm."
+  }
+}

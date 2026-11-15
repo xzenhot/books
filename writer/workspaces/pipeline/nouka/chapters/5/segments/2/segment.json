@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "ফুলে ওঠা নদী",
+  "segment_summary": "আকাশ ভেঙে পড়ে, নদী ফুলে ওঠে, আর মাঝির জীবন ফের একবার সেই চিরন্তন ছন্দে বাঁধা পড়ে — প্রতীক্ষা, ভয় আর সাহসের।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'unnamed quality' (the spiritual survival mechanism) as something physically manifesting momentarily—a shift in the way his calloused hand grips the oar during a storm surge.",
+    "story_option": "Setting: Deep in the boat while waters rise over the gunwales at night; Desire: To hear the ancestral call clearly above the downpour's roar; Obstacle: A passenger aboard who is terrified of the water's ascent and demands a rigid, safe pace, obstructing Gopal’s communion.",
+    "subject_rotation": "Shifting focus from the *macro* conflict (nature vs. concrete) to the *micro* experience: how the specific texture and smell of monsoon-soaked jute mats on the boat changes Gopal's perception of time.",
+    "sensory_detail": "The intense vibration felt through the hull when massive drops hit at a precise frequency, vibrating not only the boat but Gopal's bones.",
+    "research_question": "How is the local lexicon of 'sound' in heavy rain differentiated between natural acoustic events and artificial ones (like machinery noise)?",
+    "structural_variant": "Employing an extended Aural Motif where one specific sound—like a distinct crack of thunder or a particular type of splash—is repeated and altered across all eight segments to mark the passage of time.",
+    "variety_note": "Unlike previous chapters focused on fixed conditions (the boat's existence or a single song), this chapter centers entirely on fluid states—change, threat, and renewal—using water level as the narrative axis against modernization."
+  }
+}

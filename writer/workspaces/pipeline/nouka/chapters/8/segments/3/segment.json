@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ভালোবাসা ও শ্রদ্ধা",
+  "segment_summary": "গোপাল নদীকে ভালোবাসে, তবু শ্রদ্ধা করে, কারণ নদী কখনো সম্পূর্ণ বশ মানে না; কবিতা এই শ্রদ্ধাকে মাঝির ধর্ম হিসেবে পড়ে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the silt deposit after a flood not as mud, but as the preserved ghost-image of vanished geography (a solidified map) that no human engineer can read.",
+    "story_option": "Setting: On a low-lying patch of land recently claimed by the tide during a rapid rise; Desire: A passenger—someone who represents purely modern utility—is caught in the undertow and lost without ceremony; Obstacle: The water moves with indifferent grace, offering no narrative drama.",
+    "subject_rotation": "Focusing less on the flood itself and more on the specific sounds *after* the worst passes—the slow sloshing, the dripping from overhanging mud banks.",
+    "sensory_detail": "The taste of mineral tang mixed with stagnant river salt left on Gopal's lower lip after a sudden deluge.",
+    "research_question": "What is the precise local vocabulary for 'unpredictable current' in a heavily modified river system?",
+    "structural_variant": "Employing abrupt shifts: A segment dedicated entirely to the detailed mechanics of water erosion, jarringly contrasted with a purely internal monologue on acceptance.",
+    "variety_note": "This chapter deliberately moves beyond description of conflict (as seen in previous chapters) to focus on the *consequences* and the existential quietude following a moment of overwhelming natural force, making it more reflective than combative."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "গভীর গলা ও ধাতব চিৎকার",
+  "segment_summary": "সুরের গভীর, অনুরণিত গলা আর ডিজেল ইঞ্জিনের ধারালো ধাতব চিৎকারের বিরোধই এই কবিতার কেন্দ্র।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The 'unpayable generosity' being enacted through unsolicited musical performance, making music a form of barter that bypasses currency entirely.",
+    "story_option": "setting: The pre-dawn stillness near an unseen ghat, desire: A young passenger, initially silent and reserved, seeks out the song as communion., obstacle: The physical exhaustion of rowing against a subtly altered current makes sustained singing difficult., turn: The passenger replies not with words, but by mirroring the cadence of a specific line of the Bhatiyali chorus.",
+    "subject_rotation": "Examining the concept of 'intangible value' by focusing on objects related to sound (e.g., a chipped earthenware cup, a particular piece of string) rather than just human interaction.",
+    "sensory_detail": "The specific, jarring high-frequency whine produced by the diesel engine vibrating up through the wooden floorboards into the feet.",
+    "research_question": "What are the subtle phonetic markers in Bhatiyali singing that differentiate true cultural resonance from mere vocal imitation?",
+    "structural_variant": "A highly fragmented structure where each line is a captured sonic artifact—a single syllable from song, a specific engine sound, an intake of breath.",
+    "variety_note": "This chapter moves away from broad geological descriptions (Chapter 2) to focus intensely on an ephemeral, non-material force—the sound—and introduces the central conflict through auditory contrast."
+  }
+}

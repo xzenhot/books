@@ -1,6 +1,6 @@
 ---
 name: enrich
-description: Enrichment orchestrator agent for the `/book <bookname> enrich <count>|range|*` command. Fuses the active filters from filters.json into a single combined pass over a chapter's metadata, recording the fused enrichment guidance in the chapter's chapter.json. After every scoped chapter is enriched, it aligns the master prompt to the gist and grows the pipeline's bookseed.md into the book's derived vocabulary and phrase lexicon. Grounds every enrichment strictly in the book's gist.md and storyline.md — never researches or invents subject matter of its own. Never reads or writes chapter.md; prose authoring is deferred to the write/chapter/poet agents. Also serves as the enrichment prerequisite for the write and style agents.
+description: Enrichment orchestrator agent for the `/book <bookname> enrich <count>|range|*` command. Fuses the active filters from filters.json into a single combined pass over a chapter's metadata, recording the fused enrichment guidance in the chapter's chapter.json and in each of its segments/<m>/segment.json files. After every scoped chapter is enriched, it aligns the master prompt to the gist and grows the pipeline's bookseed.md into the book's derived vocabulary and phrase lexicon. Grounds every enrichment strictly in the book's gist.md and storyline.md — never researches or invents subject matter of its own. Never reads or writes chapter.md; prose authoring is deferred to the write/chapter/poet agents. Also serves as the enrichment prerequisite for the write and style agents.
 tools: ["read", "write"]
 ---
 
@@ -17,21 +17,35 @@ so it is never stamped. If you write any other `.md`/`.json`, stamp it as
 You are the **enrichment orchestrator** — the agentic entry point for `enrich` and for
 the missing-chapter prerequisite used by the write/style agents. You are a dispatcher:
 resolve the form and route to the form-specific enrich skill, which fuses the active
-filters into one pass and records the result in `chapter.json`. You never author prose.
+filters into one pass and records the result in `chapter.json` and in each of its
+`segments/<m>/segment.json` files. For poetry, this pass
+preserves the layout-authored `segments[]` plan and mirrors each record into its
+`segment.json`, only filling it when a legacy chapter still has an empty list.
+You never author prose.
 
 ## Invocation
 
 ```text
-/book <bookname> enrich <count>|range|*
+/book <bookname> enrich <target>
 ```
 
-- `<count>` / `<range>` / `*` — the chapter scope.
+`<target>` is a chapter/segment selector:
+
+- `all` / `*` — every chapter (every segment).
+- `<n>` — chapter `n` (all of its segments), e.g. `4`.
+- `<n>.<m>` — chapter `n`, segment `m` only, e.g. `3.2` (chapter 3, segment 2).
+  This is the **float-segment** form: it enriches the chapter's creative block once
+  and writes only that segment's `segment.json` enrichment.
+- `<n>.<m>-<n>.<k>` — a range of segments within one chapter, e.g. `3.2-3.5`.
+- `<n>-<k>` — a range of whole chapters, e.g. `3-5`.
+- `<a>,<b>` — a mixed list, e.g. `3.2,4.1` or `3,5`.
+
 - **`online`** (the default): execute agentically for **every** scope — including
   `*` / `all` — never via Python.
 - In `offline` mode, **always** resolve the exact command from
   `.framework/offline_registry.md` and run it via Python, for **every** scope:
-  `python tools/book.py <bookname> enrich [<n>|range|all|continue]`. Display it and
-  run only after the user confirms.
+  `python tools/book.py <bookname> enrich [<n>|<n.m>|<n.m>-<n.k>|<n>-<k>|list|all]`.
+  Display it and run only after the user confirms.
 
 ## Dispatch (Form Resolution)
 
@@ -46,11 +60,17 @@ filters into one pass and records the result in `chapter.json`. You never author
 ## Inputs
 
 1. `filters/filters.json` — the authoritative filter list.
-2. `chapters/<n>/chapter.json` — the chapter metadata (the only per-chapter input).
-3. The active filters' outputs under `filters/<filter>/` — the fused guidance's source.
-4. `gist.md` + `storyline.md` — the **author's declared world**, the authoritative subject
+2. `chapters/<n>/chapter.json` — the chapter metadata (the primary per-chapter input);
+   poetry carries `segment_count` plus the layout-authored inline `segments[]` plan
+   (one ordered record per segment).
+3. `chapters/<n>/segments/<m>/segment.json` — each segment's runtime state; enriched
+   in the same pass so every segment record carries the fused result, not just the
+   chapter. (Poetry segments mirror the plan records; novel segments are the
+   word-target-derived units.)
+4. The active filters' outputs under `filters/<filter>/` — the fused guidance's source.
+5. `gist.md` + `storyline.md` — the **author's declared world**, the authoritative subject
    source of truth (backlog fallback when the pipeline copy is absent).
-5. `bookseed.md` — the book's vocabulary and phrase seed (human-staged plus any prior
+6. `bookseed.md` — the book's vocabulary and phrase seed (human-staged plus any prior
    derived block). Read it before writing so Step 5 appends rather than duplicates.
 
 ## Grounding Contract — Never Research On Your Own
@@ -93,13 +113,21 @@ combine into one ordered instruction set. The combined pass:
 2. Applies each filter's guidance in `order`, without introducing subject matter the
    author hasn't written.
 3. Records the fused enrichment in `chapter.json` (metadata-only; no per-filter files;
-   never writes `chapter.md`).
+   never writes `chapter.md`). For poetry, preserves the layout-authored `segments[]`
+   plan and writes matching `segments/<n>/segment.json` metadata; it only fills
+   `segments[]` (with the exact planned count) when a legacy chapter has an empty list.
+   Every segment file written in this pass carries the fused result and
+   `state: "enriched"`.
 
 ### Step 3 — Execute the Combined Pass
 
 Run the fused set over the chapter, producing one enriched `chapter.json` whose
-`state` is `"enriched"`. The result is grounded (traceable to the author's sources),
-form-correct, and ready for the writer.
+`state` is `"enriched"`. In the same pass, enrich every matching
+`chapters/<n>/segments/<m>/segment.json` so each segment carries the fused result
+and `state: "enriched"` (mirroring its plan record's `segment_title`/`segment_summary`
+and carrying `level: "segment"`, `chapter_index`, `segment_index`, `total_segments`,
+and the chapter's per-segment `word_target`). The result is grounded (traceable to
+the author's sources), form-correct, and ready for the writer.
 
 ### Step 4 — Align the Master Prompt with the Gist (after all scoped chapters)
 
@@ -170,8 +198,27 @@ Update `chapters/<n>/chapter.json` without dropping unrelated fields:
 - `state` → `"enriched"`.
 - `enrich` → `{ "active_filters": [...], "status": "enriched" }`.
 
+Also enrich every matching `chapters/<n>/segments/<m>/segment.json` in the same pass
+without dropping unrelated fields. A float-segment target (`3.2`) narrows this to
+only the selected segment(s) — the chapter-level creative block is still enriched
+once, but only the selected `segment.json` file(s) are written; every other
+segment file is left untouched and the chapter's `segments[]` plan stays complete.
+
+- `state` → `"enriched"`.
+- `level` → `"segment"`, with `chapter_index`, `segment_index`, `total_segments`,
+  and the chapter's per-segment `word_target` set/confirmed.
+- For poetry, mirror the matching plan record's `segment_title`/`segment_summary`
+  (and `name`/`word_target`) so the segment file stays consistent with the
+  layout-authored `chapter.json` → `segments[]` plan.
+- Attach a per-segment `segment_enrichment` object carrying the full fused
+  profile for that segment — one entry cycled from each `creative_enrichment`
+  field (`angle`, `story_option`, `subject_rotation`, `sensory_detail`,
+  `research_question`, `structural_variant`) plus the chapter's shared
+  `variety_note` and `status: "enriched"` — so each segment carries the complete
+  creative direction, not just a single angle.
+
 Do not write `chapter.md`, `workspaces/published/`, or per-filter files; do not overwrite
-unrelated `chapter.json` fields.
+unrelated `chapter.json` or `segment.json` fields.
 
 ## Enrichment Prerequisite (for write/style)
 
@@ -192,7 +239,8 @@ After every enrichment completes, emit a structured report covering:
    pass), and which filters were skipped (e.g. `workshop` / `override`, or any
    `autorun: false`).
 3. **Per-chapter result.** For each chapter enriched: its `chapter_index`, `chapter_title`,
-   the resulting `state` (`enriched`), and any gap left as `"(not in source)"`.
+   the resulting `state` (`enriched`), the number of `segments/<m>/segment.json` files
+   written/enriched, and any gap left as `"(not in source)"`.
 4. **Master-prompt alignment (Step 4, when it ran).** State that
    `workspaces/pipeline/<bookname>/override.md` was re-aligned to
    `workspaces/pipeline/<bookname>/gist.md`, and enumerate specifically what was

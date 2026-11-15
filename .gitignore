@@ -327,6 +327,10 @@ DocProject/Help/html
 # Click-Once directory
 publish/
 
+# ...but a book's print profile is part of its source
+!**/profile/publish/
+!**/profile/publish/**
+
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml

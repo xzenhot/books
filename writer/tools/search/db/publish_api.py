@@ -498,7 +498,7 @@ def add_chapter(bookname: str, req: ChapterInput) -> dict:
     cd = _chapter_dir(bookname, idx)
     os.makedirs(os.path.join(cd, "history"), exist_ok=True)
     seg = os.path.join(cd, "segments", "1")
-    for sub in ("writer", "editor", "translator"):
+    for sub in ("writer", "editor", "translator", "latest"):
         os.makedirs(os.path.join(seg, sub), exist_ok=True)
     _write_json(
         os.path.join(cd, "chapter.json"),

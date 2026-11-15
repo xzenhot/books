@@ -2,28 +2,51 @@
 
 - **Book name:** badam
 - **Storyline path:** workspaces/backlog/badam/storyline.md
-- **Created:** 2026-09-22T00:00:00+00:00
-- **Updated:** 2026-09-22T00:00:00+00:00
-- **Updated by:** init agent
-- **Form:** poetry
-- **Language:** English
-- **Genre:** philosophical song-poetry / river elegy
-- **Era:** mid-to-late twentieth-century Bengal to the present
-- **Chapter count:** 20
+- **Created:** 2026-09-22T00:00:00Z
+- **updated_by:** layout
+- **updated_date:** 2026-11-13T10:37:42Z
 - **Gist:** The majhi — the boatman who rows his small wooden boat across the rivers of Bengal — carries a whole way of life: the rivers that made the land, the Bhatiyali songs that carry its sorrow and sweetness, and a cordial generosity that serves even those who cannot pay.
 
-## মূল ভাবনা
+## Form and scale
 
-বাংলার নদীময় ভূখণ্ডে মাঝি সেই মানুষ, যে ছোট নৌকা বেয়ে এক পাড় থেকে আরেক পাড়ে মানুষকে পার করে — আর এই পারাপারই তার জীবনের রূপক। এই কাব্যচক্রের কেন্দ্রে আছে মাঝি নিজে: তার বৈঠা, তার স্রোত, তার ভাটিয়ালি গান, আর সেই করুণাময় উদারতা যা পয়সা না পেয়েও সেবা করে। নদীই এখানে দাতা ও গ্রহীতা একসঙ্গে — যে জল খাওয়ায় সেই জলই বান ডেকে আনে; সেবাই এই জাতের উত্তরাধিকার, আর গানই ব-দ্বীপের স্মৃতি, প্রজন্ম থেকে প্রজন্মে বয়ে চলে। আধুনিক সেতু একদিন এই খেয়া অচল করে দেবে, কিন্তু নদী মনে রাখে — যা মূল্যবান তা টিকে থাকে যা কেবল উপযোগী তার চেয়ে অনেক বেশি দিন। প্রতিটি কবিতা সেই পারাপারের একটি স্তর; বিষয়, চিত্রকল্প, কণ্ঠস্বর ও খোলা প্রশ্ন একসঙ্গে এগিয়ে যায় — অধ্যায়ের সারাংশ পরিকল্পনা, চূড়ান্ত লেখা নয়।
+- **Form:** poetry (philosophical song-poetry / river elegy)
+- **Language:** English
+- **Era:** mid-to-late twentieth-century Bengal to the present
+- **Chapter count:** 8
+- **Word target:** ~500 words per poem
+- **Segments per chapter:** 8 (planned at layout; written as one segment per chapter in the pipeline)
 
-## বিষয়গত সূত্র
+## Premise
 
-১. **নদী দাতা ও গ্রহীতা:** যে জল খাওয়ায় সেই জলই বান ডেকে আনে — একই শক্তি দুটি রূপে।
-২. **মূল্যহীন সেবা:** উদারতা একটি জাতের উত্তরাধিকার; বিনা পয়সায় দেওয়া চালিয়ে যাওয়ার দাম কী, সেই প্রশ্ন।
-৩. **গানই স্মৃতি:** ভাটিয়ালি বয়ে নিয়ে যায় শোক, বিরহ আর পরিচয়; গানই ব-দ্বীপের আত্মা।
-৪. **পরিবর্তন ও টিকে থাকা:** সেতু আসবে, কিন্তু নদী মনে রাখে; যা মূল্যবান তা টিকে থাকে যা কেবল উপযোগী তার চেয়ে বেশি।
-৫. **থাকা ও চলে যাওয়া:** ছেলের নদী আর শহরের দ্বন্দ্ব মাঝির নিজের অমীমাংসিত টানের প্রতিচ্ছবি।
+This cycle follows a majhi, a boatman of Bengal's river country, through eight crossings that shape his life — the oar, the current, and the Bhatiyali songs that rise from his chest like mist off the water. In each poem the delta unfolds: the ghats and villages, the monsoon and the dry months, and the cordial generosity of a caste that has ferried the land's people for generations, often without thought of payment. His way of life is open-handed service, and his conflict is the slow encroachment of a world that asks every service to be priced — money, debt, and a new bridge that will one day make his ferry unnecessary. Across the cycle the boatman's generosity is tested against survival, and the song passes from father to son, until at last he learns that what he gives freely is what survives, and that the river remembers what the bridge cannot span.
 
-## পর্বের বিন্যাস (২০)
+## Setting & Era
 
-প্রতিটি পর্ব মাঝির জীবন ও ব-দ্বীপের নদীজীবনের একটি স্তরকে কেন্দ্র করে। প্রথম পর্বগুলো নদী, বৈঠা ও গানের ভিত্তি; মাঝের পর্বগুলো ঘাট, উদারতা, ঋতু ও মাঝিজাতির উত্তরাধিকার; শেষ পর্বগুলো ঋণ, রাতের পারাপার, সেতুর আগমন ও নদীর চিরস্থায়ী স্মৃতিকে ঘিরে। প্রতিটি কবিতা স্বয়ংসম্পূর্ণ, তবু সমষ্টিতে এক মহাকাব্যিক শৃঙ্খল গড়ে তোলে।
+Bengal's river country — the Bhatiyali delta of flat lands, braided channels, ghats, and village ferries — from the mid-to-late twentieth century to the present. The economy runs on river traffic, small fares, and the boatman's unpaid courtesy; the law of the water is read by the oar, not by a ledger. The era brings motorized boats, concrete bridges, and debt, pressing against a tradition whose currency is trust and song.
+
+## Thematic Threads
+
+1. **The river, giver and taker:** the same water that feeds and ferries also floods and claims — one power in two faces.
+2. **Service without price:** generosity is an inherited caste duty; the poems ask what in-kind service costs when every act is pressured to be monetized.
+3. **The song as memory:** Bhatiyali carries longing, separation, and identity downstream; the song is the delta's soul, passed from generation to generation.
+4. **Change and endurance:** the bridge will come and the ferry may cease, but what is valuable outlasts what is merely useful — and the river remembers.
+5. **Staying and leaving:** the son's river versus the city, echoing the boatman's own unresolved pull between the water and the world ashore.
+
+## Chapter-by-Chapter Outline (8 poems)
+
+1. **The River Before Dawn** — Mist lies on the water and a boat waits at a dark ghat before the first passenger arrives. The boatman runs his hand along the gunwale and hums a tune the river seems to know. The poem opens the delta and poses the book's question: who is this man, and where does his song come from?
+2. **The Boatman's Oar** — The majhi's working day in full rhythm: the crossing, the current, the weight of the oar. The river is his workplace and home; the oar is the tool through which he reads the water and earns his living.
+3. **The Song of the Current** — The first Bhatiyali is sung in full, a song of the boatman's longing carried downstream over the water. The song becomes the heart of the poem and of the book — the delta's own voice rising off the river.
+4. **The Ghat** — The ferry ghat as social hub: arrivals, departures, gossip, trade, and ritual at the water's edge. The majhi's cordiality is a lived ethic practiced with every passenger, not spoken as a principle.
+5. **The Passenger Without Money** — A poor passenger cannot pay the fare, and the majhi ferries her across anyway. The first moral turn: service measured in need, not fare, and generosity given without sentiment.
+6. **The Debt and the River** — Money trouble arrives, pressing the majhi to charge more, leave the river, or sell the boat. His generosity is tested against the bare need to survive, and the poem asks what service truly costs.
+7. **The Crossing at Night** — A dangerous night crossing unfolds: storm, darkness, and a life at stake on the water. In a single passage the boatman's skill and courage show what his service costs, and what it is worth.
+8. **The River Remembers the Song** — A new bridge threatens the ferry; the song passes from father to son. The boatman learns that what he gives freely is what survives, and that the river remembers what the bridge cannot span.
+
+## World-Building & Atmosphere
+
+The master metaphor is the crossing — every chapter is a passage across water and across time. Register is plain, grave, and songful, rooted in bodily experience: the gunwale, the oar's weight, wet rope, mist, the current's tug. Images recur — the ghat lamp, the oilcloth sack, the river's rise and fall — so the cycle reads as one continuous Bhatiyali rather than eight unrelated poems.
+
+## Conclusion
+
+The boatman's generosity is tested and not broken. The bridge may come, the fare may be demanded, but the song and the service outlast the crossing. What he gives freely is what he keeps; the river remembers.

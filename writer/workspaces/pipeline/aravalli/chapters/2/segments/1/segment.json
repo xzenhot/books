@@ -2,5 +2,10 @@
   "level": "segment",
   "state": "pending",
   "chapter_index": 2,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "প্রোটেরোজোয়িক রক্তপাত",
+  "segment_summary": "টেথিস সাগরের গভীর থেকে উঠে আসা এই প্রাচীন শিলাগুলির মধ্যে তামা ও দস্তার ধমনী কীভাবে আদিম সভ্যতার প্রথম আকাঙ্ক্ষা জাগিয়ে তোলে, তা এখানে চিত্রিত।",
+  "name": "1",
+  "word_target": 500
 }

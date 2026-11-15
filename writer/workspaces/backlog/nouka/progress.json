@@ -1,0 +1,109 @@
+{
+  "title": "নৌকা: ভাটিয়ালির মাঝির মহাকাব্য",
+  "language": "Bengali",
+  "source_terms": [
+    "নৌকার জন্ম",
+    "নদীর শরীর",
+    "ভাটিয়ালি সুর",
+    "বিনা পয়সার পার",
+    "বর্ষার ডাক",
+    "কংক্রিটের জোয়ার",
+    "ডিজেলের ধাতব আর্তনাদ",
+    "নদীর ক্রোধ",
+    "মুছে যাওয়া ভূগোল",
+    "শেষ সুর"
+  ],
+  "context": "১০টি কবিতা; প্রতিটি কবিতায় ৮টি পরিকল্পিত segment; প্রতি segment-এর word_target 500।",
+  "total_chapters": 10,
+  "completed_chapters": 0,
+  "current_chapter": 1,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "nouka",
+  "form": "poetry",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "নৌকার জন্ম",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\1\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "নদীর শরীর",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\2\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "ভাটিয়ালি সুর",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\3\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "বিনা পয়সার পার",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\4\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "বর্ষার ডাক",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\5\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "কংক্রিটের জোয়ার",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\6\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "ডিজেলের ধাতব আর্তনাদ",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\7\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "নদীর ক্রোধ",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\8\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "মুছে যাওয়া ভূগোল",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\9\\chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "শেষ সুর",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters\\10\\chapter.md",
+      "completed_date": null
+    }
+  ],
+  "updated_by": "layout",
+  "updated_date": "2026-11-10T12:26:30Z"
+}

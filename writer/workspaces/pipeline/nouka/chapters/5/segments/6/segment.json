@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নদীর ডাক",
+  "segment_summary": "বৃষ্টির ফোঁটার মধ্যে গোপাল শোনে নদীর ডাক, যে ডাক তার পূর্বপুরুষেরাও শুনত; কবিতা এই ডাককে বংশের সেতু হিসেবে দেখে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the anticipation not just as fear, but as the necessary vulnerability required to sustain the tradition of open-water generosity.",
+    "story_option": "Setting: On an upstream stretch approaching urban saturation; Desire: To witness how the monsoon forces react differently when flowing past concrete floodwalls versus ancient mud banks; Obstacle: The visible presence of industrial machinery seemingly unaffected by or indifferent to the flooding.",
+    "subject_rotation": "Examining 'hope' not as a grand promise, but as the small act of bailing water with an ancient technique while simultaneously listening for the subtler sounds beneath the storm.",
+    "sensory_detail": "The visual distortion of lantern light flickering on water agitated by torrential downpour, turning familiar banks into impressionistic blurs.",
+    "research_question": "Are there documented historical examples where major infrastructural changes led to shifts in indigenous navigational knowledge within Bengali delta regions?",
+    "structural_variant": "Employing an extended Aural Motif where one specific sound—like a distinct crack of thunder or a particular type of splash—is repeated and altered across all eight segments to mark the passage of time.",
+    "variety_note": "Unlike previous chapters focused on fixed conditions (the boat's existence or a single song), this chapter centers entirely on fluid states—change, threat, and renewal—using water level as the narrative axis against modernization."
+  }
+}

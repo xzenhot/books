@@ -2,113 +2,79 @@
   "chapter_index": 6,
   "name": "6",
   "word_target": 500,
-  "chapter_title": "কোটি বছরের একা পাহারা",
-  "chapter_summary": "কোটি কোটি বছর ধরে একা দাঁড়িয়ে থাকা প্রাচীন প্রহরীর প্রথম রাত। ঝড়, খরা ও বরফযুগের সঙ্গে একাকী লড়াই।",
+  "segment_count": 8,
+  "chapter_title": "সাগরিকার আগমন: আদিম কামনার তন্ত্র",
+  "chapter_summary": "এই অধ্যায়টি আরাবল্লির প্রাচীন, পাথুরে সত্তার উপর সাগরিকা ঘোষের তীব্র, শরীরময় উপস্থিতির আগমনকে কেন্দ্র করে আবর্তিত। তার উত্তুঙ্গ বক্ষের তরঙ্গ এবং রক্তিম লিপস্টিকের আবেশ প্রাচীন তন্ত্রসাধনা ও আদিম কামনার প্রতীক হয়ে ওঠে, যা পাহাড়ের কোটি কোটি বছরের নীরব সংগ্রামকে চ্যালেঞ্জ জানায়। এই অধ্যায়টি প্রশ্ন তোলে—যখন প্রাচীনতম ভূখণ্ড আধুনিক, তীব্র মানব আকাঙ্ক্ষার মুখোমুখি হয়, তখন সেই আকাঙ্ক্ষা কি কেবল ক্ষণস্থায়ী বিভ্রম, নাকি এক নতুন আদিম জাগরণের সূচনা?",
   "further_references": [
+    "research.md#বিষয়গত সূত্র.৩",
+    "research.md#বিষয়গত সূত্র.৫"
+  ],
+  "segments": [
     {
-      "no": "1",
-      "reference": "Geological endurance in ultra-old crustal structures",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "টেথিসের বুকে নতুন জোয়ার",
+      "segment_summary": "পাহাড়ের প্রাচীন শিলাস্তরের উপর সাগরিকার আগমন যেন টেথিস সাগরের মৃত বুকে এক নতুন, উষ্ণ জোয়ার এনে দেয়, যা তার আদিমতাকে জাগিয়ে তোলে।",
+      "further_references": []
     },
     {
-      "no": "2",
-      "reference": "Poetic use of solitary vigil and absence",
-      "weblink": ""
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "রক্তিম লিপস্টিকের তান্ত্রিক কালিম্পা",
+      "segment_summary": "তার ঠোঁটের গাঢ় রঙ যেন তক্ষশীলার কোনো গুপ্ত গুহায় হওয়া নরমেধ যজ্ঞের সদ্য ঝরে পড়া উষ্ণ রক্ত, যা প্রাচীন রহস্যময়তাকে আধুনিক কামনার রঙে রাঙিয়ে তোলে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "উত্তুঙ্গ বক্ষের তরঙ্গভঙ্গ",
+      "segment_summary": "সাগরিকার উন্নত বক্ষের তরঙ্গভঙ্গ আরাবল্লির খাড়া রূক্ষ চূড়াকেও লজ্জা দেয়, যেন প্রকৃতির কঠিনতম কাঠামোও এই জৈবিক প্রবাহের সামনে নতজানু হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "কোমরের গভীর খাজ ও মহাকাব্যের মানচিত্র",
+      "segment_summary": "তার কোমরের তীব্র গভীর খাজ এমন এক মায়াবী বাঁক ধারণ করে, যেখানে মহাভারতের সমস্ত প্রাগৈতিহাসিক রূপকথা ও ষোড়শ মহাজনপদের মানচিত্র যেন গোপনভাবে ভাঁজ করা থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "হাই হিলের পদাঘাত ও শিলালিপি ভাঙা",
+      "segment_summary": "তার হাই হিলের তীক্ষ্ণ পদাঘাত আধুনিক কংক্রিটের উপর আঘাত হানার সময়, প্রাচীন ভূত্বক ও সম্রাট অশোকের অনুশাসনের শিলালিপিগুলোকে যেন মুচড়ে গুঁড়ো করে দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অবাধ্য কেশরাশি ও গান্ধর্বের সুবাস",
+      "segment_summary": "তার উড়ে আসা অবাধ্য চুল যেন আলেকজান্ডারের ঘোড়ার খুরের ধুলো এবং গান্ধর্ব শিল্পের নিষিদ্ধ সুবাসে আষ্টেপৃষ্ঠে জড়িয়ে থাকে, যা অতীত ও বর্তমানের মিশ্রণ ঘটায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "গরম নিঃশ্বাসের দাবানল",
+      "segment_summary": "তার গরম নিঃশ্বাস যখন গ্রীবা ছুঁয়ে নামতে থাকে, তখন তা বিন্দুসারের রাজসভার সমস্ত শীতল প্রমাদ কক্ষকে মুহূর্তের মধ্যে এক তীব্র কামোদ্দীপক দাবানলে পরিণত করে দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "নাভিকূপের মৌন কুহক",
+      "segment_summary": "তার নাভিকূপের গভীরে লুকিয়ে থাকে সরস্বতী নদীর সেই আদিম উৎস, যেখানে শতাব্দীর পর শতাব্দী ধরে একা দাঁড়িয়ে থাকা এই পাথুরে পাহাড় আজও জলের নেশায় ডুব দিতে চায়।",
+      "further_references": []
     }
   ],
   "level": "chapter",
-  "state": "completed",
-  "segments": [
-    1
-  ],
-  "enrich": {
-    "active_filters": [
-      "research",
-      "correctness",
-      "theme",
-      "syntax",
-      "quality"
-    ],
-    "status": "enriched"
-  },
-  "stereotype": {
-    "signature": "jibanananda",
-    "style": "pijush"
-  },
-  "creative_enrichment": {
-    "poetic_parameters": {
-      "emotional_rawness": 5,
-      "grammatical_abstraction": 3,
-      "structural_rigidity": 5,
-      "rhythmic_urgency": 3,
-      "digital_simplicity": 5,
-      "movement": {
-        "name": "Stoicism",
-        "one_liner": "Logic, virtue, and mastering inner thoughts."
-      },
-      "writing_skills": [
-        "classical meter mastery",
-        "rhyme architecture",
-        "modern colloquial grounding"
-      ],
-      "image_seed": "a lone sentinel standing through its first unshared night",
-      "volta": "the vigil turning from endurance into a quiet refusal to be comforted",
-      "sonic_texture": "a hush, then a low unbroken drone of absence",
-      "line_gesture": "even, measured lines that do not rise, only persist",
-      "variety_note": "a twilight solitude against the flare of chapter 5."
-    },
-    "angles": [
-      "The mountain's defense mechanism against temporal erosion, treating each storm/era as a distinct form of deliberate spiritual or geological self-denial.",
-      "Shifting the focus from surviving *external* forces (wind, ice) to enduring an internal psychological silence—the crushing weight of infinite, unshared time.",
-      "Framing the mountain's vigil as a failed promise; it waits for something that scientifically or mythologically cannot return."
-    ],
-    "story_options": [
-      "setting: The highest, wind-scoured granite peak exposed to cyclonic winds, desire: To recall the momentary warmth of initial formation (Chapter 3/4), even as all evidence is worn away., obstacle: The relentless abrasion, which smooths detail until memory becomes pure sensation., turn: A single, impossibly small patch of resilient lichen briefly blooms and dies in defiance of the gale.",
-      "setting: A deep-seated structural fissure perpetually veiled by swirling mist, desire: To hear the echo of a foundational 'call' (from a previous epoch) that was never answered., obstacle: The oppressive density of time; echoes decay faster than they form in this geological space., turn: Sagarika tries to call out, not to the mountain, but to the ghost of her own youth standing within the mist.",
-      "setting: A plateau zone enduring a prolonged mega-drought, desire: For a single drop of water that would allow the rock's 'memory' to soften and bleed anew., obstacle: The sun’s relentless, dry insistence, which crystallizes moisture into inert salt deposits., turn: The mountain doesn't weep; instead, it undergoes a catastrophic internal pressure release, shaking off accumulated mineral dust like desiccated skin."
-    ],
-    "subject_rotations": [
-      "Treating the 'loneliness' not as absence of company, but as absolute informational saturation—having witnessed every possible state change.",
-      "Personifying endurance through hyper-specific bodily analogies: the mountain is a tired veteran whose muscle fibers are solidified rock strata.",
-      "A cyclical meditation where each phase (rain, drought, ice) returns with slightly different spectral colors, suggesting that recurrence itself changes the nature of the event."
-    ],
-    "sensory_details": [
-      "The metallic tang of super-cooled air interacting with freshly fractured feldspar.",
-      "The granular grit texture felt against a theoretical surface where millennia of airborne particulates have settled into an abrasive varnish.",
-      "An infrasonic drone perceptible deep in the bone, caused by tectonic stresses acting against atmospheric pressure changes."
-    ],
-    "research_questions": [
-      "What are the measurable effects of prolonged exposure to extreme cyclical freeze-thaw cycles on the mechanical integrity of Precambrian gneisses?",
-      "How do sound waves propagate and attenuate across vast, geologically complex massifs over eons?"
-    ],
-    "structural_variants": [
-      "The poem strictly adhering to an AABB or ABAB rhyme/rhythm scheme that is progressively broken by descriptions of extreme weathering.",
-      "A structure built around palindromic phrases concerning the mountain's state—'It endured / it stood / it returned'."
-    ],
-    "unused_angles": [
-      "The subtle role of ancient magnetic field reversals acting as external chronometers during periods of stasis.",
-      "An exploration of how erosion patterns themselves can be read as historical scripts, independent of human interference."
-    ],
-    "variety_note": "This chapter moves beyond the singular trauma (fold lines, impact) by focusing on persistent, monotonous resistance against overwhelming temporal entropy, introducing a sense of weary vigilance absent in earlier descriptions of violent birth."
-  },
-  "draft": {
-    "sha256": "a7bcbf84d87439b60cce2d0730a7cc4255b2935f4dc86474c464542679a91bad",
-    "written_at": "2026-10-11T13:21:28.756446+00:00",
-    "origin": "write"
-  },
-  "quality_review": {
-    "status": "passed",
-    "sha256": "ac73415a14d236c5754baefcfe3879e042d7e3a770e2bde69a50aa745203958f",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-10-21T18:22:42+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
-  }
+  "state": "scaffolded"
 }

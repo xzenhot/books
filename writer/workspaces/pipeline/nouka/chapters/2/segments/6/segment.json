@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "উজানের শহর",
+  "segment_summary": "কংক্রিটের শহর যখন উজানে গজিয়ে ওঠে, নদীর প্রাচীন প্রবাহ তখনো নিজের নিয়মে বয়ে চলে, মানুষের হিসাব উপেক্ষা করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The boat (nouka) acting as a temporary anchor point where human perception struggles to reconcile the river's organic chaos with mapping conventions.",
+    "story_option": "Observing a child in the village watching the boat pass and mimicking the pull of the oar, embodying an intuitive connection before formalized geography.",
+    "subject_rotation": "Contrasting the slow, sedimentation-driven time scale with the rushed, linear measurement implied by modern engineering.",
+    "sensory_detail": "The deep, resonant *thrum* of water displacement as Gopal moves through an eddy rather than just cutting it.",
+    "research_question": "What are the specific localized terms for different types of submerged sandbars or eddies within the Ganges tributaries that Gopal might know?",
+    "structural_variant": "Employing stanzas as shifting river cross-sections: top layer (surface action), middle layer (current dynamics), bottom layer (sediment/memory).",
+    "variety_note": "This poem drills down into the intrinsic nature of the river itself—its physical reality and its inherent contradictions—before touching upon human imposition (as in later chapters)."
+  }
+}

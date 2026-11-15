@@ -35,6 +35,7 @@ from pathlib import Path
 from quality import (register_draft, read_json, digest, read_chapter_model,
                      chapter_model_file, write_chapter_model, write_json)
 import notify
+from segment_target import SegmentTarget, chapter_numbers, group_by_chapter, parse_target_spec
 
 BASE_DIR = Path(__file__).resolve().parent
 # Repo root is one level above tools/
@@ -192,41 +193,31 @@ def reset_style_announcement() -> None:
     _STYLE_ANNOUNCED = False
 
 
-def parse_chapter_input(value: str, chapters_root: Path | None = None) -> list[int]:
-    """Parse numbers/ranges, or discover all numeric chapter folders in order."""
-    if value.strip().lower() == "continue":
+def parse_targets(value: str, chapters_root: Path | None = None) -> list[SegmentTarget]:
+    """Parse a chapter/segment target spec into an ordered ``SegmentTarget`` list.
+
+    Accepts chapter and float-segment forms (``3`` = chapter 3, ``3.2`` = chapter
+    3 segment 2), ranges (``3-5``, ``3.2-3.5``), lists (``3.2,4.1``), ``all`` and
+    ``*``, plus ``continue`` (first chapter that is not yet written — i.e. its
+    ``chapter.md`` is missing or its registered SHA-256 is stale).
+    """
+    text = (value or "").strip()
+    if text.lower() == "continue":
         if chapters_root is None:
-            raise ValueError("A chapters directory is required")
-        for number in parse_chapter_input("all", chapters_root):
+            raise ValueError("A chapters directory is required for 'continue'")
+        for number in chapter_numbers(parse_target_spec("all", chapters_root)):
             folder = chapters_root / str(number)
             draft = folder / "chapter.md"
             model = read_chapter_model(folder)
             if not draft.exists() or model.get("draft", {}).get("sha256") != digest(draft.read_bytes()):
-                return [number]
+                return [SegmentTarget(number)]
         return []
-    if value.strip().lower() in {"all", "*"}:
-        if chapters_root is None:
-            raise ValueError("A chapters directory is required for all or '*'")
-        numbers = sorted({
-            int(folder.name)
-            for folder in chapters_root.iterdir()
-            if folder.is_dir() and re.fullmatch(r"[0-9]+", folder.name)
-            and int(folder.name) > 0
-        })
-        if not numbers:
-            raise ValueError(f"No numbered chapters found in {chapters_root}")
-        return numbers
-    numbers = []
-    for token in value.split(","):
-        match = re.fullmatch(r"([0-9]+)(?:-([0-9]+))?", token.strip())
-        if match is None:
-            raise ValueError("Expected all, '*', or chapter numbers, e.g. 2, 2-5, or 2-5,8")
-        start = int(match.group(1))
-        end = int(match.group(2)) if match.group(2) else start
-        if start < 1 or end < start:
-            raise ValueError("Chapter numbers must be positive and ranges ascending")
-        numbers.extend(range(start, end + 1))
-    return list(dict.fromkeys(numbers))
+    return parse_target_spec(text, chapters_root)
+
+
+def parse_chapter_input(value: str, chapters_root: Path | None = None) -> list[int]:
+    """Backward-compatible chapter-only resolver (flattens segment targets)."""
+    return chapter_numbers(parse_targets(value, chapters_root))
 
 
 def resolve_chapters_root(bookname: str) -> Path:
@@ -516,10 +507,12 @@ def build_prompt(context: str, number: int, language: str = "bn",
 
 
 def segment_count_for(chapter_model: dict, form: str) -> int:
-    """How many continuous segments a chapter's target length implies.
+    """How many segments a chapter composes into.
 
-    Poetry always has a single segment per chapter (a small word target). A
-    novel chapter targets a large word count (often 4000+ words), which a single
+    Poetry's planned segments are authoritative — a poetry chapter is an
+    anthology of independent poems, so the inline ``segments[]`` plan's length
+    (defaulting to 1 for a legacy single-poem chapter) is the count. A novel
+    chapter targets a large word count (often 4000+ words), which a single
     generation cannot produce coherently; it is split into continuous segments
     so their summed word targets are almost equal to the chapter's `word_target`.
 
@@ -528,6 +521,9 @@ def segment_count_for(chapter_model: dict, form: str) -> int:
     used. Otherwise the count is derived from `word_target / WORDS_PER_SEGMENT`.
     """
     if form == "poetry":
+        segments = chapter_model.get("segments")
+        if isinstance(segments, list) and segments:
+            return len(segments)
         return 1
     segments = chapter_model.get("segments")
     if isinstance(segments, list) and len(segments) > 1:
@@ -807,7 +803,123 @@ def book_language(chapter_dir: Path) -> str:
     return "bn"
 
 
-def write_chapter(model_file: Path, segment: int | None = None, style: str | None = None) -> None:
+def _poetry_segment_records(chapter_dir: Path) -> list[dict]:
+    """Ordered poetry segment plan records from ``chapter.json`` → ``segments[]``."""
+    model = read_chapter_model(chapter_dir)
+    segments = model.get("segments")
+    if isinstance(segments, list):
+        return [s for s in segments if isinstance(s, dict)]
+    return []
+
+
+def _segment_json(chapter_dir: Path, index: int) -> dict:
+    """Read a segment's runtime ``segment.json`` (plan record + segment_enrichment)."""
+    path = chapter_dir / "segments" / str(index) / "segment.json"
+    if path.is_file():
+        return json.loads(path.read_text(encoding="utf-8-sig"))
+    return {}
+
+
+def _segment_guidance(record: dict, seg_json: dict) -> str:
+    """Compact per-segment creative guidance for the prompt."""
+    parts: list[str] = []
+    title = str(seg_json.get("segment_title") or record.get("segment_title") or "").strip()
+    summary = str(seg_json.get("segment_summary") or record.get("segment_summary") or "").strip()
+    if title:
+        parts.append(f"Poem title: {title}")
+    if summary:
+        parts.append(f"Poem subject: {summary}")
+    enrichment = seg_json.get("segment_enrichment")
+    if isinstance(enrichment, dict):
+        for key, label in (
+            ("angle", "creative angle"),
+            ("story_option", "story option"),
+            ("subject_rotation", "subject rotation"),
+            ("sensory_detail", "sensory detail"),
+            ("research_question", "research question"),
+            ("structural_variant", "structural variant"),
+            ("variety_note", "variety note"),
+        ):
+            value = enrichment.get(key)
+            if isinstance(value, str) and value.strip():
+                parts.append(f"{label}: {value}")
+    return "\n".join(parts)
+
+
+def _assemble_poetry_chapter(chapter_dir: Path, total: int, records: list[dict]) -> str:
+    """Rebuild ``chapter.md`` from every written segment poem, in order.
+
+    A partial-segment write must not drop the other segments' poems, so the
+    anthology is always reassembled from all ``segments/<m>/writer/segment.md``
+    files (newly written plus any existing ones), never from the just-written
+    subset alone.
+    """
+    headings: list[tuple[str, str]] = []
+    chapter_model = read_chapter_model(chapter_dir)
+    chapter_title = str(chapter_model.get("chapter_title") or "").strip()
+    for idx in range(1, total + 1):
+        record = records[idx - 1] if idx <= len(records) else {}
+        writer_file = chapter_dir / "segments" / str(idx) / "writer" / "segment.md"
+        if not writer_file.is_file():
+            continue
+        body = writer_file.read_text(encoding="utf-8-sig").strip()
+        if not body:
+            continue
+        seg_json = _segment_json(chapter_dir, idx)
+        title = str(
+            seg_json.get("segment_title") or record.get("segment_title") or ""
+        ).strip() or f"{chapter_title} — {idx}"
+        headings.append((title, body))
+    return "\n\n".join(f"# {h}\n\n{body}" for h, body in headings)
+
+
+def _poetry_total_target(chapter_dir: Path, total: int, records: list[dict],
+                         fallback: int) -> int:
+    """Sum every assembled segment's per-segment word target for the length check.
+
+    A partial (float-segment) write assembles only the segments that have a
+    ``writer/segment.md``; the length check must therefore sum only those
+    segments' targets, never the whole chapter's target.
+    """
+    total_target = 0
+    for idx in range(1, total + 1):
+        writer_file = chapter_dir / "segments" / str(idx) / "writer" / "segment.md"
+        if not writer_file.is_file():
+            continue
+        record = records[idx - 1] if idx <= len(records) else {}
+        seg_json = _segment_json(chapter_dir, idx)
+        target = seg_json.get("word_target") or record.get("word_target") or fallback
+        if not isinstance(target, (int, float)) or target <= 0:
+            target = fallback
+        total_target += int(target)
+    return total_target
+
+
+def _write_poetry_segment(chapter_dir: Path, index: int, text: str) -> Path:
+    """Write one poetry segment's poem to ``segments/<idx>/writer/segment.md``.
+
+    The writer stage is the raw draft and is **not** versioned — the write agent
+    simply (re)writes `writer/segment.md` in place. Versioning happens later,
+    when the review agent archives the existing **editor** stage into
+    ``segments/<idx>/version/`` before overwriting the editor copy.
+    """
+    writer_file = chapter_dir / "segments" / str(index) / "writer" / "segment.md"
+    writer_file.parent.mkdir(parents=True, exist_ok=True)
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=writer_file.parent, prefix=".poem-",
+                                         suffix=".tmp", delete=False) as stream:
+            temporary = Path(stream.name)
+            stream.write((text + "\n").encode("utf-8"))
+        os.replace(temporary, writer_file)
+    finally:
+        if temporary is not None and temporary.exists():
+            temporary.unlink()
+    return writer_file
+
+
+def write_chapter(model_file: Path, segment: int | None = None, style: str | None = None,
+                  segments: set[int] | None = None) -> None:
     number = int(model_file.parent.name)
     info(f"\n=== Chapter {number} ===")
     chapter_dir = model_file.parent
@@ -846,32 +958,71 @@ def write_chapter(model_file: Path, segment: int | None = None, style: str | Non
     vlog(f"[{number}] Title resolved: {title!r}")
     vlog(f"[{number}] Word target resolved: {word_target}")
 
-    # Poetry: a single segment per chapter — one generation, one draft.
+    # Poetry: the chapter is an anthology of independent poems — one complete,
+    # standalone poem per segment, authored deterministically from the segment's
+    # own plan record + segment_enrichment, written to
+    # segments/<m>/writer/segment.md, then assembled into chapter.md.
+    #
+    # ``segments`` is the optional per-segment selector from a float target such
+    # as ``3.2`` (chapter 3, segment 2). When given, only those segments are
+    # written and every other segment's existing poem is preserved.
     if form == "poetry":
-        prompt = build_prompt(
-            context, number, language,
-            title, word_target,
-        )
-        
-        # Strictly enforce the requested Bengali format
-        format_directive = (
-            f"\n\nOUTPUT FORMAT (Strictly follow this structure):\n"
-            f"## শিরোনামঃ \n{title}\n\n"
-            f"## কবিতাঃ\n[Write the poetry content here]\n\n"
-            f"## সারাংশঃ\n[Write the chapter summary here]"
-        )
-        prompt += format_directive
-
-        if SHOW_PROMPT:
-            _show_request(number, model, language, prompt, override=override,
-                          gist=gist, storyline=storyline, style=poetry)
-        info(f"[{number}] Generating chapter from complete model context ...")
+        records = _poetry_segment_records(chapter_dir)
+        total = len(records) if records else 1
+        selected = list(range(1, total + 1)) if segments is None \
+            else sorted(s for s in segments if 1 <= s <= total)
+        if not selected:
+            raise ValueError(f"No valid segments selected for chapter {number}")
+        partial = segments is not None
+        if partial:
+            info(f"[{number}] Poetry chapter → writing segment(s) {selected} of {total} "
+                 f"(preserving the rest)")
+        elif total > 1:
+            info(f"[{number}] Poetry chapter → {total} independent poems (one per segment)")
         t0 = time.time()
-        output = run_ollama(prompt, language, model, override, gist, storyline, poetry)
+        for idx in selected:
+            record = records[idx - 1] if idx <= len(records) else {}
+            seg_json = _segment_json(chapter_dir, idx)
+            seg_title = str(
+                seg_json.get("segment_title") or record.get("segment_title") or ""
+            ).strip() or f"{title} — {idx}"
+            seg_target = seg_json.get("word_target") or record.get("word_target") or word_target
+            if not isinstance(seg_target, (int, float)) or seg_target <= 0:
+                seg_target = word_target
+            guidance = _segment_guidance(record, seg_json)
+
+            prompt = build_prompt(
+                context, number, language,
+                seg_title, int(seg_target),
+            )
+            prompt += (
+                f"\n\nSEGMENT POEM {idx}/{total}: this is one complete, standalone "
+                f"poem (never a stanza, fragment, or continuation of another poem). "
+                f"Write only this poem.\n"
+            )
+            if guidance:
+                prompt += f"\nSEGMENT GUIDANCE:\n{guidance}\n"
+
+            if SHOW_PROMPT:
+                _show_request(number, model, language, prompt,
+                              label=f"poem {idx}/{total}", override=override,
+                              gist=gist, storyline=storyline, style=poetry)
+            info(f"[{number}] Generating poem {idx}/{total} ({seg_title}) ...")
+            seg_out = run_ollama(prompt, language, model, override, gist, storyline, poetry)
+            if not seg_out.strip():
+                raise ValueError(f"Poem {idx}/{total} returned empty output")
+            # Grow the poem to its own target when it comes back short.
+            seg_out = _ensure_length(number, seg_out, int(seg_target), language, model, override)
+            _write_poetry_segment(chapter_dir, idx, seg_out.strip())
+            vlog(f"[{number}] poem {idx}/{total}: {len(seg_out)} chars")
+        # Assemble chapter.md from all written segment poems (new + preserved).
+        assembled = _assemble_poetry_chapter(chapter_dir, total, records)
         elapsed = time.time() - t0
-        # If the body came out short of the target, extend it until it is close.
-        output = _ensure_length(number, output, word_target, language, model, override)
-        _finish_chapter(chapter_dir, out_file, output, previous, version_dir, number, elapsed)
+        # The chapter is a collection of poems; validate against the summed
+        # per-poem targets, not the single chapter target.
+        total_target = _poetry_total_target(chapter_dir, total, records, word_target)
+        _finish_chapter(chapter_dir, out_file, assembled, previous, version_dir,
+                        number, elapsed, word_target=total_target)
         return
 
     # Novel: the chapter targets a large word count and is split into
@@ -1103,16 +1254,22 @@ def _ensure_length(number: int, output: str, word_target: int, language: str,
 
 
 def _finish_chapter(chapter_dir: Path, out_file: Path, output: str, previous: bytes | None,
-                    version_dir: Path, number: int, elapsed: float) -> None:
-    """Archive the prior draft, install the new one, and register it for quality."""
+                    version_dir: Path, number: int, elapsed: float,
+                    word_target: int | None = None) -> None:
+    """Archive the prior draft, install the new one, and register it for quality.
+
+    ``word_target`` overrides the chapter model's value for the length check; a
+    multi-segment poetry anthology passes the summed per-poem target so the check
+    is not triggered by the assembled collection's size.
+    """
     backup = save_chapter(out_file, output, previous, version_dir)
     register_draft(chapter_dir)
     if backup is not None:
         info(f"[{number}] Previous version -> {backup}")
-    
+
     # Word count validation: ensure output is within 75% - 125% of word_target.
     chapter_model = read_chapter_model(chapter_dir)
-    target = chapter_model.get("word_target", 0)
+    target = word_target if word_target is not None else chapter_model.get("word_target", 0)
     actual = _count_body_words(output)
     vlog(f"[{number}] Output: {len(output)} chars, ~{actual} body words (Target: {target})")
     
@@ -1144,8 +1301,11 @@ def main() -> int:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""Examples:
   python tools/write.py behula 2          Single chapter
-  python tools/write.py behula 2-5        Inclusive range
+  python tools/write.py behula 2.3        Chapter 2, segment 3 only (float-segment)
+  python tools/write.py behula 2.3-2.5    Chapter 2, segments 3 through 5
+  python tools/write.py behula 2-5        Inclusive chapter range
   python tools/write.py behula 2,5,8      Chapter list
+  python tools/write.py behula 2.1,4.2    Mixed float-segment list
   python tools/write.py behula 2-5,8      Range and list combined
   python tools/write.py behula all        All numbered chapters, in order
   python tools/write.py behula "*"        All chapters (quote the wildcard)
@@ -1158,14 +1318,15 @@ Input:  workspaces/pipeline/<bookname>/chapters/<n>/model.json
 Context: workspaces/pipeline/<bookname>/chapters/<n>/context.md (regenerated from full JSON)
 Output: workspaces/pipeline/<bookname>/chapters/<n>/chapter.md
 Previous drafts: chapters/<n>/segments/<x>/version/chapter_v<k>.md
-Poetry: x=1. Novels: --segment selects an existing segment (1, 2, ...).
+Poetry: each segment is its own poem; a float target (2.3) writes only segment 3.
+Novels: --segment selects an existing segment (1, 2, ...).
 Paths are resolved relative to the repository, regardless of your current directory.
 """,
     )
     parser.add_argument("bookname", help="Book folder under workspaces/pipeline/.")
     parser.add_argument(
         "chapters",
-        help="Chapter number, range, list (2, 2-5, 2-5,8), all, or '*'.",
+        help="Chapter/segment selector: <n>, <n.m>, <n.m>-<n.k>, <n>-<k>, list, all, '*', or continue.",
     )
     parser.add_argument(
         "-v", "--verbose",
@@ -1207,12 +1368,19 @@ Paths are resolved relative to the repository, regardless of your current direct
         if args.style:
             resolve_preset(args.style)
         chapters_root = resolve_chapters_root(args.bookname)
-        numbers = parse_chapter_input(args.chapters, chapters_root)
+        specs = parse_targets(args.chapters, chapters_root)
+        numbers = chapter_numbers(specs)
+        segment_map = group_by_chapter(specs)
     except ValueError as e:
         print(f"Error: {e}", file=sys.stderr)
         return 1
 
-    info(f"Processing {args.bookname}: {len(numbers)} chapter(s): {numbers}")
+    # A concrete per-segment selection only applies to poetry; a whole-chapter
+    # target (segment_map value None) means "write every segment".
+    describe = []
+    for spec in specs:
+        describe.append(str(spec))
+    info(f"Processing {args.bookname}: {len(specs)} target(s): {', '.join(describe)}")
 
     # Style is announced once for the whole run, not once per chapter.
     reset_style_announcement()
@@ -1221,6 +1389,7 @@ Paths are resolved relative to the repository, regardless of your current direct
     # exists in write.py, so the planner resolves it from the book plan itself.
     from workplan import print_plan
     notes = [f"segments: {args.segment}"] if args.segment else []
+    notes += [f"targets: {', '.join(str(s) for s in specs)}"]
     print_plan(
         "write",
         args.bookname,
@@ -1232,15 +1401,18 @@ Paths are resolved relative to the repository, regardless of your current direct
     failures = 0
     for number in numbers:
         model_file = chapter_model_file(chapters_root / str(number))
+        segments = segment_map.get(number)
         try:
-            write_chapter(model_file, args.segment, args.style)
+            write_chapter(model_file, args.segment, args.style, segments=segments)
         except Exception as e:
             print(f"[{number}] FAILED: {e}", file=sys.stderr)
             failures += 1
-    # Always reconcile progress.json from book.json after the run.
-    from workplan import sync_progress
-    changed = sync_progress(args.bookname)
-    info(f"progress.json {'updated' if changed else 'already current'}")
+    # Always reconcile progress.json and regenerate config.json from book.json
+    # after the run.
+    from workplan import sync_outputs
+    progress_changed, config_changed = sync_outputs(args.bookname, updated_by="write")
+    info(f"progress.json {'updated' if progress_changed else 'already current'}")
+    info(f"config.json {'updated' if config_changed else 'already current'}")
     info(f"Done. {len(numbers) - failures} succeeded, {failures} failed.")
     return 1 if failures else 0
 

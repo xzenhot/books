@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "জীবন্ত মানচিত্র",
+  "segment_summary": "গোপালের কাছে নদীপথ এক জীবন্ত মানচিত্র, যেখানে প্রতিটি বাঁকের একটি নাম, একটি গল্প আছে; কবিতা এই মানচিত্রের মূল্য আঁকে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the micro-geography: detailing one small patch of mud or sand that is systematically flattened by dredging and what 'name' it loses in that flattening process.",
+    "story_option": "Setting: Near an abandoned, forgotten sandbar—a place known by generations but now submerged or flattened; Desire: To ritually mourn the specific memory attached to that spot through song; Obstacle: No one remembers the exact name of the bar anymore.",
+    "subject_rotation": "Shifting focus entirely to the *act* of naming: how names confer existence, and what happens when bureaucratic efficiency strips language bare.",
+    "sensory_detail": "The slick, unnatural smoothness of polished stone used for modern pier abutments contrasted against the porous grain of weathered wooden pilings.",
+    "research_question": "What specific Bengali colloquialisms describe subtle variations in water current or bank erosion that an engineer would dismiss as 'normal fluctuation'?",
+    "structural_variant": "A fragmented structure where each segment begins with a different geographical term (e.g., 'চর', 'বাঁক', 'ঘাট') before moving into the philosophical digression.",
+    "variety_note": "This chapter contrasts sharply with the 'Diesel Sound' (Ch. 7) by focusing inward on memory and language rather than outward on noise pollution; it explores cultural entropy through geography instead of sonic invasion."
+  }
+}

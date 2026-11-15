@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ড্রেজিং প্রকল্প",
+  "segment_summary": "রাষ্ট্রের পৃষ্ঠপোষকতায় বিশাল ড্রেজিং প্রকল্প শুরু হয়; কবিতা সেই যন্ত্রের আগমনকে নদীর উপর এক আধিপত্যের চিহ্ন হিসেবে দেখে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Examining the idea of 'measured life': how Chatterjee quantifies time and distance (efficiency) while Gopal measures existence by tidal shifts and seasonal memory.",
+    "story_option": "Setting: A moment during low tide when the dredged area reveals unusual patterns in the silt layers—patterns that suggest old, forgotten paths; Desire: To argue with Chatterjee about the historical navigation routes hidden beneath the new channel design; Obstacle: Chatterjee responds only with flow charts and cost-benefit analyses.",
+    "subject_rotation": "Centering on the language of planning documents (flow rate, optimal capacity) and deliberately contrasting it with the non-quantifiable vocabulary of tradition (sigh, kinship, memory).",
+    "sensory_detail": "The feeling of a perfectly calibrated, sterile metallic sheen on Chatterjee's clothing contrasting with Gopal's sun-cracked skin.",
+    "research_question": "What is the local Bengali descriptor for an area that has been irreversibly altered by infrastructural development?",
+    "structural_variant": "A sectional structure: dedicating one segment entirely to the language/jargon of engineering versus another entirely to the oral traditions used by boatmen.",
+    "variety_note": "This chapter is distinct from earlier pieces by externalizing the conflict; rather than focusing on internal tradition (song/generosity), it targets the imposition of an alien, quantifiable structure onto the natural flow of life."
+  }
+}

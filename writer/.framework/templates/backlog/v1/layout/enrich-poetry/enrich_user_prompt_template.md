@@ -19,6 +19,12 @@
 === THIS CHAPTER (complete model; enrich it) ===
 {chapter}
 
+For poetry, split THIS CHAPTER into exactly its declared `segment_count` segments.
+Return the ordered `segments` array required by the system contract. Each
+segment receives this chapter's `word_target`; derive distinct segment titles
+and summaries only from this chapter's title and summary. If a populated
+`segments` array already exists, preserve it and do not return a replacement.
+
 === VARIATION BRIEF ===
 seed: {seed}
 primary lens ({lens_name}): {lens_guidance}

@@ -15,6 +15,7 @@ import os as _os, sys as _sys
 _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 from env import bootstrap as _env_bootstrap  # noqa: E402
 _env_bootstrap()
+from quality import audit_timestamp, stamp_json
 import json
 import os
 import sys
@@ -66,6 +67,30 @@ NEW_CHAPTERS = [
 ]
 
 
+def _segment_plan(chapter_title: str, chapter_summary: str,
+                  segment_count: int, word_target: int) -> list[dict]:
+    """Derive an ordered inline segment plan for a new poetry chapter.
+
+    The add path does not call the layout model, so it derives a deterministic
+    plan (one record per segment) from the chapter's title and summary, matching
+    the layout-owned ``segments[]`` shape scaffold clones into ``chapter.json``
+    and seeds into each ``segment.json``.
+    """
+    title = (chapter_title or "").strip() or "Chapter"
+    summary = (chapter_summary or "").strip()
+    segments = []
+    for index in range(1, segment_count + 1):
+        segments.append({
+            "segment_index": index,
+            "name": str(index),
+            "word_target": word_target,
+            "segment_title": f"{title} — অংশ {index}",
+            "segment_summary": summary or f"{title} এর {index} নম্বর অংশ।",
+            "further_references": [],
+        })
+    return segments
+
+
 def add_chapters(bookname: str) -> None:
     BOOK = bookname
     BACKLOG = os.path.join(ROOT, "workspaces", "backlog", BOOK)
@@ -77,21 +102,27 @@ def add_chapters(bookname: str) -> None:
 
     existing = plan["chapters"]
     start = max(c["chapter_index"] for c in existing) + 1
+    stamp = audit_timestamp()
 
     new_entries = []
     for i, (title, summary) in enumerate(NEW_CHAPTERS):
         idx = start + i
+        segment_count = 8
+        word_target = 500
         new_entries.append({
             "chapter_index": idx,
             "name": str(idx),
-            "word_target": 500,
+            "word_target": word_target,
+            "segment_count": segment_count,
             "chapter_title": title,
             "chapter_summary": summary,
             "further_references": [],
+            "segments": _segment_plan(title, summary, segment_count, word_target),
         })
 
     plan["chapters"].extend(new_entries)
     plan["chapter_count"] = len(plan["chapters"])
+    stamp_json(plan, "add", stamp)
 
     with open(backlog_path, "w", encoding="utf-8") as f:
         json.dump(plan, f, indent=2, ensure_ascii=False)
@@ -112,7 +143,7 @@ def add_chapters(bookname: str) -> None:
         model["chapter_count"] = len(plan["chapters"])
         model["source_terms"] = [c["chapter_title"] for c in plan["chapters"]]
         with open(model_path, "w", encoding="utf-8") as f:
-            json.dump(model, f, indent=2, ensure_ascii=False)
+            json.dump(stamp_json(model, "add", stamp), f, indent=2, ensure_ascii=False)
 
     # progress.json
     prog_path = os.path.join(PIPE, "progress.json")
@@ -132,6 +163,7 @@ def add_chapters(bookname: str) -> None:
                     "file_path": f"chapters\\{e['chapter_index']}\\chapter.md",
                     "completed_date": None,
                 })
+        stamp_json(prog, "add", stamp)
         with open(prog_path, "w", encoding="utf-8") as f:
             json.dump(prog, f, indent=2, ensure_ascii=False)
 
@@ -141,31 +173,39 @@ def add_chapters(bookname: str) -> None:
         n = e["chapter_index"]
         cd = os.path.join(chapters_dir, str(n))
         os.makedirs(os.path.join(cd, "history"), exist_ok=True)
-        seg = os.path.join(cd, "segments", "1")
-        os.makedirs(os.path.join(seg, "writer"), exist_ok=True)
-        os.makedirs(os.path.join(seg, "editor"), exist_ok=True)
-        os.makedirs(os.path.join(seg, "translator"), exist_ok=True)
+        segment_count = e["segment_count"]
+        segments = []
+        for segment_index in range(1, segment_count + 1):
+            seg = os.path.join(cd, "segments", str(segment_index))
+            for subfolder in ("writer", "editor", "translator", "latest", "version"):
+                os.makedirs(os.path.join(seg, subfolder), exist_ok=True)
+            segments.append(seg)
 
         cm = {
+            **e,
             "level": "chapter",
             "state": "scaffolded",
-            "chapter_index": n,
-            "chapter_name": str(n),
-            "topic": e["chapter_title"],
-            "chapter_title": e["chapter_title"],
-            "chapter_summary": e["chapter_summary"],
-            "word_target": 500,
-            "segments": [1],
+            "segments": e.get("segments", []),
         }
         with open(os.path.join(cd, "chapter.json"), "w", encoding="utf-8") as f:
             json.dump(cm, f, indent=2, ensure_ascii=False)
 
-        sm = {"level": "segment", "state": "returning", "chapter_index": n, "segment_index": 1}
-        with open(os.path.join(seg, "segment.json"), "w", encoding="utf-8") as f:
-            json.dump(sm, f, indent=2, ensure_ascii=False)
-
-        with open(os.path.join(cd, "chapter.md"), "w", encoding="utf-8") as f:
-            f.write(f"# {e['chapter_title']}\n\n{e['chapter_summary']}\n")
+        plan_segments = e.get("segments", [])
+        for segment_index, seg in enumerate(segments, 1):
+            sm = {
+                "level": "segment",
+                "state": "pending",
+                "chapter_index": n,
+                "segment_index": segment_index,
+                "total_segments": segment_count,
+            }
+            if segment_index <= len(plan_segments):
+                plan = plan_segments[segment_index - 1]
+                for key in ("segment_title", "segment_summary", "name", "word_target"):
+                    if key in plan:
+                        sm[key] = plan[key]
+            with open(os.path.join(seg, "segment.json"), "w", encoding="utf-8") as f:
+                json.dump(sm, f, indent=2, ensure_ascii=False)
 
     print(f"Added {len(new_entries)} chapters ({start}-{start + len(new_entries) - 1}) to {BOOK}. Total now {len(plan['chapters'])}.")
 

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নদীর নিজস্ব নিয়ম",
+  "segment_summary": "নদী তার নিজের ছন্দে চলে, কোনো পরিকল্পনা মানে না; কবিতা নদীর স্বাধীনতাকে মানুষের উচ্চাকাঙ্ক্ষার বিপরীতে দাঁড় করায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing Gopal’s knowledge as a submerged language—the river's geography spoken only through the rhythm of his oars hitting the water.",
+    "story_option": "A fleeting vision of Gopal recognizing an ancestral pattern in a particularly vicious whirlpool—a knot from a forgotten fishing trip.",
+    "subject_rotation": "Treating the 'body' of the river less as a physical entity and more as a psychic landscape reflecting human endurance.",
+    "sensory_detail": "The slick, dark coolness of mud clinging to the lower hull after a night of stagnant flow.",
+    "research_question": "How does the local Bengali vocabulary describe the difference between 'flow' (movement) and 'body' (structure/being) in relation to a large river?",
+    "structural_variant": "A cyclical structure mirroring the flow—where each segment begins with an image drawn from the end of the previous one, forming a continuous eddy.",
+    "variety_note": "This poem drills down into the intrinsic nature of the river itself—its physical reality and its inherent contradictions—before touching upon human imposition (as in later chapters)."
+  }
+}

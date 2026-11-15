@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সুন্দর ও শক্তিমান",
+  "segment_summary": "নদী সুন্দর, শক্তিমান — যে একই হাতে পুষ্ট করে, সেই হাতেই গিলে নেয়; কবিতা নদীর দ্বৈত প্রকৃতিকে দেখে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the residue of destruction: The poem begins after a major flood surge has passed, focusing only on the unnerving quiet and the strange clarity of the water left behind.",
+    "story_option": "Setting: A specific, recently flooded small fishing cove; Desire: Gopal attempts to salvage something utterly insignificant—a single worn piece of netting—to affirm life's persistence despite the water’s malice; Obstacle: The water itself refuses to let him recover it, flowing around his reach.",
+    "subject_rotation": "Shifting emphasis from 'anger' to 'indifference': Presenting the river not as vengeful, but perfectly neutral, which is arguably a more terrifying judgment.",
+    "sensory_detail": "The taste of mineral tang mixed with stagnant river salt left on Gopal's lower lip after a sudden deluge.",
+    "research_question": "What is the precise local vocabulary for 'unpredictable current' in a heavily modified river system?",
+    "structural_variant": "Employing abrupt shifts: A segment dedicated entirely to the detailed mechanics of water erosion, jarringly contrasted with a purely internal monologue on acceptance.",
+    "variety_note": "This chapter deliberately moves beyond description of conflict (as seen in previous chapters) to focus on the *consequences* and the existential quietude following a moment of overwhelming natural force, making it more reflective than combative."
+  }
+}

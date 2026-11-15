@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ওয়ারের ছন্দ",
+  "segment_summary": "গোপালের ওয়ার যে নীরব, ছন্দময় শব্দ তোলে, তার বিপরীতে ইঞ্জিনের গর্জন থামে না, গানও গায় না; কবিতা দুই ছন্দের বিরোধ দেখে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The shift in Gopal's internal rhythm: how his own breath and heartbeat synchronize with the mechanical pulse before it overrides him.",
+    "story_option": "Setting: A specific moment when the engine sputters or coughs, mimicking a failing human breath; Desire: Gopal perceives this momentary lapse not as mechanical failure, but as a fragile, accidental echo of human struggle; Obstacle: The immediate resumption of overwhelming power.",
+    "subject_rotation": "Contrast between the 'efficient travel time' offered by diesel versus the *experience* of duration inherent in rowing.",
+    "sensory_detail": "The visual shimmer on the disturbed water surface caused by high-speed propeller wash, momentarily scattering light.",
+    "research_question": "What is the relationship between sound pollution and perceived spiritual quality in Bengali river culture?",
+    "structural_variant": "A strict alternation: one stanza devoted entirely to 'Water/Song' imagery, immediately followed by a stanza dedicated entirely to 'Engine/Metal' imagery.",
+    "variety_note": "While previous chapters dealt with environmental/cultural friction through geography (Concrete Floodwalls, Muddy Banks), this chapter isolates the conflict entirely within the sonic spectrum—a confrontation of pure sound versus rhythm."
+  }
+}

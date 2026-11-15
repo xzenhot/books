@@ -20,6 +20,7 @@ This module prints only. It never writes a file and never calls Ollama.
 from __future__ import annotations
 
 import json
+import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Iterable, Optional, Sequence
@@ -47,8 +48,6 @@ def sync_progress(bookname: str) -> bool:
     the model all come from the plan. This wrapper keeps the two tools identical
     and never invents state. Returns True when the file was rewritten.
     """
-    import sys
-
     tools_dir = str(Path(__file__).resolve().parent)
     if tools_dir not in sys.path:
         sys.path.insert(0, tools_dir)
@@ -61,6 +60,24 @@ def sync_progress(bookname: str) -> bool:
     _sync(pipeline)
     after = read_json(progress_path) if progress_path.exists() else {}
     return before != after
+
+
+def sync_outputs(bookname: str, updated_by: str) -> tuple[bool, bool]:
+    """Reconcile every generated pipeline report after an enrich/write run.
+
+    Runs ``progress.json`` first (it is the state the other reports read), then
+    regenerates ``config.json`` from that reconciled state. Returns
+    ``(progress_changed, config_changed)``.
+    """
+    progress_changed = sync_progress(bookname)
+    tools_dir = str(Path(__file__).resolve().parent)
+    if tools_dir not in sys.path:
+        sys.path.insert(0, tools_dir)
+
+    from config_report import sync_config
+
+    config_changed = sync_config(bookname, updated_by=updated_by)
+    return progress_changed, config_changed
 
 
 def _read_json(path: Path) -> dict:

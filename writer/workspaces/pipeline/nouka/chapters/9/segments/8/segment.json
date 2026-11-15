@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "শেষ প্রশ্ন",
+  "segment_summary": "মুছে যাওয়া ভূগোলের দুঃখ থেকে একটি প্রশ্ন থেকে যায় — নাম আর ভাষা হারালে জায়গার প্রাণ থাকে কি না; কবিতা এই সংশয়ে থামে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the micro-geography: detailing one small patch of mud or sand that is systematically flattened by dredging and what 'name' it loses in that flattening process.",
+    "story_option": "Setting: Near an abandoned, forgotten sandbar—a place known by generations but now submerged or flattened; Desire: To ritually mourn the specific memory attached to that spot through song; Obstacle: No one remembers the exact name of the bar anymore.",
+    "subject_rotation": "Shifting focus entirely to the *act* of naming: how names confer existence, and what happens when bureaucratic efficiency strips language bare.",
+    "sensory_detail": "The faint, mineral tang of disturbed silt mixed with a sharp, inorganic scent rising from diesel-fed construction runoff at dawn.",
+    "research_question": "How do the local dialects differ when referring to a bend—is there a word for a gentle curve versus a sharp, perilous one?",
+    "structural_variant": "A call-and-response pattern: Gopal naming/describing a place, followed by a short stanza detailing the bureaucratic substitute for that name.",
+    "variety_note": "This chapter contrasts sharply with the 'Diesel Sound' (Ch. 7) by focusing inward on memory and language rather than outward on noise pollution; it explores cultural entropy through geography instead of sonic invasion."
+  }
+}

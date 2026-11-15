@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অসম্পদে মাপা রূপান্তর",
+  "segment_summary": "গোপালের রূপান্তর ধনসম্পদে মাপা হবে না, মাপা হবে সেই অখণ্ড সুরে যা শিল্পায়নের গর্জনের বিরুদ্ধে টিকে থাকে; কবিতা এই মাপকে আঁকে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the continuation of the song through the fog/mist—the inability to perceive its physical location makes it immune to dredging or diesel noise.",
+    "story_option": "Setting: A deep bend where the modernized channel meets an old, overgrown tributary mouth; Desire: He chooses a final note not to sing for passengers, but as an offering *to* the silt and memory of the forgotten geography; Obstacle: The dissonant whine of a nearby distant engine is perceived as part of his own sustained harmony.",
+    "subject_rotation": "Emphasizing the ontological status of sound: Is the song an action, or is it a permanent change in the river’s state?",
+    "sensory_detail": "The specific smell of river mist carrying trace minerals and dissolved peat after a period of mechanical silence.",
+    "research_question": "What specific tactile sensation corresponds to holding a rhythmic pattern that defies structural linearity?",
+    "structural_variant": "An anti-climax structure: building immense sonic tension only for the final notes to dissolve into absolute sensory flatness (silence/mist).",
+    "variety_note": "This chapter must function as a thematic closure rather than an argumentative one; it is defined by what remains intangible after all visible conflict—a shift from the clash of materials (wood vs. steel) to the persistence of vibration."
+  }
+}

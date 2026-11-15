@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "পবিত্র চুক্তি",
+  "segment_summary": "সৌহার্দ্যপূর্ণ উদারতা তার সম্প্রদায়ের শিরায় গাঁথা এক প্রায় পবিত্র চুক্তি; কবিতা দানকে নদীরই উত্তরাধিকার হিসেবে পড়ে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Using the contrast between the 'coin' (tangible metal) and 'need' (intangible hunger/desperation) as a material metaphor within Gopal’s hand gestures.",
+    "story_option": "Setting: A temporary landing spot where the path meets encroaching concrete edge; Desire: To move beyond the river system entirely into the city orbit, still needing one last passage on Gopal’s boat; Obstacle: The finality of leaving the informal economy behind.",
+    "subject_rotation": "Shifting focus entirely onto the boat's timbers absorbing these uncounted human burdens: the wood as a passive ledger of unspoken covenants.",
+    "sensory_detail": "The muted texture of roughspun cloth scraped against the boat's wooden side during a gentle docking maneuver.",
+    "research_question": "What is the local Bengali concept describing debt that cannot be repaid through currency?",
+    "structural_variant": "A cyclical structure mirroring the flow—where each segment begins with an image drawn from the end of the previous one, forming a continuous eddy.",
+    "variety_note": "This chapter deliberately shifts focus away from conflict (dredging/diesel) and toward ethical action, using the rhythm of unpaid passage as a meditative counterpoint to later chapters' sonic battles."
+  }
+}
