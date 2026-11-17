@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অবিচলতার পথ",
+  "segment_summary": "প্রতিটি বাধা অতিক্রম করার মাধ্যমে তার মনোবল আরও জোরালো হয়, যা তার যাত্রাকে এক অপ্রতিরোধ্য পথে চালিত করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem is framed entirely as a dialogue where Bekhula silently addresses Lokhindor/husband, describing the hardship *as* if he were present to witness it.",
+    "story_option": "Setting: Beside the dim hearthstone (প্রদীপ); Desire: To recapture the scent of his presence, though it is long gone; Obstacle: The metallic tang of exhaustion replacing all known aromas; Turn: This realization forces her belief inward rather than outward.",
+    "subject_rotation": "Examining the societal critique not just through 'scorn,' but through enforced silence and mandated invisibility.",
+    "sensory_detail": "A brittle, thin sound—like dried foliage snapping underfoot in an otherwise silent domestic setting (auditory).",
+    "research_question": "Are there specific classical descriptions of familial suspicion in elite domestic settings worth exploring metaphorically for tone?",
+    "structural_variant": "Structuring segments as a series of relentless rhetorical questions directed at the absent beloved.",
+    "variety_note": "This chapter diverges from later, more triumphant segments by dwelling exclusively in the grinding exhaustion of the middle phase—the protracted war of attrition rather than the initial shock or final victory."
+  }
+}

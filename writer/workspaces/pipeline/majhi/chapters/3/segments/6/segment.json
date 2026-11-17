@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "শ্রোতার নীরবতা",
+  "segment_summary": "নদীর তীরে দাঁড়িয়ে থাকা শ্রোতারা এই গানকে কেবল শোনাতে পারে না, তারা এর গভীর দর্শন অনুভব করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from the song's message to the physical exhaustion of singing—the way the rhythm strains the body yet sustains the spirit.",
+    "story_option": "The intensity of the singing causes a physical reaction in the boat—the wood groans and settles into a new harmonic pitch dictated by the rhythm.",
+    "subject_rotation": "Focusing entirely on the interaction between sound and water; how the melodic lines appear visually in the ripples created by the boat.",
+    "sensory_detail": "The tactile sensation of salt spray (even faint industrial runoff) interacting with the rough, porous texture of his shirt as he strains to project the notes.",
+    "research_question": "How does the traditional structure of Bhatiyali music accommodate moments of high lamentation versus quiet, sustained reflection?",
+    "structural_variant": "Interweaving short poetic bursts of narration from the perspective of the river itself—a vast consciousness perceiving the temporary sounds.",
+    "variety_note": "Unlike the stark economic confrontations in previous chapters, this chapter immerses entirely in sonic territory; the focus shifts from external pressure to internal resonance through music."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 59,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "মাটির গন্ধের অনুপস্থিতি",
+  "segment_summary": "সরিষার তেলের সঙ্গে জড়িয়ে থাকা মাটির গন্ধের অনুপস্থিতি প্রবাসীর জীবনে এক গভীর, নীরব অভাববোধ সৃষ্টি করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A micro-narrative focusing on the texture difference in the fried dough itself—the 'song' versus the 'hush' imparted by different fats.",
+    "story_option": "Setting: Standing over a cooling *tawa* after an unsuccessful attempt to replicate the heat; Desire: To map the precise contour of one's own palm onto the cool metal as if seeking ancestral guidance; Obstacle: A faint, lingering scent from the neighboring flat that masks any personal aroma.",
+    "subject_rotation": "Focusing only on the color/visual aspect of the oil transformation—from deep gold to pale, washed-out shimmer.",
+    "sensory_detail": "Sound: The low, sighing hiss of neutral fat soaking up air versus the sharp, assertive crackle of mustard seeds hitting hot iron.",
+    "research_question": "How is the cadence/rhythm of a highly technical description (like cooking oil chemistry) contrasted with the intended lyrical flow of this piece?",
+    "structural_variant": "A segment structure driven entirely by temperature shifts: starting at ambient room temp $\\to$ reaching frying temp $\\to$ cooling down to memory state.",
+    "variety_note": "While neighbours explored the oil via grander metaphors or tactile memory, this section drills down specifically on the sensory *signature*—the initial sharp sound and lingering mouthfeel that defines the divergence."
+  }
+}

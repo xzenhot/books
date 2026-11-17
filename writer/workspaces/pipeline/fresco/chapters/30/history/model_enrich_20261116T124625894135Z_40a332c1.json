@@ -1,0 +1,79 @@
+{
+  "chapter_index": 30,
+  "name": "30",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scar of Creation",
+  "chapter_summary": "This chapter delves into the core philosophy of the artist's sacrifice, contrasting the polished final product with the unseen, arduous labor beneath. It explores how Debolina Rai internalizes the decay of the ancient frescoes, viewing them as a mirror to her own suppressed existence and the societal pressures she resists. The central conflict is the tension between the desire for societal acceptance and the fierce, necessary act of self-exposure through art. The chapter ultimately questions whether the truth of creation resides in its visible form or in the silent, sacrificial process that birthed it.",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Scaffold's Burden",
+      "segment_summary": "The scaffolding itself becomes a metaphor for the invisible weight of societal expectations that Debolina must bear while striving for artistic freedom.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Lapis and the Night's Alchemy",
+      "segment_summary": "The grinding of lapis lazuli under the weak lamplight symbolizes the intense, almost alchemical transformation occurring in the solitude of the night.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "Musk in the Lime Dust",
+      "segment_summary": "The scent of passing strangers, mingled with the wet lime, represents the fleeting intrusion of the external world into her intensely private creative space.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "Mirror of the Cracks",
+      "segment_summary": "The fissures and fading colors of the ancient frescoes reflect the internal fractures and resilience within Debolina's own spirit.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "The Unframed Heartbeat",
+      "segment_summary": "Her refusal to be neatly framed by domestic expectation is portrayed as a fierce, untamed rhythm beating against the silence of the haveli.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "Sacrifice Made Visible",
+      "segment_summary": "The act of painting becomes a deliberate choice to externalize her hidden struggles, transforming private pain into public, albeit fragile, expression.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Cost of Being Seen",
+      "segment_summary": "The chapter examines the inherent danger in exposing one's raw, unpolished self to the judgment of the outside world.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Immortal Scar",
+      "segment_summary": "The final realization is that the true permanence of art lies not in its pristine state, but in the indelible marks—the scars—left by its difficult making.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

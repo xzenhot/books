@@ -1,53 +1,118 @@
 {
   "chapter_index": 57,
   "name": "57",
-  "word_target": 250,
-  "chapter_title": "আধখোলা খোলস",
-  "chapter_summary": "আধখোলা খোলস খোলা থাকে, ভিতরের পুর ঠান্ডা। অসমাপ্ততার এই ছোট দৃশ্যই সবচেয়ে বেশি কথা বলে।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "তেলের স্মৃতি",
+  "chapter_summary": "এই অধ্যায়টি সরিষার তেলের ঝাঁঝালো, মাটির গন্ধযুক্ত সুবাস এবং প্রবাসের অচেনা, নিরপেক্ষ তেলের মধ্যেকার গভীর বৈসাদৃশ্যকে কেন্দ্র করে আবর্তিত। এটি কেবল একটি রাসায়নিক প্রতিস্থাপন নয়, বরং এটি আবেগের একটি গভীর বিভাজনকে প্রতীকায়িত করে, যেখানে আদি স্বাদের উষ্ণতা নতুন মাটির শীতলতা দ্বারা প্রতিস্থাপিত হয়েছে। এই সংঘাত পাঠককে প্রশ্ন করতে বাধ্য করে: স্বাদ কি কেবল একটি রাসায়নিক যৌগ, নাকি তা আত্মার গভীরে প্রোথিত এক অবিচ্ছেদ্য স্মৃতি?",
+  "further_references": [
+    "2"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "সরিষার হলুদ আবেশ",
+      "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার সেই ঝাঁঝালো, মাটির গন্ধযুক্ত মুহূর্তটি এখানে চিত্রিত হয়েছে, যা এক আদিম উষ্ণতার প্রতীক।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অচেনা তেলের নীরবতা",
+      "segment_summary": "প্রবাসের বাজারে ব্যবহৃত হালকা, নিরপেক্ষ তেলটির উপস্থিতি সেই আদিম গন্ধের অনুপস্থিতিকে তুলে ধরে, যা এক ধরনের নীরব শূন্যতা সৃষ্টি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "রাসায়নিক বিচ্যুতি",
+      "segment_summary": "এই তেল পরিবর্তনটি কেবল একটি ভৌত পরিবর্তন নয়, বরং এটি সাংস্কৃতিক এবং আবেগের একটি গভীর বিভাজনকে সূক্ষ্মভাবে চিহ্নিত করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "ঘ্রাণ ও স্মৃতির সংযোগ",
+      "segment_summary": "কীভাবে একটি নির্দিষ্ট তেলের ঘ্রাণ মস্তিষ্কের গভীরে অতীতের নির্দিষ্ট মুহূর্তের একটি সম্পূর্ণ পরিবেশকে ফিরিয়ে আনে, তা এখানে কাব্যিকভাবে অনুসন্ধান করা হয়েছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "হারানো ঝাঁঝের আকাঙ্ক্ষা",
+      "segment_summary": "কবি সেই তীব্র ঝাঁঝালো স্বাদের জন্য এক অস্থির আকাঙ্ক্ষা অনুভব করেন, যা নতুন পরিবেশে আর ফিরে পাওয়া সম্ভব নয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "মাটির প্রতিধ্বনি",
+      "segment_summary": "সরিষার তেলে মিশে থাকা মাটির গভীর অনুরণনটি প্রবাসের কংক্রিটের গন্ধে চাপা পড়ে যাচ্ছে, যা শিকড়ের বিচ্যুতিকে বোঝায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "স্বাদের দ্বৈততা",
+      "segment_summary": "এই তেল-পরিবর্তনটি প্রবাসে থাকা মানুষের দ্বৈত জীবনকে প্রতিফলিত করে—একদিকে নতুন জীবন, অন্যদিকে হারানো স্বাদের প্রতি অবিরাম টান।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অসমাপ্ত ভাজা",
+      "segment_summary": "এই অধ্যায়টি শেষ হয় সেই অসমাপ্ত স্বাদের প্রতিচ্ছবিতে, যা কেবল জিভে নয়, আত্মার গভীরেও ভাজা থেকে যায়, কিন্তু কখনোই পুরোপুরি পূর্ণতা পায় না।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the tactile memory: The way the split crust of the samosa feels under a foreign fingertip—not just heat, but structural integrity failing.",
-      "The temporality of opening: Treating the act of slowly separating the halves as a deliberate stalling of time, preventing assimilation into the present moment.",
-      "The interior echo: Using the hollow space left by the removed filling to reflect an auditory emptiness resonating from the memory of home."
+      "The oil as a geological map: tracing the mineral content of regional soil through its pungency.",
+      "Dichotomy in heat application: contrasting the fierce, high 'আঁচ' required by mustard seeds against the regulated, low thermal energy of industrial cooking.",
+      "From aroma to archive: treating the volatile compounds released during frying as momentary linguistic fragments from a lost dialect."
     ],
     "story_options": [
-      "Setting: A cheap plastic stool on a deserted back alley; Desire: The speaker examines the flaky edges, yearning for the precise way the dough folded in the ancestral kitchen; Obstacle: The ambient city noise seems to mock this fragile examination; Turn: Recognition that the fragility mirrors the migrant's own precarious existence.",
-      "Setting: A small counter cluttered with generic packaged snacks; Desire: To mentally reassemble the lost internal components (the precise ratio of potato to spice); Obstacle: The filling has congealed, hardening into a meaningless paste under foreign air conditioning; Turn: Accepting that perfect reconstruction is an act of hubris.",
-      "Setting: Holding the half-opened piece near one's own mouth but not committing to eating it; Desire: To savor the scent alone—the 'ghost fragrance' clinging to the torn seam; Obstacle: A sudden, sharp breathlessness (a physical manifestation of nostalgia); Turn: The inhale becomes a silent dialogue with the past."
+      "Setting: A worn wooden *tawa* in a small kitchen; Desire: To force the cold metal's surface memory of past mustard oil heat into active sensation; Obstacle: The current, thin oil refusing to catch that spectral 'fire'.",
+      "Setting: By an open window overlooking distant city lights; Desire: To mix the smell of sterile foreign air with a phantom whiff of earth-oil residue on the fingertips; Obstacle: Overwhelming urban exhaust drowning out the memory's whisper.",
+      "Setting: Inspecting the discarded dough remnants (ময়দা) before frying; Desire: To sense, through touch alone, the difference in molecular tension imparted by the two types of oil; Obstacle: The uniform pallor offered by the modern processing techniques."
     ],
     "subject_rotations": [
-      "Treating the exposed filling not as foodstuff but as geological stratum—layers representing different stages of life or journey.",
-      "Shifting focus entirely from loss to *potential*—the half-eaten piece represents all possible futures that remain unchosen.",
-      "Using the act of pausing at the opening as a meditation on nomenclature; is it still 'Singara' in this exposed, compromised state?"
+      "Focus on 'Viscosity as Time': How thick, heavy mustard oil represents dense, slow-moving memory versus thin, quick neutral oil representing accelerated, disposable present.",
+      "The Language of Oil: Treating the specific *hiss* or splatter pattern as a phonetic script that is unreadable in the new environment.",
+      "Oil as Ritual Sacrifice: Viewing the switch from traditional to modern cooking grease as a deliberate sacrifice—a betrayal of sensory heritage for sheer logistical continuity."
     ],
     "sensory_details": [
-      "The specific visual contrast between the uniform, deep-fried brown exterior and the pallid, slightly weeping interior filling.",
-      "A high-pitched, almost imperceptible crackle sound as a microscopic pocket of trapped vapor escapes when the dough shifts.",
-      "The gritty sensation of finely ground spice adhering statically to the exposed edges of the broken crust."
+      "The specific visual contrast between mustard oil's aggressively brilliant ochre sheen and neutral oil's flat, almost milky uniformity.",
+      "A tactile description of the dough texture: how one type makes it 'sing' with micro-explosions versus the other making it merely 'settle'.",
+      "The sensation described as a 'prickling sting' on the back of the throat from the volatile mustard compounds, distinct from simple heat."
     ],
     "research_questions": [
-      "What specific term in Bengali diction implies 'a state of suspended action' that can fit rhythmically into a poetic line?",
-      "Can I use precise physical descriptions of dough elasticity (like 'gluten stress') metaphorically without sounding overly clinical?"
+      "What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?"
     ],
     "structural_variants": [
-      "A sudden, abrupt shift in focus from the external shell to an internal bodily sensation (e.g., a tightening in the chest corresponding to the food's division).",
-      "Structuring the poem as two immediate rhetorical questions posed to the object itself, one about its past and one about its future."
+      "A circular form where Segment 8 echoes a sound or visual cue from Segment 1, but altered by one key descriptor (e.g., replacing 'ঝাঁঝালো' with 'নরম').",
+      "Employing the mandated primary lens: repeating the structure of 'তেল... তেল... তেল...' to build cumulative tension before breaking it at the point of grief."
     ],
     "unused_angles": [
-      "A comparison between the oily residue on the wrapper versus a memory stain left on an older piece of cloth.",
-      "Exploring the idea that the 'gap' created by opening is where new possibilities—unrelated to flavor—can enter the narrative."
+      "A poem composed entirely through rhetorical questions posed by the ingredient itself (e.g., the oil speaking).",
+      "Shifting structure based on perceived heat: beginning in extreme coldness (dormant oil) and building kinetic energy toward a flashpoint."
     ],
-    "variety_note": "This chapter emphasizes inertia and stasis, contrasting sharply with the 'journey' narratives used in earlier sections, focusing instead on a paused moment of existential inventory."
+    "variety_note": "Unlike previous sections that focused heavily on ingredients or journey, this chapter anchors itself purely in *tactile* sensation—the difference between the two oils' physical presence—as a metaphor for internal conflict."
   },
   "draft": {
-    "sha256": "8cfb53ec447992c3cf0a08f6a48822f0e93c3f386bff38ba5f67ccd31a52f59f",
-    "written_at": "2026-11-01T08:29:42.741452+00:00",
+    "sha256": "3a9cba066a20f1be9884e7a0aaea106f43aa249efe205833c6fcd13f5e83ece4",
+    "written_at": "2026-11-16T21:38:59.698270+00:00",
     "origin": "write"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলো-ছায়ার দর্শন",
+  "segment_summary": "জীবনের উত্থান-পতনকে সে নদীর আলো-ছায়ার মতো গ্রহণ করে, কোনো স্থায়ী সমাধান খোঁজে না।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus from 'what does the river owe' to 'what is owed back to the source/origin of life itself.'",
+    "story_option": "Setting: At the precise moment the last sliver of daylight vanishes below the horizon line. Desire: To whisper a direct question into the cooling river current itself. Obstacle: The coldness of the water acts as an immediate censor.",
+    "subject_rotation": "Focusing on how the *memory* of free service becomes more valuable than the service itself.",
+    "sensory_detail": "The muted visual texture of distant reeds silhouetted against a rapidly darkening sky.",
+    "research_question": "Are there regional idioms that describe 'sustained, weary endurance' rather than outright struggle?",
+    "structural_variant": "An oscillating rhythm: highly lyrical lines detailing the internal state punctuated by stark, monosyllabic phrases describing physical reality.",
+    "variety_note": "Unlike previous chapters that focused on external pressures (bridges, debt), this chapter centers entirely on internal philosophical synthesis—the integration of accepted reality into a lasting personal conviction."
+  }
+}

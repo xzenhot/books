@@ -1,15 +1,15 @@
 {
   "level": "segment",
   "segment_index": 5,
-  "total_segments": 6,
+  "total_segments": 5,
   "chapter_index": 18,
   "name": "18",
-  "chapter_title": "চরম সন্ধিক্ষণ",
-  "chapter_summary": "সবকিছু চরম সন্ধিক্ষণে পৌঁছায়। অরুণিমা ও বিক্রমকে সিদ্ধান্ত নিতে হয়—তারা কি শহরের ক্ষণস্থায়ী 'আর্টিকেল'-গুলির অংশ হয়ে যাবে, নাকি নিজস্ব এক স্থায়ী 'সারকথা' তৈরি করবে?",
-  "word_target": 917,
+  "chapter_title": "The Unwritten Chronicle",
+  "chapter_summary": "This chapter explores the culmination of the protagonists' journey, moving beyond the search for a singular answer to embrace the nature of continuous questioning. The conflict shifts from external mysteries to the internal struggle of defining permanence in a transient urban landscape. Imagery focuses on the quiet moments between the city's loud pronouncements—the silence in the crowded metro, the dust motes in the collector's attic. The central open question remains: Can a life truly be 'the' definitive narrative, or must it forever remain a collection of fleeting, unclassified fragments?",
+  "word_target": 100,
   "state": "enriched",
   "segment_enrichment": {
-    "angle": "পশুর প্রত্যাবর্তন (The Recurring Animal): এমন একটি প্রাণী (যেমন, নির্দিষ্ট প্রজাতির কাঠবিড়ালী, বিড়াল অথবা কাক) যা শহরের বিভিন্ন স্তর—ঊর্ধ্বতন অফিস বা দরিদ্র মহল্লা—নিয়ে এসে উভয় পরিবেশের সন্ধিক্ষণকে প্রতীকীভাবে সংযুক্ত করে এবং তাদের সিদ্ধান্তের দিকে ইঙ্গিত দেয়।",
+    "angle": "Focusing on the periphery of the main protagonists' interaction—a secondary character who possesses mundane tools that break down during a critical emotional exchange, symbolizing narrative failure.",
     "status": "enriched"
   }
 }

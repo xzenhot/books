@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 33,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "ব্যক্তিগত ট্র্যাজেডি কীভাবে সমষ্টিগত প্রেরণা এবং সহনশীলতার এক শক্তিশালী বার্তা রচনা করে, তা এই অংশে গভীর কাব্যিক রূপে প্রকাশিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the void: Framing the entire poem as a dialogue spoken to an unseen/absent figure—Lkhindor who has returned but whose response remains eternally unheard.",
+    "story_option": "Setting: Inside an ancient, sealed-off chamber of the homestead (lhouho bashorghor analogue), untouched by sunlight; Desire: To share a moment where they acknowledge that survival has permanently altered their internal chemistry; Obstacle: The pressure to resume conventional life roles.",
+    "subject_rotation": "Focus on the Unspoken Treaty: Treating the marriage bond (sathjanom) less as romance and more as a solemn pact against societal chaos, tested by elemental forces.",
+    "sensory_detail": "The feeling of cold, anchored permanence when touching weathered river clay from their vigil (touch).",
+    "research_question": "What specific archaic Bengali terms describe the profound exhaustion that follows immense spiritual/physical struggle, differentiating it from mere fatigue?",
+    "structural_variant": "Alternating between intensely visual, static imagery (the landscape) and rapid, kinetic internal thought streams.",
+    "variety_note": "Unlike earlier chapters focused on battle and tension, this piece rests entirely in 'residue'; the poetry must evoke an aftermath characterized by heavy silence rather than ecstatic release."
+  }
+}

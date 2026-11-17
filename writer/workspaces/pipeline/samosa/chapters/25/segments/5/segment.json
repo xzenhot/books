@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা ও সমাপ্তি",
+  "segment_summary": "অপেক্ষাটি শেষ হয় না, বরং সেই অসম্পূর্ণতার মধ্যেই একটি গভীর প্রশান্তি খুঁজে পাওয়া যায়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the satiety (পূর্ণতা) itself as an illusion designed by nostalgia to delay acceptance of loss.",
+    "story_option": "Setting: A window ledge overlooking perpetual urban twilight; Desire: For the scent rising from street vendors to coalesce into one specific, pure memory of home spices; Obstacle: Pollution and varied commercial odors drowning out authenticity; Turn: Accepting that the desired singular scent is now permanently fractured among competing smells.",
+    "subject_rotation": "Focusing solely on the *absence* of flavor, detailing the negative space that remains after the bite, rather than describing what was there.",
+    "sensory_detail": "Sound: The precise, high-pitched *sizzle* sound of one's own heartbeat mimicking the initial drop of hot fat onto dough in memory.",
+    "research_question": "What metaphorical language can convey a flavor profile that has been permanently 'translated' but cannot be retroactively simplified or reduced?",
+    "structural_variant": "A deliberate break between every three segments, using stark, unadorned prose fragments (mimicking a grocery list) before returning to dense verse.",
+    "variety_note": "Unlike previous chapters that dissected the components or journey, this final sequence focuses purely on the phenomenology of 'aftertaste'—the philosophical residue remaining after consumption ceases."
+  }
+}

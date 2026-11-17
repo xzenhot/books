@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 8,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "প্রথম বোলা",
+  "segment_summary": "ঢাকের প্রথম গম্ভীর বোলাটি যখন বাতাসে ভাসে, তখন তা কেবল একটি শব্দ নয়, বরং মহালয়ার নীরবতা ভেঙে জাগরিত এক প্রাচীন আখ্যানের সূচনা।",
+  "name": "1",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the physical toll of the drummer: how repetitive, relentless rhythm changes the body and mind over days.",
+    "story_option": "A weary older drummer, burdened by lineage and the weight of tradition, seeks one moment where his rhythm deviates from the prescribed pattern, desiring a personal expression.",
+    "subject_rotation": "Shifting focus entirely from *sound* (auditory) to its material counterpart—the vibration felt in the ground and the resonant frequency within the clay itself.",
+    "sensory_detail": "The slick, hot sweat mixing with the dust kicked up by drumming feet on packed earth near the mondap.",
+    "research_question": "How do specific rhythmic patterns in traditional Bengali percussion relate to concepts of cyclical time versus linear time?",
+    "structural_variant": "Structuring the poem as a call-and-response monologue between the 'I' (the observer) and an imagined, ancient entity represented by the rhythm.",
+    "variety_note": "This chapter moves away from the concrete idol-making (Chapter 2/3) to focus purely on the dynamic energy—the *sound*—which represents primal force and temporal rhythm, unlike its neighbours which deal with physical or emotional states."
+  }
 }

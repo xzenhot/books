@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "The Rhythm of Waiting",
+  "segment_summary": "The silence following the clamor of the dhak is not emptiness, but a pregnant pause, a period of quiet accumulation before the next surge of energy.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The 'I' as chronicler of erosion: Focusing not on *rebirth*, but on *persistence*—how memory slowly erodes while simultaneously strengthening its core conviction.",
+    "story_option": "An aging artisan returning to his workshop after the immersion chaos, finding a single, small patch of damp, untouched clay preserved under debris (Setting), hoping it holds the key to re-imbue his next piece with ancient vital energy (Desire), but realizing the power now flows from an unseen internal memory rather than the raw material (Obstacle/Turn).",
+    "subject_rotation": "Treating the 'seed' not as hope, but as necessary inertia: The vital push needed to prevent total collapse into apathy.",
+    "sensory_detail": "Smell: The coppery tang of residual incense mingling sharply with cold, wet autumn air.",
+    "research_question": "How can I convey the shift from chaotic external noise (festival) to disciplined internal silence (reflection) using language that respects both high diction and colloquial resignation?",
+    "structural_variant": "Alternating between the first-person devotee ('I') describing external signs (water, scent) and third-person detached analysis of human behaviour during those moments.",
+    "variety_note": "This chapter avoids large crowd scenes, focusing instead on deeply intimate aftermaths: the water, the scent trail, and the internal landscape of anticipation, offering a quiet counterpoint to earlier descriptions of grand societal gatherings."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 38,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত জিজ্ঞাসা",
+  "segment_summary": "পাঠককে এই অধ্যায়ে একটি চূড়ান্ত উত্তর দেওয়া হয় না; বরং স্বাদ কি কেবল একটি জৈবিক প্রক্রিয়া, নাকি এটি গভীরতম মানবিক অভিজ্ঞতার অবিচ্ছেদ্য অংশ, সেই প্রশ্নটি খোলা রাখা হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the inherent *void* in the center filling not as a loss, but as an active, resisting element that refuses to be filled by any foreign substance.",
+    "story_option": "Setting: Inside an old, lacquered tiffin box; Desire: To sense the faint metallic tang of preserved spice fragments, which represent cultural persistence despite physical change; Obstacle: The damp chill of the foreign climate affecting the fragile remnants.",
+    "subject_rotation": "The material failure: A dissection focusing only on how the binding agents (flour/starch) have structurally betrayed their original recipe under new atmospheric pressures.",
+    "sensory_detail": "A faint, abrasive graininess on the tongue that feels like static electricity from an unfamiliar air current.",
+    "research_question": "How can the interplay between high register (তৎসম) and common street language mimic the sudden, jarring shift in flavor perception?",
+    "structural_variant": "Alternating voice: 'I' narrates the sensation; then a brief, highly compressed passage uses archaic Bengali vocabulary to describe only the *texture* of the absence.",
+    "variety_note": "Unlike its neighbours which explore specific components (oil/spice), this chapter focuses purely on the aftermath—the negative space left behind after consumption. The thread metaphor here is sustained in the residue itself, rather than being built up from individual elements."
+  }
+}

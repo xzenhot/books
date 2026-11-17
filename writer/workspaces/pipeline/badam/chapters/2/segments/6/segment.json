@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "মানবিকতার সীমানা",
+  "segment_summary": "এই অধ্যায়ে দেখানো হয় যে, মানবিক সেবা প্রদানের ক্ষেত্রে অর্থের অভাব কীভাবে একটি অদৃশ্য কিন্তু শক্তিশালী সীমারেখা তৈরি করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "গোধূলির আলোয় যাত্রীদের মুখের ভঙ্গিতে লুকিয়ে থাকা নীরব বাণিজ্যের হিসাব—কোথাও আত্মসমর্পন, কোথাও প্রতিরোধ।",
+    "story_option": "অচেনা একজন লোক নৌকাটিকে শুধু দেখা মাত্রই দীর্ঘ সময় ধরে দাঁড়িয়ে থাকে, কোনো জিজ্ঞাসা ছাড়াই; তার উদ্দেশ্য কেবল নদীর নীরবতা উপভোগ করা কি না?",
+    "subject_rotation": "অদেখা যাত্রীদের ক্ষেত্রে 'অদৃশ্য লেনদেন'র ধারণা—তারা অর্থ না দিলেও, তাদের নীরবতা এক ধরণের সামাজিক ঋণ তৈরি করে কি?",
+    "sensory_detail": "নৌকার ভেজা তক্তার ওপর ধুলো শুকানোর সময় যে শুকনো, গুঁড়ো গন্ধটুকু বাতাসে মেশে।",
+    "research_question": "ভটিয়ালি সঙ্গীতের কাঠামোতে এমন কোনো নির্দিষ্ট অংশ আছে কি যা অনিবার্য আর্থিক সংকটকে রূপকভাবে ফুটিয়ে তোলে?",
+    "structural_variant": "এই অধ্যায়টিকে একটি ফোকাসড ইমোশনাল লুপ হিসেবে গঠন করা, যেখানে প্রতিটি অংশের শেষ বাক্য পূর্ববর্তী অংশের মূল দ্বন্দ্বকে সামান্য ঘুরিয়ে ফিরিয়ে নিয়ে আসে।",
+    "variety_note": "Neighbours' chapters dealt with grander external forces (nature/merchants); this chapter drills down into the intimate collision between Raghunath’s personal integrity and small acts of financial inadequacy."
+  }
+}

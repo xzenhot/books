@@ -1,0 +1,81 @@
+{
+  "chapter_index": 45,
+  "name": "45",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This concluding poem synthesizes the disparate observations—from the sweat on a chai glass to the faint line of vermilion—to confront the core philosophical question of the collection. It explores whether these countless, fragile moments coalesce into a substantial, enduring 'India,' or if they remain merely a collection of beautiful, transient flashes. The imagery shifts from concrete particulars to a vast, contemplative landscape, leaving the reader suspended between the weight of memory and the lightness of the present moment.",
+  "further_references": [
+    "misc — পর্ব 1",
+    "misc — পর্ব 3",
+    "misc — পর্ব 14"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "ঘামের প্রতিধ্বনি",
+      "segment_summary": "The poem begins by recalling the immediate, visceral image of the railway platform's sweating chai glass, setting the tone of fleeting intensity.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "সিঁদুরের ক্ষীণ রেখা",
+      "segment_summary": "It then juxtaposes this transient moisture against the enduring, yet delicate, mark of vermilion on a doorway, symbolizing ritual persistence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "নীরবতার ভাষা",
+      "segment_summary": "The focus moves to the unspoken communication found within the shared silence of a crowded, waiting bus, exploring non-verbal connection.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "শ্রমের নীরব স্বাক্ষর",
+      "segment_summary": "The poem acknowledges the unseen labor—the folded hands of the dawn vendor—as the foundational, quiet architecture of daily life.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অসংখ্য মুহূর্তের ভার",
+      "segment_summary": "Here, the accumulation of these small details is examined, weighing the collective impact of countless minute experiences.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "স্থায়িত্বের জিজ্ঞাসা",
+      "segment_summary": "The central conflict is articulated: do these fragile, momentary observations possess the weight to constitute a stable national identity?",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "বিচ্ছিন্নতার সৌন্দর্য",
+      "segment_summary": "The poem tentatively embraces the possibility that the beauty lies precisely in the fragmentation, in the collection of isolated, perfect instants.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অমীমাংসিত আলো",
+      "segment_summary": "The final lines dissolve into an open question, leaving the reader with a feeling of tender awe rather than a definitive answer about the nature of the nation.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

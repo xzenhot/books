@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ঝড়ের মধ্যের নীরব গান",
+  "segment_summary": "ঝড়ের তীব্রতার মধ্যেও, মাঝি যেন এক চাপা ভটিয়ালি সুরের মাধ্যমে প্রকৃতির এই মহাকাব্যিক সংগ্রামকে অনুভব করে।",
+  "name": "7",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the physical sensation of the boat hull groaning under extreme water pressure, making the wood itself a voice against the current.",
+    "story_option": "Setting: The heart of a sudden flash-flood. Desire: To save not only the passenger but also some fragile, irreplaceable relic (e.g., an old family songbook) from drowning. Obstacle: The water level rises too fast for any salvage attempt.",
+    "subject_rotation": "Treating the disaster as a spiritual cleansing where the river momentarily empties its human accretions (greed, transaction) before refilling with elemental purity.",
+    "sensory_detail": "The taste of metallic tang in the air when lightning strikes close enough to carry ozone into the boat.",
+    "research_question": "What are the colloquial Bengali terms associated with 'uncontrollable, divine fury' in relation to Bengal's monsoon/river systems?",
+    "structural_variant": "A dynamic structure mirroring the storm: opening with tight, claustrophobic lines during calm before expanding into wide, chaotic imagery during the peak; contracting again for resolution.",
+    "variety_note": "Unlike preceding chapters which focused on external societal pressure, this chapter shifts focus entirely inward and outward simultaneously—the majhi's internal fortitude tested against an overwhelming, non-human force."
+  }
+}

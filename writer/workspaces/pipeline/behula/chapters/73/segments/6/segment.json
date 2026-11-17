@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 73,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অসহায়তার বিপরীতে অদম্য সংকল্প",
+  "segment_summary": "সামাজিকভাবে দুর্বল বিবেচিত হওয়া সত্ত্বেও, তার সংকল্প কীভাবে তাকে এক অপ্রতিরোধ্য শক্তি প্রদান করে, যা সমাজের ধারণাকে চ্যালেঞ্জ জানায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interlacing the narrative tension with an 'unspoken vocabulary'—a collection of words that *could* be said but are suppressed by social expectation.",
+    "story_option": "Setting: Inside the threshold where light meets deepest shadow; Desire: For that boundary line to cease being a divider and become a merging point; Obstacle: The internalized decree that she must remain strictly 'separate' from common humanity.",
+    "subject_rotation": "Viewing 'endurance' through the lens of biological resilience rather than purely spiritual fortitude; framing survival as a slow, chemically induced transformation.",
+    "sensory_detail": "A visual representation of judgment as a slow-moving tide of grey silt settling over vibrant inner colours (visual)",
+    "research_question": "How can the cadence mimic breaking meter? Identifying rhythmic breaks that correspond perfectly to a shift from personal despair to collective assertion.",
+    "structural_variant": "Circular Echoing: Structuring each poem so that the concluding imagery forces a re-reading of the opening metaphor from a new angle.",
+    "variety_note": "Where previous chapters focused on the *consequences* of grief (শূন্যতার অতল) or external trials, this chapter deepens into the *mechanism* of survival: how inner fortitude actively shapes and repurposes external suffering."
+  }
+}

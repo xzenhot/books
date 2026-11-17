@@ -1,19 +1,4 @@
 {
-  "title": "নৌকা: ভাটিয়ালির মাঝির মহাকাব্য",
-  "language": "Bengali",
-  "source_terms": [
-    "নৌকার জন্ম",
-    "নদীর শরীর",
-    "ভাটিয়ালি সুর",
-    "বিনা পয়সার পার",
-    "বর্ষার ডাক",
-    "কংক্রিটের জোয়ার",
-    "ডিজেলের ধাতব আর্তনাদ",
-    "নদীর ক্রোধ",
-    "মুছে যাওয়া ভূগোল",
-    "শেষ সুর"
-  ],
-  "context": "১০টি কবিতা; প্রতিটি কবিতায় ৮টি পরিকল্পিত segment; প্রতি segment-এর word_target 500।",
   "total_chapters": 10,
   "completed_chapters": 0,
   "current_chapter": 1,
@@ -25,85 +10,83 @@
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "নৌকার জন্ম",
+      "topic": "nouka — পর্ব 1 — nouka",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\1\\chapter.md",
+      "file_path": "chapters/1/chapter.md",
       "completed_date": null
     },
     {
       "chapter_number": 2,
-      "topic": "নদীর শরীর",
+      "topic": "nouka — পর্ব 2 — nouka",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\2\\chapter.md",
+      "file_path": "chapters/2/chapter.md",
       "completed_date": null
     },
     {
       "chapter_number": 3,
-      "topic": "ভাটিয়ালি সুর",
+      "topic": "nouka — পর্ব 3 — nouka",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\3\\chapter.md",
+      "file_path": "chapters/3/chapter.md",
       "completed_date": null
     },
     {
       "chapter_number": 4,
-      "topic": "বিনা পয়সার পার",
+      "topic": "চট্টার্জীর আগমন: লজিস্টিক বাধা",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\4\\chapter.md",
+      "file_path": "chapters/4/chapter.md",
       "completed_date": null
     },
     {
       "chapter_number": 5,
-      "topic": "বর্ষার ডাক",
+      "topic": "nouka — পর্ব 5 — nouka",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\5\\chapter.md",
+      "file_path": "chapters/5/chapter.md",
       "completed_date": null
     },
     {
       "chapter_number": 6,
-      "topic": "কংক্রিটের জোয়ার",
+      "topic": "nouka — পর্ব 6 — nouka",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\6\\chapter.md",
+      "file_path": "chapters/6/chapter.md",
       "completed_date": null
     },
     {
       "chapter_number": 7,
-      "topic": "ডিজেলের ধাতব আর্তনাদ",
+      "topic": "nouka — পর্ব 7 — nouka",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\7\\chapter.md",
+      "file_path": "chapters/7/chapter.md",
       "completed_date": null
     },
     {
       "chapter_number": 8,
-      "topic": "নদীর ক্রোধ",
+      "topic": "nouka — পর্ব 8 — nouka",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\8\\chapter.md",
+      "file_path": "chapters/8/chapter.md",
       "completed_date": null
     },
     {
       "chapter_number": 9,
-      "topic": "মুছে যাওয়া ভূগোল",
+      "topic": "গোপালের দ্বিধা: স্রোত বনাম ঐতিহ্য",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\9\\chapter.md",
+      "file_path": "chapters/9/chapter.md",
       "completed_date": null
     },
     {
       "chapter_number": 10,
-      "topic": "শেষ সুর",
+      "topic": "নৌকার কাঠ বনাম ধাতব স্রোত",
       "category": "",
       "status": "pending",
-      "file_path": "chapters\\10\\chapter.md",
+      "file_path": "chapters/10/chapter.md",
       "completed_date": null
     }
-  ],
-  "updated_by": "layout",
-  "updated_date": "2026-11-10T12:26:30Z"
+  ]
 }

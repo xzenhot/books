@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 42,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "এই মহৎ পরিণতি সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ রেখে যায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the narrative perspective momentarily to observe the societal periphery reacting to this private miracle (the silent onlookers).",
+    "story_option": "Setting: As the pale light of dawn begins to bleed into the chamber after a dark vigil; Desire: For a moment where past pain is not forgotten but absorbed into the new morning's quiet dignity; Obstacle: A single object left behind—a worn piece of cloth or metal—that forces an immediate confrontation with absence.",
+    "subject_rotation": "Framing the ending not in terms of narrative closure, but existential continuation; their journey simply shifts from physical survival to enduring philosophical being.",
+    "sensory_detail": "The cold weight of an ancient silver earring, suddenly felt on the skin while surrounded by residual warmth.",
+    "research_question": "What specific tonal quality in classical Bengali poetry suggests exhausted grace rather than simple contentment?",
+    "structural_variant": "Structuring the eight segments as layers peeling away—the outer layer being the myth, the inner being the deeply bruised, lived reality of their return.",
+    "variety_note": "This chapter contrasts sharply with previous focus on struggle; it concentrates entirely on the dense aftermath and the philosophical weight carried by hard-won peace."
+  }
+}

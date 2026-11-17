@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অজ্ঞাততার স্বস্তি",
+  "segment_summary": "এই অজ্ঞতা এক ধরনের স্বস্তি দেয়, কারণ তাদের উপর অতীতের ভার বা সাংস্কৃতিক দ্বৈততার বোঝা চাপানো হয় না।",
+  "name": "7.6",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Intergenerational Communication Failure via Food: Using the flavor difference as a metaphor for an unbridgeable ideological gap between generations.",
+    "story_option": "Setting: Near a high-speed transportation hub; Desire: The samosa should offer a glimpse of 'home' even in transit, allowing for momentary stillness; Obstacle: The kinetic energy and speed of the environment overwhelm any residual flavor memory.",
+    "subject_rotation": "Using the samosa's casing not as a boundary of memory lost, but as a perfect container for new, local ingredients integrated into an unfamiliar fusion.",
+    "sensory_detail": "The cool chill felt immediately after consuming the hot item in a climate-controlled space.",
+    "research_question": "What is the specific vocabulary (Tatsama/Purano Bangla) that describes 'habitual, non-nostalgic consumption' in this context?",
+    "structural_variant": "A fragmented structure mirroring the quick bites—short bursts of observation followed by moments of static, introspective pause.",
+    "variety_note": "While earlier chapters delve into the visceral *loss* experienced by the first generation, this segment focuses on the detached *acceptance* of difference by the second, observing where memory fragments fail to connect."
+  }
+}

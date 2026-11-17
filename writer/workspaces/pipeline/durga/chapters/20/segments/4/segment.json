@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আত্মার গভীরে শক্তি",
+  "segment_summary": "এই কাব্যটি অনুসন্ধান করে যে, দেবী শক্তির এই প্রকাশ কি কেবল বাহ্যিক আচারের মধ্যে সীমাবদ্ধ, নাকি তা মানব চেতনার গভীরে চিরকাল বিদ্যমান এক আদিম শক্তি।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Revisiting the theme from a lens of inherent human exhaustion—the effort required to *remember* divine power against entropy.",
+    "story_option": "Setting: A cluttered window ledge where dried shiuli petals mingle with discarded cosmetic wrappers; Desire: To find a single perfect bloom untainted by the urban dust; Obstacle: The overwhelming grime of daily life.",
+    "subject_rotation": "Treating the spiritual questioning not as seeking an answer, but as performing a continuous act of negation against finality.",
+    "sensory_detail": "Sight: The specific, muted grey cast of concrete where vibrant ritual colors once splashed in a public space.",
+    "research_question": "How should I transition between the elevated Sanskritized diction and the colloquial language requirement without sounding jarring or forced?",
+    "structural_variant": "Adopting a highly fragmented structure where each line poses an unresolvable question, mimicking cognitive dissonance between ritual and reality.",
+    "variety_note": "This chapter moves away from action/mythology and focuses exclusively on aftermath—the quiet contemplation where belief transitions into existential philosophy. It contrasts the high ritualistic language with the low reality of daily life."
+  }
+}

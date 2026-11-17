@@ -10,17 +10,224 @@
 
 ## word_target
 
-280
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-বিধবা শাড়ির নিচে অপয়া অপবাদের দাহ
+behula — পর্ব 3 — behula
 
 ## chapter_summary
 
-স্বামীর চিতা ওঠার আগেই সমাজ এক লহমায় তাকে দাগিয়ে দেয় ‘সর্বনাশী অপয়া’ রূপে। শোকের ক্ষতের চেয়েও প্রতিবেশীর বিষাক্ত কটাক্ষ তার আত্মসম্মান দলিত করে।
+This chapter explores the chilling atmosphere within the in-laws' home, where the expected sanctuary transforms into a battlefield of suspicion. The core conflict revolves around the pervasive shadow of distrust cast upon Behula, turning domestic life into a constant trial. Imagery focuses on the 'fire of suspicion' burning within the supposed haven, while the chapter questions the nature of belonging when acceptance is conditional upon unwavering perfection. This internal siege tests the very foundation of her resilience.
 
 ## further_references
+
+- research.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+আশ্রয়ের অভ্যন্তরে সন্দেহ
+
+#### segment_summary
+
+The chapter begins by detailing how the in-laws' house, meant to be a refuge, becomes saturated with an oppressive, cold aura of doubt.
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অবিশ্বাসের শীতলতা
+
+#### segment_summary
+
+The narrative focuses on the subtle yet crushing weight of unspoken accusations that permeate every interaction within the family unit.
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+মানসিক ক্লান্তির যুদ্ধক্ষেত্র
+
+#### segment_summary
+
+Behula endures the constant mental strain, where every day feels like a protracted skirmish against invisible adversaries.
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+নিঃসঙ্গতার নতুন রূপ
+
+#### segment_summary
+
+Despite being surrounded by family, Behula experiences a profound isolation, trapped within a cage of familial scrutiny.
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মমর্যাদার ক্ষয়
+
+#### segment_summary
+
+The relentless questioning erodes her self-worth, forcing her to constantly defend a dignity that should be inherent.
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভেতরের আগুন বনাম বাইরের বরফ
+
+#### segment_summary
+
+A contrast is drawn between the internal, burning core of her resolve and the external, freezing judgment of her environment.
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষা ও প্রতিরোধ
+
+#### segment_summary
+
+She learns to navigate this hostile domestic landscape, adopting a posture of quiet endurance while secretly fortifying her spirit.
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রশ্ন: আশ্রয় কি শর্তাধীন?
+
+#### segment_summary
+
+The chapter culminates in the lingering question of whether true sanctuary can exist where suspicion is the primary resident.
+
+#### further_references
 
 
 ## level
@@ -29,68 +236,45 @@ chapter
 
 ## state
 
-written
-
-## segments
-
-- 1
+scaffolded
 
 ## creative_enrichment
 
 ### angles
 
-- Shifting focus from societal judgement (the neighbours) to her internal dialogue about the nature of 'purity' when it is outwardly challenged by slander.
-- Framing the continuous, ritualistic act of mourning not as passive suffering, but as an active, almost militant performance against defamation.
-- Treating the physical fabric of the widow's saree itself as a narrative device—a shroud that both cloaks and exposes her to public gaze.
+- বেহুলার প্রতিরোধকে সরাসরি বিদ্রোহের বদলে নীরব, প্রতীকী আত্ম-সংরক্ষণ হিসেবে দেখানো
+- পরিবারের সদস্যদের প্রত্যেকটি সন্দেহ বা জিজ্ঞাসাকে আলাদাভাবে (যেমন: রান্নাঘরের লবণদানি থেকে আসা একটি শীতল দৃষ্টি) ফোকাস করা
+- শ্বশুরবাড়ির 'শান্ত' বাহ্যিক পরিবেশ এবং ভেতরের অসহনীয় মানসিক আবহাওয়ার মধ্যে দৃশ্যমান স্থাপত্যগত বৈপরীত্য প্রতিষ্ঠা করা
 
 ### story_options
 
-- A scene where she is forced to walk past a specific, recurring landmark in the village (e.g., a well or a market crossroad), each passing neighbour delivering a slightly different, yet equally corrosive, phrase.
-- An imagined interaction with one specific individual who acts as the focal point of rumour—a gossiping artisan or elder—where her reply is entirely non-verbal, conveyed through gesture only.
-- Focusing on the ritual task of tending to the funerary rites (like pouring water or arranging flowers) while simultaneously receiving invisible verbal attacks from the crowd gathered nearby.
+- একটি নির্দিষ্ট সকালে, যখন সকলে সম্মিলিতভাবে আহারের টেবিলে বসে থাকবে (Setting), বেহুলার একমাত্র আকাঙ্ক্ষা হবে একটি মুহূর্ত শান্তিতে নিঃশ্বাস নেওয়া (Desire), বাধা আসবে মধ্যাহ্ন ভোজের সামান্য এক কথা দ্বারা (Obstacle), এবং তিনি সেই নীরবতাটুকু ছিনিয়ে নেবেন (Turn)।
+- বাড়ির বারান্দায় সন্ধ্যার আবছা আলোয় বসে থাকার সময় (Setting), বেহুলার তীব্র ইচ্ছা হবে অতীতের কোনো নির্দিষ্ট ঘটনার স্মৃতিকে পুনরায় অনুভব করা, যা তাকে শক্তি দেবে (Desire), কিন্তু বাড়ির প্রাচীন কাঠামোর একটি ঘর্ষণের শব্দ সেই চিন্তাকে ছিন্ন করে দেবে (Obstacle), ফলে তিনি নতুন দৃঢ় সংকল্প নেবেন (Turn)।
+- একটি বৃষ্টির দিনে যখন সবাই ঘরের ভেতরের কোণে আবদ্ধ থাকবে (Setting), বেহুলার ইচ্ছা হবে এই ঘর থেকে শারীরিক এবং মানসিক ভাবে বেরিয়ে আসা (Desire), তাকে বাধা দেবে শ্বশুরবাড়ির কোনো প্রভাবশালী সদস্যের সরাসরি, সূক্ষ্ম তিরস্কার (Obstacle), যার ফলে তিনি বাইরে ঝমঝম বৃষ্টিতে একা হাঁটতে বের হবেন (Turn)।
 
 ### subject_rotations
 
-- Treating 'অপবাদ' not as an insult, but as a specific form of social energy—a corrosive current she must physically swim against.
-- Viewing the widow’s garment (the saree) less as mourning attire and more as a contested piece of territory defining her liminal state between life and accepted afterlife.
-- Examining how the memory of Lkhindor's vitality contrasts sharply with the oppressive weight of public scorn, creating an internal psychic schism.
+- সন্দেহকে একটি জীবন্ত উপাদান বা রোগ হিসেবে উপস্থাপন করা যা ধীরে ধীরে কাঠামোটিকে গ্রাস করছে
+- আত্মমর্যাদা রক্ষার প্রক্রিয়াটিকে কোনো প্রাচীন, অপ্রকাশিত শিল্পকর্ম তৈরির মতো কঠিন এবং ব্যক্তিগত সৃজনশীল প্রক্রিয়ার রূপক হিসাবে দেখা
 
 ### sensory_details
 
-- The gritty feel of dry earth or dust settling onto the edges of her mourning cloth.
-- The metallic tang of unshed tears mixed with the smell of banked funeral pyre smoke clinging to her skin.
-- The specific, uneven rhythm created by her footsteps on rough ground as she walks through judgment.
+- ঘরের কাঠের মেঝেতে জমে থাকা ধূলোর কণাগুলির উপর সকালের প্রথম সূর্যের আলোর তীক্ষ্ণ প্রতিফলন
+- রান্নাঘরে ব্যবহৃত মেটালের পাত্রগুলিতে লেগে থাকা কালচে দাগ এবং সেগুলোর ঠান্ডা, স্পর্শকাতর অনুভূতি
 
 ### research_questions
 
-- How can Bengali poetic diction render pervasive social condemnation in a way that feels personal and immediate rather than generalized?
+- গ্রামীণ বা প্রথাগত আবাসে 'নিঃসঙ্গতা' কোন ধরনের পরিবেশ দ্বারা চিহ্নিত হয়—প্রাকৃতিক বিচ্ছিন্নতা নাকি সামাজিক চাপের কারণে সৃষ্ট?
 
 ### structural_variants
 
-- A circular structure: beginning and ending with the act of looking out at the world, but each repetition showing a minuscule shift in her internal resilience.
-- A heavily fragmented structure mirroring rumour—short bursts of dialogue/judgment interspersed with long, unbroken lines of her silent endurance.
-- An inverted arc: starting deeply immersed in grief (the immediate wound) and slowly gaining altitude by achieving emotional distance from the slander.
+- একটি ফ্লোটিং-কনশাসনেস স্টাইল, যেখানে প্রতিটি সংকেত একটি ছোট অভ্যন্তরীণ মুহূর্তের সমষ্টি হবে
+- ক্রমবর্ধমান উত্তেজনা (escalation) ভিত্তিক কাঠামো, যেখানে প্রতি অনুচ্ছেদে সন্দেহের চাপ সামান্য বৃদ্ধি পাবে।
 
 ### unused_angles
 
-- Exploration of how younger generations view or interpret the suffering woman through different moral lenses than older villagers.
-- The silence of certain people—those who witness the cruelty but offer no verbal defence, and what that silence signifies about communal complicity.
-- A brief meditation on memory: does her recollection of Lkhindor soften the blow, or make the slander feel more acute?
+- পরিবারের কোনো সদস্যের অতীতের দুর্বলতার চিত্র ব্যবহার করে বেহুলার পরিস্থিতির উপর আলোকপাত করা
 
 ### variety_note
 
-Where previous chapters established the loss (Chapter 2) and initial flight (Chapter 6), this chapter focuses microscopically on the public endurance required to maintain dignity against targeted social corrosion.
-
-## draft
-
-### sha256
-
-f0c7ebdcaad5284ea67b33af995a42dd28cb0d31083dc73113a462492af9d6cc
-
-### written_at
-
-2026-10-21T16:21:49.432095+00:00
-
-### origin
-
-write
+পূর্ববর্তী অধ্যায়গুলি বাহ্যিক দ্বন্দ্ব বা সংঘাতকে তুলে ধরে; এই অধ্যায়টি সম্পূর্ণভাবে অভ্যন্তরীণ মনস্তাত্ত্বিক ক্ষয় এবং নিঃশব্দ প্রতিরোধকৌশলের ওপর মনোনিবেশ করবে।

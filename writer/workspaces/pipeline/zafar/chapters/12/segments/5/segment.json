@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত গজল",
+  "segment_summary": "তাঁর শেষ নিঃশ্বাস যেন একটি অসমাপ্ত গজল হয়ে বাতাসে মিশে যায়, যা পাঠককে ভাবায়—এই কাব্যিক প্রতিরোধ কি সত্যিই সফল হয়েছিল?",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the realization not as a victory of words, but as a profound acceptance of necessary dissolution (nihilism tempered by art)",
+    "story_option": "Setting: A phantom memory of the Diwan-i-Khas balcony overlooking the Yamuna; Desire: To force one final perfect couplet before oblivion claims the breath; Obstacle: The sound of approaching British marching boots, a constant drumbeat of erasure.",
+    "subject_rotation": "Examining the metaphysical difference between a 'Raja' (King) and a poet using 'Takhallus'",
+    "sensory_detail": "Touch: The abrasive texture of rough, un-dyed local cloth against sun-scorched skin",
+    "research_question": "What specific Mughal court idioms focused on inner divinity or spiritual sovereignty that would have been culturally immune to colonial administrative definition?",
+    "structural_variant": "A cyclical structure where each segment uses an image introduced in the prior one, but inverted.",
+    "variety_note": "Unlike earlier chapters which dealt with conflict and resistance against erasure, this chapter is purely reflective; it focuses on achieving a quiet transcendence *after* the struggle has been lost."
+  }
+}

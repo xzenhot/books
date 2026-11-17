@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 32,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বনাম আত্মিক",
+  "segment_summary": "কাব্যটি স্বাদকে একটি বৈজ্ঞানিক রাসায়নিক প্রক্রিয়ার ঊর্ধ্বে নিয়ে গিয়ে প্রশ্ন করে—স্বাদ কি কেবল যৌগ, নাকি তা আত্মার গভীরে ভাজা এক মানবিক অনুভূতি?",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the act of savoring the emptiness (the void) with the same meticulous ritualism applied to preparing the original food.",
+    "story_option": "Setting: In front of a mirror in a new room, noticing one's own hand tremble as it reaches for nothing; Desire: To ground this physical tremor to some past tactile sensation (e.g., hot oil splatter); Obstacle: The modern environment offering only clean, sterile surfaces; Turn: The trembling becomes the ultimate testament—a living archive.",
+    "subject_rotation": "Shifting from the food item to the abstract concept of 'Home' as a non-transferable vibrational state.",
+    "sensory_detail": "The sound of one's own slow, deliberate exhalation against a window pane in an unfamiliar climate.",
+    "research_question": "How can I maintain the required word count (10 $\\pm$ 1 per line) while ensuring each segment title and summary feels both philosophically grand and grounded in the simple act of eating?",
+    "structural_variant": "Breaking the 8 segments into two halves: The Past Resonance (Segments 1-4) and The Future Acceptance/Negation (Segments 5-8).",
+    "variety_note": "Unlike neighbours that fixate on specific ingredients or external settings, this chapter dives solely into the post-consumption *void*—the ontological space between having eaten and remembering."
+  }
+}

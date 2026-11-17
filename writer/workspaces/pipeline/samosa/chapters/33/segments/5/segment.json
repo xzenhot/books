@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 33,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা অংশ",
+  "segment_summary": "এই কাব্যিক অনুসন্ধান প্রমাণ করে যে, কিছু স্মৃতি কেবল জিভে নয়, আত্মার গভীরেও ভাজা থাকে, যা খাদ্যের মাধ্যমে প্রকাশিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus to the physical act of cleansing the mouth after eating, where the lingering sensation becomes an archive of memory.",
+    "story_option": "Setting: Inside an old-fashioned clay pot (*koraai*) left unused in a foreign kitchen; Desire: To coax the scent from its porous walls using only breath and memory; Obstacle: The overpowering, neutral smell of modern ventilation systems.",
+    "subject_rotation": "Exploring the duality of language loss: the ability to name *samosa* but losing the semantic weight of *singara*.",
+    "sensory_detail": "The metallic chill emanating from the worn enamel of a forgotten eating dish.",
+    "research_question": "What specific Bengali idiom best conveys an 'unattainable perfection' in sensory experience?",
+    "structural_variant": "Beginning with a sharp, declarative statement about the finality of emptiness (a sudden stop) before spiraling backward into memory.",
+    "variety_note": "This chapter contrasts heavily with preceding segments by focusing entirely on post-consumption entropy—the afterglow, the residue, rather than the act of preparation or initial transit."
+  }
+}

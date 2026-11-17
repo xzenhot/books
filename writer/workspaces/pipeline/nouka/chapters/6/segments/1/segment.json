@@ -4,19 +4,19 @@
   "chapter_index": 6,
   "segment_index": 1,
   "total_segments": 8,
-  "segment_title": "কংক্রিটের শহর",
-  "segment_summary": "নদীর উজানে কংক্রিটের শহর গজিয়ে ওঠে; কবিতা সেই শহরকে নদীর বিপরীত সভ্যতা হিসেবে দাঁড় করায়।",
+  "segment_title": "ধীর গতির প্রতিচ্ছবি",
+  "segment_summary": "গোপাল তার নৌকার পাটাতনে বসে অতীতের সেই সোনালী, ধীর গতির দিনগুলোর প্রতিচ্ছবি খুঁজে বেড়ায়, যেখানে নদীর গতি ছিল জীবনের স্বাভাবিক তাল।",
   "name": "1",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Focusing the entire chapter on the contrast between a single, calloused hand (Gopal's) tracing an ancient bend on a wet map versus the mechanical readout of dredging coordinates.",
-    "story_option": "Setting: The muddy edge where a newly straightened channel meets an old, beloved sandbar; Desire: Gopal attempts to anchor his boat in the familiar place, only to find the dredged bank is razor-sharp concrete; Obstacle: A small piece of ancient river wood he used as a guide marker has been cleanly severed.",
-    "subject_rotation": "Shifting emphasis from 'modernization' as an external threat to 'erasure' as a passive state—the slow, unfeeling decay of meaning when context is stripped away.",
-    "sensory_detail": "The sharp, mineral taste left in the mouth after inhaling air near heavy machinery exhaust.",
-    "research_question": "What is the local Bengali descriptor for an area that has been irreversibly altered by infrastructural development?",
-    "structural_variant": "A sectional structure: dedicating one segment entirely to the language/jargon of engineering versus another entirely to the oral traditions used by boatmen.",
-    "variety_note": "This chapter is distinct from earlier pieces by externalizing the conflict; rather than focusing on internal tradition (song/generosity), it targets the imposition of an alien, quantifiable structure onto the natural flow of life."
+    "angle": "কবি-সত্তা হিসেবে নদী: যে জলধারা গোপালের গানকে শুনতে চায় কিন্তু আধুনিক স্রোত তাকে কানে পৌঁছতে দেয় না।",
+    "story_option": "সেটিং: নৌকার ভেতরের অন্ধকার কুঠুরি; আকাঙ্ক্ষা: গোপাল তার পুরনো বাদ্যযন্ত্রটি স্পর্শ করেন যা বহু বছর ব্যবহৃত হয়নি; বাধা: ডিজেলের কম্পন এতটাই তীব্র যে সেটি যন্ত্রটির সমস্ত সুর নষ্ট করে দেয়, ফলে তিনি কেবল আঙুল দিয়ে সেই ধ্বনি তৈরির চেষ্টা করেন।",
+    "subject_rotation": "নদীকে কেবল পরিবেশগত উপাদান নয়, বরং একজন প্রাচীন বিচারক হিসেবে দেখানো, যিনি গোপালের বর্তমান নীরবতার নীরবতাকে পর্যবেক্ষণ করছেন।",
+    "sensory_detail": "ভেজা কাঠের ওপর জমে থাকা পলিমাটির সূক্ষ্ম, উষ্ণ আস্তরণ যা অতীতের গন্ধ ধারণ করে।",
+    "research_question": "এই প্রেক্ষাপটে 'নদীর ধীর ছন্দ'কে ধ্বনিবিজ্ঞানের দৃষ্টিকোণ থেকে কীভাবে বর্ণনা করা যায়—এটি কি শুধু কম ফ্রিকোয়েন্সি নাকি একটি নির্দিষ্ট তরঙ্গরূপ?",
+    "structural_variant": "একটি 'ডায়ালগয়িং লুপ': প্রতিটি ছোট অংশে অতীত ও বর্তমানের চিত্রকল্প একইসাথে আবর্তিত হতে থাকবে, কোনো স্পষ্ট পরিবর্তন না ঘটিয়ে শুধু তীব্রতার পরিবর্তন হবে।",
+    "variety_note": "এই অধ্যায় পূর্ববর্তী সংঘাতমূলক দৃশ্যের (পর্ব ৩ ও ৪) বিপরীতে এক গভীর অন্তঃস্থ লয়ের সৃষ্টি করে; এটি আক্রমণ নয়, বরং টিকে থাকার জন্য একটি শান্ত আত্মসমীক্ষার মুহূর্ত যা পাঠকের মধ্যে দার্শনিক প্রশ্ন জাগায়।"
   }
 }

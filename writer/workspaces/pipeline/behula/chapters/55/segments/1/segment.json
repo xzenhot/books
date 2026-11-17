@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 55,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর আগমন",
+  "segment_summary": "সমস্ত সংগ্রাম শেষে, বেহুলার জীবনে সেই প্রতীক্ষিত প্রত্যাবর্তন ঘটে, যা তার অস্তিত্বের শূন্যতাকে পূর্ণতা দান করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the silence of an unheard listener (the wall/reader) throughout, forcing a half-conversation in the poem.",
+    "story_option": "A scene where she addresses a cracked piece of pottery, asking it if it witnessed the turning point.",
+    "subject_rotation": "Shifting focus from 'achievement' (winning) to 'endurance as a fundamental state' (simply continuing to exist against all odds).",
+    "sensory_detail": "The gritty texture of dust motes dancing in a newly found shaft of morning light, symbolizing clarity emerging from confusion (Visual/Tactile).",
+    "research_question": "What specific Bengali idiom encapsulates the feeling of 'grief made permanent' or 'endurance as trauma'? What precise classical word can convey the weight of sustained spiritual vigilance?",
+    "structural_variant": "The poem could adopt a circular structure where the final lines subtly echo the opening address to the unheard wall.",
+    "variety_note": "This chapter contrasts with previous segments by emphasizing resolution rather than escalating conflict; it is about integration, not rupture. The focus shifts from struggle against external forces toward the quiet processing of their meaning."
+  }
 }

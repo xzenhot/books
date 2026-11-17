@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "পর্যবেক্ষকের নীরবতা",
+  "segment_summary": "The observer retreats into a state of attentive silence, having gathered the evidence, leaving the final judgment to the reader.",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "ক্ষুদ্র মুহূর্তগুলোকে 'শব্দগত অনুরণন' হিসেবে দেখা, যেখানে প্রতিটি বস্তু যেন পূর্ববর্তী পঙক্তির ধ্বনিকে প্রতিধ্বনিত করে একটি সম্মিলিত আবহ তৈরি করে।",
+    "story_option": "একটি নির্দিষ্ট প্ল্যাটফর্মের পুরোনো খুঁটিতে স্থির হয়ে দাঁড়িয়ে থাকা পর্যবেক্ষক, যিনি তার চারপাশের সমস্ত নড়াচড়াকে যেন এক বিশাল বাদ্যযন্ত্রের কম্পন হিসাবে অনুভব করেন (Feeling the Vibration)।",
+    "subject_rotation": "সামাজিক কাঠামোর স্থায়িত্ব নিয়ে প্রশ্ন না করে, এর অস্থিরতাকেই জীবনের আদি সত্য হিসেবে মেনে নেওয়া।",
+    "sensory_detail": "পার্থক্যহীন ধূসর বিকেলে লোহা কাঠামোর ওপর থেকে ওঠা উষ্ণ ধাতব গন্ধ (Metallic Warmth)।",
+    "research_question": "বাংলা কাব্যিক গঠনে কীভাবে বারবার একই ধরনের ক্ষুদ্র বস্তুকে ভিন্ন ভিন্ন আঙ্গিকে (যেমন, ঘাম $\rightarrow$ তাপ $\rightarrow$ অস্থিরতা) ব্যবহার করে একটি দার্শনিক অগ্রগতি তৈরি করা যায়?",
+    "structural_variant": "A Palindromic Stanza Structure: যেখানে প্রতিটি স্তবকের শেষের লাইনটি পূর্ববর্তী স্তবকটির শুরু হওয়ার ধারণার বিপরীতার্থক হয়ে ফিরে আসে।",
+    "variety_note": "এই পর্ব অন্যান্য অধ্যায়ের চেয়ে বেশি বিমূর্ত ও সংহত; এটি বিচ্ছিন্ন চিত্রের তালিকা থেকে সরে এসে সেই চিত্রগুলির সম্মিলিত অস্তিত্বের দার্শনিক প্রতিধ্বনি অনুসন্ধানে মনোনিবেশ করে।"
+  }
+}

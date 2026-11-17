@@ -1,0 +1,79 @@
+{
+  "chapter_index": 8,
+  "name": "8",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "nouka — পর্ব 8 — nouka",
+  "chapter_summary": "This chapter focuses on the unpredictable fluctuations of the river's water level, a disruption that transcends mere geography to destabilize Gopal's entire existence. The natural rhythm, once a reliable companion, now becomes a source of existential uncertainty, mirroring the cultural instability he faces. The imagery centers on the shifting silt and the precarious balance of the boat against the rising and falling currents. The central question remains: can a tradition rooted in stable, predictable cycles survive when the very medium of its existence becomes erratic?",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "জলস্তরের অস্থিরতা",
+      "segment_summary": "নদীর জলস্তর অপ্রত্যাশিতভাবে ওঠানামা করতে থাকে, যা প্রাকৃতিক চক্রের বাইরে এক অস্থিরতা সৃষ্টি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "প্রবাহের অনিশ্চিত ভাষা",
+      "segment_summary": "প্রাকৃতিক প্রবাহের স্থিতিশীলতা ভেঙে যাওয়ায়, গোপালের দৈনন্দিন জীবন এক নতুন অনিশ্চয়তার স্তরে ঠেলে দেওয়া হচ্ছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "পলিমাটির অস্থিরতা",
+      "segment_summary": "নদীর তলদেশ, যা এতদিন পরিচিত ছিল, তা এখন দ্রুত পরিবর্তনশীল পলি ও স্রোতের কারণে এক অচেনা রূপ ধারণ করছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "নৌকার ভারসাম্য",
+      "segment_summary": "গোপালের নৌকা, যা বহু বছরের অভিজ্ঞতায় স্থিতিশীল ছিল, তা এখন এই নতুন, অস্থির জলধারায় ক্রমাগত ভারসাম্য হারানোর ঝুঁকিতে রয়েছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "প্রকৃতির নীরব বিদ্রোহ",
+      "segment_summary": "নদী যেন তার নিজস্ব প্রাচীন চুক্তি ভঙ্গ করছে, যা মানব জীবন ও সংস্কৃতির ওপর নির্ভর করত।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "সাংস্কৃতিক কম্পন",
+      "segment_summary": "এই জলস্তরের পরিবর্তন কেবল জলজ নয়, এটি সেই সাংস্কৃতিক ভিত্তিকে নাড়িয়ে দিচ্ছে যা ভাটিয়ালি গান ও উদারতার ওপর দাঁড়িয়ে ছিল।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অপেক্ষা ও উদ্বেগ",
+      "segment_summary": "গোপাল এখন আর কেবল যাত্রীর জন্য অপেক্ষা করে না, বরং নদীর পরবর্তী আকস্মিক পরিবর্তনটির জন্য গভীর উদ্বেগ নিয়ে অপেক্ষা করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অস্তিত্বের নতুন মানচিত্র",
+      "segment_summary": "এই অস্থিরতা গোপালকে বাধ্য করছে তার জীবন ও কাজের মানচিত্রকে নতুন করে আঁকতে, যেখানে স্থিতিশীলতা আর কোনো নিশ্চয়তা নয়।",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

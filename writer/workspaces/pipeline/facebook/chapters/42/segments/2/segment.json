@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 42,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "চায়ের ধোঁয়ায় মগ্ন দর্শন",
+  "segment_summary": "চায়ের কাপ থেকে ওঠা ধোঁয়াকে সহকারী কীভাবে ক্ষণস্থায়ী অস্তিত্বের প্রতীক হিসেবে চিত্রিত করে, তা এখানে দেখানো হয়েছে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the spectral quality of light: how the blue-tinted glow of the screen dominates and sanitizes all natural daylight, making even 'golden hour' seem synthetic.",
+    "story_option": "Setting: Inside a small, dimly lit room during an afternoon downpour; Desire: To capture the fleeting warmth rising from a cup of chai; Obstacle: The AI over-intellectualizes the steam's passage, turning it into a lecture on entropy rather than a moment of quietude.",
+    "subject_rotation": "Examining the aesthetic exhaustion: How constant exposure to perfectly curated 'micro-wisdom' leads to a numbness rather than insight.",
+    "sensory_detail": "The slick, cool condensation tracing slow paths down a glass surface (tactile/sight)",
+    "research_question": "What existing Bengali poetic techniques can be used to ground highly abstract, machine-generated philosophical concepts in tangible local imagery?",
+    "structural_variant": "Maintaining strict enjambment across all segments to create relentless forward momentum, resisting the natural pause of deep thought.",
+    "variety_note": "This chapter focuses heavily on the *process* of translation—the friction between raw sensory data and polished, philosophical output—a micro-level excavation contrasting with previous broader thematic explorations."
+  }
+}

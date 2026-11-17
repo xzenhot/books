@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার ক্ষুদ্র প্রতিমা",
+  "segment_summary": "প্রতিমার ভঙ্গুরতা এবং মাটির ক্ষণস্থায়ীতার ধারণাকে ব্যক্তিগত আত্ম-উপলব্ধির সঙ্গে তুলনা করা হয়, যেখানে আত্মাকেই এক ভঙ্গুর শিল্পের মতো দেখা হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A purely kinetic reading: Treating the poem as a series of micro-movements—the precise angle of light falling on wet earth, the subtle flex of a weary wrist preparing an offering. (Anti-grandeur approach).",
+    "story_option": "Setting: Inside an unused storage room where dried *শিউলি* petals and residual red powder are kept; Desire: The poet attempts to recreate the exact chemical scent profile of the festival's climax using only basic domestic elements (like camphor or soot). Obstacle: Memory’s inherent inaccuracy.",
+    "subject_rotation": "Deconstructing the 'cycle' not as eternal recurrence, but as an exhausting series of temporary societal negotiations that necessitate annual repetition.",
+    "sensory_detail": "Touch: The pervasive sensation of cool moisture permeating garments even long after leaving the riverbank—a physical residue of passage.",
+    "research_question": "How do local dialects describe the act of 'letting go' when the act is fundamentally based on intense retention (memory/belief)?",
+    "structural_variant": "Interweaving segments: Mixing philosophical reflection (from the summary) directly into intensely physical sensory descriptions without clear transition markers.",
+    "variety_note": "This chapter shifts the focus from grand mythological action to internal cartography; it examines how belief survives when the external icon has dissolved, prioritizing quiet persistence over dramatic declaration."
+  }
+}

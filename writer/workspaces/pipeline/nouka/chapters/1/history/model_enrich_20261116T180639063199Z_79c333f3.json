@@ -1,0 +1,79 @@
+{
+  "chapter_index": 1,
+  "name": "1",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "nouka — পর্ব 1 — nouka",
+  "chapter_summary": "This opening chapter establishes the setting within the muddy, monsoon-swollen rivers of rural Bengal, centering on Gopal, the aging majhi. His small, scarred wooden boat, the *nouka*, is introduced not just as a vessel, but as a living archive carrying the weight of generations of Bhatiyali sorrow and ingrained generosity. The chapter sets the tone by contrasting the organic rhythm of the delta life with the subtle, looming threat of external change. It leaves the reader questioning whether the deep, ancestral contract between the boatman and the river can withstand the first whispers of an encroaching, modern tide.",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "পলিমাটির রঙে রাঙা গোপাল",
+      "segment_summary": "The chapter begins by painting the portrait of Gopal, whose skin is deeply tanned by the river silt, establishing him as the embodiment of the delta's enduring spirit.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "নৌকা: এক ভাসমান আর্কাইভ",
+      "segment_summary": "The *nouka* is detailed as a repository of memory, carrying the echoes of Bhatiyali songs steeped in the bittersweet longing of the marginalized communities.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "বর্ষার আগমন ও বিষাদ",
+      "segment_summary": "The arrival of the monsoon is described, bringing with it the cyclical, powerful imagery of the rains and the melancholic timbre of the traditional songs.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "উদারতার অলিখিত চুক্তি",
+      "segment_summary": "The chapter explores the sacred, unspoken social contract where Gopal's boat offers passage to the poorest laborer, transcending mere economic transaction.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "নদীর প্রাচীন গর্জন",
+      "segment_summary": "The natural, slow rhythm of the Ganges tributaries is emphasized, portraying the river as a living, sustaining entity in its ancient state.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "প্রথম ফাটল",
+      "segment_summary": "A subtle shift in the atmosphere is introduced, hinting at the external pressures that will soon challenge the river's established flow.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "কাঠ ও শ্রমের স্পর্শ",
+      "segment_summary": "The physical reality of Gopal's labor—the calloused hands and the worn oars—is highlighted as the tangible link to his ancestral way of life.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অজানা স্রোতের পূর্বাভাস",
+      "segment_summary": "The chapter concludes with a sense of quiet tension, foreshadowing the collision between the organic life of the delta and the mechanical ambitions of the outside world.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক ও আত্মিক বিভাজন",
+  "segment_summary": "এই অধ্যায়টি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে না দেখে, এটিকে আত্মার গভীরে প্রোথিত এক সাংস্কৃতিক সত্য হিসেবে তুলে ধরে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the longing not as nostalgic grief but as a form of intellectual rigor: demanding structural perfection from an unstable cultural object.",
+    "story_option": "Setting: A cramped, makeshift kitchen operating under the harsh glare of industrial fluorescent lights; Desire: To successfully replicate the specific low-heat steam retained by a village oven; Obstacle: The inability to source traditional earthenware or achieve the correct ambient moisture.",
+    "subject_rotation": "The object as a failed translation in literary terms—where the intent (Singhara) is lost in bureaucratic/commercial rendering (Samosa).",
+    "sensory_detail": "The visual contrast between the deep, saturated ochre of remembered filling and the paler, washed-out hue of its contemporary counterpart.",
+    "research_question": "How does the concept of 'perfect heat' (আঁচ) translate when using different electrical or gas heating systems abroad, impacting textural integrity?",
+    "structural_variant": "An external, observed narrative focusing on a shop owner who understands this conflict through commercial transactions.",
+    "variety_note": "This chapter deepens the philosophical rift begun in earlier pieces by moving from mere description of taste loss to an inquiry into ontological status, a shift away from simple geographical displacement."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 51,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "মুক্তির মহিমা",
+  "segment_summary": "এই চূড়ান্ত পরিণতি কেবল ব্যক্তিগত মুক্তি নয়, বরং নিপীড়িত আত্মার সম্মিলিত কণ্ঠস্বরের এক মহৎ ঘোষণা।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'victory' not as a static state, but as an ongoing negotiation with the societal memory that tried to define her as broken.",
+    "story_option": "Setting: Beside a distant, unmoving star (ধ্রুবতারা); Desire: To establish a shared rhythm against time’s chaos; Obstacle: The realization that their perfect past is locked away, only visible in memory fragments.",
+    "subject_rotation": "Interrogating whether their reunion validates divine power or merely showcases the profound tenacity of human will, making them equally powerful forces.",
+    "sensory_detail": "A dull, heavy pressure settling into the chest—the weight of all unsaid words finally becoming physically palpable.",
+    "research_question": "What classical Bengali metaphor exists for sustained endurance that suggests crystalline rigidity without implying total cessation of striving?",
+    "structural_variant": "An immediate shift to extreme interior monologue in Segment 1, grounding the reunion entirely within the psyche before any outward action occurs.",
+    "variety_note": "Unlike earlier chapters focusing on struggle or doubt, this section is dedicated to the silence *after* victory—examining what that stillness costs and entails."
+  }
+}

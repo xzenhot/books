@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের জিজ্ঞাসা",
+  "segment_summary": "এই দ্বৈততা শেষ পর্যন্ত একটি গভীর জিজ্ঞাসা তৈরি করে: একটি বস্তুর 'স্বাদ' কি তার ভৌগোলিক অবস্থান দ্বারা নির্ধারিত হয়, নাকি তা কেবল আত্মার স্মৃতি দ্বারা সংরক্ষিত থাকে?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the 'night-voice' prompt: describing the consumption during the very low, quiet hours before dawn, when internal monologue is loudest.",
+    "story_option": "Setting: The narrator's hand, holding the wrapper edge. Desire: To peel back every layer to find the original 'Singara' blueprint beneath the standardized 'Samosa'. Obstacle: The layers are perfectly uniform and modernly pressed. Turn: Accepting that uniformity is the final surrender of specificity.",
+    "subject_rotation": "Focusing solely on the syntax mismatch between describing 'Singara' (richly evocative) versus 'Samosa' (functional/generic).",
+    "sensory_detail": "The specific sound of a single crisp edge breaking under pressure at 4 AM silence.",
+    "research_question": "How does the concept of 'unspoken history' manifest itself phonetically when a key term or sound is intentionally omitted in translation?",
+    "structural_variant": "A dialogue structure between two fragments of memory: one highly detailed (Singara), one vague/generalized (Samosa).",
+    "variety_note": "This chapter drills down beyond mere flavor loss (Chapter 10) to investigate the *ontological* split—the dual nature where one object simultaneously belongs and does not belong."
+  }
+}

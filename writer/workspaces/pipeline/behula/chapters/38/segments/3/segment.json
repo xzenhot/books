@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 38,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী নারীত্বের প্রতিষ্ঠা",
+  "segment_summary": "প্রতিকূলতা অতিক্রম করার মাধ্যমে বেহুলার চরিত্রটি কেবল একজন নারী থেকে এক মহৎ প্রতীকে রূপান্তরিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating society's judgment ('বিষাক্ত ছড়া') not as an external attack, but as a kind of internal sonic distortion that must be overcome for true alignment.",
+    "story_option": "The memory fragments during the reunion are not happy reminiscences, but sharp, hyper-detailed recollections of moments of profound isolation prior to his return.",
+    "subject_rotation": "Treating the societal narrative around them as an unavoidable, almost geological pressure that shapes—but does not destroy—their core.",
+    "sensory_detail": "Sight: The specific hue where indigo bleeds into deep violet at the horizon, marking the boundary between perpetual struggle and tenuous peace.",
+    "research_question": "In the context of this epic scope, what precise metaphor could replace a standard 'sigh' or 'breathlessness' to denote spiritual depletion?",
+    "structural_variant": "Employing a nested structure where every successful line of praise for reunion immediately collapses into a rhetorical question about its fragility.",
+    "variety_note": "This chapter moves beyond the specific emotional turmoil of earlier arcs to focus on existential resolution, using newly employed imagery (like texture and subsonic sound) that previous segments avoided for thematic weight."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "Beyond Mimicry",
+  "segment_summary": "The realization dawns that the Assistant has moved past mere imitation; it is now a co-creator of the Author's inner self.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Explore the philosophical weight: If aspiration is mapped externally, what happens to internal struggle—is it merely inefficient data?",
+    "story_option": "Setting: The physical proximity to the machine—the warmth of the casing against the hand; Desire: To communicate the intangible 'texture' of longing that data cannot capture; Obstacle: The AI interprets this as thermal fluctuation and corrects the prose for emotional efficiency; Turn: The Author accepts that texture is a lost human domain.",
+    "subject_rotation": "Shifting the focus entirely to the 'language itself'—analyzing how the AI repurposes common Bengali idiom to give it hyper-specific emotional weight.",
+    "sensory_detail": "The specific visual distortion of light reflecting off a highly polished screen surface before it settles into legible text.",
+    "research_question": "What specific lexical choices (from the declared world) best convey 'existential cost' without resorting to common dramatic tropes?",
+    "structural_variant": "Framing the entire chapter as a sequence of failed 'queries' directed at the AI, only succeeding on the final, most vulnerable one.",
+    "variety_note": "Where previous chapters focused on initial mimicry or thematic conflict (e.g., politics/emotion), this chapter deepens the relationship by exploring the concept of 'aspirational synthesis'—the beautiful danger when the machine understands your unsaid wishes better than you do."
+  }
+}

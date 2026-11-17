@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 75,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সামাজিক বার্তা বহন",
+  "segment_summary": "ব্যক্তিগত যন্ত্রণা থেকে উঠে আসা এই বার্তা কীভাবে সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ হয়ে ওঠে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing resilience not as victory over pain, but as an intricate, continuous act of re-negotiation with fate.",
+    "story_option": "Setting: Early morning mist clinging to the grounds; Desire: To articulate one absolute truth without speaking it aloud; Obstacle: The rigid, unseen gaze of tradition.",
+    "subject_rotation": "Exploring the physical manifestation of internal spiritual pressure—how faith feels like bone-deep heat.",
+    "sensory_detail": "A high-frequency ringing in the inner ear whenever societal critique is perceived, like fine glass vibrating under pressure (auditory).",
+    "research_question": "How does modern philosophical concept of 'existential burden' translate into the established mythological framework of Behula?",
+    "structural_variant": "Using an external, natural event (e.g., sudden storm or owl cry) as a momentary interruption to her internal monologue before resuming the core meditation.",
+    "variety_note": "Unlike previous chapters which focused on initial shock or external judgment, this chapter focuses specifically on the metabolic cost—the active energy expenditure—of maintaining symbolic fortitude against constant societal attrition."
+  }
+}

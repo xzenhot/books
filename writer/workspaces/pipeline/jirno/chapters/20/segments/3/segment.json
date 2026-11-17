@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "প্রহরী রূপে সাঁওতাল",
+  "segment_summary": "সাঁওতাল পল্লী এবার কেবল নীরব দর্শক থাকে না; তারা প্রকৃতির চিরন্তন ভারসাম্যের অতন্দ্র প্রহরী রূপে সামনে আসে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The traveler attempts to articulate his indecision in a language so precise and technical that it only serves to highlight its own absolute failure when faced with primal elemental forces.",
+    "story_option": "Setting: Near the Satual periphery, where the house's influence finally dissolves into open fields; Desire: To observe a ritualistic action performed by the elders concerning 'leaving things be'; Obstacle: The profound inability to decode this act without imposing a Western analytical framework; Turn: He realizes the action is entirely non-anthropocentric—it involves only soil and wind.",
+    "subject_rotation": "Juxtaposing the hyper-articulated internal monologue (the civic ego) against moments where the protagonist is forced into pure, involuntary sensory reception.",
+    "sensory_detail": "Sight: The transient optical distortion caused by heat shimmer rising off baked clay patches, making distant objects appear to swim and reorganize themselves.",
+    "research_question": "How did traditional Bengali lyricism describe the transition between a state of potential violence (storm) and absolute stillness?",
+    "structural_variant": "Interleaving short, intensely visceral sensory vignettes (one per segment) that break the momentum of the philosophical argumentation.",
+    "variety_note": "This chapter moves past the *identification* of the conflict (Chapters 1-6) into its active, elemental enactment, emphasizing forced submission to dynamic forces rather than reasoned choice. The voice shifts from analysis to sustained observation under extreme environmental pressure."
+  }
+}

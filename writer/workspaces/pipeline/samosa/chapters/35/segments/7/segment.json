@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 35,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "শিকড়ের অনুরণন",
+  "segment_summary": "হারানো স্বাদের মাধ্যমে প্রবাসীর 'আমি' তার শিকড় খুঁজে বেড়ায়, যা এই শেষ স্তরে এসে এক গভীর, নীরব স্বীকৃতি লাভ করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing strictly on the physical residue: treating the coating of residual oil as a geological stratum layered by travel and change.",
+    "story_option": "Setting: A sterile, brightly lit modern pantry; Desire: To find a single grain of rice husk from Bengal hidden amongst imported goods; Obstacle: The sheer volume and homogeny of the new inventory; Turn: Discovering only identical packaging material.",
+    "subject_rotation": "Treating the flavor decay not as a memory loss, but as a chemical imperative that defies human will.",
+    "sensory_detail": "The sharp, mineral taste left by cheap table salt versus the complex earthen tang of indigenous sea-salt.",
+    "research_question": "What specific texture descriptors in Bengali poetry can capture 'persistent, unresolvable lingeringness' without resorting to common metaphors?",
+    "structural_variant": "The poem should begin and end with an imperative command directed toward an inanimate object (e.g., 'Listen, Tawa').",
+    "variety_note": "This final chapter pivots from melancholic acceptance toward a highly detached, almost scientific examination of persistence—challenging the romantic tendency to find ultimate meaning in the 'sweet melancholy'."
+  }
+}

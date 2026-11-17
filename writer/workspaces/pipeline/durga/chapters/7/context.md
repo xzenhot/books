@@ -10,17 +10,224 @@
 
 ## word_target
 
-300
+1000
+
+## segment_count
+
+8
 
 ## chapter_title
 
-কুমোরটুলির মাটি
+সিঁদুর খেলার কোমল শক্তি
 
 ## chapter_summary
 
-কুমোরটুলির ভেজা মাটির গন্ধে জেগে ওঠে দেবীর প্রথম রূপ — মাটিই সেই দেবীর আদি গর্ভ।
+এই অধ্যায়টি উৎসবের সামাজিক ও মানবিক দিকটিকে কেন্দ্র করে আবর্তিত হয়, যেখানে সিঁদুর খেলার মাধ্যমে নারীর পারস্পরিক বন্ধন ও ভালোবাসার দৃশ্য চিত্রিত হয়। এটি শক্তির এক কোমল রূপকে তুলে ধরে, যেখানে বিজয় কেবল মহাজাগতিক যুদ্ধের নয়, বরং সামাজিক সম্পর্কের পুনঃপ্রতিষ্ঠারও প্রতীক হিসেবে আবির্ভূত হয়। এই দৃশ্যপট দেখায় কীভাবে ভক্তি ও আরাধনার পাশাপাশি মানবীয় স্নেহ ও সহমর্মিতা উৎসবের আবহে এক নতুন মাত্রা লাভ করে, যা পাঠককে প্রশ্ন করতে বাধ্য করে—এই সামাজিক বন্ধন কি ক্ষণস্থায়ী আনন্দের আড়ালে লুকিয়ে থাকা গভীর মানবিক সত্যকে বহন করে?
 
 ## further_references
+
+- 6
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+7.1
+
+#### word_target
+
+125
+
+#### segment_title
+
+লাল আভা ও অঙ্গীকার
+
+#### segment_summary
+
+সিঁদুর খেলার মুহূর্তটি বর্ণিল লাল আভা দ্বারা আবৃত, যা কেবল রঙের খেলা নয়, বরং নারীদের মধ্যে পারস্পরিক অঙ্গীকার ও ভালোবাসার প্রতীকী আদান-প্রদান।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+7.2
+
+#### word_target
+
+125
+
+#### segment_title
+
+স্নেহের বিনিময়
+
+#### segment_summary
+
+এই অংশে দেখানো হয় কীভাবে সিঁদুর পরানোর মাধ্যমে এক নারী অন্য নারীর জীবনে শক্তির কোমলতম রূপটি সঞ্চারিত করে, যা যুদ্ধের কঠোরতা থেকে ভিন্ন এক বিজয়।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+7.3
+
+#### word_target
+
+125
+
+#### segment_title
+
+সামাজিক বন্ধনের পুনর্গঠন
+
+#### segment_summary
+
+উৎসবের এই দৃশ্যটি সামাজিক কাঠামোর মধ্যেকার সম্পর্কগুলোকে নতুন করে দৃঢ় করে, যেখানে ধর্মীয় আখ্যান ব্যক্তিগত সম্পর্কের উষ্ণতা লাভ করে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+7.4
+
+#### word_target
+
+125
+
+#### segment_title
+
+শক্তির কোমল রূপান্তর
+
+#### segment_summary
+
+মহিষাসুর বধের অপ্রতিরোধ্য শক্তি এখানে নারীর পারস্পরিক নির্ভরতা ও সহমর্মিতার মাধ্যমে রূপান্তরিত হয়, যা শক্তির দ্বৈত প্রকৃতিকে উন্মোচিত করে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+7.5
+
+#### word_target
+
+125
+
+#### segment_title
+
+আনন্দ ও আত্মসমর্পণের টানাপোড়েন
+
+#### segment_summary
+
+এই দৃশ্য আনন্দের আড়ালে এক ধরনের আত্মসমর্পণের ইঙ্গিত বহন করে, যেখানে ব্যক্তিগত আকাঙ্ক্ষা বৃহত্তর সামাজিক বন্ধনের কাছে বিনম্র হয়।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+7.6
+
+#### word_target
+
+125
+
+#### segment_title
+
+ইন্দ্রিয়গ্রাহ্য উৎসব
+
+#### segment_summary
+
+শিউলি ফুলের গন্ধ ও সিঁদুরের লাল আভা মিলে এক গভীর ইন্দ্রিয়গ্রাহ্য অভিজ্ঞতা তৈরি করে, যা দার্শনিক সত্যকে স্পর্শ করার মাধ্যম হয়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7.7
+
+#### word_target
+
+125
+
+#### segment_title
+
+ক্ষণস্থায়ীতার প্রতিচ্ছবি
+
+#### segment_summary
+
+এই সমস্ত রঙিন মুহূর্তগুলো ক্ষণস্থায়ী, ঠিক যেমন উৎসবের আনন্দ, যা অনিবার্যভাবে বিচ্ছেদের দিকে চালিত হয়।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+7.8
+
+#### word_target
+
+125
+
+#### segment_title
+
+মানবিক আকাঙ্ক্ষার প্রতিধ্বনি
+
+#### segment_summary
+
+এই কোমল মুহূর্তগুলো আসলে মানুষের গভীরতম আকাঙ্ক্ষার প্রতিধ্বনি, যা কেবল ধর্মীয় আচার দ্বারা সীমাবদ্ধ নয়, বরং জীবনবোধের অংশ।
+
+#### further_references
 
 
 ## level
@@ -31,52 +238,46 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Treating the raw clay not as material for a goddess, but as memory—a repository of past festivals/forms lost to the earth.
-- Focusing entirely on the tactile process: the wetness, slip, and resistance of the clay under the artisan's hands, using physical effort as a metaphor for devotion.
-- Shifting the focus from Durga herself to the Earth (Prithvi) from which the material originates—a dialogue between creator and raw substance.
+- একটি প্রাচীন বাড়ির গৃহবধূ, যিনি সিঁদুর পরানোর এই আচারের মাধ্যমে আসলে তার চাপা পড়ে থাকা কোনো অপূর্ণ ব্যক্তিগত আকাঙ্ক্ষাকে (যেমন একটি নির্দিষ্ট সম্পর্কের প্রতি) প্রতীকী স্বীকৃতি দিচ্ছেন।
+- এই দৃশ্যকে রাত্রিকালীন নিম্ন স্বরস্থ (low register) থেকে দেখা—যখন উৎসবের शोर কমে আসে এবং কেবল নারীদের ফিসফিস করা আলাপন ও সিঁদুর মাখার চাপা শব্দ অবশিষ্ট থাকে।
+- আচারের মাধ্যমে শারীরিক স্পর্শ (হাত/বাহু)-এ কেন্দ্রীভূত হওয়া; যেখানে হাতের আলতো চাপ বা আঙুলের স্পর্শ যেন সমস্ত মহাজাগতিক প্রতিশ্রুতি ধারণ করে আছে।
 
 ### story_options
 
-- Setting: The damp workshop of the Kumortuli lane at pre-dawn. Desire: To hear the subtle sound of water being poured onto newly dug clay, seeking a resonance that mirrors an internal prayer. Obstacle: The persistent smell of stagnant water mixing with mineral dust.
-- Setting: A pile of unfired, waiting forms covered in sacking material. Desire: To imagine the *potential* shape beneath the covering—a spectral outline of future divinity without definition. Obstacle: The practical danger of collapse or cracking before firing.
-- Setting: Near a clay kiln chimney emitting steam and mineral scents. Desire: To capture the moment raw, soft earth achieves semi-permanence through heat (metaphorically mirroring transformation). Obstacle: The immense weight/pressure required to hold an unstable form.
+- Setting: পুরোনো পাড়ার কোনো উঠোন, Desire: কাউকে নিঃশর্তভাবে আপন করে নেওয়ার ইচ্ছা, Obstacle: সামাজিক রীতিনীতি ও লোকলজ্জা, Turn: সিঁদুর মাখানোর মাধ্যমে সেই আকাঙ্ক্ষাটি এক গভীর আত্ম-সমর্পণে পরিণত হওয়া।
+- Setting: প্রদীপের আলোয় মণ্ডপের কোণ, Desire: অন্যের মতো হয়ে ওঠার গোপন বাসনা (mimicry), Obstacle: নিজের ব্যক্তিত্বের প্রতি ভয়, Turn: আচারের মধ্য দিয়ে খুঁজে পাওয়া এক সাময়িক 'স্মার্ট' মুক্তিবোধ।
+- Setting: জলাধারের ধার (বিসর্জনের ঠিক আগের সন্ধ্যা), Desire: ক্ষণস্থায়ী সৌন্দর্যের স্থায়িত্ব কামনা করা, Obstacle: সময়ের নিরন্তর ক্ষয়, Turn: সিঁদুরকে জীবনের চলমান প্রবাহ হিসেবে গ্রহণ করে তাকে স্রোতে ছেড়ে দেওয়া।
 
 ### subject_rotations
 
-- Focusing solely on the transition from 'unformed mass' to 'potential divine body,' dwelling only in the pre-sculptural stages.
-- Examining the community of the artisans—the collective rhythm and unspoken pact among them as they prepare for the impending celestial visitation.
-- Treating the act of molding not as creation, but as temporary containment; the clay holding back an elemental force.
+- সিঁদুরের লাল রংকে কেবল বিবাহের বা শক্তির প্রতীক না ধরে, একে 'জ্বালা' (burning desire/passion) হিসেবে ব্যবহার করা যা সব বাঁধন ভাঙার ইঙ্গিত দেয়।
+- নারী-থেকে-নারীর এই আদানপ্রদানকে বিচ্ছিন্নতা নয়, বরং এক অদৃশ্য মানসিক কার্বন নেটওয়ার্কের মতো চিত্রিত করা, যেখানে আবেগ বিনিময় হয় না; বরং শক্তি স্থানান্তরিত হয়।
+- এই 'কোমল শক্তির' বিপরীতে মহিষাসুরের আদিম, স্থূল ক্রোধের একটি অতি সংক্ষিপ্ত ও নিছক দৃশ্যগত উল্লেখ (যেন দুটি বিপরীত মেরুর সংঘাত)।
 
 ### sensory_details
 
-- Smell: The distinct, heavy mineral odor rising from saturated river silt mixed with wet straw fibers.
-- Touch: The cool, yielding give of clay that has been kneaded hundreds of times until it holds a perfect plasticity.
-- Sound: A low, rhythmic *thud*—the sound of a mallet shaping the base form repeatedly into damp earth.
+- সিঁদুরের গুঁড়ো যখন সূর্যালোকে পড়ার আগে বাতাসের কণা ধরে চিকচিক করে ওঠে – যেন জমাট বাঁধা সোনালী ধূলিকণা।
+- শীতল ঘামে ভেজা ত্বকের ওপর সিঁদুর লাগানোর উষ্ণ, তেলের মতো স্পর্শের অনুভুতি; এটি এক ধরণের নিবিড় আলতো করা (caress)।
 
 ### research_questions
 
-- How is the specific type of river clay used in Kumortuli culturally categorized or prepared before molding?
-- Are there traditional verbal formulae or invocations recited by artisans while working with raw, unfired material?
+- বাঙালির লোকগাথায় 'সিঁদুরের লাল আভা' কীভাবে মাতৃত্ব বা সম্পর্কের প্রাথমিক স্বীকৃতির সঙ্গে যুক্ত?
+- উৎসবকালীন সামাজিক মিথস্ক্রিয়ায়, আকাঙ্ক্ষাকে প্রকাশ না করে কেবল শারীরিক অঙ্গভঙ্গি দিয়ে মানসিক বার্তা আদান-প্রদানের সূক্ষ্ম কৌশলগুলি কী?
 
 ### structural_variants
 
-- A series of short vignettes, each dedicated to a different stage of the clay—from extraction to preliminary shaping.
-- A meditation structure where every line begins not with an object, but with a state of being (e.g., 'Wetness...', 'Weight...').
-- An oppositional poem: juxtaposing the immense weight of unworked earth against the gossamer lightness of the envisioned deity.
+- একটি 'ইনসাইড ভয়েস' কাঠামো যেখানে সমস্ত দৃশ্য শুধুমাত্র বক্তার হাতের কাজ এবং তার ত্বকের অনুভূতি দ্বারা বর্ণিত হবে।
+- এক ধরণের ডাবল পশামাত্রা (double focus) ব্যবহার করা: বাইরে জনসমাগম ও ভেতরে ব্যক্তিগত স্তরের একান্ত নীরবতা।
 
 ### unused_angles
 
-- The specific socio-economic relationship between the artisans and their patrons (the community/pandals) during this foundational stage.
-- A focus on the tools themselves—the wooden bats, spatulas—as extensions of a divine will being imprinted upon matter.
+- উৎসবের শেষে সিঁদুরের রং ধুয়ে যাওয়ার পর ত্বকের ওপর পড়া এক প্রকার 'ফ্যাকাশে শূন্যতার' চিত্রায়ণ, যা আনন্দের পরে আসে।
+- এই আচারের প্রতি সমাজের চাপ বা আরোপিত প্রত্যাশার ভারকে শারীরিক ব্যথা (ache) রূপে ফুটিয়ে তোলা।
 
 ### variety_note
 
-Where previous chapters focused on external auditory or luminous elements ('Shuili', 'Agomoni'), this chapter grounds itself entirely in materiality and touch, centering on the pre-sculptural state of being.
+Neighbouring chapters dealt with collective spectacle (masses/pandal), raw power (battle climax), or materiality (clay). This chapter focuses on the intricate, intimate, and subtly negotiated sphere of interpersonal female bond during a moment of apparent softness.

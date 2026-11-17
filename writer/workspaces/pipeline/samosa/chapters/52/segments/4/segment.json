@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 52,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "মাটির গন্ধের অনুপস্থিতি",
+  "segment_summary": "সরিষার তেলের সঙ্গে গাঁথা মাটির গন্ধটি প্রবাসের ধূসর পটভূমিতে হারিয়ে যায়, যা শিকড়ের বিচ্ছিন্নতাকে নির্দেশ করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the tactile sensation of residue left by the oils—the difference between a sharp, biting film (mustard) and a smooth, inert slip (neutral).",
+    "story_option": "Setting: A small, dusty shelf holding only bottles of various oils; Desire: To find a single unlabeled bottle that holds the perfect spectral memory of home; Obstacle: The labels have all been worn smooth by travel.",
+    "subject_rotation": "Treating the oil as a form of historical archive, where each fatty acid molecule represents a lost dialect or unremembered ritual.",
+    "sensory_detail": "Visually: The aggressive ochre spread against dull grey counter surfaces during cooking attempts.",
+    "research_question": "What are specific colloquial Bengali descriptors for 'flavor that is fundamentally correct but emotionally incomplete'?",
+    "structural_variant": "Structuring the poem entirely around antithesis, using parallel couplets that oppose 'Sorsher' vs. 'Neutral', 'Jhal' vs. 'Nishchipto'.",
+    "variety_note": "This chapter delves deeply into the chemistry and sensory science of flavor loss, moving beyond simple geographical displacement by isolating 'oil' as the primary vehicle for cultural memory decay, unlike neighboring chapters focusing on the whole food item or broader market exposure."
+  }
+}

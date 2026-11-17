@@ -1,8 +1,8 @@
-# ছাইয়ের মধ্যে সারকথা
+# The Unwritten Chronicle
 
 ## Workshop
 
-প্রকাশের দাম চুকিয়ে, অরুণিমা ও বিক্রম দেখে কী থেকে যায় যখন সব শিরোনাম মুছে যায়। চাপা সত্যটি শহরের গভীরে ছড়িয়ে পড়ে—যেমন ছাইয়ের নিচে রক্ষিত এক অদৃশ্য অঙ্গার, যা কেবল মানুষের মুখে মুখে বেঁচে থাকে।
+This chapter delves into the philosophical core of the narrative, examining the tension between the transient nature of news and the enduring weight of lived experience. It explores how the characters grapple with the idea that their personal struggles—their 'the'—are often reduced to fleeting 'a' or 'an' in the relentless media cycle of Delhi. The imagery shifts between the sterile, high-rise glass and the dense, forgotten corners where true narratives reside. The central question remains: Can a singular, deeply felt human truth ever survive the commodification and speed of the modern urban article?
 
 ## Story
 

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "শিকড়ের অনুরণন",
+  "segment_summary": "হারানো স্বাদের মাধ্যমে কবি তার শিকড়ের সন্ধান করেন, যা কেবল একটি খাবারের নাম বা আকার দ্বারা সংজ্ঞায়িত হতে পারে না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting perspective to focus on the internal architecture of desire: treating yearning as a physical tension or stress fracture within the self (linked to the body/hand motif).",
+    "story_option": "Setting: Inside an unused, heavy woven cloth bag left by a traveler; Desire: For the fibers of the sack to somehow absorb and release the ghost scent of yesterday's frying oil; Turn: The smell is not released, but instead sharpens into an unbearable, pure chemical note.",
+    "subject_rotation": "Focusing purely on the body's reaction to the void: How does sustained, unresolved longing manifest physiologically (tight chest, tremor) rather than intellectually?",
+    "sensory_detail": "Sound: The high, sustained drone of distant traffic overpowering the memory of sizzling oil.",
+    "research_question": "How can I imbue the abstract concept of 'sweet melancholy' into concrete tactile imagery without becoming overly sentimental?",
+    "structural_variant": "A dialogue between the physical reality of the foreign food and the phantom memory of the home flavor.",
+    "variety_note": "This chapter moves away from describing the *process* (cooking, traveling) to analyzing the *aftermath*—the metaphysical residue left on the palate and soul."
+  }
+}

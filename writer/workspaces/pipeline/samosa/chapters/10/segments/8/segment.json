@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা দাগ",
+  "segment_summary": "এই অসমাপ্ত স্বাদ প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কখনও পুরোপুরি মুছে যায় না।",
+  "name": "8",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Temporal distortion through taste: Framing the 'unfinished taste' not as stasis, but as hyper-speed travel back to Bengal, where the lingering aftertaste is the momentary landing point before snapping back.",
+    "story_option": "Setting: A quiet corner in a transit station late at night (cold); Desire: For the lingering, non-material 'taste' on the tongue to stabilize into a recognizable memory fragment, like catching a specific thread of light; Obstacle: The artificial hum of distant transport overriding internal echoes.",
+    "subject_rotation": "Treating the protagonist's tongue/palate not as a sensor, but as a flawed historical archive whose memory is corrupted by diaspora travel.",
+    "sensory_detail": "A pervasive metallic tang in the mouth residue, suggestive of unfamiliar urban pollutants replacing pure spice oils.",
+    "research_question": "How can syntactic variation reflect the emotional oscillation between deep introspection and abrupt external sensory stimuli?",
+    "structural_variant": "Using cyclical phrasing where the final word of one stanza echoes or slightly transforms the first word of the next.",
+    "variety_note": "This chapter shifts focus from describing the *change* (like Chapter 3) to dwelling exclusively on the ontological weight of what is left behind after consumption, confronting the void directly through symbolic address."
+  }
+}

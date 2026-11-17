@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 16,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন অসুর",
+  "segment_summary": "প্রতিটি সাধারণ মানুষের জীবনে লুকিয়ে থাকা ব্যক্তিগত ভয়, সন্দেহ এবং দুর্বলতাগুলিই হলো সেই মহিষাসুর, যাকে প্রতিদিন জয় করতে হয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the daily struggle not as a battle against evil, but as an agonizing act of *maintenance*—the constant effort to prevent inner entropy.",
+    "story_option": "Setting: A single window facing a busy street at 3 AM; Desire: To hear only the sound of one internal heartbeat that defies external noise; Obstacle: The persistent hum of city machinery.",
+    "subject_rotation": "Treating 'Shakti' not as divine influx but as accumulated *endurance*—the sheer refusal to break under pressure.",
+    "sensory_detail": "The specific abrasive friction felt when dry linen scrapes against skin after prolonged ritual dress (touch)",
+    "research_question": "What specific Bengali metaphor describes internal conflict that lacks external manifestation?",
+    "structural_variant": "A sustained use of interrogative syntax throughout, where the answer is perpetually deferred into the next segment.",
+    "variety_note": "Unlike previous sections which emphasized external spectacle or ritual action, this chapter is deliberately inward-facing, prioritizing quiet attrition and the persistence of psychic energy over dramatic event."
+  }
 }

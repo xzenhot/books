@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "মুক্তির শূন্যতা",
+  "segment_summary": "ঝড় থেমে যাওয়ার পর, পথিক কোনো সমাধান নিয়ে না ফিরে, বরং আত্মসমর্পণের পবিত্রতা বহন করে এক নতুন শূন্যতা নিয়ে প্রস্থান করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Frame the 'limit' not as geography or meteorology, but as a precise point of felt breathlessness in the chest.",
+    "story_option": "A moment before the wind strikes, the traveler reaches out to touch a specific piece of crumbling mortar; Desire: To absorb the memory trapped in its texture; Obstacle: His skin registering the extreme heat and abrasive grit as pain; Turn: The pain forces an immediate, visceral retreat, signifying refusal.",
+    "subject_rotation": "Examining the concept of *negative space*—the importance of what remains un-narrated by human agency.",
+    "sensory_detail": "The specific, almost audible crackle in the dry lime plaster under intense atmospheric pressure.",
+    "research_question": "How does the cultural oral tradition of the Satual community conceptually categorize 'unresolved narratives'?",
+    "structural_variant": "An interrupted narrative style where philosophical reflection occurs only during momentary pauses in observation.",
+    "variety_note": "This chapter diverges from its neighbours by prioritizing sustained stillness and internal refusal over external conflict or decisive action. The focus remains intensely localized to the boundary between human desire and geological time."
+  }
+}

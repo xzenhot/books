@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বাধা-প্রতিকূলতার রূপান্তর",
+  "segment_summary": "এখানে দেখানো হয়েছে কিভাবে বাহ্যিক বাধাগুলি তার অভ্যন্তরীণ শক্তির উৎস হিসেবে রূপান্তরিত হয়, যা তাকে আরও দৃঢ় করে তোলে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the voice of the enduring shadow or absence (Likhindar’s echo), which narrates her endurance through memory fragments.",
+    "story_option": "Setting: At the threshold between what is visible and what is veiled by night; Desire: For a single, clear sign from the heavens (a celestial marker); Obstacle: The persistent murmur of judgmental voices carried on the wind.",
+    "subject_rotation": "Using the concept of 'repetition' not as stasis, but as a deliberate ritualistic reinforcement of truth against chaos.",
+    "sensory_detail": "The specific metallic taste left on the tongue when resisting overwhelming grief.",
+    "research_question": "What is the highest density Bengali term for an unwavering, self-imposed commitment that borders on existential defiance?",
+    "structural_variant": "Interleaving short, highly compressed verses detailing precise ritual actions between longer philosophical meditations on endurance.",
+    "variety_note": "Unlike earlier segments focused on external societal confrontation, this chapter centers entirely inward, mapping the geography of resilient spiritual concentration through acts of intense prayer and unwavering self-belief."
+  }
+}

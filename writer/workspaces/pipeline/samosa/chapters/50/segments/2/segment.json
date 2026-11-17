@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অচেনা তেলের শীতলতা",
+  "segment_summary": "প্রবাসের নতুন তেল ব্যবহারের চিত্র তুলে ধরা হবে, যা গন্ধহীন এবং নিরপেক্ষ, যা স্বাদের মৌলিকতাকে ম্লান করে দেয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the dialectical relationship between 'hot' (আঁচ) and 'cold/neutral' (শীতলতা), using physical temperature shifts as metaphor.",
+    "story_option": "Setting: A dimly lit, solitary kitchen workspace after midnight; Desire: To recreate the specific sound of *tala* hitting oil in rhythmic succession; Obstacle: Modern cookware lacks the necessary patina and resonance of old brass/iron; Turn: The memory manifests as a phantom vibration felt through the counter.",
+    "subject_rotation": "Exploring the difference between 'cooking medium' and 'memory carrier' within the context of fat.",
+    "sensory_detail": "The slick, uniform glide of neutral oil across an unseasoned surface.",
+    "research_question": "How can word stress and syllable count be manipulated in Bengali poetry to mimic the rush of an intense, brief aroma versus a slow, pervasive one?",
+    "structural_variant": "An escalating intensity: starting with subtle notes in Segments 1-3, moving into emotional dissonance in Segments 4-6, and concluding with philosophical resignation in 7-8.",
+    "variety_note": "This chapter shifts focus from the object's transformation in transit (neighboring chapters) to the *medium* itself—the cooking oil—as the primary carrier and casualty of cultural displacement, providing an intensified sensory contrast."
+  }
+}

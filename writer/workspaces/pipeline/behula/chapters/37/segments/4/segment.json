@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 37,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের প্রতিচ্ছবি",
+  "segment_summary": "তার জীবন প্রমাণ করে যে ভেতরের আলোকবর্তিকা বাইরের সমস্ত অন্ধকারের চেয়েও শক্তিশালী হতে পারে, যা তার অদম্য সংকল্পের সাক্ষ্য বহন করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The reunion framed as a fragile treaty between personal faith and societal inertia.",
+    "story_option": "Setting: A single threshold stone (a tangible point), Desire: The silent promise exchanged across it, Obstacle: The shadow lingering from previous societal judgments.",
+    "subject_rotation": "Treating 'victory' not as achievement, but as the necessary re-calibration of the self against societal norms.",
+    "sensory_detail": "Sound: A deep, bone-vibrating resonance replacing expected exultation—a primal hum.",
+    "research_question": "How can 'ontological necessity' (the fundamental need for this survival/reunion) be rendered in diction while maintaining poetic lyricism rather than sounding overly academic?",
+    "structural_variant": "A circular structure where Segment 8 thematically re-invokes a core concept from Segment 1, but with subtly inverted emotional weight (e.g., peace vs. anxiety).",
+    "variety_note": "Unlike earlier chapters focusing on conflict and suffering, this section pivots entirely toward resolution, examining not just the return itself, but what remains of the struggle when the external battle ceases."
+  }
+}

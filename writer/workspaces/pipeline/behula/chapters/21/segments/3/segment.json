@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "এই বিজয় বেহুলাকে কেবল একজন নারী হিসেবে নয়, বরং এক মহৎ, অবিস্মরণীয় প্রতীক হিসেবে প্রতিষ্ঠিত করে, যিনি সকল বাধা অতিক্রম করতে সক্ষম।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Employing the concept of 'Echoed Silence': Where the celebration of reunion is punctuated by moments where only the unspoken, damning societal whisper remains audible beneath the triumphant rhythm.",
+    "story_option": "Setting: A quiet corner by a stream, far from onlookers; Desire: To engage in a private, almost scientific analysis of their shared breath and pulse alignment post-event; Obstacle: The sudden intrusion of an external sound (a village cry, a bird's sharp call) shattering the achieved perfect synchronicity.",
+    "subject_rotation": "Presenting the relationship dynamic after reunion through a lens of mutual, earned reverence rather than pure romantic fervor—acknowledging each other's scars as maps.",
+    "sensory_detail": "Sound: A deep, subterranean hum—a low resonance beneath the joyful cadence—that signifies unresolved systemic tension.",
+    "research_question": "What specific archaic Bengali idioms can convey 'self-definition through immense pressure' without sounding overtly didactic?",
+    "structural_variant": "Emphasize a tripartite structure: Past Trauma $\rightarrow$ Moment of Nexus $\rightarrow$ Lingering Resonance (Cyclical divergence)",
+    "variety_note": "This chapter pivots from the sheer act of miraculous return (Previous Chapters) to a philosophical deconstruction of what that triumph fundamentally means in the face of ongoing systemic imperfection, grounding the spiritual high with critical intellectual inquiry."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ভার",
+  "segment_summary": "এই শূন্যতাটি অতীতের সেই নির্দিষ্ট মুহূর্তগুলোর ভার বহন করে, যখন সিঙ্গাড়াটি কেবল একটি খাবার ছিল না, বরং একটি নির্দিষ্ট সময়ের জীবন্ত প্রতিচ্ছবি।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the narrative perspective of the 'anticipation' itself—the feeling that precedes the bite, making the actual taste irrelevant.",
+    "story_option": "A scene focused on a single, perfect line etched into the aluminum packaging (if applicable); Desire: To trace that line back to the mother's hand shaping the dough; Obstacle: The etching symbolizes mass production, not heritage.",
+    "subject_rotation": "Examining the internal conflict where logic dictates satisfaction (food is eaten) while emotion registers profound lack (the memory fails to materialize).",
+    "sensory_detail": "A fleeting vision of specific sunlight angle hitting an earthen stove (chula) before dissolving into ambient urban haze.",
+    "research_question": "How can I integrate high diction (তৎসম) with low-register hunger/craving without letting either tone overpower the nuanced sweetness of melancholy?",
+    "structural_variant": "Alternating between highly detailed descriptions of the empty mouth (internal) and vast, anonymous landscapes (external setting where the speaker resides).",
+    "variety_note": "This chapter contrasts sharply with discussions of market chaos (Neighbour 1/2) by retreating entirely inward, focusing on the post-consumption void rather than the sensory input during eating. It leans into philosophical resonance over narrative action."
+  }
+}

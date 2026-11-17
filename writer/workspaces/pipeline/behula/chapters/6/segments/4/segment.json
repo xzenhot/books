@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আত্মার দৃঢ়তা",
+  "segment_summary": "ক্লান্তি তাকে গ্রাস করতে পারলেও, তার মনোবল কোনোভাবেই ভেঙে পড়ে না, বরং প্রতিটি আঘাত তাকে আরও মজবুত করে তোলে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the physical weight of silence: How emptiness manifests as a tangible pressure, like dense monsoon air.",
+    "story_option": "Setting: A dimly lit corner of her lonely abode; Desire: To hold onto one mundane, unchanging object (like a worn prayer bead) as an anchor against despair (Obstacle: The encroaching fog of weariness); Turn: The object becomes intensely sharp with memory's clarity.",
+    "subject_rotation": "Analyzing endurance not as a spiritual leap, but as an almost animalistic refusal to surrender metabolic energy.",
+    "sensory_detail": "The taste of cold dust mixed with dry jasmine incense from a neglected corner.",
+    "research_question": "Can I find diction that conveys profound fatigue as a state of spiritual density rather than simple physical depletion?",
+    "structural_variant": "Creating nested cantos where each inner thought repeats a core sensory detail from the preceding segment before evolving.",
+    "variety_note": "Unlike chapters focusing on external pressure or cosmic testing, this piece centers entirely on the *internal physics* of resilience—the sheer mechanics of continuing when all evidence suggests collapse is inevitable. It pivots from 'trial' to 'tenacity'."
+  }
+}

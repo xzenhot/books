@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 78,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ঈমানের আলোক",
+  "segment_summary": "তার বিশ্বাসই সেই আলোকবর্তিকা যা প্রাচীন অন্ধকারের বিপরীতে উজ্জ্বল হয়ে ওঠে, প্রথাগত সীমাবদ্ধতাগুলিকে অতিক্রম করার সাহস যোগায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Using the archetype of the sacred text vs. popular folklore: Behula’s belief system as a hidden scripture against pervasive local customs.",
+    "story_option": "Setting: Walking towards an ancient temple gate during mid-day heat (a place of religious authority); Desire: To feel the weight of her own conviction outweigh the monument’s stone mass; Obstacle: The scorching, judgmental gaze of assembled devotees.",
+    "subject_rotation": "Examining tradition not just as constraint, but as inertia—the slow, dangerous weight preventing necessary cosmic movement.",
+    "sensory_detail": "The dull, repetitive sound of grinding grain in the background, counterpointing her internal, high-pitched resonance (auditory).",
+    "research_question": "How was the concept of personal spiritual sovereignty understood in similar socio-cultural contexts adjacent to the established narrative period?",
+    "structural_variant": "A spiraling inward structure: starting with external societal pressure and ending by locating that unbearable weight entirely within her own perfected core.",
+    "variety_note": "Unlike the initial plunge into personal loss (Chapter 1), this chapter focuses entirely outward, engaging directly with external socio-cultural pressures and translating them into internal philosophical assertion."
+  }
+}

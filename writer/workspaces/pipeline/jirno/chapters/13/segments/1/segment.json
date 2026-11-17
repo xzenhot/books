@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সিদ্ধান্তের দ্বারপ্রান্তে",
+  "segment_summary": "পথিক ধ্বংসাবশেষের সামনে দাঁড়িয়ে, তার সমস্ত সংগৃহীত জ্ঞান ও আকাঙ্ক্ষা যেন এক তীব্র দ্বন্দ্বে আচ্ছন্ন হয়ে ওঠে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the central conflict (Preservation vs. Decay) not as an intellectual debate, but as a sustained physical ache within the traveler’s body, where every instinct pulls in opposite directions.",
+    "story_option": "Setting: Standing before a threshold gap in the crumbling wall; Desire: To force one foot across, symbolically crossing the boundary into pure nature; Obstacle: The dust proves too deep to take a firm step.",
+    "subject_rotation": "Focusing the entire chapter not on the decision *made*, but entirely on the unbearable weight of the moment *before* the decision, dwelling in pure liminality.",
+    "sensory_detail": "Sight: The specific way the last sliver of metallic-orange light catches the minute hairs on the traveler's forearm during prolonged inaction.",
+    "research_question": "What archaic Bengali poetic descriptions exist for the precise sensation of 'impending cessation' or irreversible transition?",
+    "structural_variant": "A cyclical structure where each segment ends with a question posed to himself, mirroring the preceding segment’s answer.",
+    "variety_note": "Unlike earlier chapters that built towards conflict (awakening, storm), this chapter dwells entirely in the tense, static aftermath of escalating tension, using internal bodily sensation as the primary narrative driver."
+  }
+}

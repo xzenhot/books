@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য শ্রমের প্রতিধ্বনি",
+  "segment_summary": "The focus turns to the subtle, rhythmic presence of unseen labor—the vendor's call, the milkman's cycle—which forms the bedrock of the daily social structure.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Observer Shift: পর্যবেক্ষককে নিছক দ্রষ্টা না রেখে, তাকে এই ভঙ্গুর বাস্তবতার প্রতি চরমভাবে আসক্ত বা নির্ভরশীল সত্তা হিসাবে উপস্থাপন করা।",
+    "story_option": "The weary traveler does not seek destination; instead, he finds his entire personal history mirrored in the pattern of dust settling on a single threshold stone.",
+    "subject_rotation": "Reinterpreting ritual not as devotion, but as a highly refined form of social contract enforcement codified in mundane gestures.",
+    "sensory_detail": "A sudden auditory void—the moment just before an engine's idle hum drops below conscious hearing threshold.",
+    "research_question": "What are the specific lexical/semantic overlaps in Bengali describing 'fleeting beauty' versus 'enduring pattern' that could support this thematic tension?",
+    "structural_variant": "A fragmented collage structure where segments are not linearly connected but exist in asynchronous loops, echoing memory.",
+    "variety_note": "This chapter moves beyond the gentle observation seen in previous segments by introducing an overt philosophical conflict (Permanence vs. Ephemerality) and forcing the imagery into a high-stakes interrogation, rather than quiet documentation."
+  }
+}

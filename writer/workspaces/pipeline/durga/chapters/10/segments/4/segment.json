@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 4",
+  "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The shift from cosmic divine focus (Durga as supreme power) to intensely private, human desire observed in the shadows of the pandal.",
+    "story_option": "setting: The shadowed inner sanctum of the pandal (near the idol's feet), desire: A silent wish for a specific, mundane human blessing (e.g., familial continuity or prosperity) to be acknowledged by the deity., obstacle: The overwhelming visual spectacle and noise of the surrounding festival pulling attention away., turn: The intensely personal plea is almost drowned out, forcing the speaker to retreat into an internal monologue that questions divine perception.",
+    "subject_rotation": "Focusing on the materiality of 'aasha' (hope)—is hope itself a tangible object that can be offered at the altar?",
+    "sensory_detail": "The scent of marigold petals pressed into warm, damp earth from the pandal floor.",
+    "research_question": "What specific archaic terms exist that differentiate between 'faith' (belief) and 'desire' (want) in high literary contexts?",
+    "structural_variant": "An episodic montage built around distinct human faces peering toward the idol from different social strata.",
+    "variety_note": "Unlike previous chapters that focused on the mechanics (creation/noise), this chapter delves into the psycho-spiritual tension *within* the moment of perceived climax, focusing on unmet longing against backdrop splendor."
+  }
+}

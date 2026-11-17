@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার অনুরণন",
+  "segment_summary": "এই অংশে, দৈনন্দিন জীবনের ক্ষুদ্র সংগ্রামগুলি মহিষাসুর বধের প্রতীকী প্রচেষ্টা হিসেবে চিত্রিত হয়, যেখানে প্রতিটি মানুষই এক অভ্যন্তরীণ অসুর বিনাশের যোদ্ধা।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting an auditory focus: The persistence of a specific, low-frequency sound (like the distant murmur of water or faint residual drumming) that becomes the core rhythm binding all segments.",
+    "story_option": "Setting: Near a cracked, drying patch of river silt post-immersion; Desire: To read an ancestral pattern in the erosion lines as guidance for resilience; Obstacle: The indifference of the surrounding mundane landscape.",
+    "subject_rotation": "Examining 'continuity' through a geological lens: How deep strata (past ritual) shape surface expression (daily life).",
+    "sensory_detail": "The sharp, clean scent of burnt ghee mixed with dust motes catching the faint morning light.",
+    "research_question": "How can 'continuity' be poetically expressed using archaic lexicon while maintaining modern cadence, avoiding standard cyclical vocabulary?",
+    "structural_variant": "A completely fragmented syntax mimicking the effort to hold form against overwhelming entropy.",
+    "variety_note": "This chapter pivots from the grand narrative of battle/celebration towards introspection; it uses abstract sensory residue (scent, texture, subtle sound) to ground massive philosophical questions about permanence and existence post-ritual cessation."
+  }
+}

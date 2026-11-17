@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 51,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "হারানো ঝাঁঝের খোঁজ",
+  "segment_summary": "প্রবাসী 'আমি' ক্রমাগত সেই নিখুঁত, ঝাঁঝালো স্বাদের প্রতিলিপি খোঁজে, যা আর ফিরে পাওয়া সম্ভব নয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the microscopic level—how different oils alter the Maillard reaction, symbolizing cultural degradation at a fundamental, chemical point.",
+    "story_option": "setting: Near a distant, recognizable place (like a port or market hub), desire: To find an ancient spice blend that tastes identical to home., obstacle: The inability of modern sealing/packaging (*packet*) to retain the aromatic integrity across borders., turn: Realizing the quest is not for replication, but for acceptance of a hybrid sensory experience.",
+    "subject_rotation": "Focusing solely on the *lack* of aroma, detailing not what is missing (mustard punch) but the specific nature of that absence—a vacuum rather than a void.",
+    "sensory_detail": "The dull, non-reflective sheen of neutral frying fat against the aggressive, vibrant gloss of mustard oil.",
+    "research_question": "How can I structurally mimic the cognitive dissonance between a deeply imprinted memory (smell) and its diminished, modern counterpart (taste)?",
+    "structural_variant": "A highly asymmetrical structure: eight short, almost haiku-like stanzas focusing intensely on single sensory input (sight/smell/touch) before transitioning into one longer, more discursive section.",
+    "variety_note": "Where earlier segments explored the physical act or flavor outcome, this sequence is dedicated almost entirely to the medium itself—the oil—and its failure to be an inert carrier of sensation."
+  }
+}

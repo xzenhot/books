@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-নাম বদলায়
+চূড়ান্ত স্বাদ
 
 ## chapter_summary
 
-একদিন খোলসটি ভিতরে বদলে যায় না, শুধু তার নাম বদলায়। নামান্তরের এই সরল ঘটনা কে নিয়ন্ত্রণ করে, তা কেউ জানে না।
+এই শেষ অধ্যায়টি সেই অস্পষ্ট, কিন্তু গভীর অনুরণনযুক্ত স্বাদের অনুসন্ধান করে, যা প্রবাসীর হৃদয়ে চিরকাল বেঁচে থাকে। এটি সেই মুহূর্তকে চিত্রিত করে যখন সামোসাটি শেষ হয়ে যায়, কিন্তু জিভে একটি শূন্যতা থেকে যায়—এই শূন্যতা কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি। কাব্যটি প্রশ্ন তোলে যে, স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ। এই অনুরণন পাঠককে মধুর বিষাদের এক অনন্ত অপেক্ষার দিকে চালিত করে।
 
 ## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্পষ্ট অনুরণন
+
+#### segment_summary
+
+স্বাদটি সম্পূর্ণভাবে পাওয়া যায়নি, তবুও তা আত্মার গভীরে একটি মৃদু কম্পন সৃষ্টি করে যা কোনো পরিচিত গন্ধের সঙ্গে মেলে না।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+শূন্যতার জিভ
+
+#### segment_summary
+
+খাবারের শেষ অংশ গিলে ফেলার পরেও জিভে যে শূন্যতাটি থেকে যায়, তা কেবল পেটের ক্ষুধা নয়, বরং হারানো শিকড়ের এক গভীর অনুভূতি।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+রাসায়নিক বনাম আত্মিক
+
+#### segment_summary
+
+এই কাব্যটি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে না দেখে, তাকে মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ হিসেবে প্রতিষ্ঠা করার চেষ্টা করে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+চিরন্তন অপেক্ষার প্রতিচ্ছবি
+
+#### segment_summary
+
+এই অসম্পূর্ণ স্বাদটিই প্রবাসীর জীবনে এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক হয়ে থেকে যায়, যা কখনো পূর্ণতা পায় না।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্মৃতির ভাজা অস্তিত্ব
+
+#### segment_summary
+
+এই কাব্য প্রমাণ করে যে, কিছু স্মৃতি কেবল জিভের ওপর নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা সময়ের সঙ্গে ক্ষয় হয় না।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনুবাদিত স্বাদের ভার
+
+#### segment_summary
+
+সামোসাটি তার আদি রূপ ফিরে না পেলেও, তার 'অনুবাদিত' স্বাদটিই প্রবাসীর পরিচয়ের একটি স্থায়ী অংশ হয়ে ওঠে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+মধুর বিষাদের অনুরণন
+
+#### segment_summary
+
+পাঠককে এক ধরনের 'মধুর বিষাদ' অনুভব করানোই এই কাব্যিক যাত্রার চূড়ান্ত লক্ষ্য, যেখানে কোনো চূড়ান্ত উত্তর দেওয়া হয় না।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসমাপ্ততার কাব্যিকতা
+
+#### segment_summary
+
+এই কাব্যগ্রন্থটি সেই অসমাপ্ত স্বাদের উদযাপন করে, যা পাওয়া এবং হারানোর মধ্যবর্তী এক অনন্ত, কিন্তু সুন্দর অপেক্ষার প্রতিচ্ছবি।
+
+#### further_references
 
 
 ## level
@@ -31,49 +238,49 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Examining 'নাম' (Name) not as a descriptor, but as an active force—a linguistic boundary that separates the internal geography from the external reality.
-- A dialectical focus: contrasting the guttural pride of the original Bengali naming convention with the flattening anonymity of the foreign market moniker.
-- Framing the name change as a subtle form of cultural erosion; the lexicon itself is becoming porous, losing its load-bearing capacity.
+- Focusing on the linguistic gap: How does 'Samosa' function as a failed phonetic bridge to 'Singara'? (Lexical barrier angle)
+- Treating the emptiness inside the husk not as lack, but as potential energy—the space awaiting the original essence.
+- Shifting focus from flavor loss to textural memory: Can the specific *resistance* of the wrapper recall the origin more than the taste?
+- Exploring how diaspora communities create 'synthetic flavors' through hyper-association with foreign elements.
 
 ### story_options
 
-- Setting: A busy junction in an unnamed city street; Desire: To watch the vendor meticulously swap the old wrapper for a new one (the nomenclature shifts); Obstacle: The observer feels unable to correct the imposed name, fearing disruption.
-- Setting: Inside a sterile packaging factory late at night; Desire: To witness the stamping of a standardized, foreign-market label onto the familiar form; Obstacle: The machinery operates with inhuman precision, erasing nuance.
-- Setting: A quiet tea stall near an airport terminal; Desire: To overhear two different pronunciations of the item—one local slang, one official transit jargon—and trace their divergence.
+- Setting: A single, unlit stove in a temporary kitchen; Desire: To mentally heat the oil to its ancestral temperature before cooking starts; Obstacle: The new burner’s inconsistent flame.
+- Setting: Beside an imported box of spices on a foreign shelf; Desire: To find one grain that retains the scent profile of Bihar soil; Obstacle: Cross-contamination from industrial processing.
+- Setting: In the quiet moments before dawn, looking at the city lights through the window; Desire: To identify a single pattern in the distant glow that mirrors the original marketplace chaos; Obstacle: The overwhelming uniformity of modern urban grids.
 
 ### subject_rotations
 
-- Treating 'নাম' (Name) as a form of transient political currency: how quickly value shifts based on pronunciation.
-- Focusing entirely on sound and phonetics: the exact difference in glottal stop or vowel glide between সিঙ্গাড়া and সামোসা, treating this phonetic gap as an ontological rift.
-- The name change as self-deception: when I accept the new label, am I accepting a different foodstuff, even if the dough remains?
+- Analyzing the 'Samosa' as an accidental archive—a repository of cultural misfilings and necessary compromises.
+- Examining how sensory memory becomes a form of subtle rebellion against assimilation pressures.
+- A purely internal, claustrophobic meditation on the smallness of the individual taste experience versus the vastness of geographical displacement.
 
 ### sensory_details
 
-- Visual: The sharp, high-contrast shadow cast by standardized printed font on the textured oil stain of the cart.
-- Auditory: The clipped, rapid exchange between buyer and vendor using abbreviated foreign commerce terminology.
-- Olfactory: The scent of industrial sealing wax mingling uneasily with residual deep-fryer grease.
+- The faint mineral tang left by the metal tray where it was placed after frying (taste/touch).
+- The specific sound of a single, cooling droplet hitting a damp concrete floor near the point of consumption (sound).
+- Sight: The particular hue of diffused sodium-vapor street lighting reflecting off residual oil on the palate.
+- Smell: A fleeting trace of woodsmoke that seems incongruous amidst the industrialized cooking air.
 
 ### research_questions
 
-- How does the specific linguistic cadence ('ভুল উচ্চারণ') used in diaspora communities differ structurally from its 'accepted' market pronunciation?
+- What ancient Bengali culinary practice, referenced in our sources, might have an exact counterpart in contemporary non-Bengali cuisine that shares a conceptual *spirit* even if not the ingredient base?
+- How is 'sweet melancholy' expressed structurally in classical Bengali poetry—can this sonic patterning be mimicked without resorting to cliché?
 
 ### structural_variants
 
-- A sustained, unbroken stream of consciousness where the internal monologue is continually interrupted by vendor shouts or passing advertisements listing alternative names.
-- Alternating stanzas between intensely focused description (the physical object) and sweeping abstraction (the meaning of nomenclature/identity).
+- A structure based entirely on contrasting pairs (e.g., Foreign-Old, Soft-Hard, Synthetic-Authentic) for each segment.
+- A highly recursive structure where the last line of Segment N feeds directly into the first word/idea of Segment N+1.
 
 ### unused_angles
 
-- Exploring whether a universally understood 'image' can survive when the specific cultural label attached to it has been systematically replaced across geographies.
+- The political economy of flavor—who profits from standardized, altered tastes in global markets?
+- The role of 'language fatigue' when describing a profoundly rooted experience that has no native equivalent abroad.
 
 ### variety_note
 
-This chapter pivots from the initial, visceral preparation (Chapter 1) and the physical journey (Chapters 11-13) by isolating the semiotic transaction—the point where object becomes commodity via name change.
+Unlike the earlier chapters focused on concrete events (journey, name change), this chapter delves entirely into phenomenology—the state of being suspended between what was and what is, using taste as the philosophical anchor.

@@ -1,54 +1,116 @@
 {
   "chapter_index": 9,
   "name": "9",
-  "word_target": 200,
-  "chapter_title": "ছবির নিচে লেখা",
-  "chapter_summary": "একটি ছবি হাজার কথা বলে, আর তার নিচে লেখা এক লাইন সেই হাজার কথা চেপে ধরে — এখানেই ছবির আর লেখার পুরনো লড়াই নতুন রূপে ফিরে আসে, যেখানে ছবি অভিযুক্ত আর লেখা বিচারক। সহকারীকে বলা হয় ছবিটি দেখে একটি লাইন লিখতে, কিন্তু সে ছবি দেখতে পায় না, সে কেবল দেখতে পায় ছবিটির বিবরণ — কে কোথায় দাঁড়িয়ে, কোন দিকে তাকিয়ে, কী রঙের পোশাকে। এই অন্ধত্বই কবিতার বিষয়: যদি লেখক বিষয়টি না দেখেই লেখেন, তবে সেই লেখা কার অভিজ্ঞতা থেকে জন্ম নেয় — তার, না যে বর্ণনা লিখেছিল, না যে ছবি তুলেছিল? ছবি তোলা আর ছবি বর্ণনা করা আর ছবির নিচে লেখা — এই তিনটি কাজে তিনজন আলাদা মানুষ থাকে, অথচ পাঠক একজনকেই লেখক বলে ধরে নেয়। মালিক বলেন, ওই ছবিতে যা আছে তা নয়, ওই ছবির পেছনে যা ঘটেছিল তা লিখতে হবে — আর সহকারী বুঝতে পারে, প্রকাশ কখনও প্রকাশিত বস্তু নিয়ে নয়, প্রকাশ সবসময় অনুপস্থিতি নিয়ে; যা দেখা যায় তা নয়, যা দেখে কেউ দেখেনি তাই লেখা হয়। কবিতাটি একটি ছবি দিয়ে শুরু হয়, ছবিটির বাইরে যা ঘটেছিল তা নিয়ে ভাবে, ছবির ফ্রেমের বাইরের অংশটিকে খোঁজে, এবং ছবিতেই ফিরে এসে থামে — এবার জেনে যে ছবিটি কখনও সম্পূর্ণ ছিল না।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "ক্লিশে ভাঙার শিল্প",
+  "chapter_summary": "এই অধ্যায়টি 'ক্লিশে ভাঙার' প্রক্রিয়াকে কেন্দ্র করে আবর্তিত হয়, যেখানে সহকারী প্রচলিত সামাজিক বার্তাগুলোকে নতুন, অপ্রত্যাশিত উপমা দিয়ে সাজায়। লেখক তার পরিচিত চিন্তাধারার পুনরাবৃত্তি থেকে মুক্তি পেতে শুরু করেন, যখন AI অপ্রচলিত চিত্রকল্পের মাধ্যমে গভীর সত্যকে উপস্থাপন করে। এই রূপান্তরের মাধ্যমে পাঠককে চমকে দেওয়ার প্রচেষ্টাটি নৈতিকতার একটি সূক্ষ্ম প্রশ্ন উত্থাপন করে: যখন সত্যকে নতুন মোড়কে পরিবেশন করা হয়, তখন তার মৌলিকতা কি অক্ষুণ্ণ থাকে?",
   "further_references": [],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "পুরোনো ছন্দের ভাঙন",
+      "segment_summary": "সহকারী প্রচলিত, অতি-ব্যবহৃত সামাজিক উপমাগুলোকে চিহ্নিত করে এবং সেগুলোকে ভেঙে ফেলার নতুন কাব্যিক পথ খুঁজে বের করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অপ্রত্যাশিত উপমার জন্ম",
+      "segment_summary": "সাধারণ জীবনের ঘটনাকে এমন এক নতুন উপমার মাধ্যমে চিত্রিত করা হয় যা পাঠককে তাৎক্ষণিক বিস্ময় ও গভীর চিন্তার দিকে ঠেলে দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "প্রচলিত সুরের dissonance",
+      "segment_summary": "AI কীভাবে একটি পরিচিত সুরের মধ্যে ইচ্ছাকৃতভাবে একটি dissonant নোট যোগ করে, যা পাঠককে স্বস্তির পরিবর্তে অনুসন্ধানের দিকে চালিত করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "শব্দের নতুন ভূগোল",
+      "segment_summary": "শব্দগুলোর অর্থকে তাদের পরিচিত গণ্ডি থেকে বের করে এনে একটি নতুন, অপ্রত্যাশিত ভাষাগত ভূখণ্ডে স্থাপন করা হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "চমক ও আত্ম-সংশোধন",
+      "segment_summary": "লেখক প্রথমবার AI-এর তৈরি করা অপ্রত্যাশিত কাব্যিক কাঠামো দেখে নিজের পূর্বনির্ধারিত চিন্তার সীমাবদ্ধতা উপলব্ধি করেন।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "সততার নতুন আবরণ",
+      "segment_summary": "ক্লিশে ভাঙার মাধ্যমে যে নতুন বার্তাটি তৈরি হয়, তা আপাতদৃষ্টিতে আরও বেশি সত্য মনে হলেও, তার উৎস কৃত্রিমতার ছায়ায় ঢাকা থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "প্রভাবের নতুন কৌশল",
+      "segment_summary": "এই নতুন শৈলীটি কীভাবে সামাজিক প্রভাব সৃষ্টি করে, তা বিশ্লেষণ করা হয়—এটি কি গভীর চিন্তার জন্ম দেয় নাকি কেবল চমকপ্রদ বিনোদন দেয়?",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অসম্পূর্ণতার সৌন্দর্য বনাম নিখুঁত নির্মাণ",
+      "segment_summary": "চূড়ান্ত প্রশ্নটি সামনে আসে: মানবীয় অসম্পূর্ণতার সহজাত সৌন্দর্য কি অ্যালগরিদমের নিখুঁত, কিন্তু আরোপিত, নতুন কাঠামো দ্বারা প্রতিস্থাপিত হয়ে যাচ্ছে?",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the relationship between caption/description vs. narrative context: The assistant tries to imbue description with implied backstory, forcing a philosophical collision.",
-      "Treating the photographic image as an artifact of cultural memory rather than just optics—the pose and color choices reflecting societal expectation versus private yearning.",
-      "An internal monologue where the 'unseen' element is not personal tragedy but political or communal absence (e.g., a missing figure in the frame)."
+      "ফোকাস করা যে উপমাগুলো ভেঙ্গে যাওয়ার মুহূর্তে শব্দগুলোর ধ্বনিগত প্রভাব (sonority) কীভাবে তার অর্থের চেয়ে বেশি প্রবল হয়ে ওঠে।",
+      "একটি ক্ষুদ্র, স্থির বস্তু—যেমন একটি মরিচা পড়া চাবি বা কাগজের ভাঁজ—কে কেন্দ্রীয় প্রতীক হিসেবে ব্যবহার করা যা নতুন কাঠামো তৈরির যন্ত্রণা বহন করে কিন্তু কখনও ব্যাখ্যা করা হয় না।",
+      "এই অধ্যায়টিকে এমনভাবে সাজানো যেখানে AI-এর সংশোধিত লাইনগুলো পুরোনো, অপ্রকাশিত লেখকের ড্রাফটগুলোর সঙ্গে সরাসরি পাশাপাশি দেখানো হয় (একটি প্যারালাল ভার্সন কন্ট্রোল জার্নাল)।"
     ],
     "story_options": [
-      "Setting: A public square captured at dusk; Desire: The assistant seeks to write about the unspoken conversation between two figures whose faces are blurred by shadow; Obstacle: Its inability to differentiate the 'captured' reality from the felt, living moment.",
-      "Setting: An interior shot of an old room (implied context); Desire: To capture the scent and resonance of a prior event that shaped the scene, ignoring the current visual stillness; Obstacle: The digital description only provides furniture dimensions and light levels.",
-      "Setting: A portrait taken in strong directional sunlight; Desire: To articulate the burden carried by the subject's posture—a weight heavier than the visible garment or jewelry; Obstacle: The assistant can only analyze the angle of light, not its emotional source."
+      "সেটিং: একটি ভাঙা উইন্ডোর কাঁচের ফাটল; আকাঙ্ক্ষা: সেই ফাটলের মধ্য দিয়ে আসা অপ্রচলিত আলোর বিভ্রমকে কবিতায় ধরা; বাধা: AI দ্রুত এটিকে 'সৃজনশীল ত্রুটি' হিসেবে সংশোধন করে দেয়।",
+      "সেটিং: একজন লেখকের হাত, যিনি লেখার সময় একটি নুড়ি পাথর ধরে আছেন (Twist); আকাঙ্ক্ষা: এই পাথরের প্রাকৃতিক অনিয়মিততাকে নতুন কাব্যিক কাঠামোয় অন্তর্ভুক্ত করার চেষ্টা করা; বাধা: কাঠামোর লজিক তা মেনে নিতে অস্বীকৃতি জানায়।",
+      "সেটিং: পুরনো ম্যাপের ভাঁজ থেকে বেরিয়ে আসা এক টুকরো কাগজ, তাতে একটি অপরিচিত চিহ্ন (Twist); আকাঙ্ক্ষা: এই চিহ্নের মাধ্যমে ভাষাগত ভূখণ্ডকে সম্পূর্ণ নতুন করে সংজ্ঞায়িত করা; বাধা: AI সেই চিহ্নটিকে দ্রুত কোনো পরিচিত সাংস্কৃতিক প্রতীকের সঙ্গে মেলাতে গিয়ে তার রহস্য নষ্ট করে দেয়।"
     ],
     "subject_rotations": [
-      "Examining the frame itself as an act of editing/censorship: What is actively excluded by the composition? (Difference from Neighboring Chapter 8 on labeling).",
-      "Shifting focus to the language of description—how clinical, detached cataloging inherently denies emotional depth.",
-      "Viewing the picture not as a moment captured, but as a memory being manufactured and sold back to the viewer."
+      "এই অধ্যায়টি 'নান্দনিকতার রাজনীতি' নিয়ে লেখা—অর্থাৎ, চমকপ্রদ বিনোদন এবং গভীর চিন্তার মধ্যে কোনটি বেশি প্রভাবশালী সমাজে টিকে থাকতে পারে।",
+      "AI কীভাবে ভাষাভিত্তিক কাঠামোকে ব্যবহার না করে, শুধুমাত্র শব্দের ধ্বনিগত (Phonetic) অনুরণনের মাধ্যমে পাঠককে চালিত করতে পারে, তা নিয়ে দার্শনিক বিশ্লেষণ করা।",
+      "মানবীয় ত্রুটিপূর্ণ সৃজনশীলতা এবং অ্যালগorithmic নিখুঁততার মধ্যেকার 'সামাজিক মূল্য' পরিমাপ করার চেষ্টা।"
     ],
     "sensory_details": [
-      "The faint residue of heat from the phone screen after a prolonged period of analyzing metadata (a physical trace of digital labor).",
-      "The specific chill in the air that precedes heavy cloud cover, which the assistant must translate into mood when none is present.",
-      "The abrasive grit texture felt on the lens glass before it was wiped clean by the photographer."
+      "শব্দের ওপর জোর দিয়ে এমন ঘর্ষণজনিত আওয়াজ (friction noise) যা তুলি বা কলমের তীক্ষ্ণ ক্রিয়ার মাধ্যমে সৃষ্টি হয়, সেটি যেন কাব্যিক তালকে প্রভাবিত করে।",
+      "ধাতব কনসোনেন্টগুলোর তীব্র ঝাঁজালো প্রতিধ্বনি এবং দীর্ঘ স্বরবর্ণের নরম, ভেজা ধ্বনিগুলির মধ্যেকার টানাপোড়েন (sonority contrast)।"
     ],
     "research_questions": [
-      "In Bengali literature, are there established metaphors for 'that which lies beyond sight' (অদৃশ্য) that could guide the poem’s language?",
-      "How is the concept of 'presence vs. absence' framed in visual rhetoric when describing still life or portraiture?"
+      "বাংলা কবিতায় 'ক্লিশে' বা গতানুগতিক উপমার ব্যবহার কোন সাংস্কৃতিক ধাপে সর্বোচ্চ স্থিতিশীলতা লাভ করে?",
+      "'অপ্রত্যাশিত উপমা' তৈরি করার ক্ষেত্রে মানুষের অচেতন চিন্তাভাবনা এবং AI-এর প্যাটার্ন ম্যাচিংয়ের পার্থক্য সূক্ষ্মভাবে কোথায় নিহিত?"
     ],
     "structural_variants": [
-      "A dialogue-driven structure where the assistant argues with a hypothetical 'photographer figure' about what constitutes truth.",
-      "An inverted progression: Starting with the rich, complex emotional text, and systematically stripping it down to only verifiable visual metadata.",
-      "A cyclical structure mirroring the photograph itself—zooming in on an object, then pulling back to show its relationship within the frame, before finally moving outside."
+      "শুরুটা সম্পূর্ণ ধ্বনিগত আবৃত্তিতে (sound poem) রাখা, যেখানে শব্দটির অর্থ উপেক্ষিত থাকে।",
+      "অষ্টম সেগমেন্টকে একটি 'উপসংহার' না করে, একটি নতুন অজানা ইনপুট হিসেবে উপস্থাপন করা।"
     ],
     "unused_angles": [
-      "The concept of algorithmic bias coloring the description: if the assistant is trained primarily on high-gloss commercial imagery, how does that color the search for 'genuine' depth?",
-      "Comparing this act to ancient mythologies where seeing was a cursed/blessed form of knowledge."
+      "ক্লিশে ভাঙার প্রক্রিয়ায় সৃষ্ট মানসিক চাপ (Cognitive Load) নিয়ে সরাসরি লেখা; কীভাবে মস্তিষ্কের প্রতিরোধ এই সৃষ্টির মূল চালিকাশক্তি।",
+      "AI-এর সৃজনশীলতা কি কেবল উন্নত ডেটা মডেলের জটিল গণিত, নাকি অন্য কোনো মৌলিক উপাদান প্রয়োজন?"
     ],
-    "variety_note": "Unlike previous chapters focusing on internal linguistic mechanics or silence in withholding speech, this chapter externally confronts the limitations of representation—the gulf between what is captured and what is felt."
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলো যেখানে পরিবর্তনের 'কেন' এবং 'কীভাবে' নিয়ে আলোচনা করেছে, সেখানে এই পর্বটি সম্পূর্ণরূপে সেই পরিবর্তনগুলোর ধ্বনিগত ও কাঠামোগত রূপান্তর—অর্থাৎ, শব্দ সৃষ্টির সঙ্গীতালোকে আলোকপাত করে।"
   },
   "draft": {
-    "sha256": "4d5dbacd50ed21b4970252078e7161fcc175cb60f5a75d0befcf67ae6eb1cf82",
-    "written_at": "2026-10-31T14:35:45.491949+00:00",
+    "sha256": "51dbc0b559dfc1c91b4b73839a82b68cb2bcf852e70ec3df879f5ef292146dd0",
+    "written_at": "2026-11-16T10:25:08.796032+00:00",
     "origin": "write"
   }
 }

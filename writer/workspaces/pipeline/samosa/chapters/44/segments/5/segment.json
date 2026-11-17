@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "হারানো গন্ধের প্রতিধ্বনি",
+  "segment_summary": "জিভের স্মৃতি কীভাবে ঘ্রাণ-স্মৃতির মাধ্যমে মস্তিষ্কের গভীরে একটি সম্পূর্ণ পরিবেশকে ফিরিয়ে আনে, সেই দার্শনিক সংযোগটি এখানে চিত্রিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the narrative perspective of the 'anticipation' itself—the feeling that precedes the bite, making the actual taste irrelevant.",
+    "story_option": "A scene focused on a single, perfect line etched into the aluminum packaging (if applicable); Desire: To trace that line back to the mother's hand shaping the dough; Obstacle: The etching symbolizes mass production, not heritage.",
+    "subject_rotation": "Examining the internal conflict where logic dictates satisfaction (food is eaten) while emotion registers profound lack (the memory fails to materialize).",
+    "sensory_detail": "A fleeting vision of specific sunlight angle hitting an earthen stove (chula) before dissolving into ambient urban haze.",
+    "research_question": "What precise Bengali word captures the feeling of taste recognition being present yet unreachable due to cultural displacement?",
+    "structural_variant": "A structure built around ascending and descending scales of perceived flavor intensity, mapping a peak memory followed by exponential decay.",
+    "variety_note": "This chapter contrasts sharply with discussions of market chaos (Neighbour 1/2) by retreating entirely inward, focusing on the post-consumption void rather than the sensory input during eating. It leans into philosophical resonance over narrative action."
+  }
+}

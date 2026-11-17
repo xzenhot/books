@@ -10,7 +10,7 @@
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "ঊষার আলো বনাম রাত্রির অন্ধকার",
+      "topic": "ঊষার আলো ও আবছা অন্ধকার",
       "category": "",
       "status": "written",
       "file_path": "chapters/1/chapter.md",
@@ -32,7 +32,7 @@
     },
     {
       "chapter_number": 3,
-      "topic": "মহালয়ার পবিত্রতা ও ব্যক্তিগত ট্র্যাজেডি",
+      "topic": "মহালয়ার আগমন ও অনির্বাণের জিজ্ঞাসা",
       "category": "",
       "status": "written",
       "file_path": "chapters/3/chapter.md",
@@ -43,7 +43,7 @@
     },
     {
       "chapter_number": 4,
-      "topic": "প্রাচীন বিশ্বাস বনাম আধুনিক জীবনের বৈপরীত্য",
+      "topic": "শহরের কোলাহল এবং মন্দিরের শান্ত পরিবেশের মধ্যে এক তীব্র বৈপরীত্য",
       "category": "",
       "status": "written",
       "file_path": "chapters/4/chapter.md",
@@ -54,7 +54,7 @@
     },
     {
       "chapter_number": 5,
-      "topic": "স্মৃতির পুনরুত্থান: মহালয়ার পবিত্র মুহূর্তে",
+      "topic": "জাগতিক দায়িত্ববোধ বনাম আত্মিক মুক্তির আকাঙ্ক্ষা",
       "category": "",
       "status": "written",
       "file_path": "chapters/5/chapter.md",
@@ -65,7 +65,7 @@
     },
     {
       "chapter_number": 6,
-      "topic": "শব্দ ও নীরবতা",
+      "topic": "অনির্বাণের নীরব অনুসন্ধান",
       "category": "",
       "status": "written",
       "file_path": "chapters/6/chapter.md",
@@ -76,7 +76,7 @@
     },
     {
       "chapter_number": 7,
-      "topic": "পবিত্রতার আবহে সম্পর্কের টানাপোড়েন",
+      "topic": "নদী তীরে এক গভীর রাতে",
       "category": "",
       "status": "written",
       "file_path": "chapters/7/chapter.md",
@@ -87,7 +87,7 @@
     },
     {
       "chapter_number": 8,
-      "topic": "কোলাহলের মাঝে মহালয়ার নীরবতা",
+      "topic": "নীরব স্বীকৃতি",
       "category": "",
       "status": "written",
       "file_path": "chapters/8/chapter.md",
@@ -98,7 +98,7 @@
     },
     {
       "chapter_number": 9,
-      "topic": "অপ্রত্যাশিত সাক্ষাৎ",
+      "topic": "সময় যেখানে স্থিতিশীল",
       "category": "",
       "status": "written",
       "file_path": "chapters/9/chapter.md",
@@ -109,7 +109,7 @@
     },
     {
       "chapter_number": 10,
-      "topic": "পবিত্রতার প্রান্তে দাঁড়িয়ে 'আমি'",
+      "topic": "পবিত্রতার পথ",
       "category": "",
       "status": "written",
       "file_path": "chapters/10/chapter.md",
@@ -120,7 +120,7 @@
     },
     {
       "chapter_number": 11,
-      "topic": "পবিত্রতার প্রতীকী যাত্রা",
+      "topic": "অসম্পূর্ণতার শিল্প",
       "category": "",
       "status": "written",
       "file_path": "chapters/11/chapter.md",
@@ -131,7 +131,7 @@
     },
     {
       "chapter_number": 12,
-      "topic": "পবিত্রতার আদর্শ বনাম বাস্তবতার কঠিন মাটি",
+      "topic": "মহালয়ার মূল উৎসবের দিনটি আসে",
       "category": "",
       "status": "written",
       "file_path": "chapters/12/chapter.md",
@@ -142,7 +142,7 @@
     },
     {
       "chapter_number": 13,
-      "topic": "আবেগিক বিস্ফোরণ",
+      "topic": "উৎসবের উন্মাদনা ও শূন্যতার আগমন",
       "category": "",
       "status": "written",
       "file_path": "chapters/13/chapter.md",
@@ -153,7 +153,7 @@
     },
     {
       "chapter_number": 14,
-      "topic": "প্রাচীন পুঁথি ও মহালয়ার রহস্যময় মাত্রা",
+      "topic": "অনির্বাণের নীরব স্বীকারোক্তি",
       "category": "",
       "status": "written",
       "file_path": "chapters/14/chapter.md",
@@ -164,7 +164,7 @@
     },
     {
       "chapter_number": 15,
-      "topic": "আলো এবং অন্ধকারের সূক্ষ্ম রেখা",
+      "topic": "মহালয়ার আলো ম্লান",
       "category": "",
       "status": "written",
       "file_path": "chapters/15/chapter.md",
@@ -175,7 +175,7 @@
     },
     {
       "chapter_number": 16,
-      "topic": "পুনর্জন্মের প্রত্যাখ্যান",
+      "topic": "মহালয়া: এর কবিতা",
       "category": "",
       "status": "written",
       "file_path": "chapters/16/chapter.md",
@@ -186,7 +186,7 @@
     },
     {
       "chapter_number": 17,
-      "topic": "মহালয়ার ম্লান হওয়া",
+      "topic": "মহালয়া: এর কবিতা",
       "category": "",
       "status": "written",
       "file_path": "chapters/17/chapter.md",
@@ -197,7 +197,7 @@
     },
     {
       "chapter_number": 18,
-      "topic": "পরিবর্তন নাকি স্থবিরতা",
+      "topic": "মহালয়া: এর কবিতা",
       "category": "",
       "status": "written",
       "file_path": "chapters/18/chapter.md",
@@ -208,7 +208,7 @@
     },
     {
       "chapter_number": 19,
-      "topic": "অনিশ্চিত দিগন্তের দিকে দৃষ্টি",
+      "topic": "মহালয়া: এর কবিতা",
       "category": "",
       "status": "written",
       "file_path": "chapters/19/chapter.md",
@@ -219,7 +219,7 @@
     },
     {
       "chapter_number": 20,
-      "topic": "বীজের অঙ্কুরোদগম",
+      "topic": "মহালয়া: এর কাহিনি",
       "category": "",
       "status": "written",
       "file_path": "chapters/20/chapter.md",

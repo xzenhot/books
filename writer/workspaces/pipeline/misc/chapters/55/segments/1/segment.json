@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 55,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "চায়ের ঘাম ও সিঁদুরের রেখা",
+  "segment_summary": "The poem begins by juxtaposing the ephemeral moisture of a railway chai glass against the enduring, ritualistic mark of vermilion on a doorway.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Observer addresses a specific memory of the absent person, using the small object (e.g., chai glass) as an anchor to that lost conversation.",
+    "story_option": "setting: একটি পরিত্যক্ত রেলওয়ে ট্র্যাকে, desire: পুরোনো চায়ের গ্লাসের অবশিষ্ট ঘামের লবণের স্বাদ পুনরায় উপলব্ধি করা।, obstacle: বাতাসের প্রবল গতি যা সেই সুগন্ধ ও স্পর্শ বহন করে নিয়ে যায়।, turn: পর্যবেক্ষক মনে করে যে সে যাকে খুঁজছে, তার স্মৃতিও হয়তো ওই বাতাসের সাথে মিশে গেছে।",
+    "subject_rotation": "Treating the 'national identity' as a geological formation—layers of dust, heat, and moisture compressed over time.",
+    "sensory_detail": "চায়ের গ্লাসের উপর জমে থাকা ঘামের শীতলতা যখন প্ল্যাটফর্মের উত্তপ্ত ইটের গায়ে লেগে থাকে।",
+    "research_question": "ঐতিহ্যগতভাবে ব্যবহৃত বাংলা শব্দগুলোর মধ্যে এমন কোন পারিভাষিক শব্দ আছে কি যা 'ক্ষয়শীল অথচ অনিবার্য স্থায়িত্ব' এই দ্বান্দ্বিক অবস্থাকে ধ্বনিত করতে পারে?",
+    "structural_variant": "Adopt a strictly tercet structure where the third line always functions as an abrupt philosophical commentary.",
+    "variety_note": "এই পর্বগুলি পূর্ববর্তী দৃশ্যগত পর্যবেক্ষণগুলো একত্রিত করে একটি উচ্চতর দার্শনিক স্তরে উন্নীত হচ্ছে, যেখানে বস্তুনিষ্ঠ বর্ণনার পরিবর্তে দ্বান্দ্বিক 'উপস্থিতি বনাম অনুপস্থিতি'-র উপর জোর দেওয়া হয়েছে।"
+  }
 }

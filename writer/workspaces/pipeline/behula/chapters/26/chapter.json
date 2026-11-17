@@ -1,52 +1,119 @@
 {
   "chapter_index": 26,
   "name": "26",
-  "word_target": 280,
-  "chapter_title": "পচন ও পুনর্জন্মের সন্ধিরেখা",
-  "chapter_summary": "মৃত্যুর দৃশ্যমান অবক্ষয়কে প্রত্যক্ষ করেও জীবনের সুপ্ত শক্তির প্রতি অগাধ বিশ্বাস। ধ্বংসের ছাই থেকেই নতুন উন্মেষের প্রতীক্ষা।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "behula — পর্ব 15 — behula",
+  "chapter_summary": "এই চূড়ান্ত পর্বটি বেহুলার সমস্ত প্রতিকূলতা অতিক্রম করার পর স্বামীর প্রত্যাবর্তনের মহাকাব্যিক বিজয়কে চিত্রিত করে। এই বিজয় কেবল ব্যক্তিগত ট্র্যাজেডির সমাপ্তি নয়, বরং মানব আত্মার অদম্য শক্তির চূড়ান্ত স্বীকৃতি। এটি দেখায় যে কীভাবে গভীরতম শূন্যতাও বিশ্বাসের আলোয় পূর্ণতা লাভ করতে পারে। প্রশ্নটি হলো—এই বিজয় কি কেবল ব্যক্তিগত মহিমা, নাকি এটি নিপীড়িত আত্মার সম্মিলিত প্রতিবাদের এক নীরব ঘোষণা?",
+  "further_references": [
+    "Author-specified source text or edition of the Behula narrative"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+      "segment_summary": "সমস্ত বাধা অতিক্রম করার পর, বেহুলার জীবনে স্বামীর প্রত্যাবর্তনের মুহূর্তটি আসে, যা এক বিশাল স্বস্তির ঢেউ নিয়ে আসে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "আত্মার চূড়ান্ত 승리",
+      "segment_summary": "এই প্রত্যাবর্তন কেবল একটি ঘটনা নয়; এটি মানব আত্মার সেই আদিম স্পন্দনের বিজয়, যা চরম প্রতিকূলতার মুখেও তার দীপশিখা নিভতে দেয়নি।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+      "segment_summary": "প্রতিটি সংগ্রাম তাকে আরও শক্তিশালী করেছে, এবং এই চূড়ান্ত বিজয় তাকে এক মহৎ নারী হিসেবে প্রতিষ্ঠিত করেছে, যিনি সকল বাধা অতিক্রম করতে জানেন।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "অবিস্মরণীয় অধ্যায়",
+      "segment_summary": "বেহুলার জীবন এই মহাকাব্যিক সংগ্রামের মাধ্যমে ইতিহাসের পাতায় এক অবিস্মরণীয় অধ্যায় রচনা করে, যা প্রেরণার উৎস হয়ে ওঠে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "আলোর পুনঃপ্রতিষ্ঠা",
+      "segment_summary": "অন্ধকার ও শূন্যতার মাঝে ফিরে আসা আলো, যা প্রমাণ করে যে বিশ্বাস বাইরের সমস্ত অন্ধকারের চেয়েও শক্তিশালী।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+      "segment_summary": "এই বিজয় কি কেবল ব্যক্তিগত মহিমা, নাকি এটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ বহন করে?",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "সংকল্পের চূড়ান্ত পরিণতি",
+      "segment_summary": "তার অদম্য সংকল্পের মাধ্যমে ব্যক্তিগত ট্র্যাজেডি কীভাবে সমষ্টিগত প্রেরণা হয়ে ওঠে, তার চূড়ান্ত রূপটি এখানে প্রকাশিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "নতুন দিগন্তের সূচনা",
+      "segment_summary": "এই পরিণতি কেবল একটি সমাপ্তি নয়, বরং সমস্ত নিপীড়িত আত্মার জন্য এক নতুন আশার দিগন্তের সূচনা করে।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Treating 'pochen' (decay) not as physical decomposition but as the slow erosion of rigid societal structures surrounding widowhood.",
-      "Framing the 'sondhirekha' (threshold line) as a liminal state where memory and possibility exist simultaneously, demanding no immediate resolution.",
-      "Interrogating the nature of faith during irreversible material decline: Is belief stronger when the object of devotion is visibly returning to dust?"
+      "Focusing on the *unspoken* societal reconciliation required for their reunion to be fully valid in their time.",
+      "Treating the return not as a singular event, but a slow, geological rebalancing of cosmic pressures following years of separation.",
+      "Framing the final 'victory' through the lens of an almost clinical, objective observation—a scientific measure of existential persistence rather than pure emotion."
     ],
     "story_options": [
-      "setting: Near a section of the riverbank coated in wet silt and decaying foliage, desire: To feel the cold, yielding give of the mud beneath her feet—a temporary grounding against metaphysical drift, obstacle: The constant visual evidence of death (decaying plant matter) acting as an insistent counter-narrative to hope, turn: A sudden surge of life from a weed breaking through the mire.",
-      "setting: Within a space where water meets earth, characterized by stagnant pools and slow currents, desire: To observe the precise moment mold or rot begins its transformation into new growth, obstacle: The psychological weight of holding onto something that should logically pass away, turn: Recognizing in the cycle of decay/growth a pattern mirroring her own internal spiritual renewal.",
-      "setting: Against an abandoned, half-finished structure—perhaps a decaying religious offering site or ruin visible from afar, desire: To project her intense belief onto this broken edifice, forcing it to complete itself anew in spirit, obstacle: The sheer vulnerability of the unfinished state, turn: A single act of intentional repair (a small gesture) enacted by her presence."
+      "Setting: The riverbank where their parting echo was deepest; Desire: For Behula to offer Lukhindar a single, small token (like a specific leaf or stone) that symbolizes their shared endurance against the currents.",
+      "Setting: Within the threshold of the sanctum, after silence has settled for an age; Desire: To experience a momentary 'glitch' in reality—a flicker where past and present selves overlap, testing the integrity of her renewed being.",
+      "Setting: High above their ancestral land, glimpsing it from afar; Desire: For them to see not just their own field, but the landscape of all similar struggles across time, making their personal victory communal."
     ],
     "subject_rotations": [
-      "Focusing purely on the material language of dissolution—the textures, colors, and smells associated with organic breakdown.",
-      "Shifting from a focus on 'renewal' to an equally potent emphasis on 'acceptance'—what does acceptance mean when beauty is fundamentally fragile?",
-      "Examining the difference between spiritual transcendence (moving beyond) and cyclical recurrence (being caught within) in moments of death."
+      "Examining the difference between 'returning' and 're-founding' oneself after prolonged trauma.",
+      "Analyzing how the acceptance of societal judgment forces a more rigorous, less sentimental definition of love.",
+      "Contrasting the external perception (the tragedy) with the internal mechanics (the will) that sustains life."
     ],
     "sensory_details": [
-      "The metallic tang of rust leaching from damp river stones into the soft sediment (smell/taste)",
-      "The spongy, giving resistance of deeply saturated mud against bare skin (touch)",
-      "A low, persistent hum emanating from insect life thriving in rich, decomposing matter (sound)"
+      "Sight: The way ambient light settles unevenly across their reunited forms, highlighting scars as luminous pathways rather than flaws.",
+      "Touch: The specific pressure difference when two bodies—one tempered by absence, one honed by trial—finally make contact.",
+      "Sound: A sudden, absolute muffling of the external world noise upon reunion, leaving only the sound of their mutual breath."
     ],
     "research_questions": [
-      "In Bengali poetic tradition, what specific lexical choices best convey the transition from 'entropy' to 'genesis' without resorting to cliché?"
+      "What precise linguistic markers in Bengali poetry can differentiate between 'joyful recovery' and 'hard-won existential validation'?"
     ],
     "structural_variants": [
-      "A fragmented structure where each short segment addresses a different stage of decay (softness, rigidity, return), ending with a single, unbroken line representing the threshold.",
-      "Using an almost scientific register for describing organic collapse, juxtaposed violently against intensely personal or devotional phrasing."
+      "A Volta where segment 6 forces a complete deconstruction of segments 1-5 as mere preparation for an inevitable, darker truth.",
+      "A structure based on accumulating moments of minor doubt (a momentary tremor) that must be dismissed before the final affirmation.",
+      "Alternating between high philosophical exposition and starkly grounded physical description of their shared space."
     ],
     "unused_angles": [
-      "The physical manifestation of exhaustion as it intersects with the spiritual will; how bodily failure informs theological persistence.",
-      "Exploring the shadow-side: if decay is necessary for life, what does that imply about the value placed on pristine purity in society?"
+      "Exploring the political implication: If her endurance defies norms, what does it imply about the fragility of existing social contracts?",
+      "The possibility of a lingering metaphysical shadow—a consequence that remains even after reunion."
     ],
-    "variety_note": "This chapter diverges from neighbours by grounding its abstract philosophical concerns of dissolution firmly within specific, tactile interactions with decaying natural matter."
+    "variety_note": "This chapter shifts focus from the internal struggle (previous chapters) to the outward declaration of synthesis; its turning point forces the reader to question if this triumph is solely personal glory or something far grander."
   },
   "draft": {
-    "sha256": "c0575a80525fe76fcc2c5329331f723f5198187fbf2a174751d4a50f55767017",
-    "written_at": "2026-10-21T16:28:33.923267+00:00",
+    "sha256": "754a69d958f2188371fd3f1c99250f5994cd582d57ee4d42638fd60361e9c637",
+    "written_at": "2026-11-16T05:01:05.898672+00:00",
     "origin": "write"
   }
 }

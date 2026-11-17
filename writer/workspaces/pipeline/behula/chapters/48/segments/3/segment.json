@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "এই চূড়ান্ত সাফল্য বেহুলাকে কেবল একজন নারী হিসেবে নয়, বরং এক মহৎ, অবিস্মরণীয় প্রতীক হিসেবে প্রতিষ্ঠিত করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing an imagined absent presence (perhaps the memory of Lokhindor/husband) during moments of quietude post-return, knowing there will be no verbal response.",
+    "story_option": "Setting: Facing a mirror in their chambers post-return; Desire: To see the reflection not as 'hers' or 'his,' but as one fused entity forged in ordeal; Obstacle: The terror of realizing that this new unity requires perpetual vigilance against entropy; Turn: They look upon each other, and the image reflects two separate silhouettes held together by an unseen tension.",
+    "subject_rotation": "Examining the nature of commitment: Is it survival instinct manifested in ritual form, or is it a transcendent leap beyond logic?",
+    "sensory_detail": "The metallic tang in the air where divine intervention has recently occurred, sharply contrasting with the earthy smell of home life (olfactory).",
+    "research_question": "What classical Bengali metaphors exist to describe a state of sustained, tested fortitude that resists entropy rather than achieving perfect repose?",
+    "structural_variant": "A circular structure where each segment subtly revisits a defining emotional state from earlier chapters (e.g., loneliness, doubt) but frames it exclusively through the lens of present, powerful victory.",
+    "variety_note": "Unlike neighboring chapters which focused on the *act* of enduring struggle or the initial shock of loss, this section is dedicated entirely to the complex aftermath—the philosophical weight and redefined state of being *after* the ultimate climax."
+  }
+}

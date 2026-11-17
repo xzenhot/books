@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 23,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "নীরব প্রতিজ্ঞা",
+  "segment_summary": "কাব্যটি এক শান্ত, গভীর বিষাদে শেষ হয়, যেখানে পাঠককে এই প্রশ্ন নিয়ে ভাবতে বাধ্য করা হয় যে, শক্তি কি কেবল বাইরে থাকে, নাকি ভেতরেই তার আদিম উৎস নিহিত।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The 'I' shifting entirely into the role of an unrecognized domestic caretaker whose quiet resilience mirrors Durga’s enduring power.",
+    "story_option": "Setting: A quiet stretch of river bank, away from the immersion site, observing the water's endless flow; Desire: To trace the continuity between the scattered ritual remnants and primordial natural cycles.",
+    "subject_rotation": "Examining how memory, not ritual, becomes the vessel for continuity; the symbolic power stored in faded artifacts over vibrant ones.",
+    "sensory_detail": "The tactile sensation of cool, unvarnished wood beneath bare feet during deep introspection after the fanfare ceases.",
+    "research_question": "What are the precise linguistic markers in contemporary Bengali poetry used to signify 'quiet endurance' without resorting to explicit devotional vocabulary?",
+    "structural_variant": "Using a deeply fragmented stream-of-consciousness approach for the middle segments, mirroring cognitive overload during existential questioning.",
+    "variety_note": "This chapter departs from preceding chapters by moving almost entirely inward; while others externalize the struggle (mud, sound, community), this segment focuses on the internal topography where faith meets doubt."
+  }
+}

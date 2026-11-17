@@ -10,15 +10,15 @@
 
 ## word_target
 
-1500
+500
 
 ## chapter_title
 
-মহালয়ার ম্লান হওয়া
+মহালয়া: এর কবিতা
 
 ## chapter_summary
 
-মহালয়ার সেই তীব্র, পবিত্র অনুভূতিটি ধীরে ধীরে ম্লান হতে শুরু করে, যেন কোনো স্বপ্ন ভেঙে যাচ্ছে। এই অধ্যায়টি সেই ক্ষণস্থায়ী স্বর্গীয় মুহূর্তের সমাপ্তি এবং দৈনন্দিন বাস্তবতার দিকে প্রত্যাবর্তনের বেদনাকে চিত্রিত করে। চরিত্ররা অনুভব করে যে, সেই আদিম শুদ্ধতার আভা ফুরিয়ে আসছে, এবং তাদের ভেতরের আকাঙ্ক্ষাগুলো আবার জীবনের ধূসর কোলাহলের মুখোমুখি হতে প্রস্তুত হচ্ছে। প্রশ্নটি হলো— এই পবিত্রতার ক্ষণস্থায়ীতা কি কেবলই এক বার্ষিক বিভ্রম, নাকি এর থেকে কোনো স্থায়ী শিক্ষা লাভ করা সম্ভব?
+Since the provided epic only contains 15 chapters, Chapter 17 is conceptualized as a culmination or epilogue, focusing on the lingering resonance of the Mahalaya experience. This chapter explores the delicate transition from intense spiritual fervor back into the mundane reality, examining how the profound internal shifts experienced by Arunima and Anirban persist amidst the city's returning noise. The central conflict is the struggle to anchor ephemeral, divine realization into the concrete fabric of daily life, leaving the reader to question the enduring power of transcendent moments.
 
 ## further_references
 
@@ -30,18 +30,10 @@
 
 #### reference
 
-ঊষার আলো বনাম রাত্রির অন্ধকার
+বস্তুর স্মৃতি বহন ক্ষমতা (Object Memory)
 
 #### weblink
 
-
-## level
-
-chapter
-
-## state
-
-scaffolded
 
 ## segments
 
@@ -51,46 +43,55 @@ scaffolded
 - 4
 - 5
 
+## level
+
+chapter
+
+## state
+
+scaffolded
+
 ## creative_enrichment
 
 ### angles
 
-- মহালয়ার অভিজ্ঞতাকে একটি 'মিথ'-এর পুনরাবৃত্তিমূলক বর্ণনা হিসেবে দেখানো, যেখানে প্রত্যেকেই একই গল্প আওড়ায় কিন্তু কেউ তার অন্তর্নিহিত অর্থ ধরতে পারে না—পুনরাবৃত্তিটিই এখানে স্থবিরতা আনে।
-- চরিত্রদের স্মৃতিশক্তি নিয়ে ফোকাস করা: মহালয়ার পবিত্র মুহূর্তগুলিকে ক্ষণস্থায়ী রাসায়নিক পরিবর্তন বা মস্তিষ্কের স্নায়বিক ত্রুটি হিসেবে বিশ্লেষণ করা, যা আধ্যাত্মিকতাকে বিজ্ঞান দ্বারা চ্যালেঞ্জ জানায়।
-- ধর্মীয় অনুভূতির আধারকে শারীরিক ক্লান্তি ও জাগতিক দায়িত্বের সঙ্গে সংঘর্ষে দেখানো—যেখানে ভক্তির উচ্চতম বিন্দুটিও একটি গভীর ঘুমের necesidad-এর কাছে হার মেনে যায়।
+- Focusing the narrative entirely through a single, inert object—perhaps an old musical instrument or a worn shawl—that has absorbed residual spiritual energy from Mahalaya.
+- Framing the lingering fervor not as internal meditation but as an external physical state projected onto objects and environments (e.g., dust motes moving differently in the afternoon light).
+- An extended focus on urban entropy: how does the specific, delicate memory of divine connection interact with the relentless grind of traffic noise or bureaucratic inefficiency?
 
 ### story_options
 
-- setting: একটি পুরনো পারিবারিক বসার ঘর, যেখানে মহালয়ার পূজার সরঞ্জামগুলি এখন শুধু ধুলো জমা স্মৃতিচিহ্ন।, desire: চরিত্রটি সেই সময়ের সামান্য কোনো উপাদান—যেমন ব্যবহৃত নৈবেদ্যের ভাঙা একটি অংশ—কে ধরে রাখতে চায় যা পবিত্রতার শেষ চিহ্ন বহন করে।, obstacle: ঘরের বদ্ধ বাতাস এবং তীব্র দৈনন্দিন জীবনের গন্ধ (বাসাবাড়ির রান্নার, নোনা জলের) সেই আধ্যাত্মিক গন্ধে স্থায়ীভাবে মিশে গিয়ে তাকে দূষিত করছে।, turn: চরিত্রটি আবিষ্কার করে যে, ব্যবহৃত সরঞ্জামটির একটি ক্ষুদ্র অংশ (যেমন তামার পাত্রের কর্কশ আঁচড়) আসলে সময়ের সঙ্গে সঙ্গে ক্রমাগত ক্ষয়প্রাপ্ত হয়ে চলেছে।
-- setting: একটি জনসমাগমের স্থান, যেখানে মহালয়ার শেষ মুহূর্তের ভিড় ধীরে ধীরেdispersing হচ্ছে।, desire: চরিত্রটি সেই 'ঐক্যের' অনুভূতিটির একটি সুস্পষ্ট সংজ্ঞা বের করতে চায় যা কয়েক ঘণ্টা আগেও সমস্ত বিভেদকে মুছে দিয়েছিল।, obstacle: ভিড়ের মধ্যে থাকা এক শিশুর ক্রমাগত, অনিয়ন্ত্রিত হাসি বা কান্নার মতো আকস্মিক শব্দ (যা কোনো গভীর অর্থ বহন করে না) অতীতের মহৎ মুহূর্তের ধারণাকে ছিন্নভিন্ন করে দেয়।, turn: চরিত্রটি বুঝতে পারে যে ঐক্য একটি গাণিতিক সামঞ্জস্য নয়, বরং ক্ষণস্থায়ী শারীরিক নৈকট্য—এবং তা দ্রুত বিলীন।
-- setting: একটি শান্ত নদীর ধার যেখানে মহালয়ার দিনের শেষ আলো প্রতিফলিত হচ্ছে।, desire: চরিত্রটি সেই পবিত্র মুহূর্তের অনুভূতিকে এমন কোনো অপরিবর্তনীয় 'চিহ্ন' বা স্থায়ী পরিবর্তন হিসেবে ধরে রাখতে চায় যা তার দৈনন্দিন জীবনে একটি সূক্ষ্ম প্রভাব ফেলবে।, obstacle: প্রবাহিত নদীর স্রোত, যা সকল কিছুকে ভাসিয়ে নিয়ে যায়—কোনো চিহ্ন আটকে রাখে না, বরং সব স্মৃতিকে একই সাথে বয়ে নিয়ে চলে।, turn: চরিত্রটি বুঝতে পারে যে তার ভেতরের পরিবর্তনগুলিও আসলে ওই প্রবাহের অংশ মাত্র; কোনো স্থায়ী 'আমি' নেই যা এই অভিজ্ঞতা ধরে রাখবে।
+- setting: একটি পুরোনো মৃৎশিল্পের দোকান (Old pottery shop), desire: অনির্বাণ একটি নির্দিষ্ট ভাঙা মাটির পাত্র খুঁজে বের করতে চায়, যা মহালয়ার আলো ধারণ করে রাখার ক্ষমতা রাখে।, obstacle: বিক্রেতা সেই পাত্রটিকে কেবল 'ভাঙা জিনিস' হিসেবে দেখে এবং এর কোনো বিশেষ মূল্য দিতে নারাজ।, turn: পাত্রটি ধরার 순간, দোকানের ভেতর ক্ষণিকের জন্য আবহাওয়ার পরিবর্তন ঘটে—যেন বৃষ্টি আসার কথা ছিল কিন্তু তা হয় না।
+- setting: অরুণিমার অব্যবহৃত একটি কাঠের টুল (Arunima's unused wooden stool), desire: অরুণিমা সেই টুলের ওপর বসে মহালয়ার অভিজ্ঞতার 'ভারীতা' অনুভব করতে চায়, যেন এটি তার শারীরিক স্থায়িত্বকে বহন করছে।, obstacle: বাইরে প্রবল গরম এবং অস্বস্তিকর আর্দ্রতা (যা আবহাওয়ার অবাধ্যতাকে ইঙ্গিত করে) সেই শান্ত স্থিরতাকে ক্রমাগত বিঘ্নিত করে।, turn: টুলটির কাঠ থেকে একটি মৃদু, অপ্রত্যাশিত উষ্ণতার তরঙ্গ নির্গত হয় যখন সে গভীরভাবে শ্বাস নেয়।
+- setting: একটি শহরের ছাদে রাখা পুরাতন জলকുട (An old water pot kept on a city rooftop), desire: অনির্বাণ সেই কুডিতে মহালয়ার মুহূর্তের স্বচ্ছতাকে প্রতিফলিত করতে চায়।, obstacle: আকাশ মেঘে ঢাকা এবং অপ্রত্যাশিতভাবে বৃষ্টি আটকে আছে, যা আলোর পূর্ণ প্রবাহকে বাধা দেয়।, turn: যখন বাতাস হঠাৎ থমকে যায় (স্থবিরতা), কুডির জল যেন অভ্যন্তরীণভাবে আলো ধারণ করে—যা দৃশ্যমান নয়, কেবল অনুভূত।
 
 ### subject_rotations
 
-- পবিত্রতার অভিজ্ঞতাকে একটি সামষ্টিক (collective) মনস্তাত্ত্বিক ঘটনা হিসেবে দেখতে, যেখানে ব্যক্তিজ্ঞান লোপ পায় কিন্তু সামাজিক স্থিতাবস্থা বজায় থাকে।
-- অভিজ্ঞতা থেকে প্রাপ্ত উপলব্ধির ক্ষয়কে কেবল দার্শনিক ব্যর্থতা না ভেবে, এটিকে জৈবিক বা রাসায়নিক প্রক্রিয়ার স্বাভাবিক পরিণতি হিসেবে বিবেচনা করা।
-- স্থান পরিবর্তনের মাধ্যমে মহালয়ার প্রভাবের বিলুপ্তি দেখানো—প্রতীকী ক্ষেত্র ত্যাগ করে দ্রুত শহুরে যান্ত্রিক গোলমালের মধ্যে ফিরে আসা।
+- Treating the spiritual residue not as a memory but as a slow chemical or physical change within the environment itself.
+- Shifting focus entirely from internal feeling to external perception: how does one *see* divine resonance in an ordinary, weathered object?
+- Exploring the friction between the perfect stillness experienced during Mahalaya and the atmospheric impossibility of that perfection (the weather refusing to yield).
 
 ### sensory_details
 
-- সূর্যাস্তের শেষ কমলা আভা যখন ভিজে যাওয়া পাথরের উপর পড়ে, তখন তা শীতল ও মরিচা ধরা লোহার মতো এক তিক্ত ধাতব গন্ধ সৃষ্টি করে (ঘ্রাণ/স্পর্শ)।
-- অতি উচ্চ ফ্রিকোয়েন্সির একটি ক্রমাগত গুঞ্জন বা হামিং শব্দ যা শহরের বৈদ্যুতিক যন্ত্রপাতির সংযোগস্থলে থেকে আসে এবং পবিত্রতার শান্ত পরিবেশকে অসহনীয়ভাবে বিঘ্নিত করে (শ্রবণ)।
-- দিনের শেষ আলোর নিচে, শরীরের ত্বকের উপর সূক্ষ্মভাবে জমা হওয়া ধুলো বা পোড়া কর্পূরের অবশিষ্টাংশের অনুভূতি—যা কোনো উষ্ণতা বা আভা বহন করে না (স্পর্শ/দৃশ্য)।
+- মাটির পাত্রে জমে থাকা ক্ষুদ্র ধূলিকণাগুলির উপর দিয়ে সূর্যালোকের শেষ রশ্মির ঝাপসা নৃত্য।
+- অপেক্ষা করা ভেজা মাটির গন্ধ, যা প্রবল গ্রীষ্মের তাপমাত্রার মধ্যেও আলতো করে ভেসে আসে।
+- পুরোনো কাঠের ওপর দীর্ঘস্থায়ী হওয়া এক ধরনের মসৃণ, শীতল স্পর্শ—যেন বহুবার পবিত্র হাতের ছোঁয়া লেগে আছে।
 
 ### research_questions
 
-- মানব মস্তিষ্কে গভীর আবেগীয় অভিজ্ঞতার পর স্নায়বিক পরিবর্তনগুলি কত দ্রুত 'ডিফোকাস' হয়ে যায়, এবং সেই ডি-ফোকাসের ক্ষেত্রে কোন শারীরিক সূচকগুলো পরিমাপ করা সম্ভব?
-- বাংলা সাহিত্যে এমন কোনো আখ্যান আছে কিনা যেখানে ধর্মীয় অনুভূতির বিলুপ্তি বা পতনকে প্রধান চরিত্র বা প্লট ড্রাইভিং উপাদান হিসেবে ব্যবহার করা হয়েছে?
+- শিল্প বা স্মৃতিধারণকারী বস্তুর উপর মানসিক অভিজ্ঞতার 'আর্কিভেশন' (archiving of mental states) নিয়ে সাহিত্যিক ধারণার তুলনামূলক বিশ্লেষণ কেমন হতে পারে?
+- অপ্রত্যাশিত আবহাওয়ার পরিবর্তন কীভাবে একটি স্থির, আত্ম-অনুসন্ধানী মুহূর্তের প্রতীকী অর্থকে ভেঙে দিতে পারে?
 
 ### structural_variants
 
-- একটি গতির পরিবর্তন (Pacing Shift): অধ্যায়ের প্রথম অংশে অত্যন্ত ধীর, ধ্যানমগ্ন বর্ণনা থাকবে এবং শেষের দিকে হঠাৎ করে একটি দ্রুত গতির শহুরে দৃশ্যের ঝাঁপিয়ে পড়া হবে।
-- ফ্ল্যাশব্যাক বনাম বর্তমান: এই ম্লান হওয়ার মুহূর্তটিকে একাধিক চরিত্র দ্বারা ভিন্ন দৃষ্টিকোণ থেকে একই সময়ে পার করা—প্রত্যেকের অভিজ্ঞতা এক হলেও উপলব্ধির সূক্ষ্মতা ভিন্ন।
-
-### variety_note
-
-যেখানে পূর্ববর্তী অধ্যায়গুলিতে 'প্রাপ্তি' বা 'দ্বন্দ্বের বিস্তার'-এ মনোযোগ দেওয়া হয়েছিল, এই অধ্যায়ে সমস্ত কিছুর দ্রুত বিলুপ্তি এবং সেই গতির পরবর্তী শূন্যতার উপর জোর দেওয়া হয়েছে।
+- A purely object-focused sequence where the narrative voice shifts personae every time a significant object is revisited.
+- An extended, slow-motion 'weather report' interspersed with minute observations of objects reacting to the atmospheric tension.
 
 ### unused_angles
 
-- পবিত্রতাকে একটি বাজারজাত পণ্য (commodity) হিসেবে দেখানো যা উৎসব শেষে সস্তায় বিক্রি হয়ে যায়, এর দ্বারা ধর্মীয় আবেগিক পুঁজিবাদের সমালোচনা করা।
+- Focusing on the societal mechanism that *forces* people back into mundane routines immediately after peak spiritual events, divorced from Arunima/Anirban.
+- A deep dive into material culture—the specific metallurgy or clay type of an object and how its inherent properties interact with transcendental energy.
+
+### variety_note
+
+Unlike the focus on immediate internal confession (Item 14) or decline (Item 15), this chapter centers entirely on inertia: what remains when the fervor is gone, embodied in inanimate things struggling against indifferent weather.

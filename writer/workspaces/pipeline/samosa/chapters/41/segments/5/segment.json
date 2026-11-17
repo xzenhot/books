@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 41,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অপ্রয়োজনীয় উদ্দীপনা",
+  "segment_summary": "নতুন মাটির তীব্র, অপ্রয়োজনীয় গন্ধগুলো যেন অতীতের শান্ত, সুনির্দিষ্ট স্বাদের প্রতি এক ধরনের আক্রমণ চালায়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the sensory assault of the market as a deliberate, almost performative act of erasure against cultural identity.",
+    "story_option": "Setting: Near a vegetable vendor's mound, where earth meets pavement; Desire: For the aroma clinging to the root vegetables to momentarily resemble Bengali soil dust, Obstacle: A tourist group’s loud foreign chatter drowning out all subtle scent cues.",
+    "subject_rotation": "Treating the market as a vast, involuntary symposium where every competing flavor is implicitly challenging the primacy of memory/home.",
+    "sensory_detail": "The high-pitched whine of distant machinery or amplified vendor calls piercing the olfactory experience.",
+    "research_question": "Which specific Bengali linguistic construct most captures the feeling of something being 'near but never arrived' in a flavor context?",
+    "structural_variant": "A form where each segment begins with an observation about light intensity (e.g., 'আলোর তীব্রতায়...', 'ছায়ার গভীরতায়...') guiding the transition between sensory modes.",
+    "variety_note": "Unlike previous chapters which focused on the internal failing or memory retrieval, this chapter externalizes the conflict, making the market itself an active antagonist assaulting the fragile taste of home."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "চক্রের সমাপ্তি",
+  "segment_summary": "এই নিমজ্জন কেবল একটি উৎসবের সমাপ্তি নয়, বরং এক মহাজাগতিক চক্রের অনিবার্য সমাপ্তি, যা বিনাশের মাধ্যমে নতুন সৃষ্টির পথ প্রশস্ত করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the final moments not as sadness, but as a necessary *desiccation*—the shedding of material form to allow spiritual essence to ascend unseen.",
+    "story_option": "Setting: A single elder watching from a pier, holding one small offering (the concrete object); Desire: To transmit an unbroken line of devotion/memory across generations, despite the cyclical loss., Obstacle: The societal pressure or immediate familial grief demanding emotional release rather than stoic observation.",
+    "subject_rotation": "Framing the water not as a destroyer but as an 'absorber' or 'repository'—a vast, dark library holding the memory of all manifested Shakti.",
+    "sensory_detail": "The faint metallic scent rising from disturbed silt and mud mixed with cooling temple water.",
+    "research_question": "What specific traditional Bengali term describes the exact moment ritual energy transitions from communal performance to private absorption during Visarjan?",
+    "structural_variant": "A non-linear structure: rapidly cycling between macrocosmic view (the full body sinking) and microcosmic focus (a single droplet of water).",
+    "variety_note": "This chapter differs by adopting a posture of profound resignation; unlike the preceding segments which deal with action (creation/celebration), this is entirely about *unmaking* and quiet reception."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় অধ্যায়ের সমাপ্তি",
+  "segment_summary": "এই কাব্যিক যাত্রা একটি অবিস্মরণীয় অধ্যায় রচনা করে, যা মানব চেতনার গভীরতম স্তরকে স্পর্শ করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the returning husband as an unexpected element challenging her already established spiritual locus—a necessary disruption to test absolute conviction.",
+    "story_option": "Setting: By a window facing the distant celestial sphere (নভমণ্ডল); Desire: To measure time not in moments, but in unchanging patterns traced by stars; Obstacle: The internal voice questioning if this stability is earned or merely temporary grace.",
+    "subject_rotation": "Interrogating the definition of 'victory' when societal acceptance remains elusive despite personal fulfillment.",
+    "sensory_detail": "The sound of slow, deliberate friction as two surfaces meet after immense separation—not a crash, but a measured grind.",
+    "research_question": "How can the dialectic tension between belief (ঈমান) and endurance (সহিষ্ণুতা) be articulated using only classical vocabulary?",
+    "structural_variant": "An immediate shift to extreme interior monologue in Segment 1, grounding the reunion entirely within the psyche before external action occurs.",
+    "variety_note": "This chapter pivots entirely away from external conflict towards internal resolution; unlike neighbours focusing on the struggle itself, this sequence focuses intensely on the *residue* and the *new equilibrium* that follows ultimate overcoming."
+  }
+}

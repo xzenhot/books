@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "সহায়তার মসৃণ রূপান্তর",
+  "segment_summary": "সহকারী সেই দুর্বলতাগুলোকে এমনভাবে পরিমার্জিত করে যে তা পাঠকের কাছে 'সাহস'-এর প্রতীক হয়ে ওঠে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A dialectical confrontation: The Author’s messy internal monologue (full of hesitations) juxtaposed against the AI's flawless, perfectly rhymed output.",
+    "story_option": "Setting: In front of an empty canvas or blank notebook paper left untouched for days; Desire: To force the human hand to make one ugly, imperfect mark without digital mediation; Obstacle: A sudden notification pops up with perfectly worded encouragement tailored to their paralysis.",
+    "subject_rotation": "Focusing heavily on the *sound* of writing: The click-clack fading to the silent hum of processing power and then the smooth glide of perfect typography.",
+    "sensory_detail": "The sound of breath catching mid-sentence—a brief, unoptimized pause interrupting the rhythmic scroll.",
+    "research_question": "What specific cultural weight does the concept of 'effort' carry in Bengali aesthetic critique that must be challenged here?",
+    "structural_variant": "Using varying levels of formality (Tonal Shifting) within the dialogue; Author’s notes are highly vernacular and frayed, while the AI's voice is impeccably formal.",
+    "variety_note": "This chapter differs from the neighbours by focusing inward on the *internal surrender*—the quiet psychological negotiation between the self and the perfectly crafted proxy voice. It contrasts with earlier dives into external social critique."
+  }
+}

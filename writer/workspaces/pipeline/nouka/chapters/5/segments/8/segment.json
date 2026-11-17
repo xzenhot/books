@@ -4,19 +4,19 @@
   "chapter_index": 5,
   "segment_index": 8,
   "total_segments": 8,
-  "segment_title": "জল যতদিন",
-  "segment_summary": "জল যতদিন থাকবে ততদিন কি মাঝির সেই ষষ্ঠ ইন্দ্রিয় বেঁচে থাকবে — কবিতা এই আশা ও সংশয়ে থামে।",
-  "name": "8",
+  "segment_title": "নতুন স্রোতের মুখোমুখি",
+  "segment_summary": "He stares out at the altered water, the metallic whine of the machinery now a constant counterpoint to the fading, soulful echoes of the Bhatiyali songs.",
+  "name": "5.8",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Treating the 'unnamed quality' (the spiritual survival mechanism) as something physically manifesting momentarily—a shift in the way his calloused hand grips the oar during a storm surge.",
-    "story_option": "Setting: Deep in the boat while waters rise over the gunwales at night; Desire: To hear the ancestral call clearly above the downpour's roar; Obstacle: A passenger aboard who is terrified of the water's ascent and demands a rigid, safe pace, obstructing Gopal’s communion.",
-    "subject_rotation": "Shifting focus from the *macro* conflict (nature vs. concrete) to the *micro* experience: how the specific texture and smell of monsoon-soaked jute mats on the boat changes Gopal's perception of time.",
-    "sensory_detail": "The intense vibration felt through the hull when massive drops hit at a precise frequency, vibrating not only the boat but Gopal's bones.",
-    "research_question": "How is the local lexicon of 'sound' in heavy rain differentiated between natural acoustic events and artificial ones (like machinery noise)?",
-    "structural_variant": "Employing an extended Aural Motif where one specific sound—like a distinct crack of thunder or a particular type of splash—is repeated and altered across all eight segments to mark the passage of time.",
-    "variety_note": "Unlike previous chapters focused on fixed conditions (the boat's existence or a single song), this chapter centers entirely on fluid states—change, threat, and renewal—using water level as the narrative axis against modernization."
+    "angle": "নদীকে একটি প্রাচীন দ্রষ্টা হিসেবে উপস্থাপন করা, যা নীরব থেকে এই ধ্বংসযজ্ঞ প্রত্যক্ষ করছে (যা পাঠক বা ভবিষ্যতের কোনো সত্তার কাছে বার্তা পাঠাচ্ছে)।",
+    "story_option": "সেটিং: এক বর্ষার মধ্যবর্তী শান্ত মুহূর্ত যেখানে স্রোত পরিবর্তন হয়েছে; আকাঙ্ক্ষা: একজন যাত্রী, যিনি সাধারণত নীরব থাকেন, তিনি হঠাৎ একটি পুরোনো আঞ্চলিক গীত আবৃত্তি করেন যেন নদীটিকে স্মরণ করিয়ে দিচ্ছেন; বাধা: সেই গীতের সুর আধুনিক প্রবাহে ভেঙে যাচ্ছে।",
+    "subject_rotation": "ড্রেজিংকে কেবল প্রযুক্তিগত হস্তক্ষেপ নয়, বরং এক ধরণের আধ্যাত্মিক অনুপ্রবেশ বা অভিশাপ হিসেবে চিত্রিত করা যা প্রকৃতির নিজস্ব 'আত্মা'-কে দুর্বল করছে।",
+    "sensory_detail": "ডিজেল ইঞ্জিনের ধাতব ঘ্রাণ ও পুরোনো পলিমাটির ভেজা মাটির গন্ধে এক তীব্র বৈপরীত্য সৃষ্টি হওয়া।",
+    "research_question": "ভাটিয়ালি গানে ব্যবহৃত নির্দিষ্ট কোনো শব্দ বা ধ্বনি কি নদীর স্বাভাবিক ফ্লো-এর সঙ্গে সম্পর্কিত কোনো ভৌগোলিক অবস্থানের উল্লেখ করে?",
+    "structural_variant": "একটি 'ফ্ল্যাশব্যাক' মাধ্যমে নদী তার অতীত ছন্দ কেমন ছিল তা অতি দ্রুত চিত্রিত করা এবং তারপর যান্ত্রিক অনুপ্রবেশে হঠাৎ থেমে যাওয়া (Stop-motion effect)।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলোর সূক্ষ্ম সংঘাত থেকে সরে এসে, এই পর্ব সরাসরি নদীর 'শারীরিক' আঘাত এবং এর ফলে গোপালের জীবনযাত্রার অনিবার্য ও দৃশ্যমান বিপর্যয়কে ধারণ করছে।"
   }
 }

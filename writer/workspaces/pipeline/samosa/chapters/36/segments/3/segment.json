@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 36,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বনাম আত্মিক",
+  "segment_summary": "কাব্যটি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে দেখার ধারণাকে চ্যালেঞ্জ করে, যেখানে এটি আত্মার গভীরে ভাজা একটি মানবিক অভিজ্ঞতার অংশ।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the residual sensation as a form of negative space in culinary art, where absence defines perfection.",
+    "story_option": "Setting: A small patch of scorched tile near the cooker's base; Desire: To find particulate matter—the burnt, crystallized essence of a perfect bite—that can be reassembled mentally; Obstacle: Oxidation and dispersal.",
+    "subject_rotation": "Deconstructing the finality—is the sweet melancholy itself just another highly processed, consumable emotional flavor?",
+    "sensory_detail": "A phantom heat sensation migrating from the tongue up to the nasal passage after the last fragment is consumed.",
+    "research_question": "Is there a suitable culinary term that implies flavor saturation followed by immediate depletion?",
+    "structural_variant": "Using stanzas that progressively lose phonetic sharpness (dissonance) until only a single vowel sound remains.",
+    "variety_note": "Unlike previous chapters focused on tangible elements (oil, texture), this chapter must dive into the intangible consequences of consumption—the philosophical fallout left behind in the mind after the physical object is gone."
+  }
+}

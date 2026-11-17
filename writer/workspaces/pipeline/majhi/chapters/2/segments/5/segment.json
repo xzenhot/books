@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য মূল্য",
+  "segment_summary": "মাঝির কাছে যাত্রার মূল্য কেবল টাকা নয়, বরং সেই যাত্রার অভিজ্ঞতা এবং মানবিক সংযোগের একটি অদৃশ্য মূল্য বহন করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A focus on the বণিক's discomfort; showing how his rigid, money-driven worldview cannot reconcile itself with the untamed stillness of the ghat.",
+    "story_option": "A third party—a local vendor whose trade depends on honest fares—interjects into the exchange, subtly siding with the majhi’s ethos without explicitly challenging the merchant.",
+    "subject_rotation": "Framing the exchange not between man and merchant, but between two opposing flows: the steady current versus the hurried urgency of urban commerce.",
+    "sensory_detail": "The dry, brittle scent of oiled leather from the merchant's luggage contrasted with the wet earth smell clinging to the boat hull.",
+    "research_question": "What are common local terms for 'unearned luxury' or 'overpaid desire' in Bengali river culture that could be woven into the dialogue?",
+    "structural_variant": "The chapter begins entirely through the merchant's highly formalized, detached description of his needs before any visual contact is made.",
+    "variety_note": "Where previous chapters established the nature of the river and the man, this chapter anchors their relationship in a specific, tense moment of perceived commercial negotiation, introducing external friction."
+  }
+}

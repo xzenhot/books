@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 36,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ অনুরণন",
+  "segment_summary": "এই শূন্যতাটি এমন এক অসম্পূর্ণ অনুরণন, যা কোনো নতুন স্বাদ বা গন্ধ দিয়ে পূরণ করা সম্ভব নয়, কারণ এটি স্মৃতির গভীরে প্রোথিত।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final taste not as 'bitter' but as having a specific, almost clinical neutrality upon cessation of flavor contact.",
+    "story_option": "Setting: Inside a closed, unused spice tin on a high shelf; Desire: For this vessel to contain the ghost-essence of the first batch made in the ancestral kitchen; Obstacle: The seal protecting it against temporal diffusion.",
+    "subject_rotation": "A sustained monologue questioning whether 'taste' is a biological imperative or purely a cultural construct imposed by geography.",
+    "sensory_detail": "The sudden auditory vacuum when the chewing stops, leaving only the distant hum of unfamiliar machinery.",
+    "research_question": "How can the pacing transition from acute, momentary focus (the bite) to vast, slow-moving contemplation (the aftertaste)?",
+    "structural_variant": "A strict 'call and response' model, where the narrator addresses 'Samosa' in one voice and his own internal memory in the next.",
+    "variety_note": "Unlike previous chapters focused on tangible elements (oil, texture), this chapter must dive into the intangible consequences of consumption—the philosophical fallout left behind in the mind after the physical object is gone."
+  }
+}

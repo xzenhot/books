@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "Musk and the Desert's Whisper",
+  "segment_summary": "The scent of passing strangers in the desert breeze acts as an intrusive, potent reminder of the world outside her self-imposed creative sanctuary.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "ফ্রেস্কোর ক্ষয়কে এমনভাবে উপস্থাপন করা যেন এটি একটি দীর্ঘশ্বাস—এক প্রকার ধীরগতির রাসায়নিক নিঃশ্বাসের মতো যা দেওয়ালটি ধরে রেখেছে।",
+    "story_option": "দৃশ্য ৩: এক নির্দিষ্ট ফাটলের পাশে সে ইচ্ছাকৃতভাবে একটি অতিরিক্ত সূক্ষ্ম স্তর তৈরি করে—যেন এটি কোনো প্রতিরক্ষা রেখা, বাইরের জল্পনার বিরুদ্ধে নির্মিত।",
+    "subject_rotation": "সমাজের বিচারকে সরাসরি সংঘর্ষ না দেখিয়ে, দেবলিনার শিল্পের প্রতি হওয়া 'নীরব অজ্ঞতা' বা অসম্পূর্ণ দেখার মাধ্যমে উপস্থাপন করা।",
+    "sensory_detail": "চুন-মাটির ভেজা শীতলতার বিপরীতে ল্যাপিসের গুঁড়োর তীব্র জ্বালাপোড়া কণাযুক্ত স্বাদ যা ঠোঁটে লেগে থাকে।",
+    "research_question": "দেওয়াল বা ফাটল থেকে উদ্ভূত কোনো দৃশ্যমান 'স্থির শক্তি' কীভাবে কাব্যিক ভাষা দ্বারা বর্ণনা করা যেতে পারে যা কেবল ক্ষয় নয়, বরং স্থিতিশীলতা বোঝায়?",
+    "structural_variant": "Poetic progression from extreme macro view (the entire compromised haveli wall) down to a microscopic focus on the adhesion points of pigment, then expanding outward again toward her own gaze.",
+    "variety_note": "Neighbours often focused on external stimuli (Musk or Sky); this chapter roots itself deeply within the material failure of the work and the internal pressure applied to those failures."
+  }
+}

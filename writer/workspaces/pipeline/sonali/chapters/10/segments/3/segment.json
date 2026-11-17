@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "সুখের বিভ্রমের আভা",
+  "segment_summary": "এক মুহূর্তের জন্য, সে এমন এক পরম সুখ অনুভব করে যা পার্থিব নয়, যেন স্বর্গীয় আলো তার শরীরে প্রবেশ করেছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interweaving a recurring physical gesture (e.g., tracing patterns on skin) through both phases of intense feeling (bliss/isolation), showing its slight corruption in each iteration.",
+    "story_option": "Setting: In close contact with aged sandalwood—a scent associated with ritual and restraint; Desire: To find a new resonant frequency within her body where desire *is* the ritual itself; Obstacle: The inherent sweetness of the wood acting as a trap, lulling her away from dangerous truth.",
+    "subject_rotation": "Examining isolation from the perspective of *hyper-connection*; being surrounded by infinite potential yet unable to articulate its nearest neighbor.",
+    "sensory_detail": "The auditory illusion of multiple voices whispering in unison just before true silence, each voice speaking a different impossibility.",
+    "research_question": "What specific Bengali tactile metaphors exist that convey an sensation so intense it surpasses mere pleasure or pain?",
+    "structural_variant": "Using a cyclical structure where Segment 8 loops back, but inverted—instead of posing a question, it offers a fleeting, definitive *false* answer.",
+    "variety_note": "Unlike earlier explorations focused on defining limits (e.g., in Chapter 4), this chapter focuses entirely on *breaching* those self-imposed or perceived boundaries, exploring what exists when the rules dissolve."
+  }
+}

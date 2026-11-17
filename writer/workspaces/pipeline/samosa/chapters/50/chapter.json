@@ -1,59 +1,119 @@
 {
   "chapter_index": 50,
   "name": "50",
-  "word_target": 250,
-  "chapter_title": "ব্যাগে মোড়া সিঙ্গাড়া",
-  "chapter_summary": "ব্যাগে মোড়া সিঙ্গাড়া ধীরে ধীরে ঠান্ডা হয়, কিন্তু গন্ধ ব্যাগ ভেদ করে বেরিয়ে আসে। সীমান্তের ওপারে পৌঁছায় একমাত্র গন্ধ।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "তেলের স্মৃতি",
+  "chapter_summary": "এই অধ্যায়টি সরিষার তেলের ঝাঁঝালো, মাটির গন্ধযুক্ত আঘ্রাণ এবং প্রবাসের অচেনা, নিরপেক্ষ তেলের মধ্যেকার গভীর বৈসাদৃশ্যকে কেন্দ্র করে আবর্তিত। এটি কেবল একটি রাসায়নিক প্রতিস্থাপন নয়, বরং এটি বাংলার রান্নাঘরের উষ্ণতা ও আত্মিক সংযোগের বিচ্যুতিকে প্রতীকায়িত করে। যখন সেই পরিচিত গন্ধটি হারিয়ে যায়, তখন জিভের স্মৃতি একটি গভীর শূন্যতা অনুভব করে, যা প্রশ্ন তোলে—স্বাদ কি কেবল একটি রাসায়নিক যৌগ, নাকি তা আত্মার গভীরে প্রোথিত এক সাংস্কৃতিক দলিল?",
   "further_references": [
+    "references.md"
+  ],
+  "segments": [
     {
-      "no": "1",
-      "reference": "The physics of aromatic retention in fibrous materials",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "সরিষার হলুদ আভা",
+      "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার দৃশ্যটি বর্ণনা করা হবে, যেখানে তার ঝাঁঝালো গন্ধই যেন মাটির সঙ্গে মিশে থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অচেনা তেলের শীতলতা",
+      "segment_summary": "প্রবাসের নতুন তেল ব্যবহারের চিত্র তুলে ধরা হবে, যা গন্ধহীন এবং নিরপেক্ষ, যা স্বাদের মৌলিকতাকে ম্লান করে দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "ঘ্রাণ ও স্মৃতির সংযোগ",
+      "segment_summary": "কীভাবে এই তেলের পরিবর্তন সরাসরি মস্তিষ্কের গভীরে প্রোথিত ঘ্রাণ-স্মৃতিকে আঘাত করে, তা কাব্যিক ভাষায় চিত্রিত হবে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "আবেগের রাসায়নিকতা",
+      "segment_summary": "এই বৈসাদৃশ্যটি কেবল খাদ্যের নয়, বরং আবেগের একটি গভীর বিভাজন, যেখানে গন্ধের অনুপস্থিতি এক ধরনের মানসিক শূন্যতা তৈরি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "পুরোনো মাটির প্রতিধ্বনি",
+      "segment_summary": "পুরোনো মাটির গন্ধের প্রতিধ্বনি যেন নতুন তেলের মধ্যে ক্ষীণভাবে খুঁজে ফেরে, যা এক নিরন্তর আকাঙ্ক্ষার জন্ম দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "প্রতীকী প্রতিস্থাপন",
+      "segment_summary": "তেলের প্রতিস্থাপনকে কেবল একটি রান্নার পরিবর্তন হিসেবে না দেখে, এটিকে সাংস্কৃতিক পরিচয়ের একটি প্রতীকী ভাঙন হিসেবে উপস্থাপন করা হবে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অসমাপ্ত ভাজা",
+      "segment_summary": "ভাজার সেই নিখুঁত মুহূর্তটি যখন সরিষার তেল তার সর্বোচ্চ স্বাদ দান করত, সেই মুহূর্তটির অনুপস্থিতি কেমন লাগে, তা ফুটিয়ে তোলা হবে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "স্বাদের দার্শনিক প্রশ্ন",
+      "segment_summary": "এই অধ্যায়টি শেষ হবে এই প্রশ্নটি রেখে—স্বাদ কি কেবল একটি রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ?",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the physical mechanics of scent transference—how fat molecules permeate cloth, creating a ghost narrative within the confines of the travel bag.",
-      "Treating the 'silence' inside the packed bag not as absence, but as a pressurized vacuum containing all potential flavors that have been arrested by cooling and confinement.",
-      "Shifting the internal monologue to be entirely meta-textual: the narrator questions if the *idea* of the smell is more potent than the actual molecules reaching the new locale."
+      "The sensory experience of the oil transition viewed from a third-person perspective (the food itself).",
+      "Focusing on the dialectical relationship between 'hot' (আঁচ) and 'cold/neutral' (শীতলতা), using physical temperature shifts as metaphor.",
+      "A rapid montage sequence alternating between the aggressive, vibrant color palette of mustard oil vs. the flat greys and whites of imported oil."
     ],
     "story_options": [
-      "Setting: Inside a heavily packed, unfamiliar trunk; Desire: To coax one final, perfect 'ঘ্রাণ' from the cold starch, obstacle: the rigid geometry of departure.",
-      "Setting: On a dusty railway platform waiting for transport; Desire: The narrator tries to physically map the trajectory of the scent as it travels away from its source point. Obstacle: competing smells of diesel and hot dust.",
-      "Setting: In an unlit, temporary storage room near a major hub; Desire: To test the boundary between 'being smelled' by others versus smelling for oneself, obstacle: pervasive ambient industrial odor."
+      "Setting: A specific street corner where foreign vendors sell generic snacks; Desire: To smell one drop of genuine *sorsher tel* rising from a hidden source; Obstacle: The surrounding cacophony drowning out any olfactory clue; Turn: 'I' realize the scent must be conjured internally, not found externally.",
+      "Setting: A dimly lit, solitary kitchen workspace after midnight; Desire: To recreate the specific sound of *tala* hitting oil in rhythmic succession; Obstacle: Modern cookware lacks the necessary patina and resonance of old brass/iron; Turn: The memory manifests as a phantom vibration felt through the counter.",
+      "Setting: Standing near a port or border, where spices are being unloaded; Desire: To catch an authentic whiff of spice bloom trapped within cargo; Obstacle: Industrial fumes overwhelming any delicate aroma; Turn: The traveler recognizes that authenticity is not in the object, but in the *intention* to remember."
     ],
     "subject_rotations": [
-      "Examining the packaging materials (paper/cloth) not as containers but as primitive membranes of cultural preservation against entropy.",
-      "Treating the cooling process itself as a deceleration of time—how flavor is frozen, awaiting a moment that might never arrive in this new latitude.",
-      "A micro-history of the fat used: tracing the type of oil (সরিষার তেল) through its thermal degradation during transit."
+      "Treating oil as a measure of cultural 'density'—high density (mustard) vs. low density (neutral).",
+      "Exploring the difference between 'cooking medium' and 'memory carrier' within the context of fat.",
+      "Analyzing the concept of flavor loss not as decay, but as *translation error* in a culinary language."
     ],
     "sensory_details": [
-      "The visual texture of crystallized moisture clinging to the inside seam of a worn cloth bag from humidity.",
-      "The sharp, brittle sound made when one lightly taps a hardened crust layer against another packed object inside.",
-      "A specific tactile sensation: the gritty slickness left on fingertips after handling the oil-soaked paper."
+      "The sharp, almost stinging sensation on the nostrils upon inhaling hot mustard oil vapor.",
+      "The slick, uniform glide of neutral oil across an unseasoned surface.",
+      "The specific warmth (উষ্ণতা) that radiates from newly heated ghee versus modern refined oils."
     ],
     "research_questions": [
-      "What is the approximate shelf life and odor stability of fried, spiced dough under varying temperature fluctuations typical of long-distance transit?"
+      "What archaic Bengali vocabulary describes the pungent quality (*teekha*) unique to high-quality *sorsher tel* in a way that differentiates it from general 'sharpness'?",
+      "How can word stress and syllable count be manipulated in Bengali poetry to mimic the rush of an intense, brief aroma versus a slow, pervasive one?"
     ],
     "structural_variants": [
-      "A strictly cyclical structure where the initial perception of scent at arrival mirrors the final state of the bag.",
-      "Employing heavy anaphora on 'আকার' (shape) vs. 'ঘ্রাণ' (smell), using repeated structural mirroring to emphasize the loss."
+      "A cyclical structure where Segment 8 forces a return not just to the beginning (Segment 1), but to the state before the migration began.",
+      "An escalating intensity: starting with subtle notes in Segments 1-3, moving into emotional dissonance in Segments 4-6, and concluding with philosophical resignation in 7-8."
     ],
     "unused_angles": [
-      "A detailed exploration of how a specific, single spice residue survives the heat and travel better than the bulk ingredients.",
-      "The comparison between the weight/mass of the packed items versus the perceived 'weight' or spiritual load of the trapped scent.",
-      "Using an external sound (e.g., distant siren) to punctuate the internal silence of the bag."
+      "The physical geography of where different types of cooking oil are historically harvested or refined (linking soil/climate to flavor).",
+      "Comparing the required skill set for grinding spices by hand vs. using a modern electric grinder—the loss of human mediation."
     ],
-    "variety_note": "This chapter pivots away from active, observable culinary failure (like in earlier chapters) toward a passive state—the entrapment and eventual diffusion of flavor potential through material barriers."
+    "variety_note": "This chapter shifts focus from the object's transformation in transit (neighboring chapters) to the *medium* itself—the cooking oil—as the primary carrier and casualty of cultural displacement, providing an intensified sensory contrast."
   },
   "draft": {
-    "sha256": "f11133bc63876de1d081607415b1cd895eb502c9d76bd56676f32326bbc23185",
-    "written_at": "2026-11-01T08:28:13.580036+00:00",
+    "sha256": "779bbe5accd67ebaa2d139bfc5657ca58c420f9b9cc7511298bf57ffb1a793ba",
+    "written_at": "2026-11-16T21:19:18.054785+00:00",
     "origin": "write"
   }
 }

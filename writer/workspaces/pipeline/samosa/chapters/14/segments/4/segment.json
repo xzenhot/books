@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "প্রত্যাখ্যানের নীরবতা",
+  "segment_summary": "প্রবাসের নতুন পরিবেশ এই স্বাদকে গ্রহণ করে, কিন্তু তা গ্রহণ করার প্রক্রিয়ায় এক গভীর প্রত্যাখ্যানের সুর লুকিয়ে থাকে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the entire conflict not on taste/texture loss, but on a perceived ontological slippage: Is the modern iteration of the food item less 'real' than the memory?",
+    "story_option": "Setting: A sterile airport lounge overlooking unknown transit hubs; Desire: To find one single, untouched clove of familiar spice packet on the tray table; Obstacle: The hum of automated announcements erasing all geographical markers.",
+    "subject_rotation": "Focusing entirely on the ethical dilemma of authenticity: Is it wrong to claim a familiar name for something fundamentally transformed?",
+    "sensory_detail": "The visual contrast between the deep, saturated ochre of remembered filling and the paler, washed-out hue of its contemporary counterpart.",
+    "research_question": "How does the concept of 'perfect heat' (আঁচ) translate when using different electrical or gas heating systems abroad, impacting textural integrity?",
+    "structural_variant": "An external, observed narrative focusing on a shop owner who understands this conflict through commercial transactions.",
+    "variety_note": "This chapter deepens the philosophical rift begun in earlier pieces by moving from mere description of taste loss to an inquiry into ontological status, a shift away from simple geographical displacement."
+  }
+}

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 66,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিষাদের গভীর খাদ",
+  "segment_summary": "স্বামীর শূন্যতা এবং সামাজিক বিচ্ছিন্নতার ভারে বেহুলার মন এক গভীর হতাশার খাদে পতিত হয়, যেখানে প্রতিটি নিঃশ্বাস যেন এক সংগ্রাম।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing her resolve not as a defiance against society, but as an internal, necessary *alchemy* where pure grief is transmuted into unyielding spiritual metal.",
+    "story_option": "Setting: A solitary window overlooking a bruised sky; Desire: To imprint the memory of Likhindor onto her palm with lingering touch; Obstacle: The coldness seeping into bone marrow.",
+    "subject_rotation": "Shifting the focus from *suffering* to *stasis*: How does absolute endurance look when it refuses to move forward or backward? The poetry of frozen fortitude.",
+    "sensory_detail": "The metallic taste of unshed tears upon the tongue during intense focus.",
+    "research_question": "What specific Bengali idiomatic phrases denote absolute internal sovereignty that pre-empts external validation?",
+    "structural_variant": "A highly compressed structure where each segment is less a narrative beat and more a single, dense stanza containing multiple overlapping metaphors.",
+    "variety_note": "This chapter deepens the psychological terrain established earlier, focusing entirely on the *internal mechanics* of sustained suffering and resolve, rather than external conflict or momentary bursts of hope."
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 36,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অনুবাদিত স্বাদের পরিণতি",
+  "segment_summary": "সামোসাটি চিরকাল একটি 'অনুবাদিত' স্বাদ হয়েই থেকে যাওয়ার সম্ভাবনা নিয়ে কাব্যটি শেষ হয়, যা সাংস্কৃতিক দূরত্বকে মেনে নেয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the emptiness directly to a silent entity—perhaps the original frying pan or an ancestral memory that cannot reply.",
+    "story_option": "Setting: A solitary window overlooking concrete sprawl; Desire: To communicate across the glass to the specific aroma of Bengal's evening dusk cooking; Obstacle: The sheer barrier of distance and manufactured air.",
+    "subject_rotation": "Focusing entirely on the physics of flavor decay post-consumption (how rapidly do compounds break down under foreign atmospheric pressure?).",
+    "sensory_detail": "The slick, almost oily sheen left on the inner lip that refuses to absorb saliva naturally.",
+    "research_question": "What precise archaic Bengali word captures 'unresolved sensory longing' while fitting the required diction?",
+    "structural_variant": "Employing an epistolary structure where each segment is a reply/rebuttal to the previous one's assertion of void.",
+    "variety_note": "Unlike previous chapters focused on tangible elements (oil, texture), this chapter must dive into the intangible consequences of consumption—the philosophical fallout left behind in the mind after the physical object is gone."
+  }
+}

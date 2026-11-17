@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "উচ্চতর মাত্রার অনুপ্রবেশ",
+  "segment_summary": "এই শান্তি কোনো সাধারণ অনুভূতি নয়, বরং যেন কোনো উচ্চতর, অপ্রকাশিত মাত্রা ক্ষণিকের জন্য তার চেতনার গভীরে প্রবেশ করেছে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the entire chapter as a micro-event observed through the lens of an aging clock mechanism, where time momentarily skips forward and backward simultaneously during the peak sensation.",
+    "story_option": "Setting: Beside an old, heavy wooden table where books are stacked. Desire: To write down the 'formula' of that brief peace. Obstacle: Her pen feels alien and incapable in her hand during the return to reality; Turn: The ink dries instantly, mocking the ephemeral nature of the experience.",
+    "subject_rotation": "Treating the memory of the 'glimmer' as a linguistic failure—a concept so sublime it can only be expressed through contradictory syntax.",
+    "sensory_detail": "A phantom pressure against the eardrums, like being deep underwater right as it recedes (Touch/Hearing fusion).",
+    "research_question": "What specific Bengali vocabulary conveys 'unearned grace' or 'spontaneous divine leakage' without sounding overtly religious?",
+    "structural_variant": "Structuring segments based on increasing levels of perceptual distortion (from clear sensation -> distorted perception -> total conceptual void).",
+    "variety_note": "Unlike its neighbor, which focuses on induction through sensory input, this chapter is defined by an internally generated event—an instantaneous spiritual rupture in the mundane."
+  }
+}

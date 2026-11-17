@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 75,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "প্রতীক্ষার অগ্নিশিখা",
+  "segment_summary": "ব্যক্তিগত কষ্টের মাঝেও তার ভেতরের বিশ্বাসের দীপশিখা কীভাবে নিভে না গিয়ে জ্বলতে থাকে, তা চিত্রিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing resilience not as victory over pain, but as an intricate, continuous act of re-negotiation with fate.",
+    "story_option": "Setting: Early morning mist clinging to the grounds; Desire: To articulate one absolute truth without speaking it aloud; Obstacle: The rigid, unseen gaze of tradition.",
+    "subject_rotation": "Exploring the physical manifestation of internal spiritual pressure—how faith feels like bone-deep heat.",
+    "sensory_detail": "A high-frequency ringing in the inner ear whenever societal critique is perceived, like fine glass vibrating under pressure (auditory).",
+    "research_question": "What specific archaic Bengali vocabulary can convey 'sustained internal resistance' without sounding melodramatic or purely abstract?",
+    "structural_variant": "Employing a sudden, violent rupture in rhythm mid-segment whenever she confronts social gaze (breaking the expected smooth cadence).",
+    "variety_note": "Unlike previous chapters which focused on initial shock or external judgment, this chapter focuses specifically on the metabolic cost—the active energy expenditure—of maintaining symbolic fortitude against constant societal attrition."
+  }
+}

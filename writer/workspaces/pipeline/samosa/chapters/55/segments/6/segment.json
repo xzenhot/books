@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 55,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ভাজার শব্দের প্রতিধ্বনি",
+  "segment_summary": "সরিষার তেলে ভাজার সময় যে বিশেষ শব্দ তৈরি হয়, তা প্রবাসের নীরব ভাজার সঙ্গে কীভাবে ভিন্ন হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The perspective shifts entirely to the *fingertips*—the point where the tactile evidence of both sharp zest (mustard) and bland uniformity resides.",
+    "story_option": "Setting: A discarded wrapper from a locally sourced packet; Desire: To find one chemical molecule within that inert plastic film that mirrors the intensity of the original *jhal*; Obstacle: The synthetic sheen overwhelming any natural essence.",
+    "subject_rotation": "An inversion: what if the neutral oil *could* taste like home, but only by momentarily corrupting its own chemical structure?",
+    "sensory_detail": "Olfactory: A momentary sensation described as 'biting' rather than merely smelling—a physical prickling in the upper respiratory tract.",
+    "research_question": "How can I employ diction to convey the idea of 'molecular integrity' without resorting to scientific jargon?",
+    "structural_variant": "Shifting structure based on perceived heat: beginning in extreme coldness (dormant oil) and building kinetic energy toward a flashpoint.",
+    "variety_note": "This chapter focuses intensely on the medium (oil) itself, deviating from neighbour chapters that focus more broadly on travel or nomenclature; it isolates the foundational sensory element."
+  }
+}

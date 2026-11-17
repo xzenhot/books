@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ভৌতিকতার অনুপস্থিতি",
+  "segment_summary": "এই স্থানে কোনো অতিপ্রাকৃত ভয় নেই; বরং যা বিদ্যমান তা হলো এক গভীর, স্বাভাবিক নৈরাশ্য, যা কোনো নাটকীয়তা দাবি করে না।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting from macro (the building) to micro (a single piece of mortar/clay), where the resistance is tactile rather than metaphysical.",
+    "story_option": "Setting: By a broken threshold stone worn smooth by unknown passages; Desire: To impose a modern archival label or tag onto it to categorize its history; Obstacle: The skin/patina of the stone rejects any foreign mark, crumbling slightly under the pressure of annotation.",
+    "subject_rotation": "Analyzing the internal logic of decay: whether it functions like a deliberate, complex decision rather than random weathering.",
+    "sensory_detail": "The faint, metallic taste lingering on the tongue after breathing deeply within the enclosed, dust-laden halls.",
+    "research_question": "What specific local soil composition allows for this pronounced 'elasticity' or resistance against rapid structural change in these red earth regions?",
+    "structural_variant": "A highly segmented structure where each segment focuses solely on a single point of contact between the traveler's hand/eye and the material itself.",
+    "variety_note": "This chapter shifts focus inward from the initial clash (Chapter 1) to a close-up examination of *how* the confrontation fails, moving beyond mere resistance toward existential recognition."
+  }
+}

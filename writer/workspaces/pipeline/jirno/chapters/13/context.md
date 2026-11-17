@@ -1,0 +1,283 @@
+# Chapter model context
+
+## chapter_index
+
+13
+
+## name
+
+13
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+সীমারেখা
+
+## chapter_summary
+
+এই অধ্যায়টি পথিককে এক চরম দার্শনিক সন্ধিক্ষণে দাঁড় করায়, যেখানে তার নাগরিক অহংকার এবং প্রকৃতির আদিম নিয়ম একে অপরের মুখোমুখি হয়। আসন্ন কালবৈশাখীর পটভূমিতে, তাকে সিদ্ধান্ত নিতে হয়—এই ধ্বংসস্তূপকে কি তার 'ইতিহাস' হিসেবে জোর করে বাঁচিয়ে রাখা হবে, নাকি তাকে প্রকৃতির অনন্ত ক্ষয় প্রক্রিয়ার হাতে সঁপে দেওয়া হবে। এই সীমারেখা অতিক্রম করার প্রচেষ্টা তার জীবনের সবচেয়ে বড় পরীক্ষা, যা তাকে তার নিজস্ব নিয়ন্ত্রণের সীমাবদ্ধতা সম্পর্কে সচেতন করে তোলে।
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+সিদ্ধান্তের দ্বারপ্রান্তে
+
+#### segment_summary
+
+পথিক ধ্বংসাবশেষের সামনে দাঁড়িয়ে, তার সমস্ত সংগৃহীত জ্ঞান ও আকাঙ্ক্ষা যেন এক তীব্র দ্বন্দ্বে আচ্ছন্ন হয়ে ওঠে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+ইতিহাস বনাম বিলয়
+
+#### segment_summary
+
+সে নিজেকে প্রশ্ন করে—এই জীর্ণ কাঠামোকে কি সংরক্ষণ করা তার নৈতিক দায়িত্ব, নাকি এর বিলয়কে মেনে নেওয়া প্রকৃতির প্রতি আত্মসমর্পণ?
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+কালবৈশাখীর আহ্বান
+
+#### segment_summary
+
+আকাশে ঘনিয়ে আসা তামাটে মেঘ যেন এক অনিবার্য শক্তির আগমন ঘোষণা করছে, যা মানবীয় ইচ্ছাকে চ্যালেঞ্জ জানাচ্ছে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+অধিকারবোধের পরীক্ষা
+
+#### segment_summary
+
+পথিকের নাগরিক প্রবৃত্তি তীব্রভাবে জেগে ওঠে, যা এই স্থানকে নিজের 'অধিকার' হিসেবে চিহ্নিত করতে চায়।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রকৃতির নীরব বিচার
+
+#### segment_summary
+
+প্রকৃতি কোনো রায় দেয় না, কেবল তার নিজস্ব, অপরিবর্তনীয় নিয়মের মাধ্যমে পথিকের সিদ্ধান্তকে যাচাই করে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসম্পূর্ণতার আকর্ষণ
+
+#### segment_summary
+
+সে উপলব্ধি করতে শুরু করে যে, কিছু শূন্যতা বা অপূর্ণতাই এই স্থানের আসল মহিমা বহন করে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্ম-নিয়ন্ত্রণের পতন
+
+#### segment_summary
+
+তার সমস্ত প্রচেষ্টা, যা ছিল নিয়ন্ত্রণের আকাঙ্ক্ষা, তা এই বিশাল, উদাসীন প্রকৃতির সামনে অর্থহীন প্রমাণিত হয়।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+সীমার স্বীকৃতি
+
+#### segment_summary
+
+পথিক অবশেষে সেই সীমারেখাটি চিহ্নিত করতে সক্ষম হয়, যেখানে মানবীয় হস্তক্ষেপ শেষ হয়ে প্রকৃতির স্বতঃস্ফূর্ততা শুরু হয়।
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- Treating the central conflict (Preservation vs. Decay) not as an intellectual debate, but as a sustained physical ache within the traveler’s body, where every instinct pulls in opposite directions.
+- Shifting the focus from external judgment to internal resonance: how the silence of the Satual community is physically 'felt' by the traveler, like a deep pressure against his sternum.
+- Using the *texture* of the decay—the chalky dust mixing with blood-red pollen—as the central metaphor thread that tightens and breaks across all eight segments.
+
+### story_options
+
+- Setting: Standing before a threshold gap in the crumbling wall; Desire: To force one foot across, symbolically crossing the boundary into pure nature; Obstacle: The dust proves too deep to take a firm step.
+- Setting: Inside a collapsed courtyard where light barely penetrates; Desire: To deliberately lose track of time by closing his eyes and focusing only on the slow pulse in his wrist; Obstacle: An echo from outside—a single, defiant sound—snaps him back to awareness.
+- Setting: Near a particularly dense cluster of wild blood-flowers spilling over an old stone plinth; Desire: To touch one bloom with deliberate reverence, attempting to transfer its 'unconsecrated' essence into his own hand; Obstacle: The petal disintegrates instantly upon contact.
+
+### subject_rotations
+
+- Focusing the entire chapter not on the decision *made*, but entirely on the unbearable weight of the moment *before* the decision, dwelling in pure liminality.
+- Reinterpreting 'ownership' (অধিকার) as a biological imperative rather than a societal one; the ruin is merely returning to its constituent elements.
+- Treating the threshold (সীমা) not as a line on a map or an abstract concept, but as the point where his own blood begins to feel chemically similar to the red earth.
+
+### sensory_details
+
+- Sight: The specific way the last sliver of metallic-orange light catches the minute hairs on the traveler's forearm during prolonged inaction.
+- Sound: The high, internal thrumming resonance caused by atmospheric pressure change vibrating through bone rather than air.
+- Touch: The slick, almost oily feeling of sap mixed with pulverized lime dust coating his fingertips.
+
+### research_questions
+
+- What archaic Bengali poetic descriptions exist for the precise sensation of 'impending cessation' or irreversible transition?
+- How did pre-modern agricultural communities perceive environmental limits vs. human encroachment in similar arid landscape contexts?
+
+### structural_variants
+
+- A cyclical structure where each segment ends with a question posed to himself, mirroring the preceding segment’s answer.
+- Structuring segments not chronologically, but thematically: first 'Pride,' then 'Fear,' then 'Acceptance,' before finally reaching the physical boundary.
+
+### unused_angles
+
+- How the concept of inherited responsibility (to save vs. to let go) plays out across generations within the Satual perspective.
+- A sustained focus on a single, specific scent—not ozone or dust, but the smell of drying blood mixed with wild foliage.
+
+### variety_note
+
+Unlike earlier chapters that built towards conflict (awakening, storm), this chapter dwells entirely in the tense, static aftermath of escalating tension, using internal bodily sensation as the primary narrative driver.

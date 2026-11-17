@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "ভটিয়ালির নীরব প্রতিবাদ",
+  "segment_summary": "তার ভটিয়ালি সুর এখন আর কেবল গান নয়, এটি তার ভেতরের প্রতিরোধের এক চাপা, দীর্ঘশ্বাসপূর্ণ ঘোষণা।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the internal cost: what parts of his identity (e.g., his ability to hum, the specific way he ties a knot) must be sacrificed or fiercely defended?",
+    "story_option": "Setting: During an evening silence broken only by insects. Desire: He desires to speak this conflict aloud to the river itself as if it were a silent listener. Obstacle: Fear that voicing it will solidify his choice, making retreat impossible.",
+    "subject_rotation": "Rotating the focus from the external economic pressure to an internal, philosophical pressure exerted by inherited tradition (his family’s expectations for him).",
+    "sensory_detail": "The high-pitched, thin sound of metal bolts on modern infrastructure cutting through the deep, resonant thrum of wood and water.",
+    "research_question": "What is the specific vocabulary within Bengali river folk culture used to describe 'living outside the ledger' or non-monetized exchange?",
+    "structural_variant": "A section dedicated entirely to sensory deprivation: a moment of complete silence where he only hears the internal rush of his own blood beneath the surface.",
+    "variety_note": "This chapter centers on interiority; while neighbours deal with external pressure (debt, protest), here the conflict is pure existential triangulation between two opposing forces of nature/commerce."
+  }
+}

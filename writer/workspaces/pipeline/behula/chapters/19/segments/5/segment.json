@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আলোর চূড়ান্ত প্রকাশ",
+  "segment_summary": "অন্ধকারতম মুহূর্তেও টিকে থাকা তার আলোকবর্তিকাটি চূড়ান্তভাবে প্রকাশিত হয়, যা সমস্ত সংশয়কে দূর করে দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The material anchor of victory: Using a single, tangible object—perhaps a piece of cloth or earth from the trials—as the lens through which the miracle is filtered.",
+    "story_option": "Setting: An alcove illuminated by a single 'প্রদীপ'; Obstacle: The light source itself flickers erratically for a beat before stabilizing, symbolizing that absolute peace requires constant internal maintenance against the chaos it overcame.",
+    "subject_rotation": "Treating the 'question' not as external judgment, but as a deeply rooted pattern in the very structure of marriage/social contract that victory alone cannot erase.",
+    "sensory_detail": "The high-frequency ringing resonance felt in the bone structure immediately following a massive energetic discharge (auditory/physical).",
+    "research_question": "What specific imagery, consistent with the elevated diction, can convey an 'absolute exhaustion that is beautiful' without lapsing into sentimentality?",
+    "structural_variant": "A structure emphasizing *Gap* (the trial) $\\rightarrow$ *Nexus* (the moment of return) $\\rightarrow$ *Dissonance* (the quiet, lingering societal question post-reunion).",
+    "variety_note": "Where previous chapters focused on resistance and the internal fight against specific odds (skepticism, deprivation), this chapter shifts focus entirely to the *aftermath*—the sustained, quiet resonance following absolute victory and its philosophical weight."
+  }
+}

@@ -1,15 +1,15 @@
 {
   "level": "segment",
   "segment_index": 2,
-  "total_segments": 6,
+  "total_segments": 5,
   "chapter_index": 17,
   "name": "17",
-  "chapter_title": "সংঘর্ষের সন্ধিক্ষণ",
-  "chapter_summary": "শহরের দ্রুত পরিবর্তনশীল কাঠামো এবং মানুষের স্থিতিশীল আকাঙ্ক্ষার সংঘর্ষ তীব্র হয়। অরুণিমা ও বিক্রম যে চাপা সত্য খুঁজে পেয়েছে তা প্রকাশের ঝুঁকি নিতে হবে—কিংবা চুপ থাকতে হবে।",
-  "word_target": 917,
+  "chapter_title": "The Unwritten Chronicle",
+  "chapter_summary": "This chapter delves into the ultimate philosophical impasse of the narrative, where the characters confront the limitations of definitive answers in a sprawling, chaotic metropolis. The conflict centers on whether the profound human experiences—love, loss, and connection—can ever be captured by the rigid structure of a single, digestible 'article.' Imagery shifts between the sterile, high-rise glass and the messy, enduring texture of forgotten paper. The central, unresolved question remains: can true, lasting personal meaning ever escape the ephemeral nature of the news cycle?",
+  "word_target": 100,
   "state": "enriched",
   "segment_enrichment": {
-    "angle": "Viewing the 'truth' less as a singular narrative and more as a dissonant frequency vibrating beneath the predictable hum of city life.",
+    "angle": "Shifting focus from abstract meaninglessness to bureaucratic persistence: How does the machinery of city record-keeping (filing cabinets, municipal codes) actively enforce or deny personal mythologies?",
     "status": "enriched"
   }
 }

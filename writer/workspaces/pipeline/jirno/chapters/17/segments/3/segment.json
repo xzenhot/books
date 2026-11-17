@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অধিকার বনাম মুক্তি",
+  "segment_summary": "নাগরিক প্রবৃত্তি দ্বারা এই ধ্বংসাবশেষকে অধিকার করার বাসনা এবং প্রকৃতির স্বতঃস্ফূর্ত মুক্তির ধারণার মধ্যে তীব্র টানাপোড়েন শুরু হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus entirely to an imagined dialogue *with* the absent former owner of the manor; the traveler speaks his struggle into the void where response should be.",
+    "story_option": "Setting: Tucked into the shelter of a crumbling wall section, smelling the damp clay; Desire: To trace the outline of what *might* have been—a ceremony, a life—rather than what was documented; Obstacle: A sudden, piercing clarity that stops all tracing.",
+    "subject_rotation": "Focusing on how the Satual 'indifference' is actually an incredibly sophisticated form of cultural data compression—a refusal to waste energy narrating decay.",
+    "sensory_detail": "Touch: The dry, abrasive sensation of pulverized lime plaster clinging statically to the inside creases of the traveler’s wrist.",
+    "research_question": "How can the cadence mimic that of hushed confessions rather than declarative pronouncements in Bengali poetry?",
+    "structural_variant": "A circular structure where segment 8’s quiet departure bleeds back into a fragmented echo of segment 1’s initial observation.",
+    "variety_note": "Unlike earlier chapters focused heavily on internal questioning (segments 1-7), this sequence shifts the locus of action outward, making the external forces—the sky, the people, the earth—active agents demanding a final concession from the protagonist."
+  }
+}

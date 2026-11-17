@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের প্রশ্ন",
+  "segment_summary": "এই কাব্যিক যাত্রা চূড়ান্তভাবে প্রশ্ন করে যে, এই শক্তি কি কেবল বাহ্যিক আচার-অনুষ্ঠানে সীমাবদ্ধ?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the philosophical query (Is power internal or external?) not as a binary choice, but as a resonance frequency that oscillates between two states.",
+    "story_option": "Setting: A pair of hands (narrator's or observer's), tracing a pattern on dusty floorboards resembling an abstracted *Trishul*; Desire: To feel the cold certainty of divine geometry beneath daily grit; Obstacle: The ingrained habit of treating existence as merely transactional.",
+    "subject_rotation": "Shifting from a spiritual conclusion to a highly political one: treating collective societal resilience (the *Bongomanush*) as the true manifestation of Durga's sustained power.",
+    "sensory_detail": "Smell: A scent of damp earth mixed with faint, acrid smoke residue from old funeral pyre rituals nearby.",
+    "research_question": "How can the philosophical dichotomy between temporary ritual joy and eternal internal strength be articulated using only modal verbs (might, could, must)?",
+    "structural_variant": "Employing a sustained chiasmus across the eight segments: A=B, C=D, D=C, B=A—forcing structural symmetry upon existential chaos.",
+    "variety_note": "Unlike neighbouring chapters which focus on cyclical action (arrival, peak power), this chapter isolates the residue—the quiet aftermath where physical matter meets metaphysical question."
+  }
+}

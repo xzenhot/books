@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 51,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় অধ্যায়",
+  "segment_summary": "বেহুলার এই মহাকাব্যিক সংগ্রাম তাকে কেবল ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় অধ্যায় রচনা করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the non-verbal communication between the reunited couple—the lingering question remains unanswered by either party.",
+    "story_option": "Setting: The familiar threshold of home; Desire: To simply share the same quiet air with him again; Obstacle: Both are acutely aware they can never truly return to 'before'—a perpetual aftermath.",
+    "subject_rotation": "Shifting focus entirely away from 'miracle' and towards the mundane logistics of shared existence after transcendent suffering.",
+    "sensory_detail": "A dull, heavy pressure settling into the chest—the weight of all unsaid words finally becoming physically palpable.",
+    "research_question": "What classical Bengali metaphor exists for sustained endurance that suggests crystalline rigidity without implying total cessation of striving?",
+    "structural_variant": "An immediate shift to extreme interior monologue in Segment 1, grounding the reunion entirely within the psyche before any outward action occurs.",
+    "variety_note": "Unlike earlier chapters focusing on struggle or doubt, this section is dedicated to the silence *after* victory—examining what that stillness costs and entails."
+  }
+}

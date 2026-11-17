@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আত্মার সংরক্ষণাগার",
+  "segment_summary": "এই স্বাদটি কেবল জিভের স্মৃতি নয়, এটি প্রবাসীর আত্মার গভীরে সংরক্ষিত একটি জীবন্ত আর্কাইভ, যা অন্য কোনো খাদ্য দিয়ে পূরণ করা সম্ভব নয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the perspective entirely to the *oil* itself—observing how it has fundamentally changed in its chemical composition, thus becoming a symbol of altered destiny.",
+    "story_option": "Setting: A closed pocket holding only crumbs and residue; Desire: To treat these minute fragments as fragmented linguistic relics that map the lost Bengali syntax onto foreign soil; Obstacle: The complete inability to assemble them into a coherent memory.",
+    "subject_rotation": "Deconstructing the structural integrity of the shell (খোলস) after eating; observing its perfect, hollow emptiness as a metaphor for spiritual evacuation rather than mere physical digestion.",
+    "sensory_detail": "The specific visual texture of hardened oil film reflecting a single distant streetlamp's muted glow.",
+    "research_question": "What is the most potent colloquial Bengali word that conveys 'sweet ache' or 'melancholy satisfaction,' avoiding common literary tropes?",
+    "structural_variant": "A highly fragmented poem where each segment acts as a single magnified sensation—e.g., one segment only addresses texture, the next only aroma.",
+    "variety_note": "This chapter pivots away from mapping geographical loss (like earlier chapters) to dissecting ontological residue—the profound philosophical implications of what remains *after* the consumption event has concluded."
+  }
+}

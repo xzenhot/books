@@ -4,19 +4,19 @@
   "chapter_index": 3,
   "segment_index": 7,
   "total_segments": 8,
-  "segment_title": "অমূল্য সুর",
-  "segment_summary": "যে সুর কোনো টাকায় কেনা যায় না, তার দাম হিসাব করা যায় না; কবিতা সুরকে বাজারের উল্টো পিঠে রাখে।",
+  "segment_title": "অদৃশ্য চ্যালেঞ্জ",
+  "segment_summary": "The initial conflict is not yet a confrontation, but a pervasive, unsettling dissonance that threatens the unspoken contract of the river.",
   "name": "7",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Focusing on the sound of a single wooden oar against the water as the physical manifestation of the song's rhythm.",
-    "story_option": "setting: A particularly muddy bend where the dredging machinery momentarily pauses, desire: Gopal wishes to make the river 'listen' with his song, commanding it to pause its change., obstacle: Mr. Chatterjee’s crew ignores the music completely, focused only on depth readings., turn: Gopal sings a lament for a specific submerged patch of land that is about to be dredged away.",
-    "subject_rotation": "Shifting focus entirely to the structural integrity of the song itself—how its ancient melodic framework resists sonic decay.",
-    "sensory_detail": "The grit of dried river mud staining Gopal's throat after long hours of singing over the open water.",
-    "research_question": "What are the subtle phonetic markers in Bhatiyali singing that differentiate true cultural resonance from mere vocal imitation?",
-    "structural_variant": "A highly fragmented structure where each line is a captured sonic artifact—a single syllable from song, a specific engine sound, an intake of breath.",
-    "variety_note": "This chapter moves away from broad geological descriptions (Chapter 2) to focus intensely on an ephemeral, non-material force—the sound—and introduces the central conflict through auditory contrast."
+    "angle": "Focusing on a single piece of debris—a sharp, unnatural fragment caught in the silt near the hull—as the physical manifestation of Chatterjee's presence.",
+    "story_option": "A specific moment when a passenger lowers their head toward the water in response to the diesel noise, creating an image of internalized resignation against the vastness.",
+    "subject_rotation": "Treating the diesel sound as an unnatural form of 'noise pollution' that specifically erodes the cultural memory carried in the songs.",
+    "sensory_detail": "The specific feeling of low-frequency vibration traveling up through the wood planking and into the soles of Gopal’s feet.",
+    "research_question": "What is the specific local Bengali term for 'disruptive dissonance' when applied to traditional river sounds?",
+    "structural_variant": "A highly fragmented structure where each segment is less a progression and more an accretion of overlapping, competing soundscapes.",
+    "variety_note": "Unlike the first chapter's grounding in physical presence, this poem emphasizes sonic conflict; it is a study of overlapping frequencies rather than static imagery."
   }
 }

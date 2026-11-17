@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ঐতিহ্যের সুরের প্রতিরোধ",
+  "segment_summary": "মাঝি তার পূর্বপুরুষদের ভটিয়ালি সুরকে জাগিয়ে তোলে, যা আধুনিকতার আগ্রাসনের বিরুদ্ধে এক প্রাচীন প্রতিরোধ গড়ে তোলে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the melody not as sorrow, but as a defiant declaration—a form of linguistic sabotage against codified economic language.",
+    "story_option": "Setting: During the very moment the water level drops due to managed sluice gates. Desire: To sing a lament that speaks directly to arrested life force. Obstacle: The physical act of rowing becomes impossibly strained against the shallow, artificial boundaries.",
+    "subject_rotation": "Interrogating whether this protest is fundamentally selfish (for the majhi's ego) or truly communal/ecological.",
+    "sensory_detail": "The cold, slick feel of aged, salt-treated rope against the hand gripping the oar while singing.",
+    "research_question": "How does the auditory experience of a 'low register' (as suggested by the prompt) fundamentally change the perceived agency between singer and sound object?",
+    "structural_variant": "An overtly cyclical structure where the opening theme/note is repeated until it fractures into dissonance.",
+    "variety_note": "Unlike the initial scenes focusing on observation (Neighbour 2) or structural confrontation (Neighbour 1), this chapter focuses internally, using the art form itself as the battleground against external pressures."
+  }
+}

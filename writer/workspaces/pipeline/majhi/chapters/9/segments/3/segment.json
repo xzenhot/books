@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "কাঠের নৌকার প্রতিবাদ",
+  "segment_summary": "নৌকাটি, যা তার জীবনের সঙ্গী, সেও যেন এই প্রতিবাদী সুরের অংশ হয়ে ওঠে, তার কাঠের প্রতিটি দাগে সংগ্রামের ইতিহাস লেখা থাকে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the melody not as sorrow, but as a defiant declaration—a form of linguistic sabotage against codified economic language.",
+    "story_option": "Setting: During the very moment the water level drops due to managed sluice gates. Desire: To sing a lament that speaks directly to arrested life force. Obstacle: The physical act of rowing becomes impossibly strained against the shallow, artificial boundaries.",
+    "subject_rotation": "Interrogating whether this protest is fundamentally selfish (for the majhi's ego) or truly communal/ecological.",
+    "sensory_detail": "The cold, slick feel of aged, salt-treated rope against the hand gripping the oar while singing.",
+    "research_question": "What are concrete examples in Bengali folk tradition where economic hardship is directly addressed through melodic variation or specific lyrical motifs within Bhatiyali songs?",
+    "structural_variant": "A highly fragmented structure, mirroring stuttering frustration or gasps for air during the passionate outburst.",
+    "variety_note": "Unlike the initial scenes focusing on observation (Neighbour 2) or structural confrontation (Neighbour 1), this chapter focuses internally, using the art form itself as the battleground against external pressures."
+  }
+}

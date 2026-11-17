@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-রেসিপি লেখার ব্যর্থ চেষ্টা
+তেলের স্মৃতি
 
 ## chapter_summary
 
-রেসিপি লেখার চেষ্টায় ধাপ ঠিক থাকে, পরিমাণ ঠিক থাকে, তবু স্বাদ আসে না। যা লেখা যায় না, তাকেই খুঁজতে থাকে হাত।
+এই অধ্যায়টি সরিষার তেলের ঝাঁঝালো, মাটির গন্ধযুক্ত আঘ্রাণ এবং প্রবাসের অচেনা, নিরপেক্ষ তেলের মধ্যেকার গভীর বৈসাদৃশ্যকে কেন্দ্র করে আবর্তিত। এটি কেবল একটি রাসায়নিক প্রতিস্থাপন নয়, বরং এটি একটি আবেগের বিভাজন, যেখানে প্রতিটি ফোঁটা অতীত ও বর্তমানের মধ্যে একটি অদৃশ্য সীমারেখা টেনে দেয়। এই সংঘাতটি প্রশ্ন তোলে যে, যখন মৌলিক উপাদান পরিবর্তিত হয়, তখন কি কোনো কিছুর 'আত্মা' টিকে থাকতে পারে, নাকি তা কেবল একটি প্রতিচ্ছবি হয়েই থেকে যায়?
 
 ## further_references
+
+- 2
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+সরিষার হলুদ আবেশ
+
+#### segment_summary
+
+বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার সেই উষ্ণ, ঝাঁঝালো গন্ধটি যেন এক জীবন্ত আর্কাইভের মতো স্মৃতিকে জাগিয়ে তোলে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অচেনা তেলের শীতলতা
+
+#### segment_summary
+
+প্রবাসের নতুন তেলগুলো তার ঝাঁঝ হারিয়েছে, এক ধরনের নিরপেক্ষতা এনেছে যা স্বাদের গভীরতাকে ম্লান করে দেয়।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+ঘ্রাণ ও ভৌগোলিক দূরত্ব
+
+#### segment_summary
+
+এই তেলের পরিবর্তন কেবল রান্নার উপকরণ নয়, এটি ভৌগোলিক দূরত্বের একটি প্রত্যক্ষ, ঘ্রাণ-সংক্রান্ত প্রমাণ।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+আবেগের রাসায়নিক প্রতিস্থাপন
+
+#### segment_summary
+
+কীভাবে একটি রাসায়নিক পরিবর্তন গভীরতম মানবিক অভিজ্ঞতার সঙ্গে যুক্ত আবেগকে প্রতিস্থাপন করতে পারে, তা এই অংশে অনুসন্ধান করা হয়।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+পুরোনো মাটির প্রতিধ্বনি
+
+#### segment_summary
+
+জিভের স্মৃতি সেই তেলের গন্ধের মাধ্যমে অতীতের নির্দিষ্ট মুহূর্তের উষ্ণতাকে পুনরায় আহ্বান করে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্বাদের বিচ্যুতি
+
+#### segment_summary
+
+এই বৈসাদৃশ্যটি প্রমাণ করে যে, স্বাদ কেবল একটি স্বাদ নয়, এটি একটি নির্দিষ্ট পরিবেশের সামগ্রিক সংমিশ্রণ।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসমাপ্ত ভাজা
+
+#### segment_summary
+
+তেলের এই পরিবর্তন সামোসার ভেতরের সত্তার উপর কেমন প্রভাব ফেলে, যা কেবল আকার ধরে রেখেছে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষা ও অনুরণন
+
+#### segment_summary
+
+এই অধ্যায়টি শেষ হয় সেই নিখুঁত, আদি গন্ধের জন্য এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার মধ্য দিয়ে।
+
+#### further_references
 
 
 ## level
@@ -31,51 +238,45 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Focusing on the failure of *documentation*—the antithesis of culinary preservation, suggesting flavor is inherently non-transferable to text.
-- Adopting the perspective of the *tool* (e.g., a worn notebook or pen) that attempts transcription, making it the unreliable narrator of the sensory data.
-- A sudden shift where the attempt to write becomes an act of aggressive sabotage against the memory itself—the precision is too sharp, too cutting.
+- Focusing on the body's memory—how the ache in the hand that grips the warm samosa mirrors the missing flavor.
+- Treating the smoke/vapor itself as a language barrier, translating home scents into inert urban air.
+- The oil not as cooking medium, but as an inherited garment whose weave holds the map of departure.
 
 ### story_options
 
-- Setting: A small, cold table illuminated only by a weak bedside lamp in the pre-dawn hours; Desire: The narrator tries to map the 'feeling' onto measured weight and volume, obstacle: Every written measurement feels like a lie.
-- Setting: Beside an old, empty flour packet on a foreign counter; Desire: The speaker attempts to find a single word—a true adjective for *that* specific flavor—obstacle: All available vocabulary defaults back to the neutral 'samosa'.
-- Setting: While standing at the window watching the city wake up in muted light; Desire: To reverse-engineer the entire experience—trace the process backward from the empty plate, obstacle: The original starting point (the mother's hand) is now completely obscured by distance.
+- Setting: The cramped kitchen counter littered with packaging; Desire: To feel the *jhal* spread across a fingertip from residual oil., Obstacle: Only industrial-grade neutral fat is available.
+- Setting: While breath comes out in vapor over a cold surface (reflecting absence); Desire: To inhale the specific warmth of saffron infused into pure mustard seed oil; Obstacle: The pervasive smell of foreign exhaust fumes masks all domestic scents.
+- Setting: Observing an old, cracked spice tin on the shelf; Desire: To recreate the exact temperature gradient of oil from that bin to the *tawa* for peak aroma release; Obstacle: The original spices are too faded.
 
 ### subject_rotations
 
-- Shifting emphasis from 'what is lost' to 'how the attempt to recreate implies loss'; the recipe itself becomes a monument to absence.
-- Treating the written instructions not as guidance, but as ritualistic mimicry—performing the motions without the soul required for authenticity.
-- Focusing on the *physicality* of writing recipes—the scraping sound of the pen against paper mirroring the sharp edges of memory.
+- Treating the physical texture of the dough's coating (খোলস) as a map detailing geographical hardship rather than just flavor.
+- Shifting focus entirely to the auditory experience—the specific *shis* sound made by mustard oil hitting hot metal versus neutral oil.
+- Framing the 'oil choice' not as preparation, but as an immediate, subconscious act of self-betrayal or loyalty.
 
 ### sensory_details
 
-- The dry, papery whisper of a pencil scratching notes onto thin foreign ledger paper before dawn.
-- A profound chill in the air contrasting sharply with the phantom heat described on the page of the recipe's instructions.
-- The faint, clinging scent of stale ink mingling unpleasantly with the ghost aroma of fried oil.
+- A visual: The dull, matte sheen on a modern frying surface compared to the aggressive, vibrant ochre gloss of authentic oil.
+- An olfactory: A phantom stinging sensation in the nostrils from an imagined whiff of rendered mustard seed oil's pungency.
 
 ### research_questions
 
-- What specific Bengali verb or idiomatic phrase exists that perfectly captures 'the flavor is present but utterly unreachable by words'?
+- Is there an archaic Bengali term describing the characteristic astringency found in mustard oil used for cooking?
 
 ### structural_variants
 
-- Structuring the poem as a deliberate, failed bureaucratic document—using subheadings and bullet points before collapsing them into abstract verse.
-- Alternating between hyper-literal measurement descriptions (e.g., 'three grams of spice') and vast, unquantifiable emotional descriptors ('infinite regret').
-- Employing an epistolary fragment style, where the act of writing is interrupted by a sudden, sensory memory flash that destroys the current line of thought.
+- A highly asymmetrical structure: eight short, almost haiku-like stanzas focusing intensely on single sensory input (sight/smell/touch) before transitioning into a final philosophical lament.
+- Employing heavy use of antithesis in parallel couplets that rigidly oppose 'Sorsher' vs. 'Neutral', 'Jhal' vs. 'Nishchipto'.
 
 ### unused_angles
 
-- The impossibility of measuring *intent* or *care* when translating culinary process into rigid notation.
-- How language forces a betrayal upon sensation—the necessity of reduction leads to mutilation.
+- Detailing the sociological pressure to adopt foreign cooking practices for perceived economic efficiency.
+- An exploration of how oil residue staining on clothing represents unerasable cultural baggage.
 
 ### variety_note
 
-Unlike previous chapters which focused on the sensory contrast (taste/smell), this chapter must focus exclusively on the intellectual failure inherent in transcribing feeling into measurable text, maintaining the low, watchful tone.
+This chapter moves away from the narrative shock (like Chapter 1) and adopts an echoing, reflective quality, focusing entirely on the subtle persistence and failure of memory held within a single substance: cooking fat.

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 5,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "জলদানবের গর্জন",
+  "segment_summary": "বৃষ্টির প্রথম ফোঁটা যখন নদীর বুকে আঘাত করে, তখন জলরাশি যেন এক উন্মত্ত প্রাণীর মতো গর্জন করতে শুরু করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The storm as a cleansing force that momentarily suspends the economic logic of the river.",
+    "story_option": "Setting: A remote bend in the river during a torrential downpour; Desire: The traveler simply seeks immediate shelter; Obstacle: The boat is dangerously swamped by rogue waves; Turn: They spend the night sharing meager rations, cementing the bond without words.",
+    "subject_rotation": "Treating the rainfall not as a meteorological event, but as the river weeping for past lost generations.",
+    "sensory_detail": "The taste of metallic rain mixed with river silt coating the lips during a lull in the downpour.",
+    "research_question": "What are traditional Bengali idioms for 'unpayable debt' when applied metaphorically to nature or human goodwill?",
+    "structural_variant": "Beginning *in media res* with the peak of the storm, and concluding by slowly pulling back out toward a navigable current.",
+    "variety_note": "This chapter diverges from others by removing all mercantile figures; it strips the interaction down to a primal test between nature's overwhelming force and irreducible human kindness."
+  }
 }

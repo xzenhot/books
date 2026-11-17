@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "এই বিজয়ের আড়ালে লুকিয়ে থাকা সামাজিক কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগের প্রতিধ্বনি কাব্যিক রূপে অনুরণিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating the nature of 'rest' following such prolonged combat; suggesting that true peace is merely the next iteration of necessary tension (The secondary twist).",
+    "story_option": "Setting: Outside the ancient stone edifice, where societal watchers linger invisibly; Desire: For the couple to share a glance that transcends their immediate miracle and addresses the indifferent crowd; Obstacle: Their own overwhelming exhaustion masking true defiance.",
+    "subject_rotation": "Focusing on the transition from internal *will* to external *manifestation*—how stubborn self-belief imposes its shape onto chaotic reality.",
+    "sensory_detail": "A metallic tang in the mouth, not from blood, but from sustained spiritual exertion held too long.",
+    "research_question": "What specific archaic Bengali vocabulary best denotes a state of 'ferociously maintained stability'—beyond simple equilibrium?",
+    "structural_variant": "Employing a tightly interwoven structure where each segment briefly interrupts the flow of the previous one with an external philosophical query before immediately returning to the core action.",
+    "variety_note": "Unlike preceding chapters which focused on overcoming external societal barriers (like custom or slander), this final set centers on the existential negotiation required to sustain a state of triumph against fundamental forces."
+  }
+}

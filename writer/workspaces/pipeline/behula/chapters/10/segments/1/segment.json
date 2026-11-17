@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 10,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "প্রতিকূলতার শেষ বাঁক",
+  "segment_summary": "সমস্ত বাধা অতিক্রম করার পর বেহুলার যাত্রা এক নতুন দিগন্তের দিকে মোড় নেয়, যেখানে চূড়ান্ত সাফল্যের আভাস মেলে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the subtle, non-verbal exchange between husband and wife upon reunion—a dialect of shared trauma and triumph.",
+    "story_option": "Setting: A newly cleansed space in the ancestral home; Desire: To find one small, unbroken artifact from before Likhindar's absence—a tangible piece of 'before'; Obstacle: The overwhelming noise of forced celebration eclipsing all private sound; Turn: Realizing the silence he misses is not her voice, but his own interior monologue.",
+    "subject_rotation": "Treating the return not as a divine reprieve, but as an arduous, earned truce against entropy.",
+    "sensory_detail": "The lingering scent of smoke from celebratory pyres overlaid by the sharp mineral smell of old river stone.",
+    "research_question": "What specific material artifacts (jewelry, textiles) would signify both enduring marital devotion and recent trial in this cultural context?",
+    "structural_variant": "A highly episodic structure mirroring vignettes of reunion moments rather than one continuous arc.",
+    "variety_note": "This chapter shifts from the sustained tension of endurance (previous segments) to a focused, pressurized scene of consummated relief and its immediate philosophical implications."
+  }
 }

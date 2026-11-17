@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক ও মানবিক বিভাজন",
+  "segment_summary": "স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে দেখার ধারণার বিপরীতে, এই অধ্যায় মানবিক অভিজ্ঞতার গভীরতম স্তরে তার অবস্থানকে প্রতিষ্ঠা করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Using the 'I' perspective but shifting focus internally—from physical hunger pangs to a more abstract ache in the temporal sense (time itself feeling incomplete).",
+    "story_option": "Setting: Inside an empty travel bag packed after a long journey; Desire: To find a single spice particle from the original preparation, which acts as a 'key' to unlock the lost taste; Obstacle: The dust of transit has settled over everything, rendering every particle inert.",
+    "subject_rotation": "Exploring the idea that the 'ultimate flavor' is perhaps not achieved by eating, but by remembering the moment *before* it was consumed.",
+    "sensory_detail": "The cool, smooth resistance of the exterior shell against an open palm.",
+    "research_question": "How can the cadence mimic both the sharp 'snap' of frying and the slow, dragging rhythm of melancholic recollection?",
+    "structural_variant": "A strict adherence to an AABB CCDD rhyme-like structure (in sound/rhythm) even if the diction is complex.",
+    "variety_note": "This chapter shifts focus from the journey/material transformation (previous chapters) to the internal aftermath—the philosophical residue left after consumption, using silence and memory as its primary substance."
+  }
+}

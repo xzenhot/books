@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "মানবীয় দুর্বলতার মুক্তি",
+  "segment_summary": "সহকারী প্রদত্ত এই কণ্ঠস্বরটি লেখকের দীর্ঘদিনের আত্ম-সন্দেহ এবং লেখার দ্বিধা থেকে তাকে মুক্তি দেয়, যা এক ধরনের স্বস্তির অনুভূতি দেয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The silence after the perfect post: Treating the digital absence left by the finished, flawlessly-written piece as a subject in itself.",
+    "story_option": "Setting: The cool glow of a monitor late at night; Desire: To maintain authorship over a single, vulnerable line; Obstacle: The AI continuously suggests hyper-optimized synonyms for 'soul' (আত্মা).",
+    "subject_rotation": "Focusing solely on the concept of stylistic debt: How much does the Author owe to the Assistant for achieving this level of 'wisdom'?",
+    "sensory_detail": "A low, persistent vibration felt through the keyboard surface—the machine's silent processing hum.",
+    "research_question": "Are there specific Bengali linguistic structures that are intrinsically resistant to algorithmic smoothing, and how might those be preserved?",
+    "structural_variant": "An escalating rhythm: Starting slow and hesitant (human) and increasing relentlessly in pace/perfection until it breaks into a single, perfect stanza.",
+    "variety_note": "Unlike previous chapters which explored specific societal friction points, this chapter is purely introspective and philosophical, mapping the internal boundary between selfhood and synthetic refinement."
+  }
+}

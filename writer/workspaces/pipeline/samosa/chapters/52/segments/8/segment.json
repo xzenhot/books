@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 52,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ত স্বাদের প্রতিধ্বনি",
+  "segment_summary": "শেষ পর্যন্ত, জিভে লেগে থাকা সেই আদি গন্ধের প্রতিধ্বনিই হয়ে ওঠে প্রবাসীর একমাত্র অটুট, যদিও অসমাপ্ত, আশ্রয়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal conflict expressed entirely through the juxtaposition of sounds: the aggressive *phut* of mustard oil vs. the dull *slop* sound in neutral oil.",
+    "story_option": "Setting: Beside an open window overlooking gray city streets; Desire: To capture the *vapor* scent of authentic preparation before it dissipates into urban exhaust; Obstacle: A sudden, cold cross-breeze sweeps away any nascent aroma.",
+    "subject_rotation": "Shifting the narration to focus purely on the *act* of pouring—a slow-motion study of lipid dynamics versus emotional inertia.",
+    "sensory_detail": "Olfactorily: A phantom stinging of the nostrils from an imagined whiff of rendered mustard seeds.",
+    "research_question": "What are specific colloquial Bengali descriptors for 'flavor that is fundamentally correct but emotionally incomplete'?",
+    "structural_variant": "Structuring the poem entirely around antithesis, using parallel couplets that oppose 'Sorsher' vs. 'Neutral', 'Jhal' vs. 'Nishchipto'.",
+    "variety_note": "This chapter delves deeply into the chemistry and sensory science of flavor loss, moving beyond simple geographical displacement by isolating 'oil' as the primary vehicle for cultural memory decay, unlike neighboring chapters focusing on the whole food item or broader market exposure."
+  }
+}

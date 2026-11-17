@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 12,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ব্যক্তিগত থেকে সর্বজনীন",
+  "segment_summary": "বেহুলার ব্যক্তিগত শোকের ভার ধীরে ধীরে সমাজের বৃহত্তর যন্ত্রণার প্রতিধ্বনি রূপে প্রকাশিত হতে শুরু করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The sonic layering: Prioritizing the hard, percussive sounds (ক/ট/ড) to embody societal friction before allowing softer vowels to represent internal release.",
+    "story_option": "Setting: A crowded public square during a ritual procession; Desire: To stand motionless amidst the cacophony, allowing her silent resolve to become louder than the chanting; Obstacle: An unseen throng of judgmental eyes that seem specifically aimed at her.",
+    "subject_rotation": "Focusing less on 'suffering' (বেদনা) and more on the *process* of transforming shock into durable meaning (অর্থিকরণের প্রক্রিয়া).",
+    "sensory_detail": "The grit of river silt clinging to her worn garments, symbolizing the heavy burden she carries from life's struggle.",
+    "research_question": "Are there specific Bengali compound words that capture both 'social oppression' and 'unyielding inner strength' simultaneously?",
+    "structural_variant": "A frame narrative where the entire poem is presented as an overheard conversation between two spirits—one personal (Behula) and one communal (The Chorus).",
+    "variety_note": "This chapter shifts focus from intimate struggle (previous chapters) to sociological resonance; it is about transforming personal pain into a palpable, shared cultural frequency rather than achieving singular dramatic resolution."
+  }
 }

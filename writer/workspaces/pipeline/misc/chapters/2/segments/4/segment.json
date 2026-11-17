@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "দিনের পবিত্র সূচনা",
+  "segment_summary": "The chapter examines the ritualistic quality of the morning opening, suggesting a sacredness in the commencement of daily toil.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the minute friction of dust motes catching the first light beam in relation to the careful folded hands.",
+    "story_option": "The owner pauses mid-fold, noticing a single stray thread on his cuff that seems to resist the dawn's light—a small act of resistance against perfect order.",
+    "subject_rotation": "Shifting focus from the *hands* to the *space* around them—how the pre-dawn stillness shapes the architecture of the shop itself.",
+    "sensory_detail": "The faint, metallic coolness transferring from the polished counter surface through a fingertip.",
+    "research_question": "What specific tactile qualities does aged or traditional folded fabric possess that might contrast sharply with newer materials?",
+    "structural_variant": "Employing an extended metaphor throughout, using the shop's readiness as a proxy for societal preparedness.",
+    "variety_note": "Unlike neighbour chapters that focus on external movement or marketplace interaction, this chapter is almost entirely dedicated to internal stillness and the metaphysics of pre-dawn routine."
+  }
+}

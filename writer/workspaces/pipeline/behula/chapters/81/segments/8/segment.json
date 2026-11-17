@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 81,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত জিজ্ঞাসা",
+  "segment_summary": "পাঠক এমন এক মিশ্র অনুভূতির মুখোমুখি হয় যেখানে মহিমা এবং সামাজিক প্রশ্নাবলি একই সাথে বিদ্যমান থাকে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the societal 'silent accusation' (নীরব অভিযোগ) as an auditory echo that even proximity to Likhindar cannot fully mute.",
+    "story_option": "Setting: A quiet riverside alcove, bathed in thin pre-dawn light; Desire: To speak a single word that validates all her silent endurance; Obstacle: The inherent grammar of societal disapproval refuses to let the phrase settle.",
+    "subject_rotation": "Focusing intensely on the *texture* of enduring belief—how it feels under pressure, like aged metal or taut silk.",
+    "sensory_detail": "The faint, persistent thrumming resonance in one's inner ear—a single note that refuses to cease its oscillation (auditory twist from seed).",
+    "research_question": "How does the cadence shift when moving from the internal, agonizing rhythm of suffering to the slow, weighty resonance of sustained peace?",
+    "structural_variant": "An interjection where the narrative voice momentarily fractures, acknowledging the impossibility of truly 'closing' such a saga.",
+    "variety_note": "This chapter focuses exclusively on the aftermath: the echo of victory rather than the violent struggle itself, employing a lingering, almost suspended tone to contrast with earlier battles."
+  }
+}

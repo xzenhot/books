@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আলোর অনুপস্থিতি",
+  "segment_summary": "উজ্জ্বলতার তীব্রতা কমে গিয়ে এক ম্লান, কিন্তু গভীর আলো বিরাজ করে, যা আত্ম-অনুসন্ধানের জন্য উপযুক্ত পরিবেশ তৈরি করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The absolute reduction of experience to elemental states: the weight of dust motes suspended in still air, the specific mineral taste of cool stone.",
+    "story_option": "Setting: A single spot on the worn wooden floorboards where dust motes are illuminated by a weak shaft of late-afternoon sun; Desire: To witness the geometry of that stillness without assigning it meaning; Obstacle: The relentless, subtle vibration through the structure itself.",
+    "subject_rotation": "Treating 'void' as an active agent rather than a passive state—the void that necessitates subsequent creation.",
+    "sensory_detail": "The specific chill that radiates off unworked grey slate against bare skin (Tactile/Thermal).",
+    "research_question": "How can 'stasis' be depicted as inherently pregnant with future movement rather than terminal decay in poetic imagery?",
+    "structural_variant": "Employing sudden, almost accidental intrusions of mundane sound (a single bird cry, a distant latch) to shatter the quiet without destroying the preceding meditative tone.",
+    "variety_note": "This chapter deliberately slows the momentum established in previous segments; while its neighbours deal with dynamic tension (struggle, awakening), this segment focuses on metaphysical suspension before any subsequent action or release."
+  }
+}

@@ -1,0 +1,281 @@
+# Chapter model context
+
+## chapter_index
+
+2
+
+## name
+
+2
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+নদীর তীরে প্রথম সাক্ষাৎ
+
+## chapter_summary
+
+এই অধ্যায়টি মাঝির উদারতার প্রথমবার আর্থিক হিসেবের মুখোমুখি হওয়ার মুহূর্তকে চিত্রিত করে। একজন ধনী বণিক বা শহরের লোক তার কাছে আসে, যার দৃষ্টিতে কেবল গন্তব্য এবং ভাড়া নির্ধারিত। এই সাক্ষাৎটি মাঝির চিরায়ত, নিঃস্বার্থ সেবার ধারণার ওপর প্রথম আঘাত হানে। চিত্রকল্পে নদীর শান্ত জল আর বণিকের হিসেবি দৃষ্টির বৈপরীত্য ফুটে ওঠে, যা মানবিকতার প্রথম পরীক্ষা শুরু করে। প্রশ্নটি হলো—যখন প্রয়োজন অর্থের, তখন কি উদারতা তার নিজস্ব মূল্য হারায়?
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভাড়ার হিসেব
+
+#### segment_summary
+
+নদীর তীরে এসে বণিক তার গন্তব্য এবং ভাড়া নিয়ে সরাসরি মাঝির সামনে দাঁড়ায়, যেখানে মানবিকতার স্থান কেবল লেনদেনের মধ্যে সীমাবদ্ধ হয়ে পড়ে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+উদারতার প্রথম পরীক্ষা
+
+#### segment_summary
+
+মাঝির সহজাত উদারতা প্রথমবার কঠোর আর্থিক চাহিদার সম্মুখীন হয়, যা তার জীবনদর্শনকে চ্যালেঞ্জ জানায়।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+নৌকার নীরবতা
+
+#### segment_summary
+
+নৌকাটি স্থির হয়ে থাকে, যেন প্রকৃতির নীরবতা এবং মানুষের হিসেবি কোলাহলের মধ্যে একটি মধ্যস্থতাকারী হিসেবে দাঁড়িয়ে আছে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+শহরের ছায়া
+
+#### segment_summary
+
+বণিকের পোশাকে এবং তার দ্রুত গতির আকাঙ্ক্ষায় শহরের কৃত্রিমতা নদীর শান্ত পরিবেশে একটি ক্ষণিকের ছায়া ফেলে দেয়।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অদৃশ্য মূল্য
+
+#### segment_summary
+
+মাঝির কাছে যাত্রার মূল্য কেবল টাকা নয়, বরং সেই যাত্রার অভিজ্ঞতা এবং মানবিক সংযোগের একটি অদৃশ্য মূল্য বহন করে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+নদীর স্রোতের প্রতিধ্বনি
+
+#### segment_summary
+
+নদীর স্রোত যেন এই লেনদেনের অস্থিরতাকে উপেক্ষা করে তার স্বাভাবিক, অবিরাম গতিতে চলতে থাকে, যা স্থিতিশীলতার প্রতীক।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষা
+
+#### segment_summary
+
+মাঝি দ্বিধাগ্রস্ত হয়ে অপেক্ষা করে, এই নতুন অর্থনৈতিক বাস্তবতার সামনে তার প্রাচীন মূল্যবোধের প্রতিক্রিয়া কী হবে তা বোঝার চেষ্টা করে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রশ্নবোধক জল
+
+#### segment_summary
+
+নদীর জল যেন এই মুহূর্তের দ্বন্দ্বকে ধারণ করে, যেখানে প্রশ্ন ওঠে—সম্পর্ক কি কেবলই একটি বিনিময়যোগ্য পণ্য?
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- The confrontation is framed as a metaphysical negotiation: the mercantile desire for fixed value versus the river's embrace of infinite flow.
+- A focus on the বণিক's discomfort; showing how his rigid, money-driven worldview cannot reconcile itself with the untamed stillness of the ghat.
+- Viewing the moment through the eyes of the boat—the wood absorbing the tension between human greed and natural patience.
+
+### story_options
+
+- The merchant offers a small 'token' payment, but it is immediately followed by an unspoken demand for faster transit or more risk-taking than the river permits.
+- A third party—a local vendor whose trade depends on honest fares—interjects into the exchange, subtly siding with the majhi’s ethos without explicitly challenging the merchant.
+- The transaction hinges not just on distance, but on a perceived moral weight; perhaps the passenger is fleeing something illicit that makes his wealth feel tainted to the majhi.
+
+### subject_rotations
+
+- Treating the 'fare' as a metaphor for ecological debt—the cost of travel implying damage done to the riverbanks.
+- Framing the exchange not between man and merchant, but between two opposing flows: the steady current versus the hurried urgency of urban commerce.
+- Using the specific geography of the ghat itself—a place designed for transaction that feels suddenly archaic against the backdrop of modern finance.
+
+### sensory_details
+
+- The dry, brittle scent of oiled leather from the merchant's luggage contrasted with the wet earth smell clinging to the boat hull.
+- The sharp, high-pitched sound of a coin being counted—a jarring disruption against the deep, muffled sounds of water lapping the wood.
+
+### research_questions
+
+- What are common local terms for 'unearned luxury' or 'overpaid desire' in Bengali river culture that could be woven into the dialogue?
+
+### structural_variants
+
+- The chapter begins entirely through the merchant's highly formalized, detached description of his needs before any visual contact is made.
+- The entire confrontation occurs while passing under a small, ancient stone bridge whose architecture embodies older systems of exchange.
+
+### unused_angles
+
+- A brief memory snippet where the majhi recalls refusing a large sum for a journey years ago when he was young, finding greater satisfaction in the perceived 'wrongness' of the refusal.
+- Exploring the merchant’s own internal sense of emptiness despite his material wealth, making him an unintentional mirror to the existential weight felt by the majhi.
+
+### variety_note
+
+Where previous chapters established the nature of the river and the man, this chapter anchors their relationship in a specific, tense moment of perceived commercial negotiation, introducing external friction.

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 67,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদম্য মনোবলের প্রতিধ্বনি",
+  "segment_summary": "শারীরিক ও মানসিক অবসাদের মাঝেও, তার মনোবল যেন এক অদৃশ্য বাঁধন দ্বারা সুরক্ষিত থাকে, যা তাকে এগিয়ে চলার প্রেরণা দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on moments of suspended time: A sensory freeze where pain, doubt, and resolve coexist in one unbreakable instant before movement resumes.",
+    "story_option": "Setting: Beside a stagnant pool near the domestic periphery (আলয়); Desire: To force clarity onto the murky surface through sheer mental will, mirroring inner truth; Obstacle: The viscosity of despair resisting immediate reflection.",
+    "subject_rotation": "Examining how her strength is sourced not from divine intervention (yet), but purely from the friction between existential dread and self-definition.",
+    "sensory_detail": "A tactile sensation like brittle, fine sand slipping through cupped fingers when attempting to grasp a fleeting moment of peace (touch)",
+    "research_question": "What specific vocabulary in Bengali exists to describe mental exhaustion that borders on spiritual depletion, distinct from physical fatigue?",
+    "structural_variant": "Fragmented Stream-of-Consciousness structure: Each segment contains short, highly dense bursts of imagery rather than continuous narrative flow.",
+    "variety_note": "While neighbours explored resilience as *alchemy* or *return*, this chapter grounds its struggle in immediate corporeal weight and the fragile tension between near-collapse and stubborn continuation, ending with an unresolved ontological query."
+  }
+}

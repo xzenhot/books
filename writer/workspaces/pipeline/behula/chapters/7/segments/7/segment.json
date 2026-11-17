@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নারীত্বের প্রতিচ্ছবি",
+  "segment_summary": "সে হয়ে ওঠে সেই সমস্ত নারীর প্রতিচ্ছবি, যারা সামাজিক প্রতিকূলতা সত্ত্বেও নিজেদের মর্যাদা ও আত্মসম্মান বজায় রাখার জন্য লড়াই করে।",
+  "name": "7",
+  "word_target": 187,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem addressed not to the absence of Likhindar, but to the silence of an unseeing collective—the silent observer who refuses recognition.",
+    "story_option": "Setting: Within the echoing stone corridors of her dwelling; Desire: To carve her name into the unchanging mortar wall as an indelible testament to existence (turning obstacle); Obstacle: The cold indifference of the architecture mirroring societal apathy.",
+    "subject_rotation": "Treating 'Victimhood' not as a passive state, but as an active, deeply philosophical position that grants unique insight into human resilience.",
+    "sensory_detail": "The brittle sound of a dried leaf crumbling underfoot in the courtyard, contrasting with the weighty silence.",
+    "research_question": "What specific traditional markers or rituals related to widowhood in this cultural context are being implicitly challenged by Behula's existence?",
+    "structural_variant": "A sustained monologue that only speaks about textures and weights, refusing direct emotional exposition.",
+    "variety_note": "While neighbours might focus on external social pressure, this chapter delves deeper into the internal mechanics of resistance—how memory and personal ritual become acts of metaphysical survival against systemic erosion."
+  }
+}

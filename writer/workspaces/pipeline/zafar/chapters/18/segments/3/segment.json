@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "কলম ও কাঠকয়লার উত্তরাধিকার",
+  "segment_summary": "যদিও রাজকীয় দলিলপত্র ধ্বংস হয়েছে, তবুও কাঠকয়লায় লেখা শেষ বার্তাটি সৃজনশীলতার অদম্য টিকে থাকার প্রতীক হয়ে ওঠে, যা শারীরিক উপকরণকে অতিক্রম করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "বস্তু বনাম শব্দ: ডেভিসের রিপোর্ট বা জমির অভাবকে একটি 'অশ্রুর প্রতিচ্ছবি' হিসেবে উপস্থাপন করা; শূন্যতাকে এমনভাবে চিত্রিত করা যেন তা নিজেই এক বিশাল আকারের প্রতীকী মূর্তি।",
+    "story_option": "Setting: রাত গভীর, যখন জওক ও গালিবের স্মৃতি কেবল এক ভৌতিক গুঞ্জন; Desire: সম্রাট তাঁর শেষ গজলের কোনো একটি শব্দকে এমনভাবে উচ্চারণ করতে চান যা ইতিহাসের সমস্ত কাঠিন্য ভেঙে দিতে পারে; Obstacle: কণ্ঠস্বরটি যেন কেবল ক্ষীণতম 'pension' পঞ্জির সাক্ষরীকরণের মতো শোনায়।",
+    "subject_rotation": "Explaining 'Zafar' not through victory, but through the endurance of linguistic precision against administrative vagueness.",
+    "sensory_detail": "শব্দগত অনুরণন: গভীরতম রাতের নিস্তব্ধতার মধ্যে থেকেও যেন পুরাতন কালি শুকানোর মৃদু, তীক্ষ্ণ ঘ্রাণ অনুভূত হওয়া।",
+    "research_question": "কোন নির্দিষ্ট পারিভাষিক শব্দ (যেমন 'Zamindari' বা ভূমি সংক্রান্ত পুরনো পদ) মুছে ফেলার প্রক্রিয়ায় সাংস্কৃতিক আভিজাত্যের কোন স্তরটি বিলীন হয়েছিল?",
+    "structural_variant": "The chapter could transition entirely from heavily rhymed Ghazal forms into stark, unmetered free verse to mirror the shift from structured empire to chaotic exile.",
+    "variety_note": "Unlike previous chapters focused on defining moments (revolt/execution), this chapter must exist in the aftermath—a realm purely defined by semantic survival and philosophical echo, maintaining a low, watchful register."
+  }
+}

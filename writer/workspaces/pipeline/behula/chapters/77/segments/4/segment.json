@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 77,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ধৈর্যের অগ্নিশিখা",
+  "segment_summary": "দীর্ঘ প্রতীক্ষার সময়ে তার ধৈর্য কীভাবে এক স্থির এবং অপ্রতিরোধ্য শক্তি হিসেবে কাজ করে, তা কাব্যিক রূপে উপস্থাপিত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating her silence not as a void, but as an active acoustic pressure capable of fracturing the external noise (Acoustic Dissonance)",
+    "story_option": "Setting: The outer periphery of the desolate land; Desire: To map the exact geography of her inner turmoil onto the soil; Obstacle: An unyielding drought that refuses any metaphoric flourishing and demands absolute permanence.",
+    "subject_rotation": "Focusing less on *how* she endures and more on the metaphysical cost of achieving symbolic status (the price of becoming a 'symbol').",
+    "sensory_detail": "The feeling of brittle dryness in the throat when attempting to speak against societal dogma (Taste/Tactile)",
+    "research_question": "How can the transition from personal pain to universal symbol be marked in rhythm—is it a gradual crescendo or an abrupt formal shift?",
+    "structural_variant": "Utilizing rapid-fire vignettes within segments to simulate the constant barrage of external judgments before settling into a prolonged, slow meditation on her core spirit.",
+    "variety_note": "Unlike previous chapters that focused on specific obstacles or moments of crisis, this chapter elevates the *state* of being—the sustained act of embodying resilience itself."
+  }
+}

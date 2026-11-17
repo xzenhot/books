@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 33,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার স্থিরতা",
+  "segment_summary": "এই শূন্যতা একটি স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক, যা নিখুঁত সিঙ্গাড়াটির জন্য অনন্তকাল ধরে অপেক্ষা করে চলেছে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'void' as a linguistic residue—the impossible word that cannot be uttered but defines the sensory experience.",
+    "story_option": "Setting: A cold slab of concrete near the market edge; Desire: To find the precise molecular signature of *sorshir tel* (mustard oil) clinging to a piece of packaging; Obstacle: The abrasive, alien dust that overwrites all local scents.",
+    "subject_rotation": "Focusing on the texture of satiety—how physical fullness paradoxically amplifies spiritual emptiness.",
+    "sensory_detail": "The distinct prickle on the tongue where pure spice meets tasteless neutrality.",
+    "research_question": "How can the rhythm mimic the slow, almost geological process of flavor degradation over time?",
+    "structural_variant": "Using highly fragmented lines where each line is interrupted by a linguistic bridge to an entirely different sensory experience.",
+    "variety_note": "This chapter contrasts heavily with preceding segments by focusing entirely on post-consumption entropy—the afterglow, the residue, rather than the act of preparation or initial transit."
+  }
+}

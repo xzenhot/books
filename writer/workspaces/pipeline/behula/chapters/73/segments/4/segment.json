@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 73,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ধৈর্য ও শক্তির দ্বান্দ্বিক চিত্র",
+  "segment_summary": "অদম্য ধৈর্য এবং ক্রমাগত মানসিক চাপের মধ্যে টিকে থাকার সংগ্রামটি কীভাবে তার অভ্যন্তরীণ শক্তিকে আরও জোরালো করে তোলে, তা চিত্রিত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the 'thread' metaphor: Tracking a single, fine line (a thread of faith/dignity) woven through every act of endurance, with each segment showing the thread being drawn tighter or strained to breaking point.",
+    "story_option": "Setting: The shadowed perimeter wall of her home; Desire: To transmit a silent signal, like heat escaping stone, to the outside world; Obstacle: Constant surveillance from neighbors who judge without seeing.",
+    "subject_rotation": "Treating social judgment not as isolated insults, but as a vast, suffocating atmospheric pressure against the spirit.",
+    "sensory_detail": "The precise feel of tightly woven fibers—like old hemp or fine silk—under fingertips during moments of absolute stillness (tactile)",
+    "research_question": "How can the cadence mimic breaking meter? Identifying rhythmic breaks that correspond perfectly to a shift from personal despair to collective assertion.",
+    "structural_variant": "Circular Echoing: Structuring each poem so that the concluding imagery forces a re-reading of the opening metaphor from a new angle.",
+    "variety_note": "Where previous chapters focused on the *consequences* of grief (শূন্যতার অতল) or external trials, this chapter deepens into the *mechanism* of survival: how inner fortitude actively shapes and repurposes external suffering."
+  }
+}

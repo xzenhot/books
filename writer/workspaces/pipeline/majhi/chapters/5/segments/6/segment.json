@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নদীর প্রতি আনুগত্য",
+  "segment_summary": "এই প্রতিকূল পরিস্থিতিতেও মাঝি নদীর স্বাভাবিক প্রবাহকে সম্মান করে, যেন সে প্রকৃতির নিয়ম মেনে চলছে, কোনো ব্যবসায়িক হিসাব নয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A focus on sensory contradiction: the deafening roar of the water juxtaposed with the quiet, internal commitment to generosity.",
+    "story_option": "Setting: Just before dawn, when rain eases to a heavy drizzle; Desire: The traveler finally articulates the source of their journey’s dread (a threat or debt); Obstacle: The majhi refuses to let this external 'burden' taint his quiet sanctuary; Turn: He guides them toward an unknown, safer point upstream.",
+    "subject_rotation": "Shifting focus from the act of sheltering to the shared vulnerability; showing how mutual reliance replaces transactional expectation.",
+    "sensory_detail": "The smell of soaked jute and damp earth rising from the disturbed banks as the water retreats slightly.",
+    "research_question": "What are traditional Bengali idioms for 'unpayable debt' when applied metaphorically to nature or human goodwill?",
+    "structural_variant": "Employing short, fragmented stanzas during the climax of the weather, mirroring the chaotic influx of sensory data.",
+    "variety_note": "This chapter diverges from others by removing all mercantile figures; it strips the interaction down to a primal test between nature's overwhelming force and irreducible human kindness."
+  }
+}

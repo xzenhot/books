@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 31,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ চিত্রকল্প",
+  "segment_summary": "সামোসাটি শেষ হলেও, তার ঘ্রাণ ও স্পর্শের চিত্রকল্প মস্তিষ্কের গভীরে একটি অসম্পূর্ণ, কিন্তু উজ্জ্বল স্মৃতি হিসেবে রয়ে যায়।",
+  "name": "6",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interweaving fragmented dialogue snippets (in Bengali dialect) where people argue about 'authenticity' over the pastry, overheard from a distance.",
+    "story_option": "setting: Standing near a blurred border checkpoint sign in memory., desire: To feel the actual friction of that initial crossing—the gravel underfoot—not just the abstract movement across lines on paper., obstacle: The current reality is too smooth, too paved, denying any grounding texture.",
+    "subject_rotation": "Focusing on the ritualistic aspects surrounding the consumption—the specific way one wraps the remains, or how they dispose of wrappers.",
+    "sensory_detail": "Touch: The dry, chalky feeling left on the lips after licking away the last oily stain.",
+    "research_question": "How can the cadence of a late-night watchman's monologue (low, repetitive) be maintained while sustaining high poetic diction?",
+    "structural_variant": "Structuring segments as a nested set of parentheses, where every idea is bracketed by an internal critique or memory flare.",
+    "variety_note": "This chapter shifts focus inward from the external signs of cultural shift (like nomenclature or location) into the purely internal landscape of digestion and memory decay, using sonic fixation as its primary mechanism."
+  }
+}

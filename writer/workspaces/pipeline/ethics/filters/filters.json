@@ -1,0 +1,58 @@
+{
+  "filters": [
+    {
+      "order": 1,
+      "name": "workshop",
+      "agent": ".framework/editor/novel/filters/workshop/SKILL.md",
+      "autorun": false
+    },
+    {
+      "order": 2,
+      "name": "research",
+      "agent": ".framework/editor/novel/filters/research/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 3,
+      "name": "genre",
+      "agent": ".framework/editor/novel/filters/genre/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 4,
+      "name": "history",
+      "agent": ".framework/editor/novel/filters/history/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 5,
+      "name": "spatality",
+      "agent": ".framework/editor/novel/filters/spatality/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 6,
+      "name": "movement",
+      "agent": ".framework/editor/novel/filters/movement/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 7,
+      "name": "correctness",
+      "agent": ".framework/editor/novel/filters/correctness/SKILL.md",
+      "autorun": true
+    },
+    {
+      "order": 8,
+      "name": "override",
+      "agent": ".framework/editor/novel/filters/override/SKILL.md",
+      "autorun": false
+    },
+    {
+      "order": 9,
+      "name": "quality",
+      "agent": ".framework/editor/novel/filters/quality/SKILL.md",
+      "autorun": true
+    }
+  ]
+}

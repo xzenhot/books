@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "কালবৈশাখীর আহ্বান",
+  "segment_summary": "আকাশে ঘনিয়ে আসা তামাটে মেঘ যেন এক অনিবার্য শক্তির আগমন ঘোষণা করছে, যা মানবীয় ইচ্ছাকে চ্যালেঞ্জ জানাচ্ছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Using the *texture* of the decay—the chalky dust mixing with blood-red pollen—as the central metaphor thread that tightens and breaks across all eight segments.",
+    "story_option": "Setting: Near a particularly dense cluster of wild blood-flowers spilling over an old stone plinth; Desire: To touch one bloom with deliberate reverence, attempting to transfer its 'unconsecrated' essence into his own hand; Obstacle: The petal disintegrates instantly upon contact.",
+    "subject_rotation": "Treating the threshold (সীমা) not as a line on a map or an abstract concept, but as the point where his own blood begins to feel chemically similar to the red earth.",
+    "sensory_detail": "Touch: The slick, almost oily feeling of sap mixed with pulverized lime dust coating his fingertips.",
+    "research_question": "What archaic Bengali poetic descriptions exist for the precise sensation of 'impending cessation' or irreversible transition?",
+    "structural_variant": "A cyclical structure where each segment ends with a question posed to himself, mirroring the preceding segment’s answer.",
+    "variety_note": "Unlike earlier chapters that built towards conflict (awakening, storm), this chapter dwells entirely in the tense, static aftermath of escalating tension, using internal bodily sensation as the primary narrative driver."
+  }
+}

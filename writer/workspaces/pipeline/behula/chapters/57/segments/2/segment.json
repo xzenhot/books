@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 57,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অন্ধকারের উপর আলোর বিজয়",
+  "segment_summary": "বেহুলার ভেতরের অগ্নিকুণ্ড বাইরের সমস্ত অন্ধকারকে প্রতিহত করে, এবং তার দৃঢ় সংকল্পের ফলস্বরূপ আলো ফিরে আসে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Centering on the physical sensation of 'weight' being lifted: how the oppressive gravity of societal expectation dissolves moment by moment upon his return.",
+    "story_option": "setting: Beneath the heavy canopy where morning light first strikes after the ordeal., desire: To articulate the precise cost of her endurance—not with tears, but with absolute stillness and perfect presence., obstacle: The persistent echo of past criticisms that momentarily refracts the sunlight, casting a ghost image over their renewed peace.",
+    "subject_rotation": "Shifting from viewing her struggle as purely heroic endurance to portraying it as a necessary, agonizing *metamorphosis* where the old self must die for the new one to exist.",
+    "sensory_detail": "A deep, resonant tremor felt through the floorboards that is neither loud nor soft, signifying structural change in the spiritual foundations.",
+    "research_question": "How can the concept of societal judgment be rendered using purely physical, tactile imagery (e.g., abrasive dust, tight rope, crushing pressure) instead of figurative insults?",
+    "structural_variant": "A structure mimicking breath control: segments marked by increasing and then decreasing intensity, mirroring catharsis.",
+    "variety_note": "Unlike earlier segments which detailed specific hardships, this concluding section focuses almost entirely on the resulting *state* of being after the struggle; it emphasizes stillness and metaphysical consequence over action."
+  }
+}

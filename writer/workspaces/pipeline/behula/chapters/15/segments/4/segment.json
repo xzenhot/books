@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "সমাজের নীরব স্বীকৃতি",
+  "segment_summary": "বাইরের জগতের কটাক্ষ ও অবিশ্বাস সত্ত্বেও, এই ব্যক্তিগত বিজয় কীভাবে সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব, শক্তিশালী অভিযোগ হয়ে ওঠে, তা কাব্যিকভাবে তুলে ধরা হবে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The 'Turning Point' Volta: Re-framing the return not as a happy ending, but as the point where her solitary struggle shifts into teaching/embodying endurance for others (a didactic shift).",
+    "story_option": "Setting: The desolate threshold where she waited; Desire: To hold Lukhindar's hand so tightly it feels like anchoring her entire cosmic journey to that single point of contact; Obstacle: The ghosts of societal judgment still whispering around them.",
+    "subject_rotation": "Focusing on the nature of 'reunion' as a metaphysical alignment rather than a physical meeting (a merging of energetic fields).",
+    "sensory_detail": "The precise scent of cooling earth and wet stone after the ordeal subsides, mingling with familiar perfume; (Smell)",
+    "research_question": "How can I use Bengali vocabulary to describe a peace so absolute it borders on terrifying—a stillness that holds immense potential energy?",
+    "structural_variant": "Employing a highly fragmented, broken syntax leading up to the reunion, only to snap into perfect classical rhythm upon his arrival.",
+    "variety_note": "This chapter pivots from the raw agony and struggle found in earlier segments (like those dealing with societal friction) to focus entirely on transcendent closure, using a structural volta to redefine that finality."
+  }
+}

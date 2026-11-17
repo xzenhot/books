@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 37,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত বাধা অতিক্রম করার পর, বেহুলার জীবনে স্বামীর প্রত্যাবর্তন ঘটে, যা তার দীর্ঘ প্রতীক্ষার সমাপ্তি ঘটায়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The reunion framed as a fragile treaty between personal faith and societal inertia.",
+    "story_option": "Setting: A single threshold stone (a tangible point), Desire: The silent promise exchanged across it, Obstacle: The shadow lingering from previous societal judgments.",
+    "subject_rotation": "Treating 'victory' not as achievement, but as the necessary re-calibration of the self against societal norms.",
+    "sensory_detail": "Sound: A deep, bone-vibrating resonance replacing expected exultation—a primal hum.",
+    "research_question": "How can 'ontological necessity' (the fundamental need for this survival/reunion) be rendered in diction while maintaining poetic lyricism rather than sounding overly academic?",
+    "structural_variant": "Implementing an 'anti-climax' by dedicating several lines to describing mundane domestic acts post-return, stripping the high rhetoric bare.",
+    "variety_note": "Unlike earlier chapters focusing on conflict and suffering, this section pivots entirely toward resolution, examining not just the return itself, but what remains of the struggle when the external battle ceases."
+  }
 }

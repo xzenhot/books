@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "Lapis and the Night's Alchemy",
+  "segment_summary": "The sensory experience of grinding lapis under lamplight is explored, representing the intense, almost alchemical transformation of raw material into expressive pigment.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "দেওয়ালের একটি নির্দিষ্ট অংশে মনোযোগ কেন্দ্রীভূত করা যেখানে রঙের স্তরগুলো এমনভাবে মিশেছে যে তা যেন কোনো দীর্ঘশ্বাস বা চাপা কান্নাকে ধারণ করে আছে—যা অন্য কোনো চরিত্র দ্বারা প্রভাবিত নয়।",
+    "story_option": "দৃশ্য ৩: তিনি কাজ করার সময় হঠাৎ অনুভব করেন যে চুন ও রং মিলে এক ধরনের 'স্মৃতির ঘ্রাণ' সৃষ্টি করেছে—যা Mandawa-র অন্য কোনো সময়ের, অচেনা মানুষের উপস্থিতি ইঙ্গিত করে।",
+    "subject_rotation": "এই অধ্যায়টিকে কেবলমাত্র অভ্যন্তরীণ সংগ্রাম না দেখিয়ে, দেবলিনার শরীরকে এমন একটি অস্থায়ী আর্কাইভ হিসেবে দেখানো যা অতীত ও বর্তমানের রাসায়নিক প্রমাণ বহন করছে।",
+    "sensory_detail": "চিনির দানার মতো গুঁড়ো হওয়া পুরাতন আঠালো পদার্থের স্পর্শ যা হাতের তালুতে আটকে থাকে।",
+    "research_question": "ঐতিহাসিকভাবে, এই ধরণের কর্মক্ষেত্রে কাজ করা নারী শিল্পীদের সামাজিক প্রতিক্রিয়াগুলি কী ধরনের ছিল—যা শুধু 'বিচার' বা 'প্রশংসা'-র বাইরে ছিল?",
+    "structural_variant": "একটি ধмедitative prose poem-এ পরিণত হওয়া যেখানে চিত্রকল্পের বর্ণনা ধীরে ধীরে দার্শনিক প্রশ্নাবলিকে গ্রাস করে নেয়।",
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী চিত্রকল্পগুলোকে একটি গভীর দার্শনিক কোণে একত্রিত করে, যেখানে ফাটলগুলো আর কেবল দুর্বলতা নয়, বরং প্রকাশের অনিবার্য মূল্য বহন করছে।"
+  }
+}

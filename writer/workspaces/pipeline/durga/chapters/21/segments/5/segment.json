@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "ভক্তির স্থায়িত্ব",
+  "segment_summary": "উৎসবের ক্ষণস্থায়ী ভক্তি কীভাবে মানুষের চেতনায় এক স্থায়ী প্রতিজ্ঞায় রূপান্তরিত হয়, তা এখানে দার্শনিক দৃষ্টিকোণ থেকে আলোচিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing daily chores (cooking, sweeping) not as mundane tasks, but as continuous, low-stakes skirmishes against internal entropy (a subtle form of Mahishasura slaying).",
+    "story_option": "Setting: By the threshold of an unlit pandal structure long after festivities; Desire: To find the subtle 'smart' imprint left by transient communal energy on inanimate materials (like old wood); Obstacle: The overwhelming weight of absence.",
+    "subject_rotation": "Treating cyclicality not as return (cycle), but as slow accretion—layers of personal endurance building upon the previous year's residue.",
+    "sensory_detail": "The sensation of cool, dry dust particles adhering to exposed skin after an unexpected period of stillness indoors.",
+    "research_question": "What precise Bengali colloquialisms can describe a quiet, enduring internal battle that avoids overtly religious metaphor?",
+    "structural_variant": "An anti-climax structure, where each segment builds towards an expected grand realization only to collapse into quiet acceptance.",
+    "variety_note": "Unlike previous chapters which focused on initiation and physical manifestation, this chapter dives deep into the psychological aftershock—the quiet internal maintenance required between grand public acts."
+  }
+}

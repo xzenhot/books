@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্বাদের বিচ্ছিন্নতা",
+  "segment_summary": "বহু খাবারের মাঝে সামোসার স্বাদটি কেবল একটি বিচ্ছিন্ন বিন্দুতে স্থির থাকে, যা বৃহত্তর স্বাদের স্রোত থেকে নিজেকে আলাদা করে ফেলে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Failed Transmutation: A focus not on loss, but on how external pressures force a complete semantic shift in the object's meaning.",
+    "story_option": "Setting: Inside the speaker's perception of the crowded walkway itself (metaphorical space); Desire: For the crowds to part just long enough to allow an authentic memory to surface; Obstacle: Being constantly jostled by anonymous passersby.",
+    "subject_rotation": "The Samosa as Palimpsest: How new flavors are written over old memories on its surface.",
+    "sensory_detail": "The faint, sweet scent of foreign spices (e.g., cinnamon not tied to Bengal) overpowering the imagined filling.",
+    "research_question": "What specific Bengali/Tatsama vocabulary best conveys flavor 'dilution' when contrasted with sensory aggression?",
+    "structural_variant": "A cyclical narrative where segments 1 and 8 mirror each other precisely in their emotional trajectory, serving as bookends.",
+    "variety_note": "While neighbouring chapters focus on the *creation* or *essence* of the samosa, this chapter examines its fragile existence when subjected to external, overwhelming market pressures."
+  }
+}

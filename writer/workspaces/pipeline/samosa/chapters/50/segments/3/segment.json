@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ ও স্মৃতির সংযোগ",
+  "segment_summary": "কীভাবে এই তেলের পরিবর্তন সরাসরি মস্তিষ্কের গভীরে প্রোথিত ঘ্রাণ-স্মৃতিকে আঘাত করে, তা কাব্যিক ভাষায় চিত্রিত হবে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A rapid montage sequence alternating between the aggressive, vibrant color palette of mustard oil vs. the flat greys and whites of imported oil.",
+    "story_option": "Setting: Standing near a port or border, where spices are being unloaded; Desire: To catch an authentic whiff of spice bloom trapped within cargo; Obstacle: Industrial fumes overwhelming any delicate aroma; Turn: The traveler recognizes that authenticity is not in the object, but in the *intention* to remember.",
+    "subject_rotation": "Analyzing the concept of flavor loss not as decay, but as *translation error* in a culinary language.",
+    "sensory_detail": "The specific warmth (উষ্ণতা) that radiates from newly heated ghee versus modern refined oils.",
+    "research_question": "What archaic Bengali vocabulary describes the pungent quality (*teekha*) unique to high-quality *sorsher tel* in a way that differentiates it from general 'sharpness'?",
+    "structural_variant": "A cyclical structure where Segment 8 forces a return not just to the beginning (Segment 1), but to the state before the migration began.",
+    "variety_note": "This chapter shifts focus from the object's transformation in transit (neighboring chapters) to the *medium* itself—the cooking oil—as the primary carrier and casualty of cultural displacement, providing an intensified sensory contrast."
+  }
+}

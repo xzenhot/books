@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 38,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "ব্যক্তিগত ট্র্যাজেডি কীভাবে সমষ্টিগত প্রেরণা এবং অন্যদের জন্য পথ প্রদর্শক হয়ে ওঠে, তা এই অংশে প্রতিফলিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the return not as rescue, but as two entities forcibly re-attuned by shared trauma, minimizing romantic flourish.",
+    "story_option": "A scene where the quiet after their union is characterized by an unbearable tension—they must communicate volumes without speaking, only gesturing toward symbolic relics.",
+    "subject_rotation": "Shifting focus from 'love' to 'willpower': framing their bond as a perfect convergence of indomitable personal resolve against cosmic indifference.",
+    "sensory_detail": "The subtle subsonic thrum felt in the sternum when disparate spiritual vibrations finally lock into alignment.",
+    "research_question": "How can 'ontological necessity' be rendered poetically, avoiding overly academic diction while retaining philosophical weight?",
+    "structural_variant": "Employing a nested structure where every successful line of praise for reunion immediately collapses into a rhetorical question about its fragility.",
+    "variety_note": "This chapter moves beyond the specific emotional turmoil of earlier arcs to focus on existential resolution, using newly employed imagery (like texture and subsonic sound) that previous segments avoided for thematic weight."
+  }
+}

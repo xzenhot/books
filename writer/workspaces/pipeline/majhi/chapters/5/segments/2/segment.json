@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "নৌকার স্থিতিস্থাপকতা",
+  "segment_summary": "কাঠের নৌকাটি ঢেউয়ের আঘাতে নড়ে ওঠে, কিন্তু মাঝির হাতের দৃঢ়তা তাকে ভাঙতে দেয় না, যা তার জীবনের স্থিতিস্থাপকতাকে প্রতীকায়িত করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the refugee/traveler not by their desperation, but by an inherited sorrow matching the delta's history (echoing Bhatiyali themes).",
+    "story_option": "Setting: Amidst blinding sheets of rain where visibility drops to mere feet; Desire: The majhi wishes the chaos would pass quickly so he can resume his routine; Obstacle: A critical failure in the boat's structure is exposed by the strain; Turn: He repairs it using ancient, intuitive knowledge instead of modern tools.",
+    "subject_rotation": "Exploring the traveler’s state of being as being 'outside' of normal economic time—unquantifiable by currency.",
+    "sensory_detail": "The specific, percussive sound of large raindrops hitting the taut canvas covering the boat's stern;",
+    "research_question": "What are traditional Bengali idioms for 'unpayable debt' when applied metaphorically to nature or human goodwill?",
+    "structural_variant": "Employing short, fragmented stanzas during the climax of the weather, mirroring the chaotic influx of sensory data.",
+    "variety_note": "This chapter diverges from others by removing all mercantile figures; it strips the interaction down to a primal test between nature's overwhelming force and irreducible human kindness."
+  }
+}

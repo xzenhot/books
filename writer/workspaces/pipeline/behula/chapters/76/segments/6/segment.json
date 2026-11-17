@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 76,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সামাজিক কাঠামোর মুখোমুখি",
+  "segment_summary": "সমাজের আরোপিত বিধিনিষেধ এবং প্রত্যাশার বিপরীতে বেহুলার নিজস্ব সত্তার প্রতিষ্ঠা এই অংশে গভীর কাব্যিক রূপে উপস্থাপিত হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Metaphorical topography: Mapping the societal judgment onto a physical landscape—a shifting desert or a labyrinth built of whispered censure.",
+    "story_option": "Setting: By a dry riverbed (representing depleted social grace); Desire: To coax forth a single, impossibly iridescent seed representing crystallized will; Obstacle: The dust of societal decree choking the possibility of emergence.",
+    "subject_rotation": "Analyzing the socio-linguistic violence: How societal language systematically strips away her individual definition piece by piece.",
+    "sensory_detail": "A visual texture resembling heavily worked bronze—smoothly worn by endless scrutiny yet retaining a deep, resistant patina.",
+    "research_question": "How does the established cadence of Zorban/Orillas match rhythmic patterns derived from sustained psychological pressure rather than purely emotional outpouring?",
+    "structural_variant": "Employing significant rhetorical parallelism across segments to emphasize the cyclical nature of suffering and assertion.",
+    "variety_note": "This chapter moves beyond describing pain (as seen in earlier segments) to actively theorizing its function: how personal anguish morphs into a durable, systemic critique articulated through endurance itself. It focuses on the transition from 'I suffer' to 'We are defined by this suffering.'"
+  }
+}

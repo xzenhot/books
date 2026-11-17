@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-ভাজা আলুর পুর
+samosa — পর্ব 2 — samosa
 
 ## chapter_summary
 
-ভাজা আলু mash হয়ে পুরের ভিতরে জমা হয়, লবণ আর কাঁচা লঙ্কার মাপ হাতেই ঠিক হয়। পুরের এই ভিতরটাই পরে খোলসের আড়ালে অদৃশ্য হয়ে যাবে।
+এই অধ্যায়টি প্রথম অভিবাসীর যাত্রা এবং মাটির গন্ধ ছেড়ে অচেনা পথে পা রাখার অভিজ্ঞতাকে কেন্দ্র করে আবর্তিত। ভৌগোলিক দূরত্বকে এখানে একটি শারীরিক, স্বাদ-সংক্রান্ত শূন্যতা হিসেবে চিত্রিত করা হয়েছে, যেখানে পরিচিত গন্ধের অনুপস্থিতি এক গভীর শূন্যতা তৈরি করে। এই যাত্রাটি কেবল একটি স্থান পরিবর্তন নয়, বরং স্বাদের একটি অনিবার্য বিচ্যুতি, যা পাঠককে প্রশ্ন করে—যখন শিকড় সরে যায়, তখন স্বাদ কি কেবল একটি স্মৃতি হয়েই থেকে যায়?
 
 ## further_references
+
+- 3
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+2.1
+
+#### word_target
+
+500
+
+#### segment_title
+
+মাটির গন্ধের বিদায়
+
+#### segment_summary
+
+প্রথম অভিবাসীর পদক্ষেপে বাংলার উষ্ণ, পরিচিত মাটির গন্ধ ধীরে ধীরে অচেনা বাতাসের শীতলতা দ্বারা প্রতিস্থাপিত হতে শুরু করে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2.2
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভৌগোলিক শূন্যতা
+
+#### segment_summary
+
+নতুন ভূগোলের বিশালতা এবং পরিচিত পরিবেশের অভাব এক গভীর, স্বাদ-সংক্রান্ত শূন্যতা সৃষ্টি করে যা খাদ্য দ্বারাও পূরণ করা যায় না।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+2.3
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্বাদের প্রথম ফাটল
+
+#### segment_summary
+
+নতুন পরিবেশে প্রথমবার ভাজা খাবারের স্বাদ গ্রহণ করার সময়, জিভে এক সূক্ষ্ম, কিন্তু অনিবার্য ফাটল অনুভূত হয়—যা আদি স্বাদের অনুপস্থিতি নির্দেশ করে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+2.4
+
+#### word_target
+
+500
+
+#### segment_title
+
+অচেনা পথের ধুলো
+
+#### segment_summary
+
+নতুন পথের ধুলো এবং বাতাসের মিশ্রিত গন্ধ যেন পুরোনো স্মৃতিগুলোর ওপর এক আস্তরণ ফেলে দেয়, যা তাদের স্পষ্টতা কমিয়ে দেয়।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+2.5
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্মৃতির ভার বহনকারী যাত্রা
+
+#### segment_summary
+
+এই যাত্রা কেবল শারীরিক নয়; এটি স্মৃতির ভার বহন করার এক নীরব প্রক্রিয়া, যেখানে প্রতিটি পদক্ষেপ অতীতের প্রতি এক ধরনের নীরব আনুগত্য প্রকাশ করে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+2.6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষিত গন্ধের অনুপস্থিতি
+
+#### segment_summary
+
+যে নির্দিষ্ট সরিষার তেলের ঝাঁঝালো গন্ধটি প্রত্যাশিত ছিল, তা এখানে অনুপস্থিত, যা এক গভীর, অব্যক্ত আকাঙ্ক্ষার জন্ম দেয়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+2.7
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্বাদের বিচ্যুতি
+
+#### segment_summary
+
+এই পর্যায়ে, স্বাদ কেবল পুষ্টির উৎস থাকে না, এটি একটি বিচ্যুত মানচিত্র হয়ে ওঠে, যা আসল গন্তব্যের পথ হারিয়ে ফেলেছে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+2.8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসমাপ্ততার প্রতিধ্বনি
+
+#### segment_summary
+
+এই নতুন মাটিতে পা রাখা সত্ত্বেও, জিভের গভীরে একটি অসমাপ্ত স্বাদের প্রতিধ্বনি রয়ে যায়, যা ভবিষ্যতের সকল প্রচেষ্টার জন্য এক নীরব চ্যালেঞ্জ তৈরি করে।
+
+#### further_references
 
 
 ## level
@@ -31,50 +238,47 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- আলু-পুরকে শুধুমাত্র ভোজ্য বস্তু না ধরে, বরং প্রবাসে টিকে থাকার জন্য প্রয়োজনীয় 'অন্তর্নিহিত শক্তি' বা মানসিক পুঁজি হিসেবে চিত্রিত করা।
-- লবণ এবং কাঁচা লঙ্কার মাপের মাধ্যমে কেবল স্বাদ নয়, জীবনের সঠিক পরিমাপ/সীমা নির্ধারণের দার্শনিক প্রচেষ্টা তুলে ধরা—যেখানে মাত্রাতিরিক্ত কিছু (Too much) বিপর্যয় ডেকে আনে।
-- পুরকে এমন একটি গোপন কক্ষ হিসেবে দেখানো যা খোলসের বাইরের পৃথিবী থেকে সম্পূর্ণরূপে বিচ্ছিন্ন কিন্তু অস্তিত্ব রক্ষা করে যাচ্ছে।
+- The object as a pivot: Focusing entirely on a single, small token (e.g., a cracked piece of dried spice residue from the journey) that embodies all lost essence.
+- Shifting perspective to an inanimate object (the dust/wind itself) narrating its encounter with the residual flavor memory.
+- Framing the entire experience as a failed attempt at cartography—trying to map back the taste onto the original geography.
 
 ### story_options
 
-- আমি পুর নিজেই—আমার ভিতর জমে থাকা প্রতিটি আলুর টুকরো যেন হারানো গ্রামের এক-একটি স্মৃতি, আর আমার লবণ হল সেই তীব্র আকাঙ্ক্ষা; বাধা হলো যে আমাকে শীঘ্রই ওই ফাঁপা খোলসে ভরে ফেলা হবে; মোড় হতে পারে আমি হঠাৎ 'অস্তিত্বের ভার' অনুভব করা।
-- হাতটি যা পুর তৈরি করছে—আমি চাই এই পুর থাকুক অমলিন এবং নিখুঁত, যেন দিদার হাতের মাপ সর্বদা স্থির থাকে; কিন্তু obstacle হলো বাজারের নতুন রেডিমেড মশলা যার স্বাদ দ্রুত বদলে দিচ্ছে আমার আসল চরিত্র; মোড় হবে যখন আমি সেই বদলকে উপেক্ষা করতে ব্যর্থ হই।
-- একজন পর্যবেক্ষক যা পুরো প্রক্রিয়া দেখছে—আমি দেখছি কীভাবে অপরিহার্য উপাদানগুলো (আলু, লঙ্কা, লবণ) একত্রিত হয়ে একটি 'নিঃশব্দ সমাধান' তৈরি করছে; আকাঙ্ক্ষা হলো এই ঐক্যের নিখুঁত স্থায়িত্ব বজায় রাখা, বাধাটি হল বাইরের আলোর আকস্মিক হস্তক্ষেপ; মোড় হবে যখন পুরের কোনো এক অংশ হঠাৎ কেঁপে ওঠে।
+- Setting: A dimly lit, generic transport station; Desire: To find one single lingering scent of mustard oil; Obstacle: The overwhelming smell of diesel and industrial grime; Turn: Recognizing that the absence of odor *is* the defining new flavor.
+- Setting: A desolate stretch of border road (metaphorical); Desire: To re-calibrate the tongue to a 'home dialect' of taste; Obstacle: Constant bombardment by loud, unfamiliar city sounds; Turn: Accepting the noise as a permanent companion to the quiet memory.
+- Setting: Inside an old suitcase/bag; Desire: The bag itself to hold enough residual warmth from Bengal; Obstacle: The cold humidity of the new locale seeping through the seams; Turn: The realization that the bag is now merely a container for dried, flavorless remnants.
 
 ### subject_rotations
 
-- পুরকে কেবল মাংসল উপাদান নয়, বরং ভাষার হারিয়ে যাওয়া আঞ্চলিক উপভাষার একটি ঘন, সুগন্ধযুক্ত রূপক হিসেবে ব্যবহার করা।
-- আলুর নরমতাকে নমনীয় আত্মার প্রতীক করে তোলা যা বাইরের কঠোর খোলসের চাপে চূর্ণ হতে বাধ্য।
-- লবণকে স্মৃতি ধরে রাখার রাসায়নিক প্রক্রিয়া হিসাবে দেখা—যা প্রতিটি কামড়ে পুরোনো মুহূর্তগুলোকে 'সংরক্ষিত' রাখে, যদিও সেই স্বাদ পরিবর্তিত হয়।
+- Focusing purely on the texture (খোলস/skin) as the only reliable constant while everything else deteriorates.
+- Treating the 'taste' not as absence, but as an overpowering phantom sensation that distorts perception of reality around it.
+- Investigating the physical mechanisms—the tongue/teeth—as corrupted receptors failing to translate old signals.
 
 ### sensory_details
 
-- পুর তৈরির সময় হাতে আলুর মাটির গুঁড়ো লেগে থাকার দৃশ্য (Tactile)।
-- কাঁচা লঙ্কার তীব্র ঝাঁঝালো সুগন্ধ যা বাষ্পের চেয়েও দ্রুত ছড়িয়ে পড়ে এবং শ্বাস আটকে দেয় (Olfactory)।
-- খোলসের ভেতরের পুরে জমা হওয়া ক্ষুদ্র, স্যাঁতসেঁতে উষ্ণতার অনুভূতি (Thermal/Internal)。
+- The specific metallic tang on the lips after inhaling industrial exhaust, juxtaposed with the imagined sweetness of cardamom.
+- The grainy grit (dhul) feeling lodged beneath the fingernails from a journey too long and dry.
+- A low-frequency drone or hum from unfamiliar machinery that vibrates in the chest cavity rather than being heard.
 
 ### research_questions
 
-- আলু মাখা বা আলুর পুর তৈরির সময় ব্যবহৃত প্রাচীন বাংলার নির্দিষ্ট কোনো স্থানীয় শব্দগুচ্ছ আছে কি যা এই প্রসঙ্গে ব্যবহার করা যেতে পারে?
-- লবণ ব্যবহারের দার্শনিক প্রেক্ষাপটে বাঙালি সংস্কৃতিতে কোনো বিশেষ রূপক আছে কিনা যেখানে 'মাত্রা' বা 'পরিমাপ' কেন্দ্রীয় বিষয়?
+- How can I phrase the transition from the specific 'sorsher tel' (mustard oil) scent to a generalized, odorless 'departure' without resorting to cliché?
+- What is the precise vocabulary in Bangla/Tatsama that conveys flavor loss as an architectural or structural failure?
 
 ### structural_variants
 
-- এই অধ্যায়টি একটি লুপ (loop) হতে পারে, যেখানে পুর তৈরির বর্ণনা চলতে থাকে কিন্তু প্রতিটি ধাপ শেষে যেন এক ধরনের ধ্বনিগত শূন্যতা তৈরি হয়, যা পরবর্তী দৃশ্যের প্রত্যাশাকে আচ্ছন্ন করে ফেলে।
+- Employing stanzas that cyclically return to the physical action of swallowing/chewing, while the mental landscape shifts outwards.
+- A deliberately fragmented structure where each segment uses a distinct meter (though maintaining thematic unity), reflecting shattered recollection.
 
 ### unused_angles
 
-- খোলসের ভেতরে পুড়ের যে 'গোপন মহাবিশ্ব' তৈরি হচ্ছে—সেটিকে বাইরের বাজারের তীব্র আলোর বিপরীতে একটি নীরব আশ্রয় হিসেবে প্রতিষ্ঠা করা।
-- আলুর নরম অংশ ও লঙ্কার কাঁচা তেজস্বী অংশের মধ্যেকার অভ্যন্তরীণ সংঘাতকে কেবল স্বাদের স্তর না রেখে নৈতিক দ্বান্দ্বিকতা হিসেবে উপস্থাপন করা।
+- The role of light itself—how the foreign sunlight is harsher and less nuanced than the diffused light in Bengali homes.
+- Exploration of 'hunger' not as physical need, but as a chronic ontological state induced by memory displacement.
 
 ### variety_note
 
-যেখানে আগের অধ্যায়গুলো তৈরির 'প্রক্রিয়া' নিয়ে ছিল, এই অধ্যায়টি সেই প্রক্রিয়ার ভেতরের উপাদানগুলোর—অর্থাৎ পুরের নিজস্ব সত্তা এবং এর অন্তর্নিহিত চাপ—অনুসন্ধান করবে।
+Where Chapter 1 focused on the perfect composition at home (the start), this chapter shifts to the disintegration process during transit and arrival; it is defined by absence rather than presence.

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "শহরের ছায়া",
+  "segment_summary": "বণিকের পোশাকে এবং তার দ্রুত গতির আকাঙ্ক্ষায় শহরের কৃত্রিমতা নদীর শান্ত পরিবেশে একটি ক্ষণিকের ছায়া ফেলে দেয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The confrontation is framed as a metaphysical negotiation: the mercantile desire for fixed value versus the river's embrace of infinite flow.",
+    "story_option": "The merchant offers a small 'token' payment, but it is immediately followed by an unspoken demand for faster transit or more risk-taking than the river permits.",
+    "subject_rotation": "Treating the 'fare' as a metaphor for ecological debt—the cost of travel implying damage done to the riverbanks.",
+    "sensory_detail": "The sharp, high-pitched sound of a coin being counted—a jarring disruption against the deep, muffled sounds of water lapping the wood.",
+    "research_question": "What are common local terms for 'unearned luxury' or 'overpaid desire' in Bengali river culture that could be woven into the dialogue?",
+    "structural_variant": "The entire confrontation occurs while passing under a small, ancient stone bridge whose architecture embodies older systems of exchange.",
+    "variety_note": "Where previous chapters established the nature of the river and the man, this chapter anchors their relationship in a specific, tense moment of perceived commercial negotiation, introducing external friction."
+  }
+}

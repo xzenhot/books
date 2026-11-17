@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অটুট আশ্রয়",
+  "segment_summary": "হারিয়ে যাওয়া স্বাদটিই প্রবাসীর একমাত্র অটুট আশ্রয় হিসেবে কাজ করে, যা তাকে তার শিকড়ের সঙ্গে ক্ষীণভাবে সংযুক্ত রাখে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the unanswered question as a philosophical decree: 'No answer exists, only this sweet ache remains.'",
+    "story_option": "Setting: Back at the edge of the original cooking area (imagined); Desire: To recreate one perfect moment using only phantom ingredients; Obstacle: The knowledge that the specific 'আঁচ' cannot be replicated perfectly. Turn: Accepting the failure as the essential flavor itself.",
+    "subject_rotation": "Focusing entirely on the tongue's betrayal—how it insists on remembering something that physically cannot be there.",
+    "sensory_detail": "The sudden, humid weight in the throat when attempting to recall the exact *sound* of ghee hitting hot oil from childhood.",
+    "research_question": "What specific lexicon (old Bengali/Tatsama) best captures 'মধুর বিষাদ' while maintaining a harsh, non-sentimental edge?",
+    "structural_variant": "A form where the eight segments utilize an AABB rhyme scheme for the first four lines, before collapsing into highly fragmented prose-poetry structures.",
+    "variety_note": "This chapter focuses on the sustained aftermath—the residue, the lingering question mark left by consumption—rather than the conflict or initial memory invoked in preceding chapters."
+  }
+}

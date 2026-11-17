@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 51,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "প্রেরণার স্রোত",
+  "segment_summary": "তার এই যাত্রা অন্যদের জন্য এক শক্তিশালী প্রেরণা হয়ে ওঠে, যা দেখায় যে কীভাবে ব্যক্তিগত ট্র্যাজেডি সমষ্টিগত আশার উৎস হতে পারে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the return less as salvation and more as a shared scar tissue, illustrating how ordeal fundamentally mutates intimacy itself.",
+    "story_option": "Setting: Within the inner sanctum of sleep/waking; Desire: To feel a return to absolute sanctuary; Obstacle: The presence of judgmental echoes from outside intruding upon the fragile peace.",
+    "subject_rotation": "Using the physical description of aged materials (stone, wood) in their home to mirror the endurance proven by the protagonists.",
+    "sensory_detail": "A dull, heavy pressure settling into the chest—the weight of all unsaid words finally becoming physically palpable.",
+    "research_question": "What classical Bengali metaphor exists for sustained endurance that suggests crystalline rigidity without implying total cessation of striving?",
+    "structural_variant": "An immediate shift to extreme interior monologue in Segment 1, grounding the reunion entirely within the psyche before any outward action occurs.",
+    "variety_note": "Unlike earlier chapters focusing on struggle or doubt, this section is dedicated to the silence *after* victory—examining what that stillness costs and entails."
+  }
+}

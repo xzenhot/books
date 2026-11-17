@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "ভৌগোলিক শূন্যতা",
+  "segment_summary": "নতুন ভূগোলের বিশালতা এবং পরিচিত পরিবেশের অভাব এক গভীর, স্বাদ-সংক্রান্ত শূন্যতা সৃষ্টি করে যা খাদ্য দ্বারাও পূরণ করা যায় না।",
+  "name": "2.2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting perspective to an inanimate object (the dust/wind itself) narrating its encounter with the residual flavor memory.",
+    "story_option": "Setting: A desolate stretch of border road (metaphorical); Desire: To re-calibrate the tongue to a 'home dialect' of taste; Obstacle: Constant bombardment by loud, unfamiliar city sounds; Turn: Accepting the noise as a permanent companion to the quiet memory.",
+    "subject_rotation": "Treating the 'taste' not as absence, but as an overpowering phantom sensation that distorts perception of reality around it.",
+    "sensory_detail": "The grainy grit (dhul) feeling lodged beneath the fingernails from a journey too long and dry.",
+    "research_question": "What is the precise vocabulary in Bangla/Tatsama that conveys flavor loss as an architectural or structural failure?",
+    "structural_variant": "A deliberately fragmented structure where each segment uses a distinct meter (though maintaining thematic unity), reflecting shattered recollection.",
+    "variety_note": "Where Chapter 1 focused on the perfect composition at home (the start), this chapter shifts to the disintegration process during transit and arrival; it is defined by absence rather than presence."
+  }
+}

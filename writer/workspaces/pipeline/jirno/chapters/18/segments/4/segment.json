@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "প্রকৃতির প্রহরী",
+  "segment_summary": "সাঁওতাল পল্লী এবার কেবল নীরব দর্শক থাকে না; তারা প্রকৃতির চিরন্তন ভারসাম্যের অতন্দ্র প্রহরী রূপে সামনে আসে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the moment of decision not as a grand, conscious choice, but as a sudden, involuntary physiological shutdown of intellectual resistance.",
+    "story_option": "Setting: The precise point where the dust cloud is densest, obscuring all recognizable forms; Desire: To feel absolute disorientation—the loss of navigational sense that mirrors his internal crisis; Obstacle: Complete visual occlusion.",
+    "subject_rotation": "Shifting from a focus on 'possessing' or 'saving' the ruin, to treating the act of *witnessing* its decay as the highest form of engagement.",
+    "sensory_detail": "Smell: The sharp, mineral tang rising from the red clay when first exposed to dry wind before the main storm hits.",
+    "research_question": "Are there specific cultural idioms within the declared world that describe 'necessary emptiness' or the beauty found in absence?",
+    "structural_variant": "Employing a tautological structure, where the conclusion of one small observation immediately feeds into the starting premise of the next.",
+    "variety_note": "While neighbouring chapters focused on the bloom's inherent nature or the dawn/storm transition, this chapter zeroes in entirely on the moment of decisive human choice against an overwhelming environmental backdrop."
+  }
+}

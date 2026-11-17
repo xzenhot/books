@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 40,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা ও উপস্থিতি",
+  "segment_summary": "এই বাজারের মাঝেও, মনটি সেই নিখুঁত, আদিম স্বাদের জন্য একটি স্থির, কিন্তু তীব্র অপেক্ষায় মগ্ন থাকে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the sensory overload of the market not just as noise, but as an aggressively organized system—a foreign metabolism overwhelming the slow culture of savoring.",
+    "story_option": "Setting: Leaning against a busy perimeter wall of the market, Desire: For the shadow cast by the building to momentarily resemble the outline of the original Bengali clay furnace, Obstacle: Harsh, ubiquitous electric lights.",
+    "subject_rotation": "Treating the sound of haggling/traffic noise not merely as background, but as an aggressive counter-melody to the imagined flavor note.",
+    "sensory_detail": "The abrasive texture of dust motes caught in a blinding, high-noon sunbeam illuminating the stall counter.",
+    "research_question": "How does the visual grammar of market commerce (dense, repetitive shapes) conflict with the singular, perfect geometry sought by nostalgia?",
+    "structural_variant": "Using the 'litany' variation: Repeating a key phrase like 'আমি খুঁজি সেই পুরের ভাঁজ' but changing one object element in each iteration.",
+    "variety_note": "Unlike previous chapters which focused on the *interior* state or ingredients, this chapter is deliberately externalized to the marketplace itself, using the physical noise and chaos as an active antagonist against memory."
+  }
+}

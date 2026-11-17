@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 58,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "The Walls of Disbelief",
+  "segment_summary": "Here, the internal conflict sharpens as the sanctuary of the in-laws' home transforms into a landscape riddled with suspicion and cold doubt.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "বেহুলা কর্তৃক তার নিজস্ব যন্ত্রণা ও সংগ্রামকে ঐতিহাসিক কাঠামোর বাইরে একটি স্বতন্ত্র, আত্ম-নির্মিত পৌরাণিক রূপে সংজ্ঞায়িত করার চেষ্টা।",
+    "story_option": "অবিশ্বাসের প্রাচীরের এক কোণে বসে সে নিজের অতীতের দুর্বল মুহূর্তগুলো স্মরণ করে—ছোট ছোট ব্যর্থতার টুকরোগুলোকে একটি 'লৌহবাসর' রূপে কল্পনা করা, যা তার বর্তমান সহনশীলতাকে পরীক্ষা করছে। (Setting: A corner of the dwelling; Desire: To dissolve past failures into present strength; Obstacle: The weight of accumulated shame).",
+    "subject_rotation": "সমাজের কটাক্ষকে কেবল 'বিষাক্ত ছড়া' না ভেবে, এটিকে এমন এক সামাজিক কাঠামো হিসেবে চিত্রিত করা যা ভাষার মাধ্যমে অস্তিত্বকেই বিলীন করার চেষ্টা করে।",
+    "sensory_detail": "বহুদিন অব্যবহৃত একটি পিতলের পাত্রের ওপর দিয়ে চাঁদের ক্ষীণ আলো পড়লে সৃষ্ট হলদে-ধূসর, জীর্ণ প্রতিচ্ছবি (Visual)।",
+    "research_question": "অরিলাসের অন্তর্মুখী ধ্যান ও জিবরানের বহির্জাগতিক তীব্রতাকে বাংলা কবিতার লয় এবং ধ্বনিতত্ত্বে কিভাবে সবচেয়ে সূক্ষ্মভাবে মিশ্রিত করা যায়?",
+    "structural_variant": "প্রতিটি স্তবককে একটি 'প্রশ্ন-উত্তর' চক্রাকারে সাজানো যেখানে প্রশ্নটি আগের অংশের দার্শনিক প্রতিধ্বনি হওয়া উচিত, কিন্তু উত্তর কখনোই প্রকাশিত হবে না।",
+    "variety_note": "এই পর্বটি পূর্ববর্তী সংগ্রাম পর্বগুলো থেকে সরে এসে সম্পূর্ণ অভ্যন্তরীণ মনোবিশ্লেষণের দিকে ঝুঁকছে; এখানে প্রধান মনোযোগ বাহ্যিক ঘটনা নয়, বরং অন্তরের 'অগ্নির দীপশিখা' এবং তার 주변ের গাঢ় অন্ধকারময় শূন্যতার দার্শনিক সংলাপ নির্মাণে দেওয়া হচ্ছে।"
+  }
+}

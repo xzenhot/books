@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার মহিমা",
+  "segment_summary": "তারা বোঝান যে, কিছু জিনিসকে সযত্নে খোলা রাখা প্রয়োজন, কারণ সমাপ্তি প্রায়শই তার নিজস্ব সৌন্দর্যকে গ্রাস করে ফেলে।",
+  "name": "9.2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A sustained metaphor of thread—the travelers thread attempting to suture a narrative versus the ancient, naturally frayed threads of the earth.",
+    "story_option": "Setting: Inside a low, central communal hut of the Satual village, Desire: The traveler seeks a direct counter-argument to his 'savior complex,' Obstacle: The elders are engaged in a silent, generational task (like tending fire or sorting seeds) which precludes immediate discourse.",
+    "subject_rotation": "Treating the traveler’s intellectual framework as a fragile, brightly colored membrane being dissolved by the earthy opacity of indigenous worldview.",
+    "sensory_detail": "The feeling of finely ground ash or pulverized red soil adhering to the skin during an extended silence near the elders.",
+    "research_question": "What specific types of non-verbal cultural markers (gestures, body positions) in the Satual community signify philosophical acceptance rather than refusal?",
+    "structural_variant": "Using sharp breaks between segments to represent moments where the traveler's linguistic imposition fails entirely.",
+    "variety_note": "This chapter pivots entirely away from the destruction (previous chapters) and externalizing conflict; it focuses inward by using the elders not as guides, but as mirrors reflecting the traveler's own internal limitations in highly distilled terms."
+  }
+}

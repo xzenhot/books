@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 55,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ধুলো ও প্রকৃতির স্পর্শ",
+  "segment_summary": "The imagery of the first monsoon drops hitting warm, dust-laden earth is invoked, symbolizing a shared, spontaneous relief.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Observer addresses a specific memory of the absent person, using the small object (e.g., chai glass) as an anchor to that lost conversation.",
+    "story_option": "setting: একটি পরিত্যক্ত রেলওয়ে ট্র্যাকে, desire: পুরোনো চায়ের গ্লাসের অবশিষ্ট ঘামের লবণের স্বাদ পুনরায় উপলব্ধি করা।, obstacle: বাতাসের প্রবল গতি যা সেই সুগন্ধ ও স্পর্শ বহন করে নিয়ে যায়।, turn: পর্যবেক্ষক মনে করে যে সে যাকে খুঁজছে, তার স্মৃতিও হয়তো ওই বাতাসের সাথে মিশে গেছে।",
+    "subject_rotation": "Treating the 'national identity' as a geological formation—layers of dust, heat, and moisture compressed over time.",
+    "sensory_detail": "চায়ের গ্লাসের উপর জমে থাকা ঘামের শীতলতা যখন প্ল্যাটফর্মের উত্তপ্ত ইটের গায়ে লেগে থাকে।",
+    "research_question": "পোয়েটিক অর্থে, একটি দীর্ঘস্থায়ী নীরবতাকে কীভাবে একটি শারীরিক উপাদানের ঘনত্ব (Density) হিসেবে বর্ণনা করা যায়?",
+    "structural_variant": "Employ an extreme repetition of single resonant words (e.g., 'স্থির', 'ভেজা', 'ধূসর') across segments to build texture rather than narrative progression.",
+    "variety_note": "এই পর্বগুলি পূর্ববর্তী দৃশ্যগত পর্যবেক্ষণগুলো একত্রিত করে একটি উচ্চতর দার্শনিক স্তরে উন্নীত হচ্ছে, যেখানে বস্তুনিষ্ঠ বর্ণনার পরিবর্তে দ্বান্দ্বিক 'উপস্থিতি বনাম অনুপস্থিতি'-র উপর জোর দেওয়া হয়েছে।"
+  }
+}

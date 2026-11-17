@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "কাঠের নৌকার মুক্তি",
+  "segment_summary": "নৌকাটি প্রতীকীভাবে মুক্তি লাভ করে, কারণ তার চালক তার জীবনের মূল নীতিকে সুরক্ষিত রাখতে সক্ষম হয়েছে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the realization not as a rejection of modernity, but an understanding that tradition must exist in the pauses *between* modern intrusions (e.g., between bridge supports).",
+    "story_option": "Setting: Near an aging ghat where merchants still haggle fiercely over small fares. Desire: For one passenger to simply *observe* his rowing without demanding a price, Obstacle: A subtle shift in cadence breaking his practiced rhythm.",
+    "subject_rotation": "Analyzing the silence between notes in Bhatiyali not as an absence, but as the river breathing; a necessary counterpoint to commerce.",
+    "sensory_detail": "The sensation of river silt adhering to worn leather soles, smelling sharply of decay and mineral life.",
+    "research_question": "What specific Bengali term denotes an 'unpayable debt' that is purely existential or spiritual rather than monetary?",
+    "structural_variant": "Employing an increasing deceleration: each segment concluding with a slightly slower, more deliberate rhythm than the last.",
+    "variety_note": "This chapter pushes away from external conflict toward deep internal resolution; instead of fighting the barrier (like Chapter 6), it absorbs the weight of that confrontation into the rhythm of his being."
+  }
+}

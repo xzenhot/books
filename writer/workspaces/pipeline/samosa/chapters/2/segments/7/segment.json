@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "স্বাদের বিচ্যুতি",
+  "segment_summary": "এই পর্যায়ে, স্বাদ কেবল পুষ্টির উৎস থাকে না, এটি একটি বিচ্যুত মানচিত্র হয়ে ওঠে, যা আসল গন্তব্যের পথ হারিয়ে ফেলেছে।",
+  "name": "2.7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The object as a pivot: Focusing entirely on a single, small token (e.g., a cracked piece of dried spice residue from the journey) that embodies all lost essence.",
+    "story_option": "Setting: A dimly lit, generic transport station; Desire: To find one single lingering scent of mustard oil; Obstacle: The overwhelming smell of diesel and industrial grime; Turn: Recognizing that the absence of odor *is* the defining new flavor.",
+    "subject_rotation": "Focusing purely on the texture (খোলস/skin) as the only reliable constant while everything else deteriorates.",
+    "sensory_detail": "The specific metallic tang on the lips after inhaling industrial exhaust, juxtaposed with the imagined sweetness of cardamom.",
+    "research_question": "How can I phrase the transition from the specific 'sorsher tel' (mustard oil) scent to a generalized, odorless 'departure' without resorting to cliché?",
+    "structural_variant": "Employing stanzas that cyclically return to the physical action of swallowing/chewing, while the mental landscape shifts outwards.",
+    "variety_note": "Where Chapter 1 focused on the perfect composition at home (the start), this chapter shifts to the disintegration process during transit and arrival; it is defined by absence rather than presence."
+  }
+}

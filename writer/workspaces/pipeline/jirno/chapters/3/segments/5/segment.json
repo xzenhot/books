@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "বহিরাগতের দ্বিধা",
+  "segment_summary": "পথিকের 'উদ্ধারকর্তা' হওয়ার বাসনা এই আদিম নৈঃশব্দ্যের সামনে দুর্বল হয়ে পড়ে, কারণ তার জ্ঞান এখানে অপ্রাসঙ্গিক।",
+  "name": "3.5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A dialogue where the Satual elder speaks not in words but through ritualistic gesture or agricultural practice involving soil or seeds.",
+    "story_option": "Setting: The threshing floor outside the ruins during the dry season; Desire: To articulate a unified history for the manor's fall; Obstacle: A sudden downpour washing away any legible markings on ancient stones; Turn: The community focuses entirely on protecting their crops from the flood, rendering historical debate moot.",
+    "subject_rotation": "Shifting focus from 'Savior Complex' to the exhaustion felt by the community witnessing repeated outsider interventions.",
+    "sensory_detail": "Sound of dry grasses rustling rhythmically as if whispering a shared, ancient language.",
+    "research_question": "What are observable patterns of demarcation or territorial marking used by the Satual community around historical ruins?",
+    "structural_variant": "An entirely cyclical structure where every segment echoes back to the core unanswered question from Segment 1.",
+    "variety_note": "This chapter shifts away from pure anthropological observation towards a confrontation with geological and biological time, contrasting heavily with the immediate political focus of neighbours."
+  }
+}

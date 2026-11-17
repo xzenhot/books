@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আবেগিক বিভাজন রেখা",
+  "segment_summary": "এই তেলের বৈসাদৃশ্যটি কেবল একটি রান্নার কৌশলগত পার্থক্য নয়, বরং এটি আবেগের একটি গভীর বিভাজন রেখা টেনে দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker addresses an idealized grandmother ('দিদা') who can still smell the *sorsher tel* in her phantom kitchen, creating a dialogue of denial/acceptance.",
+    "story_option": "Setting: Near an open window overlooking heavy urban traffic; Desire: For the scent of earth and sun on the seeds to override the exhaust fumes; Obstacle: The pervasive smell of foreign dust mixed with cheap frying grease.",
+    "subject_rotation": "Viewing the oil as a societal barometer: how its replacement signifies assimilation or necessary adaptation for survival abroad.",
+    "sensory_detail": "Sound: The sharp, insistent *phut* of mustard oil hitting hot iron against the muted, oily sigh of neutral fat.",
+    "research_question": "What are the precise molecular differences in volatile organic compounds between mustard oil and common industrial frying oils?",
+    "structural_variant": "A 'Call and Response' structure: Speaker speaks of the old scent, then an imagined answer (from the absent voice) denies it.",
+    "variety_note": "This chapter intensely hones in on a single sensory trigger (aroma/oil) and contrasts it across two distinct material realities, moving deeper into the physical basis of cultural dislocation than previous chapters focused on name or market scenes."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ত যাত্রা",
+  "segment_summary": "এই ঐতিহাসিক যাত্রার শেষেও, মূল স্বাদের সেই আদিম অনুরণনটি কি কোনো এক স্থানে স্থির হতে পেরেছে, নাকি তা চিরকাল চলমান একটি আকাঙ্ক্ষা? এই প্রশ্নটি উত্থাপিত হবে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the migration of the food item not as a simple culinary process but as a microscopic biological/cultural invasion onto new palates.",
+    "story_option": "Setting: A modern global food fair featuring variants of the 'samosa' (desire to find the original); Obstacle: Overwhelming, manufactured sweetness masking the deep, primal earthiness.",
+    "subject_rotation": "Exploring the economic function of this food item across historical trade networks, viewing it as a commodity's spiritual journey.",
+    "sensory_detail": "The visual layering of different oil stains on a worn piece of jute sacking, each stain marked by a different journey (sight).",
+    "research_question": "Can any documented trade log hint at the cultural impact or initial reception of imported seed pastes in early Indian trading posts?",
+    "structural_variant": "Using extended metaphors where the food's filling is compared to complex political treaties or shifting border definitions.",
+    "variety_note": "This chapter moves away from personal diasporic melancholy (neighboring chapters) to a macro-historical view, treating the food's journey as an epic saga spanning centuries and continents."
+  }
+}

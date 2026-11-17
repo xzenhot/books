@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা বনাম সমাপ্তি",
+  "segment_summary": "এই অধ্যায়ে সমাপ্তির পরেও যে তীব্র আকাঙ্ক্ষা বিরাজ করে, তা সেই নিখুঁত স্বাদের জন্য এক স্থির, কিন্তু অবিরাম প্রতীক্ষার রূপ নেয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the residual emptiness not as absence, but as a dense, almost black substance holding compressed memory.",
+    "story_option": "The 'I' personifies the lingering flavor as a ghost haunting the empty stomach after the meal is done; Desire: For this spectral taste to speak one definitive word about home; Obstacle: It only manages muffled sounds of old Bengali dialects.",
+    "subject_rotation": "Shifting focus from the consumption act to the preparation—how perfection in the making guarantees a flaw in the remembering.",
+    "sensory_detail": "The slight, almost painful ache in the jaw muscles from over-chewing a phantom flavor.",
+    "research_question": "What precise Bengali word captures the feeling of taste recognition being present yet unreachable due to cultural displacement?",
+    "structural_variant": "A structure built around ascending and descending scales of perceived flavor intensity, mapping a peak memory followed by exponential decay.",
+    "variety_note": "This chapter contrasts sharply with discussions of market chaos (Neighbour 1/2) by retreating entirely inward, focusing on the post-consumption void rather than the sensory input during eating. It leans into philosophical resonance over narrative action."
+  }
+}

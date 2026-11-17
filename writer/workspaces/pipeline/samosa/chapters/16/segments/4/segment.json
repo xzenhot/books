@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ততার প্রতিচ্ছবি",
+  "segment_summary": "এই সমাপ্তি কোনো সমাধান দেয় না, বরং একটি অনন্ত অপেক্ষার চিত্র তুলে ধরে, যা আকাঙ্ক্ষার তীব্রতাকে আরও বাড়িয়ে তোলে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final taste not as a flavor profile, but as an acoustic memory—the imagined 'crunch' of perfect frying echoing in a silent room.",
+    "story_option": "Setting: A cold, minimalist modern kitchen counter in a foreign city; Desire: To trace the shape of a preserved memory onto the smooth surface with one fingertip; Obstacle: The physical inability to feel warmth from the object itself.",
+    "subject_rotation": "Treating 'Taste' not as sensory input but as a form of inherited language—the tongue recalling dialects no longer spoken.",
+    "sensory_detail": "Sight: The way muted city smog distorts the sharp gold of remembered saffron.",
+    "research_question": "What specific syntax will best convey the philosophical weight when discussing taste as a non-physical entity?",
+    "structural_variant": "A poem structured around escalating rhetorical questions, leading to no definitive answer but profound implication.",
+    "variety_note": "This chapter moves away from describing the *process* (cooking, traveling) to analyzing the *aftermath*—the metaphysical residue left on the palate and soul."
+  }
+}

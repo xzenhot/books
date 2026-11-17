@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "হাত ও যন্ত্রের দ্বন্দ্ব",
+  "segment_summary": "অভিভাবকের অভিজ্ঞ হাতের স্পর্শ বনাম আধুনিক রান্নার যন্ত্রের যান্ত্রিকতা—এই দ্বন্দ্বে স্বাদ কীভাবে পরাজিত হয়, তার একটি গভীর পর্যবেক্ষণ এখানে উপস্থিত।",
+  "name": "9.4",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing intensely on the geometry of heat distribution within a specific type of foreign stove versus the uneven, organic heat transfer in an earthen hearth.",
+    "story_option": "Setting: A counter top, where only three whole cardamom pods remain. Desire: To find a way to perfectly crush them without losing their internal structure. Obstacle: Only a blunt metal tool remains.",
+    "subject_rotation": "Examining 'Mishran' (the blend) as an act of accidental alchemy, rather than intentional craft.",
+    "sensory_detail": "The brittle, papery sound made when a dried bay leaf curls under uneven heat.",
+    "research_question": "Are there phonetic patterns in classical Bangla prosody that align with the repetitive, rhythmic nature of sautéing spices (e.g., percussive sounds)?",
+    "structural_variant": "A strophic form where each stanza is dominated by one spice's narrative arc before moving to the next.",
+    "variety_note": "Where earlier chapters dealt with the *result* (the finished product/sensation), this chapter isolates the volatile, critical *process*—the friction between tradition and mechanical reality."
+  }
+}

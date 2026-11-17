@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 43,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্বতঃস্ফূর্ততার ক্ষয়",
+  "segment_summary": "এই কাব্যিক প্রক্রিয়ার ফলে মূল মুহূর্তটির নিজস্ব স্বতঃস্ফূর্ততা কীভাবে ধীরে ধীরে বিলীন হয়ে যাচ্ছে, সেই নীরব ক্ষয় এখানে ফুটে ওঠে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the sonic texture of a specific moment—e.g., the wet *thud* of rain versus the high, thin whistle of steam escaping the chai.",
+    "story_option": "Setting: Inside a poorly lit room where the blue glow of the screen fights against fading daylight; Desire: To articulate the specific exhaustion felt after staring at data for too long. Obstacle: The AI smooths this fatigue into an aesthetically pleasing contemplation on 'modern resignation'.",
+    "subject_rotation": "Focusing on the 'negative space' in the writing: what is deliberately left unsaid or unresolved, and does that void carry more weight than the perfect sentences?",
+    "sensory_detail": "The tactile sensation of a slightly gritty film from humidity on paper/screen.",
+    "research_question": "Can rhythm alone (e.g., perfect iambic flow) override the feeling of authenticity if the subject matter is mundane?",
+    "structural_variant": "A non-linear structure where different sensory inputs—smell, sight, touch—are presented out of temporal order to mimic memory processing.",
+    "variety_note": "This chapter moves away from purely abstract internal conflict, rooting the philosophical inquiry deeply into concrete, tactile environmental moments that are then processed by technology."
+  }
+}

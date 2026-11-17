@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য প্রাচীরের নির্মাণ",
+  "segment_summary": "সামাজিক প্রত্যাখ্যাত হওয়ার ফলে বেহুলার চারপাশে এক অদৃশ্য কিন্তু কঠিন প্রাচীর তৈরি হয়, যা তাকে বিচ্ছিন্ন করে দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating Behula's silence not as resignation, but as a curated response—a strategic withholding of vulnerability against slander.",
+    "story_option": "An imagined moment of private monologue where she mentally debates whether to voice defiance or accept the scorn for the sake of inner peace (a battle between spirit and survival).",
+    "subject_rotation": "Examining 'otherness' not as being divorced from society, but as inhabiting a category the established order refuses to define properly.",
+    "sensory_detail": "The chill emanating from unseen judging eyes in crowded thoroughfares, feeling like damp mortar on the skin.",
+    "research_question": "How can I depict judgmental silence (the lack of speech) using strong poetic imagery without resorting to literal accusations?",
+    "structural_variant": "A structure where every segment is prefaced by a variation on a single core rhetorical question, mirroring the internal struggle.",
+    "variety_note": "Unlike the first chapter which dealt with sharp shock, this piece must dwell in a sustained state of abrasive tension—the slow weariness of being continuously judged rather than abruptly struck."
+  }
+}

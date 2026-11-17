@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 8,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "রীতিনীতির ভার",
+  "segment_summary": "সমাজের আরোপিত কঠোর ধর্মীয় বিধিগুলি বেহুলার চলার পথে এক অদৃশ্য কিন্তু ভারী বোঝা হয়ে দাঁড়ায়।",
+  "name": "1",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the ritualistic adherence to tradition not as pure piety, but as a complex, sometimes oppressive social mechanism that paradoxically demands individual spiritual transgression (the turning point).",
+    "story_option": "Setting: A dimly lit shrine within the ancestral home, Desire: To perform a required rite perfectly while subtly injecting her own personal invocation against social constraint (Obstacle: The prescribed liturgy itself).",
+    "subject_rotation": "Treating 'cultural barrier' less as religious doctrine and more as codified social expectation regarding female silence/propriety.",
+    "sensory_detail": "The taste of aged ghee mixed with ash residue lingering on her lips after performing prescribed rituals, a metallic tang of forced compliance.",
+    "research_question": "What precise archaic Bengali terms exist for social expectation or prescribed duty that carry more weight than simple 'rule'?",
+    "structural_variant": "A highly rhythmic sequence relying on sharp enjambment to mimic the forced breathlessness between adherence and defiance.",
+    "variety_note": "Unlike previous chapters that dealt with personal grief or internal strength, this segment focuses externally, using the rigid social body politic as its primary antagonist against her inner luminescence."
+  }
 }

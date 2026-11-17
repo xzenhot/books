@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "পুনরুজ্জীবনের বাসনা",
+  "segment_summary": "পথিক প্রথমবার এই জীর্ণ প্রাসাদের ধ্বংসাবশেষকে কেবল সময়ের শিকার হিসেবে না দেখে, এটিকে একটি মহাকাব্যিক ট্র্যাজেডির কেন্দ্রবিন্দু হিসেবে দেখতে শুরু করে।",
+  "name": "5.1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The shift from historical biography (finding 'who' caused the tragedy) to geological commentary on structural failure (how the elements eroded it).",
+    "story_option": "Setting: The skeletal remains of a central stone pillar; Desire: To physically reinforce a cracked section using ancient mortar techniques he researches obsessively; Obstacle: His specialized tools fail against millennia-old structural shift; Turn: He realizes the 'repair' would only perpetuate a lie.",
+    "subject_rotation": "Focusing entirely on the texture of human ambition vs. mineral composition (e.g., how limestone reacts to monsoon acidity).",
+    "sensory_detail": "Smell: The sharp, metallic tang of iron leaching from rusted hinges embedded deep within the mud.",
+    "research_question": "What specific indigenous knowledge systems might categorize or describe the aesthetic value of a structure reaching its inevitable point of collapse?",
+    "structural_variant": "A fragmented, associative poem where each segment mimics the cyclical patterns found in erosion.",
+    "variety_note": "This chapter moves from initial observation to intellectual struggle; where previous chapters established context and observed quiet resistance, this segment focuses intensely on the internal machinery of the traveler's overwhelming ego and its inevitable self-contradiction."
+  }
+}

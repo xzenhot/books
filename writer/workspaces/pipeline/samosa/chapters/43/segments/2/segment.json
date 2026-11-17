@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 43,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অনুরণনের প্রতিধ্বনি",
+  "segment_summary": "সেই স্বাদটি যা পুরোপুরি বিলীন হয়নি, বরং একটি ক্ষীণ, কিন্তু অবিরাম অনুরণন হয়ে মস্তিষ্কের গভীরে বাসা বেঁধে থাকে।",
+  "name": "2",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The focus shifts entirely onto a single, tangible remnant (e.g., a tiny flake of spice stuck in the seam) as the sole proxy for the lost essence.",
+    "story_option": "Setting: Leaning against a stark concrete pillar in an unfamiliar transit area; Desire: For the brief shadow that falls across the surface to perfectly capture the geometric imperfection of home-made crust; Obstacle: Blinding, indifferent urban lighting.",
+    "subject_rotation": "Analyzing the act of swallowing this final taste-ghost as a ritualistic offering to memory itself.",
+    "sensory_detail": "A deep, internal chill that seems disproportionate to the ambient temperature, signifying emotional lack.",
+    "research_question": "How can I utilize diction related to physical erosion or decay (e.g., rust, crumbling) metaphorically applied to memory?",
+    "structural_variant": "An oscillating structure: rapidly alternating between a dense, high-register reflection on cultural loss and starkly simple, low-register descriptions of the physical aftermath.",
+    "variety_note": "Unlike earlier chapters focused on external market chaos, this chapter plunges entirely inward, using the remnants of the food item as a catalyst for intense psychological archaeology."
+  }
+}

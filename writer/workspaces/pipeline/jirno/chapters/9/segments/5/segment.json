@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অহংকারের ভাঙন",
+  "segment_summary": "প্রবীণদের সামনে দাঁড়িয়ে পথিকের নাগরিক অহংকারের কাঠামো ধীরে ধীরে দুর্বল হতে শুরু করে, কারণ তা প্রকৃতির বিশালতার কাছে তুচ্ছ প্রমাণিত হয়।",
+  "name": "9.5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A sustained metaphor of thread—the travelers thread attempting to suture a narrative versus the ancient, naturally frayed threads of the earth.",
+    "story_option": "Setting: Inside a low, central communal hut of the Satual village, Desire: The traveler seeks a direct counter-argument to his 'savior complex,' Obstacle: The elders are engaged in a silent, generational task (like tending fire or sorting seeds) which precludes immediate discourse.",
+    "subject_rotation": "Treating the traveler’s intellectual framework as a fragile, brightly colored membrane being dissolved by the earthy opacity of indigenous worldview.",
+    "sensory_detail": "The feeling of finely ground ash or pulverized red soil adhering to the skin during an extended silence near the elders.",
+    "research_question": "How do local oral traditions describe 'necessary pauses' or incomplete cycles within indigenous cosmology to differentiate them from failure?",
+    "structural_variant": "A cyclical structure mirroring a breath—inhale the silence, exhale the internal conflict.",
+    "variety_note": "This chapter pivots entirely away from the destruction (previous chapters) and externalizing conflict; it focuses inward by using the elders not as guides, but as mirrors reflecting the traveler's own internal limitations in highly distilled terms."
+  }
+}

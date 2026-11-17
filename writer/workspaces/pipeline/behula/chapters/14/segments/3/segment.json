@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "শেষ মুহূর্তের সংকল্প",
+  "segment_summary": "এই মুহূর্তে, তার সংকল্প কেবল টিকে থাকার নয়, বরং সত্যকে প্রতিষ্ঠা করার এক মহাকাব্যিক অঙ্গীকারে পরিণত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the body's reaction to sustained mental pressure—a tremor or a fixed ache that becomes sacrosanct.",
+    "story_option": "Setting: Standing before a vast, echoing void representing the test; Desire: To thread a singular, incandescent strand of memory through this nothingness; Obstacle: The sheer volume of existential inertia surrounding her.",
+    "subject_rotation": "Focusing on 'stillness' (স্থিরতা) itself as the ultimate aggressive act against temporal chaos.",
+    "sensory_detail": "The cold, taut sensation where one's fingertips press against themselves, mapping out an invisible line.",
+    "research_question": "What archaic Bengali term denotes a state of perfect, exhausted resolve that surpasses mere determination?",
+    "structural_variant": "An enjambed structure where nearly every line breaks precisely at an inflection point or moment of high tension.",
+    "variety_note": "This chapter shifts away from external confrontation (unlike others) into deep interiority, using the thread motif and physical anchors to map the process of unwavering internal resolution right before climax."
+  }
+}

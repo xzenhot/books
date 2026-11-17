@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 53,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "হারানো ঝাঁঝের ভার",
+  "segment_summary": "সেই তীব্র ঝাঁঝালো স্বাদ, যা বাংলার মাটির সঙ্গে গাঁথা ছিল, তা প্রবাসে কেবল একটি হালকা, নিরপেক্ষ অনুভূতির স্তরে নেমে আসে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A narrative voice that is entirely observational, mirroring a child learning to distinguish between two similar-looking golden snacks but feeling an ineffable difference through smell alone.",
+    "story_option": "Setting: Beside an open travel trunk filled with spices from home; Desire: To compare the residue on the fingers after touching two different types of cooking grease (homemade vs. market); Obstacle: Dust obscures the delicate spectral difference in the oil stains.",
+    "subject_rotation": "Exploring the ethical weight of substitution: is it better to have a flawed replica that functions perfectly in the new place, or starve for the authentic taste?",
+    "sensory_detail": "Smell: The immediate, aggressive bite (*jhal*) that hits the back of the throat from heated mustard fumes, contrasted with a faint, odorless neutrality.",
+    "research_question": "What is the precise Bengali term (beyond simple adjectives) to describe the complex, earthy pungency generated when mustard seeds are first heated in oil?",
+    "structural_variant": "A highly fragmented structure where each segment is less a progression and more an oscillating comparison between two states (home vs. abroad).",
+    "variety_note": "Unlike previous chapters which focused on naming (সিঙ্গাড়া/সামোসা) or general displacement, this chapter locks onto a single, powerful molecular anchor—the cooking medium itself—to explore cultural entropy."
+  }
+}

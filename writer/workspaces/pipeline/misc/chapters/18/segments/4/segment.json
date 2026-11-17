@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ধুলো ও আলোর সন্ধিক্ষণ",
+  "segment_summary": "This segment captures the moment the monsoon's first drops meet the warm, dust-laden street, symbolizing a collective sigh of relief and renewal.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Volta: কবিতার শুরু থেকে মধ্যভাগ পর্যন্ত সমস্ত উপাদানকে একটি অস্থায়ী 'সৌন্দর্যের প্রলেপ' হিসেবে উপস্থাপন করা, এবং শেষ অংশে সেই সৌন্দর্যকে ভঙ্গুর বা ব্যর্থ বলে প্রত্যাখ্যান করা।",
+    "story_option": "A memory of the initial chai glass sweat becomes a tactile hallucination during the silence in the bus, forcing a confrontation between perceived solidity and transient moisture.",
+    "subject_rotation": "Treating 'India' not as a geographic or historical entity, but as an accumulation of specific chemical interactions (sweat + soil moisture = aroma; spice + leaf = flavor).",
+    "sensory_detail": "The sharp metallic tang of wet iron railings at dawn contrasting with the deep sweetness of over-brewed chai residue.",
+    "research_question": "How can the mandated voice (Gibran/Orilase cadence) be maintained when pivoting from objective observation to subjective existential doubt without becoming overly sentimental?",
+    "structural_variant": "Building the poem around a single recurring, slightly altered verb that symbolizes 'becoming' or 'decaying' across all observations.",
+    "variety_note": "This chapter moves beyond the gentle observation seen in previous segments by introducing an overt philosophical conflict (Permanence vs. Ephemerality) and forcing the imagery into a high-stakes interrogation, rather than quiet documentation."
+  }
+}

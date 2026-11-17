@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "উজ্জ্বলতার প্রতিধ্বনি",
+  "segment_summary": "বিদ্রোহের এই মুহূর্তেই তার ভেতরের উজ্জ্বলতা আরও তীব্রভাবে প্রতিধ্বনিত হয়, যেন এটি বাইরের অন্ধকারের প্রতি এক চ্যালেঞ্জ ছুঁড়ে দিচ্ছে।",
+  "name": "7",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the social expectations not as external pressures, but as a finely woven tapestry that she is intentionally allowed to fray in key moments.",
+    "story_option": "setting: একটি অত্যন্ত সাজানো বসার ঘর (Formal drawing-room), desire: সামাজিক গ্রহণযোগ্যতা এবং নিজের সত্যের মধ্যে একটি অস্থায়ী ভারসাম্য রক্ষা করা।, obstacle: অতিথিদের তীক্ষ্ণ, বিচারমূলক দৃষ্টি যা ফর্সা ত্বকের প্রতিটি ভাঁজকে প্রশ্ন করে।, turn: সোনালী হঠাৎ সেই পরিবেশের সকল প্রোটোকলকে উপহাস করে এক নীরব হাসিতে ভেঙে দেয়।",
+    "subject_rotation": "Analyzing the societal pressure through a lens of inherited duty vs. chosen desire, rather than mere conformity.",
+    "sensory_detail": "The dry, abrasive texture of an unworked linen cloth rubbing against sensitive skin (Touch).",
+    "research_question": "How can the high poetic diction convey the subtle *erosion* caused by social pressure without resorting to overtly pessimistic or dramatic language?",
+    "structural_variant": "Employing a highly fragmented structure where each segment is less a narrative passage and more a series of rapid-fire, contradictory images.",
+    "variety_note": "Where earlier chapters focused on internal discovery or rising tension, this chapter isolates the direct friction point: the clash between the intensely private spiritual life and the pervasive, visible demands of the external world."
+  }
+}

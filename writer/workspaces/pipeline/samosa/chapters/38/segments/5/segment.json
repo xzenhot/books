@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 38,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্বাদ",
+  "segment_summary": "এই কাব্যিক ধারণাটি প্রতিষ্ঠা করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা রাসায়নিক বিশ্লেষণের ঊর্ধ্বে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the 'after-chew' soundscape: Instead of visual imagery, build segments around the auditory memory—the echo of crunching against the silence of the new place.",
+    "story_option": "Setting: Sitting by a dusty window watching headlights pass; Desire: For the passing lights to momentarily coalesce into the shape/smell of the original fryer in Bengal; Obstacle: The harsh glare of modern street illumination eroding shadow and scent alike.",
+    "subject_rotation": "Personification of the 'void': Giving the lingering emptiness a character—perhaps a silent, persistent guest at every foreign meal.",
+    "sensory_detail": "The sight of dull, gray light illuminating the empty plate, offering no contrast to highlight the texture.",
+    "research_question": "What specific Bengali literary term most accurately describes sensory longing that exists only as a 'near-miss' or a permanent asymptote?",
+    "structural_variant": "A spiral structure where each segment revisits Segment 1's core idea but with increasing layers of abstraction.",
+    "variety_note": "Unlike its neighbours which explore specific components (oil/spice), this chapter focuses purely on the aftermath—the negative space left behind after consumption. The thread metaphor here is sustained in the residue itself, rather than being built up from individual elements."
+  }
+}

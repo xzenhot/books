@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আত্মার নীরব প্রতিজ্ঞা",
+  "segment_summary": "এই স্তরে, ভক্তের হৃদয়ে এক নীরব প্রতিজ্ঞা জন্ম নেয়—যে শক্তি ক্ষণস্থায়ী হলেও তার বার্তা চিরন্তন।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the return to daily struggle (Segment 4) through an extremely bureaucratic/procedural lens, making the 'victory' anti-climactic and administrative.",
+    "story_option": "Setting: Inside the narrator's own chest cavity during an unremarkable morning commute; Desire: To feel the faint, remembered vibration of the *dhak* against bone structure; Obstacle: The relentless, grinding rhythm of the city.",
+    "subject_rotation": "Emphasizing the quiet labor of clean-up and post-ritual disposal (the meticulous cleaning of remnants) as the true devotional act.",
+    "sensory_detail": "A high-pitched ringing in the ears following the sudden cessation of loud rhythmic drumming (sound).",
+    "research_question": "How can the diction evoke both the archaic grandeur of Sanskrit influence and the jarring vernacular intimacy required by the mandates?",
+    "structural_variant": "An episodic structure, where each segment is a rapid-fire montage of sensory residue rather than a continuous philosophical argument.",
+    "variety_note": "This chapter deliberately pivots from external spectacle (neighbors 9, 10) and peak action (neighbor 5/8) into a terrain of quiet residue, where absence becomes the primary subject matter; it leans heavily on introspection mandated by Segment 6."
+  }
+}

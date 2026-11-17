@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "Nature's Own Sanctuary",
+  "segment_summary": "Their existence challenges the notion that value must be conferred by human systems, asserting a quiet, inherent dignity in their untamed state.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treatment of the flowers as a form of resistance against memory-making, where their wildness is actively *unreadable* by academic taxonomy.",
+    "story_option": "Setting: A cluster of fine, almost translucent white flowers nestled against a slab of fractured foundation stone; Desire: To record their exact shape in memory before any wind shifts them; Obstacle: The pervasive red dust clouding his vision.",
+    "subject_rotation": "Shifting from 'beauty' to 'stubborn persistence': treating the flowers as an act of sheer biological refusal against being categorized or pruned.",
+    "sensory_detail": "Smell: The metallic-sweet scent of wilted sap mingling with hot, dry clay.",
+    "research_question": "How do historical texts describing ruin discuss peripheral flora versus the main architectural subject?",
+    "structural_variant": "A slow zoom-in technique, starting with the vast expanse of red earth and progressively tightening focus onto one single, named bloom until it dissolves into a concept.",
+    "variety_note": "Unlike previous chapters which dealt with external forces (clouds, elders), this chapter anchors the tension entirely within micro-observation—the relationship between the hand and a single point of untamed life."
+  }
+}

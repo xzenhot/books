@@ -12,6 +12,7 @@ using System.Windows.Threading;
 using Microsoft.Win32;
 
 using WriterWorker.Configuration;
+using WriterWorker.Controller;
 using WriterWorker.Ctl;
 using WriterWorker.Models;
 
@@ -856,6 +857,61 @@ public partial class PdfPageSetupDialog : Window
         LoadPages();
         Select(role, relative);
         MessageText.Text = $"{BookPages.DisplayNameOfFile(relative)} was added to the {BookPages.DisplayNameOf(role)} pages; design it to write it.";
+    }
+
+    /// <summary>
+    /// Writes the index pages of the book from its chapters: the title of every chapter with the
+    /// titles of the segments that print under it, two blank lines between one chapter and the next,
+    /// packed into as many pages as the text area of the page setup holds. Nothing fixes how many
+    /// pages the index takes, so it is built again whenever the book changes. The pages are ordinary
+    /// designs of the index folder, so they can be opened and edited like any other page.
+    /// </summary>
+    private void BuildIndex_Click(object sender, RoutedEventArgs e)
+    {
+        if (_bookFolder is null || !RoleOf((sender as FrameworkElement)?.Tag, out var role))
+        {
+            return;
+        }
+
+        FlushSave();
+
+        var content = BookProfile.ContentFolderOf(_bookFolder);
+        var book = BookParsers.TryParse(content, out var error);
+
+        if (book is null || book.Chapters.Count == 0)
+        {
+            MessageText.Text = $"The index could not be built: {error ?? $"the book in {content} has no chapter to index"}.";
+            return;
+        }
+
+        IReadOnlyList<string> written;
+
+        try
+        {
+            written = IndexPages.Write(_bookFolder, book.Chapters, Apply(PdfExportOptions.Current.Clone()));
+        }
+        catch (Exception exception) when (exception is IOException
+            or UnauthorizedAccessException
+            or ArgumentException
+            or NotSupportedException
+            or InvalidOperationException)
+        {
+            MessageText.Text = $"The index pages could not be written to {PageStore.FolderIn(_bookFolder)}: {exception.Message}";
+            return;
+        }
+
+        LoadPages();
+
+        if (written.Count == 0)
+        {
+            MessageText.Text = $"The book in {content} has no chapter to index, so the index prints the pages reserved for it.";
+            return;
+        }
+
+        Select(role, written[0]);
+        MessageText.Text = written.Count == 1
+            ? $"The index was built from the {book.Chapters.Count} chapters of the book on one page: {string.Join(", ", written.Select(BookPages.NameOfFile))}."
+            : $"The index was built from the {book.Chapters.Count} chapters of the book on {written.Count} pages: {string.Join(", ", written.Select(BookPages.NameOfFile))}.";
     }
 
     /// <summary>

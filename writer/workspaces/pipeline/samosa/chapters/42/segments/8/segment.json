@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 42,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষিত অনুরণন",
+  "segment_summary": "এই দৃশ্যপটটি সেই নিখুঁত, আদি স্বাদের জন্য এক নীরব আকাঙ্ক্ষা তৈরি করে, যা এই বাজার দিতে অক্ষম।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the market not as external noise, but as an internal physiological response—the body rejecting the foreign stimuli in favor of deep-seated hunger for nostalgia.",
+    "story_option": "Setting: Standing near a busy thoroughfare where traffic noise is constant; Desire: For a momentary silence—a brief, resonant void—that allows the true flavor memory to resurface unobstructed; Obstacle: The persistent, aggressive rhythm of foreign vehicle horns.",
+    "subject_rotation": "Exploring the market as an archive itself; each vendor selling not just food, but altered versions of cultural narratives.",
+    "sensory_detail": "The high, whining sound of ventilation units fighting against outdoor humidity.",
+    "research_question": "How can I maintain high poetic diction (তৎসম) while integrating necessary low-register marketplace urgency (হিন্দি/উর্দু slang) without undermining the solemn tone?",
+    "structural_variant": "Utilizing an extended apostrophe/invocation in Segment 8, directly addressing the lost home kitchen as if it were a physical location one can visit.",
+    "variety_note": "While previous chapters focused on internal decay or ingredient substitution, this chapter focuses specifically on the *external environment*—the cacophony and aggressive stimulation of the foreign marketplace that actively erodes memory."
+  }
+}

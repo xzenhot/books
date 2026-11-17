@@ -1,0 +1,284 @@
+# Chapter model context
+
+## chapter_index
+
+13
+
+## name
+
+13
+
+## word_target
+
+1000
+
+## segment_count
+
+8
+
+## chapter_title
+
+একটি বড় পরীক্ষা—একটি ভয়ঙ্কর ঝড় বা বন্যা
+
+## chapter_summary
+
+এই অধ্যায়টি প্রকৃতির চরম প্রতিকূলতার মুখোমুখি হওয়ার মুহূর্তকে চিত্রিত করে, যেখানে ভয়ঙ্কর ঝড় বা বন্যা মাঝির জীবন ও তার মানবিক দায়িত্ববোধকে এক কঠিন অগ্নিপরীক্ষার মধ্য দিয়ে নিয়ে যায়। নদীর উন্মত্ত স্রোত এবং প্রকৃতির ধ্বংসাত্মক শক্তি মাঝির স্থিতিস্থাপকতা ও সহজাত উদারতাকে পরীক্ষা করে। এই চরম পরিস্থিতিতে, তার দক্ষতা এবং মানুষের প্রতি নিঃস্বার্থ দায়বদ্ধতাই তার সবচেয়ে বড় সম্পদ হয়ে ওঠে, যা তাকে অর্থনৈতিক চাপ থেকে সাময়িকভাবে মুক্তি দেয়। প্রশ্নটি হলো: চরম বিপর্যয়কালে, মানবীয় বন্ধন কি কেবলই টিকে থাকার একটি কৌশল, নাকি এটি জীবনের মৌলিক সত্য?
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+125
+
+#### segment_title
+
+আকাশের কালো গর্জন
+
+#### segment_summary
+
+আকাশে ঘন কালো মেঘ জমছে, আর নদীর জল শান্ত রূপ হারিয়ে উন্মত্ত হয়ে উঠছে, যা আসন্ন প্রাকৃতিক দুর্যোগের পূর্বাভাস দিচ্ছে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+125
+
+#### segment_title
+
+নদীর উন্মত্ত নৃত্য
+
+#### segment_summary
+
+নদী তার স্বাভাবিক ছন্দ ভেঙে ভয়ঙ্কর ঢেউ তুলতে শুরু করেছে, আর কাঠের নৌকাটি সেই প্রবল স্রোতের বিরুদ্ধে সংগ্রাম করছে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+125
+
+#### segment_title
+
+অসহায় যাত্রীর আশ্রয়
+
+#### segment_summary
+
+ঝড়ের কবলে পড়া এক অসহায় পথিক মাঝির নৌকায় আশ্রয় নেয়, যার জীবন বিপন্ন, এবং মাঝি তাকে রক্ষা করার সিদ্ধান্ত নেয়।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+125
+
+#### segment_title
+
+দক্ষতার পরীক্ষা
+
+#### segment_summary
+
+মাঝি তার বহু বছরের অভিজ্ঞতা ও শারীরিক শক্তির সাহায্যে সেই ভয়ঙ্কর স্রোতের মধ্যে নৌকাটিকে নিয়ন্ত্রণ করার চেষ্টা করে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+125
+
+#### segment_title
+
+নিঃস্বার্থ সেবার শিখর
+
+#### segment_summary
+
+এই চরম মুহূর্তে, তার মানবিক দায়িত্ববোধ আর্থিক হিসেবের ঊর্ধ্বে উঠে যায়, যা তার নৈতিক ভিত্তিকে আরও মজবুত করে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+125
+
+#### segment_title
+
+নদীর প্রতি আনুগত্য
+
+#### segment_summary
+
+মাঝি বুঝতে পারে যে এই দুর্যোগে তার সবচেয়ে বড় সম্পদ হলো নদীর সঙ্গে তার গভীর সংযোগ এবং তার প্রতি তার আনুগত্য।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+125
+
+#### segment_title
+
+ঝড়ের মধ্যের নীরব গান
+
+#### segment_summary
+
+ঝড়ের তীব্রতার মধ্যেও, মাঝি যেন এক চাপা ভটিয়ালি সুরের মাধ্যমে প্রকৃতির এই মহাকাব্যিক সংগ্রামকে অনুভব করে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+125
+
+#### segment_title
+
+পরবর্তী স্রোতের জিজ্ঞাসা
+
+#### segment_summary
+
+ঝড় কেটে যাওয়ার পর, মাঝি নিজেকে প্রশ্ন করে—এই চরম পরীক্ষা কি তার পুরনো জীবনদর্শনকে আরও দৃঢ় করবে, নাকি তাকে নতুন কোনো অনিশ্চয়তার দিকে ঠেলে দেবে?
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- Focusing on the physical sensation of the boat hull groaning under extreme water pressure, making the wood itself a voice against the current.
+- Framing the storm not just as nature's wrath, but as a violent societal purging—sweeping away all superficial economic structures (debt notations, paper bills) with the floodwaters.
+- Contrasting the chaotic movement of the river during the storm with the intensely focused stillness required in the majhi’s own core being.
+
+### story_options
+
+- Setting: The heart of a sudden flash-flood. Desire: To save not only the passenger but also some fragile, irreplaceable relic (e.g., an old family songbook) from drowning. Obstacle: The water level rises too fast for any salvage attempt.
+- Setting: A stretch of river known locally as the 'Devil's Passage.' Desire: The majhi aims to push through it not just for service, but as a personal affirmation of his mastery over fate. Obstacle: Another vessel (modern and powerful) forces an unscheduled maneuver near him.
+- Setting: Sheltering in a temporary eddy created by rocks during the storm. Desire: To share a silent ritual with the passenger—a mutual acknowledgement of shared vulnerability rather than dialogue. Obstacle: The constant, oppressive sound deafens any attempt at deep connection.
+
+### subject_rotations
+
+- Treating the disaster as a spiritual cleansing where the river momentarily empties its human accretions (greed, transaction) before refilling with elemental purity.
+- Focusing less on physical survival and more on the preservation of cultural memory within the boat during the crisis—the song surviving the deluge.
+- Viewing the majhi's skill as not 'experience,' but an instinctive, inherited covenant with the river that transcends human logic or monetary value.
+
+### sensory_details
+
+- The taste of metallic tang in the air when lightning strikes close enough to carry ozone into the boat.
+- The specific, sickening sound of wet rope fibers twisting and straining against stressed knots under immense load.
+- The cold shock of subterranean river silt being violently churned up by the surge beneath the hull.
+
+### research_questions
+
+- What are the colloquial Bengali terms associated with 'uncontrollable, divine fury' in relation to Bengal's monsoon/river systems?
+- How do descriptions of traditional boat craftsmanship (like specific caulking or wood selection) change when exposed to extreme hydrostatic pressure?
+
+### structural_variants
+
+- A dynamic structure mirroring the storm: opening with tight, claustrophobic lines during calm before expanding into wide, chaotic imagery during the peak; contracting again for resolution.
+- Employing a call-and-response internal dialogue between 'the Man of Debt' (economic reality) and 'The River Spirit' (primal freedom).
+- A non-linear structure where moments of extreme calm are interspersed rapidly with vignettes of overwhelming chaos.
+
+### unused_angles
+
+- How the passenger reacts when, instead of fear, he finds a strange, almost ritualistic peace in the river's raw power.
+- The fleeting image of modern infrastructure (a distant concrete pylon or high-tension wire) briefly visible through the mist during the height of the tempest.
+
+### variety_note
+
+Unlike preceding chapters which focused on external societal pressure, this chapter shifts focus entirely inward and outward simultaneously—the majhi's internal fortitude tested against an overwhelming, non-human force.

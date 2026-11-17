@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "করুণা ও অনুপ্রেরণার স্রোত",
+  "segment_summary": "এই সমাপ্তি পাঠককে এক দ্বান্দ্বিক অনুভূতির গভীরে নিয়ে যায়—গভীর শোকের পাশাপাশি এক তীব্র, অপ্রতিরোধ্য আশার সঞ্চার।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the sensory experience of reintegration—the tactile memory of absence meeting tangible presence.",
+    "story_option": "The setting shifts to a secluded corner of the domestic structure; Desire: To reclaim a simple shared gesture previously denied by isolation; Obstacle: The sheer weight of past unspoken accusations; Turn: A wordless, mutual acknowledgment that supersedes all history.",
+    "subject_rotation": "Shifting focus from 'triumph' to 'sustained tenancy'—the difficulty of maintaining peace after such extreme volatility.",
+    "sensory_detail": "The acrid, lingering taste of strained silence contrasted sharply with the eventual soft warmth of reunion.",
+    "research_question": "How can the concept of 'existential negotiation' be rendered poetically using purely elevated vocabulary?",
+    "structural_variant": "A strictly objective recounting, minimizing interior monologue until the very final lines (emphasizing 'the thing itself' over feeling).",
+    "variety_note": "This chapter shifts from recounting the struggle to describing its irreducible consequence, prioritizing existential density over narrative momentum, unlike earlier chapters."
+  }
+}

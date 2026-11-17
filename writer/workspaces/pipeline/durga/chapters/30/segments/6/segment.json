@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলোর নীরবতা",
+  "segment_summary": "প্যান্ডেলের আলোকসজ্জা নিভে যাওয়ার পর যে নীরবতা আসে, তা কেবল অন্ধকার নয়, বরং আত্ম-আলোর সন্ধান।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating devotion ('bhakti') less as an upward striving towards the divine, and more as a grounding discipline against temporal drift.",
+    "story_option": "A solitary moment by a window pane at dusk, watching the city lights flicker on and off—each bulb a miniature 'pandal'; Desire: To confirm that internal light sources mimic ritual illumination; Obstacle: The realization that these modern glows lack the divine conviction inherent in tradition.",
+    "subject_rotation": "Treating the self ('আমি') not as a spectator or worshipper, but as the *medium* through which the cycle is momentarily held together.",
+    "sensory_detail": "The specific dull ache in the joints that signals a transition from high-energy celebration to low-energy contemplation.",
+    "research_question": "Are there poetic precedents where existential fatigue is recast as necessary spiritual calibration rather than mere burnout?",
+    "structural_variant": "Alternating stanzas: one stanza presenting the abstract philosophical question; the next providing a jarringly mundane observation from daily life.",
+    "variety_note": "Unlike the previous chapters which detailed construction and climax, this final section must turn entirely inward, using residual imagery to address persistent internal struggle rather than external ritual performance."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "পাঠকের জিজ্ঞাসা",
+  "segment_summary": "এই অংশটি পাঠককে সরাসরি প্রশ্ন করে—যখন সমস্ত পার্থিব চিহ্ন মুছে যায়, তখন কি সাহিত্যই শেষ আশ্রয়স্থল? এটি একটি অমীমাংসিত গজল রূপে উপস্থাপিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on silence not as absence, but as a densely packed narrative form resisting colonial definition.",
+    "story_option": "The spectral confrontation: A brief scene where the emperor's 'Takhallus' appears on a decaying piece of colonial paper, defying its erasure.",
+    "subject_rotation": "Shifting the focus from *loss* of empire to the *gain* of linguistic autonomy.",
+    "sensory_detail": "The cold, damp ache in a finger tracing where a signature should be on official ledgers.",
+    "research_question": "What particular vocabulary related to inherited nobility was systematically replaced by colonial administrative terms regarding land tenure?",
+    "structural_variant": "Alternating between intense lyrical outpouring and intensely cold, almost journalistic observations derived from 'administrative' language.",
+    "variety_note": "Unlike previous chapters that focused on specific tragic events, this piece is entirely meta-poetic, interrogating the very nature of legacy against absolute negation."
+  }
+}

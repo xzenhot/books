@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আচারের রাসায়নিক বন্ধন",
+  "segment_summary": "The specific, potent mixture of betel leaf and spices is analyzed as a microcosm of social bonding, a chemical ritual.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shift the lens to temporality: frame each small object not as a moment *in* time, but as a localized eddy where micro-time spirals away from macro-time.",
+    "story_option": "setting: A stationary, unmoving section of road, desire: To hear the micro-sounds within the silence—the settling dust, the insect hum., obstacle: The pressure of unseen societal expectation forcing a narrative onto the quiet., turn: The silence is revealed not as empty, but as being actively *held* by the invisible tension between two people who refuse to speak.",
+    "subject_rotation": "Reversing the premise: instead of small things creating the big truth, the grand concept ('India') imposes an unbearable *expectation* onto these small moments.",
+    "sensory_detail": "The low-frequency rumble felt in the soles of the feet when standing near a slowing vehicle (Kinesthetic/Sound).",
+    "research_question": "What specific archaic Bengali words related to 'witnessing' or 'seeing' (beyond সাধারণ দেখা) can carry the gravity required for this final synthesis?",
+    "structural_variant": "Use intentional sonic stutters (like halting speech or mechanical failure) within certain segments to represent the fracture between 'cohesion' and 'fragmentation'.",
+    "variety_note": "This chapter deliberately moves away from introducing new objects and focuses instead on how previously established objects begin to interact philosophically with each other—the convergence of moisture, ritual marking, transit weariness, and commerce into one grand question."
+  }
+}

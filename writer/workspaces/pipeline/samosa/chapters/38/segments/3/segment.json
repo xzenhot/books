@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 38,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অনুবাদিত আকাঙ্ক্ষা",
+  "segment_summary": "স্বাদটি একটি 'অনুবাদিত' অভিজ্ঞতা হয়ে থেকে যায়—যা ভাষা বা ভৌগোলিক সীমানা পেরিয়েও তার আদি রূপ ধারণ করতে ব্যর্থ হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the inherent *void* in the center filling not as a loss, but as an active, resisting element that refuses to be filled by any foreign substance.",
+    "story_option": "Setting: Inside an old, lacquered tiffin box; Desire: To sense the faint metallic tang of preserved spice fragments, which represent cultural persistence despite physical change; Obstacle: The damp chill of the foreign climate affecting the fragile remnants.",
+    "subject_rotation": "The material failure: A dissection focusing only on how the binding agents (flour/starch) have structurally betrayed their original recipe under new atmospheric pressures.",
+    "sensory_detail": "A faint, abrasive graininess on the tongue that feels like static electricity from an unfamiliar air current.",
+    "research_question": "What specific Bengali literary term most accurately describes sensory longing that exists only as a 'near-miss' or a permanent asymptote?",
+    "structural_variant": "A spiral structure where each segment revisits Segment 1's core idea but with increasing layers of abstraction.",
+    "variety_note": "Unlike its neighbours which explore specific components (oil/spice), this chapter focuses purely on the aftermath—the negative space left behind after consumption. The thread metaphor here is sustained in the residue itself, rather than being built up from individual elements."
+  }
+}

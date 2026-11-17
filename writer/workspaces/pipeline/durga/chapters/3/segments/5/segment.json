@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আকাঙ্ক্ষার প্রতিচ্ছবি",
+  "segment_summary": "প্রতিমার চোখে প্রতিফলিত হয় মর্ত্যের সকল আকাঙ্ক্ষা—শান্তি, সমৃদ্ধি এবং অশুভ শক্তির বিনাশের তীব্র বাসনা।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the act of painting eyes as a direct invocation—the artist is not merely decorating but forcibly grafting divinity onto inert matter.",
+    "story_option": "Focusing on one devotee who approaches not with ritual fervor, but with raw human vulnerability—a whispered confession about personal failing offered to the unseeing clay face (Setting: Near the idol; Desire: Forgiveness; Obstacle: The formality of worship; Turn: A silent acknowledgement from the painted gaze).",
+    "subject_rotation": "Treating the eyes/vision metaphorically: what does it mean for a localized human expression (eyes) to capture infinite narrative?",
+    "sensory_detail": "The granular texture of the pigment dust under fingernails, dry against the slickness of residual clay.",
+    "research_question": "Are there specific ancient Bengali ritualistic phrases used to denote the transition from inert material to a living spiritual icon during *chokkhudan*?",
+    "structural_variant": "A recursive structure: The act of painting an eye calls forth the memory of previous divine manifestations, each iteration being a reflection.",
+    "variety_note": "Unlike preceding chapters focused on external cycles and physical labor, this chapter centers entirely on a singular, intensely concentrated act of imbuing passive matter with active consciousness."
+  }
+}

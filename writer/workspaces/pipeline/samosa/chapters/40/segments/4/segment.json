@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 40,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির প্রতিরোধ",
+  "segment_summary": "তবুও, জিভের গভীরে সেই আদি সিঙ্গাড়া-র স্বাদটি একটি ক্ষীণ প্রতিরোধ গড়ে তোলে, যা কেবল স্মৃতি-বাহক হিসেবে টিকে থাকে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the consumer's momentary hesitation before biting as a philosophical standoff between memory and immediate need.",
+    "story_option": "Setting: A brightly lit, chaotic street stall, Desire: To find an unseen vendor who still cooks with the ancient method (sariṣa tel/gingara style), Obstacle: The modern commercial pressure forcing uniformity.",
+    "subject_rotation": "Focusing intensely on the *packaging* as a cultural artifact—the standardized packet versus the improvised home wrap.",
+    "sensory_detail": "The sharp, metallic tang of street vendor grease mixed with cheap diesel fumes.",
+    "research_question": "What precise Bengali adverb can capture the sensation of 'almost there'—the proximity to flavor perfection that is always just out of reach in a busy setting?",
+    "structural_variant": "Using the 'litany' variation: Repeating a key phrase like 'আমি খুঁজি সেই পুরের ভাঁজ' but changing one object element in each iteration.",
+    "variety_note": "Unlike previous chapters which focused on the *interior* state or ingredients, this chapter is deliberately externalized to the marketplace itself, using the physical noise and chaos as an active antagonist against memory."
+  }
+}

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 42,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অচেনা গন্ধের ভিড়",
+  "segment_summary": "বাজারের কোলাহলে অন্যান্য খাবারের তীব্র, অপ্রয়োজনীয় গন্ধগুলো সামোসার সূক্ষ্ম অস্তিত্বকে গ্রাস করছে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker addresses a specific former companion (a shared memory of the original cooking) who is absent, questioning if they still recall the *smell* before the texture.",
+    "story_option": "Setting: A cramped, dusty roadside stall with harsh fluorescent lighting; Desire: To find one specific vendor whose hands still retain the 'recipe' taught by an absent relative; Obstacle: The sheer volume of competing street food aromas.",
+    "subject_rotation": "Shifting focus from the food item to the *mechanism* of memory retrieval—how proximity (being in a crowd) paradoxically distances us from authenticity.",
+    "sensory_detail": "The abrasive grit of industrial dust mingling with cheap cooking oil on skin.",
+    "research_question": "What is the precise Bengali adverb that captures the feeling of being 'almost there' in terms of flavor recognition while immersed in sensory overload?",
+    "structural_variant": "A heavily fractured structure where each segment is interrupted by a single, powerful sensory image from Item 1 ('অচেনা গন্ধের ভিড়').",
+    "variety_note": "While previous chapters focused on internal decay or ingredient substitution, this chapter focuses specifically on the *external environment*—the cacophony and aggressive stimulation of the foreign marketplace that actively erodes memory."
+  }
 }

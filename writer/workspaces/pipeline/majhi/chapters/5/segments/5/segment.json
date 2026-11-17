@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "ঝুঁকির ছায়া",
+  "segment_summary": "এই নিঃস্বার্থ কাজটি তাকে সাময়িকভাবে আর্থিক দুর্বলতার দিকে ঠেলে দেয়, কারণ এই সেবা কোনো লেনদেনের খাতায় নথিভুক্ত নয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the refugee/traveler not by their desperation, but by an inherited sorrow matching the delta's history (echoing Bhatiyali themes).",
+    "story_option": "Setting: Amidst blinding sheets of rain where visibility drops to mere feet; Desire: The majhi wishes the chaos would pass quickly so he can resume his routine; Obstacle: A critical failure in the boat's structure is exposed by the strain; Turn: He repairs it using ancient, intuitive knowledge instead of modern tools.",
+    "subject_rotation": "Exploring the traveler’s state of being as being 'outside' of normal economic time—unquantifiable by currency.",
+    "sensory_detail": "The specific, percussive sound of large raindrops hitting the taut canvas covering the boat's stern;",
+    "research_question": "What are traditional Bengali idioms for 'unpayable debt' when applied metaphorically to nature or human goodwill?",
+    "structural_variant": "Beginning *in media res* with the peak of the storm, and concluding by slowly pulling back out toward a navigable current.",
+    "variety_note": "This chapter diverges from others by removing all mercantile figures; it strips the interaction down to a primal test between nature's overwhelming force and irreducible human kindness."
+  }
+}

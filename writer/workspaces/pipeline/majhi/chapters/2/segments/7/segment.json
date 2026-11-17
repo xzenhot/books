@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা",
+  "segment_summary": "মাঝি দ্বিধাগ্রস্ত হয়ে অপেক্ষা করে, এই নতুন অর্থনৈতিক বাস্তবতার সামনে তার প্রাচীন মূল্যবোধের প্রতিক্রিয়া কী হবে তা বোঝার চেষ্টা করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The confrontation is framed as a metaphysical negotiation: the mercantile desire for fixed value versus the river's embrace of infinite flow.",
+    "story_option": "The merchant offers a small 'token' payment, but it is immediately followed by an unspoken demand for faster transit or more risk-taking than the river permits.",
+    "subject_rotation": "Treating the 'fare' as a metaphor for ecological debt—the cost of travel implying damage done to the riverbanks.",
+    "sensory_detail": "The dry, brittle scent of oiled leather from the merchant's luggage contrasted with the wet earth smell clinging to the boat hull.",
+    "research_question": "What are common local terms for 'unearned luxury' or 'overpaid desire' in Bengali river culture that could be woven into the dialogue?",
+    "structural_variant": "The chapter begins entirely through the merchant's highly formalized, detached description of his needs before any visual contact is made.",
+    "variety_note": "Where previous chapters established the nature of the river and the man, this chapter anchors their relationship in a specific, tense moment of perceived commercial negotiation, introducing external friction."
+  }
+}

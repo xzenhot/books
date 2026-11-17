@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অগ্নির নিভে যাওয়া",
+  "segment_summary": "অবিরাম সংগ্রাম এবং বিশ্বাসের অগ্নিশিখা, যা তাকে চালিত করেছিল, তা এই বিজয়ের মুহূর্তে কীভাবে এক শান্ত, স্থিতিশীল আভায় রূপান্তরিত হয়, তা চিত্রিত হবে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Soundscape Reversal: Beginning with a crushing, dissonant silence that represents finality, and letting the climax be heralded by a singular, resonant chime or natural sound, rejecting purely lyrical outpouring.",
+    "story_option": "Setting: Within an ancient structure touched by starlight; Desire: Not to embrace, but merely to stand opposite him, allowing the light that shines *between* them to become the central focus; Obstacle: The fear of losing this fragile moment again.",
+    "subject_rotation": "Examining how her established status as a symbol changes once the personal trauma is resolved—is she now trapped by expectation?",
+    "sensory_detail": "A sudden cessation of the ringing tinnitus in her ears upon contact, replaced by profound internal quiet; (Sound)",
+    "research_question": "How can I use Bengali vocabulary to describe a peace so absolute it borders on terrifying—a stillness that holds immense potential energy?",
+    "structural_variant": "A tripartite structure where each segment represents 'Before Reunion' (stasis), 'The Instant of Contact' (explosion/volta), and 'After Union' (new equilibrium).",
+    "variety_note": "This chapter pivots from the raw agony and struggle found in earlier segments (like those dealing with societal friction) to focus entirely on transcendent closure, using a structural volta to redefine that finality."
+  }
+}

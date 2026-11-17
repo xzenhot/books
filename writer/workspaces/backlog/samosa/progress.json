@@ -7,12 +7,10 @@
   "provider": "ollama",
   "book_name": "samosa",
   "form": "poetry",
-  "updated_by": "init",
-  "updated_date": "2026-10-31T15:20:00Z",
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "সরিষার তেলের কড়াই",
+      "topic": "সিঙ্গাড়া যেখানে ছিল ঘরের স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/1/chapter.md",
@@ -20,7 +18,7 @@
     },
     {
       "chapter_number": 2,
-      "topic": "ভাজা আলুর পুর",
+      "topic": "samosa — পর্ব 2 — samosa",
       "category": "",
       "status": "pending",
       "file_path": "chapters/2/chapter.md",
@@ -28,7 +26,7 @@
     },
     {
       "chapter_number": 3,
-      "topic": "প্রথম কামড়",
+      "topic": "নামের পরিবর্তন: সিঙ্গাড়া থেকে সামোসা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/3/chapter.md",
@@ -36,7 +34,7 @@
     },
     {
       "chapter_number": 4,
-      "topic": "বাড়ির পাশের মোড়",
+      "topic": "প্রবাসের বাজারের দৃশ্যপট",
       "category": "",
       "status": "pending",
       "file_path": "chapters/4/chapter.md",
@@ -44,7 +42,7 @@
     },
     {
       "chapter_number": 5,
-      "topic": "শীতের সন্ধ্যা",
+      "topic": "প্রথম প্রজন্মের স্মৃতি-সংরক্ষণ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/5/chapter.md",
@@ -52,7 +50,7 @@
     },
     {
       "chapter_number": 6,
-      "topic": "মায়ের হাতের মাপ",
+      "topic": "তেলের পরিবর্তন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/6/chapter.md",
@@ -60,7 +58,7 @@
     },
     {
       "chapter_number": 7,
-      "topic": "তেলের তাপ",
+      "topic": "দ্বিতীয় প্রজন্মের দৃষ্টিকোণ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/7/chapter.md",
@@ -68,7 +66,7 @@
     },
     {
       "chapter_number": 8,
-      "topic": "বাষ্পের ভাষা",
+      "topic": "ঘ্রাণ-স্মৃতির বিজ্ঞান ও কাব্যিকতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/8/chapter.md",
@@ -76,7 +74,7 @@
     },
     {
       "chapter_number": 9,
-      "topic": "ময়দার প্রথম স্পর্শ",
+      "topic": "মশলার বিন্যাস",
       "category": "",
       "status": "pending",
       "file_path": "chapters/9/chapter.md",
@@ -84,7 +82,7 @@
     },
     {
       "chapter_number": 10,
-      "topic": "খোলস বাঁধার কলা",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/10/chapter.md",
@@ -92,7 +90,7 @@
     },
     {
       "chapter_number": 11,
-      "topic": "রেলের কামরায় মোড়া কাগজ",
+      "topic": "পরিচয়ের দ্বিধা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/11/chapter.md",
@@ -100,7 +98,7 @@
     },
     {
       "chapter_number": 12,
-      "topic": "সীমান্তের লাইন",
+      "topic": "বাণিজ্যপথের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/12/chapter.md",
@@ -108,7 +106,7 @@
     },
     {
       "chapter_number": 13,
-      "topic": "বিমানবন্দরের থালা",
+      "topic": "অপেক্ষা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/13/chapter.md",
@@ -116,7 +114,7 @@
     },
     {
       "chapter_number": 14,
-      "topic": "নতুন দেশের প্রথম রাত",
+      "topic": "স্বীকৃতি বা প্রত্যাখ্যান",
       "category": "",
       "status": "pending",
       "file_path": "chapters/14/chapter.md",
@@ -124,7 +122,7 @@
     },
     {
       "chapter_number": 15,
-      "topic": "ভাড়া ঘরের রান্নাঘর",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/15/chapter.md",
@@ -132,7 +130,7 @@
     },
     {
       "chapter_number": 16,
-      "topic": "অচেনা মশলার তাক",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/16/chapter.md",
@@ -140,7 +138,7 @@
     },
     {
       "chapter_number": 17,
-      "topic": "প্রথম ব্যর্থ চেষ্টা",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/17/chapter.md",
@@ -148,7 +146,7 @@
     },
     {
       "chapter_number": 18,
-      "topic": "বাসি রুটির সকাল",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/18/chapter.md",
@@ -156,7 +154,7 @@
     },
     {
       "chapter_number": 19,
-      "topic": "একা খাওয়ার টেবিল",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/19/chapter.md",
@@ -164,7 +162,7 @@
     },
     {
       "chapter_number": 20,
-      "topic": "প্লাস্টিকের চামচ",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/20/chapter.md",
@@ -172,7 +170,7 @@
     },
     {
       "chapter_number": 21,
-      "topic": "নাম বদলায়",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/21/chapter.md",
@@ -180,7 +178,7 @@
     },
     {
       "chapter_number": 22,
-      "topic": "বানান বদলায়",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/22/chapter.md",
@@ -188,7 +186,7 @@
     },
     {
       "chapter_number": 23,
-      "topic": "প্যাকেট বদলায়",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/23/chapter.md",
@@ -196,7 +194,7 @@
     },
     {
       "chapter_number": 24,
-      "topic": "দাম বদলায়",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/24/chapter.md",
@@ -204,7 +202,7 @@
     },
     {
       "chapter_number": 25,
-      "topic": "ট্রাকের স্ট্রিটফুড",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/25/chapter.md",
@@ -212,7 +210,7 @@
     },
     {
       "chapter_number": 26,
-      "topic": "উৎসবের বাজারে নতুন খোলস",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/26/chapter.md",
@@ -220,7 +218,7 @@
     },
     {
       "chapter_number": 27,
-      "topic": "ভুল উচ্চারণ",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/27/chapter.md",
@@ -228,7 +226,7 @@
     },
     {
       "chapter_number": 28,
-      "topic": "পাসপোর্টের নাম আর ডাকনাম",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/28/chapter.md",
@@ -236,7 +234,7 @@
     },
     {
       "chapter_number": 29,
-      "topic": "প্রথমবার নিজেকে প্রবাসী বলা",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/29/chapter.md",
@@ -244,7 +242,7 @@
     },
     {
       "chapter_number": 30,
-      "topic": "কাগজে লেখা নতুন ঠিকানা",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/30/chapter.md",
@@ -252,7 +250,7 @@
     },
     {
       "chapter_number": 31,
-      "topic": "আকার একই, স্বাদ নয়",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/31/chapter.md",
@@ -260,7 +258,7 @@
     },
     {
       "chapter_number": 32,
-      "topic": "ময়দার পুরুত্ব",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/32/chapter.md",
@@ -268,7 +266,7 @@
     },
     {
       "chapter_number": 33,
-      "topic": "তেলের গন্ধের পার্থক্য",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/33/chapter.md",
@@ -276,7 +274,7 @@
     },
     {
       "chapter_number": 34,
-      "topic": "ভিন্ন লবণ",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/34/chapter.md",
@@ -284,7 +282,7 @@
     },
     {
       "chapter_number": 35,
-      "topic": "ঠান্ডা হয়ে যাওয়া কামড়",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/35/chapter.md",
@@ -292,7 +290,7 @@
     },
     {
       "chapter_number": 36,
-      "topic": "প্যাকেটে সিল করা স্মৃতি",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/36/chapter.md",
@@ -300,7 +298,7 @@
     },
     {
       "chapter_number": 37,
-      "topic": "খালি থালা",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/37/chapter.md",
@@ -308,7 +306,7 @@
     },
     {
       "chapter_number": 38,
-      "topic": "জিভের বিভ্রান্তি",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/38/chapter.md",
@@ -316,7 +314,7 @@
     },
     {
       "chapter_number": 39,
-      "topic": "অর্ধেক খাওয়া খোলস",
+      "topic": "চূড়ান্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/39/chapter.md",
@@ -324,7 +322,7 @@
     },
     {
       "chapter_number": 40,
-      "topic": "রাতের ফ্রিজের আলো",
+      "topic": "প্রবাসের বাজারের দৃশ্যপট",
       "category": "",
       "status": "pending",
       "file_path": "chapters/40/chapter.md",
@@ -332,7 +330,7 @@
     },
     {
       "chapter_number": 41,
-      "topic": "মায়ের হাতের কথা মনে পড়া",
+      "topic": "প্রবাসের বাজারের দৃশ্যপট",
       "category": "",
       "status": "pending",
       "file_path": "chapters/41/chapter.md",
@@ -340,7 +338,7 @@
     },
     {
       "chapter_number": 42,
-      "topic": "দিদার তেলের পরিমাণ",
+      "topic": "প্রবাসের বাজারের দৃশ্যপট",
       "category": "",
       "status": "pending",
       "file_path": "chapters/42/chapter.md",
@@ -348,7 +346,7 @@
     },
     {
       "chapter_number": 43,
-      "topic": "যে রেসিপি লেখা হয়নি",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/43/chapter.md",
@@ -356,7 +354,7 @@
     },
     {
       "chapter_number": 44,
-      "topic": "কলকাতার মোড়ের কথা",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/44/chapter.md",
@@ -364,7 +362,7 @@
     },
     {
       "chapter_number": 45,
-      "topic": "বন্ধুর সঙ্গে ভাগ করা থালা",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/45/chapter.md",
@@ -372,7 +370,7 @@
     },
     {
       "chapter_number": 46,
-      "topic": "বাড়ি ফেরার টিকিট",
+      "topic": "প্রবাসের বাজারের দৃশ্যপট",
       "category": "",
       "status": "pending",
       "file_path": "chapters/46/chapter.md",
@@ -380,7 +378,7 @@
     },
     {
       "chapter_number": 47,
-      "topic": "সীমান্তে জিজ্ঞাসা",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/47/chapter.md",
@@ -388,7 +386,7 @@
     },
     {
       "chapter_number": 48,
-      "topic": "প্রথম দেশে ফেরা",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/48/chapter.md",
@@ -396,7 +394,7 @@
     },
     {
       "chapter_number": 49,
-      "topic": "চেনা গন্ধে চোখ ভিজে যায়",
+      "topic": "অসমাপ্ত স্বাদ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/49/chapter.md",
@@ -404,7 +402,7 @@
     },
     {
       "chapter_number": 50,
-      "topic": "ব্যাগে মোড়া সিঙ্গাড়া",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/50/chapter.md",
@@ -412,7 +410,7 @@
     },
     {
       "chapter_number": 51,
-      "topic": "বাড়ি কি আর আগের বাড়ি",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/51/chapter.md",
@@ -420,7 +418,7 @@
     },
     {
       "chapter_number": 52,
-      "topic": "ছেলে প্রথম সামোসা খায়",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/52/chapter.md",
@@ -428,7 +426,7 @@
     },
     {
       "chapter_number": 53,
-      "topic": "নতুন প্রজন্মের অচেনা স্বাদ",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/53/chapter.md",
@@ -436,7 +434,7 @@
     },
     {
       "chapter_number": 54,
-      "topic": "রেসিপি লেখার ব্যর্থ চেষ্টা",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/54/chapter.md",
@@ -444,7 +442,7 @@
     },
     {
       "chapter_number": 55,
-      "topic": "দুই দেশের মাঝখানে দাঁড়ানো",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/55/chapter.md",
@@ -452,7 +450,7 @@
     },
     {
       "chapter_number": 56,
-      "topic": "শেষ কামড় না খাওয়া",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/56/chapter.md",
@@ -460,7 +458,7 @@
     },
     {
       "chapter_number": 57,
-      "topic": "আধখোলা খোলস",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/57/chapter.md",
@@ -468,7 +466,7 @@
     },
     {
       "chapter_number": 58,
-      "topic": "অসমাপ্ত থালা",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/58/chapter.md",
@@ -476,7 +474,7 @@
     },
     {
       "chapter_number": 59,
-      "topic": "একটি নাম যা আর ফেরে না",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/59/chapter.md",
@@ -484,7 +482,7 @@
     },
     {
       "chapter_number": 60,
-      "topic": "স্বাদ কার, দেশ কার",
+      "topic": "তেলের স্মৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/60/chapter.md",

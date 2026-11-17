@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বাঁধের নীরবতা",
+  "segment_summary": "আধুনিক কাঠামোগত চাপগুলো তার সামনে এসে দাঁড়ায়, কিন্তু তার ভেতরের স্থিরতা সেই চাপকে অতিক্রম করে যায়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Centering on one specific, unbroken strand of rope used to moor the boat; its tensile strength symbolizes unyielding moral fiber.",
+    "story_option": "A moment where the boat accidentally brushes against an old mooring post—a relic resisting modernization (Setting: Forgotten jetty corner; Desire: To commune silently with the past iteration of his life's work; Obstacle: The heavy smell of modern diesel fuel washing over the water; Turn: Realizing that inertia, not just change, is a form of memory).",
+    "subject_rotation": "Shifting from internal realization to an external witnessing moment: a single observer who understands his enlightenment without needing him to articulate it.",
+    "sensory_detail": "The low, resonant thrumming vibration felt through the worn seat plank during a smooth pass (Sound).",
+    "research_question": "How does water interact with and preserve memories on ancient wooden structures in Bengal?",
+    "structural_variant": "The poem could be structured not sequentially by event, but thematically, grouping all 'money' references before revealing the final thematic resolution.",
+    "variety_note": "Unlike earlier chapters that focused on external pressures (debt, bridges), this final section internalizes the struggle, allowing the philosophical resolution to settle as an almost unbearable quietude."
+  }
+}

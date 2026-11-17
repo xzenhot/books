@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ আখ্যান",
+  "segment_summary": "এই অসম্পূর্ণ স্বাদটিই প্রবাসীর অস্তিত্বের একটি অবিচ্ছেদ্য অংশ হয়ে ওঠে, যা তাকে তার শিকড়ের প্রতি এক নীরব অঙ্গীকারবদ্ধ রাখে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Personifying the lingering sensation not as sorrow, but as stubbornness—the internal refusal of the self to accept assimilation.",
+    "story_option": "A hypothetical encounter where 'I' meet another stranger who claims to remember that perfect taste, creating an immediate parallel identity crisis.",
+    "subject_rotation": "Using the empty space (silence after chewing) as the primary subject matter, detailing what noise or sensation it is deliberately excluding.",
+    "sensory_detail": "A sudden, unexpected drop in perceived temperature when focusing too deeply on the vanished warmth.",
+    "research_question": "How can I structure the rhythm to mimic the pause between the last chew and the ensuing existential realization?",
+    "structural_variant": "A circular structure beginning and ending on the sensation described in Segment 1, but with drastically altered semantic weight.",
+    "variety_note": "This chapter deepens the philosophical tension begun earlier by focusing entirely on the state *after* consumption—the residue, the void, and the internal debate about taste's nature."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অটুট আশ্রয়",
+  "segment_summary": "হারিয়ে যাওয়া স্বাদটিই প্রবাসীর একমাত্র অটুট আশ্রয় হয়ে ওঠে, যা তাকে নতুন মাটির গন্ধেও পুরোনো বাড়ির গন্ধ খুঁজে পেতে সাহায্য করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence after consumption as a definitive linguistic failure, rather than just absence.",
+    "story_option": "Setting: A lone, chipped ceramic bowl resting on the kitchen counter; Desire: To mentally trace the pattern of its cracks back to the shape of an old dosa mold from Bengal; Obstacle: The silence—the lack of sound where preparation should have been.",
+    "subject_rotation": "Treating the final residue on the tongue not merely as hunger, but as a permanent modification of self—a subtle ontological shift.",
+    "sensory_detail": "Sight: The muted, dull sheen left on a fingertip after handling grease from foreign frying methods.",
+    "research_question": "What specific image from the declared world best encapsulates existential tension remaining after sensory satiation?",
+    "structural_variant": "Alternating between very dense, highly Sanskritized couplets (describing the lost flavor) and extremely colloquial, monosyllabic lines (describing the immediate physical aftermath).",
+    "variety_note": "This chapter deliberately eschews overt description of setting or action, focusing intensely on the internal residue—the aftermath of consumption and its philosophical implications."
+  }
+}

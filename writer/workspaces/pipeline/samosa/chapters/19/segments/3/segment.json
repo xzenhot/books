@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বনাম মানবিক",
+  "segment_summary": "স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে দেখার ধারণার বিপরীতে, এই অংশে মানবিক অভিজ্ঞতার সঙ্গে তার গভীর সংযোগ তুলে ধরা হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The shift from internal monologue to sharp, accusatory address directed at the indifferent modern marketplace.",
+    "story_option": "Setting: Standing before a vendor’s display shelf in an unfamiliar border town; Desire: To demand an explanation from the food for its altered name and essence; Obstacle: The vendor only speaks the pragmatic, immediate language of sale ('deal', 'price'). Turn: Realizing the transaction is between two mutually lost worlds.",
+    "subject_rotation": "Interpreting the residual taste/ache as a necessary form of spiritual residue, binding the exile to the origin.",
+    "sensory_detail": "Sight: The unnatural glare off cheap packaging material next to the deep, matte brown of imagined fried dough.",
+    "research_question": "What specific lexicon (old Bengali/Tatsama) best captures 'মধুর বিষাদ' while maintaining a harsh, non-sentimental edge?",
+    "structural_variant": "A form where the eight segments utilize an AABB rhyme scheme for the first four lines, before collapsing into highly fragmented prose-poetry structures.",
+    "variety_note": "This chapter focuses on the sustained aftermath—the residue, the lingering question mark left by consumption—rather than the conflict or initial memory invoked in preceding chapters."
+  }
+}

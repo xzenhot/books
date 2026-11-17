@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ফিরে আসা পথের ধুলো",
+  "segment_summary": "উৎসবের ভিড় থেকে সরে এসে সাধারণ জীবনের পথে ফেরা, যেখানে দৈনন্দিন জীবনের সংগ্রাম আবার শুরু হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the entire poem on a single, sustained physical sensation (the phantom ache in the hand post-ritual) that bridges the gap between ecstatic joy and quiet resignation.",
+    "story_option": "Setting: A quiet street corner far from the main pandal; Desire: To recall one specific word or phrase uttered during the Chandi Patha that felt utterly personal; Obstacle: The mental rush to fill the void with mundane planning for the next day.",
+    "subject_rotation": "Treating memory (the stain of sindur/the scent) as an active, almost parasitic entity that resists the return to mundane life.",
+    "sensory_detail": "The dry, papery crunch of fallen shiwuli leaves underfoot on dust-covered pavement (touch/sound).",
+    "research_question": "Are there specific Bengali linguistic markers for residual spiritual sensation that are not strictly religious jargon?",
+    "structural_variant": "Using parallelism between the physical remnants (dust, stain) and their psychological equivalents.",
+    "variety_note": "Unlike previous chapters that focused on the intensity of arrival/climax, this chapter emphasizes entropy, residue, and the quiet work of psychic integration after the spiritual storm has passed."
+  }
+}

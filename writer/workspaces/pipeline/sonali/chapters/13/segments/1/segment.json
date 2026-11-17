@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 13,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "শিশিরের মতো ক্ষণস্থায়ী আলো",
+  "segment_summary": "স্বর্গীয় অনুভূতির আগমন এবং তার দ্রুত বিলীন হওয়ার দৃশ্যমান চিত্রকল্প এখানে ফুটে ওঠে, যা তার ভেতরের অস্থিরতাকে প্রতিফলিত করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the unanswerable nature of transcendent joy by directing lines toward a specific, silent observer—perhaps an elderly Bengali craftsperson whose hands have made beautiful things that inevitably wear down.",
+    "story_option": "Setting: The cool, polished brass surface of an old, unused ritual lamp; Desire: To gaze into its reflection while it remains unlit, seeking the image of eternal potential rather than transient fire.",
+    "subject_rotation": "Shifting focus from 'ephemerality' (transience) to 'crystallization': how the intense moment leaves behind a durable *shape* in consciousness, even if the substance is gone.",
+    "sensory_detail": "The precise, momentary scent of dry dust disturbed from an old wooden surface just as a wave of intense emotion passes (Olfactory).",
+    "research_question": "What specific Bengali idiom or metaphor describes the perfect bittersweet quality achieved when profound beauty is inherently temporary?",
+    "structural_variant": "A highly fragmented structure mirroring memory lapse: sudden shifts between intensely detailed sensory recall and broad philosophical statements.",
+    "variety_note": "Unlike the preceding chapters which explored ascent and immersion, this chapter focuses on descent—the beautiful, unavoidable collapse back into the mundane reality by interrogating the nature of time itself through fleeting moments."
+  }
 }

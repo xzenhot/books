@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার প্রতিজ্ঞা",
+  "segment_summary": "বিসর্জনের পর আসা অনিবার্য শূন্যতাটিকে এই অংশটি মেনে নেয়, কিন্তু সেই শূন্যতাই নতুন সৃষ্টির বীজ ধারণ করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Utilizing the structural device suggested by the seed: allowing one single, unexpected vocabulary word to interrupt and subtly reorient the trajectory of an entire stanza.",
+    "story_option": "Setting: Amidst a relentless, grey drizzle following immersion; Desire: To trace invisible lines in the wet earth that map out cyclical patterns of struggle and brief triumph; Obstacle: The blurring effect of water erasing definition.",
+    "subject_rotation": "Exploring the concept that inner strength isn't always heroic; sometimes it is simply the quiet refusal to break under pressure.",
+    "sensory_detail": "The faint, rhythmic ache behind the eyes that accompanies persistent, unarticulated striving.",
+    "research_question": "How can the cadence mimic an overheard conversation rather than a formal address to maximize intimacy and vulnerability?",
+    "structural_variant": "Using very short, sharp lines punctuated by sprawling, complex rhetorical questions that mimic halting thought.",
+    "variety_note": "Unlike previous chapters which focused on initiation and physical manifestation, this chapter dives deep into the psychological aftershock—the quiet internal maintenance required between grand public acts."
+  }
+}

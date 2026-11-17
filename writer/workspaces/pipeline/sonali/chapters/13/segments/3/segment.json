@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অস্থিরতার সৌন্দর্য",
+  "segment_summary": "এই ভঙ্গুরতা সত্ত্বেও, সেই ক্ষণস্থায়ী মুহূর্তগুলোর তীব্রতাই তার অস্তিত্বকে এক বিশেষ ধরনের সৌন্দর্য দান করে, যা স্থায়িত্বের চেয়ে বেশি মূল্যবান।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the memory of bliss not as a burden (Item 2), but as a fragile, stored pigment—a beautiful stain on the fabric of her present self.",
+    "story_option": "Setting: Standing near a riverbank just before the dawn mist fully lifts; Desire: To hold fast to the fleeting sensation of cool moisture on her skin, using it as an anchor against the swift passage of time.",
+    "subject_rotation": "Exploring the potential for beauty residing only in the failed attempt—the exquisite grace found in things that cannot be held.",
+    "sensory_detail": "A sharp, almost high-pitched internal ringing sound—like finely tuned glass vibrating slightly out of pitch—as bliss recedes into memory (Auditory/Internal).",
+    "research_question": "What specific Bengali idiom or metaphor describes the perfect bittersweet quality achieved when profound beauty is inherently temporary?",
+    "structural_variant": "A highly fragmented structure mirroring memory lapse: sudden shifts between intensely detailed sensory recall and broad philosophical statements.",
+    "variety_note": "Unlike the preceding chapters which explored ascent and immersion, this chapter focuses on descent—the beautiful, unavoidable collapse back into the mundane reality by interrogating the nature of time itself through fleeting moments."
+  }
+}

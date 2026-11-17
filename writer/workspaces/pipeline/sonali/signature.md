@@ -1,7 +1,7 @@
-This is the Style, Pijush Biswas (পীযূষকান্তি বিশ্বাস) , the poet from New Delhi.
 - **updated_by:** scaffold
-- **updated_date:** 2026-11-06T09:45:38Z
+- **updated_date:** 2026-11-16T21:47:04Z
 
+This is the Style, Pijush Biswas (পীযূষকান্তি বিশ্বাস) , the poet from New Delhi.
 
 Pijush is a Bengali Poet, he is actually from Bahirgachi , a small village from Nadia District of West Bengal.
 

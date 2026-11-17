@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 78,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "সাংস্কৃতিক প্রতিবন্ধকতা",
+  "segment_summary": "সমাজের দ্বারা নির্ধারিত সাংস্কৃতিক মানদণ্ডগুলি বেহুলার পথকে সংকীর্ণ করে দেয়, কিন্তু সে তার নিজস্ব মহত্ত্ব ধরে রাখতে বদ্ধপরিকর থাকে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating cultural norms not as static rules, but as living, parasitic entities that attempt to drain the internal fire.",
+    "story_option": "Setting: The crowded village gathering (a place of public scrutiny); Desire: To maintain perfect, unreadable stillness during communal rituals; Obstacle: An insistent cousin's veiled questioning about her widowhood.",
+    "subject_rotation": "Shifting focus from 'belief' to 'inherent dignity'—asserting self-worth as an irreducible quality independent of social sanction.",
+    "sensory_detail": "The texture of rough, sun-baked clay from an ancient altar where she stands opposed to expectation (tactile).",
+    "research_question": "How was the concept of personal spiritual sovereignty understood in similar socio-cultural contexts adjacent to the established narrative period?",
+    "structural_variant": "A spiraling inward structure: starting with external societal pressure and ending by locating that unbearable weight entirely within her own perfected core.",
+    "variety_note": "Unlike the initial plunge into personal loss (Chapter 1), this chapter focuses entirely outward, engaging directly with external socio-cultural pressures and translating them into internal philosophical assertion."
+  }
+}

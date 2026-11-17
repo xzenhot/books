@@ -1,0 +1,79 @@
+{
+  "chapter_index": 17,
+  "name": "17",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scars of Expression",
+  "chapter_summary": "This chapter delves into the core philosophy of the artist's struggle, examining how the visible final product masks the invisible sacrifices made during creation. It explores the tension between societal expectations of polished perfection and the raw, authentic truth found in imperfection. The imagery centers on the fissures and fading of the frescoes, mirroring the artist's own internal fragmentation. The central question remains: Can art achieve true immortality if its genesis is rooted in silent, unacknowledged struggle?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "The Night's Altar",
+      "segment_summary": "The artist's true work unfolds in the deep silence of the night, away from the judging gaze of the day.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 60,
+      "segment_title": "Lime and Lapis Dust",
+      "segment_summary": "The sensory world of the studio is defined by the wet, cold lime and the luminous, chemical scent of ground lapis.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 60,
+      "segment_title": "The Scaffold's Burden",
+      "segment_summary": "The scaffolding itself becomes a metaphor for the invisible weight of societal and creative expectations pressing down on the solitary worker.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 60,
+      "segment_title": "Musk in the Desert Air",
+      "segment_summary": "The fleeting musk of passing strangers interrupts the isolation, bringing the chaotic energy of the outside world into the sacred space of creation.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "Mirror of Decay",
+      "segment_summary": "The crumbling frescoes act as a direct reflection of the artist's own internal weariness and the fragility of her self-constructed identity.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 60,
+      "segment_title": "The Unframed Heartbeat",
+      "segment_summary": "The fierce, untamed rhythm of the artist's spirit resists being neatly contained within any conventional or societal frame.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 60,
+      "segment_title": "The Cost of Visibility",
+      "segment_summary": "To expose the raw struggle is to invite scrutiny, making the act of being seen a profound and perilous transaction.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "The Immortal Scar",
+      "segment_summary": "The ultimate goal is not flawless beauty, but the indelible mark—the immortal scar—left by the uncompromising act of expression.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ঐতিহ্যের প্রশ্ন",
+  "segment_summary": "মাঝি তার ঐতিহ্যবাহী উদারতার ধারণার সঙ্গে এই নতুন, হিসেবি বাস্তবতার সংঘর্ষ অনুভব করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the intermediary/debt collector as representing bureaucratic fog—a thick, impenetrable mist that obscures the water beneath.",
+    "story_option": "The interruption happens during a moment when the majhi is sharing water or provisions with an unrelated, needy person (Item 5's spirit); desire: to complete the selfless act; obstacle: the intermediary demands a 'fee' on altruism itself; turn: the shared sustenance becomes the unexpected counter-currency.",
+    "subject_rotation": "Examining the social hierarchy reflected in this conflict: who has the right to *define* movement on Bengal's waterways—nature, tradition, or capital?",
+    "sensory_detail": "The grit of dried mud accumulating under the rudder during a forced halt; a specific taste of brackish water mixed with stale tobacco from the intermediary.",
+    "research_question": "In what ways do boatmen traditionally negotiate disputes with land-based authorities near major crossing points?",
+    "structural_variant": "Alternating sections: one descriptive passage of pure, unrestrained river flow (free verse), immediately followed by a densely weighted, almost prose-like depiction of the legal/financial obstruction.",
+    "variety_note": "While neighbours established the *existence* of financial pressure (Items 2 & 4), this chapter must focus specifically on the moment of direct, adversarial confrontation where tradition meets imposed bureaucracy."
+  }
+}

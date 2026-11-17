@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "সহমর্মিতার ভাষা",
+  "segment_summary": "The realization that the true language of this society is not spoken, but is conveyed through the shared, unspoken weight of these small, observed gestures.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "পর্যবেক্ষকের স্থিরতা নয়, বরং তাঁর উপলব্ধির প্রক্রিয়াটিই অস্থির—যেন তিনি একই সাথে অনেকগুলো সময়সীমার মধ্য দিয়ে സഞ്ച করছেন (Multi-temporal Observer Focus)।",
+    "story_option": "সন্ধ্যা নামার মুহূর্তে, যখন ধুলো উড়তে শুরু করে, তখন দেখা যায় প্রতিটি ধূলিকণায় একটি নির্দিষ্ট মানুষের শ্রমঘাম লেগে আছে—যেন এক অদৃশ্য 'লেয়ারিং' প্রক্রিয়া চলছে।",
+    "subject_rotation": "ঐতিহাসিকভাবে গুরুত্বপূর্ণ কোনো ঘটনার চেয়ে, একটি বিশেষ 'অপেক্ষার' অনুভূতির মনস্তাত্ত্বিক গভীরতাকে কেন্দ্র করা (Psychology of Waiting)।",
+    "sensory_detail": "দীর্ঘ অপেক্ষার কারণে আঙ্গুলের ত্বকে জমে থাকা রুক্ষ, খসখসে ঘামের টেক্সচার।",
+    "research_question": "বাংলা কাব্যিক গঠনে কীভাবে বারবার একই ধরনের ক্ষুদ্র বস্তুকে ভিন্ন ভিন্ন আঙ্গিকে (যেমন, ঘাম $\rightarrow$ তাপ $\rightarrow$ অস্থিরতা) ব্যবহার করে একটি দার্শনিক অগ্রগতি তৈরি করা যায়?",
+    "structural_variant": "A Palindromic Stanza Structure: যেখানে প্রতিটি স্তবকের শেষের লাইনটি পূর্ববর্তী স্তবকটির শুরু হওয়ার ধারণার বিপরীতার্থক হয়ে ফিরে আসে।",
+    "variety_note": "এই পর্ব অন্যান্য অধ্যায়ের চেয়ে বেশি বিমূর্ত ও সংহত; এটি বিচ্ছিন্ন চিত্রের তালিকা থেকে সরে এসে সেই চিত্রগুলির সম্মিলিত অস্তিত্বের দার্শনিক প্রতিধ্বনি অনুসন্ধানে মনোনিবেশ করে।"
+  }
+}

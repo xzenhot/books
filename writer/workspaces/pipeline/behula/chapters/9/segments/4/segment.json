@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "বাধা অতিক্রমের মন্ত্র",
+  "segment_summary": "এই পবিত্রতা তাকে কীভাবে সমাজের আরোপিত কলঙ্ক এবং মানসিক চাপ থেকে রক্ষা করে, তা বিশ্লেষণ করা হয়।",
+  "name": "4",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the *silent covenant*—how her vow to Likhindar transcends spoken language, existing only in the shared geography of their devotion.",
+    "story_option": "Setting: A secluded riverbank (not the main water body), Desire: To perform an unspoken rite of devotion toward Likhindar’s absent form, Obstacle: The encroaching shadow of communal judgment.",
+    "subject_rotation": "Treating 'Sati' not as martyrdom, but as an ultimate act of creative self-possession—a choice that defies external narrative.",
+    "sensory_detail": "The cool, mineral taste left on the tongue after prolonged contemplation of an unspoken vow.",
+    "research_question": "Can I find suitable diction that expresses 'unshakeable resolve' without resorting to overly aggressive or combative language?",
+    "structural_variant": "Using an alternating pattern: one stanza describing external social friction (sharp diction), followed by the next depicting internal sacred stillness (soft, dense diction).",
+    "variety_note": "This chapter shifts from external struggle (previous chapters) to internal ontological assertion; the focus is less on *fighting* and more on *being*, making the sanctity its primary force."
+  }
+}

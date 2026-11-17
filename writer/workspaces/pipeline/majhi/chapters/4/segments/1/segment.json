@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 4,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "পথের বাধা",
+  "segment_summary": "একজন মধ্যস্বত্বভোগী মাঝির পরিচিত পথকে বাধা দেয়, তার কর্তৃত্বের মাধ্যমে নদীর স্বাভাবিক গতিকে নিয়ন্ত্রণ করার চেষ্টা করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the obstruction not as a man blocking his path, but as an encroachment of engineered silence against the river's natural chorus.",
+    "story_option": "Setting a specific location at a poorly maintained, contested ghat where multiple local tolls overlap; desire: to pass unimpeded; obstacle: a man demanding 'customs' for every meter of passage; turn: the majhi names the true cost of the river itself.",
+    "subject_rotation": "Shifting focus from debt collection to territorial control—the intermediator claiming rights over stretches of river deemed his 'domain'.",
+    "sensory_detail": "The grit of dried mud accumulating under the rudder during a forced halt; a specific taste of brackish water mixed with stale tobacco from the intermediary.",
+    "research_question": "What specific historical or localized terminology exists in Bengal for local toll collectors or informal river 'gatekeepers'? (To ensure grounded vocabulary)",
+    "structural_variant": "Alternating sections: one descriptive passage of pure, unrestrained river flow (free verse), immediately followed by a densely weighted, almost prose-like depiction of the legal/financial obstruction.",
+    "variety_note": "While neighbours established the *existence* of financial pressure (Items 2 & 4), this chapter must focus specifically on the moment of direct, adversarial confrontation where tradition meets imposed bureaucracy."
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্বাদের অনুপস্থিতি",
+  "segment_summary": "যখন তেল বদলায়, তখন সামোসার ভেতরের পুরের স্বাদও তার সঙ্গে সঙ্গেই একটি অংশ হারায়, যা একটি অনিবার্য ক্ষতির প্রতীক।",
+  "name": "6.6",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrasting the oil not just chemically, but temporally: the ancient, slow heat of the Bengali kitchen versus the rapid, standardized heating element of an industrial setting.",
+    "story_option": "Setting: The mouth, magnified—the microscopic interaction between foreign lipid molecules and memory receptors; Desire: For one molecule to trigger the full 'taste-memory' cascade, Obstacle: It only triggers vague salinity.",
+    "subject_rotation": "Framing the entire chapter around temperature gradients: the scorching heat required for true Bengali fry vs. the lower, manageable warmth needed elsewhere.",
+    "sensory_detail": "Tactile: The residue left on the fingers after handling freshly steeped spices mixed into the old fat—a sticky, earthy film.",
+    "research_question": "Are there established poetic devices (e.g., metonymy, synecdoche) within Bangla literature used to describe absence in sensory perception?",
+    "structural_variant": "Using an epistolary style where letters are exchanged *between* two pots: one old, smoky (Bengal), one new, pristine (Diaspora).",
+    "variety_note": "While Neighbour 1 focused on nomenclature and memory's word, this chapter fixes firmly onto the foundational ingredient: the medium itself (oil), treating its physical substitution as a primary act of cultural erosion."
+  }
+}

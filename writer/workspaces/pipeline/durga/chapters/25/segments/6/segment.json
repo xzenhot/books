@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "দার্শনিক জিজ্ঞাসা",
+  "segment_summary": "কাব্যটি চূড়ান্ত দার্শনিক প্রশ্নে স্থির হয়: এই শক্তি কি কেবল বাহ্যিক আচার-অনুষ্ঠানে সীমাবদ্ধ, নাকি তা মানব চেতনার অবিচ্ছেদ্য অংশ?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the philosophical inquiry through the lens of a solitary *কারিগর* (artisan) who feels the divine presence not in the finished idol, but in his repeated, perfected gesture.",
+    "story_option": "Setting: Inside the workshop after the final clay idol has been discarded; Desire: To trace the precise pattern on a forgotten tool used in the crafting process; Obstacle: The relentless tide of mundane, uninspired labor demanding immediate attention.",
+    "subject_rotation": "Using the symbolism of 'decay'—the weathering of painted images or fading silk banners—as evidence for lasting philosophical truths.",
+    "sensory_detail": "Smell: The sharp, metallic scent of wet clay mingling with lingering incense smoke in the cool early morning air.",
+    "research_question": "How is the concept of 'inner struggle' (অভ্যন্তরীণ সংগ্রাম) visualized in traditional Bengali folk narratives related to creation or destruction?",
+    "structural_variant": "A fragmented, associative structure where each sensory detail triggers a non-linear jump between mundane daily tasks and moments of divine recall.",
+    "variety_note": "This chapter deepens the introspection begun by earlier narratives, moving from communal celebration to an intensely private meditation on ephemeral versus enduring existence."
+  }
+}

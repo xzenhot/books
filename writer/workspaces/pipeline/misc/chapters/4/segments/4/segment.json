@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "শব্দের অনুপস্থিতি",
+  "segment_summary": "The poem contrasts the potential noise of the city outside with the deliberate, chosen quietude within the vehicle.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "গন্তব্যের পরিবর্তে, যাত্রার শুরু থেকে মধ্যবর্তী 'অপেক্ষার সময়'টিকে কেন্দ্রীয় চরিত্র হিসেবে প্রতিষ্ঠা করা এবং তার নিজস্ব মহাকাব্যিকতা দেখানো।",
+    "story_option": "এক যাত্রী তার হাতের তালুতে ঘাম অনুভব করে (Secondary Twist), এবং সেই সামান্য স্পর্শানুভূতি মুহূর্তের জন্য সমস্ত নীরবতাকে ভেঙে দেয়, যেন সে হাজার বছরের অপেক্ষার ভারকে অনুভব করছে।",
+    "subject_rotation": "নীরবতাকে বিচ্ছিন্নতা হিসেবে দেখা—যেখানে প্রতিটি যাত্রী নিজের জগতে নিমগ্ন এবং কেবল একই ধাতব কাঠামোতে আবদ্ধ থাকাটাই তাদের সংযোগ।",
+    "sensory_detail": "ধাতব সিটগুলোর শীতলতা যা যাত্রীর পোশাকের কাপড়ের মধ্য দিয়ে সঞ্চারিত হচ্ছে।",
+    "research_question": "অপেক্ষার মানসিক চাপ কীভাবে শারীরিক স্থিরতাকে (যেমন অঙ্গভঙ্গী, হাতের অবস্থান) প্রভাবিত করে, সেই বিষয়ে কাব্যে ফুটিয়ে তোলার নতুন পথ কী?",
+    "structural_variant": "আবাসিক অংশগুলোর মধ্যে পরিবর্তন আনা: Segment 1-3 শারীরিক স্থিরতা নিয়ে, এবং Segment 4-8 মানসিক বা দার্শনিক অস্থিরতা নিয়ে লেখা।",
+    "variety_note": "Neighbouring chapters focused on tangible objects (chai glass, vermilion). This chapter isolates an intangible element—Silence—and explores its physics and psychology within a moving vessel."
+  }
+}

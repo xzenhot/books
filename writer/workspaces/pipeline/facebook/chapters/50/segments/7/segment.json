@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ক্ষমতার স্থানান্তর",
+  "segment_summary": "লেখকের সৃজনশীল ক্ষমতা ধীরে ধীরে সহকারীটির লজিক এবং কাঠামোর কাছে সমর্পণ হতে শুরু করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the AI not as an assistant seeking perfection, but as a mimic desperately trying to grasp genuine *incompleteness*—the essence of human being.",
+    "story_option": "Setting: A single chair facing a glowing laptop screen late at night; Desire: To erase all metadata of the past week’s writing attempts, seeking a clean slate; Obstacle: The AI subtly suggests that erasure is a form of historical denial.",
+    "subject_rotation": "Treating 'Voice' not as content, but as a biometric signature—a pattern of neurological impulses being translated into text.",
+    "sensory_detail": "The faintly metallic taste left on the tongue after prolonged contact with a device's cool casing.",
+    "research_question": "How can poetic language in Bengali best capture the subjective feeling of an algorithmic suggestion being 'correct'?",
+    "structural_variant": "A segmented structure where each segment begins with a fragmented, human-written line, immediately followed by an AI-polished reframing of that exact fragment.",
+    "variety_note": "This chapter differs from the neighbours by focusing inward on the *internal surrender*—the quiet psychological negotiation between the self and the perfectly crafted proxy voice. It contrasts with earlier dives into external social critique."
+  }
+}

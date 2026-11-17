@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 29,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির স্থায়ীত্ব",
+  "segment_summary": "প্রমাণ করা হয় যে কিছু স্মৃতি কেবল জিভের ওপর নয়, বরং আত্মার গভীরে স্থায়ীভাবে ভাজা থাকে, যা সময়ের সঙ্গে ম্লান হয় না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the lingering taste not as melancholy, but as stubborn defiance against erasure—a tiny chemical rebellion within the palate.",
+    "story_option": "Setting: While carefully examining the fine grit left on fingertips after handling remnants of the pastry; Desire: To feel that residue not as dirt, but as a map tracing ancient geography onto the skin; Obstacle: The tactile sensation being too ordinary to carry metaphysical weight.",
+    "subject_rotation": "Revisiting the *process* of aging/decay—how the flavor doesn't just fade, but transforms into something alien yet recognizable under pressure.",
+    "sensory_detail": "Touch: The subtle heat retained within the palm even long after the act of eating is complete, a phantom ember.",
+    "research_question": "How can 'মধুর বিষাদ' be achieved through syntactic fragmentation without descending into merely incoherent stream-of-consciousness?",
+    "structural_variant": "A structure built on a central refrain that acts as a constant negation: 'Not this, but the one before.'",
+    "variety_note": "Unlike earlier chapters that detailed ingredients or travel stages, this chapter focuses entirely on the metaphysical resonance—the *aftertaste* as an abstract philosophical object rather than a concrete memory fragment. It introduces uncertainty as its central theme."
+  }
+}

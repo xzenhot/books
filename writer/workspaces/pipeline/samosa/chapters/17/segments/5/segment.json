@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অবিচ্ছেদ্য অংশ",
+  "segment_summary": "এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং মানুষের গভীরতম মানবিক অভিজ্ঞতার সঙ্গে আত্মার গভীরেও ভাজা থাকে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the final lingering taste not as sadness, but as kinetic energy: the tension between what was achieved and what remains unfulfilled, described physically through vibrations in the palate/throat.",
+    "story_option": "Setting: A kitchen countertop illuminated by a single, bare bulb during early morning hours in the new city; Desire: To attempt to 'cool' the overwhelming emotional heat associated with the food—to chemically revert the complex profile back to simple salt and starch; Obstacle: The ingrained physical memory of *heat* overrides any deliberate cooling action; Turn: A realization that coolness is just another kind of manufactured foreign taste.",
+    "subject_rotation": "Analyzing the act of 'wanting' itself as a form of domestic labor performed across borders (the ritual of seeking perfection).",
+    "sensory_detail": "The humid pressure against the closed eyes during moments of intense recollection, feeling like old muslin cloth.",
+    "research_question": "What specific antiquated Bengali word, beyond those already used in context, best describes the sensation of profound yet gentle ache?",
+    "structural_variant": "Structuring segments such that Segment 1’s concluding image is repeated as the first line of Segment 8, creating strict circularity.",
+    "variety_note": "This chapter acts as the culmination; while neighbours focused on the *process* (frying, travel, nomenclature), this piece focuses intensely on the *aftermath*—the metaphysical state of having consumed the symbol without retrieving the essence. It elevates subjective feeling to near-philosophical inquiry."
+  }
+}

@@ -1,53 +1,119 @@
 {
   "chapter_index": 6,
   "name": "6",
-  "word_target": 250,
-  "chapter_title": "মায়ের হাতের মাপ",
-  "chapter_summary": "মা কোনো মাপকাঠি ছাড়াই ময়দার পরিমাণ ঠিক করেন, আঙুলের চাপে খোলসের পুরুত্ব নির্ধারিত হয়। হাতের মাপই একমাত্র লিখিত নয় এমন রেসিপি।",
-  "further_references": [],
+  "word_target": 1000,
+  "segment_count": 8,
+  "chapter_title": "তেলের পরিবর্তন",
+  "chapter_summary": "এই অধ্যায়টি সরিষার ঝাঁঝালো, মাটির গন্ধযুক্ত তেলের সঙ্গে প্রবাসের হালকা, নিরপেক্ষ তেলের বৈসাদৃশ্যকে কেন্দ্র করে আবর্তিত। এই প্রতিস্থাপন কেবল একটি রাসায়নিক পরিবর্তন নয়, এটি প্রবাসীর আবেগের গভীর বিভাজনকে প্রতীকায়িত করে, যেখানে পরিচিত গন্ধের অনুপস্থিতি এক গভীর শূন্যতা তৈরি করে। এই কাব্যিক অনুসন্ধান প্রশ্ন তোলে: যখন মৌলিক উপাদান পরিবর্তিত হয়, তখন কি কোনো স্বাদের 'আত্মা' টিকে থাকতে পারে, নাকি এটি অনিবার্যভাবে বিলীন হয়ে যায়?",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "6.1",
+      "word_target": 125,
+      "segment_title": "সরিষার হলুদ আভা",
+      "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের সেই তীব্র, উষ্ণ ঝাঁঝালো গন্ধের বর্ণনা দেওয়া হচ্ছে, যা মাটির সঙ্গে মিশে এক আদিম স্বাদের প্রতিশ্রুতি দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "6.2",
+      "word_target": 125,
+      "segment_title": "অচেনা তেলের নিস্তব্ধতা",
+      "segment_summary": "প্রবাসের বাজারে ব্যবহৃত হালকা, নিরপেক্ষ তেলের উপস্থিতি চিত্রিত হচ্ছে, যা কোনো নির্দিষ্ট স্মৃতি বা আবেগের সঙ্গে সংযুক্ত নয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "6.3",
+      "word_target": 125,
+      "segment_title": "রাসায়নিক বিচ্যুতি",
+      "segment_summary": "এই তেলের প্রতিস্থাপনকে কেবল একটি রান্নার ত্রুটি হিসেবে না দেখে, এটিকে সাংস্কৃতিক ও আবেগের একটি গভীর রাসায়নিক বিচ্যুতি হিসেবে বিশ্লেষণ করা হচ্ছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "6.4",
+      "word_target": 125,
+      "segment_title": "ঘ্রাণ ও স্মৃতির সংযোগ",
+      "segment_summary": "কীভাবে সরিষার তেলের গন্ধ মস্তিষ্কের গভীরে অতীতের নির্দিষ্ট মুহূর্তের একটি নিউরাল সংযোগ তৈরি করে, তা কাব্যিকভাবে তুলে ধরা হচ্ছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "6.5",
+      "word_target": 125,
+      "segment_title": "আবেগের বিভাজন রেখা",
+      "segment_summary": "তেলের এই পরিবর্তনটি কীভাবে প্রথম প্রজন্মের স্মৃতি-সংরক্ষণ এবং দ্বিতীয় প্রজন্মের কেবল খাদ্যের প্রয়োজনীয়তার মধ্যে একটি স্পষ্ট বিভাজন রেখা তৈরি করে, তা দেখানো হচ্ছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6.6",
+      "word_target": 125,
+      "segment_title": "স্বাদের অনুপস্থিতি",
+      "segment_summary": "যখন তেল বদলায়, তখন সামোসার ভেতরের পুরের স্বাদও তার সঙ্গে সঙ্গেই একটি অংশ হারায়, যা একটি অনিবার্য ক্ষতির প্রতীক।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "6.7",
+      "word_target": 125,
+      "segment_title": "অনুবাদিত স্বাদ",
+      "segment_summary": "এই নতুন স্বাদের প্রতিচ্ছবিটি যেন একটি 'অনুবাদিত' অভিজ্ঞতা, যা মূল ভাষার মতো তার নিজস্ব গভীরতা ধারণ করতে ব্যর্থ হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "6.8",
+      "word_target": 125,
+      "segment_title": "অসমাপ্ত অপেক্ষার তেল",
+      "segment_summary": "এই অধ্যায়টি শেষ হয় সেই নিখুঁত, আদি গন্ধযুক্ত তেলের জন্য এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার মধ্য দিয়ে, যা কেবল স্মৃতিতে বিদ্যমান।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "হাতের মাপকে বৈজ্ঞানিক বা গাণিতিক পরিমাপের সম্পূর্ণ বিপরীত হিসেবে তুলে ধরা; যেখানে প্রথাগত নির্ভুলতা বনাম আবেগপূর্ণ ত্রুটির দার্শনিক দ্বন্দ্ব তৈরি হবে।",
-      "রান্নাঘরের আঙুলগুলোকে নক্ষত্রের মানচিত্র হিসেবে ব্যবহার করা—যেভাবে দিদার হাতের প্রতিটি ভাঁজ অতীতের নির্দিষ্ট স্মৃতিকে নির্দেশ করে, যা কোনো গ্রহ বা ঋতু দ্বারা চিহ্নিত নয়।",
-      "খোলস বাঁধার প্রক্রিয়ায় ব্যবহৃত আঙ্গুলের চাপকে রাজনৈতিক প্রতিরোধের ক্ষুদ্র প্রতীক হিসেবে দেখিয়ে দেওয়া; এটি হলো সেই নীরব প্রতিরোধ যেখানে ভাষা ছাড়া বিদ্রোহ উচ্চারিত হয়।"
+      "Focusing the narrative entirely on the *molecular* journey of the oil—from raw seed in the field to neutralized vapor on the consumer's tongue, externalizing loss as a chemical failure.",
+      "The voice shifts from 'I' (the diaspora member) to the perspective of the *fat/oil itself*, narrating its forced migration and existential dissonance between two regions.",
+      "Contrasting the oil not just chemically, but temporally: the ancient, slow heat of the Bengali kitchen versus the rapid, standardized heating element of an industrial setting."
     ],
     "story_options": [
-      "একটি প্রাচীন কাঠের টেবিল—যেখানে মা ময়দা মেখে দিচ্ছেন, কিন্তু আঙুলগুলো এমনভাবে কাজ করছে যেন তারা কোনো অজানা ভাষার অক্ষর তৈরি করছে। আকাঙ্ক্ষা: প্রতিটি অক্ষরের পেছনে থাকা হারানো গল্পের উদ্ধার; বাধা: সেই ভাষা কেবল স্পর্শেই বিদ্যমান থাকার কারণে তা ধারণ করা অসম্ভব।",
-      "সরিষার তেল এবং আঙুলের মধ্যবর্তী ফোঁটা—এই বিন্দুটিকে কেন্দ্র করে এক ক্ষুদ্র মহাবিশ্ব নির্মাণ করা, যেখানে সামান্যতম গরম বা ঠান্ডা ভাবের পরিবর্তন পুরো 'রেসিপি'-র অস্তিত্বকে বাতিল করতে পারে। আকাঙ্ক্ষা: সেই মুহূর্তের নিখুঁত তাপমাত্রায় স্থবির হওয়া; বাধা: সময় ও প্রবাসের অবিরাম গতি।",
-      "একটি পুরনো মরচে পড়া কাঁচি—যা দিয়ে খোলসের ধার ঠিক করা হয়; এই কাঁচিটি প্রতীকীভাবে বোঝাবে যে, যদিও প্রক্রিয়াটির সূক্ষ্মতা হাতের মাঝে থাকে, তার সমাপ্তির জন্য প্রয়োজন কঠোর, শীতল যন্ত্রপাতির হস্তক্ষেপ (বাধার হিসেবে)। আকাঙ্ক্ষা: হাতে তৈরি নিখুঁত রূপের স্থিরীকরণ; বাধা: বাইরের জগতের অনিবার্য কাঠিন্য।"
+      "Setting: A grimy roadside stall in a foreign city; Desire: To find one single packet of mustard seed that retains its ancestral 'zor', Obstacle: The vendor only stocks uniform, pale refined oil.",
+      "Setting: Indoors, tracing the edge of an old tiffin carrier where the residual smell lingers; Desire: To recall the precise *sound* the dripping ghee made against a hot pan back home, Obstacle: Only the dull hum of modern refrigeration remains.",
+      "Setting: The mouth, magnified—the microscopic interaction between foreign lipid molecules and memory receptors; Desire: For one molecule to trigger the full 'taste-memory' cascade, Obstacle: It only triggers vague salinity."
     ],
     "subject_rotations": [
-      "এই অধ্যায়কে কেবল 'পদ্ধতি' নিয়ে না লিখে, এটিকে সম্পূর্ণভাবে আঙ্গুলের সঞ্চালনকে একটি চলমান স্মৃতিচারণ হিসেবে উপস্থাপন করা—যেখানে প্রতিটি ভাঁজ অতীত দিনের এক টুকরো দৃশ্য।",
-      "খোলসের নকশা বা বাঁধাইয়ের几何 রূপকে নতুন দেশের বাজারের কাঠামোর সাথে তুলনা করা; কীভাবে নিখুঁত জ্যামিতি ভেঙে গিয়ে অনিয়মিত বাজার ছাপ তৈরি করে (আকার বনাম কাঠামো)।",
-      "ময়দার আঠালো প্রকৃতি এবং হাতের উষ্ণতার মিথস্ক্রিয়াকে মানব সম্পর্কের জটিলতা হিসেবে দেখা—যেখানে বাঁধন থাকে, কিন্তু সেই বাঁধনের উৎস কেবল ব্যক্তিগত স্মৃতিতে সুরক্ষিত।"
+      "Treating 'তেল' (oil) as a proxy for time itself—the traditional slow time versus the compressed time of global logistics.",
+      "Exploring the concept of flavor *as* resistance; how the difference in oil constitutes an active, non-verbal protest against assimilation.",
+      "Framing the entire chapter around temperature gradients: the scorching heat required for true Bengali fry vs. the lower, manageable warmth needed elsewhere."
     ],
     "sensory_details": [
-      "আঙ্গুলের গাঁটে জমে থাকা ময়দার শীতল, শুকনো স্পর্শ (Tactile)।",
-      "সরিষার তেল এবং আঙুল যখন মিশে যায় তখন সৃষ্ট অতি সূক্ষ্ম, উষ্ণতম ধোঁয়ার তীব্র ঘ্রাণ (Olfactory) যা কেবল কয়েক সেকেন্ড টেকে।",
-      "ময়দা মেখে আঙ্গুলের ভাঁজে লেগে থাকা শুভ্র বালির মতো টেক্সচারটির দৃশ্যমানতা (Visual)।",
-      "খোলস বাঁধার সময় তৈরি হওয়া মসৃণ, চাপা 'ফিসফিস'-এর শব্দ—যা কোনো প্রকার উচ্চস্বর নয়, কেবল বাতাসের মধ্যে বিলীন হওয়া একটি নির্মাণগত আওয়াজ (Auditory)।"
+      "Visual: The specific amber luminescence of pure, aged mustard oil contrasted with the colorless sheen of generic vegetable medium.",
+      "Olfactory: A detailed description of the pungent, almost acrid tang that precedes the 'sweet' flavor notes in traditional cooking.",
+      "Tactile: The residue left on the fingers after handling freshly steeped spices mixed into the old fat—a sticky, earthy film."
     ],
     "research_questions": [
-      "ঐতিহ্যবাহী বাংলা রান্নাঘরে ময়দার মিশ্রণে ব্যবহৃত বিশেষ ধরনের জল বা উপাদান আছে কি যা কেবলমাত্র স্পর্শের মাধ্যমে শনাক্ত করা সম্ভব?",
-      "পুরনো আঙ্গুলের ছাপ এবং খাদ্যের গঠনশৈলীর মধ্যে কোনো পরিচিত নৃতাত্ত্বিক বা সাংস্কৃতিক সাদৃশ্য বিদ্যমান কিনা, যা এই 'হাতের মাপ'-কে আরও গভীর করতে পারে?"
+      "What is the specific diction in Bengali/Sanskrit that best conveys a 'pithy' or essential flavor quality beyond mere descriptors like 'spicy' or 'sweet'?",
+      "Are there established poetic devices (e.g., metonymy, synecdoche) within Bangla literature used to describe absence in sensory perception?"
     ],
     "structural_variants": [
-      "কবিতাটি সম্পূর্ণভাবে একটি অনবরত ক্রিয়া (Perpetual Action) নিয়ে লেখা হতে পারে—যেখানে শুরু আর শেষ এক হয়ে যায় এবং আঙ্গুলগুলো ক্রমাগত ভাঁজ করতে থাকে, যেন কোনো ঘূর্ণনশীল চক্র।",
-      "একটি দ্বৈত কাঠামো ব্যবহার করা: একদিকে মা'র হাত যা নির্মাণ করছে (নিখুঁত/অভ্যন্তরীণ), অন্যদিকে বাইরের পরিবেশের হঠাৎ শীতলতম বা উষ্ণতম উপাদান—যা সেই নির্মাণের ওপর চাপ সৃষ্টি করে (বাইরের জগতের অনুপ্রবেশ)।"
+      "A highly kinetic structure where each segment rapidly shifts between the memory of Bengal and the reality of the foreign environment without a clear turning point.",
+      "Using an epistolary style where letters are exchanged *between* two pots: one old, smoky (Bengal), one new, pristine (Diaspora)."
     ],
     "unused_angles": [
-      "আঙুলগুলোর নিজস্ব জীবনীশক্তিকে প্রশ্ন করা; এই হাতগুলো কি তাদের নিজ দেশের মাটির স্মৃতি বহন করছে, নাকি তারা কেবল রেসিপির বাহক? — এটি অপেক্ষাকৃত ব্যক্তিগত এবং আত্ম-কেন্দ্রিক একটি বিশ্লেষণ যা পরে ব্যবহার করা যেতে পারে।"
+      "An exploration of how different types of commercial packaging subtly signal the industrial replacement of artisanal methods.",
+      "A meditation on silence—the sound of oil *not* frying correctly."
     ],
-    "variety_note": "এই কবিতাটি পূর্ববর্তী অধ্যায়গুলোর সরাসরি 'খাদ্য উপাদানের' বর্ণনা এড়িয়ে গিয়ে, প্রক্রিয়াকরণের মানবীয় অঙ্গপ্রত্যঙ্গ (হাত) ও তার অন্তর্নিহিত স্মৃতিকে কেন্দ্রীয় রূপক হিসেবে স্থাপন করে যা এই কাব্যের একটি নতুন স্তর উন্মোচন করবে।"
+    "variety_note": "While Neighbour 1 focused on nomenclature and memory's word, this chapter fixes firmly onto the foundational ingredient: the medium itself (oil), treating its physical substitution as a primary act of cultural erosion."
   },
   "draft": {
-    "sha256": "1cafb8d07072c3c769fcdd137e5d05c791438b54d14dd9ad66e358fb926f164a",
-    "written_at": "2026-11-01T08:19:01.205733+00:00",
+    "sha256": "9fe6bc9642787056e234a6a1eba0f0972dd36b351622e9d812e4e91f82a088cc",
+    "written_at": "2026-11-16T19:27:19.029310+00:00",
     "origin": "write"
   }
 }

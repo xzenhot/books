@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বাঁধের বাইরে জীবন",
+  "segment_summary": "আধুনিকতার আরোপিত কাঠামো এবং অর্থনৈতিক চাপ সত্ত্বেও, মাঝির আত্মিক প্রবাহ অক্ষুণ্ণ থাকে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Examining how the *memory* of past freely given service creates a different kind of value currency than anything physical.",
+    "story_option": "Setting: Mid-crossing during a sudden, thick fog that obscures all man-made structures. Desire: For the mist itself to become the symbol of pure, unpriced passage, Obstacle: Inability to see where his next necessary action must be taken.",
+    "subject_rotation": "Treating his stoicism as a highly practiced, almost musical cadence against chaotic economic input.",
+    "sensory_detail": "The feel of sun-baked leather straps worn smooth by generations of rope handling.",
+    "research_question": "What specific linguistic registers in Bengali convey profound, unmeasurable spiritual weight without resorting to overly archaic religious terminology?",
+    "structural_variant": "A section written entirely as an interior monologue questioning the nature of reception—does grace require witness?",
+    "variety_note": "This chapter pushes away from the external confrontation seen previously, focusing instead on an internal resonance—the quiet acceptance that true value is self-contained within the act itself, rather than derived from its outcome or exchange."
+  }
+}

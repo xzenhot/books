@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 33,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত বাধা অতিক্রম করার পর, বেহুলার জীবনে সেই আকাঙ্ক্ষিত প্রত্যাবর্তন ঘটে, যা তার অস্তিত্বের কেন্দ্রবিন্দুতে নতুন করে স্থিতিশীলতা আনে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The aftermath as absence: The poem focuses entirely on the silence *after* Lkhindor's return, where presence is defined by its lack of immediate noise or fanfare.",
+    "story_option": "Setting: A space near a deep river delta (গাঙুড়), where the tide has pulled everything back to its baseline; Desire: To trace with the palm the exact line where their ordeal meets stability; Obstacle: The societal expectation for immediate, visible 'happiness'.",
+    "subject_rotation": "Reinterpreting reunion as 'Cosmic Correction': Viewing the return not as reward, but as the universe resetting an imbalance caused by their profound sacrifice.",
+    "sensory_detail": "A low, resonant hum felt in the bones (sound), replacing any anticipated celebratory sound.",
+    "research_question": "What specific archaic Bengali terms describe the profound exhaustion that follows immense spiritual/physical struggle, differentiating it from mere fatigue?",
+    "structural_variant": "A highly fragmented structure where each segment is a series of isolated internal monologues rather than flowing narrative.",
+    "variety_note": "Unlike earlier chapters focused on battle and tension, this piece rests entirely in 'residue'; the poetry must evoke an aftermath characterized by heavy silence rather than ecstatic release."
+  }
 }

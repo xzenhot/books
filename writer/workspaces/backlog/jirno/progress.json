@@ -1,0 +1,172 @@
+{
+  "total_chapters": 20,
+  "completed_chapters": 0,
+  "current_chapter": 1,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "jirno",
+  "form": "poetry",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "ভস্ম ও রক্তিম",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "অনিবেদিত কুসুম",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "সাঁওতালদের চোখে এই দালান কী?",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/3/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "অতীতের বিশ্বাসঘাতকতার ফিসফিসানি",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/4/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "পথিকের নাগরিক আকাঙ্ক্ষা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/5/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "কিন্তু এই প্রচেষ্টা তাকে এক অচেনা প্রতিরোধ দেয়; তা কোনো ভৌতিক শক্তি নয়, বরং মাটির নিজস্ব স্থিতিস্থাপকতা। প্রতিটি ভাঙা ইটের নিচে চাপা পড়ে আছে এক নীরব প্রত্যাখ্যান।",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/6/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "অনাগত কালবৈশাখীর আগমন বার্তা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/7/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "উদ্ধারকর্তার নাগরিক অহমিকা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/8/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 9,
+      "topic": "সাঁওতাল প্রবীণদের দর্শন: অসম্পূর্ণতার পবিত্রতা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/9/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 10,
+      "topic": "অনাগত ঝড়ের ঠিক আগে",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/10/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 11,
+      "topic": "প্রকৃতির উদাসীন মঞ্চে",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/11/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 12,
+      "topic": "কালবৈশাখীর প্রথম দমকা হাওয়া",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/12/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 13,
+      "topic": "সীমারেখা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/13/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 14,
+      "topic": "সিদ্ধান্তের মুহূর্ত: নীরব স্বীকৃতি",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/14/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 15,
+      "topic": "ঝড় থেমে যাওয়ার পর, পথিক নীরবে প্রস্থান করে",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/15/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 16,
+      "topic": "The Unconsecrated Blooms",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/16/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 17,
+      "topic": "সীমারেখা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/17/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 18,
+      "topic": "সীমারেখা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/18/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 19,
+      "topic": "সীমারেখা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/19/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 20,
+      "topic": "সীমারেখা",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/20/chapter.md",
+      "completed_date": null
+    }
+  ]
+}

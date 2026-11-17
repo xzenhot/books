@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অহংকারের ভঙ্গুরতা",
+  "segment_summary": "পথিকের নাগরিক অহংকার এই প্রকৃতির বিশাল শক্তির সামনে তার ক্ষুদ্রতা এবং ভঙ্গুরতা প্রকাশ করে দেয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focus entirely on the *sound* of the storm's arrival—the shift from heavy, wet thunder to a dry, scraping wind that pulls dust through the ruins.",
+    "story_option": "Setting: A single crumbling archway overlooking a scorched patch of red earth; Desire: To see if the wind can carry away not just dust, but the faint impression of a human voice from the past; Obstacle: The intensity of the elemental force drowns out all sound.",
+    "subject_rotation": "Focusing purely on geology: treating the storm as a hydrological event that reclaims the architecture from human intent.",
+    "sensory_detail": "Sight: The momentary appearance of fine iron oxide dust swirling so thickly that sunlight seems filtered through ochre liquid.",
+    "research_question": "What is the specific effect on old lime mortar when subjected to rapid temperature and humidity swings common before a tropical storm?",
+    "structural_variant": "Interspersing the elemental descriptions with single, rapid-fire images of surviving, unblighted objects near the manor (e.g., one stone marker still standing).",
+    "variety_note": "This chapter pivots from intellectual struggle (prior chapters) to raw physical encounter; it is about surrender to an overwhelming, non-negotiable force rather than a philosophical debate with silence."
+  }
+}

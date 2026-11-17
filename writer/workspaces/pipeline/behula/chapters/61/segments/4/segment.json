@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 61,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ক্লান্তির ভারে নত শরীর",
+  "segment_summary": "দৈনন্দিন সংগ্রামের ফলে শারীরিক ও মানসিক ক্লান্তি তাকে গ্রাস করলেও, তার মনোবল কীভাবে ভেঙে পড়ছে না, সেই দ্বৈরথ এখানে দেখানো হয়েছে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the internal monologue addressed to a memory of Likhindor, using his absence as the primary catalyst for endurance.",
+    "story_option": "Setting: The threshold of the ancestral home; Desire: A single, unjudged glance from an elder relative; Obstacle: The weight of past pronouncements against her character; Turn: She turns toward the horizon instead of looking inwards.",
+    "subject_rotation": "Shifting focus entirely onto how her *internal* perception of time warps under duress—moments stretching into epochs of endurance.",
+    "sensory_detail": "The metallic taste of suppressed grief coating the tongue at twilight.",
+    "research_question": "What specific ancient vocabulary exists that denotes endurance achieved *without* divine intervention?",
+    "structural_variant": "A cyclical structure built around the recurrence of one single physical gesture (e.g., touching her own wrist) across all eight segments.",
+    "variety_note": "This chapter deliberately slows the narrative momentum compared to previous segments by foregrounding pure internal friction; where before was external conflict, here it is relentless self-erosion versus stubborn will."
+  }
+}

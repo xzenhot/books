@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "উত্তরাধিকারের ভার",
+  "segment_summary": "তার মানবিক বন্ধনগুলোই তার সবচেয়ে বড় সম্পদ, যা কোনো বাজার মূল্য নির্ধারণ করতে পারে না।",
+  "name": "3",
+  "word_target": 100,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on Silence as Communication: Emphasizing that the river's 'answer' is not a grand philosophical statement but the mundane, persistent sound of oars hitting water.",
+    "story_option": "Setting: Approaching a silent stretch of river bank where no modern structure exists, Desire: To find an anonymous witness (a solitary heron or old fisherman) who confirms his unspoken belief system. Obstacle: The witness refuses to acknowledge him.",
+    "subject_rotation": "The subtle beauty found in 'Necessary Compromise': Acknowledging that survival requires minor adjustments, but never core betrayal.",
+    "sensory_detail": "The specific, low-frequency hum made by large hidden submerged rocks against the hull.",
+    "research_question": "What regional Bengali vocabulary or metaphorical phrases exist to describe an obligation that is profoundly intangible?",
+    "structural_variant": "A recursive structure where each segment repeats a core image (e.g., the pattern of the oar stroke) but modifies its emotional weight.",
+    "variety_note": "Unlike previous, more action-oriented segments, this chapter focuses entirely on the internal resonance following conflict; it is about sustaining belief rather than winning a battle."
+  }
+}

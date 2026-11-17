@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 61,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অগ্নিকুণ্ডের নীরব স্পন্দন",
+  "segment_summary": "সমস্ত হতাশার মাঝেও, তার মনের গভীরে থাকা বিশ্বাসের শিখা কীভাবে নিভে না গিয়ে তাকে চালিত করছে, তার চিত্র এখানে অঙ্কিত।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the exhaustion not as fatigue but as an accumulation of ritualistic weight—each breath being a Sisyphean act against fate's decree.",
+    "story_option": "Setting: A deserted patch of earth near a riverbank (গাঙুড়ের আলয়); Desire: To speak one truth without reservation; Obstacle: Her own learned silence regarding social constraints; Turn: She chooses to narrate an unspoken, small kindness she once received.",
+    "subject_rotation": "Examining the tension between 'Sati' (purity/commitment) and the desperate, raw need for external validation in a hostile world.",
+    "sensory_detail": "The dry, brittle sound of old jute sacks rubbing against each other in a desolate corner.",
+    "research_question": "How can I linguistically differentiate 'deep sorrow' from 'existential fatigue' using only high-register Bengali diction?",
+    "structural_variant": "A purely fragmented structure, where each segment is a series of sharp, disconnected exclamations rather than flowing verses.",
+    "variety_note": "This chapter deliberately slows the narrative momentum compared to previous segments by foregrounding pure internal friction; where before was external conflict, here it is relentless self-erosion versus stubborn will."
+  }
+}

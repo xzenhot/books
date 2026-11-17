@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 57,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সরিষার হলুদ আবেশ",
+  "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার সেই ঝাঁঝালো, মাটির গন্ধযুক্ত মুহূর্তটি এখানে চিত্রিত হয়েছে, যা এক আদিম উষ্ণতার প্রতীক।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The oil as a geological map: tracing the mineral content of regional soil through its pungency.",
+    "story_option": "Setting: A worn wooden *tawa* in a small kitchen; Desire: To force the cold metal's surface memory of past mustard oil heat into active sensation; Obstacle: The current, thin oil refusing to catch that spectral 'fire'.",
+    "subject_rotation": "Focus on 'Viscosity as Time': How thick, heavy mustard oil represents dense, slow-moving memory versus thin, quick neutral oil representing accelerated, disposable present.",
+    "sensory_detail": "The specific visual contrast between mustard oil's aggressively brilliant ochre sheen and neutral oil's flat, almost milky uniformity.",
+    "research_question": "What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?",
+    "structural_variant": "A circular form where Segment 8 echoes a sound or visual cue from Segment 1, but altered by one key descriptor (e.g., replacing 'ঝাঁঝালো' with 'নরম').",
+    "variety_note": "Unlike previous sections that focused heavily on ingredients or journey, this chapter anchors itself purely in *tactile* sensation—the difference between the two oils' physical presence—as a metaphor for internal conflict."
+  }
 }

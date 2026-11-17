@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 59,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ত ভাজা",
+  "segment_summary": "এই অধ্যায়টি শেষ হয় সেই আকাঙ্ক্ষার সঙ্গে, যেখানে নিখুঁত, আদি গন্ধযুক্ত ভাজাটি কেবল স্মৃতির গভীরে একটি অসম্পূর্ণ ফোঁটা হিসেবে রয়ে যায়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A micro-narrative focusing on the texture difference in the fried dough itself—the 'song' versus the 'hush' imparted by different fats.",
+    "story_option": "Setting: Standing over a cooling *tawa* after an unsuccessful attempt to replicate the heat; Desire: To map the precise contour of one's own palm onto the cool metal as if seeking ancestral guidance; Obstacle: A faint, lingering scent from the neighboring flat that masks any personal aroma.",
+    "subject_rotation": "Focusing only on the color/visual aspect of the oil transformation—from deep gold to pale, washed-out shimmer.",
+    "sensory_detail": "Sound: The low, sighing hiss of neutral fat soaking up air versus the sharp, assertive crackle of mustard seeds hitting hot iron.",
+    "research_question": "How is the cadence/rhythm of a highly technical description (like cooking oil chemistry) contrasted with the intended lyrical flow of this piece?",
+    "structural_variant": "Using a continuous stream of consciousness where the speaker's internal monologue jumps between present action and past sensory recollection without clear demarcation.",
+    "variety_note": "While neighbours explored the oil via grander metaphors or tactile memory, this section drills down specifically on the sensory *signature*—the initial sharp sound and lingering mouthfeel that defines the divergence."
+  }
+}

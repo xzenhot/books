@@ -1,0 +1,81 @@
+{
+  "chapter_index": 30,
+  "name": "30",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This concluding poem synthesizes the myriad small observations—from the sweat on a chai glass to the trace of vermilion—to confront the core philosophical question of the collection. It explores whether these fleeting, minute moments coalesce into a stable, enduring concept of 'India,' or if they remain merely beautiful, isolated flashes of time. The central conflict lies between the desire for a grand, monolithic national identity and the reality of its fragmented, tender particulars. The open question remains whether the sum of these small graces constitutes a meaningful whole.",
+  "further_references": [
+    "misc — পর্ব 1",
+    "misc — পর্ব 3",
+    "misc — পর্ব 14"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "চায়ের ঘাম ও সিঁদুরের রেখা",
+      "segment_summary": "The poem begins by juxtaposing the transient moisture of the railway chai glass against the enduring, yet fragile, line of vermilion on a doorway.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "নীরবতার অর্থনীতি",
+      "segment_summary": "It examines the unspoken language found in the shared silence of a crowded bus, questioning if this quietude is a form of connection or profound isolation.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য শ্রমের প্রতিধ্বনি",
+      "segment_summary": "The focus shifts to the subtle, unseen labor—the folded hands of the dawn vendor—and how this quiet effort underpins the entire social structure.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "ধুলো ও আলপনার মিলন",
+      "segment_summary": "This segment merges the raw, earthy texture of dust disturbed by the monsoon with the deliberate, patterned grace of an alpana design.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অপেক্ষার ভার",
+      "segment_summary": "The weary traveler on the platform becomes a metaphor for the nation itself, carrying a weight that transcends any single destination.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "পানের আচারের রসায়ন",
+      "segment_summary": "The ritual of the betel leaf and spices is analyzed not as a mere habit, but as a precise chemical bond of social exchange.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "আলো ও অন্ধকারের সংমিশ্রণ",
+      "segment_summary": "The flickering light of the dusk lamp is contrasted with the encroaching darkness, symbolizing the constant negotiation between hope and oblivion.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "সংগ্রহের প্রশ্ন",
+      "segment_summary": "The final contemplation asks whether the accumulation of these delicate, momentary observations creates a lasting 'India' or if it is merely a collection of exquisite, ephemeral glimpses.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

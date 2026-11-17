@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন প্রত্যাবর্তন",
+  "segment_summary": "উৎসবের চক্রাকার প্রকৃতিকে মানব জীবনের অবিরাম পুনর্জন্মের সঙ্গে তুলনা করা হয়, যেখানে সমাপ্তিই নতুন শুরুর বীজ বপন করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Reframing the 'asura' not as a monster to be killed, but as a necessary cognitive shadow that must be acknowledged for self-awareness.",
+    "story_option": "A woman in her home finds herself meticulously organizing small, mundane objects (pins, keys) with the obsessive focus previously reserved for arranging festival idols; Desire: To stabilize existence through rigid order; Obstacle: The memories of grand festivity undermining this new structure.",
+    "subject_rotation": "Focusing the entire chapter on the concept of *inertia*—how things cease movement (light, fervor) but energy remains resident within matter.",
+    "sensory_detail": "The feeling of gritty dust settling on bare skin long after the vibrancy of wet clay and colored powders has vanished.",
+    "research_question": "Are there poetic precedents where existential fatigue is recast as necessary spiritual calibration rather than mere burnout?",
+    "structural_variant": "Alternating stanzas: one stanza presenting the abstract philosophical question; the next providing a jarringly mundane observation from daily life.",
+    "variety_note": "Unlike the previous chapters which detailed construction and climax, this final section must turn entirely inward, using residual imagery to address persistent internal struggle rather than external ritual performance."
+  }
+}

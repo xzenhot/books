@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সময়ের স্রোতে ভেসে যাওয়া",
+  "segment_summary": "This segment uses the metaphor of a river to describe time, suggesting that the small observations are merely ripples passing through the vast current.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem reframes 'India' not as a concept or place, but as a continuous state of *being observed*.",
+    "story_option": "Setting: A doorway threshold at dusk. Desire: To find a single point where tradition (vermilion) meets entropy (fading). Obstacle: Fear of collapsing into meaningless detail. Turn: Using that collapse to illuminate the *process* of being, not the result.",
+    "subject_rotation": "Examining the cognitive strain on the observer: is deep observation itself an unsustainable luxury?",
+    "sensory_detail": "A sudden chill biting through skin despite the ambient heat of crowded space.",
+    "research_question": "What is the subtle sonic difference between social silence and absolute void in dense urban settings?",
+    "structural_variant": "Beginning with a forceful declaration of failure ('It does not cohere') before moving into the nuanced exploration.",
+    "variety_note": "This chapter diverges from its neighbors by actively wrestling with the tension between synthesis and dissolution; it is less about *what* these objects are, and more about the impossibility—or necessity—of answering that ultimate philosophical question."
+  }
+}

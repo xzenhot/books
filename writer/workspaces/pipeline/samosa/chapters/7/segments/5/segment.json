@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "বহিরাগত পরিচিতি",
+  "segment_summary": "এই খাবারটি তাদের কাছে একটি 'বহিরাগত' পরিচিতি, যা স্থানীয় সংস্কৃতির অংশ হলেও তার মূল শিকড় তারা অনুভব করতে পারে না।",
+  "name": "7.5",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Sensory Habituation: Examining how immediate exposure to thousands of standardized street foods dulls the palate's sensitivity to ancestral complexity.",
+    "story_option": "Setting: A quiet shared living space late at night; Desire: To decode the complex flavors by repeatedly sampling the same piece until pattern recognition yields narrative; Obstacle: Family members are too preoccupied with their own immediate tasks to engage in this gastronomic archaeology.",
+    "subject_rotation": "Focusing on the texture (the crunch) as a sound/rhythm that is easily replicated and satisfying in itself, regardless of flavor complexity.",
+    "sensory_detail": "The dry, consistent *snap* sound made when biting down—a repetitive metric marker replacing complex flavor notes.",
+    "research_question": "How does repeated exposure to globalized snack foods fundamentally alter the olfactory memory recall associated with regional cuisine?",
+    "structural_variant": "Alternating between hyper-focused descriptions of texture (tactile emphasis) and broad existential observations about cultural drift.",
+    "variety_note": "While earlier chapters delve into the visceral *loss* experienced by the first generation, this segment focuses on the detached *acceptance* of difference by the second, observing where memory fragments fail to connect."
+  }
+}

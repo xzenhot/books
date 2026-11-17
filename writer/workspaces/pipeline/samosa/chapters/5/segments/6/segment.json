@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্বাদের সংরক্ষণাগার",
+  "segment_summary": "প্রতিটি কামড় যেন একটি টাইম ক্যাপসুল, যা প্রবাসের ধূসর পটভূমিতে বাংলার উজ্জ্বল রঙের স্মৃতিকে বাঁচিয়ে রাখে।",
+  "name": "5.6",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the physical ingredients themselves as characters: 'আলু' whispering old songs while 'তেল' carries the burden of translation.",
+    "story_option": "Setting: Beside a faded photograph of the original kitchen in Bengal; Desire: For the image to shimmer with the actual olfactory signature of the meal being made; Obstacle: The photo remains flat, paper-thin, devoid of warmth.",
+    "subject_rotation": "A dialectical tension: the language used in instruction versus the language spoken while eating—the functional vs. the emotional vocabulary.",
+    "sensory_detail": "The visual memory of saffron dye bleeding into the raw potato mash during preparation.",
+    "research_question": "What specific, concrete actions (other than folding) visually represent the commitment of the first generation?",
+    "structural_variant": "Alternating stanzas: one detailing the *making* (active verb) and the next detailing the *remembering* (passive state).",
+    "variety_note": "This chapter deepens the focus on provenance and manual labor, shifting from the grand journey (Chapter 2) to the highly localized, painstaking act of creation itself, emphasizing ancestry via touch."
+  }
+}

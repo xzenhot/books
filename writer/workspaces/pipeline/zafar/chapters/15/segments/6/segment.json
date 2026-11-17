@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "গালিবের নীরব সাক্ষ্য",
+  "segment_summary": "মির্জা গালিবের কাব্যিক উত্তরাধিকারের মাধ্যমে সম্রাটের মর্যাদা কীভাবে পরোক্ষভাবে সংরক্ষিত হয়, সেই নীরব সাক্ষ্য এখানে তুলে ধরা হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Using the concept of 'Rebirth' (পুনর্জন্ম) not as physical resurrection, but as semantic persistence across time.",
+    "story_option": "A whispered petition to an unseen literary custodian (a figure beyond Galib) who receives his final verses at Rangoon.",
+    "subject_rotation": "Treating the 'poem' itself as the ultimate, unassailable territory that cannot be annexed.",
+    "sensory_detail": "A subtle, phantom scent of rich pigment mixed with sea salt carried inland from Rangoon.",
+    "research_question": "How did the Mughal concept of divine right (if any) intersect linguistically with later concepts of poetic sovereignty in Urdu literary tradition?",
+    "structural_variant": "Starting with an utterly sterile administrative declaration ('Report:') before breaking it open with high poetic diction.",
+    "variety_note": "Unlike previous chapters that focused on specific tragic events, this piece is entirely meta-poetic, interrogating the very nature of legacy against absolute negation."
+  }
+}

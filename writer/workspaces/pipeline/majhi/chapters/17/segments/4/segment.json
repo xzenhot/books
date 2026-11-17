@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নদীর নীরব উত্তর",
+  "segment_summary": "নদী তার নিজস্ব গতিতে চলতে থাকে, কোনো হিসেব না রেখে, যা মাঝির উপলব্ধিকে সমর্থন করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the silent concrete barrier as a philosophical interlocutor rather than just an obstacle.",
+    "story_option": "Setting: Near a solitary, barely visible patch of untouched mudflats at deep twilight. Desire: The majhi seeks tangible proof that the ancient way still exists there. Obstacle: A distant sound of heavy machinery working on an embankment.",
+    "subject_rotation": "Treating 'Udarata' not just as generosity, but as a necessary counter-force to entropy.",
+    "sensory_detail": "The metallic scent of oxidized river iron clinging to the boat's hull after a long night.",
+    "research_question": "What specific imagery in Bengali folklore addresses the concept of an intangible debt owed to nature?",
+    "structural_variant": "An oscillating rhythm: highly lyrical lines detailing the internal state punctuated by stark, monosyllabic phrases describing physical reality.",
+    "variety_note": "Unlike previous chapters that focused on external pressures (bridges, debt), this chapter centers entirely on internal philosophical synthesis—the integration of accepted reality into a lasting personal conviction."
+  }
+}

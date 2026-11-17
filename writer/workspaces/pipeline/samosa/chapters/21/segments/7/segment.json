@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "মধুর বিষাদের অনুরণন",
+  "segment_summary": "পাঠককে এক ধরনের 'মধুর বিষাদ' অনুভব করানোই এই কাব্যিক যাত্রার চূড়ান্ত লক্ষ্য, যেখানে কোনো চূড়ান্ত উত্তর দেওয়া হয় না।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from flavor loss to textural memory: Can the specific *resistance* of the wrapper recall the origin more than the taste?",
+    "story_option": "Setting: A single, unlit stove in a temporary kitchen; Desire: To mentally heat the oil to its ancestral temperature before cooking starts; Obstacle: The new burner’s inconsistent flame.",
+    "subject_rotation": "Analyzing the 'Samosa' as an accidental archive—a repository of cultural misfilings and necessary compromises.",
+    "sensory_detail": "Sight: The particular hue of diffused sodium-vapor street lighting reflecting off residual oil on the palate.",
+    "research_question": "What ancient Bengali culinary practice, referenced in our sources, might have an exact counterpart in contemporary non-Bengali cuisine that shares a conceptual *spirit* even if not the ingredient base?",
+    "structural_variant": "A structure based entirely on contrasting pairs (e.g., Foreign-Old, Soft-Hard, Synthetic-Authentic) for each segment.",
+    "variety_note": "Unlike the earlier chapters focused on concrete events (journey, name change), this chapter delves entirely into phenomenology—the state of being suspended between what was and what is, using taste as the philosophical anchor."
+  }
+}

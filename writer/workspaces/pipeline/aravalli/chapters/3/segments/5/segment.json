@@ -1,11 +1,22 @@
 {
-  "level": "segment",
-  "state": "pending",
-  "chapter_index": 3,
   "segment_index": 5,
+  "name": "3",
+  "word_target": 500,
+  "segment_title": "ধাতুর গন্ধ ও কামনার আকরিক",
+  "segment_summary": "প্রাচীন ধাতুর গন্ধ আর সাগরিকার শরীরী উষ্ণতা মিলে এক নতুন আকরিক তৈরি করে, যা কেবল তামা নয়, আদিম আকাঙ্ক্ষারও প্রতীক।",
+  "further_references": [],
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
   "total_segments": 8,
-  "segment_title": "সাগরিকার লিপস্টিক ও প্রাচীন মন্ত্র",
-  "segment_summary": "সাগরিকার রক্তিম লিপস্টিকের আবেশ যেন তক্ষশীলার কোনো গুপ্ত যজ্ঞের উষ্ণ রক্ত, যা প্রাচীন মন্ত্রের সঙ্গে মিশে যায়।",
-  "name": "5",
-  "word_target": 500
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the silence between lines (the breath break mandated by 'line-break') as the vacuum where primordial language, preceding Devanagari, resides.",
+    "story_option": "The narrator experiences synesthesia where the sound of exotic music (Gandharva) tastes metallic, like oxidized copper mixed with the sharp tang of her lipstick.",
+    "subject_rotation": "The concept of 'knowing' as corrosive: how intense intellectual pursuit (Taksashila) turns into a kind of self-destructive intoxication mirroring mythical consumption rituals.",
+    "sensory_detail": "A phantom scent combining dried medicinal herbs from ancient tribal routes with the musk emanating from exertion or deep breath.",
+    "research_question": "How can the chemical composition of hematite (rust/copper) be linked to the perceived 'blood' quality of Sagarika’s lipstick through poetic metaphor?",
+    "structural_variant": "An inverted narrative arc: beginning in the intensity of the flesh (Sagarika) and slowly receding into the vast, indifferent silence of geological time.",
+    "variety_note": "This chapter foregrounds the synthetic collision between structured intellectual pursuit (Taksashila/geometry) and unmediated physical impulse, moving beyond simple historical narrative into a realm of ecstatic contamination."
+  }
 }

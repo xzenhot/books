@@ -1,15 +1,15 @@
 {
   "level": "segment",
   "segment_index": 1,
-  "total_segments": 6,
+  "total_segments": 5,
   "chapter_index": 20,
   "name": "20",
-  "chapter_title": "কনৌজের দরজা",
-  "chapter_summary": "কনৌজের দরজায় উপনীত যুবরাজ লক্ষ্মণ সেন এক গভীর দ্বন্দ্বে নিমজ্জিত হন; একদিকে বিজয়ের প্রতীকী মহিমা, যা গৌরবের ঘোষণার সঙ্গে জড়িয়ে, অন্যদিকে সেই বিজিত নগরীর কঠিন বাস্তব শাসনভার। এই অধ্যায়ে, বিজয়ের উল্লাসের আড়ালে জমে থাকা ক্লান্তি এবং লিপির জয় ও বাস্তব শাসনের মধ্যেকার মৌলিক ফারাক লক্ষ্মণকে তীব্রভাবে তাড়া করে। নগরী দখল করা গেলেও, তাকে কার্যকরভাবে শাসন করার জটিলতা তাকে গ্রাস করে, যা সেন যুগের রাজনৈতিক প্রেক্ষাপটে এক বিশাল চ্যালেঞ্জ হয়ে দাঁড়ায়। এই পরিস্থিতিতে, কেবল সামরিক বিজয় কি প্রকৃত রাজকীয় কর্তৃত্ব প্রতিষ্ঠা করতে পারে, নাকি শাসনের সূক্ষ্মতা ও কূটনীতির মাধ্যমেই সত্যিকারের গৌরব অর্জিত হয়—এই প্রশ্নটি পাঠকের সামনে উন্মুক্ত হয়ে থাকে।",
-  "word_target": 917,
+  "chapter_title": "কনৌজ-অভিযানের পরিণতি",
+  "chapter_summary": "এই চূড়ান্ত অধ্যায়টি লক্ষ্মণ সেনের কনৌজ-অভিযান সমাপ্তির পর তার উপর আসা ভারাক্রান্ত পরিণতিকে চিত্রিত করে। সামরিক জয় বা পরাজয় যাই হোক না কেন, এই অভিযান তাকে কেবল একজন গৌরবলোভী বীর থেকে ইতিহাসের গভীর দায়বদ্ধতা বহনকারী শাসকে রূপান্তরিত করে। কাহিনিটি নদীর স্রোত, জ্ঞানালয়ের স্মৃতি এবং নতুন সীমান্ত দ্বারা সৃষ্ট নৈতিক জটিলতার চূড়ান্ত সংঘাতকে তুলে ধরে। প্রশ্নটি অমীমাংসিত থাকে: ব্যক্তিগত আকাঙ্ক্ষা এবং বৃহত্তর নৈতিক দায়িত্বের মধ্যেকার এই সংঘাতের ভার একজন শাসক কীভাবে বহন করে?",
+  "word_target": 100,
   "state": "enriched",
   "segment_enrichment": {
-    "angle": "Focusing on a non-royal functionary (scribe, treasury manager) witnessing the immediate aftermath of victory, contrasting official celebratory pronouncements with bureaucratic paralysis.",
+    "angle": "A focus on a singular piece of navigational equipment (e.g., a specific compass or rudder component) whose function is rendered obsolete by the new political reality, serving as an object biography reflecting strategic obsolescence.",
     "status": "enriched"
   }
 }

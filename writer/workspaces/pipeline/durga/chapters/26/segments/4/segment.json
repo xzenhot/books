@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "The Unbroken Promise",
+  "segment_summary": "The narrative focuses on the cultural mantra, 'Ashche bochor abar hobe,' interpreting it as a metaphysical guarantee of renewal.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Tracing the 'thread' metaphor: How the initial water absorption (Segment 1) links to the olfactory trace (Segment 2), which becomes the structural continuity in Segment 8.",
+    "story_option": "A young woman meticulously collecting the smallest, water-soaked clay particles from the riverbank (Setting) driven by a quiet compulsion to retain 'evidence' of the divine passage (Desire), facing the local community’s insistence on simply washing it away without looking closely (Obstacle/Turn).",
+    "subject_rotation": "Focusing entirely on time's viscosity: How is the passing of days between immersion and next autumn felt—is it a void, or highly compressed potential?",
+    "sensory_detail": "Sound: The distinct, hollow sound of a single dry *কাশফুল* stalk being crushed underfoot after the festival ends.",
+    "research_question": "How can I convey the shift from chaotic external noise (festival) to disciplined internal silence (reflection) using language that respects both high diction and colloquial resignation?",
+    "structural_variant": "Alternating between the first-person devotee ('I') describing external signs (water, scent) and third-person detached analysis of human behaviour during those moments.",
+    "variety_note": "This chapter avoids large crowd scenes, focusing instead on deeply intimate aftermaths: the water, the scent trail, and the internal landscape of anticipation, offering a quiet counterpoint to earlier descriptions of grand societal gatherings."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 57,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বিচ্যুতি",
+  "segment_summary": "এই তেল পরিবর্তনটি কেবল একটি ভৌত পরিবর্তন নয়, বরং এটি সাংস্কৃতিক এবং আবেগের একটি গভীর বিভাজনকে সূক্ষ্মভাবে চিহ্নিত করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "From aroma to archive: treating the volatile compounds released during frying as momentary linguistic fragments from a lost dialect.",
+    "story_option": "Setting: Inspecting the discarded dough remnants (ময়দা) before frying; Desire: To sense, through touch alone, the difference in molecular tension imparted by the two types of oil; Obstacle: The uniform pallor offered by the modern processing techniques.",
+    "subject_rotation": "Oil as Ritual Sacrifice: Viewing the switch from traditional to modern cooking grease as a deliberate sacrifice—a betrayal of sensory heritage for sheer logistical continuity.",
+    "sensory_detail": "The sensation described as a 'prickling sting' on the back of the throat from the volatile mustard compounds, distinct from simple heat.",
+    "research_question": "What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?",
+    "structural_variant": "A circular form where Segment 8 echoes a sound or visual cue from Segment 1, but altered by one key descriptor (e.g., replacing 'ঝাঁঝালো' with 'নরম').",
+    "variety_note": "Unlike previous sections that focused heavily on ingredients or journey, this chapter anchors itself purely in *tactile* sensation—the difference between the two oils' physical presence—as a metaphor for internal conflict."
+  }
+}

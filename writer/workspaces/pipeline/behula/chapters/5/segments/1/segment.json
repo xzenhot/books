@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 5,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন যুদ্ধের সূচনা",
+  "segment_summary": "প্রতিদ্বন্দ্বিতার আবহে বেহুলার প্রতিটি দিন যেন এক নতুন যুদ্ধক্ষেত্র, যেখানে তাকে নিজের মর্যাদা রক্ষা করতে হয়।",
+  "name": "5.1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem structured as a dialogue where the speaker addresses Likhindar's memory, asking him to witness her sustained effort against the household suspicion.",
+    "story_option": "Setting: The edge of the family's courtyard at twilight; Desire: To feel one moment of undisturbed autonomy (turning obstacle); Obstacle: An unspoken demand for subservience from an elder.",
+    "subject_rotation": "Focusing less on the 'fight' and more on the *perceived* permanence of her suffering—how endurance itself becomes a visible monument.",
+    "sensory_detail": "The metallic chill on her wrist from handling cold implements after a grueling task (Touch).",
+    "research_question": "How can the elevation of personal endurance be framed poetically without becoming self-aggrandizement when depicting resilience?",
+    "structural_variant": "A heavily recursive structure where each segment begins by subtly echoing a word or rhythm from the previous one, creating auditory claustrophobia.",
+    "variety_note": "Unlike the preceding chapters which focused on external assaults (social/familial), this chapter pivots inwards, concentrating on the metabolic cost—the physical and psychological labor required just to maintain her presence amid perceived rivals."
+  }
 }

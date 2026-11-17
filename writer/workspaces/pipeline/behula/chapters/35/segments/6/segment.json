@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 35,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "বিজয় সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক গভীর, নীরব অভিযোগের সুর বহন করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the 'return' through the lens of exhausted memory—the characters only remember the *pact* of struggle, not the comfort of peace.",
+    "story_option": "Setting: A place above the floodwaters (a high terrace analogy); Desire: To acknowledge that their ultimate peace is inherently temporary or fragile, Obstacle: The vastness reminding them of all the lives still trapped in 'trial'; Turn: They gaze not at each other, but at the horizon where future struggle must begin.",
+    "subject_rotation": "Exploring whether the 'triumph' itself becomes a new form of prison—a gilded cage defined by impossible perfection.",
+    "sensory_detail": "Sound: A deep, bone-vibrating resonance that replaces expected exultation—a primal hum.",
+    "research_question": "How can 'ontological necessity' (the fundamental need for this survival/reunion) be rendered in diction while maintaining poetic lyricism rather than sounding like philosophical treatise?",
+    "structural_variant": "Implementing an 'anti-climax' by dedicating several lines to describing mundane domestic acts post-return, stripping the high rhetoric bare.",
+    "variety_note": "This chapter differs from its predecessors by moving decisively into the aftermath, focusing less on 'how' she survived and more on the philosophical texture of having won—a quiet confrontation between achieved peace and enduring systemic critique."
+  }
+}

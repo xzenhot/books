@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য সংযোগ",
+  "segment_summary": "এই অস্পষ্ট অনুরণনটিই সেই অদৃশ্য সংযোগ, যা প্রবাসীকে তার শিকড়ের সঙ্গে ক্ষীণভাবে বেঁধে রাখে, যদিও ভৌগোলিক দূরত্ব অনেক বেশি।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the perspective entirely to the *oil* itself—observing how it has fundamentally changed in its chemical composition, thus becoming a symbol of altered destiny.",
+    "story_option": "Setting: A closed pocket holding only crumbs and residue; Desire: To treat these minute fragments as fragmented linguistic relics that map the lost Bengali syntax onto foreign soil; Obstacle: The complete inability to assemble them into a coherent memory.",
+    "subject_rotation": "Deconstructing the structural integrity of the shell (খোলস) after eating; observing its perfect, hollow emptiness as a metaphor for spiritual evacuation rather than mere physical digestion.",
+    "sensory_detail": "The specific visual texture of hardened oil film reflecting a single distant streetlamp's muted glow.",
+    "research_question": "How can I poetically describe the dissonance between high Sanskritized diction and very basic, street-level vocabulary (like 'packet') without disrupting the mandated cadence?",
+    "structural_variant": "Adopting a reversed chronology: starting with the absolute zenith of the original flavor and systematically detailing its gradual sensory degradation until nothing remains.",
+    "variety_note": "This chapter pivots away from mapping geographical loss (like earlier chapters) to dissecting ontological residue—the profound philosophical implications of what remains *after* the consumption event has concluded."
+  }
+}

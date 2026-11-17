@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 6,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ধাতব কাঠামো ও জলের ফিসফিসানি",
+  "segment_summary": "নদীর বুকে ভেসে আসা কংক্রিটের কাঠামো এবং তার পাশে বয়ে চলা জলের আদিম ধ্বনির মধ্যেকার বৈপরীত্য এখানে চিত্রিত হয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing strictly on the materiality of the imposed structure: describing the specific aggregate, rebar, and type of steel used in the barrier without metaphorical overlay.",
+    "story_option": "A specific section where a maintenance worker from the construction crew mocks the majhi’s old route, treating it with the same patronizing disdain one might reserve for local wildlife.",
+    "subject_rotation": "The conflict framed as a collision between two different understandings of 'ownership': natural custodianship versus sovereign development rights.",
+    "sensory_detail": "The gritty texture of dried silt carried on the undercurrent against the oiled wood of the hull.",
+    "research_question": "What specific Bengali terms describe the local hydrological impact of early dam constructions on deltaic water movement?",
+    "structural_variant": "Alternating between expansive, slow descriptions of the engineered landscape and sharp, kinetic bursts describing the oar cutting through residual freedom.",
+    "variety_note": "Unlike the personal trials in neighboring chapters, this focuses externally—the confrontation is not with a person or debt, but with an immovable, impersonal force of state planning and concrete imposition."
+  }
 }

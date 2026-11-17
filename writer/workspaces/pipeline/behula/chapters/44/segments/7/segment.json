@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় অধ্যায়",
+  "segment_summary": "বেহুলার জীবনকাহিনী ইতিহাসের পাতায় কেবল একটি কাহিনি হিসেবে নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় অধ্যায় রচনা করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing a silent, unborn successor who inherits the weight of this hard-won equilibrium, making the triumph conditional on future integrity.",
+    "story_option": "Setting: The dust motes dancing in the single shaft of light penetrating the chamber; Desire: To name the precise moment when fatigue dissolves into unshakeable resolve; Obstacle: The lingering chill of long privation.",
+    "subject_rotation": "Treating 'Victory' not as an arrival point, but as a fragile, active negotiation with Entropy.",
+    "sensory_detail": "The abrasive texture of worn, time-scarred wood grain beneath their hands during a moment of shared silence.",
+    "research_question": "What specific archaic Bengali vocabulary best denotes a state of 'ferociously maintained stability'—beyond simple equilibrium?",
+    "structural_variant": "Employing a tightly interwoven structure where each segment briefly interrupts the flow of the previous one with an external philosophical query before immediately returning to the core action.",
+    "variety_note": "Unlike preceding chapters which focused on overcoming external societal barriers (like custom or slander), this final set centers on the existential negotiation required to sustain a state of triumph against fundamental forces."
+  }
+}

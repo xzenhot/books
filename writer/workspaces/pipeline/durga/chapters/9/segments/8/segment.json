@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "প্যান্ডেল ও জনসমাগম: সম্মিলিত ভক্তির স্রোত — অংশ 8",
+  "segment_summary": "এই অধ্যায়টি উৎসবের সামাজিক স্কেলকে তুলে ধরে, যেখানে হাজার হাজার মানুষের ভিড় এক সম্মিলিত ভক্তির স্রোত তৈরি করে। প্যান্ডেলগুলি কেবল কাঠামো নয়, বরং মানব আকাঙ্ক্ষা ও বিশ্বাসের এক বিশাল, অস্থায়ী সমাবেশস্থল। চিত্রকল্পে ফুটে ওঠে আলোর ঝলকানি, মানুষের ভিড়ের কোলাহল এবং সেই ভিড়ের মধ্যে নিহিত ব্যক্তিগত আধ্যাত্মিকতার দ্বন্দ্ব। এই অধ্যায়টি প্রশ্ন তোলে: এই বিপুল জনসমাগমের মধ্যে ব্যক্তিগত ভক্তি কি হারিয়ে যায়, নাকি তা আরও শক্তিশালী হয়ে ওঠে?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal monologue contrasting the external clamour with a single, deeply personal moment of silent communion under the 'pandal' structure.",
+    "story_option": "setting: The temporary, brightly lit scaffolding supporting the main idol, desire: To momentarily feel elevated above the fray, to see the entire current of belief at once., obstacle: The inherent fragility and impermanence of the structure itself (the stage setting)., turn: Realizing that the highest point offers not transcendence, but a clearer view of the human struggle below.",
+    "subject_rotation": "Analyzing the crowd not as people, but as a single massive, breathing organism whose rhythm (the ebb and flow) dictates temporary meaning.",
+    "sensory_detail": "The abrasive texture of countless hands brushing past one’s own while navigating the dense throng.",
+    "research_question": "What are specific, evocative Bengali terms for the visual phenomenon where bright artificial lights reflect off thousands of faces simultaneously?",
+    "structural_variant": "Utilizing a call-and-response structure, mimicking chanting, where external noise drives internal meditation.",
+    "variety_note": "This chapter differs by focusing entirely on the *mass* experience—the shared, ephemeral physical space of the pandal—rather than isolated ritual acts or deep personal introspection found in neighbouring chapters."
+  }
+}

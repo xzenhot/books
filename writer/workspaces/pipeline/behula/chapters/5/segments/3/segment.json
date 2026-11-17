@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অবিশ্বাসের শীতল স্পর্শ",
+  "segment_summary": "পারিবারিক অবিশ্বাস এক শীতল আবছায়া ফেলে দিয়েছে, যা তার আত্মবিশ্বাসকে ক্রমাগত ক্ষয় করে চলেছে।",
+  "name": "5.3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on micro-acts of refusal: moments where she internally rejects a whispered slight rather than reacting outwardly, magnifying the power of silent resistance.",
+    "story_option": "Setting: Walking down a narrow passage within the compound; Desire: To merge seamlessly into the background as an anonymous fixture, escaping judgment (turn); Obstacle: A single individual's deliberate lingering gaze.",
+    "subject_rotation": "Using the concept of inherited weariness: How does the weight of past female sorrows within that household compound the immediate struggle?",
+    "sensory_detail": "The taste of dust mixed with unsalted water during midday stillness (Taste).",
+    "research_question": "How can the elevation of personal endurance be framed poetically without becoming self-aggrandizement when depicting resilience?",
+    "structural_variant": "A heavily recursive structure where each segment begins by subtly echoing a word or rhythm from the previous one, creating auditory claustrophobia.",
+    "variety_note": "Unlike the preceding chapters which focused on external assaults (social/familial), this chapter pivots inwards, concentrating on the metabolic cost—the physical and psychological labor required just to maintain her presence amid perceived rivals."
+  }
+}

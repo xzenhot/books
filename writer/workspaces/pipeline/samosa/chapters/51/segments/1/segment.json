@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 51,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সরিষার হলুদ আবেশ",
+  "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার সেই তীব্র, ঝাঁঝালো গন্ধটি যেন এক আদিম স্মৃতির সূচনা করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The oil as a barometer for emotional distance: the viscosity of memory measured by lipid content.",
+    "story_option": "setting: The kitchen counter near a small window, desire: To capture the first *jhal* (sharpness) of freshly heated mustard oil., obstacle: The persistent low hum of an air conditioning unit drowning out the desired soundscape., turn: A momentary surrender to the silence, accepting the muted flavor as the new reality.",
+    "subject_rotation": "Treating the oil as narrative geography: how its composition dictates which cultural map is drawn inside the final product.",
+    "sensory_detail": "The faint coppery tang that only accompanies high-heat sesame/mustard residue, distinct from grease.",
+    "research_question": "What specific archaic Bengali term exists for the 'pungency' derived from wild-sourced cooking oils that surpasses mere chemical descriptors?",
+    "structural_variant": "A highly asymmetrical structure: eight short, almost haiku-like stanzas focusing intensely on single sensory input (sight/smell/touch) before transitioning into one longer, more discursive section.",
+    "variety_note": "Where earlier segments explored the physical act or flavor outcome, this sequence is dedicated almost entirely to the medium itself—the oil—and its failure to be an inert carrier of sensation."
+  }
 }

@@ -1,0 +1,283 @@
+# Chapter model context
+
+## chapter_index
+
+8
+
+## name
+
+8
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+অর্থনৈতিক চাপ চরমে পৌঁছায়
+
+## chapter_summary
+
+এই অধ্যায়টি মাঝির জীবনযাত্রার উপর অর্থনৈতিক চাপের চরম আঘাতকে চিত্রিত করে। নৌকা মেরামত করার জন্য প্রয়োজনীয় কাঠ বা যন্ত্রাংশের দাম আকাশছোঁয়া হয়ে উঠেছে, যা তার ঐতিহ্যবাহী জীবনধারাকে শ্বাসরুদ্ধ করে দিচ্ছে। নদীর মুক্ত প্রবাহের বিপরীতে, বাজারের হিসেবি দাপট এখানে স্পষ্ট হয়ে ওঠে। প্রশ্নটি হলো—যখন টিকে থাকার জন্য প্রতিটি জিনিসের একটি দাম নির্ধারণ করতে হয়, তখন মাঝির নিঃস্বার্থ সেবার মূল্য কোথায়?
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+কাঠের দামের হিসেব
+
+#### segment_summary
+
+নৌকার কাঠ কেনার জন্য মাঝির হৃদয়ে যে আর্থিক দুশ্চিন্তা বাসা বেঁধেছে, তা এই অংশে চিত্রিত হয়েছে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+যন্ত্রাংশের নতুন মূল্য
+
+#### segment_summary
+
+নৌকার যন্ত্রাংশগুলোর দাম বৃদ্ধি কীভাবে তার দৈনন্দিন কাজকে কঠিন করে তুলেছে, তা এখানে ফুটে ওঠে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+বাজারের আগ্রাসন
+
+#### segment_summary
+
+নদীর শান্ত পরিবেশে বাজারের হিসেবি আওয়াজ কীভাবে প্রবেশ করছে, সেই দৃশ্যমান সংঘাত এখানে দেখানো হয়েছে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+ঐতিহ্যের ক্ষয়
+
+#### segment_summary
+
+অর্থনৈতিক চাপ কীভাবে তার প্রাচীন জীবনধারা ও সরলতাকে ধীরে ধীরে ক্ষয় করে দিচ্ছে, তা এই অংশে অনুভব করা যায়।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসহায়তার ভার
+
+#### segment_summary
+
+এই আর্থিক সংকটের কারণে মাঝির উপর যে মানসিক ভার পড়েছে, তা তার ক্লান্ত শরীরে প্রতিফলিত হয়েছে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+নদীর নীরব প্রতিবাদ
+
+#### segment_summary
+
+নদী তার স্বাভাবিক প্রবাহে চলতে থাকলেও, মাঝির ভেতরের সংগ্রাম যেন নদীর নীরব প্রতিবাদ হয়ে উঠছে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্তিত্বের প্রশ্ন
+
+#### segment_summary
+
+এই পরিস্থিতিতে মাঝি নিজেকে প্রশ্ন করে—এই হিসেবি জগতে তার অস্তিত্বের ভিত্তি কী?
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভবিষ্যতের অনিশ্চয়তা
+
+#### segment_summary
+
+অর্থনৈতিক অনিশ্চয়তা মাঝির ভবিষ্যতের উপর এক গভীর ছায়া ফেলেছে, যা তাকে এক কঠিন সন্ধিক্ষণে দাঁড় করিয়েছে।
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- A focus on the *cost* of a single traditional knot; detailing how the specialized rope used for mooring, once common, now carries an exorbitant price tag that undermines his ancient skill.
+- Framing the market's influence not through direct haggling, but through the subtle corruption of local materials—the change in timber density or metal alloy replacing traditional components.
+- Viewing the debt metaphorically as a physical accumulation on his body; the weight settling into his shoulder blades mirroring the mounting financial burden.
+
+### story_options
+
+- Setting: The small, cluttered boat repair yard near the ghat. Desire: To secure one specific piece of aged wood for restoration. Obstacle: A buyer demands a price only available through outside commercial channels that bypass river communities. Turn: He must decide whether to take a quick job paying unfairly or risk delay.
+- Setting: Under the eaves of his hut, late at night. Desire: To calculate precisely how many more journeys he can afford before insolvency strikes. Obstacle: His calculation is disrupted by a sudden noise from the river—a distant engine replacing the familiar creak of old boats. Turn: The sound forces him to confront not just money, but irrecoverable silence.
+- Setting: Standing at the dock looking out over the water where modern goods are being unloaded via mechanized port facilities. Desire: To find a path that honors both his craft and current necessity. Obstacle: Every potential 'new' job requires abandoning the quiet, self-directed nature of riverside ferrying. Turn: He sees another boatman, younger, using newer, faster, but fundamentally less personal equipment.
+
+### subject_rotations
+
+- Treating economic pressure as a form of ecological erosion—how financial necessity forces him to accept cheaper, more destructive substitutes for traditional materials.
+- Focusing on the psychological effect of 'scheduled' time versus river time; how money imposes rigid timetables that clash with the ebb and flow of nature.
+- An internal monologue where he contrasts the perceived generosity of his past services against the current reality where even a simple ride is anticipated to be priced.
+
+### sensory_details
+
+- The abrasive grit of cheap, milled wood filings settling in the cracks of his calloused hands.
+- The high-pitched whine of distant machinery cutting through the usual low thrum of insect life by the bank.
+- The dryness and brittle quality of the old leather fittings on his boat that suddenly feel too fragile to bear weight.
+
+### research_questions
+
+- What are specific, localized dialects or phrases used in this region to express severe financial strain beyond simple monetary terms?
+- How does the community respond when a long-standing traditional service (like his) becomes economically unsustainable? Is there resentment or quiet understanding?
+
+### structural_variants
+
+- A cyclical structure where each segment begins and ends with an observation of the water's surface, reflecting the mood cycle.
+- Structuring segments around specific components: one for hull/wood, one for rigging/rope, one for motor/engine parts (if he considers upgrading), forcing a taxonomy of his vulnerability.
+
+### unused_angles
+
+- The potential moral dilemma if he were to subtly overcharge the wealthy passengers merely to cover immediate material costs.
+- How the memory of a specific past generosity—a time when service was free—serves as a tangible, almost painful, counter-image to current invoices.
+
+### variety_note
+
+Where previous chapters have focused on external conflicts (bridges, weather), this chapter turns inward and downward, dealing solely with the material weight of commerce pressing upon his livelihood.

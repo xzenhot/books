@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অনুবাদিত স্বাদের যন্ত্রণা",
+  "segment_summary": "এই স্বাদটি কখনও তার আদি রূপ ফিরে পাবে না, এটি চিরকাল একটি 'অনুবাদিত' বা আংশিক অভিজ্ঞতার প্রতীক হয়েই থেকে যাবে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the residual emptiness not as absence, but as a dense, almost black substance holding compressed memory.",
+    "story_option": "The 'I' personifies the lingering flavor as a ghost haunting the empty stomach after the meal is done; Desire: For this spectral taste to speak one definitive word about home; Obstacle: It only manages muffled sounds of old Bengali dialects.",
+    "subject_rotation": "Shifting focus from the consumption act to the preparation—how perfection in the making guarantees a flaw in the remembering.",
+    "sensory_detail": "The slight, almost painful ache in the jaw muscles from over-chewing a phantom flavor.",
+    "research_question": "How can I integrate high diction (তৎসম) with low-register hunger/craving without letting either tone overpower the nuanced sweetness of melancholy?",
+    "structural_variant": "Alternating between highly detailed descriptions of the empty mouth (internal) and vast, anonymous landscapes (external setting where the speaker resides).",
+    "variety_note": "This chapter contrasts sharply with discussions of market chaos (Neighbour 1/2) by retreating entirely inward, focusing on the post-consumption void rather than the sensory input during eating. It leans into philosophical resonance over narrative action."
+  }
+}

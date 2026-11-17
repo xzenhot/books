@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অপ্রাপ্তির অনুরণন",
+  "segment_summary": "সামোসাটির স্বাদ যখন পুরোপুরি পাওয়া যায় না, তখন তার একটি অস্পষ্ট, কিন্তু গভীর অনুরণন হৃদয়ে অনুরণিত হতে থাকে, যা এক মধুর বিষাদের জন্ম দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating language itself: treating 'taste' not as a flavor, but as a failed linguistic translation from one cultural code to another.",
+    "story_option": "The moment just after swallowing: describing the physical sensation in the throat/esophagus as if absorbing not food, but displaced geography.",
+    "subject_rotation": "Treating the 'unfulfilled' nature not as melancholy, but as perpetual *potential*—the possibility always waiting for its correct catalyst.",
+    "sensory_detail": "The feeling of fine, dry powder adhering to the inner palate—the particulate residue of memory.",
+    "research_question": "What precise Bengali word captures a residual taste that exists beyond simple presence or absence?",
+    "structural_variant": "A highly fragmented poem, where each segment begins with an entirely different physical action (e.g., breathing out slowly, staring at a patch of light).",
+    "variety_note": "This chapter deepens the philosophical tension begun earlier by focusing entirely on the state *after* consumption—the residue, the void, and the internal debate about taste's nature."
+  }
+}

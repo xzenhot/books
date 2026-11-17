@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্মৃতি বনাম বাস্তবতা",
+  "segment_summary": "বাস্তবতার কঠোরতা এবং স্মৃতির নরম, উষ্ণ আবহের মধ্যেকার সংঘাত এখানে তীব্র হবে, যেখানে গন্ধটি হলো সেই সেতু যা ভেঙে যাচ্ছে।",
+  "name": "6",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating the silence *between* the scent notes: where is the unspoken history embedded if the dominant note fails to appear?",
+    "story_option": "The 'I' holds a piece of dry dough, examining it under harsh light. The scent potential exists but cannot manifest fully—a perfect structure awaiting an unavailable catalyst (Setting: A sterile counter; Desire: For the molecular perfection to bloom; Obstacle: Inertia and foreign air quality; Turn: A moment where the desire itself becomes bitter).",
+    "subject_rotation": "Shifting the narrative focus from the 'I' perceiving the scent, to the scent itself possessing agency—it actively rejects its new environment.",
+    "sensory_detail": "The way artificial light catches the residue of ghost scent on surfaces, making absence visually tangible; (Sight)",
+    "research_question": "How can the cadence and rhythm mimic the physiological action of deep inhalation and subsequent dispersal?",
+    "structural_variant": "A structure based on sensory deconstruction: first analyzing 'what' is smelled, then 'how' the brain processes it, finally what emotion remains.",
+    "variety_note": "Unlike adjacent chapters that focus on the ingredients (oil, potato) or the cultural transition, this chapter isolates the *mechanism* of sensory recall itself—the bridge between chemistry and soul."
+  }
+}

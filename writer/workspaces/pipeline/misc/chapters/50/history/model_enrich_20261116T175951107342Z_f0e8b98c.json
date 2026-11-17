@@ -1,0 +1,81 @@
+{
+  "chapter_index": 50,
+  "name": "50",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This concluding chapter synthesizes the myriad small observations—from the sweat on a chai glass to the trace of vermilion—into a final, expansive inquiry. It confronts the tension between the intensely particular, fleeting moments and the concept of a unified 'India.' The imagery shifts from isolated objects to the cumulative weight of these tiny human acts. The central, unresolved question remains: Do these fragile, momentary glimpses coalesce into a stable, enduring national essence, or are they merely a beautiful, transient scattering of instants?",
+  "further_references": [
+    "misc — পর্ব 1",
+    "misc — পর্ব 3",
+    "misc — পর্ব 14"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "ঘামের প্রতিধ্বনি",
+      "segment_summary": "The poem begins by recalling the visceral image of the railway platform's sweating chai glass, establishing the theme of transient intensity.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "সিঁদুরের রেখা",
+      "segment_summary": "It then juxtaposes this fleeting moisture with the permanent, yet fragile, line of vermilion marking a domestic threshold.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "নীরবতার ওজন",
+      "segment_summary": "The focus moves to the unspoken language shared within a stationary bus, where silence itself becomes a palpable form of communication.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "শ্রমের ভাঁজ",
+      "segment_summary": "The poem examines the folded hands of the early-morning vendor, recognizing the dignity embedded in unseen, foundational labor.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অচেনা সংযোগ",
+      "segment_summary": "It explores the subtle chemical bond formed by the paan leaf and its spices, representing a micro-ritual of social exchange.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আলোর শেষ আশ্রয়",
+      "segment_summary": "The image of the earthen lamp at dusk is invoked, symbolizing the universal human yearning for shelter against encroaching darkness.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "সমষ্টির জিজ্ঞাসা",
+      "segment_summary": "This segment poses the core philosophical question: can these disparate, observed moments be aggregated into a cohesive national narrative?",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "স্থায়িত্ব বনাম মুহূর্ত",
+      "segment_summary": "The final lines linger on the ambiguity, suggesting that the 'India' might only exist in the tender, fragile space between one breath and the next.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

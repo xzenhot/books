@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন অস্তিত্বের প্রশ্ন",
+  "segment_summary": "চূড়ান্ত দার্শনিক প্রশ্নটি উত্থাপিত হয়: এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the *taste* of the aftermath: metallic tang from residual ritual materials mixed with mundane day smells.",
+    "story_option": "Setting: A single, untended brass lamp (diya) left outside a home after all celebrations; Desire: To reignite it with personal will despite lack of ritual impetus; Obstacle: Cold dew and accumulated dust muffling its flame.",
+    "subject_rotation": "Reinterpreting the cycle not as a loop, but as an *accumulation*—each year’s ritual imparts a subtle, permanent shift in human perception.",
+    "sensory_detail": "The scent of crushed autumn leaves mixed with residual camphor smoke (smell).",
+    "research_question": "How can the diction evoke both the archaic grandeur of Sanskrit influence and the jarring vernacular intimacy required by the mandates?",
+    "structural_variant": "An episodic structure, where each segment is a rapid-fire montage of sensory residue rather than a continuous philosophical argument.",
+    "variety_note": "This chapter deliberately pivots from external spectacle (neighbors 9, 10) and peak action (neighbor 5/8) into a terrain of quiet residue, where absence becomes the primary subject matter; it leans heavily on introspection mandated by Segment 6."
+  }
+}

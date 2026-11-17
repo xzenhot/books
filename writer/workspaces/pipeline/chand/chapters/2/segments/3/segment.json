@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "সাধারণ বস্তুর পবিত্রীকরণ",
+  "segment_summary": "এই আলো সাধারণ বস্তুর—যেমন একটি ফেলে রাখা কাপ বা একটি শুকনো পাতার—উপস্থিতিতে এক মহাজাগতিক তাৎপর্য আরোপ করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "সাধারণ কাপ বা শুকনো পাতার বস্তুর মাধ্যমে কবির ভেতরের ভঙ্গুরতা ও মহাজাগতিক স্ফূর্তির মধ্যেকার সংঘাত দেখানো।",
+    "story_option": "টিনের চাল থেকে আসা ধাতব প্রতিধ্বনি হঠাৎ করেই একটি পরিচিত, চাপা কণ্ঠস্বরকে মনে করিয়ে দেয়, যা কবির বর্তমান শান্তির ধারণাকে চ্যালেঞ্জ করে দেয়।",
+    "subject_rotation": "এই দৃশ্যটিকে কেবল একটি ল্যান্ডস্কেপ হিসেবে নয়, বরং মনের ভেতরের এক 'আহ্বান' হিসেবে চিত্রিত করা, যেখানে নীরবতা আসলে একটি শক্তিশালী বার্তা বহন করছে।",
+    "sensory_detail": "ধাতব টিনের শীতল স্পর্শে আঙুলের ত্বকের সামান্য অসাড়তা অনুভব করা।",
+    "research_question": "এই ধরনের পুরানো টিনের চালের ধাতব পৃষ্ঠে চন্দ্রালোকে প্রতিফলিত আলোর রঙ এবং তীব্রতা কেমন হতে পারে?",
+    "structural_variant": "একটি দীর্ঘ, ধ্যানমূলক বর্ণনা যেখানে আলো স্থির থাকে, যেন সময় থেমে গেছে।",
+    "variety_note": "Neighbours often focus on external movement or past events; this chapter drills deep into the static, almost sacred qualities of light interacting with mundane urban texture."
+  }
+}

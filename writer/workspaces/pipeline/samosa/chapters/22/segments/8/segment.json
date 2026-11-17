@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অনন্ত অনুরণন",
+  "segment_summary": "এই কাব্যটি সেই স্বাদটির একটি অস্পষ্ট, কিন্তু গভীর অনুরণন দিয়ে শেষ হয়, যা সম্পূর্ণরূপে পাওয়া যায়নি, কিন্তু হৃদয়ে চিরকাল বেঁচে থাকবে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Employing the concrete image of an oven door left slightly cracked open—a threshold between past and present heat.",
+    "story_option": "Setting: Standing against a blank, whitewashed wall in the new dwelling; Desire: To project the *heat* (আঁচ) of the original frying pan onto this cold expanse; Obstacle: The inherent indifference of modern architecture to visceral memory.",
+    "subject_rotation": "Examining the 'zero point' moment after eating where objective reality seems suspended by nostalgic longing.",
+    "sensory_detail": "Sound: The barely audible internal echo of crushing spices in an empty tin after the food is gone.",
+    "research_question": "What specific image from the declared world best encapsulates existential tension remaining after sensory satiation?",
+    "structural_variant": "Alternating between very dense, highly Sanskritized couplets (describing the lost flavor) and extremely colloquial, monosyllabic lines (describing the immediate physical aftermath).",
+    "variety_note": "This chapter deliberately eschews overt description of setting or action, focusing intensely on the internal residue—the aftermath of consumption and its philosophical implications."
+  }
+}

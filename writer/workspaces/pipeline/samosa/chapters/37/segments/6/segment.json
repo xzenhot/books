@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 37,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক ও মানবিক বিভাজন",
+  "segment_summary": "এই অধ্যায়টি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে না দেখে, এটিকে গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ হিসেবে প্রতিষ্ঠা করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the search for flavor not as nostalgic yearning, but as a desperate cartographic attempt—mapping intangible terroir onto concrete foreign geography.",
+    "story_option": "Setting: A high-speed journey past blurred industrial landscapes, Desire: To project the entire memory/taste onto the passing visual blur until the form breaks down into pure chromatic sensation., Obstacle: The relentless, indifferent speed of modern transit.",
+    "subject_rotation": "Exploring the taste decay through an anthropological lens—how does 'exile-taste' become its own distinct culinary anthropology?",
+    "sensory_detail": "The phantom warmth radiating from an empty vessel that was recently hot.",
+    "research_question": "How can the required 10-word line structure be used rhythmically to mimic flavor saturation followed by rapid dissipation?",
+    "structural_variant": "Structuring the 8 segments not linearly, but as an echo chamber where Segment 1’s image is revisited in Segment 5 with altered diction.",
+    "variety_note": "Unlike previous chapters which focused on the material transfer or geographical shift, this chapter zeroes in entirely on the internal, post-ingestion phenomenology—the residue within consciousness itself."
+  }
+}

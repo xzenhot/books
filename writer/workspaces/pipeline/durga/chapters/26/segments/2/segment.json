@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "The Lingering Scent of Autumn",
+  "segment_summary": "The sensory memory of the festival—the damp earth, the shiouli fragrance, the residual red of sindoor—persists long after the festivities conclude.",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting light dynamic: Beginning with the cold, fading twilight after immersion (dark/night mood) and resolving into a fragile, internalized dawn-like spiritual clarity within the self (light/morning mood).",
+    "story_option": "The poet wandering through deserted *প্যান্ডেল* structures in the deep night, hearing phantom echoes of the *ঢাকের বোল* (Setting), desperate to capture one precise resonance that proves the rhythm hasn't vanished (Desire), only to find silence punctuated by mundane urban sounds (Obstacle/Turn).",
+    "subject_rotation": "The tension between public declaration ('It will return') vs. private uncertainty (the philosophical doubt surviving the ritual).",
+    "sensory_detail": "Touch: The gritty texture left on clothing by dried river silt that seems resistant to washing out.",
+    "research_question": "How can I convey the shift from chaotic external noise (festival) to disciplined internal silence (reflection) using language that respects both high diction and colloquial resignation?",
+    "structural_variant": "Alternating between the first-person devotee ('I') describing external signs (water, scent) and third-person detached analysis of human behaviour during those moments.",
+    "variety_note": "This chapter avoids large crowd scenes, focusing instead on deeply intimate aftermaths: the water, the scent trail, and the internal landscape of anticipation, offering a quiet counterpoint to earlier descriptions of grand societal gatherings."
+  }
+}

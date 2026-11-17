@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অনন্ত অপেক্ষার প্রতিধ্বনি",
+  "segment_summary": "সেই নিখুঁত আদি সিঙ্গাড়া-র জন্য যে অনন্ত অপেক্ষা, তা এই অধ্যায়ে একটি স্থির কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক হিসেবে উপস্থাপিত হয়েছে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the somatic memory: Treating the lingering taste/texture not as a flavor profile but as a specific muscular ache in the tongue.",
+    "story_option": "Setting: A dimly lit counter where a modern vendor serves generalized 'samosas'; Desire: To force the vendor to recall the specific, ancestral recipe; Obstacle: The vendor operates only on mass production metrics.",
+    "subject_rotation": "Treating the cyclical nature (the 'litany' seed) as a ritualistic mantra that starts and ends identically.",
+    "sensory_detail": "Sight: The faint ochre stain left by old turmeric spice deep within ceramic kitchenware (কড়াই).",
+    "research_question": "What precise Bengali term exists that conveys 'a flavour that simultaneously tastes like something familiar and something fundamentally foreign'? (To inform diction choice)",
+    "structural_variant": "A structure based on extreme sensory oscillation: rapid shifts from heightened memory recall to stark present reality observation within consecutive stanzas.",
+    "variety_note": "This chapter leans heavily into abstraction and introspection, contrasting with previous chapters which may have been more grounded in street-level observation or material friction."
+  }
+}

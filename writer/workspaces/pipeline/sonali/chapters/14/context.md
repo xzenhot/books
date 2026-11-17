@@ -1,0 +1,280 @@
+# Chapter model context
+
+## chapter_index
+
+14
+
+## name
+
+14
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+মুক্তি বা আত্মসমর্পণ?
+
+## chapter_summary
+
+এই অধ্যায়টি সোনালী-র অস্তিত্বের এক চরম সন্ধিক্ষণকে চিত্রিত করে, যেখানে তীব্র আত্ম-অনুভূতি এবং জাগতিক সীমাবদ্ধতার মধ্যে এক গভীর দ্বন্দ্ব বিরাজ করে। সে সিদ্ধান্ত নিতে বাধ্য হয়—এই স্বর্গীয় অনুভূতিগুলোকে ধরে রাখার জন্য সংগ্রাম করবে, নাকি সেগুলোকে প্রকৃতির বিশাল স্রোতে নিঃশর্তভাবে ভাসিয়ে দেবে। এই দ্বিধা তার কাব্যিক যাত্রার মোড় ঘুরিয়ে দেয়, যেখানে আকাঙ্ক্ষা এবং মুক্তির পথ পরস্পরবিরোধী হয়ে ওঠে। প্রশ্নটি হলো: চরম অভিজ্ঞতার প্রতি আসক্তি কি আত্ম-ধ্বংসের দিকে নিয়ে যায়, নাকি এটিই পরম সত্যের একমাত্র পথ?
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+সংগ্রামের প্রান্তরে
+
+#### segment_summary
+
+সোনালী তার ভেতরের তীব্র আকাঙ্ক্ষাগুলোকে আঁকড়ে ধরার চেষ্টা করে, যেন সে কোনো ভঙ্গুর, কিন্তু মূল্যবান কাঁচের পাত্রকে ধরে রেখেছে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রবাহের আহ্বান
+
+#### segment_summary
+
+অন্যদিকে, সে অনুভব করে যে এই বন্ধনগুলো আসলে মুক্তি নয়, বরং এক প্রকার কৃত্রিম কারাগার, যা তাকে প্রকৃতির স্বাভাবিক প্রবাহে মিশে যেতে আহ্বান জানাচ্ছে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+আঁকড়ে ধরার ভার
+
+#### segment_summary
+
+এই ধরে রাখার প্রচেষ্টা শারীরিক ও মানসিক উভয় ক্ষেত্রেই এক চরম ক্লান্তি নিয়ে আসে, যা তার মধ্যবয়সের অভিজ্ঞতার ভারকে আরও প্রকট করে তোলে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+ছাড়ার স্বাধীনতা
+
+#### segment_summary
+
+মুক্তি মানে কেবল ছেড়ে দেওয়া নয়, বরং সেই ছেড়ে দেওয়ার মধ্যে এক নতুন ধরনের গভীর শান্তি খুঁজে পাওয়া, যা ধারণ করার চেষ্টায় পাওয়া যায় না।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্রোতের আত্মসমর্পণ
+
+#### segment_summary
+
+সোনালী যখন নিজেকে স্রোতের हवाले করে, তখন তার শরীর ও মন এক অদ্ভুত সামঞ্জস্য লাভ করে, যেখানে প্রতিরোধ করার কোনো প্রয়োজন থাকে না।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+বিভ্রমের সমাপ্তি?
+
+#### segment_summary
+
+এই আত্মসমর্পণের মুহূর্তে, স্বর্গীয় বিভ্রমটি কি সত্যিই বিলীন হয়ে যায়, নাকি তা আরও গভীর, অপ্রকাশিত রূপে রূপান্তরিত হয়?
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+নতুন দিগন্তের জিজ্ঞাসা
+
+#### segment_summary
+
+এই সিদ্ধান্ত তাকে এক নতুন দার্শনিক জিজ্ঞাসা দেয়—মুক্তি কি কেবল একটি গন্তব্য, নাকি এটি নিজেই একটি চলমান প্রক্রিয়া?
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনন্তের প্রতিধ্বনি
+
+#### segment_summary
+
+চূড়ান্তভাবে, সোনালী কোনো উত্তর খুঁজে না পেলেও, তার অস্তিত্ব সেই অনন্ত জিজ্ঞাসার প্রতিধ্বনি হয়ে ওঠে, যা পাঠককে ভাবায়।
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- Focusing the central conflict entirely through one concrete image—the fragile skin of her hand trying to grasp a slipping current.
+- Treating the struggle not as an internal choice, but as a confrontation with external elements (e.g., wind vs. anchor).
+- Framing the internal debate as a specific dialectic between 'Retention' (ধারণ) and 'Dissolution' (বিলুপ্তি), using material metaphors from their declared world.
+
+### story_options
+
+- Setting: A high, windy balcony overlooking distant fields; Desire: To feel her physical self pushed to its limit by the breeze, forcing surrender.
+- Setting: Beside an old river sluice gate that slowly opens and closes; Desire: To synchronize her internal rhythm with the slow, unstoppable mechanical process of release.
+- Setting: At a specific hour when sunlight perfectly bisects through dense foliage; Obstacle: The light seems to demand she either absorb it completely or let it pass through untouched.
+
+### subject_rotations
+
+- Analyzing 'Attachment' (আঁকড়ে ধরা) not as possessiveness, but as a form of self-definition that must be tested against dissolution.
+- Revisiting the concept of 'Sonal Rang'—is it the clinging to the color, or is relinquishing it the only way for the true color to appear?
+- Exploring the paradox: Is perfect stasis (holding on) a greater form of prison than dynamic change (flowing away)?
+
+### sensory_details
+
+- The faint chill of damp earth rising up through her feet as she stands at a threshold.
+- The abrasive texture of rough-spun jute against her bare wrist during moments of desperate restraint.
+
+### research_questions
+
+- What specific metaphor in Bengali poetry represents the necessary tension between holding on and letting go?
+- How can 'mid-level age' be conveyed through physical exhaustion related to emotional exertion rather than chronological markers?
+
+### structural_variants
+
+- Emphasize rhythmic breakdown: using very long, sweeping lines for the pull of the flow (Item 2/5), contrasted sharply with tightly constrained, almost claustrophobic couplets during the act of holding on (Item 1/3).
+
+### unused_angles
+
+- Exploring the societal judgment that views clinging to bliss as mere vanity, contrasting it with her profound existence.
+
+### variety_note
+
+This chapter moves beyond simple internal reflection by providing concrete anchors—the physical feeling of resistance versus surrender—which differentiates its tone from neighboring chapters dealing solely with abstract thematic discovery.

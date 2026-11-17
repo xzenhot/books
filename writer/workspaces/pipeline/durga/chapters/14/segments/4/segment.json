@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ছোট্ট বিজয়",
+  "segment_summary": "যখন কোনো ব্যক্তি নিজের দুর্বলতা অতিক্রম করে, সেই মুহূর্তটিই হলো ব্যক্তিগত স্তরে মহিষাসুর বধের এক নীরব ঘোষণা।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the voice of a memory (the absent woman addressed in Segment 8), asking if her quiet internal struggles mirror Durga's cosmic fight.",
+    "story_option": "Setting: A cramped domestic space at dawn, Desire: To find courage to speak a difficult truth to a loved one; Obstacle: Years of ingrained silence.",
+    "subject_rotation": "Shifting emphasis from 'victor' to 'endurer'—celebrating the act of continuous wrestling rather than the singular moment of triumph.",
+    "sensory_detail": "The specific abrasive feel of cheap woven fabric against skin during a long day of effort.",
+    "research_question": "Are there specific contemporary concepts within modern Bengali philosophy that bridge personal ethics and cosmic cycles?",
+    "structural_variant": "Alternating between narrative flashback (the grand festival memory) and immediate sensory present (the daily struggle).",
+    "variety_note": "This chapter consciously shifts the focus entirely from communal spectacle to intense introspection; its language must be granular and painfully specific, unlike the grander sweep of earlier festival narratives."
+  }
+}

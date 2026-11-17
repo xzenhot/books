@@ -10,29 +10,224 @@
 
 ## word_target
 
-280
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-হিজল-তমালের ছায়ায় প্রকৃতির সান্ত্বনা
+behula — পর্ব 15 — behula
 
 ## chapter_summary
 
-বাংলার শ্যামল নিসর্গ, কলমি ফুল ও গাঙচিলের ওড়াউড়ির মাঝে একাকিত্বের সান্ত্বনা। প্রকৃতি যেন নীরব মাতৃত্ব নিয়ে ঘিরে রাখে এই ব্রতকে।
+এই চূড়ান্ত পর্বটি বেহুলার সমস্ত প্রতিকূলতা জয় করে স্বামীর প্রত্যাবর্তনকে কেন্দ্র করে আবর্তিত। এটি কেবল একটি ব্যক্তিগত বিজয় নয়, বরং মানব আত্মার চরমতম 승리 হিসেবে চিত্রিত হয়। এই মহৎ পরিণতি তাকে এক অবিস্মরণীয় মহীয়সী রূপে প্রতিষ্ঠিত করে, যেখানে তার অদম্য সংকল্পের চূড়ান্ত ফল প্রকাশিত হয়। প্রশ্নটি হলো—এই বিজয় কি কেবল ব্যক্তিগত মহিমা, নাকি এটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব, শক্তিশালী অভিযোগ?
 
 ## further_references
 
+- references.md
+
+## segments
+
 ### Item 1
 
-#### no
+#### segment_index
 
 1
 
-#### reference
+#### name
 
-Symbolism of Hijal and Tamal trees in Bengali pastoral poetry.
+1
 
-#### weblink
+#### word_target
+
+500
+
+#### segment_title
+
+বিজয়ীর প্রত্যাবর্তন
+
+#### segment_summary
+
+সমস্ত প্রতিকূলতার পর, বেহুলার জীবনে স্বামীর প্রত্যাবর্তন ঘটে, যা দীর্ঘ প্রতীক্ষার সমাপ্তি ঘটায়।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মার চূড়ান্ত 승리
+
+#### segment_summary
+
+এই প্রত্যাবর্তন কেবল শারীরিক মিলন নয়, বরং মানব আত্মার সেই আদিম স্পন্দনের চূড়ান্ত বিজয়কে প্রতীকায়িত করে যা সকল অন্ধকারের মোকাবিলা করে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+মহীয়সী রূপান্তর
+
+#### segment_summary
+
+প্রতিটি বাধা অতিক্রম করার মাধ্যমে বেহুলার চরিত্র এক মহৎ নারীত্বের প্রতীক হয়ে ওঠে, যা তার সহিষ্ণুতা ও দৃঢ়তার সাক্ষ্য বহন করে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+অবিস্মরণীয় অধ্যায়
+
+#### segment_summary
+
+তার জীবনকাহিনী কেবল ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় ও শক্তিশালী অধ্যায় রচনা করে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+আলোর শিখার স্থায়িত্ব
+
+#### segment_summary
+
+অগ্নির দীপশিখা, যা বহুবার নিভে যাওয়ার উপক্রম হয়েছিল, তা এই চূড়ান্ত মুহূর্তে আরও উজ্জ্বল ও অপ্রতিরোধ্য হয়ে ওঠে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+নীরব অভিযোগের প্রতিধ্বনি
+
+#### segment_summary
+
+এই বিজয় সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগের সুর বজায় রাখে, যা পাঠকের মনে প্রশ্ন জাগায়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+ট্র্যাজেডি থেকে প্রেরণা
+
+#### segment_summary
+
+ব্যক্তিগত ট্র্যাজেডি কীভাবে সমষ্টিগত প্রেরণা হয়ে ওঠে, সেই রূপান্তরের চূড়ান্ত চিত্র এই পর্বে প্রতিফলিত হয়।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অদম্য সংকল্পের মহিমা
+
+#### segment_summary
+
+বেহুলার যাত্রা প্রমাণ করে যে ভেতরের আলোকবর্তিকা বাইরের সমস্ত অন্ধকারের চেয়েও শক্তিশালী হতে পারে।
+
+#### further_references
 
 
 ## level
@@ -41,98 +236,49 @@ chapter
 
 ## state
 
-completed
-
-## segments
-
-- 1
+scaffolded
 
 ## creative_enrichment
 
 ### angles
 
-- The nature of solace found in indifferent beauty: Can nature truly console suffering if it remains utterly impassive to the personal tragedy?
-- Mapping resilience onto botanical endurance: Treating the resilience of the Hijal and Tamal trees as a metaphor for rooted, enduring faith despite external forces.
-- Shifting focus from 'consolation' (a passive reception) to active 'integration': How does she incorporate nature’s presence into her struggle rather than merely receiving comfort from it?
+- বিজয়কে 'পূনঃস্থাপন' হিসেবে দেখা, যেখানে সম্পর্কটি ফিরে আসে কিন্তু আগের মতো সরল বা ত্রুটিমুক্ত নয়; এটি অতীত ট্রমার সাথে এক নতুন সংমিশণ।
+- সমাজের স্বীকৃতির অনুপস্থিতিকে মেনে নিয়েও অভ্যন্তরীণভাবে নিজের সত্য প্রতিষ্ঠা করা—একটি সম্পূর্ণ স্ব-সৃষ্ট মহিমা অর্জন।
+- বিজয়ী হওয়ার পরের মুহূর্তের নিস্তব্ধতাকে 'জ্যোতির্বিদ্যাগত স্থিতাবস্থা' হিসেবে চিত্রিত করা, যেখানে গতি থেমে গেলেও শক্তির আবর্তন অব্যাহত থাকে।
 
 ### story_options
 
-- Setting: Beneath the canopy of Hijal and Tamal near a slow-moving backwater; Desire: To identify a specific, resilient plant or insect that seems to possess an internal battle mirroring her own endurance; Obstacle: The overwhelming sense of timelessness that mocks momentary human pain; Turn: A sudden shift in light, momentarily illuminating her shadow as distinct from the trees.
-- Setting: Along a stretch of river edge where wild water lilies (kolmi) cluster densely; Desire: To trace the pattern of their unfurling petals, seeing it as an unconscious echo of devotional expansion or desperate bloom; Obstacle: The relentless sound of migrating birds whose calls are too joyous for her current sorrow; Turn: She intentionally disrupts the perfect symmetry of a lily pad with her own hand.
-- Setting: At dusk, watching the silhouette of a lone kingfisher diving into the darkening water nearby; Desire: To interpret the bird's swift trajectory as a deliberate act of focus—a singular purpose breaking through atmospheric density; Obstacle: The lingering coldness creeping up from the mud banks that refuses to dissipate; Turn: She recognizes this focused flight not as escape, but as perfect self-definition.
+- setting: প্রত্যাবর্তনের পরবর্তী সকালের শান্ত, কুয়াশাচ্ছন্ন প্রাঙ্গণ; desire: বেহুলার হাতে থাকা একটি ক্ষুদ্র, প্রাচীন তাম্রপাত্র (যা সময়ের ভার বহন করে) লখিন্দরকে দেওয়া—যেন তা সমগ্র সংগ্রামকে সংক্ষেপে ধারণ করে।
+- setting: সেই স্থান যেখানে প্রথমবার বিচ্ছেদ ঘটেছিল; desire: দুজনের দেহের স্পর্শে এমন এক সূক্ষ্ম 'কম্পন' অনুভব করা যা কেবল বহু বছরের অস্তিত্বগত যন্ত্রণা জমা হওয়ার পর মুক্তি পায়।
+- setting: একটি নির্জন ঘাট, নদীর স্রোতের দিকে মুখ করে; desire: তারা দুজনেই কোনো শব্দ না করে একে অপরের নীরবতাকে গ্রহণ করে—যেন তাদের সম্মিলিত নিঃশ্বাসই চূড়ান্ত ঘোষণা।
 
 ### subject_rotations
 
-- Treating nature's silence not as maternal comfort, but as an immense, overwhelming indifference—a mirror to a universe that does not care for individual sorrow.
-- Focusing the 'santosona' (consolation) strictly on sensory immersion: The act of *being* within the environment rather than interpreting it metaphysically.
-- Interrogating the boundary between natural beauty and imposed spiritual order—Is this solace a gift, or merely another demanding form of devotion?
+- কেন্দ্রীয় ফোকাস ট্র্যাজেডি থেকে সরিয়ে 'প্রতিরোধ' (Resistance) এর ওপর রাখা, অর্থাৎ সংগ্রামটি নিজেই চূড়ান্ত সত্য।
+- প্রেমকে শুধুমাত্র ব্যক্তিগত আবেগ হিসেবে না দেখে, একটি 'অস্তিত্বগত শক্তির বিনিময় প্রক্রিয়া' রূপে বিশ্লেষণ করা যা সমাজ বা দেবতা দ্বারা নিয়ন্ত্রিত হয় না।
+- বিজয়ীর ভূমিকাকে চ্যালেঞ্জ করে দেখানো—যে হয়তো এই বিজয় কোনো স্থায়ী সুখ আনেনি, বরং এক গভীর দার্শনিক প্রশ্ন রেখে গেছে।
 
 ### sensory_details
 
-- The sticky dampness adhering to the skin where she leans against the rough bark of the Tamal tree (touch).
-- The cloying, humid scent rising from the saturated earth beneath the lotus leaves after a brief respite from the sun (smell).
-- The specific pattern of sunlight fracturing through dense foliage onto the water surface, creating momentary, shifting coins of gold (sight).
+- Touch: বহু কষ্টের পর ত্বকের ওপর দিয়ে বয়ে যাওয়া এমন এক শীতলতা যা বরফের নয়, বরং দীর্ঘ প্রতীক্ষার স্থায়িত্বের সাক্ষ্য বহন করে।
+- Smell: প্রাচীন পাথরের গুঁড়ো আর সদ্য সৃষ্ট বিদ্যুৎ-ঝড়ের মিশ্রিত সূক্ষ্ম সুবাস, যা তীব্র আবেগের বহিঃপ্রকাশ ঘটায়।
+- Sound: পুনরায় ছন্দ খুঁজে পাওয়া হৃদস্পন্দনের মধ্য দিয়ে আসা অতি ক্ষীণ 'কম্পন' ধ্বনি—যা কেবল আত্মিক উপলব্ধির দ্বারেই শোনা যায়।
 
 ### research_questions
 
-- In Bengali poetic lexicon, what precise word conveys 'solace achieved through endurance' rather than mere comfort?
-- Are there localized riverine myths involving Hijal or Tamal trees that could inform the symbolic weight beyond generalized nature imagery?
-- How can the sounds of specific Bengal avifauna (beyond general bird calls) be used to create a sense of complex, yet unresolved auditory texture?
+- কবিতায় কীভাবে 'সুখকর প্রত্যাবর্তন' এবং 'কষ্টের মাধ্যমে অর্জিত অস্তিত্বগত বৈধতা'-র মধ্যে পার্থক্য নির্ণয় করা যায়, যাতে কোনোটিই অন্যটিকে বাতিল না করে?
+- প্রতীক্ষার পর প্রাপ্তিতে যে সূক্ষ্মতম পরিবর্তন আসে—যেমন সম্পর্কের গভীরতা বা প্রকৃতির প্রতি দৃষ্টিভঙ্গি—সেটির কাব্যিক ভাষা কী হতে পারে?
 
 ### structural_variants
 
-- A mosaic structure: alternating between incredibly short vignettes focused solely on one sensory element from nature, broken by single lines of internal reflection.
-- An accretion structure: each segment builds slightly upon the last not chronologically, but conceptually—layering the weight of the trees onto the depth of the water.
-- Circular form: beginning and ending with a visual focus on the Kolmi flower, suggesting that even in respite, return is inevitable.
+- কবিতা শুরু হবে একটি দীর্ঘ, দ্বিধাবিভক্ত শ্বাস-প্রশ্বাসের চিত্রণ দিয়ে যা মুক্তির মুহূর্তেও শেষ হয়নি।
+- মধ্যভাগকে একাধিক ছোট 'স্বীকারোক্তি'-র সমষ্টি হিসেবে সাজানো যেতে পারে, প্রতিটি স্বীকারোক্তি পূর্ববর্তী স্তবকের প্রশ্নের উত্তর দেয় কিন্তু তাকে আরও গভীর করে তোলে।
 
 ### unused_angles
 
-- Exploring how the vastness of the jungle/river system dwarfs her personal grief, forcing humility before geological time.
-- A moment where she actively seeks out a specific, vibrant imperfection (a broken branch, a damaged leaf) in nature to validate her own state of internal fracture.
-- Using the physical mechanics of water movement—how currents shift even when seemingly still—to parallel emotional momentum.
+- সামাজিক কাঠামোর প্রতি নীরব অভিযোগটিকে সরাসরি রাজনৈতিক ভাষ্য দ্বারা না ঘেরা রেখে প্রতীকীভাবে ফুটিয়ে তোলা।
+- বিজয়ীর শারীরিক পরিবর্তনকে 'এনট্রপিক বিন্যাস'-এর পরবর্তী স্থিতিশীলতা হিসেবে দেখানো, যেখানে নিখুঁত মসৃণতার বদলে শক্তি সঞ্চারিত থাকে।
 
 ### variety_note
 
-While neighbours focused on actively releasing trauma or accepting decay, this chapter must explore respite not as a conclusion, but as a pause saturated in indifferent beauty, ending with an unresolved query.
-
-## draft
-
-### sha256
-
-d96ecb54347c27d266c03db07ff2a7b1cde01785ee678029276d85066866ac22
-
-### written_at
-
-2026-10-21T14:07:40.126833+00:00
-
-### origin
-
-write
-
-## quality_review
-
-### status
-
-passed
-
-### sha256
-
-d96ecb54347c27d266c03db07ff2a7b1cde01785ee678029276d85066866ac22
-
-### reviewer
-
-quality-agent
-
-### reviewed_at
-
-2026-10-21T16:19:57+00:00
-
-### notes
-
-- Default quality audit passed — poem is written, enriched, and meets quality parameters.
-- Philosophical depth: present
-- Metaphorical richness: present
-- Human accessibility: present
-- Civilizational relevance: present
-- Literary quality: present
-- Ethical framework: present
+এই পর্বটি অন্যান্য প্রতিবেশী পর্বগুলি থেকে ভিন্নভাবে শেষ হয়; এটি চূড়ান্ত মিলন বা জয় না দেখিয়ে সেই জয়ের পরের দীর্ঘশ্বাস এবং টিকে থাকার দার্শনিক ভার নিয়ে শুরু করে।

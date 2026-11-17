@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 64,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অগ্নিকুণ্ডের নিভতে না পারা শিখা",
+  "segment_summary": "বহিরাগত সমস্ত চাপ সত্ত্বেও, তার মনের গভীরে থাকা বিশ্বাসের শিখা কোনোভাবেই নিভে যাওয়ার অনুমতি দেয় না।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal struggle not as defiance against society, but as a necessary alchemical process where sorrow is transmuted into pure metallic resilience.",
+    "story_option": "Setting: A desolate stretch of land near a receding river delta; Desire: To feel the primal touch of mud beneath her worn foot, grounding her in tangible reality; Obstacle: The persistent whispering of doubt echoing from an unseen judge.",
+    "subject_rotation": "Focusing purely on *how* memory functions in trauma, treating Likhindor's image as a recurring visual distortion rather than comforting recollection.",
+    "sensory_detail": "The abrasive texture of dried salt crusting on the skin from emotional strain (touch/smell).",
+    "research_question": "How can I use diction related to mineral formation or geological pressure to illustrate the slow hardening of her resolve?",
+    "structural_variant": "Using extreme juxtaposition: pairing the most fragile, ephemeral image (a moth's wing) immediately beside the hardest material symbol (granite or iron).",
+    "variety_note": "Unlike its predecessors which focused on external trials (death/rejection), this chapter dives inward, mapping the topography of her sustained psychological siege against absolute despair."
+  }
+}

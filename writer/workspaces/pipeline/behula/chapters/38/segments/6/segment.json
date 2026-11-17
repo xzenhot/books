@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 38,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলোর দীপশিখার স্থায়িত্ব",
+  "segment_summary": "সমস্ত ঝড়-ঝাপটা সত্ত্বেও, তার বিশ্বাসের দীপশিখা কীভাবে নিভে না গিয়ে উজ্জ্বল হয়ে থাকে, তার কাব্যিক চিত্রায়ণ।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating society's judgment ('বিষাক্ত ছড়া') not as an external attack, but as a kind of internal sonic distortion that must be overcome for true alignment.",
+    "story_option": "The memory fragments during the reunion are not happy reminiscences, but sharp, hyper-detailed recollections of moments of profound isolation prior to his return.",
+    "subject_rotation": "Treating the societal narrative around them as an unavoidable, almost geological pressure that shapes—but does not destroy—their core.",
+    "sensory_detail": "Sight: The specific hue where indigo bleeds into deep violet at the horizon, marking the boundary between perpetual struggle and tenuous peace.",
+    "research_question": "In the context of this epic scope, what precise metaphor could replace a standard 'sigh' or 'breathlessness' to denote spiritual depletion?",
+    "structural_variant": "Structuring the eight segments as overlapping emotional tides rather than sequential steps towards climax, allowing thematic loops.",
+    "variety_note": "This chapter moves beyond the specific emotional turmoil of earlier arcs to focus on existential resolution, using newly employed imagery (like texture and subsonic sound) that previous segments avoided for thematic weight."
+  }
+}

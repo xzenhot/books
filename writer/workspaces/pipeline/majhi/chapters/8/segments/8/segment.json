@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "ভবিষ্যতের অনিশ্চয়তা",
+  "segment_summary": "অর্থনৈতিক অনিশ্চয়তা মাঝির ভবিষ্যতের উপর এক গভীর ছায়া ফেলেছে, যা তাকে এক কঠিন সন্ধিক্ষণে দাঁড় করিয়েছে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the market's influence not through direct haggling, but through the subtle corruption of local materials—the change in timber density or metal alloy replacing traditional components.",
+    "story_option": "Setting: Under the eaves of his hut, late at night. Desire: To calculate precisely how many more journeys he can afford before insolvency strikes. Obstacle: His calculation is disrupted by a sudden noise from the river—a distant engine replacing the familiar creak of old boats. Turn: The sound forces him to confront not just money, but irrecoverable silence.",
+    "subject_rotation": "Focusing on the psychological effect of 'scheduled' time versus river time; how money imposes rigid timetables that clash with the ebb and flow of nature.",
+    "sensory_detail": "The high-pitched whine of distant machinery cutting through the usual low thrum of insect life by the bank.",
+    "research_question": "How does the community respond when a long-standing traditional service (like his) becomes economically unsustainable? Is there resentment or quiet understanding?",
+    "structural_variant": "Structuring segments around specific components: one for hull/wood, one for rigging/rope, one for motor/engine parts (if he considers upgrading), forcing a taxonomy of his vulnerability.",
+    "variety_note": "Where previous chapters have focused on external conflicts (bridges, weather), this chapter turns inward and downward, dealing solely with the material weight of commerce pressing upon his livelihood."
+  }
+}

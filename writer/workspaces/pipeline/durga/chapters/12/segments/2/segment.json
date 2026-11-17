@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "মাটির আত্মার বিলুপ্তি",
+  "segment_summary": "কুমোরটুলির শ্রম ও বিশ্বাসে গড়া সেই ভঙ্গুর রূপটি জলের স্রোতে মিশে যায়, যা সৃষ্টির ক্ষণস্থায়ীতাকে প্রতীকীভাবে ঘোষণা করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the final moments not as sadness, but as a necessary *desiccation*—the shedding of material form to allow spiritual essence to ascend unseen.",
+    "story_option": "Setting: A single elder watching from a pier, holding one small offering (the concrete object); Desire: To transmit an unbroken line of devotion/memory across generations, despite the cyclical loss., Obstacle: The societal pressure or immediate familial grief demanding emotional release rather than stoic observation.",
+    "subject_rotation": "Framing the water not as a destroyer but as an 'absorber' or 'repository'—a vast, dark library holding the memory of all manifested Shakti.",
+    "sensory_detail": "The auditory sensation of pressure change as the large mass breaks through the surface tension, followed by dead silence.",
+    "research_question": "How was the concept of 'dissolution' (বিলুপ্তি) philosophically treated in high literary works preceding this contemporary narrative style?",
+    "structural_variant": "Structuring the poem as a long, sustained *lament* rather than segmented stages, building intensity purely through sonic weight.",
+    "variety_note": "This chapter differs by adopting a posture of profound resignation; unlike the preceding segments which deal with action (creation/celebration), this is entirely about *unmaking* and quiet reception."
+  }
+}

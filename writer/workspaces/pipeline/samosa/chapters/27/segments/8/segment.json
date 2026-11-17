@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "স্বাদের চিরন্তন অনুরণন",
+  "segment_summary": "কবিতাটি শেষ হয় সেই অস্পষ্ট কিন্তু গভীর অনুরণন দিয়ে, যা সম্পূর্ণরূপে পাওয়া যায়নি, কিন্তু যা হৃদয়ে চিরকাল বেঁচে থাকে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The performative nature of remembrance: The 'আমি' meticulously recreates the ritual of making the Samosa, knowing full well the ingredients are compromised, treating this reconstruction as an act of defiance.",
+    "story_option": "Setting: By the worn edges of an unused spice *packet* in luggage (a touchstone from earlier segments); Desire: To breathe life back into a single grain of ground cumin through intense focus; Obstacle: The aroma is too desiccated, clinging to modern chemical ghosts.",
+    "subject_rotation": "Focusing purely on the *negative space*—what is missing from the taste profile rather than what remains.",
+    "sensory_detail": "Sound: A dry, papery rustle when the outer *khols* (husk) is cracked open during consumption.",
+    "research_question": "How does the mandated repetition ('litany') interact with the instruction for a non-conclusive, counter-intuitive final line?",
+    "structural_variant": "Using a highly fragmented prose introduction before launching into dense verse cycles.",
+    "variety_note": "This chapter leans heavily into abstraction and introspection, contrasting with previous chapters which may have been more grounded in street-level observation or material friction."
+  }
+}

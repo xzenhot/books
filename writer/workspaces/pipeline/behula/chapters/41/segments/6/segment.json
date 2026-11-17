@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 41,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "প্রেরণার স্রোত",
+  "segment_summary": "বেহুলার এই যাত্রা কেবল ব্যক্তিগত নয়, এটি নিপীড়িত আত্মার সম্মিলিত প্রেরণা হয়ে ওঠে, যা অন্যদের সাহস যোগায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring how the external mythologizing process distorts the lived reality of their suffering by simplifying complex internal conflict into neat binaries (good vs. evil).",
+    "story_option": "Setting: A window facing the night sky after their union; Desire: To map out the trajectory of his return against the fixed points of the celestial sphere; Obstacle: The reflection in the glass momentarily shows her alone again; Turn: She acknowledges this phantom vision without fear.",
+    "subject_rotation": "Focusing less on the epic scale of myth and more on the microscopic mechanics of emotional restoration (e.g., how two nervous systems reconnect).",
+    "sensory_detail": "Touch: The abrasive coolness of aged stone felt beneath a single trembling finger as she touches his familiar form.",
+    "research_question": "What archaic Bengali term most precisely captures a state that is neither simple joy nor overwhelming burden, but rather 'hard-won equilibrium'?",
+    "structural_variant": "Alternating between first-person (her perception) and third-person omniscient narration, only merging in Segment 8 for the final reflection.",
+    "variety_note": "Unlike prior segments that focused on building tension or articulating suffering, this chapter focuses on the dynamic *aftermath* of conflict, using concentrated physical imagery to convey abstract triumph."
+  }
+}

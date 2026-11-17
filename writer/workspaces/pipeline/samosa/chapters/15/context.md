@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-ভাড়া ঘরের রান্নাঘর
+চূড়ান্ত স্বাদ
 
 ## chapter_summary
 
-ভাড়া ঘরের রান্নাঘর ছোট, চুলার আঁচ কম, আর তেতো জল। নতুন ঠিকানায় রান্নার প্রথম পাঠ।
+এই অধ্যায়টি সেই অস্পষ্ট, কিন্তু গভীর অনুরণনশীল স্বাদের অনুসন্ধান করে যা প্রবাসীর হৃদয়ে চিরকাল বেঁচে থাকে। এটি সেই মুহূর্তকে চিত্রিত করে যখন সামোসাটি শেষ হয়ে যায়, কিন্তু জিভে একটি শূন্যতা থেকে যায়—যা কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি। কাব্যটি প্রশ্ন তোলে যে, স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা আত্মার গভীরে ভাজা থাকা এক মানবিক অভিজ্ঞতার অবিচ্ছেদ্য অংশ। এই অনুরণন পাঠককে মধুর বিষাদের এক অনন্ত অপেক্ষার দিকে চালিত করে।
 
 ## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+শূন্যতার অনুরণন
+
+#### segment_summary
+
+সামোসাটির শেষ টুকরো গিলে ফেলার পর জিভে যে শূন্যতা নেমে আসে, তা কেবল পেট ভরার অভাব নয়, বরং একটি হারানো সময়ের প্রতিধ্বনি।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মার ভাজা স্মৃতি
+
+#### segment_summary
+
+এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভের ওপর নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক সীমানা অতিক্রম করতে পারে না।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+রাসায়নিক ও মানবিক বিভাজন
+
+#### segment_summary
+
+স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে দেখার ধারণার বিপরীতে, এই অধ্যায় মানবিক অভিজ্ঞতার গভীরতম স্তরে তার অবস্থানকে প্রতিষ্ঠা করে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনন্ত অপেক্ষার প্রতিচ্ছবি
+
+#### segment_summary
+
+এই অনুরণনটি একটি স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক—সেই নিখুঁত আদি স্বাদের জন্য অপেক্ষা, যা কেবল স্মৃতিতেই বিদ্যমান।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+মধুর বিষাদের গন্তব্য
+
+#### segment_summary
+
+পাঠককে কোনো চূড়ান্ত উত্তর না দিয়ে, কাব্যটি এক ধরনের 'মধুর বিষাদ'-এর অনুভূতিতে স্থির করে, যা স্মৃতির সাথে মিশে থাকে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্পষ্টতার সৌন্দর্য
+
+#### segment_summary
+
+চূড়ান্ত স্বাদটি কখনোই পুরোপুরি প্রাপ্ত হয় না; বরং তার অস্পষ্টতা এবং অনুরণনই এই কাব্যিক যাত্রার সবচেয়ে গভীর সত্য।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+আদি সিঙ্গাড়া-র প্রতিধ্বনি
+
+#### segment_summary
+
+এই শেষ অনুরণনটি আদি সিঙ্গাড়া-র উষ্ণ গন্ধ এবং সরিষার তেলের ঝাঁঝালো স্মৃতিকে বহন করে, যা প্রবাসের ধূসর পটভূমিতে প্রতিধ্বনিত হয়।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অটুট আশ্রয়
+
+#### segment_summary
+
+হারানো স্বাদের এই অনুরণনই প্রবাসীর জন্য একমাত্র অটুট আশ্রয়, যা তাকে তার শিকড়ের সঙ্গে এক অদৃশ্য বন্ধনে আবদ্ধ রাখে।
+
+#### further_references
 
 
 ## level
@@ -31,51 +238,47 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Focusing on the dialectic between 'চুলার আঁচ' (the controlled domestic fire) and the omnipresent external, unforgiving city noise which encroaches upon the kitchen space.
-- The narrative voice adopts the perspective of the cooking surface itself—the stove or pan—commenting wryly on the culinary limitations imposed by cramped quarters.
-- A sustained focus on the tactile language of rationing: measuring precious ingredients not by weight, but by slivers of memory associated with specific hands.
+- Speaking to a non-human entity (like the cold metal of an unfamiliar serving plate) about the impossibility of replicating flavor.
+- Framing the sensory experience around the shift from artificial light in the foreign market to natural, fading daylight/moonlight as memory strengthens or dissolves.
+- Using the 'I' perspective but shifting focus internally—from physical hunger pangs to a more abstract ache in the temporal sense (time itself feeling incomplete).
 
 ### story_options
 
-- setting: ভাড়া ঘরের রান্নাঘর, desire: একটা নিখুঁত পুরের মতো ঘন স্বাদের অনুরণন ফিরিয়ে আনা, obstacle: কম আঁচ এবং সীমিত পরিমাণ লবণের কারণে 맛의 dilution (স্বাদের পাতলা হওয়া), turn: রান্না করা খাবারটি স্বাদযুক্ত হলেও, তা খাওয়ার ভঙ্গিমাতেই একটি গভীর বিদ্রূপ বা আত্ম-পর্যালোচনা লুকিয়ে থাকে।
-- setting: ছোট্ট রান্নাঘরের কোণ, desire: সামোসার 'খোলস'-এর সেই প্রাথমিক মুচমুচে সাউন্ডটি পুনরুদ্ধার করা, obstacle: তেলের ভাজা করার জন্য পর্যাপ্ত তাপমাত্রা না পাওয়া, ফলে খোলসে একটি দুর্বল কাঠিন্য তৈরি হওয়া (brittleness), turn: স্বাদবিহীন হলেও, শব্দটির স্মৃতিই যেন একধরনের আধ্যাত্মিক পরিপূর্ণতা দান করে।
-- setting: রান্নাঘরের টেবিলের ওপর রাখা কিছু কাঁচা উপাদান, desire: পুরোনো মাটির (গ্রামের) টক গন্ধটি ফুটিয়ে তোলা, obstacle: নতুন বাজারের শাক-সবজির মধ্যে অনুপস্থিত, এক ধরণের 'জীবন্ত' দুর্গন্ধ বা সুবাসের অভাব, turn: এই প্রচেষ্টা ব্যর্থ হয় এবং রান্নাঘর থেকে একটি দীর্ঘশ্বাস বেরিয়ে আসে যা বাতাসকে ভারি করে তোলে।
+- Setting: A starkly lit, late-night street corner where vendors hawk their goods; Desire: To whisper the recipe's specific measurement of ghee into the steam rising off another vendor's oil; Obstacle: The indifferent rush of passing strangers who do not share this memory.
+- Setting: Sitting alone near a window as twilight bleeds over the urban landscape; Desire: For the memory of 'দিদা'-র হাতের মাপ to become palpably real, something one could reach out and touch; Obstacle: The encroaching darkness that absorbs all specific aroma into generalized smog.
+- Setting: Inside an empty travel bag packed after a long journey; Desire: To find a single spice particle from the original preparation, which acts as a 'key' to unlock the lost taste; Obstacle: The dust of transit has settled over everything, rendering every particle inert.
 
 ### subject_rotations
 
-- Instead of focusing on the failure to recreate flavor, focus solely on the 'ritual' itself—the obsessive, almost desperate repetition of the shaping process despite the known result.
-- Treating the heat source ('আঁচ') not as a physical element, but as a metaphor for curtailed emotional capacity in exile (limited passion).
-- Elevating the raw ingredients (আলু/তেল) to characters that passively resist being transformed into something familiar.
+- Focusing on the *sound* associated with the perfect bite—the crisp snap versus the dull chew in a different setting.
+- Treating the lingering taste not as sadness, but as a kind of internalized, gentle rebellion against assimilation.
+- Exploring the idea that the 'ultimate flavor' is perhaps not achieved by eating, but by remembering the moment *before* it was consumed.
 
 ### sensory_details
 
-- The visual of the meager heat glow (কম আঁচ) failing to illuminate a whole bowl, casting long, distorted shadows across the cramped surfaces.
-- The persistent scent of stale woodsmoke or nearby industrial runoff infiltrating the supposedly 'clean' kitchen air.
-- The sharp, metallic taste left on the tongue after tasting overly diluted water used for soaking ingredients.
+- The brittle sound of flaky dough shattering under pressure in a silent room.
+- The faint, lingering metallic scent of old street lamp oil mixing with phantom mustard seed aroma.
+- The cool, smooth resistance of the exterior shell against an open palm.
 
 ### research_questions
 
-- Given the dictated word ratio (5% পুরানো বাংলা শব্দ: কড়াই, তাওয়া; 10% তৎসম শব্দ), what is the most evocative piece of 'পুরোনো বাংলার' vocabulary that describes a low-heat cooking process?
-- What specific idiomatic expression in Bengali can capture the feeling of 'minimal sustenance/limited scope' while maintaining the required register?
+- How can the cadence mimic both the sharp 'snap' of frying and the slow, dragging rhythm of melancholic recollection?
+- What specific archaic Bengali descriptor perfectly captures the simultaneous existence of yearning and satiation?
 
 ### structural_variants
 
-- A cyclical structure where the poem attempts to start, reach a peak (the desired perfect heat), and immediately fall back into the initial low-intensity state.
-- An intrusive narrative break in the middle of the cooking process where the 'I' stops moving/shaping and simply watches the ingredients under the meager light.
+- A strict adherence to an AABB CCDD rhyme-like structure (in sound/rhythm) even if the diction is complex.
+- An intentional fragmentation where each segment ends with a single, repeated onomatopoeic word related to cooking ('চট', 'ভাজা', 'গোঁস').
 
 ### unused_angles
 
-- The role of shadows cast by unseen domestic figures outside the kitchen window, suggesting omnipresent scrutiny or judgment on one's efforts.
-- A focus on the relationship between the hands performing the labor in this small space and the larger geography that has been lost (connecting physical confinement to geographic exile).
+- A comparison between the physical texture of the pastry and the political fragility of cultural borders.
+- Introducing a brief motif of light reflection off oil droplets, suggesting momentary clarity before diffusion.
 
 ### variety_note
 
-Unlike chapters focused on borders or packaging, this piece grounds the emotional tension entirely within a hyper-specific domestic microcosm—the impoverished functionality of the rented kitchen.
+This chapter shifts focus from the journey/material transformation (previous chapters) to the internal aftermath—the philosophical residue left after consumption, using silence and memory as its primary substance.

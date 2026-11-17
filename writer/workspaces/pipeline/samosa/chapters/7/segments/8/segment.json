@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "ভবিষ্যতের স্বাদ",
+  "segment_summary": "এই প্রজন্ম কি কখনও সেই গভীর, হারানো স্বাদের সন্ধান করবে, নাকি তারা কেবল বর্তমানের সহজ প্যাটার্নেই সন্তুষ্ট থাকবে?",
+  "name": "7.8",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Sensory Habituation: Examining how immediate exposure to thousands of standardized street foods dulls the palate's sensitivity to ancestral complexity.",
+    "story_option": "Setting: A quiet shared living space late at night; Desire: To decode the complex flavors by repeatedly sampling the same piece until pattern recognition yields narrative; Obstacle: Family members are too preoccupied with their own immediate tasks to engage in this gastronomic archaeology.",
+    "subject_rotation": "Focusing on the texture (the crunch) as a sound/rhythm that is easily replicated and satisfying in itself, regardless of flavor complexity.",
+    "sensory_detail": "The dry, consistent *snap* sound made when biting down—a repetitive metric marker replacing complex flavor notes.",
+    "research_question": "What is the specific vocabulary (Tatsama/Purano Bangla) that describes 'habitual, non-nostalgic consumption' in this context?",
+    "structural_variant": "A fragmented structure mirroring the quick bites—short bursts of observation followed by moments of static, introspective pause.",
+    "variety_note": "While earlier chapters delve into the visceral *loss* experienced by the first generation, this segment focuses on the detached *acceptance* of difference by the second, observing where memory fragments fail to connect."
+  }
+}

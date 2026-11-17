@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 22,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার প্রতিজ্ঞা",
+  "segment_summary": "উৎসবের শেষ আলো নিভে যাওয়ার পর, অবশিষ্ট থাকে এক গভীর নীরবতা, যা আসন্ন বার্ষিক প্রত্যাবর্তনের প্রতিশ্রুতির ভার বহন করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal conflict not as an external war against a demon, but as a continuous negotiation with one's own *inertia* (a more subtle form of stagnation than outright 'demonic incursion').",
+    "story_option": "Setting: A specific corner where fallen marigold petals have been swept into a single, forgotten dust pile; Desire: To see this mundane detritus coalesce into a pattern resembling Durga's form before it vanishes; Obstacle: The intrusive sound of city traffic breaking the necessary quiet.",
+    "subject_rotation": "Shifting focus from 'existence' (is it inside/outside?) to 'memory fidelity': How does the mind actively distort or refine the divine memory over time?",
+    "sensory_detail": "Touch: The dry, brittle feel of old *কাশফুল* stalks crushed underfoot during an early morning walk through residential lanes.",
+    "research_question": "What archaic Bengali term best captures a state of profound longing for an unlived or impossible connection, mirroring spiritual yearning?",
+    "structural_variant": "Employing an internal monologue structured as Socratic questioning within each segment.",
+    "variety_note": "Unlike neighbours focusing on specific ritual stages, this chapter pivots entirely onto the *aftermath*—the quiet erosion where grand narratives meet ordinary existence and perpetual doubt. The tone shifts from vibrant celebration to profound, contemplative melancholy."
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 58,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ইতিহাসের ভার বনাম মুহূর্তের আলো",
+  "segment_summary": "The chapter pits the grand, monumental weight of history against the delicate, immediate glow of a single, observed instant.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "দৃষ্টিভঙ্গির পরিবর্তন: প্রথম অংশে বস্তুর 'কী' (What) উপর জোর দেওয়া, এবং শেষাংশে কেবল তার 'কেন' (Why)-এর অনুপস্থিতিকে উদযাপন করা।",
+    "story_option": "সেটিং: একটি ভিজে যাওয়া, স্যাঁতস্যাঁতে পথের কোণ; আকাঙ্ক্ষা: চায়ের গ্লাসের ঘামের লবণাক্ততা আর ফুটপাথের কাদা মাখা উষ্ণতার মধ্যেকার রাসায়নিক মিলন অনুভব করা।",
+    "subject_rotation": "এই অধ্যায়টিকে সমস্ত পর্যবেক্ষণের চূড়ান্ত সংশ্লেষ না রেখে, এটিকে একটি ব্যর্থ সংশ্লেষণের ক্ষেত্র হিসেবে উপস্থাপন করা; যেখানে সংযোগের প্রচেষ্টাটিই সবচেয়ে বড় মানবিক পরিভ্রমণ।",
+    "sensory_detail": "মধ্যভাগ: পুরনো, মোটা কাপড়ের আস্তরণে চেপে থাকা শরীরের ঘামের সামান্য তেলতেলে উষ্ণতা যা বাতাসের শীতল স্পর্শে হঠাৎ থেমে যায়।",
+    "research_question": "বাংলা কাব্যধারায় 'সময়ের স্রোত'কে একটি দৃশ্যমান, স্থূল বস্তুর গতিশীলতা হিসেবে কীভাবে চিত্রিত করা যায়, যা কেবল প্রবাহ নয়, বরং ভর বহন করে?",
+    "structural_variant": "Segment flow organized non-linearly: focusing on the most fragile image (e.g., faint vermilion trace) in Segments 2 and 5, interspersed with heavier, more persistent images (dust/platform dampness).",
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী কবিতাগুলোর নির্দিষ্ট বিষয়বস্তু থেকে সরে এসে 'সংশ্লেষণ'-এর দার্শনিক স্তরে প্রবেশ করে; এটি বর্ণনা নয়, বরং উপলব্ধির এক চূড়ান্ত আলস্যপূর্ণ উপলব্ধি।"
+  }
+}

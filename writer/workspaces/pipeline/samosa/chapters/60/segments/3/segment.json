@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 60,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ ও ভৌগোলিক দূরত্ব",
+  "segment_summary": "এই তেলের পরিবর্তনটি কেবল রান্নার উপকরণ বদলানো নয়; এটি ভৌগোলিক দূরত্বের একটি সরাসরি, ঘ্রাণ-সংক্রান্ত অনুবাদ, যা হৃদয়ের দূরত্বকেও মাপে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the perspective of the inanimate vessel (*কড়াই/tawa*) that holds both types of oils, witnessing the transition.",
+    "story_option": "Setting: While polishing a traditional *tawa* to use it for the new oil; Desire: To feel the residual heat memory on the metal surface despite the coldness; Obstacle: Finding microscopic residue that prevents the perfect clean slate.",
+    "subject_rotation": "A purely internal monologue focusing on the speaker's saliva reacting differently—a physical manifestation of emotional duality (sweet vs. bitter memory).",
+    "sensory_detail": "Tactile: The sticky, almost heavy film left on fingers after handling mustard oil vs. the slick, non-gripping coating from lighter industrial blends.",
+    "research_question": "What specific Bengali vocabulary exists that can describe an aroma as simultaneously 'sharp' and profoundly 'nostalgic'?",
+    "structural_variant": "A form structured around a mantra of repetition, where each iteration uses one new word from the lexicon (তেল, গন্ধ, মাটির)",
+    "variety_note": "This chapter focuses exclusively on the primary chemical and sensory marker—the oil itself—diverging from previous chapters which focused on broader geographical or social shifts in food consumption."
+  }
+}

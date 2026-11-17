@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 3,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "শব্দের ভৌগোলিক স্থানান্তর",
+  "segment_summary": "সিঙ্গাড়া নামক পরিচিত ধ্বনিটি যখন অচেনা ভূগোলে সামোসা নামে উচ্চারিত হয়, তখন সেই ধ্বনির সঙ্গে জড়িয়ে থাকা পারিবারিক উষ্ণতা কেমনভাবে বিচ্ছিন্ন হতে শুরু করে।",
+  "name": "3.1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The focus shifts from the sensory experience of taste (as in earlier chapters) to the linguistic and ontological weight carried by a mere word.",
+    "story_option": "Setting: A faded ledger or dictionary page; Desire: To find a definitive definition for 'সিঙ্গাড়া' in this new lexicon; Obstacle: The entry is corrupted, replaced by 'Samosa,' accompanied only by an untranslatable foreign phonetic guide.",
+    "subject_rotation": "Treating the shift from 'সিঙ্গাড়া' to 'সামোসা' not as a culinary change, but as an instance of cultural translation failure in literature.",
+    "sensory_detail": "The weight and granular texture of an unfamiliar alphabet when written down on rough paper (touch/sight).",
+    "research_question": "What are the documented linguistic mechanisms for how proper nouns shift when adapting across diasporic language environments?",
+    "structural_variant": "A highly fragmented montage where each segment focuses solely on one letter or sound component that is either retained or utterly lost during the transition.",
+    "variety_note": "This chapter deliberately pivots away from the immediate physical sensation (taste/texture) explored earlier, focusing instead on the abstract, painful erosion caused by linguistic substitution itself."
+  }
 }

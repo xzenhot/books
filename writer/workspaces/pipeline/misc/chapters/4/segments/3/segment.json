@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার ভার",
+  "segment_summary": "This section delves into the internal state of the travelers, each carrying the weight of their destination and their personal narratives.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "যাত্রীদের একে অপরের ওপরের ছায়ার মাধ্যমে সংযোগ স্থাপন—কোনো সরাসরি দৃষ্টি বিনিময় না করে শুধু ছায়ার আদানপ্রদানের উপর ফোকাস করা।",
+    "story_option": "একটি যাত্রীর শ্বাস-প্রশ্বাস বাসের ভেতরের বদ্ধ বাতাসের সঙ্গে মিশে একটি দৃশ্যমান, প্রায় ধোঁয়ার মতো আভা তৈরি করে (Breath Image/Twist), এবং এই আভাই নীরবতার একমাত্র বহিঃপ্রকাশ।",
+    "subject_rotation": "বাসটিকে একটি সাময়িক 'স্থানগত অভයভূমি' (Spatial Sanctuary) হিসেবে দেখা, যেখানে শহরের আগ্রাসী শব্দগুলো প্রবেশ করতে ভয় পায়।",
+    "sensory_detail": "জানালার কাঁচ ভেদ করে আসা দূরবর্তী রাস্তার আবছা, বিবর্ণ রং—যা যেন একটি দীর্ঘ অতীতকে ইঙ্গিত করছে।",
+    "research_question": "ভারতীয় পাবলিক ট্রান্সপোর্টের অভ্যন্তরে 'নীরবতা' বা 'থেমে থাকা সময়'-এর সামাজিক তাৎপর্য নিয়ে কোনো Ethnographic পর্যবেক্ষণ পাওয়া যায় কিনা?",
+    "structural_variant": "কবিতাটিকে একটি 'ধীর গতিতে ফোরওয়ার্ড মুভিং' কাঠামো দেওয়া, যেখানে প্রতিটি segmento আগেরটির চেয়ে আরও কম গতিশীল হয়।",
+    "variety_note": "Neighbouring chapters focused on tangible objects (chai glass, vermilion). This chapter isolates an intangible element—Silence—and explores its physics and psychology within a moving vessel."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "মাটির গন্ধ ও উৎসবের পূর্বাভাস",
+  "segment_summary": "ভেজা মাটির তীব্র গন্ধ এবং উৎসবের আসন্ন স্পন্দন মিলেমিশে একাকার হয়ে যায়, যা আসন্ন শক্তির আগমনের পূর্বাভাস দেয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the clay mass through a lens of proto-anxiety—the fear inherent in shaping something transient yet meant to embody eternity.",
+    "story_option": "The scene shifts temporarily inside the clay body during its forming, observing microscopic patterns mirroring cosmic battles.",
+    "subject_rotation": "Exploring the communal anticipation: how does the entire village's collective belief feed into the physical clay?",
+    "sensory_detail": "The damp, cool pressure of tightly packed earth molding against warm, sweating palms.",
+    "research_question": "What specific terminology in Bengali traditionally describes the transition point between raw earthen material and a consecrated object?",
+    "structural_variant": "Employing short, declarative stanzas that mimic the deliberate, slow rhythm of hand-building pottery.",
+    "variety_note": "This chapter differs from neighbouring pieces by focusing entirely on the *genesis*—the patient, slow incubation period before any external ritual or grand pronouncement begins."
+  }
+}

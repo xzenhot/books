@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 19,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অস্পষ্ট অনুরণন",
+  "segment_summary": "চূড়ান্ত স্বাদটি একটি অস্পষ্ট, কিন্তু গভীর অনুরণন হিসেবে জিভে লেগে থাকে, যা কোনো নির্দিষ্ট গন্ধের সঙ্গে পুরোপুরি মেলাতে পারে না।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the memory to an inanimate object (like a chipped serving plate) that witnessed its creation and loss.",
+    "story_option": "Setting: A cold concrete slab in the new city; Desire: To break the illusion of consumable perfection with a deliberate act of refusal; Obstacle: The physical presence of other, louder street foods. Turn: Finding a microscopic piece of foreign spice that mirrors an old Bengali blend.",
+    "subject_rotation": "Treating the lack of flavor not as a failure of the food, but as an unavoidable consequence of spatial displacement (Geography enforcing ontology).",
+    "sensory_detail": "The precise metallic tang left on the palate after swallowing something vaguely familiar but ultimately wrong.",
+    "research_question": "What specific lexicon (old Bengali/Tatsama) best captures 'মধুর বিষাদ' while maintaining a harsh, non-sentimental edge?",
+    "structural_variant": "A form where the eight segments utilize an AABB rhyme scheme for the first four lines, before collapsing into highly fragmented prose-poetry structures.",
+    "variety_note": "This chapter focuses on the sustained aftermath—the residue, the lingering question mark left by consumption—rather than the conflict or initial memory invoked in preceding chapters."
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার মহিমা",
+  "segment_summary": "পথিক উপলব্ধি করে যে কিছু জিনিসকে অসমাপ্ত রেখে দেওয়াই তাদের চরম পবিত্রতা দান করে, যা তার শহুরে দর্শনের সম্পূর্ণ বিপরীত।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the moment not as a choice between two paths (preserve/let go), but the realization that *both* are constructs of the self, leading to a third, unnameable state.",
+    "story_option": "Setting: Inside the mouth of a collapsed doorway facing the field; Desire: To let his entire body feel the immense weight of 'unsaid history'; Obstacle: His own carefully maintained sense of cultural importance resists this total surrender, causing physical tension.",
+    "subject_rotation": "Re-centering the focus on the unspoken dialogue of entropy: how the slow disintegration speaks a more profound truth than any grand narrative ever could.",
+    "sensory_detail": "Sound: Not noise, but the perceived vibration—a low-frequency resonance felt deep in the bone marrow rather than heard by the ear.",
+    "research_question": "Are there concrete descriptions in Bengali describing the feeling when one accepts that mastery over nature/time is an illusion?",
+    "structural_variant": "Embedding a single, very short passage written in stark, unadorned prose amidst the poetic flow to represent the traveler's final intellectual collapse.",
+    "variety_note": "This chapter diverges from its neighbors by focusing inward on the traveler’s *internal collapse* rather than outward onto environmental action, using the Satual gaze as a mirror for dissolution."
+  }
+}

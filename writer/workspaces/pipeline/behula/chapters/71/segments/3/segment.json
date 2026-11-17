@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 71,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "সহিষ্ণুতার প্রতিচ্ছবি",
+  "segment_summary": "তার অদম্য ধৈর্য এবং সহনশীলতা কীভাবে সমাজের কঠিন বাস্তবতার বিরুদ্ধে এক নীরব কিন্তু শক্তিশালী প্রতিরোধ গড়ে তোলে, তা কাব্যিক ভাষায় বর্ণিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Dichotomy focus: Concentrating almost entirely on the friction between 'internal permanence' and 'external flux' (e.g., bedrock vs. tidal current).",
+    "story_option": "Scene Seed: A fleeting moment where one neighbor's judgment is momentarily inverted by a glimpse of unseen cosmic order, making their condemnation physically impossible to sustain.",
+    "subject_rotation": "Exploring how the concept of sacrifice (আত্মত্যাগ) becomes inherently regenerative, not extractive.",
+    "sensory_detail": "A specific scent—not incense, but ozone mixed with dried river mud after an imagined spiritual deluge.",
+    "research_question": "What vocabulary exists in classical Bengali that denotes 'unshakeable inner scaffolding' or foundational selfhood amidst chaos?",
+    "structural_variant": "A heavily recursive structure where the central metaphor (the flame/light) is defined by its absence before it can be described.",
+    "variety_note": "This chapter moves away from narrative action (like initial tragedy or final triumph) into sustained philosophical exploration, focusing on *how* the inner state transforms external pressure into symbolic power, unlike adjacent chapters that focus on specific events."
+  }
+}

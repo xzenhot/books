@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার প্রতিজ্ঞা",
+  "segment_summary": "বিসর্জনের পর যে অনিবার্য শূন্যতা নেমে আসে, তা কীভাবে নতুন করে শক্তি সঞ্চয়ের প্রতিশ্রুতি বহন করে, সেই দ্বান্দ্বিকতা এখানে আলোচিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating devotion ('bhakti') less as an upward striving towards the divine, and more as a grounding discipline against temporal drift.",
+    "story_option": "A solitary moment by a window pane at dusk, watching the city lights flicker on and off—each bulb a miniature 'pandal'; Desire: To confirm that internal light sources mimic ritual illumination; Obstacle: The realization that these modern glows lack the divine conviction inherent in tradition.",
+    "subject_rotation": "Treating the self ('আমি') not as a spectator or worshipper, but as the *medium* through which the cycle is momentarily held together.",
+    "sensory_detail": "The specific dull ache in the joints that signals a transition from high-energy celebration to low-energy contemplation.",
+    "research_question": "What are precise Bengali lexical terms describing the profound, non-joyful contentment found after intense emotional expenditure?",
+    "structural_variant": "A highly discursive, essayistic structure that gradually introduces bursts of dense, image-laden Bengali poetry.",
+    "variety_note": "Unlike the previous chapters which detailed construction and climax, this final section must turn entirely inward, using residual imagery to address persistent internal struggle rather than external ritual performance."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "এই চূড়ান্ত পরিণতি বেহুলাকে কেবল একজন নারী হিসেবে নয়, বরং এক মহৎ, অবিস্মরণীয় প্রতীক হিসেবে প্রতিষ্ঠিত করে, যিনি সকল বাধা অতিক্রম করতে জানেন।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Post-mythic critique: Structuring the final stanzas as questioning whether this 'victory' satisfies any true societal need or merely validates one exceptional narrative.",
+    "story_option": "Setting: A boundary where the natural elements meet the human structure; Desire: To let go of defining the event as 'joyous'; Obstacle: The persistent cultural expectation that all great struggles must culminate in euphoric affirmation. Turn: They choose instead to exist in shared, profound equilibrium.",
+    "subject_rotation": "Shifting focus from personal fulfillment to symbolic burden: what does this 'divinity' require now that it has been attained?",
+    "sensory_detail": "Sound: A sustained, ultra-low frequency hum that signifies equilibrium rather than celebration.",
+    "research_question": "Which non-romantic imagery best conveys the quiet resonance after immense internal conflict?",
+    "structural_variant": "Employing an immediate descent into silence upon reunion, letting only residual sensory input guide the subsequent stanzas.",
+    "variety_note": "This chapter shifts focus entirely to the enduring resonance *after* the triumphant moment, using stillness and residual imagery rather than depicting the dynamic action of the return itself. It prioritizes reflection over spectacle."
+  }
+}

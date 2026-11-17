@@ -2,58 +2,118 @@
   "chapter_index": 23,
   "name": "23",
   "word_target": 500,
-  "chapter_title": "The Stranger's Passing",
-  "chapter_summary": "A brief encounter returns as a memory whose details keep changing. Debolina accepts memory as an imperfect witness, not a license to claim another person's story.",
-  "further_references": [],
-  "level": "chapter",
-  "state": "enriched",
-  "enrich": {
-    "active_filters": [
-      "research",
-      "genre",
-      "history",
-      "spatality",
-      "movement",
-      "correctness",
-      "quality"
-    ],
-    "status": "enriched"
-  },
-  "genre": "confessional lyric",
-  "spatality": {
-    "place": "the lane below the scaffold, where a stranger passed hours earlier",
-    "season": "the same dry evening, remembered later",
-    "route": "no movement — the poem stays in the place of remembering",
-    "texture": "warm dust remembered, a scent that memory keeps altering"
-  },
-  "stereotype": {
-    "signature": "first-person",
-    "style": "pijush"
-  },
-  "creative_enrichment": {
-    "poetic_parameters": {
-      "emotional_rawness": 7,
-      "grammatical_abstraction": 3,
-      "structural_rigidity": 4,
-      "rhythmic_urgency": 5,
-      "digital_simplicity": 4,
-      "movement": "Confessionalism — the personal record examined, here the ethics of remembering another body.",
-      "writing_skills": [
-        "deliberate correction of a remembered detail within the poem",
-        "first-person admission without absolution",
-        "a close that gives the stranger back his privacy"
-      ],
-      "image_seed": "a remembered scent that no longer matches the lane it came from",
-      "volta": "from trusting memory to catching it in the act of improving a stranger",
-      "sonic_texture": "the soft repeated r of remember, altered, stranger, wearing the memory down",
-      "line_gesture": "winding lines with parenthetical corrections, ending on a bare short line",
-      "variety_note": "Chapter three met the stranger in the present; this poem meets him again in memory and finds the account compromised.",
-      "metaphor_family": "rewriting, revision, and the hand that edits a person into an image",
-      "address": "the stranger, then the self, in reproach",
-      "closing_move": "a withdrawal of the remembered detail, leaving the lane empty again"
-    }
-  },
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scar of Expression",
+  "chapter_summary": "This chapter delves into the core conflict: the tension between the societal demand for a polished, acceptable image and the raw, necessary struggle of authentic creation. It explores how Debolina Rai uses the fissures and decay of the ancient frescoes as a direct metaphor for her own internal fragmentation and resilience. The imagery centers on the contrast between the vibrant, yet fading, pigments and the stark reality of her solitary labor under the lamp's glow. The central question remains: Can art achieve true immortality if its genesis is rooted in such profound, unacknowledged personal sacrifice?",
+  "further_references": [
+    "references.md"
+  ],
   "segments": [
-    1
-  ]
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Canvas of Decay",
+      "segment_summary": "The crumbling plaster of the Mandawa haveli serves as the initial visual metaphor for the artist's own fragile state against the weight of expectation.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Lapis and the Night's Alchemy",
+      "segment_summary": "The grinding of lapis lazuli under the dim lamplight transforms raw material into the volatile essence of her nocturnal artistic endeavor.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "The Musk of the Outsider",
+      "segment_summary": "The scent of passing strangers in the desert air intrudes upon her isolated studio, symbolizing the persistent pull of the external, untamed world.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "The Scaffold of Burden",
+      "segment_summary": "The physical scaffolding supporting her work represents the invisible, yet immense, pressure of societal roles she is actively rejecting.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "Mirror of the Faded Deity",
+      "segment_summary": "She finds her own unspoken anxieties reflected in the silent, half-formed figures of the ancient frescoes.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "Mapping the Inner Wound",
+      "segment_summary": "The act of painting becomes a deliberate mapping of her own vulnerabilities, transforming private pain into public, albeit hidden, texture.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Whisper of Convention",
+      "segment_summary": "The faint, judgmental echoes of domestic expectation clash against the fierce, silent commitment of her brushstrokes.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Scar as Signature",
+      "segment_summary": "She accepts that the imperfections and the visible struggle are not flaws, but the very signature that validates the art's truth.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "creative_enrichment": {
+    "angles": [
+      "অস্বীকৃত শ্রমের প্রতি মনোযোগ: কেবলমাত্র দেবলিনার মানসিক সংগ্রাম নয়, বরং ফ্রেস্কো তৈরিতে ব্যবহৃত প্রতিটি উপাদান (চুন, ল্যাপিস) তার নিজস্ব ঐতিহাসিক ও রাসায়নিক 'শ্রম' কীভাবে বয়ে আনে—তা দেখাও।",
+      "শব্দের পুনরাবৃত্তি দ্বারা ছন্দ তৈরি: একটি নির্দিষ্ট ক্রিয়া বা বিশেষণকে বারবার ব্যবহার করা, যেমন - 'ভাঙা', 'লঘু', অথবা 'নিঃশব্দ' শব্দটিকে বিভিন্ন প্রেক্ষাপটে রেখে এক ধরণের মন্ত্রমুগ্ধকারী রৈথমিক অনুভূতি সৃষ্টি করা (Primary Lens)।",
+      "অপ্রত্যাশিত নীরবতার মাধ্যমে সমাপ্তি: কোনো দার্শনিক বক্তব্য বা চূড়ান্ত ঘোষণা দেওয়ার পরিবর্তে, কবিতাটি হঠাৎ একটি তীক্ষ্ণ ইন্দ্রিয়গত বিবরণ দিয়ে শেষ হওয়া, যেখানে পাঠক একটি বিবৃতি আশা করে কিন্তু কেবল শূন্যতা পায় (Secondary Twist)।"
+    ],
+    "story_options": [
+      "দৃশ্য ১: দেবলিনা যখন তুলি ধরতে দ্বিধা করছে, তখন তার হাত কাঁপছে না—বরং সে স্থির হয়ে থাকে। এই স্থবিরতার মাঝে যেন প্রাচীন দেয়ালের ফাটলগুলোও শ্বাস নিতে ভুলে গেছে; বাধা হলো সেই মুহূর্তের সম্পূর্ণ নীরবতাকে কীভাবে কাব্যিক স্তরে ধরে রাখা যায়।",
+      "দৃশ্য ২: বাতাসের প্রবাহে যখন ল্যাপিসের কণাগুলো ধূলিকণায় মিশছে, তখন তা মনে হয় কোনো গোপন কথা फुসफुসাচ্ছে—দেবলিনা সেই ফিসফাস শোনার চেষ্টা করে কিন্তু শুনতে পায় কেবল মরুভূমির অস্থির শ্বাসের শব্দ; আকাঙ্ক্ষা হলো সত্যের উন্মোচন; প্রতিবন্ধকতা হলো শব্দেরabsence।",
+      "দৃশ্য ৩: সে তুলির বদলে একটি শুকনো, ভাঙা খড়কুটোর টুকরো ব্যবহার করার কথা ভাবে—এটি প্রতীকীভাবে তার সামাজিক প্রত্যাশার কাঠামোগত নির্ভরতা থেকে সরে আসা; কিন্তু এই ভাবনাটি যখন বাস্তবে রূপ নিতে গিয়ে আলতো করে বাতিল হয়ে যায়, তখন দেখায় যে মুক্তির পথটি যতটা সরল মনে হয় ততটা কঠিন।"
+    ],
+    "subject_rotations": [
+      "ফ্রেস্কোকে কেবল শিল্পের নয়, বরং 'সময়-সংরক্ষক'-এরূপে দেখা—যেখানে প্রতিটি ফাটল অতীতের এক মুহূর্তকে বর্তমানের ছাঁচে আটকে রেখেছে।",
+      "দেবলিনার শরীরকে কর্মক্ষেত্র হিসেবে বিবেচনা করা: তার ত্বক ও হাতের নিচে লেগে থাকা চুন-ধূলি যেন প্রাচীন সময়ের আস্তরনের মতো, যা তাকে নিজেকেই একটি জীবন্ত ঐতিহাসিক উপাদান করে তোলে।",
+      "শিল্পীর সংবেদনশীলতাকে 'ভুল' বা 'ত্রুটি'-এর মাধ্যমে পুনর্নির্মাণ করা—যেখানে ত্রুটিটি কোনো দুর্ঘটনা নয়, বরং ইচ্ছাকৃতভাবে আরোপিত এক দার্শনিক স্তর।"
+    ],
+    "sensory_details": [
+      "চুন-মাটির আঠালো স্তরের ওপর প্রদীপের আলোর প্রতিফলিত উষ্ণতা (thermal/tactile)।",
+      "ল্যাপিস গুঁড়ো যখন শুকনো প্লাস্টারে মেশে, তখন সৃষ্ট একটি সূক্ষ্ম, প্রায় বৈদ্যুতিক স্থিরতার ঘ্রাণ (olfactory/electrical trace)।",
+      "দেওয়ালের ফাটলের গভীরে জমে থাকা, বহুদিনের শুকিয়ে যাওয়া রক্তের মতো গাঢ় লালচে আভার মৃদু উষ্ণতা অনুভব করা (tactile/visual hint of age)।"
+    ],
+    "research_questions": [
+      "ঐতিহাসিকভাবে, দেবলিনার অঞ্চলের চিত্রশিল্পে 'ত্রুটিপূর্ণ' বা অসম্পূর্ণ কাজকে কি কোনো প্রতীকী উপায়ে সম্মান জানানো হতো, নাকি তা দ্রুত বাতিল করা হত?",
+      "শৈহাওয়তী অঞ্চলে ব্যবহৃত চুন ও অন্যান্য প্রাকৃতিক আঠালো পদার্থের রাসায়নিক মিশ্রণ রাতের ঠান্ডা এবং প্রদীপের আলোর নিচে কেমন পরিবর্তিত হয়?"
+    ],
+    "structural_variants": [
+      "একটি রৈখিক অগ্রগতি পরিহার করে, প্রতিটি সেগমেন্টকে বিচ্ছিন্ন চিত্রকল্পের একটি 'ক্যাটাগোরি' হিসেবে ব্যবহার করা, যা পাঠকদের নিজস্ব সংযোগ স্থাপন করতে বাধ্য করবে।",
+      "প্রথম আংশিক কবিতাটি চরম বিশদ (micro-focus) নির্ভর হবে; শেষাংশগুলো বৃহত্তর দার্শনিক শূন্যতার দিকে উন্মুক্ত হয়ে যাবে (macro-release)।"
+    ],
+    "unused_angles": [
+      "শিল্পকর্মের দৃশ্যমানতা বনাম নীরবতা: কীভাবে চূড়ান্ত প্রদর্শনীতে ফ্রেস্কোটির 'শব্দ' ছিল, যা দর্শকের সম্মিলিত শ্বাসরুদ্ধ করার শব্দ ছিল—সেই অনুপস্থিত আওয়াজটি চিত্রায়িত করা।",
+      "দেবলিনার শারীরিক ক্লান্তি যখন বর্ণনার প্রধান উপাদান হয় না, বরং এটি এক ধরণের সূক্ষ্ম, কাঠামোগত স্থিরতা তৈরি করে যা তার বিদ্রোহকে আরও কঠিন ও দৃঢ় প্রমাণ করে।"
+    ],
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী পর্বগুলির চেয়ে বেশি অভ্যন্তরমুখী; বাইরের সুবাস বা দৃশ্যমান সংঘর্ষের বদলে এখানে ফাটল এবং উপাদানগুলোর অভ্যন্তরীণ সংঘাত, অর্থাৎ শিল্পীর মানসিক ভাঙনকেই প্রধান উপজীব্য করা হয়েছে।"
+  },
+  "draft": {
+    "sha256": "52ca8201253430adae4706748955a3f18fbba21fc3ea0ebe7b7e8aca834d3a50",
+    "written_at": "2026-11-16T13:46:30.951089+00:00",
+    "origin": "write"
+  }
 }

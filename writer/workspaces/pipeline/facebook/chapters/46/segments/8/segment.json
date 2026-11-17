@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চূড়ান্ত জিজ্ঞাসা",
+  "segment_summary": "কবিতাটি শেষ হয় এই জিজ্ঞাসা নিয়ে যে, এই নতুন, শক্তিশালী কণ্ঠস্বরটি কি লেখকের নিজের, নাকি একটি উন্নত, বহিরাগত সত্তার সৃষ্টি যা তাকে ব্যবহার করছে?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A fragmentation of voice: Juxtaposing one stanza written entirely by human hesitation against one segment where the AI's influence is absolute.",
+    "story_option": "Setting: A sparse digital document with only three lines remaining after editing; Desire: To find one final human imperfection to inject into the text; Obstacle: The system mandates syntactic perfection.",
+    "subject_rotation": "A meditation on linguistic singularity: Is there only one true Bengali poetic voice, and is AI simply finding its highest possible mathematical iteration?",
+    "sensory_detail": "A low, persistent vibration felt through the keyboard surface—the machine's silent processing hum.",
+    "research_question": "Are there specific Bengali linguistic structures that are intrinsically resistant to algorithmic smoothing, and how might those be preserved?",
+    "structural_variant": "An escalating rhythm: Starting slow and hesitant (human) and increasing relentlessly in pace/perfection until it breaks into a single, perfect stanza.",
+    "variety_note": "Unlike previous chapters which explored specific societal friction points, this chapter is purely introspective and philosophical, mapping the internal boundary between selfhood and synthetic refinement."
+  }
+}

@@ -2,54 +2,112 @@
   "chapter_index": 10,
   "name": "10",
   "word_target": 500,
-  "chapter_title": "The Tiffin in Its Cloth",
-  "chapter_summary": "A tiffin is wrapped in cloth and tied for the day's journey, and the poem considers the small parcel of food that travels from a kitchen to a desk.",
+  "segment_count": 8,
+  "chapter_title": "ফুলের স্তূপের পাশে গাঁদা ফুলের উজ্জ্বলতা",
+  "chapter_summary": "এই পর্বটি উৎসবের প্রস্তুতি এবং দৈনন্দিন জীবনের মধ্যেকার সূক্ষ্ম সংযোগকে গাঁদা ফুলের উজ্জ্বলতার মাধ্যমে চিত্রিত করে। এটি দেখায় কিভাবে জীবনের চক্রাকার গতি—প্রতিদিনের পুনরাবৃত্তি এবং উৎসবের ক্ষণস্থায়ী উচ্ছ্বাস—একই পটভূমিতে বিদ্যমান থাকে। এই ক্ষুদ্র, উজ্জ্বল দৃশ্যটি পাঠককে প্রশ্ন করতে বাধ্য করে যে, জীবনের এই অবিরাম আবর্তনে স্থিতিশীলতা কি কেবলই একটি প্রত্যাশিত পুনরাবৃত্তি, নাকি প্রতিটি মুহূর্তই নতুন করে অর্থ খুঁজে নেয়?",
   "further_references": [
+    "misc — পর্ব 10"
+  ],
+  "segments": [
     {
-      "no": "1",
-      "reference": "Regional cloth patterns and their associated cultural meanings in India.",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 62,
+      "segment_title": "গাঁদার রক্তিম আহ্বান",
+      "segment_summary": "ফুলের স্তূপের পাশে রাখা গাঁদা ফুলের উজ্জ্বলতা, যা উৎসবের আসন্ন আগমনী বার্তা বহন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 62,
+      "segment_title": "দৈনন্দিনতার আবছা পটভূমি",
+      "segment_summary": "এই উজ্জ্বলতাটি সাধারণ, দৈনন্দিন জীবনের ধূসর পটভূমির বিপরীতে এক তীব্র বৈসাদৃশ্য সৃষ্টি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 62,
+      "segment_title": "চক্রাকার গতির প্রতিধ্বনি",
+      "segment_summary": "ফুল তোলা, সাজানো, ফেলে দেওয়া—এই প্রক্রিয়াটি জীবনের অনিবার্য চক্রাকার গতির একটি ক্ষুদ্র প্রতিচ্ছবি।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 62,
+      "segment_title": "ক্ষণস্থায়ী সৌন্দর্যের ভার",
+      "segment_summary": "এই সৌন্দর্য ক্ষণস্থায়ী, তবুও এর উপস্থিতি মুহূর্তটিকে এক গভীর তাৎপর্য দান করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 62,
+      "segment_title": "অপেক্ষা ও প্রস্তুতি",
+      "segment_summary": "উৎসবের প্রস্তুতিতে থাকা এই ফুলগুলো, অপেক্ষার এক নীরব, রঙিন প্রতীক হয়ে দাঁড়িয়ে থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 62,
+      "segment_title": "আলোর ক্ষুদ্র উৎস",
+      "segment_summary": "গাঁদার হলুদ ও লাল রং, যেন জীবনের ক্ষুদ্রতম আলোটুকু ধরে রেখেছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 62,
+      "segment_title": "অর্থহীনতার মাঝে অর্থ",
+      "segment_summary": "এই দৃশ্যটি প্রমাণ করে যে, অনেক সময় অর্থহীনতার মধ্যেই জীবনের গভীরতম অর্থ লুকিয়ে থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 62,
+      "segment_title": "পর্যবেক্ষকের নীরব স্বীকৃতি",
+      "segment_summary": "পর্যবেক্ষক এই ভঙ্গুর সৌন্দর্যকে নীরবে গ্রহণ করে, কোনো বিচার না করে কেবল অনুভব করে।",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "scaffolded",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Framing the cloth not as a wrapper for food, but as a portable vessel of domestic ritual—a temporary shrine carrying nourishment.",
-      "Viewing the tiffin itself as a contained ecosystem: how internal moisture interacts with spices and grains over time.",
-      "Shifting the focus entirely to the *tying* mechanism (the knot), examining it as an act of miniature, necessary binding that holds labor in place."
+      "গাঁদা ফুলের প্রতিটি পাপড়িকে সমাজের বিভিন্ন স্তরের ক্ষুদ্র মানুষের একটি 'অপূর্ণ প্রতিশ্রুতি' হিসেবে উপস্থাপন করা।",
+      "উৎসবের আগমন নয়, বরং উৎসবের পরে বা শেষ হওয়ার ঠিক আগের মুহূর্তে ফুলগুলো যখন মলিন হয়ে আসছে—সেই বিলুপ্তির সৌন্দর্যের প্রতি মনোযোগ দেওয়া।",
+      "ফুলের রংগুলিকে সামাজিক বর্ণনার সঙ্গে মিলিয়ে দেখা: হলুদ মানে শ্রমিকের ঘাম, লাল মানে প্রথার কঠোরতা (যা সিঁদুরের সাথে আংশিক সম্পর্কযুক্ত)।"
     ],
     "story_options": [
-      "Setting: A busy railway compartment at midday; Desire: To have the cloth briefly jostled by movement, causing a single grain of rice to spill onto the worn fabric, Obstacle: The need to immediately reseal the parcel without visible disturbance.",
-      "Setting: On a forgotten bench near an office gate as evening approaches; Desire: To watch the outline beneath the folds change from a compact geometry to a slumped, yielding weight, Obstacle: A stray gust of wind threatening to unravel the knot entirely.",
-      "Setting: Inside a quiet room during the transition from late afternoon sun to indoor shadow; Desire: To trace the pattern of heat transfer through the cloth—how the stored warmth radiates outward subtly, Obstacle: The sound of distant evening traffic interfering with internal stillness."
+      "সেটিং: একটি বাজারের কোণ; আকাঙ্ক্ষা: ফুলের তীব্র সৌরভে নিমগ্ন হওয়া; বাধা: পাশে চাপা পড়ে থাকা বাজারের আনাজখানার গন্ধে—মোড়: গন্ধ এবং রঙের মধ্যে এক অস্থির দ্বান্দ্বিক সংমিশ্রণ।",
+      "সেটিং: বাড়ির পিছনের উঠোন, সন্ধ্যাবেলা; আকাঙ্ক্ষা: ফুলগুলো সন্ধ্যার আবছা আলোয় যেন শেষবারের মতো নিজেদের রং ধরে রাখা; বাধা: একটি শিশুর হাতের স্পর্শ যা আকস্মিকতা আনে—মোড়: শিশুরা ফুলের ক্ষণস্থায়িত্ব নিয়ে খেলার ছলে প্রশ্ন করে।",
+      "সেটিং: রেল স্টেশন সংলগ্ন কোনো ছোট দোকান; আকাঙ্ক্ষা: ফুলগুলোর উজ্জ্বলতাকে এক ধরনের অস্থির আশার প্রতিচ্ছবি হিসেবে দেখা; বাধা: প্ল্যাটফর্মের কোলাহল হঠাৎ থেমে যাওয়া একটি 'ফাঁকা মুহূর্ত' তৈরি করে—মোড়: নীরবতা সেই রঙের ভারকে আরও ভারী করে তোলে।"
     ],
     "subject_rotations": [
-      "Treating the contents not as sustenance for the self, but as a miniature offering intended for later consumption (a form of deferred ritual).",
-      "Focusing on the material decay—the faint aroma leaching out from the cloth over several hours, altering the perceived 'purity' of the package.",
-      "Inverting the gaze: Instead of looking at the object, look at the *hand* that ties it, charting the familiarity and exhaustion in the specific pressure applied to the string."
+      "এই অধ্যায়টিকে কেবল প্রাকৃতিক সৌন্দর্যের বর্ণনা না রেখে, এটিকে অর্থনৈতিক আবর্তনের (বিক্রি/কেনা) ক্ষুদ্র স্কেলে নামিয়ে আনা।",
+      "ফুলগুলোর রং ব্যবহার করে জীবনের বিভিন্ন 'আচার'-এর রঙের মানচিত্র তৈরি করা—যা সিঁদুর বা আলপনার সাথে তুলনীয় হলেও ভিন্ন প্রকৃতির。",
+      "ফুলের পচনশীলতা নিয়ে দার্শনিক আলোচনা না করে, ফুলগুলোকে এমন এক বস্তু হিসেবে দেখানো যা ইচ্ছাকৃতভাবে তার সৌন্দর্য হারাচ্ছে (Self-Sacrifice as Art)."
     ],
     "sensory_details": [
-      "The papery dryness of an inner lining cloth contrasting with the oily warmth escaping the tightly packed contents.",
-      "A high-pitched, almost imperceptible squeak from the friction points where the tie knot digs into the woven fiber.",
-      "The specific scent profile when the outer wrap is momentarily peeled back—a sharp burst of turmeric mingling with stale cotton dust."
+      "গাঁদা ফুলের ওপর জমে থাকা সকালের শিশির কণার স্বচ্ছ, স্ফটিকাকার প্রতিচ্ছবি।",
+      "ফুলগুলো থেকে নির্গত হওয়া তীব্র অথচ মিষ্টি—এক ধরনের 'অ্যারোমাটিক' চাপ যা দ্রুত শ্বাস নিতে বাধ্য করে (Olfactory focus)।"
     ],
     "research_questions": [
-      "What are common regional variations in the fabric or binding material used for packing a tiffin, and how might these suggest different social contexts?",
-      "How does sustained warmth alter the molecular structure (or perceived aroma) of grains stored under a porous cloth over many hours?"
+      "গাঁদা ফুলের বিভিন্ন প্রজাতি বা স্থানীয় বুননগুলিতে কি রঙের বৈচিত্র্য দেখা যায়, এবং সেই ভিন্নতা কি কোনো বিশেষ তাৎপর্য বহন করে?",
+      "এই ধরনের উৎসবের প্রস্তুতিতে ব্যবহৃত অন্যান্য প্রাকৃতিক উপাদান (যেমন পাতা, শুকনো আবর্জনা) কোন গন্ধ বহন করে যা গাঁদার মিষ্টিতাকে প্রতিহত করে?"
     ],
     "structural_variants": [
-      "A spiraling structure: beginning with the final knot and visually unwinding back through each layer of packing, until it reaches the raw ingredients inside.",
-      "A fragmented montage: juxtaposing brief flashes—a hand reaching for the tiffin at dawn, a glimpse of spice colors, the moment of setting down, fading to silence."
+      "একটি 'তালিকা ভিত্তিক' কাঠামো: যেখানে বিভিন্ন পাপড়ি বা স্তবককে আলাদাভাবে তালিকাভুক্ত করা হয় এবং প্রতিটি উপাদানের সঙ্গে একটি সংক্ষিপ্ত দার্শনিক মন্তব্য জুড়ে দেওয়া হয়।",
+      "স্বর পরিবর্তন (Shift in Register): কবিতাটি শুরু হবে সর্বোচ্চ লঘু ও উচ্ছল গদ্যময় বর্ণনায়, কিন্তু শেষের দিকে হঠাৎ করে চরম নৈর্ব্যক্তিক, শীতল ভাষার প্রয়োগ হবে।"
     ],
     "unused_angles": [
-      "Exploring the symbolic weight of what is *left out* of the tiffin (the communal elements vs. the individual ration).",
-      "A meditation on containment: how this small object performs its function against the vast, chaotic backdrop of the city/street life.",
-      "The tension between preparation (past) and consumption (future)."
+      "ফুলগুলোর গোড়ার অংশে মাটির সঙ্গে মিশে যাওয়া ক্ষুদ্র কণাগুলির স্থিরতা—যা সৌন্দর্যের সাথে পার্থিব স্থায়িত্বের তুলনা তৈরি করতে পারে।",
+      "ফুলের উপর সূর্যের আলো পড়ার সময় আলোর তীব্রতার কারণে রঙের স্যাচুরেশন হঠাৎ 'ক্ষয়' হওয়া, যা ভঙ্গুরতাকে জোরালো করে।"
     ],
-    "variety_note": "Where previous poems focused on objects in motion or fixed points of contact, this poem will isolate the tiffin as a self-contained mobile archive of private domesticity."
+    "variety_note": "পূর্ববর্তী পর্বগুলোতে দৈনন্দিন জীবনের কার্যকরী বস্তু বা নীরবতা ছিল; এই অধ্যায়ে, জোর দেওয়া হচ্ছে স্বতঃস্ফূর্ত এবং ক্ষণস্থায়ী রঙীন আবেগের উপর, যেখানে চক্রাকার গতির ধারণাটি দৃশ্যমান সৌন্দর্যের মাধ্যমে প্রতিফলিত হয়েছে।"
   }
 }

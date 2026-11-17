@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ম্লান হওয়ার সংগ্রাম",
+  "segment_summary": "এই আরোপিত কাঠিন্য সোনালী-র ভেতরের স্বর্গীয় আনন্দের তীব্রতাকে ধীরে ধীরে ম্লান করার চেষ্টা করে, যেন এক সূক্ষ্ম কিন্তু অবিরাম ক্ষয় প্রক্রিয়া চলছে।",
+  "name": "3",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the language itself: how the formal vocabulary used by society feels inherently *heavy* and cloying compared to the fluid, vowel-rich music of her inner thought.",
+    "story_option": "setting: সন্ধ্যার আবছা আলোয় একটি সাধারণ বারান্দা, desire: সমাজের আরোপিত রূপের আবরণটি ক্ষণিকের জন্য সরিয়ে ফেলা।, obstacle: বাতাসের প্রতিটি আণবিক চাপ, যা তাকে 'আদর্শ নারী' হওয়ার নির্দেশ দেয়।, turn: সে বাতাসের দিকে তাকিয়ে নিজের শরীরের রেখাগুলিকে পৃথিবীর গ্র্যাভিটির বিরুদ্ধে একটি কাব্যিক বিদ্রোহ হিসাবে অনুভব করে।",
+    "subject_rotation": "Deconstructing 'beauty' itself: Is her fairness beautiful because it complies with external standards, or does its internal light make that compliance irrelevant?",
+    "sensory_detail": "A sound so low it’s felt more than heard—a deep, subsonic hum from traffic far below during a moment of internal quiet (Hearing).",
+    "research_question": "How can the high poetic diction convey the subtle *erosion* caused by social pressure without resorting to overtly pessimistic or dramatic language?",
+    "structural_variant": "Employing a highly fragmented structure where each segment is less a narrative passage and more a series of rapid-fire, contradictory images.",
+    "variety_note": "Where earlier chapters focused on internal discovery or rising tension, this chapter isolates the direct friction point: the clash between the intensely private spiritual life and the pervasive, visible demands of the external world."
+  }
+}

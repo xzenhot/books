@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর নীরব ঘোষণা",
+  "segment_summary": "এই নীরব কাব্যিক প্রতিরোধই হলো সম্রাটের চূড়ান্ত ঘোষণা—ক্ষমতা হারানো গেলেও, মহত্ত্ব হারানো সম্ভব নয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the composition not as resistance, but as an intensely private dialogue between the Emperor and his own memory in isolation.",
+    "story_option": "Setting: By a small, perpetually leaking container of ink (even if symbolic); Desire: To imbue the flow of this meager liquid with the weight of an empire's flood; Obstacle: The water trickles slowly, demanding extreme patience for every line.",
+    "subject_rotation": "Exploring the internal geography of the hut—how each knot or splinter becomes a metaphor for a lost Mughal province.",
+    "sensory_detail": "Smell: The metallic, sharp scent of stale oil mixed with the faint sweetness of burnt resin/wood polish.",
+    "research_question": "Can the cadence of a poem written under duress (isolation/fear) naturally diverge from its intended classical form, and how does that divergence function poetically here?",
+    "structural_variant": "Employing tercets (three-line stanzas) only for moments of acute internal crisis, reverting to longer, meditative lines otherwise.",
+    "variety_note": "Unlike earlier chapters focused on external struggle or past glory, this section is entirely inward-facing, concentrating solely on the *process* of creation as an existential act waged against total erasure; it avoids mentioning specific historical events in favor of abstract technique."
+  }
+}

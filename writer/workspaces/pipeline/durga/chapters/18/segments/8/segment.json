@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "পুনর্জন্মের ঘোষণা",
+  "segment_summary": "এই চক্রাকার দর্শন প্রমাণ করে যে, বার্ষিক শক্তির প্রত্যাবর্তন কেবল একটি সামাজিক রীতিনীতি নয়, বরং মানব চেতনার পুনর্জন্মের ঘোষণা।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating the 'act of remembrance' itself—is it memory, or is it a conscious construction necessary to sustain faith against nihilism?",
+    "story_option": "Setting: Inside a solitary domestic ritual space (home shrine) during quiet morning hours; Desire: To hear only the whisper of one specific ancestral prayer that feels like borrowed, enduring power; Obstacle: The mundane sounds of the waking world invading the sanctuary.",
+    "subject_rotation": "Exploring the concept of 'latent energy' not through mythological rebirth, but through biological persistence—the memory imprinted in cell structure or genetic line.",
+    "sensory_detail": "Touch: The brittle yet yielding texture of a long-ago preserved *Shiuli* petal against the palm.",
+    "research_question": "How can the philosophical dichotomy between temporary ritual joy and eternal internal strength be articulated using only modal verbs (might, could, must)?",
+    "structural_variant": "Employing a sustained chiasmus across the eight segments: A=B, C=D, D=C, B=A—forcing structural symmetry upon existential chaos.",
+    "variety_note": "Unlike neighbouring chapters which focus on cyclical action (arrival, peak power), this chapter isolates the residue—the quiet aftermath where physical matter meets metaphysical question."
+  }
+}

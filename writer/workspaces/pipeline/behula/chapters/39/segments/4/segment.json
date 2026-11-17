@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 39,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি ও মহিমা",
+  "segment_summary": "এই বিজয় ট্র্যাজেডির সমাপ্তি হলেও, এটি একই সাথে সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক গভীর, নীরব অভিযোগ বহন করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the abstract silence of the 'Wall' or societal judgment itself, instead of just speaking *to* an absent figure.",
+    "story_option": "Setting: The quiet domestic space just after arrival (the hearth area); Desire: To communicate the entire span of suffering through an unuttered gesture toward Lkhindor; Obstacle: The weight of unspoken societal narrative pressing down on them.",
+    "subject_rotation": "Focusing intensely on the dialectic between *Is* (the physical reality of reunion) and *Ought* (the societal expectation of her status).",
+    "sensory_detail": "The abrasive coolness of aged stone felt beneath a single trembling finger as she touches his familiar form.",
+    "research_question": "How can the philosophical weight of 'ontological necessity' be conveyed using diction resonant with passionate internalized rhythm?",
+    "structural_variant": "Structuring the eight segments as cyclical emotional waves, ensuring Segment 8 directly mirrors the initial tension of Segment 1 but with inverted affective weight.",
+    "variety_note": "Unlike neighbour chapters focusing on the *process* of endurance, this chapter must pivot to defining the *state* achieved by that endurance, while maintaining a self-aware tension regarding its societal validity."
+  }
+}

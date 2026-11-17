@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের মহিমা",
+  "segment_summary": "তার অদম্য সংকল্প প্রমাণ করে যে ভেতরের আলোকবর্তিকা বাইরের সমস্ত প্রতিকূলতার চেয়েও শক্তিশালী হতে পারে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The contrast between the reunion's physical intimacy and the lingering 'performance' of societal expectation witnessed by peripheral figures.",
+    "story_option": "Setting: A specific corner of the dwelling where the initial trial took place; Desire: To reclaim a physical space that symbolizes inviolable personal territory; Obstacle: The ingrained habit of societal scrutiny.",
+    "subject_rotation": "Focusing on how her internal mythology now actively resists categorization by 'history' or 'tradition'.",
+    "sensory_detail": "The specific scent of damp earth mixed with familiar domestic incense, marking the return; (Olfactory)",
+    "research_question": "What archaic Bengali phrasing could capture the concept of self-reconstruction following profound societal pressure, without sounding overly academic?",
+    "structural_variant": "A highly cyclical structure where each segment attempts to resolve the previous one's tension before creating a new, albeit quieter, tension.",
+    "variety_note": "This chapter shifts the thematic energy from active endurance against chaos (previous chapters) to the complex, loaded silence and integration following ultimate perceived success."
+  }
+}

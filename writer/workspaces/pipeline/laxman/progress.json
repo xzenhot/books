@@ -1,7 +1,7 @@
 {
-  "total_chapters": 24,
+  "total_chapters": 22,
   "completed_chapters": 0,
-  "current_chapter": "Introduction",
+  "current_chapter": null,
   "factory": "online",
   "model": "gemma4:latest",
   "provider": "ollama",
@@ -9,18 +9,8 @@
   "form": "novel",
   "chapters": [
     {
-      "chapter_number": "Introduction",
-      "topic": "দিল্লির ময়দানে আলো",
-      "file_path": "chapters/Introduction/chapter.md",
-      "written": false,
-      "validated": false,
-      "published": false,
-      "status": "pending",
-      "completed_date": null
-    },
-    {
       "chapter_number": 1,
-      "topic": "ওয়ার্কশপের প্রথম ডাক",
+      "topic": "প্রগতি অপেরা: গৌরবের পুনর্নির্মাণ",
       "category": "",
       "status": "written",
       "file_path": "chapters/1/chapter.md",
@@ -31,7 +21,7 @@
     },
     {
       "chapter_number": 2,
-      "topic": "বিজয় সেনের ছায়া",
+      "topic": "লক্ষ্মণ সেনের কৈশোরের স্বপ্ন ও বাংলার নৌ-সামরিক শক্তির প্রাথমিক প্রদর্শন",
       "category": "",
       "status": "written",
       "file_path": "chapters/2/chapter.md",
@@ -42,7 +32,7 @@
     },
     {
       "chapter_number": 3,
-      "topic": "বল্লাল সেনের সভা",
+      "topic": "কনৌজের দিকে প্রথম সামরিক প্রস্তুতি পর্ব",
       "category": "",
       "status": "written",
       "file_path": "chapters/3/chapter.md",
@@ -53,7 +43,7 @@
     },
     {
       "chapter_number": 4,
-      "topic": "যুবরাজের অভিষেক-প্রস্তুতি",
+      "topic": "নালন্দার স্মৃতি ও জ্ঞানের ক্ষয়",
       "category": "",
       "status": "written",
       "file_path": "chapters/4/chapter.md",
@@ -64,7 +54,7 @@
     },
     {
       "chapter_number": 5,
-      "topic": "নদীর অর্থনীতি",
+      "topic": "গঙ্গার অর্থনীতির উপর নির্ভরতা এবং বিদেশী বণিকদের সঙ্গে বাংলার বাণিজ্যিক সম্পর্কের জটিলতা",
       "category": "",
       "status": "written",
       "file_path": "chapters/5/chapter.md",
@@ -75,7 +65,7 @@
     },
     {
       "chapter_number": 6,
-      "topic": "মগধের দিকে দূত",
+      "topic": "কনৌজের পথে আঞ্চলিক শক্তিগুলির সঙ্গে কূটনৈতিক ও সামরিক টানাপোড়েন",
       "category": "",
       "status": "written",
       "file_path": "chapters/6/chapter.md",
@@ -86,7 +76,7 @@
     },
     {
       "chapter_number": 7,
-      "topic": "গঙ্গাপথের মানচিত্র",
+      "topic": "সামরিক অভিযানের গভীরে: পদাতিক ও প্রান্তিক জীবন",
       "category": "",
       "status": "written",
       "file_path": "chapters/7/chapter.md",
@@ -97,7 +87,7 @@
     },
     {
       "chapter_number": 8,
-      "topic": "কবি জয়দেবের আলো",
+      "topic": "দোয়াবের অপরিচিত শক্তি",
       "category": "",
       "status": "written",
       "file_path": "chapters/8/chapter.md",
@@ -108,7 +98,7 @@
     },
     {
       "chapter_number": 9,
-      "topic": "ধর্মের ভিতরে রাজনীতি",
+      "topic": "রাজকীয় অন্তঃপুরের দার্শনিক দ্বন্দ্ব",
       "category": "",
       "status": "written",
       "file_path": "chapters/9/chapter.md",
@@ -119,7 +109,7 @@
     },
     {
       "chapter_number": 10,
-      "topic": "কলিঙ্গ ও কামরূপের স্মৃতি",
+      "topic": "কনৌজের প্রান্তসীমা: গৌরবের মুখোমুখি",
       "category": "",
       "status": "written",
       "file_path": "chapters/10/chapter.md",
@@ -130,7 +120,7 @@
     },
     {
       "chapter_number": 11,
-      "topic": "দিল্লির বাঙালিদের তর্ক",
+      "topic": "অহংকারের প্রথম ফাটল: কনৌজের পথে এক সামরিক বিপর্যয়",
       "category": "",
       "status": "written",
       "file_path": "chapters/11/chapter.md",
@@ -141,7 +131,7 @@
     },
     {
       "chapter_number": 12,
-      "topic": "কনৌজের দূত",
+      "topic": "নদী অর্থনীতির বিপর্যয়",
       "category": "",
       "status": "written",
       "file_path": "chapters/12/chapter.md",
@@ -152,7 +142,7 @@
     },
     {
       "chapter_number": 13,
-      "topic": "প্রথম নদী পার",
+      "topic": "রাজনৈতিক বিশ্বাসঘাতকতা বা অভ্যন্তরীণ কোন্দল",
       "category": "",
       "status": "written",
       "file_path": "chapters/13/chapter.md",
@@ -163,7 +153,7 @@
     },
     {
       "chapter_number": 14,
-      "topic": "মালিনীর ঘাট",
+      "topic": "চূড়ান্ত সংঘর্ষের পূর্ব মুহূর্ত",
       "category": "",
       "status": "written",
       "file_path": "chapters/14/chapter.md",
@@ -174,7 +164,7 @@
     },
     {
       "chapter_number": 15,
-      "topic": "নালন্দার নিঃশব্দ ইট",
+      "topic": "কনৌজ-অভিযানের পরিণতি: ভারাক্রান্ত শাসক",
       "category": "",
       "status": "written",
       "file_path": "chapters/15/chapter.md",
@@ -185,7 +175,7 @@
     },
     {
       "chapter_number": 16,
-      "topic": "দোয়াবের ধুলো",
+      "topic": "কনৌজ-অভিযানের পরিণতি",
       "category": "",
       "status": "written",
       "file_path": "chapters/16/chapter.md",
@@ -196,7 +186,7 @@
     },
     {
       "chapter_number": 17,
-      "topic": "খাজুরাহোর পথের গুজব",
+      "topic": "কনৌজ-অভিযানের পরিণতি",
       "category": "",
       "status": "written",
       "file_path": "chapters/17/chapter.md",
@@ -207,7 +197,7 @@
     },
     {
       "chapter_number": 18,
-      "topic": "যুদ্ধের আগের রাত্রি",
+      "topic": "The Weight of the Crown: From Glory to Burden",
       "category": "",
       "status": "written",
       "file_path": "chapters/18/chapter.md",
@@ -218,7 +208,7 @@
     },
     {
       "chapter_number": 19,
-      "topic": "গঙ্গার যুদ্ধ",
+      "topic": "কনৌজের ভার ও লক্ষ্মণের শেষ জিজ্ঞাসা",
       "category": "",
       "status": "written",
       "file_path": "chapters/19/chapter.md",
@@ -229,7 +219,7 @@
     },
     {
       "chapter_number": 20,
-      "topic": "কনৌজের দরজা",
+      "topic": "কনৌজ-অভিযানের পরিণতি",
       "category": "",
       "status": "written",
       "file_path": "chapters/20/chapter.md",
@@ -240,7 +230,7 @@
     },
     {
       "chapter_number": 21,
-      "topic": "ফেরার পথে বাংলা",
+      "topic": "কনৌজ-অভিযানের পরিণতি",
       "category": "",
       "status": "written",
       "file_path": "chapters/21/chapter.md",
@@ -251,7 +241,7 @@
     },
     {
       "chapter_number": 22,
-      "topic": "বিশ্বরূপের শেষ পাঠ",
+      "topic": "কনৌজ-অভিযানের পরিণতি: ভারাক্রান্ত শাসক",
       "category": "",
       "status": "written",
       "file_path": "chapters/22/chapter.md",
@@ -259,16 +249,6 @@
       "written": true,
       "validated": false,
       "published": false
-    },
-    {
-      "chapter_number": "Conclusion",
-      "topic": "গঙ্গা যা রেখে দিল",
-      "file_path": "chapters/Conclusion/chapter.md",
-      "written": false,
-      "validated": false,
-      "published": false,
-      "status": "pending",
-      "completed_date": null
     }
   ],
   "written_chapters": 22,

@@ -1,54 +1,118 @@
 {
   "chapter_index": 11,
   "name": "11",
-  "word_target": 300,
-  "chapter_title": "মায়ের মুখের রূপ",
-  "chapter_summary": "মাটির মুখে রঙের পরত পড়ে, আর শিল্পীর কল্পনায় ফুটে ওঠে মায়ের শান্ত, করুণাময় চেহারা।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "বিসর্জনের পূর্ব মুহূর্তের বিষাদ",
+  "chapter_summary": "এই অধ্যায়টি উৎসবের চরম আনন্দের ঠিক আগের সেই চাপা উত্তেজনা ও বিষাদের মুহূর্তকে মূর্ত করে তোলে, যখন প্রতিমা তার মর্ত্য লীলার সমাপ্তির দ্বারপ্রান্তে এসে দাঁড়ায়। প্যান্ডেলের আলোকসজ্জা যেন এক ক্ষণস্থায়ী মরীচিকা, যা আসন্ন বিচ্ছেদের গভীর ছায়া বহন করে। কবি এখানে আনন্দের আড়ালে লুকিয়ে থাকা অনিবার্য শূন্যতার মুখোমুখি হন, যেখানে মহাজাগতিক শক্তির মর্ত্যে প্রত্যাবর্তন কেবল একটি চক্রের সমাপ্তি, যা মানব মনের গভীরতম আকাঙ্ক্ষা ও হারানোর বেদনাকে প্রশ্ন করে। এই অধ্যায়টি জিজ্ঞাসা করে: এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি কি কেবলই একটি বার্ষিক প্রথা, নাকি এর গভীরে মানব চেতনার পুনর্জন্মের এক অনিবার্য প্রতিশ্রুতি নিহিত?",
+  "further_references": [
+    "6"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "আলোর ম্লান প্রতিচ্ছবি",
+      "segment_summary": "প্যান্ডেলের উজ্জ্বল আলো যেন হঠাৎ করেই থমকে গেছে, আর প্রতিমার চোখে ধরা পড়েছে আসন্ন বিদায়ের এক নীরব জিজ্ঞাসা।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 60,
+      "segment_title": "মাটির আত্মার দ্বিধা",
+      "segment_summary": "মাটির এই রূপ, যা এতক্ষণ শক্তি ধারণ করেছিল, এখন তার ভঙ্গুরতা ও ক্ষণস্থায়ীতার ভার অনুভব করছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 60,
+      "segment_title": "আনন্দের আড়ালে শূন্যতা",
+      "segment_summary": "সিঁদুর খেলার উষ্ণতা ও ঢাকের শেষ বাদ্যির মাঝেও এক শীতল শূন্যতা বাসা বাঁধছে, যা আসন্ন বিচ্ছেদের পূর্বাভাস দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 60,
+      "segment_title": "অনিবার্য প্রস্থান",
+      "segment_summary": "এই মর্ত্য লীলা সমাপ্তির দিকে এগোচ্ছে, যেখানে প্রতিটি মুহূর্ত যেন এক দীর্ঘশ্বাস হয়ে জমে উঠছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "দর্শকের নীরব অপেক্ষা",
+      "segment_summary": "হাজারো মানুষের ভিড় যেন থমকে গেছে, তারা জানে এই আনন্দের শেষ পরিণতি কী হতে চলেছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 60,
+      "segment_title": "চক্রের বিরতি",
+      "segment_summary": "এই বিচ্ছেদ কেবল একটি উৎসবের সমাপ্তি নয়, এটি মহাজাগতিক চক্রের একটি অনিবার্য বিরতি মাত্র।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 60,
+      "segment_title": "স্মৃতির লাল আভা",
+      "segment_summary": "তবুও, সিঁদুরের লাল আভা আর শিউলির গন্ধ যেন এই ক্ষণস্থায়ীতাকে এক গভীর স্মৃতিতে পরিণত করার চেষ্টা করছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "পুনর্জন্মের প্রতিজ্ঞা",
+      "segment_summary": "এই বিষাদের গভীরে লুকিয়ে আছে সেই নীরব প্রতিশ্রুতি, যে শক্তি আবার ফিরে আসবে, নতুন রূপে, নতুন আশায়।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Treating the painted face as a historical palimpsest: each application of color (the rouge, the black outline) layering stories from millennia past onto the present clay.",
-      "Focusing on the internal debate of the artist regarding 'perfection': when does replication become sacrilege? The moment beauty threatens to trap the divine essence too rigidly.",
-      "Framing the face as a map: every crease, every painted expression, denoting not physical emotion but theological concepts (e.g., compassion, wrath, stillness)."
+      "Framing the waiting crowd not as spectators, but as reservoirs holding latent, unexpressed spiritual energy awaiting transference.",
+      "Treating the scent of shiwuli/syindur as a form of ephemeral memory storage—a chemical anchor binding transient joy to enduring grief.",
+      "Focusing on the sound decay after the last major ritual beat: analyzing how acoustic silence functions poetically, rather than merely being an absence of noise."
     ],
     "story_options": [
-      "setting: A narrow section of cheek molding during mid-day sun., desire: To capture the precise sensation of the artist's breath misting the cooling clay before a final line is drawn., obstacle: The sudden, distracting sound of village chatter from outside the workshop walls., turn: The interruption forces the artist to instantly shift focus from divine serenity to mundane reality.",
-      "setting: Close-up on the mouth area while applying subtle color gradients., desire: To convey the immense, unspeakable sorrow of separation (Bishorjon) even within the serene depiction of the face., obstacle: The clay's tendency to slump or shift weight due to humidity changes in the air., turn: A small structural wobble forces a drastic re-evaluation of the mouth's symmetry.",
-      "setting: In the shadow cast by the heavy, carved jewelry molds nearby., desire: To experience the face as an intermediary object—a locus where human aspiration meets cosmic reality., obstacle: The overwhelming glare or shadow making precise color application impossible., turn: The artist deliberately uses imperfect lighting to introduce deliberate visual ambiguity into the final portrait."
+      "Setting: A small, unnoticed corner near the water source where a lone family watches; Desire: To preserve a single tangible object (like a discarded shard of clay) as proof of what was witnessed; Obstacle: The overwhelming tide of ritualistic sorrow.",
+      "Setting: The specific point on the pandal structure where the light fixtures are beginning to fail or dim visibly; Desire: To capture that exact fraction of seconds when artificial glory yields to organic darkness; Obstacle: The rush of human activity pushing towards departure.",
+      "Setting: Inside a craftsman's discarded workshop adjacent to the main site (revisiting craft context); Desire: To find a specific, unpainted piece of clay imbued with residual divine presence; Obstacle: The harsh reality that true divinity cannot be permanently captured in inert matter."
     ],
     "subject_rotations": [
-      "Shifting focus entirely from 'beauty' (aesthetic representation) to 'function' (how the facial structure directs spiritual energy).",
-      "Treating the face not as Durga’s, but momentarily through the eyes of a devotee who is witnessing this creation process.",
-      "Examining the relationship between human effort and divine allowance: how much control does the artisan truly possess over the ultimate expression?"
+      "Shifting focus from Durga's descent to the human 'I' experiencing a profound existential moment of *letting go* (similar concept, different emotional register than previous chapters).",
+      "Interpreting the physical weight of the idol/clay not as the material burden, but as the symbolic weight of societal expectation and communal performance.",
+      "Treating the final dimming light as a visual representation of entropy overtaking temporary order."
     ],
     "sensory_details": [
-      "Sight: The specific, bruised-purple stain left by an oxide pigment mixing with wet clay on a protective cloth.",
-      "Touch: The subtle, almost imperceptible vibration in the tools as they are tapped against the hardened surface of the sculpted form.",
-      "Sound: A sharp, brief intake of breath from the artist right before executing a critical line."
+      "The slightly acrid taste of residual incense smoke left lingering in the throat after intense ritual chanting.",
+      "The cool, slick texture of damp earth on bare feet just before wading into the immersion water.",
+      "A specific high-pitched ringing sensation that persists momentarily behind the eardrums after a loud gong sound."
     ],
     "research_questions": [
-      "What specific local clay oxides (e.g., iron-based pigments) were historically most used in Durga idol making to achieve deep reds or browns?",
-      "Are there specific mantras or traditional incantations recited by the artist during the act of giving face/eyes, and what do they entail?",
-      "In ritual contexts, how is 'idealized' facial symmetry reconciled with periods where human imperfection is deliberately incorporated for expressive effect?"
+      "Are there documented or symbolic uses in Bengali cultural lore where the transitional period between intense celebration and profound grief holds unique spiritual weight?"
     ],
     "structural_variants": [
-      "A micro-poem structure: dedicating an entire strophe or section to the pigment itself—its source, its mixing, its settling on the surface.",
-      "An extended meditation that pauses entirely between lines, forcing the reader's gaze to linger uncomfortably long on a single painted feature (an eye corner, a lip curve)."
+      "Structuring it as an internal dialogue (stream of consciousness) contrasting the 'public face' (joy/crowd) with the private, melancholic monologue.",
+      "Using a heavily fragmented structure where each segment is defined by one dominant sensory decay (light fades -> sound softens -> warmth retreats)."
     ],
     "unused_angles": [
-      "Exploring the idea of mimicry vs. embodiment in art: Is the artist copying Durga, or is he facilitating her temporary manifestation?",
-      "The metaphysical weight carried by a single, unused tool left beside the work—what does its potential signify?"
+      "Examining how the absence of Durga's direct visual presence forces the worshipper to rely solely on internalized spiritual memory or feeling.",
+      "A focus on the 'void' immediately following a significant ritual—the pause where meaning itself seems suspended."
     ],
-    "variety_note": "This chapter shifts focus from the structural bones of the idol (previous chapters) to the highly concentrated interface of art and theology: the face itself."
+    "variety_note": "Unlike previous chapters that focused on creation (craft/sound) or intensity (climax), this section centers entirely on decay, anticipation of loss, and the melancholic beauty inherent in transition."
   },
   "draft": {
-    "sha256": "077fa635ad1d6486d34bb5c8f469c345fb4c5bf48e6fe97efab61f5126b9e79a",
-    "written_at": "2026-10-29T14:56:26.938303+00:00",
+    "sha256": "ed8e39fb6524f13896a039f014a038adb32fa36c1d03b5d64f4879c60f276bd3",
+    "written_at": "2026-11-16T08:37:03.317289+00:00",
     "origin": "write"
   }
 }

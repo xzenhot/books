@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 14,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "নতুন স্রোতের আহ্বান",
+  "segment_summary": "নদীর किनारे নতুন ধরনের কাঠামো দেখা দেয়, যা মাঝির পরিচিত পথকে চ্যালেঞ্জ জানায় এবং তাকে নতুন নিয়ম মেনে চলতে বাধ্য করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing not on 'yielding,' but on the precise *architecture* of adaptation—how he subtly reroutes his traditional service to fit a new mandatory fare structure without betraying the spirit of generosity.",
+    "story_option": "Setting: Beside a newly poured concrete pier at midday. Desire: He desires to find a way for the new, hurried passengers to experience an unmetered moment of shared silence before leaving him.",
+    "subject_rotation": "Treating the change not as a choice between two paths, but as an inescapable confluence where both are present simultaneously—he rows *under* the bridge while arguing with the ledger.",
+    "sensory_detail": "The metallic tang of runoff water from the newly erected steel pilings.",
+    "research_question": "What specific vocabulary exists within Bengali delta culture to describe 'navigating necessary compromise' rather than outright surrender?",
+    "structural_variant": "A cyclical structure where each new element of modernity forces a complete return, not to the beginning, but to a slightly altered version of the moment it started.",
+    "variety_note": "This chapter shifts focus from internal philosophical questioning (like Chapter 11's decision) to the *process* of ongoing, pragmatic adaptation, demonstrating that endurance requires intelligent incorporation rather than stubborn isolation."
+  }
 }

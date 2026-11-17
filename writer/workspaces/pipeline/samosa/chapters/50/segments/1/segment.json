@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 50,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সরিষার হলুদ আভা",
+  "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার দৃশ্যটি বর্ণনা করা হবে, যেখানে তার ঝাঁঝালো গন্ধই যেন মাটির সঙ্গে মিশে থাকে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The sensory experience of the oil transition viewed from a third-person perspective (the food itself).",
+    "story_option": "Setting: A specific street corner where foreign vendors sell generic snacks; Desire: To smell one drop of genuine *sorsher tel* rising from a hidden source; Obstacle: The surrounding cacophony drowning out any olfactory clue; Turn: 'I' realize the scent must be conjured internally, not found externally.",
+    "subject_rotation": "Treating oil as a measure of cultural 'density'—high density (mustard) vs. low density (neutral).",
+    "sensory_detail": "The sharp, almost stinging sensation on the nostrils upon inhaling hot mustard oil vapor.",
+    "research_question": "What archaic Bengali vocabulary describes the pungent quality (*teekha*) unique to high-quality *sorsher tel* in a way that differentiates it from general 'sharpness'?",
+    "structural_variant": "A cyclical structure where Segment 8 forces a return not just to the beginning (Segment 1), but to the state before the migration began.",
+    "variety_note": "This chapter shifts focus from the object's transformation in transit (neighboring chapters) to the *medium* itself—the cooking oil—as the primary carrier and casualty of cultural displacement, providing an intensified sensory contrast."
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 81,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "করুণার গভীরতা",
+  "segment_summary": "বিজয় সত্ত্বেও, কাব্যটি পাঠকের মনে এক গভীর করুণার অনুভূতি জাগিয়ে তোলে, যা সংগ্রামের মূল্যকে স্মরণ করিয়ে দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the societal 'silent accusation' (নীরব অভিযোগ) as an auditory echo that even proximity to Likhindar cannot fully mute.",
+    "story_option": "Setting: A quiet riverside alcove, bathed in thin pre-dawn light; Desire: To speak a single word that validates all her silent endurance; Obstacle: The inherent grammar of societal disapproval refuses to let the phrase settle.",
+    "subject_rotation": "Focusing intensely on the *texture* of enduring belief—how it feels under pressure, like aged metal or taut silk.",
+    "sensory_detail": "The faint, persistent thrumming resonance in one's inner ear—a single note that refuses to cease its oscillation (auditory twist from seed).",
+    "research_question": "What specific Bengali idiom can convey 'sanctified exhaustion'—the weariness after ultimate spiritual victory without sounding defeated?",
+    "structural_variant": "A coda composed entirely of unspoken dialogues between husband and wife.",
+    "variety_note": "This chapter focuses exclusively on the aftermath: the echo of victory rather than the violent struggle itself, employing a lingering, almost suspended tone to contrast with earlier battles."
+  }
+}

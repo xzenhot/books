@@ -1,65 +1,120 @@
 {
   "chapter_index": 4,
   "name": "4",
-  "word_target": 400,
-  "chapter_title": "বিদ্রোহের অগ্নিশিখা ও সম্রাটের দ্বিধা",
-  "chapter_summary": "এই অধ্যায়টি ১৮৫৭ সালের পটভূমিতে জাফরকে এক চরম নৈতিক ও রাজনৈতিক সন্ধিক্ষণে ফেলে দেয়। দিল্লির বাতাসে যখন বিদ্রোহের আগুন ছড়িয়ে পড়ে, তখন সম্রাটের সামনে দুটি পথ উন্মোচিত হয়: ব্রিটিশদের আরোপিত 'শান্তি' মেনে নেওয়া অথবা বিদ্রোহের স্রোতে ঝাঁপিয়ে পড়া। এই অভ্যন্তরীণ দ্বন্দ্ব, যেখানে ঐতিহ্যবাহী রাজকীয় আনুগত্য এবং নতুন জাগরণের আহ্বান মুখোমুখি, তা তাঁর অস্তিত্বের মূল ভিত্তিকে নাড়িয়ে দেয়। প্রশ্নটি হলো—যখন সাম্রাজ্যের কাঠামো ভেঙে পড়ছে, তখন একজন প্রতীকী শাসক কীভাবে তার নৈতিক অবস্থান নির্ধারণ করবেন?",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "১৮৫৭-এর বিদ্রোহের স্ফুলিঙ্গ",
+  "chapter_summary": "এই অধ্যায়টি ১৮৫৭ সালের বিদ্রোহের অস্থিরতা এবং দিল্লির রাজনৈতিক পটপরিবর্তনের কেন্দ্রবিন্দুতে সম্রাটের অবস্থানকে চিত্রিত করে। একদিকে বিদ্রোহের উন্মত্ততা এবং জনগণের ক্ষোভের তীব্র চিত্র ফুটে ওঠে, অন্যদিকে লালকেল্লার অভ্যন্তরে রাজকীয় স্থিতিশীলতার একটি ভঙ্গুর আবরণ বিদ্যমান থাকে। সম্রাট প্রতীকীভাবে এই উত্থানের সাক্ষী হলেও, তাঁর ব্যক্তিগত ক্ষমতা ক্রমশ ক্ষয়িষ্ণু হয়ে আসছে। এই অধ্যায়টি প্রশ্ন তোলে—যখন সাধারণ মানুষের বিদ্রোহ রাজকীয় কাঠামোর ভিত্তিকে নাড়িয়ে দেয়, তখন একজন প্রতীকী শাসক তার আত্মমর্যাদা কীভাবে রক্ষা করেন?",
   "further_references": [
+    "2",
+    "4"
+  ],
+  "segments": [
     {
-      "no": "2",
-      "reference": "দেবীমাহাত্ম্য নয় — বরং ১৮৫৭-র সমসাময়িক বিবরণ ও ব্রিটিশ প্রতিবেদন",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "দিল্লির অস্থির বাতাস",
+      "segment_summary": "বিদ্রোহের প্রাথমিক স্ফুলিঙ্গগুলি দিল্লির রাজকীয় পরিবেশকে কীভাবে প্রভাবিত করতে শুরু করে, তার সূক্ষ্ম বর্ণনা এখানে দেওয়া হয়েছে।",
+      "further_references": []
     },
     {
-      "no": "4",
-      "reference": "উইলিয়াম ডালরিম্পলের 'The Last Mughal'",
-      "weblink": ""
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "প্রতীকী কেন্দ্রবিন্দু",
+      "segment_summary": "সম্রাট বাহাদুর শাহ জাফর কীভাবে এই অস্থিরতার কেন্দ্রবিন্দুতে অবস্থান করেও কার্যত বিচ্ছিন্ন হয়ে পড়েন, তা কাব্যিকভাবে তুলে ধরা হয়েছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "রাজকীয় স্থিতিশীলতার বিভ্রম",
+      "segment_summary": "লালকেল্লার অভ্যন্তরে বিদ্যমান আনুষ্ঠানিক শৃঙ্খলা এবং বাইরের বিশৃঙ্খলার মধ্যেকার তীব্র বৈপরীত্য এই অংশে চিত্রিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "ক্ষমতার ক্ষয়িষ্ণুতা",
+      "segment_summary": "প্রশাসনিক ও সামরিক ক্ষমতার হাত থেকে সরে গিয়ে সম্রাটের অবস্থান কীভাবে কেবল একটি ঐতিহাসিক স্মারক হয়ে উঠছে, তা অনুভব করা যায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "শব্দের আশ্রয়",
+      "segment_summary": "এই চরম রাজনৈতিক অস্থিরতার সময়ে, সম্রাটের জন্য গজল এবং কবিতা কীভাবে মানসিক আশ্রয়স্থল হয়ে ওঠে, তার সূচনা এখানে ঘটে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অনিশ্চয়তার ছায়া",
+      "segment_summary": "বিদ্রোহের অনিশ্চিত ভবিষ্যৎ এবং সম্রাটের ব্যক্তিগত নিরাপত্তাহীনতার মধ্যেকার টানাপোড়েন এই অংশে গভীর রূপে প্রকাশিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "ঐতিহ্যের ভার",
+      "segment_summary": "মুঘল ঐতিহ্যের বিশাল ভার এবং বর্তমানের রাজনৈতিক বাস্তবতার নির্মম সংঘর্ষ এই অধ্যায়ের মূল চিত্রকল্প।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "প্রশ্ন: কি টিকে থাকবে?",
+      "segment_summary": "এই অধ্যায়টি শেষ হয় একটি মৌলিক প্রশ্নে—যখন সমস্ত রাজনৈতিক কাঠামো ভেঙে পড়ে, তখন কি কেবল সাংস্কৃতিক বা কাব্যিক প্রতিরোধই অবশিষ্ট থাকে?",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing not on his decision to join/oppose, but on the agonizing *hesitation* itself—the moment where history feels suspended between two possible futures.",
-      "Framing the choice as a conflict between inherited divine right (Mughal ideology) and emergent popular revolutionary spirit (1857 uprising).",
-      "A perspective from an unnamed retainer witnessing the monarch’s internal battle, seeing the split loyalties play out in his divided gestures."
+      "বিদ্রোহের উন্মত্ততা যেন একটি 'শব্দ' হিসেবে লালকেল্লার দেয়াল ভেদ করে ভেতরে প্রবেশ করছে, যা সম্রাটের শান্ত মেজাজকে অস্থির করে তুলছে।",
+      "বাহাদুর শাহ জাফর-এর দৃষ্টিকোণ থেকে ব্রিটিশ সামরিক উপস্থিতি কেবল কাঠামোগত নয়, বরং এক অদৃশ্য মানসিক নিপীড়ন হিসেবে অনুভূত হচ্ছে।",
+      "একজন সভাসদ বা কবি যিনি গোপনে বিদ্রোহের ভাষা বুঝতে পারছেন এবং সম্রাটের কাছে তা স্তবক আকারে উপস্থাপন করছেন (গোপনীয় যোগাযোগের মাধ্যমে)।"
     ],
     "story_options": [
-      "Setting: A small chamber overlooking a street engulfed by skirmishes. Desire: To decide whether to issue a decree endorsing resistance or maintaining fragile peace; Obstacle: The sound of approaching cannon fire blocks all reasoned counsel.",
-      "Setting: An evening council meeting (after the official announcements). Desire: To find a language—a poetic justification—that allows him to betray his imperial duty without destroying his soul; Obstacle: Ghalib offers no satisfactory words for such a moral catastrophe.",
-      "Setting: Near one of the personal chambers where military advisors gather. Desire: A single, decisive moment involving a physical object (like an old banner or crest) that represents a choice; Obstacle: The weight and inertia of centuries of tradition prevent any swift action."
+      "setting: লালকেল্লার একটি সরু করিডোর, desire: একজন বিশ্বস্ত নথিপত্র রক্ষক দ্রুত হাতে আসা খবর গোপন করে সম্রাটকে দিচ্ছেন। obstacle: দরজার বাইরে সৈন্যদের চাপা পদধ্বনি এবং আতঙ্কের ঘ্রাণ। turn: সম্রাট সেই সংবাদ শোনার বদলে পুরাতন কোনো গজল পাঠ শুরু করেন।",
+      "setting: দিওয়ান-ই-খাস, মধ্যাহ্ন কাল (বাইরে তীব্র উত্তেজনা চলছে), desire: সম্রাট চান, যেন এই চরম মুহূর্তেও মুশায়রার পুরনো রীতিনীতিগুলো চালু থাকে—যেন সময় থেমে যায়। obstacle: কোম্পানির আধিকারিকদের কঠোর উপস্থিতি এবং উচ্চস্বরের প্রশাসনিক আলোচনা। turn: সম্রাটের নীরব সম্মতি দ্বারা সেই আনুষ্ঠানিকতা আরও অপমানিত হয়।",
+      "setting: ব্যক্তিগত দরবার কক্ষ, desire: সম্রাট একটি বিশেষ তাস বা খেলা খেলতে চাইছেন যা তাদের অতীতের রাজকীয় বিনোদনের প্রতীক ছিল, যেন তিনি ক্ষমতার খেলায় ফিরতে পারেন। obstacle: কোনো প্রশাসনিক নির্দেশ তাকে সেই বিনোদন থেকে বিরত রাখছে—এটি 'জেল' (jail) এর প্রাথমিক রূপ হিসাবে কাজ করে। turn: খেলাটির প্রতি তাঁর আগ্রহ হঠাৎ ধূলিধূসর হয়ে যায়।"
     ],
     "subject_rotations": [
-      "Treating the rebellion not as a military event, but as a sudden, overwhelming influx of *noise*—a cacophony drowning out the refined quietude of courtly contemplation.",
-      "Examining 'Dharma' or moral obligation: Does his duty lie to God/Tradition (Mughal mandate) or to the common people who rise up?",
-      "A study in inertia versus momentum: The immense, slow-moving weight of imperial legacy against the sudden, kinetic force of popular revolt."
+      "বিদ্রোহকে কেবল একটি রাজনৈতিক অভ্যুত্থান না দেখিয়ে, এটিকে সাংস্কৃতিক নৈরাজ্য হিসেবে চিত্রিত করা—যেখানে ভাষা ও রীতিনীতি ভেঙে পড়ছে।",
+      "সম্রাটের ব্যক্তিগত নিরাপত্তাহীনতাকে কেন্দ্র করে—বহিরঙ্গর শক্তির চাপকে অভ্যন্তরীণ মনস্তাত্ত্বিক 'আতঙ্ক' বা 'ভীতি'-তে রূপান্তরিত করা (fear vs. might)।",
+      "ব্যক্তিগত ত্যাগ বনাম গণবিদ্রোহ: সম্রাটের নীরব অবস্থান এবং জনগণের চিৎকারের মধ্যেকার দার্শনিক ব্যবধানের উপর জোর দেওয়া।"
     ],
     "sensory_details": [
-      "The sharp metallic tang of gunpowder mixing with the stale aroma of expensive incense that usually pervades the halls.",
-      "The texture of hastily drawn campaign maps laid across a low, embroidered silk table, contrasting against polished Mughal inlay.",
-      "The high-pitched shriek of a terrified pigeon being shot from a nearby rooftop during the onset of distant fighting."
+      "পোড়ামাটির পাথরের ওপর পড়ন্ত সন্ধ্যার শেষ আলোর তীক্ষ্ণ, খণ্ডিত আভা (Sight)।",
+      "রাজপ্রাসাদের ভেতরের শান্ত বাতাসের সঙ্গে মিশে আসা দূরে যুদ্ধক্ষেত্রের ধাতব ঘর্ষণের দূর্বল অনুরণন (Sound)।",
+      "অশুভ খবর বহনকারী দূতের হাতে ধরা কাগজের শুকনো, ভঙ্গুর গন্ধ (Smell)।"
     ],
     "research_questions": [
-      "What specific cultural or religious justifications existed within the late Mughal milieu that could lend symbolic legitimacy to both staunch loyalty to the Crown and participation in popular uprising?",
-      "How might 19th-century Indian poets have articulated this dichotomy between established divine monarchy and rising, localized socio-political mobilization?"
+      "১৮৫৭ সালের নির্দিষ্ট কোনো ঘটনার সময় লালকেল্লার ভেতরের প্রশাসনিক কাঠামোতে কোন ধরনের অভ্যন্তরীণ বিভাজন বা দ্বিধাবিভক্তি দেখা গিয়েছিল যা কবিতার চিত্রায়ণের সহায়ক হতে পারে?",
+      "মুঘল রাজদরবারের মধ্যে 'প্রতীকী ক্ষমতা' ও প্রকৃত প্রশাসনিক ক্ষমতার মধ্যকার আদান-প্রদানের সূক্ষ্ম সামাজিক প্রোটোকল কী ছিল?"
     ],
     "structural_variants": [
-      "A fragmented structure where each segment presents a single piece of evidence (a shouted order, a glimpse of fire, an internal sigh) before abruptly cutting to the next.",
-      "An epistolary approach: inserting imagined letters exchanged between two dissenting nobles arguing over the appropriate response."
+      "কবিতাটিকে এক প্রকার সংলাপের আকারে বিন্যস্ত করা, যেখানে বাইরের বিশৃঙ্খলা (চিৎকার) এবং ভিতরের ধ্যান (গজল পাঠ)-এর মধ্যে একটি চলমান প্রতিধ্বনির সৃষ্টি হবে।",
+      "অত্যন্ত দ্রুত গতিময়, খণ্ডিত স্তবক ব্যবহার করা যা বিদ্রোহের অস্থিরতা ফুটিয়ে তোলে, মাঝেমধ্যে হঠাৎ করে দীর্ঘ, স্থিতিশীল গজল-ছন্দের দিকে প্রত্যাবর্তন করা।"
     ],
     "unused_angles": [
-      "The role of women in navigating this political cleavage—what counsel do they offer from a protected space?",
-      "Focusing solely on the infrastructure failure (supply lines, communication breakdown) as a metaphor for imperial moral collapse.",
-      "How foreign observers (if any were present near Delhi at that moment) might interpret his indecision."
+      "ব্রিটিশ প্রতিনিধিদের ব্যক্তিগত ভয় বা দ্বিধা—তাদের দৃষ্টিকোণ থেকে এই 'প্রতীকী' পতনকে কীভাবে নথিভুক্ত করা হচ্ছিল।",
+      "ক্ষমতার হস্তান্তর প্রক্রিয়ার লজিস্টিকাল দিকগুলো (যেমন সৈন্য সমাবেশ, যোগাযোগ ব্যবস্থা) যা প্রতীকীর বিপরীতে বাস্তবতাকে জোর দেয়।"
     ],
-    "variety_note": "Unlike chapters focused on opulent decay or isolated despair, this chapter centers on an active, terrifying choice within the crucible of widespread upheaval. It is driven by immediate external pressure rather than introspection alone."
+    "variety_note": "এটি আগের পর্বগুলোর আলংকারিক আভিজাত্য থেকে সরে এসে সরাসরি রাজনৈতিক অস্থিরতা ও মানসিক চাপে নজর দিচ্ছে; এখানে মহত্ত্বের সাথে আসন্ন পতন মিলেমিশে একাকার হয়ে গেছে।"
   },
   "draft": {
-    "sha256": "5b31e83e3b37c4ff62d00f563cbdb64294307effa461d6a321af9914db2aef84",
-    "written_at": "2026-10-29T19:58:23.553609+00:00",
+    "sha256": "1dae87f39404452005a4c0738870356925ed2fa86adb4529ff79fdb47914adea",
+    "written_at": "2026-11-16T22:57:49.622267+00:00",
     "origin": "write"
   }
 }

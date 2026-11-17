@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "মাটির অভাব",
+  "segment_summary": "কবরের জন্য দুই গজ মাটি না পাওয়ার মর্মান্তিক বাস্তবতা, যা তাঁর সামাজিক ও রাজনৈতিক মর্যাদার চূড়ান্ত পতনকে নির্দেশ করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Juxtaposing the 'Khutba' (sermon/proclamation) tradition against a silent grave; what does an unspoken decree mean in this context?",
+    "story_option": "Setting: A makeshift wooden platform awaiting his final rites in Rangoon; Desire: To dictate one last line—a couplet that simultaneously claims empire and accepts oblivion; Obstacle: The exhausted messenger who only carries official notices.",
+    "subject_rotation": "Analyzing the silence *after* his passing—how does this void echo louder than any battle cry?",
+    "sensory_detail": "A deep metallic scent—like aged, cold iron or tarnished copper—associated with official seals and lost nobility.",
+    "research_question": "How did the military administration define 'acceptable' land usage in a transitional zone like Rangoon for deposed royalty?",
+    "structural_variant": "Segment 3 written as a direct, highly formalized bureaucratic transcript broken up by intensely personal verse interjections.",
+    "variety_note": "This chapter pivots away from active resistance (like Chapter 9's writing) to a meditation on absolute erasure—the philosophical space between being alive and simply not existing as a recognised entity."
+  }
+}

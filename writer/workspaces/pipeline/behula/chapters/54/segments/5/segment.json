@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 54,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অনুপ্রেরণার স্রোত",
+  "segment_summary": "বেহুলার যাত্রা প্রমাণ করে যে চরম প্রতিকূলতার মুখেও ভেতরের আলোকবর্তিকা কীভাবে পথ দেখায়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence immediately following the climax—the space where all arguments and suffering momentarily cease before reconciliation begins.",
+    "story_option": "Setting: Near a specific spot where light (প্রদীপ) broke through a long period of shadow within their dwelling; Desire: To perform a small, unrecognized ritual that only they know, signifying restoration; Obstacle: Lingering doubts about the authenticity of his presence.",
+    "subject_rotation": "Reframing the societal critique not as an external verdict, but as a psychic scar tissue imprinted upon their shared domestic space.",
+    "sensory_detail": "The specific sound of dust disturbed on ancient, rarely used floorboards when he steps into a room after prolonged absence (auditory).",
+    "research_question": "What classical Bengali metaphor describes fortitude that possesses crystalline rigidity without suggesting utter finality or cessation of striving?",
+    "structural_variant": "A cyclical structure where each segment uses a foundational image from the previous one, but reverses its emotional implication (e.g., 'Light' becomes 'Shadowed Memory').",
+    "variety_note": "This chapter shifts focus from the immediate trauma and struggle (previous segments) to the *aftermath*—the nuanced, complex emotional reality of sustained existence following an epic spiritual war, while challenging whether this victory is truly absolute or merely conditional."
+  }
+}

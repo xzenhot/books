@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আত্ম-প্রতারণার উপলব্ধি",
+  "segment_summary": "এই প্রতিরোধ তাকে ধীরে ধীরে উপলব্ধি করায় যে তার সমস্ত প্রচেষ্টা আসলে এক ধরনের আত্ম-প্রতারণা ছাড়া আর কিছুই নয়।",
+  "name": "5.6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing his desire not as preservation, but as an attempt to rewrite the narrative history sanctioned by modern academia.",
+    "story_option": "Setting: Near the edge of the Satual village field where ancient boundaries used to be marked by standing stones; Desire: To forcefully re-establish a conceptual boundary around the ruins using modern surveying tools; Obstacle: The elders simply walk through his survey lines without acknowledging them; Turn: He drops his tape measure, admitting its irrelevance.",
+    "subject_rotation": "Shifting the locus of desire: Is he trying to save the *place*, or is he desperately trying to validate a lost piece of his own lineage/culture through this artifact?",
+    "sensory_detail": "Sound: A high-pitched, almost subsonic whine emanating from stressed joints in heavily weighted wooden door frames.",
+    "research_question": "How is 'stewardship' defined within contemporary conservation discourse versus non-interventionist local philosophies?",
+    "structural_variant": "A highly rhetorical essay disguised as poetry, wherein the traveler's internal monologue directly argues against philosophical concepts of completion.",
+    "variety_note": "This chapter moves from initial observation to intellectual struggle; where previous chapters established context and observed quiet resistance, this segment focuses intensely on the internal machinery of the traveler's overwhelming ego and its inevitable self-contradiction."
+  }
+}

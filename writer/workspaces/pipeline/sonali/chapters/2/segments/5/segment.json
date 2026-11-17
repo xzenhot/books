@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "সুপ্ত আনন্দের অনুরণন",
+  "segment_summary": "প্রতিটি জাগতিক উদ্দীপনা তার ভেতরের সেই স্বর্গীয় আনন্দের একটি ক্ষীণ, কিন্তু স্পষ্ট প্রতিধ্বনি সৃষ্টি করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "ইন্দ্রিয়গত জাগরণকে একটি 'স্বয়ং-প্রতিস্থাপন' হিসেবে দেখানো, যেখানে বাহ্যিক উদ্দীপনা তার ভেতরের সত্তাকে নতুন রূপে জোর করে ঢেলে দিচ্ছে।",
+    "story_option": "বৃষ্টিস্নাত বিকেলে, ছাদের কোণে বসে সে পুরোনো লণ্ঠনটির দিকে তাকায় (স্থান), শীতল ভেজা বাতাস তাকে আত্মার গভীরতম স্তরে টেনে নিয়ে যায় (আকাঙ্ক্ষা), কিন্তু সেই বাতাসের মধ্যে কেবল বিবর্ণ নোনা জলের গন্ধ আসে (বাধা/মোড়)।",
+    "subject_rotation": "এই জাগরণকে কেবল কামনার দিকে চালিত না করে, প্রকৃতির আদিম শক্তির প্রতি (যেমন মাটির গন্ধ) এক সম্মানের জন্ম দেওয়া—যা আকাঙ্ক্ষাকে পবিত্রতা দেয়।",
+    "sensory_detail": "বাজারের কোলাহলের মাঝেও কানে ভেসে আসা দূরবর্তী কোনো বাঁশির একঘেয়ে, অথচ অনুরণনকারী সুর (অডিটরি)",
+    "research_question": "এই পরিস্থিতিতে 'বিচ্ছিন্নতার ছায়া' কি কেবল পরিবেশগত নাকি এটি সোনালী-র অভ্যন্তরীণ চেতনার স্থিতিস্থাপকতার অভাবের বহিঃপ্রকাশ?",
+    "structural_variant": "Poem begins with a highly detailed sensory immersion (Segment 1-3), followed by an abrupt halt or shift in meter/tone at Segment 4 to reflect the initial cognitive dissonance.",
+    "variety_note": "This chapter shifts focus from introspection (Chapter 1) to outward immersion; it documents how intense sensory engagement paradoxically deepens the internal sense of alienation."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির অনুরণন",
+  "segment_summary": "ঢাকের বোলা আর মন্ত্রের অনুরণন যেন মনের গভীরে এক চাপা সুর হয়ে রয়ে যায়, যা সহজে মুছে যায় না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the narrator's observation from an 'afterglow perspective'—not just what remains, but how the *texture* of reality seems altered by the brief divine visitation.",
+    "story_option": "Setting: An empty puja room, shortly after ritual completion; Desire: To feel the cooling residual energy of the idol's sanctum through bare skin; Obstacle: The immediate pull towards practical responsibilities (bills, work) that demand normalcy.",
+    "subject_rotation": "Examining the difference between 'joy' (আনন্দ—transient emotion) and 'devotion' (ভক্তি—enduring internal state) in the post-festival landscape.",
+    "sensory_detail": "The metallic chill radiating from discarded brass ritual implements left outside after the rituals (temperature/sight).",
+    "research_question": "How can I invoke a poetic rhythm that feels 'settled' or 're-grounded' rather than merely fading, without sounding lethargic?",
+    "structural_variant": "A structure defined by deceleration: each segment must be perceptibly slower and less expansive in imagery than the last.",
+    "variety_note": "Unlike previous chapters that focused on the intensity of arrival/climax, this chapter emphasizes entropy, residue, and the quiet work of psychic integration after the spiritual storm has passed."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 63,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আত্মার মহিমা",
+  "segment_summary": "বেহুলার এই বিজয় তাকে কেবল একজন নারী হিসেবে নয়, বরং এক মহৎ, অবিস্মরণীয় প্রতীক হিসেবে প্রতিষ্ঠিত করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Philosophical Shift: Moving beyond individual triumph to focus on how that personal victory retroactively exposes systemic flaws in social structures regarding womanhood.",
+    "story_option": "Setting: At the threshold of their shared sanctuary (লৌহবাসরঘরের বাইরে); Desire: To articulate in one word the totality of her endurance; Obstacle: The overwhelming weight of unsaid words and past sacrifices.",
+    "subject_rotation": "Re-reading the trials: Viewing every previous obstacle (divine wrath, societal gaze) through the lens of its necessity for this singular moment of apotheosis.",
+    "sensory_detail": "The smell of rain on dry earth immediately following intense drought (symbolizing crisis breaking into fullness).",
+    "research_question": "What established Bengali imagery denotes absolute, irreversible resolution ('final victory') without resorting to bombastic or overtly religious terminology?",
+    "structural_variant": "A non-linear movement: Begin with the resolution, immediately cut back several times into moments of intense doubt from earlier chapters, and only then allow the final peaceful culmination.",
+    "variety_note": "This chapter pivots from intense internal struggle to external fulfillment; where neighbors dwelt in pressurized introspection, this segment emphasizes resonant proclamation and enduring spiritual aftermath, while incorporating a deliberate structural volta based on re-reading past experience through the lens of reunion."
+  }
+}

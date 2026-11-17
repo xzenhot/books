@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 40,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "স্বাদের চাপা পড়া",
+  "segment_summary": "সরিষার তেলের সেই পরিচিত ঝাঁঝালো গন্ধটি এখানে অন্য কোনো তেল বা মশলার তীব্রতায় চাপা পড়ে যায়, যা স্বাদের বিচ্যুতিকে প্রতীকায়িত করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker adopting a dual voice: one describing the visual cacophony ('market') and the other using hyper-detailed diction to describe the internal 'kitchen' taste.",
+    "story_option": "Setting: A small, quiet alcove near spice sellers, Desire: To observe how spices are sold here—measured in bulk/weight—contrasted with 'mother's measurement', Obstacle: The relentless need to perform a transaction.",
+    "subject_rotation": "Exploring how the market dictates consumption patterns (fast grabbing) which fundamentally undermines the experience of deep tasting.",
+    "sensory_detail": "The auditory signature of countless rapid footsteps echoing off poorly maintained concrete slabs.",
+    "research_question": "Can I use specific low-register Hindi/Urdu marketplace slang alongside high diction to capture this jarring tonal shift?",
+    "structural_variant": "A structure built around alternating short bursts of dense sensory cataloging (the market) versus longer, trailing lines dedicated solely to flavor recollection.",
+    "variety_note": "Unlike previous chapters which focused on the *interior* state or ingredients, this chapter is deliberately externalized to the marketplace itself, using the physical noise and chaos as an active antagonist against memory."
+  }
+}

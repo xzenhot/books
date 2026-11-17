@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ চক্র",
+  "segment_summary": "সামোসা চক্রটি শেষ হলেও, এর স্বাদ সংক্রান্ত অনুসন্ধানটি একটি অসম্পূর্ণ বৃত্তে আবদ্ধ থাকে, যা চিরন্তন বিচ্ছেদের ইঙ্গিত দেয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the central thread on a single, microscopic element—perhaps a specific grain of cumin (জিরা)—and tracking how its presence/absence dictates the entire emotional landscape.",
+    "story_option": "Setting: A small, forgotten corner in a busy marketplace; Desire: To find one single item (like a bruised leaf or a shard of burnt sugar) that perfectly encapsulates the 'untranslated' nature of the flavor; Obstacle: The overwhelming noise and chaotic movement obscuring true introspection.",
+    "subject_rotation": "Shifting focus from *tasting* the absence to *performing* the act of non-consumption—the deliberate decision not to eat the final piece.",
+    "sensory_detail": "The dry, dusty feel of residual spice against a fingertip after reaching into a travel *bag*.",
+    "research_question": "How can Tatsama and Hindi diction be integrated not just for vocabulary enrichment, but to create a deliberate phonetic dissonance that mirrors cultural fracture?",
+    "structural_variant": "Structuring the piece as an argument in favor of permanent ontological suspension rather than narrative progression.",
+    "variety_note": "This chapter moves beyond the sensory shock of arrival (earlier chapters) into the sustained philosophical processing of what remains after the initial encounter, focusing intensely on the metaphysics of incomplete sensation and yearning."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আবেগের বিভাজন রেখা",
+  "segment_summary": "তেলের এই পরিবর্তনটি কীভাবে প্রথম প্রজন্মের স্মৃতি-সংরক্ষণ এবং দ্বিতীয় প্রজন্মের কেবল খাদ্যের প্রয়োজনীয়তার মধ্যে একটি স্পষ্ট বিভাজন রেখা তৈরি করে, তা দেখানো হচ্ছে।",
+  "name": "6.5",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The voice shifts from 'I' (the diaspora member) to the perspective of the *fat/oil itself*, narrating its forced migration and existential dissonance between two regions.",
+    "story_option": "Setting: Indoors, tracing the edge of an old tiffin carrier where the residual smell lingers; Desire: To recall the precise *sound* the dripping ghee made against a hot pan back home, Obstacle: Only the dull hum of modern refrigeration remains.",
+    "subject_rotation": "Exploring the concept of flavor *as* resistance; how the difference in oil constitutes an active, non-verbal protest against assimilation.",
+    "sensory_detail": "Olfactory: A detailed description of the pungent, almost acrid tang that precedes the 'sweet' flavor notes in traditional cooking.",
+    "research_question": "What is the specific diction in Bengali/Sanskrit that best conveys a 'pithy' or essential flavor quality beyond mere descriptors like 'spicy' or 'sweet'?",
+    "structural_variant": "A highly kinetic structure where each segment rapidly shifts between the memory of Bengal and the reality of the foreign environment without a clear turning point.",
+    "variety_note": "While Neighbour 1 focused on nomenclature and memory's word, this chapter fixes firmly onto the foundational ingredient: the medium itself (oil), treating its physical substitution as a primary act of cultural erosion."
+  }
+}

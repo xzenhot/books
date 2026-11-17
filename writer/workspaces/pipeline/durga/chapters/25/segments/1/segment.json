@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 25,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "প্রতিমার শূন্যতা",
+  "segment_summary": "বিসর্জনের পর জলাধারে বিলীন হওয়া মাটির প্রতিমার ভঙ্গুরতা, যা ক্ষণস্থায়ীতার প্রতীক হিসেবে মানব জীবনের অস্থায়িত্বকে তুলে ধরে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the thread of memory (as per primary lens) not as a continuity, but as a deliberate *reweaving* process each year, where old threads are intentionally broken and reformed.",
+    "story_option": "Setting: A quiet attic corner where ritual paraphernalia are stored between festivals; Desire: To find one single object that retains a visible imprint of the *মহাক্ষণ* (moment of great time); Obstacle: The dullness of routine cleaning.",
+    "subject_rotation": "Focusing less on Durga's triumph over Mahishasura (external), and more on the quiet victory achieved by sustained self-discipline against internal procrastination (internal).",
+    "sensory_detail": "Taste: The chalk residue left on fingers after handling the final forms.",
+    "research_question": "How is the concept of 'inner struggle' (অভ্যন্তরীণ সংগ্রাম) visualized in traditional Bengali folk narratives related to creation or destruction?",
+    "structural_variant": "A purely reflective sequence, moving chronologically backward from the moment after immersion to the initial preparation rituals.",
+    "variety_note": "This chapter deepens the introspection begun by earlier narratives, moving from communal celebration to an intensely private meditation on ephemeral versus enduring existence."
+  }
 }

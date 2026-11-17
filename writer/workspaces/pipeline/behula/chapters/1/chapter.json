@@ -1,52 +1,117 @@
 {
   "chapter_index": 1,
   "name": "1",
-  "word_target": 280,
-  "chapter_title": "নামের গভীরে জাগা রক্তমাংস",
-  "chapter_summary": "বেহুলা কোনো অলৌকিক শিলালিপি নয়; এক রক্তমাংসের তরুণীর রক্তাশ্রু, সামাজিক লাঞ্ছনা ও দুর্গম পথ পেরোনোর মধ্য দিয়ে এই আত্মিক প্রতীকের জন্ম।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "behula — পর্ব 1 — behula",
+  "chapter_summary": "This initial chapter plunges into the sudden, devastating rupture of Behula's tranquil existence following her husband's untimely death. The central conflict is the immediate collision between serene domesticity and overwhelming loss, symbolized by the sudden extinguishing of her life's light. The imagery focuses on the quiet temple of her life being shattered by an unforeseen storm, leaving behind a profound, terrifying void. The chapter leaves the reader questioning how a soul, accustomed to stability, navigates the immediate, crushing weight of absolute solitude.",
+  "further_references": [
+    "workspaces/backlog/behula/storyline.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "শান্তির কারুকার্যের মন্দির",
+      "segment_summary": "The chapter begins by establishing the fragile, beautiful order of Behula's life before the catastrophic event.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অকাল ঝড়ের আগমন",
+      "segment_summary": "The sudden, violent arrival of her husband's death acts as the disruptive force, shattering the established peace.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "প্রাণস্ফুরণের নিস্তব্ধতা",
+      "segment_summary": "The immediate aftermath is characterized by a deep, echoing silence where vibrant life once resided.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "শূন্যতার গভীরে প্রথম ডুব",
+      "segment_summary": "Behula confronts the terrifying expanse of her new solitude, a void that threatens to consume her essence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "স্থিতিশীলতার চ্যালেঞ্জ",
+      "segment_summary": "Her inherent inner strength is immediately tested by the sheer magnitude of this unexpected personal catastrophe.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আলোর উৎস হারানো",
+      "segment_summary": "The metaphor of the guiding lamp is introduced, now flickering precariously in the face of overwhelming darkness.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "মানবিক অভিজ্ঞতার ভার",
+      "segment_summary": "This segment explores the raw, unvarnished human experience of grief and the initial shock of irreversible change.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অস্তিত্বের প্রশ্নচিহ্ন",
+      "segment_summary": "The chapter concludes by posing the fundamental question of how one continues to exist when the core of one's world has vanished.",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "The physicality of identity: exploring how 'blood-flesh' translates into the physical endurance required for her journey.",
-      "The weight of a name: focusing intensely on what it means to bear the name 'Behula' in a patriarchal society before any crisis occurs.",
-      "The initial friction between idealized myth and human vulnerability, establishing the contrast early."
+      "Focusing on the specific texture of silence in a grand home after loss, rather than just 'emptiness.'",
+      "Framing the initial void not as absence, but as an unbearable pressure—a tautness preceding explosion.",
+      "Exploring the memory imprint: how the objects left behind carry phantom weight and presence."
     ],
     "story_options": [
-      "A moment just after her wedding preparations, where she looks at her own reflection—a young woman unsure how to inhabit the grand name bestowed upon her.",
-      "An internal monologue during a quiet domestic ritual (perhaps preparing for a festival), contrasting the societal expectation of grace with the nascent storm inside her soul.",
-      "A brief imagined scene from childhood or youth, showcasing an early moment where she demonstrated fierce spirit in response to minor injustice, foreshadowing later trials."
+      "A lingering moment where Behula touches a specific, mundane item belonging to Likhindar (e.g., his discarded shawl), feeling its coldness against her warmth, leading to an immediate internal clash of past/present.",
+      "The slow, agonizing ritual of maintaining the household's facade while internally unraveling—the performance of normalcy amidst chaos.",
+      "An imagined dialogue with a shadow cast by Likhindar in the empty drawing-room, where he only echoes unfulfilled promises."
     ],
     "subject_rotations": [
-      "Focusing entirely on the *promise* of the name—the weight of cultural expectation before it is tarnished.",
-      "Treating 'blood-flesh' as immediate lived reality rather than symbolic suffering; focusing on mundane bodily sensations alongside nascent spiritual strength.",
-      "Analyzing the language itself: how poetic diction frames her existence from the very beginning, setting up future conflict with prosaic harshness."
+      "Treating the initial shock not as passive grief, but as an active internal battle against societal expectations of immediate recovery.",
+      "Focusing entirely on the sensory deprivation following the loss—the abrupt change in ambient light and soundscape.",
+      "Using the metaphor of a celestial body instantly ceasing its orbit, rather than just its physical death."
     ],
     "sensory_details": [
-      "The specific scent of freshly pressed silk or wedding unguents juxtaposed against an internal metallic taste (blood/fear).",
-      "The precise feeling of intricately woven bangles clicking faintly in the silence of a grand, expectant hall.",
-      "The visual texture of morning light catching dust motes suspended above highly polished ancestral wood."
+      "The specific metallic tang of dust disturbed from polished ancestral furniture.",
+      "The low, resonant thrumming sound inside an empty chamber that seems to hold trapped echoes.",
+      "A sudden, unexpected draught moving through heavy curtains in the sealed chambers."
     ],
     "research_questions": [
-      "How does the initial portrayal of 'Behula' differ from the later archetype, ensuring this opening is distinctly rooted in human frailty rather than immediate transcendence?"
+      "How can I concretely translate the philosophical weight of 'void' into physical sensations rooted in the declared world vocabulary?"
     ],
     "structural_variants": [
-      "A sequence built entirely around rhetorical questioning directed inward toward her own identity.",
-      "An escalating rhythmic pattern where repetition builds tension until a single, sharp thematic image breaks the cadence."
+      "Beginning with a sound cue (e.g., the settling groan of an old house) and building outwards to the silence.",
+      "Starting mid-action: Behula attempting a routine task that becomes impossibly heavy."
     ],
     "unused_angles": [
-      "The political dimension of womanhood within that society before she is defined by tragedy.",
-      "Detailed exploration of the specific lineage or clan identity associated with her name prior to any external conflict."
+      "The initial, desperate search for external ritual or comfort before succumbing to deep introspection (saving this raw impulse for later)."
     ],
-    "variety_note": "Unlike later chapters which deal with physical trials (crowds, water, beasts), this chapter anchors the narrative in the internal and material reality of being a person assigned a powerful mythological designation."
+    "variety_note": "This chapter moves away from the philosophical confrontation of neighbours; here, we are in the immediate, visceral impact zone—the collision between established harmony and abrupt severance."
   },
   "draft": {
-    "sha256": "2048d06b96e107e3ae9996e9640122131e37abdb47e61c08b2abec66532ed7cf",
-    "written_at": "2026-10-21T16:21:30.152158+00:00",
+    "sha256": "b025945a9b62d1b9155fbbc02afddba87f092ed9cbd79828b7b7700c921149c9",
+    "written_at": "2026-11-16T03:52:10.422191+00:00",
     "origin": "write"
   }
 }

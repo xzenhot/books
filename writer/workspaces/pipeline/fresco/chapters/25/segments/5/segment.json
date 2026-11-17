@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "The Weight of Being Seen",
+  "segment_summary": "She accepts that the visibility she sought is inseparable from the vulnerability she risked, a permanent state of exposure.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A shift from internal monologue to direct address towards the 'scars' themselves—treating fissures as sentient entities that have observed her journey.",
+    "story_option": "The fleeting memory of an early, desperate cry or refusal echoing faintly from the walls themselves when the desert wind shifts through the haveli's archways.",
+    "subject_rotation": "Revisiting the 'Musk of the Stranger' but framing it now not as desire, but as a final, necessary acknowledgement of external reality that cannot be sealed out.",
+    "sensory_detail": "The precise, cool weight of the empty charcoal stick when she finally sets it down amidst the textured plaster.",
+    "research_question": "What specific tactile sensation exists on sun-baked, dried lime plaster that conveys 'time' without being described as damage?",
+    "structural_variant": "Employing a cyclical structure where each segment mirrors or inverts the thematic movement of segments 1-4.",
+    "variety_note": "This final section deliberately strips away narrative action. Where earlier chapters detailed struggle, this chapter focuses solely on acceptance and the resulting philosophical texture of endurance, pushing toward abstract resonance over concrete incident."
+  }
+}

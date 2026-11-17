@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আলোর দীপশিখার পূর্ণতা",
+  "segment_summary": "অগ্নির দীপশিখা, যা শুরু হয়েছিল একাকীত্বের অন্ধকারে, তা এখন সমস্ত অন্ধকারের উপর বিজয়ী হয়ে উজ্জ্বল হয়ে ওঠে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The contrast between the reunion's physical intimacy and the lingering 'performance' of societal expectation witnessed by peripheral figures.",
+    "story_option": "Setting: A specific corner of the dwelling where the initial trial took place; Desire: To reclaim a physical space that symbolizes inviolable personal territory; Obstacle: The ingrained habit of societal scrutiny.",
+    "subject_rotation": "Focusing on how her internal mythology now actively resists categorization by 'history' or 'tradition'.",
+    "sensory_detail": "The specific scent of damp earth mixed with familiar domestic incense, marking the return; (Olfactory)",
+    "research_question": "Can a specific metaphor be found in classical Bengali literature describing fortitude that is intensely personal yet achieves universal resonance?",
+    "structural_variant": "Alternating between intense metaphysical pronouncements (Jibran/Orilase style) and grounded, almost prosaic observations of domestic reality.",
+    "variety_note": "This chapter shifts the thematic energy from active endurance against chaos (previous chapters) to the complex, loaded silence and integration following ultimate perceived success."
+  }
+}

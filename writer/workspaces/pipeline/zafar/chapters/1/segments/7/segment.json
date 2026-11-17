@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ভবিষ্যতের পূর্বাভাস",
+  "segment_summary": "কবিতার মাধ্যমে আসন্ন রাজনৈতিক বিপর্যয় এবং অনিবার্য পতনের এক চাপা, মর্মস্পর্শী পূর্বাভাস দেওয়া হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The silent geometry of the Red Fort's façade mirroring an internal collapse.",
+    "story_option": "Scene: The Diwan-i-Khas balcony at dawn. Desire: To issue one final, symbolic decree that holds meaning internally only. Obstacle: A junior officer subtly suggests adherence to new regulations. Turn: He instead dips his pen in ink reserved for personal verse.",
+    "subject_rotation": "Treating the 'Title' itself as a physical, oppressive object rather than just an abstract concept.",
+    "sensory_detail": "The coarse grit of sandstone under evening lamp-glow (touch/sight).",
+    "research_question": "What were common Mughal courtly phrases that represented abstract 'sovereignty' before British encroachment?",
+    "structural_variant": "A framing device using an imagined scribe recording the Emperor's changing internal landscape.",
+    "variety_note": "Unlike later chapters dealing with exile or bloodshed, this section establishes the fragile beauty of power just before its systemic rot sets in."
+  }
+}

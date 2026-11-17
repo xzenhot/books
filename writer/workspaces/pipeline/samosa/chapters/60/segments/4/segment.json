@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 60,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্বাদের রাসায়নিক বিচ্যুতি",
+  "segment_summary": "সরিষার তেল বহন করত একটি নির্দিষ্ট 'আঁচ' এবং মাটির রাসায়নিক স্বাক্ষর, যা প্রবাসের তেল দ্বারা প্রতিস্থাপিত হওয়ার পর তার মৌলিক সত্তা হারায়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the *sound* profile of the oil—the sharp 'splatter' versus the muted absorption in foreign cooking.",
+    "story_option": "Setting: A half-empty packet of neutral oil on a counter; Desire: To trace the geometric patterns left by the old mustard oil stains; Obstacle: The sharp scent of manufactured detergent overpowering all residual memory.",
+    "subject_rotation": "Treating 'তেল' (oil) as a vector for linguistic decay—how flavor vocabulary changes when names change from *সিঙ্গাড়া* to *সামোসা*.",
+    "sensory_detail": "Visual: The way mustard oil catches light with a deep, turbulent amber glaze, compared to the pale, static sheen of refined vegetable fat.",
+    "research_question": "Are there quantifiable differences in volatile organic compounds released by mustard oil vs. common neutral oils when heated to the same temperature?",
+    "structural_variant": "A shift in perspective between stanzas: 1-4 being external observation of the oil; 5-8 being internal reception of that aroma.",
+    "variety_note": "This chapter focuses exclusively on the primary chemical and sensory marker—the oil itself—diverging from previous chapters which focused on broader geographical or social shifts in food consumption."
+  }
+}

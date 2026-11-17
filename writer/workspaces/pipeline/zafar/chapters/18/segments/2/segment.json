@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "দুই গজ মাটির অভাব",
+  "segment_summary": "কবরের জন্য নির্ধারিত দুই গজ মাটির অভাবটি কেবল একটি ভৌগোলিক শূন্যতা নয়, বরং ঐতিহাসিক বিস্মৃতির ভয়কে প্রতীকায়িত করে, যা সম্রাটের স্মৃতিকে মুছে ফেলার প্রচেষ্টা।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "স্বর-অবস্থান পরিবর্তন: 'আমি' (সম্রাট) থেকে সরে এসে এমন একজন বর্ণনাকারীর দৃষ্টিকোণ নেওয়া যিনি নিছক এক সাক্ষী—একজন ঘুমন্ত প্রহরী যা সম্রাটের শেষ কম্পনকে গাইতে পারে না, কেবল শুনতে পায়।",
+    "story_option": "Setting: একটি কাল্পনিক 'স্মৃতি-কক্ষ' যা ডেভিসের রিপোর্টে উল্লেখ নেই; Desire: সম্রাটের তখল্লুস যেন সেখানে ধূলিকণার মধ্যেও স্বর্ণাক্ষরে জ্বলতে থাকে; Obstacle: নথিপত্রের শুকনো পাতার ভঙ্গুরতা সেই আলো নিভে যাওয়ার ইঙ্গিত দেয়।",
+    "subject_rotation": "Treating the biographical detail (like the lack of grave soil) as an active, antagonistic character in the poem rather than just a descriptive fact.",
+    "sensory_detail": "স্পর্শগত চিত্র: বহু বছরের জমে থাকা ধুলোর dưới অতি সূক্ষ্মভাবে হাত বুলিয়ে নিলে মনে হওয়া সেই চাপা ইতিহাসের উষ্ণতা।",
+    "research_question": "সাহিত্যে ব্যবহৃত কোনো অপ্রচলিত, পুরাতন বাংলা তৎসম শব্দ কি ঔপনিবেশিক শাসকের নথিপত্র থেকে সম্পূর্ণ ভিন্ন ধ্বনিগত মান বহন করে যা কাব্যিকভাবে ব্যবহার করা যেতে পারে?",
+    "structural_variant": "A 'call-and-response' structure where a cold administrative fragment is immediately followed by an overwhelming outpouring of highly ornate diction.",
+    "variety_note": "Unlike previous chapters focused on defining moments (revolt/execution), this chapter must exist in the aftermath—a realm purely defined by semantic survival and philosophical echo, maintaining a low, watchful register."
+  }
+}

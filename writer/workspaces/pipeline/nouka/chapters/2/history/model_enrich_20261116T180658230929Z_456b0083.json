@@ -1,0 +1,79 @@
+{
+  "chapter_index": 2,
+  "name": "2",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "nouka — পর্ব 2 — nouka",
+  "chapter_summary": "This chapter focuses on the unspoken social contract that defines Gopal's existence on the water. It vividly portrays the scene where passengers, regardless of their means, find sanctuary aboard his worn *nouka*. The imagery centers on the contrast between the vast, indifferent expanse of the river and the intimate, generous space of the boat. The central tension explores the philosophical distance between the immense, natural world and the fragile, human commitment to communal grace, leaving the reader to question the true cost of such selfless hospitality.",
+  "further_references": [
+    "3"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "অলিখিত অঙ্গীকার",
+      "segment_summary": "গোপালের নৌকার পাটাতন যেন এক ভাসমান আশ্রয়স্থল, যেখানে অর্থের হিসেব ছাপিয়ে মানবিকতার চুক্তি কার্যকর হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "নদীর বিশালতা ও ক্ষুদ্র মানবতা",
+      "segment_summary": "নদীর অনন্ত বিস্তার এবং তার মাঝে ভেসে থাকা মানুষের ক্ষুদ্র অস্তিত্বের মধ্যেকার গভীর দার্শনিক দূরত্ব এই অংশে চিত্রিত হয়েছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "যাত্রীর নীরবতা",
+      "segment_summary": "যাত্রীদের নীরব উপস্থিতি এবং তাদের নিঃশব্দ নির্ভরতা গোপালের উদারতার প্রতিধ্বনি বহন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "কাঠের স্পর্শে ইতিহাস",
+      "segment_summary": "নৌকার প্রতিটি কাঠের তক্তা যেন অতীতের বহু যাত্রার স্মৃতি ও নিঃস্বার্থতার ভার বহন করে চলেছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "প্রবাহের প্রতি সম্মান",
+      "segment_summary": "গোপাল কেবল যাত্রী পরিবহন করে না, সে নদীর প্রাকৃতিক ছন্দের প্রতি এক গভীর সম্মান প্রদর্শন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "ঋণের ভার নয়, সম্পর্কের টান",
+      "segment_summary": "এই যাত্রায় কোনো আর্থিক লেনদেন মুখ্য নয়, বরং এক গভীর সামাজিক সম্পর্কের টান বিদ্যমান।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "পলিমাটির রং ও মানবিক উষ্ণতা",
+      "segment_summary": "গোপালের তামাটে ত্বক এবং নৌকার ভেতরের উষ্ণতা বাইরের শীতল নদীর পরিবেশের বিপরীতে এক মানবিক উষ্ণতা সৃষ্টি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য চুক্তি",
+      "segment_summary": "এই অধ্যায়টি সেই অলিখিত চুক্তির গভীরতা উন্মোচন করে, যা আধুনিকতার লজিক দ্বারা সহজে পরিমাপ করা অসম্ভব।",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার ভার",
+  "segment_summary": "প্রতিমাটি যখন সম্পূর্ণ হয়, তখন সে কেবল একটি বস্তু থাকে না, বরং সম্মিলিত মানুষের বিশ্বাস ও আকাঙ্ক্ষার ভার বহন করে অপেক্ষায় থাকে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the singular, quiet despair of one craftsman who fears his creation will fail to capture 'Shakti' before it is consecrated.",
+    "story_option": "A single piece of discarded clay (a small amulet or idol fragment) becomes the central focus, representing all potential forms that were rejected by the artisan.",
+    "subject_rotation": "Treating the process purely as a dialogue between material (clay/dirt) and ideal (the Goddess).",
+    "sensory_detail": "The sharp, metallic scent where moisture-heavy mud meets drying air and woodsmoke from nearby furnaces.",
+    "research_question": "What specific terminology in Bengali traditionally describes the transition point between raw earthen material and a consecrated object?",
+    "structural_variant": "A heavily impressionistic structure, where physical descriptions bleed seamlessly into mythological speculation.",
+    "variety_note": "This chapter differs from neighbouring pieces by focusing entirely on the *genesis*—the patient, slow incubation period before any external ritual or grand pronouncement begins."
+  }
+}

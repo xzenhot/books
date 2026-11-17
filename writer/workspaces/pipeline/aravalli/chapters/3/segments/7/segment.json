@@ -1,11 +1,22 @@
 {
-  "level": "segment",
-  "state": "pending",
-  "chapter_index": 3,
   "segment_index": 7,
+  "name": "3",
+  "word_target": 500,
+  "segment_title": "অতীতের প্রতিধ্বনি ও বর্তমানের স্পন্দন",
+  "segment_summary": "প্রাচীন বাণিজ্য বহরের নীরব প্রতিধ্বনি আধুনিক শহরের স্পন্দনের সাথে মিশে যায়, যেখানে সময় রৈখিক নয়, বরং ঘূর্ণায়মান।",
+  "further_references": [],
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
   "total_segments": 8,
-  "segment_title": "অশোকের শিলালিপি ও আধুনিক পদাঘাত",
-  "segment_summary": "সাগরিকার হাই হিলের তীক্ষ্ণ পদাঘাত যেন সম্রাট অশোকের শিলালিপিকে মুচড়ে গুঁড়ো করে দেয়, যা ক্ষমতার ক্ষয়কে বোঝায়।",
-  "name": "7",
-  "word_target": 500
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the knowledge exchange not as historical trade (silk/metal) but as a transaction of embodied secrets—the scent of ancient texts exchanged for specific corporeal sensations.",
+    "story_option": "A solitary figure traces a known route on the stone face, momentarily mistaking a deep fissure for the curve of Sagarika’s abdomen, leading to an abrupt halt in movement.",
+    "subject_rotation": "Shifting emphasis entirely to the *geometry* of desire: comparing the mathematically precise design of Indraprastha ruins (as glimpsed through dust motes) to the obsessive curves on Sagarika's body.",
+    "sensory_detail": "The precise grit texture of fine desert dust clinging to bare skin, cold against heat.",
+    "research_question": "How can the chemical composition of hematite (rust/copper) be linked to the perceived 'blood' quality of Sagarika’s lipstick through poetic metaphor?",
+    "structural_variant": "A mosaic structure: juxtaposing sharp, definitive lines (Taksashila script) with long, flowing runs of breath-based imagery (Gandharva melody).",
+    "variety_note": "This chapter foregrounds the synthetic collision between structured intellectual pursuit (Taksashila/geometry) and unmediated physical impulse, moving beyond simple historical narrative into a realm of ecstatic contamination."
+  }
 }

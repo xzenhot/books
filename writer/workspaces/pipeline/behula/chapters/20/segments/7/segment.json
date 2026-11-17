@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "The Quiet After the Storm",
+  "segment_summary": "A moment of profound stillness follows the chaos, where the exhausted spirit contemplates the cost of such magnificent perseverance.",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The thread metaphor: Following a single, fragile thread (perhaps spun from her own unwavering will) through the segments; it tightens during conflict and loosens slightly at reunion before being re-tensioned by unresolved doubt.",
+    "story_option": "Setting: The riverbank aftermath; Desire: A deliberate moment where Behula touches a remnant of the chaos (e.g., dried silt from the ordeal); Obstacle: The lingering scent of 'অজোন' overriding any natural fragrance, symbolizing residual cosmic violence.",
+    "subject_rotation": "Treating the 'Return' as a moment of re-calibration rather than mere homecoming, implying that both entities are fundamentally changed and must relearn coexistence.",
+    "sensory_detail": "Sight: The specific indigo hue saturating the sky right before true night descends upon the reunion.",
+    "research_question": "How can I phrase the weight of systemic injustice being un-absolved by personal miracle without sounding pedantic or overly academic?",
+    "structural_variant": "Alternating between extremely intimate micro-focus (internal tremor/gaze) and sweeping, cosmic macro-view (celestial alignment).",
+    "variety_note": "This chapter shifts from pure ascent (Segments 1-4) to an immediate confrontation with consequence (Segments 5-8), ensuring it moves beyond mere triumphant celebration seen in prior arcs."
+  }
+}

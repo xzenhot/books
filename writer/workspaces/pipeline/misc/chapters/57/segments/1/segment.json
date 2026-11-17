@@ -2,5 +2,10 @@
   "level": "segment",
   "state": "pending",
   "chapter_index": 57,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "চায়ের ঘাম ও সিঁদুরের রেখা",
+  "segment_summary": "The poem begins by juxtaposing the transient dampness of a railway chai glass against the enduring, ritualistic mark of vermilion on a doorway.",
+  "name": "1",
+  "word_target": 500
 }

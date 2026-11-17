@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "সমস্ত বাধা অতিক্রম করার মাধ্যমে বেহুলার চরিত্রটি এক মহৎ নারীত্বের প্রতীক হিসেবে প্রতিষ্ঠিত হয়, যা তার সহিষ্ণুতার সাক্ষ্য বহন করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A perspective centered on the aftermath—how the quiet moments after victory are psychologically louder than the struggle itself.",
+    "story_option": "Setting: Where the river/flow (নদী বক্ষ) intersects with the threshold of their home; Desire: To feel the chaotic energy of that flow finally stabilize into a shared rhythm; Obstacle: The persistent, subtle threat of external judgment.",
+    "subject_rotation": "Representing the victory not through grand gestures, but through the mundane continuance of life—the simplest shared meal.",
+    "sensory_detail": "The cool weight of his hand against her skin—a touch that feels simultaneously ancient and startlingly immediate; (Tactile)",
+    "research_question": "What archaic Bengali phrasing could capture the concept of self-reconstruction following profound societal pressure, without sounding overly academic?",
+    "structural_variant": "A highly cyclical structure where each segment attempts to resolve the previous one's tension before creating a new, albeit quieter, tension.",
+    "variety_note": "This chapter shifts the thematic energy from active endurance against chaos (previous chapters) to the complex, loaded silence and integration following ultimate perceived success."
+  }
+}

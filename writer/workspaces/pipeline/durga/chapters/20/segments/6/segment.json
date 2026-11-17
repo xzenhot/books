@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ভক্তি ও শূন্যতার সংলাপ",
+  "segment_summary": "তীব্র ভক্তির আড়ালে যে অনিবার্য শূন্যতা বাসা বাঁধে, সেই শূন্যতার সঙ্গে কীভাবে নতুন আশার বীজ অঙ্কুরিত হয়, তা এই অংশে চিত্রিত হয়েছে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'I' not as a philosophical observer, but as an active participant whose personal failures mirror minor demonic incursions.",
+    "story_option": "Setting: Walking through an empty street lined with fading 'pandal' remnants during mid-day sun; Desire: To locate a single discarded piece of vibrant vermillion (sindoor) as proof of past glory; Obstacle: The heat bleaching the color to pale resignation.",
+    "subject_rotation": "Using the contrast between *transient* material beauty (silk/mud) and *persistent* symbolic memory as the primary driving conflict.",
+    "sensory_detail": "Touch: The stiff, almost brittle feel of old, dried autumn leaves pressed against the skin.",
+    "research_question": "How should I transition between the elevated Sanskritized diction and the colloquial language requirement without sounding jarring or forced?",
+    "structural_variant": "Adopting a highly fragmented structure where each line poses an unresolvable question, mimicking cognitive dissonance between ritual and reality.",
+    "variety_note": "This chapter moves away from action/mythology and focuses exclusively on aftermath—the quiet contemplation where belief transitions into existential philosophy. It contrasts the high ritualistic language with the low reality of daily life."
+  }
+}

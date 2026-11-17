@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ভেতরের মহাকাব্যিক প্রস্তুতি",
+  "segment_summary": "এই প্রস্তুতি কেবল শারীরিক নয়, এটি আত্মার সেই মহাকাব্যিক যাত্রা, যা তাকে চূড়ান্ত বিজয়ের দিকে চালিত করবে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the precise physiological sensation of holding one's breath during peak conviction, making it a metaphor for spiritual stasis.",
+    "story_option": "Setting: A barren, wind-scoured plain under an oppressive sky; Desire: To feel the invisible thread of destiny pull taut across her outstretched hand; Obstacle: The overwhelming apathy of the landscape.",
+    "subject_rotation": "Treating resilience not as an active fight, but as a patient, dense accretion—like silt building in a deep riverbed.",
+    "sensory_detail": "The coarse, granular texture of dust settling on the skin during a period of profound quiet.",
+    "research_question": "What archaic Bengali term denotes a state of perfect, exhausted resolve that surpasses mere determination?",
+    "structural_variant": "An enjambed structure where nearly every line breaks precisely at an inflection point or moment of high tension.",
+    "variety_note": "This chapter shifts away from external confrontation (unlike others) into deep interiority, using the thread motif and physical anchors to map the process of unwavering internal resolution right before climax."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মার দৃঢ়তা",
+  "segment_summary": "এই প্রতিকূলতার মাঝেও বেহুলার আত্মা তার মৌলিক সত্যকে ধরে রাখতে সক্ষম হয়, যা তার শক্তির উৎস।",
+  "name": "5",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting the cultural barriers through an external, almost objective lens of dusty, unyielding architecture, contrasting it sharply with the internal, vibrant heat of her devotion.",
+    "story_option": "Setting: Beside a boundary stone marking community/family territory, Desire: To plant a symbolic seed of 'unapproved' belief in barren ground (Turn), Obstacle: Weather patterns dictated by communal disapproval.",
+    "subject_rotation": "Interpreting 'duty' in this context not through filial obligation, but through the existential requirement to maintain one’s own spiritual sovereignty against societal decree.",
+    "sensory_detail": "A visual texture of finely woven silk garments that feel strangely stiff and constricting against the skin, mirroring societal constraints (Tactile).",
+    "research_question": "What precise archaic Bengali terms exist for social expectation or prescribed duty that carry more weight than simple 'rule'?",
+    "structural_variant": "A highly rhythmic sequence relying on sharp enjambment to mimic the forced breathlessness between adherence and defiance.",
+    "variety_note": "Unlike previous chapters that dealt with personal grief or internal strength, this segment focuses externally, using the rigid social body politic as its primary antagonist against her inner luminescence."
+  }
+}

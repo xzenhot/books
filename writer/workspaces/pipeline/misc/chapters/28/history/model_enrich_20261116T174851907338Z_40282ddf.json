@@ -1,0 +1,79 @@
+{
+  "chapter_index": 28,
+  "name": "28",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This final chapter synthesizes the myriad small observations—from the sweat on a chai glass to the trace of vermilion—into a grand, yet fragile, inquiry. It confronts the tension between the overwhelming scale of 'India' and the intimate reality of its daily minutes. The imagery shifts from isolated particulars to a collective tapestry, asking whether these fleeting moments coalesce into a stable national essence or remain merely beautiful, transient sparks. The central conflict is the search for permanence within ephemerality, leaving the reader suspended between awe and quiet melancholy.",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "ক্ষুদ্রতার সমাবেশ",
+      "segment_summary": "The poem begins by gathering the disparate images—the dampness, the dust, the folded hands—into a single, overwhelming sensory field.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "সিঁদুরের রেখা ও ঘামের ছাপ",
+      "segment_summary": "It juxtaposes the fixed, ritualistic mark of sindoor against the transient, physical evidence of labor, like the sweat on a platform.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "নীরবতার ভাষা",
+      "segment_summary": "The focus turns to the unspoken communication found in shared silence, whether on a bus or in a crowded market.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য শ্রমের প্রতিধ্বনি",
+      "segment_summary": "The poem reflects on the foundational, often unseen labor—the vendor's call, the milkman's cycle—that underpins the visible life.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "প্রকৃতি ও গৃহস্থালির মিলন",
+      "segment_summary": "It merges the natural elements, like the monsoon's first touch, with the intimate confines of the home, such as the tiffin box.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আলো ও অপেক্ষার ভার",
+      "segment_summary": "The imagery of the dusk lamp and the weary traveler is invoked, symbolizing the constant human state of seeking refuge or destination.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "কাঠামোর প্রশ্ন",
+      "segment_summary": "The core philosophical question is posed: Do these minute details build a cohesive structure, or are they merely beautiful, isolated flashes of time?",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "স্থায়িত্বের সন্ধানে",
+      "segment_summary": "The poem concludes not with an answer, but with a tender acceptance of the ambiguity, finding profound meaning in the act of attentive observation itself.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

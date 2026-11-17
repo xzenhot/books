@@ -10,17 +10,223 @@
 
 ## word_target
 
-280
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-বিবেক ও আইনের কাঠগড়ায় অসত্য
+behula — পর্ব 6 — behula
 
 ## chapter_summary
 
-চক্রান্তকারীরা নিজের পাপের ভারে নিজেরাই দগ্ধ হওয়া। সত্যের প্রকাশে কোনো বাহ্যিক শাস্তির প্রয়োজন হয় না; বিবেকই তাদের বন্দিশালা।
+এই পর্বটি বেহুলার মানসিক চাপ এবং হতাশার গভীরতম মুহূর্তগুলিকে চিত্রিত করে, যেখানে বাইরের প্রতিকূলতা তার ভেতরের স্থিতিস্থাপকতাকে চরমভাবে পরীক্ষা করে। সমাজের কটাক্ষ এবং স্বামীর অনুপস্থিতি তাকে ক্রমাগত ক্লান্ত করে তোলে, যেন এক অদৃশ্য ভার তার কাঁধে চেপে বসেছে। এই অংশে, হতাশার অতল গহ্বরের বিপরীতে তার ভেতরের অগ্নিকুণ্ড কীভাবে নিভে না গিয়েও তাকে এগিয়ে চলার শক্তি জোগায়, সেই দ্বান্দ্বিক সংগ্রামটি মুখ্য হয়ে ওঠে। প্রশ্নটি হলো—সর্বোচ্চ মানসিক অবসাদের মুহূর্তেও টিকে থাকার প্রেরণা কোথা থেকে আসে?
 
 ## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+বিষাদের ভার
+
+#### segment_summary
+
+স্বামীর শূন্যতা এবং সামাজিক প্রত্যাখ্যানের সম্মিলিত চাপে বেহুলার মন এক গভীর অবসাদের অন্ধকারে নিমজ্জিত হয়।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অগ্নিকুণ্ডের স্পন্দন
+
+#### segment_summary
+
+বাইরের সমস্ত শীতলতা সত্ত্বেও, তার হৃদয়ের গভীরে বিশ্বাসের এক ক্ষুদ্র শিখা অবিরাম জ্বলতে থাকে, যা তাকে বাঁচিয়ে রাখে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+ক্লান্তির প্রতিধ্বনি
+
+#### segment_summary
+
+প্রতিদিনের সংগ্রাম তাকে শারীরিক ও মানসিক ক্লান্তিতে ফেলে দেয়, যেখানে প্রতিটি পদক্ষেপ এক কঠিন যুদ্ধের সমতুল্য।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+অদম্য মনোবল
+
+#### segment_summary
+
+হতাশার স্রোতে ভেসে যাওয়ার পরিবর্তে, বেহুলার মনোবল এক অপ্রত্যাশিত দৃঢ়তা লাভ করে, যা তাকে স্থির থাকতে শেখায়।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভেতরের শক্তি
+
+#### segment_summary
+
+এই অভ্যন্তরীণ শক্তির উৎস কেবল ব্যক্তিগত সংকল্প নয়, বরং এক গভীর আধ্যাত্মিক নির্ভরতার প্রতিচ্ছবি।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অন্ধকারের প্রতিরোধ
+
+#### segment_summary
+
+হতাশার অন্ধকার যখন সবচেয়ে ঘন হয়, তখনই তার ভেতরের আলোটি সবচেয়ে উজ্জ্বল হয়ে ওঠে, এক নীরব প্রতিরোধ গড়ে তোলে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অবিচল যাত্রা
+
+#### segment_summary
+
+ক্লান্তি সত্ত্বেও, তার যাত্রা থেমে যায় না; বরং প্রতিটি বাধা তাকে আরও বেশি সংকল্পবদ্ধ করে তোলে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রেরণার জন্ম
+
+#### segment_summary
+
+তার এই নীরব সংগ্রাম অন্যদের জন্য এক শক্তিশালী প্রেরণার উৎস হয়ে ওঠে, যা ব্যক্তিগত ট্র্যাজেডিকে সমষ্টিগত শক্তিতে রূপান্তরিত করে।
+
+#### further_references
 
 
 ## level
@@ -31,50 +237,44 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Focusing on the precise moment of realization: when a conspirator stops arguing because their internal narrative collapses under the weight of proven falsehood.
-- Treating 'law' not as external judicial process, but as the deeply ingrained social contract that is broken by sustained malice, with conscience being the ultimate arbiter of breach.
-- Framing the falsity itself (অসত্য) as a physical entity—a corrosive substance that eats away at the speaker/conspirator until only bare bone remains.
+- বিশুদ্ধ শারীরিক কষ্টকে (যেমন পেশীর টান বা হাড়ের ব্যথা) ধরে মানসিক অবসাদকে চিত্রায়িত করা, যেখানে হতাশা যেন এক স্থির, অসহনীয় কাঠামোর মতো শরীরে চেপে বসেছে।
+- অনুভূতির পরিবর্তন: আকাঙ্ক্ষা থেকে সরে এসে কেবল 'অস্তিত্ব টিকিয়ে রাখার ক্রিয়াবলি' (acts of mere persistence) নিয়ে মনোযোগ কেন্দ্রীভূত করা; এখানে প্রেম গৌণ হয়ে যাবে, স্থিতির দর্শন প্রধান হবে।
+- ভাষার স্তরকে আরও ভঙ্গুর করে তোলা—এত উচ্চাঙ্গ শব্দভাণ্ডারের মাঝে হঠাৎ ক্ষুদ্র এবং দৈনন্দিন জীবনের কোনো বস্তুর উপর তীব্র ফোকাস আনা যা সহজেই ভেঙে যেতে পারে (যেমন একটি কাঁচের টুকরো)।
 
 ### story_options
 
-- Setting: A barren, wind-swept section of riverbank where the 'trial' takes place; Desire: To capture one conspirator whose elaborate defense finally dissolves into a choked whisper upon confronting undeniable evidence; Obstacle: The cold indifference of the surrounding natural world.
-- Setting: The dim interior of an old house used as a temporary gathering space; Desire: To witness the silent, ritualistic act of a supporting figure acknowledging the truth without uttering a word; Obstacle: Shared complicity that paralyzes speech.
-- Setting: Under a lone, struggling tree whose leaves rustle like dry accusations; Desire: For Behula to observe how the physical discomfort of the environment mirrors the spiritual agony of those exposed by the light of truth; Obstacle: The inability for any external force (like a judge) to validate internal moral reckoning.
+- সেটিং: কৃষ্ণকুটিরের মেঝেতে পড়ে থাকা এক জীর্ণ বুনন; আকাঙ্ক্ষা: সেই সুতোটি হাতে তুলে নিয়ে আবার নতুন করে বাঁধা শুরু করা, যেখানে প্রতিটি গিঁট অতীতের সংগ্রাম। বাধা: বারবার ভাঙনের ভয়; পরিবর্তন: সে সেই দুর্বল গ্রন্থিটিকে শক্ত করার চেষ্টা করে।
+- সেটিং: একটি বহুদিনের পুরনো পিতলের পাত্রের শীতল বহিরাবরণ; আকাঙ্ক্ষা: তার হাত দিয়ে সেই পাত্রটির উপর লেগে থাকা ধুলো মুছে ফেলা, যা সমাজের কলঙ্ক বহন করে। বাধা: হাতের চামড়ায় জমে থাকা অসহনীয় ক্ষতচিহ্নগুলি; পরিবর্তন: সে ঘষা দেওয়ার প্রক্রিয়ায় নিজের যন্ত্রণা নতুনভাবে অনুভব করে এবং তাকেই গ্রহণ করে।
+- সেটিং: সন্ধ্যার সময় হাসপাতালের বাতিঘরের ক্ষীণ আলো, যা বহু দূরে ঝাপসা হয়ে আছে; আকাঙ্ক্ষা: সেই আলোর দিকে তাকিয়ে এক মুহূর্তের জন্য হলেও 'পূর্ণতা'র বিভ্রম তৈরি করা। বাধা: দিগন্তের অস্পষ্টness (অনিশ্চয়তার প্রতীক); পরিবর্তন: সে নিজের ভেতরের প্রদীপের শিখাটিকে ওই দূরবর্তী আলোর তীব্রতায় উন্নীত করার সংকল্প নেয়।
 
 ### subject_rotations
 
-- Shifting from 'guilt' to 'erasure': How does profound falsehood attempt to erase the reality of genuine suffering it caused?
-- Interpreting 'judgment' not as verdict, but as a state of permanent isolation—the self-imposed exile once confronted with one's own moral bankruptcy.
-- Examining the mechanism of denial: The physical struggle against admitting error when social identity is so deeply intertwined with that falsehood.
+- আলো ও অন্ধকারের দ্বান্দ্বিকতাকে শুধু আধ্যাত্মিক না রেখে, এটিকে 'জ্ঞান' এবং 'অজ্ঞাত অজ্ঞতার ভার' হিসেবে দেখানো—বেহুলা জানে যে তার সংগ্রাম কী, কিন্তু এর সমাপ্তি কী হবে তা অজানা।
+- ক্লান্তি বা অবসাদকে একটি প্রাকৃতিক দুর্যোগের (যেমন দীর্ঘস্থায়ী মেঘাচ্ছন্ন আকাশ) রূপ দেওয়া, যেখানে আশা হঠাৎ বৃষ্টি হয়ে নেমে আসবে না, বরং কেবল আরও গাঢ় বিষণ্ণতা সৃষ্টি করবে।
+- অবিশ্বাসের প্রাচীরকে রক্তাক্ত নয়, বরং ঘষা লাগা পাথরের মতো রুক্ষ ও ধূসরভাবে উপস্থাপন করা—যা সূক্ষ্মভাবে ক্ষয়কারী কিন্তু ভয়াবহ।
 
 ### sensory_details
 
-- The metallic tang of dust stirred up by shifting feet on a dry, sun-baked earth during moments of strained silence.
-- The specific quality of low light in an enclosed space—the way it highlights the deep furrows etched into faces from perpetual self-deception.
+- ক্লান্ত শরীরের উপর জমে থাকা ধূলিকণার শীতল, ভারী স্পর্শ (Tactile) যা সময়ের ভার বোঝায়।
 
 ### research_questions
 
-- In Bengali cultural contexts, what metaphorical imagery exists for a 'truth so heavy it crushes'?
+- বেহুলার মানসিক সংগ্রামকে বর্ণনা করার সময়, জিবরান ও অরিলাসের দর্শন কীভাবে তার শারীরিক অবসাদের সাথে সাংঘর্ষিক কিন্তু সামঞ্জস্যপূর্ণ হতে পারে তা কাব্যিকভাবে প্রদর্শন করা সম্ভব কিনা?
 
 ### structural_variants
 
-- A fragmented structure where each stanza embodies the voice of a different refuted lie, building to a final, unified silence.
-- Using extreme temporal compression: showing a lifetime of malice unraveling in a single, drawn-out moment.
-- An elegiac form that treats the vanquished lies as ghosts whose presence pollutes the air even after they are logically disproven.
+- একটি কবিতা যা তিনটি অংশে ভাগ হবে: প্রথম অংশটি সম্পূর্ণরূপে অনুভূতির উপর কেন্দ্রীভূত (কোনো অ্যাকশন নেই); মধ্যভাগ সেই অনুভূতিকে দার্শনিক ধারণায় রূপান্তর করবে; শেষ অংশ খুব সংক্ষিপ্ত, কেবল একটি একক বস্তুর স্থির চিত্রায়ণ ঘটিয়ে সমাপ্তি দেবে।
+- প্রতিটি স্তবক একটি প্রশ্ন দিয়ে শুরু হবে এবং পরের স্তবকের প্রশ্নের জন্ম দেবে—একটি আন্তঃনির্ভরশীল জিজ্ঞাসার চেইন গঠন করা।
 
 ### unused_angles
 
-- A deep dive into how cultural expectations for 'goodness' are weaponized against those who deviate from them, making the falsehood necessary for social camouflage.
-- Exploring the subtle differences between legal guilt and moral culpability within a community-bound narrative.
+- বেহুলার শরীরের কোনো নির্দিষ্ট অঙ্গকে (যেমন তার শ্বাস-প্রশ্বাস বা হাতের নখ) কেন্দ্র করে দীর্ঘ একটি মনস্তাত্ত্বিক পর্যবেক্ষণ লেখা, যা অন্যান্য অধ্যায়ে এড়িয়ে যাওয়া হয়েছে।
+- সমাজের কটাক্ষকে এমন এক ভাষিক কাঠামো হিসেবে বিশ্লেষণ করা যা অস্তিত্বের অর্থই খর্ব করার চেষ্টা করছে।
 
 ### variety_note
 
-Unlike previous chapters focused on active struggle or outward defiance, this chapter dwells in the quiet, internal aftermath where the weight of pure ethical failure becomes its own insurmountable obstacle.
+এই পর্বটি পূর্ববর্তী অধ্যায়গুলির ট্রাজেডি-কেন্দ্রিক আবেগের পরিবর্তে, 'অস্তিত্ব টিকিয়ে রাখার যান্ত্রিক প্রক্রিয়া' এবং তার অভ্যন্তরীণ দৃঢ়তার উপর আলোকপাত করে। এটি সরাসরি মহাকাব্যিক বিজয়ের দিকে না তাকিয়ে, সংগ্রামশীল মানসিক স্থিতাবস্থা (Enduring State)-কে প্রধান লেন্স হিসেবে গ্রহণ করেছে।

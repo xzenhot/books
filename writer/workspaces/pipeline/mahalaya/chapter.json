@@ -1,0 +1,79 @@
+{
+  "chapter_index": 1,
+  "name": "1",
+  "word_target": 500,
+  "chapter_title": "Before the Blossom",
+  "chapter_summary": "Debolina studies a finished wall while the town admires its color. She asks what the surface conceals and chooses to begin with the unseen work.",
+  "further_references": [],
+  "level": "chapter",
+  "state": "written",
+  "enrich": {
+    "active_filters": [
+      "research",
+      "genre",
+      "history",
+      "spatality",
+      "movement",
+      "correctness",
+      "quality"
+    ],
+    "status": "enriched"
+  },
+  "genre": "philosophical lyric",
+  "spatality": {
+    "place": "a painted haveli wall in Mandawa, seen from the courtyard",
+    "season": "late autumn, the dry season",
+    "route": "courtyard to the finished panel and back",
+    "texture": "cool lime, lamp soot at the lower edge, dust in the light"
+  },
+  "stereotype": {
+    "signature": "aurilus",
+    "style": "pijush"
+  },
+  "creative_enrichment": {
+    "poetic_parameters": {
+      "emotional_rawness": 3,
+      "grammatical_abstraction": 2,
+      "structural_rigidity": 5,
+      "rhythmic_urgency": 3,
+      "digital_simplicity": 4,
+      "movement": "Stoicism — logic, virtue, and the mastery of inner thought, held as a night discipline at the wall.",
+      "writing_skills": [
+        "restrained first-person witnessing",
+        "one object examined until it reverses its meaning",
+        "closing on a moral correction rather than a verdict"
+      ],
+      "image_seed": "a finished panel of blue with the lamp's soot still darkening its lower edge",
+      "volta": "from praising the colour to asking who was awake when it was laid",
+      "sonic_texture": "soft l and m carried through lime, lamp, blossom, kept low so the poem never raises its voice",
+      "line_gesture": "long unhurried sentences that stop once, hard, on the last line",
+      "variety_note": "This poem reads the wall as a stranger reads it, from the courtyard; the poems that follow step behind it into the night that made it.",
+      "metaphor_family": "skin, soot, and the edge where a wall stops being material and becomes a surface",
+      "address": "the wall, in the second person, though it never answers",
+      "closing_move": "a question left in the reader's mouth rather than the poet's"
+    }
+  },
+  "draft": {
+    "sha256": "2e97f6f82b5bfb5f37b41235739abd1ec691809dfaf02e7d6b5b4adb34e7c2b3",
+    "written_at": "2026-11-07T01:04:50.676298+00:00",
+    "origin": "write"
+  },
+  "segments": [    
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "Before the Blossom",
+      "segment_summary": "Debolina studies a finished wall while the town admires its color. She asks what the surface conceals and chooses to begin with the unseen work.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "The Sleeping Town",
+      "segment_summary": "She climbs to the scaffold after the lamps go dark and hears the ordinary world withdraw. The silence becomes both shelter and isolation.",
+      "further_references": []
+    }
+  ]
+}

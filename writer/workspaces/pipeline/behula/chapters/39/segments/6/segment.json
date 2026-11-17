@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 39,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলোর পুনরুত্থান",
+  "segment_summary": "অন্ধকারতম সময়েও যে দীপশিখাটি নিভেনি, তা এই চূড়ান্ত মুহূর্তে তার উজ্জ্বলতম রূপে প্রকাশিত হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the reunion as a silent act of reclaiming sacred time from relentless chronological decay, using archaic vocabulary to signify temporal density.",
+    "story_option": "Setting: Under the perpetual shadow of an ancient banyan tree during dawn; Desire: For Lkhindor to acknowledge not his return, but the sheer act of Behula’s survival itself; Obstacle: An overwhelming sense that this peace is temporary, conditional on external validation.",
+    "subject_rotation": "Analyzing the concept of 'earned permanence'—what does lasting grace cost when it must fight entrenched social inertia?",
+    "sensory_detail": "The texture of dust—not dry wasteland dust, but fine silt settled over long periods of waiting and ritualistic despair.",
+    "research_question": "How can the philosophical weight of 'ontological necessity' be conveyed using diction resonant with passionate internalized rhythm?",
+    "structural_variant": "Structuring the eight segments as cyclical emotional waves, ensuring Segment 8 directly mirrors the initial tension of Segment 1 but with inverted affective weight.",
+    "variety_note": "Unlike neighbour chapters focusing on the *process* of endurance, this chapter must pivot to defining the *state* achieved by that endurance, while maintaining a self-aware tension regarding its societal validity."
+  }
+}

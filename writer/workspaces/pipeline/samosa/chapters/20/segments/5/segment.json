@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বনাম মানবিক",
+  "segment_summary": "কবিতাটি প্রশ্ন করে—স্বাদ কি কেবল তেলের রাসায়নিক যৌগ, নাকি এটি গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য, অ-পরিমাপযোগ্য অংশ?",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the lingering taste not as nostalgia (past focus) but as existential tension (present force), resisting definition by any descriptor.",
+    "story_option": "Setting: An empty serving dish left on a windowsill overlooking endless concrete; Desire: To project the scent of the original ghee/tel onto this barren surface through focused mental will; Obstacle: The persistent, sterile smell of manufactured dust in the new city air.",
+    "subject_rotation": "Examining how the act of remembering tastes becomes a highly specialized form of 'language' practiced solely by the diaspora self.",
+    "sensory_detail": "A brief, phantom sensation of cold metal against the palate immediately following the warmth of the fried pastry.",
+    "research_question": "What is the most potent colloquial Bengali word that conveys 'sweet ache' or 'melancholy satisfaction,' avoiding common literary tropes?",
+    "structural_variant": "A highly fragmented poem where each segment acts as a single magnified sensation—e.g., one segment only addresses texture, the next only aroma.",
+    "variety_note": "This chapter pivots away from mapping geographical loss (like earlier chapters) to dissecting ontological residue—the profound philosophical implications of what remains *after* the consumption event has concluded."
+  }
+}

@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-জিভের বিভ্রান্তি
+অসমাপ্ত স্বাদ
 
 ## chapter_summary
 
-জিভ একইসঙ্গে চেনা স্বাদ খোঁজে আর অচেনা স্বাদ গ্রহণ করে। এই বিভ্রান্তিই প্রবাসের জিভের স্বাভাবিক অবস্থা।
+এই অধ্যায়টি সেই মুহূর্তটিকে কেন্দ্র করে আবর্তিত হয় যখন সামোসাটি শেষ হয়ে যায়, কিন্তু জিভে একটি গভীর শূন্যতা থেকে যায়। এই শূন্যতা কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি এবং হারানো স্মৃতির ভার। এটি সেই 'মধুর বিষাদ'-এর চূড়ান্ত বহিঃপ্রকাশ, যেখানে জিভের স্বাদ এবং আত্মার আকাঙ্ক্ষার মধ্যে একটি অনন্ত ব্যবধান তৈরি হয়। প্রশ্নটি হলো—এই অসম্পূর্ণ স্বাদ কি কেবল একটি রাসায়নিক বিচ্যুতি, নাকি এটি মানব অভিজ্ঞতার এক গভীর, অমীমাংসিত অংশ?
 
 ## further_references
+
+- 3
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+খালি প্লেটের অনুরণন
+
+#### segment_summary
+
+সামোসাটির শেষ টুকরো গিলে ফেলার পর জিভে যে শূন্যতা নেমে আসে, তা কেবল পেট ভরের অভাব নয়, বরং একটি সম্পূর্ণ সাংস্কৃতিক অভিজ্ঞতার অনুপস্থিতি।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্মৃতির শূন্যতা
+
+#### segment_summary
+
+এই শূন্যতাটি অতীতের সেই উষ্ণ, মশলাদার মুহূর্তগুলোর প্রতিধ্বনি, যা নতুন মাটির গন্ধেও পুরোপুরি প্রতিস্থাপিত হতে পারে না।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনুবাদিত আকাঙ্ক্ষা
+
+#### segment_summary
+
+স্বাদটি একটি 'অনুবাদিত' অভিজ্ঞতা হয়ে থেকে যায়—যা ভাষা বা ভৌগোলিক সীমানা পেরিয়েও তার আদি রূপ ধারণ করতে ব্যর্থ হয়।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষা বনাম সমাপ্তি
+
+#### segment_summary
+
+এই সমাপ্তিটি আসলে একটি নতুন অপেক্ষার সূচনা করে—সেই নিখুঁত, আদি সিঙ্গাড়া-র জন্য যা কেবল স্মৃতিতে বিদ্যমান।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মার ভাজা স্বাদ
+
+#### segment_summary
+
+এই কাব্যিক ধারণাটি প্রতিষ্ঠা করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা রাসায়নিক বিশ্লেষণের ঊর্ধ্বে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অমীমাংসিত জিজ্ঞাসা
+
+#### segment_summary
+
+পাঠককে এই অধ্যায়ে একটি চূড়ান্ত উত্তর দেওয়া হয় না; বরং স্বাদ কি কেবল একটি জৈবিক প্রক্রিয়া, নাকি এটি গভীরতম মানবিক অভিজ্ঞতার অবিচ্ছেদ্য অংশ, সেই প্রশ্নটি খোলা রাখা হয়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+দ্বৈততার প্রতিচ্ছবি
+
+#### segment_summary
+
+এই অসম্পূর্ণ স্বাদটি প্রবাসীর দ্বৈত জীবনের প্রতিচ্ছবি—যেখানে 'পাওয়া' এবং 'হারানো' একই প্লেটে পাশাপাশি অবস্থান করে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+মধুর বিষাদের অনুরণন
+
+#### segment_summary
+
+কাব্যটি এক ধরনের 'মধুর বিষাদ'-এর অনুভূতিতে শেষ হয়, যা হারানো স্বাদের প্রতি এক গভীর, শান্ত স্বীকারোক্তি।
+
+#### further_references
 
 
 ## level
@@ -31,52 +238,47 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Focusing on the tongue as a porous membrane—a flawed receptor unable to differentiate between spectral echoes of the past and harsh realities of the present.
-- Treating the act of tasting itself as a small, silent rebellion against imposed foreign nomenclature and expectation.
-- A psychological dive where 'confusion' is recast not as error, but as the inherent state of perpetual longing—a necessary disharmony.
+- The thread metaphor: The residue of the oil slick is traced as a molecular map stretching between the foreign street and Bengal's earthen floor, showing how distance thickens or thins the connection.
+- Focusing on the 'after-chew' soundscape: Instead of visual imagery, build segments around the auditory memory—the echo of crunching against the silence of the new place.
+- Treating the inherent *void* in the center filling not as a loss, but as an active, resisting element that refuses to be filled by any foreign substance.
 
 ### story_options
 
-- setting: একটি কাঠের টেবিল, যা বাজারের কোলাহল থেকে বিচ্ছিন্ন, desire: সেই সুনির্দিষ্ট গন্ধটি পাকড়াও করা যা জিভের গভীরে কোথাও আটকে আছে, obstacle: নতুন মশলার তীব্র আগ্রাসন এবং অপ্রত্যাশিত মিশ্রণ, turn: জিভ আবিষ্কার করে যে এটি আর 'স্বাদ' গ্রহণ করছে না, কেবল একটি সংকেত পাঠাচ্ছে।
-- setting: একটি পুরনো পাত্রের পাশে রাখা আধুনিক প্লাস্টিকের চামচ, desire: অতীতে কোনো এক রান্নার আদিম ছোঁয়া অনুভব করা (দিদার হাতের মতো), obstacle: তেল আর লবণের রাসায়নিক মানদণ্ড পাল্টে যাওয়া, turn: জিভ বুঝতে পারে যে এই পার্থক্য কেবল উপকরণে নয়, বরং 'আঁচ'-এর দর্শন বদলে গেছে।
-- setting: একটি নিস্তব্ধ সকালের ভোরের আলো যেখানে ছায়াগুলো ঝাপসা, desire: সেই আলুর পুরের কোমলতার স্মৃতিকে অক্ষত রাখা, obstacle: ভাজা খোলসের অতিরিক্ত কর্কশতা যা স্মৃতির নরমতাকে ছিঁড়ে ফেলে, turn: জিভের বিভ্রান্তি এক ধরণের নীরব প্রতিরোধে পরিণত হয়, যেখানে তা নিজেকে স্বীকার করে নেয়।
+- Setting: A cold piece of concrete where the last oil-stained wrapper lies; Desire: To coax from the starch residue the precise memory of 'সরিষার তেল' aroma; Obstacle: The ambient, synthetic smells of the new city.
+- Setting: Sitting by a dusty window watching headlights pass; Desire: For the passing lights to momentarily coalesce into the shape/smell of the original fryer in Bengal; Obstacle: The harsh glare of modern street illumination eroding shadow and scent alike.
+- Setting: Inside an old, lacquered tiffin box; Desire: To sense the faint metallic tang of preserved spice fragments, which represent cultural persistence despite physical change; Obstacle: The damp chill of the foreign climate affecting the fragile remnants.
 
 ### subject_rotations
 
-- Shifting the focus entirely to the *mouth*—not as a tool for savoring, but as a geopolitical borderland where two culinary maps meet and clash.
-- Treating 'confusion' (*বিভ্রান্তি*) not as psychological failure, but as an active form of dialectic struggle: how memory fights against present sensation.
-- Focusing on the specific tactile experience of friction—the interplay between the crispness of the *খোলস* and the uncertainty of the filling.
+- Focusing solely on *tension*: mapping the internal caloric demand versus the external emotional sustenance provided by this failed imitation.
+- Personification of the 'void': Giving the lingering emptiness a character—perhaps a silent, persistent guest at every foreign meal.
+- The material failure: A dissection focusing only on how the binding agents (flour/starch) have structurally betrayed their original recipe under new atmospheric pressures.
 
 ### sensory_details
 
-- The high-frequency, brittle sound (*khrinkhle*) made by the slightly over-baked exterior when it meets the tongue.
-- A momentary phantom scent—a precise aroma that vanishes immediately upon being consciously sought or named.
-- The granular sensation of an unfamiliar salt crystal against the softer starch, creating a dual-textured assault.
+- A phantom, barely perceptible warmth against the teeth after swallowing the final piece.
+- The sight of dull, gray light illuminating the empty plate, offering no contrast to highlight the texture.
+- A faint, abrasive graininess on the tongue that feels like static electricity from an unfamiliar air current.
 
 ### research_questions
 
-- In Bengali culinary poetry, what are comparable metaphors for a 'misaligned taste' or a 'false beginning' that avoids direct psychological description?
-- How can I integrate the vocabulary of sensory overload (too many inputs) while maintaining the required high-register diction?
+- What specific Bengali literary term most accurately describes sensory longing that exists only as a 'near-miss' or a permanent asymptote?
+- How can the interplay between high register (তৎসম) and common street language mimic the sudden, jarring shift in flavor perception?
 
 ### structural_variants
 
-- Beginning with an intense, almost violent gustatory sensation, and slowing down to minute descriptions of residual tingling.
-- A structure where every line starts by negating a known quality ('Not this taste...', 'Never like that...') before presenting the next fractured sensory input.
+- A spiral structure where each segment revisits Segment 1's core idea but with increasing layers of abstraction.
+- Alternating voice: 'I' narrates the sensation; then a brief, highly compressed passage uses archaic Bengali vocabulary to describe only the *texture* of the absence.
 
 ### unused_angles
 
-- The relationship between language distortion (Chapter 27) and gustatory distortion—how one affects the other?
-- A sustained focus on the migratory nature of the spice itself, as if it travels with the migrant.
-- Using the internal chemical reaction in the mouth as a metaphor for cultural assimilation/rejection.
+- The role of light in altering perception—how shadow and harshness kill nuanced scent memory.
+- A sustained focus on the geography of movement within one small kitchen space, detailing how every new placement shifts the 'center' of flavor expectation.
 
 ### variety_note
 
-Unlike previous chapters which examined static objects (cold, sealed), this chapter is dynamic; it focuses on the moment of active cognitive dissonance occurring within consumption itself.
+Unlike its neighbours which explore specific components (oil/spice), this chapter focuses purely on the aftermath—the negative space left behind after consumption. The thread metaphor here is sustained in the residue itself, rather than being built up from individual elements.

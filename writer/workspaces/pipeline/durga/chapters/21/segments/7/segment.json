@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "পুনর্জন্মের আহ্বান",
+  "segment_summary": "এই চক্রাকার দর্শন পাঠককে আহ্বান জানায় যে, বিনাশের পরেই কেবল নতুন আশার বীজ অঙ্কুরিত হয়, যা জীবনের মৌলিক সত্য।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the 'low register' voice—the near-whisper heard in pre-dawn silence, where grand pronouncements collapse into fragile acknowledgments.",
+    "story_option": "Setting: A forgotten corner of a domestic hearth during late night; Desire: To recognize in the soot and ashes not finality, but the quiet residue of sustained inner fire; Obstacle: The pull toward simple exhaustion.",
+    "subject_rotation": "Shifting the focus from 'Devi Shakti' to the embodied, often unnoticed female resilience required to sustain faith against existential drift.",
+    "sensory_detail": "The specific, metallic tang in the mouth when one resists a moment of self-pity during intense internal focus.",
+    "research_question": "What precise Bengali colloquialisms can describe a quiet, enduring internal battle that avoids overtly religious metaphor?",
+    "structural_variant": "A deeply internalized monologue where external imagery is filtered entirely through the narrator's heightened emotional state (synesthetic resonance).",
+    "variety_note": "Unlike previous chapters which focused on initiation and physical manifestation, this chapter dives deep into the psychological aftershock—the quiet internal maintenance required between grand public acts."
+  }
+}

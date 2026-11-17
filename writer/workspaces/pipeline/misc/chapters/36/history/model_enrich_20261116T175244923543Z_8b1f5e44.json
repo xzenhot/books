@@ -1,0 +1,77 @@
+{
+  "chapter_index": 36,
+  "name": "36",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This concluding poem synthesizes the myriad small observations—from the sweat on a chai glass to the line of vermilion—to confront the central philosophical query of the collection. It examines whether these fleeting, minute moments coalesce into a stable, enduring concept of 'India,' or if they remain merely a collection of beautiful, transient flashes. The imagery shifts from specific objects to the collective weight of these overlooked particulars, leaving the reader suspended between the tangible reality of the street and the elusive nature of national identity. The open question remains whether the nation is built from monuments or from the quiet accumulation of its daily minutes.",
+  "further_references": [],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "চায়ের ঘাম ও সিঁদুরের রেখা",
+      "segment_summary": "The poem begins by juxtaposing the ephemeral moisture of a railway chai glass with the enduring, ritualistic mark of vermilion on a doorway.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য শ্রমের প্রতিধ্বনি",
+      "segment_summary": "It then weaves in the echoes of unseen labor, such as the folded hands of the dawn vendor, contrasting their quiet effort with the grand narratives of history.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "নীরবতার অর্থনীতি",
+      "segment_summary": "The focus turns to the shared, unspoken silence within a moving bus, exploring how non-verbal communication forms a subtle social contract.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "ধুলো ও আলপনার মিলন",
+      "segment_summary": "The poem merges the raw, earthy texture of dust disturbed by the monsoon with the delicate, patterned geometry of a drawn alpana.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অপেক্ষার ভার",
+      "segment_summary": "The image of the weary traveler on the platform is revisited, now carrying not just luggage, but the accumulated weight of countless small waits.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "ক্ষুদ্র লেনদেনের মহিমা",
+      "segment_summary": "It examines the profound significance embedded within the smallest commercial exchange, like the precise measurement on a vendor's scale.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "আলো ও আশ্রয়",
+      "segment_summary": "The flickering light of the evening earthen lamp is presented as the ultimate symbol of human yearning for shelter against the encroaching darkness.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "সংগ্রহ নাকি স্রোত?",
+      "segment_summary": "The final lines pose the ultimate question: are these collected moments forming a solid entity, or are they merely beautiful, passing ripples in the river of time?",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

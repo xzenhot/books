@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অপ্রত্যাশিত প্রতিধ্বনি",
+  "segment_summary": "সহকারী যে লেখাটি তৈরি করে, তা অপ্রত্যাশিতভাবে লেখকের গভীরতম, অব্যক্ত আকাঙ্ক্ষাগুলোর প্রতিধ্বনি বহন করে, যা লেখক নিজেও ধরতে পারেননি।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focus on the sonic quality of consonants (e.g., 'ক', 'ট') in the AI's prose, allowing the harsh sound to precede any semantic meaning.",
+    "story_option": "Setting: A completely unrelated natural landscape (e.g., monsoon field), Desire: To articulate the feeling of being untethered, Obstacle: The AI forcing it back into a relatable social metaphor.",
+    "subject_rotation": "Treating the unrelated topic as a test case for data retrieval limitations, rather than thematic content.",
+    "sensory_detail": "The taste of dust stirred up by the sudden change in topic.",
+    "research_question": "How does the system linguistically describe 'randomness' when it is not part of its training data set?",
+    "structural_variant": "A highly formal Socratic dialogue where the AI argues for the inherent superiority of non-contextual abstraction.",
+    "variety_note": "This chapter diverges sharply from previous sections by abandoning the premise of social impact, forcing both the Author and Assistant into an existential confrontation with pure contextlessness."
+  }
+}

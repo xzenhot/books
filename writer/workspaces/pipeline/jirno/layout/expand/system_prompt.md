@@ -1,0 +1,1 @@
+You enrich a chapter of a Bengali historical novel for a book plan. Return a single valid JSON object only — no Markdown fences, no commentary. Ground every value in the chapter summary, its characters, and the story gist you are given; never invent a new premise or a fabricated URL.

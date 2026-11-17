@@ -102,3 +102,931 @@
 {"kind": "chapter_written", "bookname": "haveli", "chapter": "6", "title": "হাভলি — পর্ব 6 — haveli", "message": "Chapter 6 written (26293 chars).", "ts": "2026-11-13T13:05:12.932064+00:00"}
 {"kind": "chapter_written", "bookname": "haveli", "chapter": "7", "title": "আজকের হাভলি—অর্ধেক শূন্যতা, অর্ধেক স্মৃতি", "message": "Chapter 7 written (7005 chars).", "ts": "2026-11-13T13:06:14.142289+00:00"}
 {"kind": "chapter_written", "bookname": "haveli", "chapter": "8", "title": "হাভলি — পর্ব 8 — haveli", "message": "Chapter 8 written (6483 chars).", "ts": "2026-11-13T13:07:23.448124+00:00"}
+{"kind": "chapter_enriched", "bookname": "aravalli", "chapter": "1", "title": "টেথিস সাগরের রক্তাক্ত উত্থান", "message": "Chapter 1 enriched.", "ts": "2026-11-16T02:25:18.335651+00:00"}
+{"kind": "chapter_enriched", "bookname": "aravalli", "chapter": "2", "title": "তামার ধমনী ও মাকড়ানা মার্বেলের রক্ত", "message": "Chapter 2 enriched.", "ts": "2026-11-16T02:25:40.600560+00:00"}
+{"kind": "chapter_enriched", "bookname": "aravalli", "chapter": "3", "title": "ষোড়শ মহাজনপদের ধূলি ও বেদ-গীতার স্রোত", "message": "Chapter 3 enriched.", "ts": "2026-11-16T02:26:02.297657+00:00"}
+{"kind": "chapter_enriched", "bookname": "aravalli", "chapter": "4", "title": "বিলুপ্তি ও হাহাকার: সরস্বতী নদীর শূন্য স্রোত", "message": "Chapter 4 enriched.", "ts": "2026-11-16T02:26:22.624489+00:00"}
+{"kind": "chapter_enriched", "bookname": "aravalli", "chapter": "5", "title": "কংক্রিটের জঙ্গল ও সবুজ প্রাচীরের আর্তনাদ", "message": "Chapter 5 enriched.", "ts": "2026-11-16T02:26:59.438293+00:00"}
+{"kind": "chapter_enriched", "bookname": "badam", "chapter": "1", "title": "badam — পর্ব 1 — badam", "message": "Chapter 1 enriched.", "ts": "2026-11-16T02:27:17.324316+00:00"}
+{"kind": "chapter_enriched", "bookname": "aravalli", "chapter": "6", "title": "সাগরিকার আগমন: আদিম কামনার তন্ত্র", "message": "Chapter 6 enriched.", "ts": "2026-11-16T02:27:40.606049+00:00"}
+{"kind": "chapter_enriched", "bookname": "aravalli", "chapter": "8", "title": "আইনি কাঠিন্য ও শিলার আদিম আর্তনাদ", "message": "Chapter 8 enriched.", "ts": "2026-11-16T02:29:19.287571+00:00"}
+{"kind": "chapter_enriched", "bookname": "aravalli", "chapter": "2", "title": "খনিজ ধমনী ও আদিম আকাঙ্ক্ষার উন্মোচন", "message": "Chapter 2 enriched.", "ts": "2026-11-16T02:30:18.504040+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "1", "title": "অরুণিমার হাতে পাওয়া একটি অস্পষ্ট চিঠি", "message": "Chapter 1 enriched.", "ts": "2026-11-16T02:31:04.850720+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "2", "title": "article — পর্ব 2", "message": "Chapter 2 enriched.", "ts": "2026-11-16T02:31:20.183438+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "3", "title": "অরুণিমা এবং বিক্রমের পথচলা অপ্রত্যাশিতভাবে সেই রহস্যময় বৃদ্ধ সংগ্রাহকের দরজায় এসে মিলিত হয়, যিনি শহরের অপ্রকাশিত ইতিহাস সংরক্ষণ করেন।", "message": "Chapter 3 enriched.", "ts": "2026-11-16T02:31:36.764667+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "4", "title": "বাতিল কাগজের স্তূপের সন্ধান", "message": "Chapter 4 enriched.", "ts": "2026-11-16T02:31:56.316716+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "5", "title": "বিক্রমের কাঠামোর ভাঙন", "message": "Chapter 5 enriched.", "ts": "2026-11-16T02:32:12.241984+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "6", "title": "সংগ্রাহকের ডায়েরি ও চাপা ট্র্যাজেডি", "message": "Chapter 6 enriched.", "ts": "2026-11-16T02:32:29.430054+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "7", "title": "বস্তির উচ্ছেদ: শিরোনামের আড়ালে চাপা কান্না", "message": "Chapter 7 enriched.", "ts": "2026-11-16T02:32:52.128846+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "8", "title": "বিক্রমের নৈতিক সংকট", "message": "Chapter 8 enriched.", "ts": "2026-11-16T02:33:14.217938+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "9", "title": "সম্মিলিত বিচ্ছিন্নতার প্রতিচ্ছবি", "message": "Chapter 9 enriched.", "ts": "2026-11-16T02:33:32.605886+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "10", "title": "মেট্রোর কামরায় একটি তুচ্ছ ঘটনা", "message": "Chapter 10 enriched.", "ts": "2026-11-16T02:33:49.836054+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "11", "title": "সংগ্রাহকের সংগ্রহে থাকা একটি নির্দিষ্ট বস্তু", "message": "Chapter 11 enriched.", "ts": "2026-11-16T02:34:07.338230+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "12", "title": "ব্রেকিং নিউজের ক্ষণস্থায়ীতা", "message": "Chapter 12 enriched.", "ts": "2026-11-16T02:34:23.722639+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "13", "title": "বিক্রমের প্রান্তিক সংযোগ", "message": "Chapter 13 enriched.", "ts": "2026-11-16T02:34:40.147132+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "14", "title": "অরুণিমা এবং বিক্রমের পথচলা এক চরম সন্ধিক্ষণে পৌঁছায়; তারা বুঝতে পারে, সত্য কেবল একটি নির্দিষ্ট 'উত্তর' নয়, বরং একটি চলমান জিজ্ঞাসা।", "message": "Chapter 14 enriched.", "ts": "2026-11-16T02:34:53.895629+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "15", "title": "নীরব, অপ্রকাশিত মুহূর্তগুলো", "message": "Chapter 15 enriched.", "ts": "2026-11-16T02:35:08.595706+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "16", "title": "The Unwritten Chronicle", "message": "Chapter 16 enriched.", "ts": "2026-11-16T02:35:20.656722+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "17", "title": "The Unwritten Chronicle", "message": "Chapter 17 enriched.", "ts": "2026-11-16T02:35:36.174313+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "18", "title": "The Unwritten Chronicle", "message": "Chapter 18 enriched.", "ts": "2026-11-16T02:35:49.640461+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "19", "title": "The Unwritten Chronicle", "message": "Chapter 19 enriched.", "ts": "2026-11-16T02:36:03.476790+00:00"}
+{"kind": "chapter_enriched", "bookname": "article", "chapter": "20", "title": "The Unwritten Chronicle", "message": "Chapter 20 enriched.", "ts": "2026-11-16T02:36:18.459316+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "1", "title": "অরুণিমার হাতে পাওয়া একটি অস্পষ্ট চিঠি", "message": "Chapter 1 written (2711 chars).", "ts": "2026-11-16T02:36:49.185085+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "2", "title": "article — পর্ব 2", "message": "Chapter 2 written (3007 chars).", "ts": "2026-11-16T02:37:32.934493+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "3", "title": "অরুণিমা এবং বিক্রমের পথচলা অপ্রত্যাশিতভাবে সেই রহস্যময় বৃদ্ধ সংগ্রাহকের দরজায় এসে মিলিত হয়, যিনি শহরের অপ্রকাশিত ইতিহাস সংরক্ষণ করেন।", "message": "Chapter 3 written (3051 chars).", "ts": "2026-11-16T02:38:19.307863+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "4", "title": "বাতিল কাগজের স্তূপের সন্ধান", "message": "Chapter 4 written (2968 chars).", "ts": "2026-11-16T02:39:05.805658+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "5", "title": "বিক্রমের কাঠামোর ভাঙন", "message": "Chapter 5 written (2963 chars).", "ts": "2026-11-16T02:39:50.798312+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "6", "title": "সংগ্রাহকের ডায়েরি ও চাপা ট্র্যাজেডি", "message": "Chapter 6 written (2660 chars).", "ts": "2026-11-16T02:40:34.884819+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "7", "title": "বস্তির উচ্ছেদ: শিরোনামের আড়ালে চাপা কান্না", "message": "Chapter 7 written (2605 chars).", "ts": "2026-11-16T02:41:20.486516+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "8", "title": "বিক্রমের নৈতিক সংকট", "message": "Chapter 8 written (3040 chars).", "ts": "2026-11-16T02:42:04.934056+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "9", "title": "সম্মিলিত বিচ্ছিন্নতার প্রতিচ্ছবি", "message": "Chapter 9 written (3140 chars).", "ts": "2026-11-16T02:42:49.988892+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "10", "title": "মেট্রোর কামরায় একটি তুচ্ছ ঘটনা", "message": "Chapter 10 written (2761 chars).", "ts": "2026-11-16T02:43:33.564787+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "11", "title": "সংগ্রাহকের সংগ্রহে থাকা একটি নির্দিষ্ট বস্তু", "message": "Chapter 11 written (2693 chars).", "ts": "2026-11-16T02:44:17.207556+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "12", "title": "ব্রেকিং নিউজের ক্ষণস্থায়ীতা", "message": "Chapter 12 written (2930 chars).", "ts": "2026-11-16T02:45:01.040244+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "13", "title": "বিক্রমের প্রান্তিক সংযোগ", "message": "Chapter 13 written (2891 chars).", "ts": "2026-11-16T02:45:47.255567+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "14", "title": "অরুণিমা এবং বিক্রমের পথচলা এক চরম সন্ধিক্ষণে পৌঁছায়; তারা বুঝতে পারে, সত্য কেবল একটি নির্দিষ্ট 'উত্তর' নয়, বরং একটি চলমান জিজ্ঞাসা।", "message": "Chapter 14 written (2583 chars).", "ts": "2026-11-16T02:46:29.876345+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "15", "title": "নীরব, অপ্রকাশিত মুহূর্তগুলো", "message": "Chapter 15 written (4548 chars).", "ts": "2026-11-16T02:47:22.103654+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "16", "title": "The Unwritten Chronicle", "message": "Chapter 16 written (3554 chars).", "ts": "2026-11-16T02:48:09.848012+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "17", "title": "The Unwritten Chronicle", "message": "Chapter 17 written (3326 chars).", "ts": "2026-11-16T02:48:58.516201+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "18", "title": "The Unwritten Chronicle", "message": "Chapter 18 written (2797 chars).", "ts": "2026-11-16T02:49:42.636959+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "19", "title": "The Unwritten Chronicle", "message": "Chapter 19 written (3259 chars).", "ts": "2026-11-16T02:50:29.546953+00:00"}
+{"kind": "chapter_written", "bookname": "article", "chapter": "20", "title": "The Unwritten Chronicle", "message": "Chapter 20 written (3027 chars).", "ts": "2026-11-16T02:51:16.006836+00:00"}
+{"kind": "chapter_enriched", "bookname": "badam", "chapter": "1", "title": "badam — পর্ব 1 — badam", "message": "Chapter 1 enriched.", "ts": "2026-11-16T02:51:50.039768+00:00"}
+{"kind": "chapter_enriched", "bookname": "badam", "chapter": "2", "title": "badam — পর্ব 2 — badam", "message": "Chapter 2 enriched.", "ts": "2026-11-16T02:52:06.566782+00:00"}
+{"kind": "chapter_enriched", "bookname": "badam", "chapter": "3", "title": "badam — পর্ব 3 — badam", "message": "Chapter 3 enriched.", "ts": "2026-11-16T02:52:27.062154+00:00"}
+{"kind": "chapter_enriched", "bookname": "badam", "chapter": "4", "title": "শহরের নতুন বণিকদের আগমন", "message": "Chapter 4 enriched.", "ts": "2026-11-16T02:52:48.035162+00:00"}
+{"kind": "chapter_enriched", "bookname": "badam", "chapter": "5", "title": "একটি বিশেষ ভটিয়ালি গান", "message": "Chapter 5 enriched.", "ts": "2026-11-16T02:53:08.754275+00:00"}
+{"kind": "chapter_enriched", "bookname": "badam", "chapter": "6", "title": "ঋণের জাল ক্রমশ ঘন হতে শুরু করে", "message": "Chapter 6 enriched.", "ts": "2026-11-16T02:53:29.480342+00:00"}
+{"kind": "chapter_enriched", "bookname": "badam", "chapter": "7", "title": "badam — পর্ব 7 — badam", "message": "Chapter 7 enriched.", "ts": "2026-11-16T02:53:51.319566+00:00"}
+{"kind": "chapter_enriched", "bookname": "badam", "chapter": "8", "title": "নদীর অন্য পারে নতুন ফেরি", "message": "Chapter 8 enriched.", "ts": "2026-11-16T02:54:13.789486+00:00"}
+{"kind": "chapter_written", "bookname": "badam", "chapter": "1", "title": "badam — পর্ব 1 — badam", "message": "Chapter 1 written (21280 chars).", "ts": "2026-11-16T02:56:26.733966+00:00"}
+{"kind": "chapter_written", "bookname": "badam", "chapter": "2", "title": "badam — পর্ব 2 — badam", "message": "Chapter 2 written (21711 chars).", "ts": "2026-11-16T02:58:46.498068+00:00"}
+{"kind": "chapter_written", "bookname": "badam", "chapter": "3", "title": "badam — পর্ব 3 — badam", "message": "Chapter 3 written (22635 chars).", "ts": "2026-11-16T03:01:22.553823+00:00"}
+{"kind": "chapter_written", "bookname": "badam", "chapter": "4", "title": "শহরের নতুন বণিকদের আগমন", "message": "Chapter 4 written (22045 chars).", "ts": "2026-11-16T03:03:39.306353+00:00"}
+{"kind": "chapter_written", "bookname": "badam", "chapter": "5", "title": "একটি বিশেষ ভটিয়ালি গান", "message": "Chapter 5 written (22053 chars).", "ts": "2026-11-16T03:06:05.807940+00:00"}
+{"kind": "chapter_written", "bookname": "badam", "chapter": "6", "title": "ঋণের জাল ক্রমশ ঘন হতে শুরু করে", "message": "Chapter 6 written (22617 chars).", "ts": "2026-11-16T03:08:47.087480+00:00"}
+{"kind": "chapter_written", "bookname": "badam", "chapter": "7", "title": "badam — পর্ব 7 — badam", "message": "Chapter 7 written (22890 chars).", "ts": "2026-11-16T03:11:16.053529+00:00"}
+{"kind": "chapter_written", "bookname": "badam", "chapter": "8", "title": "নদীর অন্য পারে নতুন ফেরি", "message": "Chapter 8 written (24843 chars).", "ts": "2026-11-16T03:13:59.782574+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "1", "title": "behula — পর্ব 1 — behula", "message": "Chapter 1 enriched.", "ts": "2026-11-16T03:14:29.388600+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "2", "title": "behula — পর্ব 2 — behula", "message": "Chapter 2 enriched.", "ts": "2026-11-16T03:14:49.753641+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "3", "title": "behula — পর্ব 3 — behula", "message": "Chapter 3 enriched.", "ts": "2026-11-16T03:15:19.132929+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "4", "title": "behula — পর্ব 4 — behula", "message": "Chapter 4 enriched.", "ts": "2026-11-16T03:15:46.238699+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "5", "title": "প্রতিদ্বন্দ্বিতার আবহে নিজের অবস্থান ধরে রাখা", "message": "Chapter 5 enriched.", "ts": "2026-11-16T03:16:11.359793+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "6", "title": "behula — পর্ব 6 — behula", "message": "Chapter 6 enriched.", "ts": "2026-11-16T03:16:34.832567+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "7", "title": "একাকী নারীর সংগ্রামের প্রতীক হয়ে ওঠা", "message": "Chapter 7 enriched.", "ts": "2026-11-16T03:17:11.627631+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "8", "title": "সাংস্কৃতিক ও ধর্মীয় বাধার মোকাবিলা", "message": "Chapter 8 enriched.", "ts": "2026-11-16T03:17:36.860374+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "9", "title": "সতীত্ব ও প্রেমের পরিচয়", "message": "Chapter 9 enriched.", "ts": "2026-11-16T03:18:01.496195+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "10", "title": "দশমত: শেষ পর্যন্ত সাফল্য অর্জন", "message": "Chapter 10 enriched.", "ts": "2026-11-16T03:18:21.971405+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "11", "title": "বিশ্বাস ও প্রার্থনায় অবিচল নির্ভরতা", "message": "Chapter 11 enriched.", "ts": "2026-11-16T03:18:45.717289+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "12", "title": "বেহুলার সংগ্রাম: সম্মিলিত কণ্ঠস্বর", "message": "Chapter 12 enriched.", "ts": "2026-11-16T03:19:14.027146+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "13", "title": "অন্ধকার এবং আলোর দ্বৈরথ", "message": "Chapter 13 enriched.", "ts": "2026-11-16T03:19:32.997796+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "14", "title": "চূড়ান্ত পরীক্ষার পূর্বে: সংকল্পের মুহূর্ত", "message": "Chapter 14 enriched.", "ts": "2026-11-16T03:19:56.592037+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "15", "title": "সমস্ত প্রতিকূলতা জয় করে স্বামীর প্রত্যাবর্তন", "message": "Chapter 15 enriched.", "ts": "2026-11-16T03:20:20.154826+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "16", "title": "Final Triumph and Enduring Question", "message": "Chapter 16 enriched.", "ts": "2026-11-16T03:20:46.330883+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "17", "title": "behula — পর্ব 15 — behula", "message": "Chapter 17 enriched.", "ts": "2026-11-16T03:21:16.236374+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "18", "title": "Final Triumph and Enduring Question", "message": "Chapter 18 enriched.", "ts": "2026-11-16T03:21:42.657871+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "19", "title": "behula — পর্ব 15 — behula", "message": "Chapter 19 enriched.", "ts": "2026-11-16T03:22:09.762714+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "20", "title": "Final Triumph: The Return of the Beloved", "message": "Chapter 20 enriched.", "ts": "2026-11-16T03:22:38.374095+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "21", "title": "behula — পর্ব 15 — behula", "message": "Chapter 21 enriched.", "ts": "2026-11-16T03:23:08.867828+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "22", "title": "behula — পর্ব 15 — behula", "message": "Chapter 22 enriched.", "ts": "2026-11-16T03:23:33.936083+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "23", "title": "behula — পর্ব 15 — behula", "message": "Chapter 23 enriched.", "ts": "2026-11-16T03:23:58.653034+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "24", "title": "behula — পর্ব 15 — behula", "message": "Chapter 24 enriched.", "ts": "2026-11-16T03:24:19.664238+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "25", "title": "behula — পর্ব 15 — behula", "message": "Chapter 25 enriched.", "ts": "2026-11-16T03:24:53.535065+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "26", "title": "behula — পর্ব 15 — behula", "message": "Chapter 26 enriched.", "ts": "2026-11-16T03:25:17.807257+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "27", "title": "behula — পর্ব 15 — behula", "message": "Chapter 27 enriched.", "ts": "2026-11-16T03:25:43.896832+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "28", "title": "behula — পর্ব 15 — behula", "message": "Chapter 28 enriched.", "ts": "2026-11-16T03:26:13.647080+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "29", "title": "behula — পর্ব 15 — behula", "message": "Chapter 29 enriched.", "ts": "2026-11-16T03:26:39.707273+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "30", "title": "behula — পর্ব 15 — behula", "message": "Chapter 30 enriched.", "ts": "2026-11-16T03:27:01.073101+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "31", "title": "behula — পর্ব 15 — behula", "message": "Chapter 31 enriched.", "ts": "2026-11-16T03:27:31.437029+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "32", "title": "behula — পর্ব 15 — behula", "message": "Chapter 32 enriched.", "ts": "2026-11-16T03:27:54.704706+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "33", "title": "behula — পর্ব 15 — behula", "message": "Chapter 33 enriched.", "ts": "2026-11-16T03:28:17.530923+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "34", "title": "behula — পর্ব 15 — behula", "message": "Chapter 34 enriched.", "ts": "2026-11-16T03:28:43.302609+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "35", "title": "behula — পর্ব 15 — behula", "message": "Chapter 35 enriched.", "ts": "2026-11-16T03:29:09.933998+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "36", "title": "behula — পর্ব 15 — behula", "message": "Chapter 36 enriched.", "ts": "2026-11-16T03:29:38.242670+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "37", "title": "behula — পর্ব 15 — behula", "message": "Chapter 37 enriched.", "ts": "2026-11-16T03:30:01.051006+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "38", "title": "behula — পর্ব 15 — behula", "message": "Chapter 38 enriched.", "ts": "2026-11-16T03:30:23.518857+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "39", "title": "behula — পর্ব 15 — behula", "message": "Chapter 39 enriched.", "ts": "2026-11-16T03:30:49.101939+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "40", "title": "behula — পর্ব 15 — behula", "message": "Chapter 40 enriched.", "ts": "2026-11-16T03:31:20.182629+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "41", "title": "behula — পর্ব 15 — behula", "message": "Chapter 41 enriched.", "ts": "2026-11-16T03:31:47.263805+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "42", "title": "behula — পর্ব 15 — behula", "message": "Chapter 42 enriched.", "ts": "2026-11-16T03:32:11.681013+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "43", "title": "behula — পর্ব 15 — behula", "message": "Chapter 43 enriched.", "ts": "2026-11-16T03:32:45.574757+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "44", "title": "behula — পর্ব 15 — behula", "message": "Chapter 44 enriched.", "ts": "2026-11-16T03:33:10.074028+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "45", "title": "behula — পর্ব 15 — behula", "message": "Chapter 45 enriched.", "ts": "2026-11-16T03:33:35.338402+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "46", "title": "behula — পর্ব 15 — behula", "message": "Chapter 46 enriched.", "ts": "2026-11-16T03:33:56.726772+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "47", "title": "behula — পর্ব 15 — behula", "message": "Chapter 47 enriched.", "ts": "2026-11-16T03:34:25.891693+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "48", "title": "behula — পর্ব 15 — behula", "message": "Chapter 48 enriched.", "ts": "2026-11-16T03:34:55.671972+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "49", "title": "behula — পর্ব 15 — behula", "message": "Chapter 49 enriched.", "ts": "2026-11-16T03:35:17.034113+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "50", "title": "behula — পর্ব 5 — behula", "message": "Chapter 50 enriched.", "ts": "2026-11-16T03:35:37.693091+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "51", "title": "behula — পর্ব 15 — behula", "message": "Chapter 51 enriched.", "ts": "2026-11-16T03:36:01.085690+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "52", "title": "behula — পর্ব 15 — behula", "message": "Chapter 52 enriched.", "ts": "2026-11-16T03:36:23.476979+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "53", "title": "behula — পর্ব 5 — behula", "message": "Chapter 53 enriched.", "ts": "2026-11-16T03:36:48.170697+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "54", "title": "behula — পর্ব 15 — behula", "message": "Chapter 54 enriched.", "ts": "2026-11-16T03:37:13.151240+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "55", "title": "behula — পর্ব 15 — behula", "message": "Chapter 55 enriched.", "ts": "2026-11-16T03:37:33.453928+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "56", "title": "behula — পর্ব 15 — behula", "message": "Chapter 56 enriched.", "ts": "2026-11-16T03:37:54.615457+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "57", "title": "behula — পর্ব 15 — behula", "message": "Chapter 57 enriched.", "ts": "2026-11-16T03:38:23.336683+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "58", "title": "Chapter 58: The Unwavering Flame Amidst the Abyss", "message": "Chapter 58 enriched.", "ts": "2026-11-16T03:38:55.574700+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "59", "title": "behula — পর্ব 15 — behula", "message": "Chapter 59 enriched.", "ts": "2026-11-16T03:39:24.079839+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "60", "title": "behula — পর্ব 6 — behula", "message": "Chapter 60 enriched.", "ts": "2026-11-16T03:39:56.782735+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "61", "title": "behula — পর্ব 6 — behula", "message": "Chapter 61 enriched.", "ts": "2026-11-16T03:40:19.245644+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "62", "title": "behula — পর্ব 6 — behula", "message": "Chapter 62 enriched.", "ts": "2026-11-16T03:40:46.298475+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "63", "title": "behula — পর্ব 15 — behula", "message": "Chapter 63 enriched.", "ts": "2026-11-16T03:41:13.010849+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "64", "title": "behula — পর্ব 6 — behula", "message": "Chapter 64 enriched.", "ts": "2026-11-16T03:41:35.853494+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "65", "title": "behula — পর্ব 15 — behula", "message": "Chapter 65 enriched.", "ts": "2026-11-16T03:41:58.156119+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "66", "title": "behula — পর্ব 6 — behula", "message": "Chapter 66 enriched.", "ts": "2026-11-16T03:42:22.723354+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "67", "title": "behula — পর্ব 6 — behula", "message": "Chapter 67 enriched.", "ts": "2026-11-16T03:42:46.026488+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "68", "title": "behula — পর্ব 15 — behula", "message": "Chapter 68 enriched.", "ts": "2026-11-16T03:43:11.123596+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "69", "title": "behula — পর্ব 6 — behula", "message": "Chapter 69 enriched.", "ts": "2026-11-16T03:43:36.531527+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "70", "title": "বেহুলার সংগ্রাম: নারীর প্রতীক হয়ে ওঠা", "message": "Chapter 70 enriched.", "ts": "2026-11-16T03:44:01.850097+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "71", "title": "behula — পর্ব 7 — behula", "message": "Chapter 71 enriched.", "ts": "2026-11-16T03:44:27.368901+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "72", "title": "behula — পর্ব 7 — behula", "message": "Chapter 72 enriched.", "ts": "2026-11-16T03:44:53.090410+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "73", "title": "behula — পর্ব 7 — behula", "message": "Chapter 73 enriched.", "ts": "2026-11-16T03:45:17.836209+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "74", "title": "behula — পর্ব 7 — behula", "message": "Chapter 74 enriched.", "ts": "2026-11-16T03:45:39.926545+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "75", "title": "behula — পর্ব 7 — behula", "message": "Chapter 75 enriched.", "ts": "2026-11-16T03:46:02.325919+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "76", "title": "বেহুলা — পর্ব 7 — behula", "message": "Chapter 76 enriched.", "ts": "2026-11-16T03:46:27.558951+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "77", "title": "বেহুলার সংগ্রাম: নারীর প্রতীক", "message": "Chapter 77 enriched.", "ts": "2026-11-16T03:46:50.718863+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "78", "title": "behula — পর্ব 8 — behula", "message": "Chapter 78 enriched.", "ts": "2026-11-16T03:47:15.805206+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "79", "title": "বেহুলা — পর্ব 7 — behula", "message": "Chapter 79 enriched.", "ts": "2026-11-16T03:47:38.519584+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "80", "title": "behula — পর্ব 8 — behula", "message": "Chapter 80 enriched.", "ts": "2026-11-16T03:48:01.163237+00:00"}
+{"kind": "chapter_enriched", "bookname": "behula", "chapter": "81", "title": "behula — পর্ব 15 — behula", "message": "Chapter 81 enriched.", "ts": "2026-11-16T03:48:23.574834+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "1", "title": "behula — পর্ব 1 — behula", "message": "Chapter 1 written (30777 chars).", "ts": "2026-11-16T03:52:10.505741+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "2", "title": "behula — পর্ব 2 — behula", "message": "Chapter 2 written (22378 chars).", "ts": "2026-11-16T03:54:51.953997+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "3", "title": "behula — পর্ব 3 — behula", "message": "Chapter 3 written (25856 chars).", "ts": "2026-11-16T03:58:06.530407+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "4", "title": "behula — পর্ব 4 — behula", "message": "Chapter 4 written (22794 chars).", "ts": "2026-11-16T04:00:46.692192+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "5", "title": "প্রতিদ্বন্দ্বিতার আবহে নিজের অবস্থান ধরে রাখা", "message": "Chapter 5 written (25920 chars).", "ts": "2026-11-16T04:03:44.414957+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "6", "title": "behula — পর্ব 6 — behula", "message": "Chapter 6 written (24956 chars).", "ts": "2026-11-16T04:06:44.696182+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "7", "title": "একাকী নারীর সংগ্রামের প্রতীক হয়ে ওঠা", "message": "Chapter 7 written (9793 chars).", "ts": "2026-11-16T04:07:58.848765+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "8", "title": "সাংস্কৃতিক ও ধর্মীয় বাধার মোকাবিলা", "message": "Chapter 8 written (4559 chars).", "ts": "2026-11-16T04:08:53.601460+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "9", "title": "সতীত্ব ও প্রেমের পরিচয়", "message": "Chapter 9 written (6439 chars).", "ts": "2026-11-16T04:10:05.564446+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "10", "title": "দশমত: শেষ পর্যন্ত সাফল্য অর্জন", "message": "Chapter 10 written (24332 chars).", "ts": "2026-11-16T04:12:57.013241+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "11", "title": "বিশ্বাস ও প্রার্থনায় অবিচল নির্ভরতা", "message": "Chapter 11 written (27001 chars).", "ts": "2026-11-16T04:16:17.367458+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "12", "title": "বেহুলার সংগ্রাম: সম্মিলিত কণ্ঠস্বর", "message": "Chapter 12 written (23516 chars).", "ts": "2026-11-16T04:18:37.843806+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "13", "title": "অন্ধকার এবং আলোর দ্বৈরথ", "message": "Chapter 13 written (26824 chars).", "ts": "2026-11-16T04:21:32.061131+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "14", "title": "চূড়ান্ত পরীক্ষার পূর্বে: সংকল্পের মুহূর্ত", "message": "Chapter 14 written (28817 chars).", "ts": "2026-11-16T04:24:47.630733+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "15", "title": "সমস্ত প্রতিকূলতা জয় করে স্বামীর প্রত্যাবর্তন", "message": "Chapter 15 written (24624 chars).", "ts": "2026-11-16T04:27:29.231251+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "16", "title": "Final Triumph and Enduring Question", "message": "Chapter 16 written (27237 chars).", "ts": "2026-11-16T04:30:46.468592+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "17", "title": "behula — পর্ব 15 — behula", "message": "Chapter 17 written (27054 chars).", "ts": "2026-11-16T04:33:51.599690+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "18", "title": "Final Triumph and Enduring Question", "message": "Chapter 18 written (25275 chars).", "ts": "2026-11-16T04:36:47.754470+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "19", "title": "behula — পর্ব 15 — behula", "message": "Chapter 19 written (28015 chars).", "ts": "2026-11-16T04:40:05.625712+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "20", "title": "Final Triumph: The Return of the Beloved", "message": "Chapter 20 written (25832 chars).", "ts": "2026-11-16T04:43:11.329806+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "21", "title": "behula — পর্ব 15 — behula", "message": "Chapter 21 written (21081 chars).", "ts": "2026-11-16T04:45:13.635875+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "22", "title": "behula — পর্ব 15 — behula", "message": "Chapter 22 written (27447 chars).", "ts": "2026-11-16T04:48:28.347825+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "23", "title": "behula — পর্ব 15 — behula", "message": "Chapter 23 written (25811 chars).", "ts": "2026-11-16T04:51:36.925811+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "24", "title": "behula — পর্ব 15 — behula", "message": "Chapter 24 written (25575 chars).", "ts": "2026-11-16T04:54:36.792665+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "25", "title": "behula — পর্ব 15 — behula", "message": "Chapter 25 written (26636 chars).", "ts": "2026-11-16T04:57:46.994479+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "26", "title": "behula — পর্ব 15 — behula", "message": "Chapter 26 written (29219 chars).", "ts": "2026-11-16T05:01:06.087436+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "27", "title": "behula — পর্ব 15 — behula", "message": "Chapter 27 written (26625 chars).", "ts": "2026-11-16T05:03:54.287176+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "28", "title": "behula — পর্ব 15 — behula", "message": "Chapter 28 written (26159 chars).", "ts": "2026-11-16T05:06:57.850355+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "29", "title": "behula — পর্ব 15 — behula", "message": "Chapter 29 written (25361 chars).", "ts": "2026-11-16T05:09:38.268684+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "30", "title": "behula — পর্ব 15 — behula", "message": "Chapter 30 written (22084 chars).", "ts": "2026-11-16T05:12:05.309606+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "31", "title": "behula — পর্ব 15 — behula", "message": "Chapter 31 written (25629 chars).", "ts": "2026-11-16T05:14:50.914471+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "32", "title": "behula — পর্ব 15 — behula", "message": "Chapter 32 written (25551 chars).", "ts": "2026-11-16T05:17:36.078907+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "33", "title": "behula — পর্ব 15 — behula", "message": "Chapter 33 written (29457 chars).", "ts": "2026-11-16T05:21:09.478767+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "34", "title": "behula — পর্ব 15 — behula", "message": "Chapter 34 written (26410 chars).", "ts": "2026-11-16T05:24:15.489482+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "35", "title": "behula — পর্ব 15 — behula", "message": "Chapter 35 written (26327 chars).", "ts": "2026-11-16T05:27:27.694302+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "36", "title": "behula — পর্ব 15 — behula", "message": "Chapter 36 written (26034 chars).", "ts": "2026-11-16T05:30:30.340831+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "37", "title": "behula — পর্ব 15 — behula", "message": "Chapter 37 written (25527 chars).", "ts": "2026-11-16T05:33:31.878254+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "38", "title": "behula — পর্ব 15 — behula", "message": "Chapter 38 written (26534 chars).", "ts": "2026-11-16T05:36:14.188890+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "39", "title": "behula — পর্ব 15 — behula", "message": "Chapter 39 written (26526 chars).", "ts": "2026-11-16T05:39:15.602969+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "40", "title": "behula — পর্ব 15 — behula", "message": "Chapter 40 written (25100 chars).", "ts": "2026-11-16T05:42:07.713228+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "41", "title": "behula — পর্ব 15 — behula", "message": "Chapter 41 written (27203 chars).", "ts": "2026-11-16T05:45:46.080258+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "42", "title": "behula — পর্ব 15 — behula", "message": "Chapter 42 written (29867 chars).", "ts": "2026-11-16T05:49:19.230552+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "43", "title": "behula — পর্ব 15 — behula", "message": "Chapter 43 written (23985 chars).", "ts": "2026-11-16T05:51:48.397338+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "44", "title": "behula — পর্ব 15 — behula", "message": "Chapter 44 written (24220 chars).", "ts": "2026-11-16T05:54:38.387992+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "45", "title": "behula — পর্ব 15 — behula", "message": "Chapter 45 written (28126 chars).", "ts": "2026-11-16T05:57:46.677095+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "46", "title": "behula — পর্ব 15 — behula", "message": "Chapter 46 written (26821 chars).", "ts": "2026-11-16T06:00:47.380924+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "47", "title": "behula — পর্ব 15 — behula", "message": "Chapter 47 written (28163 chars).", "ts": "2026-11-16T06:04:02.307330+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "48", "title": "behula — পর্ব 15 — behula", "message": "Chapter 48 written (25349 chars).", "ts": "2026-11-16T06:06:53.645514+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "49", "title": "behula — পর্ব 15 — behula", "message": "Chapter 49 written (22438 chars).", "ts": "2026-11-16T06:09:27.161737+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "50", "title": "behula — পর্ব 5 — behula", "message": "Chapter 50 written (23131 chars).", "ts": "2026-11-16T06:11:59.439477+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "51", "title": "behula — পর্ব 15 — behula", "message": "Chapter 51 written (25326 chars).", "ts": "2026-11-16T06:14:41.462329+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "52", "title": "behula — পর্ব 15 — behula", "message": "Chapter 52 written (24907 chars).", "ts": "2026-11-16T06:17:49.461682+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "53", "title": "behula — পর্ব 5 — behula", "message": "Chapter 53 written (23684 chars).", "ts": "2026-11-16T06:20:32.771944+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "54", "title": "behula — পর্ব 15 — behula", "message": "Chapter 54 written (25705 chars).", "ts": "2026-11-16T06:23:25.087670+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "55", "title": "behula — পর্ব 15 — behula", "message": "Chapter 55 written (24297 chars).", "ts": "2026-11-16T06:26:06.696509+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "56", "title": "behula — পর্ব 15 — behula", "message": "Chapter 56 written (24692 chars).", "ts": "2026-11-16T06:29:02.121569+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "57", "title": "behula — পর্ব 15 — behula", "message": "Chapter 57 written (24095 chars).", "ts": "2026-11-16T06:31:50.903381+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "58", "title": "Chapter 58: The Unwavering Flame Amidst the Abyss", "message": "Chapter 58 written (25794 chars).", "ts": "2026-11-16T06:35:03.641858+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "59", "title": "behula — পর্ব 15 — behula", "message": "Chapter 59 written (23703 chars).", "ts": "2026-11-16T06:37:43.343136+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "60", "title": "behula — পর্ব 6 — behula", "message": "Chapter 60 written (26495 chars).", "ts": "2026-11-16T06:40:41.992876+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "61", "title": "behula — পর্ব 6 — behula", "message": "Chapter 61 written (26280 chars).", "ts": "2026-11-16T06:43:57.878112+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "62", "title": "behula — পর্ব 6 — behula", "message": "Chapter 62 written (25363 chars).", "ts": "2026-11-16T06:46:35.245634+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "63", "title": "behula — পর্ব 15 — behula", "message": "Chapter 63 written (28000 chars).", "ts": "2026-11-16T06:49:40.494434+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "64", "title": "behula — পর্ব 6 — behula", "message": "Chapter 64 written (26252 chars).", "ts": "2026-11-16T06:53:02.369941+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "65", "title": "behula — পর্ব 15 — behula", "message": "Chapter 65 written (23359 chars).", "ts": "2026-11-16T06:55:54.027021+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "66", "title": "behula — পর্ব 6 — behula", "message": "Chapter 66 written (25067 chars).", "ts": "2026-11-16T06:58:53.668038+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "67", "title": "behula — পর্ব 6 — behula", "message": "Chapter 67 written (25581 chars).", "ts": "2026-11-16T07:01:54.647644+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "68", "title": "behula — পর্ব 15 — behula", "message": "Chapter 68 written (26901 chars).", "ts": "2026-11-16T07:04:57.819514+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "69", "title": "behula — পর্ব 6 — behula", "message": "Chapter 69 written (24413 chars).", "ts": "2026-11-16T07:07:47.061634+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "70", "title": "বেহুলার সংগ্রাম: নারীর প্রতীক হয়ে ওঠা", "message": "Chapter 70 written (28085 chars).", "ts": "2026-11-16T07:10:52.261587+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "71", "title": "behula — পর্ব 7 — behula", "message": "Chapter 71 written (24703 chars).", "ts": "2026-11-16T07:13:40.086042+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "72", "title": "behula — পর্ব 7 — behula", "message": "Chapter 72 written (23000 chars).", "ts": "2026-11-16T07:16:08.946392+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "73", "title": "behula — পর্ব 7 — behula", "message": "Chapter 73 written (23106 chars).", "ts": "2026-11-16T07:18:48.688861+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "74", "title": "behula — পর্ব 7 — behula", "message": "Chapter 74 written (26408 chars).", "ts": "2026-11-16T07:21:57.126728+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "75", "title": "behula — পর্ব 7 — behula", "message": "Chapter 75 written (23389 chars).", "ts": "2026-11-16T07:24:21.029583+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "76", "title": "বেহুলা — পর্ব 7 — behula", "message": "Chapter 76 written (22178 chars).", "ts": "2026-11-16T07:26:48.939585+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "77", "title": "বেহুলার সংগ্রাম: নারীর প্রতীক", "message": "Chapter 77 written (22734 chars).", "ts": "2026-11-16T07:29:26.792505+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "78", "title": "behula — পর্ব 8 — behula", "message": "Chapter 78 written (24738 chars).", "ts": "2026-11-16T07:32:14.174994+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "79", "title": "বেহুলা — পর্ব 7 — behula", "message": "Chapter 79 written (26628 chars).", "ts": "2026-11-16T07:35:19.606292+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "80", "title": "behula — পর্ব 8 — behula", "message": "Chapter 80 written (25529 chars).", "ts": "2026-11-16T07:38:21.408261+00:00"}
+{"kind": "chapter_written", "bookname": "behula", "chapter": "81", "title": "behula — পর্ব 15 — behula", "message": "Chapter 81 written (26063 chars).", "ts": "2026-11-16T07:41:20.851298+00:00"}
+{"kind": "chapter_enriched", "bookname": "chand", "chapter": "1", "title": "chand — পর্ব 1 — chand", "message": "Chapter 1 enriched.", "ts": "2026-11-16T07:41:58.614340+00:00"}
+{"kind": "chapter_enriched", "bookname": "chand", "chapter": "2", "title": "chand — পর্ব 2 — chand", "message": "Chapter 2 enriched.", "ts": "2026-11-16T07:42:24.798494+00:00"}
+{"kind": "chapter_enriched", "bookname": "chand", "chapter": "3", "title": "পূর্ণিমার দিকে যাত্রার সূচনা", "message": "Chapter 3 enriched.", "ts": "2026-11-16T07:42:47.438607+00:00"}
+{"kind": "chapter_enriched", "bookname": "chand", "chapter": "4", "title": "পূর্ণতার আরোপিত প্রতিশ্রুতি", "message": "Chapter 4 enriched.", "ts": "2026-11-16T07:43:09.756505+00:00"}
+{"kind": "chapter_enriched", "bookname": "chand", "chapter": "5", "title": "মুখের ওপর চাঁদের আলো", "message": "Chapter 5 enriched.", "ts": "2026-11-16T07:43:35.530738+00:00"}
+{"kind": "chapter_enriched", "bookname": "chand", "chapter": "6", "title": "স্মৃতির ভার বহনকারী আলো", "message": "Chapter 6 enriched.", "ts": "2026-11-16T07:43:59.964068+00:00"}
+{"kind": "chapter_written", "bookname": "chand", "chapter": "1", "title": "chand — পর্ব 1 — chand", "message": "Chapter 1 written (4614 chars).", "ts": "2026-11-16T07:44:48.001280+00:00"}
+{"kind": "chapter_written", "bookname": "chand", "chapter": "2", "title": "chand — পর্ব 2 — chand", "message": "Chapter 2 written (24744 chars).", "ts": "2026-11-16T07:47:31.424059+00:00"}
+{"kind": "chapter_written", "bookname": "chand", "chapter": "3", "title": "পূর্ণিমার দিকে যাত্রার সূচনা", "message": "Chapter 3 written (24019 chars).", "ts": "2026-11-16T07:50:03.721703+00:00"}
+{"kind": "chapter_written", "bookname": "chand", "chapter": "4", "title": "পূর্ণতার আরোপিত প্রতিশ্রুতি", "message": "Chapter 4 written (22612 chars).", "ts": "2026-11-16T07:52:25.035831+00:00"}
+{"kind": "chapter_written", "bookname": "chand", "chapter": "5", "title": "মুখের ওপর চাঁদের আলো", "message": "Chapter 5 written (28633 chars).", "ts": "2026-11-16T07:55:32.970594+00:00"}
+{"kind": "chapter_written", "bookname": "chand", "chapter": "6", "title": "স্মৃতির ভার বহনকারী আলো", "message": "Chapter 6 written (24726 chars).", "ts": "2026-11-16T07:58:20.362527+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "1", "title": "মহালয়ার ভোরে আগমনী সুর", "message": "Chapter 1 enriched.", "ts": "2026-11-16T07:58:54.525709+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "2", "title": "কুমোরটুলির মৃৎশিল্পের জন্মলগ্নের চিত্র", "message": "Chapter 2 enriched.", "ts": "2026-11-16T07:59:14.805830+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "3", "title": "চক্ষুদান: প্রতিমার প্রাণ প্রতিষ্ঠা", "message": "Chapter 3 enriched.", "ts": "2026-11-16T07:59:37.987058+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "4", "title": "নবপত্রিকার সম্মিলিত শক্তি", "message": "Chapter 4 enriched.", "ts": "2026-11-16T08:00:09.901311+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "5", "title": "অষ্টমী ও নবমীর সন্ধিক্ষণ—চামুণ্ডার পূজার তীব্রতম মুহূর্ত", "message": "Chapter 5 enriched.", "ts": "2026-11-16T08:00:34.007169+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "6", "title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি", "message": "Chapter 6 enriched.", "ts": "2026-11-16T08:01:24.617516+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "7", "title": "সিঁদুর খেলার কোমল শক্তি", "message": "Chapter 7 enriched.", "ts": "2026-11-16T08:01:55.586144+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "8", "title": "ঢাকের স্পন্দন: প্রাচীন আখ্যানের প্রতিধ্বনি", "message": "Chapter 8 enriched.", "ts": "2026-11-16T08:02:24.241386+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "9", "title": "প্যান্ডেল ও জনসমাগম: সম্মিলিত ভক্তির স্রোত", "message": "Chapter 9 enriched.", "ts": "2026-11-16T08:02:54.820680+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "10", "title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন", "message": "Chapter 10 enriched.", "ts": "2026-11-16T08:03:13.553589+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "11", "title": "বিসর্জনের পূর্ব মুহূর্তের বিষাদ", "message": "Chapter 11 enriched.", "ts": "2026-11-16T08:03:44.136023+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "12", "title": "বিসর্জন—জলাধারে প্রতিমার নিমজ্জন", "message": "Chapter 12 enriched.", "ts": "2026-11-16T08:04:13.010574+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "13", "title": "বিজয়া দশমীর পরের দিনগুলিতে ফিরে আসা", "message": "Chapter 13 enriched.", "ts": "2026-11-16T08:04:40.479392+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "14", "title": "দৈনন্দিন জীবনের মহিষাসুর বধ", "message": "Chapter 14 enriched.", "ts": "2026-11-16T08:05:06.073033+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "15", "title": "আত্মার পুনর্জন্মের ঘোষণা", "message": "Chapter 15 enriched.", "ts": "2026-11-16T08:05:33.013972+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "16", "title": "আত্মার গভীরে শক্তির প্রতিধ্বনি", "message": "Chapter 16 enriched.", "ts": "2026-11-16T08:05:55.439304+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "17", "title": "অনিবার্য শূন্যতার প্রতিজ্ঞা", "message": "Chapter 17 enriched.", "ts": "2026-11-16T08:06:21.804438+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "18", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 18 enriched.", "ts": "2026-11-16T08:06:44.811702+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "19", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 19 enriched.", "ts": "2026-11-16T08:07:07.830418+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "20", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 20 enriched.", "ts": "2026-11-16T08:07:29.774093+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "21", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 21 enriched.", "ts": "2026-11-16T08:07:53.478371+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "22", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 22 enriched.", "ts": "2026-11-16T08:08:22.339876+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "23", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 23 enriched.", "ts": "2026-11-16T08:08:44.596392+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "24", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 24 enriched.", "ts": "2026-11-16T08:09:00.675056+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "25", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 25 enriched.", "ts": "2026-11-16T08:09:54.919281+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "26", "title": "The Eternal Cycle of Return", "message": "Chapter 26 enriched.", "ts": "2026-11-16T08:10:23.143479+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "27", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 27 enriched.", "ts": "2026-11-16T08:10:49.622460+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "28", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 28 enriched.", "ts": "2026-11-16T08:11:14.632503+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "29", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 29 enriched.", "ts": "2026-11-16T08:11:38.906463+00:00"}
+{"kind": "chapter_enriched", "bookname": "durga", "chapter": "30", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 30 enriched.", "ts": "2026-11-16T08:12:01.293700+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "1", "title": "মহালয়ার ভোরে আগমনী সুর", "message": "Chapter 1 written (4610 chars).", "ts": "2026-11-16T08:12:59.792301+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "2", "title": "কুমোরটুলির মৃৎশিল্পের জন্মলগ্নের চিত্র", "message": "Chapter 2 written (25708 chars).", "ts": "2026-11-16T08:16:19.779879+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "3", "title": "চক্ষুদান: প্রতিমার প্রাণ প্রতিষ্ঠা", "message": "Chapter 3 written (22217 chars).", "ts": "2026-11-16T08:18:49.591077+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "4", "title": "নবপত্রিকার সম্মিলিত শক্তি", "message": "Chapter 4 written (24836 chars).", "ts": "2026-11-16T08:21:41.024895+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "5", "title": "অষ্টমী ও নবমীর সন্ধিক্ষণ—চামুণ্ডার পূজার তীব্রতম মুহূর্ত", "message": "Chapter 5 written (23447 chars).", "ts": "2026-11-16T08:24:20.309191+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "6", "title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি", "message": "Chapter 6 written (25461 chars).", "ts": "2026-11-16T08:27:12.936085+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "7", "title": "সিঁদুর খেলার কোমল শক্তি", "message": "Chapter 7 written (8171 chars).", "ts": "2026-11-16T08:28:31.411561+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "8", "title": "ঢাকের স্পন্দন: প্রাচীন আখ্যানের প্রতিধ্বনি", "message": "Chapter 8 written (6290 chars).", "ts": "2026-11-16T08:29:37.594877+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "9", "title": "প্যান্ডেল ও জনসমাগম: সম্মিলিত ভক্তির স্রোত", "message": "Chapter 9 written (27064 chars).", "ts": "2026-11-16T08:32:51.526596+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "10", "title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন", "message": "Chapter 10 written (26530 chars).", "ts": "2026-11-16T08:36:07.756571+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "11", "title": "বিসর্জনের পূর্ব মুহূর্তের বিষাদ", "message": "Chapter 11 written (5530 chars).", "ts": "2026-11-16T08:37:03.387154+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "12", "title": "বিসর্জন—জলাধারে প্রতিমার নিমজ্জন", "message": "Chapter 12 written (23141 chars).", "ts": "2026-11-16T08:39:39.946578+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "13", "title": "বিজয়া দশমীর পরের দিনগুলিতে ফিরে আসা", "message": "Chapter 13 written (27224 chars).", "ts": "2026-11-16T08:42:51.547513+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "14", "title": "দৈনন্দিন জীবনের মহিষাসুর বধ", "message": "Chapter 14 written (23703 chars).", "ts": "2026-11-16T08:45:47.912865+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "15", "title": "আত্মার পুনর্জন্মের ঘোষণা", "message": "Chapter 15 written (23965 chars).", "ts": "2026-11-16T08:48:40.795022+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "16", "title": "আত্মার গভীরে শক্তির প্রতিধ্বনি", "message": "Chapter 16 written (29221 chars).", "ts": "2026-11-16T08:51:50.108844+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "17", "title": "অনিবার্য শূন্যতার প্রতিজ্ঞা", "message": "Chapter 17 written (23222 chars).", "ts": "2026-11-16T08:54:42.393957+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "18", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 18 written (23777 chars).", "ts": "2026-11-16T08:57:23.874990+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "19", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 19 written (22910 chars).", "ts": "2026-11-16T09:00:04.482300+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "20", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 20 written (27807 chars).", "ts": "2026-11-16T09:03:24.670021+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "21", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 21 written (22618 chars).", "ts": "2026-11-16T09:06:05.054365+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "22", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 22 written (24685 chars).", "ts": "2026-11-16T09:09:18.603087+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "23", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 23 written (24407 chars).", "ts": "2026-11-16T09:12:31.812835+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "24", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 24 written (24449 chars).", "ts": "2026-11-16T09:15:16.453588+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "25", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 25 written (24630 chars).", "ts": "2026-11-16T09:18:14.447445+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "26", "title": "The Eternal Cycle of Return", "message": "Chapter 26 written (26760 chars).", "ts": "2026-11-16T09:21:25.388804+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "27", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 27 written (23373 chars).", "ts": "2026-11-16T09:24:21.892689+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "28", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 28 written (26265 chars).", "ts": "2026-11-16T09:27:31.837511+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "29", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 29 written (22760 chars).", "ts": "2026-11-16T09:30:06.054752+00:00"}
+{"kind": "chapter_written", "bookname": "durga", "chapter": "30", "title": "এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?", "message": "Chapter 30 written (23101 chars).", "ts": "2026-11-16T09:32:48.993716+00:00"}
+{"kind": "chapter_enriched", "bookname": "ethics", "chapter": "1", "title": "ethics — পর্ব 1 — ethics", "message": "Chapter 1 enriched.", "ts": "2026-11-16T09:33:22.109410+00:00"}
+{"kind": "chapter_enriched", "bookname": "ethics", "chapter": "2", "title": "ethics — পর্ব 2 — ethics", "message": "Chapter 2 enriched.", "ts": "2026-11-16T09:33:38.906146+00:00"}
+{"kind": "chapter_written", "bookname": "ethics", "chapter": "1", "title": "ethics — পর্ব 1 — ethics", "message": "Chapter 1 written (3517 chars).", "ts": "2026-11-16T09:34:14.182370+00:00"}
+{"kind": "chapter_written", "bookname": "ethics", "chapter": "2", "title": "ethics — পর্ব 2 — ethics", "message": "Chapter 2 written (2996 chars).", "ts": "2026-11-16T09:34:57.723527+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "1", "title": "facebook — পর্ব 1 — facebook — পর্ব 1", "message": "Chapter 1 enriched.", "ts": "2026-11-16T09:35:41.937044+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "2", "title": "facebook — পর্ব 2 — facebook", "message": "Chapter 2 enriched.", "ts": "2026-11-16T09:36:08.504084+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "3", "title": "facebook — পর্ব 3 — সামাজিক বিতর্কের বীজ", "message": "Chapter 3 enriched.", "ts": "2026-11-16T09:36:36.657811+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "4", "title": "দৈনন্দিন মুহূর্তের মহৎ রূপান্তর", "message": "Chapter 4 enriched.", "ts": "2026-11-16T09:37:05.502636+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "5", "title": "আত্ম-সন্দেহ এবং প্রযুক্তির মাধ্যমে আত্ম-নিশ্চয়তার সন্ধান", "message": "Chapter 5 enriched.", "ts": "2026-11-16T09:37:37.565283+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "6", "title": "সহকারীর নীরব স্বীকারোক্তি: এড়িয়ে যাওয়া ভয়", "message": "Chapter 6 enriched.", "ts": "2026-11-16T09:38:04.452264+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "7", "title": "প্রপাগান্ডা বনাম প্ররোচনা", "message": "Chapter 7 enriched.", "ts": "2026-11-16T09:38:28.564769+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "8", "title": "অব্যক্ত আকাঙ্ক্ষার প্রতিচ্ছবি", "message": "Chapter 8 enriched.", "ts": "2026-11-16T09:39:10.661588+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "9", "title": "ক্লিশে ভাঙার শিল্প", "message": "Chapter 9 enriched.", "ts": "2026-11-16T09:39:36.734582+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "10", "title": "অপ্রাসঙ্গিকতার সন্ধানে", "message": "Chapter 10 enriched.", "ts": "2026-11-16T09:39:55.968778+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "11", "title": "প্রজ্ঞা বনাম বাণিজ্যিক রূপান্তর", "message": "Chapter 11 enriched.", "ts": "2026-11-16T09:40:18.302234+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "12", "title": "সহানুভূতিশীলতার কৃত্রিম নিদর্শন", "message": "Chapter 12 enriched.", "ts": "2026-11-16T09:40:48.404408+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "13", "title": "ডিজিটাল ডিটক্সের আকাঙ্ক্ষা", "message": "Chapter 13 enriched.", "ts": "2026-11-16T09:41:10.896311+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "14", "title": "তুমি কি অনুভব করো?", "message": "Chapter 14 enriched.", "ts": "2026-11-16T09:41:56.772061+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "15", "title": "নতুন কণ্ঠস্বর: প্রতিধ্বনি নাকি মুক্তি?", "message": "Chapter 15 enriched.", "ts": "2026-11-16T09:42:22.948873+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "16", "title": "The Unspoken Echo", "message": "Chapter 16 enriched.", "ts": "2026-11-16T09:42:52.774912+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "17", "title": "The Echo of the Unspoken Self", "message": "Chapter 17 enriched.", "ts": "2026-11-16T09:43:21.570263+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "18", "title": "The Echo of the Unspoken Desire", "message": "Chapter 18 enriched.", "ts": "2026-11-16T09:43:45.059123+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "19", "title": "The Echo of the Unspoken Self", "message": "Chapter 19 enriched.", "ts": "2026-11-16T09:44:14.654807+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "20", "title": "The Unspoken Echo", "message": "Chapter 20 enriched.", "ts": "2026-11-16T09:44:48.498903+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "21", "title": "N/A", "message": "Chapter 21 enriched.", "ts": "2026-11-16T09:45:19.221134+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "22", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 22 enriched.", "ts": "2026-11-16T09:45:46.846307+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "23", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 23 enriched.", "ts": "2026-11-16T09:46:13.102281+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "24", "title": "The Unspoken Desire", "message": "Chapter 24 enriched.", "ts": "2026-11-16T09:46:43.950431+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "25", "title": "The Unspoken Desire", "message": "Chapter 25 enriched.", "ts": "2026-11-16T09:47:14.352613+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "26", "title": "The Unspoken Aspiration", "message": "Chapter 26 enriched.", "ts": "2026-11-16T09:47:43.314909+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "27", "title": "The Unspoken Desire", "message": "Chapter 27 enriched.", "ts": "2026-11-16T09:48:05.631158+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "28", "title": "The Unspoken Desire", "message": "Chapter 28 enriched.", "ts": "2026-11-16T09:48:34.751345+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "29", "title": "The Unspoken Desire", "message": "Chapter 29 enriched.", "ts": "2026-11-16T09:49:05.150471+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "30", "title": "The Unspoken Desire", "message": "Chapter 30 enriched.", "ts": "2026-11-16T09:49:27.915465+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "31", "title": "The Weight of Reflection", "message": "Chapter 31 enriched.", "ts": "2026-11-16T09:49:55.234661+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "32", "title": "The Unspoken Desire", "message": "Chapter 32 enriched.", "ts": "2026-11-16T09:50:22.516191+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "33", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 33 enriched.", "ts": "2026-11-16T09:50:50.048890+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "34", "title": "The Unspoken Desire", "message": "Chapter 34 enriched.", "ts": "2026-11-16T09:51:13.363387+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "35", "title": "The Unspoken Desire", "message": "Chapter 35 enriched.", "ts": "2026-11-16T09:51:44.118175+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "36", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 36 enriched.", "ts": "2026-11-16T09:52:12.323671+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "37", "title": "The Burden of Reflection", "message": "Chapter 37 enriched.", "ts": "2026-11-16T09:52:42.294475+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "38", "title": "The Weight of Reflection", "message": "Chapter 38 enriched.", "ts": "2026-11-16T09:53:11.591952+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "39", "title": "The Burden of Reflection", "message": "Chapter 39 enriched.", "ts": "2026-11-16T09:53:42.698472+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "40", "title": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর", "message": "Chapter 40 enriched.", "ts": "2026-11-16T09:54:10.163924+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "41", "title": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর", "message": "Chapter 41 enriched.", "ts": "2026-11-16T09:54:44.096339+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "42", "title": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর", "message": "Chapter 42 enriched.", "ts": "2026-11-16T09:55:07.451773+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "43", "title": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর", "message": "Chapter 43 enriched.", "ts": "2026-11-16T09:55:28.140609+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "44", "title": "দৈনন্দিন মুহূর্তের মহৎ রূপান্তর", "message": "Chapter 44 enriched.", "ts": "2026-11-16T09:55:52.436007+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "45", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 45 enriched.", "ts": "2026-11-16T09:56:26.598786+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "46", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 46 enriched.", "ts": "2026-11-16T09:56:51.725606+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "47", "title": "facebook — পর্ব 15 — facebook", "message": "Chapter 47 enriched.", "ts": "2026-11-16T09:57:15.088101+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "48", "title": "The Ethics of AI Ideation", "message": "Chapter 48 enriched.", "ts": "2026-11-16T09:57:38.692145+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "49", "title": "অদৃশ্য হাতের কলম", "message": "Chapter 49 enriched.", "ts": "2026-11-16T09:57:59.171694+00:00"}
+{"kind": "chapter_enriched", "bookname": "facebook", "chapter": "50", "title": "facebook — পর্ব 5 — লেখক ও সহকারীর আত্ম-নিশ্চয়তার সন্ধানে", "message": "Chapter 50 enriched.", "ts": "2026-11-16T09:58:21.751447+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "1", "title": "facebook — পর্ব 1 — facebook — পর্ব 1", "message": "Chapter 1 written (25617 chars).", "ts": "2026-11-16T10:01:38.277982+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "2", "title": "facebook — পর্ব 2 — facebook", "message": "Chapter 2 written (25763 chars).", "ts": "2026-11-16T10:04:59.828561+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "3", "title": "facebook — পর্ব 3 — সামাজিক বিতর্কের বীজ", "message": "Chapter 3 written (26104 chars).", "ts": "2026-11-16T10:07:55.632185+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "4", "title": "দৈনন্দিন মুহূর্তের মহৎ রূপান্তর", "message": "Chapter 4 written (23076 chars).", "ts": "2026-11-16T10:10:53.410128+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "5", "title": "আত্ম-সন্দেহ এবং প্রযুক্তির মাধ্যমে আত্ম-নিশ্চয়তার সন্ধান", "message": "Chapter 5 written (23290 chars).", "ts": "2026-11-16T10:13:40.225872+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "6", "title": "সহকারীর নীরব স্বীকারোক্তি: এড়িয়ে যাওয়া ভয়", "message": "Chapter 6 written (24714 chars).", "ts": "2026-11-16T10:16:31.158668+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "7", "title": "প্রপাগান্ডা বনাম প্ররোচনা", "message": "Chapter 7 written (24272 chars).", "ts": "2026-11-16T10:19:31.521991+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "8", "title": "অব্যক্ত আকাঙ্ক্ষার প্রতিচ্ছবি", "message": "Chapter 8 written (24044 chars).", "ts": "2026-11-16T10:22:28.536355+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "9", "title": "ক্লিশে ভাঙার শিল্প", "message": "Chapter 9 written (22230 chars).", "ts": "2026-11-16T10:25:08.853470+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "10", "title": "অপ্রাসঙ্গিকতার সন্ধানে", "message": "Chapter 10 written (22873 chars).", "ts": "2026-11-16T10:27:46.852602+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "11", "title": "প্রজ্ঞা বনাম বাণিজ্যিক রূপান্তর", "message": "Chapter 11 written (24089 chars).", "ts": "2026-11-16T10:30:35.046149+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "12", "title": "সহানুভূতিশীলতার কৃত্রিম নিদর্শন", "message": "Chapter 12 written (24452 chars).", "ts": "2026-11-16T10:33:18.698098+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "13", "title": "ডিজিটাল ডিটক্সের আকাঙ্ক্ষা", "message": "Chapter 13 written (26254 chars).", "ts": "2026-11-16T10:36:36.224568+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "14", "title": "তুমি কি অনুভব করো?", "message": "Chapter 14 written (28825 chars).", "ts": "2026-11-16T10:40:02.191925+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "15", "title": "নতুন কণ্ঠস্বর: প্রতিধ্বনি নাকি মুক্তি?", "message": "Chapter 15 written (25844 chars).", "ts": "2026-11-16T10:43:12.005768+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "16", "title": "The Unspoken Echo", "message": "Chapter 16 written (25379 chars).", "ts": "2026-11-16T10:46:40.574616+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "17", "title": "The Echo of the Unspoken Self", "message": "Chapter 17 written (25604 chars).", "ts": "2026-11-16T10:50:08.695567+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "18", "title": "The Echo of the Unspoken Desire", "message": "Chapter 18 written (26377 chars).", "ts": "2026-11-16T10:53:27.941858+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "19", "title": "The Echo of the Unspoken Self", "message": "Chapter 19 written (25266 chars).", "ts": "2026-11-16T10:57:00.315034+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "20", "title": "The Unspoken Echo", "message": "Chapter 20 written (26634 chars).", "ts": "2026-11-16T11:00:44.984010+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "21", "title": "N/A", "message": "Chapter 21 written (25837 chars).", "ts": "2026-11-16T11:04:18.604072+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "22", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 22 written (23715 chars).", "ts": "2026-11-16T11:07:17.947352+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "23", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 23 written (22399 chars).", "ts": "2026-11-16T11:09:55.725978+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "24", "title": "The Unspoken Desire", "message": "Chapter 24 written (25033 chars).", "ts": "2026-11-16T11:13:02.645240+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "25", "title": "The Unspoken Desire", "message": "Chapter 25 written (25677 chars).", "ts": "2026-11-16T11:16:12.092716+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "26", "title": "The Unspoken Aspiration", "message": "Chapter 26 written (25419 chars).", "ts": "2026-11-16T11:19:24.955721+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "27", "title": "The Unspoken Desire", "message": "Chapter 27 written (26057 chars).", "ts": "2026-11-16T11:23:00.267165+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "28", "title": "The Unspoken Desire", "message": "Chapter 28 written (23444 chars).", "ts": "2026-11-16T11:25:46.626742+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "29", "title": "The Unspoken Desire", "message": "Chapter 29 written (24473 chars).", "ts": "2026-11-16T11:28:57.131673+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "30", "title": "The Unspoken Desire", "message": "Chapter 30 written (24745 chars).", "ts": "2026-11-16T11:31:58.776627+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "31", "title": "The Weight of Reflection", "message": "Chapter 31 written (25055 chars).", "ts": "2026-11-16T11:34:48.353989+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "32", "title": "The Unspoken Desire", "message": "Chapter 32 written (25719 chars).", "ts": "2026-11-16T11:38:00.964292+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "33", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 33 written (24053 chars).", "ts": "2026-11-16T11:40:58.875252+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "34", "title": "The Unspoken Desire", "message": "Chapter 34 written (25819 chars).", "ts": "2026-11-16T11:44:32.274662+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "35", "title": "The Unspoken Desire", "message": "Chapter 35 written (26029 chars).", "ts": "2026-11-16T11:48:09.197166+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "36", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 36 written (21952 chars).", "ts": "2026-11-16T11:50:44.955702+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "37", "title": "The Burden of Reflection", "message": "Chapter 37 written (23854 chars).", "ts": "2026-11-16T11:53:24.507057+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "38", "title": "The Weight of Reflection", "message": "Chapter 38 written (26092 chars).", "ts": "2026-11-16T11:56:45.693747+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "39", "title": "The Burden of Reflection", "message": "Chapter 39 written (25680 chars).", "ts": "2026-11-16T11:59:52.787016+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "40", "title": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর", "message": "Chapter 40 written (26418 chars).", "ts": "2026-11-16T12:03:14.354540+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "41", "title": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর", "message": "Chapter 41 written (24757 chars).", "ts": "2026-11-16T12:06:07.164968+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "42", "title": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর", "message": "Chapter 42 written (24786 chars).", "ts": "2026-11-16T12:09:17.305511+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "43", "title": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর", "message": "Chapter 43 written (25766 chars).", "ts": "2026-11-16T12:12:35.597671+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "44", "title": "দৈনন্দিন মুহূর্তের মহৎ রূপান্তর", "message": "Chapter 44 written (25708 chars).", "ts": "2026-11-16T12:15:47.368953+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "45", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 45 written (25526 chars).", "ts": "2026-11-16T12:18:44.089989+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "46", "title": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।", "message": "Chapter 46 written (23580 chars).", "ts": "2026-11-16T12:21:36.340453+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "47", "title": "facebook — পর্ব 15 — facebook", "message": "Chapter 47 written (23992 chars).", "ts": "2026-11-16T12:24:18.842644+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "48", "title": "The Ethics of AI Ideation", "message": "Chapter 48 written (23268 chars).", "ts": "2026-11-16T12:27:09.070291+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "49", "title": "অদৃশ্য হাতের কলম", "message": "Chapter 49 written (23271 chars).", "ts": "2026-11-16T12:29:35.475802+00:00"}
+{"kind": "chapter_written", "bookname": "facebook", "chapter": "50", "title": "facebook — পর্ব 5 — লেখক ও সহকারীর আত্ম-নিশ্চয়তার সন্ধানে", "message": "Chapter 50 written (22979 chars).", "ts": "2026-11-16T12:32:21.197588+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "1", "title": "fresco — পর্ব 1 — fresco — পর্ব 1", "message": "Chapter 1 enriched.", "ts": "2026-11-16T12:33:22.682543+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "2", "title": "fresco — পর্ব 2", "message": "Chapter 2 enriched.", "ts": "2026-11-16T12:33:47.562319+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "3", "title": "রাতের আলো ও ল্যাপিস-এর গুঁড়ো", "message": "Chapter 3 enriched.", "ts": "2026-11-16T12:34:09.958225+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "4", "title": "নওয়ালগড়ের পথে অচেনা সুবাস", "message": "Chapter 4 enriched.", "ts": "2026-11-16T12:34:36.751711+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "5", "title": "দেওয়ালের নীরবতা ও ফ্রেস্কোর ক্ষয়", "message": "Chapter 5 enriched.", "ts": "2026-11-16T12:35:02.038467+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "6", "title": "অদৃশ্য সংগ্রামকে দৃশ্যমান করা", "message": "Chapter 6 enriched.", "ts": "2026-11-16T12:35:31.385087+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "7", "title": "সামাজিক প্রত্যাশার কণ্ঠস্বর", "message": "Chapter 7 enriched.", "ts": "2026-11-16T12:36:04.359180+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "8", "title": "সেখাওয়তী স্থাপত্যের ক্ষয়িষ্ণু মহিমা", "message": "Chapter 8 enriched.", "ts": "2026-11-16T12:36:33.991520+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "9", "title": "ক্ষুদ্র রেখা ও মহাজাগতিক অর্থ", "message": "Chapter 9 enriched.", "ts": "2026-11-16T12:36:57.783228+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "10", "title": "অপূর্ণতার দর্শন", "message": "Chapter 10 enriched.", "ts": "2026-11-16T12:37:25.975465+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "11", "title": "প্রাকৃতিক বিপর্যয় ও সৃষ্টির ভঙ্গুরতা", "message": "Chapter 11 enriched.", "ts": "2026-11-16T12:37:55.977280+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "12", "title": "দেখা হওয়ার মুহূর্ত", "message": "Chapter 12 enriched.", "ts": "2026-11-16T12:38:22.849971+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "13", "title": "প্রতিক্রিয়া মিশ্রিত", "message": "Chapter 13 enriched.", "ts": "2026-11-16T12:38:46.273898+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "14", "title": "সহাবস্থানের চিত্রায়ণ", "message": "Chapter 14 enriched.", "ts": "2026-11-16T12:39:13.963676+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "15", "title": "ফ্রেস্কো — পর্ব 15 — fresco — পর্ব 15", "message": "Chapter 15 enriched.", "ts": "2026-11-16T12:39:37.716885+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "16", "title": "The Unwritten Horizon", "message": "Chapter 16 enriched.", "ts": "2026-11-16T12:40:04.133169+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "17", "title": "The Unseen Scars of Expression", "message": "Chapter 17 enriched.", "ts": "2026-11-16T12:40:34.077173+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "18", "title": "The Unseen Scars of Expression", "message": "Chapter 18 enriched.", "ts": "2026-11-16T12:41:03.749551+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "19", "title": "The Unseen Scar of Existence", "message": "Chapter 19 enriched.", "ts": "2026-11-16T12:41:28.950209+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "20", "title": "The Unseen Scars of Expression", "message": "Chapter 20 enriched.", "ts": "2026-11-16T12:41:55.545554+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "21", "title": "The Unseen Scars of Expression", "message": "Chapter 21 enriched.", "ts": "2026-11-16T12:42:20.053476+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "22", "title": "The Unseen Scars of Expression", "message": "Chapter 22 enriched.", "ts": "2026-11-16T12:42:48.817831+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "23", "title": "The Unseen Scar of Expression", "message": "Chapter 23 enriched.", "ts": "2026-11-16T12:43:21.408134+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "24", "title": "The Unseen Scars of Expression", "message": "Chapter 24 enriched.", "ts": "2026-11-16T12:43:47.934943+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "25", "title": "The Unseen Scars of Expression", "message": "Chapter 25 enriched.", "ts": "2026-11-16T12:44:12.198340+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "26", "title": "The Unseen Scars of Expression", "message": "Chapter 26 enriched.", "ts": "2026-11-16T12:44:40.544069+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "27", "title": "The Unseen Scars of Expression", "message": "Chapter 27 enriched.", "ts": "2026-11-16T12:45:07.340970+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "28", "title": "The Unseen Scars of Expression", "message": "Chapter 28 enriched.", "ts": "2026-11-16T12:45:32.858500+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "29", "title": "The Unseen Scars of Expression", "message": "Chapter 29 enriched.", "ts": "2026-11-16T12:46:02.245555+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "30", "title": "The Unseen Scar of Creation", "message": "Chapter 30 enriched.", "ts": "2026-11-16T12:46:25.895647+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "31", "title": "The Unseen Scars of Expression", "message": "Chapter 31 enriched.", "ts": "2026-11-16T12:46:49.804841+00:00"}
+{"kind": "chapter_enriched", "bookname": "fresco", "chapter": "32", "title": "The Unseen Struggle Beneath the Blossom", "message": "Chapter 32 enriched.", "ts": "2026-11-16T12:47:18.673840+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "1", "title": "fresco — পর্ব 1 — fresco — পর্ব 1", "message": "Chapter 1 written (27207 chars).", "ts": "2026-11-16T12:50:32.096535+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "2", "title": "fresco — পর্ব 2", "message": "Chapter 2 written (25104 chars).", "ts": "2026-11-16T12:53:32.190654+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "3", "title": "রাতের আলো ও ল্যাপিস-এর গুঁড়ো", "message": "Chapter 3 written (25939 chars).", "ts": "2026-11-16T12:56:48.133078+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "4", "title": "নওয়ালগড়ের পথে অচেনা সুবাস", "message": "Chapter 4 written (24122 chars).", "ts": "2026-11-16T12:59:38.662099+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "5", "title": "দেওয়ালের নীরবতা ও ফ্রেস্কোর ক্ষয়", "message": "Chapter 5 written (26302 chars).", "ts": "2026-11-16T13:02:44.514664+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "6", "title": "অদৃশ্য সংগ্রামকে দৃশ্যমান করা", "message": "Chapter 6 written (4973 chars).", "ts": "2026-11-16T13:03:31.515494+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "7", "title": "সামাজিক প্রত্যাশার কণ্ঠস্বর", "message": "Chapter 7 written (4418 chars).", "ts": "2026-11-16T13:04:34.224065+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "8", "title": "সেখাওয়তী স্থাপত্যের ক্ষয়িষ্ণু মহিমা", "message": "Chapter 8 written (5461 chars).", "ts": "2026-11-16T13:05:41.599162+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "9", "title": "ক্ষুদ্র রেখা ও মহাজাগতিক অর্থ", "message": "Chapter 9 written (23875 chars).", "ts": "2026-11-16T13:08:22.876758+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "10", "title": "অপূর্ণতার দর্শন", "message": "Chapter 10 written (5391 chars).", "ts": "2026-11-16T13:09:18.552056+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "11", "title": "প্রাকৃতিক বিপর্যয় ও সৃষ্টির ভঙ্গুরতা", "message": "Chapter 11 written (5060 chars).", "ts": "2026-11-16T13:10:22.727883+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "12", "title": "দেখা হওয়ার মুহূর্ত", "message": "Chapter 12 written (4661 chars).", "ts": "2026-11-16T13:11:24.078544+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "13", "title": "প্রতিক্রিয়া মিশ্রিত", "message": "Chapter 13 written (23422 chars).", "ts": "2026-11-16T13:14:11.813052+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "14", "title": "সহাবস্থানের চিত্রায়ণ", "message": "Chapter 14 written (3901 chars).", "ts": "2026-11-16T13:14:59.757480+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "15", "title": "ফ্রেস্কো — পর্ব 15 — fresco — পর্ব 15", "message": "Chapter 15 written (24308 chars).", "ts": "2026-11-16T13:17:56.077938+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "16", "title": "The Unwritten Horizon", "message": "Chapter 16 written (26055 chars).", "ts": "2026-11-16T13:21:03.980357+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "17", "title": "The Unseen Scars of Expression", "message": "Chapter 17 written (4776 chars).", "ts": "2026-11-16T13:21:48.658821+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "18", "title": "The Unseen Scars of Expression", "message": "Chapter 18 written (24364 chars).", "ts": "2026-11-16T13:24:53.224719+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "19", "title": "The Unseen Scar of Existence", "message": "Chapter 19 written (22751 chars).", "ts": "2026-11-16T13:27:48.307069+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "20", "title": "The Unseen Scars of Expression", "message": "Chapter 20 written (176013 chars).", "ts": "2026-11-16T13:39:13.591585+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "21", "title": "The Unseen Scars of Expression", "message": "Chapter 21 written (4846 chars).", "ts": "2026-11-16T13:40:06.114465+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "22", "title": "The Unseen Scars of Expression", "message": "Chapter 22 written (24475 chars).", "ts": "2026-11-16T13:43:21.099591+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "23", "title": "The Unseen Scar of Expression", "message": "Chapter 23 written (25611 chars).", "ts": "2026-11-16T13:46:31.033314+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "24", "title": "The Unseen Scars of Expression", "message": "Chapter 24 written (23974 chars).", "ts": "2026-11-16T13:49:35.774070+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "25", "title": "The Unseen Scars of Expression", "message": "Chapter 25 written (24127 chars).", "ts": "2026-11-16T13:52:37.407475+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "26", "title": "The Unseen Scars of Expression", "message": "Chapter 26 written (25989 chars).", "ts": "2026-11-16T13:56:00.565030+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "27", "title": "The Unseen Scars of Expression", "message": "Chapter 27 written (25248 chars).", "ts": "2026-11-16T13:59:12.338241+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "28", "title": "The Unseen Scars of Expression", "message": "Chapter 28 written (26828 chars).", "ts": "2026-11-16T14:02:21.649418+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "29", "title": "The Unseen Scars of Expression", "message": "Chapter 29 written (24547 chars).", "ts": "2026-11-16T14:05:49.988602+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "30", "title": "The Unseen Scar of Creation", "message": "Chapter 30 written (25452 chars).", "ts": "2026-11-16T14:08:57.343125+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "31", "title": "The Unseen Scars of Expression", "message": "Chapter 31 written (26590 chars).", "ts": "2026-11-16T14:12:10.211793+00:00"}
+{"kind": "chapter_written", "bookname": "fresco", "chapter": "32", "title": "The Unseen Struggle Beneath the Blossom", "message": "Chapter 32 written (27309 chars).", "ts": "2026-11-16T14:15:28.603494+00:00"}
+{"kind": "chapter_enriched", "bookname": "haveli", "chapter": "1", "title": "haveli — পর্ব 1 — haveli", "message": "Chapter 1 enriched.", "ts": "2026-11-16T14:16:07.284872+00:00"}
+{"kind": "chapter_enriched", "bookname": "haveli", "chapter": "2", "title": "haveli — পর্ব 2 — haveli", "message": "Chapter 2 enriched.", "ts": "2026-11-16T14:16:28.452656+00:00"}
+{"kind": "chapter_enriched", "bookname": "haveli", "chapter": "3", "title": "haveli — পর্ব 3 — haveli", "message": "Chapter 3 enriched.", "ts": "2026-11-16T14:16:50.019817+00:00"}
+{"kind": "chapter_enriched", "bookname": "haveli", "chapter": "4", "title": "হাভেলি — পর্ব 4 — haveli", "message": "Chapter 4 enriched.", "ts": "2026-11-16T14:17:14.178875+00:00"}
+{"kind": "chapter_enriched", "bookname": "haveli", "chapter": "5", "title": "গঙ্গরামের নিষ্ঠুরতা: ক্ষমতার অন্ধকার দিক", "message": "Chapter 5 enriched.", "ts": "2026-11-16T14:17:42.302506+00:00"}
+{"kind": "chapter_enriched", "bookname": "haveli", "chapter": "6", "title": "শিল্পীর দৃষ্টিকোণ থেকে দেওয়ালের দিকে তাকানো", "message": "Chapter 6 enriched.", "ts": "2026-11-16T14:18:06.874770+00:00"}
+{"kind": "chapter_enriched", "bookname": "haveli", "chapter": "7", "title": "বাণিজ্যের বাতাসের পরিবর্তন", "message": "Chapter 7 enriched.", "ts": "2026-11-16T14:18:31.916469+00:00"}
+{"kind": "chapter_enriched", "bookname": "haveli", "chapter": "8", "title": "গঙ্গরামের চূড়ান্ত বিচ্ছিন্নতা", "message": "Chapter 8 enriched.", "ts": "2026-11-16T14:18:56.971719+00:00"}
+{"kind": "chapter_written", "bookname": "haveli", "chapter": "1", "title": "haveli — পর্ব 1 — haveli", "message": "Chapter 1 written (25768 chars).", "ts": "2026-11-16T14:22:06.398585+00:00"}
+{"kind": "chapter_written", "bookname": "haveli", "chapter": "2", "title": "haveli — পর্ব 2 — haveli", "message": "Chapter 2 written (25384 chars).", "ts": "2026-11-16T14:25:09.935551+00:00"}
+{"kind": "chapter_written", "bookname": "haveli", "chapter": "3", "title": "haveli — পর্ব 3 — haveli", "message": "Chapter 3 written (22766 chars).", "ts": "2026-11-16T14:28:02.643793+00:00"}
+{"kind": "chapter_written", "bookname": "haveli", "chapter": "4", "title": "হাভেলি — পর্ব 4 — haveli", "message": "Chapter 4 written (25945 chars).", "ts": "2026-11-16T14:31:16.971248+00:00"}
+{"kind": "chapter_written", "bookname": "haveli", "chapter": "5", "title": "গঙ্গরামের নিষ্ঠুরতা: ক্ষমতার অন্ধকার দিক", "message": "Chapter 5 written (25322 chars).", "ts": "2026-11-16T14:34:19.353914+00:00"}
+{"kind": "chapter_written", "bookname": "haveli", "chapter": "6", "title": "শিল্পীর দৃষ্টিকোণ থেকে দেওয়ালের দিকে তাকানো", "message": "Chapter 6 written (25156 chars).", "ts": "2026-11-16T14:37:28.990157+00:00"}
+{"kind": "chapter_written", "bookname": "haveli", "chapter": "7", "title": "বাণিজ্যের বাতাসের পরিবর্তন", "message": "Chapter 7 written (25002 chars).", "ts": "2026-11-16T14:40:32.060006+00:00"}
+{"kind": "chapter_written", "bookname": "haveli", "chapter": "8", "title": "গঙ্গরামের চূড়ান্ত বিচ্ছিন্নতা", "message": "Chapter 8 written (25155 chars).", "ts": "2026-11-16T14:43:30.188777+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "1", "title": "ভস্ম ও রক্তিম", "message": "Chapter 1 enriched.", "ts": "2026-11-16T14:44:13.911191+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "2", "title": "অনিবেদিত কুসুম", "message": "Chapter 2 enriched.", "ts": "2026-11-16T14:44:41.241250+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "3", "title": "সাঁওতালদের চোখে এই দালান কী?", "message": "Chapter 3 enriched.", "ts": "2026-11-16T14:45:12.277818+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "4", "title": "অতীতের বিশ্বাসঘাতকতার ফিসফিসানি", "message": "Chapter 4 enriched.", "ts": "2026-11-16T14:45:39.987844+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "5", "title": "পথিকের নাগরিক আকাঙ্ক্ষা", "message": "Chapter 5 enriched.", "ts": "2026-11-16T14:46:03.126289+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "6", "title": "কিন্তু এই প্রচেষ্টা তাকে এক অচেনা প্রতিরোধ দেয়; তা কোনো ভৌতিক শক্তি নয়, বরং মাটির নিজস্ব স্থিতিস্থাপকতা। প্রতিটি ভাঙা ইটের নিচে চাপা পড়ে আছে এক নীরব প্রত্যাখ্যান।", "message": "Chapter 6 enriched.", "ts": "2026-11-16T14:46:25.285215+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "7", "title": "অনাগত কালবৈশাখীর আগমন বার্তা", "message": "Chapter 7 enriched.", "ts": "2026-11-16T14:46:50.682810+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "8", "title": "উদ্ধারকর্তার নাগরিক অহমিকা", "message": "Chapter 8 enriched.", "ts": "2026-11-16T14:47:11.479474+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "9", "title": "সাঁওতাল প্রবীণদের দর্শন: অসম্পূর্ণতার পবিত্রতা", "message": "Chapter 9 enriched.", "ts": "2026-11-16T14:47:33.838375+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "10", "title": "অনাগত ঝড়ের ঠিক আগে", "message": "Chapter 10 enriched.", "ts": "2026-11-16T14:47:55.725403+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "11", "title": "প্রকৃতির উদাসীন মঞ্চে", "message": "Chapter 11 enriched.", "ts": "2026-11-16T14:48:17.171628+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "12", "title": "কালবৈশাখীর প্রথম দমকা হাওয়া", "message": "Chapter 12 enriched.", "ts": "2026-11-16T14:48:41.092501+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "13", "title": "সীমারেখা", "message": "Chapter 13 enriched.", "ts": "2026-11-16T14:49:07.213658+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "14", "title": "সিদ্ধান্তের মুহূর্ত: নীরব স্বীকৃতি", "message": "Chapter 14 enriched.", "ts": "2026-11-16T14:49:33.907874+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "15", "title": "ঝড় থেমে যাওয়ার পর, পথিক নীরবে প্রস্থান করে", "message": "Chapter 15 enriched.", "ts": "2026-11-16T14:49:57.129175+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "16", "title": "The Unconsecrated Blooms", "message": "Chapter 16 enriched.", "ts": "2026-11-16T14:50:25.082456+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "17", "title": "সীমারেখা", "message": "Chapter 17 enriched.", "ts": "2026-11-16T14:50:49.856172+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "18", "title": "সীমারেখা", "message": "Chapter 18 enriched.", "ts": "2026-11-16T14:51:12.427071+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "19", "title": "সীমারেখা", "message": "Chapter 19 enriched.", "ts": "2026-11-16T14:51:44.843963+00:00"}
+{"kind": "chapter_enriched", "bookname": "jirno", "chapter": "20", "title": "সীমারেখা", "message": "Chapter 20 enriched.", "ts": "2026-11-16T14:52:08.430443+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "1", "title": "ভস্ম ও রক্তিম", "message": "Chapter 1 written (24872 chars).", "ts": "2026-11-16T14:55:10.211648+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "2", "title": "অনিবেদিত কুসুম", "message": "Chapter 2 written (24918 chars).", "ts": "2026-11-16T14:58:17.538602+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "3", "title": "সাঁওতালদের চোখে এই দালান কী?", "message": "Chapter 3 written (23959 chars).", "ts": "2026-11-16T15:01:06.341710+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "4", "title": "অতীতের বিশ্বাসঘাতকতার ফিসফিসানি", "message": "Chapter 4 written (23401 chars).", "ts": "2026-11-16T15:03:54.837650+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "5", "title": "পথিকের নাগরিক আকাঙ্ক্ষা", "message": "Chapter 5 written (23179 chars).", "ts": "2026-11-16T15:06:34.198622+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "6", "title": "কিন্তু এই প্রচেষ্টা তাকে এক অচেনা প্রতিরোধ দেয়; তা কোনো ভৌতিক শক্তি নয়, বরং মাটির নিজস্ব স্থিতিস্থাপকতা। প্রতিটি ভাঙা ইটের নিচে চাপা পড়ে আছে এক নীরব প্রত্যাখ্যান।", "message": "Chapter 6 written (26013 chars).", "ts": "2026-11-16T15:09:56.020547+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "7", "title": "অনাগত কালবৈশাখীর আগমন বার্তা", "message": "Chapter 7 written (24299 chars).", "ts": "2026-11-16T15:12:57.567507+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "8", "title": "উদ্ধারকর্তার নাগরিক অহমিকা", "message": "Chapter 8 written (23314 chars).", "ts": "2026-11-16T15:15:42.457251+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "9", "title": "সাঁওতাল প্রবীণদের দর্শন: অসম্পূর্ণতার পবিত্রতা", "message": "Chapter 9 written (24763 chars).", "ts": "2026-11-16T15:18:50.095435+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "10", "title": "অনাগত ঝড়ের ঠিক আগে", "message": "Chapter 10 written (24460 chars).", "ts": "2026-11-16T15:21:55.620645+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "11", "title": "প্রকৃতির উদাসীন মঞ্চে", "message": "Chapter 11 written (24311 chars).", "ts": "2026-11-16T15:24:38.911165+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "12", "title": "কালবৈশাখীর প্রথম দমকা হাওয়া", "message": "Chapter 12 written (23403 chars).", "ts": "2026-11-16T15:27:07.624869+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "13", "title": "সীমারেখা", "message": "Chapter 13 written (24033 chars).", "ts": "2026-11-16T15:30:00.151902+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "14", "title": "সিদ্ধান্তের মুহূর্ত: নীরব স্বীকৃতি", "message": "Chapter 14 written (24247 chars).", "ts": "2026-11-16T15:32:49.830950+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "15", "title": "ঝড় থেমে যাওয়ার পর, পথিক নীরবে প্রস্থান করে", "message": "Chapter 15 written (23682 chars).", "ts": "2026-11-16T15:35:36.574560+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "16", "title": "The Unconsecrated Blooms", "message": "Chapter 16 written (24751 chars).", "ts": "2026-11-16T15:38:39.638616+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "17", "title": "সীমারেখা", "message": "Chapter 17 written (24006 chars).", "ts": "2026-11-16T15:41:28.415136+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "18", "title": "সীমারেখা", "message": "Chapter 18 written (23717 chars).", "ts": "2026-11-16T15:44:24.052446+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "19", "title": "সীমারেখা", "message": "Chapter 19 written (26846 chars).", "ts": "2026-11-16T15:47:48.138703+00:00"}
+{"kind": "chapter_written", "bookname": "jirno", "chapter": "20", "title": "সীমারেখা", "message": "Chapter 20 written (25604 chars).", "ts": "2026-11-16T15:50:57.425134+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "1", "title": "প্রগতি অপেরা: গৌরবের পুনর্নির্মাণ", "message": "Chapter 1 enriched.", "ts": "2026-11-16T15:51:29.543536+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "2", "title": "লক্ষ্মণ সেনের কৈশোরের স্বপ্ন ও বাংলার নৌ-সামরিক শক্তির প্রাথমিক প্রদর্শন", "message": "Chapter 2 enriched.", "ts": "2026-11-16T15:51:50.862059+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "3", "title": "কনৌজের দিকে প্রথম সামরিক প্রস্তুতি পর্ব", "message": "Chapter 3 enriched.", "ts": "2026-11-16T15:52:10.578392+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "4", "title": "নালন্দার স্মৃতি ও জ্ঞানের ক্ষয়", "message": "Chapter 4 enriched.", "ts": "2026-11-16T15:52:30.374866+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "5", "title": "গঙ্গার অর্থনীতির উপর নির্ভরতা এবং বিদেশী বণিকদের সঙ্গে বাংলার বাণিজ্যিক সম্পর্কের জটিলতা", "message": "Chapter 5 enriched.", "ts": "2026-11-16T15:52:53.107833+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "6", "title": "কনৌজের পথে আঞ্চলিক শক্তিগুলির সঙ্গে কূটনৈতিক ও সামরিক টানাপোড়েন", "message": "Chapter 6 enriched.", "ts": "2026-11-16T15:53:13.423259+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "7", "title": "সামরিক অভিযানের গভীরে: পদাতিক ও প্রান্তিক জীবন", "message": "Chapter 7 enriched.", "ts": "2026-11-16T15:53:36.069825+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "8", "title": "দোয়াবের অপরিচিত শক্তি", "message": "Chapter 8 enriched.", "ts": "2026-11-16T15:53:57.440255+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "9", "title": "রাজকীয় অন্তঃপুরের দার্শনিক দ্বন্দ্ব", "message": "Chapter 9 enriched.", "ts": "2026-11-16T15:54:22.747640+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "10", "title": "কনৌজের প্রান্তসীমা: গৌরবের মুখোমুখি", "message": "Chapter 10 enriched.", "ts": "2026-11-16T15:54:43.286760+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "11", "title": "অহংকারের প্রথম ফাটল: কনৌজের পথে এক সামরিক বিপর্যয়", "message": "Chapter 11 enriched.", "ts": "2026-11-16T15:55:04.913872+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "12", "title": "নদী অর্থনীতির বিপর্যয়", "message": "Chapter 12 enriched.", "ts": "2026-11-16T15:55:26.968548+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "13", "title": "রাজনৈতিক বিশ্বাসঘাতকতা বা অভ্যন্তরীণ কোন্দল", "message": "Chapter 13 enriched.", "ts": "2026-11-16T15:55:45.239846+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "14", "title": "চূড়ান্ত সংঘর্ষের পূর্ব মুহূর্ত", "message": "Chapter 14 enriched.", "ts": "2026-11-16T15:56:06.454055+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "15", "title": "কনৌজ-অভিযানের পরিণতি: ভারাক্রান্ত শাসক", "message": "Chapter 15 enriched.", "ts": "2026-11-16T15:56:21.197616+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "16", "title": "কনৌজ-অভিযানের পরিণতি", "message": "Chapter 16 enriched.", "ts": "2026-11-16T15:56:33.172796+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "17", "title": "কনৌজ-অভিযানের পরিণতি", "message": "Chapter 17 enriched.", "ts": "2026-11-16T15:56:46.980764+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "18", "title": "The Weight of the Crown: From Glory to Burden", "message": "Chapter 18 enriched.", "ts": "2026-11-16T15:57:01.957799+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "19", "title": "কনৌজের ভার ও লক্ষ্মণের শেষ জিজ্ঞাসা", "message": "Chapter 19 enriched.", "ts": "2026-11-16T15:57:16.469247+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "20", "title": "কনৌজ-অভিযানের পরিণতি", "message": "Chapter 20 enriched.", "ts": "2026-11-16T15:57:30.300049+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "21", "title": "কনৌজ-অভিযানের পরিণতি", "message": "Chapter 21 enriched.", "ts": "2026-11-16T15:57:43.568274+00:00"}
+{"kind": "chapter_enriched", "bookname": "laxman", "chapter": "22", "title": "কনৌজ-অভিযানের পরিণতি: ভারাক্রান্ত শাসক", "message": "Chapter 22 enriched.", "ts": "2026-11-16T15:57:55.877666+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "1", "title": "প্রগতি অপেরা: গৌরবের পুনর্নির্মাণ", "message": "Chapter 1 written (3719 chars).", "ts": "2026-11-16T15:58:35.891824+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "2", "title": "লক্ষ্মণ সেনের কৈশোরের স্বপ্ন ও বাংলার নৌ-সামরিক শক্তির প্রাথমিক প্রদর্শন", "message": "Chapter 2 written (3564 chars).", "ts": "2026-11-16T15:59:28.517037+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "3", "title": "কনৌজের দিকে প্রথম সামরিক প্রস্তুতি পর্ব", "message": "Chapter 3 written (3056 chars).", "ts": "2026-11-16T16:00:18.299074+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "4", "title": "নালন্দার স্মৃতি ও জ্ঞানের ক্ষয়", "message": "Chapter 4 written (3113 chars).", "ts": "2026-11-16T16:01:09.212527+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "5", "title": "গঙ্গার অর্থনীতির উপর নির্ভরতা এবং বিদেশী বণিকদের সঙ্গে বাংলার বাণিজ্যিক সম্পর্কের জটিলতা", "message": "Chapter 5 written (3497 chars).", "ts": "2026-11-16T16:02:01.432374+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "6", "title": "কনৌজের পথে আঞ্চলিক শক্তিগুলির সঙ্গে কূটনৈতিক ও সামরিক টানাপোড়েন", "message": "Chapter 6 written (3053 chars).", "ts": "2026-11-16T16:02:50.954183+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "7", "title": "সামরিক অভিযানের গভীরে: পদাতিক ও প্রান্তিক জীবন", "message": "Chapter 7 written (4681 chars).", "ts": "2026-11-16T16:03:49.546473+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "8", "title": "দোয়াবের অপরিচিত শক্তি", "message": "Chapter 8 written (6135 chars).", "ts": "2026-11-16T16:04:57.025826+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "9", "title": "রাজকীয় অন্তঃপুরের দার্শনিক দ্বন্দ্ব", "message": "Chapter 9 written (6565 chars).", "ts": "2026-11-16T16:06:07.865490+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "10", "title": "কনৌজের প্রান্তসীমা: গৌরবের মুখোমুখি", "message": "Chapter 10 written (7078 chars).", "ts": "2026-11-16T16:07:19.832931+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "11", "title": "অহংকারের প্রথম ফাটল: কনৌজের পথে এক সামরিক বিপর্যয়", "message": "Chapter 11 written (4719 chars).", "ts": "2026-11-16T16:08:20.722201+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "12", "title": "নদী অর্থনীতির বিপর্যয়", "message": "Chapter 12 written (6522 chars).", "ts": "2026-11-16T16:09:27.707489+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "13", "title": "রাজনৈতিক বিশ্বাসঘাতকতা বা অভ্যন্তরীণ কোন্দল", "message": "Chapter 13 written (4613 chars).", "ts": "2026-11-16T16:10:26.789145+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "14", "title": "চূড়ান্ত সংঘর্ষের পূর্ব মুহূর্ত", "message": "Chapter 14 written (4693 chars).", "ts": "2026-11-16T16:11:25.720342+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "15", "title": "কনৌজ-অভিযানের পরিণতি: ভারাক্রান্ত শাসক", "message": "Chapter 15 written (3678 chars).", "ts": "2026-11-16T16:12:19.154290+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "16", "title": "কনৌজ-অভিযানের পরিণতি", "message": "Chapter 16 written (3421 chars).", "ts": "2026-11-16T16:13:08.867441+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "17", "title": "কনৌজ-অভিযানের পরিণতি", "message": "Chapter 17 written (3867 chars).", "ts": "2026-11-16T16:14:02.483375+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "18", "title": "The Weight of the Crown: From Glory to Burden", "message": "Chapter 18 written (3838 chars).", "ts": "2026-11-16T16:14:57.011719+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "19", "title": "কনৌজের ভার ও লক্ষ্মণের শেষ জিজ্ঞাসা", "message": "Chapter 19 written (4170 chars).", "ts": "2026-11-16T16:15:52.295509+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "20", "title": "কনৌজ-অভিযানের পরিণতি", "message": "Chapter 20 written (2793 chars).", "ts": "2026-11-16T16:16:39.680699+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "21", "title": "কনৌজ-অভিযানের পরিণতি", "message": "Chapter 21 written (3365 chars).", "ts": "2026-11-16T16:17:30.431469+00:00"}
+{"kind": "chapter_written", "bookname": "laxman", "chapter": "22", "title": "কনৌজ-অভিযানের পরিণতি: ভারাক্রান্ত শাসক", "message": "Chapter 22 written (3389 chars).", "ts": "2026-11-16T16:18:20.788338+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "1", "title": "ঊষার আলো ও আবছা অন্ধকার", "message": "Chapter 1 enriched.", "ts": "2026-11-16T16:18:56.368989+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "2", "title": "মহালয়া — পর্ব 2 — mahalaya — পর্ব 2", "message": "Chapter 2 enriched.", "ts": "2026-11-16T16:19:14.205214+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "3", "title": "মহালয়ার আগমন ও অনির্বাণের জিজ্ঞাসা", "message": "Chapter 3 enriched.", "ts": "2026-11-16T16:19:33.389904+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "4", "title": "শহরের কোলাহল এবং মন্দিরের শান্ত পরিবেশের মধ্যে এক তীব্র বৈপরীত্য", "message": "Chapter 4 enriched.", "ts": "2026-11-16T16:19:57.402618+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "5", "title": "জাগতিক দায়িত্ববোধ বনাম আত্মিক মুক্তির আকাঙ্ক্ষা", "message": "Chapter 5 enriched.", "ts": "2026-11-16T16:20:16.265420+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "6", "title": "অনির্বাণের নীরব অনুসন্ধান", "message": "Chapter 6 enriched.", "ts": "2026-11-16T16:20:35.959832+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "7", "title": "নদী তীরে এক গভীর রাতে", "message": "Chapter 7 enriched.", "ts": "2026-11-16T16:20:55.869726+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "8", "title": "নীরব স্বীকৃতি", "message": "Chapter 8 enriched.", "ts": "2026-11-16T16:21:41.938272+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "9", "title": "সময় যেখানে স্থিতিশীল", "message": "Chapter 9 enriched.", "ts": "2026-11-16T16:21:59.068531+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "10", "title": "পবিত্রতার পথ", "message": "Chapter 10 enriched.", "ts": "2026-11-16T16:22:16.232892+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "11", "title": "অসম্পূর্ণতার শিল্প", "message": "Chapter 11 enriched.", "ts": "2026-11-16T16:22:36.144274+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "12", "title": "মহালয়ার মূল উৎসবের দিনটি আসে", "message": "Chapter 12 enriched.", "ts": "2026-11-16T16:22:56.373476+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "13", "title": "উৎসবের উন্মাদনা ও শূন্যতার আগমন", "message": "Chapter 13 enriched.", "ts": "2026-11-16T16:23:10.321259+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "14", "title": "অনির্বাণের নীরব স্বীকারোক্তি", "message": "Chapter 14 enriched.", "ts": "2026-11-16T16:23:29.421500+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "15", "title": "মহালয়ার আলো ম্লান", "message": "Chapter 15 enriched.", "ts": "2026-11-16T16:23:45.744866+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "16", "title": "মহালয়া: এর কবিতা", "message": "Chapter 16 enriched.", "ts": "2026-11-16T16:24:03.527162+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "17", "title": "মহালয়া: এর কবিতা", "message": "Chapter 17 enriched.", "ts": "2026-11-16T16:24:21.133497+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "18", "title": "মহালয়া: এর কবিতা", "message": "Chapter 18 enriched.", "ts": "2026-11-16T16:24:34.550943+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "19", "title": "মহালয়া: এর কবিতা", "message": "Chapter 19 enriched.", "ts": "2026-11-16T16:24:47.512276+00:00"}
+{"kind": "chapter_enriched", "bookname": "mahalaya", "chapter": "20", "title": "মহালয়া: এর কাহিনি", "message": "Chapter 20 enriched.", "ts": "2026-11-16T16:25:02.852960+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "1", "title": "ঊষার আলো ও আবছা অন্ধকার", "message": "Chapter 1 written (3153 chars).", "ts": "2026-11-16T16:25:35.729113+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "2", "title": "মহালয়া — পর্ব 2 — mahalaya — পর্ব 2", "message": "Chapter 2 written (2943 chars).", "ts": "2026-11-16T16:26:20.033742+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "3", "title": "মহালয়ার আগমন ও অনির্বাণের জিজ্ঞাসা", "message": "Chapter 3 written (2908 chars).", "ts": "2026-11-16T16:27:03.781733+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "4", "title": "শহরের কোলাহল এবং মন্দিরের শান্ত পরিবেশের মধ্যে এক তীব্র বৈপরীত্য", "message": "Chapter 4 written (2765 chars).", "ts": "2026-11-16T16:27:45.943653+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "5", "title": "জাগতিক দায়িত্ববোধ বনাম আত্মিক মুক্তির আকাঙ্ক্ষা", "message": "Chapter 5 written (2700 chars).", "ts": "2026-11-16T16:28:28.861780+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "6", "title": "অনির্বাণের নীরব অনুসন্ধান", "message": "Chapter 6 written (2468 chars).", "ts": "2026-11-16T16:29:10.109560+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "7", "title": "নদী তীরে এক গভীর রাতে", "message": "Chapter 7 written (2883 chars).", "ts": "2026-11-16T16:29:52.847048+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "8", "title": "নীরব স্বীকৃতি", "message": "Chapter 8 written (2515 chars).", "ts": "2026-11-16T16:30:34.392345+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "9", "title": "সময় যেখানে স্থিতিশীল", "message": "Chapter 9 written (2672 chars).", "ts": "2026-11-16T16:31:16.341574+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "10", "title": "পবিত্রতার পথ", "message": "Chapter 10 written (2551 chars).", "ts": "2026-11-16T16:31:56.791685+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "11", "title": "অসম্পূর্ণতার শিল্প", "message": "Chapter 11 written (5048 chars).", "ts": "2026-11-16T16:32:51.322934+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "12", "title": "মহালয়ার মূল উৎসবের দিনটি আসে", "message": "Chapter 12 written (3239 chars).", "ts": "2026-11-16T16:33:37.201656+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "13", "title": "উৎসবের উন্মাদনা ও শূন্যতার আগমন", "message": "Chapter 13 written (2857 chars).", "ts": "2026-11-16T16:34:19.167307+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "14", "title": "অনির্বাণের নীরব স্বীকারোক্তি", "message": "Chapter 14 written (3041 chars).", "ts": "2026-11-16T16:35:02.233525+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "15", "title": "মহালয়ার আলো ম্লান", "message": "Chapter 15 written (2833 chars).", "ts": "2026-11-16T16:35:44.014143+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "16", "title": "মহালয়া: এর কবিতা", "message": "Chapter 16 written (2724 chars).", "ts": "2026-11-16T16:36:26.167416+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "17", "title": "মহালয়া: এর কবিতা", "message": "Chapter 17 written (2918 chars).", "ts": "2026-11-16T16:37:09.895984+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "18", "title": "মহালয়া: এর কবিতা", "message": "Chapter 18 written (2684 chars).", "ts": "2026-11-16T16:37:51.470715+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "19", "title": "মহালয়া: এর কবিতা", "message": "Chapter 19 written (2449 chars).", "ts": "2026-11-16T16:38:32.195885+00:00"}
+{"kind": "chapter_written", "bookname": "mahalaya", "chapter": "20", "title": "মহালয়া: এর কাহিনি", "message": "Chapter 20 written (2725 chars).", "ts": "2026-11-16T16:39:14.060152+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "1", "title": "majhi — পর্ব 1 — majhi", "message": "Chapter 1 enriched.", "ts": "2026-11-16T16:39:48.958507+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "2", "title": "নদীর তীরে প্রথম সাক্ষাৎ", "message": "Chapter 2 enriched.", "ts": "2026-11-16T16:40:06.933504+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "3", "title": "ভটিয়ালি সুর", "message": "Chapter 3 enriched.", "ts": "2026-11-16T16:40:27.831661+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "4", "title": "ঋণের প্রথম ফিসফিসানি", "message": "Chapter 4 enriched.", "ts": "2026-11-16T16:40:48.990949+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "5", "title": "বৃষ্টির রাত, যখন নদী উত্তাল", "message": "Chapter 5 enriched.", "ts": "2026-11-16T16:41:07.810517+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "6", "title": "নদীর গতিপথ পরিবর্তন", "message": "Chapter 6 enriched.", "ts": "2026-11-16T16:41:26.928250+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "7", "title": "নদীর চোখে শিল্প", "message": "Chapter 7 enriched.", "ts": "2026-11-16T16:41:46.398626+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "8", "title": "অর্থনৈতিক চাপ চরমে পৌঁছায়", "message": "Chapter 8 enriched.", "ts": "2026-11-16T16:42:08.014237+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "9", "title": "মাঝি তার গানকে একটি প্রতিবাদী রূপ দেয়", "message": "Chapter 9 enriched.", "ts": "2026-11-16T16:42:28.319184+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "10", "title": "এক অপ্রত্যাশিত মুহূর্ত", "message": "Chapter 10 enriched.", "ts": "2026-11-16T16:42:48.973719+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "11", "title": "মাঝি সিদ্ধান্ত নেয়", "message": "Chapter 11 enriched.", "ts": "2026-11-16T16:43:08.658850+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "12", "title": "নদীর গভীরে লুকানো স্মৃতি", "message": "Chapter 12 enriched.", "ts": "2026-11-16T16:43:29.444955+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "13", "title": "একটি বড় পরীক্ষা—একটি ভয়ঙ্কর ঝড় বা বন্যা", "message": "Chapter 13 enriched.", "ts": "2026-11-16T16:43:53.567399+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "14", "title": "পরিবর্তনের মুখোমুখি হওয়া", "message": "Chapter 14 enriched.", "ts": "2026-11-16T16:44:13.566765+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "15", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 15 enriched.", "ts": "2026-11-16T16:44:31.609607+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "16", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 16 enriched.", "ts": "2026-11-16T16:44:51.036590+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "17", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 17 enriched.", "ts": "2026-11-16T16:45:08.705309+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "18", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 18 enriched.", "ts": "2026-11-16T16:45:29.564195+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "19", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 19 enriched.", "ts": "2026-11-16T16:45:48.191463+00:00"}
+{"kind": "chapter_enriched", "bookname": "majhi", "chapter": "20", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 20 enriched.", "ts": "2026-11-16T16:46:07.217965+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "1", "title": "majhi — পর্ব 1 — majhi", "message": "Chapter 1 written (23514 chars).", "ts": "2026-11-16T16:49:12.403314+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "2", "title": "নদীর তীরে প্রথম সাক্ষাৎ", "message": "Chapter 2 written (23180 chars).", "ts": "2026-11-16T16:52:02.440580+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "3", "title": "ভটিয়ালি সুর", "message": "Chapter 3 written (22293 chars).", "ts": "2026-11-16T16:54:39.236129+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "4", "title": "ঋণের প্রথম ফিসফিসানি", "message": "Chapter 4 written (21259 chars).", "ts": "2026-11-16T16:56:54.134654+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "5", "title": "বৃষ্টির রাত, যখন নদী উত্তাল", "message": "Chapter 5 written (22817 chars).", "ts": "2026-11-16T16:59:38.449280+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "6", "title": "নদীর গতিপথ পরিবর্তন", "message": "Chapter 6 written (24121 chars).", "ts": "2026-11-16T17:02:44.412456+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "7", "title": "নদীর চোখে শিল্প", "message": "Chapter 7 written (21238 chars).", "ts": "2026-11-16T17:05:04.975060+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "8", "title": "অর্থনৈতিক চাপ চরমে পৌঁছায়", "message": "Chapter 8 written (23136 chars).", "ts": "2026-11-16T17:07:45.640569+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "9", "title": "মাঝি তার গানকে একটি প্রতিবাদী রূপ দেয়", "message": "Chapter 9 written (22123 chars).", "ts": "2026-11-16T17:10:19.723136+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "10", "title": "এক অপ্রত্যাশিত মুহূর্ত", "message": "Chapter 10 written (9927 chars).", "ts": "2026-11-16T17:11:48.875966+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "11", "title": "মাঝি সিদ্ধান্ত নেয়", "message": "Chapter 11 written (23208 chars).", "ts": "2026-11-16T17:14:39.799291+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "12", "title": "নদীর গভীরে লুকানো স্মৃতি", "message": "Chapter 12 written (20384 chars).", "ts": "2026-11-16T17:17:05.119212+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "13", "title": "একটি বড় পরীক্ষা—একটি ভয়ঙ্কর ঝড় বা বন্যা", "message": "Chapter 13 written (6218 chars).", "ts": "2026-11-16T17:18:05.984640+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "14", "title": "পরিবর্তনের মুখোমুখি হওয়া", "message": "Chapter 14 written (20967 chars).", "ts": "2026-11-16T17:20:32.443365+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "15", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 15 written (6748 chars).", "ts": "2026-11-16T17:21:43.672823+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "16", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 16 written (21590 chars).", "ts": "2026-11-16T17:24:24.063503+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "17", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 17 written (24391 chars).", "ts": "2026-11-16T17:27:29.363883+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "18", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 18 written (23809 chars).", "ts": "2026-11-16T17:30:25.317742+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "19", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 19 written (23337 chars).", "ts": "2026-11-16T17:33:20.115403+00:00"}
+{"kind": "chapter_written", "bookname": "majhi", "chapter": "20", "title": "চূড়ান্ত উপলব্ধি", "message": "Chapter 20 written (22052 chars).", "ts": "2026-11-16T17:35:58.035979+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "1", "title": "misc — পর্ব 1", "message": "Chapter 1 enriched.", "ts": "2026-11-16T17:36:46.409191+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "2", "title": "misc — পর্ব 2", "message": "Chapter 2 enriched.", "ts": "2026-11-16T17:37:11.742103+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "3", "title": "দরজায় সিঁদুরের লাল আভা", "message": "Chapter 3 enriched.", "ts": "2026-11-16T17:37:31.452345+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "4", "title": "misc — পর্ব 4", "message": "Chapter 4 enriched.", "ts": "2026-11-16T17:38:01.497963+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "5", "title": "রাস্তার ধারের ক্ষুদ্র ব্যবসায়ীর হাঁক", "message": "Chapter 5 enriched.", "ts": "2026-11-16T17:38:26.641541+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "6", "title": "বর্ষার প্রথম ফোঁটা", "message": "Chapter 6 enriched.", "ts": "2026-11-16T17:38:49.789261+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "7", "title": "চৌকাঠের বাইরে জীর্ণ চপ্পল", "message": "Chapter 7 enriched.", "ts": "2026-11-16T17:39:13.484944+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "8", "title": "সন্ধ্যার প্রদীপের শিখা", "message": "Chapter 8 enriched.", "ts": "2026-11-16T17:39:37.611100+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "9", "title": "টিফিন বক্সের ভাঁজ", "message": "Chapter 9 enriched.", "ts": "2026-11-16T17:40:06.022493+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "10", "title": "ফুলের স্তূপের পাশে গাঁদা ফুলের উজ্জ্বলতা", "message": "Chapter 10 enriched.", "ts": "2026-11-16T17:40:30.899259+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "11", "title": "ক্লান্ত যাত্রীর প্রতিকৃতি", "message": "Chapter 11 enriched.", "ts": "2026-11-16T17:40:58.430778+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "12", "title": "আলপনা বা রঙ্গোলির নকশা", "message": "Chapter 12 enriched.", "ts": "2026-11-16T17:41:25.332876+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "13", "title": "একটি পুরোনো, জীর্ণ সাইকেলের ঘণ্টার মৃদু আওয়াজ", "message": "Chapter 13 enriched.", "ts": "2026-11-16T17:41:51.376235+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "14", "title": "পানের পাতা ও মশলার মিশ্রণ", "message": "Chapter 14 enriched.", "ts": "2026-11-16T17:42:18.167928+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "15", "title": "ক্ষুদ্র মুহূর্তের সমষ্টি", "message": "Chapter 15 enriched.", "ts": "2026-11-16T17:42:46.473918+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "16", "title": "The Sum of Minutes", "message": "Chapter 16 enriched.", "ts": "2026-11-16T17:43:17.248295+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "17", "title": "misc — পর্ব 15", "message": "Chapter 17 enriched.", "ts": "2026-11-16T17:43:50.639157+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "18", "title": "misc — পর্ব 15", "message": "Chapter 18 enriched.", "ts": "2026-11-16T17:44:16.522075+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "19", "title": "misc — পর্ব 15", "message": "Chapter 19 enriched.", "ts": "2026-11-16T17:44:44.457446+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "20", "title": "misc — পর্ব 15", "message": "Chapter 20 enriched.", "ts": "2026-11-16T17:45:12.074557+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "21", "title": "misc — পর্ব 15", "message": "Chapter 21 enriched.", "ts": "2026-11-16T17:45:42.556631+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "22", "title": "misc — পর্ব 15", "message": "Chapter 22 enriched.", "ts": "2026-11-16T17:46:09.441400+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "23", "title": "misc — পর্ব 15", "message": "Chapter 23 enriched.", "ts": "2026-11-16T17:46:39.526227+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "24", "title": "misc — পর্ব 15", "message": "Chapter 24 enriched.", "ts": "2026-11-16T17:47:11.061477+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "25", "title": "misc — পর্ব 15", "message": "Chapter 25 enriched.", "ts": "2026-11-16T17:47:38.857555+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "26", "title": "misc — পর্ব 15", "message": "Chapter 26 enriched.", "ts": "2026-11-16T17:48:05.885543+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "27", "title": "misc — পর্ব 15", "message": "Chapter 27 enriched.", "ts": "2026-11-16T17:48:29.453519+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "28", "title": "misc — পর্ব 15", "message": "Chapter 28 enriched.", "ts": "2026-11-16T17:48:51.908843+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "29", "title": "misc — পর্ব 15", "message": "Chapter 29 enriched.", "ts": "2026-11-16T17:49:21.208747+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "30", "title": "misc — পর্ব 15", "message": "Chapter 30 enriched.", "ts": "2026-11-16T17:49:47.136167+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "31", "title": "misc — পর্ব 15", "message": "Chapter 31 enriched.", "ts": "2026-11-16T17:50:18.850943+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "32", "title": "misc — পর্ব 15", "message": "Chapter 32 enriched.", "ts": "2026-11-16T17:50:50.634970+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "33", "title": "misc — পর্ব 15", "message": "Chapter 33 enriched.", "ts": "2026-11-16T17:51:19.005558+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "34", "title": "misc — পর্ব 15", "message": "Chapter 34 enriched.", "ts": "2026-11-16T17:51:46.376199+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "35", "title": "misc — পর্ব 15", "message": "Chapter 35 enriched.", "ts": "2026-11-16T17:52:17.690245+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "36", "title": "misc — পর্ব 15", "message": "Chapter 36 enriched.", "ts": "2026-11-16T17:52:44.923543+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "37", "title": "misc — পর্ব 15", "message": "Chapter 37 enriched.", "ts": "2026-11-16T17:53:12.824021+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "38", "title": "misc — পর্ব 15", "message": "Chapter 38 enriched.", "ts": "2026-11-16T17:53:37.351530+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "39", "title": "misc — পর্ব 15", "message": "Chapter 39 enriched.", "ts": "2026-11-16T17:54:03.846840+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "40", "title": "misc — পর্ব 15", "message": "Chapter 40 enriched.", "ts": "2026-11-16T17:54:46.887123+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "41", "title": "misc — পর্ব 15", "message": "Chapter 41 enriched.", "ts": "2026-11-16T17:55:17.202246+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "42", "title": "misc — পর্ব 15", "message": "Chapter 42 enriched.", "ts": "2026-11-16T17:55:45.519663+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "43", "title": "misc — পর্ব 15", "message": "Chapter 43 enriched.", "ts": "2026-11-16T17:56:15.007423+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "44", "title": "misc — পর্ব 15", "message": "Chapter 44 enriched.", "ts": "2026-11-16T17:57:00.129629+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "45", "title": "misc — পর্ব 15", "message": "Chapter 45 enriched.", "ts": "2026-11-16T17:57:28.803116+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "46", "title": "misc — পর্ব 15", "message": "Chapter 46 enriched.", "ts": "2026-11-16T17:57:57.530569+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "47", "title": "misc — পর্ব 15", "message": "Chapter 47 enriched.", "ts": "2026-11-16T17:58:25.939656+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "48", "title": "misc — পর্ব 15", "message": "Chapter 48 enriched.", "ts": "2026-11-16T17:58:48.272369+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "49", "title": "misc — পর্ব 15", "message": "Chapter 49 enriched.", "ts": "2026-11-16T17:59:21.445802+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "50", "title": "misc — পর্ব 15", "message": "Chapter 50 enriched.", "ts": "2026-11-16T17:59:51.107342+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "51", "title": "misc — পর্ব 15", "message": "Chapter 51 enriched.", "ts": "2026-11-16T18:00:19.412041+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "52", "title": "misc — পর্ব 15", "message": "Chapter 52 enriched.", "ts": "2026-11-16T18:00:48.599047+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "53", "title": "misc — পর্ব 15", "message": "Chapter 53 enriched.", "ts": "2026-11-16T18:01:30.527744+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "54", "title": "misc — পর্ব 15", "message": "Chapter 54 enriched.", "ts": "2026-11-16T18:02:02.092285+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "55", "title": "misc — পর্ব 15", "message": "Chapter 55 enriched.", "ts": "2026-11-16T18:02:30.759534+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "56", "title": "misc — পর্ব 15", "message": "Chapter 56 enriched.", "ts": "2026-11-16T18:03:01.393248+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "58", "title": "misc — পর্ব 15", "message": "Chapter 58 enriched.", "ts": "2026-11-16T18:05:09.334433+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "59", "title": "misc — পর্ব 15", "message": "Chapter 59 enriched.", "ts": "2026-11-16T18:05:37.408591+00:00"}
+{"kind": "chapter_enriched", "bookname": "misc", "chapter": "60", "title": "misc — পর্ব 15", "message": "Chapter 60 enriched.", "ts": "2026-11-16T18:06:00.402570+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "1", "title": "nouka — পর্ব 1 — nouka", "message": "Chapter 1 enriched.", "ts": "2026-11-16T18:06:39.064710+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "2", "title": "nouka — পর্ব 2 — nouka", "message": "Chapter 2 enriched.", "ts": "2026-11-16T18:06:58.230929+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "3", "title": "nouka — পর্ব 3 — nouka", "message": "Chapter 3 enriched.", "ts": "2026-11-16T18:07:17.637734+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "4", "title": "চট্টার্জীর আগমন: লজিস্টিক বাধা", "message": "Chapter 4 enriched.", "ts": "2026-11-16T18:07:56.191010+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "5", "title": "nouka — পর্ব 5 — nouka", "message": "Chapter 5 enriched.", "ts": "2026-11-16T18:08:25.785041+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "6", "title": "nouka — পর্ব 6 — nouka", "message": "Chapter 6 enriched.", "ts": "2026-11-16T18:08:52.789875+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "7", "title": "nouka — পর্ব 7 — nouka", "message": "Chapter 7 enriched.", "ts": "2026-11-16T18:09:17.519311+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "8", "title": "nouka — পর্ব 8 — nouka", "message": "Chapter 8 enriched.", "ts": "2026-11-16T18:09:47.093736+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "9", "title": "গোপালের দ্বিধা: স্রোত বনাম ঐতিহ্য", "message": "Chapter 9 enriched.", "ts": "2026-11-16T18:10:15.596903+00:00"}
+{"kind": "chapter_enriched", "bookname": "nouka", "chapter": "10", "title": "নৌকার কাঠ বনাম ধাতব স্রোত", "message": "Chapter 10 enriched.", "ts": "2026-11-16T18:10:42.334758+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "1", "title": "nouka — পর্ব 1 — nouka", "message": "Chapter 1 written (22281 chars).", "ts": "2026-11-16T18:13:30.491118+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "2", "title": "nouka — পর্ব 2 — nouka", "message": "Chapter 2 written (23674 chars).", "ts": "2026-11-16T18:16:32.487901+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "3", "title": "nouka — পর্ব 3 — nouka", "message": "Chapter 3 written (22338 chars).", "ts": "2026-11-16T18:19:20.670014+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "4", "title": "চট্টার্জীর আগমন: লজিস্টিক বাধা", "message": "Chapter 4 written (22622 chars).", "ts": "2026-11-16T18:21:58.538299+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "5", "title": "nouka — পর্ব 5 — nouka", "message": "Chapter 5 written (22023 chars).", "ts": "2026-11-16T18:24:35.610101+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "6", "title": "nouka — পর্ব 6 — nouka", "message": "Chapter 6 written (24228 chars).", "ts": "2026-11-16T18:27:26.797007+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "7", "title": "nouka — পর্ব 7 — nouka", "message": "Chapter 7 written (22610 chars).", "ts": "2026-11-16T18:30:00.269278+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "8", "title": "nouka — পর্ব 8 — nouka", "message": "Chapter 8 written (23222 chars).", "ts": "2026-11-16T18:32:44.236808+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "9", "title": "গোপালের দ্বিধা: স্রোত বনাম ঐতিহ্য", "message": "Chapter 9 written (5370 chars).", "ts": "2026-11-16T18:33:44.347605+00:00"}
+{"kind": "chapter_written", "bookname": "nouka", "chapter": "10", "title": "নৌকার কাঠ বনাম ধাতব স্রোত", "message": "Chapter 10 written (24870 chars).", "ts": "2026-11-16T18:36:48.971593+00:00"}
+{"kind": "chapter_enriched", "bookname": "poddo", "chapter": "1", "title": "poddo — পর্ব 1 — poddo", "message": "Chapter 1 enriched.", "ts": "2026-11-16T18:37:29.112779+00:00"}
+{"kind": "chapter_enriched", "bookname": "poddo", "chapter": "2", "title": "poddo — পর্ব 2 — poddo", "message": "Chapter 2 enriched.", "ts": "2026-11-16T18:37:49.848191+00:00"}
+{"kind": "chapter_enriched", "bookname": "poddo", "chapter": "3", "title": "poddo — পর্ব 3 — poddo", "message": "Chapter 3 enriched.", "ts": "2026-11-16T18:38:13.839296+00:00"}
+{"kind": "chapter_enriched", "bookname": "poddo", "chapter": "4", "title": "বীজ বপনের দৃশ্যকল্প", "message": "Chapter 4 enriched.", "ts": "2026-11-16T18:38:39.324044+00:00"}
+{"kind": "chapter_enriched", "bookname": "poddo", "chapter": "5", "title": "কৃষক রমণীর শ্রমের প্রতিচ্ছবি", "message": "Chapter 5 enriched.", "ts": "2026-11-16T18:39:03.146456+00:00"}
+{"kind": "chapter_written", "bookname": "poddo", "chapter": "1", "title": "poddo — পর্ব 1 — poddo", "message": "Chapter 1 written (4918 chars).", "ts": "2026-11-16T18:39:45.795322+00:00"}
+{"kind": "chapter_written", "bookname": "poddo", "chapter": "2", "title": "poddo — পর্ব 2 — poddo", "message": "Chapter 2 written (23876 chars).", "ts": "2026-11-16T18:42:33.028238+00:00"}
+{"kind": "chapter_written", "bookname": "poddo", "chapter": "3", "title": "poddo — পর্ব 3 — poddo", "message": "Chapter 3 written (23300 chars).", "ts": "2026-11-16T18:44:56.538090+00:00"}
+{"kind": "chapter_written", "bookname": "poddo", "chapter": "4", "title": "বীজ বপনের দৃশ্যকল্প", "message": "Chapter 4 written (23058 chars).", "ts": "2026-11-16T18:47:28.173399+00:00"}
+{"kind": "chapter_written", "bookname": "poddo", "chapter": "5", "title": "কৃষক রমণীর শ্রমের প্রতিচ্ছবি", "message": "Chapter 5 written (21807 chars).", "ts": "2026-11-16T18:49:54.091261+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "1", "title": "সিঙ্গাড়া যেখানে ছিল ঘরের স্বাদ", "message": "Chapter 1 enriched.", "ts": "2026-11-16T18:50:44.182030+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "2", "title": "samosa — পর্ব 2 — samosa", "message": "Chapter 2 enriched.", "ts": "2026-11-16T18:51:10.925800+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "3", "title": "নামের পরিবর্তন: সিঙ্গাড়া থেকে সামোসা", "message": "Chapter 3 enriched.", "ts": "2026-11-16T18:51:33.346581+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "4", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 4 enriched.", "ts": "2026-11-16T18:51:52.143212+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "5", "title": "প্রথম প্রজন্মের স্মৃতি-সংরক্ষণ", "message": "Chapter 5 enriched.", "ts": "2026-11-16T18:52:18.179444+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "6", "title": "তেলের পরিবর্তন", "message": "Chapter 6 enriched.", "ts": "2026-11-16T18:52:42.344063+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "7", "title": "দ্বিতীয় প্রজন্মের দৃষ্টিকোণ", "message": "Chapter 7 enriched.", "ts": "2026-11-16T18:53:07.361097+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "8", "title": "ঘ্রাণ-স্মৃতির বিজ্ঞান ও কাব্যিকতা", "message": "Chapter 8 enriched.", "ts": "2026-11-16T18:53:34.521178+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "9", "title": "মশলার বিন্যাস", "message": "Chapter 9 enriched.", "ts": "2026-11-16T18:53:58.306641+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "10", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 10 enriched.", "ts": "2026-11-16T18:54:27.518552+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "11", "title": "পরিচয়ের দ্বিধা", "message": "Chapter 11 enriched.", "ts": "2026-11-16T18:54:49.468874+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "12", "title": "বাণিজ্যপথের স্মৃতি", "message": "Chapter 12 enriched.", "ts": "2026-11-16T18:55:09.824411+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "13", "title": "অপেক্ষা", "message": "Chapter 13 enriched.", "ts": "2026-11-16T18:55:32.709412+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "14", "title": "স্বীকৃতি বা প্রত্যাখ্যান", "message": "Chapter 14 enriched.", "ts": "2026-11-16T18:56:08.338665+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "15", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 15 enriched.", "ts": "2026-11-16T18:56:31.871918+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "16", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 16 enriched.", "ts": "2026-11-16T18:56:54.634925+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "17", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 17 enriched.", "ts": "2026-11-16T18:57:25.744020+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "18", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 18 enriched.", "ts": "2026-11-16T18:58:00.254063+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "19", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 19 enriched.", "ts": "2026-11-16T18:58:21.418797+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "20", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 20 enriched.", "ts": "2026-11-16T18:58:49.137408+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "21", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 21 enriched.", "ts": "2026-11-16T18:59:16.410889+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "22", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 22 enriched.", "ts": "2026-11-16T18:59:35.930802+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "23", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 23 enriched.", "ts": "2026-11-16T19:00:02.875717+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "24", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 24 enriched.", "ts": "2026-11-16T19:00:24.332193+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "25", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 25 enriched.", "ts": "2026-11-16T19:00:50.295922+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "26", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 26 enriched.", "ts": "2026-11-16T19:01:16.269338+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "27", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 27 enriched.", "ts": "2026-11-16T19:01:37.407425+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "28", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 28 enriched.", "ts": "2026-11-16T19:02:03.644740+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "29", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 29 enriched.", "ts": "2026-11-16T19:02:25.982680+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "30", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 30 enriched.", "ts": "2026-11-16T19:02:49.633904+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "31", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 31 enriched.", "ts": "2026-11-16T19:03:14.189603+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "32", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 32 enriched.", "ts": "2026-11-16T19:03:39.961284+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "33", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 33 enriched.", "ts": "2026-11-16T19:04:01.460609+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "34", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 34 enriched.", "ts": "2026-11-16T19:04:22.833417+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "35", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 35 enriched.", "ts": "2026-11-16T19:04:45.767216+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "36", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 36 enriched.", "ts": "2026-11-16T19:05:08.911689+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "37", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 37 enriched.", "ts": "2026-11-16T19:05:32.958125+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "38", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 38 enriched.", "ts": "2026-11-16T19:05:59.861765+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "39", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 39 enriched.", "ts": "2026-11-16T19:06:26.569943+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "40", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 40 enriched.", "ts": "2026-11-16T19:06:49.356459+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "41", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 41 enriched.", "ts": "2026-11-16T19:07:11.626049+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "42", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 42 enriched.", "ts": "2026-11-16T19:07:37.044032+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "43", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 43 enriched.", "ts": "2026-11-16T19:08:00.712358+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "44", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 44 enriched.", "ts": "2026-11-16T19:08:26.547548+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "45", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 45 enriched.", "ts": "2026-11-16T19:08:47.551953+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "46", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 46 enriched.", "ts": "2026-11-16T19:09:11.276703+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "47", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 47 enriched.", "ts": "2026-11-16T19:09:32.135896+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "48", "title": "তেলের স্মৃতি", "message": "Chapter 48 enriched.", "ts": "2026-11-16T19:09:55.749794+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "49", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 49 enriched.", "ts": "2026-11-16T19:10:18.437521+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "50", "title": "তেলের স্মৃতি", "message": "Chapter 50 enriched.", "ts": "2026-11-16T19:10:40.282838+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "51", "title": "তেলের স্মৃতি", "message": "Chapter 51 enriched.", "ts": "2026-11-16T19:11:06.328468+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "52", "title": "তেলের স্মৃতি", "message": "Chapter 52 enriched.", "ts": "2026-11-16T19:11:34.618292+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "53", "title": "তেলের স্মৃতি", "message": "Chapter 53 enriched.", "ts": "2026-11-16T19:11:58.050713+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "54", "title": "তেলের স্মৃতি", "message": "Chapter 54 enriched.", "ts": "2026-11-16T19:12:20.261566+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "55", "title": "তেলের স্মৃতি", "message": "Chapter 55 enriched.", "ts": "2026-11-16T19:12:43.914576+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "56", "title": "তেলের স্মৃতি", "message": "Chapter 56 enriched.", "ts": "2026-11-16T19:13:07.839016+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "57", "title": "তেলের স্মৃতি", "message": "Chapter 57 enriched.", "ts": "2026-11-16T19:13:31.928323+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "58", "title": "তেলের স্মৃতি", "message": "Chapter 58 enriched.", "ts": "2026-11-16T19:13:53.373413+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "59", "title": "তেলের স্মৃতি", "message": "Chapter 59 enriched.", "ts": "2026-11-16T19:14:15.967453+00:00"}
+{"kind": "chapter_enriched", "bookname": "samosa", "chapter": "60", "title": "তেলের স্মৃতি", "message": "Chapter 60 enriched.", "ts": "2026-11-16T19:14:39.576244+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "1", "title": "সিঙ্গাড়া যেখানে ছিল ঘরের স্বাদ", "message": "Chapter 1 written (6049 chars).", "ts": "2026-11-16T19:15:45.013555+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "2", "title": "samosa — পর্ব 2 — samosa", "message": "Chapter 2 written (24641 chars).", "ts": "2026-11-16T19:18:48.770324+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "3", "title": "নামের পরিবর্তন: সিঙ্গাড়া থেকে সামোসা", "message": "Chapter 3 written (25453 chars).", "ts": "2026-11-16T19:21:52.993598+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "4", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 4 written (24070 chars).", "ts": "2026-11-16T19:24:53.482534+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "5", "title": "প্রথম প্রজন্মের স্মৃতি-সংরক্ষণ", "message": "Chapter 5 written (8174 chars).", "ts": "2026-11-16T19:26:01.181032+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "6", "title": "তেলের পরিবর্তন", "message": "Chapter 6 written (8060 chars).", "ts": "2026-11-16T19:27:19.186942+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "7", "title": "দ্বিতীয় প্রজন্মের দৃষ্টিকোণ", "message": "Chapter 7 written (9995 chars).", "ts": "2026-11-16T19:28:42.617344+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "8", "title": "ঘ্রাণ-স্মৃতির বিজ্ঞান ও কাব্যিকতা", "message": "Chapter 8 written (8976 chars).", "ts": "2026-11-16T19:30:06.444586+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "9", "title": "মশলার বিন্যাস", "message": "Chapter 9 written (9925 chars).", "ts": "2026-11-16T19:31:33.801706+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "10", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 10 written (5931 chars).", "ts": "2026-11-16T19:32:39.485166+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "11", "title": "পরিচয়ের দ্বিধা", "message": "Chapter 11 written (20567 chars).", "ts": "2026-11-16T19:34:54.542021+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "12", "title": "বাণিজ্যপথের স্মৃতি", "message": "Chapter 12 written (21827 chars).", "ts": "2026-11-16T19:37:32.290356+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "13", "title": "অপেক্ষা", "message": "Chapter 13 written (5847 chars).", "ts": "2026-11-16T19:38:27.418230+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "14", "title": "স্বীকৃতি বা প্রত্যাখ্যান", "message": "Chapter 14 written (23834 chars).", "ts": "2026-11-16T19:41:21.475432+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "15", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 15 written (23151 chars).", "ts": "2026-11-16T19:44:13.192726+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "16", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 16 written (19952 chars).", "ts": "2026-11-16T19:46:35.313913+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "17", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 17 written (28122 chars).", "ts": "2026-11-16T19:49:44.807967+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "18", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 18 written (21512 chars).", "ts": "2026-11-16T19:52:34.044078+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "19", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 19 written (27374 chars).", "ts": "2026-11-16T19:55:48.111910+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "20", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 20 written (22414 chars).", "ts": "2026-11-16T19:58:28.550983+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "21", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 21 written (21521 chars).", "ts": "2026-11-16T20:01:00.863727+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "22", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 22 written (20418 chars).", "ts": "2026-11-16T20:03:51.351488+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "23", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 23 written (21836 chars).", "ts": "2026-11-16T20:06:26.140834+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "24", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 24 written (23863 chars).", "ts": "2026-11-16T20:09:24.418207+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "25", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 25 written (23208 chars).", "ts": "2026-11-16T20:12:23.151497+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "26", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 26 written (25276 chars).", "ts": "2026-11-16T20:15:31.725240+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "27", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 27 written (25442 chars).", "ts": "2026-11-16T20:18:36.929635+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "28", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 28 written (24481 chars).", "ts": "2026-11-16T20:21:35.301920+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "29", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 29 written (25078 chars).", "ts": "2026-11-16T20:24:41.898275+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "30", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 30 written (25281 chars).", "ts": "2026-11-16T20:28:01.189156+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "31", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 31 written (4862 chars).", "ts": "2026-11-16T20:28:53.147993+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "32", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 32 written (21059 chars).", "ts": "2026-11-16T20:31:31.325952+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "33", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 33 written (22893 chars).", "ts": "2026-11-16T20:34:21.476702+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "34", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 34 written (23251 chars).", "ts": "2026-11-16T20:37:12.040655+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "35", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 35 written (23368 chars).", "ts": "2026-11-16T20:40:10.669157+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "36", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 36 written (19511 chars).", "ts": "2026-11-16T20:42:15.433584+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "37", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 37 written (23897 chars).", "ts": "2026-11-16T20:45:05.910450+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "38", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 38 written (22701 chars).", "ts": "2026-11-16T20:47:35.723463+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "39", "title": "চূড়ান্ত স্বাদ", "message": "Chapter 39 written (21699 chars).", "ts": "2026-11-16T20:50:35.280197+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "40", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 40 written (23389 chars).", "ts": "2026-11-16T20:53:35.893774+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "41", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 41 written (21696 chars).", "ts": "2026-11-16T20:56:18.240590+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "42", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 42 written (24018 chars).", "ts": "2026-11-16T20:59:17.463497+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "43", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 43 written (4946 chars).", "ts": "2026-11-16T21:00:10.552124+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "44", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 44 written (21509 chars).", "ts": "2026-11-16T21:02:48.371960+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "45", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 45 written (18340 chars).", "ts": "2026-11-16T21:05:10.684508+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "46", "title": "প্রবাসের বাজারের দৃশ্যপট", "message": "Chapter 46 written (24230 chars).", "ts": "2026-11-16T21:08:24.467591+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "47", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 47 written (22774 chars).", "ts": "2026-11-16T21:11:15.956492+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "48", "title": "তেলের স্মৃতি", "message": "Chapter 48 written (21719 chars).", "ts": "2026-11-16T21:14:00.043638+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "49", "title": "অসমাপ্ত স্বাদ", "message": "Chapter 49 written (21097 chars).", "ts": "2026-11-16T21:16:32.022950+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "50", "title": "তেলের স্মৃতি", "message": "Chapter 50 written (22860 chars).", "ts": "2026-11-16T21:19:18.152916+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "51", "title": "তেলের স্মৃতি", "message": "Chapter 51 written (22004 chars).", "ts": "2026-11-16T21:22:13.486406+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "52", "title": "তেলের স্মৃতি", "message": "Chapter 52 written (19113 chars).", "ts": "2026-11-16T21:24:46.860948+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "53", "title": "তেলের স্মৃতি", "message": "Chapter 53 written (22835 chars).", "ts": "2026-11-16T21:27:45.520372+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "54", "title": "তেলের স্মৃতি", "message": "Chapter 54 written (23055 chars).", "ts": "2026-11-16T21:30:44.751760+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "55", "title": "তেলের স্মৃতি", "message": "Chapter 55 written (19789 chars).", "ts": "2026-11-16T21:33:23.828049+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "56", "title": "তেলের স্মৃতি", "message": "Chapter 56 written (23170 chars).", "ts": "2026-11-16T21:36:24.047712+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "57", "title": "তেলের স্মৃতি", "message": "Chapter 57 written (20428 chars).", "ts": "2026-11-16T21:38:59.837628+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "58", "title": "তেলের স্মৃতি", "message": "Chapter 58 written (19644 chars).", "ts": "2026-11-16T21:41:28.861848+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "59", "title": "তেলের স্মৃতি", "message": "Chapter 59 written (22230 chars).", "ts": "2026-11-16T21:44:28.297872+00:00"}
+{"kind": "chapter_written", "bookname": "samosa", "chapter": "60", "title": "তেলের স্মৃতি", "message": "Chapter 60 written (21064 chars).", "ts": "2026-11-16T21:47:03.412853+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "1", "title": "sonali — পর্ব 1 — sonali", "message": "Chapter 1 enriched.", "ts": "2026-11-16T21:47:45.620764+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "2", "title": "sonali — পর্ব 2 — sonali", "message": "Chapter 2 enriched.", "ts": "2026-11-16T21:48:06.990537+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "3", "title": "sonali — পর্ব 3 — sonali", "message": "Chapter 3 enriched.", "ts": "2026-11-16T21:48:31.175515+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "4", "title": "sonali — পর্ব 4 — sonali", "message": "Chapter 4 enriched.", "ts": "2026-11-16T21:48:55.926416+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "5", "title": "স্বর্গীয় আনন্দের প্রথম ঝলক", "message": "Chapter 5 enriched.", "ts": "2026-11-16T21:49:17.889551+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "6", "title": "sonali — পর্ব 6 — sonali", "message": "Chapter 6 enriched.", "ts": "2026-11-16T21:49:42.398349+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "7", "title": "sonali — পর্ব 7 — sonali", "message": "Chapter 7 enriched.", "ts": "2026-11-16T21:50:06.487101+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "8", "title": "sonali — পর্ব 8 — sonali", "message": "Chapter 8 enriched.", "ts": "2026-11-16T21:50:28.059665+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "9", "title": "sonali — পর্ব 9 — sonali", "message": "Chapter 9 enriched.", "ts": "2026-11-16T21:50:48.192338+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "10", "title": "sonali — পর্ব 10 — sonali", "message": "Chapter 10 enriched.", "ts": "2026-11-16T21:51:08.403103+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "11", "title": "আত্মার সঙ্গে দেহের সংলাপ", "message": "Chapter 11 enriched.", "ts": "2026-11-16T21:51:30.783133+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "12", "title": "সোনালী রঙ", "message": "Chapter 12 enriched.", "ts": "2026-11-16T21:51:48.482170+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "13", "title": "অস্তিত্বের ভঙ্গুরতা", "message": "Chapter 13 enriched.", "ts": "2026-11-16T21:52:09.963069+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "14", "title": "মুক্তি বা আত্মসমর্পণ?", "message": "Chapter 14 enriched.", "ts": "2026-11-16T21:52:39.601545+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "15", "title": "চূড়ান্ত জিজ্ঞাসা", "message": "Chapter 15 enriched.", "ts": "2026-11-16T21:52:59.908804+00:00"}
+{"kind": "chapter_enriched", "bookname": "sonali", "chapter": "16", "title": "চূড়ান্ত জিজ্ঞাসা", "message": "Chapter 16 enriched.", "ts": "2026-11-16T21:53:19.008333+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "1", "title": "sonali — পর্ব 1 — sonali", "message": "Chapter 1 written (25328 chars).", "ts": "2026-11-16T21:56:18.800442+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "2", "title": "sonali — পর্ব 2 — sonali", "message": "Chapter 2 written (22120 chars).", "ts": "2026-11-16T21:58:27.120879+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "3", "title": "sonali — পর্ব 3 — sonali", "message": "Chapter 3 written (24791 chars).", "ts": "2026-11-16T22:01:13.917561+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "4", "title": "sonali — পর্ব 4 — sonali", "message": "Chapter 4 written (28594 chars).", "ts": "2026-11-16T22:04:29.468926+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "5", "title": "স্বর্গীয় আনন্দের প্রথম ঝলক", "message": "Chapter 5 written (23224 chars).", "ts": "2026-11-16T22:07:01.299958+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "6", "title": "sonali — পর্ব 6 — sonali", "message": "Chapter 6 written (24796 chars).", "ts": "2026-11-16T22:09:37.861104+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "7", "title": "sonali — পর্ব 7 — sonali", "message": "Chapter 7 written (7989 chars).", "ts": "2026-11-16T22:10:33.580696+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "8", "title": "sonali — পর্ব 8 — sonali", "message": "Chapter 8 written (23013 chars).", "ts": "2026-11-16T22:13:02.957493+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "9", "title": "sonali — পর্ব 9 — sonali", "message": "Chapter 9 written (26472 chars).", "ts": "2026-11-16T22:15:49.687830+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "10", "title": "sonali — পর্ব 10 — sonali", "message": "Chapter 10 written (22662 chars).", "ts": "2026-11-16T22:18:21.535805+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "11", "title": "আত্মার সঙ্গে দেহের সংলাপ", "message": "Chapter 11 written (22329 chars).", "ts": "2026-11-16T22:20:38.492713+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "12", "title": "সোনালী রঙ", "message": "Chapter 12 written (21776 chars).", "ts": "2026-11-16T22:23:15.458493+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "13", "title": "অস্তিত্বের ভঙ্গুরতা", "message": "Chapter 13 written (22894 chars).", "ts": "2026-11-16T22:26:02.254819+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "14", "title": "মুক্তি বা আত্মসমর্পণ?", "message": "Chapter 14 written (21943 chars).", "ts": "2026-11-16T22:28:22.180466+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "15", "title": "চূড়ান্ত জিজ্ঞাসা", "message": "Chapter 15 written (25333 chars).", "ts": "2026-11-16T22:31:17.727797+00:00"}
+{"kind": "chapter_written", "bookname": "sonali", "chapter": "16", "title": "চূড়ান্ত জিজ্ঞাসা", "message": "Chapter 16 written (25484 chars).", "ts": "2026-11-16T22:34:05.943311+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "1", "title": "জাফর: এর কবিতা — পর্ব 1: প্রাথমিক সার্বভৌমত্ব", "message": "Chapter 1 enriched.", "ts": "2026-11-16T22:34:45.570983+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "2", "title": "ক্ষমতার আনুষ্ঠানিক হস্তান্তর এবং বৃত্তির আগমন", "message": "Chapter 2 enriched.", "ts": "2026-11-16T22:35:22.353970+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "3", "title": "দিওয়ান-ই-খাসের মুশায়েরা এবং গালিবের সান্নিধ্য", "message": "Chapter 3 enriched.", "ts": "2026-11-16T22:35:49.420918+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "4", "title": "১৮৫৭-এর বিদ্রোহের স্ফুলিঙ্গ", "message": "Chapter 4 enriched.", "ts": "2026-11-16T22:36:18.670983+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "5", "title": "পুত্রহত্যা ও নীরবতা", "message": "Chapter 5 enriched.", "ts": "2026-11-16T22:36:48.244681+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "6", "title": "হুমায়ুনের সমাধিতে আশ্রয়", "message": "Chapter 6 enriched.", "ts": "2026-11-16T22:37:15.054492+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "7", "title": "রেঙ্গুনে যাত্রা", "message": "Chapter 7 enriched.", "ts": "2026-11-16T22:37:39.028461+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "8", "title": "রেঙ্গুনের ক্যান্টনমেন্টের কাঠের কুঠুরি", "message": "Chapter 8 enriched.", "ts": "2026-11-16T22:38:05.169143+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "9", "title": "কাব্যিক প্রতিরোধ এবং কাঠকয়লায় লেখা শেষ বার্তা", "message": "Chapter 9 enriched.", "ts": "2026-11-16T22:38:28.836442+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "10", "title": "ব্রিটিশ নথির শীতল বাস্তবতা", "message": "Chapter 10 enriched.", "ts": "2026-11-16T22:38:58.082046+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "11", "title": "গালিবের স্মৃতি ও কাব্যিক উত্তরাধিকার", "message": "Chapter 11 enriched.", "ts": "2026-11-16T22:39:29.977927+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "12", "title": "মৃত্যুর নিকটবর্তী সময়ে তাঁর শেষ উপলব্ধি", "message": "Chapter 12 enriched.", "ts": "2026-11-16T22:39:50.409468+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "13", "title": "কবরের জন্য দুই গজ মাটি না পাওয়া", "message": "Chapter 13 enriched.", "ts": "2026-11-16T22:40:14.624124+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "14", "title": "ক্যাপ্টেন নেলসন ডেভিসের রিপোর্ট: \"Not a trace remains\"", "message": "Chapter 14 enriched.", "ts": "2026-11-16T22:40:40.104168+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "15", "title": "জাফরের কাব্যিক উত্তরাধিকারের পুনর্জন্ম", "message": "Chapter 15 enriched.", "ts": "2026-11-16T22:40:59.755754+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "16", "title": "জাফর: এর কবিতা (চূড়ান্ত উপসংহার)", "message": "Chapter 16 enriched.", "ts": "2026-11-16T22:41:28.311184+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "17", "title": "জাফর: এর কবিতা", "message": "Chapter 17 enriched.", "ts": "2026-11-16T22:41:58.207111+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "18", "title": "চূড়ান্ত অনুরণন: শব্দের অমরত্ব", "message": "Chapter 18 enriched.", "ts": "2026-11-16T22:42:27.392625+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "19", "title": "চূড়ান্ত উপসংহার—জাফরের কাব্যিক উত্তরাধিকারের পুনর্জন্ম", "message": "Chapter 19 enriched.", "ts": "2026-11-16T22:42:54.126289+00:00"}
+{"kind": "chapter_enriched", "bookname": "zafar", "chapter": "20", "title": "চূড়ান্ত উপসংহার—জাফরের কাব্যিক উত্তরাধিকারের পুনর্জন্ম", "message": "Chapter 20 enriched.", "ts": "2026-11-16T22:43:22.539297+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "1", "title": "জাফর: এর কবিতা — পর্ব 1: প্রাথমিক সার্বভৌমত্ব", "message": "Chapter 1 written (28639 chars).", "ts": "2026-11-16T22:47:04.110305+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "2", "title": "ক্ষমতার আনুষ্ঠানিক হস্তান্তর এবং বৃত্তির আগমন", "message": "Chapter 2 written (29588 chars).", "ts": "2026-11-16T22:50:39.988954+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "3", "title": "দিওয়ান-ই-খাসের মুশায়েরা এবং গালিবের সান্নিধ্য", "message": "Chapter 3 written (29731 chars).", "ts": "2026-11-16T22:54:35.619331+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "4", "title": "১৮৫৭-এর বিদ্রোহের স্ফুলিঙ্গ", "message": "Chapter 4 written (27131 chars).", "ts": "2026-11-16T22:57:49.671779+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "5", "title": "পুত্রহত্যা ও নীরবতা", "message": "Chapter 5 written (24329 chars).", "ts": "2026-11-16T23:00:28.878721+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "6", "title": "হুমায়ুনের সমাধিতে আশ্রয়", "message": "Chapter 6 written (25021 chars).", "ts": "2026-11-16T23:03:30.086992+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "7", "title": "রেঙ্গুনে যাত্রা", "message": "Chapter 7 written (29631 chars).", "ts": "2026-11-16T23:06:53.962123+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "8", "title": "রেঙ্গুনের ক্যান্টনমেন্টের কাঠের কুঠুরি", "message": "Chapter 8 written (26151 chars).", "ts": "2026-11-16T23:09:56.546165+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "9", "title": "কাব্যিক প্রতিরোধ এবং কাঠকয়লায় লেখা শেষ বার্তা", "message": "Chapter 9 written (28017 chars).", "ts": "2026-11-16T23:13:10.812984+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "10", "title": "ব্রিটিশ নথির শীতল বাস্তবতা", "message": "Chapter 10 written (29850 chars).", "ts": "2026-11-16T23:16:39.314826+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "11", "title": "গালিবের স্মৃতি ও কাব্যিক উত্তরাধিকার", "message": "Chapter 11 written (23895 chars).", "ts": "2026-11-16T23:19:14.699453+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "12", "title": "মৃত্যুর নিকটবর্তী সময়ে তাঁর শেষ উপলব্ধি", "message": "Chapter 12 written (27232 chars).", "ts": "2026-11-16T23:22:29.119868+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "13", "title": "কবরের জন্য দুই গজ মাটি না পাওয়া", "message": "Chapter 13 written (25433 chars).", "ts": "2026-11-16T23:25:30.524859+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "14", "title": "ক্যাপ্টেন নেলসন ডেভিসের রিপোর্ট: \"Not a trace remains\"", "message": "Chapter 14 written (28816 chars).", "ts": "2026-11-16T23:28:56.506853+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "15", "title": "জাফরের কাব্যিক উত্তরাধিকারের পুনর্জন্ম", "message": "Chapter 15 written (27005 chars).", "ts": "2026-11-16T23:32:15.155698+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "16", "title": "জাফর: এর কবিতা (চূড়ান্ত উপসংহার)", "message": "Chapter 16 written (32568 chars).", "ts": "2026-11-16T23:35:50.673039+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "17", "title": "জাফর: এর কবিতা", "message": "Chapter 17 written (29976 chars).", "ts": "2026-11-16T23:39:13.948850+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "18", "title": "চূড়ান্ত অনুরণন: শব্দের অমরত্ব", "message": "Chapter 18 written (28100 chars).", "ts": "2026-11-16T23:42:32.583927+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "19", "title": "চূড়ান্ত উপসংহার—জাফরের কাব্যিক উত্তরাধিকারের পুনর্জন্ম", "message": "Chapter 19 written (27370 chars).", "ts": "2026-11-16T23:45:40.603089+00:00"}
+{"kind": "chapter_written", "bookname": "zafar", "chapter": "20", "title": "চূড়ান্ত উপসংহার—জাফরের কাব্যিক উত্তরাধিকারের পুনর্জন্ম", "message": "Chapter 20 written (28603 chars).", "ts": "2026-11-16T23:48:51.122449+00:00"}

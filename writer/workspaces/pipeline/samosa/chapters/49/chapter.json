@@ -1,54 +1,119 @@
 {
   "chapter_index": 49,
   "name": "49",
-  "word_target": 250,
-  "chapter_title": "চেনা গন্ধে চোখ ভিজে যায়",
-  "chapter_summary": "চেনা গন্ধে চোখ ভিজে যায়, আর হাত নিজে থেকেই ময়দা ধরতে চায়। ঘর কখনও ঠিকানা বদলায় না, শুধু অভ্যর্থনা বদলায়।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "অসমাপ্ত স্বাদ",
+  "chapter_summary": "এই অধ্যায়টি সেই গভীর শূন্যতাকে অনুসন্ধান করে যা সামোসাটি শেষ হওয়ার পরেও জিভে থেকে যায়। এটি কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতির প্রতীকী চিত্রায়ণ। কবি এখানে সেই 'মধুর বিষাদ'-এর মুহূর্তটিকে ধরে ফেলেন, যেখানে জিভের স্মৃতি একটি অসম্পূর্ণ অনুরণন হয়ে থেকে যায়। প্রশ্নটি হলো—স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা আত্মার গভীরে ভাজা এক অবিচ্ছেদ্য মানবিক অভিজ্ঞতা?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "শূন্যতার শেষ ফোঁটা",
+      "segment_summary": "সামোসাটির শেষ কামড়টি গিলে ফেলার পরেও জিভে লেগে থাকা সেই অমলিন শূন্যতা বর্ণনা করা হয়, যা কোনো সাধারণ খাদ্যের সমাপ্তি নয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অনুরণনের স্থায়িত্ব",
+      "segment_summary": "এই শূন্যতাটি কেবল ক্ষণস্থায়ী নয়; এটি স্মৃতির মতো জিভের গভীরে স্থায়ীভাবে অনুরণিত হয়, যা অতীতকে বর্তমানের সঙ্গে সংযুক্ত রাখে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "জীবনযাত্রার অনুপস্থিতি",
+      "segment_summary": "এই স্বাদহীন শূন্যতা আসলে একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি—সেই উষ্ণ, পরিচিত পরিবেশের অভাব যা সিঙ্গাড়া বহন করত।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "আত্মার ভাজা স্মৃতি",
+      "segment_summary": "কবি যুক্তি দেন যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা রাসায়নিক বিশ্লেষণের ঊর্ধ্বে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অসম্পূর্ণতার কাব্যিকতা",
+      "segment_summary": "এই কাব্যিক মুহূর্তটিই প্রমাণ করে যে, কিছু আকাঙ্ক্ষা পূর্ণতা লাভ করে না, বরং অসম্পূর্ণতাই তার গভীরতম রূপ ধারণ করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অপেক্ষা ও অনুরণন",
+      "segment_summary": "এই শূন্যতাটিই পরবর্তী নিখুঁত সিঙ্গাড়া বা সামোসাটির জন্য এক নীরব, তীব্র আকাঙ্ক্ষার জন্ম দেয়, যা অপেক্ষার জন্ম দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "স্বাদের দার্শনিক প্রশ্ন",
+      "segment_summary": "এই অধ্যায়টি স্বাদকে কেবল পুষ্টির উৎস হিসেবে না দেখে, তাকে মানবিক অভিজ্ঞতার একটি দার্শনিক কেন্দ্রবিন্দু হিসেবে প্রতিষ্ঠা করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "চিরন্তন বিষাদ",
+      "segment_summary": "চূড়ান্ত অনুরণনটি এক মধুর বিষাদের জন্ম দেয়, যা পাঠককে এই দ্বৈত জীবনের অনন্ত অপেক্ষার প্রতিচ্ছবিতে স্থির করে রাখে।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on how a specific domestic scent (e.g., ghee mixed with coriander) acts as a localized temporal anchor, momentarily suspending the modernity of the new address.",
-      "Adopting the persona of the 'smell' itself—a fugitive entity traversing borders and houses, mourning the loss of its originating source.",
-      "Treating the memory-trigger scent not just as nostalgia, but as an unexpected, disruptive chemical agent that forces an immediate, visceral confrontation with self."
+      "Treating the lingering flavor residue not as a ghost of taste, but as an actual, tangible pollutant that coats the tongue like fine dust (ধুল).",
+      "Framing the silence after eating as a moment where all linguistic effort collapses; words become meaningless sounds echoing off the palate.",
+      "Shifting perspective entirely to 'The Samosa' itself in its final moments—feeling the collapse of its internal structure and witnessing its fading cultural resonance."
     ],
     "story_options": [
-      "Setting: A contemporary, unfamiliar hallway; Desire: To recognize the specific, familiar aroma clinging to a coat left behind by a relative, obstacle: the new wallpaper stubbornly masking true scents.",
-      "Setting: The cold metal of an urban balcony railing at dusk; Desire: For the first faint trace of smoke from the old Bengali cooking fire carried on the wind, obstacle: the prevailing, foreign industrial exhaust.",
-      "Setting: An unfamiliar spice rack in a market stall; Desire: To find one single jar whose dried powder—perhaps cumin or fenugreek—retains a ghostly echo of its ancestral preparation method, obstacle: the standardization and commercial dilution of ingredients."
+      "Setting: A worn, inherited travel tin (টিফিন) on a bare counter; Desire: To find one single crumb that retains the original spice profile; Obstacle: The wrapper has absorbed all ambient foreign smells; Turn: 'I' realize the crumb is now just inert grease.",
+      "Setting: An empty street corner where the vendor used to sit at midnight; Desire: To conjure the sound of the *koraai* while it was hot, contrasting against current stillness; Obstacle: The only sound present is a distant traffic hum (English/market noise); Turn: 'I' accept that silence itself has become the new local flavor.",
+      "Setting: A modern bathroom sink reflecting harsh overhead light; Desire: To see the traces of oil washing down the drain—a physical metaphor for unrecoverable cultural runoff; Obstacle: The water runs too quickly, scattering the evidence before it can be examined; Turn: 'I' start washing away with deliberate, painful slowness."
     ],
     "subject_rotations": [
-      "Examining how the act of 'recognizing' a scent paradoxically proves that nothing is fully recognized; the familiar smell becomes slightly askew.",
-      "Shifting focus from the food (Samosa/Singara) to the raw components—the specific way the flour absorbs oil, making it an allegory for cultural absorption versus preservation.",
-      "Treating memory not as a treasure chest but as a leaky container: how strong sensory input allows glimpses of the past while simultaneously revealing its inevitable decay."
+      "Focusing solely on the *anticipatory* quality of the void—how the absence creates a vacuum that demands an impossible past.",
+      "Exploring the texture of memory itself: is it soft like the inner potato filling, or brittle like old parchment?",
+      "Deconstructing the 'sweet melancholy' into quantifiable moments of cognitive dissonance between expectation and reality."
     ],
     "sensory_details": [
-      "The specific granular texture felt on the tongue when tasting residual, faint oil residue from years-old memory.",
-      "The high, thin, almost inaudible hum of a modern refrigerator motor contrasting with the deep, organic crackle of ancient cooking fats.",
-      "The visual dissonance between the harsh glare of fluorescent kitchen lighting and the remembered soft amber glow of an old gas lamp."
+      "Tactile: The slick, almost waxy film left on the palate where the spice should have been.",
+      "Gustatory: The metallic flatness that replaces rich umami sensation.",
+      "Auditory: The sudden, profound lack of chewing sound following the final bite."
     ],
     "research_questions": [
-      "How might Bengali poetic diction articulate the sensation of a highly specific, layered scent profile fading into a generalized, unidentifiable 'memory smell'?",
-      "What rhetorical strategies can be employed to maintain the unity of narrative focus (the single thread/sound) while traversing disparate physical locations?"
+      "What are specific colloquial Bengali phrases used to describe a feeling of unfulfilled appetite or lingering emptiness?",
+      "How does the cadence of Jibran/Orillas align with describing absolute sensory deprivation?"
     ],
     "structural_variants": [
-      "An anapestic cascade structure emphasizing breathless recognition and emotional overflow.",
-      "A fractured, stanzaic form where key sensory words appear isolated in their own short lines before the main narrative reassembles them."
+      "A highly fragmented, list-like structure mirroring chemical decomposition.",
+      "An extended use of parallelism where every positive memory is immediately counterbalanced by its muted translation."
     ],
     "unused_angles": [
-      "The role of silence after a strong scent memory fades—the vacuum left by absolute recall.",
-      "Interrogating whether one can 're-learn' an aroma; is it a learned skill or an innate biological imprint?",
-      "Using the sound of domestic life (e.g., rhythmic chopping, boiling) as a counterpoint to the silent olfactory intrusion."
+      "How the 'I' attempts to substitute the lost taste with an artificial modern equivalent (e.g., commercial spices), and how this fails spectacularly.",
+      "A brief, highly abstract moment where time seems to fold in on itself specifically around the sensation of aftertaste."
     ],
-    "variety_note": "Unlike the focus on physical transition in preceding chapters, this piece roots itself entirely in a singular, persistent sensory moment: scent, using it as the tether between geography and psyche."
+    "variety_note": "Unlike neighbour chapters focused externally on market clutter or ingredient substitution, this chapter turns entirely inward, meditating exclusively on the residue—the philosophical weight and silence left *after* consumption."
   },
   "draft": {
-    "sha256": "0cf2199011a3bcc9de59291ea7b6961eea17dede61e6717375c6adacd8148a47",
-    "written_at": "2026-11-01T08:28:01.124184+00:00",
+    "sha256": "d9a1964a01bfd7b7b892bed2be5d3fd8961e27e188c3fe9c259a874189b8e897",
+    "written_at": "2026-11-16T21:16:31.883079+00:00",
     "origin": "write"
   }
 }

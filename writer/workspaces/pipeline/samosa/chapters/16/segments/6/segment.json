@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য সংযোগ",
+  "segment_summary": "প্রবাসের ধূসর পটভূমিতেও, সেই আদি সিঙ্গাড়া-র উষ্ণতা একটি অদৃশ্য, কিন্তু শক্তিশালী সংযোগ বজায় রাখে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring finality through negation: The poem builds toward an absolute lack, where 'not-taste' becomes its own dense, almost substantial presence.",
+    "story_option": "Setting: A solitary moment looking out at urban sprawl from high floor window (skyscrapers); Desire: To perceive every distant light as a fragmented memory point of a village fire/chulha; Obstacle: Recognizing that the city lights offer only dazzling imitation, devoid of elemental heat.",
+    "subject_rotation": "The taste/lack-of-taste as a moral compass: A judge deciding that pure existence without authentic flavor is incomplete.",
+    "sensory_detail": "Touch: The thin, slick residue on a finger after attempting to recall the buttery coating of old ghee.",
+    "research_question": "What specific syntax will best convey the philosophical weight when discussing taste as a non-physical entity?",
+    "structural_variant": "A poem structured around escalating rhetorical questions, leading to no definitive answer but profound implication.",
+    "variety_note": "This chapter moves away from describing the *process* (cooking, traveling) to analyzing the *aftermath*—the metaphysical residue left on the palate and soul."
+  }
+}

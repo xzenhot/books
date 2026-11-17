@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সীমার ঊর্ধ্বে",
+  "segment_summary": "সে শারীরিক ও আধ্যাত্মিক সীমার মধ্যেকার সূক্ষ্ম রেখাকে অতিক্রম করার চেষ্টা করে, যেখানে উভয়ই মিশে যায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the perspective of the 'unanswered question' itself—giving it agency within the poem to observe Sonali's exhaustion.",
+    "story_option": "Setting: A threshold between two rooms—one filled with vibrant life, the other in profound shadow; Desire: To remain motionless precisely on the dividing line, refusing either space; Obstacle: The physical strain of suspended being.",
+    "subject_rotation": "Analyzing 'eternal query' not through philosophy but through the lens of inherited Bengali cultural mythos concerning cyclical searching.",
+    "sensory_detail": "The smell of cooled linseed oil mixed with old camphor from storage boxes nearby.",
+    "research_question": "How can the concept of 'visual fading' (like light on a fresco) be conveyed in rich poetic diction without relying solely on the word 'faded'?",
+    "structural_variant": "Employing abrupt shifts between intensely dense, claustrophobic internal monologue and vast, open-field imagery.",
+    "variety_note": "Unlike the previous chapters which focused on the act of searching, this final chapter focuses entirely on the *persistence* and paradoxical nature of the search itself, treating the question as a solid, weighty entity."
+  }
+}

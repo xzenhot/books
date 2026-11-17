@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "প্রকৃতির প্রতিচ্ছবি",
+  "segment_summary": "বাইরের প্রকৃতির শান্ত দৃশ্যগুলোও লেখকের চোখে কেবল একটি 'ফিল্টার' হয়ে ওঠে, যা স্ক্রিনের উজ্জ্বলতার সঙ্গে পাল্লা দিতে ব্যর্থ।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Analyzing the concept of 'silence' not as absence, but as a specific high-frequency noise filtered out by modern connectivity.",
+    "story_option": "Setting: Beside an old wooden door that has not been opened for days; Desire: To allow time to settle without external input; Obstacle: A sudden, vivid internal monologue forced by the lack of external stimulus.",
+    "subject_rotation": "Framing the digital barrier not against nature, but against another human gaze that is equally mediated.",
+    "sensory_detail": "The rough grain of untreated wood beneath fingertips seeking friction instead of glass smoothness.",
+    "research_question": "Does literary tradition offer a specific symbol for mediated absence that doesn't rely on electrical metaphors?",
+    "structural_variant": "Structuring it as an internal monologue interrupted by simulated AI 'suggestion boxes' appearing and vanishing.",
+    "variety_note": "This chapter deliberately pivots from the outward societal critique seen in earlier segments to an intensely internalized, somatic exploration of mediated absence and its physical manifestations."
+  }
+}

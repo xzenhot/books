@@ -365,9 +365,19 @@ public static class QuestPdfExport
                                 break;
 
                             case PageGroupRole.Index:
-                                // The index is built from the contents of the book, which the export
-                                // does not fill in yet: its pages are reserved now and print blank.
-                                Compose(partSetup, column => WriteReservedPages(column, IndexPageCount));
+                                // The index is written from the chapters of the book by the setup
+                                // window, so the pages of the folder are printed where they are. A
+                                // book whose index was never built prints the pages the export
+                                // reserves for it, and the empty sheets kept after them.
+                                if (Designs(book.FolderPath, group) is { Count: > 0 } index)
+                                {
+                                    Compose(partSetup, column => WriteDesigns(column, index, partSetup, documentSize));
+                                }
+                                else
+                                {
+                                    Compose(partSetup, column => WriteReservedPages(column, IndexPageCount));
+                                }
+
                                 PrintBlanks(group, partSetup);
                                 break;
 

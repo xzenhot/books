@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ ভাজা",
+  "segment_summary": "এই সমাপ্তিটি কোনো পরিপূর্ণতা নয়, বরং একটি 'অনুবাদিত' স্বাদের প্রতিচ্ছবি, যা তার আদি রূপের কাছাকাছি পৌঁছাতে ব্যর্থ হয়েছে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the lingering taste not as nostalgia (past focus) but as existential tension (present force), resisting definition by any descriptor.",
+    "story_option": "Setting: An empty serving dish left on a windowsill overlooking endless concrete; Desire: To project the scent of the original ghee/tel onto this barren surface through focused mental will; Obstacle: The persistent, sterile smell of manufactured dust in the new city air.",
+    "subject_rotation": "Examining how the act of remembering tastes becomes a highly specialized form of 'language' practiced solely by the diaspora self.",
+    "sensory_detail": "A brief, phantom sensation of cold metal against the palate immediately following the warmth of the fried pastry.",
+    "research_question": "How can I poetically describe the dissonance between high Sanskritized diction and very basic, street-level vocabulary (like 'packet') without disrupting the mandated cadence?",
+    "structural_variant": "Adopting a reversed chronology: starting with the absolute zenith of the original flavor and systematically detailing its gradual sensory degradation until nothing remains.",
+    "variety_note": "This chapter pivots away from mapping geographical loss (like earlier chapters) to dissecting ontological residue—the profound philosophical implications of what remains *after* the consumption event has concluded."
+  }
+}

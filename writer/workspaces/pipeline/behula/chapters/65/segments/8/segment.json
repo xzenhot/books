@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 65,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চূড়ান্ত উপলব্ধির মুহূর্ত",
+  "segment_summary": "এই সমাপ্তি পাঠককে এক মিশ্র অনুভূতির গভীরে নিয়ে যায়—গভীর করুণা এবং অপ্রতিরোধ্য অনুপ্রেরণার তীব্র স্রোত।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The weight of memory vs. relief: Treating the returned husband not just as joy's bearer, but also as the living embodiment of all past pain.",
+    "story_option": "Setting: Within the old family hearth (যেখানে সব কষ্ট আগুনে পুড়েছিল); Desire: To witness the fire settling into a constant, unquenchable ember; Obstacle: The shadow of her prior solitary vigils.",
+    "subject_rotation": "Focusing on the duality of 'victory'—how personal triumph necessitates acknowledging the inherent sorrow it was built upon.",
+    "sensory_detail": "The specific, resonant hum felt deep in the bones during a moment of absolute stillness following immense turmoil (sound).",
+    "research_question": "What established Bengali literary trope symbolizes a resolution that is both complete (finality) and perpetually open to interpretation? What word or image captures this dual nature?",
+    "structural_variant": "Spiral Structure: Beginning with a moment of restored harmony, spiraling back through fragmented memories of trial before achieving a final, higher state of calm.",
+    "variety_note": "This chapter shifts focus entirely from the external battle against societal cruelty to the internal resonance of achieved resolution, demanding a lyrical quietude following previous high-intensity struggle segments."
+  }
+}

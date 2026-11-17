@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রথম প্রজন্মের অঙ্গীকার",
+  "segment_summary": "এই প্রজন্ম খাদ্যকে একটি সাংস্কৃতিক অঙ্গীকার হিসেবে দেখে, যা প্রজন্ম থেকে প্রজন্মান্তরে বহন করার এক নীরব প্রচেষ্টা।",
+  "name": "5.5",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus from the *taste* to the *sound* made during preparation—the sharp snap of sealing the pastry vs. the dull thud of foreign utensils.",
+    "story_option": "Setting: Early morning before the market wakes up; Desire: To capture the precise temperature of the oil right before it reaches its ideal state; Obstacle: A sudden draft carries an external, unfamiliar scent that corrupts the nascent aroma.",
+    "subject_rotation": "Viewing the samosa batch not as a product, but as a temporal artifact; each one marking a passage of time since departure.",
+    "sensory_detail": "The specific, almost acrid smell of a binding agent failing or breaking down in transit, suggesting loss even before frying begins.",
+    "research_question": "How can I use Tatsama/Purano Bangla vocabulary to describe the act of 'holding' a scent or flavor so that it doesn't immediately dissipate, adhering strictly to the dictated word proportions?",
+    "structural_variant": "A highly metric section where all lines are forced into a rigid 10-word count, mimicking constraint and tradition.",
+    "variety_note": "This chapter deepens the focus on provenance and manual labor, shifting from the grand journey (Chapter 2) to the highly localized, painstaking act of creation itself, emphasizing ancestry via touch."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অনন্ত জিজ্ঞাসার জন্ম",
+  "segment_summary": "এই অধ্যায়টি কোনো সমাপ্তি দেয় না, বরং একটি নতুন, আরও গভীর জিজ্ঞাসা সৃষ্টি করে যা পাঠককে অনুসরণ করতে বাধ্য করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating 'questioning' itself as an act of intense physicality: leaning into doubt until it becomes almost painful, like stretching beyond skeletal limits.",
+    "story_option": "Setting: Near a specific object—a heavily tarnished silver locket she does not possess; Desire: To project her deepest unresolved question onto its imagined surface; Obstacle: Her own reflection mocking the unanswered yearning.",
+    "subject_rotation": "Re-examining 'boldness' not as an aggressive stance, but as the profound courage required simply to remain open while eternally unanswered.",
+    "sensory_detail": "A low, infrasonic vibration felt not through hearing, but through the bones beneath the skin (Auditory/Internal).",
+    "research_question": "How can Bengali poetic vocabulary convey a state that is simultaneously profoundly present and utterly absent? (i.e., a perfect echo vs. silence)",
+    "structural_variant": "A recursive structure, where each segment begins by quoting or rephrasing the preceding segment’s central question.",
+    "variety_note": "This chapter moves entirely beyond resolution toward sustained inquiry; unlike its neighbours which explored decay or decision points, this segment is defined by perpetual resonance and the act of asking itself."
+  }
+}

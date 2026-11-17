@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "সহিষ্ণুতার অগ্নিশিখা",
+  "segment_summary": "এই প্রতিকূলতার মাঝেও বেহুলার ভেতরের অগ্নিকুণ্ড নিভে যায় না; তার সহিষ্ণুতা বাইরের সমস্ত সমালোচনার বিরুদ্ধে এক নীরব প্রতিরোধ গড়ে তোলে।",
+  "name": "3",
+  "word_target": 187,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting from personal agony to ritualized defiance: presenting each act of daily survival not as mundane labor, but as a sacred, ongoing liturgy.",
+    "story_option": "Setting: At the periphery of a village gathering where gossip is sharpest; Desire: To utter one single, perfectly measured sentence that refutes the collective narrative without anger (turning obstacle); Obstacle: The immediate physical pressure from onlookers forcing silence.",
+    "subject_rotation": "Examining the relationship between private grief (Likhindar) and public performance (widowhood) as two opposing yet mutually defining acts.",
+    "sensory_detail": "A sudden, sharp scent of wild night-blooming jasmine cutting through the stale air of the inner rooms.",
+    "research_question": "What specific traditional markers or rituals related to widowhood in this cultural context are being implicitly challenged by Behula's existence?",
+    "structural_variant": "A sustained monologue that only speaks about textures and weights, refusing direct emotional exposition.",
+    "variety_note": "While neighbours might focus on external social pressure, this chapter delves deeper into the internal mechanics of resistance—how memory and personal ritual become acts of metaphysical survival against systemic erosion."
+  }
+}

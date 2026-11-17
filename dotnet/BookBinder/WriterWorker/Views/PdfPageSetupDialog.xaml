@@ -807,7 +807,7 @@
                             <TextBlock Style="{StaticResource BookLabelStyle}"
                                        TextWrapping="Wrap"
                                        Margin="0,8,0,0"
-                                       Text="The index is built from the contents of the book: every segment title with the page it is printed on. It follows the contents page at the end of the front matter and is numbered with the rest of the front matter in roman numerals." />
+                                       Text="The index is built from the chapters of the book: the title of every chapter, the titles of its segments under it, and two blank lines between one chapter and the next. Nothing fixes how many pages it takes - the entries are packed into as many pages as the page setup holds, so a book that grows gains index pages. It follows the contents page at the end of the front matter and is numbered with the rest of the front matter in roman numerals." />
                         </StackPanel>
 
                         <ListBox x:Name="IndexPageList"
@@ -816,19 +816,26 @@
                                  ItemTemplate="{StaticResource PageRowTemplate}" />
 
                         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Content="Build index pages"
+                                    Tag="Index"
+                                    Style="{StaticResource BookButtonStyle}"
+                                    Margin="0,0,8,0"
+                                    Click="BuildIndex_Click"
+                                    ToolTip="Write the index from the chapters of the book, one page per page the entries fill" />
                             <Button Content="Insert blank page"
                                     Tag="Index"
                                     Style="{StaticResource BookButtonStyle}"
                                     Margin="0"
                                     Click="InsertBlankPage_Click"
-                                    ToolTip="Keep an empty sheet after the reserved pages of the index" />
+                                    ToolTip="Keep an empty sheet after the pages of the index" />
                         </StackPanel>
 
                         <TextBlock Grid.Row="3"
                                    Style="{StaticResource BookLabelStyle}"
                                    TextWrapping="Wrap"
                                    Margin="0,10,0,0"
-                                   Text="Two pages are reserved for the index and print blank for now, until the export fills them from the contents. There is no design to edit for them, so this part has no pages to create; a page listed here is an empty sheet kept after the reserved pages, printed in the order it is listed." />
+                                   Text="Building the index writes its pages from the chapters of the book, so it replaces the pages listed above and writes them again whenever the book changes. A book with no chapter has no index: the export then prints the two pages it reserves for it. A page inserted here is an empty sheet kept after the index, printed in the order it is listed." />
+
                     </Grid>
                 </ScrollViewer>
             </TabItem>

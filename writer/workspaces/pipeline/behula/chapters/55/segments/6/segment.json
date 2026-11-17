@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 55,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলোর প্রত্যাবর্তন",
+  "segment_summary": "অন্ধকার ও আলোর দ্বৈরথে, ভেতরের আলোকবর্তিকা বাইরের সমস্ত সংশয় ও বিদ্বেষকে প্রতিহত করে, এক নতুন দিগন্ত উন্মোচন করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrasting the internal metaphysical triumph with the persistent grime and weariness of the physical domestic space.",
+    "story_option": "An internal monologue focusing on the weight of unspoken words—those she never uttered even to him, now confronting his return.",
+    "subject_rotation": "Examining how the *language* used during their separation has fundamentally changed them both.",
+    "sensory_detail": "The faint scent of aged, forgotten spices clinging to the thresholds, representing time suspended between crises (Olfactory).",
+    "research_question": "What specific Bengali idiom encapsulates the feeling of 'grief made permanent' or 'endurance as trauma'? What precise classical word can convey the weight of sustained spiritual vigilance?",
+    "structural_variant": "A three-part thematic arc within each segment: A memory $\rightarrow$ The present confrontation $\rightarrow$ Philosophical resonance.",
+    "variety_note": "This chapter contrasts with previous segments by emphasizing resolution rather than escalating conflict; it is about integration, not rupture. The focus shifts from struggle against external forces toward the quiet processing of their meaning."
+  }
+}

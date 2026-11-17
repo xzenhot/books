@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-অসমাপ্ত থালা
+তেলের স্মৃতি
 
 ## chapter_summary
 
-অসমাপ্ত থালা ফেলে রাখা হয়, আর রাতের বাতাসে গন্ধ ছড়িয়ে পড়ে। যা শেষ হয়েছে বলে মনে হয়, তার গন্ধ থেকে যায়।
+এই অধ্যায়টি সরিষার তেলের ঝাঁঝালো, মাটির গন্ধযুক্ত আঘ্রাণ এবং প্রবাসের অচেনা, নিরপেক্ষ তেলের মধ্যেকার গভীর বৈসাদৃশ্যকে কেন্দ্র করে আবর্তিত। এটি কেবল একটি রান্নার উপাদান প্রতিস্থাপনের গল্প নয়, বরং এটি স্বাদের বিচ্যুতিকে প্রতীকায়িত করে, যেখানে গন্ধের পরিবর্তন মানে স্মৃতির একটি অংশ হারিয়ে যাওয়া। এই সংঘাতটি প্রশ্ন তোলে: যখন বাহ্যিক উপাদান পরিবর্তিত হয়, তখন কি আত্মার গভীরে প্রোথিত সেই আদিম স্বাদের অনুরণনও বিলীন হয়ে যায়?
 
 ## further_references
+
+- 2
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+সরিষার হলুদ আবেশ
+
+#### segment_summary
+
+বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার সেই উষ্ণ, ঝাঁঝালো গন্ধটি যেন এক জীবন্ত স্মৃতি, যা প্রতিটি ভাজার সঙ্গে মিশে থাকে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অচেনা তেলের শীতল স্পর্শ
+
+#### segment_summary
+
+প্রবাসের নতুন তেল, যা কেবল নিরপেক্ষ এবং হালকা, তা সেই মাটির গন্ধকে মুছে দেয়, যেন একটি পরিচিত সুর হঠাৎ থেমে গেছে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+রাসায়নিক দূরত্ব
+
+#### segment_summary
+
+এই তেলের প্রতিস্থাপন কেবল রাসায়নিক নয়; এটি একটি আবেগের গভীর বিভাজন, যা জিভের ওপর এক নীরব ছাপ ফেলে যায়।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+ঘ্রাণ-স্মৃতির ভাঙন
+
+#### segment_summary
+
+কীভাবে একটি নির্দিষ্ট গন্ধ মস্তিষ্কের গভীরে একটি সম্পূর্ণ পরিবেশকে ফিরিয়ে আনে, সেই নিউরাল সংযোগটি এই তেলের পরিবর্তনে দুর্বল হয়ে পড়ে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+পুরোনো মাটির প্রতিধ্বনি
+
+#### segment_summary
+
+জিভের স্মৃতি সর্বদা সেই আদিম মাটির গন্ধের দিকে ফিরে চায়, যা নতুন ভূগোলের গন্ধেও চাপা পড়ে থাকে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্বাদের বিচ্যুতি
+
+#### segment_summary
+
+আকৃতি একই থাকলেও, তেলের ভিন্নতা ভেতরের সত্তাকে পরিবর্তন করে দেয়, যা 'সিঙ্গাড়া' থেকে 'সামোসা'-র দিকে যাত্রার প্রতীক।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসম্পূর্ণ ভাজা
+
+#### segment_summary
+
+এই নতুন তেলে ভাজা সামোসাটি যেন একটি অসম্পূর্ণ কবিতা, যার ছন্দ ঠিকমতো ধরা পড়েনি।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষার তেল
+
+#### segment_summary
+
+এই তেলটি কেবল একটি মাধ্যম, কিন্তু এর অনুপস্থিতিই সেই নিখুঁত, আকাঙ্ক্ষিত স্বাদের জন্য অনন্ত অপেক্ষা সৃষ্টি করে।
+
+#### further_references
 
 
 ## level
@@ -31,50 +238,44 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Viewing the unused space on the plate not as absence, but as an actively consumed void—a negative flavor profile.
-- Focusing on the ritual of clearing/not clearing the table: Does leaving the 'অসমাপ্ত থালা' signify stubbornness or deference to memory?
-- The texture of the grease film left behind on the plate after the food has been removed, making it a map of where the filling once sat.
+- The oil as a physical metaphor for the thinness of borders—it allows passage, yet alters substance.
+- Focusing solely on the breath: how inhaling the different cooking vapors changes the speaker's emotional state (panic vs. calm).
+- Treating the *tail* (the discarded remnants after frying) as a micro-geological record of the oil’s journey.
 
 ### story_options
 
-- Setting: A bare ceramic plate under harsh fluorescent light; Desire: To meticulously trace the geometric impression of the missing samosa with a finger; Obstacle: The fear that tracing will disturb the memory imprinted on the grease.
-- Setting: An old, wooden dining table in a borrowed room; Desire: To gather every stray crumb and dust mote into one small pile; Obstacle: Realizing that gathering the physical remains does not reclaim the flavor of the home hearth.
-- Setting: By a single open window overlooking an anonymous street at dusk; Desire: The narrator watches the exterior city lights flicker, attempting to match their chaotic pulse to the silent emptiness on the plate; Obstacle: The realization that the light source itself—the 'heat' of memory—is not contained within the plate.
+- Setting: A tightly closed kitchen in a modern apartment; Desire: To force the neutral oil to mimic the mustard oil's initial explosive scent via intense, artificial heat; Obstacle: The cheap appliance cannot achieve the necessary 'আঁচ'.
+- Setting: Near an industrial street vent where fumes mix with cooking steam; Desire: For the pure aroma of the spices (পুর) to overwhelm the chemical odor of foreign fuel/oil; Obstacle: Constant atmospheric pollution.
+- Setting: While crushing spices in a mortar that was previously used for mustard seeds; Desire: To achieve perfect, gritty 'তসটস' texture again; Obstacle: The unfamiliarity with local stone or machinery corrupts the grain.
 
 ### subject_rotations
 
-- Treating the remnants (oil film, residue) as a palimpsest: layers of foreign seasoning overlaid onto the faint ghost image of home spice.
-- The weight of inertia in inaction: The physical refusal to scrape or clean the plate, symbolizing an inability to fully move forward.
-- Shifting from the 'taste' deficit (as seen elsewhere) to the 'visual' deficit—the pattern disruption on a formerly uniform surface.
+- Shifting focus from the chemical composition of the oil to the *social* chemistry—how cooking oil serves as a boundary marker between 'here' and 'there'.
+- Examining the tactile sensation on the hand after handling oily food: contrasting the heavy, dense coating of mustard-oil frying with the lighter sheen of foreign oils.
+- A meditation where the speaker views their own salivary glands as being coated by two different chemical memories.
 
 ### sensory_details
 
-- The sharp, metallic tang of congealed frying oil cooling against cold porcelain.
-- The faint, almost inaudible whisper of dry pastry fragments settling onto the slick, oily surface of the plate.
-- The visual distortion created by ambient light catching the microscopic residue patterns on the plate's curve.
+- Sound: A sound that is neither sizzle nor hiss, but a specific high-frequency *thrum* generated by volatile essential oils meeting moderate heat.
 
 ### research_questions
 
-- How can I use Bengali vocabulary to describe a scent that is present but fundamentally altered by distance or oxidation (i.e., 'ghost fragrance')?
+- What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?
 
 ### structural_variants
 
-- A structure built around repetition of the verb 'থাকা' (to be/remain) applied successively to the plate, the smell, and the self.
-- Beginning with a description of an unrelated foreign object present on the table (a key, a receipt), using it as an anchor before returning to the emptiness.
+- A poem composed entirely through rhetorical questions posed by the ingredient itself (e.g., the oil speaking).
+- Shifting structure based on perceived heat: beginning in extreme coldness (dormant oil) and building kinetic energy toward a flashpoint.
 
 ### unused_angles
 
-- The idea of the plate itself evolving into a symbolic boundary marker—the point where assimilation stops.
-- Focusing on the act of *waiting* for the remnants to fully dissipate, treating this dissipation time as metaphysical purgatory.
+- The political metaphor of oil import restrictions mirroring cultural limitations.
+- A 'Call and Response' structure: Speaker speaks of the old scent, then an imagined answer (from the absent voice) denies it.
 
 ### variety_note
 
-Where previous poems focused on the physical interaction with the food or the narrative journey, this chapter isolates the aftermath: the silent conversation between scent and empty ceramic after consumption has ceased.
+While neighbours focused on tactile/sound contrasts or geological metaphors for oil, this chapter prioritizes a deeper dive into the neurological link between specific volatile organic compounds and memory decay.

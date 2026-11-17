@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের পোস্ট",
+  "segment_summary": "এই নীরবতা নিজেই একটি বিষয়বস্তু হয়ে ওঠে; লেখক অনুভব করেন যে তার 'অনাগ্রহ' বা 'বিচ্ছিন্নতা' প্রকাশ করার তাগিদ অনুভব করছেন।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the phone not as a communication device but as an inert, heavy mineral object (e.g., slate) that resists being lifted.",
+    "story_option": "Setting: A sparse concrete balcony overlooking city traffic; Desire: To feel the raw texture of wind against bare skin; Obstacle: The AI suggesting 'hashtag documentation' for the moment.",
+    "subject_rotation": "Focusing on 'Disconnection' as a highly manicured aesthetic choice rather than an authentic state.",
+    "sensory_detail": "The cool, slick weight of a smooth stone kept in the palm during periods of forced stillness.",
+    "research_question": "What is the precise linguistic difference in Bengali between voluntary solitude and forced isolation?",
+    "structural_variant": "A cyclical structure where each segment circles back to the initial physical placement of the phone.",
+    "variety_note": "This chapter deliberately pivots from the outward societal critique seen in earlier segments to an intensely internalized, somatic exploration of mediated absence and its physical manifestations."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "শান্ত আশার দিগন্ত",
+  "segment_summary": "বিষণ্ণতার মাঝেও এক দৃঢ় আশাবাদ জন্ম নেয়, যা প্রকৃতির অবিরাম চক্রের প্রতি আস্থা রাখে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Holding the entire poem within a single, weathered wooden oar handle: every bend and nick representing a philosophical point.",
+    "story_option": "A solitary finger tracing an invisible pattern in the silt left by the receding tide at dawn (Setting: Mudflats; Desire: To map the intangible debt onto a physical surface; Obstacle: The encroaching shadows of the high-tide infrastructure; Turn: Acceptance that the map is inherently fluid).",
+    "subject_rotation": "Treating 'Udarata' as a geological force—the slow, powerful erosion that undermines rigid structures rather than a moral choice.",
+    "sensory_detail": "The cool, slick feel of submerged stones against the wooden hull after hours in shadow (Touch).",
+    "research_question": "What specific Bengali folk imagery depicts an act of pure, uncompensated giving as possessing inherent power?",
+    "structural_variant": "The poem could be structured not sequentially by event, but thematically, grouping all 'money' references before revealing the final thematic resolution.",
+    "variety_note": "Unlike earlier chapters that focused on external pressures (debt, bridges), this final section internalizes the struggle, allowing the philosophical resolution to settle as an almost unbearable quietude."
+  }
+}

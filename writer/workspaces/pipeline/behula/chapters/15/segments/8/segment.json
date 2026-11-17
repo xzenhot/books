@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় উত্তরাধিকার",
+  "segment_summary": "বেহুলার এই মহাকাব্যিক সংগ্রাম কীভাবে ভবিষ্যৎ প্রজন্মের জন্য এক অবিস্মরণীয় প্রেরণা ও চেতনার উৎস হয়ে থাকবে, সেই বার্তা দিয়ে কাব্যটি সমাপ্ত হবে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Temporal Shift Twist: The moment of reunion is presented first under the waning light (shadows/doubt), and then immediately re-read in bright dawn (certainty/resolve) to emphasize the internal change.",
+    "story_option": "Setting: Near the spot where his ordeal ended (a symbolic riverbank); Desire: To immerse both their hands in a slow-moving current, symbolizing the merging of two separate existential paths into one flow; Obstacle: Residual exhaustion from her prolonged vigil.",
+    "subject_rotation": "Treating the return not as salvation, but as the beginning of an even more complex ethical duty toward society.",
+    "sensory_detail": "The low, steady warmth emanating from his presence that counters the previous chill of isolation; (Touch/Temperature)",
+    "research_question": "How can I use Bengali vocabulary to describe a peace so absolute it borders on terrifying—a stillness that holds immense potential energy?",
+    "structural_variant": "Employing a highly fragmented, broken syntax leading up to the reunion, only to snap into perfect classical rhythm upon his arrival.",
+    "variety_note": "This chapter pivots from the raw agony and struggle found in earlier segments (like those dealing with societal friction) to focus entirely on transcendent closure, using a structural volta to redefine that finality."
+  }
+}

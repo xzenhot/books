@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ভূগোল ও পুরের সংঘাত",
+  "segment_summary": "বিভিন্ন অঞ্চলের পুরের (আলু, মটর, মাংস) ভিন্নতা তুলে ধরা হবে, যা আঞ্চলিক অভিযোজনের প্রমাণ দেয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting perspective entirely to an ancient merchant who first saw the 'sambusak' seeds arrive and reflects on their enduring journey centuries later.",
+    "story_option": "Setting: Inside a sealed clay pot recovered from an archaeological dig; Desire: To breathe the air preserved within that vessel—the first whiff of the *sanbusak*.",
+    "subject_rotation": "Examining the transformation through religious or colonial encounters that forced adaptation upon its core ingredients.",
+    "sensory_detail": "A residual, almost mineral 'tastelessness' that coats the tongue after consuming a heavily adapted foreign version (taste).",
+    "research_question": "What specific ancient South Asian/Persian term might have been used to describe this filled pastry before its divergence into various regional names?",
+    "structural_variant": "Adopting a highly fragmented, non-linear structure where different geographical locations (e.g., one stanza per traded city) appear without chronological transition.",
+    "variety_note": "This chapter moves away from personal diasporic melancholy (neighboring chapters) to a macro-historical view, treating the food's journey as an epic saga spanning centuries and continents."
+  }
+}

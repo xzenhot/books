@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 11,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ঈমানের দীপশিখা",
+  "segment_summary": "সমাজের ছলচাতুরি ও প্রতিকূলতার মাঝেও বেহুলার বিশ্বাস কীভাবে একটি অবিচল শিখার মতো জ্বলে থাকে, তা এখানে চিত্রিত হয়েছে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating divine questioning (the 'why') not as seeking an answer, but as a deliberate act of self-suffering that sharpens the soul's resilience.",
+    "story_option": "Setting: A desolate, twilight expanse mirroring a journey toward an unreachable source; Desire: To speak a vow to the empty space where Likhindar stood; Obstacle: The encroaching chill of doubt (Turn).",
+    "subject_rotation": "Exploring faith as an active verb—not just belief (a state), but constant exertion and effort required to maintain the inner light.",
+    "sensory_detail": "The dry, brittle sound of whispered prayer echoing in vast, empty stone corridors.",
+    "research_question": "What is the highest density Bengali term for an unwavering, self-imposed commitment that borders on existential defiance?",
+    "structural_variant": "A call-and-response structure where the inner monologue (her faith) is answered by a stark, cold external observation (the world's judgment).",
+    "variety_note": "Unlike earlier segments focused on external societal confrontation, this chapter centers entirely inward, mapping the geography of resilient spiritual concentration through acts of intense prayer and unwavering self-belief."
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "পুনর্জন্মের বীজ",
+  "segment_summary": "প্রতিটি সফল মোকাবিলা যেন নতুন করে শুরু করার এক ক্ষুদ্র বীজ বপন করে, যা চক্রাকার দর্শনের অংশ।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the voice of a memory (the absent woman addressed in Segment 8), asking if her quiet internal struggles mirror Durga's cosmic fight.",
+    "story_option": "Setting: A cramped domestic space at dawn, Desire: To find courage to speak a difficult truth to a loved one; Obstacle: Years of ingrained silence.",
+    "subject_rotation": "Shifting emphasis from 'victor' to 'endurer'—celebrating the act of continuous wrestling rather than the singular moment of triumph.",
+    "sensory_detail": "The specific abrasive feel of cheap woven fabric against skin during a long day of effort.",
+    "research_question": "What is the most potent Bengali idiom for an internal battle that lacks external participants?",
+    "structural_variant": "A series of stanzas where the 'micro-battle' is detailed in exhausting realism before zooming out to a philosophical conclusion.",
+    "variety_note": "This chapter consciously shifts the focus entirely from communal spectacle to intense introspection; its language must be granular and painfully specific, unlike the grander sweep of earlier festival narratives."
+  }
+}

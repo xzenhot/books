@@ -1,0 +1,284 @@
+# Chapter model context
+
+## chapter_index
+
+32
+
+## name
+
+32
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+The Unseen Struggle Beneath the Blossom
+
+## chapter_summary
+
+This chapter delves into the core philosophy of the artist's life, contrasting the public perception of a finished masterpiece with the private, arduous labor that birthed it. It explores the imagery of silent failures and invisible sacrifices that underpin every visible stroke of color. The central conflict lies between the societal demand for polished perfection and the raw, messy truth of creation. The chapter ultimately questions whether the true essence of art resides in its final, celebrated form or in the hidden struggle that forged it.
+
+## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Night's Canvas
+
+#### segment_summary
+
+The chapter begins by establishing the nocturnal setting, where Debolina Rai works in the deep silence, contrasting it with the oblivious world outside.
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+Invisible Scars
+
+#### segment_summary
+
+It focuses on the imagery of the hidden struggles—the failed attempts and the unseen toil—that are masked by the final, beautiful surface.
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Cost of Sight
+
+#### segment_summary
+
+This segment examines the personal cost of choosing a life of intense creation, trading domestic comfort for the vulnerability of being seen.
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+Lapis and Lime
+
+#### segment_summary
+
+The sensory details of the materials—the ground lapis and the wet lime—are explored as metaphors for the struggle between ephemeral beauty and foundational labor.
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Artist's Solitude
+
+#### segment_summary
+
+Debolina's isolation in the crumbling havelis is depicted, where the decay of the walls mirrors the internal process of self-discovery.
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Hunger for Existence
+
+#### segment_summary
+
+The text explores the unquenchable hunger that drives the artist, framing creation not as a hobby, but as a fundamental need for existence.
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+Refusing the Frame
+
+#### segment_summary
+
+This section addresses the refusal to be neatly categorized by society, emphasizing the fierce, untamed nature of her creative spirit.
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Truth in the Shadow
+
+#### segment_summary
+
+The chapter concludes by asserting that the deepest truth of the art is found not in the finished product, but in the dark, invisible process of its making.
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- জীবনের সমাপ্তি হিসেবে শিল্পের গ্রহণ: দেবলিনা তার শিল্পকে একটি দীর্ঘশ্বাস হিসেবে গ্রহণ করছে, যা সময়ের ক্ষয়ের সাথে মিশে যাবে কিন্তু তা শেষ হবে না।
+- প্রক্রিয়াজনিত যন্ত্রণা বনাম ফলাফলের মহিমা: প্রতিটি সফল স্ট্রোকের পিছনে জমে থাকা দশটি ব্যর্থ চেষ্টা—এই গণনাকেন্দ্রিক চিত্রকল্প ব্যবহার করা।
+- অস্তিত্ববাদী নিস্তব্ধতা: বাইরের জগতের নীরবতার সঙ্গে তার নিজের অভ্যন্তরীণ কোলাহলের সাংঘর্ষিক প্রতিস্থাপন, যেখানে শব্দ অনুপস্থিত কিন্তু উপস্থিতি প্রবল।
+
+### story_options
+
+- স্থান: Mandawa-র একটি প্রাচীন দেয়ালের কিনারা; আকাঙ্ক্ষা: নিজেকে পুরোপুরি ধূলিময় করা এবং সমাজের দৃষ্টি এড়ানো; বাধা: এক ঝলক সকালের প্রথম আলো যা তার কাজকে 'পর্যবেক্ষণ' করার সুযোগ দিচ্ছে; মোড়: সে দ্রুত রঙ মুছে ফেলে, কিন্তু ছাইয়ের আস্তরণটি আরও দৃঢ় হয়ে যায়।
+- স্থান: স্ক্যাফোল্ডের নিচ দিয়ে মরুভূমির বাতাস আসা; আকাঙ্ক্ষা: সেই বাতাসের প্রবাহে নিজের গোপন সংগ্রাম মিশিয়ে দেওয়া; বাধা: বাইরের কোনো মানুষের ক্ষণস্থায়ী হাসি বা শব্দ যা তাকে জাগিয়ে তোলে; মোড়: সে সেই শব্দকে রঙের আভার নিচে চাপা দেয়, কিন্তু তার নিজস্ব শ্বাস-প্রশ্বাসে তা প্রতিধ্বনিত হয়।
+- স্থান: গভীর রাত, যখন প্রদীপ প্রায় নিভে আসছে; আকাঙ্ক্ষা: সৃষ্টির শেষ মুহূর্তের ক্ষণস্থায়ী উষ্ণতা ধরে রাখা; বাধা: ল্যাপিস পিগমেন্টের রাসায়নিক স্থায়িত্বে আসা সন্দেহ বা দুর্বলতা; মোড়: সে রং না দিয়ে তুলিটি স্থির রেখে দেয়, কেবল সেই অস্থিরতার দিকে তাকিয়ে থাকে।
+
+### subject_rotations
+
+- দেবলিনা-কে যোদ্ধা হিসেবে নয়, বরং ধৈর্যশীল ধাতুশিল্পী (Alchemist) রূপে দেখানো—যেখানে উপাদানগুলির রাসায়নিক পরিবর্তনই তার সংগ্রাম।
+- ফ্রেস্কোটিকে সমাজের 'স্মৃতি' সংরক্ষণের মাধ্যম না দেখে, বরং এক ধরনের অস্থায়ী মানসিক স্থিতাবস্থা (Temporary Psychic State) হিসেবে উপস্থাপন করা যা সময়ের সঙ্গে ভেঙে যায়।
+- অদৃশ্য শ্রমকে শারীরিক কষ্টের চেয়েও বেশি করে—একে এক প্রকার গভীর মানসিক স্থবিরতার মুক্তি হিসেবে চিহ্নিত করা।
+
+### sensory_details
+
+- হাতে লেগে থাকা চুন-মাটির সূক্ষ্ম, ক্ষারীয় স্বাদ যা জিভে জমে থাকে।
+- রাতভর কাজ করার ফলে ত্বকে সৃষ্ট চামড়ার ভঙ্গুরতা ও শুকনো মরুভূমির বালির স্পর্শের অনুভুতি।
+- প্রদীপের শিখা থেকে নির্গত ক্ষীণ তাপ—যা শীতল, পাথরের মতো পিগমেন্টে মিশে একটি অদ্ভুত উষ্ণতার স্তর তৈরি করে।
+
+### research_questions
+
+- কীভাবে দেবলিনার 'আত্ম-নির্ধারণ'কে কেবল ব্যক্তিগত মুক্তি না রেখে, শিল্পকলার ইতিহাসে এমন কোনো প্রতীকী রূপান্তর হিসেবে বর্ণনা করা যায় যা পূর্ববর্তী ধারার থেকে আলাদা?
+- দেওয়ালের ফাটলগুলিকে নিছক ক্ষতি নয়; বরং শৈল্পিক প্রক্রিয়াগত বাধ্যবাধকতা (Processual Necessity) হিসেবে চিত্রিত করার ক্ষেত্রে সাহিত্যিক বা দার্শনিক ভিত্তি কী হতে পারে?
+
+### structural_variants
+
+- একটি সম্পূর্ণ আবর্তনীয় কাঠামো যেখানে প্রতিটি সেগমেন্টের শেষ প্রশ্নটি পরের সেগমেন্টের শিরোনামের উৎস হয়ে ওঠে।
+- কবিতাটিকে দুটি সুস্পষ্ট 'স্তর' (Layer) এ ভাগ করা: ওপরের স্তর, যা সমাজের চোখে পড়ে; এবং নিচের স্তর, যা শুধুমাত্র স্পর্শ ও ধ্বনি দ্বারা অনুভব করা যায়।
+
+### unused_angles
+
+- Mandawa-র প্রাচীন ব্যবসায়িক ঐতিহ্য থেকে আসা নীরব অর্থনৈতিক চাপ—যেখানে শিল্পের 'মূল্য' কেবল সৌন্দর্যে নয়, তার রক্ষণাবেক্ষণেও নিহিত থাকে।
+- দেবলিনার সৃজনশীলতা কিভাবে স্থান-নির্দিষ্ট (Topographical) হয়ে ওঠে; অর্থাৎ হাভেলিটির প্রতিটি কোণা কীভাবে একটি নির্দিষ্ট আবেগের স্ফটিক হয়ে ওঠে।
+
+### variety_note
+
+এই অধ্যায় পূর্ববর্তী পর্বগুলির তীব্র অ্যাকশন বা সংঘাতের পরিবর্তে, 'স্থিরতার গভীরে থাকা অস্থিরতা' এবং চূড়ান্ত দার্শনিক প্রশ্নটিকে কেন্দ্র করে ধীর লয়যুক্ত অন্তঃদৃষ্টির দিকে ফোকাস করবে। এটি একটি নীরব প্রতিধ্বনি হিসেবে কাজ করবে।

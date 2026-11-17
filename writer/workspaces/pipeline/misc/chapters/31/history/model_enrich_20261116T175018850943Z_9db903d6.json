@@ -1,0 +1,81 @@
+{
+  "chapter_index": 31,
+  "name": "31",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This concluding poem synthesizes the myriad small observations—from the sweat on a chai glass to the trace of vermilion—to confront the central philosophical question of the collection. It examines whether these countless, fragile moments coalesce into a stable, enduring concept of 'India,' or if they remain merely beautiful, fleeting sparks in the current of time. The imagery shifts from specific objects to the collective weight of these minute human experiences, leaving the reader suspended between the desire for permanence and the reality of ephemerality. The open question remains: does the sum of these tender minutes constitute a soul, or just a beautiful, momentary echo?",
+  "further_references": [
+    "misc — পর্ব 1",
+    "misc — পর্ব 3",
+    "misc — পর্ব 14"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "ঘামের সাক্ষ্য",
+      "segment_summary": "The poem begins by recalling the immediate, visceral evidence of daily life, like the moisture clinging to a humble glass.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 60,
+      "segment_title": "সিঁদুরের রেখা",
+      "segment_summary": "It then juxtaposes this transient moisture against the fixed, ritualistic mark of vermilion on a threshold.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 60,
+      "segment_title": "নীরবতার ভার",
+      "segment_summary": "The focus moves to the unspoken language shared within crowded spaces, where silence itself becomes a tangible presence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 60,
+      "segment_title": "শ্রমের প্রতিধ্বনি",
+      "segment_summary": "The poem acknowledges the unseen labor, the quiet rhythm of hands that build the foundation of the visible world.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "ক্ষুদ্রতার সমাবেশ",
+      "segment_summary": "All these disparate, small particulars are gathered together, forming a vast, almost overwhelming tapestry of existence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 60,
+      "segment_title": "স্থায়িত্বের জিজ্ঞাসা",
+      "segment_summary": "The core conflict is posed: can this collection of fragile moments ever solidify into a permanent national identity?",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 60,
+      "segment_title": "ঝলকানি নাকি সত্তা",
+      "segment_summary": "It questions whether the nation is a deep, abiding entity or merely a series of exquisite, passing illuminations.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "সহমর্মিতার শেষ আলো",
+      "segment_summary": "The poem concludes not with an answer, but with a tender acceptance of the beauty found in the transient nature of these shared human minutes.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

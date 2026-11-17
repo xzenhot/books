@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 72,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চেতনার প্রতিধ্বনি",
+  "segment_summary": "বেহুলার এই যাত্রা নিপীড়িত আত্মার সম্মিলিত কণ্ঠস্বর হয়ে ওঠে, যা সমাজের গভীরতম ক্ষতগুলিকে স্পর্শ করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem framed entirely through an object's perception (e.g., a worn prayer bead, reflecting her internal state).",
+    "story_option": "Setting: Inside an empty chamber flooded by harsh dawn light (Symbolizing exposure); Desire: To shed the mantle of 'victim' and adopt the weight of 'archetype'; Obstacle: The chill dampness that seems to absorb all inner warmth; Turn: She intentionally makes a sound—not a plea, but a declaration.",
+    "subject_rotation": "Focusing not on *what* she endures, but on the sheer *energy cost* of maintaining symbolic purity against constant social attrition.",
+    "sensory_detail": "The persistent, dull ache behind the eyes that feels like constant low-pressure static (touch/physical sensation)",
+    "research_question": "How can 'collective consciousness' in a mythological framework be differentiated from modern psychological concepts like groupthink, while maintaining the high diction?",
+    "structural_variant": "Stanzaic expansion followed by severe compression: long, expansive meditations on societal judgment abruptly cut short by single, resonant words representing ultimate conviction.",
+    "variety_note": "This chapter shifts the focus from raw personal suffering (Chapter 1-3 precursors) to the *social function* of that suffering, analyzing how private agony catalyzes public, symbolic meaning. It emphasizes transmutation over trauma."
+  }
+}

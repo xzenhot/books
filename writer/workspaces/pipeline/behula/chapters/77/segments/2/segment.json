@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 77,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "সামাজিক কটাক্ষের কোরাস",
+  "segment_summary": "সমাজের পক্ষ থেকে আসা বিষাক্ত ছড়া এবং অবজ্ঞা কীভাবে তার আত্মমর্যাদাকে ক্রমাগত ক্ষুণ্ণ করে, সেই চিত্র এখানে ফুটে ওঠে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing her endurance through geological time; positioning her suffering against epochs rather than mere days (Deep Time Metaphor)",
+    "story_option": "Setting: Inside a vast, empty ceremonial hall (symbolizing societal expectation); Desire: To force the architecture itself to witness and validate her suffering; Obstacle: The stones themselves are too indifferent, too immutable in their judgment.",
+    "subject_rotation": "Inverting the narrative causality: Instead of suffering leading to symbolism, explore if her initial state was already inherently monumental, making external judgment irrelevant.",
+    "sensory_detail": "A specific scent of ancient, sun-baked clay mixed with the metallic ozone just before a symbolic storm breaks (Olfactory/Gustatory)",
+    "research_question": "How can the transition from personal pain to universal symbol be marked in rhythm—is it a gradual crescendo or an abrupt formal shift?",
+    "structural_variant": "Utilizing rapid-fire vignettes within segments to simulate the constant barrage of external judgments before settling into a prolonged, slow meditation on her core spirit.",
+    "variety_note": "Unlike previous chapters that focused on specific obstacles or moments of crisis, this chapter elevates the *state* of being—the sustained act of embodying resilience itself."
+  }
+}

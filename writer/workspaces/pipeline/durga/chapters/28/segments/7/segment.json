@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "চক্রের অনিবার্যতা",
+  "segment_summary": "এই বার্ষিক প্রত্যাবর্তন একটি সামাজিক রীতিনীতি হলেও, এর মূল চালিকাশক্তি হলো মানব আত্মার সেই চিরন্তন আকাঙ্ক্ষা, যা বিনাশের পরেই নতুন করে জেগে উঠতে চায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the personal struggle against existential entropy rather than social/ritual obstacles.",
+    "story_option": "A character silently observes the empty riverbed days after immersion, searching for a single particle of silt that carries the echo of the collective faith (Setting: Riverbank; Desire: To find residual proof of belief; Obstacle: The unstoppable flow of mundane time; Turn: A sudden internal realization of enduring power).",
+    "subject_rotation": "Focusing purely on the psychological toll of cyclical devotion—the exhaustion vs. exhilaration.",
+    "sensory_detail": "Smell: The dry, powdery scent of chalk dust mixed with lingering night-blooming jasmine from hidden courtyards (contrast to earlier wet clay/incense).",
+    "research_question": "How can one poetically distinguish between 'hope' (optimistic future projection) and 'persistence' (impersonal, enduring state)?",
+    "structural_variant": "A structure built around contrasting the minute scale (a single thought/grain of dust) versus the cosmic scale (Mahishasura).",
+    "variety_note": "This chapter intentionally pivots inward, moving away from descriptions of external ritual events toward a sustained meditation on internal psychological endurance, which differs significantly from the sensory immersion of earlier acts (like *ঢাকের বোল* or *সিঁদুর খেলা*)."
+  }
+}

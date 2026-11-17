@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বৃহত্তর কাঠামোর ভার",
+  "segment_summary": "The poem examines the societal structures implied by these small acts, such as labor and ritual, without naming them explicitly.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem reframes 'India' not as a concept or place, but as a continuous state of *being observed*.",
+    "story_option": "Setting: A doorway threshold at dusk. Desire: To find a single point where tradition (vermilion) meets entropy (fading). Obstacle: Fear of collapsing into meaningless detail. Turn: Using that collapse to illuminate the *process* of being, not the result.",
+    "subject_rotation": "Examining the cognitive strain on the observer: is deep observation itself an unsustainable luxury?",
+    "sensory_detail": "A sudden chill biting through skin despite the ambient heat of crowded space.",
+    "research_question": "What is the subtle sonic difference between social silence and absolute void in dense urban settings?",
+    "structural_variant": "A non-linear structure where segments 1, 4, and 7 are revisited using vocabulary derived from Segment 5.",
+    "variety_note": "This chapter diverges from its neighbors by actively wrestling with the tension between synthesis and dissolution; it is less about *what* these objects are, and more about the impossibility—or necessity—of answering that ultimate philosophical question."
+  }
+}

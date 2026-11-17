@@ -4,19 +4,19 @@
   "chapter_index": 4,
   "segment_index": 4,
   "total_segments": 8,
-  "segment_title": "নদীর দান ভাগ করে",
-  "segment_summary": "নদী যেমন বিনা মূল্যে সবাইকে বয়ে চলে, মাঝিও তেমনি নদীর সেই দানকে মানুষের মধ্যে ভাগ করে দেয়।",
+  "segment_title": "ঐতিহ্যের অস্বীকৃতি",
+  "segment_summary": "তার যুক্তি মানবীয় আবেগ বা ঐতিহ্যের কোনো স্থান দেয় না, যা গোপালের জীবনযাত্রার মূল ভিত্তি।",
   "name": "4",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Presenting the passenger's gaze at the end of the crossing not as thanks, but as a recognition of debt owed to an abstract concept (the river/tradition), not Gopal.",
-    "story_option": "Setting: A low, muddy bank near an ancient, forgotten ghat; Desire: To cross for passage to attend a sudden rite or burial; Obstacle: The sheer effort of pulling the boat against slow current.",
-    "subject_rotation": "Treating 'generosity' not as an act of virtue but as a necessary ecological function for the riverine community to survive infrastructural change.",
-    "sensory_detail": "The particular, gritty feel of dried river mud adhering to worn sandals after disembarking at an unofficial landing.",
-    "research_question": "How is communal resource sharing historically documented or unspoken within delta communities in response to external economic pressure?",
-    "structural_variant": "Structuring segments as parallel reflections: 'Then' (unmeasured passage) vs. 'Now' (the pressure for measurement/coinage).",
-    "variety_note": "This chapter deliberately shifts focus away from conflict (dredging/diesel) and toward ethical action, using the rhythm of unpaid passage as a meditative counterpoint to later chapters' sonic battles."
+    "angle": "গোপালের অভ্যন্তরীণ কোলাহলের মাধ্যমে চট্টার্জীর ঠান্ডা যুক্তির প্রতিফলন ঘটানো; নদীর পলিকে 'ঐতিহের রেকর্ড' হিসেবে চিত্রিত করা যা ডিজিটাল ডেটাতে স্থান পায় না; আধুনিক ইঞ্জিন ও পুরানো বাঁশের কাঠ সংযোগস্থলে এক ধরণের অলৌকিক 'অসঙ্গতির সুর' তৈরি করা।",
+    "story_option": "গোপাল চট্টার্জীকে সরাসরি চ্যালেঞ্জ করার একটি দৃশ্য, যেখানে তিনি কেবল গান বা নীরবতা ব্যবহার করে তাকে থামানোর চেষ্টা করেন (সেটিং: নদীর তীরবর্তী কাদা; আকাঙ্ক্ষা: তার জীবনযাত্রার স্বীকৃতি; বাধা: চট্টার্জীর আইনি কর্তৃত্ব; মোড়: চট্টার্জী অপ্রস্তুত হয়ে চুপ করে যান).",
+    "subject_rotation": "চট্টার্জীকে একজন 'ব্যক্তি' হিসেবে না দেখে, তাকে যেন নদীকে ডেটাবেসে ঢোকানোর প্রতীক হিসেবে দেখানো; যেখানে প্রতিটি রিডিং একটি করে সংকুচিত স্মৃতি।",
+    "sensory_detail": "কংক্রিটের শীতল, ধুসর স্পর্শ যখন নদীর উষ্ণ পলিমাটির সংস্পর্শে আসে (স্পর্শ)।",
+    "research_question": "আধুনিক খনন কাজ নদীর বাস্তুতন্ত্রের কোন সুনির্দিষ্ট উপাদানগুলিকে সবচেয়ে বেশি ক্ষতিগ্রস্ত করছে বলে উল্লেখ করা হয়েছে?",
+    "structural_variant": "একটি 'ফ্ল্যাশব্যাক/প্রিভিউ' কাঠামো ব্যবহার করে, যেখানে বর্তমান সংঘাতের পূর্বে নদীর এমন একটি স্থিতিশীল সময়ের ছোট দৃশ্য দেখানো হয় যা চট্টার্জীর কাছে সম্পূর্ণ অর্থহীন।",
+    "variety_note": "পূর্ববর্তী কবিতাগুলো মানবিক সম্পর্কের অভ্যন্তরীণ গভীরতায় ডুবে থাকলেও, এই অধ্যায় সরাসরি বাইরের চাপ—একটি শীতল, সুসংগঠিত বহিরাগত শক্তিকে—নদীর বুকে আনা হচ্ছে এবং এর সংঘাত বস্তুনিষ্ঠ পরিমাপের সঙ্গে অস্তিত্বের দর্শন নিয়ে উন্মুক্ত।"
   }
 }

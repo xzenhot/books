@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 40,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অচেনা গন্ধের ভিড়",
+  "segment_summary": "বাজারের কোলাহল এবং অন্যান্য খাবারের তীব্র, অপ্রাসঙ্গিক গন্ধগুলো সামোসার সূক্ষ্ম অস্তিত্বকে গ্রাস করতে শুরু করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the consumer's momentary hesitation before biting as a philosophical standoff between memory and immediate need.",
+    "story_option": "Setting: A brightly lit, chaotic street stall, Desire: To find an unseen vendor who still cooks with the ancient method (sariṣa tel/gingara style), Obstacle: The modern commercial pressure forcing uniformity.",
+    "subject_rotation": "Focusing intensely on the *packaging* as a cultural artifact—the standardized packet versus the improvised home wrap.",
+    "sensory_detail": "The sharp, metallic tang of street vendor grease mixed with cheap diesel fumes.",
+    "research_question": "What precise Bengali adverb can capture the sensation of 'almost there'—the proximity to flavor perfection that is always just out of reach in a busy setting?",
+    "structural_variant": "A structure built around alternating short bursts of dense sensory cataloging (the market) versus longer, trailing lines dedicated solely to flavor recollection.",
+    "variety_note": "Unlike previous chapters which focused on the *interior* state or ingredients, this chapter is deliberately externalized to the marketplace itself, using the physical noise and chaos as an active antagonist against memory."
+  }
 }

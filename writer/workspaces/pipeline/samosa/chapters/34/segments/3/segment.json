@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 34,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ভার",
+  "segment_summary": "এই অপেক্ষার ভার বহন করে মধ্যবয়সী 'আমি', যিনি খাদ্যকে কেবল পুষ্টির উৎস হিসেবে নয়, বরং একটি জীবন্ত আর্কাইভ হিসেবে দেখেন।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the *act* of trying to explain this unquantifiable void to someone who has never tasted the original.",
+    "story_option": "Setting: A quiet commuter train window during long-distance travel; Desire: To gaze at distant lights and project them back onto the shape of the perfect fried pastry; Obstacle: The knowledge that light is only a poor analog for flavor.",
+    "subject_rotation": "Treating the narrator's desire for the *original* taste as a form of stubborn ontological refusal to accept modern existence.",
+    "sensory_detail": "Smell: The clash between residual cooking grease and the sharp, metallic scent of unfamiliar city air.",
+    "research_question": "What specific archaic Bengali word conveys a sense of 'incomplete satisfaction' while maintaining a high poetic register?",
+    "structural_variant": "An intensely cyclical structure where each segment title is a thematic loop returning to the concept of 'residue.'",
+    "variety_note": "Unlike its neighbours which focus on the preparation (beginning) or geographical separation, this chapter concentrates solely on the *aftermath* and the philosophical implication of that residue."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অলৌকিক প্রতিবন্ধকতার জাল",
+  "segment_summary": "The chapter portrays the manifestation of supernatural obstacles, which act as tangible barriers against her desire for resolution and peace.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Faith as defiance: Framing the unwavering belief not as passive acceptance, but as an aggressive assertion of human will against predetermined cosmic decree.",
+    "story_option": "She seeks out an ancient shrine or weathered stone boundary marker (Setting), not for prayer, but as a deliberate act of defiance against the unreachable sky (Obstacle/Turn).",
+    "subject_rotation": "Treating the trials less as tests from above and more as echoes of internalized societal doubt magnified to divine scale.",
+    "sensory_detail": "The sound quality of her own voice in the vast, unresponsive chamber—amplified to an unnerving drone.",
+    "research_question": "Are there specific poetic conventions for portraying divine 'indifference' rather than outright anger in this context?",
+    "structural_variant": "A recursive structure where each segment begins by re-stating the core premise of unanswered prayer, with subsequent segments offering different avenues (action, internal state, metaphysical object) to explore that premise.",
+    "variety_note": "This chapter moves entirely inward toward metaphysical conflict, contrasting sharply with previous segments that dealt with external societal or familial pressures; it is a purely transcendental engagement."
+  }
+}

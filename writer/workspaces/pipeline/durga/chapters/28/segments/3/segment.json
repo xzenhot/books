@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অস্থায়ী রূপের স্থায়িত্ব",
+  "segment_summary": "মাটির প্রতিমার ক্ষণস্থায়ীতা সত্ত্বেও, তার প্রতীকী শক্তি যেন মানব চেতনার গভীরে এক স্থায়ী ছাপ ফেলে যায়, যা বিসর্জনের পরেও টিকে থাকে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from Divine Manifestation to Human Will—where is 'Durgi' found when all ritual artifice dissolves?",
+    "story_option": "The poet engages in an obsessive act of 'un-feeling'—attempting to strip away all residual festive emotion, only to discover a deep wellspring of private yearning remains untouched by the external celebration (Setting: A quiet corner of the house; Desire: To achieve objective neutrality; Obstacle: The pervasive resonance of autumn memories; Turn: Accepting that profound feeling *is* the persistence).",
+    "subject_rotation": "Exploring the silence between moments: The specific quality of quiet when human noise fades, allowing only internal resonance.",
+    "sensory_detail": "Sound: The almost imperceptible creak of a shutter in an empty house during the post-festival lull.",
+    "research_question": "How can one poetically distinguish between 'hope' (optimistic future projection) and 'persistence' (impersonal, enduring state)?",
+    "structural_variant": "A structure built around contrasting the minute scale (a single thought/grain of dust) versus the cosmic scale (Mahishasura).",
+    "variety_note": "This chapter intentionally pivots inward, moving away from descriptions of external ritual events toward a sustained meditation on internal psychological endurance, which differs significantly from the sensory immersion of earlier acts (like *ঢাকের বোল* or *সিঁদুর খেলা*)."
+  }
+}

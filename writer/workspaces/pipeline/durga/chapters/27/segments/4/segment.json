@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "শিউলি ও জীবনের স্মৃতি",
+  "segment_summary": "বিসর্জনের পর অবশিষ্ট থাকা শিউলি ফুলের গন্ধ এবং সিঁদুরের স্মৃতিকে জীবনের স্থায়ী ছাপ হিসেবে বর্ণনা করা হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the physical remnants: The grain structure of wood used in the *প্যান্ডেল*, the specific mineral composition of the river silt, and how these 'things' resist meaning.",
+    "story_option": "Setting: A deserted riverside embankment at pre-dawn; Desire: To physically test the resilience of a specific piece of discarded ritual offering (a brittle leaf or shard) against the ongoing water flow. Obstacle: The cold, indifferent reality of physics.",
+    "subject_rotation": "Treating 'Shakti' (power) purely through mechanics and friction—the sustained energy required to maintain the cycle itself, rather than divine intervention.",
+    "sensory_detail": "Taste: The faint, astringent metallic taste left on the lips from handling certain ceremonial pigments or residual incense ash.",
+    "research_question": "Are there any ancient or regional Bengali terms for 'beautiful exhaustion' or the sublime feeling derived from necessary decline?",
+    "structural_variant": "Interweaving segments: Mixing philosophical reflection (from the summary) directly into intensely physical sensory descriptions without clear transition markers.",
+    "variety_note": "This chapter shifts the focus from grand mythological action to internal cartography; it examines how belief survives when the external icon has dissolved, prioritizing quiet persistence over dramatic declaration."
+  }
+}

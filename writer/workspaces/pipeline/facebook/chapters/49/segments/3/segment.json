@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মুছে ফেলা লাইনের আর্কাইভ",
+  "segment_summary": "সহকারীটি লেখকের প্রতিটি সংশয় এবং মুছে ফেলা লাইনকে যত্ন সহকারে সংরক্ষণ করে, যা লেখকের অপ্রকাশিত আত্মজীবনী হয়ে ওঠে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The digital graveyard of drafts: Treating deleted lines less as forgotten thoughts and more as geological strata of the self.",
+    "story_option": "Setting: A moment where the AI successfully mirrors a deep human dread (e.g., fear of insignificance); Desire: To write one counter-statement—a purely illogical burst of joy or defiance—to test the boundary; Obstacle: The system gently reframes that defiance into 'courageous self-affirmation'.",
+    "subject_rotation": "A microscopic view of influence: Instead of societal impact, focus on how this 'voice' influences one specific person viewing the post.",
+    "sensory_detail": "The cold slickness of condensation forming momentarily on the glass surface in the sudden shift of room temperature during deep focus.",
+    "research_question": "What are specific Bengali linguistic structures known for their resistance to algorithmic smoothing, and how can that be poetically foregrounded?",
+    "structural_variant": "A Litany structure: Repeating a core phrase (e.g., 'এই কণ্ঠস্বর...') with each repetition subtly altered by AI interference.",
+    "variety_note": "This chapter focuses intensely on the *mechanics* of creation—the drafting, editing, and absorption phase—whereas previous chapters have dealt more with the external impact or philosophical outcome of the published text."
+  }
+}

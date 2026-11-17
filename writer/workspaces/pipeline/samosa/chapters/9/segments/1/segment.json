@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 9,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "আঁচের ভূগোল",
+  "segment_summary": "প্রবাসের গ্যাসের শিখা এবং বাংলার মাটির চুলার তাপের মধ্যেকার মৌলিক পার্থক্য কীভাবে মশলার ভাজার প্রাথমিক ধাপকে বদলে দেয়, তা এখানে চিত্রিত হয়।",
+  "name": "9.1",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing intensely on the geometry of heat distribution within a specific type of foreign stove versus the uneven, organic heat transfer in an earthen hearth.",
+    "story_option": "Setting: A counter top, where only three whole cardamom pods remain. Desire: To find a way to perfectly crush them without losing their internal structure. Obstacle: Only a blunt metal tool remains.",
+    "subject_rotation": "Examining 'Mishran' (the blend) as an act of accidental alchemy, rather than intentional craft.",
+    "sensory_detail": "The brittle, papery sound made when a dried bay leaf curls under uneven heat.",
+    "research_question": "What is the accepted term or metaphor in regional Bengali culinary practice for the moment a spice achieves 'full bloom' in hot fat?",
+    "structural_variant": "A strophic form where each stanza is dominated by one spice's narrative arc before moving to the next.",
+    "variety_note": "Where earlier chapters dealt with the *result* (the finished product/sensation), this chapter isolates the volatile, critical *process*—the friction between tradition and mechanical reality."
+  }
 }

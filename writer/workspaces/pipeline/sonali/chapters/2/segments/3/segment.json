@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ইন্দ্রিয়ের উন্মোচন",
+  "segment_summary": "তার ইন্দ্রিয়গুলো যেন হঠাৎ জেগে উঠেছে, প্রতিটি অনুভূতি এখন এক তীব্র, অপ্রতিরোধ্য শক্তি রূপে তাকে গ্রাস করছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "আকর্ষণ ও বিচ্ছিন্নতাকে একীভূত করা: আকর্ষণটি আসলে সেই আত্মার প্রতিধ্বনি যা তাকে দূরে ঠেলে দিচ্ছে।",
+    "story_option": "একটি নিস্তব্ধ সন্ধ্যার বারান্দায়, সোনালী দূরবর্তী কোনো রাস্তার নিয়ন আলোর তীব্র রঙের দিকে তাকিয়ে থাকে (স্থান), তার ভেতরে আটকে থাকা স্বর্গীয় আনন্দ যেন ওই আলোর রঙ ধরতে চায় (আকাঙ্ক্ষা), কিন্তু আলোটি মুহূর্তে মিলিয়ে যায় এবং কেবল অন্ধকার অবশিষ্ট থাকে (বাধা/মোড়)।",
+    "subject_rotation": "দেহ ও আত্মার মধ্যেকার কথোপকথনকে একটি সাংকেতিক ভাষার মাধ্যমে উপস্থাপন করা, যেখানে রং-গন্ধ কেবল সেই ভাষার শব্দ মাত্র।",
+    "sensory_detail": "জীর্ণ বস্ত্রের ফাইবার ভেদ করে ত্বকের ওপর অনুভূত হওয়া শুকনো ধূলির সূক্ষ্ম রুক্ষতা (ট্যাক্টাইল)",
+    "research_question": "এই পরিস্থিতিতে 'বিচ্ছিন্নতার ছায়া' কি কেবল পরিবেশগত নাকি এটি সোনালী-র অভ্যন্তরীণ চেতনার স্থিতিস্থাপকতার অভাবের বহিঃপ্রকাশ?",
+    "structural_variant": "Poem begins with a highly detailed sensory immersion (Segment 1-3), followed by an abrupt halt or shift in meter/tone at Segment 4 to reflect the initial cognitive dissonance.",
+    "variety_note": "This chapter shifts focus from introspection (Chapter 1) to outward immersion; it documents how intense sensory engagement paradoxically deepens the internal sense of alienation."
+  }
+}

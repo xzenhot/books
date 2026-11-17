@@ -1,0 +1,79 @@
+{
+  "chapter_index": 58,
+  "name": "58",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "Chapter 58: The Unwavering Flame Amidst the Abyss",
+  "chapter_summary": "This chapter delves into the profound internal conflict faced by Behula as she navigates the crushing weight of societal judgment and personal despair. The imagery centers on the contrast between the 'Agni's lamp' of her faith and the 'Abyssal Void' created by her husband's absence and social ostracism. It explores the agonizing question of how one maintains selfhood when the external world refuses to acknowledge one's inherent worth. The chapter ultimately questions whether enduring suffering is merely a prerequisite for becoming a universal symbol of resilience.",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Shadow of Absence",
+      "segment_summary": "The initial segment establishes the profound emptiness left by Lakhindar's departure, framing it as a sudden, devastating silence in the heart's sanctuary.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Whispers of the Poisoned Verse",
+      "segment_summary": "This section focuses on the corrosive effect of societal scorn, where every casual remark becomes a venomous line attacking her dignity.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "The Walls of Disbelief",
+      "segment_summary": "Here, the internal conflict sharpens as the sanctuary of the in-laws' home transforms into a landscape riddled with suspicion and cold doubt.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "The Test of the Divine",
+      "segment_summary": "The narrative shifts to the spiritual battle, detailing the prolonged trials imposed by divine displeasure, testing the limits of human patience.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "The Daily Siege of Endurance",
+      "segment_summary": "This segment portrays the relentless, day-to-day struggle against external pressures and internal fatigue, highlighting the sheer effort of survival.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "The Inner Furnace of Faith",
+      "segment_summary": "Despite the surrounding despair, this part illuminates the inextinguishable inner fire of her conviction, which refuses to be extinguished by sorrow.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Universal Echo of Suffering",
+      "segment_summary": "Behula's personal ordeal transcends the self, becoming a resonant symbol for the endurance of all marginalized women.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Immutable Thread of Belief",
+      "segment_summary": "The final segment emphasizes her steadfast adherence to her core beliefs, even when confronted by the rigid constraints of cultural and religious norms.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

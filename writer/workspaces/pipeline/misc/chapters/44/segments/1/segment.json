@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 44,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "The Accumulation of Minutes",
+  "segment_summary": "The observer begins by listing the disparate, collected images—the dampness, the scent, the silent gestures—that have been cataloged throughout the preceding poems.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "পর্যবেক্ষককে এমন একজন সম্বোধন করা যিনি আর নেই এবং যার কোনো উত্তর আসে না (The Unanswered Address)",
+    "story_option": "সেটিং: প্লাটফর্মের মরিচা পড়া লোহার খুঁটি; আকাঙ্ক্ষা: স্মৃতির সেই অনুপস্থিত কণ্ঠস্বরটির ধ্বনি খুঁজছেন যিনি কোনো উত্তর দিতে অপারগ, বাধা: সময়ের প্রবাহ যা সমস্ত সাড়া থামিয়ে দেয়।",
+    "subject_rotation": "এই অধ্যায়টিকে একটি ভাষাগত ব্যর্থতা হিসেবে চিত্রিত করা—যখন ক্ষুদ্রতম বর্ণনাও বৃহত্তর সত্যকে ধরতে ব্যর্থ হয়।",
+    "sensory_detail": "ধুলোর কণা যখন সামান্য আর্দ্রতার সংস্পর্শে আসে, তখন সেটি এক মুহূর্তের জন্য চকচক করে ওঠে।",
+    "research_question": "ঐতিহাসিকভাবে বা প্রতীকীভাবে 'সিঁদুর' কীভাবে তার বস্তুকরণ এবং সাংস্কৃতিক ভার বহন করার ধারণার সাথে সম্পর্কিত হতে পারে?",
+    "structural_variant": "কবিতাটির সূচনা পুরোপুরি শ্রুতিমধুর ধ্বনি (যেমন রেলের চাকা বা বাতাসের ফিসফিস) দিয়ে হওয়া, যেখানে দৃশ্য কেবল দ্বিতীয় স্তরে আসে।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলো যেখানে বিশাল কাঠামোর ইঙ্গিত দিচ্ছিল, এই অধ্যায়টি সেই বৃহৎ কাঠামোকে প্রত্যাখ্যান করে এবং ক্ষুদ্রতম, ইন্দ্রিয়গ্রাহ্য অভিজ্ঞতার মাধ্যমে একটি নতুন ধরনের সংহতি খোঁজার চেষ্টা করছে।"
+  }
 }

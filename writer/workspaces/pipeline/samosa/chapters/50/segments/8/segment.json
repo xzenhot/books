@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "স্বাদের দার্শনিক প্রশ্ন",
+  "segment_summary": "এই অধ্যায়টি শেষ হবে এই প্রশ্নটি রেখে—স্বাদ কি কেবল একটি রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the dialectical relationship between 'hot' (আঁচ) and 'cold/neutral' (শীতলতা), using physical temperature shifts as metaphor.",
+    "story_option": "Setting: A dimly lit, solitary kitchen workspace after midnight; Desire: To recreate the specific sound of *tala* hitting oil in rhythmic succession; Obstacle: Modern cookware lacks the necessary patina and resonance of old brass/iron; Turn: The memory manifests as a phantom vibration felt through the counter.",
+    "subject_rotation": "Exploring the difference between 'cooking medium' and 'memory carrier' within the context of fat.",
+    "sensory_detail": "The slick, uniform glide of neutral oil across an unseasoned surface.",
+    "research_question": "How can word stress and syllable count be manipulated in Bengali poetry to mimic the rush of an intense, brief aroma versus a slow, pervasive one?",
+    "structural_variant": "An escalating intensity: starting with subtle notes in Segments 1-3, moving into emotional dissonance in Segments 4-6, and concluding with philosophical resignation in 7-8.",
+    "variety_note": "This chapter shifts focus from the object's transformation in transit (neighboring chapters) to the *medium* itself—the cooking oil—as the primary carrier and casualty of cultural displacement, providing an intensified sensory contrast."
+  }
+}

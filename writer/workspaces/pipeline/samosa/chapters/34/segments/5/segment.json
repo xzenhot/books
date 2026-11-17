@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 34,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অনুবাদিত স্বাদ",
+  "segment_summary": "এই অসমাপ্ত স্বাদটি যেন একটি 'অনুবাদিত' ভাষা—যা কোনো নতুন ভূগোলে তার মূল অর্থ খুঁজে পায় না, কেবল একটি প্রতিচ্ছবি হয়ে থাকে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting a forensic, almost scientific examination of the empty space in the stomach/memory to locate the missing flavor molecule.",
+    "story_option": "Setting: Inside a heavily insulated storage container ('packet') filled with imported goods; Desire: To trap and replicate the precise ambient humidity of an old Dhaka kitchen; Obstacle: The sterile, inorganic nature of modern transport.",
+    "subject_rotation": "Re-framing the void not as absence, but as latent potential—the possibility of a flavor that could exist outside of physical matter.",
+    "sensory_detail": "Touch: The sensation of clinging oil residue on the fingertips that resists washing away with simple water or soap.",
+    "research_question": "What specific archaic Bengali word conveys a sense of 'incomplete satisfaction' while maintaining a high poetic register?",
+    "structural_variant": "An intensely cyclical structure where each segment title is a thematic loop returning to the concept of 'residue.'",
+    "variety_note": "Unlike its neighbours which focus on the preparation (beginning) or geographical separation, this chapter concentrates solely on the *aftermath* and the philosophical implication of that residue."
+  }
+}

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 79,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ব্যক্তিগত যন্ত্রণার ঊর্ধ্বে",
+  "segment_summary": "বেহুলার ব্যক্তিগত শোকের আড়ালে তার সংগ্রাম এক বৃহত্তর নারীত্বের প্রতিচ্ছবি হয়ে ওঠে, যা সমাজের চোখে উপেক্ষিত নারীদের কণ্ঠস্বর হয়ে ওঠে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the tactile sensation of internalized judgment—how societal contempt manifests as a physical weight pressing down upon her chest.",
+    "story_option": "Setting: Amidst a sparse, windswept field where her symbolic object (a single, intricately preserved lotus petal) rests; Desire: To force the wind to acknowledge its meaningless noise before it disturbs the petal's stillness; Obstacle: The ceaseless, grating friction of the dry earth.",
+    "subject_rotation": "Shifting the focus entirely onto the *receiver* of her suffering—how society, when confronted with her unwavering symbol, finds its own definitions inadequate and collapses under self-doubt.",
+    "sensory_detail": "The faint scent of cooled ash mixed with petrichor after a heavy, judgmental storm—a mix of finality and cleansing.",
+    "research_question": "What specific archaic Bengali vocabulary can convey 'collective unconscious weight' related to female suffering without resorting to overly academic jargon?",
+    "structural_variant": "A highly recursive segment model where the answer to each preceding segment is questioned in a new, sharper form.",
+    "variety_note": "Unlike previous segments that focused on external pressure, this chapter rotates inward, using internal sensations and abstract philosophical framing to describe how a private agony transmutes into an unavoidable social commentary."
+  }
 }

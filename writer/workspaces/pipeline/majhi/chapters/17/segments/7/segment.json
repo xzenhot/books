@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "মুক্ত স্রোতের অঙ্গীকার",
+  "segment_summary": "সে অঙ্গীকার করে যে সে তার মুক্ত স্রোতের নীতিতে অবিচল থাকবে, যতই বাধা আসুক না কেন।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the silent concrete barrier as a philosophical interlocutor rather than just an obstacle.",
+    "story_option": "Setting: Near a solitary, barely visible patch of untouched mudflats at deep twilight. Desire: The majhi seeks tangible proof that the ancient way still exists there. Obstacle: A distant sound of heavy machinery working on an embankment.",
+    "subject_rotation": "Treating 'Udarata' not just as generosity, but as a necessary counter-force to entropy.",
+    "sensory_detail": "The metallic scent of oxidized river iron clinging to the boat's hull after a long night.",
+    "research_question": "What specific imagery in Bengali folklore addresses the concept of an intangible debt owed to nature?",
+    "structural_variant": "A poem structured as a series of rhetorical questions addressed outwards (to the river/wall) before settling on one final, unanswerable statement.",
+    "variety_note": "Unlike previous chapters that focused on external pressures (bridges, debt), this chapter centers entirely on internal philosophical synthesis—the integration of accepted reality into a lasting personal conviction."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 29,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "চক্রের অনিবার্যতা",
+  "segment_summary": "বিনাশের পরেই নতুন আশার বীজ অঙ্কুরিত হওয়ার এই চক্রাকার দর্শনটি মানব অস্তিত্বের মৌলিক সত্যকে তুলে ধরে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the doubt not as a theological query, but as an acute human exhaustion with the necessity of repetition.",
+    "story_option": "The poet isolates themselves in a quiet room, not to reminisce (like previous chapters), but to conduct an extremely rigorous mental deconstruction of the *joy* itself, seeking its inherent instability. Setting: Cloistered inner sanctum; Desire: Absolute objective clarity; Obstacle: The seductive pull of nostalgia; Turn: A sudden realization that joy *is* the energy they seek.",
+    "subject_rotation": "Focusing on the Internal Landscape of the Devotee: Minimizing external ritual imagery and concentrating instead on the neurological/emotional mapping of belief.",
+    "sensory_detail": "Smell: A scent profile combining aged copper (from ritual implements) mixed with the sharp, sterile odor of cleansing rainwater.",
+    "research_question": "How can the concept of 'necessary futility' be rendered using Bengali vocabulary without slipping into mere resignation? What linguistic shade signifies beautiful exhaustion?",
+    "structural_variant": "A non-linear movement: Jumping abruptly from the post-immersion silence to a moment of peak festival chaos, then back again, mirroring mental processing.",
+    "variety_note": "This chapter pivots away from recounting specific events to interrogating their residual energetic trace; it moves inward toward the philosophy of endurance after ritual climax, distinguishing itself by its focus on somatic memory rather than narrative progression."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ভেতরের স্থিতিশীলতার পরীক্ষা",
+  "segment_summary": "এই বাহ্যিক চাপ সত্ত্বেও, বেহুলার ভেতরের স্থিতিশীলতা কীভাবে এই প্রতিকূলতার বিরুদ্ধে প্রতিরোধ গড়ে তোলে, তা এই অংশে আলোচিত হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrasting the grand mythology of Likhindar/Behula with the petty cruelty found in everyday social interactions.",
+    "story_option": "A confrontation with one specific elder woman in the community whose judgmental gaze carries the weight of generations of unspoken societal law.",
+    "subject_rotation": "Using nature imagery (a storm moving over a landscape) as an analogue for social judgment sweeping across her solitude.",
+    "sensory_detail": "The faint scent of stale gossip mingling with street dust during hushed community assemblies.",
+    "research_question": "What specific, culturally resonant Bengali terms exist for socially imposed stigma that fit the elevated diction?",
+    "structural_variant": "An interweaving of very short, sharp vignettes (representing individual slights) against one longer philosophical reflection.",
+    "variety_note": "Unlike the first chapter which dealt with sharp shock, this piece must dwell in a sustained state of abrasive tension—the slow weariness of being continuously judged rather than abruptly struck."
+  }
+}

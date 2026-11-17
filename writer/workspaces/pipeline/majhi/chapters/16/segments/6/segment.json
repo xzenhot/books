@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নদীর নিজস্ব উত্তর",
+  "segment_summary": "এই অংশে নদী নিজেই তার প্রবাহের মাধ্যমে উত্তর দেয়, যা কোনো মানবীয় হিসাবের বাইরে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Personification reversal: instead of the man embodying the spirit, have the *river* momentarily assert its own consciousness through a specific eddy or current shift.",
+    "story_option": "Setting: A single, isolated lamp post on a distant ghat after midnight. Desire: To see one face utterly unburdened by transaction—a genuine smile across the water—Obstacle: All visible faces are obscured or shadowed.",
+    "subject_rotation": "Analyzing the silence between notes in the Bhatiyali—the pregnant pauses which hold more cultural meaning than the sound itself.",
+    "sensory_detail": "The metallic chill rising off the concrete pilings when the last rays of sun reflect off them.",
+    "research_question": "What are precise Bengali descriptive terms for a sound that is simultaneously beautiful and structurally abrasive (like old wood meeting modern metal)?",
+    "structural_variant": "Employing a fugal structure where musical motifs from Bhatiyali reappear warped and distorted over successive stanzas/segments.",
+    "variety_note": "While neighbours explored the *clash* between river and modernism (disasters, structures), this chapter focuses entirely on the internal philosophical harvest—the final decision about what endures when the clash is inevitable."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আদিম ভারসাম্যের আহ্বান",
+  "segment_summary": "এই মুহূর্তে পথিক আদিম ভারসাম্যের দিকে ঝুঁকে পড়ে, যেখানে মানুষের ইতিহাস গৌণ হয়ে প্রকৃতির চক্রাকার নিয়মের অধীন।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus entirely from the *ruin* (the structure) to the *soil* beneath it, portraying the earth as the passive yet overwhelmingly assertive protagonist of this moment.",
+    "story_option": "Setting: Near the village boundary where Satual children gather stones; Desire: The traveler attempts to initiate conversation about 'what comes next'; Obstacle: The children communicate only through rhythm, refusing narrative language.",
+    "subject_rotation": "Adopting a highly fragmented, stream-of-consciousness style during the 'self-realization' segments, mirroring cognitive breakdown rather than philosophical ascent.",
+    "sensory_detail": "Touch: The abrasive texture of pulverized lime dust coating everything, acting as a physical barrier to clear thought.",
+    "research_question": "What specific micro-fauna or fungal life thrive uniquely on derelict brickwork in this climate?",
+    "structural_variant": "A cyclical structure where each segment ends with a line borrowed or echoed from the prior chapter's concluding thought, creating an ever-tightening spiral toward Chapter 15.",
+    "variety_note": "This chapter shifts inward significantly from previous sections; while earlier chapters observed tension between man and land, here the focus is solely on the traveler's internal mechanism dissolving under existential pressure before facing the final external storm."
+  }
+}

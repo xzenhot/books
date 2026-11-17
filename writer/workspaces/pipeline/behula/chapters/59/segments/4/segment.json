@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 59,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার পূর্ণতা",
+  "segment_summary": "স্বামীর ফিরে আসায় সেই অতল শূন্যতা পূরণ হয়, যা সামাজিক প্রত্যাখ্যান এবং বিচ্ছিন্নতার কারণে সৃষ্টি হয়েছিল।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "দৃষ্টিভঙ্গি পরিবর্তন: প্রত্যাবর্তনটিকে কোনো নাটকীয় 'মিলন' হিসেবে না দেখিয়ে, দুটি বিচ্ছিন্ন শক্তি কাঠামোর মধ্যে হওয়া অনিবার্য 'স্থিতিশীলতা' অর্জন হিসেবে চিত্রিত করা।",
+    "story_option": "সেটিং: একটি পুরনো, ধূসর পাথরের সিঁড়ি (যেখানে সংগ্রাম শুরু হয়েছিল); আকাঙ্ক্ষা: শান্ত হওয়া এক মুহূর্তের নীরবতা; বাধা: অতীতের আঘাতগুলোর সম্মিলিত ভার; পরিবর্তন: সেই নীরবতাই নতুন সংকল্পে পরিণত হয়।",
+    "subject_rotation": "স্বামীর প্রত্যাবর্তনকে শারীরিক পুনর্মিলনের চেয়ে একটি গভীর 'বাস্তবতার পুনরুদ্ধার' হিসেবে দেখানো—যা তার নিজের অস্তিত্বের প্রমাণ দেয়।",
+    "sensory_detail": "ফাটল ধরা মাটির শুষ্ক গন্ধ, যা প্রাচীন কষ্টের কথা স্মরণ করিয়ে দেয় (ঘ্রাণ)।",
+    "research_question": "কবি কীভাবে লখিন্দরের প্রত্যাবর্তনকে এমনভাবে চিত্রিত করবেন যেন তা কোনো অ্যাকশন নয়, বরং দুটি বিচ্ছিন্ন মহাজাগতিক শক্তির অনিবার্য পুনঃসংযুক্তি (Coalescence)?",
+    "structural_variant": "Structure of 'Inhale/Exhale': দীর্ঘ শ্বাস (প্রতীক্ষা) এবং ক্ষিপ্র নিঃশ্বাস (পুনর্মিলন)-এর বৈসাদৃশ্য নিয়ে লেখা।",
+    "variety_note": "Neighbouring chapters focused on the struggle's mechanics; this chapter must focus entirely on the philosophical weight and quiet consequence of resolution, using highly specific sensory grounding."
+  }
+}

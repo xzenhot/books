@@ -4,19 +4,19 @@
   "chapter_index": 8,
   "segment_index": 4,
   "total_segments": 8,
-  "segment_title": "কংক্রিটের উত্তর",
-  "segment_summary": "নদী কংক্রিটের অহংকারের উত্তর দেয় নিজের ভাষায় — বন্যা, ভাঙন, স্রোতের হঠাৎ উল্টে যাওয়া; কবিতা এই প্রতিশোধকে প্রকৃতির সতর্কতা হিসেবে দেখে।",
+  "segment_title": "নৌকার ভারসাম্য",
+  "segment_summary": "গোপালের নৌকা, যা বহু বছরের অভিজ্ঞতায় স্থিতিশীল ছিল, তা এখন এই নতুন, অস্থির জলধারায় ক্রমাগত ভারসাম্য হারানোর ঝুঁকিতে রয়েছে।",
   "name": "4",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Focusing on the residue of destruction: The poem begins after a major flood surge has passed, focusing only on the unnerving quiet and the strange clarity of the water left behind.",
-    "story_option": "Setting: A specific, recently flooded small fishing cove; Desire: Gopal attempts to salvage something utterly insignificant—a single worn piece of netting—to affirm life's persistence despite the water’s malice; Obstacle: The water itself refuses to let him recover it, flowing around his reach.",
-    "subject_rotation": "Shifting emphasis from 'anger' to 'indifference': Presenting the river not as vengeful, but perfectly neutral, which is arguably a more terrifying judgment.",
-    "sensory_detail": "The visual contrast between the slick, black sheen of newly exposed, waterlogged clay and the sun-bleached white foam that finally retreats from the banks.",
-    "research_question": "What is the precise local vocabulary for 'unpredictable current' in a heavily modified river system?",
-    "structural_variant": "A cyclical structure where Segment 1 describes a calm day, and Segment 8 re-examines that very same calm state through the lens of recent catastrophe.",
-    "variety_note": "This chapter deliberately moves beyond description of conflict (as seen in previous chapters) to focus on the *consequences* and the existential quietude following a moment of overwhelming natural force, making it more reflective than combative."
+    "angle": "নদীকে একজন পুরাতন প্রত্নতত্ত্ববিদ হিসেবে দেখা—যিনি তার নিজস্ব জলপ্রবাহের পরিবর্তন লক্ষ্য করছেন এবং বুঝতে পারছেন যে 'ঐতিহাসিক স্তর' সরে যাচ্ছে।",
+    "story_option": "সেটিং: একটি গভীর খাদ যেখানে হঠাৎ করে পলি নেমে গেছে; আকাঙ্ক্ষা: গোপাল সেই তলদেশের কোনো অদ্ভুত, প্রাচীন বস্তুটি খুঁজে পান যা আগের জীবনযাত্রার সাক্ষ্য দেয়; বাধা: স্রোত দ্রুত গতিতে তাকে টেনে নিয়ে যায়।",
+    "subject_rotation": "এই অধ্যায়টিকে কেবল 'প্রাকৃতিক বিপর্যয়' হিসেবে না দেখে, এটিকে প্রকৃতির নিজস্ব মেজাজ বা মানসিকতার পরিবর্তন হিসেবে দেখা—যে নদী এখন আর শান্ত 어머니 নয়, বরং অস্থির সত্তা।",
+    "sensory_detail": "জলস্তর কমলে কাঠের তলায় পৌঁছানো নদীর নীচের ঠান্ডা পাথরের তীক্ষ্ণ অনুভূতি এবং তার সঙ্গে মিশে যাওয়া ভেজা মাটির হিমেল গন্ধ।",
+    "research_question": "ভাটিয়ালি গানের মধ্যে এমন কোনো আভিধানিক শব্দ আছে কিনা যা জলের স্থিতিশীলতা বা প্রবাহকে নির্দিষ্টভাবে বর্ণনা করে, এবং বর্তমানে সেই শব্দটি ব্যবহার করা হচ্ছে কিনা?",
+    "structural_variant": "এই অধ্যায়টিকে কেন্দ্র করে দুটি ছোট উপ-গল্পের মতো বিন্যাস করা: ১. জল কমে যাওয়ার মুহূর্ত; ২. জল বেড়ে ওঠার মুহূর্তে সেই একই দৃশ্যকে অন্য আঙ্গিকে তুলে ধরা।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলির শারীরিক ক্ষয় বা সামাজিক সংঘাতের বিপরীতে, এই পর্বটি সম্পূর্ণভাবে 'অস্থিরতার আবহ' নির্মাণ করে; যেখানে সংঘাত বাহ্যিক নয়, বরং অস্তিত্বগত অনুভূতির স্তরীয় পরিবর্তন নির্দেশ করে।"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 63,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "ব্যক্তিগত ট্র্যাজেডি কীভাবে সমষ্টিগত প্রেরণা ও মানব আত্মার আদিম স্পন্দনে রূপান্তরিত হয়, তা এই অংশে আলোচিত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The volta as a reinterpretation of the entire trial: The moment of reunion is not an end, but a new beginning that forces a critical reassessment of what 'salvation' truly means in this society.",
+    "story_option": "Setting: A sun-drenched, yet still tense courtyard (যা পূর্বে সন্দেহের ক্ষেত্র ছিল); Desire: To touch the returning figure without invoking fear or doubt; Obstacle: The collective silence of those who witnessed her suffering.",
+    "subject_rotation": "Focusing on the *echo* rather than the sound: How does the victory resonate backward through the chapters of sorrow, reshaping them into acts of necessary spiritual preparation?",
+    "sensory_detail": "The specific, warm texture of an aged textile brushed against her skin after long austerity.",
+    "research_question": "How can the transition from extreme internal suffering (Chapter 6) to external triumph (Chapter 15/63) be narrated while maintaining a consistent high-register diction?",
+    "structural_variant": "Circular argument: Structure each segment as a rhetorical counterpoint to the previous one—Thesis (Trial) -> Antithesis (Faith/Endurance) -> Synthesis (Reunion).",
+    "variety_note": "This chapter pivots from intense internal struggle to external fulfillment; where neighbors dwelt in pressurized introspection, this segment emphasizes resonant proclamation and enduring spiritual aftermath, while incorporating a deliberate structural volta based on re-reading past experience through the lens of reunion."
+  }
+}

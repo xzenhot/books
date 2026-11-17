@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ত অপেক্ষার তেল",
+  "segment_summary": "এই অধ্যায়টি শেষ হয় সেই নিখুঁত, আদি গন্ধযুক্ত তেলের জন্য এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার মধ্য দিয়ে, যা কেবল স্মৃতিতে বিদ্যমান।",
+  "name": "6.8",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The voice shifts from 'I' (the diaspora member) to the perspective of the *fat/oil itself*, narrating its forced migration and existential dissonance between two regions.",
+    "story_option": "Setting: Indoors, tracing the edge of an old tiffin carrier where the residual smell lingers; Desire: To recall the precise *sound* the dripping ghee made against a hot pan back home, Obstacle: Only the dull hum of modern refrigeration remains.",
+    "subject_rotation": "Exploring the concept of flavor *as* resistance; how the difference in oil constitutes an active, non-verbal protest against assimilation.",
+    "sensory_detail": "Olfactory: A detailed description of the pungent, almost acrid tang that precedes the 'sweet' flavor notes in traditional cooking.",
+    "research_question": "Are there established poetic devices (e.g., metonymy, synecdoche) within Bangla literature used to describe absence in sensory perception?",
+    "structural_variant": "Using an epistolary style where letters are exchanged *between* two pots: one old, smoky (Bengal), one new, pristine (Diaspora).",
+    "variety_note": "While Neighbour 1 focused on nomenclature and memory's word, this chapter fixes firmly onto the foundational ingredient: the medium itself (oil), treating its physical substitution as a primary act of cultural erosion."
+  }
+}

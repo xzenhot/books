@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অভ্যন্তরীণ শক্তির অনুসন্ধান",
+  "segment_summary": "এই প্রতিকূলতার মাঝেও, বেহুলার ভেতরের সেই অদম্য শক্তির উৎস কী, যা তাকে ভেঙে পড়তে দেয় না? ",
+  "name": "5.5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating 'competition' not for social status but for existential right—the battle simply to occupy space and breathe within hostile walls.",
+    "story_option": "Setting: Near a domestic hearth, where tasks must be performed; Desire: Acknowledgment of her inherent worth through effort (turning), but the resistance comes from objects themselves—a chipped utensil that seems to judge her pace.",
+    "subject_rotation": "Examining how exhaustion forces a philosophical regression, where survival momentarily eclipses grand ambition, finding profound meaning in simple continuance.",
+    "sensory_detail": "A sound like dry leaves skittering across stone in an otherwise silent, tense morning (Sound).",
+    "research_question": "How can the elevation of personal endurance be framed poetically without becoming self-aggrandizement when depicting resilience?",
+    "structural_variant": "A heavily recursive structure where each segment begins by subtly echoing a word or rhythm from the previous one, creating auditory claustrophobia.",
+    "variety_note": "Unlike the preceding chapters which focused on external assaults (social/familial), this chapter pivots inwards, concentrating on the metabolic cost—the physical and psychological labor required just to maintain her presence amid perceived rivals."
+  }
+}

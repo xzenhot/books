@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 80,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রথা বনাম আত্মা",
+  "segment_summary": "প্রচলিত সামাজিক নিয়মাবলী এবং বেহুলার আত্মার মৌলিক আকাঙ্ক্ষার মধ্যেকার দ্বন্দ্ব তীব্রভাবে প্রকাশিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing tradition not as an external force, but as a deeply ingrained biological rhythm within her own body that she must consciously override through sheer will (Symbiotic Resistance).",
+    "story_option": "Setting: During the prescribed time for evening prayer at a temple fringe; Desire: For her personal invocation to bypass established orthodoxies and speak directly to the infinite Void; Obstacle: The weight of required public adherence overwhelming private yearning.",
+    "subject_rotation": "Focusing intensely on the materiality of constraint: how specific fabrics, architectural beams, or ritual utensils embody the repressive social structures against which she fights.",
+    "sensory_detail": "The dull ache in the joints from standing too long in an overly formal posture demanded by custom.",
+    "research_question": "What specific lexical items exist in archaic Bengali that signify 'internal sovereignty' without invoking direct theological language?",
+    "structural_variant": "A deliberately non-linear structure, where a segment about societal pressure is followed immediately by a fragmented memory of absolute freedom (a flashforward/flashback juxtaposition).",
+    "variety_note": "This chapter moves away from pure grief or external defiance (as seen previously) to a deep dive into the *structural* battleground—the collision between deeply ingrained societal programming and irreducible spiritual selfhood."
+  }
+}

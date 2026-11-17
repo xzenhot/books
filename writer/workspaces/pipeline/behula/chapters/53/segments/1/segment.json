@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 53,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের ভার",
+  "segment_summary": "স্বামীর শূন্যতা এবং পারিবারিক সন্দেহের শীতলতা বেহুলার প্রতিদিনের অস্তিত্বকে এক ক্লান্তিকর যুদ্ধে পরিণত করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal battle not as spiritual, but purely psychological—a constant negotiation with self-doubt against inherited societal expectation.",
+    "story_option": "Setting: A high window facing a relentless, oppressive glare; Desire: To find one moment where the light feels cleansing rather than exposing; Obstacle: The weight of her own unspoken history becoming visible.",
+    "subject_rotation": "Exploring endurance through stoicism, stripping away romanticism to reveal sheer, grueling tenacity.",
+    "sensory_detail": "The abrasive texture of uncleaned, worn stone under bare feet during long hours indoors (Tactile).",
+    "research_question": "How can I invoke a Bengali linguistic equivalent for 'existential fatigue' without sounding clinical or overly academic, matching the high diction?",
+    "structural_variant": "Segment structure built around escalating rhetorical questions (a cascade of 'কেন?', which is not used elsewhere).",
+    "variety_note": "This chapter drills down on sustained internal friction—the weariness born from maintaining dignity in hostile quietude—a stark contrast to the externalized conflict seen in earlier arcs."
+  }
 }

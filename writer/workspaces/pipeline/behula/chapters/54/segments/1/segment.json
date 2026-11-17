@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 54,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত সংগ্রাম শেষে স্বামীর প্রত্যাবর্তন এক মহাকাব্যিক মুহূর্ত তৈরি করে, যা বেহুলার দীর্ঘ অপেক্ষার সমাপ্তি ঘোষণা করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the returned figure (স্বামী) as a reflection of her own endurance, rather than solely as a rescue agent.",
+    "story_option": "Setting: The quiet periphery just outside the threshold; Desire: To simply share one unarticulated glance across the space they occupied during separation; Obstacle: The invisible weight of all endured societal scrutiny.",
+    "subject_rotation": "Shifting focus from 'Victory' (achievement) to 'Integration' (the difficult, slow process of merging two profoundly altered selves).",
+    "sensory_detail": "The metallic taste of long-held anxiety that only dissolves momentarily with the presence of his familiar scent.",
+    "research_question": "What classical Bengali metaphor describes fortitude that possesses crystalline rigidity without suggesting utter finality or cessation of striving?",
+    "structural_variant": "A cyclical structure where each segment uses a foundational image from the previous one, but reverses its emotional implication (e.g., 'Light' becomes 'Shadowed Memory').",
+    "variety_note": "This chapter shifts focus from the immediate trauma and struggle (previous segments) to the *aftermath*—the nuanced, complex emotional reality of sustained existence following an epic spiritual war, while challenging whether this victory is truly absolute or merely conditional."
+  }
 }

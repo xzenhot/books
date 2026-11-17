@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 69,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ভেতরের অগ্নিকুণ্ডের স্পন্দন",
+  "segment_summary": "বাইরের সমস্ত নিস্তব্ধতা ও হতাশার বিপরীতে, তার হৃদয়ের গভীরে এক অদম্য শিখা মৃদুভাবে জ্বলতে থাকে, যা তাকে বাঁচিয়ে রাখে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating societal scorn (কটাক্ষ) as an external entropy—a slow, pervasive decay rather than a direct assault.",
+    "story_option": "Setting: Deep inside a hidden part of the manor where light rarely touches; Desire: For the flame to consume itself completely, achieving pure state over perpetual burning; Obstacle: The need for external witness validates its existence.",
+    "subject_rotation": "Shifting focus to the *burden* of belief: What is it like to carry an impossible promise (like seven vows) when reality offers only attrition?",
+    "sensory_detail": "A faint, almost imperceptible metallic tang associated with overwhelming mental strain (taste)",
+    "research_question": "How can the concept of 'spiritual depletion' be rendered poetically without resorting to clinical language, adhering strictly to high Sanskritized Bengali?",
+    "structural_variant": "A highly recursive structure where the central metaphor (the thread/flame) dissolves and reforms in each segment, never remaining static.",
+    "variety_note": "This chapter moves beyond describing the initial trauma (like Chapter 1) and delves into the mechanism of survival: how sheer psychological density is maintained when all external support structures fail."
+  }
+}

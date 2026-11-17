@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সংরক্ষণ বনাম আত্মসমর্পণ",
+  "segment_summary": "পথিকের মনে প্রবল আকাঙ্ক্ষা জন্মায় যে সে এই জীর্ণ কাঠামোকে তার ঐতিহাসিক মহিমা ফিরিয়ে দিতে পারে, যা তার নগরকেন্দ্রিক জ্ঞান দ্বারা সম্ভব বলে সে মনে করে।",
+  "name": "8.1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focus entirely on the physical manifestation of the traveler's internal contradiction—a hand trying to apply precise scientific knowledge (e.g., measurement tools) onto a surface that only accepts intuitive touch.",
+    "story_option": "Setting: The precise point where plaster has flaked off, revealing the underlying earth; Desire: To impose a digital grid overlay onto this flaw to map its 'history,' Obstacle: The fine red dust refuses any linear measurement.",
+    "subject_rotation": "Treating the 'Savior Complex' as a specific symptom of urban alienation rather than an abstract vice.",
+    "sensory_detail": "Sight: The precise hue difference between the dried-out lime plaster and the living red pigment of a stray plash flower growing on its surface.",
+    "research_question": "How does the visual quality of light change when passing through dense clouds composed primarily of red iron oxide particles?",
+    "structural_variant": "A highly rhetorical internal monologue delivered entirely through short, declarative, almost brutal statements to contrast the perceived grandiosity of the ruin.",
+    "variety_note": "This chapter is materially different by centering entirely on the internal conflict—the cognitive clash between ordered knowledge and chaotic reality—whereas neighbours focused more on external observation or philosophical reception."
+  }
+}

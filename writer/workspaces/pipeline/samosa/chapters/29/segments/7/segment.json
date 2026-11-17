@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 29,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "প্রশ্নটির অনন্ততা",
+  "segment_summary": "স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি মানবিক অভিজ্ঞতার অংশ—এই মৌলিক প্রশ্নটি এখানে কোনো উত্তর ছাড়াই অনন্তকাল ধরে ঝুলিয়ে রাখা হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the shift from internal monologue (self-reflection) to an externalized address to a non-existent 'ancestral flavor' that embodies the lost essence.",
+    "story_option": "Setting: A quiet street corner where the scent of spices from an unfamiliar, potent new shop momentarily overlays the expected taste; Desire: To wrestle that momentary foreign aroma into submission with memory's fire; Obstacle: The sheer overwhelming power of the present, unrelated sensory input.",
+    "subject_rotation": "Treating 'taste' as a language barrier—the final, untranslatable word in a dialect lost across the border.",
+    "sensory_detail": "Sound: The almost imperceptible microscopic *creak* or shift in the hardened fat coating when a finger brushes it.",
+    "research_question": "How can 'মধুর বিষাদ' be achieved through syntactic fragmentation without descending into merely incoherent stream-of-consciousness?",
+    "structural_variant": "A structure built on a central refrain that acts as a constant negation: 'Not this, but the one before.'",
+    "variety_note": "Unlike earlier chapters that detailed ingredients or travel stages, this chapter focuses entirely on the metaphysical resonance—the *aftertaste* as an abstract philosophical object rather than a concrete memory fragment. It introduces uncertainty as its central theme."
+  }
+}

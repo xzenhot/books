@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 74,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নীরব আর্তনাদের ভাষা",
+  "segment_summary": "তার নীরব সংগ্রাম, যা বহু মানুষের অব্যক্ত যন্ত্রণা বহন করে, তা কীভাবে কাব্যিক রূপ ধারণ করে এবং সমাজের প্রতি এক গভীর অভিযোগ তুলে ধরে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the suffering not as a wound, but as crystallized resilience—a permanent state of being rather than an event.",
+    "story_option": "Scene Seed: In the lowest hour before dawn (as per lens), she does not weep but instead carefully gathers dust motes from the floor of the empty chamber, treating them as fragments of discarded judgments, and arranges them into a defiant pattern.",
+    "subject_rotation": "Treating her endurance less as spiritual perseverance and more as a radical act of sociological sabotage against oppressive social structures.",
+    "sensory_detail": "The grit of fine, dry earth felt beneath bare feet during a solitary vigil (touch).",
+    "research_question": "What specific archaic Bengali vocabulary can convey 'unyielding ethical scaffolding' without being overly formal or abstract?",
+    "structural_variant": "Segmented by sonic texture: Each segment defined primarily by its dominant soundscape (e.g., high-frequency whispers vs. low-resonance thrumming).",
+    "variety_note": "This chapter moves beyond the initial shock (Chapter 1) by rigorously examining *how* that shock is processed and transformed, focusing heavily on the societal friction points rather than just the internal resolve."
+  }
+}

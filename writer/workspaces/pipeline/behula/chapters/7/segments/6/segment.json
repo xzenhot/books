@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ধৈর্যের মহিমা",
+  "segment_summary": "অদম্য ধৈর্য এবং অবিচলতার মাধ্যমে বেহুলার চরিত্রটি প্রমাণ করে যে, প্রতিকূলতার মুখেও মানবিক স্পন্দন কীভাবে টিকে থাকতে পারে।",
+  "name": "6",
+  "word_target": 187,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting from personal agony to ritualized defiance: presenting each act of daily survival not as mundane labor, but as a sacred, ongoing liturgy.",
+    "story_option": "Setting: At the periphery of a village gathering where gossip is sharpest; Desire: To utter one single, perfectly measured sentence that refutes the collective narrative without anger (turning obstacle); Obstacle: The immediate physical pressure from onlookers forcing silence.",
+    "subject_rotation": "Examining the relationship between private grief (Likhindar) and public performance (widowhood) as two opposing yet mutually defining acts.",
+    "sensory_detail": "A sudden, sharp scent of wild night-blooming jasmine cutting through the stale air of the inner rooms.",
+    "research_question": "What specific traditional markers or rituals related to widowhood in this cultural context are being implicitly challenged by Behula's existence?",
+    "structural_variant": "Interspersing sections of precise, observational landscape description (the village periphery) with bursts of internal psychological pressure.",
+    "variety_note": "While neighbours might focus on external social pressure, this chapter delves deeper into the internal mechanics of resistance—how memory and personal ritual become acts of metaphysical survival against systemic erosion."
+  }
+}

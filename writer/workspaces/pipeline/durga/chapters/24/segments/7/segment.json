@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 24,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অনিবার্য ঘোষণা",
+  "segment_summary": "এই কাব্যিক যাত্রাটি প্রমাণ করে যে, শক্তির প্রত্যাবর্তন কেবল একটি সামাজিক রীতিনীতি নয়, বরং চেতনার পুনর্জন্মের অনিবার্য ঘোষণা।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the residual physical traces left by ritual—e.g., specific stains on aged wood or ground where rituals occurred.",
+    "story_option": "Setting: A lonely ghat at dawn, post-immersion; Desire: To find a single, miraculously preserved artifact (a small piece of sacred thread) that defies the water’s passage and holds the essence of the past.",
+    "subject_rotation": "Shifting from 'spiritual rebirth' to 'cultural memory': How does the yearly ritual act as a necessary anchor against the drift of modern societal anonymity?",
+    "sensory_detail": "Smell: The dry, brittle odor of crushed *কাশফুল* stalks layered over the metallic hint of stagnant river water.",
+    "research_question": "What specific Bengali colloquialisms exist to describe profound, quiet longing for an unattainable state of being without employing explicit mythological vocabulary?",
+    "structural_variant": "Employing three consecutive segments that operate entirely as rapid-fire interrogations (Socratic style), breaking the meditative flow before returning to deep contemplation.",
+    "variety_note": "Unlike preceding chapters which focused on the act of creation or ecstatic celebration, this chapter must prioritize inertia and residue—the aftermath, the sustained internal whisper after the grand noise has ceased."
+  }
+}

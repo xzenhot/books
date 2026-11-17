@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার প্রতিধ্বনি",
+  "segment_summary": "এই শূন্যতা কোনো অভাববোধ নয়, বরং এটি সেই স্বর্গীয় আনন্দের অনুপস্থিতির এক গভীর অনুরণন, যা আরও বড় কিছুর ইঙ্গিত দেয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing silence not as absence, but as a hyper-present density—a tangible pressure that demands metaphysical accounting.",
+    "story_option": "Setting: Close proximity to an ancient ceramic vessel, its surface dull and unpolished; Desire: To feel the material integrity of silence against her skin; Obstacle: The phantom resonance imagined from within the fired clay.",
+    "subject_rotation": "Focusing entirely on the physics of stillness: inertia, entropy at zero velocity, and suspended kinetic potential within the body/mind.",
+    "sensory_detail": "The faint, mineralized scent of undisturbed dust after weeks without ventilation (Olfactory).",
+    "research_question": "How can 'stasis' be depicted as inherently pregnant with future movement rather than terminal decay in poetic imagery?",
+    "structural_variant": "Employing sudden, almost accidental intrusions of mundane sound (a single bird cry, a distant latch) to shatter the quiet without destroying the preceding meditative tone.",
+    "variety_note": "This chapter deliberately slows the momentum established in previous segments; while its neighbours deal with dynamic tension (struggle, awakening), this segment focuses on metaphysical suspension before any subsequent action or release."
+  }
+}

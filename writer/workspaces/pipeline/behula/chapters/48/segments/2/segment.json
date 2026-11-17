@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অগ্নিশিখার পূর্ণতা",
+  "segment_summary": "বিশ্বাস ও ধৈর্যের অগ্নিশিখা অবশেষে তার কাঙ্ক্ষিত লক্ষ্যে পৌঁছায়, যা সমস্ত সংশয়কে দূর করে দেয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The volta shifts from 'faith triumphs over fate' to 'endurance redefines both faith and fate,' making them co-dependent variables in a complex equation.",
+    "story_option": "Setting: At the threshold leading back into the domestic space; Desire: To reclaim the simplicity of an unbroken touch; Obstacle: The overwhelming weight of every trial borne by the woman alone (the subtle exhaustion); Turn: They perform an ancient, unspoken gesture witnessed only by stone and light.",
+    "subject_rotation": "Reframing the victory less as personal salvation and more as an indictment against societal structures that require such extreme suffering for such beautiful affirmation.",
+    "sensory_detail": "A sound akin to stressed metal yielding—a barely audible groan from old timber or ritual bronze following intense psychic pressure (auditory).",
+    "research_question": "How can the language evoke 'existential negotiation' using diction rooted in elevated courtly/mythological registers without becoming purely ornate?",
+    "structural_variant": "An interlocking loop where segments appear to offer resolution but simultaneously introduce a subtle counter-tension—triumph demands eternal watchfulness.",
+    "variety_note": "Unlike neighboring chapters which focused on the *act* of enduring struggle or the initial shock of loss, this section is dedicated entirely to the complex aftermath—the philosophical weight and redefined state of being *after* the ultimate climax."
+  }
+}

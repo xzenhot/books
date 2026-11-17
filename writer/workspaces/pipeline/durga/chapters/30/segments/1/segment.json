@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 30,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ব্যক্তিগত মহিষাসুর",
+  "segment_summary": "দৈনন্দিন জীবনের ক্ষুদ্র সংগ্রামগুলি কীভাবে ব্যক্তিগত অসুর বিনাশের প্রচেষ্টা হয়ে ওঠে, সেই দার্শনিক সংযোগটি এখানে স্থাপিত হয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Reframing the 'asura' not as a monster to be killed, but as a necessary cognitive shadow that must be acknowledged for self-awareness.",
+    "story_option": "A woman in her home finds herself meticulously organizing small, mundane objects (pins, keys) with the obsessive focus previously reserved for arranging festival idols; Desire: To stabilize existence through rigid order; Obstacle: The memories of grand festivity undermining this new structure.",
+    "subject_rotation": "Focusing the entire chapter on the concept of *inertia*—how things cease movement (light, fervor) but energy remains resident within matter.",
+    "sensory_detail": "The feeling of gritty dust settling on bare skin long after the vibrancy of wet clay and colored powders has vanished.",
+    "research_question": "What are precise Bengali lexical terms describing the profound, non-joyful contentment found after intense emotional expenditure?",
+    "structural_variant": "A highly discursive, essayistic structure that gradually introduces bursts of dense, image-laden Bengali poetry.",
+    "variety_note": "Unlike the previous chapters which detailed construction and climax, this final section must turn entirely inward, using residual imagery to address persistent internal struggle rather than external ritual performance."
+  }
 }

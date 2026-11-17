@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "বর্তমান ও অতীতের সংঘাত",
+  "segment_summary": "বর্তমান সময়ের ঋণের চাপ এবং আধুনিকতার কাঠিন্য সেই স্নিগ্ধ স্মৃতিগুলোর সঙ্গে তীব্রভাবে সংঘর্ষ সৃষ্টি করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the poem solely on the *palpable weight* of memory—not as a visual scene, but as something heavy in the chest or stomach that prevents smooth rowing.",
+    "story_option": "Setting: A muddy bank where old boats are left derelict. Desire: The majhi tries to physically touch the ghosts of his childhood joy embedded in the silt. Obstacle: The encroaching, orderly modern infrastructure.",
+    "subject_rotation": "Treating 'Memory' as an actual physical ballast that slows the boat down against modern momentum.",
+    "sensory_detail": "The gritty taste of oxidized copper (from old hardware) mixed with morning dew collected on a piece of scrap wood.",
+    "research_question": "How does the sound quality change when a memory (represented by word choices) is deliberately juxtaposed against an industrial soundscape like a distant diesel engine?",
+    "structural_variant": "A sustained use of enjambment to mimic the unbroken, continuous flow of consciousness (memory stream) against short, declarative lines representing economic facts.",
+    "variety_note": "This chapter moves inward from external confrontation to deep internal rumination; unlike the immediate conflict in previous chapters, this is less about resistance and more about excavation."
+  }
+}

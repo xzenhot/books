@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা ও অনুরণন",
+  "segment_summary": "এই শূন্যতাটিই পরবর্তী নিখুঁত সিঙ্গাড়া বা সামোসাটির জন্য এক নীরব, তীব্র আকাঙ্ক্ষার জন্ম দেয়, যা অপেক্ষার জন্ম দেয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting perspective entirely to 'The Samosa' itself in its final moments—feeling the collapse of its internal structure and witnessing its fading cultural resonance.",
+    "story_option": "Setting: A modern bathroom sink reflecting harsh overhead light; Desire: To see the traces of oil washing down the drain—a physical metaphor for unrecoverable cultural runoff; Obstacle: The water runs too quickly, scattering the evidence before it can be examined; Turn: 'I' start washing away with deliberate, painful slowness.",
+    "subject_rotation": "Deconstructing the 'sweet melancholy' into quantifiable moments of cognitive dissonance between expectation and reality.",
+    "sensory_detail": "Auditory: The sudden, profound lack of chewing sound following the final bite.",
+    "research_question": "How does the cadence of Jibran/Orillas align with describing absolute sensory deprivation?",
+    "structural_variant": "An extended use of parallelism where every positive memory is immediately counterbalanced by its muted translation.",
+    "variety_note": "Unlike neighbour chapters focused externally on market clutter or ingredient substitution, this chapter turns entirely inward, meditating exclusively on the residue—the philosophical weight and silence left *after* consumption."
+  }
+}

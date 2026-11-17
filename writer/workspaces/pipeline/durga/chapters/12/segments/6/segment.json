@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অনিবার্য শূন্যতার প্রতিধ্বনি",
+  "segment_summary": "আনন্দ ও ভক্তির শিখা নিভে যাওয়ার পর যে শূন্যতা সৃষ্টি হয়, তা মানব অস্তিত্বের সেই চিরন্তন আকাঙ্ক্ষার প্রতিচ্ছবি।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A highly interiorized perspective, focusing on one single small, symbolic object (e.g., a specific red thread or dried flower petal) that survives the immersion while everything else dissolves.",
+    "story_option": "Setting: Inside the empty plinth structure after immersion; Desire: To feel the residual vibration of the divine energy still resonating in the inert earth and wood, a silent echo., Obstacle: The encroaching physical reality of dust, decay, and cleanup beginning immediately.",
+    "subject_rotation": "Analyzing the transition moment through a deeply personal female gaze concerned with cyclical domesticity vs. cosmic cycle (the eternal return mirrored in motherhood).",
+    "sensory_detail": "The auditory sensation of pressure change as the large mass breaks through the surface tension, followed by dead silence.",
+    "research_question": "How was the concept of 'dissolution' (বিলুপ্তি) philosophically treated in high literary works preceding this contemporary narrative style?",
+    "structural_variant": "Structuring the poem as a long, sustained *lament* rather than segmented stages, building intensity purely through sonic weight.",
+    "variety_note": "This chapter differs by adopting a posture of profound resignation; unlike the preceding segments which deal with action (creation/celebration), this is entirely about *unmaking* and quiet reception."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অনুবাদিত আকাঙ্ক্ষা",
+  "segment_summary": "সামোসাটি চিরকাল একটি 'অনুবাদিত' স্বাদ হয়েই থেকে যায়, যা তার আদি রূপের প্রতি এক অনন্ত আকাঙ্ক্ষার প্রতীক।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Narrating from the perspective of the *residual heat* trapped within the husk after consumption—the lingering ghost of flavor.",
+    "story_option": "Setting: The solitary act of carefully examining the crumbs remaining on a worn wooden surface; Desire: To reconstruct the full recipe/ritual purely from tactile memory of dust particles; Obstacle: Dust itself being an amalgam of foreign grit and old spice fragments; Turn: Realizing that reconstruction requires inventing new ingredients, thereby changing the meaning entirely.",
+    "subject_rotation": "Inverting the metaphor: The 'Samosa' becomes the stable object, while the human consciousness is treated as the volatile, dissolving element.",
+    "sensory_detail": "Touch: The sensation of dry air causing the moisture from tears (of yearning) to instantly crystallize on the skin.",
+    "research_question": "What metaphorical language can convey a flavor profile that has been permanently 'translated' but cannot be retroactively simplified or reduced?",
+    "structural_variant": "A deliberate break between every three segments, using stark, unadorned prose fragments (mimicking a grocery list) before returning to dense verse.",
+    "variety_note": "Unlike previous chapters that dissected the components or journey, this final sequence focuses purely on the phenomenology of 'aftertaste'—the philosophical residue remaining after consumption ceases."
+  }
+}

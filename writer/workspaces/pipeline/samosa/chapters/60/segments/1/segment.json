@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 60,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সরিষার হলুদ আবেশ",
+  "segment_summary": "বাংলার রান্নাঘরে সরিষার তেল যখন প্রথম ফোঁটা ফেলে, তখন সেই ঝাঁঝালো গন্ধটি কেবল ভাজার নয়, বরং মাটির গভীরে প্রোথিত এক পরিচিত উষ্ণতার প্রতীক হয়ে ওঠে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the *sound* profile of the oil—the sharp 'splatter' versus the muted absorption in foreign cooking.",
+    "story_option": "Setting: A half-empty packet of neutral oil on a counter; Desire: To trace the geometric patterns left by the old mustard oil stains; Obstacle: The sharp scent of manufactured detergent overpowering all residual memory.",
+    "subject_rotation": "Treating 'তেল' (oil) as a vector for linguistic decay—how flavor vocabulary changes when names change from *সিঙ্গাড়া* to *সামোসা*.",
+    "sensory_detail": "Visual: The way mustard oil catches light with a deep, turbulent amber glaze, compared to the pale, static sheen of refined vegetable fat.",
+    "research_question": "What specific Bengali vocabulary exists that can describe an aroma as simultaneously 'sharp' and profoundly 'nostalgic'?",
+    "structural_variant": "A form structured around a mantra of repetition, where each iteration uses one new word from the lexicon (তেল, গন্ধ, মাটির)",
+    "variety_note": "This chapter focuses exclusively on the primary chemical and sensory marker—the oil itself—diverging from previous chapters which focused on broader geographical or social shifts in food consumption."
+  }
 }

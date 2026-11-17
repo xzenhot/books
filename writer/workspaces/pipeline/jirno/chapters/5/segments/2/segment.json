@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "জ্ঞান ও প্রচেষ্টার ঔদ্ধত্য",
+  "segment_summary": "সে বিশ্বাস করতে শুরু করে যে তার আধুনিক জ্ঞান এবং সংরক্ষণবাদী প্রচেষ্টা এই ক্ষয়িষ্ণু কাঠামোকে তার আদি গৌরবে ফিরিয়ে আনতে সক্ষম।",
+  "name": "5.2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the traveler's knowledge as a specific, flawed dialect that fails to translate into the local idiom of existence.",
+    "story_option": "Setting: A small, untouched patch of earth where roots have completely subsumed a foundational brick; Desire: To gently excavate and reveal the 'original plan' inscribed on the stone base; Obstacle: The root system acts as an impenetrable, living membrane; Turn: He stops pulling at the dirt, recognizing the synergy between plant and ruin.",
+    "subject_rotation": "Exploring the psychology of performance—the traveler rehearsing the 'grand tragedy' in his head before facing reality.",
+    "sensory_detail": "Touch: The fine, gritty powder of pulverized plaster mixed with pollen, coating every exposed surface like forgotten dust.",
+    "research_question": "How is 'stewardship' defined within contemporary conservation discourse versus non-interventionist local philosophies?",
+    "structural_variant": "A highly rhetorical essay disguised as poetry, wherein the traveler's internal monologue directly argues against philosophical concepts of completion.",
+    "variety_note": "This chapter moves from initial observation to intellectual struggle; where previous chapters established context and observed quiet resistance, this segment focuses intensely on the internal machinery of the traveler's overwhelming ego and its inevitable self-contradiction."
+  }
+}

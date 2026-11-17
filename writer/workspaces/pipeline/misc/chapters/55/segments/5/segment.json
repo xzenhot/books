@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 55,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "সীমানা ও পবিত্রতার টানাপোড়েন",
+  "segment_summary": "The poem examines the tension between the private sanctity of a home and the public space, symbolized by slippers left at the threshold.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus entirely from sensory detail (smell/sight) in one segment to pure tactile sensation (texture, pressure) throughout all eight segments.",
+    "story_option": "setting: একটি ব্যস্ত বাজারের এক কোণে ঢাকা অংশ, desire: দোকানদারের ভাঁজ করা হাতের ভঙ্গির আড়ালে থাকা শ্রমিকের নিজস্ব ব্যক্তিগত ক্ষোভ খুঁজে বের করা।, obstacle: বাজারের সামগ্রিক কোলাহলের স্তর, যা সব সূক্ষ্মস্বরকে ঢেকে দেয়।, turn: সেই ক্ষোভটি একটি চাপা গোঙানির মতো বেরিয়ে আসে, কিন্তু তা মুহূর্তেই ভিড়ের চাপে স্তব্ধ হয়ে যায়।",
+    "subject_rotation": "Focusing only on *absence* (the absent passenger, the missing spice scent) rather than presence; making negation the primary subject matter.",
+    "sensory_detail": "সিঁদুরের গুঁড়োর সূক্ষ্ম, ক্ষণস্থায়ী লাল আভা যা হাতের তালুতে স্পর্শ করলে মিশে যায়।",
+    "research_question": "ঐতিহ্যগতভাবে ব্যবহৃত বাংলা শব্দগুলোর মধ্যে এমন কোন পারিভাষিক শব্দ আছে কি যা 'ক্ষয়শীল অথচ অনিবার্য স্থায়িত্ব' এই দ্বান্দ্বিক অবস্থাকে ধ্বনিত করতে পারে?",
+    "structural_variant": "Adopt a strictly tercet structure where the third line always functions as an abrupt philosophical commentary.",
+    "variety_note": "এই পর্বগুলি পূর্ববর্তী দৃশ্যগত পর্যবেক্ষণগুলো একত্রিত করে একটি উচ্চতর দার্শনিক স্তরে উন্নীত হচ্ছে, যেখানে বস্তুনিষ্ঠ বর্ণনার পরিবর্তে দ্বান্দ্বিক 'উপস্থিতি বনাম অনুপস্থিতি'-র উপর জোর দেওয়া হয়েছে।"
+  }
+}

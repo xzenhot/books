@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রতিরোধের প্রকৃতি",
+  "segment_summary": "এই প্রতিরোধ কোনো সহিংস শক্তি নয়, বরং এক নিস্তব্ধ, অনিবার্য স্থিতিস্থাপকতা, যা জোর করে পরিবর্তনকে প্রত্যাখ্যান করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'silent rejection' as a geological pressure—a counter-force against imposed human order.",
+    "story_option": "Setting: A patch of cracked courtyard floor, exposed by erosion; Desire: To use his urban knowledge to map the precise vectors of decline, only to find the pattern is purely organic and non-linear; Obstacle: His measuring tools yield meaningless data against the slow entropy.",
+    "subject_rotation": "Exploring the concept that true 'permanence' in this landscape is found only in things too insignificant to be cataloged (like lichen or creeping weeds).",
+    "sensory_detail": "A high-pitched ringing sensation in the ears caused not by wind or stone shifting, but by the subtle friction of microscopic particles grinding together.",
+    "research_question": "What specific local soil composition allows for this pronounced 'elasticity' or resistance against rapid structural change in these red earth regions?",
+    "structural_variant": "A highly segmented structure where each segment focuses solely on a single point of contact between the traveler's hand/eye and the material itself.",
+    "variety_note": "This chapter shifts focus inward from the initial clash (Chapter 1) to a close-up examination of *how* the confrontation fails, moving beyond mere resistance toward existential recognition."
+  }
+}

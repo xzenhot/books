@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 65,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "বেহুলার ব্যক্তিগত ট্র্যাজেডি সমষ্টিগত প্রেরণা হয়ে ওঠে, যা নিপীড়িত আত্মার জন্য এক শক্তিশালী কাব্যিক বার্তা বহন করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Societal acceptance deferred: Instead of immediate social vindication, focus on how her victory creates a space where societal judgment is momentarily irrelevant.",
+    "story_option": "Setting: By the water's edge where the previous struggle occurred (গাঙুড়ের তীর), Desire: A moment where the reflection in the flowing stream shows perfect unity; Obstacle: A sudden ripple that momentarily fractures the image.",
+    "subject_rotation": "Examining the subtle shift in power dynamics within the marital bond after surviving shared ordeal.",
+    "sensory_detail": "The weight and texture of an antique piece of cloth—perhaps a shawl touched by ritual purity—after surviving extreme austerity.",
+    "research_question": "What established Bengali literary trope symbolizes a resolution that is both complete (finality) and perpetually open to interpretation? What word or image captures this dual nature?",
+    "structural_variant": "Spiral Structure: Beginning with a moment of restored harmony, spiraling back through fragmented memories of trial before achieving a final, higher state of calm.",
+    "variety_note": "This chapter shifts focus entirely from the external battle against societal cruelty to the internal resonance of achieved resolution, demanding a lyrical quietude following previous high-intensity struggle segments."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ভাষার ভাঙন",
+  "segment_summary": "যখন ভাষা পরিবর্তিত হয়, তখন খাদ্যের বর্ণনাও পরিবর্তিত হয়, এবং এই পরিবর্তনটিই পরিচয়ের ভাঙনের সূক্ষ্মতম প্রমাণ।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the voice of an inanimate object (e.g., the serving plate or the oily paper wrapper) which witnesses and embodies this cultural schism.",
+    "story_option": "Setting: A solitary metal tray on a cold windowsill at 3 AM. Desire: To feel the samosa cease to be merely food and become a solidified map of Bengal’s borders. Obstacle: The harsh, unblinking glow of an outside streetlamp casting unflattering shadows. Turn: The realization that even shadow has changed shape since leaving home.",
+    "subject_rotation": "Treating the division not as cultural loss, but as an aggressive, necessary adaptation—a survival mechanism coded into the food.",
+    "sensory_detail": "The slick, cold condensation forming on the exterior paper napkin next to the warm samosas.",
+    "research_question": "What is the precise linguistic shift in descriptive Bengali adjectives used for fried snacks when moved from rural to urban/expatriate contexts?",
+    "structural_variant": "Using an intensely strophic form where each stanza begins with one characteristic physical attribute (shape, color, temperature) before pivoting to the philosophical dilemma.",
+    "variety_note": "This chapter drills down beyond mere flavor loss (Chapter 10) to investigate the *ontological* split—the dual nature where one object simultaneously belongs and does not belong."
+  }
+}

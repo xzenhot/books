@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের অবকাশ",
+  "segment_summary": "এই বিরতি সোনালীকে তার নিজস্ব সত্তার গভীরে ডুব দিতে সাহায্য করে, যেখানে দৈহিক আকাঙ্ক্ষাগুলো ক্ষণিকের জন্য বিশ্রাম নেয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing 'Nirvana' not as arrival, but as the radical act of pausing before inevitable dispersal.",
+    "story_option": "Setting: A deserted verandah during a deep afternoon lull where all sound seems absorbed by heavy curtains; Desire: To allow the eye to lose definition in the haze, dissolving the image into pure perception; Obstacle: The ingrained habit of seeking narrative progression.",
+    "subject_rotation": "Shifting from the internal landscape to observing the inert external world (e.g., how light behaves on untouched surfaces) as a reflection of inner stasis.",
+    "sensory_detail": "The sensation of the internal pressure in the ear canals during profound quiet (Auditory/Somatic).",
+    "research_question": "What highly specific Bengali vocabulary exists to describe a silence that is physically dense, not merely absent?",
+    "structural_variant": "A near-monolithic structure where stanzas are extremely long and interwoven, mimicking the sustained pressure of deep contemplation.",
+    "variety_note": "This chapter deliberately slows the momentum established in previous segments; while its neighbours deal with dynamic tension (struggle, awakening), this segment focuses on metaphysical suspension before any subsequent action or release."
+  }
+}

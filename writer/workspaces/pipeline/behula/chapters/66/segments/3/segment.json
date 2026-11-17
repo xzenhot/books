@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 66,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অবিশ্বাসের দেয়াল",
+  "segment_summary": "শ্বশুরবাড়ির অভ্যন্তরেও বিরাজমান সন্দেহের আবছায়া তাকে একাকীত্বের আরও কঠিন প্রান্তে ঠেলে দেয়, যেখানে আশ্রয়ও যেন যুদ্ধের ক্ষেত্র।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Analyzing her endurance not through grand gestures, but through minute corporeal acts—a specific posture held during grief, or the precise rhythm of breath taken while alone.",
+    "story_option": "Setting: Near a forgotten piece of jewelry or heirloom in her private corner; Desire: To feel its material weight ground her against psychic drift; Obstacle: Its surface being polished smooth by ceaseless, fruitless worry.",
+    "subject_rotation": "Examining her internal life through the lens of time distortion: Moments where hours feel like centuries due to overwhelming emotional weight.",
+    "sensory_detail": "A low, subsonic hum felt in the sternum rather than heard by the ear (sound).",
+    "research_question": "What specific Bengali idiomatic phrases denote absolute internal sovereignty that pre-empts external validation?",
+    "structural_variant": "A highly compressed structure where each segment is less a narrative beat and more a single, dense stanza containing multiple overlapping metaphors.",
+    "variety_note": "This chapter deepens the psychological terrain established earlier, focusing entirely on the *internal mechanics* of sustained suffering and resolve, rather than external conflict or momentary bursts of hope."
+  }
+}

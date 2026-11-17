@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 4,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বাসের নীরবতা",
+  "segment_summary": "The initial focus is on the heavy, expectant silence inside the bus, a palpable weight before the engine stirs.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "গন্তব্যের পরিবর্তে, যাত্রার শুরু থেকে মধ্যবর্তী 'অপেক্ষার সময়'টিকে কেন্দ্রীয় চরিত্র হিসেবে প্রতিষ্ঠা করা এবং তার নিজস্ব মহাকাব্যিকতা দেখানো।",
+    "story_option": "এক যাত্রী তার হাতের তালুতে ঘাম অনুভব করে (Secondary Twist), এবং সেই সামান্য স্পর্শানুভূতি মুহূর্তের জন্য সমস্ত নীরবতাকে ভেঙে দেয়, যেন সে হাজার বছরের অপেক্ষার ভারকে অনুভব করছে।",
+    "subject_rotation": "নীরবতাকে বিচ্ছিন্নতা হিসেবে দেখা—যেখানে প্রতিটি যাত্রী নিজের জগতে নিমগ্ন এবং কেবল একই ধাতব কাঠামোতে আবদ্ধ থাকাটাই তাদের সংযোগ।",
+    "sensory_detail": "ধাতব সিটগুলোর শীতলতা যা যাত্রীর পোশাকের কাপড়ের মধ্য দিয়ে সঞ্চারিত হচ্ছে।",
+    "research_question": "ভারতীয় পাবলিক ট্রান্সপোর্টের অভ্যন্তরে 'নীরবতা' বা 'থেমে থাকা সময়'-এর সামাজিক তাৎপর্য নিয়ে কোনো Ethnographic পর্যবেক্ষণ পাওয়া যায় কিনা?",
+    "structural_variant": "কবিতাটিকে একটি 'ধীর গতিতে ফোরওয়ার্ড মুভিং' কাঠামো দেওয়া, যেখানে প্রতিটি segmento আগেরটির চেয়ে আরও কম গতিশীল হয়।",
+    "variety_note": "Neighbouring chapters focused on tangible objects (chai glass, vermilion). This chapter isolates an intangible element—Silence—and explores its physics and psychology within a moving vessel."
+  }
 }

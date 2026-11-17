@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "তার ব্যক্তিগত ট্র্যাজেডি সমষ্টিগত প্রেরণা হয়ে ওঠে, যা নিপীড়িত আত্মার জন্য এক উজ্জ্বল পথপ্রদর্শক হিসেবে কাজ করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The post-triumph silence: Focusing entirely on the moment immediately following reunion, where words fail and only shared rhythm or breath remains (contrasting with previous chapters' outward conflict).",
+    "story_option": "Setting: The riverbank where the return occurs; Desire: A physical connection (hand-touch/shared gaze) but with a secondary twist—their mutual focus is momentarily drawn *outward* toward an indifferent landscape, acknowledging external reality's persistent shadow.",
+    "subject_rotation": "Shifting focus from Behula's endurance to her *redefinition* after suffering, suggesting the ordeal was necessary for her higher form.",
+    "sensory_detail": "The specific, cool weight settling in the hollows beneath the ribs after intense emotional strain (tactile/internal).",
+    "research_question": "How to phrase the transition from a state of constant internal combat to perfect equilibrium using only archaic Bengali vocabulary?",
+    "structural_variant": "An astronomical metaphor where the reunion is depicted not as a collision, but as two distinct orbits achieving perfect, temporary synchronicity.",
+    "variety_note": "Where previous chapters focused on resistance and the internal fight against specific odds (skepticism, deprivation), this chapter shifts focus entirely to the *aftermath*—the sustained, quiet resonance following absolute victory and its philosophical weight."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "মুক্ত স্রোতের আকাঙ্ক্ষা",
+  "segment_summary": "এই প্রতিবাদী গান আসলে একটি আকাঙ্ক্ষা—নদীর সেই আদিম, বাধাহীন প্রবাহে ফিরে যাওয়ার এক গভীর বাসনা।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the 'protagonist' of the protest from the majhi (the singer) to the river current (the medium that carries the sound against resistance).",
+    "story_option": "Setting: Just as the first rays of intense midday sun break through thick fog. Desire: To have the audience (the river/listener) finally comprehend the unspoken debt. Obstacle: A sudden, mechanical drone from a passing vessel drowns out the core refrain.",
+    "subject_rotation": "Focusing intensely on the *material* quality of sound itself: how vibrato or a cracked vocal cord embodies friction and pressure.",
+    "sensory_detail": "The specific granular sound of fine, dried river silt shifting under the boat’s hull during the pauses between verses.",
+    "research_question": "How does the auditory experience of a 'low register' (as suggested by the prompt) fundamentally change the perceived agency between singer and sound object?",
+    "structural_variant": "An overtly cyclical structure where the opening theme/note is repeated until it fractures into dissonance.",
+    "variety_note": "Unlike the initial scenes focusing on observation (Neighbour 2) or structural confrontation (Neighbour 1), this chapter focuses internally, using the art form itself as the battleground against external pressures."
+  }
+}

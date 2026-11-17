@@ -4,19 +4,19 @@
   "chapter_index": 10,
   "segment_index": 3,
   "total_segments": 8,
-  "segment_title": "সাংস্কৃতিক নাবিকতা",
-  "segment_summary": "চূড়ান্ত, প্রতিবাদী সাংস্কৃতিক নাবিকতা — গোপাল জানে সে নদীকে বাঁচাতে পারবে না, কিন্তু সুরকে বাঁচাতে পারে; কবিতা এই সংকল্পকে দেখে।",
+  "segment_title": "ঘ্রাণ ও অস্তিত্বের সংঘাত",
+  "segment_summary": "ভেজা কাঠের সেই পরিচিত, মাটির গন্ধের সঙ্গে মিশে যায় ডিজেলের তীব্র, রাসায়নিক ঝাঁঝ, যা দুটি ভিন্ন জগতের মুখোমুখি দাঁড় করিয়ে দেয়।",
   "name": "3",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Observing the silence immediately *after* the final note fades: is that silence a victory (emptiness) or another form of sound (residual vibration)?",
-    "story_option": "Setting: Very early morning, just as the first sliver of sun catches the water vapor; Desire: To perform the song knowing that its sound will be immediately absorbed and scattered by the moisture, prioritizing diffusion over projection; Obstacle: A single passenger remains silent, perhaps deafened or unwilling to acknowledge the musical act.",
-    "subject_rotation": "Reinterpreting 'generosity' here as auditory generosity—offering one's voice freely into the unknown currents without expectation of reception.",
-    "sensory_detail": "A sudden, momentary auditory hallucination: hearing not the engine, but the collective sigh of all unheard passengers.",
-    "research_question": "How can 'unbroken melody' be represented poetically when its function is explicitly defined as ephemeral or non-linear?",
-    "structural_variant": "A highly fragmented structure where each segment ends abruptly, mimicking the way sound fragments in heavy moisture.",
-    "variety_note": "This chapter must function as a thematic closure rather than an argumentative one; it is defined by what remains intangible after all visible conflict—a shift from the clash of materials (wood vs. steel) to the persistence of vibration."
+    "angle": "গোপালের সিদ্ধান্ত গ্রহণ প্রক্রিয়াটিকে একটি ধীরগতিসম্পন্ন শিল্পকর্মের মতো দেখানো—যেখানে প্রতিটি পাল তোলা হচ্ছে যেন সে কোনো ভাস্কর্য তৈরি করছে।",
+    "story_option": "সেটিং: ভোরবেলা যখন কুয়াশা নদীর উপর ভারী হয় (ধ্বংসাত্মক নয়, বরং ঢাকা পড়ে যাওয়ার ইঙ্গিত); আকাঙ্ক্ষা: গোপাল দেখেন যে আধুনিক ইস্পাত ও কাঠ কীভাবে এই কুয়াশার মধ্যে পরস্পরের প্রতিচ্ছবি তৈরি করছে; বাধা: সেই প্রতিফলনগুলো দ্রুত ভেঙে যায়।",
+    "subject_rotation": "উপলব্ধির কেন্দ্র পরিবর্তন করে—কাঠ ও ধাতুর সংঘর্ষে গোপাল নয়, বরং নদীর জলের ওপর তার ছায়া কেমন আচরণ করছে, তার মাধ্যমে সংঘাতকে অনুভব করানো।",
+    "sensory_detail": "গোপালের ত্বকের ওপর পড়ে থাকা জলের স্তর পরিবর্তনজনিত কারণে সৃষ্ট सूक्ष्म বৈদ্যুতিক স্পন্দনের অনুভূতি (স্পর্শ)।",
+    "research_question": "১৯৭০-এর দশকের বাংলার পলিমাটির গঠনে আধুনিক ড্রেজিংয়ের প্রভাবের প্রাথমিক দৃশ্যমান লক্ষণগুলি কী হতে পারে যা কেবল স্থানীয় লোককথাতে পাওয়া যায়?",
+    "structural_variant": "পুরো কবিতাটিকে একটি দীর্ঘ, অ-যৌক্তিক বাক্যের কাঠামোয় লেখা—যেখানে কাঠ ও ধাতুর বর্ণনা একসাথে জড়িয়ে থাকে এবং পunctuation (বিরামচিহ্ন) বিরল ব্যবহার করা হয়।",
+    "variety_note": "এই কবিতাটি পূর্ববর্তী অধ্যায়গুলোর ভৌগোলিক বা মানবিক দ্বন্দ্বের পরিবর্তে, বস্তুগত এবং টেক্সচারাল সংঘাতের উপর গভীর মনোনিবেশ করে। এটি 'কে জিতবে'র চেয়ে বেশি প্রশ্ন করে—কীভাবে এই দুটি উপাদান একই স্থানে সহাবস্থান করতে পারে।"
   }
 }

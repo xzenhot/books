@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বহিরাগত উদ্দীপনা",
+  "segment_summary": "অন্যান্য খাবারের তীব্র সুবাসগুলো সামোসার নিজস্ব স্বাদকে ছাপিয়ে যায়, যা প্রবাস জীবনের অবিরাম উদ্দীপনার চিত্র তুলে ধরে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the process not as 'being sold,' but as a constant, exhausting negotiation between appearance (the crisp fold) and internal reality (the muted filling).",
+    "story_option": "Setting: The narrow alley between two brightly painted shops, filled with cheap plastic trinkets; Desire: To find a single piece of packaging that miraculously retains the original smell from Bengal; Obstacle: Every surface is coated in an unfamiliar, chemical street dust.",
+    "subject_rotation": "Exploring the philosophical idea that 'authenticity' in a globalized setting is only achievable through rigid performance (the shape), not substance.",
+    "sensory_detail": "The low, abrasive hum of industrial refrigeration units drowning out any delicate spice-related aroma.",
+    "research_question": "What is the specific Bengali term for an overwhelming sensory environment where one particular scent becomes muted by many others?",
+    "structural_variant": "A call-and-response structure between the 'I' describing the internal memory and an imagined vendor whose voice only repeats commercial slogans.",
+    "variety_note": "This chapter pivots from internal culinary reflection to external environmental confrontation; the conflict moves from memory vs. present self, to ingrained cultural form vs. overwhelming urban noise."
+  }
+}

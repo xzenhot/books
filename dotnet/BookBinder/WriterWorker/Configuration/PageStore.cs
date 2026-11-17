@@ -307,6 +307,50 @@ internal static class PageStore
     }
 
     /// <summary>
+    /// Makes <paramref name="relativePaths"/> the pages of <paramref name="role"/>, in the order they
+    /// are given: the pages the part records now stop printing and the given ones are recorded in
+    /// their place. The files of the pages that are dropped are left on disk, because a page of a
+    /// part the author fills in may be put back; this is used for the pages a build writes itself -
+    /// the index - which are written again whenever the book changes.
+    /// </summary>
+    public static IReadOnlyList<BookPageGroup> ReplaceFiles(
+        string bookFolder,
+        PageGroupRole role,
+        IEnumerable<string> relativePaths)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(bookFolder);
+        ArgumentNullException.ThrowIfNull(relativePaths);
+
+        var folder = Path.GetFullPath(bookFolder);
+        var groups = ReadGroups(folder).Select(group => group.Clone()).ToList();
+        var group = groups.FirstOrDefault(candidate => candidate.Role == role);
+
+        if (group is null)
+        {
+            group = new BookPageGroup
+            {
+                Order = BookPages.DefaultOrderOf(role),
+                FilePath = BookPages.FolderPathOf(role),
+                Format = BookPages.FormatOf(role)
+            };
+
+            groups.Add(group);
+        }
+
+        group.Files.Clear();
+
+        foreach (var relativePath in relativePaths)
+        {
+            group.Add(relativePath);
+        }
+
+        group.Rank();
+        Save(folder, groups);
+
+        return BookPages.Ordered(groups);
+    }
+
+    /// <summary>
     /// The cover images of <paramref name="bookFolder"/>: the file named <c>front</c> and the file
     /// named <c>back</c>, falling back to the first image of the cover folder for the front cover and
     /// to the first page of the back cover folder for the back one.

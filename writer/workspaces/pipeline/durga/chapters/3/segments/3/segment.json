@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বিশ্বাস ও শিল্পের মিলন",
+  "segment_summary": "এই চক্ষুদানের মাধ্যমে মাটি আর দেবীর মধ্যেকার সীমারেখা মুছে যায়, যেখানে ভক্তিই শিল্পের চূড়ান্ত রূপান্তর ঘটায়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting perspective entirely into the eye itself: describing it not as seeing the world, but reflecting an internalized, timeless myth.",
+    "story_option": "The internal struggle between two artists: one seeking perfect realism and another seeking pure, abstract transcendence in the final touch (Setting: Adjacent to the main deity form; Desire: Definitive artistic success; Obstacle: Competing aesthetic philosophies; Turn: The clash resolves not in synthesis, but through a sudden, overwhelming shared exhaustion).",
+    "subject_rotation": "Focusing less on Durga, and more on the preparatory process itself—how societal belief constructs the vessel capable of housing the Myth.",
+    "sensory_detail": "The granular texture of the pigment dust under fingernails, dry against the slickness of residual clay.",
+    "research_question": "Are there specific ancient Bengali ritualistic phrases used to denote the transition from inert material to a living spiritual icon during *chokkhudan*?",
+    "structural_variant": "A recursive structure: The act of painting an eye calls forth the memory of previous divine manifestations, each iteration being a reflection.",
+    "variety_note": "Unlike preceding chapters focused on external cycles and physical labor, this chapter centers entirely on a singular, intensely concentrated act of imbuing passive matter with active consciousness."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্মৃতি",
+  "segment_summary": "এই অধ্যায়ে দেখানো হয় যে, হারানো স্বাদটি কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি যা আত্মিক স্তরে অনুভূত হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the unanswered question as a philosophical decree: 'No answer exists, only this sweet ache remains.'",
+    "story_option": "Setting: Back at the edge of the original cooking area (imagined); Desire: To recreate one perfect moment using only phantom ingredients; Obstacle: The knowledge that the specific 'আঁচ' cannot be replicated perfectly. Turn: Accepting the failure as the essential flavor itself.",
+    "subject_rotation": "Focusing entirely on the tongue's betrayal—how it insists on remembering something that physically cannot be there.",
+    "sensory_detail": "The sudden, humid weight in the throat when attempting to recall the exact *sound* of ghee hitting hot oil from childhood.",
+    "research_question": "How can I structurally mimic the cyclical nature of memory without resorting to simple repetition in phrasing or image?",
+    "structural_variant": "Dividing the poem based on a temporal shift: 4 segments dedicated solely to 'Before' (Bengal), and 4 segments dedicated solely to 'After' (Abroad).",
+    "variety_note": "This chapter focuses on the sustained aftermath—the residue, the lingering question mark left by consumption—rather than the conflict or initial memory invoked in preceding chapters."
+  }
+}

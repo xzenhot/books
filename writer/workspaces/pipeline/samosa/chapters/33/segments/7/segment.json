@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 33,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ সমাপ্তি",
+  "segment_summary": "এই কাব্যিক যাত্রা কোনো চূড়ান্ত উত্তর দেয় না, বরং পাঠককে সেই মধুর বিষাদের গভীরে নিমজ্জিত করে যেখানে আকাঙ্ক্ষা স্থির থাকে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'void' as a linguistic residue—the impossible word that cannot be uttered but defines the sensory experience.",
+    "story_option": "Setting: A cold slab of concrete near the market edge; Desire: To find the precise molecular signature of *sorshir tel* (mustard oil) clinging to a piece of packaging; Obstacle: The abrasive, alien dust that overwrites all local scents.",
+    "subject_rotation": "Focusing on the texture of satiety—how physical fullness paradoxically amplifies spiritual emptiness.",
+    "sensory_detail": "The metallic chill emanating from the worn enamel of a forgotten eating dish.",
+    "research_question": "What specific Bengali idiom best conveys an 'unattainable perfection' in sensory experience?",
+    "structural_variant": "Beginning with a sharp, declarative statement about the finality of emptiness (a sudden stop) before spiraling backward into memory.",
+    "variety_note": "This chapter contrasts heavily with preceding segments by focusing entirely on post-consumption entropy—the afterglow, the residue, rather than the act of preparation or initial transit."
+  }
+}

@@ -10,17 +10,224 @@
 
 ## word_target
 
-280
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-বাসরঘরে প্রলয় ও আকস্মিক শূন্যতা
+behula — পর্ব 2 — behula
 
 ## chapter_summary
 
-মিলনের শুভলগ্নেই লখিন্দরের সর্পদংশনে অকাল মৃত্যু। নববধূর সাজেই বেহুলার সাজানো সংসার মহাশূন্যতায় নিক্ষিপ্ত হয়ে অস্তিত্বের প্রথম চরম সংকটে রূপ নেয়।
+এই পর্বে বেহুলার নিঃসঙ্গতা গভীর হয় যখন সে সমাজের কাঠিন্যময় দৃষ্টির সম্মুখীন হয়। বিধবা হিসেবে তার প্রতি আরোপিত সামাজিক কলঙ্কগুলি যেন বিষাক্ত ছড়ার মতো তার আত্মমর্যাদাকে ক্ষুণ্ণ করে। এই চিত্রকল্পে, সমাজের নীরব বিদ্বেষ এবং কটূক্তিগুলি এক অদৃশ্য প্রাচীর তৈরি করে, যা তার ভেতরের স্থিতিশীলতাকে ক্রমাগত চ্যালেঞ্জ জানায়। প্রশ্নটি হলো—যখন সমাজ তোমার অস্তিত্বকে অস্বীকার করে, তখন তুমি কীভাবে নিজের সত্তাকে বাঁচিয়ে রাখবে?
 
 ## further_references
+
+- research.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+বিষাক্ত ছড়ার আগমন
+
+#### segment_summary
+
+সমাজের কটাক্ষগুলি যেন বিষাক্ত ছড়ার মতো বেহুলার আত্মমর্যাদাকে ক্ষুণ্ণ করে, যা তার মানসিক পরিসরে প্রবেশ করে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্তিত্বের অস্বীকৃতি
+
+#### segment_summary
+
+যখন বহিরাগত সমাজ তার অস্তিত্বকে স্বীকৃতি দিতে অস্বীকার করে, তখন বেহুলার ভেতরের সত্তা কীভাবে টিকে থাকে তার সংগ্রাম চিত্রিত হয়।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+নীরব বিদ্বেষের কোরাস
+
+#### segment_summary
+
+চুপচাপ হাসির আড়ালে লুকিয়ে থাকা বিদ্বেষ এবং অবজ্ঞাগুলি বেহুলার পথে এক কঠিন বাধা সৃষ্টি করে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মমর্যাদার ক্ষয়
+
+#### segment_summary
+
+প্রতিদিনের ছোট ছোট আঘাতগুলি একত্রিত হয়ে তার আত্মবিশ্বাসকে দুর্বল করে দেয়, যা তার ভেতরের দীপশিখার উপর চাপ সৃষ্টি করে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অদৃশ্য প্রাচীরের নির্মাণ
+
+#### segment_summary
+
+সামাজিক প্রত্যাখ্যাত হওয়ার ফলে বেহুলার চারপাশে এক অদৃশ্য কিন্তু কঠিন প্রাচীর তৈরি হয়, যা তাকে বিচ্ছিন্ন করে দেয়।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভেতরের স্থিতিশীলতার পরীক্ষা
+
+#### segment_summary
+
+এই বাহ্যিক চাপ সত্ত্বেও, বেহুলার ভেতরের স্থিতিশীলতা কীভাবে এই প্রতিকূলতার বিরুদ্ধে প্রতিরোধ গড়ে তোলে, তা এই অংশে আলোচিত হয়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+সত্তার সংরক্ষণ
+
+#### segment_summary
+
+সমাজ যখন তাকে মুছে ফেলতে চায়, তখন সে তার নিজস্ব সত্তার গভীরতম অংশটিকে রক্ষা করার চেষ্টা করে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্বীকৃতির মুখোমুখি
+
+#### segment_summary
+
+এই অধ্যায়টি শেষ হয় সেই মৌলিক প্রশ্নটি নিয়ে—যখন বাইরের জগৎ তোমাকে প্রত্যাখ্যান করে, তখন তোমার ভেতরের আলো কীভাবে জ্বলতে থাকে?
+
+#### further_references
 
 
 ## level
@@ -29,67 +236,49 @@ chapter
 
 ## state
 
-written
-
-## segments
-
-- 1
+scaffolded
 
 ## creative_enrichment
 
 ### angles
 
-- The immediate physical sensation of sudden absence: contrasting the warmth of a shared moment with the sudden chill of death.
-- Examining the silence *after* the fatal strike—not just the cessation of breath, but the auditory vacuum left in a vibrant space.
-- Focusing on the fragmented rituals being interrupted: wedding rites suspended mid-gesture by catastrophe.
+- Focusing on the precise vocabulary of social disdain used by the community (e.g., using terms that denote pity mixed with judgment).
+- Treating Behula's silence not as resignation, but as a curated response—a strategic withholding of vulnerability against slander.
+- Contrasting the grand mythology of Likhindar/Behula with the petty cruelty found in everyday social interactions.
 
 ### story_options
 
-- A hyper-detailed moment where she tries to hold the weight of his cooling form while maintaining the ceremonial posture expected of a bride, facing an internal crisis vs. external propriety.
-- The immediate panic/numbness after the venom takes effect—a sensory overload followed by rapid cognitive shutdown in the lavishly decorated room.
-- A sequence dwelling on small domestic objects (jewelry, misplaced shawl) suddenly seeming alien and meaningless against the backdrop of irreversible loss.
+- A scene where Behula walks past a market square, and every merchant glances at her not as a person, but as an unfortunate tableau.
+- An imagined moment of private monologue where she mentally debates whether to voice defiance or accept the scorn for the sake of inner peace (a battle between spirit and survival).
+- A confrontation with one specific elder woman in the community whose judgmental gaze carries the weight of generations of unspoken societal law.
 
 ### subject_rotations
 
-- Treating the death not as a climax, but as an abrupt *metamorphosis*—the instant when the 'new bride' becomes the 'stricken survivor.'
-- Focusing on the mechanics of the poison/strike itself: less on divine wrath and more on the visceral reality of sudden biological failure.
-- Exploring the psychological dissonance between the vibrant wedding preparation and the absolute finality of death in the same confined space.
+- Shifting focus from external society to internal perception—how Behula *interprets* every slight before it lands.
+- Examining 'otherness' not as being divorced from society, but as inhabiting a category the established order refuses to define properly.
+- Using nature imagery (a storm moving over a landscape) as an analogue for social judgment sweeping across her solitude.
 
 ### sensory_details
 
-- The taste of sweet, rich ritual unguents suddenly turning metallic or bitter upon contact with her lips.
-- The specific texture of fine silk tearing slightly as she instinctively moves toward him in shock.
-- A high-pitched, thin ringing sound that drowns out all natural noises following the strike.
+- The chill emanating from unseen judging eyes in crowded thoroughfares, feeling like damp mortar on the skin.
+- The faint scent of stale gossip mingling with street dust during hushed community assemblies.
 
 ### research_questions
 
-- How can the poem evoke profound finality without resorting to overly melodramatic or cliché descriptors for grief?
-- What vocabulary best describes a complete and instantaneous cessation of life within a context designed for celebration?
-- Can the description of the opulent wedding setting serve as ironic counterpoint to the raw violence of death?
+- How can I depict judgmental silence (the lack of speech) using strong poetic imagery without resorting to literal accusations?
+- What specific, culturally resonant Bengali terms exist for socially imposed stigma that fit the elevated diction?
 
 ### structural_variants
 
-- A rapid-fire series of short, staccato lines mirroring heartbeat failure, before dissolving into longer, more expansive reflections.
-- A structure that builds tension through highly ritualized descriptions leading up to a single, devastating rupture point (the moment of contact).
+- A structure where every segment is prefaced by a variation on a single core rhetorical question, mirroring the internal struggle.
+- An interweaving of very short, sharp vignettes (representing individual slights) against one longer philosophical reflection.
 
 ### unused_angles
 
-- The precise mechanics of the 'suddenness'—how much preparation or premonition existed versus pure impact? This can be explored later in response to divine intervention.
+- The specific theological implication: Does societal rejection function as a secondary form of divine punishment?
+- Exploring if any single instance of kindness from a stranger manages to crack the monolith of social scorn, and what that momentary relief feels like.
+- A direct invocation of an ancient cultural archetype (outside the immediate myth) whose fate mirrors her silent endurance.
 
 ### variety_note
 
-Where Chapter 1 focuses on potential and identity, this chapter collapses that potential into immediate reality through violent cessation.
-
-## draft
-
-### sha256
-
-57b90b58906cb11d0d1d6b759eafd9f11fcc1ec5621e9288eb587c38695c21b9
-
-### written_at
-
-2026-10-21T16:21:39.627406+00:00
-
-### origin
-
-write
+Unlike the first chapter which dealt with sharp shock, this piece must dwell in a sustained state of abrasive tension—the slow weariness of being continuously judged rather than abruptly struck.

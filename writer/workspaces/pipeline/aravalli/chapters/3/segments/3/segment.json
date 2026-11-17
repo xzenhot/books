@@ -1,11 +1,22 @@
 {
-  "level": "segment",
-  "state": "pending",
-  "chapter_index": 3,
   "segment_index": 3,
-  "total_segments": 8,
-  "segment_title": "ষোড়শ মহাজনপদের ধুলো",
-  "segment_summary": "ষোড়শ মহাজনপদের উত্থান-পতনের ধুলো আরাবল্লির শিলাস্তরে লেগে আছে, যা ক্ষমতার ক্ষণস্থায়ী চক্রকে স্মরণ করিয়ে দেয়।",
   "name": "3",
-  "word_target": 500
+  "word_target": 500,
+  "segment_title": "ম্যালেরিয়ার উপত্যকা ও উষ্ণ নিঃশ্বাস",
+  "segment_summary": "ম্যালেরিয়া-আক্রান্ত উপত্যকার স্মৃতি আর সাগরিকার গরম নিঃশ্বাস মিলে এক তীব্র, মাদকতাময় বাষ্প তৈরি করে, যা প্রাচীন প্রমাদ কক্ষকে দাবানলে পরিণত করে।",
+  "further_references": [],
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "total_segments": 8,
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The metaphysical weight of the mud/dust: treating it not just as residue from trade routes, but as accumulated psychic sediment left by fallen civilizations.",
+    "story_option": "A moment where the dust itself seems sentient—a swarm rising from the ancient paths, momentarily resembling a shoal of lost fauna before settling back into inert grit.",
+    "subject_rotation": "Reversing the power dynamic: treating the mountain not as enduring, but as *passive*—a receptacle awaiting activation by human/sensual energy.",
+    "sensory_detail": "The visual echo of faded ink on brittle scrolls overlaid onto a reflection in polished mineral veins.",
+    "research_question": "How can the chemical composition of hematite (rust/copper) be linked to the perceived 'blood' quality of Sagarika’s lipstick through poetic metaphor?",
+    "structural_variant": "Fragmented realization: presenting small, disconnected flashes—a shadow, a note, a curve—without tying them to a central action until the final segment.",
+    "variety_note": "This chapter foregrounds the synthetic collision between structured intellectual pursuit (Taksashila/geometry) and unmediated physical impulse, moving beyond simple historical narrative into a realm of ecstatic contamination."
+  }
 }

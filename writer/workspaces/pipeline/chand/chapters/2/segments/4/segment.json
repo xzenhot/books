@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অপ্রত্যাশিত সৌন্দর্যের আত্মসমর্পণ",
+  "segment_summary": "কবি এই আকস্মিক সৌন্দর্যের সামনে নিজেকে সঁপে দেন, যেখানে জাগতিক অস্থিরতা ক্ষণিকের জন্য স্তব্ধ হয়ে যায়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "আলোর শীতলতা যেন অতীতের এক স্পর্শ, যা বর্তমানে বিরাজমান সমস্ত উষ্ণতাকে ম্লান করে দেয়।",
+    "story_option": "অন্ধকারে বসে থাকা কবি হঠাৎ অনুভব করেন যে সেই চাঁদের আলো তার হাতের একটি নির্দিষ্ট দাগকে উজ্জ্বল করছে, যা কোনো স্মৃতিকে জাগিয়ে তোলে এবং তাকে এক গোপন পথ খুঁজতে প্ররোচিত করে।",
+    "subject_rotation": "আলোর এই অস্থায়ী রূপান্তরকে কবির জীবনের এক নির্দিষ্ট হতাশার প্রতিচ্ছবি হিসেবে দেখানো—যা সুন্দর হলেও স্থায়ী নয়।",
+    "sensory_detail": "ঘরের বদ্ধ পরিবেশে বাতাসের চলাচল যখন অত্যন্ত ক্ষীণ, তখন একটি শুকনো পাতার পতনজনিত অতি সূক্ষ্ম 'খসখসে' শব্দ শোনা।",
+    "research_question": "এই ধরনের পুরানো টিনের চালের ধাতব পৃষ্ঠে চন্দ্রালোকে প্রতিফলিত আলোর রঙ এবং তীব্রতা কেমন হতে পারে?",
+    "structural_variant": "দ্রুত ছন্দোময় ছোট মুহূর্তগুলির একটি ক্যানভাস তৈরি করা, যা বারবার আলোক-ছায়ার পরিবর্তন দ্বারা চালিত।",
+    "variety_note": "Neighbours often focus on external movement or past events; this chapter drills deep into the static, almost sacred qualities of light interacting with mundane urban texture."
+  }
+}

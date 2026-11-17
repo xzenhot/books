@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 71,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আলো ও অন্ধকারের দ্বৈরথ",
+  "segment_summary": "ব্যক্তিগত কষ্টের অন্ধকার ভেদ করে তার ভেতরের আলোর শিখা কীভাবে সামাজিক চেতনার জন্ম দেয়, সেই দ্বান্দ্বিক চিত্রায়ণ এখানে মুখ্য।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the shift: Treating the moment of symbolic transformation not as a gradual realization, but as a singular catastrophic internal rupture (volta).",
+    "story_option": "Scene Seed: In a moment of extreme social censure, she deliberately begins an archaic domestic ritual (purified water pouring over stone) to assert an unwritten law against the noise.",
+    "subject_rotation": "Treating 'Endurance' as active defiance rather than passive suffering; every act of survival is framed as a micro-revolt.",
+    "sensory_detail": "The metallic taste of unshed tears turning into a strangely alkaline sensation on the tongue from prolonged mental tension.",
+    "research_question": "What vocabulary exists in classical Bengali that denotes 'unshakeable inner scaffolding' or foundational selfhood amidst chaos?",
+    "structural_variant": "A heavily recursive structure where the central metaphor (the flame/light) is defined by its absence before it can be described.",
+    "variety_note": "This chapter moves away from narrative action (like initial tragedy or final triumph) into sustained philosophical exploration, focusing on *how* the inner state transforms external pressure into symbolic power, unlike adjacent chapters that focus on specific events."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অটলতার প্রতিধ্বনি",
+  "segment_summary": "এই সাংস্কৃতিক প্রতিবন্ধকতাগুলি বেহুলার সংগ্রামকে কেবল ব্যক্তিগত না রেখে এক মহৎ, প্রতীকী স্তরে উন্নীত করে।",
+  "name": "3",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on one specific archaic ritual/custom (e.g., a prescribed mourning rite) and dissecting how it demands conformity at the expense of inner spiritual truth.",
+    "story_option": "Setting: During a formal gathering where adherence to rigid societal roles is paramount, Desire: A moment of unscripted stillness that defies the expected emotional performance (Turning Point).",
+    "subject_rotation": "Shifting the focus from conflict (war) to slow erosion (weathering), showing how tradition wears down belief over time.",
+    "sensory_detail": "The scent of specific incense used in formal domestic rites—a heavy, cloying aroma that feels suffocating rather than sacred (Olfactory).",
+    "research_question": "What precise archaic Bengali terms exist for social expectation or prescribed duty that carry more weight than simple 'rule'?",
+    "structural_variant": "A highly rhythmic sequence relying on sharp enjambment to mimic the forced breathlessness between adherence and defiance.",
+    "variety_note": "Unlike previous chapters that dealt with personal grief or internal strength, this segment focuses externally, using the rigid social body politic as its primary antagonist against her inner luminescence."
+  }
+}

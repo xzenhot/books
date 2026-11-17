@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "প্রকৃতির নীরব প্রত্যাখ্যান",
+  "segment_summary": "মাটির নিজস্ব স্থিতিস্থাপকতা এবং নীরব প্রত্যাখ্যান তার সমস্ত শহুরে পরিকল্পনাকে চ্যালেঞ্জ জানায়, যা কোনো দৃশ্যমান প্রতিরোধ নয়।",
+  "name": "8.3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrast the highly structured language of his preservation plans with the utterly unstructured vocabulary used by the Satual elders to describe the ruin.",
+    "story_option": "Setting: Standing in the threshold gap between ruin and village land; Desire: To articulate a single, definitive statement that encapsulates his new understanding—a thesis statement for existence, Obstacle: The noise of nearby life (animal calls, distant voices) drowns out any coherent declaration.",
+    "subject_rotation": "Shifting the focus from *what* he wants to save (the structure) to *why* he feels compelled to seek validation through preservation.",
+    "sensory_detail": "Smell: A mineral scent mingling with petrichor immediately preceding a dust storm.",
+    "research_question": "Is there an established poetic tradition within Bengali literature that uses geological erosion as a metaphor for existential fatigue?",
+    "structural_variant": "A highly rhetorical internal monologue delivered entirely through short, declarative, almost brutal statements to contrast the perceived grandiosity of the ruin.",
+    "variety_note": "This chapter is materially different by centering entirely on the internal conflict—the cognitive clash between ordered knowledge and chaotic reality—whereas neighbours focused more on external observation or philosophical reception."
+  }
+}

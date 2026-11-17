@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 37,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় অধ্যায়ের সূচনা",
+  "segment_summary": "বেহুলার এই মহাকাব্যিক সংগ্রাম কেবল ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় অধ্যায় রচনা করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the 'cost' of endurance: quantifying the spiritual exhaustion required to reach this equilibrium using archaic vocabulary.",
+    "story_option": "Setting: The riverbed where the vigil was held (dry earth landscape), Desire: To trace the pattern of past sacrifice on the dust with a bare toe, Obstacle: The terrifying normalcy that follows epochal struggle.",
+    "subject_rotation": "Exploring the tension between internal divinity (faith) and external limitation (social structure) at the point of reunion.",
+    "sensory_detail": "Sound: A deep, bone-vibrating resonance replacing expected exultation—a primal hum.",
+    "research_question": "How can 'ontological necessity' (the fundamental need for this survival/reunion) be rendered in diction while maintaining poetic lyricism rather than sounding overly academic?",
+    "structural_variant": "A circular structure where Segment 8 thematically re-invokes a core concept from Segment 1, but with subtly inverted emotional weight (e.g., peace vs. anxiety).",
+    "variety_note": "Unlike earlier chapters focusing on conflict and suffering, this section pivots entirely toward resolution, examining not just the return itself, but what remains of the struggle when the external battle ceases."
+  }
+}

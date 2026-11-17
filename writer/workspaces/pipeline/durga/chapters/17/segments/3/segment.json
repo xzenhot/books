@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ম্লান হওয়া উন্মাদনা",
+  "segment_summary": "প্যান্ডেলের আলোকসজ্জা নিভে আসে এবং জনসমাগমের উন্মাদনা ধীরে ধীরে শান্ত হয়ে আসে, এক গভীর নীরবতা নেমে আসে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the return to daily struggle (Segment 4) through an extremely bureaucratic/procedural lens, making the 'victory' anti-climactic and administrative.",
+    "story_option": "Setting: Inside the narrator's own chest cavity during an unremarkable morning commute; Desire: To feel the faint, remembered vibration of the *dhak* against bone structure; Obstacle: The relentless, grinding rhythm of the city.",
+    "subject_rotation": "Emphasizing the quiet labor of clean-up and post-ritual disposal (the meticulous cleaning of remnants) as the true devotional act.",
+    "sensory_detail": "A high-pitched ringing in the ears following the sudden cessation of loud rhythmic drumming (sound).",
+    "research_question": "What specific Bengali lexicon denotes a quiet, persistent spiritual yearning without using words related to 'worship' or 'belief'?",
+    "structural_variant": "A completely broken syntax where the line breaks are entirely unpredictable, mimicking the dissolution of form.",
+    "variety_note": "This chapter deliberately pivots from external spectacle (neighbors 9, 10) and peak action (neighbor 5/8) into a terrain of quiet residue, where absence becomes the primary subject matter; it leans heavily on introspection mandated by Segment 6."
+  }
+}

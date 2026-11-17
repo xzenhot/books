@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 41,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ সংমিশ্রণ",
+  "segment_summary": "এই মিশ্রণটি কোনো পূর্ণাঙ্গ স্বাদ নয়, বরং একটি বিচ্ছিন্ন, অসম্পূর্ণ সংমিশ্রণ যা কেবল অস্তিত্বের প্রমাণ দেয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the dialectic between 'volume' (market chaos) and 'substance' (the kernel of memory inside the samosa).",
+    "story_option": "Setting: Beneath the harsh glare of an exposed industrial lamp in a transit hub; Desire: To find a single stall that mimics the specific heat pattern of the original 'কড়াই', Obstacle: The overwhelming metallic tang of exhaust fumes.",
+    "subject_rotation": "Examining the 'boundary' itself not physically (the border), but aromatically—where one scent abruptly ends and another violently begins.",
+    "sensory_detail": "The gritty, sharp tang (ঝাঁঝ) left on the lip from biting through cheap street food seasoning, contrasting with imagined pure potato paste.",
+    "research_question": "Which specific Bengali linguistic construct most captures the feeling of something being 'near but never arrived' in a flavor context?",
+    "structural_variant": "A form where each segment begins with an observation about light intensity (e.g., 'আলোর তীব্রতায়...', 'ছায়ার গভীরতায়...') guiding the transition between sensory modes.",
+    "variety_note": "Unlike previous chapters which focused on the internal failing or memory retrieval, this chapter externalizes the conflict, making the market itself an active antagonist assaulting the fragile taste of home."
+  }
+}

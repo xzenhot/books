@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 36,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর আগমনী",
+  "segment_summary": "সমস্ত সংগ্রাম শেষে, সেই প্রতীক্ষিত মুহূর্ত আসে যখন লখিন্দর ফিরে আসে, যা বেহুলার জীবনের শূন্যতাকে পূর্ণতা দেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The static reflection: Freezing the moment of reunion by fixing the poet’s gaze on a single feature of the returned beloved (e.g., a weathered hand, an eye) and deriving all emotional weight from that stillness.",
+    "story_option": "Setting: A patch of ground where the sacred fire (প্রদীপ) used to burn; Desire: To relight it without sound, acknowledging that the original passion has been transmuted into something harder and more enduring than flame itself; Obstacle: The fear of igniting an external judgment.",
+    "subject_rotation": "Treating the reunion as a necessary cosmic recalibration rather than a happy ending—a moment where order is reluctantly restored to chaotic existence.",
+    "sensory_detail": "Sight: The precise shade of twilight on the horizon where shadow finally surrenders to a deep, resolute indigo.",
+    "research_question": "What archaic Bengali lexicon best captures the feeling of 'earned permanence'—a state that is neither transient joy nor crushing burden?",
+    "structural_variant": "A sustained metaphor built entirely around the tension between solid, unmoving rock and flowing, relentless water (the human spirit vs. societal flow).",
+    "variety_note": "Unlike earlier segments focusing on external struggle (societal bias, gods), these final eight parts prioritize an intense inward focus—the quiet ontology of reunion and the complex dialogue with what remains unspoken even in victory."
+  }
 }

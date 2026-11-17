@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নদীর প্রতিধ্বনি",
+  "segment_summary": "যাত্রীর উপস্থিতি যেন নদীর নিজস্ব প্রাচীন সুরকে আবার জাগিয়ে তোলে, যা কেবল গান নয়, জীবনদর্শন।",
+  "name": "6",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The majhi speaking this segment as an elegy to his younger self, whom he wishes could have experienced such pure exchange.",
+    "story_option": "Setting: A low, muddy patch where sediment settles heavily. Desire: To exchange a story for a shared moment of perfect stillness, letting both their anxieties settle like silt.",
+    "subject_rotation": "Exploring the moment of realization through an intense sensory detail associated with water that has absorbed human sorrow (e.g., tea-stained silt).",
+    "sensory_detail": "The feeling of coarse, damp cotton fabric—the passenger's worn garment—against the smooth polish of the boat’s gunwale.",
+    "research_question": "How is 'debt' expressed in local folklore when it pertains to spiritual obligation rather than financial insolvency?",
+    "structural_variant": "A deeply fragmented poem, mirroring how memories or narratives drift in currents—moments revealed only as sudden flashes.",
+    "variety_note": "This chapter deviates from previous explorations of economic hardship by focusing entirely on an intentional pause—a moment where financial pressure is momentarily superseded by shared human gravity. Unlike Chapter 2’s initial tension, this scene resolves into a profound quietude."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "দ্বৈরথের তীব্রতা",
+  "segment_summary": "আলো ও অন্ধকারের মধ্যেকার নিরন্তর সংঘাত, যেখানে প্রতিটি মুহূর্ত এক মহাকাব্যিক পরীক্ষা।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal struggle as a metaphysical geometry: how faith constructs irreducible shapes against entropy.",
+    "story_option": "Setting: Within a small ritual alcove cluttered with fading symbols; Desire: To articulate whether belief is self-sustaining or reliant upon some external, unseen acknowledgment (a questioning tone); Obstacle: Skepticism woven into the very fabric of societal customs.",
+    "subject_rotation": "Shifting the focus from *winning* the battle against darkness to *sustaining* the internal dialogue within the dark.",
+    "sensory_detail": "The metallic tang on the lips from prolonged periods of holding back powerful emotion (grief/resolve).",
+    "research_question": "What are the specific historical or cultural concepts within Bengali tradition that describe a state of 'stubborn, self-imposed existential defiance' outside of formal religious frameworks?",
+    "structural_variant": "A highly compressed structure where each segment is a rapid exchange between 'Light Metaphor' and 'Darkness Observation', mirroring urgent internal dialogue.",
+    "variety_note": "This chapter moves beyond description; it forces an active dialectic between internal illumination and external negation, employing the aftermath lens suggested by the variation brief."
+  }
+}

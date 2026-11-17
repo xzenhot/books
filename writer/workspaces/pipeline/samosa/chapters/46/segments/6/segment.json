@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সাংস্কৃতিক বিচ্ছিন্নতা",
+  "segment_summary": "নামের পরিবর্তন এবং পরিবেশের ভিন্নতা এই খাবারটিকে একটি সাংস্কৃতিক বিচ্ছিন্নতার প্রতীক করে তোলে, যা সহজে সংজ্ঞায়িত করা যায় না।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the process not as 'being sold,' but as a constant, exhausting negotiation between appearance (the crisp fold) and internal reality (the muted filling).",
+    "story_option": "Setting: The narrow alley between two brightly painted shops, filled with cheap plastic trinkets; Desire: To find a single piece of packaging that miraculously retains the original smell from Bengal; Obstacle: Every surface is coated in an unfamiliar, chemical street dust.",
+    "subject_rotation": "Exploring the philosophical idea that 'authenticity' in a globalized setting is only achievable through rigid performance (the shape), not substance.",
+    "sensory_detail": "The low, abrasive hum of industrial refrigeration units drowning out any delicate spice-related aroma.",
+    "research_question": "How can I use archaic vocabulary (পুরানো বাংলা শব্দ) to describe a modern, sterile market atmosphere without sounding overly academic?",
+    "structural_variant": "A narrative spiral where each sensory input (sight -> sound -> smell) forces a tighter inward focus on the mouth/tongue.",
+    "variety_note": "This chapter pivots from internal culinary reflection to external environmental confrontation; the conflict moves from memory vs. present self, to ingrained cultural form vs. overwhelming urban noise."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নদীর প্রতিধ্বনি",
+  "segment_summary": "নদী যেন এই মানবিক দ্বন্দ্বের সাক্ষী, তার গর্জন এবং স্রোত এই নীরব সংগ্রামকে বহন করে নিয়ে যায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "রঘুনাথ의 आंतरिक কথোপকথন: যখন সে তার বৈঠাটিকে সম্বোধন করে, তখন কি তা কেবল কাঠ নাকি অতীতের সকল ঋণ বহনকারী সত্তা?",
+    "story_option": "একটি ছোট শিশু নৌকায় চড়ে আসে, তার পিতামাতা दूर থেকে আর্থিক সাহায্যের আশ্বাস দেয় কিন্তু বাস্তবে তা পৌঁছায় না; রঘুনাথ কী করবে?",
+    "subject_rotation": "নদীর স্রোতকে এখানে 'সময়' হিসেবে ব্যবহার করা—যেখানে অর্থনৈতিক চাপ কেবল দ্রুত গতির প্রতীক নয়, বরং অনিবার্য সময়ের প্রবাহ।",
+    "sensory_detail": "গোধূলির লালচে-কালো আভা যখন বৈঠা এবং জলের সংযোগস্থলে মিশে যায়; সেই রঙের তীব্রতা।",
+    "research_question": "বাংলার গ্রামীণ নৌ-পরিবহনে 'অদেখা' বা অনানুষ্ঠানিক আদান-প্রদানের সামাজিক সংজ্ঞা কী?",
+    "structural_variant": "এই অধ্যায়টিকে একটি ফোকাসড ইমোশনাল লুপ হিসেবে গঠন করা, যেখানে প্রতিটি অংশের শেষ বাক্য পূর্ববর্তী অংশের মূল দ্বন্দ্বকে সামান্য ঘুরিয়ে ফিরিয়ে নিয়ে আসে।",
+    "variety_note": "Neighbours' chapters dealt with grander external forces (nature/merchants); this chapter drills down into the intimate collision between Raghunath’s personal integrity and small acts of financial inadequacy."
+  }
+}

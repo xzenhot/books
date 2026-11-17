@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 3,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "নদীর দীর্ঘশ্বাস",
+  "segment_summary": "ভটিয়ালি সুরের প্রথম ঢেউ নদী ও তার তীরবর্তী মানুষের অব্যক্ত বেদনাকে বহন করে আনে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the song to an absent inheritor—a future boatman who may forget its roots, framing the melody as a sacred instruction.",
+    "story_option": "The majhi sings while navigating a section where an old barge carrying non-commercial goods (perhaps salvaged materials) drifts slowly, respecting the music.",
+    "subject_rotation": "Examining the 'silence' between verses: treating the rests as crucial, weighted passages where societal pressures are felt most acutely.",
+    "sensory_detail": "The taste of river mist lingering in the throat after a long bout of singing, metallic and cool.",
+    "research_question": "What specific local vocabulary is used in Bhatiyali tradition to describe a 'soulful' or 'deeply felt' melodic quality?",
+    "structural_variant": "Structuring the chapter as an evolving soundscape where musical motifs are introduced and then drowned out by ambient noise (a distant tractor, a siren), only to resurface stronger.",
+    "variety_note": "Unlike the stark economic confrontations in previous chapters, this chapter immerses entirely in sonic territory; the focus shifts from external pressure to internal resonance through music."
+  }
 }

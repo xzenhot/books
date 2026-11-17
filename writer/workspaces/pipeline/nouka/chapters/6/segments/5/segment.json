@@ -4,19 +4,19 @@
   "chapter_index": 6,
   "segment_index": 5,
   "total_segments": 8,
-  "segment_title": "বিপজ্জনক খাল",
-  "segment_summary": "ড্রেজিং নদীর প্রাচীন প্রবাহপথ বদলে দেয়, অনুমানযোগ্য স্রোতকে বানায় বিপজ্জনক, অচেনা খাল; কবিতা এই রূপান্তরকে ক্ষতি হিসেবে দেখে।",
+  "segment_title": "নীরব প্রতিরোধ",
+  "segment_summary": "গোপালের এই নীরব সংগ্রামটি আধুনিকতার কর্কশ শব্দগুলির বিরুদ্ধে এক গভীর, সাংস্কৃতিক প্রতিরোধ হিসেবে চিত্রিত হয়।",
   "name": "5",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Framing the chapter as a dialogue—not spoken, but through opposing textures: rough wood vs. smooth concrete; patient water current vs. forced machine velocity.",
-    "story_option": "Setting: The observation deck overlooking the main construction site near an upstream junction; Desire: Chatterjee makes a casual gesture dismissing a local fisher's plea, seeing it only as 'operational delay'; Obstacle: Gopal watches this dismissal from his boat, feeling the specific chill of institutional indifference.",
-    "subject_rotation": "Treating the dredge equipment itself not as machinery, but as a colossal, voracious form of appetite that consumes geography rather than just mud.",
-    "sensory_detail": "The abrasive sound of concrete being poured or cut against wet river clay.",
-    "research_question": "What is the local Bengali descriptor for an area that has been irreversibly altered by infrastructural development?",
-    "structural_variant": "A sectional structure: dedicating one segment entirely to the language/jargon of engineering versus another entirely to the oral traditions used by boatmen.",
-    "variety_note": "This chapter is distinct from earlier pieces by externalizing the conflict; rather than focusing on internal tradition (song/generosity), it targets the imposition of an alien, quantifiable structure onto the natural flow of life."
+    "angle": "নৌকার কাঠ ও হাতের চামড়া: শারীরিক ক্ষয়ে আসা উপাদানগুলোকেই প্রকৃতির টিকে থাকার শেষ দলিল হিসেবে তুলে ধরা, যা যান্ত্রিকতার গ্লেজড 표면에 প্রতিরোধ করে।",
+    "story_option": "সেটিং: একটি সংকীর্ণ খাল যেখানে ড্রেজিংয়ের কাজ চলছে; আকাঙ্ক্ষা: গোপাল হঠাৎ তার নৌকার কাঠ স্পর্শ করার মাধ্যমে সেই পূর্বপুরুষের হাতের উষ্ণতা অনুভব করতে চান; বাধা: আধুনিক কংক্রিটের ছাঁচ যেন সেই কাঠের গায়ে চাপ সৃষ্টি করে, শীতলতার প্রতীক হিসেবে।",
+    "subject_rotation": "ভাটিয়ালি গানকে কেবল স্মৃতিচারণ না করে, এটিকে এক ধরনের 'উপদ্রব' বা সাংস্কৃতিক স্পার্ক হিসেবে উপস্থাপন করা যা আধুনিকতা সরাসরি দমন করতে চাইছে।",
+    "sensory_detail": "সোনালী দিনের আলোর বিপরীতে ডিজেল ইঞ্জিনের ব্লেড থেকে প্রতিফলিত হওয়া শীতল, ধাতব ঝলকানি।",
+    "research_question": "এই প্রেক্ষাপটে 'নদীর ধীর ছন্দ'কে ধ্বনিবিজ্ঞানের দৃষ্টিকোণ থেকে কীভাবে বর্ণনা করা যায়—এটি কি শুধু কম ফ্রিকোয়েন্সি নাকি একটি নির্দিষ্ট তরঙ্গরূপ?",
+    "structural_variant": "একটি 'ডায়ালগয়িং লুপ': প্রতিটি ছোট অংশে অতীত ও বর্তমানের চিত্রকল্প একইসাথে আবর্তিত হতে থাকবে, কোনো স্পষ্ট পরিবর্তন না ঘটিয়ে শুধু তীব্রতার পরিবর্তন হবে।",
+    "variety_note": "এই অধ্যায় পূর্ববর্তী সংঘাতমূলক দৃশ্যের (পর্ব ৩ ও ৪) বিপরীতে এক গভীর অন্তঃস্থ লয়ের সৃষ্টি করে; এটি আক্রমণ নয়, বরং টিকে থাকার জন্য একটি শান্ত আত্মসমীক্ষার মুহূর্ত যা পাঠকের মধ্যে দার্শনিক প্রশ্ন জাগায়।"
   }
 }

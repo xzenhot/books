@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষিত গন্ধের অনুপস্থিতি",
+  "segment_summary": "যে নির্দিষ্ট সরিষার তেলের ঝাঁঝালো গন্ধটি প্রত্যাশিত ছিল, তা এখানে অনুপস্থিত, যা এক গভীর, অব্যক্ত আকাঙ্ক্ষার জন্ম দেয়।",
+  "name": "2.6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the entire experience as a failed attempt at cartography—trying to map back the taste onto the original geography.",
+    "story_option": "Setting: Inside an old suitcase/bag; Desire: The bag itself to hold enough residual warmth from Bengal; Obstacle: The cold humidity of the new locale seeping through the seams; Turn: The realization that the bag is now merely a container for dried, flavorless remnants.",
+    "subject_rotation": "Investigating the physical mechanisms—the tongue/teeth—as corrupted receptors failing to translate old signals.",
+    "sensory_detail": "A low-frequency drone or hum from unfamiliar machinery that vibrates in the chest cavity rather than being heard.",
+    "research_question": "What is the precise vocabulary in Bangla/Tatsama that conveys flavor loss as an architectural or structural failure?",
+    "structural_variant": "A deliberately fragmented structure where each segment uses a distinct meter (though maintaining thematic unity), reflecting shattered recollection.",
+    "variety_note": "Where Chapter 1 focused on the perfect composition at home (the start), this chapter shifts to the disintegration process during transit and arrival; it is defined by absence rather than presence."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "প্রশাসনিক শীতলতা বনাম কাব্যিক উষ্ণতা",
+  "segment_summary": "ব্রিটিশ প্রশাসনের শীতল, প্রশাসনিক ভাষা এবং সম্রাটের গভীর, মর্মস্পর্শী কাব্যিক অভিব্যক্তির মধ্যে তীব্র বৈপরীত্য বিদ্যমান।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem begins with the sound of wood scraping against rough material (the physical act of writing), immediately subverting any expectation of grand proclamation.",
+    "story_option": "Setting: The edge of the wooden cot; Desire: To capture a specific fading scent from old manuscript paper; Obstacle: A draft slips through the chink in the wood, scattering dust.",
+    "subject_rotation": "Treating the charcoal strokes less as 'writing' and more as a form of ritualistic tattooing onto his own existence.",
+    "sensory_detail": "Sight: The absolute monochrome dominance of soot and charcoal against scarred timber grain.",
+    "research_question": "What specific vocabulary or idiomatic structures in Persianate Mughal court poetry were most resistant to colonial-era linguistic imposition?",
+    "structural_variant": "Employing tercets (three-line stanzas) only for moments of acute internal crisis, reverting to longer, meditative lines otherwise.",
+    "variety_note": "Unlike earlier chapters focused on external struggle or past glory, this section is entirely inward-facing, concentrating solely on the *process* of creation as an existential act waged against total erasure; it avoids mentioning specific historical events in favor of abstract technique."
+  }
+}

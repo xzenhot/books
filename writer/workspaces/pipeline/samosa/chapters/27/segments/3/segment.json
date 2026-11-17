@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার কাব্যিকতা",
+  "segment_summary": "স্বাদটির অসম্পূর্ণতা কীভাবে কাব্যিক সৌন্দর্যের জন্ম দেয়, সেই দ্বৈততাকে এই অংশে তুলে ধরা হয়েছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Inverting agency: Framing the memory itself as the active agent that judges and critiques the present physical reality of the acquired food.",
+    "story_option": "Setting: While observing the reflection of oneself in greasy cooking oil on a makeshift *tawa*; Desire: To see a clearer image of the self anchored by the old Bengali idiom/dialect; Obstacle: The distorted reflection shows only a generalized, foreign silhouette.",
+    "subject_rotation": "Positioning the act of naming ('Samosa') as an erasure, not just a translation.",
+    "sensory_detail": "Touch: The gritty, fine residue of unidentifiable spices clinging to fingertips after handling prepared ingredients.",
+    "research_question": "What precise Bengali term exists that conveys 'a flavour that simultaneously tastes like something familiar and something fundamentally foreign'? (To inform diction choice)",
+    "structural_variant": "A structure based on extreme sensory oscillation: rapid shifts from heightened memory recall to stark present reality observation within consecutive stanzas.",
+    "variety_note": "This chapter leans heavily into abstraction and introspection, contrasting with previous chapters which may have been more grounded in street-level observation or material friction."
+  }
+}

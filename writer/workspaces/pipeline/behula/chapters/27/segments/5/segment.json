@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "সামাজিক প্রতিধ্বনি",
+  "segment_summary": "এই ব্যক্তিগত বিজয় সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব, শক্তিশালী অভিযোগের মতো প্রতিধ্বনিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Behula's ultimate realization is not 'happily ever after,' but accepting that struggle itself defines divinity, a counter-argument to conventional reward structures.",
+    "story_option": "Setting: Within the shadow of an ancient banyan tree (a place of memory); Desire: To symbolically 're-plant' the seed of hope that was crushed by doubt, knowing it will face new threats.",
+    "subject_rotation": "Focusing entirely on the 'sound' of their restored connection—the rhythm replacing the silence.",
+    "sensory_detail": "Sound: A low, sustained hum emanating from their joined presence—a frequency beyond normal human hearing.",
+    "research_question": "What specific vocabulary from the declared world suggests enduring, self-sustained energy rather than momentary passion?",
+    "structural_variant": "The poem could be structured like a slow, deliberate chime sequence, where each stanza resolves into a quieter, deeper resonance.",
+    "variety_note": "This chapter focuses on the philosophical aftermath and ontological validation of their union, moving beyond simple narrative closure towards defining what enduring presence means."
+  }
+}

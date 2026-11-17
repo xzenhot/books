@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 37,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন অনুরণন",
+  "segment_summary": "চূড়ান্ত স্বাদটি এমন এক অস্পষ্ট, কিন্তু গভীর অনুরণন রূপে রয়ে যায়, যা কখনও পুরোপুরি পাওয়া যায় না, কিন্তু হৃদয়ে চিরকাল বেঁচে থাকে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the 'I' voice entirely into an object (e.g., the broken crumb on the floor), allowing it to possess linguistic resignation regarding its altered state.",
+    "story_option": "Setting: A dimly lit kitchen counter at dawn, Desire: To force a chemical reaction in existing crumbs that simulates the original heat/spice profile; turning failure into revelation., Obstacle: The impossibility of recreating 'আঁচ' (the specific, perfect cooking temperature).",
+    "subject_rotation": "Treating the flavor dissonance as a necessary tension for spiritual growth, rather than merely a personal loss (a philosophical turn).",
+    "sensory_detail": "A high-pitched internal hum (auditory) perceived during moments of absolute taste neutrality.",
+    "research_question": "How can the required 10-word line structure be used rhythmically to mimic flavor saturation followed by rapid dissipation?",
+    "structural_variant": "Structuring the 8 segments not linearly, but as an echo chamber where Segment 1’s image is revisited in Segment 5 with altered diction.",
+    "variety_note": "Unlike previous chapters which focused on the material transfer or geographical shift, this chapter zeroes in entirely on the internal, post-ingestion phenomenology—the residue within consciousness itself."
+  }
+}

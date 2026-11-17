@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 54,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "করুণা ও প্রেরণার মিশ্রণ",
+  "segment_summary": "পাঠকের মনে গভীর করুণার পাশাপাশি অপ্রতিরোধ্য অনুপ্রেরণার এক তীব্র স্রোত সৃষ্টি হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A perspective centered entirely on an overlooked domestic object within their home that bore witness to every trial (e.g., a specific clay lamp, or piece of ritual metal).",
+    "story_option": "Setting: Under the eaves of the house during a sudden evening drizzle; Desire: To feel the rain wash away the historical weight attached to her name; Obstacle: The tactile memory of suffering making shared touch feel both vital and fragile.",
+    "subject_rotation": "Examining endurance itself—is it sheer survival against entropy, or is it a deliberate act of shaping personal mythology?",
+    "sensory_detail": "The visual quality of light filtering through aged muslin cloth in their chamber, rendering everything softly defined yet hauntingly clear (visual).",
+    "research_question": "How can the diction convey profound spiritual exhaustion without resorting to conventional religious terminology?",
+    "structural_variant": "Using an inverted syllabic rhythm at the beginning of Segments 1 and 2 to mirror psychological disorientation before settling into measured, declarative lines.",
+    "variety_note": "This chapter shifts focus from the immediate trauma and struggle (previous segments) to the *aftermath*—the nuanced, complex emotional reality of sustained existence following an epic spiritual war, while challenging whether this victory is truly absolute or merely conditional."
+  }
+}

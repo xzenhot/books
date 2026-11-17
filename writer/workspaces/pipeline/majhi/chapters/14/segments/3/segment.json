@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "কাঠের নমনীয়তা",
+  "segment_summary": "নৌকাটির কাঠ, যা বহু ঝড় সহ্য করেছে, তা নতুন চাপ সত্ত্বেও তার মৌলিক কাঠামো ধরে রাখার চেষ্টা করে, যা মাঝির মানসিক স্থিতিস্থাপকতার প্রতীক।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal monologue framed entirely around nautical metaphor: charting a course through unfamiliar economic currents rather than geographical ones.",
+    "story_option": "Setting: At an official-looking riverside 'check station.' Desire: He must navigate bureaucratic red tape (a symbolic weight) without having to admit that his informal, generous service model is obsolete.",
+    "subject_rotation": "Examining 'resilience' not through bending, but through material accumulation: how does he strategically accumulate just enough modern resources (a better rope, specific permit) to maintain functional independence?",
+    "sensory_detail": "The slight, persistent tremor in his hands when he touches the bolted joints of modern river defenses.",
+    "research_question": "What specific vocabulary exists within Bengali delta culture to describe 'navigating necessary compromise' rather than outright surrender?",
+    "structural_variant": "A cyclical structure where each new element of modernity forces a complete return, not to the beginning, but to a slightly altered version of the moment it started.",
+    "variety_note": "This chapter shifts focus from internal philosophical questioning (like Chapter 11's decision) to the *process* of ongoing, pragmatic adaptation, demonstrating that endurance requires intelligent incorporation rather than stubborn isolation."
+  }
+}

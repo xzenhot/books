@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নৌকার স্থিতিস্থাপকতা",
+  "segment_summary": "নৌকাটি যেন তার জীবনের প্রতীক, যা ভাঙার মুখেও তার মূল কাঠামো ধরে রাখার চেষ্টা করছে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The moment of decision is not a grand stand, but a series of minute physical actions: pausing mid-stroke, letting the oar rest differently in the water.",
+    "story_option": "Setting: While patching the boat's wood after a hard day of travel. Desire: To find a material substitute (a cheaper resin or glue) and consciously refuse to use it, prioritizing integrity over survival.",
+    "subject_rotation": "Treating the decision not as a final act of rebellion, but as the beginning of a slow, inevitable erosion that requires continuous vigilance.",
+    "sensory_detail": "The taste of salt mixed with dust from his own breath as he struggles to vocalize a clear thought.",
+    "research_question": "What is the specific vocabulary within Bengali river folk culture used to describe 'living outside the ledger' or non-monetized exchange?",
+    "structural_variant": "Interleaving short, sharp lines (like fragmented data points) that represent market prices against longer, flowing lines representing natural rhythm.",
+    "variety_note": "This chapter centers on interiority; while neighbours deal with external pressure (debt, protest), here the conflict is pure existential triangulation between two opposing forces of nature/commerce."
+  }
+}

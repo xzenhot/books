@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 45,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার ফোঁটা",
+  "segment_summary": "সামোসাটির শেষ টুকরো গিলে ফেলার পরেও জিভে যে এক অদ্ভুত শূন্যতা বিরাজ করে, তা কেবল পেট ভরের অভাব নয়, বরং একটি সম্পূর্ণ অভিজ্ঞতার বিচ্যুতিকে নির্দেশ করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the physics of *absence*—the measurable void left by a consumed object, treated almost like an energetic residue.",
+    "story_option": "A scene where 'I' attempts to recreate the flavor using only scent memories (e.g., rubbing hands on a cloth smelling faintly of old cooking oil) in a sterile, modern space.",
+    "subject_rotation": "Shifting from the internal void to a metaphysical exploration of how cultural memory is physically stored in the mouth/saliva.",
+    "sensory_detail": "The dull, pervasive metallic tang that replaces the sharp bite of *sorsher tel* (mustard oil).",
+    "research_question": "What precise Bengali word captures a residual taste that exists beyond simple presence or absence?",
+    "structural_variant": "A highly fragmented poem, where each segment begins with an entirely different physical action (e.g., breathing out slowly, staring at a patch of light).",
+    "variety_note": "This chapter deepens the philosophical tension begun earlier by focusing entirely on the state *after* consumption—the residue, the void, and the internal debate about taste's nature."
+  }
 }

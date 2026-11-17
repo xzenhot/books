@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "শব্দ ও মাটির সংযোগ",
+  "segment_summary": "ঢাকের শব্দ মাটির প্রতিমার ভঙ্গুরতার বিপরীতে এক শক্তিশালী, অবিচল স্পন্দন তৈরি করে, যা সৃষ্টির স্থিতিস্থাপকতাকে তুলে ধরে।",
+  "name": "4",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the physical toll of the drummer: how repetitive, relentless rhythm changes the body and mind over days.",
+    "story_option": "A weary older drummer, burdened by lineage and the weight of tradition, seeks one moment where his rhythm deviates from the prescribed pattern, desiring a personal expression.",
+    "subject_rotation": "Shifting focus entirely from *sound* (auditory) to its material counterpart—the vibration felt in the ground and the resonant frequency within the clay itself.",
+    "sensory_detail": "A sharp, metallic scent of aged brass fittings from ritual bells mingling with the humid air saturated by drum-strikes.",
+    "research_question": "What is the known historical connection between the act of drumming at Durga Pujas and pre-Vedic ritual practices in Bengal?",
+    "structural_variant": "Using fragmented sensory snapshots—a rapid succession of drum strikes followed by isolated visual memories from other festivals.",
+    "variety_note": "This chapter moves away from the concrete idol-making (Chapter 2/3) to focus purely on the dynamic energy—the *sound*—which represents primal force and temporal rhythm, unlike its neighbours which deal with physical or emotional states."
+  }
+}

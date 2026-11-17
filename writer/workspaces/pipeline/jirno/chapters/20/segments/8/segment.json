@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "স্বীকৃতির ভার",
+  "segment_summary": "এই অধ্যায়ের সমাপ্তি এক ধরনের শান্ত স্বীকৃতিতে হয়, যেখানে পথিক তার সমস্ত নাগরিক কাঠামোকে ভেঙে দিয়ে প্রকৃতির নিয়মে আত্মসমর্পণ করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the Satual presence not just as witnesses, but as geological anchors against ephemeral human striving; their stillness is fundamental bedrock rather than mere social commentary.",
+    "story_option": "Setting: A patch of blood-red Palash clinging to rubble, illuminated by the strange, metallic light of oncoming storm clouds; Desire: To physically touch something that embodies 'uncompleted devotion'; Obstacle: His hand shaking uncontrollably, a betrayal of his rational intent; Turn: The touch is purely tactile—the roughness of bark mixed with ash—and offers no narrative comfort.",
+    "subject_rotation": "Treating 'acceptance' not as a philosophical resignation, but as an intensely physical act of relinquishing muscle tension and intellectual grip.",
+    "sensory_detail": "Touch: The feeling of static electricity building in the dry air—a prickling sensation across the exposed skin of forearms before any rain falls.",
+    "research_question": "How did traditional Bengali lyricism describe the transition between a state of potential violence (storm) and absolute stillness?",
+    "structural_variant": "Employing sustained rhetorical questions posed to an imagined observer/past self throughout all eight segments without seeking definitive answers.",
+    "variety_note": "This chapter moves past the *identification* of the conflict (Chapters 1-6) into its active, elemental enactment, emphasizing forced submission to dynamic forces rather than reasoned choice. The voice shifts from analysis to sustained observation under extreme environmental pressure."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 41,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "বিজয় সত্ত্বেও, এই কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক গভীর, নীরব অভিযোগের সুর বহন করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final victory not as a triumphant zenith, but as an exhausted plateau—a hard-won state that demands constant maintenance against entropy.",
+    "story_option": "Setting: A shadowed corner near a hearth that has been cold for long vigils; Desire: To draw warmth not from fire, but from her presence as it is; Obstacle: An unexpected gust of wind that seems to carry the 'voice' of societal doubt; Turn: The sound morphs into a singular, sustained note.",
+    "subject_rotation": "Re-framing the 'return' as a cyclical necessity rather than a narrative endpoint, suggesting eternal oscillation between absence and presence.",
+    "sensory_detail": "Touch: The abrasive coolness of aged stone felt beneath a single trembling finger as she touches his familiar form.",
+    "research_question": "What archaic Bengali term most precisely captures a state that is neither simple joy nor overwhelming burden, but rather 'hard-won equilibrium'?",
+    "structural_variant": "A purely stream-of-consciousness structure where segments bleed into one another without hard breaks, reflecting the exhaustion.",
+    "variety_note": "Unlike prior segments that focused on building tension or articulating suffering, this chapter focuses on the dynamic *aftermath* of conflict, using concentrated physical imagery to convey abstract triumph."
+  }
+}

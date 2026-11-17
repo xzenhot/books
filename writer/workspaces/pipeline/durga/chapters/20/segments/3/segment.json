@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন সংগ্রামের অসুর",
+  "segment_summary": "দৈনন্দিন জীবনের ক্ষুদ্র সংগ্রামগুলিও যেন মহিষাসুরের মতো অভ্যন্তরীণ অন্ধকার, যা প্রতিদিনের ভক্তি ও চেষ্টার মাধ্যমে বধ করার চেষ্টা করা হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'I' not as a philosophical observer, but as an active participant whose personal failures mirror minor demonic incursions.",
+    "story_option": "Setting: Walking through an empty street lined with fading 'pandal' remnants during mid-day sun; Desire: To locate a single discarded piece of vibrant vermillion (sindoor) as proof of past glory; Obstacle: The heat bleaching the color to pale resignation.",
+    "subject_rotation": "Using the contrast between *transient* material beauty (silk/mud) and *persistent* symbolic memory as the primary driving conflict.",
+    "sensory_detail": "Touch: The stiff, almost brittle feel of old, dried autumn leaves pressed against the skin.",
+    "research_question": "What specific Bengali metaphor exists in contemporary usage for an internalized spiritual force that resists theological categorization?",
+    "structural_variant": "Employing a sustained chiasmus across all eight segments to impose structural symmetry upon existential chaos.",
+    "variety_note": "This chapter moves away from action/mythology and focuses exclusively on aftermath—the quiet contemplation where belief transitions into existential philosophy. It contrasts the high ritualistic language with the low reality of daily life."
+  }
+}

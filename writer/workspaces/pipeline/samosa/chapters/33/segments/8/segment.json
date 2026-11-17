@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 33,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন অনুরণন",
+  "segment_summary": "এই কাব্যটি শেষ হয় সেই অস্পষ্ট, কিন্তু গভীর অনুরণন দিয়ে, যা সম্পূর্ণরূপে পাওয়া যায়নি, কিন্তু হৃদয়ে চিরকাল বেঁচে থাকে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus to the physical act of cleansing the mouth after eating, where the lingering sensation becomes an archive of memory.",
+    "story_option": "Setting: Inside an old-fashioned clay pot (*koraai*) left unused in a foreign kitchen; Desire: To coax the scent from its porous walls using only breath and memory; Obstacle: The overpowering, neutral smell of modern ventilation systems.",
+    "subject_rotation": "Exploring the duality of language loss: the ability to name *samosa* but losing the semantic weight of *singara*.",
+    "sensory_detail": "The distinct prickle on the tongue where pure spice meets tasteless neutrality.",
+    "research_question": "How can the rhythm mimic the slow, almost geological process of flavor degradation over time?",
+    "structural_variant": "Using highly fragmented lines where each line is interrupted by a linguistic bridge to an entirely different sensory experience.",
+    "variety_note": "This chapter contrasts heavily with preceding segments by focusing entirely on post-consumption entropy—the afterglow, the residue, rather than the act of preparation or initial transit."
+  }
+}

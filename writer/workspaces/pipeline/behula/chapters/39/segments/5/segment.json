@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 39,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের প্রতিধ্বনি",
+  "segment_summary": "তার সংগ্রাম কেবল ব্যক্তিগত ছিল না; এটি নিপীড়িত আত্মার সম্মিলিত কণ্ঠস্বর হয়ে ওঠে, যা প্রেরণা জাগায়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Employing a meta-poetic approach where Lkhindor pauses not in triumph, but to note the overwhelming exhaustion reflected in Behula’s gaze upon his return.",
+    "story_option": "Setting: Near the border between the sacred vigil ground and the settled house; Desire: To find a single, non-mythological token that survived all hardship (a specific type of clay or fiber); Obstacle: The internal conflict between acceptance (joy) and suspicion (fear).",
+    "subject_rotation": "Treating the final victory as a kind of existential negotiation rather than a resolution, where triumph is merely a temporary truce.",
+    "sensory_detail": "A low, sustained frequency hum (subsonic resonance) replacing the expected sound of celebratory music upon his entry into the home.",
+    "research_question": "What archaic Bengali term most precisely captures a state that is neither simple joy nor overwhelming burden, but rather 'hard-won equilibrium'?",
+    "structural_variant": "Employing an anti-climax where the highest rhetorical praise for reunion is immediately undercut by a starkly mundane description of necessary post-return labor.",
+    "variety_note": "Unlike neighbour chapters focusing on the *process* of endurance, this chapter must pivot to defining the *state* achieved by that endurance, while maintaining a self-aware tension regarding its societal validity."
+  }
+}

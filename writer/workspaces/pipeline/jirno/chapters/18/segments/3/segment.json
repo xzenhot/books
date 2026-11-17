@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অধিকার বনাম বিলয়",
+  "segment_summary": "এই সীমারেখাটিই তার জীবনের সবচেয়ে বড় পরীক্ষা, যেখানে অধিকারবোধ এবং নিঃশব্দ বিলয়ের মধ্যে সংঘাত তীব্র হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the concept of 'limit' not as a line drawn by will (civic ego), but as an emergent property of geological or meteorological necessity.",
+    "story_option": "Setting: A brief, almost hallucinatory vision of the house *before* its ruin—rendered not in grandeur, but in intense emotional saturation (like a dream); Desire: To desperately grasp at that manufactured memory as evidence for his choice; Obstacle: The clarity of the image immediately degrading into grit.",
+    "subject_rotation": "Focusing less on the external clash (Civilization vs. Nature) and more on the internal collision: the friction between the urge to *define* experience and the reality of irreducible being.",
+    "sensory_detail": "Touch: The gritty feeling on his tongue when he involuntarily tastes the fine dust coating his lips during moments of extreme stillness.",
+    "research_question": "How does Bengali lyrical tradition handle the transition from acute environmental violence (the incoming storm) to absolute, sterile quietude?",
+    "structural_variant": "A heavily fragmented structure where each segment focuses on one competing sensory input: Sight (Red/Grey), Sound (Wind/Silence), Touch (Grit/Thorn).",
+    "variety_note": "While neighbouring chapters focused on the bloom's inherent nature or the dawn/storm transition, this chapter zeroes in entirely on the moment of decisive human choice against an overwhelming environmental backdrop."
+  }
+}

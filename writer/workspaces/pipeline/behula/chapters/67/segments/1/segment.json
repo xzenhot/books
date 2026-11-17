@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 67,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিষাদের ভারে নত মন",
+  "segment_summary": "অবিরাম মানসিক চাপের ভারে বেহুলার মন যখন ক্লান্তিতে নুয়ে পড়ে, তখন তার প্রতিটি শ্বাস যেন এক কঠিন সংগ্রামের প্রতিধ্বনি হয়ে ওঠে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the internal struggle as a negotiation with the abyss—the self is not fighting 'against' despair, but actively bargaining with it for survival.",
+    "story_option": "Setting: A single, perpetually cold stone floor in the house; Desire: To feel that inherent coldness crack under the heat of her internal conviction; Obstacle: The weight of past failure preventing any visible eruption.",
+    "subject_rotation": "Shifting the focus from 'endurance' as an active struggle to 'endurance' as a passive state of absolute being—a refusal to dissolve.",
+    "sensory_detail": "The dry, acrid scent of dust settled on unmoving silk after days without external movement (smell)",
+    "research_question": "What specific vocabulary in Bengali exists to describe mental exhaustion that borders on spiritual depletion, distinct from physical fatigue?",
+    "structural_variant": "Fragmented Stream-of-Consciousness structure: Each segment contains short, highly dense bursts of imagery rather than continuous narrative flow.",
+    "variety_note": "While neighbours explored resilience as *alchemy* or *return*, this chapter grounds its struggle in immediate corporeal weight and the fragile tension between near-collapse and stubborn continuation, ending with an unresolved ontological query."
+  }
 }

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 1,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "পিতৃপক্ষের শেষ প্রহর",
+  "segment_summary": "মহালয়ার ভোরে, পিতৃপক্ষের সমাপ্তি ঘোষণা করে চণ্ডীপাঠের গম্ভীর ধ্বনি বাতাসে মিশে যায়।",
+  "name": "1",
+  "word_target": 62,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the internal sound of the *ḍhāk* (ঢাক), portraying it as a heartbeat or subterranean tremor rather than just music.",
+    "story_option": "A character lingering near the riverbank at dawn, feeling a deep, unarticulated longing that momentarily drowns out the sound of the *ḍhāk*, only to be pulled back by its cadence.",
+    "subject_rotation": "Shifting focus entirely from 'arrival' (Agaman) to 'threshold'—the liminal space between the old season/old faith and the new divine presence.",
+    "sensory_detail": "The specific metallic tang of damp earth mingling with the sweet perfume carried on the pre-dawn mist.",
+    "research_question": "What precise linguistic nuance in Bengali signifies the shift between ancestral rites (Pitru Paksha) and divine manifestation (Devi Paksha)?",
+    "structural_variant": "A highly fragmented structure, mirroring broken thoughts amid the sonic assault of the initial drumming.",
+    "variety_note": "This chapter emphasizes the sonic and olfactory prelude to Durga's presence, focusing on internal tension against external proclamation, unlike subsequent chapters which detail craftsmanship or ritual."
+  }
 }

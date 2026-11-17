@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের প্রতিদান",
+  "segment_summary": "তার অবিচল বিশ্বাস এবং সহনশীলতার ফলস্বরূপ, সে সেই শক্তি লাভ করে যা তাকে অসম্ভবকেও সম্ভব করতে সাহায্য করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the societal acceptance not as a complete victory, but as a grudging, conditional peace achieved through immense personal cost.",
+    "story_option": "Setting: A distant vista visible from the dwelling, symbolizing future journeys; Desire: To finally allow herself a moment of pure, unburdened joy after years of fierce maintenance; Obstacle: The fear that such happiness is fleeting and will inevitably turn to ash; Turn: Choosing instead to preserve the memory of struggle as its truest form.",
+    "subject_rotation": "Shifting the focus from 'success' to 'recalibration'—the realization that winning one battle necessitates facing a new, internal war of meaning-making.",
+    "sensory_detail": "The heavy texture of newly draped finery that feels foreign and ill-fitting against skin accustomed to rougher fabrics.",
+    "research_question": "How can the concept of 'earned respite' be described using Bengali vocabulary that avoids suggesting simple fortune?",
+    "structural_variant": "Starting with a moment *after* the victory, forcing the reader to retrace the struggle backward through retrospective dialogue.",
+    "variety_note": "This chapter shifts from the sustained tension of endurance (previous segments) to a focused, pressurized scene of consummated relief and its immediate philosophical implications."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 71,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অদম্য মনোবল",
+  "segment_summary": "বহিরাগত প্রতিকূলতা সত্ত্বেও তার মনোবল কীভাবে অটুট থাকে, এবং এই অটুটতা কীভাবে অন্যদের প্রেরণা যোগায়, তা এই অংশে দেখানো হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Dichotomy focus: Concentrating almost entirely on the friction between 'internal permanence' and 'external flux' (e.g., bedrock vs. tidal current).",
+    "story_option": "Scene Seed: A fleeting moment where one neighbor's judgment is momentarily inverted by a glimpse of unseen cosmic order, making their condemnation physically impossible to sustain.",
+    "subject_rotation": "Exploring how the concept of sacrifice (আত্মত্যাগ) becomes inherently regenerative, not extractive.",
+    "sensory_detail": "A specific scent—not incense, but ozone mixed with dried river mud after an imagined spiritual deluge.",
+    "research_question": "What vocabulary exists in classical Bengali that denotes 'unshakeable inner scaffolding' or foundational selfhood amidst chaos?",
+    "structural_variant": "Employing a non-linear flow: Jumping between acute social attack moments and deep, contemplative self-anchoring points.",
+    "variety_note": "This chapter moves away from narrative action (like initial tragedy or final triumph) into sustained philosophical exploration, focusing on *how* the inner state transforms external pressure into symbolic power, unlike adjacent chapters that focus on specific events."
+  }
+}

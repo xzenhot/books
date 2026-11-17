@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অর্থহীন ঝলকানি",
+  "segment_summary": "The final, lingering image suggests that perhaps the moments are beautiful precisely because they are transient, existing as luminous, meaningful flashes against the vastness of time.",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "পর্যবেক্ষকের স্থিরতা নয়, বরং তাঁর উপলব্ধির প্রক্রিয়াটিই অস্থির—যেন তিনি একই সাথে অনেকগুলো সময়সীমার মধ্য দিয়ে സഞ്ച করছেন (Multi-temporal Observer Focus)।",
+    "story_option": "সন্ধ্যা নামার মুহূর্তে, যখন ধুলো উড়তে শুরু করে, তখন দেখা যায় প্রতিটি ধূলিকণায় একটি নির্দিষ্ট মানুষের শ্রমঘাম লেগে আছে—যেন এক অদৃশ্য 'লেয়ারিং' প্রক্রিয়া চলছে।",
+    "subject_rotation": "ঐতিহাসিকভাবে গুরুত্বপূর্ণ কোনো ঘটনার চেয়ে, একটি বিশেষ 'অপেক্ষার' অনুভূতির মনস্তাত্ত্বিক গভীরতাকে কেন্দ্র করা (Psychology of Waiting)।",
+    "sensory_detail": "দীর্ঘ অপেক্ষার কারণে আঙ্গুলের ত্বকে জমে থাকা রুক্ষ, খসখসে ঘামের টেক্সচার।",
+    "research_question": "গিবরান/অরিলাসের দর্শন অনুযায়ী, নীরবতার ওজনকে শব্দহীনভাবে ধ্বনিময় করার সবচেয়ে উপযুক্ত কাব্যিক কৌশল কোনটি?",
+    "structural_variant": "The Layered Dissolution: কবিতাটিকে এমনভাবে তৈরি করা যাতে প্রতি segment-এ বস্তুর বর্ণ, গঠন এবং ভাবের একটি নির্দিষ্ট গুণাবলী ক্ষয়প্রাপ্ত হতে থাকে।",
+    "variety_note": "এই পর্ব অন্যান্য অধ্যায়ের চেয়ে বেশি বিমূর্ত ও সংহত; এটি বিচ্ছিন্ন চিত্রের তালিকা থেকে সরে এসে সেই চিত্রগুলির সম্মিলিত অস্তিত্বের দার্শনিক প্রতিধ্বনি অনুসন্ধানে মনোনিবেশ করে।"
+  }
+}

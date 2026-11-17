@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 27,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অনুরণনের শেষ ফোঁটা",
+  "segment_summary": "এই অংশে সেই স্বাদটির শেষ অনুরণন বর্ণনা করা হয় যা আকাঙ্ক্ষিত হলেও অধরা, যা কেবল হৃদয়ের গভীরে অনুরণিত হয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the somatic memory: Treating the lingering taste/texture not as a flavor profile but as a specific muscular ache in the tongue.",
+    "story_option": "Setting: A dimly lit counter where a modern vendor serves generalized 'samosas'; Desire: To force the vendor to recall the specific, ancestral recipe; Obstacle: The vendor operates only on mass production metrics.",
+    "subject_rotation": "Treating the cyclical nature (the 'litany' seed) as a ritualistic mantra that starts and ends identically.",
+    "sensory_detail": "Sight: The faint ochre stain left by old turmeric spice deep within ceramic kitchenware (কড়াই).",
+    "research_question": "What precise Bengali term exists that conveys 'a flavour that simultaneously tastes like something familiar and something fundamentally foreign'? (To inform diction choice)",
+    "structural_variant": "A structure based on extreme sensory oscillation: rapid shifts from heightened memory recall to stark present reality observation within consecutive stanzas.",
+    "variety_note": "This chapter leans heavily into abstraction and introspection, contrasting with previous chapters which may have been more grounded in street-level observation or material friction."
+  }
 }

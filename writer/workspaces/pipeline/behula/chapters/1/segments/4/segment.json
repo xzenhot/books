@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার গভীরে প্রথম ডুব",
+  "segment_summary": "Behula confronts the terrifying expanse of her new solitude, a void that threatens to consume her essence.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the specific texture of silence in a grand home after loss, rather than just 'emptiness.'",
+    "story_option": "A lingering moment where Behula touches a specific, mundane item belonging to Likhindar (e.g., his discarded shawl), feeling its coldness against her warmth, leading to an immediate internal clash of past/present.",
+    "subject_rotation": "Treating the initial shock not as passive grief, but as an active internal battle against societal expectations of immediate recovery.",
+    "sensory_detail": "The specific metallic tang of dust disturbed from polished ancestral furniture.",
+    "research_question": "How can I concretely translate the philosophical weight of 'void' into physical sensations rooted in the declared world vocabulary?",
+    "structural_variant": "Starting mid-action: Behula attempting a routine task that becomes impossibly heavy.",
+    "variety_note": "This chapter moves away from the philosophical confrontation of neighbours; here, we are in the immediate, visceral impact zone—the collision between established harmony and abrupt severance."
+  }
+}

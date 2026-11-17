@@ -1,0 +1,79 @@
+{
+  "chapter_index": 25,
+  "name": "25",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scars of Expression",
+  "chapter_summary": "This final chapter synthesizes the journey, focusing on the enduring nature of the artist's struggle beyond the physical canvas. It explores how the accumulated 'scars'—the failures, the silent nights, the societal pressures—become the true texture of the art. The imagery shifts from the vibrant pigments to the subtle erosion of time, mirroring the artist's own internal weathering. The central question remains: Can the truth of creation ever be fully captured, or is the process of becoming the only authentic masterpiece?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Final Stroke of Air",
+      "segment_summary": "The artist applies a final, almost invisible stroke, not of pigment, but of pure breath, acknowledging the ephemeral nature of her work.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Fissures as Testimony",
+      "segment_summary": "The cracks in the fresco are reinterpreted not as damage, but as the visible record of every internal conflict she endured.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "Beyond the Frame's Edge",
+      "segment_summary": "She realizes the art transcends the physical boundaries of the haveli wall, existing instead in the memory and the act of creation itself.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "The Seed of the Next Dawn",
+      "segment_summary": "The completed piece is not an end, but a fertile ground from which the next, unknown creative impulse will inevitably sprout.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "The Weight of Being Seen",
+      "segment_summary": "She accepts that the visibility she sought is inseparable from the vulnerability she risked, a permanent state of exposure.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "The Dialogue with Silence",
+      "segment_summary": "The silence of the night, once a refuge, is now a companion, a necessary counterpart to the loud demands of expression.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Unquenchable Hunger",
+      "segment_summary": "The initial hunger for existence transforms into a quiet, sustainable necessity—the drive to continue the difficult work.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Living Fresco",
+      "segment_summary": "The final realization is that the fresco is not a static object, but a living document of a relentless, beautiful, and painful human becoming.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

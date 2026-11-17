@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অভ্যন্তরীণ জাগরণ",
+  "segment_summary": "বাহ্যিক উৎসবের উন্মাদনা ম্লান হওয়ার পরেও, আত্মার গভীরে যে জাগরণ ঘটে, তা এই পর্বের মূল কেন্দ্রবিন্দুতে অবস্থান করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the lens of exhaustion: The strength found in surviving the day's minor defeats, rather than the triumphant moments.",
+    "story_option": "Setting: A hand gripping a worn piece of fabric (symbolic remnant); Desire: To find an absolute, unshakeable core truth within that tactile memory; Obstacle: The fragility of the fibers themselves.",
+    "subject_rotation": "Examining silence as an active language: what words are forbidden during periods of deep internal reflection?",
+    "sensory_detail": "A low-frequency resonance vibrating through the floorboards during periods of intense mental fatigue (sound)",
+    "research_question": "What specific Bengali metaphor describes internal conflict that lacks external manifestation?",
+    "structural_variant": "A sustained use of interrogative syntax throughout, where the answer is perpetually deferred into the next segment.",
+    "variety_note": "Unlike previous sections which emphasized external spectacle or ritual action, this chapter is deliberately inward-facing, prioritizing quiet attrition and the persistence of psychic energy over dramatic event."
+  }
+}

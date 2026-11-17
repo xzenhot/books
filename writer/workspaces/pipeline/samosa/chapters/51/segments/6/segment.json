@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 51,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "মাটির গন্ধের অনুপস্থিতি",
+  "segment_summary": "সরিষার তেল বহন করত মাটির গন্ধ, যা প্রবাসের কংক্রিটের পরিবেশে অনুপস্থিত এক গভীর শূন্যতা।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Personifying the utensils (কড়াই/তাওয়া) that become silent witnesses to the changing medium, their own metallic surfaces absorbing the spiritual residue of the oil.",
+    "story_option": "setting: Sitting before an untouched mound of potato filling (পুর), desire: To taste the 'original' earthiness trapped within the dough., obstacle: The oil used in frying is too inert; it offers only a bland sheen, not the vibrant glow of tradition., turn: A visceral reaction—a tightening in the hand where one grips an imaginary implement.",
+    "subject_rotation": "Analyzing the tactile sensation of the heat transference from the *tawa* to the oil, linking physical warmth to emotional intimacy.",
+    "sensory_detail": "The precise sound differential between a heavy pat of viscous old oil and a thin splash of modern liquid fat.",
+    "research_question": "In terms of cadence, what specific pattern mimics the transition from a slow, deliberate application of high-quality oil to a rapid, commercial pour?",
+    "structural_variant": "Employing an AABB rhyme scheme in the first half to mimic structural comfort and familiarity, then breaking it entirely for the remainder of the poem.",
+    "variety_note": "Where earlier segments explored the physical act or flavor outcome, this sequence is dedicated almost entirely to the medium itself—the oil—and its failure to be an inert carrier of sensation."
+  }
+}

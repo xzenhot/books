@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 38,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "দ্বৈততার প্রতিচ্ছবি",
+  "segment_summary": "এই অসম্পূর্ণ স্বাদটি প্রবাসীর দ্বৈত জীবনের প্রতিচ্ছবি—যেখানে 'পাওয়া' এবং 'হারানো' একই প্লেটে পাশাপাশি অবস্থান করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The thread metaphor: The residue of the oil slick is traced as a molecular map stretching between the foreign street and Bengal's earthen floor, showing how distance thickens or thins the connection.",
+    "story_option": "Setting: A cold piece of concrete where the last oil-stained wrapper lies; Desire: To coax from the starch residue the precise memory of 'সরিষার তেল' aroma; Obstacle: The ambient, synthetic smells of the new city.",
+    "subject_rotation": "Focusing solely on *tension*: mapping the internal caloric demand versus the external emotional sustenance provided by this failed imitation.",
+    "sensory_detail": "A phantom, barely perceptible warmth against the teeth after swallowing the final piece.",
+    "research_question": "What specific Bengali literary term most accurately describes sensory longing that exists only as a 'near-miss' or a permanent asymptote?",
+    "structural_variant": "A spiral structure where each segment revisits Segment 1's core idea but with increasing layers of abstraction.",
+    "variety_note": "Unlike its neighbours which explore specific components (oil/spice), this chapter focuses purely on the aftermath—the negative space left behind after consumption. The thread metaphor here is sustained in the residue itself, rather than being built up from individual elements."
+  }
+}

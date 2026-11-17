@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার বীজ",
+  "segment_summary": "এই শান্ত সময়েই পরবর্তী বছরের আগমনী সুরের জন্য এক নীরব প্রতীক্ষা জন্ম নেয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrasting the massive scale of the communal ritual (Pandal) with the micro-scale, almost private endurance of memory within a single body part.",
+    "story_option": "Setting: Near a roadside tea stall witnessing the lingering crowd members; Desire: To capture the silent negotiation happening between people—those who experienced transcendence and those who only saw spectacle.",
+    "subject_rotation": "Analyzing silence itself: Is the quiet a vacuum awaiting noise, or is it a profound form of auditory presence?",
+    "sensory_detail": "The lingering faint taste of ash and burnt ghee coating the tongue during the morning hours.",
+    "research_question": "Are there specific Bengali linguistic markers for residual spiritual sensation that are not strictly religious jargon?",
+    "structural_variant": "Using parallelism between the physical remnants (dust, stain) and their psychological equivalents.",
+    "variety_note": "Unlike previous chapters that focused on the intensity of arrival/climax, this chapter emphasizes entropy, residue, and the quiet work of psychic integration after the spiritual storm has passed."
+  }
+}

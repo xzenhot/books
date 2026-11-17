@@ -1,0 +1,283 @@
+# Chapter model context
+
+## chapter_index
+
+15
+
+## name
+
+15
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+চূড়ান্ত জিজ্ঞাসা
+
+## chapter_summary
+
+এই অধ্যায়টি সোনালী-র কাব্যিক যাত্রার চূড়ান্ত পরিণতিকে চিত্রিত করে, যেখানে কোনো নির্দিষ্ট উত্তর খুঁজে পাওয়া সম্ভব হয় না। তার অনুসন্ধান এক অনন্ত জিজ্ঞাসায় গিয়ে থামে—সেই স্বর্গীয় আনন্দ কি কেবলই একটি ক্ষণস্থায়ী স্মৃতি, নাকি তা তার শরীরের গভীরে চিরকাল অনুরণিত হবে? এই অধ্যায়টি আকাঙ্ক্ষা ও উপলব্ধির সীমারেখা মুছে দেয়, পাঠককে মানব অস্তিত্বের সর্বোচ্চ আনন্দের প্রকৃতি নিয়ে গভীরভাবে ভাবতে বাধ্য করে। এটি সেই দার্শনিক অস্থিরতার চূড়ান্ত প্রকাশ, যা কাব্যগ্রন্থের মূল সুর বহন করে।
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রশ্নের অনন্ত প্রতিধ্বনি
+
+#### segment_summary
+
+সোনালী তার সমস্ত অনুসন্ধানকে একটি প্রশ্নবোধক চিহ্নের কাছে দাঁড় করায়, যেখানে কোনো নিশ্চিত উপসংহার নেই।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্মৃতি বনাম স্পন্দন
+
+#### segment_summary
+
+সে প্রশ্ন করে, সেই ঐশ্বরিক অনুভূতিগুলো কি কেবলই ক্ষণিকের ঝলকানি, নাকি তা তার সত্তার গভীরে স্থায়ী কম্পন সৃষ্টি করেছে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+দেহ ও আত্মার মিলনক্ষেত্র
+
+#### segment_summary
+
+এই অংশে শরীর এবং আত্মার মধ্যেকার সংঘাতের পরিবর্তে এক নতুন ধরনের সহাবস্থান চিত্রিত হয়, যেখানে উভয়ই প্রশ্নকর্তা।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্তিত্বের অমীমাংসিত লয়
+
+#### segment_summary
+
+সোনালী উপলব্ধি করে যে জীবনের সবচেয়ে গভীর সত্যগুলোই হলো সেইগুলো, যা কখনোই সম্পূর্ণভাবে ব্যাখ্যা করা যায় না।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনন্ত জিজ্ঞাসার জন্ম
+
+#### segment_summary
+
+এই অধ্যায়টি কোনো সমাপ্তি দেয় না, বরং একটি নতুন, আরও গভীর জিজ্ঞাসা সৃষ্টি করে যা পাঠককে অনুসরণ করতে বাধ্য করে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+আদিম সত্যের অনুরণন
+
+#### segment_summary
+
+স্বর্গীয় আনন্দের সেই আদিম স্পন্দনটি কি কেবল একটি ভ্রম, নাকি মানব চেতনার গভীরে প্রোথিত কোনো চিরন্তন সত্যের প্রতিচ্ছবি?
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+মুক্তির নতুন সংজ্ঞা
+
+#### segment_summary
+
+সোনালী তার মুক্তিকে কোনো নির্দিষ্ট গন্তব্যে না খুঁজে, সেই প্রশ্ন করার প্রক্রিয়ার মধ্যেই খুঁজে পায়।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্থিরতার শান্ত আশ্রয়
+
+#### segment_summary
+
+চূড়ান্ত অস্থিরতা সত্ত্বেও, সোনালী এক ধরনের শান্ত আত্মসমর্পণ খুঁজে পায়—যা প্রশ্ন করার মধ্যেই নিহিত।
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- Framing the lingering bliss not as a memory (Item 2), but as a persistent, subtle tremor felt only in the wrist or fingertips—a somatic echo.
+- Treating 'questioning' itself as an act of intense physicality: leaning into doubt until it becomes almost painful, like stretching beyond skeletal limits.
+- The inversion where the body is not merely a container for joy, but the *transmitter* through which the divine question resonates outward to the indifferent world.
+
+### story_options
+
+- Setting: A narrow veranda overlooking a darkening courtyard; Desire: To articulate one final, perfect query about being using only breath patterns (no words); Obstacle: The silence of the evening pressing down like heavy damp cloth.
+- Setting: Near a specific object—a heavily tarnished silver locket she does not possess; Desire: To project her deepest unresolved question onto its imagined surface; Obstacle: Her own reflection mocking the unanswered yearning.
+- Setting: Indoors, beside a cool ceramic basin left over from cleansing rituals; Desire: To allow the water's slight movement to mirror the uncertainty in her spirit; Obstacle: The ingrained habit of seeking definition, which resists liquid motion.
+
+### subject_rotations
+
+- Shifting focus away from 'heavenly bliss' (the positive) entirely toward the *nature* of the lingering metaphysical residue—the aftertaste.
+- Re-examining 'boldness' not as an aggressive stance, but as the profound courage required simply to remain open while eternally unanswered.
+- Viewing the final questioning state as a deliberate act of resistance against closure imposed by societal expectation.
+
+### sensory_details
+
+- The fine grit of dust disturbed in the deepest recess of her memory (Tactile/Olfactory).
+- A low, infrasonic vibration felt not through hearing, but through the bones beneath the skin (Auditory/Internal).
+- The specific way the late afternoon sunlight catches a single thread of pallor in her hair as she contemplates (Visual).
+
+### research_questions
+
+- How can Bengali poetic vocabulary convey a state that is simultaneously profoundly present and utterly absent? (i.e., a perfect echo vs. silence)
+- What are concrete physical metaphors for the concept of 'unansweredness' within the tradition of human experience?
+
+### structural_variants
+
+- A recursive structure, where each segment begins by quoting or rephrasing the preceding segment’s central question.
+- Using extreme fragmentation again, but this time to build towards a single, sustained line that refuses punctuation.
+
+### unused_angles
+
+- How the physical act of writing/speaking the ultimate question might become self-negating—the moment articulation kills the query.
+- A brief exploration of external echoes—a distant bell toll or cry from outside—forcing her to confront the immediate, non-philosophical world again.
+
+### variety_note
+
+This chapter moves entirely beyond resolution toward sustained inquiry; unlike its neighbours which explored decay or decision points, this segment is defined by perpetual resonance and the act of asking itself.

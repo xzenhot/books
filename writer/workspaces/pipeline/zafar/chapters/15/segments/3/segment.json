@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অমরত্বের সংজ্ঞা",
+  "segment_summary": "এই অংশে ক্ষমতার ক্ষণস্থায়ীতা এবং ভাষার চিরন্তন স্থায়িত্বের মধ্যেকার মৌলিক দ্বন্দ্বটি গভীর দার্শনিক স্তরে উন্মোচিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Using the concept of 'Rebirth' (পুনর্জন্ম) not as physical resurrection, but as semantic persistence across time.",
+    "story_option": "A whispered petition to an unseen literary custodian (a figure beyond Galib) who receives his final verses at Rangoon.",
+    "subject_rotation": "Treating the 'poem' itself as the ultimate, unassailable territory that cannot be annexed.",
+    "sensory_detail": "A subtle, phantom scent of rich pigment mixed with sea salt carried inland from Rangoon.",
+    "research_question": "What particular vocabulary related to inherited nobility was systematically replaced by colonial administrative terms regarding land tenure?",
+    "structural_variant": "Starting with an utterly sterile administrative declaration ('Report:') before breaking it open with high poetic diction.",
+    "variety_note": "Unlike previous chapters that focused on specific tragic events, this piece is entirely meta-poetic, interrogating the very nature of legacy against absolute negation."
+  }
+}

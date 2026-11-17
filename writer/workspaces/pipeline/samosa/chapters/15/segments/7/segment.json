@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আদি সিঙ্গাড়া-র প্রতিধ্বনি",
+  "segment_summary": "এই শেষ অনুরণনটি আদি সিঙ্গাড়া-র উষ্ণ গন্ধ এবং সরিষার তেলের ঝাঁঝালো স্মৃতিকে বহন করে, যা প্রবাসের ধূসর পটভূমিতে প্রতিধ্বনিত হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Speaking to a non-human entity (like the cold metal of an unfamiliar serving plate) about the impossibility of replicating flavor.",
+    "story_option": "Setting: A starkly lit, late-night street corner where vendors hawk their goods; Desire: To whisper the recipe's specific measurement of ghee into the steam rising off another vendor's oil; Obstacle: The indifferent rush of passing strangers who do not share this memory.",
+    "subject_rotation": "Focusing on the *sound* associated with the perfect bite—the crisp snap versus the dull chew in a different setting.",
+    "sensory_detail": "The brittle sound of flaky dough shattering under pressure in a silent room.",
+    "research_question": "How can the cadence mimic both the sharp 'snap' of frying and the slow, dragging rhythm of melancholic recollection?",
+    "structural_variant": "A strict adherence to an AABB CCDD rhyme-like structure (in sound/rhythm) even if the diction is complex.",
+    "variety_note": "This chapter shifts focus from the journey/material transformation (previous chapters) to the internal aftermath—the philosophical residue left after consumption, using silence and memory as its primary substance."
+  }
+}

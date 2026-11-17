@@ -2,47 +2,113 @@
   "chapter_index": 14,
   "name": "14",
   "word_target": 500,
-  "chapter_title": "Incense at the Street Shrine",
-  "chapter_summary": "A thin thread of incense rises from a shrine at the street's edge, and the poem follows the scent as a small boundary between the holy and the hurried.",
-  "further_references": [],
+  "segment_count": 8,
+  "chapter_title": "পানের পাতা ও মশলার মিশ্রণ",
+  "chapter_summary": "এই কবিতাটি পানের পাতা ও মশলার মিশ্রণকে কেবল একটি পানীয় হিসেবে নয়, বরং সামাজিক আদান-প্রদানের একটি ক্ষুদ্র, সুনির্দিষ্ট আচার হিসেবে চিত্রিত করে। এটি সেই সূক্ষ্ম রাসায়নিক বন্ধনকে উন্মোচন করে যা মৌখিক বা দৃশ্যমান নয়, বরং এই ক্ষুদ্র বস্তুর বিনিময়ের মাধ্যমে স্থাপিত হয়। এই আচারের মাধ্যমে সমাজের সদস্যদের মধ্যেকার নিবিড় সংযোগ এবং নীরব বোঝাপড়া প্রকাশিত হয়। প্রশ্নটি হলো—এই ক্ষুদ্র, সুগন্ধি আদান-প্রদান কি বৃহত্তর সামাজিক কাঠামোর স্থিতিশীলতার ভিত্তি রচনা করে?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "পাতার সবুজ ভাষা",
+      "segment_summary": "পানের পাতার সবুজ আভা এবং তার উপর মশলার সূক্ষ্ম বিন্যাস সামাজিক যোগাযোগের প্রাথমিক ইঙ্গিত বহন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "মশলার রাসায়নিক চুক্তি",
+      "segment_summary": "বিভিন্ন মশলার মিশ্রণ একটি অব্যক্ত চুক্তি বা বোঝাপড়ার প্রতীক, যা মৌখিক ভাষার প্রয়োজনকে অতিক্রম করে যায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "আচারের ক্ষুদ্র ভূগোল",
+      "segment_summary": "এই পানীয়ের আদান-প্রদান একটি নির্দিষ্ট সামাজিক ভূগোল তৈরি করে, যেখানে প্রতিটি স্পর্শ একটি পরিচিতি বহন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "স্বাদের নীরব আলাপন",
+      "segment_summary": "পানের স্বাদ গ্রহণ করা হলো এক ধরনের নীরব কথোপকথন, যেখানে প্রত্যাশা এবং সন্তুষ্টি একই সাথে উচ্চারিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য সংযোগের রসায়ন",
+      "segment_summary": "এই মিশ্রণটি মানব সম্পর্কের সেই অদৃশ্য রসায়নকে ফুটিয়ে তোলে যা কেবল শারীরিক উপস্থিতির মাধ্যমে সম্ভব হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "সামাজিক আদান-প্রদানের মুদ্রা",
+      "segment_summary": "পানের পাতা এখানে অর্থের চেয়েও মূল্যবান, এটি সামাজিক স্বীকৃতির এক সূক্ষ্ম মুদ্রা হিসেবে কাজ করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অপেক্ষা ও গ্রহণ",
+      "segment_summary": "এই আচারের মাধ্যমে প্রত্যাশা করা হয় এবং তা গ্রহণ করা হয়—একটি শান্ত, প্রত্যাশিত মুহূর্তের প্রতিচ্ছবি।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অক্ষরের বাইরে কথা",
+      "segment_summary": "সবচেয়ে গভীর বার্তাটি এই ক্ষুদ্র, সুগন্ধি বস্তুর মধ্যে নিহিত থাকে, যা শব্দের সীমাবদ্ধতাকে অতিক্রম করে।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Framing the smoke not as a connection to the divine, but as an ephemeral marker of ownership—a boundary drawn by ritual action.",
-      "Investigating the social stratification implied by where such shrines are placed: near high traffic versus tucked into quiet alleyways.",
-      "Treating the scent molecules themselves as narrative agents, traveling and interacting with the dust and heat of the street."
+      "অস্থিরতা বনাম স্থায়িত্ব: কীভাবে এই আচারটি সমাজের পরিবর্তনশীল কাঠামোর মধ্যে একটি স্থির, পুনরাবৃত্ত আচারের মাধ্যমে স্থিতিশীলতা খুঁজে নেয়।",
+      "গন্ধের স্তরবিন্যাস (Layering of Scents): প্রতিটি মশলার গন্ধ কীভাবে সময়ের সাথে মিশে গিয়ে এক নতুন 'ঐতিহ্য' বা 'ইতিহাস'-এর ঘ্রাণ তৈরি করে যা কেবল স্মৃতিতেই উপলব্ধ।",
+      "বস্তুর ওজন এবং মূল্য: পানের পাতার সামান্য ভার এবং তা দ্বারা সৃষ্ট সামাজিক সম্পর্কের বিশালতা—এই বৈপরীত্যকে কেন্দ্র করে আলোচনা করা।"
     ],
     "story_options": [
-      "setting: The shrine corner during a mid-day sunburst, desire: To witness the exact moment the incense smoke catches the sharp angle of light, solidifying into visible form., obstacle: A hurried passerby’s shadow falls across the offering area, momentarily obscuring the flame and forcing the speaker to wait.",
-      "setting: Just before the monsoon rains begin, desire: To capture the intense contrast between the smoke's dry ascent and the heavy, humid weight of the gathering atmosphere., obstacle: A nearby vendor’s sharp cry interferes with the concentration required to trace the delicate plume.",
-      "setting: Deep within a narrow passage flanked by stone walls, desire: To explore the smoke's scent as a form of memory, suggesting past moments tethered to that specific spot., obstacle: The wind shifts unexpectedly, ripping the plume down into the grime-laden streets instead of allowing its steady vertical prayer."
+      "সেটিং: একটি বর্ষার বিকেলে জীর্ণ দাওয়ায়; আকাঙ্ক্ষা: আচারে অংশগ্রহণের মাধ্যমে দীর্ঘদিনের বিচ্ছিন্নতাকে অতিক্রম করা; বাধা: এক অপ্রত্যাশিত অতিথির আগমন যা আচারটির স্বতঃস্ফূর্ততা ভেঙে দেয়; মোড়: পানটি পরিবেশন করার সময়, যিনি গ্রহণ করছেন তিনি অজান্তেই অতীতের কোনো ঘটনা স্মরণ করেন।",
+      "সেটিং: বাজারের কোলাহল ছাপিয়ে একটি নির্দিষ্ট কুঁড়েঘরের প্রবেশদ্বারে; আকাঙ্ক্ষা: কেবল সংযোগের বার্তা দেওয়া, কোনো শব্দের প্রয়োজন নেই; বাধা: মশলার গুণগত মান নিয়ে সূক্ষ্ম বিতর্ক (যা ভাষা ব্যবহার না করেও চরম মতবিরোধ সৃষ্টি করে); মোড়: বিতর্কের মাঝেও পানটি গ্রহণ করা হয়, নীরব সম্মতিই চূড়ান্ত রায়।",
+      "সেটিং: অফিসের করিডোরের এক সংক্ষিপ্ত বিরতি; আকাঙ্ক্ষা: কর্পোরেট চাপ থেকে ক্ষণিকের মুক্তি এবং আন্তরিকতার স্পর্শ লাভ করা; বাধা: আধুনিক জীবনযাত্রার দ্রুততা যা এই ধীর আচারের প্রয়োজনীয়তাকে প্রশ্ন করে; মোড়: পানটি শেষ হওয়ার ঠিক আগের মুহূর্তে একজন সহকর্মী ভুলবশত কোনো মশলার বদলে অন্য কিছু ব্যবহার করেন, কিন্তু এটি গ্রহণযোগ্য হয়—কারণ সম্পর্কটাই মূল।"
     ],
     "subject_rotations": [
-      "Focusing solely on the particulate matter within the smoke—the ash particles and resins suspended in the rising heat—rather than the scent.",
-      "Interrogating the material composition of the shrine itself: the weathering of the stone, the specific color of the offerings (e.g., turmeric stains vs. bright petals).",
-      "Shifting the focus from the *rising* smoke to the residue left behind on the metal or earthen vessel that holds it."
+      "এই আচারকে একটি 'শ্রমের প্রতিদান' হিসেবে দেখা; যেখানে মশলা সংগ্রহ বা প্রস্তুত করার পেছনে থাকা শ্রমের স্বীকৃতিই এই পানীয়টির মূল্য।",
+      "আচারের গতিবিদ্যা (Dynamics of Ritual): কীভাবে পান পরিবেশন করা হয়, তার সূক্ষ্ম শারীরিক অঙ্গভঙ্গিগুলো স্বয়ং সামাজিক ক্ষমতার স্তরবিন্যাস নির্দেশ করে।",
+      "রসায়ন বনাম আধ্যাত্মিকতা: মশলার কাঁচা রাসায়নিক উপাদানগুলোকে কীভাবে অতিপ্রাকৃত বা আধ্যাত্মিক শক্তির প্রকাশের মাধ্যম হিসেবে দেখা যায়।"
     ],
     "sensory_details": [
-      "The high, metallic whine of a distant street motor vehicle cutting through the steady drift of scented vapor.",
-      "The textural difference between the gritty heat radiating from the stone shrine and the cool passage of air around the smoke's core.",
-      "A sudden, sharp visual contrast where the near-black soot pattern on the pavement meets the pale, rising thread of white/grey."
+      "পানের পাতার শিরায় লেগে থাকা শিশিরের ঠান্ডা, ভেজা স্পর্শ (Tactile)।",
+      "গুঁড়ো মশলার তীব্র ঝাঁঝালো গন্ধের সঙ্গে তাজা পাতার মিষ্টতার মিশ্রণ (Olfactory/Gustatory)।",
+      "পানটি হাতে নেওয়ার সময় হাতের তালুর উপর অনুভূত হওয়া কাগজের মতো মসৃণ ও কিছুটা পুরু অনুভূতি (Haptic)।"
     ],
     "research_questions": [
-      "Are there documented regional variations in the prescribed placement or construction materials used for roadside devotional shrines in contemporary India?",
-      "How does the density and scent profile of typical Indian incense (e.g., sandalwood vs. camphor) interact visually with ambient street particulates?"
+      "এই আচারগত পানীয়ের মাধ্যমে সামাজিক স্বীকৃতি প্রদানের নির্দিষ্ট কোনো অঞ্চলভিত্তিক 'নিয়মাবলী' আছে কি, যা কেবল পর্যবেক্ষণ দ্বারা শেখা যায়?",
+      "পানের পাতা বা মশলার উপাদানগুলোর নিজস্ব সাংস্কৃতিক প্রতীকী মানদণ্ড কী—তা অর্থনৈতিক মূল্য থেকে কীভাবে আলাদা হয়?"
     ],
     "structural_variants": [
-      "A poem structured as a slow, inhaled count—each line representing an increasing depth or concentration within the vapor.",
-      "An epistolary fragment where the smoke is imagined as carrying a message *to* the speaker from the shrine's past."
+      "একটি সংলাপের মাধ্যমে উপস্থাপিত হওয়া: যেখানে একাধিক চরিত্র পানটি গ্রহণ করে, কিন্তু তাদের প্রতিটি অঙ্গভঙ্গি ভিন্ন সামাজিক স্তরের ইঙ্গিত দেয়।",
+      "ফোকাস পরিবর্তন: প্রথমে শুধুমাত্র পাতার দিকে তীব্র মনোযোগ দেওয়া, তারপর মশলার গুঁড়ো, এবং সব শেষে মানুষের মুখের অভিব্যক্তির উপর ফোকাস করা (Object to Human focus)।"
     ],
     "unused_angles": [
-      "Using the incense not for religious observation, but to metaphorize a localized societal gossip or narrative thread that flows through the area.",
-      "Exploring how the act of burning itself is labor—the consistent replenishment and careful placement by an unseen caretaker."
+      "এই আচারের মধ্যে থাকা 'অপেক্ষা'-কে এমনভাবে চিত্রিত করা যেখানে পান তৈরি হতে যে সময় লাগে, সেই সময়ের ভেতরেই সমস্ত সামাজিক আলোচনার সারমর্ম লুকিয়ে থাকে।",
+      "পানটি গ্রহণ করার পর মুখ বা ঠোঁটের ক্ষুদ্রতম পরিবর্তন (Micro-expressions) যা গোটা বার্তা বহন করে।"
     ],
-    "variety_note": "This chapter shifts the focus from static objects (like vermilion) to dynamic phenomena (smoke), prioritizing sonic texture over visual rigidity, a path untouched in these earlier observational moments."
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলোতে বস্তুর 'অস্তিত্ব' এবং জীবনের 'গতি' নিয়ে যে আলোচনা হয়েছে, এখানে মনোযোগ সরে এসেছে আচারের মাধ্যমে অর্জিত 'সম্পর্ক'-এর স্থিতিশীলতার দিকে; এটি অপেক্ষার চেয়েও বেশি কিছু—এটি পারস্পরিক স্বীকৃতির একটি স্থির প্রক্রিয়া।"
   }
 }

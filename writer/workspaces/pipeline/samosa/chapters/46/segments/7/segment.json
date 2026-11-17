@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ উপস্থিতি",
+  "segment_summary": "বাজারের কোলাহলে সামোসাটি একটি অসম্পূর্ণ উপস্থিতির মতো বিরাজ করে—উপস্থিত, কিন্তু তার মূল সত্তা অনুপস্থিত।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the market noise (the *kolahol*) not as distraction, but as a cacophony of competing identities that overwhelm the singular flavor.",
+    "story_option": "Setting: A specific, overly bright corner stall in an international market; Desire: The speaker wants to catch the faint, fleeting scent of ground mustard seeds beneath the overpowering smell of frying oil from nearby vendors; Obstacle: The heat haze makes every passing shape indistinct.",
+    "subject_rotation": "Focusing solely on the physical act of watching the samosas being dipped or served—a silent, ritualistic observation devoid of tasting.",
+    "sensory_detail": "The sharp, metallic taste of exhaust fumes mingling momentarily with the warm oil scent near the roadside vendor.",
+    "research_question": "What is the specific Bengali term for an overwhelming sensory environment where one particular scent becomes muted by many others?",
+    "structural_variant": "A call-and-response structure between the 'I' describing the internal memory and an imagined vendor whose voice only repeats commercial slogans.",
+    "variety_note": "This chapter pivots from internal culinary reflection to external environmental confrontation; the conflict moves from memory vs. present self, to ingrained cultural form vs. overwhelming urban noise."
+  }
+}

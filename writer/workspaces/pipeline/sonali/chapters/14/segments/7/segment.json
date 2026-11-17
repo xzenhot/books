@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নতুন দিগন্তের জিজ্ঞাসা",
+  "segment_summary": "এই সিদ্ধান্ত তাকে এক নতুন দার্শনিক জিজ্ঞাসা দেয়—মুক্তি কি কেবল একটি গন্তব্য, নাকি এটি নিজেই একটি চলমান প্রক্রিয়া?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the central conflict entirely through one concrete image—the fragile skin of her hand trying to grasp a slipping current.",
+    "story_option": "Setting: A high, windy balcony overlooking distant fields; Desire: To feel her physical self pushed to its limit by the breeze, forcing surrender.",
+    "subject_rotation": "Analyzing 'Attachment' (আঁকড়ে ধরা) not as possessiveness, but as a form of self-definition that must be tested against dissolution.",
+    "sensory_detail": "The faint chill of damp earth rising up through her feet as she stands at a threshold.",
+    "research_question": "What specific metaphor in Bengali poetry represents the necessary tension between holding on and letting go?",
+    "structural_variant": "Emphasize rhythmic breakdown: using very long, sweeping lines for the pull of the flow (Item 2/5), contrasted sharply with tightly constrained, almost claustrophobic couplets during the act of holding on (Item 1/3).",
+    "variety_note": "This chapter moves beyond simple internal reflection by providing concrete anchors—the physical feeling of resistance versus surrender—which differentiates its tone from neighboring chapters dealing solely with abstract thematic discovery."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ক্লান্তির মাঝে দৃঢ়তা",
+  "segment_summary": "ক্লান্তি সত্ত্বেও, তার কণ্ঠস্বরে এক অদম্য দৃঢ়তা ফুটে ওঠে, যা তার জীবনদর্শনের প্রতি অবিচল থাকার অঙ্গীকার বহন করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem being recited not to the river itself, but as a desperate private aria overheard by an indifferent, modern commuter on a bridge.",
+    "story_option": "Setting: Deep pre-dawn hour on a secluded bend. Desire: To let the anger fully escape without consequence. Obstacle: The faint glow of distant factory lamps illuminates the water, mocking his sentiment.",
+    "subject_rotation": "Treating 'Bhatiyali' not as musical form but as an inherited dialect—a resistance coded into ancient speech patterns.",
+    "sensory_detail": "The taste of humid, brackish water lingering on the tongue after spitting out a strained note.",
+    "research_question": "What are concrete examples in Bengali folk tradition where economic hardship is directly addressed through melodic variation or specific lyrical motifs within Bhatiyali songs?",
+    "structural_variant": "A highly fragmented structure, mirroring stuttering frustration or gasps for air during the passionate outburst.",
+    "variety_note": "Unlike the initial scenes focusing on observation (Neighbour 2) or structural confrontation (Neighbour 1), this chapter focuses internally, using the art form itself as the battleground against external pressures."
+  }
+}

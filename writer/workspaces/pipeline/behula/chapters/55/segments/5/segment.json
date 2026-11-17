@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 55,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রেরণার উৎস",
+  "segment_summary": "বেহুলার এই মহাকাব্যিক সংগ্রাম অন্যদের জন্য এক শক্তিশালী প্রেরণা হয়ে ওঠে, যা দেখায় কীভাবে ব্যক্তিগত ট্র্যাজেডি সমষ্টিগত শক্তির জন্ম দিতে পারে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the metrical instability—allowing the rhythm to fracture precisely when hope is most fragile before settling into resolution.",
+    "story_option": "A hypothetical moment during the reunion where both characters pause, caught in the dissonance between their profound love and the harsh societal scrutiny they faced (The Wall).",
+    "subject_rotation": "Treating the reunion not as an event but as the quiet negotiation of two perfectly altered selves.",
+    "sensory_detail": "A profound, almost viscous silence that precedes his arrival, heavier than any noise (Auditory).",
+    "research_question": "What specific Bengali idiom encapsulates the feeling of 'grief made permanent' or 'endurance as trauma'? What precise classical word can convey the weight of sustained spiritual vigilance?",
+    "structural_variant": "Varying stanzas between extremely tight, aphoristic declarations (the self-affirmations) and sprawling, meandering passages of recollection (the suffering).",
+    "variety_note": "This chapter contrasts with previous segments by emphasizing resolution rather than escalating conflict; it is about integration, not rupture. The focus shifts from struggle against external forces toward the quiet processing of their meaning."
+  }
+}

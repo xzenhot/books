@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "আলোর প্রতি আকস্মিক নির্ভরতা",
+  "segment_summary": "কবি এই আলোর ওপর নির্ভর করে এক ধরনের অস্থায়ী শান্তি খুঁজে পান, যা তাকে পরবর্তী যাত্রার জন্য প্রস্তুত করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "টিনের চালের উপর চাঁদের আলোর প্রতিফলনকে শহরের দৈনন্দিন শব্দ এবং নীরবতার মাঝে একটি বিচ্ছিন্ন ধ্বনি হিসেবে উপস্থাপন করা।",
+    "story_option": "জানালার কাঁচের ভেতরের ধুলোর কণাগুলি যেন ক্ষুদ্র গ্রহের মতো মনে হয়; এই দৃশ্য দেখে কবি সিদ্ধান্ত নেন যে জীবনের সমস্ত উদ্দেশ্য খুঁজে বের করার জন্য তাঁকে শহর ত্যাগ করতে হবে।",
+    "subject_rotation": "আলোর এই অস্থায়ী রূপান্তরকে কবির জীবনের এক নির্দিষ্ট হতাশার প্রতিচ্ছবি হিসেবে দেখানো—যা সুন্দর হলেও স্থায়ী নয়।",
+    "sensory_detail": "ঘরের বদ্ধ পরিবেশে বাতাসের চলাচল যখন অত্যন্ত ক্ষীণ, তখন একটি শুকনো পাতার পতনজনিত অতি সূক্ষ্ম 'খসখসে' শব্দ শোনা।",
+    "research_question": "এই ধরনের পুরানো টিনের চালের ধাতব পৃষ্ঠে চন্দ্রালোকে প্রতিফলিত আলোর রঙ এবং তীব্রতা কেমন হতে পারে?",
+    "structural_variant": "দ্রুত ছন্দোময় ছোট মুহূর্তগুলির একটি ক্যানভাস তৈরি করা, যা বারবার আলোক-ছায়ার পরিবর্তন দ্বারা চালিত।",
+    "variety_note": "Neighbours often focus on external movement or past events; this chapter drills deep into the static, almost sacred qualities of light interacting with mundane urban texture."
+  }
+}

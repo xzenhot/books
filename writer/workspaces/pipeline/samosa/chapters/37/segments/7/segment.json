@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 37,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত জিজ্ঞাসা",
+  "segment_summary": "এই কাব্যিক অস্থিরতা পাঠককে প্রশ্ন করে যে, স্বাদ কি কেবল জিভের তৃপ্তি, নাকি এটি শিকড়ের প্রতি এক গভীর, অমীমাংসিত টান?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the residual oil not as a coating, but as petrified time—a physical fossil layer documenting the journey from Bengal to exile.",
+    "story_option": "Setting: A cold patch of pavement outside an unassuming market stall, Desire: To isolate the single micro-particle of original ghee flavor clinging to a discarded wrapper., Obstacle: The overwhelming, neutral scent pollution of the modern street.",
+    "subject_rotation": "Focusing solely on negative space: detailing what is *missing* in the mouth after consumption rather than what remains.",
+    "sensory_detail": "The gritty feel of fine, dehydrated flour dust settling on the tongue like spent geography.",
+    "research_question": "What are precise Bengali lexicon descriptors for 'lingering absence' when applied to a gustatory experience?",
+    "structural_variant": "Employing an initial, very short burst of highly dense language (hyper-saturation) immediately followed by a long, sparse section dedicated only to silence/void.",
+    "variety_note": "Unlike previous chapters which focused on the material transfer or geographical shift, this chapter zeroes in entirely on the internal, post-ingestion phenomenology—the residue within consciousness itself."
+  }
+}

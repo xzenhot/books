@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ভটিয়ালির প্রথম স্পন্দন",
+  "segment_summary": "নৌকার পাটাতন থেকে ভেসে আসা ভটিয়ালির সুর, যা কেবল গান নয়, বরং মাটির দীর্ঘশ্বাস বহন করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Centering the internal monologue on the weight of lineage; how the boat itself is inherited wisdom passing from one generation to the next.",
+    "story_option": "He sees the faint reflection of a massive modern bridge in the still water just before sunrise, and this fractured image momentarily breaks his concentration.",
+    "subject_rotation": "Time as cyclical vs. linear: using the sunrise/sunset cycle not just to mark passage, but to suggest eternal return against modern progress.",
+    "sensory_detail": "The low, resonant thrumming sound of his own voice when he first begins to hum a tune.",
+    "research_question": "What are the specific characteristics of Bhatiyali rhythms that align best with moments of deep internal reflection versus overt performance?",
+    "structural_variant": "Employing shorter, more fragmented lines during passages describing the river's immediate physical presence (water, wood, light).",
+    "variety_note": "This chapter grounds the abstract conflict by meticulously detailing the physical reality of the boat and its immediate environment, focusing on nascent connection rather than overt confrontation with modernity."
+  }
+}

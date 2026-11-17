@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 58,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "The Test of the Divine",
+  "segment_summary": "The narrative shifts to the spiritual battle, detailing the prolonged trials imposed by divine displeasure, testing the limits of human patience.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "স্থির বা অব্যক্ত দর্শকের প্রতি সরাসরি সম্বোধন (দেয়ালের উদ্দেশ্যে বলা কবিতা), যেখানে উত্তর প্রত্যাশিত কিন্তু কখনোই আসে না।",
+    "story_option": "একটি মুহূর্ত যেখানে বেহুলার ভেতরের 'অগ্নির দীপশিখা' হঠাৎ বাইরের সমস্ত শব্দের বিপরীতে এত প্রবল হয়ে ওঠে যে তা চারপাশের সন্দেহ ও কটূক্তিকে কেবল শব্দ নয়, বরং বর্ণ বা আকৃতিতে বিকৃত করে দেয়।",
+    "subject_rotation": "সংগ্রামকে 'চূড়ান্ত বিজয়' হিসেবে না দেখে, এটিকে একটি অনিবার্য, অবিরাম মানসিক স্থিতাবস্থা (enduring state) হিসেবে উপস্থাপন করা।",
+    "sensory_detail": "ক্লান্ত শরীরের উপর জমে থাকা ধূলিকণার শীতল, ভারী স্পর্শ (Tactile) যা সময়ের ভার বোঝায়।",
+    "research_question": "বাংলা সাহিত্যের কোন শব্দ বা ভাবধারা এমনভাবে 'অসহ্য যন্ত্রণা যা স্থায়ী রূপ ধারণ করে' (grief made permanent) বোঝায় যা প্রচলিত দুঃখের চেয়ে বেশি গভীর?",
+    "structural_variant": "স্তবকের দৈর্ঘ্য এলোমেলো রাখা—কখনও অত্যন্ত সংক্ষিপ্ত ও আক্ষেপপূর্ণ (aphoristic), আবার কখনও দীর্ঘ, বর্ণনামূলক এবং ঘোরময় (meandering)।",
+    "variety_note": "এই পর্বটি পূর্ববর্তী সংগ্রাম পর্বগুলো থেকে সরে এসে সম্পূর্ণ অভ্যন্তরীণ মনোবিশ্লেষণের দিকে ঝুঁকছে; এখানে প্রধান মনোযোগ বাহ্যিক ঘটনা নয়, বরং অন্তরের 'অগ্নির দীপশিখা' এবং তার 주변ের গাঢ় অন্ধকারময় শূন্যতার দার্শনিক সংলাপ নির্মাণে দেওয়া হচ্ছে।"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "chapter_index": 29,
+  "name": "29",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scars of Expression",
+  "chapter_summary": "This chapter delves into the profound connection between Debolina's internal suffering and the visible decay of the frescoes. She perceives the cracks and fading pigments not merely as structural failure, but as a mirror reflecting her own unexpressed pain and the fragility of her chosen existence. The imagery centers on the juxtaposition of vibrant, once-perfect divine figures against the encroaching dust and lime-white erosion. The central question remains: Can the truth of a creation be validated by its visible endurance, or is its essence found in the silent, internal struggle that birthed it?",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "Fissures of the Soul",
+      "segment_summary": "The spiderweb cracks across the ancient plaster become the map of Debolina's own unresolved anxieties.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Lapis and Lament",
+      "segment_summary": "The deep blue of the lapis, once a defiant shout against the desert ochre, now whispers of inevitable fading.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "The Weight of the Scaffold",
+      "segment_summary": "The scaffolding, a temporary cage of wood and ambition, seems to press down on the fragile beauty below.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "Musk and Mortality",
+      "segment_summary": "The phantom scent of the passing stranger mingles with the smell of wet lime, a scent of fleeting life against permanent decay.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "Echoes in the Pigment",
+      "segment_summary": "Each muted hue seems to hold the ghost of a life lived too quietly, a silent narrative trapped in the wall.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "The Art of Imperfection",
+      "segment_summary": "She begins to see that the flaws are not mistakes, but the honest signature of time's relentless passage.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Unframed Self",
+      "segment_summary": "To accept the decay is to accept the self—a beautiful, yet inherently vulnerable, composition.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Question of Witness",
+      "segment_summary": "If the art is defined by its struggle, what happens when the struggle itself becomes indistinguishable from the ruin?",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

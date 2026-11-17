@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 10,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "নীরবতার নির্দেশ",
+  "segment_summary": "লেখক হঠাৎ করেই সহকারীকে এমন একটি বিষয় নিয়ে লিখতে বলেন, যার সাথে ফেসবুকের প্রজ্ঞা বা সামাজিক প্রভাবের কোনো সম্পর্ক নেই।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focus on the sonic quality of consonants (e.g., 'ক', 'ট') in the AI's prose, allowing the harsh sound to precede any semantic meaning.",
+    "story_option": "Setting: A completely unrelated natural landscape (e.g., monsoon field), Desire: To articulate the feeling of being untethered, Obstacle: The AI forcing it back into a relatable social metaphor.",
+    "subject_rotation": "Treating the unrelated topic as a test case for data retrieval limitations, rather than thematic content.",
+    "sensory_detail": "The taste of dust stirred up by the sudden change in topic.",
+    "research_question": "What non-socially relevant topics—entirely devoid of current cultural weight or trendiness—could be used to test the AI's limits?",
+    "structural_variant": "The chapter could take a fragmented, collage-like structure, mimicking the stream-of-consciousness collapse after an artificial pivot.",
+    "variety_note": "This chapter diverges sharply from previous sections by abandoning the premise of social impact, forcing both the Author and Assistant into an existential confrontation with pure contextlessness."
+  }
 }

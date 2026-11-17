@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আঁকড়ে ধরার ভার",
+  "segment_summary": "এই ধরে রাখার প্রচেষ্টা শারীরিক ও মানসিক উভয় ক্ষেত্রেই এক চরম ক্লান্তি নিয়ে আসে, যা তার মধ্যবয়সের অভিজ্ঞতার ভারকে আরও প্রকট করে তোলে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal debate as a specific dialectic between 'Retention' (ধারণ) and 'Dissolution' (বিলুপ্তি), using material metaphors from their declared world.",
+    "story_option": "Setting: At a specific hour when sunlight perfectly bisects through dense foliage; Obstacle: The light seems to demand she either absorb it completely or let it pass through untouched.",
+    "subject_rotation": "Exploring the paradox: Is perfect stasis (holding on) a greater form of prison than dynamic change (flowing away)?",
+    "sensory_detail": "The faint chill of damp earth rising up through her feet as she stands at a threshold.",
+    "research_question": "What specific metaphor in Bengali poetry represents the necessary tension between holding on and letting go?",
+    "structural_variant": "Emphasize rhythmic breakdown: using very long, sweeping lines for the pull of the flow (Item 2/5), contrasted sharply with tightly constrained, almost claustrophobic couplets during the act of holding on (Item 1/3).",
+    "variety_note": "This chapter moves beyond simple internal reflection by providing concrete anchors—the physical feeling of resistance versus surrender—which differentiates its tone from neighboring chapters dealing solely with abstract thematic discovery."
+  }
+}

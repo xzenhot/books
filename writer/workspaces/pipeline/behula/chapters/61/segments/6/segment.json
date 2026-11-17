@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 61,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অদম্য ইচ্ছাশক্তির প্রতিধ্বনি",
+  "segment_summary": "ব্যক্তিগত যন্ত্রণা সত্ত্বেও, তার ভেতরের শক্তি কীভাবে তাকে থেমে না গিয়ে আরও দৃঢ় হতে সাহায্য করছে, তা এই অংশে প্রকাশিত।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating societal slander ('বিষাক্ত ছড়া') less as sound and more as a pervasive, suffocating atmospheric pressure that resists movement.",
+    "story_option": "Setting: The cold stone steps where her initial struggle began; Desire: A moment of absolute 'smart' respite from internal policing; Obstacle: The persistent shadow of domestic mistrust (অবিশ্বাসের প্রাচীর); Turn: She uses the physical texture of the stone to anchor herself against mental drift.",
+    "subject_rotation": "Using metaphors drawn from natural decay/persistence (e.g., lichen growing on granite), mirroring her slow, stubborn survival.",
+    "sensory_detail": "A pervasive scent of damp earth mixed with expensive, unfamiliar incense used by distant mourners.",
+    "research_question": "What specific ancient vocabulary exists that denotes endurance achieved *without* divine intervention?",
+    "structural_variant": "A cyclical structure built around the recurrence of one single physical gesture (e.g., touching her own wrist) across all eight segments.",
+    "variety_note": "This chapter deliberately slows the narrative momentum compared to previous segments by foregrounding pure internal friction; where before was external conflict, here it is relentless self-erosion versus stubborn will."
+  }
+}

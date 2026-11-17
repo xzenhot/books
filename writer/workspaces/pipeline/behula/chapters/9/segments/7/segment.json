@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "মহৎ আদর্শের জন্ম",
+  "segment_summary": "ব্যক্তিগত সংগ্রাম কীভাবে এই পবিত্রতার ধারণার মাধ্যমে এক মহৎ আদর্শে পরিণত হয়, তা আলোচনা করা হয়।",
+  "name": "7",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the *silent covenant*—how her vow to Likhindar transcends spoken language, existing only in the shared geography of their devotion.",
+    "story_option": "Setting: A secluded riverbank (not the main water body), Desire: To perform an unspoken rite of devotion toward Likhindar’s absent form, Obstacle: The encroaching shadow of communal judgment.",
+    "subject_rotation": "Treating 'Sati' not as martyrdom, but as an ultimate act of creative self-possession—a choice that defies external narrative.",
+    "sensory_detail": "The cool, mineral taste left on the tongue after prolonged contemplation of an unspoken vow.",
+    "research_question": "What precise archaic Bengali imagery exists to convey devotion that is simultaneously utterly personal and universally archetypal?",
+    "structural_variant": "An asymmetrical structure where the first segment builds tension, but the final three segments slow down into a near-meditative, elongated cadence.",
+    "variety_note": "This chapter shifts from external struggle (previous chapters) to internal ontological assertion; the focus is less on *fighting* and more on *being*, making the sanctity its primary force."
+  }
+}

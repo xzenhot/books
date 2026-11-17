@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার পবিত্রতা",
+  "segment_summary": "এই মুহূর্তে পথিক উপলব্ধি করে যে, কিছু জিনিসকে অসমাপ্ত রাখাটাই তাদের চরম পবিত্রতার উৎস।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Frame the concept of 'indifference' (উদাসীনতা) anthropomorphically—as an entity observing both pride and decay without judgment, only recording entropy.",
+    "story_option": "Setting: Amidst a patch of deeply rooted wild flowers near the periphery of the manor walls; Desire: To try and find a single sign of 'purpose' in the plant life—a pattern, a geometry that aligns with human intention, Obstacle: Every form bends solely toward survival.",
+    "subject_rotation": "Analyzing the interplay between 'presence' (the ruins) and 'absence' (the unspoken history), framing absence as the dominant, powerful subject of this chapter.",
+    "sensory_detail": "Sound: The absence of higher frequency noise—no insect hum, no bird cry; only a pressure-borne drone deep within the quiet.",
+    "research_question": "Are there local descriptions (unmentioned in source) that characterize 'calmness' or 'acceptance' using terms related to geological forces, rather than emotional states?",
+    "structural_variant": "A purely observational chapter structured entirely around shifts in light quality (e.g., from harsh, bright sun to diffused, metallic cloud shadow).",
+    "variety_note": "Unlike earlier chapters that focused on specific historical events or dialogue, this segment focuses almost entirely on pure metaphysical confrontation between transient human will and eternal natural process."
+  }
+}

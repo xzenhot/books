@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নদীর নীরব প্রতিবাদ",
+  "segment_summary": "নদী যেন এই মানবসৃষ্ট বাধাটিকে উপেক্ষা করে বয়ে চলে, যা মাঝির অভ্যন্তরীণ প্রতিরোধকে প্রতিফলিত করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the obstruction not as a man blocking his path, but as an encroachment of engineered silence against the river's natural chorus.",
+    "story_option": "Setting a specific location at a poorly maintained, contested ghat where multiple local tolls overlap; desire: to pass unimpeded; obstacle: a man demanding 'customs' for every meter of passage; turn: the majhi names the true cost of the river itself.",
+    "subject_rotation": "Shifting focus from debt collection to territorial control—the intermediator claiming rights over stretches of river deemed his 'domain'.",
+    "sensory_detail": "The jarring quality of the official's cheap, starched cloth against the perpetually oiled and worn hemp of the boat rigging.",
+    "research_question": "What specific historical or localized terminology exists in Bengal for local toll collectors or informal river 'gatekeepers'? (To ensure grounded vocabulary)",
+    "structural_variant": "Structuring as an escalating internal monologue where each beat of hesitation corresponds to a tightening chord or dissonance in the implied Bhatiyali rhythm.",
+    "variety_note": "While neighbours established the *existence* of financial pressure (Items 2 & 4), this chapter must focus specifically on the moment of direct, adversarial confrontation where tradition meets imposed bureaucracy."
+  }
+}

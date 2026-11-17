@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 41,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী প্রতিষ্ঠা",
+  "segment_summary": "সমস্ত বাধা অতিক্রম করার মাধ্যমে বেহুলার চরিত্রটি এক মহৎ নারীত্বের প্রতীক হিসেবে প্রতিষ্ঠিত হয়, যা তার সহিষ্ণুতার সাক্ষ্য বহন করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring how the external mythologizing process distorts the lived reality of their suffering by simplifying complex internal conflict into neat binaries (good vs. evil).",
+    "story_option": "Setting: A window facing the night sky after their union; Desire: To map out the trajectory of his return against the fixed points of the celestial sphere; Obstacle: The reflection in the glass momentarily shows her alone again; Turn: She acknowledges this phantom vision without fear.",
+    "subject_rotation": "Focusing less on the epic scale of myth and more on the microscopic mechanics of emotional restoration (e.g., how two nervous systems reconnect).",
+    "sensory_detail": "Touch: The abrasive coolness of aged stone felt beneath a single trembling finger as she touches his familiar form.",
+    "research_question": "What archaic Bengali term most precisely captures a state that is neither simple joy nor overwhelming burden, but rather 'hard-won equilibrium'?",
+    "structural_variant": "A purely stream-of-consciousness structure where segments bleed into one another without hard breaks, reflecting the exhaustion.",
+    "variety_note": "Unlike prior segments that focused on building tension or articulating suffering, this chapter focuses on the dynamic *aftermath* of conflict, using concentrated physical imagery to convey abstract triumph."
+  }
+}

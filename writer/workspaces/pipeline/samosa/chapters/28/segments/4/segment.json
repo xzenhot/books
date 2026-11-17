@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক ও মানবিক বিভাজন",
+  "segment_summary": "এখানে স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে বিচার করা অসম্ভব, কারণ এর সঙ্গে মিশে আছে মানব অভিজ্ঞতার গভীরতম আবেগ এবং শিকড়ের টান।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the physical *residue*—not flavor, but texture or microscopic alteration of the tongue/lips after tasting—as proof of a metaphysical event.",
+    "story_option": "Scene: The narrator pauses immediately after swallowing the last crumb; Desire: To feel a specific muscle in his hand twitch, recalling the exact pressure applied during wrapping at home; Obstacle: The sudden intrusion of external ambient noise (like traffic/machinery).",
+    "subject_rotation": "Treating 'taste' not as an absence, but as a constantly negotiated tension between presence (the wrapper) and spectral quality (the inner flavor).",
+    "sensory_detail": "Sight: The way residual specks of spice cling like dried, ochre dust to the folds of linen worn in travel bags.",
+    "research_question": "What Bengali word/phrase most closely encapsulates 'the lingering sense of something correct being inherently flawed'?",
+    "structural_variant": "Using the structure of a fractured recipe card—listing ingredients, then inserting highly complex philosophical verse where instructions should be.",
+    "variety_note": "This chapter diverges from neighbours by prioritizing the somatic aftermath—the internal resonance and lingering physical sensation after consumption, rather than focusing externally on setting or preparation."
+  }
+}

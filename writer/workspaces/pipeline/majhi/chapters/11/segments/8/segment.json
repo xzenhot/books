@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত যাত্রা",
+  "segment_summary": "এই সিদ্ধান্ত তাকে এক নতুন পথে চালিত করে, যেখানে তার যাত্রা কেবল গন্তব্য নয়, বরং তার নিজস্ব নীতিবোধের প্রতিধ্বনি।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the internal cost: what parts of his identity (e.g., his ability to hum, the specific way he ties a knot) must be sacrificed or fiercely defended?",
+    "story_option": "Setting: During an evening silence broken only by insects. Desire: He desires to speak this conflict aloud to the river itself as if it were a silent listener. Obstacle: Fear that voicing it will solidify his choice, making retreat impossible.",
+    "subject_rotation": "Rotating the focus from the external economic pressure to an internal, philosophical pressure exerted by inherited tradition (his family’s expectations for him).",
+    "sensory_detail": "The high-pitched, thin sound of metal bolts on modern infrastructure cutting through the deep, resonant thrum of wood and water.",
+    "research_question": "What is the specific vocabulary within Bengali river folk culture used to describe 'living outside the ledger' or non-monetized exchange?",
+    "structural_variant": "Interleaving short, sharp lines (like fragmented data points) that represent market prices against longer, flowing lines representing natural rhythm.",
+    "variety_note": "This chapter centers on interiority; while neighbours deal with external pressure (debt, protest), here the conflict is pure existential triangulation between two opposing forces of nature/commerce."
+  }
+}

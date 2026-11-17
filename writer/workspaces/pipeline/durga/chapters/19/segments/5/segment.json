@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "চক্রের অনিবার্যতা",
+  "segment_summary": "উৎসবের চক্রাকার দর্শন এখানে চূড়ান্ত রূপ নেয়; বিনাশের পরেই নতুন আশার বীজ অঙ্কুরিত হওয়ার এই অনিবার্য প্রক্রিয়াটি মানব জীবনের প্রতিচ্ছবি।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal struggle (Segment 2) through the lens of inherited silence—the unspoken burdens passed down, functioning as latent demons.",
+    "story_option": "Setting: Near a cracked, drying patch of river silt post-immersion; Desire: To read an ancestral pattern in the erosion lines as guidance for resilience; Obstacle: The indifference of the surrounding mundane landscape.",
+    "subject_rotation": "Examining 'continuity' through a geological lens: How deep strata (past ritual) shape surface expression (daily life).",
+    "sensory_detail": "The sharp, clean scent of burnt ghee mixed with dust motes catching the faint morning light.",
+    "research_question": "What specific Bengali metaphor describes internal conflict that lacks external manifestation without invoking overt religious terms?",
+    "structural_variant": "A completely fragmented syntax mimicking the effort to hold form against overwhelming entropy.",
+    "variety_note": "This chapter pivots from the grand narrative of battle/celebration towards introspection; it uses abstract sensory residue (scent, texture, subtle sound) to ground massive philosophical questions about permanence and existence post-ritual cessation."
+  }
+}

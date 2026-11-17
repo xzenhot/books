@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "Beyond the Frame's Edge",
+  "segment_summary": "She realizes the art transcends the physical boundaries of the haveli wall, existing instead in the memory and the act of creation itself.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Emphasizing the *sound* of non-action: The specific sonic texture of dust settling in a vacant haveli versus the sound of the brush.",
+    "story_option": "A moment where her hand pauses over a crucial point, not out of fatigue (as previous chapters explored), but in profound uncertainty about what 'truth' means at this final stage.",
+    "subject_rotation": "Focusing on the painterly act itself (the viscosity of wet lime, the drag of the brush) as a pure meditative/spiritual discipline separate from aesthetic result.",
+    "sensory_detail": "A sudden sharp scent of burnt lamp oil mixing with dry desert earth immediately after a period of intense concentration.",
+    "research_question": "What specific tactile sensation exists on sun-baked, dried lime plaster that conveys 'time' without being described as damage?",
+    "structural_variant": "Employing a cyclical structure where each segment mirrors or inverts the thematic movement of segments 1-4.",
+    "variety_note": "This final section deliberately strips away narrative action. Where earlier chapters detailed struggle, this chapter focuses solely on acceptance and the resulting philosophical texture of endurance, pushing toward abstract resonance over concrete incident."
+  }
+}

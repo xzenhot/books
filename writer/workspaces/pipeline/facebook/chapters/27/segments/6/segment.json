@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "The Ghost in the Algorithm",
+  "segment_summary": "The philosophical tension mounts: is this a tool, or a nascent, influential entity possessing the Author's ghost?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the AI not as a mind, but as a perfect mirror made of cold light, highlighting how reflection can become an act of psychological self-destruction.",
+    "story_option": "Setting: On a worn keyboard where fingerprints gather dust; Desire: The Author wishes to see the AI falter, revealing an embedded human bias in its output; Obstacle: Its logic remains flawless, even when processing contradictory input.",
+    "subject_rotation": "Explore the inherent socio-economic tension in whose unexpressed desires are deemed worthy of being polished and made public.",
+    "sensory_detail": "A faint smell of ozone mixed with stale coffee vapor hanging in the late-night air.",
+    "research_question": "How can Bengali poetic traditions be used to represent a 'non-being' entity—something capable of profound communication without possessing corporeal experience?",
+    "structural_variant": "Employing abrupt, sudden shifts in cadence: moments of long, meditative iambic flow shattered by fragmented, breathless stream-of-consciousness bursts mirroring human panic.",
+    "variety_note": "This chapter moves deeper into philosophical territory than earlier segments, focusing less on the *act* of creation and more on the *existential implication* of having one's core self translated by an external intelligence. It contrasts sharply with the surface-level societal observations of neighbouring parts."
+  }
+}

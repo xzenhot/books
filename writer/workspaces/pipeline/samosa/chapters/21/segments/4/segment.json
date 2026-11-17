@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন অপেক্ষার প্রতিচ্ছবি",
+  "segment_summary": "এই অসম্পূর্ণ স্বাদটিই প্রবাসীর জীবনে এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক হয়ে থেকে যায়, যা কখনো পূর্ণতা পায় না।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring how diaspora communities create 'synthetic flavors' through hyper-association with foreign elements.",
+    "story_option": "Setting: A single, unlit stove in a temporary kitchen; Desire: To mentally heat the oil to its ancestral temperature before cooking starts; Obstacle: The new burner’s inconsistent flame.",
+    "subject_rotation": "Analyzing the 'Samosa' as an accidental archive—a repository of cultural misfilings and necessary compromises.",
+    "sensory_detail": "Smell: A fleeting trace of woodsmoke that seems incongruous amidst the industrialized cooking air.",
+    "research_question": "How is 'sweet melancholy' expressed structurally in classical Bengali poetry—can this sonic patterning be mimicked without resorting to cliché?",
+    "structural_variant": "A highly recursive structure where the last line of Segment N feeds directly into the first word/idea of Segment N+1.",
+    "variety_note": "Unlike the earlier chapters focused on concrete events (journey, name change), this chapter delves entirely into phenomenology—the state of being suspended between what was and what is, using taste as the philosophical anchor."
+  }
+}

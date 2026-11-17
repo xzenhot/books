@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নাগরিক প্রবৃত্তি বনাম মুক্তি",
+  "segment_summary": "পথিকের নাগরিক প্রবৃত্তি তাকে অধিকার করতে প্ররোচিত করে, কিন্তু প্রকৃতির নীরবতা তাকে মুক্তির পথ দেখায়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on how the silence from the Satual community is spatially mapped across the landscape—not just in their faces, but in the empty spaces between their dwellings and the ruins.",
+    "story_option": "Setting: Standing at the threshold separating the mansion grounds from the village boundary wall; Desire: To observe one specific Satual child who looks upon both sides without discernible emotion; Obstacle: The inability to gauge whether this non-reaction is judgment or simple irrelevance.",
+    "subject_rotation": "Examining the contrast between the highly verbalized anguish of the traveler and the profound semantic void maintained by the indigenous community.",
+    "sensory_detail": "Sound: A sudden cessation of all background sounds (insects, distant chatter) replaced by a high-frequency, almost ultrasonic whine as the pressure builds.",
+    "research_question": "How does Bengali lyrical tradition handle the transition from acute environmental violence (the incoming storm) to absolute, sterile quietude?",
+    "structural_variant": "A heavily fragmented structure where each segment focuses on one competing sensory input: Sight (Red/Grey), Sound (Wind/Silence), Touch (Grit/Thorn).",
+    "variety_note": "While neighbouring chapters focused on the bloom's inherent nature or the dawn/storm transition, this chapter zeroes in entirely on the moment of decisive human choice against an overwhelming environmental backdrop."
+  }
+}

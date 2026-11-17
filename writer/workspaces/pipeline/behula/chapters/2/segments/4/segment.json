@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আত্মমর্যাদার ক্ষয়",
+  "segment_summary": "প্রতিদিনের ছোট ছোট আঘাতগুলি একত্রিত হয়ে তার আত্মবিশ্বাসকে দুর্বল করে দেয়, যা তার ভেতরের দীপশিখার উপর চাপ সৃষ্টি করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the precise vocabulary of social disdain used by the community (e.g., using terms that denote pity mixed with judgment).",
+    "story_option": "A scene where Behula walks past a market square, and every merchant glances at her not as a person, but as an unfortunate tableau.",
+    "subject_rotation": "Shifting focus from external society to internal perception—how Behula *interprets* every slight before it lands.",
+    "sensory_detail": "The faint scent of stale gossip mingling with street dust during hushed community assemblies.",
+    "research_question": "What specific, culturally resonant Bengali terms exist for socially imposed stigma that fit the elevated diction?",
+    "structural_variant": "An interweaving of very short, sharp vignettes (representing individual slights) against one longer philosophical reflection.",
+    "variety_note": "Unlike the first chapter which dealt with sharp shock, this piece must dwell in a sustained state of abrasive tension—the slow weariness of being continuously judged rather than abruptly struck."
+  }
+}

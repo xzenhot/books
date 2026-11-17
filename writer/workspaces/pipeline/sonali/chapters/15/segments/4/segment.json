@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের অমীমাংসিত লয়",
+  "segment_summary": "সোনালী উপলব্ধি করে যে জীবনের সবচেয়ে গভীর সত্যগুলোই হলো সেইগুলো, যা কখনোই সম্পূর্ণভাবে ব্যাখ্যা করা যায় না।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the lingering bliss not as a memory (Item 2), but as a persistent, subtle tremor felt only in the wrist or fingertips—a somatic echo.",
+    "story_option": "Setting: A narrow veranda overlooking a darkening courtyard; Desire: To articulate one final, perfect query about being using only breath patterns (no words); Obstacle: The silence of the evening pressing down like heavy damp cloth.",
+    "subject_rotation": "Shifting focus away from 'heavenly bliss' (the positive) entirely toward the *nature* of the lingering metaphysical residue—the aftertaste.",
+    "sensory_detail": "The fine grit of dust disturbed in the deepest recess of her memory (Tactile/Olfactory).",
+    "research_question": "What are concrete physical metaphors for the concept of 'unansweredness' within the tradition of human experience?",
+    "structural_variant": "Using extreme fragmentation again, but this time to build towards a single, sustained line that refuses punctuation.",
+    "variety_note": "This chapter moves entirely beyond resolution toward sustained inquiry; unlike its neighbours which explored decay or decision points, this segment is defined by perpetual resonance and the act of asking itself."
+  }
+}

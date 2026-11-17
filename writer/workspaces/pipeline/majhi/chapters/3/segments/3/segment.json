@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মাঝির আত্মনিমগ্নতা",
+  "segment_summary": "গান গাওয়ার মাধ্যমে মাঝি তার নিজস্ব সত্তার গভীরে প্রবেশ করে, যেখানে পেশা ও জীবনদর্শন মিশে যায়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from the song's message to the physical exhaustion of singing—the way the rhythm strains the body yet sustains the spirit.",
+    "story_option": "The intensity of the singing causes a physical reaction in the boat—the wood groans and settles into a new harmonic pitch dictated by the rhythm.",
+    "subject_rotation": "Focusing entirely on the interaction between sound and water; how the melodic lines appear visually in the ripples created by the boat.",
+    "sensory_detail": "The taste of river mist lingering in the throat after a long bout of singing, metallic and cool.",
+    "research_question": "What specific local vocabulary is used in Bhatiyali tradition to describe a 'soulful' or 'deeply felt' melodic quality?",
+    "structural_variant": "Structuring the chapter as an evolving soundscape where musical motifs are introduced and then drowned out by ambient noise (a distant tractor, a siren), only to resurface stronger.",
+    "variety_note": "Unlike the stark economic confrontations in previous chapters, this chapter immerses entirely in sonic territory; the focus shifts from external pressure to internal resonance through music."
+  }
+}

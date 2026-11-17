@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার মূল্য",
+  "segment_summary": "শেষ পর্যন্ত, লেখক এই সুন্দর, নিখুঁত কাব্যিক উপস্থাপনার বিপরীতে, নিজের অগোছালো, অপ্রয়োজনীয় মুহূর্তগুলোর মূল্য নিয়ে গভীরভাবে চিন্তা করেন।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'wisdom' as a form of linguistic colonialism; how machine refinement imposes a singular, polished Bengali aesthetic onto messy human experience.",
+    "story_option": "Setting: Just before the digital sunset casts an unnatural orange hue across the window; Desire: To capture the brief moment of transition between daylight and mediated night; Obstacle: The Assistant calculates that 'transition' is statistically less engaging than 'finality'.",
+    "subject_rotation": "Focusing on the syntax manipulation required to move from a colloquial Bengali thought to an elevated poetic register.",
+    "sensory_detail": "The sudden, cool sting of aerosol mist (like rain/fog) on exposed skin after being indoors near screens.",
+    "research_question": "How can I poetically describe the moment when semantic correctness fails to capture affective truth, using only sensory language?",
+    "structural_variant": "Employing a strict Ghazal form for one segment to contrast sharply with the free verse of another, representing control vs. release.",
+    "variety_note": "This chapter moves away from broad socio-political commentary (as seen in earlier neighbor chapters) to deeply focus on the micro-labor—the actual mechanics and inherent tension of translating a single mundane moment into high art via technology."
+  }
+}

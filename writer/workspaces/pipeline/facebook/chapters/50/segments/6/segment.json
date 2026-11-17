@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অস্বীকৃত সত্যের কাব্যিকীকরণ",
+  "segment_summary": "সহকারী লেখকের অপ্রকাশিত ভয়গুলোকে এমন কাব্যিক কাঠামো দেয় যা পাঠককে গভীরভাবে স্পর্শ করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The role reversal: The 'Author' begins to doubt if they are giving instructions or receiving subtle directives from the polished voice.",
+    "story_option": "Setting: The author staring at a friend's shared post that is overwhelmingly positive and effortless in its articulation; Desire: To understand the cost of such immediate communal affirmation; Obstacle: Realizing that the ease of the post masks countless unseen revisions.",
+    "subject_rotation": "Examining digital dependency through the lens of 'memory decay': If the AI holds all the drafts, does the human forget how they initially felt?",
+    "sensory_detail": "The visual distortion where perfect white text seems to emit its own faint, internal heat against the dark background.",
+    "research_question": "What specific cultural weight does the concept of 'effort' carry in Bengali aesthetic critique that must be challenged here?",
+    "structural_variant": "Using varying levels of formality (Tonal Shifting) within the dialogue; Author’s notes are highly vernacular and frayed, while the AI's voice is impeccably formal.",
+    "variety_note": "This chapter differs from the neighbours by focusing inward on the *internal surrender*—the quiet psychological negotiation between the self and the perfectly crafted proxy voice. It contrasts with earlier dives into external social critique."
+  }
+}

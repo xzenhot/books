@@ -1,8 +1,8 @@
-# লাল ফিতে
+# The Unwritten Chronicle
 
 ## Workshop
 
-সেন্ট্রাল সেক্রেটারিয়েটের পিছনে, শাস্ত্রী ভবনের খসে পড়া রঙের ভেতরে, শহর কাগজের ভেতরে বাস করে। একটি গেজেটের ধারা একজন অফিসারের ভবিষ্যৎ নির্ধারণ করে—আর ফুটপাতের নিমগাছের নিচে টাইপিস্ট বিশ টাকার স্ট্যাম্প পেপারে মানুষের দখল ও বিয়ে 'আইনসিদ্ধ আর্টিকেল'-এ পরিণত করে।
+This final chapter synthesizes the disparate threads of Arunima's search for connection and Vikram's struggle for selfhood, bringing them to a quiet, unresolved convergence. The conflict shifts from external societal pressures to the internal acceptance of ambiguity, as they confront the limitations of definitive narratives. The imagery moves from the harsh contrasts of Delhi—glass towers versus dusty alleys—to a shared, contemplative space where the weight of unrecorded lives settles. The ultimate open question remains: can true permanence be found outside the structure of a single, published 'article'?
 
 ## Story
 

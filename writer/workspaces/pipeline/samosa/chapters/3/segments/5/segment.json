@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "সাংস্কৃতিক দূরত্ব নির্মাণ",
+  "segment_summary": "নামের এই পরিবর্তনটি কেবল একটি শব্দগত পরিবর্তন নয়, এটি প্রবাস এবং মূল ভূখণ্ডের মধ্যে একটি অদৃশ্য সাংস্কৃতিক দূরত্ব তৈরি করে।",
+  "name": "3.5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker adopts the voice of an observer, analyzing the nomenclature change with detached academic precision before collapsing into personal yearning.",
+    "story_option": "Setting: Standing before a global map/atlas; Desire: For the map to redraw itself, returning two distinct culinary names to adjacent, understandable borders; Obstacle: The lines refuse to bend, locking in the substitution.",
+    "subject_rotation": "Focusing on how different regional dialects in Bengal might have maintained the original name longer, highlighting its resilience elsewhere.",
+    "sensory_detail": "A brief, sharp moment where a familiar Bengali word is spoken aloud only to be immediately lost in ambient foreign noise (sound).",
+    "research_question": "How does the concept of cultural preservation rely on precise, unchanging nomenclature in gastronomy?",
+    "structural_variant": "A highly fragmented montage where each segment focuses solely on one letter or sound component that is either retained or utterly lost during the transition.",
+    "variety_note": "This chapter deliberately pivots away from the immediate physical sensation (taste/texture) explored earlier, focusing instead on the abstract, painful erosion caused by linguistic substitution itself."
+  }
+}

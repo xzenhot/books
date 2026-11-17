@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির বাঁধন",
+  "segment_summary": "আদি স্বাদটি কেবল একটি খাদ্যের স্বাদ নয়, বরং তা একটি নির্দিষ্ট সময়ের, একটি নির্দিষ্ট মাটির প্রতি গভীর মানবিক অঙ্গীকার।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A focus on the *silence* around the act of eating—the absence of familiar domestic noise (child chatter, specific cooking sounds) that frames the current experience as inherently incomplete.",
+    "story_option": "Setting: Beside a worn ledger detailing supply costs in a foreign city market; Desire: To reverse-engineer the exact composition—the precise measure of 'diidha' (mother's touch) in the mixture; Obstacle: Economic necessity forcing substitutions that corrupt the flavor profile.",
+    "subject_rotation": "A meditation on linguistic inertia: How even when we speak 'samosa,' the underlying neurological expectation pulls us toward the vocabulary of 'singara'.",
+    "sensory_detail": "A phantom scent of specific, aged turmeric mingling with the metallic tang of imported fryer oil.",
+    "research_question": "What are the established linguistic markers (beyond simple name change) that denote a food item's cultural origin in diaspora literature?",
+    "structural_variant": "A sustained internal monologue where the narrator argues with a perceived ghost of their past self about culinary fidelity.",
+    "variety_note": "This chapter deepens the philosophical rift begun in earlier pieces by moving from mere description of taste loss to an inquiry into ontological status, a shift away from simple geographical displacement."
+  }
+}

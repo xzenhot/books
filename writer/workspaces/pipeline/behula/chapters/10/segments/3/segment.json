@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অন্ধকার থেকে আলোর প্রত্যাবর্তন",
+  "segment_summary": "দীর্ঘ অপেক্ষার পর, সেই প্রতীক্ষিত প্রত্যাবর্তন ঘটে, যা তার জীবনের শূন্যতাকে পূর্ণতা দেয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the dissonance where external celebration clashes violently with internal memories of suffering (the juxtaposition of festivity vs. memory).",
+    "story_option": "Setting: Beside the river where their initial bond was forged (if applicable in lore); Desire: To repeat an ancient, unguarded moment of intimacy from before the hardship began; Obstacle: The impossibility of recreating that exact temporal physics again; Turn: Accepting that the connection is now tempered and defined by what they *survived* together.",
+    "subject_rotation": "Analyzing how the restored relationship itself changes them both, making them strangers who recognize only shared history.",
+    "sensory_detail": "A sudden, piercing sound—perhaps a single chime or bell—that cuts through the dull drone of collective praise.",
+    "research_question": "What specific material artifacts (jewelry, textiles) would signify both enduring marital devotion and recent trial in this cultural context?",
+    "structural_variant": "A highly episodic structure mirroring vignettes of reunion moments rather than one continuous arc.",
+    "variety_note": "This chapter shifts from the sustained tension of endurance (previous segments) to a focused, pressurized scene of consummated relief and its immediate philosophical implications."
+  }
+}

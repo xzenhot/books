@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "বিজয় সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগের প্রতিধ্বনি বহন করে, যা কেবল ব্যক্তিগত সাফল্যের মধ্যে সীমাবদ্ধ নয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final triumph not as a narrative closure but as an open-ended resonance that actively challenges established social axioms regarding female suffering and endurance.",
+    "story_option": "Setting: Within an ancient, resonant sanctuary where the flame has just been restored; Desire: For Behula to feel the physical weight of her new identity settling upon her shoulders—a mantle of honor mixed with burden; Obstacle: The memory of the initial 'chaos' intruding into the pristine moment.",
+    "subject_rotation": "Shifting focus from Behula’s agency in achieving the triumph to the ontological state required for that triumph: examining what *kind* of being she had to become to merit restoration.",
+    "sensory_detail": "Touch: The cool, silken resistance of restored fabric against skin that has been burned by abstract suffering.",
+    "research_question": "What specific archaic Bengali idioms can convey 'self-definition through immense pressure' without sounding overtly didactic?",
+    "structural_variant": "Emphasize a tripartite structure: Past Trauma $\rightarrow$ Moment of Nexus $\rightarrow$ Lingering Resonance (Cyclical divergence)",
+    "variety_note": "This chapter pivots from the sheer act of miraculous return (Previous Chapters) to a philosophical deconstruction of what that triumph fundamentally means in the face of ongoing systemic imperfection, grounding the spiritual high with critical intellectual inquiry."
+  }
+}

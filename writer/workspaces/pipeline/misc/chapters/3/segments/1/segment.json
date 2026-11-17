@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 3,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "রক্তিম রেখার সূচনা",
+  "segment_summary": "দরজায় সিঁদুরের প্রথম বিন্দুটি কীভাবে দিনের আলোয় নিজেকে প্রতিষ্ঠা করে, তা নিবিড়ভাবে পর্যবেক্ষণ করা হয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "সিঁদুরের আভা যখন পুরোনো কাঠ বা মাটির ওপর পড়ে, তার ফাটলগুলোকে যেন সময়ের ক্ষয়চিহ্ন হিসেবে দেখানো।",
+    "story_option": "এক সন্ধ্যায়, বাইরে ঝিরঝিরে বৃষ্টি পড়ছে; ভেজা সিঁদুরের রেখা মুহূর্তের জন্য আরও গভীর লাল হয়ে ওঠে, এবং সেই রঙ দ্রুত জলস্রোতে মিশে অদৃশ্য হয়ে যায়।",
+    "subject_rotation": "চিহ্নটিকে একটি ম্যাপ হিসেবে ব্যবহার করা—যেখানে প্রতিটি সূক্ষ্ম দাগ পারিবারিক ইতিহাসের কোনো এক গুরুত্বপূর্ণ মোড় নির্দেশ করে।",
+    "sensory_detail": "সিঁদুরের গুঁড়োর শুকনো, মেজাজপূর্ণ গন্ধ যা বাতাসের সঙ্গে মিশে যায়।",
+    "research_question": "লোককথায় 'সিঁদুর' বা এই ধরনের চিহ্নগুলো কীভাবে সামাজিক অবস্থান বা পারিবারিক শক্তির ইঙ্গিত দেয়, তা কি লেখকের বিশ্বলোকে ব্যবহারের উপযোগী?",
+    "structural_variant": "Structure based on repetition of the colour red: from its powder state to its wet spread, to its fading echo.",
+    "variety_note": "Neighbouring chapters focus on transient physical sensations (sweat, wind, sound); this piece grounds the observation in a fixed, culturally resonant object that embodies silent continuity."
+  }
 }

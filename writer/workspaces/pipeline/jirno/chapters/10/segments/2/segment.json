@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অহংকারের ভার",
+  "segment_summary": "ধ্বংসস্তূপের সামনে দাঁড়িয়ে সে তার নিজস্ব নগরকেন্দ্রিক অহংকারের ভার অনুভব করে, যা এই মাটির আদিম স্থিতিশীলতার কাছে দুর্বল প্রমাণিত হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal monologue not as intellectual debate, but as a desperate appeal to a lost figure—perhaps his own younger, more zealous self.",
+    "story_option": "Setting: A momentary clear patch beneath the brooding clouds; Desire: To sketch, with precise pen and ink, a perfect geometric pattern from the manor's architecture as an act of defiant ordering; Turn: The wind instantly obliterates the drawing before it is finished.",
+    "subject_rotation": "Interweaving the internal reflection with sharp, episodic descriptions of the wild foliage (পলাশ/ভাঁটফুল) growing directly out of structural weaknesses, making nature an active agent of entropy.",
+    "sensory_detail": "Smell: A sudden, sharp tang of ozone mixed with the dry scent of sun-baked earth just before the atmospheric pressure shifts drastically.",
+    "research_question": "What specific micro-fauna or fungal life thrive uniquely on derelict brickwork in this climate?",
+    "structural_variant": "A cyclical structure where each segment ends with a line borrowed or echoed from the prior chapter's concluding thought, creating an ever-tightening spiral toward Chapter 15.",
+    "variety_note": "This chapter shifts inward significantly from previous sections; while earlier chapters observed tension between man and land, here the focus is solely on the traveler's internal mechanism dissolving under existential pressure before facing the final external storm."
+  }
+}

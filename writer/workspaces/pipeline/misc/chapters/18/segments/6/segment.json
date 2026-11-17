@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার ভার",
+  "segment_summary": "It dwells on the weary traveler at the platform, whose burden seems heavier than their physical luggage, representing the weight of unfulfilled expectation.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Observer Shift: পর্যবেক্ষককে নিছক দ্রষ্টা না রেখে, তাকে এই ভঙ্গুর বাস্তবতার প্রতি চরমভাবে আসক্ত বা নির্ভরশীল সত্তা হিসাবে উপস্থাপন করা।",
+    "story_option": "The weary traveler does not seek destination; instead, he finds his entire personal history mirrored in the pattern of dust settling on a single threshold stone.",
+    "subject_rotation": "Reinterpreting ritual not as devotion, but as a highly refined form of social contract enforcement codified in mundane gestures.",
+    "sensory_detail": "A sudden auditory void—the moment just before an engine's idle hum drops below conscious hearing threshold.",
+    "research_question": "How can the mandated voice (Gibran/Orilase cadence) be maintained when pivoting from objective observation to subjective existential doubt without becoming overly sentimental?",
+    "structural_variant": "Building the poem around a single recurring, slightly altered verb that symbolizes 'becoming' or 'decaying' across all observations.",
+    "variety_note": "This chapter moves beyond the gentle observation seen in previous segments by introducing an overt philosophical conflict (Permanence vs. Ephemerality) and forcing the imagery into a high-stakes interrogation, rather than quiet documentation."
+  }
+}

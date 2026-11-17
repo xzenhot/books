@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আত্মার জাগরণ",
+  "segment_summary": "ব্যক্তিগত স্তরে দেবী শক্তির ক্ষুদ্রতম প্রকাশ খুঁজে পাওয়া, যা জীবনের প্রতিটি ক্ষেত্রে শক্তির প্রয়োজনীয়তাকে নির্দেশ করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the entirety of Chapter 18 as a single moment: the persistent glow or smudge of সিঁদুর on one person's skin days after immersion, acting as an anchor for all subsequent existential querying.",
+    "story_option": "Setting: A single, forgotten terracotta object near riverbank silt; Desire: To ascertain if its structural integrity reveals an inherited pattern of strength from the deity's form; Obstacle: The corrosive dampness of neglect.",
+    "subject_rotation": "Focusing entirely on the *materiality* of endurance: how substances (soil, silk, pigment) manage to retain symbolic charge after being returned to inert states.",
+    "sensory_detail": "Sight: The way morning sun refracts off microscopic, dried particles of vermillion clinging stubbornly to woven jute.",
+    "research_question": "How can the philosophical dichotomy between temporary ritual joy and eternal internal strength be articulated using only modal verbs (might, could, must)?",
+    "structural_variant": "Employing a sustained chiasmus across the eight segments: A=B, C=D, D=C, B=A—forcing structural symmetry upon existential chaos.",
+    "variety_note": "Unlike neighbouring chapters which focus on cyclical action (arrival, peak power), this chapter isolates the residue—the quiet aftermath where physical matter meets metaphysical question."
+  }
+}

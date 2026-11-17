@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 66,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অটুট মনোবলের প্রতিধ্বনি",
+  "segment_summary": "ক্লান্তি ও হতাশার ভার সত্ত্বেও, তার মনোবল কোনোভাবেই ভেঙে পড়ে না, বরং তা আরও দৃঢ়তার নতুন স্তর লাভ করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Personifying the 'shadow' of doubt within the home as a physical entity that attempts to choke the inner flame (the core metaphor chain).",
+    "story_option": "Setting: In the deep well of her contemplation (metaphorical abyss); Desire: For one single, perfect resonance—a sound that proves existence is still coherent; Obstacle: The deafening echo of past accusations.",
+    "subject_rotation": "Treating 'hope' not as an emotion, but as a physical pressure—like hydrostatic force pushing against subterranean resistance.",
+    "sensory_detail": "The abrasive sensation of dried salt crusting on skin from sustained emotional tension (touch).",
+    "research_question": "What specific Bengali idiomatic phrases denote absolute internal sovereignty that pre-empts external validation?",
+    "structural_variant": "A highly compressed structure where each segment is less a narrative beat and more a single, dense stanza containing multiple overlapping metaphors.",
+    "variety_note": "This chapter deepens the psychological terrain established earlier, focusing entirely on the *internal mechanics* of sustained suffering and resolve, rather than external conflict or momentary bursts of hope."
+  }
+}

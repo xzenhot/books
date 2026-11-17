@@ -1,8 +1,8 @@
-# যুদ্ধের আগের রাত্রি
+# The Weight of the Crown: From Glory to Burden
 
 ## Workshop
 
-গঙ্গার তীরে আসন্ন নির্ধারক যুদ্ধের প্রাক্কালে, যুবরাজ লক্ষ্মণ সেন, বল্লাল, সেনাপতি, কবি এবং মালিনী প্রত্যেকেই তাদের গভীরতম ব্যক্তিগত সংঘাতের মুখোমুখি হন। এই রাতে, লক্ষ্মণের মহৎ গৌরবের আকাঙ্ক্ষা, বল্লালের পিতৃদায়ের ভার, সেনাপতির অনিবার্য পরিণতির হিসাব, কবির সত্য প্রকাশ করার নৈতিক বাধ্যবাধকতা এবং মালিনীর অপূরণীয় ক্ষতির বেদনা—এই সমস্ত আবেগ এক তীব্র মানসিক আবহ তৈরি করে। যুদ্ধের আসন্ন ছায়া এই চরিত্রদের বিবেকের সামনে দাঁড় করায়, যেখানে প্রতিটি সিদ্ধান্তের নৈতিক মূল্য এবং ব্যক্তিগত আত্মত্যাগ প্রশ্নবিদ্ধ হয়। এই চরম মুহূর্তের মুখোমুখি দাঁড়িয়ে, তাদের সম্মিলিত দ্বিধা এবং ভবিষ্যতের অনিশ্চয়তা কী নির্ধারণ করবে, সেই প্রশ্নটি অধ্যায়টির শেষে অমীমাংসিত থেকে যায়।
+This chapter explores the culmination of Lakshmana Sena's ambition, where the initial fervor of conquest clashes violently with the grim realities of governance and moral compromise. The imagery shifts from the triumphant banners of the Gangetic campaign to the heavy, dust-laden halls of a newly acquired, yet fragile, dominion. The central conflict is the transition from the glorious, heroic warrior to the burdened, pragmatic ruler, forcing the audience to question whether the pursuit of 'Bengal's glory' justifies the necessary moral compromises of empire-building. The open question remains: Can a kingdom built on martial pride sustain itself against the slow, corrosive weight of administration and responsibility?
 
 ## Story
 

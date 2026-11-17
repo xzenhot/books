@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 61,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অন্ধকার ভেদকারী আলোকবর্তিকা",
+  "segment_summary": "এই অংশে, হতাশার অন্ধকারকে ভেদ করে তার বিশ্বাস কীভাবে এক নতুন শক্তির উৎস তৈরি করছে, তা কাব্যিকভাবে উপস্থাপিত।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the internal monologue addressed to a memory of Likhindor, using his absence as the primary catalyst for endurance.",
+    "story_option": "Setting: The threshold of the ancestral home; Desire: A single, unjudged glance from an elder relative; Obstacle: The weight of past pronouncements against her character; Turn: She turns toward the horizon instead of looking inwards.",
+    "subject_rotation": "Shifting focus entirely onto how her *internal* perception of time warps under duress—moments stretching into epochs of endurance.",
+    "sensory_detail": "The metallic taste of suppressed grief coating the tongue at twilight.",
+    "research_question": "How can I linguistically differentiate 'deep sorrow' from 'existential fatigue' using only high-register Bengali diction?",
+    "structural_variant": "A purely fragmented structure, where each segment is a series of sharp, disconnected exclamations rather than flowing verses.",
+    "variety_note": "This chapter deliberately slows the narrative momentum compared to previous segments by foregrounding pure internal friction; where before was external conflict, here it is relentless self-erosion versus stubborn will."
+  }
+}

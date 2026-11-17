@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার আকর্ষণ",
+  "segment_summary": "সে উপলব্ধি করতে শুরু করে যে, কিছু শূন্যতা বা অপূর্ণতাই এই স্থানের আসল মহিমা বহন করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Using the *texture* of the decay—the chalky dust mixing with blood-red pollen—as the central metaphor thread that tightens and breaks across all eight segments.",
+    "story_option": "Setting: Near a particularly dense cluster of wild blood-flowers spilling over an old stone plinth; Desire: To touch one bloom with deliberate reverence, attempting to transfer its 'unconsecrated' essence into his own hand; Obstacle: The petal disintegrates instantly upon contact.",
+    "subject_rotation": "Treating the threshold (সীমা) not as a line on a map or an abstract concept, but as the point where his own blood begins to feel chemically similar to the red earth.",
+    "sensory_detail": "Touch: The slick, almost oily feeling of sap mixed with pulverized lime dust coating his fingertips.",
+    "research_question": "How did pre-modern agricultural communities perceive environmental limits vs. human encroachment in similar arid landscape contexts?",
+    "structural_variant": "Structuring segments not chronologically, but thematically: first 'Pride,' then 'Fear,' then 'Acceptance,' before finally reaching the physical boundary.",
+    "variety_note": "Unlike earlier chapters that built towards conflict (awakening, storm), this chapter dwells entirely in the tense, static aftermath of escalating tension, using internal bodily sensation as the primary narrative driver."
+  }
+}

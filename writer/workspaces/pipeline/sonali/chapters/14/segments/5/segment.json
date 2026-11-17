@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্রোতের আত্মসমর্পণ",
+  "segment_summary": "সোনালী যখন নিজেকে স্রোতের हवाले করে, তখন তার শরীর ও মন এক অদ্ভুত সামঞ্জস্য লাভ করে, যেখানে প্রতিরোধ করার কোনো প্রয়োজন থাকে না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the struggle not as an internal choice, but as a confrontation with external elements (e.g., wind vs. anchor).",
+    "story_option": "Setting: Beside an old river sluice gate that slowly opens and closes; Desire: To synchronize her internal rhythm with the slow, unstoppable mechanical process of release.",
+    "subject_rotation": "Revisiting the concept of 'Sonal Rang'—is it the clinging to the color, or is relinquishing it the only way for the true color to appear?",
+    "sensory_detail": "The faint chill of damp earth rising up through her feet as she stands at a threshold.",
+    "research_question": "What specific metaphor in Bengali poetry represents the necessary tension between holding on and letting go?",
+    "structural_variant": "Emphasize rhythmic breakdown: using very long, sweeping lines for the pull of the flow (Item 2/5), contrasted sharply with tightly constrained, almost claustrophobic couplets during the act of holding on (Item 1/3).",
+    "variety_note": "This chapter moves beyond simple internal reflection by providing concrete anchors—the physical feeling of resistance versus surrender—which differentiates its tone from neighboring chapters dealing solely with abstract thematic discovery."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আলোর উৎস হিসেবে প্রেম",
+  "segment_summary": "প্রেমের এই অটুট শিখা কীভাবে তার ভেতরের দীপশিখাটিকে আরও উজ্জ্বল করে তোলে, তা চিত্রিত হয়।",
+  "name": "5",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring 'Purity as Resistance': Framing physical and moral sanctity not just as a trait, but as an active weapon against societal corrosion, drawing from ancient philosophical dualisms (Good vs. Imperfect Society).",
+    "story_option": "Setting: Inside a dimly lit ancestral room where ritual objects are kept, Desire: To purify one specific object through absolute personal resolve before societal scrutiny descends (Turn).",
+    "subject_rotation": "Examining the concept of 'Absolute Fidelity' as a metaphysical state rather than just a relational one.",
+    "sensory_detail": "The texture of aged silk worn during moments of deep internal reckoning—a tactile memory of shared life.",
+    "research_question": "What precise archaic Bengali imagery exists to convey devotion that is simultaneously utterly personal and universally archetypal?",
+    "structural_variant": "An asymmetrical structure where the first segment builds tension, but the final three segments slow down into a near-meditative, elongated cadence.",
+    "variety_note": "This chapter shifts from external struggle (previous chapters) to internal ontological assertion; the focus is less on *fighting* and more on *being*, making the sanctity its primary force."
+  }
+}

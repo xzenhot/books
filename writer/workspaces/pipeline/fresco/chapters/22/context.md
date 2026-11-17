@@ -1,0 +1,283 @@
+# Chapter model context
+
+## chapter_index
+
+22
+
+## name
+
+22
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+The Unseen Scars of Expression
+
+## chapter_summary
+
+This chapter delves into the core conflict between societal expectation and the raw, necessary act of creation. It explores how Debolina Rai confronts the invisible sacrifices—the sweat, the ground lapis, the silent failures—that underpin any visible masterpiece. The imagery centers on the crumbling frescoes acting as a mirror to her own internal fragmentation. The central question remains: Can art achieve true immortality if its genesis is perpetually hidden in the darkness?
+
+## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Scaffold's Weight
+
+#### segment_summary
+
+The physical burden of the scaffolding mirrors the invisible weight of societal expectations pressing down on Debolina's artistic ambition.
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+Lapis and the Lamplight's Gaze
+
+#### segment_summary
+
+The chemical scent of ground lapis, illuminated by the solitary lamp, becomes the sensory signature of her isolated, nocturnal struggle.
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Musk of the Stranger
+
+#### segment_summary
+
+The fleeting musk carried by the desert wind acts as a sudden, intoxicating intrusion from the outside world into her hermetic creative space.
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+Lime and the Cracks of Time
+
+#### segment_summary
+
+The cool, wet touch of the lime plaster contrasts sharply with the deep fissures in the ancient walls, symbolizing both creation and decay.
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Mirror of Faded Gods
+
+#### segment_summary
+
+The faded figures in the frescoes reflect her own unspoken anxieties, suggesting that the decay of the art mirrors the erosion of her own domestic self.
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+Mapping the Internal Rupture
+
+#### segment_summary
+
+She begins to consciously translate her personal hesitations and fears onto the canvas, making the invisible struggle visible through pigment.
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Whisper of Convention
+
+#### segment_summary
+
+The distant, muffled sounds of societal expectation serve as a constant, low-frequency counterpoint to the intense focus of her artistic labor.
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Unfinished Truth
+
+#### segment_summary
+
+She realizes that the 'truth' of her art lies not in flawless completion, but in the honest documentation of its arduous, imperfect making.
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- শিল্পকে 'স্থায়িত্ব' এর বিপরীতে পুরোপুরি 'অস্থিতিশীলতা'-র কাব্যিক প্রমাণ হিসেবে প্রতিষ্ঠা করা, যেখানে প্রতিটি ফাটলই একটি নির্দিষ্ট মুহূর্তের মহাজাগতিক ওজন বহন করে।
+- দেহ এবং শিল্পীর মধ্যে সরাসরি সংযোগ স্থাপন: দেবলিনা যখন তুলি ধরছে, তখন তার কব্জির সামান্য কাঁপুনি—যা কেবল ক্লান্তির নয়, বরং সৃষ্টির সাথে সংগ্রাম করার জৈবিক স্পন্দন।
+- ফ্রেস্কোকে প্রাচীন বণিকদের 'ট্রিটি'-এর মতো বিবেচনা করা—যেখানে রং এবং স্থপতিবিদ্যা একে অপরের শর্তে বাঁধা; দেবলিনার শিল্প সেই চুক্তিভঙ্গ বা নতুন সমঝোতার প্রতীক।
+
+### story_options
+
+- দেবলিনা হঠাৎ তার হাতে থাকা তুলির নরম পালকটির দিকে তাকিয়ে থাকে, যা আগের রাতে সে বহুবার ফেলে দিয়েছিল—এটি যেন সৃষ্টির মাঝপথে আসা একটি নীরব সিদ্ধান্তের বস্তুগত প্রতিচ্ছবি।
+- সে দেওয়ালের এক বিশেষ অংশে হাত রাখে এবং সেখানে প্রাচীন চুন-ধুলো ও ল্যাপিসের কণা মিশে থাকা এক অদ্ভুত ধাতব ঠান্ডা অনুভব করে; বাধা হলো এই স্পর্শকে তার নতুন কাজের অংশ করা বা প্রত্যাখ্যান করা।
+- প্রদীপের শিখা যখন সামান্য কাঁপতে থাকে, তখন দেওয়ালের একটি নির্দিষ্ট ফাটল থেকে আসা সূক্ষ্ম, কিন্তু পরিচিত মানুষের কণ্ঠস্বরের মতো কোনো ধ্বনি (যেমন চাপা নিঃশ্বাস) শোনা যায়, যা তাকে থামিয়ে দেয়।
+
+### subject_rotations
+
+- এই অধ্যায়টিকে কেবল 'অদৃশ্য শ্রম' নয়, বরং 'মানসিক নির্মাণ'-এর একটি অধ্যয়ন হিসেবে দেখা—যেখানে দেবলিনা নিজের মানসিক কাঠামোকে রং দিয়ে স্থপতি করছে।
+- 'ক্ষয়' (Decay) কে কেবল ব্যর্থতা হিসেবে না দেখে, অতীত সময়ের সঙ্গে বর্তমানের সংলাপের এক সক্রিয় মাধ্যম হিসেবে তুলে ধরা।
+- সামাজিক চাপকে বহির্মুখী শক্তি নয়, বরং একটি অন্তর্জাতীয় 'নিয়ন্ত্রণবোধ'-এর মতো উপস্থাপন করা যা শিল্পীর ভেতরের শৃঙ্খলা ভেঙে দিতে চায়।
+
+### sensory_details
+
+- ল্যাপিস গুঁড়োর তীক্ষ্ণ ধাতব গন্ধ রাত্রির শীতল চুন-ধুলার সাথে মিশে এক মিশ্রিত, তীব্র সুবাস তৈরি করে।
+- তুলি ধরার মুহূর্তের পর হাতে লাগা আঠালো চিনামাটির অনুভূতি যখন বাতাসের আর্দ্রতা ভেদ করে শরীরকে আলতোভাবে ধরে রাখে।
+
+### research_questions
+
+- ঐতিহাসিকভাবে এই অঞ্চলের ফ্রেস্কো শিল্পে, রংয়ের 'ত্রুটি' বা অসঙ্গতিকে কখনো ইচ্ছাকৃত শৈল্পিক উপাদানে পরিণত করার কোনো দৃষ্টান্ত ছিল কি?
+- দেবলিনার বর্ণিত শ্রমের মধ্যে যদি শারীরিক ক্লান্তি না থাকে, তবে তার মানসিক অবসাদের কাঠামোগত রূপ কী হতে পারে যা বর্ণনায় আনা সম্ভব?
+
+### structural_variants
+
+- এই অধ্যায়টিকে একটি দীর্ঘ, অবিচ্ছিন্ন স্তবক হিসেবে লেখা যেতে পারে যেখানে প্রতিটি চিন্তার পরিবর্তন ঘটে কিন্তু কোনো সুস্পষ্ট বিভাগ নেই।
+- পরস্পর সম্পর্কহীন আটটি ছোট ছোট কবিতা (Micro-poems) তৈরি করা, যা একই থিম স্পর্শ করে কিন্তু ভিন্ন ইন্দ্রিয়কে কেন্দ্র করে।
+
+### unused_angles
+
+- শিল্পীর নিজের শ্বাস-প্রশ্বাসের শব্দকে একটি নির্দিষ্ট প্যাটার্ন হিসেবে উপস্থাপন করা এবং তা দেওয়ালের ফাটলের শব্দের সাথে তুলনা করা।
+- দেবলিনার মনোযোগ যেন কোনো ক্ষুদ্র, স্থির বস্তুর (যেমন মাটিতে পড়া এক টুকরো ভাঙা পাথর) ওপর আটকে যাওয়া, যা তার বৃহৎ সংগ্রামটিকে মুহূর্তের স্থবিরতায় পরিণত করে।
+
+### variety_note
+
+পূর্ববর্তী অধ্যায়গুলি মূলত বিচ্ছিন্ন সংবেদনশীলতা বা বস্তুনিষ্ঠ পর্যবেক্ষণের উপর জোর দিয়েছিল; এই অধ্যায়টি সেই সংবেদনগুলিকে সরাসরি দেবলিনার অভ্যন্তরীণ মানসিক কাঠামোর সঙ্গে যুক্ত করে দেয়, যেখানে সংগ্রামটি এখন ব্যক্তিগতভাবে আত্ম-প্রতিরক্ষামূলক।

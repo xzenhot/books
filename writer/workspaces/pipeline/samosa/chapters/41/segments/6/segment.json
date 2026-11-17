@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 41,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নামের বিচ্ছিন্নতা",
+  "segment_summary": "নামের পরিবর্তন (সিঙ্গাড়া থেকে সামোসা) এই বাজারের ভিড়ে আরও বেশি করে সাংস্কৃতিক দূরত্বকে প্রকট করে তোলে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the rhythm of haggling or rapid transactional speech, then violently breaking it with an internal moment of pure, silent recollection.",
+    "story_option": "Setting: Standing at the edge of the market square just as dusk arrives, the light shifting from harsh day to artificial glow; Desire: To watch how the samosa's oil sheen transforms under different spectral lights—from golden memory to dull patina.",
+    "subject_rotation": "A structural rotation based on cyclical craving: brief moments of intense focus followed by inevitable dispersal into the larger din.",
+    "sensory_detail": "The visual texture of deep shadows cast by uneven market awnings, which swallow definition.",
+    "research_question": "How can I modulate the register to make the descriptive chaos of the market feel utterly relentless without becoming merely prosaic?",
+    "structural_variant": "Implementing a strict antiphonal structure, alternating lines/stanzas between external market observation and internal gustatory memory.",
+    "variety_note": "Unlike previous chapters which focused on the internal failing or memory retrieval, this chapter externalizes the conflict, making the market itself an active antagonist assaulting the fragile taste of home."
+  }
+}

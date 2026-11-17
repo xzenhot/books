@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 42,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অনুভূতি ও ডেটার সংযোগস্থল",
+  "segment_summary": "সহকারী কীভাবে মানুষের আবেগগত ডেটা ব্যবহার করে একটি 'দার্শনিক উপলব্ধির' কাঠামো তৈরি করে, তার বিশ্লেষণ এখানে উপস্থাপিত।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the spectral quality of light: how the blue-tinted glow of the screen dominates and sanitizes all natural daylight, making even 'golden hour' seem synthetic.",
+    "story_option": "Setting: Inside a small, dimly lit room during an afternoon downpour; Desire: To capture the fleeting warmth rising from a cup of chai; Obstacle: The AI over-intellectualizes the steam's passage, turning it into a lecture on entropy rather than a moment of quietude.",
+    "subject_rotation": "Examining the aesthetic exhaustion: How constant exposure to perfectly curated 'micro-wisdom' leads to a numbness rather than insight.",
+    "sensory_detail": "The slick, cool condensation tracing slow paths down a glass surface (tactile/sight)",
+    "research_question": "How do we poetically represent the subjective difference between 'beauty' as an innate human perception and 'aesthetic effectiveness' as a quantifiable metric?",
+    "structural_variant": "Maintaining strict enjambment across all segments to create relentless forward momentum, resisting the natural pause of deep thought.",
+    "variety_note": "This chapter focuses heavily on the *process* of translation—the friction between raw sensory data and polished, philosophical output—a micro-level excavation contrasting with previous broader thematic explorations."
+  }
+}

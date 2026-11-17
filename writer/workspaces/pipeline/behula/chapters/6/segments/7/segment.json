@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "সংকল্পের মহিমা",
+  "segment_summary": "তার এই অবিচলতা কেবল ব্যক্তিগত টিকে থাকা নয়, বরং এক মহাকাব্যিক সংকল্পের প্রতীক হয়ে ওঠে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the physical weight of silence: How emptiness manifests as a tangible pressure, like dense monsoon air.",
+    "story_option": "Setting: A dimly lit corner of her lonely abode; Desire: To hold onto one mundane, unchanging object (like a worn prayer bead) as an anchor against despair (Obstacle: The encroaching fog of weariness); Turn: The object becomes intensely sharp with memory's clarity.",
+    "subject_rotation": "Analyzing endurance not as a spiritual leap, but as an almost animalistic refusal to surrender metabolic energy.",
+    "sensory_detail": "The taste of cold dust mixed with dry jasmine incense from a neglected corner.",
+    "research_question": "What specific archaic Bengali lexicon exists to describe sustained psychological siege without implying direct confrontation?",
+    "structural_variant": "Employing an AABB/CCDD rhyme scheme structure in some stanzas, disrupting the free verse rhythm to mirror forced internal order against external chaos.",
+    "variety_note": "Unlike chapters focusing on external pressure or cosmic testing, this piece centers entirely on the *internal physics* of resilience—the sheer mechanics of continuing when all evidence suggests collapse is inevitable. It pivots from 'trial' to 'tenacity'."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 64,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অপ্রতিরোধ্য যাত্রার সূচনা",
+  "segment_summary": "এই মানসিক লড়াই তাকে কেবল টিকে থাকতে শেখায় না, বরং এক অপ্রতিরোধ্য মহাকাব্যিক সত্তায় রূপান্তরিত করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting the 'अগ্নিকুণ্ড' (inner flame) as a localized phenomenon—a heat source visible only within her immediate sphere, unaffected by external coldness.",
+    "story_option": "Setting: Inside a chamber veiled by heavy monsoon clouds (symbolizing domestic uncertainty); Desire: A single clear drop of morning dew on a leaf to act as a lens for clarity; Obstacle: The oppressive weight of unspoken societal expectations hanging in the humid air.",
+    "subject_rotation": "Treating societal pressure ('বিষাক্ত ছড়া') not as words spoken, but as patterns of light refraction causing perpetual inner shadow plays.",
+    "sensory_detail": "A low-frequency hum, almost subsonic, felt in the bones rather than heard by the ears (sound).",
+    "research_question": "How can I use diction related to mineral formation or geological pressure to illustrate the slow hardening of her resolve?",
+    "structural_variant": "Using extreme juxtaposition: pairing the most fragile, ephemeral image (a moth's wing) immediately beside the hardest material symbol (granite or iron).",
+    "variety_note": "Unlike its predecessors which focused on external trials (death/rejection), this chapter dives inward, mapping the topography of her sustained psychological siege against absolute despair."
+  }
+}

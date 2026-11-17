@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অমরত্বের আকাঙ্ক্ষা",
+  "segment_summary": "শারীরিক বিলুপ্তি সত্ত্বেও, সম্রাটের অন্তরে সাহিত্যিক অমরত্বের এক ক্ষীণ আকাঙ্ক্ষা কীভাবে টিকে থাকে, তার অনুসন্ধান করা হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The focus on the material quality of absence: The precise texture and density of the missing earth, compared to the dry, abrasive dust remaining.",
+    "story_option": "Setting: The desolate plot designated for burial outside the barracks; Desire: To arrange a single, symbolic handful of rich soil (representing past glory) onto the bier before death; Obstacle: Guards refusing entry to 'sanctioned' materials.",
+    "subject_rotation": "Shifting focus from physical death (the body) to legal death (the stripping of rights/title).",
+    "sensory_detail": "A deep metallic scent—like aged, cold iron or tarnished copper—associated with official seals and lost nobility.",
+    "research_question": "How did the military administration define 'acceptable' land usage in a transitional zone like Rangoon for deposed royalty?",
+    "structural_variant": "Segment 3 written as a direct, highly formalized bureaucratic transcript broken up by intensely personal verse interjections.",
+    "variety_note": "This chapter pivots away from active resistance (like Chapter 9's writing) to a meditation on absolute erasure—the philosophical space between being alive and simply not existing as a recognised entity."
+  }
+}

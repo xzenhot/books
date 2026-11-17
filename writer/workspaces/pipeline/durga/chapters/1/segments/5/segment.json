@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অন্ধকার ও আলোর দ্বান্দ্বিকতা",
+  "segment_summary": "আদিম অন্ধকারের বিপরীতে প্যান্ডেলের আলোকসজ্জা এক তীব্র দ্বান্দ্বিক টানাপোড়েন সৃষ্টি করে।",
+  "name": "5",
+  "word_target": 63,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the pre-dawn darkness not as absence, but as a dense, living entity that slowly yields to the spiritual light signaled by the ritual sounds.",
+    "story_option": "An artisan in Kumortuli, awake before sunrise, not working on clay yet, but simply listening to the atmospheric shift marked by the distant chants and the nascent scent of shiu-li.",
+    "subject_rotation": "Deconstructing the phrase 'আত্মিক জাগরণ' by focusing on a single, physical tremor felt in the body upon hearing the first resonant drum beat.",
+    "sensory_detail": "The specific metallic tang of damp earth mingling with the sweet perfume carried on the pre-dawn mist.",
+    "research_question": "What precise linguistic nuance in Bengali signifies the shift between ancestral rites (Pitru Paksha) and divine manifestation (Devi Paksha)?",
+    "structural_variant": "A highly fragmented structure, mirroring broken thoughts amid the sonic assault of the initial drumming.",
+    "variety_note": "This chapter emphasizes the sonic and olfactory prelude to Durga's presence, focusing on internal tension against external proclamation, unlike subsequent chapters which detail craftsmanship or ritual."
+  }
+}

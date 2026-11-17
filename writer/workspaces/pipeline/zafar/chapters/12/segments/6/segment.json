@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ঐতিহ্যের স্থানান্তর",
+  "segment_summary": "তিনি দেখেন যে তাঁর মর্যাদা এখন আর লালকেল্লার দেয়াল দ্বারা নির্ধারিত নয়, বরং গালিবের কলম এবং কুল্লিয়াত-এ-জাফরের পাতায় সংরক্ষিত।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the final self-realization through physical sensory decay—the failing eyesight perceiving only text on aged parchment",
+    "story_option": "Setting: Lying amidst scattered, worthless state seals and paper decrees; Desire: To find an inscription that validates his spirit over the ledger sheet's tally; Obstacle: Finding only administrative jargon devoid of human weight.",
+    "subject_rotation": "Exploring the temporal collapse where past grandeur, present degradation, and future legend coexist simultaneously in his mind",
+    "sensory_detail": "Smell: The faint, lingering metallic tang of old iron implements mixed with camphor used in final rites",
+    "research_question": "How might the linguistic rhythm shift when a highly educated individual consciously shifts from high literary diction (Urdu/Persianate) into intensely private, simpler reflection?",
+    "structural_variant": "An abrupt switch between extended lyrical meditation and stark prose-like philosophical aphorisms derived from his state documents.",
+    "variety_note": "Unlike earlier chapters which dealt with conflict and resistance against erasure, this chapter is purely reflective; it focuses on achieving a quiet transcendence *after* the struggle has been lost."
+  }
+}

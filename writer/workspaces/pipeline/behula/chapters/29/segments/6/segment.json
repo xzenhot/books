@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 29,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সংকল্পের মহিমা",
+  "segment_summary": "তার অদম্য সংকল্পের শক্তি প্রমাণ করে যে, ভেতরের আলোকবর্তিকা বাইরের সমস্ত অন্ধকারের চেয়েও শক্তিশালী।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Reversing the expected consolation: The final affirmation is hollow—a beautiful shell concealing the enduring, irreducible ache of prior loss.",
+    "story_option": "Setting: The precise midpoint of their former path, now overgrown and unmanaged; Desire: For them to acknowledge the sheer weight of time—the accumulated seconds of separation that defy simple resolution; Obstacle: The memory of unanswered prayers becoming a palpable, inert mass.",
+    "subject_rotation": "Treating their victory not as an endpoint, but as a mutation—a new state of being forged in conflict.",
+    "sensory_detail": "The specific sound of heavy silk rustling against rough stone after long immobility.",
+    "research_question": "How can I differentiate between pure catharsis and existential fatigue in poetic rendering?",
+    "structural_variant": "Alternating stanzas of hyper-specific physical description with abstract philosophical pronouncements on 'Being'.",
+    "variety_note": "This chapter moves past the immediate action of reunion (seen in earlier segments) into a deep meditation on what that reunion structurally and philosophically means for existence, embracing an unsettling ambiguity rather than pure triumph."
+  }
+}

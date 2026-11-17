@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "এই বিজয় সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ রেখে যায়, যা চিন্তার খোরাক জোগায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the reunion moment itself as a silent theological event, where belief is proven through immediate bodily cessation of internal conflict.",
+    "story_option": "The narrative zooms into a single, symbolic domestic object—perhaps a thread or piece of worn fabric—that has borne witness to both absence and return; Desire: To imbue this mundane item with ontological weight; Obstacle: The temptation to over-romanticize the object's significance; Turn: The object reveals only profound, quiet endurance.",
+    "subject_rotation": "Exploring the nature of the vow/commitment itself: whether it survived through shared experience or merely by adherence to external form.",
+    "sensory_detail": "A faint, almost imperceptible hum in the air following the cessation of intense internal struggle.",
+    "research_question": "How can the concept of 'existential negotiation' be rendered poetically using purely elevated vocabulary?",
+    "structural_variant": "A strictly objective recounting, minimizing interior monologue until the very final lines (emphasizing 'the thing itself' over feeling).",
+    "variety_note": "This chapter shifts from recounting the struggle to describing its irreducible consequence, prioritizing existential density over narrative momentum, unlike earlier chapters."
+  }
+}

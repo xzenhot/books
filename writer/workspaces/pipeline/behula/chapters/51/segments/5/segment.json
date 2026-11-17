@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 51,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আলোর পুনঃজ্বলে ওঠা",
+  "segment_summary": "অন্ধকার ও শূন্যতার গভীরে থাকা বেহুলার ভেতরের আলোকবর্তিকা অবশেষে পূর্ণ উজ্জ্বলতা লাভ করে, যা সমস্ত সংশয়কে দূর করে দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'victory' not as a static state, but as an ongoing negotiation with the societal memory that tried to define her as broken.",
+    "story_option": "Setting: Beside a distant, unmoving star (ধ্রুবতারা); Desire: To establish a shared rhythm against time’s chaos; Obstacle: The realization that their perfect past is locked away, only visible in memory fragments.",
+    "subject_rotation": "Interrogating whether their reunion validates divine power or merely showcases the profound tenacity of human will, making them equally powerful forces.",
+    "sensory_detail": "The scent of ozone lingering faintly around the reunion spot after an intense spiritual climax.",
+    "research_question": "What classical Bengali metaphor exists for sustained endurance that suggests crystalline rigidity without implying total cessation of striving?",
+    "structural_variant": "A spiral structure where each segment begins by referencing a physical detail from the previous one, but reversing its implied emotional weight.",
+    "variety_note": "Unlike earlier chapters focusing on struggle or doubt, this section is dedicated to the silence *after* victory—examining what that stillness costs and entails."
+  }
+}

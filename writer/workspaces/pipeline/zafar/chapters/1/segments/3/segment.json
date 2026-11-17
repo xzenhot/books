@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "কোম্পানির ছায়ার আগমন",
+  "segment_summary": "ব্রিটিশ কোম্পানির ক্রমবর্ধমান রাজনৈতিক প্রভাব এবং তাদের শীতল হস্তক্ষেপের সূক্ষ্ম ইঙ্গিত এই অংশে প্রথমবার দৃশ্যমান হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the initial tension between divine right (Emperor) and pragmatic documentation (Company ledger).",
+    "story_option": "Scene: Within the private chambers overlooking Delhi below. Desire: To send an encrypted message disguised as a casual poetic exchange between courtiers. Obstacle: The surveillance network is subtly tightening around all correspondence. Turn: The coded language itself becomes the act of resistance, hidden within metaphor.",
+    "subject_rotation": "Dramatizing the space *between* the throne and its occupant.",
+    "sensory_detail": "The coarse grit of sandstone under evening lamp-glow (touch/sight).",
+    "research_question": "What were common Mughal courtly phrases that represented abstract 'sovereignty' before British encroachment?",
+    "structural_variant": "A framing device using an imagined scribe recording the Emperor's changing internal landscape.",
+    "variety_note": "Unlike later chapters dealing with exile or bloodshed, this section establishes the fragile beauty of power just before its systemic rot sets in."
+  }
+}

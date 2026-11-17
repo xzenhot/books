@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 60,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অচেনা তেলের শীতলতা",
+  "segment_summary": "প্রবাসের নতুন রান্নার পাত্রে যখন অন্য কোনো তেল ব্যবহৃত হয়, তখন সেই তেলটি কেবল একটি নিরপেক্ষ মাধ্যম হয়ে দাঁড়ায়, যা স্মৃতির তীব্রতাকে ম্লান করে দেয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the oil not as a culinary choice, but as a silent negotiation between necessity (survival) and devotion (memory).",
+    "story_option": "Setting: Beside an open border road where two types of cooking gas burners are visible; Desire: To juxtapose the flicker of the 'আঁচ' in both settings; Obstacle: The constant, indifferent hum of foreign machinery drowning out intimate sensory detail.",
+    "subject_rotation": "Examining the oil through the lens of material science: how different molecular structures physically alter the dough structure, leading to textural dissonance.",
+    "sensory_detail": "Auditory: The specific high-frequency *thrum* produced when dense, pungent oils hit moderate heat versus the dull, absorbing *shush* of neutral fats.",
+    "research_question": "Are there quantifiable differences in volatile organic compounds released by mustard oil vs. common neutral oils when heated to the same temperature?",
+    "structural_variant": "A shift in perspective between stanzas: 1-4 being external observation of the oil; 5-8 being internal reception of that aroma.",
+    "variety_note": "This chapter focuses exclusively on the primary chemical and sensory marker—the oil itself—diverging from previous chapters which focused on broader geographical or social shifts in food consumption."
+  }
+}

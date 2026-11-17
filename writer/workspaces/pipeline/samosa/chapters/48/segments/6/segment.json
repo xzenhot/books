@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রূপান্তর নাকি ক্ষয়?",
+  "segment_summary": "এই তেলের প্রতিস্থাপন কি কেবল একটি রূপান্তর, নাকি এটি ধীরে ধীরে স্বাদের মৌলিক সত্তার ক্ষয়কে নির্দেশ করে?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A direct address to the cooking implement itself (e.g., 'হে তাওয়া' or 'ও কড়াই'), asking it if its memory persists despite the new substance.",
+    "story_option": "A scene where 'I' intentionally over-boil a tiny amount of oil to achieve a momentary chemical flare—a false sensory peak that immediately subsides.",
+    "subject_rotation": "Treating the act of smelling the heated oil as a momentary ritualistic performance rather than an organic experience.",
+    "sensory_detail": "The slick, almost unnatural smoothness of the neutral oil when coating a spoon.",
+    "research_question": "How can I poetically represent the transition from *ghran* (scent) to *swad* (taste) when the chemical signal has been fundamentally altered?",
+    "structural_variant": "Using a central refrain—a single word like 'মাটি' or 'আঁচ'—that is repeated but modified semantically across all eight segments.",
+    "variety_note": "This chapter focuses intensely inward on a single sensory input—the medium itself (oil)—a precise isolation contrasting with neighbour chapters that address broader market scenes or linguistic failures."
+  }
+}

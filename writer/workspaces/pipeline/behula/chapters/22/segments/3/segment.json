@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "প্রতিকূলতা পেরিয়ে আসা বেহুলার চরিত্রটি এক মহৎ নারীত্বের প্রতীক হয়ে ওঠে, যা তার সহিষ্ণুতার সাক্ষ্য বহন করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting society's judgment (the 'বিষাক্ত ছড়া') as the lingering ambient noise in their private sanctuary, even post-reunion.",
+    "story_option": "Setting: Under a strange confluence of night stars (beyond 'ধ্রুবতারা'), Desire: To experience a complete somatic calm—where every strained muscle releases its millennia-old tension at once; Obstacle: A sudden, sharp gust of wind blows through the space, disrupting the fragile peace.",
+    "subject_rotation": "Viewing the reunion through the lens of bureaucratic approval—the triumph succeeding only because some external rule (spiritual or social) finally allowed it.",
+    "sensory_detail": "Touch: The profound thermal uniformity achieved between them, wiping clean the memory of disparate internal struggles.",
+    "research_question": "Are there classical Indian metaphors for two divergent spiritual paths achieving temporary, perfect orbital resonance?",
+    "structural_variant": "A deliberate inclusion of a meta-commentary segment (Segment 8) structured entirely in question marks, challenging the premise of narrative closure.",
+    "variety_note": "Unlike previous chapters focused on internal battles, this chapter centers exclusively on the *consequence* of endurance: the quiet aftermath and its lingering philosophical weight."
+  }
+}

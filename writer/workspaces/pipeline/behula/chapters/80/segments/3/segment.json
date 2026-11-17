@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 80,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "সাংস্কৃতিক সংঘাতের ঢেউ",
+  "segment_summary": "সাংস্কৃতিক প্রত্যাশা এবং তার নিজস্ব সত্তার মধ্যেকার সংঘাত এক তীব্র অভ্যন্তরীণ অস্থিরতা সৃষ্টি করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the moments *between* societal judgments: the slivers of silence where authentic desire can momentarily bloom before being crushed.",
+    "story_option": "Setting: In a neglected, ancestral chamber filled with relics of societal expectation; Desire: To find one single object that speaks only to primal, uncodified love (Lakhindar's essence); Obstacle: The entire room resonating with the oppressive frequency of historical judgment.",
+    "subject_rotation": "Examining the difference between 'Acceptance' (a passive state) and 'Transcendence' (an active assertion), showing how Behula refuses merely to accept her fate.",
+    "sensory_detail": "The metallic taste of coppery exhaustion when holding a profound internal struggle against external pressures.",
+    "research_question": "What specific lexical items exist in archaic Bengali that signify 'internal sovereignty' without invoking direct theological language?",
+    "structural_variant": "A deliberately non-linear structure, where a segment about societal pressure is followed immediately by a fragmented memory of absolute freedom (a flashforward/flashback juxtaposition).",
+    "variety_note": "This chapter moves away from pure grief or external defiance (as seen previously) to a deep dive into the *structural* battleground—the collision between deeply ingrained societal programming and irreducible spiritual selfhood."
+  }
+}

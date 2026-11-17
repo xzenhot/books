@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ইন্দ্রিয়ের পবিত্রকরণ",
+  "segment_summary": "কামনা এবং ইন্দ্রিয়গত অভিজ্ঞতাগুলি এখানে কেবল জাগতিক তৃপ্তি না হয়ে, এক ধরনের আধ্যাত্মিক উপলব্ধির দিকে পরিচালিত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the body as a sacred vessel that must be *carefully maintained*—a liturgical act rather than merely used for transcendence.",
+    "story_option": "setting: A dark room where only the moonlight spills across her skin, desire: To map the subtle topographical shifts on her own body as if reading sacred scripture., obstacle: The constant internal argument between logic (the cage) and sensation (the key)., turn: She realizes that the texture of her own skin is a language older than any divine treatise.",
+    "subject_rotation": "Shifting focus from 'integration' to 'coexistence': accepting that body and soul might forever exist in tension, not perfect merging.",
+    "sensory_detail": "The faint, slick warmth of sweat gathering beneath fabric during moments of intense internal focus (Tactile).",
+    "research_question": "How can I depict an internal energetic shift—the moment the body accepts a higher vibration—using imagery derived solely from natural physics (e.g., tide, orbital mechanics)?",
+    "structural_variant": "Using extreme juxtaposition: pairing one line of dense spiritual philosophy immediately before a brutally simple, visceral physical observation (e.g., heartbeat count).",
+    "variety_note": "This chapter moves beyond initial conflict (like Chapter 1) and sensory awakening (Chapter 2), deep diving into the alchemical process where sensation is actively repurposed by transcendence."
+  }
+}

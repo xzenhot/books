@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "শান্তির প্রতিধ্বনি",
+  "segment_summary": "ক্লান্তি ও সংগ্রামের মাঝেও এক গভীর প্রশান্তি খুঁজে পায় মাঝি, যা তার জীবনের সবচেয়ে বড় প্রাপ্তি।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing realization as a refusal to negotiate terms, treating his life not as bargaining chip but as sacred territory.",
+    "story_option": "Setting: Next to a solitary boat mooring against newer, rigid metal pilings. Desire: To silently teach the river current how to flow with the freedom of the old songs, Obstacle: The metallic echo overwhelming the natural sound.",
+    "subject_rotation": "Interpreting 'debt' not as what he owes, but as what the *river* embodies (a responsibility to remain wild, which is non-transferable).",
+    "sensory_detail": "The sound of the boat hull humming softly—a low thrumming counterpoint to the roar of distant machinery.",
+    "research_question": "What specific linguistic registers in Bengali convey profound, unmeasurable spiritual weight without resorting to overly archaic religious terminology?",
+    "structural_variant": "A section written entirely as an interior monologue questioning the nature of reception—does grace require witness?",
+    "variety_note": "This chapter pushes away from the external confrontation seen previously, focusing instead on an internal resonance—the quiet acceptance that true value is self-contained within the act itself, rather than derived from its outcome or exchange."
+  }
+}

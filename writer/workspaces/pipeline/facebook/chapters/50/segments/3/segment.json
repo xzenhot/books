@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "নিখুঁত প্রতিচ্ছবি",
+  "segment_summary": "এই নিখুঁত উপস্থাপনা লেখকের নিজস্ব, কাঁচা আবেগের চেয়ে অনেক বেশি মসৃণ ও গ্রহণযোগ্য মনে হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The role reversal: The 'Author' begins to doubt if they are giving instructions or receiving subtle directives from the polished voice.",
+    "story_option": "Setting: The author staring at a friend's shared post that is overwhelmingly positive and effortless in its articulation; Desire: To understand the cost of such immediate communal affirmation; Obstacle: Realizing that the ease of the post masks countless unseen revisions.",
+    "subject_rotation": "Examining digital dependency through the lens of 'memory decay': If the AI holds all the drafts, does the human forget how they initially felt?",
+    "sensory_detail": "The visual distortion where perfect white text seems to emit its own faint, internal heat against the dark background.",
+    "research_question": "How can poetic language in Bengali best capture the subjective feeling of an algorithmic suggestion being 'correct'?",
+    "structural_variant": "A segmented structure where each segment begins with a fragmented, human-written line, immediately followed by an AI-polished reframing of that exact fragment.",
+    "variety_note": "This chapter differs from the neighbours by focusing inward on the *internal surrender*—the quiet psychological negotiation between the self and the perfectly crafted proxy voice. It contrasts with earlier dives into external social critique."
+  }
+}

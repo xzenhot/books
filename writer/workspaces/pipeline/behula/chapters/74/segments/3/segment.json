@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 74,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "সহিষ্ণুতার মহিমা",
+  "segment_summary": "অদম্য ধৈর্য এবং সহিষ্ণুতার মাধ্যমে বেহুলার চরিত্রটি কীভাবে সমস্ত নিপীড়িত আত্মার সম্মিলিত প্রতিচ্ছবি হয়ে ওঠে, তা চিত্রিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from 'pity' to 'reckoning'; presenting her endurance as a direct, unacknowledged audit against societal moral bankruptcy.",
+    "story_option": "Scene Seed: She approaches a reflective surface (a still pond or polished bronze), but instead of seeing herself, she sees not only the external world's judgment reflected back, but also faint outlines of countless other women bearing similar spectral burdens.",
+    "subject_rotation": "Rotating the perspective slightly inward, questioning the authenticity of her own 'strength'—is it genuine fortitude or a necessary psychological armor forged in isolation?",
+    "sensory_detail": "The visual dissonance: A vast, overwhelming blackness interrupted only by the intensely concentrated luminescence of her own sustained internal focus.",
+    "research_question": "What specific archaic Bengali vocabulary can convey 'unyielding ethical scaffolding' without being overly formal or abstract?",
+    "structural_variant": "A circular structure where Segment 8 (the existential question) loops back into the initial emotional state of Segment 1, but with the phrasing inverted—where sorrow now anticipates action.",
+    "variety_note": "This chapter moves beyond the initial shock (Chapter 1) by rigorously examining *how* that shock is processed and transformed, focusing heavily on the societal friction points rather than just the internal resolve."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "গল্পের ভার",
+  "segment_summary": "যাত্রী তার জীবনের এক টুকরো গল্প ভাগ করে নেন, যা নদীর স্রোতের মতোই প্রাচীন ও গভীর।",
+  "name": "3",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The majhi speaking this segment as an elegy to his younger self, whom he wishes could have experienced such pure exchange.",
+    "story_option": "Setting: A low, muddy patch where sediment settles heavily. Desire: To exchange a story for a shared moment of perfect stillness, letting both their anxieties settle like silt.",
+    "subject_rotation": "Exploring the moment of realization through an intense sensory detail associated with water that has absorbed human sorrow (e.g., tea-stained silt).",
+    "sensory_detail": "The feeling of coarse, damp cotton fabric—the passenger's worn garment—against the smooth polish of the boat’s gunwale.",
+    "research_question": "Are there localized Bhatiyali idioms that specifically describe a profound, non-monetary exchange or blessing received from nature/a traveler?",
+    "structural_variant": "Employing an aural structure where the segment opens with the sound of the oars, slows down as the story begins, and then speeds up again upon conclusion.",
+    "variety_note": "This chapter deviates from previous explorations of economic hardship by focusing entirely on an intentional pause—a moment where financial pressure is momentarily superseded by shared human gravity. Unlike Chapter 2’s initial tension, this scene resolves into a profound quietude."
+  }
+}

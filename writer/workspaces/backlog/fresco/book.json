@@ -1,276 +1,2481 @@
 {
   "book_name": "fresco",
-  "book_long_title": "The Fresco of Shadows and Silk",
-  "generic": "philosophical poem sequence",
-  "era": "the twilight of the Marwari merchant class — Shekhawati, Rajasthan",
-  "language": "Bengali",
-  "target_audience": "readers of literary poetry on art, labor, memory, and the senses",
+  "book_long_title": "fresco: এর কবিতা",
+  "generic": "আত্মঅনুসন্ধানী কবিতা",
+  "era": "সমকালীন ও রূপক সময়",
+  "language": "বাংলা",
+  "target_audience": "বাংলা সাহিত্য ও মননশীল পাঠের পাঠক",
   "chapter_count": 32,
-  "factory": "online",
   "form": "poetry",
-  "model": "gemma4:latest",
-  "style": "pijush",
-  "provider": "ollama",
-  "book_summary": "This sequence follows Debolina Rai, a painter and poet who leaves domestic expectation to give herself to the work of creation. Alone on a scaffold in the havelis of Mandawa and Nawalgarh, she reads the night through musk, lime, pigment, and fading walls. The town sees the finished fresco but not the hours, failures, and physical costs beneath it. Each poem moves between the maker's private labor and the public life of the painted surface. The walls become witnesses, though they cannot restore the names of those who made them. Debolina's central choice is whether to keep her struggle hidden or let others see enough to know the work was not effortless. She speaks her name once, accepts the risks of visibility, and returns to the scaffold without mistaking recognition for resolution.",
-  "created_at": "2026-11-06",
+  "book_summary": "Generated via per-chapter layout — update from storyline.md",
+  "created_at": "2026-11-15T20:26:02+00:00",
+  "updated_at": "2026-11-15T20:26:02+00:00",
   "user_name": "pijush",
-  "gist": "The life of an artist is lived in the deep silence of the night while ordinary men sleep — the world sees only the blossom of the final creation, never the invisible struggle and the silent failures beneath it.",
+  "gist": "Generated via per-chapter layout — update from storyline.md",
   "chapters": [
     {
       "chapter_index": 1,
       "name": "1",
       "word_target": 500,
-      "chapter_title": "Before the Blossom",
-      "chapter_summary": "Debolina studies a finished wall while the town admires its color. She asks what the surface conceals and chooses to begin with the unseen work.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "fresco — পর্ব 1 — fresco — পর্ব 1",
+      "chapter_summary": "This chapter charts Debolina Rai's pivotal decision to abandon the quiet expectations of domestic life and venture into the desolate expanse of the desert. She is drawn toward the silent, crumbling havelis of Mandawa and Nawalgarh, where the raw call of creation first confronts her. The central conflict is the tension between societal comfort and the fierce, untamed hunger for artistic existence. The chapter leaves the reader questioning whether this self-determined path is a true liberation or merely a different form of confinement.",
+      "further_references": [
+        "workspaces/backlog/fresco/storyline.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "গৃহস্থালির নীরব আহ্বান",
+          "segment_summary": "Debolina Rai contemplates the gentle, confining expectations of her expected life, contrasting them with the magnetic pull of the unknown artistic frontier.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "মরুভূমির প্রান্তে যাত্রা",
+          "segment_summary": "She makes the decisive journey toward the desolate landscape, trading familiar walls for the vast, echoing silence of the abandoned havelis.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "সৃষ্টির আদিম ডাক",
+          "segment_summary": "The initial encounter with the decaying structures reveals the raw, primal call of the canvas, a hunger that domesticity cannot satisfy.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "অদৃশ্য সংগ্রামের প্রতিচ্ছবি",
+          "segment_summary": "The crumbling frescoes serve as an immediate mirror to her own internal state—a reflection of hidden struggle beneath a veneer of faded beauty.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "আত্ম-নির্ধারণের ঝুঁকি",
+          "segment_summary": "She acknowledges the inherent risk in choosing this path, understanding that visibility demands a profound and costly exposure of her inner self.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "আলো ও অন্ধকারের সন্ধি",
+          "segment_summary": "The initial foray into the twilight hours of the havelis marks the beginning of her immersion into the world of night-bound creation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "আহ্বান ও প্রতিরোধ",
+          "segment_summary": "The internal battle crystallizes: the pull toward artistic truth versus the societal structures she is actively rejecting.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "মুক্তির প্রশ্নচিহ্ন",
+          "segment_summary": "The chapter concludes with the lingering, unresolved query: is this self-imposed exile a genuine emancipation or merely a more elaborate form of imprisonment?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 2,
       "name": "2",
       "word_target": 500,
-      "chapter_title": "The Sleeping Town",
-      "chapter_summary": "She climbs to the scaffold after the lamps go dark and hears the ordinary world withdraw. The silence becomes both shelter and isolation.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "fresco — পর্ব 2",
+      "chapter_summary": "দেবলিনা রাই তার কর্মক্ষেত্র হিসেবে Mandawa-র একটি পরিত্যক্ত হাভেলিকে গ্রহণ করে, যেখানে সে প্রাচীন দেওয়ালের রুক্ষতা এবং চুন মাখার শীতল স্পর্শের সঙ্গে নিজেকে মেলায়। এই পর্বটি স্থান এবং শিল্পের মধ্যেকার প্রথম সংবেদনশীল সংযোগ স্থাপন করে, যেখানে দেবলিনা বাইরের জগতের কোলাহল থেকে বিচ্ছিন্ন হয়ে শিল্পের আদিম প্রক্রিয়ার গভীরে প্রবেশ করে। সে প্রাচীন চিত্রের ম্লান রংগুলোর মধ্যে নিজের অস্তিত্বের প্রতিচ্ছবি খোঁজে, যা তাকে প্রশ্ন করতে বাধ্য করে: এই প্রাচীন দেওয়ালগুলো কি কেবলই কাঠামো, নাকি অতীতের চাপা কণ্ঠস্বর?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "হাভেলির নীরব আলিঙ্গন",
+          "segment_summary": "দেবলিনা পরিত্যক্ত হাভেলিটির অভ্যন্তরে প্রবেশ করে, যেখানে সময়ের ধুলো আর স্থবিরতা এক ভারী আবহ তৈরি করেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "চুন ও স্পর্শের ভাষা",
+          "segment_summary": "সে চুন মাখার শীতল, রাসায়নিক স্পর্শ অনুভব করে, যা তার ত্বকে এক নতুন ধরনের সংবেদনশীলতা জাগায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "প্রাচীন চিত্রের ম্লান প্রতিধ্বনি",
+          "segment_summary": "দেওয়ালের ওপর থাকা বিবর্ণ ফ্রেস্কোগুলো অতীতের গল্প ফিসফিস করে, যা দেবলিনার মনকে স্পর্শ করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "কাঠামোর ভার ও আত্ম-অনুসন্ধান",
+          "segment_summary": "স্ক্যাফোল্ডের কাঠামোর ওপর দাঁড়িয়ে সে নিজের ভঙ্গুরতা এবং শিল্পের বিশালতাকে একইসাথে অনুভব করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "স্থান ও আত্মার মিলন",
+          "segment_summary": "এই ভাঙা স্থাপত্যের মধ্যে দেবলিনা নিজের বিচ্ছিন্নতাকে খুঁজে পায়, যা তাকে সৃষ্টির জন্য প্রস্তুত করে তোলে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "অস্তিত্বের প্রথম সংলাপ",
+          "segment_summary": "দেওয়ালগুলো যেন তাকে প্রশ্ন করে—এই নীরবতা কি কেবলই শূন্যতা, নাকি এক গভীর কথোপকথনের সূচনা?",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "ক্ষয় ও স্থিতিস্থাপকতা",
+          "segment_summary": "ফ্রেস্কোর ক্ষয়িষ্ণুতা দেবলিনার ভেতরের ভাঙন ও তার প্রতি তা সত্ত্বেও টিকে থাকার ইচ্ছার প্রতীক হয়ে ওঠে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "অতীতের কণ্ঠস্বর",
+          "segment_summary": "দেবলিনা নিজেকে প্রশ্ন করে—এই প্রাচীন দেওয়ালগুলো কি কেবলই কাঠামো, নাকি অতীতের চাপা কণ্ঠস্বর যা তাকে পথ দেখাচ্ছে?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 3,
       "name": "3",
       "word_target": 500,
-      "chapter_title": "Musk in the Desert Air",
-      "chapter_summary": "A passing scent turns a brief encounter into a meditation on how the senses keep what the eye loses. Debolina recognizes that observation must not become possession.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "রাতের আলো ও ল্যাপিস-এর গুঁড়ো",
+      "chapter_summary": "এই অধ্যায়টি সৃষ্টির প্রক্রিয়ার গভীরতম মুহূর্তে প্রবেশ করে, যেখানে দেবলিনা তার তুলি হাতে নেয় এবং প্রদীপের ক্ষীণ আলোয় ল্যাপিস-এর গুঁড়োকে আলোকিত করে। এটি কেবল একটি যান্ত্রিক কাজ নয়, বরং শিল্পীর মধ্যে লুকিয়ে থাকা এক আধ্যাত্মিক উন্মাদনার চিত্রায়ণ। দেবলিনা যখন এই রাসায়নিক মিশ্রণ নিয়ে কাজ করে, তখন সে নিজেকে সৃষ্টির আদিম, প্রায় ধর্মচর্চার মতো এক স্তরে আবিষ্কার করে। এই নিবিড় রাত জাগা কি কেবলই পেশাগত দায়িত্ব, নাকি এটি তার অস্তিত্বের প্রতি এক গভীর, প্রায় ধর্মীয় অঙ্গীকার?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "প্রদীপের শিখা ও রাসায়নিক গন্ধ",
+          "segment_summary": "প্রদীপের ম্লান শিখা কীভাবে ল্যাপিস-এর গুঁড়োর গভীর নীলকে জাগিয়ে তোলে, সেই সংবেদনশীল মুহূর্তটি এখানে চিত্রিত হয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "সৃষ্টির যান্ত্রিকতা",
+          "segment_summary": "তুলি ও গুঁড়োর মাধ্যমে দেওয়ালের ওপর রঙের স্তর বসানোর শারীরিক প্রক্রিয়াটি এখানে বিশদভাবে বর্ণনা করা হয়েছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "অন্ধকার ও রঙের সংলাপ",
+          "segment_summary": "গভীর রাতের নিস্তব্ধতার পটভূমিতে, রং এবং আলোর মধ্যে যে নীরব কথোপকথন ঘটে, তা এখানে তুলে ধরা হয়েছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "আধ্যাত্মিক উন্মাদনার জন্ম",
+          "segment_summary": "এই নিবিড় কাজ করার প্রক্রিয়ায় দেবলিনার মধ্যে যে এক ধরনের আত্ম-নিমগ্নতা বা উন্মাদনা জন্ম নেয়, তা এখানে প্রকাশ পায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "অদৃশ্য শ্রমের প্রতিচ্ছবি",
+          "segment_summary": "দেওয়ালের ওপর রং করার এই শ্রম, যা দিনের আলো থেকে দূরে, তা তার অদৃশ্য আত্মত্যাগের প্রতীক হয়ে ওঠে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "নিস্তব্ধতার ধর্মচর্চা",
+          "segment_summary": "এই রাত জাগা কাজটিকে একটি ধর্মীয় আচারের মতো করে তোলা হয়েছে, যেখানে সৃষ্টিই হলো উপাসনা।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "ল্যাপিস-এর গভীরতা",
+          "segment_summary": "ল্যাপিস-এর গুঁড়োর রাসায়নিক গভীরতা এবং তার রঙের প্রতীকী তাৎপর্য এই অংশে আলোচিত হয়েছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "সৃষ্টির আদিম আহ্বান",
+          "segment_summary": "এই নিস্তব্ধতা এবং রঙের মিশ্রণই তার ভেতরের অপ্রকাশিত সত্যকে দৃশ্যমান করার আদিম আহ্বান বহন করে।",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 4,
       "name": "4",
       "word_target": 500,
-      "chapter_title": "Wet Lime",
-      "chapter_summary": "She works against the short life of fresh plaster, watching each gesture become irreversible. A small mistake forces her to begin again.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "নওয়ালগড়ের পথে অচেনা সুবাস",
+      "chapter_summary": "এই অধ্যায়টি দেবলিনার বদ্ধ, অভ্যন্তরীণ জগৎকে বাইরের জগতের আকস্মিক অনুপ্রবেশের মুখোমুখি দাঁড় করায়। নওয়ালগড়ের পথে এক অচেনা পথিকের সুবাস তার ইন্দ্রিয়কে আচ্ছন্ন করে, যা তার নিবিড় সৃষ্টিশীলতার মাঝে এক তীব্র সংবেদনশীল আঘাত হানে। এই সুবাসটি কেবল একটি গন্ধ নয়, বরং এটি মানবীয় আকাঙ্ক্ষা এবং মরুভূমির নির্লিপ্ততার মধ্যেকার একটি সংঘর্ষের প্রতীক। প্রশ্নটি হলো: এই বহিরাগত সুবাস কি কেবলই ক্ষণস্থায়ী স্মৃতি, নাকি এটি তার জীবনের কোনো হারানো সংযোগের ইঙ্গিত বহন করছে?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "মরুভূমির বাতাস ও আগমন",
+          "segment_summary": "দেবলিনা যখন কাজের মাঝে নিমগ্ন, তখন মরুভূমির বাতাস হঠাৎ করে এক অচেনা, তীব্র সুবাস নিয়ে আসে যা তার মনোযোগ কেড়ে নেয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "ইন্দ্রিয়ের উপর আঘাত",
+          "segment_summary": "এই সুবাসটি তার সংবেদনশীলতাকে এমনভাবে আচ্ছন্ন করে যে, তার তুলি ও চুন মাখার কাজ মুহূর্তের জন্য থমকে যায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "অভ্যন্তরীণ জগতের ভাঙন",
+          "segment_summary": "বাইরের এই আকস্মিক উপস্থিতি তার কঠোরভাবে নিয়ন্ত্রিত, অভ্যন্তরীণ সৃজনশীলতার কাঠামোতে একটি ফাটল সৃষ্টি করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "আকাঙ্ক্ষা ও নির্লিপ্ততার সংঘাত",
+          "segment_summary": "সুগন্ধটি তার চাপা আকাঙ্ক্ষাগুলোকে জাগিয়ে তোলে, যা মরুভূমির শীতল, উদাসীন বাস্তবতার সঙ্গে সংঘর্ষে লিপ্ত হয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "অচেনা পথিকের প্রতীকবাদ",
+          "segment_summary": "এই পথিকের উপস্থিতি সমাজের অস্থিরতা এবং দেবলিনার জীবনে অপ্রত্যাশিত পরিবর্তনের ইঙ্গিত বহন করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "স্মৃতি নাকি সংযোগ",
+          "segment_summary": "দেবলিনা দ্বিধায় ভোগে—এই গন্ধ কি কেবলই ক্ষণিকের স্মৃতি, নাকি এটি কোনো গভীর, হারানো সংযোগের প্রতিধ্বনি?",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "শিল্প ও জগতের সংযোগস্থল",
+          "segment_summary": "এই সংবেদনশীল মুহূর্তটি তার শিল্পকে কেবল দেওয়ালের মধ্যে সীমাবদ্ধ না রেখে, বৃহত্তর মানব অভিজ্ঞতার সঙ্গে যুক্ত করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "অন্ধকারে জাগা প্রশ্ন",
+          "segment_summary": "এই আকস্মিক অনুপ্রবেশের পর, সে প্রশ্ন করে—এই সুবাস কি তার শিল্পকে আরও গভীর করবে, নাকি কেবল বিভ্রান্ত করবে?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 5,
       "name": "5",
       "word_target": 500,
-      "chapter_title": "Lapis Under Lamplight",
-      "chapter_summary": "Blue pigment gathers in the lamp's narrow circle, making the night seem briefly immense. Debolina sees how limited means can sharpen attention.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "দেওয়ালের নীরবতা ও ফ্রেস্কোর ক্ষয়",
+      "chapter_summary": "এই অধ্যায়টি দেবলিনার ভেতরের অব্যক্ত যন্ত্রণা ও অপূর্ণতার আয়না হয়ে ওঠা ফ্রেস্কোগুলোর সঙ্গে তার গভীর সংযোগকে চিত্রিত করে। সে দেখে সেই চিত্রগুলো—যেখানে দেবীরা হয়তো হাসছেন, কিন্তু সেই হাসিগুলোর পেছনে লুকিয়ে থাকা নীরবতা তার নিজের জীবনের প্রতিচ্ছবি। এই ভাঙা চিত্রগুলো কি কেবলই ক্ষয়, নাকি সময়ের দ্বারা পরিমার্জিত সত্য? এই অনুসন্ধান শিল্প এবং আত্ম-অনুসন্ধানের এক তীব্র সংঘাত তৈরি করে, যেখানে দেবলিনা তার নিজস্ব ভঙ্গুরতাকে প্রাচীন দেওয়ালের বিবর্ণতার মধ্যে খুঁজে পায়।",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "দেবীর হাসির আড়ালে",
+          "segment_summary": "দেবলিনা ফ্রেস্কোর সেই দেবীর প্রতিকৃতিগুলোর দিকে তাকায়, যাদের হাসি আপাতদৃষ্টিতে আনন্দময় হলেও তার গভীরে এক গভীর, অব্যক্ত শূন্যতা লুকিয়ে আছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "অপূর্ণতার প্রতিচ্ছবি",
+          "segment_summary": "প্রাচীন চিত্রগুলোর ফাটল ও ক্ষয়ে যাওয়া অংশগুলো যেন দেবলিনার নিজের জীবনের অপূর্ণ আকাঙ্ক্ষা ও চাপা যন্ত্রণাগুলোকে প্রতিবিম্বিত করে তোলে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "ক্ষয়ের ভাষা",
+          "segment_summary": "দেওয়ালের উপর সময়ের হাতে আসা ক্ষয়কে দেবলিনা কেবল ধ্বংস হিসেবে দেখে না, বরং তাকে এক ধরনের অনিবার্য সত্যের প্রকাশ হিসেবে গ্রহণ করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "আত্ম-অনুসন্ধানের আয়না",
+          "segment_summary": "এই ভাঙা চিত্রগুলো দেবলিনার আত্ম-অনুসন্ধানের কেন্দ্রবিন্দু হয়ে ওঠে, যেখানে সে তার নিজস্ব অস্তিত্বের দুর্বলতাগুলো খুঁজে পায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "সত্যের পরিমার্জন",
+          "segment_summary": "দেবলিনা উপলব্ধি করে যে, সময়ের দ্বারা পরিমার্জিত এই চিত্রগুলোই তার শিল্পের জন্য সবচেয়ে খাঁটি সত্য বহন করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "অদৃশ্য যন্ত্রণার দৃশ্যমানতা",
+          "segment_summary": "ফ্রেস্কোর প্রতিটি বিবর্ণ রেখা যেন দেবলিনার সেই অদৃশ্য সংগ্রামকে দৃশ্যমান করার এক নীরব প্রচেষ্টা।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "ভঙ্গুরতার মহিমা",
+          "segment_summary": "এই ভঙ্গুরতা এবং ক্ষয়ই দেবলিনার কাছে শিল্পের সর্বোচ্চ রূপের ইঙ্গিত দেয়, যা নিখুঁত হওয়ার চাপকে অস্বীকার করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "প্রশ্ন: ক্ষয় নাকি সত্য?",
+          "segment_summary": "এই গভীর সংযোগের শেষে প্রশ্নটি উঁকি দেয়: এই ভাঙা চিত্রগুলো কি কেবলই সময়ের ক্ষয়, নাকি তা সময়ের দ্বারা পরিমার্জিত এক চিরন্তন সত্য?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 6,
       "name": "6",
       "word_target": 500,
-      "chapter_title": "The House That Waits",
-      "chapter_summary": "In a half-empty haveli, she reads absence in rooms and fading paint. The house reminds her that a wall preserves traces but cannot restore its people.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "অদৃশ্য সংগ্রামকে দৃশ্যমান করা",
+      "chapter_summary": "এই অধ্যায়টি দেবলিনার শিল্পচর্চার একটি গভীর মোড়কে প্রবেশ করে, যেখানে সে উপলব্ধি করে যে কেবল দেওয়ালের ওপর রং ছড়ানো যথেষ্ট নয়; তাকে তার নিজস্ব দুর্বলতা ও ভয়গুলোকেও তুলির আঁচড়ে আবৃত করতে হবে। এই 'অদৃশ্য সংগ্রাম'কে দৃশ্যমান করার প্রথম প্রচেষ্টাটিই তার শিল্পের মূল চালিকাশক্তি হয়ে ওঠে। চিত্রকল্পে, ল্যাপিস-এর গভীর নীল এবং চুন-এর রুক্ষ সাদা এই আত্ম-উন্মোচনের দ্বন্দকে ফুটিয়ে তোলে। এই উন্মোচন কি শিল্পের জন্ম দেয়, নাকি এটি আত্ম-ধ্বংসের এক অনিবার্য পথ প্রশস্ত করে?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "6.1",
+          "word_target": 60,
+          "segment_title": "আত্মার স্তরীকরণ",
+          "segment_summary": "দেবলিনা বুঝতে পারে যে তার শিল্পকে সত্য করতে হলে তাকে কেবল বাহ্যিক দেওয়ালের ওপর রং নয়, বরং নিজের ভেতরের স্তরগুলোকেও উন্মোচিত করতে হবে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "6.2",
+          "word_target": 60,
+          "segment_title": "ভয়ের তুলি",
+          "segment_summary": "সে তার সবচেয়ে গভীর ভয় এবং দ্বিধাগুলোকে তুলির আঁচড়ের মাধ্যমে कैनवासের (বা দেওয়ালের) ওপর নামাতে শুরু করে, যা এক নতুন ধরনের ঝুঁকি।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "6.3",
+          "word_target": 60,
+          "segment_title": "অদৃশ্য ভারের প্রকাশ",
+          "segment_summary": "এই প্রক্রিয়ায়, সামাজিক প্রত্যাশার অদৃশ্য চাপগুলোও যেন রঙের মাধ্যমে দৃশ্যমান হতে শুরু করে, যা তার সৃজনশীলতাকে আরও ভারাক্রান্ত করে তোলে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "6.4",
+          "word_target": 60,
+          "segment_title": "রঙের স্বীকারোক্তি",
+          "segment_summary": "প্রতিটি রঙের মিশ্রণ যেন এক প্রকার ব্যক্তিগত স্বীকারোক্তি, যেখানে সে তার দুর্বলতাকে সৌন্দর্যের আবরণে মুড়ে দিতে চায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "6.5",
+          "word_target": 60,
+          "segment_title": "সংগ্রামের দৃশ্যমানতা",
+          "segment_summary": "দেওয়ালের ফাটলগুলো যেন তার ভেতরের ভাঙনকেই প্রতিফলিত করে, যা এখন ইচ্ছাকৃতভাবে শিল্পের অংশ হয়ে উঠছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6.6",
+          "word_target": 60,
+          "segment_title": "সৃষ্টির দ্বিমুখীতা",
+          "segment_summary": "এই উন্মোচন একদিকে যেমন শিল্পের জন্ম দেয়, তেমনি অন্যদিকে এটি আত্ম-ধ্বংসের এক সূক্ষ্ম এবং অনিবার্য পথও প্রশস্ত করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "6.7",
+          "word_target": 60,
+          "segment_title": "আলো ও ছায়ার সংঘাত",
+          "segment_summary": "প্রদীপের ক্ষীণ আলোয় এই ব্যক্তিগত সংগ্রামগুলো যখন ধরা পড়ে, তখন তা এক তীব্র, ঝুঁকিপূর্ণ সৌন্দর্যের জন্ম দেয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "6.8",
+          "word_target": 60,
+          "segment_title": "প্রশ্নবোধক আঁচড়",
+          "segment_summary": "এই প্রশ্নটি স্থির হয়ে থাকে: এই চরম সততার মাধ্যমে সৃষ্ট শিল্প কি অমরত্ব লাভ করবে, নাকি কেবলই ক্ষণস্থায়ী আত্ম-বিবরণী হয়ে থাকবে?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 7,
       "name": "7",
       "word_target": 500,
-      "chapter_title": "A Line Refused",
-      "chapter_summary": "Debolina rejects a pleasing line that says nothing she believes. The discarded mark leaves a blank that becomes an honest choice.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "সামাজিক প্রত্যাশার কণ্ঠস্বর",
+      "chapter_summary": "এই অধ্যায়টি দেবলিনার অভ্যন্তরীণ সংকল্প এবং সমাজের বাহ্যিক চাপগুলির মধ্যেকার তীব্র টানাপোড়েনকে কেন্দ্র করে আবর্তিত। দূর থেকে ভেসে আসা সামাজিক প্রত্যাশার কণ্ঠস্বরগুলো তাকে 'সুসজ্জিত' হওয়ার জন্য চাপ দেয়, যা তার শিল্পচর্চার আদিম আহ্বানের বিপরীত। দেবলিনা এই কণ্ঠস্বরগুলোকে উপেক্ষা করে, নিজেকে তুলি ও চুন মাখার কাজে আচ্ছন্ন করে ফেলে, যা তার নীরব প্রতিরোধকে শক্তিশালী করে। এই তীব্র সংঘাতের মাধ্যমে প্রশ্নটি সামনে আসে: এই নীরব প্রতিরোধ কি যথেষ্ট, নাকি এর জন্য বৃহত্তর কোনো বলিদান প্রয়োজন?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "7.1",
+          "word_target": 60,
+          "segment_title": "দূর থেকে আসা ফিসফিসানি",
+          "segment_summary": "সমাজের প্রত্যাশার কণ্ঠস্বরগুলো দূর থেকে ভেসে আসে, যা তাকে একটি নির্দিষ্ট সামাজিক কাঠামোতে নিজেকে আবদ্ধ করতে শেখায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "7.2",
+          "word_target": 60,
+          "segment_title": "চুন ও তুলির আবেশ",
+          "segment_summary": "দেবলিনা সেই কণ্ঠস্বরগুলোকে উপেক্ষা করে, নিজেকে সম্পূর্ণভাবে তুলি এবং চুন মাখার যান্ত্রিক কাজে নিমগ্ন করে ফেলে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "7.3",
+          "word_target": 60,
+          "segment_title": "অভ্যন্তরীণ সংকল্পের প্রাচীর",
+          "segment_summary": "এই কাজের মধ্যে সে এক ধরনের মানসিক প্রাচীর নির্মাণ করে, যা বাইরের জগতের বিচারকে প্রতিহত করার প্রথম প্রচেষ্টা।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "7.4",
+          "word_target": 60,
+          "segment_title": "আদিম আহ্বানের প্রতিধ্বনি",
+          "segment_summary": "শিল্পের ভেতরের আদিম আহ্বান, যা তাকে মুক্তি দিতে চায়, তা এই বাহ্যিক চাপের বিরুদ্ধে দৃঢ়ভাবে প্রতিধ্বনিত হয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "7.5",
+          "word_target": 60,
+          "segment_title": "অদৃশ্য সংগ্রামের দৃশ্যমানতা",
+          "segment_summary": "এই নীরব প্রতিরোধটিই তার অদৃশ্য সংগ্রামের প্রথম দৃশ্যমান রূপ, যা সমাজের চোখে সহজে ধরা পড়ে না।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "7.6",
+          "word_target": 60,
+          "segment_title": "বলিদান এবং স্বাধীনতা",
+          "segment_summary": "সে বুঝতে পারে যে এই সৃজনশীল স্বাধীনতা অর্জনের জন্য হয়তো আরও গভীর এবং বৃহত্তর কোনো ব্যক্তিগত বলিদান প্রয়োজন।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7.7",
+          "word_target": 60,
+          "segment_title": "সংঘাতের কেন্দ্রবিন্দু",
+          "segment_summary": "এই অধ্যায়টি মূলত দুটি বিপরীত শক্তির—সামাজিক বাধ্যবাধকতা এবং আত্ম-প্রকাশের তীব্র আকাঙ্ক্ষা—মধ্যেকার কেন্দ্রবিন্দুকে তুলে ধরে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "7.8",
+          "word_target": 60,
+          "segment_title": "অমীমাংসিত প্রশ্ন",
+          "segment_summary": "পাঠককে এই প্রশ্নটি নিয়ে ভাবতে থাকতে হয়: এই নীরব বিদ্রোহ কি যথেষ্ট, নাকি এর পরিণতি আরও কঠিন হবে?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 8,
       "name": "8",
       "word_target": 500,
-      "chapter_title": "The First Failure",
-      "chapter_summary": "A failed sketch stays visible beside the finished passage. She keeps it as evidence that the work has a history.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "সেখাওয়তী স্থাপত্যের ক্ষয়িষ্ণু মহিমা",
+      "chapter_summary": "এই অধ্যায়টি সেখাওয়তী স্থাপত্যের ঐতিহাসিক প্রেক্ষাপটকে গভীরতা দেয়, যেখানে ধনী বণিকদের পৃষ্ঠপোষকতায় নির্মিত দেওয়ালগুলো সময়ের সঙ্গে সঙ্গে তাদের আভিজাত্য হারাচ্ছে। দেবলিনা সেই ক্ষয়িষ্ণু ঐশ্বর্যের পটভূমিতে নিজের শিল্পকে প্রতিষ্ঠা করার চেষ্টা করে, যা শিল্প ও ইতিহাসের পারস্পরিক নির্ভরতা নিয়ে প্রশ্ন তোলে। এই প্রাচীন মহিমা কি কেবলই অতীত হয়ে থাকবে, নাকি এর মধ্যে বর্তমানের কোনো প্রতিধ্বনি লুকিয়ে আছে?",
+      "further_references": [
+        "1"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 60,
+          "segment_title": "ঐশ্বর্যের আবছা প্রতিচ্ছবি",
+          "segment_summary": "দেবলিনা প্রাচীন হাভেলিগুলোর কাঠামোতে দাঁড়িয়ে, যেখানে একসময় বণিকদের প্রাচুর্য ঝলসে উঠেছিল, এখন কেবলই ক্ষয়িষ্ণুতার ছায়া বিদ্যমান।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 60,
+          "segment_title": "কালের হাতে ম্লান হওয়া রং",
+          "segment_summary": "ফ্রেস্কোর উজ্জ্বলতা সময়ের ধুলোয় ঢাকা পড়েছে, আর দেবলিনার তুলি সেই বিবর্ণতাকে নতুন করে জাগিয়ে তোলার চেষ্টা করছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 60,
+          "segment_title": "প্রতীকী আভিজাত্যের ভার",
+          "segment_summary": "দেওয়ালগুলোর ওপর আঁকা বণিক প্রতীকগুলো এখন কেবলই ইতিহাসের নীরব সাক্ষী, যা দেবলিনার সৃজনশীল যাত্রাকে ঘিরে রেখেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 60,
+          "segment_title": "শিল্পের নতুন পৃষ্ঠপোষকতা",
+          "segment_summary": "সামাজিক পৃষ্ঠপোষকতার বদলে দেবলিনা নিজের ভেতরের আকাঙ্ক্ষাকেই তার শিল্পের প্রধান চালিকাশক্তি হিসেবে গ্রহণ করছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 60,
+          "segment_title": "ঐতিহ্যের সঙ্গে সংঘাত",
+          "segment_summary": "প্রাচীন স্থাপত্যের কাঠামো এবং দেবলিনার আধুনিক, বিদ্রোহী শিল্পবোধের মধ্যে এক নীরব কিন্তু তীব্র সংঘাত বিদ্যমান।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 60,
+          "segment_title": "অতীতের প্রতিধ্বনি",
+          "segment_summary": "দেবলিনা অনুভব করে যে এই দেওয়ালগুলো কেবল অতীতের স্মৃতি নয়, বরং বর্তমানের চাপা আকাঙ্ক্ষাগুলোর প্রতিধ্বনি বহন করছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 60,
+          "segment_title": "ক্ষয় ও সৃষ্টির সহাবস্থান",
+          "segment_summary": "ক্ষয় হওয়া দেওয়াল এবং নতুন করে আঁকা রঙের মধ্যে এক অদ্ভুত সহাবস্থান তৈরি হচ্ছে, যা শিল্পের টিকে থাকার দর্শনকে তুলে ধরে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 60,
+          "segment_title": "অতীতের প্রশ্ন",
+          "segment_summary": "এই প্রাচীন মহিমা কি কেবলই একটি সমাপ্ত গল্প, নাকি এর ফাটলগুলোর মধ্য দিয়ে নতুন কোনো জীবন অঙ্কুরিত হচ্ছে?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 9,
       "name": "9",
       "word_target": 500,
-      "chapter_title": "Rung by Rung",
-      "chapter_summary": "The scaffold turns each ascent into a measure of fatigue and resolve. At its highest rung, Debolina realizes solitude is not the same as freedom.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "ক্ষুদ্র রেখা ও মহাজাগতিক অর্থ",
+      "chapter_summary": "এই অধ্যায়টি দেবলিনার মনোযোগকে একটি নির্দিষ্ট ফ্রেস্কোর ক্ষুদ্রতম উপাদান—হয়তো কোনো দেবীর হাত বা বণিক পরিবারের প্রতীক—এর ওপর কেন্দ্রীভূত করে। সে সেই রেখাটির মধ্যে নিজের জীবনের অপরিহার্য সত্য খুঁজে বের করার চেষ্টা করে, যা শিল্পীর গভীরতম আত্ম-অনুসন্ধানের প্রতীক। এই ক্ষুদ্রতম উপাদানটির মধ্যে মহাজাগতিক নকশা খোঁজার এই প্রক্রিয়াটি, শিল্প এবং অস্তিত্বের মধ্যেকার সংযোগকে প্রশ্ন করে। প্রশ্নটি হলো: এই অতি ক্ষুদ্র রেখাটি কি সমগ্র মহাবিশ্বের নকশা বহন করে?",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "দৃষ্টির সূক্ষ্মতা",
+          "segment_summary": "দেবলিনা তার তুলির গতি থামিয়ে দেয়, তার দৃষ্টি স্থির হয় এক বিবর্ণ রেখার ওপর যা প্রাচীন দেওয়ালের ফাটলের মাঝে আবছা হয়ে আছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "প্রতীকের নীরব ভাষা",
+          "segment_summary": "সে সেই রেখাটিকে কেবল একটি চিত্র উপাদান হিসেবে না দেখে, বরং একটি চাপা আকাঙ্ক্ষা বা একটি ঐতিহাসিক স্মারক হিসেবে অনুভব করতে শুরু করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "অদৃশ্য সংযোগের সন্ধান",
+          "segment_summary": "এই রেখাটি যেন বহিরাগত জগতের সুবাস এবং তার নিজস্ব অভ্যন্তরীণ যন্ত্রণা—এই দুইয়ের মধ্যে একটি অদৃশ্য সেতু তৈরি করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "ল্যাপিস-এর গভীরতা",
+          "segment_summary": "প্রদীপের ক্ষীণ আলোয় ল্যাপিস-এর গুঁড়ো সেই রেখার ওপর কেমনভাবে প্রতিফলিত হচ্ছে, তা যেন একটি গভীর দার্শনিক মুহূর্ত সৃষ্টি করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "অস্তিত্বের ক্ষুদ্রতম একক",
+          "segment_summary": "দেবলিনা উপলব্ধি করে যে, জীবনের সবচেয়ে বড় সত্যগুলো প্রায়শই সবচেয়ে ছোট, উপেক্ষিত অংশে লুকিয়ে থাকে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "মহাজাগতিক নকশার প্রতিধ্বনি",
+          "segment_summary": "এই একক রেখাটি যেন সমগ্র সৃষ্টির জটিল বিন্যাসের একটি ক্ষুদ্র প্রতিচ্ছবি, যা তাকে বিস্মিত করে তোলে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "সংগ্রামের নতুন মাত্রা",
+          "segment_summary": "এই মনোযোগের মাধ্যমে তার সংগ্রাম কেবল আত্ম-প্রকাশ নয়, বরং মহাজাগতিক সত্যের সঙ্গে এক নীরব সংলাপ হয়ে ওঠে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "প্রশ্নবোধক সমাপ্তি",
+          "segment_summary": "এই ক্ষুদ্র রেখাটি কি কেবলই একটি চিত্রগত চিহ্ন, নাকি এটি সমগ্র অস্তিত্বের একটি গভীর, অব্যক্ত নকশার সূচনা?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 10,
       "name": "10",
       "word_target": 500,
-      "chapter_title": "The Brush's Small Weather",
-      "chapter_summary": "A brush, a wrist, and a shifting lamp make a private weather over the wall. One tremor changes the mark, and she treats uncertainty as part of the hand.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "অপূর্ণতার দর্শন",
+      "chapter_summary": "এই অধ্যায়টি দেবলিনার শিল্পদর্শনকে এক গভীর দার্শনিক মোড় দেয়, যেখানে সে উপলব্ধি করে যে শিল্পের 'সত্যতা' কেবল নিখুঁত হওয়ার মধ্যে নিহিত নয়, বরং তার অসম্পূর্ণতার মধ্যেই লুকিয়ে আছে। ফ্রেস্কোর প্রতিটি স্তর যেমন সময়ের সাথে সাথে ত্রুটি ধারণ করে, তেমনি দেবলিনার শিল্পও তার দুর্বলতা ও দ্বিধাগুলোকে গ্রহণ করে। এই অনুসন্ধানটি শিল্পকে একটি চূড়ান্ত, স্থির রূপ না দিয়ে, একটি চলমান, ভঙ্গুর প্রক্রিয়ার স্বীকৃতি দেয়। প্রশ্নটি হলো: এই ইচ্ছাকৃত অসম্পূর্ণতা কি শিল্পের সর্বোচ্চ রূপ, নাকি এটি কেবলই ব্যর্থতার এক কাব্যিক স্বীকারোক্তি?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 60,
+          "segment_title": "ফ্রেস্কোর স্তর",
+          "segment_summary": "দেবলিনা ফ্রেস্কোর রাসায়নিক স্তরগুলোর দিকে তাকায়, যেখানে প্রতিটি স্তরই পূর্ববর্তীটির উপর একটি দুর্বল ছাপ ফেলে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 60,
+          "segment_title": "ত্রুটির সৌন্দর্য",
+          "segment_summary": "সে আবিষ্কার করে যে ফাটল বা রঙের সামান্য বিচ্যুতিই চিত্রটিকে জীবন্ত করে তোলে, তাকে নিখুঁত করে না।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 60,
+          "segment_title": "আত্মার ছিদ্র",
+          "segment_summary": "এই ত্রুটিগুলো তার নিজের ভেতরের চাপা ভয় ও আকাঙ্ক্ষার প্রতিচ্ছবি হয়ে ওঠে, যা সে এতদিন লুকিয়ে রেখেছিল।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 60,
+          "segment_title": "অপূর্ণতার আহ্বান",
+          "segment_summary": "শিল্পের এই অসম্পূর্ণতা তাকে সমাজের আরোপিত 'সম্পূর্ণতা'র ধারণা থেকে মুক্তি দেয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 60,
+          "segment_title": "প্রক্রিয়া বনাম ফল",
+          "segment_summary": "দেবলিনা বুঝতে পারে যে শিল্পকর্মের মূল্য তার চূড়ান্ত রূপে নয়, বরং সৃষ্টির নিরন্তর প্রক্রিয়ায় নিহিত।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 60,
+          "segment_title": "দুর্বলতার শক্তি",
+          "segment_summary": "সে তার দুর্বলতাগুলোকে লুকানোর পরিবর্তে, সেগুলোকে তুলির আঁচড়ে সচেতনভাবে অন্তর্ভুক্ত করার সিদ্ধান্ত নেয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 60,
+          "segment_title": "সত্যের ভার",
+          "segment_summary": "এই স্বীকারোক্তিটি একদিকে যেমন মুক্তি দেয়, তেমনি অন্যদিকে এক গভীর দার্শনিক ভার বহন করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 60,
+          "segment_title": "অবিরাম রেখা",
+          "segment_summary": "ফ্রেস্কোটি একটি স্থির চিত্র নয়, বরং বাতাসের মতো চলমান, যা সর্বদা নিজেকে নতুন করে নির্মাণ করছে।",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 11,
       "name": "11",
       "word_target": 500,
-      "chapter_title": "What the Plaster Keeps",
-      "chapter_summary": "The wall accepts some colors and refuses others. Debolina learns that not every intention survives contact with its material.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "প্রাকৃতিক বিপর্যয় ও সৃষ্টির ভঙ্গুরতা",
+      "chapter_summary": "এই অধ্যায়টি প্রকৃতির সঙ্গে শিল্পের চরম সংঘাতকে চিত্রিত করে, যখন প্রবল ঝড় এবং বৃষ্টির জল দেবলিনার সদ্য নির্মিত ফ্রেস্কোর ওপর আঘাত হানে। এই প্রাকৃতিক বিপর্যয় শিল্পীর কঠোর শ্রম এবং তার সৃষ্টির সহজাত ভঙ্গুরতাকে এক কঠিন পরীক্ষার মুখে ফেলে দেয়। চিত্রকল্পে, ল্যাপিস-এর রঙ এবং চুন-এর স্তর বৃষ্টির জলের স্রোতে ধুয়ে যাওয়ার ভয় নিয়ে সংগ্রাম করে। এই ক্ষণস্থায়ী সৌন্দর্যের মুখোমুখি হয়ে, দেবলিনা নিজেকে প্রশ্ন করে: এই ক্ষণস্থায়ী সৌন্দর্য কি প্রকৃতির কাছে চিরতরে বিলীন হয়ে যাবে, নাকি এর মধ্যে নতুন কোনো স্থিতিস্থাপকতা জন্ম নেবে?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 60,
+          "segment_title": "ঝড়ের আগমন",
+          "segment_summary": "আকাশে হঠাৎ কালো মেঘ জমল, এবং মরুভূমির নিস্তব্ধতা ভেঙে এল বাতাসের তীব্র গর্জন।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 60,
+          "segment_title": "বৃষ্টির প্রথম স্পর্শ",
+          "segment_summary": "প্রথম বৃষ্টির ফোঁটাগুলো দেওয়ালের ওপর পড়ল, যেন সময়ের নীরবতা ভেঙে আসা এক শীতল স্পর্শ।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 60,
+          "segment_title": "রঙের প্রতিরোধ",
+          "segment_summary": "দেবলিনার সদ্য লাগানো চুন ও রঙের স্তরগুলো বৃষ্টির জলের স্রোতের বিরুদ্ধে ক্ষীণভাবে প্রতিরোধ গড়ে তুলল।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 60,
+          "segment_title": "ক্ষয় ও সৌন্দর্য",
+          "segment_summary": "এই প্রাকৃতিক আক্রমণ একদিকে যেমন ধ্বংসের ইঙ্গিত দেয়, তেমনই অন্যদিকে ফ্রেস্কোর রঙের গভীরতাকে আরও তীব্র করে তোলে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 60,
+          "segment_title": "শ্রমের পরীক্ষা",
+          "segment_summary": "প্রতিটি আঁচড়, প্রতিটি মিশ্রণ—সবই এখন প্রকৃতির বিশাল শক্তির সামনে নগ্ন ও অরক্ষিত।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 60,
+          "segment_title": "অস্থিরতার প্রতিচ্ছবি",
+          "segment_summary": "দেবলিনার ভেতরের অস্থিরতা যেন এই বাইরের ঝড়ের সঙ্গে একাকার হয়ে মিশে যাচ্ছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 60,
+          "segment_title": "বিলীন হওয়ার ভয়",
+          "segment_summary": "সে ভয় পায়, এই রাত জাগা সংগ্রাম, এই আত্মপ্রকাশ, এক মুহূর্তেই ধুয়ে মুছে যাবে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 60,
+          "segment_title": "অপেক্ষা ও সহনশীলতা",
+          "segment_summary": "তবুও সে দাঁড়িয়ে থাকে, এই ক্ষণস্থায়ী সৌন্দর্যের পরিণতি দেখার জন্য, প্রকৃতির সিদ্ধান্তের অপেক্ষায়।",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 12,
       "name": "12",
       "word_target": 500,
-      "chapter_title": "Inventory of Errors",
-      "chapter_summary": "She counts abandoned strokes and unfinished studies rather than hoped-for praise. The list exposes how much she has measured herself by an unseen audience.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "দেখা হওয়ার মুহূর্ত",
+      "chapter_summary": "এই অধ্যায়টি দেবলিনার জীবনের সবচেয়ে ঝুঁকিপূর্ণ মুহূর্তে প্রবেশ করে, যখন সে তার ব্যক্তিগত, গোপন সংগ্রামকে জনসমক্ষে তুলে ধরার সিদ্ধান্ত নেয়। বাইরের মানুষের চোখ প্রথমবারের মতো তার সৃষ্টির ওপর পড়ে, যা এক তীব্র মানসিক পরীক্ষার জন্ম দেয়। এই দৃশ্যটি প্রশংসা নাকি কেবলই কঠোর বিচার—এই দ্বিধায় আটকে গিয়ে, শিল্পীর আত্ম-প্রকাশের চরম মূল্য কী হতে পারে, সেই প্রশ্নটি উন্মোচিত হয়।",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 60,
+          "segment_title": "প্রদর্শনের সিদ্ধান্ত",
+          "segment_summary": "দেবলিনা অবশেষে সমাজের সামনে তার কাজ উন্মোচন করার কঠিন সিদ্ধান্ত নেয়, যা তার ব্যক্তিগত বিচ্ছিন্নতাকে ভেঙে দেয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 70,
+          "segment_title": "প্রথম দৃষ্টির আঘাত",
+          "segment_summary": "বাইরের মানুষের চোখ যখন তার কাজের ওপর প্রথমবার পড়ে, তখন সেই দৃষ্টি এক অপ্রত্যাশিত এবং ভয়ঙ্কর অভিজ্ঞতা হয়ে ওঠে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 75,
+          "segment_title": "সংগ্রামের উন্মোচন",
+          "segment_summary": "তার তুলির আঁচড়ে লুকিয়ে থাকা অদৃশ্য সংগ্রামগুলো জনসমক্ষে আসার ফলে, তার ব্যক্তিগত যন্ত্রণাগুলো দৃশ্যমান হয়ে ওঠে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 65,
+          "segment_title": "আলো ও ছায়ার দ্বন্দ্ব",
+          "segment_summary": "প্রদীপের আলোয় সৃষ্ট ফ্রেস্কোর গভীরতা বাইরের কঠোর বাস্তবতার মুখোমুখি দাঁড়ায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 70,
+          "segment_title": "বিচারকের নীরবতা",
+          "segment_summary": "দর্শকদের নীরবতা বা তাদের প্রাথমিক প্রতিক্রিয়াগুলো দেবলিনার ভেতরের অস্থিরতাকে আরও বাড়িয়ে তোলে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 60,
+          "segment_title": "আত্ম-উপস্থাপন",
+          "segment_summary": "এই মুহূর্তটি কেবল শিল্পের প্রদর্শন নয়, বরং নিজের অস্তিত্বকে সমাজের সামনে দাঁড় করানোর এক চরম প্রচেষ্টা।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 75,
+          "segment_title": "প্রশংসা নাকি বিচার?",
+          "segment_summary": "দেবলিনা দ্বিধায় ভোগে—এই দৃষ্টি কি তার সৃষ্টির প্রতি গভীর শ্রদ্ধা, নাকি সমাজের আরোপিত মানদণ্ড দ্বারা বিচার? এই প্রশ্নটি তার সামনে স্থির হয়ে দাঁড়ায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 80,
+          "segment_title": "উন্মুক্ত হওয়ার ভার",
+          "segment_summary": "এই উন্মুক্ত হওয়ার অভিজ্ঞতা তাকে শেখায় যে, শিল্পের সত্যতা অর্জনের জন্য ব্যক্তিগত গোপনীয়তা ত্যাগ করা অপরিহার্য হতে পারে।",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 13,
       "name": "13",
       "word_target": 500,
-      "chapter_title": "The Unwitnessed Hour",
-      "chapter_summary": "Dawn approaches before anyone has seen what she made. Debolina asks whether work without witnesses can still address the world.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "প্রতিক্রিয়া মিশ্রিত",
+      "chapter_summary": "এই অধ্যায়টি দেবলিনার শিল্পকর্মের প্রথম জনসমক্ষে উপস্থাপনের মুহূর্তকে কেন্দ্র করে আবর্তিত। মিশ্র প্রতিক্রিয়া—কিছু মুগ্ধতা, কিছু তুচ্ছতা—তার সামনে এসে দাঁড়ায়, যা শিল্পীর ভেতরের স্থিতিস্থাপকতাকে চরমভাবে পরীক্ষা করে। সে উপলব্ধি করে যে শিল্পের সত্যতা কেবল তার সৃষ্টির গোপন, অন্ধকার প্রক্রিয়ার ওপর নির্ভর করে না, বরং দর্শকের উপলব্ধির ওপরও নির্ভরশীল। এই দৃশ্যটি শিল্পীর মানসিক প্রতিরক্ষা ব্যবস্থার পরীক্ষা এবং সহনশীলতার এক কঠিন পাঠ।",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "প্রথম দৃষ্টির ভার",
+          "segment_summary": "বাইরের মানুষের চোখ যখন প্রথমবার দেওয়ালের ওপর পড়ে, তখন সেই দৃষ্টির ভার দেবলিনার কাঁধে এসে পড়ে, যা প্রত্যাশিত প্রশংসার চেয়ে অনেক বেশি জটিল।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "মুগ্ধতা ও তুচ্ছতার দ্বৈরথ",
+          "segment_summary": "কিছু দর্শকের চোখে মুগ্ধতার ঝলকানি, আবার কিছু চোখে তাচ্ছিল্যের শীতল ছায়া—এই দুই বিপরীত স্রোত তার আত্মবিশ্বাসকে নাড়িয়ে দেয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "ভেতরের স্থিতিস্থাপকতা",
+          "segment_summary": "এই মিশ্র প্রতিক্রিয়ার ঢেউয়ের মধ্যেও দেবলিনা নিজের ভেতরের এক কঠিন স্থিতিস্থাপকতা খুঁজে নেয়, যা ভাঙা ফ্রেস্কোর মতোই দৃঢ়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "শ্রোতার প্রস্তুতি",
+          "segment_summary": "সে বুঝতে পারে যে শিল্পের গভীরতা উপলব্ধি করার জন্য শ্রোতার মানসিক প্রস্তুতিই সবচেয়ে কঠিন এবং অপরিহার্য কাজ।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "সত্যের শর্ত",
+          "segment_summary": "এই মুহূর্তটি তাকে শেখায় যে শিল্পের পরম সত্যতা কি কেবল তার সৃষ্টির গোপন, অন্ধকার প্রক্রিয়ার মধ্যেই নিহিত, নাকি দর্শকের স্বীকৃতির ওপরও নির্ভরশীল।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "সংঘাতের নীরব স্বীকারোক্তি",
+          "segment_summary": "দেবলিনা এই সামাজিক যাচাইয়ের মুখোমুখি হয়ে, তার বিদ্রোহের একটি নীরব স্বীকারোক্তি দেয়, যা তার শিল্পকে আরও বেশি মানবিক করে তোলে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "আলো ও অন্ধকারের মধ্যবর্তী স্থান",
+          "segment_summary": "সে এখন আর কেবল রাতের অন্ধকারে সংগ্রাম করছে না, বরং দিনের আলোর সামনে দাঁড়িয়ে তার সৃষ্টির দ্বৈততাকে মোকাবিলা করছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "অমীমাংসিত প্রশ্ন",
+          "segment_summary": "এই অভিজ্ঞতা তাকে এক গভীর প্রশ্নে ফেলে দেয়: শিল্প কি কেবল নিজের জন্য, নাকি তাকে সমাজের চোখে নিজেকে প্রমাণ করতে হয়?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 14,
       "name": "14",
       "word_target": 500,
-      "chapter_title": "A Voice Below",
-      "chapter_summary": "A sound from the courtyard interrupts the private rhythm of painting. The possibility of being noticed unsettles the protection of night.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "সহাবস্থানের চিত্রায়ণ",
+      "chapter_summary": "এই অধ্যায়টি দীর্ঘ সময়ের ব্যবধানের পর দেবলিনার ভাঙা হাভেলিটির কাছে ফিরে আসার মুহূর্তকে চিত্রিত করে, যেখানে ফ্রেস্কোটি সময়ের সঙ্গে মিশে গেছে। তার দৃষ্টি এখন আর কেবল সংগ্রামের নয়, বরং শিল্প ও জীবনের অনিবার্য সহাবস্থানের দিকে নিবদ্ধ। এই দৃশ্যপটটি সেই প্রশ্ন উত্থাপন করে যে, এই সহাবস্থান কি এক ধরনের শান্তিময় গ্রহণ, নাকি এটি এক গভীর, চিরন্তন বিষাদের প্রতিচ্ছবি। এটি শিল্পীর আত্ম-উপলব্ধির এক পরিণত পর্যায়কে তুলে ধরে।",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 62,
+          "segment_title": "কালের ধুলো",
+          "segment_summary": "ফ্রেস্কোটি এখন সময়ের সঙ্গে মিশে গেছে, তার উজ্জ্বলতা ম্লান হয়ে ধূলিধূসরতার আবরণে ঢাকা পড়েছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 62,
+          "segment_title": "দৃষ্টির পরিবর্তন",
+          "segment_summary": "দেবলিনা আবার সেই ভাঙা হাভেলিটির কাছে ফিরে আসে, কিন্তু তার ভেতরের দৃষ্টিতে এক গভীর পরিবর্তন এসেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 62,
+          "segment_title": "সংগ্রাম থেকে সহাবস্থান",
+          "segment_summary": "সে আর কেবল সৃষ্টির জন্য তীব্রভাবে সংগ্রাম করছে না, বরং সে এখন এই ক্ষয়িষ্ণু কাঠামোর সঙ্গে সহাবস্থান করতে শিখেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 62,
+          "segment_title": "অনিবার্য পরিণতি",
+          "segment_summary": "এই সহাবস্থানটি শিল্পীর জীবনের এক অনিবার্য পরিণতি, যেখানে সৃষ্টি এবং ক্ষয় একে অপরের পরিপূরক হয়ে উঠেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 62,
+          "segment_title": "আলো ও ছায়ার সংলাপ",
+          "segment_summary": "কিছু অংশ এখনও উজ্জ্বলতার ক্ষীণ রেখা ধরে রেখেছে, আবার কিছু অংশ চিরতরে অন্ধকারে বিলীন হয়ে গেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 62,
+          "segment_title": "বিষাদের সুর",
+          "segment_summary": "এই দৃশ্যপটটি এক ধরনের শান্ত, গভীর বিষাদ বহন করে, যা সৃষ্টির অনিবার্য ভঙ্গুরতাকে স্বীকার করে নেয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 62,
+          "segment_title": "গ্রহণ করার শিল্প",
+          "segment_summary": "দেবলিনা বুঝতে পারে, শিল্পের সত্যতা কেবল নিখুঁত রূপে নয়, বরং তার ক্ষয়িষ্ণু অবস্থাকেও ধারণ করার মাধ্যমেই পূর্ণতা পায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 62,
+          "segment_title": "প্রশ্নটি স্থির",
+          "segment_summary": "এই সহাবস্থান কি এক ধরনের শান্তি এনেছে, নাকি এটি এক অনন্তকাল ধরে চলতে থাকা বিষাদের প্রতিধ্বনি?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 15,
       "name": "15",
       "word_target": 500,
-      "chapter_title": "The Name Left Out",
-      "chapter_summary": "The completed wall receives attention while the maker's name is absent. Debolina sees that silence can be imposed as well as chosen.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "ফ্রেস্কো — পর্ব 15 — fresco — পর্ব 15",
+      "chapter_summary": "এই শেষ পর্বটি দেবলিনার সৃষ্টির সমাপ্তি নয়, বরং একটি চলমান প্রক্রিয়ার স্বীকৃতি। সে শেষ তুলিstroke দেয়, যা কোনো নির্দিষ্ট চিত্র নয়, বরং বাতাসের একটি রেখা। এই কাজটি তার জীবনের একটি অধ্যায় হিসেবে বিবেচিত, যা হয়তো পুরোপুরি সংরক্ষিত হবে না, কিন্তু এর প্রতিটি ফাটল তার অস্তিত্বের সাক্ষ্য বহন করে। এই দৃশ্যটি শিল্প এবং জীবনের অনিবার্য সহাবস্থানের চূড়ান্ত রূপকে তুলে ধরে, যেখানে ক্ষয় এবং সৃষ্টি একই সূত্রে বাঁধা পড়ে। এই কাব্যিক উপসংহারটি পাঠককে প্রশ্ন করে: শিল্পের শেষ রেখা কি কেবল একটি সমাপ্তি, নাকি পরবর্তী সৃষ্টির বীজ বপন করছে?",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "শেষ আঁচড়ের নীরবতা",
+          "segment_summary": "দেবলিনা তার তুলি হাতে নেয়, আর শেষ তুলিstrokeটি দেয়—যা কোনো সুনির্দিষ্ট চিত্র নয়, বরং কেবলই বাতাসের একটি ক্ষণস্থায়ী রেখা।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "অস্তিত্বের ফাটল",
+          "segment_summary": "সে জানে যে এই ফ্রেস্কোটি তার জীবনের একটি অধ্যায়, যা সময়ের সঙ্গে সঙ্গে ক্ষয়প্রাপ্ত হবে, কিন্তু প্রতিটি ফাটলই তার সংগ্রামের সাক্ষ্য দেবে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "প্রক্রিয়ার স্বীকৃতি",
+          "segment_summary": "এই কাজটির সমাপ্তি নয়, বরং এটি একটি চলমান প্রক্রিয়ার স্বীকৃতি, যেখানে সৃষ্টি এবং বিলীন হওয়া একে অপরের পরিপূরক।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "ক্ষয় ও সৃষ্টির সংলাপ",
+          "segment_summary": "দেওয়ালের বিবর্ণতা এবং তার নতুন রঙের মধ্যে এক গভীর সংলাপ স্থাপিত হয়, যা শিল্পের চিরন্তন দ্বান্দ্বিকতাকে প্রকাশ করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "অদৃশ্য সাক্ষ্য",
+          "segment_summary": "দেবলিনার আত্মত্যাগ এবং রাতের নীরব শ্রমের চিহ্নগুলো ফ্রেস্কোর প্রতিটি স্তর ও ফাটলে মূর্ত হয়ে ওঠে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "সময়ের সঙ্গে সহাবস্থান",
+          "segment_summary": "সে আর সংগ্রাম করছে না, বরং এই ক্ষয়িষ্ণু শিল্পকর্মের সঙ্গে এক শান্ত, অনিবার্য সহাবস্থান খুঁজে নিচ্ছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "পরবর্তী বীজের ইঙ্গিত",
+          "segment_summary": "এই শেষ রেখাটি কেবল একটি সমাপ্তি নয়, বরং এটি পরবর্তী কোনো সৃষ্টির জন্য এক নীরব, অপরিহার্য বীজ বপন করছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "উত্তেজিত বিষাদের প্রতিধ্বনি",
+          "segment_summary": "এই চূড়ান্ত দৃশ্যটি পাঠককে এক ধরনের 'উত্তেজিত বিষাদ' অনুভব করায়, যা সৃষ্টির গভীরতম সত্যের প্রতি শ্রদ্ধাশীল।",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 16,
       "name": "16",
       "word_target": 500,
-      "chapter_title": "Resting Hand",
-      "chapter_summary": "She puts down the brush before exhaustion decides for her. Rest becomes an act of authorship rather than a retreat.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unwritten Horizon",
+      "chapter_summary": "This final contemplation moves beyond the physical act of painting, focusing instead on the legacy of the struggle itself. Debolina confronts the idea that the art's true essence resides not in its preserved form, but in the invisible, arduous journey it took to be created. The imagery shifts from the tangible pigments to the ephemeral quality of memory and the lingering scent of the desert night. The chapter ultimately poses the profound question: Can the silent, internal battle of the creator ever truly be captured by the finite, visible surface of the fresco?",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "Beyond the Pigment's Edge",
+          "segment_summary": "The final brushstroke is not a depiction, but a gesture toward the unpainted expanse, acknowledging the limits of representation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Echoes in the Lime Dust",
+          "segment_summary": "The dust of the lime and the residue of the lapis now carry the weight of all the unspoken sacrifices made during the long nights.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "The Nomad's Lingering Musk",
+          "segment_summary": "The memory of the stranger's musk persists, a phantom scent that reminds her of the world she chose to engage with, even in isolation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "The Scaffold's Silent Witness",
+          "segment_summary": "The scaffolding, once a symbol of precarious labor, now stands as a monument to the necessary vulnerability of the creative act.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "The Unframed Heartbeat",
+          "segment_summary": "She realizes that the true, untamed heartbeat of the artist cannot be neatly framed by any societal expectation or perfect composition.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "The Dialogue with Decay",
+          "segment_summary": "The decay of the ancient frescoes becomes a dialogue with her own impermanence, accepting that all creation is subject to time's erosion.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Seed in the Crack",
+          "segment_summary": "Every fissure in the wall is seen not as damage, but as a potential point of new growth, a testament to resilience.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Horizon of Becoming",
+          "segment_summary": "The final gaze is cast outward, not at the finished work, but toward the vast, unwritten horizon where the next struggle awaits.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 17,
       "name": "17",
       "word_target": 500,
-      "chapter_title": "Rooms Without Owners",
-      "chapter_summary": "Debolina moves through rooms whose former life survives only in fragments. The haveli shifts her attention from possession to what remains after departure.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the core philosophy of the artist's struggle, examining how the visible final product masks the invisible sacrifices made during creation. It explores the tension between societal expectations of polished perfection and the raw, authentic truth found in imperfection. The imagery centers on the fissures and fading of the frescoes, mirroring the artist's own internal fragmentation. The central question remains: Can art achieve true immortality if its genesis is rooted in silent, unacknowledged struggle?",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 60,
+          "segment_title": "The Night's Altar",
+          "segment_summary": "The artist's true work unfolds in the deep silence of the night, away from the judging gaze of the day.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 60,
+          "segment_title": "Lime and Lapis Dust",
+          "segment_summary": "The sensory world of the studio is defined by the wet, cold lime and the luminous, chemical scent of ground lapis.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 60,
+          "segment_title": "The Scaffold's Burden",
+          "segment_summary": "The scaffolding itself becomes a metaphor for the invisible weight of societal and creative expectations pressing down on the solitary worker.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 60,
+          "segment_title": "Musk in the Desert Air",
+          "segment_summary": "The fleeting musk of passing strangers interrupts the isolation, bringing the chaotic energy of the outside world into the sacred space of creation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 60,
+          "segment_title": "Mirror of Decay",
+          "segment_summary": "The crumbling frescoes act as a direct reflection of the artist's own internal weariness and the fragility of her self-constructed identity.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 60,
+          "segment_title": "The Unframed Heartbeat",
+          "segment_summary": "The fierce, untamed rhythm of the artist's spirit resists being neatly contained within any conventional or societal frame.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 60,
+          "segment_title": "The Cost of Visibility",
+          "segment_summary": "To expose the raw struggle is to invite scrutiny, making the act of being seen a profound and perilous transaction.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 60,
+          "segment_title": "The Immortal Scar",
+          "segment_summary": "The ultimate goal is not flawless beauty, but the indelible mark—the immortal scar—left by the uncompromising act of expression.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 18,
       "name": "18",
       "word_target": 500,
-      "chapter_title": "The Ledger's Blank Column",
-      "chapter_summary": "A merchant's ledger suggests the arithmetic behind display and patronage. She notices the blank space where the makers' names might have been.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This final chapter synthesizes the journey, moving beyond the act of creation to confront the enduring legacy of the artist's struggle. It explores how the accumulated layers of paint, lime, and time—the 'unseen scars'—become the true narrative of Debolina's existence. The conflict shifts from external societal pressure to an internal acceptance of imperfection and decay. The central question remains: Can the raw, unpolished truth of the creative process ever truly be preserved against the relentless erosion of time?",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Patina of Persistence",
+          "segment_summary": "The final strokes are not about perfection, but about acknowledging the inevitable fading that marks all profound human endeavor.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Echoes in the Cracks",
+          "segment_summary": "The fissures in the fresco are reinterpreted not as damage, but as the visible record of every silent battle fought by the artist.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "Beyond the Gaze",
+          "segment_summary": "Debolina finds a strange peace in the knowledge that the deepest meaning of her work resides in the darkness of its making, not the light of its viewing.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "The Alchemy of Dust",
+          "segment_summary": "The ground pigments and lime dust, once tools of struggle, now settle into a sacred, melancholic residue of existence.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "A Living Palimpsest",
+          "segment_summary": "The fresco becomes a palimpsest, where every layer of paint and every patch of decay tells a story of layered sacrifice.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "The Unframed Heartbeat",
+          "segment_summary": "The untamed rhythm of her creative spirit, once suppressed, now resonates through the aged, silent walls.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "Acceptance of Impermanence",
+          "segment_summary": "She accepts that the ultimate truth of her art is its vulnerability to time, a beauty found in its inevitable surrender.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Seed of Tomorrow",
+          "segment_summary": "The final, faint line suggests that the end of one cycle of creation is merely the quiet preparation for the next, unseen dawn.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 19,
       "name": "19",
       "word_target": 500,
-      "chapter_title": "A Wall of Borrowed Light",
-      "chapter_summary": "Morning visitors read the mural differently from its painter. Their interpretations make Debolina question where meaning belongs.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scar of Existence",
+      "chapter_summary": "This chapter delves into the culmination of Debolina's artistic journey, focusing on the final, almost invisible strokes she applies to the fresco. The central conflict here is the tension between the desire for immortal expression and the inevitable decay of physical matter, symbolized by the cracks in the ancient walls. Imagery revolves around the final, delicate application of pigment against the backdrop of time's erosion. The chapter leaves the reader questioning whether the true essence of art resides in its visible perfection or in the profound, undocumented struggle that birthed it.",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Final Stroke of Air",
+          "segment_summary": "Debolina executes the last brushstroke, not depicting a figure, but capturing the ephemeral quality of the desert wind itself.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "A Testament in Cracks",
+          "segment_summary": "She accepts that the fissures in the fresco are not flaws, but rather the indelible signatures of her own lived experience.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "Beyond Preservation",
+          "segment_summary": "The act of finishing is recognized not as an end, but as the commencement of a continuous dialogue with the material world.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "The Living Canvas",
+          "segment_summary": "The fresco transforms from a static object into a dynamic record, breathing with the slow passage of the Mandawa night.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "Echoes of the Unseen",
+          "segment_summary": "Every imperfection holds the memory of the silent sacrifices—the lime, the musk, the sleepless nights.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "The Seed of Tomorrow",
+          "segment_summary": "She understands that this completed piece is merely the fertile ground from which the next, unformed vision will sprout.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "Acceptance of Flux",
+          "segment_summary": "The final acceptance is a surrender to the natural cycle, where permanence is an illusion and change is the only truth.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Ongoing Witness",
+          "segment_summary": "The fresco stands as a perpetual witness to the artist's refusal to be neatly contained by societal definition.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 20,
       "name": "20",
       "word_target": 500,
-      "chapter_title": "Nawalgarh at Dusk",
-      "chapter_summary": "The journey to another painted town places familiar colors in changed light. Debolina understands that no wall stands outside the lives around it.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the core philosophical conflict: the tension between societal expectation and the raw necessity of artistic expression. It explores how Debolina Rai confronts the inherent fragility of her work, mirroring the vulnerability of her own self-exposure. The imagery centers on the interplay between the vibrant pigment and the inevitable decay of the ancient walls. The central question remains whether the truth found in the struggle is worth the cost of being irrevocably seen.",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Scaffold's Burden",
+          "segment_summary": "The physical weight of the scaffolding becomes a metaphor for the invisible societal pressures Debolina must bear while creating her art.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Lapis and the Night's Alchemy",
+          "segment_summary": "The chemical scent of ground lapis under the dim lamplight represents the transformative, solitary nature of her creative process.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "The Mirror of Fissures",
+          "segment_summary": "She observes the cracks in the fresco, recognizing them as the perfect analogue for the internal fractures within her own spirit.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "Musk and the Desert's Whisper",
+          "segment_summary": "The fleeting scent of passing men interrupts her focus, symbolizing the persistent pull of the external, untamed world.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "The Unframed Heartbeat",
+          "segment_summary": "Debolina fights against the urge to conform to domestic expectations, choosing the fierce rhythm of creation over societal neatness.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "Sacrifice in Pigment",
+          "segment_summary": "Each stroke of paint is an act of sacrifice, trading comfort for the immortal, yet fragile, mark left upon the wall.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Risk of Visibility",
+          "segment_summary": "She grapples with the terror of being seen—the moment her private, dark struggle is subjected to public judgment.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Question of Truth",
+          "segment_summary": "The chapter culminates in the unresolved query: Does art achieve its ultimate truth through its hidden genesis, or only through its public reception?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 21,
       "name": "21",
       "word_target": 500,
-      "chapter_title": "The Anonymous Hand",
-      "chapter_summary": "An old mark outlasts any known account of its maker. Debolina feels kinship with that hand while resisting the romance of its disappearance.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the core philosophical conflict: the tension between the societal demand for a polished, acceptable image and the raw, necessary struggle of authentic creation. Debolina confronts the idea that true art must be flawed, mirroring the inherent imperfections of life and the decaying frescoes themselves. The imagery centers on the interplay between the vibrant pigment and the cracks in the plaster, symbolizing vulnerability. The central question remains: Can art achieve ultimate truth only by embracing its own visible wounds?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 60,
+          "segment_title": "The Imperfect Hue",
+          "segment_summary": "The initial focus is on a specific, flawed patch of pigment where the color bleeds into the surrounding lime wash.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 60,
+          "segment_title": "Cracks as Cartography",
+          "segment_summary": "The fissures in the ancient wall are viewed not as damage, but as a map charting the passage of time and hidden effort.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 60,
+          "segment_title": "The Weight of the Scaffold",
+          "segment_summary": "The physical burden of the scaffolding is equated with the invisible weight of societal expectations pressing upon her spirit.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 60,
+          "segment_title": "Musk and Mortar",
+          "segment_summary": "The sensory clash between the ephemeral musk of the desert and the heavy, grounding scent of wet plaster is explored.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 60,
+          "segment_title": "The Unframed Self",
+          "segment_summary": "Debolina reflects on her refusal to be neatly contained by the domestic expectations of her world.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 60,
+          "segment_title": "The Language of Failure",
+          "segment_summary": "She begins to see her own moments of doubt and failure reflected in the faded, incomplete sections of the mural.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 60,
+          "segment_title": "The Risk of Exposure",
+          "segment_summary": "The act of exposing her raw process is framed as a dangerous gamble against the judgment of the outside world.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 60,
+          "segment_title": "The Immortal Scar",
+          "segment_summary": "The final realization is that the scars—the visible struggles—are what grant the art its enduring, vital truth.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 22,
       "name": "22",
       "word_target": 500,
-      "chapter_title": "Gold at the Edge",
-      "chapter_summary": "A thin glimmer catches the eye and threatens to hide the rough work beneath it. She leaves part of the edge unresolved so the image cannot pretend to be seamless.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the core conflict between societal expectation and the raw, necessary act of creation. It explores how Debolina Rai confronts the invisible sacrifices—the sweat, the ground lapis, the silent failures—that underpin any visible masterpiece. The imagery centers on the crumbling frescoes acting as a mirror to her own internal fragmentation. The central question remains: Can art achieve true immortality if its genesis is perpetually hidden in the darkness?",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Scaffold's Weight",
+          "segment_summary": "The physical burden of the scaffolding mirrors the invisible weight of societal expectations pressing down on Debolina's artistic ambition.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Lapis and the Lamplight's Gaze",
+          "segment_summary": "The chemical scent of ground lapis, illuminated by the solitary lamp, becomes the sensory signature of her isolated, nocturnal struggle.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "The Musk of the Stranger",
+          "segment_summary": "The fleeting musk carried by the desert wind acts as a sudden, intoxicating intrusion from the outside world into her hermetic creative space.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "Lime and the Cracks of Time",
+          "segment_summary": "The cool, wet touch of the lime plaster contrasts sharply with the deep fissures in the ancient walls, symbolizing both creation and decay.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "The Mirror of Faded Gods",
+          "segment_summary": "The faded figures in the frescoes reflect her own unspoken anxieties, suggesting that the decay of the art mirrors the erosion of her own domestic self.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "Mapping the Internal Rupture",
+          "segment_summary": "She begins to consciously translate her personal hesitations and fears onto the canvas, making the invisible struggle visible through pigment.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Whisper of Convention",
+          "segment_summary": "The distant, muffled sounds of societal expectation serve as a constant, low-frequency counterpoint to the intense focus of her artistic labor.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Unfinished Truth",
+          "segment_summary": "She realizes that the 'truth' of her art lies not in flawless completion, but in the honest documentation of its arduous, imperfect making.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 23,
       "name": "23",
       "word_target": 500,
-      "chapter_title": "The Stranger's Passing",
-      "chapter_summary": "A brief encounter returns as a memory whose details keep changing. Debolina accepts memory as an imperfect witness, not a license to claim another person's story.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scar of Expression",
+      "chapter_summary": "This chapter delves into the core conflict: the tension between the societal demand for a polished, acceptable image and the raw, necessary struggle of authentic creation. It explores how Debolina Rai uses the fissures and decay of the ancient frescoes as a direct metaphor for her own internal fragmentation and resilience. The imagery centers on the contrast between the vibrant, yet fading, pigments and the stark reality of her solitary labor under the lamp's glow. The central question remains: Can art achieve true immortality if its genesis is rooted in such profound, unacknowledged personal sacrifice?",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Canvas of Decay",
+          "segment_summary": "The crumbling plaster of the Mandawa haveli serves as the initial visual metaphor for the artist's own fragile state against the weight of expectation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Lapis and the Night's Alchemy",
+          "segment_summary": "The grinding of lapis lazuli under the dim lamplight transforms raw material into the volatile essence of her nocturnal artistic endeavor.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "The Musk of the Outsider",
+          "segment_summary": "The scent of passing strangers in the desert air intrudes upon her isolated studio, symbolizing the persistent pull of the external, untamed world.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "The Scaffold of Burden",
+          "segment_summary": "The physical scaffolding supporting her work represents the invisible, yet immense, pressure of societal roles she is actively rejecting.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "Mirror of the Faded Deity",
+          "segment_summary": "She finds her own unspoken anxieties reflected in the silent, half-formed figures of the ancient frescoes.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "Mapping the Inner Wound",
+          "segment_summary": "The act of painting becomes a deliberate mapping of her own vulnerabilities, transforming private pain into public, albeit hidden, texture.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Whisper of Convention",
+          "segment_summary": "The faint, judgmental echoes of domestic expectation clash against the fierce, silent commitment of her brushstrokes.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Scar as Signature",
+          "segment_summary": "She accepts that the imperfections and the visible struggle are not flaws, but the very signature that validates the art's truth.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 24,
       "name": "24",
       "word_target": 500,
-      "chapter_title": "The Wall Answers Slowly",
-      "chapter_summary": "Fading pigment makes the wall seem to reply in intervals. Its slowness teaches her that endurance is not the same as permanence.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the culmination of Debolina's artistic journey, where the struggle against societal expectation meets the enduring nature of her creation. The imagery focuses on the interplay between the vibrant, yet fragile, pigments and the deep, silent history embedded in the crumbling haveli walls. The central conflict is the tension between the desire for immortal expression and the inevitable decay of time, leaving the reader to question whether true art survives its own making.",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Final Stroke of Air",
+          "segment_summary": "Debolina applies the last brushstroke, not to a defined figure, but to capture the ephemeral movement of the desert wind across the canvas of the wall.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Witnessing the Fissures",
+          "segment_summary": "She observes the existing cracks in the fresco, recognizing them not as flaws, but as the indelible record of her own internal fractures and resilience.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "The Testimony of Decay",
+          "segment_summary": "The fading colors and dust-laden surfaces become a metaphor for the sacrifices made—the unacknowledged nights and the silenced voices.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "Beyond Preservation",
+          "segment_summary": "Debolina accepts that the fresco will not be perfectly preserved, finding a strange peace in its inherent impermanence.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "The Living Scar",
+          "segment_summary": "Each imperfection in the mural is reinterpreted as a vital sign, a testament to the life force that fueled its creation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "Echoes of the Past",
+          "segment_summary": "The ancient grandeur of the haveli seems to merge with her modern, defiant act of creation, bridging epochs through pigment.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Ongoing Process",
+          "segment_summary": "She realizes that art is not a finished object, but a continuous dialogue with existence, a cycle that never truly closes.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "Seed of the Next Dawn",
+          "segment_summary": "The final, subtle line suggests that this completed chapter of her life is merely the fertile ground for the next, unknown artistic endeavor.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 25,
       "name": "25",
       "word_target": 500,
-      "chapter_title": "The Unfinished Center",
-      "chapter_summary": "The central passage remains blank while the surrounding work nears completion. Debolina recognizes the missing image as a decision, not a technical failure.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This final chapter synthesizes the journey, focusing on the enduring nature of the artist's struggle beyond the physical canvas. It explores how the accumulated 'scars'—the failures, the silent nights, the societal pressures—become the true texture of the art. The imagery shifts from the vibrant pigments to the subtle erosion of time, mirroring the artist's own internal weathering. The central question remains: Can the truth of creation ever be fully captured, or is the process of becoming the only authentic masterpiece?",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Final Stroke of Air",
+          "segment_summary": "The artist applies a final, almost invisible stroke, not of pigment, but of pure breath, acknowledging the ephemeral nature of her work.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Fissures as Testimony",
+          "segment_summary": "The cracks in the fresco are reinterpreted not as damage, but as the visible record of every internal conflict she endured.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "Beyond the Frame's Edge",
+          "segment_summary": "She realizes the art transcends the physical boundaries of the haveli wall, existing instead in the memory and the act of creation itself.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "The Seed of the Next Dawn",
+          "segment_summary": "The completed piece is not an end, but a fertile ground from which the next, unknown creative impulse will inevitably sprout.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "The Weight of Being Seen",
+          "segment_summary": "She accepts that the visibility she sought is inseparable from the vulnerability she risked, a permanent state of exposure.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "The Dialogue with Silence",
+          "segment_summary": "The silence of the night, once a refuge, is now a companion, a necessary counterpart to the loud demands of expression.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Unquenchable Hunger",
+          "segment_summary": "The initial hunger for existence transforms into a quiet, sustainable necessity—the drive to continue the difficult work.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Living Fresco",
+          "segment_summary": "The final realization is that the fresco is not a static object, but a living document of a relentless, beautiful, and painful human becoming.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 26,
       "name": "26",
       "word_target": 500,
-      "chapter_title": "A Door Open to Day",
-      "chapter_summary": "Daylight exposes the scaffold, stains, and discarded studies. She leaves the door open and lets the conditions of making become visible.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the core philosophy of creation, exploring how the visible masterpiece belies the invisible, often painful, struggle beneath it. It examines the tension between societal expectations—the desire for a 'neatly framed' life—and the raw, necessary act of self-exposure through art. The imagery centers on the cracks in the frescoes mirroring the artist's internal fractures, forcing a confrontation with the cost of authentic expression. The central question remains: Can the truth of creation ever be fully seen, or is its essence forever locked within the dark, silent process?",
+      "further_references": [
+        "fresco — মূল ভাবনা"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Blossom vs. The Burden",
+          "segment_summary": "The chapter begins by contrasting the polished final appearance of a fresco with the hidden labor, failures, and silent sacrifices required to achieve that surface perfection.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "The Scaffold of Self",
+          "segment_summary": "Debolina Rai's scaffold becomes a metaphor for her precarious existence, balancing the weight of domestic expectation against the pull of artistic necessity.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "Lapis and the Night's Alchemy",
+          "segment_summary": "The sensory experience of grinding lapis under lamplight is explored, representing the intense, almost alchemical transformation of raw material into expressive pigment.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "Musk and the Desert's Whisper",
+          "segment_summary": "The scent of passing strangers in the desert air acts as a disruptive force, injecting the isolated creative space with the volatile energy of the outside world.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "The Mirror of Decay",
+          "segment_summary": "The crumbling frescoes are analyzed not as historical artifacts, but as a direct, melancholic reflection of Debolina's own internal vulnerabilities and imperfections.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "Mapping the Invisible Struggle",
+          "segment_summary": "The act of painting becomes a deliberate mapping of her own hidden battles—her fears and hesitations—onto the ancient, enduring surface of the wall.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Whisper of Convention",
+          "segment_summary": "The faint, judgmental echoes of societal norms press against the silence of the haveli, representing the constant pressure to conform and be 'properly framed'.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Hunger for Existence",
+          "segment_summary": "The chapter culminates in the recognition that this relentless, difficult pursuit of expression is not a choice of comfort, but a fundamental, unquenchable hunger for genuine existence.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 27,
       "name": "27",
       "word_target": 500,
-      "chapter_title": "The Question of Witnesses",
-      "chapter_summary": "Those who see her labor ask for an explanation that would make it easy to admire. Debolina refuses a neat answer and names what the work has cost.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the core philosophical conflict: the tension between the societal demand for a polished, acceptable image and the raw, necessary struggle of authentic creation. Debolina confronts the idea that true art must bear the marks of its making—the invisible sacrifices, the failures, and the internal battles. The imagery centers on the fissures in the ancient frescoes, mirroring the cracks in her own carefully constructed composure. The central question remains: Can art achieve immortality if it is not allowed to show its wounds?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Canvas of Imperfection",
+          "segment_summary": "The initial focus is on the physical state of the frescoes, where every crack and faded pigment serves as a metaphor for the artist's own internal fracturing.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "The Weight of the Scaffold",
+          "segment_summary": "The physical labor—the scaffolding, the lime, the weight of expectation—is examined as the tangible manifestation of societal pressure on the creator.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "Lapis and the Night's Truth",
+          "segment_summary": "The chemical glow of the lapis under lamplight is contrasted with the darkness, symbolizing the illumination of difficult truths during solitary work.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "Musk and the Intrusion of Self",
+          "segment_summary": "The scent of the passing stranger is analyzed not as mere distraction, but as a catalyst forcing Debolina to confront her own desires against her disciplined artistic focus.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "Mirroring the Void",
+          "segment_summary": "The painted figures are seen as reflections of her own unexpressed pain, where the beauty of the depiction masks a profound, silent emptiness.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "The Act of Self-Imprint",
+          "segment_summary": "Debolina consciously chooses to incorporate her own vulnerability into the work, moving beyond mere depiction to active self-disclosure through pigment.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Whisper of Convention",
+          "segment_summary": "The external voices of societal expectation are addressed, not as a barrier to be smashed, but as a constant, low-frequency hum against which her creation must resonate.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Endurance of the Scar",
+          "segment_summary": "The chapter concludes by asserting that the scars—the visible evidence of struggle—are what grant the fresco its ultimate, undeniable authenticity and enduring power.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 28,
       "name": "28",
       "word_target": 500,
-      "chapter_title": "The Price of Being Seen",
-      "chapter_summary": "Attention brings recognition and scrutiny. She discovers that visibility is not a cure for erasure, only a different risk.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the core conflict: the tension between the societal demand for a 'neatly framed' existence and the artist's desperate need to expose the raw, invisible struggle beneath the surface. Imagery centers on the cracked frescoes, which mirror Debolina's own internal fragmentation and resilience. The chapter questions whether true artistic truth can ever be fully realized if it must first survive the scrutiny of societal judgment.",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Canvas of Cracks",
+          "segment_summary": "The fissures in the ancient wall become the primary metaphor for the artist's own internal fractures and the pressure of expectation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Lapis and the Night's Alchemy",
+          "segment_summary": "The chemical scent of ground lapis under the dim lamplight represents the volatile, alchemical process of creation born in isolation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "Musk and the Desert's Whisper",
+          "segment_summary": "The scent of passing strangers in the desert breeze acts as an intrusive, potent reminder of the world outside her self-imposed creative sanctuary.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "The Scaffold's Weight",
+          "segment_summary": "The physical burden of the scaffolding and the wet lime plaster symbolizes the invisible weight of societal and creative obligation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "The Mirror of Faded Gods",
+          "segment_summary": "The decaying frescoes serve as a distorted reflection of the artist's own unexpressed pain, hidden behind the painted smiles of ancient figures.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "Mapping the Hesitation",
+          "segment_summary": "The deliberate act of painting one's own fears and doubts onto the wall marks the first visible attempt to externalize the internal battle.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Echo of Expectation",
+          "segment_summary": "The distant, judgmental voices of society clash with the intense focus of her brushwork, creating a silent, internal siege.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Unfinished Truth",
+          "segment_summary": "The chapter concludes by questioning if the ultimate truth of art lies in its finished perfection or in the raw, vulnerable process of its making.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 29,
       "name": "29",
       "word_target": 500,
-      "chapter_title": "The Blossom, Reconsidered",
-      "chapter_summary": "The finished color looks less like a reward than the last stage of an unfinished process. Debolina accepts that beauty does not cancel failure.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the profound connection between Debolina's internal suffering and the visible decay of the frescoes. She perceives the cracks and fading pigments not merely as structural failure, but as a mirror reflecting her own unexpressed pain and the fragility of her chosen existence. The imagery centers on the juxtaposition of vibrant, once-perfect divine figures against the encroaching dust and lime-white erosion. The central question remains: Can the truth of a creation be validated by its visible endurance, or is its essence found in the silent, internal struggle that birthed it?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "Fissures of the Soul",
+          "segment_summary": "The spiderweb cracks across the ancient plaster become the map of Debolina's own unresolved anxieties.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Lapis and Lament",
+          "segment_summary": "The deep blue of the lapis, once a defiant shout against the desert ochre, now whispers of inevitable fading.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "The Weight of the Scaffold",
+          "segment_summary": "The scaffolding, a temporary cage of wood and ambition, seems to press down on the fragile beauty below.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "Musk and Mortality",
+          "segment_summary": "The phantom scent of the passing stranger mingles with the smell of wet lime, a scent of fleeting life against permanent decay.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "Echoes in the Pigment",
+          "segment_summary": "Each muted hue seems to hold the ghost of a life lived too quietly, a silent narrative trapped in the wall.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "The Art of Imperfection",
+          "segment_summary": "She begins to see that the flaws are not mistakes, but the honest signature of time's relentless passage.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Unframed Self",
+          "segment_summary": "To accept the decay is to accept the self—a beautiful, yet inherently vulnerable, composition.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Question of Witness",
+          "segment_summary": "If the art is defined by its struggle, what happens when the struggle itself becomes indistinguishable from the ruin?",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 30,
       "name": "30",
       "word_target": 500,
-      "chapter_title": "One Spoken Name",
-      "chapter_summary": "She identifies herself as the maker before returning to the wall. Saying her name changes the silence without deciding what anyone will remember.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scar of Creation",
+      "chapter_summary": "This chapter delves into the core philosophy of the artist's sacrifice, contrasting the polished final product with the unseen, arduous labor beneath. It explores how Debolina Rai internalizes the decay of the ancient frescoes, viewing them as a mirror to her own suppressed existence and the societal pressures she resists. The central conflict is the tension between the desire for societal acceptance and the fierce, necessary act of self-exposure through art. The chapter ultimately questions whether the truth of creation resides in its visible form or in the silent, sacrificial process that birthed it.",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Scaffold's Burden",
+          "segment_summary": "The scaffolding itself becomes a metaphor for the invisible weight of societal expectations that Debolina must bear while striving for artistic freedom.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Lapis and the Night's Alchemy",
+          "segment_summary": "The grinding of lapis lazuli under the weak lamplight symbolizes the intense, almost alchemical transformation occurring in the solitude of the night.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "Musk in the Lime Dust",
+          "segment_summary": "The scent of passing strangers, mingled with the wet lime, represents the fleeting intrusion of the external world into her intensely private creative space.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "Mirror of the Cracks",
+          "segment_summary": "The fissures and fading colors of the ancient frescoes reflect the internal fractures and resilience within Debolina's own spirit.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "The Unframed Heartbeat",
+          "segment_summary": "Her refusal to be neatly framed by domestic expectation is portrayed as a fierce, untamed rhythm beating against the silence of the haveli.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "Sacrifice Made Visible",
+          "segment_summary": "The act of painting becomes a deliberate choice to externalize her hidden struggles, transforming private pain into public, albeit fragile, expression.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Cost of Being Seen",
+          "segment_summary": "The chapter examines the inherent danger in exposing one's raw, unpolished self to the judgment of the outside world.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Immortal Scar",
+          "segment_summary": "The final realization is that the true permanence of art lies not in its pristine state, but in the indelible marks—the scars—left by its difficult making.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 31,
       "name": "31",
       "word_target": 500,
-      "chapter_title": "Back to the Scaffold",
-      "chapter_summary": "Debolina climbs again, no longer pretending the labor is effortless or wholly private. Her return keeps the work alive without hiding its truth.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Scars of Expression",
+      "chapter_summary": "This chapter delves into the core conflict between societal expectation and the raw, necessary act of creation. Debolina confronts the inherent fragility of her art, mirroring the decay of the ancient frescoes she works upon. The imagery centers on the juxtaposition of vibrant pigment against crumbling plaster, symbolizing the struggle to maintain internal truth against external erosion. The central question remains: Can a truth born in such vulnerable, hidden labor ever truly withstand the scrutiny of the world?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "Plaster and the Inner Fracture",
+          "segment_summary": "The wet lime, meant to bind the image, instead mirrors the fissures within Debolina's own spirit.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Lapis Under the Lamplight",
+          "segment_summary": "The intense, focused glow of the lamp illuminates the ground lapis, a fragile alchemy of pigment and desperation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "The Scaffold's Burden",
+          "segment_summary": "The scaffolding, a temporary structure of labor, feels like the weight of all societal expectations pressing down on her shoulders.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "Musk and the Desert's Whisper",
+          "segment_summary": "The scent of passing strangers drifts in, a fleeting, intoxicating reminder of a life outside the painted walls.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "Mirror of the Fading Gods",
+          "segment_summary": "In the faded frescoes, she sees not divine grace, but the silent echo of her own unfulfilled potential.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "The Act of Visible Struggle",
+          "segment_summary": "She begins to deliberately paint the struggle itself, refusing to sanitize the raw, difficult process of creation.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "The Silence Against the Call",
+          "segment_summary": "The distant, muffled voices of domestic expectation clash against the profound silence she has cultivated for her art.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Unfinished Truth",
+          "segment_summary": "She realizes that the most honest part of the fresco is the part that remains deliberately unpainted, the space of potential.",
+          "further_references": []
+        }
+      ]
     },
     {
       "chapter_index": 32,
       "name": "32",
       "word_target": 500,
-      "chapter_title": "The Wall After Night",
-      "chapter_summary": "The town wakes to the fresco, while its maker remains present in the marks and in the account she has chosen to give. The wall closes the sequence as evidence and unfinished question.",
-      "further_references": []
+      "segment_count": 8,
+      "chapter_title": "The Unseen Struggle Beneath the Blossom",
+      "chapter_summary": "This chapter delves into the core philosophy of the artist's life, contrasting the public perception of a finished masterpiece with the private, arduous labor that birthed it. It explores the imagery of silent failures and invisible sacrifices that underpin every visible stroke of color. The central conflict lies between the societal demand for polished perfection and the raw, messy truth of creation. The chapter ultimately questions whether the true essence of art resides in its final, celebrated form or in the hidden struggle that forged it.",
+      "further_references": [
+        "references.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "The Night's Canvas",
+          "segment_summary": "The chapter begins by establishing the nocturnal setting, where Debolina Rai works in the deep silence, contrasting it with the oblivious world outside.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "Invisible Scars",
+          "segment_summary": "It focuses on the imagery of the hidden struggles—the failed attempts and the unseen toil—that are masked by the final, beautiful surface.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "The Cost of Sight",
+          "segment_summary": "This segment examines the personal cost of choosing a life of intense creation, trading domestic comfort for the vulnerability of being seen.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "Lapis and Lime",
+          "segment_summary": "The sensory details of the materials—the ground lapis and the wet lime—are explored as metaphors for the struggle between ephemeral beauty and foundational labor.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "The Artist's Solitude",
+          "segment_summary": "Debolina's isolation in the crumbling havelis is depicted, where the decay of the walls mirrors the internal process of self-discovery.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "The Hunger for Existence",
+          "segment_summary": "The text explores the unquenchable hunger that drives the artist, framing creation not as a hobby, but as a fundamental need for existence.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "Refusing the Frame",
+          "segment_summary": "This section addresses the refusal to be neatly categorized by society, emphasizing the fierce, untamed nature of her creative spirit.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "The Truth in the Shadow",
+          "segment_summary": "The chapter concludes by asserting that the deepest truth of the art is found not in the finished product, but in the dark, invisible process of its making.",
+          "further_references": []
+        }
+      ]
     }
   ],
   "all_characters": [],
@@ -285,7 +2490,6 @@
     "override",
     "quality"
   ],
-  "word_target": 500,
   "quality_chain": [
     "subject",
     "genre",
@@ -293,7 +2497,7 @@
     "syntax",
     "signature"
   ],
-  "updated_by": "scaffold",
-  "updated_date": "2026-11-06T12:21:26Z",
-  "updated_at": "2026-11-06T12:21:26Z"
+  "word_target": 500,
+  "model": "gemma4:latest",
+  "provider": "ollama"
 }

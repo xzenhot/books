@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মানসিক যুদ্ধের রণক্ষেত্র",
+  "segment_summary": "প্রতিদিনের অস্তিত্ব টিকিয়ে রাখার লড়াইটি এক নিরন্তর মানসিক যুদ্ধ, যেখানে প্রতিটি শ্বাস যেন এক নতুন পরীক্ষার সম্মুখীন হওয়া।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Re-framing exhaustion not as failure, but as the necessary crucible preceding ultimate strength—the weariness is a testament to sustained effort.",
+    "story_option": "Setting: During a moment of profound physical fatigue after tending domestic duties; Desire: A complete sensory void, cessation of feeling all input (Obstacle: Persistent, low-grade ache in her limbs signifying constant tension); Turn: She finds strange clarity amidst the pain.",
+    "subject_rotation": "Viewing 'inner fire' strictly through chemistry/alchemy: The slow, painful transformation of raw sorrow (lead) into resilient spirit (gold).",
+    "sensory_detail": "A low, vibrating hum felt in the bones when all external sound ceases.",
+    "research_question": "What specific archaic Bengali lexicon exists to describe sustained psychological siege without implying direct confrontation?",
+    "structural_variant": "Employing an AABB/CCDD rhyme scheme structure in some stanzas, disrupting the free verse rhythm to mirror forced internal order against external chaos.",
+    "variety_note": "Unlike chapters focusing on external pressure or cosmic testing, this piece centers entirely on the *internal physics* of resilience—the sheer mechanics of continuing when all evidence suggests collapse is inevitable. It pivots from 'trial' to 'tenacity'."
+  }
+}

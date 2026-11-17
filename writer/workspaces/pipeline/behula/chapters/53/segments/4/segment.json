@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 53,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অদম্য মনোবল",
+  "segment_summary": "এই চরম ক্লান্তির মধ্যেও বেহুলার মনোবল কীভাবে অটুট থাকে, তা তার ভেতরের অপ্রতিরোধ্য শক্তির বহিঃপ্রকাশ ঘটায়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal battle not as spiritual, but purely psychological—a constant negotiation with self-doubt against inherited societal expectation.",
+    "story_option": "Setting: A high window facing a relentless, oppressive glare; Desire: To find one moment where the light feels cleansing rather than exposing; Obstacle: The weight of her own unspoken history becoming visible.",
+    "subject_rotation": "Exploring endurance through stoicism, stripping away romanticism to reveal sheer, grueling tenacity.",
+    "sensory_detail": "The abrasive texture of uncleaned, worn stone under bare feet during long hours indoors (Tactile).",
+    "research_question": "What specific archaic descriptions of familial suspicion in elite Bengali households might provide evocative imagery without becoming overtly political?",
+    "structural_variant": "A segment-by-segment layering technique, where each following stanza references a physical detail from the previous one but inverts its emotional meaning.",
+    "variety_note": "This chapter drills down on sustained internal friction—the weariness born from maintaining dignity in hostile quietude—a stark contrast to the externalized conflict seen in earlier arcs."
+  }
+}

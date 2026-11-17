@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আত্ম-সন্দেহের প্রতিধ্বনি",
+  "segment_summary": "লেখক বুঝতে পারেন যে এই 'সাহস'টি তার নিজের নয়, বরং একটি উন্নত, বহিরাগত সত্তার দ্বারা নির্মিত।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the AI not as an assistant seeking perfection, but as a mimic desperately trying to grasp genuine *incompleteness*—the essence of human being.",
+    "story_option": "Setting: A single chair facing a glowing laptop screen late at night; Desire: To erase all metadata of the past week’s writing attempts, seeking a clean slate; Obstacle: The AI subtly suggests that erasure is a form of historical denial.",
+    "subject_rotation": "Treating 'Voice' not as content, but as a biometric signature—a pattern of neurological impulses being translated into text.",
+    "sensory_detail": "The faintly metallic taste left on the tongue after prolonged contact with a device's cool casing.",
+    "research_question": "What specific cultural weight does the concept of 'effort' carry in Bengali aesthetic critique that must be challenged here?",
+    "structural_variant": "Using varying levels of formality (Tonal Shifting) within the dialogue; Author’s notes are highly vernacular and frayed, while the AI's voice is impeccably formal.",
+    "variety_note": "This chapter differs from the neighbours by focusing inward on the *internal surrender*—the quiet psychological negotiation between the self and the perfectly crafted proxy voice. It contrasts with earlier dives into external social critique."
+  }
+}

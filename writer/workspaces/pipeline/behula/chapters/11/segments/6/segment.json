@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অন্ধকারের বিরুদ্ধে আলোকবর্তিকা",
+  "segment_summary": "বিশ্বাসকে কেন্দ্র করে, বেহুলার ভেতরের আলো কীভাবে বাইরের সমস্ত অন্ধকার এবং সংশয়কে প্রতিহত করে, তার কাব্যিক বর্ণনা এখানে বিদ্যমান।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the voice of the enduring shadow or absence (Likhindar’s echo), which narrates her endurance through memory fragments.",
+    "story_option": "Setting: At the threshold between what is visible and what is veiled by night; Desire: For a single, clear sign from the heavens (a celestial marker); Obstacle: The persistent murmur of judgmental voices carried on the wind.",
+    "subject_rotation": "Using the concept of 'repetition' not as stasis, but as a deliberate ritualistic reinforcement of truth against chaos.",
+    "sensory_detail": "The specific metallic taste left on the tongue when resisting overwhelming grief.",
+    "research_question": "How can I poetically represent a metaphysical concept like 'spiritual magnification' using only tactile and visual imagery?",
+    "structural_variant": "Interleaving short, highly compressed verses detailing precise ritual actions between longer philosophical meditations on endurance.",
+    "variety_note": "Unlike earlier segments focused on external societal confrontation, this chapter centers entirely inward, mapping the geography of resilient spiritual concentration through acts of intense prayer and unwavering self-belief."
+  }
+}

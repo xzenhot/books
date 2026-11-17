@@ -7,17 +7,70 @@
   "provider": "ollama",
   "book_name": "badam",
   "form": "poetry",
-  "updated_by": "layout",
-  "updated_date": "2026-11-13T10:37:42Z",
-  "updated_at": "2026-11-13T10:37:42Z",
   "chapters": [
-    { "chapter_number": 1, "topic": "The River Before Dawn", "category": "", "status": "pending", "file_path": "chapters/1/chapter.md", "completed_date": null },
-    { "chapter_number": 2, "topic": "The Boatman's Oar", "category": "", "status": "pending", "file_path": "chapters/2/chapter.md", "completed_date": null },
-    { "chapter_number": 3, "topic": "The Song of the Current", "category": "", "status": "pending", "file_path": "chapters/3/chapter.md", "completed_date": null },
-    { "chapter_number": 4, "topic": "The Ghat", "category": "", "status": "pending", "file_path": "chapters/4/chapter.md", "completed_date": null },
-    { "chapter_number": 5, "topic": "The Passenger Without Money", "category": "", "status": "pending", "file_path": "chapters/5/chapter.md", "completed_date": null },
-    { "chapter_number": 6, "topic": "The Debt and the River", "category": "", "status": "pending", "file_path": "chapters/6/chapter.md", "completed_date": null },
-    { "chapter_number": 7, "topic": "The Crossing at Night", "category": "", "status": "pending", "file_path": "chapters/7/chapter.md", "completed_date": null },
-    { "chapter_number": 8, "topic": "The River Remembers the Song", "category": "", "status": "pending", "file_path": "chapters/8/chapter.md", "completed_date": null }
+    {
+      "chapter_number": 1,
+      "topic": "badam — পর্ব 1 — badam",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "badam — পর্ব 2 — badam",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 3,
+      "topic": "badam — পর্ব 3 — badam",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/3/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 4,
+      "topic": "শহরের নতুন বণিকদের আগমন",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/4/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 5,
+      "topic": "একটি বিশেষ ভটিয়ালি গান",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/5/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 6,
+      "topic": "ঋণের জাল ক্রমশ ঘন হতে শুরু করে",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/6/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 7,
+      "topic": "badam — পর্ব 7 — badam",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/7/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 8,
+      "topic": "নদীর অন্য পারে নতুন ফেরি",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/8/chapter.md",
+      "completed_date": null
+    }
   ]
 }

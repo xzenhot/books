@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রূপান্তরের প্রাথমিক চিত্রায়ণ",
+  "segment_summary": "এই দৃশ্যটি কেবল একটি আলোকচিত্র নয়, বরং মানবিক অভিজ্ঞতার এক প্রাথমিক রূপান্তর, যেখানে দৈনন্দিনতা মহিমান্বিত হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "সাধারণ কাপ বা শুকনো পাতার বস্তুর মাধ্যমে কবির ভেতরের ভঙ্গুরতা ও মহাজাগতিক স্ফূর্তির মধ্যেকার সংঘাত দেখানো।",
+    "story_option": "টিনের চাল থেকে আসা ধাতব প্রতিধ্বনি হঠাৎ করেই একটি পরিচিত, চাপা কণ্ঠস্বরকে মনে করিয়ে দেয়, যা কবির বর্তমান শান্তির ধারণাকে চ্যালেঞ্জ করে দেয়।",
+    "subject_rotation": "আলোর এই অস্থায়ী রূপান্তরকে কবির জীবনের এক নির্দিষ্ট হতাশার প্রতিচ্ছবি হিসেবে দেখানো—যা সুন্দর হলেও স্থায়ী নয়।",
+    "sensory_detail": "ঘরের বদ্ধ পরিবেশে বাতাসের চলাচল যখন অত্যন্ত ক্ষীণ, তখন একটি শুকনো পাতার পতনজনিত অতি সূক্ষ্ম 'খসখসে' শব্দ শোনা।",
+    "research_question": "এই ধরনের পুরানো টিনের চালের ধাতব পৃষ্ঠে চন্দ্রালোকে প্রতিফলিত আলোর রঙ এবং তীব্রতা কেমন হতে পারে?",
+    "structural_variant": "দ্রুত ছন্দোময় ছোট মুহূর্তগুলির একটি ক্যানভাস তৈরি করা, যা বারবার আলোক-ছায়ার পরিবর্তন দ্বারা চালিত।",
+    "variety_note": "Neighbours often focus on external movement or past events; this chapter drills deep into the static, almost sacred qualities of light interacting with mundane urban texture."
+  }
+}

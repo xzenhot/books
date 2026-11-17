@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 80,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "মহৎকরণের পথ",
+  "segment_summary": "এই বাধা অতিক্রম করার প্রক্রিয়াই তার সংগ্রামকে নিছক ব্যক্তিগত দুঃখ থেকে মহৎ স্তরে উন্নীত করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the moments *between* societal judgments: the slivers of silence where authentic desire can momentarily bloom before being crushed.",
+    "story_option": "Setting: In a neglected, ancestral chamber filled with relics of societal expectation; Desire: To find one single object that speaks only to primal, uncodified love (Lakhindar's essence); Obstacle: The entire room resonating with the oppressive frequency of historical judgment.",
+    "subject_rotation": "Examining the difference between 'Acceptance' (a passive state) and 'Transcendence' (an active assertion), showing how Behula refuses merely to accept her fate.",
+    "sensory_detail": "The metallic taste of coppery exhaustion when holding a profound internal struggle against external pressures.",
+    "research_question": "How did the concept of female agency express itself culturally within analogous strict socio-religious frameworks before modern upheaval?",
+    "structural_variant": "Employing an extended chiasmus (A-B-C :: C'-B'-A') across the entire chapter to visually represent the inescapable loop of expectation versus deviation.",
+    "variety_note": "This chapter moves away from pure grief or external defiance (as seen previously) to a deep dive into the *structural* battleground—the collision between deeply ingrained societal programming and irreducible spiritual selfhood."
+  }
+}

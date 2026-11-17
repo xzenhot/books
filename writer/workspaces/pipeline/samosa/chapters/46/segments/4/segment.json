@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির সংঘাত",
+  "segment_summary": "এই দৃশ্যপটটি পুরোনো, নিবিড় বাংলার স্মৃতির সঙ্গে বর্তমানের চঞ্চল, বিচ্ছিন্ন বাস্তবতার মধ্যেকার তীব্র সংঘাতকে ফুটিয়ে তোলে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the market noise (the *kolahol*) not as distraction, but as a cacophony of competing identities that overwhelm the singular flavor.",
+    "story_option": "Setting: A specific, overly bright corner stall in an international market; Desire: The speaker wants to catch the faint, fleeting scent of ground mustard seeds beneath the overpowering smell of frying oil from nearby vendors; Obstacle: The heat haze makes every passing shape indistinct.",
+    "subject_rotation": "Focusing solely on the physical act of watching the samosas being dipped or served—a silent, ritualistic observation devoid of tasting.",
+    "sensory_detail": "The sharp, metallic taste of exhaust fumes mingling momentarily with the warm oil scent near the roadside vendor.",
+    "research_question": "How can I use archaic vocabulary (পুরানো বাংলা শব্দ) to describe a modern, sterile market atmosphere without sounding overly academic?",
+    "structural_variant": "A narrative spiral where each sensory input (sight -> sound -> smell) forces a tighter inward focus on the mouth/tongue.",
+    "variety_note": "This chapter pivots from internal culinary reflection to external environmental confrontation; the conflict moves from memory vs. present self, to ingrained cultural form vs. overwhelming urban noise."
+  }
+}

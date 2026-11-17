@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 47,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অনুপস্থিত জীবনযাত্রা",
+  "segment_summary": "এই শূন্যতা কেবল একটি স্ন্যাকসের অভাব নয়, বরং সেই নির্দিষ্ট পারিবারিক উষ্ণতা ও জীবনযাত্রার অনুপস্থিতি।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the physics of mastication—the mechanical failure of the mouth to reconcile two distinct memories during chewing.",
+    "story_option": "The act of peeling off the oily residue from one’s thumb after eating—a ritualistic scrubbing that never cleanses fully. Desire: To wash away the evidence of assimilation; Obstacle: The stain resists all soap and hot water.",
+    "subject_rotation": "Shifting from post-consumption quietude to mid-chewing analysis: detailing how each segment of the filling fails momentarily against the outer membrane.",
+    "sensory_detail": "A sudden, sharp auditory clarity in the moment silence descends—perhaps a distant siren or the hiss of nearby ventilation machinery (Auditory).",
+    "research_question": "What specific low-frequency sound can be used to represent the 'weight' mentioned in Segment 1 without resorting to abstract concepts?",
+    "structural_variant": "A staccato structure where each word cluster represents a momentary sensory input followed by an absolute, empty caesura.",
+    "variety_note": "This chapter moves away from market chaos or preparation; it focuses entirely on the immediate, highly internalized aftermath of consumption—the existential weight carried by the empty palate."
+  }
+}

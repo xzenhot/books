@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির সংরক্ষণাগার",
+  "segment_summary": "এই লেখাগুলি ভবিষ্যতের জন্য এক গোপন বার্তা, যা ইতিহাসের নির্মম বাস্তবতাকে কাব্যিক আখ্যানের মাধ্যমে সংরক্ষণ করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem begins with the sound of wood scraping against rough material (the physical act of writing), immediately subverting any expectation of grand proclamation.",
+    "story_option": "Setting: The edge of the wooden cot; Desire: To capture a specific fading scent from old manuscript paper; Obstacle: A draft slips through the chink in the wood, scattering dust.",
+    "subject_rotation": "Treating the charcoal strokes less as 'writing' and more as a form of ritualistic tattooing onto his own existence.",
+    "sensory_detail": "Sight: The absolute monochrome dominance of soot and charcoal against scarred timber grain.",
+    "research_question": "What specific vocabulary or idiomatic structures in Persianate Mughal court poetry were most resistant to colonial-era linguistic imposition?",
+    "structural_variant": "A sustained *enjambment* effect where ideas spill over violently between segments, mimicking the lack of physical boundaries in his mind.",
+    "variety_note": "Unlike earlier chapters focused on external struggle or past glory, this section is entirely inward-facing, concentrating solely on the *process* of creation as an existential act waged against total erasure; it avoids mentioning specific historical events in favor of abstract technique."
+  }
+}

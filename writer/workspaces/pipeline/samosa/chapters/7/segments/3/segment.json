@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "গল্পের অনুপস্থিতি",
+  "segment_summary": "এই প্রজন্ম খাদ্যটির পেছনের দীর্ঘ সাংস্কৃতিক আখ্যান বা অভিবাসনের বেদনা সম্পর্কে অবগত নয়, যা তাদের অভিজ্ঞতার গভীরতাকে হ্রাস করে।",
+  "name": "7.3",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Intergenerational Communication Failure via Food: Using the flavor difference as a metaphor for an unbridgeable ideological gap between generations.",
+    "story_option": "Setting: Near a high-speed transportation hub; Desire: The samosa should offer a glimpse of 'home' even in transit, allowing for momentary stillness; Obstacle: The kinetic energy and speed of the environment overwhelm any residual flavor memory.",
+    "subject_rotation": "Using the samosa's casing not as a boundary of memory lost, but as a perfect container for new, local ingredients integrated into an unfamiliar fusion.",
+    "sensory_detail": "The cool chill felt immediately after consuming the hot item in a climate-controlled space.",
+    "research_question": "How does repeated exposure to globalized snack foods fundamentally alter the olfactory memory recall associated with regional cuisine?",
+    "structural_variant": "Alternating between hyper-focused descriptions of texture (tactile emphasis) and broad existential observations about cultural drift.",
+    "variety_note": "While earlier chapters delve into the visceral *loss* experienced by the first generation, this segment focuses on the detached *acceptance* of difference by the second, observing where memory fragments fail to connect."
+  }
+}

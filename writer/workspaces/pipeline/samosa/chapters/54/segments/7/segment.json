@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 54,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ত ভাজা",
+  "segment_summary": "তেলের এই পরিবর্তন সামোসার ভেতরের সত্তার উপর কেমন প্রভাব ফেলে, যা কেবল আকার ধরে রেখেছে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the body's memory—how the ache in the hand that grips the warm samosa mirrors the missing flavor.",
+    "story_option": "Setting: The cramped kitchen counter littered with packaging; Desire: To feel the *jhal* spread across a fingertip from residual oil., Obstacle: Only industrial-grade neutral fat is available.",
+    "subject_rotation": "Treating the physical texture of the dough's coating (খোলস) as a map detailing geographical hardship rather than just flavor.",
+    "sensory_detail": "A visual: The dull, matte sheen on a modern frying surface compared to the aggressive, vibrant ochre gloss of authentic oil.",
+    "research_question": "Is there an archaic Bengali term describing the characteristic astringency found in mustard oil used for cooking?",
+    "structural_variant": "A highly asymmetrical structure: eight short, almost haiku-like stanzas focusing intensely on single sensory input (sight/smell/touch) before transitioning into a final philosophical lament.",
+    "variety_note": "This chapter moves away from the narrative shock (like Chapter 1) and adopts an echoing, reflective quality, focusing entirely on the subtle persistence and failure of memory held within a single substance: cooking fat."
+  }
+}

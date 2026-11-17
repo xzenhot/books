@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আর্থিক চাপ",
+  "segment_summary": "এই বাধাটি কেবল শারীরিক নয়, এটি একটি আর্থিক চাপ, যা মাঝির নিঃস্বার্থ কাজের ওপর একটি অদৃশ্য মূল্য আরোপ করতে চায়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the physicality of resistance: how the tension in his oar changes pitch when he must resist authority versus simply rowing freely.",
+    "story_option": "A scenario involving an old debt ledger brought by the intermediary—a physical representation of past scores; desire: to uphold his record of free service; obstacle: a clause in the local agreement that requires minimum fare payment even for charity runs; turn: he symbolically burns or submerges the ledger.",
+    "subject_rotation": "Analyzing the language of the obstruction, looking at how technical/legalistic speech clashes with the primal lexicon of the boat and water.",
+    "sensory_detail": "The jarring quality of the official's cheap, starched cloth against the perpetually oiled and worn hemp of the boat rigging.",
+    "research_question": "How does the concept of 'unpaid duty' manifest in traditional regional narratives regarding waterways?",
+    "structural_variant": "Structuring as an escalating internal monologue where each beat of hesitation corresponds to a tightening chord or dissonance in the implied Bhatiyali rhythm.",
+    "variety_note": "While neighbours established the *existence* of financial pressure (Items 2 & 4), this chapter must focus specifically on the moment of direct, adversarial confrontation where tradition meets imposed bureaucracy."
+  }
+}

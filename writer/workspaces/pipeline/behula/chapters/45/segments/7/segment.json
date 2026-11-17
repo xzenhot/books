@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের সমাপ্তি",
+  "segment_summary": "এই বিজয় সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ বহন করে, যা কেবল ব্যক্তিগত মহিমা নয়, বৃহত্তর পরিবর্তনের ইঙ্গিত দেয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence *after* the reunion—the exhaustion of profound endurance, rather than the joy.",
+    "story_option": "A memory sequence detailing the very first moments after reunion, focusing on a shared, unspoken look that encompasses all prior hardship (Setting: Within the shadow of the threshold stone; Desire: A single breath mirroring years of separation; Obstacle: The phantom ache of past suffering).",
+    "subject_rotation": "Viewing the return not as a triumph over fate, but as a terrifying acceptance of unending metaphysical negotiation.",
+    "sensory_detail": "The abrasive texture of residual dust motes disturbed by sudden, powerful movement upon entry (sight/touch).",
+    "research_question": "What is the most arresting classical Bengali vocabulary for 'unshakeable equilibrium' that suggests perpetual maintenance rather than static peace?",
+    "structural_variant": "A spiraling structure where each segment revisits an earlier emotional state but frames it through the lens of present victory (revisiting loss with empowered memory).",
+    "variety_note": "Unlike previous chapters which focused on specific trials, this chapter must shift entirely to the aftermath—the complex texture of maintaining victory and answering the residual questions it raises."
+  }
+}

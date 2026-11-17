@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অবিরাম যাত্রা",
+  "segment_summary": "নৌকাটি চলতে থাকে, কারণ তার যাত্রা কেবল গন্তব্য নয়, বরং সেই অবিরাম মানবিক অঙ্গীকারের প্রতীক।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing realization as a refusal to negotiate terms, treating his life not as bargaining chip but as sacred territory.",
+    "story_option": "Setting: Next to a solitary boat mooring against newer, rigid metal pilings. Desire: To silently teach the river current how to flow with the freedom of the old songs, Obstacle: The metallic echo overwhelming the natural sound.",
+    "subject_rotation": "Interpreting 'debt' not as what he owes, but as what the *river* embodies (a responsibility to remain wild, which is non-transferable).",
+    "sensory_detail": "The sound of the boat hull humming softly—a low thrumming counterpoint to the roar of distant machinery.",
+    "research_question": "How can the rhythm shift abruptly mid-sentence (the 'twist') to mimic a sudden cognitive break caused by financial pressure?",
+    "structural_variant": "An invocation directed toward the river itself, personifying its acceptance or rejection of his philosophy.",
+    "variety_note": "This chapter pushes away from the external confrontation seen previously, focusing instead on an internal resonance—the quiet acceptance that true value is self-contained within the act itself, rather than derived from its outcome or exchange."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "The Unquenched Question",
+  "segment_summary": "The poem pivots to the philosophical query: does personal triumph negate the systemic failures that necessitated such extreme suffering in the first place?",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'Triumph' as a functional failure: The victory is successful only because it validates the initial, tragic systemic premise.",
+    "story_option": "A sudden return where the beloved does not speak or acknowledge her victory immediately; instead, he simply observes her for a long passage of time.",
+    "subject_rotation": "Shifting focus from 'Endurance' to 'Redefinition': How Behula's suffering necessitates that she fundamentally rewrite her identity post-trial.",
+    "sensory_detail": "The smell of ozone following a moment of immense spiritual discharge or climax.",
+    "research_question": "How can the tension between poetic hyperbole (epic triumph) and mundane reality (social questioning) be maintained without jarring tonal whiplash?",
+    "structural_variant": "Structuring segments as dialogues between two opposing forms of language: highly elaborate archaic diction vs. stark, almost minimalist modern phrasing.",
+    "variety_note": "This chapter departs from simple celebration by forcing the resolution to be interrogated; unlike previous chapters which built towards fortitude, here we dissect its aftermath."
+  }
+}

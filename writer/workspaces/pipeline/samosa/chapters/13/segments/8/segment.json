@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্বাদ",
+  "segment_summary": "শেষ পর্যন্ত, এই অপেক্ষা প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, আত্মার গভীরেও ভাজা থাকে, যা অমলিন থাকে।",
+  "name": "8",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The anti-climax approach: Allowing the waiting period to extend beyond the point of hunger, making patience itself the central flavor profile.",
+    "story_option": "Setting: Examining the texture of an unused packet wrapper containing spice mix; Desire: For the spices within to spontaneously re-form the ancestral aroma, resisting the package’s inertia; Obstacle: The chemical barrier of modernity sealing away tradition.",
+    "subject_rotation": "Focusing on the physical thread metaphor—the way a single ingredient (like ginger or mustard seed) persists physically while its contextual meaning degrades.",
+    "sensory_detail": "A sharp, momentary scent of old jute sacking mixed with steam when leaning near a market stall.",
+    "research_question": "What specific archaic Bengali word best conveys the nuanced emotional state of yearning that is neither sorrow nor joy, but simply enduring?",
+    "structural_variant": "An episodic wait: Segment 1 (waiting for cooking), Segment 2 (waiting at restaurant), Segment 3 (waiting in memory).",
+    "variety_note": "This chapter contrasts sharply with earlier segments by shifting focus from the *act* of creation/loss to the sustained, static endurance of desire itself; it utilizes the thread metaphor as a unifying tension across all sub-themes."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 64,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "হতাশার প্রাচীর ভাঙা",
+  "segment_summary": "একাকীত্বের গভীর হতাশার বিপরীতে, তার ভেতরের আলো তাকে হতাশার প্রাচীর ভেঙে বেরিয়ে আসার সাহস যোগায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal struggle not as defiance against society, but as a necessary alchemical process where sorrow is transmuted into pure metallic resilience.",
+    "story_option": "Setting: A desolate stretch of land near a receding river delta; Desire: To feel the primal touch of mud beneath her worn foot, grounding her in tangible reality; Obstacle: The persistent whispering of doubt echoing from an unseen judge.",
+    "subject_rotation": "Focusing purely on *how* memory functions in trauma, treating Likhindor's image as a recurring visual distortion rather than comforting recollection.",
+    "sensory_detail": "The abrasive texture of dried salt crusting on the skin from emotional strain (touch/smell).",
+    "research_question": "What nuanced Bengali idiom exists to describe internal strength that functions autonomously, without needing external spiritual reinforcement?",
+    "structural_variant": "A series of tightly constrained stanzas where each line must start with a negative prefix (e.g., 'না-নদীর', 'নিঃশব্দে') before breaking into assertion.",
+    "variety_note": "Unlike its predecessors which focused on external trials (death/rejection), this chapter dives inward, mapping the topography of her sustained psychological siege against absolute despair."
+  }
+}

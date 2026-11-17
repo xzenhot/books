@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 74,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নারীত্বের প্রতিচ্ছবি",
+  "segment_summary": "বেহুলার সাহস ও ধৈর্য কীভাবে সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব প্রতিবাদ হয়ে ওঠে, তা এই অংশে আলোচিত।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from 'pity' to 'reckoning'; presenting her endurance as a direct, unacknowledged audit against societal moral bankruptcy.",
+    "story_option": "Scene Seed: She approaches a reflective surface (a still pond or polished bronze), but instead of seeing herself, she sees not only the external world's judgment reflected back, but also faint outlines of countless other women bearing similar spectral burdens.",
+    "subject_rotation": "Rotating the perspective slightly inward, questioning the authenticity of her own 'strength'—is it genuine fortitude or a necessary psychological armor forged in isolation?",
+    "sensory_detail": "The visual dissonance: A vast, overwhelming blackness interrupted only by the intensely concentrated luminescence of her own sustained internal focus.",
+    "research_question": "What specific archaic Bengali vocabulary can convey 'unyielding ethical scaffolding' without being overly formal or abstract?",
+    "structural_variant": "Segmented by sonic texture: Each segment defined primarily by its dominant soundscape (e.g., high-frequency whispers vs. low-resonance thrumming).",
+    "variety_note": "This chapter moves beyond the initial shock (Chapter 1) by rigorously examining *how* that shock is processed and transformed, focusing heavily on the societal friction points rather than just the internal resolve."
+  }
+}

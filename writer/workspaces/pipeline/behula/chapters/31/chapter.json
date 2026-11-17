@@ -1,53 +1,118 @@
 {
   "chapter_index": 31,
   "name": "31",
-  "word_target": 280,
-  "chapter_title": "একাকী বাহুর আত্মনির্ভরতা",
-  "chapter_summary": "কেউ পাশে দাঁড়ায়নি বলেই নিজের শক্তির সীমা জানা সম্ভব হলো। সমস্ত বাহ্যিক আশ্রয় মুছে যাওয়ার পর নিজের আত্মাই একমাত্র আশ্রয়।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "behula — পর্ব 15 — behula",
+  "chapter_summary": "এই শেষ পর্বটি সমস্ত প্রতিকূলতা জয় করার পর বেহুলার স্বামীর প্রত্যাবর্তনের মহাকাব্যিক মুহূর্তকে চিত্রিত করে। এই বিজয় কেবল ব্যক্তিগত ট্র্যাজেডির সমাপ্তি নয়, বরং মানব আত্মার চূড়ান্ত 승리 হিসেবে উপস্থাপিত হয়। এটি দেখায় যে, অদম্য সংকল্প এবং বিশ্বাসের দীপশিখা কীভাবে সমস্ত সামাজিক ও আধ্যাত্মিক অন্ধকারকে ভেদ করে চূড়ান্ত আলো নিয়ে আসে। এই পরিণতি পাঠককে প্রশ্ন করতে বাধ্য করে—এই মহৎ পরিণতি কি কেবল ব্যক্তিগত মহিমা, নাকি এটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব, শক্তিশালী অভিযোগ?",
   "further_references": [],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+      "segment_summary": "দীর্ঘ প্রতীক্ষার পর, সমস্ত বাধা অতিক্রম করে বেহুলার জীবনে স্বামীর প্রত্যাবর্তনের দৃশ্যটি কাব্যিক মহিমায় উদ্ভাসিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "আত্মার চূড়ান্ত 승리",
+      "segment_summary": "এই প্রত্যাবর্তন কেবল একটি ঘটনা নয়, বরং এটি মানব আত্মার সেই আদিম স্পন্দনের চূড়ান্ত বিজয়কে প্রতীকায়িত করে যা প্রতিকূলতার বিরুদ্ধে লড়েছিল।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "অন্ধকারের বিলুপ্তি",
+      "segment_summary": "স্বামীর ফিরে আসা সেই সমস্ত মানসিক শূন্যতা এবং সামাজিক অন্ধকারের উপর চূড়ান্ত বিজয় ঘোষণা করে যা বেহুলার জীবনকে গ্রাস করেছিল।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+      "segment_summary": "এই বিজয় বেহুলাকে কেবল একজন নারী হিসেবে নয়, বরং সকল নিপীড়িত আত্মার প্রেরণা হিসেবে এক অবিস্মরণীয় মহীয়সী রূপে প্রতিষ্ঠিত করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "আলোর নতুন দিগন্ত",
+      "segment_summary": "অগ্নির দীপশিখা যখন চূড়ান্তভাবে জ্বলে ওঠে, তখন তা কেবল ব্যক্তিগত সুখ নয়, বরং বৃহত্তর সামাজিক চেতনার এক নতুন দিগন্ত উন্মোচন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+      "segment_summary": "এই চূড়ান্ত সাফল্য সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব, গভীর অভিযোগের প্রতিধ্বনি বহন করে যা চাপা পড়েছিল।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অদম্য সংকল্পের উত্তরাধিকার",
+      "segment_summary": "বেহুলার এই যাত্রা প্রমাণ করে যে, ভেতরের আলোকবর্তিকা বাইরের সমস্ত প্রতিকূলতাকে অতিক্রম করার ক্ষমতা রাখে, যা ভবিষ্যতের প্রজন্মের জন্য প্রেরণা।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "মহাকাব্যের সমাপ্তি",
+      "segment_summary": "এই কাব্যিক সমাপ্তি পাঠককে এক মিশ্র অনুভূতির গভীরে রেখে যায়—গভীর করুণা এবং অপ্রতিরোধ্য অনুপ্রেরণার এক তীব্র স্রোত।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the specific mechanics of self-maintenance: detailing the deliberate action required to sustain one's own state against inevitable entropy.",
-      "The shift in 'power': demonstrating how self-reliance is not dominance, but a profound acceptance of absolute sufficiency amidst void.",
-      "Tracing the echo as an active agent: treating the recurring sound not just as memory, but as a psychological tether forcing continuous re-engagement with the core struggle."
+      "আলো-ছায়ার দ্বৈরথকে একটি 'স্থায়িত্বের পরিমাপ' হিসেবে ব্যবহার করা: আলো মানে সুখ নয়, বরং টিকে থাকার শক্তি।",
+      "স্বামীর প্রত্যাবর্তনের দৃশ্যটিকে একটি প্রাচীন ধর্মীয় আচার (ritual) রূপে চিত্রিত করা—যেখানে সামাজিক স্বীকৃতি গৌণ এবং ব্যক্তিগত প্রতিজ্ঞাই প্রধান বিধান।",
+      "উপস্থিত থাকা সত্ত্বেও অনুপস্থিত সত্তার সাথে কথা বলা: লখিন্দরকে সম্বোধন করে এমন কিছু প্রশ্ন তোলা যা তার উত্তর দেওয়া সম্ভব নয়, অর্থাৎ একপ্রকার 'একমুখী সংলাপ' রচনা করা।"
     ],
     "story_options": [
-      "Setting: A sparse patch of ground where only dust remains from whatever passed over it; Desire: To find a single surviving trace—a broken stem or faint impression—to affirm that *something* was present before.",
-      "Setting: Near a sound source (e.g., the slow dripping of water, a wind catching dry reeds); Desire: The recurrence of this specific sound acts as a metronome for internal recovery, forcing rhythmic control over scattered thought.",
-      "Setting: While reaching for something small and necessary to sustain itself (a few drops of moisture, a tiny piece of salvaged thread); Obstacle: The sheer effort required makes the task feel monumental, testing willpower against inertia; Turn: The successful completion of this micro-act provides an immediate, tangible validation of self-worth."
+      "Setting: একটি প্রাচীন দেবালয়ের প্রবেশপথ, ধুলো আর পবিত্রতার মিশ্রণ; Desire: বেহুলার হাতটি লখিন্দরের হাতের স্পর্শে অতীতের প্রতিটি সংগ্রামকে যেন মূর্ত করে তোলে (touch/sight); Obstacle: সমাজের নীরব পর্যবেক্ষণ যা তাদের মুহূর্তটিকে বিচার করছে।",
+      "Setting: ঝঞ্ঝাবিক্ষুব্ধ নদীর পাড়, যেখানে জোয়ার ভাটার শক্তি প্রতীকী; Desire: দুটি আত্মা একে অপরের মুখোমুখি হয়ে কেবল 'প্রবাহের সাথে মেশা' অনুভব করতে চায়—কোনো শব্দ বা স্পর্শ নয় (ontological necessity); Obstacle: সময়ের ভার যা ভাষার মাধ্যমে প্রকাশ করা অসম্ভব।",
+      "Setting: একটি শীতল পাথরের বারান্দা, যেখানে জ্যোৎস্নার শেষ রেখা পড়েছে; Desire: বেহুলার আকাঙ্ক্ষা যেন এক অপ্রকাশিত প্রার্থনা হয়ে ওঠে—যে এই মহিমা কি কেবল 'ব্যক্তিগত' নাকি বিশ্বজনীন? (Questioning the scope of her victory); Obstacle: অতীতের কঠিনতম মুহূর্তগুলির স্মৃতি যা উপস্থিতিতেও শীতলতা নিয়ে আসে।"
     ],
     "subject_rotations": [
-      "Exploring 'self' not as singular identity, but as a dynamic tension between the physical necessity (survival) and the spiritual assertion (belief).",
-      "Examining resilience through the lens of necessary *deliberation*: every action is weighed because there is no external guide or automatic support.",
-      "Revisiting the idea of solitude: is it emptiness, or is it the absolute freedom from obligation to any external narrative?"
+      "বিজয়কে শুধুই মিলন হিসেবে না দেখে, সংগ্রাম ও বিশ্বাসের অনিবার্য 'প্রাকৃতিক ফল' বা স্থিতিশীলতার রূপান্তর হিসেবে দেখানো।",
+      "বেহুলার মহিমা এবং সমাজের আরোপিত কাঠিন্যের মধ্যেকার সূক্ষ্ম বিভেদক রেখাটি বিশ্লেষণ করা—যেখানে জয় সত্ত্বেও সামাজিক ক্ষত টিকে থাকে।",
+      "প্রেমের শক্তিকে একটি 'অস্তিত্বগত পদার্থবিদ্যা' (Existential Physics) রূপে উপস্থাপন করা, যা প্রতিকূলতার বিপরীতমুখী চাপ দ্বারা চালিত হয়।"
     ],
     "sensory_details": [
-      "The precise texture of dry earth giving way under a footfall that carries its own weight.",
-      "The high-pitched whine (not emotional) of cicadas vibrating in the midday heat, persistent and inescapable.",
-      "The cool, metallic taste in the mouth when surviving on minimal moisture."
+      "দৃশ্যের ক্ষেত্রে: ফিরতি সূর্যের শেষ রক্তিম রশ্মি যখন ধুলোমাখা বাতাসের কণার উপর পড়ে এক ক্ষণিকের 'উজ্জ্বল পর্দা' তৈরি করে।",
+      "স্পর্শের ক্ষেত্রে: লখিন্দরের দেহের স্পর্শে এমন কোনো উষ্ণতা নয়, বরং বহু বছরের কঠিন প্রত্যাশার কারণে সৃষ্ট একটি স্থিতিশীল, গভীর শীতলতা অনুভব করা—যা জীবনের গভীরতার সাক্ষ্য দেয়।",
+      "ঘ্রাণের ক্ষেত্রে: দীর্ঘ অবরোধের পর বাতাসে ভেসে আসা ভেজা মাটির সোঁদা গন্ধ ও পোড়া কাঠ (অগ্নির দীপশিখা) এর মিশ্রিত সুবাস।"
     ],
     "research_questions": [
-      "How can the concept of an 'unseen current' (metaphorical energy flow) be described using only tactile or thermal language without resorting to meteorological terms?"
+      "কবিতার কোন অংশে 'মহৎ পরিণতি' এবং 'ব্যক্তিগত মহিমা'র মধ্যেকার দার্শনিক পার্থক্যটি সবচেয়ে সূক্ষ্মভাবে ফুটিয়ে তোলা যায়?",
+      "'আত্মার চূড়ান্ত 승리'-কে কীভাবে এমন একটি কাঠামোতে স্থাপন করা যায় যা কাব্যিক দৃঢ়তা বজায় রেখেও দার্শনিক সংশয়কে আমন্ত্রণ জানায়?",
+      "যেহেতু সম্বোধিত ব্যক্তি অনুপস্থিত, তার নীরব উত্তর কীভাবে কবিতার গতিপথকে চালনা করবে?"
     ],
     "structural_variants": [
-      "A heavily fragmented sequence: rapid-fire images of self-care punctuated by long pauses where the recurrent sound takes precedence.",
-      "An inversion structure: begin with a detailed catalogue of external failures/absence before settling into the intimate mechanics of internal rebuilding.",
-      "A spiraling movement: each act of maintenance triggers a memory, and the memory itself demands another compensatory action."
+      "কবিতাটিকে এক ধরণের 'প্রতিক্রিয়াশীল বৃত্ত' হিসেবে লেখা—প্রতিটি স্তবক পূর্ববর্তী স্তবকের একটি ধারণাকে গ্রহণ করে, কিন্তু তাকে সম্পূর্ণ ভিন্ন দার্শনিক প্রেক্ষিতে পুনঃনির্দেশিত করে।",
+      "মধ্যভাগকে এমনভাবে বিন্যস্ত করা যাতে প্রতিটি দার্শনিক প্রশ্ন নিজেকেই উত্তর দেয়, কিন্তু সেই উত্তরটিও আবার নতুন প্রশ্ন সৃষ্টি করে (Self-referential questioning)।"
     ],
     "unused_angles": [
-      "The concept that self-reliance creates an immediate burden—the necessity to be perfect in one's sustained effort, which is exhausting in itself.",
-      "Exploring the relationship between physical depletion (hunger/thirst) and spiritual clarity; does absolute need sharpen or dull belief?"
+      "উপস্থিত থাকা সত্ত্বেও অদৃশ্য জগতের দিকে তাকিয়ে থাকার একাকীত্ব; যেখানে ফিরে আসা মানুষটি কেবল একটি প্রতীকী কাঠামো মাত্র।",
+      "জীবনের 'প্রয়োজনীয় ব্যর্থতা'র ধারণার প্রতিষ্ঠা—যেখানে কিছু যন্ত্রণা পূরণ করা অসম্ভব, এবং সেই অপূরণীয়তা মেনে নেওয়াটাই চূড়ান্ত বিজয় হওয়া।"
     ],
-    "variety_note": "This chapter shifts focus inward entirely, moving beyond shared societal pain (Chapter 30) to the intensely private, almost mechanical process of individual, unwavering maintenance in absence."
+    "variety_note": "পূর্ববর্তী পর্বগুলি প্রতিকূলতার বর্ণনা বা প্রতিরোধে নিবদ্ধ ছিল; এই পর্বে ফোকাস স্থানান্তরিত হচ্ছে 'মিলনের পর স্থিতাবস্থা' ও তার অন্তর্নিহিত দার্শনিক প্রশ্নাবলীর দিকে, যা আগের কোনো অধ্যায়ে আসেনি।"
   },
   "draft": {
-    "sha256": "7bfc0ba49a878614ff52d69e1471662f28c791749f7ac261806b6f07c57faa48",
-    "written_at": "2026-10-21T16:30:08.600126+00:00",
+    "sha256": "7a69d02d4b16a763c3a05817a744c786a2eafc5b282ccbe4efc76d3deefa649a",
+    "written_at": "2026-11-16T05:14:50.736021+00:00",
     "origin": "write"
   }
 }

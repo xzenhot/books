@@ -9,3 +9,6 @@ CONTRACT:
 - 'expansion' is 2–4 sentences naming the protagonist, the conflict, and the transformation.
 - Preserve the seed's core idea; elevate it, do not replace it with an unrelated story.
 - Write in English unless the seed is in another language, in which case match it.
+- The combined 'gist' + 'expansion' must total at least 400 words: pack the seed
+  with concrete specifics (person, place, era, object, conflict, stakes) because
+  it is the starting point and seed for every later stage.

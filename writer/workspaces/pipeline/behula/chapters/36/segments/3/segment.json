@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 36,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "এই চূড়ান্ত সাফল্য বেহুলাকে কেবল একজন নারী হিসেবে নয়, বরং এক মহৎ, অবিস্মরণীয় প্রতীক হিসেবে প্রতিষ্ঠিত করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The echo of endurance: Framing the reunion not as arrival, but as an incredibly slow, almost geological process—the reintegration of two separate elements under immense pressure.",
+    "story_option": "Setting: Standing near the dry riverbed where their vigil took place; Desire: To trace the contours of dried earth with one's bare foot, feeling the ghost of the long wait imprinted on the clay; Obstacle: The overwhelming weight of societal expectations demanding an 'easy' conclusion.",
+    "subject_rotation": "The narrative climax being not the return itself, but the quiet, almost clinical inventory taken by Behula once he is present—a catalogue of scars shared.",
+    "sensory_detail": "Sound: The subtle subsonic resonance felt in the chest cavity when two separated souls align, overriding ambient noise.",
+    "research_question": "What archaic Bengali lexicon best captures the feeling of 'earned permanence'—a state that is neither transient joy nor crushing burden?",
+    "structural_variant": "Structuring the eight segments as overlapping emotional tides rather than sequential steps towards climax.",
+    "variety_note": "Unlike earlier segments focusing on external struggle (societal bias, gods), these final eight parts prioritize an intense inward focus—the quiet ontology of reunion and the complex dialogue with what remains unspoken even in victory."
+  }
+}

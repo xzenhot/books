@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 24,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মার অনুরণন",
+  "segment_summary": "দেবী শক্তির বহির্জাগতিক প্রকাশ থেকে সরে এসে, তা মানব আত্মার গভীরে এক নীরব প্রতিজ্ঞা হিসেবে অনুরণিত হচ্ছে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Examining 'memory fidelity' after immersion: how does the mind actively reconstruct the divine presence when its visible form is gone?",
+    "story_option": "Setting: Inside an artisan's workshop (*কুমোরটুলি*) during the lull between festivals; Desire: The craftsman seeks to imbue his next creation with not piety, but a subtle resistance against inevitable decay (a form of quiet rebellion).",
+    "subject_rotation": "Focusing on the *interpersonal* burden: The unspoken agreement between generations to uphold this belief structure, regardless of personal doubt.",
+    "sensory_detail": "Touch: The sensation of rough, sun-baked clay dust adhering stubbornly to skin after weeks indoors.",
+    "research_question": "What specific Bengali colloquialisms exist to describe profound, quiet longing for an unattainable state of being without employing explicit mythological vocabulary?",
+    "structural_variant": "Employing three consecutive segments that operate entirely as rapid-fire interrogations (Socratic style), breaking the meditative flow before returning to deep contemplation.",
+    "variety_note": "Unlike preceding chapters which focused on the act of creation or ecstatic celebration, this chapter must prioritize inertia and residue—the aftermath, the sustained internal whisper after the grand noise has ceased."
+  }
+}

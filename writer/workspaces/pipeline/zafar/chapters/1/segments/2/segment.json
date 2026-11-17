@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "ক্ষমতার ভার ও সম্রাটের নিঃসঙ্গতা",
+  "segment_summary": "জাফরের সিংহাসনে অধিষ্ঠিত থাকা সত্ত্বেও, তাঁর ব্যক্তিগত বিচ্ছিন্নতা এবং রাজকীয় দায়িত্বের বিশাল ভারের অনুভূতি চিত্রিত হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A focus on a single, discarded royal seal contrasting with fleeting poetic verses.",
+    "story_option": "Scene: A secluded corner within the palace gardens after sunset. Desire: To find a specific scent or sound—a remnant of pure Mughal splendor. Obstacle: The presence of European overseers whose activities are too loud and procedural. Turn: The Emperor uses poetry to 'silence' that intrusion in his mind.",
+    "subject_rotation": "Focusing on the sonic quality of courtly language dissolving into internal murmurings.",
+    "sensory_detail": "The scent of aged, spiced incense failing to mask the chill night air (smell).",
+    "research_question": "Were there specific architectural elements in the Red Fort symbolizing transient power?",
+    "structural_variant": "The chapter structured around a gradual loss of formal linguistic register.",
+    "variety_note": "Unlike later chapters dealing with exile or bloodshed, this section establishes the fragile beauty of power just before its systemic rot sets in."
+  }
+}

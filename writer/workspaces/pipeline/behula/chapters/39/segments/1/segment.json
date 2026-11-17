@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 39,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ী প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত অন্ধকার ভেদ করে, বেহুলার জীবনে সেই প্রতীক্ষিত আলো ফিরে আসে, যা তার অনুপস্থিতি দ্বারা নিভে গিয়েছিল।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the abstract silence of the 'Wall' or societal judgment itself, instead of just speaking *to* an absent figure.",
+    "story_option": "Setting: The quiet domestic space just after arrival (the hearth area); Desire: To communicate the entire span of suffering through an unuttered gesture toward Lkhindor; Obstacle: The weight of unspoken societal narrative pressing down on them.",
+    "subject_rotation": "Focusing intensely on the dialectic between *Is* (the physical reality of reunion) and *Ought* (the societal expectation of her status).",
+    "sensory_detail": "The abrasive coolness of aged stone felt beneath a single trembling finger as she touches his familiar form.",
+    "research_question": "What archaic Bengali term most precisely captures a state that is neither simple joy nor overwhelming burden, but rather 'hard-won equilibrium'?",
+    "structural_variant": "Employing an anti-climax where the highest rhetorical praise for reunion is immediately undercut by a starkly mundane description of necessary post-return labor.",
+    "variety_note": "Unlike neighbour chapters focusing on the *process* of endurance, this chapter must pivot to defining the *state* achieved by that endurance, while maintaining a self-aware tension regarding its societal validity."
+  }
 }

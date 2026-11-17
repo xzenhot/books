@@ -1,63 +1,116 @@
 {
   "chapter_index": 2,
   "name": "2",
-  "word_target": 400,
-  "chapter_title": "দিওয়ান-ই-খাস: ভাতার অঙ্ক বনাম সার্বভৌমত্বের দাবি",
-  "chapter_summary": "এই অধ্যায়টি দিল্লির দরবারের আনুষ্ঠানিকতার পটভূমিতে স্থাপিত, যেখানে জাফর তাঁর কূটনৈতিক সমতার দাবি উত্থাপন করেন। তিনি উপলব্ধি করেন যে তাঁর বিশাল সাম্রাজ্যের উত্তরাধিকার এখন কেবল ব্রিটিশ নথিতে লিপিবদ্ধ একটি মাসিক ভাতার অঙ্কে পর্যবসিত হয়েছে। এই দৃশ্যটি প্রতীকী মর্যাদার মৃত্যু এবং ঔপনিবেশিক ক্ষমতার শীতল, কাঠামোগত বাস্তবতার মুখোমুখি হওয়ার যন্ত্রণা ফুটিয়ে তোলে। প্রশ্নটি হলো—যখন ক্ষমতাকে কেবল একটি প্রশাসনিক নথিতে সংকুচিত করা হয়, তখন একজন সম্রাটের আত্মমর্যাদা কীভাবে টিকে থাকে?",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "ক্ষমতার আনুষ্ঠানিক হস্তান্তর এবং বৃত্তির আগমন",
+  "chapter_summary": "এই অধ্যায়টি সেই মর্মান্তিক সন্ধিক্ষণকে চিত্রিত করে যখন বাহাদুর শাহ জাফরকে 'কিং অব দিল্লি' উপাধি দেওয়া হয়, যা আসলে ব্রিটিশ কোম্পানির আরোপিত একটি করুণ প্রহসন। রাজকীয় আভিজাত্য এবং মাসিক বৃত্তি নামক প্রতীকী দাসত্বের মধ্যেকার সূক্ষ্ম সংঘাত এখানে তীব্রভাবে ফুটে ওঠে। চিত্রকল্পে লালকেল্লার জাঁকজমকপূর্ণ দেয়াল এবং কোম্পানির শীতল প্রশাসনিক নথিপত্রের বৈপরীত্য বিদ্যমান। এই অধ্যায়টি প্রশ্ন তোলে—যখন সার্বভৌমত্বকে কেবল একটি আর্থিক ভাতার বিনিময়ে বিক্রি করা হয়, তখন সম্রাটের আত্মমর্যাদা কোথায় আশ্রয় খুঁজে পায়?",
   "further_references": [
+    "research.md"
+  ],
+  "segments": [
     {
-      "no": "5",
-      "reference": "ওয়ারেন হেস্টিংস-পরবর্তী কোম্পানি নথি (পেনশন ও উপাধি সংক্রান্ত)",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "উপাধি ও প্রহসনের সূচনা",
+      "segment_summary": "জাফরের সার্বভৌমত্বের আনুষ্ঠানিক বিলুপ্তি এবং 'কিং অব দিল্লি' উপাধি প্রাপ্তির মুহূর্তটি এখানে বর্ণিত হয়, যা ক্ষমতার চূড়ান্ত বিচ্যুতিকে নির্দেশ করে।",
+      "further_references": []
     },
     {
-      "no": "2",
-      "reference": "দেবীমাহাত্ম্য নয় — বরং ১৮৫৭-র সমসাময়িক বিবরণ ও ব্রিটিশ প্রতিবেদন",
-      "weblink": ""
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "এক লক্ষ টাকার বৃত্তির ভার",
+      "segment_summary": "মাসিক এক লক্ষ টাকার বৃত্তিভোগী হিসেবে সম্রাটের নতুন অবস্থান এবং এই আর্থিক নির্ভরতার মাধ্যমে আরোপিত অপমানকে কাব্যিকভাবে বিশ্লেষণ করা হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "লালকেল্লার দেয়ালের অভ্যন্তরে সংঘাত",
+      "segment_summary": "লালকেল্লার অভ্যন্তরে সম্রাটের মানসিক দ্বন্দ্ব—রাজকীয় অহংকার বনাম অর্থনৈতিক বাধ্যবাধকতা—এই অংশে চিত্রিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "কোম্পানির শীতল দৃষ্টি",
+      "segment_summary": "ব্রিটিশ রেসিডেন্টদের শীতল, বিচারকসুলভ দৃষ্টিভঙ্গি এবং তাদের প্রশাসনিক ভাষা কীভাবে সম্রাটের মর্যাদাকে ক্ষয় করে, তা তুলে ধরা হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "আত্মমর্যাদার নীরব প্রতিরোধ",
+      "segment_summary": "শারীরিক পতন সত্ত্বেও, সম্রাটের আত্মিক প্রতিরোধ কীভাবে শুরু হয়, যা পরবর্তীকালে কাব্যিক অভিব্যক্তিতে রূপ নেবে, তা এই অংশে ইঙ্গিত করা হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "মুঘল নামের বিলুপ্তি",
+      "segment_summary": "মুঘল সাম্রাজ্যের প্রতীকী নাম ও কর্তৃত্বের বিলুপ্তি এবং তার স্থান দখলকারী প্রশাসনিক কাঠামোর চিত্রায়ণ করা হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "শব্দে নতুন সার্বভৌমত্ব খোঁজা",
+      "segment_summary": "এই অপমানজনক পরিস্থিতিতে, সম্রাটের মন কীভাবে সাহিত্য ও গজলকে নিজের প্রকৃত সার্বভৌমত্বের ক্ষেত্র হিসেবে চিহ্নিত করতে শুরু করে, সেই প্রক্রিয়াটি দেখানো হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অমীমাংসিত প্রশ্ন: সম্মান বনাম ভাতা",
+      "segment_summary": "অধ্যায়টি এই মৌলিক প্রশ্নটি রেখে যায় যে, একটি সম্মানজনক রাজকীয় অস্তিত্ব কি কেবল একটি মাসিক আর্থিক ভাতার মাধ্যমে টিকিয়ে রাখা সম্ভব?",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "The focus shifts from the grand court ceremony to a highly intimate internal monologue where every formal address ('His Highness') becomes an unbearable linguistic cage.",
-      "Framing the confrontation not as a political debate, but as a ritualistic performance: জাফর meticulously adhering to Mughal court etiquette while internally undermining the power of his own words against bureaucratic jargon.",
-      "Employing unreliable memory within the scene; perhaps জাফর recalls instances from before the annexation, subtly contrasting them with the current sterile reality at the Diwan-i-Khas."
+      "চিত্রকল্পের মাধ্যমে দেখান, কীভাবে লালকেল্লার জাঁকজমকপূর্ণ পাথরের গঠন (যা স্থায়িত্ব বোঝায়) কোম্পানির শীতল নথির লম্বালুপে ভঙ্গুর হয়ে যায়।",
+      "জাফরের অন্তঃস্থ সংলাপ—তিনি কি বৃত্তি গ্রহণ করে আত্মসম্মানকে 'বিক্রি' করছেন, নাকি তা এক প্রকার অনিবার্য মানবিক আত্মসমর্পণ?",
+      "নামকরণের মাধ্যমে বিপ্লব: 'শাহ জাফর'-এর মহৎ ধ্বনি যখন 'কিং অব দিল্লি' নামক প্রশাসনিক ডাকনামে পরিণত হয়।"
     ],
     "story_options": [
-      "Setting: The Diwan-i-Khass chamber during a stifling afternoon. Desire: To force the British administrators to acknowledge his inherent sovereignty beyond salary terms. Obstacle: Their unwavering adherence to standardized ledgers and protocols. Turn: জাফর delivers an eloquent, passionate monologue that is immediately met with a polite but devastatingly sterile bureaucratic notation.",
-      "Setting: A side corridor leading into the Diwan-i-Khass, moments before the main audience. Desire: A small act of defiance—perhaps communicating covertly with a trusted Mughal retainer. Obstacle: The pervasive presence of British military guards whose silence is heavier than any shout. Turn: The retainer gives him not advice, but a specific object (like a dried rose petal) that symbolizes an old promise.",
-      "Setting: A small ante-room adjacent to the main reception hall. Desire: To recapture the atmosphere of genuine diplomatic parity from earlier Mughal interactions. Obstacle: The lingering scent of imported British tea and stale tobacco replacing the rich aromas of court spices. Turn: জাফর attempts to invoke a historical precedent, but finds his own citation is dismissed as 'romantic excess'."
+      "দৃশ্যপট: দিওয়ান-ই-খাস বা প্রাসাদের এক কোণ। আকাঙ্ক্ষা: পুরনো দীপ্তিময় রাজকীয় আভিজাত্যের শেষ আভাকে ধরে রাখা। বাধা: কোম্পানির প্রতিনিধি দ্বারা জারি হওয়া একটি সীলমোহর, যা স্বর্ণের বদলে খসড়া কাগজ দ্বারা স্বাক্ষরিত। পরিণতি: সম্রাটের চোখ দিয়ে ঝরে পড়া অশ্রু গজল-ছন্দের মতো ছন্দবদ্ধ হয়।",
+      "দৃশ্যপট: ব্যক্তিগত कक्ष যেখানে ভাতার বিবরণী রাখা আছে। আকাঙ্ক্ষা: সেই নথিপত্রে নিজের ব্যক্তিত্বের কোনো প্রতিচ্ছবি খুঁজে বের করা। বাধা: হিসাবরক্ষকের কাঠিন্য, যিনি সংখ্যাকে আবেগ থেকে বিচ্ছিন্ন করে দেখছেন। পরিণতি: তিনি উপলব্ধি করেন, তাঁর আসল 'রাজদণ্ড' এখন কালির বাঁধনে বাঁধা।",
+      "দৃশ্যপট: বাজার বা জনসমাগমস্থলে কোম্পানির সামরিক উপস্থিতি। আকাঙ্ক্ষা: বহিরাগত জনগণের কাছেও নিজের বংশীয় মহিমান্বিত পরিচয় বজায় রাখা। বাধা: ব্রিটিশ বাহিনীর উর্দি এবং তাদের উচ্চকণ্ঠের প্রশাসনিক নির্দেশাবলী। পরিণতি: তিনি লোকচক্ষুর আড়ালে, কেবল তার ব্যক্তিত্বে রাজত্বের অবশিষ্ট ধ্বনি খুঁজে পান।"
     ],
     "subject_rotations": [
-      "Treating the pension amount not merely as money, but as a precise metric measuring the decay rate of imperial prestige.",
-      "Analyzing the power dynamics through the shared vocabulary: how both Mughal noble language and Company administrative English attempt to define 'Dignity'.",
-      "Focusing on the physical act of signing documents—the weight of his seal versus the triviality of the clauses."
+      "ক্ষমতা বনাম অর্থ: কীভাবে প্রতীকী সার্বভৌমত্ব আর্থিক নির্ভরতার সাথে প্রতিস্থাপিত হয় তার আখ্যানভিত্তিক বিশ্লেষণ।",
+      "ভাষাগত অবনমন: রাজকীয় প্রথাগত শব্দাবলী থেকে প্রশাসনিক, নিরেট ইংরেজি/উর্দু পরিভাষায় রূপান্তরের দার্শনিক ট্র‍্যাকিং।",
+      "প্রহসন হিসেবে রাষ্ট্রের ধারণা: যে উপাধিটি সম্মানসূচক হলেও বাস্তবে কেবল একটি আর্থিক দায়বদ্ধতা মাত্র।"
     ],
     "sensory_details": [
-      "The specific, dry, papery scent emanating from the ledger books that quantify his meager stipend.",
-      "The harsh, reflective gleam of a polished brass lamp in the Diwan-i-Khass, casting unforgiving shadows on powdered marble floors."
+      "নথির শুকনো, নিষ্প্রাণ কাগজের ফাটল (স্পর্শ)",
+      "মাসিক ভাতা সংক্রান্ত হিসাবের খাতার स्याহী গন্ধে মিশে থাকা পুরনো মশলার সুবাস (ঘ্রাণ)"
     ],
     "research_questions": [
-      "What specific archaic Mughal court titles (beyond 'Emperor') could জাফর employ that might hold unrecognized symbolic weight against British nomenclature?",
-      "How did 19th-century Company officialdom document the status of deposed royalty in their correspondence, and what linguistic markers were used for demotion?"
+      "মুঘল রাজকীয় আভিজাত্যের কোন নির্দিষ্ট উপাদানগুলি ব্রিটিশ প্রশাসনিক ভাষায় সবচেয়ে বেশি অপমানজনক বা নিরর্থক রূপে বর্ণিত হতে পারে?"
     ],
     "structural_variants": [
-      "A dialogue heavily punctuated by long pauses where only the ticking of a large, prominent wall clock fills the silence.",
-      "Alternating short scenes: one detailing the formal exchange at the Diwan-i-Khass, followed immediately by an internalized flashback to his childhood in court."
+      "A fragmented structure mirroring the dissection of his title/status by administrative documents.",
+      "Alternating between a highly lyrical internal monologue and stark, declarative prose mimicking official decrees."
     ],
     "unused_angles": [
-      "Exploring the specific psychological exhaustion of having to maintain 'royal bearing' while being treated as a civil servant.",
-      "How the physical layout of the room—the fixed seating arrangement—enforces and visualizes the hierarchy that words fail to articulate."
+      "Exploring potential dialogue moments where a high-ranking courtier implicitly mocks the financial mechanism rather than directly confronting it."
     ],
-    "variety_note": "This chapter contrasts sharply with the internalized struggle of Chapter 1 by placing জাফর directly within the apparatus of oppressive bureaucracy, shifting focus from personal reflection to a public, failed assertion of dignity."
+    "variety_note": "এই অধ্যায়টি প্রতিবেশী অংশগুলির তুলনায় প্রশাসনিক ভাষা এবং আর্থিক যান্ত্রিকতার প্রতি মনোযোগ কেন্দ্রীভূত করে, যা সরাসরি ক্ষমতার বিলুপ্তিকে একটি সংখ্যাগত প্রক্রিয়ার মাধ্যমে চিত্রিত করে।"
   },
   "draft": {
-    "sha256": "8d77a463303ff70de882af38ae81d2f659f077717645aa9a18cfba9b9a4fdb0b",
-    "written_at": "2026-10-29T19:57:55.252077+00:00",
+    "sha256": "d46c164682ae5eadd3572c704025af8da651ec5cf8f49c568e7bfd9d87fe26d5",
+    "written_at": "2026-11-16T22:50:39.961656+00:00",
     "origin": "write"
   }
 }

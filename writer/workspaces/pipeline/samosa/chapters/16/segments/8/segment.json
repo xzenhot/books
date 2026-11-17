@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন অপেক্ষার সুর",
+  "segment_summary": "কবিতাটি সেই চিরন্তন আকাঙ্ক্ষার সুর নিয়ে শেষ হয়, যা নিখুঁততার সন্ধানে সর্বদা চলমান থাকে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting perspective to focus on the internal architecture of desire: treating yearning as a physical tension or stress fracture within the self (linked to the body/hand motif).",
+    "story_option": "Setting: Inside an unused, heavy woven cloth bag left by a traveler; Desire: For the fibers of the sack to somehow absorb and release the ghost scent of yesterday's frying oil; Turn: The smell is not released, but instead sharpens into an unbearable, pure chemical note.",
+    "subject_rotation": "Focusing purely on the body's reaction to the void: How does sustained, unresolved longing manifest physiologically (tight chest, tremor) rather than intellectually?",
+    "sensory_detail": "Sound: The high, sustained drone of distant traffic overpowering the memory of sizzling oil.",
+    "research_question": "What specific syntax will best convey the philosophical weight when discussing taste as a non-physical entity?",
+    "structural_variant": "A poem structured around escalating rhetorical questions, leading to no definitive answer but profound implication.",
+    "variety_note": "This chapter moves away from describing the *process* (cooking, traveling) to analyzing the *aftermath*—the metaphysical residue left on the palate and soul."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা অংশ",
+  "segment_summary": "এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক সীমানা অতিক্রম করতে পারে না।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'taste' not as a chemical state but as a specific form of exhausted dialect that cannot be spoken in the new land.",
+    "story_option": "Setting: Holding a single, empty wrapper remnant under weak light; Desire: To treat this fragile husk as an archaic map charting impossible flavor coordinates; Obstacle: Its complete lack of discernible texture that connects to memory.",
+    "subject_rotation": "Focusing on how the act of *waiting* for the perfect taste becomes a more defined state than the consumption itself.",
+    "sensory_detail": "Taste: A phantom sensation—the memory of salt crystallizing on a tongue that currently tastes only dust.",
+    "research_question": "How can I poetically represent 'অনুবাদিত' (translated/unrendered) without resorting to direct linguistic comparison?",
+    "structural_variant": "A sustained stream-of-consciousness segment that begins mid-chew and never resolves into a clear narrative statement.",
+    "variety_note": "This chapter deliberately eschews overt description of setting or action, focusing intensely on the internal residue—the aftermath of consumption and its philosophical implications."
+  }
+}

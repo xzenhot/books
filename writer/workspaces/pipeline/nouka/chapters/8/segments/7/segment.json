@@ -4,19 +4,19 @@
   "chapter_index": 8,
   "segment_index": 7,
   "total_segments": 8,
-  "segment_title": "মৃত্যুর ফাঁদ",
-  "segment_summary": "বদলে যাওয়া স্রোত কখনো মৃত্যুর ফাঁদ পাতে; কবিতা নদীর ক্রোধকে কংক্রিটের হস্তক্ষেপের পরিণতি হিসেবে দেখে।",
+  "segment_title": "অপেক্ষা ও উদ্বেগ",
+  "segment_summary": "গোপাল এখন আর কেবল যাত্রীর জন্য অপেক্ষা করে না, বরং নদীর পরবর্তী আকস্মিক পরিবর্তনটির জন্য গভীর উদ্বেগ নিয়ে অপেক্ষা করে।",
   "name": "7",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Focusing on the residue of destruction: The poem begins after a major flood surge has passed, focusing only on the unnerving quiet and the strange clarity of the water left behind.",
-    "story_option": "Setting: A specific, recently flooded small fishing cove; Desire: Gopal attempts to salvage something utterly insignificant—a single worn piece of netting—to affirm life's persistence despite the water’s malice; Obstacle: The water itself refuses to let him recover it, flowing around his reach.",
-    "subject_rotation": "Shifting emphasis from 'anger' to 'indifference': Presenting the river not as vengeful, but perfectly neutral, which is arguably a more terrifying judgment.",
-    "sensory_detail": "The taste of mineral tang mixed with stagnant river salt left on Gopal's lower lip after a sudden deluge.",
-    "research_question": "What is the precise local vocabulary for 'unpredictable current' in a heavily modified river system?",
-    "structural_variant": "Employing abrupt shifts: A segment dedicated entirely to the detailed mechanics of water erosion, jarringly contrasted with a purely internal monologue on acceptance.",
-    "variety_note": "This chapter deliberately moves beyond description of conflict (as seen in previous chapters) to focus on the *consequences* and the existential quietude following a moment of overwhelming natural force, making it more reflective than combative."
+    "angle": "নদীকে একজন পুরাতন প্রত্নতত্ত্ববিদ হিসেবে দেখা—যিনি তার নিজস্ব জলপ্রবাহের পরিবর্তন লক্ষ্য করছেন এবং বুঝতে পারছেন যে 'ঐতিহাসিক স্তর' সরে যাচ্ছে।",
+    "story_option": "সেটিং: একটি গভীর খাদ যেখানে হঠাৎ করে পলি নেমে গেছে; আকাঙ্ক্ষা: গোপাল সেই তলদেশের কোনো অদ্ভুত, প্রাচীন বস্তুটি খুঁজে পান যা আগের জীবনযাত্রার সাক্ষ্য দেয়; বাধা: স্রোত দ্রুত গতিতে তাকে টেনে নিয়ে যায়।",
+    "subject_rotation": "এই অধ্যায়টিকে কেবল 'প্রাকৃতিক বিপর্যয়' হিসেবে না দেখে, এটিকে প্রকৃতির নিজস্ব মেজাজ বা মানসিকতার পরিবর্তন হিসেবে দেখা—যে নদী এখন আর শান্ত 어머니 নয়, বরং অস্থির সত্তা।",
+    "sensory_detail": "গভীর জলের নিচে থাকা মসৃণ শিলাগুলোর উপর দিয়ে ভেসে আসা আলগা পলিমাটির রুক্ষ, দানাদার স্পর্শ।",
+    "research_question": "নদীর জলস্তরের অস্বাভাবিক ওঠানামা কি স্থানীয়ভাবে পরিচিত কোনো ঋতুগত বা ভূ-প্রাকৃতিক ঘটনার সাথে সম্পর্কিত, নাকি এটি আধুনিক হস্তক্ষেপের পূর্বাভাস?",
+    "structural_variant": "কবিতাটির কাঠামোতে ইচ্ছাকৃত 'অসমমিতি' (asymmetry) বজায় রাখা—যেখানে একটি পঙক্তি হবে দীর্ঘ ও স্থির, আর পরেরটি হঠাৎ খণ্ডিত হয়ে যাবে জলের ওঠা-নামার অনুকরণে।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলির শারীরিক ক্ষয় বা সামাজিক সংঘাতের বিপরীতে, এই পর্বটি সম্পূর্ণভাবে 'অস্থিরতার আবহ' নির্মাণ করে; যেখানে সংঘাত বাহ্যিক নয়, বরং অস্তিত্বগত অনুভূতির স্তরীয় পরিবর্তন নির্দেশ করে।"
   }
 }

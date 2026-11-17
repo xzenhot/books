@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অতীতের প্রত্যাখ্যান",
+  "segment_summary": "পথিক বুঝতে পারে যে এই মাটি মানুষের আরোপিত ধর্ম ও মহাকাব্যিক ট্র্যাজেডিকে বহু আগেই প্রত্যাখ্যান করেছে।",
+  "name": "3.3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on a specific, mundane object (like a weathered grinding stone) that symbolizes cultural permanence vs. transient history.",
+    "story_option": "Setting: Inside the main courtyard of the decaying mansion, amidst moss and root growth; Desire: To understand *why* the ancestors chose to abandon the grandeur; Obstacle: An elder guides the traveler not through memory, but by showing how nature has effectively reclaimed specific rooms for shelter or nesting places; Turn: The traveler begins mapping biological reclamation rather than human decline.",
+    "subject_rotation": "Examining the economic implications: how does indigenous subsistence interact with imposed historical narratives regarding land use?",
+    "sensory_detail": "Sight of specific mineral deposits in the soil that catch the light uniquely when exposed near old foundation stones.",
+    "research_question": "What are observable patterns of demarcation or territorial marking used by the Satual community around historical ruins?",
+    "structural_variant": "An entirely cyclical structure where every segment echoes back to the core unanswered question from Segment 1.",
+    "variety_note": "This chapter shifts away from pure anthropological observation towards a confrontation with geological and biological time, contrasting heavily with the immediate political focus of neighbours."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নিয়ন্ত্রণের ব্যর্থ প্রচেষ্টা",
+  "segment_summary": "পথিকের 'সংরক্ষণ' করার প্রচেষ্টা এখানে কেবলই এক ভঙ্গুর, নিয়ন্ত্রণের ব্যর্থ আকাঙ্ক্ষা হিসেবে প্রকাশিত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treat the vastness of nature not as passive scenery, but as a deliberate counter-narrative structure that negates human chronology.",
+    "story_option": "Setting: A specific point where shadow meets the cracked red earth; Desire: To physically lean into the overwhelming silence, seeking one definitive resonance of sound that contradicts nature's quietude, Obstacle: The air itself is too thick with waiting.",
+    "subject_rotation": "Treating the red earth itself as a slow-moving conscious entity that is actively indifferent to human endeavor.",
+    "sensory_detail": "Sight: The way the low afternoon light catches motes of pulverized red soil hanging motionless in the stagnant air between structures.",
+    "research_question": "How is the concept of 'time unbound by human measurement' represented visually in contexts involving arid landscapes and cyclical weather patterns?",
+    "structural_variant": "A prose poem where sentences gain weight and density progressively as the approach of the storm increases.",
+    "variety_note": "Unlike earlier chapters that focused on specific historical events or dialogue, this segment focuses almost entirely on pure metaphysical confrontation between transient human will and eternal natural process."
+  }
+}

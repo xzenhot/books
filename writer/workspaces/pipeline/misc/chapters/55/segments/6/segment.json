@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 55,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আশ্রয়ের শিখা",
+  "segment_summary": "The flickering light of a dusk lamp is presented not just as illumination, but as the primal human yearning for shelter against encroaching darkness.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Re-framing 'nation' not as a collection of moments, but as the persistent *tension* between two contrasting small elements within each observation.",
+    "story_option": "setting: একটি অপেক্ষারত বাসের শেষ বাঁক, desire: নীরবতার গভীরে লুকিয়ে থাকা অন্য যাত্রীর কোনো এক ব্যক্তিগত প্রার্থনা শোনা।, obstacle: যাত্রীদের পরস্পরের প্রতি আরোপিত সামাজিক ভদ্রতা এবং নীরব সম্মতি।, turn: দুজন সম্পূর্ণ অচেনা যাত্রী একই সময়ে আলতো করে মাথা নিচু করে, যেন তারা অদৃশ্যভাবে একে অপরের জন্য 기도 করছে।",
+    "subject_rotation": "Analyzing each object not for its inherent meaning, but for the specific act of human *neglect* that allows it to exist in public view.",
+    "sensory_detail": "ভোরের বাতাসে ভেসে আসা পুরোনো লোহা ও ধুলোর মিশ্রিত ভেজা ধাতব গন্ধ।",
+    "research_question": "পোয়েটিক অর্থে, একটি দীর্ঘস্থায়ী নীরবতাকে কীভাবে একটি শারীরিক উপাদানের ঘনত্ব (Density) হিসেবে বর্ণনা করা যায়?",
+    "structural_variant": "Employ an extreme repetition of single resonant words (e.g., 'স্থির', 'ভেজা', 'ধূসর') across segments to build texture rather than narrative progression.",
+    "variety_note": "এই পর্বগুলি পূর্ববর্তী দৃশ্যগত পর্যবেক্ষণগুলো একত্রিত করে একটি উচ্চতর দার্শনিক স্তরে উন্নীত হচ্ছে, যেখানে বস্তুনিষ্ঠ বর্ণনার পরিবর্তে দ্বান্দ্বিক 'উপস্থিতি বনাম অনুপস্থিতি'-র উপর জোর দেওয়া হয়েছে।"
+  }
+}

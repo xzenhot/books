@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 81,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আলোর স্থায়িত্ব",
+  "segment_summary": "বেহুলার ভেতরের আলোকবর্তিকা বাইরের সমস্ত অন্ধকারের বিরুদ্ধে জয়ী হয়, যা বিশ্বাসের অদম্য শক্তিকে প্রতীকায়িত করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The moment of reunion is rendered not as ecstatic joy, but as a profound, exhausted silence—the residue of battle.",
+    "story_option": "Setting: The threshold where the desolate path meets the courtyard gate; Desire: To hold him without letting the accumulated dust of suffering touch their skin; Obstacle: The spectral memory of every judge who doubted her.",
+    "subject_rotation": "Treating reunion as a re-calibration of self rather than an external rescue.",
+    "sensory_detail": "The scent of cooled river mist and dust settling after a long tempest (olfactory/tactile).",
+    "research_question": "What specific Bengali idiom can convey 'sanctified exhaustion'—the weariness after ultimate spiritual victory without sounding defeated?",
+    "structural_variant": "A coda composed entirely of unspoken dialogues between husband and wife.",
+    "variety_note": "This chapter focuses exclusively on the aftermath: the echo of victory rather than the violent struggle itself, employing a lingering, almost suspended tone to contrast with earlier battles."
+  }
+}

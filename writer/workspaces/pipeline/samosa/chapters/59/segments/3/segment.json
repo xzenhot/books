@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 59,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ ও স্মৃতির সংযোগ",
+  "segment_summary": "এই তেলের পরিবর্তন কীভাবে মস্তিষ্কের গভীরে প্রোথিত ঘ্রাণ-স্মৃতিকে চ্যালেঞ্জ করে, তা এখানে কাব্যিক ভাষায় চিত্রিত হয়েছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the *smell* of the foreign oil as a language that speaks only bureaucratic or transactional terms, devoid of poetry.",
+    "story_option": "Setting: While carefully measuring the spices (পুর) for a batch, pausing before adding anything to the neutral oil; Desire: To feel the specific ache in one's wrist—the kinetic memory of decades-old dough-kneading rituals; Obstacle: The immediate practicality demanding speed and efficiency.",
+    "subject_rotation": "Analyzing the concept of 'fat saturation' as a metaphor for emotional repression in diaspora.",
+    "sensory_detail": "Touch: The slight grease-slick on the fingertip that feels foreign, lacking the deep absorption characteristic of home preparation.",
+    "research_question": "What indigenous term, beyond *sorsher tel*, might capture the complex psycho-emotional quality of that aggressive pungency?",
+    "structural_variant": "A segment structure driven entirely by temperature shifts: starting at ambient room temp $\\to$ reaching frying temp $\\to$ cooling down to memory state.",
+    "variety_note": "While neighbours explored the oil via grander metaphors or tactile memory, this section drills down specifically on the sensory *signature*—the initial sharp sound and lingering mouthfeel that defines the divergence."
+  }
+}

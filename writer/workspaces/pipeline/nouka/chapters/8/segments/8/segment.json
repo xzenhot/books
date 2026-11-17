@@ -4,19 +4,19 @@
   "chapter_index": 8,
   "segment_index": 8,
   "total_segments": 8,
-  "segment_title": "নীরব বিচারক",
-  "segment_summary": "নদী নিজেই এক নীরব বিচারক — কবিতা এই উপলব্ধিতে ফিরে আসে, শুরুর দ্বৈত শক্তি শেষে বিচারের রূপ নেয়।",
+  "segment_title": "অস্তিত্বের নতুন মানচিত্র",
+  "segment_summary": "এই অস্থিরতা গোপালকে বাধ্য করছে তার জীবন ও কাজের মানচিত্রকে নতুন করে আঁকতে, যেখানে স্থিতিশীলতা আর কোনো নিশ্চয়তা নয়।",
   "name": "8",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "The internal breakdown of Gopal’s traditional metronome: How the rhythm of his rowing hand falters specifically when facing an artificially created eddy or rogue wave caused by dredging.",
-    "story_option": "Setting: Early dawn after a flash flood in a straightened section; Desire: To find evidence that the river 'remembers' its old curves, seeking confirmation of ancient paths; Obstacle: Only smooth, inorganic concrete lines are visible where the memory should be.",
-    "subject_rotation": "De-personalizing Gopal’s feeling: Treating his deference not as devotion, but as an instinctive survival protocol learned across generations in uncertain waters.",
-    "sensory_detail": "The visual contrast between the slick, black sheen of newly exposed, waterlogged clay and the sun-bleached white foam that finally retreats from the banks.",
-    "research_question": "What is the precise local vocabulary for 'unpredictable current' in a heavily modified river system?",
-    "structural_variant": "A cyclical structure where Segment 1 describes a calm day, and Segment 8 re-examines that very same calm state through the lens of recent catastrophe.",
-    "variety_note": "This chapter deliberately moves beyond description of conflict (as seen in previous chapters) to focus on the *consequences* and the existential quietude following a moment of overwhelming natural force, making it more reflective than combative."
+    "angle": "গোপালের ভেতরের বিশ্বস্ততা (faith) বনাম জলের বৈজ্ঞানিক অস্থিরতা: এই দুই বিপরীত ধারণার মধ্যেকার অভ্যন্তরীণ দ্বন্দ্বকে একটি দ্বান্দ্বিক প্রতীকে তুলে ধরা।",
+    "story_option": "সেটিং: ভোরবেলার কুয়াশা মাখা নদী যেখানে জলস্তর খুব কম; আকাঙ্ক্ষা: তিনি একজন বৃদ্ধ যাত্রীকে দেখেন যিনি কেবল তার পায়ের পাতার স্পর্শে জলের স্তর বোঝাচ্ছেন, কোনো কথা বলছেন না; বাধা: দূর থেকে ডিজেলের কর্কশ আওয়াজ সেই নীরবতাকে চূর্ণ করে দেয়।",
+    "subject_rotation": "স্থিতিশীলতা এবং অনিশ্চয়তাকে বস্তুগতভাবে সংজ্ঞায়িত করা: নৌকার পাটাতনের একটি নির্দিষ্ট অংশকে স্থির রাখার চেষ্টা করার বিপরীতে জলের ক্রমাগত অনিয়মিত সঞ্চালনকে দেখানো।",
+    "sensory_detail": "জলস্তর কমলে কাঠের তলায় পৌঁছানো নদীর নীচের ঠান্ডা পাথরের তীক্ষ্ণ অনুভূতি এবং তার সঙ্গে মিশে যাওয়া ভেজা মাটির হিমেল গন্ধ।",
+    "research_question": "ভাটিয়ালি গানের মধ্যে এমন কোনো আভিধানিক শব্দ আছে কিনা যা জলের স্থিতিশীলতা বা প্রবাহকে নির্দিষ্টভাবে বর্ণনা করে, এবং বর্তমানে সেই শব্দটি ব্যবহার করা হচ্ছে কিনা?",
+    "structural_variant": "এই অধ্যায়টিকে কেন্দ্র করে দুটি ছোট উপ-গল্পের মতো বিন্যাস করা: ১. জল কমে যাওয়ার মুহূর্ত; ২. জল বেড়ে ওঠার মুহূর্তে সেই একই দৃশ্যকে অন্য আঙ্গিকে তুলে ধরা।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলির শারীরিক ক্ষয় বা সামাজিক সংঘাতের বিপরীতে, এই পর্বটি সম্পূর্ণভাবে 'অস্থিরতার আবহ' নির্মাণ করে; যেখানে সংঘাত বাহ্যিক নয়, বরং অস্তিত্বগত অনুভূতির স্তরীয় পরিবর্তন নির্দেশ করে।"
   }
 }

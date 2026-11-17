@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "The Unfinished Truth",
+  "segment_summary": "The chapter concludes by questioning if the ultimate truth of art lies in its finished perfection or in the raw, vulnerable process of its making.",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "সামাজিক প্রত্যাশার কণ্ঠস্বরকে কোনো নির্দিষ্ট নারী চরিত্রের অনুপস্থিতি (অর্থাৎ শূন্যতা) দ্বারা প্রতিস্থাপন করা, যার কেবল অস্তিত্বই চাপ সৃষ্টি করে।",
+    "story_option": "দৃশ্য ২: যখন তুলি অত্যন্ত দ্রুতগতিতে চলে (প্রবাহ), তখন হঠাৎ থেমে যাওয়া এবং সেই গতিপথ ধরে রাসায়নিক বা রঙের মিশ্রণের পরিবর্তন প্রত্যক্ষ করা, যা তার দ্বিধার প্রতীক।",
+    "subject_rotation": "আলো-অন্ধকার নয়; বরং ফাটলগুলোর ভেতরের অন্ধকার (গভীরতা) এবং পৃষ্ঠের উজ্জ্বল রঙ—এই দুই বিপরীত তলের মিথস্ক্রিয়া বর্ণনা করা।",
+    "sensory_detail": "স্ক্যাফোল্ডের কাঠ ও চুন মিশ্রণের ঘর্ষণে উৎপন্ন হওয়া একটি শুষ্ক, কর্কশ শব্দ যা রাতের নীরবতাকে ছিঁড়ে নেয়।",
+    "research_question": "Shekhawati শিল্পকলাতে এমন শৈলীগত উপাদান nào আছে যা একটি কাজের 'অসম্পূর্ণতাকে' সৌন্দর্য হিসেবে মহিমান্বিত করে?",
+    "structural_variant": "Employing paired segments that utilize antithetical vocabulary: such as 'Fixed/Motion,' or 'Light/Dust.'",
+    "variety_note": "Neighbours often focused on external stimuli (Musk or Sky); this chapter roots itself deeply within the material failure of the work and the internal pressure applied to those failures."
+  }
+}

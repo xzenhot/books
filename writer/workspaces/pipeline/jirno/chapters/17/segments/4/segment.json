@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "সাঁওতালদের দৃষ্টি",
+  "segment_summary": "সাঁওতাল পল্লী এবার কেবল নীরব দর্শক নয়; তারা প্রকৃতির চিরন্তন ভারসাম্যের অতন্দ্র প্রহরী রূপে সামনে আসে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the entire dilemma through the lens of geological time versus human memory—the castle as a fleeting epidermal layer on ancient earth.",
+    "story_option": "Setting: Within a single, impossibly resilient thorn bush near the ruined courtyard; Desire: To feel the thorns as analogues for unassimilated human sorrow; Obstacle: The knowledge that cutting them would signify 'solving' the mystery.",
+    "subject_rotation": "Reinterpreting 'limit' (সীমারেখা) not as a boundary drawn between two things (self/other), but the internal calibration of one's own perception.",
+    "sensory_detail": "Smell: The sharp, mineral scent of iron oxide dust disturbed by sudden gusts, like dried, rusty blood.",
+    "research_question": "What specific archaic or regional terms exist for the concept of 'unburdened acceptance' in related dialects?",
+    "structural_variant": "Structuring segments as alternating questions (the Traveler's doubt) and observational statements (The Earth/Satual perspective).",
+    "variety_note": "Unlike earlier chapters focused heavily on internal questioning (segments 1-7), this sequence shifts the locus of action outward, making the external forces—the sky, the people, the earth—active agents demanding a final concession from the protagonist."
+  }
+}

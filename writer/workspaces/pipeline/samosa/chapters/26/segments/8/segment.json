@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন অপেক্ষা",
+  "segment_summary": "এই কাব্যিক যাত্রা শেষ হলেও, সেই নিখুঁত সিঙ্গাড়া বা সামোসাটির জন্য অপেক্ষা চিরকাল অমীমাংসিত থেকে যায়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'taste' as a fugitive particle—a physical ghost that momentarily adheres to the tongue before scattering into memory dust.",
+    "story_option": "Setting: Beside a worn, open travel folder containing unused spice packets (cold/dry); Desire: To coax the volatile aroma from these inert containers back into vibrant reality; Obstacle: The dryness and foreign climate leeches all vitality from the spices; Turn: A sudden gust of wind brings a single, phantom scent of wet earth.",
+    "subject_rotation": "Interrogating the role of language itself: how does naming (Samosa) fundamentally corrupt the sensory experience of the original (Singara)?",
+    "sensory_detail": "Smell: The phantom scent of dry earth mixed with frying fat clinging to unused linen.",
+    "research_question": "What specific vocabulary in Bengali suggests an intangible residue—something lingering without form (a poetic equivalent for a flavor ghost)?",
+    "structural_variant": "A segmented structure that builds tension by withholding a single decisive concluding phrase until the very last line.",
+    "variety_note": "Unlike neighbouring chapters that dwell on external market scenes or tangible texture, this chapter moves entirely inward, focusing on the subtle, unresolved vibrational echo of the flavor in memory itself."
+  }
+}

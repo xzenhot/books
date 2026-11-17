@@ -1,53 +1,120 @@
 {
   "chapter_index": 59,
   "name": "59",
-  "word_target": 250,
-  "chapter_title": "একটি নাম যা আর ফেরে না",
-  "chapter_summary": "একটি নাম যা আর ফেরে না — সিঙ্গাড়া শব্দটি এখনও জিভে আছে, কিন্তু বাজারে এখনও সামোসা।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "তেলের স্মৃতি",
+  "chapter_summary": "এই অধ্যায়টি সরিষার তেলের ঝাঁঝালো, মাটির গন্ধযুক্ত উপস্থিতি এবং প্রবাসের অচেনা, নিরপেক্ষ তেলের মধ্যেকার গভীর বৈসাদৃশ্যকে কেন্দ্র করে আবর্তিত। এটি কেবল একটি রান্নার উপাদান প্রতিস্থাপনের গল্প নয়, বরং এটি স্বাদের বিচ্যুতিকে প্রতীকায়িত করে, যেখানে প্রতিটি তেল তার নিজস্ব ভৌগোলিক ও আবেগিক ইতিহাস বহন করে। এই সংঘাত পাঠককে প্রশ্ন করতে বাধ্য করে: যখন একটি মৌলিক উপাদান তার আদি গন্ধ হারায়, তখন কি সেই খাবারটি তার সত্তা বজায় রাখতে পারে, নাকি কেবল একটি বাহ্যিক আকার ধারণ করে?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "সরিষার হলুদ আবেশ",
+      "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার শব্দে যে উষ্ণতা জন্ম নেয়, তা যেন মাটির গভীরে প্রোথিত এক আদিম গন্ধের প্রতিশ্রুতি দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অচেনা তেলের শীতল স্পর্শ",
+      "segment_summary": "প্রবাসের বাজারে ব্যবহৃত হালকা, নিরপেক্ষ তেল সেই ঝাঁঝালো স্মৃতিকে মুছে দেয়, যা কেবল একটি রাসায়নিক প্রতিস্থাপন নয়, বরং একটি সাংস্কৃতিক শূন্যতা।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "ঘ্রাণ ও স্মৃতির সংযোগ",
+      "segment_summary": "এই তেলের পরিবর্তন কীভাবে মস্তিষ্কের গভীরে প্রোথিত ঘ্রাণ-স্মৃতিকে চ্যালেঞ্জ করে, তা এখানে কাব্যিক ভাষায় চিত্রিত হয়েছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "স্বাদের বিভাজন রেখা",
+      "segment_summary": "তেল বদলানো মানে কেবল রান্নার পদ্ধতি বদলানো নয়, এটি সেই অদৃশ্য রেখা অতিক্রম করা যা আদি ও বর্তমানকে বিভক্ত করে দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "মাটির গন্ধের অনুপস্থিতি",
+      "segment_summary": "সরিষার তেলের সঙ্গে জড়িয়ে থাকা মাটির গন্ধের অনুপস্থিতি প্রবাসীর জীবনে এক গভীর, নীরব অভাববোধ সৃষ্টি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আবেগের রাসায়নিক রূপান্তর",
+      "segment_summary": "এই বৈসাদৃশ্যটি দেখায় যে, কিছু আবেগ কেবল রাসায়নিক যৌগ দ্বারা সংজ্ঞায়িত হতে পারে না, বরং তা গভীর অভিজ্ঞতার সঙ্গে বাঁধা থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অনুবাদিত স্বাদ",
+      "segment_summary": "প্রবাসের তেলের সামোসাটি যেন একটি 'অনুবাদিত' স্বাদ—যা তার মূল ভাষার স্বাদ ধারণ করতে ব্যর্থ হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অসমাপ্ত ভাজা",
+      "segment_summary": "এই অধ্যায়টি শেষ হয় সেই আকাঙ্ক্ষার সঙ্গে, যেখানে নিখুঁত, আদি গন্ধযুক্ত ভাজাটি কেবল স্মৃতির গভীরে একটি অসম্পূর্ণ ফোঁটা হিসেবে রয়ে যায়।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on linguistic erosion: How the phonetics of 'সিঙ্গাড়া' are corrupted or replaced by alien sounds in the act of commerce, rendering the original word functionally obsolete.",
-      "The internal monologue of nomenclature: The struggle within the self—the mind insisting on the ancestral name despite external pressure to accept the commercial designation.",
-      "Juxtaposing sound decay with flavor persistence: Analyzing how a single, lingering taste (like mustard oil) retains its chemical integrity even as the word describing it dissolves into regional dialect."
+      "The oil as a physical manifestation of unspoken compromise: The choice is made for sustenance (survival), not for taste (essence).",
+      "A micro-narrative focusing on the texture difference in the fried dough itself—the 'song' versus the 'hush' imparted by different fats.",
+      "Treating the *smell* of the foreign oil as a language that speaks only bureaucratic or transactional terms, devoid of poetry."
     ],
     "story_options": [
-      "Setting: A busy vendor cart near an international transit point; Desire: The narrator actively sabotages their own purchasing by stuttering between 'Singara' and 'Samosa', causing confusion, Obstacle: The vendor impatiently forces the dominant market name upon them.",
-      "Setting: An old spice merchant's shop in a foreign quarter; Desire: To ask for ingredients using only archaic Bengali nomenclature (e.g., referring to potato or flour by their village names), Obstacle: The merchant responds with incomprehensible local jargon, highlighting linguistic displacement.",
-      "Setting: Inside the memory banks of an elderly relative who insists on the original name despite modernization; Desire: To force a conversation where they must reconcile inherited lexicon with modern usage, Obstacle: Their resistance becomes protective, not merely traditional."
+      "Setting: 3 AM, kitchen illuminated only by a weak bulb; Desire: To touch the remnants of the first dough batch before it hardens completely; Obstacle: The overwhelming silence of the new city crushing the sound of frying.",
+      "Setting: Standing over a cooling *tawa* after an unsuccessful attempt to replicate the heat; Desire: To map the precise contour of one's own palm onto the cool metal as if seeking ancestral guidance; Obstacle: A faint, lingering scent from the neighboring flat that masks any personal aroma.",
+      "Setting: While carefully measuring the spices (পুর) for a batch, pausing before adding anything to the neutral oil; Desire: To feel the specific ache in one's wrist—the kinetic memory of decades-old dough-kneading rituals; Obstacle: The immediate practicality demanding speed and efficiency."
     ],
     "subject_rotations": [
-      "Treating the naming shift as an act of cultural erasure—the replacement of one identity marker (name) for another that implies homogenization.",
-      "Exploring the philosophical tension between 'essence' and 'label': Can a perfect internal essence survive if its external label is fundamentally altered?",
-      "A focus on phonetic drift: Examining how small shifts in pronunciation over generations warp meaning, mirroring the slow change of community belonging."
+      "Examining the *sound* profile exclusively: focusing on the difference between the explosive 'splatter' (আঁচ) versus the muffled absorption.",
+      "Focusing only on the color/visual aspect of the oil transformation—from deep gold to pale, washed-out shimmer.",
+      "Analyzing the concept of 'fat saturation' as a metaphor for emotional repression in diaspora."
     ],
     "sensory_details": [
-      "Visual: The sharp, synthetic gloss finish on mass-produced packaging juxtaposed against the matte, porous texture of an ancient hand-folded wrapper.",
-      "Olfactory: The cloying, artificial sweetness sometimes associated with processed roadside snacks versus the deep, volatile scent of true cooked ghee residue.",
-      "Tactile: The slick, slightly oily film accumulating on paper or plastic used to wrap/sell the item in a non-native environment."
+      "Taste: The metallic tang left by the cheap frying oil clinging subtly to the roof of the mouth.",
+      "Sound: The low, sighing hiss of neutral fat soaking up air versus the sharp, assertive crackle of mustard seeds hitting hot iron.",
+      "Touch: The slight grease-slick on the fingertip that feels foreign, lacking the deep absorption characteristic of home preparation."
     ],
     "research_questions": [
-      "What are the most common linguistic substitutions for regional South Asian food items when transitioning into Anglophone market vernaculars?",
-      "How does the Bengali language handle semantic shift when a product acquires multiple, conflicting names across different social strata?"
+      "Is there an established literary metaphor within Bengali prose for the specific sensation of 'phantom flavor' or memory attached to scent?",
+      "How is the cadence/rhythm of a highly technical description (like cooking oil chemistry) contrasted with the intended lyrical flow of this piece?",
+      "What indigenous term, beyond *sorsher tel*, might capture the complex psycho-emotional quality of that aggressive pungency?"
     ],
     "structural_variants": [
-      "A sustained interior monologue that builds vocabulary complexity (from local to Sanskritized/foreign) only to collapse back into utter simplicity on the final line.",
-      "Framing the chapter as a failed dialogue with an unseen counterpart—the ideal 'Singara' persona who cannot be reached through current language."
+      "A segment structure driven entirely by temperature shifts: starting at ambient room temp $\\to$ reaching frying temp $\\to$ cooling down to memory state.",
+      "Using a continuous stream of consciousness where the speaker's internal monologue jumps between present action and past sensory recollection without clear demarcation."
     ],
     "unused_angles": [
-      "Examining the administrative documentation (bills, menus) where linguistic compromise is forced for record-keeping purposes.",
-      "A study of how diaspora communities create pidgin/creole dialects around beloved foods to maintain a private lexicon."
+      "The role of *lono* (a specific regional flavor profile) as an unrecoverable cultural marker, distinct from mere ingredient substitution.",
+      "How the consumer culture around the ready-made 'packet' undermines the meditative ritual of preparation."
     ],
-    "variety_note": "Unlike previous explorations that focused on taste or structural failure, this chapter zeroes in exclusively on the failure of articulation—the linguistic slippage between memory and market reality."
+    "variety_note": "While neighbours explored the oil via grander metaphors or tactile memory, this section drills down specifically on the sensory *signature*—the initial sharp sound and lingering mouthfeel that defines the divergence."
   },
   "draft": {
-    "sha256": "83e9374be5c01cb7ccb22b37f7a5c9aa9b06d5d44aefc480c65c4e38b0037b1e",
-    "written_at": "2026-11-01T08:30:09.185680+00:00",
+    "sha256": "0f860ba32e6d3d433e9f0aa41e3a9fe6102239e7ef632df1b3cbc17e55b62f99",
+    "written_at": "2026-11-16T21:44:28.151789+00:00",
     "origin": "write"
   }
 }

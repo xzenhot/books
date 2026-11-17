@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "নিয়ন্ত্রণের ভ্রম",
+  "segment_summary": "পথিক উপলব্ধি করে যে তার 'সংরক্ষণ' করার প্রচেষ্টা আসলে প্রকৃতির ওপর এক প্রকার কৃত্রিম নিয়ন্ত্রণ আরোপ করার ব্যর্থ চেষ্টা মাত্র।",
+  "name": "9.3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the dialogue entirely through implied meaning (what is deliberately *not* said) to emphasize the power of 'Udasinata' over rhetoric.",
+    "story_option": "Setting: Beneath the roots of an ancient tree near the manor boundary, Desire: To grasp the concept of inherent ‘unofferedness,’ Obstacle: The earth is too dense and quiet; his attempts to decipher patterns are drowned by deep-rooted stillness.",
+    "subject_rotation": "Exploring how local folklore describes uncompleted events not as tragedies, but as necessary points of suspension.",
+    "sensory_detail": "The low, resonant hum perceptible in the quiet when all human activity ceases—a sound that is felt rather than heard.",
+    "research_question": "How do local oral traditions describe 'necessary pauses' or incomplete cycles within indigenous cosmology to differentiate them from failure?",
+    "structural_variant": "A cyclical structure mirroring a breath—inhale the silence, exhale the internal conflict.",
+    "variety_note": "This chapter pivots entirely away from the destruction (previous chapters) and externalizing conflict; it focuses inward by using the elders not as guides, but as mirrors reflecting the traveler's own internal limitations in highly distilled terms."
+  }
+}

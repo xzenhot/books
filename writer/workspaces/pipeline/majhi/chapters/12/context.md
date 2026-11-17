@@ -1,0 +1,283 @@
+# Chapter model context
+
+## chapter_index
+
+12
+
+## name
+
+12
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+নদীর গভীরে লুকানো স্মৃতি
+
+## chapter_summary
+
+এই অধ্যায়টি মাঝির ভেতরের জগতে প্রবেশ করে, যেখানে বর্তমানের অর্থনৈতিক চাপ এবং আধুনিকতার হিসেবি স্রোত অতীতের স্নিগ্ধ স্মৃতিগুলোর সঙ্গে সংঘর্ষে লিপ্ত হয়। সে তার শৈশবের সেই মুহূর্তগুলো স্মরণ করে, যখন নদী ছিল কেবল স্বাধীনতা আর খেলার মাঠ, যেখানে লেনদেন বা ঋণের কোনো ধারণা ছিল না। এই স্মৃতিগুলো তাকে বর্তমানের কঠিন বাস্তবতার মুখোমুখি দাঁড় করায়, যেখানে প্রতিটি যাত্রা একটি আর্থিক হিসাবের অধীন। প্রশ্নটি হলো—সেই আদিম, মুক্ত স্রোতের স্মৃতি কি বর্তমানের কঠিন বাস্তবতাকে অতিক্রম করতে পারে, নাকি তা কেবল এক বিষণ্ণ প্রতিধ্বনি হয়ে রবে?
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+শৈশবের জলছবি
+
+#### segment_summary
+
+মাঝি তার শৈশবের সেই দিনগুলোর কথা স্মরণ করে যখন নদীর জল ছিল কেবল খেলার সঙ্গী, কোনো গন্তব্য বা ভাড়া ছিল না।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+মুক্ত স্রোতের আহ্বান
+
+#### segment_summary
+
+সেই স্মৃতিতে নদীর প্রবাহ ছিল বাঁধনমুক্ত, যা তাকে শেখায়নি কোনো হিসেবের ভাষা, কেবল স্বতঃস্ফূর্ততা।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+কাঠের নৌকার নীরব সাক্ষী
+
+#### segment_summary
+
+নৌকাটি সেই স্মৃতিগুলোর সাক্ষী, যা এখন বাজারের দাপটে ক্লান্ত, কিন্তু তার কাঠ এখনও সেই পুরোনো দিনের স্পর্শ ধরে রেখেছে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+বর্তমান ও অতীতের সংঘাত
+
+#### segment_summary
+
+বর্তমান সময়ের ঋণের চাপ এবং আধুনিকতার কাঠিন্য সেই স্নিগ্ধ স্মৃতিগুলোর সঙ্গে তীব্রভাবে সংঘর্ষ সৃষ্টি করে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অদৃশ্য ঋণ বনাম মুক্ত দান
+
+#### segment_summary
+
+মাঝি অনুভব করে যে তার অতীতের উদারতা এখন এক অদৃশ্য ঋণে পরিণত হয়েছে, যা পরিশোধ করা অসম্ভব।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+আলো-ছায়ার দার্শনিক খেলা
+
+#### segment_summary
+
+নদীর বুকে ওঠা-নামা করা আলো-ছায়া যেন জীবনের উত্থান-পতনকে প্রতিফলিত করে, যেখানে স্মৃতিগুলো এক ক্ষণস্থায়ী আলোর মতো।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মমর্যাদার প্রতিধ্বনি
+
+#### segment_summary
+
+এই স্মৃতিগুলো মাঝির আত্মমর্যাদাকে প্রশ্ন করে—এই হিসেবি জগতে তার মানবিক সত্তা কোথায় খুঁজে পাবে আশ্রয়?
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+নদীকে কী দিতে হয়?
+
+#### segment_summary
+
+চূড়ান্ত প্রশ্নটি জেগে ওঠে: নদীকে কি কোনো প্রতিদান দিতে হয়, নাকি তার প্রবাহই তার নিজস্ব, অপরিবর্তনীয় উত্তর?
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- Focusing the poem solely on the *palpable weight* of memory—not as a visual scene, but as something heavy in the chest or stomach that prevents smooth rowing.
+- Shifting the internal conflict from economic debt to an existential 'debt' owed to the ancestral spirits/the river itself for allowing passage through generations.
+- Treating the act of remembering not as nostalgia, but as a physical exertion—a painful dredging up of submerged images against the current.
+
+### story_options
+
+- Setting: A muddy bank where old boats are left derelict. Desire: The majhi tries to physically touch the ghosts of his childhood joy embedded in the silt. Obstacle: The encroaching, orderly modern infrastructure.
+- Setting: Mid-crossing during a hazy afternoon when vision is blurred. Desire: He wishes he could verbally argue with his younger self to warn him about future pressures. Obstacle: His throat failing to form complex words amidst the river's hum.
+- Setting: The dark, cool interior of his boat late at night after rowing through memories. Desire: To hear a song sung by children who never knew freedom; a pure, unburdened Bhatiyali echo. Obstacle: Only the sound of rats and the distant drone of industry.
+
+### subject_rotations
+
+- Treating 'Memory' as an actual physical ballast that slows the boat down against modern momentum.
+- Exploring how the *sound* of past memories (the specific cadence of childhood laughter) clashes violently with the harsh sounds of commercial traffic passing by.
+- Focusing on the contrast between the fluid, shapeless nature of memory versus the sharp, defined lines of bridge girders and river markers.
+
+### sensory_details
+
+- The gritty taste of oxidized copper (from old hardware) mixed with morning dew collected on a piece of scrap wood.
+- The deep, resonant ache in the shoulders that comes not from rowing today's cargo, but from carrying yesterday's weight.
+- The specific smell of wet clay and slow-rotting river reeds—the scent marker of those lost spaces.
+
+### research_questions
+
+- What are localized Bengali idioms or metaphoric phrases describing the feeling of 'carrying an intangible burden' that is heavier than physical cargo?
+- How does the sound quality change when a memory (represented by word choices) is deliberately juxtaposed against an industrial soundscape like a distant diesel engine?
+
+### structural_variants
+
+- An associative structure where memories trigger each other non-linearly, rather than following a strict chronological path.
+- A sustained use of enjambment to mimic the unbroken, continuous flow of consciousness (memory stream) against short, declarative lines representing economic facts.
+
+### unused_angles
+
+- A detailed exploration of how the specific *color* palette of childhood memories contrasts with the monochromatic grays of contemporary river travel.
+- Focusing on one recurring natural element—a particular type of bird or water plant—that acts as a constant, unchanged witness across all temporal states.
+
+### variety_note
+
+This chapter moves inward from external confrontation to deep internal rumination; unlike the immediate conflict in previous chapters, this is less about resistance and more about excavation.

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অহংকারের ভার",
+  "segment_summary": "এই প্রচেষ্টা তাকে নিজের অহংকারের ভার অনুভব করায়, কারণ সে বুঝতে পারে যে তার হস্তক্ষেপ কেবল একটি আরোপিত ব্যাখ্যা মাত্র।",
+  "name": "8.2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Frame the 'self-deception' not as philosophical failing, but as a biological imperative: how modern cognition strains against non-linear decay patterns.",
+    "story_option": "Setting: A shadowed alcove within the ruins; Desire: To painstakingly document one specific pattern of lichen growth as an ultimate record-keeping act, Obstacle: The slow creep of decay consumes the documentation effort faster than it can be recorded.",
+    "subject_rotation": "Exploring the idea that the ruin functions more like a biological organism undergoing programmed senescence, rejecting human intervention entirely.",
+    "sensory_detail": "Touch: The granular friction felt when running one's thumb over strata of mixed time—mortar, mud, human skin cells.",
+    "research_question": "What are non-Western conceptualizations regarding 'completion' versus 'sustaining process' in architecture?",
+    "structural_variant": "A dialogue-driven structure where the traveler argues his case against the 'indifference' until he is forced into silence by a single gesture from an elder.",
+    "variety_note": "This chapter is materially different by centering entirely on the internal conflict—the cognitive clash between ordered knowledge and chaotic reality—whereas neighbours focused more on external observation or philosophical reception."
+  }
+}

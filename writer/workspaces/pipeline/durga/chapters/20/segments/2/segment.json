@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "মাটির আত্মার প্রত্যাবর্তন",
+  "segment_summary": "বিসর্জনের জলে মিশে যাওয়া মাটির প্রতীকী মৃত্যু যেন জীবনের ক্ষণস্থায়ীতার এক করুণ স্বীকারোক্তি, যা প্রকৃতির নিয়মে ফিরে যাওয়ার বার্তা দেয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the language erosion: how devotional terms lose their efficacy when spoken in mundane, un-ritualized daily conversation (connecting with local vernacular).",
+    "story_option": "Setting: In the quietude before dawn, inside a home kitchen where routine tasks are performed (e.g., preparing morning tea); Desire: To perform this mundane act with the *focus* reserved for ritual prayer; Obstacle: Distraction by immediate economic worries.",
+    "subject_rotation": "Shifting the focus from Durga's external power (Mahishasur Mardini) to the internal negotiation required by 'the mother figure' within the self.",
+    "sensory_detail": "Sound: A low-frequency hum from nearby city machinery that seems to absorb or drown out any lingering spiritual echoes.",
+    "research_question": "How should I transition between the elevated Sanskritized diction and the colloquial language requirement without sounding jarring or forced?",
+    "structural_variant": "Adopting a highly fragmented structure where each line poses an unresolvable question, mimicking cognitive dissonance between ritual and reality.",
+    "variety_note": "This chapter moves away from action/mythology and focuses exclusively on aftermath—the quiet contemplation where belief transitions into existential philosophy. It contrasts the high ritualistic language with the low reality of daily life."
+  }
+}

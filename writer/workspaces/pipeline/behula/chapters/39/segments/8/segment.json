@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 39,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "প্রশ্ন বনাম উত্তর",
+  "segment_summary": "এই সমাপ্তি পাঠককে প্রশ্ন করতে বাধ্য করে—এই বিজয় কি কেবল ব্যক্তিগত মহিমা, নাকি বৃহত্তর সামাজিক পরিবর্তনের ইঙ্গিত?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Employing a meta-poetic approach where Lkhindor pauses not in triumph, but to note the overwhelming exhaustion reflected in Behula’s gaze upon his return.",
+    "story_option": "Setting: Near the border between the sacred vigil ground and the settled house; Desire: To find a single, non-mythological token that survived all hardship (a specific type of clay or fiber); Obstacle: The internal conflict between acceptance (joy) and suspicion (fear).",
+    "subject_rotation": "Treating the final victory as a kind of existential negotiation rather than a resolution, where triumph is merely a temporary truce.",
+    "sensory_detail": "A low, sustained frequency hum (subsonic resonance) replacing the expected sound of celebratory music upon his entry into the home.",
+    "research_question": "How can the philosophical weight of 'ontological necessity' be conveyed using diction resonant with passionate internalized rhythm?",
+    "structural_variant": "Structuring the eight segments as cyclical emotional waves, ensuring Segment 8 directly mirrors the initial tension of Segment 1 but with inverted affective weight.",
+    "variety_note": "Unlike neighbour chapters focusing on the *process* of endurance, this chapter must pivot to defining the *state* achieved by that endurance, while maintaining a self-aware tension regarding its societal validity."
+  }
+}

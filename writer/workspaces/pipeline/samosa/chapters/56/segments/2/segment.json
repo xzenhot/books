@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অচেনা তেলের শীতলতা",
+  "segment_summary": "প্রবাসের বাজারে ব্যবহৃত হালকা, নিরপেক্ষ তেল সেই আদিম উষ্ণতাকে গ্রাস করে, যা কেবল রাসায়নিক পরিবর্তনের মাধ্যমে প্রতিস্থাপিত হয়েছে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker addresses an idealized grandmother ('দিদা') who can still smell the *sorsher tel* in her phantom kitchen, creating a dialogue of denial/acceptance.",
+    "story_option": "Setting: Near an open window overlooking heavy urban traffic; Desire: For the scent of earth and sun on the seeds to override the exhaust fumes; Obstacle: The pervasive smell of foreign dust mixed with cheap frying grease.",
+    "subject_rotation": "Viewing the oil as a societal barometer: how its replacement signifies assimilation or necessary adaptation for survival abroad.",
+    "sensory_detail": "Sound: The sharp, insistent *phut* of mustard oil hitting hot iron against the muted, oily sigh of neutral fat.",
+    "research_question": "Is there a specific archaic Bengali term for the aggressive pungency of heated *sorsher tel* that captures this loss?",
+    "structural_variant": "A strictly comparative strophe structure: Each couplet must present a direct binary opposition between home/sorsher vs. abroad/neutral.",
+    "variety_note": "This chapter intensely hones in on a single sensory trigger (aroma/oil) and contrasts it across two distinct material realities, moving deeper into the physical basis of cultural dislocation than previous chapters focused on name or market scenes."
+  }
+}

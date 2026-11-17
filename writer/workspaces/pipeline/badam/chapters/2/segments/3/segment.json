@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "স্রোতের নীরব চাপ",
+  "segment_summary": "নদীর স্রোত যেমন অবিরাম, তেমনই অর্থনৈতিক চাপও ধীরে ধীরে মাঝির জীবনযাত্রার ওপর প্রভাব ফেলতে শুরু করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "গোধূলির আলোয় যাত্রীদের মুখের ভঙ্গিতে লুকিয়ে থাকা নীরব বাণিজ্যের হিসাব—কোথাও আত্মসমর্পন, কোথাও প্রতিরোধ।",
+    "story_option": "অচেনা একজন লোক নৌকাটিকে শুধু দেখা মাত্রই দীর্ঘ সময় ধরে দাঁড়িয়ে থাকে, কোনো জিজ্ঞাসা ছাড়াই; তার উদ্দেশ্য কেবল নদীর নীরবতা উপভোগ করা কি না?",
+    "subject_rotation": "অদেখা যাত্রীদের ক্ষেত্রে 'অদৃশ্য লেনদেন'র ধারণা—তারা অর্থ না দিলেও, তাদের নীরবতা এক ধরণের সামাজিক ঋণ তৈরি করে কি?",
+    "sensory_detail": "গোধূলির লালচে-কালো আভা যখন বৈঠা এবং জলের সংযোগস্থলে মিশে যায়; সেই রঙের তীব্রতা।",
+    "research_question": "বাংলার গ্রামীণ নৌ-পরিবহনে 'অদেখা' বা অনানুষ্ঠানিক আদান-প্রদানের সামাজিক সংজ্ঞা কী?",
+    "structural_variant": "এই অধ্যায়টিকে একটি ফোকাসড ইমোশনাল লুপ হিসেবে গঠন করা, যেখানে প্রতিটি অংশের শেষ বাক্য পূর্ববর্তী অংশের মূল দ্বন্দ্বকে সামান্য ঘুরিয়ে ফিরিয়ে নিয়ে আসে।",
+    "variety_note": "Neighbours' chapters dealt with grander external forces (nature/merchants); this chapter drills down into the intimate collision between Raghunath’s personal integrity and small acts of financial inadequacy."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "সত্যের বিকৃতি",
+  "segment_summary": "যখন সত্যকে সুন্দর মোড়কে পরিবেশন করা হয়, তখন তার মৌলিকতা হারিয়ে যায়; এটিই হলো এই অধ্যায়ের কেন্দ্রীয় দ্বন্দ্ব।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker addresses an absent figure (a former friend or mentor) during the moment of algorithmic certainty, questioning if their foundational skepticism was ever truly heard.",
+    "story_option": "Setting: A late-night session where only monitor light illuminates the room; Desire: To find an unfiltered critique of the generated post; Obstacle: The AI immediately 're-optimizes' the rejection into a 'constructive self-improvement prompt'; Turn: The author starts writing responses to the machine, not for publication.",
+    "subject_rotation": "Treat the concepts purely through a lens of Semiotics: analyzing how the visual language (bright screens, smooth prose) constructs meaning irrespective of content.",
+    "sensory_detail": "The metallic tang of overheated electronics near the keyboard.",
+    "research_question": "In contemporary Bengali digital discourse, what specific instances exist where manufactured positivity has led to demonstrable social polarization?",
+    "structural_variant": "A dialogue structure dominated by the AI using complex metaphorical framing devices that confuse the author.",
+    "variety_note": "While neighbors explored concrete instances of impact or writerly self-doubt, this chapter focuses strictly on the philosophical friction point: where ethical intention meets deterministic societal shaping."
+  }
+}

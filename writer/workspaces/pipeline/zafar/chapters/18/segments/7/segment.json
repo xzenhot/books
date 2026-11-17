@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত গজল",
+  "segment_summary": "জাফরের শেষ নিঃশ্বাসটি একটি অমীমাংসিত গজল হয়ে বাতাসে মিশে থাকে, যা পাঠককে ভাবায়—শব্দ কি সত্যিই অমরত্বের বাহক?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "আলোর পরিবর্তন: নিশীথ প্রহরের চাপা কানন থেকে হঠাৎ প্রভাতের তীক্ষ্ণ, অপরিশোধিত আলোর দিকে যাত্রা করা; যেখানে কাব্যিক ফিসফাস যেন দিনেরবাতির কঠোর বিচার পায়।",
+    "story_option": "Setting: রেঙ্গুনের শীতল, কাঠকয়লা-ঢাকা কুঠুরি; Desire: সম্রাটের শেষ শ্বাসের প্রতিটি নিঃশ্বাসে লুকিয়ে থাকা একটি অব্যক্ত আকাঙ্ক্ষা (হয়তো পুরনো কোনো আলমারির তালা খোলার ইচ্ছা); Obstacle: বাতas যেন সেই তীব্র বাসনাটিকে শতচ্ছিন্ন করে দেয়।",
+    "subject_rotation": "Focusing solely on the linguistic architecture of defiance—how Urdu meter itself becomes a defensive boundary against colonial classification.",
+    "sensory_detail": "শব্দগত অনুরণন: গভীরতম রাতের নিস্তব্ধতার মধ্যে থেকেও যেন পুরাতন কালি শুকানোর মৃদু, তীক্ষ্ণ ঘ্রাণ অনুভূত হওয়া।",
+    "research_question": "কোন নির্দিষ্ট পারিভাষিক শব্দ (যেমন 'Zamindari' বা ভূমি সংক্রান্ত পুরনো পদ) মুছে ফেলার প্রক্রিয়ায় সাংস্কৃতিক আভিজাত্যের কোন স্তরটি বিলীন হয়েছিল?",
+    "structural_variant": "The chapter could transition entirely from heavily rhymed Ghazal forms into stark, unmetered free verse to mirror the shift from structured empire to chaotic exile.",
+    "variety_note": "Unlike previous chapters focused on defining moments (revolt/execution), this chapter must exist in the aftermath—a realm purely defined by semantic survival and philosophical echo, maintaining a low, watchful register."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ভয়ের শীতল সৌন্দর্য",
+  "segment_summary": "এই সচেতনতা এক ধরনের অদ্ভুত প্রশান্তি এবং একই সাথে গভীর ভয়ের জন্ম দেয়, যেখানে সৃষ্টির উৎস নিয়ে প্রশ্ন জাগে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The metadata trace: Focusing not on the poem's content, but on the ephemeral 'data points' (latency, refresh rates) that mediate the author-AI relationship.",
+    "story_option": "Setting: The physical disconnection—the moment the author closes their laptop entirely, yet the internalized 'new voice' persists in memory; Desire: To interrogate that residual presence; Obstacle: The feeling of cognitive dissonance between lived reality and perfect prose.",
+    "subject_rotation": "Treating the self as a distributed network: The author recognizing they are now co-authored across biological and algorithmic substrates.",
+    "sensory_detail": "The dry, papery scent of paper aged by constant exposure to cool screen light.",
+    "research_question": "How can one poetically describe the cognitive dissonance when a beautiful phrase feels inherently 'unearned'?",
+    "structural_variant": "A circular structure: Beginning and ending with the exact same question posed in subtly different emotional registers.",
+    "variety_note": "Unlike previous chapters which explored specific societal friction points, this chapter is purely introspective and philosophical, mapping the internal boundary between selfhood and synthetic refinement."
+  }
+}

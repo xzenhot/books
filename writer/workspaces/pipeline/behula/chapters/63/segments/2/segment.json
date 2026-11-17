@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 63,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অন্ধকারের উপর আলো",
+  "segment_summary": "অন্ধকার ও সন্দেহের প্রাচীর ভেঙে যখন আলো ফিরে আসে, তখন সেই মুহূর্তের তীব্র কাব্যিক চিত্রায়ণ ঘটে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Secondary Twist Focus: A single, unbroken strand of thread (প্রতীকী সুতো) carried from her solitude into the embrace; its tensile strength representing enduring faith despite temporal decay.",
+    "story_option": "Setting: Near a quiet stream where her vow was forged; Desire: To observe the water reflecting a perfect, unbroken image of reunion; Obstacle: A sudden shadow—a lingering societal judgment that attempts to taint the vision.",
+    "subject_rotation": "The physics of faith: Treating unwavering belief not as a passive emotion but as an active, energetic force that physically resists collapse (like tension in a taut cable).",
+    "sensory_detail": "A sound described as a sustained harmonic resonance—a vibration felt in the bone rather than heard by the ear.",
+    "research_question": "How can the transition from extreme internal suffering (Chapter 6) to external triumph (Chapter 15/63) be narrated while maintaining a consistent high-register diction?",
+    "structural_variant": "Circular argument: Structure each segment as a rhetorical counterpoint to the previous one—Thesis (Trial) -> Antithesis (Faith/Endurance) -> Synthesis (Reunion).",
+    "variety_note": "This chapter pivots from intense internal struggle to external fulfillment; where neighbors dwelt in pressurized introspection, this segment emphasizes resonant proclamation and enduring spiritual aftermath, while incorporating a deliberate structural volta based on re-reading past experience through the lens of reunion."
+  }
+}

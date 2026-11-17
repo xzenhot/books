@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নীরব প্রতিজ্ঞা",
+  "segment_summary": "পাঠককে এক গভীর, শান্ত বিষাদে ভাসিয়ে নিয়ে যাওয়ার মাধ্যমে, এই অধ্যায়টি এক নীরব প্রতিজ্ঞা তৈরি করে—শক্তির বার্তা যেন হৃদয়ে চিরকাল বিদ্যমান থাকে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal struggle (Segment 2) through the lens of inherited silence—the unspoken burdens passed down, functioning as latent demons.",
+    "story_option": "Setting: A dimly lit domestic kitchen during mundane chores; Desire: To transform repetitive action into sacred ritual through sheer focus; Obstacle: The relentless pull of daily obligation.",
+    "subject_rotation": "Focusing entirely on the metaphysical resonance—treating memories not as feelings, but as vibrational patterns stored within consciousness.",
+    "sensory_detail": "The precise, almost sticky texture of residual river clay clinging to skin after rinsing.",
+    "research_question": "What specific Bengali metaphor describes internal conflict that lacks external manifestation without invoking overt religious terms?",
+    "structural_variant": "An episodic structure where each segment functions as a rapid-fire montage of sensory residue.",
+    "variety_note": "This chapter pivots from the grand narrative of battle/celebration towards introspection; it uses abstract sensory residue (scent, texture, subtle sound) to ground massive philosophical questions about permanence and existence post-ritual cessation."
+  }
+}

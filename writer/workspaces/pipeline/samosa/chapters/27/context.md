@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-ভুল উচ্চারণ
+চূড়ান্ত স্বাদ
 
 ## chapter_summary
 
-ভুল উচ্চারণে অচেনা প্রতিক্রিয়া, ঠিক উচ্চারণে চেনা হাসি। ভাষার এই সরু সীমান্ত প্রতিদিন পার হতে হয়।
+এই শেষ অধ্যায়টি সেই অস্পষ্ট, কিন্তু গভীর অনুরণনময় স্বাদের অনুসন্ধান করে যা কখনোই পুরোপুরি ফিরে আসেনি। এটি সেই আকাঙ্ক্ষার চূড়ান্ত পরিণতি, যেখানে জিভের স্মৃতি এবং আত্মার গভীরে ভাজা থাকা অনুভূতির মধ্যে এক নীরব সংঘাত বিদ্যমান। প্রশ্নটি খোলা থাকে: স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ? এই কাব্য প্রমাণ করে যে, কিছু স্মৃতি কেবল জিভে নয়, আত্মার গভীরেও ভাজা থাকে, যা এক মধুর বিষাদের জন্ম দেয়।
 
 ## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনুরণনের শেষ ফোঁটা
+
+#### segment_summary
+
+এই অংশে সেই স্বাদটির শেষ অনুরণন বর্ণনা করা হয় যা আকাঙ্ক্ষিত হলেও অধরা, যা কেবল হৃদয়ের গভীরে অনুরণিত হয়।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মার ভাজা স্মৃতি
+
+#### segment_summary
+
+এখানে খাদ্যকে কেবল শারীরিক পুষ্টির উৎস হিসেবে না দেখে, আত্মার গভীরে সংরক্ষিত একটি জীবন্ত আর্কাইভ হিসেবে চিত্রিত করা হয়।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসম্পূর্ণতার কাব্যিকতা
+
+#### segment_summary
+
+স্বাদটির অসম্পূর্ণতা কীভাবে কাব্যিক সৌন্দর্যের জন্ম দেয়, সেই দ্বৈততাকে এই অংশে তুলে ধরা হয়েছে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+জিভের দার্শনিক প্রশ্ন
+
+#### segment_summary
+
+এই অংশে স্বাদ এবং মানবিক অভিজ্ঞতার মধ্যেকার দার্শনিক সংযোগ নিয়ে প্রশ্ন তোলা হয়, যা রাসায়নিক এবং আধ্যাত্মিকতার সীমারেখা মুছে দেয়।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+মধুর বিষাদের প্রতিচ্ছবি
+
+#### segment_summary
+
+প্রবাসে থাকা মানুষের মধ্যে যে 'মধুর বিষাদ' বিরাজ করে, তা এই শেষ স্বাদটির অনুপস্থিতির মাধ্যমে প্রকাশিত হয়।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অটুট আশ্রয়
+
+#### segment_summary
+
+হারিয়ে যাওয়া স্বাদের স্মৃতি কীভাবে প্রবাসীর জন্য একমাত্র অটুট আশ্রয় হয়ে ওঠে, সেই ধারণার গভীরতা এখানে আলোচিত হয়েছে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনন্ত অপেক্ষার প্রতিধ্বনি
+
+#### segment_summary
+
+সেই নিখুঁত আদি সিঙ্গাড়া-র জন্য যে অনন্ত অপেক্ষা, তা এই অধ্যায়ে একটি স্থির কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক হিসেবে উপস্থাপিত হয়েছে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্বাদের চিরন্তন অনুরণন
+
+#### segment_summary
+
+কবিতাটি শেষ হয় সেই অস্পষ্ট কিন্তু গভীর অনুরণন দিয়ে, যা সম্পূর্ণরূপে পাওয়া যায়নি, কিন্তু যা হৃদয়ে চিরকাল বেঁচে থাকে।
+
+#### further_references
 
 
 ## level
@@ -31,52 +238,47 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Treating linguistic mispronunciation not as a failure of speech, but as the creation of an entirely new, localized mythology around the foodstuff.
-- Focusing on the *sound* itself—the clipped, flattened pronunciation—as a physical texture that changes how the mouth perceives 'taste' (linking sound directly to sensation).
-- Exploring the speaker addressing an absent figure (perhaps the old self, or the grandmother) who can no longer correct the phonetic drift.
+- Focusing on the somatic memory: Treating the lingering taste/texture not as a flavor profile but as a specific muscular ache in the tongue.
+- The performative nature of remembrance: The 'আমি' meticulously recreates the ritual of making the Samosa, knowing full well the ingredients are compromised, treating this reconstruction as an act of defiance.
+- Inverting agency: Framing the memory itself as the active agent that judges and critiques the present physical reality of the acquired food.
 
 ### story_options
 
-- setting: A small, hurried street corner where vendors hawk their wares., desire: To perfectly recall the native, untainted pronunciation of 'সিঙ্গাড়া' in a moment of intense craving., obstacle: The constant pressure and speed of the foreign marketplace forcing immediate, imperfect utterance., turn: The speaker accepts that the corrupted word is now his new, essential truth.
-- setting: A quiet, imagined echo chamber within the memory space (a reflection of a kitchen)., desire: To elicit an audible correction from the spectral figure of the first cook., obstacle: The silence that swallows any attempt at linguistic repatriation., turn: Only the sound of frying oil provides affirmation, not language.
-- setting: While waiting in line for a quick purchase; an impersonal, almost robotic transaction., desire: To imbue the mundane act of asking 'কী চাই?' (What do you want?) with profound cultural weight through precise diction., obstacle: The immediate need for speed superseding the ritualistic care of perfect phonetics., turn: A bystander, noticing the struggle, corrects it gently without malice.
+- Setting: A dimly lit counter where a modern vendor serves generalized 'samosas'; Desire: To force the vendor to recall the specific, ancestral recipe; Obstacle: The vendor operates only on mass production metrics.
+- Setting: By the worn edges of an unused spice *packet* in luggage (a touchstone from earlier segments); Desire: To breathe life back into a single grain of ground cumin through intense focus; Obstacle: The aroma is too desiccated, clinging to modern chemical ghosts.
+- Setting: While observing the reflection of oneself in greasy cooking oil on a makeshift *tawa*; Desire: To see a clearer image of the self anchored by the old Bengali idiom/dialect; Obstacle: The distorted reflection shows only a generalized, foreign silhouette.
 
 ### subject_rotations
 
-- Shifting focus from dialectal difference to tonal shifts: how pitch and stress in Bengali convey meaning beyond mere word choice when discussing food.
-- Treating 'ভুল উচ্চারণ' (wrong pronunciation) as a map of emotional distance; each syllable deviation marks a step away from the origin point, rather than just phonetic inaccuracy.
-- Interrogating the inanimate object itself: does the Samosa bear the weight of its mispronunciation? Is it shaped by foreign sounds?
+- Treating the cyclical nature (the 'litany' seed) as a ritualistic mantra that starts and ends identically.
+- Focusing purely on the *negative space*—what is missing from the taste profile rather than what remains.
+- Positioning the act of naming ('Samosa') as an erasure, not just a translation.
 
 ### sensory_details
 
-- The oily sheen on the rough surface of a poorly printed paper wrapper reflecting neon light (sight).
-- The sharp, almost abrasive scraping sound made when one tries to articulate a difficult regional consonant clearly (sound).
-- The faint taste of metallic dust left behind after forced, rapid enunciation in dry air (taste).
+- Sight: The faint ochre stain left by old turmeric spice deep within ceramic kitchenware (কড়াই).
+- Sound: A dry, papery rustle when the outer *khols* (husk) is cracked open during consumption.
+- Touch: The gritty, fine residue of unidentifiable spices clinging to fingertips after handling prepared ingredients.
 
 ### research_questions
 
-- What specific Bengali sounds or phonetic shifts are most commonly distorted when speaking rapidly under pressure/stress?
-- Are there established colloquial patterns where a deliberate linguistic error is used ironically for humor or to signal insider knowledge among diaspora communities?
+- What precise Bengali term exists that conveys 'a flavour that simultaneously tastes like something familiar and something fundamentally foreign'? (To inform diction choice)
+- How does the mandated repetition ('litany') interact with the instruction for a non-conclusive, counter-intuitive final line?
 
 ### structural_variants
 
-- A sustained monologue that circles the phrase 'আমার উচ্চারণ' (my pronunciation) without ever landing on a concrete description of the Samosa.
-- A cyclical structure where every attempt at perfect speech inevitably spirals back into the same slightly incorrect sound pattern.
+- A structure based on extreme sensory oscillation: rapid shifts from heightened memory recall to stark present reality observation within consecutive stanzas.
+- Using a highly fragmented prose introduction before launching into dense verse cycles.
 
 ### unused_angles
 
-- The comparison between the spoken word and the silent image—how the visual perfection of the food defies the auditory imperfection of its naming.
-- Exploring how official, written documentation (labels, menus) sanitizes or freezes this fluid linguistic corruption.
-- A philosophical pivot: Is identity defined by flawless articulation or by persistent, resonant communication?
+- The political geography of flavor mapping—how culinary tradition becomes a border marker without official decree.
+- Examining the role of *speed* in processing this food: is rushing it through (the journey) more damaging than slow cooking?
 
 ### variety_note
 
-Unlike chapters dealing with economic shifts (like price changes), this chapter focuses acutely on the subtle, yet profound, physical struggle of language itself as it collides with the food's external presentation.
+This chapter leans heavily into abstraction and introspection, contrasting with previous chapters which may have been more grounded in street-level observation or material friction.

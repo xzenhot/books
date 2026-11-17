@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 59,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সরিষার হলুদ আবেশ",
+  "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার শব্দে যে উষ্ণতা জন্ম নেয়, তা যেন মাটির গভীরে প্রোথিত এক আদিম গন্ধের প্রতিশ্রুতি দেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The oil as a physical manifestation of unspoken compromise: The choice is made for sustenance (survival), not for taste (essence).",
+    "story_option": "Setting: 3 AM, kitchen illuminated only by a weak bulb; Desire: To touch the remnants of the first dough batch before it hardens completely; Obstacle: The overwhelming silence of the new city crushing the sound of frying.",
+    "subject_rotation": "Examining the *sound* profile exclusively: focusing on the difference between the explosive 'splatter' (আঁচ) versus the muffled absorption.",
+    "sensory_detail": "Taste: The metallic tang left by the cheap frying oil clinging subtly to the roof of the mouth.",
+    "research_question": "Is there an established literary metaphor within Bengali prose for the specific sensation of 'phantom flavor' or memory attached to scent?",
+    "structural_variant": "A segment structure driven entirely by temperature shifts: starting at ambient room temp $\\to$ reaching frying temp $\\to$ cooling down to memory state.",
+    "variety_note": "While neighbours explored the oil via grander metaphors or tactile memory, this section drills down specifically on the sensory *signature*—the initial sharp sound and lingering mouthfeel that defines the divergence."
+  }
 }

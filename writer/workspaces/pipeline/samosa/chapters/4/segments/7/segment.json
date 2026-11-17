@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অস্বীকৃত পরিচিতি",
+  "segment_summary": "এই নতুন পরিবেশে সামোসাটি তার পরিচিতি পুরোপুরি প্রতিষ্ঠা করতে ব্যর্থ হয়, বরং একটি 'অনুবাদিত' খাদ্য হিসেবে থেকে যায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Samosa as a Spectator: Focusing the perspective entirely on the samosa itself reacting to the market's noise.",
+    "story_option": "Setting: Midday bustle of an international street market; Desire: To momentarily isolate oneself from the sensory overload; Obstacle: The relentless presence of neighboring, brightly-scented stalls.",
+    "subject_rotation": "Treating the market not as a place of consumption, but as a crucible that tests authenticity.",
+    "sensory_detail": "The metallic, slightly oily tang from cheap cooking oil used by stall vendors replacing the earthy mustard note.",
+    "research_question": "How can the mandated voice articulate overwhelming external stimulus without descending into simple description or complaint?",
+    "structural_variant": "A highly fragmented structure, where each segment is an intense snapshot of a micro-interaction within the market.",
+    "variety_note": "While neighbouring chapters focus on the *creation* or *essence* of the samosa, this chapter examines its fragile existence when subjected to external, overwhelming market pressures."
+  }
+}

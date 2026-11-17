@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বনাম মানবিক",
+  "segment_summary": "এই শূন্যতা কি কেবল রাসায়নিক যৌগগুলির অনুপস্থিতি, নাকি এটি মানব অভিজ্ঞতার গভীরতম সংযোগ বিচ্ছিন্ন হওয়ার চিহ্ন?",
+  "name": "6",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The intrusion of an unfamiliar word (the twist): A single modern/English term appearing late in a stanza, briefly shattering the dense, archaic Bengali texture and exposing its fragility.",
+    "story_option": "Setting: By a cracked window overlooking a gray industrial landscape; Desire: To make the last residual taste become tangible—a particle, a drop of oil suspended in the air; Obstacle: A sudden, intrusive sound (the city's mechanical beat) forcing immediate consumption over contemplation.",
+    "subject_rotation": "Shifting from regret over loss to a fierce defense of what *remains*—the conceptual framework of flavor even if its chemical signature is gone.",
+    "sensory_detail": "The specific quality of light—a thin, washed-out luminescence filtering through glass, lacking the depth of sunlit kitchen haze.",
+    "research_question": "How can syntactic variation reflect the emotional oscillation between deep introspection and abrupt external sensory stimuli?",
+    "structural_variant": "Using cyclical phrasing where the final word of one stanza echoes or slightly transforms the first word of the next.",
+    "variety_note": "This chapter shifts focus from describing the *change* (like Chapter 3) to dwelling exclusively on the ontological weight of what is left behind after consumption, confronting the void directly through symbolic address."
+  }
+}

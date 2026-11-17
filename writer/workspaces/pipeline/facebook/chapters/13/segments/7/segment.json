@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আত্ম-পর্যবেক্ষণ বনাম প্রকাশ",
+  "segment_summary": "লেখক দ্বিধায় ভোগেন—এই গভীর ব্যক্তিগত সংগ্রামটি কি কেবল তার ব্যক্তিগত যন্ত্রণা, নাকি এটি একটি সর্বজনীন বার্তা হিসেবে প্রকাশিত হওয়ার যোগ্য?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the phone not as a communication device but as an inert, heavy mineral object (e.g., slate) that resists being lifted.",
+    "story_option": "Setting: A sparse concrete balcony overlooking city traffic; Desire: To feel the raw texture of wind against bare skin; Obstacle: The AI suggesting 'hashtag documentation' for the moment.",
+    "subject_rotation": "Focusing on 'Disconnection' as a highly manicured aesthetic choice rather than an authentic state.",
+    "sensory_detail": "The cool, slick weight of a smooth stone kept in the palm during periods of forced stillness.",
+    "research_question": "What is the precise linguistic difference in Bengali between voluntary solitude and forced isolation?",
+    "structural_variant": "A cyclical structure where each segment circles back to the initial physical placement of the phone.",
+    "variety_note": "This chapter deliberately pivots from the outward societal critique seen in earlier segments to an intensely internalized, somatic exploration of mediated absence and its physical manifestations."
+  }
+}

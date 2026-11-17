@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অনুবাদিত স্বাদের ভার",
+  "segment_summary": "সামোসাটি তার আদি রূপ ফিরে না পেলেও, তার 'অনুবাদিত' স্বাদটিই প্রবাসীর পরিচয়ের একটি স্থায়ী অংশ হয়ে ওঠে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the emptiness inside the husk not as lack, but as potential energy—the space awaiting the original essence.",
+    "story_option": "Setting: In the quiet moments before dawn, looking at the city lights through the window; Desire: To identify a single pattern in the distant glow that mirrors the original marketplace chaos; Obstacle: The overwhelming uniformity of modern urban grids.",
+    "subject_rotation": "A purely internal, claustrophobic meditation on the smallness of the individual taste experience versus the vastness of geographical displacement.",
+    "sensory_detail": "The specific sound of a single, cooling droplet hitting a damp concrete floor near the point of consumption (sound).",
+    "research_question": "How is 'sweet melancholy' expressed structurally in classical Bengali poetry—can this sonic patterning be mimicked without resorting to cliché?",
+    "structural_variant": "A highly recursive structure where the last line of Segment N feeds directly into the first word/idea of Segment N+1.",
+    "variety_note": "Unlike the earlier chapters focused on concrete events (journey, name change), this chapter delves entirely into phenomenology—the state of being suspended between what was and what is, using taste as the philosophical anchor."
+  }
+}

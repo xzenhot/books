@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 7,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সমাজের ছায়া ও ফর্সা আলো",
+  "segment_summary": "বাইরের জগতের কঠোর প্রত্যাশাগুলো সোনালী-র ফর্সা, উজ্জ্বল সত্তার উপর এক ধরনের ধূসর ছায়া ফেলে দেয়, যা তার অভ্যন্তরীণ দীপ্তিকে আড়াল করার চেষ্টা করে।",
+  "name": "1",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the social expectations not as external pressures, but as a finely woven tapestry that she is intentionally allowed to fray in key moments.",
+    "story_option": "setting: একটি অত্যন্ত সাজানো বসার ঘর (Formal drawing-room), desire: সামাজিক গ্রহণযোগ্যতা এবং নিজের সত্যের মধ্যে একটি অস্থায়ী ভারসাম্য রক্ষা করা।, obstacle: অতিথিদের তীক্ষ্ণ, বিচারমূলক দৃষ্টি যা ফর্সা ত্বকের প্রতিটি ভাঁজকে প্রশ্ন করে।, turn: সোনালী হঠাৎ সেই পরিবেশের সকল প্রোটোকলকে উপহাস করে এক নীরব হাসিতে ভেঙে দেয়।",
+    "subject_rotation": "Analyzing the societal pressure through a lens of inherited duty vs. chosen desire, rather than mere conformity.",
+    "sensory_detail": "The dry, abrasive texture of an unworked linen cloth rubbing against sensitive skin (Touch).",
+    "research_question": "How can the high poetic diction convey the subtle *erosion* caused by social pressure without resorting to overtly pessimistic or dramatic language?",
+    "structural_variant": "Employing a highly fragmented structure where each segment is less a narrative passage and more a series of rapid-fire, contradictory images.",
+    "variety_note": "Where earlier chapters focused on internal discovery or rising tension, this chapter isolates the direct friction point: the clash between the intensely private spiritual life and the pervasive, visible demands of the external world."
+  }
 }

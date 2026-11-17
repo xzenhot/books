@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় অধ্যায়",
+  "segment_summary": "এই মহাকাব্যিক সংগ্রাম বেহুলার জীবনকে ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক চিরন্তন ও অবিস্মরণীয় অধ্যায় হিসেবে গেঁথে দেয়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Post-mythic critique: Structuring the final stanzas as questioning whether this 'victory' satisfies any true societal need or merely validates one exceptional narrative.",
+    "story_option": "Setting: A secluded inner chamber of their dwelling; Desire: For a silent acknowledgment that they have changed—that struggle has etched permanence onto them; Obstacle: Fear that this 'perfection' is only superficial, hiding deeper fracture. Turn: The small object (the vessel) reveals a subtle mark of ancient sorrow.",
+    "subject_rotation": "Framing the triumph as an internal state of being achieved *despite* external success (i.e., victory is defined by resilience's texture, not its arrival).",
+    "sensory_detail": "Touch: The cold permanence felt when touching something aged by immense emotional pressure (like worn river clay).",
+    "research_question": "How can the concept of 'ontological necessity' be rendered poetically using archaic yet accessible Bangla diction?",
+    "structural_variant": "Using a slow, deliberate cadence—a drawn-out chime sequence mimicking the return's delayed echo.",
+    "variety_note": "This chapter shifts focus entirely to the enduring resonance *after* the triumphant moment, using stillness and residual imagery rather than depicting the dynamic action of the return itself. It prioritizes reflection over spectacle."
+  }
+}

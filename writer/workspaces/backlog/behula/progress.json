@@ -3,12 +3,14 @@
   "completed_chapters": 0,
   "current_chapter": 1,
   "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
   "book_name": "behula",
   "form": "poetry",
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "ভূমিকা",
+      "topic": "behula — পর্ব 1 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/1/chapter.md",
@@ -16,7 +18,7 @@
     },
     {
       "chapter_number": 2,
-      "topic": "নামের ভিতরে প্রতীক",
+      "topic": "behula — পর্ব 2 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/2/chapter.md",
@@ -24,7 +26,7 @@
     },
     {
       "chapter_number": 3,
-      "topic": "দৃঢ় বিশ্বাসের দীপ",
+      "topic": "behula — পর্ব 3 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/3/chapter.md",
@@ -32,7 +34,7 @@
     },
     {
       "chapter_number": 4,
-      "topic": "আলোর প্রথম অর্থ",
+      "topic": "behula — পর্ব 4 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/4/chapter.md",
@@ -40,7 +42,7 @@
     },
     {
       "chapter_number": 5,
-      "topic": "কঠিন সময়ের প্রবেশ",
+      "topic": "প্রতিদ্বন্দ্বিতার আবহে নিজের অবস্থান ধরে রাখা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/5/chapter.md",
@@ -48,7 +50,7 @@
     },
     {
       "chapter_number": 6,
-      "topic": "প্রথম পদক্ষেপ",
+      "topic": "behula — পর্ব 6 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/6/chapter.md",
@@ -56,7 +58,7 @@
     },
     {
       "chapter_number": 7,
-      "topic": "বাধার মুখোমুখি",
+      "topic": "একাকী নারীর সংগ্রামের প্রতীক হয়ে ওঠা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/7/chapter.md",
@@ -64,7 +66,7 @@
     },
     {
       "chapter_number": 8,
-      "topic": "সংশয়ের ছায়া",
+      "topic": "সাংস্কৃতিক ও ধর্মীয় বাধার মোকাবিলা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/8/chapter.md",
@@ -72,7 +74,7 @@
     },
     {
       "chapter_number": 9,
-      "topic": "বিরতির অধিকার",
+      "topic": "সতীত্ব ও প্রেমের পরিচয়",
       "category": "",
       "status": "pending",
       "file_path": "chapters/9/chapter.md",
@@ -80,7 +82,7 @@
     },
     {
       "chapter_number": 10,
-      "topic": "পদচিহ্নের ভাষা",
+      "topic": "দশমত: শেষ পর্যন্ত সাফল্য অর্জন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/10/chapter.md",
@@ -88,7 +90,7 @@
     },
     {
       "chapter_number": 11,
-      "topic": "ক্লান্তির স্বীকারোক্তি",
+      "topic": "বিশ্বাস ও প্রার্থনায় অবিচল নির্ভরতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/11/chapter.md",
@@ -96,7 +98,7 @@
     },
     {
       "chapter_number": 12,
-      "topic": "সাহসের ক্ষুদ্র রূপ",
+      "topic": "বেহুলার সংগ্রাম: সম্মিলিত কণ্ঠস্বর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/12/chapter.md",
@@ -104,7 +106,7 @@
     },
     {
       "chapter_number": 13,
-      "topic": "নীরবতার ভিতর",
+      "topic": "অন্ধকার এবং আলোর দ্বৈরথ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/13/chapter.md",
@@ -112,7 +114,7 @@
     },
     {
       "chapter_number": 14,
-      "topic": "নিজেকে দেওয়া কথা",
+      "topic": "চূড়ান্ত পরীক্ষার পূর্বে: সংকল্পের মুহূর্ত",
       "category": "",
       "status": "pending",
       "file_path": "chapters/14/chapter.md",
@@ -120,7 +122,7 @@
     },
     {
       "chapter_number": 15,
-      "topic": "বাতাসে দীপ",
+      "topic": "সমস্ত প্রতিকূলতা জয় করে স্বামীর প্রত্যাবর্তন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/15/chapter.md",
@@ -128,7 +130,7 @@
     },
     {
       "chapter_number": 16,
-      "topic": "দুই হাতের আড়াল",
+      "topic": "Final Triumph and Enduring Question",
       "category": "",
       "status": "pending",
       "file_path": "chapters/16/chapter.md",
@@ -136,7 +138,7 @@
     },
     {
       "chapter_number": 17,
-      "topic": "অন্ধকারের সঙ্গে সহাবস্থান",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/17/chapter.md",
@@ -144,7 +146,7 @@
     },
     {
       "chapter_number": 18,
-      "topic": "দেয়ালের সামনে",
+      "topic": "Final Triumph and Enduring Question",
       "category": "",
       "status": "pending",
       "file_path": "chapters/18/chapter.md",
@@ -152,7 +154,7 @@
     },
     {
       "chapter_number": 19,
-      "topic": "সীমা পেরোনো",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/19/chapter.md",
@@ -160,7 +162,7 @@
     },
     {
       "chapter_number": 20,
-      "topic": "একলা পথের প্রতিধ্বনি",
+      "topic": "Final Triumph: The Return of the Beloved",
       "category": "",
       "status": "pending",
       "file_path": "chapters/20/chapter.md",
@@ -168,7 +170,7 @@
     },
     {
       "chapter_number": 21,
-      "topic": "অধ্যবসায়ের ছন্দ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/21/chapter.md",
@@ -176,7 +178,7 @@
     },
     {
       "chapter_number": 22,
-      "topic": "আশার অনুশীলন",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/22/chapter.md",
@@ -184,7 +186,7 @@
     },
     {
       "chapter_number": 23,
-      "topic": "শরীরের ক্লান্তি, মনের আলো",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/23/chapter.md",
@@ -192,7 +194,7 @@
     },
     {
       "chapter_number": 24,
-      "topic": "অন্তরের কণ্ঠ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/24/chapter.md",
@@ -200,7 +202,7 @@
     },
     {
       "chapter_number": 25,
-      "topic": "বাধা থেকে দোরগোড়া",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/25/chapter.md",
@@ -208,7 +210,7 @@
     },
     {
       "chapter_number": 26,
-      "topic": "কষ্টের নাম দেওয়া",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/26/chapter.md",
@@ -216,7 +218,7 @@
     },
     {
       "chapter_number": 27,
-      "topic": "বিশ্বাস মানে নিশ্চয়তা নয়",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/27/chapter.md",
@@ -224,7 +226,7 @@
     },
     {
       "chapter_number": 28,
-      "topic": "নতুন ভোরের আভাস",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/28/chapter.md",
@@ -232,7 +234,7 @@
     },
     {
       "chapter_number": 29,
-      "topic": "চলার চিহ্ন",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/29/chapter.md",
@@ -240,7 +242,7 @@
     },
     {
       "chapter_number": 30,
-      "topic": "অন্যের দিকে হাত",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/30/chapter.md",
@@ -248,7 +250,7 @@
     },
     {
       "chapter_number": 31,
-      "topic": "পথের পেছনে থাকা আলো",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/31/chapter.md",
@@ -256,7 +258,7 @@
     },
     {
       "chapter_number": 32,
-      "topic": "একজনের সংগ্রাম, অনেকের প্রশ্ন",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/32/chapter.md",
@@ -264,7 +266,7 @@
     },
     {
       "chapter_number": 33,
-      "topic": "অন্যের প্রথম পদক্ষেপ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/33/chapter.md",
@@ -272,7 +274,7 @@
     },
     {
       "chapter_number": 34,
-      "topic": "আলোর দায় ভাগ করা",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/34/chapter.md",
@@ -280,7 +282,7 @@
     },
     {
       "chapter_number": 35,
-      "topic": "সহযাত্রার সম্ভাবনা",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/35/chapter.md",
@@ -288,7 +290,7 @@
     },
     {
       "chapter_number": 36,
-      "topic": "প্রজন্মে প্রজন্মে দীপ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/36/chapter.md",
@@ -296,7 +298,7 @@
     },
     {
       "chapter_number": 37,
-      "topic": "সংগ্রামের সাক্ষ্য",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/37/chapter.md",
@@ -304,7 +306,7 @@
     },
     {
       "chapter_number": 38,
-      "topic": "প্রতিমা নয়, মানুষ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/38/chapter.md",
@@ -312,7 +314,7 @@
     },
     {
       "chapter_number": 39,
-      "topic": "শেষ কঠিন বাঁক",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/39/chapter.md",
@@ -320,7 +322,7 @@
     },
     {
       "chapter_number": 40,
-      "topic": "আলোয় পৌঁছনো",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/40/chapter.md",
@@ -328,7 +330,7 @@
     },
     {
       "chapter_number": 41,
-      "topic": "সবার জন্য পথের আহ্বান",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/41/chapter.md",
@@ -336,7 +338,7 @@
     },
     {
       "chapter_number": 42,
-      "topic": "আহ্বানের পরে নীরবতা",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/42/chapter.md",
@@ -344,7 +346,7 @@
     },
     {
       "chapter_number": 43,
-      "topic": "প্রতিদিনের দীপ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/43/chapter.md",
@@ -352,7 +354,7 @@
     },
     {
       "chapter_number": 44,
-      "topic": "অপেক্ষার আলো",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/44/chapter.md",
@@ -360,7 +362,7 @@
     },
     {
       "chapter_number": 45,
-      "topic": "ভাঙা দীপের জোড়া",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/45/chapter.md",
@@ -368,7 +370,7 @@
     },
     {
       "chapter_number": 46,
-      "topic": "অন্যের আলোয় নিজেকে দেখা",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/46/chapter.md",
@@ -376,7 +378,7 @@
     },
     {
       "chapter_number": 47,
-      "topic": "শীতের দীপ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/47/chapter.md",
@@ -384,7 +386,7 @@
     },
     {
       "chapter_number": 48,
-      "topic": "শিশুর হাতে দীপ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/48/chapter.md",
@@ -392,7 +394,7 @@
     },
     {
       "chapter_number": 49,
-      "topic": "হারানো পথের স্মৃতি",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/49/chapter.md",
@@ -400,7 +402,7 @@
     },
     {
       "chapter_number": 50,
-      "topic": "ক্ষমার আলো",
+      "topic": "behula — পর্ব 5 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/50/chapter.md",
@@ -408,7 +410,7 @@
     },
     {
       "chapter_number": 51,
-      "topic": "অর্ধেক পথ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/51/chapter.md",
@@ -416,7 +418,7 @@
     },
     {
       "chapter_number": 52,
-      "topic": "কাজের ভিতর ধ্যান",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/52/chapter.md",
@@ -424,7 +426,7 @@
     },
     {
       "chapter_number": 53,
-      "topic": "বৃষ্টিতে দীপ",
+      "topic": "behula — পর্ব 5 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/53/chapter.md",
@@ -432,7 +434,7 @@
     },
     {
       "chapter_number": 54,
-      "topic": "প্রশ্নের আলো",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/54/chapter.md",
@@ -440,7 +442,7 @@
     },
     {
       "chapter_number": 55,
-      "topic": "মাটির গন্ধে বিশ্বাস",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/55/chapter.md",
@@ -448,7 +450,7 @@
     },
     {
       "chapter_number": 56,
-      "topic": "রাতের প্রহরী",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/56/chapter.md",
@@ -456,7 +458,7 @@
     },
     {
       "chapter_number": 57,
-      "topic": "ভোরের প্রস্তুতি",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/57/chapter.md",
@@ -464,7 +466,7 @@
     },
     {
       "chapter_number": 58,
-      "topic": "সেতুর আলো",
+      "topic": "Chapter 58: The Unwavering Flame Amidst the Abyss",
       "category": "",
       "status": "pending",
       "file_path": "chapters/58/chapter.md",
@@ -472,7 +474,7 @@
     },
     {
       "chapter_number": 59,
-      "topic": "অচেনা পথিকের দীপ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/59/chapter.md",
@@ -480,7 +482,7 @@
     },
     {
       "chapter_number": 60,
-      "topic": "দীপের ছায়া",
+      "topic": "behula — পর্ব 6 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/60/chapter.md",
@@ -488,7 +490,7 @@
     },
     {
       "chapter_number": 61,
-      "topic": "সংকল্পের পুনর্নবীকরণ",
+      "topic": "behula — পর্ব 6 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/61/chapter.md",
@@ -496,7 +498,7 @@
     },
     {
       "chapter_number": 62,
-      "topic": "গানের ভিতর আলো",
+      "topic": "behula — পর্ব 6 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/62/chapter.md",
@@ -504,7 +506,7 @@
     },
     {
       "chapter_number": 63,
-      "topic": "অসুস্থতার পাশে দীপ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/63/chapter.md",
@@ -512,7 +514,7 @@
     },
     {
       "chapter_number": 64,
-      "topic": "বিদায়ের আলো",
+      "topic": "behula — পর্ব 6 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/64/chapter.md",
@@ -520,7 +522,7 @@
     },
     {
       "chapter_number": 65,
-      "topic": "ফিরে আসার পথ",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/65/chapter.md",
@@ -528,7 +530,7 @@
     },
     {
       "chapter_number": 66,
-      "topic": "নদীর মতো বিশ্বাস",
+      "topic": "behula — পর্ব 6 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/66/chapter.md",
@@ -536,7 +538,7 @@
     },
     {
       "chapter_number": 67,
-      "topic": "পাহাড়ের মতো ধৈর্য",
+      "topic": "behula — পর্ব 6 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/67/chapter.md",
@@ -544,7 +546,7 @@
     },
     {
       "chapter_number": 68,
-      "topic": "বীজের বিশ্বাস",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/68/chapter.md",
@@ -552,7 +554,7 @@
     },
     {
       "chapter_number": 69,
-      "topic": "পাখির ভোর",
+      "topic": "behula — পর্ব 6 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/69/chapter.md",
@@ -560,7 +562,7 @@
     },
     {
       "chapter_number": 70,
-      "topic": "ঘরের আলো",
+      "topic": "বেহুলার সংগ্রাম: নারীর প্রতীক হয়ে ওঠা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/70/chapter.md",
@@ -568,7 +570,7 @@
     },
     {
       "chapter_number": 71,
-      "topic": "পথের বন্ধু",
+      "topic": "behula — পর্ব 7 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/71/chapter.md",
@@ -576,7 +578,7 @@
     },
     {
       "chapter_number": 72,
-      "topic": "স্মৃতির দীপ",
+      "topic": "behula — পর্ব 7 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/72/chapter.md",
@@ -584,7 +586,7 @@
     },
     {
       "chapter_number": 73,
-      "topic": "স্বপ্নের বীজ",
+      "topic": "behula — পর্ব 7 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/73/chapter.md",
@@ -592,7 +594,7 @@
     },
     {
       "chapter_number": 74,
-      "topic": "কৃতজ্ঞতার আলো",
+      "topic": "behula — পর্ব 7 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/74/chapter.md",
@@ -600,7 +602,7 @@
     },
     {
       "chapter_number": 75,
-      "topic": "সাহসের সংক্রমণ",
+      "topic": "behula — পর্ব 7 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/75/chapter.md",
@@ -608,7 +610,7 @@
     },
     {
       "chapter_number": 76,
-      "topic": "শেষ প্রহরের দীপ",
+      "topic": "বেহুলা — পর্ব 7 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/76/chapter.md",
@@ -616,7 +618,7 @@
     },
     {
       "chapter_number": 77,
-      "topic": "নতুন সূর্য",
+      "topic": "বেহুলার সংগ্রাম: নারীর প্রতীক",
       "category": "",
       "status": "pending",
       "file_path": "chapters/77/chapter.md",
@@ -624,7 +626,7 @@
     },
     {
       "chapter_number": 78,
-      "topic": "মহাকালের সাক্ষী",
+      "topic": "behula — পর্ব 8 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/78/chapter.md",
@@ -632,7 +634,7 @@
     },
     {
       "chapter_number": 79,
-      "topic": "আলোর উত্তরাধিকার",
+      "topic": "বেহুলা — পর্ব 7 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/79/chapter.md",
@@ -640,7 +642,7 @@
     },
     {
       "chapter_number": 80,
-      "topic": "অনন্ত যাত্রা",
+      "topic": "behula — পর্ব 8 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/80/chapter.md",
@@ -648,7 +650,7 @@
     },
     {
       "chapter_number": 81,
-      "topic": "সবার ভিতর বেহুলা",
+      "topic": "behula — পর্ব 15 — behula",
       "category": "",
       "status": "pending",
       "file_path": "chapters/81/chapter.md",

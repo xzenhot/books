@@ -1,0 +1,79 @@
+{
+  "chapter_index": 9,
+  "name": "9",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "টিফিন বক্সের ভাঁজ",
+  "chapter_summary": "এই পর্বটি একটি টিফিন বক্সের ভাঁজ করা কোণ এবং তার ভেতরের খাবারের গন্ধের মাধ্যমে পারিবারিক বন্ধন ও পরিচর্যার ধারাবাহিকতাকে চিত্রিত করে। এটি বিচ্ছিন্নতার মাঝেও কীভাবে ঘরোয়া উষ্ণতা টিকে থাকে, সেই সূক্ষ্ম মানবিক সংযোগের উপর আলোকপাত করে। এই ক্ষুদ্র বস্তুটির মাধ্যমে কাব্যটি প্রশ্ন তোলে যে, দৈনন্দিন জীবনের এই নিভৃত যত্নগুলো কি বৃহত্তর সামাজিক কাঠামোর ভিত্তি রচনা করে, নাকি কেবলই ব্যক্তিগত স্মৃতির আবছা প্রতিচ্ছবি?",
+  "further_references": [
+    "Domestic objects and household ritual"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "ভাঁজ করা কোণ",
+      "segment_summary": "টিফিন বক্সের সেই ভাঁজ করা কোণটি, যেখানে সময়ের ধুলো জমেছে, সেখানে পারিবারিক যত্নের নীরব স্বাক্ষর লেগে আছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 60,
+      "segment_title": "গন্ধের স্মৃতি",
+      "segment_summary": "খাবারের সেই পরিচিত গন্ধটি, যা দূরত্বের বাধা অতিক্রম করে, অতীতের উষ্ণ মুহূর্তগুলোকে বর্তমানের কাছাকাছি টেনে আনে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 60,
+      "segment_title": "অপেক্ষা ও বহন",
+      "segment_summary": "এই বাক্সটি কেবল খাবার বহন করে না, এটি অপেক্ষার ভার এবং যত্নশীল হাতের স্পর্শকেও বহন করে চলেছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 60,
+      "segment_title": "বিচ্ছিন্নতার উষ্ণতা",
+      "segment_summary": "বহু মাইল দূরে থাকা সত্ত্বেও, এই ক্ষুদ্র পাত্রটি এক ধরনের নিবিড়, ঘরোয়া উষ্ণতা সরবরাহ করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "প্রতিটি কামড়ের গল্প",
+      "segment_summary": "প্রতিটি কামড় যেন একটি ছোট গল্প, যা যত্নশীলতার নীরব ভাষা দিয়ে লেখা হয়েছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 60,
+      "segment_title": "অদৃশ্য বাঁধন",
+      "segment_summary": "এই খাবারটি একটি অদৃশ্য বাঁধন তৈরি করে, যা ভৌগোলিক দূরত্বকে অর্থহীন করে তোলে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 60,
+      "segment_title": "ক্ষুদ্রতার মহিমা",
+      "segment_summary": "এই সাধারণ টিফিন বক্সটি প্রমাণ করে যে, জীবনের সবচেয়ে বড় সত্যগুলো ক্ষুদ্রতম পাত্রে নিহিত থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "স্থায়িত্বের খোঁজ",
+      "segment_summary": "এই দৈনন্দিন আদান-প্রদান কি বৃহত্তর স্থিতিশীলতার ভিত্তি, নাকি কেবলই ক্ষণস্থায়ী ভালোবাসার প্রতিধ্বনি?",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

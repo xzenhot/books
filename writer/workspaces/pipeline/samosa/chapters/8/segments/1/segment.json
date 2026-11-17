@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 8,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ: স্মৃতির প্রথম দরজা",
+  "segment_summary": "এই অংশে ঘ্রাণ-স্মৃতির বৈজ্ঞানিক ভিত্তি তুলে ধরা হবে, যেখানে একটি সুনির্দিষ্ট গন্ধ কীভাবে তাৎক্ষণিকভাবে অতীতের একটি সম্পূর্ণ দৃশ্যকে মস্তিষ্কে পুনর্নির্মাণ করে।",
+  "name": "1",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Conceptualizing the memory of a scent not as an image, but as a measurable frequency or vibration that fails to resonate in the new environment.",
+    "story_option": "The 'I' stands at a window, smelling not street food below but phantom traces of Bengal clinging to the residual heat rising from an abandoned fry pan (Setting: Window ledge; Desire: To bottle the spectral aroma; Obstacle: The cold reality of glass and distance; Turn: Realizing the trap is self-imprisonment).",
+    "subject_rotation": "Treating 'ঘ্রাণ' (scent) as a form of temporal distortion—it pulls the present back to the past at an unnatural speed.",
+    "sensory_detail": "The metallic tang of unfamiliar cooking oil against the soft, dusty memory-flavor of Bengal; (Taste/Smell)",
+    "research_question": "What specific literary devices in Bengali poetry are used to represent sensory memory failure without resorting to pure scientific jargon?",
+    "structural_variant": "Alternating stanzas that strictly alternate between scientific observation (objective, cool diction) and poetic invocation (subjective, warm diction).",
+    "variety_note": "Unlike adjacent chapters that focus on the ingredients (oil, potato) or the cultural transition, this chapter isolates the *mechanism* of sensory recall itself—the bridge between chemistry and soul."
+  }
 }

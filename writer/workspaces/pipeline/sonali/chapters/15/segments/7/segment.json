@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "মুক্তির নতুন সংজ্ঞা",
+  "segment_summary": "সোনালী তার মুক্তিকে কোনো নির্দিষ্ট গন্তব্যে না খুঁজে, সেই প্রশ্ন করার প্রক্রিয়ার মধ্যেই খুঁজে পায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the lingering bliss not as a memory (Item 2), but as a persistent, subtle tremor felt only in the wrist or fingertips—a somatic echo.",
+    "story_option": "Setting: A narrow veranda overlooking a darkening courtyard; Desire: To articulate one final, perfect query about being using only breath patterns (no words); Obstacle: The silence of the evening pressing down like heavy damp cloth.",
+    "subject_rotation": "Shifting focus away from 'heavenly bliss' (the positive) entirely toward the *nature* of the lingering metaphysical residue—the aftertaste.",
+    "sensory_detail": "The fine grit of dust disturbed in the deepest recess of her memory (Tactile/Olfactory).",
+    "research_question": "How can Bengali poetic vocabulary convey a state that is simultaneously profoundly present and utterly absent? (i.e., a perfect echo vs. silence)",
+    "structural_variant": "A recursive structure, where each segment begins by quoting or rephrasing the preceding segment’s central question.",
+    "variety_note": "This chapter moves entirely beyond resolution toward sustained inquiry; unlike its neighbours which explored decay or decision points, this segment is defined by perpetual resonance and the act of asking itself."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আলোর ঝলক",
+  "segment_summary": "এই স্বর্গীয় অনুভূতিটি যেন এক তীব্র, বিশুদ্ধ আলোর ঝলক, যা তার ফর্সা ত্বকের উপর এক অলৌকিক আভা ফেলে দেয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The sudden intrusion of this 'bliss' is not gentle; it arrives with the jarring texture of fragmented glass, forcing immediate dissonance against the prior stillness.",
+    "story_option": "Setting: A sparsely furnished room at dusk. Desire: To hold onto the felt sensation for just one more beat. Obstacle: The memory of a mundane household chore waiting immediately outside the window; Turn: She stops mid-action, paralyzed by the residual echo.",
+    "subject_rotation": "Examining the physiological markers of this non-bodily experience—the faint tremor in the hands that belies perfect internal calm.",
+    "sensory_detail": "The scent of dry chalk dust suspended in the still air immediately following the episode (Smell).",
+    "research_question": "What specific Bengali vocabulary conveys 'unearned grace' or 'spontaneous divine leakage' without sounding overtly religious?",
+    "structural_variant": "Structuring segments based on increasing levels of perceptual distortion (from clear sensation -> distorted perception -> total conceptual void).",
+    "variety_note": "Unlike its neighbor, which focuses on induction through sensory input, this chapter is defined by an internally generated event—an instantaneous spiritual rupture in the mundane."
+  }
+}

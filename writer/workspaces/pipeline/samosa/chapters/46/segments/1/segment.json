@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 46,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অচেনা গন্ধের ভিড়",
+  "segment_summary": "বাজারের তীব্র, অপ্রয়োজনীয় উদ্দীপনাগুলো সামোসার পরিচিত গন্ধকে গ্রাস করে নেয়, যা তার স্বতন্ত্র অস্তিত্বকে দুর্বল করে দেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the market noise (the *kolahol*) not as distraction, but as a cacophony of competing identities that overwhelm the singular flavor.",
+    "story_option": "Setting: A specific, overly bright corner stall in an international market; Desire: The speaker wants to catch the faint, fleeting scent of ground mustard seeds beneath the overpowering smell of frying oil from nearby vendors; Obstacle: The heat haze makes every passing shape indistinct.",
+    "subject_rotation": "Focusing solely on the physical act of watching the samosas being dipped or served—a silent, ritualistic observation devoid of tasting.",
+    "sensory_detail": "The sharp, metallic taste of exhaust fumes mingling momentarily with the warm oil scent near the roadside vendor.",
+    "research_question": "What is the specific Bengali term for an overwhelming sensory environment where one particular scent becomes muted by many others?",
+    "structural_variant": "A call-and-response structure between the 'I' describing the internal memory and an imagined vendor whose voice only repeats commercial slogans.",
+    "variety_note": "This chapter pivots from internal culinary reflection to external environmental confrontation; the conflict moves from memory vs. present self, to ingrained cultural form vs. overwhelming urban noise."
+  }
 }

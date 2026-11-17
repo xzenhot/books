@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ঐতিহ্যের ক্ষয়",
+  "segment_summary": "অর্থনৈতিক চাপ কীভাবে তার প্রাচীন জীবনধারা ও সরলতাকে ধীরে ধীরে ক্ষয় করে দিচ্ছে, তা এই অংশে অনুভব করা যায়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A focus on the *cost* of a single traditional knot; detailing how the specialized rope used for mooring, once common, now carries an exorbitant price tag that undermines his ancient skill.",
+    "story_option": "Setting: The small, cluttered boat repair yard near the ghat. Desire: To secure one specific piece of aged wood for restoration. Obstacle: A buyer demands a price only available through outside commercial channels that bypass river communities. Turn: He must decide whether to take a quick job paying unfairly or risk delay.",
+    "subject_rotation": "Treating economic pressure as a form of ecological erosion—how financial necessity forces him to accept cheaper, more destructive substitutes for traditional materials.",
+    "sensory_detail": "The abrasive grit of cheap, milled wood filings settling in the cracks of his calloused hands.",
+    "research_question": "How does the community respond when a long-standing traditional service (like his) becomes economically unsustainable? Is there resentment or quiet understanding?",
+    "structural_variant": "Structuring segments around specific components: one for hull/wood, one for rigging/rope, one for motor/engine parts (if he considers upgrading), forcing a taxonomy of his vulnerability.",
+    "variety_note": "Where previous chapters have focused on external conflicts (bridges, weather), this chapter turns inward and downward, dealing solely with the material weight of commerce pressing upon his livelihood."
+  }
+}

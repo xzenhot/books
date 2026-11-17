@@ -1,0 +1,81 @@
+{
+  "chapter_index": 47,
+  "name": "47",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This concluding poem synthesizes the myriad small observations—from the sweat on a chai glass to the trace of vermilion—to confront the central philosophical query of the collection. It explores whether these countless, fragile moments coalesce into a substantial, enduring concept of 'India,' or if they remain merely a collection of beautiful, transient flashes. The imagery shifts from specific objects to the weight of accumulated experience, leaving the reader suspended between the tangible detail and the elusive national spirit.",
+  "further_references": [
+    "misc — পর্ব 1",
+    "misc — পর্ব 3",
+    "misc — পর্ব 14"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 62,
+      "segment_title": "চায়ের ঘাম ও সিঁদুরের রেখা",
+      "segment_summary": "The poem begins by juxtaposing the ephemeral moisture of a railway chai glass against the permanent, ritualistic mark of vermilion on a threshold.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 62,
+      "segment_title": "অসংখ্য মুহূর্তের ভার",
+      "segment_summary": "It catalogues the collected minutiae—the folded hands, the scent of the tiffin, the silence of the bus—as burdens carried by the everyday.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 62,
+      "segment_title": "ক্ষুদ্রতার মহাকাব্য",
+      "segment_summary": "The observer questions the scale, wondering if the weight of these tiny gestures constitutes a grand narrative worthy of the term 'nation.'",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 62,
+      "segment_title": "স্থায়িত্বের অনুসন্ধান",
+      "segment_summary": "The poem examines the tension between the fleeting nature of a monsoon drop and the enduring pattern of an alpana design.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 62,
+      "segment_title": "বিচ্ছিন্নতার সংযোগ",
+      "segment_summary": "It probes the nature of connection found in shared, unspoken pauses—the economy of silence on a crowded platform.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 62,
+      "segment_title": "অর্থহীন ঝলকানি",
+      "segment_summary": "A moment of doubt arises: are these moments merely beautiful, self-contained sparks that vanish into the vastness of time?",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 62,
+      "segment_title": "স্থিতিশীলতার জিজ্ঞাসা",
+      "segment_summary": "The final contemplation asks if the sum of these delicate observations creates a stable, recognizable entity, or if it dissolves into pure sensation.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 62,
+      "segment_title": "সহমর্মিতার স্বীকৃতি",
+      "segment_summary": "Ultimately, the poem settles not on an answer, but on a tender acknowledgment of the beauty inherent in the act of attentive witnessing itself.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

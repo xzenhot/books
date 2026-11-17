@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 49,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার শেষ ফোঁটা",
+  "segment_summary": "সামোসাটির শেষ কামড়টি গিলে ফেলার পরেও জিভে লেগে থাকা সেই অমলিন শূন্যতা বর্ণনা করা হয়, যা কোনো সাধারণ খাদ্যের সমাপ্তি নয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the lingering flavor residue not as a ghost of taste, but as an actual, tangible pollutant that coats the tongue like fine dust (ধুল).",
+    "story_option": "Setting: A worn, inherited travel tin (টিফিন) on a bare counter; Desire: To find one single crumb that retains the original spice profile; Obstacle: The wrapper has absorbed all ambient foreign smells; Turn: 'I' realize the crumb is now just inert grease.",
+    "subject_rotation": "Focusing solely on the *anticipatory* quality of the void—how the absence creates a vacuum that demands an impossible past.",
+    "sensory_detail": "Tactile: The slick, almost waxy film left on the palate where the spice should have been.",
+    "research_question": "What are specific colloquial Bengali phrases used to describe a feeling of unfulfilled appetite or lingering emptiness?",
+    "structural_variant": "A highly fragmented, list-like structure mirroring chemical decomposition.",
+    "variety_note": "Unlike neighbour chapters focused externally on market clutter or ingredient substitution, this chapter turns entirely inward, meditating exclusively on the residue—the philosophical weight and silence left *after* consumption."
+  }
 }

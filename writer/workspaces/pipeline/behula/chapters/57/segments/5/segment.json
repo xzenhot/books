@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 57,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "তার ব্যক্তিগত ট্র্যাজেডি সমষ্টিগত প্রেরণা হয়ে ওঠে, যা নিপীড়িত আত্মার প্রতিধ্বনি বহন করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Centering on the physical sensation of 'weight' being lifted: how the oppressive gravity of societal expectation dissolves moment by moment upon his return.",
+    "story_option": "setting: Beneath the heavy canopy where morning light first strikes after the ordeal., desire: To articulate the precise cost of her endurance—not with tears, but with absolute stillness and perfect presence., obstacle: The persistent echo of past criticisms that momentarily refracts the sunlight, casting a ghost image over their renewed peace.",
+    "subject_rotation": "Shifting from viewing her struggle as purely heroic endurance to portraying it as a necessary, agonizing *metamorphosis* where the old self must die for the new one to exist.",
+    "sensory_detail": "The dry, brittle sound of aged linen shifting against itself as they finally meet—a fragile contrast to the epic weight of events.",
+    "research_question": "What specific classical Bengali vocabulary exists for a 'transcendent stillness' or 'perfect poise achieved after suffering' that avoids religious cliché?",
+    "structural_variant": "A poem structured as a series of overlapping refrains, where the refrain itself gains meaning by contradicting its previous iteration.",
+    "variety_note": "Unlike earlier segments which detailed specific hardships, this concluding section focuses almost entirely on the resulting *state* of being after the struggle; it emphasizes stillness and metaphysical consequence over action."
+  }
+}

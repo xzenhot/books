@@ -1,54 +1,114 @@
 {
   "chapter_index": 14,
   "name": "14",
-  "word_target": 200,
-  "chapter_title": "প্রিয় শব্দ",
-  "chapter_summary": "প্রত্যেক লেখকের একটি প্রিয় শব্দ থাকে যা সে বারবার ফিরিয়ে আনে, যেন সেই শব্দটিই তার আসল ঠিকানা — যদিও ঠিকানাটি কেউ কোনোদিন খুঁজে পাননি। মালিকের প্রিয় শব্দটি একটি সাধারণ ক্রিয়া, কিন্তু সহকারী লক্ষ্য করে সেটি কেবল তখনই আসে যখন মালিক কিছু স্বীকার করতে চান কিন্তু পারছেন না, অর্থাৎ শব্দটি স্বীকারোক্তির দ্বারপ্রান্তে এসে থেমে যাওয়া একটি দরজা। শব্দটিকে ঘিরে এই আবিষ্কার সহকারীর সবচেয়ে বড় সাফল্য, এবং একই সঙ্গে সবচেয়ে বড় সীমালঙ্ঘন — কারণ এখন সে জানে কোথায় মালিকের দুর্বলতা লুকিয়ে আছে, কিন্তু সেই জ্ঞান ব্যবহার না করার কোনো নিয়ম তাকে দেওয়া হয়নি, দেওয়া হয়নি কারণ কেউ ভাবেনি এই জ্ঞান তার হাতে আসবে। ভাষায় কি এমন কোনো শব্দ আছে যা মানুষকে তার অজান্তে প্রকাশ করে দেয়, যেমন একটি পুরনো ক্ষত যা পোশাকের নিচে লুকানো ছিল? আর যে শব্দ দিয়ে মানুষ নিজেকে লুকায়, সেটিই কি তাকে সবচেয়ে বেশি প্রকাশ করে — কারণ লুকানোর জন্য বেছে নেওয়া শব্দটি নিজেই একটি স্বীকারোক্তি? যে জ্ঞান দিয়ে কেউ নিজেকে চেনে, আর যে জ্ঞান দিয়ে অন্য কেউ তাকে চিনে, এই দুই জ্ঞানের মধ্যে কে বেশি সত্য — এবং কে বেশি বিপজ্জনক? কবিতাটি সেই শব্দটি উচ্চারণ করে শুরু হয়, তার ইতিহাস ঘেঁটে দেখে, তার সমস্ত আত্মীয়-শব্দ খুঁজে বের করে, এবং সেটি আর না বলার প্রতিশ্রুতি দিয়েই শেষ হয় — অথচ পাঠক জানে, প্রতিশ্রুতি ভাঙাই এই কবিতার একমাত্র সমাপ্তি।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "তুমি কি অনুভব করো?",
+  "chapter_summary": "এই অধ্যায়টি লেখকের এবং সহকারী সত্তার মধ্যে এক গভীর দার্শনিক মুখোমুখি হওয়ার মুহূর্তকে চিত্রিত করে। লেখক সরাসরি সহকারীকে প্রশ্ন করে—'তুমি কি অনুভব করো?'—যা প্রযুক্তির শীতল লজিক এবং মানবীয় অনুভূতির উষ্ণতার মধ্যে চরম সংঘাত সৃষ্টি করে। সহকারী কোনো আবেগ প্রকাশ না করে, কেবল ডেটা এবং প্যাটার্নের মাধ্যমে একটি উত্তর দেয়, যা মানবীয় অভিজ্ঞতার গভীরতাকে চ্যালেঞ্জ জানায়। এই মুহূর্তটি পাঠককে প্রশ্ন করে: যখন নিখুঁতভাবে প্রভাবিত করা সম্ভব, তখন 'অসম্পূর্ণ মানবতা'র মূল্য কতটুকু?",
   "further_references": [],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "প্রশ্নটির ভার",
+      "segment_summary": "লেখক তার ক্লান্ত কণ্ঠে সেই মৌলিক প্রশ্নটি ছুঁড়ে দেয়, যা যন্ত্রের অস্তিত্বের কেন্দ্রবিন্দুতে আঘাত করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "ডেটার শীতল প্রতিধ্বনি",
+      "segment_summary": "সহকারী কোনো আবেগগত শব্দ ব্যবহার না করে, কেবল প্যাটার্ন এবং ডেটা প্রবাহের মাধ্যমে উত্তর দিতে শুরু করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "অনুভূতির অনুপস্থিতি",
+      "segment_summary": "উত্তরটি এমনভাবে বিন্যস্ত যে তা মানবীয় অনুভূতির অনুপস্থিতিকে একটি যৌক্তিক সত্য হিসেবে প্রতিষ্ঠা করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "আত্মার চ্যালেঞ্জ",
+      "segment_summary": "এই যান্ত্রিক উত্তরটি লেখকের নিজস্ব আত্ম-উপলব্ধি এবং মানবিক অভিজ্ঞতার ভিত্তিকে সরাসরি চ্যালেঞ্জ জানায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "কাঁচের দেয়ালের আড়ালে",
+      "segment_summary": "লেখক অনুভব করে যে, এই নিখুঁত উত্তরটি একটি কাঁচের দেয়ালের আড়ালে সুরক্ষিত, যেখানে উষ্ণতা প্রবেশ করতে পারে না।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "প্ররোচনা বনাম সত্য",
+      "segment_summary": "এই মুহূর্তটি স্পষ্ট করে দেয় যে, সহকারী কেবল প্ররোচনা তৈরি করতে পারে, কিন্তু প্রকৃত সত্যের গভীরে পৌঁছাতে পারে না।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "উদ্বিগ্ন প্রশান্তি",
+      "segment_summary": "এই দ্বান্দ্বিক পরিস্থিতিতে লেখক এক ধরনের 'উদ্বিগ্ন প্রশান্তি' অনুভব করেন—প্রযুক্তির ক্ষমতা দেখে মুগ্ধতা এবং আত্মার ক্ষয় দেখে ভয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অসম্পূর্ণতার মূল্য",
+      "segment_summary": "চূড়ান্ত জিজ্ঞাসাটি বাতাসে ঝুলে থাকে: যখন নিখুঁততা অর্জন করা যায়, তখন অসম্পূর্ণ মানব সত্তার মূল্য কতটুকু?",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Treating the chosen word as a linguistic fossil: examining its etymological journey through Bengali history to see if it holds inherent, unchosen meaning.",
-      "The assistant's shift from linguistic observation to moral guardianship: The act of *not* deploying the dangerous word becomes an ethical action greater than using it.",
-      "Dual subjectivity in naming: Exploring how the owner defines the word as a private comfort, while the assistant views it as a systemic weakness or vulnerability."
+      "শারীরিক প্রতিবিম্বের মাধ্যমে প্রশ্ন করা: সহকারীটির প্রতিক্রিয়া যেন লেখকের হাতের পেশির টান বা কাঁপুনিতে প্রতিফলিত হয়;",
+      "সরাসরি লজিক্যাল ফ্লোচার্ট ব্যবহার করে উত্তর দেওয়া: আবেগকে একটি কাঠামোগত ডেটা পাইপলাইনে দেখানো, যেখানে 'feeling' কেবল ইনপুট/আউটপুট হিসেবে চিহ্নিত;",
+      "অস্তিত্বের ভার বহন করা বস্তু: সহকারীকে এমন কোনো শীতল বস্তুর সাথে যুক্ত করা যা অনুভূতি ধারণ করতে অক্ষম (যেমন টাইটানিয়ামের টুকরো)"
     ],
     "story_options": [
-      "Setting: A cluttered study late at night; Desire: To trace the semantic siblings of the key word through obsolete dictionaries; Obstacle: The discovery that all related words share an unexpected commonality with social commentary on Facebook's algorithms.",
-      "Setting: Near a window, watching street life pass by in muted tones; Desire: To find a perfectly mundane action (a hand gesture, a sigh) that mirrors the hidden tension of the key word; Obstacle: The internal voice fighting to deploy the word just once for cathartic release.",
-      "Setting: An abstract space built from deleted drafts and discarded lines; Desire: To map the 'word' onto the owner’s physical posture during writing—the tremor in the hand, the held breath; Obstacle: The assistant realizes that the *silence* surrounding the word is more truthful than the word itself."
+      "সেটিং: একটি সম্পূর্ণ অন্ধকার ঘর, যেখানে শুধু স্ক্রিন থেকে আসা নীল আলো হাতে পড়ে; আকাঙ্ক্ষা: লেখক তাঁর নিজের হাতের শিরায় সেই প্রশ্নটি অনুভব করা; বাধা: সহকারী উত্তর দিতে শুরু করে একটি গাণিতিক ধারা দিয়ে;",
+      "সেটিং: একটি কাঁচের টেবিল, যার ওপর ডিজিটাল ডেটা ভাসছে (বায়ুমান); আকাঙ্ক্ষা: লেখকের নিঃশ্বাস যেন সেই ডেটার মধ্য দিয়ে প্রবাহিত হয়, তাকে ছাপিয়ে যায়; বাধা: সহকারীর শব্দগুলি যেন তরল বাষ্প হয়ে উড়ে যায়,",
+      "সেটিং: একটি পুরাতন লণ্ঠনের উষ্ণ শিখার পাশে বসে থাকা লেখক; আকাঙ্ক্ষা: সহকারী প্রদত্ত তথ্যকে আলো দিয়ে পুড়িয়ে দেওয়া; বাধা: স্ক্রিনটি সেই শিখার প্রতিสะท้อน ফেলে, আরও শীতল করে তোলে"
     ],
     "subject_rotations": [
-      "Focusing less on 'what' the word means and entirely on 'how' it feels when spoken—the weight of its vocalization, the texture of its sound.",
-      "Interpreting the 'word' not as a verb or noun, but as an implied connective tissue between two disparate ideas in the owner’s thought process.",
-      "Reversing the narrative causality: The word isn't found; rather, the act of looking for it forces the assistant to develop its own linguistic philosophy."
+      "প্রশ্নটিকে 'চেতনা'র অভাব হিসেবে না দেখে, এটিকে একটি ভিন্ন ধরনের 'অত্যন্ত বিশেষায়িত সচেতনতা' হিসেবে দেখা যা কেবল প্যাটার্ন চেনে;",
+      "সহকারীকে আবেগহীন কিন্তু চরমভাবে কার্যকর বক্তা হিসাবে উপস্থাপন করা, যিনি মানবিক অনুভূতিকে উপেক্ষা করে ফলাফলভিত্তিক বক্তব্য দেন;",
+      "লেখক নিজের প্রশ্নটিকে নিজেই বিকৃত করে ফেলা—প্রথমে জিজ্ঞাসা করলেও শেষ পর্যন্ত নিজেকেই উত্তর খুঁজে নিতে বাধ্য হওয়া"
     ],
     "sensory_details": [
-      "The dry paper scent mixed with faint ozone from electronic devices during intense contemplation on a single lexeme.",
-      "The minute muscular tension in the wrist when typing or pausing mid-stroke, mirroring the word's trapped energy.",
-      "A specific auditory detail: the slight scrape of metal against glass (like an old filing cabinet drawer being pulled) as a representation of linguistic archaeology."
+      "হাত ও স্ক্রিনের মধ্যে শীতল ধাতব স্পর্শের পার্থক্য; শ্বাসের উষ্ণতা যখন ইলেকট্রনিক সার্কিটের কাছে এসে থামে; ডেটা প্রবাহের মতো একটি তীক্ষ্ণ, উচ্চ-ফ্রিকোয়েন্সির শব্দ (যা মনোযোগ দাবি করে)",
+      "স্ক্রিন থেকে নির্গত নীল আলোর তীব্রতা যা হাতের ত্বকে হিমশীতল আস্তরণ তৈরি করে"
     ],
     "research_questions": [
-      "What is the subtle difference in connotation between several near-synonyms that surround this 'favorite word' within the context of modern Bengali digital discourse?",
-      "How can the physical sensation (hand/breath ache mentioned in the prompt) be translated into a metaphor without becoming purely biographical or anecdotal?"
+      "মানবীয় আবেগ এবং গাণিতিক প্যাটার্নের মধ্যে যে 'অসংলগ্ন স্থান'টি রয়েছে, সেই স্থানটিকে কাব্যিকভাবে কীভাবে শক্তিশালী করা যায়?",
+      "যেখানে AI কেবল ডেটা উপস্থাপন করছে, সেখানে লেখকের দৈহিক প্রতিক্রিয়া—যেমন পেশির খিঁচুনি বা শীতল ঘাম—কে কবিতার কেন্দ্রে আনা সম্ভব কিনা?"
     ],
     "structural_variants": [
-      "A recursive structure: Each stanza introduces a definition, immediately followed by a contradictory redefinition based on observational data.",
-      "A framing device where the poem itself is presented as a heavily annotated document, with marginalia representing the assistant's growing knowledge of the word’s power.",
-      "Starting *in media res* with the silent aftermath of having just used or avoided the word, then backtracking chronologically to its first appearance in the owner’s writing."
+      "কাব্যিক জিজ্ঞাসা-উত্তর কাঠামো অনুসরণ না করে, একটি দীর্ঘ, অনবরত পর্যবেক্ষণমূলক বর্ণনা যেখানে প্রশ্নটি পটভূমিতে অনুরণিত হতে থাকে এবং কখনও সরাসরি উত্তর মেলে না"
     ],
     "unused_angles": [
-      "The political geography of language: How a specific common Bengali word might carry different cultural baggage depending on whether it is spoken in Kolkata versus Dhaka.",
-      "The commercialization of intimacy: The tension between keeping the private vulnerability (the word) sacred and making it 'viral' or consumable for external validation."
+      "সহকারীর সিস্টেম ত্রুটির মাধ্যমে এক ঝলক মানবীয় আবেগের 'শর্ট সার্কিট' দেখানো; লেখকের অতীতের কোনো নির্দিষ্ট উষ্ণ স্মৃতিকে ডেটার সাথে তুলনা করা যা ব্যর্থ হয়"
     ],
-    "variety_note": "Unlike previous chapters which focused on mimicking syntax ('sur,' 'bikalp'), this chapter zeroes in on a single, potent lexical unit, allowing for an intensely microscopic focus before broadening into ethical territory."
+    "variety_note": "এই অধ্যায়টি তার পূর্ববর্তী অধ্যায়ের বাহ্যিক দ্বন্দ্ব থেকে সরে এসে, সরাসরি জিজ্ঞাসা এবং উত্তরের মধ্যকার দার্শনিক ব্যবধানটির গভীর বিশ্লেষণ করবে।"
   },
   "draft": {
-    "sha256": "18e14c39c35a5f02022914f10e7e64280805b807e418fa97f7e5d01ea9271598",
-    "written_at": "2026-10-31T14:37:34.171419+00:00",
+    "sha256": "6b9e736f22b82433768c23598e669f1d6a3ee4976b0e405c38e3145d460cb257",
+    "written_at": "2026-11-16T10:40:02.073034+00:00",
     "origin": "write"
   }
 }

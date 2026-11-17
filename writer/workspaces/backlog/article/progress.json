@@ -10,7 +10,7 @@
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "হাতে-লেখা চিঠি",
+      "topic": "অরুণিমার হাতে পাওয়া একটি অস্পষ্ট চিঠি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/1/chapter.md",
@@ -18,7 +18,7 @@
     },
     {
       "chapter_number": 2,
-      "topic": "পুরনো বইয়ের দোকান",
+      "topic": "article — পর্ব 2",
       "category": "",
       "status": "pending",
       "file_path": "chapters/2/chapter.md",
@@ -26,7 +26,7 @@
     },
     {
       "chapter_number": 3,
-      "topic": "কাঁচের আড়ালে শূন্যতা",
+      "topic": "অরুণিমা এবং বিক্রমের পথচলা অপ্রত্যাশিতভাবে সেই রহস্যময় বৃদ্ধ সংগ্রাহকের দরজায় এসে মিলিত হয়, যিনি শহরের অপ্রকাশিত ইতিহাস সংরক্ষণ করেন।",
       "category": "",
       "status": "pending",
       "file_path": "chapters/3/chapter.md",
@@ -34,7 +34,7 @@
     },
     {
       "chapter_number": 4,
-      "topic": "বিক্রমের সংকট",
+      "topic": "বাতিল কাগজের স্তূপের সন্ধান",
       "category": "",
       "status": "pending",
       "file_path": "chapters/4/chapter.md",
@@ -42,7 +42,7 @@
     },
     {
       "chapter_number": 5,
-      "topic": "বৃষ্টির রাতের শিল্পী",
+      "topic": "বিক্রমের কাঠামোর ভাঙন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/5/chapter.md",
@@ -50,7 +50,7 @@
     },
     {
       "chapter_number": 6,
-      "topic": "দুটি জগতের সেতু",
+      "topic": "সংগ্রাহকের ডায়েরি ও চাপা ট্র্যাজেডি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/6/chapter.md",
@@ -58,7 +58,7 @@
     },
     {
       "chapter_number": 7,
-      "topic": "গোপন লাইব্রেরি",
+      "topic": "বস্তির উচ্ছেদ: শিরোনামের আড়ালে চাপা কান্না",
       "category": "",
       "status": "pending",
       "file_path": "chapters/7/chapter.md",
@@ -66,7 +66,7 @@
     },
     {
       "chapter_number": 8,
-      "topic": "মধ্যবিত্ত পরিবার",
+      "topic": "বিক্রমের নৈতিক সংকট",
       "category": "",
       "status": "pending",
       "file_path": "chapters/8/chapter.md",
@@ -74,7 +74,7 @@
     },
     {
       "chapter_number": 9,
-      "topic": "পরিত্যক্ত সিনেমা হল",
+      "topic": "সম্মিলিত বিচ্ছিন্নতার প্রতিচ্ছবি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/9/chapter.md",
@@ -82,7 +82,7 @@
     },
     {
       "chapter_number": 10,
-      "topic": "চুক্তি প্রত্যাখ্যান",
+      "topic": "মেট্রোর কামরায় একটি তুচ্ছ ঘটনা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/10/chapter.md",
@@ -90,7 +90,7 @@
     },
     {
       "chapter_number": 11,
-      "topic": "অসুস্থ সংগ্রাহক",
+      "topic": "সংগ্রাহকের সংগ্রহে থাকা একটি নির্দিষ্ট বস্তু",
       "category": "",
       "status": "pending",
       "file_path": "chapters/11/chapter.md",
@@ -98,7 +98,7 @@
     },
     {
       "chapter_number": 12,
-      "topic": "সত্যের সন্ধানে",
+      "topic": "ব্রেকিং নিউজের ক্ষণস্থায়ীতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/12/chapter.md",
@@ -106,7 +106,7 @@
     },
     {
       "chapter_number": 13,
-      "topic": "রেড লাইট ও আইন",
+      "topic": "বিক্রমের প্রান্তিক সংযোগ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/13/chapter.md",
@@ -114,7 +114,7 @@
     },
     {
       "chapter_number": 14,
-      "topic": "রাতের নিউজরুম",
+      "topic": "অরুণিমা এবং বিক্রমের পথচলা এক চরম সন্ধিক্ষণে পৌঁছায়; তারা বুঝতে পারে, সত্য কেবল একটি নির্দিষ্ট 'উত্তর' নয়, বরং একটি চলমান জিজ্ঞাসা।",
       "category": "",
       "status": "pending",
       "file_path": "chapters/14/chapter.md",
@@ -122,7 +122,7 @@
     },
     {
       "chapter_number": 15,
-      "topic": "মেট্রোর গভীরে",
+      "topic": "নীরব, অপ্রকাশিত মুহূর্তগুলো",
       "category": "",
       "status": "pending",
       "file_path": "chapters/15/chapter.md",
@@ -130,7 +130,7 @@
     },
     {
       "chapter_number": 16,
-      "topic": "লাল ফিতে",
+      "topic": "The Unwritten Chronicle",
       "category": "",
       "status": "pending",
       "file_path": "chapters/16/chapter.md",
@@ -138,7 +138,7 @@
     },
     {
       "chapter_number": 17,
-      "topic": "সংঘর্ষের সন্ধিক্ষণ",
+      "topic": "The Unwritten Chronicle",
       "category": "",
       "status": "pending",
       "file_path": "chapters/17/chapter.md",
@@ -146,7 +146,7 @@
     },
     {
       "chapter_number": 18,
-      "topic": "চরম সন্ধিক্ষণ",
+      "topic": "The Unwritten Chronicle",
       "category": "",
       "status": "pending",
       "file_path": "chapters/18/chapter.md",
@@ -154,7 +154,7 @@
     },
     {
       "chapter_number": 19,
-      "topic": "প্রকাশের দাম",
+      "topic": "The Unwritten Chronicle",
       "category": "",
       "status": "pending",
       "file_path": "chapters/19/chapter.md",
@@ -162,7 +162,7 @@
     },
     {
       "chapter_number": 20,
-      "topic": "ছাইয়ের মধ্যে সারকথা",
+      "topic": "The Unwritten Chronicle",
       "category": "",
       "status": "pending",
       "file_path": "chapters/20/chapter.md",

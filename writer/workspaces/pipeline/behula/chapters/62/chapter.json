@@ -1,66 +1,115 @@
 {
   "chapter_index": 62,
   "name": "62",
-  "word_target": 280,
-  "chapter_title": "যৌথ স্বপ্নের নবনির্মাণ",
-  "chapter_summary": "বেহুলা ও লখিন্দরের একসাথে জনকল্যাণমূলক নতুন অধ্যায়ের সূচনা। দুঃখের অভিজ্ঞতাকে মানুষের দুঃখমোচনে ব্যয় করার যুগল সংকল্প।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "behula — পর্ব 6 — behula",
+  "chapter_summary": "এই পর্বটি বেহুলার মানসিক চাপের গভীরতম স্তরকে উন্মোচন করে, যেখানে বাইরের প্রতিকূলতা এবং ভেতরের শূন্যতা এক তীব্র সংঘাত সৃষ্টি করে। সমাজের কটাক্ষ এবং স্বামীর অনুপস্থিতি তাকে ক্রমাগত ক্লান্ত করে তোলে, যা হতাশার এক অতল গহ্বর তৈরি করে। তবুও, এই চরম মানসিক চাপের বিপরীতে তার ভেতরের অগ্নিকুণ্ড কীভাবে নিভে না গিয়ে তাকে এগিয়ে যাওয়ার শক্তি জোগায়, সেই অভ্যন্তরীণ শক্তির উৎসটি এখানে চিত্রিত হয়। প্রশ্নটি হলো—ব্যক্তিগত ট্র্যাজেডির ভারে ন্যুব্জ হয়েও কীভাবে আত্মিক দৃঢ়তা বজায় রাখা সম্ভব?",
   "further_references": [],
-  "level": "chapter",
-  "state": "completed",
   "segments": [
-    1
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "হতাশার গভীরতম স্রোত",
+      "segment_summary": "অবিরাম মানসিক চাপের ভারে বেহুলার মন যখন ক্লান্ত হয়ে পড়ে, তখন হতাশার শীতল ছায়া তার চারপাশে ঘনিয়ে আসে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "একাকীত্বের ভার",
+      "segment_summary": "স্বামীর অনুপস্থিতি এবং সামাজিক বিচ্ছিন্নতার কারণে সৃষ্ট একাকীত্ব তাকে গভীর শূন্যতার দিকে টেনে নিয়ে যায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "ভেতরের অগ্নিকুণ্ডের স্পন্দন",
+      "segment_summary": "সমস্ত বাহ্যিক চাপ সত্ত্বেও, তার হৃদয়ের গভীরে থাকা বিশ্বাসের শিখাটি যেন কোনোভাবে নিভে যাওয়ার ভয়কে প্রতিহত করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "অদম্য মনোবল",
+      "segment_summary": "ক্লান্তির প্রতিটি মুহূর্তেও তার মনোবল ভেঙে না পড়ার কারণ অনুসন্ধান করা হয়, যা তার অভ্যন্তরীণ শক্তির পরিচায়ক।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "সংগ্রামের নতুন সংজ্ঞা",
+      "segment_summary": "এই কঠিন সংগ্রাম তাকে দুর্বল না করে বরং আরও জোরালো ও দৃঢ় করে তোলে, যা তার অস্তিত্বের নতুন সংজ্ঞা দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অন্ধকারের বিরুদ্ধে আলো",
+      "segment_summary": "হতাশার অন্ধকারকে ভেদ করে তার ভেতরের আলোকবর্তিকা কীভাবে পথ দেখায়, সেই দ্বান্দ্বিক চিত্রকল্পটি এখানে ফুটে ওঠে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অপেক্ষা ও প্রতিরোধ",
+      "segment_summary": "প্রতিকূলতার মাঝেও সে যে স্থির থাকে, তা কেবল আত্মসমর্পণ নয়, বরং এক নীরব, শক্তিশালী প্রতিরোধ।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অবিচলতার প্রতিধ্বনি",
+      "segment_summary": "তার এই অবিচলতা কেবল ব্যক্তিগত নয়, বরং নিপীড়িত আত্মার সম্মিলিত প্রতিধ্বনির জন্ম দেয়।",
+      "further_references": []
+    }
   ],
+  "level": "chapter",
+  "state": "written",
   "creative_enrichment": {
     "angles": [
-      "Viewing their 'joint dream' (যৌথ স্বপ্ন) not as a merger of romantic ideals, but as an architectural endeavor—a conscious rebuilding on foundations laid by shared trauma.",
-      "Shifting the focus from public achievement to the private rituals they establish together; the small acts of companionship that define their new reality.",
-      "Framing the 'rebuilding' through the lens of communal memory—how their joint project serves as a visible monument to endured suffering, rather than merely an engine for commerce."
+      "অস্তিত্বের ভারকে নিছক যন্ত্রণা না রেখে, তাকে মহাজাগতিক সময়ের ফাটল হিসেবে দেখা—যেখানে বেহুলা স্থিরতার মধ্য দিয়ে সময়ের গতিবিধির প্রতি抗 করছে।",
+      "নীরবতাকে কেবল অনুপস্থিতি নয়, বরং এক প্রচণ্ড ভাষিক ঘনত্ব (Dense utterance) হিসেবে প্রতিষ্ঠা করা, যা অন্য সব শব্দের ভার বহন করে।",
+      "বেহুলার শারীরিক অবসাদকে এমনভাবে চিত্রিত করা যেন তা বাইরের সামাজিক সমালোচনার তরঙ্গপ্রবাহের বিরুদ্ধে হওয়া প্রাকৃতিক প্রতিরোধের ফল।"
     ],
     "story_options": [
-      "Setting: The initial blueprints laid out on rough parchment; Desire: To agree not just on profit, but on the moral geometry of the future structure; Obstacle: A lingering shadow of past despair that threatens to bleed into the design plans; Turn: They decide the first cornerstone must be cast with soil gathered from their shared river journey.",
-      "Setting: A quiet, early morning meeting overlooking a nascent landscape project site; Desire: To articulate how personal sacrifice transmutes into tangible good for others; Obstacle: The temptation to glorify their own endurance rather than focus on external need; Turn: They agree that the primary function of this new endeavor is not profit, but the silent honoring of those lost in hardship.",
-      "Setting: Inside a workshop or collaborative space filled with raw, unfinished materials; Desire: To find an aesthetic balance between the harsh reality of their past struggle and the delicate promise of renewal; Obstacle: The fear that their shared history will always cast a dark patina on their work; Turn: They choose one design element—a specific pattern or material—as an intentional memorial to what was lost, not as lamentation."
+      "সেটিং: একটি পরিত্যক্ত বারান্দা যেখানে দিনের আলো এসেও কোনো উষ্ণতা দিতে ব্যর্থ, আকাঙ্ক্ষা: সেই শীতলতায় এক মুহূর্ত স্বস্তির অনুভব; বাধা: সমাজের আরোপিত 'বিধবা'-র প্রতিচ্ছবি যা সর্বদা সেখানে বিরাজমান; পরিবর্তন: সে শ্বাস গ্রহণ করে এই শূন্যতার বিরুদ্ধে নীরব প্রতিবাদ জানায়।",
+      "সেটিং: প্রাচীন মন্দিরের প্রবেশপথের পাথরের ধাপসমূহ (লৌহবাসরঘরের প্রতীকী রূপ), আকাঙ্ক্ষা: অতীত জীবনের কোনো একটি ক্ষুদ্র, উজ্জ্বল স্মৃতি ধরে রাখা; বাধা: প্রতিটা পদক্ষেপেই আত্মার ক্লান্তি যেন পাথরকে ক্ষয় করে দেয়; পরিবর্তন: সে থেমে না গিয়ে সেই ক্ষয়িষ্ণু পথে হেঁটে চলে।",
+      "সেটিং: রাতের গভীরে নদীর জল যেখানে স্থির, কিন্তু তার নিচে প্রবল স্রোত বয়ে চলেছে (গাঙুড়ের রূপক), আকাঙ্ক্ষা: এই গভীর অভ্যন্তরীণ প্রবাহের সখ্যতা অনুভব করা; বাধা: আত্মরক্ষার জন্য সৃষ্ট কঠোর আবরণ যা তাকে বাইরের জগৎ থেকে বিচ্ছিন্ন করে; পরিবর্তন: সে জলের সাথে নিজের অস্তিত্বকে সমর্পিত করে এক প্রকার নীরব সামঞ্জস্য খুঁজে নেয়।"
     ],
     "subject_rotations": [
-      "Treating the 'dream' not as a singular grand project (like commerce), but as a slow, patient cultural shift within their community.",
-      "Focusing intensely on the mechanics of *sharing* labor and vision—the tangible grammar of collaboration between two resilient souls.",
-      "Exploring how the act of creation becomes a form of defiance against external forces that sought to diminish them (societal judgment/divine wrath)."
+      "হতাশাকে ব্যক্তিগত ব্যর্থতারূপে না দেখে, এটিকে মহাকাব্যিক প্রক্রিয়ার অপরিহার্য 'অন্তর্বর্তী ধাপ' রূপে উপস্থাপন করা।",
+      "প্রতিকূলতাকে শুধুমাত্র সামাজিক বা দৈব হিসেবে দেখার বদলে, একে এক ধরনের আদিম গাণিতিক সমীকরণের অংশ হিসেবে দেখানো যেখানে সমাধানটি কেবল অবিচলতাতেই নিহিত।",
+      "অগ্নি-শিখাটিকে বস্তুগত (যেমন প্রদীপের শিখা) না রেখে, এটিকে বিশুদ্ধ 'সচেতনতার ঘনত্ব' রূপে প্রতিষ্ঠা করা যা বাহ্যিক চাপকে ধারণ করে।"
     ],
     "sensory_details": [
-      "The dry, papery smell of aged plans contrasting with the sharp, clean scent of new-cut wood or fresh earth.",
-      "The texture of intertwined hands resting on a shared surface—showing not just contact, but mutual support in effort.",
-      "A specific sound: the rhythmic tapping or sawing required to shape a material for their joint endeavor, replacing the sound of lament."
+      "দীর্ঘশ্বাসের শব্দের অনুপস্থিতি—কেবল ভেতরের গভীরতম নিঃশ্বাস পড়ার চাপা শব্দ, যেন বাতাসেরই একটি নিচু কম্পন (শ্রবণ)।",
+      "কৃষ্ণকুটির-এর মতো আবদ্ধ স্থানের বাতাস যেখানে পুরনো ধূপ ও হতাশার গন্ধ মিশে এক স্থির ভারী অনুভূতি সৃষ্টি করে (ঘ্রাণ)।"
     ],
     "research_questions": [
-      "What visual metaphors within Bengali art can represent 'reconstruction' or 'renewal' that are distinct from simple repair?",
-      "How can the concept of 'joy built on sorrow' be rendered poetically without descending into sentimental platitude?",
-      "Are there specific traditional crafts mentioned in cultural memory associated with starting new ventures after severe personal loss?"
+      "অরিলাসের দর্শনকে 'অন্তর্মুখী আত্মসংযম' হিসেবে কবিতায় প্রকাশের সময়, কীভাবে তা জিবরানীয় উচ্ছ্বলতা বা গাম্ভীর্য থেকে সম্পূর্ণ আলাদা হয়ে একটি নিবিড় স্থবিরতার আবহ তৈরি করবে?"
     ],
     "structural_variants": [
-      "A layered structure: an outer stanza describing the grand vision, while inner stanzas detail minute, almost obsessive focus on a single material or joint action.",
-      "An alternating refrain: a short, stark image of their past hardship followed by an expansive description of the current act of building.",
-      "A dialectical movement: presenting the initial tension between personal recovery and social responsibility before resolution."
+      "কবিতাটি সম্পূর্ণ রূপে নন-লিনিয়ার হতে পারে; বর্তমান চাপের তীব্রতা অনুযায়ী স্তবকগুলির ক্রম পরিবর্তিত হওয়া (যেমন, হতাশার পর হঠাৎ একটি উজ্জ্বল মুহূর্ত আসা)।",
+      "প্রতিটি স্তবকে একটি নির্দিষ্ট 'প্রশ্ন/উত্তর' চক্র তৈরি করা যা পূর্ববর্তী স্তবকের দার্শনিক অবস্থানটিকে চ্যালেঞ্জ করে এবং নতুন দিকে চালিত করে।"
     ],
-    "variety_note": "Where earlier chapters focused on resistance against external forces (society/gods), this chapter centers entirely inward, documenting the delicate, constructive alchemy occurring within the pair themselves as they plan their future."
+    "unused_angles": [
+      "বেহুলা কীভাবে নিজের কষ্টের অভিজ্ঞতাকে ব্যবহার করে অন্যদের জন্য এক ধরনের লুকানো, অব্যক্ত সহানুভূতি বা সংযোগের উৎস তৈরি করে—যা তার আত্মপ্রতিরোধ থেকে ভিন্ন একটি মাত্রা।",
+      "সমাজকে সম্পূর্ণ উপেক্ষা না করে, তাদের সমালোচনার 'স্বর'টিকে এমনভাবে গ্রহণ করা যেন তা একটি dissonant harmony-এর অংশ হয়ে যায়।"
+    ],
+    "variety_note": "এই পর্বটি পূর্ববর্তী অধ্যায়গুলির আকস্মিক বিপর্যয় বা বাহ্যিক সংগ্রামের থেকে সরে এসে বেহুলার অভ্যন্তরীণ স্থিতিস্থাপকতা এবং মানসিক প্রতিরোধের গভীর স্তরকে সূক্ষ্মভাবে অনুসন্ধান করে, যা চরম নীরবতার মাধ্যমে প্রকাশ পায়।"
   },
   "draft": {
-    "sha256": "e7a695357943a7611111996746210bfeeb71484b7c076fc4f6b6ac836d5d317c",
-    "written_at": "2026-10-21T14:14:40.467781+00:00",
+    "sha256": "f2bd8ab98cd0f2378a27f8eb59b7df94a3f6df4da410f23b9034cf56c68d0faa",
+    "written_at": "2026-11-16T06:46:35.071645+00:00",
     "origin": "write"
-  },
-  "quality_review": {
-    "status": "passed",
-    "sha256": "e7a695357943a7611111996746210bfeeb71484b7c076fc4f6b6ac836d5d317c",
-    "reviewer": "quality-agent",
-    "reviewed_at": "2026-10-21T16:19:57+00:00",
-    "notes": [
-      "Default quality audit passed — poem is written, enriched, and meets quality parameters.",
-      "Philosophical depth: present",
-      "Metaphorical richness: present",
-      "Human accessibility: present",
-      "Civilizational relevance: present",
-      "Literary quality: present",
-      "Ethical framework: present"
-    ]
   }
 }

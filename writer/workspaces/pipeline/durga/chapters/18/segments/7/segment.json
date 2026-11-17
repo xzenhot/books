@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অন্তরের প্রতিজ্ঞা",
+  "segment_summary": "উৎসবের অভিজ্ঞতা পাঠকের হৃদয়ে এক নীরব প্রতিজ্ঞা হিসেবে গেঁথে যায়, যা শক্তির চিরন্তন বার্তা বহন করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the entirety of Chapter 18 as a single moment: the persistent glow or smudge of সিঁদুর on one person's skin days after immersion, acting as an anchor for all subsequent existential querying.",
+    "story_option": "Setting: A single, forgotten terracotta object near riverbank silt; Desire: To ascertain if its structural integrity reveals an inherited pattern of strength from the deity's form; Obstacle: The corrosive dampness of neglect.",
+    "subject_rotation": "Focusing entirely on the *materiality* of endurance: how substances (soil, silk, pigment) manage to retain symbolic charge after being returned to inert states.",
+    "sensory_detail": "Sight: The way morning sun refracts off microscopic, dried particles of vermillion clinging stubbornly to woven jute.",
+    "research_question": "What specific contemporary Bengali metaphor exists to describe an internalized spiritual force that defies conventional theological categorization?",
+    "structural_variant": "A heavily fragmented structure where each line poses a question without an immediate thematic answer, mirroring cognitive dissonance.",
+    "variety_note": "Unlike neighbouring chapters which focus on cyclical action (arrival, peak power), this chapter isolates the residue—the quiet aftermath where physical matter meets metaphysical question."
+  }
+}

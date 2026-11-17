@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা ও স্থিরতা",
+  "segment_summary": "মাঝি স্থির হয়ে থাকে, প্রকৃতির বিশাল পটভূমিতে তার জীবনের সরল অথচ গভীর আকাঙ্ক্ষা নিয়ে অপেক্ষা করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the river current not as a force, but as an ancient memory stream carrying past lives and untold sorrows into the present moment.",
+    "story_option": "A single bird (a kingfisher or egret) repeatedly lands on his oar, acting as an unexpected, fleeting observer of his steadfast routine.",
+    "subject_rotation": "The materiality of song: how the vibrations of a simple tune affect the very structure and stability of the wooden craft.",
+    "sensory_detail": "The coarse texture of aged jute used for mooring lines under calloused hands.",
+    "research_question": "What are the specific characteristics of Bhatiyali rhythms that align best with moments of deep internal reflection versus overt performance?",
+    "structural_variant": "Structuring segments as a dialogue between the 'Self' (the boatman) and the 'River' (a non-human entity).",
+    "variety_note": "This chapter grounds the abstract conflict by meticulously detailing the physical reality of the boat and its immediate environment, focusing on nascent connection rather than overt confrontation with modernity."
+  }
+}

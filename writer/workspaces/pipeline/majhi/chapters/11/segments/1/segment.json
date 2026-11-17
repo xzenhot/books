@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 11,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "স্রোতের আহ্বান",
+  "segment_summary": "নদীর নতুন, দ্রুতগামী স্রোত তাকে টেনে নিয়ে যাচ্ছে, যা হিসেবের খাতা আর বাজারের গতির প্রতীক।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the decision as a choice between two different types of 'flow'—the quantifiable flow of commerce versus the qualitative flow of memory.",
+    "story_option": "Setting: At dawn, when the motorized boats cast long, sharp shadows across his hull. Desire: To choose one permanent mooring spot that symbolizes stasis against movement. Obstacle: The encroaching presence of a riverside depot demanding strict scheduling.",
+    "subject_rotation": "Focusing less on 'surrender vs. resistance,' and more on the *definition*—what does his 'true self' look like if both paths are compromised?",
+    "sensory_detail": "The specific gritty feel of river silt coating his palms when he finally lets go of the oar in indecision.",
+    "research_question": "What is the specific vocabulary within Bengali river folk culture used to describe 'living outside the ledger' or non-monetized exchange?",
+    "structural_variant": "A section dedicated entirely to sensory deprivation: a moment of complete silence where he only hears the internal rush of his own blood beneath the surface.",
+    "variety_note": "This chapter centers on interiority; while neighbours deal with external pressure (debt, protest), here the conflict is pure existential triangulation between two opposing forces of nature/commerce."
+  }
 }

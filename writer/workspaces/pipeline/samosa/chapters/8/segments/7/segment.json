@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্বাদ",
+  "segment_summary": "কাব্যিক উপসংহারের দিকে এগিয়ে গিয়ে দেখানো হবে যে, কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও 'ভাজা' থাকে, যা কোনো ভৌগোলিক সীমানা মানে না।",
+  "name": "7",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Conceptualizing the memory of a scent not as an image, but as a measurable frequency or vibration that fails to resonate in the new environment.",
+    "story_option": "The 'I' is in a marketplace, deliberately inhaling deeply near spices not related to samosa. The attempt at substitution leads only to layered dissonance rather than true immersion (Setting: Busy bazaar corner; Desire: To trick the sense into remembering Bengal; Obstacle: Overwhelming sensory noise; Turn: A sudden, sharp awareness of self-deception).",
+    "subject_rotation": "Treating 'ঘ্রাণ' (scent) as a form of temporal distortion—it pulls the present back to the past at an unnatural speed.",
+    "sensory_detail": "The metallic tang of unfamiliar cooking oil against the soft, dusty memory-flavor of Bengal; (Taste/Smell)",
+    "research_question": "What specific literary devices in Bengali poetry are used to represent sensory memory failure without resorting to pure scientific jargon?",
+    "structural_variant": "Alternating stanzas that strictly alternate between scientific observation (objective, cool diction) and poetic invocation (subjective, warm diction).",
+    "variety_note": "Unlike adjacent chapters that focus on the ingredients (oil, potato) or the cultural transition, this chapter isolates the *mechanism* of sensory recall itself—the bridge between chemistry and soul."
+  }
+}

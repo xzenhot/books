@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 53,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সরিষার হলুদ আবেশ",
+  "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার সেই উষ্ণ, ঝাঁঝালো গন্ধটি যেন এক আদিম স্মৃতির দ্বার খুলে দেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the 'architecture of scent': treating the molecular structure of different oils as blueprints for lost domestic space.",
+    "story_option": "Setting: A kitchen with a well-worn, soot-stained *tawa*; Desire: To perfectly mimic the 'flicker' sound of genuine mustard oil in heat; Obstacle: The imported fat provides only a continuous hiss, lacking the characteristic spark.",
+    "subject_rotation": "Treating the oil not as an ingredient, but as a mediating force between two separate realities—the 'home-reality' (sorsher tel) and the 'host-reality' (neutral fat).",
+    "sensory_detail": "Sight: The deep, viscous gold pooling sluggishly in an old iron pan versus the thin, almost watery slickness of new industrial oil.",
+    "research_question": "What is the precise Bengali term (beyond simple adjectives) to describe the complex, earthy pungency generated when mustard seeds are first heated in oil?",
+    "structural_variant": "A highly fragmented structure where each segment is less a progression and more an oscillating comparison between two states (home vs. abroad).",
+    "variety_note": "Unlike previous chapters which focused on naming (সিঙ্গাড়া/সামোসা) or general displacement, this chapter locks onto a single, powerful molecular anchor—the cooking medium itself—to explore cultural entropy."
+  }
 }

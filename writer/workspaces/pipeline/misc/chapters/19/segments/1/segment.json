@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 19,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ক্ষুদ্রতার সমাবেশ",
+  "segment_summary": "The observer begins by cataloging the collected minutiae—the dampness, the faint scent of spices, the quiet weight of unsaid things—as the foundation of the national portrait.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "কবিতার নিম্ন-স্বর (Night-voice): গভীর রাতে, যখন জাগরণ আর ঘুমের সীমারেখা ঝাপসা থাকে, সেই নিস্তব্ধতা থেকে কথা বলা; যেখানে কবিতা ঘোষণা না করে কেবল শোনা যায়।",
+    "story_option": "একটি 새벽-কালীন নীরবতা যখন হঠাৎ একটি পরিচিত অথচ অপরিচিত পাখির ডাক দ্বারা ভঙ্গ হয়; আকাঙ্ক্ষা: এই ধ্বনিটি সমস্ত জড় বস্তুকে সচেতন করে তুলবে।",
+    "subject_rotation": "জাতীয় পরিচয়ের অনুসন্ধান না করে, বরং 'ব্যক্তিগত মুহূর্তের অখণ্ডতা'র প্রতি নিবেদন হিসেবে বিষয়টিকে উপস্থাপন করা।",
+    "sensory_detail": "ভোরের বাতাসে মিশ্রিত পুরোনো কাঠ ও ধূলি মাখা গন্ধ (Olfactory)",
+    "research_question": "বাংলা কাব্যতত্ত্বে 'ক্ষণিক সৌন্দর্য'কে স্থায়ী সত্যে রূপান্তরের ক্ষেত্রে কোন ধরনের অলঙ্কারশাস্ত্রিক কৌশল সবচেয়ে বেশি কার্যকর?",
+    "structural_variant": "একটি কোলাজ/ইনভেন্টরি শৈলীতে শুরু করে, মাঝখানে একটি দীর্ঘ, স্তব্ধ প্যাসেজ দিয়ে হঠাৎ শেষ করা (Interrupted Flow Model)।",
+    "variety_note": "এই পর্বটি পূর্ববর্তী পর্যবেক্ষণগুলোর একটি চূড়ান্ত সংশ্লেষণ, তবে এটি কেবল দার্শনিক উপসংহারে পৌঁছানোর চেষ্টা করে না; বরং আত্মসমর্পণের মাধ্যমে এক ধরণের শীতল সহমর্মিতা খুঁজে বের করার ওপর জোর দেয় যা অন্য অধ্যায়গুলোতে অনুপস্থিত ছিল।"
+  }
 }

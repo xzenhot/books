@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মাটির আত্মার স্থায়িত্ব",
+  "segment_summary": "কুমোরটুলির মাটির প্রতীকী মৃত্যু সত্ত্বেও, সেই মাটির স্পর্শের স্মৃতি কীভাবে মানুষের জীবনে এক প্রকার মানসিক স্থায়িত্ব লাভ করে, তা এখানে আলোচিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal struggle (Segment 2) through the lens of inherited silence—the unspoken burdens passed down, functioning as latent demons.",
+    "story_option": "Setting: A solitary, high window overlooking a city grid at dawn (modern noise); Desire: To find pockets of absolute stillness where memory can briefly resurface; Obstacle: Sonic pollution overpowering subtle spiritual echoes.",
+    "subject_rotation": "Shifting the focus from individual salvation to collective spiritual maintenance—the burden of sustaining shared cultural memory.",
+    "sensory_detail": "A distinct, high-pitched ringing sensation in the temporal bone immediately following a period of intense mental exertion.",
+    "research_question": "What specific Bengali metaphor describes internal conflict that lacks external manifestation without invoking overt religious terms?",
+    "structural_variant": "Structuring based on increasing duration: starting with fleeting moments (smell) and concluding with a timeless state of being (pattern).",
+    "variety_note": "This chapter pivots from the grand narrative of battle/celebration towards introspection; it uses abstract sensory residue (scent, texture, subtle sound) to ground massive philosophical questions about permanence and existence post-ritual cessation."
+  }
+}

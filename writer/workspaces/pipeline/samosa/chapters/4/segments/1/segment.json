@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 4,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বাজারের কোলাহল",
+  "segment_summary": "প্রবাসের বাজারের তীব্র, অচেনা গন্ধগুলো সামোসার পরিচিত সুবাসকে গ্রাস করে, যা একটি তীব্র সংঘাত তৈরি করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Samosa as a Spectator: Focusing the perspective entirely on the samosa itself reacting to the market's noise.",
+    "story_option": "Setting: Midday bustle of an international street market; Desire: To momentarily isolate oneself from the sensory overload; Obstacle: The relentless presence of neighboring, brightly-scented stalls.",
+    "subject_rotation": "Treating the market not as a place of consumption, but as a crucible that tests authenticity.",
+    "sensory_detail": "The metallic, slightly oily tang from cheap cooking oil used by stall vendors replacing the earthy mustard note.",
+    "research_question": "How can the mandated voice articulate overwhelming external stimulus without descending into simple description or complaint?",
+    "structural_variant": "A highly fragmented structure, where each segment is an intense snapshot of a micro-interaction within the market.",
+    "variety_note": "While neighbouring chapters focus on the *creation* or *essence* of the samosa, this chapter examines its fragile existence when subjected to external, overwhelming market pressures."
+  }
 }

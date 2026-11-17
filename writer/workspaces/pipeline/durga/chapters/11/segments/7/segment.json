@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির লাল আভা",
+  "segment_summary": "তবুও, সিঁদুরের লাল আভা আর শিউলির গন্ধ যেন এই ক্ষণস্থায়ীতাকে এক গভীর স্মৃতিতে পরিণত করার চেষ্টা করছে।",
+  "name": "7",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the waiting crowd not as spectators, but as reservoirs holding latent, unexpressed spiritual energy awaiting transference.",
+    "story_option": "Setting: A small, unnoticed corner near the water source where a lone family watches; Desire: To preserve a single tangible object (like a discarded shard of clay) as proof of what was witnessed; Obstacle: The overwhelming tide of ritualistic sorrow.",
+    "subject_rotation": "Shifting focus from Durga's descent to the human 'I' experiencing a profound existential moment of *letting go* (similar concept, different emotional register than previous chapters).",
+    "sensory_detail": "The slightly acrid taste of residual incense smoke left lingering in the throat after intense ritual chanting.",
+    "research_question": "Are there documented or symbolic uses in Bengali cultural lore where the transitional period between intense celebration and profound grief holds unique spiritual weight?",
+    "structural_variant": "Structuring it as an internal dialogue (stream of consciousness) contrasting the 'public face' (joy/crowd) with the private, melancholic monologue.",
+    "variety_note": "Unlike previous chapters that focused on creation (craft/sound) or intensity (climax), this section centers entirely on decay, anticipation of loss, and the melancholic beauty inherent in transition."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আলো ও অন্ধকারের মিশ্রণ",
+  "segment_summary": "এই চরম মুহূর্তে, তার ফর্সা ত্বক যেন একইসঙ্গে স্বর্গীয় দীপ্তি এবং গভীরতম রহস্যের ছায়া ধারণ করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the moment of sensory overload as a language failure point; depicting how the internal sensation defies semantic categorization.",
+    "story_option": "Setting: A room illuminated solely by the flicker of an oil lamp during deepest night; Desire: To maintain a state of absolute, fragile equilibrium between overwhelming sensation and profound solitude; Obstacle: The lamp's wax slowly dripping, disrupting the light source in unpredictable ways.",
+    "subject_rotation": "Revisiting 'touch' not as connection or violation, but as an act of pure data transmission—information flooding beyond emotional processing.",
+    "sensory_detail": "The metallic taste on the tongue when intense euphoria crests, a fleeting flavor sharper than any spiced dish.",
+    "research_question": "What specific Bengali tactile metaphors exist that convey an sensation so intense it surpasses mere pleasure or pain?",
+    "structural_variant": "Using a cyclical structure where Segment 8 loops back, but inverted—instead of posing a question, it offers a fleeting, definitive *false* answer.",
+    "variety_note": "Unlike earlier explorations focused on defining limits (e.g., in Chapter 4), this chapter focuses entirely on *breaching* those self-imposed or perceived boundaries, exploring what exists when the rules dissolve."
+  }
+}

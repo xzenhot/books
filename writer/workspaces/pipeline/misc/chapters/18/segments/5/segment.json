@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "গৃহস্থালির ক্ষুদ্র ভূগোল",
+  "segment_summary": "The poem examines the domestic boundaries, symbolized by slippers left outside and the folded tiffin box, mapping the tension between private sanctity and public space.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Secondary Twist: সকল ক্ষুদ্র মুহূর্তের সার্থক পরিণতি হিসেবে কোনো ঐক্যবদ্ধ কাঠামো খুঁজে না পাওয়া, বরং প্রতিটি মুহূর্তে নিজস্ব এক অপরিবর্তনীয় বিচ্ছিন্নতা বজায় থাকা।",
+    "story_option": "The vendor's rhythmic calling is momentarily interrupted by an unexpected sound—not human or natural, but purely mechanical/cosmic—which shatters the domestic geometry symbolized by the tiffin box.",
+    "subject_rotation": "Focusing the entire chapter on 'Weight': the weight of unsaid words, the physical weight of travel fatigue, and the implied cultural weight carried by objects.",
+    "sensory_detail": "The granular friction felt underfoot where dust from different, distant routes has settled on a single patch of concrete.",
+    "research_question": "What are the specific lexical/semantic overlaps in Bengali describing 'fleeting beauty' versus 'enduring pattern' that could support this thematic tension?",
+    "structural_variant": "A fragmented collage structure where segments are not linearly connected but exist in asynchronous loops, echoing memory.",
+    "variety_note": "This chapter moves beyond the gentle observation seen in previous segments by introducing an overt philosophical conflict (Permanence vs. Ephemerality) and forcing the imagery into a high-stakes interrogation, rather than quiet documentation."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "chapter_index": 22,
+  "name": "22",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scars of Expression",
+  "chapter_summary": "This chapter delves into the core conflict between societal expectation and the raw, necessary act of creation. It explores how Debolina Rai confronts the invisible sacrifices—the sweat, the ground lapis, the silent failures—that underpin any visible masterpiece. The imagery centers on the crumbling frescoes acting as a mirror to her own internal fragmentation. The central question remains: Can art achieve true immortality if its genesis is perpetually hidden in the darkness?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Scaffold's Weight",
+      "segment_summary": "The physical burden of the scaffolding mirrors the invisible weight of societal expectations pressing down on Debolina's artistic ambition.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Lapis and the Lamplight's Gaze",
+      "segment_summary": "The chemical scent of ground lapis, illuminated by the solitary lamp, becomes the sensory signature of her isolated, nocturnal struggle.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "The Musk of the Stranger",
+      "segment_summary": "The fleeting musk carried by the desert wind acts as a sudden, intoxicating intrusion from the outside world into her hermetic creative space.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "Lime and the Cracks of Time",
+      "segment_summary": "The cool, wet touch of the lime plaster contrasts sharply with the deep fissures in the ancient walls, symbolizing both creation and decay.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "The Mirror of Faded Gods",
+      "segment_summary": "The faded figures in the frescoes reflect her own unspoken anxieties, suggesting that the decay of the art mirrors the erosion of her own domestic self.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "Mapping the Internal Rupture",
+      "segment_summary": "She begins to consciously translate her personal hesitations and fears onto the canvas, making the invisible struggle visible through pigment.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Whisper of Convention",
+      "segment_summary": "The distant, muffled sounds of societal expectation serve as a constant, low-frequency counterpoint to the intense focus of her artistic labor.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Unfinished Truth",
+      "segment_summary": "She realizes that the 'truth' of her art lies not in flawless completion, but in the honest documentation of its arduous, imperfect making.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

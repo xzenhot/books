@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা ও অনুরণন",
+  "segment_summary": "এই শূন্যতাটিই আসলে সেই নিখুঁত সিঙ্গাড়াটির জন্য অনন্ত অপেক্ষা, যা কেবল স্মৃতিতে বিদ্যমান এবং হৃদয়ে প্রতিধ্বনিত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the absence of sound—the silence after the crunch, which acts as a linguistic barrier between past and present.",
+    "story_option": "Setting: A cold piece of discarded packaging from the foreign market; Desire: To trace the pattern of grease stains back to the memory of the original mustard oil application on the kitchen tile; Obstacle: The overwhelming, indifferent glare of modern fluorescent light.",
+    "subject_rotation": "Treating the *void* left by consumption not as lack, but as an active negative space—a deliberate philosophical canvas for future yearning.",
+    "sensory_detail": "The faint, almost imperceptible dampness that clings to dried spice residue on an unwashed fingertip.",
+    "research_question": "How can I poetically describe the dissonance between high Sanskritized diction and very basic, street-level vocabulary (like 'packet') without disrupting the mandated cadence?",
+    "structural_variant": "Adopting a reversed chronology: starting with the absolute zenith of the original flavor and systematically detailing its gradual sensory degradation until nothing remains.",
+    "variety_note": "This chapter pivots away from mapping geographical loss (like earlier chapters) to dissecting ontological residue—the profound philosophical implications of what remains *after* the consumption event has concluded."
+  }
+}

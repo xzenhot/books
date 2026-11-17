@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রত্যাবর্তনের মিথ",
+  "segment_summary": "কবি বারবার সেই আদি স্বাদের প্রত্যাবর্তনের কথা ভাবেন, যা হয়তো কেবল একটি মিথ বা আকাঙ্ক্ষার কাঠামো মাত্র।",
+  "name": "5",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The anti-climax approach: Allowing the waiting period to extend beyond the point of hunger, making patience itself the central flavor profile.",
+    "story_option": "Setting: Examining the texture of an unused packet wrapper containing spice mix; Desire: For the spices within to spontaneously re-form the ancestral aroma, resisting the package’s inertia; Obstacle: The chemical barrier of modernity sealing away tradition.",
+    "subject_rotation": "Focusing on the physical thread metaphor—the way a single ingredient (like ginger or mustard seed) persists physically while its contextual meaning degrades.",
+    "sensory_detail": "A sharp, momentary scent of old jute sacking mixed with steam when leaning near a market stall.",
+    "research_question": "How can 'thread' be maintained as the central structural motif throughout all eight segments without becoming overtly ornamental?",
+    "structural_variant": "A highly interwoven structure where the ending phrase of one segment bleeds seamlessly into the starting image/concept of the next.",
+    "variety_note": "This chapter contrasts sharply with earlier segments by shifting focus from the *act* of creation/loss to the sustained, static endurance of desire itself; it utilizes the thread metaphor as a unifying tension across all sub-themes."
+  }
+}

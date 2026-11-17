@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "প্রতিকূলতা জয় করার মাধ্যমে বেহুলার চরিত্রটি কেবল একজন নারী থেকে এক মহৎ প্রতীকে রূপান্তরিত হয়, যা অন্যদের পথ দেখায়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the reunion moment itself as a silent theological event, where belief is proven through immediate bodily cessation of internal conflict.",
+    "story_option": "The narrative zooms into a single, symbolic domestic object—perhaps a thread or piece of worn fabric—that has borne witness to both absence and return; Desire: To imbue this mundane item with ontological weight; Obstacle: The temptation to over-romanticize the object's significance; Turn: The object reveals only profound, quiet endurance.",
+    "subject_rotation": "Exploring the nature of the vow/commitment itself: whether it survived through shared experience or merely by adherence to external form.",
+    "sensory_detail": "A faint, almost imperceptible hum in the air following the cessation of intense internal struggle.",
+    "research_question": "Is there a classical Bengali metaphor for enduring stability that doesn't imply rest but implies rigid, tested fortitude?",
+    "structural_variant": "A non-linear structure where segments jump between the moment *just before* reunion and moments far removed in her solitary suffering.",
+    "variety_note": "This chapter shifts from recounting the struggle to describing its irreducible consequence, prioritizing existential density over narrative momentum, unlike earlier chapters."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অন্ধকারের প্রাচীর",
+  "segment_summary": "সমাজের আরোপিত অন্ধকার এবং সন্দেহের প্রাচীর, যা তার অস্তিত্বকে ক্রমাগত গ্রাস করার চেষ্টা করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the shadow/darkness not as an external entity, but as a symbiotic counterpart necessary for defining the light's boundaries.",
+    "story_option": "Setting: Standing near a massive, silent stone marker on the edge of an ancient pathway; Desire: To ask if persistence itself constitutes a form of divine contract renewal; Obstacle: The relentless erosion symbolized by wind and rain.",
+    "subject_rotation": "Exploring how cultural adherence itself can become a form of spiritual constraint, even when purporting to support belief.",
+    "sensory_detail": "A low-frequency resonance or hum felt in the chest cavity during intense spiritual concentration.",
+    "research_question": "How might Jibran's concept of yearning be translated into Bengali diction to reflect an outcome (the question) rather than just the process?",
+    "structural_variant": "An open-ended, circular poem where the final line of Segment 8 deliberately repeats or negates the opening image described in Segment 1.",
+    "variety_note": "This chapter moves beyond description; it forces an active dialectic between internal illumination and external negation, employing the aftermath lens suggested by the variation brief."
+  }
+}

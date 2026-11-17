@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্বীকারোক্তির ভার",
+  "segment_summary": "ধ্বংসাবশেষকে জোর করে বাঁচিয়ে রাখার চেষ্টা ব্যর্থ হয়; প্রকৃতির ধূলিসাৎ নিয়মের ওপর ছেড়ে দেওয়ার সিদ্ধান্তই চরম পবিত্রতা লাভ করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the concept of 'limit' not as a line drawn by will (civic ego), but as an emergent property of geological or meteorological necessity.",
+    "story_option": "Setting: A brief, almost hallucinatory vision of the house *before* its ruin—rendered not in grandeur, but in intense emotional saturation (like a dream); Desire: To desperately grasp at that manufactured memory as evidence for his choice; Obstacle: The clarity of the image immediately degrading into grit.",
+    "subject_rotation": "Focusing less on the external clash (Civilization vs. Nature) and more on the internal collision: the friction between the urge to *define* experience and the reality of irreducible being.",
+    "sensory_detail": "Touch: The gritty feeling on his tongue when he involuntarily tastes the fine dust coating his lips during moments of extreme stillness.",
+    "research_question": "Are there specific cultural idioms within the declared world that describe 'necessary emptiness' or the beauty found in absence?",
+    "structural_variant": "Employing a tautological structure, where the conclusion of one small observation immediately feeds into the starting premise of the next.",
+    "variety_note": "While neighbouring chapters focused on the bloom's inherent nature or the dawn/storm transition, this chapter zeroes in entirely on the moment of decisive human choice against an overwhelming environmental backdrop."
+  }
+}

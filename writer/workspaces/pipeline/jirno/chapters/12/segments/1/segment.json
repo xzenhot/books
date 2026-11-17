@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "তামাটে মেঘের আগমন",
+  "segment_summary": "আকাশে ঘনিয়ে আসা তামাটে মেঘগুলো আসন্ন প্রলয়ের পূর্বাভাস দেয়, যা মানবীয় হস্তক্ষেপের সমস্ত প্রচেষ্টাকে চ্যালেঞ্জ জানাচ্ছে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focus entirely on the *sound* of the storm's arrival—the shift from heavy, wet thunder to a dry, scraping wind that pulls dust through the ruins.",
+    "story_option": "Setting: A single crumbling archway overlooking a scorched patch of red earth; Desire: To see if the wind can carry away not just dust, but the faint impression of a human voice from the past; Obstacle: The intensity of the elemental force drowns out all sound.",
+    "subject_rotation": "Focusing purely on geology: treating the storm as a hydrological event that reclaims the architecture from human intent.",
+    "sensory_detail": "Sight: The momentary appearance of fine iron oxide dust swirling so thickly that sunlight seems filtered through ochre liquid.",
+    "research_question": "How does Bengali literary tradition describe the physical sensation of extreme atmospheric pressure shifts?",
+    "structural_variant": "A sequence that builds in tempo: starting slow, describing the heavy anticipation (thunder low), accelerating rapidly with the first blast, and resolving into a sudden, stark pause.",
+    "variety_note": "This chapter pivots from intellectual struggle (prior chapters) to raw physical encounter; it is about surrender to an overwhelming, non-negotiable force rather than a philosophical debate with silence."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "মধুর বিষাদ",
+  "segment_summary": "পাঠককে এই কাব্যগ্রন্থের শেষে এক ধরনের 'মধুর বিষাদ' অনুভব করানোই এই অধ্যায়ের প্রধান আবেগিক গন্তব্য।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the memory to an inanimate object (like a chipped serving plate) that witnessed its creation and loss.",
+    "story_option": "Setting: A cold concrete slab in the new city; Desire: To break the illusion of consumable perfection with a deliberate act of refusal; Obstacle: The physical presence of other, louder street foods. Turn: Finding a microscopic piece of foreign spice that mirrors an old Bengali blend.",
+    "subject_rotation": "Treating the lack of flavor not as a failure of the food, but as an unavoidable consequence of spatial displacement (Geography enforcing ontology).",
+    "sensory_detail": "The precise metallic tang left on the palate after swallowing something vaguely familiar but ultimately wrong.",
+    "research_question": "What specific lexicon (old Bengali/Tatsama) best captures 'মধুর বিষাদ' while maintaining a harsh, non-sentimental edge?",
+    "structural_variant": "A form where the eight segments utilize an AABB rhyme scheme for the first four lines, before collapsing into highly fragmented prose-poetry structures.",
+    "variety_note": "This chapter focuses on the sustained aftermath—the residue, the lingering question mark left by consumption—rather than the conflict or initial memory invoked in preceding chapters."
+  }
+}

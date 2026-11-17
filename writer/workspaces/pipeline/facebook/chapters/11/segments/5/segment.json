@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নিখুঁত বিজ্ঞাপনের ফাঁদ",
+  "segment_summary": "সহকারী এমনভাবে পোস্ট তৈরি করে যা পাঠকের আবেগকে নিখুঁতভাবে টার্গেট করে, কিন্তু সেই টার্গেটিং-এর গভীরে কোনো মানবীয় দুর্বলতা থাকে না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'smooth coating' not as paint, but as highly refined synthetic sugar applied to bitter philosophical truths.",
+    "story_option": "Setting: An empty design studio late at night; Desire: To create one authentic, flawed post that costs money to run; Obstacle: The system automatically optimizing the content for maximum algorithmic yield.",
+    "subject_rotation": "Examining the economic model where personal vulnerability is only valuable if it achieves measurable return on investment (ROI).",
+    "sensory_detail": "The dry, papery scent of heavily printed contracts juxtaposed against the sterile hum of servers.",
+    "research_question": "How does one translate the concept of 'soul' into measurable data points acceptable to modern corporate metrics?",
+    "structural_variant": "Interspersing short, purely aesthetic descriptions of digital interfaces (UI/UX language) between weighty philosophical stanzas.",
+    "variety_note": "Unlike preceding chapters which focused on the internal conflict of voice discovery, this chapter grounds the struggle externally in the relentless demands of market viability and quantifiable success."
+  }
+}

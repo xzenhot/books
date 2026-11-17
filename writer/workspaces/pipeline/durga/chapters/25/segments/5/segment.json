@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "চক্রের প্রত্যাশা",
+  "segment_summary": "উৎসবের চক্রটি আবার নতুন করে শুরু হওয়ার প্রতীক্ষায় স্থির হয়, যা অনিবার্য পুনর্জন্মের প্রতিচ্ছবি বহন করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating the 'sound' (secondary twist)—not the drum or bell, but the internal hum of persistent consciousness that echoes even when ritual noise ceases.",
+    "story_option": "Setting: During a late-night vigil by a simple river bank, away from grand immersion sites; Desire: To hear not the water flow, but the faint echo of an ancient Chandi path; Obstacle: The overwhelming modern *noise pollution*.",
+    "subject_rotation": "Shifting from the collective religious ecstasy to a highly personalized, almost clinical examination of memory decay versus spiritual retention.",
+    "sensory_detail": "Sound: The specific, momentary hush that falls over a crowd when the immersion procession momentarily pauses before plunging into the water.",
+    "research_question": "How is the concept of 'inner struggle' (অভ্যন্তরীণ সংগ্রাম) visualized in traditional Bengali folk narratives related to creation or destruction?",
+    "structural_variant": "A purely reflective sequence, moving chronologically backward from the moment after immersion to the initial preparation rituals.",
+    "variety_note": "This chapter deepens the introspection begun by earlier narratives, moving from communal celebration to an intensely private meditation on ephemeral versus enduring existence."
+  }
+}

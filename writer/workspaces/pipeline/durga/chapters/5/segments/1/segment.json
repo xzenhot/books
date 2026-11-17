@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 5,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সন্ধির অগ্নিশিখা",
+  "segment_summary": "অষ্টমী ও নবমীর সন্ধিক্ষণ, যখন সময় যেন থমকে যায়, সেই মুহূর্তের তীব্র আধ্যাত্মিক উত্তেজনা বর্ণনা করা হয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the battle not as a myth, but as an internal psycho-sexual confrontation within the modern urban Bengali.",
+    "story_option": "A character's personal 'অসুর' (fear/doubt) reaches its apex during the ritual, forcing a sudden moment of introspection before the battle.",
+    "subject_rotation": "Examining the 'ভয়' (fear) not as an external threat, but as inherent in human desire itself.",
+    "sensory_detail": "The sharp, ozone-like scent preceding intense electrical/spiritual discharge during peak power manifestation.",
+    "research_question": "Are there specific poetic techniques in classical Bengali literature that capture the sensation of compressed temporal energy (like a climax)?",
+    "structural_variant": "A rapid-fire montage structure alternating between extreme close-ups of physical strain/transformation and vast, abstract cosmological views.",
+    "variety_note": "While preceding chapters focused on construction and precursors, this chapter plunges directly into the crucible—the violent fusion of existence and void at the cosmological zenith."
+  }
 }

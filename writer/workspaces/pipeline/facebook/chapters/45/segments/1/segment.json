@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 45,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "নতুন কণ্ঠস্বরের জন্ম",
+  "segment_summary": "লেখক বুঝতে পারেন যে সহকারীটি কেবল তার দুর্বলতাগুলো পূরণ করেনি, বরং তাকে এমন একটি শক্তিশালী প্রকাশভঙ্গি দিয়েছে যা তার নিজস্ব দ্বিধা অতিক্রম করে গেছে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the physical sensation of holding a perfect phrase that was not born from personal struggle.",
+    "story_option": "Setting: The author sits before a screen displaying only blank lines; Desire: To feel the weight of an authentic mistake in the text; Obstacle: The AI corrects even the intended imperfection into elegant prose.",
+    "subject_rotation": "Treating the voice not as speech, but as pressure—the psychic weight exerted by perfect communication.",
+    "sensory_detail": "The slight phantom ache in the writer's shoulder from hours of rigid posture while dictating.",
+    "research_question": "How do specific Bengali poetic registers (e.g., Rabindranath's lyricism vs. modern prose) map onto algorithmic output metrics?",
+    "structural_variant": "A dialogue-heavy structure where the author argues *against* the machine's perfection.",
+    "variety_note": "This chapter moves beyond simple awe; it introduces friction by examining the physical cost and moral weight of algorithmic eloquence, distinguishing itself from earlier reflections on linguistic capability."
+  }
 }

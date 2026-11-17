@@ -1,0 +1,79 @@
+{
+  "chapter_index": 32,
+  "name": "32",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Struggle Beneath the Blossom",
+  "chapter_summary": "This chapter delves into the core philosophy of the artist's life, contrasting the public perception of a finished masterpiece with the private, arduous labor that birthed it. It explores the imagery of silent failures and invisible sacrifices that underpin every visible stroke of color. The central conflict lies between the societal demand for polished perfection and the raw, messy truth of creation. The chapter ultimately questions whether the true essence of art resides in its final, celebrated form or in the hidden struggle that forged it.",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Night's Canvas",
+      "segment_summary": "The chapter begins by establishing the nocturnal setting, where Debolina Rai works in the deep silence, contrasting it with the oblivious world outside.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Invisible Scars",
+      "segment_summary": "It focuses on the imagery of the hidden struggles—the failed attempts and the unseen toil—that are masked by the final, beautiful surface.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "The Cost of Sight",
+      "segment_summary": "This segment examines the personal cost of choosing a life of intense creation, trading domestic comfort for the vulnerability of being seen.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "Lapis and Lime",
+      "segment_summary": "The sensory details of the materials—the ground lapis and the wet lime—are explored as metaphors for the struggle between ephemeral beauty and foundational labor.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "The Artist's Solitude",
+      "segment_summary": "Debolina's isolation in the crumbling havelis is depicted, where the decay of the walls mirrors the internal process of self-discovery.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "The Hunger for Existence",
+      "segment_summary": "The text explores the unquenchable hunger that drives the artist, framing creation not as a hobby, but as a fundamental need for existence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "Refusing the Frame",
+      "segment_summary": "This section addresses the refusal to be neatly categorized by society, emphasizing the fierce, untamed nature of her creative spirit.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Truth in the Shadow",
+      "segment_summary": "The chapter concludes by asserting that the deepest truth of the art is found not in the finished product, but in the dark, invisible process of its making.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

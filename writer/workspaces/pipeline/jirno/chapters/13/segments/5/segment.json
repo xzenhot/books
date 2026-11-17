@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রকৃতির নীরব বিচার",
+  "segment_summary": "প্রকৃতি কোনো রায় দেয় না, কেবল তার নিজস্ব, অপরিবর্তনীয় নিয়মের মাধ্যমে পথিকের সিদ্ধান্তকে যাচাই করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus from external judgment to internal resonance: how the silence of the Satual community is physically 'felt' by the traveler, like a deep pressure against his sternum.",
+    "story_option": "Setting: Inside a collapsed courtyard where light barely penetrates; Desire: To deliberately lose track of time by closing his eyes and focusing only on the slow pulse in his wrist; Obstacle: An echo from outside—a single, defiant sound—snaps him back to awareness.",
+    "subject_rotation": "Reinterpreting 'ownership' (অধিকার) as a biological imperative rather than a societal one; the ruin is merely returning to its constituent elements.",
+    "sensory_detail": "Sound: The high, internal thrumming resonance caused by atmospheric pressure change vibrating through bone rather than air.",
+    "research_question": "What archaic Bengali poetic descriptions exist for the precise sensation of 'impending cessation' or irreversible transition?",
+    "structural_variant": "A cyclical structure where each segment ends with a question posed to himself, mirroring the preceding segment’s answer.",
+    "variety_note": "Unlike earlier chapters that built towards conflict (awakening, storm), this chapter dwells entirely in the tense, static aftermath of escalating tension, using internal bodily sensation as the primary narrative driver."
+  }
+}

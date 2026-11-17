@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "পর্যবেক্ষকের নীরব জিজ্ঞাসা",
+  "segment_summary": "দার্শনিক পর্যবেক্ষক 'আমি' এই চক্রাকার দর্শনের সামনে দাঁড়িয়ে প্রশ্ন করে—এই শক্তি কি কেবল প্রতিমার মধ্যে সীমাবদ্ধ, নাকি তা মানব আত্মার গভীরে চিরকাল বিদ্যমান?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Revisiting the theme from a lens of inherent human exhaustion—the effort required to *remember* divine power against entropy.",
+    "story_option": "Setting: A cluttered window ledge where dried shiuli petals mingle with discarded cosmetic wrappers; Desire: To find a single perfect bloom untainted by the urban dust; Obstacle: The overwhelming grime of daily life.",
+    "subject_rotation": "Treating the spiritual questioning not as seeking an answer, but as performing a continuous act of negation against finality.",
+    "sensory_detail": "Sight: The specific, muted grey cast of concrete where vibrant ritual colors once splashed in a public space.",
+    "research_question": "What specific Bengali metaphor exists in contemporary usage for an internalized spiritual force that resists theological categorization?",
+    "structural_variant": "Employing a sustained chiasmus across all eight segments to impose structural symmetry upon existential chaos.",
+    "variety_note": "This chapter moves away from action/mythology and focuses exclusively on aftermath—the quiet contemplation where belief transitions into existential philosophy. It contrasts the high ritualistic language with the low reality of daily life."
+  }
+}

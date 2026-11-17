@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 21,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত প্রতিকূলতার শেষে, বেহুলার জীবনে স্বামীর প্রত্যাবর্তনের অলৌকিক মুহূর্তটি কাব্যিক ভাষায় বর্ণনা করা হবে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the subtle, almost physical exhaustion following spiritual transcendence, rendering this 'weariness' as beautiful rather than tragic.",
+    "story_option": "Setting: The edge of the vast plain as dawn breaks; Desire: To exchange a look with Lukhindar that contains every memory of separation and endurance; Obstacle: The lingering shadow of past judgments refusing to dissipate fully.",
+    "subject_rotation": "Treating 'victory' not as a singular event but as a cumulative, accretionary process—each small moment of perseverance adding infinitesimal layers to her spiritual armour.",
+    "sensory_detail": "Smell: The clean, sharp scent of ionized air following a major energetic release (ozone quality).",
+    "research_question": "What specific archaic Bengali idioms can convey 'self-definition through immense pressure' without sounding overtly didactic?",
+    "structural_variant": "Emphasize a tripartite structure: Past Trauma $\rightarrow$ Moment of Nexus $\rightarrow$ Lingering Resonance (Cyclical divergence)",
+    "variety_note": "This chapter pivots from the sheer act of miraculous return (Previous Chapters) to a philosophical deconstruction of what that triumph fundamentally means in the face of ongoing systemic imperfection, grounding the spiritual high with critical intellectual inquiry."
+  }
 }

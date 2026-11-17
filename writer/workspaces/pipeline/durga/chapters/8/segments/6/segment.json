@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অস্থায়ী স্পন্দন",
+  "segment_summary": "এই উৎসবের ছন্দ যেমন তীব্র, তেমনই ক্ষণস্থায়ী; এটি আনন্দের শিখা এবং অনিবার্য বিচ্ছেদের আগমনী সুর বহন করে।",
+  "name": "6",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'ঢাক' (drum) itself not as an instrument but as an ancient deity demanding obeisance.",
+    "story_option": "A young novice drummer who initially views the drumming as mere performance, gradually realizing through immersion that he is channeling a deep metaphysical force associated with Shakti.",
+    "subject_rotation": "Exploring the dialectical relationship between human effort (laboring hands beating the drum) and divine manifestation (the resulting cosmic sound).",
+    "sensory_detail": "A sharp, metallic scent of aged brass fittings from ritual bells mingling with the humid air saturated by drum-strikes.",
+    "research_question": "What is the known historical connection between the act of drumming at Durga Pujas and pre-Vedic ritual practices in Bengal?",
+    "structural_variant": "Using fragmented sensory snapshots—a rapid succession of drum strikes followed by isolated visual memories from other festivals.",
+    "variety_note": "This chapter moves away from the concrete idol-making (Chapter 2/3) to focus purely on the dynamic energy—the *sound*—which represents primal force and temporal rhythm, unlike its neighbours which deal with physical or emotional states."
+  }
+}

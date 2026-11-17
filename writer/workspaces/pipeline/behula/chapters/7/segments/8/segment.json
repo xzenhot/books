@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "আলোর বার্তা",
+  "segment_summary": "এই সংগ্রাম কেবল ব্যক্তিগত মহিমা অর্জন নয়, বরং এটি সমাজের অন্ধকার কোণগুলিতে আশার এক অপ্রতিরোধ্য আলো বহন করে নিয়ে যায়।",
+  "name": "8",
+  "word_target": 187,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing her endurance as a necessary form of cultural archaeology: preserving self-worth against corrosive tradition.",
+    "story_option": "Setting: By a small, perpetually burning lamp in the deepest hour of night; Desire: Not for illumination, but for the faint scent of rain on dry earth—a sign of future renewal (turn); Obstacle: The persistent smell of old incense and dust suffocating the hope.",
+    "subject_rotation": "Exploring 'Sympathy vs. Recognition': The difference between being pitied by society and achieving true acknowledgment of one's intrinsic worth.",
+    "sensory_detail": "The persistent metallic tang from old copper utensils left out overnight, symbolizing enduring weight.",
+    "research_question": "What specific traditional markers or rituals related to widowhood in this cultural context are being implicitly challenged by Behula's existence?",
+    "structural_variant": "Interspersing sections of precise, observational landscape description (the village periphery) with bursts of internal psychological pressure.",
+    "variety_note": "While neighbours might focus on external social pressure, this chapter delves deeper into the internal mechanics of resistance—how memory and personal ritual become acts of metaphysical survival against systemic erosion."
+  }
+}

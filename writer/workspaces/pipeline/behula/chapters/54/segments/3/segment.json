@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 54,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপান্তর",
+  "segment_summary": "প্রতিকূলতা অতিক্রম করার মাধ্যমে বেহুলার চরিত্র এক সাধারণ নারীর থেকে মহৎ প্রতীকে রূপান্তরিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A perspective centered entirely on an overlooked domestic object within their home that bore witness to every trial (e.g., a specific clay lamp, or piece of ritual metal).",
+    "story_option": "Setting: Under the eaves of the house during a sudden evening drizzle; Desire: To feel the rain wash away the historical weight attached to her name; Obstacle: The tactile memory of suffering making shared touch feel both vital and fragile.",
+    "subject_rotation": "Examining endurance itself—is it sheer survival against entropy, or is it a deliberate act of shaping personal mythology?",
+    "sensory_detail": "The visual quality of light filtering through aged muslin cloth in their chamber, rendering everything softly defined yet hauntingly clear (visual).",
+    "research_question": "What classical Bengali metaphor describes fortitude that possesses crystalline rigidity without suggesting utter finality or cessation of striving?",
+    "structural_variant": "A cyclical structure where each segment uses a foundational image from the previous one, but reverses its emotional implication (e.g., 'Light' becomes 'Shadowed Memory').",
+    "variety_note": "This chapter shifts focus from the immediate trauma and struggle (previous segments) to the *aftermath*—the nuanced, complex emotional reality of sustained existence following an epic spiritual war, while challenging whether this victory is truly absolute or merely conditional."
+  }
+}

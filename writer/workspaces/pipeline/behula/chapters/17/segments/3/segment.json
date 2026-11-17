@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অন্ধকারের বিলুপ্তি",
+  "segment_summary": "The intense darkness and despair that defined her journey are shown to be utterly vanquished by the light of this final resolution.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from Behula’s internal emotional state to the external observation of society witnessing this improbable return; how do *they* react?",
+    "story_option": "Setting: A threshold between two realities (the trial-world meeting the world of return); Desire: To exchange not words, but a single shared breath that contains both pain and eternal promise. Obstacle: The boundary itself resisting their perfect confluence.",
+    "subject_rotation": "The Nature of Memory: Exploring whether the reality they inhabit post-return fully integrates or if moments of doubt (the past suffering) remain layered beneath the polished surface of 'salvation'.",
+    "sensory_detail": "Touch: The feeling of skin temperature evening out completely between them, removing all sensation of preceding cold/feverishness.",
+    "research_question": "What specific imagery can evoke a sense of 'absolute exhaustion that is beautiful'—a resolution so complete it feels physically draining?",
+    "structural_variant": "Employing stanzas that are perfectly balanced in syllable count, reflecting the symmetry achieved by overcoming chaos.",
+    "variety_note": "This chapter diverges by focusing intensely on the aftermath—the tension between ultimate joy and unresolved societal critique. Unlike previous struggles which focused on *withstanding* pressure, here we explore the weight of *having won* it."
+  }
+}

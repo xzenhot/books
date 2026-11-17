@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 28,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অনুরণনের শেষ ফোঁটা",
+  "segment_summary": "খাবারের শেষ টুকরোটি গিলে ফেলার পর জিভে যে সূক্ষ্ম শূন্যতাটি জন্ম নেয়, তা কেবল পেট ভরের সমাপ্তি নয়, বরং এক দীর্ঘ অপেক্ষার নীরব প্রতিধ্বনি।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the physical *residue*—not flavor, but texture or microscopic alteration of the tongue/lips after tasting—as proof of a metaphysical event.",
+    "story_option": "Scene: The narrator pauses immediately after swallowing the last crumb; Desire: To feel a specific muscle in his hand twitch, recalling the exact pressure applied during wrapping at home; Obstacle: The sudden intrusion of external ambient noise (like traffic/machinery).",
+    "subject_rotation": "Treating 'taste' not as an absence, but as a constantly negotiated tension between presence (the wrapper) and spectral quality (the inner flavor).",
+    "sensory_detail": "Sight: The way residual specks of spice cling like dried, ochre dust to the folds of linen worn in travel bags.",
+    "research_question": "How can Tatsama and Hindi diction be integrated not just for vocabulary enrichment, but to create a deliberate phonetic dissonance that mirrors cultural fragmentation?",
+    "structural_variant": "Alternating between 4-line stanzas dedicated purely to sound invocation and 4-line stanzas focused on tactile memory.",
+    "variety_note": "This chapter diverges from neighbours by prioritizing the somatic aftermath—the internal resonance and lingering physical sensation after consumption, rather than focusing externally on setting or preparation."
+  }
 }

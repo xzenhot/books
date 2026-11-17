@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রতিলিপির ব্যর্থতা",
+  "segment_summary": "একটি নিখুঁত স্বাদকে প্রতিলিপি করার প্রচেষ্টা আসলে একটি সাংস্কৃতিক ব্যর্থতার প্রতীক, যেখানে কেবল আকারটি টিকে থাকে, আত্মাটি নয়।",
+  "name": "9.5",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating spices not as flavor agents but as tiny geological fragments—each one embodying a different soil memory from Bengal.",
+    "story_option": "Setting: Near the gas burner of an unfamiliar kitchen range. Desire: The aroma must somehow generate its own localized pocket of Bengal air despite the sterile surroundings. Obstacle: The ventilation system pulls all scent into the exhaust.",
+    "subject_rotation": "Shifting focus from *what* is being fried to the metaphysical weight carried by the dry spice mixtures before they ever touch oil.",
+    "sensory_detail": "The visual contrast between the dull matte texture of ground chili powder versus the high gloss sheen on perfectly heated cumin seeds.",
+    "research_question": "What is the accepted term or metaphor in regional Bengali culinary practice for the moment a spice achieves 'full bloom' in hot fat?",
+    "structural_variant": "A cyclical structure where segments 1 and 8 serve as thematic mirrors, framing an intense central sequence of procedural descriptions.",
+    "variety_note": "Where earlier chapters dealt with the *result* (the finished product/sensation), this chapter isolates the volatile, critical *process*—the friction between tradition and mechanical reality."
+  }
+}

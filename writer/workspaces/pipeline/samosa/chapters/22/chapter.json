@@ -1,59 +1,119 @@
 {
   "chapter_index": 22,
   "name": "22",
-  "word_target": 250,
-  "chapter_title": "বানান বদলায়",
-  "chapter_summary": "বানান বদলায়, ডাকনাম বদলায়, আর লেবেলের ভাষা বদলায়। একই খাবারের দুই নামের মাঝখানে দাঁড়িয়ে থাকে একটি অচেনা ভূমি।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "চূড়ান্ত স্বাদ",
+  "chapter_summary": "এই শেষ অধ্যায়টি সেই আকাঙ্ক্ষিত, কিন্তু অধরা স্বাদের অনুরণন নিয়ে শেষ হয়, যা প্রবাসীর হৃদয়ে চিরকাল বেঁচে থাকে। এটি সেই মুহূর্তকে চিত্রিত করে যখন সামোসাটি শেষ হয়ে যায়, কিন্তু জিভে একটি গভীর শূন্যতা থেকে যায়—যা কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি। কবিতাটি প্রশ্ন তোলে যে, স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ। এই অনুরণন পাঠককে মধুর বিষাদের এক অনন্ত অপেক্ষার মধ্যে রেখে যায়।",
   "further_references": [
+    "references.md"
+  ],
+  "segments": [
     {
-      "no": "1",
-      "reference": "Phonetics and Script Drift in Diaspora Languages",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "শূন্যতার প্রতিধ্বনি",
+      "segment_summary": "সামোসাটির শেষ কামড়টি গিলে ফেলার পর জিভে যে নিস্তব্ধতা নেমে আসে, তা কেবল পেট ভরের সমাপ্তি নয়, বরং একটি দীর্ঘ অপেক্ষার নীরব প্রতিধ্বনি।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অসম্পূর্ণতার স্বাদ",
+      "segment_summary": "এই স্বাদটি কখনোই পুরোপুরি পাওয়া যায় না; এটি সর্বদা একটি 'অনুবাদিত' অভিজ্ঞতার মতো, যা আদি রূপের কাছাকাছি পৌঁছাতে ব্যর্থ হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "আত্মার ভাজা অংশ",
+      "segment_summary": "এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক সীমানা অতিক্রম করতে পারে না।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "অটুট আশ্রয়",
+      "segment_summary": "হারিয়ে যাওয়া স্বাদটিই প্রবাসীর একমাত্র অটুট আশ্রয় হয়ে ওঠে, যা তাকে নতুন মাটির গন্ধেও পুরোনো বাড়ির গন্ধ খুঁজে পেতে সাহায্য করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "স্মৃতির ঘূর্ণন",
+      "segment_summary": "এই শেষ মুহূর্তটি স্মৃতির ঘূর্ণন দ্বারা চালিত, যেখানে বর্তমানের শূন্যতা অতীতের উষ্ণতার প্রতিচ্ছবি হয়ে ফিরে আসে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অপেক্ষা বনাম প্রাপ্তি",
+      "segment_summary": "এই কাব্যিক যাত্রাটি একটি স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক—সেই নিখুঁত সিঙ্গাড়াটির জন্য অপেক্ষা, যা কেবল স্মৃতিতে বিদ্যমান।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "মধুর বিষাদ",
+      "segment_summary": "পাঠককে এই কাব্যগ্রন্থের শেষে এক ধরনের 'মধুর বিষাদ' অনুভব করানোই কাম্য, যেখানে কোনো চূড়ান্ত উত্তর দেওয়া হয় না।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অনন্ত অনুরণন",
+      "segment_summary": "এই কাব্যটি সেই স্বাদটির একটি অস্পষ্ট, কিন্তু গভীর অনুরণন দিয়ে শেষ হয়, যা সম্পূর্ণরূপে পাওয়া যায়নি, কিন্তু হৃদয়ে চিরকাল বেঁচে থাকবে।",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Treating the shift in spelling as a form of self-erasure required for 'entry' into the new geography.",
-      "Framing the phonetic drift—the sound decaying with distance—as an unstoppable natural law, like erosion or tectonic shifting.",
-      "Adopting the perspective of the ink/typewriter mechanism itself, witnessing the failure of accurate transcription across borders."
+      "Focusing on the silence after consumption as a definitive linguistic failure, rather than just absence.",
+      "Employing the concrete image of an oven door left slightly cracked open—a threshold between past and present heat.",
+      "Framing the 'taste' not as a chemical state but as a specific form of exhausted dialect that cannot be spoken in the new land."
     ],
     "story_options": [
-      "Setting: A faded receipt in a market stall; Desire: To trace the difference between two wildly divergent spellings of 'Simgara' and 'Samosa'; Obstacle: The vendor refuses to clarify, insisting the new spelling is 'final'.",
-      "Setting: Against a backdrop of damp, peeling plaster (the wall lens); Desire: To watch how moisture causes one script form to blur into the other; Obstacle: The blurring seems organic, suggesting inevitability rather than market pressure.",
-      "Setting: In a cluttered, dusty drawer filled with old travel documents and mismatched packaging; Desire: To align fragments of text that represent the two identities; Obstacle: They resist alignment, mocking each other's differing glyphs."
+      "Setting: A lone, chipped ceramic bowl resting on the kitchen counter; Desire: To mentally trace the pattern of its cracks back to the shape of an old dosa mold from Bengal; Obstacle: The silence—the lack of sound where preparation should have been.",
+      "Setting: Standing against a blank, whitewashed wall in the new dwelling; Desire: To project the *heat* (আঁচ) of the original frying pan onto this cold expanse; Obstacle: The inherent indifference of modern architecture to visceral memory.",
+      "Setting: Holding a single, empty wrapper remnant under weak light; Desire: To treat this fragile husk as an archaic map charting impossible flavor coordinates; Obstacle: Its complete lack of discernible texture that connects to memory."
     ],
     "subject_rotations": [
-      "Focusing less on the *name* and more on the sound/vibration ('শ্রুতি') as a persistent, unwritten carrier of culture that survives linguistic modification.",
-      "Analyzing the 'letter' (অক্ষর) not as a mark, but as an inherited memory trace—where does the original stroke point lead?",
-      "Treating the name change as a micro-act of colonialism: the foreign market imposes its orthography upon the local artifact."
+      "Treating the final residue on the tongue not merely as hunger, but as a permanent modification of self—a subtle ontological shift.",
+      "Examining the 'zero point' moment after eating where objective reality seems suspended by nostalgic longing.",
+      "Focusing on how the act of *waiting* for the perfect taste becomes a more defined state than the consumption itself."
     ],
     "sensory_details": [
-      "The slightly gritty texture of dried dust clinging to the edge of an old, brittle paper label.",
-      "The high, thin *click* sound of a cheap manual stamp apparatus rejecting a non-standard character glyph.",
-      "The visual interference pattern created when printed text is viewed through imperfect, wavy glass."
+      "Sight: The muted, dull sheen left on a fingertip after handling grease from foreign frying methods.",
+      "Sound: The barely audible internal echo of crushing spices in an empty tin after the food is gone.",
+      "Taste: A phantom sensation—the memory of salt crystallizing on a tongue that currently tastes only dust."
     ],
     "research_questions": [
-      "What specific Bengali orthographic rules are most frequently violated or simplified in rapid translation across linguistic barriers?",
-      "Are there documented instances where the physical act of writing/typing a name (e.g., on customs forms) alters its perceived cultural weight?"
+      "How can I poetically represent 'অনুবাদিত' (translated/unrendered) without resorting to direct linguistic comparison?",
+      "What specific image from the declared world best encapsulates existential tension remaining after sensory satiation?"
     ],
     "structural_variants": [
-      "A deliberate fragmentation mirroring the broken phonetic flow, using abrupt shifts in sentence length to mimic stuttering pronunciation.",
-      "Structuring the poem as two parallel columns: one pristine/rooted (Bengali script focus) and one mutable/external (Latinized or highly simplified script focus), ending in a merge that fails."
+      "A sustained stream-of-consciousness segment that begins mid-chew and never resolves into a clear narrative statement.",
+      "Alternating between very dense, highly Sanskritized couplets (describing the lost flavor) and extremely colloquial, monosyllabic lines (describing the immediate physical aftermath)."
     ],
     "unused_angles": [
-      "Exploring how non-linguistic actions—like folding the wrapper, which remains consistent regardless of name change—become the primary carriers of identity.",
-      "A deep dive into the materiality of 'dye' or color on packaging, where the hue remains constant even if the printed word beneath changes."
+      "Delving into the administrative bureaucracy of memory—the paperwork required to file a grievance against geographical displacement.",
+      "Using the concept of 'static electricity' generated by dryness in the new environment as an analogy for emotional friction."
     ],
-    "variety_note": "Unlike previous chapters that focused on material change (oil/flour), this chapter centers entirely on semiotic decay—how nomenclature itself becomes a point of rupture."
+    "variety_note": "This chapter deliberately eschews overt description of setting or action, focusing intensely on the internal residue—the aftermath of consumption and its philosophical implications."
   },
   "draft": {
-    "sha256": "7f7f7b0a4398c8866e6305294e37f4d56a3fd2b1fdcf4c480396411f4fd4893f",
-    "written_at": "2026-11-01T08:22:21.700295+00:00",
+    "sha256": "072d4720ead65e5f332ffee14d085513b53989589ba3fbfa01d05116c67ccd5f",
+    "written_at": "2026-11-16T20:03:51.206343+00:00",
     "origin": "write"
   }
 }

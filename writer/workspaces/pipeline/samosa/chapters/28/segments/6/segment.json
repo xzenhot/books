@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা বনাম প্রাপ্তি",
+  "segment_summary": "এই অধ্যায়টি সেই অনন্ত অপেক্ষার প্রতিচ্ছবি, যেখানে প্রাপ্তি এবং আকাঙ্ক্ষার মধ্যেকার ব্যবধানই জীবনের প্রধান সুর হয়ে ওঠে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem speaks through fragmented syntax designed specifically to mimic the halting, incomplete quality of memory recall (a linguistic stutter mirroring flavor decay).",
+    "story_option": "Scene: Standing motionless in a transit space (train/plane departure area); Desire: To synchronize his internal rhythm with the remembered *thump* and *crunch* of dough hitting hot oil; Obstacle: The mechanical regularity of the journey overpowering the organic sound.",
+    "subject_rotation": "Exploring the failure of verbal language ('Samosa') to map accurately onto the visceral, unspoken reality ('Singara').",
+    "sensory_detail": "Sound: A near-silent, high-frequency scraping sound—like burnt sugar crust against ceramic—which serves as the baseline noise for all reflection.",
+    "research_question": "What Bengali word/phrase most closely encapsulates 'the lingering sense of something correct being inherently flawed'?",
+    "structural_variant": "Using the structure of a fractured recipe card—listing ingredients, then inserting highly complex philosophical verse where instructions should be.",
+    "variety_note": "This chapter diverges from neighbours by prioritizing the somatic aftermath—the internal resonance and lingering physical sensation after consumption, rather than focusing externally on setting or preparation."
+  }
+}

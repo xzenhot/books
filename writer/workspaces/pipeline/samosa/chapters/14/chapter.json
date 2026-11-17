@@ -1,53 +1,118 @@
 {
   "chapter_index": 14,
   "name": "14",
-  "word_target": 250,
-  "chapter_title": "নতুন দেশের প্রথম রাত",
-  "chapter_summary": "নতুন দেশের প্রথম রাতে ঘর অচেনা, বিছানা অচেনা, আর জানালার বাইরের শব্দ অচেনা। কেবল পেটের ক্ষুধা বলে এখানেও সকাল আসবে।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "স্বীকৃতি বা প্রত্যাখ্যান",
+  "chapter_summary": "এই অধ্যায়টি সেই মৌলিক প্রশ্নটি উত্থাপন করে: এই পরিবর্তিত সামোসাটি কি কখনও তার আদি, উষ্ণ সিঙ্গাড়া-র রূপ ফিরে পেতে পারে? এটি একটি অস্তিত্বের সংকট—যেখানে আকার অপরিবর্তিত থাকা সত্ত্বেও সত্তার মৌলিক পরিবর্তন ঘটেছে। চিত্রকল্পে ফুটে ওঠে সেই আকাঙ্ক্ষিত, কিন্তু অধরা, সরিষার তেলের গন্ধের প্রতি তীব্র টান। খোলা প্রশ্নটি হলো, স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা আত্মার গভীরে প্রোথিত এক সাংস্কৃতিক সত্য যা কখনও 'অনুবাদিত' হতে পারে না?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "আদি রূপের প্রতি জিজ্ঞাসা",
+      "segment_summary": "কবি প্রশ্ন তোলেন যে, এই বহিরাগত সামোসাটি কি কোনোদিন তার বাংলার আদিম, উষ্ণ সিঙ্গাড়া-র নিখুঁত রূপে ফিরে আসতে পারবে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অনুবাদিত স্বাদের ভার",
+      "segment_summary": "এই খাবারটি কি চিরকাল একটি 'অনুবাদিত' স্বাদ হয়েই থেকে যাবে, যা কেবল স্মৃতিতে বিদ্যমান, বাস্তবে নয়?",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "আকৃতি ও সত্তার দ্বন্দ্ব",
+      "segment_summary": "ত্রিকোণাকার খোলসটি একই থাকলেও, ভেতরের পুরের পরিবর্তন তাকে এক নতুন, অপরিচিত সত্তা দান করেছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "প্রত্যাখ্যানের নীরবতা",
+      "segment_summary": "প্রবাসের নতুন পরিবেশ এই স্বাদকে গ্রহণ করে, কিন্তু তা গ্রহণ করার প্রক্রিয়ায় এক গভীর প্রত্যাখ্যানের সুর লুকিয়ে থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "স্মৃতির বাঁধন",
+      "segment_summary": "আদি স্বাদটি কেবল একটি খাদ্যের স্বাদ নয়, বরং তা একটি নির্দিষ্ট সময়ের, একটি নির্দিষ্ট মাটির প্রতি গভীর মানবিক অঙ্গীকার।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "রাসায়নিক ও আত্মিক বিভাজন",
+      "segment_summary": "এই অধ্যায়টি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে না দেখে, এটিকে আত্মার গভীরে প্রোথিত এক সাংস্কৃতিক সত্য হিসেবে তুলে ধরে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অসমাপ্ততার কাব্যিকতা",
+      "segment_summary": "এই আকাঙ্ক্ষাটি একটি স্থির, কিন্তু তীব্র অপেক্ষার প্রতীক, যা কোনো চূড়ান্ত সমাধান দাবি করে না।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অস্তিত্বের প্রশ্ন",
+      "segment_summary": "চূড়ান্তভাবে, এই খাবারটি কি তার শিকড় খুঁজে পাবে, নাকি এটি চিরকাল এক বিষণ্ণ, সুন্দর বিভ্রম হয়েই থেকে যাবে?",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the acoustic texture of the new environment: how unrecognizable foreign sounds (e.g., distant industrial hums vs. familiar village calls) become the defining soundtrack of isolation.",
-      "Treating the act of simply existing in the unfamiliar space—the physical sensation of sleeping on a foreign mattress or beneath an alien ceiling—as the primary metaphor, with food being only a momentary anchor.",
-      "Shifting the viewpoint entirely to the object: the untouched samosa/singara left out overnight, how it slowly reacts to the new environment's temperature and humidity."
+      "Framing the entire conflict not on taste/texture loss, but on a perceived ontological slippage: Is the modern iteration of the food item less 'real' than the memory?",
+      "A focus on the *silence* around the act of eating—the absence of familiar domestic noise (child chatter, specific cooking sounds) that frames the current experience as inherently incomplete.",
+      "Treating the longing not as nostalgic grief but as a form of intellectual rigor: demanding structural perfection from an unstable cultural object."
     ],
     "story_options": [
-      "Setting: A small, rented room near an industrial district; Desire: To replicate the precise feel of a familiar nighttime breeze; Obstacle: The relentless drone of unseen machinery; Turn: Finding solace only in counting the unchanging folds of the food package.",
-      "Setting: A sparse lodging with harsh overhead lighting; Desire: An immediate burst of memory/warmth tied to a scent; Obstacle: The synthetic, sterile smell of the new building; Turn: Realizing that even the imagined warmth is instantly dissipated by the metal surfaces.",
-      "Setting: The narrow street outside the lodgings late at night; Desire: To identify one recognizable silhouette or sound from home; Obstacle: Complete anonymity and unfamiliar shadows; Turn: Discovering a single, transient food vendor whose appearance mirrors a childhood figure in their trade."
+      "Setting: A sterile airport lounge overlooking unknown transit hubs; Desire: To find one single, untouched clove of familiar spice packet on the tray table; Obstacle: The hum of automated announcements erasing all geographical markers.",
+      "Setting: Beside a worn ledger detailing supply costs in a foreign city market; Desire: To reverse-engineer the exact composition—the precise measure of 'diidha' (mother's touch) in the mixture; Obstacle: Economic necessity forcing substitutions that corrupt the flavor profile.",
+      "Setting: A cramped, makeshift kitchen operating under the harsh glare of industrial fluorescent lights; Desire: To successfully replicate the specific low-heat steam retained by a village oven; Obstacle: The inability to source traditional earthenware or achieve the correct ambient moisture."
     ],
     "subject_rotations": [
-      "Exploring the concept of 'temporary permanence': how deeply ingrained routine feels essential even when the physical surroundings are utterly temporary and disposable.",
-      "The sensory burden of silence: not just the absence of familiar sounds, but a heavy, unnatural quietude that presses down against expectation.",
-      "Analyzing the friction between internal rhythm (the memory pulse) and external cadence (the foreign city's pace)."
+      "Focusing entirely on the ethical dilemma of authenticity: Is it wrong to claim a familiar name for something fundamentally transformed?",
+      "A meditation on linguistic inertia: How even when we speak 'samosa,' the underlying neurological expectation pulls us toward the vocabulary of 'singara'.",
+      "The object as a failed translation in literary terms—where the intent (Singhara) is lost in bureaucratic/commercial rendering (Samosa)."
     ],
     "sensory_details": [
-      "The grit beneath bare feet on unfamiliar concrete paving outside the door.",
-      "The metallic, cool tang of tap water in a basin compared to earth/well-water memory.",
-      "The abrupt transition from the humid darkness of night to the jarring, unfiltered glare of an early electric lamp."
+      "A phantom scent of specific, aged turmeric mingling with the metallic tang of imported fryer oil.",
+      "The visual contrast between the deep, saturated ochre of remembered filling and the paler, washed-out hue of its contemporary counterpart."
     ],
     "research_questions": [
-      "What specific cultural markers (e.g., local street names or non-Bengali market sounds) might best serve as background noise without violating rule 9?",
-      "How can the shift from deep night to pre-dawn light be characterized using diction that suggests both hope and continued uncertainty?"
+      "What are the established linguistic markers (beyond simple name change) that denote a food item's cultural origin in diaspora literature?",
+      "How does the concept of 'perfect heat' (আঁচ) translate when using different electrical or gas heating systems abroad, impacting textural integrity?"
     ],
     "structural_variants": [
-      "A structure where each stanza represents a different hour of the first night, showing gradual psychological decline or hardening.",
-      "An oscillating form: alternating between vivid internal monologue (the memory landscape) and dry, observational description of the foreign room."
+      "A sustained internal monologue where the narrator argues with a perceived ghost of their past self about culinary fidelity.",
+      "An external, observed narrative focusing on a shop owner who understands this conflict through commercial transactions."
     ],
     "unused_angles": [
-      "Developing a narrative thread around bureaucratic fatigue—the paperwork/visas accumulating like stale crumbs in the small rented space.",
-      "A detailed examination of local flora or fauna encountered outside, serving as alien lifeforms against memory's familiar landscape."
+      "Exploring how regional Bangladeshi variances might offer a temporary bridge back to 'authenticity' before the larger diaspora effect takes over.",
+      "A momentary focus on the communal act of sharing—how does imperfect food still foster connection?"
     ],
-    "variety_note": "This chapter focuses intensely on the *temporal* dislocation of the first night, contrasting immediate physical discomfort with deep sensory echoes, unlike previous chapters which dealt more with concrete transactional moments (border/airport)."
+    "variety_note": "This chapter deepens the philosophical rift begun in earlier pieces by moving from mere description of taste loss to an inquiry into ontological status, a shift away from simple geographical displacement."
   },
   "draft": {
-    "sha256": "0915d5324fd93f13ff4f6dcc6de08cc76ab9e7efd2ef9f9a583e363ba630e256",
-    "written_at": "2026-11-01T08:20:36.827657+00:00",
+    "sha256": "cde9d9e0efe6d53e8408dccdb0f5e41ecc356c83ed92f35a8f1fab309d562beb",
+    "written_at": "2026-11-16T19:41:21.345198+00:00",
     "origin": "write"
   }
 }

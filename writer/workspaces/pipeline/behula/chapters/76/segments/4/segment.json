@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 76,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের ভাষা",
+  "segment_summary": "ব্যক্তিগত সংগ্রাম কীভাবে সমাজের কাঠামোগত ত্রুটিগুলির প্রতি এক নীরব, অথচ শক্তিশালী অভিযোগ হয়ে ওঠে, তা এই অংশে অনুসন্ধান করা হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the micro-rituals of defiance: Detailing small, almost invisible acts (like arranging a wilted flower with precise geometry) that assert personal sovereignty against overwhelming social decree.",
+    "story_option": "Setting: The boundary stone at her property line; Desire: To etch an invisible seal of self-possession upon it; Obstacle: A relentless, whispering wind carrying slanderous echoes.",
+    "subject_rotation": "Treating her struggle as an act of aesthetic resistance—her maintenance of internal beauty/order despite external chaos.",
+    "sensory_detail": "The dry, brittle friction sound when she walks across parched earth during introspection.",
+    "research_question": "How does the established cadence of Zorban/Orillas match rhythmic patterns derived from sustained psychological pressure rather than purely emotional outpouring?",
+    "structural_variant": "Employing significant rhetorical parallelism across segments to emphasize the cyclical nature of suffering and assertion.",
+    "variety_note": "This chapter moves beyond describing pain (as seen in earlier segments) to actively theorizing its function: how personal anguish morphs into a durable, systemic critique articulated through endurance itself. It focuses on the transition from 'I suffer' to 'We are defined by this suffering.'"
+  }
+}

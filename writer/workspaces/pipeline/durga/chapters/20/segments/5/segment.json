@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "চক্রের নীরব প্রতিশ্রুতি",
+  "segment_summary": "প্রতি বছর এই শক্তির প্রত্যাবর্তন একটি সামাজিক রীতিনীতি হলেও, এর অন্তর্নিহিত বার্তা হলো মানব চেতনার অনিবার্য পুনর্জন্মের ঘোষণা।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the language erosion: how devotional terms lose their efficacy when spoken in mundane, un-ritualized daily conversation (connecting with local vernacular).",
+    "story_option": "Setting: In the quietude before dawn, inside a home kitchen where routine tasks are performed (e.g., preparing morning tea); Desire: To perform this mundane act with the *focus* reserved for ritual prayer; Obstacle: Distraction by immediate economic worries.",
+    "subject_rotation": "Shifting the focus from Durga's external power (Mahishasur Mardini) to the internal negotiation required by 'the mother figure' within the self.",
+    "sensory_detail": "Sound: A low-frequency hum from nearby city machinery that seems to absorb or drown out any lingering spiritual echoes.",
+    "research_question": "What specific Bengali metaphor exists in contemporary usage for an internalized spiritual force that resists theological categorization?",
+    "structural_variant": "Employing a sustained chiasmus across all eight segments to impose structural symmetry upon existential chaos.",
+    "variety_note": "This chapter moves away from action/mythology and focuses exclusively on aftermath—the quiet contemplation where belief transitions into existential philosophy. It contrasts the high ritualistic language with the low reality of daily life."
+  }
+}

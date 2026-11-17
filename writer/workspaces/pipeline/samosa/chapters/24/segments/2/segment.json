@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 24,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্মৃতি",
+  "segment_summary": "এখানে খাদ্যকে কেবল শারীরিক পুষ্টির উৎস হিসেবে না দেখে, এটিকে আত্মার গভীরে সংরক্ষিত একটি জীবন্ত আর্কাইভ হিসেবে চিত্রিত করা হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A narrative shift where the observer ('আমি') begins to embody the object (the Samosa) during its final dissolution, experiencing both satiety and loss simultaneously.",
+    "story_option": "Setting: Inside an old travel bag, where preserved spices are kept; Desire: For the memory embedded in those dried scents to become physically palpable again; Obstacle: Dust and desiccation have altered every molecule; Turn: A brief, sharp scent spike momentarily overwhelms the modern environment.",
+    "subject_rotation": "Focusing on the physical mechanics of taste receptors registering an ambiguous input (not just philosophical absence).",
+    "sensory_detail": "Smell: The phantom scent of dry earth mixed with frying fat lingering in empty nostrils.",
+    "research_question": "How can I visually represent a fading sensation using light source shifts within the poem's framework?",
+    "structural_variant": "An iterative loop where each segment begins with a word from the previous segment’s concluding line, forcing thematic resonance.",
+    "variety_note": "This chapter pivots away from identifying specific cultural markers (like 'Singara') and moves into pure ontological questioning—the nature of taste itself as a form of intangible persistence."
+  }
+}

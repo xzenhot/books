@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 60,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আবেগের বিভাজন রেখা",
+  "segment_summary": "তেলের এই বৈসাদৃশ্যটি একটি অদৃশ্য বিভাজন রেখা তৈরি করে—একদিকে উষ্ণ, শিকড়যুক্ত অতীত, অন্যদিকে শীতল, বিচ্ছিন্ন বর্তমান।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the perspective of the inanimate vessel (*কড়াই/tawa*) that holds both types of oils, witnessing the transition.",
+    "story_option": "Setting: While polishing a traditional *tawa* to use it for the new oil; Desire: To feel the residual heat memory on the metal surface despite the coldness; Obstacle: Finding microscopic residue that prevents the perfect clean slate.",
+    "subject_rotation": "A purely internal monologue focusing on the speaker's saliva reacting differently—a physical manifestation of emotional duality (sweet vs. bitter memory).",
+    "sensory_detail": "Tactile: The sticky, almost heavy film left on fingers after handling mustard oil vs. the slick, non-gripping coating from lighter industrial blends.",
+    "research_question": "Are there quantifiable differences in volatile organic compounds released by mustard oil vs. common neutral oils when heated to the same temperature?",
+    "structural_variant": "A shift in perspective between stanzas: 1-4 being external observation of the oil; 5-8 being internal reception of that aroma.",
+    "variety_note": "This chapter focuses exclusively on the primary chemical and sensory marker—the oil itself—diverging from previous chapters which focused on broader geographical or social shifts in food consumption."
+  }
+}

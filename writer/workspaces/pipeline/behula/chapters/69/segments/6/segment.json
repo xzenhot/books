@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 69,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "হতাশার বিপরীতে সংকল্প",
+  "segment_summary": "হতাশার অন্ধকার যখন সবচেয়ে গাঢ় হয়, ঠিক তখনই তার সংকল্পের দৃঢ়তা আরও তীব্রভাবে প্রকাশিত হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating societal scorn (কটাক্ষ) as an external entropy—a slow, pervasive decay rather than a direct assault.",
+    "story_option": "Setting: Deep inside a hidden part of the manor where light rarely touches; Desire: For the flame to consume itself completely, achieving pure state over perpetual burning; Obstacle: The need for external witness validates its existence.",
+    "subject_rotation": "Shifting focus to the *burden* of belief: What is it like to carry an impossible promise (like seven vows) when reality offers only attrition?",
+    "sensory_detail": "A faint, almost imperceptible metallic tang associated with overwhelming mental strain (taste)",
+    "research_question": "What ancient metaphorical structures in Indian philosophy deal specifically with sustained endurance against societal judgment rather than singular external battles?",
+    "structural_variant": "Alternating between moments of near-collapse (low diction surge) and brief, hyper-elevated ascents into pure idealization (high diction peak).",
+    "variety_note": "This chapter moves beyond describing the initial trauma (like Chapter 1) and delves into the mechanism of survival: how sheer psychological density is maintained when all external support structures fail."
+  }
+}

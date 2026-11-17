@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "The Ascent of Faith",
+  "segment_summary": "Behula's unwavering belief, tested through every trial, manifests as the force that pulls the beloved back toward the surface of life.",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Internal vs. External Metaphor Clash: The internal light/flame is presented as perfectly self-sustaining, while the external world’s acceptance remains utterly contingent on flawed societal judgment (the thread snaps under social gaze).",
+    "story_option": "Setting: Within the sanctuary alcove after restoration; Desire: To witness Lukhindar not as a returnee, but as one who bears scars that map out every point of her struggle (visible internal geography); Obstacle: The initial instinct to weep overwhelming the sense of 'victory'.",
+    "subject_rotation": "Shifting focus from Behula's personal achievement to the sheer audacity of existence itself in the face of prescribed suffering (existential defiance).",
+    "sensory_detail": "Sound: A high-frequency, perfect, glass-like vibration signalling energy alignment; not merely silence.",
+    "research_question": "What Bengali vocabulary best captures 'a profound depletion that feels transcendent'—the beautiful exhaustion?",
+    "structural_variant": "A structure where the final segment explicitly voids the comfort promised by segments 1-7.",
+    "variety_note": "This chapter shifts from pure ascent (Segments 1-4) to an immediate confrontation with consequence (Segments 5-8), ensuring it moves beyond mere triumphant celebration seen in prior arcs."
+  }
+}

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 10,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অর্থহীন যাত্রীর আগমন",
+  "segment_summary": "নদীর বুকে হঠাৎ এক অচেনা যাত্রী আবির্ভূত হন, যার হাতে কোনো মুদ্রা নেই, কিন্তু তার চোখে এক গভীর জিজ্ঞাসা।",
+  "name": "1",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the entire chapter through a single, specific object—the boat's old brass mooring ring—which acts as the physical demarcation point between 'fare owed' and 'story given.'",
+    "story_option": "Setting: A narrow inlet choked with water hyacinths. Desire: The passenger seeks shelter not from the weather, but from a memory that threatens to drown him. Obstacle: The majhi's boat is too small to accommodate both their shared burden of silence and narrative.",
+    "subject_rotation": "Shifting focus entirely onto the *passenger's* perspective—how does he perceive this generosity when his own life is defined by transactional necessity?",
+    "sensory_detail": "The sharp, metallic scent of old river rust against sun-warmed wood when the majhi grips his oar.",
+    "research_question": "Are there localized Bhatiyali idioms that specifically describe a profound, non-monetary exchange or blessing received from nature/a traveler?",
+    "structural_variant": "Employing an aural structure where the segment opens with the sound of the oars, slows down as the story begins, and then speeds up again upon conclusion.",
+    "variety_note": "This chapter deviates from previous explorations of economic hardship by focusing entirely on an intentional pause—a moment where financial pressure is momentarily superseded by shared human gravity. Unlike Chapter 2’s initial tension, this scene resolves into a profound quietude."
+  }
 }

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 30,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত প্রতিকূলতা অতিক্রম করার পর, বেহুলার জীবনে স্বামীর প্রত্যাবর্তনের মুহূর্তটি এক মহাকাব্যিক দৃশ্যের মাধ্যমে উন্মোচিত হয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The aftermath: Focusing purely on the silence following reunion—the echoes of struggle remaining after the triumph.",
+    "story_option": "Setting: The riverbank after dawn, now bathed in a cold, steady light; Desire: To share an unspoken moment with Lkhindor where their exhaustion outweighs any joy; Obstacle: The lingering shadow of social judgment hanging over the landscape. Turn: They accept the weight as part of the new communion.",
+    "subject_rotation": "Treating the reunion not as a romantic climax but an ontological correction—the universe rebalancing itself through their pairing.",
+    "sensory_detail": "Sight: The precise quality of the light settling on an object after years of turmoil—not bright, but deeply anchored.",
+    "research_question": "What specific Bengali vocabulary denotes a state of enduring existential weight versus temporary sorrow?",
+    "structural_variant": "Employing an immediate descent into silence upon reunion, letting only residual sensory input guide the subsequent stanzas.",
+    "variety_note": "This chapter shifts focus entirely to the enduring resonance *after* the triumphant moment, using stillness and residual imagery rather than depicting the dynamic action of the return itself. It prioritizes reflection over spectacle."
+  }
 }

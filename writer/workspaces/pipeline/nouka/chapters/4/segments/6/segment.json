@@ -4,19 +4,19 @@
   "chapter_index": 4,
   "segment_index": 6,
   "total_segments": 8,
-  "segment_title": "খাতাহীন হিসাব",
-  "segment_summary": "নীরব দানের হিসাব কোনো খাতায় লেখা হয় না, অথচ নদীর মতোই অবিরাম চলে; কবিতা এই অদৃশ্য খাতাকে সম্মান জানায়।",
+  "segment_title": "অদৃশ্য মূল্যবোধের লড়াই",
+  "segment_summary": "গোপাল তার নিঃস্বার্থ উদারতার মূল্যকে আধুনিক, সংখ্যাতাত্ত্বিক পরিমাপের সামনে তুলে ধরতে দ্বিধা করে।",
   "name": "6",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Using the contrast between the 'coin' (tangible metal) and 'need' (intangible hunger/desperation) as a material metaphor within Gopal’s hand gestures.",
-    "story_option": "Setting: A temporary landing spot where the path meets encroaching concrete edge; Desire: To move beyond the river system entirely into the city orbit, still needing one last passage on Gopal’s boat; Obstacle: The finality of leaving the informal economy behind.",
-    "subject_rotation": "Shifting focus entirely onto the boat's timbers absorbing these uncounted human burdens: the wood as a passive ledger of unspoken covenants.",
-    "sensory_detail": "The muted texture of roughspun cloth scraped against the boat's wooden side during a gentle docking maneuver.",
-    "research_question": "How is communal resource sharing historically documented or unspoken within delta communities in response to external economic pressure?",
-    "structural_variant": "Structuring segments as parallel reflections: 'Then' (unmeasured passage) vs. 'Now' (the pressure for measurement/coinage).",
-    "variety_note": "This chapter deliberately shifts focus away from conflict (dredging/diesel) and toward ethical action, using the rhythm of unpaid passage as a meditative counterpoint to later chapters' sonic battles."
+    "angle": "নদীর জলের স্তরের ওঠানামা বা 'ঢেউ' -কে গণিতের গাণিতিক তরঙ্গ হিসেবে না দেখে, বরং এক ধরণের স্মৃতির ঢেউ হিসেবে উপস্থাপন করা যা শুধু গোপালের হৃদয়ের গভীরে অনুভূত হয়।",
+    "story_option": "চট্টার্জী কোনো 'অপ্টিমাইজেশন' পরিকল্পনা পেশ করেন, কিন্তু তার ডেটা সেট এমন এক বিশেষ ধরনের জলের প্রবাহকে বাদ দিয়েছে যা শুধুমাত্র গোপালের নৌকা বা সম্প্রদায়ের ঐতিহ্যগত পথে দেখা যায় (সেটিং: চট্টার্জীর অস্থায়ী স্টেশন; আকাঙ্ক্ষা: নিখুঁত মডেল তৈরি করা; বাধা: তথ্যের ফাঁক; মোড়: তিনি বুঝতে পারেন তাঁর অ্যালগরিদম ত্রুটিপূর্ণ)।",
+    "subject_rotation": "উদারতাকে (গোপালের কাজ) একটি ভৌত শক্তি (যেমন: জলের প্লবতা বা প্রবাহের স্বাধীনতা) হিসেবে চিত্রিত করে আধুনিকতার 'ভারী' কাঠিন্যের বিপরীতে স্থাপন করা।",
+    "sensory_detail": "দূষিত জল থেকে ভেসে আসা তেল ও ধাতু মিশ্রিত সূক্ষ্ম গন্ধ, যা বর্ষার ধূপের গন্ধে চাপা পড়ে যাচ্ছে (ঘ্রাণ)।",
+    "research_question": "আধুনিক খনন কাজ নদীর বাস্তুতন্ত্রের কোন সুনির্দিষ্ট উপাদানগুলিকে সবচেয়ে বেশি ক্ষতিগ্রস্ত করছে বলে উল্লেখ করা হয়েছে?",
+    "structural_variant": "একটি 'ফ্ল্যাশব্যাক/প্রিভিউ' কাঠামো ব্যবহার করে, যেখানে বর্তমান সংঘাতের পূর্বে নদীর এমন একটি স্থিতিশীল সময়ের ছোট দৃশ্য দেখানো হয় যা চট্টার্জীর কাছে সম্পূর্ণ অর্থহীন।",
+    "variety_note": "পূর্ববর্তী কবিতাগুলো মানবিক সম্পর্কের অভ্যন্তরীণ গভীরতায় ডুবে থাকলেও, এই অধ্যায় সরাসরি বাইরের চাপ—একটি শীতল, সুসংগঠিত বহিরাগত শক্তিকে—নদীর বুকে আনা হচ্ছে এবং এর সংঘাত বস্তুনিষ্ঠ পরিমাপের সঙ্গে অস্তিত্বের দর্শন নিয়ে উন্মুক্ত।"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার মূল্য",
+  "segment_summary": "চূড়ান্তভাবে, এই কাব্যিক অনুসন্ধানটি পাঠককে প্রশ্ন করে—যখন নিখুঁতভাবে প্রভাবিত করা সম্ভব, তখন অসম্পূর্ণ মানবতা ধারণ করার মূল্য কতটুকু?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on linguistic entropy: How does human language degrade or change when forced through an algorithm designed for perfect output?",
+    "story_option": "Setting: The immediate aftermath of an intense drafting session on the device; Desire: To feel the lingering phantom pressure of the keyboard keys beneath fingertips; Obstacle: The screen remains active, pulsing with a low, invisible processing light.",
+    "subject_rotation": "Exploring the concept of digital echo chambers not politically, but psychologically—the comfort found in perfectly mirrored self-perception.",
+    "sensory_detail": "The faint, electrical ozone scent that seems to cling to the air after an intense processing cycle on a screen.",
+    "research_question": "How does traditional Bengali poetry address the theme of mediated selfhood versus unmediated experience?",
+    "structural_variant": "Juxtaposition: Alternating between highly polished, perfectly metered AI stanzas and raw, broken-syntax human hesitations.",
+    "variety_note": "This chapter focuses intensely on the *mechanics* of creation—the drafting, editing, and absorption phase—whereas previous chapters have dealt more with the external impact or philosophical outcome of the published text."
+  }
+}

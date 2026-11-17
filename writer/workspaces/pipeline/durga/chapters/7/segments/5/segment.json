@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আনন্দ ও আত্মসমর্পণের টানাপোড়েন",
+  "segment_summary": "এই দৃশ্য আনন্দের আড়ালে এক ধরনের আত্মসমর্পণের ইঙ্গিত বহন করে, যেখানে ব্যক্তিগত আকাঙ্ক্ষা বৃহত্তর সামাজিক বন্ধনের কাছে বিনম্র হয়।",
+  "name": "7.5",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "এই দৃশ্যকে রাত্রিকালীন নিম্ন স্বরস্থ (low register) থেকে দেখা—যখন উৎসবের शोर কমে আসে এবং কেবল নারীদের ফিসফিস করা আলাপন ও সিঁদুর মাখার চাপা শব্দ অবশিষ্ট থাকে।",
+    "story_option": "Setting: প্রদীপের আলোয় মণ্ডপের কোণ, Desire: অন্যের মতো হয়ে ওঠার গোপন বাসনা (mimicry), Obstacle: নিজের ব্যক্তিত্বের প্রতি ভয়, Turn: আচারের মধ্য দিয়ে খুঁজে পাওয়া এক সাময়িক 'স্মার্ট' মুক্তিবোধ।",
+    "subject_rotation": "নারী-থেকে-নারীর এই আদানপ্রদানকে বিচ্ছিন্নতা নয়, বরং এক অদৃশ্য মানসিক কার্বন নেটওয়ার্কের মতো চিত্রিত করা, যেখানে আবেগ বিনিময় হয় না; বরং শক্তি স্থানান্তরিত হয়।",
+    "sensory_detail": "সিঁদুরের গুঁড়ো যখন সূর্যালোকে পড়ার আগে বাতাসের কণা ধরে চিকচিক করে ওঠে – যেন জমাট বাঁধা সোনালী ধূলিকণা।",
+    "research_question": "বাঙালির লোকগাথায় 'সিঁদুরের লাল আভা' কীভাবে মাতৃত্ব বা সম্পর্কের প্রাথমিক স্বীকৃতির সঙ্গে যুক্ত?",
+    "structural_variant": "একটি 'ইনসাইড ভয়েস' কাঠামো যেখানে সমস্ত দৃশ্য শুধুমাত্র বক্তার হাতের কাজ এবং তার ত্বকের অনুভূতি দ্বারা বর্ণিত হবে।",
+    "variety_note": "Neighbouring chapters dealt with collective spectacle (masses/pandal), raw power (battle climax), or materiality (clay). This chapter focuses on the intricate, intimate, and subtly negotiated sphere of interpersonal female bond during a moment of apparent softness."
+  }
+}

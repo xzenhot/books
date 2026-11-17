@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "পথের গতিপথ",
+  "segment_summary": "সাংস্কৃতিক বাধাগুলি তার যাত্রাকে থামিয়ে না দিয়ে বরং আরও গভীর এবং সংকল্পবদ্ধ করে তোলে।",
+  "name": "6",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on one specific archaic ritual/custom (e.g., a prescribed mourning rite) and dissecting how it demands conformity at the expense of inner spiritual truth.",
+    "story_option": "Setting: During a formal gathering where adherence to rigid societal roles is paramount, Desire: A moment of unscripted stillness that defies the expected emotional performance (Turning Point).",
+    "subject_rotation": "Shifting the focus from conflict (war) to slow erosion (weathering), showing how tradition wears down belief over time.",
+    "sensory_detail": "The scent of specific incense used in formal domestic rites—a heavy, cloying aroma that feels suffocating rather than sacred (Olfactory).",
+    "research_question": "How can the concept of 'cultural preservation' be invoked poetically in a way that critiques its stifling nature, rather than merely celebrating continuity?",
+    "structural_variant": "Using very short, staccato tercets (three-line units) during scenes of high societal pressure to create a sense of jarring dissonance.",
+    "variety_note": "Unlike previous chapters that dealt with personal grief or internal strength, this segment focuses externally, using the rigid social body politic as its primary antagonist against her inner luminescence."
+  }
+}

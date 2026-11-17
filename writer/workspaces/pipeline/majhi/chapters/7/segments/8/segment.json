@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "শিল্পের সীমাবদ্ধতা",
+  "segment_summary": "কিন্তু এই শিল্পসম্মত মুগ্ধতা কি সেই বাস্তব অর্থনৈতিক চাপকে উপেক্ষা করতে পারে, যা মাঝির জীবনকে প্রতিনিয়ত গ্রাস করছে—এই প্রশ্নটি অধ্যায়টির শেষে উন্মোচিত হয়।",
+  "name": "7.8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence that settles between them—the unspoken understanding bypassing language and commerce.",
+    "story_option": "The narrator describes the way sunlight catches the specific patina of age on the wooden hull—a 'pigment' of untold journeys—as she watches him row.",
+    "subject_rotation": "Examining the dialectical tension between the transient nature of artistic beauty (the light, the moment) and the enduring permanence sought by economic structures.",
+    "sensory_detail": "The dull, oiled resonance when the oar pulls through water heavy with silt near the mudflats; a low, resistant *thud*.",
+    "research_question": "Are there indigenous concepts within Delta culture that equate manual labor (like rowing) with devotional practice, which could support this artistic framing?",
+    "structural_variant": "A cyclical structure where each segment begins by re-stating a perceived quality (e.g., 'The curve,' 'The rhythm') before developing that idea further.",
+    "variety_note": "This chapter contrasts the objective external pressures seen previously by framing the majhi through an intensely subjective, aesthetic lens, focusing on how perception can elevate mere labor to art before grounding that elevation in economic reality."
+  }
+}

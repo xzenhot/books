@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 4,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "দেবতার রোষের ছায়া",
+  "segment_summary": "The narrative begins by detailing the palpable weight of divine displeasure hanging over Behula's life, marking the shift from earthly sorrow to spiritual combat.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing a silent celestial entity: The speaker challenges the gods' silence directly, refusing to interpret their absence as negligence but as deliberate testing.",
+    "story_option": "A scene where Behula waits by a stagnant pool under a heavy sky (Setting), desperate to see any ripple that signals divine acknowledgment (Desire/Turn), only to find the water perfectly, unnervingly still.",
+    "subject_rotation": "Shifting focus from the *failure* of divine response to the *power* inherent in self-sustained faith—a triumph independent of external grace.",
+    "sensory_detail": "The taste of metallic dust mixed with stagnant incense smoke during long vigils.",
+    "research_question": "What are concrete metaphorical descriptors within Bengali classical poetry for sustained spiritual endurance against supernatural resistance?",
+    "structural_variant": "A recursive structure where each segment begins by re-stating the core premise of unanswered prayer, with subsequent segments offering different avenues (action, internal state, metaphysical object) to explore that premise.",
+    "variety_note": "This chapter moves entirely inward toward metaphysical conflict, contrasting sharply with previous segments that dealt with external societal or familial pressures; it is a purely transcendental engagement."
+  }
 }

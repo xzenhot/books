@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "প্রকৃতির নীরব চ্যালেঞ্জ",
+  "segment_summary": "আসন্ন কালবৈশাখীর তামাটে মেঘ যেন মানবীয় হস্তক্ষেপের সমস্ত প্রচেষ্টাকে চ্যালেঞ্জ জানাচ্ছে, এক অনিবার্য শক্তির আগমন বার্তা দিচ্ছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus entirely from the *ruin* (the structure) to the *soil* beneath it, portraying the earth as the passive yet overwhelmingly assertive protagonist of this moment.",
+    "story_option": "Setting: Near the village boundary where Satual children gather stones; Desire: The traveler attempts to initiate conversation about 'what comes next'; Obstacle: The children communicate only through rhythm, refusing narrative language.",
+    "subject_rotation": "Adopting a highly fragmented, stream-of-consciousness style during the 'self-realization' segments, mirroring cognitive breakdown rather than philosophical ascent.",
+    "sensory_detail": "Touch: The abrasive texture of pulverized lime dust coating everything, acting as a physical barrier to clear thought.",
+    "research_question": "How does Bengali aesthetic theory categorize the moment between decay and permanence?",
+    "structural_variant": "Segment 1 & 2 as a single, dense meditation (a core sequence) followed by fragmented vignettes of nature breaking the internal rhythm.",
+    "variety_note": "This chapter shifts inward significantly from previous sections; while earlier chapters observed tension between man and land, here the focus is solely on the traveler's internal mechanism dissolving under existential pressure before facing the final external storm."
+  }
+}

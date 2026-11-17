@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "প্রলয়ের পূর্বাভাস",
+  "segment_summary": "চৈত্র শেষ হয়ে বৈশাখের প্রথম প্রলয়ঙ্কর ধূলিঝড়, কালবৈশাখীর আগমন বার্তা নিয়ে আসে, যা মানবীয় হস্তক্ষেপের সমস্ত প্রচেষ্টাকে চ্যালেঞ্জ জানাচ্ছে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the moment of decision not as a grand, conscious choice, but as a sudden, involuntary physiological shutdown of intellectual resistance.",
+    "story_option": "Setting: The precise point where the dust cloud is densest, obscuring all recognizable forms; Desire: To feel absolute disorientation—the loss of navigational sense that mirrors his internal crisis; Obstacle: Complete visual occlusion.",
+    "subject_rotation": "Shifting from a focus on 'possessing' or 'saving' the ruin, to treating the act of *witnessing* its decay as the highest form of engagement.",
+    "sensory_detail": "Smell: The sharp, mineral tang rising from the red clay when first exposed to dry wind before the main storm hits.",
+    "research_question": "How does Bengali lyrical tradition handle the transition from acute environmental violence (the incoming storm) to absolute, sterile quietude?",
+    "structural_variant": "A heavily fragmented structure where each segment focuses on one competing sensory input: Sight (Red/Grey), Sound (Wind/Silence), Touch (Grit/Thorn).",
+    "variety_note": "While neighbouring chapters focused on the bloom's inherent nature or the dawn/storm transition, this chapter zeroes in entirely on the moment of decisive human choice against an overwhelming environmental backdrop."
+  }
+}

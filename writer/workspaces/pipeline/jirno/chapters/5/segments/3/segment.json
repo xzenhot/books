@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অধিকারবোধের সূক্ষ্ম রূপ",
+  "segment_summary": "এই 'উদ্ধার' করার বাসনা দ্রুতই এক সূক্ষ্ম অধিকারবোধে পরিণত হয়, যেখানে সে নিজেকে এই ইতিহাসের একমাত্র রক্ষক মনে করে।",
+  "name": "5.3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing his desire not as preservation, but as an attempt to rewrite the narrative history sanctioned by modern academia.",
+    "story_option": "Setting: Near the edge of the Satual village field where ancient boundaries used to be marked by standing stones; Desire: To forcefully re-establish a conceptual boundary around the ruins using modern surveying tools; Obstacle: The elders simply walk through his survey lines without acknowledging them; Turn: He drops his tape measure, admitting its irrelevance.",
+    "subject_rotation": "Shifting the locus of desire: Is he trying to save the *place*, or is he desperately trying to validate a lost piece of his own lineage/culture through this artifact?",
+    "sensory_detail": "Sound: A high-pitched, almost subsonic whine emanating from stressed joints in heavily weighted wooden door frames.",
+    "research_question": "What specific indigenous knowledge systems might categorize or describe the aesthetic value of a structure reaching its inevitable point of collapse?",
+    "structural_variant": "A fragmented, associative poem where each segment mimics the cyclical patterns found in erosion.",
+    "variety_note": "This chapter moves from initial observation to intellectual struggle; where previous chapters established context and observed quiet resistance, this segment focuses intensely on the internal machinery of the traveler's overwhelming ego and its inevitable self-contradiction."
+  }
+}

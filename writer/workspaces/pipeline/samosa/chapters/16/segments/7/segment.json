@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "জিভের দার্শনিকতা",
+  "segment_summary": "জিভ এখানে কেবল একটি ইন্দ্রিয় নয়, বরং অতীত এবং বর্তমানের মধ্যে সংযোগ স্থাপনকারী একটি দার্শনিক মাধ্যম হিসেবে কাজ করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final taste not as a flavor profile, but as an acoustic memory—the imagined 'crunch' of perfect frying echoing in a silent room.",
+    "story_option": "Setting: A cold, minimalist modern kitchen counter in a foreign city; Desire: To trace the shape of a preserved memory onto the smooth surface with one fingertip; Obstacle: The physical inability to feel warmth from the object itself.",
+    "subject_rotation": "Treating 'Taste' not as sensory input but as a form of inherited language—the tongue recalling dialects no longer spoken.",
+    "sensory_detail": "Sight: The way muted city smog distorts the sharp gold of remembered saffron.",
+    "research_question": "How can I imbue the abstract concept of 'sweet melancholy' into concrete tactile imagery without becoming overly sentimental?",
+    "structural_variant": "A dialogue between the physical reality of the foreign food and the phantom memory of the home flavor.",
+    "variety_note": "This chapter moves away from describing the *process* (cooking, traveling) to analyzing the *aftermath*—the metaphysical residue left on the palate and soul."
+  }
+}

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 7,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ব্যক্তিগত যন্ত্রণার ভার",
+  "segment_summary": "বেহুলার ব্যক্তিগত শোক এবং পারিবারিক অবিশ্বাস তাকে এক গভীর বিচ্ছিন্নতার দিকে ঠেলে দেয়, যেখানে তার অস্তিত্বের প্রতিটি মুহূর্ত এক নীরব সংগ্রাম হয়ে ওঠে।",
+  "name": "1",
+  "word_target": 187,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem addressed not to the absence of Likhindar, but to the silence of an unseeing collective—the silent observer who refuses recognition.",
+    "story_option": "Setting: Within the echoing stone corridors of her dwelling; Desire: To carve her name into the unchanging mortar wall as an indelible testament to existence (turning obstacle); Obstacle: The cold indifference of the architecture mirroring societal apathy.",
+    "subject_rotation": "Treating 'Victimhood' not as a passive state, but as an active, deeply philosophical position that grants unique insight into human resilience.",
+    "sensory_detail": "The brittle sound of a dried leaf crumbling underfoot in the courtyard, contrasting with the weighty silence.",
+    "research_question": "What specific traditional markers or rituals related to widowhood in this cultural context are being implicitly challenged by Behula's existence?",
+    "structural_variant": "A sustained monologue that only speaks about textures and weights, refusing direct emotional exposition.",
+    "variety_note": "While neighbours might focus on external social pressure, this chapter delves deeper into the internal mechanics of resistance—how memory and personal ritual become acts of metaphysical survival against systemic erosion."
+  }
 }

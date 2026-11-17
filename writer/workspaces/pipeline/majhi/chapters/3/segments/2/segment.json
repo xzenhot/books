@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "ঐতিহ্যের অনুরণন",
+  "segment_summary": "গানটি কেবল একটি সুর নয়, বরং এটি প্রজন্মের পর প্রজন্ম ধরে বয়ে চলা বাংলার সম্মিলিত ইতিহাসকে প্রতিধ্বনিত করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the Bhatiyali not as spontaneous expression but as a codified ritual performed only when certain natural conditions (humidity, specific river depth) are met.",
+    "story_option": "A solitary figure watches from a distance; this person is not wealthy nor destitute but represents intellectual detachment, only recognizing the pattern of sorrow in the song.",
+    "subject_rotation": "Diverting attention to the materials of song itself—the specific calloused grip on the oar translating kinetic energy into vocal resonance.",
+    "sensory_detail": "The tactile sensation of salt spray (even faint industrial runoff) interacting with the rough, porous texture of his shirt as he strains to project the notes.",
+    "research_question": "How does the traditional structure of Bhatiyali music accommodate moments of high lamentation versus quiet, sustained reflection?",
+    "structural_variant": "Interweaving short poetic bursts of narration from the perspective of the river itself—a vast consciousness perceiving the temporary sounds.",
+    "variety_note": "Unlike the stark economic confrontations in previous chapters, this chapter immerses entirely in sonic territory; the focus shifts from external pressure to internal resonance through music."
+  }
+}

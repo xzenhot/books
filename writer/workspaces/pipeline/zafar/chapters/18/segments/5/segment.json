@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মিক সার্বভৌমত্বের পুনঃপ্রতিষ্ঠা",
+  "segment_summary": "পরাজিত সম্রাট তাঁর তখল্লুস 'জাফর' (বিজয়ী) ব্যবহার করে প্রমাণ করেন যে, আত্মিক বিজয় শারীরিক পতনকে অতিক্রম করে সাহিত্যিক অমরত্ব লাভ করতে পারে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "স্বর-অবস্থান পরিবর্তন: 'আমি' (সম্রাট) থেকে সরে এসে এমন একজন বর্ণনাকারীর দৃষ্টিকোণ নেওয়া যিনি নিছক এক সাক্ষী—একজন ঘুমন্ত প্রহরী যা সম্রাটের শেষ কম্পনকে গাইতে পারে না, কেবল শুনতে পায়।",
+    "story_option": "Setting: একটি কাল্পনিক 'স্মৃতি-কক্ষ' যা ডেভিসের রিপোর্টে উল্লেখ নেই; Desire: সম্রাটের তখল্লুস যেন সেখানে ধূলিকণার মধ্যেও স্বর্ণাক্ষরে জ্বলতে থাকে; Obstacle: নথিপত্রের শুকনো পাতার ভঙ্গুরতা সেই আলো নিভে যাওয়ার ইঙ্গিত দেয়।",
+    "subject_rotation": "Treating the biographical detail (like the lack of grave soil) as an active, antagonistic character in the poem rather than just a descriptive fact.",
+    "sensory_detail": "শব্দগত অনুরণন: গভীরতম রাতের নিস্তব্ধতার মধ্যে থেকেও যেন পুরাতন কালি শুকানোর মৃদু, তীক্ষ্ণ ঘ্রাণ অনুভূত হওয়া।",
+    "research_question": "কোন নির্দিষ্ট পারিভাষিক শব্দ (যেমন 'Zamindari' বা ভূমি সংক্রান্ত পুরনো পদ) মুছে ফেলার প্রক্রিয়ায় সাংস্কৃতিক আভিজাত্যের কোন স্তরটি বিলীন হয়েছিল?",
+    "structural_variant": "The chapter could transition entirely from heavily rhymed Ghazal forms into stark, unmetered free verse to mirror the shift from structured empire to chaotic exile.",
+    "variety_note": "Unlike previous chapters focused on defining moments (revolt/execution), this chapter must exist in the aftermath—a realm purely defined by semantic survival and philosophical echo, maintaining a low, watchful register."
+  }
+}

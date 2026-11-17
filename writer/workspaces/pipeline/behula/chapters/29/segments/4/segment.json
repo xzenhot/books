@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 29,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় অধ্যায়",
+  "segment_summary": "তার জীবনকাহিনী কেবল ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় অধ্যায় রচনা করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the 'pigment' of her resilience—how the physical markers of suffering (scars, weariness) become the most luminous features upon reunion.",
+    "story_option": "Setting: A threshold marked by ancient river clay (symbolizing primal foundation); Desire: For their shared presence to momentarily dissolve the harsh societal definitions placed upon her; Obstacle: The ghosts of past judgments clinging to the air.",
+    "subject_rotation": "Examining the 'thingness' of her endurance: what is survival when devoid of conventional reward?",
+    "sensory_detail": "The fine grit of river dust settling on skin, carrying the weight of journeys taken across barren ground (touch/sight).",
+    "research_question": "How can I differentiate between pure catharsis and existential fatigue in poetic rendering?",
+    "structural_variant": "Alternating stanzas of hyper-specific physical description with abstract philosophical pronouncements on 'Being'.",
+    "variety_note": "This chapter moves past the immediate action of reunion (seen in earlier segments) into a deep meditation on what that reunion structurally and philosophically means for existence, embracing an unsettling ambiguity rather than pure triumph."
+  }
+}

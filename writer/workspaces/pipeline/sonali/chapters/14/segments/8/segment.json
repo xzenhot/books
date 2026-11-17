@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অনন্তের প্রতিধ্বনি",
+  "segment_summary": "চূড়ান্তভাবে, সোনালী কোনো উত্তর খুঁজে না পেলেও, তার অস্তিত্ব সেই অনন্ত জিজ্ঞাসার প্রতিধ্বনি হয়ে ওঠে, যা পাঠককে ভাবায়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the struggle not as an internal choice, but as a confrontation with external elements (e.g., wind vs. anchor).",
+    "story_option": "Setting: Beside an old river sluice gate that slowly opens and closes; Desire: To synchronize her internal rhythm with the slow, unstoppable mechanical process of release.",
+    "subject_rotation": "Revisiting the concept of 'Sonal Rang'—is it the clinging to the color, or is relinquishing it the only way for the true color to appear?",
+    "sensory_detail": "The abrasive texture of rough-spun jute against her bare wrist during moments of desperate restraint.",
+    "research_question": "How can 'mid-level age' be conveyed through physical exhaustion related to emotional exertion rather than chronological markers?",
+    "structural_variant": "Emphasize rhythmic breakdown: using very long, sweeping lines for the pull of the flow (Item 2/5), contrasted sharply with tightly constrained, almost claustrophobic couplets during the act of holding on (Item 1/3).",
+    "variety_note": "This chapter moves beyond simple internal reflection by providing concrete anchors—the physical feeling of resistance versus surrender—which differentiates its tone from neighboring chapters dealing solely with abstract thematic discovery."
+  }
+}

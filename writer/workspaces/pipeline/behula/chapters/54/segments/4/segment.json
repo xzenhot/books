@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 54,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় অধ্যায়",
+  "segment_summary": "তার জীবনকাহিনী ইতিহাসের পাতায় কেবল একটি গল্প হিসেবে নয়, বরং এক চিরন্তন অনুপ্রেরণা হিসেবে নথিভুক্ত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the returned figure (স্বামী) as a reflection of her own endurance, rather than solely as a rescue agent.",
+    "story_option": "Setting: The quiet periphery just outside the threshold; Desire: To simply share one unarticulated glance across the space they occupied during separation; Obstacle: The invisible weight of all endured societal scrutiny.",
+    "subject_rotation": "Shifting focus from 'Victory' (achievement) to 'Integration' (the difficult, slow process of merging two profoundly altered selves).",
+    "sensory_detail": "The metallic taste of long-held anxiety that only dissolves momentarily with the presence of his familiar scent.",
+    "research_question": "How can the diction convey profound spiritual exhaustion without resorting to conventional religious terminology?",
+    "structural_variant": "Using an inverted syllabic rhythm at the beginning of Segments 1 and 2 to mirror psychological disorientation before settling into measured, declarative lines.",
+    "variety_note": "This chapter shifts focus from the immediate trauma and struggle (previous segments) to the *aftermath*—the nuanced, complex emotional reality of sustained existence following an epic spiritual war, while challenging whether this victory is truly absolute or merely conditional."
+  }
+}

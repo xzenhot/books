@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার ভার",
+  "segment_summary": "The tired traveler on the platform is revisited, carrying not just luggage, but the accumulated weight of unfulfilled destinations.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focus entirely on the linguistic residue: how common words used in local markets (like 'ticket' or 'price') distort their pure meaning when imbued with existential weight.",
+    "story_option": "setting: A doorway near a temple entrance, desire: To capture the precise chemical state of the spilled vermilion dust underfoot., obstacle: The random movement of feet that disturb the sacred line., turn: The focus shifts from tradition to the trace mineral composition revealed by the disturbance.",
+    "subject_rotation": "Treating the small objects as geological strata: each object represents a different sedimentary layer of history compressing under present weight.",
+    "sensory_detail": "The dry, slightly metallic scent of pulverized spices clinging to the folds of a cloth (Odor/Taste).",
+    "research_question": "How does Gibran's philosophy suggest that an unvoiced desire possesses physical weight or density?",
+    "structural_variant": "Implement a strict A-B-A’ structure where segment 1 sets up an image, segments 2-7 build layers of related but distinct images, and segment 8 resolves by mirroring and inverting the initial setup's sensory quality.",
+    "variety_note": "This chapter deliberately moves away from introducing new objects and focuses instead on how previously established objects begin to interact philosophically with each other—the convergence of moisture, ritual marking, transit weariness, and commerce into one grand question."
+  }
+}

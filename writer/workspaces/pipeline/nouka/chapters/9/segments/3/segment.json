@@ -4,19 +4,19 @@
   "chapter_index": 9,
   "segment_index": 3,
   "total_segments": 8,
-  "segment_title": "উপভাষার সূক্ষ্মতা",
-  "segment_summary": "হারিয়ে যায় সেই নির্দিষ্ট উপভাষা, সেই ইশারা, সেই ভাটিয়ালি সুরের সূক্ষ্ম ভিন্নতা যা প্রতিটি নদী-পাড়ার নিজস্ব; কবিতা ভাষার ক্ষতিকে দেখে।",
-  "name": "3",
-  "word_target": 500,
+  "segment_title": "আত্মপরিচয়ের প্রশ্ন",
+  "segment_summary": "এই সিদ্ধান্তটি কেবল অর্থনৈতিক নয়, এটি তার সত্তার গভীরে প্রোথিত সাংস্কৃতিক পরিচয়ের প্রশ্ন উত্থাপন করে।",
+  "name": "9.3",
+  "word_target": 60,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "The internal conflict presented as a failed cartographic attempt—Gopal trying to draw the old contours with water markings, only for them to be washed away before permanence.",
-    "story_option": "Setting: Docked temporarily at a remote ghat where only old timers gather; Desire: A brief, desperate sharing of local dialect/names among the aging few before they are dispersed by modern life; Obstacle: Younger boatmen treat these places with utilitarian indifference.",
-    "subject_rotation": "Examining 'memory density': measuring not area (square kilometers) but accumulated cultural weight tied to specific points on the river.",
-    "sensory_detail": "The slick, unnatural smoothness of polished stone used for modern pier abutments contrasted against the porous grain of weathered wooden pilings.",
-    "research_question": "What specific Bengali colloquialisms describe subtle variations in water current or bank erosion that an engineer would dismiss as 'normal fluctuation'?",
-    "structural_variant": "A fragmented structure where each segment begins with a different geographical term (e.g., 'চর', 'বাঁক', 'ঘাট') before moving into the philosophical digression.",
-    "variety_note": "This chapter contrasts sharply with the 'Diesel Sound' (Ch. 7) by focusing inward on memory and language rather than outward on noise pollution; it explores cultural entropy through geography instead of sonic invasion."
+    "angle": "নদী নিজেই একটি বিচারক হিসাবে কাজ করবে, যেখানে জলের পরিবর্তন শুধু প্রবাহগত না হয়ে গোপালের নৈতিক অবস্থানকেও চ্যালেঞ্জ জানাবে।",
+    "story_option": "সেটিং: নদীতে ভেসে আসা এক টুকরো উন্নত মানের ধাতব স্ক্র্যাপ (চট্টার্জীর কাজের চিহ্ন); আকাঙ্ক্ষা: গোপাল সেই ধাতুর সূক্ষ্মতা অনুভব করার চেষ্টা করেন, যেন তা আধুনিকতার সৌন্দর্য বুঝতে পারেন; বাধা: তার হাতের চামড়ার কঠোরতা তাকে প্রত্যাখ্যান করে।",
+    "subject_rotation": "ঐতিহ্যের ভারকে বিচ্ছিন্নভাবে নয়, বরং নৌকার প্রতিটি তক্তা এবং পাটাতনের ছিদ্রের মধ্য দিয়ে প্রবাহিত হওয়া প্রজন্মের বহুবিধ মানবিক চুক্তি হিসেবে দেখানো।",
+    "sensory_detail": "দূর থেকে ভেসে আসা ইঞ্জিনের শব্দ যা কেবল কান নয়, বরং নৌকার কাঠামোর গভীরে কম্পন সৃষ্টি করে অনুভূত হয় (শ্রবণ)।",
+    "research_question": "ভাটিয়ালি গানে ব্যবহৃত কোন নির্দিষ্ট শব্দগত বৈশিষ্ট্য আধুনিক শিল্প পরিভাষায় প্রতিস্থাপিত হওয়ার সর্বোচ্চ ঝুঁকিতে রয়েছে এবং সেই শব্দের ধ্বনিগত মান কী?",
+    "structural_variant": "এক-তৃতীয়াংশ অংশ শুধুমাত্র ইঞ্জিনের শব্দ এবং ধাতব চিত্রের উপর কেন্দ্রীভূত করা, যেখানে মানবিক উপস্থিতি অনুপস্থিত থাকবে; বাকি দুই-তৃতীয়াংশে গোপালের অভ্যন্তরীণ monologue আসবে।",
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী শান্ত চিত্রকল্প থেকে সরে এসে তীব্র অভ্যন্তরীণ দ্বন্দ্বে প্রবেশ করে। এটি কেবল বাইরের সংঘাত নয়, বরং কাঠামোগতভাবে দুটি বিপরীত প্রবাহের মধ্যে গোপালের মনোজগৎকে আটকে রাখার চেষ্টা।"
   }
 }

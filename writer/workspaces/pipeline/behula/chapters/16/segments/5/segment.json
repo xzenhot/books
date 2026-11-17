@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "The Lamp's Legacy",
+  "segment_summary": "The 'lamp of faith' is re-examined, not as a static beacon, but as a dynamic force that continues to illuminate the path for future generations facing similar trials.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on texture over event: Rendering the reunion not through sight or sound, but through the specific tactile memory of worn material (e.g., rough hemp against skin).",
+    "story_option": "The reunion taking place in an environment utterly devoid of color (monochromatic landscape), making the light of their connection intensely stark and artificial-feeling.",
+    "subject_rotation": "Viewing the societal questions as a geological feature: The pressure of norms having caused deep, irreparable fissures in the community structure.",
+    "sensory_detail": "The specific weight and density of silence immediately after intense emotional outpouring.",
+    "research_question": "What archaic Bengali vocabulary exists for a 'final, perfectly exhausted equilibrium' that transcends mere peaceful resolution?",
+    "structural_variant": "Employing an increasing syncopation in rhythm throughout Segment 2, mirroring the internal fraying before settling into a perfectly monotonic beat for Segment 8.",
+    "variety_note": "This chapter departs from simple celebration by forcing the resolution to be interrogated; unlike previous chapters which built towards fortitude, here we dissect its aftermath."
+  }
+}

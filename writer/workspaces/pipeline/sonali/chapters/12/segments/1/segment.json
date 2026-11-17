@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 12,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "কামনার স্বর্ণালী আভা",
+  "segment_summary": "তীব্র আকাঙ্ক্ষা যখন পরম শান্তির স্পর্শ পায়, তখন সেই মিশ্রণ এক নতুন, উজ্জ্বল রঙ ধারণ করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the 'wall' (the unanswering subject) through a specific physical manifestation of her hand, asking it questions about resonance.",
+    "story_option": "A scene where she attempts to physically capture the 'Sonal-Rong' on a fragment of pale, cool marble, failing as it dissolves into shadow upon contact.",
+    "subject_rotation": "Treating 'সোনালী রঙ' as an atmospheric phenomenon observed at dawn, rather than an internal state—how light interacts with dust particles stirred by her presence.",
+    "sensory_detail": "The texture of fine, aged silk pressing against skin during a moment of golden stillness (Tactile).",
+    "research_question": "How does Bengali poetic diction specifically differentiate between a golden hue derived from earthly metal versus divine luminescence?",
+    "structural_variant": "A highly fragmented structure where each segment is a series of sharp, disjunct images separated by stark white space, emphasizing instability.",
+    "variety_note": "This chapter moves beyond simple conflict by forcing an integration. It differs from its neighbors by depicting synthesis—the temporary successful blending of opposing forces rather than just their tension."
+  }
 }

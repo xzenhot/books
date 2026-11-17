@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা বনাম প্রাপ্তি",
+  "segment_summary": "এই কাব্যিক যাত্রাটি একটি স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক—সেই নিখুঁত সিঙ্গাড়াটির জন্য অপেক্ষা, যা কেবল স্মৃতিতে বিদ্যমান।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'taste' not as a chemical state but as a specific form of exhausted dialect that cannot be spoken in the new land.",
+    "story_option": "Setting: Holding a single, empty wrapper remnant under weak light; Desire: To treat this fragile husk as an archaic map charting impossible flavor coordinates; Obstacle: Its complete lack of discernible texture that connects to memory.",
+    "subject_rotation": "Focusing on how the act of *waiting* for the perfect taste becomes a more defined state than the consumption itself.",
+    "sensory_detail": "Taste: A phantom sensation—the memory of salt crystallizing on a tongue that currently tastes only dust.",
+    "research_question": "What specific image from the declared world best encapsulates existential tension remaining after sensory satiation?",
+    "structural_variant": "Alternating between very dense, highly Sanskritized couplets (describing the lost flavor) and extremely colloquial, monosyllabic lines (describing the immediate physical aftermath).",
+    "variety_note": "This chapter deliberately eschews overt description of setting or action, focusing intensely on the internal residue—the aftermath of consumption and its philosophical implications."
+  }
+}

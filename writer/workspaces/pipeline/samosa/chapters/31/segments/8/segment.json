@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 31,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "মধুর বিষাদ",
+  "segment_summary": "এই কাব্যিক সমাপ্তিটি পাঠককে এক ধরনের মধুর বিষাদ উপহার দেয়, যেখানে উত্তরটি কেবল প্রশ্ন হিসেবেই টিকে থাকে।",
+  "name": "8",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on an auditory obsession—a specific high-pitched *shhh* sound made by cooling oil residue being wiped away, contrasting it with internal silence.",
+    "story_option": "setting: Inside a small apartment kitchen, very early morning, near a cold *tawa*., desire: To recreate the exact texture by repeatedly pressing flour into dough with impossible precision., obstacle: The fingers tremble from exhaustion or cultural displacement, failing to replicate the effortless craft.",
+    "subject_rotation": "Shifting focus entirely from the *taste* of the filling to the textural contrast between the outer casing and the inner contents.",
+    "sensory_detail": "Sound: A sudden, brief hiss escaping from a sealed packet before it is opened (a pressurized ghost).",
+    "research_question": "How can the cadence of a late-night watchman's monologue (low, repetitive) be maintained while sustaining high poetic diction?",
+    "structural_variant": "Using highly charged parallelism: Statement A followed immediately by the negated version of Statement B (e.g., 'It was gold; it felt like dust').",
+    "variety_note": "This chapter shifts focus inward from the external signs of cultural shift (like nomenclature or location) into the purely internal landscape of digestion and memory decay, using sonic fixation as its primary mechanism."
+  }
+}

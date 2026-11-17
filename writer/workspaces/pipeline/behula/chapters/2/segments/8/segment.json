@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অস্বীকৃতির মুখোমুখি",
+  "segment_summary": "এই অধ্যায়টি শেষ হয় সেই মৌলিক প্রশ্নটি নিয়ে—যখন বাইরের জগৎ তোমাকে প্রত্যাখ্যান করে, তখন তোমার ভেতরের আলো কীভাবে জ্বলতে থাকে?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating Behula's silence not as resignation, but as a curated response—a strategic withholding of vulnerability against slander.",
+    "story_option": "An imagined moment of private monologue where she mentally debates whether to voice defiance or accept the scorn for the sake of inner peace (a battle between spirit and survival).",
+    "subject_rotation": "Examining 'otherness' not as being divorced from society, but as inhabiting a category the established order refuses to define properly.",
+    "sensory_detail": "The faint scent of stale gossip mingling with street dust during hushed community assemblies.",
+    "research_question": "What specific, culturally resonant Bengali terms exist for socially imposed stigma that fit the elevated diction?",
+    "structural_variant": "An interweaving of very short, sharp vignettes (representing individual slights) against one longer philosophical reflection.",
+    "variety_note": "Unlike the first chapter which dealt with sharp shock, this piece must dwell in a sustained state of abrasive tension—the slow weariness of being continuously judged rather than abruptly struck."
+  }
+}

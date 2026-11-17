@@ -4,19 +4,19 @@
   "chapter_index": 1,
   "segment_index": 4,
   "total_segments": 8,
-  "segment_title": "ভোরের কুয়াশা",
-  "segment_summary": "গোপাল প্রতিদিন ভোরের কুয়াশায় নৌকা ঠেলে নামে, ওঠে সেই জলে যা তার পরিবারকে খাইয়েছে, বাঁচিয়েছে আর কখনো কেড়েও নিয়েছে।",
+  "segment_title": "উদারতার অলিখিত চুক্তি",
+  "segment_summary": "The chapter explores the sacred, unspoken social contract where Gopal's boat offers passage to the poorest laborer, transcending mere economic transaction.",
   "name": "4",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Focusing on the silence between generations: Gopal’s unspoken instructional moments mirrored in an absent elder's counsel.",
-    "story_option": "A hypothetical memory where Gopal tries to teach his father a specific, lost rowing pattern (the *chhanda*), but only manages abstract gestures.",
-    "subject_rotation": "Emphasizing the boat’s inanimate wisdom: The object itself possessing an enduring memory that outlasts human recollection.",
-    "sensory_detail": "The abrasive grain of silt embedded deep within the newly planed wood.",
-    "research_question": "What is the precise acoustic difference between a manually propelled wooden hull and a diesel-powered vessel in water?",
-    "structural_variant": "Structuring segments as parallel reflections: 'Then' (past craft) vs. 'Now' (threat of machine).",
-    "variety_note": "This chapter roots the book firmly in tactile memory and material heritage, setting a deep contrast against the later chapters that will engage with noise, concrete, and erasure. It leans into intimate domesticity of the craft."
+    "angle": "The river speaking back, not with anger (as in later poems), but through a perfect, resonant silence against the wood of the boat.",
+    "story_option": "A specific, small passenger (a young fisherman returning from the nets) who refuses to speak, yet remains anchored in silent trust within the *nouka*.",
+    "subject_rotation": "Treating the *nouka* less as storage for songs, but as a living filter through which the river's sound is constantly processed.",
+    "sensory_detail": "The specific smell of wet jute mixed with ancient river mud clinging to Gopal's shawl.",
+    "research_question": "Are there recurring local metaphors in Bhatiyali tradition that describe the bond between human labor and the flow of the river?",
+    "structural_variant": "Interspersing direct sensory observations (a single plank, one drop) with extended metaphorical musings on 'unpaid debt'.",
+    "variety_note": "This opening sequence must prioritize establishing deep, tactile immersion into Gopal's world using sensory detail and silent tension, unlike the adjacent chapters which immediately deal with auditory clashes or economic intrusions."
   }
 }

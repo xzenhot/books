@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "শব্দই শেষ সাম্রাজ্য",
+  "segment_summary": "চূড়ান্তভাবে, এই অধ্যায়টি প্রতিষ্ঠা করে যে, জাফরের শেষ সাম্রাজ্য তার গজল ও শেরের মধ্যে বিরাজমান।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on how the Persianate vocabulary ('takhallus', 'ghazal') acts as a microscopic shield against the macroscopic threat of colonial bureaucracy.",
+    "story_option": "Setting: Beneath the thin sliver of light entering the hut; Desire: To sketch out the architecture of his vanished court using only charcoal markings on floorboards; Obstacle: The low lamp oil burns unevenly, casting violent flickers over the makeshift script.",
+    "subject_rotation": "Focusing entirely on the *sound* quality of the words being formed in Urdu/Persianate vocabulary, contrasting it with the silence of the barracks.",
+    "sensory_detail": "Sound: The rhythmic, dry *scratch* as bone-dry pigment meets porous wood fiber (distinct from any previous writing sound).",
+    "research_question": "How did internal court poets cope psychologically with extreme material deprivation while maintaining high literary diction?",
+    "structural_variant": "Employing tercets (three-line stanzas) only for moments of acute internal crisis, reverting to longer, meditative lines otherwise.",
+    "variety_note": "Unlike earlier chapters focused on external struggle or past glory, this section is entirely inward-facing, concentrating solely on the *process* of creation as an existential act waged against total erasure; it avoids mentioning specific historical events in favor of abstract technique."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা ও প্রতীক্ষা",
+  "segment_summary": "নদীর তীরে দাঁড়িয়ে থাকা যাত্রীদের প্রতীক্ষা, যেখানে প্রতিটি মুহূর্ত একটি সিদ্ধান্তের ভার বহন করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "অর্থের অভাবকে নদীর খরস্রোতের একটি অস্থায়ী ঢেউ হিসেবে দেখানো—যা তীব্র কিন্তু ক্ষণস্থায়ী; স্থিতাবস্থা হলো গভীর স্রোত।",
+    "story_option": "একজন অত্যন্ত অভিজাত যাত্রী একটি সামান্য জিনিস (যেমন - একটি পুরনো বাঁশের কলম) দিয়ে সেবা গ্রহণ করতে চায়, যা অর্থের চেয়ে বেশি মূল্যবান ছিল; এটি কিভাবে মূল্য নির্ধারিত হবে?",
+    "subject_rotation": "কাঠের নৌকায় সৃষ্ট নির্দিষ্ট শব্দ (যেমন - ধুলো সরে যাওয়ার আওয়াজ বা জলের বুদবুদের ভাঙা শব্দ) কে আবেগের প্রতিরূপ হিসেবে ব্যবহার করা।",
+    "sensory_detail": "গোধূলির লালচে-কালো আভা যখন বৈঠা এবং জলের সংযোগস্থলে মিশে যায়; সেই রঙের তীব্রতা।",
+    "research_question": "বাংলার গ্রামীণ নৌ-পরিবহনে 'অদেখা' বা অনানুষ্ঠানিক আদান-প্রদানের সামাজিক সংজ্ঞা কী?",
+    "structural_variant": "এই অধ্যায়টিকে একটি ফোকাসড ইমোশনাল লুপ হিসেবে গঠন করা, যেখানে প্রতিটি অংশের শেষ বাক্য পূর্ববর্তী অংশের মূল দ্বন্দ্বকে সামান্য ঘুরিয়ে ফিরিয়ে নিয়ে আসে।",
+    "variety_note": "Neighbours' chapters dealt with grander external forces (nature/merchants); this chapter drills down into the intimate collision between Raghunath’s personal integrity and small acts of financial inadequacy."
+  }
+}

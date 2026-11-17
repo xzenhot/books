@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 40,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নামের বিচ্ছিন্নতা",
+  "segment_summary": "নামের পরিবর্তন ('সিঙ্গাড়া' থেকে 'সামোসা') এই বাজারের ভিড়ে আরও বেশি করে সাংস্কৃতিক দূরত্বকে প্রকট করে তোলে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker adopting a dual voice: one describing the visual cacophony ('market') and the other using hyper-detailed diction to describe the internal 'kitchen' taste.",
+    "story_option": "Setting: A small, quiet alcove near spice sellers, Desire: To observe how spices are sold here—measured in bulk/weight—contrasted with 'mother's measurement', Obstacle: The relentless need to perform a transaction.",
+    "subject_rotation": "Exploring how the market dictates consumption patterns (fast grabbing) which fundamentally undermines the experience of deep tasting.",
+    "sensory_detail": "The auditory signature of countless rapid footsteps echoing off poorly maintained concrete slabs.",
+    "research_question": "Can I use specific low-register Hindi/Urdu marketplace slang alongside high diction to capture this jarring tonal shift?",
+    "structural_variant": "Using the 'litany' variation: Repeating a key phrase like 'আমি খুঁজি সেই পুরের ভাঁজ' but changing one object element in each iteration.",
+    "variety_note": "Unlike previous chapters which focused on the *interior* state or ingredients, this chapter is deliberately externalized to the marketplace itself, using the physical noise and chaos as an active antagonist against memory."
+  }
+}

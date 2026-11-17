@@ -1,53 +1,120 @@
 {
   "chapter_index": 9,
   "name": "9",
-  "word_target": 250,
-  "chapter_title": "ময়দার প্রথম স্পর্শ",
-  "chapter_summary": "ময়দা জলে মিশে নরম হয়, কিন্তু অতিরিক্ত জল সব নষ্ট করে দেয়। ধৈর্যের সঙ্গে জলের মাপে যে নিয়ম, তা কোনো বইয়ে লেখা নেই।",
-  "further_references": [],
+  "word_target": 1500,
+  "segment_count": 8,
+  "chapter_title": "মশলার বিন্যাস",
+  "chapter_summary": "এই অধ্যায়টি কেবল খাদ্যের উপাদানগত পরিবর্তন নয়, বরং কারিগরি দক্ষতার ক্ষয়কে কেন্দ্র করে আবর্তিত। এটি সেই সূক্ষ্ম প্রক্রিয়া নিয়ে অনুসন্ধান করে যেখানে গোটা গরম মশলার ভাজার ক্রম এবং নির্দিষ্ট 'আঁচ' (তাপমাত্রা) প্রবাসে নিখুঁতভাবে প্রতিলিপি করা অসম্ভব হয়ে ওঠে। চিত্রকল্পে ফুটে ওঠে সেই নিখুঁত ভাজার মুহূর্তের আকাঙ্ক্ষা, যেখানে প্রতিটি মশলার নিজস্ব গন্ধের স্তর তৈরি হয়। এই অধ্যায়টি প্রশ্ন তোলে: যখন হাতের স্পর্শ ও পরিবেশের সূক্ষ্মতা হারিয়ে যায়, তখন কি কোনো স্বাদ তার আদি সত্তা ধরে রাখতে পারে?",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "9.1",
+      "word_target": 180,
+      "segment_title": "আঁচের ভূগোল",
+      "segment_summary": "প্রবাসের গ্যাসের শিখা এবং বাংলার মাটির চুলার তাপের মধ্যেকার মৌলিক পার্থক্য কীভাবে মশলার ভাজার প্রাথমিক ধাপকে বদলে দেয়, তা এখানে চিত্রিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "9.2",
+      "word_target": 180,
+      "segment_title": "গোটা মশলার ক্রম",
+      "segment_summary": "আদা, এলাচ, দারচিনি—এই মশলাগুলির নির্দিষ্ট ক্রম এবং তাদের একে অপরের সঙ্গে মিশে যাওয়ার প্রক্রিয়াটি কীভাবে একটি শিল্পসম্মত বিন্যাস দাবি করে, তা তুলে ধরা হয়েছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "9.3",
+      "word_target": 180,
+      "segment_title": "গন্ধের স্তরবিন্যাস",
+      "segment_summary": "প্রতিটি মশলা যখন তার নিজস্ব গন্ধের স্তর তৈরি করে, তখন সেই জটিলতা কীভাবে প্রবাসের সরলীকৃত ভাজার প্রক্রিয়ায় বিলীন হয়ে যায়, তা কাব্যিকভাবে বর্ণিত।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "9.4",
+      "word_target": 180,
+      "segment_title": "হাত ও যন্ত্রের দ্বন্দ্ব",
+      "segment_summary": "অভিভাবকের অভিজ্ঞ হাতের স্পর্শ বনাম আধুনিক রান্নার যন্ত্রের যান্ত্রিকতা—এই দ্বন্দ্বে স্বাদ কীভাবে পরাজিত হয়, তার একটি গভীর পর্যবেক্ষণ এখানে উপস্থিত।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "9.5",
+      "word_target": 180,
+      "segment_title": "প্রতিলিপির ব্যর্থতা",
+      "segment_summary": "একটি নিখুঁত স্বাদকে প্রতিলিপি করার প্রচেষ্টা আসলে একটি সাংস্কৃতিক ব্যর্থতার প্রতীক, যেখানে কেবল আকারটি টিকে থাকে, আত্মাটি নয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "9.6",
+      "word_target": 180,
+      "segment_title": "স্মৃতির কারিগর",
+      "segment_summary": "সেই কারিগর বা পিতামাতার স্মৃতি, যারা এই মশলার বিন্যাসকে হৃদয়ের মাধ্যমে সঞ্চারিত করেছিলেন, তাদের অনুপস্থিতি এখানে অনুভব করা যায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "9.7",
+      "word_target": 180,
+      "segment_title": "অসমাপ্ত ভাজা",
+      "segment_summary": "মশলা ভাজার সেই মুহূর্তটি যখন তা পুরোপুরি 'সেট' হয় না, বরং একটি অনিশ্চিত, অসম্পূর্ণ অবস্থায় থেমে যায়—সেই স্থবিরতা এখানে মুখ্য।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "9.8",
+      "word_target": 180,
+      "segment_title": "স্বাদের ক্ষয়িষ্ণুতা",
+      "segment_summary": "এই অধ্যায়টি শেষ হয় একটি নীরব স্বীকারোক্তি দিয়ে যে, কিছু গভীর স্বাদ কেবল নির্দিষ্ট ভূগোল ও পরিবেশের সঙ্গে আবদ্ধ, যা স্থানান্তরিত করা যায় না।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "ময়দা ও জলের মিশ্রণকে ভাষাগত সংমিশ্রণের রূপক হিসেবে ব্যবহার করা: কীভাবে পরিচিত শব্দ (ময়দা) অচেনা তরল (জল/প্রবাসের উপাদান) দ্বারা পরিবর্তিত হয়ে নতুন কাঠামোর সৃষ্টি করে।",
-      "হাত এবং ময়দার মিথস্ক্রিয়াকে কেবল শারীরিক প্রক্রিয়া না রেখে, 'স্মৃতি ধরে রাখার' একটি কৌশল হিসাবে দেখানো—যেখানে হাতের ভাঁজে অতীতের অপরিমেয়তা আটকে রাখা হয়।",
-      "অতিরিক্ত জল বা অতিরিক্ত তাপের রূপক ব্যবহার করে সাংস্কৃতিক আত্ম-নিয়ন্ত্রণের ব্যর্থতাকে চিত্রিত করা; যেখানে সামান্য বিচ্যুতি গোটা কাঠামোকে ভেঙে দেয়।"
+      "Focusing intensely on the geometry of heat distribution within a specific type of foreign stove versus the uneven, organic heat transfer in an earthen hearth.",
+      "Treating spices not as flavor agents but as tiny geological fragments—each one embodying a different soil memory from Bengal.",
+      "Interrogating the concept of 'perfect saturation': when is the oil sufficiently permeated by spice aroma to achieve resonance?"
     ],
     "story_options": [
-      "setting: একটি ঠান্ডা, স্যাঁতসেঁতে ঘরের কোণ, desire: একটি নিখুঁত স্থিতিস্থাপক আঠালো রূপ তৈরি করা যা ভাঙবে না।, obstacle: জলের পরিমাণ ভুল হয়ে যাওয়া এবং মিশ্রণের তাজা গন্ধের জায়গায় এক ধরনের স্থবিরতা আসা।, turn: কবি আবিষ্কার করে, এই ভেজানো ময়দার স্পর্শটি যেন হারিয়ে যাওয়া কোনো আঞ্চলিকdialect-এর মতো — সুন্দর কিন্তু বলার ভঙ্গিতে অপরিষ্কার।",
-      "setting: রান্নাঘরের মেঝেতে ছড়িয়ে পড়া শুকনো ময়দা আর জলীয় কণা, desire: পুরনো গন্ধ ও নতুনত্বের মধ্যে ভারসাম্য আনা, যেখানে 'গ্রাম' এবং 'বিদেশ' উভয়ই স্পর্শ পায়।, obstacle: ময়দার খোলস যেন এক ধরনের আত্ম-শোষণকারী সত্তা হয়ে উঠছে, যা তার ভেতরের জলীয় উপাদানকে গ্রাস করছে।, turn: আমি ময়দার স্তূপের উপর দাঁড়িয়ে নিজেকে দেখতে পাই — একদিকে ধুলোময় শুকনো অতীত, অন্যদিকে জলের প্রলয়বিধ্বস্ত বর্তমান।",
-      "setting: একটি পুরোনো ভাঙা মাটির কলসি (যা রান্নার সরঞ্জাম হিসাবে ব্যবহৃত হচ্ছে), desire: ময়দার মিশ্রণের মধ্যে একটি আদিম জীবনীশক্তি ধরে রাখা যা কোনো রাসায়নিক প্রক্রিয়ায় সম্ভব নয়।, obstacle: কালচে হয়ে যাওয়া পাত্রের গন্ধে নতুন ময়দার সতেজতা চাপা পড়া এবং সেই 'ঘ্রাণ' যেন অতীতের এক কঠিন সত্যকে স্মরণ করিয়ে দেয়।, turn: এই মিশ্রণ আমাকে মনে করিয়ে দেয় যে, কিছু স্মৃতি জল বা তেলের মতো মিশে যায় না; তারা স্তর তৈরি করে।"
+      "Setting: A counter top, where only three whole cardamom pods remain. Desire: To find a way to perfectly crush them without losing their internal structure. Obstacle: Only a blunt metal tool remains.",
+      "Setting: Near the gas burner of an unfamiliar kitchen range. Desire: The aroma must somehow generate its own localized pocket of Bengal air despite the sterile surroundings. Obstacle: The ventilation system pulls all scent into the exhaust.",
+      "Setting: A half-opened spice jar, dusted with residual oil residue. Desire: To coax a ghost-smell out of the dried fragments using controlled warmth. Obstacle: Any excess heat triggers only acrid burning."
     ],
     "subject_rotations": [
-      "ময়দার স্থিতিস্থাপকতাকে 'হৃদয়ের সহনশীলতা' হিসেবে দেখা — কতটা চাপ নিতে পারল পুরোনো কাঠামোটি নতুন পরিস্থিতিতেও নিজের আকৃতি ধরে রাখতে।",
-      "জলের মাত্রা নির্ধারণকে ভাষার সাবলীলতার (Fluency) সাথে তুলনা করা; সঠিক অনুপাতে মিশ্রিত না হলে বক্তব্য অর্থহীন হয়ে যায় বা অতিরিক্ত আবেগ দিয়ে শব্দগুলো আচ্ছন্ন হয়ে যায়।",
-      "ময়দার 'শীতলতা' এবং তেলের 'তাপ'-এর প্রাথমিক সংঘর্ষের উপর জোর দেওয়া, যেখানে এই স্তরগুলির প্রথম মিলন ভবিষ্যতের তাপীয় পরিণতির পূর্বাভাস দেয়।"
+      "Examining 'Mishran' (the blend) as an act of accidental alchemy, rather than intentional craft.",
+      "Shifting focus from *what* is being fried to the metaphysical weight carried by the dry spice mixtures before they ever touch oil.",
+      "Viewing the process entirely backward: starting with the fully flavored Samosa and tracing back the trajectory of its flavor decay through the cooling crust."
     ],
     "sensory_details": [
-      "ভাঙ্গা মাটির থালার ভেতর থেকে ওঠা ময়দার সূক্ষ্ম ধুলো যেন শীতল রাত্রির কুয়াশার মতো চোখে এসে লাগা।",
-      "ময়দা এবং জলের মিশ্রণে তৈরি হওয়া আঠালো পদার্থের উপর আঙুলের স্পর্শে অনুভূত হওয়া নমনীয় অথচ প্রবল প্রতিরোধ (Resistance)।",
-      "মিশ্রিত ময়দার মধ্যে লুকিয়ে থাকা পুরনো, শুকনো বালুর মতো ক্ষুদ্র কণাগুলির আলগা ও রুক্ষ অনুভূতি।"
+      "The brittle, papery sound made when a dried bay leaf curls under uneven heat.",
+      "The visual contrast between the dull matte texture of ground chili powder versus the high gloss sheen on perfectly heated cumin seeds.",
+      "The specific metallic tang in the mouth that occurs immediately after the initial spice scent peaks and begins to fade."
     ],
     "research_questions": [
-      "প্রাচীন বাংলা রান্নার পদ্ধতিগুলিতে ময়দা এবং জলের অনুপাত নির্ধারণে কোনো নির্দিষ্ট স্পর্শ-ভিত্তিক নিয়ম বা লোকজ্ঞান ছিল কি যা 'কড়াই' শব্দটি দ্বারা প্রতিস্থাপিত হতে পারে?",
-      "'ময়দার পুরুত্ব'-কে বর্ণনার ক্ষেত্রে কী ধরণের বিশেষণের মাধ্যমে সূক্ষ্মভাবে চিহ্নিত করা যায় যাতে এটি কেবল পরিমাণ না হয়ে গুণগত মান বোঝায়?"
+      "What is the accepted term or metaphor in regional Bengali culinary practice for the moment a spice achieves 'full bloom' in hot fat?",
+      "Are there phonetic patterns in classical Bangla prosody that align with the repetitive, rhythmic nature of sautéing spices (e.g., percussive sounds)?"
     ],
     "structural_variants": [
-      "এই কবিতাটিকে একটি 'ধীরগতির মহড়া' (Slow-Motion Montage) হিসেবে লেখা, যেখানে জলের প্রতিটি ফোঁটা এক মুহূর্তের স্থবিরতা সৃষ্টি করে।",
-      "কবিতাটি ময়দার স্তূপ থেকে শুরু হয়ে শেষ পর্যন্ত আঙুলের সঞ্চালনের গতিকে কেন্দ্র করে বৃত্তাকারে আবর্তিত হবে, যা প্রক্রিয়াগত চক্রাকারতাকে ফুটিয়ে তুলবে।"
+      "A strophic form where each stanza is dominated by one spice's narrative arc before moving to the next.",
+      "A cyclical structure where segments 1 and 8 serve as thematic mirrors, framing an intense central sequence of procedural descriptions.",
+      "Employing a fragmented list structure for the spices themselves (e.g., Cinnamon // Elaichi // Ada), punctuated by bursts of lyrical reflection."
     ],
     "unused_angles": [
-      "ময়দা যখন জলের সাথে মিশে যায়, তখন তার নিজস্ব পরিচিত কাঠামো ভেঙে যাওয়ার দৃশ্য।",
-      "এই মিশ্রণটি এমন একটি নীরব চুক্তি বা 'সমঝোতা'র প্রতীক হতে পারে যা বক্তা স্বেচ্ছায় গ্রহণ করে চলেছে — যেখানে আত্মসমর্পণই টিকে থাকার একমাত্র উপায়।"
+      "A deep dive into how 'time' itself slows down or speeds up when one is perfectly focused on a small, repetitive culinary task.",
+      "The role of domestic rituals (cleaning the utensil after frying) as part of maintaining cultural memory."
     ],
-    "variety_note": "এটি পূর্ববর্তী অধ্যায়গুলির সরাসরি তাপ বা গঠনের আলোচনা থেকে সরে এসে, কাঁচামাল এবং প্রক্রিয়াকরণের প্রাথমিক স্তরের (Mixing/Binding) সূক্ষ্ম শারীরিক এবং ভাষাগত দ্বন্দ্বকে কেন্দ্র করবে যা আরও ব্যক্তিগত ও স্পর্শনির্ভর।"
+    "variety_note": "Where earlier chapters dealt with the *result* (the finished product/sensation), this chapter isolates the volatile, critical *process*—the friction between tradition and mechanical reality."
   },
   "draft": {
-    "sha256": "10f10b6c785425e5bf8ca1f8b03419e1ccbd413ba9b728d87217cde5ff444459",
-    "written_at": "2026-11-01T08:19:35.750769+00:00",
+    "sha256": "d83842724ca61fa27263689fd681d9c6529828dfaf5b9ed34210c0e119035df1",
+    "written_at": "2026-11-16T19:31:33.672466+00:00",
     "origin": "write"
   }
 }

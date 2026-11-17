@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "সত্যের দিকে যাত্রা",
+  "segment_summary": "এই সমন্বিত অবস্থা সোনালীকে সেই আদিম, বিশুদ্ধ আনন্দের কাছাকাছি নিয়ে যায়, যা সে এতদিন কেবল কল্পনা করত।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the dialogue not as resolution, but as achieving perfect resonance: the spiritual 'frequency' perfectly matching the physical vibration of her pulse.",
+    "story_option": "setting: A place where air movement causes delicate objects to sway, desire: To synchronize her breath entirely with an external, natural rhythm (a lamp flame wavering, wind in leaves)., obstacle: The moment the internal rhythm overpowers or resists the external one., turn: She allows herself a complete loss of self-reference within that synchronized movement.",
+    "subject_rotation": "Treating the physical experience as a necessary filter—the divine joy only becomes recognizable *because* it is refracted through flawed human biology.",
+    "sensory_detail": "A high, almost painful whistle sound emanating from a distant, unseen point when the body achieves perfect energetic alignment (Auditory/Internal resonance).",
+    "research_question": "What specific Bengali term captures the state of 'being perfectly resonant' between two disparate elements (like spirit and matter)?",
+    "structural_variant": "Employing a strictly cyclical structure where each segment begins with the phrase 'এবং আমি অনুভব করি' followed by an action/state that contrasts sharply with the previous segment's end.",
+    "variety_note": "This chapter moves beyond initial conflict (like Chapter 1) and sensory awakening (Chapter 2), deep diving into the alchemical process where sensation is actively repurposed by transcendence."
+  }
+}

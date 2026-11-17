@@ -1,0 +1,79 @@
+{
+  "chapter_index": 3,
+  "name": "3",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "nouka — পর্ব 3 — nouka",
+  "chapter_summary": "This chapter introduces the subtle intrusion of modernity into the ancient rhythm of the delta. The narrative focuses on the first auditory clash: the deep, organic groan of the river against the sharp, intrusive whine of distant diesel engines. This soundscape establishes the central tension between Gopal's inherited world and the encroaching, concrete ambition from upstream cities. The chapter explores the initial, almost imperceptible fracturing of the river's natural harmony, leaving the reader to question how a slow, living tradition can withstand the relentless, optimized noise of progress.",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "ধাতব আর্তনাদ",
+      "segment_summary": "The first distant sound of the diesel engine cuts through the monsoon's natural drone, signaling the arrival of an alien, mechanized presence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "নদীর প্রাচীন গর্জন",
+      "segment_summary": "Gopal perceives the river's ancient, rhythmic pulse, a sound rooted in silt and monsoon, which resists the new, sharp intrusion.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "শহরের আকাঙ্ক্ষা",
+      "segment_summary": "The sound carries the weight of distant, concrete ambition, representing the relentless, optimizing drive of the burgeoning industrial centers.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "সূক্ষ্ম বিভাজন",
+      "segment_summary": "This chapter captures the delicate, almost unnoticed moment where the organic flow begins to separate from the engineered trajectory.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "কাঠ ও ইস্পাতের সংঘাত",
+      "segment_summary": "The contrast between the worn, varnished wood of the nouka and the cold, metallic timbre of the approaching machinery is vividly drawn.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অস্বাভাবিক লয়",
+      "segment_summary": "The natural, predictable cadence of the delta's waterways starts to feel subtly disrupted by the external, imposed tempo.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য চ্যালেঞ্জ",
+      "segment_summary": "The initial conflict is not yet a confrontation, but a pervasive, unsettling dissonance that threatens the unspoken contract of the river.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "প্রশ্নবোধক প্রতিধ্বনি",
+      "segment_summary": "The chapter ends with the lingering question of whether the deep, resonant culture of the delta can absorb this new, jarring frequency without breaking.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

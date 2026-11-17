@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "প্রশ্নটি খোলা রাখা",
+  "segment_summary": "স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ—এই মৌলিক প্রশ্নটি উন্মুক্ত থাকে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker addresses the Samosa as if it were a diplomatic delegate—representing an entire lost socio-cultural territory, making its current state an ongoing international crisis of identity.",
+    "story_option": "Setting: A small, dimly lit corner booth in an anonymous transit station; Desire: To recognize a specific pattern in the steam rising off the food—a pattern that once meant home but now only means passage; Obstacle: The pervasive, standardized synthetic odor of modern travel infrastructure; Turn: Recognizing this sterile environment *is* the flavor substitute.",
+    "subject_rotation": "Shifting the focus from the *taste* of loss to the *weight* of memory carried by the food—how many unspoken histories are packed into one shell.",
+    "sensory_detail": "The gritty friction of dried spice residue between molars after the first bite.",
+    "research_question": "What specific antiquated Bengali word, beyond those already used in context, best describes the sensation of profound yet gentle ache?",
+    "structural_variant": "Employing a sustained free-verse pattern in all eight segments, breaking traditional stanzaic forms to mirror the fractured nature of memory.",
+    "variety_note": "This chapter acts as the culmination; while neighbours focused on the *process* (frying, travel, nomenclature), this piece focuses intensely on the *aftermath*—the metaphysical state of having consumed the symbol without retrieving the essence. It elevates subjective feeling to near-philosophical inquiry."
+  }
+}

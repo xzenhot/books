@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 54,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অচেনা তেলের শীতলতা",
+  "segment_summary": "প্রবাসের নতুন তেলগুলো তার ঝাঁঝ হারিয়েছে, এক ধরনের নিরপেক্ষতা এনেছে যা স্বাদের গভীরতাকে ম্লান করে দেয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the smoke/vapor itself as a language barrier, translating home scents into inert urban air.",
+    "story_option": "Setting: While breath comes out in vapor over a cold surface (reflecting absence); Desire: To inhale the specific warmth of saffron infused into pure mustard seed oil; Obstacle: The pervasive smell of foreign exhaust fumes masks all domestic scents.",
+    "subject_rotation": "Shifting focus entirely to the auditory experience—the specific *shis* sound made by mustard oil hitting hot metal versus neutral oil.",
+    "sensory_detail": "An olfactory: A phantom stinging sensation in the nostrils from an imagined whiff of rendered mustard seed oil's pungency.",
+    "research_question": "Is there an archaic Bengali term describing the characteristic astringency found in mustard oil used for cooking?",
+    "structural_variant": "Employing heavy use of antithesis in parallel couplets that rigidly oppose 'Sorsher' vs. 'Neutral', 'Jhal' vs. 'Nishchipto'.",
+    "variety_note": "This chapter moves away from the narrative shock (like Chapter 1) and adopts an echoing, reflective quality, focusing entirely on the subtle persistence and failure of memory held within a single substance: cooking fat."
+  }
+}

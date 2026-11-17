@@ -4,19 +4,19 @@
   "chapter_index": 9,
   "segment_index": 2,
   "total_segments": 8,
-  "segment_title": "যে বাঁকে খেলা",
-  "segment_summary": "যে বাঁকে সে খেলেছে, যে চরে বিশ্রাম নিয়েছে, যে ঘাটে তার বাবা নৌকা বাঁধতেন, সেসব একে একে হারিয়ে যায়; কবিতা এই ব্যক্তিগত ভূগোলকে স্মৃতির মানচিত্র হিসেবে আঁকে।",
-  "name": "2",
-  "word_target": 500,
+  "segment_title": "নতুন স্রোতের আহ্বান",
+  "segment_summary": "দূর থেকে ভেসে আসা ডিজেল ইঞ্জিনের কর্কশ শব্দ তাকে আধুনিক, দ্রুতগামী স্রোতের দিকে মনোযোগ দিতে বাধ্য করে।",
+  "name": "9.2",
+  "word_target": 60,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Focusing on the micro-geography: detailing one small patch of mud or sand that is systematically flattened by dredging and what 'name' it loses in that flattening process.",
-    "story_option": "Setting: Near an abandoned, forgotten sandbar—a place known by generations but now submerged or flattened; Desire: To ritually mourn the specific memory attached to that spot through song; Obstacle: No one remembers the exact name of the bar anymore.",
-    "subject_rotation": "Shifting focus entirely to the *act* of naming: how names confer existence, and what happens when bureaucratic efficiency strips language bare.",
-    "sensory_detail": "The faint, mineral tang of disturbed silt mixed with a sharp, inorganic scent rising from diesel-fed construction runoff at dawn.",
-    "research_question": "How do the local dialects differ when referring to a bend—is there a word for a gentle curve versus a sharp, perilous one?",
-    "structural_variant": "A call-and-response pattern: Gopal naming/describing a place, followed by a short stanza detailing the bureaucratic substitute for that name.",
-    "variety_note": "This chapter contrasts sharply with the 'Diesel Sound' (Ch. 7) by focusing inward on memory and language rather than outward on noise pollution; it explores cultural entropy through geography instead of sonic invasion."
+    "angle": "গোপাল যখন দ্বিধায় ভোগেন, তখন তাকে একটি নির্দিষ্ট ক্ষুদ্র বস্তুর (যেমন: একটি বিশেষ ধরণের পলিমাটির ছোট নুড়ি পাথর) প্রতীকী ভার বহন করতে বাধ্য করা—যা কাঠ এবং ইস্পাত উভয়েরই অস্তিত্বকে ধারণ করে কিন্তু কোনোটি নয়।",
+    "story_option": "সেটিং: নৌকার একেবারে পেছনের অংশ যেখানে জল এবং কাঠ একে অপরের সঙ্গে মিশেছে; আকাঙ্ক্ষা: গোপাল একটি বিশেষ ধরনের আঞ্চলিক গীতের শেষ চরণটি ধরে রাখতে চান, যা আধুনিক শব্দের অনুপ্রবেশ রুখে দিতে পারে; বাধা: ডিজেলে হঠাৎ করে ইঞ্জিনের আওয়াজ তীক্ষ্ণ হয়ে ওঠে।",
+    "subject_rotation": "গোপালের শারীরিক ক্লান্তিকে কেবল পেশাগত পরিশ্রম না দেখিয়ে, বরং নদী ও প্রযুক্তির অবিরাম ঘর্ষণের ফলে সৃষ্ট এক ধরণের 'কলাহলজনিত ক্ষত' (Noise-induced trauma) হিসাবে চিত্রিত করা।",
+    "sensory_detail": "বর্ষার জলে ভিজে নরম হয়ে আসা পাটাতনের নিচের কাঠের মলাট স্পর্শের অনুভূতি যা দৃঢ়তার বিপরীতে ভঙ্গুরতা দেখায় (স্পর্শ)।",
+    "research_question": "গোপালের নৌকার কাঠামোর কোনো বিশেষ নকশা বা ব্যবহারিক উপাদান কি আঞ্চলিক জলপ্রবাহের একটি সুনির্দিষ্ট, প্রাচীন কাঠামোকে অনুসরণ করে?",
+    "structural_variant": "একটি 'ডায়ালগয়িং লুপ' প্রতিষ্ঠা করা: প্রতিটি ছোট অংশে অতীত ও বর্তমানের চিত্রকল্প একইসাথে আবর্তিত হবে, কোনো স্পষ্ট পরিবর্তন না ঘটিয়ে শুধু তীব্রতার পরিবর্তন হবে।",
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী শান্ত চিত্রকল্প থেকে সরে এসে তীব্র অভ্যন্তরীণ দ্বন্দ্বে প্রবেশ করে। এটি কেবল বাইরের সংঘাত নয়, বরং কাঠামোগতভাবে দুটি বিপরীত প্রবাহের মধ্যে গোপালের মনোজগৎকে আটকে রাখার চেষ্টা।"
   }
 }

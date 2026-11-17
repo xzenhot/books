@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য প্রাচীরের মোকাবিলা",
+  "segment_summary": "সে সেই অদৃশ্য সামাজিক প্রাচীরগুলোর মুখোমুখি দাঁড়ায়, যা তাকে তার প্রকৃত, অপ্রকাশিত সত্তা থেকে দূরে সরিয়ে রাখতে চায়।",
+  "name": "5",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the conflict entirely through sensory deprivation vs. overload—the silence of societal conformity versus the riotous sound of her internal bliss.",
+    "story_option": "setting: একটি পুরনো, ভারী কাঠের বন্ধ দরজার সামনে, desire: দরজাটিকে ভেদ করে বাইরের বিশৃঙ্খলার মধ্যেও নিজের বিশুদ্ধতা বজায় রাখা।, obstacle: দরজাটির কাঠিন্য এবং ল্যাচ-এর লৌহ কঠিনতা যা তার আত্মার প্রবাহকে আটকে দেয়।, turn: সে দরজায় হাত রেখে উষ্ণতার অনুসন্ধান না করে, কেবল শীতল ধাতুর 'কথা' শুনতে চায়।",
+    "subject_rotation": "Presenting 'mid-life' not as a burden, but as the critical junctures where suppressed power finally gathers mass before release.",
+    "sensory_detail": "The metallic tang in the air just before a societal expectation is voiced (Taste/Smell fusion).",
+    "research_question": "How can the high poetic diction convey the subtle *erosion* caused by social pressure without resorting to overtly pessimistic or dramatic language?",
+    "structural_variant": "Employing a highly fragmented structure where each segment is less a narrative passage and more a series of rapid-fire, contradictory images.",
+    "variety_note": "Where earlier chapters focused on internal discovery or rising tension, this chapter isolates the direct friction point: the clash between the intensely private spiritual life and the pervasive, visible demands of the external world."
+  }
+}

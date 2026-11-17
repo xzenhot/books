@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 12,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ক্ষমতার ক্ষণস্থায়ী ছায়া",
+  "segment_summary": "সম্রাটের দৃষ্টিতে, অতীতের রাজকীয় জাঁকজমক এখন কেবল একটি ম্লান, ধূসর স্মৃতি হয়ে দাঁড়িয়েছে, যা ব্রিটিশ নথিপত্রের শীতল বাস্তবতার সামনে নতিস্বীকার করছে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the internal dialogue between the dying emperor and an imagined, silent contemporary of his poetry (not Galib or Hodson)",
+    "story_option": "Setting: The cold stone floor of the barracks; Desire: To rewrite his own history not in Urdu, but in a newly invented, fiercely personal glyph system; Obstacle: The fading light denying him any chance to focus.",
+    "subject_rotation": "Shifting focus from 'survival of identity' to 'the exquisite pain of acceptance'",
+    "sensory_detail": "Taste: The dry, dusty grit coating the tongue from arid travel and confinement",
+    "research_question": "What specific Mughal court idioms focused on inner divinity or spiritual sovereignty that would have been culturally immune to colonial administrative definition?",
+    "structural_variant": "A cyclical structure where each segment uses an image introduced in the prior one, but inverted.",
+    "variety_note": "Unlike earlier chapters which dealt with conflict and resistance against erasure, this chapter is purely reflective; it focuses on achieving a quiet transcendence *after* the struggle has been lost."
+  }
 }

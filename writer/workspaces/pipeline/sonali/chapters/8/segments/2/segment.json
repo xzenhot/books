@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "সীমাবদ্ধতার প্রতি প্রত্যাখ্যান",
+  "segment_summary": "সে সমাজের আরোপিত নৈতিকতার আবরণকে ছিন্ন করার সিদ্ধান্ত নেয়, যা তার স্বর্গীয় স্পন্দনকে দমিয়ে রেখেছিল।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on a single, mundane object—perhaps an old brass key resting on her desk—as the physical manifestation of the dam she decides to break (Secondary Twist application).",
+    "story_option": "Setting: In front of a mirror clouded with humidity from a recent shower; Desire: To watch her reflection transform as she 'unweaves' old silences; Obstacle: Her own hands appear too heavy and terrestrial to enact the change.",
+    "subject_rotation": "Examining 'bravery' not as outward defiance, but as an excruciating internal negotiation: admitting weakness (the need for expression) is strength.",
+    "sensory_detail": "A low-frequency hum in the inner ear when she finally speaks a word too fiercely, vibrating against bone (Sound/Internal feeling).",
+    "research_question": "What specific Bengali poetic idiom can convey 'the necessity of controlled breaking'—the act of intentionally straining a boundary without causing complete collapse?",
+    "structural_variant": "Alternating stanzas between highly dense, abstract philosophical questioning (the 'why') and starkly concrete descriptions of physical sensation (the 'how').",
+    "variety_note": "Unlike previous chapters which explored internal states (bliss/imprisonment), this chapter must be defined by decisive *action*—the pivot point from feeling to verbal manifestation. The thread metaphor will provide the connective tissue through these shifts in agency."
+  }
+}

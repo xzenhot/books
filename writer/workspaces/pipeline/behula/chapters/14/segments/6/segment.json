@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা এবং প্রত্যয়",
+  "segment_summary": "তিনি প্রতিকূলতার ফলস্বরূপ আসা প্রতিটি মুহূর্তকে মেনে নেন, কিন্তু তার প্রত্যয় কখনও নড়ে না।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the body's reaction to sustained mental pressure—a tremor or a fixed ache that becomes sacrosanct.",
+    "story_option": "Setting: Standing before a vast, echoing void representing the test; Desire: To thread a singular, incandescent strand of memory through this nothingness; Obstacle: The sheer volume of existential inertia surrounding her.",
+    "subject_rotation": "Focusing on 'stillness' (স্থিরতা) itself as the ultimate aggressive act against temporal chaos.",
+    "sensory_detail": "The cold, taut sensation where one's fingertips press against themselves, mapping out an invisible line.",
+    "research_question": "How can the act of holding breath be depicted poetically without reducing it to simple anxiety?",
+    "structural_variant": "A highly compressed strophe form, where each segment focuses on one single sensory anchor (hand, breath, touch) before moving to the next.",
+    "variety_note": "This chapter shifts away from external confrontation (unlike others) into deep interiority, using the thread motif and physical anchors to map the process of unwavering internal resolution right before climax."
+  }
+}

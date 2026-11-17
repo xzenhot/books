@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 38,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার চূড়ান্ত 승리",
+  "segment_summary": "এই প্রত্যাবর্তন প্রমাণ করে যে ভেতরের আলোকবর্তিকা বাইরের সমস্ত অন্ধকারের চেয়েও শক্তিশালী, যা মানব আত্মার অদম্য স্পন্দনকে তুলে ধরে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the return not as rescue, but as two entities forcibly re-attuned by shared trauma, minimizing romantic flourish.",
+    "story_option": "A scene where the quiet after their union is characterized by an unbearable tension—they must communicate volumes without speaking, only gesturing toward symbolic relics.",
+    "subject_rotation": "Shifting focus from 'love' to 'willpower': framing their bond as a perfect convergence of indomitable personal resolve against cosmic indifference.",
+    "sensory_detail": "The subtle subsonic thrum felt in the sternum when disparate spiritual vibrations finally lock into alignment.",
+    "research_question": "How can 'ontological necessity' be rendered poetically, avoiding overly academic diction while retaining philosophical weight?",
+    "structural_variant": "Structuring the eight segments as overlapping emotional tides rather than sequential steps towards climax, allowing thematic loops.",
+    "variety_note": "This chapter moves beyond the specific emotional turmoil of earlier arcs to focus on existential resolution, using newly employed imagery (like texture and subsonic sound) that previous segments avoided for thematic weight."
+  }
+}

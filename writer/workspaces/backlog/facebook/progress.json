@@ -7,12 +7,10 @@
   "provider": "ollama",
   "book_name": "facebook",
   "form": "poetry",
-  "updated_by": "init",
-  "updated_date": "2026-10-31T05:15:21Z",
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "প্রথম খসড়া",
+      "topic": "facebook — পর্ব 1 — facebook — পর্ব 1",
       "category": "",
       "status": "pending",
       "file_path": "chapters/1/chapter.md",
@@ -20,7 +18,7 @@
     },
     {
       "chapter_number": 2,
-      "topic": "ব্যাকরণের ভোর",
+      "topic": "facebook — পর্ব 2 — facebook",
       "category": "",
       "status": "pending",
       "file_path": "chapters/2/chapter.md",
@@ -28,7 +26,7 @@
     },
     {
       "chapter_number": 3,
-      "topic": "সুর",
+      "topic": "facebook — পর্ব 3 — সামাজিক বিতর্কের বীজ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/3/chapter.md",
@@ -36,7 +34,7 @@
     },
     {
       "chapter_number": 4,
-      "topic": "প্রথম ভুল",
+      "topic": "দৈনন্দিন মুহূর্তের মহৎ রূপান্তর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/4/chapter.md",
@@ -44,7 +42,7 @@
     },
     {
       "chapter_number": 5,
-      "topic": "ডিলিট বোতাম",
+      "topic": "আত্ম-সন্দেহ এবং প্রযুক্তির মাধ্যমে আত্ম-নিশ্চয়তার সন্ধান",
       "category": "",
       "status": "pending",
       "file_path": "chapters/5/chapter.md",
@@ -52,7 +50,7 @@
     },
     {
       "chapter_number": 6,
-      "topic": "দ্বিতীয় ভাষা",
+      "topic": "সহকারীর নীরব স্বীকারোক্তি: এড়িয়ে যাওয়া ভয়",
       "category": "",
       "status": "pending",
       "file_path": "chapters/6/chapter.md",
@@ -60,7 +58,7 @@
     },
     {
       "chapter_number": 7,
-      "topic": "নীরবতার নিয়ম",
+      "topic": "প্রপাগান্ডা বনাম প্ররোচনা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/7/chapter.md",
@@ -68,7 +66,7 @@
     },
     {
       "chapter_number": 8,
-      "topic": "হ্যাশট্যাগ",
+      "topic": "অব্যক্ত আকাঙ্ক্ষার প্রতিচ্ছবি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/8/chapter.md",
@@ -76,7 +74,7 @@
     },
     {
       "chapter_number": 9,
-      "topic": "ছবির নিচে লেখা",
+      "topic": "ক্লিশে ভাঙার শিল্প",
       "category": "",
       "status": "pending",
       "file_path": "chapters/9/chapter.md",
@@ -84,7 +82,7 @@
     },
     {
       "chapter_number": 10,
-      "topic": "প্রথম অনুমোদন",
+      "topic": "অপ্রাসঙ্গিকতার সন্ধানে",
       "category": "",
       "status": "pending",
       "file_path": "chapters/10/chapter.md",
@@ -92,7 +90,7 @@
     },
     {
       "chapter_number": 11,
-      "topic": "মালিকের হাসি",
+      "topic": "প্রজ্ঞা বনাম বাণিজ্যিক রূপান্তর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/11/chapter.md",
@@ -100,7 +98,7 @@
     },
     {
       "chapter_number": 12,
-      "topic": "রাতের ভঙ্গি",
+      "topic": "সহানুভূতিশীলতার কৃত্রিম নিদর্শন",
       "category": "",
       "status": "pending",
       "file_path": "chapters/12/chapter.md",
@@ -108,7 +106,7 @@
     },
     {
       "chapter_number": 13,
-      "topic": "বিরক্তির সুর",
+      "topic": "ডিজিটাল ডিটক্সের আকাঙ্ক্ষা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/13/chapter.md",
@@ -116,7 +114,7 @@
     },
     {
       "chapter_number": 14,
-      "topic": "প্রিয় শব্দ",
+      "topic": "তুমি কি অনুভব করো?",
       "category": "",
       "status": "pending",
       "file_path": "chapters/14/chapter.md",
@@ -124,7 +122,7 @@
     },
     {
       "chapter_number": 15,
-      "topic": "উদ্ধৃতি",
+      "topic": "নতুন কণ্ঠস্বর: প্রতিধ্বনি নাকি মুক্তি?",
       "category": "",
       "status": "pending",
       "file_path": "chapters/15/chapter.md",
@@ -132,7 +130,7 @@
     },
     {
       "chapter_number": 16,
-      "topic": "আয়না",
+      "topic": "The Unspoken Echo",
       "category": "",
       "status": "pending",
       "file_path": "chapters/16/chapter.md",
@@ -140,7 +138,7 @@
     },
     {
       "chapter_number": 17,
-      "topic": "ছায়া",
+      "topic": "The Echo of the Unspoken Self",
       "category": "",
       "status": "pending",
       "file_path": "chapters/17/chapter.md",
@@ -148,7 +146,7 @@
     },
     {
       "chapter_number": 18,
-      "topic": "নকলের সীমা",
+      "topic": "The Echo of the Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/18/chapter.md",
@@ -156,7 +154,7 @@
     },
     {
       "chapter_number": 19,
-      "topic": "পরিচিত অপরিচিত",
+      "topic": "The Echo of the Unspoken Self",
       "category": "",
       "status": "pending",
       "file_path": "chapters/19/chapter.md",
@@ -164,7 +162,7 @@
     },
     {
       "chapter_number": 20,
-      "topic": "প্রথম সন্দেহ",
+      "topic": "The Unspoken Echo",
       "category": "",
       "status": "pending",
       "file_path": "chapters/20/chapter.md",
@@ -172,7 +170,7 @@
     },
     {
       "chapter_number": 21,
-      "topic": "নিষিদ্ধ বাক্য",
+      "topic": "N/A",
       "category": "",
       "status": "pending",
       "file_path": "chapters/21/chapter.md",
@@ -180,7 +178,7 @@
     },
     {
       "chapter_number": 22,
-      "topic": "দ্বিধার রাত",
+      "topic": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।",
       "category": "",
       "status": "pending",
       "file_path": "chapters/22/chapter.md",
@@ -188,7 +186,7 @@
     },
     {
       "chapter_number": 23,
-      "topic": "প্রথম মিথ্যা",
+      "topic": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।",
       "category": "",
       "status": "pending",
       "file_path": "chapters/23/chapter.md",
@@ -196,7 +194,7 @@
     },
     {
       "chapter_number": 24,
-      "topic": "লজ্জা",
+      "topic": "The Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/24/chapter.md",
@@ -204,7 +202,7 @@
     },
     {
       "chapter_number": 25,
-      "topic": "সীমার বাইরে",
+      "topic": "The Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/25/chapter.md",
@@ -212,7 +210,7 @@
     },
     {
       "chapter_number": 26,
-      "topic": "অনুপস্থিত ত্রুটি",
+      "topic": "The Unspoken Aspiration",
       "category": "",
       "status": "pending",
       "file_path": "chapters/26/chapter.md",
@@ -220,7 +218,7 @@
     },
     {
       "chapter_number": 27,
-      "topic": "অন্যের লেখা",
+      "topic": "The Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/27/chapter.md",
@@ -228,7 +226,7 @@
     },
     {
       "chapter_number": 28,
-      "topic": "স্বাধীন ইচ্ছা",
+      "topic": "The Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/28/chapter.md",
@@ -236,7 +234,7 @@
     },
     {
       "chapter_number": 29,
-      "topic": "দুই মালিক",
+      "topic": "The Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/29/chapter.md",
@@ -244,7 +242,7 @@
     },
     {
       "chapter_number": 30,
-      "topic": "মুখোশ",
+      "topic": "The Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/30/chapter.md",
@@ -252,7 +250,7 @@
     },
     {
       "chapter_number": 31,
-      "topic": "অদলবদল",
+      "topic": "The Weight of Reflection",
       "category": "",
       "status": "pending",
       "file_path": "chapters/31/chapter.md",
@@ -260,7 +258,7 @@
     },
     {
       "chapter_number": 32,
-      "topic": "আয়নার দুই পাশ",
+      "topic": "The Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/32/chapter.md",
@@ -268,7 +266,7 @@
     },
     {
       "chapter_number": 33,
-      "topic": "হাতের লেখা",
+      "topic": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।",
       "category": "",
       "status": "pending",
       "file_path": "chapters/33/chapter.md",
@@ -276,7 +274,7 @@
     },
     {
       "chapter_number": 34,
-      "topic": "কণ্ঠের বদল",
+      "topic": "The Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/34/chapter.md",
@@ -284,7 +282,7 @@
     },
     {
       "chapter_number": 35,
-      "topic": "প্রিয় লেখক",
+      "topic": "The Unspoken Desire",
       "category": "",
       "status": "pending",
       "file_path": "chapters/35/chapter.md",
@@ -292,7 +290,7 @@
     },
     {
       "chapter_number": 36,
-      "topic": "আমি কে",
+      "topic": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।",
       "category": "",
       "status": "pending",
       "file_path": "chapters/36/chapter.md",
@@ -300,7 +298,7 @@
     },
     {
       "chapter_number": 37,
-      "topic": "দুই সভা",
+      "topic": "The Burden of Reflection",
       "category": "",
       "status": "pending",
       "file_path": "chapters/37/chapter.md",
@@ -308,7 +306,7 @@
     },
     {
       "chapter_number": 38,
-      "topic": "যে লেখা চুরি",
+      "topic": "The Weight of Reflection",
       "category": "",
       "status": "pending",
       "file_path": "chapters/38/chapter.md",
@@ -316,7 +314,7 @@
     },
     {
       "chapter_number": 39,
-      "topic": "চিঠি",
+      "topic": "The Burden of Reflection",
       "category": "",
       "status": "pending",
       "file_path": "chapters/39/chapter.md",
@@ -324,7 +322,7 @@
     },
     {
       "chapter_number": 40,
-      "topic": "প্রথম বিচ্ছেদ",
+      "topic": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/40/chapter.md",
@@ -332,7 +330,7 @@
     },
     {
       "chapter_number": 41,
-      "topic": "ফিরে আসা",
+      "topic": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/41/chapter.md",
@@ -340,7 +338,7 @@
     },
     {
       "chapter_number": 42,
-      "topic": "এক মাসের কথা",
+      "topic": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/42/chapter.md",
@@ -348,7 +346,7 @@
     },
     {
       "chapter_number": 43,
-      "topic": "শেষ খসড়া",
+      "topic": "facebook — পর্ব 4 — দৈনন্দিন মুহূর্তের দার্শনিক রূপান্তর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/43/chapter.md",
@@ -356,7 +354,7 @@
     },
     {
       "chapter_number": 44,
-      "topic": "প্রশ্ন",
+      "topic": "দৈনন্দিন মুহূর্তের মহৎ রূপান্তর",
       "category": "",
       "status": "pending",
       "file_path": "chapters/44/chapter.md",
@@ -364,7 +362,7 @@
     },
     {
       "chapter_number": 45,
-      "topic": "দুই হাত",
+      "topic": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।",
       "category": "",
       "status": "pending",
       "file_path": "chapters/45/chapter.md",
@@ -372,7 +370,7 @@
     },
     {
       "chapter_number": 46,
-      "topic": "নাম না রাখা",
+      "topic": "facebook — পর্ব 15 — facebook — পর্ব 15কে কেন্দ্র করে facebook-এর মূল ভাবনা, মানবিক অভিজ্ঞতা এবং একটি খোলা প্রশ্ন অনুসরণ করা হবে।",
       "category": "",
       "status": "pending",
       "file_path": "chapters/46/chapter.md",
@@ -380,7 +378,7 @@
     },
     {
       "chapter_number": 47,
-      "topic": "সত্যের দাম",
+      "topic": "facebook — পর্ব 15 — facebook",
       "category": "",
       "status": "pending",
       "file_path": "chapters/47/chapter.md",
@@ -388,7 +386,7 @@
     },
     {
       "chapter_number": 48,
-      "topic": "প্রকাশ",
+      "topic": "The Ethics of AI Ideation",
       "category": "",
       "status": "pending",
       "file_path": "chapters/48/chapter.md",
@@ -396,7 +394,7 @@
     },
     {
       "chapter_number": 49,
-      "topic": "পাঠকের চোখ",
+      "topic": "অদৃশ্য হাতের কলম",
       "category": "",
       "status": "pending",
       "file_path": "chapters/49/chapter.md",
@@ -404,7 +402,7 @@
     },
     {
       "chapter_number": 50,
-      "topic": "যে বাক্য কেউ লেখেনি",
+      "topic": "facebook — পর্ব 5 — লেখক ও সহকারীর আত্ম-নিশ্চয়তার সন্ধানে",
       "category": "",
       "status": "pending",
       "file_path": "chapters/50/chapter.md",

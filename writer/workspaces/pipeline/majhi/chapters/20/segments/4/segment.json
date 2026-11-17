@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "মুক্তির ঠিকানা",
+  "segment_summary": "নদীর স্বাভাবিক প্রবাহের প্রতি তার আনুগত্যই তার চূড়ান্ত মুক্তি, যা কোনো চুক্তি বা হিসেবের খাতায় লেখা সম্ভব নয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Holding the entire poem within a single, weathered wooden oar handle: every bend and nick representing a philosophical point.",
+    "story_option": "A solitary finger tracing an invisible pattern in the silt left by the receding tide at dawn (Setting: Mudflats; Desire: To map the intangible debt onto a physical surface; Obstacle: The encroaching shadows of the high-tide infrastructure; Turn: Acceptance that the map is inherently fluid).",
+    "subject_rotation": "Treating 'Udarata' as a geological force—the slow, powerful erosion that undermines rigid structures rather than a moral choice.",
+    "sensory_detail": "The cool, slick feel of submerged stones against the wooden hull after hours in shadow (Touch).",
+    "research_question": "What specific Bengali folk imagery depicts an act of pure, uncompensated giving as possessing inherent power?",
+    "structural_variant": "Alternating between dense, highly metaphoric stanzas (river state) and stark, single-image pronouncements of labor (oar stroke).",
+    "variety_note": "Unlike earlier chapters that focused on external pressures (debt, bridges), this final section internalizes the struggle, allowing the philosophical resolution to settle as an almost unbearable quietude."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "পুরোনো ঘাটের নীরবতা",
+  "segment_summary": "যেসব পুরোনো ঘাট মাঝির জীবনের সাক্ষী, সেগুলোর ওপর আধুনিকতার আগমন কীভাবে নীরবতার জন্ম দিচ্ছে, তা অনুভব করা যায়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the river not as a fluid entity but as an ancient waterway network whose function is being digitally mapped and overridden by modern infrastructure data.",
+    "story_option": "A slow, ritualistic scene where the majhi uses an ancient knot (a navigational sign) that becomes useless because the river's physical geography has been redrawn.",
+    "subject_rotation": "Treating the bridge/dam not as progress, but as an archaeological blockage—a modern fossil replacing a living habitat.",
+    "sensory_detail": "The way sunlight fractures and dies upon hitting a massive, uniform expanse of grey concrete.",
+    "research_question": "What specific Bengali terms describe the local hydrological impact of early dam constructions on deltaic water movement?",
+    "structural_variant": "Alternating between expansive, slow descriptions of the engineered landscape and sharp, kinetic bursts describing the oar cutting through residual freedom.",
+    "variety_note": "Unlike the personal trials in neighboring chapters, this focuses externally—the confrontation is not with a person or debt, but with an immovable, impersonal force of state planning and concrete imposition."
+  }
+}

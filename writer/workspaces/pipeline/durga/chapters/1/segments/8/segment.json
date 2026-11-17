@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "প্রশ্ন: পুনর্জন্মের ঘোষণা?",
+  "segment_summary": "এই আগমনী সুরের আড়ালে লুকিয়ে থাকা প্রশ্নটি হলো—এই শক্তি কি কেবল একটি সামাজিক রীতিনীতি, নাকি এটি মানব চেতনার পুনর্জন্মের অনিবার্য ঘোষণা?",
+  "name": "8",
+  "word_target": 62,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the pre-dawn darkness not as absence, but as a dense, living entity that slowly yields to the spiritual light signaled by the ritual sounds.",
+    "story_option": "An artisan in Kumortuli, awake before sunrise, not working on clay yet, but simply listening to the atmospheric shift marked by the distant chants and the nascent scent of shiu-li.",
+    "subject_rotation": "Deconstructing the phrase 'আত্মিক জাগরণ' by focusing on a single, physical tremor felt in the body upon hearing the first resonant drum beat.",
+    "sensory_detail": "The visceral sensation of low, rhythmic vibrations passing up through stone paving from a distant *pandal*.",
+    "research_question": "How is the transition from silence to 'ḍhāk' resonance described in traditional folk verses related to Durga Puja?",
+    "structural_variant": "An extended opening monologue focusing on the internal, non-ritualistic feeling evoked by the *śiuli* scent.",
+    "variety_note": "This chapter emphasizes the sonic and olfactory prelude to Durga's presence, focusing on internal tension against external proclamation, unlike subsequent chapters which detail craftsmanship or ritual."
+  }
+}

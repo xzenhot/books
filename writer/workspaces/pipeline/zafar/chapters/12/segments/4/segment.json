@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নির্বাসনের নীরব দর্শন",
+  "segment_summary": "রেঙ্গুনের কাঠকয়লার কুঠুরিতে বসে, তিনি বাইরের জগতের কোলাহল থেকে বিচ্ছিন্ন হয়ে নিজের ভেতরের মহাকাব্যিক সংগ্রামকে অনুভব করেন।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the internal dialogue between the dying emperor and an imagined, silent contemporary of his poetry (not Galib or Hodson)",
+    "story_option": "Setting: The cold stone floor of the barracks; Desire: To rewrite his own history not in Urdu, but in a newly invented, fiercely personal glyph system; Obstacle: The fading light denying him any chance to focus.",
+    "subject_rotation": "Shifting focus from 'survival of identity' to 'the exquisite pain of acceptance'",
+    "sensory_detail": "Taste: The dry, dusty grit coating the tongue from arid travel and confinement",
+    "research_question": "How might the linguistic rhythm shift when a highly educated individual consciously shifts from high literary diction (Urdu/Persianate) into intensely private, simpler reflection?",
+    "structural_variant": "An abrupt switch between extended lyrical meditation and stark prose-like philosophical aphorisms derived from his state documents.",
+    "variety_note": "Unlike earlier chapters which dealt with conflict and resistance against erasure, this chapter is purely reflective; it focuses on achieving a quiet transcendence *after* the struggle has been lost."
+  }
+}

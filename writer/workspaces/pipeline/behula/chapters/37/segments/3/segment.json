@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 37,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী নারীর প্রতিষ্ঠা",
+  "segment_summary": "এই চূড়ান্ত পরিণতি বেহুলাকে কেবল একজন স্ত্রী হিসেবে নয়, বরং সকল প্রতিকূলতা অতিক্রমকারী এক মহৎ নারী হিসেবে সমাজে প্রতিষ্ঠিত করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting from the grand triumph to the quiet, immediate aftermath—the soundscape of resumed domesticity after cosmic trial.",
+    "story_option": "Setting: A patch of ground under new moonlight (viscous light analogy), Desire: To find a single object—a thread or an old piece of clay—that survives all trials intact, Obstacle: The temptation to mythologize the memory completely.",
+    "subject_rotation": "Focusing on the nature of time itself—how endurance compresses vast epochs into a single breath upon return.",
+    "sensory_detail": "Sound: A deep, bone-vibrating resonance replacing expected exultation—a primal hum.",
+    "research_question": "How can 'ontological necessity' (the fundamental need for this survival/reunion) be rendered in diction while maintaining poetic lyricism rather than sounding overly academic?",
+    "structural_variant": "Implementing an 'anti-climax' by dedicating several lines to describing mundane domestic acts post-return, stripping the high rhetoric bare.",
+    "variety_note": "Unlike earlier chapters focusing on conflict and suffering, this section pivots entirely toward resolution, examining not just the return itself, but what remains of the struggle when the external battle ceases."
+  }
+}

@@ -1,53 +1,115 @@
 {
   "chapter_index": 6,
   "name": "6",
-  "word_target": 300,
-  "chapter_title": "মায়ের ফেরার অপেক্ষা",
-  "chapter_summary": "মেয়ে বারবার দরজার দিকে তাকায় — মা কি এবার সত্যিই ফিরবে? অপেক্ষার প্রতিটি মুহূর্ত একটি প্রার্থনা।",
-  "further_references": [],
+  "word_target": 1200,
+  "chapter_title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি",
+  "chapter_summary": "এই অধ্যায়টি উৎসবের ধর্মীয় আখ্যান থেকে সরে এসে এর সামাজিক ও লোকজ রূপের দিকে আলোকপাত করে। এটি বনেদি বাড়ির ঐতিহ্যবাহী পূজা এবং বারোয়ারি উৎসবের জমকালো আড়ম্বরকে তুলে ধরে, যেখানে ধর্মীয় আচারগুলি সামাজিক কাঠামো এবং বংশগত ঐতিহ্যের সঙ্গে মিশে যায়। এই চিত্রকল্পে, দেবীর শক্তি কেবল মহাজাগতিক নয়, বরং নির্দিষ্ট সামাজিক গোষ্ঠীর পরিচয়ের প্রতীক হয়ে ওঠে। প্রশ্নটি হলো—এই লোকজ আড়ম্বর কি কেবল ঐতিহ্যের পুনরাবৃত্তি, নাকি এটি সমসাময়িক সামাজিক পরিবর্তনের প্রতিচ্ছবি?",
+  "further_references": [
+    "5"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি — অংশ 1",
+      "segment_summary": "এই অধ্যায়টি উৎসবের ধর্মীয় আখ্যান থেকে সরে এসে এর সামাজিক ও লোকজ রূপের দিকে আলোকপাত করে। এটি বনেদি বাড়ির ঐতিহ্যবাহী পূজা এবং বারোয়ারি উৎসবের জমকালো আড়ম্বরকে তুলে ধরে, যেখানে ধর্মীয় আচারগুলি সামাজিক কাঠামো এবং বংশগত ঐতিহ্যের সঙ্গে মিশে যায়। এই চিত্রকল্পে, দেবীর শক্তি কেবল মহাজাগতিক নয়, বরং নির্দিষ্ট সামাজিক গোষ্ঠীর পরিচয়ের প্রতীক হয়ে ওঠে। প্রশ্নটি হলো—এই লোকজ আড়ম্বর কি কেবল ঐতিহ্যের পুনরাবৃত্তি, নাকি এটি সমসাময়িক সামাজিক পরিবর্তনের প্রতিচ্ছবি?",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি — অংশ 2",
+      "segment_summary": "এই অধ্যায়টি উৎসবের ধর্মীয় আখ্যান থেকে সরে এসে এর সামাজিক ও লোকজ রূপের দিকে আলোকপাত করে। এটি বনেদি বাড়ির ঐতিহ্যবাহী পূজা এবং বারোয়ারি উৎসবের জমকালো আড়ম্বরকে তুলে ধরে, যেখানে ধর্মীয় আচারগুলি সামাজিক কাঠামো এবং বংশগত ঐতিহ্যের সঙ্গে মিশে যায়। এই চিত্রকল্পে, দেবীর শক্তি কেবল মহাজাগতিক নয়, বরং নির্দিষ্ট সামাজিক গোষ্ঠীর পরিচয়ের প্রতীক হয়ে ওঠে। প্রশ্নটি হলো—এই লোকজ আড়ম্বর কি কেবল ঐতিহ্যের পুনরাবৃত্তি, নাকি এটি সমসাময়িক সামাজিক পরিবর্তনের প্রতিচ্ছবি?",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি — অংশ 3",
+      "segment_summary": "এই অধ্যায়টি উৎসবের ধর্মীয় আখ্যান থেকে সরে এসে এর সামাজিক ও লোকজ রূপের দিকে আলোকপাত করে। এটি বনেদি বাড়ির ঐতিহ্যবাহী পূজা এবং বারোয়ারি উৎসবের জমকালো আড়ম্বরকে তুলে ধরে, যেখানে ধর্মীয় আচারগুলি সামাজিক কাঠামো এবং বংশগত ঐতিহ্যের সঙ্গে মিশে যায়। এই চিত্রকল্পে, দেবীর শক্তি কেবল মহাজাগতিক নয়, বরং নির্দিষ্ট সামাজিক গোষ্ঠীর পরিচয়ের প্রতীক হয়ে ওঠে। প্রশ্নটি হলো—এই লোকজ আড়ম্বর কি কেবল ঐতিহ্যের পুনরাবৃত্তি, নাকি এটি সমসাময়িক সামাজিক পরিবর্তনের প্রতিচ্ছবি?",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি — অংশ 4",
+      "segment_summary": "এই অধ্যায়টি উৎসবের ধর্মীয় আখ্যান থেকে সরে এসে এর সামাজিক ও লোকজ রূপের দিকে আলোকপাত করে। এটি বনেদি বাড়ির ঐতিহ্যবাহী পূজা এবং বারোয়ারি উৎসবের জমকালো আড়ম্বরকে তুলে ধরে, যেখানে ধর্মীয় আচারগুলি সামাজিক কাঠামো এবং বংশগত ঐতিহ্যের সঙ্গে মিশে যায়। এই চিত্রকল্পে, দেবীর শক্তি কেবল মহাজাগতিক নয়, বরং নির্দিষ্ট সামাজিক গোষ্ঠীর পরিচয়ের প্রতীক হয়ে ওঠে। প্রশ্নটি হলো—এই লোকজ আড়ম্বর কি কেবল ঐতিহ্যের পুনরাবৃত্তি, নাকি এটি সমসাময়িক সামাজিক পরিবর্তনের প্রতিচ্ছবি?",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি — অংশ 5",
+      "segment_summary": "এই অধ্যায়টি উৎসবের ধর্মীয় আখ্যান থেকে সরে এসে এর সামাজিক ও লোকজ রূপের দিকে আলোকপাত করে। এটি বনেদি বাড়ির ঐতিহ্যবাহী পূজা এবং বারোয়ারি উৎসবের জমকালো আড়ম্বরকে তুলে ধরে, যেখানে ধর্মীয় আচারগুলি সামাজিক কাঠামো এবং বংশগত ঐতিহ্যের সঙ্গে মিশে যায়। এই চিত্রকল্পে, দেবীর শক্তি কেবল মহাজাগতিক নয়, বরং নির্দিষ্ট সামাজিক গোষ্ঠীর পরিচয়ের প্রতীক হয়ে ওঠে। প্রশ্নটি হলো—এই লোকজ আড়ম্বর কি কেবল ঐতিহ্যের পুনরাবৃত্তি, নাকি এটি সমসাময়িক সামাজিক পরিবর্তনের প্রতিচ্ছবি?",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি — অংশ 6",
+      "segment_summary": "এই অধ্যায়টি উৎসবের ধর্মীয় আখ্যান থেকে সরে এসে এর সামাজিক ও লোকজ রূপের দিকে আলোকপাত করে। এটি বনেদি বাড়ির ঐতিহ্যবাহী পূজা এবং বারোয়ারি উৎসবের জমকালো আড়ম্বরকে তুলে ধরে, যেখানে ধর্মীয় আচারগুলি সামাজিক কাঠামো এবং বংশগত ঐতিহ্যের সঙ্গে মিশে যায়। এই চিত্রকল্পে, দেবীর শক্তি কেবল মহাজাগতিক নয়, বরং নির্দিষ্ট সামাজিক গোষ্ঠীর পরিচয়ের প্রতীক হয়ে ওঠে। প্রশ্নটি হলো—এই লোকজ আড়ম্বর কি কেবল ঐতিহ্যের পুনরাবৃত্তি, নাকি এটি সমসাময়িক সামাজিক পরিবর্তনের প্রতিচ্ছবি?",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি — অংশ 7",
+      "segment_summary": "এই অধ্যায়টি উৎসবের ধর্মীয় আখ্যান থেকে সরে এসে এর সামাজিক ও লোকজ রূপের দিকে আলোকপাত করে। এটি বনেদি বাড়ির ঐতিহ্যবাহী পূজা এবং বারোয়ারি উৎসবের জমকালো আড়ম্বরকে তুলে ধরে, যেখানে ধর্মীয় আচারগুলি সামাজিক কাঠামো এবং বংশগত ঐতিহ্যের সঙ্গে মিশে যায়। এই চিত্রকল্পে, দেবীর শক্তি কেবল মহাজাগতিক নয়, বরং নির্দিষ্ট সামাজিক গোষ্ঠীর পরিচয়ের প্রতীক হয়ে ওঠে। প্রশ্নটি হলো—এই লোকজ আড়ম্বর কি কেবল ঐতিহ্যের পুনরাবৃত্তি, নাকি এটি সমসাময়িক সামাজিক পরিবর্তনের প্রতিচ্ছবি?",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "বনেদি বাড়ির আড়ম্বর ও লোকজ উৎসবের প্রতিধ্বনি — অংশ 8",
+      "segment_summary": "এই অধ্যায়টি উৎসবের ধর্মীয় আখ্যান থেকে সরে এসে এর সামাজিক ও লোকজ রূপের দিকে আলোকপাত করে। এটি বনেদি বাড়ির ঐতিহ্যবাহী পূজা এবং বারোয়ারি উৎসবের জমকালো আড়ম্বরকে তুলে ধরে, যেখানে ধর্মীয় আচারগুলি সামাজিক কাঠামো এবং বংশগত ঐতিহ্যের সঙ্গে মিশে যায়। এই চিত্রকল্পে, দেবীর শক্তি কেবল মহাজাগতিক নয়, বরং নির্দিষ্ট সামাজিক গোষ্ঠীর পরিচয়ের প্রতীক হয়ে ওঠে। প্রশ্নটি হলো—এই লোকজ আড়ম্বর কি কেবল ঐতিহ্যের পুনরাবৃত্তি, নাকি এটি সমসাময়িক সামাজিক পরিবর্তনের প্রতিচ্ছবি?",
+      "further_references": []
+    }
+  ],
+  "segment_count": 8,
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the micro-ritual of waiting: The precise way one checks a latch or peers through a specific crack in the doorframe, treating this small action as monumental.",
-      "The psychological toll of cyclical waiting: How repeated hope/disappointment begins to erode the speaker's internal sense of time, blurring past and future.",
-      "Inverting the focus from 'waiting for arrival' to 'managing absence': The subtle maintenance of domestic ritual (sweeping, cleaning) in anticipation of a guest who may never come."
+      "বংশের প্রতি দায়বদ্ধতার ভার হিসেবে উৎসবকে চিত্রিত করা, যেখানে প্রতিটি আনুষ্ঠানিকতা পূর্বপুরুষের এক অদৃশ্য আদেশ।",
+      "লোকজ আড়ম্বরটিকে 'সামাজিক প্রত্নতত্ত্ব' (Social Archaeology) হিসেবে দেখা—কীভাবে বর্তমান প্রজন্মের কাছে প্রাচীন প্রথাগুলি একটি ভঙ্গুর মাটির ফসিল হয়ে থাকে।",
+      "উৎসবের গাম্ভীর্যকে ভেঙে সমাজের ভেতরের অর্থনৈতিক/শ্রেণিবিন্যাসের কাঠিন্যের মাধ্যমে প্রকাশ করা, যেখানে আড়ম্বর কেবল প্রদর্শন মাত্র।"
     ],
     "story_options": [
-      "Setting: Just before dawn on a mid-festival night. Desire: To catch the spectral outline of the expected arrival through dew-laden courtyard tiles. Obstacle: The oppressive silence that feels heavier than noise.",
-      "Setting: Inside an empty, dark room where only one flickering oil lamp burns low. Desire: For the lamp's flame to momentarily transform into a shape resembling Durga’s form while awaiting her entrance. Obstacle: The wax melting unevenly, causing shadows to writhe erratically.",
-      "Setting: On the periphery of the neighborhood boundary wall after late-night gathering ends. Desire: To observe how residual energy (laughter echoes/dust motes) seems heavier in the air where she is expected to appear. Obstacle: The sound of a distant jackal, grounding the divine anticipation back into mortal reality."
+      "একটি বহু-প্রজন্মের পরিবারের সদস্য, যিনি ঐতিহ্যের কঠোর নিয়ম মেনে চলতে গিয়ে নিজের ব্যক্তিগত আকাঙ্ক্ষা (যেমন আধুনিক জীবনধারা) দমিয়ে দিচ্ছেন;setting: বনেদি বাড়ির অন্তঃপুর শাখা, desire: স্বকীয়তাকে বাঁচানো, obstacle: বংশমর্যাদার প্রত্যাশা, turn: তিনি লুকিয়ে কোনো সাধারণ পাড়ার লোকজ অনুষ্ঠানে যোগ দেন।",
+      "একজন তরুণ গবেষক, যিনি এই আড়ম্বরকে কেবল ধর্মীয় প্রথা হিসেবে না দেখে সামাজিক ক্ষমতার একটি জটিল নকশা (power diagram) হিসেবে দেখতে চান;setting: মণ্ডপের পেছনের গোপন বৈঠকের কক্ষ, desire: কাঠামোর আসল চাল খুঁজে বের করা, obstacle: পুরাতন নেতাদের অনমনীয় রক্ষণশীলতা, turn: তিনি হঠাৎ বুঝতে পারেন যে ঐতিহ্যটি নিজেই নিজের জন্য এক ধরনের কারাগার।",
+      "একজন বাইরের মানুষ বা নতুন আগন্তুক যিনি এই উৎসবের আড়ম্বর দেখে মুগ্ধ হলেও এর অন্তর্নিহিত সামাজিক চাপের নীরব ভাষা ধরতে ব্যর্থ হন;setting: গঙ্গার ধারের কোনো জাঁকজমকপূর্ণ প্রাঙ্গণ, desire: সত্যিকারের 'আন্তরিক' ভক্তির স্বাদ পাওয়া, obstacle: লোকদেখানো প্রাচুর্যের চাকচিক্য, turn: তিনি একটি সাধারণ শ্রমজীবী মানুষের সরল মুহূর্তের মাধ্যমে বৃহত্তর সমাজের অন্য দিকটি আবিষ্কার করেন।"
     ],
     "subject_rotations": [
-      "Treating the physical act of looking out not as hope, but as an involuntary habit—a muscle memory of devotion that cannot be stopped.",
-      "Exploring the concept of 'partial presence': The belief that even in absence, a subtle spiritual residue (smell, temperature change) remains where she should be entering.",
-      "Shifting from external waiting to internal confrontation: The speaker wrestling with their own inadequacy or doubt against the monumental promise of her return."
+      "এই উৎসবকে কেবল ধর্মীয় মহিমা হিসেবে নয়, বরং সামাজিক শ্রেণীবিন্যাসের দৃশ্যমান দলিল হিসেবে বিশ্লেষণ করা।",
+      "ঐতিহ্য সংরক্ষণের প্রচেষ্টা ও সেটির কারণে সৃষ্ট ব্যক্তিগত দমবন্ধতার অভ্যন্তরীণ সংগ্রামকে কেন্দ্র করে রচনা করা।"
     ],
     "sensory_details": [
-      "Sight: Observing how the moonlight catches a single strand of dust disturbed by the slightest draft near the threshold.",
-      "Touch: The cool, slick residue of well-oiled brass handles on the door as they are gripped repeatedly in anticipation.",
-      "Sound: A specific, high-pitched insect drone (not ঢাক or general noise) that serves as a persistent, irritating metronome for patience."
+      "ধূপের ধোঁয়া এবং পুরোনো কাঠের আসবাবপত্রের কাঠকয়লার পোড়া গন্ধ মিশ্রিত হয়ে আসা।",
+      "উৎসবের ভিড়ের মধ্যে ভেসে আসা বিভিন্ন মাটির পাত্রে তৈরি খাদ্যদ্রব্যের মিষ্টি ও ঝাঁঝালো মশলার তীব্র ঘ্রাণ।"
     ],
     "research_questions": [
-      "Is there a traditional Bengali metaphor connecting cyclical waiting/patience to the physical state of seeds ripening in autumn?",
-      "How is the concept of 'hesitation' (দ্বিধা) linguistically rendered in devotional poetry when facing divine expectation?"
+      "ঐতিহ্যবাহী আচারের কোন নির্দিষ্ট উপাদানগুলি বংশগত পরিচয়ের সাথে সবচেয়ে দৃঢ়ভাবে যুক্ত এবং কেন?"
     ],
     "structural_variants": [
-      "A sequence where each stanza corresponds to a specific time marker—the passing of one hour, or the darkening/lightening cycle within a single night.",
-      "Structuring it as an overlapping set of short vignettes showing three different aspects of the wait (sound, sight, smell) occurring simultaneously."
+      "এই অধ্যায়টি সম্পূর্ণ বর্ণনামূলক (lyrical exposition) হতে পারে, যেখানে কাহিনির চাল না দিয়ে কেবল পরিবেশ ও সংকেতগুলির ওপর মনোযোগ দেওয়া হবে।",
+      "এক বা একাধিক চরিত্রের দৃষ্টিকোণ থেকে ভিন্নভাবে এই একই উৎসবের বিভিন্ন স্তর চিত্রিত করা যেতে পারে।"
     ],
     "unused_angles": [
-      "Focusing on the mundane domestic chores being performed *not* out of duty, but as a form of ecstatic appeasement to distract from the anxiety of waiting.",
-      "A brief exploration of what happens in the physical world (the village/street) when this specific household is locked in intense vigil."
+      "সম্পূর্ণরূপে অর্থনৈতিক দিক থেকে উৎসবের কাঠামো পরীক্ষা করা—উপহার এবং প্রদর্শনীর বিনিময়ে কী কী লেনদেন হচ্ছে তার গভীরে যাওয়া।"
     ],
-    "variety_note": "Unlike Chapters 1-5 which focus on the anticipation before the visible preparation begins, this chapter isolates a moment of suspended time where hope confronts silence."
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলির আনুষ্ঠানিক বর্ণনা থেকে সরে এসে, এই অংশটিতে সমাজের ভেতরের চাপ ও দ্বন্দ্বের সূক্ষ্ম স্তরগুলো ফুটিয়ে তোলা হবে, যা কেবল বাইরের আড়ম্বর দ্বারা আবৃত থাকে।"
   },
   "draft": {
-    "sha256": "9ee6bf9434392a09ebc22b83675bb4f1929f30183540c64b45ce44407544be8d",
-    "written_at": "2026-10-29T14:55:32.817656+00:00",
+    "sha256": "85c9e968362febb8ee20eb73ff9d27d26f98199c144185fad62ad0b4d2e18124",
+    "written_at": "2026-11-16T08:27:12.888972+00:00",
     "origin": "write"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নীরবতার ভাষা",
+  "segment_summary": "এই চূড়ান্ত নীরবতা কোনো দুর্বলতা নয়, বরং সমস্ত অব্যক্ত যন্ত্রণা ও বিশ্বাসের গভীরতম বহিঃপ্রকাশ।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal conflict as an artisanal process: weaving threads of suffering into a tapestry of resolve (the thread/weaving motif).",
+    "story_option": "Setting: Within a tightly enclosed inner sanctum where light barely penetrates; Desire: To let every exhale carry the accumulated weight of years' doubt, transforming it into kinetic energy; Obstacle: The self-imposed silence that threatens to become final resignation.",
+    "subject_rotation": "Examining the relationship between breath and belief: how shallow breathing signifies doubt while deep inhalation signals acceptance of the ordeal.",
+    "sensory_detail": "A low-frequency hum or vibration felt deep in the sternum when concentration is absolute (a sub-audible resonance).",
+    "research_question": "What archaic Bengali term denotes a state of perfect, exhausted resolve that surpasses mere determination?",
+    "structural_variant": "An enjambed structure where nearly every line breaks precisely at an inflection point or moment of high tension.",
+    "variety_note": "This chapter shifts away from external confrontation (unlike others) into deep interiority, using the thread motif and physical anchors to map the process of unwavering internal resolution right before climax."
+  }
+}

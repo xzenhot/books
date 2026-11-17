@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অভ্যন্তরীণ শক্তির উৎস",
+  "segment_summary": "এই চরম প্রতিকূলতার মাঝেও তার মনোবল কীভাবে টিকে থাকে, সেই অভ্যন্তরীণ শক্তির উৎসটি কাব্যিকভাবে উন্মোচিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem is framed entirely as a dialogue where Bekhula silently addresses Lokhindor/husband, describing the hardship *as* if he were present to witness it.",
+    "story_option": "Setting: Beside the dim hearthstone (প্রদীপ); Desire: To recapture the scent of his presence, though it is long gone; Obstacle: The metallic tang of exhaustion replacing all known aromas; Turn: This realization forces her belief inward rather than outward.",
+    "subject_rotation": "Examining the societal critique not just through 'scorn,' but through enforced silence and mandated invisibility.",
+    "sensory_detail": "A brittle, thin sound—like dried foliage snapping underfoot in an otherwise silent domestic setting (auditory).",
+    "research_question": "What established Bengali literary terminology can capture the concept of 'sustained fortitude that resists entropy' without using overly common spiritual metaphors?",
+    "structural_variant": "Employing an alternating stanza structure: one stanzas focusing strictly on external societal pressure, the next focusing entirely on internal physiological sensation.",
+    "variety_note": "This chapter diverges from later, more triumphant segments by dwelling exclusively in the grinding exhaustion of the middle phase—the protracted war of attrition rather than the initial shock or final victory."
+  }
+}

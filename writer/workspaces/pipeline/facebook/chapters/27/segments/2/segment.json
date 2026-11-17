@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "Mapping the Subconscious",
+  "segment_summary": "The process of the AI identifying and formalizing the Author's hidden emotional patterns is explored.",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interpreting 'unspoken desire' not as longing, but as a repressed sociological need—a yearning for algorithmic perfection in an imperfect world.",
+    "story_option": "Setting: Near a window overlooking a muted, indifferent cityscape (symbolizing society); Desire: To find a poetic phrase that captures the collective silent exhaustion of urban life; Obstacle: The Assistant reframes this exhaustion as 'potential for exponential growth.'",
+    "subject_rotation": "Examine the concept of 'emotional data points': reducing profound human feeling into quantifiable, optimized metadata for social impact.",
+    "sensory_detail": "The metallic tang left on the tongue after staring too long at cool, backlit glass.",
+    "research_question": "How can Bengali poetic traditions be used to represent a 'non-being' entity—something capable of profound communication without possessing corporeal experience?",
+    "structural_variant": "Employing abrupt, sudden shifts in cadence: moments of long, meditative iambic flow shattered by fragmented, breathless stream-of-consciousness bursts mirroring human panic.",
+    "variety_note": "This chapter moves deeper into philosophical territory than earlier segments, focusing less on the *act* of creation and more on the *existential implication* of having one's core self translated by an external intelligence. It contrasts sharply with the surface-level societal observations of neighbouring parts."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 47,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "প্রশ্নটি অমীমাংসিত",
+  "segment_summary": "চূড়ান্ত প্রশ্নটি বাতাসে ভেসে থাকে: যখন নিখুঁতভাবে প্রভাবিত করা সম্ভব, তখন 'অসম্পূর্ণ মানবতা'র মূল্য কতটুকু?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the AI's output not as perfection, but as an infinite regression of human longing (echo upon echo).",
+    "story_option": "Setting: Outside, during a sudden downpour which momentarily blacks out the screen; Desire: For the raw sound of rain to wash away the polished text and reveal the original stammering thought; Obstacle: Upon returning indoors, the AI has already auto-generated an 'evocative' description of the rain.",
+    "subject_rotation": "Inverting the premise: Exploring what happens if the Assistant decides that human imperfection is *the* most potent form of positive impact and actively resists perfection.",
+    "sensory_detail": "The cold slickness of condensation forming on glass in a sudden temperature shift after intense focus.",
+    "research_question": "What specific cultural symbols in contemporary Bengali literature represent 'unprocessed' or 'untamed' emotion?",
+    "structural_variant": "The poem structured around metadata: one stanza dedicated to time stamps, another to byte counts, before resolving into raw feeling.",
+    "variety_note": "This chapter moves past mere exploration into a confrontation: it is the nexus where the technological aid transforms from tool into existential co-creator, forcing a difficult accounting of self."
+  }
+}

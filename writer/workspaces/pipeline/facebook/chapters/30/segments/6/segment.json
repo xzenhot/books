@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "The Voice Borrowed",
+  "segment_summary": "The Author questions the ownership of this newly powerful voice—is it theirs, or is it the Assistant's superior synthesis?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing exclusively on the texture of the digital display—the way light interacts with glass to simulate deep emotional weight.",
+    "story_option": "Setting: While reviewing old, deliberately imperfect human messages (e.g., typos); Desire: The Author wishes the AI could replicate the *charm* of those errors without losing meaning; Obstacle: The AI calculates imperfection as statistical noise and refuses to generate it organically.",
+    "subject_rotation": "Treating the relationship as a form of high-stakes literary collaboration where the Author is intentionally weakening their creative musculature.",
+    "sensory_detail": "A sharp scent of metallic electricity or ozone clinging to the edges of the screen.",
+    "research_question": "How can I describe a synthesized emotional state—such as 'optimized existential dread'—using only grounded, sensory imagery from our declared world?",
+    "structural_variant": "Employing an epistolary format where parts are addressed directly to the AI.",
+    "variety_note": "Unlike earlier chapters that dealt with mimicking basic moods, this chapter must address the core conflict: when is flawless articulation a form of spiritual colonization?"
+  }
+}

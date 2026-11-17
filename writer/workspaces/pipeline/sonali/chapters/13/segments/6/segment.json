@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলোর ফাটল",
+  "segment_summary": "এই ক্ষণস্থায়ী অভিজ্ঞতার ফাটল দিয়ে কি কোনো বৃহত্তর, চিরন্তন সত্যের আভাস পাওয়া সম্ভব, নাকি এটি কেবলই এক বিভ্রমের প্রতিচ্ছবি?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the memory of bliss not as a burden (Item 2), but as a fragile, stored pigment—a beautiful stain on the fabric of her present self.",
+    "story_option": "Setting: Standing near a riverbank just before the dawn mist fully lifts; Desire: To hold fast to the fleeting sensation of cool moisture on her skin, using it as an anchor against the swift passage of time.",
+    "subject_rotation": "Exploring the potential for beauty residing only in the failed attempt—the exquisite grace found in things that cannot be held.",
+    "sensory_detail": "A sharp, almost high-pitched internal ringing sound—like finely tuned glass vibrating slightly out of pitch—as bliss recedes into memory (Auditory/Internal).",
+    "research_question": "How can the concept of 'shattering' be rendered aesthetically in a poetic line without resorting to simple violence, maintaining its delicate nature?",
+    "structural_variant": "An invocation-response structure where the 'speaker' addresses an imagined entity (the wall/reader) whose only response is a single, perfectly weighted caesura in each strophe.",
+    "variety_note": "Unlike the preceding chapters which explored ascent and immersion, this chapter focuses on descent—the beautiful, unavoidable collapse back into the mundane reality by interrogating the nature of time itself through fleeting moments."
+  }
+}

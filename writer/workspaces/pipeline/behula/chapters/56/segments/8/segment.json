@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় অধ্যায়ের সমাপ্তি",
+  "segment_summary": "এই মহাকাব্যিক সংগ্রাম বেহুলার জীবনকে কেবল ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় অধ্যায় হিসেবে গেঁথে দেয়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the returned husband not as a savior, but as an accidental mirror reflecting her own hard-won metamorphic state.",
+    "story_option": "Setting: Beneath the same sliver of sky that bore witness to her darkest solitary hour; Desire: A silent acknowledgment between them, free from dialectic or explanation; Obstacle: The need for public validation of their bond.",
+    "subject_rotation": "Examining the nature of their love as something fundamentally *transgressive* to the era's established social norms.",
+    "sensory_detail": "The brittle sound of old silk shifting as she moves after long periods of physical restraint; (Auditory)",
+    "research_question": "Can a specific metaphor be found in classical Bengali literature describing fortitude that is intensely personal yet achieves universal resonance?",
+    "structural_variant": "Alternating between intense metaphysical pronouncements (Jibran/Orilase style) and grounded, almost prosaic observations of domestic reality.",
+    "variety_note": "This chapter shifts the thematic energy from active endurance against chaos (previous chapters) to the complex, loaded silence and integration following ultimate perceived success."
+  }
+}

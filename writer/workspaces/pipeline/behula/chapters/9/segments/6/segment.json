@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "মানসিকতার দৃঢ়তা",
+  "segment_summary": "শারীরিক কষ্টের মাঝেও তার মানসিক দৃঢ়তা কীভাবে এই পবিত্র ধারণার ওপর প্রতিষ্ঠিত, তা তুলে ধরা হয়।",
+  "name": "6",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal monologue directed at the *unreachable echo*—the beloved whose presence is felt only in the memory of his scent or touch, forcing a meditation on absence defining perfection.",
+    "story_option": "Setting: At the boundary stone mentioned in previous segments, Desire: Not to confront society with words, but to physically manifest her vow by marking it onto the earth itself.",
+    "subject_rotation": "Analyzing how her purity becomes the only stable element in a chaotic world defined by societal rumour and judgment.",
+    "sensory_detail": "A specific sound: the rhythmic *thud* of a solitary pestle grinding spices in isolation.",
+    "research_question": "Can I find suitable diction that expresses 'unshakeable resolve' without resorting to overly aggressive or combative language?",
+    "structural_variant": "Using an alternating pattern: one stanza describing external social friction (sharp diction), followed by the next depicting internal sacred stillness (soft, dense diction).",
+    "variety_note": "This chapter shifts from external struggle (previous chapters) to internal ontological assertion; the focus is less on *fighting* and more on *being*, making the sanctity its primary force."
+  }
+}

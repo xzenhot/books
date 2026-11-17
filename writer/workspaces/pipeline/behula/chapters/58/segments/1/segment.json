@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 58,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "The Shadow of Absence",
+  "segment_summary": "The initial segment establishes the profound emptiness left by Lakhindar's departure, framing it as a sudden, devastating silence in the heart's sanctuary.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "স্থির বা অব্যক্ত দর্শকের প্রতি সরাসরি সম্বোধন (দেয়ালের উদ্দেশ্যে বলা কবিতা), যেখানে উত্তর প্রত্যাশিত কিন্তু কখনোই আসে না।",
+    "story_option": "একটি মুহূর্ত যেখানে বেহুলার ভেতরের 'অগ্নির দীপশিখা' হঠাৎ বাইরের সমস্ত শব্দের বিপরীতে এত প্রবল হয়ে ওঠে যে তা চারপাশের সন্দেহ ও কটূক্তিকে কেবল শব্দ নয়, বরং বর্ণ বা আকৃতিতে বিকৃত করে দেয়।",
+    "subject_rotation": "সংগ্রামকে 'চূড়ান্ত বিজয়' হিসেবে না দেখে, এটিকে একটি অনিবার্য, অবিরাম মানসিক স্থিতাবস্থা (enduring state) হিসেবে উপস্থাপন করা।",
+    "sensory_detail": "ক্লান্ত শরীরের উপর জমে থাকা ধূলিকণার শীতল, ভারী স্পর্শ (Tactile) যা সময়ের ভার বোঝায়।",
+    "research_question": "বাংলা সাহিত্যের কোন শব্দ বা ভাবধারা এমনভাবে 'অসহ্য যন্ত্রণা যা স্থায়ী রূপ ধারণ করে' (grief made permanent) বোঝায় যা প্রচলিত দুঃখের চেয়ে বেশি গভীর?",
+    "structural_variant": "প্রতিটি স্তবককে একটি 'প্রশ্ন-উত্তর' চক্রাকারে সাজানো যেখানে প্রশ্নটি আগের অংশের দার্শনিক প্রতিধ্বনি হওয়া উচিত, কিন্তু উত্তর কখনোই প্রকাশিত হবে না।",
+    "variety_note": "এই পর্বটি পূর্ববর্তী সংগ্রাম পর্বগুলো থেকে সরে এসে সম্পূর্ণ অভ্যন্তরীণ মনোবিশ্লেষণের দিকে ঝুঁকছে; এখানে প্রধান মনোযোগ বাহ্যিক ঘটনা নয়, বরং অন্তরের 'অগ্নির দীপশিখা' এবং তার 주변ের গাঢ় অন্ধকারময় শূন্যতার দার্শনিক সংলাপ নির্মাণে দেওয়া হচ্ছে।"
+  }
 }

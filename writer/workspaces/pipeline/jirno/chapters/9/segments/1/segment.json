@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "নীরবতার ভাষা",
+  "segment_summary": "সাঁওতাল প্রবীণরা কোনো উপদেশ দেন না, কেবল তাদের স্থির উপস্থিতির মাধ্যমে এক গভীর, শান্ত স্বীকৃতি প্রদান করেন যা পথিককে দ্বিধাগ্রস্ত করে তোলে।",
+  "name": "9.1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The subtle interplay between the Satual elders' non-verbal communication and the traveler's over-reliance on verbal categorization.",
+    "story_option": "Setting: The perimeter line between the ruin and the paddy fields, Desire: To understand if the land itself grants consent to human endeavor or actively rejects it, Obstacle: A specific ancestral boundary marker that resists all contemporary measurement.",
+    "subject_rotation": "Shifting focus from 'indifference' (as a philosophical state) to 'active acceptance'—how the Satual community *acts* in ways that preserve entropy.",
+    "sensory_detail": "The scent of dry earth mixed with woodsmoke, which is neither comforting nor threatening, merely present and vast.",
+    "research_question": "How do local oral traditions describe 'necessary pauses' or incomplete cycles within indigenous cosmology to differentiate them from failure?",
+    "structural_variant": "A cyclical structure mirroring a breath—inhale the silence, exhale the internal conflict.",
+    "variety_note": "This chapter pivots entirely away from the destruction (previous chapters) and externalizing conflict; it focuses inward by using the elders not as guides, but as mirrors reflecting the traveler's own internal limitations in highly distilled terms."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 74,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রতীকী রূপান্তর",
+  "segment_summary": "ব্যক্তিগত ট্র্যাজেডি থেকে মহাকাব্যিক প্রতীকে রূপান্তরের প্রক্রিয়াটি এখানে দেখানো হয়েছে, যেখানে দুঃখই প্রেরণার উৎস হয়ে ওঠে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the linguistic weight of silence; making unspoken desires and social condemnations into physically palpable sonic textures (e.g., high-pitched whine of suppressed grievance).",
+    "story_option": "Scene Seed: During enforced stillness, her inner dialogue shifts entirely to mimic the cadence of ancient funerary chants, using this sonic echo to override any incoming societal chatter.",
+    "subject_rotation": "Focusing on the entropy: How does sustained purity react to constant corrosive external pressure? Examining the *rate* of decay vs. the rate of defiance.",
+    "sensory_detail": "The faint, metallic tang of regret mixed with jasmine carried on the slightest night breeze (smell).",
+    "research_question": "What specific archaic Bengali vocabulary can convey 'unyielding ethical scaffolding' without being overly formal or abstract?",
+    "structural_variant": "A circular structure where Segment 8 (the existential question) loops back into the initial emotional state of Segment 1, but with the phrasing inverted—where sorrow now anticipates action.",
+    "variety_note": "This chapter moves beyond the initial shock (Chapter 1) by rigorously examining *how* that shock is processed and transformed, focusing heavily on the societal friction points rather than just the internal resolve."
+  }
+}

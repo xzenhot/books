@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ভাষার অনন্ত শক্তি",
+  "segment_summary": "এই অধ্যায়টি দার্শনিক স্তরে প্রবেশ করে, যেখানে ক্ষমতা ক্ষণস্থায়ী হলেও ভাষার শক্তি চিরন্তন, যা মানব আত্মার মহিমাকে অক্ষুণ্ণ রাখে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "বস্তু বনাম শব্দ: ডেভিসের রিপোর্ট বা জমির অভাবকে একটি 'অশ্রুর প্রতিচ্ছবি' হিসেবে উপস্থাপন করা; শূন্যতাকে এমনভাবে চিত্রিত করা যেন তা নিজেই এক বিশাল আকারের প্রতীকী মূর্তি।",
+    "story_option": "Setting: রাত গভীর, যখন জওক ও গালিবের স্মৃতি কেবল এক ভৌতিক গুঞ্জন; Desire: সম্রাট তাঁর শেষ গজলের কোনো একটি শব্দকে এমনভাবে উচ্চারণ করতে চান যা ইতিহাসের সমস্ত কাঠিন্য ভেঙে দিতে পারে; Obstacle: কণ্ঠস্বরটি যেন কেবল ক্ষীণতম 'pension' পঞ্জির সাক্ষরীকরণের মতো শোনায়।",
+    "subject_rotation": "Explaining 'Zafar' not through victory, but through the endurance of linguistic precision against administrative vagueness.",
+    "sensory_detail": "স্পর্শগত চিত্র: বহু বছরের জমে থাকা ধুলোর dưới অতি সূক্ষ্মভাবে হাত বুলিয়ে নিলে মনে হওয়া সেই চাপা ইতিহাসের উষ্ণতা।",
+    "research_question": "সাহিত্যে ব্যবহৃত কোনো অপ্রচলিত, পুরাতন বাংলা তৎসম শব্দ কি ঔপনিবেশিক শাসকের নথিপত্র থেকে সম্পূর্ণ ভিন্ন ধ্বনিগত মান বহন করে যা কাব্যিকভাবে ব্যবহার করা যেতে পারে?",
+    "structural_variant": "A 'call-and-response' structure where a cold administrative fragment is immediately followed by an overwhelming outpouring of highly ornate diction.",
+    "variety_note": "Unlike previous chapters focused on defining moments (revolt/execution), this chapter must exist in the aftermath—a realm purely defined by semantic survival and philosophical echo, maintaining a low, watchful register."
+  }
+}

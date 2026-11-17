@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "তেলের অনুরণন",
+  "segment_summary": "সরিষার তেলের সেই আদিম, ঝাঁঝালো গন্ধের সঙ্গে প্রবাসের অচেনা তেলের গন্ধের তুলনা করা হবে, যা কেবল রাসায়নিক প্রতিস্থাপন নয়, বরং স্মৃতির একটি ভাঙন।",
+  "name": "2",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Personifying the 'nose' (নাক) as the reluctant cartographer of lost landscapes; it maps terrain only when stimulated by its native aroma.",
+    "story_option": "The 'I' holds a piece of dry dough, examining it under harsh light. The scent potential exists but cannot manifest fully—a perfect structure awaiting an unavailable catalyst (Setting: A sterile counter; Desire: For the molecular perfection to bloom; Obstacle: Inertia and foreign air quality; Turn: A moment where the desire itself becomes bitter).",
+    "subject_rotation": "Focusing less on *what* the smell is and more on *how* the mechanism of remembering itself becomes corrupted or warped by distance.",
+    "sensory_detail": "The abrasive grit left on the tongue after attempting to replicate a delicate spice blend with inferior, standardized components; (Tactile/Taste)",
+    "research_question": "How can the cadence and rhythm mimic the physiological action of deep inhalation and subsequent dispersal?",
+    "structural_variant": "A structure based on sensory deconstruction: first analyzing 'what' is smelled, then 'how' the brain processes it, finally what emotion remains.",
+    "variety_note": "Unlike adjacent chapters that focus on the ingredients (oil, potato) or the cultural transition, this chapter isolates the *mechanism* of sensory recall itself—the bridge between chemistry and soul."
+  }
+}

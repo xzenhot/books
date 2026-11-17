@@ -10,29 +10,223 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-কলকাতার মোড়ের কথা
+অসমাপ্ত স্বাদ
 
 ## chapter_summary
 
-কলকাতার মোড়ের কথা মনে আসে, লালকমল, সন্ধ্যার ভিড়, কড়াইয়ের শব্দ। রাস্তার নাম নয়, সেই গন্ধই ফিরে আসে।
+এই অধ্যায়টি সেই গভীর শূন্যতাকে অনুসন্ধান করে যা সামোসা শেষ হওয়ার পরেও জিভে থেকে যায়; এটি কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি। এখানে 'আমি' সেই অটুট আকাঙ্ক্ষার প্রতীক হিসেবে আবির্ভূত হয়, যা স্মৃতিতে বিদ্যমান নিখুঁত সিঙ্গাড়াটির জন্য অপেক্ষা করে। এই কাব্যিক অনুসন্ধানটি প্রশ্ন তোলে যে, স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা আত্মার গভীরে ভাজা এক অমীমাংসিত অভিজ্ঞতার অংশ।
 
 ## further_references
 
+
+## segments
+
 ### Item 1
 
-#### no
+#### segment_index
 
 1
 
-#### reference
+#### name
 
-কলকাতার নির্দিষ্ট কোনো মোড়ের আবহ এবং তার প্রতীকী অর্থ
+1
 
-#### weblink
+#### word_target
+
+500
+
+#### segment_title
+
+শূন্যতার অনুরণন
+
+#### segment_summary
+
+সামোসাটির শেষ টুকরো গিলে ফেলার পরেও জিভে যে গভীর শূন্যতাটি থেকে যায়, তা কেবল পেট ভরের অভাব নয়, বরং একটি সম্পূর্ণ সাংস্কৃতিক অভিজ্ঞতার অনুপস্থিতি।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্মৃতির ভার
+
+#### segment_summary
+
+এই শূন্যতাটি অতীতের সেই নির্দিষ্ট মুহূর্তগুলোর ভার বহন করে, যখন সিঙ্গাড়াটি কেবল একটি খাবার ছিল না, বরং একটি নির্দিষ্ট সময়ের জীবন্ত প্রতিচ্ছবি।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষা বনাম সমাপ্তি
+
+#### segment_summary
+
+এই অধ্যায়ে সমাপ্তির পরেও যে তীব্র আকাঙ্ক্ষা বিরাজ করে, তা সেই নিখুঁত স্বাদের জন্য এক স্থির, কিন্তু অবিরাম প্রতীক্ষার রূপ নেয়।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+রাসায়নিক ও আত্মিক বিভাজন
+
+#### segment_summary
+
+কাব্যটি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে দেখার ধারণাকে চ্যালেঞ্জ করে, যেখানে এটি মানবিক অভিজ্ঞতার একটি গভীরতম স্তরকে স্পর্শ করে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+হারানো গন্ধের প্রতিধ্বনি
+
+#### segment_summary
+
+জিভের স্মৃতি কীভাবে ঘ্রাণ-স্মৃতির মাধ্যমে মস্তিষ্কের গভীরে একটি সম্পূর্ণ পরিবেশকে ফিরিয়ে আনে, সেই দার্শনিক সংযোগটি এখানে চিত্রিত হয়।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনুবাদিত স্বাদের যন্ত্রণা
+
+#### segment_summary
+
+এই স্বাদটি কখনও তার আদি রূপ ফিরে পাবে না, এটি চিরকাল একটি 'অনুবাদিত' বা আংশিক অভিজ্ঞতার প্রতীক হয়েই থেকে যাবে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মার ভাজা অংশ
+
+#### segment_summary
+
+এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক দূরত্ব অতিক্রম করতে পারে না।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+মধুর বিষাদের স্থিরতা
+
+#### segment_summary
+
+পাঠককে কোনো চূড়ান্ত উত্তর না দিয়ে, এই অধ্যায়টি এক ধরনের 'মধুর বিষাদ'-এর অনুভূতিতে স্থির করে, যা হারানো স্বাদের প্রতিচ্ছবি।
+
+#### further_references
 
 
 ## level
@@ -43,52 +237,47 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Focusing on the auditory memory: treating the specific din of a Kolkata intersection (autos, hawkers) not as noise pollution, but as a unique counter-rhythm to the internal silence of diaspora.
-- The speaker addressing an absent figure—a friend or sibling who was present at that 'Moor'—and using their imagined reaction (or lack thereof) to define the current reality.
-- Employing a sudden structural shift from rich, detailed memory (the peak sensory overload of the past) into stark, desolate simplicity (the functional emptiness of the present moment).
+- Focusing the entire poem on a single, heat-warped speck of oil residue left on the teeth after consumption.
+- Adopting the narrative perspective of the 'anticipation' itself—the feeling that precedes the bite, making the actual taste irrelevant.
+- Treating the residual emptiness not as absence, but as a dense, almost black substance holding compressed memory.
 
 ### story_options
 
-- Setting: A crowded street corner echoing with old sounds; Desire: To physically locate one specific aroma—perhaps a particular spice blend that lingers from those days; Obstacle: The scent has been universally replaced by modern exhaust and synthetic smoke.
-- Setting: An empty, tiled pavement mirroring the architecture of a past Kolkata moment; Desire: To catch the fleeting shadow or echo of an absent conversational partner to confirm their presence; Obstacle: The light shifts too quickly, dissolving any corporeal trace into mere memory dust.
-- Setting: Standing near a worn-out *tasher dokan* (shop) in memory; Desire: To witness one last vendor preparing the perfect batch while acknowledging its irretrievable past; Obstacle: The current generation of vendors operates with impersonal, mechanical speed, bypassing tradition.
+- The speaker examines an old, chipped ceramic *thala* where the last piece was eaten; Desire: To find the faint saffron stain that holds the scent of distant ancestors; Obstacle: The residue is chemically dulled by foreign grease.
+- A scene focused on a single, perfect line etched into the aluminum packaging (if applicable); Desire: To trace that line back to the mother's hand shaping the dough; Obstacle: The etching symbolizes mass production, not heritage.
+- The 'I' personifies the lingering flavor as a ghost haunting the empty stomach after the meal is done; Desire: For this spectral taste to speak one definitive word about home; Obstacle: It only manages muffled sounds of old Bengali dialects.
 
 ### subject_rotations
 
-- Treating 'কলকাতার মোড়' not as a location, but as a state of being—a collective cultural pressure cooker that the self temporarily escaped during migration.
-- Analyzing the soundscape itself: how the specific phonetic quality of Bengali spoken at that juncture has been permanently altered by geography and time (linguistic diaspora).
-- Reframing the memory as a deliberate act of resistance; reclaiming the vibrancy of that past moment against the homogenizing force of the new, anonymous landscape.
+- Treating 'aspiration' not as future hope, but as the weight of unfulfilled past moments clinging to the palate.
+- Examining the internal conflict where logic dictates satisfaction (food is eaten) while emotion registers profound lack (the memory fails to materialize).
+- Shifting focus from the consumption act to the preparation—how perfection in the making guarantees a flaw in the remembering.
 
 ### sensory_details
 
-- The specific gritty feel of dust carried by the humid air near an old junction.
-- The sharp, metallic tang mixed with savory smoke lingering after a burst of frying oil on the street corner.
-- The visual contrast between deeply saturated colors (old signage) and the faded palette of contemporary utility.
+- The gritty, metallic aftertaste left when saliva mixes with foreign seasoning dust.
+- A fleeting vision of specific sunlight angle hitting an earthen stove (chula) before dissolving into ambient urban haze.
+- The slight, almost painful ache in the jaw muscles from over-chewing a phantom flavor.
 
 ### research_questions
 
-- What specific sonic qualities—beyond general 'noise'—are unique to vintage Kolkata street commerce that might differentiate it from modern city soundscapes?
-- How can I linguistically evoke a sense of temporal layering within dialogue fragments, implying conversation with someone absent in the immediate present?
-- Are there particular Bengali idioms associated with high-density urban sensory overload that could serve as a structural anchor?
+- What precise Bengali word captures the feeling of taste recognition being present yet unreachable due to cultural displacement?
+- How can I integrate high diction (তৎসম) with low-register hunger/craving without letting either tone overpower the nuanced sweetness of melancholy?
 
 ### structural_variants
 
-- A poem structured around cyclical repetition: recalling a moment of intense flavour/sound, followed by an abrupt thematic pause (the volta), and then reintroducing the sound/flavour but infused with melancholic resignation.
-- An address that starts intensely personal ('I recall...') and rapidly generalizes to encompass all those who shared that 'Moor' as a cultural anchor before migration.
+- A structure built around ascending and descending scales of perceived flavor intensity, mapping a peak memory followed by exponential decay.
+- Alternating between highly detailed descriptions of the empty mouth (internal) and vast, anonymous landscapes (external setting where the speaker resides).
 
 ### unused_angles
 
-- The potential for this chapter to pivot into an explicit critique of urban decay, using the intersection as a primary metaphor for structural failure in selfhood.
-- Focusing on specific pedestrian behaviors observed at that spot—the way people paused, waited, or moved with inherited rhythm.
+- A focus on the physical act of swallowing as a metaphor for assimilation—forcing old identity down into new biology.
+- Treating the 'samosa' skin itself as a fragile membrane between two realities.
 
 ### variety_note
 
-While earlier chapters focused internally on the preparation and the object (Samosa/Singara), this chapter shifts outward to map a complex, external, shared cultural geography before turning inward again for its final resignation.
+This chapter contrasts sharply with discussions of market chaos (Neighbour 1/2) by retreating entirely inward, focusing on the post-consumption void rather than the sensory input during eating. It leans into philosophical resonance over narrative action.

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 12,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "জলাধারের শীতল আহ্বান",
+  "segment_summary": "প্রতিমার বিশাল কাঠামো যখন ধীরে ধীরে জলাধারের শীতল জলে প্রবেশ করে, তখন তার মাটির শরীর যেন প্রকৃতির কোলে আত্মসমর্পণ করে এক করুণ নৃত্য শুরু করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the thread metaphor: The thin strand of clay/ritual string that is pulled into the water, becoming momentarily invisible but never truly lost.",
+    "story_option": "Setting: The precise surface of the water where the idol submerges; Desire: To see the deity's *actual* face dissolving into the ripples, defying narrative artifice., Obstacle: The vast, indifferent depth that threatens to absorb memory entirely.",
+    "subject_rotation": "Shifting focus entirely from Durga's power to the collective act of *letting go* (the social catharsis required by all communities).",
+    "sensory_detail": "The faint metallic scent rising from disturbed silt and mud mixed with cooling temple water.",
+    "research_question": "What specific traditional Bengali term describes the exact moment ritual energy transitions from communal performance to private absorption during Visarjan?",
+    "structural_variant": "A non-linear structure: rapidly cycling between macrocosmic view (the full body sinking) and microcosmic focus (a single droplet of water).",
+    "variety_note": "This chapter differs by adopting a posture of profound resignation; unlike the preceding segments which deal with action (creation/celebration), this is entirely about *unmaking* and quiet reception."
+  }
 }

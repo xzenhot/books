@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার স্থবিরতা",
+  "segment_summary": "প্রবাসের ধূসর পটভূমিতে, সেই নিখুঁত সিঙ্গাড়াটির জন্য অপেক্ষা একটি স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক হয়ে দাঁড়িয়ে থাকে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the lingering taste not as sadness, but as a form of inherited language—the tongue recalling dialects no longer spoken.",
+    "story_option": "Setting: A worn wooden table in a cramped apartment; Desire: To try and physically map the memory of the original mustard oil scent onto the grain of the wood; Obstacle: The foreign environment subtly overwrites every sensory input.",
+    "subject_rotation": "Treating the void left by consumption not as lack, but as a necessary negative space—the canvas upon which all future yearning is projected.",
+    "sensory_detail": "Sight: The way muted city smog distorts the sharp gold of remembered saffron.",
+    "research_question": "What specific archaic Bengali descriptor perfectly captures the simultaneous existence of yearning and satiation?",
+    "structural_variant": "A cyclical structure mirroring digestion and subsequent craving—starting at consumption and ending back at anticipation.",
+    "variety_note": "This chapter moves beyond mere flavor description; it uses the residual emptiness after consumption—the savory void—as its primary emotional and philosophical texture, differentiating itself from neighbourly explorations of food preparation."
+  }
+}

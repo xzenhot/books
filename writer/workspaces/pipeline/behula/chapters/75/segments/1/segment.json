@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 75,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ব্যক্তিগত আর্তনাদ",
+  "segment_summary": "বেহুলার হৃদয়ের গভীরতম বেদনা, যা তার ব্যক্তিগত জীবনে নেমে আসা প্রতিটি আঘাতের প্রতিধ্বনি বহন করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the quiet exhaustion required to perform strength in public while feeling crumbling internally.",
+    "story_option": "Setting: The threshold between the courtyard and darkness; Desire: To silently anchor her sorrow to the earth itself; Obstacle: The encroaching whispers disguised as communal advice.",
+    "subject_rotation": "Rotating the focus from 'endurance' (withstanding) to 'transmutation' (changing the suffering into something new).",
+    "sensory_detail": "The specific chill felt when an unsaid censure passes through the air, colder than winter rain (tactile/thermal).",
+    "research_question": "What specific archaic Bengali vocabulary can convey 'sustained internal resistance' without sounding melodramatic or purely abstract?",
+    "structural_variant": "Employing a sudden, violent rupture in rhythm mid-segment whenever she confronts social gaze (breaking the expected smooth cadence).",
+    "variety_note": "Unlike previous chapters which focused on initial shock or external judgment, this chapter focuses specifically on the metabolic cost—the active energy expenditure—of maintaining symbolic fortitude against constant societal attrition."
+  }
 }

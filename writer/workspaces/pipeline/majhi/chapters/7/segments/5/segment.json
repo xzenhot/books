@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য সংযোগ",
+  "segment_summary": "তরুণী মাঝির সাথে এক অদৃশ্য সংযোগ অনুভব করে, যা আর্থিক লেনদেন বা সামাজিক শ্রেণিবিন্যাসকে সম্পূর্ণভাবে অতিক্রম করে যায়।",
+  "name": "7.5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence that settles between them—the unspoken understanding bypassing language and commerce.",
+    "story_option": "The narrator describes the way sunlight catches the specific patina of age on the wooden hull—a 'pigment' of untold journeys—as she watches him row.",
+    "subject_rotation": "Examining the dialectical tension between the transient nature of artistic beauty (the light, the moment) and the enduring permanence sought by economic structures.",
+    "sensory_detail": "The specific texture of wet jute fibers clinging to the riverbank where she stands; an earthy, slightly sweet scent.",
+    "research_question": "What specific traditional Bengali materials or processes would a skilled artisan use to capture the texture of aged river wood in detailed sketches?",
+    "structural_variant": "Alternating between highly lyrical stanzas focused on her perception and starker, almost prosaic lines describing the physical mechanics of the oars.",
+    "variety_note": "This chapter contrasts the objective external pressures seen previously by framing the majhi through an intensely subjective, aesthetic lens, focusing on how perception can elevate mere labor to art before grounding that elevation in economic reality."
+  }
+}

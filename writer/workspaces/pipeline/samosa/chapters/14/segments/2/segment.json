@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অনুবাদিত স্বাদের ভার",
+  "segment_summary": "এই খাবারটি কি চিরকাল একটি 'অনুবাদিত' স্বাদ হয়েই থেকে যাবে, যা কেবল স্মৃতিতে বিদ্যমান, বাস্তবে নয়?",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A focus on the *silence* around the act of eating—the absence of familiar domestic noise (child chatter, specific cooking sounds) that frames the current experience as inherently incomplete.",
+    "story_option": "Setting: Beside a worn ledger detailing supply costs in a foreign city market; Desire: To reverse-engineer the exact composition—the precise measure of 'diidha' (mother's touch) in the mixture; Obstacle: Economic necessity forcing substitutions that corrupt the flavor profile.",
+    "subject_rotation": "A meditation on linguistic inertia: How even when we speak 'samosa,' the underlying neurological expectation pulls us toward the vocabulary of 'singara'.",
+    "sensory_detail": "The visual contrast between the deep, saturated ochre of remembered filling and the paler, washed-out hue of its contemporary counterpart.",
+    "research_question": "How does the concept of 'perfect heat' (আঁচ) translate when using different electrical or gas heating systems abroad, impacting textural integrity?",
+    "structural_variant": "An external, observed narrative focusing on a shop owner who understands this conflict through commercial transactions.",
+    "variety_note": "This chapter deepens the philosophical rift begun in earlier pieces by moving from mere description of taste loss to an inquiry into ontological status, a shift away from simple geographical displacement."
+  }
+}

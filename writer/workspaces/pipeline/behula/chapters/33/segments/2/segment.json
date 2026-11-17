@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 33,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার চূড়ান্ত 승리",
+  "segment_summary": "এই প্রত্যাবর্তন কেবল একটি ঘটনা নয়, বরং এটি মানব আত্মার সেই আদিম স্পন্দনের বিজয়, যা চরম প্রতিকূলতার মুখেও তার ভেতরের দীপশিখা নিভতে দেয়নি।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the void: Framing the entire poem as a dialogue spoken to an unseen/absent figure—Lkhindor who has returned but whose response remains eternally unheard.",
+    "story_option": "Setting: Inside an ancient, sealed-off chamber of the homestead (lhouho bashorghor analogue), untouched by sunlight; Desire: To share a moment where they acknowledge that survival has permanently altered their internal chemistry; Obstacle: The pressure to resume conventional life roles.",
+    "subject_rotation": "Focus on the Unspoken Treaty: Treating the marriage bond (sathjanom) less as romance and more as a solemn pact against societal chaos, tested by elemental forces.",
+    "sensory_detail": "The feeling of cold, anchored permanence when touching weathered river clay from their vigil (touch).",
+    "research_question": "How can 'ontological necessity' be rendered in evocative Bangla diction without sounding purely academic?",
+    "structural_variant": "Alternating between intensely visual, static imagery (the landscape) and rapid, kinetic internal thought streams.",
+    "variety_note": "Unlike earlier chapters focused on battle and tension, this piece rests entirely in 'residue'; the poetry must evoke an aftermath characterized by heavy silence rather than ecstatic release."
+  }
+}

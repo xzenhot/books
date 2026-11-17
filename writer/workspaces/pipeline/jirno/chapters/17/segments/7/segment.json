@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নিয়ন্ত্রণের পতন",
+  "segment_summary": "তার 'উদ্ধারকর্তা' হওয়ার বাসনা আসলে এক ধরনের নিয়ন্ত্রণ আরোপের প্রচেষ্টা ছিল, যা প্রকৃতির বিশালতার সামনে তুচ্ছ প্রমাণিত হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the entire dilemma through the lens of geological time versus human memory—the castle as a fleeting epidermal layer on ancient earth.",
+    "story_option": "Setting: Within a single, impossibly resilient thorn bush near the ruined courtyard; Desire: To feel the thorns as analogues for unassimilated human sorrow; Obstacle: The knowledge that cutting them would signify 'solving' the mystery.",
+    "subject_rotation": "Reinterpreting 'limit' (সীমারেখা) not as a boundary drawn between two things (self/other), but the internal calibration of one's own perception.",
+    "sensory_detail": "Smell: The sharp, mineral scent of iron oxide dust disturbed by sudden gusts, like dried, rusty blood.",
+    "research_question": "How can the cadence mimic that of hushed confessions rather than declarative pronouncements in Bengali poetry?",
+    "structural_variant": "A circular structure where segment 8’s quiet departure bleeds back into a fragmented echo of segment 1’s initial observation.",
+    "variety_note": "Unlike earlier chapters focused heavily on internal questioning (segments 1-7), this sequence shifts the locus of action outward, making the external forces—the sky, the people, the earth—active agents demanding a final concession from the protagonist."
+  }
+}

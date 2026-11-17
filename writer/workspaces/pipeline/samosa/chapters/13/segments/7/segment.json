@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ততার কাব্য",
+  "segment_summary": "এই অধ্যায়টি সেই অসমাপ্ত স্বাদের কাব্যিকতাকে উদযাপন করে, যা কখনোই সম্পূর্ণতা লাভ করতে পারে না।",
+  "name": "7",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Tracing the metaphorical 'thread' of continuity: How does one single thread—like a spice fiber or a grain of flour—connect the perfectly formed Singara to the compromised Samosa across continents?",
+    "story_option": "Setting: A single thread of oil dripping slowly in a quiet, unfamiliar frying pan; Desire: To catch that drop on one's tongue before it dissolves into homogenized modern fat; Obstacle: The persistent vibration of the city traffic preventing stillness.",
+    "subject_rotation": "Treating 'Waiting' not as passive anticipation, but as an active, tensile force that strains the boundaries between past and present.",
+    "sensory_detail": "The taut, almost brittle feel of an unwrapped piece of cardboard used for presentation, humming faintly under pressure.",
+    "research_question": "How can 'thread' be maintained as the central structural motif throughout all eight segments without becoming overtly ornamental?",
+    "structural_variant": "A highly interwoven structure where the ending phrase of one segment bleeds seamlessly into the starting image/concept of the next.",
+    "variety_note": "This chapter contrasts sharply with earlier segments by shifting focus from the *act* of creation/loss to the sustained, static endurance of desire itself; it utilizes the thread metaphor as a unifying tension across all sub-themes."
+  }
+}

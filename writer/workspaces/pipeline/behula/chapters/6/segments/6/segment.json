@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ক্লান্তির ঊর্ধ্বে যাত্রা",
+  "segment_summary": "শারীরিক ও মানসিক অবসাদের আবরণে ঢাকা থাকলেও, তার যাত্রা থেমে যায় না; এটি এক অনিবার্য, গতিশীল প্রবাহ।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Re-framing exhaustion not as failure, but as the necessary crucible preceding ultimate strength—the weariness is a testament to sustained effort.",
+    "story_option": "Setting: During a moment of profound physical fatigue after tending domestic duties; Desire: A complete sensory void, cessation of feeling all input (Obstacle: Persistent, low-grade ache in her limbs signifying constant tension); Turn: She finds strange clarity amidst the pain.",
+    "subject_rotation": "Viewing 'inner fire' strictly through chemistry/alchemy: The slow, painful transformation of raw sorrow (lead) into resilient spirit (gold).",
+    "sensory_detail": "A low, vibrating hum felt in the bones when all external sound ceases.",
+    "research_question": "Can I find diction that conveys profound fatigue as a state of spiritual density rather than simple physical depletion?",
+    "structural_variant": "Creating nested cantos where each inner thought repeats a core sensory detail from the preceding segment before evolving.",
+    "variety_note": "Unlike chapters focusing on external pressure or cosmic testing, this piece centers entirely on the *internal physics* of resilience—the sheer mechanics of continuing when all evidence suggests collapse is inevitable. It pivots from 'trial' to 'tenacity'."
+  }
+}

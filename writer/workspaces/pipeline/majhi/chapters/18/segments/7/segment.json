@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "শান্ত কিন্তু দৃঢ় আশাবাদ",
+  "segment_summary": "ক্লান্তি সত্ত্বেও, মাঝির মধ্যে এক গভীর এবং স্থির আশাবাদ জেগে ওঠে, যা প্রকৃতির সাথে তার বোঝাপড়ার ফসল।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The persistence of the oar's stroke as a repetitive, near-prayerful gesture, contrasting sharply with fragmented lines detailing financial anxiety.",
+    "story_option": "Setting: The middle of a long, deserted stretch of water at midday heat. Desire: To maintain perfect rhythm in the stroke (the litany) despite exhaustion, Obstacle: The urge to stop and count earnings for the day.",
+    "subject_rotation": "Treating 'Udarata' as a physical force—a gentle pressure that displaces concrete or debt claims.",
+    "sensory_detail": "The specific sound of water dripping off the hull after slowing down from peak effort (a singular, rhythmic *plop*).",
+    "research_question": "What specific Bengali term denotes an 'unpayable debt' that is purely existential or spiritual rather than monetary?",
+    "structural_variant": "Alternating segments between highly lyrical reflection and extremely short, sharp vignettes of labor (the twist)",
+    "variety_note": "This chapter pushes away from external conflict toward deep internal resolution; instead of fighting the barrier (like Chapter 6), it absorbs the weight of that confrontation into the rhythm of his being."
+  }
+}

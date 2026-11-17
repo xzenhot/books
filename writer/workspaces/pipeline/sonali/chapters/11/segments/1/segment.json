@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 11,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "দেহ: এক বাহন",
+  "segment_summary": "সোনালী তার শরীরকে একটি নিছক মাংসপিণ্ড হিসেবে না দেখে, বরং এক পবিত্র যাত্রার বাহন হিসেবে নতুন করে সংজ্ঞায়িত করতে শুরু করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the body as a sacred vessel that must be *carefully maintained*—a liturgical act rather than merely used for transcendence.",
+    "story_option": "setting: A dark room where only the moonlight spills across her skin, desire: To map the subtle topographical shifts on her own body as if reading sacred scripture., obstacle: The constant internal argument between logic (the cage) and sensation (the key)., turn: She realizes that the texture of her own skin is a language older than any divine treatise.",
+    "subject_rotation": "Shifting focus from 'integration' to 'coexistence': accepting that body and soul might forever exist in tension, not perfect merging.",
+    "sensory_detail": "The faint, slick warmth of sweat gathering beneath fabric during moments of intense internal focus (Tactile).",
+    "research_question": "What specific Bengali term captures the state of 'being perfectly resonant' between two disparate elements (like spirit and matter)?",
+    "structural_variant": "Employing a strictly cyclical structure where each segment begins with the phrase 'এবং আমি অনুভব করি' followed by an action/state that contrasts sharply with the previous segment's end.",
+    "variety_note": "This chapter moves beyond initial conflict (like Chapter 1) and sensory awakening (Chapter 2), deep diving into the alchemical process where sensation is actively repurposed by transcendence."
+  }
 }

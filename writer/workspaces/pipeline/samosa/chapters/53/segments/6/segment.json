@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 53,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নামান্তর ও তেলের প্রতিস্থাপন",
+  "segment_summary": "সিঙ্গাড়া থেকে সামোসা হওয়ার প্রক্রিয়ায়, তেলের পরিবর্তন কীভাবে সাংস্কৃতিক বিচ্ছেদের একটি সূক্ষ্ম কিন্তু অনিবার্য অংশ হয়ে ওঠে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus from flavor loss to texture transformation—how oil changes the *feel* of the dough (খোলস) and how this physical alteration mirrors internal psychological fracturing.",
+    "story_option": "Setting: Indoors, near a window facing a heavily industrialized cityscape; Desire: To recall the smell of earth and mustard blooming under seasonal rain; Obstacle: The constant metallic odor of city exhaust overwhelms any subtle aromatic attempt.",
+    "subject_rotation": "A purely synesthetic rendering where the *smell* translates directly into audible tones—the scent of mustard oil as a high-pitched, sharp chime against the low drone of neutral fat.",
+    "sensory_detail": "Touch: The gritty, slightly resinous film left by high-quality homemade cooking residue versus the smooth, inert slip on the fingers.",
+    "research_question": "How can the cadence of a line structure be altered in Bangla poetry to simulate the explosive burst of aroma followed by its rapid dissipation?",
+    "structural_variant": "Starting with a detailed, protracted description of the *tala* on the hot surface before any substantive philosophical reflection begins.",
+    "variety_note": "Unlike previous chapters which focused on naming (সিঙ্গাড়া/সামোসা) or general displacement, this chapter locks onto a single, powerful molecular anchor—the cooking medium itself—to explore cultural entropy."
+  }
+}

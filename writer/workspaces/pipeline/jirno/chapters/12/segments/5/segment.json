@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রকৃতির নীরব বিচার",
+  "segment_summary": "প্রকৃতি কোনো বিচার করে না, কেবল তার নিজস্ব গতিপথ অনুসরণ করে, যা মানবীয় ব্যাখ্যাকে অপ্রাসঙ্গিক করে তোলে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Frame the 'purification' not as moral cleansing but as physical erosion: watching specific mortar joints crack and crumble under pressure, minute by minute.",
+    "story_option": "Setting: Inside the main collapsed hall where fragmented frescoes remain; Desire: To observe how the sudden moisture changes the color saturation of the ancient lime wash pigments before they run or fade completely; Obstacle: The wind forces open a single, precarious section of ruined walling.",
+    "subject_rotation": "Treating the wind/soundscape as an active, non-sentient narrator of entropy, rather than a backdrop for the traveler’s introspection.",
+    "sensory_detail": "Sound: A high-pitched, dry scraping sound as grit rubs against exposed limestone and broken terracotta shards.",
+    "research_question": "How does Bengali literary tradition describe the physical sensation of extreme atmospheric pressure shifts?",
+    "structural_variant": "A sequence that builds in tempo: starting slow, describing the heavy anticipation (thunder low), accelerating rapidly with the first blast, and resolving into a sudden, stark pause.",
+    "variety_note": "This chapter pivots from intellectual struggle (prior chapters) to raw physical encounter; it is about surrender to an overwhelming, non-negotiable force rather than a philosophical debate with silence."
+  }
+}

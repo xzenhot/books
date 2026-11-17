@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 32,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অনুরণনের বিস্তার",
+  "segment_summary": "এই অস্পষ্ট অনুরণনটি কেবল জিভের মধ্যে সীমাবদ্ধ থাকে না, বরং তা প্রবাসের অচেনা আকাশের নিচে এক নীরব, বিষণ্ণ প্রতিধ্বনি হয়ে ছড়িয়ে পড়ে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the act of savoring the emptiness (the void) with the same meticulous ritualism applied to preparing the original food.",
+    "story_option": "Setting: In front of a mirror in a new room, noticing one's own hand tremble as it reaches for nothing; Desire: To ground this physical tremor to some past tactile sensation (e.g., hot oil splatter); Obstacle: The modern environment offering only clean, sterile surfaces; Turn: The trembling becomes the ultimate testament—a living archive.",
+    "subject_rotation": "Shifting from the food item to the abstract concept of 'Home' as a non-transferable vibrational state.",
+    "sensory_detail": "The sound of one's own slow, deliberate exhalation against a window pane in an unfamiliar climate.",
+    "research_question": "What specific Bengali archaic words can evoke a feeling of 'untouched, primordial savor' without sounding forced or overly academic?",
+    "structural_variant": "Breaking the 8 segments into two halves: The Past Resonance (Segments 1-4) and The Future Acceptance/Negation (Segments 5-8).",
+    "variety_note": "Unlike neighbours that fixate on specific ingredients or external settings, this chapter dives solely into the post-consumption *void*—the ontological space between having eaten and remembering."
+  }
+}

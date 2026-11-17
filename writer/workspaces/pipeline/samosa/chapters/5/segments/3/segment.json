@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ভার বহনকারী খাদ্য",
+  "segment_summary": "এই সামোসাগুলি কেবল পুষ্টির উৎস নয়; এগুলি সেই সময়ের প্রতিচ্ছবি, যখন জীবন ছিল সরল এবং শিকড়ের সঙ্গে অবিচ্ছেদ্য।",
+  "name": "5.3",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the physical ingredients themselves as characters: 'আলু' whispering old songs while 'তেল' carries the burden of translation.",
+    "story_option": "Setting: Beside a faded photograph of the original kitchen in Bengal; Desire: For the image to shimmer with the actual olfactory signature of the meal being made; Obstacle: The photo remains flat, paper-thin, devoid of warmth.",
+    "subject_rotation": "A dialectical tension: the language used in instruction versus the language spoken while eating—the functional vs. the emotional vocabulary.",
+    "sensory_detail": "The visual memory of saffron dye bleeding into the raw potato mash during preparation.",
+    "research_question": "How can I use Tatsama/Purano Bangla vocabulary to describe the act of 'holding' a scent or flavor so that it doesn't immediately dissipate, adhering strictly to the dictated word proportions?",
+    "structural_variant": "A highly metric section where all lines are forced into a rigid 10-word count, mimicking constraint and tradition.",
+    "variety_note": "This chapter deepens the focus on provenance and manual labor, shifting from the grand journey (Chapter 2) to the highly localized, painstaking act of creation itself, emphasizing ancestry via touch."
+  }
+}

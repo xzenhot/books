@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "প্রতিটি গন্তব্যের নিজস্ব ভাষা",
+  "segment_summary": "প্রতিটি নতুন ভূখণ্ডে এই খাবারটি কীভাবে স্থানীয় স্বাদের সঙ্গে মিশে গিয়ে একটি নতুন 'ভাষা' অর্জন করেছে, তা কাব্যিকভাবে বর্ণনা করা হবে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the remnants of old spice containers found in foreign markets, as physical anchors to distant trade routes.",
+    "story_option": "Setting: A damp, forgotten port warehouse filled with old spice crates; Desire: To trace one specific grain of chili through three continents; Obstacle: The salt residue from maritime passage obscuring all records.",
+    "subject_rotation": "Focusing on how linguistic shifts (Samosa/Singara) map onto geographical boundaries rather than just cultural ones.",
+    "sensory_detail": "The metallic dust left on one's fingers after handling old, rusted spice tins from distant markets (smell/touch).",
+    "research_question": "Can any documented trade log hint at the cultural impact or initial reception of imported seed pastes in early Indian trading posts?",
+    "structural_variant": "Using extended metaphors where the food's filling is compared to complex political treaties or shifting border definitions.",
+    "variety_note": "This chapter moves away from personal diasporic melancholy (neighboring chapters) to a macro-historical view, treating the food's journey as an epic saga spanning centuries and continents."
+  }
+}

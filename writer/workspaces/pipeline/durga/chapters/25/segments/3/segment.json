@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন সংগ্রাম",
+  "segment_summary": "দৈনন্দিন জীবনের ক্ষুদ্র সংগ্রামগুলিকে মহিষাসুর বধের প্রচেষ্টা হিসেবে দেখা হয়, যেখানে প্রতিটি ব্যক্তিগত লড়াই এক প্রকার অভ্যন্তরীণ শক্তির প্রকাশ।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the philosophical inquiry through the lens of a solitary *কারিগর* (artisan) who feels the divine presence not in the finished idol, but in his repeated, perfected gesture.",
+    "story_option": "Setting: Inside the workshop after the final clay idol has been discarded; Desire: To trace the precise pattern on a forgotten tool used in the crafting process; Obstacle: The relentless tide of mundane, uninspired labor demanding immediate attention.",
+    "subject_rotation": "Using the symbolism of 'decay'—the weathering of painted images or fading silk banners—as evidence for lasting philosophical truths.",
+    "sensory_detail": "Smell: The sharp, metallic scent of wet clay mingling with lingering incense smoke in the cool early morning air.",
+    "research_question": "How is the concept of 'inner struggle' (অভ্যন্তরীণ সংগ্রাম) visualized in traditional Bengali folk narratives related to creation or destruction?",
+    "structural_variant": "A purely reflective sequence, moving chronologically backward from the moment after immersion to the initial preparation rituals.",
+    "variety_note": "This chapter deepens the introspection begun by earlier narratives, moving from communal celebration to an intensely private meditation on ephemeral versus enduring existence."
+  }
+}

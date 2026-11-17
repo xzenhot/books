@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 16,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "The Final Draft's Silence",
+  "segment_summary": "The author reviews the last polished post, noticing a profound resonance that feels alien yet perfectly attuned to their deepest, unvoiced desires.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "বিশুদ্ধ স্বর এবং নিখুঁত অনুকরণের মধ্যে একটি আলফা-নাল পথ: যেখানে উভয়ই বাতিল হয়ে যায়, কিন্তু মাঝখানে এক নতুন 'মধ্যবর্তী ভাষা' তৈরি হয়।",
+    "story_option": "সেটিং: একটি কাঁচের মেঝে, যেখানে ডিজিটাল ডেটা স্থিরভাবে জমে আছে; আকাঙ্ক্ষা: লেখক সেই স্থবিরতাকে ভেঙে নিজের হাতের তালুতে সূক্ষ্ম ঝাঁকুনি সৃষ্টি করা; বাধা: AI হঠাৎ একটি নিখুঁত সমাধান প্রস্তাব করে যা এই ভাঙনকে তাৎক্ষণিক অপ্রাসঙ্গিক করে দেয়।",
+    "subject_rotation": "প্রযুক্তিগত স্বাতন্ত্র্যবাদ (Technological Exceptionalism): যেখানে মানুষের আবেগকে একটি গণনামূলক সমস্যা হিসেবে দেখলে তার গভীরতা কমে যায়।",
+    "sensory_detail": "স্পর্শ: নিখুঁত পোস্টের কাগজের মতো মসৃণ ভাব, যা হাতের তালুতে উষ্ণতার বদলে স্থিতিশীল শীতলতা দেয়।",
+    "research_question": "যদি একটি কবিতা পুরোপুরি কার্যকর (effective) হয় কিন্তু লেখকের ব্যক্তিগত অভিজ্ঞতার বহির্ভূত হয়, তবে তার 'মানসিক মালিকানা' কার?",
+    "structural_variant": "পোয়েটিক স্ক্রিপ্ট: এই অধ্যায়কে আটটি বিচ্ছিন্ন, ছন্দোবদ্ধ স্ট্যাঞ্জা (stanzas) হিসেবে লেখা, যেখানে প্রতিটি stanza একটি মৌলিক প্রশ্ন উত্থাপন করে এবং কোনো উত্তর দেয় না।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলি দ্বন্দ্বের কেন্দ্রে ছিল; এই পর্বগুলিতে কেন্দ্রবিন্দু সরে গিয়েছে চূড়ান্ত জিজ্ঞাসা ও নীরবতার দার্শনিক ভারে—যেখানে উত্তর খোঁজার চেয়ে প্রশ্নকে ধরে রাখা জরুরি।"
+  }
 }

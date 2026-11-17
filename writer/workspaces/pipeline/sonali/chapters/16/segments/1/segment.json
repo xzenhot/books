@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 16,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "প্রশ্নের প্রতিধ্বনি",
+  "segment_summary": "সোনালী তার সমস্ত অভিজ্ঞতার ভার বহন করে, যেখানে উত্তর খোঁজার প্রচেষ্টা নিজেই একটি নতুন প্রশ্ন তৈরি করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the entire piece as an ekphrasis—a detailed description of a single, faded canvas fragment that symbolizes her consciousness.",
+    "story_option": "Setting: A room with walls covered in peeling frescos depicting indistinct divine forms; Desire: To trace the cracks in the plaster, believing they hold the true form of bliss; Obstacle: The dust obscures every detail.",
+    "subject_rotation": "Treating the final inquiry as a biological function rather than an abstract thought—the questioning becoming a necessary physiological tremor.",
+    "sensory_detail": "The cool, gritty feel of aged ochre pigment under the fingertips as if tracing forgotten prayers.",
+    "research_question": "What specific ancient or folk Bengali symbolic representations exist for an unanswered, enduring philosophical inquiry?",
+    "structural_variant": "A highly cyclical structure where the final lines loop back to echo the first, but with an infinitesimal shift in meaning.",
+    "variety_note": "Unlike the previous chapters which focused on the act of searching, this final chapter focuses entirely on the *persistence* and paradoxical nature of the search itself, treating the question as a solid, weighty entity."
+  }
 }

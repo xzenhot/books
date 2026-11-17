@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "স্থায়িত্ব বনাম ঝলকানি",
+  "segment_summary": "The final contemplation asks whether the accumulation of these minute, tender moments constructs a durable 'India,' or if it is merely a collection of exquisite, momentary flares against the vastness of time.",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Secondary Twist: সকল ক্ষুদ্র মুহূর্তের সার্থক পরিণতি হিসেবে কোনো ঐক্যবদ্ধ কাঠামো খুঁজে না পাওয়া, বরং প্রতিটি মুহূর্তে নিজস্ব এক অপরিবর্তনীয় বিচ্ছিন্নতা বজায় থাকা।",
+    "story_option": "The vendor's rhythmic calling is momentarily interrupted by an unexpected sound—not human or natural, but purely mechanical/cosmic—which shatters the domestic geometry symbolized by the tiffin box.",
+    "subject_rotation": "Focusing the entire chapter on 'Weight': the weight of unsaid words, the physical weight of travel fatigue, and the implied cultural weight carried by objects.",
+    "sensory_detail": "The granular friction felt underfoot where dust from different, distant routes has settled on a single patch of concrete.",
+    "research_question": "How can the mandated voice (Gibran/Orilase cadence) be maintained when pivoting from objective observation to subjective existential doubt without becoming overly sentimental?",
+    "structural_variant": "Building the poem around a single recurring, slightly altered verb that symbolizes 'becoming' or 'decaying' across all observations.",
+    "variety_note": "This chapter moves beyond the gentle observation seen in previous segments by introducing an overt philosophical conflict (Permanence vs. Ephemerality) and forcing the imagery into a high-stakes interrogation, rather than quiet documentation."
+  }
+}

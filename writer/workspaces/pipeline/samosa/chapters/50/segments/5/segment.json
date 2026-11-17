@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "পুরোনো মাটির প্রতিধ্বনি",
+  "segment_summary": "পুরোনো মাটির গন্ধের প্রতিধ্বনি যেন নতুন তেলের মধ্যে ক্ষীণভাবে খুঁজে ফেরে, যা এক নিরন্তর আকাঙ্ক্ষার জন্ম দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the dialectical relationship between 'hot' (আঁচ) and 'cold/neutral' (শীতলতা), using physical temperature shifts as metaphor.",
+    "story_option": "Setting: A dimly lit, solitary kitchen workspace after midnight; Desire: To recreate the specific sound of *tala* hitting oil in rhythmic succession; Obstacle: Modern cookware lacks the necessary patina and resonance of old brass/iron; Turn: The memory manifests as a phantom vibration felt through the counter.",
+    "subject_rotation": "Exploring the difference between 'cooking medium' and 'memory carrier' within the context of fat.",
+    "sensory_detail": "The slick, uniform glide of neutral oil across an unseasoned surface.",
+    "research_question": "What archaic Bengali vocabulary describes the pungent quality (*teekha*) unique to high-quality *sorsher tel* in a way that differentiates it from general 'sharpness'?",
+    "structural_variant": "A cyclical structure where Segment 8 forces a return not just to the beginning (Segment 1), but to the state before the migration began.",
+    "variety_note": "This chapter shifts focus from the object's transformation in transit (neighboring chapters) to the *medium* itself—the cooking oil—as the primary carrier and casualty of cultural displacement, providing an intensified sensory contrast."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 51,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "প্রথম প্রজন্মের সংগ্রাম",
+  "segment_summary": "প্রথম প্রজন্মের কাছে এই তেলের পরিবর্তন কেবল রান্নার ত্রুটি নয়, এটি সাংস্কৃতিক শিকড়ের ক্ষয়িষ্ণুতার প্রতীক।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The oil as a barometer for emotional distance: the viscosity of memory measured by lipid content.",
+    "story_option": "setting: The kitchen counter near a small window, desire: To capture the first *jhal* (sharpness) of freshly heated mustard oil., obstacle: The persistent low hum of an air conditioning unit drowning out the desired soundscape., turn: A momentary surrender to the silence, accepting the muted flavor as the new reality.",
+    "subject_rotation": "Treating the oil as narrative geography: how its composition dictates which cultural map is drawn inside the final product.",
+    "sensory_detail": "The faint coppery tang that only accompanies high-heat sesame/mustard residue, distinct from grease.",
+    "research_question": "What specific archaic Bengali term exists for the 'pungency' derived from wild-sourced cooking oils that surpasses mere chemical descriptors?",
+    "structural_variant": "A highly asymmetrical structure: eight short, almost haiku-like stanzas focusing intensely on single sensory input (sight/smell/touch) before transitioning into one longer, more discursive section.",
+    "variety_note": "Where earlier segments explored the physical act or flavor outcome, this sequence is dedicated almost entirely to the medium itself—the oil—and its failure to be an inert carrier of sensation."
+  }
+}

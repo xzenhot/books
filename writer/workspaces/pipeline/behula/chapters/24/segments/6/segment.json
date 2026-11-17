@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 24,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "বিজয় সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক গভীর এবং নীরব অভিযোগের সুর বজায় রাখে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the societal structures that questioned her life not as villains, but as necessary, albeit brutal, mechanisms for testing absolute belief.",
+    "story_option": "Setting: In a small, forgotten recess near where her initial trial occurred; Desire: To ritualistically cleanse the space of all judgmental echoes through shared, intentional breath-holding; Obstacle: The instinctual urge to flee the scrutiny of any lingering witness.",
+    "subject_rotation": "Examining the notion of 'divine grace' being equivalent to rigorously sustained mortal effort; a dialectic between faith and sheer will.",
+    "sensory_detail": "Sound: A profound cessation of internal monologue—the mind finally quieted to a state of pure receptive awareness.",
+    "research_question": "How can I maintain the high diction while describing the raw, almost chemical sensation of physical re-synchronization following prolonged existential separation?",
+    "structural_variant": "Starting with a direct echo of the 'Void' feeling from earlier segments, before showing its violent refilling.",
+    "variety_note": "This chapter pivots from the relentless struggle (Chapters 1-7) toward crystallization, utilizing high-register language specifically to balance the existential weight with the sheer exhilaration of arrival."
+  }
+}

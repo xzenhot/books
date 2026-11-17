@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 57,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "মাটির প্রতিধ্বনি",
+  "segment_summary": "সরিষার তেলে মিশে থাকা মাটির গভীর অনুরণনটি প্রবাসের কংক্রিটের গন্ধে চাপা পড়ে যাচ্ছে, যা শিকড়ের বিচ্যুতিকে বোঝায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "From aroma to archive: treating the volatile compounds released during frying as momentary linguistic fragments from a lost dialect.",
+    "story_option": "Setting: Inspecting the discarded dough remnants (ময়দা) before frying; Desire: To sense, through touch alone, the difference in molecular tension imparted by the two types of oil; Obstacle: The uniform pallor offered by the modern processing techniques.",
+    "subject_rotation": "Oil as Ritual Sacrifice: Viewing the switch from traditional to modern cooking grease as a deliberate sacrifice—a betrayal of sensory heritage for sheer logistical continuity.",
+    "sensory_detail": "The sensation described as a 'prickling sting' on the back of the throat from the volatile mustard compounds, distinct from simple heat.",
+    "research_question": "What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?",
+    "structural_variant": "Employing the mandated primary lens: repeating the structure of 'তেল... তেল... তেল...' to build cumulative tension before breaking it at the point of grief.",
+    "variety_note": "Unlike previous sections that focused heavily on ingredients or journey, this chapter anchors itself purely in *tactile* sensation—the difference between the two oils' physical presence—as a metaphor for internal conflict."
+  }
+}

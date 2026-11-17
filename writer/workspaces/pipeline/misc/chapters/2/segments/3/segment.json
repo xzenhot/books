@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "শ্রমের নীরব অঙ্গীকার",
+  "segment_summary": "This segment delves into the concept of 'unseen labor,' where the gesture transcends mere greeting to become a testament to enduring societal foundations.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A microscopic view contrasting the texture of worn cloth against the sharp geometry of the sunlit counter.",
+    "story_option": "The keeper runs a thumb over an aged piece of merchandise, feeling not its value, but the history embedded in its slow oxidation.",
+    "subject_rotation": "Treating the act of folding as a meditation on repetitive physical discipline rather than merely tradition.",
+    "sensory_detail": "The smell of cool, unburnt wood mingling with dry linen dust before activity starts.",
+    "research_question": "What specific tactile qualities does aged or traditional folded fabric possess that might contrast sharply with newer materials?",
+    "structural_variant": "Structuring the piece as a slow visual inventory, where each minute detail (a knot, a crease) earns its own brief meditative stanza.",
+    "variety_note": "Unlike neighbour chapters that focus on external movement or marketplace interaction, this chapter is almost entirely dedicated to internal stillness and the metaphysics of pre-dawn routine."
+  }
+}

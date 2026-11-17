@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "শিকড়ের অস্পষ্ট প্রতিধ্বনি",
+  "segment_summary": "হারানো স্বাদের মাধ্যমে শিকড়ের সন্ধান করা—এই অনুসন্ধানটি কেবল ভৌগোলিক নয়, বরং অস্তিত্বগত স্তরেও গভীর।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from the act of eating to the *aftermath*—the quiet ritual of cleaning crumbs or examining used packaging, treating residue as sacred text.",
+    "story_option": "Setting: Standing at an empty roadside stall after closing hours (low light); Desire: To hear the memory of the vendor's specific chopping rhythm—the sound associated with home preparation; Obstacle: The silence is too profound, absorbing all prior sounds; Turn: A distant, muffled bell rings, sounding exactly like a culinary timer.",
+    "subject_rotation": "Focusing on the physical aftermath (the oil stain, the lingering warmth in the palm) as evidence of a metaphysical event.",
+    "sensory_detail": "Sight: The slow, dull refraction of tungsten light across a patch of absorbed oil on worn wood.",
+    "research_question": "Can the diction blend of Tatsama/Hindi be used to create moments of jarring, yet beautiful, thematic dislocation?",
+    "structural_variant": "A segmented structure that builds tension by withholding a single decisive concluding phrase until the very last line.",
+    "variety_note": "Unlike neighbouring chapters that dwell on external market scenes or tangible texture, this chapter moves entirely inward, focusing on the subtle, unresolved vibrational echo of the flavor in memory itself."
+  }
+}

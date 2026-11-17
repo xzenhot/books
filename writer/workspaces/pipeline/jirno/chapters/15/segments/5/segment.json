@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মসমর্পণের পথ",
+  "segment_summary": "এই প্রস্থান কোনো পরাজয় নয়, বরং নাগরিক অহংকারের ভার থেকে মুক্তি; এটি প্রকৃতির আদিম প্রবাহের সঙ্গে একাত্ম হওয়ার যাত্রা।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating 'silence' after the storm as an active, physical entity—not merely the absence of noise, but a heavy residue that adheres to clothing and skin.",
+    "story_option": "Setting: Near the boundary line with the Satual settlement, just as the light stabilizes; Desire: To wait for one specific elder to acknowledge him before he leaves, hoping for a single gesture of permission; Turn: The elder simply turns their head back towards the field, indifferent to his waiting.",
+    "subject_rotation": "Examining the color palette shift: how the stark, bleached-out quality of the post-storm light differs fundamentally from the fiery red intensity of the preceding পলাশ blooms.",
+    "sensory_detail": "Sound: A low, sustained hum (infrasound) felt more than heard—the Earth settling after immense pressure release.",
+    "research_question": "How does Bengali lyrical tradition articulate the sensation of moving from overwhelming sensory input (storm) to profound sensory deprivation (calm)?",
+    "structural_variant": "A purely stream-of-consciousness structure, where the segments flow without hard transitions, dictated solely by memory fragments triggered by tactile sensations.",
+    "variety_note": "This chapter pivots entirely away from intellectual confrontation; where earlier parts explored the *resistance* to change, this final phase is dedicated solely to the exhausted *completion* of surrender and departure."
+  }
+}

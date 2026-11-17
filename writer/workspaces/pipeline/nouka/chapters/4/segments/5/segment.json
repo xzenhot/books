@@ -4,19 +4,19 @@
   "chapter_index": 4,
   "segment_index": 5,
   "total_segments": 8,
-  "segment_title": "টাকায় মাপা যায় না",
-  "segment_summary": "কিছু যাত্রা টাকায় মাপা যায় না — কারও পেটের ক্ষুধা, কারও চোখের অপেক্ষা, কারও মৃত্যুর তাড়া; কবিতা এই অমূল্য যাত্রা মনে করে।",
+  "segment_title": "সংঘাতের সূচনা",
+  "segment_summary": "এই দৃষ্টিভঙ্গি গোপালের নৌকা এবং তার সম্প্রদায়ের অলিখিত চুক্তির সঙ্গে তীব্র সংঘাত সৃষ্টি করে।",
   "name": "5",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Focusing the narrative entirely on the physical mechanisms: the boat gently nudging against various banks and ghats—some official concrete, some mud-banked ruin—as markers of transaction vs. non-transaction.",
-    "story_option": "Setting: Dusk, under a sliver moon on an unlit stretch of water; Desire: Passage sought by someone fleeing some unseen pressure/danger (not named); Obstacle: Gopal's internal negotiation between his own meager sustenance and this necessary act of giving.",
-    "subject_rotation": "Examining the passengers who *do* pay, focusing on their quiet discomfort when witnessing this unpaid passage—the social friction between transaction and tradition.",
-    "sensory_detail": "The specific scent mixture upon stopping—the sharp smell of fish drying mingled with the damp earth and faint human sweat.",
-    "research_question": "What is the local Bengali concept describing debt that cannot be repaid through currency?",
-    "structural_variant": "A cyclical structure mirroring the flow—where each segment begins with an image drawn from the end of the previous one, forming a continuous eddy.",
-    "variety_note": "This chapter deliberately shifts focus away from conflict (dredging/diesel) and toward ethical action, using the rhythm of unpaid passage as a meditative counterpoint to later chapters' sonic battles."
+    "angle": "চট্টার্জী যখন নদী পরিমাপ করেন, তখন তিনি হঠাৎ করেই নদীর কোনো একটি প্রাচীনতম স্রোতস্বিনীর নাম উল্লেখ করেন (যেমন: যে নামে গোপালের পূর্বপুরুষরা ডাকত), এবং তাৎক্ষণিকভাবে তা বাতিল করে দেন যেন এটি কেবল একটি পুরনো নথি ছিল।",
+    "story_option": "একজন নতুন, তরুণ মাঝি যিনি এই সংঘাতের মাঝে দাঁড়িয়ে আছেন এবং কোন পক্ষ নেবেন তা নিয়ে দ্বিধান্বিত (সেটিং: নৌকার মাঝ বরাবর; আকাঙ্ক্ষা: নিজস্ব পথ খুঁজে নেওয়া; বাধা: দুটি স্রোতের অদৃশ্য টানাপোড়েন; মোড়: সে নিজের একটি ভিন্ন সুর শুরু করে)।",
+    "subject_rotation": "নদীর ভূগোলকে কেবল প্রাকৃতিক মানচিত্রের বদলে এক ধরণের লোককথা/স্মৃতির ম্যাপ হিসেবে ব্যবহার করা—যেখানে নির্দিষ্ট বাঁকগুলো কোনো ঐতিহাসিক ঘটনা দ্বারা চিহ্নিত, যা চট্টার্জীর GPS-এ নেই।",
+    "sensory_detail": "ডিজেল ইঞ্জিনের কম্পন যা নৌকার কাঠের ভেতর দিয়ে হাড় পর্যন্ত পৌঁছায় এবং পুরনো বাঁশের জোড়গুলিকে নাড়িয়ে দেয় (অনুভূতি/শব্দ)।",
+    "research_question": "নদীপথে ব্যবহৃত প্রাচীন স্থানীয় শব্দকোষ কী, যা আধুনিক পরিভাষাগুলো দ্বারা প্রতিস্থাপিত হতে চলেছে?",
+    "structural_variant": "এই অধ্যায়টি একটি 'দ্বৈত ধারা' অনুসরণ করতে পারে: এক শাখা চট্টার্জীর প্রযুক্তিগত ভাষ্য আর অন্য শাখা গোপালের ভাঙা সুর—দুটি ভিন্ন লয় একসঙ্গে প্রবাহিত হবে, মাঝে মাঝে মিশে যাবে না।",
+    "variety_note": "পূর্ববর্তী কবিতাগুলো মানবিক সম্পর্কের অভ্যন্তরীণ গভীরতায় ডুবে থাকলেও, এই অধ্যায় সরাসরি বাইরের চাপ—একটি শীতল, সুসংগঠিত বহিরাগত শক্তিকে—নদীর বুকে আনা হচ্ছে এবং এর সংঘাত বস্তুনিষ্ঠ পরিমাপের সঙ্গে অস্তিত্বের দর্শন নিয়ে উন্মুক্ত।"
   }
 }

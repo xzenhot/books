@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 16,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "The Return of the Light",
+  "segment_summary": "The narrative culminates in the miraculous return of the lost beloved, marking the cessation of the immediate, agonizing void that defined Behula's existence.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'Triumph' as a functional failure: The victory is successful only because it validates the initial, tragic systemic premise.",
+    "story_option": "A sudden return where the beloved does not speak or acknowledge her victory immediately; instead, he simply observes her for a long passage of time.",
+    "subject_rotation": "Shifting focus from 'Endurance' to 'Redefinition': How Behula's suffering necessitates that she fundamentally rewrite her identity post-trial.",
+    "sensory_detail": "The smell of ozone following a moment of immense spiritual discharge or climax.",
+    "research_question": "What archaic Bengali vocabulary exists for a 'final, perfectly exhausted equilibrium' that transcends mere peaceful resolution?",
+    "structural_variant": "Employing an increasing syncopation in rhythm throughout Segment 2, mirroring the internal fraying before settling into a perfectly monotonic beat for Segment 8.",
+    "variety_note": "This chapter departs from simple celebration by forcing the resolution to be interrogated; unlike previous chapters which built towards fortitude, here we dissect its aftermath."
+  }
 }

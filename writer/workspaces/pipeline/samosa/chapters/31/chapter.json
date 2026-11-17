@@ -1,53 +1,120 @@
 {
   "chapter_index": 31,
   "name": "31",
-  "word_target": 250,
-  "chapter_title": "আকার একই, স্বাদ নয়",
-  "chapter_summary": "আকার একই, খোলসের তিন কোণ একই, অথচ ভিতরের স্বাদ নয়। রূপের এই বিশ্বাসঘাতকতা সবচেয়ে কষ্টের।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "অসমাপ্ত স্বাদ",
+  "chapter_summary": "এই অধ্যায়টি সেই মুহূর্তটিকে কেন্দ্র করে আবর্তিত হয় যখন সামোসাটি শেষ হয়ে যায়, কিন্তু জিভে একটি গভীর শূন্যতা থেকে যায়। এই শূন্যতা কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি এবং হারানো স্বাদের প্রতিচ্ছবি। এটি সেই মধুর বিষাদের মুহূর্ত, যেখানে জিভের স্মৃতি এবং আত্মার আকাঙ্ক্ষার মধ্যে একটি অনন্ত অপেক্ষা বিরাজ করে। প্রশ্নটি উন্মুক্ত থাকে: স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "শেষের টুকরো",
+      "segment_summary": "সামোসার শেষ কামড়টি গিলে ফেলার পর জিভে যে শূন্যতা নেমে আসে, তা কেবল ভোজনের সমাপ্তি নয়, বরং এক গভীর স্মৃতির ক্ষয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 60,
+      "segment_title": "শূন্যতার অনুরণন",
+      "segment_summary": "এই শূন্যতাটি কেবল পেটের ক্ষুধা নিবারণের ব্যর্থতা নয়, বরং সেই আদি সিঙ্গাড়া-র উষ্ণতার অনুপস্থিতি যা হৃদয়ে গেঁথে ছিল।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 60,
+      "segment_title": "অপেক্ষার স্থবিরতা",
+      "segment_summary": "প্রবাসের এই অচেনা পরিবেশে, সেই নিখুঁত স্বাদের জন্য অপেক্ষা করা এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক হয়ে ওঠে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 60,
+      "segment_title": "স্বাদের বিচ্যুতি",
+      "segment_summary": "নাম বদলানো, তেল বদলানো—এই সমস্ত পরিবর্তন সত্ত্বেও, সেই মৌলিক স্বাদটি যেন এক অদৃশ্য রেখা টেনে বিচ্ছিন্ন হয়ে গেছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "আত্মার আর্কাইভ",
+      "segment_summary": "খাদ্যটি কেবল একটি বস্তু নয়, এটি সেই জীবন্ত আর্কাইভ যা প্রবাসীর আত্মপরিচয়ের প্রতিটি স্তর বহন করে চলেছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 60,
+      "segment_title": "অসম্পূর্ণ চিত্রকল্প",
+      "segment_summary": "সামোসাটি শেষ হলেও, তার ঘ্রাণ ও স্পর্শের চিত্রকল্প মস্তিষ্কের গভীরে একটি অসম্পূর্ণ, কিন্তু উজ্জ্বল স্মৃতি হিসেবে রয়ে যায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 60,
+      "segment_title": "অনুবাদিত স্বাদ",
+      "segment_summary": "এই স্বাদটি কখনও তার আদি রূপ ফিরে পাবে না; এটি চিরকাল একটি 'অনুবাদিত' অভিজ্ঞতার মতো জিভে লেগে থাকবে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "মধুর বিষাদ",
+      "segment_summary": "এই কাব্যিক সমাপ্তিটি পাঠককে এক ধরনের মধুর বিষাদ উপহার দেয়, যেখানে উত্তরটি কেবল প্রশ্ন হিসেবেই টিকে থাকে।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Treating the perfectly uniform shape (the geometry of mass production) as a suffocating trap compared to the organic asymmetry of home-made goods.",
-      "Focusing on the texture contrast: the brittle, dry exterior versus the implied moistness of genuine filling—a material critique of cultural fidelity.",
-      "Viewing the failure of flavor not just as personal loss, but as a systemic failure of migration; the industry replacing tradition."
+      "Narrating the entire segment from the perspective of a watchman or neighbor, overhearing the quiet moments of consumption and reflection.",
+      "Focusing on an auditory obsession—a specific high-pitched *shhh* sound made by cooling oil residue being wiped away, contrasting it with internal silence.",
+      "Interweaving fragmented dialogue snippets (in Bengali dialect) where people argue about 'authenticity' over the pastry, overheard from a distance."
     ],
     "story_options": [
-      "Setting: A dimly lit stall near an unfamiliar traffic crossing; Desire: To catch a single lingering aroma—a phantom whiff of homemade ghee that contradicts the current oil; Obstacle: The overwhelming, standardized smell of frying fat in the modern setting; Turn: Realizing the memory itself has become as artificial as the item.",
-      "Setting: Looking at dozens of identical samosas lined up under harsh fluorescent light; Desire: To find one—a single anomaly, a flaw—that suggests a hand instead of a machine; Obstacle: The oppressive mathematical perfection of the display; Turn: The protagonist accepts that uniformity *is* the new reality.",
-      "Setting: A quiet kitchen counter late at night; Desire: To attempt to 're-calibrate' the flavor using only trace amounts of imported spice; Obstacle: The inability of any ingredient to bridge the gap between recollection and actuality; Turn: Abandoning imitation, choosing instead to taste the *absence*."
+      "setting: A dimly lit corner stall in an unfamiliar city square at 3 AM., desire: The narrator desires to hear the specific sound of rain hitting unpaved earth (a memory), but only hears distant street noise., obstacle: The pervasive, synthetic hum of modern urban electricity replaces natural sonic cues.",
+      "setting: Inside a small apartment kitchen, very early morning, near a cold *tawa*., desire: To recreate the exact texture by repeatedly pressing flour into dough with impossible precision., obstacle: The fingers tremble from exhaustion or cultural displacement, failing to replicate the effortless craft.",
+      "setting: Standing near a blurred border checkpoint sign in memory., desire: To feel the actual friction of that initial crossing—the gravel underfoot—not just the abstract movement across lines on paper., obstacle: The current reality is too smooth, too paved, denying any grounding texture."
     ],
     "subject_rotations": [
-      "Shifting focus from 'taste' (flavor) to 'mouthfeel'—the specific resistance or yielding quality that signifies authenticity.",
-      "Examining the internal structure of the pastry as a metaphor for personal self-containment: sealed off, durable, yet ultimately hollowed out.",
-      "Treating the process of cooling/hardening after frying not merely as temperature change but as narrative solidification—the finality of the experience."
+      "Treating the 'void' not as an emotional state, but as a tangible negative space that requires physical effort (like stretching or reaching) to acknowledge.",
+      "Shifting focus entirely from the *taste* of the filling to the textural contrast between the outer casing and the inner contents.",
+      "Focusing on the ritualistic aspects surrounding the consumption—the specific way one wraps the remains, or how they dispose of wrappers."
     ],
     "sensory_details": [
-      "The sound of a perfectly uniform crust cracking under pressure, sounding too sharp, almost manufactured (auditory).",
-      "The visual perception of oil sheen on an otherwise flat surface—a mirror reflecting only the utilitarian overhead light (sight).",
-      "The sensation of residual heat that feels strangely inert or dead, lacking the vigorous warmth of genuine cookery (touch/thermal)."
+      "Smell: The faint, acrid scent of old frying oil lingering in synthetic fabric linings.",
+      "Sound: A sudden, brief hiss escaping from a sealed packet before it is opened (a pressurized ghost).",
+      "Touch: The dry, chalky feeling left on the lips after licking away the last oily stain."
     ],
     "research_questions": [
-      "What specific tactile qualities differentiate mass-produced fried dough from artisanal preparation in a way that transcends simple structural analysis?",
-      "How can colloquial Bengali phrasing capture the precise sense of 'hollow perfection' without resorting to abstract philosophical terms?"
+      "What specific linguistic markers in contemporary Bengali oral tradition best describe 'unfulfilled sensory expectation' without resorting to direct emotional labels?",
+      "How can the cadence of a late-night watchman's monologue (low, repetitive) be maintained while sustaining high poetic diction?"
     ],
     "structural_variants": [
-      "A structure where every completed couplet is immediately negated by a single, sharp counter-image or observation.",
-      "The poem progresses backward: starting with the present standardized item and tracing its form back toward the memory of its organic origins in reverse chronological order."
+      "Adopting an a-b-a-b rhyme scheme within stanzas, but allowing near-misses in pronunciation to symbolize thematic slippage.",
+      "Using highly charged parallelism: Statement A followed immediately by the negated version of Statement B (e.g., 'It was gold; it felt like dust').",
+      "Structuring segments as a nested set of parentheses, where every idea is bracketed by an internal critique or memory flare."
     ],
     "unused_angles": [
-      "A deep dive into the linguistic failure of describing this specific flavor gap—the need for a new, composite word that signifies 'near-but-not-there'.",
-      "Contrasting the perceived weight/density of the modern iteration versus the ancestral version using physical imagery (e.g., comparing it to types of soil or stone)."
+      "The possibility that the speaker intentionally *wants* the taste to be imperfect—a deliberate act of self-sabotage against nostalgia.",
+      "An extended metaphor comparing the flavor's absence to a specific, unrepairable flaw in ancient architecture."
     ],
-    "variety_note": "Unlike the previous chapters focused on the physical act of making or arriving, this chapter isolates and scrutinizes the object itself, turning its standardized form into a site of existential conflict."
+    "variety_note": "This chapter shifts focus inward from the external signs of cultural shift (like nomenclature or location) into the purely internal landscape of digestion and memory decay, using sonic fixation as its primary mechanism."
   },
   "draft": {
-    "sha256": "00f410a37fa9d5c08dfe52517e6647c95eb75c07ec9e48340f9c10448893ae36",
-    "written_at": "2026-11-01T08:24:11.219415+00:00",
+    "sha256": "a58b5b2b27e93e52857820b7c2c79162ce7c4846f8da14547551624f8cc70e24",
+    "written_at": "2026-11-16T20:28:53.008229+00:00",
     "origin": "write"
   }
 }

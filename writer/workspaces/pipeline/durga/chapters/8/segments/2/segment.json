@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "ছন্দের নির্মাণ",
+  "segment_summary": "ঢাকিদের সম্মিলিত তাল একটি নির্দিষ্ট লয় তৈরি করে, যা উৎসবের প্রতিটি মুহূর্তকে একটি অনিবার্য, গতিশীল কাঠামো প্রদান করে।",
+  "name": "2",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The sound as a temporal distortion field; moments where the drumming seems to halt reality for an observer.",
+    "story_option": "Setting: The outer perimeter of a massive pandal; Desire: To feel the sound physically permeate the earth beneath their feet (geological resonance); Obstacle: The overwhelming collective roar that drowns out individual feeling; Turn: A momentary silence where only the heartbeats are heard.",
+    "subject_rotation": "Viewing the rhythm as a form of language that predates spoken word, an essential pre-mythic communication.",
+    "sensory_detail": "A sharp, metallic scent of aged brass fittings from ritual bells mingling with the humid air saturated by drum-strikes.",
+    "research_question": "What is the known historical connection between the act of drumming at Durga Pujas and pre-Vedic ritual practices in Bengal?",
+    "structural_variant": "Using fragmented sensory snapshots—a rapid succession of drum strikes followed by isolated visual memories from other festivals.",
+    "variety_note": "This chapter moves away from the concrete idol-making (Chapter 2/3) to focus purely on the dynamic energy—the *sound*—which represents primal force and temporal rhythm, unlike its neighbours which deal with physical or emotional states."
+  }
+}

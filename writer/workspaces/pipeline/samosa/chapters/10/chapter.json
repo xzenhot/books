@@ -1,53 +1,119 @@
 {
   "chapter_index": 10,
   "name": "10",
-  "word_target": 250,
-  "chapter_title": "খোলস বাঁধার কলা",
-  "chapter_summary": "খোলস বাঁধার কলাটি দেখা যায় না, হাতেই শেখা হয়। এক আঙুলের চাপে পুর ঢুকে যায়, আর প্রান্ত বন্ধ হয় ঠিক জায়গায়।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "অসমাপ্ত স্বাদ",
+  "chapter_summary": "এই অধ্যায়টি সেই গভীর শূন্যতার উপর আলোকপাত করে যা সামোসাটি শেষ হওয়ার পরেও জিভে থেকে যায়। এটি কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার, একটি নির্দিষ্ট সাংস্কৃতিক মুহূর্তের অনুপস্থিতিকে প্রতীকায়িত করে। চিত্রকল্পে, শেষ কামড়ের পর অবশিষ্ট থাকা সেই স্বাদহীন শূন্যতাটি প্রবাসীর আত্মিক শূন্যতার প্রতিচ্ছবি। প্রশ্নটি হলো: এই 'অসমাপ্ত স্বাদ' কি কেবল একটি স্বাদগত ত্রুটি, নাকি এটি শিকড়ের সাথে বিচ্ছিন্ন হওয়ার অনিবার্য দার্শনিক পরিণতি?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "শেষের ফোঁটা",
+      "segment_summary": "সামোসাটির শেষ টুকরোটি গিলে ফেলার পর জিভে যে হালকা, কিন্তু গভীর শূন্যতাটি নেমে আসে, তা কেবল পেট ভরার সমাপ্তি নয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 60,
+      "segment_title": "শূন্যতার প্রতিধ্বনি",
+      "segment_summary": "এই শূন্যতাটি প্রবাসের ধূসর পটভূমিতে প্রতিধ্বনিত হয়, যেখানে পরিচিত গন্ধের অনুপস্থিতি একটি বিশাল গহ্বর তৈরি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 60,
+      "segment_title": "জীবনযাত্রার অনুপস্থিতি",
+      "segment_summary": "এই স্বাদহীনতা কেবল একটি খাবারের অভাব নয়; এটি সেই সকালের আলো, সেই রান্নাঘরের কোলাহল—পুরো একটি জীবনযাত্রার অনুপস্থিতি।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 60,
+      "segment_title": "স্মৃতির ভার",
+      "segment_summary": "জিভে থাকা এই শূন্যতাটি যেন অতীতের সমস্ত উষ্ণ স্মৃতিকে বহন করে, যা আর কোনো ভাজা মশলার ঝাঁঝ দিয়ে পূরণ করা সম্ভব নয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "অসম্পূর্ণ চক্র",
+      "segment_summary": "খাদ্য চক্রটি শেষ হলেও, আত্মার তৃপ্তি চক্রটি অসমাপ্ত থেকে যায়, যা এক অনন্ত অপেক্ষার জন্ম দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 60,
+      "segment_title": "রাসায়নিক বনাম মানবিক",
+      "segment_summary": "এই শূন্যতা কি কেবল রাসায়নিক যৌগগুলির অনুপস্থিতি, নাকি এটি মানব অভিজ্ঞতার গভীরতম সংযোগ বিচ্ছিন্ন হওয়ার চিহ্ন?",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 60,
+      "segment_title": "অপেক্ষা ও আকাঙ্ক্ষা",
+      "segment_summary": "এই শূন্যতাটিই পরবর্তী আকাঙ্ক্ষার বীজ বপন করে—সেই নিখুঁত, আদিম স্বাদের জন্য এক নীরব, তীব্র অপেক্ষা।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "আত্মার ভাজা দাগ",
+      "segment_summary": "এই অসমাপ্ত স্বাদ প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কখনও পুরোপুরি মুছে যায় না।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "নিঃশব্দের ভাষা: এই অধ্যায়টি কোনো জোরালো ঘোষণায় নয়, বরং রান্নার ধীরগতির ভঙ্গিমার মাধ্যমে ভাষার সূক্ষ্মতা প্রকাশ করবে।",
-      "অদৃশ্য হাতের স্পর্শ: 'কলা'কে কেবল শারীরিক দক্ষতার চেয়েও বেশি কিছু—সেটা পূর্বপুরুষের নিঃশর্ত সমর্থন বা স্মৃতি-প্রবাহের একটি নিরবচ্ছিন্ন ধারা হিসেবে দেখানো।",
-      "প্রশ্ন যা জিজ্ঞাসা করার অধিকার নেই: কবিতার সমাপ্তিতে এমন এক অস্তিত্বগত প্রশ্ন রাখা, যা ভাষা ও ভৌততার সীমানা ছাড়িয়ে যায়, যেমন 'এই বাঁক কি কেবলই একটি মোড়?'"
+      "The wall/object as interlocutor: Direct address to an inert object (a chipped plate, a cold counter) that absorbs the protagonist's unuttered lament over the flavor.",
+      "Temporal distortion through taste: Framing the 'unfinished taste' not as stasis, but as hyper-speed travel back to Bengal, where the lingering aftertaste is the momentary landing point before snapping back.",
+      "The intrusion of an unfamiliar word (the twist): A single modern/English term appearing late in a stanza, briefly shattering the dense, archaic Bengali texture and exposing its fragility."
     ],
     "story_options": [
-      "setting: গভীর রাতের রান্নাঘর, desire: নিখুঁতভাবে শেষ হওয়া প্রতিটি ভাঁজের আকাঙ্ক্ষা (যা স্থিতিশীলতা বোঝায়), obstacle: আঙুলের কাঁপুনি বা ক্লান্তির কারণে সামান্য খোলা প্রান্ত।",
-      "setting: বাজারের শেষে পাওয়া এক পুরোনো হাতে শেখানো টিফিন বাক্স, desire: সেই বাক্সে রাখা একটি অপরিষ্কার খোলসের 'গোপন কৌশল' উদ্ধার করা, obstacle: সময়ের প্রভাবে কৌশলের স্থায়িত্ব কমে যাওয়া।",
-      "setting: আলো-আঁধারির সন্ধিক্ষণ (যখন রান্নাঘরের লণ্ঠনে ক্ষীণ আলো পড়ে), desire: এই বাঁধানোর 'শিল্প'কে নিজের সত্তার সবচেয়ে সংবেদনশীল অংশ হিসেবে অনুভব করা, obstacle: সেই অনুভূতিটিকে শব্দে রূপ দেওয়ার ব্যর্থ চেষ্টা।"
+      "Setting: An empty kitchen counter after cooking; Desire: To communicate the failure of flavor to an ancestral spirit who might be observing from beyond the border; Obstacle: The sheer silence that absorbs all attempts at articulation.",
+      "Setting: A quiet corner in a transit station late at night (cold); Desire: For the lingering, non-material 'taste' on the tongue to stabilize into a recognizable memory fragment, like catching a specific thread of light; Obstacle: The artificial hum of distant transport overriding internal echoes.",
+      "Setting: By a cracked window overlooking a gray industrial landscape; Desire: To make the last residual taste become tangible—a particle, a drop of oil suspended in the air; Obstacle: A sudden, intrusive sound (the city's mechanical beat) forcing immediate consumption over contemplation."
     ],
     "subject_rotations": [
-      "এই কলাকে কেবল একটি প্রযুক্তিগত দক্ষতার বর্ণনা না দিয়ে এটিকে প্রবাসের নতুন পরিবেশে নিজেকে 'আঁঠালো' বা সংযুক্ত করার প্রচেষ্টা রূপে দেখানো।",
-      "খোলস বাঁধার প্রক্রিয়াটিকে আত্ম-সংরক্ষণের (Self-preservation) কৌশল হিসেবে দেখা, যেখানে প্রতিটি ভাঁজ বাইরের আঘাত থেকে ভেতরের পুরকে রক্ষা করে।",
-      "অঙ্কুরোদগমের রূপক: কীভাবে প্রাথমিক অপরিণত অবস্থা থেকে একটি সম্পূর্ণ কাঠামো তৈরি হয়, সেই নির্মাণগত বেদনা ফুটিয়ে তোলা।"
+      "Focusing entirely on the *absence* as an active presence, rather than merely a void. The 'not-taste' becomes denser and more palpable than the taste itself.",
+      "Treating the protagonist's tongue/palate not as a sensor, but as a flawed historical archive whose memory is corrupted by diaspora travel.",
+      "Shifting from regret over loss to a fierce defense of what *remains*—the conceptual framework of flavor even if its chemical signature is gone."
     ],
     "sensory_details": [
-      "হাতের চামড়ার রুক্ষতার সঙ্গে ময়দার মসৃণতা মিশে যাওয়ার ঘর্ষণজনিত অনুভূতি (Tactile)।",
-      "ভাঁজ করা খোলসের প্রান্তের ভেতরের দিক থেকে আসা আধা-পচে যাওয়া পুরের হালকা, মিষ্টি ধরনের গন্ধ (Olfactory), যা ভাজার তীব্র ঝাঁজের বিপরীত।",
-      "রাতের গভীরতায় রান্নাঘরের শীতল মেঝেতে পড়ন্ত আলোর তীক্ষ্ণ প্রতিফলন—যা ভাঁজে তৈরি সূক্ষ্ম রেখায় পড়ে (Visual)।"
+      "The brittle, papery sound the final, dry crumb makes when accidentally brushed against the teeth.",
+      "A pervasive metallic tang in the mouth residue, suggestive of unfamiliar urban pollutants replacing pure spice oils.",
+      "The specific quality of light—a thin, washed-out luminescence filtering through glass, lacking the depth of sunlit kitchen haze."
     ],
     "research_questions": [
-      "এই 'বাঁধার কলা' কি মূলত একটি শেখা দক্ষতা, নাকি এটি প্রজন্ম থেকে প্রজন্মে সঞ্চারিত কোনো অপ্রকাশিত সাংস্কৃতিক স্মৃতি?",
-      "নিঃশব্দে কাজটি সম্পন্ন করার সময় যে মানসিক মনোযোগ প্রয়োজন হয়, তা প্রবাসের বিচ্ছিন্নতার কোন দিকটিকে প্রতিফলিত করে?"
+      "What is the appropriate archaic Bengali diction to denote a flavor that exists conceptually but fails to manifest sensorially?",
+      "How can syntactic variation reflect the emotional oscillation between deep introspection and abrupt external sensory stimuli?"
     ],
     "structural_variants": [
-      "কবিতাটি একটি 'ফ্ল্যাশব্যাক' ধারায় লেখা যেতে পারে, যেখানে বর্তমান的 আঙুলের কাজটি প্রাচীন কোনো হাতের কাজের দৃশ্যের মাধ্যমে বারবার পুনরাবৃত্তি হয়।",
-      "একটি আবর্তনীয় কাঠামো: শুরু হবে অর্ধ-বন্ধ খোলস দিয়ে এবং শেষ হবে সেই একই ভাঁজ পুনরায় করার আকাঙ্ক্ষা নিয়ে, কিন্তু তা ব্যর্থ হয়ে গিয়ে থামবে।"
+      "Employing strict adherence to the 10-word count per line as a deliberate, almost mechanical restraint against sprawling emotion.",
+      "Using cyclical phrasing where the final word of one stanza echoes or slightly transforms the first word of the next."
     ],
     "unused_angles": [
-      "গভীর রাতে নিঃশব্দে কাজ করা শ্রমিকের একাকীত্ব (ভবিষ্যৎ অধ্যায়গুলির জন্য সংReserved)।",
-      "খোলসের প্রতিটি বাঁকে লুকিয়ে থাকা রাজনৈতিক সীমানা বা বিভাজনের ক্ষুদ্র রূপক হিসেবে ব্যবহার করা যেতে পারে।"
+      "A sudden moment of hyper-clarity where the 'wrong' taste is momentarily experienced as perfectly right, only to instantly dissolve (The illusionary peak).",
+      "Incorporating a specific auditory memory—the clatter of metal utensils in the ancestral kitchen—as the sole antidote that fails."
     ],
-    "variety_note": "এই অধ্যায় পূর্ববর্তী Chapters-গুলোর কাঠামোগত বর্ণনা থেকে সরে এসে, একটি 'অদৃশ্য দক্ষতা' এবং গভীর রাতের সূক্ষ্ম, অভ্যন্তরীণ কাজের প্রতি মনোনিবেশ করে।"
+    "variety_note": "This chapter shifts focus from describing the *change* (like Chapter 3) to dwelling exclusively on the ontological weight of what is left behind after consumption, confronting the void directly through symbolic address."
   },
   "draft": {
-    "sha256": "b0fb0321315e2bd82060c032bb23c7dd88de817706165f421b6d4eb493256374",
-    "written_at": "2026-11-01T08:19:48.226945+00:00",
+    "sha256": "72d58b4ca303164e7180edaf4a536c598a889f24b65bc12e3dcaa07ae4abd668",
+    "written_at": "2026-11-16T19:32:39.383832+00:00",
     "origin": "write"
   }
 }

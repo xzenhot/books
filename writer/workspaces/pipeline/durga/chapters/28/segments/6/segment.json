@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "শিউলি ও চেতনা",
+  "segment_summary": "শিউলি ফুলের গন্ধের মতো, উৎসবের স্মৃতিগুলি দৈনন্দিন জীবনের ধূসরতাকে ভেদ করে এক ক্ষণস্থায়ী, কিন্তু তীব্র আধ্যাত্মিক রঙ নিয়ে আসে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from Divine Manifestation to Human Will—where is 'Durgi' found when all ritual artifice dissolves?",
+    "story_option": "The poet engages in an obsessive act of 'un-feeling'—attempting to strip away all residual festive emotion, only to discover a deep wellspring of private yearning remains untouched by the external celebration (Setting: A quiet corner of the house; Desire: To achieve objective neutrality; Obstacle: The pervasive resonance of autumn memories; Turn: Accepting that profound feeling *is* the persistence).",
+    "subject_rotation": "Exploring the silence between moments: The specific quality of quiet when human noise fades, allowing only internal resonance.",
+    "sensory_detail": "Sound: The almost imperceptible creak of a shutter in an empty house during the post-festival lull.",
+    "research_question": "What specific Bengali lexical alternatives exist for 'eternal' that carry a weight of inevitability rather than pure optimism?",
+    "structural_variant": "An open-ended dialogue between the 'past self' who celebrated and the 'present self' who questions.",
+    "variety_note": "This chapter intentionally pivots inward, moving away from descriptions of external ritual events toward a sustained meditation on internal psychological endurance, which differs significantly from the sensory immersion of earlier acts (like *ঢাকের বোল* or *সিঁদুর খেলা*)."
+  }
+}

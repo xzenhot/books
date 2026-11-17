@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 24,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "শিউলি ও স্মৃতি",
+  "segment_summary": "উৎসবের তীব্রতা ম্লান হওয়ার পরেও সিঁদুর ও শিউলির গন্ধের মাধ্যমে স্মৃতিগুলির মানসিক স্থায়িত্ব বজায় থাকা চিত্রটি তুলে ধরা হয়েছে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Examining 'memory fidelity' after immersion: how does the mind actively reconstruct the divine presence when its visible form is gone?",
+    "story_option": "Setting: Inside an artisan's workshop (*কুমোরটুলি*) during the lull between festivals; Desire: The craftsman seeks to imbue his next creation with not piety, but a subtle resistance against inevitable decay (a form of quiet rebellion).",
+    "subject_rotation": "Focusing on the *interpersonal* burden: The unspoken agreement between generations to uphold this belief structure, regardless of personal doubt.",
+    "sensory_detail": "Touch: The sensation of rough, sun-baked clay dust adhering stubbornly to skin after weeks indoors.",
+    "research_question": "Can the linguistic cadence mimic a fragmented, overheard conversation rather than a formal address to maximize intimacy and vulnerability in this deeply personal reflection?",
+    "structural_variant": "Structuring one segment using an extended, single-line meditation where rhythm is derived from breath control rather than meter.",
+    "variety_note": "Unlike preceding chapters which focused on the act of creation or ecstatic celebration, this chapter must prioritize inertia and residue—the aftermath, the sustained internal whisper after the grand noise has ceased."
+  }
+}

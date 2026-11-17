@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মাটির নীরবতা",
+  "segment_summary": "জলাধারে বিলীন হওয়া প্রতিমার মাটির নীরবতা, যা প্রকৃতির চক্রে মিশে যাওয়ার এক করুণ কাব্য।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrasting the massive scale of the communal ritual (Pandal) with the micro-scale, almost private endurance of memory within a single body part.",
+    "story_option": "Setting: Near a roadside tea stall witnessing the lingering crowd members; Desire: To capture the silent negotiation happening between people—those who experienced transcendence and those who only saw spectacle.",
+    "subject_rotation": "Analyzing silence itself: Is the quiet a vacuum awaiting noise, or is it a profound form of auditory presence?",
+    "sensory_detail": "The lingering faint taste of ash and burnt ghee coating the tongue during the morning hours.",
+    "research_question": "How can I invoke a poetic rhythm that feels 'settled' or 're-grounded' rather than merely fading, without sounding lethargic?",
+    "structural_variant": "A structure defined by deceleration: each segment must be perceptibly slower and less expansive in imagery than the last.",
+    "variety_note": "Unlike previous chapters that focused on the intensity of arrival/climax, this chapter emphasizes entropy, residue, and the quiet work of psychic integration after the spiritual storm has passed."
+  }
+}

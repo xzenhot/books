@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 54,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "পুরোনো মাটির প্রতিধ্বনি",
+  "segment_summary": "জিভের স্মৃতি সেই তেলের গন্ধের মাধ্যমে অতীতের নির্দিষ্ট মুহূর্তের উষ্ণতাকে পুনরায় আহ্বান করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the smoke/vapor itself as a language barrier, translating home scents into inert urban air.",
+    "story_option": "Setting: While breath comes out in vapor over a cold surface (reflecting absence); Desire: To inhale the specific warmth of saffron infused into pure mustard seed oil; Obstacle: The pervasive smell of foreign exhaust fumes masks all domestic scents.",
+    "subject_rotation": "Shifting focus entirely to the auditory experience—the specific *shis* sound made by mustard oil hitting hot metal versus neutral oil.",
+    "sensory_detail": "A visual: The dull, matte sheen on a modern frying surface compared to the aggressive, vibrant ochre gloss of authentic oil.",
+    "research_question": "Is there an archaic Bengali term describing the characteristic astringency found in mustard oil used for cooking?",
+    "structural_variant": "A highly asymmetrical structure: eight short, almost haiku-like stanzas focusing intensely on single sensory input (sight/smell/touch) before transitioning into a final philosophical lament.",
+    "variety_note": "This chapter moves away from the narrative shock (like Chapter 1) and adopts an echoing, reflective quality, focusing entirely on the subtle persistence and failure of memory held within a single substance: cooking fat."
+  }
+}

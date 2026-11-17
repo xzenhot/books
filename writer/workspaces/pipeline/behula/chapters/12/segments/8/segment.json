@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "পরিবর্তনের বীজ বপন",
+  "segment_summary": "এই সম্মিলিত কণ্ঠস্বর সমাজের চেতনায় এক নতুন প্রশ্ন জাগায়—এই সংগ্রাম কি কেবল ব্যক্তিগত মহিমা, নাকি কাঠামোগত পরিবর্তনের আহ্বান?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Synesthesia of Burden: Describing abstract social pressure not as emotional weight, but as a tangible physical substance—like dust or heavy patina on ancestral metalwork.",
+    "story_option": "Setting: The edge of a sprawling village under a hostile moon (অমাবস্যা), Desiresion: To hear the synchronized whispers of marginalized women nearby, forming an unspoken chorus with her own pain; Obstacle: The coldness of the earth absorbing all unvoiced pleas.",
+    "subject_rotation": "Treating the collective voice not as a unified sound, but as many distinct, slightly dissonant frequencies vibrating together.",
+    "sensory_detail": "A faint metallic tang on the air after a sudden downpour in a confined space, representing suppressed anguish.",
+    "research_question": "How can I utilize archaic vocabulary to denote a shared, unspoken cultural grievance without becoming overly didactic?",
+    "structural_variant": "An accretion structure: each segment introduces a single, new shared grievance that builds upward in emotional register towards the end.",
+    "variety_note": "This chapter shifts focus from intimate struggle (previous chapters) to sociological resonance; it is about transforming personal pain into a palpable, shared cultural frequency rather than achieving singular dramatic resolution."
+  }
+}

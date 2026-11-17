@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের লড়াই",
+  "segment_summary": "কেবল বেঁচে থাকা নয়, বরং নিজের সত্তাকে প্রতিষ্ঠা করার জন্য তাকে এক নিরন্তর সংগ্রাম চালিয়ে যেতে হয়।",
+  "name": "5.6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on micro-acts of refusal: moments where she internally rejects a whispered slight rather than reacting outwardly, magnifying the power of silent resistance.",
+    "story_option": "Setting: Walking down a narrow passage within the compound; Desire: To merge seamlessly into the background as an anonymous fixture, escaping judgment (turn); Obstacle: A single individual's deliberate lingering gaze.",
+    "subject_rotation": "Using the concept of inherited weariness: How does the weight of past female sorrows within that household compound the immediate struggle?",
+    "sensory_detail": "The taste of dust mixed with unsalted water during midday stillness (Taste).",
+    "research_question": "What are potent Bengali metaphors for sustained, quiet internal attrition that fit the required high diction?",
+    "structural_variant": "An abrupt shifting of perspective between Behula's inner monologue and brief, objective observations of her physical labor.",
+    "variety_note": "Unlike the preceding chapters which focused on external assaults (social/familial), this chapter pivots inwards, concentrating on the metabolic cost—the physical and psychological labor required just to maintain her presence amid perceived rivals."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের সারসংক্ষেপ",
+  "segment_summary": "সোনালী রঙটি কেবল একটি বর্ণ নয়, এটি তার সমগ্র অস্তিত্বের জটিল দার্শনিক দলিল।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from internal synthesis to an external observation—how this 'golden color' affects the way surrounding objects appear to her.",
+    "story_option": "The act of breathing becoming ritualized: each inhale pulling in 'heavenly bliss' and the exhale releasing a measured amount of grounded desire.",
+    "subject_rotation": "Framing 'সোনালী' not as beauty, but as *patina*—the rich layer of experience that develops over time.",
+    "sensory_detail": "The specific visual weight of light hitting oiled wood grains, making them appear molten or liquid.",
+    "research_question": "Can the concept of 'mid-level age' be visualized through wear patterns on objects rather than biological decline?",
+    "structural_variant": "Varying stanza lengths dramatically—from tightly constrained couplets (representing body limits) to sprawling, unbound lines (representing divine reach).",
+    "variety_note": "This chapter moves beyond simple conflict by forcing an integration. It differs from its neighbors by depicting synthesis—the temporary successful blending of opposing forces rather than just their tension."
+  }
+}

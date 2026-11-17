@@ -1,8 +1,8 @@
-# মহালয়ার ম্লান হওয়া
+# মহালয়া: এর কবিতা
 
 ## Workshop
 
-মহালয়ার সেই তীব্র, পবিত্র অনুভূতিটি ধীরে ধীরে ম্লান হতে শুরু করে, যেন কোনো স্বপ্ন ভেঙে যাচ্ছে। এই অধ্যায়টি সেই ক্ষণস্থায়ী স্বর্গীয় মুহূর্তের সমাপ্তি এবং দৈনন্দিন বাস্তবতার দিকে প্রত্যাবর্তনের বেদনাকে চিত্রিত করে। চরিত্ররা অনুভব করে যে, সেই আদিম শুদ্ধতার আভা ফুরিয়ে আসছে, এবং তাদের ভেতরের আকাঙ্ক্ষাগুলো আবার জীবনের ধূসর কোলাহলের মুখোমুখি হতে প্রস্তুত হচ্ছে। প্রশ্নটি হলো— এই পবিত্রতার ক্ষণস্থায়ীতা কি কেবলই এক বার্ষিক বিভ্রম, নাকি এর থেকে কোনো স্থায়ী শিক্ষা লাভ করা সম্ভব?
+Since the provided epic only contains 15 chapters, Chapter 17 is conceptualized as a culmination or epilogue, focusing on the lingering resonance of the Mahalaya experience. This chapter explores the delicate transition from intense spiritual fervor back into the mundane reality, examining how the profound internal shifts experienced by Arunima and Anirban persist amidst the city's returning noise. The central conflict is the struggle to anchor ephemeral, divine realization into the concrete fabric of daily life, leaving the reader to question the enduring power of transcendent moments.
 
 ## Story
 

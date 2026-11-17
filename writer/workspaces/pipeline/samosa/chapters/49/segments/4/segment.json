@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্মৃতি",
+  "segment_summary": "কবি যুক্তি দেন যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা রাসায়নিক বিশ্লেষণের ঊর্ধ্বে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the lingering flavor residue not as a ghost of taste, but as an actual, tangible pollutant that coats the tongue like fine dust (ধুল).",
+    "story_option": "Setting: A worn, inherited travel tin (টিফিন) on a bare counter; Desire: To find one single crumb that retains the original spice profile; Obstacle: The wrapper has absorbed all ambient foreign smells; Turn: 'I' realize the crumb is now just inert grease.",
+    "subject_rotation": "Focusing solely on the *anticipatory* quality of the void—how the absence creates a vacuum that demands an impossible past.",
+    "sensory_detail": "Tactile: The slick, almost waxy film left on the palate where the spice should have been.",
+    "research_question": "How does the cadence of Jibran/Orillas align with describing absolute sensory deprivation?",
+    "structural_variant": "An extended use of parallelism where every positive memory is immediately counterbalanced by its muted translation.",
+    "variety_note": "Unlike neighbour chapters focused externally on market clutter or ingredient substitution, this chapter turns entirely inward, meditating exclusively on the residue—the philosophical weight and silence left *after* consumption."
+  }
+}

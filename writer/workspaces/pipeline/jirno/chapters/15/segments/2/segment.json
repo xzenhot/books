@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার পবিত্রতা",
+  "segment_summary": "পথিক উপলব্ধি করে যে, যে পূজার আয়োজন অসমাপ্ত রয়ে গিয়েছিল, তার মধ্যেই এক গভীর, অপ্রকাশিত পবিত্রতা নিহিত ছিল, যা মানুষের হস্তক্ষেপের ঊর্ধ্বে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating 'silence' after the storm as an active, physical entity—not merely the absence of noise, but a heavy residue that adheres to clothing and skin.",
+    "story_option": "Setting: Near the boundary line with the Satual settlement, just as the light stabilizes; Desire: To wait for one specific elder to acknowledge him before he leaves, hoping for a single gesture of permission; Turn: The elder simply turns their head back towards the field, indifferent to his waiting.",
+    "subject_rotation": "Examining the color palette shift: how the stark, bleached-out quality of the post-storm light differs fundamentally from the fiery red intensity of the preceding পলাশ blooms.",
+    "sensory_detail": "Sound: A low, sustained hum (infrasound) felt more than heard—the Earth settling after immense pressure release.",
+    "research_question": "What specific agricultural terms describe the state of land that has been heavily saturated and then rapidly dried by tempestuous weather?",
+    "structural_variant": "An inverted narrative: beginning with the quiet departure and using flashbacks (in reverse chronological order) to explain *why* that silence feels earned.",
+    "variety_note": "This chapter pivots entirely away from intellectual confrontation; where earlier parts explored the *resistance* to change, this final phase is dedicated solely to the exhausted *completion* of surrender and departure."
+  }
+}

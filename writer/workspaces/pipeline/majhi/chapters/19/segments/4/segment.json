@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নদীর নিজস্ব উত্তর",
+  "segment_summary": "নদী তার প্রবাহের মাধ্যমে নিজেই তার অস্তিত্বের উত্তর দেয়, যা মানুষের হিসেবের বাইরে এক গভীর সত্য বহন করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The philosophical confrontation with an unseen recipient (the future reader) who only knows the ledger lines.",
+    "story_option": "Setting: A point where the river widens into an expanse mirroring the horizon. Desire: The majhi wishes to project his pure, unbought gesture across this vastness towards an unseen destination, Obstacle: The sheer distance rendering any concrete action meaningless.",
+    "subject_rotation": "Shifting focus from 'loss' due to money to 'preservation' through song—how the Bhatiyali actively protects the essence of the river.",
+    "sensory_detail": "The dry, chalky taste of river air after a long day's toil.",
+    "research_question": "How can the rhythm shift abruptly mid-sentence (the 'twist') to mimic a sudden cognitive break caused by financial pressure?",
+    "structural_variant": "An invocation directed toward the river itself, personifying its acceptance or rejection of his philosophy.",
+    "variety_note": "This chapter pushes away from the external confrontation seen previously, focusing instead on an internal resonance—the quiet acceptance that true value is self-contained within the act itself, rather than derived from its outcome or exchange."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "সমস্ত প্রতিকূলতা অতিক্রম করার মাধ্যমে বেহুলার চরিত্র কীভাবে কেবল একজন নারী থেকে এক মহৎ, অনুপ্রেরণাদায়ী প্রতীকে রূপান্তরিত হয়, তার বিশ্লেষণ এই অংশে থাকবে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Temporal Shift Twist: The moment of reunion is presented first under the waning light (shadows/doubt), and then immediately re-read in bright dawn (certainty/resolve) to emphasize the internal change.",
+    "story_option": "Setting: Near the spot where his ordeal ended (a symbolic riverbank); Desire: To immerse both their hands in a slow-moving current, symbolizing the merging of two separate existential paths into one flow; Obstacle: Residual exhaustion from her prolonged vigil.",
+    "subject_rotation": "Treating the return not as salvation, but as the beginning of an even more complex ethical duty toward society.",
+    "sensory_detail": "The low, steady warmth emanating from his presence that counters the previous chill of isolation; (Touch/Temperature)",
+    "research_question": "How can I use Bengali vocabulary to describe a peace so absolute it borders on terrifying—a stillness that holds immense potential energy?",
+    "structural_variant": "A tripartite structure where each segment represents 'Before Reunion' (stasis), 'The Instant of Contact' (explosion/volta), and 'After Union' (new equilibrium).",
+    "variety_note": "This chapter pivots from the raw agony and struggle found in earlier segments (like those dealing with societal friction) to focus entirely on transcendent closure, using a structural volta to redefine that finality."
+  }
+}

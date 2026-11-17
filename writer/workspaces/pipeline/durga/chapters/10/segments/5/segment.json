@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 5",
+  "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'spotlight' illumination not as glory, but as a harsh, exposing glare that reveals imperfection beneath piety.",
+    "story_option": "setting: A small alcove adjacent to the main viewing platform, desire: To momentarily stop 'performing' faith—to simply exist outside the ritual cycle., obstacle: The pressure from other onlookers or family members who are actively engaged in the devotional fervor., turn: The speaker recognizes that their yearning for mundane escape is itself a form of spiritual striving, making them complicit in the spectacle.",
+    "subject_rotation": "Deconstructing the concept of 'presence': Is Durga physically there, or is her presence merely an agreed-upon cultural construct sustained by collective belief?",
+    "sensory_detail": "The sharp, metallic tang of oxidized brass fittings on an offering lamp left burning too long.",
+    "research_question": "In Bengali poetic tradition, how is the transition from overtly devotional praise to introspection navigated without breaking linguistic consistency?",
+    "structural_variant": "A cyclical structure where the tension is established, peaked with a moment of false resolution, and then falls back into heightened tension.",
+    "variety_note": "Unlike previous chapters that focused on the mechanics (creation/noise), this chapter delves into the psycho-spiritual tension *within* the moment of perceived climax, focusing on unmet longing against backdrop splendor."
+  }
+}

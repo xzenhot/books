@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-প্যাকেট বদলায়
+চূড়ান্ত স্বাদ
 
 ## chapter_summary
 
-কাগজের মোড়ক ছিঁড়ে যায়, আর ভিতরে প্লাস্টিকের খোলস। বাড়ির পত্রিকা থেকে দোকানের প্যাকেট — মোড়কও একটি ঠিকানা।
+এই অধ্যায়টি সেই আকাঙ্ক্ষিত, কিন্তু অধরা স্বাদের অনুরণন নিয়ে শেষ হয়, যা কেবল স্মৃতিতে বিদ্যমান। এটি সেই মুহূর্তকে চিত্রিত করে যখন সামোসাটি শেষ হয়ে যায়, কিন্তু জিভে একটি গভীর শূন্যতা থেকে যায়—যা কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি। এই কাব্যিক সমাপ্তি পাঠককে একটি মধুর বিষাদে ডুবিয়ে দেয়, যেখানে প্রশ্নটি খোলা থাকে: স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা আত্মার গভীরে ভাজা এক অবিচ্ছেদ্য মানবিক অভিজ্ঞতা?
 
 ## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+শূন্যতার অনুরণন
+
+#### segment_summary
+
+সামোসাটির শেষ টুকরো গিলে ফেলার পর জিভে যে শূন্যতা নেমে আসে, তা কেবল পেট ভরের অভাব নয়, বরং একটি সম্পূর্ণ সাংস্কৃতিক অভিজ্ঞতার অনুপস্থিতি।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্মৃতির শেষ ফোঁটা
+
+#### segment_summary
+
+সেই শেষ কামড়েও যেন সরিষার তেলের ঝাঁঝালো গন্ধের একটি ক্ষীণ প্রতিধ্বনি ধরা দেয়, যা প্রবাসের অচেনা পরিবেশে ক্ষীণ হয়ে আসে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসম্পূর্ণ আখ্যান
+
+#### segment_summary
+
+এই সমাপ্তি কোনো সমাধান দেয় না; বরং এটি একটি অনন্ত অপেক্ষার প্রতিচ্ছবি, যেখানে আদি সিঙ্গাড়া এবং বর্তমান সামোসার মধ্যেকার দূরত্ব চিরস্থায়ী।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মার ভাজা স্বাদ
+
+#### segment_summary
+
+কাব্যটি প্রমাণ করে যে কিছু স্মৃতি কেবল জিভের ওপর নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক সীমানা অতিক্রম করতে পারে না।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অটুট আশ্রয়
+
+#### segment_summary
+
+হারিয়ে যাওয়া স্বাদটিই প্রবাসীর একমাত্র অটুট আশ্রয় হয়ে ওঠে, যা তাকে নতুন মাটির ভিড়েও তার শিকড়ের কথা স্মরণ করিয়ে দেয়।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনুবাদিত অভিজ্ঞতা
+
+#### segment_summary
+
+সামোসাটি চিরকাল একটি 'অনুবাদিত' স্বাদ হয়েই থেকে যায়—একটি এমন অভিজ্ঞতা যা ভাষা বা ভূগোলের মাধ্যমে পুরোপুরি অনুবাদ করা সম্ভব নয়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+মধুর বিষাদের স্থায়িত্ব
+
+#### segment_summary
+
+এই কাব্যিক অনুরণন পাঠককে এক ধরনের মধুর বিষাদে রেখে যায়, যেখানে আকাঙ্ক্ষা এবং প্রাপ্তির মধ্যেকার সূক্ষ্ম রেখাটি অস্পষ্ট থাকে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষার প্রতিচ্ছবি
+
+#### segment_summary
+
+এই শেষ মুহূর্তটি সেই নিখুঁত সিঙ্গাড়া বা সামোসাটির জন্য স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক, যা কেবল স্মৃতির রাজ্যে বিরাজমান।
+
+#### further_references
 
 
 ## level
@@ -31,51 +238,43 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Treating the packaging material itself as a second skin—synthetic membrane replacing organic wrapper (like muslin or newspaper print from home).
-- Focusing on the texture of the change: the brittle crispness of factory sealing versus the yielding softness of homemade wrappings.
-- Framing 'প্যাকেট' not just as wrapping, but as a mandated containment unit that forces isolation between object and environment.
+- সামোসার বাইরের ক্রিস্পি আবরণ বনাম ভিতরের আলুর নরম টেক্সচারকে মানসিক দ্বৈততার প্রতীক হিসেবে ব্যবহার করা।
+- প্রবাসের বাজারে এই খাবারটির পরিবর্তিত, বিদেশী সংস্করণটিকে স্মৃতি দ্বারা প্রত্যাখ্যাত করা।
+- এই শূন্যতাকে কেবল খাদ্যনষ্ট হওয়া নয়, বরং সাংস্কৃতিক পরিচয়ের বিচ্ছিন্নতা হিসেবে উপস্থাপন করা।
 
 ### story_options
 
-- Setting: A poorly lit railway platform at dusk; Desire: To examine the standardized plastic seal on a small packet of savory bites; Obstacle: The pressure to consume quickly before the 'expiry' stamped in indelible ink.
-- Setting: Inside a cluttered storage room, stacked high with different brands/types; Desire: To sift through various paper and polymer layers, seeking one familiar texture or print pattern; Obstacle: The overwhelming noise of commerce drowning out any whisper of memory.
-- Setting: Near a roadside stall where the vendor is preparing fresh goods nearby; Desire: To observe the contrast between the handcrafted freshness (the *kora*) and the factory-sealed uniformity in close proximity; Obstacle: The speed of mechanized production outpacing human ritual.
+- স্থান: একটি জনাকীর্ণ অথচ নিঃসঙ্গ রেস্টুরেন্ট; ইচ্ছা: আদি স্বাদকে পুনরুদ্ধার করা; বাধা: বিদেশী উপকরণের ভিন্নতা; মোড়: শুধুমাত্র এক চিমটি নুন দিয়ে স্মৃতির কাছাকাছি যাওয়া।
+- স্থান: পুরানো রান্নাঘরের স্মৃতিচিহ্ন রাখা টেবিল; ইচ্ছা: সেই নির্দিষ্ট সকালের উষ্ণতার অভিজ্ঞতা লাভ করা; বাধা: সময়ের ক্ষয় এবং বিবর্ণ হয়ে যাওয়া ছবি; মোড়: গন্ধটির মাধ্যমে মুহূর্তের জন্য প্রত্যাবর্তন করা।
+- স্থান: কোনো আন্তর্জাতিক বাজারের কোণ; ইচ্ছা: এই খাবারটি যেন স্থানীয় স্বাদ গ্রহণ করে পুনরায় জন্মগ্রহণ করে; বাধা: স্থানীয় মশলার ভুল মিশ্রণ; মোড়: ব্যর্থ প্রচেষ্টার মধ্যেও খুঁজে পাওয়া এক নতুন, তিক্ত-মিষ্টি গ্রহণযোগ্যতা।
 
 ### subject_rotations
 
-- The shift from a perishable, home-held item to an industrially immortalized product.
-- How color/graphic design on the wrapper functions as aggressive consumer propaganda masking cultural loss.
-- Examining 'প্যাকেট' through a strictly chemical lens—the polymers and additives that replace the natural scents of oil and flour.
+- সামোসার ভাজা উপাদানগুলির (আলু/মশলা) প্রতীকী রূপান্তর—কীভাবে পরিচিত উপকরণ অচেনা পরিবেশে ভিন্ন অর্থ বহন করে।
+- এই 'খাদ্য স্মৃতি'কে একটি চলমান যাত্রা হিসেবে দেখা, যেখানে প্রতিটি কামড় অতীতের সাথে বর্তমানের সংযোগ স্থাপন করতে চায়।
 
 ### sensory_details
 
-- The faint, sweet plasticky odor leaching from newly opened packets in the dry air of transit spaces.
-- The sight of standardized heat-seals contrasting sharply with a stain pattern left by hand oils on old paper bags.
-- The sharp, high-pitched sound of tearing synthetic film under tension.
+- সামোসার ভেতরের আলুর উষ্ণতা জিভের নিচে মৃদু ঝাঁকুনি সৃষ্টি করছে।
+- বাইরের তেল-শোষিত পৃষ্ঠে লেগে থাকা ধোঁয়াটে, সামান্য ধাতব গন্ধ যা শীতের বাতাসের সাথে মিশছে।
 
 ### research_questions
 
-- What are specific Bengali/regional terms for the sense of 'artificial preservation' or engineered flavor in processed foods?
-- How is mass packaging typography used across various diaspora markets to communicate global standardization?
+- প্রবাসে ভারতীয় খাদ্য প্রস্তুত করার সময় ঐতিহ্যবাহী সরিষার তেলের সুগন্ধ কতটুকু ধরে রাখা সম্ভব?
 
 ### structural_variants
 
-- A poem that builds solely through a cataloguing process: listing different materials (paper, foil, plastic grade) before touching the food.
-- A structure mimicking an inspection report—clinical language applied to intensely emotional subject matter.
+- একটি দীর্ঘ, ধীর গতির অবিরাম প্রবাহ (stream of consciousness) যা একটি মাত্র কামড়ের চারপাশে আবর্তিত হয়।
+- ছবির মতো স্বল্প দৈর্ঘ্যের একাধিক অনুচ্ছেদ যেখানে প্রতিটি অংশ খাদ্যের ভিন্ন একটি টেক্সচারকে তুলে ধরে।
 
 ### unused_angles
 
-- How the visual design of the packaging attempts to mimic regional artistry while failing due to mass-market constraints.
-- The political implication of needing standardized, recognizable foreign labels for items that are inherently hyper-local (Singara).
+- ভাজা মশলার রং এবং তা কিভাবে বিদেশী আলোর নিচে বিবর্ণ হয়ে যাচ্ছে তার দৃশ্যগত বিশ্লেষণ নিয়ে গভীর আলোচনা করা।
 
 ### variety_note
 
-This chapter focuses intensely on the *container* rather than the contents or the movement, examining manufactured surfaces as a substitute for familial touch.
+এই অধ্যায়টি প্রতিবেশী অধ্যায়গুলির চেয়ে বেশি অভ্যন্তরীণ মনস্তাত্ত্বিক ফোকাস ধারণ করে, যেখানে শারীরিক স্বাদ অনুপস্থিতির মাধ্যমে সাংস্কৃতিক শূন্যতা প্রকাশিত হয়।

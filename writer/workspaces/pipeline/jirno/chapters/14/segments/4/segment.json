@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্বীকৃতির ভার",
+  "segment_summary": "পথিক বুঝতে পারে যে তার প্রচেষ্টা কেবলই এক ধরনের নিয়ন্ত্রণ আরোপের ব্যর্থ চেষ্টা ছিল, যা প্রকৃতির স্বতঃস্ফূর্ততাকে অস্বীকার করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the Satual eyes as a lens through which all concepts—history, architecture, self—become utterly meaningless placeholders.",
+    "story_option": "Setting: A patch of red earth where the shadows of the crumbling walls meet; Desire: The traveler attempts to articulate his understanding, only finding himself repeating meaningless academic jargon; Obstacle: The wind shifts, momentarily drowning out his internal monologue.",
+    "subject_rotation": "Shifting from philosophical resignation to a visceral experience of *release*—the feeling akin to dropping an incredibly heavy, unnecessary burden.",
+    "sensory_detail": "Touch: The subtle friction of fine, desiccated clay particles against exposed skin when maintaining prolonged stillness.",
+    "research_question": "What specific gesture or subtle non-verbal communication within indigenous cultures might translate as 'acceptance of natural cycles' without being a definitive statement?",
+    "structural_variant": "Embedding a single, very short passage written in stark, unadorned prose amidst the poetic flow to represent the traveler's final intellectual collapse.",
+    "variety_note": "This chapter diverges from its neighbors by focusing inward on the traveler’s *internal collapse* rather than outward onto environmental action, using the Satual gaze as a mirror for dissolution."
+  }
+}

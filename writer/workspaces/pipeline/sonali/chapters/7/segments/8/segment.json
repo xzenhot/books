@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "মুক্তির সন্ধিক্ষণ",
+  "segment_summary": "এই সংঘাত তাকে এক সন্ধিক্ষণে দাঁড় করায়, যেখানে সে স্থির করে—তার মুক্তি কেবল শারীরিক নয়, এটি এক দার্শনিক ও আত্মিক সংগ্রাম।",
+  "name": "8",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the conflict entirely through sensory deprivation vs. overload—the silence of societal conformity versus the riotous sound of her internal bliss.",
+    "story_option": "setting: একটি পুরনো, ভারী কাঠের বন্ধ দরজার সামনে, desire: দরজাটিকে ভেদ করে বাইরের বিশৃঙ্খলার মধ্যেও নিজের বিশুদ্ধতা বজায় রাখা।, obstacle: দরজাটির কাঠিন্য এবং ল্যাচ-এর লৌহ কঠিনতা যা তার আত্মার প্রবাহকে আটকে দেয়।, turn: সে দরজায় হাত রেখে উষ্ণতার অনুসন্ধান না করে, কেবল শীতল ধাতুর 'কথা' শুনতে চায়।",
+    "subject_rotation": "Presenting 'mid-life' not as a burden, but as the critical junctures where suppressed power finally gathers mass before release.",
+    "sensory_detail": "The metallic tang in the air just before a societal expectation is voiced (Taste/Smell fusion).",
+    "research_question": "What Bengali metaphors exist for 'silent refusal' or 'unspoken self-assertion' that avoid traditional martial imagery?",
+    "structural_variant": "Using an extended chiasmus throughout the piece: beginning by naming the external constraint (e.g., 'the grey net') and ending by referencing the internal freedom in inverse order.",
+    "variety_note": "Where earlier chapters focused on internal discovery or rising tension, this chapter isolates the direct friction point: the clash between the intensely private spiritual life and the pervasive, visible demands of the external world."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "খাদ্য বনাম আর্কাইভ",
+  "segment_summary": "তাদের কাছে সামোসা একটি তাৎক্ষণিক তৃপ্তি, কিন্তু প্রথম প্রজন্মের কাছে এটি একটি জীবন্ত আর্কাইভ, যা অতীতকে ধারণ করে।",
+  "name": "7.4",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Samosa as a Proxy for Modern Consumption: Framing the act of eating as pure, functional consumption devoid of cultural weight.",
+    "story_option": "Setting: A fast-food counter in a foreign suburb; Desire: For one of the newer samosas to momentarily taste 'authentic' after being paired with a strong, familiar tea; Obstacle: The rapid turning over of stock ensures no lingering flavor.",
+    "subject_rotation": "Treating the second generation not as ignorant but as inherently adapted to diaspora life, finding *new* forms of wholeness outside traditional definitions.",
+    "sensory_detail": "The slick, uniform film of cheap cooking oil coating the exterior shell, contrasting with ancestral earthiness.",
+    "research_question": "What is the specific vocabulary (Tatsama/Purano Bangla) that describes 'habitual, non-nostalgic consumption' in this context?",
+    "structural_variant": "A fragmented structure mirroring the quick bites—short bursts of observation followed by moments of static, introspective pause.",
+    "variety_note": "While earlier chapters delve into the visceral *loss* experienced by the first generation, this segment focuses on the detached *acceptance* of difference by the second, observing where memory fragments fail to connect."
+  }
+}

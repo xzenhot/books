@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 54,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্বাদের বিচ্যুতি",
+  "segment_summary": "এই বৈসাদৃশ্যটি প্রমাণ করে যে, স্বাদ কেবল একটি স্বাদ নয়, এটি একটি নির্দিষ্ট পরিবেশের সামগ্রিক সংমিশ্রণ।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The oil not as cooking medium, but as an inherited garment whose weave holds the map of departure.",
+    "story_option": "Setting: Observing an old, cracked spice tin on the shelf; Desire: To recreate the exact temperature gradient of oil from that bin to the *tawa* for peak aroma release; Obstacle: The original spices are too faded.",
+    "subject_rotation": "Framing the 'oil choice' not as preparation, but as an immediate, subconscious act of self-betrayal or loyalty.",
+    "sensory_detail": "An olfactory: A phantom stinging sensation in the nostrils from an imagined whiff of rendered mustard seed oil's pungency.",
+    "research_question": "Is there an archaic Bengali term describing the characteristic astringency found in mustard oil used for cooking?",
+    "structural_variant": "Employing heavy use of antithesis in parallel couplets that rigidly oppose 'Sorsher' vs. 'Neutral', 'Jhal' vs. 'Nishchipto'.",
+    "variety_note": "This chapter moves away from the narrative shock (like Chapter 1) and adopts an echoing, reflective quality, focusing entirely on the subtle persistence and failure of memory held within a single substance: cooking fat."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ সংযোগ",
+  "segment_summary": "তাদের এবং প্রথম প্রজন্মের মধ্যে একটি অদৃশ্য সংযোগের অভাব অনুভূত হয়, যেখানে স্বাদটি একটি অসম্পূর্ণ সেতু হিসেবে কাজ করে।",
+  "name": "7.7",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Samosa as a Proxy for Modern Consumption: Framing the act of eating as pure, functional consumption devoid of cultural weight.",
+    "story_option": "Setting: A fast-food counter in a foreign suburb; Desire: For one of the newer samosas to momentarily taste 'authentic' after being paired with a strong, familiar tea; Obstacle: The rapid turning over of stock ensures no lingering flavor.",
+    "subject_rotation": "Treating the second generation not as ignorant but as inherently adapted to diaspora life, finding *new* forms of wholeness outside traditional definitions.",
+    "sensory_detail": "The slick, uniform film of cheap cooking oil coating the exterior shell, contrasting with ancestral earthiness.",
+    "research_question": "How does repeated exposure to globalized snack foods fundamentally alter the olfactory memory recall associated with regional cuisine?",
+    "structural_variant": "Alternating between hyper-focused descriptions of texture (tactile emphasis) and broad existential observations about cultural drift.",
+    "variety_note": "While earlier chapters delve into the visceral *loss* experienced by the first generation, this segment focuses on the detached *acceptance* of difference by the second, observing where memory fragments fail to connect."
+  }
+}

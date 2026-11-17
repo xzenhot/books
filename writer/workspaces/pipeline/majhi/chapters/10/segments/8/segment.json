@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "মুক্ত স্রোতের অঙ্গীকার",
+  "segment_summary": "মাঝি স্থির করেন যে তার জীবনদর্শন কেবল ভাড়ার হিসেব দিয়ে পরিমাপ করা সম্ভব নয়, এটি মুক্ত প্রবাহের অঙ্গীকার।",
+  "name": "8",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the passenger not merely as poor, but as someone who represents a forgotten tradition or lost narrative of the delta itself.",
+    "story_option": "Setting: Dusk near an abandoned jute mill. Desire: The passenger wants only one specific piece of wisdom or direction for his own difficult journey. Obstacle: The maja's ingrained habit of assessing value resists the intangible request.",
+    "subject_rotation": "Treating the 'story' not as communication, but as a form of physical weight or ballast carried on the journey.",
+    "sensory_detail": "The sound of a single cricket’s relentless chirp echoing unnaturally loud in the deep quiet between dialogue exchanges.",
+    "research_question": "How is 'debt' expressed in local folklore when it pertains to spiritual obligation rather than financial insolvency?",
+    "structural_variant": "A deeply fragmented poem, mirroring how memories or narratives drift in currents—moments revealed only as sudden flashes.",
+    "variety_note": "This chapter deviates from previous explorations of economic hardship by focusing entirely on an intentional pause—a moment where financial pressure is momentarily superseded by shared human gravity. Unlike Chapter 2’s initial tension, this scene resolves into a profound quietude."
+  }
+}

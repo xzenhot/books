@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "শ্রম ও নিষ্ঠার নীরব ভাষা",
+  "segment_summary": "কারিগরের প্রতিটি হাতের স্পর্শে মিশে থাকে প্রজন্ম থেকে প্রজন্মান্তরের নিষ্ঠা, যা কেবল একটি প্রতিমা নয়, এক জীবন্ত আখ্যানের ভিত্তি স্থাপন করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the potter's hands not as sculptors, but as conduits channeling an ancient, dormant force from the earth itself.",
+    "story_option": "An elderly master potter guides a young apprentice through the process, his instructions cryptic—they concern not technique, but listening to the *dhak's* memory before it is struck.",
+    "subject_rotation": "Elevating the labor itself to an act of existential defiance against entropy.",
+    "sensory_detail": "The damp, cool pressure of tightly packed earth molding against warm, sweating palms.",
+    "research_question": "What specific terminology in Bengali traditionally describes the transition point between raw earthen material and a consecrated object?",
+    "structural_variant": "Employing short, declarative stanzas that mimic the deliberate, slow rhythm of hand-building pottery.",
+    "variety_note": "This chapter differs from neighbouring pieces by focusing entirely on the *genesis*—the patient, slow incubation period before any external ritual or grand pronouncement begins."
+  }
+}

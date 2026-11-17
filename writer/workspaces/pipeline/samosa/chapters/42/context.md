@@ -10,17 +10,225 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-দিদার তেলের পরিমাণ
+প্রবাসের বাজারের দৃশ্যপট
 
 ## chapter_summary
 
-দিদার তেলের পরিমাণ কেউ মাপতেন না, আর সেই অমাপই সবচেয়ে সঠিক ছিল। প্রজন্মের এই পাঠ কখনও লিখিত হয় না।
+এই অধ্যায়টি প্রবাসের বাজারের তীব্র, বহিরাগত উদ্দীপনার পটভূমিতে সামোসার উপস্থিতি নিয়ে আলোচনা করে। এখানে, বাংলার পরিচিত স্বাদটি অন্য খাবারের তীব্র গন্ধে চাপা পড়ে যায়, যা স্মৃতির সঙ্গে বর্তমানের সংঘাতকে ফুটিয়ে তোলে। এই দৃশ্যকল্পটি প্রশ্ন তোলে যে, যখন পরিচিতি একটি ভিড়ের মধ্যে হারিয়ে যায়, তখন তার মৌলিক সত্তা কি টিকে থাকতে পারে, নাকি কেবল একটি দৃশ্যমান প্রতীক হয়েই থেকে যায়?
 
 ## further_references
+
+- references.md
+- research.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+অচেনা গন্ধের ভিড়
+
+#### segment_summary
+
+বাজারের কোলাহলে অন্যান্য খাবারের তীব্র, অপ্রয়োজনীয় গন্ধগুলো সামোসার সূক্ষ্ম অস্তিত্বকে গ্রাস করছে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+আকৃতির প্রতিরোধ
+
+#### segment_summary
+
+ত্রিকোণাকার খোলসটি তার পরিচিত আকার ধরে রেখেছে, কিন্তু পরিবেশের চাপ তাকে তার ভেতরের স্বাদের প্রতিহত করতে পারছে না।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্বাদের চাপা পড়া
+
+#### segment_summary
+
+সরিষার তেলের সেই পরিচিত ঝাঁঝালো গন্ধটি এখানে অন্য তেলের নিরপেক্ষতার কাছে ম্লান হয়ে যাচ্ছে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্মৃতির বিচ্ছিন্নতা
+
+#### segment_summary
+
+এই ভিড়ের মধ্যে, সামোসাটি যেন একটি বিচ্ছিন্ন স্মৃতি, যা তার মূল প্রেক্ষাপট থেকে বহু দূরে অবস্থান করছে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+বহিরাগত উদ্দীপনা
+
+#### segment_summary
+
+নতুন পরিবেশের তীব্র উদ্দীপনাগুলি পুরোনো, শান্ত স্মৃতির কাঠামোকে ক্রমাগত চ্যালেঞ্জ জানাচ্ছে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+নামের ভার
+
+#### segment_summary
+
+নামের পরিবর্তন—সামোসা—এই বাজার তাকে একটি নতুন, কিন্তু অর্থহীন পরিচয় প্রদান করছে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসম্পূর্ণ উপস্থিতি
+
+#### segment_summary
+
+এটি কেবল একটি খাবার হিসেবে উপস্থিত, কিন্তু তার সাংস্কৃতিক গভীরতা এই বাজারের কোলাহলে হারিয়ে যাচ্ছে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষিত অনুরণন
+
+#### segment_summary
+
+এই দৃশ্যপটটি সেই নিখুঁত, আদি স্বাদের জন্য এক নীরব আকাঙ্ক্ষা তৈরি করে, যা এই বাজার দিতে অক্ষম।
+
+#### further_references
 
 
 ## level
@@ -31,50 +239,49 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Focusing on the ancestral knowledge embedded in the *ratio* of oil to dough, treating the precise measurement (or lack thereof) as a transmission vector across generations.
-- Framing the 'quantity of oil' not just as flavor/texture, but as an economic metaphor—the cost of tradition versus the affordability of modern convenience.
-- Narrating from the perspective of the *oil itself*—its viscosity, its history, how it absorbs memories before meeting the batter.
+- The speaker addresses a specific former companion (a shared memory of the original cooking) who is absent, questioning if they still recall the *smell* before the texture.
+- Framing the market not as external noise, but as an internal physiological response—the body rejecting the foreign stimuli in favor of deep-seated hunger for nostalgia.
+- Treating the standardization of the product (same shape/packet) as a form of silent betrayal against artisanal memory.
 
 ### story_options
 
-- Setting: A dimly lit attic where old utensils sit stacked; Desire: To recall the precise sheen and warmth of Di’da's oil; Obstacle: The dust obscures the true reflection of past culinary glory.
-- Setting: Beside a sputtering, ancient *chula* (hearth); Desire: To recreate the initial heat signature that defines 'proper' cooking; Obstacle: The modern gas burner offers only sterile, predictable temperature readings.
-- Setting: A roadside vendor’s stall in a busy foreign market; Desire: To find an old, specialized oil press or measuring vessel as a symbolic anchor to memory; Obstacle: All local vendors use standardized, industrial-grade preparations.
+- Setting: A cramped, dusty roadside stall with harsh fluorescent lighting; Desire: To find one specific vendor whose hands still retain the 'recipe' taught by an absent relative; Obstacle: The sheer volume of competing street food aromas.
+- Setting: Standing near a busy thoroughfare where traffic noise is constant; Desire: For a momentary silence—a brief, resonant void—that allows the true flavor memory to resurface unobstructed; Obstacle: The persistent, aggressive rhythm of foreign vehicle horns.
+- Setting: In a small, poorly ventilated corner shop amongst many identical offerings; Desire: To see a consumer who pauses long enough not for consumption, but purely for nostalgic recognition; Obstacle: The immediate cultural pressure towards rapid, functional eating.
 
 ### subject_rotations
 
-- Shifting the focus from the *quantity* of oil (how much) to the *quality* (the provenance—sarsari vs. refined blend).
-- Treating the 'amount' as a hidden, inherited dialect; a silent language understood only by those who shared the original kitchen.
-- The inverse perspective: how the absence or misunderstanding of this ratio in the new world creates an entirely different kind of structural failure (not taste, but form).
+- Shifting focus from the food item to the *mechanism* of memory retrieval—how proximity (being in a crowd) paradoxically distances us from authenticity.
+- Exploring the market as an archive itself; each vendor selling not just food, but altered versions of cultural narratives.
+- Deconstructing 'taste' entirely into its phonetic components within Bengali: how do the sounds associated with preparation ('চটপটে', 'ভাজা') translate in a different linguistic context?
 
 ### sensory_details
 
-- Visual: The golden-brown separation lines where the oil has caramelized against the dough surface.
-- Olfactory: The faint, sharp aroma of burnt husk mingled with residual cumin residue on a cooling metal *tawa*.
-- Tactile: The viscous pull and drag felt when scooping thick, seasoned batter from the prepared mixing bowl.
+- The abrasive grit of industrial dust mingling with cheap cooking oil on skin.
+- The high, whining sound of ventilation units fighting against outdoor humidity.
+- A flash of blinding artificial light reflecting off the grease-slicked counter.
 
 ### research_questions
 
-- What specific Bengali/regional terms exist for describing the optimal 'mouthfeel' imparted by different types of cooking oil?
+- What is the precise Bengali adverb that captures the feeling of being 'almost there' in terms of flavor recognition while immersed in sensory overload?
+- How can I maintain high poetic diction (তৎসম) while integrating necessary low-register marketplace urgency (হিন্দি/উর্দু slang) without undermining the solemn tone?
 
 ### structural_variants
 
-- A highly catalogic structure, where each line lists a component (e.g., *tail*, *moyda*, *pur*) and juxtaposes its traditional measure against its contemporary estimation.
-- Employing an epistolary fragment—a note left by the elder hand on an unused recipe card describing 'the oil' without using numerals.
+- A heavily fractured structure where each segment is interrupted by a single, powerful sensory image from Item 1 ('অচেনা গন্ধের ভিড়').
+- Utilizing an extended apostrophe/invocation in Segment 8, directly addressing the lost home kitchen as if it were a physical location one can visit.
+- Employing heavy rhythmic syncopation in all segments to mimic the chaotic marketplace cadence before resolving into stasis.
 
 ### unused_angles
 
-- Exploration of how standardized food preparation across continents leads to a universal, melancholic blandness.
-- The psychological weight carried by items that are purely *symbolic* (e.g., an old wooden ladle with no functional use).
+- A deep dive into the role of transactional language—how commerce itself strips flavor of its spiritual weight.
+- An examination of how color saturation (the market's bright, artificial colors) clashes with the muted, earthy palette of memory.
+- The concept of 'taste fatigue' in a consumer constantly bombarded by new sensory inputs.
 
 ### variety_note
 
-While previous chapters explored the physical evidence of disruption (halves, cold packets), this chapter deepens the investigation into inherited wisdom—the unseen measurements passed down solely through sensory memory.
+While previous chapters focused on internal decay or ingredient substitution, this chapter focuses specifically on the *external environment*—the cacophony and aggressive stimulation of the foreign marketplace that actively erodes memory.

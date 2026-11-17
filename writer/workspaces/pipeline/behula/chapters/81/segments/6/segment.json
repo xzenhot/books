@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 81,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগ",
+  "segment_summary": "এই চূড়ান্ত পরিণতি সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ বহন করে, যা প্রশ্ন তোলে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Juxtaposing the divine sanction of his return against the mundane, persistent weight of village gossip and expectation.",
+    "story_option": "Setting: Within the heart of their shared living space (the former prison); Desire: For this room itself to exhale relief, shedding the stale air of doubt; Obstacle: One lingering object from the 'trial' remains untouched.",
+    "subject_rotation": "Shifting the focus from her internal strength to the reciprocal act of his return validating her endurance.",
+    "sensory_detail": "The sight of shadows clinging too heavily to the corners of rooms even under direct light (visual).",
+    "research_question": "How does the cadence shift when moving from the internal, agonizing rhythm of suffering to the slow, weighty resonance of sustained peace?",
+    "structural_variant": "An interjection where the narrative voice momentarily fractures, acknowledging the impossibility of truly 'closing' such a saga.",
+    "variety_note": "This chapter focuses exclusively on the aftermath: the echo of victory rather than the violent struggle itself, employing a lingering, almost suspended tone to contrast with earlier battles."
+  }
+}

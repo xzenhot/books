@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ক্ষণস্থায়ীতার প্রতিচ্ছবি",
+  "segment_summary": "এই সমস্ত রঙিন মুহূর্তগুলো ক্ষণস্থায়ী, ঠিক যেমন উৎসবের আনন্দ, যা অনিবার্যভাবে বিচ্ছেদের দিকে চালিত হয়।",
+  "name": "7.7",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "একটি প্রাচীন বাড়ির গৃহবধূ, যিনি সিঁদুর পরানোর এই আচারের মাধ্যমে আসলে তার চাপা পড়ে থাকা কোনো অপূর্ণ ব্যক্তিগত আকাঙ্ক্ষাকে (যেমন একটি নির্দিষ্ট সম্পর্কের প্রতি) প্রতীকী স্বীকৃতি দিচ্ছেন।",
+    "story_option": "Setting: পুরোনো পাড়ার কোনো উঠোন, Desire: কাউকে নিঃশর্তভাবে আপন করে নেওয়ার ইচ্ছা, Obstacle: সামাজিক রীতিনীতি ও লোকলজ্জা, Turn: সিঁদুর মাখানোর মাধ্যমে সেই আকাঙ্ক্ষাটি এক গভীর আত্ম-সমর্পণে পরিণত হওয়া।",
+    "subject_rotation": "সিঁদুরের লাল রংকে কেবল বিবাহের বা শক্তির প্রতীক না ধরে, একে 'জ্বালা' (burning desire/passion) হিসেবে ব্যবহার করা যা সব বাঁধন ভাঙার ইঙ্গিত দেয়।",
+    "sensory_detail": "সিঁদুরের গুঁড়ো যখন সূর্যালোকে পড়ার আগে বাতাসের কণা ধরে চিকচিক করে ওঠে – যেন জমাট বাঁধা সোনালী ধূলিকণা।",
+    "research_question": "বাঙালির লোকগাথায় 'সিঁদুরের লাল আভা' কীভাবে মাতৃত্ব বা সম্পর্কের প্রাথমিক স্বীকৃতির সঙ্গে যুক্ত?",
+    "structural_variant": "একটি 'ইনসাইড ভয়েস' কাঠামো যেখানে সমস্ত দৃশ্য শুধুমাত্র বক্তার হাতের কাজ এবং তার ত্বকের অনুভূতি দ্বারা বর্ণিত হবে।",
+    "variety_note": "Neighbouring chapters dealt with collective spectacle (masses/pandal), raw power (battle climax), or materiality (clay). This chapter focuses on the intricate, intimate, and subtly negotiated sphere of interpersonal female bond during a moment of apparent softness."
+  }
+}

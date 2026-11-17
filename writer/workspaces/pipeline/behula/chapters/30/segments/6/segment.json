@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "এই বিজয় সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগের প্রতিধ্বনি বহন করে, যা কেবল ব্যক্তিগত সাফল্যের মধ্যে সীমাবদ্ধ নয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The aftermath: Focusing purely on the silence following reunion—the echoes of struggle remaining after the triumph.",
+    "story_option": "Setting: A boundary where the natural elements meet the human structure; Desire: To let go of defining the event as 'joyous'; Obstacle: The persistent cultural expectation that all great struggles must culminate in euphoric affirmation. Turn: They choose instead to exist in shared, profound equilibrium.",
+    "subject_rotation": "Shifting focus from personal fulfillment to symbolic burden: what does this 'divinity' require now that it has been attained?",
+    "sensory_detail": "Sound: A sustained, ultra-low frequency hum that signifies equilibrium rather than celebration.",
+    "research_question": "Which non-romantic imagery best conveys the quiet resonance after immense internal conflict?",
+    "structural_variant": "Using a slow, deliberate cadence—a drawn-out chime sequence mimicking the return's delayed echo.",
+    "variety_note": "This chapter shifts focus entirely to the enduring resonance *after* the triumphant moment, using stillness and residual imagery rather than depicting the dynamic action of the return itself. It prioritizes reflection over spectacle."
+  }
+}

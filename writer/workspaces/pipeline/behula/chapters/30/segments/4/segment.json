@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আলোর পুনঃপ্রতিষ্ঠা",
+  "segment_summary": "অগ্নির দীপশিখা যা নিভে যাওয়ার উপক্রম করেছিল, তা এই মুহূর্তে নতুন করে উজ্জ্বল হয়ে ওঠে, যা অন্ধকারের উপর আলোর চূড়ান্ত জয়কে নির্দেশ করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The implications of societal erasure: How much of their prior suffering can be neatly 'deleted' by their current celebrated union?",
+    "story_option": "Setting: The riverbank after dawn, now bathed in a cold, steady light; Desire: To share an unspoken moment with Lkhindor where their exhaustion outweighs any joy; Obstacle: The lingering shadow of social judgment hanging over the landscape. Turn: They accept the weight as part of the new communion.",
+    "subject_rotation": "Treating the reunion not as a romantic climax but an ontological correction—the universe rebalancing itself through their pairing.",
+    "sensory_detail": "Sight: The precise quality of the light settling on an object after years of turmoil—not bright, but deeply anchored.",
+    "research_question": "What specific Bengali vocabulary denotes a state of enduring existential weight versus temporary sorrow?",
+    "structural_variant": "Using a slow, deliberate cadence—a drawn-out chime sequence mimicking the return's delayed echo.",
+    "variety_note": "This chapter shifts focus entirely to the enduring resonance *after* the triumphant moment, using stillness and residual imagery rather than depicting the dynamic action of the return itself. It prioritizes reflection over spectacle."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "বেহুলার ব্যক্তিগত ট্র্যাজেডি সমষ্টিগত প্রেরণা হয়ে ওঠে, যা নিপীড়িত আত্মার জন্য এক শক্তিশালী বার্তা বহন করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A perspective centered on the aftermath—how the quiet moments after victory are psychologically louder than the struggle itself.",
+    "story_option": "Setting: Where the river/flow (নদী বক্ষ) intersects with the threshold of their home; Desire: To feel the chaotic energy of that flow finally stabilize into a shared rhythm; Obstacle: The persistent, subtle threat of external judgment.",
+    "subject_rotation": "Representing the victory not through grand gestures, but through the mundane continuance of life—the simplest shared meal.",
+    "sensory_detail": "The cool weight of his hand against her skin—a touch that feels simultaneously ancient and startlingly immediate; (Tactile)",
+    "research_question": "Can a specific metaphor be found in classical Bengali literature describing fortitude that is intensely personal yet achieves universal resonance?",
+    "structural_variant": "Alternating between intense metaphysical pronouncements (Jibran/Orilase style) and grounded, almost prosaic observations of domestic reality.",
+    "variety_note": "This chapter shifts the thematic energy from active endurance against chaos (previous chapters) to the complex, loaded silence and integration following ultimate perceived success."
+  }
+}

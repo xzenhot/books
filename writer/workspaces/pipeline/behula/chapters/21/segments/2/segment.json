@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার চূড়ান্ত 승리",
+  "segment_summary": "এই প্রত্যাবর্তন কেবল একটি ঘটনা নয়, বরং মানব আত্মার সেই আদিম স্পন্দনের চূড়ান্ত বিজয়, যা চরম প্রতিকূলতার মুখেও টিকে থাকে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final triumph not as a narrative closure but as an open-ended resonance that actively challenges established social axioms regarding female suffering and endurance.",
+    "story_option": "Setting: Within an ancient, resonant sanctuary where the flame has just been restored; Desire: For Behula to feel the physical weight of her new identity settling upon her shoulders—a mantle of honor mixed with burden; Obstacle: The memory of the initial 'chaos' intruding into the pristine moment.",
+    "subject_rotation": "Shifting focus from Behula’s agency in achieving the triumph to the ontological state required for that triumph: examining what *kind* of being she had to become to merit restoration.",
+    "sensory_detail": "Touch: The cool, silken resistance of restored fabric against skin that has been burned by abstract suffering.",
+    "research_question": "How does one poetically render the concept of 'structural societal failure' using only the elevated, mythic vocabulary established in the text?",
+    "structural_variant": "Begin with a moment of profound sensory satiation (e.g., the taste of clear river water) immediately following reunion, then allow that immediate bliss to be undermined by philosophical doubt in subsequent stanzas.",
+    "variety_note": "This chapter pivots from the sheer act of miraculous return (Previous Chapters) to a philosophical deconstruction of what that triumph fundamentally means in the face of ongoing systemic imperfection, grounding the spiritual high with critical intellectual inquiry."
+  }
+}

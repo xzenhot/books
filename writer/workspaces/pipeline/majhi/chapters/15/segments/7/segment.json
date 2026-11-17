@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত জিজ্ঞাসা",
+  "segment_summary": "এই উপলব্ধি সত্ত্বেও, নদীকে প্রতিদান দিতে হবে কিনা, সেই গভীর প্রশ্নটি বাতাসে ভেসে থাকে।",
+  "name": "7",
+  "word_target": 100,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The aftermath: The poem is the lingering echo after a great struggle (the resolution is not triumphant release but sustained, weary endurance).",
+    "story_option": "Setting: A dawn crossing immediately following a period of high tension (economic confrontation), Desire: To feel the physical relief of being back in motion without debt weighing on him. Obstacle: The river mud smells suspiciously like industrial runoff.",
+    "subject_rotation": "Treating 'Udarata' not as benevolence, but as an ingrained necessity for the *river itself*—the way it must yield space.",
+    "sensory_detail": "The slick, cool dampness clinging to the aged wood of the oars after hours spent navigating difficult currents.",
+    "research_question": "What regional Bengali vocabulary or metaphorical phrases exist to describe an obligation that is profoundly intangible?",
+    "structural_variant": "A recursive structure where each segment repeats a core image (e.g., the pattern of the oar stroke) but modifies its emotional weight.",
+    "variety_note": "Unlike previous, more action-oriented segments, this chapter focuses entirely on the internal resonance following conflict; it is about sustaining belief rather than winning a battle."
+  }
+}

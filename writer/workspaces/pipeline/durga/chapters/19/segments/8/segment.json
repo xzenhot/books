@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "নবজাগরণের প্রতীক্ষা",
+  "segment_summary": "চূড়ান্ত স্তরে, কাব্যগ্রন্থটি ভবিষ্যতের দিকে তাকায়, যেখানে এই শক্তি মানব আত্মার গভীরে চিরকাল বিদ্যমান থাকার সম্ভাবনা নিয়ে প্রশ্ন রেখে শেষ হয়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting an auditory focus: The persistence of a specific, low-frequency sound (like the distant murmur of water or faint residual drumming) that becomes the core rhythm binding all segments.",
+    "story_option": "Setting: Near a cracked, drying patch of river silt post-immersion; Desire: To read an ancestral pattern in the erosion lines as guidance for resilience; Obstacle: The indifference of the surrounding mundane landscape.",
+    "subject_rotation": "Examining 'continuity' through a geological lens: How deep strata (past ritual) shape surface expression (daily life).",
+    "sensory_detail": "The sharp, clean scent of burnt ghee mixed with dust motes catching the faint morning light.",
+    "research_question": "How can 'continuity' be poetically expressed using archaic lexicon while maintaining modern cadence, avoiding standard cyclical vocabulary?",
+    "structural_variant": "A completely fragmented syntax mimicking the effort to hold form against overwhelming entropy.",
+    "variety_note": "This chapter pivots from the grand narrative of battle/celebration towards introspection; it uses abstract sensory residue (scent, texture, subtle sound) to ground massive philosophical questions about permanence and existence post-ritual cessation."
+  }
+}

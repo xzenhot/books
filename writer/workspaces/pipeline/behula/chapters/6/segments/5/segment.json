@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদম্য শক্তির উৎস",
+  "segment_summary": "এই অভ্যন্তরীণ শক্তির উৎস কেবল বেঁচে থাকার তাগিদ নয়, বরং এক গভীর, অপ্রকাশিত সংকল্পের প্রতিধ্বনি।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating inner resistance through material metaphor: The internal fire represented not by flame (as used elsewhere), but by polished, unyielding basalt or iron slag.",
+    "story_option": "Setting: Standing motionless at the edge of the domestic space during a long, silent night; Desire: To feel a specific sound—a single distant bird call or water drop hitting stone—to break the oppressive auditory vacuum (Obstacle: Complete sonic isolation); Turn: The silence itself begins to generate its own resonant frequency.",
+    "subject_rotation": "Examining fatigue through the lens of time dilation—how moments stretch into unbearable eternities in her solitude.",
+    "sensory_detail": "The tactile sensation of coarse jute against skin during sleepless vigil.",
+    "research_question": "What specific archaic Bengali lexicon exists to describe sustained psychological siege without implying direct confrontation?",
+    "structural_variant": "Employing an AABB/CCDD rhyme scheme structure in some stanzas, disrupting the free verse rhythm to mirror forced internal order against external chaos.",
+    "variety_note": "Unlike chapters focusing on external pressure or cosmic testing, this piece centers entirely on the *internal physics* of resilience—the sheer mechanics of continuing when all evidence suggests collapse is inevitable. It pivots from 'trial' to 'tenacity'."
+  }
+}

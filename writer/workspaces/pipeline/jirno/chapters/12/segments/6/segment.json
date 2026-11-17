@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "পলাশের প্রতিবাদ",
+  "segment_summary": "রক্তপলাশের প্রতিটি পাপড়ি যেন এই চরম মুহূর্তে এক নীরব, রক্তিম প্রতিবাদ জানাচ্ছে, যা বিলীন হওয়ার বিরুদ্ধে এক ক্ষীণ প্রতিরোধ।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrast the high-energy drama of the approaching storm with the absolute static quietude maintained by the distant Satual community members who simply watch it pass.",
+    "story_option": "Setting: By the edge of an undisturbed patch of dry grass bordering the ruin; Desire: To witness how the first gust instantly transforms delicate grasses into miniature cyclones, demonstrating elemental power over form; Obstacle: The traveler is forced to physically shield his eyes against the sudden grit.",
+    "subject_rotation": "Centering the 'bloodiness' of the পলাশ not in defiance, but in vulnerability—how it is momentarily stripped bare by the buffeting winds.",
+    "sensory_detail": "Touch: The shock of the sudden pressure change in the air, causing a brief, involuntary tightening in the chest before the gust hits.",
+    "research_question": "What is the specific effect on old lime mortar when subjected to rapid temperature and humidity swings common before a tropical storm?",
+    "structural_variant": "Interspersing the elemental descriptions with single, rapid-fire images of surviving, unblighted objects near the manor (e.g., one stone marker still standing).",
+    "variety_note": "This chapter pivots from intellectual struggle (prior chapters) to raw physical encounter; it is about surrender to an overwhelming, non-negotiable force rather than a philosophical debate with silence."
+  }
+}

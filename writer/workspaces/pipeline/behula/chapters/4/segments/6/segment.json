@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অদম্য ধৈর্যের প্রতিধ্বনি",
+  "segment_summary": "Despite the prolonged hardship, her spirit refuses to yield, echoing a profound, stubborn refusal to accept defeat from fate or gods.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Faith as defiance: Framing the unwavering belief not as passive acceptance, but as an aggressive assertion of human will against predetermined cosmic decree.",
+    "story_option": "She seeks out an ancient shrine or weathered stone boundary marker (Setting), not for prayer, but as a deliberate act of defiance against the unreachable sky (Obstacle/Turn).",
+    "subject_rotation": "Treating the trials less as tests from above and more as echoes of internalized societal doubt magnified to divine scale.",
+    "sensory_detail": "The sound quality of her own voice in the vast, unresponsive chamber—amplified to an unnerving drone.",
+    "research_question": "Are there specific poetic conventions for portraying divine 'indifference' rather than outright anger in this context?",
+    "structural_variant": "Interspersing very short stanzas representing fragmented thoughts or immediate sensory assaults from the environment between longer, philosophical explorations of faith.",
+    "variety_note": "This chapter moves entirely inward toward metaphysical conflict, contrasting sharply with previous segments that dealt with external societal or familial pressures; it is a purely transcendental engagement."
+  }
+}

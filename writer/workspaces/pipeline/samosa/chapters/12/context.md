@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-সীমান্তের লাইন
+বাণিজ্যপথের স্মৃতি
 
 ## chapter_summary
 
-সীমান্তের লাইন একটি কাল্পনিক রেখা, কিন্তু ভ্রমণের ব্যাগে থাকা খাবার তার ওপারে যায় না। কিছু জিনিস কাগজে নয়, জিভে বাঁধা।
+এই অধ্যায়টি সামোসা বা সিঙ্গাড়া নামক খাদ্যের ঐতিহাসিক যাত্রাপথকে অনুসরণ করে, যা কেবল একটি রান্নার পদ নয়, বরং একটি সাংস্কৃতিক আখ্যান। এটি দেখায় কীভাবে মধ্যপ্রাচ্য ও পারসিক বাণিজ্যপথের মাধ্যমে এই খাবারটি ভারতীয় উপমহাদেশে প্রবেশ করে এবং প্রতিটি নতুন গন্তব্যে তার নিজস্ব রূপ ধারণ করে। এই রূপান্তরটি কেবল ভৌগোলিক নয়, বরং সাংস্কৃতিক পরিচয়ের একটি বৃহত্তর বিচ্যুতিকে প্রতীকায়িত করে। প্রশ্নটি হলো—এই খাদ্য কি তার আদি স্বাদের স্মৃতি বহন করে, নাকি প্রতিটি নতুন পথ তাকে একটি ভিন্ন সত্তা দান করে?
 
 ## further_references
+
+- 1
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রাচীন পথের গন্ধ
+
+#### segment_summary
+
+এই অংশে সেই প্রাচীন বাণিজ্যপথের কথা বলা হবে, যেখানে 'sanbusak' বা 'sambusak' নামের বীজগুলি প্রথম ভারতীয় মাটির কাছাকাছি পৌঁছায়।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+নামের পরিবর্তন, পথের ছাপ
+
+#### segment_summary
+
+সিঙ্গাড়া থেকে সামোসা হওয়ার নামকরণের পরিবর্তনটি কীভাবে সাংস্কৃতিক দূরত্ব তৈরি করে, তা এই অংশে চিত্রিত হবে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভূগোল ও পুরের সংঘাত
+
+#### segment_summary
+
+বিভিন্ন অঞ্চলের পুরের (আলু, মটর, মাংস) ভিন্নতা তুলে ধরা হবে, যা আঞ্চলিক অভিযোজনের প্রমাণ দেয়।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রতিটি গন্তব্যের নিজস্ব ভাষা
+
+#### segment_summary
+
+প্রতিটি নতুন ভূখণ্ডে এই খাবারটি কীভাবে স্থানীয় স্বাদের সঙ্গে মিশে গিয়ে একটি নতুন 'ভাষা' অর্জন করেছে, তা কাব্যিকভাবে বর্ণনা করা হবে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+আকৃতি বনাম আখ্যান
+
+#### segment_summary
+
+ত্রিকোণাকার আকৃতি অপরিবর্তিত থাকলেও, এর পেছনের আখ্যানের পরিবর্তন কীভাবে এর মৌলিক সত্তাকে প্রশ্নবিদ্ধ করে, তা এখানে আলোচিত হবে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+বাণিজ্যের নীরব সাক্ষী
+
+#### segment_summary
+
+এই খাবারটি কীভাবে বিভিন্ন জাতি ও সংস্কৃতির নীরব সাক্ষী হয়ে চলেছে, সেই ঐতিহাসিক প্রেক্ষাপটটি তুলে ধরা হবে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রবাসের নতুন মানচিত্র
+
+#### segment_summary
+
+প্রবাসে এই খাবারটির উপস্থিতি কীভাবে একটি নতুন সাংস্কৃতিক মানচিত্র তৈরি করেছে, যেখানে পুরানো ও নতুন মিশেছে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসমাপ্ত যাত্রা
+
+#### segment_summary
+
+এই ঐতিহাসিক যাত্রার শেষেও, মূল স্বাদের সেই আদিম অনুরণনটি কি কোনো এক স্থানে স্থির হতে পেরেছে, নাকি তা চিরকাল চলমান একটি আকাঙ্ক্ষা? এই প্রশ্নটি উত্থাপিত হবে।
+
+#### further_references
 
 
 ## level
@@ -31,51 +238,46 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- শব্দের ধ্বনিগত তীব্রতা (Sonority) বনাম এর অর্থিক ভার: কীভাবে একটি 'সীমান্ত' শব্দ তার উচ্চারণেও কাঠিন্য ধারণ করে, যা জিভের ওপর চাপ সৃষ্টি করে।
-- আলোর পরিবর্তন দ্বারা মানসিক গতির প্রতিচ্ছবি: দিনের উজ্জ্বলতার তীক্ষ্ণতাকে রাত্রির গভীর, নিঃশব্দ হতাশা দিয়ে ভাঙা এবং ফাটানো।
-- খাবারের 'বাধা' হিসেবে সীমান্তকে দেখা: সামোসা বা সিঙ্গাড়া তার ভোজ্য হওয়ার প্রক্রিয়ায় কীভাবে রাজনৈতিক বিভাজনের বিরুদ্ধে এক নীরব প্রতিরোধ গড়ে তোলে।
+- Focusing on the remnants of old spice containers found in foreign markets, as physical anchors to distant trade routes.
+- Treating the migration of the food item not as a simple culinary process but as a microscopic biological/cultural invasion onto new palates.
+- Shifting perspective entirely to an ancient merchant who first saw the 'sambusak' seeds arrive and reflects on their enduring journey centuries later.
 
 ### story_options
 
-- সীমান্তের লাইনে দাঁড়িয়ে থাকা একজন, যিনি শুধু খাবার নয়, নিজের অতীতের গন্ধও আড়াল করার চেষ্টা করছেন; আকাঙ্ক্ষা হলো একটি क्षणिक 'স্বাদ-মুক্তি', বাধা হলো রেখাটির অনিবার্য অস্তিত্ব এবং তা রাত্রিতে গাঢ় হয়ে ওঠা।
-- একটি থালা যা সীমান্ত পার হওয়ার মুহূর্তে দ্বিধাগ্রস্ত হয়ে পড়ে—উপরে নোনা জলের প্রতীক (আকাশের আলো) আর নিচে পুরের উষ্ণতা সংঘাত সৃষ্টি করে; আকাঙ্ক্ষা হচ্ছে ভেতরের ভরকে বাইরে প্রকাশ করা, বাধা হলো রেখার অপরিবর্তনীয় স্থিরতা।
-- ভ্রমণ ব্যাগের এক কোণে রাখা খাবারের প্যাকেটটির উপর দিনের আলোর ঝলকানি পড়ায়, যা ক্ষণিকের জন্য যেন 'পুরনো গ্রাম'-এর একটি উজ্জ্বল স্মৃতি এনে দেয়; আকাঙ্ক্ষা তার স্থায়িত্ব খুঁজে নেওয়া, বাধা রাত নামার সঙ্গে সঙ্গে স্মৃতির বিবর্ণ হয়ে যাওয়া।
+- Setting: A damp, forgotten port warehouse filled with old spice crates; Desire: To trace one specific grain of chili through three continents; Obstacle: The salt residue from maritime passage obscuring all records.
+- Setting: A modern global food fair featuring variants of the 'samosa' (desire to find the original); Obstacle: Overwhelming, manufactured sweetness masking the deep, primal earthiness.
+- Setting: Inside a sealed clay pot recovered from an archaeological dig; Desire: To breathe the air preserved within that vessel—the first whiff of the *sanbusak*.
 
 ### subject_rotations
 
-- সীমান্তকে ভৌগোলিক রেখা না ভেবে, এটি জিভের স্বাদ গ্রহণের ক্ষমতার এক মানসিক সীমারেখার রূপক হিসেবে বিবেচনা করা—কোথায় স্বাদের প্রবেশাধিকার আছে বা নেই।
-- নামান্তর প্রক্রিয়ার বিশ্লেষণ: 'সিঙ্গাড়া' থেকে 'সামোসা'-তে নাম বদলানোর এই কাজটি কি আসলে ভাষার একটি সীমান্ত অতিক্রমণ, নাকি কেবল বাণিজ্যিক প্রয়োজন?
-- খোলস এবং ভেতরের পুরের ভেদরেখাটিকে নাগরিকত্ব ও পরিচয়ের দ্বৈততাকে প্রতিফলিত করে এমন এক ভঙ্গুর প্রাচীর হিসেবে চিত্রিত করা।
+- Focusing on how linguistic shifts (Samosa/Singara) map onto geographical boundaries rather than just cultural ones.
+- Exploring the economic function of this food item across historical trade networks, viewing it as a commodity's spiritual journey.
+- Examining the transformation through religious or colonial encounters that forced adaptation upon its core ingredients.
 
 ### sensory_details
 
-- রাতের অন্ধকারে বাষ্পীভবনের তীক্ষ্ণ গন্ধ যা মুহূর্তেই মিলিয়ে যায় (Olfactory/Thermal contrast)।
-- সীমান্তরক্ষী বাহিনীর ইউনিফর্মের কাপড়ের রুক্ষ, কাঠিন্যময় স্পর্শ যা মাংসল পুরের কোমলতার বিপরীত (Tactile clash)।
-- অচেনা রাস্তার আলোর নিচে চকচক করা 기름-ভেজা ময়দার খোলসের দৃশ্যমান চাকচিক্য, যেখানে কোনো উষ্ণতা নেই (Visual focus on texture)。
+- The metallic dust left on one's fingers after handling old, rusted spice tins from distant markets (smell/touch).
+- The visual layering of different oil stains on a worn piece of jute sacking, each stain marked by a different journey (sight).
+- A residual, almost mineral 'tastelessness' that coats the tongue after consuming a heavily adapted foreign version (taste).
 
 ### research_questions
 
-- 'সীমান্ত রেখা'-র ধারণাটিকে খাদ্যবস্তুর ক্ষেত্রে রূপক অর্থে প্রয়োগ করলে কোন নির্দিষ্ট ধরনের সাংস্কৃতিক বিভাজন উঠে আসে?
-- শব্দের ধ্বনিগত তীব্রতার মাধ্যমে কীভাবে শারীরিক বিচ্ছিন্নতাকে কাব্যিকভাবে প্রতিস্থাপন করা যায়, যা কেবল বিষয়ভিত্তিক বর্ণনার চেয়ে আলাদা?
-- আলোর পরিবর্তন (দিবা-রাত্রির) ব্যবহার করে প্রবাসের মানসিক অস্থিরতা প্রকাশের জন্য কি কোনো সুনির্দিষ্ট চিত্ররূপিকা কাঠামো রয়েছে?
+- What specific ancient South Asian/Persian term might have been used to describe this filled pastry before its divergence into various regional names?
+- Can any documented trade log hint at the cultural impact or initial reception of imported seed pastes in early Indian trading posts?
 
 ### structural_variants
 
-- কবিতার গঠনকে একটি 'বিচ্ছেদ বিন্দু' হিসেবে তৈরি করা—প্রথম অর্ধেক স্পষ্ট বিভেদ, দ্বিতীয় অর্ধেক সেই রেখার অস্পষ্ট ও গহিন দার্শনিক প্রভাব নিয়ে লেখা।
+- Adopting a highly fragmented, non-linear structure where different geographical locations (e.g., one stanza per traded city) appear without chronological transition.
+- Using extended metaphors where the food's filling is compared to complex political treaties or shifting border definitions.
 
 ### unused_angles
 
-- এই কবিতাটিতে কেবল স্থানিক সীমান্ত নয়, ভাষার ধ্বনিগত সীমান্তের উপর জোর দেওয়া উচিত; যেখানে প্রতিটি শব্দই একটি 'টোল' বা করের মতো অনুভব করা হয় যা জিভের ওপর বাজে।
-- ভ্রমণ ব্যাগের সামগ্রিক ওজন বনাম ভেতরের খাবারের হালকাত্বের বৈপরীত্যকে ব্যবহার করে আত্মপরিচয়ের ভারহীনতার আকাঙ্ক্ষা প্রকাশ করা যেতে পারে, যা পার্শ্ববর্তী অধ্যায়গুলিতে এড়িয়ে যাওয়া হয়েছে।
+- The specific role of sugar/sweetening agents in softening the hard edges of ancient trade encounters, which contrasts with the spicy nature of the core filling.
 
 ### variety_note
 
-এই কবিতাটি আগেরগুলোর তুলনায় ভাষাগত স্বরটিকে আরও তীক্ষ্ণ এবং ধ্বনিগতভাবে চাপযুক্ত করবে; এটি কেবল 'হারানো স্বাদ' নিয়ে ভাববে না, বরং সেই স্বাদকে আড়াল করার জন্য ব্যবহৃত নীরব প্রতিরোধের ওপর আলোকপাত করবে।
+This chapter moves away from personal diasporic melancholy (neighboring chapters) to a macro-historical view, treating the food's journey as an epic saga spanning centuries and continents.

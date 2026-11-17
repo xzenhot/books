@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 72,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "প্রতীকী রূপান্তর",
+  "segment_summary": "ব্যক্তিগত দুঃখের এই স্তর অতিক্রম করে বেহুলার সংগ্রাম এক বৃহত্তর, সর্বজনীন প্রতীকে রূপান্তরিত হওয়ার সূচনা হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A direct contrast between the language used by society ('বিষাক্ত ছড়া') and the divine lexicon she internally accesses.",
+    "story_option": "Setting: By a stream where water flows relentlessly over smooth stones (Metaphor for time/suffering); Desire: To achieve absolute equilibrium between the flow of grief and the stillness of conviction; Obstacle: A sudden eddy that threatens to pull her focus back into self-pity; Turn: She uses this disruption as a rhythmic point in her internal song.",
+    "subject_rotation": "A temporal rotation: Juxtaposing micro-moments from pre-modern belief systems with the modern psychological exhaustion described in other contemporary contexts.",
+    "sensory_detail": "The metallic whisper of disapproval—a sound too subtle for loud confrontation but always present (hearing)",
+    "research_question": "How can 'collective consciousness' in a mythological framework be differentiated from modern psychological concepts like groupthink, while maintaining the high diction?",
+    "structural_variant": "A cyclical structure where each segment revisits a core image (e.g., the light/shadow of her spirit) but renders it with new lexical weight and focus.",
+    "variety_note": "This chapter shifts the focus from raw personal suffering (Chapter 1-3 precursors) to the *social function* of that suffering, analyzing how private agony catalyzes public, symbolic meaning. It emphasizes transmutation over trauma."
+  }
+}

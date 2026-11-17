@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য ঋণ বনাম মুক্ত দান",
+  "segment_summary": "মাঝি অনুভব করে যে তার অতীতের উদারতা এখন এক অদৃশ্য ঋণে পরিণত হয়েছে, যা পরিশোধ করা অসম্ভব।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the internal conflict from economic debt to an existential 'debt' owed to the ancestral spirits/the river itself for allowing passage through generations.",
+    "story_option": "Setting: Mid-crossing during a hazy afternoon when vision is blurred. Desire: He wishes he could verbally argue with his younger self to warn him about future pressures. Obstacle: His throat failing to form complex words amidst the river's hum.",
+    "subject_rotation": "Exploring how the *sound* of past memories (the specific cadence of childhood laughter) clashes violently with the harsh sounds of commercial traffic passing by.",
+    "sensory_detail": "The deep, resonant ache in the shoulders that comes not from rowing today's cargo, but from carrying yesterday's weight.",
+    "research_question": "What are localized Bengali idioms or metaphoric phrases describing the feeling of 'carrying an intangible burden' that is heavier than physical cargo?",
+    "structural_variant": "An associative structure where memories trigger each other non-linearly, rather than following a strict chronological path.",
+    "variety_note": "This chapter moves inward from external confrontation to deep internal rumination; unlike the immediate conflict in previous chapters, this is less about resistance and more about excavation."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 24,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "ব্যক্তিগত ট্র্যাজেডি কীভাবে সমষ্টিগত প্রেরণা এবং সহনশীলতার এক শক্তিশালী বার্তা রচনা করে, তা এই অংশে প্রতিফলিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the moment *after* physical restoration, where the silence between them is louder than any declaration of love—a dialogue purely of endurance.",
+    "story_option": "Setting: Beneath an ancient, petrified tree at the edge of their enclosure; Desire: For Lukhindar to articulate his own parallel struggle—the toll it took on *his* spiritual fortitude while she waited; Obstacle: The internal doubt that this perfection is fleeting and unsustainable.",
+    "subject_rotation": "Exploring the relationship between *Sati* (purity) and raw, unconcealed human desire in the context of ultimate union—the complexity beyond simple sacrifice.",
+    "sensory_detail": "Touch: The distinct temperature difference felt between her skin (burned by doubt) and his skin (tempered by absence).",
+    "research_question": "How can I maintain the high diction while describing the raw, almost chemical sensation of physical re-synchronization following prolonged existential separation?",
+    "structural_variant": "A segment structured entirely as a series of rhetorical questions addressed to an imagined, silent judge.",
+    "variety_note": "This chapter pivots from the relentless struggle (Chapters 1-7) toward crystallization, utilizing high-register language specifically to balance the existential weight with the sheer exhilaration of arrival."
+  }
+}

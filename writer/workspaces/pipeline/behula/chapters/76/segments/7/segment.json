@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 76,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নারীত্বের মহাকাব্যিক বার্তা",
+  "segment_summary": "তার জীবন কীভাবে কেবল একটি ব্যক্তিগত ট্র্যাজেডি না থেকে, সমস্ত নারীর জন্য এক শক্তিশালী অনুপ্রেরণার উৎস হয়ে ওঠে, সেই বার্তাটি এখানে স্পষ্ট হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the micro-rituals of defiance: Detailing small, almost invisible acts (like arranging a wilted flower with precise geometry) that assert personal sovereignty against overwhelming social decree.",
+    "story_option": "Setting: The boundary stone at her property line; Desire: To etch an invisible seal of self-possession upon it; Obstacle: A relentless, whispering wind carrying slanderous echoes.",
+    "subject_rotation": "Treating her struggle as an act of aesthetic resistance—her maintenance of internal beauty/order despite external chaos.",
+    "sensory_detail": "The dry, brittle friction sound when she walks across parched earth during introspection.",
+    "research_question": "What precise Bengali lexical structures can convey 'unyielding ethical scaffolding' without relying on abstract theological terms?",
+    "structural_variant": "A highly episodic structure, where each segment opens with a distinct 'rhythm' (a short mantra or action) that is only resolved by the end of the section.",
+    "variety_note": "This chapter moves beyond describing pain (as seen in earlier segments) to actively theorizing its function: how personal anguish morphs into a durable, systemic critique articulated through endurance itself. It focuses on the transition from 'I suffer' to 'We are defined by this suffering.'"
+  }
+}

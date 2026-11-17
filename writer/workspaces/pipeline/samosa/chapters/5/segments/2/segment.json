@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "পুর-এর নিবিড় ইতিহাস",
+  "segment_summary": "আলু ও মশলার পুরের প্রতিটি স্তর যেন অতীতের বাংলার রান্নাঘরের গল্প বলছে, যা কেবল স্বাদ নয়, বরং একটি সাংস্কৃতিক আখ্যান বহন করে।",
+  "name": "5.2",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus from the *taste* to the *sound* made during preparation—the sharp snap of sealing the pastry vs. the dull thud of foreign utensils.",
+    "story_option": "Setting: Early morning before the market wakes up; Desire: To capture the precise temperature of the oil right before it reaches its ideal state; Obstacle: A sudden draft carries an external, unfamiliar scent that corrupts the nascent aroma.",
+    "subject_rotation": "Viewing the samosa batch not as a product, but as a temporal artifact; each one marking a passage of time since departure.",
+    "sensory_detail": "The specific, almost acrid smell of a binding agent failing or breaking down in transit, suggesting loss even before frying begins.",
+    "research_question": "What specific, concrete actions (other than folding) visually represent the commitment of the first generation?",
+    "structural_variant": "Alternating stanzas: one detailing the *making* (active verb) and the next detailing the *remembering* (passive state).",
+    "variety_note": "This chapter deepens the focus on provenance and manual labor, shifting from the grand journey (Chapter 2) to the highly localized, painstaking act of creation itself, emphasizing ancestry via touch."
+  }
+}

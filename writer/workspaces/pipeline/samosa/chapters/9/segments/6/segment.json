@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির কারিগর",
+  "segment_summary": "সেই কারিগর বা পিতামাতার স্মৃতি, যারা এই মশলার বিন্যাসকে হৃদয়ের মাধ্যমে সঞ্চারিত করেছিলেন, তাদের অনুপস্থিতি এখানে অনুভব করা যায়।",
+  "name": "9.6",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating the concept of 'perfect saturation': when is the oil sufficiently permeated by spice aroma to achieve resonance?",
+    "story_option": "Setting: A half-opened spice jar, dusted with residual oil residue. Desire: To coax a ghost-smell out of the dried fragments using controlled warmth. Obstacle: Any excess heat triggers only acrid burning.",
+    "subject_rotation": "Viewing the process entirely backward: starting with the fully flavored Samosa and tracing back the trajectory of its flavor decay through the cooling crust.",
+    "sensory_detail": "The specific metallic tang in the mouth that occurs immediately after the initial spice scent peaks and begins to fade.",
+    "research_question": "Are there phonetic patterns in classical Bangla prosody that align with the repetitive, rhythmic nature of sautéing spices (e.g., percussive sounds)?",
+    "structural_variant": "Employing a fragmented list structure for the spices themselves (e.g., Cinnamon // Elaichi // Ada), punctuated by bursts of lyrical reflection.",
+    "variety_note": "Where earlier chapters dealt with the *result* (the finished product/sensation), this chapter isolates the volatile, critical *process*—the friction between tradition and mechanical reality."
+  }
+}

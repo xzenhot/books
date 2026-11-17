@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অস্থিরতার প্রতিধ্বনি",
+  "segment_summary": "এই পরিপূর্ণতার আড়ালে লুকিয়ে থাকা পরবর্তী জিজ্ঞাসাটি পাঠককে ভবিষ্যতের দিকে চালিত করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the fusion not as harmony, but as a beautiful, yet unstable chemical reaction between two elements: pure desire and divine light.",
+    "story_option": "An imagined dialogue with an older mirror that reflects not her present self, but her potential selves—one purely desirous, one purely serene.",
+    "subject_rotation": "Deconstructing the color: exploring what specific hues blend to make it golden (e.g., copper, saffron, pale gold) and relating those shades to distinct emotional states.",
+    "sensory_detail": "A high-pitched, almost inaudible hum present only when the soul and body momentarily align (Auditory).",
+    "research_question": "What are appropriate metaphorical analogues in classical Bengali literature for the simultaneous existence of immense pleasure and profound existential questioning?",
+    "structural_variant": "An extended meditation relying heavily on internal rhyme schemes and alliteration to create an auditory sense of shimmering warmth.",
+    "variety_note": "This chapter moves beyond simple conflict by forcing an integration. It differs from its neighbors by depicting synthesis—the temporary successful blending of opposing forces rather than just their tension."
+  }
+}

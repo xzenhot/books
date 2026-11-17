@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 75,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নারীত্বের প্রতীক",
+  "segment_summary": "বেহুলার সংগ্রাম কীভাবে সমস্ত নিপীড়িত নারীর সম্মিলিত কণ্ঠস্বর হয়ে ওঠে, সেই রূপক বিশ্লেষণ এখানে উপস্থাপিত।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating societal judgment as a form of 'spectral interference' disrupting her inner harmony, rather than just verbal attack.",
+    "story_option": "Setting: A desolate, dew-dampened patch of ground near the house; Desire: For a single bloom that mirrors her inner fire despite external frost; Obstacle: The crushing weight of inherited propriety.",
+    "subject_rotation": "Examining her silence not as absence of words, but as a perfectly calibrated utterance of negation against falsehood.",
+    "sensory_detail": "The acrid scent of scorched prayer papers mingled with the perfume of forbidden night blossoms (olfactory).",
+    "research_question": "What specific archaic Bengali vocabulary can convey 'sustained internal resistance' without sounding melodramatic or purely abstract?",
+    "structural_variant": "Employing a sudden, violent rupture in rhythm mid-segment whenever she confronts social gaze (breaking the expected smooth cadence).",
+    "variety_note": "Unlike previous chapters which focused on initial shock or external judgment, this chapter focuses specifically on the metabolic cost—the active energy expenditure—of maintaining symbolic fortitude against constant societal attrition."
+  }
+}

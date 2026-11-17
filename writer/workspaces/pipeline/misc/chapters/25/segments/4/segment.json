@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অবিচ্ছিন্নতার খোঁজ",
+  "segment_summary": "The search for a continuous thread connecting the isolated moments—the shared silence of the bus, the vendor's call—into a cohesive social fabric.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "ক্ষুদ্র মুহূর্তগুলোকে 'শব্দগত অনুরণন' হিসেবে দেখা, যেখানে প্রতিটি বস্তু যেন পূর্ববর্তী পঙক্তির ধ্বনিকে প্রতিধ্বনিত করে একটি সম্মিলিত আবহ তৈরি করে।",
+    "story_option": "একটি নির্দিষ্ট প্ল্যাটফর্মের পুরোনো খুঁটিতে স্থির হয়ে দাঁড়িয়ে থাকা পর্যবেক্ষক, যিনি তার চারপাশের সমস্ত নড়াচড়াকে যেন এক বিশাল বাদ্যযন্ত্রের কম্পন হিসাবে অনুভব করেন (Feeling the Vibration)।",
+    "subject_rotation": "সামাজিক কাঠামোর স্থায়িত্ব নিয়ে প্রশ্ন না করে, এর অস্থিরতাকেই জীবনের আদি সত্য হিসেবে মেনে নেওয়া।",
+    "sensory_detail": "পার্থক্যহীন ধূসর বিকেলে লোহা কাঠামোর ওপর থেকে ওঠা উষ্ণ ধাতব গন্ধ (Metallic Warmth)।",
+    "research_question": "গিবরান/অরিলাসের দর্শন অনুযায়ী, নীরবতার ওজনকে শব্দহীনভাবে ধ্বনিময় করার সবচেয়ে উপযুক্ত কাব্যিক কৌশল কোনটি?",
+    "structural_variant": "The Layered Dissolution: কবিতাটিকে এমনভাবে তৈরি করা যাতে প্রতি segment-এ বস্তুর বর্ণ, গঠন এবং ভাবের একটি নির্দিষ্ট গুণাবলী ক্ষয়প্রাপ্ত হতে থাকে।",
+    "variety_note": "এই পর্ব অন্যান্য অধ্যায়ের চেয়ে বেশি বিমূর্ত ও সংহত; এটি বিচ্ছিন্ন চিত্রের তালিকা থেকে সরে এসে সেই চিত্রগুলির সম্মিলিত অস্তিত্বের দার্শনিক প্রতিধ্বনি অনুসন্ধানে মনোনিবেশ করে।"
+  }
+}

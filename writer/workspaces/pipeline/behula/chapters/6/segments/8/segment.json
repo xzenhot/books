@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "আলোর প্রতিধ্বনি",
+  "segment_summary": "এই সংগ্রাম থেকে জন্ম নেয় এক তীব্র অনুপ্রেরণার স্রোত, যা অন্ধকারকে ভেদ করে আলোর বার্তা বহন করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating inner resistance through material metaphor: The internal fire represented not by flame (as used elsewhere), but by polished, unyielding basalt or iron slag.",
+    "story_option": "Setting: Standing motionless at the edge of the domestic space during a long, silent night; Desire: To feel a specific sound—a single distant bird call or water drop hitting stone—to break the oppressive auditory vacuum (Obstacle: Complete sonic isolation); Turn: The silence itself begins to generate its own resonant frequency.",
+    "subject_rotation": "Examining fatigue through the lens of time dilation—how moments stretch into unbearable eternities in her solitude.",
+    "sensory_detail": "The tactile sensation of coarse jute against skin during sleepless vigil.",
+    "research_question": "Can I find diction that conveys profound fatigue as a state of spiritual density rather than simple physical depletion?",
+    "structural_variant": "Creating nested cantos where each inner thought repeats a core sensory detail from the preceding segment before evolving.",
+    "variety_note": "Unlike chapters focusing on external pressure or cosmic testing, this piece centers entirely on the *internal physics* of resilience—the sheer mechanics of continuing when all evidence suggests collapse is inevitable. It pivots from 'trial' to 'tenacity'."
+  }
+}

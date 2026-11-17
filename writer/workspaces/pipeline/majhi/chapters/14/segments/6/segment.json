@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নদীর নিজস্ব ভাষা",
+  "segment_summary": "নদী তার নিজস্ব প্রবাহ বজায় রাখে, এবং মাঝি সেই প্রবাহের সঙ্গে নিজেকে এমনভাবে মেলায় যাতে তার নিজস্ব ভাষা ও ছন্দ হারিয়ে না যায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal monologue framed entirely around nautical metaphor: charting a course through unfamiliar economic currents rather than geographical ones.",
+    "story_option": "Setting: At an official-looking riverside 'check station.' Desire: He must navigate bureaucratic red tape (a symbolic weight) without having to admit that his informal, generous service model is obsolete.",
+    "subject_rotation": "Examining 'resilience' not through bending, but through material accumulation: how does he strategically accumulate just enough modern resources (a better rope, specific permit) to maintain functional independence?",
+    "sensory_detail": "The slight, persistent tremor in his hands when he touches the bolted joints of modern river defenses.",
+    "research_question": "How can I portray the sound difference between organic wood creaking under strain versus inorganic steel vibrating from traffic?",
+    "structural_variant": "An oscillating rhythm: long lines reflecting the fluidity he maintains, punctuated by extremely short, sharp declarative lines representing transactional costs.",
+    "variety_note": "This chapter shifts focus from internal philosophical questioning (like Chapter 11's decision) to the *process* of ongoing, pragmatic adaptation, demonstrating that endurance requires intelligent incorporation rather than stubborn isolation."
+  }
+}

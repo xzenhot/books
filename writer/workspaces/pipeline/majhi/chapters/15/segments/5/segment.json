@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মমর্যাদার নোঙর",
+  "segment_summary": "মাঝি তার নিজস্ব নৈতিক ভিত্তিটিকে দৃঢ়ভাবে ধরে রাখে, যা তাকে বাইরের অস্থিরতা থেকে রক্ষা করে।",
+  "name": "5",
+  "word_target": 100,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Refusal of Consolation: The final lines undermine the quiet hope built in the preceding segments, suggesting the weight or uncertainty remains.",
+    "story_option": "Setting: Inside his boat, moored at dusk after a difficult journey, Desire: To hear one last, unsung snippet of Bhatiyali song that embodies unquantifiable value. Obstacle: Only the relentless sound of insects and water dripping remains.",
+    "subject_rotation": "Examining the concept of 'Unpaid Debt' through a purely ecological lens—what does the river demand from sustained human connection?",
+    "sensory_detail": "The taste of river silt mixed with faint traces of coal smoke from a distant passing vessel.",
+    "research_question": "What regional Bengali vocabulary or metaphorical phrases exist to describe an obligation that is profoundly intangible?",
+    "structural_variant": "A recursive structure where each segment repeats a core image (e.g., the pattern of the oar stroke) but modifies its emotional weight.",
+    "variety_note": "Unlike previous, more action-oriented segments, this chapter focuses entirely on the internal resonance following conflict; it is about sustaining belief rather than winning a battle."
+  }
+}

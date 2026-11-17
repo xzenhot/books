@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত যাত্রা",
+  "segment_summary": "কবিতাটি একটি খোলা প্রশ্ন রেখে শেষ হয়—নদীর প্রবাহ কি তার নিজস্ব উত্তর নিজেই বহন করে নিয়ে চলে?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Using the texture of dried river mud as a metaphor for enduring truth—it cannot be flattened or traded.",
+    "story_option": "The majhi pausing mid-row, focusing solely on the reflection of his own weary face in a perfectly still patch of water (Setting: Midday calm near a weir; Desire: To reconcile the physical exhaustion with the spiritual clarity; Obstacle: The incessant drone of a distant construction barge; Turn: Seeing not himself, but an ancient ancestor in that fleeting image).",
+    "subject_rotation": "Framing the river itself as the ultimate patient listener, whose silence contains all economic arguments and resolves them through inertia.",
+    "sensory_detail": "The sharp, metallic tang mixed with decaying organic matter rising off the deep river currents (Smell).",
+    "research_question": "Are there any linguistic patterns in Bhatiyali that signify transition from personal grief to universal wisdom?",
+    "structural_variant": "Alternating between dense, highly metaphoric stanzas (river state) and stark, single-image pronouncements of labor (oar stroke).",
+    "variety_note": "Unlike earlier chapters that focused on external pressures (debt, bridges), this final section internalizes the struggle, allowing the philosophical resolution to settle as an almost unbearable quietude."
+  }
+}

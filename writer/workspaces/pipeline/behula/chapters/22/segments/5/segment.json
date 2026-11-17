@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আলোর দীপশিখার শিখা",
+  "segment_summary": "অগ্নির দীপশিখা, যা শুরুতে দুর্বল ছিল, তা এই চূড়ান্ত মুহূর্তে সর্বশক্তিমান হয়ে ওঠে এবং সমস্ত সংশয়কে দূর করে দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the success not as overcoming external odds, but achieving an internal state so complete that the struggle itself becomes obsolete.",
+    "story_option": "Setting: Inside the original hearth-chamber, Desire: For Lukhindar to speak one single word that encompasses all their shared suffering without explaining it; Obstacle: His voice catches on an unnamed syllable of ancient grief.",
+    "subject_rotation": "Shifting from celebrating 'achievement' to exploring the nature of 'necessity'; was the trial required for this specific form of union, or is it a cosmic mistake?",
+    "sensory_detail": "Sound: A specific resonance felt deep within the sternum when their breaths equalize for the first time after separation—a pure, non-verbal tuning.",
+    "research_question": "How can I symbolize the societal structure’s inherent limitations without introducing external criticism that veers into prose or essay form?",
+    "structural_variant": "A deliberate inclusion of a meta-commentary segment (Segment 8) structured entirely in question marks, challenging the premise of narrative closure.",
+    "variety_note": "Unlike previous chapters focused on internal battles, this chapter centers exclusively on the *consequence* of endurance: the quiet aftermath and its lingering philosophical weight."
+  }
+}

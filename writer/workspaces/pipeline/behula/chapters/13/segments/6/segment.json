@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলোকবর্তিকার যাত্রা",
+  "segment_summary": "বেহুলার যাত্রা কীভাবে ব্যক্তিগত যন্ত্রণা থেকে সমষ্টিগত প্রেরণার দিকে মোড় নেয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal struggle as a metaphysical geometry: how faith constructs irreducible shapes against entropy.",
+    "story_option": "Setting: Within a small ritual alcove cluttered with fading symbols; Desire: To articulate whether belief is self-sustaining or reliant upon some external, unseen acknowledgment (a questioning tone); Obstacle: Skepticism woven into the very fabric of societal customs.",
+    "subject_rotation": "Shifting the focus from *winning* the battle against darkness to *sustaining* the internal dialogue within the dark.",
+    "sensory_detail": "The metallic tang on the lips from prolonged periods of holding back powerful emotion (grief/resolve).",
+    "research_question": "How might Jibran's concept of yearning be translated into Bengali diction to reflect an outcome (the question) rather than just the process?",
+    "structural_variant": "An open-ended, circular poem where the final line of Segment 8 deliberately repeats or negates the opening image described in Segment 1.",
+    "variety_note": "This chapter moves beyond description; it forces an active dialectic between internal illumination and external negation, employing the aftermath lens suggested by the variation brief."
+  }
+}

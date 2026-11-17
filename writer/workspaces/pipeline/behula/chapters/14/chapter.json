@@ -1,61 +1,120 @@
 {
   "chapter_index": 14,
   "name": "14",
-  "word_target": 280,
-  "chapter_title": "মাঝনদীর নিস্তব্ধতায় সংশয় জয়",
-  "chapter_summary": "অন্ধকার রাতে মানবীয় ক্লান্তি ও সংশয় এলেও সে দোলাচলে হার মানে না; বরং দ্বিধাকে বুকে ধারণ করেই প্রার্থনার প্রদীপকে জ্বালিয়ে রাখে।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "চূড়ান্ত পরীক্ষার পূর্বে: সংকল্পের মুহূর্ত",
+  "chapter_summary": "এই পর্বটি বেহুলার সমস্ত মানসিক ও আত্মিক প্রস্তুতির মুহূর্তকে কেন্দ্র করে আবর্তিত হয়, যখন তিনি চূড়ান্ত পরীক্ষার মুখোমুখি হতে চলেছেন। এখানে তার ভেতরের দীপশিখা বাইরের সমস্ত অন্ধকারের বিরুদ্ধে শেষবারের মতো দৃঢ় সংকল্প গ্রহণ করে। এই নীরব মুহূর্তটি কেবল ব্যক্তিগত প্রস্তুতি নয়, বরং সমস্ত নিপীড়িত আত্মার শেষ ভরসার প্রতিচ্ছবি। প্রশ্নটি হলো—এই চরম নীরবতার মধ্যে, তার ভেতরের আলোকবর্তিকা কি বাইরের বাস্তবতাকে পরিবর্তন করার জন্য যথেষ্ট শক্তিশালী?",
   "further_references": [
+    "research.md"
+  ],
+  "segments": [
     {
-      "no": "1",
-      "reference": "The poetics of vigil and stillness in Bengali literary tradition",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "অন্ধকারের প্রান্তরে স্থিরতা",
+      "segment_summary": "সমস্ত প্রতিকূলতার শেষে, বেহুলার মন এক গভীর, শান্ত স্থিরতার দিকে ধাবিত হয়, যেখানে বাইরের কোলাহল স্তব্ধ হয়ে আসে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "আত্মিক প্রস্তুতি পর্ব",
+      "segment_summary": "তিনি নিজের ভেতরের শক্তিকে একত্রিত করেন, যেখানে প্রতিটি অতীতের আঘাত যেন এক নতুন শক্তির উৎস হয়ে ওঠে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "শেষ মুহূর্তের সংকল্প",
+      "segment_summary": "এই মুহূর্তে, তার সংকল্প কেবল টিকে থাকার নয়, বরং সত্যকে প্রতিষ্ঠা করার এক মহাকাব্যিক অঙ্গীকারে পরিণত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "আলোর দীপশিখার প্রস্তুতি",
+      "segment_summary": "অগ্নির দীপশিখাটি নিভে যাওয়ার ভয়কে জয় করে, আরও উজ্জ্বল হয়ে ওঠার জন্য প্রস্তুত হয়, যেন এক শেষ আহ্বান।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "নীরবতার ভাষা",
+      "segment_summary": "এই চূড়ান্ত নীরবতা কোনো দুর্বলতা নয়, বরং সমস্ত অব্যক্ত যন্ত্রণা ও বিশ্বাসের গভীরতম বহিঃপ্রকাশ।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অপেক্ষা এবং প্রত্যয়",
+      "segment_summary": "তিনি প্রতিকূলতার ফলস্বরূপ আসা প্রতিটি মুহূর্তকে মেনে নেন, কিন্তু তার প্রত্যয় কখনও নড়ে না।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "ভেতরের মহাকাব্যিক প্রস্তুতি",
+      "segment_summary": "এই প্রস্তুতি কেবল শারীরিক নয়, এটি আত্মার সেই মহাকাব্যিক যাত্রা, যা তাকে চূড়ান্ত বিজয়ের দিকে চালিত করবে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "পরিবর্তনের দ্বারপ্রান্তে",
+      "segment_summary": "চূড়ান্ত পরীক্ষার দ্বারপ্রান্তে দাঁড়িয়ে, বেহুলার অস্তিত্ব এক নীরব অথচ প্রবল পরিবর্তনের সন্ধিক্ষণে এসে দাঁড়ায়।",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Framing doubt not as a failure of faith, but as the necessary counterpart to conviction—the tension between what is certain (love) and what must be endured (waiting).",
-      "Treating silence itself as an active entity; the 'নিস্তব্ধতা' isn't just absence of sound, but a pressure exerted by unresolved spiritual questions.",
-      "Shifting focus from external obstacles to the internal landscape of fatigue: how physical exhaustion becomes indistinguishable from spiritual uncertainty."
+      "Focusing on the precise physiological sensation of holding one's breath during peak conviction, making it a metaphor for spiritual stasis.",
+      "Framing the internal conflict as an artisanal process: weaving threads of suffering into a tapestry of resolve (the thread/weaving motif).",
+      "Exploring the body's reaction to sustained mental pressure—a tremor or a fixed ache that becomes sacrosanct."
     ],
     "story_options": [
-      "Setting: The absolute trough between two moon cycles; Desire: To articulate the moment when hope dims, forcing a confrontation with the sheer weight of her solitary vigil on the raft.",
-      "Setting: Just before the first hint of pre-dawn light breaks the horizon; Desire: A sudden, almost physical urge to surrender to exhaustion and let go of the desperate ritualistic pursuit.",
-      "Setting: Amidst the subtle, creeping chill that settles onto the water at night's deepest point; Desire: To find a micro-moment of grounding—a singular anchor (the feel of wood, the smell of river silt) against the vastness of her doubt."
+      "Setting: A barren, wind-scoured plain under an oppressive sky; Desire: To feel the invisible thread of destiny pull taut across her outstretched hand; Obstacle: The overwhelming apathy of the landscape.",
+      "Setting: Within a tightly enclosed inner sanctum where light barely penetrates; Desire: To let every exhale carry the accumulated weight of years' doubt, transforming it into kinetic energy; Obstacle: The self-imposed silence that threatens to become final resignation.",
+      "Setting: Standing before a vast, echoing void representing the test; Desire: To thread a singular, incandescent strand of memory through this nothingness; Obstacle: The sheer volume of existential inertia surrounding her."
     ],
     "subject_rotations": [
-      "Focusing purely on the dialectic between *Dharma* (duty/ritual adherence) and visceral human need for relief or answer.",
-      "Treating 'doubt' as a temporary, necessary phase in profound spiritual endeavor—a purification stage rather than an endpoint of failure.",
-      "Exploring the vulnerability inherent in prolonged self-exposure on the open water under surveillance of unseen forces (the river spirits/gods)."
+      "Treating resilience not as an active fight, but as a patient, dense accretion—like silt building in a deep riverbed.",
+      "Examining the relationship between breath and belief: how shallow breathing signifies doubt while deep inhalation signals acceptance of the ordeal.",
+      "Focusing on 'stillness' (স্থিরতা) itself as the ultimate aggressive act against temporal chaos."
     ],
     "sensory_details": [
-      "The metallic scent of cold water clinging to exposed skin at night, contrasting with the dry heat radiating from a small lamp.",
-      "A sound profile dominated by extremely low-frequency resonance—the deep thrumming vibration of the river current against the raft's hull.",
-      "The texture of worn threadbare fabric pressed into dampness during long hours of motionless waiting."
+      "The coarse, granular texture of dust settling on the skin during a period of profound quiet.",
+      "A low-frequency hum or vibration felt deep in the sternum when concentration is absolute (a sub-audible resonance).",
+      "The cold, taut sensation where one's fingertips press against themselves, mapping out an invisible line."
     ],
     "research_questions": [
-      "How can Bengali poetic diction effectively portray a state of 'active stasis,' where movement is impossible but mental striving remains absolute?",
-      "What imagery captures the psychological sensation of time slowing down radically when faced with an eternal, unresolved crisis?"
+      "What archaic Bengali term denotes a state of perfect, exhausted resolve that surpasses mere determination?",
+      "How can the act of holding breath be depicted poetically without reducing it to simple anxiety?"
     ],
     "structural_variants": [
-      "A circular structure: beginning and ending in near-identical atmospheric conditions (e.g., identical quality of darkness), but showing a subtle shift in internal resolve.",
-      "A bifurcated structure: alternating sections between the highly externalized, vast imagery of the night/river vs. intensely close focus on her breath/hand holding the lamp.",
-      "An accelerating cadence that subtly builds throughout the piece, suggesting not action, but increasing mental pressure."
+      "An enjambed structure where nearly every line breaks precisely at an inflection point or moment of high tension.",
+      "A highly compressed strophe form, where each segment focuses on one single sensory anchor (hand, breath, touch) before moving to the next."
     ],
     "unused_angles": [
-      "The political weight of a single female figure existing outside established societal structures (a quiet rebellion against rigid expectation).",
-      "A metaphorical examination of the raft as a temporary, fragile 'liminal space' where conventional laws cease to apply.",
-      "Using highly specific vocabulary from navigation or deep water travel to ground her internal state in tangible risk."
+      "The subtle shift from mythological certainty (the vow) to modern psychological endurance (the self-maintenance of hope).",
+      "Using highly technical vocabulary related to physics or pressure metaphorically to describe emotional states.",
+      "A brief, jarring intrusion of a mundane sound ('clink' of pottery) immediately suppressed by overwhelming internal focus."
     ],
-    "variety_note": "Unlike previous chapters which focus on overt conflict (attacks, societal scorn), this piece zeroes in on the quiet friction between endurance and mental fatigue during a vigil of sustained hope."
+    "variety_note": "This chapter shifts away from external confrontation (unlike others) into deep interiority, using the thread motif and physical anchors to map the process of unwavering internal resolution right before climax."
   },
   "draft": {
-    "sha256": "9d20d1a975dd3bbe37835561d11a12c81eef2891cb3f763ec7418d351e76199e",
-    "written_at": "2026-10-21T16:24:54.224308+00:00",
+    "sha256": "02beb1077ff5887e6e7f5b538fa1425518f5ed3cd642bde0a92757b83bd361ac",
+    "written_at": "2026-11-16T04:24:47.431382+00:00",
     "origin": "write"
   }
 }

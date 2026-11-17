@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "পথের মানচিত্র বদলানো",
+  "segment_summary": "সরকারি বা ব্যবসায়িক পরিকল্পনার কারণে মাঝির পরিচিত জলপথগুলো কীভাবে অপ্রাসঙ্গিক হয়ে পড়ছে, সেই বিচ্ছিন্নতার চিত্র এখানে ফুটে ওঠে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing strictly on the materiality of the imposed structure: describing the specific aggregate, rebar, and type of steel used in the barrier without metaphorical overlay.",
+    "story_option": "A specific section where a maintenance worker from the construction crew mocks the majhi’s old route, treating it with the same patronizing disdain one might reserve for local wildlife.",
+    "subject_rotation": "The conflict framed as a collision between two different understandings of 'ownership': natural custodianship versus sovereign development rights.",
+    "sensory_detail": "The gritty texture of dried silt carried on the undercurrent against the oiled wood of the hull.",
+    "research_question": "Are there established traditions among older boatmen for visually marking traditional, unmapped river passages that are now obstructed?",
+    "structural_variant": "Structuring it as a 'failed map' sequence—the majhi consulting old charts only to realize they chart nonexistent pathways.",
+    "variety_note": "Unlike the personal trials in neighboring chapters, this focuses externally—the confrontation is not with a person or debt, but with an immovable, impersonal force of state planning and concrete imposition."
+  }
+}

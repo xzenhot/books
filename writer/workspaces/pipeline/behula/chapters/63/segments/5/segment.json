@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 63,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের প্রতিধ্বনি",
+  "segment_summary": "তার অদম্য সংকল্পের ধ্বনি সমাজের প্রতিটি নিপীড়িত আত্মার প্রতিধ্বনি হয়ে ওঠে, যা নীরব আর্তনাদকে কণ্ঠ দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Secondary Twist Focus: A single, unbroken strand of thread (প্রতীকী সুতো) carried from her solitude into the embrace; its tensile strength representing enduring faith despite temporal decay.",
+    "story_option": "Setting: Near a quiet stream where her vow was forged; Desire: To observe the water reflecting a perfect, unbroken image of reunion; Obstacle: A sudden shadow—a lingering societal judgment that attempts to taint the vision.",
+    "subject_rotation": "The physics of faith: Treating unwavering belief not as a passive emotion but as an active, energetic force that physically resists collapse (like tension in a taut cable).",
+    "sensory_detail": "A sound described as a sustained harmonic resonance—a vibration felt in the bone rather than heard by the ear.",
+    "research_question": "What established Bengali imagery denotes absolute, irreversible resolution ('final victory') without resorting to bombastic or overtly religious terminology?",
+    "structural_variant": "A non-linear movement: Begin with the resolution, immediately cut back several times into moments of intense doubt from earlier chapters, and only then allow the final peaceful culmination.",
+    "variety_note": "This chapter pivots from intense internal struggle to external fulfillment; where neighbors dwelt in pressurized introspection, this segment emphasizes resonant proclamation and enduring spiritual aftermath, while incorporating a deliberate structural volta based on re-reading past experience through the lens of reunion."
+  }
+}

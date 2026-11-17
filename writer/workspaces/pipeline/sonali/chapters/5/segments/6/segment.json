@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আকস্মিকতার বিস্ময়",
+  "segment_summary": "এই আকস্মিক আনন্দের আগমন তার পূর্বের সমস্ত দার্শনিক অনুসন্ধানের চেয়েও বেশি শক্তিশালী এবং বিস্ময়কর প্রমাণিত হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'heavenly bliss' not as light, but as perfect, resonant silence—a vibration so pure it cancels out all preceding sound.",
+    "story_option": "Setting: A balcony overlooking a dimly lit expanse (not city lights). Desire: To dissolve into the pure sensation. Obstacle: The physical weight/gravity of her body anchors her fiercely to its limitations; Turn: She tests this anchor by pushing against it with an almost painful, silent concentration.",
+    "subject_rotation": "Focusing on the *absence* after the bliss: charting the precise, measurable vacuum left by its departure.",
+    "sensory_detail": "The taste of cool metal—perhaps from touching a doorknob during the trance's aftermath (Taste).",
+    "research_question": "What specific Bengali vocabulary conveys 'unearned grace' or 'spontaneous divine leakage' without sounding overtly religious?",
+    "structural_variant": "Structuring segments based on increasing levels of perceptual distortion (from clear sensation -> distorted perception -> total conceptual void).",
+    "variety_note": "Unlike its neighbor, which focuses on induction through sensory input, this chapter is defined by an internally generated event—an instantaneous spiritual rupture in the mundane."
+  }
+}

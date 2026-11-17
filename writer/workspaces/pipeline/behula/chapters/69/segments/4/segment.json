@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 69,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "প্রতিরোধের নীরব ভাষা",
+  "segment_summary": "কথা না বলেও, কেবল অস্তিত্বের দৃঢ়তা দিয়েই সে প্রতিকূলতার বিরুদ্ধে এক নীরব, কিন্তু শক্তিশালী প্রতিরোধ গড়ে তোলে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the micro-rituals of preservation: How does she maintain 'Dharma' (duty) amidst existential dread through precise, unbroken domestic acts?",
+    "story_option": "Setting: A dimly lit threshold between her personal chamber and the public path; Desire: To let the faint echo of Likhindor's voice be heard by the void; Obstacle: The oppressive weight of silence demands no response.",
+    "subject_rotation": "Examining her stamina as geological pressure—the force that creates diamonds from unimaginable stress.",
+    "sensory_detail": "The precise, brittle sound of dried palm-leaf scripture rustling in a stagnant draft (sound)",
+    "research_question": "What ancient metaphorical structures in Indian philosophy deal specifically with sustained endurance against societal judgment rather than singular external battles?",
+    "structural_variant": "Alternating between moments of near-collapse (low diction surge) and brief, hyper-elevated ascents into pure idealization (high diction peak).",
+    "variety_note": "This chapter moves beyond describing the initial trauma (like Chapter 1) and delves into the mechanism of survival: how sheer psychological density is maintained when all external support structures fail."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 60,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির সংরক্ষণাগার",
+  "segment_summary": "প্রথম প্রজন্মের কাছে, এই তেলের গন্ধই ছিল সেই নির্দিষ্ট সময়ের একটি জীবন্ত আর্কাইভ, যা অন্য কোনো উপকরণ দিয়ে প্রতিলিপি করা সম্ভব নয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the oil not as a culinary choice, but as a silent negotiation between necessity (survival) and devotion (memory).",
+    "story_option": "Setting: Beside an open border road where two types of cooking gas burners are visible; Desire: To juxtapose the flicker of the 'আঁচ' in both settings; Obstacle: The constant, indifferent hum of foreign machinery drowning out intimate sensory detail.",
+    "subject_rotation": "Examining the oil through the lens of material science: how different molecular structures physically alter the dough structure, leading to textural dissonance.",
+    "sensory_detail": "Auditory: The specific high-frequency *thrum* produced when dense, pungent oils hit moderate heat versus the dull, absorbing *shush* of neutral fats.",
+    "research_question": "What specific Bengali vocabulary exists that can describe an aroma as simultaneously 'sharp' and profoundly 'nostalgic'?",
+    "structural_variant": "A form structured around a mantra of repetition, where each iteration uses one new word from the lexicon (তেল, গন্ধ, মাটির)",
+    "variety_note": "This chapter focuses exclusively on the primary chemical and sensory marker—the oil itself—diverging from previous chapters which focused on broader geographical or social shifts in food consumption."
+  }
+}

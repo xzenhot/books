@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 29,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "পুনর্জন্মের ঘোষণা",
+  "segment_summary": "এই কাব্যিক যাত্রা শেষ হয় এক গভীর জিজ্ঞাসা নিয়ে—এই বার্ষিক প্রত্যাবর্তন কি কেবল রীতিনীতি, নাকি চেতনার পুনর্জন্মের ঘোষণা?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the doubt not as a theological query, but as an acute human exhaustion with the necessity of repetition.",
+    "story_option": "The poet isolates themselves in a quiet room, not to reminisce (like previous chapters), but to conduct an extremely rigorous mental deconstruction of the *joy* itself, seeking its inherent instability. Setting: Cloistered inner sanctum; Desire: Absolute objective clarity; Obstacle: The seductive pull of nostalgia; Turn: A sudden realization that joy *is* the energy they seek.",
+    "subject_rotation": "Focusing on the Internal Landscape of the Devotee: Minimizing external ritual imagery and concentrating instead on the neurological/emotional mapping of belief.",
+    "sensory_detail": "Smell: A scent profile combining aged copper (from ritual implements) mixed with the sharp, sterile odor of cleansing rainwater.",
+    "research_question": "What specific idiomatic expressions exist for a cyclical pattern that is both inevitable and painful in rural Bengal?",
+    "structural_variant": "Dialogue structure (internal only): The poet arguing with an idealized 'self' representing the absolute certainty held during the festival.",
+    "variety_note": "This chapter pivots away from recounting specific events to interrogating their residual energetic trace; it moves inward toward the philosophy of endurance after ritual climax, distinguishing itself by its focus on somatic memory rather than narrative progression."
+  }
+}

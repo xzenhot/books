@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "প্যান্ডেল ও জনসমাগম: সম্মিলিত ভক্তির স্রোত — অংশ 7",
+  "segment_summary": "এই অধ্যায়টি উৎসবের সামাজিক স্কেলকে তুলে ধরে, যেখানে হাজার হাজার মানুষের ভিড় এক সম্মিলিত ভক্তির স্রোত তৈরি করে। প্যান্ডেলগুলি কেবল কাঠামো নয়, বরং মানব আকাঙ্ক্ষা ও বিশ্বাসের এক বিশাল, অস্থায়ী সমাবেশস্থল। চিত্রকল্পে ফুটে ওঠে আলোর ঝলকানি, মানুষের ভিড়ের কোলাহল এবং সেই ভিড়ের মধ্যে নিহিত ব্যক্তিগত আধ্যাত্মিকতার দ্বন্দ্ব। এই অধ্যায়টি প্রশ্ন তোলে: এই বিপুল জনসমাগমের মধ্যে ব্যক্তিগত ভক্তি কি হারিয়ে যায়, নাকি তা আরও শক্তিশালী হয়ে ওঠে?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the specific geometry of the crowd: how the density and flow create patterns that mirror cosmic order (Microcosm/Macrocosm).",
+    "story_option": "setting: A narrow, choked aisle between two large pandals, desire: To find one single point in the chaos where genuine silence resides., obstacle: The crushing physical press of thousands moving without visible direction., turn: Finding a lone vendor selling something seemingly mundane (like specific incense) that acts as an unexpected anchor.",
+    "subject_rotation": "Examining the 'cost' of collective faith: how does participation become economically or emotionally exhausting?",
+    "sensory_detail": "The metallic tang of sweat mixed with cheap, ephemeral incense smoke that hangs heavy and warm in the air.",
+    "research_question": "How can the poetic vocabulary effectively convey the concept of 'collective consciousness' without resorting to overly abstract or scientific terminology?",
+    "structural_variant": "The chapter could be structured as a series of increasing zooms: from the grand panorama down to one individual's tightly wound moment.",
+    "variety_note": "This chapter differs by focusing entirely on the *mass* experience—the shared, ephemeral physical space of the pandal—rather than isolated ritual acts or deep personal introspection found in neighbouring chapters."
+  }
+}

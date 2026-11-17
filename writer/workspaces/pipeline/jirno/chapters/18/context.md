@@ -1,0 +1,283 @@
+# Chapter model context
+
+## chapter_index
+
+18
+
+## name
+
+18
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+সীমারেখা
+
+## chapter_summary
+
+এই অধ্যায়টি চূড়ান্ত সিদ্ধান্তের মুহূর্তকে কেন্দ্র করে আবর্তিত, যেখানে পথিককে তার নাগরিক অহংকার এবং প্রকৃতির আদিম নিয়মের মধ্যে এক কঠিন সীমারেখা টানতে হয়। কালবৈশাখীর আগমন আসন্ন, যা মানবীয় হস্তক্ষেপের সমস্ত প্রচেষ্টাকে চ্যালেঞ্জ জানাচ্ছে। পথিককে বুঝতে হয় যে, এই ধ্বংসাবশেষকে জোর করে বাঁচিয়ে রাখা নয়, বরং কোন জিনিসকে প্রকৃতির ধূলিসাৎ নিয়মের ওপর ছেড়ে দিতে হয়, সেই নীরব সত্যটিই হলো জীবনের চরম উপলব্ধি। এই অধ্যায়টি প্রশ্ন তোলে—মানুষের আকাঙ্ক্ষা এবং প্রকৃতির স্বতঃস্ফূর্ত প্রবাহের মধ্যেকার সঠিক ভারসাম্য কোথায়?
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রলয়ের পূর্বাভাস
+
+#### segment_summary
+
+চৈত্র শেষ হয়ে বৈশাখের প্রথম প্রলয়ঙ্কর ধূলিঝড়, কালবৈশাখীর আগমন বার্তা নিয়ে আসে, যা মানবীয় হস্তক্ষেপের সমস্ত প্রচেষ্টাকে চ্যালেঞ্জ জানাচ্ছে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+চূড়ান্ত দ্বিধা
+
+#### segment_summary
+
+পথিককে চূড়ান্ত সিদ্ধান্ত নিতে হয়: সে কি এই ধ্বংসস্তূপকে তার 'ইতিহাস' বানাবে, নাকি তাকে প্রকৃতির হাতে সঁপে দেবে?
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+অধিকার বনাম বিলয়
+
+#### segment_summary
+
+এই সীমারেখাটিই তার জীবনের সবচেয়ে বড় পরীক্ষা, যেখানে অধিকারবোধ এবং নিঃশব্দ বিলয়ের মধ্যে সংঘাত তীব্র হয়।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রকৃতির প্রহরী
+
+#### segment_summary
+
+সাঁওতাল পল্লী এবার কেবল নীরব দর্শক থাকে না; তারা প্রকৃতির চিরন্তন ভারসাম্যের অতন্দ্র প্রহরী রূপে সামনে আসে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+নাগরিক প্রবৃত্তি বনাম মুক্তি
+
+#### segment_summary
+
+পথিকের নাগরিক প্রবৃত্তি তাকে অধিকার করতে প্ররোচিত করে, কিন্তু প্রকৃতির নীরবতা তাকে মুক্তির পথ দেখায়।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্বীকারোক্তির ভার
+
+#### segment_summary
+
+ধ্বংসাবশেষকে জোর করে বাঁচিয়ে রাখার চেষ্টা ব্যর্থ হয়; প্রকৃতির ধূলিসাৎ নিয়মের ওপর ছেড়ে দেওয়ার সিদ্ধান্তই চরম পবিত্রতা লাভ করে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+নীরব স্বীকৃতি
+
+#### segment_summary
+
+সিদ্ধান্ত নেওয়ার মুহূর্তে, পথিক সাঁওতালদের চোখে তাকায়—সেই চোখে কোনো উপদেশ নেই, আছে কেবল এক গভীর, শান্ত স্বীকৃতি।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসম্পূর্ণতার মহিমা
+
+#### segment_summary
+
+এই স্বীকৃতিই তার সমস্ত নাগরিক কাঠামোকে ভেঙে দেয়, তাকে শেখায় যে কিছু শূন্যতা অপূর্ণ থাকলেই পূর্ণ হয়।
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- Treating the moment of decision not as a grand, conscious choice, but as a sudden, involuntary physiological shutdown of intellectual resistance.
+- Focusing on how the silence from the Satual community is spatially mapped across the landscape—not just in their faces, but in the empty spaces between their dwellings and the ruins.
+- Framing the concept of 'limit' not as a line drawn by will (civic ego), but as an emergent property of geological or meteorological necessity.
+
+### story_options
+
+- Setting: The precise point where the dust cloud is densest, obscuring all recognizable forms; Desire: To feel absolute disorientation—the loss of navigational sense that mirrors his internal crisis; Obstacle: Complete visual occlusion.
+- Setting: Standing at the threshold separating the mansion grounds from the village boundary wall; Desire: To observe one specific Satual child who looks upon both sides without discernible emotion; Obstacle: The inability to gauge whether this non-reaction is judgment or simple irrelevance.
+- Setting: A brief, almost hallucinatory vision of the house *before* its ruin—rendered not in grandeur, but in intense emotional saturation (like a dream); Desire: To desperately grasp at that manufactured memory as evidence for his choice; Obstacle: The clarity of the image immediately degrading into grit.
+
+### subject_rotations
+
+- Shifting from a focus on 'possessing' or 'saving' the ruin, to treating the act of *witnessing* its decay as the highest form of engagement.
+- Examining the contrast between the highly verbalized anguish of the traveler and the profound semantic void maintained by the indigenous community.
+- Focusing less on the external clash (Civilization vs. Nature) and more on the internal collision: the friction between the urge to *define* experience and the reality of irreducible being.
+
+### sensory_details
+
+- Smell: The sharp, mineral tang rising from the red clay when first exposed to dry wind before the main storm hits.
+- Sound: A sudden cessation of all background sounds (insects, distant chatter) replaced by a high-frequency, almost ultrasonic whine as the pressure builds.
+- Touch: The gritty feeling on his tongue when he involuntarily tastes the fine dust coating his lips during moments of extreme stillness.
+
+### research_questions
+
+- How does Bengali lyrical tradition handle the transition from acute environmental violence (the incoming storm) to absolute, sterile quietude?
+- Are there specific cultural idioms within the declared world that describe 'necessary emptiness' or the beauty found in absence?
+
+### structural_variants
+
+- A heavily fragmented structure where each segment focuses on one competing sensory input: Sight (Red/Grey), Sound (Wind/Silence), Touch (Grit/Thorn).
+- Employing a tautological structure, where the conclusion of one small observation immediately feeds into the starting premise of the next.
+
+### unused_angles
+
+- A deep dive into the texture of the mortar work—using the physical failure of human construction as a primary metaphor for intellectual rigidity.
+- Exploring the implications if the traveler *did* try to enforce his will, resulting in immediate personal psychic exhaustion rather than external resistance.
+
+### variety_note
+
+While neighbouring chapters focused on the bloom's inherent nature or the dawn/storm transition, this chapter zeroes in entirely on the moment of decisive human choice against an overwhelming environmental backdrop.

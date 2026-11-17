@@ -2,47 +2,113 @@
   "chapter_index": 5,
   "name": "5",
   "word_target": 500,
-  "chapter_title": "The Rickshaw Bell at the Crossing",
-  "chapter_summary": "A cycle-rickshaw bell rings at a busy crossing, and the poem listens to the small bright sound that threads through the larger noise of traffic.",
-  "further_references": [],
+  "segment_count": 8,
+  "chapter_title": "রাস্তার ধারের ক্ষুদ্র ব্যবসায়ীর হাঁক",
+  "chapter_summary": "এই পর্বটি অসংগঠিত অর্থনীতির প্রাণস্পন্দনকে তুলে ধরে, যেখানে রাস্তার ধারের ক্ষুদ্র ব্যবসায়ীর হাঁক এবং তার দাঁড়িপাল্লার সূক্ষ্ম নড়াচড়া সমাজের অর্থনৈতিক কাঠামোকে প্রতিফলিত করে। এটি দেখায় কীভাবে ক্ষুদ্রতম লেনদেনগুলো বৃহত্তর সামাজিক অর্থনীতির চালিকাশক্তি হিসেবে কাজ করে, যা দৃশ্যমান প্রাচুর্য নয়, বরং প্রতিদিনের শ্রমের উপর নির্ভরশীল। এই পর্যবেক্ষণ পাঠককে প্রশ্ন করতে বাধ্য করে যে, এই আপাতদৃষ্টিতে বিচ্ছিন্ন ক্ষুদ্র ব্যবসাগুলো কি সামগ্রিক সামাজিক স্থিতিশীলতার ভিত্তি রচনা করে?",
+  "further_references": [
+    "references.md#5"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "দাঁড়িপাল্লার ছন্দ",
+      "segment_summary": "ব্যবসায়ীর দাঁড়িপাল্লার মৃদু, ছন্দোবদ্ধ নড়াচড়া শহরের কোলাহলের মাঝে এক নিজস্ব, স্থির গতি তৈরি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "হাঁকের অনুরণন",
+      "segment_summary": "বিক্রেতার হাঁক কেবল পণ্য বিক্রি করার আহ্বান নয়, বরং এটি একটি সামাজিক ঘোষণা যা দিনের লেনদেনকে শুরু করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "ক্ষুদ্র বিনিময়ের ভার",
+      "segment_summary": "প্রতিটি ক্ষুদ্র লেনদেন, প্রতিটি ওজন করা বস্তুর আদান-প্রদান, সমাজের অর্থনৈতিক ভারসাম্যের একটি ক্ষুদ্র অংশ বহন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "অসংগঠিত জীবনের চিত্র",
+      "segment_summary": "এই দৃশ্যটি আনুষ্ঠানিক অর্থনীতির বাইরে থাকা জীবনের চিত্র তুলে ধরে, যেখানে সম্পর্কগুলো অর্থের চেয়েও গভীর হতে পারে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "শ্রমের নীরব ভাষা",
+      "segment_summary": "বিক্রেতার শারীরিক শ্রম, তার স্থিরতা এবং তার কণ্ঠস্বর—এগুলোই অসংগঠিত শ্রমের নীরব ভাষা।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "বাজারের স্পন্দন",
+      "segment_summary": "এই ক্ষুদ্র বাজারগুলো আসলে বৃহত্তর সামাজিক অর্থনীতির একটি জীবন্ত, শ্বাসপ্রশ্বাস নেওয়া কেন্দ্র।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অপেক্ষা ও চাহিদা",
+      "segment_summary": "ক্রেতাদের অপেক্ষার ভঙ্গি এবং বিক্রেতার সরবরাহ—এই দ্বিমুখী প্রবাহই সামাজিক চাহিদা ও সরবরাহের চিত্র দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অর্থনীতির ক্ষুদ্রতম একক",
+      "segment_summary": "এই ক্ষুদ্র লেনদেনগুলো একত্রিত হয়ে একটি জাতির অর্থনৈতিক কাঠামোকে সূক্ষ্মভাবে নির্মাণ করে, যা সহজে চোখে পড়ে না।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Framing the sound of the bell not as a navigational tool, but as an insistent punctuation mark against the continuous stream-of-consciousness chaos of urban noise.",
-      "Treating the vibration transmitted from the bell through metal and air as a temporary physical disturbance in the environment, mapping its ripple effect on nearby objects or people's stillness.",
-      "Viewing the ringing not as a signal to *move*, but as an involuntary sound that forces momentary hesitation—a tiny, mandated pause within acceleration."
+      "শ্রমের 'পরবর্তী অনুরণন': লেনদেন সম্পন্ন হওয়ার পর দাঁড়িপাল্লা থামার পরের নীরবতা, যেখানে শুধু বস্তুর ওজন পড়ার ক্ষীণ শব্দ থাকে।",
+      "বাজারী হাঁকের গাণিতিক বিশ্লেষণ: হাঁকটিকে কেবল আবেগ নয়, বরং একটি বারবার উচ্চারিত স্বর-ম্যাট্রিক্স হিসেবে উপস্থাপন করা যা বাজারের 'চাহিদা অ্যালগরিদম' তৈরি করে।",
+      "অর্থনৈতিক সম্পর্কের অলিখিত ভূগোল: ক্রেতা ও বিক্রেতার মধ্যে শারীরিক দূরত্ব বা স্থান বিন্যাস কীভাবে তাদের সামাজিক শ্রেণিবিন্যাসকে প্রতীয়মান করে।"
     ],
     "story_options": [
-      "setting: The dusty throat of a major crossing junction, at midday heat, desire: To isolate the pure metallic tone against the roar of engines and voices., obstacle: A competing sound—a persistent vendor's cry or a truck horn—that constantly attempts to swallow the bell’s note.",
-      "setting: The shadow cast by an ancient, overhanging banyan tree near the crossing, desire: To capture how the slight dampness of the leaves changes the quality and echo of the bell's ring., obstacle: The presence of children whose laughter or shouts momentarily distract from the focused attention on the sound.",
-      "setting: Near a specific, stationary point—a low wall or planter box along the road, desire: To observe the reaction of one single bystander (e.g., an elderly woman waiting for transport) to the repetitive sonic intrusion., obstacle: The driver's deliberate choice to ring the bell not for safety, but as a form of casual, almost performative assertion of presence."
+      "একটি বিশেষ মুহূর্ত যেখানে একজন অপেক্ষারত ক্রেতা তার প্রয়োজনীয় জিনিসের দিকে তাকানোর বদলে, পণ্য রাখা কাঠের তক্তাটির উপর জমে থাকা ধুলোর প্যাটার্ন অনুসরণ করতে থাকে।",
+      "বিক্রেতার হাত যখন মাল ওঠাতে বা রাখতে ব্যস্ত, তখন মুহূর্তের জন্য তার হাতের মধ্যেকার পেশীগুলোর স্থিতিস্থাপকতার সূক্ষ্ম টান অনুভূত হয়—ব্যথার চেয়েও গভীর কোনো শারীরিক ইতিহাস বহন করে।",
+      "এক অপ্রত্যাশিত 'ফ্রি' জিনিস দেওয়া—যা অর্থের পরিমাপকে এড়িয়ে গিয়ে কেবল একটি সামাজিক দায়বদ্ধতা পূরণের ভঙ্গিমা হিসেবে প্রকাশ পায়, এবং এই 'অ-লেনদেন' মুহূর্তটির ভার কেমন থাকে।"
     ],
     "subject_rotations": [
-      "Shifting focus from the *sound* itself to the object—the worn brass or metal of the bell and its mechanics (its weight, patina, wear patterns).",
-      "Treating the ringing as a sonic anchor for time: how it structures the flow of minutes at that specific point where light/shadow changes rapidly.",
-      "Exploring the *relationship* between the driver and the sound—is it necessity, habit, or defiance? This examines labor through its auditory signature."
+      "প্রথাগত লেনদেনের পরিবর্তে, পণ্যের গুণমান বা তার সতেজতার উপর ভিত্তি করে সম্পূর্ণ ভিন্ন এক ধরনের সামাজিক বিচার প্রতিষ্ঠা করা।",
+      "অর্থনৈতিক কার্যকলাপকে পরিবেশের সঙ্গে সংযোগ স্থাপনকারী একটি প্রক্রিয়া হিসেবে দেখা—যেমন বসার জায়গায় জমে থাকা আর্দ্রতা কীভাবে লেনদেনের গতিയെ প্রভাবিত করে।",
+      "লেনদেন নয়, বরং 'প্রস্তুতির' প্রক্রিয়ার উপর জোর দেওয়া: অর্থাৎ পণ্য সাজানো এবং হাঁক দেওয়ার প্রস্তুতি পর্বটিই যেন প্রধান কাব্যিক ক্ষেত্র।"
     ],
     "sensory_details": [
-      "The high-frequency metallic tang left in the air after a sharp ring (smell/taste)",
-      "The momentary visual blurring of dust particles illuminated by sun catching the bell's surface as it vibrates (sight)",
-      "The rhythmic, low thrumming felt through the driver’s hands when ringing rapidly against a backdrop of engine vibration (touch)"
+      "ধাতব ওজন মাপার যন্ত্রের শীতল, ভেজা স্পর্শ—যা আঙ্গুলের সামান্য আর্দ্রতা দ্বারা মুহূর্তেই উষ্ণ হয়ে ওঠে।",
+      "পণ্যগুলোর (যেমন মশলা বা সবজি) সূক্ষ্ম ভৌত গন্ধের স্তূপ—কোনটি তীব্র এবং কোনটি মৃদুভাবে বাতাসের গভীরে মিশে যায়।",
+      "দাঁড়িপাল্লার দোলনের ফলে সৃষ্ট কাঠের পাটাতনের কাঠকয়লার মতো চাপা, নিম্ন-ফ্রিকোয়েন্সির কম্পন যা সরাসরি পায়ে অনুভূত হয়।"
     ],
     "research_questions": [
-      "What specific types of vehicle traffic dominate this crossing that would most aggressively compete with or respond to the bell's signal?",
-      "Are there distinct regional variations in how/when rickshaw bells are traditionally used beyond basic navigation?"
+      "অসংগঠিত বাজারের 'বিশ্বাস' বিনিময়ের মাধ্যমে সম্পন্ন হওয়া লেনদেনের ক্ষেত্রে, কোন সূক্ষ্ম শারীরিক ইঙ্গিতগুলি আর্থিক চুক্তির কার্যকারিতা প্রমাণ করে?",
+      "বিভিন্ন ধরনের ক্ষুদ্র ও স্থানীয় দ্রব্যের (যা এই জগতে বিদ্যমান) নিজস্ব একটি স্বতন্ত্র 'গন্ধগত স্বাক্ষর' আছে কিনা যা কাব্যিক উপাদানে ব্যবহার করা যেতে পারে?"
     ],
     "structural_variants": [
-      "Employing a sustained, almost breathless line structure mirroring the continuous noise until the final, isolated ring.",
-      "Structuring the poem around an auditory echo chain: The bell rings -> Sound reflects off building A -> Reflected sound is muted by traffic B -> Final resonance captured."
+      "একটি প্রশ্ন-উত্তর কাঠামো অবলম্বন করা, যেখানে প্রতিটি লেনদেনকে একটি ছোট দার্শনিক দ্বিধা হিসেবে তুলে ধরা হবে।",
+      "ছন্দটিকে সম্পূর্ণভাবে দাঁড়িপাল্লার দোলনের গতির সঙ্গে বাঁধা—গতি বৃদ্ধি পেলে বাক্যগুলো দ্রুত এবং সংক্ষিপ্ত হয়, স্থবির হলে দীর্ঘ ও বিস্তৃত হয়ে ওঠে।"
     ],
     "unused_angles": [
-      "A study of the geometry created by the intersecting lines of travel at the crossing, with the ring serving as a momentary 'zero point' in that chaos.",
-      "Exploring how different forms of labor (the rickshaw puller vs. the taxi driver) use sound to carve out their space."
+      "লেনদেন প্রক্রিয়ার মাধ্যমে ক্রেতার ব্যক্তিগত আকাঙ্ক্ষা বা গোপন necessidade (unvoiced desire) কীভাবে প্রকাশ পায় যা পণ্যটির বাইরেও থাকে।",
+      "বাজারের প্রান্তিক অবস্থানে থাকা বর্জ্য পদার্থের (যেমন ফেলে দেওয়া পাতার স্তূপ, পড়ে যাওয়া বীজ) স্থিতিশীলতা এবং অর্থ লেনদেনের অস্থিরতাকে তুলনা করা।"
     ],
-    "variety_note": "Unlike poems focused on static objects or persistent rituals, this chapter focuses on kinetic energy captured through a specific, transient auditory marker in a high-traffic environment."
+    "variety_note": "অন্যান্য অধ্যায়গুলোতে ব্যক্তিগত বা সামাজিক 'প্রথা'র গভীর বিশ্লেষণ আছে; এই পর্বটি সরাসরি অর্থনৈতিক প্রক্রিয়ার সূক্ষ্ম যান্ত্রিকতা ও তার অন্তর্নিহিত মানবিক সম্পর্কের ওপর ফোকাস করবে, যা আภিমুখী না হয়ে আরও ভূ-কেন্দ্রিক হবে।"
   }
 }

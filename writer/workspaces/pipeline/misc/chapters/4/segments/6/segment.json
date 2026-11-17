@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "বিচ্ছিন্নতা ও সহাবস্থান",
+  "segment_summary": "It questions the boundary between being utterly alone and existing in deep, shared proximity with others.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "যাত্রীদের একে অপরের ওপরের ছায়ার মাধ্যমে সংযোগ স্থাপন—কোনো সরাসরি দৃষ্টি বিনিময় না করে শুধু ছায়ার আদানপ্রদানের উপর ফোকাস করা।",
+    "story_option": "একটি যাত্রীর শ্বাস-প্রশ্বাস বাসের ভেতরের বদ্ধ বাতাসের সঙ্গে মিশে একটি দৃশ্যমান, প্রায় ধোঁয়ার মতো আভা তৈরি করে (Breath Image/Twist), এবং এই আভাই নীরবতার একমাত্র বহিঃপ্রকাশ।",
+    "subject_rotation": "বাসটিকে একটি সাময়িক 'স্থানগত অভයভূমি' (Spatial Sanctuary) হিসেবে দেখা, যেখানে শহরের আগ্রাসী শব্দগুলো প্রবেশ করতে ভয় পায়।",
+    "sensory_detail": "জানালার কাঁচ ভেদ করে আসা দূরবর্তী রাস্তার আবছা, বিবর্ণ রং—যা যেন একটি দীর্ঘ অতীতকে ইঙ্গিত করছে।",
+    "research_question": "অপেক্ষার মানসিক চাপ কীভাবে শারীরিক স্থিরতাকে (যেমন অঙ্গভঙ্গী, হাতের অবস্থান) প্রভাবিত করে, সেই বিষয়ে কাব্যে ফুটিয়ে তোলার নতুন পথ কী?",
+    "structural_variant": "আবাসিক অংশগুলোর মধ্যে পরিবর্তন আনা: Segment 1-3 শারীরিক স্থিরতা নিয়ে, এবং Segment 4-8 মানসিক বা দার্শনিক অস্থিরতা নিয়ে লেখা।",
+    "variety_note": "Neighbouring chapters focused on tangible objects (chai glass, vermilion). This chapter isolates an intangible element—Silence—and explores its physics and psychology within a moving vessel."
+  }
+}

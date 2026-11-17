@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 33,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক ও মানবিক সংযোগ",
+  "segment_summary": "এই অধ্যায়টি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে না দেখে, এটিকে গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ হিসেবে তুলে ধরে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the waiting not as passive longing, but as a meticulous, almost obsessive, domestic ritual performed in stark contrast to the chaotic modern environment.",
+    "story_option": "Setting: A moment before dawn, when city noise is at its lowest ebb; Desire: For the quiet to allow the phantom sound of deep frying in ghee (a forgotten variation) to resonate; Obstacle: The internal clock demanding wakefulness for a non-existent purpose.",
+    "subject_rotation": "Treating the residual oil film not as a stain, but as a fragile membrane separating 'here' from 'there'.",
+    "sensory_detail": "The distinct prickle on the tongue where pure spice meets tasteless neutrality.",
+    "research_question": "How can the rhythm mimic the slow, almost geological process of flavor degradation over time?",
+    "structural_variant": "Using highly fragmented lines where each line is interrupted by a linguistic bridge to an entirely different sensory experience.",
+    "variety_note": "This chapter contrasts heavily with preceding segments by focusing entirely on post-consumption entropy—the afterglow, the residue, rather than the act of preparation or initial transit."
+  }
+}

@@ -1,7 +1,7 @@
 # Pipeline — fresco
 
 - **updated_by:** scaffold
-- **updated_date:** 2026-11-06T12:25:58Z
+- **updated_date:** 2026-11-16T12:32:21Z
 
 This folder is the live **poetry pipeline** for `fresco`. It is a self-contained snapshot: after scaffold, every later command (`enrich`, `filter`, `write`, `style`, `translate`, `publish`) reads and writes here and never falls back to `workspaces/backlog/fresco/`. If a file listed below is missing, the fix is a re-scaffold — not reading the backlog.
 
@@ -13,8 +13,8 @@ This folder is the live **poetry pipeline** for `fresco`. It is a self-contained
 | Form | `poetry` |
 | Poems scaffolded | 32 |
 | Word target per poem | 500 |
-| Style | `pijush` |
-| Execution mode (`factory`) | `online` |
+| Style | _not declared_ |
+| Execution mode (`factory`) | _unset — treated as `online`_ |
 
 ## Root files
 
@@ -22,7 +22,7 @@ This folder is the live **poetry pipeline** for `fresco`. It is a self-contained
 |---|---|
 | `book.json` | The authoritative plan for this pipeline: identity, `form`, `factory`, `chapter_count`, the `chapters[]` plan, `word_target`, `filter_chain`, and `quality_chain`. Cloned from the backlog and stamped `scaffold`. |
 | `progress.json` | Progress ledger: one entry per chapter with `status`, topic, and draft path. Updated by `write` and `publish`. |
-| `gist.md` | The seed premise: one-sentence gist, short expansion, author comment. |
+| `gist.md` | The seed premise: one-sentence gist, dense expansion (≥400 words total), author comment. |
 | `storyline.md` | The full narrative foundation (novel) or thematic grounding (poetry) — the source for chapter intent. |
 | `override.md` | The author's master prompt: mandated voice, diction rules, and craft directives. Exempt from audit stamping. |
 | `bookseed.md` | The book's vocabulary and phrase seed. `enrich` appends a derived lexicon block. Plain text; exempt from audit stamping. |
@@ -47,15 +47,16 @@ This folder is the live **poetry pipeline** for `fresco`. It is a self-contained
 | `history/` | Superseded `chapter.md` and model snapshots, written before anything overwrites the live draft. Immutable; never audit-stamped. |
 | `model.json` | Legacy chapter-model name. Still read when `chapter.json` is absent; scaffold does not create it for new pipelines. |
 
-### Segment layout (`chapters/<n>/segments/1/`)
+### Segment layout (`chapters/<n>/segments/<segment>/`)
 
-Every chapter owns at least one segment folder. Poetry always has exactly one (`1`).
+Every chapter owns at least one segment folder. Poetry creates the configured `segment_count` from the backlog plan (legacy plans default to one) and clones the layout's inline `segments[]` plan into `chapter.json` and each `segment.json`; enrichment layers poetic parameters on top.
 
 | Path | Significance |
 |---|---|
 | `segment.json` | Runtime state for this segment (level, state, chapter/segment index). |
 | `writer/` | Writer-stage output: the finished copy of the draft for this segment. |
 | `editor/` | Editor and review commentary, including content quality scores. |
+| `latest/` | The most recent finalized segment copy (latest reviewed output). |
 | `translator/` | Translated derivatives of the latest draft, named by language (`en.md`, `bn.md`, …). |
 | `version/` | Promoted snapshots of the segment's published output (`chapter_v<k>.md`). |
 

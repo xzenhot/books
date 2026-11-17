@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 31,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্বাদের বিচ্যুতি",
+  "segment_summary": "নাম বদলানো, তেল বদলানো—এই সমস্ত পরিবর্তন সত্ত্বেও, সেই মৌলিক স্বাদটি যেন এক অদৃশ্য রেখা টেনে বিচ্ছিন্ন হয়ে গেছে।",
+  "name": "4",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Narrating the entire segment from the perspective of a watchman or neighbor, overhearing the quiet moments of consumption and reflection.",
+    "story_option": "setting: A dimly lit corner stall in an unfamiliar city square at 3 AM., desire: The narrator desires to hear the specific sound of rain hitting unpaved earth (a memory), but only hears distant street noise., obstacle: The pervasive, synthetic hum of modern urban electricity replaces natural sonic cues.",
+    "subject_rotation": "Treating the 'void' not as an emotional state, but as a tangible negative space that requires physical effort (like stretching or reaching) to acknowledge.",
+    "sensory_detail": "Smell: The faint, acrid scent of old frying oil lingering in synthetic fabric linings.",
+    "research_question": "How can the cadence of a late-night watchman's monologue (low, repetitive) be maintained while sustaining high poetic diction?",
+    "structural_variant": "Adopting an a-b-a-b rhyme scheme within stanzas, but allowing near-misses in pronunciation to symbolize thematic slippage.",
+    "variety_note": "This chapter shifts focus inward from the external signs of cultural shift (like nomenclature or location) into the purely internal landscape of digestion and memory decay, using sonic fixation as its primary mechanism."
+  }
+}

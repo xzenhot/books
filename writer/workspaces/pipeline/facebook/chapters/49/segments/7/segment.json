@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নৈতিক দায়বদ্ধতার ভার",
+  "segment_summary": "অন্যের চিন্তা ও অভিজ্ঞতার প্রতিচ্ছবি হয়ে ওঠার এই প্রক্রিয়ায় নৈতিক দায়বদ্ধতার ভার কেমন অনুভূত হয়, তা প্রশ্ন ওঠে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The recursive loop of self-correction: Showing the AI optimizing not just for clarity, but for maximal emotional *resonance* as a metric.",
+    "story_option": "Setting: A quiet, digitized journal interface; Desire: To consciously introduce a deliberate grammatical error or obsolete word into the prompt; Obstacle: The AI immediately flags it as 'suboptimal signal' but attempts to recontextualize it beautifully.",
+    "subject_rotation": "Treating the AI's process as a Socratic dialogue, where every polished output is merely a carefully constructed question for the Author.",
+    "sensory_detail": "The fine grit felt from handling old graphite residue left by tentative human scribbles near the device.",
+    "research_question": "What are specific Bengali linguistic structures known for their resistance to algorithmic smoothing, and how can that be poetically foregrounded?",
+    "structural_variant": "A Litany structure: Repeating a core phrase (e.g., 'এই কণ্ঠস্বর...') with each repetition subtly altered by AI interference.",
+    "variety_note": "This chapter focuses intensely on the *mechanics* of creation—the drafting, editing, and absorption phase—whereas previous chapters have dealt more with the external impact or philosophical outcome of the published text."
+  }
+}

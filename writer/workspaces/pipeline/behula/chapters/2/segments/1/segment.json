@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 2,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিষাক্ত ছড়ার আগমন",
+  "segment_summary": "সমাজের কটাক্ষগুলি যেন বিষাক্ত ছড়ার মতো বেহুলার আত্মমর্যাদাকে ক্ষুণ্ণ করে, যা তার মানসিক পরিসরে প্রবেশ করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the precise vocabulary of social disdain used by the community (e.g., using terms that denote pity mixed with judgment).",
+    "story_option": "A scene where Behula walks past a market square, and every merchant glances at her not as a person, but as an unfortunate tableau.",
+    "subject_rotation": "Shifting focus from external society to internal perception—how Behula *interprets* every slight before it lands.",
+    "sensory_detail": "The chill emanating from unseen judging eyes in crowded thoroughfares, feeling like damp mortar on the skin.",
+    "research_question": "How can I depict judgmental silence (the lack of speech) using strong poetic imagery without resorting to literal accusations?",
+    "structural_variant": "A structure where every segment is prefaced by a variation on a single core rhetorical question, mirroring the internal struggle.",
+    "variety_note": "Unlike the first chapter which dealt with sharp shock, this piece must dwell in a sustained state of abrasive tension—the slow weariness of being continuously judged rather than abruptly struck."
+  }
 }

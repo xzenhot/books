@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলো-ছায়ার স্থিরতা",
+  "segment_summary": "জীবনের উত্থান-পতন সত্ত্বেও, তার ভেতরের মানবিক আলো স্থির থাকে, যা তাকে পথ দেখায়।",
+  "name": "6",
+  "word_target": 100,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on Silence as Communication: Emphasizing that the river's 'answer' is not a grand philosophical statement but the mundane, persistent sound of oars hitting water.",
+    "story_option": "Setting: Approaching a silent stretch of river bank where no modern structure exists, Desire: To find an anonymous witness (a solitary heron or old fisherman) who confirms his unspoken belief system. Obstacle: The witness refuses to acknowledge him.",
+    "subject_rotation": "The subtle beauty found in 'Necessary Compromise': Acknowledging that survival requires minor adjustments, but never core betrayal.",
+    "sensory_detail": "The specific, low-frequency hum made by large hidden submerged rocks against the hull.",
+    "research_question": "How can the concept of 'spiritual persistence' be evoked using only concrete imagery related to Bengal's geography (mud, reeds, slow erosion)?",
+    "structural_variant": "Alternating between highly lyrical, almost abstract passages describing philosophy and starkly factual lines recounting physical labor.",
+    "variety_note": "Unlike previous, more action-oriented segments, this chapter focuses entirely on the internal resonance following conflict; it is about sustaining belief rather than winning a battle."
+  }
+}

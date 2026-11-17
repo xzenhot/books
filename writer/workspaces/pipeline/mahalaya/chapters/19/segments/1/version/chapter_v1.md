@@ -1,8 +1,8 @@
-# অনিশ্চিত দিগন্তের দিকে দৃষ্টি
+# মহালয়া: এর কবিতা
 
 ## Workshop
 
-এই পর্বটি মহালয়ার পবিত্র অভিজ্ঞতার সমাপ্তির পর ভবিষ্যতের দিকে এক অনিশ্চিত দৃষ্টি নিক্ষেপ করে। অর্ণব এবং শ্রেয়ার ভেতরের পরিবর্তনগুলি, যা এই বার্ষিক জাগরণের মাধ্যমে ঘটেছে, তা এখন বাস্তবতার ধূসরতার মুখোমুখি হতে চলেছে। তারা বুঝতে পারে যে মহালয়ার ক্ষণস্থায়ী আলোয় পাওয়া শান্তি দৈনন্দিন জীবনের কাঠামোর মধ্যে সহজে স্থান করে নিতে পারবে না। এই অধ্যায়টি প্রশ্ন তোলে— এই পবিত্র মুহূর্তের বীজ কি দৈনন্দিন জীবনের কঠিন মাটিতে অঙ্কুরিত হতে পারবে, নাকি তা কেবল একটি সুন্দর, কিন্তু ক্ষণস্থায়ী অলীক স্বপ্ন হয়ে মিলিয়ে যাবে?
+Since the provided epic only contains 15 chapters, Chapter 19 is a conceptual extension, focusing on the ultimate resonance of the Mahalaya experience. This chapter explores the lingering echo of the sacred light after the festival's peak, examining the tension between profound spiritual realization and the mundane demands of daily life. The imagery centers on the fading glow of the dawn and the persistent scent of incense, questioning whether the internal transformation achieved can survive the return to the world's gray routine. The central conflict remains: can the soul carry the divine spark into the ordinary?
 
 ## Story
 

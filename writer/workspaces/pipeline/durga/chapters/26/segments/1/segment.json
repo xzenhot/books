@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 26,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "Echoes on the Water's Edge",
+  "segment_summary": "The chapter begins by lingering on the aftermath of the immersion, where the water absorbs the clay, symbolizing the temporary dissolution of the divine form.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Tracing the 'thread' metaphor: How the initial water absorption (Segment 1) links to the olfactory trace (Segment 2), which becomes the structural continuity in Segment 8.",
+    "story_option": "A young woman meticulously collecting the smallest, water-soaked clay particles from the riverbank (Setting) driven by a quiet compulsion to retain 'evidence' of the divine passage (Desire), facing the local community’s insistence on simply washing it away without looking closely (Obstacle/Turn).",
+    "subject_rotation": "Focusing entirely on time's viscosity: How is the passing of days between immersion and next autumn felt—is it a void, or highly compressed potential?",
+    "sensory_detail": "Sound: The distinct, hollow sound of a single dry *কাশফুল* stalk being crushed underfoot after the festival ends.",
+    "research_question": "What are contemporary Bengali poetic metaphors used to describe 'cyclical persistence' when the mythological framework is intentionally dissolved?",
+    "structural_variant": "A highly cyclical structure: Ending Segment 8 by echoing a phrase used in Segment 1, but completely inverted or nuanced.",
+    "variety_note": "This chapter avoids large crowd scenes, focusing instead on deeply intimate aftermaths: the water, the scent trail, and the internal landscape of anticipation, offering a quiet counterpoint to earlier descriptions of grand societal gatherings."
+  }
 }

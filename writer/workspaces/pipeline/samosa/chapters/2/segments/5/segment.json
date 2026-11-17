@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ভার বহনকারী যাত্রা",
+  "segment_summary": "এই যাত্রা কেবল শারীরিক নয়; এটি স্মৃতির ভার বহন করার এক নীরব প্রক্রিয়া, যেখানে প্রতিটি পদক্ষেপ অতীতের প্রতি এক ধরনের নীরব আনুগত্য প্রকাশ করে।",
+  "name": "2.5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting perspective to an inanimate object (the dust/wind itself) narrating its encounter with the residual flavor memory.",
+    "story_option": "Setting: A desolate stretch of border road (metaphorical); Desire: To re-calibrate the tongue to a 'home dialect' of taste; Obstacle: Constant bombardment by loud, unfamiliar city sounds; Turn: Accepting the noise as a permanent companion to the quiet memory.",
+    "subject_rotation": "Treating the 'taste' not as absence, but as an overpowering phantom sensation that distorts perception of reality around it.",
+    "sensory_detail": "The grainy grit (dhul) feeling lodged beneath the fingernails from a journey too long and dry.",
+    "research_question": "How can I phrase the transition from the specific 'sorsher tel' (mustard oil) scent to a generalized, odorless 'departure' without resorting to cliché?",
+    "structural_variant": "Employing stanzas that cyclically return to the physical action of swallowing/chewing, while the mental landscape shifts outwards.",
+    "variety_note": "Where Chapter 1 focused on the perfect composition at home (the start), this chapter shifts to the disintegration process during transit and arrival; it is defined by absence rather than presence."
+  }
+}

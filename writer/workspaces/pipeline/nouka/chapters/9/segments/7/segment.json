@@ -4,19 +4,19 @@
   "chapter_index": 9,
   "segment_index": 7,
   "total_segments": 8,
-  "segment_title": "ভাষায় রাখা ভূগোল",
-  "segment_summary": "যে ভাষায় ভূগোল মনে রাখা হতো, তাকে বাঁচাবে কে; কবিতা এই দায়কে সম্প্রদায়ের প্রশ্ন হিসেবে দেখে।",
-  "name": "7",
-  "word_target": 500,
+  "segment_title": "মানবিকতার মূল্য",
+  "segment_summary": "গোপাল প্রশ্ন করে—অর্থের পরিমাপক দ্বারা কি মানবিক সম্পর্কের গভীরতা এবং নিঃস্বার্থ উদারতার মূল্য নির্ধারণ করা সম্ভব?",
+  "name": "9.7",
+  "word_target": 60,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Framing the loss not as a visible map change, but as an auditory erasure—the silence where old names used to echo during specific river noises.",
-    "story_option": "Setting: A newly straightened section of river under early morning mist; Desire: Gopal navigates it feeling disorientation and fear as he seeks a familiar turning point that is absent; Obstacle: The engineered banks offer no recognizable landmarks, only identical walls.",
-    "subject_rotation": "Treating geography as a living text—the river's body as literature that is being censored or redacted by infrastructural bureaucracy.",
-    "sensory_detail": "The slick, unnatural smoothness of polished stone used for modern pier abutments contrasted against the porous grain of weathered wooden pilings.",
-    "research_question": "What specific Bengali colloquialisms describe subtle variations in water current or bank erosion that an engineer would dismiss as 'normal fluctuation'?",
-    "structural_variant": "A fragmented structure where each segment begins with a different geographical term (e.g., 'চর', 'বাঁক', 'ঘাট') before moving into the philosophical digression.",
-    "variety_note": "This chapter contrasts sharply with the 'Diesel Sound' (Ch. 7) by focusing inward on memory and language rather than outward on noise pollution; it explores cultural entropy through geography instead of sonic invasion."
+    "angle": "নদীর জলকে একটি চলমান নথিপত্র হিসেবে দেখানো যেখানে স্রোতের গতিপথ সময়ের ফ্রেমে নথিভুক্ত হয় এবং গোপালের সিদ্ধান্ত তার পরের পাতায় লেখা হবে।",
+    "story_option": "সেটিং: কুয়াশাচ্ছন্ন ভোরে নদীর কিনারে; আকাঙ্ক্ষা: গোপাল একটি পুরনো, মরিচা পড়া কাঠের নোঙর ধরে আছেন যা অতীতের স্থিরতাকে প্রতীকায়িত করে; বাধা: নতুন ড্রেজিংকারী জাহাজের বিশাল ছায়া অবিরাম এগিয়ে আসছে।",
+    "subject_rotation": "এই পর্বকে পুরোপুরি 'শ্রবণজনিত অসমতা'র উপর জোর দিয়ে লেখা—নদীর প্রাকৃতিক শব্দ এবং যান্ত্রিক আওয়াজ কিভাবে মানুষের অন্তঃস্থ গানকে চাপা দিচ্ছে, সেই ধ্বনিগত সংগ্রামটিকে প্রধান চালিকাশক্তি হিসেবে রাখা।",
+    "sensory_detail": "দূর থেকে ভেসে আসা ইঞ্জিনের শব্দ যা কেবল কান নয়, বরং নৌকার কাঠামোর গভীরে কম্পন সৃষ্টি করে অনুভূত হয় (শ্রবণ)।",
+    "research_question": "ভাটিয়ালি গানে ব্যবহৃত কোন নির্দিষ্ট শব্দগত বৈশিষ্ট্য আধুনিক শিল্প পরিভাষায় প্রতিস্থাপিত হওয়ার সর্বোচ্চ ঝুঁকিতে রয়েছে এবং সেই শব্দের ধ্বনিগত মান কী?",
+    "structural_variant": "এক-তৃতীয়াংশ অংশ শুধুমাত্র ইঞ্জিনের শব্দ এবং ধাতব চিত্রের উপর কেন্দ্রীভূত করা, যেখানে মানবিক উপস্থিতি অনুপস্থিত থাকবে; বাকি দুই-তৃতীয়াংশে গোপালের অভ্যন্তরীণ monologue আসবে।",
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী শান্ত চিত্রকল্প থেকে সরে এসে তীব্র অভ্যন্তরীণ দ্বন্দ্বে প্রবেশ করে। এটি কেবল বাইরের সংঘাত নয়, বরং কাঠামোগতভাবে দুটি বিপরীত প্রবাহের মধ্যে গোপালের মনোজগৎকে আটকে রাখার চেষ্টা।"
   }
 }

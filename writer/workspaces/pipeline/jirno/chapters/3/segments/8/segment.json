@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "সীমার উপলব্ধি",
+  "segment_summary": "পথিক অবশেষে উপলব্ধি করে যে তার অনুসন্ধান কেবলই এক ধরনের নিয়ন্ত্রণ আরোপের প্রচেষ্টা, যা এই মাটির স্বতঃস্ফূর্ততাকে অস্বীকার করে।",
+  "name": "3.8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A dialogue where the Satual elder speaks not in words but through ritualistic gesture or agricultural practice involving soil or seeds.",
+    "story_option": "Setting: The threshing floor outside the ruins during the dry season; Desire: To articulate a unified history for the manor's fall; Obstacle: A sudden downpour washing away any legible markings on ancient stones; Turn: The community focuses entirely on protecting their crops from the flood, rendering historical debate moot.",
+    "subject_rotation": "Shifting focus from 'Savior Complex' to the exhaustion felt by the community witnessing repeated outsider interventions.",
+    "sensory_detail": "Sound of dry grasses rustling rhythmically as if whispering a shared, ancient language.",
+    "research_question": "How do indigenous belief systems classify decaying human structures versus natural decay?",
+    "structural_variant": "A rapid-fire montage structure contrasting the traveler's frantic questioning with the elders' slow, deliberate movements.",
+    "variety_note": "This chapter shifts away from pure anthropological observation towards a confrontation with geological and biological time, contrasting heavily with the immediate political focus of neighbours."
+  }
+}

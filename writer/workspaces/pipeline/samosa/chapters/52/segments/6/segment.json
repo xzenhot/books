@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 52,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির রাসায়নিক সূত্র",
+  "segment_summary": "এই কাব্যিক অনুসন্ধানটি দেখায় যে, স্বাদ কেবল একটি রাসায়নিক যৌগ নয়, এটি স্মৃতি ও আবেগের একটি জটিল নিউরাল সংযোগ।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the act of choosing an oil as an existential choice between maintaining authentic memory or achieving consumable functionality.",
+    "story_option": "Setting: Holding a single, unlit wick or burner (representing old cooking apparatus); Desire: To reignite the specific fire/heat that unlocks the true flavor profile; Obstacle: The required fuel seems insufficient for such elemental revival.",
+    "subject_rotation": "Using the concept of 'sedimentation' (of flavor) as a geological process reflecting cultural drift, where one element settles while another washes away.",
+    "sensory_detail": "Tactile: The difference between a rough, almost prickly coating sensation versus total slick uniformity on the palate.",
+    "research_question": "What are specific colloquial Bengali descriptors for 'flavor that is fundamentally correct but emotionally incomplete'?",
+    "structural_variant": "Structuring the poem entirely around antithesis, using parallel couplets that oppose 'Sorsher' vs. 'Neutral', 'Jhal' vs. 'Nishchipto'.",
+    "variety_note": "This chapter delves deeply into the chemistry and sensory science of flavor loss, moving beyond simple geographical displacement by isolating 'oil' as the primary vehicle for cultural memory decay, unlike neighboring chapters focusing on the whole food item or broader market exposure."
+  }
+}

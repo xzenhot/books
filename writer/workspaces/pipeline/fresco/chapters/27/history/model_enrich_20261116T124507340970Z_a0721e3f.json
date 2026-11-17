@@ -1,0 +1,79 @@
+{
+  "chapter_index": 27,
+  "name": "27",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scars of Expression",
+  "chapter_summary": "This chapter delves into the core philosophical conflict: the tension between the societal demand for a polished, acceptable image and the raw, necessary struggle of authentic creation. Debolina confronts the idea that true art must bear the marks of its making—the invisible sacrifices, the failures, and the internal battles. The imagery centers on the fissures in the ancient frescoes, mirroring the cracks in her own carefully constructed composure. The central question remains: Can art achieve immortality if it is not allowed to show its wounds?",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Canvas of Imperfection",
+      "segment_summary": "The initial focus is on the physical state of the frescoes, where every crack and faded pigment serves as a metaphor for the artist's own internal fracturing.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "The Weight of the Scaffold",
+      "segment_summary": "The physical labor—the scaffolding, the lime, the weight of expectation—is examined as the tangible manifestation of societal pressure on the creator.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "Lapis and the Night's Truth",
+      "segment_summary": "The chemical glow of the lapis under lamplight is contrasted with the darkness, symbolizing the illumination of difficult truths during solitary work.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "Musk and the Intrusion of Self",
+      "segment_summary": "The scent of the passing stranger is analyzed not as mere distraction, but as a catalyst forcing Debolina to confront her own desires against her disciplined artistic focus.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "Mirroring the Void",
+      "segment_summary": "The painted figures are seen as reflections of her own unexpressed pain, where the beauty of the depiction masks a profound, silent emptiness.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "The Act of Self-Imprint",
+      "segment_summary": "Debolina consciously chooses to incorporate her own vulnerability into the work, moving beyond mere depiction to active self-disclosure through pigment.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Whisper of Convention",
+      "segment_summary": "The external voices of societal expectation are addressed, not as a barrier to be smashed, but as a constant, low-frequency hum against which her creation must resonate.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Endurance of the Scar",
+      "segment_summary": "The chapter concludes by asserting that the scars—the visible evidence of struggle—are what grant the fresco its ultimate, undeniable authenticity and enduring power.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

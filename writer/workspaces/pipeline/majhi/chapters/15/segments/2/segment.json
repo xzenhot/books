@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "বাঁধের বিপরীতে প্রবাহ",
+  "segment_summary": "নদীর উপর নির্মিত সমস্ত কাঠামো এবং অর্থনৈতিক চাপ তার ভেতরের মুক্ত স্রোতকে থামাতে ব্যর্থ হয়।",
+  "name": "2",
+  "word_target": 100,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Refusal of Consolation: The final lines undermine the quiet hope built in the preceding segments, suggesting the weight or uncertainty remains.",
+    "story_option": "Setting: Inside his boat, moored at dusk after a difficult journey, Desire: To hear one last, unsung snippet of Bhatiyali song that embodies unquantifiable value. Obstacle: Only the relentless sound of insects and water dripping remains.",
+    "subject_rotation": "Examining the concept of 'Unpaid Debt' through a purely ecological lens—what does the river demand from sustained human connection?",
+    "sensory_detail": "The taste of river silt mixed with faint traces of coal smoke from a distant passing vessel.",
+    "research_question": "How can the concept of 'spiritual persistence' be evoked using only concrete imagery related to Bengal's geography (mud, reeds, slow erosion)?",
+    "structural_variant": "Alternating between highly lyrical, almost abstract passages describing philosophy and starkly factual lines recounting physical labor.",
+    "variety_note": "Unlike previous, more action-oriented segments, this chapter focuses entirely on the internal resonance following conflict; it is about sustaining belief rather than winning a battle."
+  }
+}

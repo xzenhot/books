@@ -1,7 +1,7 @@
 # Pipeline — haveli
 
 - **updated_by:** scaffold
-- **updated_date:** 2026-11-13T12:44:36Z
+- **updated_date:** 2026-11-16T14:15:29Z
 
 This folder is the live **poetry pipeline** for `haveli`. It is a self-contained snapshot: after scaffold, every later command (`enrich`, `filter`, `write`, `style`, `translate`, `publish`) reads and writes here and never falls back to `workspaces/backlog/haveli/`. If a file listed below is missing, the fix is a re-scaffold — not reading the backlog.
 
@@ -56,6 +56,7 @@ Every chapter owns at least one segment folder. Poetry creates the configured `s
 | `segment.json` | Runtime state for this segment (level, state, chapter/segment index). |
 | `writer/` | Writer-stage output: the finished copy of the draft for this segment. |
 | `editor/` | Editor and review commentary, including content quality scores. |
+| `latest/` | The most recent finalized segment copy (latest reviewed output). |
 | `translator/` | Translated derivatives of the latest draft, named by language (`en.md`, `bn.md`, …). |
 | `version/` | Promoted snapshots of the segment's published output (`chapter_v<k>.md`). |
 

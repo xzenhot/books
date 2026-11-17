@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 52,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের প্রতিধ্বনি",
+  "segment_summary": "তার অবিচল সংকল্পের প্রতিধ্বনি যেন সমগ্র সমাজের নীরব আর্তনাদকে উচ্চস্বরে ঘোষণা করে, যা পরিবর্তনের বীজ বপন করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the reunion less as a triumphant merger and more as two profoundly scarred entities finding a fragile equilibrium amidst societal memory.",
+    "story_option": "Setting: Beneath an ancient, petrified banyan tree on the periphery of the domestic space; Desire: To witness a cyclical return mirroring her own journey (a timeless echo); Obstacle: The memory of divine judgment remains palpable in the humid air.",
+    "subject_rotation": "Reframing the societal critique not as an external judgment, but as a deeply internalized narrative pattern within her own consciousness.",
+    "sensory_detail": "A specific olfactory memory—the sharp, clean scent of rare mountain sage mixed with old woodsmoke, clinging to his worn shawl (olfactory).",
+    "research_question": "How can I articulate a Bengali metaphor for 'fortitude that defies entropic decay' without invoking overly common religious imagery?",
+    "structural_variant": "A continuous stream-of-consciousness structure where the present reunion constantly collapses into flashbacks of previous struggles.",
+    "variety_note": "This chapter focuses heavily on the aftermath—the texture of *being* together after extreme separation, rather than documenting the preceding trials; it embraces subtlety over declarative heroism."
+  }
+}

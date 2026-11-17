@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 34,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন অনুরণন",
+  "segment_summary": "কবিতাটি শেষ হয় সেই অস্পষ্ট, কিন্তু গভীর অনুরণন দিয়ে, যা হারানো স্বাদের প্রতি এক নীরব, কিন্তু শক্তিশালী স্বীকৃতি বহন করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting a forensic, almost scientific examination of the empty space in the stomach/memory to locate the missing flavor molecule.",
+    "story_option": "Setting: Inside a heavily insulated storage container ('packet') filled with imported goods; Desire: To trap and replicate the precise ambient humidity of an old Dhaka kitchen; Obstacle: The sterile, inorganic nature of modern transport.",
+    "subject_rotation": "Re-framing the void not as absence, but as latent potential—the possibility of a flavor that could exist outside of physical matter.",
+    "sensory_detail": "Touch: The sensation of clinging oil residue on the fingertips that resists washing away with simple water or soap.",
+    "research_question": "How can the rhythm be manipulated to mimic the slow, almost geological process of flavor fading from the palate?",
+    "structural_variant": "Using stanzas that build in density (more intense lexicon) and then abruptly empty out, mirroring the flavor dissipating.",
+    "variety_note": "Unlike its neighbours which focus on the preparation (beginning) or geographical separation, this chapter concentrates solely on the *aftermath* and the philosophical implication of that residue."
+  }
+}

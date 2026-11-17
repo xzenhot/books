@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 37,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার স্থবিরতা",
+  "segment_summary": "এই অসমাপ্ত স্বাদটি এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক, যা নিখুঁত সিঙ্গাড়াটির জন্য নিরন্তর অপেক্ষা করে চলেছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the search for flavor not as nostalgic yearning, but as a desperate cartographic attempt—mapping intangible terroir onto concrete foreign geography.",
+    "story_option": "Setting: A high-speed journey past blurred industrial landscapes, Desire: To project the entire memory/taste onto the passing visual blur until the form breaks down into pure chromatic sensation., Obstacle: The relentless, indifferent speed of modern transit.",
+    "subject_rotation": "Exploring the taste decay through an anthropological lens—how does 'exile-taste' become its own distinct culinary anthropology?",
+    "sensory_detail": "The phantom warmth radiating from an empty vessel that was recently hot.",
+    "research_question": "What are precise Bengali lexicon descriptors for 'lingering absence' when applied to a gustatory experience?",
+    "structural_variant": "Employing an initial, very short burst of highly dense language (hyper-saturation) immediately followed by a long, sparse section dedicated only to silence/void.",
+    "variety_note": "Unlike previous chapters which focused on the material transfer or geographical shift, this chapter zeroes in entirely on the internal, post-ingestion phenomenology—the residue within consciousness itself."
+  }
+}

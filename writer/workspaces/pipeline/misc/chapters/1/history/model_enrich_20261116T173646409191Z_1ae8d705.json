@@ -1,0 +1,79 @@
+{
+  "chapter_index": 1,
+  "name": "1",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 1",
+  "chapter_summary": "This opening chapter establishes the core observational lens of the collection, focusing intensely on the overlooked particulars of daily Indian life. The central conflict is the tension between the vast, epic scale of Indian history and the fragile weight carried by the smallest, most mundane moments. Imagery revolves around the sweating chai glass on a railway platform, symbolizing transient intensity and spontaneous existence. The chapter leaves the reader questioning whether the nation's true essence resides in its monumental achievements or in the quiet, enduring tenderness found within these fleeting minutes.",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 62,
+      "segment_title": "Platform's Sweat",
+      "segment_summary": "The chai glass, beaded with condensation, sits against the harsh backdrop of the railway platform, embodying ephemeral life.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 62,
+      "segment_title": "Heat and Transit",
+      "segment_summary": "The steam rising from the chai mixes with the dust-laden air, a momentary cloud against the relentless movement of the trains.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 62,
+      "segment_title": "The Observer's Gaze",
+      "segment_summary": "The observer fixes their attention not on the departing giants, but on the slow, patient drip from the glass.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 62,
+      "segment_title": "Weight of the Minute",
+      "segment_summary": "This small condensation holds the weight of countless journeys, a microcosm of societal endurance.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 62,
+      "segment_title": "Ritual in Transit",
+      "segment_summary": "Even in this transient space, there is a small, ingrained ritual—the pause before the next rush.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 62,
+      "segment_title": "Dust and Warmth",
+      "segment_summary": "The warmth of the liquid meets the cool, gritty reality of the platform floor.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 62,
+      "segment_title": "The Unseen Narrative",
+      "segment_summary": "The glass itself becomes a silent narrator, speaking of hurried departures and lingering waits.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 62,
+      "segment_title": "Question of Scale",
+      "segment_summary": "If the nation is built from these droplets, what is the true measure of its soul?",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

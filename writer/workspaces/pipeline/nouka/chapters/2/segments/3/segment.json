@@ -4,19 +4,19 @@
   "chapter_index": 2,
   "segment_index": 3,
   "total_segments": 8,
-  "segment_title": "মানচিত্রহীন পথ",
-  "segment_summary": "নদী গোপালের কাছে মানচিত্র নয়, এক শ্বাস-প্রশ্বাস নেওয়া জীবন্ত সত্তা; কবিতা নদীকে চেনাকে নদীকে ভালোবাসার প্রথম পাঠ হিসেবে দেখে।",
+  "segment_title": "যাত্রীর নীরবতা",
+  "segment_summary": "যাত্রীদের নীরব উপস্থিতি এবং তাদের নিঃশব্দ নির্ভরতা গোপালের উদারতার প্রতিধ্বনি বহন করে।",
   "name": "3",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "The boat (nouka) acting as a temporary anchor point where human perception struggles to reconcile the river's organic chaos with mapping conventions.",
-    "story_option": "Observing a child in the village watching the boat pass and mimicking the pull of the oar, embodying an intuitive connection before formalized geography.",
-    "subject_rotation": "Contrasting the slow, sedimentation-driven time scale with the rushed, linear measurement implied by modern engineering.",
-    "sensory_detail": "The deep, resonant *thrum* of water displacement as Gopal moves through an eddy rather than just cutting it.",
-    "research_question": "How does the local Bengali vocabulary describe the difference between 'flow' (movement) and 'body' (structure/being) in relation to a large river?",
-    "structural_variant": "A cyclical structure mirroring the flow—where each segment begins with an image drawn from the end of the previous one, forming a continuous eddy.",
-    "variety_note": "This poem drills down into the intrinsic nature of the river itself—its physical reality and its inherent contradictions—before touching upon human imposition (as in later chapters)."
+    "angle": "Framing Gopal not just as generous, but as inherently *dependent* on this unspoken contract to define his own humanity against impending erasure.",
+    "story_option": "A near-collision with another vessel—a modern one—where the brief shared moment forces an unspoken acknowledgment between worlds before they separate.",
+    "subject_rotation": "Focusing less on Gopal's giving and more on the subtle, inherited obligation of the people to honor his vessel.",
+    "sensory_detail": "The oily sheen on the patches of wood where generations of hands have gripped the oars.",
+    "research_question": "What is the specific, local Bengali nomenclature for this unwritten social obligation aboard a river vessel?",
+    "structural_variant": "A cyclical structure where the narrative always returns to a single point on the boat—a worn patch of wood or a particular passenger’s silhouette.",
+    "variety_note": "This chapter deepens the internal, human contract established in the first poem, focusing intently on stillness and unspoken commitment rather than initiating conflict or establishing setting."
   }
 }

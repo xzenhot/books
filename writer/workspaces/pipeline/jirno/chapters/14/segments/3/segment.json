@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "কাঠামোর ভাঙন",
+  "segment_summary": "এই নীরব উপলব্ধিটি পথিকের সমস্ত নাগরিক কাঠামো, তার সংরক্ষণবাদী আকাঙ্ক্ষা এবং তার আরোপিত ব্যাখ্যাকে ভেতর থেকে ভেঙে দিতে শুরু করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the moment not as a choice between two paths (preserve/let go), but the realization that *both* are constructs of the self, leading to a third, unnameable state.",
+    "story_option": "Setting: Inside the mouth of a collapsed doorway facing the field; Desire: To let his entire body feel the immense weight of 'unsaid history'; Obstacle: His own carefully maintained sense of cultural importance resists this total surrender, causing physical tension.",
+    "subject_rotation": "Re-centering the focus on the unspoken dialogue of entropy: how the slow disintegration speaks a more profound truth than any grand narrative ever could.",
+    "sensory_detail": "Sound: Not noise, but the perceived vibration—a low-frequency resonance felt deep in the bone marrow rather than heard by the ear.",
+    "research_question": "Are there concrete descriptions in Bengali describing the feeling when one accepts that mastery over nature/time is an illusion?",
+    "structural_variant": "A shift from declarative segments (statements of understanding) to highly fragmented, interrogative bursts, suggesting breakdown rather than resolution.",
+    "variety_note": "This chapter diverges from its neighbors by focusing inward on the traveler’s *internal collapse* rather than outward onto environmental action, using the Satual gaze as a mirror for dissolution."
+  }
+}

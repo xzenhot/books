@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "তার ব্যক্তিগত ট্র্যাজেডি সমষ্টিগত প্রেরণা হয়ে ওঠে, যা নিপীড়িত আত্মার প্রতিধ্বনি বহন করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the physiological transformation: how prolonged ordeal alters the very resonance or timbre of one's breath upon reconnection.",
+    "story_option": "Setting: Near a small domestic fire (প্রদীপ); Desire: To watch the flame stabilize after years of frantic, inconsistent flickering; Obstacle: The shadow of societal judgment cast momentarily by an unseen observer outside the frame.",
+    "subject_rotation": "Treating the returning husband not as savior, but as co-survivor whose own spiritual erosion mirrored her battles.",
+    "sensory_detail": "The surprising warmth radiating from an object long held at a distance (e.g., a worn wooden bowl) upon its return into close proximity.",
+    "research_question": "Can I find an elevated Bengali metaphor for 'tested fortitude' that suggests rigidity without implying final stillness?",
+    "structural_variant": "A spiral structure, where each segment begins by referencing a detail from the previous one, but reversing its emotional weight.",
+    "variety_note": "This chapter pivots entirely away from external conflict towards internal resolution; unlike neighbours focusing on the struggle itself, this sequence focuses intensely on the *residue* and the *new equilibrium* that follows ultimate overcoming."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আত্ম-নিয়ন্ত্রণের পতন",
+  "segment_summary": "তার সমস্ত প্রচেষ্টা, যা ছিল নিয়ন্ত্রণের আকাঙ্ক্ষা, তা এই বিশাল, উদাসীন প্রকৃতির সামনে অর্থহীন প্রমাণিত হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the central conflict (Preservation vs. Decay) not as an intellectual debate, but as a sustained physical ache within the traveler’s body, where every instinct pulls in opposite directions.",
+    "story_option": "Setting: Standing before a threshold gap in the crumbling wall; Desire: To force one foot across, symbolically crossing the boundary into pure nature; Obstacle: The dust proves too deep to take a firm step.",
+    "subject_rotation": "Focusing the entire chapter not on the decision *made*, but entirely on the unbearable weight of the moment *before* the decision, dwelling in pure liminality.",
+    "sensory_detail": "Sight: The specific way the last sliver of metallic-orange light catches the minute hairs on the traveler's forearm during prolonged inaction.",
+    "research_question": "What archaic Bengali poetic descriptions exist for the precise sensation of 'impending cessation' or irreversible transition?",
+    "structural_variant": "A cyclical structure where each segment ends with a question posed to himself, mirroring the preceding segment’s answer.",
+    "variety_note": "Unlike earlier chapters that built towards conflict (awakening, storm), this chapter dwells entirely in the tense, static aftermath of escalating tension, using internal bodily sensation as the primary narrative driver."
+  }
+}

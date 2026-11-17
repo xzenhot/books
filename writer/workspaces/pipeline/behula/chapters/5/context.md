@@ -10,17 +10,224 @@
 
 ## word_target
 
-280
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-লোকাচারের শৃঙ্খল ভাঙার স্পর্ধা
+প্রতিদ্বন্দ্বিতার আবহে নিজের অবস্থান ধরে রাখা
 
 ## chapter_summary
 
-যে শাস্ত্র বিধবাকে এক কোণে বন্দি রাখতে চায়, বেহুলা সেই সামাজিক অনুশাসন চূর্ণ করে স্বামীর গলিত শব নিয়ে অনির্দিষ্ট পথে পা বাড়ানোর সংকল্প নেয়।
+এই পর্বটি বেহুলার দৈনন্দিন জীবনে বিদ্যমান তীব্র প্রতিযোগিতার চিত্র তুলে ধরে, যেখানে তাকে নিজের অস্তিত্বের অবস্থান ধরে রাখতে প্রতিনিয়ত সংগ্রাম করতে হয়। স্বামীর অনুপস্থিতি এবং পারিবারিক অবিশ্বাস তাকে ক্রমাগত মানসিক ও শারীরিক ক্লান্তিতে নিমজ্জিত করে, যা তার মনোবলকে ক্রমাগত পরীক্ষা করে। এই কঠিন পরিস্থিতিতে, টিকে থাকার জন্য প্রয়োজনীয় অভ্যন্তরীণ শক্তির উৎস কী—এই প্রশ্নটি পাঠককে গভীরভাবে ভাবতে বাধ্য করে।
 
 ## further_references
+
+- workspaces/backlog/behula/storyline.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+5.1
+
+#### word_target
+
+500
+
+#### segment_title
+
+দৈনন্দিন যুদ্ধের সূচনা
+
+#### segment_summary
+
+প্রতিদ্বন্দ্বিতার আবহে বেহুলার প্রতিটি দিন যেন এক নতুন যুদ্ধক্ষেত্র, যেখানে তাকে নিজের মর্যাদা রক্ষা করতে হয়।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+5.2
+
+#### word_target
+
+500
+
+#### segment_title
+
+শূন্যতার ভার
+
+#### segment_summary
+
+স্বামীর অনুপস্থিতি এক বিশাল শূন্যতা সৃষ্টি করেছে, যা তার প্রতিটি পদক্ষেপকে ভারাক্রান্ত করে তুলেছে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+5.3
+
+#### word_target
+
+500
+
+#### segment_title
+
+অবিশ্বাসের শীতল স্পর্শ
+
+#### segment_summary
+
+পারিবারিক অবিশ্বাস এক শীতল আবছায়া ফেলে দিয়েছে, যা তার আত্মবিশ্বাসকে ক্রমাগত ক্ষয় করে চলেছে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+5.4
+
+#### word_target
+
+500
+
+#### segment_title
+
+ক্লান্তির চক্র
+
+#### segment_summary
+
+মানসিক ও শারীরিক ক্লান্তি তাকে গ্রাস করে, কিন্তু এই ক্লান্তিই তার প্রতিরোধের নতুন ভিত্তি তৈরি করে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5.5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অভ্যন্তরীণ শক্তির অনুসন্ধান
+
+#### segment_summary
+
+এই প্রতিকূলতার মাঝেও, বেহুলার ভেতরের সেই অদম্য শক্তির উৎস কী, যা তাকে ভেঙে পড়তে দেয় না? 
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+5.6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্তিত্বের লড়াই
+
+#### segment_summary
+
+কেবল বেঁচে থাকা নয়, বরং নিজের সত্তাকে প্রতিষ্ঠা করার জন্য তাকে এক নিরন্তর সংগ্রাম চালিয়ে যেতে হয়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+5.7
+
+#### word_target
+
+500
+
+#### segment_title
+
+সংকল্পের প্রতিধ্বনি
+
+#### segment_summary
+
+প্রতিটি বাধা অতিক্রম করার প্রতিটি মুহূর্ত যেন তার সংকল্পকে আরও দৃঢ় করে তোলে, এক নীরব প্রতিধ্বনি সৃষ্টি করে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+5.8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অদম্য যাত্রা
+
+#### segment_summary
+
+এই ক্লান্তিকর যাত্রা সত্ত্বেও, তার মনোবল স্থির থাকে, যা তাকে পরবর্তী পরীক্ষার জন্য প্রস্তুত করে তোলে।
+
+#### further_references
 
 
 ## level
@@ -29,66 +236,49 @@ chapter
 
 ## state
 
-written
-
-## segments
-
-- 1
+scaffolded
 
 ## creative_enrichment
 
 ### angles
 
-- Focusing on the sheer physical effort of transgression: describing the precise biomechanical struggle required to move a corpse against entrenched social prohibition.
-- Treating societal customs (the 'shringkhol') not as abstract rules, but as tangible weights or knots that must be physically undone by her resolve.
-- Examining the moment she consciously rejects the prescribed posture of a grieving widow in favor of an assertive, forward-moving stance.
+- The poem structured as a dialogue where the speaker addresses Likhindar's memory, asking him to witness her sustained effort against the household suspicion.
+- Treating 'competition' not for social status but for existential right—the battle simply to occupy space and breathe within hostile walls.
+- Focusing on micro-acts of refusal: moments where she internally rejects a whispered slight rather than reacting outwardly, magnifying the power of silent resistance.
 
 ### story_options
 
-- A sequence set at the boundary marker of propriety—a stone threshold or a specific iron gate—where her internal negotiation with duty against desire is visualized as crossing that line.
-- An imagined scene where she encounters an early mourner who attempts to physically restrain her, forcing her into a direct, powerful physical assertion of will against their hands.
-- A moment immediately preceding the departure when she looks back at the established domestic space—not in longing, but with clinical detachment, analyzing it as a failed structure.
+- Setting: The edge of the family's courtyard at twilight; Desire: To feel one moment of undisturbed autonomy (turning obstacle); Obstacle: An unspoken demand for subservience from an elder.
+- Setting: Near a domestic hearth, where tasks must be performed; Desire: Acknowledgment of her inherent worth through effort (turning), but the resistance comes from objects themselves—a chipped utensil that seems to judge her pace.
+- Setting: Walking down a narrow passage within the compound; Desire: To merge seamlessly into the background as an anonymous fixture, escaping judgment (turn); Obstacle: A single individual's deliberate lingering gaze.
 
 ### subject_rotations
 
-- Shifting the focus from 'breaking chains' (external force) to redefining what the chain *is*—perhaps viewing tradition itself as an overly ornate cage.
-- Treating her resolve not just as defiance, but as a profound act of ultimate devotion that supersedes social contract entirely.
-- Focusing on the relationship between the sacred duty (to the husband) and the profane violation (of societal expectation).
+- Focusing less on the 'fight' and more on the *perceived* permanence of her suffering—how endurance itself becomes a visible monument.
+- Examining how exhaustion forces a philosophical regression, where survival momentarily eclipses grand ambition, finding profound meaning in simple continuance.
+- Using the concept of inherited weariness: How does the weight of past female sorrows within that household compound the immediate struggle?
 
 ### sensory_details
 
-- The cold, uneven texture of damp earth under her bare feet as she begins to move away from settled ground.
-- A specific, sharp scent—like crushed night-blooming jasmine or old river silt—that accompanies the movement toward unknown waters.
-- The gritty friction sound made by the rough woven fiber of the shroud/wrapping against the corpse’s surface.
+- The metallic chill on her wrist from handling cold implements after a grueling task (Touch).
+- A sound like dry leaves skittering across stone in an otherwise silent, tense morning (Sound).
+- The taste of dust mixed with unsalted water during midday stillness (Taste).
 
 ### research_questions
 
-- In the context of Bengali traditions, what specific ritual items or boundary markers would signal the definitive crossing from domestic to wild territory?
+- How can the elevation of personal endurance be framed poetically without becoming self-aggrandizement when depicting resilience?
+- What are potent Bengali metaphors for sustained, quiet internal attrition that fit the required high diction?
 
 ### structural_variants
 
-- A section utilizing highly condensed, forceful imagery—a rapid staccato poem segment that mimics a break snapping under tension.
-- Employing an extended metaphor where the societal rules are portrayed as interwoven roots, and her will is the shear force cutting them through.
+- A heavily recursive structure where each segment begins by subtly echoing a word or rhythm from the previous one, creating auditory claustrophobia.
+- An abrupt shifting of perspective between Behula's inner monologue and brief, objective observations of her physical labor.
 
 ### unused_angles
 
-- The internal calculus of risk: what specific reputation or social consequence she consciously chooses to accept in exchange for this single act of movement.
-- A comparison between the societal 'path' expected of a widow versus the entirely self-drawn, undefined path she must forge.
+- The exploration of how survival might lead to an unintended hardening—a loss of softness that she might regret later.
+- A sustained metaphor comparing the pressure of societal judgment to a slow-acting corrosive agent on fine metal or parchment.
 
 ### variety_note
 
-Where previous chapters focused on grief's internal weight or external scorn, this chapter pivots to depict the active, muscular *act* of breaking free from established social boundaries with physical force.
-
-## draft
-
-### sha256
-
-ee9f0b6f3347925181adff54257871c662a7c35423aed1cf8b0b8f410b11a0b2
-
-### written_at
-
-2026-10-21T16:22:23.933197+00:00
-
-### origin
-
-write
+Unlike the preceding chapters which focused on external assaults (social/familial), this chapter pivots inwards, concentrating on the metabolic cost—the physical and psychological labor required just to maintain her presence amid perceived rivals.

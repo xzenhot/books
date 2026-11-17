@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 23,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আত্মার নবজাগরণ",
+  "segment_summary": "প্রতিটি নতুন সকালকে এক প্রকার আধ্যাত্মিক জাগরণ হিসেবে দেখা হয়, যেখানে ভক্তি কেবল উৎসবের মধ্যে সীমাবদ্ধ থাকে না।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating existential doubt not as a failure of faith, but as the highest form of active spiritual inquiry—the necessary challenge to accepted dogma.",
+    "story_option": "Setting: The solitary moment after closing down all ceremonial lights (প্রদীপশিখা) for the night; Desire: To assert that the truest light resides within the unlit chambers of self.",
+    "subject_rotation": "Exploring the relationship between internal stillness (moksha-like state) and external chaos (daily struggle), seeing them as two sides of the same breath.",
+    "sensory_detail": "A sound: The specific, irregular creak of an aging floorboard under weight that carries more emotional burden than physical mass.",
+    "research_question": "What are the precise linguistic markers in contemporary Bengali poetry used to signify 'quiet endurance' without resorting to explicit devotional vocabulary?",
+    "structural_variant": "Implementing a strict refrain (repetition of a core emotional phrase using new diction) that acts as an internal dialogue against external noise.",
+    "variety_note": "This chapter departs from preceding chapters by moving almost entirely inward; while others externalize the struggle (mud, sound, community), this segment focuses on the internal topography where faith meets doubt."
+  }
+}

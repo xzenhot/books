@@ -2,46 +2,115 @@
   "chapter_index": 26,
   "name": "26",
   "word_target": 500,
-  "chapter_title": "The Mortar in the Kitchen",
-  "chapter_summary": "A stone mortar stands in a kitchen corner, and the poem attends to the old grinding tool that turns hard things to powder in a patient rhythm.",
-  "further_references": [],
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This concluding poem synthesizes the myriad small observations—from the sweat on a chai glass to the trace of vermilion—into a final, expansive query. It confronts the tension between the fleeting nature of these minute moments and the desire to construct a stable, enduring concept of 'India.' The imagery shifts from specific objects to the cumulative weight of countless, tender pauses. The central, unresolved question remains: Do these fragile, momentary glimpses coalesce into a profound national essence, or are they merely beautiful, ephemeral flashes against the current of time?",
+  "further_references": [
+    "misc — পর্ব 1",
+    "misc — পর্ব 3",
+    "misc — পর্ব 14"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "চায়ের ঘাম ও সিঁদুরের রেখা",
+      "segment_summary": "The poem begins by juxtaposing the transient moisture of a railway chai glass against the enduring, yet delicate, line of vermilion on a threshold.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "নীরবতার অর্থনীতি",
+      "segment_summary": "It explores the unspoken language found in the shared silence of a crowded bus, suggesting a deeper form of societal communication beyond spoken words.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য শ্রমের প্রতিধ্বনি",
+      "segment_summary": "The focus turns to the quiet, foundational labor—the folded hands of the dawn vendor—and how this unseen effort supports the visible structures of life.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "ধুলো ও প্রকৃতির স্পর্শ",
+      "segment_summary": "The memory of the first monsoon drops hitting warm, dusty earth is invoked, symbolizing a moment of collective, spontaneous relief.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অপেক্ষার ভার",
+      "segment_summary": "The image of the weary traveler on the platform is revisited, representing the profound, often invisible, weight of long-term human endurance.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আচারের ক্ষুদ্র বন্ধন",
+      "segment_summary": "The ritualistic act of sharing paan, with its specific blend of leaves and spices, is examined as a microcosm of social bonding.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "আলো ও অন্ধকারের সংমিশ্রণ",
+      "segment_summary": "The flickering light of the evening earthen lamp is contrasted with the surrounding dusk, symbolizing the search for shelter and meaning at day's end.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "সমষ্টি বনাম মুহূর্ত",
+      "segment_summary": "The final contemplation asks whether the sum of these delicate, observed moments constitutes a durable national identity or remains a collection of beautiful, isolated instants.",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing solely on the *sound*—the grinding action alone—as a sustained percussive meditation that transcends ingredients to become pure labor.",
-      "Viewing the mortar not as an instrument of cooking, but as a geological device, wearing away grain and hard shells over generations of unseen hands.",
-      "The intersection of scent and texture: contrasting the dry, gritty residue inside with the wet steam rising from nearby vessels."
+      "পর্যবেক্ষকের 'আমি'কে সম্পূর্ণরূপে অপসারণ করে এক নিষ্ক্রিয়, বস্তুকেন্দ্রিক দৃষ্টিভঙ্গি গ্রহণ করা—যেখানে কেবল জিনিসগুলিই কথা বলছে।",
+      "শব্দের উপর জোর দেওয়া: চিত্রকল্প বা বর্ণনা না দিয়ে, শুধুমাত্র নির্দিষ্ট কিছু ধ্বনি (যেমন ঘামের শব্দ, পানের মশলার গুঁড়ো) দ্বারা সমস্ত ভাব প্রকাশ করা।",
+      "সময়ের দিকে দৃষ্টি নিবদ্ধ করে শব্দের প্রয়োগ: প্রতিটি বস্তুকে সময়ের একটি স্থির বিন্দু হিসেবে দেখতে, যেখানে তার 'বর্তমানতা' অতীতের প্রতিধ্বনি বহন করে।"
     ],
     "story_options": [
-      "setting: A sun-dappled kitchen corner just before the midday heat crests, desire: To capture the sound of the pestle meeting resistance, signaling a successful reduction in hardness., obstacle: The momentary pause when one ingredient is too dense or unevenly ground.",
-      "setting: As twilight deepens over the tiled floor, desire: To trace the changing light that transforms the dull grey stone into something polished and warm., obstacle: The encroaching shadows making the contours of the mortar seem to shift, as if sentient.",
-      "setting: Near a window where dust motes dance in the last slant of daylight, desire: To observe how the pulverized material accumulates—the fine dust settling like narrative silt on nearby surfaces., obstacle: The sudden intrusion of an animal sound or movement from outside disrupting the rhythm."
+      "একটি প্ল্যাটফর্মের খুঁটির ওপর জমে থাকা মরিচা—যেখানে প্রতিটি দাগ যেন একটি ভিন্ন প্রজন্মের অস্থিরতার স্বাক্ষর। (সেটিং: পুরোনো স্টেশন; আকাঙ্ক্ষা: স্থায়িত্ব; বাধা: ক্ষয়; মোড়: মরিচাকে 'স্মৃতির জ্যামিতি' হিসেবে দেখা)।",
+      "অপেক্ষার যাত্রীর হাতের তালুতে জমে থাকা ঘাম, যা তার সমস্ত গন্তব্য ও অতীতের মানচিত্র ধারণ করে আছে। (সেটিং: বাস উইন্ডো; আকাঙ্ক্ষা: স্থিরতা; বাধা: চলমান ট্রাফিকের চাপ; মোড়: হাতটি একটি 'জীবিত টাইমলাইন' হয়ে ওঠা)।",
+      "সিঁদুরের রেখা মুছে যাওয়ার প্রক্রিয়াটিকে অনুসরণ করা—যেখানে সিঁদুর নয়, বরং বাতাসের নশ্বর প্রবাহই সমাজের সীমানা নির্ধারণ করে। (সেটিং: দরজার কোণ; আকাঙ্ক্ষা: স্থায়ী আচার; বাধা: বাতাস/প্রবাহ; মোড়: রেখাকে 'স্বেচ্ছায় বিলীন হওয়া স্মৃতি' হিসেবে গ্রহণ করা)।"
     ],
     "subject_rotations": [
-      "Treating the mortar as a repository of forgotten flavors and vanished meals, giving it historical weight rather than present utility.",
-      "An intense focus on the texture of the stone itself—the grain, the chipped edges, the imperfections that map usage history.",
-      "Shifting from the physical grinding to the conceptual labor: what is being 'reduced' or dissolved in this act (stubborn habit, hard word)?"
+      "জাতীয়তাকে কোনো উপাদানগত মিশ্রণের পরিবর্তে, একটি চলমান 'অনুভূতিজনিত কম্পন' (Emotional Vibration) রূপে উপস্থাপন করা।",
+      "ক্ষুদ্র মুহূর্তগুলিকে বিচ্ছিন্ন ঘটনা না রেখে, একটি বৃহত্তর মানবিক বা মনস্তাত্ত্বিক 'প্রবাহের রেখা' হিসেবে দেখানোর প্রচেষ্টা চালানো।",
+      "বিস্ময় (Awe)-এর পরিবর্তে গভীর প্রশান্তি (Quiet Solace) অর্জনকে চূড়ান্ত গন্তব্য বানানো।"
     ],
     "sensory_details": [
-      "The sharp, dry scent of toasted grain clinging faintly to the stone surface.",
-      "The slick, cool dampness left on the pestle after a period of heavy use against resistant material."
+      "চায়ের কাপের ঘামে মিশে থাকা লোহার নোনা স্বাদ ও উষ্ণতা।",
+      "সন্ধ্যার ধুলোমাখা বাতাসে লবঙ্গের তীব্র, তিক্ত গন্ধ যা আলো কমে এলে প্রকট হয়।",
+      "বাসের ফ্লোরে পড়ে থাকা অব্যবহৃত টিকিটগুলির ভাঁজে চাপা দীর্ঘশ্বাসের মৃদু ভার।"
     ],
     "research_questions": [
-      "What specific types of ground spices or ingredients are traditionally prepared using this type of mortar and pestle in contemporary domestic settings?",
-      "Are there regional variations in how the stone surface is maintained or treated to preserve its grinding effectiveness?"
+      "‘শান্ত, সহনশীল মাধুর্য’ নামক ভাবটিকে গিবরানীয় লিরিক টোনের সঙ্গে কীভাবে সফলভাবে মিশ্রিত করা যায়?",
+      "শব্দ-সমন্বয় (Word Composition) করার সময় তৎসম ও আঞ্চলিক শব্দের অনুপাত ৫% এবং ১০%-এর মধ্যে রাখার ক্ষেত্রে কোন ধরনের শব্দগত বাধা সবচেয়ে বেশি প্রতীয়মান হচ্ছে?"
     ],
     "structural_variants": [
-      "A movement from extreme close-up on the impact point (sound/force) outwards to a wider shot encompassing the whole working kitchen.",
-      "Starting with the silence *before* the first strike, building tension through anticipation until the rhythmic commencement of grinding."
+      "একটি একক, দীর্ঘ বাক্য (Run-on Sentence structure in Bengali poetry) ব্যবহার করা যা সকল বস্তুকে এক শ্বাসে টেনে নিয়ে যায়।",
+      "প্রতিটি সেগমেন্টের শিরোনামকে কেবল একটি অব্যয় বা বিশেষণ দিয়ে শুরু করা (যেমন: 'অপেক্ষার', 'নীরবতার')।"
     ],
     "unused_angles": [
-      "Examining the relationship between the mortar and other implements—the bowl it sits within, or the cloth used to wipe residue from its sides.",
-      "A contemplation on silence itself: the necessary space between each strike that allows the previous action to settle into quiet observation."
+      "একটি নির্দিষ্ট, আঞ্চলিক মাটির গন্ধ যা বর্ষা এবং ধুলোর মিশ্রণ থেকে তৈরি হয়—যা সকল অঞ্চলের জন্য প্রযোজ্য।",
+      "আলপনার নকশার জ্যামিতিক বিন্যাসের মাধ্যমে সময়ের লুপকে জোরদারভাবে দেখানো।"
     ],
-    "variety_note": "Unlike poems focused on external passage (like transit or waiting), this focuses intensely inward, anchoring time in cyclical, repetitive human effort within a contained domestic sphere."
+    "variety_note": "এই পর্বটি পূর্ববর্তী অধ্যায়গুলোর নিছক তালিকাভিত্তিক পর্যবেক্ষণের পরিবর্তে, সমস্ত উপাদানগুলোকে একটি একক দার্শনিক প্রশ্নে কেন্দ্রীভূত করে এবং স্থিতিশীলতার অনুসন্ধান ছেড়ে অস্থিরতাকে আলিঙ্গন করার দিকে মোড় নেয়।"
   }
 }

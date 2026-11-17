@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ত সংমিশ্রণ",
+  "segment_summary": "স্বাদটি কোনো এক জায়গায় স্থির হতে পারে না; এটি সর্বদা দুটি বিপরীত মেরুর মধ্যে দুলতে থাকে, একটি অসমাপ্ত সংমিশ্রণ হয়ে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the dilemma entirely through the tactile experience of picking up the samosa—the crust’s texture as a physical manifestation of divided identity.",
+    "story_option": "Setting: A quiet cafe corner, late evening (under the prompt’s low register). Desire: To taste a single bite in total silence to hear the flavor *sing* its authentic Bengali song. Obstacle: The ambient white noise of the city drowning out any resonant sound.",
+    "subject_rotation": "Shifting the focus from the consumer to the memory of the *maker* and their internal conflict in translating heritage.",
+    "sensory_detail": "The dull ache beneath the ribs that mimics the hollowness where 'Singara' flavor should be.",
+    "research_question": "How does the concept of 'unspoken history' manifest itself phonetically when a key term or sound is intentionally omitted in translation?",
+    "structural_variant": "A dialogue structure between two fragments of memory: one highly detailed (Singara), one vague/generalized (Samosa).",
+    "variety_note": "This chapter drills down beyond mere flavor loss (Chapter 10) to investigate the *ontological* split—the dual nature where one object simultaneously belongs and does not belong."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "মধুর বিষাদ",
+  "segment_summary": "পাঠককে এই কাব্যগ্রন্থের শেষে এক ধরনের 'মধুর বিষাদ' অনুভব করানোই কাম্য, যেখানে কোনো চূড়ান্ত উত্তর দেওয়া হয় না।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence after consumption as a definitive linguistic failure, rather than just absence.",
+    "story_option": "Setting: A lone, chipped ceramic bowl resting on the kitchen counter; Desire: To mentally trace the pattern of its cracks back to the shape of an old dosa mold from Bengal; Obstacle: The silence—the lack of sound where preparation should have been.",
+    "subject_rotation": "Treating the final residue on the tongue not merely as hunger, but as a permanent modification of self—a subtle ontological shift.",
+    "sensory_detail": "Sight: The muted, dull sheen left on a fingertip after handling grease from foreign frying methods.",
+    "research_question": "How can I poetically represent 'অনুবাদিত' (translated/unrendered) without resorting to direct linguistic comparison?",
+    "structural_variant": "A sustained stream-of-consciousness segment that begins mid-chew and never resolves into a clear narrative statement.",
+    "variety_note": "This chapter deliberately eschews overt description of setting or action, focusing intensely on the internal residue—the aftermath of consumption and its philosophical implications."
+  }
+}

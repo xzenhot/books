@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 53,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সংগ্রামের গতিপথ",
+  "segment_summary": "স্বামীর অনুপস্থিতি এবং পারিবারিক অবিশ্বাস তাকে ক্রমাগত এগিয়ে যেতে বাধ্য করে, যা তার যাত্রাকে আরও কঠিন করে তোলে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A perspective focused entirely on sensory deprivation within the dwelling: the loss of comforting sounds/textures replaced by harsh awareness.",
+    "story_option": "Setting: Beside a perpetually smoldering but unlit hearth (ম্লান প্রদীপ); Desire: To will the flame back into existence as an act of defiant self-affirmation; Obstacle: The dust that blankets every attempt at renewal.",
+    "subject_rotation": "Shifting focus from outward struggle (society) to inward governance—how does she legislate her own self-worth in absence?",
+    "sensory_detail": "The metallic taste of anxiety that seems to coat the tongue after minimal sustenance (Gustatory).",
+    "research_question": "What specific archaic descriptions of familial suspicion in elite Bengali households might provide evocative imagery without becoming overtly political?",
+    "structural_variant": "A segment-by-segment layering technique, where each following stanza references a physical detail from the previous one but inverts its emotional meaning.",
+    "variety_note": "This chapter drills down on sustained internal friction—the weariness born from maintaining dignity in hostile quietude—a stark contrast to the externalized conflict seen in earlier arcs."
+  }
+}

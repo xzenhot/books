@@ -1,0 +1,80 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "Final Triumph: The Return of the Beloved",
+  "chapter_summary": "This final chapter culminates the epic struggle, depicting the ultimate victory where Behula successfully brings her beloved back from the depths. It explores the profound transformation from personal tragedy to collective triumph, symbolized by the extinguishing of despair. The imagery shifts from the suffocating darkness of loss to the brilliant, undeniable light of restored hope. The lingering question remains whether this monumental personal victory can truly mend the societal fractures that caused the initial suffering.",
+  "further_references": [
+    "Author-specified source text or edition of the Behula narrative",
+    "Reliable scholarly or archival study of the Behula narrative tradition"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Breaking of the Abyss",
+      "segment_summary": "The narrative reaches its zenith as the final, insurmountable obstacle yields, signaling the imminent return of the lost soul.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "The Ascent of Faith",
+      "segment_summary": "Behula's unwavering belief, tested through every trial, manifests as the force that pulls the beloved back toward the surface of life.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "Light Over Shadow",
+      "segment_summary": "The symbolic imagery of the 'lamp of faith' burns brightest in this moment, overpowering the accumulated darkness of grief and societal judgment.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "The Reclaimed Heart",
+      "segment_summary": "The reunion is portrayed not just as a personal solace, but as the re-anchoring of the spiritual core that the tragedy had threatened to sever.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "From Private Pain to Public Echo",
+      "segment_summary": "The individual triumph of Behula begins to resonate outward, transforming her personal endurance into a universal testament to human spirit.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "The Weight of the Crown",
+      "segment_summary": "Her status as a symbol of resilience is cemented, yet the poem questions if this glory absolves the systemic injustices she endured.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Quiet After the Storm",
+      "segment_summary": "A moment of profound stillness follows the chaos, where the exhausted spirit contemplates the cost of such magnificent perseverance.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Unanswered Question",
+      "segment_summary": "The final verses leave the reader suspended between the beauty of the resolution and the enduring ache of the societal wounds that necessitated such a struggle.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

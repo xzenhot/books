@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 47,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ফাটল",
+  "segment_summary": "প্রতিটি শূন্যতা যেন স্মৃতির একটি ফাটল, যা দিয়ে অতীতের উজ্জ্বল দৃশ্যগুলো ক্ষণিকের জন্য উঁকি দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the *chulha* (earthen stove) flame itself as the enduring cultural constant that cannot be perfectly replicated in any foreign setting.",
+    "story_option": "Setting: A cold metallic tabletop in an anonymous modern kitchen; Obstacle: The absolute absence of the earthy *chulha* smell. Turn: 'I' try to infuse a drop of olive oil (the foreign stand-in) with imagined mustard essence, failing utterly.",
+    "subject_rotation": "Viewing the void as actively *resistant* to being filled by new flavors, functioning like an impervious cultural barrier.",
+    "sensory_detail": "The faint, coppery tang left by non-traditional frying oil mixed with saliva (Gustatory/Olfactory mix).",
+    "research_question": "What specific low-frequency sound can be used to represent the 'weight' mentioned in Segment 1 without resorting to abstract concepts?",
+    "structural_variant": "A staccato structure where each word cluster represents a momentary sensory input followed by an absolute, empty caesura.",
+    "variety_note": "This chapter moves away from market chaos or preparation; it focuses entirely on the immediate, highly internalized aftermath of consumption—the existential weight carried by the empty palate."
+  }
+}

@@ -1,8 +1,8 @@
-# পুনর্জন্মের প্রত্যাখ্যান
+# মহালয়া: এর কবিতা
 
 ## Workshop
 
-এই অধ্যায়ে, অর্ণব বা অন্য কোনো চরিত্র মহালয়ার বার্ষিক পুনর্জন্মের ধারণাকে সরাসরি প্রত্যাখ্যান করে। সে যুক্তি দেয় যে জীবনের অর্থ কেবল স্থিতাবস্থা, কাঠামোগত বাস্তবতা এবং দৈনন্দিন সংগ্রামের মধ্যেই নিহিত, কোনো অতিপ্রাকৃত বা ক্ষণস্থায়ী পবিত্রতায় নয়। এই প্রত্যাখ্যানটি আখ্যানের একটি গুরুত্বপূর্ণ মোড় তৈরি করে, যেখানে আধ্যাত্মিক আকাঙ্ক্ষা এবং কঠোর বাস্তবতার মধ্যে তীব্র সংঘাত সৃষ্টি হয়। প্রশ্নটি ওঠে— যখন জীবনের সমস্ত সৌন্দর্য ক্ষণস্থায়ী, তখন কি সেই ক্ষণস্থায়ীতাকে অস্বীকার করে কেবল স্থায়িত্বের আশ্রয় নেওয়াটাই মানবীয় অঙ্গীকার?
+Since the provided epic only contains 15 chapters, this chapter represents a conceptual culmination or epilogue, exploring the lasting resonance of the Mahalaya experience. It delves into the lingering 'serene unease' felt after the divine light fades, examining whether the spiritual awakening can be integrated into the mundane reality. The central conflict here is the tension between transcendent memory and quotidian existence, leaving the reader to question the permanence of profound moments.
 
 ## Story
 

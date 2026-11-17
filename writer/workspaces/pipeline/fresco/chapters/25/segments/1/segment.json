@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 25,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "The Final Stroke of Air",
+  "segment_summary": "The artist applies a final, almost invisible stroke, not of pigment, but of pure breath, acknowledging the ephemeral nature of her work.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The material entropy: Focusing on the chemical reaction of lime/pigments against desert humidity as a metaphor for existential weathering, rather than merely artistic decay.",
+    "story_option": "A scene where she deliberately covers a vibrant section with fine, grey lime-dust during the day—a conscious act of negation before returning to paint it anew.",
+    "subject_rotation": "Treating the finished fresco less as an object and more as a persistent atmospheric event—a kind of painted resonance field over Mandawa.",
+    "sensory_detail": "The gritty, mineral taste left on the lips after inhaling fine, dried lapis dust.",
+    "research_question": "What specific tactile sensation exists on sun-baked, dried lime plaster that conveys 'time' without being described as damage?",
+    "structural_variant": "Employing a cyclical structure where each segment mirrors or inverts the thematic movement of segments 1-4.",
+    "variety_note": "This final section deliberately strips away narrative action. Where earlier chapters detailed struggle, this chapter focuses solely on acceptance and the resulting philosophical texture of endurance, pushing toward abstract resonance over concrete incident."
+  }
 }

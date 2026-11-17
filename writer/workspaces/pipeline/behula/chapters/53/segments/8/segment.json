@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 53,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অবিরাম যাত্রা",
+  "segment_summary": "ক্লান্তি সত্ত্বেও তার যাত্রা থেমে যায় না; বরং প্রতিটি বাধা তাকে আরও দৃঢ় এবং সংকল্পবদ্ধ করে তোলে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating 'competitors' (প্রতিদ্বন্দ্বী) not as persons, but as abstract forces of judgment embodied by domestic objects or routines.",
+    "story_option": "Setting: The cold expanse of stone steps outside the dwelling at midday (প্রখর রোদ); Desire: A fleeting memory of his warmth to recalibrate her focus; Obstacle: The sharp, cutting edges of neighbors' averted gazes.",
+    "subject_rotation": "Examining how the 'waiting' itself becomes a form of active combat against entropy and despair.",
+    "sensory_detail": "A persistent, low-frequency hum from the oppressive silence of the house, like a poorly tuned instrument (Auditory).",
+    "research_question": "What specific archaic descriptions of familial suspicion in elite Bengali households might provide evocative imagery without becoming overtly political?",
+    "structural_variant": "A segment-by-segment layering technique, where each following stanza references a physical detail from the previous one but inverts its emotional meaning.",
+    "variety_note": "This chapter drills down on sustained internal friction—the weariness born from maintaining dignity in hostile quietude—a stark contrast to the externalized conflict seen in earlier arcs."
+  }
+}

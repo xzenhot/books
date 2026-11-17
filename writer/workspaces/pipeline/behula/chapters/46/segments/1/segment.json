@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 46,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত বাধা অতিক্রম করার পর, বেহুলার জীবনে সেই প্রতীক্ষিত প্রত্যাবর্তন ঘটে, যা তার দীর্ঘ অপেক্ষার সমাপ্তি ঘটায়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the sensory experience of reintegration—the tactile memory of absence meeting tangible presence.",
+    "story_option": "The setting shifts to a secluded corner of the domestic structure; Desire: To reclaim a simple shared gesture previously denied by isolation; Obstacle: The sheer weight of past unspoken accusations; Turn: A wordless, mutual acknowledgment that supersedes all history.",
+    "subject_rotation": "Shifting focus from 'triumph' to 'sustained tenancy'—the difficulty of maintaining peace after such extreme volatility.",
+    "sensory_detail": "The acrid, lingering taste of strained silence contrasted sharply with the eventual soft warmth of reunion.",
+    "research_question": "Is there a classical Bengali metaphor for enduring stability that doesn't imply rest but implies rigid, tested fortitude?",
+    "structural_variant": "A non-linear structure where segments jump between the moment *just before* reunion and moments far removed in her solitary suffering.",
+    "variety_note": "This chapter shifts from recounting the struggle to describing its irreducible consequence, prioritizing existential density over narrative momentum, unlike earlier chapters."
+  }
 }

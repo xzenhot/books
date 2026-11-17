@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সীমার স্বীকৃতি",
+  "segment_summary": "পথিক অবশেষে সেই সীমারেখাটি চিহ্নিত করতে সক্ষম হয়, যেখানে মানুষের ইচ্ছা এবং মাটির নিজস্ব নিয়মের মধ্যে বিভাজন ঘটে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treat the decision not through action, but through prolonged *inability* to act—a sustained state of poised suspension.",
+    "story_option": "The Satual elder begins telling a story about seasons—not ruin, but necessary shedding—while the traveler watches dust motes suspended in a single shaft of light; Desire: To grasp the rhythm of inevitable change; Obstacle: His own urge to impose narrative order upon the tale; Turn: He realizes his imposed structure is merely fear disguised as understanding.",
+    "subject_rotation": "Viewing the Satual indifference not as passive rejection, but as an active form of historical self-preservation.",
+    "sensory_detail": "A taste of metallic tang, like old copper, lingering after breathing the high-heat air near the ruins.",
+    "research_question": "How does the cultural oral tradition of the Satual community conceptually categorize 'unresolved narratives'?",
+    "structural_variant": "An interrupted narrative style where philosophical reflection occurs only during momentary pauses in observation.",
+    "variety_note": "This chapter diverges from its neighbours by prioritizing sustained stillness and internal refusal over external conflict or decisive action. The focus remains intensely localized to the boundary between human desire and geological time."
+  }
+}

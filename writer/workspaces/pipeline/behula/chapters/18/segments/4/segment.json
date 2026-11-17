@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "The Symbol Made Manifest",
+  "segment_summary": "Behula transcends her personal narrative to become the universal emblem of the resilient human spirit, a beacon for all oppressed souls.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The light shift angle (Primary Lens): Structuring the entire piece so that the reunion starts in a harsh, high-contrast daylight (external scrutiny), and progresses through phases of deep twilight until settling into a transcendent, internal dawn.",
+    "story_option": "Setting: A vast, open plain at dusk; Desire: To see the landscape itself reflect a fragile symmetry mirroring their union; Obstacle: The horizon refusing to settle into one clear point.",
+    "subject_rotation": "Focusing on Liberation through Redefinition: How surviving trauma forces Behula to build an identity so new it functionally supersedes the old one (a complete self-overwrite).",
+    "sensory_detail": "Sound: The sharp, almost painful *click* of a stone settling into place after long erosion (representing final societal judgment).",
+    "research_question": "What mythological resonance exists in transitioning from 'shadows' to 'dawn' within this specific narrative tradition?",
+    "structural_variant": "A cyclical structure where segments 1 & 8 mirror each other in thematic weight but inverted in emotional temperature.",
+    "variety_note": "This chapter contrasts with earlier struggles by focusing not on *achieving* the state of peace, but on the *philosophical examination* required once that hard-won state is attained, maintaining critical distance even in victory."
+  }
+}

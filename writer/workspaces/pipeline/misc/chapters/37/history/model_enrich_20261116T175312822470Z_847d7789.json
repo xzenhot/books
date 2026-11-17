@@ -1,0 +1,81 @@
+{
+  "chapter_index": 37,
+  "name": "37",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This concluding poem synthesizes the myriad small observations—from the sweat on a chai glass to the trace of vermilion—to pose the ultimate question of the collection. It explores whether these fleeting, minute moments coalesce into a stable, enduring concept of 'India,' or if they remain merely a collection of beautiful, transient flashes. The central conflict lies between the perceived monumentality of a nation and the quiet, persistent reality of its daily rituals. The poem leaves the reader suspended between the search for a grand definition and the acceptance of fragmented beauty.",
+  "further_references": [
+    "misc — পর্ব 1",
+    "misc — পর্ব 3",
+    "misc — পর্ব 14"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "চায়ের ঘাম ও সিঁদুরের রেখা",
+      "segment_summary": "The poem begins by juxtaposing the ephemeral moisture of a railway chai glass against the enduring, yet fragile, line of vermilion on a doorway.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "নীরবতার অর্থনীতি",
+      "segment_summary": "It delves into the unspoken language shared within the crowded bus, where silence itself becomes a form of communication and shared endurance.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য শ্রমের ছন্দ",
+      "segment_summary": "The focus shifts to the rhythmic, unseen labor—the vendor's call and the milkman's cycle—that forms the bedrock of the social structure.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "ধুলো ও প্রকৃতির স্পর্শ",
+      "segment_summary": "The memory of the first monsoon drops hitting the warm, dust-laden street is invoked, symbolizing a moment of collective, spontaneous relief.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অপেক্ষার ভার",
+      "segment_summary": "The image of the weary traveler on the platform is revisited, carrying not just luggage, but the weight of an indefinite, patient waiting.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আচার ও বন্ধন",
+      "segment_summary": "The specific ritual of the paan leaf and its accompanying spices is examined as a microcosm of social exchange and subtle connection.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "আলো ও অন্ধকারের জিজ্ঞাসা",
+      "segment_summary": "The small, flickering flame of the earthen lamp at dusk is used to frame the philosophical tension between transient light and encroaching darkness.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "সংগ্রহ নাকি সমষ্টি?",
+      "segment_summary": "The final lines question whether the accumulation of these delicate, observed moments creates a cohesive national entity or remains a beautiful, scattered collection of instants.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

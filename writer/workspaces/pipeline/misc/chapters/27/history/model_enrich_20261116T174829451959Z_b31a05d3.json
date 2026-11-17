@@ -1,0 +1,81 @@
+{
+  "chapter_index": 27,
+  "name": "27",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This final chapter synthesizes the myriad small observations—from the sweat on a chai glass to the trace of vermilion—to confront the core philosophical question of the collection. It explores whether these countless, fragile moments coalesce into a stable, enduring concept of 'India,' or if they remain merely beautiful, transient flashes of time. The central conflict lies between the desire for monolithic meaning and the reality of fragmented, lived experience. The open question remains whether the sum of these minute gestures constitutes a soul, or just a collection of passing breaths.",
+  "further_references": [
+    "misc — পর্ব 1",
+    "misc — পর্ব 3",
+    "misc — পর্ব 14"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "ঘামের সাক্ষ্য",
+      "segment_summary": "The poem begins by recalling the visceral image of the chai glass, its condensation a metaphor for the immediate, fleeting intensity of daily existence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "সিঁদুরের রেখা",
+      "segment_summary": "It then juxtaposes this ephemeral moisture against the enduring, yet fragile, line of vermilion marking a threshold, symbolizing ritual permanence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "নীরবতার ওজন",
+      "segment_summary": "The focus shifts to the unspoken language shared within a crowded bus, where silence itself becomes a heavy, shared commodity.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "লেনদেনের ছন্দ",
+      "segment_summary": "The rhythm of street commerce is examined, where the precise movement of a vendor's scale dictates the flow of the informal economy.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অপেক্ষার ভার",
+      "segment_summary": "The tired traveler on the platform is revisited, carrying not just luggage, but the accumulated weight of unfulfilled destinations.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আচারের রাসায়নিক বন্ধন",
+      "segment_summary": "The specific, potent mixture of betel leaf and spices is analyzed as a microcosm of social bonding, a chemical ritual.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "সংগ্রহের জিজ্ঞাসা",
+      "segment_summary": "The poem begins to ask the central question: does the accumulation of these distinct, small acts create a unified national identity?",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "বিচ্ছিন্ন মুহূর্তের সমষ্টি",
+      "segment_summary": "The final lines conclude by questioning whether the nation is a cohesive entity or merely a beautiful, poignant mosaic of isolated, tender moments.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

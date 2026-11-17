@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ঐতিহাসিক শূন্যতা",
+  "segment_summary": "ইতিহাসের খাতায় তাঁর নাম কেবল একটি করুণ উপাখ্যান হিসেবে লিপিবদ্ধ হওয়ার ভয়াবহতা এখানে চিত্রিত হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The focus on the material quality of absence: The precise texture and density of the missing earth, compared to the dry, abrasive dust remaining.",
+    "story_option": "Setting: The desolate plot designated for burial outside the barracks; Desire: To arrange a single, symbolic handful of rich soil (representing past glory) onto the bier before death; Obstacle: Guards refusing entry to 'sanctioned' materials.",
+    "subject_rotation": "Shifting focus from physical death (the body) to legal death (the stripping of rights/title).",
+    "sensory_detail": "The grit of fine river silt (poli) contrasting with the coarse, chipped surface of prison-issued stone.",
+    "research_question": "What specific Mughal terminology related to funerary rites (e.g., burial plot designation) might have been deliberately overridden by colonial mandates?",
+    "structural_variant": "A non-linear structure where moments of absence (the lack of soil, the missing archive entry) flash back and forward across his final moments.",
+    "variety_note": "This chapter pivots away from active resistance (like Chapter 9's writing) to a meditation on absolute erasure—the philosophical space between being alive and simply not existing as a recognised entity."
+  }
+}

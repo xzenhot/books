@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অসহায় যাত্রীর আশ্রয়",
+  "segment_summary": "ঝড়ের কবলে পড়া এক অসহায় পথিক মাঝির নৌকায় আশ্রয় নেয়, যার জীবন বিপন্ন, এবং মাঝি তাকে রক্ষা করার সিদ্ধান্ত নেয়।",
+  "name": "3",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrasting the chaotic movement of the river during the storm with the intensely focused stillness required in the majhi’s own core being.",
+    "story_option": "Setting: Sheltering in a temporary eddy created by rocks during the storm. Desire: To share a silent ritual with the passenger—a mutual acknowledgement of shared vulnerability rather than dialogue. Obstacle: The constant, oppressive sound deafens any attempt at deep connection.",
+    "subject_rotation": "Viewing the majhi's skill as not 'experience,' but an instinctive, inherited covenant with the river that transcends human logic or monetary value.",
+    "sensory_detail": "The cold shock of subterranean river silt being violently churned up by the surge beneath the hull.",
+    "research_question": "What are the colloquial Bengali terms associated with 'uncontrollable, divine fury' in relation to Bengal's monsoon/river systems?",
+    "structural_variant": "A non-linear structure where moments of extreme calm are interspersed rapidly with vignettes of overwhelming chaos.",
+    "variety_note": "Unlike preceding chapters which focused on external societal pressure, this chapter shifts focus entirely inward and outward simultaneously—the majhi's internal fortitude tested against an overwhelming, non-human force."
+  }
+}

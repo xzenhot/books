@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 67,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সংগ্রামের নতুন সংজ্ঞা",
+  "segment_summary": "এই পর্ব দেখায় যে, তার সংগ্রাম কেবল টিকে থাকার লড়াই নয়, বরং নিজের ভেতরের আলোকবর্তিকাটিকে রক্ষা করার এক মহৎ প্রচেষ্টা।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Juxtaposing her immense spiritual fortitude against trivial domestic failings or mundane societal slights (e.g., a chipped clay pot witnessed during a moment of profound suffering).",
+    "story_option": "Setting: A window frame etched with frost patterns reflecting distant stars (নক্ষত্ররানী's image transposed to cold air); Desire: To map her future resolve onto those delicate, temporary ice lines before they melt away into formlessness.",
+    "subject_rotation": "Interpreting societal pressure less as explicit condemnation and more as environmental entropy slowly eroding boundaries.",
+    "sensory_detail": "A high, thin whine, like overworked metal under strain, emanating from the deepest chambers of her chest (sound)",
+    "research_question": "How can I integrate a subtle reference to 'Smart' or 'ICU' concepts metaphorically into the internal landscape without losing the ancient diction?",
+    "structural_variant": "Spiral Refrain Structure: Introduce a specific motif (e.g., 'a single unbroken thread') in Segment 1 and weave its appearance/disappearance through all eight segments as her resolve waxes and wanes.",
+    "variety_note": "While neighbours explored resilience as *alchemy* or *return*, this chapter grounds its struggle in immediate corporeal weight and the fragile tension between near-collapse and stubborn continuation, ending with an unresolved ontological query."
+  }
+}

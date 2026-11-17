@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 64,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অবিশ্বাসের শীতল ছায়া",
+  "segment_summary": "শ্বশুরবাড়ির অভ্যন্তরে নেমে আসা সন্দেহের আবছায়া তার আশ্রয়কে এক মানসিক কারাগারে পরিণত করে দেয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Using the concept of *অস্তিত্বের ভার* (existential weight) not against an opponent, but against the gravitational pull of memory and loss.",
+    "story_option": "Setting: In the quiet, unused corner of her private alcove (not the ancestral home), where she keeps only one sacred object; Desire: To feel its temperature change—a sign that some part of her essence remains unbound by earthly suffering; Obstacle: The constant chill emanating from the shadows.",
+    "subject_rotation": "Analyzing the concept of endurance through physical restraint—the body willingly accepting pain to affirm its metaphysical sovereignty.",
+    "sensory_detail": "The taste of metallic dryness on the tongue immediately following a moment of intense self-affirmation (taste).",
+    "research_question": "What nuanced Bengali idiom exists to describe internal strength that functions autonomously, without needing external spiritual reinforcement?",
+    "structural_variant": "A series of tightly constrained stanzas where each line must start with a negative prefix (e.g., 'না-নদীর', 'নিঃশব্দে') before breaking into assertion.",
+    "variety_note": "Unlike its predecessors which focused on external trials (death/rejection), this chapter dives inward, mapping the topography of her sustained psychological siege against absolute despair."
+  }
+}

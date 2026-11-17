@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "নদীর উন্মত্ত নৃত্য",
+  "segment_summary": "নদী তার স্বাভাবিক ছন্দ ভেঙে ভয়ঙ্কর ঢেউ তুলতে শুরু করেছে, আর কাঠের নৌকাটি সেই প্রবল স্রোতের বিরুদ্ধে সংগ্রাম করছে।",
+  "name": "2",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the storm not just as nature's wrath, but as a violent societal purging—sweeping away all superficial economic structures (debt notations, paper bills) with the floodwaters.",
+    "story_option": "Setting: A stretch of river known locally as the 'Devil's Passage.' Desire: The majhi aims to push through it not just for service, but as a personal affirmation of his mastery over fate. Obstacle: Another vessel (modern and powerful) forces an unscheduled maneuver near him.",
+    "subject_rotation": "Focusing less on physical survival and more on the preservation of cultural memory within the boat during the crisis—the song surviving the deluge.",
+    "sensory_detail": "The specific, sickening sound of wet rope fibers twisting and straining against stressed knots under immense load.",
+    "research_question": "How do descriptions of traditional boat craftsmanship (like specific caulking or wood selection) change when exposed to extreme hydrostatic pressure?",
+    "structural_variant": "Employing a call-and-response internal dialogue between 'the Man of Debt' (economic reality) and 'The River Spirit' (primal freedom).",
+    "variety_note": "Unlike preceding chapters which focused on external societal pressure, this chapter shifts focus entirely inward and outward simultaneously—the majhi's internal fortitude tested against an overwhelming, non-human force."
+  }
+}

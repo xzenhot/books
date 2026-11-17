@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "নামের ভার",
+  "segment_summary": "সিঙ্গাড়া থেকে সামোসা—নামের এই পরিবর্তন কেবল ধ্বনিগত নয়, এটি একটি সাংস্কৃতিক দূরত্বকে প্রতীকায়িত করে যা জিভের গভীরে অনুরণিত হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the voice of an inanimate object (e.g., the serving plate or the oily paper wrapper) which witnesses and embodies this cultural schism.",
+    "story_option": "Setting: The narrator's hand, holding the wrapper edge. Desire: To peel back every layer to find the original 'Singara' blueprint beneath the standardized 'Samosa'. Obstacle: The layers are perfectly uniform and modernly pressed. Turn: Accepting that uniformity is the final surrender of specificity.",
+    "subject_rotation": "Focusing solely on the syntax mismatch between describing 'Singara' (richly evocative) versus 'Samosa' (functional/generic).",
+    "sensory_detail": "The specific sound of a single crisp edge breaking under pressure at 4 AM silence.",
+    "research_question": "How does the concept of 'unspoken history' manifest itself phonetically when a key term or sound is intentionally omitted in translation?",
+    "structural_variant": "A dialogue structure between two fragments of memory: one highly detailed (Singara), one vague/generalized (Samosa).",
+    "variety_note": "This chapter drills down beyond mere flavor loss (Chapter 10) to investigate the *ontological* split—the dual nature where one object simultaneously belongs and does not belong."
+  }
+}

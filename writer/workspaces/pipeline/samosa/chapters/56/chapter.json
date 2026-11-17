@@ -1,53 +1,119 @@
 {
   "chapter_index": 56,
   "name": "56",
-  "word_target": 250,
-  "chapter_title": "শেষ কামড় না খাওয়া",
-  "chapter_summary": "শেষ কামড় না খেয়ে থালাই রেখে দেওয়া হয়, একটি বাক্য অসমাপ্ত রেখে দেওয়ার মতো।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "তেলের স্মৃতি",
+  "chapter_summary": "এই অধ্যায়টি সরিষার তেলের ঝাঁঝালো, মাটির গন্ধযুক্ত আঘ্রাণ এবং প্রবাসের অচেনা, নিরপেক্ষ তেলের মধ্যেকার গভীর বৈসাদৃশ্যকে কেন্দ্র করে আবর্তিত। এটি কেবল একটি রান্নার উপাদান প্রতিস্থাপনের গল্প নয়, বরং এটি স্বাদের বিচ্যুতিকে প্রতীকায়িত করে, যেখানে পরিচিত গন্ধের অনুপস্থিতি এক গভীর শূন্যতা তৈরি করে। এই কাব্যিক অনুসন্ধানটি প্রশ্ন তোলে: যখন মৌলিক উপাদান পরিবর্তিত হয়, তখন কি কোনো স্মৃতির গভীরতম স্তর অক্ষত থাকতে পারে, নাকি প্রতিটি প্রতিস্থাপনই একটি সাংস্কৃতিক বিচ্ছেদ ঘটিয়ে দেয়?",
+  "further_references": [
+    "2"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "সরিষার হলুদ আবেশ",
+      "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার সেই উষ্ণ, ঝাঁঝালো গন্ধটি যেন এক জীবন্ত স্মৃতি, যা প্রতিটি ভাজার শব্দে অনুরণিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অচেনা তেলের শীতলতা",
+      "segment_summary": "প্রবাসের বাজারে ব্যবহৃত হালকা, নিরপেক্ষ তেল সেই আদিম উষ্ণতাকে গ্রাস করে, যা কেবল রাসায়নিক পরিবর্তনের মাধ্যমে প্রতিস্থাপিত হয়েছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "ঘ্রাণ ও আত্মার সংযোগ",
+      "segment_summary": "এই তেলের পরিবর্তন কেবল জিভের নয়, এটি মস্তিষ্কের গভীরে প্রোথিত ঘ্রাণ-স্মৃতির নিউরাল সংযোগকে চ্যালেঞ্জ করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "মাটির গন্ধের অনুপস্থিতি",
+      "segment_summary": "সরিষার তেলের সঙ্গে জড়িয়ে থাকা মাটির গন্ধটি প্রবাসের কংক্রিটের গন্ধে বিলীন হয়ে যায়, যা স্বাদের গভীরতাকে ক্ষয় করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "আবেগিক বিভাজন রেখা",
+      "segment_summary": "এই তেলের বৈসাদৃশ্যটি কেবল একটি রান্নার কৌশলগত পার্থক্য নয়, বরং এটি আবেগের একটি গভীর বিভাজন রেখা টেনে দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আকৃতি বনাম সত্তার পরীক্ষা",
+      "segment_summary": "ত্রিকোণাকার সামোসার আকার অপরিবর্তিত থাকলেও, তেলের পরিবর্তন তার ভেতরের সত্তার মৌলিকতাকে প্রশ্নবিদ্ধ করে তোলে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "স্মৃতির প্রতিস্থাপন",
+      "segment_summary": "পুরোনো স্বাদের প্রতিস্থাপন নতুন তেলের মাধ্যমে একটি 'অনুবাদিত' অভিজ্ঞতা তৈরি করে, যা কখনোই মূলের কাছাকাছি পৌঁছাতে পারে না।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অসমাপ্ত ভাজা",
+      "segment_summary": "এই তেলের পরিবর্তনটি এক ধরনের অসমাপ্ত ভাজার প্রতীক, যেখানে আকাঙ্ক্ষিত স্বাদটি কেবল স্মৃতিতে সোনালী রঙ ধারণ করে থাকে।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "A focus entirely on the *sound* of the final chew—the micro-auditory experience contrasting with the loud, chaotic backdrop of the foreign street.",
-      "The moment the speaker decides *not* to eat: framing deliberate cessation not as starvation, but as a conscious preservation of the last remaining piece of 'self' before total assimilation.",
-      "Treating the half-eaten food item as an artifact requiring archaeological study—its crust analyzed for regional markers that are now illegible."
+      "Framing the oil as a reluctant medium: it attempts to convey the past, but only transmits its own neutrality.",
+      "The speaker addresses an idealized grandmother ('দিদা') who can still smell the *sorsher tel* in her phantom kitchen, creating a dialogue of denial/acceptance.",
+      "A purely tactile focus on the dough (খোলস): comparing how mustard oil makes it crackle with explosive promise versus neutral oil making it sound dull and compliant."
     ],
     "story_options": [
-      "Setting: A dimly lit, dusty roadside stall during a sudden monsoon downpour; Desire: The narrator hesitates over the last bite, fearing the rain will wash away the fragile memory clinging to the crisp edge.",
-      "Setting: On a crowded public bench, surrounded by strangers who are finishing their food with aggressive haste; Desire: To observe and deliberately *not* join in the swift consumption, finding the slow halt an act of quiet resistance.",
-      "Setting: Alone in a small kitchen at 3 AM, holding the remnant piece under a weak bulb; Desire: The narrator debates whether to finish it out of obligation or leave it as a monument to the journey's pause."
+      "Setting: A cold metal *tawa* in a rented flat; Desire: To hear the exact, aggressive 'hiss' of genuine heat-laden mustard oil once more; Obstacle: Only generic vegetable fat available.",
+      "Setting: Near an open window overlooking heavy urban traffic; Desire: For the scent of earth and sun on the seeds to override the exhaust fumes; Obstacle: The pervasive smell of foreign dust mixed with cheap frying grease.",
+      "Setting: While sorting through old photographs showing family cooking rituals; Desire: To recreate one specific, ancient batch using a remembered *mitti* pot; Obstacle: The modern kitchen apparatus rendering the act impossible."
     ],
     "subject_rotations": [
-      "Shifting focus from the *taste* deficit to the structural integrity—the perfect, yet incomplete, engineering of the dough wrapper itself.",
-      "Treating the final act of not eating as an echo of a political refusal or non-cooperation in foreign lands; the pause is passive resistance.",
-      "Exploring the relationship between heat and completion: how the absence of that final moment of searing contact halts the transformation into memory."
+      "Focusing solely on the linguistic decay induced by culinary substitution—how 'Singara' transforms into just 'Samosa' in the local vernacular.",
+      "Viewing the oil as a societal barometer: how its replacement signifies assimilation or necessary adaptation for survival abroad.",
+      "A deep dive into the concept of 'inherent aroma': debating whether flavor resides chemically (the fat) or metaphysically (the memory)."
     ],
     "sensory_details": [
-      "The precise, brittle *crack* when a finger nudges the unconsumed edge of the pastry, sounding disproportionately loud in silence.",
-      "The visual contrast between the pale, cooling underside (the 'cold') and the richly stained, caramelized surface where it contacted the heat source.",
-      "The gritty texture of residual dust or street grit embedded in the fried oil film on the piece left untouched."
+      "Sight: The sluggish, viscous ochre pool versus the thin, pale sheen shimmering under a fluorescent bulb.",
+      "Sound: The sharp, insistent *phut* of mustard oil hitting hot iron against the muted, oily sigh of neutral fat.",
+      "Touch: The gritty film left by saturated residue versus the slick, almost water-like coating that slides easily off the fingertips."
     ],
     "research_questions": [
-      "Are there specific dialectal markers related to how this particular 'pause' (not finishing) is expressed in common Bengali speech regarding food consumption?"
+      "What are the precise molecular differences in volatile organic compounds between mustard oil and common industrial frying oils?",
+      "Is there a specific archaic Bengali term for the aggressive pungency of heated *sorsher tel* that captures this loss?"
     ],
     "structural_variants": [
-      "Starting with an image of the *unbroken* surface, slowly moving inward toward a single speck of flavor memory that remains.",
-      "A cyclical structure: The narrative describes the act of stopping, then replays the entire process leading up to that point, only to land back on the halted moment with added weight."
+      "A 'Call and Response' structure: Speaker speaks of the old scent, then an imagined answer (from the absent voice) denies it.",
+      "A strictly comparative strophe structure: Each couplet must present a direct binary opposition between home/sorsher vs. abroad/neutral."
     ],
     "unused_angles": [
-      "The philosophical implications of *waste*—is an unfinished piece a failure or a testament?",
-      "An exploration of how scent memory (the lingering aroma) can be more potent and complete than gustatory experience.",
-      "Focusing on the mechanics of transport itself: the journey of this specific remnant from the fryer to its final resting place."
+      "The political metaphor of oil import restrictions mirroring cultural limitations.",
+      "Focusing on the color spectrum—the warm, deep yellow against the pale, washed-out gold."
     ],
-    "variety_note": "Where previous chapters focused on the *act* of transformation or labeling, this chapter centers entirely on the deliberate act of suspension—the moment before completion, giving weight to incompleteness."
+    "variety_note": "This chapter intensely hones in on a single sensory trigger (aroma/oil) and contrasts it across two distinct material realities, moving deeper into the physical basis of cultural dislocation than previous chapters focused on name or market scenes."
   },
   "draft": {
-    "sha256": "28518a5012b8c3c3af43ea926bc6c00aa90ce6daff4e0043c216bf252a3c9359",
-    "written_at": "2026-11-01T08:29:29.889636+00:00",
+    "sha256": "2d5204440664f8450a97c1a9a74c3db72703c0ec56cee4599546e7ffb3c9dcf2",
+    "written_at": "2026-11-16T21:36:23.927986+00:00",
     "origin": "write"
   }
 }

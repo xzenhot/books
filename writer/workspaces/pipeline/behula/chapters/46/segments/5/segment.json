@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "সংগ্রামের মহিমা",
+  "segment_summary": "বেহুলার জীবনযাত্রা প্রমাণ করে যে, প্রতিটি আঘাত এবং সামাজিক প্রত্যাখ্যান কীভাবে এক মহাকাব্যিক প্রেরণা সৃষ্টি করতে পারে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting the 'victory' not as a return, but as an emergence into a newly consecrated space forged by suffering.",
+    "story_option": "A moment occurring immediately before contact is made—the character observing the subtle environmental shift (dust settling, light altering); Desire: To measure the boundary between outer chaos and inner sanctuary; Obstacle: Societal judgment lingering just outside the frame of sight; Turn: The internal focus becomes so absolute that external scrutiny dissolves.",
+    "subject_rotation": "Framing the return not as a divine blessing, but as a rigorous act of self-reclamation (a deeply personal win against internal entropy).",
+    "sensory_detail": "The texture of ancient stone where hand meets hand—coldness yielding slowly to vibrant heat.",
+    "research_question": "Is there a classical Bengali metaphor for enduring stability that doesn't imply rest but implies rigid, tested fortitude?",
+    "structural_variant": "A non-linear structure where segments jump between the moment *just before* reunion and moments far removed in her solitary suffering.",
+    "variety_note": "This chapter shifts from recounting the struggle to describing its irreducible consequence, prioritizing existential density over narrative momentum, unlike earlier chapters."
+  }
+}

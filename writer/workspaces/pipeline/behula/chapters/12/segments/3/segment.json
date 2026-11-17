@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "কাঠামোগত দুর্বলতার প্রতি অভিযোগ",
+  "segment_summary": "এই অংশে, তার সংগ্রাম সমাজের সেই অদৃশ্য কাঠামোগত দুর্বলতাগুলিকে চ্যালেঞ্জ করে, যা দুর্বলদের কণ্ঠস্বরকে স্তব্ধ করে দেয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Dialectic Echo: Framing the collective voice as a conversation between present suffering and ancient, unfulfilled mythological promises.",
+    "story_option": "Setting: A broken threshold or doorway leading into a forgotten space; Desire: To use this symbolic passage to transition from personal sorrow into shared public narrative; Obstacle: The weight of tradition and expectation pressing down on that single entry point.",
+    "subject_rotation": "Analyzing how individual resilience subtly corrodes or forces adjustments within rigid cultural structures.",
+    "sensory_detail": "The dull, persistent vibration felt through the soles of her feet when standing near large groups.",
+    "research_question": "Are there specific Bengali compound words that capture both 'social oppression' and 'unyielding inner strength' simultaneously?",
+    "structural_variant": "A frame narrative where the entire poem is presented as an overheard conversation between two spirits—one personal (Behula) and one communal (The Chorus).",
+    "variety_note": "This chapter shifts focus from intimate struggle (previous chapters) to sociological resonance; it is about transforming personal pain into a palpable, shared cultural frequency rather than achieving singular dramatic resolution."
+  }
+}

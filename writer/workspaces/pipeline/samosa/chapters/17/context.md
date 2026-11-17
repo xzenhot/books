@@ -10,29 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-প্রথম ব্যর্থ চেষ্টা
+চূড়ান্ত স্বাদ
 
 ## chapter_summary
 
-প্রথম চেষ্টায় স্বাদ মেলে না, খোলস ফেটে যায়, পুর বেরিয়ে আসে। ব্যর্থতার এই ছোট্ট সিঙ্গাড়াটি শেখার সবচেয়ে সৎ পাঠ।
+এই শেষ অধ্যায়টি সেই আকাঙ্ক্ষিত, নিখুঁত স্বাদের একটি অস্পষ্ট অনুরণন নিয়ে শেষ হয়, যা কখনোই পুরোপুরি ফিরে পাওয়া যায়নি। এটি কেবল খাদ্যের অনুপস্থিতি নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার গভীর শূন্যতাকে তুলে ধরে, যেখানে জিভের স্মৃতি আত্মার গভীরে ভাজা থাকে। এই কাব্যিক সমাপ্তি পাঠককে একটি মধুর বিষাদের অনুভূতি দিতে চায়, যেখানে স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি মানবিক অভিজ্ঞতার অবিচ্ছেদ্য অংশ—এই প্রশ্নটি খোলা রেখে যায়।
 
 ## further_references
 
+- references.md
+
+## segments
+
 ### Item 1
 
-#### no
+#### segment_index
 
 1
 
-#### reference
+#### name
 
-Metaphysics of culinary process vs. desired outcome in diaspora literature.
+1
 
-#### weblink
+#### word_target
+
+500
+
+#### segment_title
+
+অনুরণনের শেষ ফোঁটা
+
+#### segment_summary
+
+শেষের সেই স্বাদটি যা জিভে লেগে থাকে, তা কেবল একটি রাসায়নিক প্রতিধ্বনি নয়, বরং হারানো মাটির প্রতি আত্মার একটি নীরব আত্মসমর্পণ।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসম্পূর্ণ ভাজা
+
+#### segment_summary
+
+যেখানে প্রতিটি কামড় একটি অসম্পূর্ণতার সাক্ষ্য বহন করে, সেখানে আকাঙ্ক্ষাটি একটি স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক হয়ে ওঠে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মার আর্কাইভ
+
+#### segment_summary
+
+খাদ্যকে কেবল পুষ্টির উৎস হিসেবে না দেখে, এটিকে সেই জীবন্ত আর্কাইভ হিসেবে দেখা হয় যা স্মৃতি বহন করে চলেছে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+মধুর বিষাদের আবেশ
+
+#### segment_summary
+
+এই কাব্যিক সমাপ্তিটি পাঠককে এক ধরনের মিষ্টি বিষাদের গভীরে নিয়ে যায়, যেখানে উত্তরটি কখনোই স্পষ্ট হয় না।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অবিচ্ছেদ্য অংশ
+
+#### segment_summary
+
+এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং মানুষের গভীরতম মানবিক অভিজ্ঞতার সঙ্গে আত্মার গভীরেও ভাজা থাকে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্পষ্ট অনুরণন
+
+#### segment_summary
+
+চূড়ান্ত স্বাদটি একটি অস্পষ্ট, কিন্তু গভীর অনুরণন রূপে বিরাজ করে, যা সমস্ত পার্থিব প্রচেষ্টার পরেও অধরা থেকে যায়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রশ্নটি খোলা রাখা
+
+#### segment_summary
+
+স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ—এই মৌলিক প্রশ্নটি উন্মুক্ত থাকে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+চিরন্তন অপেক্ষার প্রতিচ্ছবি
+
+#### segment_summary
+
+এই সমাপ্তিটি সেই অনন্ত অপেক্ষার প্রতিচ্ছবি, যা আদি স্বাদের জন্য হৃদয়ে সর্বদা বিদ্যমান থাকে।
+
+#### further_references
 
 
 ## level
@@ -43,51 +238,48 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Treating the 'bursting out' of the filling not as simple error, but as an involuntary expulsion of submerged memory when the protective structure (the dough/identity) is too weak.
-- Focusing solely on the specific *sound* of failure—the hiss that becomes a brief, sharp articulation of profound loss, rather than just visual wreckage.
-- The 'I' addressing the raw, imperfect ingredients (e.g., rejecting one batch of flour for another), treating ingredient quality as moral failing or resilience.
+- The speaker addresses the Samosa as if it were a diplomatic delegate—representing an entire lost socio-cultural territory, making its current state an ongoing international crisis of identity.
+- Treating the final lingering taste not as sadness, but as kinetic energy: the tension between what was achieved and what remains unfulfilled, described physically through vibrations in the palate/throat.
+- Adopting a cyclical narrative loop where the final sensory input triggers the immediate re-invocation of Segment 1’s core memory, making 'ending' indistinguishable from 'beginning'.
 
 ### story_options
 
-- setting: রান্নাঘরের প্রান্তের তাওয়া, desire: একটি 'নিখুঁত' মুচমুচে ধ্বনি (crisp sound) প্রতিষ্ঠা করা, যা অতীতের অনুরণন বহন করে।, obstacle: তেল ও ময়দার অনুপাত ঠিক করতে ব্যর্থ হওয়া; খোলস দুর্বল হয়ে যাওয়া এবং পুরের অংশ বিচ্ছিন্ন হয়ে বেরিয়ে আসা।
-- setting: হাতের ভাঁজে জমা আলুর মিশ্রণ, desire: সেই আদিম, মাটির কাছাকাছি স্বাদটুকু—সরষার তেলের ভেতরের গাঢ় গন্ধটি—পুনরুদ্ধার করা।, obstacle: অচেনা পরিবেশের কারণে তেলের উষ্ণতা কমে আসা; পুরের মশলার তীব্রতার সঠিক ভারসাম্য বজায় রাখতে না পারা।
-- setting: প্রথম ভাজা পাত্রের ধার ঘেঁষে, desire: পুরোপুরি ধ্বংসপ্রাপ্ত সেই প্রথম জিনিসটিকে ফেলে দিতে না পারা, বরং সেটির ভাঙা অংশে কোনো সত্য খুঁজে বের করা।, obstacle: বিদ্রূপাত্মকভাবে হাসতে বাধ্য হওয়া নিজের প্রতি—কেন এই অতিপ্রাকৃত স্বাদ এতটা অধরা।
+- Setting: A small, dimly lit corner booth in an anonymous transit station; Desire: To recognize a specific pattern in the steam rising off the food—a pattern that once meant home but now only means passage; Obstacle: The pervasive, standardized synthetic odor of modern travel infrastructure; Turn: Recognizing this sterile environment *is* the flavor substitute.
+- Setting: A kitchen countertop illuminated by a single, bare bulb during early morning hours in the new city; Desire: To attempt to 'cool' the overwhelming emotional heat associated with the food—to chemically revert the complex profile back to simple salt and starch; Obstacle: The ingrained physical memory of *heat* overrides any deliberate cooling action; Turn: A realization that coolness is just another kind of manufactured foreign taste.
+- Setting: Looking closely at the cross-section of a piece of fried dough under magnification (metaphorical); Desire: To find a preserved, microscopic particle of original mustard oil within the flaky layer; Obstacle: The oil has been fully transmuted into a general 'frying medium,' erasing specificity; Turn: The narrator concludes that *structure* is what remains, not substance.
 
 ### subject_rotations
 
-- Focusing entirely on the *texture* of failure: not the visual burst, but the gritty, imperfect feel left on the fingertips after handling the broken pieces.
-- Examining the 'flaw' (the split dough) as a self-portrait—how every life choice in exile is inherently porous and prone to leaking something vital.
-- Treating the oil not just as a medium of heat, but as a carrier fluid for misplaced cultural essence; how it absorbs wrongness.
+- Shifting the focus from the *taste* of loss to the *weight* of memory carried by the food—how many unspoken histories are packed into one shell.
+- Analyzing the act of 'wanting' itself as a form of domestic labor performed across borders (the ritual of seeking perfection).
+- Focusing on the auditory landscape surrounding the consumption: the specific sounds that *don't* happen in this foreign setting, which make up the flavor.
 
 ### sensory_details
 
-- শব্দ: তেলের মধ্যে খোলস ফেটে যাওয়ার সময় সৃষ্ট একটি তীক্ষ্ণ, অসহায় 'ফাটল' ধ্বনি।
-- স্পর্শ: ভেজা ময়দার আঠালো ভাব এবং গরম তেলে ভাজা অংশ থেকে আসা দ্রুত ঠান্ডা হয়ে আসার বিপরীত অনুভূতি।
-- ঘ্রাণ: পুরনো তেল ও নতুন মশলার মিশ্রণে তৈরি হওয়া এক অপ্রীতিকর রাসায়নিক গন্ধ, যা প্রত্যাশিত সুবাসের বিপরীত।
+- The gritty friction of dried spice residue between molars after the first bite.
+- The humid pressure against the closed eyes during moments of intense recollection, feeling like old muslin cloth.
+- The metallic chill felt on the tongue when trying to access a flavor that is purely 'ghost' substance.
 
 ### research_questions
 
-- কবিতার লয় বজায় রেখে, 'খোলস ফেটে যাওয়া' (cracking/bursting) প্রক্রিয়াটিকে একটি নির্দিষ্ট অভ্যন্তরীণ ধ্বনির পুনরাবৃত্তির মাধ্যমে কীভাবে কার্যকরভাবে ফুটিয়ে তোলা যায়?
-- প্রবাসীর ব্যর্থ প্রচেষ্টা এবং আকাঙ্ক্ষিত সিদ্ধি—এই দুইয়ের মধ্যেকার দার্শনিক দূরত্বকে যেন কেবল বস্তুর বর্ণনার মাধ্যমেই স্থাপন করা সম্ভব, তা কী করে নিশ্চিত হবে?
+- What specific antiquated Bengali word, beyond those already used in context, best describes the sensation of profound yet gentle ache?
+- How can I maintain the mandated blend of high diction and raw vernacular street terminology (e.g., 'packet', 'border') without seeming jarringly inconsistent?
 
 ### structural_variants
 
-- A highly fragmented structure where each stanza isolates a specific failure point (e.g., one for the dough tearing, one for the filling leaking, one for the heat dissipating).
-- Starting mid-action—at the moment of the first crack under pressure—and building outward to explain the preceding missteps.
+- Employing a sustained free-verse pattern in all eight segments, breaking traditional stanzaic forms to mirror the fractured nature of memory.
+- Structuring segments such that Segment 1’s concluding image is repeated as the first line of Segment 8, creating strict circularity.
+- Alternating between intense internal reflection (high diction) and abrupt, starkly rendered observations of the external environment (vernacular/English touchpoints).
 
 ### unused_angles
 
-- The potential metaphor of 'pressure' applied not just by frying temperature, but by expectation itself.
-- A brief dive into the specific *sound* difference between good oil saturation and poor oil absorption.
+- A deep dive into the economic forces that necessitated the 'Samosa' rebranding—treating global commodity chains as agents of flavor erasure.
+- Examining how culinary nostalgia is weaponized in diaspora identity politics, where the food becomes a political statement.
 
 ### variety_note
 
-Where preceding chapters focused on establishing the material reality (oil, dough), this chapter isolates the failure—the moment when technical execution betrays inherited memory. It is a confrontation with inadequacy before any grand narrative can begin.
+This chapter acts as the culmination; while neighbours focused on the *process* (frying, travel, nomenclature), this piece focuses intensely on the *aftermath*—the metaphysical state of having consumed the symbol without retrieving the essence. It elevates subjective feeling to near-philosophical inquiry.

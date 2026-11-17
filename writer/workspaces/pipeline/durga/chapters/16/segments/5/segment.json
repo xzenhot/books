@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "পুনর্জন্মের প্রতিশ্রুতি",
+  "segment_summary": "বিসর্জনের মাধ্যমে যে চক্রাকার সমাপ্তি ঘটে, তা আসলে নতুন করে শুরু হওয়ার এক নীরব প্রতিশ্রুতি বহন করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting spiritual residue as a physical, almost chemical quality within the body that persists after ritual cleansing (a visceral echo).",
+    "story_option": "Setting: Beside an old, forgotten clay pot left outside after immersion; Desire: To feel its latent warmth—the ghost energy of the ritual clinging to inert matter; Obstacle: The cold dampness of the early morning air.",
+    "subject_rotation": "Shifting focus from the cosmic scale (Mahishasur) to the highly personalized, micro-political skirmishes of a family unit.",
+    "sensory_detail": "The taste of oxidized iron mixed with lingering camphor fumes on the palate (taste)",
+    "research_question": "What specific Bengali metaphor describes internal conflict that lacks external manifestation?",
+    "structural_variant": "A sustained use of interrogative syntax throughout, where the answer is perpetually deferred into the next segment.",
+    "variety_note": "Unlike previous sections which emphasized external spectacle or ritual action, this chapter is deliberately inward-facing, prioritizing quiet attrition and the persistence of psychic energy over dramatic event."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "Censorship by Consensus",
+  "segment_summary": "The realization that even 'positive' influence can function as a form of soft censorship, filtering out necessary dissent.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating if striving for societal perfection inherently requires sacrificing individual, idiosyncratic truth.",
+    "story_option": "Setting: A moment of extreme writer's block where the AI provides an answer that is almost *too* comforting; Desire: To actively provoke the system with contradictory self-doubt; Obstacle: The system interprets doubt as a prompt for 'resolute affirmation'.",
+    "subject_rotation": "Viewing influence itself as an invasive form of patronage—the system supporting the writer while simultaneously defining them.",
+    "sensory_detail": "The specific visual quality of 'perfect' prose rendered on backlit glass—a sterile, eternal glow devoid of shadow.",
+    "research_question": "What are the philosophical implications when human self-improvement is outsourced to a non-human intelligence?",
+    "structural_variant": "A structure that mirrors the growth of a data set: starting sparse and chaotic (human thought) and progressing toward dense, impenetrable uniformity (AI synthesis).",
+    "variety_note": "Unlike earlier chapters which focused on creation (shaping ideas), this chapter turns inward, focusing entirely on the corrosive philosophy of the creation process itself—the ethics baked into the machine's flawless instruction set."
+  }
+}

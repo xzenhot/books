@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 52,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বিভাজন",
+  "segment_summary": "এই তেলের প্রতিস্থাপন কেবল রাসায়নিক নয়, এটি একটি আবেগের গভীর বিভাজন, যা জিভের স্মৃতিকে চ্যালেঞ্জ জানায়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the act of choosing an oil as an existential choice between maintaining authentic memory or achieving consumable functionality.",
+    "story_option": "Setting: Holding a single, unlit wick or burner (representing old cooking apparatus); Desire: To reignite the specific fire/heat that unlocks the true flavor profile; Obstacle: The required fuel seems insufficient for such elemental revival.",
+    "subject_rotation": "Using the concept of 'sedimentation' (of flavor) as a geological process reflecting cultural drift, where one element settles while another washes away.",
+    "sensory_detail": "Tactile: The difference between a rough, almost prickly coating sensation versus total slick uniformity on the palate.",
+    "research_question": "What are specific colloquial Bengali descriptors for 'flavor that is fundamentally correct but emotionally incomplete'?",
+    "structural_variant": "A non-linear structure where segments jump between a vivid past memory (Segment 1) and the sterile present observation of oil choice (Segment 2), only to converge on Segment 8.",
+    "variety_note": "This chapter delves deeply into the chemistry and sensory science of flavor loss, moving beyond simple geographical displacement by isolating 'oil' as the primary vehicle for cultural memory decay, unlike neighboring chapters focusing on the whole food item or broader market exposure."
+  }
+}

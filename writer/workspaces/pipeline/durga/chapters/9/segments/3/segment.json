@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "প্যান্ডেল ও জনসমাগম: সম্মিলিত ভক্তির স্রোত — অংশ 3",
+  "segment_summary": "এই অধ্যায়টি উৎসবের সামাজিক স্কেলকে তুলে ধরে, যেখানে হাজার হাজার মানুষের ভিড় এক সম্মিলিত ভক্তির স্রোত তৈরি করে। প্যান্ডেলগুলি কেবল কাঠামো নয়, বরং মানব আকাঙ্ক্ষা ও বিশ্বাসের এক বিশাল, অস্থায়ী সমাবেশস্থল। চিত্রকল্পে ফুটে ওঠে আলোর ঝলকানি, মানুষের ভিড়ের কোলাহল এবং সেই ভিড়ের মধ্যে নিহিত ব্যক্তিগত আধ্যাত্মিকতার দ্বন্দ্ব। এই অধ্যায়টি প্রশ্ন তোলে: এই বিপুল জনসমাগমের মধ্যে ব্যক্তিগত ভক্তি কি হারিয়ে যায়, নাকি তা আরও শক্তিশালী হয়ে ওঠে?",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the light sources not as illumination but as fractured shards of collective yearning—each bulb casting a different shade of individual desire.",
+    "story_option": "setting: Near the perimeter wall of the largest gathering space, desire: To belong completely to the collective surge, becoming an undifferentiated particle., obstacle: A lingering sense of self—the refusal or inability to be entirely dissolved into the mass., turn: Witnessing a powerful gesture (like someone spontaneously collapsing in devotion) that shatters the intellectual notion of unity.",
+    "subject_rotation": "Shifting focus from 'faith in the divine' to 'faith in human connection': the solidarity found in shared temporal experience.",
+    "sensory_detail": "The high-pitched, almost unbearable ringing frequency created when thousands of voices (chanting/talking) merge into a single wave.",
+    "research_question": "How can the poetic vocabulary effectively convey the concept of 'collective consciousness' without resorting to overly abstract or scientific terminology?",
+    "structural_variant": "The chapter could be structured as a series of increasing zooms: from the grand panorama down to one individual's tightly wound moment.",
+    "variety_note": "This chapter differs by focusing entirely on the *mass* experience—the shared, ephemeral physical space of the pandal—rather than isolated ritual acts or deep personal introspection found in neighbouring chapters."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বহিরাগত উষ্ণতা",
+  "segment_summary": "প্রবাসের পরিবেশ তাকে এক ধরনের 'বহিরাগত উষ্ণতা' দেয়, যা বাংলার আদিম, মাটির গন্ধযুক্ত উষ্ণতা থেকে সম্পূর্ণ ভিন্ন।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the 'night-voice' prompt: describing the consumption during the very low, quiet hours before dawn, when internal monologue is loudest.",
+    "story_option": "Setting: A quiet cafe corner, late evening (under the prompt’s low register). Desire: To taste a single bite in total silence to hear the flavor *sing* its authentic Bengali song. Obstacle: The ambient white noise of the city drowning out any resonant sound.",
+    "subject_rotation": "Shifting the focus from the consumer to the memory of the *maker* and their internal conflict in translating heritage.",
+    "sensory_detail": "The dull ache beneath the ribs that mimics the hollowness where 'Singara' flavor should be.",
+    "research_question": "What is the precise linguistic shift in descriptive Bengali adjectives used for fried snacks when moved from rural to urban/expatriate contexts?",
+    "structural_variant": "Using an intensely strophic form where each stanza begins with one characteristic physical attribute (shape, color, temperature) before pivoting to the philosophical dilemma.",
+    "variety_note": "This chapter drills down beyond mere flavor loss (Chapter 10) to investigate the *ontological* split—the dual nature where one object simultaneously belongs and does not belong."
+  }
+}

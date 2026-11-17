@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত স্বাদের ভার",
+  "segment_summary": "এই শূন্যতাটি কেবল অনুপস্থিতির প্রতীক নয়, এটি সেই আদি সিঙ্গাড়া-র নিখুঁত সংজ্ঞার প্রতি এক গভীর, অপ্রাপ্ত আকাঙ্ক্ষার ভার বহন করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'I' as being perpetually caught in an ontological loop where every consumption instantly resets the sense of loss to its initial intensity.",
+    "story_option": "Scene: Examining the inside surface of an old metal container where the remnant pieces were held; Desire: For the cold metal to conduct the 'ghost heat' of the original frying process back into his skin; Obstacle: The container’s modern, industrial polish preventing any organic connection.",
+    "subject_rotation": "Shifting from focusing on the food item to focusing intensely on the *act of digestion*—how the body processes this incongruent memory.",
+    "sensory_detail": "Touch: The faint, internal ache or phantom tightness beneath the sternum when recalling the 'hotness' of a perfect batch.",
+    "research_question": "What Bengali word/phrase most closely encapsulates 'the lingering sense of something correct being inherently flawed'?",
+    "structural_variant": "Using the structure of a fractured recipe card—listing ingredients, then inserting highly complex philosophical verse where instructions should be.",
+    "variety_note": "This chapter diverges from neighbours by prioritizing the somatic aftermath—the internal resonance and lingering physical sensation after consumption, rather than focusing externally on setting or preparation."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ ও স্মৃতির সংযোগ",
+  "segment_summary": "কীভাবে সরিষার তেলের গন্ধ মস্তিষ্কের গভীরে অতীতের নির্দিষ্ট মুহূর্তের একটি নিউরাল সংযোগ তৈরি করে, তা কাব্যিকভাবে তুলে ধরা হচ্ছে।",
+  "name": "6.4",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the narrative entirely on the *molecular* journey of the oil—from raw seed in the field to neutralized vapor on the consumer's tongue, externalizing loss as a chemical failure.",
+    "story_option": "Setting: A grimy roadside stall in a foreign city; Desire: To find one single packet of mustard seed that retains its ancestral 'zor', Obstacle: The vendor only stocks uniform, pale refined oil.",
+    "subject_rotation": "Treating 'তেল' (oil) as a proxy for time itself—the traditional slow time versus the compressed time of global logistics.",
+    "sensory_detail": "Visual: The specific amber luminescence of pure, aged mustard oil contrasted with the colorless sheen of generic vegetable medium.",
+    "research_question": "Are there established poetic devices (e.g., metonymy, synecdoche) within Bangla literature used to describe absence in sensory perception?",
+    "structural_variant": "Using an epistolary style where letters are exchanged *between* two pots: one old, smoky (Bengal), one new, pristine (Diaspora).",
+    "variety_note": "While Neighbour 1 focused on nomenclature and memory's word, this chapter fixes firmly onto the foundational ingredient: the medium itself (oil), treating its physical substitution as a primary act of cultural erosion."
+  }
+}

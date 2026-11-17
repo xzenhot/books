@@ -1,7 +1,7 @@
 {
   "total_chapters": 16,
   "completed_chapters": 0,
-  "current_chapter": 1,
+  "current_chapter": null,
   "factory": "online",
   "model": "gemma4:latest",
   "provider": "ollama",
@@ -10,133 +10,183 @@
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "কবি ও তার দেহ",
+      "topic": "sonali — পর্ব 1 — sonali",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/1/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 2,
-      "topic": "স্বর্গীয় আনন্দের বাসস্থান",
+      "topic": "sonali — পর্ব 2 — sonali",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/2/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 3,
-      "topic": "ইন্দ্রিয়ের জাগরণ",
+      "topic": "sonali — পর্ব 3 — sonali",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/3/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 4,
-      "topic": "ফর্সা ত্বকের আলো",
+      "topic": "sonali — পর্ব 4 — sonali",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/4/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 5,
-      "topic": "মাঝবয়সের হিসাব",
+      "topic": "স্বর্গীয় আনন্দের প্রথম ঝলক",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/5/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 6,
-      "topic": "সাহস",
+      "topic": "sonali — পর্ব 6 — sonali",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/6/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 7,
-      "topic": "সৌন্দর্য",
+      "topic": "sonali — পর্ব 7 — sonali",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/7/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 8,
-      "topic": "দেহ ও আত্মার টানাপোড়েন",
+      "topic": "sonali — পর্ব 8 — sonali",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/8/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 9,
-      "topic": "মুক্তির সন্ধান",
+      "topic": "sonali — পর্ব 9 — sonali",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/9/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 10,
-      "topic": "আধুনিকোত্তর সমাপ্তি",
+      "topic": "sonali — পর্ব 10 — sonali",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/10/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 11,
-      "topic": "শ্বাস ও স্পর্শের ভাষা",
+      "topic": "আত্মার সঙ্গে দেহের সংলাপ",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/11/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 12,
-      "topic": "রাত্রির দেহ",
+      "topic": "সোনালী রঙ",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/12/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 13,
-      "topic": "আয়নার প্রতিচ্ছবি",
+      "topic": "অস্তিত্বের ভঙ্গুরতা",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/13/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 14,
-      "topic": "স্মৃতি ও মাংস",
+      "topic": "মুক্তি বা আত্মসমর্পণ?",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/14/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 15,
-      "topic": "আনন্দের বীজ",
+      "topic": "চূড়ান্ত জিজ্ঞাসা",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/15/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     },
     {
       "chapter_number": 16,
-      "topic": "শূন্যতার পর",
+      "topic": "চূড়ান্ত জিজ্ঞাসা",
       "category": "",
-      "status": "pending",
+      "status": "written",
       "file_path": "chapters/16/chapter.md",
-      "completed_date": null
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
     }
   ],
+  "written_chapters": 16,
+  "published": false,
   "updated_by": "scaffold",
-  "updated_date": "2026-11-06T09:45:38Z"
+  "updated_date": "2026-11-16T21:47:04Z"
 }

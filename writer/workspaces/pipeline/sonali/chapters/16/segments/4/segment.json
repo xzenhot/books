@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত যাত্রা",
+  "segment_summary": "সোনালী বুঝতে পারে যে তার যাত্রা কোনো গন্তব্যে পৌঁছানো নয়, বরং প্রশ্নটিকে নতুন রূপে ধারণ করা।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the entire piece as an ekphrasis—a detailed description of a single, faded canvas fragment that symbolizes her consciousness.",
+    "story_option": "Setting: A room with walls covered in peeling frescos depicting indistinct divine forms; Desire: To trace the cracks in the plaster, believing they hold the true form of bliss; Obstacle: The dust obscures every detail.",
+    "subject_rotation": "Treating the final inquiry as a biological function rather than an abstract thought—the questioning becoming a necessary physiological tremor.",
+    "sensory_detail": "The cool, gritty feel of aged ochre pigment under the fingertips as if tracing forgotten prayers.",
+    "research_question": "How can the concept of 'visual fading' (like light on a fresco) be conveyed in rich poetic diction without relying solely on the word 'faded'?",
+    "structural_variant": "Employing abrupt shifts between intensely dense, claustrophobic internal monologue and vast, open-field imagery.",
+    "variety_note": "Unlike the previous chapters which focused on the act of searching, this final chapter focuses entirely on the *persistence* and paradoxical nature of the search itself, treating the question as a solid, weighty entity."
+  }
+}

@@ -10,17 +10,224 @@
 
 ## word_target
 
-280
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-ষড়যন্ত্রের বিষদাঁত ভেঙে দেওয়া
+behula — পর্ব 15 — behula
 
 ## chapter_summary
 
-লখিন্দরের মৃত্যুর পেছনের সামাজিক ও আধ্যাত্মিক চক্রান্তগুলোর মুখোশ উন্মোচন। ভীতিহীন সত্যভাষণে অন্ধ কুসংস্কারের মূলোৎপাটন।
+এই চূড়ান্ত অধ্যায়টি সমস্ত প্রতিকূলতা জয় করে বেহুলার স্বামীর প্রত্যাবর্তনের মহাকাব্যিক মুহূর্তকে চিত্রিত করে। এই বিজয় কেবল ব্যক্তিগত ট্র্যাজেডির সমাপ্তি নয়, বরং মানব আত্মার অদম্য শক্তির চূড়ান্ত উদযাপন। এটি দেখায় যে কীভাবে গভীরতম শূন্যতাও বিশ্বাসের অগ্নিশিখা দ্বারা পূর্ণ হতে পারে, এবং এই পরিণতি তাকে এক মহৎ, অপ্রতিরোধ্য নারী হিসেবে প্রতিষ্ঠিত করে। প্রশ্নটি থাকে—এই ব্যক্তিগত বিজয় কি বৃহত্তর সামাজিক কাঠামোর প্রতি এক নীরব অভিযোগ বহন করে?
 
 ## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+বিজয়ী প্রত্যাবর্তন
+
+#### segment_summary
+
+সমস্ত বাধা অতিক্রম করার পর, বেহুলার জীবনে স্বামীর প্রত্যাবর্তন ঘটে, যা দীর্ঘ প্রতীক্ষার সমাপ্তি ঘটায়।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মার চূড়ান্ত 승리
+
+#### segment_summary
+
+এই প্রত্যাবর্তন কেবল শারীরিক মিলন নয়, বরং মানব আত্মার চরম সংকল্পের এক মহাকাব্যিক বিজয় হিসেবে প্রকাশিত হয়।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+মহীয়সী প্রতিষ্ঠা
+
+#### segment_summary
+
+অবিরাম সংগ্রাম এবং বিশ্বাসের মাধ্যমে বেহুলার চরিত্রটি এক মহৎ, কিংবদন্তী নারীর রূপে চিরস্থায়ী হয়।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+শূন্যতার পূর্ণতা
+
+#### segment_summary
+
+স্বামীর ফিরে আসায় সেই অতল শূন্যতা পূরণ হয়, যা সামাজিক প্রত্যাখ্যান এবং বিচ্ছিন্নতার কারণে সৃষ্টি হয়েছিল।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অন্ধকার ও আলোর মিলন
+
+#### segment_summary
+
+দীর্ঘকাল ধরে বিদ্যমান অন্ধকার এবং সংশয়ের আবছায়া অবশেষে আলোর শিখায় বিলীন হয়ে যায়।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রেরণার স্রোত
+
+#### segment_summary
+
+বেহুলার এই পরিণতি অন্যান্য নিপীড়িত আত্মার জন্য এক অপ্রতিরোধ্য অনুপ্রেরণার উৎস হয়ে ওঠে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+নীরব অভিযোগের প্রতিধ্বনি
+
+#### segment_summary
+
+বিজয় সত্ত্বেও, এই কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক গভীর, নীরব অভিযোগের প্রতিধ্বনি বহন করে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অবিস্মরণীয় অধ্যায়
+
+#### segment_summary
+
+বেহুলার জীবনকাহিনী কেবল ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় ও শক্তিশালী অধ্যায় রচনা করে।
+
+#### further_references
 
 
 ## level
@@ -31,52 +238,47 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- The turning point occurs not when the truth is spoken aloud, but in a moment of complete internal silence, where the accumulated weight of all lies collapses under its own inertia.
-- Framing the 'unmasking' as an act of precise surgical dissection: each accusation is analyzed, not with rage, but with the cool clarity required to remove cancerous tissue from belief structures.
-- The revelation arrives shrouded in a specific natural element—perhaps mist clinging low to the ground (referencing water/air) that momentarily obscures and then reveals the culprits.
+- দৃষ্টিভঙ্গি পরিবর্তন: প্রত্যাবর্তনটিকে কোনো নাটকীয় 'মিলন' হিসেবে না দেখিয়ে, দুটি বিচ্ছিন্ন শক্তি কাঠামোর মধ্যে হওয়া অনিবার্য 'স্থিতিশীলতা' অর্জন হিসেবে চিত্রিত করা।
+- উপাদানভিত্তিক ফ্রেম: পুরো কবিতাটি কেবল একটি নির্দিষ্ট ইন্দ্রিয়ের উপর কেন্দ্রীভূত রাখা (যেমন, শুধুমাত্র স্পর্শ বা শব্দ), যেখানে সমস্ত ভাব প্রকাশ পাবে সেই একক সংবেদন দ্বারা – যা পূর্ববর্তী অধ্যায়গুলোতে ব্যবহার হয়নি।
+- দ্বৈত উপসংহার: একই সাথে জয় এবং অনিবার্য প্রশ্নকে ধারণ করা—স্বামীর ফিরে আসা আনন্দের মুহূর্তেও সমাজের কঠোর বাস্তবতার শীতলতা যেন ফিসফিস করে শোনা যায়।
 
 ### story_options
 
-- Setting: The quiet, shadow-strewn corridor of the ancestral home; Desire: To expose one specific conspirator whose silence has been most damning; Obstacle: That the evidence is purely testimonial, reliant only on Behula's unflinching memory.
-- Setting: Near a well or source of water—a place historically connected to village life; Desire: For the truth itself to feel cleansing and unstoppable (like running water); Obstacle: The social inertia that resists purification, preferring comfortable falsehoods.
-- Setting: A high vantage point overlooking the settlement at dawn; Desire: To see the physical landscape reflecting the moral division between those who knew and those who benefited from the deceit; Obstacle: The sheer scale of the entrenched community complicity.
+- সেটিং: একটি পুরনো, ধূসর পাথরের সিঁড়ি (যেখানে সংগ্রাম শুরু হয়েছিল); আকাঙ্ক্ষা: শান্ত হওয়া এক মুহূর্তের নীরবতা; বাধা: অতীতের আঘাতগুলোর সম্মিলিত ভার; পরিবর্তন: সেই নীরবতাই নতুন সংকল্পে পরিণত হয়।
+- সেটিং: ভোরের প্রথম আলো যেখানে প্রবেশ করে, তা যেন মলিন হয়ে আসা ঘরের মেঝেতে পড়ে; আকাঙ্ক্ষা: সমস্ত 'অবিশ্বাস' শব্দটি বাতাসের সাথে মিলিয়ে যাওয়া; বাধা: হৃদয়ে জমে থাকা তিক্ত স্মৃতি; পরিবর্তন: উষ্ণতার ছোঁয়া সেই শীতলতাকে গ্রাস করে নেয়।
+- সেটিং: নদীর கரையின் শুকনো, জীর্ণ মাটি (গাঙুড়ের আলয়); আকাঙ্ক্ষা: অতীতের সকল অনিশ্চয়তা মুছে ফেলা; বাধা: পুরোনো রীতিনীতির ফিসফিসানি; পরিবর্তন: ভেলা স্থির হয়ে যায়, জীবনের প্রবাহে নতুন ছন্দ আসে।
 
 ### subject_rotations
 
-- Treating 'conspiracy' not as a political plot, but as a collective failure of communal sight—a blindness shared by many who looked away.
-- Focusing on the nature of *belief* itself: how it is built upon necessary fictions, and what happens when one central fiction (like Lakhindor’s death) is forcibly dismantled.
-- Shifting emphasis from the perpetrators' guilt to the fragility of societal narratives—how easily a myth can be inverted or destroyed by singular truth.
+- স্বামীর প্রত্যাবর্তনকে শারীরিক পুনর্মিলনের চেয়ে একটি গভীর 'বাস্তবতার পুনরুদ্ধার' হিসেবে দেখানো—যা তার নিজের অস্তিত্বের প্রমাণ দেয়।
+- বেহুলার ভেতরের শক্তিকে বাইরের জগতের কোনো শক্তির দ্বারা প্রেরণা পাওয়া নয়, বরং সম্পূর্ণভাবে অভ্যন্তরীণ স্থিতিস্থাপকতা হিসেবে প্রতিষ্ঠা করা।
+- চূড়ান্ত বিজয়ের পরে সৃষ্ট 'বিরাম' বা 'শূন্যতার নতুন রূপ' নিয়ে লেখা—এই স্থিরতাটাই আসলে এক ভিন্ন প্রকার মানসিক চাপ।
 
 ### sensory_details
 
-- The metallic, coppery taste left in the mouth after speaking too much unbearable truth into silence.
-- The specific chill rising from stone floors just as the falsehoods begin to dissipate like smoke.
-- The sound of fine sand slipping through cupped hands—representing meticulously constructed lies losing their form.
+- ফাটল ধরা মাটির শুষ্ক গন্ধ, যা প্রাচীন কষ্টের কথা স্মরণ করিয়ে দেয় (ঘ্রাণ)।
+- অত্যন্ত মৃদুভাবে কাপড়ের ভাঁজ খুলে যাওয়ার ধ্বনি—যা কোনো আকস্মিক শব্দ নয়, বরং ধীরে ধীরে বিন্যস্ত হওয়া এক দীর্ঘশ্বাসের মতো (শ্রবণ)।
+- দীর্ঘ ভ্রমণের পর চামড়ায় পড়া সামান্য রুক্ষতা, যা কঠিন পরীক্ষার সাক্ষ্য দেয় (স্পর্শ)।
 
 ### research_questions
 
-- How can Bengali poetry evoke a sense of 'moral gravity' or irreversible consequence without relying on external, dramatic action?
-- What poetic imagery signifies the transition from psychological turmoil (grief) to intellectual clarity (truth)?
+- কোনো নির্দিষ্ট প্রাচীন বাংলা শব্দ আছে কিনা যা 'কষ্টের মধ্য দিয়ে অর্জিত শান্ত স্থিতিশীলতাকে' বোঝায় এবং সেটি অতি-ধর্মীয় ভাব থেকে মুক্ত থাকে?
+- কবি কীভাবে লখিন্দরের প্রত্যাবর্তনকে এমনভাবে চিত্রিত করবেন যেন তা কোনো অ্যাকশন নয়, বরং দুটি বিচ্ছিন্ন মহাজাগতিক শক্তির অনিবার্য পুনঃসংযুক্তি (Coalescence)?
 
 ### structural_variants
 
-- A highly cyclical structure where the unmasking is immediately followed by a quiet return to the initial pain, suggesting that truth does not erase sorrow.
-- An epistolary approach where fragments of 'true testimony' are presented as disembodied thoughts, pieced together poetically.
-- A rapid-fire montage of moments leading up to the revelation, emphasizing temporal compression before a single, slow-motion moment of clarity.
+- একটি পর্ব কাঠামো যেখানে প্রতিটি উপ-খণ্ডে শব্দের ধ্বনিগত পুনরাবৃত্তির মাধ্যমে ভাব গভীর হয়, কিন্তু শব্দকোষ নতুন থাকে (Sonority-driven parallelism)।
+- Structure of 'Inhale/Exhale': দীর্ঘ শ্বাস (প্রতীক্ষা) এবং ক্ষিপ্র নিঃশ্বাস (পুনর্মিলন)-এর বৈসাদৃশ্য নিয়ে লেখা।
 
 ### unused_angles
 
-- The burden carried by the *accuser* in revealing the truth—the exhaustion that comes from being the sole purveyor of painful knowledge.
-- Exploring how the community adapts its relationship with Behula *after* the truth, moving from fear to active acceptance or continued distancing.
+- স্বামীর প্রত্যাবর্তনের মুহূর্তে বেহুলার শরীরের প্রতিটি অঙ্গ কীভাবে পূর্বের কষ্টের ভ চিহ্ন ধারণ করে, সেই শারীরিক চিত্রণ।
+- সমাজকে সরাসরি উপেক্ষা করার পরিবর্তে, তাদের অস্তিত্ব স্বীকার করেও তাকে গুরুত্বহীন করা—যেমন দূরবর্তী এক ধূলিকণার মতো।
 
 ### variety_note
 
-Unlike chapters focusing on her journey (water/river) or internal fortitude (fire/spirit), this chapter focuses entirely on the destructive power of language and the surgical process of epistemological revelation within a contained domestic space.
+Neighbouring chapters focused on the struggle's mechanics; this chapter must focus entirely on the philosophical weight and quiet consequence of resolution, using highly specific sensory grounding.

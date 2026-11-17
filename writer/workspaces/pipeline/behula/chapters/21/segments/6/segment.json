@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+  "segment_summary": "বেহুলার ব্যক্তিগত ট্র্যাজেডি কীভাবে সমষ্টিগত প্রেরণা হয়ে ওঠে, সেই রূপান্তরের গভীরতা এই অংশে চিত্রিত হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Employing the concept of 'Echoed Silence': Where the celebration of reunion is punctuated by moments where only the unspoken, damning societal whisper remains audible beneath the triumphant rhythm.",
+    "story_option": "Setting: A quiet corner by a stream, far from onlookers; Desire: To engage in a private, almost scientific analysis of their shared breath and pulse alignment post-event; Obstacle: The sudden intrusion of an external sound (a village cry, a bird's sharp call) shattering the achieved perfect synchronicity.",
+    "subject_rotation": "Presenting the relationship dynamic after reunion through a lens of mutual, earned reverence rather than pure romantic fervor—acknowledging each other's scars as maps.",
+    "sensory_detail": "Sound: A deep, subterranean hum—a low resonance beneath the joyful cadence—that signifies unresolved systemic tension.",
+    "research_question": "How does one poetically render the concept of 'structural societal failure' using only the elevated, mythic vocabulary established in the text?",
+    "structural_variant": "Begin with a moment of profound sensory satiation (e.g., the taste of clear river water) immediately following reunion, then allow that immediate bliss to be undermined by philosophical doubt in subsequent stanzas.",
+    "variety_note": "This chapter pivots from the sheer act of miraculous return (Previous Chapters) to a philosophical deconstruction of what that triumph fundamentally means in the face of ongoing systemic imperfection, grounding the spiritual high with critical intellectual inquiry."
+  }
+}

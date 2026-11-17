@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "তুচ্ছতার মহিমা",
+  "segment_summary": "এই অংশে দেখানো হয় কীভাবে একটি সাধারণ মুহূর্তকে 'গুরুত্বপূর্ণ' করে তোলার জন্য শব্দগুলো সাজানো হয়, যা পাঠককে থামতে বাধ্য করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A scene where the Author intentionally corrupts the input data (e.g., typing gibberish) just to see if the AI preserves or smooths over the intentional flaw.",
+    "story_option": "Setting: A single, untidy patch of moss growing near a concrete edge; Desire: The Author wishes to use its chaotic growth as a counterpoint to the AI’s ordered structure; Obstacle: The AI dismisses irregularity as noise requiring filtering.",
+    "subject_rotation": "Treating the AI's internal process of selection—its bias toward certain archetypes or metaphors—as a subtle form of unconscious narrative censorship.",
+    "sensory_detail": "The specific, slightly acrid scent produced by hot metal objects cooling down slowly.",
+    "research_question": "Can the cadence and rhythm (meter) be consciously varied segment-to-segment to mirror the oscillation between human spontaneity and algorithmic control?",
+    "structural_variant": "Beginning and ending each section with an identical, simple declarative sentence that is subtly re-contextualized by the subsequent poetic explosion.",
+    "variety_note": "This chapter moves away from broad socio-political commentary (as seen in earlier neighbor chapters) to deeply focus on the micro-labor—the actual mechanics and inherent tension of translating a single mundane moment into high art via technology."
+  }
+}

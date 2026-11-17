@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "নারীর অস্তিত্বের দলিল",
+  "segment_summary": "চিহ্নটি নারীর ব্যক্তিগত পরিচয়ের সঙ্গে কীভাবে জড়িয়ে থাকে, যা সামাজিক স্বীকৃতির একটি দৃশ্যমান প্রমাণ।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "লাল রঙের তাপমাত্রার অনুভূতি—যেন আভাটি স্পর্শ করলে ত্বকে এক ধরনের উষ্ণ অথচ ভঙ্গুর বিদ্যুৎ অনুভূত হয়।",
+    "story_option": "একটি শিশুকে দেখা যায় দরজার কাছে দাঁড়িয়ে, সে সিঁদুরের লাল বিন্দুটি পর্যবেক্ষণ করছে; তার চোখে এই চিহ্নটির গভীরতা বোঝার ব্যর্থ চেষ্টা ফুটে উঠছে।",
+    "subject_rotation": "চিহ্নটিকে একটি ম্যাপ হিসেবে ব্যবহার করা—যেখানে প্রতিটি সূক্ষ্ম দাগ পারিবারিক ইতিহাসের কোনো এক গুরুত্বপূর্ণ মোড় নির্দেশ করে।",
+    "sensory_detail": "সিঁদুরের গুঁড়োর শুকনো, মেজাজপূর্ণ গন্ধ যা বাতাসের সঙ্গে মিশে যায়।",
+    "research_question": "লোককথায় 'সিঁদুর' বা এই ধরনের চিহ্নগুলো কীভাবে সামাজিক অবস্থান বা পারিবারিক শক্তির ইঙ্গিত দেয়, তা কি লেখকের বিশ্বলোকে ব্যবহারের উপযোগী?",
+    "structural_variant": "Structure based on repetition of the colour red: from its powder state to its wet spread, to its fading echo.",
+    "variety_note": "Neighbouring chapters focus on transient physical sensations (sweat, wind, sound); this piece grounds the observation in a fixed, culturally resonant object that embodies silent continuity."
+  }
+}

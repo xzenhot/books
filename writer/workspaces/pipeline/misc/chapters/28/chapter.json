@@ -2,49 +2,112 @@
   "chapter_index": 28,
   "name": "28",
   "word_target": 500,
-  "chapter_title": "The Saree Folded on the Rope",
-  "chapter_summary": "A saree hangs folded over a rope, and the poem regards the length of cloth that rests between one wearing and the next.",
-  "further_references": [],
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This final chapter synthesizes the myriad small observations—from the sweat on a chai glass to the trace of vermilion—into a grand, yet fragile, inquiry. It confronts the tension between the overwhelming scale of 'India' and the intimate reality of its daily minutes. The imagery shifts from isolated particulars to a collective tapestry, asking whether these fleeting moments coalesce into a stable national essence or remain merely beautiful, transient sparks. The central conflict is the search for permanence within ephemerality, leaving the reader suspended between awe and quiet melancholy.",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "ক্ষুদ্রতার সমাবেশ",
+      "segment_summary": "The poem begins by gathering the disparate images—the dampness, the dust, the folded hands—into a single, overwhelming sensory field.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "সিঁদুরের রেখা ও ঘামের ছাপ",
+      "segment_summary": "It juxtaposes the fixed, ritualistic mark of sindoor against the transient, physical evidence of labor, like the sweat on a platform.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "নীরবতার ভাষা",
+      "segment_summary": "The focus turns to the unspoken communication found in shared silence, whether on a bus or in a crowded market.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য শ্রমের প্রতিধ্বনি",
+      "segment_summary": "The poem reflects on the foundational, often unseen labor—the vendor's call, the milkman's cycle—that underpins the visible life.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "প্রকৃতি ও গৃহস্থালির মিলন",
+      "segment_summary": "It merges the natural elements, like the monsoon's first touch, with the intimate confines of the home, such as the tiffin box.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আলো ও অপেক্ষার ভার",
+      "segment_summary": "The imagery of the dusk lamp and the weary traveler is invoked, symbolizing the constant human state of seeking refuge or destination.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "কাঠামোর প্রশ্ন",
+      "segment_summary": "The core philosophical question is posed: Do these minute details build a cohesive structure, or are they merely beautiful, isolated flashes of time?",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "স্থায়িত্বের সন্ধানে",
+      "segment_summary": "The poem concludes not with an answer, but with a tender acceptance of the ambiguity, finding profound meaning in the act of attentive observation itself.",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Treating the saree not as an object of beauty or ritual wear, but as a complex form of salvaged textile—a record of dyes bled from previous seasons or damaged by monsoon grit.",
-      "Approaching the folded fabric through the lens of its potential absence: imagining what it *would* look like if unfolded into motion versus how it lies static and waiting on the rope.",
-      "Framing the rope itself as a counterpoint to the cloth—a rigid, utilitarian anchor against the flowing, complex pattern of human life captured in the drape."
+      "বিষয়বস্তুকে কেবল 'পদার্থের স্থিরতা' (Matter-Stasis) রূপে উপস্থাপন করা—রঙ বা আকৃতির দিকে মনোনিবেশ করে অর্থবাদকে সম্পূর্ণ অস্বীকার করা।",
+      "আলো/অন্ধকারের পরিবর্তনকে না এনে, বরং শব্দের তীব্রতা ও ঘনত্বে পরিবর্তন আনা: একটি অনুচ্ছেদ হবে নিবিড় শব্দময় এবং পরেরটি প্রায় শূন্যতার প্রতিধ্বনিযুক্ত।",
+      "পর্যবেক্ষকের 'আমি'-কে এক নশ্বর বস্তুর অংশ হিসেবে চিত্রিত করা (যেমন: প্ল্যাটফর্মের ঘামে ভেজা চায়ের গ্লাস নিজেই যেন বক্তা)।"
     ],
     "story_options": [
-      "Setting: A high balcony catching the heat of late afternoon, desire: To trace the precise way the sunlight bleaches specific colors on the warp and weft, obstacle: The wind threatening to catch it violently before its intended use.",
-      "Setting: Dampened by an overnight shower hanging near a low doorway, desire: To note how the fibers absorb moisture and shift their internal structure, turning bright patterns into deep, saturated indigo echoes, obstacle: The potential for mildew or decay setting in while waiting.",
-      "Setting: Inside a small courtyard where dappled light filters through foliage onto the cloth, desire: To observe how tiny insects might move across its surface during the day’s quiet hours before it is needed by someone, obstacle: The stain of dust settling into the weave unnoticed."
+      "একটি গভীর রাতে, যখন বাজারের সকল কোলাহল স্তব্ধ হয়ে আসে এবং শুধু একটি মাটির প্রদীপের ক্ষীণ আলো অবশিষ্ট থাকে; আকাঙ্ক্ষা: আলোর শিখার সেই নিজস্ব রাসায়নিক স্থিতিশীলতা মাপা; বাধা: বাতাসের এক টুকরো দমকা হাওয়া যা তাকে নিভিয়ে দেয়।",
+      "এক চরম ভিড়ের মধ্যে—যেখানে প্রতিটি মানুষই নিজের ক্ষুদ্র জগতে আচ্ছন্ন; আকাঙ্ক্ষা: সম্মিলিত নীরবতার মধ্য দিয়ে কোনো একটি নির্দিষ্ট 'মনস্তাত্ত্বিক ফ্রিকোয়েন্সি' ধরা; বাধা: অসংখ্য ভিন্ন কণ্ঠস্বরের চাপা, অস্থির উপস্থিতি।",
+      "একটি জীর্ণ রেলিংয়ের ওপর জমে থাকা শৈবাল বা ধুলো; আকাঙ্ক্ষা: প্রকৃতির এই ক্ষয়িষ্ণু স্তরকে সময়ের 'রেকর্ড বুক' হিসেবে দেখা; বাধা: সূর্যের তাপ যা সেই সূক্ষ্ম জৈবিক কাঠামোকে দ্রুত বিলীন করে দেয়।"
     ],
     "subject_rotations": [
-      "Focusing on the labor embedded in the textile's making—the specific geometry of the dye placement or the hand-looming rhythm that dictates its final form.",
-      "Viewing the fold itself as a temporary monument: an intentional act of pausing and preserving identity until the next time it must express that identity publicly.",
-      "Shifting attention from color/pattern to weight—how the density of the material causes it to pull against the rope under gravity, anchoring it to its spot in the day's narrative."
+      "দৈনন্দিন বস্তুকে কোনো সামাজিক প্রতীক না করে, কেবল তার নিজস্ব মৌলিক পদার্থবিদ্যা (তাপমাত্রা, ঘর্ষণ, রাসায়নিক পরিবর্তন) নিয়ে আলোচনা করা।",
+      "বৃহত্তর ধারণাটিকে সম্পূর্ণরূপে মুছে ফেলে শুধুমাত্র দুটি বিপরীতমুখী উপাদান (যেমন: সিঁদুরের লাল আভা বনাম চায়ের শীতল জলীয় বাষ্প) এর মধ্যেকার 'পারস্পরিক ক্রিয়া'র প্রতি মনোযোগ কেন্দ্রীভূত করা।",
+      "অপেক্ষাকে একটি স্থবির অবস্থা হিসেবে না দেখে, এটিকে ক্রমাগত ক্ষুদ্র পরিবর্তনের এক গতিশীল প্রক্রিয়া হিসেবে চিত্রিত করা।"
     ],
     "sensory_details": [
-      "The faint mineral tang picked up by the cotton fibers after being left near a stone wall.",
-      "The subtle sound of the dried threads chafing against each other as temperature shifts throughout the day.",
-      "The tactile sensation of fine, almost invisible grit—dry earth dust or lime powder—caught within the folds."
+      "উষ্ণ ধুলোর ওপর জমে থাকা ঘামের লোনা-মিষ্টি স্বাদ (Taste)।",
+      "ভোরের দোকানদারের ভাঁজ করা হাতের চামড়ার রুক্ষতা এবং চাপা গন্ধে ভরা অনুভূতি (Touch/Smell)।",
+      "বাসের ধাতব মেঝেতে পড়ে থাকা টিকিট ছিঁড়ে যাওয়ার際の অতি ক্ষীণ 'চাপ' বা কর্কশ শব্দ (Sound)।"
     ],
     "research_questions": [
-      "What are common methods used in contemporary Indian homes to maintain the structure and color saturation of hand-woven sarees when they are stored folded?",
-      "Are there specific traditional meanings associated with how a saree is folded or draped before use that differ from its presentation while hanging?"
+      "‘শান্ত, সহনশীল মাধুর্য’ নামক এই ভাবটি কাব্যিকভাবে ফুটিয়ে তোলার জন্য কোন ধরনের প্রাচীন বাংলা শব্দের অনুরণন ব্যবহার করলে তা সমসাময়িকতার সঙ্গে সংঘর্ষ সৃষ্টি করবে না?",
+      "শব্দ-সমন্বয় প্রক্রিয়ায় তৎসম ও আঞ্চলিক ভাষার মিশ্রণের (৫%/১০%) ক্ষেত্রে কোন শব্দশ্রেণীগুলো সবচেয়ে বেশি বাধা সৃষ্টিকারী হিসেবে প্রতীয়মান হয়?"
     ],
     "structural_variants": [
-      "A poem structured around the concept of tension: pull (the weight of the cloth) vs. release (the possibility of wearing it).",
-      "An inventory structure, listing the visible patterns or colors as if they were lines of code, until one pattern introduces an unexpected anomaly.",
-      "Beginning with a moment *after* use—a discarded, partially crumpled remnant caught beneath the main fold—to suggest weariness."
+      "একটি প্যালিণ্ড্রোমিক স্তবক কাঠামো অনুসরণ করা, যেখানে শেষ লাইনটি প্রথম লাইনের বিপরীত ভাব বহন করে।",
+      "প্রতিটি Segment-এর শুরু একটি অব্যয় বা বিশেষণ দিয়ে হওয়া এবং শেষে সেই ভাবের অপরিবর্তিত অথচ পরিবর্তিত রূপ লাভ করা।"
     ],
     "unused_angles": [
-      "The comparison between the complexity of the saree's weave and a nearby architectural detail (like a carved window frame or lattice work).",
-      "A focus on how the shadows cast by the folds change shape throughout the day, mimicking narrative shifts.",
-      "Treating the rope as an accidental metaphor for duty—taut, necessary, always present."
+      "আলোচনাকে সম্পূর্ণরূপে অভ্যন্তরীণ (Introspective) দিকে ফিরিয়ে আনা; বাইরের বস্তুগুলোর প্রতি মনোযোগ না দিয়ে, কেবল পর্যবেক্ষকের 'অনুভবকারী কাঠামোর' ওপর আলোকপাত করা।"
     ],
-    "variety_note": "Unlike poems focusing on fleeting actions (like a bell or a splash), this piece arrests the subject in a state of suspended potential, examining material duration rather than momentary event."
+    "variety_note": "এই পর্বটি পূর্ববর্তী অধ্যায়গুলির বিচ্ছিন্ন উপাদানগুলিকে একীভূত করে একটি দার্শনিক সংশ্লেষণের চেষ্টা করছে; তবে এটি কোনো সিদ্ধান্তে পৌঁছায় না, বরং প্রশ্নটির ওজন বহন করতে থাকে।"
   }
 }

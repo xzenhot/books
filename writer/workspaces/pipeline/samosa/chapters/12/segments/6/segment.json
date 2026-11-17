@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "বাণিজ্যের নীরব সাক্ষী",
+  "segment_summary": "এই খাবারটি কীভাবে বিভিন্ন জাতি ও সংস্কৃতির নীরব সাক্ষী হয়ে চলেছে, সেই ঐতিহাসিক প্রেক্ষাপটটি তুলে ধরা হবে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting perspective entirely to an ancient merchant who first saw the 'sambusak' seeds arrive and reflects on their enduring journey centuries later.",
+    "story_option": "Setting: Inside a sealed clay pot recovered from an archaeological dig; Desire: To breathe the air preserved within that vessel—the first whiff of the *sanbusak*.",
+    "subject_rotation": "Examining the transformation through religious or colonial encounters that forced adaptation upon its core ingredients.",
+    "sensory_detail": "A residual, almost mineral 'tastelessness' that coats the tongue after consuming a heavily adapted foreign version (taste).",
+    "research_question": "Can any documented trade log hint at the cultural impact or initial reception of imported seed pastes in early Indian trading posts?",
+    "structural_variant": "Using extended metaphors where the food's filling is compared to complex political treaties or shifting border definitions.",
+    "variety_note": "This chapter moves away from personal diasporic melancholy (neighboring chapters) to a macro-historical view, treating the food's journey as an epic saga spanning centuries and continents."
+  }
+}

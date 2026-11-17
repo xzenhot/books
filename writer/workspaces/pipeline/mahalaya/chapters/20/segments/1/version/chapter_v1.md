@@ -1,8 +1,8 @@
-# বীজের অঙ্কুরোদগম
+# মহালয়া: এর কাহিনি
 
 ## Workshop
 
-উপসংহারের এই পর্বে, মহালয়ার তীব্র পবিত্রতার ক্ষণস্থায়ী প্রভাব ধীরে ধীরে ম্লান হতে শুরু করে, যেন এক স্বপ্নভঙ্গ। অর্ণব ও শ্রেয়ার ভেতরের যে আত্মিক শূন্যতা ছিল, তা এই বার্ষিক জাগরণের মাধ্যমে এক নতুন, যদিও অনিশ্চিত, বীজ বপন করেছে। এই অধ্যায়টি অনুসন্ধান করে যে, সেই পবিত্রতার আলো যখন দৈনন্দিন জীবনের ধূসর বাস্তবতায় ফিরে আসে, তখন সেই বীজ কী ধরনের ফল দেবে—এটি কি স্থিতিশীলতার প্রতিশ্রুতি, নাকি আরও গভীর অস্থিরতার জন্ম? পাঠককে এই প্রশ্ন নিয়ে ভাবতে থাকতে হয় যে, এই বার্ষিক পুনর্জন্ম কি কেবল একটি অলীক স্মৃতি, নাকি মানব অস্তিত্বের প্রতিবার নতুন করে শুরু করার এক অপরিহার্য অঙ্গীকার।
+Since the provided epic only contains 15 chapters, this chapter index (20) is outside the established narrative arc. Structurally, this chapter would serve as a meta-reflection on the entire journey of Mahalaya, synthesizing the themes of fleeting spiritual awakening and enduring human longing. It explores the tension between the intense, momentary purity experienced during the festival and the inevitable return to the mundane world. The central conflict here is the persistence of the 'sacred memory' against the erosion of daily routine, leaving the reader to question the true, lasting impact of profound spiritual moments.
 
 ## Story
 

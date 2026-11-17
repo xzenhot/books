@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 45,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত সংগ্রাম শেষে, সেই প্রতীক্ষিত মুহূর্ত আসে যখন লখিন্দর ফিরে আসে, যা বেহুলার দীর্ঘ অপেক্ষার সমাপ্তি ঘটায়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence *after* the reunion—the exhaustion of profound endurance, rather than the joy.",
+    "story_option": "A memory sequence detailing the very first moments after reunion, focusing on a shared, unspoken look that encompasses all prior hardship (Setting: Within the shadow of the threshold stone; Desire: A single breath mirroring years of separation; Obstacle: The phantom ache of past suffering).",
+    "subject_rotation": "Viewing the return not as a triumph over fate, but as a terrifying acceptance of unending metaphysical negotiation.",
+    "sensory_detail": "The abrasive texture of residual dust motes disturbed by sudden, powerful movement upon entry (sight/touch).",
+    "research_question": "What is the most arresting classical Bengali vocabulary for 'unshakeable equilibrium' that suggests perpetual maintenance rather than static peace?",
+    "structural_variant": "A spiraling structure where each segment revisits an earlier emotional state but frames it through the lens of present victory (revisiting loss with empowered memory).",
+    "variety_note": "Unlike previous chapters which focused on specific trials, this chapter must shift entirely to the aftermath—the complex texture of maintaining victory and answering the residual questions it raises."
+  }
 }

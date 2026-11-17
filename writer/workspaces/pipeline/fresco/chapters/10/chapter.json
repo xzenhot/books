@@ -2,58 +2,118 @@
   "chapter_index": 10,
   "name": "10",
   "word_target": 500,
-  "chapter_title": "The Brush's Small Weather",
-  "chapter_summary": "A brush, a wrist, and a shifting lamp make a private weather over the wall. One tremor changes the mark, and she treats uncertainty as part of the hand.",
-  "further_references": [],
-  "level": "chapter",
-  "state": "enriched",
-  "enrich": {
-    "active_filters": [
-      "research",
-      "genre",
-      "history",
-      "spatality",
-      "movement",
-      "correctness",
-      "quality"
-    ],
-    "status": "enriched"
-  },
-  "genre": "craft lyric",
-  "spatality": {
-    "place": "arm's length from the wall, the lamp set low and to the left",
-    "season": "night, wind moving through the courtyard",
-    "route": "no movement beyond the wrist's short arc",
-    "texture": "lamp flame leaning, shadow of the brush jumping, a tremor in the wrist"
-  },
-  "stereotype": {
-    "signature": "dickinson",
-    "style": "pijush"
-  },
-  "creative_enrichment": {
-    "poetic_parameters": {
-      "emotional_rawness": 4,
-      "grammatical_abstraction": 6,
-      "structural_rigidity": 5,
-      "rhythmic_urgency": 4,
-      "digital_simplicity": 6,
-      "movement": "Language Poetry — attention to the smallest unit, here the tremor inside one stroke.",
-      "writing_skills": [
-        "microscopic attention to a single gesture",
-        "syntax that stutters where the hand stutters",
-        "a metaphor built from weather rather than feeling"
-      ],
-      "image_seed": "a lamp flame leaning left, throwing the brush's shadow across the wet line",
-      "volta": "from treating the tremor as an intruder to accepting it as the hand's own weather",
-      "sonic_texture": "soft sibilance in wrist, shift, small, and a hard stop on the word wrong",
-      "line_gesture": "very short lines that mimic small adjustments; one long line where the hand steadies",
-      "variety_note": "Chapter nine was vertical and effortful; this poem is almost motionless and finds its drama in a millimetre.",
-      "metaphor_family": "weather at the scale of a hand — wind, lean, shadow, steadiness",
-      "address": "the brush, treated as a small animal with its own intention",
-      "closing_move": "the tremor welcomed, but the line left uncorrected"
-    }
-  },
+  "segment_count": 8,
+  "chapter_title": "অপূর্ণতার দর্শন",
+  "chapter_summary": "এই অধ্যায়টি দেবলিনার শিল্পদর্শনকে এক গভীর দার্শনিক মোড় দেয়, যেখানে সে উপলব্ধি করে যে শিল্পের 'সত্যতা' কেবল নিখুঁত হওয়ার মধ্যে নিহিত নয়, বরং তার অসম্পূর্ণতার মধ্যেই লুকিয়ে আছে। ফ্রেস্কোর প্রতিটি স্তর যেমন সময়ের সাথে সাথে ত্রুটি ধারণ করে, তেমনি দেবলিনার শিল্পও তার দুর্বলতা ও দ্বিধাগুলোকে গ্রহণ করে। এই অনুসন্ধানটি শিল্পকে একটি চূড়ান্ত, স্থির রূপ না দিয়ে, একটি চলমান, ভঙ্গুর প্রক্রিয়ার স্বীকৃতি দেয়। প্রশ্নটি হলো: এই ইচ্ছাকৃত অসম্পূর্ণতা কি শিল্পের সর্বোচ্চ রূপ, নাকি এটি কেবলই ব্যর্থতার এক কাব্যিক স্বীকারোক্তি?",
+  "further_references": [
+    "research.md"
+  ],
   "segments": [
-    1
-  ]
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "ফ্রেস্কোর স্তর",
+      "segment_summary": "দেবলিনা ফ্রেস্কোর রাসায়নিক স্তরগুলোর দিকে তাকায়, যেখানে প্রতিটি স্তরই পূর্ববর্তীটির উপর একটি দুর্বল ছাপ ফেলে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 60,
+      "segment_title": "ত্রুটির সৌন্দর্য",
+      "segment_summary": "সে আবিষ্কার করে যে ফাটল বা রঙের সামান্য বিচ্যুতিই চিত্রটিকে জীবন্ত করে তোলে, তাকে নিখুঁত করে না।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 60,
+      "segment_title": "আত্মার ছিদ্র",
+      "segment_summary": "এই ত্রুটিগুলো তার নিজের ভেতরের চাপা ভয় ও আকাঙ্ক্ষার প্রতিচ্ছবি হয়ে ওঠে, যা সে এতদিন লুকিয়ে রেখেছিল।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 60,
+      "segment_title": "অপূর্ণতার আহ্বান",
+      "segment_summary": "শিল্পের এই অসম্পূর্ণতা তাকে সমাজের আরোপিত 'সম্পূর্ণতা'র ধারণা থেকে মুক্তি দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "প্রক্রিয়া বনাম ফল",
+      "segment_summary": "দেবলিনা বুঝতে পারে যে শিল্পকর্মের মূল্য তার চূড়ান্ত রূপে নয়, বরং সৃষ্টির নিরন্তর প্রক্রিয়ায় নিহিত।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 60,
+      "segment_title": "দুর্বলতার শক্তি",
+      "segment_summary": "সে তার দুর্বলতাগুলোকে লুকানোর পরিবর্তে, সেগুলোকে তুলির আঁচড়ে সচেতনভাবে অন্তর্ভুক্ত করার সিদ্ধান্ত নেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 60,
+      "segment_title": "সত্যের ভার",
+      "segment_summary": "এই স্বীকারোক্তিটি একদিকে যেমন মুক্তি দেয়, তেমনি অন্যদিকে এক গভীর দার্শনিক ভার বহন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "অবিরাম রেখা",
+      "segment_summary": "ফ্রেস্কোটি একটি স্থির চিত্র নয়, বরং বাতাসের মতো চলমান, যা সর্বদা নিজেকে নতুন করে নির্মাণ করছে।",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "creative_enrichment": {
+    "angles": [
+      "অপূর্ণতাকে 'ব্যর্থতা'র পরিবর্তে প্রকৃতির নিজস্ব কাঠামোগত সৌন্দর্য (যেমন - মরুভূমির বালির ভাঁজ) হিসেবে চিত্রিত করা।",
+      "দেবলিনার আত্ম-সচেতনতার চূড়ান্ত ধাপ: নিজের দুর্বলতাকে একটি সচেতন শিল্প উপাদান (Tool) হিসাবে ব্যবহার করার নৈতিক সিদ্ধান্ত নেওয়া।",
+      "'অবিরাম রেখা'-কে সময়ের প্রতীকী চিহ্ন—ঘড়ি বা ঘূর্ণনের মতো—ব্যবহার করা, যা ক্ষয়ের সাথে তাল মিলিয়ে চলছে।"
+    ],
+    "story_options": [
+      "একটি দৃশ্য যেখানে দেবলিনা ইচ্ছাকৃতভাবে একটি দুর্বল রঙের মিশ্রণ ব্যবহার করে, কারণ সে জানে সেটি টেকসই হবে না; আকাঙ্ক্ষা: এই স্বল্পস্থায়ী রঙটিই যেন তার বর্তমান তীব্র অনুভূতির প্রতীক হয়ে থাকে।",
+      "ঝড়ের পরে যখন দেয়াল শুকায়, তখন শতছর দাগের মধ্যে এমন এক জায়গায় ফাটল তৈরি হয় যা দেখতে হুবহু দেবলিনার কোনো হাতের রেখার মতো লাগে—অসুবিধা: সেই অংশটিকে ইচ্ছাকৃতভাবে না মুছে রাখা।",
+      "সামাজিক প্রত্যাশার চাপকে একটি 'খুঁটিনাটি তালিকা' হিসেবে কল্পনা করা, যেখানে প্রতিটি অপ্রয়োজনীয় উপাদান ছেঁটে ফেলা হচ্ছে এবং যা অবশিষ্ট থাকছে, তাই তার নিজস্ব আকাঙ্ক্ষার কেন্দ্রবিন্দু।"
+    ],
+    "subject_rotations": [
+      "ফ্রেস্কোটিকে নির্মাণকারী রাসায়নিক প্রক্রিয়াকে একটি আধ্যাত্মিক 'রূপান্তর' (Metamorphosis) হিসেবে দেখা যেখানে পদার্থ পরিবর্তিত হয়ে অর্থ ধারণ করে।",
+      "শিল্পের স্থিতিশীলতাকে প্রত্যাখ্যান করা; এর পরিবর্তে, শিল্পী তার কাজকে সময়ের সাথে বিলীন হওয়ার জন্য প্রস্তুত করে দেওয়া—একটি স্বেচ্ছামূলক ক্ষয় প্রক্রিয়া।",
+      "অসম্পূর্ণতা এবং সমাপ্তির মধ্যেকার বৈপরীত্যে শিল্পীর 'মুক্তি'র সংজ্ঞা পুনঃনির্ধারণ করা।"
+    ],
+    "sensory_details": [
+      "ল্যাপিস-এর গুঁড়ো যখন সদ্য মেশানো চুন মাখার জলের সঙ্গে বিক্রিয়া করে, তখন যে শীতল অথচ তীব্র খনিজ গন্ধ বের হয়।",
+      "স্কাফোল্ডের কাঁচা কাঠ এবং পাথরের মধ্যে জমে থাকা আর্দ্রতা ও শুকনো ধূলির এক মিশ্রিত মরা গন্ধ।",
+      "সন্ধ্যার আবছা আলোয় ফাটলগুলোর ভেতরের গুঁড়ো যেন ক্ষুদ্র হীরার মতো ঝলসে ওঠে।"
+    ],
+    "research_questions": [
+      "ফ্রেস্কোর রাসায়নিক স্তরায় ব্যবহৃত বিভিন্ন প্রিকার্সর উপাদানসমূহের (যেমন - লাইম, পিগমেন্ট) ক্ষয়জনিত উপজাতগুলির দৃশ্যমান রূপ কেমন হতে পারে?",
+      "ঐতিহাসিকভাবে দেওয়াল ফাটলে স্থানীয়ভাবে কী ধরনের জৈব বা অজৈব পদার্থ ব্যবহার করা হতো যা শিল্পকর্মের সঙ্গে মিশে যেত?"
+    ],
+    "structural_variants": [
+      "এই অধ্যায়টিকে তিনটি ভাগে ভাগ করা যেতে পারে: (১) পর্যবেক্ষণ, (২) আত্ম-জিজ্ঞাসা, এবং (৩) কর্মগত সিদ্ধান্ত গ্রহণ।",
+      "প্রতিটি অনুচ্ছেদের শেষে एक ছোট পঙক্তি যোগ করা যা সরাসরি বাইরের জগতের একটি সংক্ষিপ্ত মন্তব্যকে প্রত্যাখ্যান করে দেয়।"
+    ],
+    "unused_angles": [
+      "শিল্পের 'অর্থনৈতিক' দিকটিকে পুরোপুরি উপেক্ষা করা; শুধুমাত্র শ্রম ও অস্তিত্বের নিরিখে এর মূল্য বিচার করা।",
+      "দেবলিনার এই আত্ম-स्वीкраতা যেন কোনো চূড়ান্ত শান্তি নয়, বরং পরবর্তী এক গভীরতর অস্থিরতার সূচনা মাত্র।"
+    ],
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলোতে বাইরের জগৎ বা মানবীয় মিথস্ক্রিয়া প্রাধান্য পেয়েছিল; এখানে ফোকাস সম্পূর্ণভাবে শিল্পের আভ্যন্তরীণ রাসায়নিক ও দার্শনিক প্রক্রিয়ায় নিবদ্ধ। এই অংশে ছন্দ বিরতিগুলি যেন অনিবার্য মানসিক ভার বহন করে।"
+  },
+  "draft": {
+    "sha256": "973d1e2430b3994b227d66315d4031b81ce139835cfa212aa305d74fee3cb934",
+    "written_at": "2026-11-16T13:09:18.467380+00:00",
+    "origin": "write"
+  }
 }

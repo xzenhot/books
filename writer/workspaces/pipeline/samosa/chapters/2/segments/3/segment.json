@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "স্বাদের প্রথম ফাটল",
+  "segment_summary": "নতুন পরিবেশে প্রথমবার ভাজা খাবারের স্বাদ গ্রহণ করার সময়, জিভে এক সূক্ষ্ম, কিন্তু অনিবার্য ফাটল অনুভূত হয়—যা আদি স্বাদের অনুপস্থিতি নির্দেশ করে।",
+  "name": "2.3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the entire experience as a failed attempt at cartography—trying to map back the taste onto the original geography.",
+    "story_option": "Setting: Inside an old suitcase/bag; Desire: The bag itself to hold enough residual warmth from Bengal; Obstacle: The cold humidity of the new locale seeping through the seams; Turn: The realization that the bag is now merely a container for dried, flavorless remnants.",
+    "subject_rotation": "Investigating the physical mechanisms—the tongue/teeth—as corrupted receptors failing to translate old signals.",
+    "sensory_detail": "A low-frequency drone or hum from unfamiliar machinery that vibrates in the chest cavity rather than being heard.",
+    "research_question": "How can I phrase the transition from the specific 'sorsher tel' (mustard oil) scent to a generalized, odorless 'departure' without resorting to cliché?",
+    "structural_variant": "Employing stanzas that cyclically return to the physical action of swallowing/chewing, while the mental landscape shifts outwards.",
+    "variety_note": "Where Chapter 1 focused on the perfect composition at home (the start), this chapter shifts to the disintegration process during transit and arrival; it is defined by absence rather than presence."
+  }
+}

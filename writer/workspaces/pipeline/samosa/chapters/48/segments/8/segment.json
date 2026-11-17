@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ত ভাজা",
+  "segment_summary": "এই অসমাপ্ত স্বাদটিই প্রবাসীর একমাত্র অটুট আশ্রয় হয়ে ওঠে—একটি এমন স্বাদ যা কেবল স্মৃতিতে নিখুঁতভাবে ভাজা থাকে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the difference in smell (mustard sharp vs. neutral bland) through the lens of language failure—one is an active word, the other merely filler.",
+    "story_option": "Setting: The dark interior of an old travel bag stuffed with cooking tools; Desire: To hear the distinct sound of *sorsher tel* hitting hot metal from memory; Obstacle: The bag only smells of stale, neutral airplane air.",
+    "subject_rotation": "Shifting the focus from 'taste' to 'preservation': viewing the oil as a preservative medium that fails when crossing borders, thus spoiling memory itself.",
+    "sensory_detail": "A specific, acrid metallic tang that overlays any attempt to smell the authentic spice bloom.",
+    "research_question": "How can I poetically represent the transition from *ghran* (scent) to *swad* (taste) when the chemical signal has been fundamentally altered?",
+    "structural_variant": "Using a central refrain—a single word like 'মাটি' or 'আঁচ'—that is repeated but modified semantically across all eight segments.",
+    "variety_note": "This chapter focuses intensely inward on a single sensory input—the medium itself (oil)—a precise isolation contrasting with neighbour chapters that address broader market scenes or linguistic failures."
+  }
+}

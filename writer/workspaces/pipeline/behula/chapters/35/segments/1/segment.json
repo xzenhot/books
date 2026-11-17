@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 35,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত বাধা অতিক্রম করার পর, বেহুলার জীবনে সেই প্রতীক্ষিত প্রত্যাবর্তন ঘটে, যা তার সমস্ত কষ্টের অর্থকে নতুনভাবে সংজ্ঞায়িত করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the *sound* of silence following the reunion: treating the resulting quiet as louder and more complex than any previous clamor.",
+    "story_option": "Setting: The threshold where shadow gives way to dawn; Desire: A single touch that speaks volumes about years lost in trial, Obstacle: The societal expectation that they must immediately resume 'normal' life; Turn: They both choose a moment of radical stillness instead.",
+    "subject_rotation": "Shifting focus from *what* she achieved (reunion) to *how* her persistence altered the structure of their personal reality.",
+    "sensory_detail": "Sight: The way returning moonlight seems thicker, almost viscous, clinging differently to skin than before the trials.",
+    "research_question": "What archaic Bengali vocabulary denotes the state of profound exhaustion that surpasses mere physical fatigue after spiritual warfare?",
+    "structural_variant": "An extended use of sustained musicality where the line breaks themselves embody unresolved tension, mimicking their ongoing existential query.",
+    "variety_note": "This chapter differs from its predecessors by moving decisively into the aftermath, focusing less on 'how' she survived and more on the philosophical texture of having won—a quiet confrontation between achieved peace and enduring systemic critique."
+  }
 }

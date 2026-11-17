@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 53,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ত স্বাদের অনুরণন",
+  "segment_summary": "এই অধ্যায়টি সেই অসমাপ্ত স্বাদের প্রতিচ্ছবি, যা জিভে না পেলেও আত্মার গভীরে একটি তীব্র অনুরণন সৃষ্টি করে চলেছে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A narrative voice that is entirely observational, mirroring a child learning to distinguish between two similar-looking golden snacks but feeling an ineffable difference through smell alone.",
+    "story_option": "Setting: Beside an open travel trunk filled with spices from home; Desire: To compare the residue on the fingers after touching two different types of cooking grease (homemade vs. market); Obstacle: Dust obscures the delicate spectral difference in the oil stains.",
+    "subject_rotation": "Exploring the ethical weight of substitution: is it better to have a flawed replica that functions perfectly in the new place, or starve for the authentic taste?",
+    "sensory_detail": "Smell: The immediate, aggressive bite (*jhal*) that hits the back of the throat from heated mustard fumes, contrasted with a faint, odorless neutrality.",
+    "research_question": "How can the cadence of a line structure be altered in Bangla poetry to simulate the explosive burst of aroma followed by its rapid dissipation?",
+    "structural_variant": "Starting with a detailed, protracted description of the *tala* on the hot surface before any substantive philosophical reflection begins.",
+    "variety_note": "Unlike previous chapters which focused on naming (সিঙ্গাড়া/সামোসা) or general displacement, this chapter locks onto a single, powerful molecular anchor—the cooking medium itself—to explore cultural entropy."
+  }
+}

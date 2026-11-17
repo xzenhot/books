@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "মানবিক সংযোগের মূল্য",
+  "segment_summary": "লেনদেনকে অতিক্রম করে যাওয়া সেই অমূল্য মানবিক মুহূর্তগুলোই তার জীবনের শ্রেষ্ঠ অর্জন হয়ে ওঠে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the 'intrinsic right' of the river—that its flow is a sovereign act against human quantification.",
+    "story_option": "Setting: Just as the sun breaks through low river mist in the morning. Desire: To witness this moment of perfect equilibrium (nature vs. effort) before any transaction begins, Obstacle: The metallic smell of industry drifting on the breeze.",
+    "subject_rotation": "Focusing on the boat wood itself—how its age and scars are a non-negotiable ledger against slick, manufactured materials.",
+    "sensory_detail": "The visual quality of refracted light passing through layers of suspended silt particles in the current.",
+    "research_question": "How can a recurring, non-literal phrase be woven into eight distinct stanzas while maintaining variation without becoming repetitive?",
+    "structural_variant": "A cyclical structure where Segment 8 echoes a core motif from Segment 1 but in its inverted emotional state.",
+    "variety_note": "This chapter pushes away from external conflict toward deep internal resolution; instead of fighting the barrier (like Chapter 6), it absorbs the weight of that confrontation into the rhythm of his being."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ভাষা ও স্বাদের সংযোগসূত্র",
+  "segment_summary": "ভাষা হলো স্মৃতির প্রথম ধারক; যখন ভাষা পরিবর্তিত হয়, তখন সেই স্মৃতির সঙ্গে যুক্ত গন্ধ ও স্বাদের সংযোগসূত্র দুর্বল হয়ে পড়ে।",
+  "name": "3.3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A central conceit that silence itself becomes the 'true name'—a placeholder for the lost Bengali sound.",
+    "story_option": "Setting: Inside the speaker's mouth after biting into a Samosa; Desire: To find the original Bengali diphthong sound embedded within the chewing action itself; Obstacle: Only foreign consonant clusters emerge.",
+    "subject_rotation": "Examining the semantic drift: what *else* has changed in life alongside the food item that necessitated this naming shift?",
+    "sensory_detail": "The visual contrast between the rich saffron hue associated with 'সিঙ্গাড়া' memory and the duller commercial yellow of mass-produced 'সামোসা' packaging (sight/color).",
+    "research_question": "Can the rhythm and cadence of a traditional Bengali word structure be identified even if the lexicon has changed?",
+    "structural_variant": "A highly fragmented montage where each segment focuses solely on one letter or sound component that is either retained or utterly lost during the transition.",
+    "variety_note": "This chapter deliberately pivots away from the immediate physical sensation (taste/texture) explored earlier, focusing instead on the abstract, painful erosion caused by linguistic substitution itself."
+  }
+}

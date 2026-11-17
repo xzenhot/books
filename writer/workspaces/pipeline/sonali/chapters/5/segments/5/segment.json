@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অস্থায়ীতার উপলব্ধি",
+  "segment_summary": "এই পরম মুহূর্তটি দ্রুত মিলিয়ে যায়, এবং সোনালী বুঝতে পারে যে এই ঐশ্বরিক অভিজ্ঞতাটি ক্ষণস্থায়ী, যা প্রকৃতির ক্ষণস্থায়ী সৌন্দর্যের মতো।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the entire chapter as a micro-event observed through the lens of an aging clock mechanism, where time momentarily skips forward and backward simultaneously during the peak sensation.",
+    "story_option": "Setting: Beside an old, heavy wooden table where books are stacked. Desire: To write down the 'formula' of that brief peace. Obstacle: Her pen feels alien and incapable in her hand during the return to reality; Turn: The ink dries instantly, mocking the ephemeral nature of the experience.",
+    "subject_rotation": "Treating the memory of the 'glimmer' as a linguistic failure—a concept so sublime it can only be expressed through contradictory syntax.",
+    "sensory_detail": "A phantom pressure against the eardrums, like being deep underwater right as it recedes (Touch/Hearing fusion).",
+    "research_question": "How can the transition from absolute subjective stillness to physical alertness be mapped using language that retains high poetic diction?",
+    "structural_variant": "Employing a chiasmus structure where the description of the body in Segment 1 is inverted to describe the pure spirit in Segment 3, and then flipped again upon return in Segment 7.",
+    "variety_note": "Unlike its neighbor, which focuses on induction through sensory input, this chapter is defined by an internally generated event—an instantaneous spiritual rupture in the mundane."
+  }
+}

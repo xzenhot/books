@@ -2,58 +2,117 @@
   "chapter_index": 29,
   "name": "29",
   "word_target": 500,
-  "chapter_title": "The Blossom, Reconsidered",
-  "chapter_summary": "The finished color looks less like a reward than the last stage of an unfinished process. Debolina accepts that beauty does not cancel failure.",
-  "further_references": [],
-  "level": "chapter",
-  "state": "enriched",
-  "enrich": {
-    "active_filters": [
-      "research",
-      "genre",
-      "history",
-      "spatality",
-      "movement",
-      "correctness",
-      "quality"
-    ],
-    "status": "enriched"
-  },
-  "genre": "philosophical meditation",
-  "spatality": {
-    "place": "the finished wall, seen at a distance from the courtyard's far side",
-    "season": "late afternoon, the light turning gold",
-    "route": "from a distance to close range and back again",
-    "texture": "colour that looks seamless from far and rough from near"
-  },
-  "stereotype": {
-    "signature": "aurilus",
-    "style": "pijush"
-  },
-  "creative_enrichment": {
-    "poetic_parameters": {
-      "emotional_rawness": 3,
-      "grammatical_abstraction": 3,
-      "structural_rigidity": 7,
-      "rhythmic_urgency": 3,
-      "digital_simplicity": 5,
-      "movement": "Stoicism — the correction of scale, here beauty placed in right proportion to its making.",
-      "writing_skills": [
-        "two distances held in one gaze",
-        "a phrase repeated with its meaning reversed",
-        "a close that corrects rather than celebrates"
-      ],
-      "image_seed": "a panel that reads as one colour from across the courtyard and as twenty repairs up close",
-      "volta": "from the pleasure of the finished whole to the refusal to let the whole erase the parts",
-      "sonic_texture": "smooth long vowels for distance, hard k and t for the close-up repairs",
-      "line_gesture": "calm even lines; one line halved at the volta, as if stepping nearer",
-      "variety_note": "Chapter twenty-eight is the book's emotional peak; this poem deliberately steps back to measure what that peak cost.",
-      "metaphor_family": "distance, scale, and the seam that only appears up close",
-      "address": "the finished wall, then the self as its severest reader",
-      "closing_move": "beauty granted, and immediately given its price"
-    }
-  },
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scars of Expression",
+  "chapter_summary": "This chapter delves into the profound connection between Debolina's internal suffering and the visible decay of the frescoes. She perceives the cracks and fading pigments not merely as structural failure, but as a mirror reflecting her own unexpressed pain and the fragility of her chosen existence. The imagery centers on the juxtaposition of vibrant, once-perfect divine figures against the encroaching dust and lime-white erosion. The central question remains: Can the truth of a creation be validated by its visible endurance, or is its essence found in the silent, internal struggle that birthed it?",
+  "further_references": [
+    "research.md"
+  ],
   "segments": [
-    1
-  ]
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "Fissures of the Soul",
+      "segment_summary": "The spiderweb cracks across the ancient plaster become the map of Debolina's own unresolved anxieties.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Lapis and Lament",
+      "segment_summary": "The deep blue of the lapis, once a defiant shout against the desert ochre, now whispers of inevitable fading.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "The Weight of the Scaffold",
+      "segment_summary": "The scaffolding, a temporary cage of wood and ambition, seems to press down on the fragile beauty below.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "Musk and Mortality",
+      "segment_summary": "The phantom scent of the passing stranger mingles with the smell of wet lime, a scent of fleeting life against permanent decay.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "Echoes in the Pigment",
+      "segment_summary": "Each muted hue seems to hold the ghost of a life lived too quietly, a silent narrative trapped in the wall.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "The Art of Imperfection",
+      "segment_summary": "She begins to see that the flaws are not mistakes, but the honest signature of time's relentless passage.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Unframed Self",
+      "segment_summary": "To accept the decay is to accept the self—a beautiful, yet inherently vulnerable, composition.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Question of Witness",
+      "segment_summary": "If the art is defined by its struggle, what happens when the struggle itself becomes indistinguishable from the ruin?",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "written",
+  "creative_enrichment": {
+    "angles": [
+      "প্রদীপের শিখা যখন দিনের প্রথম ধুলোমাখা আভা দ্বারা প্রতিস্থাপিত হয়; ল্যাপিসের গভীরতা বিবর্ণ আলোর কাছে কীভাবে পরিবর্তিত হয়।",
+      "ফাটলগুলো কেবল আঘাত নয়, বরং মাটির নিজস্ব 'শ্বাস-প্রশ্বাসের' সূক্ষ্ম রেখা হিসেবে—যা শিল্পের উপাদান হিসেবে উপস্থাপিত হচ্ছে।",
+      "দেবলিনা যখন নিজের হাতে লেগে থাকা চুন-ধুলোকে সমাজের চোখে পড়ার আগেই দ্রুত মুছে ফেলছে, কিন্তু সেই মোছার চেষ্টাই এক প্রকার জোরপূর্বক প্রকাশ হয়ে উঠছে।"
+    ],
+    "story_options": [
+      "দৃশ্য ১: রাত থেকে ভোরের দিকে পরিবর্তন। ল্যাপিসের নীল রঙটি প্রদীপের হলুদ আলোতে জ্বলছিল; ভোর হওয়ার পর যখন ধূসর-কমলা আভা আসে, তখন সেই নীলের আভায় কেমন শীতল শূন্যতা নেমে আসে—দেবলিনা তার তুলি ফেলে না, বরং নতুন করে সূক্ষ্ম রেখা টানতে থাকে যা কেবল 'আলোর প্রান্ত'-কে অনুসরণ করে।",
+      "দৃশ্য ২: স্ক্যাফোল্ডের কাঠামোর প্রতি মনোযোগ দেওয়া। কাঠগুলো যেন ইতিহাসের স্তূপ হয়ে আছে; দেবলিনার হাতের নড়াচড়া সেই কাঠের গাঁথুনির সঙ্গে ছন্দ মেলায়, যেখানে প্রতিটি ফাটল যেন ঐতিহ্যের ভাঙনকেই স্বীকার করে নিচ্ছে। আকাঙ্ক্ষা হলো—ঐতিহাসিক ভারকে অতিক্রম করা; বাধা হলো—কাঠের শুকনো, ভঙ্গুর ঘ্রাণ যা অতীতের স্থবিরতাকে মনে করায়।",
+      "দৃশ্য ৩: 'অচেনা পথিক'-এর সুবাস ফিরে আসা, কিন্তু এবার সেটি এমন এক মুহূর্তে আসে যখন দেবলিনা একটি চরম দুর্বল অংশ রং করছে (ল্যাপিস দিয়ে)। আকাঙ্ক্ষা হলো—সেই ক্ষণিকের সংযোগকে স্থায়ী করা; বাধা হলো—গন্ধটি কেবলই মরিচীকা হয়ে মুহূর্তেই মরুভূমির বাতাসে মিশে যায়।"
+    ],
+    "subject_rotations": [
+      "ফ্রেস্কোটিকে মানুষের প্রতিচ্ছবি হিসেবে না দেখে, এটিকে এক স্থিতিশীল কিন্তু সর্বদা পরিবর্তনশীল 'রাসায়নিক প্রক্রিয়া' রূপে দেখা।",
+      "দেবলিনার আত্ম-অনুসন্ধানকে কোনো মানসিক প্রক্রিয়া না দেখিয়ে, বরং ধুলো ও চুন-মাটির ভৌত উপাদানের পারস্পরিক বিক্রিয়া (Chemical Reaction) হিসেবে উপস্থাপন করা।",
+      "প্রদর্শন বা স্বীকৃতির প্রশ্নটিকে বাদ দিয়ে, কেবল 'অস্তিত্বের অনিবার্যতা'র ওপর জোর দেওয়া—যে বিলীন হওয়াও সৃষ্টির একটি অংশ।"
+    ],
+    "sensory_details": [
+      "চুন-ধুলোর সূক্ষ্ম, ক্ষারীয় ঝাপসা গন্ধ যা উষ্ণ মরুভূমির বাতাসের মধ্যে তীব্রভাবে ছড়িয়ে পড়ছে।",
+      "পিগমেন্ট স্তরগুলির মাঝে জমে থাকা সেই শীতল, প্রায় পাথরের মতো স্পর্শ—যা বছরের পর বছর ধরে স্থবির হয়ে আছে এবং তুলির আঁচড়ে জেগে ওঠে।"
+    ],
+    "research_questions": [
+      "দেবলিনার কাজের ক্ষেত্রে 'অপূর্ণতা' বা ইচ্ছাকৃত ত্রুটিগুলিকে শিল্পগত বৈশিষ্ট্য হিসেবে চিহ্নিত করার কোনো সাংস্কৃতিক প্রেক্ষাপট আছে কি?",
+      "ল্যাপিস লাজুলি পিগমেন্টের রাসায়নিক ভাঙ্গন প্রক্রিয়া এবং এর কাব্যিক রূপকে কীভাবে উপস্থাপন করা যায়?"
+    ],
+    "structural_variants": [
+      "অত্যন্ত সংক্ষিপ্ত, বিরতিমূলক (staccato) চরণ ব্যবহার করে ভাঙনের তীব্রতা ফুটিয়ে তোলা, যেখানে প্রতিটি লাইন একটি 'ফাটল' নির্দেশ করবে।",
+      "একটি আবর্তনীয় কাঠামো অনুসরণ করা, যেখানে প্রতি সেগমেন্টের সমাপ্তি পূর্ববর্তী সেগমেন্টের সবচেয়ে শক্তিশালী চিত্রের বিপরীত অবস্থা বর্ণনা করবে।"
+    ],
+    "variety_note": "এই অধ্যায়টি পার্শ্বচরিত্র বা বাইরের চাপের দিকে মনোযোগ না দিয়ে সম্পূর্ণরূপে দেওয়াল এবং শিল্পীর ভেতরের উপাদানগুলোর রাসায়নিক ও মানসিক মিথস্ক্রিয়ার গভীরে প্রবেশ করে, যা আগের পরিচ্ছেদগুলিতে দৃশ্যমান ছিল।",
+    "unused_angles": [
+      "দেবলিনার কাজের সময় তার নিজের শ্বাস-প্রশ্বাসের ধ্বনি—কীভাবে তা ফাটলের শব্দের সঙ্গে মিশে যাচ্ছে।",
+      "আলোর পরিবর্তনকে শুধু মেজাজের পরিবর্তন নয়, বরং রঙের রাসায়নিক স্থায়িত্বের ওপর প্রভাব বিস্তারকারী বাহ্যিক শক্তি হিসেবে দেখানো।"
+    ]
+  },
+  "draft": {
+    "sha256": "9d44e4f6ed910cbd0643a3ff0f0867610c4809aa8d1fd88a0be8fcf17c0b812d",
+    "written_at": "2026-11-16T14:05:49.924916+00:00",
+    "origin": "write"
+  }
 }

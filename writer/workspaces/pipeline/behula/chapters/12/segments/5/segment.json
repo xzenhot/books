@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের কাব্যিক ভাষা",
+  "segment_summary": "কাব্যিক ভাষা ব্যবহার করে সেই নীরব অভিযোগগুলি প্রকাশ করা হয়, যা সরাসরি উচ্চারিত হওয়ার সাহস পায় না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Synesthesia of Burden: Describing abstract social pressure not as emotional weight, but as a tangible physical substance—like dust or heavy patina on ancestral metalwork.",
+    "story_option": "Setting: The edge of a sprawling village under a hostile moon (অমাবস্যা), Desiresion: To hear the synchronized whispers of marginalized women nearby, forming an unspoken chorus with her own pain; Obstacle: The coldness of the earth absorbing all unvoiced pleas.",
+    "subject_rotation": "Treating the collective voice not as a unified sound, but as many distinct, slightly dissonant frequencies vibrating together.",
+    "sensory_detail": "A faint metallic tang on the air after a sudden downpour in a confined space, representing suppressed anguish.",
+    "research_question": "Are there specific Bengali compound words that capture both 'social oppression' and 'unyielding inner strength' simultaneously?",
+    "structural_variant": "A frame narrative where the entire poem is presented as an overheard conversation between two spirits—one personal (Behula) and one communal (The Chorus).",
+    "variety_note": "This chapter shifts focus from intimate struggle (previous chapters) to sociological resonance; it is about transforming personal pain into a palpable, shared cultural frequency rather than achieving singular dramatic resolution."
+  }
+}

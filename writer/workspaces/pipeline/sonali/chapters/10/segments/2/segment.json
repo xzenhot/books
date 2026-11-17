@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "সংজ্ঞার বাইরে যাত্রা",
+  "segment_summary": "এই নতুন অভিজ্ঞতা তাকে তার নিজস্ব পরিচিত সীমানা থেকে বাইরে ঠেলে দেয়, যেখানে ভাষা ব্যর্থ হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'heavenly bliss' not as an entry, but as a temporary *infection*—a sublime intrusion that destabilizes the corporeal self.",
+    "story_option": "Setting: At the edge of a monsoon-drenched terrace overlooking wet ground; Desire: For her heightened senses to map the earth's moisture as pure spiritual connectivity; Obstacle: A sudden downpour that washes away all definition, blurring sensation into shapeless grey water.",
+    "subject_rotation": "Framing the body not as a prison, but as an exquisitely tuned antenna whose reception capacity is momentarily exceeded by cosmic frequency.",
+    "sensory_detail": "The visual texture of rapid light dispersion across the cornea during sensory shock—a moment where color seems to 'vibrate' out of focus.",
+    "research_question": "Can the rhythm pattern chosen (the litany) map the precise transition point between transcendent joy and dissociative emptiness?",
+    "structural_variant": "Employing heavy use of negative space within the stanza breaks to physically represent the language failure mentioned in Segment 2.",
+    "variety_note": "Unlike earlier explorations focused on defining limits (e.g., in Chapter 4), this chapter focuses entirely on *breaching* those self-imposed or perceived boundaries, exploring what exists when the rules dissolve."
+  }
+}

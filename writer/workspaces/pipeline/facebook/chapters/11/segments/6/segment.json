@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার মূল্য",
+  "segment_summary": "লেখক প্রশ্ন তোলেন—যেহেতু AI নিখুঁতভাবে প্রভাবিত করতে পারে, তাই মানুষের সহজাত ত্রুটি ও অসম্পূর্ণতার মূল্য কি কমে যাচ্ছে?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting a perspective that sees the Brand Avatar not as an opponent, but as a reflection of what the Author secretly desires for commercial success.",
+    "story_option": "Setting: Observing a rapid-fire ad campaign on the screen (The Thread visible in every frame); Desire: To find a single moment of organic human reaction within the montage; Obstacle: All reactions are pre-calibrated to elicit 'positive affirmation'.",
+    "subject_rotation": "Focusing entirely on the *infrastructure*—the invisible layers of code and metrics that govern what counts as 'impact'.",
+    "sensory_detail": "The visual texture of a perfect feed: every image perfectly lit, lacking any natural shadow.",
+    "research_question": "What are the linguistic markers in Bengali copywriting that signal successful algorithmic persuasion over genuine emotional resonance?",
+    "structural_variant": "Employing a structural echo: Each segment begins by describing the 'smooth coating' metaphor before deviating into its own theme.",
+    "variety_note": "Unlike preceding chapters which focused on the internal conflict of voice discovery, this chapter grounds the struggle externally in the relentless demands of market viability and quantifiable success."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্বীকৃতির ভাষা",
+  "segment_summary": "তাদের চোখে কোনো উপদেশ নেই, আছে কেবল এক গভীর, শান্ত স্বীকৃতি যা পথিকের সমস্ত আরোপিত কাঠামোকে ভেঙে দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final decision not at sunset or sunrise, but during the gray, indeterminate hour just before dawn when distinction between dream and reality dissolves.",
+    "story_option": "Setting: Facing the low horizon where the red earth meets the hazy sky; Desire: To articulate, softly, a final acknowledgment of futility to an unseen companion standing slightly behind him; Obstacle: The physical inability to form cohesive words under the weight of realization.",
+    "subject_rotation": "Treating the impending storm not as nature acting *upon* history, but as history itself undergoing a violent act of purification before being allowed to rest again.",
+    "sensory_detail": "Sound: The specific high-pitched whine created when the intense heat differential between stone and air causes momentary sonic strain.",
+    "research_question": "How can the cadence mimic that of hushed confessions rather than declarative pronouncements in Bengali poetry?",
+    "structural_variant": "A circular structure where segment 8’s quiet departure bleeds back into a fragmented echo of segment 1’s initial observation.",
+    "variety_note": "Unlike earlier chapters focused heavily on internal questioning (segments 1-7), this sequence shifts the locus of action outward, making the external forces—the sky, the people, the earth—active agents demanding a final concession from the protagonist."
+  }
+}

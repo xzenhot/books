@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 68,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার মহিমা",
+  "segment_summary": "বেহুলার এই বিজয় কেবল ব্যক্তিগত সুখ নয়, বরং তার ভেতরের বিশ্বাসের দীপশিখার চূড়ান্ত উজ্জ্বলতা।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The body as archive: Treating the reunion touch not as sentimental warmth, but as an immediate physical re-writing of past trauma/grief into memory structure.",
+    "story_option": "Setting: The quiet threshold between their private sanctuary and the public gaze; Desire: For him to simply *see* her, without words or gesture, thus validating everything she endured; Obstacle: Her own lingering habit of self-doubt making a physical shield against recognition.",
+    "subject_rotation": "Shifting focus from 'Return' to 'Re-genesis': The victory isn't restoring the old state, but creating a higher form of being derived from the suffering.",
+    "sensory_detail": "The texture contrast: The rough, abrasive feel of past societal judgments against the silken perfection of their rediscovered intimacy (dampatyo-raga).",
+    "research_question": "How can the theme of enduring devotion be framed using imagery related to immutable geological processes (e.g., crystallization, tectonic shift) rather than purely organic ones?",
+    "structural_variant": "Interspersing very short, sharp bursts of societal critique (like shards of glass) throughout long passages of profound connection, allowing them to shatter harmlessly against her newfound strength.",
+    "variety_note": "This final chapter emphasizes completion and transcendence, moving away from the intense internal conflict of earlier segments toward a state of quiet, absolute certainty derived from endured adversity. It closes the thematic cycle initiated by the initial void."
+  }
+}

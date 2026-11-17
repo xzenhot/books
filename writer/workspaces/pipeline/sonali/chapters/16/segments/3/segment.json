@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অনন্ত অনুরণন",
+  "segment_summary": "এই অধ্যায়ে, সেই আদিম সত্যের প্রতিচ্ছবি হিসেবে তার শরীরের গভীরে এক নীরব, অবিরাম স্পন্দন অনুভূত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting the perspective of the 'unanswered question' itself—giving it agency within the poem to observe Sonali's exhaustion.",
+    "story_option": "Setting: A threshold between two rooms—one filled with vibrant life, the other in profound shadow; Desire: To remain motionless precisely on the dividing line, refusing either space; Obstacle: The physical strain of suspended being.",
+    "subject_rotation": "Analyzing 'eternal query' not through philosophy but through the lens of inherited Bengali cultural mythos concerning cyclical searching.",
+    "sensory_detail": "The smell of cooled linseed oil mixed with old camphor from storage boxes nearby.",
+    "research_question": "What specific ancient or folk Bengali symbolic representations exist for an unanswered, enduring philosophical inquiry?",
+    "structural_variant": "A highly cyclical structure where the final lines loop back to echo the first, but with an infinitesimal shift in meaning.",
+    "variety_note": "Unlike the previous chapters which focused on the act of searching, this final chapter focuses entirely on the *persistence* and paradoxical nature of the search itself, treating the question as a solid, weighty entity."
+  }
+}

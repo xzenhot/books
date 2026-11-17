@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "Mapping the Hesitation",
+  "segment_summary": "The deliberate act of painting one's own fears and doubts onto the wall marks the first visible attempt to externalize the internal battle.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "ফ্রেস্কোর ক্ষয়কে এমনভাবে উপস্থাপন করা যেন এটি একটি দীর্ঘশ্বাস—এক প্রকার ধীরগতির রাসায়নিক নিঃশ্বাসের মতো যা দেওয়ালটি ধরে রেখেছে।",
+    "story_option": "দৃশ্য ৩: এক নির্দিষ্ট ফাটলের পাশে সে ইচ্ছাকৃতভাবে একটি অতিরিক্ত সূক্ষ্ম স্তর তৈরি করে—যেন এটি কোনো প্রতিরক্ষা রেখা, বাইরের জল্পনার বিরুদ্ধে নির্মিত।",
+    "subject_rotation": "সমাজের বিচারকে সরাসরি সংঘর্ষ না দেখিয়ে, দেবলিনার শিল্পের প্রতি হওয়া 'নীরব অজ্ঞতা' বা অসম্পূর্ণ দেখার মাধ্যমে উপস্থাপন করা।",
+    "sensory_detail": "স্ক্যাফোল্ডের কাঠ ও চুন মিশ্রণের ঘর্ষণে উৎপন্ন হওয়া একটি শুষ্ক, কর্কশ শব্দ যা রাতের নীরবতাকে ছিঁড়ে নেয়।",
+    "research_question": "Shekhawati শিল্পকলাতে এমন শৈলীগত উপাদান nào আছে যা একটি কাজের 'অসম্পূর্ণতাকে' সৌন্দর্য হিসেবে মহিমান্বিত করে?",
+    "structural_variant": "Employing paired segments that utilize antithetical vocabulary: such as 'Fixed/Motion,' or 'Light/Dust.'",
+    "variety_note": "Neighbours often focused on external stimuli (Musk or Sky); this chapter roots itself deeply within the material failure of the work and the internal pressure applied to those failures."
+  }
+}

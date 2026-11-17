@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 23,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য শক্তির অনুরণন",
+  "segment_summary": "ঢাকের বোলা বা সিঁদুরের আভা নয়, বরং এক অভ্যন্তরীণ, নীরব শক্তির অনুরণনকেই এই পর্বের কেন্দ্রবিন্দুতে আনা হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the divine presence not as a grand, sudden manifestation but as micro-moments of stubborn perseverance in daily labor (e.g., resisting weariness during repetitive tasks).",
+    "story_option": "Setting: An old family *আলয়* corner where dust motes catch the weak post-festival sunlight; Desire: To find in that settled dust a residue of unbroken inner will against apathy.",
+    "subject_rotation": "Shifting the narrative weight from 'Devi Shakti' to the concept of *sustained* effort—the quiet tenacity rather than the explosive victory.",
+    "sensory_detail": "The faint, sharp scent of damp river silt mixed with residual incense residue on one's fingertips.",
+    "research_question": "What are the precise linguistic markers in contemporary Bengali poetry used to signify 'quiet endurance' without resorting to explicit devotional vocabulary?",
+    "structural_variant": "Using a deeply fragmented stream-of-consciousness approach for the middle segments, mirroring cognitive overload during existential questioning.",
+    "variety_note": "This chapter departs from preceding chapters by moving almost entirely inward; while others externalize the struggle (mud, sound, community), this segment focuses on the internal topography where faith meets doubt."
+  }
+}

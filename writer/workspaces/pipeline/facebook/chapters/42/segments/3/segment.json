@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 42,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "তুচ্ছতার মহিমা",
+  "segment_summary": "দৈনন্দিন জীবনের সাধারণ দৃশ্যগুলোকে কীভাবে উচ্চাঙ্গের সাহিত্যিক কাঠামোতে ঢোকানো যায়, তার একটি পরীক্ষামূলক প্রচেষ্টা এখানে বর্ণিত।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the data input itself as a living entity—the hesitation captured in a deleted line being given an almost physical weight before AI refines it.",
+    "story_option": "Setting: Near an old doorway where moss has begun to grow; Desire: To find meaning in absolute decay and quietness; Obstacle: The Assistant detects 'negative sentiment bias' and forces a cheerful re-framing of the scene.",
+    "subject_rotation": "Shifting focus from the message being sent *out*, to the internal noise and self-censure required by the Author to create acceptable input for the AI.",
+    "sensory_detail": "The low hum of machinery vibrating through the floorboards beneath the quiet contemplation.",
+    "research_question": "How do we poetically represent the subjective difference between 'beauty' as an innate human perception and 'aesthetic effectiveness' as a quantifiable metric?",
+    "structural_variant": "Employing an internal monologue loop within the Author's perspective before handing over control to the AI.",
+    "variety_note": "This chapter focuses heavily on the *process* of translation—the friction between raw sensory data and polished, philosophical output—a micro-level excavation contrasting with previous broader thematic explorations."
+  }
+}

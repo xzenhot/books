@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "মধুর বিষাদের প্রতিচ্ছবি",
+  "segment_summary": "প্রবাসে থাকা মানুষের মধ্যে যে 'মধুর বিষাদ' বিরাজ করে, তা এই শেষ স্বাদটির অনুপস্থিতির মাধ্যমে প্রকাশিত হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The performative nature of remembrance: The 'আমি' meticulously recreates the ritual of making the Samosa, knowing full well the ingredients are compromised, treating this reconstruction as an act of defiance.",
+    "story_option": "Setting: By the worn edges of an unused spice *packet* in luggage (a touchstone from earlier segments); Desire: To breathe life back into a single grain of ground cumin through intense focus; Obstacle: The aroma is too desiccated, clinging to modern chemical ghosts.",
+    "subject_rotation": "Focusing purely on the *negative space*—what is missing from the taste profile rather than what remains.",
+    "sensory_detail": "Sound: A dry, papery rustle when the outer *khols* (husk) is cracked open during consumption.",
+    "research_question": "What precise Bengali term exists that conveys 'a flavour that simultaneously tastes like something familiar and something fundamentally foreign'? (To inform diction choice)",
+    "structural_variant": "A structure based on extreme sensory oscillation: rapid shifts from heightened memory recall to stark present reality observation within consecutive stanzas.",
+    "variety_note": "This chapter leans heavily into abstraction and introspection, contrasting with previous chapters which may have been more grounded in street-level observation or material friction."
+  }
+}

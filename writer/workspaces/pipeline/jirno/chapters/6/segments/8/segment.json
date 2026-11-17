@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "আত্ম-উপলব্ধির সূচনা",
+  "segment_summary": "এই প্রতিরোধ তাকে বাধ্য করে নিজের 'উদ্ধারকর্তা' হওয়ার ধারণাকে প্রশ্ন করতে, যা তার নাগরিক অহংকারের ভিত্তি ছিল।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'silent rejection' as a geological pressure—a counter-force against imposed human order.",
+    "story_option": "Setting: A patch of cracked courtyard floor, exposed by erosion; Desire: To use his urban knowledge to map the precise vectors of decline, only to find the pattern is purely organic and non-linear; Obstacle: His measuring tools yield meaningless data against the slow entropy.",
+    "subject_rotation": "Exploring the concept that true 'permanence' in this landscape is found only in things too insignificant to be cataloged (like lichen or creeping weeds).",
+    "sensory_detail": "A high-pitched ringing sensation in the ears caused not by wind or stone shifting, but by the subtle friction of microscopic particles grinding together.",
+    "research_question": "In the context of declining aristocratic power structures, what rituals or symbolic acts might have been incorporated into repairs that inadvertently slowed down ruin?",
+    "structural_variant": "Beginning *in media res* during an attempted repair, then flashing back to the initial moment of doubt.",
+    "variety_note": "This chapter shifts focus inward from the initial clash (Chapter 1) to a close-up examination of *how* the confrontation fails, moving beyond mere resistance toward existential recognition."
+  }
+}

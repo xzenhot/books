@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "এই চূড়ান্ত পরিণতি বেহুলাকে কেবল একজন নারী নয়, বরং এক মহৎ আদর্শের প্রতীক হিসেবে প্রতিষ্ঠিত করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The reunion is depicted not through grand gestures, but via the minute, painstaking mending of a single worn thread within their shared garment.",
+    "story_option": "Setting: The threshold of their ancestral dwelling; Desire: To feel the texture of undisturbed floorboards beneath shared weight; Obstacle: A profound, almost fearful hesitation before physical touch.",
+    "subject_rotation": "Shifting focus from 'triumph' to the *cost* of that triumph—the enduring weariness underneath the miraculous veneer.",
+    "sensory_detail": "The faint, specific scent of aged earth and damp stone clinging to returning garments.",
+    "research_question": "How can the dialectic tension between belief (ঈমান) and endurance (সহিষ্ণুতা) be articulated using only classical vocabulary?",
+    "structural_variant": "An immediate shift to extreme interior monologue in Segment 1, grounding the reunion entirely within the psyche before external action occurs.",
+    "variety_note": "This chapter pivots entirely away from external conflict towards internal resolution; unlike neighbours focusing on the struggle itself, this sequence focuses intensely on the *residue* and the *new equilibrium* that follows ultimate overcoming."
+  }
+}

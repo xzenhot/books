@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 27,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "দীর্ঘ অপেক্ষার শেষে, স্বামীর প্রত্যাবর্তন এক অলৌকিক এবং মহিমান্বিত দৃশ্য তৈরি করে, যা সমস্ত দুঃখকে মুছে দেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem centers on the acoustic quality of reunion—the resonance between two separated souls rather than visual splendor.",
+    "story_option": "Setting: The desolate riverbank where they last parted; Desire: For them to exchange only the weight of their shared silence—no words spoken—as a communion.",
+    "subject_rotation": "Treating the reunion as less a romantic moment and more a scientific/alchemical reaction (merging two disparate energies).",
+    "sensory_detail": "Taste: The metallic tang of ancient sorrow dissolving into something sharp and pure upon touch.",
+    "research_question": "How can diction be employed in Bengali poetry to evoke a sense of purely *felt* physical sensation (beyond standard metaphors) related to existential relief?",
+    "structural_variant": "The poem could be structured like a slow, deliberate chime sequence, where each stanza resolves into a quieter, deeper resonance.",
+    "variety_note": "This chapter focuses on the philosophical aftermath and ontological validation of their union, moving beyond simple narrative closure towards defining what enduring presence means."
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 42,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের প্রতিচ্ছবি",
+  "segment_summary": "বেহুলার জীবন প্রমাণ করে যে ভেতরের আলোকবর্তিকা বাইরের সমস্ত অন্ধকারের চেয়েও শক্তিশালী হতে পারে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the paradoxical nature of triumph—is it catharsis or merely a temporary cessation of sustained warfare?",
+    "story_option": "Setting: The threshold stone moments after entry; Desire: For a shared, unstated acknowledgment of every sacrifice made during separation; Obstacle: A sudden physical tremor in the old structure that mirrors their internal instability and turns.",
+    "subject_rotation": "Reinterpreting 'victor/conqueror' as 're-integrator,' emphasizing the necessary merging rather than absolute dominance.",
+    "sensory_detail": "The gritty metallic taste in the mouth after holding breath through prolonged spiritual tension.",
+    "research_question": "What is the highest register archaic Bengali descriptor for 'hard-won equilibrium' (neither joy nor burden)?",
+    "structural_variant": "Structuring the eight segments as layers peeling away—the outer layer being the myth, the inner being the deeply bruised, lived reality of their return.",
+    "variety_note": "This chapter contrasts sharply with previous focus on struggle; it concentrates entirely on the dense aftermath and the philosophical weight carried by hard-won peace."
+  }
+}

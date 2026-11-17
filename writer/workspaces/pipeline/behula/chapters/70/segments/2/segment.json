@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 70,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "সহিষ্ণুতার প্রতিচ্ছবি",
+  "segment_summary": "তার অবিচল ধৈর্য এবং সহনশীলতা সমাজের চোখে এক নতুন, শক্তিশালী আদর্শ হিসেবে আবির্ভূত হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The inversion of sight: When she cannot be seen fully (due to societal lens), she projects an image so intensely that it becomes hyper-visible to those who seek truth.",
+    "story_option": "Setting: Her hand tracing a pattern on cold, immutable stone floor (like memory mapping); Desire: For this tactile trace to reveal hidden, vibrant colours beneath its grayness; Obstacle: The chilling damp permeating the stone.",
+    "subject_rotation": "Reinterpreting 'patience' not as waiting passively, but as an active, internal metallurgy process where pain is annealed into strength.",
+    "sensory_detail": "A specific, high-pitched hum vibrating just below the threshold of hearing, felt through the soles of her feet against hard ground (sound)",
+    "research_question": "How does the contemporary concept of 'bandwidth overload' translate metaphorically into pre-modern, mythic psychological pressure?",
+    "structural_variant": "Dialectical weaving: Rapidly alternating between the external societal judgment and an extremely brief, intensely private internal rebuttal.",
+    "variety_note": "This chapter consciously moves away from descriptive tragedy (previous chapters) toward analytical metamorphosis—treating endurance as an active philosophical state rather than just surviving hardship."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্থিতিশীলতার চ্যালেঞ্জ",
+  "segment_summary": "Her inherent inner strength is immediately tested by the sheer magnitude of this unexpected personal catastrophe.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the initial void not as absence, but as an unbearable pressure—a tautness preceding explosion.",
+    "story_option": "The slow, agonizing ritual of maintaining the household's facade while internally unraveling—the performance of normalcy amidst chaos.",
+    "subject_rotation": "Focusing entirely on the sensory deprivation following the loss—the abrupt change in ambient light and soundscape.",
+    "sensory_detail": "The low, resonant thrumming sound inside an empty chamber that seems to hold trapped echoes.",
+    "research_question": "How can I concretely translate the philosophical weight of 'void' into physical sensations rooted in the declared world vocabulary?",
+    "structural_variant": "Beginning with a sound cue (e.g., the settling groan of an old house) and building outwards to the silence.",
+    "variety_note": "This chapter moves away from the philosophical confrontation of neighbours; here, we are in the immediate, visceral impact zone—the collision between established harmony and abrupt severance."
+  }
+}

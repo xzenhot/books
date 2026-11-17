@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 29,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত সংগ্রাম শেষে, বেহুলার জীবনে সেই প্রতীক্ষিত প্রত্যাবর্তন ঘটে, যা তার অস্তিত্বের শূন্যতাকে পূর্ণতা দেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on the 'pigment' of her resilience—how the physical markers of suffering (scars, weariness) become the most luminous features upon reunion.",
+    "story_option": "Setting: A threshold marked by ancient river clay (symbolizing primal foundation); Desire: For their shared presence to momentarily dissolve the harsh societal definitions placed upon her; Obstacle: The ghosts of past judgments clinging to the air.",
+    "subject_rotation": "Examining the 'thingness' of her endurance: what is survival when devoid of conventional reward?",
+    "sensory_detail": "The fine grit of river dust settling on skin, carrying the weight of journeys taken across barren ground (touch/sight).",
+    "research_question": "What is the highest register of Bengali diction to articulate an 'ontological necessity' rather than merely 'powerful will'?",
+    "structural_variant": "A structure built around seven distinct moments (like a liturgical cycle), each moment being infinitesimally different from the last, leading to a final, static image.",
+    "variety_note": "This chapter moves past the immediate action of reunion (seen in earlier segments) into a deep meditation on what that reunion structurally and philosophically means for existence, embracing an unsettling ambiguity rather than pure triumph."
+  }
 }

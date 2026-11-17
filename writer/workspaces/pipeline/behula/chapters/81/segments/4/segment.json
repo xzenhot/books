@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 81,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অনুপ্রেরণার স্রোত",
+  "segment_summary": "তার এই সংগ্রাম অন্যদের জন্য এক শক্তিশালী প্রেরণা হয়ে ওঠে, যা দেখায় কীভাবে ব্যক্তিগত ট্র্যাজেডি সমষ্টিগত শক্তির উৎস হতে পারে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The moment of reunion is rendered not as ecstatic joy, but as a profound, exhausted silence—the residue of battle.",
+    "story_option": "Setting: The threshold where the desolate path meets the courtyard gate; Desire: To hold him without letting the accumulated dust of suffering touch their skin; Obstacle: The spectral memory of every judge who doubted her.",
+    "subject_rotation": "Treating reunion as a re-calibration of self rather than an external rescue.",
+    "sensory_detail": "The scent of cooled river mist and dust settling after a long tempest (olfactory/tactile).",
+    "research_question": "How does the cadence shift when moving from the internal, agonizing rhythm of suffering to the slow, weighty resonance of sustained peace?",
+    "structural_variant": "An interjection where the narrative voice momentarily fractures, acknowledging the impossibility of truly 'closing' such a saga.",
+    "variety_note": "This chapter focuses exclusively on the aftermath: the echo of victory rather than the violent struggle itself, employing a lingering, almost suspended tone to contrast with earlier battles."
+  }
+}

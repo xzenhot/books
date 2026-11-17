@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অকপট প্রকাশের আহ্বান",
+  "segment_summary": "তার কণ্ঠস্বর, যা এতদিন চাপা ছিল, তা এখন তীব্র আকাঙ্ক্ষার ভাষা খুঁজে নিতে শুরু করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing this courage not as bold assertion, but as radical self-acceptance: accepting the inherent contradiction between heavenly bliss and human form.",
+    "story_option": "Setting: Near a worn-out, discarded piece of embroidery silk—the thread is snagged there; Desire: To purposefully cut the snag without breaking the main strand of her desire; Obstacle: The delicate nature of the thread itself demands extreme precision.",
+    "subject_rotation": "Focusing on the *materiality* of desire—how does yearning feel physically? Not just heat, but perhaps a strange, magnetic pull towards something unreachable.",
+    "sensory_detail": "The sharp, clean scent of iron mixed with old paper as the internal dam breaks open (Smell).",
+    "research_question": "What specific Bengali poetic idiom can convey 'the necessity of controlled breaking'—the act of intentionally straining a boundary without causing complete collapse?",
+    "structural_variant": "A spiral structure: each segment starts by re-stating the old silence, then moves outward to the expression, only to loop back into a more complex version of the initial state.",
+    "variety_note": "Unlike previous chapters which explored internal states (bliss/imprisonment), this chapter must be defined by decisive *action*—the pivot point from feeling to verbal manifestation. The thread metaphor will provide the connective tissue through these shifts in agency."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ক্লান্তির গভীরে",
+  "segment_summary": "স্বামীর অনুপস্থিতি এবং পারিবারিক অবিশ্বাস তাকে ক্রমাগত ক্লান্ত করে, যা তার শারীরিক ও মানসিক স্থিতিকে চ্যালেঞ্জ জানায়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker shifts focus from defending her presence against outsiders to internally wrestling with the morality of endurance itself (a philosophical doubt).",
+    "story_option": "Setting: A barren courtyard within the dwelling; Desire: To hold onto a single ritualistic thread connecting her past and present; Obstacle: The persistent, unspoken accusation in the air itself; Turn: She chooses to weave that thread into an armor of resolve.",
+    "subject_rotation": "Treating daily life as an act of sacred, ongoing ritual maintenance rather than mere survival.",
+    "sensory_detail": "The abrasive grit of dust settling onto polished ritual objects in her seclusion.",
+    "research_question": "Are there specific classical descriptions of familial suspicion in elite domestic settings worth exploring metaphorically for tone?",
+    "structural_variant": "Structuring segments as a series of relentless rhetorical questions directed at the absent beloved.",
+    "variety_note": "This chapter diverges from later, more triumphant segments by dwelling exclusively in the grinding exhaustion of the middle phase—the protracted war of attrition rather than the initial shock or final victory."
+  }
+}

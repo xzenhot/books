@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অঙ্গীকারের ভার",
+  "segment_summary": "মাঝি বুঝতে পারে যে টিকে থাকার জন্য কিছু পরিবর্তন জরুরি, কিন্তু এই পরিবর্তন যেন তার আত্মার মূল সুরকে দুর্বল না করে দেয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing not on 'yielding,' but on the precise *architecture* of adaptation—how he subtly reroutes his traditional service to fit a new mandatory fare structure without betraying the spirit of generosity.",
+    "story_option": "Setting: Beside a newly poured concrete pier at midday. Desire: He desires to find a way for the new, hurried passengers to experience an unmetered moment of shared silence before leaving him.",
+    "subject_rotation": "Treating the change not as a choice between two paths, but as an inescapable confluence where both are present simultaneously—he rows *under* the bridge while arguing with the ledger.",
+    "sensory_detail": "The metallic tang of runoff water from the newly erected steel pilings.",
+    "research_question": "How can I portray the sound difference between organic wood creaking under strain versus inorganic steel vibrating from traffic?",
+    "structural_variant": "An oscillating rhythm: long lines reflecting the fluidity he maintains, punctuated by extremely short, sharp declarative lines representing transactional costs.",
+    "variety_note": "This chapter shifts focus from internal philosophical questioning (like Chapter 11's decision) to the *process* of ongoing, pragmatic adaptation, demonstrating that endurance requires intelligent incorporation rather than stubborn isolation."
+  }
+}

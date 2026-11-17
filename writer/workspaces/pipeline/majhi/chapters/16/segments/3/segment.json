@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বাঁধের বিপরীতে স্বাধীনতা",
+  "segment_summary": "নদীর উপর নির্মিত আধুনিক কাঠামো এবং মাঝির মুক্ত জীবনধারার মধ্যেকার চূড়ান্ত সংঘাত এখানে চিত্রিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Personification reversal: instead of the man embodying the spirit, have the *river* momentarily assert its own consciousness through a specific eddy or current shift.",
+    "story_option": "Setting: A single, isolated lamp post on a distant ghat after midnight. Desire: To see one face utterly unburdened by transaction—a genuine smile across the water—Obstacle: All visible faces are obscured or shadowed.",
+    "subject_rotation": "Analyzing the silence between notes in the Bhatiyali—the pregnant pauses which hold more cultural meaning than the sound itself.",
+    "sensory_detail": "The metallic chill rising off the concrete pilings when the last rays of sun reflect off them.",
+    "research_question": "What are precise Bengali descriptive terms for a sound that is simultaneously beautiful and structurally abrasive (like old wood meeting modern metal)?",
+    "structural_variant": "A fragmented, collage structure where images of the river's flow are violently interrupted by short, declarative fragments related to ledger books or price lists.",
+    "variety_note": "While neighbours explored the *clash* between river and modernism (disasters, structures), this chapter focuses entirely on the internal philosophical harvest—the final decision about what endures when the clash is inevitable."
+  }
+}

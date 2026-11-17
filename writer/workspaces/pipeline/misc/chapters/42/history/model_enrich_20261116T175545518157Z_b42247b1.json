@@ -1,0 +1,81 @@
+{
+  "chapter_index": 42,
+  "name": "42",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 15",
+  "chapter_summary": "This concluding poem synthesizes the myriad small observations—from the sweat on a chai glass to the line of vermilion—to confront the central philosophical query of the collection. It examines whether these countless, fragile moments coalesce into a stable, enduring concept of 'India,' or if they remain merely beautiful, transient flashes. The conflict lies between the desire for a monolithic national identity and the reality of fragmented, lived experience. The open question remains whether the sum of these minute, tender moments constitutes a meaningful whole.",
+  "further_references": [
+    "misc — পর্ব 1",
+    "misc — পর্ব 3",
+    "misc — পর্ব 14"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "চায়ের ঘাম ও সিঁদুরের রেখা",
+      "segment_summary": "The poem begins by juxtaposing the transient moisture of a railway chai glass against the enduring, ritualistic mark of vermilion on a doorway.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "নীরবতার অর্থনীতি",
+      "segment_summary": "It explores the profound, unspoken language found within the shared silence of a crowded bus, questioning if this quietude is isolation or a form of deep coexistence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য শ্রমের প্রতিধ্বনি",
+      "segment_summary": "The focus shifts to the subtle, foundational labor—the folded hands of the dawn shopkeeper—and how this unseen effort underpins the entire social structure.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "ধুলো ও প্রকৃতির স্পর্শ",
+      "segment_summary": "The imagery of the first monsoon drops hitting warm, dusty earth is used to symbolize a collective, spontaneous moment of relief and shared vulnerability.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "সীমানা ও পবিত্রতা",
+      "segment_summary": "The poem examines the tension between the private sanctuary and the public sphere, symbolized by slippers left outside a temple threshold.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আলোর আদিম আকাঙ্ক্ষা",
+      "segment_summary": "The flickering flame of a dusk lamp is presented not just as light, but as the primal, enduring human yearning for shelter against encroaching darkness.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "বন্ধন ও বিচ্ছিন্নতা",
+      "segment_summary": "The scent and fold of a tiffin box illustrate the persistent warmth of domestic connection, even when individuals are physically separated by distance.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "সমষ্টি নাকি মুহূর্তের স্রোত",
+      "segment_summary": "The final lines pose the ultimate question: do these accumulated, delicate observations form a cohesive 'India,' or are they merely a beautiful, ceaseless flow of isolated, fleeting instants?",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

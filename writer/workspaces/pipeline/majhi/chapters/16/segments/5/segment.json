@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "শান্তির অঙ্গীকার",
+  "segment_summary": "ক্লান্ত হলেও, মাঝি তার নৈতিক ভিত্তি এবং মানবিক দায়িত্ববোধকে দৃঢ়ভাবে ধরে রাখার অঙ্গীকার করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The shift from day to night: using the failing daylight (the end of economic certainty) and transitioning into deep night where only the river's internal resonance is audible.",
+    "story_option": "Setting: Directly beneath a partially submerged concrete abutment during low tide. Desire: He seeks the ghost of an old Bhatiyali singer whose voice resonates in the water pocket, Obstacle: The reverberation is drowned out by industrial drone.",
+    "subject_rotation": "Focusing entirely on the sensory geography of the water: saltiness meeting silt, cool current giving way to stagnant warmth near banks.",
+    "sensory_detail": "The specific gritty texture of riverbed stones smoothed by constant current, feeling like worn bone underfoot.",
+    "research_question": "What are precise Bengali descriptive terms for a sound that is simultaneously beautiful and structurally abrasive (like old wood meeting modern metal)?",
+    "structural_variant": "A fragmented, collage structure where images of the river's flow are violently interrupted by short, declarative fragments related to ledger books or price lists.",
+    "variety_note": "While neighbours explored the *clash* between river and modernism (disasters, structures), this chapter focuses entirely on the internal philosophical harvest—the final decision about what endures when the clash is inevitable."
+  }
+}

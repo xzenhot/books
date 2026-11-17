@@ -4,19 +4,19 @@
   "chapter_index": 10,
   "segment_index": 5,
   "total_segments": 8,
-  "segment_title": "নৌকা আবার জলে",
-  "segment_summary": "শেষে নৌকাটি আবার জলে নামে, ওয়ার আবার ডোবে; কবিতা এই ফিরে যাওয়াকে প্রতিরোধের ধারাবাহিকতা হিসেবে পড়ে।",
+  "segment_title": "পরিবর্তনের শীতল স্পর্শ",
+  "segment_summary": "আধুনিকতার চকচকে, মসৃণ কাঠামো যেন ঐতিহ্যবাহী কাঠামোর রুক্ষ, প্রাকৃতিক সারল্যকে চ্যালেঞ্জ জানায়।",
   "name": "5",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Treating the final melody not as a human emission but as an emergent property of the river itself, activated by Gopal's voice.",
-    "story_option": "Setting: A deep bend where the modernized channel meets an old, overgrown tributary mouth; Desire: He chooses a final note not to sing for passengers, but as an offering *to* the silt and memory of the forgotten geography; Obstacle: The dissonant whine of a nearby distant engine is perceived as part of his own sustained harmony.",
-    "subject_rotation": "Emphasizing the ontological status of sound: Is the song an action, or is it a permanent change in the river’s state?",
-    "sensory_detail": "The specific smell of river mist carrying trace minerals and dissolved peat after a period of mechanical silence.",
-    "research_question": "How can 'unbroken melody' be represented poetically when its function is explicitly defined as ephemeral or non-linear?",
-    "structural_variant": "A highly fragmented structure where each segment ends abruptly, mimicking the way sound fragments in heavy moisture.",
-    "variety_note": "This chapter must function as a thematic closure rather than an argumentative one; it is defined by what remains intangible after all visible conflict—a shift from the clash of materials (wood vs. steel) to the persistence of vibration."
+    "angle": "ধাতব স্রোতকে শুধুমাত্র যান্ত্রিক শক্তি হিসেবে নয়, বরং এক ধরনের 'অর্থনৈতিক ক্ষুধা' বা কর্পোরেট আকাঙ্ক্ষার দৃশ্যমান রূপ হিসেবে চিত্রিত করা।",
+    "story_option": "সেটিং: নদীর কিনারে জমে থাকা তেল-জমাট বাঁধা পলি; আকাঙ্ক্ষা: তিনি সেই কালচে মিশ্রণ থেকে এক টুকরো পালিশ করা, নতুন ধাতব অংশ তোলেন; বাধা: হাতে নেওয়ার মুহূর্তেই তার হাতের চামড়া যেন যান্ত্রিক স্পর্শের মতো অচেনা হয়ে যায়।",
+    "subject_rotation": "'ঐতিহ্য রক্ষা করা' এবং 'নদীকে টিকে থাকতে দেওয়া' এই দুই ধারণার মধ্যেকার পার্থক্য সূক্ষ্মভাবে তুলে ধরা; অর্থাৎ, ঐতিহ্য রক্ষার নামে কি নদীকেই থামিয়ে ফেলা হচ্ছে?",
+    "sensory_detail": "পলিমাটির ভেজা কাঠ থেকে উঠে আসা পুরোনো ধুলোর কণাগুলির শুঁকে ওঠার মৃদু শব্দ (শ্রবণ/স্পর্শ)।",
+    "research_question": "'ভাটিয়ালি গান'-এর কোনো শব্দবন্ধ কি নস্টালজিয়া থেকে বেরিয়ে এসে একটি সুনির্দিষ্ট রাসায়নিক বা যান্ত্রিক কম্পাঙ্ককে নির্দেশ করতে সক্ষম?",
+    "structural_variant": "পুরো কবিতাটিকে একটি দীর্ঘ, অ-যৌক্তিক বাক্যের কাঠামোয় লেখা—যেখানে কাঠ ও ধাতুর বর্ণনা একসাথে জড়িয়ে থাকে এবং পunctuation (বিরামচিহ্ন) বিরল ব্যবহার করা হয়।",
+    "variety_note": "এই কবিতাটি পূর্ববর্তী অধ্যায়গুলোর ভৌগোলিক বা মানবিক দ্বন্দ্বের পরিবর্তে, বস্তুগত এবং টেক্সচারাল সংঘাতের উপর গভীর মনোনিবেশ করে। এটি 'কে জিতবে'র চেয়ে বেশি প্রশ্ন করে—কীভাবে এই দুটি উপাদান একই স্থানে সহাবস্থান করতে পারে।"
   }
 }

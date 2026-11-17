@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার নীরবতা",
+  "segment_summary": "এই বাজারের কোলাহলের মাঝে, বক্তা সেই আদি, নিখুঁত স্বাদের জন্য এক নীরব, অস্থির অপেক্ষা শুরু করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A Rhythmic Counterpoint: Using the frenetic rhythm of the market sounds (hustle, bargaining) versus the slow, deliberate ritualistic memory associated with the original food preparation.",
+    "story_option": "Setting: Transitioning between daylight and the harsh glow of market lamps at dusk; Desire: To find a familiar shade of color in the chaotic scene; Obstacle: The external light washing out all subtle internal memories.",
+    "subject_rotation": "Examining how the *act* of seeking—the pilgrimage to the market—becomes more significant than finding the food itself.",
+    "sensory_detail": "The specific high-pitched screech of distant cartwheels against rough pavement under a harsh sun.",
+    "research_question": "What specific Bengali/Tatsama vocabulary best conveys flavor 'dilution' when contrasted with sensory aggression?",
+    "structural_variant": "A cyclical narrative where segments 1 and 8 mirror each other precisely in their emotional trajectory, serving as bookends.",
+    "variety_note": "While neighbouring chapters focus on the *creation* or *essence* of the samosa, this chapter examines its fragile existence when subjected to external, overwhelming market pressures."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 73,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "নীরবতার ভাষা ও সামাজিক প্রত্যাখ্যান",
+  "segment_summary": "যখন সমাজ তার অস্তিত্বকে অস্বীকার করে, তখন তার নীরবতা কীভাবে এক শক্তিশালী প্রতিবাদে পরিণত হয়, যা সামাজিক কাঠামোর দুর্বলতাগুলি উন্মোচন করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interlacing the narrative tension with an 'unspoken vocabulary'—a collection of words that *could* be said but are suppressed by social expectation.",
+    "story_option": "Setting: Inside the threshold where light meets deepest shadow; Desire: For that boundary line to cease being a divider and become a merging point; Obstacle: The internalized decree that she must remain strictly 'separate' from common humanity.",
+    "subject_rotation": "Viewing 'endurance' through the lens of biological resilience rather than purely spiritual fortitude; framing survival as a slow, chemically induced transformation.",
+    "sensory_detail": "A visual representation of judgment as a slow-moving tide of grey silt settling over vibrant inner colours (visual)",
+    "research_question": "What is the precise Bengali lexical register for 'unshakeable scaffolding'—a concept combining architectural strength with metaphysical permanence?",
+    "structural_variant": "Stanzaic Inversion: Dedicating an entire segment not to telling, but only to listing sensory input experienced during moments of acute societal scrutiny.",
+    "variety_note": "Where previous chapters focused on the *consequences* of grief (শূন্যতার অতল) or external trials, this chapter deepens into the *mechanism* of survival: how inner fortitude actively shapes and repurposes external suffering."
+  }
+}

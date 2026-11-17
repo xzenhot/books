@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 55,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ অনুকরণ",
+  "segment_summary": "প্রবাসে নিখুঁতভাবে সেই আদি স্বাদ প্রতিলিপি করার প্রচেষ্টা, যা সবসময়ই একটি অসম্পূর্ণ অনুকরণ হয়ে থেকে যায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the oil not as a medium but as a geological stratum: how different oils form distinct 'layers' of memory within the body.",
+    "story_option": "Setting: A single, cold spot on the stove; Desire: To capture a residual scent clinging to that specific metal surface from past cooking; Obstacle: The constant draft carrying only foreign air.",
+    "subject_rotation": "Focusing on 'viscosity' as emotional weight—how thick, heavy oil represents clinging memory versus thin, running oil representing easy forgetting.",
+    "sensory_detail": "Visual: The aggressive, jagged splatter pattern of mustard seed residue on a blackened hearthstone.",
+    "research_question": "What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?",
+    "structural_variant": "A poem composed entirely through rhetorical questions posed by the ingredient itself (e.g., the oil speaking).",
+    "variety_note": "This chapter focuses intensely on the medium (oil) itself, deviating from neighbour chapters that focus more broadly on travel or nomenclature; it isolates the foundational sensory element."
+  }
+}

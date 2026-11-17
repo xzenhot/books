@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "বাস্তবতার চ্যালেঞ্জ",
+  "segment_summary": "এই অভ্যন্তরীণ আলো কীভাবে সমাজের আরোপিত কঠিন বাস্তবতাকে প্রশ্ন করতে শুরু করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence *after* the peak of conflict—the exhausting quiet that follows a spiritual battle.",
+    "story_option": "Setting: A dimly lit corner of her dwelling at predawn; Desire: To measure the exact distance between her inner certainty and the outer world’s apathy (an unmeasurable gulf); Obstacle: The physical weight of inherited, oppressive tradition.",
+    "subject_rotation": "Interrogating the definition of 'Light': Is it divine grace, sheer human will, or merely localized cognitive resistance?",
+    "sensory_detail": "The dry, brittle texture of tightly woven ritual cloth under exhausted fingers.",
+    "research_question": "What are the specific historical or cultural concepts within Bengali tradition that describe a state of 'stubborn, self-imposed existential defiance' outside of formal religious frameworks?",
+    "structural_variant": "A highly compressed structure where each segment is a rapid exchange between 'Light Metaphor' and 'Darkness Observation', mirroring urgent internal dialogue.",
+    "variety_note": "This chapter moves beyond description; it forces an active dialectic between internal illumination and external negation, employing the aftermath lens suggested by the variation brief."
+  }
+}

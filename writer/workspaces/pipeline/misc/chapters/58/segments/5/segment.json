@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 58,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "বিচ্ছিন্নতার সৌন্দর্য",
+  "segment_summary": "A contemplation on the beauty found within fragmentation, accepting that wholeness might be an illusion.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "অনুভূতির স্তরবিন্যাস: সাধারণ শারীরিক ইন্দ্রিয়গ্রাহ্যতার মাধ্যমে শুরু করে চূড়ান্ত পর্যায়ে একটি নিরাবেগ দার্শনিক স্থিতিতে পৌঁছানো—আবেগ যেন শুধু সাক্ষী হিসেবে থাকে, কর্তা নয়।",
+    "story_option": "সেটিং: ভোরে খোলা একটি তালা দেওয়া কাঠের সিন্দুক; আকাঙ্ক্ষা: সিঁদুরের রেখার স্থায়িত্ব পরিমাপ করতে গিয়ে সেই আড়ালে চাপা পড়ে থাকা কোনো পুরোনো পারিবারিক অঙ্গীকারের শব্দ খুঁজে বের করা, যা উচ্চারিত হয়নি।",
+    "subject_rotation": "জাতীয় পরিচয়কে 'ক্ষয়শীল উপাদান' (decaying material) হিসাবে দেখা—যেমন ধুলো বা মরিচা কীভাবে জাতীয় সত্তার উপর জমা হয় এবং তার কাঠামোগত প্রভাব ফেলে।",
+    "sensory_detail": "প্রথম অংশ: ভিজে মাটির ওপর কফির টক স্বাদ ও ধুলোর গুঁড়ো ঝরার শুষ্ক শব্দ।",
+    "research_question": "যদি আমরা ক্ষুদ্র বস্তুগুলির কেবল ভৌত রাসায়নিক স্থিতিশীলতার উপর নির্ভর করি (যেমন লবণের দ্রবণ ক্ষমতা), তবে মানবীয় আবেগের কোন অংশটি ভাষার কাঠামোতে স্থান পাবে?",
+    "structural_variant": "Structure as a single, extended anaphora where each segment begins by repeating a core phrase related to perception ('আমি দেখি...', 'এইটুকু...') before diverging into its specific focus.",
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী কবিতাগুলোর নির্দিষ্ট বিষয়বস্তু থেকে সরে এসে 'সংশ্লেষণ'-এর দার্শনিক স্তরে প্রবেশ করে; এটি বর্ণনা নয়, বরং উপলব্ধির এক চূড়ান্ত আলস্যপূর্ণ উপলব্ধি।"
+  }
+}

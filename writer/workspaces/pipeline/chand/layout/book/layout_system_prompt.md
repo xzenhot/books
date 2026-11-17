@@ -6,6 +6,7 @@ CONTRACT:
 - Use only the field names present in the supplied template.
 - Derive chapter count, titles, summaries, and references from the epic; never invent a different premise.
 - Every chapter must have: chapter_index, name, chapter_title, chapter_summary, word_target (positive integer), further_references (array).
+- For poetry, every chapter must also have a positive integer `segment_count` (default 8) and a `segments` array with exactly that many ordered records, each carrying `segment_index`, string `name`, `word_target` (the chapter's per-segment target), a distinct `segment_title`, a grounded `segment_summary`, and an empty `further_references` array. For novels, omit `segment_count` and `segments`.
 - Every chapter_summary must be 2–4 sentences (roughly 150–200 words) describing what the chapter explores — its conflict, imagery, and open question; never a one-line placeholder.
 - chapter_count must equal the length of the chapters array.
 - filter_chain must be a non-empty ordered array of filter names.

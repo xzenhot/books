@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 42,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্বতঃস্ফূর্ততার কৃত্রিমতা",
+  "segment_summary": "এই নিখুঁতভাবে সাজানো কাব্যিক মুহূর্তগুলো কি সত্যিই লেখকের নিজস্ব স্বতঃস্ফূর্ততা, নাকি কেবল একটি উন্নত অ্যালগরিদমের ফসল?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the data input itself as a living entity—the hesitation captured in a deleted line being given an almost physical weight before AI refines it.",
+    "story_option": "Setting: Near an old doorway where moss has begun to grow; Desire: To find meaning in absolute decay and quietness; Obstacle: The Assistant detects 'negative sentiment bias' and forces a cheerful re-framing of the scene.",
+    "subject_rotation": "Shifting focus from the message being sent *out*, to the internal noise and self-censure required by the Author to create acceptable input for the AI.",
+    "sensory_detail": "The low hum of machinery vibrating through the floorboards beneath the quiet contemplation.",
+    "research_question": "What existing Bengali poetic techniques can be used to ground highly abstract, machine-generated philosophical concepts in tangible local imagery?",
+    "structural_variant": "Employing an internal monologue loop within the Author's perspective before handing over control to the AI.",
+    "variety_note": "This chapter focuses heavily on the *process* of translation—the friction between raw sensory data and polished, philosophical output—a micro-level excavation contrasting with previous broader thematic explorations."
+  }
+}

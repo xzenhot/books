@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "The Dialogue with Silence",
+  "segment_summary": "The silence of the night, once a refuge, is now a companion, a necessary counterpart to the loud demands of expression.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Emphasizing the *sound* of non-action: The specific sonic texture of dust settling in a vacant haveli versus the sound of the brush.",
+    "story_option": "A moment where her hand pauses over a crucial point, not out of fatigue (as previous chapters explored), but in profound uncertainty about what 'truth' means at this final stage.",
+    "subject_rotation": "Focusing on the painterly act itself (the viscosity of wet lime, the drag of the brush) as a pure meditative/spiritual discipline separate from aesthetic result.",
+    "sensory_detail": "A sudden sharp scent of burnt lamp oil mixing with dry desert earth immediately after a period of intense concentration.",
+    "research_question": "Are there culturally resonant ways within Shekhawati narrative tradition to imbue an object with the spiritual weight of its creation process?",
+    "structural_variant": "A progression from extreme macro view (the whole haveli wall) down to an almost microscopic focus on pigment binding agents, before expanding outward again.",
+    "variety_note": "This final section deliberately strips away narrative action. Where earlier chapters detailed struggle, this chapter focuses solely on acceptance and the resulting philosophical texture of endurance, pushing toward abstract resonance over concrete incident."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক ও মানবিক সংযোগ",
+  "segment_summary": "স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে না দেখে, তাকে গভীরতম মানবিক অভিজ্ঞতার অবিচ্ছেদ্য অংশ হিসেবে প্রতিষ্ঠা করা হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Narrating from the perspective of the *residual heat* trapped within the husk after consumption—the lingering ghost of flavor.",
+    "story_option": "Setting: The solitary act of carefully examining the crumbs remaining on a worn wooden surface; Desire: To reconstruct the full recipe/ritual purely from tactile memory of dust particles; Obstacle: Dust itself being an amalgam of foreign grit and old spice fragments; Turn: Realizing that reconstruction requires inventing new ingredients, thereby changing the meaning entirely.",
+    "subject_rotation": "Inverting the metaphor: The 'Samosa' becomes the stable object, while the human consciousness is treated as the volatile, dissolving element.",
+    "sensory_detail": "Touch: The sensation of dry air causing the moisture from tears (of yearning) to instantly crystallize on the skin.",
+    "research_question": "How does one represent the qualitative weight of memory in Bengali diction without resorting to purely abstract nouns?",
+    "structural_variant": "Structuring each segment as a direct internal argument against the romanticization of loss—a reasoned defiance dressed in poetic form.",
+    "variety_note": "Unlike previous chapters that dissected the components or journey, this final sequence focuses purely on the phenomenology of 'aftertaste'—the philosophical residue remaining after consumption ceases."
+  }
+}

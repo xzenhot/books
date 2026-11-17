@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন অসুর",
+  "segment_summary": "প্রতিটি মানুষের দৈনন্দিন সংগ্রাম, ক্ষুদ্র ভীতি এবং সামাজিক অবিচার—এগুলিই হলো সেই অভ্যন্তরীণ মহিষাসুর, যা প্রতিনিয়ত বধের দাবি রাখে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting a meta-textual voice where the poet addresses his younger self during the post-festival quietude, reflecting on the ephemeral nature of artistic capture.",
+    "story_option": "Setting: Inside an ancient family *আলয়* (home) after all guests have left, dominated by shadows and scattered remnants of ritual offering; Desire: To locate the exact spot where the deepest feeling of 'motherhood' resided during the puja, despite its temporal absence; Obstacle: The sheer physical emptiness of the grand space.",
+    "subject_rotation": "Exploring the duality of *শক্তিরূপ* (power form) vs. *স্নেহরূপ* (affectionate form), arguing that post-festival life demands a constant balancing act between these two states.",
+    "sensory_detail": "Smell: The heavy, metallic tang of damp concrete mixed with the faint, residual sweetness of burnt *ঘি* (ghee) from the last evening's ritual.",
+    "research_question": "How to articulate the concept of 'cyclical necessity' using vocabulary that avoids standard, well-worn mythological allusions?",
+    "structural_variant": "Alternating between extremely long, meditative lines and abrupt, staccato fragments to simulate the tension between philosophy and everyday reality.",
+    "variety_note": "Unlike neighbours focusing on specific ritual stages, this chapter pivots entirely onto the *aftermath*—the quiet erosion where grand narratives meet ordinary existence and perpetual doubt. The tone shifts from vibrant celebration to profound, contemplative melancholy."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "রক্তপলাশের প্রতিবাদ",
+  "segment_summary": "রক্তপলাশের প্রতিটি পাপড়ি যেন নীরব প্রতিবাদ জানাচ্ছে, যা মানুষের আরোপিত কাঠামোকে প্রত্যাখ্যান করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal monologue not as intellectual debate, but as a desperate appeal to a lost figure—perhaps his own younger, more zealous self.",
+    "story_option": "Setting: A momentary clear patch beneath the brooding clouds; Desire: To sketch, with precise pen and ink, a perfect geometric pattern from the manor's architecture as an act of defiant ordering; Turn: The wind instantly obliterates the drawing before it is finished.",
+    "subject_rotation": "Interweaving the internal reflection with sharp, episodic descriptions of the wild foliage (পলাশ/ভাঁটফুল) growing directly out of structural weaknesses, making nature an active agent of entropy.",
+    "sensory_detail": "Smell: A sudden, sharp tang of ozone mixed with the dry scent of sun-baked earth just before the atmospheric pressure shifts drastically.",
+    "research_question": "How does Bengali aesthetic theory categorize the moment between decay and permanence?",
+    "structural_variant": "Segment 1 & 2 as a single, dense meditation (a core sequence) followed by fragmented vignettes of nature breaking the internal rhythm.",
+    "variety_note": "This chapter shifts inward significantly from previous sections; while earlier chapters observed tension between man and land, here the focus is solely on the traveler's internal mechanism dissolving under existential pressure before facing the final external storm."
+  }
+}

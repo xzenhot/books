@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "শব্দের প্রথম অনুরণন",
+  "segment_summary": "এই পর্যায়ে, সম্রাট তাঁর অভ্যন্তরীণ অস্থিরতা প্রকাশের জন্য প্রথম কাব্যিক বা গজলিক অভিব্যক্তির দিকে ঝুঁকতে শুরু করেন।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A focus on a single, discarded royal seal contrasting with fleeting poetic verses.",
+    "story_option": "Scene: A secluded corner within the palace gardens after sunset. Desire: To find a specific scent or sound—a remnant of pure Mughal splendor. Obstacle: The presence of European overseers whose activities are too loud and procedural. Turn: The Emperor uses poetry to 'silence' that intrusion in his mind.",
+    "subject_rotation": "Focusing on the sonic quality of courtly language dissolving into internal murmurings.",
+    "sensory_detail": "The coarse grit of sandstone under evening lamp-glow (touch/sight).",
+    "research_question": "What were common Mughal courtly phrases that represented abstract 'sovereignty' before British encroachment?",
+    "structural_variant": "A framing device using an imagined scribe recording the Emperor's changing internal landscape.",
+    "variety_note": "Unlike later chapters dealing with exile or bloodshed, this section establishes the fragile beauty of power just before its systemic rot sets in."
+  }
+}

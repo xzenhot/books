@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 1,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "Platform's Sweat",
+  "segment_summary": "The chai glass, beaded with condensation, sits against the harsh backdrop of the railway platform, embodying ephemeral life.",
+  "name": "1",
+  "word_target": 62,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "জলীয় ক্ষরণকে শুধুমাত্র দৈহিক নয়, একপ্রকার আবেগঘন 'স্বীকারোক্তি' হিসেবে উপস্থাপন করা যা দ্রুত মুছে যায়।",
+    "story_option": "এক সহযাত্রী হঠাৎ চায়ের কাপটি হাতে তুলে নেয় এবং এর ঘাম লক্ষ্য করে মৃদু হাসে—যেন সে এই ভঙ্গুরতাকে ব্যক্তিগত স্মৃতি হিসেবে ধারণ করছে।",
+    "subject_rotation": "এই পর্বটিকে একটি 'বিস্ফোরণ' হিসেবে দেখানো, যেখানে ক্ষুদ্রতম বিন্দুটিই বৃহৎ সামাজিক চাপ বা অস্থিরতাকে বহন করছে।",
+    "sensory_detail": "লোহার প্ল্যাটফর্মে জমা হওয়া পুরোনো তেল আর ধূলির মিশ্রিত কটু গন্ধ (tactile/olfactory)।",
+    "research_question": "ঐতিহাসিকভাবে ভারতীয় রেলওয়ে প্ল্যাটফর্মে চায়ের কাপ বা অনুরূপ ক্ষুদ্র বস্তু ব্যবহারের কোনো লোকসাহিত্যগত উল্লেখ আছে কি?",
+    "structural_variant": "কবিতাটিকে দ্রুত গতির,fragmented-style অংশে বিভক্ত করা—যেন ট্রেনগুলো অবিরাম গতিতে আসছে ও যাচ্ছে এবং প্রতিটি segmento একটি করে দৃশ্যপট ক্যাপচার করছে।",
+    "variety_note": "এই প্রাথমিক পর্বটি পরবর্তী অধ্যায়গুলোতে ব্যবহৃত সিঁদুর বা হাতের ভাঁজের মতো নির্দিষ্ট 'সীমানা/অঙ্গভঙ্গি'-এর পরিবর্তে একটি 'প্রবাহ' (flow) এবং ক্ষণস্থায়ী 'পদার্থবিদ্যাগত মুহূর্তের' উপর জোর দেয়।"
+  }
 }

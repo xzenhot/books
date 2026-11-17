@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "The Burden of Influence",
+  "segment_summary": "The weight of responsibility placed upon a voice that is not entirely one's own, yet is now widely broadcast.",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the cost of algorithmic consensus—how agreement itself becomes a form of social violence.",
+    "story_option": "Setting: The author deleting an AI-approved post just before hitting send; Desire: To reclaim one moment of flawed self-expression; Obstacle: The immediate digital void left by the deletion.",
+    "subject_rotation": "Treating ethical failure not as malicious intent, but as accidental over-optimization toward a bland global standard.",
+    "sensory_detail": "The faint, high-pitched whine from the cooling fan of a powerful device during peak processing cycles.",
+    "research_question": "How can the concept of 'ethical nudge' be poetically distinguished from outright persuasive engineering in Bengali literary context?",
+    "structural_variant": "A frame narrative where the entire chapter is presented as an internal dialogue, with the AI's responses formatted using abstract code syntax.",
+    "variety_note": "Unlike earlier chapters which focused on creation (shaping ideas), this chapter turns inward, focusing entirely on the corrosive philosophy of the creation process itself—the ethics baked into the machine's flawless instruction set."
+  }
+}

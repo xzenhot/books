@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অহংকারের ভাঙন",
+  "segment_summary": "পথিক উপলব্ধি করে যে তার 'সংরক্ষণ' করার বাসনা আসলে অতীতকে নিজের নিয়ন্ত্রণে রাখার এক ভঙ্গুর প্রচেষ্টা মাত্র।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treat the decision not through action, but through prolonged *inability* to act—a sustained state of poised suspension.",
+    "story_option": "The Satual elder begins telling a story about seasons—not ruin, but necessary shedding—while the traveler watches dust motes suspended in a single shaft of light; Desire: To grasp the rhythm of inevitable change; Obstacle: His own urge to impose narrative order upon the tale; Turn: He realizes his imposed structure is merely fear disguised as understanding.",
+    "subject_rotation": "Viewing the Satual indifference not as passive rejection, but as an active form of historical self-preservation.",
+    "sensory_detail": "A taste of metallic tang, like old copper, lingering after breathing the high-heat air near the ruins.",
+    "research_question": "What specialized Bengali poetic idiom exists for acknowledging inherent incompleteness without diminishing its sacredness?",
+    "structural_variant": "A cyclical structure where each segment echoes a specific natural element (dust, heat, wind, silence).",
+    "variety_note": "This chapter diverges from its neighbours by prioritizing sustained stillness and internal refusal over external conflict or decisive action. The focus remains intensely localized to the boundary between human desire and geological time."
+  }
+}

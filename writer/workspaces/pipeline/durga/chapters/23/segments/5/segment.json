@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 23,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার প্রতিজ্ঞা",
+  "segment_summary": "বিসর্জনের পর যে শূন্যতা আসে, তা কেবল বিচ্ছেদের বেদনা নয়, বরং নতুন করে শুরু করার এক অপরিহার্য প্রস্তুতি।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The 'I' shifting entirely into the role of an unrecognized domestic caretaker whose quiet resilience mirrors Durga’s enduring power.",
+    "story_option": "Setting: A quiet stretch of river bank, away from the immersion site, observing the water's endless flow; Desire: To trace the continuity between the scattered ritual remnants and primordial natural cycles.",
+    "subject_rotation": "Examining how memory, not ritual, becomes the vessel for continuity; the symbolic power stored in faded artifacts over vibrant ones.",
+    "sensory_detail": "The tactile sensation of cool, unvarnished wood beneath bare feet during deep introspection after the fanfare ceases.",
+    "research_question": "What are the precise linguistic markers in contemporary Bengali poetry used to signify 'quiet endurance' without resorting to explicit devotional vocabulary?",
+    "structural_variant": "Implementing a strict refrain (repetition of a core emotional phrase using new diction) that acts as an internal dialogue against external noise.",
+    "variety_note": "This chapter departs from preceding chapters by moving almost entirely inward; while others externalize the struggle (mud, sound, community), this segment focuses on the internal topography where faith meets doubt."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "এই বিজয় কি কেবল ব্যক্তিগত মহিমা, নাকি এটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ বহন করে?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final 'victory' through the lens of an almost clinical, objective observation—a scientific measure of existential persistence rather than pure emotion.",
+    "story_option": "Setting: High above their ancestral land, glimpsing it from afar; Desire: For them to see not just their own field, but the landscape of all similar struggles across time, making their personal victory communal.",
+    "subject_rotation": "Contrasting the external perception (the tragedy) with the internal mechanics (the will) that sustains life.",
+    "sensory_detail": "Sound: A sudden, absolute muffling of the external world noise upon reunion, leaving only the sound of their mutual breath.",
+    "research_question": "What precise linguistic markers in Bengali poetry can differentiate between 'joyful recovery' and 'hard-won existential validation'?",
+    "structural_variant": "Alternating between high philosophical exposition and starkly grounded physical description of their shared space.",
+    "variety_note": "This chapter shifts focus from the internal struggle (previous chapters) to the outward declaration of synthesis; its turning point forces the reader to question if this triumph is solely personal glory or something far grander."
+  }
+}

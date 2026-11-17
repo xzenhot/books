@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের স্পন্দন",
+  "segment_summary": "ক্লান্তি সত্ত্বেও তার ভেতরের অগ্নিকুণ্ড কীভাবে তাকে এগিয়ে যাওয়ার জন্য প্রয়োজনীয় প্রেরণা জোগায়, তা এখানে প্রকাশিত।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A sudden narrative shift where the domestic routine becomes violently contrasted by an imagined glimpse of her divine supplicants observing her struggle from afar.",
+    "story_option": "Setting: Watching the slow erosion of a garden wall (representing societal decay); Desire: To prove that personal commitment transcends physical ruin; Obstacle: The relentless encroachment of weeds representing doubt; Turn: She uses this metaphor to define her own resilience.",
+    "subject_rotation": "Focusing on the physical toll (fatigue, cold) as a theological test imposed by an unseen cosmic judge.",
+    "sensory_detail": "The pervasive chill emanating from the stone floor during lonely hours (thermal/tactile).",
+    "research_question": "Are there specific classical descriptions of familial suspicion in elite domestic settings worth exploring metaphorically for tone?",
+    "structural_variant": "Structuring segments as a series of relentless rhetorical questions directed at the absent beloved.",
+    "variety_note": "This chapter diverges from later, more triumphant segments by dwelling exclusively in the grinding exhaustion of the middle phase—the protracted war of attrition rather than the initial shock or final victory."
+  }
+}

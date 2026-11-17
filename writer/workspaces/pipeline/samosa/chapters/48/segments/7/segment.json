@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "জিভের নীরব প্রতিবাদ",
+  "segment_summary": "জিভটি নীরবে এই পরিবর্তনকে গ্রহণ করে, কিন্তু তার গভীরে এক ধরনের নীরব প্রতিবাদ ধ্বনিত হয়, যা ভাষা দিয়ে প্রকাশ করা যায় না।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the oil not as a medium, but as a viscous map that distorts geographical coordinates.",
+    "story_option": "Setting: A small, forgotten corner of a local Bengali grocery store; Desire: To find one packet of mustard oil whose label still shows the village name (old Bengal); Obstacle: All stock has been replaced by generic brand names.",
+    "subject_rotation": "Focusing exclusively on the tactile experience: how the viscosity and weight of the different oils feel in the hand while pouring.",
+    "sensory_detail": "The visual shimmer of pale yellow fat catching the harsh overhead light in the diaspora setting.",
+    "research_question": "What is the archaic Bengali vocabulary term for 'pungent' or 'sharpness' related specifically to cooking oil that carries more cultural weight than general descriptive words?",
+    "structural_variant": "A highly segmented, almost staccato structure in Segments 1 and 2 to mimic rapid sensory intake vs. slow, dull endurance.",
+    "variety_note": "This chapter focuses intensely inward on a single sensory input—the medium itself (oil)—a precise isolation contrasting with neighbour chapters that address broader market scenes or linguistic failures."
+  }
+}

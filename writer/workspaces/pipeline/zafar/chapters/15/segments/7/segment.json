@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ভাষার সার্বভৌমত্ব",
+  "segment_summary": "ক্ষমতা যখন প্রশাসনিক নথি বা সামরিক শক্তি দ্বারা নির্ধারিত হয়, তখন ভাষা কীভাবে সেই নির্ধারণকে চ্যালেঞ্জ করে এক ভিন্ন ধরনের সার্বভৌমত্ব প্রতিষ্ঠা করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The thread of 'Ink'/'Kalim' weaving through every segment, starting as official documentation and ending as the final breath.",
+    "story_option": "A fragmented recollection: The narrator briefly imagines the weight of one specific inkwell from the Diwan-i-Khas and how its emptiness now defines everything that followed.",
+    "subject_rotation": "Examining how administrative reports ('report') inadvertently preserve poetic truth through their very banality and specificity.",
+    "sensory_detail": "The brittle snap of dried script paper under pressure.",
+    "research_question": "What particular vocabulary related to inherited nobility was systematically replaced by colonial administrative terms regarding land tenure?",
+    "structural_variant": "A highly recursive structure where each segment must echo a single image from the previous, but inverted (e.g., light becomes shadow, empire becomes isolated hut).",
+    "variety_note": "Unlike previous chapters that focused on specific tragic events, this piece is entirely meta-poetic, interrogating the very nature of legacy against absolute negation."
+  }
+}

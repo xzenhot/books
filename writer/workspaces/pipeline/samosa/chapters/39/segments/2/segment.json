@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 39,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্মৃতি",
+  "segment_summary": "স্বাদকে কেবল শারীরিক পুষ্টির উৎস হিসেবে না দেখে, এটিকে আত্মার গভীরে ভাজা একটি স্মৃতি হিসেবে চিত্রিত করা হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final taste as a kind of 'emotional density'—how intense feeling can crystallize into a non-chemical residue on the palate.",
+    "story_option": "Setting: Near a window catching weak morning light in an unfamiliar city apartment; Desire: For the *dhul* (dust) particles collected on the sill to carry the scent profile of home; Obstacle: The inability to distinguish between dust and flavor residue.",
+    "subject_rotation": "Examining the texture ('খোলস') not just visually, but sonically: the difference between a 'crisp' crunch and a hollow, yielding snap in foreign preparation.",
+    "sensory_detail": "A faint warmth that seems trapped *inside* the bones rather than radiating from any external heat source.",
+    "research_question": "What rhythm best mimics the cyclical nature of craving—a pattern of intensification followed by inevitable recession?",
+    "structural_variant": "An interweaving structure where sensory detail from one segment interrupts the philosophical exposition of the next, like flavor flares across thought.",
+    "variety_note": "Unlike earlier segments which focused on external contrasts (market vs. home), this chapter plunges inward, using the post-consumption void to explore metaphysical states like persistence and cultural inheritance."
+  }
+}

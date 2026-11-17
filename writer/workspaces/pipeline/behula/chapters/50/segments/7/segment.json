@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের প্রতিধ্বনি",
+  "segment_summary": "এই সংগ্রাম কেবল ব্যক্তিগত নয়, এটি টিকে থাকার এক মহাকাব্যিক প্রতিধ্বনি যা তার আত্মাকে আরও দৃঢ় করে তোলে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker shifts focus from defending her presence against outsiders to internally wrestling with the morality of endurance itself (a philosophical doubt).",
+    "story_option": "Setting: A barren courtyard within the dwelling; Desire: To hold onto a single ritualistic thread connecting her past and present; Obstacle: The persistent, unspoken accusation in the air itself; Turn: She chooses to weave that thread into an armor of resolve.",
+    "subject_rotation": "Treating daily life as an act of sacred, ongoing ritual maintenance rather than mere survival.",
+    "sensory_detail": "The abrasive grit of dust settling onto polished ritual objects in her seclusion.",
+    "research_question": "What established Bengali literary terminology can capture the concept of 'sustained fortitude that resists entropy' without using overly common spiritual metaphors?",
+    "structural_variant": "Employing an alternating stanza structure: one stanzas focusing strictly on external societal pressure, the next focusing entirely on internal physiological sensation.",
+    "variety_note": "This chapter diverges from later, more triumphant segments by dwelling exclusively in the grinding exhaustion of the middle phase—the protracted war of attrition rather than the initial shock or final victory."
+  }
+}

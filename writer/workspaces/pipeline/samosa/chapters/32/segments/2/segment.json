@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 32,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির স্থায়িত্ব",
+  "segment_summary": "এই শূন্যতাটিই আসলে সেই স্মৃতি-আর্কাইভের প্রমাণ, যা খাদ্যকে কেবল পুষ্টির উৎস না ভেবে, অতীতের নির্দিষ্ট মুহূর্তের বাহক হিসেবে প্রতিষ্ঠা করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'I' not as a consumer but as a linguistic cartographer, attempting to map the lost flavor onto a new semantic grid that fails perpetually.",
+    "story_option": "Setting: Near an abandoned roadside stall where oil has cooled and polymerized into a dark sheen; Desire: To touch this residue, seeking the original molecular signature trapped within; Obstacle: The chemical alienness of the foreign cooking medium; Turn: Realizing the *texture* of loss is itself a form of preservative.",
+    "subject_rotation": "Exploring how the 'sweet melancholy' is a necessary psychic defense mechanism against assimilation, not merely a byproduct of homesickness.",
+    "sensory_detail": "A sudden internal coldness spreading through the chest, contrasting sharply with the memory of hot frying oil.",
+    "research_question": "What specific Bengali archaic words can evoke a feeling of 'untouched, primordial savor' without sounding forced or overly academic?",
+    "structural_variant": "Employing an internal dialogue between 'The Traveler (I)' and 'The Essence (Samosa)', with The Traveler constantly dismissing The Essence's claims of flavor authenticity.",
+    "variety_note": "Unlike neighbours that fixate on specific ingredients or external settings, this chapter dives solely into the post-consumption *void*—the ontological space between having eaten and remembering."
+  }
+}

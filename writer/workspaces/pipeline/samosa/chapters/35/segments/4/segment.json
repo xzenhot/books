@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 35,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা ও সমাপ্তি",
+  "segment_summary": "অপেক্ষাটি শেষ হয় না, বরং এটি একটি স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক হয়ে ওঠে, যা এই কাব্যগ্রন্থের সমাপ্তি বিন্দুতেও বিরাজমান থাকে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing strictly on the physical residue: treating the coating of residual oil as a geological stratum layered by travel and change.",
+    "story_option": "Setting: A sterile, brightly lit modern pantry; Desire: To find a single grain of rice husk from Bengal hidden amongst imported goods; Obstacle: The sheer volume and homogeny of the new inventory; Turn: Discovering only identical packaging material.",
+    "subject_rotation": "Treating the flavor decay not as a memory loss, but as a chemical imperative that defies human will.",
+    "sensory_detail": "The sharp, mineral taste left by cheap table salt versus the complex earthen tang of indigenous sea-salt.",
+    "research_question": "How precisely does the shift from *sorshir tel* aroma to neutral oil influence the olfactory pathways of memory recall?",
+    "structural_variant": "The poem should begin and end with an imperative command directed toward an inanimate object (e.g., 'Listen, Tawa').",
+    "variety_note": "This final chapter pivots from melancholic acceptance toward a highly detached, almost scientific examination of persistence—challenging the romantic tendency to find ultimate meaning in the 'sweet melancholy'."
+  }
+}

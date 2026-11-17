@@ -4,19 +4,19 @@
   "chapter_index": 10,
   "segment_index": 4,
   "total_segments": 8,
-  "segment_title": "এক মানুষের গলা",
-  "segment_summary": "এক মানুষের গলা কি কোনো যুগের বিরুদ্ধে যথেষ্ট, নাকি সেই সুরই শেষ উত্তর — কবিতা এই প্রশ্ন তোলে।",
+  "segment_title": "প্রজন্মের ভার",
+  "segment_summary": "নৌকাটি কেবল একটি যান নয়, এটি সেই সমস্ত প্রজন্মের শ্রম, উদারতা এবং নীরব অঙ্গীকারের ভার বহনকারী একটি ভাসমান আর্কাইভ।",
   "name": "4",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "The boat ceases to be 'Gopal's' and becomes simply 'the channel' momentarily when the song peaks.",
-    "story_option": "Setting: The river at pre-dawn, moments before full mist clears; Desire: Gopal allows his voice to become unrestrained, letting the notes break meter entirely, embracing the sound of breakdown; Obstacle: The reflection on the water is so unstable from churning that he cannot see himself.",
-    "subject_rotation": "Shifting focus from 'survival' to 'transmission': The poem is about the inherent inability of a specific mode of cultural expression (Bhatiyali) to be physically destroyed.",
-    "sensory_detail": "The feeling of resonant coldness traveling up Gopal's arm from where his hands gripped the damp, treated wood.",
-    "research_question": "What specific tactile sensation corresponds to holding a rhythmic pattern that defies structural linearity?",
-    "structural_variant": "An anti-climax structure: building immense sonic tension only for the final notes to dissolve into absolute sensory flatness (silence/mist).",
-    "variety_note": "This chapter must function as a thematic closure rather than an argumentative one; it is defined by what remains intangible after all visible conflict—a shift from the clash of materials (wood vs. steel) to the persistence of vibration."
+    "angle": "নৌকার কাঠটিকে একটি প্রাচীন স্মৃতি-প্রাসাদ হিসেবে উপস্থাপন করা, যেখানে প্রতিটি ফাটল তার অতীত জীবনের উপকথা বহন করে।",
+    "story_option": "সেটিং: নৌকার মূল কাঠামো, ফাটল ধরা তক্তা; আকাঙ্ক্ষা: গোপাল কাঠ স্পর্শ করে অতীতের যাত্রীদের গন্ধ খুঁজে নেন; বাধা: ইঞ্জিনের শব্দ হঠাৎ তীব্র হয়ে ওঠে এবং সেই গন্ধকে গ্রাস করতে চায়।",
+    "subject_rotation": "এই অধ্যায়টিকে কেবল 'কাঠ বনাম ধাতু'র द्वंद्व হিসেবে না দেখে, এটিকে দুটি ভিন্ন ধরনের 'সুরকিট'-এর (Circuitry) সংঘাত হিসেবে দেখানো—একটি জৈবিক এবং অন্যটি যান্ত্রিক।",
+    "sensory_detail": "ধাতব ইঞ্জিনের শব্দ যখন পলিমাটির স্তরের মধ্য দিয়ে প্রবাহিত হওয়ার চেষ্টা করে, তখন তার তীক্ষ্ণতা কেমন যেন 'অস্বাভাবিক' হয়ে যায় (শ্রবণ)।",
+    "research_question": "নদীর কোন নির্দিষ্ট উপাদান বা স্তরগুলির ক্ষয় হার কাঠ এবং ধাতুর ক্ষেত্রে কীভাবে আলাদা হতে পারে?",
+    "structural_variant": "প্রথম চারটি সেগমেন্টকে অত্যন্ত সংহত, ছোট খণ্ডাংশ হিসেবে রেখে বাকি চারটি সেগমেন্টে ক্রমশ বিস্তৃত হয়ে আসা; ক্ষুদ্র থেকে বৃহত্তর পরিসরে ফোকাস পরিবর্তন।",
+    "variety_note": "এই কবিতাটি পূর্ববর্তী অধ্যায়গুলোর ভৌগোলিক বা মানবিক দ্বন্দ্বের পরিবর্তে, বস্তুগত এবং টেক্সচারাল সংঘাতের উপর গভীর মনোনিবেশ করে। এটি 'কে জিতবে'র চেয়ে বেশি প্রশ্ন করে—কীভাবে এই দুটি উপাদান একই স্থানে সহাবস্থান করতে পারে।"
   }
 }

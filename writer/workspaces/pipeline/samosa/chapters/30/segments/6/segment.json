@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক ও মানবিক বিভাজন",
+  "segment_summary": "এই অধ্যায়টি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে না দেখে, এটিকে গভীরতম মানবিক অভিজ্ঞতার অবিচ্ছেদ্য অংশ হিসেবে তুলে ধরে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the void left by the taste as a gravitational field that pulls towards impossible past moments, rather than just an emotional absence.",
+    "story_option": "Setting: Sitting by a window watching city lights blur past in a transport vehicle; Desire: To map the chaotic light patterns against the precise, fixed shape of the ancestral samosa triangle; Obstacle: The inability to stop the forward momentum, symbolizing the irreversible passage of time.",
+    "subject_rotation": "Exploring the concept of 'meta-flavor'—the taste of longing that exists outside any ingredient list.",
+    "sensory_detail": "A high-pitched ringing sound—not from heat, but from the abrupt cognitive dissonance when memory fails to fully engage.",
+    "research_question": "How can Tatsama and Hindi diction be integrated not just for vocabulary enrichment, but to create a deliberate phonetic dissonance that mirrors cultural fracture?",
+    "structural_variant": "Using a self-interrupting cycle where each segment attempts to define the void, only to be immediately refuted by the next segment.",
+    "variety_note": "This chapter moves beyond the sensory shock of arrival (earlier chapters) into the sustained philosophical processing of what remains after the initial encounter, focusing intensely on the metaphysics of incomplete sensation and yearning."
+  }
+}

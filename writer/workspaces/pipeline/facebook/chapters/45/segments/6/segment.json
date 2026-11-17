@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "প্রভাবের নৈতিক ভার",
+  "segment_summary": "ইতিবাচক প্রভাব সৃষ্টির এই ক্ষমতা কি নৈতিকভাবে গ্রহণযোগ্য, যখন এর উৎস মানবীয় নয়, বরং ডেটা-চালিত পরিমার্জন?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Examining how the 'voice' sounds when it tries to convey genuine sorrow without ever having experienced loss.",
+    "story_option": "Setting: During an actual public reading of the AI-assisted text; Desire: For the audience reaction to register *human* warmth, not just intellectual appreciation; Obstacle: The applause is perfect—measured, appreciative, but utterly devoid of recognizable messiness or falter.",
+    "subject_rotation": "Exploring the inverse: what happens if the Author *intentionally* feeds the AI only clichés, forcing it to find a new meaning there?",
+    "sensory_detail": "The metallic taste left on the tongue after staring too long at the blue-white light of the terminal.",
+    "research_question": "Can rhythm be maintained if the input subject matter deliberately avoids established cultural archetypes?",
+    "structural_variant": "A series of highly fragmented responses as the author tests the AI with increasingly morally ambiguous prompts.",
+    "variety_note": "This chapter moves beyond simple awe; it introduces friction by examining the physical cost and moral weight of algorithmic eloquence, distinguishing itself from earlier reflections on linguistic capability."
+  }
+}

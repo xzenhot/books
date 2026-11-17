@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 23,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ভক্ত ও দার্শনিকের মিলন",
+  "segment_summary": "ভক্তের নিবেদন এবং দার্শনিকের পর্যবেক্ষণ এক বিন্দুতে মিলিত হয়, যেখানে ধর্মীয় আচার ও অস্তিত্বের প্রশ্ন একাকার হয়ে যায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the divine presence not as a grand, sudden manifestation but as micro-moments of stubborn perseverance in daily labor (e.g., resisting weariness during repetitive tasks).",
+    "story_option": "Setting: An old family *আলয়* corner where dust motes catch the weak post-festival sunlight; Desire: To find in that settled dust a residue of unbroken inner will against apathy.",
+    "subject_rotation": "Shifting the narrative weight from 'Devi Shakti' to the concept of *sustained* effort—the quiet tenacity rather than the explosive victory.",
+    "sensory_detail": "The faint, sharp scent of damp river silt mixed with residual incense residue on one's fingertips.",
+    "research_question": "What are the precise linguistic markers in contemporary Bengali poetry used to signify 'quiet endurance' without resorting to explicit devotional vocabulary?",
+    "structural_variant": "Implementing a strict refrain (repetition of a core emotional phrase using new diction) that acts as an internal dialogue against external noise.",
+    "variety_note": "This chapter departs from preceding chapters by moving almost entirely inward; while others externalize the struggle (mud, sound, community), this segment focuses on the internal topography where faith meets doubt."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অপরিবর্তনীয় কেন্দ্র",
+  "segment_summary": "পরিবর্তন সত্ত্বেও, মাঝির ভেতরের সেই কেন্দ্র—তার গান, তার মানবিকতা—তা কোনো বাহ্যিক চাপ দ্বারা প্রভাবিত হয় না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting the infrastructure change (bridge/dock) as an entity that breathes, its slow grinding motion mirroring the weariness in his own bones.",
+    "story_option": "Setting: Under the shadow of a massive metal truss bridge during heavy rain. Obstacle: The noise and vibration from the structure disrupts his ability to hear the subtleties of the Bhatiyali rhythm he is trying to maintain.",
+    "subject_rotation": "Shifting the focus from his personal struggle to a micro-community perspective: how do the other small boatmen react to this necessary compromise?",
+    "sensory_detail": "The abrasive sound of rough-spun jute against the slick paint of a passing government vessel.",
+    "research_question": "What specific vocabulary exists within Bengali delta culture to describe 'navigating necessary compromise' rather than outright surrender?",
+    "structural_variant": "A cyclical structure where each new element of modernity forces a complete return, not to the beginning, but to a slightly altered version of the moment it started.",
+    "variety_note": "This chapter shifts focus from internal philosophical questioning (like Chapter 11's decision) to the *process* of ongoing, pragmatic adaptation, demonstrating that endurance requires intelligent incorporation rather than stubborn isolation."
+  }
+}

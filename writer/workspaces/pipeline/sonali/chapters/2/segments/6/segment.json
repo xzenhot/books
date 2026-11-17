@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "বিচ্ছিন্নতার ছায়া",
+  "segment_summary": "এই তীব্র সংযোগের মাঝেও এক গভীর বিচ্ছিন্নতার অনুভূতি বাসা বাঁধে, যেন সে এক বিশাল স্রোতের তীরে একা দাঁড়িয়ে আছে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "আকর্ষণ ও বিচ্ছিন্নতাকে একীভূত করা: আকর্ষণটি আসলে সেই আত্মার প্রতিধ্বনি যা তাকে দূরে ঠেলে দিচ্ছে।",
+    "story_option": "একটি নিস্তব্ধ সন্ধ্যার বারান্দায়, সোনালী দূরবর্তী কোনো রাস্তার নিয়ন আলোর তীব্র রঙের দিকে তাকিয়ে থাকে (স্থান), তার ভেতরে আটকে থাকা স্বর্গীয় আনন্দ যেন ওই আলোর রঙ ধরতে চায় (আকাঙ্ক্ষা), কিন্তু আলোটি মুহূর্তে মিলিয়ে যায় এবং কেবল অন্ধকার অবশিষ্ট থাকে (বাধা/মোড়)।",
+    "subject_rotation": "দেহ ও আত্মার মধ্যেকার কথোপকথনকে একটি সাংকেতিক ভাষার মাধ্যমে উপস্থাপন করা, যেখানে রং-গন্ধ কেবল সেই ভাষার শব্দ মাত্র।",
+    "sensory_detail": "জীর্ণ বস্ত্রের ফাইবার ভেদ করে ত্বকের ওপর অনুভূত হওয়া শুকনো ধূলির সূক্ষ্ম রুক্ষতা (ট্যাক্টাইল)",
+    "research_question": "কবিতায় ব্যবহৃত রঙের তীব্রতাকে এমনভাবে কিভাবে উপস্থাপন করা যায় যাতে সেটি উদ্দীপনা হিসেবে কাজ করে, কিন্তু যেন তা পাঠককে অতিরিক্ত উত্তেজিত না করে?",
+    "structural_variant": "A recursive structure where each segment starts by referencing a sense from the previous one, creating a spiraling focus on sensation.",
+    "variety_note": "This chapter shifts focus from introspection (Chapter 1) to outward immersion; it documents how intense sensory engagement paradoxically deepens the internal sense of alienation."
+  }
+}

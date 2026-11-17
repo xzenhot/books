@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য মশলার আবেশ",
+  "segment_summary": "সেই অদৃশ্য মশলার আবেশের মাধ্যমে অতীতের উষ্ণতা এবং বাংলার মাটির গন্ধকে পুনরায় অনুভব করার চেষ্টা করা হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem speaks exclusively in fragments, where each segment is punctuated by a deliberate moment of silence, challenging the reader to fill the gap with remembered flavor.",
+    "story_option": "Setting: The cold metal surface of a late-night kitchen counter; Desire: To catch the final molecular scent of tempering spices before they fully dissipate into the stale air; Obstacle: The pervasive hum of distant traffic drowning out any lingering flavor note; Turn: A single drop of residual oil on the metal glows faintly under poor light.",
+    "subject_rotation": "Treating the 'taste' not as an absence, but as a constant state of *becoming*—a perpetually imperfect synthesis rather than a fixed loss.",
+    "sensory_detail": "The taste registering as mineral-like astringency rather than sweetness.",
+    "research_question": "How can the mandated voice evoke 'মধুর বিষাদ' through syntactic structures that suggest incompleteness or hovering?",
+    "structural_variant": "An iterative loop where each segment begins with the final word or image from the preceding segment, creating an unbroken stream of sensory inquiry.",
+    "variety_note": "Unlike neighbouring chapters that dwell on external market scenes or tangible texture, this chapter moves entirely inward, focusing on the subtle, unresolved vibrational echo of the flavor in memory itself."
+  }
+}

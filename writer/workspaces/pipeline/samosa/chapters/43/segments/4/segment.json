@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 43,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ভার",
+  "segment_summary": "প্রতিটি শেষ টুকরো যেন একটি স্মৃতির ভার বহন করে, যা প্রবাসের ধূসর পটভূমিতে আরও ভারী হয়ে ওঠে।",
+  "name": "4",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker speaks to a non-existent entity—the ancestral hands that mixed the original dough, forcing an unheard reply.",
+    "story_option": "Setting: A worn, cold steel *tawa* in a modern kitchen; Desire: To coax the phantom warmth back into it by remembering the specific heat of Bengal's afternoon sun; Obstacle: The uniformity of current stovetops.",
+    "subject_rotation": "Treating the 'void' not as absence, but as potential—the space where all lost possibilities of flavor reside.",
+    "sensory_detail": "The sensation of fine, dry powder residue—like crumbled earth—on the tongue after the oil coating has dissipated.",
+    "research_question": "How can I utilize diction related to physical erosion or decay (e.g., rust, crumbling) metaphorically applied to memory?",
+    "structural_variant": "An oscillating structure: rapidly alternating between a dense, high-register reflection on cultural loss and starkly simple, low-register descriptions of the physical aftermath.",
+    "variety_note": "Unlike earlier chapters focused on external market chaos, this chapter plunges entirely inward, using the remnants of the food item as a catalyst for intense psychological archaeology."
+  }
+}

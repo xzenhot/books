@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন জীবনের সংগ্রাম",
+  "segment_summary": "দৈনন্দিন জীবনের ক্ষুদ্র সংগ্রামগুলি হঠাৎ করে মহিষাসুর বধের প্রতিচ্ছবি হিসেবে আবির্ভূত হয়, যেখানে প্রতিটি প্রচেষ্টা এক প্রকার আত্মিক যুদ্ধ।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the post-festival quiet not as absence, but as a highly pressurized state—a silence so dense it feels physically audible.",
+    "story_option": "Setting: A deserted embankment by the water edge at twilight; Desire: To catalogue every particle of clay swallowed by the current; Obstacle: The encroaching shadows that obliterate detail.",
+    "subject_rotation": "Shifting focus entirely from physical absence (the idol gone) to spiritual latency—the state of 'being perpetually ready' for return.",
+    "sensory_detail": "The slick, cold sensation of river silt coating bare skin after contact with immersion water (touch).",
+    "research_question": "How can the diction evoke both the archaic grandeur of Sanskrit influence and the jarring vernacular intimacy required by the mandates?",
+    "structural_variant": "An episodic structure, where each segment is a rapid-fire montage of sensory residue rather than a continuous philosophical argument.",
+    "variety_note": "This chapter deliberately pivots from external spectacle (neighbors 9, 10) and peak action (neighbor 5/8) into a terrain of quiet residue, where absence becomes the primary subject matter; it leans heavily on introspection mandated by Segment 6."
+  }
+}

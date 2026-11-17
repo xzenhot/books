@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আদিম অন্ধকারের প্রতিধ্বনি",
+  "segment_summary": "মহিষাসুরের আদিম অন্ধকার রূপটি কীভাবে এই চরম শক্তির দ্বারা ছিন্নভিন্ন হচ্ছে, তার প্রতীকী চিত্রায়ণ।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence *between* acts of violence—the beat of heart/breath during the transition from mortal fear to divine acceptance.",
+    "story_option": "The perspective shifts to a child watching from afar; their innocent perception filters the terrifying divine energy into something purely luminous and beautiful.",
+    "subject_rotation": "Comparing the momentary intensity of this Hindu cosmic event to a highly focused burst of contemporary creative energy.",
+    "sensory_detail": "The visual contrast between the blinding, incandescent glow emanating from the deity and the deep, absolute umbra pooling around her base.",
+    "research_question": "What traditional imagery is used to describe an entity embodying both ultimate destructive power and ultimate nurturing grace simultaneously?",
+    "structural_variant": "An entirely conversational structure where the 'I' argues with an externalized representation of the demonic force before succumbing to faith.",
+    "variety_note": "While preceding chapters focused on construction and precursors, this chapter plunges directly into the crucible—the violent fusion of existence and void at the cosmological zenith."
+  }
+}

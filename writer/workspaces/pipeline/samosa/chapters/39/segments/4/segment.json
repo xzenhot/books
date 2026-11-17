@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 39,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার সৌন্দর্য",
+  "segment_summary": "যেহেতু স্বাদটি পুরোপুরি পাওয়া যায়নি, সেই অসম্পূর্ণতাই কাব্যিক সৌন্দর্য লাভ করে, যা আকাঙ্ক্ষার একটি স্থির প্রতীক।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker speaks directly to the absent hand that first fried the original সিঙ্গাড়া, asking if it remembers the specific humidity of Bengal's air.",
+    "story_option": "Setting: A worn ceramic plate left half-empty on a foreign table; Desire: To recapture the precise moment before the final bite, where 'আকাঙ্ক্ষা' peaked against material absence; Obstacle: The encroaching grey uniformity of modern dining landscapes.",
+    "subject_rotation": "Treating the flavor memory as an inherited, almost genetic trait—a phantom taste passed down through generations despite geographical distance.",
+    "sensory_detail": "The dry, almost chalky feeling of residual flour settling against the roof of the mouth.",
+    "research_question": "How can I articulate the specific linguistic concept for a sensory memory that is persistently present but never fully realized or tasted?",
+    "structural_variant": "A form where each segment begins with a variation of 'আমি খুঁজছি...' (I am searching for...) followed by the object sought.",
+    "variety_note": "Unlike earlier segments which focused on external contrasts (market vs. home), this chapter plunges inward, using the post-consumption void to explore metaphysical states like persistence and cultural inheritance."
+  }
+}

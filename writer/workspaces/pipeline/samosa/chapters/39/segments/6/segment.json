@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 39,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "হৃদয়ের আর্কাইভ",
+  "segment_summary": "খাদ্যকে কেবল একটি বস্তু হিসেবে না দেখে, এটিকে একটি জীবন্ত আর্কাইভ হিসেবে দেখানো হয় যা হৃদয়ে সংরক্ষিত থাকে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The narrative employs strict rhythmic repetition (a litany) concerning the texture of the imperfectly crisp shell, making that physical failure itself the poem’s central, unchanging truth.",
+    "story_option": "Setting: In a quiet moment after finishing a packet, with only a faint wrapper crease remaining; Desire: To find a single spot where the original সরিষার তেল smell resists dilution by foreign cooking odors; Obstacle: The overpowering ambient smells of the local street market.",
+    "subject_rotation": "Focusing on 'mudrar ekadhik' (unresolved longing) as a necessary friction; suggesting that this internal tension is what allows the soul to remain recognizably Bengali.",
+    "sensory_detail": "The visual contrast between the uniform golden-brown achieved under pressure versus the uneven, imperfect char marks of 'আঁচ' (heat) at home.",
+    "research_question": "Are there diction choices available in বাংলা to describe an 'untranslated' cultural experience applied to gustatory perception?",
+    "structural_variant": "Employing stark minimalism in certain stanzas, reducing lines to just three words that carry disproportionate weight.",
+    "variety_note": "Unlike earlier segments which focused on external contrasts (market vs. home), this chapter plunges inward, using the post-consumption void to explore metaphysical states like persistence and cultural inheritance."
+  }
+}

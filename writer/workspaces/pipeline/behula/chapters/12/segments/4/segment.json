@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "শূন্যতা থেকে শক্তির উত্থান",
+  "segment_summary": "স্বামীর অনুপস্থিতি সৃষ্ট শূন্যতা, যা একসময় ধ্বংসের কারণ ছিল, তা এখন সম্মিলিত শক্তির উৎস হিসেবে পুনর্গঠিত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The sonic layering: Prioritizing the hard, percussive sounds (ক/ট/ড) to embody societal friction before allowing softer vowels to represent internal release.",
+    "story_option": "Setting: A crowded public square during a ritual procession; Desire: To stand motionless amidst the cacophony, allowing her silent resolve to become louder than the chanting; Obstacle: An unseen throng of judgmental eyes that seem specifically aimed at her.",
+    "subject_rotation": "Focusing less on 'suffering' (বেদনা) and more on the *process* of transforming shock into durable meaning (অর্থিকরণের প্রক্রিয়া).",
+    "sensory_detail": "The grit of river silt clinging to her worn garments, symbolizing the heavy burden she carries from life's struggle.",
+    "research_question": "How can I utilize archaic vocabulary to denote a shared, unspoken cultural grievance without becoming overly didactic?",
+    "structural_variant": "An accretion structure: each segment introduces a single, new shared grievance that builds upward in emotional register towards the end.",
+    "variety_note": "This chapter shifts focus from intimate struggle (previous chapters) to sociological resonance; it is about transforming personal pain into a palpable, shared cultural frequency rather than achieving singular dramatic resolution."
+  }
+}

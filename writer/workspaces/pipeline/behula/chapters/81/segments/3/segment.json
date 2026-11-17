@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 81,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপান্তর",
+  "segment_summary": "সমস্ত বাধা অতিক্রম করার মাধ্যমে বেহুলার চরিত্রটি এক মহৎ নারী হিসেবে প্রতিষ্ঠিত হয়, যিনি প্রতিকূলতাকে অতিক্রম করার ক্ষমতা ধারণ করেন।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Juxtaposing the divine sanction of his return against the mundane, persistent weight of village gossip and expectation.",
+    "story_option": "Setting: Within the heart of their shared living space (the former prison); Desire: For this room itself to exhale relief, shedding the stale air of doubt; Obstacle: One lingering object from the 'trial' remains untouched.",
+    "subject_rotation": "Shifting the focus from her internal strength to the reciprocal act of his return validating her endurance.",
+    "sensory_detail": "The sight of shadows clinging too heavily to the corners of rooms even under direct light (visual).",
+    "research_question": "What specific Bengali idiom can convey 'sanctified exhaustion'—the weariness after ultimate spiritual victory without sounding defeated?",
+    "structural_variant": "A coda composed entirely of unspoken dialogues between husband and wife.",
+    "variety_note": "This chapter focuses exclusively on the aftermath: the echo of victory rather than the violent struggle itself, employing a lingering, almost suspended tone to contrast with earlier battles."
+  }
+}

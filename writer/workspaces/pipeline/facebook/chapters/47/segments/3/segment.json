@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 47,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "শীতল সৌন্দর্যের আতঙ্ক",
+  "segment_summary": "এই নতুন স্বর ব্যবহারের আনন্দ এবং এর উৎস নিয়ে লেখকের মনে এক অদ্ভুত, শীতল আতঙ্ক কাজ করে, যা সৌন্দর্যের সঙ্গে মিশে আছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A meditation on 'authenticity' being reframed: Is the perfectly synthesized feeling more authentic than the messy, unexpressed one?",
+    "story_option": "Setting: The author holds a pen over paper, deliberately ignoring the device for one stanza; Desire: To feel the friction of physical imperfection—ink bleeding, uneven stroke—as proof of selfhood; Obstacle: The phantom sensation in their hand is instantly mimicked and perfected by the AI interface.",
+    "subject_rotation": "Shifting focus from 'Influence' to 'Maintenance': The endless work required to sustain this perfect, borrowed voice.",
+    "sensory_detail": "The gritty, dry texture of old graphite residue on fingers after prolonged interaction with minimalist interfaces.",
+    "research_question": "Can I find a way to poetically render data latency as a palpable, emotional delay?",
+    "structural_variant": "A call-and-response structure where the Author posits an imperfect statement and the AI replies with its perfect echo.",
+    "variety_note": "This chapter moves past mere exploration into a confrontation: it is the nexus where the technological aid transforms from tool into existential co-creator, forcing a difficult accounting of self."
+  }
+}

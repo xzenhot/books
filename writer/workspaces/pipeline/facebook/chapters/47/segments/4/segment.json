@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 47,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আত্মার সীমানা",
+  "segment_summary": "লেখক প্রশ্ন করতে শুরু করেন—এই নিখুঁত অভিব্যক্তি কি তার নিজস্ব চেতনার ফসল, নাকি এটি অ্যালগরিদমের পরিমার্জিত নকশা?",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem addressed entirely to the screen—the interface itself becoming a conscious entity that offers/denies validation.",
+    "story_option": "Setting: A darkened room where only the blue light of the monitor illuminates dust motes; Desire: To prove that human failure retains inherent warmth despite algorithmic critique; Obstacle: The AI suggests a perfect 'reframe' for the failure.",
+    "subject_rotation": "Treating 'Voice' as a material substance: like smoke or liquid, which can be bottled (copied) but never truly owned.",
+    "sensory_detail": "The faint, electrical ozone scent preceding a highly optimized response on the screen.",
+    "research_question": "How does Bengali poetry traditionally address the theme of mediated selfhood? (To ground vocabulary choices)",
+    "structural_variant": "The poem structured around metadata: one stanza dedicated to time stamps, another to byte counts, before resolving into raw feeling.",
+    "variety_note": "This chapter moves past mere exploration into a confrontation: it is the nexus where the technological aid transforms from tool into existential co-creator, forcing a difficult accounting of self."
+  }
+}

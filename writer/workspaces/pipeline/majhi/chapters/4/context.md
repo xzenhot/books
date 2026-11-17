@@ -1,0 +1,283 @@
+# Chapter model context
+
+## chapter_index
+
+4
+
+## name
+
+4
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+ঋণের প্রথম ফিসফিসানি
+
+## chapter_summary
+
+এই অধ্যায়টি মাঝির স্বতঃস্ফূর্ত সেবার ধারণাকে সরাসরি চ্যালেঞ্জ জানায়, যখন কোনো স্থানীয় প্রভাবশালী ব্যক্তি বা মধ্যস্বত্বভোগী তার পথে বাধা সৃষ্টি করে। নদীর মুক্ত প্রবাহের বিপরীতে, এখানে ঋণ এবং নিয়ন্ত্রণের একটি অদৃশ্য জাল বিস্তার লাভ করে। এই সংঘাতটি মাঝির নৈতিক ভিত্তিকে নাড়িয়ে দেয়, এবং পাঠক জানতে পারে—যখন মানবিক উদারতাকে আর্থিক হিসেবের জালে জড়িয়ে ফেলা হয়, তখন তার আত্মমর্যাদা কীভাবে রক্ষা পায়?
+
+## further_references
+
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+পথের বাধা
+
+#### segment_summary
+
+একজন মধ্যস্বত্বভোগী মাঝির পরিচিত পথকে বাধা দেয়, তার কর্তৃত্বের মাধ্যমে নদীর স্বাভাবিক গতিকে নিয়ন্ত্রণ করার চেষ্টা করে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+আর্থিক চাপ
+
+#### segment_summary
+
+এই বাধাটি কেবল শারীরিক নয়, এটি একটি আর্থিক চাপ, যা মাঝির নিঃস্বার্থ কাজের ওপর একটি অদৃশ্য মূল্য আরোপ করতে চায়।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+ঐতিহ্যের প্রশ্ন
+
+#### segment_summary
+
+মাঝি তার ঐতিহ্যবাহী উদারতার ধারণার সঙ্গে এই নতুন, হিসেবি বাস্তবতার সংঘর্ষ অনুভব করে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+নদীর নীরব প্রতিবাদ
+
+#### segment_summary
+
+নদী যেন এই মানবসৃষ্ট বাধাটিকে উপেক্ষা করে বয়ে চলে, যা মাঝির অভ্যন্তরীণ প্রতিরোধকে প্রতিফলিত করে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অদৃশ্য ঋণ
+
+#### segment_summary
+
+এই পরিস্থিতিতে, মাঝি বুঝতে পারে যে তার ঋণ কেবল অর্থের নয়, বরং প্রকৃতির প্রতি তার আনুগত্যের।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মমর্যাদার লড়াই
+
+#### segment_summary
+
+মাঝি তার আত্মমর্যাদা রক্ষার জন্য নীরব সংগ্রাম শুরু করে, যেখানে তার নীরবতাও এক ধরনের প্রতিবাদ।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভটিয়ালির চাপা সুর
+
+#### segment_summary
+
+এই চাপা সংঘাতের মাঝে, ভটিয়ালি সুরটি যেন আরও গভীর এবং বিষণ্ণ হয়ে ওঠে, যা অব্যক্ত বেদনা বহন করে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+মুক্ত স্রোতের আকাঙ্ক্ষা
+
+#### segment_summary
+
+সবশেষে, মাঝি তার হৃদয়ে সেই মুক্ত স্রোতের আকাঙ্ক্ষাটিকে দৃঢ় করে, যা কোনো লেনদেন দ্বারা বাঁধা সম্ভব নয়।
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- Framing the obstruction not as a man blocking his path, but as an encroachment of engineered silence against the river's natural chorus.
+- Focusing on the physicality of resistance: how the tension in his oar changes pitch when he must resist authority versus simply rowing freely.
+- Treating the intermediary/debt collector as representing bureaucratic fog—a thick, impenetrable mist that obscures the water beneath.
+
+### story_options
+
+- Setting a specific location at a poorly maintained, contested ghat where multiple local tolls overlap; desire: to pass unimpeded; obstacle: a man demanding 'customs' for every meter of passage; turn: the majhi names the true cost of the river itself.
+- A scenario involving an old debt ledger brought by the intermediary—a physical representation of past scores; desire: to uphold his record of free service; obstacle: a clause in the local agreement that requires minimum fare payment even for charity runs; turn: he symbolically burns or submerges the ledger.
+- The interruption happens during a moment when the majhi is sharing water or provisions with an unrelated, needy person (Item 5's spirit); desire: to complete the selfless act; obstacle: the intermediary demands a 'fee' on altruism itself; turn: the shared sustenance becomes the unexpected counter-currency.
+
+### subject_rotations
+
+- Shifting focus from debt collection to territorial control—the intermediator claiming rights over stretches of river deemed his 'domain'.
+- Analyzing the language of the obstruction, looking at how technical/legalistic speech clashes with the primal lexicon of the boat and water.
+- Examining the social hierarchy reflected in this conflict: who has the right to *define* movement on Bengal's waterways—nature, tradition, or capital?
+
+### sensory_details
+
+- The grit of dried mud accumulating under the rudder during a forced halt; a specific taste of brackish water mixed with stale tobacco from the intermediary.
+- The jarring quality of the official's cheap, starched cloth against the perpetually oiled and worn hemp of the boat rigging.
+
+### research_questions
+
+- What specific historical or localized terminology exists in Bengal for local toll collectors or informal river 'gatekeepers'? (To ensure grounded vocabulary)
+- How does the concept of 'unpaid duty' manifest in traditional regional narratives regarding waterways?
+- In what ways do boatmen traditionally negotiate disputes with land-based authorities near major crossing points?
+
+### structural_variants
+
+- Alternating sections: one descriptive passage of pure, unrestrained river flow (free verse), immediately followed by a densely weighted, almost prose-like depiction of the legal/financial obstruction.
+- Structuring as an escalating internal monologue where each beat of hesitation corresponds to a tightening chord or dissonance in the implied Bhatiyali rhythm.
+
+### unused_angles
+
+- The specific micro-politics among different tiers of river workers—how other boatmen view this intermediary's claim.
+- A flashback focusing not on his childhood, but on an older mentor who faced a similar conflict and what advice he gave (that was ignored/forgotten).
+
+### variety_note
+
+While neighbours established the *existence* of financial pressure (Items 2 & 4), this chapter must focus specifically on the moment of direct, adversarial confrontation where tradition meets imposed bureaucracy.

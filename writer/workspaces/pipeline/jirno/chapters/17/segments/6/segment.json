@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার পবিত্রতা",
+  "segment_summary": "পথিক উপলব্ধি করে যে, কিছু ক্ষত ও সৃষ্টিকে অসমাপ্ত রেখে যাওয়াই প্রকৃতির চরম পবিত্রতা এবং মানবিক সত্য।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus entirely to an imagined dialogue *with* the absent former owner of the manor; the traveler speaks his struggle into the void where response should be.",
+    "story_option": "Setting: Tucked into the shelter of a crumbling wall section, smelling the damp clay; Desire: To trace the outline of what *might* have been—a ceremony, a life—rather than what was documented; Obstacle: A sudden, piercing clarity that stops all tracing.",
+    "subject_rotation": "Focusing on how the Satual 'indifference' is actually an incredibly sophisticated form of cultural data compression—a refusal to waste energy narrating decay.",
+    "sensory_detail": "Touch: The dry, abrasive sensation of pulverized lime plaster clinging statically to the inside creases of the traveler’s wrist.",
+    "research_question": "What specific archaic or regional terms exist for the concept of 'unburdened acceptance' in related dialects?",
+    "structural_variant": "Structuring segments as alternating questions (the Traveler's doubt) and observational statements (The Earth/Satual perspective).",
+    "variety_note": "Unlike earlier chapters focused heavily on internal questioning (segments 1-7), this sequence shifts the locus of action outward, making the external forces—the sky, the people, the earth—active agents demanding a final concession from the protagonist."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "The Living Fresco",
+  "segment_summary": "The final realization is that the fresco is not a static object, but a living document of a relentless, beautiful, and painful human becoming.",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A shift from internal monologue to direct address towards the 'scars' themselves—treating fissures as sentient entities that have observed her journey.",
+    "story_option": "The fleeting memory of an early, desperate cry or refusal echoing faintly from the walls themselves when the desert wind shifts through the haveli's archways.",
+    "subject_rotation": "Revisiting the 'Musk of the Stranger' but framing it now not as desire, but as a final, necessary acknowledgement of external reality that cannot be sealed out.",
+    "sensory_detail": "The precise, cool weight of the empty charcoal stick when she finally sets it down amidst the textured plaster.",
+    "research_question": "Are there culturally resonant ways within Shekhawati narrative tradition to imbue an object with the spiritual weight of its creation process?",
+    "structural_variant": "A progression from extreme macro view (the whole haveli wall) down to an almost microscopic focus on pigment binding agents, before expanding outward again.",
+    "variety_note": "This final section deliberately strips away narrative action. Where earlier chapters detailed struggle, this chapter focuses solely on acceptance and the resulting philosophical texture of endurance, pushing toward abstract resonance over concrete incident."
+  }
+}

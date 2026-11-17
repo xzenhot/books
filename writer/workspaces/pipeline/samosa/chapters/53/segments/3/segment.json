@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 53,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ ও ভৌগোলিক দূরত্ব",
+  "segment_summary": "তেলের গন্ধের এই পরিবর্তনটি কেবল একটি উপাদানগত পরিবর্তন নয়, এটি ভৌগোলিক দূরত্বের একটি তীব্র, ইন্দ্রিয়গ্রাহ্য প্রতিচ্ছবি।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus from flavor loss to texture transformation—how oil changes the *feel* of the dough (খোলস) and how this physical alteration mirrors internal psychological fracturing.",
+    "story_option": "Setting: Indoors, near a window facing a heavily industrialized cityscape; Desire: To recall the smell of earth and mustard blooming under seasonal rain; Obstacle: The constant metallic odor of city exhaust overwhelms any subtle aromatic attempt.",
+    "subject_rotation": "A purely synesthetic rendering where the *smell* translates directly into audible tones—the scent of mustard oil as a high-pitched, sharp chime against the low drone of neutral fat.",
+    "sensory_detail": "Touch: The gritty, slightly resinous film left by high-quality homemade cooking residue versus the smooth, inert slip on the fingers.",
+    "research_question": "What is the precise Bengali term (beyond simple adjectives) to describe the complex, earthy pungency generated when mustard seeds are first heated in oil?",
+    "structural_variant": "A highly fragmented structure where each segment is less a progression and more an oscillating comparison between two states (home vs. abroad).",
+    "variety_note": "Unlike previous chapters which focused on naming (সিঙ্গাড়া/সামোসা) or general displacement, this chapter locks onto a single, powerful molecular anchor—the cooking medium itself—to explore cultural entropy."
+  }
+}

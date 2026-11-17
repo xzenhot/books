@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা অংশ",
+  "segment_summary": "কবি অনুভব করেন যে, কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো তেল বা মশলা দিয়ে প্রতিস্থাপন করা যায় না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the 'I' not as a consumer, but as an alchemist attempting to stabilize the transient flavor into a permanent state using only memory and spoken word.",
+    "story_option": "Setting: Inside an empty, travel-worn *Tiffin* box left on a high shelf; Desire: For the cold metal to retain not just temperature but the memory of heat from hundreds of previous perfect bites; Obstacle: The reality of time slowly oxidizing that stored sensation into nothingness.",
+    "subject_rotation": "Analyzing the flavor void through a purely geometric lens: how the imperfect shape mimics the flawed structure of memory itself.",
+    "sensory_detail": "The phantom sensation of the initial crispness giving way to an unexpected internal softness (the duality of texture).",
+    "research_question": "How can Tatsama and Hindi diction be integrated not just for vocabulary enrichment, but to create a deliberate phonetic dissonance that mirrors cultural fracture?",
+    "structural_variant": "Alternating stanzas between extremely detailed scientific description of flavor molecules (the 'what') and pure emotional metaphor of loss (the 'why').",
+    "variety_note": "This chapter moves beyond the sensory shock of arrival (earlier chapters) into the sustained philosophical processing of what remains after the initial encounter, focusing intensely on the metaphysics of incomplete sensation and yearning."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "total_chapters": 2,
+  "completed_chapters": 0,
+  "current_chapter": 1,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "ethics",
+  "form": "novel",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "ethics — পর্ব 1 — ethics",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": null
+    },
+    {
+      "chapter_number": 2,
+      "topic": "ethics — পর্ব 2 — ethics",
+      "category": "",
+      "status": "pending",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": null
+    }
+  ]
+}

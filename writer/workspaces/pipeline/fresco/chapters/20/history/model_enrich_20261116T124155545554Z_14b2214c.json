@@ -1,0 +1,79 @@
+{
+  "chapter_index": 20,
+  "name": "20",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scars of Expression",
+  "chapter_summary": "This chapter delves into the core philosophical conflict: the tension between societal expectation and the raw necessity of artistic expression. It explores how Debolina Rai confronts the inherent fragility of her work, mirroring the vulnerability of her own self-exposure. The imagery centers on the interplay between the vibrant pigment and the inevitable decay of the ancient walls. The central question remains whether the truth found in the struggle is worth the cost of being irrevocably seen.",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Scaffold's Burden",
+      "segment_summary": "The physical weight of the scaffolding becomes a metaphor for the invisible societal pressures Debolina must bear while creating her art.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Lapis and the Night's Alchemy",
+      "segment_summary": "The chemical scent of ground lapis under the dim lamplight represents the transformative, solitary nature of her creative process.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "The Mirror of Fissures",
+      "segment_summary": "She observes the cracks in the fresco, recognizing them as the perfect analogue for the internal fractures within her own spirit.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "Musk and the Desert's Whisper",
+      "segment_summary": "The fleeting scent of passing men interrupts her focus, symbolizing the persistent pull of the external, untamed world.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "The Unframed Heartbeat",
+      "segment_summary": "Debolina fights against the urge to conform to domestic expectations, choosing the fierce rhythm of creation over societal neatness.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "Sacrifice in Pigment",
+      "segment_summary": "Each stroke of paint is an act of sacrifice, trading comfort for the immortal, yet fragile, mark left upon the wall.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Risk of Visibility",
+      "segment_summary": "She grapples with the terror of being seen—the moment her private, dark struggle is subjected to public judgment.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Question of Truth",
+      "segment_summary": "The chapter culminates in the unresolved query: Does art achieve its ultimate truth through its hidden genesis, or only through its public reception?",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

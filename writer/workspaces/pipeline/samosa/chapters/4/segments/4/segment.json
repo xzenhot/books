@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ক্ষীণ প্রতিধ্বনি",
+  "segment_summary": "এই ভিড়ের মাঝে, সামোসাটি যেন অতীতের একটি ক্ষীণ, প্রায় বিস্মৃত প্রতিধ্বনি বহন করে, যা দ্রুত বিলীন হয়ে যায়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Samosa as a Spectator: Focusing the perspective entirely on the samosa itself reacting to the market's noise.",
+    "story_option": "Setting: Midday bustle of an international street market; Desire: To momentarily isolate oneself from the sensory overload; Obstacle: The relentless presence of neighboring, brightly-scented stalls.",
+    "subject_rotation": "Treating the market not as a place of consumption, but as a crucible that tests authenticity.",
+    "sensory_detail": "The metallic, slightly oily tang from cheap cooking oil used by stall vendors replacing the earthy mustard note.",
+    "research_question": "What specific Bengali/Tatsama vocabulary best conveys flavor 'dilution' when contrasted with sensory aggression?",
+    "structural_variant": "A cyclical narrative where segments 1 and 8 mirror each other precisely in their emotional trajectory, serving as bookends.",
+    "variety_note": "While neighbouring chapters focus on the *creation* or *essence* of the samosa, this chapter examines its fragile existence when subjected to external, overwhelming market pressures."
+  }
+}

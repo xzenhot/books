@@ -1,0 +1,79 @@
+{
+  "chapter_index": 4,
+  "name": "4",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "behula — পর্ব 4 — behula",
+  "chapter_summary": "This chapter delves into the spiritual crucible of Behula's existence, focusing on the confrontation with divine displeasure and supernatural impediments. It explores the profound tension between unwavering faith and the seemingly insurmountable nature of cosmic opposition. The imagery centers on the arduous nature of spiritual testing, where prayer meets prolonged silence from the heavens. The central question remains: how does the human spirit maintain its integrity when its deepest pleas are met only with enduring, unexplained trials?",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "দেবতার রোষের ছায়া",
+      "segment_summary": "The narrative begins by detailing the palpable weight of divine displeasure hanging over Behula's life, marking the shift from earthly sorrow to spiritual combat.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "প্রার্থনার দীর্ঘ নীরবতা",
+      "segment_summary": "This segment focuses on the agonizing duration of her prayers, where the expected divine response remains absent, testing the limits of her devotion.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "অলৌকিক প্রতিবন্ধকতার জাল",
+      "segment_summary": "The chapter portrays the manifestation of supernatural obstacles, which act as tangible barriers against her desire for resolution and peace.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "বিশ্বাস বনাম প্রতিকূলতা",
+      "segment_summary": "Here, the internal conflict is mapped out: the fierce, burning conviction of her belief set against the cold, relentless pressure of external, otherworldly resistance.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "আত্মার পরীক্ষা ক্ষেত্র",
+      "segment_summary": "Behula's existence becomes a stage for a supreme test of the soul, where endurance is valued above immediate relief or comfort.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অদম্য ধৈর্যের প্রতিধ্বনি",
+      "segment_summary": "Despite the prolonged hardship, her spirit refuses to yield, echoing a profound, stubborn refusal to accept defeat from fate or gods.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "আলোকবর্তিকার স্থিতিস্থাপকতা",
+      "segment_summary": "The 'lamp of faith' is depicted not as a fragile flame, but as a resilient core that bends under pressure without extinguishing its essential light.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অপেক্ষা ও সংকল্পের সন্ধিক্ষণ",
+      "segment_summary": "The chapter concludes at a critical juncture, where the sheer act of waiting, coupled with resolute will, becomes its own powerful form of resistance.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

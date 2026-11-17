@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ভক্তি ও জাগতিক বাসনা",
+  "segment_summary": "ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম টানাপোড়েনটি এই স্তরে সর্বোচ্চ দার্শনিক স্তরে পৌঁছায়, যেখানে আকাঙ্ক্ষা এবং আত্মসমর্পণ একাকার হয়ে যায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting an auditory focus: The persistence of a specific, low-frequency sound (like the distant murmur of water or faint residual drumming) that becomes the core rhythm binding all segments.",
+    "story_option": "Setting: A solitary, high window overlooking a city grid at dawn (modern noise); Desire: To find pockets of absolute stillness where memory can briefly resurface; Obstacle: Sonic pollution overpowering subtle spiritual echoes.",
+    "subject_rotation": "Shifting the focus from individual salvation to collective spiritual maintenance—the burden of sustaining shared cultural memory.",
+    "sensory_detail": "A distinct, high-pitched ringing sensation in the temporal bone immediately following a period of intense mental exertion.",
+    "research_question": "How can 'continuity' be poetically expressed using archaic lexicon while maintaining modern cadence, avoiding standard cyclical vocabulary?",
+    "structural_variant": "Structuring based on increasing duration: starting with fleeting moments (smell) and concluding with a timeless state of being (pattern).",
+    "variety_note": "This chapter pivots from the grand narrative of battle/celebration towards introspection; it uses abstract sensory residue (scent, texture, subtle sound) to ground massive philosophical questions about permanence and existence post-ritual cessation."
+  }
+}

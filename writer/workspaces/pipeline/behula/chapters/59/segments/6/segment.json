@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 59,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "প্রেরণার স্রোত",
+  "segment_summary": "বেহুলার এই পরিণতি অন্যান্য নিপীড়িত আত্মার জন্য এক অপ্রতিরোধ্য অনুপ্রেরণার উৎস হয়ে ওঠে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "দ্বৈত উপসংহার: একই সাথে জয় এবং অনিবার্য প্রশ্নকে ধারণ করা—স্বামীর ফিরে আসা আনন্দের মুহূর্তেও সমাজের কঠোর বাস্তবতার শীতলতা যেন ফিসফিস করে শোনা যায়।",
+    "story_option": "সেটিং: নদীর கரையின் শুকনো, জীর্ণ মাটি (গাঙুড়ের আলয়); আকাঙ্ক্ষা: অতীতের সকল অনিশ্চয়তা মুছে ফেলা; বাধা: পুরোনো রীতিনীতির ফিসফিসানি; পরিবর্তন: ভেলা স্থির হয়ে যায়, জীবনের প্রবাহে নতুন ছন্দ আসে।",
+    "subject_rotation": "চূড়ান্ত বিজয়ের পরে সৃষ্ট 'বিরাম' বা 'শূন্যতার নতুন রূপ' নিয়ে লেখা—এই স্থিরতাটাই আসলে এক ভিন্ন প্রকার মানসিক চাপ।",
+    "sensory_detail": "দীর্ঘ ভ্রমণের পর চামড়ায় পড়া সামান্য রুক্ষতা, যা কঠিন পরীক্ষার সাক্ষ্য দেয় (স্পর্শ)।",
+    "research_question": "কবি কীভাবে লখিন্দরের প্রত্যাবর্তনকে এমনভাবে চিত্রিত করবেন যেন তা কোনো অ্যাকশন নয়, বরং দুটি বিচ্ছিন্ন মহাজাগতিক শক্তির অনিবার্য পুনঃসংযুক্তি (Coalescence)?",
+    "structural_variant": "Structure of 'Inhale/Exhale': দীর্ঘ শ্বাস (প্রতীক্ষা) এবং ক্ষিপ্র নিঃশ্বাস (পুনর্মিলন)-এর বৈসাদৃশ্য নিয়ে লেখা।",
+    "variety_note": "Neighbouring chapters focused on the struggle's mechanics; this chapter must focus entirely on the philosophical weight and quiet consequence of resolution, using highly specific sensory grounding."
+  }
+}

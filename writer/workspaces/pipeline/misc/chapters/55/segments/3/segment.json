@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 55,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "নীরবতার অর্থনীতি",
+  "segment_summary": "The focus shifts to the profound, unspoken language shared within the crowded silence of a bus, a communication beyond mere words.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Re-framing 'nation' not as a collection of moments, but as the persistent *tension* between two contrasting small elements within each observation.",
+    "story_option": "setting: একটি অপেক্ষারত বাসের শেষ বাঁক, desire: নীরবতার গভীরে লুকিয়ে থাকা অন্য যাত্রীর কোনো এক ব্যক্তিগত প্রার্থনা শোনা।, obstacle: যাত্রীদের পরস্পরের প্রতি আরোপিত সামাজিক ভদ্রতা এবং নীরব সম্মতি।, turn: দুজন সম্পূর্ণ অচেনা যাত্রী একই সময়ে আলতো করে মাথা নিচু করে, যেন তারা অদৃশ্যভাবে একে অপরের জন্য 기도 করছে।",
+    "subject_rotation": "Analyzing each object not for its inherent meaning, but for the specific act of human *neglect* that allows it to exist in public view.",
+    "sensory_detail": "ভোরের বাতাসে ভেসে আসা পুরোনো লোহা ও ধুলোর মিশ্রিত ভেজা ধাতব গন্ধ।",
+    "research_question": "ঐতিহ্যগতভাবে ব্যবহৃত বাংলা শব্দগুলোর মধ্যে এমন কোন পারিভাষিক শব্দ আছে কি যা 'ক্ষয়শীল অথচ অনিবার্য স্থায়িত্ব' এই দ্বান্দ্বিক অবস্থাকে ধ্বনিত করতে পারে?",
+    "structural_variant": "Adopt a strictly tercet structure where the third line always functions as an abrupt philosophical commentary.",
+    "variety_note": "এই পর্বগুলি পূর্ববর্তী দৃশ্যগত পর্যবেক্ষণগুলো একত্রিত করে একটি উচ্চতর দার্শনিক স্তরে উন্নীত হচ্ছে, যেখানে বস্তুনিষ্ঠ বর্ণনার পরিবর্তে দ্বান্দ্বিক 'উপস্থিতি বনাম অনুপস্থিতি'-র উপর জোর দেওয়া হয়েছে।"
+  }
+}

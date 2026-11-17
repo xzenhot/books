@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "চক্রের বিরতি",
+  "segment_summary": "এই বিচ্ছেদ কেবল একটি উৎসবের সমাপ্তি নয়, এটি মহাজাগতিক চক্রের একটি অনিবার্য বিরতি মাত্র।",
+  "name": "6",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the sound decay after the last major ritual beat: analyzing how acoustic silence functions poetically, rather than merely being an absence of noise.",
+    "story_option": "Setting: Inside a craftsman's discarded workshop adjacent to the main site (revisiting craft context); Desire: To find a specific, unpainted piece of clay imbued with residual divine presence; Obstacle: The harsh reality that true divinity cannot be permanently captured in inert matter.",
+    "subject_rotation": "Treating the final dimming light as a visual representation of entropy overtaking temporary order.",
+    "sensory_detail": "A specific high-pitched ringing sensation that persists momentarily behind the eardrums after a loud gong sound.",
+    "research_question": "Are there documented or symbolic uses in Bengali cultural lore where the transitional period between intense celebration and profound grief holds unique spiritual weight?",
+    "structural_variant": "Using a heavily fragmented structure where each segment is defined by one dominant sensory decay (light fades -> sound softens -> warmth retreats).",
+    "variety_note": "Unlike previous chapters that focused on creation (craft/sound) or intensity (climax), this section centers entirely on decay, anticipation of loss, and the melancholic beauty inherent in transition."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 70,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নারীর কণ্ঠস্বর",
+  "segment_summary": "বেহুলা কেবল একজন নারী নন, তিনি সমস্ত নিপীড়িত আত্মার সম্মিলিত, অপ্রতিরোধ্য প্রতিধ্বনি হয়ে ওঠেন।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the material reality of her patience: Treating endurance not as a spirit, but as solidified substance—a metal hammered into form by disdain.",
+    "story_option": "Setting: A barren courtyard facing ceaseless chatter; Desire: To hold stillness until the cacophony breaks into perfect resonance (sound); Obstacle: The collective impatience of passersby.",
+    "subject_rotation": "Treating social judgment (কটাক্ষ) as a physical pollutant—a slow, corrosive dust settling on the inner sanctum.",
+    "sensory_detail": "The taste of metallic dust mingled with old camphor in the stagnant air of protracted waiting (taste)",
+    "research_question": "How does the contemporary concept of 'bandwidth overload' translate metaphorically into pre-modern, mythic psychological pressure?",
+    "structural_variant": "Dialectical weaving: Rapidly alternating between the external societal judgment and an extremely brief, intensely private internal rebuttal.",
+    "variety_note": "This chapter consciously moves away from descriptive tragedy (previous chapters) toward analytical metamorphosis—treating endurance as an active philosophical state rather than just surviving hardship."
+  }
+}

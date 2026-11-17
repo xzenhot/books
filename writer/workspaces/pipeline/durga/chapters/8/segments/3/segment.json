@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ঐতিহ্যের অনুরণন",
+  "segment_summary": "এই ছন্দ কেবল বর্তমানের উৎসবকে নাড়া দেয়, বরং এটি বাংলার বহু পুরোনো লোকজ ঐতিহ্যের গভীরতম অনুরণনকে মর্ত্যে প্রতিধ্বনিত করে।",
+  "name": "3",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'ঢাক' (drum) itself not as an instrument but as an ancient deity demanding obeisance.",
+    "story_option": "A young novice drummer who initially views the drumming as mere performance, gradually realizing through immersion that he is channeling a deep metaphysical force associated with Shakti.",
+    "subject_rotation": "Exploring the dialectical relationship between human effort (laboring hands beating the drum) and divine manifestation (the resulting cosmic sound).",
+    "sensory_detail": "The slick, hot sweat mixing with the dust kicked up by drumming feet on packed earth near the mondap.",
+    "research_question": "How do specific rhythmic patterns in traditional Bengali percussion relate to concepts of cyclical time versus linear time?",
+    "structural_variant": "Structuring the poem as a call-and-response monologue between the 'I' (the observer) and an imagined, ancient entity represented by the rhythm.",
+    "variety_note": "This chapter moves away from the concrete idol-making (Chapter 2/3) to focus purely on the dynamic energy—the *sound*—which represents primal force and temporal rhythm, unlike its neighbours which deal with physical or emotional states."
+  }
+}

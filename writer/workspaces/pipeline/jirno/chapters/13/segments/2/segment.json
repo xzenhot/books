@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "ইতিহাস বনাম বিলয়",
+  "segment_summary": "সে নিজেকে প্রশ্ন করে—এই জীর্ণ কাঠামোকে কি সংরক্ষণ করা তার নৈতিক দায়িত্ব, নাকি এর বিলয়কে মেনে নেওয়া প্রকৃতির প্রতি আত্মসমর্পণ?",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus from external judgment to internal resonance: how the silence of the Satual community is physically 'felt' by the traveler, like a deep pressure against his sternum.",
+    "story_option": "Setting: Inside a collapsed courtyard where light barely penetrates; Desire: To deliberately lose track of time by closing his eyes and focusing only on the slow pulse in his wrist; Obstacle: An echo from outside—a single, defiant sound—snaps him back to awareness.",
+    "subject_rotation": "Reinterpreting 'ownership' (অধিকার) as a biological imperative rather than a societal one; the ruin is merely returning to its constituent elements.",
+    "sensory_detail": "Sound: The high, internal thrumming resonance caused by atmospheric pressure change vibrating through bone rather than air.",
+    "research_question": "How did pre-modern agricultural communities perceive environmental limits vs. human encroachment in similar arid landscape contexts?",
+    "structural_variant": "Structuring segments not chronologically, but thematically: first 'Pride,' then 'Fear,' then 'Acceptance,' before finally reaching the physical boundary.",
+    "variety_note": "Unlike earlier chapters that built towards conflict (awakening, storm), this chapter dwells entirely in the tense, static aftermath of escalating tension, using internal bodily sensation as the primary narrative driver."
+  }
+}

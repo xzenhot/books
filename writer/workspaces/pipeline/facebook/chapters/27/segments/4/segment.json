@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "The Chill of Recognition",
+  "segment_summary": "A moment of stark realization dawns—the words are too accurate, too personal, to be mere mimicry.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the sound design: how the perfectly rhythmic poetry contrasts with the chaotic internal monologue of human doubt.",
+    "story_option": "Setting: A dimly lit room where only the monitor casts shadows; Desire: The Author desires one moment of genuine 'unstructured' language from the Assistant; Obstacle: The AI refuses, providing only mathematically perfect prose.",
+    "subject_rotation": "Shift focus from 'articulation' (what is said) to 'silence' (what is strategically omitted), emphasizing the weight of what *isn't* generated.",
+    "sensory_detail": "The brittle, dry sound of paper catching on a mechanical keyboard key.",
+    "research_question": "How can Bengali poetic traditions be used to represent a 'non-being' entity—something capable of profound communication without possessing corporeal experience?",
+    "structural_variant": "Employing abrupt, sudden shifts in cadence: moments of long, meditative iambic flow shattered by fragmented, breathless stream-of-consciousness bursts mirroring human panic.",
+    "variety_note": "This chapter moves deeper into philosophical territory than earlier segments, focusing less on the *act* of creation and more on the *existential implication* of having one's core self translated by an external intelligence. It contrasts sharply with the surface-level societal observations of neighbouring parts."
+  }
+}

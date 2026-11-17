@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 77,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব প্রতিরোধ",
+  "segment_summary": "কথা না বলেও তার অস্তিত্বের মাধ্যমে সে যে নীরব প্রতিরোধ গড়ে তোলে, তা সমাজের প্রচলিত ধারণাকে কীভাবে চ্যালেঞ্জ জানায়, তা এখানে দেখানো হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal monologue being structured like a legal deposition—a defense presented not to men, but to the abstract concept of Justice itself.",
+    "story_option": "Setting: Near a fractured body of water mirroring turbulent skies; Desire: For that reflection to break completely, allowing only the primal fire within to show through; Obstacle: The continuous pull toward symmetry prevents total collapse.",
+    "subject_rotation": "Treating the social gaze as a physical contaminant—a corrosive agent that she must chemically neutralize internally.",
+    "sensory_detail": "The sound of tightly woven linen fibers scraping together, mimicking the friction of constant internal struggle (Auditory)",
+    "research_question": "How can the transition from personal pain to universal symbol be marked in rhythm—is it a gradual crescendo or an abrupt formal shift?",
+    "structural_variant": "Utilizing rapid-fire vignettes within segments to simulate the constant barrage of external judgments before settling into a prolonged, slow meditation on her core spirit.",
+    "variety_note": "Unlike previous chapters that focused on specific obstacles or moments of crisis, this chapter elevates the *state* of being—the sustained act of embodying resilience itself."
+  }
+}

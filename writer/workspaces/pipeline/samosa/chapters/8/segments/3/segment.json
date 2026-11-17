@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "নিউরাল পথ ও হারানো ঠিকানা",
+  "segment_summary": "কীভাবে মস্তিষ্কের নির্দিষ্ট নিউরাল পথগুলি 'সিঙ্গাড়া'র গন্ধকে 'বাংলার রান্নাঘর' নামক একটি নির্দিষ্ট ভৌগোলিক স্মৃতিতে আবদ্ধ করে রাখে, তা কাব্যিক উপমা দিয়ে চিত্রিত করা হবে।",
+  "name": "3",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating the silence *between* the scent notes: where is the unspoken history embedded if the dominant note fails to appear?",
+    "story_option": "The 'I' is in a marketplace, deliberately inhaling deeply near spices not related to samosa. The attempt at substitution leads only to layered dissonance rather than true immersion (Setting: Busy bazaar corner; Desire: To trick the sense into remembering Bengal; Obstacle: Overwhelming sensory noise; Turn: A sudden, sharp awareness of self-deception).",
+    "subject_rotation": "Shifting the narrative focus from the 'I' perceiving the scent, to the scent itself possessing agency—it actively rejects its new environment.",
+    "sensory_detail": "The way artificial light catches the residue of ghost scent on surfaces, making absence visually tangible; (Sight)",
+    "research_question": "What specific literary devices in Bengali poetry are used to represent sensory memory failure without resorting to pure scientific jargon?",
+    "structural_variant": "Alternating stanzas that strictly alternate between scientific observation (objective, cool diction) and poetic invocation (subjective, warm diction).",
+    "variety_note": "Unlike adjacent chapters that focus on the ingredients (oil, potato) or the cultural transition, this chapter isolates the *mechanism* of sensory recall itself—the bridge between chemistry and soul."
+  }
+}

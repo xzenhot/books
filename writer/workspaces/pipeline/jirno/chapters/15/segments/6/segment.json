@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রক্তপলাশের শেষ রং",
+  "segment_summary": "ধ্বংসাবশেষের রক্তিম পলাশগুলো যেন শেষবারের মতো শান্তভাবে তাদের রঙ ধরে রাখে, যেন প্রকৃতির নীরব সম্মতি জ্ঞাপন করছে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the trajectory of the dust motes illuminated by the returning sun: how their slow, weightless descent mocks human attempts at monumental permanence.",
+    "story_option": "Setting: Inside the deepest corner of the collapsed mansion, shielded from the sun by rubble; Desire: To try and mentally reconstruct the exact ritual that was interrupted, attempting to impose order on chaos; Obstacle: Finding only organic debris—unidentified husks, seeds—that bear no resemblance to sacred implements.",
+    "subject_rotation": "Reinterpreting the final journey not as a physical walk away, but as an ongoing resonance with the soundscape—the memory of wind vibrations remaining in his bones.",
+    "sensory_detail": "Touch: The fine grit feeling surprisingly warm against exposed skin, suggesting residual stored heat in the stone mass.",
+    "research_question": "What specific agricultural terms describe the state of land that has been heavily saturated and then rapidly dried by tempestuous weather?",
+    "structural_variant": "An inverted narrative: beginning with the quiet departure and using flashbacks (in reverse chronological order) to explain *why* that silence feels earned.",
+    "variety_note": "This chapter pivots entirely away from intellectual confrontation; where earlier parts explored the *resistance* to change, this final phase is dedicated solely to the exhausted *completion* of surrender and departure."
+  }
+}

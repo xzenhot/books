@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অন্ধকার ও আলোর মিলন",
+  "segment_summary": "দীর্ঘকালের অন্ধকার এবং সংশয়ের পর্ব শেষ হয়ে যায়, যখন আলো চূড়ান্তভাবে তার সমস্ত বাধা অতিক্রম করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The volta shifts from 'faith triumphs over fate' to 'endurance redefines both faith and fate,' making them co-dependent variables in a complex equation.",
+    "story_option": "Setting: At the threshold leading back into the domestic space; Desire: To reclaim the simplicity of an unbroken touch; Obstacle: The overwhelming weight of every trial borne by the woman alone (the subtle exhaustion); Turn: They perform an ancient, unspoken gesture witnessed only by stone and light.",
+    "subject_rotation": "Reframing the victory less as personal salvation and more as an indictment against societal structures that require such extreme suffering for such beautiful affirmation.",
+    "sensory_detail": "A sound akin to stressed metal yielding—a barely audible groan from old timber or ritual bronze following intense psychic pressure (auditory).",
+    "research_question": "What classical Bengali metaphors exist to describe a state of sustained, tested fortitude that resists entropy rather than achieving perfect repose?",
+    "structural_variant": "A circular structure where each segment subtly revisits a defining emotional state from earlier chapters (e.g., loneliness, doubt) but frames it exclusively through the lens of present, powerful victory.",
+    "variety_note": "Unlike neighboring chapters which focused on the *act* of enduring struggle or the initial shock of loss, this section is dedicated entirely to the complex aftermath—the philosophical weight and redefined state of being *after* the ultimate climax."
+  }
+}

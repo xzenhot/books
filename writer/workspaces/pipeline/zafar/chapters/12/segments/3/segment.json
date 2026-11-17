@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আত্ম-উপলব্ধির গভীরতম স্তর",
+  "segment_summary": "এই মুহূর্তে, তিনি বুঝতে পারেন যে তাঁর প্রকৃত সার্বভৌমত্ব কোনো ভূখণ্ড বা সিংহাসনে নয়, বরং তাঁর নিজস্ব সৃজনশীলতার গভীরে নিহিত ছিল।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the final self-realization through physical sensory decay—the failing eyesight perceiving only text on aged parchment",
+    "story_option": "Setting: Lying amidst scattered, worthless state seals and paper decrees; Desire: To find an inscription that validates his spirit over the ledger sheet's tally; Obstacle: Finding only administrative jargon devoid of human weight.",
+    "subject_rotation": "Exploring the temporal collapse where past grandeur, present degradation, and future legend coexist simultaneously in his mind",
+    "sensory_detail": "Smell: The faint, lingering metallic tang of old iron implements mixed with camphor used in final rites",
+    "research_question": "What specific Mughal court idioms focused on inner divinity or spiritual sovereignty that would have been culturally immune to colonial administrative definition?",
+    "structural_variant": "A cyclical structure where each segment uses an image introduced in the prior one, but inverted.",
+    "variety_note": "Unlike earlier chapters which dealt with conflict and resistance against erasure, this chapter is purely reflective; it focuses on achieving a quiet transcendence *after* the struggle has been lost."
+  }
+}

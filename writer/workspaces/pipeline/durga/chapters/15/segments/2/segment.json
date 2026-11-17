@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "শিউলি ও স্মৃতি",
+  "segment_summary": "শিউলি ফুলের ম্লান গন্ধ এবং সিঁদুরের শেষ আভা সেই ক্ষণস্থায়ী আনন্দের স্মৃতিকে ধরে রাখে, যা মানসিক স্থায়িত্ব লাভ করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the soundscape *after* the peak—the specific rustle of dry earth and receding water, rather than residual noise.",
+    "story_option": "The narrative pauses on an elderly person who does not speak or gesture during Visarjan but instead listens intently to the water receding—Desire: To register the final dissipation through pure auditory reception; Turn: A sudden, inexplicable internal tremor in that listener.",
+    "subject_rotation": "Shifting from Durga's macrocosm to the micro-cosmos of the human digestive/metabolic process as the site of necessary purification (Mahishasura slaying in blood, internal sense).",
+    "sensory_detail": "The cold, damp scent of river moss mingling with the metallic tang of abandoned brass ornaments.",
+    "research_question": "How can I maintain Zoroastrian-like austerity in phrasing while respecting the devotional fervor of the tradition?",
+    "structural_variant": "Using extreme juxtaposition: a single highly technical/modern word (English loanword) placed directly next to a deeply archaic Sanskritized term.",
+    "variety_note": "This chapter deliberately moves away from externalized action (the fight/the parade) toward pure internal resonance; it is a study in echoes and sustained philosophical quietude, contrasting heavily with earlier festival descriptions."
+  }
+}

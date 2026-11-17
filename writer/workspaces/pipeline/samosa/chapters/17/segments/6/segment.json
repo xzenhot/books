@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অস্পষ্ট অনুরণন",
+  "segment_summary": "চূড়ান্ত স্বাদটি একটি অস্পষ্ট, কিন্তু গভীর অনুরণন রূপে বিরাজ করে, যা সমস্ত পার্থিব প্রচেষ্টার পরেও অধরা থেকে যায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Adopting a cyclical narrative loop where the final sensory input triggers the immediate re-invocation of Segment 1’s core memory, making 'ending' indistinguishable from 'beginning'.",
+    "story_option": "Setting: Looking closely at the cross-section of a piece of fried dough under magnification (metaphorical); Desire: To find a preserved, microscopic particle of original mustard oil within the flaky layer; Obstacle: The oil has been fully transmuted into a general 'frying medium,' erasing specificity; Turn: The narrator concludes that *structure* is what remains, not substance.",
+    "subject_rotation": "Focusing on the auditory landscape surrounding the consumption: the specific sounds that *don't* happen in this foreign setting, which make up the flavor.",
+    "sensory_detail": "The metallic chill felt on the tongue when trying to access a flavor that is purely 'ghost' substance.",
+    "research_question": "How can I maintain the mandated blend of high diction and raw vernacular street terminology (e.g., 'packet', 'border') without seeming jarringly inconsistent?",
+    "structural_variant": "Alternating between intense internal reflection (high diction) and abrupt, starkly rendered observations of the external environment (vernacular/English touchpoints).",
+    "variety_note": "This chapter acts as the culmination; while neighbours focused on the *process* (frying, travel, nomenclature), this piece focuses intensely on the *aftermath*—the metaphysical state of having consumed the symbol without retrieving the essence. It elevates subjective feeling to near-philosophical inquiry."
+  }
+}

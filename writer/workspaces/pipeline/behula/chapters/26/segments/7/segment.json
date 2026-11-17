@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "সংকল্পের চূড়ান্ত পরিণতি",
+  "segment_summary": "তার অদম্য সংকল্পের মাধ্যমে ব্যক্তিগত ট্র্যাজেডি কীভাবে সমষ্টিগত প্রেরণা হয়ে ওঠে, তার চূড়ান্ত রূপটি এখানে প্রকাশিত হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the *unspoken* societal reconciliation required for their reunion to be fully valid in their time.",
+    "story_option": "Setting: The riverbank where their parting echo was deepest; Desire: For Behula to offer Lukhindar a single, small token (like a specific leaf or stone) that symbolizes their shared endurance against the currents.",
+    "subject_rotation": "Examining the difference between 'returning' and 're-founding' oneself after prolonged trauma.",
+    "sensory_detail": "Sight: The way ambient light settles unevenly across their reunited forms, highlighting scars as luminous pathways rather than flaws.",
+    "research_question": "What precise linguistic markers in Bengali poetry can differentiate between 'joyful recovery' and 'hard-won existential validation'?",
+    "structural_variant": "A Volta where segment 6 forces a complete deconstruction of segments 1-5 as mere preparation for an inevitable, darker truth.",
+    "variety_note": "This chapter shifts focus from the internal struggle (previous chapters) to the outward declaration of synthesis; its turning point forces the reader to question if this triumph is solely personal glory or something far grander."
+  }
+}

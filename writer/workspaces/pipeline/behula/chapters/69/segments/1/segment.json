@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 69,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিষাদের ভারে নত মন",
+  "segment_summary": "অবিরাম মানসিক চাপের চাপে বেহুলার মন যেন এক ক্লান্ত পথিক, যার প্রতিটি পদক্ষেপেই হতাশার ছায়া ঘনিয়ে আসে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the micro-rituals of preservation: How does she maintain 'Dharma' (duty) amidst existential dread through precise, unbroken domestic acts?",
+    "story_option": "Setting: A dimly lit threshold between her personal chamber and the public path; Desire: To let the faint echo of Likhindor's voice be heard by the void; Obstacle: The oppressive weight of silence demands no response.",
+    "subject_rotation": "Examining her stamina as geological pressure—the force that creates diamonds from unimaginable stress.",
+    "sensory_detail": "The precise, brittle sound of dried palm-leaf scripture rustling in a stagnant draft (sound)",
+    "research_question": "How can the concept of 'spiritual depletion' be rendered poetically without resorting to clinical language, adhering strictly to high Sanskritized Bengali?",
+    "structural_variant": "A highly recursive structure where the central metaphor (the thread/flame) dissolves and reforms in each segment, never remaining static.",
+    "variety_note": "This chapter moves beyond describing the initial trauma (like Chapter 1) and delves into the mechanism of survival: how sheer psychological density is maintained when all external support structures fail."
+  }
 }

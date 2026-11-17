@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "প্রতিকূলতা জয় করার মাধ্যমে বেহুলার চরিত্রটি কেবল একজন নারী থেকে এক মহৎ প্রতীক হয়ে ওঠে, যা সহিষ্ণুতার নতুন সংজ্ঞা দেয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Revisiting the societal gaze via an internal mechanism: Instead of an external judge, frame society's doubt as an internal echo chamber that Behula must consciously silence to maintain her peace.",
+    "story_option": "Setting: A place resembling the initial sanctuary; Desire: To experience an exhaustion so profound and complete that it feels like transcendence—a beautiful collapse into stillness rather than manic celebration.",
+    "subject_rotation": "Analyzing the return as less divine intervention and more recognition—that her inherent spiritual state finally matched the possibility of reunion.",
+    "sensory_detail": "A distinct metallic scent of ozone hanging in the air where the boundary between trial and reality has been crossed (olfactory).",
+    "research_question": "What specific imagery, consistent with the elevated diction, can convey an 'absolute exhaustion that is beautiful' without lapsing into sentimentality?",
+    "structural_variant": "A structure emphasizing *Gap* (the trial) $\\rightarrow$ *Nexus* (the moment of return) $\\rightarrow$ *Dissonance* (the quiet, lingering societal question post-reunion).",
+    "variety_note": "Where previous chapters focused on resistance and the internal fight against specific odds (skepticism, deprivation), this chapter shifts focus entirely to the *aftermath*—the sustained, quiet resonance following absolute victory and its philosophical weight."
+  }
+}

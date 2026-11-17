@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আলোর স্পর্শে স্থিরতা",
+  "segment_summary": "The contrast between the harsh, emerging light and the soft, contained posture of the man is explored, highlighting resilience.",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the minute friction of dust motes catching the first light beam in relation to the careful folded hands.",
+    "story_option": "The owner pauses mid-fold, noticing a single stray thread on his cuff that seems to resist the dawn's light—a small act of resistance against perfect order.",
+    "subject_rotation": "Treating the act of folding as a meditation on repetitive physical discipline rather than merely tradition.",
+    "sensory_detail": "The smell of cool, unburnt wood mingling with dry linen dust before activity starts.",
+    "research_question": "What specific tactile qualities does aged or traditional folded fabric possess that might contrast sharply with newer materials?",
+    "structural_variant": "Structuring the piece as a slow visual inventory, where each minute detail (a knot, a crease) earns its own brief meditative stanza.",
+    "variety_note": "Unlike neighbour chapters that focus on external movement or marketplace interaction, this chapter is almost entirely dedicated to internal stillness and the metaphysics of pre-dawn routine."
+  }
+}

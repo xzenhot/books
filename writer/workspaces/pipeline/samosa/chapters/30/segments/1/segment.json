@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 30,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার প্রতিধ্বনি",
+  "segment_summary": "সামোসাটির শেষ টুকরো গিলে ফেলার পর জিভে যে শীতল, অপ্রাপ্ত শূন্যতা নেমে আসে, তা কেবল পেটভরা হওয়ার অনুভূতিকে অতিক্রম করে চলে যায়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the central thread on a single, microscopic element—perhaps a specific grain of cumin (জিরা)—and tracking how its presence/absence dictates the entire emotional landscape.",
+    "story_option": "Setting: A small, forgotten corner in a busy marketplace; Desire: To find one single item (like a bruised leaf or a shard of burnt sugar) that perfectly encapsulates the 'untranslated' nature of the flavor; Obstacle: The overwhelming noise and chaotic movement obscuring true introspection.",
+    "subject_rotation": "Shifting focus from *tasting* the absence to *performing* the act of non-consumption—the deliberate decision not to eat the final piece.",
+    "sensory_detail": "The dry, dusty feel of residual spice against a fingertip after reaching into a travel *bag*.",
+    "research_question": "How can Tatsama and Hindi diction be integrated not just for vocabulary enrichment, but to create a deliberate phonetic dissonance that mirrors cultural fracture?",
+    "structural_variant": "Structuring the piece as an argument in favor of permanent ontological suspension rather than narrative progression.",
+    "variety_note": "This chapter moves beyond the sensory shock of arrival (earlier chapters) into the sustained philosophical processing of what remains after the initial encounter, focusing intensely on the metaphysics of incomplete sensation and yearning."
+  }
 }

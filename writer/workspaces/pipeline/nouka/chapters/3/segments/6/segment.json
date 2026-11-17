@@ -4,19 +4,19 @@
   "chapter_index": 3,
   "segment_index": 6,
   "total_segments": 8,
-  "segment_title": "অভিযোগহীন বিষণ্ণতা",
-  "segment_summary": "ভাটিয়ালির বিষণ্ণতা কখনো অভিযোগ নয়, তা এক অমীমাংসিত আকাঙ্ক্ষা — ঘর থেকে দূরে, তবু ঘরের গন্ধ নিয়ে চলা।",
+  "segment_title": "অস্বাভাবিক লয়",
+  "segment_summary": "The natural, predictable cadence of the delta's waterways starts to feel subtly disrupted by the external, imposed tempo.",
   "name": "6",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Treating the dissonance between the human voice and the diesel engine not just as sound clash, but as a philosophical argument over definitions: what constitutes 'organic life'?",
-    "story_option": "setting: Deep within the boat's cramped wooden cabin during an overnight tow, desire: To reconnect with the lost voices of his ancestors through the song., obstacle: The persistent, high-pitched whine of a distant, modern boat motor infiltrates the night silence., turn: Gopal notices a specific knot in the worn rope which resembles an old musical notation from his youth.",
-    "subject_rotation": "Viewing the boat as a mobile stage where tradition performs against a backdrop of rapid, impersonal industrial progress.",
-    "sensory_detail": "The faint, almost imperceptible scent of crushed river blossoms carried on a current that has been unnaturally straightened.",
-    "research_question": "How does the cadence of traditional rowing rhythms inherently mimic or contrast with established musical meters?",
-    "structural_variant": "A spiraling form: the focus begins on one clear melodic phrase and recursively explores its echoes across different temporal planes (past to present threat).",
-    "variety_note": "This chapter moves away from broad geological descriptions (Chapter 2) to focus intensely on an ephemeral, non-material force—the sound—and introduces the central conflict through auditory contrast."
+    "angle": "Shifting from auditory tension to olfactory tension: the clean, sharp petrochemical smell momentarily overriding the centuries-old scent of river mud and wet jute.",
+    "story_option": "The engineer's vehicle (or a recognizable sign of it) briefly becoming visible through the haze, perfectly manicured and utterly out of place against the wild delta edge.",
+    "subject_rotation": "Using the shadow cast by a new industrial barge (if visible) to map the encroaching geometry onto Gopal's familiar lines.",
+    "sensory_detail": "The taste of metallic residue momentarily mixed with the pure, damp flavor of the monsoon spray.",
+    "research_question": "Can imagery be developed contrasting the 'rounded edges' of natural flow vs. the 'sharp angles' implied by engineered waterways?",
+    "structural_variant": "Starting with an extreme close-up on a single point of contact between wood and water, then rapidly pulling back to reveal the scale of the intrusion.",
+    "variety_note": "Unlike the first chapter's grounding in physical presence, this poem emphasizes sonic conflict; it is a study of overlapping frequencies rather than static imagery."
   }
 }

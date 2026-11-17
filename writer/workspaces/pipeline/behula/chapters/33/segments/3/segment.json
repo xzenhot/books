@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 33,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী প্রতিষ্ঠা",
+  "segment_summary": "সমস্ত প্রতিকূলতা জয় করার মাধ্যমে বেহুলার চরিত্রটি কেবল একজন নারী থেকে উঠে এসে এক মহৎ, অবিস্মরণীয় প্রতীক হয়ে ওঠে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Ontological Weight Shift: Rather than celebrating the reunion, exploring how the *weight* of surviving so much trauma now sits on them, redefining 'triumph' not as joy, but endurance.",
+    "story_option": "Setting: On a high terrace overlooking the plain at twilight, just before true darkness settles; Desire: For an unspoken recognition of shared existential burden—that victory is merely a prolonged state of equilibrium; Obstacle: An external sound (a market call or bird cry) that shatters the fragile silence.",
+    "subject_rotation": "The Stagnation of Perfection: Questioning if achieving ultimate 'perfection' leads to inertia rather than further striving.",
+    "sensory_detail": "The smell of damp earth mixed with residual smoke—the scent of extinguished and newly kindled fire (smell).",
+    "research_question": "What specific archaic Bengali terms describe the profound exhaustion that follows immense spiritual/physical struggle, differentiating it from mere fatigue?",
+    "structural_variant": "Employing recursive symbolism: using the image of 'light' not as absence of dark, but as its perfectly contained counterweight.",
+    "variety_note": "Unlike earlier chapters focused on battle and tension, this piece rests entirely in 'residue'; the poetry must evoke an aftermath characterized by heavy silence rather than ecstatic release."
+  }
+}

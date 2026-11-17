@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির প্রতিস্থাপন",
+  "segment_summary": "পুরোনো স্বাদের প্রতিস্থাপন নতুন তেলের মাধ্যমে একটি 'অনুবাদিত' অভিজ্ঞতা তৈরি করে, যা কখনোই মূলের কাছাকাছি পৌঁছাতে পারে না।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the oil as a reluctant medium: it attempts to convey the past, but only transmits its own neutrality.",
+    "story_option": "Setting: A cold metal *tawa* in a rented flat; Desire: To hear the exact, aggressive 'hiss' of genuine heat-laden mustard oil once more; Obstacle: Only generic vegetable fat available.",
+    "subject_rotation": "Focusing solely on the linguistic decay induced by culinary substitution—how 'Singara' transforms into just 'Samosa' in the local vernacular.",
+    "sensory_detail": "Sight: The sluggish, viscous ochre pool versus the thin, pale sheen shimmering under a fluorescent bulb.",
+    "research_question": "What are the precise molecular differences in volatile organic compounds between mustard oil and common industrial frying oils?",
+    "structural_variant": "A 'Call and Response' structure: Speaker speaks of the old scent, then an imagined answer (from the absent voice) denies it.",
+    "variety_note": "This chapter intensely hones in on a single sensory trigger (aroma/oil) and contrasts it across two distinct material realities, moving deeper into the physical basis of cultural dislocation than previous chapters focused on name or market scenes."
+  }
+}

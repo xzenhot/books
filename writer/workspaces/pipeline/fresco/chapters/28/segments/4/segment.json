@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "The Scaffold's Weight",
+  "segment_summary": "The physical burden of the scaffolding and the wet lime plaster symbolizes the invisible weight of societal and creative obligation.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "দেবলিনার শরীরের উপর চুন-ধুলো ও ল্যাপিস লেগে থাকার ভৌত প্রমাণ হিসেবে দেখানো, যা তাকে সময়ের সাথে সাথে এক ধরণের 'আর্কিভ' বানায়।",
+    "story_option": "দৃশ্য ১: রাতের নিস্তব্ধতা ভাঙার মুহূর্তে, দেবলিনা নিজের হাতের তালুতে লেগে থাকা চুন-ধুলো খুঁটিয়ে দেখে—প্রতিটি কণা যেন একটি প্রত্যাখ্যানের ক্ষুদ্র দলিল।",
+    "subject_rotation": "এই অধ্যায়টিকে কেবল 'প্রক্রিয়া' না দেখিয়ে, দেবলিনার শরীরকে এক অস্থায়ী শিল্পকর্ম হিসেবে উপস্থাপন করা যা সময়ের সাথে রাসায়নিক ও ভৌত পরিবর্তন ঘটায়।",
+    "sensory_detail": "স্ক্যাফোল্ডের কাঠ ও চুন মিশ্রণের ঘর্ষণে উৎপন্ন হওয়া একটি শুষ্ক, কর্কশ শব্দ যা রাতের নীরবতাকে ছিঁড়ে নেয়।",
+    "research_question": "Shekhawati শিল্পকলাতে এমন শৈলীগত উপাদান nào আছে যা একটি কাজের 'অসম্পূর্ণতাকে' সৌন্দর্য হিসেবে মহিমান্বিত করে?",
+    "structural_variant": "Employing paired segments that utilize antithetical vocabulary: such as 'Fixed/Motion,' or 'Light/Dust.'",
+    "variety_note": "Neighbours often focused on external stimuli (Musk or Sky); this chapter roots itself deeply within the material failure of the work and the internal pressure applied to those failures."
+  }
+}

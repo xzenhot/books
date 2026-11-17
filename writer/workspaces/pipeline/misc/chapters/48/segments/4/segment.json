@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "বিচ্ছিন্ন মুহূর্তের কাব্য",
+  "segment_summary": "Here, the focus shifts to the beauty inherent in fragmentation, celebrating the 'moment' over the 'monument.'",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The observer shifts from seeking synthesis to embracing inherent contradiction (dialectic of micro/macro).",
+    "story_option": "Setting: A monsoon road edge. Desire: To define the collective texture of dust and dampness. Obstacle: The urge to categorize it into one known name. Turn: Acceptance that categorization is the very act of erasure.",
+    "subject_rotation": "Treating fragmentation not as loss, but as structural integrity (like disparate tiles holding a mosaic together).",
+    "sensory_detail": "The metallic, coppery scent rising from damp earth after a platform spray.",
+    "research_question": "Is there a specific Bengali word that captures 'persistent yet inherently temporary state' without implying finality?",
+    "structural_variant": "Beginning with a forceful declaration of failure ('It does not cohere') before moving into the nuanced exploration.",
+    "variety_note": "This chapter diverges from its neighbors by actively wrestling with the tension between synthesis and dissolution; it is less about *what* these objects are, and more about the impossibility—or necessity—of answering that ultimate philosophical question."
+  }
+}

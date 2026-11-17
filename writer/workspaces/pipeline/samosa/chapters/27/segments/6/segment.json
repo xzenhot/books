@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অটুট আশ্রয়",
+  "segment_summary": "হারিয়ে যাওয়া স্বাদের স্মৃতি কীভাবে প্রবাসীর জন্য একমাত্র অটুট আশ্রয় হয়ে ওঠে, সেই ধারণার গভীরতা এখানে আলোচিত হয়েছে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Inverting agency: Framing the memory itself as the active agent that judges and critiques the present physical reality of the acquired food.",
+    "story_option": "Setting: While observing the reflection of oneself in greasy cooking oil on a makeshift *tawa*; Desire: To see a clearer image of the self anchored by the old Bengali idiom/dialect; Obstacle: The distorted reflection shows only a generalized, foreign silhouette.",
+    "subject_rotation": "Positioning the act of naming ('Samosa') as an erasure, not just a translation.",
+    "sensory_detail": "Touch: The gritty, fine residue of unidentifiable spices clinging to fingertips after handling prepared ingredients.",
+    "research_question": "How does the mandated repetition ('litany') interact with the instruction for a non-conclusive, counter-intuitive final line?",
+    "structural_variant": "Using a highly fragmented prose introduction before launching into dense verse cycles.",
+    "variety_note": "This chapter leans heavily into abstraction and introspection, contrasting with previous chapters which may have been more grounded in street-level observation or material friction."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 76,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "প্রতীকী রূপান্তর",
+  "segment_summary": "ব্যক্তিগত দুঃখের অভিজ্ঞতা কীভাবে তাকে সমাজের নিপীড়িত নারীদের সম্মিলিত কণ্ঠস্বর রূপে প্রতিষ্ঠা করে, সেই রূপান্তরের প্রক্রিয়াটি এখানে বর্ণিত হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The calculus of endurance: Treating 'patience' not as passivity, but as an active, high-energy computation required to counteract external corrosive forces.",
+    "story_option": "Setting: Deep inside a sealed chamber (a place of absolute internal focus); Desire: To make the sound of her own heartbeat resonate as a defiant drum against outside silence; Obstacle: The oppressive weight of historical expectations bearing down on the space.",
+    "subject_rotation": "Shifting from 'tragedy' to 'transmutation': Viewing the pain strictly as necessary catalytic energy for a higher, collective form of being.",
+    "sensory_detail": "The metallic aftertaste of bitter rain mixing with the faintest scent of jasmine in moments of acute mental strain.",
+    "research_question": "How does the established cadence of Zorban/Orillas match rhythmic patterns derived from sustained psychological pressure rather than purely emotional outpouring?",
+    "structural_variant": "Employing significant rhetorical parallelism across segments to emphasize the cyclical nature of suffering and assertion.",
+    "variety_note": "This chapter moves beyond describing pain (as seen in earlier segments) to actively theorizing its function: how personal anguish morphs into a durable, systemic critique articulated through endurance itself. It focuses on the transition from 'I suffer' to 'We are defined by this suffering.'"
+  }
+}

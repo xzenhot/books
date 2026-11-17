@@ -1,7 +1,7 @@
 {
   "total_chapters": 60,
   "completed_chapters": 0,
-  "current_chapter": 2,
+  "current_chapter": 1,
   "factory": "online",
   "model": "gemma4:latest",
   "provider": "ollama",
@@ -10,18 +10,18 @@
   "chapters": [
     {
       "chapter_number": 1,
-      "topic": "On the Sacred Kiss and the Flesh",
+      "topic": "misc — পর্ব 1",
       "category": "",
-      "status": "written",
+      "status": "pending",
       "file_path": "chapters/1/chapter.md",
       "completed_date": null,
-      "written": true,
+      "written": false,
       "validated": false,
       "published": false
     },
     {
       "chapter_number": 2,
-      "topic": "Vermilion at the Doorstep",
+      "topic": "misc — পর্ব 2",
       "category": "",
       "status": "pending",
       "file_path": "chapters/2/chapter.md",
@@ -32,7 +32,7 @@
     },
     {
       "chapter_number": 3,
-      "topic": "The Shopkeeper's Folded Hands",
+      "topic": "দরজায় সিঁদুরের লাল আভা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/3/chapter.md",
@@ -43,7 +43,7 @@
     },
     {
       "chapter_number": 4,
-      "topic": "The Rustle of the Newspaper",
+      "topic": "misc — পর্ব 4",
       "category": "",
       "status": "pending",
       "file_path": "chapters/4/chapter.md",
@@ -54,7 +54,7 @@
     },
     {
       "chapter_number": 5,
-      "topic": "The Rickshaw Bell at the Crossing",
+      "topic": "রাস্তার ধারের ক্ষুদ্র ব্যবসায়ীর হাঁক",
       "category": "",
       "status": "pending",
       "file_path": "chapters/5/chapter.md",
@@ -65,7 +65,7 @@
     },
     {
       "chapter_number": 6,
-      "topic": "Slippers Left Outside the Temple",
+      "topic": "বর্ষার প্রথম ফোঁটা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/6/chapter.md",
@@ -76,7 +76,7 @@
     },
     {
       "chapter_number": 7,
-      "topic": "The Porter's Sweat",
+      "topic": "চৌকাঠের বাইরে জীর্ণ চপ্পল",
       "category": "",
       "status": "pending",
       "file_path": "chapters/7/chapter.md",
@@ -87,7 +87,7 @@
     },
     {
       "chapter_number": 8,
-      "topic": "The Bindi",
+      "topic": "সন্ধ্যার প্রদীপের শিখা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/8/chapter.md",
@@ -98,7 +98,7 @@
     },
     {
       "chapter_number": 9,
-      "topic": "The Broom in First Light",
+      "topic": "টিফিন বক্সের ভাঁজ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/9/chapter.md",
@@ -109,7 +109,7 @@
     },
     {
       "chapter_number": 10,
-      "topic": "The Tiffin in Its Cloth",
+      "topic": "ফুলের স্তূপের পাশে গাঁদা ফুলের উজ্জ্বলতা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/10/chapter.md",
@@ -120,7 +120,7 @@
     },
     {
       "chapter_number": 11,
-      "topic": "The Barber's Mirror",
+      "topic": "ক্লান্ত যাত্রীর প্রতিকৃতি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/11/chapter.md",
@@ -131,7 +131,7 @@
     },
     {
       "chapter_number": 12,
-      "topic": "The Tailor's Tape",
+      "topic": "আলপনা বা রঙ্গোলির নকশা",
       "category": "",
       "status": "pending",
       "file_path": "chapters/12/chapter.md",
@@ -142,7 +142,7 @@
     },
     {
       "chapter_number": 13,
-      "topic": "The Paan Stain on the Pavement",
+      "topic": "একটি পুরোনো, জীর্ণ সাইকেলের ঘণ্টার মৃদু আওয়াজ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/13/chapter.md",
@@ -153,7 +153,7 @@
     },
     {
       "chapter_number": 14,
-      "topic": "Incense at the Street Shrine",
+      "topic": "পানের পাতা ও মশলার মিশ্রণ",
       "category": "",
       "status": "pending",
       "file_path": "chapters/14/chapter.md",
@@ -164,7 +164,7 @@
     },
     {
       "chapter_number": 15,
-      "topic": "The Vendor's Call",
+      "topic": "ক্ষুদ্র মুহূর্তের সমষ্টি",
       "category": "",
       "status": "pending",
       "file_path": "chapters/15/chapter.md",
@@ -175,7 +175,7 @@
     },
     {
       "chapter_number": 16,
-      "topic": "The Water Pot on a Head",
+      "topic": "The Sum of Minutes",
       "category": "",
       "status": "pending",
       "file_path": "chapters/16/chapter.md",
@@ -186,7 +186,7 @@
     },
     {
       "chapter_number": 17,
-      "topic": "The Marigold Garland at the Stall",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/17/chapter.md",
@@ -197,7 +197,7 @@
     },
     {
       "chapter_number": 18,
-      "topic": "The Bus That Has Not Started",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/18/chapter.md",
@@ -208,7 +208,7 @@
     },
     {
       "chapter_number": 19,
-      "topic": "The Window Seat and the Passing Field",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/19/chapter.md",
@@ -219,7 +219,7 @@
     },
     {
       "chapter_number": 20,
-      "topic": "The Coin in the Beggar's Bowl",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/20/chapter.md",
@@ -230,7 +230,7 @@
     },
     {
       "chapter_number": 21,
-      "topic": "The Milkman's Cycle",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/21/chapter.md",
@@ -241,7 +241,7 @@
     },
     {
       "chapter_number": 22,
-      "topic": "Chalk on the Blackboard",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/22/chapter.md",
@@ -252,7 +252,7 @@
     },
     {
       "chapter_number": 23,
-      "topic": "The Uniform Hung to Dry",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/23/chapter.md",
@@ -263,7 +263,7 @@
     },
     {
       "chapter_number": 24,
-      "topic": "The Wristwatch on the Desk",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/24/chapter.md",
@@ -274,7 +274,7 @@
     },
     {
       "chapter_number": 25,
-      "topic": "The Lullaby and the Mosquito Net",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/25/chapter.md",
@@ -285,7 +285,7 @@
     },
     {
       "chapter_number": 26,
-      "topic": "The Mortar in the Kitchen",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/26/chapter.md",
@@ -296,7 +296,7 @@
     },
     {
       "chapter_number": 27,
-      "topic": "The Prayer Beads in the Old Man's Hand",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/27/chapter.md",
@@ -307,7 +307,7 @@
     },
     {
       "chapter_number": 28,
-      "topic": "The Saree Folded on the Rope",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/28/chapter.md",
@@ -318,7 +318,7 @@
     },
     {
       "chapter_number": 29,
-      "topic": "The Umbrella Against the Monsoon",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/29/chapter.md",
@@ -329,7 +329,7 @@
     },
     {
       "chapter_number": 30,
-      "topic": "The Puddle and Its Sky",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/30/chapter.md",
@@ -340,7 +340,7 @@
     },
     {
       "chapter_number": 31,
-      "topic": "The Kite Caught in the Wire",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/31/chapter.md",
@@ -351,7 +351,7 @@
     },
     {
       "chapter_number": 32,
-      "topic": "The Gulmohar in the Courtyard",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/32/chapter.md",
@@ -362,7 +362,7 @@
     },
     {
       "chapter_number": 33,
-      "topic": "The Letter That Never Arrived",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/33/chapter.md",
@@ -373,7 +373,7 @@
     },
     {
       "chapter_number": 34,
-      "topic": "The Postbox at the Corner",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/34/chapter.md",
@@ -384,7 +384,7 @@
     },
     {
       "chapter_number": 35,
-      "topic": "The Photograph on the Wall",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/35/chapter.md",
@@ -395,7 +395,7 @@
     },
     {
       "chapter_number": 36,
-      "topic": "The Threshold Wiped with Water",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/36/chapter.md",
@@ -406,7 +406,7 @@
     },
     {
       "chapter_number": 37,
-      "topic": "The Kolam Drawn at Dawn",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/37/chapter.md",
@@ -417,7 +417,7 @@
     },
     {
       "chapter_number": 38,
-      "topic": "The Lock on the Closed Door",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/38/chapter.md",
@@ -428,7 +428,7 @@
     },
     {
       "chapter_number": 39,
-      "topic": "The Key Under the Mat",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/39/chapter.md",
@@ -439,7 +439,7 @@
     },
     {
       "chapter_number": 40,
-      "topic": "The Fan That Turns All Night",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/40/chapter.md",
@@ -450,7 +450,7 @@
     },
     {
       "chapter_number": 41,
-      "topic": "The Mat Spread for the Guest",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/41/chapter.md",
@@ -461,7 +461,7 @@
     },
     {
       "chapter_number": 42,
-      "topic": "The Betel Leaf at Farewell",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/42/chapter.md",
@@ -472,7 +472,7 @@
     },
     {
       "chapter_number": 43,
-      "topic": "The Train Window and the Unknown Station",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/43/chapter.md",
@@ -483,7 +483,7 @@
     },
     {
       "chapter_number": 44,
-      "topic": "The Platform's Sleeping Traveller",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/44/chapter.md",
@@ -494,7 +494,7 @@
     },
     {
       "chapter_number": 45,
-      "topic": "The Hawker's Scale",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/45/chapter.md",
@@ -505,7 +505,7 @@
     },
     {
       "chapter_number": 46,
-      "topic": "The Sugar in the Offered Tea",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/46/chapter.md",
@@ -516,7 +516,7 @@
     },
     {
       "chapter_number": 47,
-      "topic": "The Salt and the First Rain",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/47/chapter.md",
@@ -527,7 +527,7 @@
     },
     {
       "chapter_number": 48,
-      "topic": "The Crowd at the Water Tap",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/48/chapter.md",
@@ -538,7 +538,7 @@
     },
     {
       "chapter_number": 49,
-      "topic": "The Queue at the Ration Shop",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/49/chapter.md",
@@ -549,7 +549,7 @@
     },
     {
       "chapter_number": 50,
-      "topic": "The Handshake and the Namaste",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/50/chapter.md",
@@ -560,7 +560,7 @@
     },
     {
       "chapter_number": 51,
-      "topic": "The Footprints in the Wet Mud",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/51/chapter.md",
@@ -571,7 +571,7 @@
     },
     {
       "chapter_number": 52,
-      "topic": "The Lantern in the Power Cut",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/52/chapter.md",
@@ -582,7 +582,7 @@
     },
     {
       "chapter_number": 53,
-      "topic": "The Radio and the Old Song",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/53/chapter.md",
@@ -593,7 +593,7 @@
     },
     {
       "chapter_number": 54,
-      "topic": "The Clock Above the Station",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/54/chapter.md",
@@ -604,7 +604,7 @@
     },
     {
       "chapter_number": 55,
-      "topic": "The School Bell's Last Ring",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/55/chapter.md",
@@ -615,7 +615,7 @@
     },
     {
       "chapter_number": 56,
-      "topic": "The Cricket Game in the Lane",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/56/chapter.md",
@@ -626,7 +626,7 @@
     },
     {
       "chapter_number": 57,
-      "topic": "The Evening's Shared Silence",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/57/chapter.md",
@@ -637,7 +637,7 @@
     },
     {
       "chapter_number": 58,
-      "topic": "The Lamp Lit at Dusk",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/58/chapter.md",
@@ -648,7 +648,7 @@
     },
     {
       "chapter_number": 59,
-      "topic": "The Moon Over the Terrace",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/59/chapter.md",
@@ -659,7 +659,7 @@
     },
     {
       "chapter_number": 60,
-      "topic": "The Folded Hands at the End of Day",
+      "topic": "misc — পর্ব 15",
       "category": "",
       "status": "pending",
       "file_path": "chapters/60/chapter.md",
@@ -669,6 +669,8 @@
       "published": false
     }
   ],
-  "written_chapters": 1,
-  "published": false
+  "written_chapters": 0,
+  "published": false,
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-16T17:35:58Z"
 }

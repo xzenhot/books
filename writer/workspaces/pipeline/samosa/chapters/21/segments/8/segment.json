@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ততার কাব্যিকতা",
+  "segment_summary": "এই কাব্যগ্রন্থটি সেই অসমাপ্ত স্বাদের উদযাপন করে, যা পাওয়া এবং হারানোর মধ্যবর্তী এক অনন্ত, কিন্তু সুন্দর অপেক্ষার প্রতিচ্ছবি।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring how diaspora communities create 'synthetic flavors' through hyper-association with foreign elements.",
+    "story_option": "Setting: Beside an imported box of spices on a foreign shelf; Desire: To find one grain that retains the scent profile of Bihar soil; Obstacle: Cross-contamination from industrial processing.",
+    "subject_rotation": "Examining how sensory memory becomes a form of subtle rebellion against assimilation pressures.",
+    "sensory_detail": "Smell: A fleeting trace of woodsmoke that seems incongruous amidst the industrialized cooking air.",
+    "research_question": "How is 'sweet melancholy' expressed structurally in classical Bengali poetry—can this sonic patterning be mimicked without resorting to cliché?",
+    "structural_variant": "A highly recursive structure where the last line of Segment N feeds directly into the first word/idea of Segment N+1.",
+    "variety_note": "Unlike the earlier chapters focused on concrete events (journey, name change), this chapter delves entirely into phenomenology—the state of being suspended between what was and what is, using taste as the philosophical anchor."
+  }
+}

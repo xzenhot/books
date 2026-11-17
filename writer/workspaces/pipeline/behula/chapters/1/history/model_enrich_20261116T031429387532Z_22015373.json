@@ -1,0 +1,79 @@
+{
+  "chapter_index": 1,
+  "name": "1",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "behula — পর্ব 1 — behula",
+  "chapter_summary": "This initial chapter plunges into the sudden, devastating rupture of Behula's tranquil existence following her husband's untimely death. The central conflict is the immediate collision between serene domesticity and overwhelming loss, symbolized by the sudden extinguishing of her life's light. The imagery focuses on the quiet temple of her life being shattered by an unforeseen storm, leaving behind a profound, terrifying void. The chapter leaves the reader questioning how a soul, accustomed to stability, navigates the immediate, crushing weight of absolute solitude.",
+  "further_references": [
+    "workspaces/backlog/behula/storyline.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "শান্তির কারুকার্যের মন্দির",
+      "segment_summary": "The chapter begins by establishing the fragile, beautiful order of Behula's life before the catastrophic event.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অকাল ঝড়ের আগমন",
+      "segment_summary": "The sudden, violent arrival of her husband's death acts as the disruptive force, shattering the established peace.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "প্রাণস্ফুরণের নিস্তব্ধতা",
+      "segment_summary": "The immediate aftermath is characterized by a deep, echoing silence where vibrant life once resided.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "শূন্যতার গভীরে প্রথম ডুব",
+      "segment_summary": "Behula confronts the terrifying expanse of her new solitude, a void that threatens to consume her essence.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "স্থিতিশীলতার চ্যালেঞ্জ",
+      "segment_summary": "Her inherent inner strength is immediately tested by the sheer magnitude of this unexpected personal catastrophe.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "আলোর উৎস হারানো",
+      "segment_summary": "The metaphor of the guiding lamp is introduced, now flickering precariously in the face of overwhelming darkness.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "মানবিক অভিজ্ঞতার ভার",
+      "segment_summary": "This segment explores the raw, unvarnished human experience of grief and the initial shock of irreversible change.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অস্তিত্বের প্রশ্নচিহ্ন",
+      "segment_summary": "The chapter concludes by posing the fundamental question of how one continues to exist when the core of one's world has vanished.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

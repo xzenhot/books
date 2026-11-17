@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 11,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "দুই প্রান্তের মধ্যরেখা",
+  "segment_summary": "সামোসাটি যখন অচেনা মাটির ওপর রাখা, তখন তার ত্রিকোণাকার আকৃতিই যেন দুটি ভিন্ন জগতের সীমারেখা টেনে দেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the dilemma entirely through the tactile experience of picking up the samosa—the crust’s texture as a physical manifestation of divided identity.",
+    "story_option": "Setting: A solitary metal tray on a cold windowsill at 3 AM. Desire: To feel the samosa cease to be merely food and become a solidified map of Bengal’s borders. Obstacle: The harsh, unblinking glow of an outside streetlamp casting unflattering shadows. Turn: The realization that even shadow has changed shape since leaving home.",
+    "subject_rotation": "Treating the division not as cultural loss, but as an aggressive, necessary adaptation—a survival mechanism coded into the food.",
+    "sensory_detail": "The slick, cold condensation forming on the exterior paper napkin next to the warm samosas.",
+    "research_question": "What is the precise linguistic shift in descriptive Bengali adjectives used for fried snacks when moved from rural to urban/expatriate contexts?",
+    "structural_variant": "Using an intensely strophic form where each stanza begins with one characteristic physical attribute (shape, color, temperature) before pivoting to the philosophical dilemma.",
+    "variety_note": "This chapter drills down beyond mere flavor loss (Chapter 10) to investigate the *ontological* split—the dual nature where one object simultaneously belongs and does not belong."
+  }
 }

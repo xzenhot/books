@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "কাঠের নৌকার ভার",
+  "segment_summary": "নশ্বর কাঠের নৌকাটি কেবল একটি যান নয়, এটি তার ঐতিহ্য এবং সংগ্রামের প্রতীক, যা চাপা উদ্বেগে কেঁপে ওঠে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "রঘুনাথ의 आंतरिक কথোপকথন: যখন সে তার বৈঠাটিকে সম্বোধন করে, তখন কি তা কেবল কাঠ নাকি অতীতের সকল ঋণ বহনকারী সত্তা?",
+    "story_option": "একটি ছোট শিশু নৌকায় চড়ে আসে, তার পিতামাতা दूर থেকে আর্থিক সাহায্যের আশ্বাস দেয় কিন্তু বাস্তবে তা পৌঁছায় না; রঘুনাথ কী করবে?",
+    "subject_rotation": "নদীর স্রোতকে এখানে 'সময়' হিসেবে ব্যবহার করা—যেখানে অর্থনৈতিক চাপ কেবল দ্রুত গতির প্রতীক নয়, বরং অনিবার্য সময়ের প্রবাহ।",
+    "sensory_detail": "নৌকার ভেজা তক্তার ওপর ধুলো শুকানোর সময় যে শুকনো, গুঁড়ো গন্ধটুকু বাতাসে মেশে।",
+    "research_question": "ভটিয়ালি সঙ্গীতের কাঠামোতে এমন কোনো নির্দিষ্ট অংশ আছে কি যা অনিবার্য আর্থিক সংকটকে রূপকভাবে ফুটিয়ে তোলে?",
+    "structural_variant": "এই অধ্যায়টিকে একটি ফোকাসড ইমোশনাল লুপ হিসেবে গঠন করা, যেখানে প্রতিটি অংশের শেষ বাক্য পূর্ববর্তী অংশের মূল দ্বন্দ্বকে সামান্য ঘুরিয়ে ফিরিয়ে নিয়ে আসে।",
+    "variety_note": "Neighbours' chapters dealt with grander external forces (nature/merchants); this chapter drills down into the intimate collision between Raghunath’s personal integrity and small acts of financial inadequacy."
+  }
+}

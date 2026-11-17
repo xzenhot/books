@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "চূড়ান্ত দ্বিধা",
+  "segment_summary": "পথিককে চূড়ান্ত সিদ্ধান্ত নিতে হয়: সে কি এই ধ্বংসস্তূপকে তার 'ইতিহাস' বানাবে, নাকি তাকে প্রকৃতির হাতে সঁপে দেবে?",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on how the silence from the Satual community is spatially mapped across the landscape—not just in their faces, but in the empty spaces between their dwellings and the ruins.",
+    "story_option": "Setting: Standing at the threshold separating the mansion grounds from the village boundary wall; Desire: To observe one specific Satual child who looks upon both sides without discernible emotion; Obstacle: The inability to gauge whether this non-reaction is judgment or simple irrelevance.",
+    "subject_rotation": "Examining the contrast between the highly verbalized anguish of the traveler and the profound semantic void maintained by the indigenous community.",
+    "sensory_detail": "Sound: A sudden cessation of all background sounds (insects, distant chatter) replaced by a high-frequency, almost ultrasonic whine as the pressure builds.",
+    "research_question": "Are there specific cultural idioms within the declared world that describe 'necessary emptiness' or the beauty found in absence?",
+    "structural_variant": "Employing a tautological structure, where the conclusion of one small observation immediately feeds into the starting premise of the next.",
+    "variety_note": "While neighbouring chapters focused on the bloom's inherent nature or the dawn/storm transition, this chapter zeroes in entirely on the moment of decisive human choice against an overwhelming environmental backdrop."
+  }
+}

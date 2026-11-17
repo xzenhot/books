@@ -1,59 +1,118 @@
 {
   "chapter_index": 33,
   "name": "33",
-  "word_target": 250,
-  "chapter_title": "তেলের গন্ধের পার্থক্য",
-  "chapter_summary": "তেলের গন্ধের পার্থক্য প্রথমেই বোঝা যায়, স্বাদ বোঝারও আগে। ঘ্রাণ সবচেয়ে সৎ বিচারক।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "অসমাপ্ত স্বাদ",
+  "chapter_summary": "এই অধ্যায়টি সেই শূন্যতার উপর আলোকপাত করে যা সামোসা শেষ হওয়ার পরেও জিভে থেকে যায়; এটি কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি। এখানে 'আমি' সেই আকাঙ্ক্ষার তীব্রতাকে অনুভব করে, যা কেবল স্মৃতিতে বিদ্যমান নিখুঁত সিঙ্গাড়াটির জন্য অপেক্ষা করে। এই কাব্যিক অনুসন্ধানটি প্রশ্ন তোলে যে, স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ যা কখনও পুরোপুরি পুনরুদ্ধার করা সম্ভব নয়।",
   "further_references": [
+    "references.md"
+  ],
+  "segments": [
     {
-      "no": "1",
-      "reference": "The semiotics of culinary oils in diasporic literature",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "খালি প্লেটের প্রতিধ্বনি",
+      "segment_summary": "সামোসাটির শেষ টুকরো গিলে ফেলার পর জিভে যে শূন্যতা নেমে আসে, তা কেবল পেট ভরের অভাব নয়, বরং একটি সম্পূর্ণ সাংস্কৃতিক মুহূর্তের বিলুপ্তি।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "স্মৃতির অনুরণন",
+      "segment_summary": "এই শূন্যতাটি অতীতের সেই উষ্ণ, সরিষার তেলের গন্ধযুক্ত মুহূর্তগুলোর প্রতিধ্বনি বহন করে, যা প্রবাসের শীতল পরিবেশে প্রতিধ্বনিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "অনুবাদিত আকাঙ্ক্ষা",
+      "segment_summary": "এই স্বাদটি একটি 'অনুবাদিত' অভিজ্ঞতার মতো, যা ভাষা বদলের মতোই তার আদি রূপ থেকে বিচ্যুত হয়ে গেছে, কিন্তু আকাঙ্ক্ষাটি অটুট।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "অপেক্ষার স্থিরতা",
+      "segment_summary": "এই শূন্যতা একটি স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক, যা নিখুঁত সিঙ্গাড়াটির জন্য অনন্তকাল ধরে অপেক্ষা করে চলেছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "আত্মার ভাজা অংশ",
+      "segment_summary": "এই কাব্যিক অনুসন্ধান প্রমাণ করে যে, কিছু স্মৃতি কেবল জিভে নয়, আত্মার গভীরেও ভাজা থাকে, যা খাদ্যের মাধ্যমে প্রকাশিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "রাসায়নিক ও মানবিক সংযোগ",
+      "segment_summary": "এই অধ্যায়টি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে না দেখে, এটিকে গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ হিসেবে তুলে ধরে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অসম্পূর্ণ সমাপ্তি",
+      "segment_summary": "এই কাব্যিক যাত্রা কোনো চূড়ান্ত উত্তর দেয় না, বরং পাঠককে সেই মধুর বিষাদের গভীরে নিমজ্জিত করে যেখানে আকাঙ্ক্ষা স্থির থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "চিরন্তন অনুরণন",
+      "segment_summary": "এই কাব্যটি শেষ হয় সেই অস্পষ্ট, কিন্তু গভীর অনুরণন দিয়ে, যা সম্পূর্ণরূপে পাওয়া যায়নি, কিন্তু হৃদয়ে চিরকাল বেঁচে থাকে।",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Treating the oil smell as a form of atmospheric memory—how it hangs in the air despite physical distance, like smoke from an unseen *chula*.",
-      "Personifying the different oils: the assertive scent of mustard oil versus the bland neutrality of industrialized frying fats.",
-      "Framing the scent difference not as failure, but as a dialectical tension between two historical culinary epochs."
+      "Treating the 'void' as a linguistic residue—the impossible word that cannot be uttered but defines the sensory experience.",
+      "Shifting focus to the physical act of cleansing the mouth after eating, where the lingering sensation becomes an archive of memory.",
+      "Framing the waiting not as passive longing, but as a meticulous, almost obsessive, domestic ritual performed in stark contrast to the chaotic modern environment."
     ],
     "story_options": [
-      "Setting: Standing near an old spice vendor's stall in a new district; Desire: To ask the vendor which 'type' of oil gives the true smell; Obstacle: The vendor's knowing silence, an acknowledgment of cultural entropy.",
-      "Setting: In front of an empty *karoai* (frying pan) on a cooling rack; Desire: To inhale deeply, trying to map the spectral contours of past aromas onto the metal surface; Obstacle: Only residual heat remains, not scent itself.",
-      "Setting: While packaging leftovers in a new kitchen; Desire: To smell the oil clinging to the wrapper and project an image of Bengal's damp earth into that enclosed space; Obstacle: The synthetic plastic of the modern container aggressively sealing away authenticity."
+      "Setting: A cold slab of concrete near the market edge; Desire: To find the precise molecular signature of *sorshir tel* (mustard oil) clinging to a piece of packaging; Obstacle: The abrasive, alien dust that overwrites all local scents.",
+      "Setting: Inside an old-fashioned clay pot (*koraai*) left unused in a foreign kitchen; Desire: To coax the scent from its porous walls using only breath and memory; Obstacle: The overpowering, neutral smell of modern ventilation systems.",
+      "Setting: A moment before dawn, when city noise is at its lowest ebb; Desire: For the quiet to allow the phantom sound of deep frying in ghee (a forgotten variation) to resonate; Obstacle: The internal clock demanding wakefulness for a non-existent purpose."
     ],
     "subject_rotations": [
-      "Focusing exclusively on the molecular structure of scent as a proxy for nostalgia, avoiding descriptive culinary terms.",
-      "Treating 'ঘ্রাণ' (smell) itself as an unstated language—a form of non-verbal discourse that bypasses translation and political rhetoric.",
-      "A contrast between the ephemeral nature of steam/vapor (*বাষ্প*) carryover versus the stubborn permanence of oil saturation in material."
+      "Focusing on the texture of satiety—how physical fullness paradoxically amplifies spiritual emptiness.",
+      "Exploring the duality of language loss: the ability to name *samosa* but losing the semantic weight of *singara*.",
+      "Treating the residual oil film not as a stain, but as a fragile membrane separating 'here' from 'there'."
     ],
     "sensory_details": [
-      "The sharp, almost vinegary sting of old mustard oil against the sinuses upon first inhalation (olfactory).",
-      "The slick, unnaturally smooth film left on metal surfaces after frying, resisting a fingertip's tracing attempt (tactile/visual).",
-      "The heavy, warm blanket of aroma that seems to absorb light in the dim evening air (atmospheric/thermal)."
+      "The metallic chill emanating from the worn enamel of a forgotten eating dish.",
+      "The distinct prickle on the tongue where pure spice meets tasteless neutrality."
     ],
     "research_questions": [
-      "How do prevailing cultural narratives distinguish between 'authentic' culinary scents and commercially acceptable substitutes within diaspora communities?",
-      "Can the linguistic vocabulary employed for describing scent capture the nuanced gap between regional Bengali oils and globally standardized fats?"
+      "What specific Bengali idiom best conveys an 'unattainable perfection' in sensory experience?",
+      "How can the rhythm mimic the slow, almost geological process of flavor degradation over time?"
     ],
     "structural_variants": [
-      "An extended series of interrogatives, where each unanswered question serves as a different olfactory inquiry.",
-      "A poem structured around an inverted chronology, starting with the present foreign smell and tracing its degradation backward to the source aroma."
+      "Beginning with a sharp, declarative statement about the finality of emptiness (a sudden stop) before spiraling backward into memory.",
+      "Using highly fragmented lines where each line is interrupted by a linguistic bridge to an entirely different sensory experience."
     ],
     "unused_angles": [
-      "The specific interaction between salt crystals and hot oil—a micro-event that defines early flavor profiling but is bypassed here in favor of scent.",
-      "A detailed examination of how the initial 'heat' (আঁচ) imparts a molecular structure to the fat itself, which is then lost over time."
+      "A deep dive into geographical parallels: comparing the migratory routes of birds with the dispersal of spiced food products.",
+      "The socio-economic aspect: how this 'uncompleted taste' becomes a silent marker of class and origin in diasporic life."
     ],
-    "variety_note": "This chapter deliberately bypasses direct taste and texture (covered previously) to concentrate solely on scent as the most immediate, yet unreliable, carrier of memory across borders. It engages with auditory absence rather than presence."
+    "variety_note": "This chapter contrasts heavily with preceding segments by focusing entirely on post-consumption entropy—the afterglow, the residue, rather than the act of preparation or initial transit."
   },
   "draft": {
-    "sha256": "7858b152ea6749693e04fd829c3156a790faf9daef6e112abb2c4b062a137375",
-    "written_at": "2026-11-01T08:24:36.198297+00:00",
+    "sha256": "e395e196a96adbf28e9a3fed6ca701910b086edfe0624ba462334909f776a4f6",
+    "written_at": "2026-11-16T20:34:21.340271+00:00",
     "origin": "write"
   }
 }

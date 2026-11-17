@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ প্রতিলিপি",
+  "segment_summary": "প্রবাসে তৈরি সামোসাটি কীভাবে একটি 'অসম্পূর্ণ প্রতিলিপি' হয়ে দাঁড়ায়, যেখানে গন্ধের কাঠামো ঠিক থাকলেও তার মূল আবেগটি অনুপস্থিত থাকে।",
+  "name": "5",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Personifying the 'nose' (নাক) as the reluctant cartographer of lost landscapes; it maps terrain only when stimulated by its native aroma.",
+    "story_option": "The 'I' stands at a window, smelling not street food below but phantom traces of Bengal clinging to the residual heat rising from an abandoned fry pan (Setting: Window ledge; Desire: To bottle the spectral aroma; Obstacle: The cold reality of glass and distance; Turn: Realizing the trap is self-imprisonment).",
+    "subject_rotation": "Focusing less on *what* the smell is and more on *how* the mechanism of remembering itself becomes corrupted or warped by distance.",
+    "sensory_detail": "The abrasive grit left on the tongue after attempting to replicate a delicate spice blend with inferior, standardized components; (Tactile/Taste)",
+    "research_question": "What specific literary devices in Bengali poetry are used to represent sensory memory failure without resorting to pure scientific jargon?",
+    "structural_variant": "Alternating stanzas that strictly alternate between scientific observation (objective, cool diction) and poetic invocation (subjective, warm diction).",
+    "variety_note": "Unlike adjacent chapters that focus on the ingredients (oil, potato) or the cultural transition, this chapter isolates the *mechanism* of sensory recall itself—the bridge between chemistry and soul."
+  }
+}

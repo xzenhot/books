@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 55,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ ও আত্মার সংযোগ",
+  "segment_summary": "কীভাবে একটি নির্দিষ্ট গন্ধ মস্তিষ্কের গভীরে একটি সম্পূর্ণ পরিবেশকে ফিরিয়ে আনে, সেই নিউরাল সংযোগের কাব্যিক অনুসন্ধান।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The perspective shifts entirely to the *fingertips*—the point where the tactile evidence of both sharp zest (mustard) and bland uniformity resides.",
+    "story_option": "Setting: A discarded wrapper from a locally sourced packet; Desire: To find one chemical molecule within that inert plastic film that mirrors the intensity of the original *jhal*; Obstacle: The synthetic sheen overwhelming any natural essence.",
+    "subject_rotation": "An inversion: what if the neutral oil *could* taste like home, but only by momentarily corrupting its own chemical structure?",
+    "sensory_detail": "Olfactory: A momentary sensation described as 'biting' rather than merely smelling—a physical prickling in the upper respiratory tract.",
+    "research_question": "What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?",
+    "structural_variant": "A poem composed entirely through rhetorical questions posed by the ingredient itself (e.g., the oil speaking).",
+    "variety_note": "This chapter focuses intensely on the medium (oil) itself, deviating from neighbour chapters that focus more broadly on travel or nomenclature; it isolates the foundational sensory element."
+  }
+}

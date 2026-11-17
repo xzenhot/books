@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "বিশ্বাস বনাম প্রতিকূলতা",
+  "segment_summary": "Here, the internal conflict is mapped out: the fierce, burning conviction of her belief set against the cold, relentless pressure of external, otherworldly resistance.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing a silent celestial entity: The speaker challenges the gods' silence directly, refusing to interpret their absence as negligence but as deliberate testing.",
+    "story_option": "A scene where Behula waits by a stagnant pool under a heavy sky (Setting), desperate to see any ripple that signals divine acknowledgment (Desire/Turn), only to find the water perfectly, unnervingly still.",
+    "subject_rotation": "Shifting focus from the *failure* of divine response to the *power* inherent in self-sustained faith—a triumph independent of external grace.",
+    "sensory_detail": "The taste of metallic dust mixed with stagnant incense smoke during long vigils.",
+    "research_question": "What are concrete metaphorical descriptors within Bengali classical poetry for sustained spiritual endurance against supernatural resistance?",
+    "structural_variant": "Interspersing very short stanzas representing fragmented thoughts or immediate sensory assaults from the environment between longer, philosophical explorations of faith.",
+    "variety_note": "This chapter moves entirely inward toward metaphysical conflict, contrasting sharply with previous segments that dealt with external societal or familial pressures; it is a purely transcendental engagement."
+  }
+}

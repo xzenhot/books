@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 34,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্মৃতি",
+  "segment_summary": "এই কাব্য প্রমাণ করে যে, কিছু স্মৃতি কেবল জিভের মাধ্যমে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা সময়ের সাথে সাথে আরও গাঢ় হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the *act* of trying to explain this unquantifiable void to someone who has never tasted the original.",
+    "story_option": "Setting: A quiet commuter train window during long-distance travel; Desire: To gaze at distant lights and project them back onto the shape of the perfect fried pastry; Obstacle: The knowledge that light is only a poor analog for flavor.",
+    "subject_rotation": "Treating the narrator's desire for the *original* taste as a form of stubborn ontological refusal to accept modern existence.",
+    "sensory_detail": "Smell: The clash between residual cooking grease and the sharp, metallic scent of unfamiliar city air.",
+    "research_question": "How can the rhythm be manipulated to mimic the slow, almost geological process of flavor fading from the palate?",
+    "structural_variant": "Using stanzas that build in density (more intense lexicon) and then abruptly empty out, mirroring the flavor dissipating.",
+    "variety_note": "Unlike its neighbours which focus on the preparation (beginning) or geographical separation, this chapter concentrates solely on the *aftermath* and the philosophical implication of that residue."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত জিজ্ঞাসা",
+  "segment_summary": "কাব্যটি শেষ হয় এক খোলা প্রশ্নের মধ্য দিয়ে—স্বাদ কি কেবল জিভের তৃপ্তি, নাকি তা আত্মার গভীরতম স্তরে প্রোথিত এক চিরন্তন জিজ্ঞাসা?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating language itself: treating 'taste' not as a flavor, but as a failed linguistic translation from one cultural code to another.",
+    "story_option": "The moment just after swallowing: describing the physical sensation in the throat/esophagus as if absorbing not food, but displaced geography.",
+    "subject_rotation": "Treating the 'unfulfilled' nature not as melancholy, but as perpetual *potential*—the possibility always waiting for its correct catalyst.",
+    "sensory_detail": "The feeling of fine, dry powder adhering to the inner palate—the particulate residue of memory.",
+    "research_question": "How can I structure the rhythm to mimic the pause between the last chew and the ensuing existential realization?",
+    "structural_variant": "A circular structure beginning and ending on the sensation described in Segment 1, but with drastically altered semantic weight.",
+    "variety_note": "This chapter deepens the philosophical tension begun earlier by focusing entirely on the state *after* consumption—the residue, the void, and the internal debate about taste's nature."
+  }
+}

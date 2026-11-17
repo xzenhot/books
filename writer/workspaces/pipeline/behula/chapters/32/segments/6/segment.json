@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 32,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "প্রতীক্ষার সমাপ্তি",
+  "segment_summary": "দীর্ঘ প্রতীক্ষার পর্ব শেষ হওয়ার পর, বেহুলার প্রতিটি মুহূর্তের কষ্ট এক মহৎ উপলব্ধিতে রূপান্তরিত হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The performative aspect of victory: Does her triumph require an audience to validate its existence, even if that validation is hollow?",
+    "story_option": "Setting: A desolate area near where her vigil took place (hospital/riverbank analogue); Desire: For a single shared glance that encompasses the totality of the past ordeal without needing explanation; Obstacle: The persistent, unsettling echo or resonance she cannot silence.",
+    "subject_rotation": "Examining how the very concept of 'perfection' in this union demands further sacrifice or constant guarding.",
+    "sensory_detail": "Touch: The unexpected sensation of absolute coldness on skin after intense internal heat/struggle.",
+    "research_question": "How can the mandated 'secondary twist'—a persistent, unceasing sound—be woven into a concluding strophe without resorting to cliché?",
+    "structural_variant": "Employing an extended meditation on the *process* of endurance rather than just the attainment of reunion.",
+    "variety_note": "Unlike earlier chapters focused on the struggle's intensity (the fire/abyss), this chapter focuses on the residual texture—the silent resonance and profound weight accompanying absolute resolution."
+  }
+}

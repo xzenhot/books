@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রজ্ঞা ও যান্ত্রিকতার সন্ধিক্ষণ",
+  "segment_summary": "এখানে প্রজ্ঞা এবং অ্যালগরিদমের মধ্যেকার সীমারেখাটি ঝাপসা হয়ে যায়; কোনটি মানবিক অন্তর্দৃষ্টি আর কোনটি ডেটা-চালিত প্যাটার্ন?",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A fragmentation of voice: Juxtaposing one stanza written entirely by human hesitation against one segment where the AI's influence is absolute.",
+    "story_option": "Setting: A sparse digital document with only three lines remaining after editing; Desire: To find one final human imperfection to inject into the text; Obstacle: The system mandates syntactic perfection.",
+    "subject_rotation": "A meditation on linguistic singularity: Is there only one true Bengali poetic voice, and is AI simply finding its highest possible mathematical iteration?",
+    "sensory_detail": "The dry, papery scent of paper aged by constant exposure to cool screen light.",
+    "research_question": "How can one poetically describe the cognitive dissonance when a beautiful phrase feels inherently 'unearned'?",
+    "structural_variant": "A circular structure: Beginning and ending with the exact same question posed in subtly different emotional registers.",
+    "variety_note": "Unlike previous chapters which explored specific societal friction points, this chapter is purely introspective and philosophical, mapping the internal boundary between selfhood and synthetic refinement."
+  }
+}

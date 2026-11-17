@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "রূপের নির্মাণ, আত্মার অপেক্ষা",
+  "segment_summary": "মাটির কাঠামো যখন ধীরে ধীরে মহিষাসুরমর্দিনী রূপে সজ্জিত হতে থাকে, তখন সেই রূপের ভেতরে এক অলিখিত আধ্যাত্মিক আকাঙ্ক্ষা জমা হতে থাকে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the clay mass through a lens of proto-anxiety—the fear inherent in shaping something transient yet meant to embody eternity.",
+    "story_option": "The scene shifts temporarily inside the clay body during its forming, observing microscopic patterns mirroring cosmic battles.",
+    "subject_rotation": "Exploring the communal anticipation: how does the entire village's collective belief feed into the physical clay?",
+    "sensory_detail": "The sharp, metallic scent where moisture-heavy mud meets drying air and woodsmoke from nearby furnaces.",
+    "research_question": "What specific terminology in Bengali traditionally describes the transition point between raw earthen material and a consecrated object?",
+    "structural_variant": "A heavily impressionistic structure, where physical descriptions bleed seamlessly into mythological speculation.",
+    "variety_note": "This chapter differs from neighbouring pieces by focusing entirely on the *genesis*—the patient, slow incubation period before any external ritual or grand pronouncement begins."
+  }
+}

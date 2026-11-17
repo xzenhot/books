@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 24,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অদৃশ্য শিকড়ের টান",
+  "segment_summary": "এই অংশে, খাদ্যকে একটি অদৃশ্য শিকড়ের মতো দেখানো হয় যা প্রবাসে থাকা সত্তাকে তার আদি মাটির সঙ্গে অবিচ্ছিন্নভাবে সংযুক্ত রাখে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the *desire* for the original taste not as nostalgia, but as an unrecognized form of future-tense longing—anticipating a return that may never happen.",
+    "story_option": "Setting: Standing at a border crossing checkpoint (metaphorical or literal); Desire: To exchange one piece of lingering flavor for another authentic marker of identity; Obstacle: The official stamp only recognizes geography, not gastronomic resonance; Turn: The speaker realizes the true boundary is internal.",
+    "subject_rotation": "Shifting the subject from 'loss' to 'transformation': How does this partial echo allow for a strange, imperfect kind of new being?",
+    "sensory_detail": "Taste: A mineral-like astringency that signals the absence of proper balance.",
+    "research_question": "Are there classical poetic devices for signifying an *unfulfilled* experience without resorting to simple despair?",
+    "structural_variant": "An iterative loop where each segment begins with a word from the previous segment’s concluding line, forcing thematic resonance.",
+    "variety_note": "This chapter pivots away from identifying specific cultural markers (like 'Singara') and moves into pure ontological questioning—the nature of taste itself as a form of intangible persistence."
+  }
+}

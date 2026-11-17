@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 61,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "সংকল্পের মহাকাব্যিক যাত্রা",
+  "segment_summary": "এই পর্বের সমাপ্তি ইঙ্গিত দেয় যে, এই সংগ্রাম কেবল ব্যক্তিগত নয়, বরং এটি এক বৃহত্তর, অপ্রতিরোধ্য উত্থানের সূচনা।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the exhaustion not as fatigue but as an accumulation of ritualistic weight—each breath being a Sisyphean act against fate's decree.",
+    "story_option": "Setting: A deserted patch of earth near a riverbank (গাঙুড়ের আলয়); Desire: To speak one truth without reservation; Obstacle: Her own learned silence regarding social constraints; Turn: She chooses to narrate an unspoken, small kindness she once received.",
+    "subject_rotation": "Examining the tension between 'Sati' (purity/commitment) and the desperate, raw need for external validation in a hostile world.",
+    "sensory_detail": "The dry, brittle sound of old jute sacks rubbing against each other in a desolate corner.",
+    "research_question": "What specific ancient vocabulary exists that denotes endurance achieved *without* divine intervention?",
+    "structural_variant": "A cyclical structure built around the recurrence of one single physical gesture (e.g., touching her own wrist) across all eight segments.",
+    "variety_note": "This chapter deliberately slows the narrative momentum compared to previous segments by foregrounding pure internal friction; where before was external conflict, here it is relentless self-erosion versus stubborn will."
+  }
+}

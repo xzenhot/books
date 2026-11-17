@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "নৌকার নীরবতা",
+  "segment_summary": "নৌকাটি স্থির হয়ে থাকে, যেন প্রকৃতির নীরবতা এবং মানুষের হিসেবি কোলাহলের মধ্যে একটি মধ্যস্থতাকারী হিসেবে দাঁড়িয়ে আছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the moment through the eyes of the boat—the wood absorbing the tension between human greed and natural patience.",
+    "story_option": "The transaction hinges not just on distance, but on a perceived moral weight; perhaps the passenger is fleeing something illicit that makes his wealth feel tainted to the majhi.",
+    "subject_rotation": "Using the specific geography of the ghat itself—a place designed for transaction that feels suddenly archaic against the backdrop of modern finance.",
+    "sensory_detail": "The dry, brittle scent of oiled leather from the merchant's luggage contrasted with the wet earth smell clinging to the boat hull.",
+    "research_question": "What are common local terms for 'unearned luxury' or 'overpaid desire' in Bengali river culture that could be woven into the dialogue?",
+    "structural_variant": "The chapter begins entirely through the merchant's highly formalized, detached description of his needs before any visual contact is made.",
+    "variety_note": "Where previous chapters established the nature of the river and the man, this chapter anchors their relationship in a specific, tense moment of perceived commercial negotiation, introducing external friction."
+  }
+}

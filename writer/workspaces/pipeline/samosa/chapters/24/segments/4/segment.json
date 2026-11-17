@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 24,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার কাব্যিকতা",
+  "segment_summary": "এখানে সেই 'অসমাপ্ত স্বাদ'-এর ধারণাটি প্রতিষ্ঠিত হয়, যা পরিপূর্ণতা না পেয়েও এক গভীর কাব্যিক সত্য বহন করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the act of eating itself as a linguistic performance—the silence between bites being more communicative than the flavor.",
+    "story_option": "Setting: A cold, concrete ledge outside, under rapidly shifting street lighting; Desire: To capture a single moment of warmth before it dissipates into urban night; Obstacle: The indifferent passage of the city rush hour; Turn: The sensation fades not to nothingness, but to a different, colder form of presence.",
+    "subject_rotation": "Treating 'taste' as a form of necessary cultural *fiction*—the stories we tell ourselves to keep the connection alive.",
+    "sensory_detail": "Sight: The slow refraction of tungsten light through residual oil on skin.",
+    "research_question": "What precise Bengali culinary vocabulary captures 'lingering, undefined flavor'? (To inform diction choice)",
+    "structural_variant": "An iterative loop where each segment begins with a word from the previous segment’s concluding line, forcing thematic resonance.",
+    "variety_note": "This chapter pivots away from identifying specific cultural markers (like 'Singara') and moves into pure ontological questioning—the nature of taste itself as a form of intangible persistence."
+  }
+}

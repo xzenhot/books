@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "স্মৃতিচিহ্ন মুছে ফেলার প্রক্রিয়া",
+  "segment_summary": "ব্রিটিশ প্রশাসনের শীতল কার্যকারিতা কীভাবে একজন সম্রাটের স্মৃতিচিহ্নকে প্রশাসনিক নথির মতোই তুচ্ছ করে তোলে, তা এখানে দেখানো হয়েছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating his final moments not as surrender, but as the ultimate act of poetic defiance against administrative procedure.",
+    "story_option": "Setting: Amidst the faded, brittle scraps of legal documents detailing land allocation for his burial site; Desire: To silently 'inscribe' a secret poetic title onto the most damning piece of paperwork; Obstacle: The unforgiving ink that will never yield to resistance.",
+    "subject_rotation": "Framing memory not as an external record, but as a physiological process; how does absence physically reside in the remaining witnesses?",
+    "sensory_detail": "The grit of fine river silt (poli) contrasting with the coarse, chipped surface of prison-issued stone.",
+    "research_question": "What specific Mughal terminology related to funerary rites (e.g., burial plot designation) might have been deliberately overridden by colonial mandates?",
+    "structural_variant": "A non-linear structure where moments of absence (the lack of soil, the missing archive entry) flash back and forward across his final moments.",
+    "variety_note": "This chapter pivots away from active resistance (like Chapter 9's writing) to a meditation on absolute erasure—the philosophical space between being alive and simply not existing as a recognised entity."
+  }
+}

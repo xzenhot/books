@@ -2,53 +2,113 @@
   "chapter_index": 9,
   "name": "9",
   "word_target": 500,
-  "chapter_title": "The Broom in First Light",
-  "chapter_summary": "A broom whispers against the pavement in the first light, and the poem follows the sweep that clears the street before the day's noise begins.",
+  "segment_count": 8,
+  "chapter_title": "টিফিন বক্সের ভাঁজ",
+  "chapter_summary": "এই পর্বটি একটি টিফিন বক্সের ভাঁজ করা কোণ এবং তার ভেতরের খাবারের গন্ধের মাধ্যমে পারিবারিক বন্ধন ও পরিচর্যার ধারাবাহিকতাকে চিত্রিত করে। এটি বিচ্ছিন্নতার মাঝেও কীভাবে ঘরোয়া উষ্ণতা টিকে থাকে, সেই সূক্ষ্ম মানবিক সংযোগের উপর আলোকপাত করে। এই ক্ষুদ্র বস্তুটির মাধ্যমে কাব্যটি প্রশ্ন তোলে যে, দৈনন্দিন জীবনের এই নিভৃত যত্নগুলো কি বৃহত্তর সামাজিক কাঠামোর ভিত্তি রচনা করে, নাকি কেবলই ব্যক্তিগত স্মৃতির আবছা প্রতিচ্ছবি?",
   "further_references": [
+    "Domestic objects and household ritual"
+  ],
+  "segments": [
     {
-      "no": "1",
-      "reference": "The sonic quality of friction against dry earth/stone in daily Indian settings.",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "ভাঁজ করা কোণ",
+      "segment_summary": "টিফিন বক্সের সেই ভাঁজ করা কোণটি, যেখানে সময়ের ধুলো জমেছে, সেখানে পারিবারিক যত্নের নীরব স্বাক্ষর লেগে আছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 60,
+      "segment_title": "গন্ধের স্মৃতি",
+      "segment_summary": "খাবারের সেই পরিচিত গন্ধটি, যা দূরত্বের বাধা অতিক্রম করে, অতীতের উষ্ণ মুহূর্তগুলোকে বর্তমানের কাছাকাছি টেনে আনে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 60,
+      "segment_title": "অপেক্ষা ও বহন",
+      "segment_summary": "এই বাক্সটি কেবল খাবার বহন করে না, এটি অপেক্ষার ভার এবং যত্নশীল হাতের স্পর্শকেও বহন করে চলেছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 60,
+      "segment_title": "বিচ্ছিন্নতার উষ্ণতা",
+      "segment_summary": "বহু মাইল দূরে থাকা সত্ত্বেও, এই ক্ষুদ্র পাত্রটি এক ধরনের নিবিড়, ঘরোয়া উষ্ণতা সরবরাহ করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "প্রতিটি কামড়ের গল্প",
+      "segment_summary": "প্রতিটি কামড় যেন একটি ছোট গল্প, যা যত্নশীলতার নীরব ভাষা দিয়ে লেখা হয়েছে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 60,
+      "segment_title": "অদৃশ্য বাঁধন",
+      "segment_summary": "এই খাবারটি একটি অদৃশ্য বাঁধন তৈরি করে, যা ভৌগোলিক দূরত্বকে অর্থহীন করে তোলে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 60,
+      "segment_title": "ক্ষুদ্রতার মহিমা",
+      "segment_summary": "এই সাধারণ টিফিন বক্সটি প্রমাণ করে যে, জীবনের সবচেয়ে বড় সত্যগুলো ক্ষুদ্রতম পাত্রে নিহিত থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "স্থায়িত্বের খোঁজ",
+      "segment_summary": "এই দৈনন্দিন আদান-প্রদান কি বৃহত্তর স্থিতিশীলতার ভিত্তি, নাকি কেবলই ক্ষণস্থায়ী ভালোবাসার প্রতিধ্বনি?",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "scaffolded",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "The broom as an instrument of necessary erasure: viewing the dust swept away not as detritus, but as accumulated time or discarded moments.",
-      "Framing the sweep entirely around sound dynamics: the shift from dry scraping to a damp, heavier drag as morning dew settles on the grit.",
-      "The relationship between the broom's passage and human intention: is the sweeping an act of cleansing, maintenance, or quiet preparation for labor?"
+      "বিপরীতমুখী সংলাপ: টিফিন বক্সের নির্মাতা বা প্রেরকের অনুপস্থিতিকে সম্বোধন করে কবিতা লেখা, যেন বস্তুটির মধ্যে কথা বলা হচ্ছে।",
+      "আলোর পরিবর্তনকে কেন্দ্রীয় মোড়ক হিসেবে ব্যবহার করা: দিনের আলোয় উষ্ণতা ও স্থিতিশীলতার অনুভূতি এবং রাতে প্রদীপের ক্ষীণ আভায় স্মৃতির ভার বৃদ্ধি দেখানো।",
+      "বস্তুটিকে একটি 'সংরক্ষক' (Archivist) রূপে উপস্থাপন করা, যা কেবল খাবার নয়, প্রজন্মগত যত্নশীলতার ইতিহাস সংরক্ষণ করে।"
     ],
     "story_options": [
-      "Setting: The unpaved shoulder outside a low dwelling; Desire: To feel the friction of dried mud being lifted by stiff bristles, Obstacle: A single misplaced brick obstructing the sweep path; Turn: The broom hesitates, acknowledging the small piece of human refuse before continuing.",
-      "Setting: A narrow passage between two stone walls; Desire: To track the specific trail left in the mortar dust after every pass, Obstacle: Sunlight catching and illuminating a microscopic layer of residue (ash, pollen); Turn: The speaker notes that what is cleared only reveals other layers beneath.",
-      "Setting: Just inside the entrance to a small courtyard before sunrise; Desire: To feel the weightlessness of the first few sweeps when the air is coldest, Obstacle: A single, overlooked object—perhaps a fallen leaf or dried flower—resists the bristles; Turn: The broom delicately nudges the object aside rather than violently sweeping it."
+      "সেটিং: প্ল্যাটফর্মের কোণ; আকাঙ্ক্ষা: এক মুহূর্ত শান্তিতে গ্রহণ করা; বাধা: কঠোর বাস্তবতার সম্মুখীন হওয়া; মোড়: গন্ধটি হঠাৎ তিক্ত হয়ে যাওয়া।",
+      "সেটিং: অফিস বা কাজের স্থানের ভিড়; আকাঙ্ক্ষা: পরিচিত গন্ধ দ্বারা স্বস্তি পাওয়া; বাধা: সহকর্মীদের অপ্রাসঙ্গিক কোলাহল; মোড়: বাক্সটির গায়ে লেগে থাকা অপ্রত্যাশিত এক অন্যরকম দাগ আবিষ্কার করা।",
+      "সেটিং: অপেক্ষার প্রহর; আকাঙ্ক্ষা: প্রেরকের সামান্যতম বার্তা খুঁজে পাওয়া; বাধা: বাক্সের ভেতর থেকে খাবারের কোনো অংশ নড়ে না; মোড়: ভাঁজ করা প্রান্তে একটি ক্ষুদ্র প্রতীকচিহ্ন দেখা পাওয়া।"
     ],
     "subject_rotations": [
-      "Treating the broom not as an instrument of cleaning the public space, but as a proxy for memory; each swept particle representing something forgotten or passed over in life.",
-      "Focusing microscopically on the bristles themselves: their varying densities, how they catch light differently based on their age and exposure to earth.",
-      "Viewing the sweeping action rhythmically—as a physical meditation, where the pace dictates an internal state of being (calmness, rising anxiety) rather than just task completion."
+      "এই যত্নশীলতাটিকে অর্থনৈতিক লেনদেন (Transaction) হিসেবে বিবেচনা করে, যেখানে আবেগটিই মূল মুদ্রা।",
+      "খাদ্যকে শুধুমাত্র জৈব পুষ্টি নয়, বরং স্মৃতি বহনকারী এক 'রাসায়নিক ভেক্টর' রূপে চিত্রিত করা।",
+      "ব্যক্তিগত বন্ধনকে একটি কাঠামোগত স্থাপত্যের ক্ষুদ্র ভিত্তিপ্রস্তর হিসেবে দেখা।"
     ],
     "sensory_details": [
-      "The dry, papery crunch of fine dust disturbed by the straw/fiber bristles underfoot.",
-      "The cool, metallic tang in the air immediately following the first sweep, before solar warmth can bake it into scent.",
-      "The visual effect of the early light catching the microscopic particles—making the swept dirt glow briefly like disturbed amber."
+      "ভাঁজ করা কাগজের আলগা প্রান্ত থেকে উড়ে আসা শুকনো, মৃদু ধূলিকণার স্পর্শ (Tactile/Aromatic)",
+      "খাবারের ভেজা ঘ্রাণ এবং বাক্সটির প্লাস্টিকের শীতলতা—দুই ইন্দ্রিয়ের তীব্র সংঘাতের অনুভূতি।",
+      "বাক্সের ঢাকনা বন্ধ হওয়ার সময় সৃষ্ট একটি নিস্তব্ধ 'ঠক' ধ্বনি, যা মুহূর্তটিকে সিল করে দেয়।"
     ],
     "research_questions": [
-      "What are typical materials used for simple domestic brooms in contemporary India that would yield a distinct sound or texture when sweeping dry, compacted earth?"
+      "খাবারের নির্দিষ্ট কোনো উপাদান (যেমন মশলার মিশ্রণ) কি ভারতে দীর্ঘ দূরত্বে পরিবহনের সময় সুগন্ধের স্থায়িত্ব বা রাসায়নিক পরিবর্তন ঘটায়?",
+      "ঐতিহাসিকভাবে, ছোট আদান-প্রদানে ব্যবহৃত পাত্রগুলোর নকশা এবং প্রতীকী অর্থ কী ছিল?"
     ],
     "structural_variants": [
-      "A short, tercet-heavy structure emphasizing momentum and repetitive action.",
-      "An associative mapping where each sweep transitions into a disparate image from another part of the day's rhythm (e.g., sweep $\rightarrow$ tiffin cloth $\rightarrow$ platform shadow).",
-      "A near-monologue addressing the broom directly, granting it agency within the observation."
+      "একটি প্রশ্নোত্তরের কাঠামো: যেখানে প্রতিটি সেগমেন্ট একটি প্রশ্ন উত্থাপন করবে যা পরবর্তী সেগমেন্টের উত্তর খোঁজার প্রেরণা দেবে।",
+      "বহু-স্তরীয় ইমেজিং: একই দৃশ্যের (টিফিন বক্স) একাধিক ভিন্ন সময়ে বা দৃষ্টিকোণ থেকে বর্ণনা দেওয়া।"
     ],
     "unused_angles": [
-      "Exploring the interaction between the broom and the lingering scents of night—the smell of cooling earth mixed with residual nighttime cooking fumes.",
-      "Examining how the sweeping motion influences the soundscape: does the silence *change* as it is broken by friction?"
+      "কীভাবে এই বস্তুটির ক্ষুদ্রতা বৃহত্তর সাংস্কৃতিক অভিবাসন বা দূরত্বের ধারণাকে সংজ্ঞায়িত করে।",
+      "ভнутриকার খাবারের উষ্ণতার সঙ্গে বাইরের শীতল বাতাসের তাপমাত্রার বৈপরীত্যের মনস্তাত্ত্বিক প্রভাব।"
     ],
-    "variety_note": "Unlike earlier poems that focus on stationary objects, this piece centers on a kinetic action—the sweep itself—and utilizes an external address to create its primary texture."
+    "variety_note": "পূর্ববর্তী কবিতাগুলো বাহ্যিক প্রাকৃতিক ঘটনা বা স্থূল বস্তুর উপর জোর দিয়েছে; এই পর্বটি অভ্যন্তরীণ, ব্যক্তিগত যত্নের সূক্ষ্মতা এবং তার গন্ধ-সংবেদনকে কেন্দ্র করে আবর্তিত হচ্ছে।"
   }
 }

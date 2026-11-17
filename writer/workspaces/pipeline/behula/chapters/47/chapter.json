@@ -1,61 +1,119 @@
 {
   "chapter_index": 47,
   "name": "47",
-  "word_target": 280,
-  "chapter_title": "সুরের বাঁধনে ইন্দ্রের দম্ভ চূর্ণ",
-  "chapter_summary": "নৃত্যের গভীর আর্তি ও সতীর অপার্থিব জ্যোতিতে স্বর্গের অধিপতির অহংকার খসে পড়া। শক্তির চেয়ে সত্যের আকর্ষণ কত গভীর, তার প্রমাণ।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "behula — পর্ব 15 — behula",
+  "chapter_summary": "এই শেষ পর্বটি বেহুলার মহাকাব্যিক যাত্রার চূড়ান্ত পরিণতিকে চিত্রিত করে, যেখানে সমস্ত প্রতিকূলতা অতিক্রম করার পর স্বামীর প্রত্যাবর্তন ঘটে। এই বিজয় কেবল ব্যক্তিগত ট্র্যাজেডির সমাপ্তি নয়, বরং মানব আত্মার অদম্য শক্তির এক চূড়ান্ত ঘোষণা। এটি দেখায় যে কীভাবে গভীরতম শূন্যতাও বিশ্বাসের আলোয় পূর্ণতা লাভ করতে পারে, এবং এটি পাঠককে প্রশ্ন করে যে এই ব্যক্তিগত মহিমা কি বৃহত্তর সামাজিক কাঠামোর প্রতি এক নীরব অভিযোগ বহন করে?",
   "further_references": [
+    "references.md"
+  ],
+  "segments": [
     {
-      "no": "1",
-      "reference": "Cosmic Aesthetics: Juxtaposing Divine Order vs. Mortal Chaos in South Asian Iconography",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+      "segment_summary": "সমস্ত সংগ্রাম শেষে, বেহুলার জীবনে সেই প্রতীক্ষিত প্রত্যাবর্তন ঘটে, যা তার সমস্ত কষ্টের অর্থকে নতুন করে সংজ্ঞায়িত করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "আত্মার চূড়ান্ত 승리",
+      "segment_summary": "এই প্রত্যাবর্তন কেবল শারীরিক মিলন নয়, বরং এটি মানব আত্মার সেই আদিম স্পন্দনের বিজয়, যা চরম প্রতিকূলতা সত্ত্বেও টিকে ছিল।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+      "segment_summary": "প্রতিটি বাধা অতিক্রম করার মাধ্যমে বেহুলার চরিত্রটি কেবল একজন নারী থেকে এক মহৎ, অবিস্মরণীয় প্রতীকে রূপান্তরিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "আলোর চূড়ান্ত প্রতিষ্ঠা",
+      "segment_summary": "অগ্নির দীপশিখা, যা এতকাল প্রতিকূলতার বিরুদ্ধে সংগ্রাম করছিল, তা এখন পূর্ণ উজ্জ্বলতায় জ্বলে ওঠে, অন্ধকারের উপর বিজয় ঘোষণা করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "শূন্যতার পূর্ণতা",
+      "segment_summary": "স্বামীর অনুপস্থিতি দ্বারা সৃষ্ট অতল শূন্যতা অবশেষে পূর্ণতা লাভ করে, যা কেবল ব্যক্তিগত সান্ত্বনা নয়, বরং এক গভীর দার্শনিক উপলব্ধি।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "প্রেরণার মহাকাব্য",
+      "segment_summary": "বেহুলার এই চূড়ান্ত বিজয় অন্যদের জন্য এক শক্তিশালী প্রেরণা হয়ে ওঠে, যা দেখায় যে সহিষ্ণুতা কীভাবে সমষ্টিগত শক্তি জন্ম দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+      "segment_summary": "বিজয় সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগের সুর বজায় রাখে, যা পাঠককে ভাবনার গভীরে নিয়ে যায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অদম্য সংকল্পের শেষ গান",
+      "segment_summary": "এই শেষ স্তবকটি অদম্য সংকল্পের মহাকাব্যিক সমাপ্তি ঘটায়, যেখানে বিশ্বাসই চূড়ান্ত সত্য হিসেবে প্রতিষ্ঠিত হয়।",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "The focus shifts entirely from Behula's *action* to the infinitesimal *reaction* of Indra—a single tremor in his composure.",
-      "Treating the dissolution of power not as a grand battle, but as an osmotic bleed: how her quiet truth subtly dissolves the rigid structure of celestial authority over time, like ink in water.",
-      "Reframing Indra's hubris not just as arrogance, but as crippling *fear*—the terror that his perfect system might be rendered obsolete by pure human devotion."
+      "বিশুদ্ধ বস্তুনিষ্ঠতা (Thingness): ঘটনাপ্রবাহের চেয়ে কেবল 'বস্তু'র স্থিতিশীলতার উপর জোর দেওয়া—যেমন, ফিরে আসা স্পর্শে ধুলোবিন্দুর বিন্যাস বা ঘরের প্রাচীন কাঠামোর কম্পন।",
+      "পুনরাবৃত্ত ধ্বনি: একটি নির্দিষ্ট ব্যঞ্জনধ্বনি বা স্বরবর্ণকে কেন্দ্র করে চিত্রকল্প নির্মাণ করা, যা তীব্র আবেগের পর স্থিরতা লাভ করলেও তার প্রতি ইশারা দেয় (যেমন - 'ম' বা 'আ'-এর দীর্ঘায়ন)।",
+      "দ্বৈত সত্যের স্থায়িত্ব: বিজয়টিকে এমনভাবে তুলে ধরা যেন এটি কেবল একটি মুহূর্ত নয়, বরং দুটি متপরবর্তী অবস্থার মধ্যে ক্রমাগত টানাপোড়েন বজায় রাখার শিল্প।"
     ],
     "story_options": [
-      "Setting: The threshold of the great celestial performance space; Desire: To momentarily glimpse a vulnerability in Indra's posture when Behula begins her movement, before the power fully shifts; Obstacle: The immediate expectation that she must be loud or forceful; Turn: Her greatest act is one of absolute stillness amidst rhythmic complexity.",
-      "Setting: The periphery viewing platform, where lesser deities observe the main event; Desire: To perceive a secondary deity whose initial disapproval melts into reluctant recognition of her intrinsic worth; Obstacle: The overwhelming sense of divine detachment; Turn: This secondary deity acts as a silent mirror, showing Indra what he refuses to see.",
-      "Setting: Amidst the resonance chambers described in celestial architecture (a setting not yet used); Desire: To find the exact sonic frequency where his boasted power vibrates loudest, and witness that frequency waver under her presence; Obstacle: The deafening illusion of perfect order; Turn: The 'flaw' is not visible but audibly present—a slight, unexpected dissonance."
+      "দৃশ্যকল্প: প্রত্যাবর্তনের পর দু'জন চরিত্র অতি সাধারণ কোনো কাজে লিপ্ত (যেমন একসাথে জল পান করা); আকাঙ্ক্ষা: সেই কাজটি যেন এক বিশাল দার্শনিক ভার বহন করে; বাধা: সমাজের দূর থেকে আসা, প্রায় অদৃশ্য সতর্ক দৃষ্টি।",
+      "দৃশ্যকল্প: গৃহের কেন্দ্রস্থলে থাকা একটি প্রতীকী শিখা বা প্রদীপ—যা পূর্বে দুর্বল ছিল, এখন তা স্থির ও জোরালো; আকাঙ্ক্ষা: 그 অগ্নিশিখার স্থিতিশীলতাকে অক্ষয় প্রমাণ করা; বাধা: বাইরের কোনো প্রবল বাতাস যা শান্ত পরিবেশকে বিঘ্নিত করতে চায়।",
+      "দৃশ্যকল্প: দু'জনের মিলিত শরীরের প্রথম স্পর্শের ঠিক পরের মুহূর্তটি (সময় থমকে থাকা); আকাঙ্ক্ষা: সেই স্থায়িত্বকে একটি অপ্রতিরোধ্য কাব্যিক শব্দে বাঁধাই করা; বাধা: সময়ের অনিবার্য প্রবাহ, যা এই নতুন স্থিতিকে ক্ষয় করতে প্রস্তুত।"
     ],
     "subject_rotations": [
-      "Analyzing the concept of divine 'performance' itself—is Indra’s reign a display, and if so, how does authentic suffering deflate a carefully curated show?",
-      "Examining the cost of celestial perfection: what essential human element (messiness, doubt, vulnerability) is violently excluded from their domain? Here, that excluded element gains sovereignty.",
-      "Focusing on the mechanics of 'breaking pride': Is it an active overthrow, or merely the inevitable consequence of a truth too potent to be contained by conventional power structures?"
+      "বিজয়কে আখ্যান না বানিয়ে—শুধুমাত্র বস্তুগত 'অস্তিত্বের সহনশীলতা' (endurance of being) হিসাবে উপস্থাপন করা।",
+      "ব্যক্তিগত মহত্ত্ব থেকে সরে এসে, এই বিজয়কে একটি বৃহত্তর প্রাকৃতিক চক্র বা প্রাচীন শক্তির প্রতিধ্বনি হিসেবে দেখা।",
+      "প্রত্যাবর্তনকে আবেগের মিলন না বানিয়ে—দুটি ভিন্ন সত্তার মধ্যে ঘটা এক 'স্থায়িত্বের চুক্তি' (Covenant of Stability) হিসাবে চিত্রিত করা।"
     ],
     "sensory_details": [
-      "The specific metallic tang in the air that shifts from polished bronze (power) to something warmer, like heated river clay (humanity).",
-      "The sensation of weightless gravity faltering just for a beat as her spiritual momentum challenges established cosmic inertia.",
-      "The visual contrast between Indra's flawlessly structured ornamentation and the texture of dust adhering stubbornly to Behula's garment."
+      "ফিরে আসা স্পর্শে প্রাচীন কাঠ থেকে নিঃসৃত হওয়া আলস্যময়, ধূলিযুক্ত গন্ধ।",
+      "প্রত্যাবর্তনের মুহূর্তে দেহের অভ্যন্তরে উৎপন্ন এক নিচু, চাপা গুঞ্জন (sub-sonic hum) যা সমস্ত অভ্যন্তরীণ চাপকে স্থিতিশীল করে দেয়।",
+      "প্রাচীন মেঝেতে পড়ে থাকা একটি ক্ষুদ্র পাথরের ওপর পড়া আলোর নির্দিষ্ট, স্থির ফোকাস।"
     ],
     "research_questions": [
-      "How can Bengali poetic language articulate an abstract concept like 'systemic obsolescence' without resorting to overtly political or didactic metaphor?",
-      "What textual precedent exists for a supreme being experiencing functional cognitive dissonance in response to pure, unmediated human faith?",
-      "Can the rhythm of devotional poetry (bhakti) be structurally inverted to describe forceful deconstruction rather than adoration?"
+      "অত্যন্ত দীর্ঘ মানসিক সংগ্রামের পর শারীরিক 'স্থিরতা' বা 'শান্তি' কি আদৌ সম্ভব, নাকি তা কেবল পরবর্তী সংঘাতের প্রস্তুতি মাত্র?",
+      "'স্থায়িত্বশীলতা' (Stability) বোঝানোর জন্য বাংলা সাহিত্যে কোন শব্দগুলি এমন গভীর দার্শনিক ভার বহন করে যা সাধারণ শান্তিকে অতিক্রম করে?"
     ],
     "structural_variants": [
-      "An opening stanza dedicated solely to cataloging Indra’s boasted glories before the disruptive entry begins.",
-      "A structure that mimics a slow-motion collapse, where each line represents a further recession of his absolute authority.",
-      "A fragmented internal dialogue section (projected thought) from one peripheral observer who cannot speak her truth."
+      "একটি বৃত্তাকার কাঠামো যেখানে প্রতিটি সমাপ্তি বাক্য পরের সেগমেন্টের প্রারম্ভিক চিত্রকল্পকে পুনঃঘোষণা দেয়, কিন্তু প্রতিশব্দ ব্যবহার করে।",
+      "মধ্যভাগকে তিনটি ছোট দার্শনিক প্রশ্ন দিয়ে সাজানো; উত্তরগুলি দৃশ্যমান না হয়ে কেবল অন্তর্নিহিত সুর হিসেবে বজায় থাকা।"
     ],
-    "variety_note": "Unlike the prior chapters which established Behula's suffering as evidence of injustice, this chapter must foreground the *consequence* of that justice being asserted upon the divine order itself.",
     "unused_angles": [
-      "A sustained meditation on 'audience complicity'—the unspoken role of the other minor gods who remain neutral observers.",
-      "The idea that Indra is not merely defeated, but forced into a state of *perpetual questioning* about his own legitimacy."
-    ]
+      "জীবনের এমন এক মুহূর্ত যেখানে সংগ্রাম শেষ হওয়ার পরেও 'সতর্কতা' (vigilance) একটি নতুন এবং অবিচ্ছেদ্য অংশ बन যায়।",
+      "বাইরের জগতের মানুষের প্রতিক্রিয়াকে একেবারেই এড়িয়ে গিয়ে, কেবল চরিত্রের অভ্যন্তরীণ মহাজাগতিক স্থায়িত্বের উপর আলোকপাত করা।"
+    ],
+    "variety_note": "পূর্ববর্তী পর্বগুলির যেখানে তীব্র উত্থান ছিল, এখানে সেই উত্থানের পর অর্জিত স্থিতিশীলতার গভীরতা এবং তার অন্তর্নিহিত দার্শনিক ভারকেই নতুন আঙ্গিকে ফুটিয়ে তোলা হয়েছে।"
   },
   "draft": {
-    "sha256": "ee9a4b2500563e3eb830fed59cf2a406d3d0c14ca82f2f472e2ad5073ee0c47d",
-    "written_at": "2026-10-21T16:34:40.239547+00:00",
+    "sha256": "d67f87b41be58aa3d1348e78592b08d59d6459d9399da98f6b942957cc567e13",
+    "written_at": "2026-11-16T06:04:02.058620+00:00",
     "origin": "write"
   }
 }

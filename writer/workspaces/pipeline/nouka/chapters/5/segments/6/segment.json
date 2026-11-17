@@ -4,19 +4,19 @@
   "chapter_index": 5,
   "segment_index": 6,
   "total_segments": 8,
-  "segment_title": "নদীর ডাক",
-  "segment_summary": "বৃষ্টির ফোঁটার মধ্যে গোপাল শোনে নদীর ডাক, যে ডাক তার পূর্বপুরুষেরাও শুনত; কবিতা এই ডাককে বংশের সেতু হিসেবে দেখে।",
-  "name": "6",
+  "segment_title": "অজানা বিপদের পূর্বাভাস",
+  "segment_summary": "The shift in the water's character brings with it a palpable sense of danger, a constant, low-level anxiety replacing the familiar rhythm of the monsoon.",
+  "name": "5.6",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Framing the anticipation not just as fear, but as the necessary vulnerability required to sustain the tradition of open-water generosity.",
-    "story_option": "Setting: On an upstream stretch approaching urban saturation; Desire: To witness how the monsoon forces react differently when flowing past concrete floodwalls versus ancient mud banks; Obstacle: The visible presence of industrial machinery seemingly unaffected by or indifferent to the flooding.",
-    "subject_rotation": "Examining 'hope' not as a grand promise, but as the small act of bailing water with an ancient technique while simultaneously listening for the subtler sounds beneath the storm.",
-    "sensory_detail": "The visual distortion of lantern light flickering on water agitated by torrential downpour, turning familiar banks into impressionistic blurs.",
-    "research_question": "Are there documented historical examples where major infrastructural changes led to shifts in indigenous navigational knowledge within Bengali delta regions?",
-    "structural_variant": "Employing an extended Aural Motif where one specific sound—like a distinct crack of thunder or a particular type of splash—is repeated and altered across all eight segments to mark the passage of time.",
-    "variety_note": "Unlike previous chapters focused on fixed conditions (the boat's existence or a single song), this chapter centers entirely on fluid states—change, threat, and renewal—using water level as the narrative axis against modernization."
+    "angle": "গোপালের শরীরের চামড়া ও নৌকার কাঠের ওপর প্রযুক্ত হওয়া জলের চাপ-এর পার্থক্য নিয়ে ফোকাস করা; শরীর বনাম বস্তুগত ক্ষয়।",
+    "story_option": "সেটিং: ড্রেজিং কাজের ঠিক মাঝ বরাবর এমন একটি স্থান যেখানে দুটি ধারা এসে মিশছে (পুরাতন ও নতুন); আকাঙ্ক্ষা: গোপাল সেখানে নোঙর ফেলেন এবং কেবল তার নৌকাটি স্থিতিশীল থাকার মাধ্যমে দুই স্রোতকে সাময়িকভাবে ধারণ করার চেষ্টা করেন; বাধা: অপ্রত্যাশিত, তীব্র ঘূর্ণি।",
+    "subject_rotation": "পরিবর্তনশীল স্রোতকে গোপালের নিজের মনস্তাত্ত্বিক অবস্থা (যেমন: ভয় এবং অনিবার্যতার মিশ্রণ) হিসাবে সরাসরি ম্যাপ করে দেখানো।",
+    "sensory_detail": "ঝড়ের আগে বাতাসের মধ্যে থাকা জলের ঝাপটার তীক্ষ্ণ শীতলতা।",
+    "research_question": "ভাটিয়ালি গানে ব্যবহৃত নির্দিষ্ট কোনো শব্দ বা ধ্বনি কি নদীর স্বাভাবিক ফ্লো-এর সঙ্গে সম্পর্কিত কোনো ভৌগোলিক অবস্থানের উল্লেখ করে?",
+    "structural_variant": "একটি 'ফ্ল্যাশব্যাক' মাধ্যমে নদী তার অতীত ছন্দ কেমন ছিল তা অতি দ্রুত চিত্রিত করা এবং তারপর যান্ত্রিক অনুপ্রবেশে হঠাৎ থেমে যাওয়া (Stop-motion effect)।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলোর সূক্ষ্ম সংঘাত থেকে সরে এসে, এই পর্ব সরাসরি নদীর 'শারীরিক' আঘাত এবং এর ফলে গোপালের জীবনযাত্রার অনিবার্য ও দৃশ্যমান বিপর্যয়কে ধারণ করছে।"
   }
 }

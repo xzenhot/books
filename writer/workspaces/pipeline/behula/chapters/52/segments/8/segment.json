@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 52,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "প্রশ্ন ও উত্তর",
+  "segment_summary": "চূড়ান্ত বিজয় সত্ত্বেও, এই কাব্য পাঠককে প্রশ্ন করে—এই ব্যক্তিগত মহিমা কি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ ছিল?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the reunion less as a triumphant merger and more as two profoundly scarred entities finding a fragile equilibrium amidst societal memory.",
+    "story_option": "Setting: Beneath an ancient, petrified banyan tree on the periphery of the domestic space; Desire: To witness a cyclical return mirroring her own journey (a timeless echo); Obstacle: The memory of divine judgment remains palpable in the humid air.",
+    "subject_rotation": "Reframing the societal critique not as an external judgment, but as a deeply internalized narrative pattern within her own consciousness.",
+    "sensory_detail": "A specific olfactory memory—the sharp, clean scent of rare mountain sage mixed with old woodsmoke, clinging to his worn shawl (olfactory).",
+    "research_question": "What specific classical lexicon exists to describe the profound, quiet exhaustion of having endured an epic spiritual trial?",
+    "structural_variant": "Using a heavily inverted syllabic rhythm in segments 1 and 2 to mimic disorientation before settling into a more steady, declarative meter for resolution.",
+    "variety_note": "This chapter focuses heavily on the aftermath—the texture of *being* together after extreme separation, rather than documenting the preceding trials; it embraces subtlety over declarative heroism."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 67,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা ও উত্থানের সন্ধিক্ষণ",
+  "segment_summary": "এই মুহূর্তটি হলো চরম ক্লান্তি এবং অপ্রতিরোধ্য উত্থানের মধ্যবর্তী নীরব সন্ধিক্ষণ, যেখানে তার সমস্ত শক্তি কেন্দ্রীভূত হয়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on moments of suspended time: A sensory freeze where pain, doubt, and resolve coexist in one unbreakable instant before movement resumes.",
+    "story_option": "Setting: Beside a stagnant pool near the domestic periphery (আলয়); Desire: To force clarity onto the murky surface through sheer mental will, mirroring inner truth; Obstacle: The viscosity of despair resisting immediate reflection.",
+    "subject_rotation": "Examining how her strength is sourced not from divine intervention (yet), but purely from the friction between existential dread and self-definition.",
+    "sensory_detail": "A tactile sensation like brittle, fine sand slipping through cupped fingers when attempting to grasp a fleeting moment of peace (touch)",
+    "research_question": "How can I integrate a subtle reference to 'Smart' or 'ICU' concepts metaphorically into the internal landscape without losing the ancient diction?",
+    "structural_variant": "Spiral Refrain Structure: Introduce a specific motif (e.g., 'a single unbroken thread') in Segment 1 and weave its appearance/disappearance through all eight segments as her resolve waxes and wanes.",
+    "variety_note": "While neighbours explored resilience as *alchemy* or *return*, this chapter grounds its struggle in immediate corporeal weight and the fragile tension between near-collapse and stubborn continuation, ending with an unresolved ontological query."
+  }
+}

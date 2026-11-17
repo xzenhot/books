@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "গোটা মশলার ক্রম",
+  "segment_summary": "আদা, এলাচ, দারচিনি—এই মশলাগুলির নির্দিষ্ট ক্রম এবং তাদের একে অপরের সঙ্গে মিশে যাওয়ার প্রক্রিয়াটি কীভাবে একটি শিল্পসম্মত বিন্যাস দাবি করে, তা তুলে ধরা হয়েছে।",
+  "name": "9.2",
+  "word_target": 180,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating spices not as flavor agents but as tiny geological fragments—each one embodying a different soil memory from Bengal.",
+    "story_option": "Setting: Near the gas burner of an unfamiliar kitchen range. Desire: The aroma must somehow generate its own localized pocket of Bengal air despite the sterile surroundings. Obstacle: The ventilation system pulls all scent into the exhaust.",
+    "subject_rotation": "Shifting focus from *what* is being fried to the metaphysical weight carried by the dry spice mixtures before they ever touch oil.",
+    "sensory_detail": "The visual contrast between the dull matte texture of ground chili powder versus the high gloss sheen on perfectly heated cumin seeds.",
+    "research_question": "Are there phonetic patterns in classical Bangla prosody that align with the repetitive, rhythmic nature of sautéing spices (e.g., percussive sounds)?",
+    "structural_variant": "A cyclical structure where segments 1 and 8 serve as thematic mirrors, framing an intense central sequence of procedural descriptions.",
+    "variety_note": "Where earlier chapters dealt with the *result* (the finished product/sensation), this chapter isolates the volatile, critical *process*—the friction between tradition and mechanical reality."
+  }
+}

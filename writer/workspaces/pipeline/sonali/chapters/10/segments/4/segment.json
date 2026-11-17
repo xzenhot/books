@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "বিচ্ছিন্নতার শীতল স্পর্শ",
+  "segment_summary": "কিন্তু সেই তীব্র আনন্দের ঠিক পরেই নেমে আসে এক শীতল, গভীর বিচ্ছিন্নতার অনুভূতি, যা তাকে শূন্যতার দিকে টেনে নেয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the moment of sensory overload as a language failure point; depicting how the internal sensation defies semantic categorization.",
+    "story_option": "Setting: A room illuminated solely by the flicker of an oil lamp during deepest night; Desire: To maintain a state of absolute, fragile equilibrium between overwhelming sensation and profound solitude; Obstacle: The lamp's wax slowly dripping, disrupting the light source in unpredictable ways.",
+    "subject_rotation": "Revisiting 'touch' not as connection or violation, but as an act of pure data transmission—information flooding beyond emotional processing.",
+    "sensory_detail": "The metallic taste on the tongue when intense euphoria crests, a fleeting flavor sharper than any spiced dish.",
+    "research_question": "Can the rhythm pattern chosen (the litany) map the precise transition point between transcendent joy and dissociative emptiness?",
+    "structural_variant": "Employing heavy use of negative space within the stanza breaks to physically represent the language failure mentioned in Segment 2.",
+    "variety_note": "Unlike earlier explorations focused on defining limits (e.g., in Chapter 4), this chapter focuses entirely on *breaching* those self-imposed or perceived boundaries, exploring what exists when the rules dissolve."
+  }
+}

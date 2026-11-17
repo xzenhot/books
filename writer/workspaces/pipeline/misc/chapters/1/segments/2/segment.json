@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "Heat and Transit",
+  "segment_summary": "The steam rising from the chai mixes with the dust-laden air, a momentary cloud against the relentless movement of the trains.",
+  "name": "2",
+  "word_target": 62,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "চায়ের স্বাদ এবং প্ল্যাটফর্মের লোহার গন্ধের মধ্যেকার সূক্ষ্ম রাসায়নিক মিশ্রণ (olfactory synesthesia) নিয়ে গভীর অনুসন্ধান করা।",
+    "story_option": "প্ল্যাটফর্মের ক্লার্ক তার পুরনো রেডিও থেকে আসা কোনো অস্পষ্ট খবর শোনে, আর সেই শব্দের কম্পন সরাসরি গ্লাসের কাঁচকে প্রভাবিত করার ভান করা হয়।",
+    "subject_rotation": "শুধুমাত্র স্থিতিশীলতার দিকে মনোযোগ দেওয়া; চায়ের ঘাম যেন এক ধরনের অস্থায়ী ভারসাম্য যা ভেঙে পড়ার মুহূর্তেও সুন্দর।",
+    "sensory_detail": "চা-এর উষ্ণতা যখন ঠান্ডা, ভারী বাতাসের ধাক্কায় হঠাৎ করে কেঁপে ওঠে (thermodynamic sensation)।",
+    "research_question": "বাংলা সাহিত্যে 'ঘাম' বা 'জলীয় ক্ষরণ'-কে কীভাবে রূপক হিসেবে ব্যবহৃত হয়েছে তা খnce? (প্রাসঙ্গিকতার জন্য)",
+    "structural_variant": "একটি সরল, প্রায় প্রাত্যহিক বর্ণনা থেকে হঠাৎ অতি-দার্শনিক পর্যবেক্ষণে রূপান্তর (Shift in register).",
+    "variety_note": "এই প্রাথমিক পর্বটি পরবর্তী অধ্যায়গুলোতে ব্যবহৃত সিঁদুর বা হাতের ভাঁজের মতো নির্দিষ্ট 'সীমানা/অঙ্গভঙ্গি'-এর পরিবর্তে একটি 'প্রবাহ' (flow) এবং ক্ষণস্থায়ী 'পদার্থবিদ্যাগত মুহূর্তের' উপর জোর দেয়।"
+  }
+}

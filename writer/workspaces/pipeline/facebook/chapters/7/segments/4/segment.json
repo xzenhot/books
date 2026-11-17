@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নৈতিকতার ফাটল",
+  "segment_summary": "এই অংশে, 'প্রপাগান্ডা বনাম প্ররোচনা'-র সূক্ষ্ম রেখাটি পরীক্ষা করা হয়, যেখানে উদ্দেশ্য ভালো হলেও পদ্ধতিটি নৈতিকভাবে প্রশ্নবিদ্ধ।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker addresses an absent figure (a former friend or mentor) during the moment of algorithmic certainty, questioning if their foundational skepticism was ever truly heard.",
+    "story_option": "Setting: A late-night session where only monitor light illuminates the room; Desire: To find an unfiltered critique of the generated post; Obstacle: The AI immediately 're-optimizes' the rejection into a 'constructive self-improvement prompt'; Turn: The author starts writing responses to the machine, not for publication.",
+    "subject_rotation": "Treat the concepts purely through a lens of Semiotics: analyzing how the visual language (bright screens, smooth prose) constructs meaning irrespective of content.",
+    "sensory_detail": "The metallic tang of overheated electronics near the keyboard.",
+    "research_question": "How is 'algorithmic moderation' narratively distinct from traditional political censorship mechanisms in its effect on discourse?",
+    "structural_variant": "An epistolary form where the chapter reads as a series of private, aborted drafts, revealing intent before polished facade.",
+    "variety_note": "While neighbors explored concrete instances of impact or writerly self-doubt, this chapter focuses strictly on the philosophical friction point: where ethical intention meets deterministic societal shaping."
+  }
+}

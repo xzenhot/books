@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আত্মার নীরব কথোপকথন",
+  "segment_summary": "এই শূন্যতার মধ্যে সোনালী তার আত্মার সঙ্গে এক নিবিড়, শব্দহীন সংলাপ শুরু করে, যা ভাষার ঊর্ধ্বে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing 'Nirvana' not as arrival, but as the radical act of pausing before inevitable dispersal.",
+    "story_option": "Setting: A deserted verandah during a deep afternoon lull where all sound seems absorbed by heavy curtains; Desire: To allow the eye to lose definition in the haze, dissolving the image into pure perception; Obstacle: The ingrained habit of seeking narrative progression.",
+    "subject_rotation": "Shifting from the internal landscape to observing the inert external world (e.g., how light behaves on untouched surfaces) as a reflection of inner stasis.",
+    "sensory_detail": "The sensation of the internal pressure in the ear canals during profound quiet (Auditory/Somatic).",
+    "research_question": "How can 'stasis' be depicted as inherently pregnant with future movement rather than terminal decay in poetic imagery?",
+    "structural_variant": "Employing sudden, almost accidental intrusions of mundane sound (a single bird cry, a distant latch) to shatter the quiet without destroying the preceding meditative tone.",
+    "variety_note": "This chapter deliberately slows the momentum established in previous segments; while its neighbours deal with dynamic tension (struggle, awakening), this segment focuses on metaphysical suspension before any subsequent action or release."
+  }
+}

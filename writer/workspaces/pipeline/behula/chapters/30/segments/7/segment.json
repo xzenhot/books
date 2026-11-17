@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "প্রেরণার স্রোত",
+  "segment_summary": "বেহুলার এই যাত্রা সমষ্টিগত প্রেরণা হয়ে ওঠে, যা নিপীড়িত আত্মার জন্য এক শক্তিশালী বার্তা বহন করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The object as nexus: Using a specific, small item (e.g., an ancient copper vessel mentioned in external context) to carry the weight of her ordeal rather than the grand event itself.",
+    "story_option": "Setting: The riverbank after dawn, now bathed in a cold, steady light; Desire: To share an unspoken moment with Lkhindor where their exhaustion outweighs any joy; Obstacle: The lingering shadow of social judgment hanging over the landscape. Turn: They accept the weight as part of the new communion.",
+    "subject_rotation": "Treating the reunion not as a romantic climax but an ontological correction—the universe rebalancing itself through their pairing.",
+    "sensory_detail": "Sight: The precise quality of the light settling on an object after years of turmoil—not bright, but deeply anchored.",
+    "research_question": "What specific Bengali vocabulary denotes a state of enduring existential weight versus temporary sorrow?",
+    "structural_variant": "Employing an immediate descent into silence upon reunion, letting only residual sensory input guide the subsequent stanzas.",
+    "variety_note": "This chapter shifts focus entirely to the enduring resonance *after* the triumphant moment, using stillness and residual imagery rather than depicting the dynamic action of the return itself. It prioritizes reflection over spectacle."
+  }
+}

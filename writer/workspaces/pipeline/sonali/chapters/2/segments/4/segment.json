@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আকর্ষণ ও দূরত্ব",
+  "segment_summary": "এই তীব্র জাগরণ তাকে বাইরের জগতের প্রতি প্রবলভাবে আকর্ষণ করলেও, একই সাথে তাকে তার নিজস্ব কেন্দ্র থেকে দূরে ঠেলে দিচ্ছে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "আলোর উৎসকে নির্দিষ্ট করা—যেমন কোনো দোকানের জানালার ভেদকারী হলুদ আলো এবং তা সোনালী ত্বকের ওপর পড়ার ভিন্ন প্রতিচ্ছবি তৈরি হওয়া।",
+    "story_option": "একটি ব্যস্ত বাজারের ভিড়ে (স্থান), সোনালী হঠাৎ তীব্র মশলার গন্ধে মগ্ন হয়ে যায় (আকাঙ্ক্ষা), কিন্তু জনসমুদ্রের মধ্যে তার নিজস্ব স্পন্দন যেন একটি অদৃশ্য প্রাচীর তৈরি করে দেয় (বাধা)।",
+    "subject_rotation": "ইন্দ্রিয়গত উপলব্ধিকে জ্ঞান বা তত্ত্বের অর্জনের ক্ষেত্র হিসেবে দেখা, যেখানে ইন্দ্রিয়রা যেন দার্শনিক প্রমাণের জন্য উপকরণ।",
+    "sensory_detail": "শীতল পাথরে জমে থাকা ঘামের নোনা স্বাদ (ট্যাক্টাইল/টেস্ট)",
+    "research_question": "কবিতায় ব্যবহৃত রঙের তীব্রতাকে এমনভাবে কিভাবে উপস্থাপন করা যায় যাতে সেটি উদ্দীপনা হিসেবে কাজ করে, কিন্তু যেন তা পাঠককে অতিরিক্ত উত্তেজিত না করে?",
+    "structural_variant": "A recursive structure where each segment starts by referencing a sense from the previous one, creating a spiraling focus on sensation.",
+    "variety_note": "This chapter shifts focus from introspection (Chapter 1) to outward immersion; it documents how intense sensory engagement paradoxically deepens the internal sense of alienation."
+  }
+}

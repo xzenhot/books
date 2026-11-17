@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 70,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "কাঠামোগত প্রশ্ন",
+  "segment_summary": "এই মহাকাব্যিক যাত্রা সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক গভীর, নীরব প্রশ্ন ছুঁড়ে দেয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the material reality of her patience: Treating endurance not as a spirit, but as solidified substance—a metal hammered into form by disdain.",
+    "story_option": "Setting: A barren courtyard facing ceaseless chatter; Desire: To hold stillness until the cacophony breaks into perfect resonance (sound); Obstacle: The collective impatience of passersby.",
+    "subject_rotation": "Treating social judgment (কটাক্ষ) as a physical pollutant—a slow, corrosive dust settling on the inner sanctum.",
+    "sensory_detail": "The taste of metallic dust mingled with old camphor in the stagnant air of protracted waiting (taste)",
+    "research_question": "What precise lexical differentiations exist in Bengali to describe exhaustion stemming from moral/spiritual fatigue versus physical exertion?",
+    "structural_variant": "Monolithic structure: Treating each segment as a dense philosophical monologue rather than sequentially developing narrative momentum.",
+    "variety_note": "This chapter consciously moves away from descriptive tragedy (previous chapters) toward analytical metamorphosis—treating endurance as an active philosophical state rather than just surviving hardship."
+  }
+}

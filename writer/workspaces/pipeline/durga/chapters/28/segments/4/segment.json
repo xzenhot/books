@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "পুনর্জন্মের প্রতিশ্রুতি",
+  "segment_summary": "বিসর্জনের মাধ্যমে যে শূন্যতা আসে, তা আসলে সমাপ্তি নয়, বরং পরবর্তী চক্রের নতুন আশার বীজ অঙ্কুরিত হওয়ার এক অনিবার্য ঘোষণা।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the personal struggle against existential entropy rather than social/ritual obstacles.",
+    "story_option": "A character silently observes the empty riverbed days after immersion, searching for a single particle of silt that carries the echo of the collective faith (Setting: Riverbank; Desire: To find residual proof of belief; Obstacle: The unstoppable flow of mundane time; Turn: A sudden internal realization of enduring power).",
+    "subject_rotation": "Focusing purely on the psychological toll of cyclical devotion—the exhaustion vs. exhilaration.",
+    "sensory_detail": "Smell: The dry, powdery scent of chalk dust mixed with lingering night-blooming jasmine from hidden courtyards (contrast to earlier wet clay/incense).",
+    "research_question": "What specific Bengali lexical alternatives exist for 'eternal' that carry a weight of inevitability rather than pure optimism?",
+    "structural_variant": "An open-ended dialogue between the 'past self' who celebrated and the 'present self' who questions.",
+    "variety_note": "This chapter intentionally pivots inward, moving away from descriptions of external ritual events toward a sustained meditation on internal psychological endurance, which differs significantly from the sensory immersion of earlier acts (like *ঢাকের বোল* or *সিঁদুর খেলা*)."
+  }
+}

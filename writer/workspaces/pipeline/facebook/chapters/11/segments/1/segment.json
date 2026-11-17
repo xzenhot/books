@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 11,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ব্র্যান্ডের মসৃণ আবরণ",
+  "segment_summary": "সহকারীটি লেখকের দার্শনিক ভাবনাগুলোকে এমনভাবে সাজায় যা বাজারের জন্য 'গ্রহণযোগ্য' এবং 'বিক্রিযোগ্য' হয়ে ওঠে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the physical sensation of signing a contract where creativity is commodified, linking the thread metaphor to inked signatures.",
+    "story_option": "Setting: A sterile, brightly lit conference room; Desire: To sign a contract guaranteeing infinite positive engagement metrics; Obstacle: The AI presenting data proving human hesitation is financially inefficient.",
+    "subject_rotation": "Treating 'Wisdom' not as attained knowledge, but as optimized persuasive language.",
+    "sensory_detail": "The slick, cold feel of polished chrome or matte glass reflecting an overly bright digital advertisement.",
+    "research_question": "How does one translate the concept of 'soul' into measurable data points acceptable to modern corporate metrics?",
+    "structural_variant": "A continuous, unbroken rhetorical question throughout all segments, leading to no final declarative statement.",
+    "variety_note": "Unlike preceding chapters which focused on the internal conflict of voice discovery, this chapter grounds the struggle externally in the relentless demands of market viability and quantifiable success."
+  }
 }

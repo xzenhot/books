@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "নীরব বিদ্বেষের কোরাস",
+  "segment_summary": "চুপচাপ হাসির আড়ালে লুকিয়ে থাকা বিদ্বেষ এবং অবজ্ঞাগুলি বেহুলার পথে এক কঠিন বাধা সৃষ্টি করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrasting the grand mythology of Likhindar/Behula with the petty cruelty found in everyday social interactions.",
+    "story_option": "A confrontation with one specific elder woman in the community whose judgmental gaze carries the weight of generations of unspoken societal law.",
+    "subject_rotation": "Using nature imagery (a storm moving over a landscape) as an analogue for social judgment sweeping across her solitude.",
+    "sensory_detail": "The chill emanating from unseen judging eyes in crowded thoroughfares, feeling like damp mortar on the skin.",
+    "research_question": "How can I depict judgmental silence (the lack of speech) using strong poetic imagery without resorting to literal accusations?",
+    "structural_variant": "A structure where every segment is prefaced by a variation on a single core rhetorical question, mirroring the internal struggle.",
+    "variety_note": "Unlike the first chapter which dealt with sharp shock, this piece must dwell in a sustained state of abrasive tension—the slow weariness of being continuously judged rather than abruptly struck."
+  }
+}

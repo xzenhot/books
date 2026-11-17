@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ভার",
+  "segment_summary": "জিভে থাকা এই শূন্যতাটি যেন অতীতের সমস্ত উষ্ণ স্মৃতিকে বহন করে, যা আর কোনো ভাজা মশলার ঝাঁঝ দিয়ে পূরণ করা সম্ভব নয়।",
+  "name": "4",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The wall/object as interlocutor: Direct address to an inert object (a chipped plate, a cold counter) that absorbs the protagonist's unuttered lament over the flavor.",
+    "story_option": "Setting: An empty kitchen counter after cooking; Desire: To communicate the failure of flavor to an ancestral spirit who might be observing from beyond the border; Obstacle: The sheer silence that absorbs all attempts at articulation.",
+    "subject_rotation": "Focusing entirely on the *absence* as an active presence, rather than merely a void. The 'not-taste' becomes denser and more palpable than the taste itself.",
+    "sensory_detail": "The brittle, papery sound the final, dry crumb makes when accidentally brushed against the teeth.",
+    "research_question": "How can syntactic variation reflect the emotional oscillation between deep introspection and abrupt external sensory stimuli?",
+    "structural_variant": "Using cyclical phrasing where the final word of one stanza echoes or slightly transforms the first word of the next.",
+    "variety_note": "This chapter shifts focus from describing the *change* (like Chapter 3) to dwelling exclusively on the ontological weight of what is left behind after consumption, confronting the void directly through symbolic address."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অনন্ত অপেক্ষার প্রতিচ্ছবি",
+  "segment_summary": "এই অনুরণনটি একটি স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক—সেই নিখুঁত আদি স্বাদের জন্য অপেক্ষা, যা কেবল স্মৃতিতেই বিদ্যমান।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Speaking to a non-human entity (like the cold metal of an unfamiliar serving plate) about the impossibility of replicating flavor.",
+    "story_option": "Setting: A starkly lit, late-night street corner where vendors hawk their goods; Desire: To whisper the recipe's specific measurement of ghee into the steam rising off another vendor's oil; Obstacle: The indifferent rush of passing strangers who do not share this memory.",
+    "subject_rotation": "Focusing on the *sound* associated with the perfect bite—the crisp snap versus the dull chew in a different setting.",
+    "sensory_detail": "The brittle sound of flaky dough shattering under pressure in a silent room.",
+    "research_question": "What specific archaic Bengali descriptor perfectly captures the simultaneous existence of yearning and satiation?",
+    "structural_variant": "An intentional fragmentation where each segment ends with a single, repeated onomatopoeic word related to cooking ('চট', 'ভাজা', 'গোঁস').",
+    "variety_note": "This chapter shifts focus from the journey/material transformation (previous chapters) to the internal aftermath—the philosophical residue left after consumption, using silence and memory as its primary substance."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আকৃতির প্রতিরোধ",
+  "segment_summary": "ত্রিকোণাকার খোলসটি তার আদি রূপ ধরে রাখতে সচেষ্ট হলেও, ভেতরের পুরের পরিবর্তন তাকে নতুন পরিবেশের সাথে মানিয়ে নিতে বাধ্য করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the speaker's observation entirely through the fragmented sounds produced by people haggling or calling out wares near the samosa stall—making sound the primary metaphor for cultural slippage.",
+    "story_option": "Setting: Waiting outside a food vendor's small cart at dusk; Desire: To witness one specific action—the precise moment the deep-fryer bubbles reach peak frenzy, signaling an authentic moment; Obstacle: A customer rushes past, grabbing and devouring several pieces without regard for ritual or contemplation.",
+    "subject_rotation": "A meditation on the transactional nature of modern diaspora food: how quickly an artifact is exchanged for pure caloric necessity.",
+    "sensory_detail": "The visual texture of cheap plastic bags piled high near the stall, contrasting sharply with the geometric precision of the fried pastries.",
+    "research_question": "How can I use archaic vocabulary (পুরানো বাংলা শব্দ) to describe a modern, sterile market atmosphere without sounding overly academic?",
+    "structural_variant": "A narrative spiral where each sensory input (sight -> sound -> smell) forces a tighter inward focus on the mouth/tongue.",
+    "variety_note": "This chapter pivots from internal culinary reflection to external environmental confrontation; the conflict moves from memory vs. present self, to ingrained cultural form vs. overwhelming urban noise."
+  }
+}

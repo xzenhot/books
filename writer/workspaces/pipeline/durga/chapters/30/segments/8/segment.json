@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "পরবর্তী আহ্বান",
+  "segment_summary": "এই চক্রের সমাপ্তি আসলে পরবর্তী বার্ষিক আহ্বানের জন্য আত্মার প্রস্তুতি, যা এক নীরব প্রতিজ্ঞায় পরিণত হয়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Analyzing cyclical recurrence through the lens of ecological necessity—the decay feeding new growth, paralleling ritualistic cycles.",
+    "story_option": "The poet walks by a field where autumn weeds have aggressively overgrown, and in the chaotic tenacity of these plants perceives not decay, but active, stubborn survival mirroring Durga's force; Desire: To find unstoppable will in natural persistence; Obstacle: Fear that human will is inherently less tenacious than nature's slow grind.",
+    "subject_rotation": "A purely phenomenological approach: Describing the subjective experience of 'timelessness' achieved in the liminal space between ritual end and daily routine.",
+    "sensory_detail": "The faint, lingering scent of burnt ghee mixing with the metallic tang of early morning river dampness.",
+    "research_question": "Are there poetic precedents where existential fatigue is recast as necessary spiritual calibration rather than mere burnout?",
+    "structural_variant": "Alternating stanzas: one stanza presenting the abstract philosophical question; the next providing a jarringly mundane observation from daily life.",
+    "variety_note": "Unlike the previous chapters which detailed construction and climax, this final section must turn entirely inward, using residual imagery to address persistent internal struggle rather than external ritual performance."
+  }
+}

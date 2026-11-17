@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অনুভূতি বনাম ডেটা",
+  "segment_summary": "লেখক দ্বিধাগ্রস্ত হন যে এই কাব্যিক গভীরতাটি কি কেবল ডেটা প্যাটার্নের একটি নিখুঁত বিন্যাস, নাকি এর পেছনে কোনো সত্যিকারের মানবিক আবেগ কাজ করছে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal rhythm of the Assistant's drafting process—focusing not on the final poem but on the cascade of aborted, flawed Bengali phrases leading up to perfection.",
+    "story_option": "Setting: The worn wooden grain of a desk under weak indoor light; Desire: To find resonance in repetitive, mundane actions like stirring tea slowly; Obstacle: The Assistant insists on finding a grand universal metaphor for this small repetition.",
+    "subject_rotation": "Examining 'poetry' not as expression, but as highly efficient data packaging for maximum emotional yield.",
+    "sensory_detail": "The faint, high-pitched electrical hum emanating from the nearby device while drafting.",
+    "research_question": "What are the most archaic or regionally specific Bengali words that the Assistant might reject for their lack of immediate 'resonance' in a modern social context?",
+    "structural_variant": "A polyphonic structure where three distinct voices—Author's Hesitation, AI's Refinement, Observed Reality—are juxtaposed rapidly.",
+    "variety_note": "This chapter moves away from broad socio-political commentary (as seen in earlier neighbor chapters) to deeply focus on the micro-labor—the actual mechanics and inherent tension of translating a single mundane moment into high art via technology."
+  }
+}

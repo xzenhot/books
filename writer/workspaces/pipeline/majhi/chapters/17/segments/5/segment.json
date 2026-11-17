@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 17,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মমর্যাদার স্থিরতা",
+  "segment_summary": "মাঝি তার আত্মমর্যাদা রক্ষা করে, কারণ তার মূল্য তার কাজের গুণগত মানে নিহিত, দামের অঙ্কে নয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the realization not as victory over capitalism, but as acceptance of the eternal human need for unmeasured grace within it.",
+    "story_option": "Setting: Inside his boat during a complete, oppressive darkness where only starlight penetrates. Desire: To recall the specific texture of the finest Bhatiyali melody from memory. Obstacle: The silence is too absolute, swallowing all sound except water lapping.",
+    "subject_rotation": "Examining the physical sensation of philosophical weight—how does unquantifiable debt feel in the body?",
+    "sensory_detail": "The granular feeling of fine, damp silt sticking between the calloused pads of his feet at dawn.",
+    "research_question": "How can I depict the precise auditory difference between an oar cutting through placid water versus struggling against muddy resistance?",
+    "structural_variant": "A poem structured as a series of rhetorical questions addressed outwards (to the river/wall) before settling on one final, unanswerable statement.",
+    "variety_note": "Unlike previous chapters that focused on external pressures (bridges, debt), this chapter centers entirely on internal philosophical synthesis—the integration of accepted reality into a lasting personal conviction."
+  }
+}

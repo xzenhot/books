@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "বাতাসের প্রথম স্পর্শ",
+  "segment_summary": "কালবৈশাখীর প্রথম দমকা হাওয়া এসে প্রাসাদের চুন-সুরকির গায়ে আঘাত করে, যা তার জীর্ণতাকে আরও স্পষ্ট করে তোলে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Frame the 'purification' not as moral cleansing but as physical erosion: watching specific mortar joints crack and crumble under pressure, minute by minute.",
+    "story_option": "Setting: Inside the main collapsed hall where fragmented frescoes remain; Desire: To observe how the sudden moisture changes the color saturation of the ancient lime wash pigments before they run or fade completely; Obstacle: The wind forces open a single, precarious section of ruined walling.",
+    "subject_rotation": "Treating the wind/soundscape as an active, non-sentient narrator of entropy, rather than a backdrop for the traveler’s introspection.",
+    "sensory_detail": "Sound: A high-pitched, dry scraping sound as grit rubs against exposed limestone and broken terracotta shards.",
+    "research_question": "What is the specific effect on old lime mortar when subjected to rapid temperature and humidity swings common before a tropical storm?",
+    "structural_variant": "Interspersing the elemental descriptions with single, rapid-fire images of surviving, unblighted objects near the manor (e.g., one stone marker still standing).",
+    "variety_note": "This chapter pivots from intellectual struggle (prior chapters) to raw physical encounter; it is about surrender to an overwhelming, non-negotiable force rather than a philosophical debate with silence."
+  }
+}

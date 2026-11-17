@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 32,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ততার অঙ্গীকার",
+  "segment_summary": "এই কাব্যগ্রন্থের সমাপ্তি কোনো চূড়ান্ত সমাধান দেয় না; বরং এটি সেই অনন্ত অপেক্ষার অঙ্গীকার করে, যা হারানো স্বাদের প্রতি নিবেদিত।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing an inanimate object—like the cold, empty *tawa* (griddle) or the travel bag itself—as if it holds the ancestral memory and is capable of dialogue.",
+    "story_option": "Setting: A dimly lit kitchen bench, late night; Desire: To force a phantom echo of mother's kneading rhythm into the silence; Obstacle: The persistent modern city hum drowning out any ancestral sound; Turn: Accepting that the memory is now only an internal vibration.",
+    "subject_rotation": "Focusing entirely on the *absence* of specific Bengali spice profiles rather than focusing on any single flavor.",
+    "sensory_detail": "The dry, papery whisper of residual starch dust clinging invisibly to the fingertips.",
+    "research_question": "How can I maintain the required word count (10 $\\pm$ 1 per line) while ensuring each segment title and summary feels both philosophically grand and grounded in the simple act of eating?",
+    "structural_variant": "A spiraling structure where Segment 8 leads back to the initial sensory focus of Segment 1, but fundamentally altered by the accumulated contemplation.",
+    "variety_note": "Unlike neighbours that fixate on specific ingredients or external settings, this chapter dives solely into the post-consumption *void*—the ontological space between having eaten and remembering."
+  }
+}

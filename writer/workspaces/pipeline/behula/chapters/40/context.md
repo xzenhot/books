@@ -10,17 +10,224 @@
 
 ## word_target
 
-280
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-অন্ধকার নদীর শেষ বাঁক
+behula — পর্ব 15 — behula
 
 ## chapter_summary
 
-গাঙুড়ের মরণফাঁদ ও পার্থিব ভয়ের সীমা পেরিয়ে অলৌকিক দেবপুরীর সীমানায় তরী ভিড়ানোর প্রস্তুতি। এক চূড়ান্ত রূপান্তরের দ্বারপ্রান্ত।
+এই শেষ পর্বটি বেহুলার সমস্ত প্রতিকূলতা জয় করে স্বামীর প্রত্যাবর্তনকে কেন্দ্র করে আবর্তিত। এটি কেবল একটি ব্যক্তিগত বিজয় নয়, বরং মানব আত্মার চরম 승리 হিসেবে চিত্রিত হয়, যেখানে সমস্ত সামাজিক ও আধ্যাত্মিক বাধা অতিক্রম করা হয়েছে। এই মহৎ পরিণতি তাকে এক অবিস্মরণীয় মহীয়সী রূপে প্রতিষ্ঠিত করে, কিন্তু এই চূড়ান্ত সাফল্য কি কেবল ব্যক্তিগত মহিমা, নাকি এটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ বহন করে?
 
 ## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+বিজয়ীর প্রত্যাবর্তন
+
+#### segment_summary
+
+সমস্ত সংগ্রাম শেষে স্বামীর ফিরে আসা এক মহাকাব্যিক মুহূর্ত, যা নিছক মিলন নয়, বরং বিশ্বাসের চূড়ান্ত স্বীকৃতি।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অদম্য আত্মার জয়গান
+
+#### segment_summary
+
+বেহুলার অদম্য সংকল্পের মাধ্যমে প্রমাণ হয় যে ভেতরের আলোকবর্তিকা বাইরের সমস্ত অন্ধকারের চেয়েও শক্তিশালী।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+শূন্যতার সমাপ্তি
+
+#### segment_summary
+
+স্বামীর অনুপস্থিতি দ্বারা সৃষ্ট সেই গভীর মানসিক শূন্যতা অবশেষে পূর্ণতা লাভ করে, যা তার জীবনের মূল চালিকাশক্তি ছিল।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রতীকী মহিমা
+
+#### segment_summary
+
+বেহুলার এই বিজয় ব্যক্তিগত ট্র্যাজেডিকে সমষ্টিগত প্রেরণা রূপে রূপান্তরিত করে, যা সকল নিপীড়িত আত্মার প্রতিধ্বনি।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অন্ধকার ভেদকারী দীপশিখা
+
+#### segment_summary
+
+অগ্নির দীপশিখা যেমন অন্ধকারতম মুহূর্তে পথ দেখায়, তেমনি এই বিজয় সেই আলোর অপ্রতিরোধ্য প্রকাশ ঘটায়।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+সামাজিক কাঠামোর প্রতি প্রশ্ন
+
+#### segment_summary
+
+এই চূড়ান্ত সাফল্য সত্ত্বেও, কাব্যটি প্রশ্ন তোলে যে এই সংগ্রাম কি কেবল ব্যক্তিগত মহিমা, নাকি এটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ?
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+সহিষ্ণুতার চূড়ান্ত রূপ
+
+#### segment_summary
+
+বেহুলার সহিষ্ণুতা ও ধৈর্য এই পর্বে তার সর্বোচ্চ শিখরে পৌঁছায়, যা তাকে এক মহৎ নারী হিসেবে প্রতিষ্ঠা করে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অবিস্মরণীয় অধ্যায়ের সমাপ্তি
+
+#### segment_summary
+
+এই মহাকাব্যিক সংগ্রাম বেহুলার জীবনকে কেবল ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় অধ্যায় হিসেবে গেঁথে দেয়।
+
+#### further_references
 
 
 ## level
@@ -29,97 +236,52 @@ chapter
 
 ## state
 
-completed
-
-## segments
-
-- 1
+scaffolded
 
 ## creative_enrichment
 
 ### angles
 
-- Focusing on the physical exhaustion of anticipation—the moment before crossing a threshold where all past struggle must condense into one final, brittle act.
-- Treating the 'dark river' not just as an obstacle to be overcome, but as a reflective surface holding all her accumulated memory and trauma in liquid shadow.
-- The narrative weight carried by the vessel itself; the burden of the departed/expected life resting upon the fragile wood.
+- বর্ণের পরিবর্তন: প্রত্যাবর্তনকে কেবল আলো বা অন্ধকারের দ্বৈরথ না রেখে, গোধূলি লগ্নের নির্দিষ্ট কোন রঞ্জক (রঙ) দ্বারা সংজ্ঞায়িত করা—যেখানে সংগ্রাম ও শান্তি মিশে যায়।
+- শব্দ-প্রতিধ্বনি: একটি নির্দিষ্ট ধ্বনিগত পুনরাবৃত্তি (যেমন দীর্ঘ 'আ' স্বর বা চাপা শ্বাসজনিত মৃদু শব্দ) ব্যবহার করে, যা সাফল্যের পরেও বক্তার চেতনায় অনুরণিত হতে থাকে এবং সমাপ্তির দিকে টেনে নিয়ে যায়।
+- ইন্দ্রিয়গ্রাহ্যতার অতি-সংবেদনশীলতা: বিজয় লাভের পর যেন বেহুলার ইন্দ্রিয়গুলি সাময়িকভাবে অতিরিক্ত সংবেদনশীল হয়ে ওঠে—প্রতিটি বাতাসের গতি, প্রতিটি মাটির গন্ধ তীব্র ও অপ্রীতিকর মনে হয়, যা 'অপ্রাপ্তি'র স্মৃতির ভার বহন করে।
 
 ### story_options
 
-- Setting: The final stretch of water before reaching the known divine shores; desire: To experience the absolute quiet, a silence that feels more threatening than the river’s noise; obstacle: An internal doubt about whether devotion is enough to bridge this ultimate gap.
-- Setting: A place where the darkness of the river meets an unearthly luminescence from the shore; desire: To visually map the tension between known despair (the water) and unknown salvation (the light); obstacle: The physical inability to trust the boat's mooring in that strange liminal zone.
-- Setting: Inside the woven structure of the raft, sheltered but exposed; desire: A sensory memory—perhaps the scent of a specific earthly flower or the texture of an old garment—that sharply contrasts with the impending divine landscape; obstacle: The persistent sound of water sloshing against the sides becoming unbearably rhythmic.
+- সেটিং: ফিরে আসার পর সদ্য পরিচ্ছন্ন করা ঘরের একটি নির্দিষ্ট ফাটল। আকাঙ্ক্ষা: স্বামী কর্তৃক সেই ফাটলের দিকে আঙুল নির্দেশ করা; বাধা: অতীতের সমস্ত না-বলা অভিযোগের প্রতিবিম্ব যেন ঐ ফাটলে আটকে আছে, যা সহজে দূর হয় না।
+- সেটিং: গৃহপ্রবেশের সময় প্রবেশপথের প্রস্তরখণ্ড (threshold stone)। আকাঙ্ক্ষা: বেহুলা তার স্বামীর হাতের স্পর্শ অনুভব করতে চায়, কিন্তু তাকে বাধা দেয় স্মৃতিতে জমে থাকা অচেনা সমাজ-নিয়মের ছায়া; পরিণতি: শারীরিক সংযোগ সত্ত্বেও মানসিক দূরত্ব বজায় থাকে।
+- সেটিং: প্রদীপের শিখার ঠিক নিচের উষ্ণতম স্থান। আকাঙ্ক্ষা: এই উষ্ণতা দ্বারা সমস্ত অতীতের শীতল প্রত্যাখ্যানকে গলিয়ে দেওয়া; বাধা: শিখাটি অপ্রত্যাশিতভাবে কেঁপে ওঠে, যেন বহিরাগত কোনো দূষণ বা সন্দেহ তাকে স্পর্শ করেছে এবং আলো নিভে যাওয়ার উপক্রম হয়।
 
 ### subject_rotations
 
-- The transformation from 'struggle' to 'waiting': how the energy shifts from active fighting to static, profound suspension.
-- Examining the nature of the boundary itself: is it a wall, a membrane, or simply the cessation of perception?
-- The relationship between her personal belief and the impersonal forces governing this final passage—is faith sufficient for cosmic transit?
+- বিজয়কে 'প্রাপ্তি' হিসেবে না দেখে, বরং 'প্রয়োজনীয় পুনঃস্থাপন' (ontological necessity) রূপে চিত্রিত করা—অর্থাৎ যা হওয়া আবশ্যক ছিল তাই হলো।
+- স্বামীর প্রত্যাবর্তনকে শুধুমাত্র প্রেমের পুনর্মিলন হিসেবে নয়, বরং দুটি ভিন্ন সত্তার দীর্ঘকাল ধরে চলতে থাকা আধ্যাত্মিক বা যুদ্ধের সন্ধিক্ষণে পুনরায় সংযুক্তিকরণ হিসেবে দেখা।
+- ব্যক্তিগত গৌরবের বাইরে গিয়ে, এই বিজয়টিকে বৃহত্তর বাঙালি নারীর ইতিহাসের একটি প্রতীকী 'মানদণ্ড' (standard) স্থাপনকারী মুহূর্ত হিসাবে বিশ্লেষণ করা।
 
 ### sensory_details
 
-- The slick, cool feel of moss gripping submerged wood at the river's edge.
-- The low, resonant drone of unseen night insects vibrating against the still surface tension.
-- A pervasive smell of mineral earth and deep, slow-moving current.
+- দেহের ত্বকে লেগে থাকা শুকনো মাটির খনিজ গন্ধের তীব্রতা যা দীর্ঘ প্রতিকূলতার সাক্ষ্য বহন করে।
+- মহাক্ষণের পর হৃদপিণ্ডের গভীরে অনুভূত হওয়া এক মৃদু, গুহা-সদৃশ কম্পন (subsonic thrumming), যা উচ্চ উল্লাসের ধ্বনি দ্বারা প্রতিস্থাপিত হয়েছে।
 
 ### research_questions
 
-- How can Bengali poetic diction convey a state of suspended animation or perfect impasse without resorting to clichés of religious trance?
-- What are specific vocabulary choices in classical Bengali that denote 'the edge' or 'threshold' when that boundary is not merely geographic but existential?
+- বাংলা কাব্যিক ভাষায় 'earned permanence' বা 'অর্জনকৃত স্থায়িত্ব' বোঝাতে এমন কোনো প্রাচীন শব্দবন্ধ কি আছে, যা ক্ষণস্থায়ী আনন্দ এবং ভারী বোঝা উভয়ের বাইরে অবস্থিত?
+- মহাকাব্যের পরিণতিতে ব্যবহৃত হওয়া আবেগগত শূন্যতা (spiritual depletion) প্রকাশের জন্য প্রচলিত শব্দের চেয়ে অধিক উপযুক্ত, কিন্তু উচ্চাঙ্গীয় ও কাব্যিক প্রতিশব্দ কোনটি হবে?
 
 ### structural_variants
 
-- A highly compressed, taut poem where every word feels weighted by the impossibility of motion.
-- A poem structured as a dialectic between immediate physical sensation (cold, rocking) and overwhelming metaphysical projection (the shore's promise).
-- Using an auditory motif—a single sound that recurs exactly before moments of perceived breakthrough or collapse.
+- বৃত্তাকার কাঠামোয় Segment 8-কে এমনভাবে গঠন করা যা মূল ধারণাকে পুনরায় আনে, কিন্তু পূর্বের 'আশা'র পরিবর্তে এখন তা যেন এক ধরণের সাবধানে রক্ষিত 'অসন্তোষ' (dismay) বহন করে।
+- কবিতাটিকে আটটি স্বতন্ত্র আবেগময় তরঙ্গ হিসেবে উপস্থাপন করা, যেখানে প্রতিটি অনুচ্ছেদ পরবর্তীটির ধারণাকে প্রতিহত করার চেষ্টা করে না, বরং তাকে ক্রমশ গভীরতর বা বিস্তৃত করে।
 
 ### unused_angles
 
-- The idea of the finality of letting go: not just surrendering to aid, but willingly emptying the self to meet the other side.
-- Mapping the physical weight of her past trials onto the raft's timbers as they approach stillness.
-- The possibility of a 'failure state' in this chapter—what if the passage stalls forever at the boundary?
+- বেহুলার শারীরিক ক্লান্তি যখন তার আত্মিকriumফের সাথে সংঘর্ষ ঘটায়—অর্থাৎ বিজয় ছিনিয়ে আনা সত্ত্বেও দৈহিক স্তরটি এখনও সংগ্রামरत থাকে।
+- সমাজের কণ্ঠস্বরকে একটি আবহাওয়ার রূপ দেওয়া—যেমন, বিজয়ের মুহূর্তেও আকাশ মেঘাচ্ছন্ন থেকে যায়, যা সামাজিক অস্থিরতার প্রতীক।
 
 ### variety_note
 
-Unlike earlier chapters focused on active combat or resilience, this segment focuses entirely on the tension inherent in perfect transition: the moment before action becomes fate.
+এই পর্ব পূর্বের প্রতিটি পর্বের মতো কোনো নির্দিষ্ট ঘটনা বর্ণনা করে না; বরং এটি সমস্ত পূর্ববর্তী সংগ্রাম এবং নৈতিক দ্বান্দ্বিকতাকে একীভূত করে চূড়ান্ত স্থিতি অর্জনের দার্শনিক ভার বহন করে।
 
-## draft
+### subsonic_twist_focus
 
-### sha256
-
-a8717c1408222791587d2e39f3f164682da0767fdf9ef836e7c2e53f254c250e
-
-### written_at
-
-2026-10-21T14:10:05.497481+00:00
-
-### origin
-
-write
-
-## quality_review
-
-### status
-
-passed
-
-### sha256
-
-a8717c1408222791587d2e39f3f164682da0767fdf9ef836e7c2e53f254c250e
-
-### reviewer
-
-quality-agent
-
-### reviewed_at
-
-2026-10-21T16:19:57+00:00
-
-### notes
-
-- Default quality audit passed — poem is written, enriched, and meets quality parameters.
-- Philosophical depth: present
-- Metaphorical richness: present
-- Human accessibility: present
-- Civilizational relevance: present
-- Literary quality: present
-- Ethical framework: present
+The primary focus must rest on a persistent, low-frequency auditory echo (the 'twisting sound') that underlies the achievement of reunion.

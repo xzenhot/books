@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "The Echo of Expectation",
+  "segment_summary": "The distant, judgmental voices of society clash with the intense focus of her brushwork, creating a silent, internal siege.",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "দেবলিনার শরীরের উপর চুন-ধুলো ও ল্যাপিস লেগে থাকার ভৌত প্রমাণ হিসেবে দেখানো, যা তাকে সময়ের সাথে সাথে এক ধরণের 'আর্কিভ' বানায়।",
+    "story_option": "দৃশ্য ১: রাতের নিস্তব্ধতা ভাঙার মুহূর্তে, দেবলিনা নিজের হাতের তালুতে লেগে থাকা চুন-ধুলো খুঁটিয়ে দেখে—প্রতিটি কণা যেন একটি প্রত্যাখ্যানের ক্ষুদ্র দলিল।",
+    "subject_rotation": "এই অধ্যায়টিকে কেবল 'প্রক্রিয়া' না দেখিয়ে, দেবলিনার শরীরকে এক অস্থায়ী শিল্পকর্ম হিসেবে উপস্থাপন করা যা সময়ের সাথে রাসায়নিক ও ভৌত পরিবর্তন ঘটায়।",
+    "sensory_detail": "চুন-মাটির ভেজা শীতলতার বিপরীতে ল্যাপিসের গুঁড়োর তীব্র জ্বালাপোড়া কণাযুক্ত স্বাদ যা ঠোঁটে লেগে থাকে।",
+    "research_question": "দেওয়াল বা ফাটল থেকে উদ্ভূত কোনো দৃশ্যমান 'স্থির শক্তি' কীভাবে কাব্যিক ভাষা দ্বারা বর্ণনা করা যেতে পারে যা কেবল ক্ষয় নয়, বরং স্থিতিশীলতা বোঝায়?",
+    "structural_variant": "Poetic progression from extreme macro view (the entire compromised haveli wall) down to a microscopic focus on the adhesion points of pigment, then expanding outward again toward her own gaze.",
+    "variety_note": "Neighbours often focused on external stimuli (Musk or Sky); this chapter roots itself deeply within the material failure of the work and the internal pressure applied to those failures."
+  }
+}

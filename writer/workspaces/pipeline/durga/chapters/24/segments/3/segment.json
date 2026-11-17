@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 24,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন সংগ্রাম",
+  "segment_summary": "দৈনন্দিন জীবনের ক্ষুদ্র সংগ্রামগুলিকেও মহিষাসুর বধের প্রচেষ্টা হিসেবে দেখা হচ্ছে, যেখানে ব্যক্তিগত প্রতিকূলতা শক্তির প্রকাশ ঘটায়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the societal obligation of belief as a necessary, functional mechanism for collective psychological survival, rather than purely spiritual fulfillment.",
+    "story_option": "Setting: During the mundane act of sweeping discarded ritual material from the *প্যান্ডেল*; Desire: To treat this refuse pile as a sacred palimpsest—every shard and faded cloth holding coded knowledge of past spiritual exertion.",
+    "subject_rotation": "Reinterpreting 'power' not as destructive force (Mahishasura বধ), but as sustained relational maintenance—the quiet labor required by community cohesion.",
+    "sensory_detail": "Sound: A very low, almost inaudible sub-bass hum—a resonance that seems to originate from the earth beneath the city.",
+    "research_question": "What specific Bengali colloquialisms exist to describe profound, quiet longing for an unattainable state of being without employing explicit mythological vocabulary?",
+    "structural_variant": "Employing three consecutive segments that operate entirely as rapid-fire interrogations (Socratic style), breaking the meditative flow before returning to deep contemplation.",
+    "variety_note": "Unlike preceding chapters which focused on the act of creation or ecstatic celebration, this chapter must prioritize inertia and residue—the aftermath, the sustained internal whisper after the grand noise has ceased."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 59,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী প্রতিষ্ঠা",
+  "segment_summary": "অবিরাম সংগ্রাম এবং বিশ্বাসের মাধ্যমে বেহুলার চরিত্রটি এক মহৎ, কিংবদন্তী নারীর রূপে চিরস্থায়ী হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "দ্বৈত উপসংহার: একই সাথে জয় এবং অনিবার্য প্রশ্নকে ধারণ করা—স্বামীর ফিরে আসা আনন্দের মুহূর্তেও সমাজের কঠোর বাস্তবতার শীতলতা যেন ফিসফিস করে শোনা যায়।",
+    "story_option": "সেটিং: নদীর கரையின் শুকনো, জীর্ণ মাটি (গাঙুড়ের আলয়); আকাঙ্ক্ষা: অতীতের সকল অনিশ্চয়তা মুছে ফেলা; বাধা: পুরোনো রীতিনীতির ফিসফিসানি; পরিবর্তন: ভেলা স্থির হয়ে যায়, জীবনের প্রবাহে নতুন ছন্দ আসে।",
+    "subject_rotation": "চূড়ান্ত বিজয়ের পরে সৃষ্ট 'বিরাম' বা 'শূন্যতার নতুন রূপ' নিয়ে লেখা—এই স্থিরতাটাই আসলে এক ভিন্ন প্রকার মানসিক চাপ।",
+    "sensory_detail": "দীর্ঘ ভ্রমণের পর চামড়ায় পড়া সামান্য রুক্ষতা, যা কঠিন পরীক্ষার সাক্ষ্য দেয় (স্পর্শ)।",
+    "research_question": "কোনো নির্দিষ্ট প্রাচীন বাংলা শব্দ আছে কিনা যা 'কষ্টের মধ্য দিয়ে অর্জিত শান্ত স্থিতিশীলতাকে' বোঝায় এবং সেটি অতি-ধর্মীয় ভাব থেকে মুক্ত থাকে?",
+    "structural_variant": "একটি পর্ব কাঠামো যেখানে প্রতিটি উপ-খণ্ডে শব্দের ধ্বনিগত পুনরাবৃত্তির মাধ্যমে ভাব গভীর হয়, কিন্তু শব্দকোষ নতুন থাকে (Sonority-driven parallelism)।",
+    "variety_note": "Neighbouring chapters focused on the struggle's mechanics; this chapter must focus entirely on the philosophical weight and quiet consequence of resolution, using highly specific sensory grounding."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "সীমানা ভাঙার যন্ত্রণা",
+  "segment_summary": "এই অভিজ্ঞতা তাকে শেখায় যে আকাঙ্ক্ষা এবং বাস্তবতার মধ্যেকার দেয়ালগুলো কত ভঙ্গুর এবং কত সহজে ভেঙে যেতে পারে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'heavenly bliss' not as an entry, but as a temporary *infection*—a sublime intrusion that destabilizes the corporeal self.",
+    "story_option": "Setting: At the edge of a monsoon-drenched terrace overlooking wet ground; Desire: For her heightened senses to map the earth's moisture as pure spiritual connectivity; Obstacle: A sudden downpour that washes away all definition, blurring sensation into shapeless grey water.",
+    "subject_rotation": "Framing the body not as a prison, but as an exquisitely tuned antenna whose reception capacity is momentarily exceeded by cosmic frequency.",
+    "sensory_detail": "The visual texture of rapid light dispersion across the cornea during sensory shock—a moment where color seems to 'vibrate' out of focus.",
+    "research_question": "What specific Bengali tactile metaphors exist that convey an sensation so intense it surpasses mere pleasure or pain?",
+    "structural_variant": "Using a cyclical structure where Segment 8 loops back, but inverted—instead of posing a question, it offers a fleeting, definitive *false* answer.",
+    "variety_note": "Unlike earlier explorations focused on defining limits (e.g., in Chapter 4), this chapter focuses entirely on *breaching* those self-imposed or perceived boundaries, exploring what exists when the rules dissolve."
+  }
+}

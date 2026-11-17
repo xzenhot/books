@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "দেহ ও আত্মার মিলনক্ষেত্র",
+  "segment_summary": "এই অংশে শরীর এবং আত্মার মধ্যেকার সংঘাতের পরিবর্তে এক নতুন ধরনের সহাবস্থান চিত্রিত হয়, যেখানে উভয়ই প্রশ্নকর্তা।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The inversion where the body is not merely a container for joy, but the *transmitter* through which the divine question resonates outward to the indifferent world.",
+    "story_option": "Setting: Indoors, beside a cool ceramic basin left over from cleansing rituals; Desire: To allow the water's slight movement to mirror the uncertainty in her spirit; Obstacle: The ingrained habit of seeking definition, which resists liquid motion.",
+    "subject_rotation": "Viewing the final questioning state as a deliberate act of resistance against closure imposed by societal expectation.",
+    "sensory_detail": "The specific way the late afternoon sunlight catches a single thread of pallor in her hair as she contemplates (Visual).",
+    "research_question": "How can Bengali poetic vocabulary convey a state that is simultaneously profoundly present and utterly absent? (i.e., a perfect echo vs. silence)",
+    "structural_variant": "A recursive structure, where each segment begins by quoting or rephrasing the preceding segment’s central question.",
+    "variety_note": "This chapter moves entirely beyond resolution toward sustained inquiry; unlike its neighbours which explored decay or decision points, this segment is defined by perpetual resonance and the act of asking itself."
+  }
+}

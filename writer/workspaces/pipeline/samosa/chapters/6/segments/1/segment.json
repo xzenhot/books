@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 6,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সরিষার হলুদ আভা",
+  "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের সেই তীব্র, উষ্ণ ঝাঁঝালো গন্ধের বর্ণনা দেওয়া হচ্ছে, যা মাটির সঙ্গে মিশে এক আদিম স্বাদের প্রতিশ্রুতি দেয়।",
+  "name": "6.1",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the narrative entirely on the *molecular* journey of the oil—from raw seed in the field to neutralized vapor on the consumer's tongue, externalizing loss as a chemical failure.",
+    "story_option": "Setting: A grimy roadside stall in a foreign city; Desire: To find one single packet of mustard seed that retains its ancestral 'zor', Obstacle: The vendor only stocks uniform, pale refined oil.",
+    "subject_rotation": "Treating 'তেল' (oil) as a proxy for time itself—the traditional slow time versus the compressed time of global logistics.",
+    "sensory_detail": "Visual: The specific amber luminescence of pure, aged mustard oil contrasted with the colorless sheen of generic vegetable medium.",
+    "research_question": "What is the specific diction in Bengali/Sanskrit that best conveys a 'pithy' or essential flavor quality beyond mere descriptors like 'spicy' or 'sweet'?",
+    "structural_variant": "A highly kinetic structure where each segment rapidly shifts between the memory of Bengal and the reality of the foreign environment without a clear turning point.",
+    "variety_note": "While Neighbour 1 focused on nomenclature and memory's word, this chapter fixes firmly onto the foundational ingredient: the medium itself (oil), treating its physical substitution as a primary act of cultural erosion."
+  }
 }

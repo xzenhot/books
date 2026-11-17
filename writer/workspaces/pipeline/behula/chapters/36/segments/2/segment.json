@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 36,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অন্ধকার থেকে আলোয়",
+  "segment_summary": "অন্ধকার ও সন্দেহের প্রাচীর ভেঙে বেহুলার জীবনে আলোর প্রত্যাবর্তন ঘটে, যা তার আত্মিক যাত্রার চূড়ান্ত প্রমাণ।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Audience addressing absence: The poem functions as a direct address to Lkhindor *after* he has ostensibly returned, focusing on the profound chasm between his physical presence and the eternal, unspoken pact they shared during separation.",
+    "story_option": "Setting: Within the deep shade cast by a monumental banyan tree in the homestead (an ancestral space); Desire: To recall not the reunion, but the absolute *terror* just before it—the moment doubt was almost fully consumed by resolve; Obstacle: The seductive pull of accepting lesser comfort instead of the terrifying truth.",
+    "subject_rotation": "Shifting focus from *achievement* to *maintenance*: What does it cost daily to keep this sacred, hard-won peace against the incessant hum of the ordinary world?",
+    "sensory_detail": "Touch: The coolness and abrasive texture of ancient stone under the fingertips as they reach out.",
+    "research_question": "How to translate the philosophical concept of 'existential reintegration' into diction resonant with Jibran’s passionate yet deeply internalized rhythm?",
+    "structural_variant": "Employing a nested structure where every successful line of praise for reunion immediately collapses into a rhetorical question about its fragility.",
+    "variety_note": "Unlike earlier segments focusing on external struggle (societal bias, gods), these final eight parts prioritize an intense inward focus—the quiet ontology of reunion and the complex dialogue with what remains unspoken even in victory."
+  }
+}

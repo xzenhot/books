@@ -4,19 +4,19 @@
   "chapter_index": 9,
   "segment_index": 6,
   "total_segments": 8,
-  "segment_title": "নামহীন ভূখণ্ড",
-  "segment_summary": "মানচিত্র থেকে নাম মুছে গেলে জায়গাটি কি সত্যিই আর থাকে, নাকি নামহীন ভূখণ্ডে পরিণত হয় — কবিতা এই প্রশ্ন তোলে।",
-  "name": "6",
-  "word_target": 500,
+  "segment_title": "ভবিষ্যতের অনিশ্চয়তা",
+  "segment_summary": "নদীর এই অস্থিরতা গোপালের দৈনন্দিন জীবনকে এক গভীর অনিশ্চয়তার স্তরে ঠেলে দেয়, যেখানে কোনো নিশ্চিত আশ্রয় নেই।",
+  "name": "9.6",
+  "word_target": 60,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "The internal conflict presented as a failed cartographic attempt—Gopal trying to draw the old contours with water markings, only for them to be washed away before permanence.",
-    "story_option": "Setting: Docked temporarily at a remote ghat where only old timers gather; Desire: A brief, desperate sharing of local dialect/names among the aging few before they are dispersed by modern life; Obstacle: Younger boatmen treat these places with utilitarian indifference.",
-    "subject_rotation": "Examining 'memory density': measuring not area (square kilometers) but accumulated cultural weight tied to specific points on the river.",
-    "sensory_detail": "The faint, mineral tang of disturbed silt mixed with a sharp, inorganic scent rising from diesel-fed construction runoff at dawn.",
-    "research_question": "How do the local dialects differ when referring to a bend—is there a word for a gentle curve versus a sharp, perilous one?",
-    "structural_variant": "A call-and-response pattern: Gopal naming/describing a place, followed by a short stanza detailing the bureaucratic substitute for that name.",
-    "variety_note": "This chapter contrasts sharply with the 'Diesel Sound' (Ch. 7) by focusing inward on memory and language rather than outward on noise pollution; it explores cultural entropy through geography instead of sonic invasion."
+    "angle": "নদী নিজেই একটি বিচারক হিসাবে কাজ করবে, যেখানে জলের পরিবর্তন শুধু প্রবাহগত না হয়ে গোপালের নৈতিক অবস্থানকেও চ্যালেঞ্জ জানাবে।",
+    "story_option": "সেটিং: নদীতে ভেসে আসা এক টুকরো উন্নত মানের ধাতব স্ক্র্যাপ (চট্টার্জীর কাজের চিহ্ন); আকাঙ্ক্ষা: গোপাল সেই ধাতুর সূক্ষ্মতা অনুভব করার চেষ্টা করেন, যেন তা আধুনিকতার সৌন্দর্য বুঝতে পারেন; বাধা: তার হাতের চামড়ার কঠোরতা তাকে প্রত্যাখ্যান করে।",
+    "subject_rotation": "ঐতিহ্যের ভারকে বিচ্ছিন্নভাবে নয়, বরং নৌকার প্রতিটি তক্তা এবং পাটাতনের ছিদ্রের মধ্য দিয়ে প্রবাহিত হওয়া প্রজন্মের বহুবিধ মানবিক চুক্তি হিসেবে দেখানো।",
+    "sensory_detail": "বর্ষার জলে ভিজে নরম হয়ে আসা পাটাতনের নিচের কাঠের মলাট স্পর্শের অনুভূতি যা দৃঢ়তার বিপরীতে ভঙ্গুরতা দেখায় (স্পর্শ)।",
+    "research_question": "গোপালের নৌকার কাঠামোর কোনো বিশেষ নকশা বা ব্যবহারিক উপাদান কি আঞ্চলিক জলপ্রবাহের একটি সুনির্দিষ্ট, প্রাচীন কাঠামোকে অনুসরণ করে?",
+    "structural_variant": "একটি 'ডায়ালগয়িং লুপ' প্রতিষ্ঠা করা: প্রতিটি ছোট অংশে অতীত ও বর্তমানের চিত্রকল্প একইসাথে আবর্তিত হবে, কোনো স্পষ্ট পরিবর্তন না ঘটিয়ে শুধু তীব্রতার পরিবর্তন হবে।",
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী শান্ত চিত্রকল্প থেকে সরে এসে তীব্র অভ্যন্তরীণ দ্বন্দ্বে প্রবেশ করে। এটি কেবল বাইরের সংঘাত নয়, বরং কাঠামোগতভাবে দুটি বিপরীত প্রবাহের মধ্যে গোপালের মনোজগৎকে আটকে রাখার চেষ্টা।"
   }
 }

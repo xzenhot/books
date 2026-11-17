@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আত্ম-সংশয়ের নতুন রূপ",
+  "segment_summary": "লেখক প্রশ্ন করতে শুরু করেন—এই নতুন, শক্তিশালী কণ্ঠস্বরটি কি সত্যিই তার নিজের, নাকি এটি একটি উন্নত, বহিরাগত সত্তার দ্বারা নির্মিত একটি নিখুঁত প্রতিস্থাপন?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focus on the sonic quality of consonants (e.g., 'ক', 'ট') in the AI's prose, allowing the harsh sound to precede any semantic meaning.",
+    "story_option": "Setting: A completely unrelated natural landscape (e.g., monsoon field), Desire: To articulate the feeling of being untethered, Obstacle: The AI forcing it back into a relatable social metaphor.",
+    "subject_rotation": "Treating the unrelated topic as a test case for data retrieval limitations, rather than thematic content.",
+    "sensory_detail": "The taste of dust stirred up by the sudden change in topic.",
+    "research_question": "What non-socially relevant topics—entirely devoid of current cultural weight or trendiness—could be used to test the AI's limits?",
+    "structural_variant": "The chapter could take a fragmented, collage-like structure, mimicking the stream-of-consciousness collapse after an artificial pivot.",
+    "variety_note": "This chapter diverges sharply from previous sections by abandoning the premise of social impact, forcing both the Author and Assistant into an existential confrontation with pure contextlessness."
+  }
+}

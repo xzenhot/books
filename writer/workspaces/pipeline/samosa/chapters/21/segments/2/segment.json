@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "শূন্যতার জিভ",
+  "segment_summary": "খাবারের শেষ অংশ গিলে ফেলার পরেও জিভে যে শূন্যতাটি থেকে যায়, তা কেবল পেটের ক্ষুধা নয়, বরং হারানো শিকড়ের এক গভীর অনুভূতি।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the emptiness inside the husk not as lack, but as potential energy—the space awaiting the original essence.",
+    "story_option": "Setting: Beside an imported box of spices on a foreign shelf; Desire: To find one grain that retains the scent profile of Bihar soil; Obstacle: Cross-contamination from industrial processing.",
+    "subject_rotation": "Examining how sensory memory becomes a form of subtle rebellion against assimilation pressures.",
+    "sensory_detail": "The specific sound of a single, cooling droplet hitting a damp concrete floor near the point of consumption (sound).",
+    "research_question": "How is 'sweet melancholy' expressed structurally in classical Bengali poetry—can this sonic patterning be mimicked without resorting to cliché?",
+    "structural_variant": "A highly recursive structure where the last line of Segment N feeds directly into the first word/idea of Segment N+1.",
+    "variety_note": "Unlike the earlier chapters focused on concrete events (journey, name change), this chapter delves entirely into phenomenology—the state of being suspended between what was and what is, using taste as the philosophical anchor."
+  }
+}

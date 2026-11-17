@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "সাহসের নতুন সংজ্ঞা",
+  "segment_summary": "এই সাহস কেবল শারীরিক বিদ্রোহ নয়, বরং আত্মার গভীরতম সত্যকে স্বীকার করার দার্শনিক পদক্ষেপ।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'thread' metaphor as a tangible, almost metallic filament that is deliberately frayed by her expression (Primary Lens application).",
+    "story_option": "Setting: A sunlit courtyard where a single vine is aggressively winding itself around a weathered pillar; Desire: To allow the thread of her voice to grow unchecked like that vine, regardless of appearance; Obstacle: The stone pillar represents societal rigidity.",
+    "subject_rotation": "Shifting focus from 'social constraint' to 'temporal confinement'; the feeling that middle age is a tight spool, and courage is the act of letting the thread unwind rapidly into chaos.",
+    "sensory_detail": "Sight: The way harsh daylight catches on dust motes dancing specifically *because* of her heightened mental energy.",
+    "research_question": "What specific Bengali poetic idiom can convey 'the necessity of controlled breaking'—the act of intentionally straining a boundary without causing complete collapse?",
+    "structural_variant": "Alternating stanzas between highly dense, abstract philosophical questioning (the 'why') and starkly concrete descriptions of physical sensation (the 'how').",
+    "variety_note": "Unlike previous chapters which explored internal states (bliss/imprisonment), this chapter must be defined by decisive *action*—the pivot point from feeling to verbal manifestation. The thread metaphor will provide the connective tissue through these shifts in agency."
+  }
+}

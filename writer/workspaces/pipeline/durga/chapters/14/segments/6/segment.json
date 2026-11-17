@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ভক্তির ক্ষুদ্র রূপ",
+  "segment_summary": "দৈনন্দিন জীবনে ভক্তি মানে বিশাল প্যান্ডেল নয়, বরং নিজের প্রতি সৎ থাকার এক নীরব অঙ্গীকার।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on how the texture of the *calm* moments between struggles is what reveals the true shape and nature of inner divinity.",
+    "story_option": "Setting: A solitary walk through damp fields after sunset, Desire: To reconcile the public persona presented daily with the private vulnerability held inside; Obstacle: Self-judgment.",
+    "subject_rotation": "Examining how the *echo* of the festivity, not its presence, fuels daily resilience.",
+    "sensory_detail": "The low hum or vibration in the floorboards late at night, symbolizing unspoken tension.",
+    "research_question": "Are there specific contemporary concepts within modern Bengali philosophy that bridge personal ethics and cosmic cycles?",
+    "structural_variant": "Alternating between narrative flashback (the grand festival memory) and immediate sensory present (the daily struggle).",
+    "variety_note": "This chapter consciously shifts the focus entirely from communal spectacle to intense introspection; its language must be granular and painfully specific, unlike the grander sweep of earlier festival narratives."
+  }
+}

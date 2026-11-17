@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আলোর স্থায়িত্ব",
+  "segment_summary": "অগ্নির দীপশিখাটি কেবল জ্বলে না, বরং তা আরও উজ্জ্বল হয়ে ওঠে, যা চিরন্তন আশার প্রতীক হয়ে থাকে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem centers on the acoustic quality of reunion—the resonance between two separated souls rather than visual splendor.",
+    "story_option": "Setting: The desolate riverbank where they last parted; Desire: For them to exchange only the weight of their shared silence—no words spoken—as a communion.",
+    "subject_rotation": "Treating the reunion as less a romantic moment and more a scientific/alchemical reaction (merging two disparate energies).",
+    "sensory_detail": "Taste: The metallic tang of ancient sorrow dissolving into something sharp and pure upon touch.",
+    "research_question": "How can diction be employed in Bengali poetry to evoke a sense of purely *felt* physical sensation (beyond standard metaphors) related to existential relief?",
+    "structural_variant": "The poem could be structured like a slow, deliberate chime sequence, where each stanza resolves into a quieter, deeper resonance.",
+    "variety_note": "This chapter focuses on the philosophical aftermath and ontological validation of their union, moving beyond simple narrative closure towards defining what enduring presence means."
+  }
+}

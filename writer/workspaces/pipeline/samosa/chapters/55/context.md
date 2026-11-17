@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-দুই দেশের মাঝখানে দাঁড়ানো
+তেলের স্মৃতি
 
 ## chapter_summary
 
-দুই দেশের মাঝখানে দাঁড়িয়ে থাকা মানুষ একইসঙ্গে দুই জায়গায় নেই। এই দাঁড়ানোটাই প্রবাসের সহজ সত্য।
+এই অধ্যায়টি সরিষার তেলের ঝাঁঝালো, মাটির গন্ধযুক্ত আঘ্রাণ এবং প্রবাসের অচেনা, নিরপেক্ষ তেলের মধ্যেকার গভীর বৈসাদৃশ্যকে কেন্দ্র করে আবর্তিত। এই প্রতিস্থাপন কেবল একটি রাসায়নিক পরিবর্তন নয়, বরং এটি বাংলার রান্নাঘরের উষ্ণতা ও পরিচিততার বিচ্যুতিকে প্রতীকায়িত করে। যখন সেই আদি গন্ধটি হারিয়ে যায়, তখন জিভের স্মৃতি কীভাবে তার মূল শিকড় থেকে বিচ্ছিন্ন হয়ে পড়ে, সেই প্রশ্নটি এই অধ্যায়টি উত্থাপন করে।
 
 ## further_references
+
+- 2
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+সরিষার হলুদ আভা
+
+#### segment_summary
+
+বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার দৃশ্যটি বর্ণনা করা হয়, যেখানে প্রতিটি ফোঁটায় মাটির গভীর গন্ধ মিশে থাকে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অচেনা তেলের নীরবতা
+
+#### segment_summary
+
+প্রবাসের বাজারে ব্যবহৃত হালকা, নিরপেক্ষ তেলের উপস্থিতি, যা কোনো নির্দিষ্ট স্মৃতি বা গন্ধ বহন করে না।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+ঘ্রাণ ও আত্মার সংযোগ
+
+#### segment_summary
+
+কীভাবে একটি নির্দিষ্ট গন্ধ মস্তিষ্কের গভীরে একটি সম্পূর্ণ পরিবেশকে ফিরিয়ে আনে, সেই নিউরাল সংযোগের কাব্যিক অনুসন্ধান।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্বাদের রাসায়নিক বিচ্যুতি
+
+#### segment_summary
+
+তেলের রাসায়নিক পরিবর্তন কীভাবে স্বাদের মৌলিক কাঠামোকে বদলে দেয়, যা কেবল স্বাদ নয়, অস্তিত্বের পরিবর্তন।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্মৃতির ভার বহনকারী তেল
+
+#### segment_summary
+
+পুরোনো দিনের তেল, যা কেবল ভাজার মাধ্যম নয়, বরং পূর্বপুরুষদের স্পর্শ ও ঐতিহ্যের ধারক।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+ভাজার শব্দের প্রতিধ্বনি
+
+#### segment_summary
+
+সরিষার তেলে ভাজার সময় যে বিশেষ শব্দ তৈরি হয়, তা প্রবাসের নীরব ভাজার সঙ্গে কীভাবে ভিন্ন হয়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অসম্পূর্ণ অনুকরণ
+
+#### segment_summary
+
+প্রবাসে নিখুঁতভাবে সেই আদি স্বাদ প্রতিলিপি করার প্রচেষ্টা, যা সবসময়ই একটি অসম্পূর্ণ অনুকরণ হয়ে থেকে যায়।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষা ও শূন্যতা
+
+#### segment_summary
+
+সেই নিখুঁত, আদি গন্ধযুক্ত তেলের জন্য এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার চিত্রায়ণ, যা কেবল স্মৃতিতে বিদ্যমান।
+
+#### further_references
 
 
 ## level
@@ -31,53 +238,47 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- The geography of waiting: framing the border not as a line but as an infinitesimal space between two distinct qualities of light (e.g., harsh northern glare vs. soft monsoon glow).
-- Personifying inertia: treating the act of standing/pausing—the 'dăraṇō'—as a physical, geological resistance against forward motion.
-- The language of compromise: viewing bilingualism not as fluency, but as constantly negotiating syntax between two incompatible culinary rules (e.g., one culture insists on whole ingredients; the other demands uniformity).
+- Viewing the oil not as a medium but as a geological stratum: how different oils form distinct 'layers' of memory within the body.
+- Framing the contrast solely through silence and sound: the abrasive sizzle versus an absolute, dead quiet in foreign kitchens.
+- The perspective shifts entirely to the *fingertips*—the point where the tactile evidence of both sharp zest (mustard) and bland uniformity resides.
 
 ### story_options
 
-- Setting: A loading dock at a port late in the night, desire: The speaker attempts to balance two different kinds of spice jars—one labeled with the home dialect, one with international standardization—obstacle: Gravity pulling them toward an inevitable, single classification.
-- Setting: Between two distinct temperature zones (e.g., stepping from a cold transit platform into a warm, humid marketplace entrance), desire: The speaker seeks equilibrium in sensation, obstacle: The competing smells of wet earth and industrial fryer oil fighting for dominance on the tongue.
-- Setting: A poorly lit section of an unfamiliar town square after curfew, desire: To catch a glimpse of someone moving with a rhythm that suggests 'home,' obstacle: The shadow itself dissolving before identity can be confirmed.
+- Setting: A single, cold spot on the stove; Desire: To capture a residual scent clinging to that specific metal surface from past cooking; Obstacle: The constant draft carrying only foreign air.
+- Setting: An unwashed *katori* (small bowl) placed next to the dough remnants; Desire: To force the forgotten mustard residue back into a state of sharp pungency through concentrated breathing; Obstacle: The pervasive, neutralizing ambient smell of concrete.
+- Setting: A discarded wrapper from a locally sourced packet; Desire: To find one chemical molecule within that inert plastic film that mirrors the intensity of the original *jhal*; Obstacle: The synthetic sheen overwhelming any natural essence.
 
 ### subject_rotations
 
-- Treating the dual location not as psychological displacement, but as a culinary layering—the base layer being one flavor profile (e.g., sharp mustard), and the overlay layer being the other's dominant scent.
-- Shifting focus from the pastry itself to the *residue* it leaves on hands/fingers: which residue is 'home'? The oily, particulate mess of foreign street food, or the fine dust of ancestral flour?
-- Focusing on acoustic dissonance: the background noise of two cities colliding—the familiar cadence of a Bengali dialect layered under the standardized announcements of a globalized transit hub.
+- Focusing on 'viscosity' as emotional weight—how thick, heavy oil represents clinging memory versus thin, running oil representing easy forgetting.
+- Treating the act of filtering/straining the oil as a deliberate, failed ritual to purify past emotion.
+- An inversion: what if the neutral oil *could* taste like home, but only by momentarily corrupting its own chemical structure?
 
 ### sensory_details
 
-- The specific texture of residual, desiccated spice crust clinging to the lower lip after tasting both 'lands'.
-- The auditory effect of mismatched metallic sounds: the gentle clink of an inherited utensil against the harsh ring of modern signage.
-- The visual experience of light refracting unevenly through a cheap, recycled plastic container that holds two disparate elements (e.g., one type of pickle, one grain).
+- Visual: The aggressive, jagged splatter pattern of mustard seed residue on a blackened hearthstone.
+- Auditory: A sound that is neither sizzle nor hiss, but a specific high-frequency *thrum* generated by volatile essential oils meeting moderate heat.
+- Olfactory: A momentary sensation described as 'biting' rather than merely smelling—a physical prickling in the upper respiratory tract.
 
 ### research_questions
 
-- How can I precisely convey the sensation of 'two simultaneous realities' within Bengali line structure without becoming purely academic or overly abstract?
-- Are there specific phonetic patterns in colloquial Benglai that inherently carry a weight of memory (a sound that *feels* heavy) compared to standardized modern speech?
-- What is the most potent, concrete image representing existential limbo derived from food-related materials (oil, dough, packaging)?
+- What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?
+- How can I employ diction to convey the idea of 'molecular integrity' without resorting to scientific jargon?
 
 ### structural_variants
 
-- Employing stanzas where the first half of a stanza describes 'Place A' using specific sensory data, and the second half immediately contradicts or overlays it with details of 'Place B', creating immediate tension.
-- A cyclical structure where the poem circles back to an initial physical posture (standing still) but finds that each return point is slightly more eroded by time/experience than the last.
+- A poem composed entirely through rhetorical questions posed by the ingredient itself (e.g., the oil speaking).
+- Shifting structure based on perceived heat: beginning in extreme coldness (dormant oil) and building kinetic energy toward a flashpoint.
 
 ### unused_angles
 
-- The philosophical argument of which 'self' is essential: Is it the body bearing the foreign weight, or the internalized blueprint for flavor?
-- A sustained metaphor comparing migration to a culinary fermentation process—the necessary decay into something new but fundamentally altered.
-- Exploring the ethical implication of consuming a hybrid product that satisfies hunger but voids memory.
+- The role of time dilation—how the preparation feels faster in memory than it does in the slow, measured pace of foreign living.
+- A metaphor linking the extraction process to political negotiation: what must be sacrificed for functionality?
 
 ### variety_note
 
-This chapter avoids detailing either 'Home' or 'Host,' instead focusing entirely on the precarious, liminal physical space *between* them, using tension as the primary driving force unlike the preceding chapters which focused on ingestion/origin.
+This chapter focuses intensely on the medium (oil) itself, deviating from neighbour chapters that focus more broadly on travel or nomenclature; it isolates the foundational sensory element.

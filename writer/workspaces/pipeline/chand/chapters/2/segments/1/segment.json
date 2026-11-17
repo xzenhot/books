@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 2,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "টিনের চালের উপর প্রথম স্পর্শ",
+  "segment_summary": "চাঁদের আলো যখন শহরের পুরনো টিনের চালের ওপর পড়ে, তখন ধাতব পৃষ্ঠটি যেন এক অচেনা, শান্ত দীপ্তিতে ভরে ওঠে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "আলোর শীতলতা যেন অতীতের এক স্পর্শ, যা বর্তমানে বিরাজমান সমস্ত উষ্ণতাকে ম্লান করে দেয়।",
+    "story_option": "অন্ধকারে বসে থাকা কবি হঠাৎ অনুভব করেন যে সেই চাঁদের আলো তার হাতের একটি নির্দিষ্ট দাগকে উজ্জ্বল করছে, যা কোনো স্মৃতিকে জাগিয়ে তোলে এবং তাকে এক গোপন পথ খুঁজতে প্ররোচিত করে।",
+    "subject_rotation": "এই দৃশ্যটিকে কেবল একটি ল্যান্ডস্কেপ হিসেবে নয়, বরং মনের ভেতরের এক 'আহ্বান' হিসেবে চিত্রিত করা, যেখানে নীরবতা আসলে একটি শক্তিশালী বার্তা বহন করছে।",
+    "sensory_detail": "ধাতব টিনের শীতল স্পর্শে আঙুলের ত্বকের সামান্য অসাড়তা অনুভব করা।",
+    "research_question": "এই ধরনের পুরানো টিনের চালের ধাতব পৃষ্ঠে চন্দ্রালোকে প্রতিফলিত আলোর রঙ এবং তীব্রতা কেমন হতে পারে?",
+    "structural_variant": "একটি দীর্ঘ, ধ্যানমূলক বর্ণনা যেখানে আলো স্থির থাকে, যেন সময় থেমে গেছে।",
+    "variety_note": "Neighbours often focus on external movement or past events; this chapter drills deep into the static, almost sacred qualities of light interacting with mundane urban texture."
+  }
 }

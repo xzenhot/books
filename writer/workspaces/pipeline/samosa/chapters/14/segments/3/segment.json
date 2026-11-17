@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আকৃতি ও সত্তার দ্বন্দ্ব",
+  "segment_summary": "ত্রিকোণাকার খোলসটি একই থাকলেও, ভেতরের পুরের পরিবর্তন তাকে এক নতুন, অপরিচিত সত্তা দান করেছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the longing not as nostalgic grief but as a form of intellectual rigor: demanding structural perfection from an unstable cultural object.",
+    "story_option": "Setting: A cramped, makeshift kitchen operating under the harsh glare of industrial fluorescent lights; Desire: To successfully replicate the specific low-heat steam retained by a village oven; Obstacle: The inability to source traditional earthenware or achieve the correct ambient moisture.",
+    "subject_rotation": "The object as a failed translation in literary terms—where the intent (Singhara) is lost in bureaucratic/commercial rendering (Samosa).",
+    "sensory_detail": "A phantom scent of specific, aged turmeric mingling with the metallic tang of imported fryer oil.",
+    "research_question": "What are the established linguistic markers (beyond simple name change) that denote a food item's cultural origin in diaspora literature?",
+    "structural_variant": "A sustained internal monologue where the narrator argues with a perceived ghost of their past self about culinary fidelity.",
+    "variety_note": "This chapter deepens the philosophical rift begun in earlier pieces by moving from mere description of taste loss to an inquiry into ontological status, a shift away from simple geographical displacement."
+  }
+}

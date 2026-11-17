@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "কাঠের নৌকার দর্শন",
+  "segment_summary": "নৌকার কাঠের ঘষা দাগ এবং তার স্থিতিস্থাপকতা তার কাছে জীবনের নশ্বরতা ও অবিরাম যাত্রার এক গভীর দার্শনিক প্রতীক হয়ে ওঠে।",
+  "name": "7.3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the act of observation itself as an intrusion or a kind of theft upon the majhi’s lived reality.",
+    "story_option": "A brief interaction where he pauses mid-stroke, caught in the moment of artistic vision, and a single drop of sweat traces a line down his cheek, momentarily breaking the aesthetic perfection.",
+    "subject_rotation": "Using the boat as a temporary canvas where ephemeral moments—shadows, spray, reflected sky—are constantly being painted over.",
+    "sensory_detail": "The specific texture of wet jute fibers clinging to the riverbank where she stands; an earthy, slightly sweet scent.",
+    "research_question": "What specific traditional Bengali materials or processes would a skilled artisan use to capture the texture of aged river wood in detailed sketches?",
+    "structural_variant": "Alternating between highly lyrical stanzas focused on her perception and starker, almost prosaic lines describing the physical mechanics of the oars.",
+    "variety_note": "This chapter contrasts the objective external pressures seen previously by framing the majhi through an intensely subjective, aesthetic lens, focusing on how perception can elevate mere labor to art before grounding that elevation in economic reality."
+  }
+}

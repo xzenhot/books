@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ক্ষত ও পবিত্রতা",
+  "segment_summary": "তারা শেখান যে, কিছু গভীর ক্ষত বা ট্র্যাজেডিকে তার অসম্পূর্ণ রূপেই রেখে দেওয়া তার চরম পবিত্রতার পরিচায়ক।",
+  "name": "9.6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the dialogue entirely through implied meaning (what is deliberately *not* said) to emphasize the power of 'Udasinata' over rhetoric.",
+    "story_option": "Setting: Beneath the roots of an ancient tree near the manor boundary, Desire: To grasp the concept of inherent ‘unofferedness,’ Obstacle: The earth is too dense and quiet; his attempts to decipher patterns are drowned by deep-rooted stillness.",
+    "subject_rotation": "Exploring how local folklore describes uncompleted events not as tragedies, but as necessary points of suspension.",
+    "sensory_detail": "The low, resonant hum perceptible in the quiet when all human activity ceases—a sound that is felt rather than heard.",
+    "research_question": "What specific types of non-verbal cultural markers (gestures, body positions) in the Satual community signify philosophical acceptance rather than refusal?",
+    "structural_variant": "Using sharp breaks between segments to represent moments where the traveler's linguistic imposition fails entirely.",
+    "variety_note": "This chapter pivots entirely away from the destruction (previous chapters) and externalizing conflict; it focuses inward by using the elders not as guides, but as mirrors reflecting the traveler's own internal limitations in highly distilled terms."
+  }
+}

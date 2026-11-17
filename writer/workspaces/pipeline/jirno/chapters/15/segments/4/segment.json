@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "না-সমাধানের ভার",
+  "segment_summary": "সে কোনো 'ইতিহাস' বা 'সমাধান' নিয়ে ফিরে যাওয়ার সিদ্ধান্ত নেয় না, কারণ সে বুঝতে পারে যে, কিছু শূন্যতা অপূর্ণ থাকলেই পূর্ণতা লাভ করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final departure not as resignation, but as a precise, calculated shedding of intellectual baggage required for survival in the red earth.",
+    "story_option": "Setting: The low point of the red earth where water momentarily pooled after the storm; Desire: To dip a finger in that reflective mud and see his own reflection distorted by the ruin's curve; Obstacle: Realizing the reflection is utterly unremarkable, mirroring the accepted decay.",
+    "subject_rotation": "Shifting the focus from 'acceptance' (passive) to 'active relinquishing' (an intentional act of letting go that requires internal strength).",
+    "sensory_detail": "Sight: The bleached white quality of the lime-plaster dust clinging to the fibers of worn cloth.",
+    "research_question": "What specific agricultural terms describe the state of land that has been heavily saturated and then rapidly dried by tempestuous weather?",
+    "structural_variant": "An inverted narrative: beginning with the quiet departure and using flashbacks (in reverse chronological order) to explain *why* that silence feels earned.",
+    "variety_note": "This chapter pivots entirely away from intellectual confrontation; where earlier parts explored the *resistance* to change, this final phase is dedicated solely to the exhausted *completion* of surrender and departure."
+  }
+}

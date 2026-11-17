@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 46,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্বাদের প্রতিধ্বনি",
+  "segment_summary": "সামোসাটি যখন বিক্রি হয়, তখন তার স্বাদ কেবল একটি ক্ষণস্থায়ী মুহূর্তের প্রতিধ্বনি হয়ে থাকে, যা দ্রুত বিলীন হয়ে যায়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the speaker's observation entirely through the fragmented sounds produced by people haggling or calling out wares near the samosa stall—making sound the primary metaphor for cultural slippage.",
+    "story_option": "Setting: Waiting outside a food vendor's small cart at dusk; Desire: To witness one specific action—the precise moment the deep-fryer bubbles reach peak frenzy, signaling an authentic moment; Obstacle: A customer rushes past, grabbing and devouring several pieces without regard for ritual or contemplation.",
+    "subject_rotation": "A meditation on the transactional nature of modern diaspora food: how quickly an artifact is exchanged for pure caloric necessity.",
+    "sensory_detail": "The visual texture of cheap plastic bags piled high near the stall, contrasting sharply with the geometric precision of the fried pastries.",
+    "research_question": "What is the specific Bengali term for an overwhelming sensory environment where one particular scent becomes muted by many others?",
+    "structural_variant": "A call-and-response structure between the 'I' describing the internal memory and an imagined vendor whose voice only repeats commercial slogans.",
+    "variety_note": "This chapter pivots from internal culinary reflection to external environmental confrontation; the conflict moves from memory vs. present self, to ingrained cultural form vs. overwhelming urban noise."
+  }
+}

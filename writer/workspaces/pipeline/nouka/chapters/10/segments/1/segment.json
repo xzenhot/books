@@ -4,19 +4,19 @@
   "chapter_index": 10,
   "segment_index": 1,
   "total_segments": 8,
-  "segment_title": "হাতে থেকে যাওয়া ছন্দ",
-  "segment_summary": "সব হারানোর মুখেও গোপালের হাতে থেকে যায় ওয়ার টানার ছন্দ আর গলায় একটি অটুট ভাটিয়ালি সুর; কবিতা এই অবশিষ্টকে আশার বীজ হিসেবে দেখে।",
+  "segment_title": "কাঠের স্মৃতি",
+  "segment_summary": "নৌকার প্রতিটি তক্তা যেন অতীতের বহু যাত্রার নীরব সাক্ষী, যা সময়ের ধুলো আর জলের স্পর্শে গভীর ইতিহাস ধারণ করে আছে।",
   "name": "1",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Treating the final melody not as a human emission but as an emergent property of the river itself, activated by Gopal's voice.",
-    "story_option": "Setting: The river at pre-dawn, moments before full mist clears; Desire: Gopal allows his voice to become unrestrained, letting the notes break meter entirely, embracing the sound of breakdown; Obstacle: The reflection on the water is so unstable from churning that he cannot see himself.",
-    "subject_rotation": "Shifting focus from 'survival' to 'transmission': The poem is about the inherent inability of a specific mode of cultural expression (Bhatiyali) to be physically destroyed.",
-    "sensory_detail": "The feeling of resonant coldness traveling up Gopal's arm from where his hands gripped the damp, treated wood.",
-    "research_question": "How can 'unbroken melody' be represented poetically when its function is explicitly defined as ephemeral or non-linear?",
-    "structural_variant": "A highly fragmented structure where each segment ends abruptly, mimicking the way sound fragments in heavy moisture.",
-    "variety_note": "This chapter must function as a thematic closure rather than an argumentative one; it is defined by what remains intangible after all visible conflict—a shift from the clash of materials (wood vs. steel) to the persistence of vibration."
+    "angle": "নৌকার কাঠটিকে একটি প্রাচীন স্মৃতি-প্রাসাদ হিসেবে উপস্থাপন করা, যেখানে প্রতিটি ফাটল তার অতীত জীবনের উপকথা বহন করে।",
+    "story_option": "সেটিং: নৌকার মূল কাঠামো, ফাটল ধরা তক্তা; আকাঙ্ক্ষা: গোপাল কাঠ স্পর্শ করে অতীতের যাত্রীদের গন্ধ খুঁজে নেন; বাধা: ইঞ্জিনের শব্দ হঠাৎ তীব্র হয়ে ওঠে এবং সেই গন্ধকে গ্রাস করতে চায়।",
+    "subject_rotation": "এই অধ্যায়টিকে কেবল 'কাঠ বনাম ধাতু'র द्वंद्व হিসেবে না দেখে, এটিকে দুটি ভিন্ন ধরনের 'সুরকিট'-এর (Circuitry) সংঘাত হিসেবে দেখানো—একটি জৈবিক এবং অন্যটি যান্ত্রিক।",
+    "sensory_detail": "পলিমাটির ভেজা কাঠ থেকে উঠে আসা পুরোনো ধুলোর কণাগুলির শুঁকে ওঠার মৃদু শব্দ (শ্রবণ/স্পর্শ)।",
+    "research_question": "নদীর কোন নির্দিষ্ট উপাদান বা স্তরগুলির ক্ষয় হার কাঠ এবং ধাতুর ক্ষেত্রে কীভাবে আলাদা হতে পারে?",
+    "structural_variant": "পুরো কবিতাটিকে একটি দীর্ঘ, অ-যৌক্তিক বাক্যের কাঠামোয় লেখা—যেখানে কাঠ ও ধাতুর বর্ণনা একসাথে জড়িয়ে থাকে এবং পunctuation (বিরামচিহ্ন) বিরল ব্যবহার করা হয়।",
+    "variety_note": "এই কবিতাটি পূর্ববর্তী অধ্যায়গুলোর ভৌগোলিক বা মানবিক দ্বন্দ্বের পরিবর্তে, বস্তুগত এবং টেক্সচারাল সংঘাতের উপর গভীর মনোনিবেশ করে। এটি 'কে জিতবে'র চেয়ে বেশি প্রশ্ন করে—কীভাবে এই দুটি উপাদান একই স্থানে সহাবস্থান করতে পারে।"
   }
 }

@@ -1,0 +1,79 @@
+{
+  "chapter_index": 16,
+  "name": "16",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unwritten Horizon",
+  "chapter_summary": "This final contemplation moves beyond the physical act of painting, focusing instead on the legacy of the struggle itself. Debolina confronts the idea that the art's true essence resides not in its preserved form, but in the invisible, arduous journey it took to be created. The imagery shifts from the tangible pigments to the ephemeral quality of memory and the lingering scent of the desert night. The chapter ultimately poses the profound question: Can the silent, internal battle of the creator ever truly be captured by the finite, visible surface of the fresco?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "Beyond the Pigment's Edge",
+      "segment_summary": "The final brushstroke is not a depiction, but a gesture toward the unpainted expanse, acknowledging the limits of representation.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "Echoes in the Lime Dust",
+      "segment_summary": "The dust of the lime and the residue of the lapis now carry the weight of all the unspoken sacrifices made during the long nights.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "The Nomad's Lingering Musk",
+      "segment_summary": "The memory of the stranger's musk persists, a phantom scent that reminds her of the world she chose to engage with, even in isolation.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "The Scaffold's Silent Witness",
+      "segment_summary": "The scaffolding, once a symbol of precarious labor, now stands as a monument to the necessary vulnerability of the creative act.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "The Unframed Heartbeat",
+      "segment_summary": "She realizes that the true, untamed heartbeat of the artist cannot be neatly framed by any societal expectation or perfect composition.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "The Dialogue with Decay",
+      "segment_summary": "The decay of the ancient frescoes becomes a dialogue with her own impermanence, accepting that all creation is subject to time's erosion.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Seed in the Crack",
+      "segment_summary": "Every fissure in the wall is seen not as damage, but as a potential point of new growth, a testament to resilience.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Horizon of Becoming",
+      "segment_summary": "The final gaze is cast outward, not at the finished work, but toward the vast, unwritten horizon where the next struggle awaits.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

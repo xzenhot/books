@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 73,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নারীত্বের প্রতীকী উত্থান",
+  "segment_summary": "বেহুলার যাত্রা কেবল একটি ট্র্যাজেডি নয়, বরং এটি সেই সকল নারীর সম্মিলিত প্রতীক, যারা প্রতিকূলতার মধ্যেও নিজেদের মর্যাদা রক্ষা করে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The soundscape shift: Moving from the sharp, brittle sounds of societal scorn ('বিষাক্ত ছড়া') in early segments to a deep, resonant hum (primordial truth) during moments of intense internal fortitude.",
+    "story_option": "Setting: During a solitary vigil by an ancient banyan tree at dusk (symbolic rootedness); Desire: To anchor her fleeting pain into something geological and eternal; Obstacle: The seductive pull of nihilistic resignation offered by creeping doubt.",
+    "subject_rotation": "Shifting focus entirely to the concept of linguistic resistance—how her internal monologue employs archaic diction/complex syntax (as per mandate) where simple common speech would betray her struggle.",
+    "sensory_detail": "The specific smell of burning sandalwood that has long since turned acrid and bitter from repeated, unsuccessful attempts at purification rites (olfactory)",
+    "research_question": "What is the precise Bengali lexical register for 'unshakeable scaffolding'—a concept combining architectural strength with metaphysical permanence?",
+    "structural_variant": "Stanzaic Inversion: Dedicating an entire segment not to telling, but only to listing sensory input experienced during moments of acute societal scrutiny.",
+    "variety_note": "Where previous chapters focused on the *consequences* of grief (শূন্যতার অতল) or external trials, this chapter deepens into the *mechanism* of survival: how inner fortitude actively shapes and repurposes external suffering."
+  }
+}

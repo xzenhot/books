@@ -4,19 +4,19 @@
   "chapter_index": 8,
   "segment_index": 6,
   "total_segments": 8,
-  "segment_title": "অহংকার ও শ্রদ্ধা",
-  "segment_summary": "মাঝির শ্রদ্ধা আর শহরের অহংকারের মধ্যে নদী নিজেই হয়ে ওঠে এক নীরব বিচারক; কবিতা এই বৈপরীত্য আঁকে।",
+  "segment_title": "সাংস্কৃতিক কম্পন",
+  "segment_summary": "এই জলস্তরের পরিবর্তন কেবল জলজ নয়, এটি সেই সাংস্কৃতিক ভিত্তিকে নাড়িয়ে দিচ্ছে যা ভাটিয়ালি গান ও উদারতার ওপর দাঁড়িয়ে ছিল।",
   "name": "6",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Treating the silt deposit after a flood not as mud, but as the preserved ghost-image of vanished geography (a solidified map) that no human engineer can read.",
-    "story_option": "Setting: On a low-lying patch of land recently claimed by the tide during a rapid rise; Desire: A passenger—someone who represents purely modern utility—is caught in the undertow and lost without ceremony; Obstacle: The water moves with indifferent grace, offering no narrative drama.",
-    "subject_rotation": "Focusing less on the flood itself and more on the specific sounds *after* the worst passes—the slow sloshing, the dripping from overhanging mud banks.",
-    "sensory_detail": "The visual contrast between the slick, black sheen of newly exposed, waterlogged clay and the sun-bleached white foam that finally retreats from the banks.",
-    "research_question": "What is the precise local vocabulary for 'unpredictable current' in a heavily modified river system?",
-    "structural_variant": "A cyclical structure where Segment 1 describes a calm day, and Segment 8 re-examines that very same calm state through the lens of recent catastrophe.",
-    "variety_note": "This chapter deliberately moves beyond description of conflict (as seen in previous chapters) to focus on the *consequences* and the existential quietude following a moment of overwhelming natural force, making it more reflective than combative."
+    "angle": "জলস্তর পরিবর্তনের সাথে যুক্ত হওয়া ক্ষুদ্র, জীবনের প্রতীকী উপাদান—যেমন এক ধরনের জলচর পাখি বা নির্দিষ্ট ধরনের পদ্মপাতা যা ভেসে যাচ্ছে এবং ভেসে যাওয়ার ধরনটাই অস্থিরতার ভাষা বলছে।",
+    "story_option": "সেটিং: বর্ষার শেষে হঠাৎ নেমে আসা শুষ্কতা যখন নৌকার কাঠকে তীব্রভাবে চেপে ধরে; আকাঙ্ক্ষা: গোপাল ভুলে যাওয়া একটি পুরোনো লোককথা বা গীতের অংশ মনে করার চেষ্টা করেন যা এই পরিবর্তনের কারণ ব্যাখ্যা করতে পারে; বাধা: তার স্মৃতি যেন সেই হ্রাসপ্রাপ্ত জলের মতো ধুলোয় মিশে যাচ্ছে।",
+    "subject_rotation": "জলস্তর পরিবর্তনের ফলে নদীর গতিপথের সূক্ষ্ম ভৌগোলিক পরিবর্তনগুলির উপর ফোকাস করা, যেখানে গোপাল সেই নতুন 'বিপন্ন ভূমি'র প্রথম সাক্ষী হয়ে ওঠেন।",
+    "sensory_detail": "জলস্তর কমলে কাঠের তলায় পৌঁছানো নদীর নীচের ঠান্ডা পাথরের তীক্ষ্ণ অনুভূতি এবং তার সঙ্গে মিশে যাওয়া ভেজা মাটির হিমেল গন্ধ।",
+    "research_question": "ভাটিয়ালি গানের মধ্যে এমন কোনো আভিধানিক শব্দ আছে কিনা যা জলের স্থিতিশীলতা বা প্রবাহকে নির্দিষ্টভাবে বর্ণনা করে, এবং বর্তমানে সেই শব্দটি ব্যবহার করা হচ্ছে কিনা?",
+    "structural_variant": "এই অধ্যায়টিকে কেন্দ্র করে দুটি ছোট উপ-গল্পের মতো বিন্যাস করা: ১. জল কমে যাওয়ার মুহূর্ত; ২. জল বেড়ে ওঠার মুহূর্তে সেই একই দৃশ্যকে অন্য আঙ্গিকে তুলে ধরা।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলির শারীরিক ক্ষয় বা সামাজিক সংঘাতের বিপরীতে, এই পর্বটি সম্পূর্ণভাবে 'অস্থিরতার আবহ' নির্মাণ করে; যেখানে সংঘাত বাহ্যিক নয়, বরং অস্তিত্বগত অনুভূতির স্তরীয় পরিবর্তন নির্দেশ করে।"
   }
 }

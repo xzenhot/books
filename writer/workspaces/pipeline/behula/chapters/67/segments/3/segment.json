@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 67,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অগ্নিকুণ্ডের ক্ষীণ শিখা",
+  "segment_summary": "বহিরাগত সমস্ত প্রতিকূলতা সত্ত্বেও, তার হৃদয়ের গভীরে থাকা বিশ্বাসের শিখাটি নিভে যাওয়ার উপক্রম হলেও, তা ক্ষীণভাবে জ্বলতে থাকে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Juxtaposing her immense spiritual fortitude against trivial domestic failings or mundane societal slights (e.g., a chipped clay pot witnessed during a moment of profound suffering).",
+    "story_option": "Setting: A window frame etched with frost patterns reflecting distant stars (নক্ষত্ররানী's image transposed to cold air); Desire: To map her future resolve onto those delicate, temporary ice lines before they melt away into formlessness.",
+    "subject_rotation": "Interpreting societal pressure less as explicit condemnation and more as environmental entropy slowly eroding boundaries.",
+    "sensory_detail": "A high, thin whine, like overworked metal under strain, emanating from the deepest chambers of her chest (sound)",
+    "research_question": "What specific vocabulary in Bengali exists to describe mental exhaustion that borders on spiritual depletion, distinct from physical fatigue?",
+    "structural_variant": "Fragmented Stream-of-Consciousness structure: Each segment contains short, highly dense bursts of imagery rather than continuous narrative flow.",
+    "variety_note": "While neighbours explored resilience as *alchemy* or *return*, this chapter grounds its struggle in immediate corporeal weight and the fragile tension between near-collapse and stubborn continuation, ending with an unresolved ontological query."
+  }
+}

@@ -1,53 +1,115 @@
 {
   "chapter_index": 25,
   "name": "25",
-  "word_target": 280,
-  "chapter_title": "ক্ষমার আলোয় অন্তরের ভারমুক্তি",
-  "chapter_summary": "শ্বশুরকুল ও সমাজের বিষাক্ত আচরণের প্রতিশোধ নয়; মন থেকে তিক্ততা মুছে ক্ষমাশীল হতে পারাই পথচলার আত্মাকে ভারমুক্ত করে।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "behula — পর্ব 15 — behula",
+  "chapter_summary": "এই শেষ পর্বটি সমস্ত প্রতিকূলতা অতিক্রম করার পর বেহুলার চূড়ান্ত বিজয়কে চিত্রিত করে, যেখানে স্বামীর প্রত্যাবর্তন কেবল ব্যক্তিগত মুক্তি নয়, বরং মানব আত্মার এক মহৎ 승리। এই পরিণতি তাকে এক অবিস্মরণীয় মহীয়সী রূপে প্রতিষ্ঠা করে, যা তার অদম্য সংকল্পের চূড়ান্ত প্রমাণ। এই বিজয় সত্ত্বেও, কাব্যটি প্রশ্ন তোলে যে এই সংগ্রাম কি কেবল ব্যক্তিগত মহিমা অর্জন ছিল, নাকি এটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ।",
+  "further_references": [
+    "Author-specified source text or edition of the Behula narrative"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+      "segment_summary": "সমস্ত বাধা অতিক্রম করার পর, বেহুলার জীবনে স্বামীর প্রত্যাবর্তন ঘটে, যা এক গভীর মানসিক ও আধ্যাত্মিক পুনর্মিলন।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "আত্মার চূড়ান্ত 승리",
+      "segment_summary": "এই প্রত্যাবর্তন কেবল একটি ঘটনা নয়, বরং মানব আত্মার সেই আদিম স্পন্দনের চূড়ান্ত বিজয়, যা চরম প্রতিকূলতার মুখেও টিকে থাকে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+      "segment_summary": "এই বিজয় বেহুলাকে কেবল একজন নারী হিসেবে নয়, বরং এক মহৎ প্রতীক হিসেবে প্রতিষ্ঠা করে, যিনি সকল প্রতিকূলতাকে জয় করতে পারেন।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "অদম্য সংকল্পের প্রমাণ",
+      "segment_summary": "তার জীবনযাত্রা প্রমাণ করে যে ভেতরের আলোকবর্তিকা বাইরের সমস্ত অন্ধকারের চেয়েও শক্তিশালী হতে পারে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+      "segment_summary": "এই মহৎ পরিণতি সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগের সুর বহন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+      "segment_summary": "ব্যক্তিগত ট্র্যাজেডি কীভাবে সমষ্টিগত প্রেরণা হয়ে ওঠে, সেই রূপান্তরের চূড়ান্ত চিত্র এই পর্বে ফুটে ওঠে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "আলো ও অন্ধকারের মিলন",
+      "segment_summary": "অন্ধকারতম মুহূর্তের পর আলোর প্রত্যাবর্তন, যা কেবল ব্যক্তিগত শান্তি নয়, বরং এক বৃহত্তর আশার বার্তা দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অবিস্মরণীয় অধ্যায়",
+      "segment_summary": "বেহুলার এই যাত্রা কেবল ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় অধ্যায় রচনা করে।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing on the internal mechanics of forgiveness: how one dismantles a deep-seated narrative of injury to create space for peace.",
-      "Contrasting the outward, visible manifestation of grace (the 'light of pardon') against the unseen, intricate process of its internalization within the self.",
-      "Framing absolution not as an act granted by others, but as a sovereign decision made over one's own emotional landscape."
+      "আলো-আঁধারির মিলনকে শুধুমাত্র 'শান্তি' নয়, বরং একটি নতুন, উচ্চতর 'জ্যোতির্বিদ্যার স্থিতাবস্থা' হিসেবে বর্ণনা করা—যেখানে সংঘর্ষের পরেও গতিশীলতা বিদ্যমান।",
+      "ছোট্ট বস্তুটি (secondary twist) যেন সমস্ত সংগ্রাম বহন করে চলেছে কিন্তু দৃশ্যমান নয়; যেমন—একটি প্রাচীন মুদ্রার ভাঙা কিনারা যা সমগ্র যাত্রাপথের চিহ্ন ধারণ করছে।",
+      "চূড়ান্ত বিজয়কে কেবল ব্যক্তিগত মুক্তিরূপে নয়, বরং একটি দার্শনিক 'স্বীকারোক্তি' রূপে স্থাপন করা: যে যন্ত্রণা ছাড়া মহত্ত্ব অসম্ভব ছিল।"
     ],
     "story_options": [
-      "Setting: The threshold of her former marital home; Desire: To offer a single gesture of acknowledgment to a hostile figure (perhaps a relative) without any accompanying words—obstacle: the urge to defend or argue against past slights; turn: achieving a sudden, profound stillness that silences the argument.",
-      "Setting: Alone by the riverbank after witnessing public censure; Desire: To actively choose what memory to release from her immediate consciousness into the flow of the water—obstacle: the gravitational pull of righteous anger; turn: feeling the physical lightness where the remembered grievance once settled in the chest.",
-      "Setting: In a moment of profound quiet contemplation while tending to something simple (like a lamp or plant); Desire: To perceive the antagonist's own human vulnerability, rather than their judgmental mask—obstacle: years of perfected bitterness acting as armor; turn: seeing them not as an obstacle to be overcome, but as another suffering soul."
+      "setting: প্রত্যাবর্তনের ঠিক পরের মুহূর্তের নীরব পরিবেশ, desire: লখিন্দরের স্পর্শে বেহুলার দেহের সমস্ত ক্লান্তি যেন একটি ক্ষুদ্র, ধাতব কণা রূপে মুক্তি পায়।, obstacle: সমাজের আরোপিত 'বিধি' যা এই মিলনকে কোনোভাবেই অনুমোদন করে না; এর অস্তিত্ব শুধু বাতাসের কম্পনে অনুভূত হয়।, turn: তারা দুজনেই সেই অদৃশ্য বিধি-প্রবাহের দিকে পিঠ করে দাঁড়ায়, যেন তারা নিজেদের মহাকাব্যিকতার দ্বারা তা অতিক্রম করতে প্রস্তুত।",
+      "setting: যেখানে প্রথমবার স্বামীর অনুপস্থিতি টের পাওয়া গিয়েছিল, সেই শূন্য স্থানের পাশে, desire: পুরনো দিনের কোনো একটি ছোট, তুচ্ছ স্মৃতিকে পুনরায় স্মরণ করা—যেন প্রমাণ করা যায় সংগ্রামটি কেবল বিশালতার ওপর নির্ভরশীল ছিল না।, obstacle: মনে হচ্ছে সেই ক্ষুদ্র স্মৃতিটুকুও যেন সময়ের স্রোতে ক্ষয়প্রাপ্ত হয়ে যাচ্ছে (decaying memory)।, turn: এই ক্ষয়িষ্ণু স্মৃতির ফাটল থেকে অপ্রত্যাশিতভাবে একটি নতুন, দৃঢ় প্রতিশ্রুতি বেরিয়ে আসে।",
+      "setting: এক এমন প্রান্ত যেখানে মহাকাল থেমে যাওয়ার কাছাকাছি এসেছে, desire: বেহুলা নিজের সংগ্রামের উৎসকে (বিশ্বাস/প্রেম) কোনো শব্দ ছাড়াই লখিন্দরের চোখে খুঁজে পাওয়া।, obstacle: এই দৃষ্টি বিনিময়টি এতই গভীর যে তা যেন বাইরের জগতের সঙ্গে সমস্ত যোগাযোগ ছিন্ন করে দেয়—এক প্রকার স্বেচ্ছাকৃত বিচ্ছিন্নতা।, turn: তাদের নিস্তব্ধতার মধ্যে, একটি প্রাচীন বাংলা শব্দ (pure archaic Bengali) উচ্চারিত হয় যা সম্পূর্ণ অর্থবহ কিন্তু কোনো সাধারণ অভিধানে নেই।"
     ],
     "subject_rotations": [
-      "Treating 'ক্ষমা' (forgiveness) itself as a physical substance that must be meticulously shed or dissolved from the body.",
-      "Exploring forgiveness through a performative lens: how does one *act* mercifully when deep within remains wounded?",
-      "Focusing on the difference between forgetting an event and consciously choosing to release its emotional weight."
+      "এই বিজয়কে কেবল 'পাওনা' হিসেবে নয়, বরং 'নিজের শর্তে থাকার অধিকার প্রতিষ্ঠা' রূপে দেখার দিকে মোড়ানো।",
+      "'মহীয়সী হওয়া'র ভারকে চ্যালেঞ্জ করা—প্রকৃত মহত্ত্ব কি স্থিতিশীলতার মধ্যে থাকে নাকি নিরন্তর সংগ্রামের প্রবাহেই?",
+      "প্রেম এবং বিশ্বাসের চূড়ান্ত রূপায়ণকে পার্থিব জৈব সম্পর্কের বাইরে একটি বিশুদ্ধ, বিমূর্ত 'শক্তিমাত্রা বিনিময়' হিসেবে উপস্থাপন করা।"
     ],
     "sensory_details": [
-      "The cool, slick texture of river stone against her palm while making a decision about mercy (touch).",
-      "The almost imperceptible scent of ozone just before a heavy storm breaks over the landscape, symbolizing inner clearing (smell).",
-      "The sound of distant insects—a complex chorus that seems to resolve into a singular, harmonious chord when she stops fighting (sound)."
+      "Touch: ত্বকের উপর দিয়ে প্রবাহিত হওয়া এমন এক ঠান্ডা অনুভূতি যা কোনো বরফের শীতলতা নয়, বরং বহু তীব্র কষ্টের পর আসা অস্তিত্বগত প্রশান্তি।",
+      "Smell: ধূলিকণা ও প্রাচীন পাথরের গন্ধের সাথে মিশে থাকা সদ্য ঘনিয়ে আসা বিদ্যুতের সূক্ষ্ম সুবাস।",
+      "Sound: হৃদস্পন্দন যখন পুনরায় ছন্দ লাভ করে, তখন সেই ধ্বনির মধ্যে একটি অত্যন্ত ক্ষীণ 'কম্পন' শোনা যায় যা কেবল আত্মানুভূতির দ্বারা ধরা দেয়।"
     ],
     "research_questions": [
-      "What specific Bengali poetic motifs or metaphors inherently describe the 'unburdening' from resentment without resorting to abstract virtue signaling?",
-      "Can the concept of internal forgiveness be mapped onto natural processes observed in the water cycle described elsewhere in the book?"
+      "কাব্যিক ভাষায় কীভাবে 'Existential Burden of Iconography' (প্রতীকীবহুল্যের অস্তিত্বগত ভার) প্রকাশ করা যায়, যাতে তা কখনোই মেটা-বাস্তববাদী মনে না হয়?",
+      "অরিলাসের অভ্যন্তরীণ আত্মসংযম এবং জিবরানের চরম স্বাধীনতার ধারণা—এই দুটির মিলনকে কীভাবে এমনভাবে চিত্রিত করা যায় যেন তারা একে অপরের পরিপূরক নয়, বরং একটি টানাপোড়েন তৈরি করে?"
     ],
     "structural_variants": [
-      "A highly fragmented structure where each stanza addresses a different relationship (mother, society, self) and resolves it with a single act of intentional release.",
-      "A liturgical form: building towards the phrase 'মুক্তি' (liberation/release) through iterative, diminishing repetitions."
+      "একটি আংশিক 'এনট্রপিক বিন্যাস': প্রথম কয়েকটি স্তবকের পর ছন্দ হঠাৎ ভেঙে গিয়ে চরম কাঠিন্য লাভ করবে, কেবল অষ্টম স্তবক এসে পুনরায় মহাকাব্যিক প্রবাহে ফিরে আসবে।",
+      "সমাপ্তিটিকে পুরোপুরি উন্মুক্ত না রেখে, এমন একটি প্রশ্নবোধক বাক্য দিয়ে শেষ করা যা পাঠককে 'বিজয়' নামক ধারণাটির প্রতি সংশয় তৈরি করে দেবে।"
     ],
-    "unused_angles": [
-      "How this internal state affects her physical movement—is grace gained when she stops bracing against invisible forces?",
-      "Exploring whether complete forgiveness is possible without a profound sense of loss for what was unjustly denied."
-    ],
-    "variety_note": "While prior chapters dealt with the arduous act of enduring hardship (the weight), this chapter pivots inward to explore the active, transformative work required to shed that historical and emotional load."
+    "variety_note": "এই পর্বটি পার্শ্ববর্তী অধ্যায়গুলোর আবেগঘন বর্ণনা থেকে সরে এসে, বিজয়ের পর সৃষ্ট দার্শনিক স্থিতি এবং সেই স্থিতি যে কতটা ভঙ্গুর হতে পারে—সেদিকে মনোনিবেশ করবে। এখানে কোনো নতুন বাহ্যিক ঘটনার প্রয়োজন নেই; কেবল অন্তঃস্থ পরিবর্তন যথেষ্ট।"
   },
   "draft": {
-    "sha256": "c41cfd973a8b1a9c8f3d47cf44282655ad4b3ad3a7a9b4eb1bc8e88bc505b648",
-    "written_at": "2026-10-21T16:28:15.291046+00:00",
+    "sha256": "5875118c6060159184df5748c5dec4b99287733e7b51bfe4961a0924fdec5354",
+    "written_at": "2026-11-16T04:57:46.806813+00:00",
     "origin": "write"
   }
 }

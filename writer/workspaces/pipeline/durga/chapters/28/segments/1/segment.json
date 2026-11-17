@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 28,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন অসুর",
+  "segment_summary": "প্রতিটি মানুষের জীবনে লুকিয়ে থাকা ক্ষুদ্রতম ভয়, সন্দেহ এবং সামাজিক বাধাগুলিই হলো সেই ব্যক্তিগত মহিষাসুর, যা প্রতিদিনের সংগ্রামে বধ করার প্রয়োজন হয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the personal struggle against existential entropy rather than social/ritual obstacles.",
+    "story_option": "A character silently observes the empty riverbed days after immersion, searching for a single particle of silt that carries the echo of the collective faith (Setting: Riverbank; Desire: To find residual proof of belief; Obstacle: The unstoppable flow of mundane time; Turn: A sudden internal realization of enduring power).",
+    "subject_rotation": "Focusing purely on the psychological toll of cyclical devotion—the exhaustion vs. exhilaration.",
+    "sensory_detail": "Smell: The dry, powdery scent of chalk dust mixed with lingering night-blooming jasmine from hidden courtyards (contrast to earlier wet clay/incense).",
+    "research_question": "How can one poetically distinguish between 'hope' (optimistic future projection) and 'persistence' (impersonal, enduring state)?",
+    "structural_variant": "A structure built around contrasting the minute scale (a single thought/grain of dust) versus the cosmic scale (Mahishasura).",
+    "variety_note": "This chapter intentionally pivots inward, moving away from descriptions of external ritual events toward a sustained meditation on internal psychological endurance, which differs significantly from the sensory immersion of earlier acts (like *ঢাকের বোল* or *সিঁদুর খেলা*)."
+  }
 }

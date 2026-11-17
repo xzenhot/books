@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 57,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "হারানো ঝাঁঝের আকাঙ্ক্ষা",
+  "segment_summary": "কবি সেই তীব্র ঝাঁঝালো স্বাদের জন্য এক অস্থির আকাঙ্ক্ষা অনুভব করেন, যা নতুন পরিবেশে আর ফিরে পাওয়া সম্ভব নয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Dichotomy in heat application: contrasting the fierce, high 'আঁচ' required by mustard seeds against the regulated, low thermal energy of industrial cooking.",
+    "story_option": "Setting: By an open window overlooking distant city lights; Desire: To mix the smell of sterile foreign air with a phantom whiff of earth-oil residue on the fingertips; Obstacle: Overwhelming urban exhaust drowning out the memory's whisper.",
+    "subject_rotation": "The Language of Oil: Treating the specific *hiss* or splatter pattern as a phonetic script that is unreadable in the new environment.",
+    "sensory_detail": "A tactile description of the dough texture: how one type makes it 'sing' with micro-explosions versus the other making it merely 'settle'.",
+    "research_question": "What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?",
+    "structural_variant": "A circular form where Segment 8 echoes a sound or visual cue from Segment 1, but altered by one key descriptor (e.g., replacing 'ঝাঁঝালো' with 'নরম').",
+    "variety_note": "Unlike previous sections that focused heavily on ingredients or journey, this chapter anchors itself purely in *tactile* sensation—the difference between the two oils' physical presence—as a metaphor for internal conflict."
+  }
+}

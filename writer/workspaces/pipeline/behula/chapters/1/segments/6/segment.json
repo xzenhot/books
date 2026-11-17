@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলোর উৎস হারানো",
+  "segment_summary": "The metaphor of the guiding lamp is introduced, now flickering precariously in the face of overwhelming darkness.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the memory imprint: how the objects left behind carry phantom weight and presence.",
+    "story_option": "An imagined dialogue with a shadow cast by Likhindar in the empty drawing-room, where he only echoes unfulfilled promises.",
+    "subject_rotation": "Using the metaphor of a celestial body instantly ceasing its orbit, rather than just its physical death.",
+    "sensory_detail": "A sudden, unexpected draught moving through heavy curtains in the sealed chambers.",
+    "research_question": "How can I concretely translate the philosophical weight of 'void' into physical sensations rooted in the declared world vocabulary?",
+    "structural_variant": "Starting mid-action: Behula attempting a routine task that becomes impossibly heavy.",
+    "variety_note": "This chapter moves away from the philosophical confrontation of neighbours; here, we are in the immediate, visceral impact zone—the collision between established harmony and abrupt severance."
+  }
+}

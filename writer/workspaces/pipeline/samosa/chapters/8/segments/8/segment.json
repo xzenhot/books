@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অনন্ত অপেক্ষার অনুরণন",
+  "segment_summary": "এই চূড়ান্ত অংশে, সেই নিখুঁত, আদিম স্বাদের জন্য এক স্থির কিন্তু তীব্র আকাঙ্ক্ষার অনুরণন রেখে কবিতাটি শেষ হবে, যা কেবল হৃদয়ে বেঁচে থাকে।",
+  "name": "8",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Personifying the 'nose' (নাক) as the reluctant cartographer of lost landscapes; it maps terrain only when stimulated by its native aroma.",
+    "story_option": "The 'I' speaks internally with a ghost scent—a projected memory smell that lasts only a millisecond before being overwritten by the present smog (Setting: Commuter train interior; Desire: To hold onto one perfect second of aroma; Obstacle: The relentless motion and pollution; Turn: Accepting that continuity is broken, moment by fragile moment).",
+    "subject_rotation": "Focusing less on *what* the smell is and more on *how* the mechanism of remembering itself becomes corrupted or warped by distance.",
+    "sensory_detail": "The abrasive grit left on the tongue after attempting to replicate a delicate spice blend with inferior, standardized components; (Tactile/Taste)",
+    "research_question": "How can the cadence and rhythm mimic the physiological action of deep inhalation and subsequent dispersal?",
+    "structural_variant": "A structure based on sensory deconstruction: first analyzing 'what' is smelled, then 'how' the brain processes it, finally what emotion remains.",
+    "variety_note": "Unlike adjacent chapters that focus on the ingredients (oil, potato) or the cultural transition, this chapter isolates the *mechanism* of sensory recall itself—the bridge between chemistry and soul."
+  }
+}

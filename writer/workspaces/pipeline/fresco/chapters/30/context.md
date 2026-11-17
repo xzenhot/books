@@ -1,0 +1,280 @@
+# Chapter model context
+
+## chapter_index
+
+30
+
+## name
+
+30
+
+## word_target
+
+500
+
+## segment_count
+
+8
+
+## chapter_title
+
+The Unseen Scar of Creation
+
+## chapter_summary
+
+This chapter delves into the core philosophy of the artist's sacrifice, contrasting the polished final product with the unseen, arduous labor beneath. It explores how Debolina Rai internalizes the decay of the ancient frescoes, viewing them as a mirror to her own suppressed existence and the societal pressures she resists. The central conflict is the tension between the desire for societal acceptance and the fierce, necessary act of self-exposure through art. The chapter ultimately questions whether the truth of creation resides in its visible form or in the silent, sacrificial process that birthed it.
+
+## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Scaffold's Burden
+
+#### segment_summary
+
+The scaffolding itself becomes a metaphor for the invisible weight of societal expectations that Debolina must bear while striving for artistic freedom.
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+Lapis and the Night's Alchemy
+
+#### segment_summary
+
+The grinding of lapis lazuli under the weak lamplight symbolizes the intense, almost alchemical transformation occurring in the solitude of the night.
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+Musk in the Lime Dust
+
+#### segment_summary
+
+The scent of passing strangers, mingled with the wet lime, represents the fleeting intrusion of the external world into her intensely private creative space.
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+Mirror of the Cracks
+
+#### segment_summary
+
+The fissures and fading colors of the ancient frescoes reflect the internal fractures and resilience within Debolina's own spirit.
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Unframed Heartbeat
+
+#### segment_summary
+
+Her refusal to be neatly framed by domestic expectation is portrayed as a fierce, untamed rhythm beating against the silence of the haveli.
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+Sacrifice Made Visible
+
+#### segment_summary
+
+The act of painting becomes a deliberate choice to externalize her hidden struggles, transforming private pain into public, albeit fragile, expression.
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Cost of Being Seen
+
+#### segment_summary
+
+The chapter examines the inherent danger in exposing one's raw, unpolished self to the judgment of the outside world.
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+The Immortal Scar
+
+#### segment_summary
+
+The final realization is that the true permanence of art lies not in its pristine state, but in the indelible marks—the scars—left by its difficult making.
+
+#### further_references
+
+
+## level
+
+chapter
+
+## state
+
+scaffolded
+
+## creative_enrichment
+
+### angles
+
+- ধ্বনির প্রাধান্য: শব্দ ও ধ্বনিগত টেক্সচারকে অর্থ-আগে স্থাপন করা; তুলির আঁচড়ের ঘর্ষণ, চুন মাখার কর্কশ আওয়াজ এবং ল্যাপিস গুঁড়োর খসখসেতা—এই সংবেদনশীল স্তরগুলো দিয়ে শুরু হওয়া।
+- শব্দ পুনরাবৃত্তি: একটি নির্দিষ্ট কঠোর ব্যঞ্জনধ্বনি (যেমন 'ক', 'ত' বা 'ধ') বারবার ফিরে আসা যা বক্তা থামাতে পারেন না, তা সৃষ্টির অস্থিরতার প্রতিচ্ছবি হিসেবে ব্যবহার করা।
+- প্রক্রিয়াভিত্তিক দৃষ্টি: শিল্পকে কেবল ফিনিশড প্রোডাক্ট হিসেবে না দেখে, এটিকে ক্রমাগত চলমান এক রাসায়নিক/শারীরিক রূপান্তর প্রক্রিয়া হিসেবে দেখানো—ক্ষতগুলো এই প্রক্রিয়ারই অংশ।
+
+### story_options
+
+- দেবলিনা একটি নির্দিষ্ট অংশের ওপর এমনভাবে কাজ করছে যেখানে রঙ দুটি বিপরীতমুখী (যেমন ল্যাপিসের গভীর নীল বনাম চুন-এর তীক্ষ্ণ সাদা); সে এই দুটি রঙের সংঘাতকে নিজের দ্বান্দ্বিক মানসিক অবস্থার প্রতীক হিসেবে ব্যবহার করে, যা প্রতিবেশী অধ্যায়গুলোতে আসেনি।
+- স্ক্যাফোল্ডের কাঠগুলো সময়ের সাথে ভেঙে পড়ার মুহূর্তে; দেবলিনা সেই দুর্বল সংযোগস্থলের দিকে মনোযোগ দেয় এবং তার নিজস্ব ভঙ্গুরতা খুঁজে নেয়, যেখানে কাঠামো নিজেই একটি কবিতা হয়ে ওঠে।
+- এক চরম রাতে, যখন সমস্ত রং শুকিয়ে যায়, দেবলিনা তুলি না তুলে কেবল খালি হাতে দেয়ালে ঘষা লাগায়—এই স্পর্শটি যেন পূর্ববর্তী সকল শ্রমের অপরিবর্তনীয় ছাপকে ধারণ করে।
+
+### subject_rotations
+
+- শিল্পকে 'ক্ষতিগ্রস্ততাকে নিয়ন্ত্রণহীনতার চিহ্ন' হিসেবে দেখা, যা প্রতিবেশী অধ্যায়গুলোতে বিদ্যমান কিন্তু এখানে আরও তীব্র দার্শনিক মাত্রা যোগ করা।
+- দেবলিনার শরীরকে একটি অস্থায়ী শিল্পের মাধ্যম হিসেবে উপস্থাপন করা—যেখানে চুন-ধুলো এবং পিগমেন্টের সংস্পর্শ তাকে সময়ের সাথে ভৌত পরিবর্তন ঘটায়।
+- ফ্রেস্কোর ক্ষয়কে কেবল 'দীর্ঘশ্বাস' হিসেবে না দেখে, এটিকে এমন এক স্থিতিশীল শক্তি রূপে দেখানো যা প্রাচীনতাকে ধরে রেখেছে এবং দেবলিনার নতুন সৃষ্টিকেই ভার দেয়।
+
+### sensory_details
+
+- মাটির মিশ্রণ ও চুন মাখার ঘর্ষণে উৎপন্ন হওয়া শুষ্ক, কর্কশ শব্দ যা রাতের নিস্তব্ধতা ভেদ করে ওঠে।
+- চুন-মাটি ও ল্যাপিসের গুঁড়োর কারণে ঠোঁটে লেগে থাকা কণাযুক্ত স্বাদ—যা তীব্র এবং খনিজীয় ঝাঁঝালো।
+
+### research_questions
+
+- Shekhawati শিল্পকলাতে ইচ্ছাকৃতভাবে 'ত্রুটি' বা 'অসম্পূর্ণতাকে' শৈল্পিক উপাদানে রূপ দেওয়ার কোনো লোকজ উদাহরণ আছে কিনা?
+
+### structural_variants
+
+- এই অধ্যায়টিকে দুটি বিপরীতধর্মী সেগমেন্টে বিভক্ত করা: একটি সম্পূর্ণ প্রক্রিয়াগত (ল্যাপিস মাজা, চুন মাখা) এবং অন্যটি সম্পূর্ণরূপে মনস্তাত্ত্বিক (ফাটলের প্রতিবিম্ব)।
+
+### unused_angles
+
+- দেবলিনার নিজের হাতের তালুকে এমনভাবে চিত্রিত করা যেন তা দেয়ালের ইতিহাসের একটি ক্ষুদ্র প্রতিলিপি বহন করছে।
+
+### variety_note
+
+এই অধ্যায়টির মূল ভিন্নতা হলো 'ক্ষত'কে কেবল মানসিক বা কাঠামোগত ভাঙন হিসেবে না দেখে, তাকে সরাসরি সৃষ্টির অপরিহার্য এবং স্থিতিশীল উপাদান (Immortal Scar) রূপে প্রতিষ্ঠা করার চেষ্টা করা; যা পূর্বের পর্বগুলোর চেয়ে বেশি দার্শনিকভাবে দৃঢ়।

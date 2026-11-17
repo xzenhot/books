@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "অর্থনীতির স্রোত",
+  "segment_summary": "নদীর স্রোতের সঙ্গে মিশে আসা অর্থনৈতিক লেনদেনের চাপ কীভাবে মাঝির ব্যক্তিগত স্বাধীনতাকে গ্রাস করছে, সেই অদৃশ্য টানাপোড়েন এখানে বর্ণিত।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the river not as a fluid entity but as an ancient waterway network whose function is being digitally mapped and overridden by modern infrastructure data.",
+    "story_option": "A slow, ritualistic scene where the majhi uses an ancient knot (a navigational sign) that becomes useless because the river's physical geography has been redrawn.",
+    "subject_rotation": "Treating the bridge/dam not as progress, but as an archaeological blockage—a modern fossil replacing a living habitat.",
+    "sensory_detail": "The way sunlight fractures and dies upon hitting a massive, uniform expanse of grey concrete.",
+    "research_question": "Are there established traditions among older boatmen for visually marking traditional, unmapped river passages that are now obstructed?",
+    "structural_variant": "Structuring it as a 'failed map' sequence—the majhi consulting old charts only to realize they chart nonexistent pathways.",
+    "variety_note": "Unlike the personal trials in neighboring chapters, this focuses externally—the confrontation is not with a person or debt, but with an immovable, impersonal force of state planning and concrete imposition."
+  }
+}

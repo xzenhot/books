@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 35,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের মহিমা",
+  "segment_summary": "এই কাব্যগ্রন্থের মূল ভাবনা—অদম্য সংকল্পের মাধ্যমে কীভাবে ব্যক্তিগত দুঃখ মহাকাব্যিক প্রেরণা রূপে বিকশিত হয়—তা এখানে পূর্ণতা পায়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The reunion framed not as a singular event, but as an ongoing renegotiation of their shared existential burden under societal gaze.",
+    "story_option": "Setting: An echoing chamber where ancestral vows were spoken (lhouho bashorghor analogue); Desire: To articulate the futility of external validation against internal resolve, Obstacle: The spectral murmur of societal judgment still present in the space; Turn: They whisper an oath only to each other, outside the visible world.",
+    "subject_rotation": "Treating the reunion as a necessary myth-making process, wherein they consciously choose which suffering to immortalize and which to let fade into mere exhaustion.",
+    "sensory_detail": "Touch: The specific texture of worn clay from her vigil zone, now feeling strangely weightless against her palm upon his return.",
+    "research_question": "How can 'ontological necessity' (the fundamental need for this survival/reunion) be rendered in diction while maintaining poetic lyricism rather than sounding like philosophical treatise?",
+    "structural_variant": "A circular structure where Segment 8 mirrors a thematic invocation from Segment 1, but with subtly inverted emotional weight.",
+    "variety_note": "This chapter differs from its predecessors by moving decisively into the aftermath, focusing less on 'how' she survived and more on the philosophical texture of having won—a quiet confrontation between achieved peace and enduring systemic critique."
+  }
+}

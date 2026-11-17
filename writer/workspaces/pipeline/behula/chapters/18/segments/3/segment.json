@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "The Weight of Victory",
+  "segment_summary": "Despite the triumph, the memory of the arduous path remains, suggesting that victory is not the end, but a hard-earned plateau.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Witness Perspective: Shifting narration momentarily to an external observer (a silent community member) who catalogues Behula’s transformation before focusing back on her internal state.",
+    "story_option": "Setting: The riverbank, now bathed in silver moonlight (Secondary Twist); Desire: A silent communication across a few feet—a glance that conveys volumes unspoken during the ordeal; Obstacle: The lingering phantom sound of past judgments echoing faintly.",
+    "subject_rotation": "The Ethics of Awe: Questioning whether an overwhelmingly beautiful 'Triumph' absolves the historical/societal harm done to her.",
+    "sensory_detail": "Sight: The specific, deep indigo hue of the sky just before true night falls—a color saturated with un-spent potential.",
+    "research_question": "How can the juxtaposition between hyper-classical Bengali diction (to elevate triumph) and a single common English word (to ground the human element) be integrated without sounding forced?",
+    "structural_variant": "Alternating between micro-moments of intense internal focus (extreme close-up, almost breathless) and wide, sweeping views of the natural world reflecting her state.",
+    "variety_note": "This chapter contrasts with earlier struggles by focusing not on *achieving* the state of peace, but on the *philosophical examination* required once that hard-won state is attained, maintaining critical distance even in victory."
+  }
+}

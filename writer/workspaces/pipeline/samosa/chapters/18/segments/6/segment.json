@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির আর্কাইভ",
+  "segment_summary": "খাদ্য এখানে কেবল পুষ্টির উৎস নয়, বরং একটি জীবন্ত আর্কাইভ, যা প্রবাসীর শিকড়ের গল্প বহন করে চলেছে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A poem structured around escalating rhetorical questions regarding assimilation, leading to profound implication rather than answer.",
+    "story_option": "Setting: Inside a closed spice tin on a dusty shelf; Desire: The memory of opening it and releasing the potent aroma into the humid air, resurrecting the past flavor profile; Obstacle: The metal lid seals not just scent, but also time itself.",
+    "subject_rotation": "Reversing the narrative: beginning with the memory of the taste in its prime, and systematically dismantling it through current sensory degradation.",
+    "sensory_detail": "Sight: The way muted city smog distorts the sharp gold of remembered saffron.",
+    "research_question": "What specific archaic Bengali descriptor perfectly captures the simultaneous existence of yearning and satiation?",
+    "structural_variant": "A cyclical structure mirroring digestion and subsequent craving—starting at consumption and ending back at anticipation.",
+    "variety_note": "This chapter moves beyond mere flavor description; it uses the residual emptiness after consumption—the savory void—as its primary emotional and philosophical texture, differentiating itself from neighbourly explorations of food preparation."
+  }
+}

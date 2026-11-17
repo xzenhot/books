@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "চক্রের প্রতীক্ষা",
+  "segment_summary": "উৎসবের চক্রটি আবার নতুন করে শুরু হওয়ার প্রতীক্ষায় স্থির হয়, যা অনিবার্য প্রত্যাশার জন্ম দেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating the 'act of remembrance' itself—is it memory, or is it a conscious construction necessary to sustain faith against nihilism?",
+    "story_option": "Setting: Inside a solitary domestic ritual space (home shrine) during quiet morning hours; Desire: To hear only the whisper of one specific ancestral prayer that feels like borrowed, enduring power; Obstacle: The mundane sounds of the waking world invading the sanctuary.",
+    "subject_rotation": "Exploring the concept of 'latent energy' not through mythological rebirth, but through biological persistence—the memory imprinted in cell structure or genetic line.",
+    "sensory_detail": "Touch: The brittle yet yielding texture of a long-ago preserved *Shiuli* petal against the palm.",
+    "research_question": "What specific contemporary Bengali metaphor exists to describe an internalized spiritual force that defies conventional theological categorization?",
+    "structural_variant": "A heavily fragmented structure where each line poses a question without an immediate thematic answer, mirroring cognitive dissonance.",
+    "variety_note": "Unlike neighbouring chapters which focus on cyclical action (arrival, peak power), this chapter isolates the residue—the quiet aftermath where physical matter meets metaphysical question."
+  }
+}

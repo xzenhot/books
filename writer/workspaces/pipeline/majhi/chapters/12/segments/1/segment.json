@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 12,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "শৈশবের জলছবি",
+  "segment_summary": "মাঝি তার শৈশবের সেই দিনগুলোর কথা স্মরণ করে যখন নদীর জল ছিল কেবল খেলার সঙ্গী, কোনো গন্তব্য বা ভাড়া ছিল না।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the poem solely on the *palpable weight* of memory—not as a visual scene, but as something heavy in the chest or stomach that prevents smooth rowing.",
+    "story_option": "Setting: A muddy bank where old boats are left derelict. Desire: The majhi tries to physically touch the ghosts of his childhood joy embedded in the silt. Obstacle: The encroaching, orderly modern infrastructure.",
+    "subject_rotation": "Treating 'Memory' as an actual physical ballast that slows the boat down against modern momentum.",
+    "sensory_detail": "The gritty taste of oxidized copper (from old hardware) mixed with morning dew collected on a piece of scrap wood.",
+    "research_question": "What are localized Bengali idioms or metaphoric phrases describing the feeling of 'carrying an intangible burden' that is heavier than physical cargo?",
+    "structural_variant": "An associative structure where memories trigger each other non-linearly, rather than following a strict chronological path.",
+    "variety_note": "This chapter moves inward from external confrontation to deep internal rumination; unlike the immediate conflict in previous chapters, this is less about resistance and more about excavation."
+  }
 }

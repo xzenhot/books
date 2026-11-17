@@ -4,19 +4,19 @@
   "chapter_index": 3,
   "segment_index": 2,
   "total_segments": 8,
-  "segment_title": "হারানো ফসলের বেদনা",
-  "segment_summary": "ভাটিয়ালির বিষণ্ণতা হারানো ফসলের বেদনা আর নীরব মর্যাদার মাধুর্য একসঙ্গে বয়ে নিয়ে যায়; কবিতা এই দ্বৈত আবেগকে সুরের প্রাণ হিসেবে পড়ে।",
+  "segment_title": "নদীর প্রাচীন গর্জন",
+  "segment_summary": "Gopal perceives the river's ancient, rhythmic pulse, a sound rooted in silt and monsoon, which resists the new, sharp intrusion.",
   "name": "2",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "The 'unpayable generosity' being enacted through unsolicited musical performance, making music a form of barter that bypasses currency entirely.",
-    "story_option": "setting: The pre-dawn stillness near an unseen ghat, desire: A young passenger, initially silent and reserved, seeks out the song as communion., obstacle: The physical exhaustion of rowing against a subtly altered current makes sustained singing difficult., turn: The passenger replies not with words, but by mirroring the cadence of a specific line of the Bhatiyali chorus.",
-    "subject_rotation": "Examining the concept of 'intangible value' by focusing on objects related to sound (e.g., a chipped earthenware cup, a particular piece of string) rather than just human interaction.",
-    "sensory_detail": "The specific, jarring high-frequency whine produced by the diesel engine vibrating up through the wooden floorboards into the feet.",
-    "research_question": "How does the cadence of traditional rowing rhythms inherently mimic or contrast with established musical meters?",
-    "structural_variant": "A spiraling form: the focus begins on one clear melodic phrase and recursively explores its echoes across different temporal planes (past to present threat).",
-    "variety_note": "This chapter moves away from broad geological descriptions (Chapter 2) to focus intensely on an ephemeral, non-material force—the sound—and introduces the central conflict through auditory contrast."
+    "angle": "Framing the diesel sound not as an external threat, but as a parasitic vibration that slowly begins to resonate *within* Gopal’s own worn oars.",
+    "story_option": "Gopal attempting to sing a particular Bhatiyali melody, only for its natural rhythm to be subtly warped by the persistent hum from upstream.",
+    "subject_rotation": "Exploring the physics of resonance: how the low, slow frequencies of the river contrast with the high, harsh frequency of the engine.",
+    "sensory_detail": "The visual texture of oil droplets, tiny rainbows on the water surface where silt meets industrial runoff.",
+    "research_question": "Can imagery be developed contrasting the 'rounded edges' of natural flow vs. the 'sharp angles' implied by engineered waterways?",
+    "structural_variant": "Starting with an extreme close-up on a single point of contact between wood and water, then rapidly pulling back to reveal the scale of the intrusion.",
+    "variety_note": "Unlike the first chapter's grounding in physical presence, this poem emphasizes sonic conflict; it is a study of overlapping frequencies rather than static imagery."
   }
 }

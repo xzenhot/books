@@ -2,45 +2,109 @@
   "chapter_index": 3,
   "name": "3",
   "word_target": 500,
-  "chapter_title": "The Shopkeeper's Folded Hands",
-  "chapter_summary": "At the first light of morning a shopkeeper folds his hands before opening his shutter, and the poem lingers on the small prayer that begins the work of the day.",
-  "further_references": [],
+  "segment_count": 8,
+  "chapter_title": "দরজায় সিঁদুরের লাল আভা",
+  "chapter_summary": "এই পর্বটি দরজায় আঁকা সিঁদুরের লাল আভা নামক ক্ষুদ্র চিহ্নটির উপর আলোকপাত করে, যা কেবল একটি ধর্মীয় প্রথা নয়, বরং পারিবারিক স্থিতিশীলতা এবং নারীর অস্তিত্বের এক দৃশ্যমান দলিল হিসেবে উপস্থাপিত হয়। এই দৃশ্যমান রেখাটি সামাজিক কাঠামোর অদৃশ্য বাঁধনকে স্পর্শ করে, যেখানে ব্যক্তিগত পরিসর এবং সামাজিক প্রত্যাশার মধ্যেকার সূক্ষ্ম টানাপোড়েন বিদ্যমান। কবিতাটি প্রশ্ন তোলে যে, এই ক্ষুদ্র, রক্তিম চিহ্নটি কীভাবে একটি বৃহত্তর সামাজিক স্থিতিশীলতার প্রতীক হয়ে ওঠে, এবং এই স্থিতিশীলতা কি কেবলই একটি আরোপিত কাঠামো মাত্র।",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "রক্তিম রেখার সূচনা",
+      "segment_summary": "দরজায় সিঁদুরের প্রথম বিন্দুটি কীভাবে দিনের আলোয় নিজেকে প্রতিষ্ঠা করে, তা নিবিড়ভাবে পর্যবেক্ষণ করা হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "প্রথার অদৃশ্য বাঁধন",
+      "segment_summary": "এই লাল আভাটি কীভাবে পারিবারিক রীতিনীতির একটি নীরব অঙ্গীকার বহন করে, তা চিত্রিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "নারীর অস্তিত্বের দলিল",
+      "segment_summary": "চিহ্নটি নারীর ব্যক্তিগত পরিচয়ের সঙ্গে কীভাবে জড়িয়ে থাকে, যা সামাজিক স্বীকৃতির একটি দৃশ্যমান প্রমাণ।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "সীমানা ও প্রবেশদ্বার",
+      "segment_summary": "দরজাটি কেবল একটি প্রবেশপথ নয়, বরং সামাজিক এবং ব্যক্তিগত সীমানার একটি প্রতীক হিসেবে উপস্থাপিত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "স্থায়িত্বের আকাঙ্ক্ষা",
+      "segment_summary": "এই ক্ষুদ্র চিহ্নটির মাধ্যমে পারিবারিক স্থিতিশীলতার যে আকাঙ্ক্ষা প্রকাশিত হয়, তার গভীরতা অনুসন্ধান করা হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অদৃশ্য কাঠামোর স্পর্শ",
+      "segment_summary": "এই প্রথাগত চিহ্নটি কীভাবে বৃহত্তর সামাজিক কাঠামোর একটি সূক্ষ্মতম অংশ হয়ে ওঠে, তা বিশ্লেষণ করা হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "রঙের ভাষা",
+      "segment_summary": "লাল রঙের এই ব্যবহারিকতা এবং প্রতীকী অর্থের মধ্যেকার দ্বৈততা তুলে ধরা হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "প্রশ্ন: অর্থ কি কেবলই আভা?",
+      "segment_summary": "কবিতাটি শেষ করে প্রশ্ন তোলে যে, এই ক্ষুদ্র, দৃশ্যমান আভাটি কি কোনো গভীর, স্থায়ী অর্থ বহন করে, নাকি এটি কেবলই সময়ের ক্ষণস্থায়ী ছাপ।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Framing the folding not as an act of prayer before labor, but as a necessary ritual to temporarily *suspend* the transactional nature of commerce.",
-      "The hands in repose: treating them as resting mechanisms—a temporary pause in effort, like tools set down for breath rather than formalized devotion.",
-      "Shifting the focus entirely from the internal spiritual meaning to the external mechanics: the specific alignment and tension required in the fingers just before motion."
+      "সিঁদুরের আভা যখন পুরোনো কাঠ বা মাটির ওপর পড়ে, তার ফাটলগুলোকে যেন সময়ের ক্ষয়চিহ্ন হিসেবে দেখানো।",
+      "এই রেখাটিকে কেবল নারীর চিহ্ন না রেখে, গৃহস্থালির ‘অদৃশ্য চুক্তি’র প্রতীক হিসাবে দেখা যা প্রজন্মের পর প্রজন্ম ধরে চলন্ত।",
+      "লাল রঙের তাপমাত্রার অনুভূতি—যেন আভাটি স্পর্শ করলে ত্বকে এক ধরনের উষ্ণ অথচ ভঙ্গুর বিদ্যুৎ অনুভূত হয়।"
     ],
     "story_options": [
-      "Setting: The cool shadow beneath the shop awning at 5 AM; Desire: To observe the first flicker of anticipation for the day's trade; Obstacle: A persistent, low domestic sound (like a cowbell or distant chopping) interrupting the silence and forcing a shift in focus.",
-      "Setting: Inside the dimly lit doorway just before the shutter opens; Desire: To decipher the precise geometry of the gesture—what specific shape does 'reverence' take here?; Obstacle: The appearance of an unexpected, early visitor who demands immediate, non-ritual interaction.",
-      "Setting: Moments after the hands unfold and reach for the cash register or ledger; Desire: To capture the residual energy or tension left in the palms before they engage with objects of labor; Obstacle: The first harsh rays of direct sunlight striking the dust motes suspended over the folded arms."
+      "এক সন্ধ্যায়, বাইরে ঝিরঝিরে বৃষ্টি পড়ছে; ভেজা সিঁদুরের রেখা মুহূর্তের জন্য আরও গভীর লাল হয়ে ওঠে, এবং সেই রঙ দ্রুত জলস্রোতে মিশে অদৃশ্য হয়ে যায়।",
+      "বৃদ্ধ কোনো এক নারীর হাতের আঙ্গুল ধীরে ধীরে সেই রঙের রেখার কিনারা ছুঁয়ে যাচ্ছে—যেন সে স্পর্শ করছে প্রথা ও বর্তমানের সংযোগস্থলকে।",
+      "একটি শিশুকে দেখা যায় দরজার কাছে দাঁড়িয়ে, সে সিঁদুরের লাল বিন্দুটি পর্যবেক্ষণ করছে; তার চোখে এই চিহ্নটির গভীরতা বোঝার ব্যর্থ চেষ্টা ফুটে উঠছে।"
     ],
     "subject_rotations": [
-      "A study of material contrast: how the wrinkled skin, worn by handling goods or money, contrasts against the neat fold demanded by ritual.",
-      "The passage of time on the hands themselves: looking for signs of years spent in that posture—calluses forming, lines deepening into narrative maps.",
-      "Treating the 'prayer' not as seeking external blessing, but as an act of internal inventory—a silent tally of what has been lost or gained since yesterday."
+      "চিহ্নটিকে একটি ম্যাপ হিসেবে ব্যবহার করা—যেখানে প্রতিটি সূক্ষ্ম দাগ পারিবারিক ইতিহাসের কোনো এক গুরুত্বপূর্ণ মোড় নির্দেশ করে।",
+      "প্রথাকে জোর না দিয়ে, এটিকে 'স্বেচ্ছামূলক অঙ্গীকার' হিসাবে দেখা, যেখানে লাল রংটি ইচ্ছার তীব্রতা বোঝায়, বাধ্যতামূলক নয় এমন কিছু।"
     ],
     "sensory_details": [
-      "The dry, papery scent of age clinging to the fabric or wood immediately surrounding the closed shop shutter (smell).",
-      "The cool slickness of the morning dew evaporating from the stone sill onto the upturned skin of the wrists (touch).",
-      "A muted, deep ochre hue catching the very first sliver of light grazing the knuckles before it hits the palms (sight)."
+      "সিঁদুরের গুঁড়োর শুকনো, মেজাজপূর্ণ গন্ধ যা বাতাসের সঙ্গে মিশে যায়।",
+      "প্রদীপের মোমবাতির আলোয় সিঁদুরের লালটি যেভাবে তীব্রভাবে প্রতিফলিত হয়ে ঘরজুড়ে ছড়িয়ে পড়ে (visceral light reflection)।"
     ],
     "research_questions": [
-      "How does the specific architectural placement of this shop (ground floor vs. elevated) alter the symbolic weight of the pre-opening gesture?",
-      "Are there regional variations in the 'folded hands' posture used for commencement—is it strictly *namaste* or a more localized, utilitarian fold?",
-      "What common materials are typically used to brace or rest upon such an early morning stall?"
+      "লোককথায় 'সিঁদুর' বা এই ধরনের চিহ্নগুলো কীভাবে সামাজিক অবস্থান বা পারিবারিক শক্তির ইঙ্গিত দেয়, তা কি লেখকের বিশ্বলোকে ব্যবহারের উপযোগী?"
     ],
     "structural_variants": [
-      "Opening with the finality of yesterday’s closing gesture (hands folded in exhaustion), and having them begin again in morning ritual.",
-      "A structure that mimics a slow zoom: starting extreme close-up on one joint, gradually widening to encompass the entire shopfront before finally expanding outward to the street.",
-      "Employing an internal monologue that addresses the *object* of commerce (the ledger/goods) as if it were also engaged in silent anticipation."
+      "Structure based on repetition of the colour red: from its powder state to its wet spread, to its fading echo.",
+      "A deliberately slow pace where each segment focuses on one specific component (e.g., the grain of the wood under the mark, the texture of the barrier)."
     ],
-    "variety_note": "This poem moves away from the immediate physical object (tea, vermilion) by focusing on human posture and pre-action ritual, examining how labor is mediated by momentary grace before business begins."
+    "unused_angles": [
+      "আলোর অনুপস্থিতিতে সিঁদুরের রেখাটি কেমনভাবে নিজস্ব আলো ধারণ করে—যেন এটি এক স্ব-আলোকিত সত্য।"
+    ],
+    "variety_note": "Neighbouring chapters focus on transient physical sensations (sweat, wind, sound); this piece grounds the observation in a fixed, culturally resonant object that embodies silent continuity."
   }
 }

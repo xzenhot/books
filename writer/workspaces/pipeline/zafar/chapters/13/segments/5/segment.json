@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "প্রান্তিকতার চিত্র",
+  "segment_summary": "রেঙ্গুনের প্রান্তিক পরিবেশে এই চূড়ান্ত অপমান কীভাবে এক গভীর দার্শনিক বিষাদে পরিণত হয়, তা কাব্যিকভাবে ফুটিয়ে তোলা হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Juxtaposing the 'Khutba' (sermon/proclamation) tradition against a silent grave; what does an unspoken decree mean in this context?",
+    "story_option": "Setting: A makeshift wooden platform awaiting his final rites in Rangoon; Desire: To dictate one last line—a couplet that simultaneously claims empire and accepts oblivion; Obstacle: The exhausted messenger who only carries official notices.",
+    "subject_rotation": "Analyzing the silence *after* his passing—how does this void echo louder than any battle cry?",
+    "sensory_detail": "The grit of fine river silt (poli) contrasting with the coarse, chipped surface of prison-issued stone.",
+    "research_question": "What specific Mughal terminology related to funerary rites (e.g., burial plot designation) might have been deliberately overridden by colonial mandates?",
+    "structural_variant": "A non-linear structure where moments of absence (the lack of soil, the missing archive entry) flash back and forward across his final moments.",
+    "variety_note": "This chapter pivots away from active resistance (like Chapter 9's writing) to a meditation on absolute erasure—the philosophical space between being alive and simply not existing as a recognised entity."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "এই চূড়ান্ত সাফল্য সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগের সুর বজায় রাখে, যা সহজে মুছে যায় না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the returned husband not as a savior, but as an accidental mirror reflecting her own hard-won metamorphic state.",
+    "story_option": "Setting: Beneath the same sliver of sky that bore witness to her darkest solitary hour; Desire: A silent acknowledgment between them, free from dialectic or explanation; Obstacle: The need for public validation of their bond.",
+    "subject_rotation": "Examining the nature of their love as something fundamentally *transgressive* to the era's established social norms.",
+    "sensory_detail": "The brittle sound of old silk shifting as she moves after long periods of physical restraint; (Auditory)",
+    "research_question": "What archaic Bengali phrasing could capture the concept of self-reconstruction following profound societal pressure, without sounding overly academic?",
+    "structural_variant": "A highly cyclical structure where each segment attempts to resolve the previous one's tension before creating a new, albeit quieter, tension.",
+    "variety_note": "This chapter shifts the thematic energy from active endurance against chaos (previous chapters) to the complex, loaded silence and integration following ultimate perceived success."
+  }
+}

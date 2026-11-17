@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 56,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ ও আত্মার সংযোগ",
+  "segment_summary": "এই তেলের পরিবর্তন কেবল জিভের নয়, এটি মস্তিষ্কের গভীরে প্রোথিত ঘ্রাণ-স্মৃতির নিউরাল সংযোগকে চ্যালেঞ্জ করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A purely tactile focus on the dough (খোলস): comparing how mustard oil makes it crackle with explosive promise versus neutral oil making it sound dull and compliant.",
+    "story_option": "Setting: While sorting through old photographs showing family cooking rituals; Desire: To recreate one specific, ancient batch using a remembered *mitti* pot; Obstacle: The modern kitchen apparatus rendering the act impossible.",
+    "subject_rotation": "A deep dive into the concept of 'inherent aroma': debating whether flavor resides chemically (the fat) or metaphysically (the memory).",
+    "sensory_detail": "Touch: The gritty film left by saturated residue versus the slick, almost water-like coating that slides easily off the fingertips.",
+    "research_question": "What are the precise molecular differences in volatile organic compounds between mustard oil and common industrial frying oils?",
+    "structural_variant": "A 'Call and Response' structure: Speaker speaks of the old scent, then an imagined answer (from the absent voice) denies it.",
+    "variety_note": "This chapter intensely hones in on a single sensory trigger (aroma/oil) and contrasts it across two distinct material realities, moving deeper into the physical basis of cultural dislocation than previous chapters focused on name or market scenes."
+  }
+}

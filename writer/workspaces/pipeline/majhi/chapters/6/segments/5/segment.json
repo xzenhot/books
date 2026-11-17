@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "কাঠের নৌকার প্রতিরোধ",
+  "segment_summary": "মাঝির ছোট কাঠের নৌকাটি এই বিশাল, অনমনীয় কাঠামোর সামনে কীভাবে তার নমনীয়তা দিয়ে প্রতিরোধ গড়ে তুলছে, তা প্রতীকীভাবে দেখানো হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Juxtaposing the mathematical certainty of the planned engineering schematics against the chaotic, organic measurements of tidal drift and seasonal current.",
+    "story_option": "The majhi attempts to navigate a micro-channel or slipstream created between two new concrete pylons; Desire: To maintain established passage; Obstacle: The flow is too unpredictable and restricted by human placement.",
+    "subject_rotation": "Focusing on the auditory displacement: how manufactured noise (engines, pile-drivers) permanently overwrites the sonic identity of the river.",
+    "sensory_detail": "The sharp metallic tang in the air near heavy construction machinery, contrasting with the earthy smell of exposed river mud.",
+    "research_question": "What specific Bengali terms describe the local hydrological impact of early dam constructions on deltaic water movement?",
+    "structural_variant": "Alternating between expansive, slow descriptions of the engineered landscape and sharp, kinetic bursts describing the oar cutting through residual freedom.",
+    "variety_note": "Unlike the personal trials in neighboring chapters, this focuses externally—the confrontation is not with a person or debt, but with an immovable, impersonal force of state planning and concrete imposition."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 36,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "হৃদয়ের ভাজা স্মৃতি",
+  "segment_summary": "এই কাব্য প্রমাণ করে যে, কিছু স্মৃতি কেবল জিভে নয়, বরং হৃদয়ের গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক দূরত্ব অতিক্রম করতে পারে না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final taste not as 'bitter' but as having a specific, almost clinical neutrality upon cessation of flavor contact.",
+    "story_option": "Setting: Inside a closed, unused spice tin on a high shelf; Desire: For this vessel to contain the ghost-essence of the first batch made in the ancestral kitchen; Obstacle: The seal protecting it against temporal diffusion.",
+    "subject_rotation": "A sustained monologue questioning whether 'taste' is a biological imperative or purely a cultural construct imposed by geography.",
+    "sensory_detail": "The sudden auditory vacuum when the chewing stops, leaving only the distant hum of unfamiliar machinery.",
+    "research_question": "How can the pacing transition from acute, momentary focus (the bite) to vast, slow-moving contemplation (the aftertaste)?",
+    "structural_variant": "A strict 'call and response' model, where the narrator addresses 'Samosa' in one voice and his own internal memory in the next.",
+    "variety_note": "Unlike previous chapters focused on tangible elements (oil, texture), this chapter must dive into the intangible consequences of consumption—the philosophical fallout left behind in the mind after the physical object is gone."
+  }
+}

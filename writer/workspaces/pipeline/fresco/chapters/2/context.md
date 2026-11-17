@@ -12,15 +12,222 @@
 
 500
 
+## segment_count
+
+8
+
 ## chapter_title
 
-The Sleeping Town
+fresco — পর্ব 2
 
 ## chapter_summary
 
-She climbs to the scaffold after the lamps go dark and hears the ordinary world withdraw. The silence becomes both shelter and isolation.
+দেবলিনা রাই তার কর্মক্ষেত্র হিসেবে Mandawa-র একটি পরিত্যক্ত হাভেলিকে গ্রহণ করে, যেখানে সে প্রাচীন দেওয়ালের রুক্ষতা এবং চুন মাখার শীতল স্পর্শের সঙ্গে নিজেকে মেলায়। এই পর্বটি স্থান এবং শিল্পের মধ্যেকার প্রথম সংবেদনশীল সংযোগ স্থাপন করে, যেখানে দেবলিনা বাইরের জগতের কোলাহল থেকে বিচ্ছিন্ন হয়ে শিল্পের আদিম প্রক্রিয়ার গভীরে প্রবেশ করে। সে প্রাচীন চিত্রের ম্লান রংগুলোর মধ্যে নিজের অস্তিত্বের প্রতিচ্ছবি খোঁজে, যা তাকে প্রশ্ন করতে বাধ্য করে: এই প্রাচীন দেওয়ালগুলো কি কেবলই কাঠামো, নাকি অতীতের চাপা কণ্ঠস্বর?
 
 ## further_references
+
+- research.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+হাভেলির নীরব আলিঙ্গন
+
+#### segment_summary
+
+দেবলিনা পরিত্যক্ত হাভেলিটির অভ্যন্তরে প্রবেশ করে, যেখানে সময়ের ধুলো আর স্থবিরতা এক ভারী আবহ তৈরি করেছে।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+চুন ও স্পর্শের ভাষা
+
+#### segment_summary
+
+সে চুন মাখার শীতল, রাসায়নিক স্পর্শ অনুভব করে, যা তার ত্বকে এক নতুন ধরনের সংবেদনশীলতা জাগায়।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+প্রাচীন চিত্রের ম্লান প্রতিধ্বনি
+
+#### segment_summary
+
+দেওয়ালের ওপর থাকা বিবর্ণ ফ্রেস্কোগুলো অতীতের গল্প ফিসফিস করে, যা দেবলিনার মনকে স্পর্শ করে।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+কাঠামোর ভার ও আত্ম-অনুসন্ধান
+
+#### segment_summary
+
+স্ক্যাফোল্ডের কাঠামোর ওপর দাঁড়িয়ে সে নিজের ভঙ্গুরতা এবং শিল্পের বিশালতাকে একইসাথে অনুভব করে।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+স্থান ও আত্মার মিলন
+
+#### segment_summary
+
+এই ভাঙা স্থাপত্যের মধ্যে দেবলিনা নিজের বিচ্ছিন্নতাকে খুঁজে পায়, যা তাকে সৃষ্টির জন্য প্রস্তুত করে তোলে।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্তিত্বের প্রথম সংলাপ
+
+#### segment_summary
+
+দেওয়ালগুলো যেন তাকে প্রশ্ন করে—এই নীরবতা কি কেবলই শূন্যতা, নাকি এক গভীর কথোপকথনের সূচনা?
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+ক্ষয় ও স্থিতিস্থাপকতা
+
+#### segment_summary
+
+ফ্রেস্কোর ক্ষয়িষ্ণুতা দেবলিনার ভেতরের ভাঙন ও তার প্রতি তা সত্ত্বেও টিকে থাকার ইচ্ছার প্রতীক হয়ে ওঠে।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+অতীতের কণ্ঠস্বর
+
+#### segment_summary
+
+দেবলিনা নিজেকে প্রশ্ন করে—এই প্রাচীন দেওয়ালগুলো কি কেবলই কাঠামো, নাকি অতীতের চাপা কণ্ঠস্বর যা তাকে পথ দেখাচ্ছে?
+
+#### further_references
 
 
 ## level
@@ -29,122 +236,50 @@ chapter
 
 ## state
 
-enriched
-
-## enrich
-
-### active_filters
-
-- research
-- genre
-- history
-- spatality
-- movement
-- correctness
-- quality
-
-### status
-
-enriched
-
-## genre
-
-nocturne
-
-## spatality
-
-### place
-
-a scaffold against a haveli wall, above a sleeping lane
-
-### season
-
-dry season, the hour after the lamps go out
-
-### route
-
-ground to the third rung and no higher
-
-### texture
-
-cold bamboo, settling dust, one lamp left burning two houses away
-
-## stereotype
-
-### signature
-
-dickinson
-
-### style
-
-pijush
+scaffolded
 
 ## creative_enrichment
 
-### poetic_parameters
+### angles
 
-#### emotional_rawness
+- একটি নির্দিষ্ট রাসায়নিক গন্ধ (চুন বা ল্যাপিস) কে কেন্দ্রীয় প্রতীকে রূপান্তর করা; সে কীভাবে এই গন্ধটিকে নিজের ব্যক্তিগত 'স্বাক্ষর' হিসেবে গ্রহণ করে।
+- হাভেলিটির কাঠামোগত দুর্বলতাকে মানব মনের নৈতিক অস্থিরতার প্রতিচ্ছবি হিসেবে দেখানো—দেওয়াল যেমন ভেঙে যাচ্ছে, তেমনি আত্মবিশ্বাসও খসে পড়ছে।
+- প্রাচীন চিত্রগুলোর মধ্য দিয়ে উঁকি মারা অতীতের কোনো একক মুহূর্তের বর্ণনা দেওয়া (যেমন একটি নির্দিষ্ট পোশাক বা অঙ্গভঙ্গি) এবং সেটিকে বর্তমান কাজের সাথে সংযোগ করা
 
-4
+### story_options
 
-#### grammatical_abstraction
+- একটি দৃশ্যে, দেবলিনা চুন মাখার সময় তার হাতের শিরাগুলিতে রক্তের রঙের মতো লালচে আভা অনুভব করে; ইচ্ছা: নিজেকে সম্পূর্ণভাবে 'দেওয়ালের অংশ' করে নেওয়া; বাধা: নিজের ইচ্ছার এই রক্তিম রঙ সামাজিক প্রত্যাশার সাদাকালো চিত্রের সাথে সাংঘর্ষিক হওয়া; মোড়: সে সেই মিশ্রণকে শিল্পে অন্তর্ভুক্ত করার ঝুঁকিপূর্ণ সিদ্ধান্ত নেয়।
+- একটি দৃশ্যে, পরিত্যক্ত হাভেলিটির একটি নির্দিষ্ট কোণে জমা হওয়া স্যাঁতসেঁতে মাটির গন্ধের বিপরীতে ল্যাপিস-এর শুষ্ক, রাসায়নিক তীব্রতা অনুভব করা; ইচ্ছা: এই বিপরীত ঘ্রাণগুলোর মধ্যে ভারসাম্য খুঁজে পাওয়া; বাধা: এক ধরনের অলীক নস্টালজিয়া তাকে কাজ থামিয়ে দিতে চায়; মোড়: সে সেই দ্বন্দ্বকে একটি অনুভূমিক রেখা দিয়ে ফ্রেস্কোর গভীরে গাঁথে।
+- একটি দৃশ্যে, দেবলিনা স্ক্যাফোল্ডে দাঁড়িয়ে নিচের জমিতে থাকা প্রাচীন সিন্দুকের দিকে তাকায়; ইচ্ছা: অতীতের গোপন ধন/গল্প পুনরুদ্ধার করা; বাধা: সিন্দুকটি কেবল ধুলো আর মাকড়সার জালে ঢাকা; মোড়: সে বুঝতে পারে আসল সম্পদ নিহিত আছে এই অব্যবস্থাপনা এবং ধ্বংসের মধ্যেই।
 
-5
+### subject_rotations
 
-#### structural_rigidity
+- স্থানকে শুধু পটভূমি না রেখে, এটিকে এক সক্রিয় অংশ (An active agent) হিসেবে দেখানো যা দেবলিনাকে চ্যালেঞ্জ করে।
+- শিল্পীর শারীরিক সংবেদনশীলতাকে (ত্বক, শ্বাস-প্রশ্বাস, ঘ্রাণ) দার্শনিক উপলব্ধির চেয়ে বেশি প্রাধান্য দেওয়া।
+- ক্ষয় বা পতনকে শিল্প সৃষ্টির পূর্বশর্ত হিসেবে প্রতিষ্ঠা করা—সম্পূর্ণতা নয়, বরং শুরুতেই ফাটল থাকা জরুরি।
 
-4
+### sensory_details
 
-#### rhythmic_urgency
+- চুন মাখার সময় হাত থেকে উপচে পড়া চুনের শুভ্র ধুলো যখন সন্ধ্যার আবছা আলোতে ভাসছে (দৃশ্য)।
+- মৃত কাঠ ও ভেজা சுண்ணாবের মিশ্রণ থেকে ওঠা এক কটু-মিষ্টি, ছত্রাকযুক্ত ঘ্রাণ (ঘ্রাণ)।
+- প্রাচীন দেওয়ালের পাথরের ভাঁজে জমে থাকা শীতল, স্থবির আর্দ্রতা যা ত্বকের উষ্ণতাকে গ্রাস করে (স্পर्श)।
 
-4
+### research_questions
 
-#### digital_simplicity
+- Mandawa ও Nawalgarh এর নির্দিষ্ট হাভেলি স্থাপত্যে ব্যবহৃত চুন মিশ্রণের রাসায়নিক প্রকৃতির সূক্ষ্ম বিবরণ কি জানা যায়?
+- ফ্রেস্কো টেকনিকে ব্যবহৃত ঐতিহাসিক রঙের স্থায়িত্ব এবং ক্ষয়ের গতিপথ কেমন হতে পারে যা এই পরিবেশের সাথে মেলে?
+- এই অঞ্চলে ব্যবহৃত প্রাচীন ঘরোয়া ভেষজ বা উপাদানগুলির গন্ধ সম্পর্কিত কোনো লোক-সাহিত্যিক জ্ঞান আছে কিনা?
 
-6
+### structural_variants
 
-#### movement
+- একটি একক, দীর্ঘ 'শ্বাস' হিসেবে কবিতাটি রচনা করা; যেখানে বর্ণনা ধীরগতিতে শুরু হয়ে হঠাৎ তীব্র গতির এক ফোঁটা রঙের ছিটকে শেষ হয়।
+- আখ্যানের পরিবর্তে দুটি বিপরীতধর্মী উপাদান (যেমন: শীতল চুন বনাম উষ্ণ স্মৃতি) এর মধ্যে আদান-প্রদানের মাধ্যমে গঠন তৈরি করা—যেন দুটো স্রোত একই পৃষ্ঠে প্রবাহিত হচ্ছে।
 
-Language Poetry — word structure over clear meaning, used here to make silence audible.
+### unused_angles
 
-#### writing_skills
+- দেবলিনার শরীরের নির্দিষ্ট কোনো অঙ্গভঙ্গি বা দুর্বলতাকে, যা সে গোপন রাখতে চায়, তাকে প্রাথমিক চিত্রের কেন্দ্রবিন্দু বানানো (শারীরিক Vulnerability)।
+- হাভেলির অন্ধকার কোণগুলোতে লুকিয়ে থাকা কীটপতঙ্গ বা ক্ষুদ্র প্রাণীদের অস্তিত্বের মাধ্যমে জীবনের ধারাবাহিকতাকে তুলে ধরা।
 
-- compressed elliptical syntax
-- abrupt line breaks where the breath refuses to finish
-- a single repeated noun standing in for the whole street
+### variety_note
 
-#### image_seed
-
-the last lamp going out in a lane where no one has closed a shutter
-
-#### volta
-
-from relief at being unheard to the admission that no one is listening
-
-#### sonic_texture
-
-short flat vowels and the click of the final t in shut, night, quiet
-
-#### line_gesture
-
-short broken lines; the breath lands every third or fourth word and withholds
-
-#### variety_note
-
-Chapter one watched the wall in daylight; this poem is the first to stand above the ground and feel the town subtract itself.
-
-#### metaphor_family
-
-extinguished light, closed shutters, and the arithmetic of subtraction
-
-#### address
-
-the sleeping town, named but never woken
-
-#### closing_move
-
-one word repeated as a line, refusing to become a conclusion
-
-## segments
-
-- 1
+পূর্ববর্তী অধ্যায়টি 'সিদ্ধান্ত গ্রহণ' নিয়ে ছিল; এই অংশটি সরাসরি সেই সিদ্ধান্তের 'প্রস্তুতি পর্ব' — অর্থাৎ, পরিবেশ এবং উপকরণগুলির সঙ্গে প্রথম সংবেদনশীল বোঝাপড়া তৈরির ওপর জোর দিচ্ছে।

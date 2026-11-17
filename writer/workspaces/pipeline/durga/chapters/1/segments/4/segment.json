@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আত্মিক জাগরণের সূচনা",
+  "segment_summary": "এটি কেবল পূজা নয়, বরং মানুষের ভেতরের সুপ্ত সত্তার এক গভীর আত্মিক জাগরণের সূচনা।",
+  "name": "4",
+  "word_target": 64,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the internal sound of the *ḍhāk* (ঢাক), portraying it as a heartbeat or subterranean tremor rather than just music.",
+    "story_option": "A character lingering near the riverbank at dawn, feeling a deep, unarticulated longing that momentarily drowns out the sound of the *ḍhāk*, only to be pulled back by its cadence.",
+    "subject_rotation": "Shifting focus entirely from 'arrival' (Agaman) to 'threshold'—the liminal space between the old season/old faith and the new divine presence.",
+    "sensory_detail": "The visceral sensation of low, rhythmic vibrations passing up through stone paving from a distant *pandal*.",
+    "research_question": "How is the transition from silence to 'ḍhāk' resonance described in traditional folk verses related to Durga Puja?",
+    "structural_variant": "An extended opening monologue focusing on the internal, non-ritualistic feeling evoked by the *śiuli* scent.",
+    "variety_note": "This chapter emphasizes the sonic and olfactory prelude to Durga's presence, focusing on internal tension against external proclamation, unlike subsequent chapters which detail craftsmanship or ritual."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 34,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অমীমাংসিত জিজ্ঞাসা",
+  "segment_summary": "পাঠককে কোনো চূড়ান্ত উত্তর না দিয়ে, এই অধ্যায়টি স্বাদ এবং অস্তিত্বের মধ্যকার চিরন্তন, মধুর বিষাদের প্রশ্নটি খোলা রেখে যায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the silence after consumption as a physical substance that can be meticulously swept away (or not).",
+    "story_option": "Setting: A vast, sparsely populated highway shoulder at twilight; Desire: To find a single speck of earth that smells exactly like Bengali monsoon mud; Obstacle: The relentless rush of traffic blurring the landscape.",
+    "subject_rotation": "Shifting focus from 'missing food' to 'impossible memory preservation': how does one archive an ephemeral sensation?",
+    "sensory_detail": "Sound: The dry, papery rustle of packaging waste being crumpled into an unbroken sphere, mimicking contained regret.",
+    "research_question": "What specific archaic Bengali word conveys a sense of 'incomplete satisfaction' while maintaining a high poetic register?",
+    "structural_variant": "An intensely cyclical structure where each segment title is a thematic loop returning to the concept of 'residue.'",
+    "variety_note": "Unlike its neighbours which focus on the preparation (beginning) or geographical separation, this chapter concentrates solely on the *aftermath* and the philosophical implication of that residue."
+  }
+}

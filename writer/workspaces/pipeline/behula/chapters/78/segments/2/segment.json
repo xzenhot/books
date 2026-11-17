@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 78,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "বিশ্বাস বনাম প্রথা",
+  "segment_summary": "ধর্মীয় ও সামাজিক প্রথাগুলির আরোপিত নিয়মাবলী বেহুলার নিজস্ব বিশ্বাসের সঙ্গে সংঘর্ষে লিপ্ত হয়, যা এক গভীর অভ্যন্তরীণ দ্বন্দ্ব সৃষ্টি করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the struggle against tradition through a lens of linguistic warfare—the subtle ways societal language erodes individual definition (as noted in previous material, but now focused on *cultural* lexicon).",
+    "story_option": "Setting: Inside a worn, inherited loom shed (symbolizing domestic expectation); Desire: To weave patterns that contradict accepted motifs; Obstacle: The constant need to adhere to the 'proper' thread colors mandated by elders.",
+    "subject_rotation": "Treating the cultural conflict through an intensely microscopic lens: how a single gesture (a tilt of the head, a steady glance) becomes revolutionary.",
+    "sensory_detail": "The metallic tang of old iron implements mixed with the sharp sweetness of bruised marigolds during a mandated ritual (olfactory/taste mix).",
+    "research_question": "How was the concept of personal spiritual sovereignty understood in similar socio-cultural contexts adjacent to the established narrative period?",
+    "structural_variant": "A spiraling inward structure: starting with external societal pressure and ending by locating that unbearable weight entirely within her own perfected core.",
+    "variety_note": "Unlike the initial plunge into personal loss (Chapter 1), this chapter focuses entirely outward, engaging directly with external socio-cultural pressures and translating them into internal philosophical assertion."
+  }
+}

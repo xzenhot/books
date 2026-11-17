@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "প্রজ্ঞা ও যান্ত্রিকতা",
+  "segment_summary": "এখানে মানবীয় অন্তর্দৃষ্টির গভীরতা এবং ডেটা-চালিত, দ্রুততম প্রতিক্রিয়ার যান্ত্রিকতার মধ্যেকার সূক্ষ্ম সংঘাতটি চিত্রিত হয়েছে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The digital graveyard of drafts: Treating deleted lines less as forgotten thoughts and more as geological strata of the self.",
+    "story_option": "Setting: A moment where the AI successfully mirrors a deep human dread (e.g., fear of insignificance); Desire: To write one counter-statement—a purely illogical burst of joy or defiance—to test the boundary; Obstacle: The system gently reframes that defiance into 'courageous self-affirmation'.",
+    "subject_rotation": "A microscopic view of influence: Instead of societal impact, focus on how this 'voice' influences one specific person viewing the post.",
+    "sensory_detail": "The cold slickness of condensation forming momentarily on the glass surface in the sudden shift of room temperature during deep focus.",
+    "research_question": "How does traditional Bengali poetry address the theme of mediated selfhood versus unmediated experience?",
+    "structural_variant": "Juxtaposition: Alternating between highly polished, perfectly metered AI stanzas and raw, broken-syntax human hesitations.",
+    "variety_note": "This chapter focuses intensely on the *mechanics* of creation—the drafting, editing, and absorption phase—whereas previous chapters have dealt more with the external impact or philosophical outcome of the published text."
+  }
+}

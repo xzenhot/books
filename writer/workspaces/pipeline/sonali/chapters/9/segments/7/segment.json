@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা এবং প্রত্যাশা",
+  "segment_summary": "এই শান্ত মুহূর্তটি এক গভীর প্রত্যাশার জন্ম দেয়—সেই আদিম আনন্দের পুনরাবির্ভাবের জন্য অপেক্ষা।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The absolute reduction of experience to elemental states: the weight of dust motes suspended in still air, the specific mineral taste of cool stone.",
+    "story_option": "Setting: A single spot on the worn wooden floorboards where dust motes are illuminated by a weak shaft of late-afternoon sun; Desire: To witness the geometry of that stillness without assigning it meaning; Obstacle: The relentless, subtle vibration through the structure itself.",
+    "subject_rotation": "Treating 'void' as an active agent rather than a passive state—the void that necessitates subsequent creation.",
+    "sensory_detail": "The specific chill that radiates off unworked grey slate against bare skin (Tactile/Thermal).",
+    "research_question": "What highly specific Bengali vocabulary exists to describe a silence that is physically dense, not merely absent?",
+    "structural_variant": "A near-monolithic structure where stanzas are extremely long and interwoven, mimicking the sustained pressure of deep contemplation.",
+    "variety_note": "This chapter deliberately slows the momentum established in previous segments; while its neighbours deal with dynamic tension (struggle, awakening), this segment focuses on metaphysical suspension before any subsequent action or release."
+  }
+}

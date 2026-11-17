@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন প্রত্যাবর্তন",
+  "segment_summary": "চূড়ান্ত প্রশ্নটি উত্থাপিত হয়: এই বার্ষিক শক্তির প্রত্যাবর্তন কি কেবল একটি সামাজিক রীতিনীতি, নাকি এটি মানব চেতনার পুনর্জন্মের অনিবার্য ঘোষণা?",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting spiritual residue as a physical, almost chemical quality within the body that persists after ritual cleansing (a visceral echo).",
+    "story_option": "Setting: Beside an old, forgotten clay pot left outside after immersion; Desire: To feel its latent warmth—the ghost energy of the ritual clinging to inert matter; Obstacle: The cold dampness of the early morning air.",
+    "subject_rotation": "Shifting focus from the cosmic scale (Mahishasur) to the highly personalized, micro-political skirmishes of a family unit.",
+    "sensory_detail": "The taste of oxidized iron mixed with lingering camphor fumes on the palate (taste)",
+    "research_question": "How can 'continuity' be poetically expressed using words distinct from traditional cyclical terms?",
+    "structural_variant": "Structuring segments based on increasing duration—starting with fleeting moments and concluding with a timeless state of being.",
+    "variety_note": "Unlike previous sections which emphasized external spectacle or ritual action, this chapter is deliberately inward-facing, prioritizing quiet attrition and the persistence of psychic energy over dramatic event."
+  }
+}

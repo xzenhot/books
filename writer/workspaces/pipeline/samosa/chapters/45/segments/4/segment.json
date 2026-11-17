@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক ও মানবিক বিভাজন",
+  "segment_summary": "এই অধ্যায়টি স্বাদকে একটি বৈজ্ঞানিক ধারণা (রাসায়নিক যৌগ) এবং একটি গভীর মানবিক অভিজ্ঞতা (স্মৃতি) এর মধ্যেকার দার্শনিক দ্বন্দ্বের মুখোমুখি দাঁড় করায়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the physics of *absence*—the measurable void left by a consumed object, treated almost like an energetic residue.",
+    "story_option": "A scene where 'I' attempts to recreate the flavor using only scent memories (e.g., rubbing hands on a cloth smelling faintly of old cooking oil) in a sterile, modern space.",
+    "subject_rotation": "Shifting from the internal void to a metaphysical exploration of how cultural memory is physically stored in the mouth/saliva.",
+    "sensory_detail": "The dull, pervasive metallic tang that replaces the sharp bite of *sorsher tel* (mustard oil).",
+    "research_question": "How can I structure the rhythm to mimic the pause between the last chew and the ensuing existential realization?",
+    "structural_variant": "A circular structure beginning and ending on the sensation described in Segment 1, but with drastically altered semantic weight.",
+    "variety_note": "This chapter deepens the philosophical tension begun earlier by focusing entirely on the state *after* consumption—the residue, the void, and the internal debate about taste's nature."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বনাম আত্মিক",
+  "segment_summary": "এই কাব্যটি স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে না দেখে, তাকে মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ হিসেবে প্রতিষ্ঠা করার চেষ্টা করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting focus from flavor loss to textural memory: Can the specific *resistance* of the wrapper recall the origin more than the taste?",
+    "story_option": "Setting: In the quiet moments before dawn, looking at the city lights through the window; Desire: To identify a single pattern in the distant glow that mirrors the original marketplace chaos; Obstacle: The overwhelming uniformity of modern urban grids.",
+    "subject_rotation": "A purely internal, claustrophobic meditation on the smallness of the individual taste experience versus the vastness of geographical displacement.",
+    "sensory_detail": "Sight: The particular hue of diffused sodium-vapor street lighting reflecting off residual oil on the palate.",
+    "research_question": "What ancient Bengali culinary practice, referenced in our sources, might have an exact counterpart in contemporary non-Bengali cuisine that shares a conceptual *spirit* even if not the ingredient base?",
+    "structural_variant": "A structure based entirely on contrasting pairs (e.g., Foreign-Old, Soft-Hard, Synthetic-Authentic) for each segment.",
+    "variety_note": "Unlike the earlier chapters focused on concrete events (journey, name change), this chapter delves entirely into phenomenology—the state of being suspended between what was and what is, using taste as the philosophical anchor."
+  }
+}

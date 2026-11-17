@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন লড়াই",
+  "segment_summary": "প্রতিদ্বন্দ্বিতার আবহে নিজের অবস্থান ধরে রাখার জন্য বেহুলার দৈনন্দিন সংগ্রাম এক নিরন্তর মানসিক দ্বৈরথ।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A sudden narrative shift where the domestic routine becomes violently contrasted by an imagined glimpse of her divine supplicants observing her struggle from afar.",
+    "story_option": "Setting: Watching the slow erosion of a garden wall (representing societal decay); Desire: To prove that personal commitment transcends physical ruin; Obstacle: The relentless encroachment of weeds representing doubt; Turn: She uses this metaphor to define her own resilience.",
+    "subject_rotation": "Focusing on the physical toll (fatigue, cold) as a theological test imposed by an unseen cosmic judge.",
+    "sensory_detail": "The pervasive chill emanating from the stone floor during lonely hours (thermal/tactile).",
+    "research_question": "What established Bengali literary terminology can capture the concept of 'sustained fortitude that resists entropy' without using overly common spiritual metaphors?",
+    "structural_variant": "Employing an alternating stanza structure: one stanzas focusing strictly on external societal pressure, the next focusing entirely on internal physiological sensation.",
+    "variety_note": "This chapter diverges from later, more triumphant segments by dwelling exclusively in the grinding exhaustion of the middle phase—the protracted war of attrition rather than the initial shock or final victory."
+  }
+}

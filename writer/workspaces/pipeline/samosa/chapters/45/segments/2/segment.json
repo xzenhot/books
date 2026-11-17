@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অনন্ত অপেক্ষার প্রতিচ্ছবি",
+  "segment_summary": "এই শূন্যতাটি এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতীক হয়ে ওঠে—সেই নিখুঁত সিঙ্গাড়াটির জন্য অপেক্ষা, যা কেবল স্মৃতির আবছা আলোয় বিদ্যমান।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating language itself: treating 'taste' not as a flavor, but as a failed linguistic translation from one cultural code to another.",
+    "story_option": "The moment just after swallowing: describing the physical sensation in the throat/esophagus as if absorbing not food, but displaced geography.",
+    "subject_rotation": "Treating the 'unfulfilled' nature not as melancholy, but as perpetual *potential*—the possibility always waiting for its correct catalyst.",
+    "sensory_detail": "The feeling of fine, dry powder adhering to the inner palate—the particulate residue of memory.",
+    "research_question": "How can I structure the rhythm to mimic the pause between the last chew and the ensuing existential realization?",
+    "structural_variant": "A circular structure beginning and ending on the sensation described in Segment 1, but with drastically altered semantic weight.",
+    "variety_note": "This chapter deepens the philosophical tension begun earlier by focusing entirely on the state *after* consumption—the residue, the void, and the internal debate about taste's nature."
+  }
+}

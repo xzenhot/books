@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 37,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা অংশ",
+  "segment_summary": "এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা খাদ্যের মাধ্যমে সঞ্চারিত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the residual oil not as a coating, but as petrified time—a physical fossil layer documenting the journey from Bengal to exile.",
+    "story_option": "Setting: A cold patch of pavement outside an unassuming market stall, Desire: To isolate the single micro-particle of original ghee flavor clinging to a discarded wrapper., Obstacle: The overwhelming, neutral scent pollution of the modern street.",
+    "subject_rotation": "Focusing solely on negative space: detailing what is *missing* in the mouth after consumption rather than what remains.",
+    "sensory_detail": "The gritty feel of fine, dehydrated flour dust settling on the tongue like spent geography.",
+    "research_question": "How can the required 10-word line structure be used rhythmically to mimic flavor saturation followed by rapid dissipation?",
+    "structural_variant": "Structuring the 8 segments not linearly, but as an echo chamber where Segment 1’s image is revisited in Segment 5 with altered diction.",
+    "variety_note": "Unlike previous chapters which focused on the material transfer or geographical shift, this chapter zeroes in entirely on the internal, post-ingestion phenomenology—the residue within consciousness itself."
+  }
+}

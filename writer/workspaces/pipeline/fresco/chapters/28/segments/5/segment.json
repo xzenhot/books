@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "The Mirror of Faded Gods",
+  "segment_summary": "The decaying frescoes serve as a distorted reflection of the artist's own unexpressed pain, hidden behind the painted smiles of ancient figures.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "সামাজিক প্রত্যাশার কণ্ঠস্বরকে কোনো নির্দিষ্ট নারী চরিত্রের অনুপস্থিতি (অর্থাৎ শূন্যতা) দ্বারা প্রতিস্থাপন করা, যার কেবল অস্তিত্বই চাপ সৃষ্টি করে।",
+    "story_option": "দৃশ্য ২: যখন তুলি অত্যন্ত দ্রুতগতিতে চলে (প্রবাহ), তখন হঠাৎ থেমে যাওয়া এবং সেই গতিপথ ধরে রাসায়নিক বা রঙের মিশ্রণের পরিবর্তন প্রত্যক্ষ করা, যা তার দ্বিধার প্রতীক।",
+    "subject_rotation": "আলো-অন্ধকার নয়; বরং ফাটলগুলোর ভেতরের অন্ধকার (গভীরতা) এবং পৃষ্ঠের উজ্জ্বল রঙ—এই দুই বিপরীত তলের মিথস্ক্রিয়া বর্ণনা করা।",
+    "sensory_detail": "চুন-মাটির ভেজা শীতলতার বিপরীতে ল্যাপিসের গুঁড়োর তীব্র জ্বালাপোড়া কণাযুক্ত স্বাদ যা ঠোঁটে লেগে থাকে।",
+    "research_question": "দেওয়াল বা ফাটল থেকে উদ্ভূত কোনো দৃশ্যমান 'স্থির শক্তি' কীভাবে কাব্যিক ভাষা দ্বারা বর্ণনা করা যেতে পারে যা কেবল ক্ষয় নয়, বরং স্থিতিশীলতা বোঝায়?",
+    "structural_variant": "Poetic progression from extreme macro view (the entire compromised haveli wall) down to a microscopic focus on the adhesion points of pigment, then expanding outward again toward her own gaze.",
+    "variety_note": "Neighbours often focused on external stimuli (Musk or Sky); this chapter roots itself deeply within the material failure of the work and the internal pressure applied to those failures."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ঢাকের শেষ অনুরণন",
+  "segment_summary": "বিসর্জনের এই গম্ভীর মুহূর্তে ঢাকের বোলা যেন শেষবারের মতো এক দীর্ঘশ্বাস ফেলে, যা উৎসবের উন্মাদনা থেকে বিষাদের দিকে মোড় নেয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A highly interiorized perspective, focusing on one single small, symbolic object (e.g., a specific red thread or dried flower petal) that survives the immersion while everything else dissolves.",
+    "story_option": "Setting: Inside the empty plinth structure after immersion; Desire: To feel the residual vibration of the divine energy still resonating in the inert earth and wood, a silent echo., Obstacle: The encroaching physical reality of dust, decay, and cleanup beginning immediately.",
+    "subject_rotation": "Analyzing the transition moment through a deeply personal female gaze concerned with cyclical domesticity vs. cosmic cycle (the eternal return mirrored in motherhood).",
+    "sensory_detail": "The faint metallic scent rising from disturbed silt and mud mixed with cooling temple water.",
+    "research_question": "What specific traditional Bengali term describes the exact moment ritual energy transitions from communal performance to private absorption during Visarjan?",
+    "structural_variant": "A non-linear structure: rapidly cycling between macrocosmic view (the full body sinking) and microcosmic focus (a single droplet of water).",
+    "variety_note": "This chapter differs by adopting a posture of profound resignation; unlike the preceding segments which deal with action (creation/celebration), this is entirely about *unmaking* and quiet reception."
+  }
+}

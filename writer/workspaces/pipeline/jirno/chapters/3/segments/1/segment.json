@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 3,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "নীরবতার ভাষা",
+  "segment_summary": "পথিক যখন সাঁওতাল প্রবীণদের কাছে ভিটের লোকগাথা জানতে চায়, তখন সে কেবল এক গভীর, শান্ত অনীহা খুঁজে পায়, যা কোনো ব্যাখ্যা দাবি করে না।",
+  "name": "3.1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The perspective of the earth itself observing the traveler's judgment.",
+    "story_option": "Setting: The boundary line between the crumbling manor and the village edge; Desire: To find one tangible artifact that proves the tragic narrative; Obstacle: The silence of the elders who refuses to categorize or name anything; Turn: The traveler is forced to participate in a simple act of daily subsistence, like collecting firewood.",
+    "subject_rotation": "Treating the manor's decay not as cultural loss but as a necessary return to mineral composition.",
+    "sensory_detail": "Smell of damp, sun-baked earth mixed with ash and distant woodsmoke (unrelated to puja).",
+    "research_question": "What are observable patterns of demarcation or territorial marking used by the Satual community around historical ruins?",
+    "structural_variant": "An entirely cyclical structure where every segment echoes back to the core unanswered question from Segment 1.",
+    "variety_note": "This chapter shifts away from pure anthropological observation towards a confrontation with geological and biological time, contrasting heavily with the immediate political focus of neighbours."
+  }
+}

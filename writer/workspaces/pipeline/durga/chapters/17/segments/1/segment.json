@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 17,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "জলাধারের শীতল স্পর্শ",
+  "segment_summary": "বিসর্জনের পর জলাধারের শীতলতা এবং মাটির বিলীন হওয়ার দৃশ্য উৎসবের উচ্ছ্বাসকে গ্রাস করে নেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the post-festival quiet not as absence, but as a highly pressurized state—a silence so dense it feels physically audible.",
+    "story_option": "Setting: A deserted embankment by the water edge at twilight; Desire: To catalogue every particle of clay swallowed by the current; Obstacle: The encroaching shadows that obliterate detail.",
+    "subject_rotation": "Shifting focus entirely from physical absence (the idol gone) to spiritual latency—the state of 'being perpetually ready' for return.",
+    "sensory_detail": "The slick, cold sensation of river silt coating bare skin after contact with immersion water (touch).",
+    "research_question": "What specific Bengali lexicon denotes a quiet, persistent spiritual yearning without using words related to 'worship' or 'belief'?",
+    "structural_variant": "A completely broken syntax where the line breaks are entirely unpredictable, mimicking the dissolution of form.",
+    "variety_note": "This chapter deliberately pivots from external spectacle (neighbors 9, 10) and peak action (neighbor 5/8) into a terrain of quiet residue, where absence becomes the primary subject matter; it leans heavily on introspection mandated by Segment 6."
+  }
 }

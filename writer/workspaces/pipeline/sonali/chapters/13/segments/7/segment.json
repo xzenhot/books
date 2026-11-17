@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ভঙ্গুরতার দার্শনিক মূল্য",
+  "segment_summary": "এই অধ্যায়টি দার্শনিক প্রশ্ন তোলে যে, যদি সবকিছুই ক্ষণস্থায়ী হয়, তবে সেই ক্ষণস্থায়ী মুহূর্তগুলোর তীব্রতাই কি জীবনের একমাত্র অর্থ বহন করে?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing the unanswerable nature of transcendent joy by directing lines toward a specific, silent observer—perhaps an elderly Bengali craftsperson whose hands have made beautiful things that inevitably wear down.",
+    "story_option": "Setting: The cool, polished brass surface of an old, unused ritual lamp; Desire: To gaze into its reflection while it remains unlit, seeking the image of eternal potential rather than transient fire.",
+    "subject_rotation": "Shifting focus from 'ephemerality' (transience) to 'crystallization': how the intense moment leaves behind a durable *shape* in consciousness, even if the substance is gone.",
+    "sensory_detail": "The precise, momentary scent of dry dust disturbed from an old wooden surface just as a wave of intense emotion passes (Olfactory).",
+    "research_question": "What specific Bengali idiom or metaphor describes the perfect bittersweet quality achieved when profound beauty is inherently temporary?",
+    "structural_variant": "A highly fragmented structure mirroring memory lapse: sudden shifts between intensely detailed sensory recall and broad philosophical statements.",
+    "variety_note": "Unlike the preceding chapters which explored ascent and immersion, this chapter focuses on descent—the beautiful, unavoidable collapse back into the mundane reality by interrogating the nature of time itself through fleeting moments."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "Beyond Personal Glory",
+  "segment_summary": "Behula's triumph transcends the personal narrative, solidifying her status as a universal emblem of feminine endurance against oppressive structures.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The 'Question' as a physical object: Portraying the enduring doubt/question as an inert, heavy stone that Behula must carry, rather than merely ponder.",
+    "story_option": "Behula's moment of peace being interrupted by the immediate return of a mundane sound, forcing an instant collapse back into heightened awareness/anxiety.",
+    "subject_rotation": "Framing resilience not as overcoming external force, but as perfecting an internal state—a hyper-focused stillness (স্থিরতা).",
+    "sensory_detail": "The vibration felt in the jawbone from holding back an utterance that contradicts her achieved state.",
+    "research_question": "What archaic Bengali vocabulary exists for a 'final, perfectly exhausted equilibrium' that transcends mere peaceful resolution?",
+    "structural_variant": "Employing an increasing syncopation in rhythm throughout Segment 2, mirroring the internal fraying before settling into a perfectly monotonic beat for Segment 8.",
+    "variety_note": "This chapter departs from simple celebration by forcing the resolution to be interrogated; unlike previous chapters which built towards fortitude, here we dissect its aftermath."
+  }
+}

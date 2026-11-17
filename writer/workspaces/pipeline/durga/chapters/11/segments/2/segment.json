@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "মাটির আত্মার দ্বিধা",
+  "segment_summary": "মাটির এই রূপ, যা এতক্ষণ শক্তি ধারণ করেছিল, এখন তার ভঙ্গুরতা ও ক্ষণস্থায়ীতার ভার অনুভব করছে।",
+  "name": "2",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the scent of shiwuli/syindur as a form of ephemeral memory storage—a chemical anchor binding transient joy to enduring grief.",
+    "story_option": "Setting: The specific point on the pandal structure where the light fixtures are beginning to fail or dim visibly; Desire: To capture that exact fraction of seconds when artificial glory yields to organic darkness; Obstacle: The rush of human activity pushing towards departure.",
+    "subject_rotation": "Interpreting the physical weight of the idol/clay not as the material burden, but as the symbolic weight of societal expectation and communal performance.",
+    "sensory_detail": "The cool, slick texture of damp earth on bare feet just before wading into the immersion water.",
+    "research_question": "Are there documented or symbolic uses in Bengali cultural lore where the transitional period between intense celebration and profound grief holds unique spiritual weight?",
+    "structural_variant": "Using a heavily fragmented structure where each segment is defined by one dominant sensory decay (light fades -> sound softens -> warmth retreats).",
+    "variety_note": "Unlike previous chapters that focused on creation (craft/sound) or intensity (climax), this section centers entirely on decay, anticipation of loss, and the melancholic beauty inherent in transition."
+  }
+}

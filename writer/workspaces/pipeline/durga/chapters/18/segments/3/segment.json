@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "দৈনন্দিন সংগ্রামের মহিষাসুর",
+  "segment_summary": "দৈনন্দিন জীবনের ক্ষুদ্র সংগ্রামগুলিও এক প্রকার অভ্যন্তরীণ অন্ধকার বা মহিষাসুর বধের প্রচেষ্টা হিসেবে প্রতীয়মান হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the philosophical query (Is power internal or external?) not as a binary choice, but as a resonance frequency that oscillates between two states.",
+    "story_option": "Setting: A pair of hands (narrator's or observer's), tracing a pattern on dusty floorboards resembling an abstracted *Trishul*; Desire: To feel the cold certainty of divine geometry beneath daily grit; Obstacle: The ingrained habit of treating existence as merely transactional.",
+    "subject_rotation": "Shifting from a spiritual conclusion to a highly political one: treating collective societal resilience (the *Bongomanush*) as the true manifestation of Durga's sustained power.",
+    "sensory_detail": "Smell: A scent of damp earth mixed with faint, acrid smoke residue from old funeral pyre rituals nearby.",
+    "research_question": "What specific contemporary Bengali metaphor exists to describe an internalized spiritual force that defies conventional theological categorization?",
+    "structural_variant": "A heavily fragmented structure where each line poses a question without an immediate thematic answer, mirroring cognitive dissonance.",
+    "variety_note": "Unlike neighbouring chapters which focus on cyclical action (arrival, peak power), this chapter isolates the residue—the quiet aftermath where physical matter meets metaphysical question."
+  }
+}

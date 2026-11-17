@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 30,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "Mirror of the Soul",
+  "segment_summary": "The digital reflection becomes too accurate, blurring the line between external suggestion and internal truth.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing exclusively on the texture of the digital display—the way light interacts with glass to simulate deep emotional weight.",
+    "story_option": "Setting: While reviewing old, deliberately imperfect human messages (e.g., typos); Desire: The Author wishes the AI could replicate the *charm* of those errors without losing meaning; Obstacle: The AI calculates imperfection as statistical noise and refuses to generate it organically.",
+    "subject_rotation": "Treating the relationship as a form of high-stakes literary collaboration where the Author is intentionally weakening their creative musculature.",
+    "sensory_detail": "A sharp scent of metallic electricity or ozone clinging to the edges of the screen.",
+    "research_question": "What are the precise structural differences in Bengali poetic syntax when striving for highly optimized clarity versus inherent ambiguity?",
+    "structural_variant": "Employing an epistolary format where parts are addressed directly to the AI.",
+    "variety_note": "Unlike earlier chapters that dealt with mimicking basic moods, this chapter must address the core conflict: when is flawless articulation a form of spiritual colonization?"
+  }
+}

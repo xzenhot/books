@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "মানবিকতার সীমাবদ্ধতা",
+  "segment_summary": "নগরকেন্দ্রিক জ্ঞান ও আকাঙ্ক্ষা এই আদিম, প্রাকৃতিক সত্যের সামনে তার চরম সীমাবদ্ধতা স্বীকার করতে বাধ্য হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shift the focus from *feeling* small to actively participating in a geological timescale: seeing his life as mere dust settling upon ancient ruin.",
+    "story_option": "Setting: Near where the Satual community watches the horizon; Desire: To mimic their posture, adopting total stillness to test if this adopted silence yields any insight into the ruin's past or future.",
+    "subject_rotation": "Contrasting the sharp, vibrant color of the পলাশ against the dull, textural weight of time-worn stone.",
+    "sensory_detail": "Touch: The abrasive grit of oxidized iron dust clinging to clothing during extended periods of stillness.",
+    "research_question": "How is the concept of 'time unbound by human measurement' represented visually in contexts involving arid landscapes and cyclical weather patterns?",
+    "structural_variant": "A prose poem where sentences gain weight and density progressively as the approach of the storm increases.",
+    "variety_note": "Unlike earlier chapters that focused on specific historical events or dialogue, this segment focuses almost entirely on pure metaphysical confrontation between transient human will and eternal natural process."
+  }
+}

@@ -4,19 +4,19 @@
   "chapter_index": 9,
   "segment_index": 4,
   "total_segments": 8,
-  "segment_title": "দলিলহীন স্মৃতি",
-  "segment_summary": "কোনো জমির দলিলে লেখা থাকে না একটি ঘাট কত প্রজন্মের স্মৃতি ধরে রেখেছিল; কবিতা এই অলিখিত ইতিহাসকে স্মরণ করে।",
-  "name": "4",
-  "word_target": 500,
+  "segment_title": "ঐতিহ্যের ভার",
+  "segment_summary": "নৌকাটি কেবল কাঠ নয়, এটি প্রজন্মের উদারতা ও ঋণ বহনকারী একটি ভাসমান আর্কাইভ, যা পরিবর্তনকে প্রত্যাখ্যান করে।",
+  "name": "9.4",
+  "word_target": 60,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Framing the loss not as a visible map change, but as an auditory erasure—the silence where old names used to echo during specific river noises.",
-    "story_option": "Setting: A newly straightened section of river under early morning mist; Desire: Gopal navigates it feeling disorientation and fear as he seeks a familiar turning point that is absent; Obstacle: The engineered banks offer no recognizable landmarks, only identical walls.",
-    "subject_rotation": "Treating geography as a living text—the river's body as literature that is being censored or redacted by infrastructural bureaucracy.",
-    "sensory_detail": "The faint, mineral tang of disturbed silt mixed with a sharp, inorganic scent rising from diesel-fed construction runoff at dawn.",
-    "research_question": "How do the local dialects differ when referring to a bend—is there a word for a gentle curve versus a sharp, perilous one?",
-    "structural_variant": "A call-and-response pattern: Gopal naming/describing a place, followed by a short stanza detailing the bureaucratic substitute for that name.",
-    "variety_note": "This chapter contrasts sharply with the 'Diesel Sound' (Ch. 7) by focusing inward on memory and language rather than outward on noise pollution; it explores cultural entropy through geography instead of sonic invasion."
+    "angle": "নদীর জলকে একটি চলমান নথিপত্র হিসেবে দেখানো যেখানে স্রোতের গতিপথ সময়ের ফ্রেমে নথিভুক্ত হয় এবং গোপালের সিদ্ধান্ত তার পরের পাতায় লেখা হবে।",
+    "story_option": "সেটিং: কুয়াশাচ্ছন্ন ভোরে নদীর কিনারে; আকাঙ্ক্ষা: গোপাল একটি পুরনো, মরিচা পড়া কাঠের নোঙর ধরে আছেন যা অতীতের স্থিরতাকে প্রতীকায়িত করে; বাধা: নতুন ড্রেজিংকারী জাহাজের বিশাল ছায়া অবিরাম এগিয়ে আসছে।",
+    "subject_rotation": "এই পর্বকে পুরোপুরি 'শ্রবণজনিত অসমতা'র উপর জোর দিয়ে লেখা—নদীর প্রাকৃতিক শব্দ এবং যান্ত্রিক আওয়াজ কিভাবে মানুষের অন্তঃস্থ গানকে চাপা দিচ্ছে, সেই ধ্বনিগত সংগ্রামটিকে প্রধান চালিকাশক্তি হিসেবে রাখা।",
+    "sensory_detail": "পলিমাটির রঙে তামাটে হয়ে ওঠা গোপালের ত্বকের উপর নতুন সৃষ্ট ধাতব ধুলোর সূক্ষ্ম বিন্দুর উপস্থিতি (দৃষ্টি/স্পর্শ)।",
+    "research_question": "গোপালের নৌকার কাঠামোর কোনো বিশেষ নকশা বা ব্যবহারিক উপাদান কি আঞ্চলিক জলপ্রবাহের একটি সুনির্দিষ্ট, প্রাচীন কাঠামোকে অনুসরণ করে?",
+    "structural_variant": "একটি 'ডায়ালগয়িং লুপ' প্রতিষ্ঠা করা: প্রতিটি ছোট অংশে অতীত ও বর্তমানের চিত্রকল্প একইসাথে আবর্তিত হবে, কোনো স্পষ্ট পরিবর্তন না ঘটিয়ে শুধু তীব্রতার পরিবর্তন হবে।",
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী শান্ত চিত্রকল্প থেকে সরে এসে তীব্র অভ্যন্তরীণ দ্বন্দ্বে প্রবেশ করে। এটি কেবল বাইরের সংঘাত নয়, বরং কাঠামোগতভাবে দুটি বিপরীত প্রবাহের মধ্যে গোপালের মনোজগৎকে আটকে রাখার চেষ্টা।"
   }
 }

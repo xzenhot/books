@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 6,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নীরব প্রত্যাখ্যানের ভাষা",
+  "segment_summary": "এই নীরব প্রত্যাখ্যানটি কোনো ক্রোধ নয়, বরং এক গভীর স্বীকৃতি—যে কিছু জিনিসকে তাদের নিজস্ব পথে চলতে দেওয়া উচিত।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the resistance not on structural collapse, but on the slow sedimentation of personal memory within the dust.",
+    "story_option": "Setting: A low, shadowed niche in a ruined wall; Desire: To identify the specific texture of the clay used in an ancient repair that resists contemporary attempts to ‘restore’ it; Obstacle: The overwhelming weight of undisturbed earth covering its surface.",
+    "subject_rotation": "Treating the manor not as an artifact of royalty but as a massive archive of forgotten domestic rituals.",
+    "sensory_detail": "The specific granular chill radiating up from the dry, pulverized clay when touched after long exposure to sun and shadow.",
+    "research_question": "What specific local soil composition allows for this pronounced 'elasticity' or resistance against rapid structural change in these red earth regions?",
+    "structural_variant": "A highly segmented structure where each segment focuses solely on a single point of contact between the traveler's hand/eye and the material itself.",
+    "variety_note": "This chapter shifts focus inward from the initial clash (Chapter 1) to a close-up examination of *how* the confrontation fails, moving beyond mere resistance toward existential recognition."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 59,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "বন্ধন ও বিচ্ছিন্নতা",
+  "segment_summary": "It questions whether the domestic warmth, symbolized by the tiffin or the lamp, can truly bridge the gaps between individuals.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The entire chapter framed as a monologue delivered at a transition point (e.g., dusk), where the narrator addresses an implied 'past self' who sought grander answers.",
+    "story_option": "Setting: A dimly lit corridor of a transit station late at night; Desire: To measure the exact cadence of footsteps that never quite connect; Obstacle: The structural echo confusing sound with substance; Turn: Recognizing the echo as the only honest record of passage.",
+    "subject_rotation": "Treating 'Time' itself as one of these small objects: a warped metal hinge on a door, whose resistance dictates the passage.",
+    "sensory_detail": "The sound frequency produced by textile fibers rubbing against dry earth during a brief breeze.",
+    "research_question": "What specific, evocative Bengali vocabulary exists for describing beauty that is simultaneously fragile and structurally necessary?",
+    "structural_variant": "Use of highly specific Hindi/Urdu vocabulary for emotional nuance ('ishq', 'gham') only when immediately juxtaposed against a starkly mundane Bengali object (like an earthenware pot).",
+    "variety_note": "Where earlier segments focused on *what* these objects are (chai glass, vermilion), this final piece focuses on the dynamic tension between their perceived permanence and ultimate material evanescence, using an implied dialogue to deepen philosophical resonance."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 59,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নীরবতার ভাষা",
+  "segment_summary": "It examines the unspoken communication found in shared pauses—the bus ride, the market lull—as a form of societal language.",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The 'Observer' speaks directly to a specific, silent figure (e.g., an elder shopkeeper who is perpetually stationary) whose non-response defines the segment’s philosophical weight.",
+    "story_option": "Setting: A deserted railway platform bench; Desire: To capture the precise moment before steam dissipates from a discarded tea cup; Obstacle: The persistent, ambient hum of distant machinery; Turn: Realizing the hum *is* the only constant.",
+    "subject_rotation": "Viewing 'India' not as a collective noun, but as an aggregate statistical profile derived from micro-observations (like temperature fluctuations or particulate counts).",
+    "sensory_detail": "The metallic tang of old iron rust mingling with the faint sweetness of stale sugar dust settling on rough concrete.",
+    "research_question": "What specific, evocative Bengali vocabulary exists for describing beauty that is simultaneously fragile and structurally necessary?",
+    "structural_variant": "A strict A-B-C segment structure: Segment 1 establishes the micro-detail (Object), Segments 2-7 explore its socio-philosophical context (Context), and Segment 8 returns solely to the object's materiality (Return to Object).",
+    "variety_note": "Where earlier segments focused on *what* these objects are (chai glass, vermilion), this final piece focuses on the dynamic tension between their perceived permanence and ultimate material evanescence, using an implied dialogue to deepen philosophical resonance."
+  }
+}

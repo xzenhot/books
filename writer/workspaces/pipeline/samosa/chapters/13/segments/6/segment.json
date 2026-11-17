@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ ও প্রতীক্ষা",
+  "segment_summary": "ঘ্রাণ-স্মৃতি বারবার সেই নির্দিষ্ট সরিষার তেলের ঝাঁঝালো গন্ধকে জাগিয়ে তোলে, যা অপেক্ষার তীব্রতা বাড়ায়।",
+  "name": "6",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The cyclical failure: Showing the wait resolving into an immediate return to the state *before* the desire—back to empty hands and silence.",
+    "story_option": "Setting: Standing on a border checkpoint at dawn (cold); Desire: To perceive the line not as geography but as an invisible seam where the threads of flavor tear apart and refuse to rejoin.",
+    "subject_rotation": "Reinterpreting absence: The emptiness left by the ideal taste is not simply void; it's a highly pressurized vacuum that defines the current existence.",
+    "sensory_detail": "The visual quality of dust motes suspended in the low-angled light, each one resembling a microscopic, unfulfilled spice particle.",
+    "research_question": "What specific archaic Bengali word best conveys the nuanced emotional state of yearning that is neither sorrow nor joy, but simply enduring?",
+    "structural_variant": "An episodic wait: Segment 1 (waiting for cooking), Segment 2 (waiting at restaurant), Segment 3 (waiting in memory).",
+    "variety_note": "This chapter contrasts sharply with earlier segments by shifting focus from the *act* of creation/loss to the sustained, static endurance of desire itself; it utilizes the thread metaphor as a unifying tension across all sub-themes."
+  }
+}

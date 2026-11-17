@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অটুট আশ্রয়",
+  "segment_summary": "হারানো স্বাদের এই অনুরণনই প্রবাসীর জন্য একমাত্র অটুট আশ্রয়, যা তাকে তার শিকড়ের সঙ্গে এক অদৃশ্য বন্ধনে আবদ্ধ রাখে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the sensory experience around the shift from artificial light in the foreign market to natural, fading daylight/moonlight as memory strengthens or dissolves.",
+    "story_option": "Setting: Sitting alone near a window as twilight bleeds over the urban landscape; Desire: For the memory of 'দিদা'-র হাতের মাপ to become palpably real, something one could reach out and touch; Obstacle: The encroaching darkness that absorbs all specific aroma into generalized smog.",
+    "subject_rotation": "Treating the lingering taste not as sadness, but as a kind of internalized, gentle rebellion against assimilation.",
+    "sensory_detail": "The faint, lingering metallic scent of old street lamp oil mixing with phantom mustard seed aroma.",
+    "research_question": "What specific archaic Bengali descriptor perfectly captures the simultaneous existence of yearning and satiation?",
+    "structural_variant": "An intentional fragmentation where each segment ends with a single, repeated onomatopoeic word related to cooking ('চট', 'ভাজা', 'গোঁস').",
+    "variety_note": "This chapter shifts focus from the journey/material transformation (previous chapters) to the internal aftermath—the philosophical residue left after consumption, using silence and memory as its primary substance."
+  }
+}

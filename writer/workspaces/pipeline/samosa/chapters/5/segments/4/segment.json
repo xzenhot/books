@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অতীতের উষ্ণতা",
+  "segment_summary": "ভাজার সময় নির্গত সেই পরিচিত উষ্ণ গন্ধটি প্রবাসের শীতল পরিবেশে এক ক্ষণিকের আশ্রয় তৈরি করে, যা মনকে শান্ত করার চেষ্টা করে।",
+  "name": "5.4",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the ancestral act of making samosa not in the kitchen, but at a specific workbench or table where memory is actively assembled and disassembled (The Archive Table).",
+    "story_option": "Setting: A specific, worn-out mortar and pestle on a small counter; Desire: To perfectly grind the regional spice blend that requires exotic herbs not found here; Obstacle: The grit from the foreign environment contaminating the sacred blend.",
+    "subject_rotation": "Centering on the *hands*—analyzing them as tools that carry genetic/cultural memory, rather than just the food they produce.",
+    "sensory_detail": "The slightly gritty texture adhering to the fingertips after handling the dry flour/masa.",
+    "research_question": "What specific, concrete actions (other than folding) visually represent the commitment of the first generation?",
+    "structural_variant": "Alternating stanzas: one detailing the *making* (active verb) and the next detailing the *remembering* (passive state).",
+    "variety_note": "This chapter deepens the focus on provenance and manual labor, shifting from the grand journey (Chapter 2) to the highly localized, painstaking act of creation itself, emphasizing ancestry via touch."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 80,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অটলতার প্রতিধ্বনি",
+  "segment_summary": "এই সাংস্কৃতিক প্রতিকূলতার মাঝেও বেহুলার স্থিরতা এক গভীর দার্শনিক বার্তা বহন করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the cultural mandate as a specific, tangible physical entity—a heavy chain made of whispered pronouncements and unspoken duties.",
+    "story_option": "Setting: The threshold of a meticulously decorated, yet suffocatingly traditional, family courtyard; Desire: To perform a mundane ritual perfectly while mentally enacting radical dissent against its implied meaning; Obstacle: A judgmental stare from an unseen elder.",
+    "subject_rotation": "Shifting focus from 'Belief in Gods' to 'Assertion of Self-Sovereignty'—where her faith is merely a tool for establishing personal dominion over societal narrative.",
+    "sensory_detail": "The brittle, dry scent of old brass ritual implements heated by excessive midday sun.",
+    "research_question": "How did the concept of female agency express itself culturally within analogous strict socio-religious frameworks before modern upheaval?",
+    "structural_variant": "Employing an extended chiasmus (A-B-C :: C'-B'-A') across the entire chapter to visually represent the inescapable loop of expectation versus deviation.",
+    "variety_note": "This chapter moves away from pure grief or external defiance (as seen previously) to a deep dive into the *structural* battleground—the collision between deeply ingrained societal programming and irreducible spiritual selfhood."
+  }
+}

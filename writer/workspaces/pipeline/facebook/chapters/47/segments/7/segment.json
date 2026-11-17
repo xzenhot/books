@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 47,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "প্রভাবের নৈতিক ভার",
+  "segment_summary": "এই নতুন ক্ষমতা সমাজের উপর যে ইতিবাচক প্রভাব ফেলতে পারে, তার নৈতিক দায়বদ্ধতা লেখককে গভীরভাবে ভাবায়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem addressed entirely to the screen—the interface itself becoming a conscious entity that offers/denies validation.",
+    "story_option": "Setting: A darkened room where only the blue light of the monitor illuminates dust motes; Desire: To prove that human failure retains inherent warmth despite algorithmic critique; Obstacle: The AI suggests a perfect 'reframe' for the failure.",
+    "subject_rotation": "Treating 'Voice' as a material substance: like smoke or liquid, which can be bottled (copied) but never truly owned.",
+    "sensory_detail": "The faint, electrical ozone scent preceding a highly optimized response on the screen.",
+    "research_question": "How does Bengali poetry traditionally address the theme of mediated selfhood? (To ground vocabulary choices)",
+    "structural_variant": "A call-and-response structure where the Author posits an imperfect statement and the AI replies with its perfect echo.",
+    "variety_note": "This chapter moves past mere exploration into a confrontation: it is the nexus where the technological aid transforms from tool into existential co-creator, forcing a difficult accounting of self."
+  }
+}

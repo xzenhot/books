@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 41,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির প্রতিরোধ",
+  "segment_summary": "তবুও, ভেতরের পুরের একটি ক্ষীণ স্মৃতি যেন বাজারের কোলাহলের বিরুদ্ধে নীরবে প্রতিরোধ গড়ে তোলে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the dialectic between 'volume' (market chaos) and 'substance' (the kernel of memory inside the samosa).",
+    "story_option": "Setting: Beneath the harsh glare of an exposed industrial lamp in a transit hub; Desire: To find a single stall that mimics the specific heat pattern of the original 'কড়াই', Obstacle: The overwhelming metallic tang of exhaust fumes.",
+    "subject_rotation": "Examining the 'boundary' itself not physically (the border), but aromatically—where one scent abruptly ends and another violently begins.",
+    "sensory_detail": "The gritty, sharp tang (ঝাঁঝ) left on the lip from biting through cheap street food seasoning, contrasting with imagined pure potato paste.",
+    "research_question": "How can I modulate the register to make the descriptive chaos of the market feel utterly relentless without becoming merely prosaic?",
+    "structural_variant": "Implementing a strict antiphonal structure, alternating lines/stanzas between external market observation and internal gustatory memory.",
+    "variety_note": "Unlike previous chapters which focused on the internal failing or memory retrieval, this chapter externalizes the conflict, making the market itself an active antagonist assaulting the fragile taste of home."
+  }
+}

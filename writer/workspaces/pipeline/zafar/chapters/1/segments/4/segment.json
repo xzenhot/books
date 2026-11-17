@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আভিজাত্য বনাম বাস্তবতার প্রথম সংঘাত",
+  "segment_summary": "ঐতিহ্যবাহী রাজকীয় প্রথা এবং নতুন ঔপনিবেশিক বাস্তবতার মধ্যেকার প্রাথমিক টানাপোড়েন কাব্যিক রূপে প্রকাশিত হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The silent geometry of the Red Fort's façade mirroring an internal collapse.",
+    "story_option": "Scene: The Diwan-i-Khas balcony at dawn. Desire: To issue one final, symbolic decree that holds meaning internally only. Obstacle: A junior officer subtly suggests adherence to new regulations. Turn: He instead dips his pen in ink reserved for personal verse.",
+    "subject_rotation": "Treating the 'Title' itself as a physical, oppressive object rather than just an abstract concept.",
+    "sensory_detail": "The scent of aged, spiced incense failing to mask the chill night air (smell).",
+    "research_question": "Were there specific architectural elements in the Red Fort symbolizing transient power?",
+    "structural_variant": "The chapter structured around a gradual loss of formal linguistic register.",
+    "variety_note": "Unlike later chapters dealing with exile or bloodshed, this section establishes the fragile beauty of power just before its systemic rot sets in."
+  }
+}

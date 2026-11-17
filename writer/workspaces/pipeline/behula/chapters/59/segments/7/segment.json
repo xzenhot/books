@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 59,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "বিজয় সত্ত্বেও, এই কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক গভীর, নীরব অভিযোগের প্রতিধ্বনি বহন করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "দৃষ্টিভঙ্গি পরিবর্তন: প্রত্যাবর্তনটিকে কোনো নাটকীয় 'মিলন' হিসেবে না দেখিয়ে, দুটি বিচ্ছিন্ন শক্তি কাঠামোর মধ্যে হওয়া অনিবার্য 'স্থিতিশীলতা' অর্জন হিসেবে চিত্রিত করা।",
+    "story_option": "সেটিং: একটি পুরনো, ধূসর পাথরের সিঁড়ি (যেখানে সংগ্রাম শুরু হয়েছিল); আকাঙ্ক্ষা: শান্ত হওয়া এক মুহূর্তের নীরবতা; বাধা: অতীতের আঘাতগুলোর সম্মিলিত ভার; পরিবর্তন: সেই নীরবতাই নতুন সংকল্পে পরিণত হয়।",
+    "subject_rotation": "স্বামীর প্রত্যাবর্তনকে শারীরিক পুনর্মিলনের চেয়ে একটি গভীর 'বাস্তবতার পুনরুদ্ধার' হিসেবে দেখানো—যা তার নিজের অস্তিত্বের প্রমাণ দেয়।",
+    "sensory_detail": "ফাটল ধরা মাটির শুষ্ক গন্ধ, যা প্রাচীন কষ্টের কথা স্মরণ করিয়ে দেয় (ঘ্রাণ)।",
+    "research_question": "কোনো নির্দিষ্ট প্রাচীন বাংলা শব্দ আছে কিনা যা 'কষ্টের মধ্য দিয়ে অর্জিত শান্ত স্থিতিশীলতাকে' বোঝায় এবং সেটি অতি-ধর্মীয় ভাব থেকে মুক্ত থাকে?",
+    "structural_variant": "একটি পর্ব কাঠামো যেখানে প্রতিটি উপ-খণ্ডে শব্দের ধ্বনিগত পুনরাবৃত্তির মাধ্যমে ভাব গভীর হয়, কিন্তু শব্দকোষ নতুন থাকে (Sonority-driven parallelism)।",
+    "variety_note": "Neighbouring chapters focused on the struggle's mechanics; this chapter must focus entirely on the philosophical weight and quiet consequence of resolution, using highly specific sensory grounding."
+  }
+}

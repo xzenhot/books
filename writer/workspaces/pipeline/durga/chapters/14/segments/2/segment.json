@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "দৈনিক সংগ্রাম",
+  "segment_summary": "জীবিকার তাড়া, সম্পর্কের জটিলতা—এই জাগতিক চাপগুলোই যেন প্রতিদিনের ছোট ছোট যুদ্ধক্ষেত্র তৈরি করে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing an ordinary bureaucratic failure (a small, mundane obstacle) as the primary 'Mahishasura' that must be vanquished each day.",
+    "story_option": "Setting: An office desk during the midday lull, Desire: To execute a project with absolute integrity despite external pressure for compromise; Obstacle: The temptation of an easy shortcut.",
+    "subject_rotation": "Treating mundane domestic arguments as miniature theological debates between conflicting forces (dharma vs. kāmā)।",
+    "sensory_detail": "A metallic taste of adrenaline mixed with stale tea left over from a difficult negotiation.",
+    "research_question": "Are there specific contemporary concepts within modern Bengali philosophy that bridge personal ethics and cosmic cycles?",
+    "structural_variant": "Alternating between narrative flashback (the grand festival memory) and immediate sensory present (the daily struggle).",
+    "variety_note": "This chapter consciously shifts the focus entirely from communal spectacle to intense introspection; its language must be granular and painfully specific, unlike the grander sweep of earlier festival narratives."
+  }
+}

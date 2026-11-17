@@ -1,0 +1,79 @@
+{
+  "chapter_index": 4,
+  "name": "4",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "misc — পর্ব 4",
+  "chapter_summary": "This chapter focuses on the profound, unspoken silence that settles within a bus—a shared, communal pause before movement begins. The imagery centers on the passengers, their individual containment within the shared, waiting space, and the subtle tension between their isolation and their proximity. It explores whether this quietude signifies a deep, unspoken connection among strangers or merely a collection of separate, transient existences. The chapter questions the nature of shared time when language fails to bridge the gap between individuals.",
+  "further_references": [
+    "misc — পর্ব 4"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "বাসের নীরবতা",
+      "segment_summary": "The initial focus is on the heavy, expectant silence inside the bus, a palpable weight before the engine stirs.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অচেনা সংযোগ",
+      "segment_summary": "The segment examines the subtle ways passengers acknowledge each other without speaking, hinting at an unspoken social contract.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "অপেক্ষার ভার",
+      "segment_summary": "This section delves into the internal state of the travelers, each carrying the weight of their destination and their personal narratives.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "শব্দের অনুপস্থিতি",
+      "segment_summary": "The poem contrasts the potential noise of the city outside with the deliberate, chosen quietude within the vehicle.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "সময়ের স্থবিরতা",
+      "segment_summary": "The passage explores how time seems to slow down in this suspended moment, becoming thick and observable.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "বিচ্ছিন্নতা ও সহাবস্থান",
+      "segment_summary": "It questions the boundary between being utterly alone and existing in deep, shared proximity with others.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "যাত্রীর প্রতিকৃতি",
+      "segment_summary": "A detailed observation of a specific passenger's posture or gaze, embodying the collective mood of the waiting group.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "যাত্রা শুরুর ইঙ্গিত",
+      "segment_summary": "The chapter concludes as the first sign of movement appears, breaking the spell of the shared, profound silence.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

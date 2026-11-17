@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আত্মার চূড়ান্ত 승리",
+  "segment_summary": "এটি কেবল একটি পৌরাণিক কাহিনি নয়, বরং মানব আত্মার সেই আদিম স্পন্দনের জয়গান, যা চরম অন্ধকারেও আলো খুঁজে নেয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus from the heroic return to the subtle, daily renegotiation of power and vulnerability within their domestic space post-miracle.",
+    "story_option": "A quiet scene focusing on one character's physical state immediately after the climax—the weight of resilience physically manifesting as deep, consuming fatigue (Setting: Upon the cold floor of the dwelling; Desire: A profound, temporary surrender to utter depletion; Obstacle: The internal mandate to remain 'unshakeable' even in rest).",
+    "subject_rotation": "Treating the final stability less like arrival and more like entering a high-tension state of permanent spiritual watchfulness.",
+    "sensory_detail": "The sharp scent of petrichor clinging to garments worn through arduous spiritual traversal (smell).",
+    "research_question": "Are there specific ritualistic or symbolic actions from ancient texts that represent a renewed, hard-won covenant beyond mere marital vows?",
+    "structural_variant": "An interlocking loop structure where segments subtly contradict one another—triumph demands vigilance, yet peace requires surrender.",
+    "variety_note": "Unlike previous chapters which focused on specific trials, this chapter must shift entirely to the aftermath—the complex texture of maintaining victory and answering the residual questions it raises."
+  }
+}

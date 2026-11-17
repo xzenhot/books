@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আলো-ছায়ার নৃত্য",
+  "segment_summary": "নদীর বুকে ওঠা-নামা করা আলো-ছায়া তার কাছে জীবনের উত্থান-পতনকে চিত্রিত করে, যা শিল্পীর চোখে এক নিখুঁত দৃশ্যপট তৈরি করে।",
+  "name": "7.4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The young woman perceiving the majhi's physical labor as a form of ancient, almost ritualistic sculpture carving into the river landscape.",
+    "story_option": "A detailed scene where the young woman sketches the boat's silhouette against a dawn haze, only to have her charcoal pencil smudge from humidity.",
+    "subject_rotation": "Rotating from external admiration to internal doubt: The majhi himself begins to question if the artist's 'gaze' is a form of validation or an elaborate cage.",
+    "sensory_detail": "The dull, oiled resonance when the oar pulls through water heavy with silt near the mudflats; a low, resistant *thud*.",
+    "research_question": "Are there indigenous concepts within Delta culture that equate manual labor (like rowing) with devotional practice, which could support this artistic framing?",
+    "structural_variant": "A cyclical structure where each segment begins by re-stating a perceived quality (e.g., 'The curve,' 'The rhythm') before developing that idea further.",
+    "variety_note": "This chapter contrasts the objective external pressures seen previously by framing the majhi through an intensely subjective, aesthetic lens, focusing on how perception can elevate mere labor to art before grounding that elevation in economic reality."
+  }
+}

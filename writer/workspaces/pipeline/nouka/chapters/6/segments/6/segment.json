@@ -4,19 +4,19 @@
   "chapter_index": 6,
   "segment_index": 6,
   "total_segments": 8,
-  "segment_title": "দুটি চোখ",
-  "segment_summary": "একদিকে নদীকে চেনা গোপালের হৃদয়, অন্যদিকে নদীকে মাপা চ্যাটার্জির শাসক-চোখ — কবিতা এই দুই দৃষ্টির সংঘর্ষ আঁকে।",
+  "segment_title": "অস্তিত্বের প্রশ্ন",
+  "segment_summary": "এই স্মৃতিচারণ গোপালকে এক মৌলিক প্রশ্নে ফেলে দেয়—ঐতিহ্য ধরে রাখা কি কেবলই এক ম্লান, অর্থহীন প্রচেষ্টা?",
   "name": "6",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Examining the idea of 'measured life': how Chatterjee quantifies time and distance (efficiency) while Gopal measures existence by tidal shifts and seasonal memory.",
-    "story_option": "Setting: A moment during low tide when the dredged area reveals unusual patterns in the silt layers—patterns that suggest old, forgotten paths; Desire: To argue with Chatterjee about the historical navigation routes hidden beneath the new channel design; Obstacle: Chatterjee responds only with flow charts and cost-benefit analyses.",
-    "subject_rotation": "Centering on the language of planning documents (flow rate, optimal capacity) and deliberately contrasting it with the non-quantifiable vocabulary of tradition (sigh, kinship, memory).",
-    "sensory_detail": "The feeling of a perfectly calibrated, sterile metallic sheen on Chatterjee's clothing contrasting with Gopal's sun-cracked skin.",
-    "research_question": "How do historical river maps of this region differentiate between 'natural flow patterns' and navigable, man-made channels?",
-    "structural_variant": "Alternating stanzas focusing on the scale disparity—one verse capturing the tiny, resilient life on the water; the next capturing the monolithic scale of a concrete embankment.",
-    "variety_note": "This chapter is distinct from earlier pieces by externalizing the conflict; rather than focusing on internal tradition (song/generosity), it targets the imposition of an alien, quantifiable structure onto the natural flow of life."
+    "angle": "স্বরলয়ের দ্বান্দ্বিকতা: ভাটিয়ালি গানের দীর্ঘ শ্বাস-প্রশ্বাসের লয় বনাম ডিজেল ইঞ্জিনের অবিরাম, খণ্ডিত 'নিঃশ্বাস'। এটি এক প্রকার ধ্বনিগত কথোপকথন হতে পারে।",
+    "story_option": "সেটিং: গভীর রাতের নদী; আকাঙ্ক্ষা: তিনি এমন একজন অজ্ঞাত যাত্রীর কথা স্মরণ করেন যিনি কোনো বিনিময় ছাড়াই নৌকায় চড়েন—এই উদারতাকে রক্ষা করার শেষ চেষ্টা ছিল সেটি; বাধা: দ্রুত পরিবর্তনশীল স্রোত তাকে उस নির্দিষ্ট স্থানটি খুঁজে পেতে দেয় না।",
+    "subject_rotation": "গোপালের শারীরিক অভিজ্ঞতা (যেমন হাত বা কাঁধের ব্যথা) কে নদী ও প্রযুক্তির ঘর্ষণজনিত আঘাত হিসেবে দেখানো।",
+    "sensory_detail": "গোপালের হাতের চামড়ায় জলের আর্দ্রতার সাথে মিশে থাকা বহু বছর ধরে আসা নোনা এবং ঘামের মিশ্রিত লবণাক্ততা।",
+    "research_question": "ভাটিয়ালি গানের আঞ্চলিক ভাষার কোন বিশেষ শব্দ বা বাক্যাংশ এমন আছে যা আধুনিক শিল্প পরিভাষায় প্রতিস্থাপিত হওয়ার সর্বোচ্চ ঝুঁকিতে রয়েছে?",
+    "structural_variant": "আবেগের অনুপ্রবেশ: কবিতাটি প্রথমে চরম স্থিরতা দিয়ে শুরু করে এবং ধীরে ধীরে ইঞ্জিনের শব্দ দ্বারা প্রতিস্থাপিত হয়ে শেষ হয় (অর্থাৎ স্থবির থেকে বিশৃঙ্খলায় রূপান্তর)।",
+    "variety_note": "এই অধ্যায় পূর্ববর্তী সংঘাতমূলক দৃশ্যের (পর্ব ৩ ও ৪) বিপরীতে এক গভীর অন্তঃস্থ লয়ের সৃষ্টি করে; এটি আক্রমণ নয়, বরং টিকে থাকার জন্য একটি শান্ত আত্মসমীক্ষার মুহূর্ত যা পাঠকের মধ্যে দার্শনিক প্রশ্ন জাগায়।"
   }
 }

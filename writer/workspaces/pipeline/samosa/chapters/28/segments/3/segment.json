@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 28,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্মৃতি",
+  "segment_summary": "এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভের ওপর নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক দূরত্ব অতিক্রম করতে পারে না।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The poem speaks through fragmented syntax designed specifically to mimic the halting, incomplete quality of memory recall (a linguistic stutter mirroring flavor decay).",
+    "story_option": "Scene: Standing motionless in a transit space (train/plane departure area); Desire: To synchronize his internal rhythm with the remembered *thump* and *crunch* of dough hitting hot oil; Obstacle: The mechanical regularity of the journey overpowering the organic sound.",
+    "subject_rotation": "Exploring the failure of verbal language ('Samosa') to map accurately onto the visceral, unspoken reality ('Singara').",
+    "sensory_detail": "Sound: A near-silent, high-frequency scraping sound—like burnt sugar crust against ceramic—which serves as the baseline noise for all reflection.",
+    "research_question": "How can Tatsama and Hindi diction be integrated not just for vocabulary enrichment, but to create a deliberate phonetic dissonance that mirrors cultural fragmentation?",
+    "structural_variant": "Alternating between 4-line stanzas dedicated purely to sound invocation and 4-line stanzas focused on tactile memory.",
+    "variety_note": "This chapter diverges from neighbours by prioritizing the somatic aftermath—the internal resonance and lingering physical sensation after consumption, rather than focusing externally on setting or preparation."
+  }
+}

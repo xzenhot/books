@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "সমস্ত বাধা অতিক্রম করার মাধ্যমে বেহুলার চরিত্রটি এক মহৎ নারী হিসেবে প্রতিষ্ঠিত হয়, যিনি প্রতিকূলতাকে অতিক্রম করার প্রতীক হয়ে ওঠেন।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the reunion through a lens of cold necessity rather than heat—a perfect alignment achieved through sheer, terrifying endurance.",
+    "story_option": "Setting: Moments before closing the final aperture of the domestic space; Desire: To etch into the very architecture a quiet, stubborn refusal of dissolution; Obstacle: The constant whisper reminding them of the cost that must forever be guarded.",
+    "subject_rotation": "Exploring the relationship between cosmic inevitability (the divine structure) and personal defiance against it.",
+    "sensory_detail": "The scent of cooling clay mixed with damp earth inside the once vibrant enclosure.",
+    "research_question": "What specific archaic Bengali vocabulary best denotes a state of 'ferociously maintained stability'—beyond simple equilibrium?",
+    "structural_variant": "Employing a tightly interwoven structure where each segment briefly interrupts the flow of the previous one with an external philosophical query before immediately returning to the core action.",
+    "variety_note": "Unlike preceding chapters which focused on overcoming external societal barriers (like custom or slander), this final set centers on the existential negotiation required to sustain a state of triumph against fundamental forces."
+  }
+}

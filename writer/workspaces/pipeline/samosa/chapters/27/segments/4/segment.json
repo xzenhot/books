@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "জিভের দার্শনিক প্রশ্ন",
+  "segment_summary": "এই অংশে স্বাদ এবং মানবিক অভিজ্ঞতার মধ্যেকার দার্শনিক সংযোগ নিয়ে প্রশ্ন তোলা হয়, যা রাসায়নিক এবং আধ্যাত্মিকতার সীমারেখা মুছে দেয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the somatic memory: Treating the lingering taste/texture not as a flavor profile but as a specific muscular ache in the tongue.",
+    "story_option": "Setting: A dimly lit counter where a modern vendor serves generalized 'samosas'; Desire: To force the vendor to recall the specific, ancestral recipe; Obstacle: The vendor operates only on mass production metrics.",
+    "subject_rotation": "Treating the cyclical nature (the 'litany' seed) as a ritualistic mantra that starts and ends identically.",
+    "sensory_detail": "Sight: The faint ochre stain left by old turmeric spice deep within ceramic kitchenware (কড়াই).",
+    "research_question": "How does the mandated repetition ('litany') interact with the instruction for a non-conclusive, counter-intuitive final line?",
+    "structural_variant": "Using a highly fragmented prose introduction before launching into dense verse cycles.",
+    "variety_note": "This chapter leans heavily into abstraction and introspection, contrasting with previous chapters which may have been more grounded in street-level observation or material friction."
+  }
+}

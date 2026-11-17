@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ভয় ও ভক্তির একাকার",
+  "segment_summary": "ভক্তদের মধ্যে যে চরম ভক্তি এবং একই সাথে আসন্ন ধ্বংসের ভয় মিশ্রিত অনুভূতি কাজ করে, তা গভীরভাবে অনুভব করা হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the battle not as a myth, but as an internal psycho-sexual confrontation within the modern urban Bengali.",
+    "story_option": "A character's personal 'অসুর' (fear/doubt) reaches its apex during the ritual, forcing a sudden moment of introspection before the battle.",
+    "subject_rotation": "Examining the 'ভয়' (fear) not as an external threat, but as inherent in human desire itself.",
+    "sensory_detail": "The sharp, ozone-like scent preceding intense electrical/spiritual discharge during peak power manifestation.",
+    "research_question": "What traditional imagery is used to describe an entity embodying both ultimate destructive power and ultimate nurturing grace simultaneously?",
+    "structural_variant": "An entirely conversational structure where the 'I' argues with an externalized representation of the demonic force before succumbing to faith.",
+    "variety_note": "While preceding chapters focused on construction and precursors, this chapter plunges directly into the crucible—the violent fusion of existence and void at the cosmological zenith."
+  }
+}

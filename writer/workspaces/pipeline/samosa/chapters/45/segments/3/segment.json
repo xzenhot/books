@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্মৃতি",
+  "segment_summary": "কবি উপলব্ধি করেন যে কিছু স্মৃতি কেবল জিভের উপর নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক দূরত্ব অতিক্রম করতে পারে না।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Personifying the lingering sensation not as sorrow, but as stubbornness—the internal refusal of the self to accept assimilation.",
+    "story_option": "A hypothetical encounter where 'I' meet another stranger who claims to remember that perfect taste, creating an immediate parallel identity crisis.",
+    "subject_rotation": "Using the empty space (silence after chewing) as the primary subject matter, detailing what noise or sensation it is deliberately excluding.",
+    "sensory_detail": "A sudden, unexpected drop in perceived temperature when focusing too deeply on the vanished warmth.",
+    "research_question": "What precise Bengali word captures a residual taste that exists beyond simple presence or absence?",
+    "structural_variant": "A highly fragmented poem, where each segment begins with an entirely different physical action (e.g., breathing out slowly, staring at a patch of light).",
+    "variety_note": "This chapter deepens the philosophical tension begun earlier by focusing entirely on the state *after* consumption—the residue, the void, and the internal debate about taste's nature."
+  }
+}

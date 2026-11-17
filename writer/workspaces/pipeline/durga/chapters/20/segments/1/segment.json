@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 20,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ম্লান আলোর প্রতিধ্বনি",
+  "segment_summary": "উৎসবের উন্মাদনা যখন শান্ত হয়ে আসে, তখন প্যান্ডেলের আলোকসজ্জা ম্লান হয়ে যায়, কিন্তু সিঁদুর ও শিউলির গন্ধ যেন এক নীরব প্রতিজ্ঞা হয়ে বাতাসে ভেসে থাকে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Revisiting the theme from a lens of inherent human exhaustion—the effort required to *remember* divine power against entropy.",
+    "story_option": "Setting: A cluttered window ledge where dried shiuli petals mingle with discarded cosmetic wrappers; Desire: To find a single perfect bloom untainted by the urban dust; Obstacle: The overwhelming grime of daily life.",
+    "subject_rotation": "Treating the spiritual questioning not as seeking an answer, but as performing a continuous act of negation against finality.",
+    "sensory_detail": "Sight: The specific, muted grey cast of concrete where vibrant ritual colors once splashed in a public space.",
+    "research_question": "What specific Bengali metaphor exists in contemporary usage for an internalized spiritual force that resists theological categorization?",
+    "structural_variant": "Employing a sustained chiasmus across all eight segments to impose structural symmetry upon existential chaos.",
+    "variety_note": "This chapter moves away from action/mythology and focuses exclusively on aftermath—the quiet contemplation where belief transitions into existential philosophy. It contrasts the high ritualistic language with the low reality of daily life."
+  }
 }

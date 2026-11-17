@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 23,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "সহনশীলতার প্রতিধ্বনি",
+  "segment_summary": "The poem finds a quiet dignity in the endurance of these small rituals, suggesting resilience rather than grand narrative.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "অজ্ঞাত শ্রোতা সম্বোধন: পাঠক বা অনুপস্থিত কোনো কারোর উদ্দেশ্যে লেখা, যেন কবিতাটি একটি অর্ধ-কথোপকথন—যা উত্তর দাবি করে না কিন্তু জিজ্ঞাসা করেই শেষ হয় (Address-to-Absence)।",
+    "story_option": "একটি দরজায় সিঁদুরের রেখা, যখন সকালের তীব্র আলোয় পড়ায়, সেই লাল আভা যেন মুহূর্তের জন্য বাতাসের মধ্য দিয়ে সূক্ষ্ম ধুলিকণাগুলিকে 'উড়ে যেতে' বাধ্য করে—এই উড়িয়ে যাওয়া কণার ট্র্যাজেক্টরি পর্যবেক্ষণ করা। (Setting: Doorway; Desire: Visual permanence; Obstacle: Light dispersion; Turn: Fragility revealed in particulate movement).",
+    "subject_rotation": "জাতীয় সত্তাকে স্থিতিশীল না ধরে, এটিকে ক্রমাগত পরিবর্তনশীল রাসায়নিক মিশ্রণ (Atmospheric Chemical Compound) রূপে চিত্রিত করা, যা প্রতিটি ছোট জিনিসের আপেক্ষিকতার ওপর নির্ভরশীল।",
+    "sensory_detail": "সন্ধ্যায় মাটির প্রদীপের শিখা থেকে ওঠা সেই ধোঁয়া—যা দিনের সমস্ত দৃশ্যকে ধীরে ধীরে ঢেকে দেয় যেন কোনো নিস্তব্ধ পর্দা নামছে (Visual Diffusion)।",
+    "research_question": "বাংলা কাব্যে 'অমীমাংসিত অবস্থা' বা Ambiguity-কে প্রকাশের জন্য কোন যৌগিক বিশেষণের (Compound Adjective) ব্যবহারের মাধ্যমে দার্শনিক গভীরতা বজায় রাখা সম্ভব?",
+    "structural_variant": "কবিতার কাঠামোকে একটি বৃত্তাকার লুপে রাখা (Ring Structure), যেখানে শেষ পঙক্তিটি প্রথম পঙক্তির ভাবগত বিপরীত হলেও শব্দচয়নে সামঞ্জস্য বজায় রাখে (Anti-reiteration)।",
+    "variety_note": "এই পর্বটি পূর্ববর্তী পর্যবেক্ষণগুলোর উপসংহার হিসেবে কাজ করে, কিন্তু এটি কেবল বিশ্লেষণ দেয় না; বরং আলো ও কণ্ঠস্বরের পরিবর্তন ঘটিয়ে পাঠককে এক অনির্ণেয়, শান্ত বিষণ্ণতার রাজ্যে ভাসিয়ে নিয়ে যায়।"
+  }
+}

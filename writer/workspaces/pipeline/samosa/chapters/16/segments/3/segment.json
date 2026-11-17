@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বনাম মানবিক",
+  "segment_summary": "এখানে স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে বিচার না করে, তাকে গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ হিসেবে প্রতিষ্ঠা করা হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring finality through negation: The poem builds toward an absolute lack, where 'not-taste' becomes its own dense, almost substantial presence.",
+    "story_option": "Setting: A solitary moment looking out at urban sprawl from high floor window (skyscrapers); Desire: To perceive every distant light as a fragmented memory point of a village fire/chulha; Obstacle: Recognizing that the city lights offer only dazzling imitation, devoid of elemental heat.",
+    "subject_rotation": "The taste/lack-of-taste as a moral compass: A judge deciding that pure existence without authentic flavor is incomplete.",
+    "sensory_detail": "Touch: The thin, slick residue on a finger after attempting to recall the buttery coating of old ghee.",
+    "research_question": "How can I imbue the abstract concept of 'sweet melancholy' into concrete tactile imagery without becoming overly sentimental?",
+    "structural_variant": "A dialogue between the physical reality of the foreign food and the phantom memory of the home flavor.",
+    "variety_note": "This chapter moves away from describing the *process* (cooking, traveling) to analyzing the *aftermath*—the metaphysical residue left on the palate and soul."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অনুরণন",
+  "segment_summary": "এই কাব্যটি সেই অস্পষ্ট, কিন্তু গভীর অনুরণন দিয়ে শেষ হয়, যা সম্পূর্ণরূপে পাওয়া যায়নি, কিন্তু হৃদয়ে চিরকাল বেঁচে থাকে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating 'Taste' not as sensory input but as an ontological marker: the point where being (existence) diverges from mere having (possession).",
+    "story_option": "Setting: Standing at a crossroads signpost overlooking an unfamiliar, endless suburban sprawl; Desire: To find a single landmark that feels like 'home' within the grid system; Obstacle: Every local marker is an accurate depiction of something completely irrelevant to memory.",
+    "subject_rotation": "Shifting focus entirely to the 'shell' (খোলস) after eating; observing its perfect emptiness as a mirror for spiritual evacuation rather than mere physical digestion.",
+    "sensory_detail": "Sight: The way muted city smog distorts the sharp gold of remembered saffron.",
+    "research_question": "What specific archaic Bengali descriptor perfectly captures the simultaneous existence of yearning and satiation?",
+    "structural_variant": "A cyclical structure mirroring digestion and subsequent craving—starting at consumption and ending back at anticipation.",
+    "variety_note": "This chapter moves beyond mere flavor description; it uses the residual emptiness after consumption—the savory void—as its primary emotional and philosophical texture, differentiating itself from neighbourly explorations of food preparation."
+  }
+}

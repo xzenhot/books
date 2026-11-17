@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 54,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আবেগের রাসায়নিক প্রতিস্থাপন",
+  "segment_summary": "কীভাবে একটি রাসায়নিক পরিবর্তন গভীরতম মানবিক অভিজ্ঞতার সঙ্গে যুক্ত আবেগকে প্রতিস্থাপন করতে পারে, তা এই অংশে অনুসন্ধান করা হয়।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the body's memory—how the ache in the hand that grips the warm samosa mirrors the missing flavor.",
+    "story_option": "Setting: The cramped kitchen counter littered with packaging; Desire: To feel the *jhal* spread across a fingertip from residual oil., Obstacle: Only industrial-grade neutral fat is available.",
+    "subject_rotation": "Treating the physical texture of the dough's coating (খোলস) as a map detailing geographical hardship rather than just flavor.",
+    "sensory_detail": "An olfactory: A phantom stinging sensation in the nostrils from an imagined whiff of rendered mustard seed oil's pungency.",
+    "research_question": "Is there an archaic Bengali term describing the characteristic astringency found in mustard oil used for cooking?",
+    "structural_variant": "Employing heavy use of antithesis in parallel couplets that rigidly oppose 'Sorsher' vs. 'Neutral', 'Jhal' vs. 'Nishchipto'.",
+    "variety_note": "This chapter moves away from the narrative shock (like Chapter 1) and adopts an echoing, reflective quality, focusing entirely on the subtle persistence and failure of memory held within a single substance: cooking fat."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 43,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণ চক্র",
+  "segment_summary": "এই স্বাদটি একটি অসম্পূর্ণ চক্রের প্রতীক, যা কখনোই তার আদি রূপ বা পূর্ণতা লাভ করতে পারে না।",
+  "name": "5",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The focus shifts entirely onto a single, tangible remnant (e.g., a tiny flake of spice stuck in the seam) as the sole proxy for the lost essence.",
+    "story_option": "Setting: Leaning against a stark concrete pillar in an unfamiliar transit area; Desire: For the brief shadow that falls across the surface to perfectly capture the geometric imperfection of home-made crust; Obstacle: Blinding, indifferent urban lighting.",
+    "subject_rotation": "Analyzing the act of swallowing this final taste-ghost as a ritualistic offering to memory itself.",
+    "sensory_detail": "A deep, internal chill that seems disproportionate to the ambient temperature, signifying emotional lack.",
+    "research_question": "What specific Bengali verb exists to describe the lingering flavor sensation that is neither wholly present nor entirely gone?",
+    "structural_variant": "A descent structure: starting vast and expansive (the whole missing life), shrinking down to the infinitesimal point of residue on the tongue.",
+    "variety_note": "Unlike earlier chapters focused on external market chaos, this chapter plunges entirely inward, using the remnants of the food item as a catalyst for intense psychological archaeology."
+  }
+}

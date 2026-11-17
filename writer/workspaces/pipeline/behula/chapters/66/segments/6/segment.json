@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 66,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "ভেতরের শক্তির উৎস",
+  "segment_summary": "এই টিকে থাকার লড়াইয়ে, তার ভেতরের শক্তির উৎস কী—তা কেবল ব্যক্তিগত সংকল্পের চেয়েও গভীর কিছু ইঙ্গিত দেয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Analyzing her endurance not through grand gestures, but through minute corporeal acts—a specific posture held during grief, or the precise rhythm of breath taken while alone.",
+    "story_option": "Setting: Near a forgotten piece of jewelry or heirloom in her private corner; Desire: To feel its material weight ground her against psychic drift; Obstacle: Its surface being polished smooth by ceaseless, fruitless worry.",
+    "subject_rotation": "Examining her internal life through the lens of time distortion: Moments where hours feel like centuries due to overwhelming emotional weight.",
+    "sensory_detail": "A low, subsonic hum felt in the sternum rather than heard by the ear (sound).",
+    "research_question": "How can the concept of 'mineral formation' be poetically applied to describing psychological hardening or resilience in a romantic, non-scientific manner?",
+    "structural_variant": "Beginning the poem with the finality of stillness (the 'aftermath') before tracing backward through the internal erosion leading up to that quiet strength.",
+    "variety_note": "This chapter deepens the psychological terrain established earlier, focusing entirely on the *internal mechanics* of sustained suffering and resolve, rather than external conflict or momentary bursts of hope."
+  }
+}

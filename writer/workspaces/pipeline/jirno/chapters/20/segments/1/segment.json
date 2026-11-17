@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 20,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "প্রলয়ের পূর্বাভাস",
+  "segment_summary": "চৈত্র পেরিয়ে বৈশাখের প্রথম প্রলয়ঙ্কর ধূলিঝড়, কালবৈশাখী, রুক্ষ প্রকৃতিতে ঘনিয়ে আসে, যা আসন্ন ধ্বংসের অনিবার্য পূর্বাভাস দেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the concept of 'necessary emptiness' not as a passive void, but as an active state of maximal density—a fullness achieved through complete cessation.",
+    "story_option": "Setting: The threshold between the red earth and the first gust of wind; Desire: To address the shadow of the manor's absent occupant, begging for a final explanation; Obstacle: The overwhelming physical weight of the settling dust; Turn: The traveler finds his own voice dissolving into the sound of dry soil shifting.",
+    "subject_rotation": "Shifting focus from *deciding* what happens next, to observing how the landscape dictates that no decision was ever truly possible.",
+    "sensory_detail": "Sound: The precise moment when wind shifts from a rushing sound to a deep, sub-audible hum that vibrates in the sternum.",
+    "research_question": "How did traditional Bengali lyricism describe the transition between a state of potential violence (storm) and absolute stillness?",
+    "structural_variant": "Interleaving short, intensely visceral sensory vignettes (one per segment) that break the momentum of the philosophical argumentation.",
+    "variety_note": "This chapter moves past the *identification* of the conflict (Chapters 1-6) into its active, elemental enactment, emphasizing forced submission to dynamic forces rather than reasoned choice. The voice shifts from analysis to sustained observation under extreme environmental pressure."
+  }
+}

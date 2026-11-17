@@ -1,0 +1,79 @@
+{
+  "chapter_index": 21,
+  "name": "21",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scars of Expression",
+  "chapter_summary": "This chapter delves into the core philosophical conflict: the tension between the societal demand for a polished, acceptable image and the raw, necessary struggle of authentic creation. Debolina confronts the idea that true art must be flawed, mirroring the inherent imperfections of life and the decaying frescoes themselves. The imagery centers on the interplay between the vibrant pigment and the cracks in the plaster, symbolizing vulnerability. The central question remains: Can art achieve ultimate truth only by embracing its own visible wounds?",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 60,
+      "segment_title": "The Imperfect Hue",
+      "segment_summary": "The initial focus is on a specific, flawed patch of pigment where the color bleeds into the surrounding lime wash.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 60,
+      "segment_title": "Cracks as Cartography",
+      "segment_summary": "The fissures in the ancient wall are viewed not as damage, but as a map charting the passage of time and hidden effort.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 60,
+      "segment_title": "The Weight of the Scaffold",
+      "segment_summary": "The physical burden of the scaffolding is equated with the invisible weight of societal expectations pressing upon her spirit.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 60,
+      "segment_title": "Musk and Mortar",
+      "segment_summary": "The sensory clash between the ephemeral musk of the desert and the heavy, grounding scent of wet plaster is explored.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 60,
+      "segment_title": "The Unframed Self",
+      "segment_summary": "Debolina reflects on her refusal to be neatly contained by the domestic expectations of her world.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 60,
+      "segment_title": "The Language of Failure",
+      "segment_summary": "She begins to see her own moments of doubt and failure reflected in the faded, incomplete sections of the mural.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 60,
+      "segment_title": "The Risk of Exposure",
+      "segment_summary": "The act of exposing her raw process is framed as a dangerous gamble against the judgment of the outside world.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 60,
+      "segment_title": "The Immortal Scar",
+      "segment_summary": "The final realization is that the scars—the visible struggles—are what grant the art its enduring, vital truth.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

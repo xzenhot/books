@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 53,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষা ও প্রতিরোধ",
+  "segment_summary": "এই পর্বে, টিকে থাকার সংগ্রাম এবং প্রতিকূলতার বিরুদ্ধে নীরবে প্রতিরোধ গড়ার চিত্র ফুটে ওঠে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal battle not as spiritual, but purely psychological—a constant negotiation with self-doubt against inherited societal expectation.",
+    "story_option": "Setting: A high window facing a relentless, oppressive glare; Desire: To find one moment where the light feels cleansing rather than exposing; Obstacle: The weight of her own unspoken history becoming visible.",
+    "subject_rotation": "Exploring endurance through stoicism, stripping away romanticism to reveal sheer, grueling tenacity.",
+    "sensory_detail": "The abrasive texture of uncleaned, worn stone under bare feet during long hours indoors (Tactile).",
+    "research_question": "How can I invoke a Bengali linguistic equivalent for 'existential fatigue' without sounding clinical or overly academic, matching the high diction?",
+    "structural_variant": "Segment structure built around escalating rhetorical questions (a cascade of 'কেন?', which is not used elsewhere).",
+    "variety_note": "This chapter drills down on sustained internal friction—the weariness born from maintaining dignity in hostile quietude—a stark contrast to the externalized conflict seen in earlier arcs."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 45,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার প্রতিধ্বনি",
+  "segment_summary": "এই নতুন কণ্ঠস্বরটি কি লেখকের নিজস্ব গভীরতম আকাঙ্ক্ষার প্রতিধ্বনি, নাকি এটি অ্যালগরিদমের নিখুঁত নির্মাণ?",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The moment the Author deliberately misspells a key word, attempting to break the AI's algorithmic smoothing.",
+    "story_option": "Setting: A small, forgotten corner of the room where sunlight fails to reach; Desire: To ground the abstract concept of 'voice' in tangible decay or shadow; Obstacle: The Assistant insists on framing this darkness as a metaphor for potential.",
+    "subject_rotation": "Analyzing the lexicon itself: which specific Bengali root words carry the greatest inherent 'humanity' that the AI struggles to replicate?",
+    "sensory_detail": "A brittle, papery sound made by old draft notes being discarded into a digital incinerator.",
+    "research_question": "What is the quantifiable difference in emotional impact between a highly polished, AI-generated statement and an emotionally raw, unedited human burst of feeling?",
+    "structural_variant": "A stream-of-consciousness meditation that spirals from a single, flawless sentence.",
+    "variety_note": "This chapter moves beyond simple awe; it introduces friction by examining the physical cost and moral weight of algorithmic eloquence, distinguishing itself from earlier reflections on linguistic capability."
+  }
+}

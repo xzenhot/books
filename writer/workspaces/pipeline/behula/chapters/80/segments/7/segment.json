@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 80,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নীরব প্রতিবাদী কণ্ঠ",
+  "segment_summary": "তার নীরব প্রতিরোধ সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক শক্তিশালী, কিন্তু অপ্রকাশিত অভিযোগ হয়ে ওঠে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the cultural mandate as a specific, tangible physical entity—a heavy chain made of whispered pronouncements and unspoken duties.",
+    "story_option": "Setting: The threshold of a meticulously decorated, yet suffocatingly traditional, family courtyard; Desire: To perform a mundane ritual perfectly while mentally enacting radical dissent against its implied meaning; Obstacle: A judgmental stare from an unseen elder.",
+    "subject_rotation": "Shifting focus from 'Belief in Gods' to 'Assertion of Self-Sovereignty'—where her faith is merely a tool for establishing personal dominion over societal narrative.",
+    "sensory_detail": "The brittle, dry scent of old brass ritual implements heated by excessive midday sun.",
+    "research_question": "What specific lexical items exist in archaic Bengali that signify 'internal sovereignty' without invoking direct theological language?",
+    "structural_variant": "A deliberately non-linear structure, where a segment about societal pressure is followed immediately by a fragmented memory of absolute freedom (a flashforward/flashback juxtaposition).",
+    "variety_note": "This chapter moves away from pure grief or external defiance (as seen previously) to a deep dive into the *structural* battleground—the collision between deeply ingrained societal programming and irreducible spiritual selfhood."
+  }
+}

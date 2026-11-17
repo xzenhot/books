@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 74,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ব্যক্তিগত যন্ত্রণার ভার",
+  "segment_summary": "বেহুলার হৃদয়ে জমে থাকা শোকের গভীরতা, যা তাকে কেবল একজন ব্যক্তিগত দুঃখী নারী হিসেবে সীমাবদ্ধ না রেখে বৃহত্তর আবেগের উৎস করে তোলে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the suffering not as a wound, but as crystallized resilience—a permanent state of being rather than an event.",
+    "story_option": "Scene Seed: In the lowest hour before dawn (as per lens), she does not weep but instead carefully gathers dust motes from the floor of the empty chamber, treating them as fragments of discarded judgments, and arranges them into a defiant pattern.",
+    "subject_rotation": "Treating her endurance less as spiritual perseverance and more as a radical act of sociological sabotage against oppressive social structures.",
+    "sensory_detail": "The grit of fine, dry earth felt beneath bare feet during a solitary vigil (touch).",
+    "research_question": "What specific archaic Bengali vocabulary can convey 'unyielding ethical scaffolding' without being overly formal or abstract?",
+    "structural_variant": "A circular structure where Segment 8 (the existential question) loops back into the initial emotional state of Segment 1, but with the phrasing inverted—where sorrow now anticipates action.",
+    "variety_note": "This chapter moves beyond the initial shock (Chapter 1) by rigorously examining *how* that shock is processed and transformed, focusing heavily on the societal friction points rather than just the internal resolve."
+  }
 }

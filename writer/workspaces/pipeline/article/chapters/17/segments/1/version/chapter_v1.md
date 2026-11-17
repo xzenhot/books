@@ -1,8 +1,8 @@
-# সংঘর্ষের সন্ধিক্ষণ
+# The Unwritten Chronicle
 
 ## Workshop
 
-শহরের দ্রুত পরিবর্তনশীল কাঠামো এবং মানুষের স্থিতিশীল আকাঙ্ক্ষার সংঘর্ষ তীব্র হয়। অরুণিমা ও বিক্রম যে চাপা সত্য খুঁজে পেয়েছে তা প্রকাশের ঝুঁকি নিতে হবে—কিংবা চুপ থাকতে হবে।
+This chapter delves into the ultimate philosophical impasse of the narrative, where the characters confront the limitations of definitive answers in a sprawling, chaotic metropolis. The conflict centers on whether the profound human experiences—love, loss, and connection—can ever be captured by the rigid structure of a single, digestible 'article.' Imagery shifts between the sterile, high-rise glass and the messy, enduring texture of forgotten paper. The central, unresolved question remains: can true, lasting personal meaning ever escape the ephemeral nature of the news cycle?
 
 ## Story
 

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অকাল ঝড়ের আগমন",
+  "segment_summary": "The sudden, violent arrival of her husband's death acts as the disruptive force, shattering the established peace.",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the initial void not as absence, but as an unbearable pressure—a tautness preceding explosion.",
+    "story_option": "The slow, agonizing ritual of maintaining the household's facade while internally unraveling—the performance of normalcy amidst chaos.",
+    "subject_rotation": "Focusing entirely on the sensory deprivation following the loss—the abrupt change in ambient light and soundscape.",
+    "sensory_detail": "The low, resonant thrumming sound inside an empty chamber that seems to hold trapped echoes.",
+    "research_question": "How can I concretely translate the philosophical weight of 'void' into physical sensations rooted in the declared world vocabulary?",
+    "structural_variant": "Starting mid-action: Behula attempting a routine task that becomes impossibly heavy.",
+    "variety_note": "This chapter moves away from the philosophical confrontation of neighbours; here, we are in the immediate, visceral impact zone—the collision between established harmony and abrupt severance."
+  }
+}

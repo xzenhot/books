@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অস্তিত্বের প্রশ্ন",
+  "segment_summary": "এই পরিস্থিতিতে মাঝি নিজেকে প্রশ্ন করে—এই হিসেবি জগতে তার অস্তিত্বের ভিত্তি কী?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A focus on the *cost* of a single traditional knot; detailing how the specialized rope used for mooring, once common, now carries an exorbitant price tag that undermines his ancient skill.",
+    "story_option": "Setting: The small, cluttered boat repair yard near the ghat. Desire: To secure one specific piece of aged wood for restoration. Obstacle: A buyer demands a price only available through outside commercial channels that bypass river communities. Turn: He must decide whether to take a quick job paying unfairly or risk delay.",
+    "subject_rotation": "Treating economic pressure as a form of ecological erosion—how financial necessity forces him to accept cheaper, more destructive substitutes for traditional materials.",
+    "sensory_detail": "The abrasive grit of cheap, milled wood filings settling in the cracks of his calloused hands.",
+    "research_question": "What are specific, localized dialects or phrases used in this region to express severe financial strain beyond simple monetary terms?",
+    "structural_variant": "A cyclical structure where each segment begins and ends with an observation of the water's surface, reflecting the mood cycle.",
+    "variety_note": "Where previous chapters have focused on external conflicts (bridges, weather), this chapter turns inward and downward, dealing solely with the material weight of commerce pressing upon his livelihood."
+  }
+}

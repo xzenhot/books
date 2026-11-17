@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অসুর বিনাশের মহাজাগতিক নৃত্য",
+  "segment_summary": "মহিষাসুরের প্রতীকী বিনাশের দৃশ্য, যেখানে অশুভ শক্তির বিরুদ্ধে শক্তির অপ্রতিরোধ্য সংগ্রাম চিত্রিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the silence *between* acts of violence—the beat of heart/breath during the transition from mortal fear to divine acceptance.",
+    "story_option": "The perspective shifts to a child watching from afar; their innocent perception filters the terrifying divine energy into something purely luminous and beautiful.",
+    "subject_rotation": "Comparing the momentary intensity of this Hindu cosmic event to a highly focused burst of contemporary creative energy.",
+    "sensory_detail": "The visual contrast between the blinding, incandescent glow emanating from the deity and the deep, absolute umbra pooling around her base.",
+    "research_question": "Are there specific poetic techniques in classical Bengali literature that capture the sensation of compressed temporal energy (like a climax)?",
+    "structural_variant": "A rapid-fire montage structure alternating between extreme close-ups of physical strain/transformation and vast, abstract cosmological views.",
+    "variety_note": "While preceding chapters focused on construction and precursors, this chapter plunges directly into the crucible—the violent fusion of existence and void at the cosmological zenith."
+  }
+}

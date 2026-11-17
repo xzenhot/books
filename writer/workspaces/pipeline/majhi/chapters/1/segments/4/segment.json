@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "মাটির গন্ধের ভার",
+  "segment_summary": "মাঝি কেবল জলপথ অতিক্রম করে না, সে বহন করে বাংলার মাটির সেই প্রাচীন, অবিচ্ছেদ্য গন্ধ।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the micro-sounds of dawn—the specific creak of worn wood against water contrasting with the silence before market noise.",
+    "story_option": "A tiny fishing dinghy drifts near his route; he helps a lone, old fisherman mend nets silently, an act without monetary exchange.",
+    "subject_rotation": "Exploring the geography through texture: focusing intensely on the specific dampness of the riverbank clay versus the smooth grain of the boat.",
+    "sensory_detail": "The sharp, metallic scent of silt disturbed by the oars in the cool morning air.",
+    "research_question": "What are the specific characteristics of Bhatiyali rhythms that align best with moments of deep internal reflection versus overt performance?",
+    "structural_variant": "Structuring segments as a dialogue between the 'Self' (the boatman) and the 'River' (a non-human entity).",
+    "variety_note": "This chapter grounds the abstract conflict by meticulously detailing the physical reality of the boat and its immediate environment, focusing on nascent connection rather than overt confrontation with modernity."
+  }
+}

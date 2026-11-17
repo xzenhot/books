@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 57,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "ঘ্রাণ ও স্মৃতির সংযোগ",
+  "segment_summary": "কীভাবে একটি নির্দিষ্ট তেলের ঘ্রাণ মস্তিষ্কের গভীরে অতীতের নির্দিষ্ট মুহূর্তের একটি সম্পূর্ণ পরিবেশকে ফিরিয়ে আনে, তা এখানে কাব্যিকভাবে অনুসন্ধান করা হয়েছে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The oil as a geological map: tracing the mineral content of regional soil through its pungency.",
+    "story_option": "Setting: A worn wooden *tawa* in a small kitchen; Desire: To force the cold metal's surface memory of past mustard oil heat into active sensation; Obstacle: The current, thin oil refusing to catch that spectral 'fire'.",
+    "subject_rotation": "Focus on 'Viscosity as Time': How thick, heavy mustard oil represents dense, slow-moving memory versus thin, quick neutral oil representing accelerated, disposable present.",
+    "sensory_detail": "The specific visual contrast between mustard oil's aggressively brilliant ochre sheen and neutral oil's flat, almost milky uniformity.",
+    "research_question": "What are precise, non-abstract Bengali descriptors for flavor/aroma that is intensely sharp yet subtly melancholic?",
+    "structural_variant": "Employing the mandated primary lens: repeating the structure of 'তেল... তেল... তেল...' to build cumulative tension before breaking it at the point of grief.",
+    "variety_note": "Unlike previous sections that focused heavily on ingredients or journey, this chapter anchors itself purely in *tactile* sensation—the difference between the two oils' physical presence—as a metaphor for internal conflict."
+  }
+}

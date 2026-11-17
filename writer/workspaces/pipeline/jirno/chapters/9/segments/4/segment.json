@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "আদিম ভারসাম্যের পাঠ",
+  "segment_summary": "এই ভূমি ও মানুষের মধ্যেকার আদিম ভারসাম্যকে তারা এমন এক সত্য হিসেবে উপস্থাপন করেন যা কোনো লিখিত ইতিহাস দ্বারা ব্যাখ্যা করা সম্ভব নয়।",
+  "name": "9.4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The subtle interplay between the Satual elders' non-verbal communication and the traveler's over-reliance on verbal categorization.",
+    "story_option": "Setting: The perimeter line between the ruin and the paddy fields, Desire: To understand if the land itself grants consent to human endeavor or actively rejects it, Obstacle: A specific ancestral boundary marker that resists all contemporary measurement.",
+    "subject_rotation": "Shifting focus from 'indifference' (as a philosophical state) to 'active acceptance'—how the Satual community *acts* in ways that preserve entropy.",
+    "sensory_detail": "The scent of dry earth mixed with woodsmoke, which is neither comforting nor threatening, merely present and vast.",
+    "research_question": "What specific types of non-verbal cultural markers (gestures, body positions) in the Satual community signify philosophical acceptance rather than refusal?",
+    "structural_variant": "Using sharp breaks between segments to represent moments where the traveler's linguistic imposition fails entirely.",
+    "variety_note": "This chapter pivots entirely away from the destruction (previous chapters) and externalizing conflict; it focuses inward by using the elders not as guides, but as mirrors reflecting the traveler's own internal limitations in highly distilled terms."
+  }
+}

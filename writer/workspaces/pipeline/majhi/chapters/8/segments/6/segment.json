@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নদীর নীরব প্রতিবাদ",
+  "segment_summary": "নদী তার স্বাভাবিক প্রবাহে চলতে থাকলেও, মাঝির ভেতরের সংগ্রাম যেন নদীর নীরব প্রতিবাদ হয়ে উঠছে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the debt metaphorically as a physical accumulation on his body; the weight settling into his shoulder blades mirroring the mounting financial burden.",
+    "story_option": "Setting: Standing at the dock looking out over the water where modern goods are being unloaded via mechanized port facilities. Desire: To find a path that honors both his craft and current necessity. Obstacle: Every potential 'new' job requires abandoning the quiet, self-directed nature of riverside ferrying. Turn: He sees another boatman, younger, using newer, faster, but fundamentally less personal equipment.",
+    "subject_rotation": "An internal monologue where he contrasts the perceived generosity of his past services against the current reality where even a simple ride is anticipated to be priced.",
+    "sensory_detail": "The dryness and brittle quality of the old leather fittings on his boat that suddenly feel too fragile to bear weight.",
+    "research_question": "How does the community respond when a long-standing traditional service (like his) becomes economically unsustainable? Is there resentment or quiet understanding?",
+    "structural_variant": "Structuring segments around specific components: one for hull/wood, one for rigging/rope, one for motor/engine parts (if he considers upgrading), forcing a taxonomy of his vulnerability.",
+    "variety_note": "Where previous chapters have focused on external conflicts (bridges, weather), this chapter turns inward and downward, dealing solely with the material weight of commerce pressing upon his livelihood."
+  }
+}

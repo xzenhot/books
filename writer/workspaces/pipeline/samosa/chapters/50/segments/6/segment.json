@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 50,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "প্রতীকী প্রতিস্থাপন",
+  "segment_summary": "তেলের প্রতিস্থাপনকে কেবল একটি রান্নার পরিবর্তন হিসেবে না দেখে, এটিকে সাংস্কৃতিক পরিচয়ের একটি প্রতীকী ভাঙন হিসেবে উপস্থাপন করা হবে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A rapid montage sequence alternating between the aggressive, vibrant color palette of mustard oil vs. the flat greys and whites of imported oil.",
+    "story_option": "Setting: Standing near a port or border, where spices are being unloaded; Desire: To catch an authentic whiff of spice bloom trapped within cargo; Obstacle: Industrial fumes overwhelming any delicate aroma; Turn: The traveler recognizes that authenticity is not in the object, but in the *intention* to remember.",
+    "subject_rotation": "Analyzing the concept of flavor loss not as decay, but as *translation error* in a culinary language.",
+    "sensory_detail": "The specific warmth (উষ্ণতা) that radiates from newly heated ghee versus modern refined oils.",
+    "research_question": "How can word stress and syllable count be manipulated in Bengali poetry to mimic the rush of an intense, brief aroma versus a slow, pervasive one?",
+    "structural_variant": "An escalating intensity: starting with subtle notes in Segments 1-3, moving into emotional dissonance in Segments 4-6, and concluding with philosophical resignation in 7-8.",
+    "variety_note": "This chapter shifts focus from the object's transformation in transit (neighboring chapters) to the *medium* itself—the cooking oil—as the primary carrier and casualty of cultural displacement, providing an intensified sensory contrast."
+  }
+}

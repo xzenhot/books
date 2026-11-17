@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "অবিস্মরণীয় অধ্যায়",
+  "segment_summary": "তার জীবনকাহিনী কেবল ইতিহাসের পাতায় নয়, বরং নারীত্বের চেতনায় এক অবিস্মরণীয় অধ্যায় রচনা করে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The reunion as a perfect re-synchronization of two distinct cosmic orbits, rather than merely a merging.",
+    "story_option": "Setting: A desolate patch of earth near a riverbed, Desire: To test the physical solidity of the ground with bare feet to affirm reality after illusionary trials; Obstacle: The silt feels both impossibly solid and transiently liquid.",
+    "subject_rotation": "Treating the final victory as an unsustainable peak; suggesting that their new harmony is inherently precarious and requires constant vigilance against systemic entropy.",
+    "sensory_detail": "Sight: The pervasive twilight turning into an impossibly clear indigo, saturating the skin rather than merely coloring the sky.",
+    "research_question": "What archaic Bengali term best conveys 'transcendent weariness' while maintaining elevated poetic register?",
+    "structural_variant": "Implementing a cyclical structure where Segment 1's opening gesture is mimicked in reverse within Segment 7, creating tonal dissonance.",
+    "variety_note": "Unlike previous chapters focused on internal battles, this chapter centers exclusively on the *consequence* of endurance: the quiet aftermath and its lingering philosophical weight."
+  }
+}

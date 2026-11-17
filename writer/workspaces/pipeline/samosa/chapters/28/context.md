@@ -10,17 +10,224 @@
 
 ## word_target
 
-250
+500
+
+## segment_count
+
+8
 
 ## chapter_title
 
-পাসপোর্টের নাম আর ডাকনাম
+চূড়ান্ত স্বাদ
 
 ## chapter_summary
 
-পাসপোর্টে লেখা নাম আর ঘরের ডাকনাম এক নয় — এই দুই নামের মধ্যে একটি জীবনের দুই অংশ।
+এই অধ্যায়টি সেই অস্পষ্ট, কিন্তু গভীর অনুরণনময় স্বাদের অনুসন্ধান করে যা প্রবাসে কখনও পুরোপুরি পাওয়া যায় না। এটি সেই আকাঙ্ক্ষার চূড়ান্ত বিন্দু, যেখানে স্মৃতি এবং বর্তমানের মধ্যেকার ব্যবধান সবচেয়ে প্রকট হয়ে ওঠে। খাদ্যটি শেষ হয়ে গেলেও, জিভে লেগে থাকা সেই শূন্যতাটি কেবল খাদ্যের অভাব নয়, বরং একটি সম্পূর্ণ জীবনযাত্রার অনুপস্থিতি বহন করে। প্রশ্নটি খোলা থাকে: স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা আত্মার গভীরে ভাজা এক অমীমাংসিত সত্য?
 
 ## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+500
+
+#### segment_title
+
+অনুরণনের শেষ ফোঁটা
+
+#### segment_summary
+
+খাবারের শেষ টুকরোটি গিলে ফেলার পর জিভে যে সূক্ষ্ম শূন্যতাটি জন্ম নেয়, তা কেবল পেট ভরের সমাপ্তি নয়, বরং এক দীর্ঘ অপেক্ষার নীরব প্রতিধ্বনি।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+500
+
+#### segment_title
+
+অমীমাংসিত স্বাদের ভার
+
+#### segment_summary
+
+এই শূন্যতাটি কেবল অনুপস্থিতির প্রতীক নয়, এটি সেই আদি সিঙ্গাড়া-র নিখুঁত সংজ্ঞার প্রতি এক গভীর, অপ্রাপ্ত আকাঙ্ক্ষার ভার বহন করে।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+500
+
+#### segment_title
+
+আত্মার ভাজা স্মৃতি
+
+#### segment_summary
+
+এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভের ওপর নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক দূরত্ব অতিক্রম করতে পারে না।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+500
+
+#### segment_title
+
+রাসায়নিক ও মানবিক বিভাজন
+
+#### segment_summary
+
+এখানে স্বাদকে কেবল রাসায়নিক যৌগ হিসেবে বিচার করা অসম্ভব, কারণ এর সঙ্গে মিশে আছে মানব অভিজ্ঞতার গভীরতম আবেগ এবং শিকড়ের টান।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+500
+
+#### segment_title
+
+অস্পষ্ট অনুরণন
+
+#### segment_summary
+
+চূড়ান্ত স্বাদটি কোনো স্পষ্ট চিত্র নয়, বরং একটি অস্পষ্ট, কিন্তু তীব্র অনুরণন—যা বারবার ফিরে আসে কিন্তু কখনোই স্থির হয় না।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+500
+
+#### segment_title
+
+অপেক্ষা বনাম প্রাপ্তি
+
+#### segment_summary
+
+এই অধ্যায়টি সেই অনন্ত অপেক্ষার প্রতিচ্ছবি, যেখানে প্রাপ্তি এবং আকাঙ্ক্ষার মধ্যেকার ব্যবধানই জীবনের প্রধান সুর হয়ে ওঠে।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+500
+
+#### segment_title
+
+অমীমাংসিত সত্যের প্রতিধ্বনি
+
+#### segment_summary
+
+এই কাব্যগ্রন্থের সমাপ্তি কোনো সমাধান নিয়ে আসে না, বরং একটি গভীর, মধুর বিষাদের মাধ্যমে পাঠককে প্রশ্নটির মুখোমুখি দাঁড় করায়।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+500
+
+#### segment_title
+
+চিরন্তন স্বাদ
+
+#### segment_summary
+
+সেই হারানো স্বাদটি, যা কখনও পুরোপুরি পাওয়া যায়নি, তা হৃদয়ের গভীরে এক চিরন্তন, জীবন্ত আর্কাইভ হিসেবে বেঁচে থাকে।
+
+#### further_references
 
 
 ## level
@@ -31,49 +238,47 @@ chapter
 
 scaffolded
 
-## segments
-
-- 1
-
 ## creative_enrichment
 
 ### angles
 
-- Examining how bureaucratic nomenclature (the passport name) functions as a brutal simplification of lived complexity—a flattening of the 'rasal' identity into a mere administrative string.
-- Shifting focus to the performative nature of 'self-naming': How does the individual actively negotiate between the mandated official title and the inherited, visceral moniker? The internal dialectic of selfhood.
-- Treating the dual naming structure as a geographic allegory: One name points rigidly outward (the destination/state), while the other roots inward (the soil/memory).
+- Focusing solely on the physical *residue*—not flavor, but texture or microscopic alteration of the tongue/lips after tasting—as proof of a metaphysical event.
+- Framing the 'I' as being perpetually caught in an ontological loop where every consumption instantly resets the sense of loss to its initial intensity.
+- The poem speaks through fragmented syntax designed specifically to mimic the halting, incomplete quality of memory recall (a linguistic stutter mirroring flavor decay).
 
 ### story_options
 
-- setting: A sparsely furnished, borrowed room smelling faintly of disinfectant., desire: To speak one's true name aloud to a reflective surface—a window pane or mirror—to confirm its substance against the paper record., obstacle: The sheer difficulty in making the unfamiliar syllables of the foreign pronunciation fit the expected cadence, forcing an automatic return to the simplified official sound.
-- setting: A noisy public transport terminus (bus station or railway platform)., desire: To overhear a native speaker use both forms of the name in rapid succession—the administrative version being used for logistics, and the local version carrying emotional weight., obstacle: The overwhelming din of transit drowns out any chance of confirming the resonance of either name.
-- setting: A bureaucratic counter or office where identification is required (e.g., a 'border' check point analogue)., desire: To find an unguarded moment in the clerk’s gaze—a flicker of recognition, pity, or dismissal—when presenting the official document., obstacle: The clerk remains entirely focused on the ink and the standardized form, rendering personal history invisible.
+- Scene: The narrator pauses immediately after swallowing the last crumb; Desire: To feel a specific muscle in his hand twitch, recalling the exact pressure applied during wrapping at home; Obstacle: The sudden intrusion of external ambient noise (like traffic/machinery).
+- Scene: Examining the inside surface of an old metal container where the remnant pieces were held; Desire: For the cold metal to conduct the 'ghost heat' of the original frying process back into his skin; Obstacle: The container’s modern, industrial polish preventing any organic connection.
+- Scene: Standing motionless in a transit space (train/plane departure area); Desire: To synchronize his internal rhythm with the remembered *thump* and *crunch* of dough hitting hot oil; Obstacle: The mechanical regularity of the journey overpowering the organic sound.
 
 ### subject_rotations
 
-- A purely linguistic study: How specific phonemes from Bengali are structurally distorted when transliterated into a less-familiar script (the sound trauma of conversion).
-- An internal monologue focusing on the somatic experience of naming: The physical feeling in the mouth or throat when attempting to articulate one name versus the other.
-- A comparison where the 'ডাকনাম' is treated as an ancestral chant, while the passport name is a modern, cold decree.
+- Treating 'taste' not as an absence, but as a constantly negotiated tension between presence (the wrapper) and spectral quality (the inner flavor).
+- Shifting from focusing on the food item to focusing intensely on the *act of digestion*—how the body processes this incongruent memory.
+- Exploring the failure of verbal language ('Samosa') to map accurately onto the visceral, unspoken reality ('Singara').
 
 ### sensory_details
 
-- The dry, almost brittle texture of the paper ID against sweaty palm (touch/sight).
-- The metallic echo in the throat when forcing out the foreign syllables of the official designation (sound/sensation).
-- The specific scent of recycled ink and aged laminate from official documents (smell).
+- Sight: The way residual specks of spice cling like dried, ochre dust to the folds of linen worn in travel bags.
+- Touch: The faint, internal ache or phantom tightness beneath the sternum when recalling the 'hotness' of a perfect batch.
+- Sound: A near-silent, high-frequency scraping sound—like burnt sugar crust against ceramic—which serves as the baseline noise for all reflection.
 
 ### research_questions
 
-- What are common, informal Bengali nickname structures that carry deep cultural meaning versus formal registry names?
+- How can Tatsama and Hindi diction be integrated not just for vocabulary enrichment, but to create a deliberate phonetic dissonance that mirrors cultural fragmentation?
+- What Bengali word/phrase most closely encapsulates 'the lingering sense of something correct being inherently flawed'?
 
 ### structural_variants
 
-- A highly fragmented structure where each stanza presents a word or phrase from one name followed by its opposite counterpart (official/folk), creating rhythmic dissonance.
-- Starting with the act of physically holding both documents side-by-side before dissolving into internal linguistic debate.
+- Alternating between 4-line stanzas dedicated purely to sound invocation and 4-line stanzas focused on tactile memory.
+- Using the structure of a fractured recipe card—listing ingredients, then inserting highly complex philosophical verse where instructions should be.
 
 ### unused_angles
 
-- The role of intermediaries—the person who must constantly translate or mediate between the two names in social settings (a lost opportunity for external narrative tension).
+- A moment of sharp self-critique regarding the narrator's own indulgence in this nostalgic longing.
+- Comparing the 'void' left by the taste to a specific, known geological void or empty space on a map/chart (linking geographical absence to sensory absence).
 
 ### variety_note
 
-This chapter deviates from previous sections by focusing intensely on nomenclature and identity articulation rather than purely culinary sensory experience, grounding the diaspora metaphor in paperwork.
+This chapter diverges from neighbours by prioritizing the somatic aftermath—the internal resonance and lingering physical sensation after consumption, rather than focusing externally on setting or preparation.

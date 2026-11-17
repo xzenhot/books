@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 18,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "চায়ের ঘাম ও সিঁদুরের রেখা",
+  "segment_summary": "The poem begins by juxtaposing the transient moisture of a railway chai glass against the enduring, yet delicate, line of vermilion on a threshold.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Volta: কবিতার শুরু থেকে মধ্যভাগ পর্যন্ত সমস্ত উপাদানকে একটি অস্থায়ী 'সৌন্দর্যের প্রলেপ' হিসেবে উপস্থাপন করা, এবং শেষ অংশে সেই সৌন্দর্যকে ভঙ্গুর বা ব্যর্থ বলে প্রত্যাখ্যান করা।",
+    "story_option": "A memory of the initial chai glass sweat becomes a tactile hallucination during the silence in the bus, forcing a confrontation between perceived solidity and transient moisture.",
+    "subject_rotation": "Treating 'India' not as a geographic or historical entity, but as an accumulation of specific chemical interactions (sweat + soil moisture = aroma; spice + leaf = flavor).",
+    "sensory_detail": "The sharp metallic tang of wet iron railings at dawn contrasting with the deep sweetness of over-brewed chai residue.",
+    "research_question": "What are the specific lexical/semantic overlaps in Bengali describing 'fleeting beauty' versus 'enduring pattern' that could support this thematic tension?",
+    "structural_variant": "A fragmented collage structure where segments are not linearly connected but exist in asynchronous loops, echoing memory.",
+    "variety_note": "This chapter moves beyond the gentle observation seen in previous segments by introducing an overt philosophical conflict (Permanence vs. Ephemerality) and forcing the imagery into a high-stakes interrogation, rather than quiet documentation."
+  }
 }

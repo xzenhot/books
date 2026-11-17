@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 4,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মার পরীক্ষা ক্ষেত্র",
+  "segment_summary": "Behula's existence becomes a stage for a supreme test of the soul, where endurance is valued above immediate relief or comfort.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The physicality of faith under duress: Depicting prayer not as ethereal communion, but as a violent, internal physical struggle against despair, mirroring deep muscular tension.",
+    "story_option": "In the quiet hours before dawn in her chamber (Setting), she speaks aloud—a monologue addressed to Likhindar's empty side of the bed (Desired Response: A phantom warmth) trying to break the celestial deadlock.",
+    "subject_rotation": "Analyzing the 'Cosmic Opposition' not as punishment, but as a necessary friction that refines purity (Sattva) into diamond hardness.",
+    "sensory_detail": "The specific, bone-deep chill that enters the room when celestial 'silence' is perceived, contrasting sharply with the internal fire of resolve.",
+    "research_question": "How can the diction reflect a tension between ancient ritualistic language and modern philosophical questioning (as per mandates)?",
+    "structural_variant": "A recursive structure where each segment begins by re-stating the core premise of unanswered prayer, with subsequent segments offering different avenues (action, internal state, metaphysical object) to explore that premise.",
+    "variety_note": "This chapter moves entirely inward toward metaphysical conflict, contrasting sharply with previous segments that dealt with external societal or familial pressures; it is a purely transcendental engagement."
+  }
+}

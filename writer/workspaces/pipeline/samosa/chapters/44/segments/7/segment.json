@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা অংশ",
+  "segment_summary": "এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভে নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা কোনো ভৌগোলিক দূরত্ব অতিক্রম করতে পারে না।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the entire poem on a single, heat-warped speck of oil residue left on the teeth after consumption.",
+    "story_option": "The speaker examines an old, chipped ceramic *thala* where the last piece was eaten; Desire: To find the faint saffron stain that holds the scent of distant ancestors; Obstacle: The residue is chemically dulled by foreign grease.",
+    "subject_rotation": "Treating 'aspiration' not as future hope, but as the weight of unfulfilled past moments clinging to the palate.",
+    "sensory_detail": "The gritty, metallic aftertaste left when saliva mixes with foreign seasoning dust.",
+    "research_question": "What precise Bengali word captures the feeling of taste recognition being present yet unreachable due to cultural displacement?",
+    "structural_variant": "A structure built around ascending and descending scales of perceived flavor intensity, mapping a peak memory followed by exponential decay.",
+    "variety_note": "This chapter contrasts sharply with discussions of market chaos (Neighbour 1/2) by retreating entirely inward, focusing on the post-consumption void rather than the sensory input during eating. It leans into philosophical resonance over narrative action."
+  }
+}

@@ -4,19 +4,19 @@
   "chapter_index": 7,
   "segment_index": 5,
   "total_segments": 8,
-  "segment_title": "মাঝির কান",
-  "segment_summary": "মাঝির কান দুই সুরই শোনে, কিন্তু তার হৃদয় জানে কোনটা বাঁচিয়ে রাখার মতো; কবিতা এই নির্বাচনকে মূল্যবোধ হিসেবে পড়ে।",
-  "name": "5",
+  "segment_title": "অলিখিত চুক্তি",
+  "segment_summary": "নৌকার আশ্রয়ে থাকা দরিদ্রতম যাত্রীর জন্য সংরক্ষিত সেই অলিখিত অঙ্গীকার, যা শত বছরের মানবিকতার প্রতীক, তা এখন ঝুঁকির মুখে।",
+  "name": "7.5",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Treating the engine's exhaust plume visually as a temporary stain on the water that refuses to dissolve like mud or oil.",
-    "story_option": "Setting: Nighttime, near a newly constructed slipway for motorized craft; Desire: To observe an outsider—perhaps Mr. Chatterjee's assistant—using the diesel speed to complete an impossibly fast task; Obstacle: The loss of authentic navigational rhythm in favor of plotted charts.",
-    "subject_rotation": "Examining the psychological effect of constant sonic vibration on Gopal's body, viewing it as a slow form of exhaustion rather than artistic suppression.",
-    "sensory_detail": "The high-pitched, whining metallic resonance felt directly against the wooden grain beneath Gopal's palms when idling too close to a powerful engine.",
-    "research_question": "What is the relationship between sound pollution and perceived spiritual quality in Bengali river culture?",
-    "structural_variant": "A strict alternation: one stanza devoted entirely to 'Water/Song' imagery, immediately followed by a stanza dedicated entirely to 'Engine/Metal' imagery.",
-    "variety_note": "While previous chapters dealt with environmental/cultural friction through geography (Concrete Floodwalls, Muddy Banks), this chapter isolates the conflict entirely within the sonic spectrum—a confrontation of pure sound versus rhythm."
+    "angle": "গোপাল যখন যাত্রীদের দেখছেন, তখন তাদের দারিদ্র্যতা বা আর্থিক অবস্থা নয়, বরং তাদের 'শ্রবণ ক্ষমতার' অভাব—অর্থাৎ আধুনিক যন্ত্রের শব্দে তারা কীভাবে বঞ্চিত হচ্ছেন—তার উপর ফোকাস করা।",
+    "story_option": "সেটিং: নৌকার কোলাহলের মাঝখানে, যেখানে ভাঙা ইস্পাতের টুকরো ভেসে আসে; আকাঙ্ক্ষা: গোপাল সেই ভগ্ন ধাতুটি তুলে নেন এবং তা দিয়ে একটি অস্থায়ী প্রতীক তৈরি করেন—যা তার জীবনের প্রতিরোধের প্রতিচ্ছবি; বাধা: স্রোত তাকে আবার টেনে নেয়।",
+    "subject_rotation": "সম্পর্কগুলো শুধুমাত্র অর্থনৈতিক লেনদেনের উপর নির্ভরশীল না হয়ে, বরং তাদের পারস্পরিক শারীরিক নির্ভরতার (যেমন: নৌকার কাঠামোর উপর যাত্রী ভর দেওয়া বা স্রোতের ওপর নৌকা ভর করা) মাধ্যমে চিত্রিত হওয়া।",
+    "sensory_detail": "পলিমাটির মাটির তীব্র, চাপা গন্ধ যা ডিজেলের ঝাঁঝালো রাসায়নিক ঘ্রাণকে ভেদ করতে গিয়ে ব্যর্থ হয় (ঘ্রাণ)।",
+    "research_question": "চট্টার্জীর দল কী নির্দিষ্ট ধরণের শব্দ দূষণ সংক্রান্ত প্রতিবেদন তৈরি করছে, যেখানে গোপালের নীরব অস্তিত্বকে কেবল 'অপরিষ্কার পটভূমি' হিসেবে চিহ্নিত করা হয়েছে?",
+    "structural_variant": "প্রথম অংশ হবে সম্পূর্ণভাবে যান্ত্রিক দৃশ্য (শব্দ ও চিত্র), এবং দ্বিতীয় অংশে গোপালের দীর্ঘ, অভ্যন্তরীণ মননমূলক প্রতিক্রিয়া আসবে—যেন দুটি ভিন্ন মহাজাগতিক লয় একই দৃশ্যে বাজছে।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলো সংঘাতের সূচনা বা তার বাহ্যিক রূপ নিয়ে আলোচনা করেছে; এই পর্বটি সরাসরি সেই সংঘাতকে মানবিক চুক্তির ভিত্তিতে পরীক্ষা করে এবং শব্দগত দ্বান্দ্বিকতাকে কেন্দ্রে আনে।"
   }
 }

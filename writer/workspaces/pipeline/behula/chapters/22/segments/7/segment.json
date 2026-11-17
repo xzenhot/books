@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের মহিমা",
+  "segment_summary": "বেহুলার যাত্রা প্রমাণ করে যে, ভেতরের আলোকবর্তিকা বাইরের সমস্ত অন্ধকারের চেয়েও শক্তিশালী হতে পারে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The reunion as a perfect re-synchronization of two distinct cosmic orbits, rather than merely a merging.",
+    "story_option": "Setting: A desolate patch of earth near a riverbed, Desire: To test the physical solidity of the ground with bare feet to affirm reality after illusionary trials; Obstacle: The silt feels both impossibly solid and transiently liquid.",
+    "subject_rotation": "Treating the final victory as an unsustainable peak; suggesting that their new harmony is inherently precarious and requires constant vigilance against systemic entropy.",
+    "sensory_detail": "Sight: The pervasive twilight turning into an impossibly clear indigo, saturating the skin rather than merely coloring the sky.",
+    "research_question": "What archaic Bengali term best conveys 'transcendent weariness' while maintaining elevated poetic register?",
+    "structural_variant": "A deliberate inclusion of a meta-commentary segment (Segment 8) structured entirely in question marks, challenging the premise of narrative closure.",
+    "variety_note": "Unlike previous chapters focused on internal battles, this chapter centers exclusively on the *consequence* of endurance: the quiet aftermath and its lingering philosophical weight."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 61,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অবিশ্বাসের শীতল প্রাচীর",
+  "segment_summary": "শ্বশুরবাড়ির অভ্যন্তরে বিরাজমান সন্দেহের আবছায়া কীভাবে তার আশ্রয়কে এক যুদ্ধক্ষেত্রে পরিণত করেছে, তা এখানে বর্ণিত।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating societal slander ('বিষাক্ত ছড়া') less as sound and more as a pervasive, suffocating atmospheric pressure that resists movement.",
+    "story_option": "Setting: The cold stone steps where her initial struggle began; Desire: A moment of absolute 'smart' respite from internal policing; Obstacle: The persistent shadow of domestic mistrust (অবিশ্বাসের প্রাচীর); Turn: She uses the physical texture of the stone to anchor herself against mental drift.",
+    "subject_rotation": "Using metaphors drawn from natural decay/persistence (e.g., lichen growing on granite), mirroring her slow, stubborn survival.",
+    "sensory_detail": "A pervasive scent of damp earth mixed with expensive, unfamiliar incense used by distant mourners.",
+    "research_question": "How can I linguistically differentiate 'deep sorrow' from 'existential fatigue' using only high-register Bengali diction?",
+    "structural_variant": "A purely fragmented structure, where each segment is a series of sharp, disconnected exclamations rather than flowing verses.",
+    "variety_note": "This chapter deliberately slows the narrative momentum compared to previous segments by foregrounding pure internal friction; where before was external conflict, here it is relentless self-erosion versus stubborn will."
+  }
+}

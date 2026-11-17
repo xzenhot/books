@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 2,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "রঙের প্রতিধ্বনি",
+  "segment_summary": "সোনালী তার চারপাশের জগতের প্রতিটি রঙের মধ্যে তার ভেতরের চাপা আনন্দের প্রতিচ্ছবি খুঁজে পেতে শুরু করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "আলোর উৎসকে নির্দিষ্ট করা—যেমন কোনো দোকানের জানালার ভেদকারী হলুদ আলো এবং তা সোনালী ত্বকের ওপর পড়ার ভিন্ন প্রতিচ্ছবি তৈরি হওয়া।",
+    "story_option": "একটি ব্যস্ত বাজারের ভিড়ে (স্থান), সোনালী হঠাৎ তীব্র মশলার গন্ধে মগ্ন হয়ে যায় (আকাঙ্ক্ষা), কিন্তু জনসমুদ্রের মধ্যে তার নিজস্ব স্পন্দন যেন একটি অদৃশ্য প্রাচীর তৈরি করে দেয় (বাধা)।",
+    "subject_rotation": "ইন্দ্রিয়গত উপলব্ধিকে জ্ঞান বা তত্ত্বের অর্জনের ক্ষেত্র হিসেবে দেখা, যেখানে ইন্দ্রিয়রা যেন দার্শনিক প্রমাণের জন্য উপকরণ।",
+    "sensory_detail": "শীতল পাথরে জমে থাকা ঘামের নোনা স্বাদ (ট্যাক্টাইল/টেস্ট)",
+    "research_question": "এই পরিস্থিতিতে 'বিচ্ছিন্নতার ছায়া' কি কেবল পরিবেশগত নাকি এটি সোনালী-র অভ্যন্তরীণ চেতনার স্থিতিস্থাপকতার অভাবের বহিঃপ্রকাশ?",
+    "structural_variant": "Poem begins with a highly detailed sensory immersion (Segment 1-3), followed by an abrupt halt or shift in meter/tone at Segment 4 to reflect the initial cognitive dissonance.",
+    "variety_note": "This chapter shifts focus from introspection (Chapter 1) to outward immersion; it documents how intense sensory engagement paradoxically deepens the internal sense of alienation."
+  }
 }

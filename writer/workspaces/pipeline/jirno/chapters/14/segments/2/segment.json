@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "অবাচ্য ভাষা",
+  "segment_summary": "সাঁওতালদের চোখে ফুটে ওঠা সেই গভীর, শান্ত স্বীকৃতিটি কোনো শব্দে বাঁধা সম্ভব নয়, এটি এক অস্তিত্বের প্রতিধ্বনি।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating silence not as an absence of sound, but as a palpable, heavy atmospheric substance that physically presses down upon the traveler’s decision-making capacity.",
+    "story_option": "Setting: Among the remnants of a stone boundary wall near the settlement edge; Desire: To physically mimic the Satual posture—a long, unblinking vigil—to absorb their quiet knowledge; Obstacle: A sudden, vivid flash of পলাশ color triggers an obsessive urge to categorize and document it.",
+    "subject_rotation": "Treating the boundary between 'witness' and 'participant' as entirely porous in this moment; the traveler ceases to observe and begins to dissolve into the observation itself.",
+    "sensory_detail": "Sight: The optical illusion caused by extreme heat haze rising from the dry red earth immediately before a change in air pressure.",
+    "research_question": "How is the physiological response (e.g., changes in heart rate, breathing pattern) to profound, overwhelming silence described across literary traditions?",
+    "structural_variant": "Embedding a single, very short passage written in stark, unadorned prose amidst the poetic flow to represent the traveler's final intellectual collapse.",
+    "variety_note": "This chapter diverges from its neighbors by focusing inward on the traveler’s *internal collapse* rather than outward onto environmental action, using the Satual gaze as a mirror for dissolution."
+  }
+}

@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 9,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "প্রশান্তির স্তব্ধতা",
+  "segment_summary": "সমস্ত ইন্দ্রিয়গত উন্মাদনা থেমে গিয়ে এক শীতল, গভীর নীরবতা নেমে আসে, যা বাইরের কোলাহলকে গ্রাস করে নেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The absolute reduction of experience to elemental states: the weight of dust motes suspended in still air, the specific mineral taste of cool stone.",
+    "story_option": "Setting: A single spot on the worn wooden floorboards where dust motes are illuminated by a weak shaft of late-afternoon sun; Desire: To witness the geometry of that stillness without assigning it meaning; Obstacle: The relentless, subtle vibration through the structure itself.",
+    "subject_rotation": "Treating 'void' as an active agent rather than a passive state—the void that necessitates subsequent creation.",
+    "sensory_detail": "The specific chill that radiates off unworked grey slate against bare skin (Tactile/Thermal).",
+    "research_question": "What highly specific Bengali vocabulary exists to describe a silence that is physically dense, not merely absent?",
+    "structural_variant": "A near-monolithic structure where stanzas are extremely long and interwoven, mimicking the sustained pressure of deep contemplation.",
+    "variety_note": "This chapter deliberately slows the momentum established in previous segments; while its neighbours deal with dynamic tension (struggle, awakening), this segment focuses on metaphysical suspension before any subsequent action or release."
+  }
 }

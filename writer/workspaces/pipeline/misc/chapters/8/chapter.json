@@ -2,47 +2,113 @@
   "chapter_index": 8,
   "name": "8",
   "word_target": 500,
-  "chapter_title": "The Bindi",
-  "chapter_summary": "A small bindi sits at the centre of a forehead, and the poem regards the dot of colour as a tiny, concentrated emblem of adornment and belonging.",
-  "further_references": [],
+  "segment_count": 8,
+  "chapter_title": "সন্ধ্যার প্রদীপের শিখা",
+  "chapter_summary": "এই পর্বটি সন্ধ্যার আবছা আলোয় জ্বলে ওঠা একটি মাটির প্রদীপের শিখার উপর দৃষ্টি নিবদ্ধ করে, যা কেবল আলোর উৎস নয়, বরং দিনের শেষে মানুষের আশ্রয় খোঁজার এক আদিম আকাঙ্ক্ষার প্রতীক। এটি আলো ও অন্ধকারের দার্শনিক দ্বন্দকে ক্ষুদ্র পরিসরে এনে উপস্থাপন করে, যেখানে প্রদীপের শিখা ক্ষণস্থায়ী হলেও তার উপস্থিতি গভীর সান্ত্বনা দেয়। এই ক্ষুদ্র শিখাটি বৃহত্তর সামাজিক অস্থিরতার মাঝেও মানুষের টিকে থাকার সহজাত বাসনাকে প্রশ্ন করে, এবং পাঠককে জিজ্ঞাসা করায়—এই ভঙ্গুর আলো কি কোনো স্থায়ী আশার প্রতিচ্ছবি?",
+  "further_references": [
+    "research.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "অন্ধকারের আগমন",
+      "segment_summary": "সন্ধ্যার আবছা আভা যখন শহরকে গ্রাস করে, তখন প্রদীপের শিখাটি সেই বিশাল শূন্যতার বিরুদ্ধে প্রথম প্রতিরোধ গড়ে তোলে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "মাটির পাত্রের উষ্ণতা",
+      "segment_summary": "মাটির প্রদীপের শীতল কাঠামোতে ধারণ করা সেই সামান্য উষ্ণতা, যা জীবনের ক্ষুদ্রতম নির্ভরতার প্রতীক।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "শিখার নৃত্য",
+      "segment_summary": "বাতাসের সামান্যতম কম্পনে শিখার যে ছন্দোময় নৃত্য চলে, তা জীবনের অনিশ্চিত গতিকে প্রতিফলিত করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "আশ্রয়ের আদিম আহ্বান",
+      "segment_summary": "এই ক্ষুদ্র আলোটি কেবল পথ দেখায় না, বরং দিনভর ক্লান্ত মানব আত্মার জন্য এক আদিম আশ্রয়স্থল তৈরি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "আলোর ক্ষণস্থায়িত্ব",
+      "segment_summary": "শিখার এই উজ্জ্বলতা ক্ষণস্থায়ী, যা জীবনের সমস্ত মহৎ আকাঙ্ক্ষার ভঙ্গুরতাকে সূক্ষ্মভাবে তুলে ধরে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অন্ধকারের গভীরতা",
+      "segment_summary": "প্রদীপের চারপাশে যে গভীর অন্ধকার বিরাজ করে, তা সমাজের অব্যক্ত ভয় ও অজানা ভবিষ্যতের প্রতীক হয়ে ওঠে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "আশা ও বাস্তবতার সংঘাত",
+      "segment_summary": "আলোর এই বিন্দুটি কি কেবলই একটি বিভ্রম, নাকি এটি কঠিন বাস্তবতার মাঝেও টিকে থাকা মানবিক আশার শেষ চিহ্ন?",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "নিঃশব্দ অঙ্গীকার",
+      "segment_summary": "এই প্রদীপের শিখাটি কোনো শব্দ করে না, তবুও এটি নীরবতার মাধ্যমে এক গভীর, সহনশীল অঙ্গীকার বহন করে।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "scaffolded",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Framing the bindi not as a symbol of marriage or piety, but as an accidental splash of pigment reacting chemically to humidity in the humid afternoon air.",
-      "Treating the placement of the bindi as an act of calibration—a tiny focus point against the backdrop of blurred motion (the hurried passersby).",
-      "Exploring the tactile difference: not just the color, but the specific weight or slight grit of the material pressed onto the skin."
+      "আলোর উৎসকে কখনও বর্ণনামূলকভাবে উল্লেখ না করে (যেমন 'শিখা' বা 'প্রদীপ'), কেবল তার প্রভাব—তাপ, কম্পন, রঙের বিচ্যুতি—এর মাধ্যমে এর উপস্থিতি অনুভব করানো।",
+      "প্রদীপের আগুনকে ব্যক্তিগত আকাঙ্ক্ষা হিসেবে নয়, বরং বৃহত্তর সামাজিক নীরবতার একটি শারীরিক প্রতিধ্বনি হিসেবে উপস্থাপন করা যা কোনো কথা বলে না কিন্তু সবাইকে আবদ্ধ রাখে।",
+      "আলোর ফোকাসড বিন্দুটিকে এমনভাবে বর্ণনা করা যেন সেটি সময়ের স্থবিরতা বা 'pause'-এর এক ঘনীভূত মুহূর্ত (concentration point of time) হয়ে ওঠে।"
     ],
     "story_options": [
-      "Setting: A crowded street corner under harsh noon sun; Desire: To track how a bead of sweat interacts with the bindi’s pigment—does it run, dissolve, or simply darken? Obstacle: The anonymity of the figure bearing the mark.",
-      "Setting: Near an old doorway where morning light first strikes faces; Desire: To observe the specific sheen imparted to the dot by low-angle illumination, making it appear like polished obsidian. Obstacle: Other small markings (freckles, dust) competing for focus.",
-      "Setting: A quiet moment on a moving bus—a fleeting profile captured through a dusty window; Desire: To let the act of *passing* deconstruct the meaning of the mark before the memory fades. Obstacle: The vehicle's vibrations distorting the visual clarity."
+      "একটি অপেক্ষারত মানুষ প্রদীপের দিকে তাকিয়ে আছে, তার গন্তব্যের অস্থিরতার বিপরীতে শিখাটি স্থির—কিন্তু সে আলো না চেয়ে বরং মাটির পাত্রের ধীর উষ্ণতা অনুভব করে।",
+      "প্রদীপের সামনে দাঁড়িয়ে থাকা কোনো শ্রমজীবী মানুষের দৃশ্যকল্প: সে আলোর উজ্জ্বলতাকে দেখে না, বরং তার সৃষ্ট তাপ দ্বারা মুহূর্ত সাময়িক তৃপ্তি লাভ করে যা ক্ষণিকের জন্য জীবনের কঠোর বাস্তবতাকে প্রতিহত করে।",
+      "আলোর চারপাশে জমে থাকা ধুলো (যদি থাকে) সেই শিখার তীব্রতার প্রভাবে কেমন আচরণ করে? ধূলিকণাগুলো কি যেন আরও স্থির হয়ে পড়ে বা আলো দ্বারা চালিত হয়?"
     ],
     "subject_rotations": [
-      "Moving from the bindi as an object/adornment to it being a marker of inherited or community practice, tracing its specific shape or border style.",
-      "Examining the contrast between the small, deliberate point and the vastness of the skin it rests upon (the micro vs. macro scale).",
-      "Analyzing the bindi in relation to other temporary bodily markings—mehndi residue, smudges from dust, natural blemishes—as a spectrum of surface decoration."
+      "প্রদীপের আগুনকে 'অপেক্ষার ফিম্বারিটি' (Fimbriation of Waiting) হিসেবে দেখা—যেন অপেক্ষার ভার নিজেই শিখাটিকে ধরে রেখেছে।",
+      "শিখার কাঁপুনির মাধ্যমে সমাজের অস্থিরতা বোঝানো, যেখানে প্রতিটি কাঁপুনি একটি চাপা উদ্বেগ বা অপ্রকাশিত সংঘাতের ইঙ্গিত দেয়।",
+      "আলোর বৃত্তকে 'সামাজিক মহাজাগতিকতার ক্ষুদ্র মডেল' (Miniature Model of Social Cosmos) হিসেবে দেখা—কেন্দ্রীয় আলো এবং তাকে ঘিরে থাকা অন্ধকারই সমাজ ও সমাজের বাইরেকার অনিশ্চয়তা।"
     ],
     "sensory_details": [
-      "The subtle heat radiating off tanned skin immediately surrounding the cool pigment of the dot.",
-      "The powdery, almost chalky texture left on the fingers if one were to absentmindedly touch the forehead. (Touch)",
-      "The sharp, specific shade difference between the vermilion mark and the surrounding natural hue of the wearer’s complexion."
+      "মাটির পাত্রের নিম্ন-ফ্রিকোয়েন্সির তাপ নির্গমন যা চামড়ার কাপড়ের মাধ্যমে স্পর্শযোগ্য (Thermal/Tactile)",
+      "শিখার চারপাশে জমা হওয়া সন্ধ্যার বাতাসের ভারি, ভারী গন্ধ—যা ধূলিকণা ও ইন্ধনের মিশ্রিত এক রাসায়নিক নোট বহন করে (Olfactory)",
+      "প্রদীপের পাশে অপেক্ষারত কোনো জিনিসের ওপর আলো পড়লে তার রঙের তীব্রতা হঠাৎ পাল্টে যাওয়াটা (Visual saturation change)"
     ],
     "research_questions": [
-      "Are there common regional stylistic variations in the application or size of a bindi that could be hinted at through description without naming geography?",
-      "What are the visual qualities (e.g., sheen, opacity) of pigments commonly used for bindis versus those listed as being used elsewhere in the book context?"
+      "ঐতিহাসিকভাবে, মাটির পাত্রের নির্মাণে ব্যবহৃত স্থানীয় কাদামাটির নিজস্ব কোন বৈশিষ্ট্য বা উপাদান আছে যা শিখার উষ্ণতাকে প্রভাবিত করতে পারে?",
+      "'আদিম আকাঙ্ক্ষা'-কে সূক্ষ্মভাবে ফুটিয়ে তোলার জন্য বাংলার লোককথা বা প্রাচীন সাহিত্যে 'আলোর উৎস' সম্পর্কিত কোনো নির্দিষ্ট চিত্রকল্প ব্যবহার করা যায় কি?"
     ],
     "structural_variants": [
-      "A recursive structure where every line detailing the dot is immediately followed by a phrase expanding outward to describe the whole face/person.",
-      "An intentionally fragmented presentation, mimicking how quick glances catch only slivers of color before moving on."
+      "কবিতাটিকে একটি সংলাপের মতো গঠন করা—যদি আলোটি নিজেই একজন নীরব বক্তা হতো, তবে তার প্রথম ‘উত্তর’ কেমন হতো?",
+      "অন্ধকারকে প্রধান চালক হিসেবে স্থাপন করে কবিতা শুরু করা এবং শিখার উপস্থিতি কেবল অনিবার্য পার্শ্ব-প্রতিক্রিয়া হিসেবে দেখানো।"
     ],
     "unused_angles": [
-      "The bindi as a lens refracting or absorbing light differently than the surrounding skin, creating micro-shadows around it.",
-      "Considering the history embedded in the *material*—whether it is natural paste, colored powder, or modern adhesive."
+      "শিখার আলোর দ্বারা প্রতিফলিত হওয়া কোনো দূরবর্তী, তুচ্ছ দৃশ্যের মুহূর্ত (যা বৃহত্তর সত্যের দিকে নির্দেশ না করেও শুধু দৃশ্যগত থাকতে পারে)।",
+      "আলোর এই ক্ষুদ্র বিন্দুটি কীভাবে সময়ের 'linear flow'-কে সাময়িকভাবে উল্টে দেয় বা স্থির করে রাখে তার ওপর দার্শনিক জোর দেওয়া।"
     ],
-    "variety_note": "While previous poems focused on functional objects (glass, scale), this poem focuses entirely on a symbolic application of color onto skin, shifting focus from labor/utility to identity/ritual marking."
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলিতে বাহ্যিক বস্তুগুলোর লেনদেন বা প্রকৃতিগত মিথস্ক্রিয়া দেখানো হয়েছে; এখানে ফোকাস সম্পূর্ণরূপে অভ্যন্তরীণ, স্থিতিশীল এবং ক্ষণস্থায়ী আলোর 'সত্তা' ও এর প্রতীকী ওজন নিয়ে কাজ করা হচ্ছে।"
   }
 }

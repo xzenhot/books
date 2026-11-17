@@ -6,6 +6,7 @@ using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Documents;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
@@ -116,6 +117,7 @@ public static class PageSetupHarness
             ReportConfigurations(report, options);
             ReportBookConfig(report, options, workspace);
             ReportBackCover(report, outputDirectory, options);
+            ReportIndex(report, outputDirectory, plainOptions);
             ReportPublished(report, outputDirectory, workspace, plainOptions);
             ReportDesignPage(report, outputDirectory, workspace);
             ReportDialog(report, outputDirectory, options);
@@ -624,13 +626,17 @@ public static class PageSetupHarness
         var migrated = BookProfile.Load(folder);
         report.AppendLine($"migration: profile={File.Exists(profilePath)} version={migrated?.Version} name={BookProfile.NameOf(migrated)} width={migrated?.Book?.Options?.PageWidthMm} pages={migrated?.Book?.Pages?.Count.ToString() ?? "null"} author={migrated?.Book?.Author ?? "null"}");
 
-        using (var document = JsonDocument.Parse(File.ReadAllText(configPath)))
+        if (File.Exists(configPath))
         {
+            using var document = JsonDocument.Parse(File.ReadAllText(configPath));
             var root = document.RootElement;
             report.AppendLine($"book config after the migration: keys={string.Join(", ", root.EnumerateObject().Select(property => property.Name))}");
             report.AppendLine($"book config print sections gone: display={!root.TryGetProperty(WriterConfiguration.DisplaySection, out _)} overriden={!root.TryGetProperty(WriterConfiguration.BookSection, out _)} pages={!root.TryGetProperty(WriterConfiguration.PagesSection, out _)} profile={!root.TryGetProperty(WriterConfiguration.ProfileSection, out _)}");
         }
-
+        else
+        {
+            report.AppendLine("book config after the migration: absent, the workspace keeps its book in book.json");
+        }
         report.AppendLine($"book name: {BookLayout.BookName(folder)}");
 
         BookLayout.Create("Harness Layout", options, "written by the harness").SaveToBook(folder);
@@ -661,17 +667,21 @@ public static class PageSetupHarness
 
         // A key the pipeline added to config.json has to survive the write of a layout, because the
         // two files are separate now.
-        var nodes = JsonNode.Parse(File.ReadAllText(configPath))!.AsObject();
-        nodes["future_pipeline_key"] = "kept";
-        nodes["chapters"]!.AsArray()[0]!["future_chapter_key"] = 7;
-        File.WriteAllText(configPath, nodes.ToJsonString());
+        if (File.Exists(configPath))
+        {
+            var nodes = JsonNode.Parse(File.ReadAllText(configPath))!.AsObject();
+            nodes["future_pipeline_key"] = "kept";
+            nodes["chapters"]!.AsArray()[0]!["future_chapter_key"] = 7;
+            File.WriteAllText(configPath, nodes.ToJsonString());
+        }
 
         var second = BookLayout.Create("Harness Layout", options, "second write");
         second.Options.PageWidthMm = 105;
         second.SaveToBook(folder);
 
-        using (var document = JsonDocument.Parse(File.ReadAllText(configPath)))
+        if (File.Exists(configPath))
         {
+            using var document = JsonDocument.Parse(File.ReadAllText(configPath));
             var root = document.RootElement;
             report.AppendLine($"book config kept: keys={root.EnumerateObject().Count()} future={root.TryGetProperty("future_pipeline_key", out var future) && future.GetString() == "kept"} chapter_future={root.GetProperty("chapters")[0].TryGetProperty("future_chapter_key", out var chapterFuture) && chapterFuture.GetInt32() == 7} chapters={root.GetProperty("chapters").GetArrayLength()} segments={root.GetProperty("chapters")[0].GetProperty("segments").GetArrayLength()} display={root.TryGetProperty(WriterConfiguration.DisplaySection, out _)}");
         }
@@ -739,6 +749,143 @@ public static class PageSetupHarness
 
     /// <summary>Folder the pages of a harness book are kept in: the pages folder of its print profile.</summary>
     private static string PagesOf(string bookFolder) => PageStore.FolderIn(bookFolder);
+
+    /// <summary>
+    /// Checks that the index is written from the chapters of the book: the title of every chapter
+    /// with the titles of its segments under it and two blank lines between one chapter and the next,
+    /// packed into as many pages as the text area of the page setup holds. A book of many chapters
+    /// needs more than one page, and the export prints the pages that were written where it used to
+    /// print the two it reserves for the index. Building the index again replaces the pages of an
+    /// earlier build instead of adding to them.
+    /// </summary>
+    private static void ReportIndex(StringBuilder report, string outputDirectory, PdfExportOptions options)
+    {
+        var bookFolder = Path.Combine(Path.GetTempPath(), "LocalBookBinder-harness-index");
+
+        if (Directory.Exists(bookFolder))
+        {
+            Directory.Delete(bookFolder, recursive: true);
+        }
+
+        Directory.CreateDirectory(PagesOf(bookFolder));
+        PageStore.Save(bookFolder, BookPages.DefaultGroups());
+        PageStore.Ensure(bookFolder);
+
+        var before = Path.Combine(outputDirectory, "index-before.pdf");
+        QuestPdfExport.Save(BookOf(bookFolder, options.Title ?? "Index"), before, options);
+        report.AppendLine($"index before: pages={CountPagesOf(before)} groups={DescribeGroups(bookFolder)}");
+
+        // Chapters of growing length, so the titles and the segments they list fill more than one
+        // page and the break between the pages falls in the middle of a chapter.
+        var chapters = new List<Chapter>();
+
+        for (var index = 1; index <= 6; index++)
+        {
+            var chapter = index;
+            chapters.Add(new Chapter
+            {
+                Index = chapter,
+                Title = $"Chapter {chapter}: the {new string('a', chapter * 4)} water",
+                Segments = Enumerable.Range(1, chapter + 2)
+                    .Select(segment => new Segment
+                    {
+                        Index = segment,
+                        Title = $"Segment {chapter}.{segment} of the {new string('b', segment * 4)} river",
+                        Body = $"The body of segment {chapter}.{segment}."
+                    })
+                    .ToList()
+            });
+        }
+
+        // A segment with no text prints no page, so it has no line in the index either, and a chapter
+        // that carries only a name is indexed under it.
+        chapters[2].Segments.Add(new Segment { Index = 99, Title = "Segment without a body" });
+        chapters.Add(new Chapter { Index = 7, Name = "The last chapter", Segments = [] });
+
+        var written = IndexPages.Write(bookFolder, chapters, options);
+        report.AppendLine($"index pages: count={written.Count} files=[{string.Join(", ", written.Select(path => $"{path}={SizeOf(bookFolder, path)}"))}]");
+
+        foreach (var path in written)
+        {
+            report.AppendLine($"index page {BookPages.NameOfFile(path)}: {DescribeDesign(bookFolder, path)}");
+        }
+
+        report.AppendLine($"index profile: {DescribePages(bookFolder)}");
+
+        var after = Path.Combine(outputDirectory, "index-after.pdf");
+        QuestPdfExport.Save(BookOf(bookFolder, options.Title ?? "Index"), after, options);
+        var expected = CountPagesOf(before) - 2 + written.Count;
+        report.AppendLine($"index after: pages={CountPagesOf(after)} expected={expected} {(CountPagesOf(after) == expected ? "OK" : "MISMATCH")}");
+
+        // Every page is packed to the height of the text area, so a page that takes a second sheet is
+        // the one thing the packing must never do: the book would print more sheets than it records.
+        var spilled = 0;
+
+        foreach (var path in written)
+        {
+            PageStore.ReplaceFiles(bookFolder, PageGroupRole.Index, [path]);
+            var single = Path.Combine(outputDirectory, $"index-page-{BookPages.NameOfFile(path)}.pdf");
+            QuestPdfExport.Save(BookOf(bookFolder, options.Title ?? "Index"), single, options);
+            spilled += CountPagesOf(single) == CountPagesOf(before) - 1 ? 0 : 1;
+        }
+
+        report.AppendLine($"index sheets: pages={written.Count} spilled={spilled}");
+        PageStore.ReplaceFiles(bookFolder, PageGroupRole.Index, written);
+
+        // A book that loses chapters loses the index pages it no longer fills, and the profile records
+        // only the pages the build wrote.
+        var rebuilt = IndexPages.Write(bookFolder, chapters.Take(1).ToList(), options);
+        report.AppendLine($"index rebuilt for one chapter: pages=[{string.Join(", ", rebuilt)}] folder=[{string.Join(", ", IndexFilesOf(bookFolder))}] profile={DescribePages(bookFolder)}");
+
+        Directory.Delete(bookFolder, recursive: true);
+    }
+
+    /// <summary>The index files a book folder holds on disk, so the report shows the pages a rebuild left behind.</summary>
+    private static IEnumerable<string> IndexFilesOf(string bookFolder)
+    {
+        var folder = Path.Combine(PagesOf(bookFolder), "index");
+
+        return Directory.Exists(folder)
+            ? Directory.GetFiles(folder).Select(Path.GetFileName).OfType<string>().OrderBy(name => name, StringComparer.OrdinalIgnoreCase)
+            : [];
+    }
+
+    /// <summary>Size of a page file of <paramref name="bookFolder"/>, or <c>MISSING</c> when it is not there.</summary>
+    private static string SizeOf(string bookFolder, string relativePath) =>
+        BookPages.Resolve(BookProfile.ProfileFolderOf(bookFolder), relativePath) is { } path && File.Exists(path)
+            ? new FileInfo(path).Length + " bytes"
+            : "MISSING";
+
+    /// <summary>
+    /// A page design read back from its file, paragraph by paragraph, so the report shows the lines
+    /// the index prints and the size each of them is set in.
+    /// </summary>
+    private static string DescribeDesign(string bookFolder, string relativePath)
+    {
+        if (BookPages.Resolve(BookProfile.ProfileFolderOf(bookFolder), relativePath) is not { } path || !File.Exists(path))
+        {
+            return "MISSING";
+        }
+
+        try
+        {
+            var document = RtfExport.LoadDocument(path);
+            var paragraphs = document.Blocks.OfType<Paragraph>().ToList();
+            var lines = paragraphs.Select(paragraph =>
+            {
+                var text = new TextRange(paragraph.ContentStart, paragraph.ContentEnd).Text.Trim();
+                var size = paragraph.Inlines.OfType<Run>().FirstOrDefault()?.FontSize ?? paragraph.FontSize;
+
+                return text.Length == 0 ? "-" : $"'{text}'@{size:0.#}";
+            });
+
+            return $"paragraphs={paragraphs.Count} [{string.Join(", ", lines)}]";
+        }
+        catch (Exception exception) when (exception is not OutOfMemoryException)
+        {
+            return "unreadable: " + exception.Message;
+        }
+    }
 
     /// <summary>A string member of a JSON object, or <c>null</c> when it is absent or not a string.</summary>
     private static string? Text(JsonElement element, string name) =>
@@ -915,6 +1062,15 @@ public static class PageSetupHarness
                     Capture(dialog, Path.Combine(outputDirectory, "dialog-back-cover-pages.png"));
                 }
             }
+
+            // The index tab writes its pages from the chapters of the book. A book folder with no
+            // content to index - the folder of this dialog - has no chapter to build the index from,
+            // so the button says so instead of writing a page.
+            tabs.SelectedIndex = 5;
+            Pump(dialog, () => false, 400);
+            report.AppendLine($"build index: {PressButton(dialog, "BuildIndex_Click", "Index")}");
+            Pump(dialog, () => false, 600);
+            report.AppendLine($"index after the build: message='{FindChildByName<TextBlock>(dialog, "MessageText")?.Text}' pages={DescribePageList(dialog, "IndexPageList")}");
 
             // The arrows and the insert button of a page list are driven through the handlers the
             // buttons are wired to, so the report shows the order a move leaves behind and the page an

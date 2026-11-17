@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ব্যক্তিগত জাগরণ",
+  "segment_summary": "উৎসবের সম্মিলিত শক্তি থেকে সরে এসে, ব্যক্তি জীবনে দেবী শক্তির ক্ষুদ্রতম প্রকাশটি খুঁজে বের করার চেষ্টা করা হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing the entire poem on a single, sustained physical sensation (the phantom ache in the hand post-ritual) that bridges the gap between ecstatic joy and quiet resignation.",
+    "story_option": "Setting: A quiet street corner far from the main pandal; Desire: To recall one specific word or phrase uttered during the Chandi Patha that felt utterly personal; Obstacle: The mental rush to fill the void with mundane planning for the next day.",
+    "subject_rotation": "Treating memory (the stain of sindur/the scent) as an active, almost parasitic entity that resists the return to mundane life.",
+    "sensory_detail": "The dry, papery crunch of fallen shiwuli leaves underfoot on dust-covered pavement (touch/sound).",
+    "research_question": "How can I invoke a poetic rhythm that feels 'settled' or 're-grounded' rather than merely fading, without sounding lethargic?",
+    "structural_variant": "A structure defined by deceleration: each segment must be perceptibly slower and less expansive in imagery than the last.",
+    "variety_note": "Unlike previous chapters that focused on the intensity of arrival/climax, this chapter emphasizes entropy, residue, and the quiet work of psychic integration after the spiritual storm has passed."
+  }
+}

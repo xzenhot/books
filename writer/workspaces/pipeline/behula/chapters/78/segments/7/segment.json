@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 78,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "মহৎ রূপান্তর",
+  "segment_summary": "এই সংগ্রাম তাকে কেবল একজন নারী হিসেবে নয়, বরং এক আদর্শের প্রতীক হিসেবে প্রতিষ্ঠিত করে, যা সমাজের ধারণাকে চ্যালেঞ্জ করে।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating cultural norms not as static rules, but as living, parasitic entities that attempt to drain the internal fire.",
+    "story_option": "Setting: The crowded village gathering (a place of public scrutiny); Desire: To maintain perfect, unreadable stillness during communal rituals; Obstacle: An insistent cousin's veiled questioning about her widowhood.",
+    "subject_rotation": "Shifting focus from 'belief' to 'inherent dignity'—asserting self-worth as an irreducible quality independent of social sanction.",
+    "sensory_detail": "The texture of rough, sun-baked clay from an ancient altar where she stands opposed to expectation (tactile).",
+    "research_question": "What specific archaic Bengali lexical constructions can convey 'unwavering moral fortitude' when resisting societal expectation without resorting to overt theological abstraction?",
+    "structural_variant": "A mosaic structure, where each segment is a vignette focused intensely on one specific cultural micro-aggression.",
+    "variety_note": "Unlike the initial plunge into personal loss (Chapter 1), this chapter focuses entirely outward, engaging directly with external socio-cultural pressures and translating them into internal philosophical assertion."
+  }
+}

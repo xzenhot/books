@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 22,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "এই বিজয় সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগের প্রতিধ্বনি বহন করে রাখে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting society's judgment (the 'বিষাক্ত ছড়া') as the lingering ambient noise in their private sanctuary, even post-reunion.",
+    "story_option": "Setting: Under a strange confluence of night stars (beyond 'ধ্রুবতারা'), Desire: To experience a complete somatic calm—where every strained muscle releases its millennia-old tension at once; Obstacle: A sudden, sharp gust of wind blows through the space, disrupting the fragile peace.",
+    "subject_rotation": "Viewing the reunion through the lens of bureaucratic approval—the triumph succeeding only because some external rule (spiritual or social) finally allowed it.",
+    "sensory_detail": "Touch: The profound thermal uniformity achieved between them, wiping clean the memory of disparate internal struggles.",
+    "research_question": "Are there classical Indian metaphors for two divergent spiritual paths achieving temporary, perfect orbital resonance?",
+    "structural_variant": "Implementing a cyclical structure where Segment 1's opening gesture is mimicked in reverse within Segment 7, creating tonal dissonance.",
+    "variety_note": "Unlike previous chapters focused on internal battles, this chapter centers exclusively on the *consequence* of endurance: the quiet aftermath and its lingering philosophical weight."
+  }
+}

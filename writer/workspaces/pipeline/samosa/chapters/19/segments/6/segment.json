@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ঘূর্ণন",
+  "segment_summary": "এই সমাপ্তিটি লিনিয়ার না হয়ে স্মৃতির ঘূর্ণন দ্বারা চালিত, যেখানে অতীত এবং বর্তমানের স্বাদ একে অপরের সঙ্গে মিশে যায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The shift from internal monologue to sharp, accusatory address directed at the indifferent modern marketplace.",
+    "story_option": "Setting: Standing before a vendor’s display shelf in an unfamiliar border town; Desire: To demand an explanation from the food for its altered name and essence; Obstacle: The vendor only speaks the pragmatic, immediate language of sale ('deal', 'price'). Turn: Realizing the transaction is between two mutually lost worlds.",
+    "subject_rotation": "Interpreting the residual taste/ache as a necessary form of spiritual residue, binding the exile to the origin.",
+    "sensory_detail": "Sight: The unnatural glare off cheap packaging material next to the deep, matte brown of imagined fried dough.",
+    "research_question": "How can I structurally mimic the cyclical nature of memory without resorting to simple repetition in phrasing or image?",
+    "structural_variant": "Dividing the poem based on a temporal shift: 4 segments dedicated solely to 'Before' (Bengal), and 4 segments dedicated solely to 'After' (Abroad).",
+    "variety_note": "This chapter focuses on the sustained aftermath—the residue, the lingering question mark left by consumption—rather than the conflict or initial memory invoked in preceding chapters."
+  }
+}

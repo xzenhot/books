@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 21,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ভাজা অস্তিত্ব",
+  "segment_summary": "এই কাব্য প্রমাণ করে যে, কিছু স্মৃতি কেবল জিভের ওপর নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা সময়ের সঙ্গে ক্ষয় হয় না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the linguistic gap: How does 'Samosa' function as a failed phonetic bridge to 'Singara'? (Lexical barrier angle)",
+    "story_option": "Setting: Beside an imported box of spices on a foreign shelf; Desire: To find one grain that retains the scent profile of Bihar soil; Obstacle: Cross-contamination from industrial processing.",
+    "subject_rotation": "Examining how sensory memory becomes a form of subtle rebellion against assimilation pressures.",
+    "sensory_detail": "The faint mineral tang left by the metal tray where it was placed after frying (taste/touch).",
+    "research_question": "What ancient Bengali culinary practice, referenced in our sources, might have an exact counterpart in contemporary non-Bengali cuisine that shares a conceptual *spirit* even if not the ingredient base?",
+    "structural_variant": "A structure based entirely on contrasting pairs (e.g., Foreign-Old, Soft-Hard, Synthetic-Authentic) for each segment.",
+    "variety_note": "Unlike the earlier chapters focused on concrete events (journey, name change), this chapter delves entirely into phenomenology—the state of being suspended between what was and what is, using taste as the philosophical anchor."
+  }
+}

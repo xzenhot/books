@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "স্মৃতি বনাম স্পন্দন",
+  "segment_summary": "সে প্রশ্ন করে, সেই ঐশ্বরিক অনুভূতিগুলো কি কেবলই ক্ষণিকের ঝলকানি, নাকি তা তার সত্তার গভীরে স্থায়ী কম্পন সৃষ্টি করেছে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating 'questioning' itself as an act of intense physicality: leaning into doubt until it becomes almost painful, like stretching beyond skeletal limits.",
+    "story_option": "Setting: Near a specific object—a heavily tarnished silver locket she does not possess; Desire: To project her deepest unresolved question onto its imagined surface; Obstacle: Her own reflection mocking the unanswered yearning.",
+    "subject_rotation": "Re-examining 'boldness' not as an aggressive stance, but as the profound courage required simply to remain open while eternally unanswered.",
+    "sensory_detail": "A low, infrasonic vibration felt not through hearing, but through the bones beneath the skin (Auditory/Internal).",
+    "research_question": "What are concrete physical metaphors for the concept of 'unansweredness' within the tradition of human experience?",
+    "structural_variant": "Using extreme fragmentation again, but this time to build towards a single, sustained line that refuses punctuation.",
+    "variety_note": "This chapter moves entirely beyond resolution toward sustained inquiry; unlike its neighbours which explored decay or decision points, this segment is defined by perpetual resonance and the act of asking itself."
+  }
+}

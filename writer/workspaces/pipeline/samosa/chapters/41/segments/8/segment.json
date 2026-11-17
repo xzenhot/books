@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 41,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অপেক্ষার প্রতিচ্ছবি",
+  "segment_summary": "এই বাজারের দৃশ্যপটটি সেই নিখুঁত, আদি স্বাদের জন্য এক স্থির, কিন্তু তীব্র আকাঙ্ক্ষার প্রতিচ্ছবি হয়ে ওঠে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the sensory assault of the market as a deliberate, almost performative act of erasure against cultural identity.",
+    "story_option": "Setting: Near a vegetable vendor's mound, where earth meets pavement; Desire: For the aroma clinging to the root vegetables to momentarily resemble Bengali soil dust, Obstacle: A tourist group’s loud foreign chatter drowning out all subtle scent cues.",
+    "subject_rotation": "Treating the market as a vast, involuntary symposium where every competing flavor is implicitly challenging the primacy of memory/home.",
+    "sensory_detail": "The high-pitched whine of distant machinery or amplified vendor calls piercing the olfactory experience.",
+    "research_question": "How can I modulate the register to make the descriptive chaos of the market feel utterly relentless without becoming merely prosaic?",
+    "structural_variant": "Implementing a strict antiphonal structure, alternating lines/stanzas between external market observation and internal gustatory memory.",
+    "variety_note": "Unlike previous chapters which focused on the internal failing or memory retrieval, this chapter externalizes the conflict, making the market itself an active antagonist assaulting the fragile taste of home."
+  }
+}

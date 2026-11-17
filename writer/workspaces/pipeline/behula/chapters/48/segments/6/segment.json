@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 48,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "বিজয় সত্ত্বেও, এই কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক গভীর, নীরব অভিযোগের প্রতিধ্বনি বহন করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Addressing an imagined absent presence (perhaps the memory of Lokhindor/husband) during moments of quietude post-return, knowing there will be no verbal response.",
+    "story_option": "Setting: Facing a mirror in their chambers post-return; Desire: To see the reflection not as 'hers' or 'his,' but as one fused entity forged in ordeal; Obstacle: The terror of realizing that this new unity requires perpetual vigilance against entropy; Turn: They look upon each other, and the image reflects two separate silhouettes held together by an unseen tension.",
+    "subject_rotation": "Examining the nature of commitment: Is it survival instinct manifested in ritual form, or is it a transcendent leap beyond logic?",
+    "sensory_detail": "The metallic tang in the air where divine intervention has recently occurred, sharply contrasting with the earthy smell of home life (olfactory).",
+    "research_question": "How can the language evoke 'existential negotiation' using diction rooted in elevated courtly/mythological registers without becoming purely ornate?",
+    "structural_variant": "An interlocking loop where segments appear to offer resolution but simultaneously introduce a subtle counter-tension—triumph demands eternal watchfulness.",
+    "variety_note": "Unlike neighboring chapters which focused on the *act* of enduring struggle or the initial shock of loss, this section is dedicated entirely to the complex aftermath—the philosophical weight and redefined state of being *after* the ultimate climax."
+  }
+}

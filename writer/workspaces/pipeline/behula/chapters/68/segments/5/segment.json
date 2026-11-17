@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 68,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আলোর চূড়ান্ত শিখা",
+  "segment_summary": "অগ্নির দীপশিখা যখন সর্বোচ্চ শিখরে পৌঁছায়, তখন তা বাইরের সমস্ত সংশয়কে গ্রাস করে নেয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The body as archive: Treating the reunion touch not as sentimental warmth, but as an immediate physical re-writing of past trauma/grief into memory structure.",
+    "story_option": "Setting: The quiet threshold between their private sanctuary and the public gaze; Desire: For him to simply *see* her, without words or gesture, thus validating everything she endured; Obstacle: Her own lingering habit of self-doubt making a physical shield against recognition.",
+    "subject_rotation": "Shifting focus from 'Return' to 'Re-genesis': The victory isn't restoring the old state, but creating a higher form of being derived from the suffering.",
+    "sensory_detail": "The texture contrast: The rough, abrasive feel of past societal judgments against the silken perfection of their rediscovered intimacy (dampatyo-raga).",
+    "research_question": "What specific vocabulary in Bengali tradition denotes a 'sublime' or 'transcendent achievement' when applied to personal emotional recovery?",
+    "structural_variant": "A circular structure where the final lines mirror the opening image/metaphor exactly, but inverted—where hope becomes its own established reality.",
+    "variety_note": "This final chapter emphasizes completion and transcendence, moving away from the intense internal conflict of earlier segments toward a state of quiet, absolute certainty derived from endured adversity. It closes the thematic cycle initiated by the initial void."
+  }
+}

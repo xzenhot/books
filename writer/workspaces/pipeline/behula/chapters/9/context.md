@@ -10,17 +10,224 @@
 
 ## word_target
 
-280
+1000
+
+## segment_count
+
+8
 
 ## chapter_title
 
-গলিত শবের বুকে প্রেমের শুচিতা
+সতীত্ব ও প্রেমের পরিচয়
 
 ## chapter_summary
 
-রোদে পুড়ে ও জলে ভিজে গলিত স্বামীর দেহ যখন বিভীষিকা জাগায়, বেহুলার প্রেম তখন ইন্দ্রিয়গ্রাহ্য বিতৃষ্ণা জয় করে আত্মিক অমরত্বে রূপ নেয়।
+এই অধ্যায়টি বেহুলার চরিত্রের এক অনন্য মাত্রা উন্মোচন করে, যেখানে সতীত্ব ও প্রেমের অখণ্ডতা তার সংগ্রামের মূল চালিকাশক্তি হিসেবে কাজ করে। তার আত্মত্যাগ এবং পবিত্রতার ধারণার মাধ্যমে সে সমস্ত সামাজিক ও আধ্যাত্মিক বাধা অতিক্রম করার শক্তি লাভ করে। এই গভীর আত্ম-সমর্পণের মাধ্যমে, বেহুলার ব্যক্তিগত ট্র্যাজেডি এক মহৎ আদর্শে রূপান্তরিত হয়, যা পাঠককে প্রশ্ন করে—ব্যক্তিগত পবিত্রতা কীভাবে বৃহত্তর সামাজিক প্রতিকূলতাকে প্রতিহত করতে পারে।
 
 ## further_references
+
+- references.md
+
+## segments
+
+### Item 1
+
+#### segment_index
+
+1
+
+#### name
+
+1
+
+#### word_target
+
+125
+
+#### segment_title
+
+অখণ্ডতার প্রতিধ্বনি
+
+#### segment_summary
+
+বেহুলার চরিত্রে সতীত্বের ধারণা কীভাবে তার অস্তিত্বের ভিত্তি তৈরি করে, তা এখানে চিত্রিত হয়।
+
+#### further_references
+
+
+### Item 2
+
+#### segment_index
+
+2
+
+#### name
+
+2
+
+#### word_target
+
+125
+
+#### segment_title
+
+প্রেমের পবিত্র বন্ধন
+
+#### segment_summary
+
+লখিন্দরের প্রতি তার প্রেম কেবল আবেগ নয়, বরং এক পবিত্র অঙ্গীকার হিসেবে উপস্থাপিত হয়।
+
+#### further_references
+
+
+### Item 3
+
+#### segment_index
+
+3
+
+#### name
+
+3
+
+#### word_target
+
+125
+
+#### segment_title
+
+আত্মসমর্পণের পথ
+
+#### segment_summary
+
+সমস্ত প্রতিকূলতার মুখে তার স্বেচ্ছামূলক আত্মসমর্পণ কীভাবে তাকে শক্তি যোগায়, তা কাব্যিক ভাষায় বর্ণিত হয়।
+
+#### further_references
+
+
+### Item 4
+
+#### segment_index
+
+4
+
+#### name
+
+4
+
+#### word_target
+
+125
+
+#### segment_title
+
+বাধা অতিক্রমের মন্ত্র
+
+#### segment_summary
+
+এই পবিত্রতা তাকে কীভাবে সমাজের আরোপিত কলঙ্ক এবং মানসিক চাপ থেকে রক্ষা করে, তা বিশ্লেষণ করা হয়।
+
+#### further_references
+
+
+### Item 5
+
+#### segment_index
+
+5
+
+#### name
+
+5
+
+#### word_target
+
+125
+
+#### segment_title
+
+আলোর উৎস হিসেবে প্রেম
+
+#### segment_summary
+
+প্রেমের এই অটুট শিখা কীভাবে তার ভেতরের দীপশিখাটিকে আরও উজ্জ্বল করে তোলে, তা চিত্রিত হয়।
+
+#### further_references
+
+
+### Item 6
+
+#### segment_index
+
+6
+
+#### name
+
+6
+
+#### word_target
+
+125
+
+#### segment_title
+
+মানসিকতার দৃঢ়তা
+
+#### segment_summary
+
+শারীরিক কষ্টের মাঝেও তার মানসিক দৃঢ়তা কীভাবে এই পবিত্র ধারণার ওপর প্রতিষ্ঠিত, তা তুলে ধরা হয়।
+
+#### further_references
+
+
+### Item 7
+
+#### segment_index
+
+7
+
+#### name
+
+7
+
+#### word_target
+
+125
+
+#### segment_title
+
+মহৎ আদর্শের জন্ম
+
+#### segment_summary
+
+ব্যক্তিগত সংগ্রাম কীভাবে এই পবিত্রতার ধারণার মাধ্যমে এক মহৎ আদর্শে পরিণত হয়, তা আলোচনা করা হয়।
+
+#### further_references
+
+
+### Item 8
+
+#### segment_index
+
+8
+
+#### name
+
+8
+
+#### word_target
+
+125
+
+#### segment_title
+
+অদম্য আত্মার প্রতিচ্ছবি
+
+#### segment_summary
+
+সর্বোপরি, এই অধ্যায়টি বেহুলাকে এক এমন সত্তা হিসেবে প্রতিষ্ঠা করে, যা পবিত্রতা ও সহনশীলতার প্রতীক।
+
+#### further_references
 
 
 ## level
@@ -29,89 +236,49 @@ chapter
 
 ## state
 
-completed
-
-## segments
-
-- 1
+scaffolded
 
 ## creative_enrichment
 
 ### angles
 
-- Focusing on the transformative horror: how decay in the physical realm forces a definition of purity in the spiritual.
-- Treating the body not as a singular loss, but as a confluence point where worldly corruption meets absolute devotion.
-- A lens entirely focused on the mechanics of endurance—the precise musculature and nerve endings protesting while the will overrides them.
+- Focusing on the *silent covenant*—how her vow to Likhindar transcends spoken language, existing only in the shared geography of their devotion.
+- Exploring 'Purity as Resistance': Framing physical and moral sanctity not just as a trait, but as an active weapon against societal corrosion, drawing from ancient philosophical dualisms (Good vs. Imperfect Society).
+- The internal monologue directed at the *unreachable echo*—the beloved whose presence is felt only in the memory of his scent or touch, forcing a meditation on absence defining perfection.
 
 ### story_options
 
-- Setting: The exposed timbers of the raft catching the setting sun's harsh light. Desire: To maintain focus on Lkhindor’s features beneath decomposition; Obstacle: A sudden, overwhelming wave washes over, threatening to conceal him completely from sight.
-- Setting: Inside a shadowed corner of the barge, where dampness collects and fosters unseen life. Desire: To find solace in an internal memory—a specific moment of their vibrant past together; Obstacle: The stench of putrefaction overwhelms that fragile recollection.
-- Setting: As twilight brings a cool, heavy mist onto the water. Desire: To perform one final, quiet ritual upon him, an act of utmost personal intimacy before accepting the journey forward; Obstacle: A chilling sound from the river banks suggests external observers are watching this ultimate private moment.
+- Setting: A secluded riverbank (not the main water body), Desire: To perform an unspoken rite of devotion toward Likhindar’s absent form, Obstacle: The encroaching shadow of communal judgment.
+- Setting: Inside a dimly lit ancestral room where ritual objects are kept, Desire: To purify one specific object through absolute personal resolve before societal scrutiny descends (Turn).
+- Setting: At the boundary stone mentioned in previous segments, Desire: Not to confront society with words, but to physically manifest her vow by marking it onto the earth itself.
 
 ### subject_rotations
 
-- Examining 'purity' not as a static state (sati), but as a volatile action—the continuous, active expenditure of will to *maintain* purity against decay.
-- A microscopic study of touch: how the act of touching him transitions from desperate yearning to almost clinical reverence.
-- Treating the scent and texture of death not as an aberration, but as a new element in the sacred geography of her pilgrimage.
+- Treating 'Sati' not as martyrdom, but as an ultimate act of creative self-possession—a choice that defies external narrative.
+- Examining the concept of 'Absolute Fidelity' as a metaphysical state rather than just a relational one.
+- Analyzing how her purity becomes the only stable element in a chaotic world defined by societal rumour and judgment.
 
 ### sensory_details
 
-- The slick, cold give of slime against skin where hands grasp the timbers near the body's weight.
-- A sharp, acrid smell mixing decay with the metallic tang of river minerals under stress.
-- The strange visual effect of light diffusing unevenly through a film of surface algae coating the water around the load.
+- The cool, mineral taste left on the tongue after prolonged contemplation of an unspoken vow.
+- The texture of aged silk worn during moments of deep internal reckoning—a tactile memory of shared life.
+- A specific sound: the rhythmic *thud* of a solitary pestle grinding spices in isolation.
 
 ### research_questions
 
-- In this context, how is 'shuchita' (purity) defined when confronted by absolute physical entropy? Is it an internal state or a performative one?
+- What precise archaic Bengali imagery exists to convey devotion that is simultaneously utterly personal and universally archetypal?
+- Can I find suitable diction that expresses 'unshakeable resolve' without resorting to overly aggressive or combative language?
 
 ### structural_variants
 
-- A tightly controlled sequence of vignettes, each moment dedicated to wrestling with a specific sensory data point related to the body.
-- An extended metaphor where the decomposition process is mapped onto the erosion of societal expectation.
+- An asymmetrical structure where the first segment builds tension, but the final three segments slow down into a near-meditative, elongated cadence.
+- Using an alternating pattern: one stanza describing external social friction (sharp diction), followed by the next depicting internal sacred stillness (soft, dense diction).
+
+### unused_angles
+
+- How her purity forces the divine element to remain untainted, thereby affecting the wider cosmic balance mentioned in previous lore.
+- A brief digression on how society defines 'wholeness' versus how she defines it through her singular devotion.
 
 ### variety_note
 
-Where previous chapters focused on external resistance (society's gaze) or initial movement, this chapter grounds the struggle in an intensely intimate, physical confrontation with mortality itself.
-
-## draft
-
-### sha256
-
-5019a0e6b7a306e59ea7da8c8ad24f93e0393f64204a98e824593700f9d81bcf
-
-### written_at
-
-2026-10-21T14:03:49.619992+00:00
-
-### origin
-
-write
-
-## quality_review
-
-### status
-
-passed
-
-### sha256
-
-5019a0e6b7a306e59ea7da8c8ad24f93e0393f64204a98e824593700f9d81bcf
-
-### reviewer
-
-quality-agent
-
-### reviewed_at
-
-2026-10-21T16:19:57+00:00
-
-### notes
-
-- Default quality audit passed — poem is written, enriched, and meets quality parameters.
-- Philosophical depth: present
-- Metaphorical richness: present
-- Human accessibility: present
-- Civilizational relevance: present
-- Literary quality: present
-- Ethical framework: present
+This chapter shifts from external struggle (previous chapters) to internal ontological assertion; the focus is less on *fighting* and more on *being*, making the sanctity its primary force.

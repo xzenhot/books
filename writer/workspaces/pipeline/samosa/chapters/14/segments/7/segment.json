@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "অসমাপ্ততার কাব্যিকতা",
+  "segment_summary": "এই আকাঙ্ক্ষাটি একটি স্থির, কিন্তু তীব্র অপেক্ষার প্রতীক, যা কোনো চূড়ান্ত সমাধান দাবি করে না।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the entire conflict not on taste/texture loss, but on a perceived ontological slippage: Is the modern iteration of the food item less 'real' than the memory?",
+    "story_option": "Setting: A sterile airport lounge overlooking unknown transit hubs; Desire: To find one single, untouched clove of familiar spice packet on the tray table; Obstacle: The hum of automated announcements erasing all geographical markers.",
+    "subject_rotation": "Focusing entirely on the ethical dilemma of authenticity: Is it wrong to claim a familiar name for something fundamentally transformed?",
+    "sensory_detail": "A phantom scent of specific, aged turmeric mingling with the metallic tang of imported fryer oil.",
+    "research_question": "What are the established linguistic markers (beyond simple name change) that denote a food item's cultural origin in diaspora literature?",
+    "structural_variant": "A sustained internal monologue where the narrator argues with a perceived ghost of their past self about culinary fidelity.",
+    "variety_note": "This chapter deepens the philosophical rift begun in earlier pieces by moving from mere description of taste loss to an inquiry into ontological status, a shift away from simple geographical displacement."
+  }
+}

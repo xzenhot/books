@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 52,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "সরিষার হলুদ আবেশ",
+  "segment_summary": "বাংলার রান্নাঘরে সরিষার তেলের প্রথম ফোঁটা পড়ার সেই উষ্ণ, ঝাঁঝালো গন্ধটি যেন এক আদিম স্মৃতির সূচনা করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the tactile sensation of residue left by the oils—the difference between a sharp, biting film (mustard) and a smooth, inert slip (neutral).",
+    "story_option": "Setting: A small, dusty shelf holding only bottles of various oils; Desire: To find a single unlabeled bottle that holds the perfect spectral memory of home; Obstacle: The labels have all been worn smooth by travel.",
+    "subject_rotation": "Treating the oil as a form of historical archive, where each fatty acid molecule represents a lost dialect or unremembered ritual.",
+    "sensory_detail": "Visually: The aggressive ochre spread against dull grey counter surfaces during cooking attempts.",
+    "research_question": "What are specific colloquial Bengali descriptors for 'flavor that is fundamentally correct but emotionally incomplete'?",
+    "structural_variant": "A non-linear structure where segments jump between a vivid past memory (Segment 1) and the sterile present observation of oil choice (Segment 2), only to converge on Segment 8.",
+    "variety_note": "This chapter delves deeply into the chemistry and sensory science of flavor loss, moving beyond simple geographical displacement by isolating 'oil' as the primary vehicle for cultural memory decay, unlike neighboring chapters focusing on the whole food item or broader market exposure."
+  }
 }

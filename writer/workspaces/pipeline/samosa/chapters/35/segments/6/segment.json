@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 35,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "রাসায়নিক বনাম মানবিক",
+  "segment_summary": "স্বাদ কি কেবল রাসায়নিক যৌগ, নাকি তা গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ—এই দার্শনিক প্রশ্নটি এখানে চূড়ান্তভাবে উত্থাপিত হয়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The final line explicitly denying any romantic or wistful conclusion, grounding it in cold, indifferent materiality (e.g., the texture of processed starch).",
+    "story_option": "Setting: Examining a crumpled receipt from a roadside vendor in a foreign city; Desire: To trace the provenance chain—from field to fry pan to wrapper—back to the original spice merchant; Obstacle: The transaction being entirely digital and untraceable; Turn: Finding only an alphanumeric code devoid of sensory data.",
+    "subject_rotation": "Focusing on the contrast between the internal *pur* (stuffing) and the external *kholas* (crust), reducing both to pure structural components rather than symbolic ones.",
+    "sensory_detail": "A specific high-frequency metallic whine audible only when chewing in a silent environment.",
+    "research_question": "How precisely does the shift from *sorshir tel* aroma to neutral oil influence the olfactory pathways of memory recall?",
+    "structural_variant": "A strict adherence to a non-traditional meter that mimics the uneven bubbling sound of deep frying.",
+    "variety_note": "This final chapter pivots from melancholic acceptance toward a highly detached, almost scientific examination of persistence—challenging the romantic tendency to find ultimate meaning in the 'sweet melancholy'."
+  }
+}

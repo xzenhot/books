@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "মুক্তির আকাঙ্ক্ষা",
+  "segment_summary": "সর্বশেষে, এই সংগ্রামটি বৃহত্তর অর্থে নারীত্বের অধিকার এবং আত্ম-নির্ধারণের এক নীরব ঘোষণা হয়ে ওঠে।",
+  "name": "8",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Presenting the cultural barriers through an external, almost objective lens of dusty, unyielding architecture, contrasting it sharply with the internal, vibrant heat of her devotion.",
+    "story_option": "Setting: Beside a boundary stone marking community/family territory, Desire: To plant a symbolic seed of 'unapproved' belief in barren ground (Turn), Obstacle: Weather patterns dictated by communal disapproval.",
+    "subject_rotation": "Interpreting 'duty' in this context not through filial obligation, but through the existential requirement to maintain one’s own spiritual sovereignty against societal decree.",
+    "sensory_detail": "A visual texture of finely woven silk garments that feel strangely stiff and constricting against the skin, mirroring societal constraints (Tactile).",
+    "research_question": "How can the concept of 'cultural preservation' be invoked poetically in a way that critiques its stifling nature, rather than merely celebrating continuity?",
+    "structural_variant": "Using very short, staccato tercets (three-line units) during scenes of high societal pressure to create a sense of jarring dissonance.",
+    "variety_note": "Unlike previous chapters that dealt with personal grief or internal strength, this segment focuses externally, using the rigid social body politic as its primary antagonist against her inner luminescence."
+  }
+}

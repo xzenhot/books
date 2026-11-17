@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 9,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আত্মসমর্পণের পথ",
+  "segment_summary": "সমস্ত প্রতিকূলতার মুখে তার স্বেচ্ছামূলক আত্মসমর্পণ কীভাবে তাকে শক্তি যোগায়, তা কাব্যিক ভাষায় বর্ণিত হয়।",
+  "name": "3",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The internal monologue directed at the *unreachable echo*—the beloved whose presence is felt only in the memory of his scent or touch, forcing a meditation on absence defining perfection.",
+    "story_option": "Setting: At the boundary stone mentioned in previous segments, Desire: Not to confront society with words, but to physically manifest her vow by marking it onto the earth itself.",
+    "subject_rotation": "Analyzing how her purity becomes the only stable element in a chaotic world defined by societal rumour and judgment.",
+    "sensory_detail": "A specific sound: the rhythmic *thud* of a solitary pestle grinding spices in isolation.",
+    "research_question": "What precise archaic Bengali imagery exists to convey devotion that is simultaneously utterly personal and universally archetypal?",
+    "structural_variant": "An asymmetrical structure where the first segment builds tension, but the final three segments slow down into a near-meditative, elongated cadence.",
+    "variety_note": "This chapter shifts from external struggle (previous chapters) to internal ontological assertion; the focus is less on *fighting* and more on *being*, making the sanctity its primary force."
+  }
+}

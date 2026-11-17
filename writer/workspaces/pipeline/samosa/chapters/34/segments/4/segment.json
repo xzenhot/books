@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 34,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্বাদের দার্শনিকতা",
+  "segment_summary": "কাব্যটি স্বাদকে একটি দার্শনিক স্তরে উন্নীত করে, যেখানে এটি কেবল জিভের অনুভূতি নয়, বরং গভীরতম মানবিক অভিজ্ঞতার একটি অবিচ্ছেদ্য অংশ হয়ে ওঠে।",
+  "name": "4",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the silence after consumption as a physical substance that can be meticulously swept away (or not).",
+    "story_option": "Setting: A vast, sparsely populated highway shoulder at twilight; Desire: To find a single speck of earth that smells exactly like Bengali monsoon mud; Obstacle: The relentless rush of traffic blurring the landscape.",
+    "subject_rotation": "Shifting focus from 'missing food' to 'impossible memory preservation': how does one archive an ephemeral sensation?",
+    "sensory_detail": "Sound: The dry, papery rustle of packaging waste being crumpled into an unbroken sphere, mimicking contained regret.",
+    "research_question": "How can the rhythm be manipulated to mimic the slow, almost geological process of flavor fading from the palate?",
+    "structural_variant": "Using stanzas that build in density (more intense lexicon) and then abruptly empty out, mirroring the flavor dissipating.",
+    "variety_note": "Unlike its neighbours which focus on the preparation (beginning) or geographical separation, this chapter concentrates solely on the *aftermath* and the philosophical implication of that residue."
+  }
+}

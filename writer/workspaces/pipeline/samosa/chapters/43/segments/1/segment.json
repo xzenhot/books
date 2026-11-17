@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 43,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "শেষ কামড়ের পর",
+  "segment_summary": "সামোসাটির শেষ অংশ গিলে ফেলার পর জিভে যে শূন্যতা নেমে আসে, তা কেবল ভোজনের সমাপ্তি নয়, বরং এক গভীর সাংস্কৃতিক বিচ্ছেদের সূচনা।",
+  "name": "1",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The speaker speaks to a non-existent entity—the ancestral hands that mixed the original dough, forcing an unheard reply.",
+    "story_option": "Setting: A worn, cold steel *tawa* in a modern kitchen; Desire: To coax the phantom warmth back into it by remembering the specific heat of Bengal's afternoon sun; Obstacle: The uniformity of current stovetops.",
+    "subject_rotation": "Treating the 'void' not as absence, but as potential—the space where all lost possibilities of flavor reside.",
+    "sensory_detail": "The sensation of fine, dry powder residue—like crumbled earth—on the tongue after the oil coating has dissipated.",
+    "research_question": "What specific Bengali verb exists to describe the lingering flavor sensation that is neither wholly present nor entirely gone?",
+    "structural_variant": "A descent structure: starting vast and expansive (the whole missing life), shrinking down to the infinitesimal point of residue on the tongue.",
+    "variety_note": "Unlike earlier chapters focused on external market chaos, this chapter plunges entirely inward, using the remnants of the food item as a catalyst for intense psychological archaeology."
+  }
 }

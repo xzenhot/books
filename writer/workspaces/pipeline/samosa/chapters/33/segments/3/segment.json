@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 33,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "অনুবাদিত আকাঙ্ক্ষা",
+  "segment_summary": "এই স্বাদটি একটি 'অনুবাদিত' অভিজ্ঞতার মতো, যা ভাষা বদলের মতোই তার আদি রূপ থেকে বিচ্যুত হয়ে গেছে, কিন্তু আকাঙ্ক্ষাটি অটুট।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the waiting not as passive longing, but as a meticulous, almost obsessive, domestic ritual performed in stark contrast to the chaotic modern environment.",
+    "story_option": "Setting: A moment before dawn, when city noise is at its lowest ebb; Desire: For the quiet to allow the phantom sound of deep frying in ghee (a forgotten variation) to resonate; Obstacle: The internal clock demanding wakefulness for a non-existent purpose.",
+    "subject_rotation": "Treating the residual oil film not as a stain, but as a fragile membrane separating 'here' from 'there'.",
+    "sensory_detail": "The metallic chill emanating from the worn enamel of a forgotten eating dish.",
+    "research_question": "What specific Bengali idiom best conveys an 'unattainable perfection' in sensory experience?",
+    "structural_variant": "Beginning with a sharp, declarative statement about the finality of emptiness (a sudden stop) before spiraling backward into memory.",
+    "variety_note": "This chapter contrasts heavily with preceding segments by focusing entirely on post-consumption entropy—the afterglow, the residue, rather than the act of preparation or initial transit."
+  }
+}

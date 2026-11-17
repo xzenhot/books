@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "স্বাদের দার্শনিক ভার",
+  "segment_summary": "এই অংশে খাদ্যকে কেবল পুষ্টির উৎস হিসেবে না দেখে, এটিকে একটি 'জীবন্ত আর্কাইভ' হিসেবে প্রতিষ্ঠা করা হবে, যা প্রবাসীর আত্মপরিচয়ের ভার বহন করে।",
+  "name": "4",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Conceptualizing the memory of a scent not as an image, but as a measurable frequency or vibration that fails to resonate in the new environment.",
+    "story_option": "The 'I' speaks internally with a ghost scent—a projected memory smell that lasts only a millisecond before being overwritten by the present smog (Setting: Commuter train interior; Desire: To hold onto one perfect second of aroma; Obstacle: The relentless motion and pollution; Turn: Accepting that continuity is broken, moment by fragile moment).",
+    "subject_rotation": "Treating 'ঘ্রাণ' (scent) as a form of temporal distortion—it pulls the present back to the past at an unnatural speed.",
+    "sensory_detail": "The metallic tang of unfamiliar cooking oil against the soft, dusty memory-flavor of Bengal; (Taste/Smell)",
+    "research_question": "How can the cadence and rhythm mimic the physiological action of deep inhalation and subsequent dispersal?",
+    "structural_variant": "A structure based on sensory deconstruction: first analyzing 'what' is smelled, then 'how' the brain processes it, finally what emotion remains.",
+    "variety_note": "Unlike adjacent chapters that focus on the ingredients (oil, potato) or the cultural transition, this chapter isolates the *mechanism* of sensory recall itself—the bridge between chemistry and soul."
+  }
+}

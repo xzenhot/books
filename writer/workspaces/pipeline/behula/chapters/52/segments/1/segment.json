@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 52,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "বিজয়ীর প্রত্যাবর্তন",
+  "segment_summary": "সমস্ত সংগ্রাম শেষে, বেহুলার জীবনে সেই প্রতীক্ষিত প্রত্যাবর্তন ঘটে, যা তার সমস্ত কষ্টের অর্থকে নতুনভাবে সংজ্ঞায়িত করে।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The return is experienced not as a sudden burst of light, but as the slow ingress of dawn filtering through perpetual domestic dust—a quiet accretion.",
+    "story_option": "Setting: The threshold stone of their hermitage; Desire: To recognize his presence without demanding validation; Obstacle: A shared realization that neither has fully shed the isolation they endured.",
+    "subject_rotation": "Shifting emphasis from 'Victory' (achievement) to 'Reconciliation' (the difficult process of two separate selves merging after trauma).",
+    "sensory_detail": "The faint, gritty resistance underfoot from walking across floorboards that have settled unevenly after prolonged absence (tactile/auditory).",
+    "research_question": "How can I articulate a Bengali metaphor for 'fortitude that defies entropic decay' without invoking overly common religious imagery?",
+    "structural_variant": "A continuous stream-of-consciousness structure where the present reunion constantly collapses into flashbacks of previous struggles.",
+    "variety_note": "This chapter focuses heavily on the aftermath—the texture of *being* together after extreme separation, rather than documenting the preceding trials; it embraces subtlety over declarative heroism."
+  }
 }

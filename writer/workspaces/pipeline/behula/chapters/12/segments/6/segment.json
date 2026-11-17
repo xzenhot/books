@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সহনশীলতার মহাকাব্যিক রূপ",
+  "segment_summary": "বেহুলার সহিষ্ণুতা কেবল ব্যক্তিগত গুণ নয়, বরং এটি একটি মহাকাব্যিক আদর্শে পরিণত হয় যা অন্যদের প্রেরণা যোগায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The Dialectic Echo: Framing the collective voice as a conversation between present suffering and ancient, unfulfilled mythological promises.",
+    "story_option": "Setting: A broken threshold or doorway leading into a forgotten space; Desire: To use this symbolic passage to transition from personal sorrow into shared public narrative; Obstacle: The weight of tradition and expectation pressing down on that single entry point.",
+    "subject_rotation": "Analyzing how individual resilience subtly corrodes or forces adjustments within rigid cultural structures.",
+    "sensory_detail": "The dull, persistent vibration felt through the soles of her feet when standing near large groups.",
+    "research_question": "How can I utilize archaic vocabulary to denote a shared, unspoken cultural grievance without becoming overly didactic?",
+    "structural_variant": "An accretion structure: each segment introduces a single, new shared grievance that builds upward in emotional register towards the end.",
+    "variety_note": "This chapter shifts focus from intimate struggle (previous chapters) to sociological resonance; it is about transforming personal pain into a palpable, shared cultural frequency rather than achieving singular dramatic resolution."
+  }
+}

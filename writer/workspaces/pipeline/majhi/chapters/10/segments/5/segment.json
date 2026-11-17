@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 10,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "লেনদেন অতিক্রম",
+  "segment_summary": "এই মুহূর্তটি প্রমাণ করে যে মানবিক সংযোগের লেনদেন কোনো আর্থিক পরিমাপক দ্বারা নির্ধারিত হয় না।",
+  "name": "5",
+  "word_target": 125,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the passenger not merely as poor, but as someone who represents a forgotten tradition or lost narrative of the delta itself.",
+    "story_option": "Setting: Dusk near an abandoned jute mill. Desire: The passenger wants only one specific piece of wisdom or direction for his own difficult journey. Obstacle: The maja's ingrained habit of assessing value resists the intangible request.",
+    "subject_rotation": "Treating the 'story' not as communication, but as a form of physical weight or ballast carried on the journey.",
+    "sensory_detail": "The sound of a single cricket’s relentless chirp echoing unnaturally loud in the deep quiet between dialogue exchanges.",
+    "research_question": "Are there localized Bhatiyali idioms that specifically describe a profound, non-monetary exchange or blessing received from nature/a traveler?",
+    "structural_variant": "Employing an aural structure where the segment opens with the sound of the oars, slows down as the story begins, and then speeds up again upon conclusion.",
+    "variety_note": "This chapter deviates from previous explorations of economic hardship by focusing entirely on an intentional pause—a moment where financial pressure is momentarily superseded by shared human gravity. Unlike Chapter 2’s initial tension, this scene resolves into a profound quietude."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "আত্মার প্রতিজ্ঞা",
+  "segment_summary": "এই পর্বটি মানব চেতনার প্রতিজ্ঞা নিয়ে আলোচনা করে—যে শক্তি একবার জাগ্রত হলে তা আর কখনো সম্পূর্ণ বিলীন হয় না।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the soundscape *after* the peak—the specific rustle of dry earth and receding water, rather than residual noise.",
+    "story_option": "The narrative pauses on an elderly person who does not speak or gesture during Visarjan but instead listens intently to the water receding—Desire: To register the final dissipation through pure auditory reception; Turn: A sudden, inexplicable internal tremor in that listener.",
+    "subject_rotation": "Shifting from Durga's macrocosm to the micro-cosmos of the human digestive/metabolic process as the site of necessary purification (Mahishasura slaying in blood, internal sense).",
+    "sensory_detail": "The cold, damp scent of river moss mingling with the metallic tang of abandoned brass ornaments.",
+    "research_question": "What is the most evocative Bengali word for 'residual spiritual energy' that avoids traditional religious jargon?",
+    "structural_variant": "Using extreme juxtaposition: a single highly technical/modern word (English loanword) placed directly next to a deeply archaic Sanskritized term.",
+    "variety_note": "This chapter deliberately moves away from externalized action (the fight/the parade) toward pure internal resonance; it is a study in echoes and sustained philosophical quietude, contrasting heavily with earlier festival descriptions."
+  }
+}

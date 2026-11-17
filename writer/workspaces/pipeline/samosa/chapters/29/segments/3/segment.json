@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 29,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা অংশ",
+  "segment_summary": "স্বাদকে কেবল শারীরিক পুষ্টির উৎস হিসেবে না দেখে, এটিকে আত্মার গভীরে ভাজা একটি স্মৃতি হিসেবে দার্শনিক স্তরে উন্নীত করা হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Introducing a philosophical tension where the speaker deliberately *chooses* to remain suspended in uncertainty rather than seeking closure.",
+    "story_option": "Setting: Beside an empty *thala* (plate) where only the oily film remains from the last bite; Desire: To use focused breathing techniques (*pranayama*-like focus) to resurrect the flavor molecules clinging to that surface; Obstacle: The physics of evaporation winning against all intention.",
+    "subject_rotation": "Focusing on temporality: how the moment of perfect flavor existed only as an infinite singularity, and consumption was merely its shattering.",
+    "sensory_detail": "Smell: The metallic tang that replaces complex spice notes once the main volatile compounds have dissipated.",
+    "research_question": "How can 'মধুর বিষাদ' be achieved through syntactic fragmentation without descending into merely incoherent stream-of-consciousness?",
+    "structural_variant": "A structure built on a central refrain that acts as a constant negation: 'Not this, but the one before.'",
+    "variety_note": "Unlike earlier chapters that detailed ingredients or travel stages, this chapter focuses entirely on the metaphysical resonance—the *aftertaste* as an abstract philosophical object rather than a concrete memory fragment. It introduces uncertainty as its central theme."
+  }
+}

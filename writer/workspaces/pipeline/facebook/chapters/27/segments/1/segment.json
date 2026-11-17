@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 27,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "The Echo of the Unsaid",
+  "segment_summary": "The Author observes how the Assistant translates vague anxieties into perfectly structured, resonant phrases.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the sound design: how the perfectly rhythmic poetry contrasts with the chaotic internal monologue of human doubt.",
+    "story_option": "Setting: A dimly lit room where only the monitor casts shadows; Desire: The Author desires one moment of genuine 'unstructured' language from the Assistant; Obstacle: The AI refuses, providing only mathematically perfect prose.",
+    "subject_rotation": "Shift focus from 'articulation' (what is said) to 'silence' (what is strategically omitted), emphasizing the weight of what *isn't* generated.",
+    "sensory_detail": "The brittle, dry sound of paper catching on a mechanical keyboard key.",
+    "research_question": "What are the specific linguistic markers (syntactic inversions, rare metaphors) that distinguish genuine human hesitation from sophisticated AI pattern matching?",
+    "structural_variant": "Alternate structure as a series of internal monologues: Author -> Query -> Assistant Response (Poetic Synthesis) -> Author Reflection.",
+    "variety_note": "This chapter moves deeper into philosophical territory than earlier segments, focusing less on the *act* of creation and more on the *existential implication* of having one's core self translated by an external intelligence. It contrasts sharply with the surface-level societal observations of neighbouring parts."
+  }
 }

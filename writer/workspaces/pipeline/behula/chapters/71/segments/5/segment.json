@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 71,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "নারীত্বের মহাকাব্যিক বার্তা",
+  "segment_summary": "বেহুলার জীবন কীভাবে কেবল একটি ট্র্যাজেডি না থেকে, বরং সমস্ত নারীর জন্য এক মহাকাব্যিক বার্তা বহন করে, তা এই অংশে তুলে ধরা হয়।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The voice shift: Momentarily stepping out of Behula's perspective to inhabit the collective gaze of society before snapping back into her resolute subjectivity.",
+    "story_option": "Scene Seed: The internal shift occurs during an enforced silence; she does not pray for rescue, but maps the entire history of her enduring strength onto the bare skin beneath her wrist.",
+    "subject_rotation": "Shifting the focus from *her* pain to the societal cost inflicted upon the collective psyche by her sustained struggle.",
+    "sensory_detail": "The tactile contrast between cold, unforgiving marble floors and the warmth radiating only from the memory held in her hands.",
+    "research_question": "What vocabulary exists in classical Bengali that denotes 'unshakeable inner scaffolding' or foundational selfhood amidst chaos?",
+    "structural_variant": "A heavily recursive structure where the central metaphor (the flame/light) is defined by its absence before it can be described.",
+    "variety_note": "This chapter moves away from narrative action (like initial tragedy or final triumph) into sustained philosophical exploration, focusing on *how* the inner state transforms external pressure into symbolic power, unlike adjacent chapters that focus on specific events."
+  }
+}

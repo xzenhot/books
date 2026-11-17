@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "প্রশ্ন হিসেবে অস্তিত্ব",
+  "segment_summary": "সোনালী কোনো উত্তর খুঁজে না পেয়ে, বরং এই ভঙ্গুরতাকে নিজেই একটি নতুন, চলমান প্রশ্ন হিসেবে গ্রহণ করে, যা তার কাব্যিক যাত্রার ভিত্তি তৈরি করে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing fragility not as failure, but as the necessary condition for perception: only what is about to vanish can be truly seen in its entirety.",
+    "story_option": "Setting: A small bowl containing fallen petals from a rare night-blooming flower (the 'twist'); Desire: To meticulously count these petals as they decay, assigning each one a finite lifespan to quantify ephemeral ecstasy.",
+    "subject_rotation": "Viewing fragility through the lens of craftsmanship: comparing her internal state to delicate Bengali porcelain—beautiful precisely because it risks shattering under pressure.",
+    "sensory_detail": "The distinct visual ripple effect on her fair skin when exposed to sudden shifts in weak indoor light, mimicking the scattering of dew drops (Visual).",
+    "research_question": "How can the concept of 'shattering' be rendered aesthetically in a poetic line without resorting to simple violence, maintaining its delicate nature?",
+    "structural_variant": "An invocation-response structure where the 'speaker' addresses an imagined entity (the wall/reader) whose only response is a single, perfectly weighted caesura in each strophe.",
+    "variety_note": "Unlike the preceding chapters which explored ascent and immersion, this chapter focuses on descent—the beautiful, unavoidable collapse back into the mundane reality by interrogating the nature of time itself through fleeting moments."
+  }
+}

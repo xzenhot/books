@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 27,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "সংগ্রহের জিজ্ঞাসা",
+  "segment_summary": "The poem begins to ask the central question: does the accumulation of these distinct, small acts create a unified national identity?",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treat the philosophical query not as a question, but as a physical sensation experienced by the observer—a low-frequency vibration.",
+    "story_option": "setting: A specific, unnamed railway bench, desire: The observer wishes to catalog the exact temperature of the chai glass before it vanishes., obstacle: The relentless encroachment of a passing train's deafening sound., turn: The observation focuses not on the heat, but on the *absence* of scent in the steam.",
+    "subject_rotation": "Viewing 'India' not through its cultural markers (ritual/tea), but through the sheer mechanical friction of its infrastructure (the bus braking, scale clicking).",
+    "sensory_detail": "The cool, slick residue left on the glass after condensation has dripped away (Tactile).",
+    "research_question": "How does Gibran's philosophy suggest that an unvoiced desire possesses physical weight or density?",
+    "structural_variant": "Implement a strict A-B-A’ structure where segment 1 sets up an image, segments 2-7 build layers of related but distinct images, and segment 8 resolves by mirroring and inverting the initial setup's sensory quality.",
+    "variety_note": "This chapter deliberately moves away from introducing new objects and focuses instead on how previously established objects begin to interact philosophically with each other—the convergence of moisture, ritual marking, transit weariness, and commerce into one grand question."
+  }
+}

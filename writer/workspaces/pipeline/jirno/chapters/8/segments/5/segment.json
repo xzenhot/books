@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "অসম্পূর্ণতার পবিত্রতা",
+  "segment_summary": "সে বুঝতে পারে যে কিছু শূন্যতা বা অসমাপ্তিই এই স্থানের চরম পবিত্রতা বহন করে, যা পূর্ণতার দাবি করে না।",
+  "name": "8.5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Frame the 'self-deception' not as philosophical failing, but as a biological imperative: how modern cognition strains against non-linear decay patterns.",
+    "story_option": "Setting: A shadowed alcove within the ruins; Desire: To painstakingly document one specific pattern of lichen growth as an ultimate record-keeping act, Obstacle: The slow creep of decay consumes the documentation effort faster than it can be recorded.",
+    "subject_rotation": "Exploring the idea that the ruin functions more like a biological organism undergoing programmed senescence, rejecting human intervention entirely.",
+    "sensory_detail": "Touch: The granular friction felt when running one's thumb over strata of mixed time—mortar, mud, human skin cells.",
+    "research_question": "What are non-Western conceptualizations regarding 'completion' versus 'sustaining process' in architecture?",
+    "structural_variant": "A highly rhetorical internal monologue delivered entirely through short, declarative, almost brutal statements to contrast the perceived grandiosity of the ruin.",
+    "variety_note": "This chapter is materially different by centering entirely on the internal conflict—the cognitive clash between ordered knowledge and chaotic reality—whereas neighbours focused more on external observation or philosophical reception."
+  }
+}

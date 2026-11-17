@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 11,
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "ক্ষুদ্র আকাঙ্ক্ষা বনাম বিশাল পটভূমি",
+  "segment_summary": "পথিক নিজেকে বিশাল, অপ্রতিরোধ্য প্রকৃতির পটভূমিতে আবিষ্কার করে, যেখানে তার ব্যক্তিগত অনুসন্ধান একটি নগণ্য বিন্দু মাত্র।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treat the vastness of nature not as passive scenery, but as a deliberate counter-narrative structure that negates human chronology.",
+    "story_option": "Setting: A specific point where shadow meets the cracked red earth; Desire: To physically lean into the overwhelming silence, seeking one definitive resonance of sound that contradicts nature's quietude, Obstacle: The air itself is too thick with waiting.",
+    "subject_rotation": "Treating the red earth itself as a slow-moving conscious entity that is actively indifferent to human endeavor.",
+    "sensory_detail": "Sight: The way the low afternoon light catches motes of pulverized red soil hanging motionless in the stagnant air between structures.",
+    "research_question": "Are there local descriptions (unmentioned in source) that characterize 'calmness' or 'acceptance' using terms related to geological forces, rather than emotional states?",
+    "structural_variant": "A purely observational chapter structured entirely around shifts in light quality (e.g., from harsh, bright sun to diffused, metallic cloud shadow).",
+    "variety_note": "Unlike earlier chapters that focused on specific historical events or dialogue, this segment focuses almost entirely on pure metaphysical confrontation between transient human will and eternal natural process."
+  }
+}

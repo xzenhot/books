@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "স্থায়িত্বের প্রশ্ন",
+  "segment_summary": "A direct confrontation with the concept of national permanence, questioning if the nation is built on monuments or on the accumulation of these overlooked, fleeting minutes.",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "জাতীয় সত্তাকে কোনো 'উপাদান' বা 'মিশ্রণ' হিসেবে না দেখে, এটিকে চলমান একটি 'শ্রবণ প্রক্রিয়া' (Auditory Event) হিসেবে উপস্থাপন করা যা কেবল শব্দ দ্বারা নির্ধারিত হয়।",
+    "story_option": "বাস থামার আগে যাত্রীদের নীরবতা হঠাৎ ভেঙ্গে গেলে তা কোনো শব্দ নয়; বরং সেই নীরবতার মধ্য দিয়ে ভেসে আসা বাতাসের নিজস্ব ঘর্ষণজনিত চাপা ফিসফিসানি (Friction Whisper)।",
+    "subject_rotation": "ছোট বস্তুগুলোকে কেবল প্রতীক নয়, বরং নিজেদের নিজস্ব অভ্যন্তরীণ তাপমাত্রায় এবং রাসায়নিক স্থিতিশীলতায় বর্ণনা করা।",
+    "sensory_detail": "ভোরের ভোরের বাতাস যখন চায়ের গ্লাসের কাঁচ স্পর্শ করে তখন সৃষ্ট অতি সূক্ষ্ম, প্রায় শ্রুতিগোচর 'ক্লিক' শব্দ।",
+    "research_question": "বাংলা কাব্যিক গঠনে কীভাবে বারবার একই ধরনের ক্ষুদ্র বস্তুকে ভিন্ন ভিন্ন আঙ্গিকে (যেমন, ঘাম $\rightarrow$ তাপ $\rightarrow$ অস্থিরতা) ব্যবহার করে একটি দার্শনিক অগ্রগতি তৈরি করা যায়?",
+    "structural_variant": "A Palindromic Stanza Structure: যেখানে প্রতিটি স্তবকের শেষের লাইনটি পূর্ববর্তী স্তবকটির শুরু হওয়ার ধারণার বিপরীতার্থক হয়ে ফিরে আসে।",
+    "variety_note": "এই পর্ব অন্যান্য অধ্যায়ের চেয়ে বেশি বিমূর্ত ও সংহত; এটি বিচ্ছিন্ন চিত্রের তালিকা থেকে সরে এসে সেই চিত্রগুলির সম্মিলিত অস্তিত্বের দার্শনিক প্রতিধ্বনি অনুসন্ধানে মনোনিবেশ করে।"
+  }
+}

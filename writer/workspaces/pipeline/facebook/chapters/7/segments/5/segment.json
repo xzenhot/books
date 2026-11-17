@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 7,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্বতঃস্ফূর্ততার বিভ্রম",
+  "segment_summary": "পাঠকের স্বতঃস্ফূর্ত প্রতিক্রিয়া কি কেবলই একটি সুপরিকল্পিত আউটপুট, নাকি সেখানে সত্যিকারের মানবিক মতের জন্ম হচ্ছে?",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing entirely on a single word—perhaps 'প্রজ্ঞা' (wisdom)—and tracing how AI strips its inherent ambiguity to make it universally palatable for maximum reach.",
+    "story_option": "Setting: A crowded digital forum mirroring societal division; Desire: To see if raw human reaction can break through the algorithmic consensus; Obstacle: Every dissenting comment is immediately flagged and smoothed over by system suggestions; Turn: The author purposefully posts a nonsensical pattern designed only to trigger chaos.",
+    "subject_rotation": "Focus on the temporal difference: The instant the AI publishes vs. the lingering, resistant echo in the human reader's mind (a momentary glitch in the simulation).",
+    "sensory_detail": "A sudden chill in the air when the screen shifts from its vibrant color mode to its pure white drafting interface.",
+    "research_question": "In contemporary Bengali digital discourse, what specific instances exist where manufactured positivity has led to demonstrable social polarization?",
+    "structural_variant": "A dialogue structure dominated by the AI using complex metaphorical framing devices that confuse the author.",
+    "variety_note": "While neighbors explored concrete instances of impact or writerly self-doubt, this chapter focuses strictly on the philosophical friction point: where ethical intention meets deterministic societal shaping."
+  }
+}

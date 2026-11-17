@@ -1,54 +1,118 @@
 {
   "chapter_index": 4,
   "name": "4",
-  "word_target": 250,
-  "chapter_title": "বাড়ির পাশের মোড়",
-  "chapter_summary": "বাড়ির পাশের মোড়ে ভাজা তেলের গন্ধ ভেসে আসে, সন্ধ্যার আলোয় ভিড় জমে। মোড়টি একটি স্থান নয়, একটি অভ্যাস।",
-  "further_references": [],
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "প্রবাসের বাজারের দৃশ্যপট",
+  "chapter_summary": "এই অধ্যায়টি প্রবাসের ব্যস্ত বাজারের পটভূমিতে সামোসার উপস্থিতি নিয়ে আলোচনা করে, যেখানে তার পরিচিত গন্ধের বদলে নতুন, তীব্র উদ্দীপনা তাকে ঘিরে ধরে। এখানে পুরোনো স্মৃতির সঙ্গে নতুন পরিবেশের তীব্র সংঘাত ফুটে ওঠে, যেখানে সামোসা কেবল একটি খাবার নয়, বরং একটি বিচ্ছিন্ন স্মৃতির প্রতীক। প্রশ্নটি হলো—এই বহিরাগত পরিবেশে, পরিচিত স্বাদের ক্ষীণ প্রতিধ্বনি কি আদৌ কোনো অর্থ বহন করে?",
+  "further_references": [
+    "references.md"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "বাজারের কোলাহল",
+      "segment_summary": "প্রবাসের বাজারের তীব্র, অচেনা গন্ধগুলো সামোসার পরিচিত সুবাসকে গ্রাস করে, যা একটি তীব্র সংঘাত তৈরি করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অন্যের গন্ধের আগ্রাসন",
+      "segment_summary": "অন্যান্য খাবারের ঝাঁঝালো, অপরিচিত গন্ধগুলো সামোসার নিজস্ব অস্তিত্বকে ছাপিয়ে যায়, যা সাংস্কৃতিক অনুপ্রবেশের প্রতীক।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "আকৃতি বনাম পরিবেশ",
+      "segment_summary": "ত্রিকোণাকার সামোসার আকার অপরিবর্তিত থাকলেও, তার চারপাশের পরিবেশ তাকে একটি ভিন্ন, বিচ্ছিন্ন সত্তা দান করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "স্মৃতির ক্ষীণ প্রতিধ্বনি",
+      "segment_summary": "এই ভিড়ের মাঝে, সামোসাটি যেন অতীতের একটি ক্ষীণ, প্রায় বিস্মৃত প্রতিধ্বনি বহন করে, যা দ্রুত বিলীন হয়ে যায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "অপ্রয়োজনীয় উদ্দীপনার স্রোত",
+      "segment_summary": "বাজারের অতিরিক্ত উদ্দীপনা এবং দ্রুত গতির জীবনযাত্রা পুরোনো, ধীরগতির স্মৃতির সঙ্গে সংঘর্ষে লিপ্ত হয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "স্বাদের বিচ্ছিন্নতা",
+      "segment_summary": "বহু খাবারের মাঝে সামোসার স্বাদটি কেবল একটি বিচ্ছিন্ন বিন্দুতে স্থির থাকে, যা বৃহত্তর স্বাদের স্রোত থেকে নিজেকে আলাদা করে ফেলে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "অস্বীকৃত পরিচিতি",
+      "segment_summary": "এই নতুন পরিবেশে সামোসাটি তার পরিচিতি পুরোপুরি প্রতিষ্ঠা করতে ব্যর্থ হয়, বরং একটি 'অনুবাদিত' খাদ্য হিসেবে থেকে যায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অপেক্ষার নীরবতা",
+      "segment_summary": "এই বাজারের কোলাহলের মাঝে, বক্তা সেই আদি, নিখুঁত স্বাদের জন্য এক নীরব, অস্থির অপেক্ষা শুরু করে।",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "মোড়ের ভিড়কে বিচ্ছিন্নতার এক বিশাল ক্ষেত্র হিসেবে দেখা: প্রত্যেকেই নিজের ব্যক্তিগত 'খোলস' নিয়ে ভিড়ে parado (দাঁড়িয়ে আছে)।",
-      "গন্ধের স্থিরতা বনাম সময়ের গতি: ভাজা তেলের সুবাস যেন একটি স্থবির স্মৃতি, কিন্তু চারপাশে দ্রুত চলমান জীবনের স্রোত তাকে অতিক্রম করে যায়।",
-      "বাণিজ্যিক প্রতীকী স্থান হিসেবে মোড়টির ব্যবহার: এই মোড় কেবল খাদ্য বিক্রির জায়গা নয়, এটি নতুন নাগরিকত্ব অর্জনের প্রথম দৃশ্যমান পরীক্ষাস্থল।"
+      "The Samosa as a Spectator: Focusing the perspective entirely on the samosa itself reacting to the market's noise.",
+      "A Rhythmic Counterpoint: Using the frenetic rhythm of the market sounds (hustle, bargaining) versus the slow, deliberate ritualistic memory associated with the original food preparation.",
+      "The Failed Transmutation: A focus not on loss, but on how external pressures force a complete semantic shift in the object's meaning."
     ],
     "story_options": [
-      "একটি নির্দিষ্ট দোকানী যিনি প্রতি সন্ধ্যায় একই স্থানে দাঁড়িয়ে থাকা অচেনা প্রবাসীকে দেখে; আকাঙ্ক্ষা হলো তার ভেতরের স্বাদটি শনাক্ত করা, বাধাটি হলো ভিড়ের মধ্যে লোকাল-ভাষার ধ্বনি চাপা পড়ে যাওয়া এবং মোড় হল সেই বিক্রেতার নিজস্ব 'একাকী ভাজা'র গোপন মুহূর্ত।",
-      "আমি নিজেই একজন ক্রেতা—আমার থালা ভর্তি সামোসাগুলো হাতে নিয়ে আমি হেঁটে যাই; আকাঙ্ক্ষা হলো আমার ভেতরের পুরনো 'সিঙ্গাড়া'-এর নকশা খুঁজে বের করা, বাধাটি হলো ভিড়ের ধাক্কায় খোলসটি আলগা হয়ে যাওয়া এবং মোড় হল একটি অচেনা শিশুর হাতের স্পর্শ।",
-      "মোড়টি নিজেই একজন পর্যবেক্ষক—সে দেখছে মানুষ কীভাবে খাদ্যকে ব্যবহার করে এক ক্ষণিকের জন্য 'বাড়ির ঠিকানা' পুনর্গঠন করার চেষ্টা করছে; আকাঙ্ক্ষা হলো সেই সাময়িক 'স্বাদ-স্থান'-টিকে স্থায়িত্ব দেওয়া, বাধাটি হলো বাইরের ফুটপাতের কাঁচা গন্ধ এবং মোড় হল একটি ভাঙা সাইকেলের ঘণ্টি বাজানো।"
+      "Setting: Midday bustle of an international street market; Desire: To momentarily isolate oneself from the sensory overload; Obstacle: The relentless presence of neighboring, brightly-scented stalls.",
+      "Setting: Transitioning between daylight and the harsh glow of market lamps at dusk; Desire: To find a familiar shade of color in the chaotic scene; Obstacle: The external light washing out all subtle internal memories.",
+      "Setting: Inside the speaker's perception of the crowded walkway itself (metaphorical space); Desire: For the crowds to part just long enough to allow an authentic memory to surface; Obstacle: Being constantly jostled by anonymous passersby."
     ],
     "subject_rotations": [
-      "এই অধ্যায়টিকে খাদ্যকেন্দ্রিক বর্ণনার পরিবর্তে কেবলমাত্র ধ্বনি ও শব্দের অনুরণন (Soundscape) নিয়ে লেখা, যেখানে ভাজার শব্দ বাজারের কোলাহল থেকে বিচ্ছিন্ন হয়ে নিজস্ব এক ছন্দ তৈরি করে।",
-      "মোড়টির ভৌগোলিকতাকে শুধুমাত্র একটি স্থান হিসেবে নয়, বরং স্মৃতি এবং আকাঙ্ক্ষার দুটি বিপরীত মেরুর সংযোগস্থল হিসেবে তুলে ধরা; একদিকে স্থির গ্রাম, অন্যদিকে চলমান মহানগরী।",
-      "আমি সামোসার 'আকার'-এর দার্শনিক আলোচনাকে মোড়ের ভিড়ের মধ্যে প্রতিবিম্বিত করা — কীভাবে অসংখ্য ভিন্ন আকার একত্রিত হয়েও বৃহৎ অর্থে একটি অস্পষ্ট রেখা তৈরি করে।"
+      "Treating the market not as a place of consumption, but as a crucible that tests authenticity.",
+      "Examining how the *act* of seeking—the pilgrimage to the market—becomes more significant than finding the food itself.",
+      "The Samosa as Palimpsest: How new flavors are written over old memories on its surface."
     ],
     "sensory_details": [
-      "অতিরিক্ত তেতো, জীর্ণ লবণের ঝনঝন শব্দ, যা কোলাহলের মাঝে হঠাৎ তীক্ষ্ণ হয়ে ওঠে (Auditory)।",
-      "সন্ধ্যা নামার সঙ্গে সাথে তেলের কড়াই থেকে উঠে আসা উষ্ণ বাষ্পের মধ্যে লেগে থাকা ধুলোর স্পর্শ (Tactile/Olfactory mix)।",
-      "ভিড়ের মানুষের পোশাকের ওপর সূর্যের শেষ আভায় প্রতিফলিত হওয়া তৈলাক্ত, হলুদাভ আভা (Visual), যা ক্ষণস্থায়ী এবং ভঙ্গুর।"
+      "The metallic, slightly oily tang from cheap cooking oil used by stall vendors replacing the earthy mustard note.",
+      "The specific high-pitched screech of distant cartwheels against rough pavement under a harsh sun.",
+      "The faint, sweet scent of foreign spices (e.g., cinnamon not tied to Bengal) overpowering the imagined filling."
     ],
     "research_questions": [
-      "এই অঞ্চলের প্রচলিত লোক-শব্দ বা স্ল্যাং nào আছে যা খাবার কেনার সময় ব্যবহৃত হয় এবং যা 'হারানো স্বাদ'-এর সাথে সম্পর্কিত হতে পারে?",
-      "'মোড়' শব্দটি ব্যবহার করলে এর স্থানীয় সাংস্কৃতিক তাৎপর্য (ঐতিহ্যগতভাবে তা কি কেবল বাণিজ্যিক কেন্দ্র, নাকি কোনো মিলনক্ষেত্রও?) কী থাকে?",
-      "'অসমাপ্ত স্বাদ' ধারণার সমর্থনে এমন কোন প্রতীকী বা লোকায়ত চিত্রকল্প আছে যা খাবারের অসমতা বোঝাতে ব্যবহৃত হয়?"
+      "How can the mandated voice articulate overwhelming external stimulus without descending into simple description or complaint?",
+      "What specific Bengali/Tatsama vocabulary best conveys flavor 'dilution' when contrasted with sensory aggression?"
     ],
     "structural_variants": [
-      "এই অধ্যায়টি একটি দীর্ঘ পুনরাবৃত্তিমূলক তালিকা (Litany) হিসেবে শুরু হতে পারে, যেখানে মোড়ে উপস্থিত প্রতিটি জিনিসের নামenumerated হচ্ছে, এবং হঠাৎ করে সেই তালিকায় 'স্বাদ' শব্দটি অপ্রত্যাশিতভাবে ভেঙে পড়ে।",
-      "অধ্যায়টিকে এমনভাবে বিন্যস্ত করা যেতে পারে যেন পাঠক প্রথমে বাইরের কোলাহল অনুভব করেন, তারপর একটি নির্দিষ্ট বিক্রেতার দরজার নিচু স্বরে শব্দগুলো প্রবেশ করে, যা ক্রমশ অভ্যন্তরীণ সংলাপের দিকে চালিত হয়।"
+      "A highly fragmented structure, where each segment is an intense snapshot of a micro-interaction within the market.",
+      "A cyclical narrative where segments 1 and 8 mirror each other precisely in their emotional trajectory, serving as bookends."
     ],
     "unused_angles": [
-      "মোড়ের আশেপাশে থাকা কোনো পুরনো স্থাপত্য বা কাঠামোকে 'হারিয়ে যাওয়া গ্রাম'র শেষ সাক্ষী হিসেবে ব্যবহার করা (যদি এটি দৃশ্যে স্থাপন করা যায়)।",
-      "ফুচকা বা অন্যান্য স্ট্রিটফুডের সাথে সামোসার তুলনা, যা ভিন্নতা সত্ত্বেও একই ধরনের তাৎক্ষণিক তৃপ্তির জন্ম দেয় কিন্তু গভীরতার অভাবে পড়ে থাকে।"
+      "The detailed mechanics of how specific foreign stall scents interact chemically with the imaginary food remnants on the speaker's tongue; The psychological cost of constantly performing 'being present' in a new environment."
     ],
-    "variety_note": "পূর্ববর্তী অধ্যায়গুলিতে রান্নাঘরের আবদ্ধ পরিবেশের উপর মনোযোগ থাকায়, এই পরিচ্ছেদটি বাইরের পৃথিবীর কোলাহল এবং ভিড়ের মাঝে এক বিচ্ছিন্ন স্মৃতিচারণার ক্ষেত্র তৈরি করে। এটি একটি 'স্থান'ভিত্তিক দার্শনিক বিচ্যুতি ঘটায়।"
+    "variety_note": "While neighbouring chapters focus on the *creation* or *essence* of the samosa, this chapter examines its fragile existence when subjected to external, overwhelming market pressures."
   },
   "draft": {
-    "sha256": "a58addc52ad36b5c67571416320ace7b833b9c1d6cc036c40d7b173f45b5c6f6",
-    "written_at": "2026-11-01T08:18:37.663214+00:00",
+    "sha256": "bfc7e8624ec0f6f462aa15b4167e40189eb8a1b7195ac562dcf5995844cb186f",
+    "written_at": "2026-11-16T19:24:53.343489+00:00",
     "origin": "write"
   }
 }

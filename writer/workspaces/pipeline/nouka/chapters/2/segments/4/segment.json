@@ -4,19 +4,19 @@
   "chapter_index": 2,
   "segment_index": 4,
   "total_segments": 8,
-  "segment_title": "দ্বৈত শরীর",
-  "segment_summary": "নদীর একদিকে উর্বর পলি আর ফসল, অন্যদিকে ভাঙন আর বন্যা; কবিতা এই দ্বৈততাকে জীবন ও মৃত্যুর একই নিঃশ্বাস হিসেবে পড়ে।",
+  "segment_title": "কাঠের স্পর্শে ইতিহাস",
+  "segment_summary": "নৌকার প্রতিটি কাঠের তক্তা যেন অতীতের বহু যাত্রার স্মৃতি ও নিঃস্বার্থতার ভার বহন করে চলেছে।",
   "name": "4",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Framing Gopal’s knowledge as a submerged language—the river's geography spoken only through the rhythm of his oars hitting the water.",
-    "story_option": "A fleeting vision of Gopal recognizing an ancestral pattern in a particularly vicious whirlpool—a knot from a forgotten fishing trip.",
-    "subject_rotation": "Treating the 'body' of the river less as a physical entity and more as a psychic landscape reflecting human endurance.",
-    "sensory_detail": "The slick, dark coolness of mud clinging to the lower hull after a night of stagnant flow.",
-    "research_question": "What are the specific localized terms for different types of submerged sandbars or eddies within the Ganges tributaries that Gopal might know?",
-    "structural_variant": "Employing stanzas as shifting river cross-sections: top layer (surface action), middle layer (current dynamics), bottom layer (sediment/memory).",
-    "variety_note": "This poem drills down into the intrinsic nature of the river itself—its physical reality and its inherent contradictions—before touching upon human imposition (as in later chapters)."
+    "angle": "The boat's specific creaking rhythm acting as an unintended musical score for the passengers’ silent communion.",
+    "story_option": "A specific passenger (perhaps an injured worker) who cannot speak and whose presence forces Gopal to push the boat into a notoriously dangerous, less profitable channel.",
+    "subject_rotation": "Treating 'Generosity' not as a moral trait, but as a specific *buoyancy* that keeps the boat afloat against external pressures.",
+    "sensory_detail": "The precise mineral taste of the water when it churns slightly around the hull; not just mud, but dissolved silt.",
+    "research_question": "How does the tactile nature of 'old' Bengal mud compare to modern industrial sedimentation?",
+    "structural_variant": "Alternating between highly focused internal meditations (Gopal's perspective) and expansive, landscape-driven descriptions (The River's indifference).",
+    "variety_note": "This chapter deepens the internal, human contract established in the first poem, focusing intently on stillness and unspoken commitment rather than initiating conflict or establishing setting."
   }
 }

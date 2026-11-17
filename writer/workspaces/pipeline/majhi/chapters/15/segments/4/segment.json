@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 4,
+  "total_segments": 8,
+  "segment_title": "নদীর নীরব উত্তর",
+  "segment_summary": "নদী কোনো জবাব দাবি করে না; তার প্রবাহ নিজেই তার অস্তিত্বের প্রমাণ দেয়।",
+  "name": "4",
+  "word_target": 100,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The aftermath: The poem is the lingering echo after a great struggle (the resolution is not triumphant release but sustained, weary endurance).",
+    "story_option": "Setting: A dawn crossing immediately following a period of high tension (economic confrontation), Desire: To feel the physical relief of being back in motion without debt weighing on him. Obstacle: The river mud smells suspiciously like industrial runoff.",
+    "subject_rotation": "Treating 'Udarata' not as benevolence, but as an ingrained necessity for the *river itself*—the way it must yield space.",
+    "sensory_detail": "The slick, cool dampness clinging to the aged wood of the oars after hours spent navigating difficult currents.",
+    "research_question": "How can the concept of 'spiritual persistence' be evoked using only concrete imagery related to Bengal's geography (mud, reeds, slow erosion)?",
+    "structural_variant": "Alternating between highly lyrical, almost abstract passages describing philosophy and starkly factual lines recounting physical labor.",
+    "variety_note": "Unlike previous, more action-oriented segments, this chapter focuses entirely on the internal resonance following conflict; it is about sustaining belief rather than winning a battle."
+  }
+}

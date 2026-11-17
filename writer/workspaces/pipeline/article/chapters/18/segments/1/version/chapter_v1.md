@@ -1,8 +1,8 @@
-# চরম সন্ধিক্ষণ
+# The Unwritten Chronicle
 
 ## Workshop
 
-সবকিছু চরম সন্ধিক্ষণে পৌঁছায়। অরুণিমা ও বিক্রমকে সিদ্ধান্ত নিতে হয়—তারা কি শহরের ক্ষণস্থায়ী 'আর্টিকেল'-গুলির অংশ হয়ে যাবে, নাকি নিজস্ব এক স্থায়ী 'সারকথা' তৈরি করবে?
+This chapter explores the culmination of the protagonists' journey, moving beyond the search for a singular answer to embrace the nature of continuous questioning. The conflict shifts from external mysteries to the internal struggle of defining permanence in a transient urban landscape. Imagery focuses on the quiet moments between the city's loud pronouncements—the silence in the crowded metro, the dust motes in the collector's attic. The central open question remains: Can a life truly be 'the' definitive narrative, or must it forever remain a collection of fleeting, unclassified fragments?
 
 ## Story
 

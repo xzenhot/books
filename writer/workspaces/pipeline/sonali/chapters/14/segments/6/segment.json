@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 14,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "বিভ্রমের সমাপ্তি?",
+  "segment_summary": "এই আত্মসমর্পণের মুহূর্তে, স্বর্গীয় বিভ্রমটি কি সত্যিই বিলীন হয়ে যায়, নাকি তা আরও গভীর, অপ্রকাশিত রূপে রূপান্তরিত হয়?",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the internal debate as a specific dialectic between 'Retention' (ধারণ) and 'Dissolution' (বিলুপ্তি), using material metaphors from their declared world.",
+    "story_option": "Setting: At a specific hour when sunlight perfectly bisects through dense foliage; Obstacle: The light seems to demand she either absorb it completely or let it pass through untouched.",
+    "subject_rotation": "Exploring the paradox: Is perfect stasis (holding on) a greater form of prison than dynamic change (flowing away)?",
+    "sensory_detail": "The abrasive texture of rough-spun jute against her bare wrist during moments of desperate restraint.",
+    "research_question": "How can 'mid-level age' be conveyed through physical exhaustion related to emotional exertion rather than chronological markers?",
+    "structural_variant": "Emphasize rhythmic breakdown: using very long, sweeping lines for the pull of the flow (Item 2/5), contrasted sharply with tightly constrained, almost claustrophobic couplets during the act of holding on (Item 1/3).",
+    "variety_note": "This chapter moves beyond simple internal reflection by providing concrete anchors—the physical feeling of resistance versus surrender—which differentiates its tone from neighboring chapters dealing solely with abstract thematic discovery."
+  }
+}

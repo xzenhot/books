@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 5,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অপ্রত্যাশিত প্রশান্তি",
+  "segment_summary": "হঠাৎ করেই তার অভ্যন্তরে এক অচেনা, তীব্র শান্তি অনুভূত হয়, যা জাগতিক কোলাহলকে মুহূর্তের জন্য স্তব্ধ করে দেয়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The sudden intrusion of this 'bliss' is not gentle; it arrives with the jarring texture of fragmented glass, forcing immediate dissonance against the prior stillness.",
+    "story_option": "Setting: A sparsely furnished room at dusk. Desire: To hold onto the felt sensation for just one more beat. Obstacle: The memory of a mundane household chore waiting immediately outside the window; Turn: She stops mid-action, paralyzed by the residual echo.",
+    "subject_rotation": "Examining the physiological markers of this non-bodily experience—the faint tremor in the hands that belies perfect internal calm.",
+    "sensory_detail": "The scent of dry chalk dust suspended in the still air immediately following the episode (Smell).",
+    "research_question": "How can the transition from absolute subjective stillness to physical alertness be mapped using language that retains high poetic diction?",
+    "structural_variant": "Employing a chiasmus structure where the description of the body in Segment 1 is inverted to describe the pure spirit in Segment 3, and then flipped again upon return in Segment 7.",
+    "variety_note": "Unlike its neighbor, which focuses on induction through sensory input, this chapter is defined by an internally generated event—an instantaneous spiritual rupture in the mundane."
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 58,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "The Daily Siege of Endurance",
+  "segment_summary": "This segment portrays the relentless, day-to-day struggle against external pressures and internal fatigue, highlighting the sheer effort of survival.",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "বিজয় নয়, কেবল 'অস্তিত্ব বজায় রাখা'—এই ন্যূনতম ক্রিয়াটিকে এক মহাকাব্যিক অর্জন হিসেবে প্রতিষ্ঠা করা এবং এর দার্শনিক ভার বিশ্লেষণ করা।",
+    "story_option": "সে এমন একটি স্থানের প্রতি সম্বোধন করতে পারে যা তার স্বামী/প্রিয় মানুষটি ছেড়ে গেছে—একটি নির্দিষ্ট চাঁদনি রাতে ফোটা বুনো ফুল, যার নীরবতা যেন সেই অনুপস্থিতির গভীরতম স্তরে কথা বলে। (Setting: Specific flora; Desire: A single word of confirmation from the absent one; Obstacle: The silence of nature itself)",
+    "subject_rotation": "'অগ্নির দীপশিখা'-এর আলোকোজ্জ্বলতাকে শুধুমাত্র আধ্যাত্মিক শক্তি রূপে নয়, বরং চরম কষ্টের মধ্যে প্রাপ্ত এক ধরণের কৃত্রিম, তীব্র মনস্তাত্ত্বিক আলো হিসেবে দেখানো।",
+    "sensory_detail": "অশ্রুভেজা বাতাসে লেগে থাকা বহুদিনের চাপা ঘামের তীব্র লবনাক্ত গন্ধ (Olfactory) যা দীর্ঘ প্রতিকূলতার প্রমাণ দেয়।",
+    "research_question": "প্রচলিত পৌরাণিক বর্ণনার বাইরে, 'ভেদাভেদহীন সহিষ্ণুতা'কে মূর্ত করার জন্য কি কোনো নির্দিষ্ট সংস্কৃত পারিভাষিক শব্দ পাওয়া যেতে পারে?",
+    "structural_variant": "প্রতিটি স্তবককে একটি 'প্রশ্ন-উত্তর' চক্রাকারে সাজানো যেখানে প্রশ্নটি আগের অংশের দার্শনিক প্রতিধ্বনি হওয়া উচিত, কিন্তু উত্তর কখনোই প্রকাশিত হবে না।",
+    "variety_note": "এই পর্বটি পূর্ববর্তী সংগ্রাম পর্বগুলো থেকে সরে এসে সম্পূর্ণ অভ্যন্তরীণ মনোবিশ্লেষণের দিকে ঝুঁকছে; এখানে প্রধান মনোযোগ বাহ্যিক ঘটনা নয়, বরং অন্তরের 'অগ্নির দীপশিখা' এবং তার 주변ের গাঢ় অন্ধকারময় শূন্যতার দার্শনিক সংলাপ নির্মাণে দেওয়া হচ্ছে।"
+  }
+}

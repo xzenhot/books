@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 44,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের মহিমা",
+  "segment_summary": "অদম্য সংকল্পের মাধ্যমে কীভাবে ব্যক্তিগত দুঃখ মহাকাব্যিক স্তরে উন্নীত হয়, সেই দার্শনিক গভীরতা এই শেষ অংশে উন্মোচিত হয়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Interrogating the nature of 'rest' following such prolonged combat; suggesting that true peace is merely the next iteration of necessary tension (The secondary twist).",
+    "story_option": "Setting: Outside the ancient stone edifice, where societal watchers linger invisibly; Desire: For the couple to share a glance that transcends their immediate miracle and addresses the indifferent crowd; Obstacle: Their own overwhelming exhaustion masking true defiance.",
+    "subject_rotation": "Focusing on the transition from internal *will* to external *manifestation*—how stubborn self-belief imposes its shape onto chaotic reality.",
+    "sensory_detail": "A metallic tang in the mouth, not from blood, but from sustained spiritual exertion held too long.",
+    "research_question": "How can I render the internal dialogue when facing an unresponsive, non-sentient object (like a wall or door) as if it is the ultimate judge?",
+    "structural_variant": "Starting in the immediate aftermath (post-climax) and structuring backwards through the accumulated moments of defiance leading up to it.",
+    "variety_note": "Unlike preceding chapters which focused on overcoming external societal barriers (like custom or slander), this final set centers on the existential negotiation required to sustain a state of triumph against fundamental forces."
+  }
+}

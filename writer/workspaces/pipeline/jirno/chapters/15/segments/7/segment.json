@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "নতুন শূন্যতা",
+  "segment_summary": "পথিকের সঙ্গে যে শূন্যতা নিয়ে সে চলে যায়, তা কোনো হতাশা নয়, বরং এক গভীর, শান্ত মুক্তি—যা কেবল আত্মসমর্পণের মাধ্যমেই সম্ভব।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the final departure not as resignation, but as a precise, calculated shedding of intellectual baggage required for survival in the red earth.",
+    "story_option": "Setting: The low point of the red earth where water momentarily pooled after the storm; Desire: To dip a finger in that reflective mud and see his own reflection distorted by the ruin's curve; Obstacle: Realizing the reflection is utterly unremarkable, mirroring the accepted decay.",
+    "subject_rotation": "Shifting the focus from 'acceptance' (passive) to 'active relinquishing' (an intentional act of letting go that requires internal strength).",
+    "sensory_detail": "Sight: The bleached white quality of the lime-plaster dust clinging to the fibers of worn cloth.",
+    "research_question": "How does Bengali lyrical tradition articulate the sensation of moving from overwhelming sensory input (storm) to profound sensory deprivation (calm)?",
+    "structural_variant": "A purely stream-of-consciousness structure, where the segments flow without hard transitions, dictated solely by memory fragments triggered by tactile sensations.",
+    "variety_note": "This chapter pivots entirely away from intellectual confrontation; where earlier parts explored the *resistance* to change, this final phase is dedicated solely to the exhausted *completion* of surrender and departure."
+  }
+}

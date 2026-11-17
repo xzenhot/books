@@ -1,0 +1,104 @@
+{
+  "total_chapters": 8,
+  "completed_chapters": 0,
+  "current_chapter": null,
+  "factory": "online",
+  "model": "gemma4:latest",
+  "provider": "ollama",
+  "book_name": "badam",
+  "form": "poetry",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "topic": "badam — পর্ব 1 — badam",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/1/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 2,
+      "topic": "badam — পর্ব 2 — badam",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/2/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 3,
+      "topic": "badam — পর্ব 3 — badam",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/3/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 4,
+      "topic": "শহরের নতুন বণিকদের আগমন",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/4/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 5,
+      "topic": "একটি বিশেষ ভটিয়ালি গান",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/5/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 6,
+      "topic": "ঋণের জাল ক্রমশ ঘন হতে শুরু করে",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/6/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 7,
+      "topic": "badam — পর্ব 7 — badam",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/7/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    },
+    {
+      "chapter_number": 8,
+      "topic": "নদীর অন্য পারে নতুন ফেরি",
+      "category": "",
+      "status": "written",
+      "file_path": "chapters/8/chapter.md",
+      "completed_date": null,
+      "written": true,
+      "validated": false,
+      "published": false
+    }
+  ],
+  "written_chapters": 8,
+  "published": false,
+  "updated_by": "scaffold",
+  "updated_date": "2026-11-16T02:51:16Z"
+}

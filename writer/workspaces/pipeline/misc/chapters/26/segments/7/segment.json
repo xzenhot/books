@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 26,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "আলো ও অন্ধকারের সংমিশ্রণ",
+  "segment_summary": "The flickering light of the evening earthen lamp is contrasted with the surrounding dusk, symbolizing the search for shelter and meaning at day's end.",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "পর্যবেক্ষকের 'আমি'কে সম্পূর্ণরূপে অপসারণ করে এক নিষ্ক্রিয়, বস্তুকেন্দ্রিক দৃষ্টিভঙ্গি গ্রহণ করা—যেখানে কেবল জিনিসগুলিই কথা বলছে।",
+    "story_option": "একটি প্ল্যাটফর্মের খুঁটির ওপর জমে থাকা মরিচা—যেখানে প্রতিটি দাগ যেন একটি ভিন্ন প্রজন্মের অস্থিরতার স্বাক্ষর। (সেটিং: পুরোনো স্টেশন; আকাঙ্ক্ষা: স্থায়িত্ব; বাধা: ক্ষয়; মোড়: মরিচাকে 'স্মৃতির জ্যামিতি' হিসেবে দেখা)।",
+    "subject_rotation": "জাতীয়তাকে কোনো উপাদানগত মিশ্রণের পরিবর্তে, একটি চলমান 'অনুভূতিজনিত কম্পন' (Emotional Vibration) রূপে উপস্থাপন করা।",
+    "sensory_detail": "চায়ের কাপের ঘামে মিশে থাকা লোহার নোনা স্বাদ ও উষ্ণতা।",
+    "research_question": "‘শান্ত, সহনশীল মাধুর্য’ নামক ভাবটিকে গিবরানীয় লিরিক টোনের সঙ্গে কীভাবে সফলভাবে মিশ্রিত করা যায়?",
+    "structural_variant": "একটি একক, দীর্ঘ বাক্য (Run-on Sentence structure in Bengali poetry) ব্যবহার করা যা সকল বস্তুকে এক শ্বাসে টেনে নিয়ে যায়।",
+    "variety_note": "এই পর্বটি পূর্ববর্তী অধ্যায়গুলোর নিছক তালিকাভিত্তিক পর্যবেক্ষণের পরিবর্তে, সমস্ত উপাদানগুলোকে একটি একক দার্শনিক প্রশ্নে কেন্দ্রীভূত করে এবং স্থিতিশীলতার অনুসন্ধান ছেড়ে অস্থিরতাকে আলিঙ্গন করার দিকে মোড় নেয়।"
+  }
+}

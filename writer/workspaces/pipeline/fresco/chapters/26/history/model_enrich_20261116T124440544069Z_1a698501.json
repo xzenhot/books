@@ -1,0 +1,79 @@
+{
+  "chapter_index": 26,
+  "name": "26",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "The Unseen Scars of Expression",
+  "chapter_summary": "This chapter delves into the core philosophy of creation, exploring how the visible masterpiece belies the invisible, often painful, struggle beneath it. It examines the tension between societal expectations—the desire for a 'neatly framed' life—and the raw, necessary act of self-exposure through art. The imagery centers on the cracks in the frescoes mirroring the artist's internal fractures, forcing a confrontation with the cost of authentic expression. The central question remains: Can the truth of creation ever be fully seen, or is its essence forever locked within the dark, silent process?",
+  "further_references": [
+    "fresco — মূল ভাবনা"
+  ],
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "The Blossom vs. The Burden",
+      "segment_summary": "The chapter begins by contrasting the polished final appearance of a fresco with the hidden labor, failures, and silent sacrifices required to achieve that surface perfection.",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "The Scaffold of Self",
+      "segment_summary": "Debolina Rai's scaffold becomes a metaphor for her precarious existence, balancing the weight of domestic expectation against the pull of artistic necessity.",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "Lapis and the Night's Alchemy",
+      "segment_summary": "The sensory experience of grinding lapis under lamplight is explored, representing the intense, almost alchemical transformation of raw material into expressive pigment.",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "Musk and the Desert's Whisper",
+      "segment_summary": "The scent of passing strangers in the desert air acts as a disruptive force, injecting the isolated creative space with the volatile energy of the outside world.",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "The Mirror of Decay",
+      "segment_summary": "The crumbling frescoes are analyzed not as historical artifacts, but as a direct, melancholic reflection of Debolina's own internal vulnerabilities and imperfections.",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "Mapping the Invisible Struggle",
+      "segment_summary": "The act of painting becomes a deliberate mapping of her own hidden battles—her fears and hesitations—onto the ancient, enduring surface of the wall.",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "The Whisper of Convention",
+      "segment_summary": "The faint, judgmental echoes of societal norms press against the silence of the haveli, representing the constant pressure to conform and be 'properly framed'.",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "The Hunger for Existence",
+      "segment_summary": "The chapter culminates in the recognition that this relentless, difficult pursuit of expression is not a choice of comfort, but a fundamental, unquenchable hunger for genuine existence.",
+      "further_references": []
+    }
+  ],
+  "level": "chapter",
+  "state": "scaffolded"
+}

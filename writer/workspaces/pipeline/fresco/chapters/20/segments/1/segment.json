@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 20,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "The Scaffold's Burden",
+  "segment_summary": "The physical weight of the scaffolding becomes a metaphor for the invisible societal pressures Debolina must bear while creating her art.",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "দেবলিনার হাত কীভাবে ফ্রেস্কোর ভাঙা অংশে সরাসরি স্পর্শ করে নিজের দুর্বলতাকে চিহ্নিত করে।",
+    "story_option": "দেবলিনা একটি ফাটল খুঁজে পায়, যার মধ্যে দিয়ে বাইরের মরুভূমির কোনো বিশেষ দৃশ্যের ক্ষীণ রেখা দেখা যায়; এই দৃশ্যটি তার শিল্পের বিষয়বস্তুর ওপর অপ্রত্যাশিত চাপ সৃষ্টি করে।",
+    "subject_rotation": "এই অধ্যায়টিকে সম্পূর্ণভাবে 'স্থায়িত্ব বনাম ক্ষয়'-এর দ্বান্দ্বিকতার ওপর ঘোরানো, যেখানে রং যত গাঢ় হয়, ফাটল তত গভীর হতে শুরু করে।",
+    "sensory_detail": "চুন মিশ্রিত আঠালো স্তরের শীতল অনুভূতি যখন মরুভূমির উত্তাপ ভেদ করে হাত স্পর্শ করে।",
+    "research_question": "এই অঞ্চলের কারিগররা কি কখনও কোনো ভুল রং বা প্রক্রিয়াজাতকরণের ফলে সৃষ্ট ক্ষয়কে শিল্পসম্মত উপায়ে মেনে নিয়েছেন?",
+    "structural_variant": "একটি দীর্ঘ, একক কবিতা যেখানে এই আটটি ধারণা দ্রুত পরিবর্তনশীল চিত্রকল্পের মাধ্যমে প্রবাহিত হয়, কোনো স্পষ্ট বিভাগ ছাড়াই।",
+    "variety_note": "এই অধ্যায়টি পূর্ববর্তী পর্বগুলির মতো নির্দিষ্ট সংবেদনশীল উপাদানগুলোর উপর নির্ভর না করে, বরং এই উপাদানগুলো ব্যবহার করে 'ভয়' ও 'সত্য'-এর দার্শনিক ভারকে কেন্দ্র করে দাঁড়িয়েছে।"
+  }
 }

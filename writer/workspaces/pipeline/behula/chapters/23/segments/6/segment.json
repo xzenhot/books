@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 23,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "বিজয় সত্ত্বেও, এই পরিণতি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ বহন করে, যা পাঠককে ভাবায়।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Reframing 'Victory' as Ontological Change: Not just returning to *being* together, but emerging into a fundamentally altered state of shared being that cannot revert.",
+    "story_option": "Setting: In a space bathed in the soft, post-storm light; Desire: For Behula to articulate one single sentence that encapsulates her philosophical shift—moving from passive endurance to active creation of meaning; Obstacle: A memory fragment of doubt momentarily overshadowing the present unity.",
+    "subject_rotation": "Emphasizing the 'weight' of her achieved status—the pressure that comes with being an eternal symbol, rather than just a free spirit.",
+    "sensory_detail": "Touch: The distinct coolness emanating from skin that has endured abstract fire and trauma.",
+    "research_question": "What specialized Bengali idiom or literary device can convey 'the quiet assertion of ontological validity' after experiencing societal invalidation?",
+    "structural_variant": "Using a highly irregular meter in segments 5-8 to mimic the psychological strain of synthesizing immense trauma into one cohesive 'victory' narrative.",
+    "variety_note": "This chapter shifts entirely from survival narrative to metaphysical affirmation; where earlier sections focused on overcoming external pressures, this final arc concentrates on defining the *quality* of her achieved being."
+  }
+}

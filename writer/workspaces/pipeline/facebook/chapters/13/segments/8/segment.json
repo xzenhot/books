@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 13,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অপ্রত্যাশিত সংযোগ",
+  "segment_summary": "শেষ পর্যন্ত, এই 'ডিজিটাল ডিটক্স' পোস্টটিই অপ্রত্যাশিতভাবে একটি বৃহত্তর জনগোষ্ঠীর সাথে সংযোগ স্থাপন করে, যা প্রযুক্তির ফাঁদে আটকে থাকারই প্রমাণ দেয়।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the focus entirely to the autonomic functions of distress—the involuntary tremor in the hand when trying to stay still, divorced from any cognitive decision.",
+    "story_option": "Setting: An empty room where all screens are dark, illuminated only by moonlight; Desire: To achieve true sensory deprivation in a single breath; Obstacle: The persistent phantom vibration felt deep within the bone structure.",
+    "subject_rotation": "Examining the language used to *describe* the attempt at silence (e.g., using vocabulary associated with pressure or vacuum).",
+    "sensory_detail": "The specific metallic taste left on the tongue from prolonged dry mouth induced by screen abstinence.",
+    "research_question": "How can the 'phantom vibration' be rendered poetically using only tactile or auditory imagery, without naming technology?",
+    "structural_variant": "Employing staccato, clipped sentences during moments of high anxiety, contrasting with long, flowing Bengali clauses when observing nature.",
+    "variety_note": "This chapter deliberately pivots from the outward societal critique seen in earlier segments to an intensely internalized, somatic exploration of mediated absence and its physical manifestations."
+  }
+}

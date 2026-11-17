@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 16,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অর্থের ঊর্ধ্বে স্রোত",
+  "segment_summary": "মাঝি উপলব্ধি করে যে, তার নিঃস্বার্থ সেবা এবং মানবিক সংযোগের মূল্য কোনো মুদ্রার বিনিময়ে মাপা যায় না।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A purely materialist reading: focusing only on the wood grain of the boat versus the steel alloy of a barrier, treating both as inanimate entities reflecting their respective truths.",
+    "story_option": "Setting: A mud bank at twilight. Desire: The majhi desires to feel the grit of the river silt beneath his worn sandals as proof of authenticity, Obstacle: Dust from distant mechanized industry settles upon him.",
+    "subject_rotation": "Treating 'value' not as a philosophical concept, but as a physical weight (how much silt, how heavy an oar stroke), and measuring that weight.",
+    "sensory_detail": "The smell of damp, river-soaked jute canvas mingled with hot engine oil from a passing barge at dusk.",
+    "research_question": "What are precise Bengali descriptive terms for a sound that is simultaneously beautiful and structurally abrasive (like old wood meeting modern metal)?",
+    "structural_variant": "A fragmented, collage structure where images of the river's flow are violently interrupted by short, declarative fragments related to ledger books or price lists.",
+    "variety_note": "While neighbours explored the *clash* between river and modernism (disasters, structures), this chapter focuses entirely on the internal philosophical harvest—the final decision about what endures when the clash is inevitable."
+  }
 }

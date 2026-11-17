@@ -1,60 +1,119 @@
 {
   "chapter_index": 49,
   "name": "49",
-  "word_target": 280,
-  "chapter_title": "লখিন্দরের অঙ্গে প্রথম প্রাণের স্পন্দন",
-  "chapter_summary": "দেবীর রোষ পরাজিত; বেহুলার ত্যাগের আগুনে পুড়ে গলিত অস্থিতে মাংস ও রক্ত ফিরে আসা। ভালোবাসার ক্ষমতায় মৃত্যুর পরাজয়।",
+  "word_target": 500,
+  "segment_count": 8,
+  "chapter_title": "behula — পর্ব 15 — behula",
+  "chapter_summary": "এই শেষ পর্বটি সমস্ত প্রতিকূলতা জয় করে বেহুলার স্বামীর প্রত্যাবর্তনের মহাকাব্যিক মুহূর্তকে চিত্রিত করে। এটি কেবল ব্যক্তিগত ট্র্যাজেডির সমাপ্তি নয়, বরং মানব আত্মার চূড়ান্ত বিজয়ের প্রতীক হয়ে ওঠে। এই বিজয় তাকে এক মহৎ নারী হিসেবে প্রতিষ্ঠা করে, যিনি সমস্ত সামাজিক, আধ্যাত্মিক ও মানসিক বাধা অতিক্রম করার ক্ষমতা রাখেন। প্রশ্নটি হলো—এই ব্যক্তিগত মহিমা কি বৃহত্তর সামাজিক কাঠামোর প্রতি এক নীরব অভিযোগ বহন করে?",
   "further_references": [
+    "references.md"
+  ],
+  "segments": [
     {
-      "no": "1",
-      "reference": "The relationship between sacred ritual and the reanimation of physical form in Bengali folklore.",
-      "weblink": ""
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "বিজয়ের আগমনী সুর",
+      "segment_summary": "সমস্ত সংগ্রামের পর, সেই প্রতীক্ষিত প্রত্যাবর্তন শুরু হয়, যা নিস্তব্ধ শূন্যতাকে ভেঙে দেয়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "অন্ধকারের উপর আলোর জয়",
+      "segment_summary": "বেহুলার ভেতরের অগ্নিকুণ্ড বাইরের সমস্ত অন্ধকারকে প্রতিহত করে, যা তার অদম্য সংকল্পের ফল।",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "আত্মার পুনর্মিলন",
+      "segment_summary": "স্বামী ও বেহুলার মিলন কেবল শারীরিক নয়, এটি দুটি বিচ্ছিন্ন আত্মার গভীরতম সংযোগের পুনর্গঠন।",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+      "segment_summary": "এই চূড়ান্ত পরিণতি বেহুলাকে কেবল একজন নারী নয়, বরং এক মহৎ আদর্শের প্রতীক হিসেবে প্রতিষ্ঠিত করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "ট্র্যাজেডি থেকে প্রেরণা",
+      "segment_summary": "তার ব্যক্তিগত ট্র্যাজেডি সমষ্টিগত প্রেরণা হয়ে ওঠে, যা নিপীড়িত আত্মার প্রতিধ্বনি বহন করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "অবিস্মরণীয় অধ্যায়ের সমাপ্তি",
+      "segment_summary": "এই কাব্যিক যাত্রা একটি অবিস্মরণীয় অধ্যায় রচনা করে, যা মানব চেতনার গভীরতম স্তরকে স্পর্শ করে।",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+      "segment_summary": "বিজয় সত্ত্বেও, কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব অভিযোগ রেখে যায়।",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "অদম্য সংকল্পের উত্তরাধিকার",
+      "segment_summary": "বেহুলার সংগ্রাম ভবিষ্যতের প্রতিটি নিপীড়িত আত্মার জন্য অদম্য সংকল্পের এক চিরন্তন উত্তরাধিকার হয়ে থাকে।",
+      "further_references": []
     }
   ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Framing the return of life not as a miracle bestowed, but as a violent reassertion against absolute entropy—a temporary defiance of cosmic decay.",
-      "Focusing on the *sensory* experience of the first heartbeat: is it warm or cold? Is it strong enough to feel like an invasion, rather than a gentle awakening?",
-      "Adopting a perspective that dwells solely on the transition from 'calcified matter' back to something biologically fluid—the terrifying beauty of chemical reconstruction."
+      "The reunion is depicted not through grand gestures, but via the minute, painstaking mending of a single worn thread within their shared garment.",
+      "Focusing on the physiological transformation: how prolonged ordeal alters the very resonance or timbre of one's breath upon reconnection.",
+      "Framing the returning husband as an unexpected element challenging her already established spiritual locus—a necessary disruption to test absolute conviction."
     ],
     "story_options": [
-      "Setting: The immediate surface of the dissolved remains; Desire: To capture the precise moment when the rigid form begins to yield to internal, chaotic warmth; Obstacle: The lingering shadow of death's stillness; Turn: The first breath is ragged, sounding almost like a complaint rather than an intake.",
-      "Setting: Deep within the reconstructed flesh, where residual stasis lingers; Desire: To trace the path of the first impulse—the nascent desire for reunion or recognition; Obstacle: The lingering echo of divine judgment in the tissue structure; Turn: Lkhindor's eyes open not to Behula, but to a fragmented image of the celestial court.",
-      "Setting: The delicate membrane separating death from life; Desire: To observe the biological memory struggling against the magical infusion; Obstacle: The slow, painful integration of mortal injury with renewed vitality; Turn: A phantom sensation of ice or searing fire runs through the nascent body before true warmth sets in."
+      "Setting: The threshold of their ancestral dwelling; Desire: To feel the texture of undisturbed floorboards beneath shared weight; Obstacle: A profound, almost fearful hesitation before physical touch.",
+      "Setting: Near a small domestic fire (প্রদীপ); Desire: To watch the flame stabilize after years of frantic, inconsistent flickering; Obstacle: The shadow of societal judgment cast momentarily by an unseen observer outside the frame.",
+      "Setting: By a window facing the distant celestial sphere (নভমণ্ডল); Desire: To measure time not in moments, but in unchanging patterns traced by stars; Obstacle: The internal voice questioning if this stability is earned or merely temporary grace."
     ],
     "subject_rotations": [
-      "Treating the revival not as a singular event, but as an ongoing process of re-negotiation between mortality and divine intervention.",
-      "Exploring the psychological weight on Behula: is her triumph one of pure joy, or burdened by the memory of what she had to sacrifice for this return?",
-      "Shifting focus from Lkhindor's body to his *potential*—the sheer volume of life that rushes back into a vessel nearly emptied."
+      "Shifting focus from 'triumph' to the *cost* of that triumph—the enduring weariness underneath the miraculous veneer.",
+      "Treating the returning husband not as savior, but as co-survivor whose own spiritual erosion mirrored her battles.",
+      "Interrogating the definition of 'victory' when societal acceptance remains elusive despite personal fulfillment."
     ],
     "sensory_details": [
-      "The precise, almost metallic scent released as the first vital fluids begin circulation.",
-      "A sound described not as a beat, but as the friction of two disparate energies (life/death) briefly locking into rhythm.",
-      "The sensation of altered texture—skin no longer like dried clay, but something yielding and impossibly tender to the touch."
+      "The faint, specific scent of aged earth and damp stone clinging to returning garments.",
+      "The surprising warmth radiating from an object long held at a distance (e.g., a worn wooden bowl) upon its return into close proximity.",
+      "The sound of slow, deliberate friction as two surfaces meet after immense separation—not a crash, but a measured grind."
     ],
     "research_questions": [
-      "How can Bengali poetic diction capture the juxtaposition of perfect biological restoration alongside the remnants of extreme physical trauma?",
-      "What parallels exist in myth/philosophy regarding a body being reactivated by immense external force versus internal will?"
+      "Can I find an elevated Bengali metaphor for 'tested fortitude' that suggests rigidity without implying final stillness?",
+      "How can the dialectic tension between belief (ঈমান) and endurance (সহিষ্ণুতা) be articulated using only classical vocabulary?"
     ],
     "structural_variants": [
-      "A strictly cyclical structure mirroring the ebb and flow of life returning to its previous state, yet fundamentally altered.",
-      "An inverted arc: starting with the perceived *lack* of life (the final moment before movement) and culminating in a dizzying rush toward full existence."
+      "A spiral structure, where each segment begins by referencing a detail from the previous one, but reversing its emotional weight.",
+      "An immediate shift to extreme interior monologue in Segment 1, grounding the reunion entirely within the psyche before external action occurs."
     ],
     "unused_angles": [
-      "The political implication of restoring one figure from death within a divine hierarchy; who else is spared or cursed by this act?",
-      "A deep dive into the concept of *labor* required for resurrection, linking it back to Behula's ceaseless physical exertion.",
-      "Examining how Lkhindor’s return fundamentally shifts the dynamic between mortal striving and celestial decree."
+      "The bureaucratic or societal paperwork required to officially acknowledge her status post-trial (a hyper-modern intrusion into the mythic).",
+      "A detailed mapping of the psychological territory she traversed during the period between near-death and recovery, treating it as a physical landscape."
     ],
-    "variety_note": "This chapter shifts focus from external struggle (the journey) to internal emergence—the quiet, visceral moment where metaphysical conflict resolves into palpable biological reality."
+    "variety_note": "This chapter pivots entirely away from external conflict towards internal resolution; unlike neighbours focusing on the struggle itself, this sequence focuses intensely on the *residue* and the *new equilibrium* that follows ultimate overcoming."
   },
   "draft": {
-    "sha256": "86f614a1faa351f344a2599b6c8b6172e1d4a03cf4fdb79a8bd21f8e771a4dd2",
-    "written_at": "2026-10-21T16:35:15.880433+00:00",
+    "sha256": "71e7b8985423cecd48889394f5b0546505fb7459413b3118761993fe43c0443c",
+    "written_at": "2026-11-16T06:09:26.947176+00:00",
     "origin": "write"
   }
 }

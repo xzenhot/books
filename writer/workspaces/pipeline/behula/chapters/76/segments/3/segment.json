@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 76,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "সহিষ্ণুতার প্রতিচ্ছবি",
+  "segment_summary": "তার ধৈর্য এবং সহনশীলতা কীভাবে সমাজের কঠোর বিচারকে চ্যালেঞ্জ জানায়, সেই কাব্যিক মুহূর্তটি ফুটিয়ে তোলা হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Metaphorical topography: Mapping the societal judgment onto a physical landscape—a shifting desert or a labyrinth built of whispered censure.",
+    "story_option": "Setting: By a dry riverbed (representing depleted social grace); Desire: To coax forth a single, impossibly iridescent seed representing crystallized will; Obstacle: The dust of societal decree choking the possibility of emergence.",
+    "subject_rotation": "Analyzing the socio-linguistic violence: How societal language systematically strips away her individual definition piece by piece.",
+    "sensory_detail": "A visual texture resembling heavily worked bronze—smoothly worn by endless scrutiny yet retaining a deep, resistant patina.",
+    "research_question": "What precise Bengali lexical structures can convey 'unyielding ethical scaffolding' without relying on abstract theological terms?",
+    "structural_variant": "A highly episodic structure, where each segment opens with a distinct 'rhythm' (a short mantra or action) that is only resolved by the end of the section.",
+    "variety_note": "This chapter moves beyond describing pain (as seen in earlier segments) to actively theorizing its function: how personal anguish morphs into a durable, systemic critique articulated through endurance itself. It focuses on the transition from 'I suffer' to 'We are defined by this suffering.'"
+  }
+}

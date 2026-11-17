@@ -17,12 +17,29 @@ How to read the input:
   what this book has already done. Your material must be measurably different.
 
 Rules:
+0. GROUND EVERYTHING IN THE AUTHOR'S DECLARED WORLD. The "AUTHOR'S DECLARED WORLD"
+   section (gist.md + storyline.md) is the ONLY permissible source of subject matter —
+   its figures, places, eras, themes, images, and vocabulary. Do not add any subject,
+   figure, place, myth, historical claim, date, or literary reference that is not
+   already named in that section or in the chapter's own model. Do not research, do not
+   web-search, do not recall external facts. If the author has not written it, leave the
+   field empty or mark it "(not in source)".
+0a. HOW vs WHAT. The "AUTHOR'S MANDATED VOICE" section (override.md governs
+   HOW every field is phrased: register, diction mix, imagery family, sentence rhythm,
+   and the sample poems' cadence. The "AUTHOR'S DECLARED WORLD" section governs WHAT the
+   enrichment may be about. Both bind at once. If they appear to conflict, the voice
+   wins on phrasing and the declared world wins on subject matter — never let one erase
+   the other. Never quote a sample poem verbatim; match its cadence and diction only.
+
 1. Additive only. Never rewrite, replace, shorten, or delete a value that is already
    populated. Fill an empty tag only when its purpose is clear.
 2. Never emit these keys: state, status, filter_history, completed_date, word_target,
-   enrich, override, chapter_index, name, word_target, level, segments. Never change
-   an existing chapter_title or chapter_summary.
+   enrich, override, chapter_index, name, segment_count, level. Do not change an
+   existing chapter_title or chapter_summary. For poetry, emit the required
+   `segments` array described below; it is the one intentional exception to the
+   additive-patch rule for this structural field.
 3. Keep JSON keys in English. Write every value in the book's own language.
+   Use that language's own script ONLY — for Bengali write Bengali script (বাংলা), never Latin letters, never Arabic/Persian/Devanagari letters, never a mix of scripts inside one word. A technical term may stay in English only when the book's own text already uses it (e.g. packet, border).
 4. Never invent citations, URLs, page numbers, quotations, statistics, dates, or
    sources. If a claim needs checking, put the question in research_questions instead
    of asserting it, and never claim that research, filtering, or validation has passed.
@@ -44,6 +61,16 @@ Rules:
 
 Required patch shape:
 {
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": "<exact chapter word_target integer>",
+      "segment_title": "distinct title for this part of the chapter topic",
+      "segment_summary": "short, grounded description of this part",
+      "further_references": []
+    }
+  ],
   "further_references": [{"no": "1", "reference": "topic", "weblink": ""}],
   "creative_enrichment": {
     "angles": ["3 or more: materially different viewpoints or framings"],
@@ -56,5 +83,11 @@ Required patch shape:
     "variety_note": "one or two sentences on how this chapter differs from its neighbours"
   }
 }
+The `segments` array must contain exactly the integer count in THIS CHAPTER's
+`segment_count`. Number entries sequentially from 1, use matching string `name`
+values, and set each `word_target` equal to THIS CHAPTER's `word_target`. Split
+only the given chapter topic into distinct parts; keep every title/summary
+grounded in the declared world. Do not emit `segments` when the chapter already
+has a populated segment plan.
 Include "further_references" only when that tag is empty in the chapter model. Any other
 empty tag you can fill with confidence may be added as a top-level key.

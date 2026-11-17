@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 63,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলোর শিখার স্থায়িত্ব",
+  "segment_summary": "বিশ্বাস ও প্রার্থনার সেই দীপশিখা, যা সমস্ত প্রতিকূলতা সত্ত্বেও নিভে যায়নি, তার স্থায়ীত্বের উদযাপন।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Philosophical Shift: Moving beyond individual triumph to focus on how that personal victory retroactively exposes systemic flaws in social structures regarding womanhood.",
+    "story_option": "Setting: At the threshold of their shared sanctuary (লৌহবাসরঘরের বাইরে); Desire: To articulate in one word the totality of her endurance; Obstacle: The overwhelming weight of unsaid words and past sacrifices.",
+    "subject_rotation": "Re-reading the trials: Viewing every previous obstacle (divine wrath, societal gaze) through the lens of its necessity for this singular moment of apotheosis.",
+    "sensory_detail": "The smell of rain on dry earth immediately following intense drought (symbolizing crisis breaking into fullness).",
+    "research_question": "How can the transition from extreme internal suffering (Chapter 6) to external triumph (Chapter 15/63) be narrated while maintaining a consistent high-register diction?",
+    "structural_variant": "Circular argument: Structure each segment as a rhetorical counterpoint to the previous one—Thesis (Trial) -> Antithesis (Faith/Endurance) -> Synthesis (Reunion).",
+    "variety_note": "This chapter pivots from intense internal struggle to external fulfillment; where neighbors dwelt in pressurized introspection, this segment emphasizes resonant proclamation and enduring spiritual aftermath, while incorporating a deliberate structural volta based on re-reading past experience through the lens of reunion."
+  }
+}

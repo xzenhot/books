@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 75,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "বিষাক্ত কোরাসের প্রতিধ্বনি",
+  "segment_summary": "সমাজের পক্ষ থেকে আসা অবজ্ঞা ও কটূক্তিগুলো কীভাবে তার আত্মমর্যাদাকে ক্রমাগত ক্ষুণ্ণ করে চলেছে।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating societal judgment as a form of 'spectral interference' disrupting her inner harmony, rather than just verbal attack.",
+    "story_option": "Setting: A desolate, dew-dampened patch of ground near the house; Desire: For a single bloom that mirrors her inner fire despite external frost; Obstacle: The crushing weight of inherited propriety.",
+    "subject_rotation": "Examining her silence not as absence of words, but as a perfectly calibrated utterance of negation against falsehood.",
+    "sensory_detail": "The acrid scent of scorched prayer papers mingled with the perfume of forbidden night blossoms (olfactory).",
+    "research_question": "How does modern philosophical concept of 'existential burden' translate into the established mythological framework of Behula?",
+    "structural_variant": "Using an external, natural event (e.g., sudden storm or owl cry) as a momentary interruption to her internal monologue before resuming the core meditation.",
+    "variety_note": "Unlike previous chapters which focused on initial shock or external judgment, this chapter focuses specifically on the metabolic cost—the active energy expenditure—of maintaining symbolic fortitude against constant societal attrition."
+  }
+}

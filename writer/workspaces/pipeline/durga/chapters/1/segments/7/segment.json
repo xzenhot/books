@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 1,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "ভক্তি ও আকাঙ্ক্ষার মিশ্রণ",
+  "segment_summary": "এই প্রাথমিক স্তরেই ভক্তি এবং জাগতিক বাসনার সূক্ষ্ম মিশ্রণ কাব্যিক রূপে উন্মোচিত হতে শুরু করে।",
+  "name": "7",
+  "word_target": 63,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing solely on the internal sound of the *ḍhāk* (ঢাক), portraying it as a heartbeat or subterranean tremor rather than just music.",
+    "story_option": "A character lingering near the riverbank at dawn, feeling a deep, unarticulated longing that momentarily drowns out the sound of the *ḍhāk*, only to be pulled back by its cadence.",
+    "subject_rotation": "Shifting focus entirely from 'arrival' (Agaman) to 'threshold'—the liminal space between the old season/old faith and the new divine presence.",
+    "sensory_detail": "The specific metallic tang of damp earth mingling with the sweet perfume carried on the pre-dawn mist.",
+    "research_question": "What precise linguistic nuance in Bengali signifies the shift between ancestral rites (Pitru Paksha) and divine manifestation (Devi Paksha)?",
+    "structural_variant": "A highly fragmented structure, mirroring broken thoughts amid the sonic assault of the initial drumming.",
+    "variety_note": "This chapter emphasizes the sonic and olfactory prelude to Durga's presence, focusing on internal tension against external proclamation, unlike subsequent chapters which detail craftsmanship or ritual."
+  }
+}

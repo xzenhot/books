@@ -1,53 +1,119 @@
 {
   "chapter_index": 10,
   "name": "10",
-  "word_target": 300,
-  "chapter_title": "চক্ষুদানের মুহূর্ত",
-  "chapter_summary": "শিল্পী তুলি দিয়ে মায়ের চোখ এঁকে দেন, আর সেই মুহূর্তে প্রতিমার ভেতরে ঢুকে পড়েন দেবী নিজেই।",
-  "further_references": [],
+  "word_target": 1500,
+  "chapter_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন",
+  "chapter_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+  "further_references": [
+    "6"
+  ],
+  "segment_count": 8,
+  "segments": [
+    {
+      "segment_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 1",
+      "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+      "further_references": []
+    },
+    {
+      "segment_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 2",
+      "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+      "further_references": []
+    },
+    {
+      "segment_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 3",
+      "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+      "further_references": []
+    },
+    {
+      "segment_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 4",
+      "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+      "further_references": []
+    },
+    {
+      "segment_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 5",
+      "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+      "further_references": []
+    },
+    {
+      "segment_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 6",
+      "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+      "further_references": []
+    },
+    {
+      "segment_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 7",
+      "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+      "further_references": []
+    },
+    {
+      "segment_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_title": "লীলার মধ্যগগনে: ভক্তি ও বাসনার টানাপোড়েন — অংশ 8",
+      "segment_summary": "এই অধ্যায়টি উৎসবের মধ্যগগনে পৌঁছানোর মুহূর্তকে চিত্রিত করে, যেখানে দেবী মর্ত্যে তাঁর লীলা করছেন। এখানে ভক্তের নিছক ভক্তি এবং জাগতিক বাসনার মধ্যেকার সূক্ষ্ম, প্রায় অদৃশ্য টানাপোড়েন কাব্যিক রূপে উন্মোচিত হয়। প্যান্ডেলের আলো আর প্রতিমার স্থিরতা যেন এক মহাজাগতিক মঞ্চ, যেখানে মানুষের আকাঙ্ক্ষা ও ঐশ্বরিক উপস্থিতি একে অপরের সঙ্গে মিশে যায়। এই অধ্যায়টি প্রশ্ন তোলে যে, এই ক্ষণস্থায়ী ঐশ্বরিক উপস্থিতি মানুষের চিরন্তন পার্থিব চাহিদা পূরণে কতটা সক্ষম?",
+      "further_references": []
+    }
+  ],
   "level": "chapter",
   "state": "written",
-  "segments": [
-    1
-  ],
   "creative_enrichment": {
     "angles": [
-      "Focusing solely on the transfer mechanism: how a mere pigment application (the eye paint) becomes the literal conduit for divine presence/energy.",
-      "The subjective experience of the artist as this boundary dissolves—is it reverence, or a form of temporary possession?",
-      "Treating the eyes not as features, but as two distinct portals: one gazing outward at the world, the other inward towards Mahishasura's victory."
+      "The shift from cosmic divine focus (Durga as supreme power) to intensely private, human desire observed in the shadows of the pandal.",
+      "Treating the 'spotlight' illumination not as glory, but as a harsh, exposing glare that reveals imperfection beneath piety.",
+      "Framing devotion as an inherent form of transactional longing—a quiet bargain struck between the worshipper and the deity."
     ],
     "story_options": [
-      "Setting: The final moments before the pigment dries. Desire: To capture a single drop of water (used in mixing or rinsing tools) symbolizing both life and dissolution falling onto the painted eye.",
-      "Setting: Close proximity to the colossal, unmoving visage. Desire: A brief internal monologue by the artist where they struggle with the overwhelming weight of 'seeing' manifested—the responsibility of creation becoming communion.",
-      "Setting: The specific angle required for the light source (diya/lamp) to catch the wet pigment on the eye. Desire: To use this singular, fleeting reflection as a momentary glimpse into eternity."
+      "setting: The shadowed inner sanctum of the pandal (near the idol's feet), desire: A silent wish for a specific, mundane human blessing (e.g., familial continuity or prosperity) to be acknowledged by the deity., obstacle: The overwhelming visual spectacle and noise of the surrounding festival pulling attention away., turn: The intensely personal plea is almost drowned out, forcing the speaker to retreat into an internal monologue that questions divine perception.",
+      "setting: A small alcove adjacent to the main viewing platform, desire: To momentarily stop 'performing' faith—to simply exist outside the ritual cycle., obstacle: The pressure from other onlookers or family members who are actively engaged in the devotional fervor., turn: The speaker recognizes that their yearning for mundane escape is itself a form of spiritual striving, making them complicit in the spectacle.",
+      "setting: Late night, as the residual glow of diyas fades, desire: To feel an unmediated connection—a moment where 'God' speaks directly to the self, without religious mediation., obstacle: The pervasive feeling that all divine interaction must pass through prescribed ritualistic forms (Mantra, Anjali)., turn: Instead of a grand revelation, the speaker experiences only the crushing weight of human expectation resting upon the shoulders of their own belief."
     ],
     "subject_rotations": [
-      "Exploring the act of painting itself as a ritualistic language—each stroke being an invocation rather than merely decorative.",
-      "Focusing heavily on the object used to paint (the brush/fine liner)—treating it like a highly consecrated, fragile instrument that cannot be seen for its function.",
-      "Deconstructing 'vision': If the eyes are painted *onto* the clay, how does this imply the divine aspect is an externally applied coat of reality?"
+      "Focusing on the materiality of 'aasha' (hope)—is hope itself a tangible object that can be offered at the altar?",
+      "Deconstructing the concept of 'presence': Is Durga physically there, or is her presence merely an agreed-upon cultural construct sustained by collective belief?",
+      "Examining the dissonance between the transcendent power symbolized by Mahishasur Mardini and the intimate vulnerabilities projected onto that symbol."
     ],
     "sensory_details": [
-      "Sight: The specific viscosity and sheen of the ochre or black pigment used for the iris against the dull matte surface of the cured earth.",
-      "Sound: The infinitesimally quiet *scrape* of the fine brush tip being lifted from the clay after deposition, a sound almost swallowed by stillness.",
-      "Touch: The slight stickiness and warmth radiating from the localized area where the pigment is freshly applied to the porous clay surface."
+      "The scent of marigold petals pressed into warm, damp earth from the pandal floor.",
+      "The sharp, metallic tang of oxidized brass fittings on an offering lamp left burning too long.",
+      "The low-frequency hum generated by hundreds of breathing bodies gathered in close proximity at night."
     ],
     "research_questions": [
-      "What are the traditional symbolic meanings assigned to the specific colors (e.g., black, red) used for the divine eyes in regional Bengali iconography?",
-      "Are there documented variations in the materials of the finest brushes utilized by Kumortuli artisans during this critical phase?"
+      "In Bengali poetic tradition, how is the transition from overtly devotional praise to introspection navigated without breaking linguistic consistency?",
+      "What specific archaic terms exist that differentiate between 'faith' (belief) and 'desire' (want) in high literary contexts?"
     ],
     "structural_variants": [
-      "An extreme focus on hyper-detailed observation: dedicating stanzas solely to the microscopic interplay between pigment and clay porosity.",
-      "A sudden shift into highly metaphorical dialogue, where the unpainted sections of the face seem to 'whisper' before the eyes are filled."
+      "A cyclical structure where the tension is established, peaked with a moment of false resolution, and then falls back into heightened tension.",
+      "An episodic montage built around distinct human faces peering toward the idol from different social strata."
     ],
     "unused_angles": [
-      "The logistical tension of managing multiple, complex ritual steps that must converge perfectly at this single point of inscription.",
-      "A comparison between the artisan’s personal vision and the established iconographic standard—the silent negotiation with tradition."
+      "Using the 'sound' not as celebration (like drums) but as oppressive silence—the moment when all ritual noise abruptly stops, leaving only heartbeats.",
+      "A prolonged internal debate over whether a specific personal desire is truly worthy of divine attention."
     ],
-    "variety_note": "While previous chapters focused on external preparation (clay, frame), this chapter forces a pivot inward, focusing intensely on a single act of creation that serves as the gateway to divinity."
+    "variety_note": "Unlike previous chapters that focused on the mechanics (creation/noise), this chapter delves into the psycho-spiritual tension *within* the moment of perceived climax, focusing on unmet longing against backdrop splendor."
   },
   "draft": {
-    "sha256": "633e353434dc4eea45cb6106451380d43d1a96df5465c3389c49c383d9db68e6",
-    "written_at": "2026-10-29T14:56:12.879690+00:00",
+    "sha256": "670f089dcf29853e8a80d9ff418c7f9a2ff45476a77319e6c29b3cf723e538fe",
+    "written_at": "2026-11-16T08:36:07.724573+00:00",
     "origin": "write"
   }
 }

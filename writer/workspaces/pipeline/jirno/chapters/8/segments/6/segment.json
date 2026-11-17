@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "সীমিত মানুষের দৃষ্টি",
+  "segment_summary": "তার নাগরিক দৃষ্টি এই বিশাল, আদিম সত্যকে শ্রেণিবদ্ধ করতে ব্যর্থ হয়, যা তার ধারণার বাইরে।",
+  "name": "8.6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Contrast the highly structured language of his preservation plans with the utterly unstructured vocabulary used by the Satual elders to describe the ruin.",
+    "story_option": "Setting: Standing in the threshold gap between ruin and village land; Desire: To articulate a single, definitive statement that encapsulates his new understanding—a thesis statement for existence, Obstacle: The noise of nearby life (animal calls, distant voices) drowns out any coherent declaration.",
+    "subject_rotation": "Shifting the focus from *what* he wants to save (the structure) to *why* he feels compelled to seek validation through preservation.",
+    "sensory_detail": "Smell: A mineral scent mingling with petrichor immediately preceding a dust storm.",
+    "research_question": "Is there an established poetic tradition within Bengali literature that uses geological erosion as a metaphor for existential fatigue?",
+    "structural_variant": "A dialogue-driven structure where the traveler argues his case against the 'indifference' until he is forced into silence by a single gesture from an elder.",
+    "variety_note": "This chapter is materially different by centering entirely on the internal conflict—the cognitive clash between ordered knowledge and chaotic reality—whereas neighbours focused more on external observation or philosophical reception."
+  }
+}

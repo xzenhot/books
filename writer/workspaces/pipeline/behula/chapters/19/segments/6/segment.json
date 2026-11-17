@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 19,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "নীরব অভিযোগের প্রতিধ্বনি",
+  "segment_summary": "বিজয় সত্ত্বেও, এই কাব্যটি সমাজের কাঠামোগত দুর্বলতাগুলির প্রতি এক নীরব, গভীর অভিযোগের প্রতিধ্বনি বহন করে।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Revisiting the societal gaze via an internal mechanism: Instead of an external judge, frame society's doubt as an internal echo chamber that Behula must consciously silence to maintain her peace.",
+    "story_option": "Setting: A place resembling the initial sanctuary; Desire: To experience an exhaustion so profound and complete that it feels like transcendence—a beautiful collapse into stillness rather than manic celebration.",
+    "subject_rotation": "Analyzing the return as less divine intervention and more recognition—that her inherent spiritual state finally matched the possibility of reunion.",
+    "sensory_detail": "A distinct metallic scent of ozone hanging in the air where the boundary between trial and reality has been crossed (olfactory).",
+    "research_question": "How to phrase the transition from a state of constant internal combat to perfect equilibrium using only archaic Bengali vocabulary?",
+    "structural_variant": "An astronomical metaphor where the reunion is depicted not as a collision, but as two distinct orbits achieving perfect, temporary synchronicity.",
+    "variety_note": "Where previous chapters focused on resistance and the internal fight against specific odds (skepticism, deprivation), this chapter shifts focus entirely to the *aftermath*—the sustained, quiet resonance following absolute victory and its philosophical weight."
+  }
+}

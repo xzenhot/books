@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 16,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "The Weight of Recognition",
+  "segment_summary": "The chapter questions whether the act of 'saving' or 'documenting' these blooms inherently diminishes their pure, unburdened essence.",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the blossoms not just as beauty, but as a biological metaphor for necessary waste or imperfection that sustains the overall ecosystem of decay.",
+    "story_option": "Setting: At dusk, when the intense red light softens into bruised purples over the flowers; Desire: To watch them change colour in the low light, a visible proof that their existence is cyclical, not static; Obstacle: The creeping doubt that this fading beauty confirms its ultimate ephemerality.",
+    "subject_rotation": "Interpreting them through a mythic lens not based on deities, but on primordial forces (earth/soil) that reject anthropocentric ritual.",
+    "sensory_detail": "Sound: A very faint, high-pitched hum from cicadas hidden among the scrub, synchronized precisely when he focuses on a bloom.",
+    "research_question": "How do historical texts describing ruin discuss peripheral flora versus the main architectural subject?",
+    "structural_variant": "A slow zoom-in technique, starting with the vast expanse of red earth and progressively tightening focus onto one single, named bloom until it dissolves into a concept.",
+    "variety_note": "Unlike previous chapters which dealt with external forces (clouds, elders), this chapter anchors the tension entirely within micro-observation—the relationship between the hand and a single point of untamed life."
+  }
+}

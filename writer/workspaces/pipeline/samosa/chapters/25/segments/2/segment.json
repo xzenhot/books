@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 2,
+  "total_segments": 8,
+  "segment_title": "আত্মার ভাজা স্মৃতি",
+  "segment_summary": "এই কাব্য প্রমাণ করে যে কিছু স্মৃতি কেবল জিভের ওপর নয়, বরং আত্মার গভীরেও ভাজা থাকে, যা খাদ্যের মাধ্যমে সঞ্চারিত হয়।",
+  "name": "2",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the satiety (পূর্ণতা) itself as an illusion designed by nostalgia to delay acceptance of loss.",
+    "story_option": "Setting: A window ledge overlooking perpetual urban twilight; Desire: For the scent rising from street vendors to coalesce into one specific, pure memory of home spices; Obstacle: Pollution and varied commercial odors drowning out authenticity; Turn: Accepting that the desired singular scent is now permanently fractured among competing smells.",
+    "subject_rotation": "Focusing solely on the *absence* of flavor, detailing the negative space that remains after the bite, rather than describing what was there.",
+    "sensory_detail": "Sound: The precise, high-pitched *sizzle* sound of one's own heartbeat mimicking the initial drop of hot fat onto dough in memory.",
+    "research_question": "How does one represent the qualitative weight of memory in Bengali diction without resorting to purely abstract nouns?",
+    "structural_variant": "Structuring each segment as a direct internal argument against the romanticization of loss—a reasoned defiance dressed in poetic form.",
+    "variety_note": "Unlike previous chapters that dissected the components or journey, this final sequence focuses purely on the phenomenology of 'aftertaste'—the philosophical residue remaining after consumption ceases."
+  }
+}

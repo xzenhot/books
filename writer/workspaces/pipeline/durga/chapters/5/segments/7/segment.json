@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 5,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "জীবনের চক্রের কেন্দ্রবিন্দু",
+  "segment_summary": "এই মুহূর্তটি কীভাবে জীবনের চক্রাকার দর্শনের কেন্দ্রবিন্দুতে অবস্থান করে, তা দার্শনিক দৃষ্টিকোণ থেকে বিশ্লেষণ করা হয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the battle not as a myth, but as an internal psycho-sexual confrontation within the modern urban Bengali.",
+    "story_option": "A character's personal 'অসুর' (fear/doubt) reaches its apex during the ritual, forcing a sudden moment of introspection before the battle.",
+    "subject_rotation": "Examining the 'ভয়' (fear) not as an external threat, but as inherent in human desire itself.",
+    "sensory_detail": "The sharp, ozone-like scent preceding intense electrical/spiritual discharge during peak power manifestation.",
+    "research_question": "Are there specific poetic techniques in classical Bengali literature that capture the sensation of compressed temporal energy (like a climax)?",
+    "structural_variant": "A rapid-fire montage structure alternating between extreme close-ups of physical strain/transformation and vast, abstract cosmological views.",
+    "variety_note": "While preceding chapters focused on construction and precursors, this chapter plunges directly into the crucible—the violent fusion of existence and void at the cosmological zenith."
+  }
+}

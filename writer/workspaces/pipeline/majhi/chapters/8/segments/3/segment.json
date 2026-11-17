@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 8,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "বাজারের আগ্রাসন",
+  "segment_summary": "নদীর শান্ত পরিবেশে বাজারের হিসেবি আওয়াজ কীভাবে প্রবেশ করছে, সেই দৃশ্যমান সংঘাত এখানে দেখানো হয়েছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Viewing the debt metaphorically as a physical accumulation on his body; the weight settling into his shoulder blades mirroring the mounting financial burden.",
+    "story_option": "Setting: Standing at the dock looking out over the water where modern goods are being unloaded via mechanized port facilities. Desire: To find a path that honors both his craft and current necessity. Obstacle: Every potential 'new' job requires abandoning the quiet, self-directed nature of riverside ferrying. Turn: He sees another boatman, younger, using newer, faster, but fundamentally less personal equipment.",
+    "subject_rotation": "An internal monologue where he contrasts the perceived generosity of his past services against the current reality where even a simple ride is anticipated to be priced.",
+    "sensory_detail": "The dryness and brittle quality of the old leather fittings on his boat that suddenly feel too fragile to bear weight.",
+    "research_question": "What are specific, localized dialects or phrases used in this region to express severe financial strain beyond simple monetary terms?",
+    "structural_variant": "A cyclical structure where each segment begins and ends with an observation of the water's surface, reflecting the mood cycle.",
+    "variety_note": "Where previous chapters have focused on external conflicts (bridges, weather), this chapter turns inward and downward, dealing solely with the material weight of commerce pressing upon his livelihood."
+  }
+}

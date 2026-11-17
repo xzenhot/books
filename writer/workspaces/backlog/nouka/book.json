@@ -1,43 +1,789 @@
 {
   "book_name": "nouka",
-  "book_long_title": "নৌকা: ভাটিয়ালির মাঝির মহাকাব্য",
-  "generic": "দার্শনিক বাংলা কবিতা",
-  "era": "১৯৭০-এর দশকের শেষভাগের বাংলার নদী ও আধুনিকতার সংঘর্ষ",
-  "language": "Bengali",
-  "target_audience": "বাংলা কবিতা, নদী ও মাঝি, ভাটিয়ালি সুর, উদারতা ও আধুনিকতার পাঠক",
+  "book_long_title": "nouka: এর কবিতা",
+  "generic": "আত্মঅনুসন্ধানী কবিতা",
+  "era": "সমকালীন ও রূপক সময়",
+  "language": "বাংলা",
+  "target_audience": "বাংলা সাহিত্য ও মননশীল পাঠের পাঠক",
   "chapter_count": 10,
-  "segment_count": 8,
-  "factory": "online",
   "form": "poetry",
-  "model": "gemma4:latest",
-  "style": "pijush",
-  "provider": "ollama",
-  "book_summary": "এই দশ পর্বের বাংলা কাব্য গোপাল নামের এক বৃদ্ধ মাঝিকে দেখে, যার ছোট্ট, ক্ষতচিহ্নিত কাঠের নৌকা বয়ে নিয়ে চলে প্রজন্মের ভাটিয়ালি বিষণ্ণতা আর অশোধযোগ্য উদারতা। গঙ্গার শাখা-প্রশাখার সর্পিল জালে সে ওয়ার টানে, নদীকে চেনে শরীরের স্মৃতি দিয়ে, আর বিনা পয়সায় পার করে দেয় সেই সব মানুষ যাদের টাকা নেই। কংক্রিটের শহর উজানে গজিয়ে ওঠে, আর রাষ্ট্রের ড্রেজিং প্রকল্প নদীর প্রাচীন প্রবাহ বদলে দিয়ে মাঝির চেনা ভূগোল মুছে ফেলে। ডিজেল ইঞ্জিনের ধাতব গর্জন ভাটিয়ালি সুরের গভীর অনুরণনকে চাপা দেয়। কাব্য নদী, সুর, উদারতা আর আধুনিকতার এই সংঘর্ষকে দার্শনিক প্রতিচিন্তায় রূপ দেয়; শেষে গোপালের হাতে থেকে যায় ওয়ার টানার ছন্দ আর গলায় এক অটুট সুর।",
-  "created_at": "2026-11-10",
-  "updated_by": "layout",
-  "updated_date": "2026-11-10T12:26:30Z",
+  "book_summary": "Generated via per-chapter layout — update from storyline.md",
+  "created_at": "2026-11-15T20:47:13+00:00",
+  "updated_at": "2026-11-15T20:47:13+00:00",
   "user_name": "pijush",
-  "gist": "বাংলার নদীতে যে মাঝি তার ছোট্ট কাঠের নৌকা বেয়ে চলে, সে বহন করে এক গোটা জীবনধারা — যে নদী ভূখণ্ড গড়েছে, যে ভাটিয়ালি সুরে দুঃখ ও মাধুর্য, আর যে সৌহার্দ্যপূর্ণ উদারতা টাকা দিতে না পারা মানুষকেও পার করে দেয়।",
-  "word_target": 500,
-  "register": "দার্শনিক, গাঢ়, চিত্রময় বাংলা কাব্যভাষা",
-  "quality": "উৎসনিষ্ঠ, স্বতন্ত্র শব্দ-সংশ্লেষ, দার্শনিক সংযম, পুনরাবৃত্তি-সচেতন",
-  "themes": [
-    "নদী ও মাঝি",
-    "ভাটিয়ালি সুর",
-    "উদারতা ও দান",
-    "আধুনিকতার সংঘর্ষ",
-    "স্মৃতি ও মুছে যাওয়া"
+  "gist": "Generated via per-chapter layout — update from storyline.md",
+  "chapters": [
+    {
+      "chapter_index": 1,
+      "name": "1",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "nouka — পর্ব 1 — nouka",
+      "chapter_summary": "This opening chapter establishes the setting within the muddy, monsoon-swollen rivers of rural Bengal, centering on Gopal, the aging majhi. His small, scarred wooden boat, the *nouka*, is introduced not just as a vessel, but as a living archive carrying the weight of generations of Bhatiyali sorrow and ingrained generosity. The chapter sets the tone by contrasting the organic rhythm of the delta life with the subtle, looming threat of external change. It leaves the reader questioning whether the deep, ancestral contract between the boatman and the river can withstand the first whispers of an encroaching, modern tide.",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "পলিমাটির রঙে রাঙা গোপাল",
+          "segment_summary": "The chapter begins by painting the portrait of Gopal, whose skin is deeply tanned by the river silt, establishing him as the embodiment of the delta's enduring spirit.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "নৌকা: এক ভাসমান আর্কাইভ",
+          "segment_summary": "The *nouka* is detailed as a repository of memory, carrying the echoes of Bhatiyali songs steeped in the bittersweet longing of the marginalized communities.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "বর্ষার আগমন ও বিষাদ",
+          "segment_summary": "The arrival of the monsoon is described, bringing with it the cyclical, powerful imagery of the rains and the melancholic timbre of the traditional songs.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "উদারতার অলিখিত চুক্তি",
+          "segment_summary": "The chapter explores the sacred, unspoken social contract where Gopal's boat offers passage to the poorest laborer, transcending mere economic transaction.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "নদীর প্রাচীন গর্জন",
+          "segment_summary": "The natural, slow rhythm of the Ganges tributaries is emphasized, portraying the river as a living, sustaining entity in its ancient state.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "প্রথম ফাটল",
+          "segment_summary": "A subtle shift in the atmosphere is introduced, hinting at the external pressures that will soon challenge the river's established flow.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "কাঠ ও শ্রমের স্পর্শ",
+          "segment_summary": "The physical reality of Gopal's labor—the calloused hands and the worn oars—is highlighted as the tangible link to his ancestral way of life.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "অজানা স্রোতের পূর্বাভাস",
+          "segment_summary": "The chapter concludes with a sense of quiet tension, foreshadowing the collision between the organic life of the delta and the mechanical ambitions of the outside world.",
+          "further_references": []
+        }
+      ]
+    },
+    {
+      "chapter_index": 2,
+      "name": "2",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "nouka — পর্ব 2 — nouka",
+      "chapter_summary": "This chapter focuses on the unspoken social contract that defines Gopal's existence on the water. It vividly portrays the scene where passengers, regardless of their means, find sanctuary aboard his worn *nouka*. The imagery centers on the contrast between the vast, indifferent expanse of the river and the intimate, generous space of the boat. The central tension explores the philosophical distance between the immense, natural world and the fragile, human commitment to communal grace, leaving the reader to question the true cost of such selfless hospitality.",
+      "further_references": [
+        "3"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "অলিখিত অঙ্গীকার",
+          "segment_summary": "গোপালের নৌকার পাটাতন যেন এক ভাসমান আশ্রয়স্থল, যেখানে অর্থের হিসেব ছাপিয়ে মানবিকতার চুক্তি কার্যকর হয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "নদীর বিশালতা ও ক্ষুদ্র মানবতা",
+          "segment_summary": "নদীর অনন্ত বিস্তার এবং তার মাঝে ভেসে থাকা মানুষের ক্ষুদ্র অস্তিত্বের মধ্যেকার গভীর দার্শনিক দূরত্ব এই অংশে চিত্রিত হয়েছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "যাত্রীর নীরবতা",
+          "segment_summary": "যাত্রীদের নীরব উপস্থিতি এবং তাদের নিঃশব্দ নির্ভরতা গোপালের উদারতার প্রতিধ্বনি বহন করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "কাঠের স্পর্শে ইতিহাস",
+          "segment_summary": "নৌকার প্রতিটি কাঠের তক্তা যেন অতীতের বহু যাত্রার স্মৃতি ও নিঃস্বার্থতার ভার বহন করে চলেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "প্রবাহের প্রতি সম্মান",
+          "segment_summary": "গোপাল কেবল যাত্রী পরিবহন করে না, সে নদীর প্রাকৃতিক ছন্দের প্রতি এক গভীর সম্মান প্রদর্শন করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "ঋণের ভার নয়, সম্পর্কের টান",
+          "segment_summary": "এই যাত্রায় কোনো আর্থিক লেনদেন মুখ্য নয়, বরং এক গভীর সামাজিক সম্পর্কের টান বিদ্যমান।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "পলিমাটির রং ও মানবিক উষ্ণতা",
+          "segment_summary": "গোপালের তামাটে ত্বক এবং নৌকার ভেতরের উষ্ণতা বাইরের শীতল নদীর পরিবেশের বিপরীতে এক মানবিক উষ্ণতা সৃষ্টি করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "অদৃশ্য চুক্তি",
+          "segment_summary": "এই অধ্যায়টি সেই অলিখিত চুক্তির গভীরতা উন্মোচন করে, যা আধুনিকতার লজিক দ্বারা সহজে পরিমাপ করা অসম্ভব।",
+          "further_references": []
+        }
+      ]
+    },
+    {
+      "chapter_index": 3,
+      "name": "3",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "nouka — পর্ব 3 — nouka",
+      "chapter_summary": "This chapter introduces the subtle intrusion of modernity into the ancient rhythm of the delta. The narrative focuses on the first auditory clash: the deep, organic groan of the river against the sharp, intrusive whine of distant diesel engines. This soundscape establishes the central tension between Gopal's inherited world and the encroaching, concrete ambition from upstream cities. The chapter explores the initial, almost imperceptible fracturing of the river's natural harmony, leaving the reader to question how a slow, living tradition can withstand the relentless, optimized noise of progress.",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "ধাতব আর্তনাদ",
+          "segment_summary": "The first distant sound of the diesel engine cuts through the monsoon's natural drone, signaling the arrival of an alien, mechanized presence.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "নদীর প্রাচীন গর্জন",
+          "segment_summary": "Gopal perceives the river's ancient, rhythmic pulse, a sound rooted in silt and monsoon, which resists the new, sharp intrusion.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "শহরের আকাঙ্ক্ষা",
+          "segment_summary": "The sound carries the weight of distant, concrete ambition, representing the relentless, optimizing drive of the burgeoning industrial centers.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "সূক্ষ্ম বিভাজন",
+          "segment_summary": "This chapter captures the delicate, almost unnoticed moment where the organic flow begins to separate from the engineered trajectory.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "কাঠ ও ইস্পাতের সংঘাত",
+          "segment_summary": "The contrast between the worn, varnished wood of the nouka and the cold, metallic timbre of the approaching machinery is vividly drawn.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "অস্বাভাবিক লয়",
+          "segment_summary": "The natural, predictable cadence of the delta's waterways starts to feel subtly disrupted by the external, imposed tempo.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "অদৃশ্য চ্যালেঞ্জ",
+          "segment_summary": "The initial conflict is not yet a confrontation, but a pervasive, unsettling dissonance that threatens the unspoken contract of the river.",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "প্রশ্নবোধক প্রতিধ্বনি",
+          "segment_summary": "The chapter ends with the lingering question of whether the deep, resonant culture of the delta can absorb this new, jarring frequency without breaking.",
+          "further_references": []
+        }
+      ]
+    },
+    {
+      "chapter_index": 4,
+      "name": "4",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "চট্টার্জীর আগমন: লজিস্টিক বাধা",
+      "chapter_summary": "এই অধ্যায়টি আধুনিকতার প্রতিনিধি, চট্টার্জীর আগমনকে কেন্দ্র করে আবর্তিত হয়, যিনি নদীর প্রবাহকে কেবল একটি লজিস্টিক বাধা হিসেবে দেখেন। তার চোখে, নদী কোনো জীবন্ত সত্তা নয়, বরং কেবল বাল্ক কার্গো পরিবহনের জন্য অপ্টিমাইজ করার মতো একটি কাঠামো। এই দৃষ্টিভঙ্গি গোপালের জীবনদর্শন এবং তার সম্প্রদায়ের ঐতিহ্যবাহী মূল্যবোধকে সরাসরি চ্যালেঞ্জ জানায়। প্রশ্নটি হলো—যখন মানবীয় মূল্যবোধকে কেবল অর্থনৈতিক কার্যকারিতার মাপকাঠিতে বিচার করা হয়, তখন ঐতিহ্য কীভাবে তার অস্তিত্ব রক্ষা করতে পারে?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "কংক্রিটের শীতল দৃষ্টি",
+          "segment_summary": "শহরের মসৃণ, কংক্রিটের আকাঙ্ক্ষা দূর থেকে ভেসে আসে, যা নদীর প্রাচীন গর্জনের সঙ্গে সংঘাত সৃষ্টি করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "চট্টার্জীর আগমন",
+          "segment_summary": "আধুনিকতার প্রতিনিধি চট্টার্জী নদীর কাছে আসে, যার চোখে নদী কেবল একটি পরিমাপযোগ্য সম্পদ।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "নদীর সংজ্ঞা পরিবর্তন",
+          "segment_summary": "চট্টার্জী নদীকে একটি 'লজিস্টিক বাধা' হিসেবে সংজ্ঞায়িত করে, যা গোপালের জীবনদর্শনকে সরাসরি আঘাত করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "ঐতিহ্যের অস্বীকৃতি",
+          "segment_summary": "তার যুক্তি মানবীয় আবেগ বা ঐতিহ্যের কোনো স্থান দেয় না, যা গোপালের জীবনযাত্রার মূল ভিত্তি।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "সংঘাতের সূচনা",
+          "segment_summary": "এই দৃষ্টিভঙ্গি গোপালের নৌকা এবং তার সম্প্রদায়ের অলিখিত চুক্তির সঙ্গে তীব্র সংঘাত সৃষ্টি করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "অদৃশ্য মূল্যবোধের লড়াই",
+          "segment_summary": "গোপাল তার নিঃস্বার্থ উদারতার মূল্যকে আধুনিক, সংখ্যাতাত্ত্বিক পরিমাপের সামনে তুলে ধরতে দ্বিধা করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "প্রবাহের অপ্টিমাইজেশন",
+          "segment_summary": "চট্টার্জীর লক্ষ্য হলো নদীর প্রবাহকে 'অপ্টিমাইজ' করা, যা প্রকৃতির স্বাভাবিক ছন্দকে অস্বীকার করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "অস্তিত্বের প্রশ্ন",
+          "segment_summary": "এই মুখোমুখি সংঘর্ষে, গোপালকে বুঝতে হয় যে এটি কেবল অর্থনৈতিক নয়, বরং তার অস্তিত্বের প্রশ্ন।",
+          "further_references": []
+        }
+      ]
+    },
+    {
+      "chapter_index": 5,
+      "name": "5",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "nouka — পর্ব 5 — nouka",
+      "chapter_summary": "This chapter marks the critical turning point as the state-sponsored dredging project begins its physical assault on the river's natural state. The imagery shifts from subtle encroachment to tangible disruption, as the predictable, life-giving currents are violently altered by the machinery. Gopal witnesses the river losing its familiar, organic rhythm, forcing him to confront the reality that the threat is not merely economic, but a fundamental erasure of his cultural geography. The central question remains: can a tradition survive when the very medium it relies upon is being systematically re-engineered?",
+      "further_references": [
+        "4"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "5.1",
+          "word_target": 500,
+          "segment_title": "স্রোতের প্রথম আঘাত",
+          "segment_summary": "The initial, deep cuts of the dredging machinery begin to carve unnatural paths into the ancient, meandering flow of the tributary.",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "5.2",
+          "word_target": 500,
+          "segment_title": "পরিচিত মুখ হারানো নদী",
+          "segment_summary": "The river, once a predictable, living entity, begins to exhibit erratic and dangerous currents, mirroring the instability in Gopal's own life.",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "5.3",
+          "word_target": 500,
+          "segment_title": "ভৌগোলিক পরিবর্তন, সাংস্কৃতিক সংকট",
+          "segment_summary": "Gopal realizes that the alteration of the water's path is not just a logistical change, but a profound threat to the specific cultural landscape his life is woven into.",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "5.4",
+          "word_target": 500,
+          "segment_title": "প্রকৃতির নীরব প্রতিবাদ",
+          "segment_summary": "The river itself seems to resist this imposed order, its deep, powerful nature pushing back against the rigid lines of the dredging project.",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5.5",
+          "word_target": 500,
+          "segment_title": "কাঠের নৌকার অস্থিরতা",
+          "segment_summary": "The worn wood of the nouka, accustomed to gentle currents, begins to strain against the sudden, unpredictable surges and eddies.",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "5.6",
+          "word_target": 500,
+          "segment_title": "অজানা বিপদের পূর্বাভাস",
+          "segment_summary": "The shift in the water's character brings with it a palpable sense of danger, a constant, low-level anxiety replacing the familiar rhythm of the monsoon.",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "5.7",
+          "word_target": 500,
+          "segment_title": "অস্তিত্বের প্রশ্ন",
+          "segment_summary": "Gopal is forced to question the very foundation of his existence—is his life tied to the river's natural pulse, or to the efficiency of the new, engineered channel?",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "5.8",
+          "word_target": 500,
+          "segment_title": "নতুন স্রোতের মুখোমুখি",
+          "segment_summary": "He stares out at the altered water, the metallic whine of the machinery now a constant counterpoint to the fading, soulful echoes of the Bhatiyali songs.",
+          "further_references": []
+        }
+      ]
+    },
+    {
+      "chapter_index": 6,
+      "name": "6",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "nouka — পর্ব 6 — nouka",
+      "chapter_summary": "In this chapter, Gopal finds himself adrift on the water, his gaze fixed upon the receding memories of the river's slower, more honorable days. The imagery shifts to the contrast between the current, fractured flow caused by dredging and the deep, resonant echoes of the Bhatiyali songs. This internal reflection serves as a silent, profound protest against the encroaching mechanical efficiency. The chapter forces the reader to question whether clinging to a beautiful, obsolete rhythm is an act of dignity or a fatal act of stubborn resistance.",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "ধীর গতির প্রতিচ্ছবি",
+          "segment_summary": "গোপাল তার নৌকার পাটাতনে বসে অতীতের সেই সোনালী, ধীর গতির দিনগুলোর প্রতিচ্ছবি খুঁজে বেড়ায়, যেখানে নদীর গতি ছিল জীবনের স্বাভাবিক তাল।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "ভাটিয়ালি সুরের প্রতিধ্বনি",
+          "segment_summary": "ভাটিয়ালি গানের সেই পুরনো সুরগুলো যেন নদীর ভাঙা স্রোতের বিপরীতে এক নীরব প্রতিবাদ হয়ে ওঠে, যা তার আত্মার গভীরে অনুরণিত হয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "নদীর ভাঙা স্রোত",
+          "segment_summary": "ড্রেজিংয়ের কারণে সৃষ্ট কৃত্রিম ও অস্থির স্রোত নদীর প্রাচীন, স্থিতিশীল চরিত্রকে ছিন্নভিন্ন করে দিচ্ছে, যা প্রকৃতির স্বাভাবিক ছন্দকে ব্যাহত করছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "স্মৃতির ভার",
+          "segment_summary": "নৌকাটি কেবল কাঠ নয়, এটি প্রজন্মের ভার বহনকারী এক জীবন্ত স্মৃতি, যা অতীতের উদারতার গল্পগুলো বহন করে চলেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "নীরব প্রতিরোধ",
+          "segment_summary": "গোপালের এই নীরব সংগ্রামটি আধুনিকতার কর্কশ শব্দগুলির বিরুদ্ধে এক গভীর, সাংস্কৃতিক প্রতিরোধ হিসেবে চিত্রিত হয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "অস্তিত্বের প্রশ্ন",
+          "segment_summary": "এই স্মৃতিচারণ গোপালকে এক মৌলিক প্রশ্নে ফেলে দেয়—ঐতিহ্য ধরে রাখা কি কেবলই এক ম্লান, অর্থহীন প্রচেষ্টা?",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "পলিমাটির রং",
+          "segment_summary": "নদীর পলিমাটির রঙে রাঙা গোপালের ত্বক যেন সেই প্রাচীন পৃথিবীর শেষ সাক্ষী, যা দ্রুত পরিবর্তনশীল স্রোতে বিলীন হতে চলেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "আদিম সুরের আহ্বান",
+          "segment_summary": "নদীর গভীরে চাপা পড়া সেই আদিম সুরের আহ্বান, যা যন্ত্রের গর্জনের মধ্যেও টিকে থাকার শেষ ভরসা হয়ে ওঠে।",
+          "further_references": []
+        }
+      ]
+    },
+    {
+      "chapter_index": 7,
+      "name": "7",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "nouka — পর্ব 7 — nouka",
+      "chapter_summary": "This chapter focuses on the direct confrontation between Gopal's ingrained tradition of selfless generosity and the cold, calculating efficiency of modern industrial forces. As Chatterjee's team begins to 'chain' the river with heavy machinery, the unspoken social contract—the guarantee of passage for all, regardless of coin—is placed under existential threat. The imagery shifts from the organic flow of the delta to the harsh, metallic imposition of dredging equipment, forcing the reader to question whether human connection can survive when measured solely by financial metrics. The central question remains: Can the intangible value of communal spirit withstand the quantifiable logic of progress?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "7.1",
+          "word_target": 500,
+          "segment_title": "শৃঙ্খলিত স্রোত",
+          "segment_summary": "চট্টার্জীর দল যখন ভারী যন্ত্রপাতির সাহায্যে নদীকে 'শৃঙ্খলিত' করতে শুরু করে, তখন গোপালের সম্প্রদায়ের সেই প্রাচীন উদারতার চুক্তিটি হুমকির মুখে পড়ে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "7.2",
+          "word_target": 500,
+          "segment_title": "অর্থের মাপকাঠি",
+          "segment_summary": "এই পরিস্থিতিতে, মানবিক সম্পর্কের মূল্য কি কেবল আর্থিক পরিমাপক দ্বারা নির্ধারিত হবে, যা গোপালের জীবনদর্শনকে সরাসরি আঘাত করছে?",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "7.3",
+          "word_target": 500,
+          "segment_title": "পলি ও ইস্পাত",
+          "segment_summary": "নদীর পলিমাটির নরম স্পর্শের বিপরীতে, ড্রেজিংয়ের ইস্পাত কাঠামো এক শীতল, অপ্রতিরোধ্য উপস্থিতি তৈরি করে চলেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "7.4",
+          "word_target": 500,
+          "segment_title": "ভাটিয়ালি নীরবতা",
+          "segment_summary": "গোপাল তার নৌকার পাটাতনে বসে, ভাটিয়ালি গানের সেই পুরনো সুরগুলো যেন যন্ত্রের কর্কশ শব্দের বিপরীতে এক নীরব, গভীর প্রতিবাদ হয়ে ওঠে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "7.5",
+          "word_target": 500,
+          "segment_title": "অলিখিত চুক্তি",
+          "segment_summary": "নৌকার আশ্রয়ে থাকা দরিদ্রতম যাত্রীর জন্য সংরক্ষিত সেই অলিখিত অঙ্গীকার, যা শত বছরের মানবিকতার প্রতীক, তা এখন ঝুঁকির মুখে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "7.6",
+          "word_target": 500,
+          "segment_title": "আধুনিকতার আগ্রাসন",
+          "segment_summary": "শহর থেকে আসা মসৃণ, কংক্রিটের আকাঙ্ক্ষা এখন সরাসরি নদীর বুকে তার ভারী যন্ত্রপাতির মাধ্যমে আঘাত হানছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7.7",
+          "word_target": 500,
+          "segment_title": "জীবনের প্রবাহ বনাম লজিস্টিকস",
+          "segment_summary": "নদীকে কেবল 'পরিবহনের পথ' হিসেবে দেখার এই দৃষ্টিভঙ্গি, তার ভেতরের জীবন, গান ও মানবিক সম্পর্কের গভীরতাকে সম্পূর্ণভাবে উপেক্ষা করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "7.8",
+          "word_target": 500,
+          "segment_title": "অস্তিত্বের প্রশ্ন",
+          "segment_summary": "এই সংঘাত গোপালের জন্য কেবল অর্থনৈতিক টিকে থাকার লড়াই নয়, বরং তার নিজস্ব সাংস্কৃতিক অস্তিত্বের বিলুপ্তি রোধ করার এক মরিয়া সংগ্রাম।",
+          "further_references": []
+        }
+      ]
+    },
+    {
+      "chapter_index": 8,
+      "name": "8",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "nouka — পর্ব 8 — nouka",
+      "chapter_summary": "This chapter focuses on the unpredictable fluctuations of the river's water level, a disruption that transcends mere geography to destabilize Gopal's entire existence. The natural rhythm, once a reliable companion, now becomes a source of existential uncertainty, mirroring the cultural instability he faces. The imagery centers on the shifting silt and the precarious balance of the boat against the rising and falling currents. The central question remains: can a tradition rooted in stable, predictable cycles survive when the very medium of its existence becomes erratic?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "জলস্তরের অস্থিরতা",
+          "segment_summary": "নদীর জলস্তর অপ্রত্যাশিতভাবে ওঠানামা করতে থাকে, যা প্রাকৃতিক চক্রের বাইরে এক অস্থিরতা সৃষ্টি করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "প্রবাহের অনিশ্চিত ভাষা",
+          "segment_summary": "প্রাকৃতিক প্রবাহের স্থিতিশীলতা ভেঙে যাওয়ায়, গোপালের দৈনন্দিন জীবন এক নতুন অনিশ্চয়তার স্তরে ঠেলে দেওয়া হচ্ছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "পলিমাটির অস্থিরতা",
+          "segment_summary": "নদীর তলদেশ, যা এতদিন পরিচিত ছিল, তা এখন দ্রুত পরিবর্তনশীল পলি ও স্রোতের কারণে এক অচেনা রূপ ধারণ করছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "নৌকার ভারসাম্য",
+          "segment_summary": "গোপালের নৌকা, যা বহু বছরের অভিজ্ঞতায় স্থিতিশীল ছিল, তা এখন এই নতুন, অস্থির জলধারায় ক্রমাগত ভারসাম্য হারানোর ঝুঁকিতে রয়েছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "প্রকৃতির নীরব বিদ্রোহ",
+          "segment_summary": "নদী যেন তার নিজস্ব প্রাচীন চুক্তি ভঙ্গ করছে, যা মানব জীবন ও সংস্কৃতির ওপর নির্ভর করত।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "সাংস্কৃতিক কম্পন",
+          "segment_summary": "এই জলস্তরের পরিবর্তন কেবল জলজ নয়, এটি সেই সাংস্কৃতিক ভিত্তিকে নাড়িয়ে দিচ্ছে যা ভাটিয়ালি গান ও উদারতার ওপর দাঁড়িয়ে ছিল।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "অপেক্ষা ও উদ্বেগ",
+          "segment_summary": "গোপাল এখন আর কেবল যাত্রীর জন্য অপেক্ষা করে না, বরং নদীর পরবর্তী আকস্মিক পরিবর্তনটির জন্য গভীর উদ্বেগ নিয়ে অপেক্ষা করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "অস্তিত্বের নতুন মানচিত্র",
+          "segment_summary": "এই অস্থিরতা গোপালকে বাধ্য করছে তার জীবন ও কাজের মানচিত্রকে নতুন করে আঁকতে, যেখানে স্থিতিশীলতা আর কোনো নিশ্চয়তা নয়।",
+          "further_references": []
+        }
+      ]
+    },
+    {
+      "chapter_index": 9,
+      "name": "9",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "গোপালের দ্বিধা: স্রোত বনাম ঐতিহ্য",
+      "chapter_summary": "এই অধ্যায়টি গোপালের গভীর অভ্যন্তরীণ সংঘাতকে কেন্দ্র করে আবর্তিত হয়, যেখানে তাকে দুটি বিপরীতমুখী পথের সামনে দাঁড়াতে হয়। একদিকে, তার বহু বছরের অভিজ্ঞতা ও ঐতিহ্যবাহী নৌকার ধীর, সম্মানের পথ; অন্যদিকে, আধুনিকতার দ্রুত, যান্ত্রিক স্রোত। এই দ্বিধা কেবল জীবিকার প্রশ্ন নয়, বরং তার আত্মপরিচয় এবং বাংলার নদীমাতৃক সংস্কৃতির অস্তিত্ব রক্ষার প্রশ্ন। নদীর গতিপথ পরিবর্তনের এই সন্ধিক্ষণে, গোপালকে সিদ্ধান্ত নিতে হয়—সে কি তার শিকড়ের প্রতি বিশ্বস্ত থাকবে, নাকি বিলুপ্তির ঝুঁকি নিয়ে নতুন স্রোতের সঙ্গে নিজেকে মানিয়ে নেবে?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "9.1",
+          "word_target": 60,
+          "segment_title": "পুরোনো পথের প্রতি টান",
+          "segment_summary": "গোপাল তার নৌকার পাটাতনে বসে অতীতের সেই ধীর, সম্মানের গতির স্মৃতিচারণ করে, যা নদীর স্বাভাবিক ছন্দে বাঁধা ছিল।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "9.2",
+          "word_target": 60,
+          "segment_title": "নতুন স্রোতের আহ্বান",
+          "segment_summary": "দূর থেকে ভেসে আসা ডিজেল ইঞ্জিনের কর্কশ শব্দ তাকে আধুনিক, দ্রুতগামী স্রোতের দিকে মনোযোগ দিতে বাধ্য করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "9.3",
+          "word_target": 60,
+          "segment_title": "আত্মপরিচয়ের প্রশ্ন",
+          "segment_summary": "এই সিদ্ধান্তটি কেবল অর্থনৈতিক নয়, এটি তার সত্তার গভীরে প্রোথিত সাংস্কৃতিক পরিচয়ের প্রশ্ন উত্থাপন করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "9.4",
+          "word_target": 60,
+          "segment_title": "ঐতিহ্যের ভার",
+          "segment_summary": "নৌকাটি কেবল কাঠ নয়, এটি প্রজন্মের উদারতা ও ঋণ বহনকারী একটি ভাসমান আর্কাইভ, যা পরিবর্তনকে প্রত্যাখ্যান করে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "9.5",
+          "word_target": 60,
+          "segment_title": "প্রবাহের দ্বান্দ্বিকতা",
+          "segment_summary": "প্রাকৃতিক বর্ষার ছন্দ এবং ড্রেজিংয়ের দ্বারা সৃষ্ট কৃত্রিম, বিপজ্জনক স্রোতের মধ্যে এক তীব্র সংঘাত সৃষ্টি হয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "9.6",
+          "word_target": 60,
+          "segment_title": "ভবিষ্যতের অনিশ্চয়তা",
+          "segment_summary": "নদীর এই অস্থিরতা গোপালের দৈনন্দিন জীবনকে এক গভীর অনিশ্চয়তার স্তরে ঠেলে দেয়, যেখানে কোনো নিশ্চিত আশ্রয় নেই।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "9.7",
+          "word_target": 60,
+          "segment_title": "মানবিকতার মূল্য",
+          "segment_summary": "গোপাল প্রশ্ন করে—অর্থের পরিমাপক দ্বারা কি মানবিক সম্পর্কের গভীরতা এবং নিঃস্বার্থ উদারতার মূল্য নির্ধারণ করা সম্ভব?",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "9.8",
+          "word_target": 60,
+          "segment_title": "নীরব প্রতিরোধ",
+          "segment_summary": "এই অভ্যন্তরীণ সংগ্রামটিই তার নীরব প্রতিরোধ, যা যন্ত্রের কর্কশ শব্দ এবং প্রাচীন ভাটিয়ালি সুরের মধ্যে প্রতিধ্বনিত হয়।",
+          "further_references": []
+        }
+      ]
+    },
+    {
+      "chapter_index": 10,
+      "name": "10",
+      "word_target": 500,
+      "segment_count": 8,
+      "chapter_title": "নৌকার কাঠ বনাম ধাতব স্রোত",
+      "chapter_summary": "এই অধ্যায়টি গোপালের নৌকার প্রাচীন কাঠামোর সঙ্গে আধুনিক, চকচকে ধাতব কাঠামোর অনিবার্য সংঘাতকে কেন্দ্র করে আবর্তিত। ঐতিহ্যবাহী কাঠের গন্ধ এবং ডিজেলের রাসায়নিক ঝাঁঝের তীব্র দ্বান্দ্বিকতা এখানে মুখ্য হয়ে ওঠে, যা কেবল বস্তুগত পরিবর্তন নয়, বরং জীবনদর্শনগত বিচ্যুতিকে নির্দেশ করে। গোপালকে এই প্রশ্নটি সামনে আসে: তার বহু প্রজন্মের স্পর্শ পাওয়া এই জীবন্ত কাঠামো কি দ্রুতগতির, যান্ত্রিক আগ্রাসনের কাছে বিলীন হয়ে যাবে, নাকি সে তার নিজস্ব, ধীর গতির অস্তিত্বকে রক্ষা করতে পারবে?",
+      "further_references": [
+        "research.md"
+      ],
+      "segments": [
+        {
+          "segment_index": 1,
+          "name": "1",
+          "word_target": 500,
+          "segment_title": "কাঠের স্মৃতি",
+          "segment_summary": "নৌকার প্রতিটি তক্তা যেন অতীতের বহু যাত্রার নীরব সাক্ষী, যা সময়ের ধুলো আর জলের স্পর্শে গভীর ইতিহাস ধারণ করে আছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 2,
+          "name": "2",
+          "word_target": 500,
+          "segment_title": "ধাতুর আগমনী সুর",
+          "segment_summary": "দূর থেকে ভেসে আসা ডিজেল ইঞ্জিনের তীক্ষ্ণ, যান্ত্রিক শব্দ যেন নদীর প্রাচীন গর্জনের বিপরীতে এক শীতল, আক্রমণাত্মক ঘোষণা নিয়ে আসে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 3,
+          "name": "3",
+          "word_target": 500,
+          "segment_title": "ঘ্রাণ ও অস্তিত্বের সংঘাত",
+          "segment_summary": "ভেজা কাঠের সেই পরিচিত, মাটির গন্ধের সঙ্গে মিশে যায় ডিজেলের তীব্র, রাসায়নিক ঝাঁঝ, যা দুটি ভিন্ন জগতের মুখোমুখি দাঁড় করিয়ে দেয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 4,
+          "name": "4",
+          "word_target": 500,
+          "segment_title": "প্রজন্মের ভার",
+          "segment_summary": "নৌকাটি কেবল একটি যান নয়, এটি সেই সমস্ত প্রজন্মের শ্রম, উদারতা এবং নীরব অঙ্গীকারের ভার বহনকারী একটি ভাসমান আর্কাইভ।",
+          "further_references": []
+        },
+        {
+          "segment_index": 5,
+          "name": "5",
+          "word_target": 500,
+          "segment_title": "পরিবর্তনের শীতল স্পর্শ",
+          "segment_summary": "আধুনিকতার চকচকে, মসৃণ কাঠামো যেন ঐতিহ্যবাহী কাঠামোর রুক্ষ, প্রাকৃতিক সারল্যকে চ্যালেঞ্জ জানায়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 6,
+          "name": "6",
+          "word_target": 500,
+          "segment_title": "অপরিবর্তনীয়তার আকাঙ্ক্ষা",
+          "segment_summary": "গোপাল তার নৌকার কাঠামোর মধ্যে সেই স্থিতিশীলতা খুঁজে বেড়ায়, যা দ্রুত পরিবর্তনশীল নদীর স্রোতের বিপরীতে এক স্থির আশ্রয়।",
+          "further_references": []
+        },
+        {
+          "segment_index": 7,
+          "name": "7",
+          "word_target": 500,
+          "segment_title": "ভেঙে যাওয়া চুক্তি",
+          "segment_summary": "এই বস্তুগত পরিবর্তন ইঙ্গিত দেয় যে, নদীর সঙ্গে মানুষের প্রাচীন, অলিখিত চুক্তিটি এখন কেবলই একটি অর্থনৈতিক হিসাবের খাতায় পরিণত হতে চলেছে।",
+          "further_references": []
+        },
+        {
+          "segment_index": 8,
+          "name": "8",
+          "word_target": 500,
+          "segment_title": "অস্তিত্বের প্রশ্ন",
+          "segment_summary": "এই সংঘাতের গভীরে লুকিয়ে আছে গোপালের আত্মপরিচয়ের প্রশ্ন—সে কি তার শিকড়কে ধরে রাখবে নাকি নতুন স্রোতে ভেসে যাবে?",
+          "further_references": []
+        }
+      ]
+    }
   ],
-  "reference": "workspaces/backlog/nouka/gist.md এবং storyline.md",
-  "index": "প্রথম-পুরুষ পর্যবেক্ষক; গোপালের নৌকা ও নদীর যাত্রা",
-  "sacred_vocabulary": [
-    "নৌকা",
-    "নদী",
-    "ভাটিয়ালি",
-    "মাঝি",
-    "ওয়ার"
-  ],
-  "translation_guide": "কোনো অনুবাদ এই পরীক্ষার অংশ নয়।",
   "all_characters": [],
   "filter_chain": [
     "workshop",
@@ -57,757 +803,7 @@
     "syntax",
     "signature"
   ],
-  "signature": "aurilus",
-  "chapters": [
-    {
-      "chapter_index": 1,
-      "name": "1",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "নৌকার জন্ম",
-      "chapter_summary": "গোপালের ছোট্ট কাঠের নৌকাটি কেবল একটি যান নয়, তা তার পিতা ও পিতামহের হাত ধরে আসা এক ভাসমান উত্তরাধিকার। তক্তায় তক্তায় জোড়া সেই নৌকায় খোদাই হয়ে আছে বর্ষার জল, ভাটিয়ালি সুরের অনুরণন আর প্রজন্মের পর প্রজন্মের ক্লান্ত হাতের স্পর্শ। নদীর পলিতে পোড়া কাঠের রং আর মাঝির চামড়ায় নদীর গন্ধ এক হয়ে গেছে। গোপাল প্রতিদিন ভোরের কুয়াশায় নৌকা ঠেলে নামে, ওঠে সেই জলে যা তার পরিবারকে খাইয়েছে, বাঁচিয়েছে আর কখনো কেড়েও নিয়েছে। নৌকাটি তার মায়ের মতো — তাকে বয়ে চলে, অথচ নিজে কখনো কিছু চায় না। এই কবিতা সেই জন্মকথা মনে করে, যে মুহূর্তে একটি গাছ নদীর জলে নৌকা হয়ে ওঠে, আর এক কিশোর প্রথমবার ওয়ার হাতে নিয়ে বাবার পাশে বসে। সেই কিশোরের চোখে নদী তখনো এক অচেনা পথ, ওয়ারের ভার তখনো তার কাঁধে অসমান। বাবা কিছু বলেন না, শুধু ছন্দ দেখান — ডুব, টান, তুলে আনা — আর সেই ছন্দই হয়ে ওঠে প্রথম পাঠ। আধুনিকতার হাওয়া যখন ডিজেল ইঞ্জিন নিয়ে আসে, তখন এই পুরনো কাঠের নৌকাই হয়ে ওঠে এক জীবন্ত প্রশ্ন: যন্ত্র এসে গেলে সেই সব হাতের কী হবে, যারা কেবল ওয়ার দিয়ে নদীর ভাষা পড়তে জানে।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "ভাসমান উত্তরাধিকার",
-          "segment_summary": "গোপালের নৌকাটি পিতা ও পিতামহের হাত ধরে আসা এক ভাসমান উত্তরাধিকার, যেখানে কাঠের তক্তায় তক্তায় জোড়া আছে প্রজন্মের শ্রম ও স্মৃতি।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "তক্তার স্মৃতি",
-          "segment_summary": "নৌকার প্রতিটি তক্তা বর্ষার জল আর ভাটিয়ালি সুরের অনুরণন ধরে রেখেছে; কবিতা নৌকাকে এক জীবন্ত সংরক্ষণাগার হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "নদীর পলিতে পোড়া রং",
-          "segment_summary": "নদীর পলিতে পোড়া কাঠের রং আর মাঝির চামড়ার গন্ধ এক হয়ে গেছে; মাঝি ও নৌকা একই নদীর দুই মুখ।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "ভোরের কুয়াশা",
-          "segment_summary": "গোপাল প্রতিদিন ভোরের কুয়াশায় নৌকা ঠেলে নামে, ওঠে সেই জলে যা তার পরিবারকে খাইয়েছে, বাঁচিয়েছে আর কখনো কেড়েও নিয়েছে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "মায়ের মতো নৌকা",
-          "segment_summary": "নৌকাটি তার মায়ের মতো — তাকে বয়ে চলে, অথচ নিজে কখনো কিছু চায় না; কবিতা এই নীরব সেবাকে ভালোবাসার রূপ হিসেবে পড়ে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "গাছ থেকে নৌকা",
-          "segment_summary": "কবিতা সেই জন্মকথা মনে করে, যে মুহূর্তে একটি গাছ নদীর জলে নৌকা হয়ে ওঠে, আর এক কিশোর প্রথমবার ওয়ার হাতে বাবার পাশে বসে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "ওয়ারের ভাষা",
-          "segment_summary": "মাঝির হাত কেবল ওয়ার দিয়ে নদীর ভাষা পড়তে জানে; কবিতা সেই ভাষাকে কোনো শব্দ ছাড়াই বলা এক প্রার্থনা হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "যন্ত্রের প্রশ্ন",
-          "segment_summary": "ডিজেল ইঞ্জিন যখন আসে, পুরনো কাঠের নৌকাই হয়ে ওঠে এক জীবন্ত প্রশ্ন: যন্ত্র এসে গেলে সেই সব হাতের কী হবে। শুরুর জন্মকথা আবার ফিরে আসে এই প্রশ্নে।",
-          "further_references": []
-        }
-      ]
-    },
-    {
-      "chapter_index": 2,
-      "name": "2",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "নদীর শরীর",
-      "chapter_summary": "বাংলার ভূখণ্ড আসলে নদীরই দান — যে পলি জমিয়ে ডেল্টা গড়েছে, সেই নদীই আবার প্রতিটি বাঁকে তার নিজের শরীর বদলে নেয়। গোপাল গঙ্গার শাখা-প্রশাখার সেই সর্পিল জালে পথ চেনে চোখের নয়, শরীরের স্মৃতি দিয়ে: কোথায় স্রোত চাপা, কোথায় চর জেগেছে, কোথায় ঘূর্ণি লুকিয়ে থাকে। নদী তার কাছে মানচিত্র নয়, এক শ্বাস-প্রশ্বাস নেওয়া জীবন্ত সত্তা — যে পুষ্ট করে, আবার ধ্বংসও করে। এই কবিতা নদীর সেই দ্বৈত শরীরকে দেখে: একদিকে উর্বর পলি আর ফসল, অন্যদিকে ভাঙন আর বন্যা। গোপাল জানে, নদীকে জয় করা যায় না, কেবল তার সঙ্গে বয়ে চলা যায়; ওয়ার টেনে সে নদীর সঙ্গে কথা বলে, তাকে মানে না, শুধু শোনে। প্রতিটি স্রোতের টান তার পায়ের তলায়, প্রতিটি চরের নরম মাটি তার চোখে লেখা। কংক্রিটের শহর যখন উজানে গজিয়ে ওঠে, নদীর প্রাচীন প্রবাহ তখনো নিজের নিয়মে বয়ে চলে, মানুষের সব হিসাব উপেক্ষা করে। কবিতাটি জিজ্ঞেস করে, যে নদী ভূখণ্ড বানিয়েছে, মানুষ কি তাকে চিনেছে, নাকি কেবল তাকে ব্যবহার করতে শিখেছে।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "পলির দান",
-          "segment_summary": "বাংলার ভূখণ্ড নদীরই দান; যে পলি জমিয়ে ডেল্টা গড়েছে, সেই নদীই প্রতিটি বাঁকে নিজের শরীর বদলে নেয়।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "সর্পিল জাল",
-          "segment_summary": "গোপাল গঙ্গার শাখা-প্রশাখার সর্পিল জালে পথ চেনে চোখের নয়, শরীরের স্মৃতি দিয়ে — কোথায় স্রোত চাপা, কোথায় চর জেগেছে, কোথায় ঘূর্ণি লুকিয়ে থাকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "মানচিত্রহীন পথ",
-          "segment_summary": "নদী গোপালের কাছে মানচিত্র নয়, এক শ্বাস-প্রশ্বাস নেওয়া জীবন্ত সত্তা; কবিতা নদীকে চেনাকে নদীকে ভালোবাসার প্রথম পাঠ হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "দ্বৈত শরীর",
-          "segment_summary": "নদীর একদিকে উর্বর পলি আর ফসল, অন্যদিকে ভাঙন আর বন্যা; কবিতা এই দ্বৈততাকে জীবন ও মৃত্যুর একই নিঃশ্বাস হিসেবে পড়ে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "জয়ের বদলে প্রবাহ",
-          "segment_summary": "গোপাল জানে নদীকে জয় করা যায় না, কেবল তার সঙ্গে বয়ে চলা যায়; কবিতা এই বিনয়কে মাঝির জ্ঞান হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "উজানের শহর",
-          "segment_summary": "কংক্রিটের শহর যখন উজানে গজিয়ে ওঠে, নদীর প্রাচীন প্রবাহ তখনো নিজের নিয়মে বয়ে চলে, মানুষের হিসাব উপেক্ষা করে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "নদীর নিজস্ব নিয়ম",
-          "segment_summary": "নদী তার নিজের ছন্দে চলে, কোনো পরিকল্পনা মানে না; কবিতা নদীর স্বাধীনতাকে মানুষের উচ্চাকাঙ্ক্ষার বিপরীতে দাঁড় করায়।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "চেনা ও ব্যবহার",
-          "segment_summary": "যে নদী ভূখণ্ড বানিয়েছে, মানুষ কি তাকে চিনেছে, নাকি কেবল ব্যবহার করতে শিখেছে — কবিতা এই প্রশ্নে ফিরে আসে।",
-          "further_references": []
-        }
-      ]
-    },
-    {
-      "chapter_index": 3,
-      "name": "3",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "ভাটিয়ালি সুর",
-      "chapter_summary": "ভাটিয়ালি কেবল গান নয়, তা মাঝির হৃদয়ের সেই ভাষা যা নদীর স্রোতের সঙ্গে জন্মেছে — হারানো ফসলের বেদনা আর নীরব মর্যাদার মাধুর্য একসঙ্গে বয়ে নিয়ে যায়। গোপাল যখন একা ওয়ার টানে, তখন তার গলা থেকে ভেসে ওঠে সেই সুর যা তার বাবা গাইত, তার দাদু গাইত, আর নদীর বাতাস নিজেই যেন ফিরে ফিরে শোনে। সুরের গভীর, অনুরণিত গলা আর ডিজেল ইঞ্জিনের ধারালো ধাতব চিৎকারের মধ্যে যে বিরোধ, তা-ই এই কবিতার কেন্দ্র। ভাটিয়ালির বিষণ্ণতা কখনো অভিযোগ নয়, তা এক অমীমাংসিত আকাঙ্ক্ষা — ঘর থেকে দূরে, তবু ঘরের গন্ধ নিয়ে চলা। প্রতিটি সুরে জড়িয়ে থাকে কোনো হারানো ফসলের খেত, কোনো ভেঙে যাওয়া ঘাট, কোনো ফিরে না আসা মানুষের নাম। সুরটি কখনো একা আসে, কখনো অন্য মাঝির গলায় প্রতিধ্বনি হয়ে ফেরে; দুই পাড়ের মধ্যে সেই গানই এক অদৃশ্য সেতু, যেখানে শব্দের চেয়ে বেশি কথা বলে। কবিতা জিজ্ঞেস করে, যে সুর কোনো টাকায় কেনা যায় না, তাকে বাঁচিয়ে রাখবে কে, যখন যন্ত্রের গর্জন নদীর উপর দিয়ে প্রতিদিন জোরে বয়ে যায়।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "গান নয়, ভাষা",
-          "segment_summary": "ভাটিয়ালি কেবল গান নয়, তা মাঝির হৃদয়ের ভাষা যা নদীর স্রোতের সঙ্গে জন্মেছে; কবিতা সুরকে নদীরই সন্তান হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "হারানো ফসলের বেদনা",
-          "segment_summary": "ভাটিয়ালির বিষণ্ণতা হারানো ফসলের বেদনা আর নীরব মর্যাদার মাধুর্য একসঙ্গে বয়ে নিয়ে যায়; কবিতা এই দ্বৈত আবেগকে সুরের প্রাণ হিসেবে পড়ে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "বাবার গলা",
-          "segment_summary": "গোপাল যখন একা ওয়ার টানে, তার গলা থেকে ভেসে ওঠে সেই সুর যা তার বাবা গাইত, তার দাদু গাইত; কবিতা গানকে প্রজন্মের সেতু হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "নদীর বাতাস",
-          "segment_summary": "নদীর বাতাস নিজেই যেন ভাটিয়ালি সুর ফিরে ফিরে শোনে; কবিতা নদী ও গানের এই নিবিড় সম্বন্ধকে আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "গভীর গলা ও ধাতব চিৎকার",
-          "segment_summary": "সুরের গভীর, অনুরণিত গলা আর ডিজেল ইঞ্জিনের ধারালো ধাতব চিৎকারের বিরোধই এই কবিতার কেন্দ্র।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "অভিযোগহীন বিষণ্ণতা",
-          "segment_summary": "ভাটিয়ালির বিষণ্ণতা কখনো অভিযোগ নয়, তা এক অমীমাংসিত আকাঙ্ক্ষা — ঘর থেকে দূরে, তবু ঘরের গন্ধ নিয়ে চলা।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "অমূল্য সুর",
-          "segment_summary": "যে সুর কোনো টাকায় কেনা যায় না, তার দাম হিসাব করা যায় না; কবিতা সুরকে বাজারের উল্টো পিঠে রাখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "কে বাঁচাবে",
-          "segment_summary": "যন্ত্রের গর্জন নদীর উপর দিয়ে প্রতিদিন জোরে বয়ে গেলে কে বাঁচিয়ে রাখবে সেই অমূল্য সুর — কবিতা এই প্রশ্নে থামে।",
-          "further_references": []
-        }
-      ]
-    },
-    {
-      "chapter_index": 4,
-      "name": "4",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "বিনা পয়সার পার",
-      "chapter_summary": "গোপালের নৌকায় উঠলে পয়সা প্রথম শর্ত নয়; সবচেয়ে গরিব জেলে, পথ চলতি শ্রমিক, অসুস্থ কেউ — সকলেরই পার হওয়া হবে, টাকা থাক আর না থাক। এই সৌহার্দ্যপূর্ণ উদারতা তার সম্প্রদায়ের শিরায় শিরায় গাঁথা এক প্রায় পবিত্র চুক্তি: নদী যেমন বিনা মূল্যে সবাইকে বয়ে চলে, মাঝিও তেমনি নদীর সেই দানকে মানুষের মধ্যে ভাগ করে দেয়। গোপাল জানে, কিছু যাত্রা টাকায় মাপা যায় না — কারও পেটের ক্ষুধা, কারও চোখের অপেক্ষা, কারও মৃত্যুর তাড়া। এই কবিতা সেই নীরব দানের হিসাব রাখে, যা কোনো খাতায় লেখা হয় না, অথচ নদীর মতোই অবিরাম চলে। প্রতিটি বিনা পয়সার পার এক ছোট্ট প্রতিজ্ঞা: মানুষ মানুষকে ছেড়ে যাবে না, অন্তত নদীর কিনারা পর্যন্ত। নৌকা যখন কিনারায় ঠেকে, সেই যাত্রীর চোখে কৃতজ্ঞতা থাকে না, থাকে এক নীরব স্বীকৃতি — যে পৃথিবীতে সবকিছুর দাম আছে, সেখানে নদী আর মাঝি এখনো বিনামূল্যের। কবিতা এই স্বীকৃতিকেই দানের প্রকৃত ফল বলে জানে। যখন কংক্রিটের পৃথিবী সবকিছুর দাম ধার্য করতে চায়, তখন বিনা পয়সার পার হয়ে ওঠে এক শান্ত বিদ্রোহ — যন্ত্রের যুগে মানুষের মুখ ফিরিয়ে দেওয়া এক প্রাচীন, অলিখিত প্রতিশ্রুতি।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "পয়সা নয়, প্রথম শর্ত",
-          "segment_summary": "গোপালের নৌকায় উঠলে পয়সা প্রথম শর্ত নয়; কবিতা মাঝির উদারতাকে নদীর নিঃস্বার্থতার আয়না হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "সকলের পার",
-          "segment_summary": "সবচেয়ে গরিব জেলে, পথ চলতি শ্রমিক, অসুস্থ কেউ — সকলেরই পার হবে, টাকা থাক আর না থাক; কবিতা এই সমতা আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "পবিত্র চুক্তি",
-          "segment_summary": "সৌহার্দ্যপূর্ণ উদারতা তার সম্প্রদায়ের শিরায় গাঁথা এক প্রায় পবিত্র চুক্তি; কবিতা দানকে নদীরই উত্তরাধিকার হিসেবে পড়ে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "নদীর দান ভাগ করে",
-          "segment_summary": "নদী যেমন বিনা মূল্যে সবাইকে বয়ে চলে, মাঝিও তেমনি নদীর সেই দানকে মানুষের মধ্যে ভাগ করে দেয়।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "টাকায় মাপা যায় না",
-          "segment_summary": "কিছু যাত্রা টাকায় মাপা যায় না — কারও পেটের ক্ষুধা, কারও চোখের অপেক্ষা, কারও মৃত্যুর তাড়া; কবিতা এই অমূল্য যাত্রা মনে করে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "খাতাহীন হিসাব",
-          "segment_summary": "নীরব দানের হিসাব কোনো খাতায় লেখা হয় না, অথচ নদীর মতোই অবিরাম চলে; কবিতা এই অদৃশ্য খাতাকে সম্মান জানায়।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "শান্ত বিদ্রোহ",
-          "segment_summary": "কংক্রিটের পৃথিবী সবকিছুর দাম ধার্য করতে চাইলে, বিনা পয়সার পার হয়ে ওঠে এক শান্ত বিদ্রোহ।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "অলিখিত প্রতিশ্রুতি",
-          "segment_summary": "যন্ত্রের যুগে মানুষের মুখ ফিরিয়ে দেওয়া এক প্রাচীন, অলিখিত প্রতিশ্রুতি — কবিতা এই প্রতিশ্রুতিতে ফিরে আসে।",
-          "further_references": []
-        }
-      ]
-    },
-    {
-      "chapter_index": 5,
-      "name": "5",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "বর্ষার ডাক",
-      "chapter_summary": "বর্ষা বাংলার নদীর শিরায় নতুন রক্ত ঢালে; আকাশ ভেঙে পড়ে, নদী ফুলে ওঠে, আর মাঝির জীবন ফের একবার সেই চিরন্তন ছন্দে বাঁধা পড়ে — প্রতীক্ষা, ভয় আর সাহসের। গোপাল জানে, বর্ষার জল আশীর্বাদও, আবার ভয়ও; তা ফসলের জন্য প্রাণ, আবার ভাঙনের জন্য হুমকি। এই কবিতা মৌসুমি বৃষ্টির সেই আবর্তমান চক্রকে দেখে, যা নদীর মতোই পুরনো আর চিরনতুন। বর্ষার রাতে গোপালের নৌকা দুলতে থাকে জলে, আর সে শোনে বৃষ্টির ফোঁটার মধ্যে নদীর ডাক — যে ডাক তার পূর্বপুরুষেরাও শুনত। প্রতিটি বজ্রপাত যেন নদীর গভীর থেকে ওঠা এক সতর্কবাণী, প্রতিটি ঢেউ এক অলিখিত প্রতিশ্রুতি যে জল কখনো থামে না। মাঝির ঘর, খেত, পথ — সবই বর্ষার এই ছন্দের সঙ্গে বাঁধা; বর্ষা থামলে যেমন ফসল আসে, তেমনি বর্ষা বেশি হলে ঘর ভাঙে। গোপাল এই দুই সম্ভাবনাকেই বুকে নিয়ে থাকে, কোনোটি অস্বীকার করে না। কবিতা জিজ্ঞেস করে, প্রকৃতির এই ছন্দ যখন কংক্রিটের বাঁধে ভেঙে দেওয়া হয়, তখন মাঝির যে ষষ্ঠ ইন্দ্রিয় বর্ষাকে আগে থেকে টের পেত, তা কি নিঃশেষ হয়ে যাবে, নাকি জল যতদিন থাকবে ততদিন বেঁচে থাকবে।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "নদীর শিরায় রক্ত",
-          "segment_summary": "বর্ষা বাংলার নদীর শিরায় নতুন রক্ত ঢালে; কবিতা বৃষ্টিকে নদীর পুনর্জন্মের ঋতু হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "ফুলে ওঠা নদী",
-          "segment_summary": "আকাশ ভেঙে পড়ে, নদী ফুলে ওঠে, আর মাঝির জীবন ফের একবার সেই চিরন্তন ছন্দে বাঁধা পড়ে — প্রতীক্ষা, ভয় আর সাহসের।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "আশীর্বাদ ও ভয়",
-          "segment_summary": "বর্ষার জল আশীর্বাদও, আবার ভয়ও; তা ফসলের জন্য প্রাণ, আবার ভাঙনের জন্য হুমকি — কবিতা এই দ্বৈততা আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "আবর্তমান চক্র",
-          "segment_summary": "মৌসুমি বৃষ্টির আবর্তমান চক্র নদীর মতোই পুরনো আর চিরনতুন; কবিতা বর্ষাকে সময়ের চাকারূপে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "বর্ষার রাত",
-          "segment_summary": "বর্ষার রাতে গোপালের নৌকা দুলতে থাকে জলে; কবিতা সেই দোলনকে প্রকৃতির সঙ্গে মাঝির নীরব সংলাপ হিসেবে পড়ে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "নদীর ডাক",
-          "segment_summary": "বৃষ্টির ফোঁটার মধ্যে গোপাল শোনে নদীর ডাক, যে ডাক তার পূর্বপুরুষেরাও শুনত; কবিতা এই ডাককে বংশের সেতু হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "কংক্রিটের বাঁধ",
-          "segment_summary": "প্রকৃতির ছন্দ যখন কংক্রিটের বাঁধে ভেঙে দেওয়া হয়, মাঝির ষষ্ঠ ইন্দ্রিয় বর্ষাকে আগে থেকে টের পাওয়ার ক্ষমতা হারায় কিনা — কবিতা প্রশ্ন তোলে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "জল যতদিন",
-          "segment_summary": "জল যতদিন থাকবে ততদিন কি মাঝির সেই ষষ্ঠ ইন্দ্রিয় বেঁচে থাকবে — কবিতা এই আশা ও সংশয়ে থামে।",
-          "further_references": []
-        }
-      ]
-    },
-    {
-      "chapter_index": 6,
-      "name": "6",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "কংক্রিটের জোয়ার",
-      "chapter_summary": "নদীর উজানে বড় বড় কংক্রিটের শহর গজিয়ে ওঠে, আর সেই শহর নদীকে দেখে জিনিসপত্র বহনের রাস্তা হিসেবে — জীবন্ত সংস্কৃতির ধারক হিসেবে নয়। রাষ্ট্রের পৃষ্ঠপোষকতায় বিশাল ড্রেজিং প্রকল্প শুরু হয়, তার নেতৃত্বে নির্বিকার, নিখুঁত পোশাকধারী প্রকৌশলী মিস্টার চ্যাটার্জি। তিনি নদীর প্রাচীন প্রবাহপথ পদ্ধতিগতভাবে বদলে দিতে থাকেন, আগের অনুমানযোগ্য, জীবনদায়ী স্রোতকে বানিয়ে দেন বিপজ্জনক, অচেনা খাল। এই কবিতা সেই সংঘর্ষকে দেখে — একদিকে নদীকে চেনা গোপালের হৃদয়, অন্যদিকে নদীকে মাপা চ্যাটার্জির শাসক-চোখ। চ্যাটার্জির কাছে নদী কোনো জীবন্ত সত্তা নয়, এক লজিস্টিক বাধা, যা মালবাহী চলাচলের জন্য সোজা করে দেওয়া দরকার; তার খাতায় প্রতিটি বাঁক এক সমস্যা, প্রতিটি চর এক অদক্ষতা। সে নদীর জলে কখনো হাত ডোবায়নি, তবু তার পরিকল্পনাই ঠিক করে দেবে নদী কোন পথে বয়ে যাবে, কোন গ্রাম থাকবে, কোন ঘাট ডুবে যাবে। কবিতা জিজ্ঞেস করে, যে হাত নদীকে কখনো ছুঁয়ে বোঝেনি, সে কি করে সিদ্ধান্ত নেয় নদীর ভাগ্য নিয়ে — আর সেই সিদ্ধান্তের দাম দেবে কে, মাঝি, নাকি কংক্রিট।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "কংক্রিটের শহর",
-          "segment_summary": "নদীর উজানে কংক্রিটের শহর গজিয়ে ওঠে; কবিতা সেই শহরকে নদীর বিপরীত সভ্যতা হিসেবে দাঁড় করায়।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "রাস্তা হিসেবে নদী",
-          "segment_summary": "শহর নদীকে দেখে জিনিসপত্র বহনের রাস্তা হিসেবে, জীবন্ত সংস্কৃতির ধারক হিসেবে নয়; কবিতা এই দৃষ্টির বিপরীত আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "ড্রেজিং প্রকল্প",
-          "segment_summary": "রাষ্ট্রের পৃষ্ঠপোষকতায় বিশাল ড্রেজিং প্রকল্প শুরু হয়; কবিতা সেই যন্ত্রের আগমনকে নদীর উপর এক আধিপত্যের চিহ্ন হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "মিস্টার চ্যাটার্জি",
-          "segment_summary": "নির্বিকার, নিখুঁত পোশাকধারী প্রকৌশলী মিস্টার চ্যাটার্জি প্রকল্পের নেতৃত্বে; কবিতা তাকে নদীর সঙ্গে মানুষের শাসক-সম্বন্ধের মুখ হিসেবে আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "বিপজ্জনক খাল",
-          "segment_summary": "ড্রেজিং নদীর প্রাচীন প্রবাহপথ বদলে দেয়, অনুমানযোগ্য স্রোতকে বানায় বিপজ্জনক, অচেনা খাল; কবিতা এই রূপান্তরকে ক্ষতি হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "দুটি চোখ",
-          "segment_summary": "একদিকে নদীকে চেনা গোপালের হৃদয়, অন্যদিকে নদীকে মাপা চ্যাটার্জির শাসক-চোখ — কবিতা এই দুই দৃষ্টির সংঘর্ষ আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "লজিস্টিক বাধা",
-          "segment_summary": "চ্যাটার্জির কাছে নদী কোনো জীবন্ত সত্তা নয়, এক লজিস্টিক বাধা; কবিতা এই অবমাননাকে সংস্কৃতির মুছে ফেলার শুরু হিসেবে পড়ে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "কার দাম",
-          "segment_summary": "নদীর ভাগ্য নিয়ে যে হাত কখনো নদী ছুঁয়ে দেখেনি সে সিদ্ধান্ত নিলে, তার দাম দেবে কে — মাঝি, নাকি কংক্রিট; কবিতা এই প্রশ্নে থামে।",
-          "further_references": []
-        }
-      ]
-    },
-    {
-      "chapter_index": 7,
-      "name": "7",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "ডিজেলের ধাতব আর্তনাদ",
-      "chapter_summary": "নদীর উপর দিয়ে এখন দিনরাত বয়ে যায় ডিজেল ইঞ্জিনের ধারালো, ধাতব আর্তনাদ — যা ভাটিয়ালি সুরের গভীর অনুরণনকে ক্রমশ চাপা দিয়ে ফেলে। গোপালের ওয়ার যে নীরব, ছন্দময় শব্দ তোলে, তার বিপরীতে ইঞ্জিনের গর্জন কোনো শ্বাস নেয় না, থামে না, গানও গায় না। এই কবিতা শব্দের সেই যুদ্ধকে দেখে — একদিকে মানুষের গলা আর কাঠের ওয়ারের সঙ্গীত, অন্যদিকে মেশিনের অমানুষিক চিৎকার। মাঝির কান যে দুই সুরই শোনে, কিন্তু তার হৃদয় জানে কোনটা বাঁচিয়ে রাখার মতো। ইঞ্জিনের ধোঁয়া জলে ভাসে, তেলের রং নদীর গায়ে লেগে থাকে, আর সেই দূষণের সঙ্গে ভেসে যায় এক-এক টুকরো নীরবতা। মাছেরা সেই জলে ঘাবড়ে যায়, পাখিরা অন্য পাড় খোঁজে, আর মাঝির গলা ধীরে ধীরে চুপ করে আসে, যেন গানের কোনো ঠাঁই আর জলে নেই। কবিতা জিজ্ঞেস করে, যন্ত্র যখন দ্রুততা দেয়, তখন সে কেড়ে নেয় কী — নীরবতা, ছন্দ, নাকি সেই গান যেখানে মাঝি তার দুঃখকে মাধুর্যে বদলে ফেলত। ডিজেলের জোয়ারে ভাটিয়ালি কি নিঃশব্দে ডুবে যাবে, নাকি কোনো এক গভীর রাতে আবার ভেসে উঠবে।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "ধাতব আর্তনাদ",
-          "segment_summary": "নদীর উপর দিয়ে দিনরাত বয়ে যায় ডিজেল ইঞ্জিনের ধারালো, ধাতব আর্তনাদ; কবিতা এই শব্দকে যন্ত্রযুগের স্বাক্ষর হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "চাপা সুর",
-          "segment_summary": "ইঞ্জিনের গর্জন ভাটিয়ালি সুরের গভীর অনুরণনকে ক্রমশ চাপা দিয়ে ফেলে; কবিতা গানের অবরুদ্ধ নিঃশ্বাসকে আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "ওয়ারের ছন্দ",
-          "segment_summary": "গোপালের ওয়ার যে নীরব, ছন্দময় শব্দ তোলে, তার বিপরীতে ইঞ্জিনের গর্জন থামে না, গানও গায় না; কবিতা দুই ছন্দের বিরোধ দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "শব্দের যুদ্ধ",
-          "segment_summary": "একদিকে মানুষের গলা আর কাঠের ওয়ারের সঙ্গীত, অন্যদিকে মেশিনের অমানুষিক চিৎকার — কবিতা শব্দের এই যুদ্ধকে আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "মাঝির কান",
-          "segment_summary": "মাঝির কান দুই সুরই শোনে, কিন্তু তার হৃদয় জানে কোনটা বাঁচিয়ে রাখার মতো; কবিতা এই নির্বাচনকে মূল্যবোধ হিসেবে পড়ে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "যন্ত্রের বিনিময়",
-          "segment_summary": "যন্ত্র যখন দ্রুততা দেয়, তখন সে কেড়ে নেয় কী — নীরবতা, ছন্দ, নাকি সেই গান; কবিতা এই হিসাব তোলে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "দুঃখকে মাধুর্য",
-          "segment_summary": "ভাটিয়ালিতে মাঝি তার দুঃখকে মাধুর্যে বদলে ফেলত; কবিতা সেই রূপান্তরকে যন্ত্র হারানোর বিপরীতে রাখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "ডুববে না ভাসবে",
-          "segment_summary": "ডিজেলের জোয়ারে ভাটিয়ালি কি নিঃশব্দে ডুবে যাবে, নাকি কোনো গভীর রাতে আবার ভেসে উঠবে — কবিতা এই সংশয়ে থামে।",
-          "further_references": []
-        }
-      ]
-    },
-    {
-      "chapter_index": 8,
-      "name": "8",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "নদীর ক্রোধ",
-      "chapter_summary": "নদী সুন্দর, শক্তিমান — যে একই হাতে পুষ্ট করে, সেই হাতেই গিলে নেয়। ড্রেজিংয়ে নদীর প্রাচীন প্রবাহ বদলে যাওয়ার পর সেই শক্তি আরও অপ্রত্যাশিত হয়ে ওঠে; আগে যে স্রোত জীবন দিত, এখন তা কখনো-কখনো মৃত্যুর ফাঁদ পাতে। গোপাল এই নদীর দ্বৈত প্রকৃতি ভালো করেই জানে — তার হাত নদীকে ভালোবাসে, তবু শ্রদ্ধা করে, কারণ নদী কখনো সম্পূর্ণ বশ মানে না। এই কবিতা নদীর সেই ভয়ংকর রূপকে দেখে, যা কংক্রিটের অহংকারের উত্তর দেয় নিজের ভাষায় — বন্যা, ভাঙন, স্রোতের হঠাৎ উল্টে যাওয়া। এক রাতে শান্ত জল পরদিন সকালে গিলে নেয় একটি ঘাট, একটি খেত, একটি না-বাঁধা নৌকা; নদী কোনো হিসাব চায় না, কেবল নিজের পথ নেয়। সেই গিলে নেওয়া ঘাটে কেউ আর স্নান করে না, সেই খেতে ফসল আর ওঠে না, তবু নদীর জল আগের মতোই স্বচ্ছ, যেন কিছুই ঘটেনি — এটাই নদীর ভয়ংকর নিরপেক্ষতা। কবিতা জিজ্ঞেস করে, যে মানুষ নদীকে রাস্তা ভেবেছে, নদী কি তাকে মনে করিয়ে দেবে যে সে আসলে কার শরীরের উপর দিয়ে চলছে। মাঝির শ্রদ্ধা আর শহরের অহংকারের মধ্যে নদী নিজেই হয়ে ওঠে এক নীরব বিচারক।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "সুন্দর ও শক্তিমান",
-          "segment_summary": "নদী সুন্দর, শক্তিমান — যে একই হাতে পুষ্ট করে, সেই হাতেই গিলে নেয়; কবিতা নদীর দ্বৈত প্রকৃতিকে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "অপ্রত্যাশিত শক্তি",
-          "segment_summary": "ড্রেজিংয়ে প্রবাহ বদলে যাওয়ার পর নদীর শক্তি আরও অপ্রত্যাশিত হয়; আগে যে স্রোত জীবন দিত, এখন তা কখনো মৃত্যুর ফাঁদ পাতে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "ভালোবাসা ও শ্রদ্ধা",
-          "segment_summary": "গোপাল নদীকে ভালোবাসে, তবু শ্রদ্ধা করে, কারণ নদী কখনো সম্পূর্ণ বশ মানে না; কবিতা এই শ্রদ্ধাকে মাঝির ধর্ম হিসেবে পড়ে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "কংক্রিটের উত্তর",
-          "segment_summary": "নদী কংক্রিটের অহংকারের উত্তর দেয় নিজের ভাষায় — বন্যা, ভাঙন, স্রোতের হঠাৎ উল্টে যাওয়া; কবিতা এই প্রতিশোধকে প্রকৃতির সতর্কতা হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "রাস্তা ভাবা মানুষ",
-          "segment_summary": "যে মানুষ নদীকে রাস্তা ভেবেছে, নদী কি তাকে মনে করিয়ে দেবে সে কার শরীরের উপর দিয়ে চলছে — কবিতা এই প্রশ্ন তোলে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "অহংকার ও শ্রদ্ধা",
-          "segment_summary": "মাঝির শ্রদ্ধা আর শহরের অহংকারের মধ্যে নদী নিজেই হয়ে ওঠে এক নীরব বিচারক; কবিতা এই বৈপরীত্য আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "মৃত্যুর ফাঁদ",
-          "segment_summary": "বদলে যাওয়া স্রোত কখনো মৃত্যুর ফাঁদ পাতে; কবিতা নদীর ক্রোধকে কংক্রিটের হস্তক্ষেপের পরিণতি হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "নীরব বিচারক",
-          "segment_summary": "নদী নিজেই এক নীরব বিচারক — কবিতা এই উপলব্ধিতে ফিরে আসে, শুরুর দ্বৈত শক্তি শেষে বিচারের রূপ নেয়।",
-          "further_references": []
-        }
-      ]
-    },
-    {
-      "chapter_index": 9,
-      "name": "9",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "মুছে যাওয়া ভূগোল",
-      "chapter_summary": "ড্রেজিং আর কংক্রিটের বিস্তার গোপালের চেনা ভূগোলকে ধীরে ধীরে মুছে ফেলে — যে বাঁকে সে খেলেছে, যে চরে সে বিশ্রাম নিয়েছে, যে ঘাটে তার বাবা নৌকা বাঁধতেন, সেসব একে একে হারিয়ে যায়। হারিয়ে যায় শুধু জায়গা নয়, সেই নির্দিষ্ট উপভাষা, সেই ইশারা, সেই ভাটিয়ালি সুরের সূক্ষ্ম ভিন্নতা যা প্রতিটি নদী-পাড়ার নিজস্ব। এই কবিতা মুছে যাওয়ার সেই নীরব দুঃখকে দেখে — কোনো জমির দলিলে লেখা থাকে না যে একটি ঘাট কত প্রজন্মের স্মৃতি ধরে রেখেছিল। গোপালের কাছে নদীপথ এক জীবন্ত মানচিত্র, যেখানে প্রতিটি বাঁকের একটি নাম আছে, একটি গল্প আছে; কিন্তু নতুন মাপের খাতায় সেই নামের কোনো ঘর নেই, সেই গল্পের কোনো কলাম নেই। ড্রেজারের যন্ত্র সেই নামগুলিকে তলায় চাপা দেয়, আর খাতায় লেখা হয় কেবল দূরত্ব, গভীরতা, আর খরচ — কোনো মানুষের স্মৃতি নয়, কোনো প্রজন্মের ঘাট নয়। কবিতা জিজ্ঞেস করে, মানচিত্র থেকে নাম মুছে গেলে জায়গাটি কি সত্যিই আর থাকে, নাকি নামহীন ভূখণ্ডে পরিণত হয়। শেষে একটি প্রশ্ন থেকে যায় — যে ভাষায় ভূগোল মনে রাখা হতো, তাকে বাঁচাবে কে।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "চেনা ভূগোল",
-          "segment_summary": "ড্রেজিং আর কংক্রিটের বিস্তার গোপালের চেনা ভূগোলকে ধীরে ধীরে মুছে ফেলে; কবিতা এই মুছে যাওয়াকে ক্ষতির সূচনা হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "যে বাঁকে খেলা",
-          "segment_summary": "যে বাঁকে সে খেলেছে, যে চরে বিশ্রাম নিয়েছে, যে ঘাটে তার বাবা নৌকা বাঁধতেন, সেসব একে একে হারিয়ে যায়; কবিতা এই ব্যক্তিগত ভূগোলকে স্মৃতির মানচিত্র হিসেবে আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "উপভাষার সূক্ষ্মতা",
-          "segment_summary": "হারিয়ে যায় সেই নির্দিষ্ট উপভাষা, সেই ইশারা, সেই ভাটিয়ালি সুরের সূক্ষ্ম ভিন্নতা যা প্রতিটি নদী-পাড়ার নিজস্ব; কবিতা ভাষার ক্ষতিকে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "দলিলহীন স্মৃতি",
-          "segment_summary": "কোনো জমির দলিলে লেখা থাকে না একটি ঘাট কত প্রজন্মের স্মৃতি ধরে রেখেছিল; কবিতা এই অলিখিত ইতিহাসকে স্মরণ করে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "জীবন্ত মানচিত্র",
-          "segment_summary": "গোপালের কাছে নদীপথ এক জীবন্ত মানচিত্র, যেখানে প্রতিটি বাঁকের একটি নাম, একটি গল্প আছে; কবিতা এই মানচিত্রের মূল্য আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "নামহীন ভূখণ্ড",
-          "segment_summary": "মানচিত্র থেকে নাম মুছে গেলে জায়গাটি কি সত্যিই আর থাকে, নাকি নামহীন ভূখণ্ডে পরিণত হয় — কবিতা এই প্রশ্ন তোলে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "ভাষায় রাখা ভূগোল",
-          "segment_summary": "যে ভাষায় ভূগোল মনে রাখা হতো, তাকে বাঁচাবে কে; কবিতা এই দায়কে সম্প্রদায়ের প্রশ্ন হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "শেষ প্রশ্ন",
-          "segment_summary": "মুছে যাওয়া ভূগোলের দুঃখ থেকে একটি প্রশ্ন থেকে যায় — নাম আর ভাষা হারালে জায়গার প্রাণ থাকে কি না; কবিতা এই সংশয়ে থামে।",
-          "further_references": []
-        }
-      ]
-    },
-    {
-      "chapter_index": 10,
-      "name": "10",
-      "word_target": 500,
-      "segment_count": 8,
-      "chapter_title": "শেষ সুর",
-      "chapter_summary": "সব হারানোর মুখেও গোপালের হাতে থেকে যায় একটি জিনিস — ওয়ার টানার ছন্দ, আর গলায় একটি অটুট ভাটিয়ালি সুর। তার রূপান্তর ধনসম্পদে মাপা হবে না, মাপা হবে সেই একটিমাত্র, অখণ্ড সুরে যা শিল্পায়নের গর্জনের বিরুদ্ধে টিকে থাকে। এই কবিতা সেই চূড়ান্ত, প্রতিবাদী সাংস্কৃতিক নাবিকতাকে দেখে — গোপাল জানে, সে নদীকে বাঁচাতে পারবে না, কিন্তু সুরকে বাঁচাতে পারে। কবিতা জিজ্ঞেস করে, এক মানুষের গলা কি কোনো যুগের বিরুদ্ধে যথেষ্ট, নাকি সেই সুরই শেষ উত্তর। শেষে নৌকাটি আবার জলে নামে, ওয়ার আবার ডোবে, আর ভাটিয়ালির একটি স্বর নদীর বাতাসে মিলিয়ে যায় — জয় বা পরাজয়ের ঘোষণা নয়, এক নিরবচ্ছিন্ন সুরের বেঁচে থাকা, যা প্রতিটি ভোরের কুয়াশায় নতুন করে ফিরে আসে। সেই সুরের কোনো মালিক নেই, কোনো শ্রোতা নেই, তবু তা থামে না; নদী যতদিন বয়ে চলে, ততদিন ওয়ারের ছন্দ আর গলার স্বর একে অপরকে মনে রেখে চলবে। গোপাল এ কথা জানে না, বরং বিশ্বাস করে — যে সুর একবার জলে পড়েছে, তা জল থেকে আর মুছে যায় না। কবিতা তাই শেষ শব্দও বলে না, বরং জলের উপর ছেড়ে দেয় একটি অসমাপ্ত সুর, যা শুনবে প্রতিটি ভোরের কুয়াশা, প্রতিটি ওয়ার, আর প্রতিটি সেই মানুষ, যে কিনারায় দাঁড়িয়ে পার হওয়ার অপেক্ষায় থাকে।",
-      "further_references": [],
-      "segments": [
-        {
-          "segment_index": 1,
-          "name": "1",
-          "word_target": 500,
-          "segment_title": "হাতে থেকে যাওয়া ছন্দ",
-          "segment_summary": "সব হারানোর মুখেও গোপালের হাতে থেকে যায় ওয়ার টানার ছন্দ আর গলায় একটি অটুট ভাটিয়ালি সুর; কবিতা এই অবশিষ্টকে আশার বীজ হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 2,
-          "name": "2",
-          "word_target": 500,
-          "segment_title": "অসম্পদে মাপা রূপান্তর",
-          "segment_summary": "গোপালের রূপান্তর ধনসম্পদে মাপা হবে না, মাপা হবে সেই অখণ্ড সুরে যা শিল্পায়নের গর্জনের বিরুদ্ধে টিকে থাকে; কবিতা এই মাপকে আঁকে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 3,
-          "name": "3",
-          "word_target": 500,
-          "segment_title": "সাংস্কৃতিক নাবিকতা",
-          "segment_summary": "চূড়ান্ত, প্রতিবাদী সাংস্কৃতিক নাবিকতা — গোপাল জানে সে নদীকে বাঁচাতে পারবে না, কিন্তু সুরকে বাঁচাতে পারে; কবিতা এই সংকল্পকে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 4,
-          "name": "4",
-          "word_target": 500,
-          "segment_title": "এক মানুষের গলা",
-          "segment_summary": "এক মানুষের গলা কি কোনো যুগের বিরুদ্ধে যথেষ্ট, নাকি সেই সুরই শেষ উত্তর — কবিতা এই প্রশ্ন তোলে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 5,
-          "name": "5",
-          "word_target": 500,
-          "segment_title": "নৌকা আবার জলে",
-          "segment_summary": "শেষে নৌকাটি আবার জলে নামে, ওয়ার আবার ডোবে; কবিতা এই ফিরে যাওয়াকে প্রতিরোধের ধারাবাহিকতা হিসেবে পড়ে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 6,
-          "name": "6",
-          "word_target": 500,
-          "segment_title": "বাতাসে মিলিয়ে যাওয়া স্বর",
-          "segment_summary": "ভাটিয়ালির একটি স্বর নদীর বাতাসে মিলিয়ে যায়; কবিতা এই মিলিয়ে যাওয়াকে হারানো নয়, ছড়িয়ে পড়া হিসেবে দেখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 7,
-          "name": "7",
-          "word_target": 500,
-          "segment_title": "জয় নয়, বেঁচে থাকা",
-          "segment_summary": "জয় বা পরাজয়ের ঘোষণা নয়, এক নিরবচ্ছিন্ন সুরের বেঁচে থাকা; কবিতা এই নীরব জয়কে চূড়ান্ত উত্তর হিসেবে রাখে।",
-          "further_references": []
-        },
-        {
-          "segment_index": 8,
-          "name": "8",
-          "word_target": 500,
-          "segment_title": "ভোরের কুয়াশায় ফিরে আসা",
-          "segment_summary": "সেই সুর প্রতিটি ভোরের কুয়াশায় নতুন করে ফিরে আসে — কবিতা শুরুর জন্মকথার দিকে বৃত্তাকারে ফেরে, সুরকে চিরন্তন করে।",
-          "further_references": []
-        }
-      ]
-    }
-  ]
+  "word_target": 500,
+  "model": "gemma4:latest",
+  "provider": "ollama"
 }

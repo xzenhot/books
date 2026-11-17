@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 8,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "অদম্য সংকল্পের জন্ম",
+  "segment_summary": "সোনালী তার ভেতরের চাপা আকাঙ্ক্ষাগুলোর প্রতিধ্বনি শুনতে পায়, যা তাকে নিষ্ক্রিয় থাকার যন্ত্রণা থেকে মুক্তি দিতে আহ্বান জানায়।",
+  "name": "1",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the 'thread' metaphor as a tangible, almost metallic filament that is deliberately frayed by her expression (Primary Lens application).",
+    "story_option": "Setting: A sunlit courtyard where a single vine is aggressively winding itself around a weathered pillar; Desire: To allow the thread of her voice to grow unchecked like that vine, regardless of appearance; Obstacle: The stone pillar represents societal rigidity.",
+    "subject_rotation": "Shifting focus from 'social constraint' to 'temporal confinement'; the feeling that middle age is a tight spool, and courage is the act of letting the thread unwind rapidly into chaos.",
+    "sensory_detail": "The cool, brittle sensation of dry cotton fibers giving way under sudden tension (Texture).",
+    "research_question": "What specific Bengali poetic idiom can convey 'the necessity of controlled breaking'—the act of intentionally straining a boundary without causing complete collapse?",
+    "structural_variant": "A spiral structure: each segment starts by re-stating the old silence, then moves outward to the expression, only to loop back into a more complex version of the initial state.",
+    "variety_note": "Unlike previous chapters which explored internal states (bliss/imprisonment), this chapter must be defined by decisive *action*—the pivot point from feeling to verbal manifestation. The thread metaphor will provide the connective tissue through these shifts in agency."
+  }
 }

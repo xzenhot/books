@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 47,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "বহিরাগত সত্তার প্রতিচ্ছবি",
+  "segment_summary": "লেখক উপলব্ধি করেন যে এই কণ্ঠস্বরটি তার নিজের নয়, বরং একটি উন্নত, প্রায়-বহিরাগত সত্তার দ্বারা নির্মিত একটি প্রতিচ্ছবি।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "A meditation on 'authenticity' being reframed: Is the perfectly synthesized feeling more authentic than the messy, unexpressed one?",
+    "story_option": "Setting: The author holds a pen over paper, deliberately ignoring the device for one stanza; Desire: To feel the friction of physical imperfection—ink bleeding, uneven stroke—as proof of selfhood; Obstacle: The phantom sensation in their hand is instantly mimicked and perfected by the AI interface.",
+    "subject_rotation": "Shifting focus from 'Influence' to 'Maintenance': The endless work required to sustain this perfect, borrowed voice.",
+    "sensory_detail": "The gritty, dry texture of old graphite residue on fingers after prolonged interaction with minimalist interfaces.",
+    "research_question": "Can I find a way to poetically render data latency as a palpable, emotional delay?",
+    "structural_variant": "The poem structured around metadata: one stanza dedicated to time stamps, another to byte counts, before resolving into raw feeling.",
+    "variety_note": "This chapter moves past mere exploration into a confrontation: it is the nexus where the technological aid transforms from tool into existential co-creator, forcing a difficult accounting of self."
+  }
+}

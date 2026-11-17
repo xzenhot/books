@@ -4,19 +4,19 @@
   "chapter_index": 7,
   "segment_index": 6,
   "total_segments": 8,
-  "segment_title": "যন্ত্রের বিনিময়",
-  "segment_summary": "যন্ত্র যখন দ্রুততা দেয়, তখন সে কেড়ে নেয় কী — নীরবতা, ছন্দ, নাকি সেই গান; কবিতা এই হিসাব তোলে।",
-  "name": "6",
+  "segment_title": "আধুনিকতার আগ্রাসন",
+  "segment_summary": "শহর থেকে আসা মসৃণ, কংক্রিটের আকাঙ্ক্ষা এখন সরাসরি নদীর বুকে তার ভারী যন্ত্রপাতির মাধ্যমে আঘাত হানছে।",
+  "name": "7.6",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "The shift in Gopal's internal rhythm: how his own breath and heartbeat synchronize with the mechanical pulse before it overrides him.",
-    "story_option": "Setting: A specific moment when the engine sputters or coughs, mimicking a failing human breath; Desire: Gopal perceives this momentary lapse not as mechanical failure, but as a fragile, accidental echo of human struggle; Obstacle: The immediate resumption of overwhelming power.",
-    "subject_rotation": "Contrast between the 'efficient travel time' offered by diesel versus the *experience* of duration inherent in rowing.",
-    "sensory_detail": "The visual shimmer on the disturbed water surface caused by high-speed propeller wash, momentarily scattering light.",
-    "research_question": "What is the relationship between sound pollution and perceived spiritual quality in Bengali river culture?",
-    "structural_variant": "An extended internal monologue where Gopal narrates the engine’s mechanical processes as if it were an alien language he is struggling to translate into human feeling.",
-    "variety_note": "While previous chapters dealt with environmental/cultural friction through geography (Concrete Floodwalls, Muddy Banks), this chapter isolates the conflict entirely within the sonic spectrum—a confrontation of pure sound versus rhythm."
+    "angle": "নদীর নিজস্ব কণ্ঠস্বর (river spirit) যেন যান্ত্রিক আওয়াজকে প্রতিধ্বনিত না করে, বরং সেটিকে শুষে নেয় এবং একটি ভারী, বিষণ্ণ সুর তৈরি করে যা গোপাল উপলব্ধি করেন।",
+    "story_option": "সেটিং: গভীর রাতে নদীর বাঁকে, যখন সমস্ত যন্ত্রপাতি থমকে যায়; আকাঙ্ক্ষা: একজন যাত্রী (যিনি পূর্বে নীরব ছিলেন) হঠাৎ করে এমন একটি বিশেষ আঞ্চলিক গীত শুরু করেন যা যন্ত্রের শব্দে সম্ভব ছিল না—এটি চুক্তির পুনরুদ্ধার; বাধা: সকাল হওয়ার আগে আবার ভারী ইঞ্জিন ফিরে আসে।",
+    "subject_rotation": "চট্টার্জীর লজিস্টিক পরিভাষাকে ভাঙার চেষ্টা করে গোপালের ভাটিয়ালি ভাষার ধ্বনিগত কাঠামো ব্যবহার করা এবং এর মাঝে একটি ভাষাগত সংঘাত ফুটিয়ে তোলা।",
+    "sensory_detail": "গোপালের হাতের চামড়ার ভাঁজগুলোর গভীরতা যা সময়ের সঙ্গে ঋজু হয়ে গেছে—কাঠের মতো কঠিন কিন্তু নমনীয় (দৃষ্টি/স্পর্শ)।",
+    "research_question": "ভাটিয়ালি গানে ব্যবহৃত কোনো বিশেষ ধ্বনি কি আঞ্চলিক জলপ্রবাহের প্রাকৃতিক শব্দের সাথে সম্পর্কিত?",
+    "structural_variant": "একটি 'জলাধার-পর্যবেক্ষণ' কাঠামো ব্যবহার করা: নদীকে একটি জীবন্ত সাক্ষী হিসেবে দেখানো যা এই সংঘাতের দুই পক্ষের নীরব প্রতিক্রিয়া রেকর্ড করছে (যেমন: জলধারের ধীর গতির কম্পন)।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলো সংঘাতের সূচনা বা তার বাহ্যিক রূপ নিয়ে আলোচনা করেছে; এই পর্বটি সরাসরি সেই সংঘাতকে মানবিক চুক্তির ভিত্তিতে পরীক্ষা করে এবং শব্দগত দ্বান্দ্বিকতাকে কেন্দ্রে আনে।"
   }
 }

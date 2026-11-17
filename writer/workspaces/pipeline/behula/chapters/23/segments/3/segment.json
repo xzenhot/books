@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 23,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "মহীয়সী রূপে প্রতিষ্ঠা",
+  "segment_summary": "প্রতিকূলতা জয় করে বেহুলার চরিত্রটি কেবল একজন নারী হিসেবে নয়, বরং এক মহৎ আদর্শ হিসেবে প্রতিষ্ঠিত হয়।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Reframing 'Victory' as Ontological Change: Not just returning to *being* together, but emerging into a fundamentally altered state of shared being that cannot revert.",
+    "story_option": "Setting: In a space bathed in the soft, post-storm light; Desire: For Behula to articulate one single sentence that encapsulates her philosophical shift—moving from passive endurance to active creation of meaning; Obstacle: A memory fragment of doubt momentarily overshadowing the present unity.",
+    "subject_rotation": "Emphasizing the 'weight' of her achieved status—the pressure that comes with being an eternal symbol, rather than just a free spirit.",
+    "sensory_detail": "Touch: The distinct coolness emanating from skin that has endured abstract fire and trauma.",
+    "research_question": "What specialized Bengali idiom or literary device can convey 'the quiet assertion of ontological validity' after experiencing societal invalidation?",
+    "structural_variant": "A slow, deliberate crescendo structure where the initial reunion segment is almost lethargic before accelerating into existential affirmation.",
+    "variety_note": "This chapter shifts entirely from survival narrative to metaphysical affirmation; where earlier sections focused on overcoming external pressures, this final arc concentrates on defining the *quality* of her achieved being."
+  }
+}

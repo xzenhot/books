@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 12,
+  "segment_index": 6,
+  "total_segments": 8,
+  "segment_title": "আলো-ছায়ার দার্শনিক খেলা",
+  "segment_summary": "নদীর বুকে ওঠা-নামা করা আলো-ছায়া যেন জীবনের উত্থান-পতনকে প্রতিফলিত করে, যেখানে স্মৃতিগুলো এক ক্ষণস্থায়ী আলোর মতো।",
+  "name": "6",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Treating the act of remembering not as nostalgia, but as a physical exertion—a painful dredging up of submerged images against the current.",
+    "story_option": "Setting: The dark, cool interior of his boat late at night after rowing through memories. Desire: To hear a song sung by children who never knew freedom; a pure, unburdened Bhatiyali echo. Obstacle: Only the sound of rats and the distant drone of industry.",
+    "subject_rotation": "Focusing on the contrast between the fluid, shapeless nature of memory versus the sharp, defined lines of bridge girders and river markers.",
+    "sensory_detail": "The specific smell of wet clay and slow-rotting river reeds—the scent marker of those lost spaces.",
+    "research_question": "How does the sound quality change when a memory (represented by word choices) is deliberately juxtaposed against an industrial soundscape like a distant diesel engine?",
+    "structural_variant": "A sustained use of enjambment to mimic the unbroken, continuous flow of consciousness (memory stream) against short, declarative lines representing economic facts.",
+    "variety_note": "This chapter moves inward from external confrontation to deep internal rumination; unlike the immediate conflict in previous chapters, this is less about resistance and more about excavation."
+  }
+}

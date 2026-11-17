@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 37,
+  "segment_index": 5,
+  "total_segments": 8,
+  "segment_title": "স্মৃতির ঘূর্ণন",
+  "segment_summary": "এই শূন্যতাটি অতীতের সেই উষ্ণ, মশলাদার মুহূর্তগুলোর ঘূর্ণনময় প্রতিচ্ছবি বহন করে, যা বর্তমানের ধূসর পটভূমিতে আটকে আছে।",
+  "name": "5",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Shifting the 'I' voice entirely into an object (e.g., the broken crumb on the floor), allowing it to possess linguistic resignation regarding its altered state.",
+    "story_option": "Setting: A dimly lit kitchen counter at dawn, Desire: To force a chemical reaction in existing crumbs that simulates the original heat/spice profile; turning failure into revelation., Obstacle: The impossibility of recreating 'আঁচ' (the specific, perfect cooking temperature).",
+    "subject_rotation": "Treating the flavor dissonance as a necessary tension for spiritual growth, rather than merely a personal loss (a philosophical turn).",
+    "sensory_detail": "A high-pitched internal hum (auditory) perceived during moments of absolute taste neutrality.",
+    "research_question": "What are precise Bengali lexicon descriptors for 'lingering absence' when applied to a gustatory experience?",
+    "structural_variant": "Employing an initial, very short burst of highly dense language (hyper-saturation) immediately followed by a long, sparse section dedicated only to silence/void.",
+    "variety_note": "Unlike previous chapters which focused on the material transfer or geographical shift, this chapter zeroes in entirely on the internal, post-ingestion phenomenology—the residue within consciousness itself."
+  }
+}

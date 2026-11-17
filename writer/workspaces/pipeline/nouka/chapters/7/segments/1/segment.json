@@ -4,19 +4,19 @@
   "chapter_index": 7,
   "segment_index": 1,
   "total_segments": 8,
-  "segment_title": "ধাতব আর্তনাদ",
-  "segment_summary": "নদীর উপর দিয়ে দিনরাত বয়ে যায় ডিজেল ইঞ্জিনের ধারালো, ধাতব আর্তনাদ; কবিতা এই শব্দকে যন্ত্রযুগের স্বাক্ষর হিসেবে দেখে।",
-  "name": "1",
+  "segment_title": "শৃঙ্খলিত স্রোত",
+  "segment_summary": "চট্টার্জীর দল যখন ভারী যন্ত্রপাতির সাহায্যে নদীকে 'শৃঙ্খলিত' করতে শুরু করে, তখন গোপালের সম্প্রদায়ের সেই প্রাচীন উদারতার চুক্তিটি হুমকির মুখে পড়ে।",
+  "name": "7.1",
   "word_target": 500,
   "further_references": [],
   "segment_enrichment": {
     "status": "enriched",
-    "angle": "Framing the diesel sound not as a mere noise, but as a competing dialect—a syntax of pure function versus the grammar of song.",
-    "story_option": "Setting: A stretch of river where only automated barges move; Desire: Gopal attempts to sing a familiar verse, knowing he will be drowned out by the repetitive thrumming; Obstacle: The sheer, indifferent velocity of the cargo.",
-    "subject_rotation": "Focusing solely on the pollution residue—the specific color and texture of diesel runoff contrasting against the natural ochre of monsoon silt.",
-    "sensory_detail": "The acrid, hot smell of spent fuel clinging to the damp river mist during early dawn runs.",
-    "research_question": "What is the relationship between sound pollution and perceived spiritual quality in Bengali river culture?",
-    "structural_variant": "A strict alternation: one stanza devoted entirely to 'Water/Song' imagery, immediately followed by a stanza dedicated entirely to 'Engine/Metal' imagery.",
-    "variety_note": "While previous chapters dealt with environmental/cultural friction through geography (Concrete Floodwalls, Muddy Banks), this chapter isolates the conflict entirely within the sonic spectrum—a confrontation of pure sound versus rhythm."
+    "angle": "উদারতার চুক্তিকে একটি অদৃশ্য, প্রবাহী বল (viscous force) হিসেবে চিত্রিত করা যা ইস্পাতের কাঠিন্য ভেদ করতে চায়।",
+    "story_option": "সেটিং: ড্রেজিংয়ের ভাঙা প্রান্তরে একাকী দাঁড়িয়ে থাকা গোপাল; আকাঙ্ক্ষা: তিনি কোনো যাত্রীকে থামিয়ে তার কাছে সেই 'অলিখিত চুক্তি'-র মর্ম বোঝাতে চান; বাধা: চট্টার্জীর নিরাপত্তারক্ষী দল তাকে দ্রুত সরে যেতে নির্দেশ দেয়।",
+    "subject_rotation": "এই অধ্যায়টিকে কেবল উদারতার প্রশ্ন হিসেবে নয়, বরং 'শ্রবণজনিত অসমতা' (Auditory Inequality) হিসেবে দেখা—যেখানে যান্ত্রিক কর্কশ শব্দ মানুষের অন্তঃস্থ গানকে চাপা দিয়ে দেয়।",
+    "sensory_detail": "শীতল, ভেজা ইস্পাতের ওপর বৃষ্টির প্রথম ফোঁটা পড়ার শব্দ (শ্রবণ/স্পর্শ)।",
+    "research_question": "চট্টার্জীর দল কী নির্দিষ্ট ধরণের শব্দ দূষণ সংক্রান্ত প্রতিবেদন তৈরি করছে, যেখানে গোপালের নীরব অস্তিত্বকে কেবল 'অপরিষ্কার পটভূমি' হিসেবে চিহ্নিত করা হয়েছে?",
+    "structural_variant": "প্রথম অংশ হবে সম্পূর্ণভাবে যান্ত্রিক দৃশ্য (শব্দ ও চিত্র), এবং দ্বিতীয় অংশে গোপালের দীর্ঘ, অভ্যন্তরীণ মননমূলক প্রতিক্রিয়া আসবে—যেন দুটি ভিন্ন মহাজাগতিক লয় একই দৃশ্যে বাজছে।",
+    "variety_note": "পূর্ববর্তী অধ্যায়গুলো সংঘাতের সূচনা বা তার বাহ্যিক রূপ নিয়ে আলোচনা করেছে; এই পর্বটি সরাসরি সেই সংঘাতকে মানবিক চুক্তির ভিত্তিতে পরীক্ষা করে এবং শব্দগত দ্বান্দ্বিকতাকে কেন্দ্রে আনে।"
   }
 }

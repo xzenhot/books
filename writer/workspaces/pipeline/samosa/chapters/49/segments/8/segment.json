@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 49,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "চিরন্তন বিষাদ",
+  "segment_summary": "চূড়ান্ত অনুরণনটি এক মধুর বিষাদের জন্ম দেয়, যা পাঠককে এই দ্বৈত জীবনের অনন্ত অপেক্ষার প্রতিচ্ছবিতে স্থির করে রাখে।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Framing the silence after eating as a moment where all linguistic effort collapses; words become meaningless sounds echoing off the palate.",
+    "story_option": "Setting: An empty street corner where the vendor used to sit at midnight; Desire: To conjure the sound of the *koraai* while it was hot, contrasting against current stillness; Obstacle: The only sound present is a distant traffic hum (English/market noise); Turn: 'I' accept that silence itself has become the new local flavor.",
+    "subject_rotation": "Exploring the texture of memory itself: is it soft like the inner potato filling, or brittle like old parchment?",
+    "sensory_detail": "Gustatory: The metallic flatness that replaces rich umami sensation.",
+    "research_question": "How does the cadence of Jibran/Orillas align with describing absolute sensory deprivation?",
+    "structural_variant": "An extended use of parallelism where every positive memory is immediately counterbalanced by its muted translation.",
+    "variety_note": "Unlike neighbour chapters focused externally on market clutter or ingredient substitution, this chapter turns entirely inward, meditating exclusively on the residue—the philosophical weight and silence left *after* consumption."
+  }
+}

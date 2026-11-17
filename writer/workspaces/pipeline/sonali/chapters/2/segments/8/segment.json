@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 2,
+  "segment_index": 8,
+  "total_segments": 8,
+  "segment_title": "অজানা পথের আহ্বান",
+  "segment_summary": "এই ইন্দ্রিয়গত যাত্রা তাকে এমন এক অজানা পথের দিকে ঠেলে দিচ্ছে, যার গন্তব্য সে এখনও জানে না।",
+  "name": "8",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "ইন্দ্রিয়গত জাগরণকে একটি 'স্বয়ং-প্রতিস্থাপন' হিসেবে দেখানো, যেখানে বাহ্যিক উদ্দীপনা তার ভেতরের সত্তাকে নতুন রূপে জোর করে ঢেলে দিচ্ছে।",
+    "story_option": "বৃষ্টিস্নাত বিকেলে, ছাদের কোণে বসে সে পুরোনো লণ্ঠনটির দিকে তাকায় (স্থান), শীতল ভেজা বাতাস তাকে আত্মার গভীরতম স্তরে টেনে নিয়ে যায় (আকাঙ্ক্ষা), কিন্তু সেই বাতাসের মধ্যে কেবল বিবর্ণ নোনা জলের গন্ধ আসে (বাধা/মোড়)।",
+    "subject_rotation": "এই জাগরণকে কেবল কামনার দিকে চালিত না করে, প্রকৃতির আদিম শক্তির প্রতি (যেমন মাটির গন্ধ) এক সম্মানের জন্ম দেওয়া—যা আকাঙ্ক্ষাকে পবিত্রতা দেয়।",
+    "sensory_detail": "বাজারের কোলাহলের মাঝেও কানে ভেসে আসা দূরবর্তী কোনো বাঁশির একঘেয়ে, অথচ অনুরণনকারী সুর (অডিটরি)",
+    "research_question": "কবিতায় ব্যবহৃত রঙের তীব্রতাকে এমনভাবে কিভাবে উপস্থাপন করা যায় যাতে সেটি উদ্দীপনা হিসেবে কাজ করে, কিন্তু যেন তা পাঠককে অতিরিক্ত উত্তেজিত না করে?",
+    "structural_variant": "A recursive structure where each segment starts by referencing a sense from the previous one, creating a spiraling focus on sensation.",
+    "variety_note": "This chapter shifts focus from introspection (Chapter 1) to outward immersion; it documents how intense sensory engagement paradoxically deepens the internal sense of alienation."
+  }
+}

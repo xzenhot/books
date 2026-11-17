@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 25,
+  "segment_index": 7,
+  "total_segments": 8,
+  "segment_title": "শিকড়ের অনুরণন",
+  "segment_summary": "হারানো স্বাদের মাধ্যমে প্রবাসীর 'আমি' তার শিকড়ের প্রতি এক নীরব কিন্তু দৃঢ় সংযোগ খুঁজে নেয়।",
+  "name": "7",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the taste as a form of 'archaic frequency'—a vibration only audible in memory, not in reality.",
+    "story_option": "Setting: The small, dim utility room late at night; Desire: To listen for the faint sound of churning curd in a distant kitchen; Obstacle: The omnipresent hum of foreign machinery; Turn: Recognizing the machine's rhythm as mimicking an ancestral cooking beat.",
+    "subject_rotation": "Treating 'swaad' (taste) as a kind of non-transferable linguistic code—a secret dialect spoken only between past self and current body.",
+    "sensory_detail": "Sight: The way residual orange oil streaks across a pale, non-porous metal surface under sodium vapor light.",
+    "research_question": "What metaphorical language can convey a flavor profile that has been permanently 'translated' but cannot be retroactively simplified or reduced?",
+    "structural_variant": "A deliberate break between every three segments, using stark, unadorned prose fragments (mimicking a grocery list) before returning to dense verse.",
+    "variety_note": "Unlike previous chapters that dissected the components or journey, this final sequence focuses purely on the phenomenology of 'aftertaste'—the philosophical residue remaining after consumption ceases."
+  }
+}

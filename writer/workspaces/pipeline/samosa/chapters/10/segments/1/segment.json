@@ -1,6 +1,22 @@
 {
   "level": "segment",
-  "state": "pending",
+  "state": "enriched",
   "chapter_index": 10,
-  "segment_index": 1
+  "segment_index": 1,
+  "total_segments": 8,
+  "segment_title": "শেষের ফোঁটা",
+  "segment_summary": "সামোসাটির শেষ টুকরোটি গিলে ফেলার পর জিভে যে হালকা, কিন্তু গভীর শূন্যতাটি নেমে আসে, তা কেবল পেট ভরার সমাপ্তি নয়।",
+  "name": "1",
+  "word_target": 60,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "The wall/object as interlocutor: Direct address to an inert object (a chipped plate, a cold counter) that absorbs the protagonist's unuttered lament over the flavor.",
+    "story_option": "Setting: An empty kitchen counter after cooking; Desire: To communicate the failure of flavor to an ancestral spirit who might be observing from beyond the border; Obstacle: The sheer silence that absorbs all attempts at articulation.",
+    "subject_rotation": "Focusing entirely on the *absence* as an active presence, rather than merely a void. The 'not-taste' becomes denser and more palpable than the taste itself.",
+    "sensory_detail": "The brittle, papery sound the final, dry crumb makes when accidentally brushed against the teeth.",
+    "research_question": "What is the appropriate archaic Bengali diction to denote a flavor that exists conceptually but fails to manifest sensorially?",
+    "structural_variant": "Employing strict adherence to the 10-word count per line as a deliberate, almost mechanical restraint against sprawling emotion.",
+    "variety_note": "This chapter shifts focus from describing the *change* (like Chapter 3) to dwelling exclusively on the ontological weight of what is left behind after consumption, confronting the void directly through symbolic address."
+  }
 }

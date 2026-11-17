@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 18,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "ভটিয়ালির শেষ সুর",
+  "segment_summary": "ভটিয়ালি গানটি কেবল সুর নয়, তা হয়ে ওঠে তার অস্তিত্বের প্রতিচ্ছবি, যা প্রকৃতির সাথে তার অবিচ্ছেদ্য সম্পর্ককে ঘোষণা করে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Exploring the 'intrinsic right' of the river—that its flow is a sovereign act against human quantification.",
+    "story_option": "Setting: Just as the sun breaks through low river mist in the morning. Desire: To witness this moment of perfect equilibrium (nature vs. effort) before any transaction begins, Obstacle: The metallic smell of industry drifting on the breeze.",
+    "subject_rotation": "Focusing on the boat wood itself—how its age and scars are a non-negotiable ledger against slick, manufactured materials.",
+    "sensory_detail": "The visual quality of refracted light passing through layers of suspended silt particles in the current.",
+    "research_question": "What specific Bengali term denotes an 'unpayable debt' that is purely existential or spiritual rather than monetary?",
+    "structural_variant": "A cyclical structure where Segment 8 echoes a core motif from Segment 1 but in its inverted emotional state.",
+    "variety_note": "This chapter pushes away from external conflict toward deep internal resolution; instead of fighting the barrier (like Chapter 6), it absorbs the weight of that confrontation into the rhythm of his being."
+  }
+}

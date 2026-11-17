@@ -1,0 +1,22 @@
+{
+  "level": "segment",
+  "state": "enriched",
+  "chapter_index": 15,
+  "segment_index": 3,
+  "total_segments": 8,
+  "segment_title": "নীরবতার স্বীকৃতি",
+  "segment_summary": "সাঁওতালদের সেই নিস্পৃহ দৃষ্টির প্রতিধ্বনি তার মনে বাজে; তারা কোনো উপদেশ দেয়নি, কেবল অস্তিত্বের সত্যকে মেনে নিয়েছে।",
+  "name": "3",
+  "word_target": 500,
+  "further_references": [],
+  "segment_enrichment": {
+    "status": "enriched",
+    "angle": "Focusing on the trajectory of the dust motes illuminated by the returning sun: how their slow, weightless descent mocks human attempts at monumental permanence.",
+    "story_option": "Setting: Inside the deepest corner of the collapsed mansion, shielded from the sun by rubble; Desire: To try and mentally reconstruct the exact ritual that was interrupted, attempting to impose order on chaos; Obstacle: Finding only organic debris—unidentified husks, seeds—that bear no resemblance to sacred implements.",
+    "subject_rotation": "Reinterpreting the final journey not as a physical walk away, but as an ongoing resonance with the soundscape—the memory of wind vibrations remaining in his bones.",
+    "sensory_detail": "Touch: The fine grit feeling surprisingly warm against exposed skin, suggesting residual stored heat in the stone mass.",
+    "research_question": "How does Bengali lyrical tradition articulate the sensation of moving from overwhelming sensory input (storm) to profound sensory deprivation (calm)?",
+    "structural_variant": "A purely stream-of-consciousness structure, where the segments flow without hard transitions, dictated solely by memory fragments triggered by tactile sensations.",
+    "variety_note": "This chapter pivots entirely away from intellectual confrontation; where earlier parts explored the *resistance* to change, this final phase is dedicated solely to the exhausted *completion* of surrender and departure."
+  }
+}
